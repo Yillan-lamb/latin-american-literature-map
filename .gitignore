@@ -1,0 +1,19 @@
+.DS_Store
+.env
+.env.*
+!.env.example
+
+# 用户提供的书籍和私有研究材料不得进入公开仓库
+sources/private/
+private/
+*.pdf
+*.epub
+*.mobi
+*.azw
+*.azw3
+
+# 本地数据库临时文件和 Agent 会话状态
+*.sqlite-journal
+*.sqlite-shm
+*.sqlite-wal
+.claude/agent-sessions/

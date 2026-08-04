@@ -15,6 +15,10 @@ handoffs/incoming/
 *.azw
 *.azw3
 
+# 外部 AI 任务包可能包含原始书籍、整书 OCR 和本地中间产物
+N1-OCR-*/
+N1-OCR-*.zip
+
 # 本地数据库临时文件和 Agent 会话状态
 *.sqlite-journal
 *.sqlite-shm

@@ -1,0 +1,60 @@
+﻿fact_candidate_id,subject_candidate_id,subject_label,fact_field,value_candidate,source_id,source_title,confidence,dispute_status,issue_notes,extracted_by
+B03-FCT-0001,B03-ENT-0001,马里奥·巴尔加斯·略萨,birth_year,1936,B03-SRC-0004,Mario Vargas Llosa – Facts,high,none,Nobel：Born 28 March 1936,EXT-AI-02
+B03-FCT-0002,B03-ENT-0001,马里奥·巴尔加斯·略萨,death_year,2025,B03-SRC-0004,Mario Vargas Llosa – Facts,high,none,"Nobel：Died 13 April 2025, Lima, Peru（权威直接核验）",EXT-AI-02
+B03-FCT-0003,B03-ENT-0001,马里奥·巴尔加斯·略萨,country_or_region,秘鲁,B03-SRC-0004,Mario Vargas Llosa – Facts,high,none,Nobel：Peruvian author,EXT-AI-02
+B03-FCT-0004,B03-ENT-0001,马里奥·巴尔加斯·略萨,entity_layer,author,B03-SRC-0004,Mario Vargas Llosa – Facts,high,none,,EXT-AI-02
+B03-FCT-0005,B03-ENT-0001,马里奥·巴尔加斯·略萨,one_sentence_summary,秘鲁小说家，2010 年诺贝尔文学奖得主，曾为 1990 年秘鲁总统选举候选人，生前大部分时间居于马德里,B03-SRC-0004,Mario Vargas Llosa – Facts,high,none,Nobel facts 综合,EXT-AI-02
+B03-FCT-0006,B03-ENT-0001,马里奥·巴尔加斯·略萨,award,诺贝尔文学奖（2010）,B03-SRC-0005,The Nobel Prize in Literature 2010,high,none,NobelPrize.org,EXT-AI-02
+B03-FCT-0007,B03-ENT-0001,马里奥·巴尔加斯·略萨,research_note,获奖理由：对权力结构的绘图与个体抵抗、反叛和失败的尖锐形象,B03-SRC-0005,The Nobel Prize in Literature 2010,high,none,NobelPrize.org 原文,EXT-AI-02
+B03-FCT-0008,B03-ENT-0001,马里奥·巴尔加斯·略萨,personal_note,Nobel facts 页称其“已婚并有三个孩子”（页面为旧版表述，未反映后续婚姻变化，照录）,B03-SRC-0004,Mario Vargas Llosa – Facts,medium,none,Nobel：is married with three children,EXT-AI-02
+B03-FCT-0009,B03-ENT-0002,巴勃罗·聂鲁达,birth_year,1904,B03-SRC-0011,Pablo Neruda – Facts,high,none,Nobel：Born 12 July 1904；CVC 同,EXT-AI-02
+B03-FCT-0010,B03-ENT-0002,巴勃罗·聂鲁达,death_year,1973,B03-SRC-0011,Pablo Neruda – Facts,high,none,Nobel：Died 23 September 1973；CVC 同,EXT-AI-02
+B03-FCT-0011,B03-ENT-0002,巴勃罗·聂鲁达,country_or_region,智利,B03-SRC-0011,Pablo Neruda – Facts,high,none,Nobel：Born/Died/Residence 智利,EXT-AI-02
+B03-FCT-0012,B03-ENT-0002,巴勃罗·聂鲁达,original_name,Neftalí Ricardo Reyes Basoalto,B03-SRC-0012,CVC. Pablo Neruda.（数字展：主展页 + Biografía 页）,high,none,CVC：原名，1920 年首用笔名 Pablo Neruda、1946 年正式采用,EXT-AI-02
+B03-FCT-0013,B03-ENT-0002,巴勃罗·聂鲁达,entity_layer,author,B03-SRC-0011,Pablo Neruda – Facts,high,none,,EXT-AI-02
+B03-FCT-0014,B03-ENT-0002,巴勃罗·聂鲁达,one_sentence_summary,智利诗人，1971 年诺贝尔文学奖得主，曾任外交官与智利共产党参议员,B03-SRC-0011,Pablo Neruda – Facts,high,none,Nobel facts 综合,EXT-AI-02
+B03-FCT-0015,B03-ENT-0002,巴勃罗·聂鲁达,award,诺贝尔文学奖（1971）,B03-SRC-0011,Pablo Neruda – Facts,high,none,NobelPrize.org,EXT-AI-02
+B03-FCT-0016,B03-ENT-0002,巴勃罗·聂鲁达,research_note,获奖理由：以元素性力量的诗使一个大陆的命运与梦想复活,B03-SRC-0011,Pablo Neruda – Facts,high,none,NobelPrize.org 原文,EXT-AI-02
+B03-FCT-0017,B03-ENT-0002,巴勃罗·聂鲁达,career_note,1927 年起任外交官（缅甸、新加坡、爪哇、中国、阿根廷、西班牙等地）；1934-1936 居西班牙,B03-SRC-0012,CVC. Pablo Neruda.（数字展：主展页 + Biografía 页）,high,none,CVC 传记,EXT-AI-02
+B03-FCT-0018,B03-ENT-0002,巴勃罗·聂鲁达,political_note,1945 年当选智利共产党参议员并获国家文学奖,B03-SRC-0012,CVC. Pablo Neruda.（数字展：主展页 + Biografía 页）,high,none,CVC 传记；Nobel facts 亦载共产党参议员,EXT-AI-02
+B03-FCT-0019,B03-ENT-0003,《城市与狗》,entity_layer,work,B03-SRC-0001,"Lima: encierro y evasión en ""La ciudad y los perros"" de Mario Vargas Llosa",high,none,,EXT-AI-02
+B03-FCT-0020,B03-ENT-0003,《城市与狗》,genre_or_form,长篇小说,B03-SRC-0001,"Lima: encierro y evasión en ""La ciudad y los perros"" de Mario Vargas Llosa",high,none,Ángulo Recto：“la novela”,EXT-AI-02
+B03-FCT-0021,B03-ENT-0003,《城市与狗》,one_sentence_summary,以利马为背景的小说；论文从中提取寓言与象征元素作 20 世纪中叶利马城市问题的阐释（困闭与逃避）,B03-SRC-0001,"Lima: encierro y evasión en ""La ciudad y los perros"" de Mario Vargas Llosa",high,none,,EXT-AI-02
+B03-FCT-0022,B03-ENT-0003,《城市与狗》,key_place,利马,B03-SRC-0001,"Lima: encierro y evasión en ""La ciudad y los perros"" de Mario Vargas Llosa",high,none,,EXT-AI-02
+B03-FCT-0023,B03-ENT-0004,《酒吧长谈》,entity_layer,work,B03-SRC-0002,"El Boom y el fracaso de los intelectuales. Sobre ""Conversación en la Catedral"" (1969) de Vargas Llosa y ""Cien años de soledad"" (1967) de García Márquez",high,none,,EXT-AI-02
+B03-FCT-0024,B03-ENT-0004,《酒吧长谈》,first_publication_year,1969,B03-SRC-0002,"El Boom y el fracaso de los intelectuales. Sobre ""Conversación en la Catedral"" (1969) de Vargas Llosa y ""Cien años de soledad"" (1967) de García Márquez",high,none,Catedral Tomada 标题标注 (1969),EXT-AI-02
+B03-FCT-0025,B03-ENT-0004,《酒吧长谈》,genre_or_form,长篇小说,B03-SRC-0002,"El Boom y el fracaso de los intelectuales. Sobre ""Conversación en la Catedral"" (1969) de Vargas Llosa y ""Cien años de soledad"" (1967) de García Márquez",high,none,Catedral Tomada：“novela del período”,EXT-AI-02
+B03-FCT-0026,B03-ENT-0004,《酒吧长谈》,one_sentence_summary,论文以该小说为对象讨论文学爆炸中知识分子的角色：作家进入公共领域及其失败的表征,B03-SRC-0002,"El Boom y el fracaso de los intelectuales. Sobre ""Conversación en la Catedral"" (1969) de Vargas Llosa y ""Cien años de soledad"" (1967) de García Márquez",high,none,,EXT-AI-02
+B03-FCT-0027,B03-ENT-0005,《世界末日之战》,entity_layer,work,B03-SRC-0003,"Canudos o la redención de los malditos: La guerra del fin del mundo, de Mario Vargas Llosa",high,none,,EXT-AI-02
+B03-FCT-0028,B03-ENT-0005,《世界末日之战》,first_publication_year,1981,B03-SRC-0003,"Canudos o la redención de los malditos: La guerra del fin del mundo, de Mario Vargas Llosa",high,none,Letral：“publicada en 1981”,EXT-AI-02
+B03-FCT-0029,B03-ENT-0005,《世界末日之战》,genre_or_form,长篇小说,B03-SRC-0003,"Canudos o la redención de los malditos: La guerra del fin del mundo, de Mario Vargas Llosa",high,none,Letral：“La sexta novela de Vargas Llosa”,EXT-AI-02
+B03-FCT-0030,B03-ENT-0005,《世界末日之战》,one_sentence_summary,1981 年出版；论文认为 Consejero 人物与整部小说瓦解殖民视角对拉美的解读，成为拉美去殖民思想在文学话语上的先例,B03-SRC-0003,"Canudos o la redención de los malditos: La guerra del fin del mundo, de Mario Vargas Llosa",high,none,,EXT-AI-02
+B03-FCT-0031,B03-ENT-0005,《世界末日之战》,key_character,劝世者（el Consejero）,B03-SRC-0003,"Canudos o la redención de los malditos: La guerra del fin del mundo, de Mario Vargas Llosa",high,none,,EXT-AI-02
+B03-FCT-0032,B03-ENT-0005,《世界末日之战》,research_note,论文标题“Canudos o la redención de los malditos”直接关联小说与卡努杜斯（Canudos）；关系词表无“基于事件”词，仅记录于此,B03-SRC-0003,"Canudos o la redención de los malditos: La guerra del fin del mundo, de Mario Vargas Llosa",medium,none,,EXT-AI-02
+B03-FCT-0033,B03-ENT-0006,《二十首情诗和一支绝望的歌》,entity_layer,collection,B03-SRC-0006,"La experiencia del amor en la obra de Pablo Neruda y Nizar Qabbani. Un estudio comparativo entre los dos poemarios: ""Veinte poemas de amor y una canción desesperada"" y ""Cien cartas de amor""",high,none,Kadhim：“los dos poemarios”,EXT-AI-02
+B03-FCT-0034,B03-ENT-0006,《二十首情诗和一支绝望的歌》,first_publication_year,1924,B03-SRC-0012,CVC. Pablo Neruda.（数字展：主展页 + Biografía 页）,high,none,CVC：1923 年首部诗集后次年出版,EXT-AI-02
+B03-FCT-0035,B03-ENT-0006,《二十首情诗和一支绝望的歌》,genre_or_form,诗集,B03-SRC-0006,"La experiencia del amor en la obra de Pablo Neruda y Nizar Qabbani. Un estudio comparativo entre los dos poemarios: ""Veinte poemas de amor y una canción desesperada"" y ""Cien cartas de amor""",high,none,Kadhim：“poemario”,EXT-AI-02
+B03-FCT-0036,B03-ENT-0006,《二十首情诗和一支绝望的歌》,one_sentence_summary,聂鲁达早期情诗集；比较研究以“爱情体验”的形成切入（与 Nizar Qabbani《一百封情书》对比）,B03-SRC-0006,"La experiencia del amor en la obra de Pablo Neruda y Nizar Qabbani. Un estudio comparativo entre los dos poemarios: ""Veinte poemas de amor y una canción desesperada"" y ""Cien cartas de amor""",high,none,,EXT-AI-02
+B03-FCT-0037,B03-ENT-0006,《二十首情诗和一支绝望的歌》,research_note,CVC：该诗集使其进入国际视野，获得近乎鲁文·达里奥的名声,B03-SRC-0012,CVC. Pablo Neruda.（数字展：主展页 + Biografía 页）,high,none,R1：Araya 信息拆至 FCT-0059（REVIEW §3.3）,EXT-AI-02
+B03-FCT-0038,B03-ENT-0007,《大地上的居所》,entity_layer,collection,B03-SRC-0007,"Interpretación de ""residencia en la tierra"" de Pablo Neruda",high,none,诗集,EXT-AI-02
+B03-FCT-0039,B03-ENT-0007,《大地上的居所》,genre_or_form,诗集,B03-SRC-0007,"Interpretación de ""residencia en la tierra"" de Pablo Neruda",high,none,Atenea 专论该诗集,EXT-AI-02
+B03-FCT-0040,B03-ENT-0007,《大地上的居所》,research_note,Concha 1972 年《Atenea》专论解读该诗集；分卷构成与各卷出版年来源未直接列明，待补（ISSUES）,B03-SRC-0007,"Interpretación de ""residencia en la tierra"" de Pablo Neruda",medium,none,,EXT-AI-02
+B03-FCT-0041,B03-ENT-0008,《漫歌》,entity_layer,collection,B03-SRC-0009,Un événement poétique : le Canto General de Pablo Neruda,high,none,诗集,EXT-AI-02
+B03-FCT-0042,B03-ENT-0008,《漫歌》,first_publication_year,1950,B03-SRC-0009,Un événement poétique : le Canto General de Pablo Neruda,high,none,Persée：1950 年秋墨西哥 Océano 出版,EXT-AI-02
+B03-FCT-0043,B03-ENT-0008,《漫歌》,genre_or_form,史诗诗集,B03-SRC-0011,Pablo Neruda – Facts,high,none,Nobel：“an epic poem about the whole South American continent”；CVC：“la epopeya”,EXT-AI-02
+B03-FCT-0044,B03-ENT-0008,《漫歌》,one_sentence_summary,关于整个南美大陆的美洲史诗，从美洲最早的世界的浑朴宇宙起源开始（CVC/Nobel）,B03-SRC-0012,CVC. Pablo Neruda.（数字展：主展页 + Biografía 页）,high,none,CVC：la epopeya que comienza con la telúrica cosmogonía,EXT-AI-02
+B03-FCT-0045,B03-ENT-0008,《漫歌》,research_note,Persée：1950 年 Océano 版由 Diego Rivera 与 David A. Siqueiros 绘制插图,B03-SRC-0009,Un événement poétique : le Canto General de Pablo Neruda,high,none,,EXT-AI-02
+B03-FCT-0046,B03-ENT-0009,《马丘比丘高地》,entity_layer,work,B03-SRC-0012,CVC. Pablo Neruda.（数字展：主展页 + Biografía 页）,high,none,单篇诗,EXT-AI-02
+B03-FCT-0047,B03-ENT-0009,《马丘比丘高地》,research_note,CVC 传记在作品序列中列出；通行收录于《漫歌》，收录关系无权威目录直接支持，CONTAINS_WORK 未建（ISSUES）,B03-SRC-0012,CVC. Pablo Neruda.（数字展：主展页 + Biografía 页）,medium,none,,EXT-AI-02
+B03-FCT-0048,B03-ENT-0010,智利,entity_layer,place,B03-SRC-0011,Pablo Neruda – Facts,high,none,,EXT-AI-02
+B03-FCT-0049,B03-ENT-0011,秘鲁,entity_layer,place,B03-SRC-0004,Mario Vargas Llosa – Facts,high,none,,EXT-AI-02
+B03-FCT-0050,B03-ENT-0017,文学爆炸,entity_layer,movement,B03-SRC-0002,"El Boom y el fracaso de los intelectuales. Sobre ""Conversación en la Catedral"" (1969) de Vargas Llosa y ""Cien años de soledad"" (1967) de García Márquez",high,none,,EXT-AI-02
+B03-FCT-0051,B03-ENT-0024,大陆命运与美洲史诗,entity_layer,theme,B03-SRC-0011,Pablo Neruda – Facts,high,none,双来源（Nobel+CVC）,EXT-AI-02
+B03-FCT-0052,B03-ENT-0026,卡努杜斯战争,entity_layer,event,B03-SRC-0003,"Canudos o la redención de los malditos: La guerra del fin del mundo, de Mario Vargas Llosa",medium,none,历史事件；年份待核,EXT-AI-02
+B03-FCT-0053,B03-ENT-0027,1973 年智利政变,entity_layer,event,B03-SRC-0012,CVC. Pablo Neruda.（数字展：主展页 + Biografía 页）,high,none,,EXT-AI-02
+B03-FCT-0054,B03-ENT-0027,1973 年智利政变,event_year,1973,B03-SRC-0012,CVC. Pablo Neruda.（数字展：主展页 + Biografía 页）,high,none,CVC：1973-09-11 阿连德被推翻,EXT-AI-02
+B03-FCT-0055,B03-ENT-0028,劝世者,entity_layer,character,B03-SRC-0003,"Canudos o la redención de los malditos: La guerra del fin del mundo, de Mario Vargas Llosa",high,none,文学人物,EXT-AI-02
+B03-FCT-0056,B03-ENT-0028,劝世者,one_sentence_summary,Letral：Consejero 人物与整部小说瓦解殖民视角,B03-SRC-0003,"Canudos o la redención de los malditos: La guerra del fin del mundo, de Mario Vargas Llosa",medium,none,R1：与 Antônio Conselheiro 的同一性未核验、未进入事实（REVIEW §3.3）,EXT-AI-02
+B03-FCT-0057,B03-ENT-0031,智利共产党,entity_layer,institution,B03-SRC-0011,Pablo Neruda – Facts,high,none,双来源（Nobel+CVC）,EXT-AI-02
+B03-FCT-0058,B03-ENT-0031,智利共产党,one_sentence_summary,聂鲁达 1945 年以该党身份当选智利参议员,B03-SRC-0012,CVC. Pablo Neruda.（数字展：主展页 + Biografía 页）,high,none,CVC；Nobel facts 亦载,EXT-AI-02
+B03-FCT-0059,B03-ENT-0006,《二十首情诗和一支绝望的歌》,research_note,"Araya 论文（Persée 1982, Bulletin Hispanique）载该诗集创作过程中曾有两个先前标题",B03-SRC-0010,« Veinte poemas de amor y una canción desesperada »,high,none,R1：新增独立事实，仅由 SRC-0010 支持（REVIEW §3.3）,EXT-AI-02

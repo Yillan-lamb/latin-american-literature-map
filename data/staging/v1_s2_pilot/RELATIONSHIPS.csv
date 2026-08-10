@@ -1,0 +1,16 @@
+﻿relation_id,relation_group_id,subject_entity_id,relation_type,object_entity_id,description_zh,confidence,review_status,issue_notes
+STG-REL-0001,RG-S2-0001,STG-ENT-0002,CREATED,STG-ENT-0003,博尔赫斯创作短篇《小径分岔的花园》,high,accepted_for_n2,
+STG-REL-0002,RG-S2-0002,STG-ENT-0002,CREATED,STG-ENT-0004,博尔赫斯创作短篇《阿莱夫》,high,accepted_for_n2,
+STG-REL-0003,RG-S2-0003,STG-ENT-0002,CREATED,STG-ENT-0011,博尔赫斯创作短篇集《虚构集》,high,accepted_for_n2,
+STG-REL-0004,RG-S2-0004,STG-ENT-0002,CREATED,STG-ENT-0012,博尔赫斯创作 1949 年作品集《阿莱夫》,high,accepted_for_n2,
+STG-REL-0005,RG-S2-0005,STG-ENT-0016,CREATED,STG-ENT-0017,李斯佩克朵创作《活水》,high,accepted_for_n2,
+STG-REL-0006,RG-S2-0006,STG-ENT-0016,CREATED,STG-ENT-0018,李斯佩克朵创作《星辰时刻》,high,accepted_for_n2,
+STG-REL-0007,RG-S2-0007,STG-ENT-0016,CREATED,STG-ENT-0019,李斯佩克朵创作短篇集《家庭纽带》,high,accepted_for_n2,
+STG-REL-0008,RG-S2-0008,STG-ENT-0016,CREATED,STG-ENT-0020,李斯佩克朵创作《G.H. 受难》,medium,accepted_for_n2,
+STG-REL-0009,RG-S2-0009,STG-ENT-0016,CREATED,STG-ENT-0026,李斯佩克朵创作《生命的气息》,medium,accepted_for_n2,
+STG-REL-0010,RG-S2-0011,STG-ENT-0021,ADAPTED_FROM,STG-ENT-0018,1985 年电影《星辰时刻》改编自同名原著,high,accepted_for_n2,端点 0092 为 adaptation，与原著 0088 分层（REVIEW 3.3）；导演关系本轮词表无 DIRECTED，不建
+STG-REL-0011,RG-S2-0013,STG-ENT-0003,SET_IN,STG-ENT-0008,《小径分岔的花园》故事发生于阿什格罗夫村,medium,accepted_for_n2,
+STG-REL-0012,RG-S2-0014,STG-ENT-0004,SET_IN,STG-ENT-0009,《阿莱夫》故事核心地点为布宜诺斯艾利斯加雷街,medium,accepted_for_n2,
+STG-REL-0013,RG-S2-0015,STG-ENT-0018,SET_IN,STG-ENT-0022,《星辰时刻》故事背景包含里约热内卢,medium,accepted_for_n2,
+STG-REL-0014,RG-S2-0016,STG-ENT-0002,ASSOCIATED_WITH_PLACE,STG-ENT-0001,博尔赫斯与阿根廷关联,high,accepted_for_n2,
+STG-REL-0015,RG-S2-0022,STG-ENT-0018,EXPLORES_THEME,STG-ENT-0025,《星辰时刻》涉及社会不平等与书写,medium,accepted_for_n2,双来源组（SRC-0009+SRC-0012），本轮唯一双来源解释关系

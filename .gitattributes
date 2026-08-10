@@ -1,0 +1,7 @@
+# Normalize public text artifacts in the repository while keeping generated binaries opaque.
+*.md text eol=lf
+*.csv text eol=lf
+*.json text eol=lf
+*.py text eol=lf
+*.xlsx binary
+*.sqlite binary

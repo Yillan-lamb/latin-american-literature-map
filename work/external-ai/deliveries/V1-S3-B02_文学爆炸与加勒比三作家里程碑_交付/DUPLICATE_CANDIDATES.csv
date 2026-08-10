@@ -1,0 +1,14 @@
+﻿duplicate_id,batch_candidate_id,entity_type,canonical_name_candidate,original_name,match_type,existing_id,existing_pool,issue_notes
+DUP-B02-0001,B02-ENT-0001,author,加西亚·马尔克斯,Gabriel García Márquez,exact,CAND-AUTHOR-0021;CAND-AUTHOR-0067;CAND-AUTHOR-0106;CAND-AUTHOR-0151;CAND-AUTHOR-0259;CAND-AUTHOR-0306,S1候选387,同名候选 6 条，需 Codex 合并判定（不删除本批候选）
+DUP-B02-0002,B02-ENT-0002,author,胡利奥·科塔萨尔,Julio Cortázar,exact,CAND-AUTHOR-0107;CAND-AUTHOR-0304,S1候选387,同名候选 2 条，需 Codex 合并判定
+DUP-B02-0003,B02-ENT-0003,author,阿莱霍·卡彭铁尔,Alejo Carpentier,exact,CAND-AUTHOR-0026;CAND-AUTHOR-0303,S1候选387,同名候选 2 条，需 Codex 合并判定
+DUP-B02-0004,B02-ENT-0004,work,《百年孤独》,Cien años de soledad,exact,CAND-WORK-0009;CAND-WORK-0081;CAND-WORK-0104,S1候选387,同名候选 3 条，需 Codex 合并判定
+DUP-B02-0005,B02-ENT-0005,work,《没有人给他写信的上校》,El coronel no tiene quien le escriba,exact,CAND-WORK-0010,S1候选387,同名候选 1 条
+DUP-B02-0006,B02-ENT-0006,work,《一桩事先张扬的凶杀案》,Crónica de una muerte anunciada,exact,CAND-WORK-0011,S1候选387,同名候选 1 条
+DUP-B02-0007,B02-ENT-0007,work,《跳房子》,Rayuela,exact,CAND-WORK-0103,S1候选387,同名候选 1 条
+DUP-B02-0008,B02-ENT-0024,place,哥伦比亚,Colombia,exact,CAND-PLACE-0002;CAND-PLACE-0052,S1候选387,同名候选 2 条
+DUP-B02-0009,B02-ENT-0025,place,阿根廷,Argentina,exact,CAND-PLACE-0004;CAND-PLACE-0051,S1候选387,同名候选 2 条
+DUP-B02-0010,B02-ENT-0026,place,古巴,Cuba,exact,CAND-PLACE-0007;CAND-PLACE-0053;CAND-PLACE-0250,S1候选387,同名候选 3 条
+DUP-B02-0011,B02-ENT-0027,place,马孔多,Macondo,exact,CAND-PLACE-0103,S1候选387,同名候选 1 条；虚构地点
+DUP-B02-0012,B02-ENT-0029,movement,魔幻现实主义,realismo mágico,exact,CAND-MOV-0001;CAND-MOV-0060;CAND-MOV-0103;CAND-MOV-0154;CAND-MOV-0200,S1候选387,同名候选 5 条
+DUP-B02-0013,B02-ENT-0030,movement,美洲神奇现实,lo real maravilloso,type_conflict,CAND-MOV-0001;CAND-MOV-0060;CAND-MOV-0103;CAND-MOV-0154;CAND-MOV-0200,S1候选387,概念不同：不得与“魔幻现实主义”合并（任务卡 §5.3、REVIEW I-003）；仅作冲突提醒

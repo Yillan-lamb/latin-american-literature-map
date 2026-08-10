@@ -1,0 +1,32 @@
+﻿relation_group_id,subject_label,relation_type,object_label,description_zh,evidence_count,source_ids,review_status,confidence,issue_notes
+RG-B01-0001,埃莱娜·加罗,CREATED,《未来的回忆》,加罗创作《未来的回忆》,1,B01-SRC-0001,eligible_for_staging_review,high,
+RG-B01-0002,埃莱娜·加罗,CREATED,《彩色的一周》,加罗创作短篇集《彩色的一周》,1,B01-SRC-0005,eligible_for_staging_review,high,
+RG-B01-0003,埃莱娜·加罗,CREATED,《关于玛丽安娜的证词》,加罗创作《关于玛丽安娜的证词》,1,B01-SRC-0001,eligible_for_staging_review,medium,
+RG-B01-0004,罗萨里奥·卡斯特利亚诺斯,CREATED,《巴伦坎南》,卡斯特利亚诺斯创作《巴伦坎南》,1,B01-SRC-0006,eligible_for_staging_review,high,
+RG-B01-0005,罗萨里奥·卡斯特利亚诺斯,CREATED,《黑暗的职守》,卡斯特利亚诺斯创作《黑暗的职守》,1,B01-SRC-0006,eligible_for_staging_review,high,
+RG-B01-0006,罗萨里奥·卡斯特利亚诺斯,CREATED,《诗歌不是你》,卡斯特利亚诺斯创作诗集《诗歌不是你》,1,B01-SRC-0006,eligible_for_staging_review,high,
+RG-B01-0007,胡安·鲁尔福,CREATED,《佩德罗·巴拉莫》,鲁尔福创作《佩德罗·巴拉莫》,1,B01-SRC-0011,eligible_for_staging_review,high,
+RG-B01-0008,胡安·鲁尔福,CREATED,《燃烧的原野》,鲁尔福创作短篇集《燃烧的原野》,1,B01-SRC-0011,eligible_for_staging_review,high,
+RG-B01-0009,胡安·鲁尔福,CREATED,《金鸡》,鲁尔福创作《金鸡》,1,B01-SRC-0011,eligible_for_staging_review,high,
+RG-B01-0010,罗萨里奥·卡斯特利亚诺斯,CREATED,《永恒的女性》,卡斯特利亚诺斯创作剧作《永恒的女性》,1,B01-SRC-0006,eligible_for_staging_review,medium,
+RG-B01-0011,埃莱娜·加罗,CREATED,《费利佩·安赫莱斯》,加罗创作剧作《费利佩·安赫莱斯》,1,B01-SRC-0001,eligible_for_staging_review,medium,
+RG-B01-0012,《彩色的一周》,CONTAINS_WORK,《La culpa es de los tlaxcaltecas》,《彩色的一周》收录《La culpa es de los tlaxcaltecas》,1,B01-SRC-0005,eligible_for_staging_review,medium,
+RG-B01-0013,《未来的回忆》（1968 年电影）,ADAPTED_FROM,《未来的回忆》,1968 年电影《未来的回忆》改编自同名小说,1,B01-SRC-0004,eligible_for_staging_review,high,
+RG-B01-0014,阿图罗·里普斯坦,DIRECTED,《未来的回忆》（1968 年电影）,阿图罗·里普斯坦执导 1968 年电影,1,B01-SRC-0004,eligible_for_staging_review,high,Schema 0.2 DIRECTED；person→adaptation
+RG-B01-0015,Balún-Canán（FCE 2007 版）,EDITION_OF,《巴伦坎南》,FCE 2007 版《巴伦坎南》为其版本,1,B01-SRC-0007,eligible_for_staging_review,high,
+RG-B01-0016,Pedro Páramo（FCE 1964 版）,EDITION_OF,《佩德罗·巴拉莫》,FCE 1964 版《佩德罗·巴拉莫》为其版本,1,B01-SRC-0013,eligible_for_staging_review,medium,
+RG-B01-0017,《未来的回忆》,SET_IN,伊斯特佩克,《未来的回忆》故事发生于伊斯特佩克,1,B01-SRC-0004,eligible_for_staging_review,high,
+RG-B01-0018,《巴伦坎南》,SET_IN,恰帕斯,《巴伦坎南》故事发生于恰帕斯村镇,1,B01-SRC-0007,eligible_for_staging_review,high,
+RG-B01-0019,《佩德罗·巴拉莫》,SET_IN,科马拉,《佩德罗·巴拉莫》故事核心地点为科马拉,1,B01-SRC-0013,eligible_for_staging_review,high,
+RG-B01-0020,埃莱娜·加罗,ASSOCIATED_WITH_PLACE,墨西哥,加罗与墨西哥关联,1,B01-SRC-0001,eligible_for_staging_review,high,
+RG-B01-0021,罗萨里奥·卡斯特利亚诺斯,ASSOCIATED_WITH_PLACE,恰帕斯,卡斯特利亚诺斯与恰帕斯关联,1,B01-SRC-0006,eligible_for_staging_review,high,
+RG-B01-0022,罗萨里奥·卡斯特利亚诺斯,ASSOCIATED_WITH_PLACE,科米坦,卡斯特利亚诺斯与科米坦关联,1,B01-SRC-0006,eligible_for_staging_review,medium,
+RG-B01-0023,胡安·鲁尔福,ASSOCIATED_WITH_PLACE,墨西哥,鲁尔福与墨西哥关联,1,B01-SRC-0011,eligible_for_staging_review,high,
+RG-B01-0024,胡安·鲁尔福,ASSOCIATED_WITH_PLACE,圣加布里埃尔,鲁尔福与圣加布里埃尔关联,1,B01-SRC-0011,eligible_for_staging_review,medium,
+RG-B01-0025,《佩德罗·巴拉莫》,ASSOCIATED_WITH_MOVEMENT,墨西哥革命小说,《佩德罗·巴拉莫》与墨西哥革命小说传统对话,1,B01-SRC-0013,hold_needs_second_source,low,解释性/文学史判断，单来源
+RG-B01-0026,《未来的回忆》,EXPLORES_THEME,记忆与遗忘,《未来的回忆》探讨记忆与遗忘,1,B01-SRC-0003,hold_needs_second_source,medium,解释性判断，单来源
+RG-B01-0027,《未来的回忆》,EXPLORES_THEME,时间与历史,《未来的回忆》涉及时间与历史,1,B01-SRC-0003,hold_needs_second_source,medium,解释性判断，单来源
+RG-B01-0028,《巴伦坎南》,EXPLORES_THEME,暴力与语言,《巴伦坎南》探讨暴力与语言,1,B01-SRC-0008,hold_needs_second_source,medium,解释性判断，单来源
+RG-B01-0029,《巴伦坎南》,EXPLORES_THEME,沉默,《巴伦坎南》涉及沉默,1,B01-SRC-0008,hold_needs_second_source,medium,解释性判断，单来源
+RG-B01-0030,《佩德罗·巴拉莫》,EXPLORES_THEME,革命与基督战争,《佩德罗·巴拉莫》涉及革命与基督战争,1,B01-SRC-0012,hold_needs_second_source,medium,解释性判断，单来源
+RG-B01-0031,《佩德罗·巴拉莫》,EXPLORES_THEME,乡村与革命后的土地,《佩德罗·巴拉莫》涉及乡村与革命后的土地,1,B01-SRC-0013,hold_needs_second_source,medium,解释性判断，单来源

@@ -13,6 +13,7 @@
 | `QA_REPORT_TEMPLATE.md` | `QA_REPORT.md` |
 | `ISSUES_TEMPLATE.md` | `ISSUES.md` |
 | `HANDOFF_TEMPLATE.md` | `HANDOFF.md` |
+| `LITE_HANDOFF_TEMPLATE.md` | `HANDOFF.md`（LITE 任务） |
 | `MANIFEST_TEMPLATE.md` | `MANIFEST.md` |
 | `SOURCE_RECORD_TEMPLATE.md` | `SOURCE_RECORD.md` |
 | `OCR_TEMPLATE.md` | `OCR.md` |
@@ -21,15 +22,20 @@
 | `RELATION_CANDIDATES_TEMPLATE.csv` | `RELATION_CANDIDATES.csv` |
 | `SOURCE_MANIFEST_TEMPLATE.csv` | `SOURCE_MANIFEST.csv` |
 
-最低必需文件：
+任务卡必须声明 `package_profile`：
 
-- `README.md`
-- `STATUS.md`
-- `QA_REPORT.md`
-- `ISSUES.md`
-- `HANDOFF.md`
-- `MANIFEST.md`
+- `LITE`：`README.md`、主体成果、`HANDOFF.md`；HANDOFF 合并状态、QA、问题和文件清单。
+- `FULL`：`README.md`、`STATUS.md`、`QA_REPORT.md`、`ISSUES.md`、`HANDOFF.md`、`MANIFEST.md` 和主体成果；独立复核另含 `REVIEW.md`。
 
-按任务增加：`SOURCE_RECORD.md`、`OCR.md`、`ENTITY_CANDIDATES.csv`、`RELATION_CANDIDATES.csv` 或 `REVIEW.md`。
+按任务增加：`SOURCE_RECORD.md`、`OCR.md`、`ENTITY_CANDIDATES.csv`、`RELATION_CANDIDATES.csv` 或 `REVIEW.md`。默认只要求来源级证据，页码和章节为可选增强信息。
+
+交付前运行：
+
+```bash
+python3 scripts/validate_external_delivery.py <交付目录> --profile LITE
+# 或 --profile FULL
+```
+
+将输出的 `result`、CSV 行列数、errors 和 warnings 摘要写入 HANDOFF。
 
 外部 AI 不得修改本模板原件，应在任务目录中填写副本。

@@ -1,0 +1,2347 @@
+{
+  "metadata": {
+    "package_id": "V1-S2-PILOT-N2",
+    "schema_version": "0.2-n2-review",
+    "generated_by": "Codex",
+    "generated_date": "2026-08-10",
+    "source_package": "V1-S2-007-A R0 pass",
+    "relationship_policy": "15 accepted_for_n2; 11 hold_needs_second_source"
+  },
+  "sources": [
+    {
+      "source_id": "SRC-0002",
+      "title": "拉丁美洲文学教程（阅读篇）",
+      "original_title": "Manual de la Literatura Hispanoamericana",
+      "source_level": "A",
+      "format": "pdf",
+      "language": "zh+es",
+      "persistent_id": "",
+      "canonical_url": ""
+    },
+    {
+      "source_id": "SRC-0007",
+      "title": "大英百科全书博尔赫斯传记",
+      "original_title": "Britannica: Jorge Luis Borges",
+      "source_level": "B",
+      "format": "html",
+      "language": "en",
+      "persistent_id": "",
+      "canonical_url": "https://www.britannica.com/biography/Jorge-Luis-Borges"
+    },
+    {
+      "source_id": "SRC-0008",
+      "title": "博尔赫斯《阿莱夫》之名的政治",
+      "original_title": "Politics of the Name: On Borges's \"El Aleph\"",
+      "source_level": "A",
+      "format": "pdf",
+      "language": "en",
+      "persistent_id": "Variaciones Borges 14 (2002) pp.7-21",
+      "canonical_url": "https://borges.pitt.edu/bsol/documents/1401.pdf"
+    },
+    {
+      "source_id": "SRC-0009",
+      "title": "IMS 李斯佩克朵专题网站",
+      "original_title": "Clarice Lispector (site oficial)",
+      "source_level": "B",
+      "format": "html",
+      "language": "pt",
+      "persistent_id": "",
+      "canonical_url": "https://site.claricelispector.ims.com.br/"
+    },
+    {
+      "source_id": "SRC-0010",
+      "title": "USP 博士论文（李斯佩克朵晚期小说研究）",
+      "original_title": "No limiar do silêncio e da letra: traços da autoria em Clarice Lispector",
+      "source_level": "A",
+      "format": "html+pdf",
+      "language": "pt",
+      "persistent_id": "DOI 10.11606/T.8.2001.tde-17102011-104726",
+      "canonical_url": "https://www.teses.usp.br/teses/disponiveis/8/8151/tde-17102011-104726/"
+    },
+    {
+      "source_id": "SRC-0011",
+      "title": "SciELO 期刊文章（升华与女性）",
+      "original_title": "Do que se pode ler em Clarice Lispector: sublimação e feminino",
+      "source_level": "A",
+      "format": "html",
+      "language": "pt",
+      "persistent_id": "DOI 10.1590/S0104-80232007000100016",
+      "canonical_url": "https://www.scielo.br/j/rdpsi/a/PyG66JcBMdCsLDwd7GVmT7v"
+    },
+    {
+      "source_id": "SRC-0012",
+      "title": "UNESP 期刊文章（虚构面具）",
+      "original_title": "Jogos ficcionais como máscaras em obras de Clarice Lispector",
+      "source_level": "A",
+      "format": "html+pdf",
+      "language": "pt",
+      "persistent_id": "DOI 10.5016/pem.v10i1.3557",
+      "canonical_url": "https://seer.assis.unesp.br/index.php/pem/article/view/3557"
+    },
+    {
+      "source_id": "SRC-0013",
+      "title": "UESB 期刊文章（21世纪读李斯佩克朵）",
+      "original_title": "CLARICE LISPECTOR PARA MULHERES – E HOMENS – DO SÉCULO XXI",
+      "source_level": "A",
+      "format": "html+pdf",
+      "language": "pt",
+      "persistent_id": "DOI 10.22481/folio.v12i2.7437",
+      "canonical_url": "https://periodicos2.uesb.br/folio/article/view/7437"
+    },
+    {
+      "source_id": "SRC-0014",
+      "title": "阿根廷国家图书馆《博尔赫斯问题》书目",
+      "original_title": "La Biblioteca No. 13: Cuestión Borges",
+      "source_level": "B",
+      "format": "pdf",
+      "language": "es",
+      "persistent_id": "La Biblioteca Año 10 No.13",
+      "canonical_url": "https://www.bn.gov.ar/micrositios/admin_assets/issues/files/6a0504ab40d7167a5b37b2467bf57845.pdf"
+    },
+    {
+      "source_id": "SRC-0015",
+      "title": "阿根廷国家图书馆《阿莱夫》80周年展览页",
+      "original_title": "Infinita veneración, infinita lástima: 80 años de El Aleph",
+      "source_level": "B",
+      "format": "html",
+      "language": "es",
+      "persistent_id": "BNMM El Aleph 80 años",
+      "canonical_url": "https://www.bn.gov.ar/agenda-cultural/infinita-veneracion-infinita-lastima-80-anos-de-el-aleph"
+    },
+    {
+      "source_id": "SRC-0016",
+      "title": "IMS 李斯佩克朵生平简介",
+      "original_title": "Sobre Clarice Lispector",
+      "source_level": "B",
+      "format": "html",
+      "language": "pt",
+      "persistent_id": "IMS 2017-06-01 Clarice",
+      "canonical_url": "https://ims.com.br/2017/06/01/sobre-clarice-lispector/"
+    }
+  ],
+  "entities": [
+    {
+      "entity_id": "STG-ENT-0001",
+      "entity_type": "place",
+      "canonical_name": "阿根廷",
+      "display_name_zh": "阿根廷",
+      "original_name": "Argentina",
+      "language": "es",
+      "country_or_region": "阿根廷",
+      "date_info": "",
+      "staging_status": "n2_review",
+      "issue_notes": "西语目录 OCR 经校正，置信度降为 medium，建议复核后恢复"
+    },
+    {
+      "entity_id": "STG-ENT-0002",
+      "entity_type": "author",
+      "canonical_name": "豪尔赫·路易斯·博尔赫斯",
+      "display_name_zh": "豪尔赫·路易斯·博尔赫斯",
+      "original_name": "Jorge Luis Borges",
+      "language": "es",
+      "country_or_region": "阿根廷",
+      "date_info": "1899-1986",
+      "staging_status": "n2_review",
+      "issue_notes": "既有候选 CAND-AUTHOR-0024/0058/0307（同名）需 Codex 合并"
+    },
+    {
+      "entity_id": "STG-ENT-0003",
+      "entity_type": "work",
+      "canonical_name": "《小径分岔的花园》",
+      "display_name_zh": "《小径分岔的花园》",
+      "original_name": "El jardín de senderos que se bifurcan",
+      "language": "es",
+      "country_or_region": "阿根廷",
+      "date_info": "1941",
+      "staging_status": "n2_review",
+      "issue_notes": "既有候选 CAND-WORK-0066（SRC-0002）需 Codex 合并；与同名1941年短篇集及《虚构集》(1944) 的收录关系待 Codex"
+    },
+    {
+      "entity_id": "STG-ENT-0004",
+      "entity_type": "work",
+      "canonical_name": "《阿莱夫》",
+      "display_name_zh": "《阿莱夫》（1945 年短篇）",
+      "original_name": "El Aleph",
+      "language": "es",
+      "country_or_region": "阿根廷",
+      "date_info": "1945",
+      "staging_status": "n2_review",
+      "issue_notes": "既有候选 CAND-WORK-0067（SRC-0002）需 Codex 合并；与同名1949年选集的关系待 Codex; 首发年由 SRC-0015 核定为 1945"
+    },
+    {
+      "entity_id": "STG-ENT-0005",
+      "entity_type": "author",
+      "canonical_name": "阿图尔·叔本华",
+      "display_name_zh": "阿图尔·叔本华",
+      "original_name": "Arthur Schopenhauer",
+      "language": "de",
+      "country_or_region": "德国",
+      "date_info": "",
+      "staging_status": "n2_review",
+      "issue_notes": ""
+    },
+    {
+      "entity_id": "STG-ENT-0006",
+      "entity_type": "author",
+      "canonical_name": "弗兰茨·卡夫卡",
+      "display_name_zh": "弗兰茨·卡夫卡",
+      "original_name": "Franz Kafka",
+      "language": "de",
+      "country_or_region": "奥地利",
+      "date_info": "",
+      "staging_status": "n2_review",
+      "issue_notes": ""
+    },
+    {
+      "entity_id": "STG-ENT-0007",
+      "entity_type": "author",
+      "canonical_name": "吉尔伯特·基思·切斯特顿",
+      "display_name_zh": "吉尔伯特·基思·切斯特顿",
+      "original_name": "G. K. Chesterton",
+      "language": "en",
+      "country_or_region": "英国",
+      "date_info": "",
+      "staging_status": "n2_review",
+      "issue_notes": ""
+    },
+    {
+      "entity_id": "STG-ENT-0008",
+      "entity_type": "place",
+      "canonical_name": "阿什格罗夫",
+      "display_name_zh": "阿什格罗夫",
+      "original_name": "Ashgrove",
+      "language": "en",
+      "country_or_region": "英国",
+      "date_info": "",
+      "staging_status": "n2_review",
+      "issue_notes": ""
+    },
+    {
+      "entity_id": "STG-ENT-0009",
+      "entity_type": "place",
+      "canonical_name": "加雷街",
+      "display_name_zh": "加雷街",
+      "original_name": "calle Garay",
+      "language": "es",
+      "country_or_region": "阿根廷",
+      "date_info": "",
+      "staging_status": "n2_review",
+      "issue_notes": ""
+    },
+    {
+      "entity_id": "STG-ENT-0010",
+      "entity_type": "movement",
+      "canonical_name": "极端主义（超主义）",
+      "display_name_zh": "极端主义（超主义）",
+      "original_name": "ultraísmo",
+      "language": "es",
+      "country_or_region": "西班牙/阿根廷",
+      "date_info": "1920s",
+      "staging_status": "n2_review",
+      "issue_notes": ""
+    },
+    {
+      "entity_id": "STG-ENT-0011",
+      "entity_type": "collection",
+      "canonical_name": "《虚构集》",
+      "display_name_zh": "《虚构集》",
+      "original_name": "Ficciones",
+      "language": "es",
+      "country_or_region": "阿根廷",
+      "date_info": "1944",
+      "staging_status": "n2_review",
+      "issue_notes": "与 SRC-0007 交叉行同实体；作品集与篇目（《小径分岔的花园》）层级关系待 Codex Schema 判定"
+    },
+    {
+      "entity_id": "STG-ENT-0012",
+      "entity_type": "collection",
+      "canonical_name": "《阿莱夫》",
+      "display_name_zh": "《阿莱夫》（1949 年作品集）",
+      "original_name": "El Aleph",
+      "language": "es",
+      "country_or_region": "阿根廷",
+      "date_info": "1949",
+      "staging_status": "n2_review",
+      "issue_notes": "与 CAND-WORK-0067 及《阿莱夫》短篇候选的层级关系待 Codex"
+    },
+    {
+      "entity_id": "STG-ENT-0013",
+      "entity_type": "theme",
+      "canonical_name": "时间的分岔与无限（多重未来）",
+      "display_name_zh": "时间的分岔与无限（多重未来）",
+      "original_name": "",
+      "language": "es/zh",
+      "country_or_region": "",
+      "date_info": "",
+      "staging_status": "n2_review",
+      "issue_notes": "属来源直接表述的主题，非已确认文学史结论"
+    },
+    {
+      "entity_id": "STG-ENT-0014",
+      "entity_type": "theme",
+      "canonical_name": "记忆与遗忘",
+      "display_name_zh": "记忆与遗忘",
+      "original_name": "",
+      "language": "es/zh",
+      "country_or_region": "",
+      "date_info": "",
+      "staging_status": "n2_review",
+      "issue_notes": ""
+    },
+    {
+      "entity_id": "STG-ENT-0015",
+      "entity_type": "theme",
+      "canonical_name": "无限与不可言说（阿莱夫）",
+      "display_name_zh": "无限与不可言说（阿莱夫）",
+      "original_name": "",
+      "language": "es/zh",
+      "country_or_region": "",
+      "date_info": "",
+      "staging_status": "n2_review",
+      "issue_notes": ""
+    },
+    {
+      "entity_id": "STG-ENT-0016",
+      "entity_type": "author",
+      "canonical_name": "克拉丽丝·李斯佩克朵",
+      "display_name_zh": "克拉丽丝·李斯佩克朵",
+      "original_name": "Clarice Lispector",
+      "language": "pt",
+      "country_or_region": "巴西",
+      "date_info": "1920-1977",
+      "staging_status": "n2_review",
+      "issue_notes": "生卒年（1920-1977）为通行常识且与该站2020年百年诞辰专刊一致，页面未直接显示，待 Codex 核验"
+    },
+    {
+      "entity_id": "STG-ENT-0017",
+      "entity_type": "work",
+      "canonical_name": "《活水》",
+      "display_name_zh": "《活水》",
+      "original_name": "Água viva",
+      "language": "pt",
+      "country_or_region": "巴西",
+      "date_info": "1973",
+      "staging_status": "n2_review",
+      "issue_notes": ""
+    },
+    {
+      "entity_id": "STG-ENT-0018",
+      "entity_type": "work",
+      "canonical_name": "《星辰时刻》",
+      "display_name_zh": "《星辰时刻》（1977 年小说）",
+      "original_name": "A hora da estrela",
+      "language": "pt",
+      "country_or_region": "巴西",
+      "date_info": "1977",
+      "staging_status": "n2_review",
+      "issue_notes": ""
+    },
+    {
+      "entity_id": "STG-ENT-0019",
+      "entity_type": "collection",
+      "canonical_name": "《家庭纽带》",
+      "display_name_zh": "《家庭纽带》",
+      "original_name": "Laços de família",
+      "language": "pt",
+      "country_or_region": "巴西",
+      "date_info": "1960",
+      "staging_status": "n2_review",
+      "issue_notes": ""
+    },
+    {
+      "entity_id": "STG-ENT-0020",
+      "entity_type": "work",
+      "canonical_name": "《G.H. 受难》",
+      "display_name_zh": "《G.H. 受难》",
+      "original_name": "A paixão segundo G.H.",
+      "language": "pt",
+      "country_or_region": "巴西",
+      "date_info": "1964",
+      "staging_status": "n2_review",
+      "issue_notes": ""
+    },
+    {
+      "entity_id": "STG-ENT-0021",
+      "entity_type": "adaptation",
+      "canonical_name": "《星辰时刻》",
+      "display_name_zh": "《星辰时刻》（1985 年电影）",
+      "original_name": "A hora da estrela (filme)",
+      "language": "pt",
+      "country_or_region": "巴西",
+      "date_info": "1985",
+      "staging_status": "n2_review",
+      "issue_notes": "影视改编，实体类型待 Codex Schema 确认"
+    },
+    {
+      "entity_id": "STG-ENT-0022",
+      "entity_type": "place",
+      "canonical_name": "里约热内卢",
+      "display_name_zh": "里约热内卢",
+      "original_name": "Rio de Janeiro",
+      "language": "pt",
+      "country_or_region": "巴西",
+      "date_info": "",
+      "staging_status": "n2_review",
+      "issue_notes": ""
+    },
+    {
+      "entity_id": "STG-ENT-0023",
+      "entity_type": "theme",
+      "canonical_name": "家庭关系与内心生活",
+      "display_name_zh": "家庭关系与内心生活",
+      "original_name": "",
+      "language": "pt/zh",
+      "country_or_region": "巴西",
+      "date_info": "",
+      "staging_status": "n2_review",
+      "issue_notes": ""
+    },
+    {
+      "entity_id": "STG-ENT-0024",
+      "entity_type": "theme",
+      "canonical_name": "时间、当下瞬间与沉默",
+      "display_name_zh": "时间、当下瞬间与沉默",
+      "original_name": "",
+      "language": "pt/zh",
+      "country_or_region": "",
+      "date_info": "",
+      "staging_status": "n2_review",
+      "issue_notes": ""
+    },
+    {
+      "entity_id": "STG-ENT-0025",
+      "entity_type": "theme",
+      "canonical_name": "社会不平等与书写",
+      "display_name_zh": "社会不平等与书写",
+      "original_name": "",
+      "language": "pt/zh",
+      "country_or_region": "",
+      "date_info": "",
+      "staging_status": "n2_review",
+      "issue_notes": ""
+    },
+    {
+      "entity_id": "STG-ENT-0026",
+      "entity_type": "work",
+      "canonical_name": "《生命的气息》",
+      "display_name_zh": "《生命的气息》",
+      "original_name": "Um sopro de vida",
+      "language": "pt",
+      "country_or_region": "巴西",
+      "date_info": "1978",
+      "staging_status": "n2_review",
+      "issue_notes": ""
+    },
+    {
+      "entity_id": "STG-ENT-0027",
+      "entity_type": "theme",
+      "canonical_name": "升华、沉默与女性写作（精神分析视角）",
+      "display_name_zh": "升华、沉默与女性写作（精神分析视角）",
+      "original_name": "sublimação e feminino",
+      "language": "pt/zh",
+      "country_or_region": "",
+      "date_info": "",
+      "staging_status": "n2_review",
+      "issue_notes": ""
+    },
+    {
+      "entity_id": "STG-ENT-0028",
+      "entity_type": "theme",
+      "canonical_name": "女性人物与21世纪再读",
+      "display_name_zh": "女性人物与21世纪再读",
+      "original_name": "",
+      "language": "pt/zh",
+      "country_or_region": "",
+      "date_info": "",
+      "staging_status": "n2_review",
+      "issue_notes": ""
+    }
+  ],
+  "entity_id_map": [
+    {
+      "entity_id": "STG-ENT-0001",
+      "preview_entity_id": "PRE-ENT-0001",
+      "candidate_id": "CAND-PLACE-0051"
+    },
+    {
+      "entity_id": "STG-ENT-0002",
+      "preview_entity_id": "PRE-ENT-0002",
+      "candidate_id": "CAND-S2-ENT-0001"
+    },
+    {
+      "entity_id": "STG-ENT-0003",
+      "preview_entity_id": "PRE-ENT-0003",
+      "candidate_id": "CAND-S2-ENT-0002"
+    },
+    {
+      "entity_id": "STG-ENT-0004",
+      "preview_entity_id": "PRE-ENT-0004",
+      "candidate_id": "CAND-S2-ENT-0003"
+    },
+    {
+      "entity_id": "STG-ENT-0005",
+      "preview_entity_id": "PRE-ENT-0005",
+      "candidate_id": "CAND-S2-ENT-0020"
+    },
+    {
+      "entity_id": "STG-ENT-0006",
+      "preview_entity_id": "PRE-ENT-0006",
+      "candidate_id": "CAND-S2-ENT-0021"
+    },
+    {
+      "entity_id": "STG-ENT-0007",
+      "preview_entity_id": "PRE-ENT-0007",
+      "candidate_id": "CAND-S2-ENT-0022"
+    },
+    {
+      "entity_id": "STG-ENT-0008",
+      "preview_entity_id": "PRE-ENT-0008",
+      "candidate_id": "CAND-S2-ENT-0052"
+    },
+    {
+      "entity_id": "STG-ENT-0009",
+      "preview_entity_id": "PRE-ENT-0009",
+      "candidate_id": "CAND-S2-ENT-0056"
+    },
+    {
+      "entity_id": "STG-ENT-0010",
+      "preview_entity_id": "PRE-ENT-0010",
+      "candidate_id": "CAND-S2-ENT-0068"
+    },
+    {
+      "entity_id": "STG-ENT-0011",
+      "preview_entity_id": "PRE-ENT-0011",
+      "candidate_id": "CAND-S2-ENT-0069"
+    },
+    {
+      "entity_id": "STG-ENT-0012",
+      "preview_entity_id": "PRE-ENT-0012",
+      "candidate_id": "CAND-S2-ENT-0071"
+    },
+    {
+      "entity_id": "STG-ENT-0013",
+      "preview_entity_id": "PRE-ENT-0013",
+      "candidate_id": "CAND-S2-ENT-0080"
+    },
+    {
+      "entity_id": "STG-ENT-0014",
+      "preview_entity_id": "PRE-ENT-0014",
+      "candidate_id": "CAND-S2-ENT-0082"
+    },
+    {
+      "entity_id": "STG-ENT-0015",
+      "preview_entity_id": "PRE-ENT-0015",
+      "candidate_id": "CAND-S2-ENT-0083"
+    },
+    {
+      "entity_id": "STG-ENT-0016",
+      "preview_entity_id": "PRE-ENT-0016",
+      "candidate_id": "CAND-S2-ENT-0086"
+    },
+    {
+      "entity_id": "STG-ENT-0017",
+      "preview_entity_id": "PRE-ENT-0017",
+      "candidate_id": "CAND-S2-ENT-0087"
+    },
+    {
+      "entity_id": "STG-ENT-0018",
+      "preview_entity_id": "PRE-ENT-0018",
+      "candidate_id": "CAND-S2-ENT-0088"
+    },
+    {
+      "entity_id": "STG-ENT-0019",
+      "preview_entity_id": "PRE-ENT-0019",
+      "candidate_id": "CAND-S2-ENT-0089"
+    },
+    {
+      "entity_id": "STG-ENT-0020",
+      "preview_entity_id": "PRE-ENT-0020",
+      "candidate_id": "CAND-S2-ENT-0090"
+    },
+    {
+      "entity_id": "STG-ENT-0021",
+      "preview_entity_id": "PRE-ENT-0021",
+      "candidate_id": "CAND-S2-ENT-0092"
+    },
+    {
+      "entity_id": "STG-ENT-0022",
+      "preview_entity_id": "PRE-ENT-0022",
+      "candidate_id": "CAND-S2-ENT-0098"
+    },
+    {
+      "entity_id": "STG-ENT-0023",
+      "preview_entity_id": "PRE-ENT-0023",
+      "candidate_id": "CAND-S2-ENT-0101"
+    },
+    {
+      "entity_id": "STG-ENT-0024",
+      "preview_entity_id": "PRE-ENT-0024",
+      "candidate_id": "CAND-S2-ENT-0102"
+    },
+    {
+      "entity_id": "STG-ENT-0025",
+      "preview_entity_id": "PRE-ENT-0025",
+      "candidate_id": "CAND-S2-ENT-0103"
+    },
+    {
+      "entity_id": "STG-ENT-0026",
+      "preview_entity_id": "PRE-ENT-0026",
+      "candidate_id": "CAND-S2-ENT-0104"
+    },
+    {
+      "entity_id": "STG-ENT-0027",
+      "preview_entity_id": "PRE-ENT-0027",
+      "candidate_id": "CAND-S2-ENT-0109"
+    },
+    {
+      "entity_id": "STG-ENT-0028",
+      "preview_entity_id": "PRE-ENT-0028",
+      "candidate_id": "CAND-S2-ENT-0114"
+    }
+  ],
+  "relationships": [
+    {
+      "relation_id": "STG-REL-0001",
+      "relation_group_id": "RG-S2-0001",
+      "subject_entity_id": "STG-ENT-0002",
+      "relation_type": "CREATED",
+      "object_entity_id": "STG-ENT-0003",
+      "description_zh": "博尔赫斯创作短篇《小径分岔的花园》",
+      "confidence": "high",
+      "review_status": "accepted_for_n2",
+      "issue_notes": ""
+    },
+    {
+      "relation_id": "STG-REL-0002",
+      "relation_group_id": "RG-S2-0002",
+      "subject_entity_id": "STG-ENT-0002",
+      "relation_type": "CREATED",
+      "object_entity_id": "STG-ENT-0004",
+      "description_zh": "博尔赫斯创作短篇《阿莱夫》",
+      "confidence": "high",
+      "review_status": "accepted_for_n2",
+      "issue_notes": ""
+    },
+    {
+      "relation_id": "STG-REL-0003",
+      "relation_group_id": "RG-S2-0003",
+      "subject_entity_id": "STG-ENT-0002",
+      "relation_type": "CREATED",
+      "object_entity_id": "STG-ENT-0011",
+      "description_zh": "博尔赫斯创作短篇集《虚构集》",
+      "confidence": "high",
+      "review_status": "accepted_for_n2",
+      "issue_notes": ""
+    },
+    {
+      "relation_id": "STG-REL-0004",
+      "relation_group_id": "RG-S2-0004",
+      "subject_entity_id": "STG-ENT-0002",
+      "relation_type": "CREATED",
+      "object_entity_id": "STG-ENT-0012",
+      "description_zh": "博尔赫斯创作 1949 年作品集《阿莱夫》",
+      "confidence": "high",
+      "review_status": "accepted_for_n2",
+      "issue_notes": ""
+    },
+    {
+      "relation_id": "STG-REL-0005",
+      "relation_group_id": "RG-S2-0005",
+      "subject_entity_id": "STG-ENT-0016",
+      "relation_type": "CREATED",
+      "object_entity_id": "STG-ENT-0017",
+      "description_zh": "李斯佩克朵创作《活水》",
+      "confidence": "high",
+      "review_status": "accepted_for_n2",
+      "issue_notes": ""
+    },
+    {
+      "relation_id": "STG-REL-0006",
+      "relation_group_id": "RG-S2-0006",
+      "subject_entity_id": "STG-ENT-0016",
+      "relation_type": "CREATED",
+      "object_entity_id": "STG-ENT-0018",
+      "description_zh": "李斯佩克朵创作《星辰时刻》",
+      "confidence": "high",
+      "review_status": "accepted_for_n2",
+      "issue_notes": ""
+    },
+    {
+      "relation_id": "STG-REL-0007",
+      "relation_group_id": "RG-S2-0007",
+      "subject_entity_id": "STG-ENT-0016",
+      "relation_type": "CREATED",
+      "object_entity_id": "STG-ENT-0019",
+      "description_zh": "李斯佩克朵创作短篇集《家庭纽带》",
+      "confidence": "high",
+      "review_status": "accepted_for_n2",
+      "issue_notes": ""
+    },
+    {
+      "relation_id": "STG-REL-0008",
+      "relation_group_id": "RG-S2-0008",
+      "subject_entity_id": "STG-ENT-0016",
+      "relation_type": "CREATED",
+      "object_entity_id": "STG-ENT-0020",
+      "description_zh": "李斯佩克朵创作《G.H. 受难》",
+      "confidence": "medium",
+      "review_status": "accepted_for_n2",
+      "issue_notes": ""
+    },
+    {
+      "relation_id": "STG-REL-0009",
+      "relation_group_id": "RG-S2-0009",
+      "subject_entity_id": "STG-ENT-0016",
+      "relation_type": "CREATED",
+      "object_entity_id": "STG-ENT-0026",
+      "description_zh": "李斯佩克朵创作《生命的气息》",
+      "confidence": "medium",
+      "review_status": "accepted_for_n2",
+      "issue_notes": ""
+    },
+    {
+      "relation_id": "STG-REL-0010",
+      "relation_group_id": "RG-S2-0011",
+      "subject_entity_id": "STG-ENT-0021",
+      "relation_type": "ADAPTED_FROM",
+      "object_entity_id": "STG-ENT-0018",
+      "description_zh": "1985 年电影《星辰时刻》改编自同名原著",
+      "confidence": "high",
+      "review_status": "accepted_for_n2",
+      "issue_notes": "端点 0092 为 adaptation，与原著 0088 分层（REVIEW 3.3）；导演关系本轮词表无 DIRECTED，不建"
+    },
+    {
+      "relation_id": "STG-REL-0011",
+      "relation_group_id": "RG-S2-0013",
+      "subject_entity_id": "STG-ENT-0003",
+      "relation_type": "SET_IN",
+      "object_entity_id": "STG-ENT-0008",
+      "description_zh": "《小径分岔的花园》故事发生于阿什格罗夫村",
+      "confidence": "medium",
+      "review_status": "accepted_for_n2",
+      "issue_notes": ""
+    },
+    {
+      "relation_id": "STG-REL-0012",
+      "relation_group_id": "RG-S2-0014",
+      "subject_entity_id": "STG-ENT-0004",
+      "relation_type": "SET_IN",
+      "object_entity_id": "STG-ENT-0009",
+      "description_zh": "《阿莱夫》故事核心地点为布宜诺斯艾利斯加雷街",
+      "confidence": "medium",
+      "review_status": "accepted_for_n2",
+      "issue_notes": ""
+    },
+    {
+      "relation_id": "STG-REL-0013",
+      "relation_group_id": "RG-S2-0015",
+      "subject_entity_id": "STG-ENT-0018",
+      "relation_type": "SET_IN",
+      "object_entity_id": "STG-ENT-0022",
+      "description_zh": "《星辰时刻》故事背景包含里约热内卢",
+      "confidence": "medium",
+      "review_status": "accepted_for_n2",
+      "issue_notes": ""
+    },
+    {
+      "relation_id": "STG-REL-0014",
+      "relation_group_id": "RG-S2-0016",
+      "subject_entity_id": "STG-ENT-0002",
+      "relation_type": "ASSOCIATED_WITH_PLACE",
+      "object_entity_id": "STG-ENT-0001",
+      "description_zh": "博尔赫斯与阿根廷关联",
+      "confidence": "high",
+      "review_status": "accepted_for_n2",
+      "issue_notes": ""
+    },
+    {
+      "relation_id": "STG-REL-0015",
+      "relation_group_id": "RG-S2-0022",
+      "subject_entity_id": "STG-ENT-0018",
+      "relation_type": "EXPLORES_THEME",
+      "object_entity_id": "STG-ENT-0025",
+      "description_zh": "《星辰时刻》涉及社会不平等与书写",
+      "confidence": "medium",
+      "review_status": "accepted_for_n2",
+      "issue_notes": "双来源组（SRC-0009+SRC-0012），本轮唯一双来源解释关系"
+    }
+  ],
+  "relationship_evidence": [
+    {
+      "relation_id": "STG-REL-0001",
+      "relation_candidate_id": "CAND-S2-REL-0001",
+      "source_id": "SRC-0002",
+      "source_title": "拉丁美洲文学教程（阅读篇）",
+      "locator": "原书162-168 选文（UNIDAD 8）",
+      "evidence_note": "教材 UNIDAD 8 选文及小传：叙事作品奠定其世界声誉",
+      "confidence": "high",
+      "dispute_status": "none"
+    },
+    {
+      "relation_id": "STG-REL-0002",
+      "relation_candidate_id": "CAND-S2-REL-0002",
+      "source_id": "SRC-0002",
+      "source_title": "拉丁美洲文学教程（阅读篇）",
+      "locator": "原书169-178 选文（UNIDAD 8）",
+      "evidence_note": "教材 UNIDAD 8 选文；文内叙述者自称 Borges",
+      "confidence": "high",
+      "dispute_status": "none"
+    },
+    {
+      "relation_id": "STG-REL-0003",
+      "relation_candidate_id": "CAND-S2-REL-0003",
+      "source_id": "SRC-0002",
+      "source_title": "拉丁美洲文学教程（阅读篇）",
+      "locator": "原书161 小传",
+      "evidence_note": "小传：Ficciones (1944) 令其享誉世界",
+      "confidence": "high",
+      "dispute_status": "none"
+    },
+    {
+      "relation_id": "STG-REL-0004",
+      "relation_candidate_id": "CAND-S2-REL-0004",
+      "source_id": "SRC-0002",
+      "source_title": "拉丁美洲文学教程（阅读篇）",
+      "locator": "原书161 小传",
+      "evidence_note": "小传：El Aleph (1949) 与 Ficciones (1944) 并列",
+      "confidence": "high",
+      "dispute_status": "none"
+    },
+    {
+      "relation_id": "STG-REL-0005",
+      "relation_candidate_id": "CAND-S2-REL-0005",
+      "source_id": "SRC-0009",
+      "source_title": "IMS 李斯佩克朵专题网站",
+      "locator": "Livro a livro 条目（Água viva）",
+      "evidence_note": "官网条目：1973；据 1971 手稿改写",
+      "confidence": "high",
+      "dispute_status": "none"
+    },
+    {
+      "relation_id": "STG-REL-0006",
+      "relation_candidate_id": "CAND-S2-REL-0006",
+      "source_id": "SRC-0009",
+      "source_title": "IMS 李斯佩克朵专题网站",
+      "locator": "Livro a livro 条目（A hora da estrela）",
+      "evidence_note": "官网条目：1977",
+      "confidence": "high",
+      "dispute_status": "none"
+    },
+    {
+      "relation_id": "STG-REL-0007",
+      "relation_candidate_id": "CAND-S2-REL-0007",
+      "source_id": "SRC-0009",
+      "source_title": "IMS 李斯佩克朵专题网站",
+      "locator": "Livro a livro 条目（Laços de família）",
+      "evidence_note": "官网条目：1960，13 篇",
+      "confidence": "high",
+      "dispute_status": "none"
+    },
+    {
+      "relation_id": "STG-REL-0008",
+      "relation_candidate_id": "CAND-S2-REL-0008",
+      "source_id": "SRC-0009",
+      "source_title": "IMS 李斯佩克朵专题网站",
+      "locator": "Vida 简介",
+      "evidence_note": "官网简介所列著名作品（1964）",
+      "confidence": "medium",
+      "dispute_status": "none"
+    },
+    {
+      "relation_id": "STG-REL-0009",
+      "relation_candidate_id": "CAND-S2-REL-0009",
+      "source_id": "SRC-0010",
+      "source_title": "USP 博士论文（李斯佩克朵晚期小说研究）",
+      "locator": "论文摘要",
+      "evidence_note": "USP 论文摘要将之与《活水》《星辰时刻》并列为晚期小说",
+      "confidence": "medium",
+      "dispute_status": "none"
+    },
+    {
+      "relation_id": "STG-REL-0010",
+      "relation_candidate_id": "CAND-S2-REL-0010",
+      "source_id": "SRC-0009",
+      "source_title": "IMS 李斯佩克朵专题网站",
+      "locator": "Livro a livro 条目（A hora da estrela）",
+      "evidence_note": "条目明确：1985 年同名电影，苏萨娜·阿马拉尔导演",
+      "confidence": "high",
+      "dispute_status": "none"
+    },
+    {
+      "relation_id": "STG-REL-0011",
+      "relation_candidate_id": "CAND-S2-REL-0011",
+      "source_id": "SRC-0002",
+      "source_title": "拉丁美洲文学教程（阅读篇）",
+      "locator": "原书163-164",
+      "evidence_note": "正文：余准在阿什格罗夫下车，循岔路至艾伯特宅",
+      "confidence": "medium",
+      "dispute_status": "none"
+    },
+    {
+      "relation_id": "STG-REL-0012",
+      "relation_candidate_id": "CAND-S2-REL-0012",
+      "source_id": "SRC-0002",
+      "source_title": "拉丁美洲文学教程（阅读篇）",
+      "locator": "原书169-178",
+      "evidence_note": "正文：藏有阿莱夫的房屋位于加雷街",
+      "confidence": "medium",
+      "dispute_status": "none"
+    },
+    {
+      "relation_id": "STG-REL-0013",
+      "relation_candidate_id": "CAND-S2-REL-0013",
+      "source_id": "SRC-0009",
+      "source_title": "IMS 李斯佩克朵专题网站",
+      "locator": "Livro a livro 条目",
+      "evidence_note": "条目：东北部移民少女玛卡贝娅“no Rio”",
+      "confidence": "medium",
+      "dispute_status": "none"
+    },
+    {
+      "relation_id": "STG-REL-0014",
+      "relation_candidate_id": "CAND-S2-REL-0014",
+      "source_id": "SRC-0002",
+      "source_title": "拉丁美洲文学教程（阅读篇）",
+      "locator": "原书161 小传",
+      "evidence_note": "小传题注 (1899-1986, Argentina)",
+      "confidence": "high",
+      "dispute_status": "none"
+    },
+    {
+      "relation_id": "STG-REL-0015",
+      "relation_candidate_id": "CAND-S2-REL-0020",
+      "source_id": "SRC-0009",
+      "source_title": "IMS 李斯佩克朵专题网站",
+      "locator": "Livro a livro 条目（A hora da estrela）",
+      "evidence_note": "条目：社会不平等、残酷、语言与艺术创作",
+      "confidence": "medium",
+      "dispute_status": "none"
+    },
+    {
+      "relation_id": "STG-REL-0015",
+      "relation_candidate_id": "CAND-S2-REL-0021",
+      "source_id": "SRC-0012",
+      "source_title": "UNESP 期刊文章（虚构面具）",
+      "locator": "论文摘要",
+      "evidence_note": "摘要：社会参与文学的悖论——替穷人说话的叙述者；贫穷人物始终沉默",
+      "confidence": "medium",
+      "dispute_status": "none"
+    }
+  ],
+  "relationship_sources": [
+    {
+      "relation_id": "STG-REL-0001",
+      "source_id": "SRC-0002"
+    },
+    {
+      "relation_id": "STG-REL-0002",
+      "source_id": "SRC-0002"
+    },
+    {
+      "relation_id": "STG-REL-0003",
+      "source_id": "SRC-0002"
+    },
+    {
+      "relation_id": "STG-REL-0004",
+      "source_id": "SRC-0002"
+    },
+    {
+      "relation_id": "STG-REL-0005",
+      "source_id": "SRC-0009"
+    },
+    {
+      "relation_id": "STG-REL-0006",
+      "source_id": "SRC-0009"
+    },
+    {
+      "relation_id": "STG-REL-0007",
+      "source_id": "SRC-0009"
+    },
+    {
+      "relation_id": "STG-REL-0008",
+      "source_id": "SRC-0009"
+    },
+    {
+      "relation_id": "STG-REL-0009",
+      "source_id": "SRC-0010"
+    },
+    {
+      "relation_id": "STG-REL-0010",
+      "source_id": "SRC-0009"
+    },
+    {
+      "relation_id": "STG-REL-0011",
+      "source_id": "SRC-0002"
+    },
+    {
+      "relation_id": "STG-REL-0012",
+      "source_id": "SRC-0002"
+    },
+    {
+      "relation_id": "STG-REL-0013",
+      "source_id": "SRC-0009"
+    },
+    {
+      "relation_id": "STG-REL-0014",
+      "source_id": "SRC-0002"
+    },
+    {
+      "relation_id": "STG-REL-0015",
+      "source_id": "SRC-0009"
+    },
+    {
+      "relation_id": "STG-REL-0015",
+      "source_id": "SRC-0012"
+    }
+  ],
+  "relation_holds": [
+    {
+      "hold_relation_id": "HOLD-REL-0001",
+      "relation_group_id": "RG-S2-0017",
+      "subject_entity_id": "STG-ENT-0002",
+      "relation_type": "ASSOCIATED_WITH_MOVEMENT",
+      "object_entity_id": "STG-ENT-0010",
+      "description_zh": "博尔赫斯曾投身极端主义（ultraísmo）",
+      "confidence": "medium",
+      "review_status": "hold_needs_second_source",
+      "issue_notes": "解释性判断，单来源"
+    },
+    {
+      "hold_relation_id": "HOLD-REL-0002",
+      "relation_group_id": "RG-S2-0018",
+      "subject_entity_id": "STG-ENT-0003",
+      "relation_type": "EXPLORES_THEME",
+      "object_entity_id": "STG-ENT-0013",
+      "description_zh": "《小径分岔的花园》探讨时间的分岔与无限",
+      "confidence": "medium",
+      "review_status": "hold_needs_second_source",
+      "issue_notes": "解释性判断，单来源"
+    },
+    {
+      "hold_relation_id": "HOLD-REL-0003",
+      "relation_group_id": "RG-S2-0019",
+      "subject_entity_id": "STG-ENT-0004",
+      "relation_type": "EXPLORES_THEME",
+      "object_entity_id": "STG-ENT-0015",
+      "description_zh": "《阿莱夫》探讨无限与不可言说",
+      "confidence": "medium",
+      "review_status": "hold_needs_second_source",
+      "issue_notes": "解释性判断，单来源"
+    },
+    {
+      "hold_relation_id": "HOLD-REL-0004",
+      "relation_group_id": "RG-S2-0020",
+      "subject_entity_id": "STG-ENT-0004",
+      "relation_type": "EXPLORES_THEME",
+      "object_entity_id": "STG-ENT-0014",
+      "description_zh": "《阿莱夫》涉及记忆与遗忘",
+      "confidence": "medium",
+      "review_status": "hold_needs_second_source",
+      "issue_notes": "解释性判断，单来源"
+    },
+    {
+      "hold_relation_id": "HOLD-REL-0005",
+      "relation_group_id": "RG-S2-0021",
+      "subject_entity_id": "STG-ENT-0017",
+      "relation_type": "EXPLORES_THEME",
+      "object_entity_id": "STG-ENT-0024",
+      "description_zh": "《活水》探讨时间、当下瞬间与沉默（复合主题）",
+      "confidence": "medium",
+      "review_status": "hold_needs_second_source",
+      "issue_notes": "R1：不再与 SRC-0011 构成同主题双源组（REVIEW R1-03）；仅“沉默”与 0109 部分重叠，主题不同"
+    },
+    {
+      "hold_relation_id": "HOLD-REL-0006",
+      "relation_group_id": "RG-S2-0023",
+      "subject_entity_id": "STG-ENT-0019",
+      "relation_type": "EXPLORES_THEME",
+      "object_entity_id": "STG-ENT-0023",
+      "description_zh": "《家庭纽带》涉及家庭关系与内心生活",
+      "confidence": "medium",
+      "review_status": "hold_needs_second_source",
+      "issue_notes": "解释性判断，单来源"
+    },
+    {
+      "hold_relation_id": "HOLD-REL-0007",
+      "relation_group_id": "RG-S2-0024",
+      "subject_entity_id": "STG-ENT-0019",
+      "relation_type": "EXPLORES_THEME",
+      "object_entity_id": "STG-ENT-0028",
+      "description_zh": "《家庭纽带》的女性人物在 21 世纪被再读",
+      "confidence": "medium",
+      "review_status": "hold_needs_second_source",
+      "issue_notes": "解释性判断，单来源"
+    },
+    {
+      "hold_relation_id": "HOLD-REL-0008",
+      "relation_group_id": "RG-S2-0025",
+      "subject_entity_id": "STG-ENT-0002",
+      "relation_type": "INFLUENCED_BY",
+      "object_entity_id": "STG-ENT-0005",
+      "description_zh": "博尔赫斯受叔本华影响",
+      "confidence": "medium",
+      "review_status": "hold_needs_second_source",
+      "issue_notes": "解释性判断，单来源"
+    },
+    {
+      "hold_relation_id": "HOLD-REL-0009",
+      "relation_group_id": "RG-S2-0026",
+      "subject_entity_id": "STG-ENT-0002",
+      "relation_type": "INFLUENCED_BY",
+      "object_entity_id": "STG-ENT-0006",
+      "description_zh": "博尔赫斯受卡夫卡影响",
+      "confidence": "medium",
+      "review_status": "hold_needs_second_source",
+      "issue_notes": "解释性判断，单来源"
+    },
+    {
+      "hold_relation_id": "HOLD-REL-0010",
+      "relation_group_id": "RG-S2-0027",
+      "subject_entity_id": "STG-ENT-0002",
+      "relation_type": "INFLUENCED_BY",
+      "object_entity_id": "STG-ENT-0007",
+      "description_zh": "博尔赫斯受切斯特顿影响",
+      "confidence": "medium",
+      "review_status": "hold_needs_second_source",
+      "issue_notes": "解释性判断，单来源"
+    },
+    {
+      "hold_relation_id": "HOLD-REL-0011",
+      "relation_group_id": "RG-S2-0028",
+      "subject_entity_id": "STG-ENT-0017",
+      "relation_type": "EXPLORES_THEME",
+      "object_entity_id": "STG-ENT-0027",
+      "description_zh": "《活水》涉及升华、沉默与女性写作（精神分析视角）",
+      "confidence": "medium",
+      "review_status": "hold_needs_second_source",
+      "issue_notes": "R1：由原 RG-S2-0021 拆出改指 0109，新组 RG-S2-0028（REVIEW R1-03）"
+    }
+  ],
+  "relation_hold_evidence": [
+    {
+      "relation_id": "HOLD-REL-0001",
+      "relation_candidate_id": "CAND-S2-REL-0015",
+      "source_id": "SRC-0002",
+      "source_title": "拉丁美洲文学教程（阅读篇）",
+      "locator": "原书161 小传",
+      "evidence_note": "小传：1919 年西班牙接触，1921 年回国传播，30 年代放弃其要旨",
+      "confidence": "medium",
+      "dispute_status": "needs_second_source"
+    },
+    {
+      "relation_id": "HOLD-REL-0002",
+      "relation_candidate_id": "CAND-S2-REL-0016",
+      "source_id": "SRC-0002",
+      "source_title": "拉丁美洲文学教程（阅读篇）",
+      "locator": "原书166-168",
+      "evidence_note": "正文：艾伯特解说崔朋小说即时间分岔的迷宫",
+      "confidence": "medium",
+      "dispute_status": "needs_second_source"
+    },
+    {
+      "relation_id": "HOLD-REL-0003",
+      "relation_candidate_id": "CAND-S2-REL-0017",
+      "source_id": "SRC-0002",
+      "source_title": "拉丁美洲文学教程（阅读篇）",
+      "locator": "原书175-176",
+      "evidence_note": "正文：语言是符号字母表，无法传达无限之阿莱夫",
+      "confidence": "medium",
+      "dispute_status": "needs_second_source"
+    },
+    {
+      "relation_id": "HOLD-REL-0004",
+      "relation_candidate_id": "CAND-S2-REL-0018",
+      "source_id": "SRC-0002",
+      "source_title": "拉丁美洲文学教程（阅读篇）",
+      "locator": "原书178",
+      "evidence_note": "正文结尾：叙述者自认正逐渐遗忘贝亚特丽斯的容貌",
+      "confidence": "medium",
+      "dispute_status": "needs_second_source"
+    },
+    {
+      "relation_id": "HOLD-REL-0005",
+      "relation_candidate_id": "CAND-S2-REL-0019",
+      "source_id": "SRC-0009",
+      "source_title": "IMS 李斯佩克朵专题网站",
+      "locator": "Livro a livro 条目（Água viva）",
+      "evidence_note": "条目直接支持：时间与“instante-já”、流逝的当下、沉默、创作与女性声音",
+      "confidence": "medium",
+      "dispute_status": "needs_second_source"
+    },
+    {
+      "relation_id": "HOLD-REL-0006",
+      "relation_candidate_id": "CAND-S2-REL-0022",
+      "source_id": "SRC-0009",
+      "source_title": "IMS 李斯佩克朵专题网站",
+      "locator": "Livro a livro 条目（Laços de família）",
+      "evidence_note": "条目：城市与家庭场景、亲密关系、沉默与揭示时刻",
+      "confidence": "medium",
+      "dispute_status": "needs_second_source"
+    },
+    {
+      "relation_id": "HOLD-REL-0007",
+      "relation_candidate_id": "CAND-S2-REL-0023",
+      "source_id": "SRC-0013",
+      "source_title": "UESB 期刊文章（21世纪读李斯佩克朵）",
+      "locator": "论文摘要",
+      "evidence_note": "摘要：约六十年前创造的女性人物至今仍有共鸣",
+      "confidence": "medium",
+      "dispute_status": "needs_second_source"
+    },
+    {
+      "relation_id": "HOLD-REL-0008",
+      "relation_candidate_id": "CAND-S2-REL-0025",
+      "source_id": "SRC-0002",
+      "source_title": "拉丁美洲文学教程（阅读篇）",
+      "locator": "原书161 小传、原书168",
+      "evidence_note": "小传列其思想影响；《小径分岔的花园》正文以叔本华作时间观对比",
+      "confidence": "medium",
+      "dispute_status": "needs_second_source"
+    },
+    {
+      "relation_id": "HOLD-REL-0009",
+      "relation_candidate_id": "CAND-S2-REL-0026",
+      "source_id": "SRC-0002",
+      "source_title": "拉丁美洲文学教程（阅读篇）",
+      "locator": "原书161 小传",
+      "evidence_note": "小传：深刻影响其思想与文学生涯的作家之一",
+      "confidence": "medium",
+      "dispute_status": "needs_second_source"
+    },
+    {
+      "relation_id": "HOLD-REL-0010",
+      "relation_candidate_id": "CAND-S2-REL-0027",
+      "source_id": "SRC-0002",
+      "source_title": "拉丁美洲文学教程（阅读篇）",
+      "locator": "原书161 小传",
+      "evidence_note": "小传：深刻影响其思想与文学生涯的作家之一",
+      "confidence": "medium",
+      "dispute_status": "needs_second_source"
+    },
+    {
+      "relation_id": "HOLD-REL-0011",
+      "relation_candidate_id": "CAND-S2-REL-0024",
+      "source_id": "SRC-0011",
+      "source_title": "SciELO 期刊文章（升华与女性）",
+      "locator": "正文小节与摘要",
+      "evidence_note": "文章主张不以“女性意义”解读李斯佩克朵写作，而视其为思考女性主体化的方式；提出“气息美学”（低语、间歇、沉默、文本呼吸）",
+      "confidence": "medium",
+      "dispute_status": "needs_second_source"
+    }
+  ],
+  "facts": [
+    {
+      "fact_id": "STG-FCT-0001",
+      "fact_candidate_id": "CAND-S2-FCT-0001",
+      "subject_entity_id": "STG-ENT-0002",
+      "fact_field": "birth_year",
+      "value": "1899",
+      "confidence": "high",
+      "review_status": "accepted_for_n2",
+      "issue_notes": ""
+    },
+    {
+      "fact_id": "STG-FCT-0002",
+      "fact_candidate_id": "CAND-S2-FCT-0002",
+      "subject_entity_id": "STG-ENT-0002",
+      "fact_field": "death_year",
+      "value": "1986",
+      "confidence": "high",
+      "review_status": "accepted_for_n2",
+      "issue_notes": ""
+    },
+    {
+      "fact_id": "STG-FCT-0003",
+      "fact_candidate_id": "CAND-S2-FCT-0003",
+      "subject_entity_id": "STG-ENT-0002",
+      "fact_field": "country_or_region",
+      "value": "阿根廷",
+      "confidence": "high",
+      "review_status": "accepted_for_n2",
+      "issue_notes": ""
+    },
+    {
+      "fact_id": "STG-FCT-0004",
+      "fact_candidate_id": "CAND-S2-FCT-0004",
+      "subject_entity_id": "STG-ENT-0002",
+      "fact_field": "language",
+      "value": "es",
+      "confidence": "high",
+      "review_status": "accepted_for_n2",
+      "issue_notes": ""
+    },
+    {
+      "fact_id": "STG-FCT-0005",
+      "fact_candidate_id": "CAND-S2-FCT-0005",
+      "subject_entity_id": "STG-ENT-0002",
+      "fact_field": "entity_layer",
+      "value": "author",
+      "confidence": "high",
+      "review_status": "accepted_for_n2",
+      "issue_notes": ""
+    },
+    {
+      "fact_id": "STG-FCT-0006",
+      "fact_candidate_id": "CAND-S2-FCT-0006",
+      "subject_entity_id": "STG-ENT-0002",
+      "fact_field": "one_sentence_summary",
+      "value": "诗人、短篇作家、批评家、散文家、教授，被誉为“作家的作家”",
+      "confidence": "high",
+      "review_status": "accepted_for_n2",
+      "issue_notes": ""
+    },
+    {
+      "fact_id": "STG-FCT-0007",
+      "fact_candidate_id": "CAND-S2-FCT-0007",
+      "subject_entity_id": "STG-ENT-0002",
+      "fact_field": "research_note",
+      "value": "1914 年一战爆发后举家迁居瑞士，1919 年赴西班牙居留三年，1921 年回国传播极端主义，30 年代放弃其要旨",
+      "confidence": "medium",
+      "review_status": "accepted_for_n2",
+      "issue_notes": ""
+    },
+    {
+      "fact_id": "STG-FCT-0008",
+      "fact_candidate_id": "CAND-S2-FCT-0008",
+      "subject_entity_id": "STG-ENT-0016",
+      "fact_field": "birth_year",
+      "value": "1920",
+      "confidence": "medium",
+      "review_status": "accepted_for_n2",
+      "issue_notes": "页面未直接显示；依据 2020 年百年诞辰专刊与 Codex 核定（REVIEW 3.4）"
+    },
+    {
+      "fact_id": "STG-FCT-0009",
+      "fact_candidate_id": "CAND-S2-FCT-0009",
+      "subject_entity_id": "STG-ENT-0016",
+      "fact_field": "country_or_region",
+      "value": "巴西",
+      "confidence": "high",
+      "review_status": "accepted_for_n2",
+      "issue_notes": ""
+    },
+    {
+      "fact_id": "STG-FCT-0010",
+      "fact_candidate_id": "CAND-S2-FCT-0010",
+      "subject_entity_id": "STG-ENT-0016",
+      "fact_field": "language",
+      "value": "pt",
+      "confidence": "high",
+      "review_status": "accepted_for_n2",
+      "issue_notes": ""
+    },
+    {
+      "fact_id": "STG-FCT-0011",
+      "fact_candidate_id": "CAND-S2-FCT-0011",
+      "subject_entity_id": "STG-ENT-0016",
+      "fact_field": "entity_layer",
+      "value": "author",
+      "confidence": "high",
+      "review_status": "accepted_for_n2",
+      "issue_notes": ""
+    },
+    {
+      "fact_id": "STG-FCT-0012",
+      "fact_candidate_id": "CAND-S2-FCT-0012",
+      "subject_entity_id": "STG-ENT-0016",
+      "fact_field": "one_sentence_summary",
+      "value": "《G.H. 受难》(1964) 与《星辰时刻》(1977) 的作者，以《家庭纽带》(1960)、《外国军团》(1964) 奠定短篇声誉",
+      "confidence": "high",
+      "review_status": "accepted_for_n2",
+      "issue_notes": ""
+    },
+    {
+      "fact_id": "STG-FCT-0013",
+      "fact_candidate_id": "CAND-S2-FCT-0013",
+      "subject_entity_id": "STG-ENT-0003",
+      "fact_field": "entity_layer",
+      "value": "work",
+      "confidence": "high",
+      "review_status": "accepted_for_n2",
+      "issue_notes": ""
+    },
+    {
+      "fact_id": "STG-FCT-0014",
+      "fact_candidate_id": "CAND-S2-FCT-0014",
+      "subject_entity_id": "STG-ENT-0003",
+      "fact_field": "genre_or_form",
+      "value": "短篇小说（UNIDAD 8 选文）",
+      "confidence": "high",
+      "review_status": "accepted_for_n2",
+      "issue_notes": ""
+    },
+    {
+      "fact_id": "STG-FCT-0015",
+      "fact_candidate_id": "CAND-S2-FCT-0015",
+      "subject_entity_id": "STG-ENT-0003",
+      "fact_field": "one_sentence_summary",
+      "value": "间谍余准的供述：借杀死汉学家艾伯特将英军炮兵阵地所在城名传回柏林；艾伯特解出崔朋“小说即迷宫”的时间分岔",
+      "confidence": "high",
+      "review_status": "accepted_for_n2",
+      "issue_notes": ""
+    },
+    {
+      "fact_id": "STG-FCT-0016",
+      "fact_candidate_id": "CAND-S2-FCT-0016",
+      "subject_entity_id": "STG-ENT-0003",
+      "fact_field": "key_character",
+      "value": "余准、斯蒂芬·艾伯特、理查德·马登、维克托·鲁内贝格、崔朋",
+      "confidence": "high",
+      "review_status": "accepted_for_n2",
+      "issue_notes": ""
+    },
+    {
+      "fact_id": "STG-FCT-0017",
+      "fact_candidate_id": "CAND-S2-FCT-0017",
+      "subject_entity_id": "STG-ENT-0003",
+      "fact_field": "key_place",
+      "value": "阿什格罗夫、阿尔贝、青岛",
+      "confidence": "medium",
+      "review_status": "accepted_for_n2",
+      "issue_notes": ""
+    },
+    {
+      "fact_id": "STG-FCT-0018",
+      "fact_candidate_id": "CAND-S2-FCT-0018",
+      "subject_entity_id": "STG-ENT-0004",
+      "fact_field": "entity_layer",
+      "value": "work",
+      "confidence": "high",
+      "review_status": "accepted_for_n2",
+      "issue_notes": "与 1949 年同名作品集分层（REVIEW 3.3）"
+    },
+    {
+      "fact_id": "STG-FCT-0019",
+      "fact_candidate_id": "CAND-S2-FCT-0019",
+      "subject_entity_id": "STG-ENT-0004",
+      "fact_field": "genre_or_form",
+      "value": "短篇小说（UNIDAD 8 选文）",
+      "confidence": "high",
+      "review_status": "accepted_for_n2",
+      "issue_notes": ""
+    },
+    {
+      "fact_id": "STG-FCT-0020",
+      "fact_candidate_id": "CAND-S2-FCT-0020",
+      "subject_entity_id": "STG-ENT-0004",
+      "fact_field": "one_sentence_summary",
+      "value": "叙述者博尔赫斯在亡友贝亚特丽斯表兄达内里宅邸地窖得见“包罗一切空间点的”阿莱夫",
+      "confidence": "high",
+      "review_status": "accepted_for_n2",
+      "issue_notes": ""
+    },
+    {
+      "fact_id": "STG-FCT-0021",
+      "fact_candidate_id": "CAND-S2-FCT-0021",
+      "subject_entity_id": "STG-ENT-0004",
+      "fact_field": "key_character",
+      "value": "贝亚特丽斯·维特博、卡洛斯·阿亨蒂诺·达内里、博尔赫斯（叙述者）",
+      "confidence": "high",
+      "review_status": "accepted_for_n2",
+      "issue_notes": ""
+    },
+    {
+      "fact_id": "STG-FCT-0022",
+      "fact_candidate_id": "CAND-S2-FCT-0022",
+      "subject_entity_id": "STG-ENT-0004",
+      "fact_field": "key_place",
+      "value": "加雷街",
+      "confidence": "medium",
+      "review_status": "accepted_for_n2",
+      "issue_notes": ""
+    },
+    {
+      "fact_id": "STG-FCT-0023",
+      "fact_candidate_id": "CAND-S2-FCT-0023",
+      "subject_entity_id": "STG-ENT-0004",
+      "fact_field": "bibliographic_note",
+      "value": "卷首题词引《哈姆雷特》II.2 与《利维坦》IV.46；文末献词致 Estela Canto",
+      "confidence": "medium",
+      "review_status": "accepted_for_n2",
+      "issue_notes": ""
+    },
+    {
+      "fact_id": "STG-FCT-0024",
+      "fact_candidate_id": "CAND-S2-FCT-0024",
+      "subject_entity_id": "STG-ENT-0004",
+      "fact_field": "research_note",
+      "value": "Rosman 专论《Politics of the Name: On Borges's “El Aleph”》围绕命名、共同语言、翻译、文学共同体与国家身份解读（Codex 已独立复核，REVIEW 3.1）",
+      "confidence": "medium",
+      "review_status": "accepted_for_n2",
+      "issue_notes": ""
+    },
+    {
+      "fact_id": "STG-FCT-0025",
+      "fact_candidate_id": "CAND-S2-FCT-0025",
+      "subject_entity_id": "STG-ENT-0011",
+      "fact_field": "entity_layer",
+      "value": "collection",
+      "confidence": "high",
+      "review_status": "accepted_for_n2",
+      "issue_notes": ""
+    },
+    {
+      "fact_id": "STG-FCT-0026",
+      "fact_candidate_id": "CAND-S2-FCT-0026",
+      "subject_entity_id": "STG-ENT-0011",
+      "fact_field": "first_publication_year",
+      "value": "1944",
+      "confidence": "high",
+      "review_status": "accepted_for_n2",
+      "issue_notes": ""
+    },
+    {
+      "fact_id": "STG-FCT-0027",
+      "fact_candidate_id": "CAND-S2-FCT-0027",
+      "subject_entity_id": "STG-ENT-0011",
+      "fact_field": "genre_or_form",
+      "value": "短篇作品集",
+      "confidence": "high",
+      "review_status": "accepted_for_n2",
+      "issue_notes": ""
+    },
+    {
+      "fact_id": "STG-FCT-0028",
+      "fact_candidate_id": "CAND-S2-FCT-0028",
+      "subject_entity_id": "STG-ENT-0011",
+      "fact_field": "bibliographic_note",
+      "value": "SRC-0007 页面记录：1944 初版、1956 修订",
+      "confidence": "medium",
+      "review_status": "accepted_for_n2",
+      "issue_notes": ""
+    },
+    {
+      "fact_id": "STG-FCT-0029",
+      "fact_candidate_id": "CAND-S2-FCT-0029",
+      "subject_entity_id": "STG-ENT-0012",
+      "fact_field": "entity_layer",
+      "value": "collection",
+      "confidence": "high",
+      "review_status": "accepted_for_n2",
+      "issue_notes": "与短篇《阿莱夫》分层（REVIEW 3.3）"
+    },
+    {
+      "fact_id": "STG-FCT-0030",
+      "fact_candidate_id": "CAND-S2-FCT-0030",
+      "subject_entity_id": "STG-ENT-0012",
+      "fact_field": "first_publication_year",
+      "value": "1949",
+      "confidence": "medium",
+      "review_status": "accepted_for_n2",
+      "issue_notes": "作品集年份；短篇《阿莱夫》首发年未核定，不沿用"
+    },
+    {
+      "fact_id": "STG-FCT-0031",
+      "fact_candidate_id": "CAND-S2-FCT-0031",
+      "subject_entity_id": "STG-ENT-0017",
+      "fact_field": "entity_layer",
+      "value": "work",
+      "confidence": "high",
+      "review_status": "accepted_for_n2",
+      "issue_notes": ""
+    },
+    {
+      "fact_id": "STG-FCT-0032",
+      "fact_candidate_id": "CAND-S2-FCT-0032",
+      "subject_entity_id": "STG-ENT-0017",
+      "fact_field": "first_publication_year",
+      "value": "1973",
+      "confidence": "high",
+      "review_status": "accepted_for_n2",
+      "issue_notes": ""
+    },
+    {
+      "fact_id": "STG-FCT-0033",
+      "fact_candidate_id": "CAND-S2-FCT-0033",
+      "subject_entity_id": "STG-ENT-0017",
+      "fact_field": "genre_or_form",
+      "value": "官网列“Romance”；混合体裁、无常规情节（兼有小说/诗/日记/随笔碎片）",
+      "confidence": "medium",
+      "review_status": "accepted_for_n2",
+      "issue_notes": ""
+    },
+    {
+      "fact_id": "STG-FCT-0034",
+      "fact_candidate_id": "CAND-S2-FCT-0034",
+      "subject_entity_id": "STG-ENT-0017",
+      "fact_field": "one_sentence_summary",
+      "value": "据 1971 年手稿《Objeto gritante》改写；主题为时间与“当下瞬间”、沉默、创作与女性声音",
+      "confidence": "medium",
+      "review_status": "accepted_for_n2",
+      "issue_notes": ""
+    },
+    {
+      "fact_id": "STG-FCT-0035",
+      "fact_candidate_id": "CAND-S2-FCT-0035",
+      "subject_entity_id": "STG-ENT-0017",
+      "fact_field": "bibliographic_note",
+      "value": "源自更早专栏文字与《外国军团》中的文本",
+      "confidence": "medium",
+      "review_status": "accepted_for_n2",
+      "issue_notes": ""
+    },
+    {
+      "fact_id": "STG-FCT-0036",
+      "fact_candidate_id": "CAND-S2-FCT-0036",
+      "subject_entity_id": "STG-ENT-0017",
+      "fact_field": "research_note",
+      "value": "晚年写作《活水》期间开始绘画，与超越言语达至沉默的努力并提",
+      "confidence": "medium",
+      "review_status": "accepted_for_n2",
+      "issue_notes": ""
+    },
+    {
+      "fact_id": "STG-FCT-0037",
+      "fact_candidate_id": "CAND-S2-FCT-0037",
+      "subject_entity_id": "STG-ENT-0018",
+      "fact_field": "entity_layer",
+      "value": "work",
+      "confidence": "high",
+      "review_status": "accepted_for_n2",
+      "issue_notes": "与 1985 年电影 adaptation 分层（REVIEW 3.3）"
+    },
+    {
+      "fact_id": "STG-FCT-0038",
+      "fact_candidate_id": "CAND-S2-FCT-0038",
+      "subject_entity_id": "STG-ENT-0018",
+      "fact_field": "first_publication_year",
+      "value": "1977",
+      "confidence": "high",
+      "review_status": "accepted_for_n2",
+      "issue_notes": ""
+    },
+    {
+      "fact_id": "STG-FCT-0039",
+      "fact_candidate_id": "CAND-S2-FCT-0039",
+      "subject_entity_id": "STG-ENT-0018",
+      "fact_field": "genre_or_form",
+      "value": "官网列“Novela”（中篇小说）",
+      "confidence": "medium",
+      "review_status": "accepted_for_n2",
+      "issue_notes": ""
+    },
+    {
+      "fact_id": "STG-FCT-0040",
+      "fact_candidate_id": "CAND-S2-FCT-0040",
+      "subject_entity_id": "STG-ENT-0018",
+      "fact_field": "one_sentence_summary",
+      "value": "东北部贫苦移民少女玛卡贝娅在里约被男友抛弃、遭友人背叛，叙述者罗德里戈·S.M. 反思书写她的故事",
+      "confidence": "high",
+      "review_status": "accepted_for_n2",
+      "issue_notes": ""
+    },
+    {
+      "fact_id": "STG-FCT-0041",
+      "fact_candidate_id": "CAND-S2-FCT-0041",
+      "subject_entity_id": "STG-ENT-0018",
+      "fact_field": "key_character",
+      "value": "玛卡贝娅、奥林皮科、格洛里娅、罗德里戈·S.M.",
+      "confidence": "medium",
+      "review_status": "accepted_for_n2",
+      "issue_notes": ""
+    },
+    {
+      "fact_id": "STG-FCT-0042",
+      "fact_candidate_id": "CAND-S2-FCT-0042",
+      "subject_entity_id": "STG-ENT-0018",
+      "fact_field": "key_place",
+      "value": "里约热内卢",
+      "confidence": "medium",
+      "review_status": "accepted_for_n2",
+      "issue_notes": ""
+    },
+    {
+      "fact_id": "STG-FCT-0043",
+      "fact_candidate_id": "CAND-S2-FCT-0043",
+      "subject_entity_id": "STG-ENT-0018",
+      "fact_field": "research_note",
+      "value": "社会参与文学的悖论化为“虚构面具”；叙述者之声与作家之声时分时合，贫穷人物始终沉默",
+      "confidence": "medium",
+      "review_status": "accepted_for_n2",
+      "issue_notes": ""
+    },
+    {
+      "fact_id": "STG-FCT-0044",
+      "fact_candidate_id": "CAND-S2-FCT-0044",
+      "subject_entity_id": "STG-ENT-0019",
+      "fact_field": "entity_layer",
+      "value": "collection",
+      "confidence": "high",
+      "review_status": "accepted_for_n2",
+      "issue_notes": "13 篇短篇集；按试行 Schema §5 种子，最终命名待 N2"
+    },
+    {
+      "fact_id": "STG-FCT-0045",
+      "fact_candidate_id": "CAND-S2-FCT-0045",
+      "subject_entity_id": "STG-ENT-0019",
+      "fact_field": "first_publication_year",
+      "value": "1960",
+      "confidence": "high",
+      "review_status": "accepted_for_n2",
+      "issue_notes": ""
+    },
+    {
+      "fact_id": "STG-FCT-0046",
+      "fact_candidate_id": "CAND-S2-FCT-0046",
+      "subject_entity_id": "STG-ENT-0019",
+      "fact_field": "genre_or_form",
+      "value": "短篇集（13 篇）",
+      "confidence": "high",
+      "review_status": "accepted_for_n2",
+      "issue_notes": ""
+    },
+    {
+      "fact_id": "STG-FCT-0047",
+      "fact_candidate_id": "CAND-S2-FCT-0047",
+      "subject_entity_id": "STG-ENT-0019",
+      "fact_field": "one_sentence_summary",
+      "value": "从城市与家庭场景切入内心生活、家庭关系、沉默、姿态与揭示时刻",
+      "confidence": "medium",
+      "review_status": "accepted_for_n2",
+      "issue_notes": ""
+    },
+    {
+      "fact_id": "STG-FCT-0048",
+      "fact_candidate_id": "CAND-S2-FCT-0048",
+      "subject_entity_id": "STG-ENT-0019",
+      "fact_field": "bibliographic_note",
+      "value": "1961 年获 Jabuti 文学奖",
+      "confidence": "high",
+      "review_status": "accepted_for_n2",
+      "issue_notes": ""
+    },
+    {
+      "fact_id": "STG-FCT-0049",
+      "fact_candidate_id": "CAND-S2-FCT-0049",
+      "subject_entity_id": "STG-ENT-0019",
+      "fact_field": "research_note",
+      "value": "女性人物在 21 世纪仍具共鸣；网络语录多被去语境化，文章主张回到文本（fólio 百年诞辰专刊）",
+      "confidence": "medium",
+      "review_status": "accepted_for_n2",
+      "issue_notes": ""
+    },
+    {
+      "fact_id": "STG-FCT-0050",
+      "fact_candidate_id": "CODEX-S2-FCT-0050",
+      "subject_entity_id": "STG-ENT-0003",
+      "fact_field": "first_publication_year",
+      "value": "1941",
+      "confidence": "high",
+      "review_status": "accepted_for_n2",
+      "issue_notes": "Codex 权威来源补充"
+    },
+    {
+      "fact_id": "STG-FCT-0051",
+      "fact_candidate_id": "CODEX-S2-FCT-0051",
+      "subject_entity_id": "STG-ENT-0004",
+      "fact_field": "first_publication_year",
+      "value": "1945",
+      "confidence": "high",
+      "review_status": "accepted_for_n2",
+      "issue_notes": "Codex 权威来源补充；替代候选实体中的 1949 误值"
+    },
+    {
+      "fact_id": "STG-FCT-0052",
+      "fact_candidate_id": "CODEX-S2-FCT-0052",
+      "subject_entity_id": "STG-ENT-0016",
+      "fact_field": "death_year",
+      "value": "1977",
+      "confidence": "high",
+      "review_status": "accepted_for_n2",
+      "issue_notes": "Codex 权威来源补充"
+    }
+  ],
+  "fact_sources": [
+    {
+      "fact_id": "STG-FCT-0001",
+      "source_id": "SRC-0002"
+    },
+    {
+      "fact_id": "STG-FCT-0002",
+      "source_id": "SRC-0002"
+    },
+    {
+      "fact_id": "STG-FCT-0003",
+      "source_id": "SRC-0002"
+    },
+    {
+      "fact_id": "STG-FCT-0004",
+      "source_id": "SRC-0002"
+    },
+    {
+      "fact_id": "STG-FCT-0005",
+      "source_id": "SRC-0002"
+    },
+    {
+      "fact_id": "STG-FCT-0006",
+      "source_id": "SRC-0002"
+    },
+    {
+      "fact_id": "STG-FCT-0007",
+      "source_id": "SRC-0002"
+    },
+    {
+      "fact_id": "STG-FCT-0008",
+      "source_id": "SRC-0013"
+    },
+    {
+      "fact_id": "STG-FCT-0009",
+      "source_id": "SRC-0009"
+    },
+    {
+      "fact_id": "STG-FCT-0010",
+      "source_id": "SRC-0009"
+    },
+    {
+      "fact_id": "STG-FCT-0011",
+      "source_id": "SRC-0009"
+    },
+    {
+      "fact_id": "STG-FCT-0012",
+      "source_id": "SRC-0009"
+    },
+    {
+      "fact_id": "STG-FCT-0013",
+      "source_id": "SRC-0002"
+    },
+    {
+      "fact_id": "STG-FCT-0014",
+      "source_id": "SRC-0002"
+    },
+    {
+      "fact_id": "STG-FCT-0015",
+      "source_id": "SRC-0002"
+    },
+    {
+      "fact_id": "STG-FCT-0016",
+      "source_id": "SRC-0002"
+    },
+    {
+      "fact_id": "STG-FCT-0017",
+      "source_id": "SRC-0002"
+    },
+    {
+      "fact_id": "STG-FCT-0018",
+      "source_id": "SRC-0002"
+    },
+    {
+      "fact_id": "STG-FCT-0019",
+      "source_id": "SRC-0002"
+    },
+    {
+      "fact_id": "STG-FCT-0020",
+      "source_id": "SRC-0002"
+    },
+    {
+      "fact_id": "STG-FCT-0021",
+      "source_id": "SRC-0002"
+    },
+    {
+      "fact_id": "STG-FCT-0022",
+      "source_id": "SRC-0002"
+    },
+    {
+      "fact_id": "STG-FCT-0023",
+      "source_id": "SRC-0002"
+    },
+    {
+      "fact_id": "STG-FCT-0024",
+      "source_id": "SRC-0008"
+    },
+    {
+      "fact_id": "STG-FCT-0025",
+      "source_id": "SRC-0002"
+    },
+    {
+      "fact_id": "STG-FCT-0026",
+      "source_id": "SRC-0002"
+    },
+    {
+      "fact_id": "STG-FCT-0027",
+      "source_id": "SRC-0002"
+    },
+    {
+      "fact_id": "STG-FCT-0028",
+      "source_id": "SRC-0007"
+    },
+    {
+      "fact_id": "STG-FCT-0029",
+      "source_id": "SRC-0002"
+    },
+    {
+      "fact_id": "STG-FCT-0030",
+      "source_id": "SRC-0002"
+    },
+    {
+      "fact_id": "STG-FCT-0031",
+      "source_id": "SRC-0009"
+    },
+    {
+      "fact_id": "STG-FCT-0032",
+      "source_id": "SRC-0009"
+    },
+    {
+      "fact_id": "STG-FCT-0033",
+      "source_id": "SRC-0009"
+    },
+    {
+      "fact_id": "STG-FCT-0034",
+      "source_id": "SRC-0009"
+    },
+    {
+      "fact_id": "STG-FCT-0035",
+      "source_id": "SRC-0009"
+    },
+    {
+      "fact_id": "STG-FCT-0036",
+      "source_id": "SRC-0011"
+    },
+    {
+      "fact_id": "STG-FCT-0037",
+      "source_id": "SRC-0009"
+    },
+    {
+      "fact_id": "STG-FCT-0038",
+      "source_id": "SRC-0009"
+    },
+    {
+      "fact_id": "STG-FCT-0039",
+      "source_id": "SRC-0009"
+    },
+    {
+      "fact_id": "STG-FCT-0040",
+      "source_id": "SRC-0009"
+    },
+    {
+      "fact_id": "STG-FCT-0041",
+      "source_id": "SRC-0009"
+    },
+    {
+      "fact_id": "STG-FCT-0042",
+      "source_id": "SRC-0009"
+    },
+    {
+      "fact_id": "STG-FCT-0043",
+      "source_id": "SRC-0012"
+    },
+    {
+      "fact_id": "STG-FCT-0044",
+      "source_id": "SRC-0009"
+    },
+    {
+      "fact_id": "STG-FCT-0045",
+      "source_id": "SRC-0009"
+    },
+    {
+      "fact_id": "STG-FCT-0046",
+      "source_id": "SRC-0009"
+    },
+    {
+      "fact_id": "STG-FCT-0047",
+      "source_id": "SRC-0009"
+    },
+    {
+      "fact_id": "STG-FCT-0048",
+      "source_id": "SRC-0009"
+    },
+    {
+      "fact_id": "STG-FCT-0049",
+      "source_id": "SRC-0013"
+    },
+    {
+      "fact_id": "STG-FCT-0050",
+      "source_id": "SRC-0014"
+    },
+    {
+      "fact_id": "STG-FCT-0051",
+      "source_id": "SRC-0015"
+    },
+    {
+      "fact_id": "STG-FCT-0052",
+      "source_id": "SRC-0016"
+    }
+  ],
+  "content_cards": [
+    {
+      "card_id": "STG-CARD-0001",
+      "subject_entity_id": "STG-ENT-0002",
+      "card_type": "author",
+      "title_zh": "豪尔赫·路易斯·博尔赫斯",
+      "content_points_json": "[{\"fact_candidate_id\": \"CAND-S2-FCT-0001\", \"text\": \"出生年：1899\"}, {\"fact_candidate_id\": \"CAND-S2-FCT-0002\", \"text\": \"卒年：1986\"}, {\"fact_candidate_id\": \"CAND-S2-FCT-0003\", \"text\": \"国家/地区：阿根廷\"}, {\"fact_candidate_id\": \"CAND-S2-FCT-0004\", \"text\": \"语言：es\"}, {\"fact_candidate_id\": \"CAND-S2-FCT-0005\", \"text\": \"实体层级：author\"}, {\"fact_candidate_id\": \"CAND-S2-FCT-0006\", \"text\": \"一句话摘要：诗人、短篇作家、批评家、散文家、教授，被誉为“作家的作家”\"}, {\"fact_candidate_id\": \"CAND-S2-FCT-0007\", \"text\": \"研究注：1914 年一战爆发后举家迁居瑞士，1919 年赴西班牙居留三年，1921 年回国传播极端主义，30 年代放弃其要旨\"}]",
+      "review_status": "n2_content_draft"
+    },
+    {
+      "card_id": "STG-CARD-0002",
+      "subject_entity_id": "STG-ENT-0016",
+      "card_type": "author",
+      "title_zh": "克拉丽丝·李斯佩克朵",
+      "content_points_json": "[{\"fact_candidate_id\": \"CAND-S2-FCT-0008\", \"text\": \"出生年：1920\"}, {\"fact_candidate_id\": \"CAND-S2-FCT-0009\", \"text\": \"国家/地区：巴西\"}, {\"fact_candidate_id\": \"CAND-S2-FCT-0010\", \"text\": \"语言：pt\"}, {\"fact_candidate_id\": \"CAND-S2-FCT-0011\", \"text\": \"实体层级：author\"}, {\"fact_candidate_id\": \"CAND-S2-FCT-0012\", \"text\": \"一句话摘要：《G.H. 受难》(1964) 与《星辰时刻》(1977) 的作者，以《家庭纽带》(1960)、《外国军团》(1964) 奠定短篇声誉\"}]",
+      "review_status": "n2_content_draft"
+    },
+    {
+      "card_id": "STG-CARD-0003",
+      "subject_entity_id": "STG-ENT-0003",
+      "card_type": "work_collection",
+      "title_zh": "《小径分岔的花园》",
+      "content_points_json": "[{\"fact_candidate_id\": \"CAND-S2-FCT-0013\", \"text\": \"实体层级：work\"}, {\"fact_candidate_id\": \"CAND-S2-FCT-0014\", \"text\": \"体裁/形式：短篇小说（UNIDAD 8 选文）\"}, {\"fact_candidate_id\": \"CAND-S2-FCT-0015\", \"text\": \"一句话摘要：间谍余准的供述：借杀死汉学家艾伯特将英军炮兵阵地所在城名传回柏林；艾伯特解出崔朋“小说即迷宫”的时间分岔\"}, {\"fact_candidate_id\": \"CAND-S2-FCT-0016\", \"text\": \"关键人物：余准、斯蒂芬·艾伯特、理查德·马登、维克托·鲁内贝格、崔朋\"}, {\"fact_candidate_id\": \"CAND-S2-FCT-0017\", \"text\": \"关键地点：阿什格罗夫、阿尔贝、青岛\"}]",
+      "review_status": "n2_content_draft"
+    },
+    {
+      "card_id": "STG-CARD-0004",
+      "subject_entity_id": "STG-ENT-0004",
+      "card_type": "work_collection",
+      "title_zh": "《阿莱夫》短篇",
+      "content_points_json": "[{\"fact_candidate_id\": \"CAND-S2-FCT-0018\", \"text\": \"实体层级：work\"}, {\"fact_candidate_id\": \"CAND-S2-FCT-0019\", \"text\": \"体裁/形式：短篇小说（UNIDAD 8 选文）\"}, {\"fact_candidate_id\": \"CAND-S2-FCT-0020\", \"text\": \"一句话摘要：叙述者博尔赫斯在亡友贝亚特丽斯表兄达内里宅邸地窖得见“包罗一切空间点的”阿莱夫\"}, {\"fact_candidate_id\": \"CAND-S2-FCT-0021\", \"text\": \"关键人物：贝亚特丽斯·维特博、卡洛斯·阿亨蒂诺·达内里、博尔赫斯（叙述者）\"}, {\"fact_candidate_id\": \"CAND-S2-FCT-0022\", \"text\": \"关键地点：加雷街\"}, {\"fact_candidate_id\": \"CAND-S2-FCT-0023\", \"text\": \"书目注：卷首题词引《哈姆雷特》II.2 与《利维坦》IV.46；文末献词致 Estela Canto\"}, {\"fact_candidate_id\": \"CAND-S2-FCT-0024\", \"text\": \"研究注：Rosman 专论《Politics of the Name: On Borges's “El Aleph”》围绕命名、共同语言、翻译、文学共同体与国家身份解读（Codex 已独立复核，REVIEW 3.1）\"}]",
+      "review_status": "n2_content_draft"
+    },
+    {
+      "card_id": "STG-CARD-0005",
+      "subject_entity_id": "STG-ENT-0011",
+      "card_type": "work_collection",
+      "title_zh": "《虚构集》",
+      "content_points_json": "[{\"fact_candidate_id\": \"CAND-S2-FCT-0025\", \"text\": \"实体层级：collection\"}, {\"fact_candidate_id\": \"CAND-S2-FCT-0026\", \"text\": \"首发年：1944\"}, {\"fact_candidate_id\": \"CAND-S2-FCT-0027\", \"text\": \"体裁/形式：短篇作品集\"}, {\"fact_candidate_id\": \"CAND-S2-FCT-0028\", \"text\": \"书目注：SRC-0007 页面记录：1944 初版、1956 修订\"}]",
+      "review_status": "n2_content_draft"
+    },
+    {
+      "card_id": "STG-CARD-0006",
+      "subject_entity_id": "STG-ENT-0017",
+      "card_type": "work_collection",
+      "title_zh": "《活水》",
+      "content_points_json": "[{\"fact_candidate_id\": \"CAND-S2-FCT-0031\", \"text\": \"实体层级：work\"}, {\"fact_candidate_id\": \"CAND-S2-FCT-0032\", \"text\": \"首发年：1973\"}, {\"fact_candidate_id\": \"CAND-S2-FCT-0033\", \"text\": \"体裁/形式：官网列“Romance”；混合体裁、无常规情节（兼有小说/诗/日记/随笔碎片）\"}, {\"fact_candidate_id\": \"CAND-S2-FCT-0034\", \"text\": \"一句话摘要：据 1971 年手稿《Objeto gritante》改写；主题为时间与“当下瞬间”、沉默、创作与女性声音\"}, {\"fact_candidate_id\": \"CAND-S2-FCT-0035\", \"text\": \"书目注：源自更早专栏文字与《外国军团》中的文本\"}, {\"fact_candidate_id\": \"CAND-S2-FCT-0036\", \"text\": \"研究注：晚年写作《活水》期间开始绘画，与超越言语达至沉默的努力并提\"}]",
+      "review_status": "n2_content_draft"
+    },
+    {
+      "card_id": "STG-CARD-0007",
+      "subject_entity_id": "STG-ENT-0018",
+      "card_type": "work_collection",
+      "title_zh": "《星辰时刻》",
+      "content_points_json": "[{\"fact_candidate_id\": \"CAND-S2-FCT-0037\", \"text\": \"实体层级：work\"}, {\"fact_candidate_id\": \"CAND-S2-FCT-0038\", \"text\": \"首发年：1977\"}, {\"fact_candidate_id\": \"CAND-S2-FCT-0039\", \"text\": \"体裁/形式：官网列“Novela”（中篇小说）\"}, {\"fact_candidate_id\": \"CAND-S2-FCT-0040\", \"text\": \"一句话摘要：东北部贫苦移民少女玛卡贝娅在里约被男友抛弃、遭友人背叛，叙述者罗德里戈·S.M. 反思书写她的故事\"}, {\"fact_candidate_id\": \"CAND-S2-FCT-0041\", \"text\": \"关键人物：玛卡贝娅、奥林皮科、格洛里娅、罗德里戈·S.M.\"}, {\"fact_candidate_id\": \"CAND-S2-FCT-0042\", \"text\": \"关键地点：里约热内卢\"}, {\"fact_candidate_id\": \"CAND-S2-FCT-0043\", \"text\": \"研究注：社会参与文学的悖论化为“虚构面具”；叙述者之声与作家之声时分时合，贫穷人物始终沉默\"}]",
+      "review_status": "n2_content_draft"
+    },
+    {
+      "card_id": "STG-CARD-0008",
+      "subject_entity_id": "STG-ENT-0019",
+      "card_type": "work_collection",
+      "title_zh": "《家庭纽带》",
+      "content_points_json": "[{\"fact_candidate_id\": \"CAND-S2-FCT-0044\", \"text\": \"实体层级：collection\"}, {\"fact_candidate_id\": \"CAND-S2-FCT-0045\", \"text\": \"首发年：1960\"}, {\"fact_candidate_id\": \"CAND-S2-FCT-0046\", \"text\": \"体裁/形式：短篇集（13 篇）\"}, {\"fact_candidate_id\": \"CAND-S2-FCT-0047\", \"text\": \"一句话摘要：从城市与家庭场景切入内心生活、家庭关系、沉默、姿态与揭示时刻\"}, {\"fact_candidate_id\": \"CAND-S2-FCT-0048\", \"text\": \"书目注：1961 年获 Jabuti 文学奖\"}, {\"fact_candidate_id\": \"CAND-S2-FCT-0049\", \"text\": \"研究注：女性人物在 21 世纪仍具共鸣；网络语录多被去语境化，文章主张回到文本（fólio 百年诞辰专刊）\"}]",
+      "review_status": "n2_content_draft"
+    },
+    {
+      "card_id": "STG-CARD-0009",
+      "subject_entity_id": "STG-ENT-0012",
+      "card_type": "structure_brief",
+      "title_zh": "《阿莱夫》（1949 年作品集）",
+      "content_points_json": "[{\"fact_candidate_id\": \"CAND-S2-FCT-0029\", \"text\": \"实体层级：collection\"}, {\"fact_candidate_id\": \"CAND-S2-FCT-0030\", \"text\": \"首次出版年：1949\"}]",
+      "review_status": "n2_incomplete_structure_card"
+    }
+  ],
+  "card_facts": [
+    {
+      "card_id": "STG-CARD-0001",
+      "fact_id": "STG-FCT-0001",
+      "display_order": "1"
+    },
+    {
+      "card_id": "STG-CARD-0001",
+      "fact_id": "STG-FCT-0002",
+      "display_order": "2"
+    },
+    {
+      "card_id": "STG-CARD-0001",
+      "fact_id": "STG-FCT-0003",
+      "display_order": "3"
+    },
+    {
+      "card_id": "STG-CARD-0001",
+      "fact_id": "STG-FCT-0004",
+      "display_order": "4"
+    },
+    {
+      "card_id": "STG-CARD-0001",
+      "fact_id": "STG-FCT-0005",
+      "display_order": "5"
+    },
+    {
+      "card_id": "STG-CARD-0001",
+      "fact_id": "STG-FCT-0006",
+      "display_order": "6"
+    },
+    {
+      "card_id": "STG-CARD-0001",
+      "fact_id": "STG-FCT-0007",
+      "display_order": "7"
+    },
+    {
+      "card_id": "STG-CARD-0002",
+      "fact_id": "STG-FCT-0008",
+      "display_order": "1"
+    },
+    {
+      "card_id": "STG-CARD-0002",
+      "fact_id": "STG-FCT-0009",
+      "display_order": "2"
+    },
+    {
+      "card_id": "STG-CARD-0002",
+      "fact_id": "STG-FCT-0010",
+      "display_order": "3"
+    },
+    {
+      "card_id": "STG-CARD-0002",
+      "fact_id": "STG-FCT-0011",
+      "display_order": "4"
+    },
+    {
+      "card_id": "STG-CARD-0002",
+      "fact_id": "STG-FCT-0012",
+      "display_order": "5"
+    },
+    {
+      "card_id": "STG-CARD-0003",
+      "fact_id": "STG-FCT-0013",
+      "display_order": "1"
+    },
+    {
+      "card_id": "STG-CARD-0003",
+      "fact_id": "STG-FCT-0014",
+      "display_order": "2"
+    },
+    {
+      "card_id": "STG-CARD-0003",
+      "fact_id": "STG-FCT-0015",
+      "display_order": "3"
+    },
+    {
+      "card_id": "STG-CARD-0003",
+      "fact_id": "STG-FCT-0016",
+      "display_order": "4"
+    },
+    {
+      "card_id": "STG-CARD-0003",
+      "fact_id": "STG-FCT-0017",
+      "display_order": "5"
+    },
+    {
+      "card_id": "STG-CARD-0004",
+      "fact_id": "STG-FCT-0018",
+      "display_order": "1"
+    },
+    {
+      "card_id": "STG-CARD-0004",
+      "fact_id": "STG-FCT-0019",
+      "display_order": "2"
+    },
+    {
+      "card_id": "STG-CARD-0004",
+      "fact_id": "STG-FCT-0020",
+      "display_order": "3"
+    },
+    {
+      "card_id": "STG-CARD-0004",
+      "fact_id": "STG-FCT-0021",
+      "display_order": "4"
+    },
+    {
+      "card_id": "STG-CARD-0004",
+      "fact_id": "STG-FCT-0022",
+      "display_order": "5"
+    },
+    {
+      "card_id": "STG-CARD-0004",
+      "fact_id": "STG-FCT-0023",
+      "display_order": "6"
+    },
+    {
+      "card_id": "STG-CARD-0004",
+      "fact_id": "STG-FCT-0024",
+      "display_order": "7"
+    },
+    {
+      "card_id": "STG-CARD-0005",
+      "fact_id": "STG-FCT-0025",
+      "display_order": "1"
+    },
+    {
+      "card_id": "STG-CARD-0005",
+      "fact_id": "STG-FCT-0026",
+      "display_order": "2"
+    },
+    {
+      "card_id": "STG-CARD-0005",
+      "fact_id": "STG-FCT-0027",
+      "display_order": "3"
+    },
+    {
+      "card_id": "STG-CARD-0005",
+      "fact_id": "STG-FCT-0028",
+      "display_order": "4"
+    },
+    {
+      "card_id": "STG-CARD-0006",
+      "fact_id": "STG-FCT-0031",
+      "display_order": "1"
+    },
+    {
+      "card_id": "STG-CARD-0006",
+      "fact_id": "STG-FCT-0032",
+      "display_order": "2"
+    },
+    {
+      "card_id": "STG-CARD-0006",
+      "fact_id": "STG-FCT-0033",
+      "display_order": "3"
+    },
+    {
+      "card_id": "STG-CARD-0006",
+      "fact_id": "STG-FCT-0034",
+      "display_order": "4"
+    },
+    {
+      "card_id": "STG-CARD-0006",
+      "fact_id": "STG-FCT-0035",
+      "display_order": "5"
+    },
+    {
+      "card_id": "STG-CARD-0006",
+      "fact_id": "STG-FCT-0036",
+      "display_order": "6"
+    },
+    {
+      "card_id": "STG-CARD-0007",
+      "fact_id": "STG-FCT-0037",
+      "display_order": "1"
+    },
+    {
+      "card_id": "STG-CARD-0007",
+      "fact_id": "STG-FCT-0038",
+      "display_order": "2"
+    },
+    {
+      "card_id": "STG-CARD-0007",
+      "fact_id": "STG-FCT-0039",
+      "display_order": "3"
+    },
+    {
+      "card_id": "STG-CARD-0007",
+      "fact_id": "STG-FCT-0040",
+      "display_order": "4"
+    },
+    {
+      "card_id": "STG-CARD-0007",
+      "fact_id": "STG-FCT-0041",
+      "display_order": "5"
+    },
+    {
+      "card_id": "STG-CARD-0007",
+      "fact_id": "STG-FCT-0042",
+      "display_order": "6"
+    },
+    {
+      "card_id": "STG-CARD-0007",
+      "fact_id": "STG-FCT-0043",
+      "display_order": "7"
+    },
+    {
+      "card_id": "STG-CARD-0008",
+      "fact_id": "STG-FCT-0044",
+      "display_order": "1"
+    },
+    {
+      "card_id": "STG-CARD-0008",
+      "fact_id": "STG-FCT-0045",
+      "display_order": "2"
+    },
+    {
+      "card_id": "STG-CARD-0008",
+      "fact_id": "STG-FCT-0046",
+      "display_order": "3"
+    },
+    {
+      "card_id": "STG-CARD-0008",
+      "fact_id": "STG-FCT-0047",
+      "display_order": "4"
+    },
+    {
+      "card_id": "STG-CARD-0008",
+      "fact_id": "STG-FCT-0048",
+      "display_order": "5"
+    },
+    {
+      "card_id": "STG-CARD-0008",
+      "fact_id": "STG-FCT-0049",
+      "display_order": "6"
+    },
+    {
+      "card_id": "STG-CARD-0009",
+      "fact_id": "STG-FCT-0029",
+      "display_order": "1"
+    },
+    {
+      "card_id": "STG-CARD-0009",
+      "fact_id": "STG-FCT-0030",
+      "display_order": "2"
+    }
+  ],
+  "card_sources": [
+    {
+      "card_id": "STG-CARD-0001",
+      "source_id": "SRC-0002"
+    },
+    {
+      "card_id": "STG-CARD-0002",
+      "source_id": "SRC-0013"
+    },
+    {
+      "card_id": "STG-CARD-0002",
+      "source_id": "SRC-0009"
+    },
+    {
+      "card_id": "STG-CARD-0003",
+      "source_id": "SRC-0002"
+    },
+    {
+      "card_id": "STG-CARD-0004",
+      "source_id": "SRC-0002"
+    },
+    {
+      "card_id": "STG-CARD-0004",
+      "source_id": "SRC-0008"
+    },
+    {
+      "card_id": "STG-CARD-0005",
+      "source_id": "SRC-0002"
+    },
+    {
+      "card_id": "STG-CARD-0005",
+      "source_id": "SRC-0007"
+    },
+    {
+      "card_id": "STG-CARD-0006",
+      "source_id": "SRC-0009"
+    },
+    {
+      "card_id": "STG-CARD-0006",
+      "source_id": "SRC-0011"
+    },
+    {
+      "card_id": "STG-CARD-0007",
+      "source_id": "SRC-0009"
+    },
+    {
+      "card_id": "STG-CARD-0007",
+      "source_id": "SRC-0012"
+    },
+    {
+      "card_id": "STG-CARD-0008",
+      "source_id": "SRC-0009"
+    },
+    {
+      "card_id": "STG-CARD-0008",
+      "source_id": "SRC-0013"
+    },
+    {
+      "card_id": "STG-CARD-0009",
+      "source_id": "SRC-0002"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+﻿duplicate_id,batch_candidate_id,entity_type,canonical_name_candidate,original_name,match_type,existing_id,existing_pool,issue_notes
+DUP-B01-0001,B01-ENT-0003,author,胡安·鲁尔福,Juan Rulfo,exact,CAND-AUTHOR-0022,S1候选387,同名候选，需 Codex 合并判定（不删除本批候选）
+DUP-B01-0002,B01-ENT-0010,work,《佩德罗·巴拉莫》,Pedro Páramo,possible_in_batch,B01-ENT-0022,B01批内,批内同名（character vs work），分层不合并，待 Codex 确认
+DUP-B01-0003,B01-ENT-0010,work,《佩德罗·巴拉莫》,Pedro Páramo,exact,CAND-WORK-0005,S1候选387,同名候选，需 Codex 合并判定（不删除本批候选）
+DUP-B01-0004,B01-ENT-0022,character,佩德罗·巴拉莫（人物）,Pedro Páramo,possible_in_batch,B01-ENT-0010,B01批内,批内同名（work vs character），分层不合并，待 Codex 确认
+DUP-B01-0005,B01-ENT-0022,character,佩德罗·巴拉莫（人物）,Pedro Páramo,exact,CAND-WORK-0005,S1候选387,同名候选，需 Codex 合并判定（不删除本批候选）
+DUP-B01-0006,B01-ENT-0023,place,墨西哥,México,exact,CAND-PLACE-0001,S1候选387,同名候选，需 Codex 合并判定（不删除本批候选）
+DUP-B01-0007,B01-ENT-0031,author,奥克塔维奥·帕斯,Octavio Paz,exact,CAND-AUTHOR-0062,S1候选387,同名候选，需 Codex 合并判定（不删除本批候选）
+DUP-B01-0008,B01-ENT-0036,movement,墨西哥革命小说,novela de la Revolución Mexicana,exact,CAND-MOV-0005,S1候选387,同名候选，需 Codex 合并判定（不删除本批候选）
+DUP-B01-0009,B01-ENT-0039,theme,记忆与遗忘,memoria y olvido,exact,STG-ENT-0014,staging v1_s2_pilot,同名候选，需 Codex 合并判定（不删除本批候选）

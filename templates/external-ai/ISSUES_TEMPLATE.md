@@ -3,7 +3,7 @@
 - task_id:
 - updated_at:
 
-| issue_id | 类型 | 文件/来源 | 页码/位置 | 问题 | 已尝试 | 建议选项 | 是否阻塞 |
+| issue_id | 类型 | 文件/来源 | 记录 ID/可选位置 | 问题 | 已尝试 | 建议选项 | 是否阻塞 |
 |---|---|---|---|---|---|---|---|
 | `<TASK-ID>-I001` | unreadable/conflict/missing/ambiguous/copyright/scope | | | | | | yes/no |
 

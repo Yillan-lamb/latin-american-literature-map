@@ -4,12 +4,20 @@
 - parent_task: `V1-S2-003`
 - assignment_id: `V1-S2-003-A-SCOPED-LOCATORS`
 - task_type: `catalog / document inspection / scoped locator planning`
+- package_profile: `FULL（已按旧规则交付；未来同类材料检查改用 LITE）`
 - assignee: `WorkBuddy`
 - dependencies: `V1-S2-001 done`, `V1-S2-002 done`
 
 ## 任务目标
 
-为两位作家、六部试点作品建立可复核的材料访问与页段定位表，供 Codex 派发后续窄范围 L2 整理任务。本任务只检查合法访问、文字层、目录/章节结构和作品相关页段，不复制长文、不下载整书、不做 OCR 正文、不做文学解释或关系抽取。
+为两位作家、六部试点作品建立可复核的材料访问与覆盖表，供 Codex 派发后续窄范围 L2 整理任务。本任务只检查合法访问、文字层和作品覆盖，不复制长文、不下载整书、不做 OCR 正文、不做文学解释或关系抽取。
+
+## 2026-08-04 用户授权后的适用说明
+
+- 已按旧规则交付的 `SECTION_LOCATORS.csv` 作为增强成果保留，不删除。
+- Codex 后续验收只强制检查来源身份、来源题名、合法访问、六部作品覆盖、CSV 结构和安全边界；不要求补齐或逐项核验所有页码。
+- 对书籍、论文和网页分别能回到书名、论文名、页面标题与 URL 即满足最低证据要求。
+- 后续 L2 可以用作品、论文、小节标题或其他内容单元限定范围，不需要逐页锚点。
 
 ## 必读文件
 
@@ -30,7 +38,7 @@
 
 1. `README.md`、`STATUS.md`、`QA_REPORT.md`、`ISSUES.md`、`HANDOFF.md`、`MANIFEST.md`；
 2. `MATERIAL_ACCESS_LOG.csv`：八个来源的访问、格式、文字层、页数/栏目、权利和限制；
-3. `SECTION_LOCATORS.csv`：每个相关章节/页段的来源 ID、作品、标题、起止页或网页锚点、定位依据、建议处理深度；
+3. `SECTION_LOCATORS.csv`：历史交付中的可选详细定位表；现有记录保留，缺失页码不再阻塞；
 4. `WORK_SOURCE_MATRIX.csv`：六部作品与八个来源的覆盖矩阵。
 
 ## 固定字段
@@ -56,7 +64,7 @@ target_author,target_work,publication_year,source_ref,coverage_type,locator_ids,
 ## 执行规则
 
 - 先对每个来源做 L0：能否访问、是否为正确落地页、文件/网页格式、是否有文字层、页数或栏目数。
-- 只定位与六部作品直接相关的章节、摘要、目录项或页段；不得从标题推断不存在的内容。
+- 只确认与六部作品直接相关的来源或内容单元；不得从标题推断不存在的内容。
 - `SRC-0002` 只读取既有本地 OCR 和页码锚点，不复制 `inputs/`，不扩展原书 OCR 范围。
 - 对公开 PDF 可在线查看目录、搜索和页码，但本任务不得把完整 PDF 保存进交付目录；`local_copy_created` 必须为 `no`。
 - `proposed_depth` 只可为 `metadata_only`、`L1_locator_only`、`scoped_L2_candidate`、`do_not_process`。
@@ -67,8 +75,8 @@ target_author,target_work,publication_year,source_ref,coverage_type,locator_ids,
 
 1. 八个来源不重不漏，六部作品全部至少关联一个来源；
 2. 所有 URL 实际访问并记录结果，无法访问的来源如实标记；
-3. 每条定位可由页码、章节标题或稳定网页栏目回查；
-4. 不把整篇文章或整本论文默认列为 L2，必须缩到必要章节/页段；
+3. 每条覆盖能回到具体书名、论文名或网页标题与 URL；详细页码可选；
+4. L2 应限定为必要作品或内容单元，但不要求逐页登记；
 5. 三张 CSV 可标准解析、ID 唯一、枚举合法、引用完整；
 6. 交付目录恰为 9 个文件，无 PDF、EPUB、原始资料、长摘录、Cookie、密钥或 `.DS_Store`；
 7. 不修改章程、TASKS、来源注册表、候选任务包、决策记录、CHANGELOG 或 GitHub；

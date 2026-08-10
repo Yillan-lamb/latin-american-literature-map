@@ -1,0 +1,11 @@
+﻿duplicate_id,batch_candidate_id,entity_type,canonical_name_candidate,original_name,match_type,existing_id,existing_pool,issue_notes
+DUP-B03-0001,B03-ENT-0001,author,马里奥·巴尔加斯·略萨,Mario Vargas Llosa,exact,CAND-AUTHOR-0023;CAND-AUTHOR-0068;CAND-AUTHOR-0108;CAND-AUTHOR-0153;CAND-AUTHOR-0260;CAND-AUTHOR-0305,S1候选387,同名候选 6 条，需 Codex 合并判定（不删除本批候选）
+DUP-B03-0002,B03-ENT-0002,author,巴勃罗·聂鲁达,Pablo Neruda,exact,CAND-AUTHOR-0043;CAND-AUTHOR-0061;CAND-AUTHOR-0110,S1候选387,同名候选 3 条，需 Codex 合并判定
+DUP-B03-0003,B03-ENT-0006,collection,《二十首情诗和一支绝望的歌》,Veinte poemas de amor y una canción desesperada,type_conflict,CAND-WORK-0072,S1候选387,同名候选；S1 旧词表标 Work，Schema 0.2 下诗集为 collection，Codex 合并时以 collection 为准，不可按 work 合并
+DUP-B03-0004,B03-ENT-0007,collection,《大地上的居所》,Residencia en la tierra,type_conflict,CAND-WORK-0073,S1候选387,同名候选；S1 旧词表标 Work，Schema 0.2 下诗集为 collection，合并时以 collection 为准
+DUP-B03-0005,B03-ENT-0008,collection,《漫歌》,Canto general,type_conflict,CAND-WORK-0074,S1候选387,同名候选；S1 旧词表标 Work，Schema 0.2 下诗集为 collection，合并时以 collection 为准
+DUP-B03-0006,B03-ENT-0010,place,智利,Chile,exact,CAND-PLACE-0003;CAND-PLACE-0057,S1候选387,同名候选 2 条
+DUP-B03-0007,B03-ENT-0011,place,秘鲁,Perú,exact,CAND-PLACE-0005;CAND-PLACE-0059,S1候选387,同名候选 2 条
+DUP-B03-0008,B03-ENT-0017,movement,文学爆炸,boom latinoamericano,exact,CAND-MOV-0006;CAND-MOV-0059;CAND-MOV-0102;CAND-MOV-0150;CAND-MOV-0201,S1候选387,同名候选 5 条，需 Codex 合并判定
+DUP-B03-0009,B03-ENT-0018,movement,现代主义,modernismo,exact,CAND-MOV-0052,S1候选387,同名候选 1 条（西语美洲现代主义）
+DUP-B03-0010,B03-ENT-0019,movement,先锋派,vanguardismo,exact,CAND-MOV-0055,S1候选387,同名候选 1 条

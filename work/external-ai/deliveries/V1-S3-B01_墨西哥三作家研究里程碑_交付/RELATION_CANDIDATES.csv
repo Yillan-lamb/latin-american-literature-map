@@ -1,0 +1,32 @@
+﻿relation_candidate_id,relation_group_id,subject_candidate_id,subject_label,relation_type,object_candidate_id,object_label,description_zh,source_id,source_title,optional_locator,optional_evidence_note,confidence,dispute_status,issue_notes,extracted_by
+B01-REL-0001,RG-B01-0001,B01-ENT-0001,埃莱娜·加罗,CREATED,B01-ENT-0004,《未来的回忆》,加罗创作《未来的回忆》,B01-SRC-0001,Elena Garro - Detalle del autor,,词条所列作品（1963）,high,none,,EXT-AI-02
+B01-REL-0002,RG-B01-0002,B01-ENT-0001,埃莱娜·加罗,CREATED,B01-ENT-0005,《彩色的一周》,加罗创作短篇集《彩色的一周》,B01-SRC-0005,La semana de colores: cuentos - Detalle de la obra,,作品页署名作者,high,none,,EXT-AI-02
+B01-REL-0003,RG-B01-0003,B01-ENT-0001,埃莱娜·加罗,CREATED,B01-ENT-0006,《关于玛丽安娜的证词》,加罗创作《关于玛丽安娜的证词》,B01-SRC-0001,Elena Garro - Detalle del autor,,词条所列作品（1981）,medium,none,,EXT-AI-02
+B01-REL-0004,RG-B01-0004,B01-ENT-0002,罗萨里奥·卡斯特利亚诺斯,CREATED,B01-ENT-0007,《巴伦坎南》,卡斯特利亚诺斯创作《巴伦坎南》,B01-SRC-0006,Rosario Castellanos - Detalle del autor,,词条所列作品（1957）,high,none,,EXT-AI-02
+B01-REL-0005,RG-B01-0005,B01-ENT-0002,罗萨里奥·卡斯特利亚诺斯,CREATED,B01-ENT-0008,《黑暗的职守》,卡斯特利亚诺斯创作《黑暗的职守》,B01-SRC-0006,Rosario Castellanos - Detalle del autor,,词条所列作品（1962）,high,none,,EXT-AI-02
+B01-REL-0006,RG-B01-0006,B01-ENT-0002,罗萨里奥·卡斯特利亚诺斯,CREATED,B01-ENT-0009,《诗歌不是你》,卡斯特利亚诺斯创作诗集《诗歌不是你》,B01-SRC-0006,Rosario Castellanos - Detalle del autor,,词条所列作品（1972）,high,none,,EXT-AI-02
+B01-REL-0007,RG-B01-0007,B01-ENT-0003,胡安·鲁尔福,CREATED,B01-ENT-0010,《佩德罗·巴拉莫》,鲁尔福创作《佩德罗·巴拉莫》,B01-SRC-0011,Juan Rulfo - Detalle del autor,,词条所列作品（1955）,high,none,,EXT-AI-02
+B01-REL-0008,RG-B01-0008,B01-ENT-0003,胡安·鲁尔福,CREATED,B01-ENT-0011,《燃烧的原野》,鲁尔福创作短篇集《燃烧的原野》,B01-SRC-0011,Juan Rulfo - Detalle del autor,,词条所列作品（1953）,high,none,,EXT-AI-02
+B01-REL-0009,RG-B01-0009,B01-ENT-0003,胡安·鲁尔福,CREATED,B01-ENT-0012,《金鸡》,鲁尔福创作《金鸡》,B01-SRC-0011,Juan Rulfo - Detalle del autor,,词条：写于1958、出版1980,high,none,,EXT-AI-02
+B01-REL-0010,RG-B01-0010,B01-ENT-0002,罗萨里奥·卡斯特利亚诺斯,CREATED,B01-ENT-0016,《永恒的女性》,卡斯特利亚诺斯创作剧作《永恒的女性》,B01-SRC-0006,Rosario Castellanos - Detalle del autor,,词条所列作品（1975 遗作）,medium,none,,EXT-AI-02
+B01-REL-0011,RG-B01-0011,B01-ENT-0001,埃莱娜·加罗,CREATED,B01-ENT-0017,《费利佩·安赫莱斯》,加罗创作剧作《费利佩·安赫莱斯》,B01-SRC-0001,Elena Garro - Detalle del autor,,词条所列作品,medium,none,,EXT-AI-02
+B01-REL-0012,RG-B01-0012,B01-ENT-0005,《彩色的一周》,CONTAINS_WORK,B01-ENT-0013,《La culpa es de los tlaxcaltecas》,《彩色的一周》收录《La culpa es de los tlaxcaltecas》,B01-SRC-0005,La semana de colores: cuentos - Detalle de la obra,,词条明示收录关系,medium,none,,EXT-AI-02
+B01-REL-0013,RG-B01-0013,B01-ENT-0014,《未来的回忆》（1968 年电影）,ADAPTED_FROM,B01-ENT-0004,《未来的回忆》,1968 年电影《未来的回忆》改编自同名小说,B01-SRC-0004,Los recuerdos del porvenir - Detalle de la obra,,作品页：1968 年由 Arturo Ripstein 搬上银幕,high,none,,EXT-AI-02
+B01-REL-0014,RG-B01-0014,B01-ENT-0030,阿图罗·里普斯坦,DIRECTED,B01-ENT-0014,《未来的回忆》（1968 年电影）,阿图罗·里普斯坦执导 1968 年电影,B01-SRC-0004,Los recuerdos del porvenir - Detalle de la obra,,作品页明示导演,high,none,Schema 0.2 DIRECTED；person→adaptation,EXT-AI-02
+B01-REL-0015,RG-B01-0015,B01-ENT-0015,Balún-Canán（FCE 2007 版）,EDITION_OF,B01-ENT-0007,《巴伦坎南》,FCE 2007 版《巴伦坎南》为其版本,B01-SRC-0007,Balún-Canán (FCE 产品页),,FCE 产品页（ISBN 9789681683030）,high,none,,EXT-AI-02
+B01-REL-0016,RG-B01-0016,B01-ENT-0018,Pedro Páramo（FCE 1964 版）,EDITION_OF,B01-ENT-0010,《佩德罗·巴拉莫》,FCE 1964 版《佩德罗·巴拉莫》为其版本,B01-SRC-0013,Pedro Páramo - Detalle de la obra,,作品页书目,medium,none,,EXT-AI-02
+B01-REL-0017,RG-B01-0017,B01-ENT-0004,《未来的回忆》,SET_IN,B01-ENT-0026,伊斯特佩克,《未来的回忆》故事发生于伊斯特佩克,B01-SRC-0004,Los recuerdos del porvenir - Detalle de la obra,,作品页简介,high,none,,EXT-AI-02
+B01-REL-0018,RG-B01-0018,B01-ENT-0007,《巴伦坎南》,SET_IN,B01-ENT-0024,恰帕斯,《巴伦坎南》故事发生于恰帕斯村镇,B01-SRC-0007,Balún-Canán (FCE 产品页),,FCE 页：poblado chiapaneco,high,none,,EXT-AI-02
+B01-REL-0019,RG-B01-0019,B01-ENT-0010,《佩德罗·巴拉莫》,SET_IN,B01-ENT-0027,科马拉,《佩德罗·巴拉莫》故事核心地点为科马拉,B01-SRC-0013,Pedro Páramo - Detalle de la obra,,作品页简介,high,none,,EXT-AI-02
+B01-REL-0020,RG-B01-0020,B01-ENT-0001,埃莱娜·加罗,ASSOCIATED_WITH_PLACE,B01-ENT-0023,墨西哥,加罗与墨西哥关联,B01-SRC-0001,Elena Garro - Detalle del autor,,词条（国籍/生平）,high,none,,EXT-AI-02
+B01-REL-0021,RG-B01-0021,B01-ENT-0002,罗萨里奥·卡斯特利亚诺斯,ASSOCIATED_WITH_PLACE,B01-ENT-0024,恰帕斯,卡斯特利亚诺斯与恰帕斯关联,B01-SRC-0006,Rosario Castellanos - Detalle del autor,,词条：幼年迁居恰帕斯科米坦,high,none,,EXT-AI-02
+B01-REL-0022,RG-B01-0022,B01-ENT-0002,罗萨里奥·卡斯特利亚诺斯,ASSOCIATED_WITH_PLACE,B01-ENT-0025,科米坦,卡斯特利亚诺斯与科米坦关联,B01-SRC-0006,Rosario Castellanos - Detalle del autor,,词条：童年地,medium,none,,EXT-AI-02
+B01-REL-0023,RG-B01-0023,B01-ENT-0003,胡安·鲁尔福,ASSOCIATED_WITH_PLACE,B01-ENT-0023,墨西哥,鲁尔福与墨西哥关联,B01-SRC-0011,Juan Rulfo - Detalle del autor,,词条（国籍/生平）,high,none,,EXT-AI-02
+B01-REL-0024,RG-B01-0024,B01-ENT-0003,胡安·鲁尔福,ASSOCIATED_WITH_PLACE,B01-ENT-0029,圣加布里埃尔,鲁尔福与圣加布里埃尔关联,B01-SRC-0011,Juan Rulfo - Detalle del autor,,词条：童年成长地,medium,none,,EXT-AI-02
+B01-REL-0025,RG-B01-0025,B01-ENT-0010,《佩德罗·巴拉莫》,ASSOCIATED_WITH_MOVEMENT,B01-ENT-0036,墨西哥革命小说,《佩德罗·巴拉莫》与墨西哥革命小说传统对话,B01-SRC-0013,Pedro Páramo - Detalle de la obra,,作品页：“cosmopolitismo 与革命小说之间”,low,needs_second_source,解释性/文学史判断，单来源,EXT-AI-02
+B01-REL-0026,RG-B01-0026,B01-ENT-0004,《未来的回忆》,EXPLORES_THEME,B01-ENT-0039,记忆与遗忘,《未来的回忆》探讨记忆与遗忘,B01-SRC-0003,El fondo de la memoria: Los recuerdos del porvenir de Elena Garro,,RCL 论文：记忆/anámnesis 与历史真相,medium,needs_second_source,解释性判断，单来源,EXT-AI-02
+B01-REL-0027,RG-B01-0027,B01-ENT-0004,《未来的回忆》,EXPLORES_THEME,B01-ENT-0040,时间与历史,《未来的回忆》涉及时间与历史,B01-SRC-0003,El fondo de la memoria: Los recuerdos del porvenir de Elena Garro,,RCL 论文：消解过去/未来分裂,medium,needs_second_source,解释性判断，单来源,EXT-AI-02
+B01-REL-0028,RG-B01-0028,B01-ENT-0007,《巴伦坎南》,EXPLORES_THEME,B01-ENT-0041,暴力与语言,《巴伦坎南》探讨暴力与语言,B01-SRC-0008,La palabra sagrada. Violencia y lenguaje en Balún-Canán,,LM 论文：书面语/口语错位,medium,needs_second_source,解释性判断，单来源,EXT-AI-02
+B01-REL-0029,RG-B01-0029,B01-ENT-0007,《巴伦坎南》,EXPLORES_THEME,B01-ENT-0042,沉默,《巴伦坎南》涉及沉默,B01-SRC-0008,La palabra sagrada. Violencia y lenguaje en Balún-Canán,,LM 论文：沉默作为暴力形式,medium,needs_second_source,解释性判断，单来源,EXT-AI-02
+B01-REL-0030,RG-B01-0030,B01-ENT-0010,《佩德罗·巴拉莫》,EXPLORES_THEME,B01-ENT-0043,革命与基督战争,《佩德罗·巴拉莫》涉及革命与基督战争,B01-SRC-0012,Economía poética de Pedro Páramo: de la Revolución a la Cristiada,,LM 论文：片段 67 浓缩 1915-1929,medium,needs_second_source,解释性判断，单来源,EXT-AI-02
+B01-REL-0031,RG-B01-0031,B01-ENT-0010,《佩德罗·巴拉莫》,EXPLORES_THEME,B01-ENT-0044,乡村与革命后的土地,《佩德罗·巴拉莫》涉及乡村与革命后的土地,B01-SRC-0013,Pedro Páramo - Detalle de la obra,,作品页：革命后乡村书写,medium,needs_second_source,解释性判断，单来源,EXT-AI-02

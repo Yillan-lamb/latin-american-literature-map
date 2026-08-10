@@ -32,6 +32,8 @@
 - 抽样范围：
 - 已知错误：
 - 是否经过独立 Reviewer：
+- 来源级完整性：书籍名/论文名/网页标题与 URL 是否齐全：
+- 页码或章节：`not_required|optional_present|task_required_checked`
 
 ## 关键问题
 

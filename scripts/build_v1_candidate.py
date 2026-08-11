@@ -1,5 +1,9 @@
 #!/usr/bin/env python3
-"""Build the formal V1 candidate package from the approved A06-A PRE package."""
+"""Rebuild the historical V1.0.0 package from the approved A06-A PRE package.
+
+This is a release-snapshot regression builder. It is not the authoring path for
+post-V1 increments; use apply_migration.py and export_from_sqlite.py instead.
+"""
 
 from __future__ import annotations
 
@@ -698,15 +702,15 @@ def build_sqlite(path: Path, tables: dict[str, list[dict[str, str]]], metadata: 
 def write_docs(tables: dict[str, list[dict[str, str]]], metadata: dict) -> None:
     counts = {key: len(value) for key, value in tables.items()}
     (OUT / "README.md").write_text(
-        "# 拉丁美洲文学地图 V1 候选包\n\n"
-        "本目录是 CODEX-DATA 基于 A06-A R1 pass 并落实 N3 用户决定后生成的候选数据包，不是 N4 正式发布版。\n\n"
+        "# 拉丁美洲文学地图 V1.0.0 发布快照\n\n"
+        "本目录保留 V1.0.0 正式发布快照；目录名 v1_candidate 为建设期遗留命名。长期增量主库已迁移至 data/master/V1_MASTER.sqlite。\n\n"
         f"- 正式来源：{counts['sources']}；来源 hold：{counts['source_holds']}；\n"
         f"- 规范实体：{counts['entities']}，由 {counts['entity_id_map']} 个上游引用映射而来；\n"
         f"- 可审核关系：{counts['relationships']}；主 hold：{counts['relation_holds']}；\n"
         f"- 事实素材：{counts['facts']}；内容卡：{counts['content_cards']}；\n"
         f"- 缺口登记：{counts['gaps']}；N3 用户决策：{counts['n3_decisions']} 项均已完成。\n\n"
-        "CSV、JSON、SQLite 由 scripts/build_v1_candidate.py 同源生成。Excel 由工作区标准电子表格运行时从同一组 CSV 生成。"
-        "N3 结论见 N3_审核包.md；N4 前仍需完成阶段 5 的最终冻结审计。\n",
+        "CSV、JSON、SQLite 由 scripts/build_v1_candidate.py 同源生成；该脚本仅用于 V1.0.0 历史回归。"
+        "后续增量必须通过 data/master/V1_MASTER.sqlite 的版本化迁移和通用导出工具完成。\n",
         encoding="utf-8",
     )
 
@@ -714,7 +718,7 @@ def write_docs(tables: dict[str, list[dict[str, str]]], metadata: dict) -> None:
         "# V1 候选包数据字典",
         "",
         "- Schema：0.3；N3 已批准并实现 BASED_ON_EVENT（work→event）加法升级。",
-        "- 所有 V1-ENT / V1-REL / V1-FCT / V1-CARD ID 已在 N3 候选版冻结，N4 前只接受有记录的修订。",
+        "- 所有 V1-ENT / V1-REL / V1-FCT / V1-CARD ID 在 V1.0.0 发布时冻结；后续修改必须通过版本化迁移、动态 QA 和新的版本记录。",
         "",
         "## 逻辑表",
         "",
@@ -783,7 +787,7 @@ def write_docs(tables: dict[str, list[dict[str, str]]], metadata: dict) -> None:
         "- V1 最低关系门槛调整为 75；150 转为 V1.1 扩展目标。",
         "- Schema 升级为 0.3，新增 BASED_ON_EVENT，生成 V1-REL-0076。",
         "- author→event 不建模；政治诗歌维持 3/1/1 分层。",
-        "- 本结论解锁 GIT-V1-N3；不代表 N4 正式发布。",
+        "- 本文件记录 N3 决策；V1.0.0 正式发布见 docs/V1_正式发布说明.md。",
     ])
     (OUT / "N3_审核包.md").write_text("\n".join(n3), encoding="utf-8")
 

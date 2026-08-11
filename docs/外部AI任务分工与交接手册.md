@@ -36,7 +36,7 @@
 3. 允许处理的来源、文件、内容单元或字段；页码/章节仅在确有必要时填写；
 4. 应生成的文件清单；
 5. `PROJECT_CHARTER.md`；
-6. 本手册和 `docs/阶段0_研究与数据规范.md`；
+6. 本手册和 `docs/数据新增与版本维护操作手册.md`；阶段 0 历史规范仅从 `docs/archive/v1-foundation/阶段0_研究与数据规范.md` 追溯；
 7. 对应的 `templates/external-ai/` 模板。
 
 外部 AI 必须遵守：
@@ -280,7 +280,7 @@ FULL 任务至少在以下时间更新 `STATUS.md`；LITE 任务在 `HANDOFF.md`
 
 你必须先阅读：
 1. PROJECT_CHARTER.md
-2. docs/阶段0_研究与数据规范.md
+2. docs/数据新增与版本维护操作手册.md
 3. docs/外部AI任务分工与交接手册.md
 4. 本任务目录 README.md
 

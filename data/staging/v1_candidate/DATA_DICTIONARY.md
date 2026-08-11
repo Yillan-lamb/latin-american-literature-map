@@ -1,7 +1,7 @@
-# V1 候选包数据字典
+# V1.0.0 发布快照数据字典
 
 - Schema：0.3；N3 已批准并实现 BASED_ON_EVENT（work→event）加法升级。
-- 所有 V1-ENT / V1-REL / V1-FCT / V1-CARD ID 已在 N3 候选版冻结，N4 前只接受有记录的修订。
+- 所有 V1-ENT / V1-REL / V1-FCT / V1-CARD ID 在 V1.0.0 发布时冻结；后续修改必须通过版本化迁移、动态 QA 和新的版本记录，不得静默覆盖本快照。
 
 ## 逻辑表
 

@@ -4,14 +4,14 @@
 
 > **用途**：本手册是“拉丁美洲文学地图”项目所有外部 AI Worker 的操作总纲，不绑定具体供应方。接任何新任务前先通读本手册，登记真实平台/模型，按流程执行并自检，避免被 Codex 反复返工。
 > **适用范围**：V1 阶段外部派单（N1-*、V1-S1-*、V1-S2-* 等）。
-> **权威层级**：用户明确指示 > `PROJECT_CHARTER.md` > 项目决策记录 > `docs/阶段0_研究与数据规范.md` > `TASKS.md` > 具体任务卡 > 本手册。任务卡不得突破总章程和研究规范。
+> **权威层级**：用户明确指示 > `PROJECT_CHARTER.md` > 项目决策记录 > 当前研究/数据规范与《数据新增与版本维护操作手册》 > `TASKS.md` > 具体任务卡 > 本手册。阶段 0 历史规范位于 `docs/archive/v1-foundation/`，不得覆盖当前规则。
 
 ---
 
 ## 一、任务总流程（8 步）
 
 1. **读任务卡**：完整读取 `work/external-ai/<任务ID>/README.md`，确认任务类型、`execution_scope`、范围、交付物、固定字段、验证项、禁止事项。里程碑包可能连续完成 2—4 个相邻机械子任务，但不得越过任务卡边界。
-2. **读必读文件**：按任务卡指定，一般含 `PROJECT_CHARTER.md`、`docs/阶段0_研究与数据规范.md`、`docs/外部AI任务分工与交接手册.md`、相关阶段报告、`data/catalog/SOURCE_REGISTRY.csv`、本手册。
+2. **读必读文件**：按任务卡指定，一般含 `PROJECT_CHARTER.md`、`docs/数据新增与版本维护操作手册.md`、`docs/外部AI任务分工与交接手册.md`、相关阶段报告、`data/catalog/SOURCE_REGISTRY.csv`、本手册；需要历史追溯时再读取 `docs/archive/v1-foundation/`。
 3. **建任务清单**：用 TaskCreate 拆解（读文件 / 主体工作 / 生成交付物 / 验证收尾），逐项推进。
 4. **执行**：严格完成任务卡列出的整个里程碑范围；不自行扩展到卡外，也不自行做保留给 Codex 的决策（试点、正式等级、关系确认、入库等写进 ISSUES）。
 5. **生成交付物**：按任务卡的 `package_profile` 交付。LITE 使用 README + 主体成果 + 合并 HANDOFF；FULL 使用完整过程文档。

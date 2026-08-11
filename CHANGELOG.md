@@ -2,6 +2,13 @@
 
 本文件记录拉丁美洲文学地图各版本的实际修改。格式参考 Keep a Changelog，版本号遵循语义化版本规则。
 
+## [Unreleased] - 2026-08-11
+
+- 根据 V1.0.0 工作流程审计，新增长期增量维护手册、审计摘要和旧规则淘汰清单。
+- 修正 AI 协同计划、接管提示词、阶段 0/阶段 3 历史文档提示及 V1 发布快照说明，避免把 150 条门槛、Schema 0.2 或“N4 前候选”误作当前规则。
+- 从 V1.0.0 SQLite 建立 `data/master/V1_MASTER.sqlite` 基线，新增事务迁移入口、动态主库验证器和 SQLite→CSV/JSON/Excel 通用导出工具。
+- 保留 `data/staging/v1_candidate/` 的 V1.0.0 主体数据快照；仅修正发布后说明文件并重收 MANIFEST，未修改冻结章程、历史决策、历史 REVIEW、CSV/JSON/SQLite 或 Excel 主体内容。
+
 ## [1.0.0] - 2026-08-11
 
 ### 正式发布

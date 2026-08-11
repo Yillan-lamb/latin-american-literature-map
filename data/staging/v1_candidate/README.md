@@ -1,6 +1,6 @@
-# 拉丁美洲文学地图 V1 候选包
+# 拉丁美洲文学地图 V1.0.0 发布快照
 
-本目录是 CODEX-DATA 基于 A06-A R1 pass 并落实 N3 用户决定后生成的候选数据包，不是 N4 正式发布版。
+本目录保留 V1.0.0 的正式发布快照。目录名 `v1_candidate` 是建设期遗留命名，不代表当前状态；长期增量主库已迁移至 `data/master/V1_MASTER.sqlite`。
 
 - 正式来源：74；来源 hold：4；
 - 规范实体：144，由 146 个上游引用映射而来；
@@ -8,4 +8,4 @@
 - 事实素材：238；内容卡：40；
 - 缺口登记：13；N3 用户决策：4 项均已完成。
 
-CSV、JSON、SQLite 由 scripts/build_v1_candidate.py 同源生成。Excel 由工作区标准电子表格运行时从同一组 CSV 生成。N3 结论见 N3_审核包.md；N4 前仍需完成阶段 5 的最终冻结审计。
+CSV、JSON、SQLite 由 `scripts/build_v1_candidate.py` 同源生成，作为 V1.0.0 历史重建器保留；Excel 由同一组 CSV 生成。N3 结论见 `N3_审核包.md`，正式发布说明见 `docs/V1_正式发布说明.md`。后续增量不得在本目录原地修改。

@@ -1,0 +1,67 @@
+name: V2 Pages
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out release source
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Require confirmed public origin
+        env:
+          V2_SITE_ORIGIN: ${{ vars.V2_SITE_ORIGIN }}
+        run: |
+          if [ -z "$V2_SITE_ORIGIN" ]; then
+            echo "Repository variable V2_SITE_ORIGIN is required before deployment."
+            exit 1
+          fi
+          case "$V2_SITE_ORIGIN" in
+            https://*) ;;
+            *) echo "V2_SITE_ORIGIN must use HTTPS."; exit 1 ;;
+          esac
+
+      - name: Rebuild frozen Web Data
+        run: python3 scripts/build_v2_web_data.py --generated-at 2026-08-11T00:00:00+08:00
+
+      - name: Validate rebuilt Web Data
+        run: python3 scripts/validate_v2_web_data.py
+
+      - name: Verify approved frozen release candidate
+        run: python3 scripts/build_v2_release_manifest.py --verify --require-release-state approved_v2_n4
+
+      - name: Build public deployment bundle
+        env:
+          V2_SITE_ORIGIN: ${{ vars.V2_SITE_ORIGIN }}
+        run: python3 scripts/build_v2_deploy_bundle.py --output dist --origin "$V2_SITE_ORIGIN"
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+
+      - name: Deploy to Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

@@ -4,6 +4,19 @@
 
 ## [Unreleased] - 2026-08-11
 
+- 根据 `docs/V2_SOL_AUDIT_REPORT.md` 完成 V2-N4 前整改：地图采用稳定的防碰撞位置、国家节点进入国家页、国家页汇总直接与子地点关系；unknown 地点使用待确认模板，隐藏技术父节点不再进入搜索或独立路由。
+- 修正 Parral 为 provisional 时保持公开地图隐藏；保留其研究状态，不补造官方来源或分类结论。
+- 加固 Web Data validator、release manifest 与 Pages 工作流：候选升级为 `V2.0.0-rc.2`，冻结范围增至 15 个部署输入，部署前必须验证 SHA-256 且 `release_state=approved_v2_n4`。
+- 修正 hash 路由 sitemap、部署 README 来源、构建脚本的 `--help` / `--dry-run` 行为，并清理 V2 动态状态、决策索引和 QA 计数漂移。
+- USER 批准 V2-N1，并授权将已批准的 V2 产品方向、阶段结构、地图/数据/策展治理、V2-N2 至 V2-N4 审核节点和 Codex 权限纳入 `PROJECT_CHARTER.md`；章程由 1.4.0 增量升级至 1.5.0。
+- 新增 DEC-040，记录 V2 启动、V2 最高专项说明书地位、V2.0 范围控制、用户节点和当前下一节点 V2-N2。
+- README 当前阶段同步为 V1.0.0 已发布、V2-N1 已批准、进入 N2 原型准备；V1 既有来源、数据、版权和 GitHub 治理规则保持不变。
+- 完成 V2 数据适配审计、地图地理补充、Curation Data Schema、Web Data 构建、N2 真实样本和最小策展包；生成可回溯的 V2 地图、策展与 Web Data 输出。
+- 新增 `site/` 静态优先 N2 原型：地图主入口、国家→地点交互、现实地点/虚构空间页、作者/作品页、基础搜索、文学时间线和阅读/研究双层；完成 V2-S4-005 QA，当前停在 `V2-N2 = USER_REVIEW`。
+- USER 通过 N2 并授权继续执行；新增 DEC-042，解锁阶段 5—7，下一用户节点切换为 V2-N3；阶段 8 与 N4 继续锁定。
+- 完成阶段 5—7：生成完整页面覆盖和策展草稿，Web Data 升级至 `v2-web-0.2`，完整站接入首页、全量地图、页面回退、类型搜索、作家/作品/背景时间线、来源证据层和响应式/可访问性门禁。
+- 新增 `docs/V2_N3_FULL_TEST_SITE_REVIEW.md`；完整测试站入口与 Web Data HTTP smoke test 均返回 200，内部 QA 通过，当前停在 `V2-N3 = USER_REVIEW`，阶段 8 与 N4 不提前执行。
+- USER 通过 V2-N3 并授权继续执行；完成 V2-S8-001 至 V2-S8-004，生成 V2.0.0-rc.1 冻结清单、公开边界 QA、GitHub Pages 候选工作流、根目录部署包和发布说明，当前停在 `V2-N4 = USER_REVIEW`。
 - 根据 V1.0.0 工作流程审计，新增长期增量维护手册、审计摘要和旧规则淘汰清单。
 - 修正 AI 协同计划、接管提示词、阶段 0/阶段 3 历史文档提示及 V1 发布快照说明，避免把 150 条门槛、Schema 0.2 或“N4 前候选”误作当前规则。
 - 从 V1.0.0 SQLite 建立 `data/master/V1_MASTER.sqlite` 基线，新增事务迁移入口、动态主库验证器和 SQLite→CSV/JSON/Excel 通用导出工具。

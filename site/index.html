@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#f3eee4" />
+    <meta name="description" content="拉丁美洲文学地图：从地点进入作者、作品与文学空间。" />
+    <title>拉丁美洲文学地图</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="site-frame">
+      <header class="site-header">
+        <a class="wordmark" href="#/" aria-label="回到首页">
+          <span class="wordmark-mark">LATAM</span>
+          <span class="wordmark-name">拉丁美洲文学地图</span>
+        </a>
+        <nav id="main-nav" class="main-nav" aria-label="主要导航">
+          <a href="#/">地图</a>
+          <a href="#/search">搜索</a>
+          <a href="#/timeline">时间线</a>
+          <a href="#/about">方法</a>
+        </nav>
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav">菜单</button>
+      </header>
+
+      <main id="app" tabindex="-1" aria-live="polite">
+        <div class="loading-state">
+          <span class="loading-dot"></span>
+          正在打开文学地图……
+        </div>
+      </main>
+
+      <footer class="site-footer">
+        <div>
+          <span class="footer-kicker">A research-led reading map</span>
+          <span>V2 完整测试站 · 数据与策展分层</span>
+        </div>
+        <a href="#/about">查看方法与来源</a>
+      </footer>
+    </div>
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>

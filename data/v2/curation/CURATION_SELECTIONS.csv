@@ -1,0 +1,20 @@
+curation_id,target_type,target_id,selection_key,selection_value,status,draft_origin,research_refs,source_refs,basis_note,display_scope,sort_order,created_at,reviewed_at,reviewer,review_note,schema_version
+V2-CUR-SEL-001,author,V1-ENT-0016,featured_author,true,auto_approved,codex,V1-CARD-0002,SRC-0009,仅用于 N2 样本覆盖与葡萄牙语文学入口；不是文学地位排序,home,10,2026-08-11,2026-08-11,CODEX,N2 范围选择已核验,v2-curation-0.1
+V2-CUR-SEL-002,author,V1-ENT-0031,featured_author,true,auto_approved,codex,V1-CARD-0017,SRC-0027,仅用于 N2 样本覆盖与墨西哥路径入口；不是文学地位排序,home,20,2026-08-11,2026-08-11,CODEX,N2 范围选择已核验,v2-curation-0.1
+V2-CUR-SEL-003,author,V1-ENT-0030,featured_author,true,auto_approved,codex,V1-CARD-0013,SRC-0022,仅用于 N2 样本覆盖与现实地点路径入口；不是文学地位排序,home,30,2026-08-11,2026-08-11,CODEX,N2 范围选择已核验,v2-curation-0.1
+V2-CUR-SEL-004,author,V1-ENT-0072,featured_author,true,auto_approved,codex,V1-CARD-0021,SRC-0035;SRC-0036,仅用于 N2 样本覆盖与现实/虚构空间双路径；不是文学地位排序,home,40,2026-08-11,2026-08-11,CODEX,N2 范围选择已核验,v2-curation-0.1
+V2-CUR-SEL-005,work,V1-ENT-0017,featured_work,true,auto_approved,codex,V1-CARD-0006,SRC-0009,N2 真实作品样本；不表示阅读价值排名,home,10,2026-08-11,2026-08-11,CODEX,N2 范围选择已核验,v2-curation-0.1
+V2-CUR-SEL-006,work,V1-ENT-0018,featured_work,true,auto_approved,codex,V1-CARD-0007;V1-REL-0013,SRC-0009,N2 真实作品样本；与里约热内卢交互路径相连,home,20,2026-08-11,2026-08-11,CODEX,N2 范围选择已核验,v2-curation-0.1
+V2-CUR-SEL-007,work,V1-ENT-0038,featured_work,true,auto_approved,codex,V1-CARD-0018;V1-REL-0034,SRC-0029,N2 真实作品样本；与科马拉虚构空间路径相连,home,30,2026-08-11,2026-08-11,CODEX,N2 范围选择已核验,v2-curation-0.1
+V2-CUR-SEL-008,work,V1-ENT-0035,featured_work,true,auto_approved,codex,V1-CARD-0014;V1-REL-0033,SRC-0023,N2 真实作品样本；与恰帕斯现实地区路径相连,home,40,2026-08-11,2026-08-11,CODEX,N2 范围选择已核验,v2-curation-0.1
+V2-CUR-SEL-009,work,V1-ENT-0075,featured_work,true,auto_approved,codex,V1-CARD-0022;V1-REL-0075,SRC-0032;SRC-0057,N2 真实作品样本；与马孔多虚构空间路径相连,home,50,2026-08-11,2026-08-11,CODEX,N2 范围选择已核验,v2-curation-0.1
+V2-CUR-SEL-010,work,V1-ENT-0077,featured_work,true,auto_approved,codex,V1-CARD-0024,SRC-0034,N2 真实作品样本；不表示阅读价值排名,home,60,2026-08-11,2026-08-11,CODEX,N2 范围选择已核验,v2-curation-0.1
+V2-CUR-SEL-011,country,V2-GEO-BR,map_status,featured,auto_approved,codex,,https://www.geonames.org/3469034/federative-republic-of-brazil.html,N2 国家层技术父级；默认地图展示巴西国家入口，不新增 V1 研究事实,map,10,2026-08-11,2026-08-11,CODEX,国家层显示规则已核验,v2-curation-0.1
+V2-CUR-SEL-012,country,V1-ENT-0051,map_status,featured,auto_approved,codex,V1-ENT-0051,,N2 国家层真实 V1 地点节点；默认地图展示墨西哥国家入口,map,20,2026-08-11,2026-08-11,CODEX,国家层显示规则已核验,v2-curation-0.1
+V2-CUR-SEL-013,country,V1-ENT-0095,map_status,featured,auto_approved,codex,V1-ENT-0095,,N2 国家层真实 V1 地点节点；默认地图展示哥伦比亚国家入口,map,30,2026-08-11,2026-08-11,CODEX,国家层显示规则已核验,v2-curation-0.1
+V2-CUR-SEL-014,place,V1-ENT-0022,map_status,featured,auto_approved,codex,V1-REL-0013,SRC-0009,N2 现实故事空间；有关系且有城市概览坐标,map,40,2026-08-11,2026-08-11,CODEX,地图状态已核验,v2-curation-0.1
+V2-CUR-SEL-015,place,V1-ENT-0052,map_status,eligible,auto_approved,codex,V1-REL-0033,SRC-0023,N2 现实地区关系明确；进入墨西哥后展示,map,50,2026-08-11,2026-08-11,CODEX,地图状态已核验,v2-curation-0.1
+V2-CUR-SEL-016,place,V1-ENT-0053,map_status,eligible,auto_approved,codex,V1-REL-0037,SRC-0022,N2 作者地理关系明确；进入墨西哥后展示,map,60,2026-08-11,2026-08-11,CODEX,地图状态已核验,v2-curation-0.1
+V2-CUR-SEL-017,place,V1-ENT-0098,map_status,eligible,auto_approved,codex,V1-REL-0056,SRC-0035,N2 现实作者地理节点；进入哥伦比亚后展示,map,70,2026-08-11,2026-08-11,CODEX,地图状态已核验,v2-curation-0.1
+V2-CUR-SEL-018,fictional_space,V1-ENT-0055,map_status,featured,auto_approved,codex,V1-REL-0034,SRC-0029;https://lugares.inah.gob.mx/en/node/4838,N2 核心文学虚构空间；无现实坐标,map,80,2026-08-11,2026-08-11,CODEX,虚构空间展示规则已核验,v2-curation-0.1
+V2-CUR-SEL-019,fictional_space,V1-ENT-0097,map_status,featured,auto_approved,codex,V1-REL-0057;V1-REL-0075,SRC-0035;SRC-0057,N2 核心文学虚构空间；无现实坐标,map,90,2026-08-11,2026-08-11,CODEX,虚构空间展示规则已核验,v2-curation-0.1

@@ -35,7 +35,7 @@ def main() -> int:
     payload = json.loads(args.path.read_text(encoding="utf-8"))
     if payload.get("schema_version") != "v2-web-0.2":
         fail("unexpected Web Data schema_version")
-    for key in ("research", "curation", "review_queue", "pages", "map", "qa", "search_index", "timeline"):
+    for key in ("research", "curation", "review_queue", "presentation", "pages", "map", "qa", "search_index", "timeline"):
         if key not in payload:
             fail(f"missing top-level key: {key}")
 
@@ -76,6 +76,18 @@ def main() -> int:
                 fail(f"dangling recommendation target: {item['curation_id']}")
     if any(item["status"] != "auto_approved" for group in payload["curation"].values() for item in group):
         fail("public curation contains a non-auto-approved record")
+
+    presentation = payload["presentation"]
+    if presentation.get("schema_version") != "v2-public-presentation-0.1":
+        fail("unexpected public presentation schema")
+    for path in presentation.get("reading_paths", []):
+        if path.get("review_status") != "user_review":
+            fail(f"new reading path bypasses user review: {path.get('id')}")
+        if not path.get("target_ids") or any(target_id not in valid_ids for target_id in path["target_ids"]):
+            fail(f"invalid public reading path: {path.get('id')}")
+    for period in presentation.get("timeline_periods", []):
+        if period.get("review_status") != "user_review" or period.get("start") > period.get("end"):
+            fail(f"invalid timeline period: {period.get('id')}")
 
     for group, count_key in (("entries", "curation_entries"), ("selections", "curation_selections"), ("recommendations", "curation_recommendations")):
         total = len(payload["curation"][group]) + len(payload["review_queue"][group])

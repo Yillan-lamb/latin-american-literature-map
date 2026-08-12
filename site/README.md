@@ -1,9 +1,13 @@
-# 拉丁美洲文学地图 V2 完整测试站
+# 拉丁美洲文学地图网站
 
-这是静态优先的完整测试站。页面通过 `../data/v2/web/site_data.json` 读取 Web Data，不在前端写入研究事实；公共策展只消费 `auto_approved`，待审记录留在独立队列。
+`site/` 是公共网站的设计与交互源码。公众页面只呈现文学内容、自然语言研究说明和可读书目；研究状态、数据字段、审核队列与发布治理不进入阅读界面。
 
-当前覆盖首页、完整地图、国家/地点/作者/作品页、研究缺口回退、关联节点页、分组搜索、作家/作品/背景时间线和研究证据层。
+网站保持静态优先，并由 Research Data、Geo Data、Curation Data 和独立 Presentation Layer 生成。开发时可从项目根目录提供静态文件并访问 `/site/`；正式候选应通过 `scripts/build_v2_deploy_bundle.py` 生成，因为该步骤会：
 
-本地预览时请从项目根目录启动任意静态服务器，再打开 `/site/`。不要直接双击 `index.html`，浏览器会阻止它读取上级目录的数据 JSON。
+- 生成作者、作品、国家、地点、阅读路径、搜索、时间线与 About 的静态可索引路由；
+- 为各页写入 title、description、canonical 与 Open Graph 信息；
+- 生成 sitemap 与 robots 文件；
+- 压缩公共数据，并物理移除审核队列、状态字段和内部统计；
+- 复制真实拉丁美洲国家边界底图。
 
-正式静态部署候选包由 `python3 scripts/build_v2_deploy_bundle.py --output <dist> --origin <https-origin>` 生成；部署根目录版本会自动读取同级 `data/v2/web/site_data.json`。正式域名和部署动作需在 V2-N4 通过后执行。
+正式部署仍需用户通过 V2-N4，并由手动 Pages 工作流校验批准提交、候选清单和 HTTPS origin。本目录本身不执行部署。

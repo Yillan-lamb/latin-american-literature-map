@@ -2,7 +2,15 @@
 
 本文件记录拉丁美洲文学地图各版本的实际修改。格式参考 Keep a Changelog，版本号遵循语义化版本规则。
 
-## [Unreleased] - 2026-08-11
+## [Unreleased] - 2026-08-12
+
+- 完成 `V2-N4-R02` 产品一致性差量返修，形成 `V2.0.0-rc.3` 候选；Research / Geo / Curation / Web Data 既有架构与已审核事实保持不变。
+- 公共网站统一为“拉丁美洲文学地图”，移除版本、阶段、内部字段、审核状态、统计和测试站语言；新增独立 Presentation Layer，并在部署包中物理剥离内部状态字段。
+- 首页改为品牌与真实地图优先，加入 5 条策展阅读路径；10 位作家页升级为文学探索结构，17 部资料达标作品补齐“为什么值得读”，并形成 10 条延伸阅读候选。
+- 地图改用 Natural Earth 公共领域拉丁美洲国家边界和真实坐标投影；文学虚构空间保持独立视觉机制且不赋现实坐标。
+- 生成 146 条静态可索引路由及页面级 title、description、canonical、Open Graph、sitemap 和 robots；搜索、时间线、地点与 About 页面完成公众化。
+- 发布清单冻结范围扩至 22 项关键输入，加入候选源码提交锚定协议；PR CI 覆盖数据、构建、公开语言、静态路由和冻结一致性验证，手动 Pages 部署继续要求用户批准。
+- 三浏览器、桌面/390px、9 条核心路径全部通过；Lighthouse 记录为 Performance 98、Accessibility 100、Best Practices 100、SEO 100。当前仍停在 `V2-N4 = USER_REVIEW`，未部署、未创建标签或 Release。
 
 - 根据 `docs/V2_SOL_AUDIT_REPORT.md` 完成 V2-N4 前整改：地图采用稳定的防碰撞位置、国家节点进入国家页、国家页汇总直接与子地点关系；unknown 地点使用待确认模板，隐藏技术父节点不再进入搜索或独立路由。
 - 修正 Parral 为 provisional 时保持公开地图隐藏；保留其研究状态，不补造官方来源或分类结论。

@@ -18,6 +18,7 @@ DEFAULT_DB = ROOT / "data/master/V1_MASTER.sqlite"
 DEFAULT_GEO = ROOT / "data/v2/geo"
 DEFAULT_CURATION = ROOT / "data/v2/curation"
 DEFAULT_OUTPUT = ROOT / "data/v2/web"
+DEFAULT_PRESENTATION = ROOT / "data/v2/presentation/PUBLIC_PRESENTATION.json"
 SCHEMA_VERSION = "v2-web-0.2"
 CURATION_SCHEMA_VERSION = "v2-curation-0.1"
 ALLOWED_CURATION_STATUSES = {"auto_approved", "user_review", "hold"}
@@ -164,14 +165,14 @@ def load_curation(curation_dir: Path, valid_target_ids: set[str]) -> dict[str, l
     return result
 
 
-def build_data(db_path: Path, geo_dir: Path, curation_dir: Path, generated_at: str) -> dict[str, Any]:
+def build_data(db_path: Path, geo_dir: Path, curation_dir: Path, presentation_path: Path, generated_at: str) -> dict[str, Any]:
     places, place_relations = load_geo(geo_dir)
     with sqlite3.connect(db_path) as conn:
         entities = rows(conn, "SELECT * FROM entities ORDER BY entity_id")
         cards = rows(conn, "SELECT * FROM content_cards ORDER BY card_id")
         facts = rows(conn, "SELECT * FROM facts ORDER BY fact_id")
         relations = rows(conn, "SELECT * FROM relationships ORDER BY relationship_id")
-        sources = rows(conn, "SELECT source_id, title, source_level, canonical_url FROM sources ORDER BY source_id")
+        sources = rows(conn, "SELECT source_id, title, author_or_editor, publisher, publication_year, source_level, canonical_url FROM sources ORDER BY source_id")
         relation_evidence = rows(conn, "SELECT relationship_id, source_id, source_title, locator, evidence_note, evidence_status FROM relationship_evidence ORDER BY evidence_id")
         fact_sources = rows(conn, "SELECT fact_id, source_id, source_title FROM fact_sources ORDER BY fact_id, source_id")
         card_facts = rows(conn, "SELECT card_id, fact_id, admission_status FROM card_facts ORDER BY card_id, fact_id")
@@ -182,6 +183,13 @@ def build_data(db_path: Path, geo_dir: Path, curation_dir: Path, generated_at: s
     place_by_entity_id = {item["entity_id"]: item for item in places if item.get("entity_id")}
     valid_target_ids = set(entity_by_id) | {place["place_id"] for place in places}
     curation = load_curation(curation_dir, valid_target_ids)
+    presentation = json.loads(presentation_path.read_text(encoding="utf-8"))
+    if presentation.get("schema_version") != "v2-public-presentation-0.1":
+        raise ValueError("unexpected public presentation schema")
+    for path in presentation.get("reading_paths", []):
+        for target_id in path.get("target_ids", []):
+            if target_id not in valid_target_ids:
+                raise ValueError(f"dangling public reading path target: {path.get('id')} -> {target_id}")
 
     cards_by_subject: dict[str, list[dict[str, Any]]] = defaultdict(list)
     for card in cards:
@@ -394,6 +402,7 @@ def build_data(db_path: Path, geo_dir: Path, curation_dir: Path, generated_at: s
         },
         "curation": curation_public,
         "review_queue": curation_review_queue,
+        "presentation": presentation,
         "pages": page_entities,
         "map": {"places": places_for_web, "relations": place_relations},
         "qa": {"map_status_overrides": map_status_overrides},
@@ -407,11 +416,12 @@ def main() -> int:
     parser.add_argument("--db", type=Path, default=DEFAULT_DB)
     parser.add_argument("--geo-dir", type=Path, default=DEFAULT_GEO)
     parser.add_argument("--curation-dir", type=Path, default=DEFAULT_CURATION)
+    parser.add_argument("--presentation", type=Path, default=DEFAULT_PRESENTATION)
     parser.add_argument("--output-dir", type=Path, default=DEFAULT_OUTPUT)
     parser.add_argument("--generated-at", default=None)
     args = parser.parse_args()
     generated_at = args.generated_at or datetime.now(timezone.utc).isoformat(timespec="seconds")
-    payload = build_data(args.db, args.geo_dir, args.curation_dir, generated_at)
+    payload = build_data(args.db, args.geo_dir, args.curation_dir, args.presentation, generated_at)
     args.output_dir.mkdir(parents=True, exist_ok=True)
     output_path = args.output_dir / "site_data.json"
     output_path.write_text(json.dumps(payload, ensure_ascii=False, indent=2, sort_keys=True) + "\n", encoding="utf-8")

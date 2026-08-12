@@ -1,0 +1,41 @@
+name: V2 CI
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+      - name: Validate master data
+        run: python3 scripts/validate_master.py data/master/V1_MASTER.sqlite
+      - name: Rebuild and validate website data
+        run: |
+          python3 scripts/build_v2_web_data.py --generated-at 2026-08-12T00:00:00+08:00
+          python3 scripts/validate_v2_web_data.py
+      - name: Check JavaScript syntax
+        run: node --check site/app.js
+      - name: Build static product pages
+        run: python3 scripts/build_v2_deploy_bundle.py --output dist --origin https://example.invalid/
+      - name: Scan public interface language
+        run: python3 scripts/qa_v2_public_ui.py dist
+      - name: Verify release candidate inputs
+        run: |
+          cp data/v2/release/V2.0.0_RELEASE_MANIFEST.json /tmp/V2.0.0_RELEASE_MANIFEST.json
+          APPROVED_COMMIT_SHA=$(python3 -c 'import json; print(json.load(open("/tmp/V2.0.0_RELEASE_MANIFEST.json"))["approved_commit_sha"])')
+          git checkout --detach "$APPROVED_COMMIT_SHA"
+          python3 scripts/build_v2_web_data.py --generated-at 2026-08-12
+          python3 scripts/validate_v2_web_data.py
+          python3 scripts/build_v2_release_manifest.py --verify --output /tmp/V2.0.0_RELEASE_MANIFEST.json
+      - name: Check whitespace
+        run: git diff --check

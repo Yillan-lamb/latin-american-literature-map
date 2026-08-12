@@ -1,0 +1,101 @@
+{
+  "schema_version": "v2-public-presentation-0.1",
+  "site": {
+    "name": "拉丁美洲文学地图",
+    "tagline": "从马孔多、科马拉到布宜诺斯艾利斯，在地图、作品与作家之间重新发现拉丁美洲文学。",
+    "description": "一张从地点、作家、作品与时间进入拉丁美洲文学的中文探索地图。"
+  },
+  "reading_paths": [
+    {
+      "id": "PATH-001",
+      "slug": "first-steps",
+      "title": "第一次读拉美文学",
+      "description": "从短篇、虚构村镇与家族叙事三个入口，找到适合自己的第一条阅读路径。",
+      "target_ids": ["V1-ENT-0003", "V1-ENT-0038", "V1-ENT-0075"],
+      "review_status": "user_review",
+      "basis": ["V1-CARD-0003", "V1-CARD-0018", "V1-CARD-0022"]
+    },
+    {
+      "id": "PATH-002",
+      "slug": "begin-with-borges",
+      "title": "从博尔赫斯开始",
+      "description": "沿着迷宫、分岔时间与不可穷尽的空间，进入博尔赫斯的短篇世界。",
+      "target_ids": ["V1-ENT-0002", "V1-ENT-0003", "V1-ENT-0004"],
+      "review_status": "user_review",
+      "basis": ["V1-CARD-0001", "V1-CARD-0003", "V1-CARD-0004", "V1-ENT-0013", "V1-ENT-0015"]
+    },
+    {
+      "id": "PATH-003",
+      "slug": "beyond-magical-realism",
+      "title": "不止魔幻现实主义",
+      "description": "从内心生活、社会不平等、城市经验与实验叙事，看见更宽阔的拉美文学。",
+      "target_ids": ["V1-ENT-0016", "V1-ENT-0018", "V1-ENT-0078", "V1-ENT-0116"],
+      "review_status": "user_review",
+      "basis": ["V1-CARD-0002", "V1-CARD-0007", "V1-CARD-0025", "V1-CARD-0031"]
+    },
+    {
+      "id": "PATH-004",
+      "slug": "women-writing-latin-america",
+      "title": "女性作家如何书写拉丁美洲",
+      "description": "从克拉丽丝·李斯佩克朵、埃莱娜·加罗与罗萨里奥·卡斯特利亚诺斯出发。",
+      "target_ids": ["V1-ENT-0016", "V1-ENT-0029", "V1-ENT-0030"],
+      "review_status": "user_review",
+      "basis": ["V1-CARD-0002", "V1-CARD-0012", "V1-CARD-0013"]
+    },
+    {
+      "id": "PATH-005",
+      "slug": "time-memory-maze",
+      "title": "时间、记忆与迷宫",
+      "description": "在分岔时间、村镇记忆与破碎叙事之间，追踪拉美文学如何重新组织时间。",
+      "target_ids": ["V1-ENT-0003", "V1-ENT-0032", "V1-ENT-0038"],
+      "review_status": "user_review",
+      "basis": ["V1-ENT-0013", "V1-ENT-0067", "V1-CARD-0015", "V1-CARD-0018"]
+    }
+  ],
+  "timeline_periods": [
+    {"id": "PERIOD-001", "title": "世纪之交与现代主义", "start": 1890, "end": 1924, "review_status": "user_review"},
+    {"id": "PERIOD-002", "title": "先锋派与文学实验", "start": 1925, "end": 1945, "review_status": "user_review"},
+    {"id": "PERIOD-003", "title": "新小说的探索", "start": 1946, "end": 1959, "review_status": "user_review"},
+    {"id": "PERIOD-004", "title": "拉丁美洲文学爆炸", "start": 1960, "end": 1975, "review_status": "user_review"},
+    {"id": "PERIOD-005", "title": "爆炸之后与当代文学", "start": 1976, "end": 2026, "review_status": "user_review"}
+  ],
+  "why_read": [
+    {"id":"WHY-001","work_id":"V1-ENT-0003","points":[{"title":"一座由时间构成的迷宫","text":"小说把分岔的时间变成叙事结构，让每一种选择都通向并存的未来。"},{"title":"读者也是解谜者","text":"间谍故事与哲学谜题相互嵌套，阅读本身成为寻找路径的过程。"}],"review_status":"user_review","basis":["V1-CARD-0003","V1-ENT-0013"]},
+    {"id":"WHY-002","work_id":"V1-ENT-0004","points":[{"title":"在一个点里看见全部空间","text":"阿莱夫把无限压缩进日常地窖，让宏大的形而上问题从私人记忆中显形。"},{"title":"不可靠的观看与讲述","text":"作品不断追问：当一切都能被看见，语言是否真的能够说出一切？"}],"review_status":"user_review","basis":["V1-CARD-0004","V1-ENT-0015"]},
+    {"id":"WHY-003","work_id":"V1-ENT-0018","points":[{"title":"被书写者与书写者同时在场","text":"玛卡贝娅的故事与叙述者对写作行为的反思并行，小说也在审视谁有权替谁发声。"},{"title":"城市中的沉默人物","text":"里约热内卢不只是背景，它放大贫困、欲望与社会不可见性。"}],"review_status":"user_review","basis":["V1-CARD-0007","V1-REL-0013","V1-ENT-0025"]},
+    {"id":"WHY-004","work_id":"V1-ENT-0038","points":[{"title":"碎片拼成的鬼村","text":"多条声音与不同时间彼此穿插，读者要从破碎叙述中重新拼出科马拉。"},{"title":"土地、权力与沉默","text":"寻父故事逐渐展开为一个被考迪罗权力压迫的乡村世界。"}],"review_status":"user_review","basis":["V1-CARD-0018","V1-REL-0034","SRC-0028"]},
+    {"id":"WHY-005","work_id":"V1-ENT-0075","points":[{"title":"家族时间与大陆经验","text":"布恩迪亚家族的循环命运，把私人记忆、孤独与拉丁美洲历史想象缠绕在一起。"},{"title":"马孔多：世界从这里生成","text":"虚构城市既是故事空间，也是理解现实与幻想如何共存的文学入口。"}],"review_status":"user_review","basis":["V1-CARD-0022","V1-REL-0075","SRC-0057"]},
+    {"id":"WHY-006","work_id":"V1-ENT-0078","points":[{"title":"一本需要读者参与的小说","text":"碎片、跳读与多种话语打破单一路线，读者必须参与作品的重新组合。"},{"title":"形式本身就是问题","text":"它挑战小说必须从头读到尾的习惯，让阅读顺序成为作品意义的一部分。"}],"review_status":"user_review","basis":["V1-CARD-0025","SRC-0038","SRC-0065"]},
+    {"id":"WHY-007","work_id":"V1-ENT-0017","points":[{"title":"把瞬间写成流动的思想","text":"作品弱化情节，以不断变化的声音捕捉时间、感觉与意识正在发生的时刻。"},{"title":"跨出小说的边界","text":"散文、独白与哲思彼此交叠，让体裁的不稳定成为阅读经验的一部分。"}],"review_status":"user_review","basis":["V1-CARD-0006","SRC-0009","SRC-0011"]},
+    {"id":"WHY-008","work_id":"V1-ENT-0032","points":[{"title":"让村镇成为叙述者","text":"伊斯特佩克以集体声音回望历史，地点不只是背景，也像人物一样保存记忆。"},{"title":"从记忆看革命后的幻灭","text":"私人命运与社会秩序彼此牵连，展示历史如何留在一个共同体的日常生活里。"}],"review_status":"user_review","basis":["V1-CARD-0015","SRC-0019","SRC-0020","SRC-0071"]},
+    {"id":"WHY-009","work_id":"V1-ENT-0035","points":[{"title":"两种世界在同一座村镇相遇","text":"作品并置白人家庭与原住民共同体的经验，让语言、土地和权力的差异进入叙事。"},{"title":"从家庭内部看社会结构","text":"儿童视角连接亲密生活与族群秩序，使宏大的冲突从具体关系中显现。"}],"review_status":"user_review","basis":["V1-CARD-0014","SRC-0023","SRC-0024"]},
+    {"id":"WHY-010","work_id":"V1-ENT-0076","points":[{"title":"等待如何变成一种生活","text":"迟迟不来的信把时间拉长，贫困、尊严与希望都被放进日复一日的等待里。"},{"title":"克制而坚定的抵抗","text":"上校的选择并不宏大，却让个人尊严与政治遗忘之间的冲突持续发声。"}],"review_status":"user_review","basis":["V1-CARD-0023","SRC-0033","SRC-0064"]},
+    {"id":"WHY-011","work_id":"V1-ENT-0077","points":[{"title":"结局已知，真相仍然需要重构","text":"作品从不同证词回到同一场死亡，悬念不在谁做了，而在悲剧为何无人阻止。"},{"title":"共同体也是故事的主角","text":"传闻、荣誉与集体沉默交织，让个人命运成为整个社会结构的镜面。"}],"review_status":"user_review","basis":["V1-CARD-0024","SRC-0034"]},
+    {"id":"WHY-012","work_id":"V1-ENT-0079","points":[{"title":"历史在神奇现实中重新显形","text":"海地革命经验与超自然信念并置，现实并不因神奇而被逃避，反而显出另一种历史感。"},{"title":"从加勒比重新理解美洲","text":"作品把跨文化经验放在叙事中心，挑战单一欧洲视角对拉丁美洲历史的解释。"}],"review_status":"user_review","basis":["V1-CARD-0026","SRC-0041","SRC-0072"]},
+    {"id":"WHY-013","work_id":"V1-ENT-0080","points":[{"title":"一场逆流而上的文明旅行","text":"主人公进入雨林的旅程也不断追问现代生活、艺术与所谓文明的起点。"},{"title":"空间改变了时间经验","text":"越深入美洲腹地，线性历史越显得不再稳固，旅行因此成为一次观念上的转向。"}],"review_status":"user_review","basis":["V1-CARD-0027","SRC-0042"]},
+    {"id":"WHY-014","work_id":"V1-ENT-0081","points":[{"title":"从革命理想看到现代性的矛盾","text":"启蒙、自由与暴力在加勒比世界相遇，作品追踪观念如何进入具体历史。"},{"title":"用视觉与物件组织历史经验","text":"艺术物件和观看方式反复出现，使宏大时代变化落到可感的形象之中。"}],"review_status":"user_review","basis":["V1-CARD-0028","SRC-0043"]},
+    {"id":"WHY-015","work_id":"V1-ENT-0116","points":[{"title":"一所军校里的城市寓言","text":"封闭校园浓缩了暴力、等级与男性气质，也折射出更广阔的利马社会。"},{"title":"多重声音拆开单一真相","text":"不同人物的经历彼此碰撞，读者必须在冲突叙述中辨认权力如何运作。"}],"review_status":"user_review","basis":["V1-CARD-0031","SRC-0044","SRC-0046"]},
+    {"id":"WHY-016","work_id":"V1-ENT-0117","points":[{"title":"一次谈话通向一整个时代","text":"酒吧里的对话不断打开记忆，使个人失败、政治压抑与城市生活彼此勾连。"},{"title":"知识分子的困境被写进形式","text":"断裂时间与交错声音不仅讲述失败，也让读者亲历理解历史的困难。"}],"review_status":"user_review","basis":["V1-CARD-0032","SRC-0045"]},
+    {"id":"WHY-017","work_id":"V1-ENT-0118","points":[{"title":"多种立场争夺同一段历史","text":"战争不由单一权威声音解释，不同群体的信念、误解与利益持续冲突。"},{"title":"瓦解中心与边缘的旧视角","text":"作品让巴西腹地成为世界观碰撞的中心，迫使读者重新审视谁在解释拉丁美洲。"}],"review_status":"user_review","basis":["V1-CARD-0033","SRC-0046"]}
+  ],
+  "next_reads": [
+    {"id":"NEXT-001","from_id":"V1-ENT-0003","to_id":"V1-ENT-0004","reason":"继续沿博尔赫斯的无限空间、记忆与语言问题深入。","review_status":"user_review","basis":["V1-CARD-0003","V1-CARD-0004"]},
+    {"id":"NEXT-002","from_id":"V1-ENT-0004","to_id":"V1-ENT-0078","reason":"从不可穷尽的观看转向需要读者亲自重组的实验小说。","review_status":"user_review","basis":["V1-CARD-0004","V1-CARD-0025"]},
+    {"id":"NEXT-003","from_id":"V1-ENT-0017","to_id":"V1-ENT-0018","reason":"继续阅读李斯佩克朵如何从瞬间、沉默转向人物与书写伦理。","review_status":"user_review","basis":["V1-CARD-0006","V1-CARD-0007"]},
+    {"id":"NEXT-004","from_id":"V1-ENT-0018","to_id":"V1-ENT-0035","reason":"从城市中的贫困与书写，转向恰帕斯村镇里的语言、族群与权力。","review_status":"user_review","basis":["V1-CARD-0007","V1-CARD-0014"]},
+    {"id":"NEXT-005","from_id":"V1-ENT-0032","to_id":"V1-ENT-0038","reason":"两部作品都让村镇承担记忆与历史，但以不同的叙述声音展开。","review_status":"user_review","basis":["V1-CARD-0015","V1-CARD-0018"]},
+    {"id":"NEXT-006","from_id":"V1-ENT-0035","to_id":"V1-ENT-0032","reason":"继续比较墨西哥乡村空间如何书写暴力、历史与沉默。","review_status":"user_review","basis":["V1-CARD-0014","V1-CARD-0015"]},
+    {"id":"NEXT-007","from_id":"V1-ENT-0038","to_id":"V1-ENT-0075","reason":"从科马拉走向马孔多，比较两座虚构空间如何容纳家族、死亡与时间。","review_status":"user_review","basis":["V1-REL-0034","V1-REL-0075"]},
+    {"id":"NEXT-008","from_id":"V1-ENT-0075","to_id":"V1-ENT-0076","reason":"回到同一作家更克制的中篇，观察孤独与政治暴力的另一种尺度。","review_status":"user_review","basis":["V1-CARD-0022","V1-CARD-0023"]},
+    {"id":"NEXT-009","from_id":"V1-ENT-0076","to_id":"V1-ENT-0077","reason":"继续阅读马尔克斯如何让等待、传闻与共同体沉默推动叙事。","review_status":"user_review","basis":["V1-CARD-0023","V1-CARD-0024"]},
+    {"id":"NEXT-010","from_id":"V1-ENT-0116","to_id":"V1-ENT-0117","reason":"从利马的封闭空间进一步进入权力结构与知识分子困境。","review_status":"user_review","basis":["V1-CARD-0031","V1-CARD-0032"]}
+  ],
+  "map_asset": {
+    "path": "site/assets/latin-america-countries.geojson",
+    "source": "Natural Earth Admin 0 Countries, 1:110m",
+    "source_url": "https://www.naturalearthdata.com/downloads/110m-cultural-vectors/110m-admin-0-countries/",
+    "license": "Public domain",
+    "downloaded_at": "2026-08-12",
+    "sha256": "478f3ebc2d30ae8669a8caea05dad6a82b507f8e629443c6c3b643e369c00511"
+  }
+}

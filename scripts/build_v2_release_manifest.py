@@ -13,7 +13,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_OUTPUT = ROOT / "data/v2/release/V2.0.0_RELEASE_MANIFEST.json"
-FREEZE_AT = "2026-08-11T00:00:00+08:00"
+FREEZE_AT = "2026-08-12T00:00:00+08:00"
 RELEASE_FILES = (
     "data/master/V1_MASTER.sqlite",
     "data/v2/geo/PLACES_GEO.csv",
@@ -21,17 +21,25 @@ RELEASE_FILES = (
     "data/v2/curation/CURATION_ENTRIES.csv",
     "data/v2/curation/CURATION_SELECTIONS.csv",
     "data/v2/curation/CURATION_RECOMMENDATIONS.csv",
+    "data/v2/presentation/PUBLIC_PRESENTATION.json",
     "data/v2/web/site_data.json",
     "data/v2/web/manifest.json",
     "site/index.html",
     "site/app.js",
     "site/styles.css",
+    "site/assets/latin-america-countries.geojson",
     "site/README.md",
     "scripts/build_v2_web_data.py",
+    "scripts/validate_v2_web_data.py",
+    "scripts/build_v2_release_manifest.py",
     "scripts/build_v2_deploy_bundle.py",
+    "scripts/qa_v2_public_ui.py",
+    "scripts/qa_v2_browser.cjs",
+    ".github/workflows/v2-ci.yml",
     ".github/workflows/v2-pages.yml",
 )
 RELEASE_STATES = {"pending_v2_n4", "approved_v2_n4"}
+FORBIDDEN_PUBLIC_KEYS = {"review_status", "admission_status", "source_minimum_status", "schema_version", "counts", "qa"}
 EXCLUDED_PATTERNS = (
     "N1阅读材料/",
     "N1-OCR-*/",
@@ -68,7 +76,7 @@ def git_value(*args: str) -> str | None:
     return result.stdout.strip() or None
 
 
-def build_manifest(output: Path, freeze_at: str, release_state: str) -> dict[str, object]:
+def build_manifest(output: Path, freeze_at: str, release_state: str, approved_commit_sha: str | None) -> dict[str, object]:
     if release_state not in RELEASE_STATES:
         raise ValueError(f"invalid release state: {release_state}")
     files = []
@@ -79,13 +87,18 @@ def build_manifest(output: Path, freeze_at: str, release_state: str) -> dict[str
         files.append({"path": relative, "bytes": path.stat().st_size, "sha256": sha256(path)})
 
     site_data = json.loads((ROOT / "data/v2/web/site_data.json").read_text(encoding="utf-8"))
+    approved_commit = approved_commit_sha or git_value("rev-parse", "HEAD")
+    if not approved_commit or git_value("cat-file", "-t", approved_commit) != "commit":
+        raise ValueError("approved commit SHA does not identify a Git commit")
     return {
-        "manifest_version": "v2-release-manifest-0.1",
-        "release_candidate": "V2.0.0-rc.2",
+        "manifest_version": "v2-release-manifest-0.2",
+        "release_candidate": "V2.0.0-rc.3",
         "release_state": release_state,
         "freeze_at": freeze_at,
         "generated_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
-        "git": {"branch": git_value("branch", "--show-current"), "head": git_value("rev-parse", "HEAD")},
+        "git": {"branch": git_value("branch", "--show-current"), "head": approved_commit},
+        "approved_commit_sha": approved_commit,
+        "commit_anchor_protocol": "manifest-control-commit-checks-out-approved-source-commit-before-verification",
         "release_scope": files,
         "web_data": {
             "schema_version": site_data["schema_version"],
@@ -105,8 +118,10 @@ def build_manifest(output: Path, freeze_at: str, release_state: str) -> dict[str
 
 def verify_manifest(path: Path, required_state: str | None) -> dict[str, object]:
     manifest = json.loads(path.read_text(encoding="utf-8"))
-    if manifest.get("release_candidate") != "V2.0.0-rc.2":
+    if manifest.get("release_candidate") != "V2.0.0-rc.3":
         raise ValueError("unexpected release candidate")
+    if manifest.get("manifest_version") != "v2-release-manifest-0.2":
+        raise ValueError("unexpected manifest version")
     state = manifest.get("release_state")
     if state not in RELEASE_STATES:
         raise ValueError("invalid manifest release_state")
@@ -116,13 +131,31 @@ def verify_manifest(path: Path, required_state: str | None) -> dict[str, object]
     paths = tuple(item.get("path") for item in scope)
     if paths != RELEASE_FILES:
         raise ValueError("release scope does not match the required deployment inputs")
+    current_head = git_value("rev-parse", "HEAD")
+    approved_commit = manifest.get("approved_commit_sha")
+    if not approved_commit or approved_commit != current_head or manifest.get("git", {}).get("head") != current_head:
+        raise ValueError(f"Git commit mismatch: manifest={approved_commit}, current={current_head}")
     for item in scope:
         target = ROOT / item["path"]
         if not target.is_file():
             raise FileNotFoundError(f"release file missing: {item['path']}")
         if target.stat().st_size != item["bytes"] or sha256(target) != item["sha256"]:
             raise ValueError(f"release file hash mismatch: {item['path']}")
-    return {"status": "PASS", "output": str(path.relative_to(ROOT)), "files": len(scope), "release_state": state}
+    site_data = json.loads((ROOT / "data/v2/web/site_data.json").read_text(encoding="utf-8"))
+    if site_data.get("schema_version") != manifest.get("web_data", {}).get("schema_version") or site_data.get("counts") != manifest.get("web_data", {}).get("counts"):
+        raise ValueError("Web Data no longer matches manifest")
+    from build_v2_deploy_bundle import clean_public_data
+
+    public_data = clean_public_data(ROOT / "data/v2/web/site_data.json")
+    def public_keys(value: object) -> set[str]:
+        if isinstance(value, dict):
+            return set(value) | set().union(*(public_keys(item) for item in value.values()))
+        if isinstance(value, list):
+            return set().union(*(public_keys(item) for item in value)) if value else set()
+        return set()
+    if "review_queue" in public_keys(public_data) or public_keys(public_data) & FORBIDDEN_PUBLIC_KEYS:
+        raise ValueError("public boundary verification failed")
+    return {"status": "PASS", "output": str(path), "files": len(scope), "release_state": state, "approved_commit_sha": approved_commit}
 
 
 def main() -> int:
@@ -130,6 +163,7 @@ def main() -> int:
     parser.add_argument("--output", type=Path, default=DEFAULT_OUTPUT)
     parser.add_argument("--freeze-at", default=FREEZE_AT)
     parser.add_argument("--release-state", choices=sorted(RELEASE_STATES), default="pending_v2_n4")
+    parser.add_argument("--approved-commit-sha", default=None, help="Exact source commit to freeze; defaults to current HEAD")
     parser.add_argument("--verify", action="store_true", help="Verify a frozen manifest without writing files")
     parser.add_argument("--require-release-state", choices=sorted(RELEASE_STATES), default=None)
     args = parser.parse_args()
@@ -137,7 +171,7 @@ def main() -> int:
         print(json.dumps(verify_manifest(args.output, args.require_release_state), ensure_ascii=False))
         return 0
     args.output.parent.mkdir(parents=True, exist_ok=True)
-    manifest = build_manifest(args.output, args.freeze_at, args.release_state)
+    manifest = build_manifest(args.output, args.freeze_at, args.release_state, args.approved_commit_sha)
     args.output.write_text(json.dumps(manifest, ensure_ascii=False, indent=2, sort_keys=True) + "\n", encoding="utf-8")
     print(json.dumps({"status": "PASS", "output": str(args.output.relative_to(ROOT)), "files": len(manifest["release_scope"])}, ensure_ascii=False))
     return 0

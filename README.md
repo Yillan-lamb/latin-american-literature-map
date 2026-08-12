@@ -30,7 +30,7 @@ V1 将建立：
 
 ### 当前 V2 阶段
 
-V1.0.0 已正式发布。USER 已批准 V2-N1、V2-N2，并于 2026-08-11 通过 V2-N3 完整测试站审核；Sol 审计整改已生成并验证 `V2.0.0-rc.2` 候选，当前停在 `V2-N4 = USER_REVIEW`。正式版本标签、Pages 部署和公开 URL 仍等待 N4 批准。站点位于 `site/`，使用真实 V1 数据、V2 地图数据和分层策展生成 Web Data，覆盖完整首页、国家→地点地图、现实/虚构空间、作者页、作品页、研究缺口回退、关联节点、搜索、时间线和研究证据层。
+V1.0.0 已正式发布。USER 已批准 V2-N1、V2-N2 和 V2-N3；V2-N4 产品一致性差量返修已形成 `V2.0.0-rc.3` 候选，当前重新停在 `V2-N4 = USER_REVIEW`。正式版本标签、Pages 部署和公开 URL 仍等待 N4 批准。站点位于 `site/`，保留 Research / Geo / Curation / Web Data 架构，并增加面向普通读者的 Presentation Layer、真实国家边界地图、文学导读页、静态可索引路由与发布完整性门禁。
 
 V2 的详细产品与开发规范以 [V2 网站产品决策与开发总说明书](./V2_网站产品决策与开发总说明书.md) 为准，执行状态以 [V2 任务源](./V2_TASKS.md) 为准。V2.0 首版坚持静态优先和 Research Data + Curation Data → Web Data → Frontend 分层；复杂知识图谱、用户系统、AI 问答、CMS、3D 地图、小程序、多语言和个性化推荐不属于当前首版范围。
 
@@ -105,7 +105,7 @@ GitHub 是本项目公开版本历史的权威来源。普通任务与返修先�
 - `V2_执行体系与任务清单.md`：V2 阶段任务依赖和验收清单；
 - `docs/V2_N3_FULL_TEST_SITE_REVIEW.md`：当前完整测试站 N3 审核包；
 - `docs/V2_HOME_FULL.md`、`docs/V2_MAP_FULL.md`、`docs/V2_PAGES_FULL_QA.md`、`docs/V2_SEARCH_FULL_QA.md`、`docs/V2_TIMELINE_FULL_QA.md`、`docs/V2_RESEARCH_EVIDENCE_QA.md`、`docs/V2_RESPONSIVE_A11Y_QA.md`：V2 完整站模块与 QA 记录；
-- `docs/V2_RELEASE_NOTES.md`、`docs/V2_RELEASE_DATA_FREEZE.md`、`docs/V2_PUBLIC_BOUNDARY_QA.md`、`docs/V2_DEPLOYMENT_PREP.md`：V2.0.0-rc.2 发布候选与 N4 审核材料；
+- `docs/V2_RC3_PRODUCT_AUDIT.md`、`docs/V2_RC3_PUBLIC_UI_QA.md`、`docs/V2_RC3_CURATION_USER_REVIEW.md`、`docs/V2_RC3_BROWSER_PERFORMANCE_QA.md`、`docs/V2_RC3_RELEASE_INTEGRITY_QA.md`：V2.0.0-rc.3 产品与发布审核材料；
 - `docs/外部AI任务分工与交接手册.md`：可直接交给其他 AI 的工作说明；
 - `docs/外部AI执行工作流与自检手册.md`：外部 AI 执行、自检和差量返修规则；
 - `work/external-ai/新外部AI_项目接管与首任务提示词.md`：新执行方无需聊天上下文即可接管的首条提示词；

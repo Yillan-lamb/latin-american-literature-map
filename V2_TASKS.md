@@ -1,7 +1,7 @@
 # 拉丁美洲文学地图 V2 任务源
 
 - **版本**：1.0.0
-- **最后更新**：2026-08-11
+- **最后更新**：2026-08-12
 - **状态**：ACTIVE
 - **唯一动态状态源**：本文件
 - **上位文件**：
@@ -13,11 +13,11 @@
 
 - **当前阶段**：阶段 8：V2-N4 正式发布准备
 - **当前节点**：`V2-N1`、`V2-N2`、`V2-N3` 已完成；当前用户节点为 `V2-N4`
-- **当前任务**：`V2-N4` 正式发布审核（👤 USER_REVIEW）
-- **下一任务**：等待 USER 正式发布批准；通过后才执行 tag、Pages 部署和公开版本记录
-- **当前阻塞**：正式部署仍受 USER 批准、HTTPS origin 与 Pages 设置约束
-- **需要 USER**：审核整改后的 `V2.0.0-rc.2` 候选包，并决定是否正式公开发布
-- **最近完成**：V2-S8-R01 Sol 审计整改；`V2.0.0-rc.2` 候选包已生成并通过内部验证
+- **当前任务**：`V2-N4` 正式公开发布审核（👤 USER_REVIEW）
+- **下一任务**：等待 USER 集中审核 rc.3 策展项、产品一致性与是否正式公开发布
+- **当前阻塞**：无；正式部署仍受 USER 批准、HTTPS origin 与 Pages 设置约束
+- **需要 USER**：待 R02 完成后集中审核策展项与 `V2.0.0-rc.3`，并决定是否正式公开发布
+- **最近完成**：`V2-N4-R02` 产品一致性差量返修；形成 `V2.0.0-rc.3`，rc.2 作为历史候选保留
 
 ## 任务状态规则
 
@@ -370,15 +370,36 @@
 - **验证**：V1 主库验证、Web Data 重建/校验、页面覆盖重建、release manifest SHA-256 校验、公开部署副本边界、前端语法与 `git diff --check` 均通过；pending 候选被部署门禁拒绝。
 - **状态**：`✅ DONE`
 
+### ✅ V2-N4-R02：V2.0 产品一致性与公开发布差量返修
+
+- **性质**：独立返修；不以 PR #4、rc.2 或历史 N3 通过结论替代最高产品说明书核验。
+- **目标**：保留 Research / Geo / Curation / Web Data、构建脚本和双层数据架构，只修复公众产品层、静态发布层与发布完整性缺口，形成 `V2.0.0-rc.3`。
+- **成果包**：
+  - `R02-A Public Product Cleanup`：清理公众界面的版本、阶段、内部字段、审核状态和数据库语言；
+  - `R02-B Author / Work Product Pages`：补齐文学探索式作家页和文学导读式作品页；
+  - `R02-C Homepage Curation`：补首页正式策展阅读入口；
+  - `R02-D Real Literary Map`：引入真实拉丁美洲国家边界底图与真实坐标投影；
+  - `R02-E Timeline & Search Productization`：将搜索和时间线转换为普通读者可理解的文学探索入口；
+  - `R02-F Static Routes & SEO`：生成可索引静态路由、页面 meta 与 sitemap；
+  - `R02-G Release Integrity`：修复 Git commit 锚定、manifest verifier、发布冻结范围与 PR CI；
+  - `R02-H Browser / Performance QA`：执行 Chromium、Firefox、WebKit、桌面/移动端与 Lighthouse 验收。
+- **强制审计材料**：`docs/V2_RC3_PRODUCT_AUDIT.md`、`docs/V2_RC3_PUBLIC_UI_QA.md`、`docs/V2_RC3_CURATION_USER_REVIEW.md`、`docs/V2_RC3_BROWSER_PERFORMANCE_QA.md`、`docs/V2_RC3_RELEASE_INTEGRITY_QA.md`。
+- **发布边界**：不 merge、不创建 tag、不创建 GitHub Release、不执行 Pages 正式部署、不发布正式 URL、不将 V2-N4 标为 USER APPROVED。
+- **最终状态**：内部 QA 完成后，本任务转 `✅ DONE`，`V2-N4` 必须重新停在 `👤 USER_REVIEW`。
+- **完成结果**：公共身份统一为“拉丁美洲文学地图”；新增 Presentation Layer、5 条阅读路径、17 部作品 why_read、10 条 next_read、5 个文学时期；真实国家边界地图、公众化作家/作品/地点/搜索/时间线/About、146 条静态路由与页面 SEO 已落地。公共部署包物理剥离内部状态字段，Git 候选提交锚定、PR CI 和 Pages 门禁完成加固。
+- **验证**：V1/Web Data/静态包/公共语言/Release Manifest 内部门禁通过；Chromium、Firefox、WebKit 在桌面和 390px 的 9 条核心路径全部通过；Lighthouse 98/100/100/100；审计材料见 `docs/V2_RC3_*.md`。
+- **产物**：`V2.0.0-rc.3`、`data/v2/presentation/PUBLIC_PRESENTATION.json`、真实底图、静态路由构建、发布完整性脚本、V2 CI 与 5 份 rc.3 审计/QA 文档。
+- **状态**：`✅ DONE`
+
 ### 👤 V2-N4：正式公开发布审核
 
-- **审核包**：`docs/V2_RELEASE_NOTES.md`、`docs/V2_RELEASE_DATA_FREEZE.md`、`docs/V2_PUBLIC_BOUNDARY_QA.md`、`docs/V2_DEPLOYMENT_PREP.md`
+- **审核包**：`docs/V2_RC3_PRODUCT_AUDIT.md`、`docs/V2_RC3_PUBLIC_UI_QA.md`、`docs/V2_RC3_CURATION_USER_REVIEW.md`、`docs/V2_RC3_BROWSER_PERFORMANCE_QA.md`、`docs/V2_RC3_RELEASE_INTEGRITY_QA.md`
 - **状态**：`👤 USER_REVIEW`
-- **等待内容**：USER 是否批准创建 V2.0.0 正式版本、配置并执行公开部署。
+- **等待内容**：USER 审核 rc.3 策展项、产品一致性与是否创建 V2.0.0 正式版本并公开部署。当前 manifest 仍为 `pending_v2_n4`。
 
 ## 当前执行边界
 
-- 当前推进到阶段 8；`V2-S8-R01` 审计整改已完成，当前停在 `V2-N4 = 👤 USER_REVIEW`。
+- 当前推进到阶段 8；`V2-N4-R02` 已完成，当前停在 `V2-N4 = 👤 USER_REVIEW`。
 - 在 N4 通过前，不创建 V2.0.0 tag、不推送发布分支、不执行 Pages 部署、不发布正式公开 URL。
 - 不提前开发复杂知识图谱、3D 地图、用户系统、AI 问答、CMS、小程序、多语言或个性化推荐。
 - 不在前端硬编码研究事实，不用策展写作补造研究事实，不为虚构空间伪造现实坐标。

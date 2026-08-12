@@ -21,6 +21,8 @@ jobs:
     steps:
       - name: Check out release source
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -41,13 +43,17 @@ jobs:
           esac
 
       - name: Rebuild frozen Web Data
-        run: python3 scripts/build_v2_web_data.py --generated-at 2026-08-11T00:00:00+08:00
+        run: |
+          cp data/v2/release/V2.0.0_RELEASE_MANIFEST.json /tmp/V2.0.0_RELEASE_MANIFEST.json
+          APPROVED_COMMIT_SHA=$(python3 -c 'import json; print(json.load(open("/tmp/V2.0.0_RELEASE_MANIFEST.json"))["approved_commit_sha"])')
+          git checkout --detach "$APPROVED_COMMIT_SHA"
+          python3 scripts/build_v2_web_data.py --generated-at 2026-08-12
 
       - name: Validate rebuilt Web Data
         run: python3 scripts/validate_v2_web_data.py
 
       - name: Verify approved frozen release candidate
-        run: python3 scripts/build_v2_release_manifest.py --verify --require-release-state approved_v2_n4
+        run: python3 scripts/build_v2_release_manifest.py --verify --output /tmp/V2.0.0_RELEASE_MANIFEST.json --require-release-state approved_v2_n4
 
       - name: Build public deployment bundle
         env:

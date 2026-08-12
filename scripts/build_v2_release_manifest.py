@@ -68,6 +68,11 @@ def sha256(path: Path) -> str:
     return digest.hexdigest()
 
 
+def git_file_bytes(relative: str, commit: str) -> bytes:
+    result = subprocess.run(["git", "show", f"{commit}:{relative}"], cwd=ROOT, check=True, capture_output=True)
+    return result.stdout
+
+
 def git_value(*args: str) -> str | None:
     try:
         result = subprocess.run(["git", *args], cwd=ROOT, check=True, capture_output=True, text=True)
@@ -79,17 +84,18 @@ def git_value(*args: str) -> str | None:
 def build_manifest(output: Path, freeze_at: str, release_state: str, approved_commit_sha: str | None) -> dict[str, object]:
     if release_state not in RELEASE_STATES:
         raise ValueError(f"invalid release state: {release_state}")
+    approved_commit = approved_commit_sha or git_value("rev-parse", "HEAD")
+    if not approved_commit or git_value("cat-file", "-t", approved_commit) != "commit":
+        raise ValueError("approved commit SHA does not identify a Git commit")
     files = []
     for relative in RELEASE_FILES:
         path = ROOT / relative
         if not path.is_file():
             raise FileNotFoundError(f"release file missing: {relative}")
-        files.append({"path": relative, "bytes": path.stat().st_size, "sha256": sha256(path)})
+        frozen = git_file_bytes(relative, approved_commit)
+        files.append({"path": relative, "bytes": len(frozen), "sha256": hashlib.sha256(frozen).hexdigest()})
 
     site_data = json.loads((ROOT / "data/v2/web/site_data.json").read_text(encoding="utf-8"))
-    approved_commit = approved_commit_sha or git_value("rev-parse", "HEAD")
-    if not approved_commit or git_value("cat-file", "-t", approved_commit) != "commit":
-        raise ValueError("approved commit SHA does not identify a Git commit")
     return {
         "manifest_version": "v2-release-manifest-0.2",
         "release_candidate": "V2.0.0-rc.3",
@@ -139,7 +145,8 @@ def verify_manifest(path: Path, required_state: str | None) -> dict[str, object]
         target = ROOT / item["path"]
         if not target.is_file():
             raise FileNotFoundError(f"release file missing: {item['path']}")
-        if target.stat().st_size != item["bytes"] or sha256(target) != item["sha256"]:
+        frozen = git_file_bytes(item["path"], current_head)
+        if len(frozen) != item["bytes"] or hashlib.sha256(frozen).hexdigest() != item["sha256"]:
             raise ValueError(f"release file hash mismatch: {item['path']}")
     site_data = json.loads((ROOT / "data/v2/web/site_data.json").read_text(encoding="utf-8"))
     if site_data.get("schema_version") != manifest.get("web_data", {}).get("schema_version") or site_data.get("counts") != manifest.get("web_data", {}).get("counts"):

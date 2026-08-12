@@ -1,4 +1,6 @@
 {
+  "approved_commit_sha": "eb6a8b0cafb82d365de419da906e4e661e56338f",
+  "commit_anchor_protocol": "manifest-control-commit-checks-out-approved-source-commit-before-verification",
   "excluded_patterns": [
     "N1阅读材料/",
     "N1-OCR-*/",
@@ -22,14 +24,14 @@
     "a confirmed HTTPS deployment origin",
     "production Pages/deployment settings enabled by the repository owner"
   ],
-  "freeze_at": "2026-08-11T00:00:00+08:00",
-  "generated_at": "2026-08-11T11:27:18+00:00",
+  "freeze_at": "2026-08-12T00:00:00+08:00",
+  "generated_at": "2026-08-12T14:09:32+00:00",
   "git": {
     "branch": "codex/v1-n3",
-    "head": "538f9a7baa1f50f7dfdb54d58f2e3a0e755dcbd5"
+    "head": "eb6a8b0cafb82d365de419da906e4e661e56338f"
   },
-  "manifest_version": "v2-release-manifest-0.1",
-  "release_candidate": "V2.0.0-rc.2",
+  "manifest_version": "v2-release-manifest-0.2",
+  "release_candidate": "V2.0.0-rc.3",
   "release_scope": [
     {
       "bytes": 479232,
@@ -62,49 +64,84 @@
       "sha256": "634962dd629cf3644051d8b3981a9388558a12722e591bf98362d46361b72300"
     },
     {
-      "bytes": 1481439,
+      "bytes": 13186,
+      "path": "data/v2/presentation/PUBLIC_PRESENTATION.json",
+      "sha256": "e7f796411763628efdf8ef9d0299b3785d4389d7abaabfc59f8bf77b2fb61992"
+    },
+    {
+      "bytes": 1510899,
       "path": "data/v2/web/site_data.json",
-      "sha256": "806aad35d75c38c316694b4ad9af1cf59d7e358eb230656482ab2f338d4a82c8"
+      "sha256": "924830698c498360f367e677d29f11ab21ecb4cb3145be0c92e486e51723b49c"
     },
     {
-      "bytes": 508,
+      "bytes": 493,
       "path": "data/v2/web/manifest.json",
-      "sha256": "25e504bcb92a5519074ce0a2879db8a1ef0fe2ceeec7f7d6aba44f76d248b50c"
+      "sha256": "00efcff073c63955eec9894f391ebb461ae080f17e39f851d7f2beec85cb6bd5"
     },
     {
-      "bytes": 1624,
+      "bytes": 2306,
       "path": "site/index.html",
-      "sha256": "73e472bb7a05adf6704f5cb09fd6becd0291a01b0a7e2d075c7edaa2761ec813"
+      "sha256": "0860072420cb921b0b13124986219f0ce4739273c1bf72d125f5b2a4bda01a30"
     },
     {
-      "bytes": 40261,
+      "bytes": 41543,
       "path": "site/app.js",
-      "sha256": "b49df7ed0916c6dfc0ea4fc7b8c0637764100e446a91d03eea80e66fa4634423"
+      "sha256": "0afe72f9c77d32c3fb2ae8f046c7dd330de53f5266cee7cbac651645ba6e1216"
     },
     {
-      "bytes": 16600,
+      "bytes": 21661,
       "path": "site/styles.css",
-      "sha256": "5f195be21babc7ddd801eff9d51db0fe4626c69a1c16660fbe41ecac4ce40a29"
+      "sha256": "fdfd5e124be7507ac75b86729326976c2bbdf72522f34c2df0d2d845e82904e2"
     },
     {
-      "bytes": 868,
+      "bytes": 37938,
+      "path": "site/assets/latin-america-countries.geojson",
+      "sha256": "478f3ebc2d30ae8669a8caea05dad6a82b507f8e629443c6c3b643e369c00511"
+    },
+    {
+      "bytes": 1031,
       "path": "site/README.md",
-      "sha256": "4ffafdfb6cb234fbacd1cc76c98f26200b41af2f500b223b1b50ab6745c6f820"
+      "sha256": "92e24ab9b7e8fc4d0d642dff1bc9f41fe0bb09099e0b4b173339c996b9e6ed46"
     },
     {
-      "bytes": 21582,
+      "bytes": 22354,
       "path": "scripts/build_v2_web_data.py",
-      "sha256": "d7055e23ca770074eb4aa2add8037e10ce6a48985943a079f6162dff66d8ce27"
+      "sha256": "20159b55573668a8117d03c2647d7bd83a1470b2edd831ea9e71aedf917fcdba"
     },
     {
-      "bytes": 3232,
+      "bytes": 6303,
+      "path": "scripts/validate_v2_web_data.py",
+      "sha256": "f689db8fca74a8e8cdb0401a7210e74e402ec7bfb679b94b749613f7228815d1"
+    },
+    {
+      "bytes": 8154,
+      "path": "scripts/build_v2_release_manifest.py",
+      "sha256": "78cca9d72ec9ebbe4d542449aeb97bdf9508aaa6b55fde683201d399ea537268"
+    },
+    {
+      "bytes": 11456,
       "path": "scripts/build_v2_deploy_bundle.py",
-      "sha256": "4986e587f6e99ead1e02c89a9754b19338302404594e9f009d9dd93682ac9b90"
+      "sha256": "958abf5cae116ce507ad62539aa3cc743625d508cd79838549f3da78266b78e9"
     },
     {
-      "bytes": 1803,
+      "bytes": 2062,
+      "path": "scripts/qa_v2_public_ui.py",
+      "sha256": "2818c8e8898342b47524d2db2bfed5e60922ac73f5d22dca15f037f069250f1b"
+    },
+    {
+      "bytes": 3008,
+      "path": "scripts/qa_v2_browser.cjs",
+      "sha256": "8ef9eb2012cc94743475232aa9d830ad510ed3b4e644c208fc968c3c807d1661"
+    },
+    {
+      "bytes": 1556,
+      "path": ".github/workflows/v2-ci.yml",
+      "sha256": "2da9002f420a8e0f025cd69d3e209285059fe0eb1f12914be4c034e4408348e7"
+    },
+    {
+      "bytes": 2171,
       "path": ".github/workflows/v2-pages.yml",
-      "sha256": "920791fbba1229a319f546907abd21fb8c8cf29d304eba34ecf2b3547c70347f"
+      "sha256": "37b2aeb9f22e29f12137253b211f0bc1371257018c731b6e3c17f7e79b8d5a26"
     }
   ],
   "release_state": "pending_v2_n4",

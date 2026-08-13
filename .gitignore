@@ -26,3 +26,10 @@ N1-OCR-*.zip
 .claude/agent-sessions/
 .workbuddy/
 __pycache__/
+node_modules/
+dist/
+
+# 可复现 QA 的原始工件由 CI 保存；本地运行目录不提交
+artifacts/v2-rc4/browser/failures/
+artifacts/v2-rc4/browser/html/
+artifacts/v2-rc4/lighthouse/*.html

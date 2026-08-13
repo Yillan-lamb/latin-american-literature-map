@@ -7,6 +7,8 @@ import argparse
 import csv
 import json
 import sqlite3
+import re
+import unicodedata
 from collections import defaultdict
 from datetime import date, datetime, timezone
 from pathlib import Path
@@ -22,6 +24,7 @@ DEFAULT_PRESENTATION = ROOT / "data/v2/presentation/PUBLIC_PRESENTATION.json"
 SCHEMA_VERSION = "v2-web-0.2"
 CURATION_SCHEMA_VERSION = "v2-curation-0.1"
 ALLOWED_CURATION_STATUSES = {"auto_approved", "user_review", "hold"}
+PRESENTATION_GROUPS = ("reading_paths", "timeline_periods", "why_read", "next_reads")
 
 
 def rows(conn: sqlite3.Connection, sql: str) -> list[dict[str, Any]]:
@@ -44,6 +47,19 @@ def number_or_none(value: str | None) -> float | None:
     if value in (None, ""):
         return None
     return float(value)
+
+
+def stable_slug(original_name: str | None, target_type: str, target_id: str) -> str:
+    normalized = unicodedata.normalize("NFD", original_name or "")
+    ascii_text = normalized.encode("ascii", "ignore").decode("ascii").lower()
+    base = re.sub(r"[^a-z0-9]+", "-", ascii_text).strip("-")
+    identity = re.sub(r"[^a-z0-9]+", "-", target_id.lower()).strip("-")
+    return f"{base}-{identity}" if base else f"{target_type}-{identity}"
+
+
+def public_route(target_type: str, target_id: str, original_name: str | None) -> str:
+    folder = {"author": "authors", "work": "works", "country": "countries", "place": "places", "fictional_space": "places"}.get(target_type, "explore")
+    return f"{folder}/{stable_slug(original_name, target_type, target_id)}/"
 
 
 def required_text(row: dict[str, str], key: str, path: Path, line: int) -> str:
@@ -186,6 +202,11 @@ def build_data(db_path: Path, geo_dir: Path, curation_dir: Path, presentation_pa
     presentation = json.loads(presentation_path.read_text(encoding="utf-8"))
     if presentation.get("schema_version") != "v2-public-presentation-0.1":
         raise ValueError("unexpected public presentation schema")
+    for group in PRESENTATION_GROUPS:
+        for item in presentation.get(group, []):
+            status = item.get("review_status")
+            if status not in ALLOWED_CURATION_STATUSES:
+                raise ValueError(f"{group} item lacks an explicit valid review_status: {item.get('id')}")
     for path in presentation.get("reading_paths", []):
         for target_id in path.get("target_ids", []):
             if target_id not in valid_target_ids:
@@ -238,6 +259,14 @@ def build_data(db_path: Path, geo_dir: Path, curation_dir: Path, presentation_pa
         group: [item for item in values if item.get("status") != "auto_approved"]
         for group, values in curation.items()
     }
+    presentation_public = {
+        key: value for key, value in presentation.items()
+        if key not in PRESENTATION_GROUPS
+    }
+    presentation_review_queue: dict[str, list[dict[str, Any]]] = {}
+    for group in PRESENTATION_GROUPS:
+        presentation_public[group] = [item for item in presentation.get(group, []) if item.get("review_status") == "auto_approved"]
+        presentation_review_queue[group] = [item for item in presentation.get(group, []) if item.get("review_status") != "auto_approved"]
 
     selections_by_target: dict[str, list[dict[str, Any]]] = defaultdict(list)
     for item in curation["selections"]:
@@ -285,8 +314,49 @@ def build_data(db_path: Path, geo_dir: Path, curation_dir: Path, presentation_pa
         entity["outgoing_relations"] = relations_by_subject.get(entity["entity_id"], [])
         entity["incoming_relations"] = relations_by_object.get(entity["entity_id"], [])
 
+    full_author_card_ids = {card["subject_id"] for card in cards if card.get("source_minimum_status") == "meets" and card.get("card_type") == "author"}
+    full_work_card_ids = {card["subject_id"] for card in cards if card.get("source_minimum_status") == "meets" and card.get("card_type") == "work"}
+    public_work_ids: set[str] = set()
+    for entity in page_entities["works"]:
+        target_id = entity["entity_id"]
+        if target_id not in full_work_card_ids:
+            continue
+        work_facts = facts_by_subject[target_id]
+        relation_types = {relation["relation_type"] for relation in relations_by_subject[target_id]}
+        clue_count = sum(1 for fact_item in work_facts if fact_item["fact_field"] in {"key_character", "research_note"}) + len(relation_types & {"SET_IN", "EXPLORES_THEME", "BASED_ON_EVENT"}) + int(any(fact_item["fact_field"] == "genre_or_form" for fact_item in work_facts))
+        summary = next((fact_item["value_text"] for fact_item in work_facts if fact_item["fact_field"] == "one_sentence_summary"), "")
+        academic_only = any(term in summary for term in ("论文", "海德格尔", "ecfrasis")) and not (relation_types & {"SET_IN", "BASED_ON_EVENT"}) and not any(fact_item["fact_field"] == "key_character" for fact_item in work_facts)
+        if clue_count >= 2 and not academic_only and relations_by_object[target_id]:
+            public_work_ids.add(target_id)
+    public_author_ids = {
+        entity["entity_id"] for entity in page_entities["authors"]
+        if entity["entity_id"] in full_author_card_ids
+        and any(relation["relation_type"] == "ASSOCIATED_WITH_PLACE" for relation in relations_by_subject[entity["entity_id"]])
+        and any(relation["relation_type"] == "CREATED" and relation["object_id"] in public_work_ids for relation in relations_by_subject[entity["entity_id"]])
+    }
+    public_place_ids = {
+        item["place_id"] for item in places_for_web
+        if item["map_status"] != "hidden" and item["reality_status"] != "unknown"
+        and (item["place_kind"] == "country" or bool(item["literary_relations"]))
+    }
+    public_node_ids = {
+        entity["entity_id"] for entity in entities
+        if entity["entity_type"] in {"theme", "movement"}
+        and (relations_by_subject.get(entity["entity_id"]) or relations_by_object.get(entity["entity_id"]))
+    }
+    public_page_ids = public_author_ids | public_work_ids | public_place_ids | public_node_ids
+
     search_index = []
+    graph_neighbors: dict[str, set[str]] = defaultdict(set)
+    for relation in relations:
+        graph_neighbors[relation["subject_id"]].add(relation["object_id"])
+        graph_neighbors[relation["object_id"]].add(relation["subject_id"])
+    for relation in place_relations:
+        graph_neighbors[relation["source_entity_id"]].add(relation["target_place_id"])
+        graph_neighbors[relation["target_place_id"]].add(relation["source_entity_id"])
     for entity in entities:
+        if entity["entity_id"] not in public_page_ids:
+            continue
         cards_for_entity = cards_by_subject.get(entity["entity_id"], [])
         card_titles = [card["title_zh"] for card in cards_for_entity if card.get("title_zh")]
         card_context = [value for card in cards_for_entity for value in (card.get("country_or_region"), card.get("period_bucket")) if value]
@@ -302,10 +372,12 @@ def build_data(db_path: Path, geo_dir: Path, curation_dir: Path, presentation_pa
                 "name_zh": entity["name_zh"],
                 "original_name": entity["original_name"],
                 "search_text": " ".join(filter(None, [entity["name_zh"], entity["original_name"], *card_titles, *card_context])),
+                "related_ids": sorted(graph_neighbors[entity["entity_id"]] & public_page_ids),
+                "public_route": public_route(target_type, entity["entity_id"], entity.get("original_name")),
             }
         )
     for place in places_for_web:
-        if place["place_id"] not in entity_by_id:
+        if place["place_id"] not in entity_by_id and place["place_id"] in public_page_ids:
             if place["source_kind"] == "technical_parent_node" and place["map_status"] == "hidden":
                 continue
             search_index.append(
@@ -315,6 +387,8 @@ def build_data(db_path: Path, geo_dir: Path, curation_dir: Path, presentation_pa
                     "name_zh": place["name_zh"],
                     "original_name": place["original_name"],
                     "search_text": " ".join(filter(None, [place["name_zh"], place["original_name"]])),
+                    "related_ids": sorted(graph_neighbors[place["place_id"]] & public_page_ids),
+                    "public_route": public_route("country" if place["place_kind"] == "country" else "place", place["place_id"], place.get("original_name")),
                 }
             )
 
@@ -402,7 +476,14 @@ def build_data(db_path: Path, geo_dir: Path, curation_dir: Path, presentation_pa
         },
         "curation": curation_public,
         "review_queue": curation_review_queue,
-        "presentation": presentation,
+        "presentation": presentation_public,
+        "presentation_review_queue": presentation_review_queue,
+        "public_scope": {
+            "authors": sorted(public_author_ids),
+            "works": sorted(public_work_ids),
+            "places": sorted(public_place_ids),
+            "nodes": sorted(public_node_ids),
+        },
         "pages": page_entities,
         "map": {"places": places_for_web, "relations": place_relations},
         "qa": {"map_status_overrides": map_status_overrides},

@@ -1,0 +1,556 @@
+{
+  "audited_at": "2026-08-13",
+  "count": 68,
+  "categories": {
+    "access_restricted": 1,
+    "network_or_timeout": 3,
+    "reachable": 64
+  },
+  "results": [
+    {
+      "source_id": "SRC-0007",
+      "url": "https://www.britannica.com/biography/Jorge-Luis-Borges",
+      "http_status": 403,
+      "curl_exit": 0,
+      "category": "access_restricted",
+      "note": "Automated access result only; source validity requires human/bibliographic review."
+    },
+    {
+      "source_id": "SRC-0008",
+      "url": "https://borges.pitt.edu/bsol/documents/1401.pdf",
+      "http_status": 200,
+      "curl_exit": 0,
+      "category": "reachable",
+      "note": "Automated access result only; source validity requires human/bibliographic review."
+    },
+    {
+      "source_id": "SRC-0009",
+      "url": "https://site.claricelispector.ims.com.br/",
+      "http_status": 200,
+      "curl_exit": 0,
+      "category": "reachable",
+      "note": "Automated access result only; source validity requires human/bibliographic review."
+    },
+    {
+      "source_id": "SRC-0010",
+      "url": "https://www.teses.usp.br/teses/disponiveis/8/8151/tde-17102011-104726/",
+      "http_status": 200,
+      "curl_exit": 0,
+      "category": "reachable",
+      "note": "Automated access result only; source validity requires human/bibliographic review."
+    },
+    {
+      "source_id": "SRC-0011",
+      "url": "https://www.scielo.br/j/rdpsi/a/PyG66JcBMdCsLDwd7GVmT7v",
+      "http_status": 200,
+      "curl_exit": 0,
+      "category": "reachable",
+      "note": "Automated access result only; source validity requires human/bibliographic review."
+    },
+    {
+      "source_id": "SRC-0012",
+      "url": "https://seer.assis.unesp.br/index.php/pem/article/view/3557",
+      "http_status": 200,
+      "curl_exit": 0,
+      "category": "reachable",
+      "note": "Automated access result only; source validity requires human/bibliographic review."
+    },
+    {
+      "source_id": "SRC-0013",
+      "url": "https://periodicos2.uesb.br/folio/article/view/7437",
+      "http_status": 200,
+      "curl_exit": 0,
+      "category": "reachable",
+      "note": "Automated access result only; source validity requires human/bibliographic review."
+    },
+    {
+      "source_id": "SRC-0014",
+      "url": "https://www.bn.gov.ar/micrositios/admin_assets/issues/files/6a0504ab40d7167a5b37b2467bf57845.pdf",
+      "http_status": 200,
+      "curl_exit": 0,
+      "category": "reachable",
+      "note": "Automated access result only; source validity requires human/bibliographic review."
+    },
+    {
+      "source_id": "SRC-0015",
+      "url": "https://www.bn.gov.ar/agenda-cultural/infinita-veneracion-infinita-lastima-80-anos-de-el-aleph",
+      "http_status": 200,
+      "curl_exit": 0,
+      "category": "reachable",
+      "note": "Automated access result only; source validity requires human/bibliographic review."
+    },
+    {
+      "source_id": "SRC-0016",
+      "url": "https://ims.com.br/2017/06/01/sobre-clarice-lispector/",
+      "http_status": 200,
+      "curl_exit": 0,
+      "category": "reachable",
+      "note": "Automated access result only; source validity requires human/bibliographic review."
+    },
+    {
+      "source_id": "SRC-0017",
+      "url": "http://www.elem.mx/autor/datos/421",
+      "http_status": 200,
+      "curl_exit": 0,
+      "category": "reachable",
+      "note": "Automated access result only; source validity requires human/bibliographic review."
+    },
+    {
+      "source_id": "SRC-0018",
+      "url": "https://revistas-filologicas.unam.mx/literatura-mexicana/index.php/lm/article/view/155",
+      "http_status": 200,
+      "curl_exit": 0,
+      "category": "reachable",
+      "note": "Automated access result only; source validity requires human/bibliographic review."
+    },
+    {
+      "source_id": "SRC-0019",
+      "url": "https://revistaliteratura.uchile.cl/index.php/RCL/article/view/67134",
+      "http_status": 200,
+      "curl_exit": 0,
+      "category": "reachable",
+      "note": "Automated access result only; source validity requires human/bibliographic review."
+    },
+    {
+      "source_id": "SRC-0020",
+      "url": "http://www.elem.mx/obra/datos/3408",
+      "http_status": 200,
+      "curl_exit": 0,
+      "category": "reachable",
+      "note": "Automated access result only; source validity requires human/bibliographic review."
+    },
+    {
+      "source_id": "SRC-0021",
+      "url": "http://www.elem.mx/obra/datos/849",
+      "http_status": 200,
+      "curl_exit": 0,
+      "category": "reachable",
+      "note": "Automated access result only; source validity requires human/bibliographic review."
+    },
+    {
+      "source_id": "SRC-0022",
+      "url": "http://www.elem.mx/autor/datos/211",
+      "http_status": 200,
+      "curl_exit": 0,
+      "category": "reachable",
+      "note": "Automated access result only; source validity requires human/bibliographic review."
+    },
+    {
+      "source_id": "SRC-0023",
+      "url": "https://www.fondodeculturaeconomica.com/Ficha/9789681683030/F",
+      "http_status": 200,
+      "curl_exit": 0,
+      "category": "reachable",
+      "note": "Automated access result only; source validity requires human/bibliographic review."
+    },
+    {
+      "source_id": "SRC-0024",
+      "url": "https://revistas-filologicas.unam.mx/literatura-mexicana/index.php/lm/article/view/1158",
+      "http_status": null,
+      "curl_exit": 28,
+      "category": "network_or_timeout",
+      "note": "Automated access result only; source validity requires human/bibliographic review."
+    },
+    {
+      "source_id": "SRC-0025",
+      "url": "http://www.elem.mx/obra/datos/72967",
+      "http_status": 200,
+      "curl_exit": 0,
+      "category": "reachable",
+      "note": "Automated access result only; source validity requires human/bibliographic review."
+    },
+    {
+      "source_id": "SRC-0026",
+      "url": "http://www.elem.mx/obra/datos/2336",
+      "http_status": 200,
+      "curl_exit": 0,
+      "category": "reachable",
+      "note": "Automated access result only; source validity requires human/bibliographic review."
+    },
+    {
+      "source_id": "SRC-0027",
+      "url": "http://www.elem.mx/autor/datos/970",
+      "http_status": 200,
+      "curl_exit": 0,
+      "category": "reachable",
+      "note": "Automated access result only; source validity requires human/bibliographic review."
+    },
+    {
+      "source_id": "SRC-0028",
+      "url": "https://revistas-filologicas.unam.mx/literatura-mexicana/index.php/lm/article/view/658",
+      "http_status": 200,
+      "curl_exit": 0,
+      "category": "reachable",
+      "note": "Automated access result only; source validity requires human/bibliographic review."
+    },
+    {
+      "source_id": "SRC-0029",
+      "url": "http://www.elem.mx/obra/datos/2838",
+      "http_status": 200,
+      "curl_exit": 0,
+      "category": "reachable",
+      "note": "Automated access result only; source validity requires human/bibliographic review."
+    },
+    {
+      "source_id": "SRC-0030",
+      "url": "http://www.elem.mx/obra/datos/1921",
+      "http_status": 200,
+      "curl_exit": 0,
+      "category": "reachable",
+      "note": "Automated access result only; source validity requires human/bibliographic review."
+    },
+    {
+      "source_id": "SRC-0031",
+      "url": "http://www.elem.mx/obra/datos/203381",
+      "http_status": 200,
+      "curl_exit": 0,
+      "category": "reachable",
+      "note": "Automated access result only; source validity requires human/bibliographic review."
+    },
+    {
+      "source_id": "SRC-0032",
+      "url": "http://revistas.javeriana.edu.co/index.php/vniphilosophica/article/view/13340",
+      "http_status": 200,
+      "curl_exit": 0,
+      "category": "reachable",
+      "note": "Automated access result only; source validity requires human/bibliographic review."
+    },
+    {
+      "source_id": "SRC-0033",
+      "url": "https://revistas.uca.edu.ni/index.php/Encuentro/article/view/3782",
+      "http_status": null,
+      "curl_exit": 6,
+      "category": "network_or_timeout",
+      "note": "Automated access result only; source validity requires human/bibliographic review."
+    },
+    {
+      "source_id": "SRC-0034",
+      "url": "https://revistas.udec.cl/index.php/atenea/article/view/17898",
+      "http_status": 200,
+      "curl_exit": 0,
+      "category": "reachable",
+      "note": "Automated access result only; source validity requires human/bibliographic review."
+    },
+    {
+      "source_id": "SRC-0035",
+      "url": "https://cvc.cervantes.es/actcult/garcia_marquez/",
+      "http_status": 200,
+      "curl_exit": 0,
+      "category": "reachable",
+      "note": "Automated access result only; source validity requires human/bibliographic review."
+    },
+    {
+      "source_id": "SRC-0036",
+      "url": "https://www.nobelprize.org/prizes/literature/1982/",
+      "http_status": 200,
+      "curl_exit": 0,
+      "category": "reachable",
+      "note": "Automated access result only; source validity requires human/bibliographic review."
+    },
+    {
+      "source_id": "SRC-0037",
+      "url": "https://www.orbistertius.unlp.edu.ar/article/view/ote250",
+      "http_status": 200,
+      "curl_exit": 0,
+      "category": "reachable",
+      "note": "Automated access result only; source validity requires human/bibliographic review."
+    },
+    {
+      "source_id": "SRC-0038",
+      "url": "https://periodicos.uff.br/revistapassagens/article/view/54497",
+      "http_status": null,
+      "curl_exit": 28,
+      "category": "network_or_timeout",
+      "note": "Automated access result only; source validity requires human/bibliographic review."
+    },
+    {
+      "source_id": "SRC-0039",
+      "url": "https://cerac.unlpam.edu.ar/index.php/anclajes/article/view/7247",
+      "http_status": 200,
+      "curl_exit": 0,
+      "category": "reachable",
+      "note": "Automated access result only; source validity requires human/bibliographic review."
+    },
+    {
+      "source_id": "SRC-0040",
+      "url": "https://revistes.ub.edu/index.php/AFLC/article/view/52790",
+      "http_status": 200,
+      "curl_exit": 0,
+      "category": "reachable",
+      "note": "Automated access result only; source validity requires human/bibliographic review."
+    },
+    {
+      "source_id": "SRC-0041",
+      "url": "https://revistas.ucm.es/index.php/RFRM/es/article/view/42604",
+      "http_status": 200,
+      "curl_exit": 0,
+      "category": "reachable",
+      "note": "Automated access result only; source validity requires human/bibliographic review."
+    },
+    {
+      "source_id": "SRC-0042",
+      "url": "https://revistas.udec.cl/index.php/atenea/article/view/17896",
+      "http_status": 200,
+      "curl_exit": 0,
+      "category": "reachable",
+      "note": "Automated access result only; source validity requires human/bibliographic review."
+    },
+    {
+      "source_id": "SRC-0043",
+      "url": "https://revistaletras.unmsm.edu.pe/index.php/le/article/view/2397",
+      "http_status": 200,
+      "curl_exit": 0,
+      "category": "reachable",
+      "note": "Automated access result only; source validity requires human/bibliographic review."
+    },
+    {
+      "source_id": "SRC-0044",
+      "url": "https://revistas.ucm.es/index.php/ANRE/es/article/view/39278",
+      "http_status": 200,
+      "curl_exit": 0,
+      "category": "reachable",
+      "note": "Automated access result only; source validity requires human/bibliographic review."
+    },
+    {
+      "source_id": "SRC-0045",
+      "url": "https://catedraltomada.pitt.edu/ojs/index.php/catedraltomada/article/view/70",
+      "http_status": 200,
+      "curl_exit": 0,
+      "category": "reachable",
+      "note": "Automated access result only; source validity requires human/bibliographic review."
+    },
+    {
+      "source_id": "SRC-0046",
+      "url": "https://revistaseug.ugr.es/index.php/letral/article/view/29760",
+      "http_status": 200,
+      "curl_exit": 0,
+      "category": "reachable",
+      "note": "Automated access result only; source validity requires human/bibliographic review."
+    },
+    {
+      "source_id": "SRC-0047",
+      "url": "https://www.nobelprize.org/prizes/literature/2010/vargas_llosa/facts/",
+      "http_status": 200,
+      "curl_exit": 0,
+      "category": "reachable",
+      "note": "Automated access result only; source validity requires human/bibliographic review."
+    },
+    {
+      "source_id": "SRC-0048",
+      "url": "https://www.nobelprize.org/prizes/literature/2010/",
+      "http_status": 200,
+      "curl_exit": 0,
+      "category": "reachable",
+      "note": "Automated access result only; source validity requires human/bibliographic review."
+    },
+    {
+      "source_id": "SRC-0049",
+      "url": "https://institucional.us.es/revistas/Culturas/20/PDF/04_kadhim.pdf",
+      "http_status": 200,
+      "curl_exit": 0,
+      "category": "reachable",
+      "note": "Automated access result only; source validity requires human/bibliographic review."
+    },
+    {
+      "source_id": "SRC-0050",
+      "url": "https://revistas.udec.cl/index.php/atenea/article/view/21831",
+      "http_status": 200,
+      "curl_exit": 0,
+      "category": "reachable",
+      "note": "Automated access result only; source validity requires human/bibliographic review."
+    },
+    {
+      "source_id": "SRC-0051",
+      "url": "https://anales.uchile.cl/index.php/ANUC/article/view/3409",
+      "http_status": 200,
+      "curl_exit": 0,
+      "category": "reachable",
+      "note": "Automated access result only; source validity requires human/bibliographic review."
+    },
+    {
+      "source_id": "SRC-0052",
+      "url": "https://www.persee.fr/doc/hispa_0007-4640_1974_num_76_1_4141",
+      "http_status": 200,
+      "curl_exit": 0,
+      "category": "reachable",
+      "note": "Automated access result only; source validity requires human/bibliographic review."
+    },
+    {
+      "source_id": "SRC-0053",
+      "url": "https://www.persee.fr/doc/hispa_0007-4640_1982_num_84_1_4464",
+      "http_status": 200,
+      "curl_exit": 0,
+      "category": "reachable",
+      "note": "Automated access result only; source validity requires human/bibliographic review."
+    },
+    {
+      "source_id": "SRC-0054",
+      "url": "https://www.nobelprize.org/prizes/literature/1971/neruda/facts/",
+      "http_status": 200,
+      "curl_exit": 0,
+      "category": "reachable",
+      "note": "Automated access result only; source validity requires human/bibliographic review."
+    },
+    {
+      "source_id": "SRC-0055",
+      "url": "https://cvc.cervantes.es/literatura/escritores/neruda/",
+      "http_status": 200,
+      "curl_exit": 0,
+      "category": "reachable",
+      "note": "Automated access result only; source validity requires human/bibliographic review."
+    },
+    {
+      "source_id": "SRC-0056",
+      "url": "https://www.nobelprize.org/prizes/literature/1982/marquez/facts/",
+      "http_status": 200,
+      "curl_exit": 0,
+      "category": "reachable",
+      "note": "Automated access result only; source validity requires human/bibliographic review."
+    },
+    {
+      "source_id": "SRC-0057",
+      "url": "https://anphlac.emnuvens.com.br/anphlac/article/view/1338",
+      "http_status": 200,
+      "curl_exit": 0,
+      "category": "reachable",
+      "note": "Automated access result only; source validity requires human/bibliographic review."
+    },
+    {
+      "source_id": "SRC-0058",
+      "url": "http://journal.telospress.com/content/1984/59/174",
+      "http_status": 200,
+      "curl_exit": 0,
+      "category": "reachable",
+      "note": "Automated access result only; source validity requires human/bibliographic review."
+    },
+    {
+      "source_id": "SRC-0059",
+      "url": "https://anales.uchile.cl/index.php/ANUC/article/view/2485",
+      "http_status": 200,
+      "curl_exit": 0,
+      "category": "reachable",
+      "note": "Automated access result only; source validity requires human/bibliographic review."
+    },
+    {
+      "source_id": "SRC-0060",
+      "url": "https://americasinnombre.ua.es/article/view/2097",
+      "http_status": 200,
+      "curl_exit": 0,
+      "category": "reachable",
+      "note": "Automated access result only; source validity requires human/bibliographic review."
+    },
+    {
+      "source_id": "SRC-0061",
+      "url": "https://vestnik.kosgos.ru/en/2025-vol-31-4/pogadaeva-ev-vestnik-2025-4-en.html",
+      "http_status": 200,
+      "curl_exit": 0,
+      "category": "reachable",
+      "note": "Automated access result only; source validity requires human/bibliographic review."
+    },
+    {
+      "source_id": "SRC-0062",
+      "url": "https://revistas.udec.cl/index.php/atenea/article/view/21842",
+      "http_status": 200,
+      "curl_exit": 0,
+      "category": "reachable",
+      "note": "Automated access result only; source validity requires human/bibliographic review."
+    },
+    {
+      "source_id": "SRC-0063",
+      "url": "https://www.persee.fr/doc/ameri_0982-9237_1994_num_14_1_1167",
+      "http_status": 200,
+      "curl_exit": 0,
+      "category": "reachable",
+      "note": "Automated access result only; source validity requires human/bibliographic review."
+    },
+    {
+      "source_id": "SRC-0064",
+      "url": "https://cvc.cervantes.es/actcult/garcia_marquez/obra/prosa.htm",
+      "http_status": 200,
+      "curl_exit": 0,
+      "category": "reachable",
+      "note": "Automated access result only; source validity requires human/bibliographic review."
+    },
+    {
+      "source_id": "SRC-0065",
+      "url": "https://www.persee.fr/doc/ameri_0982-9237_1997_num_18_1_1261",
+      "http_status": 200,
+      "curl_exit": 0,
+      "category": "reachable",
+      "note": "Automated access result only; source validity requires human/bibliographic review."
+    },
+    {
+      "source_id": "SRC-0066",
+      "url": "https://catalogue.bnf.fr/ark:/12148/cb352151483",
+      "http_status": 200,
+      "curl_exit": 0,
+      "category": "reachable",
+      "note": "Automated access result only; source validity requires human/bibliographic review."
+    },
+    {
+      "source_id": "SRC-0067",
+      "url": "https://catalogue.bnf.fr/ark:/12148/cb32969228j",
+      "http_status": 200,
+      "curl_exit": 0,
+      "category": "reachable",
+      "note": "Automated access result only; source validity requires human/bibliographic review."
+    },
+    {
+      "source_id": "SRC-0068",
+      "url": "https://catalogue.bnf.fr/ark:/12148/cb34819928j",
+      "http_status": 200,
+      "curl_exit": 0,
+      "category": "reachable",
+      "note": "Automated access result only; source validity requires human/bibliographic review."
+    },
+    {
+      "source_id": "SRC-0069",
+      "url": "https://catalogue.bnf.fr/ark:/12148/cb11897752d",
+      "http_status": 200,
+      "curl_exit": 0,
+      "category": "reachable",
+      "note": "Automated access result only; source validity requires human/bibliographic review."
+    },
+    {
+      "source_id": "SRC-0070",
+      "url": "https://cvc.cervantes.es/literatura/escritores/neruda/bibliografia/default.htm",
+      "http_status": 200,
+      "curl_exit": 0,
+      "category": "reachable",
+      "note": "Automated access result only; source validity requires human/bibliographic review."
+    },
+    {
+      "source_id": "SRC-0071",
+      "url": "https://catalogue.bnf.fr/ark:/12148/cb348699962",
+      "http_status": 200,
+      "curl_exit": 0,
+      "category": "reachable",
+      "note": "Automated access result only; source validity requires human/bibliographic review."
+    },
+    {
+      "source_id": "SRC-0072",
+      "url": "https://www.persee.fr/doc/hispa_0007-4640_1978_num_80_3_4259",
+      "http_status": 200,
+      "curl_exit": 0,
+      "category": "reachable",
+      "note": "Automated access result only; source validity requires human/bibliographic review."
+    },
+    {
+      "source_id": "SRC-0073",
+      "url": "https://scholar.uc.edu/concern/articles/nc580p15s",
+      "http_status": 200,
+      "curl_exit": 0,
+      "category": "reachable",
+      "note": "Automated access result only; source validity requires human/bibliographic review."
+    },
+    {
+      "source_id": "SRC-0074",
+      "url": "http://ri.uaemex.mx/handle/20.500.11799/111299",
+      "http_status": 200,
+      "curl_exit": 0,
+      "category": "reachable",
+      "note": "Automated access result only; source validity requires human/bibliographic review."
+    }
+  ],
+  "policy": "Do not remove a source solely because an automated HEAD request is blocked or times out."
+}

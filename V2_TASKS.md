@@ -1,7 +1,7 @@
 # 拉丁美洲文学地图 V2 任务源
 
 - **版本**：1.0.0
-- **最后更新**：2026-08-12
+- **最后更新**：2026-08-13
 - **状态**：ACTIVE
 - **唯一动态状态源**：本文件
 - **上位文件**：
@@ -14,10 +14,10 @@
 - **当前阶段**：阶段 8：V2-N4 正式发布准备
 - **当前节点**：`V2-N1`、`V2-N2`、`V2-N3` 已完成；当前用户节点为 `V2-N4`
 - **当前任务**：`V2-N4` 正式公开发布审核（👤 USER_REVIEW）
-- **下一任务**：等待 USER 集中审核 rc.3 策展项、产品一致性与是否正式公开发布
-- **当前阻塞**：无；正式部署仍受 USER 批准、HTTPS origin 与 Pages 设置约束
-- **需要 USER**：待 R02 完成后集中审核策展项与 `V2.0.0-rc.3`，并决定是否正式公开发布
-- **最近完成**：`V2-N4-R02` 产品一致性差量返修；形成 `V2.0.0-rc.3`，rc.2 作为历史候选保留
+- **下一任务**：独立复审 `V2.0.0-rc.4`；不预设复审结论
+- **当前阻塞**：正式部署仍受 USER 批准、HTTPS origin 与 Pages 设置约束
+- **需要 USER**：集中审核未进入 public bundle 的策展队列；返修负责人不得代为批准
+- **最近完成**：`V2-N4-R03` 独立终审发布阻断返修；`V2.0.0-rc.4` 等待独立复审
 
 ## 任务状态规则
 
@@ -393,13 +393,24 @@
 
 ### 👤 V2-N4：正式公开发布审核
 
-- **审核包**：`docs/V2_RC3_PRODUCT_AUDIT.md`、`docs/V2_RC3_PUBLIC_UI_QA.md`、`docs/V2_RC3_CURATION_USER_REVIEW.md`、`docs/V2_RC3_BROWSER_PERFORMANCE_QA.md`、`docs/V2_RC3_RELEASE_INTEGRITY_QA.md`
+- **审核包**：`docs/V2_RC4_REMEDIATION_REPORT.md`、`docs/V2_RC4_CURATION_USER_REVIEW.md`、`docs/V2_RC4_BROWSER_PERFORMANCE_QA.md`、`docs/V2_RC4_RELEASE_INTEGRITY_QA.md`
 - **状态**：`👤 USER_REVIEW`
-- **等待内容**：USER 审核 rc.3 策展项、产品一致性与是否创建 V2.0.0 正式版本并公开部署。当前 manifest 仍为 `pending_v2_n4`。
+- **等待内容**：独立复审 rc.4 的 P1 关闭证据；USER 集中审核未进入 public bundle 的策展项。当前 manifest 仍为 `pending_v2_n4`。
+
+### ✅ V2-N4-R03：独立终审发布阻断返修
+
+- **性质**：基于独立终审 `DO NOT APPROVE V2-N4` 结论执行的最小范围返修；不继承 rc.3 的 PASS 结论。
+- **范围**：关闭 P1-01 至 P1-07，并在不改写已审核研究事实、不批准 `user_review`、不重建双层数据架构的前提下同步处理相关 P2。
+- **强制门禁**：未批准策展内容不得进入 public bundle；公开完整页必须达到最低产品标准；搜索关系扩展与唯一语义路由必须可测试；候选身份和实际部署字节必须可机器验证；浏览器与 Lighthouse 必须有锁定依赖和原始工件。
+- **候选**：`V2.0.0-rc.4`；`release_state` 继续为 `pending_v2_n4`。正式候选 Manifest 由最终 PR head 的 CI 工件生成。
+- **发布边界**：允许在当前返修分支提交、推送并更新 PR；禁止 merge、tag、GitHub Release、正式 Pages 部署及将 V2-N4 标为通过。
+- **结果**：37 条待审策展全部退出 public bundle；公开范围收紧至 7 位有完整作品入口的作者、14 部作品、19 个地点/国家/文学空间和 2 个主题；搜索关系扩展与语义路由通过；四种浏览器/尺寸 28/28，覆盖全部 46 条 sitemap 路由动态渲染；Lighthouse 首页 92/100/100/100、作品页 93/100/100/100；dist 篡改被 Manifest verifier 拒绝。
+- **产物**：`docs/V2_RC4_REMEDIATION_REPORT.md`、`docs/V2_RC4_CURATION_USER_REVIEW.md`、`docs/V2_RC4_BROWSER_PERFORMANCE_QA.md`、`docs/V2_RC4_RELEASE_INTEGRITY_QA.md`、`artifacts/v2-rc4/`。
+- **状态**：`✅ DONE`（返修任务完成；`V2-N4` 仍为 `👤 USER_REVIEW`，不代表发布批准）
 
 ## 当前执行边界
 
-- 当前推进到阶段 8；`V2-N4-R02` 已完成，当前停在 `V2-N4 = 👤 USER_REVIEW`。
+- 当前推进到阶段 8；`V2-N4-R03` 已完成，用户节点继续保持 `V2-N4 = 👤 USER_REVIEW`。
 - 在 N4 通过前，不创建 V2.0.0 tag、不推送发布分支、不执行 Pages 部署、不发布正式公开 URL。
 - 不提前开发复杂知识图谱、3D 地图、用户系统、AI 问答、CMS、小程序、多语言或个性化推荐。
 - 不在前端硬编码研究事实，不用策展写作补造研究事实，不为虚构空间伪造现实坐标。

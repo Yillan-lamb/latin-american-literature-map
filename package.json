@@ -1,0 +1,14 @@
+{
+  "name": "latin-american-literature-map-qa",
+  "private": true,
+  "version": "2.0.0-rc.4",
+  "scripts": {
+    "qa:browser": "playwright test",
+    "qa:browser:chromium": "playwright test --project=chromium-desktop --project=chromium-mobile",
+    "qa:lighthouse": "node scripts/qa_v2_lighthouse.cjs"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.62.1",
+    "lighthouse": "13.4.1"
+  }
+}

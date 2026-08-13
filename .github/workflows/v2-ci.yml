@@ -3,12 +3,13 @@ name: V2 CI
 on:
   push:
   pull_request:
+  workflow_dispatch:
 
 permissions:
   contents: read
 
 jobs:
-  verify:
+  release-integrity:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -16,26 +17,87 @@ jobs:
           fetch-depth: 0
       - uses: actions/setup-python@v5
         with:
-          python-version: "3.x"
-      - name: Validate master data
+          python-version: "3.13"
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "24.14.0"
+          cache: npm
+      - name: Install locked QA dependencies and Chromium
+        run: |
+          npm ci
+          npx playwright install --with-deps chromium
+      - name: Validate research data
         run: python3 scripts/validate_master.py data/master/V1_MASTER.sqlite
-      - name: Rebuild and validate website data
+      - name: Rebuild and validate Web Data
         run: |
-          python3 scripts/build_v2_web_data.py --generated-at 2026-08-12T00:00:00+08:00
+          python3 scripts/build_v2_web_data.py --generated-at 2026-08-13T00:00:00Z
           python3 scripts/validate_v2_web_data.py
-      - name: Check JavaScript syntax
-        run: node --check site/app.js
-      - name: Build static product pages
+      - name: Check frontend syntax and whitespace
+        run: |
+          node --check site/app.js
+          git diff --check
+          git diff --exit-code -- data/v2/web/site_data.json data/v2/web/manifest.json
+      - name: Build the one public deployment bundle
         run: python3 scripts/build_v2_deploy_bundle.py --output dist --origin https://example.invalid/
-      - name: Scan public interface language
-        run: python3 scripts/qa_v2_public_ui.py dist
-      - name: Verify release candidate inputs
+      - name: Validate the actual public bundle
         run: |
-          cp data/v2/release/V2.0.0_RELEASE_MANIFEST.json /tmp/V2.0.0_RELEASE_MANIFEST.json
-          APPROVED_COMMIT_SHA=$(python3 -c 'import json; print(json.load(open("/tmp/V2.0.0_RELEASE_MANIFEST.json"))["approved_commit_sha"])')
-          git checkout --detach "$APPROVED_COMMIT_SHA"
-          python3 scripts/build_v2_web_data.py --generated-at 2026-08-12
-          python3 scripts/validate_v2_web_data.py
-          python3 scripts/build_v2_release_manifest.py --verify --output /tmp/V2.0.0_RELEASE_MANIFEST.json
-      - name: Check whitespace
-        run: git diff --check
+          python3 scripts/qa_v2_public_ui.py dist
+          python3 scripts/validate_v2_public_bundle.py dist
+      - name: Run Chromium desktop and mobile smoke tests
+        run: |
+          python3 -m http.server 4173 --directory dist > /tmp/v2-http.log 2>&1 &
+          npm run qa:browser:chromium
+      - name: Materialize and verify exact candidate manifest
+        run: |
+          python3 scripts/build_v2_release_manifest.py --output /tmp/V2.0.0-rc.4.manifest.json --bundle dist --candidate-commit-sha "$GITHUB_SHA"
+          python3 scripts/build_v2_release_manifest.py --verify --output /tmp/V2.0.0-rc.4.manifest.json --bundle dist --require-release-state pending_v2_n4
+      - name: Prove tampering is rejected
+        run: |
+          cp -R dist /tmp/v2-tampered-dist
+          printf '\n' >> /tmp/v2-tampered-dist/data/v2/web/site_data.json
+          if python3 scripts/build_v2_release_manifest.py --verify --output /tmp/V2.0.0-rc.4.manifest.json --bundle /tmp/v2-tampered-dist; then
+            echo "Tampered bundle was incorrectly accepted."
+            exit 1
+          fi
+      - name: Upload candidate proof and browser raw results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: v2-rc4-candidate-${{ github.sha }}
+          if-no-files-found: error
+          path: |
+            /tmp/V2.0.0-rc.4.manifest.json
+            artifacts/v2-rc4/browser/
+            dist/
+
+  rc-browser-matrix:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "24.14.0"
+          cache: npm
+      - name: Install exact browsers
+        run: |
+          npm ci
+          npx playwright install --with-deps chromium firefox webkit
+      - name: Build final public bundle
+        run: |
+          python3 scripts/build_v2_web_data.py --generated-at 2026-08-13T00:00:00Z
+          python3 scripts/build_v2_deploy_bundle.py --output dist --origin https://example.invalid/
+      - name: Run Chromium Firefox and WebKit matrix
+        run: |
+          python3 -m http.server 4173 --directory dist > /tmp/v2-http.log 2>&1 &
+          npm run qa:browser
+          npm run qa:lighthouse
+      - name: Upload raw browser and Lighthouse artifacts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: v2-rc4-browser-matrix-${{ github.sha }}
+          if-no-files-found: error
+          path: artifacts/v2-rc4/

@@ -232,8 +232,8 @@
         "target_type": "work"
       },
       {
-        "basis_note": "保留 V1 卡片中的来源归属措辞“论文认为”；不把论文观点改写为无来源作者属性",
-        "content_zh": "长篇小说（1967）：Javeriana 论文认为作品伦理源自圣经神话并构成统一工具，照见人性境况。",
+        "basis_note": "仅组合正式作品体裁、发表年份与 SET_IN 关系；论文解释留在研究层",
+        "content_zh": "一部以马孔多为故事空间的长篇小说；1967 年首次出版。",
         "created_at": "2026-08-11",
         "curation_id": "V2-CUR-ENT-009",
         "display_scope": [
@@ -243,10 +243,11 @@
         "draft_origin": "codex",
         "field_key": "one_line_summary",
         "research_refs": [
-          "V1-CARD-0022"
+          "V1-CARD-0022",
+          "V1-REL-0075"
         ],
-        "review_note": "来源已核验；可进入公共阅读层",
-        "reviewed_at": "2026-08-11",
+        "review_note": "独立终审返修：低剧透导入只保留正式事实与关系",
+        "reviewed_at": "2026-08-13",
         "reviewer": "CODEX",
         "schema_version": "v2-curation-0.1",
         "sort_order": 50,
@@ -637,8 +638,8 @@
         "target_type": "author"
       },
       {
-        "basis_note": "由 V1 内容卡的一句话简介机械转换；不新增研究事实。",
-        "content_zh": "长篇小说（1963）：Passagens 论文称其为碎片化叙述、召唤读者积极参与的实验小说。",
+        "basis_note": "将已收录的一句话简介转换为读者导入；不扩写新的文学判断",
+        "content_zh": "一部以碎片化叙述和多种话语邀请读者参与文本组合的实验长篇小说。",
         "created_at": "2026-08-11",
         "curation_id": "V2-CUR-FULL-027",
         "display_scope": [
@@ -648,10 +649,11 @@
         "draft_origin": "codex",
         "field_key": "one_line_summary",
         "research_refs": [
-          "V1-CARD-0026"
+          "V1-CARD-0026",
+          "V1-FCT-0145"
         ],
-        "review_note": "批量来源核验通过；可进入公共阅读层",
-        "reviewed_at": "2026-08-11",
+        "review_note": "独立终审返修：论文归属与延伸解释留在研究层",
+        "reviewed_at": "2026-08-13",
         "reviewer": "CODEX",
         "schema_version": "v2-curation-0.1",
         "sort_order": null,
@@ -691,8 +693,8 @@
         "target_type": "author"
       },
       {
-        "basis_note": "由 V1 内容卡的一句话简介机械转换；不新增研究事实。",
-        "content_zh": "长篇小说（1949）：RFRM 论文以跨文化视角解读拉丁美洲，Mackandal 体现神奇现实。",
+        "basis_note": "仅组合正式人物、体裁与发表年份；论文解释留在研究层",
+        "content_zh": "一部围绕马康达尔与亨利·克里斯托夫展开的长篇小说；1949 年首次出版。",
         "created_at": "2026-08-11",
         "curation_id": "V2-CUR-FULL-029",
         "display_scope": [
@@ -704,8 +706,8 @@
         "research_refs": [
           "V1-CARD-0030"
         ],
-        "review_note": "批量来源核验通过；可进入公共阅读层",
-        "reviewed_at": "2026-08-11",
+        "review_note": "独立终审返修：低剧透导入只保留正式事实",
+        "reviewed_at": "2026-08-13",
         "reviewer": "CODEX",
         "schema_version": "v2-curation-0.1",
         "sort_order": null,
@@ -797,8 +799,8 @@
         "target_type": "author"
       },
       {
-        "basis_note": "由 V1 内容卡的一句话简介机械转换；不新增研究事实。",
-        "content_zh": "长篇小说（1963）：论文从中提取寓言与象征元素作利马城市问题阐释。",
+        "basis_note": "仅组合正式体裁、发表年份和 SET_IN 关系；论文解释留在研究层",
+        "content_zh": "一部以利马为故事背景的长篇小说；1963 年首次出版。",
         "created_at": "2026-08-11",
         "curation_id": "V2-CUR-FULL-033",
         "display_scope": [
@@ -808,10 +810,11 @@
         "draft_origin": "codex",
         "field_key": "one_line_summary",
         "research_refs": [
-          "V1-CARD-0034"
+          "V1-CARD-0034",
+          "V1-REL-0066"
         ],
-        "review_note": "批量来源核验通过；可进入公共阅读层",
-        "reviewed_at": "2026-08-11",
+        "review_note": "独立终审返修：低剧透导入只保留正式事实与关系",
+        "reviewed_at": "2026-08-13",
         "reviewer": "CODEX",
         "schema_version": "v2-curation-0.1",
         "sort_order": null,
@@ -850,8 +853,8 @@
         "target_type": "work"
       },
       {
-        "basis_note": "由 V1 内容卡的一句话简介机械转换；不新增研究事实。",
-        "content_zh": "长篇小说（1981）：论文认为 Consejero 人物与整部小说瓦解殖民视角对拉美的解读。",
+        "basis_note": "仅组合正式作品事实与 BASED_ON_EVENT 关系；论文解释留在研究层",
+        "content_zh": "一部将卡努杜斯战争写入虚构叙事的长篇小说；1981 年首次出版。",
         "created_at": "2026-08-11",
         "curation_id": "V2-CUR-FULL-035",
         "display_scope": [
@@ -861,10 +864,11 @@
         "draft_origin": "codex",
         "field_key": "one_line_summary",
         "research_refs": [
-          "V1-CARD-0036"
+          "V1-CARD-0036",
+          "V1-REL-0076"
         ],
-        "review_note": "批量来源核验通过；可进入公共阅读层",
-        "reviewed_at": "2026-08-11",
+        "review_note": "独立终审返修：低剧透导入只保留正式事实与关系",
+        "reviewed_at": "2026-08-13",
         "reviewer": "CODEX",
         "schema_version": "v2-curation-0.1",
         "sort_order": null,
@@ -1758,7 +1762,7 @@
     "geo_data": "data/v2/geo",
     "research_database": "data/master/V1_MASTER.sqlite"
   },
-  "generated_at": "2026-08-12",
+  "generated_at": "2026-08-13T00:00:00Z",
   "map": {
     "places": [
       {
@@ -9664,6 +9668,18 @@
       "source": "Natural Earth Admin 0 Countries, 1:110m",
       "source_url": "https://www.naturalearthdata.com/downloads/110m-cultural-vectors/110m-admin-0-countries/"
     },
+    "next_reads": [],
+    "reading_paths": [],
+    "schema_version": "v2-public-presentation-0.1",
+    "site": {
+      "description": "一张从地点、作家、作品与时间进入拉丁美洲文学的中文探索地图。",
+      "name": "拉丁美洲文学地图",
+      "tagline": "从马孔多、科马拉到布宜诺斯艾利斯，在地图、作品与作家之间重新发现拉丁美洲文学。"
+    },
+    "timeline_periods": [],
+    "why_read": []
+  },
+  "presentation_review_queue": {
     "next_reads": [
       {
         "basis": [
@@ -9868,12 +9884,6 @@
         "title": "时间、记忆与迷宫"
       }
     ],
-    "schema_version": "v2-public-presentation-0.1",
-    "site": {
-      "description": "一张从地点、作家、作品与时间进入拉丁美洲文学的中文探索地图。",
-      "name": "拉丁美洲文学地图",
-      "tagline": "从马孔多、科马拉到布宜诺斯艾利斯，在地图、作品与作家之间重新发现拉丁美洲文学。"
-    },
     "timeline_periods": [
       {
         "end": 1924,
@@ -10246,6 +10256,58 @@
         "review_status": "user_review",
         "work_id": "V1-ENT-0118"
       }
+    ]
+  },
+  "public_scope": {
+    "authors": [
+      "V1-ENT-0002",
+      "V1-ENT-0029",
+      "V1-ENT-0030",
+      "V1-ENT-0031",
+      "V1-ENT-0072",
+      "V1-ENT-0074",
+      "V1-ENT-0114"
+    ],
+    "nodes": [
+      "V1-ENT-0025",
+      "V1-ENT-0137"
+    ],
+    "places": [
+      "V1-ENT-0001",
+      "V1-ENT-0022",
+      "V1-ENT-0051",
+      "V1-ENT-0052",
+      "V1-ENT-0053",
+      "V1-ENT-0054",
+      "V1-ENT-0055",
+      "V1-ENT-0057",
+      "V1-ENT-0095",
+      "V1-ENT-0096",
+      "V1-ENT-0097",
+      "V1-ENT-0098",
+      "V1-ENT-0123",
+      "V1-ENT-0124",
+      "V1-ENT-0125",
+      "V1-ENT-0126",
+      "V1-ENT-0128",
+      "V1-ENT-0129",
+      "V2-GEO-BR"
+    ],
+    "works": [
+      "V1-ENT-0003",
+      "V1-ENT-0004",
+      "V1-ENT-0017",
+      "V1-ENT-0018",
+      "V1-ENT-0032",
+      "V1-ENT-0035",
+      "V1-ENT-0038",
+      "V1-ENT-0075",
+      "V1-ENT-0076",
+      "V1-ENT-0077",
+      "V1-ENT-0078",
+      "V1-ENT-0079",
+      "V1-ENT-0116",
+      "V1-ENT-0118"
     ]
   },
   "qa": {
@@ -26714,6 +26776,10 @@
     {
       "name_zh": "阿根廷",
       "original_name": "Argentina",
+      "public_route": "countries/argentina-v1-ent-0001/",
+      "related_ids": [
+        "V1-ENT-0002"
+      ],
       "search_text": "阿根廷 Argentina",
       "target_id": "V1-ENT-0001",
       "target_type": "country"
@@ -26721,6 +26787,12 @@
     {
       "name_zh": "豪尔赫·路易斯·博尔赫斯",
       "original_name": "Jorge Luis Borges",
+      "public_route": "authors/jorge-luis-borges-v1-ent-0002/",
+      "related_ids": [
+        "V1-ENT-0001",
+        "V1-ENT-0003",
+        "V1-ENT-0004"
+      ],
       "search_text": "豪尔赫·路易斯·博尔赫斯 Jorge Luis Borges 豪尔赫·路易斯·博尔赫斯 阿根廷 1899-1986",
       "target_id": "V1-ENT-0002",
       "target_type": "author"
@@ -26728,6 +26800,10 @@
     {
       "name_zh": "《小径分岔的花园》",
       "original_name": "El jardín de senderos que se bifurcan",
+      "public_route": "works/el-jardin-de-senderos-que-se-bifurcan-v1-ent-0003/",
+      "related_ids": [
+        "V1-ENT-0002"
+      ],
       "search_text": "《小径分岔的花园》 El jardín de senderos que se bifurcan 《小径分岔的花园》 阿根廷 1941",
       "target_id": "V1-ENT-0003",
       "target_type": "work"
@@ -26735,97 +26811,19 @@
     {
       "name_zh": "《阿莱夫》",
       "original_name": "El Aleph",
+      "public_route": "works/el-aleph-v1-ent-0004/",
+      "related_ids": [
+        "V1-ENT-0002"
+      ],
       "search_text": "《阿莱夫》 El Aleph 《阿莱夫》（1945 年短篇） 阿根廷 1945",
       "target_id": "V1-ENT-0004",
       "target_type": "work"
     },
     {
-      "name_zh": "阿图尔·叔本华",
-      "original_name": "Arthur Schopenhauer",
-      "search_text": "阿图尔·叔本华 Arthur Schopenhauer",
-      "target_id": "V1-ENT-0005",
-      "target_type": "author"
-    },
-    {
-      "name_zh": "弗兰茨·卡夫卡",
-      "original_name": "Franz Kafka",
-      "search_text": "弗兰茨·卡夫卡 Franz Kafka",
-      "target_id": "V1-ENT-0006",
-      "target_type": "author"
-    },
-    {
-      "name_zh": "吉尔伯特·基思·切斯特顿",
-      "original_name": "G. K. Chesterton",
-      "search_text": "吉尔伯特·基思·切斯特顿 G. K. Chesterton",
-      "target_id": "V1-ENT-0007",
-      "target_type": "author"
-    },
-    {
-      "name_zh": "阿什格罗夫",
-      "original_name": "Ashgrove",
-      "search_text": "阿什格罗夫 Ashgrove",
-      "target_id": "V1-ENT-0008",
-      "target_type": "place"
-    },
-    {
-      "name_zh": "加雷街",
-      "original_name": "calle Garay",
-      "search_text": "加雷街 calle Garay",
-      "target_id": "V1-ENT-0009",
-      "target_type": "place"
-    },
-    {
-      "name_zh": "极端主义（超主义）",
-      "original_name": "ultraísmo",
-      "search_text": "极端主义（超主义） ultraísmo",
-      "target_id": "V1-ENT-0010",
-      "target_type": "movement"
-    },
-    {
-      "name_zh": "《虚构集》",
-      "original_name": "Ficciones",
-      "search_text": "《虚构集》 Ficciones 《虚构集》 阿根廷 1944",
-      "target_id": "V1-ENT-0011",
-      "target_type": "collection"
-    },
-    {
-      "name_zh": "《阿莱夫》",
-      "original_name": "El Aleph",
-      "search_text": "《阿莱夫》 El Aleph",
-      "target_id": "V1-ENT-0012",
-      "target_type": "collection"
-    },
-    {
-      "name_zh": "时间的分岔与无限（多重未来）",
-      "original_name": "",
-      "search_text": "时间的分岔与无限（多重未来）",
-      "target_id": "V1-ENT-0013",
-      "target_type": "theme"
-    },
-    {
-      "name_zh": "记忆与遗忘",
-      "original_name": "memoria y olvido",
-      "search_text": "记忆与遗忘 memoria y olvido",
-      "target_id": "V1-ENT-0014",
-      "target_type": "theme"
-    },
-    {
-      "name_zh": "无限与不可言说（阿莱夫）",
-      "original_name": "",
-      "search_text": "无限与不可言说（阿莱夫）",
-      "target_id": "V1-ENT-0015",
-      "target_type": "theme"
-    },
-    {
-      "name_zh": "克拉丽丝·李斯佩克朵",
-      "original_name": "Clarice Lispector",
-      "search_text": "克拉丽丝·李斯佩克朵 Clarice Lispector 克拉丽丝·李斯佩克朵 巴西 1920-1977",
-      "target_id": "V1-ENT-0016",
-      "target_type": "author"
-    },
-    {
       "name_zh": "《活水》",
       "original_name": "Água viva",
+      "public_route": "works/agua-viva-v1-ent-0017/",
+      "related_ids": [],
       "search_text": "《活水》 Água viva 《活水》 巴西 1973",
       "target_id": "V1-ENT-0017",
       "target_type": "work"
@@ -26833,83 +26831,45 @@
     {
       "name_zh": "《星辰时刻》",
       "original_name": "A hora da estrela",
+      "public_route": "works/a-hora-da-estrela-v1-ent-0018/",
+      "related_ids": [
+        "V1-ENT-0022",
+        "V1-ENT-0025"
+      ],
       "search_text": "《星辰时刻》 A hora da estrela 《星辰时刻》 巴西 1977",
       "target_id": "V1-ENT-0018",
       "target_type": "work"
     },
     {
-      "name_zh": "《家庭纽带》",
-      "original_name": "Laços de família",
-      "search_text": "《家庭纽带》 Laços de família 《家庭纽带》 巴西 1960",
-      "target_id": "V1-ENT-0019",
-      "target_type": "collection"
-    },
-    {
-      "name_zh": "《G.H. 受难》",
-      "original_name": "A paixão segundo G.H.",
-      "search_text": "《G.H. 受难》 A paixão segundo G.H.",
-      "target_id": "V1-ENT-0020",
-      "target_type": "work"
-    },
-    {
-      "name_zh": "《星辰时刻》",
-      "original_name": "A hora da estrela (filme)",
-      "search_text": "《星辰时刻》 A hora da estrela (filme)",
-      "target_id": "V1-ENT-0021",
-      "target_type": "adaptation"
-    },
-    {
       "name_zh": "里约热内卢",
       "original_name": "Rio de Janeiro",
+      "public_route": "places/rio-de-janeiro-v1-ent-0022/",
+      "related_ids": [
+        "V1-ENT-0018"
+      ],
       "search_text": "里约热内卢 Rio de Janeiro",
       "target_id": "V1-ENT-0022",
       "target_type": "place"
     },
     {
-      "name_zh": "家庭关系与内心生活",
-      "original_name": "",
-      "search_text": "家庭关系与内心生活",
-      "target_id": "V1-ENT-0023",
-      "target_type": "theme"
-    },
-    {
-      "name_zh": "时间、当下瞬间与沉默",
-      "original_name": "",
-      "search_text": "时间、当下瞬间与沉默",
-      "target_id": "V1-ENT-0024",
-      "target_type": "theme"
-    },
-    {
       "name_zh": "社会不平等与书写",
       "original_name": "",
+      "public_route": "explore/theme-v1-ent-0025/",
+      "related_ids": [
+        "V1-ENT-0018"
+      ],
       "search_text": "社会不平等与书写",
       "target_id": "V1-ENT-0025",
       "target_type": "theme"
     },
     {
-      "name_zh": "《生命的气息》",
-      "original_name": "Um sopro de vida",
-      "search_text": "《生命的气息》 Um sopro de vida",
-      "target_id": "V1-ENT-0026",
-      "target_type": "work"
-    },
-    {
-      "name_zh": "升华、沉默与女性写作（精神分析视角）",
-      "original_name": "sublimação e feminino",
-      "search_text": "升华、沉默与女性写作（精神分析视角） sublimação e feminino",
-      "target_id": "V1-ENT-0027",
-      "target_type": "theme"
-    },
-    {
-      "name_zh": "女性人物与21世纪再读",
-      "original_name": "",
-      "search_text": "女性人物与21世纪再读",
-      "target_id": "V1-ENT-0028",
-      "target_type": "theme"
-    },
-    {
       "name_zh": "埃莱娜·加罗",
       "original_name": "Elena Garro",
+      "public_route": "authors/elena-garro-v1-ent-0029/",
+      "related_ids": [
+        "V1-ENT-0032",
+        "V1-ENT-0051"
+      ],
       "search_text": "埃莱娜·加罗 Elena Garro 埃莱娜·加罗 墨西哥 1916-1998",
       "target_id": "V1-ENT-0029",
       "target_type": "author"
@@ -26917,6 +26877,12 @@
     {
       "name_zh": "罗萨里奥·卡斯特利亚诺斯",
       "original_name": "Rosario Castellanos",
+      "public_route": "authors/rosario-castellanos-v1-ent-0030/",
+      "related_ids": [
+        "V1-ENT-0035",
+        "V1-ENT-0052",
+        "V1-ENT-0053"
+      ],
       "search_text": "罗萨里奥·卡斯特利亚诺斯 Rosario Castellanos 罗萨里奥·卡斯特利亚诺斯 墨西哥 1925-1974",
       "target_id": "V1-ENT-0030",
       "target_type": "author"
@@ -26924,6 +26890,12 @@
     {
       "name_zh": "胡安·鲁尔福",
       "original_name": "Juan Rulfo",
+      "public_route": "authors/juan-rulfo-v1-ent-0031/",
+      "related_ids": [
+        "V1-ENT-0038",
+        "V1-ENT-0051",
+        "V1-ENT-0057"
+      ],
       "search_text": "胡安·鲁尔福 Juan Rulfo 胡安·鲁尔福 墨西哥 1917-1986",
       "target_id": "V1-ENT-0031",
       "target_type": "author"
@@ -26931,139 +26903,47 @@
     {
       "name_zh": "《未来的回忆》",
       "original_name": "Los recuerdos del porvenir",
+      "public_route": "works/los-recuerdos-del-porvenir-v1-ent-0032/",
+      "related_ids": [
+        "V1-ENT-0029",
+        "V1-ENT-0054"
+      ],
       "search_text": "《未来的回忆》 Los recuerdos del porvenir 《未来的回忆》 墨西哥 1963",
       "target_id": "V1-ENT-0032",
       "target_type": "work"
     },
     {
-      "name_zh": "《彩色的一周》",
-      "original_name": "La semana de colores",
-      "search_text": "《彩色的一周》 La semana de colores 《彩色的一周》 墨西哥 1964",
-      "target_id": "V1-ENT-0033",
-      "target_type": "collection"
-    },
-    {
-      "name_zh": "《关于玛丽安娜的证词》",
-      "original_name": "Testimonios sobre Mariana",
-      "search_text": "《关于玛丽安娜的证词》 Testimonios sobre Mariana 《关于玛丽安娜的证词》 墨西哥 1981",
-      "target_id": "V1-ENT-0034",
-      "target_type": "work"
-    },
-    {
       "name_zh": "《巴伦坎南》",
       "original_name": "Balún Canán",
+      "public_route": "works/balun-canan-v1-ent-0035/",
+      "related_ids": [
+        "V1-ENT-0030",
+        "V1-ENT-0052"
+      ],
       "search_text": "《巴伦坎南》 Balún Canán 《巴伦坎南》 墨西哥 1957",
       "target_id": "V1-ENT-0035",
       "target_type": "work"
     },
     {
-      "name_zh": "《黑暗的职守》",
-      "original_name": "Oficio de tinieblas",
-      "search_text": "《黑暗的职守》 Oficio de tinieblas 《黑暗的职守》 墨西哥 1962",
-      "target_id": "V1-ENT-0036",
-      "target_type": "work"
-    },
-    {
-      "name_zh": "《诗歌不是你》",
-      "original_name": "Poesía no eres tú",
-      "search_text": "《诗歌不是你》 Poesía no eres tú 《诗歌不是你》 墨西哥 1972",
-      "target_id": "V1-ENT-0037",
-      "target_type": "collection"
-    },
-    {
       "name_zh": "《佩德罗·巴拉莫》",
       "original_name": "Pedro Páramo",
+      "public_route": "works/pedro-paramo-v1-ent-0038/",
+      "related_ids": [
+        "V1-ENT-0031",
+        "V1-ENT-0055"
+      ],
       "search_text": "《佩德罗·巴拉莫》 Pedro Páramo 《佩德罗·巴拉莫》 墨西哥 1955",
       "target_id": "V1-ENT-0038",
       "target_type": "work"
     },
     {
-      "name_zh": "《燃烧的原野》",
-      "original_name": "El Llano en llamas",
-      "search_text": "《燃烧的原野》 El Llano en llamas 《燃烧的原野》 墨西哥 1953",
-      "target_id": "V1-ENT-0039",
-      "target_type": "collection"
-    },
-    {
-      "name_zh": "《金鸡》",
-      "original_name": "El gallo de oro",
-      "search_text": "《金鸡》 El gallo de oro 《金鸡》 墨西哥 1958（写作）/1980（出版）",
-      "target_id": "V1-ENT-0040",
-      "target_type": "work"
-    },
-    {
-      "name_zh": "《La culpa es de los tlaxcaltecas》",
-      "original_name": "La culpa es de los tlaxcaltecas",
-      "search_text": "《La culpa es de los tlaxcaltecas》 La culpa es de los tlaxcaltecas",
-      "target_id": "V1-ENT-0041",
-      "target_type": "work"
-    },
-    {
-      "name_zh": "《未来的回忆》（1968 年电影）",
-      "original_name": "Los recuerdos del porvenir (filme)",
-      "search_text": "《未来的回忆》（1968 年电影） Los recuerdos del porvenir (filme)",
-      "target_id": "V1-ENT-0042",
-      "target_type": "adaptation"
-    },
-    {
-      "name_zh": "Balún-Canán（FCE 2007 版）",
-      "original_name": "Balún-Canán (FCE 2007)",
-      "search_text": "Balún-Canán（FCE 2007 版） Balún-Canán (FCE 2007)",
-      "target_id": "V1-ENT-0043",
-      "target_type": "edition"
-    },
-    {
-      "name_zh": "《永恒的女性》",
-      "original_name": "El eterno femenino",
-      "search_text": "《永恒的女性》 El eterno femenino",
-      "target_id": "V1-ENT-0044",
-      "target_type": "work"
-    },
-    {
-      "name_zh": "《费利佩·安赫莱斯》",
-      "original_name": "Felipe Ángeles",
-      "search_text": "《费利佩·安赫莱斯》 Felipe Ángeles",
-      "target_id": "V1-ENT-0045",
-      "target_type": "work"
-    },
-    {
-      "name_zh": "Pedro Páramo（FCE 1964 版）",
-      "original_name": "Pedro Páramo (FCE 1964)",
-      "search_text": "Pedro Páramo（FCE 1964 版） Pedro Páramo (FCE 1964)",
-      "target_id": "V1-ENT-0046",
-      "target_type": "edition"
-    },
-    {
-      "name_zh": "弗朗西斯科·罗萨斯",
-      "original_name": "Francisco Rosas",
-      "search_text": "弗朗西斯科·罗萨斯 Francisco Rosas",
-      "target_id": "V1-ENT-0047",
-      "target_type": "character"
-    },
-    {
-      "name_zh": "胡利娅·安德拉德",
-      "original_name": "Julia Andrade",
-      "search_text": "胡利娅·安德拉德 Julia Andrade",
-      "target_id": "V1-ENT-0048",
-      "target_type": "character"
-    },
-    {
-      "name_zh": "胡安·普雷西亚多",
-      "original_name": "Juan Preciado",
-      "search_text": "胡安·普雷西亚多 Juan Preciado",
-      "target_id": "V1-ENT-0049",
-      "target_type": "character"
-    },
-    {
-      "name_zh": "佩德罗·巴拉莫（人物）",
-      "original_name": "Pedro Páramo",
-      "search_text": "佩德罗·巴拉莫（人物） Pedro Páramo",
-      "target_id": "V1-ENT-0050",
-      "target_type": "character"
-    },
-    {
       "name_zh": "墨西哥",
       "original_name": "México",
+      "public_route": "countries/mexico-v1-ent-0051/",
+      "related_ids": [
+        "V1-ENT-0029",
+        "V1-ENT-0031"
+      ],
       "search_text": "墨西哥 México",
       "target_id": "V1-ENT-0051",
       "target_type": "country"
@@ -27071,6 +26951,11 @@
     {
       "name_zh": "恰帕斯",
       "original_name": "Chiapas",
+      "public_route": "places/chiapas-v1-ent-0052/",
+      "related_ids": [
+        "V1-ENT-0030",
+        "V1-ENT-0035"
+      ],
       "search_text": "恰帕斯 Chiapas",
       "target_id": "V1-ENT-0052",
       "target_type": "place"
@@ -27078,6 +26963,10 @@
     {
       "name_zh": "科米坦",
       "original_name": "Comitán",
+      "public_route": "places/comitan-v1-ent-0053/",
+      "related_ids": [
+        "V1-ENT-0030"
+      ],
       "search_text": "科米坦 Comitán",
       "target_id": "V1-ENT-0053",
       "target_type": "place"
@@ -27085,6 +26974,10 @@
     {
       "name_zh": "伊斯特佩克",
       "original_name": "Ixtepec",
+      "public_route": "places/ixtepec-v1-ent-0054/",
+      "related_ids": [
+        "V1-ENT-0032"
+      ],
       "search_text": "伊斯特佩克 Ixtepec",
       "target_id": "V1-ENT-0054",
       "target_type": "place"
@@ -27092,139 +26985,49 @@
     {
       "name_zh": "科马拉",
       "original_name": "Comala",
+      "public_route": "places/comala-v1-ent-0055/",
+      "related_ids": [
+        "V1-ENT-0038"
+      ],
       "search_text": "科马拉 Comala",
       "target_id": "V1-ENT-0055",
       "target_type": "fictional_space"
     },
     {
-      "name_zh": "墨西哥城",
-      "original_name": "Ciudad de México",
-      "search_text": "墨西哥城 Ciudad de México",
-      "target_id": "V1-ENT-0056",
-      "target_type": "place"
-    },
-    {
       "name_zh": "圣加布里埃尔",
       "original_name": "San Gabriel",
+      "public_route": "places/san-gabriel-v1-ent-0057/",
+      "related_ids": [
+        "V1-ENT-0031"
+      ],
       "search_text": "圣加布里埃尔 San Gabriel",
       "target_id": "V1-ENT-0057",
       "target_type": "place"
     },
     {
-      "name_zh": "阿图罗·里普斯坦",
-      "original_name": "Arturo Ripstein",
-      "search_text": "阿图罗·里普斯坦 Arturo Ripstein",
-      "target_id": "V1-ENT-0058",
-      "target_type": "person"
-    },
-    {
-      "name_zh": "奥克塔维奥·帕斯",
-      "original_name": "Octavio Paz",
-      "search_text": "奥克塔维奥·帕斯 Octavio Paz",
-      "target_id": "V1-ENT-0059",
-      "target_type": "author"
-    },
-    {
-      "name_zh": "经济文化基金出版社",
-      "original_name": "Fondo de Cultura Económica",
-      "search_text": "经济文化基金出版社 Fondo de Cultura Económica",
-      "target_id": "V1-ENT-0060",
-      "target_type": "institution"
-    },
-    {
-      "name_zh": "华金·莫蒂斯出版社",
-      "original_name": "Joaquín Mortiz",
-      "search_text": "华金·莫蒂斯出版社 Joaquín Mortiz",
-      "target_id": "V1-ENT-0061",
-      "target_type": "institution"
-    },
-    {
-      "name_zh": "墨西哥国立自治大学",
-      "original_name": "Universidad Nacional Autónoma de México",
-      "search_text": "墨西哥国立自治大学 Universidad Nacional Autónoma de México",
-      "target_id": "V1-ENT-0062",
-      "target_type": "institution"
-    },
-    {
-      "name_zh": "墨西哥国立原住民研究所",
-      "original_name": "Instituto Nacional Indigenista",
-      "search_text": "墨西哥国立原住民研究所 Instituto Nacional Indigenista",
-      "target_id": "V1-ENT-0063",
-      "target_type": "institution"
-    },
-    {
-      "name_zh": "墨西哥革命小说",
-      "original_name": "novela de la Revolución Mexicana",
-      "search_text": "墨西哥革命小说 novela de la Revolución Mexicana",
-      "target_id": "V1-ENT-0064",
-      "target_type": "movement"
-    },
-    {
-      "name_zh": "基督战争",
-      "original_name": "Guerra Cristera",
-      "search_text": "基督战争 Guerra Cristera",
-      "target_id": "V1-ENT-0065",
-      "target_type": "event"
-    },
-    {
-      "name_zh": "1968 年特拉特洛尔科事件与加罗流亡",
-      "original_name": "Movimiento de 1968 y exilio de Elena Garro",
-      "search_text": "1968 年特拉特洛尔科事件与加罗流亡 Movimiento de 1968 y exilio de Elena Garro",
-      "target_id": "V1-ENT-0066",
-      "target_type": "event"
-    },
-    {
-      "name_zh": "时间与历史",
-      "original_name": "tiempo e historia",
-      "search_text": "时间与历史 tiempo e historia",
-      "target_id": "V1-ENT-0067",
-      "target_type": "theme"
-    },
-    {
-      "name_zh": "暴力与语言",
-      "original_name": "violencia y lenguaje",
-      "search_text": "暴力与语言 violencia y lenguaje",
-      "target_id": "V1-ENT-0068",
-      "target_type": "theme"
-    },
-    {
-      "name_zh": "沉默",
-      "original_name": "el silencio",
-      "search_text": "沉默 el silencio",
-      "target_id": "V1-ENT-0069",
-      "target_type": "theme"
-    },
-    {
-      "name_zh": "革命与基督战争",
-      "original_name": "Revolución y Cristiada",
-      "search_text": "革命与基督战争 Revolución y Cristiada",
-      "target_id": "V1-ENT-0070",
-      "target_type": "theme"
-    },
-    {
-      "name_zh": "乡村与革命后的土地",
-      "original_name": "campo y posrevolución",
-      "search_text": "乡村与革命后的土地 campo y posrevolución",
-      "target_id": "V1-ENT-0071",
-      "target_type": "theme"
-    },
-    {
       "name_zh": "加西亚·马尔克斯",
       "original_name": "Gabriel García Márquez",
+      "public_route": "authors/gabriel-garcia-marquez-v1-ent-0072/",
+      "related_ids": [
+        "V1-ENT-0075",
+        "V1-ENT-0076",
+        "V1-ENT-0077",
+        "V1-ENT-0095",
+        "V1-ENT-0097",
+        "V1-ENT-0098"
+      ],
       "search_text": "加西亚·马尔克斯 Gabriel García Márquez 加西亚·马尔克斯 哥伦比亚 1927-2014",
       "target_id": "V1-ENT-0072",
       "target_type": "author"
     },
     {
-      "name_zh": "胡利奥·科塔萨尔",
-      "original_name": "Julio Cortázar",
-      "search_text": "胡利奥·科塔萨尔 Julio Cortázar 胡利奥·科塔萨尔 阿根廷 1914-1984",
-      "target_id": "V1-ENT-0073",
-      "target_type": "author"
-    },
-    {
       "name_zh": "阿莱霍·卡彭铁尔",
       "original_name": "Alejo Carpentier",
+      "public_route": "authors/alejo-carpentier-v1-ent-0074/",
+      "related_ids": [
+        "V1-ENT-0079",
+        "V1-ENT-0096"
+      ],
       "search_text": "阿莱霍·卡彭铁尔 Alejo Carpentier 阿莱霍·卡彭铁尔 古巴 1904-1980",
       "target_id": "V1-ENT-0074",
       "target_type": "author"
@@ -27232,6 +27035,11 @@
     {
       "name_zh": "《百年孤独》",
       "original_name": "Cien años de soledad",
+      "public_route": "works/cien-anos-de-soledad-v1-ent-0075/",
+      "related_ids": [
+        "V1-ENT-0072",
+        "V1-ENT-0097"
+      ],
       "search_text": "《百年孤独》 Cien años de soledad 《百年孤独》 哥伦比亚 1967",
       "target_id": "V1-ENT-0075",
       "target_type": "work"
@@ -27239,6 +27047,10 @@
     {
       "name_zh": "《没有人给他写信的上校》",
       "original_name": "El coronel no tiene quien le escriba",
+      "public_route": "works/el-coronel-no-tiene-quien-le-escriba-v1-ent-0076/",
+      "related_ids": [
+        "V1-ENT-0072"
+      ],
       "search_text": "《没有人给他写信的上校》 El coronel no tiene quien le escriba 《没有人给他写信的上校》 哥伦比亚 1958/1961",
       "target_id": "V1-ENT-0076",
       "target_type": "work"
@@ -27246,6 +27058,10 @@
     {
       "name_zh": "《一桩事先张扬的凶杀案》",
       "original_name": "Crónica de una muerte anunciada",
+      "public_route": "works/cronica-de-una-muerte-anunciada-v1-ent-0077/",
+      "related_ids": [
+        "V1-ENT-0072"
+      ],
       "search_text": "《一桩事先张扬的凶杀案》 Crónica de una muerte anunciada 《一桩事先张扬的凶杀案》 哥伦比亚 1981",
       "target_id": "V1-ENT-0077",
       "target_type": "work"
@@ -27253,6 +27069,8 @@
     {
       "name_zh": "《跳房子》",
       "original_name": "Rayuela",
+      "public_route": "works/rayuela-v1-ent-0078/",
+      "related_ids": [],
       "search_text": "《跳房子》 Rayuela 《跳房子》 阿根廷 1963",
       "target_id": "V1-ENT-0078",
       "target_type": "work"
@@ -27260,118 +27078,21 @@
     {
       "name_zh": "《人间王国》",
       "original_name": "El reino de este mundo",
+      "public_route": "works/el-reino-de-este-mundo-v1-ent-0079/",
+      "related_ids": [
+        "V1-ENT-0074"
+      ],
       "search_text": "《人间王国》 El reino de este mundo 《人间王国》 古巴 1949",
       "target_id": "V1-ENT-0079",
       "target_type": "work"
     },
     {
-      "name_zh": "《消逝的足迹》",
-      "original_name": "Los pasos perdidos",
-      "search_text": "《消逝的足迹》 Los pasos perdidos 《消逝的足迹》 古巴 1953(hold)",
-      "target_id": "V1-ENT-0080",
-      "target_type": "work"
-    },
-    {
-      "name_zh": "《光明世纪》",
-      "original_name": "El siglo de las luces",
-      "search_text": "《光明世纪》 El siglo de las luces 《光明世纪》 古巴 1962",
-      "target_id": "V1-ENT-0081",
-      "target_type": "work"
-    },
-    {
-      "name_zh": "《动物寓言集》",
-      "original_name": "Bestiario",
-      "search_text": "《动物寓言集》 Bestiario 《动物寓言集》 阿根廷 1951",
-      "target_id": "V1-ENT-0082",
-      "target_type": "collection"
-    },
-    {
-      "name_zh": "《游戏的终结》",
-      "original_name": "Final del juego",
-      "search_text": "《游戏的终结》 Final del juego 《游戏的终结》 阿根廷 1956",
-      "target_id": "V1-ENT-0083",
-      "target_type": "collection"
-    },
-    {
-      "name_zh": "《另一个天空》",
-      "original_name": "El otro cielo",
-      "search_text": "《另一个天空》 El otro cielo",
-      "target_id": "V1-ENT-0084",
-      "target_type": "work"
-    },
-    {
-      "name_zh": "《口袋里发现的手稿》",
-      "original_name": "Manuscrito hallado en un bolsillo",
-      "search_text": "《口袋里发现的手稿》 Manuscrito hallado en un bolsillo",
-      "target_id": "V1-ENT-0085",
-      "target_type": "work"
-    },
-    {
-      "name_zh": "《水晶天空》",
-      "original_name": "Der gläserne Himmel",
-      "search_text": "《水晶天空》 Der gläserne Himmel",
-      "target_id": "V1-ENT-0086",
-      "target_type": "adaptation"
-    },
-    {
-      "name_zh": "《地下游戏》",
-      "original_name": "Jogo subterraneo",
-      "search_text": "《地下游戏》 Jogo subterraneo",
-      "target_id": "V1-ENT-0087",
-      "target_type": "adaptation"
-    },
-    {
-      "name_zh": "妮娜·格罗塞",
-      "original_name": "Nina Grosse",
-      "search_text": "妮娜·格罗塞 Nina Grosse",
-      "target_id": "V1-ENT-0088",
-      "target_type": "person"
-    },
-    {
-      "name_zh": "罗贝托·热尔维茨",
-      "original_name": "Roberto Gervitz",
-      "search_text": "罗贝托·热尔维茨 Roberto Gervitz",
-      "target_id": "V1-ENT-0089",
-      "target_type": "person"
-    },
-    {
-      "name_zh": "圣地亚哥·纳萨尔",
-      "original_name": "Santiago Nasar",
-      "search_text": "圣地亚哥·纳萨尔 Santiago Nasar",
-      "target_id": "V1-ENT-0090",
-      "target_type": "character"
-    },
-    {
-      "name_zh": "上校（《没有人给他写信的上校》人物）",
-      "original_name": "el coronel",
-      "search_text": "上校（《没有人给他写信的上校》人物） el coronel",
-      "target_id": "V1-ENT-0091",
-      "target_type": "character"
-    },
-    {
-      "name_zh": "奥古斯丁",
-      "original_name": "Agustín",
-      "search_text": "奥古斯丁 Agustín",
-      "target_id": "V1-ENT-0092",
-      "target_type": "character"
-    },
-    {
-      "name_zh": "马康达尔",
-      "original_name": "Mackandal",
-      "search_text": "马康达尔 Mackandal",
-      "target_id": "V1-ENT-0093",
-      "target_type": "character"
-    },
-    {
-      "name_zh": "亨利·克里斯托夫",
-      "original_name": "Henri Christophe",
-      "search_text": "亨利·克里斯托夫 Henri Christophe",
-      "target_id": "V1-ENT-0094",
-      "target_type": "character"
-    },
-    {
       "name_zh": "哥伦比亚",
       "original_name": "Colombia",
+      "public_route": "countries/colombia-v1-ent-0095/",
+      "related_ids": [
+        "V1-ENT-0072"
+      ],
       "search_text": "哥伦比亚 Colombia",
       "target_id": "V1-ENT-0095",
       "target_type": "country"
@@ -27379,6 +27100,10 @@
     {
       "name_zh": "古巴",
       "original_name": "Cuba",
+      "public_route": "countries/cuba-v1-ent-0096/",
+      "related_ids": [
+        "V1-ENT-0074"
+      ],
       "search_text": "古巴 Cuba",
       "target_id": "V1-ENT-0096",
       "target_type": "country"
@@ -27386,6 +27111,11 @@
     {
       "name_zh": "马孔多",
       "original_name": "Macondo",
+      "public_route": "places/macondo-v1-ent-0097/",
+      "related_ids": [
+        "V1-ENT-0072",
+        "V1-ENT-0075"
+      ],
       "search_text": "马孔多 Macondo",
       "target_id": "V1-ENT-0097",
       "target_type": "fictional_space"
@@ -27393,181 +27123,58 @@
     {
       "name_zh": "阿卡塔卡",
       "original_name": "Aracataca",
+      "public_route": "places/aracataca-v1-ent-0098/",
+      "related_ids": [
+        "V1-ENT-0072"
+      ],
       "search_text": "阿卡塔卡 Aracataca",
       "target_id": "V1-ENT-0098",
       "target_type": "place"
     },
     {
-      "name_zh": "魔幻现实主义",
-      "original_name": "realismo mágico",
-      "search_text": "魔幻现实主义 realismo mágico",
-      "target_id": "V1-ENT-0099",
-      "target_type": "movement"
-    },
-    {
-      "name_zh": "美洲神奇现实",
-      "original_name": "lo real maravilloso",
-      "search_text": "美洲神奇现实 lo real maravilloso",
-      "target_id": "V1-ENT-0100",
-      "target_type": "movement"
-    },
-    {
-      "name_zh": "新巴洛克",
-      "original_name": "neobarroco",
-      "search_text": "新巴洛克 neobarroco",
-      "target_id": "V1-ENT-0101",
-      "target_type": "movement"
-    },
-    {
-      "name_zh": "伦理与人性",
-      "original_name": "ética y condición humana",
-      "search_text": "伦理与人性 ética y condición humana",
-      "target_id": "V1-ENT-0102",
-      "target_type": "theme"
-    },
-    {
-      "name_zh": "贫困与政治暴力",
-      "original_name": "miseria y violencia política",
-      "search_text": "贫困与政治暴力 miseria y violencia política",
-      "target_id": "V1-ENT-0103",
-      "target_type": "theme"
-    },
-    {
-      "name_zh": "罪责与真相的悬置",
-      "original_name": "culpa y verdad suspendida",
-      "search_text": "罪责与真相的悬置 culpa y verdad suspendida",
-      "target_id": "V1-ENT-0104",
-      "target_type": "theme"
-    },
-    {
-      "name_zh": "读者参与与反传统叙事",
-      "original_name": "lector activo y narrativa anticanónica",
-      "search_text": "读者参与与反传统叙事 lector activo y narrativa anticanónica",
-      "target_id": "V1-ENT-0105",
-      "target_type": "theme"
-    },
-    {
-      "name_zh": "梦境与现实的模糊",
-      "original_name": "sueño y realidad",
-      "search_text": "梦境与现实的模糊 sueño y realidad",
-      "target_id": "V1-ENT-0106",
-      "target_type": "theme"
-    },
-    {
-      "name_zh": "面具游戏与自我的折叠",
-      "original_name": "juegos de máscaras y dobleces del yo",
-      "search_text": "面具游戏与自我的折叠 juegos de máscaras y dobleces del yo",
-      "target_id": "V1-ENT-0107",
-      "target_type": "theme"
-    },
-    {
-      "name_zh": "跨文化与美洲身份",
-      "original_name": "transculturación e identidad latinoamericana",
-      "search_text": "跨文化与美洲身份 transculturación e identidad latinoamericana",
-      "target_id": "V1-ENT-0108",
-      "target_type": "theme"
-    },
-    {
-      "name_zh": "美洲与西方传统",
-      "original_name": "América y tradición occidental",
-      "search_text": "美洲与西方传统 América y tradición occidental",
-      "target_id": "V1-ENT-0109",
-      "target_type": "theme"
-    },
-    {
-      "name_zh": "艺术、启蒙与现代性批判",
-      "original_name": "arte, Ilustración y crítica de la modernidad",
-      "search_text": "艺术、启蒙与现代性批判 arte, Ilustración y crítica de la modernidad",
-      "target_id": "V1-ENT-0110",
-      "target_type": "theme"
-    },
-    {
-      "name_zh": "城市浪漫与偶然",
-      "original_name": "romance urbano y azar",
-      "search_text": "城市浪漫与偶然 romance urbano y azar",
-      "target_id": "V1-ENT-0111",
-      "target_type": "theme"
-    },
-    {
-      "name_zh": "1982 年诺贝尔文学奖",
-      "original_name": "Premio Nobel de Literatura 1982",
-      "search_text": "1982 年诺贝尔文学奖 Premio Nobel de Literatura 1982",
-      "target_id": "V1-ENT-0112",
-      "target_type": "event"
-    },
-    {
-      "name_zh": "塞万提斯学院",
-      "original_name": "Instituto Cervantes",
-      "search_text": "塞万提斯学院 Instituto Cervantes",
-      "target_id": "V1-ENT-0113",
-      "target_type": "institution"
-    },
-    {
       "name_zh": "马里奥·巴尔加斯·略萨",
       "original_name": "Mario Vargas Llosa",
+      "public_route": "authors/mario-vargas-llosa-v1-ent-0114/",
+      "related_ids": [
+        "V1-ENT-0116",
+        "V1-ENT-0118",
+        "V1-ENT-0124",
+        "V1-ENT-0125",
+        "V1-ENT-0126",
+        "V1-ENT-0129"
+      ],
       "search_text": "马里奥·巴尔加斯·略萨 Mario Vargas Llosa 马里奥·巴尔加斯·略萨 秘鲁 1936-2025",
       "target_id": "V1-ENT-0114",
       "target_type": "author"
     },
     {
-      "name_zh": "巴勃罗·聂鲁达",
-      "original_name": "Pablo Neruda",
-      "search_text": "巴勃罗·聂鲁达 Pablo Neruda 巴勃罗·聂鲁达 智利 1904-1973",
-      "target_id": "V1-ENT-0115",
-      "target_type": "author"
-    },
-    {
       "name_zh": "《城市与狗》",
       "original_name": "La ciudad y los perros",
+      "public_route": "works/la-ciudad-y-los-perros-v1-ent-0116/",
+      "related_ids": [
+        "V1-ENT-0114",
+        "V1-ENT-0125"
+      ],
       "search_text": "《城市与狗》 La ciudad y los perros 《城市与狗》 秘鲁 1963",
       "target_id": "V1-ENT-0116",
       "target_type": "work"
     },
     {
-      "name_zh": "《酒吧长谈》",
-      "original_name": "Conversación en La Catedral",
-      "search_text": "《酒吧长谈》 Conversación en La Catedral 《酒吧长谈》 秘鲁 1969",
-      "target_id": "V1-ENT-0117",
-      "target_type": "work"
-    },
-    {
       "name_zh": "《世界末日之战》",
       "original_name": "La guerra del fin del mundo",
+      "public_route": "works/la-guerra-del-fin-del-mundo-v1-ent-0118/",
+      "related_ids": [
+        "V1-ENT-0114"
+      ],
       "search_text": "《世界末日之战》 La guerra del fin del mundo 《世界末日之战》 秘鲁 1981",
       "target_id": "V1-ENT-0118",
       "target_type": "work"
     },
     {
-      "name_zh": "《二十首情诗和一支绝望的歌》",
-      "original_name": "Veinte poemas de amor y una canción desesperada",
-      "search_text": "《二十首情诗和一支绝望的歌》 Veinte poemas de amor y una canción desesperada 《二十首情诗和一支绝望的歌》 智利 1924",
-      "target_id": "V1-ENT-0119",
-      "target_type": "collection"
-    },
-    {
-      "name_zh": "《大地上的居所》",
-      "original_name": "Residencia en la tierra",
-      "search_text": "《大地上的居所》 Residencia en la tierra 《大地上的居所》 智利 1925-1931",
-      "target_id": "V1-ENT-0120",
-      "target_type": "collection"
-    },
-    {
-      "name_zh": "《漫歌》",
-      "original_name": "Canto general",
-      "search_text": "《漫歌》 Canto general 《漫歌》 智利 1950",
-      "target_id": "V1-ENT-0121",
-      "target_type": "collection"
-    },
-    {
-      "name_zh": "《马丘比丘高地》",
-      "original_name": "Alturas de Macchu Picchu",
-      "search_text": "《马丘比丘高地》 Alturas de Macchu Picchu",
-      "target_id": "V1-ENT-0122",
-      "target_type": "work"
-    },
-    {
       "name_zh": "智利",
       "original_name": "Chile",
+      "public_route": "countries/chile-v1-ent-0123/",
+      "related_ids": [],
       "search_text": "智利 Chile",
       "target_id": "V1-ENT-0123",
       "target_type": "country"
@@ -27575,6 +27182,10 @@
     {
       "name_zh": "秘鲁",
       "original_name": "Perú",
+      "public_route": "countries/peru-v1-ent-0124/",
+      "related_ids": [
+        "V1-ENT-0114"
+      ],
       "search_text": "秘鲁 Perú",
       "target_id": "V1-ENT-0124",
       "target_type": "country"
@@ -27582,6 +27193,11 @@
     {
       "name_zh": "利马",
       "original_name": "Lima",
+      "public_route": "places/lima-v1-ent-0125/",
+      "related_ids": [
+        "V1-ENT-0114",
+        "V1-ENT-0116"
+      ],
       "search_text": "利马 Lima",
       "target_id": "V1-ENT-0125",
       "target_type": "place"
@@ -27589,20 +27205,19 @@
     {
       "name_zh": "阿雷基帕",
       "original_name": "Arequipa",
+      "public_route": "places/arequipa-v1-ent-0126/",
+      "related_ids": [
+        "V1-ENT-0114"
+      ],
       "search_text": "阿雷基帕 Arequipa",
       "target_id": "V1-ENT-0126",
       "target_type": "place"
     },
     {
-      "name_zh": "帕拉尔",
-      "original_name": "Parral",
-      "search_text": "帕拉尔 Parral",
-      "target_id": "V1-ENT-0127",
-      "target_type": "place"
-    },
-    {
       "name_zh": "圣地亚哥",
       "original_name": "Santiago (de Chile)",
+      "public_route": "places/santiago-de-chile-v1-ent-0128/",
+      "related_ids": [],
       "search_text": "圣地亚哥 Santiago (de Chile)",
       "target_id": "V1-ENT-0128",
       "target_type": "place"
@@ -27610,118 +27225,28 @@
     {
       "name_zh": "马德里",
       "original_name": "Madrid",
+      "public_route": "places/madrid-v1-ent-0129/",
+      "related_ids": [
+        "V1-ENT-0114"
+      ],
       "search_text": "马德里 Madrid",
       "target_id": "V1-ENT-0129",
       "target_type": "place"
     },
     {
-      "name_zh": "文学爆炸",
-      "original_name": "boom latinoamericano",
-      "search_text": "文学爆炸 boom latinoamericano",
-      "target_id": "V1-ENT-0130",
-      "target_type": "movement"
-    },
-    {
-      "name_zh": "现代主义",
-      "original_name": "modernismo",
-      "search_text": "现代主义 modernismo",
-      "target_id": "V1-ENT-0131",
-      "target_type": "movement"
-    },
-    {
-      "name_zh": "先锋派",
-      "original_name": "vanguardismo",
-      "search_text": "先锋派 vanguardismo",
-      "target_id": "V1-ENT-0132",
-      "target_type": "movement"
-    },
-    {
-      "name_zh": "利马的困闭与逃避",
-      "original_name": "encierro y evasión (Lima)",
-      "search_text": "利马的困闭与逃避 encierro y evasión (Lima)",
-      "target_id": "V1-ENT-0133",
-      "target_type": "theme"
-    },
-    {
-      "name_zh": "知识分子的失败与公众角色",
-      "original_name": "fracaso de los intelectuales",
-      "search_text": "知识分子的失败与公众角色 fracaso de los intelectuales",
-      "target_id": "V1-ENT-0134",
-      "target_type": "theme"
-    },
-    {
-      "name_zh": "殖民视角与去殖民思想",
-      "original_name": "mirada colonial y pensamiento descolonial",
-      "search_text": "殖民视角与去殖民思想 mirada colonial y pensamiento descolonial",
-      "target_id": "V1-ENT-0135",
-      "target_type": "theme"
-    },
-    {
-      "name_zh": "爱情体验",
-      "original_name": "experiencia del amor",
-      "search_text": "爱情体验 experiencia del amor",
-      "target_id": "V1-ENT-0136",
-      "target_type": "theme"
-    },
-    {
       "name_zh": "大陆命运与美洲史诗",
       "original_name": "destino del continente (epopeya americana)",
+      "public_route": "explore/destino-del-continente-epopeya-americana-v1-ent-0137/",
+      "related_ids": [],
       "search_text": "大陆命运与美洲史诗 destino del continente (epopeya americana)",
       "target_id": "V1-ENT-0137",
       "target_type": "theme"
     },
     {
-      "name_zh": "政治与社会承诺",
-      "original_name": "compromiso político y social",
-      "search_text": "政治与社会承诺 compromiso político y social",
-      "target_id": "V1-ENT-0138",
-      "target_type": "theme"
-    },
-    {
-      "name_zh": "卡努杜斯战争",
-      "original_name": "Guerra de Canudos",
-      "search_text": "卡努杜斯战争 Guerra de Canudos",
-      "target_id": "V1-ENT-0139",
-      "target_type": "event"
-    },
-    {
-      "name_zh": "1973 年智利政变",
-      "original_name": "derrocamiento de Salvador Allende (11 de septiembre de 1973)",
-      "search_text": "1973 年智利政变 derrocamiento de Salvador Allende (11 de septiembre de 1973)",
-      "target_id": "V1-ENT-0140",
-      "target_type": "event"
-    },
-    {
-      "name_zh": "劝世者",
-      "original_name": "el Consejero",
-      "search_text": "劝世者 el Consejero",
-      "target_id": "V1-ENT-0141",
-      "target_type": "character"
-    },
-    {
-      "name_zh": "玛丽亚·安东涅塔·阿吉雷",
-      "original_name": "María Antonieta Aguirre",
-      "search_text": "玛丽亚·安东涅塔·阿吉雷 María Antonieta Aguirre",
-      "target_id": "V1-ENT-0142",
-      "target_type": "person"
-    },
-    {
-      "name_zh": "德莉亚·德尔·卡里尔",
-      "original_name": "Delia del Carril",
-      "search_text": "德莉亚·德尔·卡里尔 Delia del Carril",
-      "target_id": "V1-ENT-0143",
-      "target_type": "person"
-    },
-    {
-      "name_zh": "智利共产党",
-      "original_name": "Partido Comunista de Chile",
-      "search_text": "智利共产党 Partido Comunista de Chile",
-      "target_id": "V1-ENT-0144",
-      "target_type": "institution"
-    },
-    {
       "name_zh": "巴西",
       "original_name": "Brazil",
+      "public_route": "countries/brazil-v2-geo-br/",
+      "related_ids": [],
       "search_text": "巴西 Brazil",
       "target_id": "V2-GEO-BR",
       "target_type": "country"

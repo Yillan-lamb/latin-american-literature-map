@@ -15,7 +15,8 @@ TERMS = (
     r"user_review", r"candidate_for_staging_review", r"card_period_only",
     r"source_minimum_status", r"review_status", r"admission_status", r"map_status",
     r"entity_type", r"place_kind", r"\bschema\b", r"SQLite", r"Web Data",
-    r"release candidate", r"完整测试站", r"测试站", r"当前样本",
+    r"release candidate", r"完整测试站", r"测试站", r"当前样本", r"Codex",
+    r"REVIEW\s*[\d.]", r"待审核", r"未经审核", r"用户审核", r"候选包",
 )
 PATTERN = re.compile("|".join(TERMS), re.IGNORECASE)
 

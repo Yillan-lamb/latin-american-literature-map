@@ -2,7 +2,14 @@
 
 本文件记录拉丁美洲文学地图各版本的实际修改。格式参考 Keep a Changelog，版本号遵循语义化版本规则。
 
-## [Unreleased] - 2026-08-12
+## [Unreleased] - 2026-08-13
+
+- 执行 `V2-N4-R03` 独立终审发布阻断返修，形成 `V2.0.0-rc.4`：`V2-N4` 仍为 `USER_REVIEW`，`release_state` 仍为 `pending_v2_n4`。
+- 修复策展发布门禁：5 条阅读路径、5 个时期、17 组 why-read 和 10 条 next-read 全部保留原 `user_review` 状态并退出 public bundle；validator、deploy builder、public bundle scan 和 CI 均 fail-closed。
+- 公开范围收紧为 7 位完整作者、14 部完整作品、19 个地点/国家/文学空间和 2 个正式主题节点；研究不足的节点保留于研究数据但不进入搜索与 sitemap。
+- 搜索新增可复用的一层正式关系扩展；“马孔多”同时发现马孔多、《百年孤独》和马尔克斯。公开 URL 改为原文 slug + 稳定实体 ID，canonical、`og:url` 和 sitemap 使用同一规则。
+- 发布证明改为与最终 PR head 完整 SHA 绑定的脱离式 Manifest；验证干净 Git 范围、工作树字节和同一个最终 dist，篡改回归已证实拒绝修改后的部署目录。
+- 锁定 Playwright 1.62.1、Lighthouse 13.4.1 和完整 npm 依赖；本地 Chromium desktop/mobile、Firefox、WebKit 为 28/28，并逐条渲染全部 46 条 sitemap 路由；Lighthouse 首页为 92/100/100/100、作品页为 93/100/100/100，原始 JSON/HTML 与失败工件链已建立。
 
 - 完成 `V2-N4-R02` 产品一致性差量返修，形成 `V2.0.0-rc.3` 候选；Research / Geo / Curation / Web Data 既有架构与已审核事实保持不变。
 - 公共网站统一为“拉丁美洲文学地图”，移除版本、阶段、内部字段、审核状态、统计和测试站语言；新增独立 Presentation Layer，并在部署包中物理剥离内部状态字段。

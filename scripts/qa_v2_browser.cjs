@@ -6,10 +6,10 @@ const outputPath = process.argv[3];
 const forbidden = /\bV1\b|\bV2\b|\bN[1-4]\b|research_gap|auto_approved|user_review|candidate_for_staging_review|card_period_only|source_minimum_status|review_status|admission_status|map_status|entity_type|place_kind|\bschema\b|SQLite|Web Data|release candidate|完整测试站|测试站|当前样本/i;
 const journeys = [
   ["home", "", "拉丁美洲文学地图"],
-  ["country", "countries/mexico/", "墨西哥"],
-  ["fictional-space", "places/comala/", "文学虚构空间"],
-  ["author", "authors/juan-rulfo/", "读什么"],
-  ["work", "works/pedro-paramo/", "为什么值得读"],
+  ["country", "countries/mexico-v1-ent-0051/", "墨西哥"],
+  ["fictional-space", "places/comala-v1-ent-0055/", "文学虚构空间"],
+  ["author", "authors/juan-rulfo-v1-ent-0031/", "读什么"],
+  ["work", "works/pedro-paramo-v1-ent-0038/", "为什么值得读"],
   ["search", "search/?q=马孔多", "马孔多"],
   ["timeline", "timeline/", "文学时间线"],
   ["about", "about/", "这个项目是什么"],

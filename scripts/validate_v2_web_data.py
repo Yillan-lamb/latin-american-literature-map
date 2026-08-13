@@ -35,7 +35,7 @@ def main() -> int:
     payload = json.loads(args.path.read_text(encoding="utf-8"))
     if payload.get("schema_version") != "v2-web-0.2":
         fail("unexpected Web Data schema_version")
-    for key in ("research", "curation", "review_queue", "presentation", "pages", "map", "qa", "search_index", "timeline"):
+    for key in ("research", "curation", "review_queue", "presentation", "presentation_review_queue", "public_scope", "pages", "map", "qa", "search_index", "timeline"):
         if key not in payload:
             fail(f"missing top-level key: {key}")
 
@@ -80,13 +80,21 @@ def main() -> int:
     presentation = payload["presentation"]
     if presentation.get("schema_version") != "v2-public-presentation-0.1":
         fail("unexpected public presentation schema")
+    presentation_groups = ("reading_paths", "timeline_periods", "why_read", "next_reads")
+    for group in presentation_groups:
+        if any(item.get("review_status") != "auto_approved" for item in presentation.get(group, [])):
+            fail(f"public presentation contains a non-approved {group} item")
+        if any(item.get("review_status") == "auto_approved" for item in payload["presentation_review_queue"].get(group, [])):
+            fail(f"approved presentation item incorrectly remains in review queue: {group}")
+        public_ids = {item.get("id") for item in presentation.get(group, [])}
+        queue_ids = {item.get("id") for item in payload["presentation_review_queue"].get(group, [])}
+        if None in public_ids or None in queue_ids or public_ids & queue_ids:
+            fail(f"invalid presentation partition: {group}")
     for path in presentation.get("reading_paths", []):
-        if path.get("review_status") != "user_review":
-            fail(f"new reading path bypasses user review: {path.get('id')}")
         if not path.get("target_ids") or any(target_id not in valid_ids for target_id in path["target_ids"]):
             fail(f"invalid public reading path: {path.get('id')}")
     for period in presentation.get("timeline_periods", []):
-        if period.get("review_status") != "user_review" or period.get("start") > period.get("end"):
+        if period.get("start") > period.get("end"):
             fail(f"invalid timeline period: {period.get('id')}")
 
     for group, count_key in (("entries", "curation_entries"), ("selections", "curation_selections"), ("recommendations", "curation_recommendations")):
@@ -101,17 +109,24 @@ def main() -> int:
         if not override.get("basis_note"):
             fail(f"map status override lacks basis: {override.get('curation_id')}")
 
+    public_scope_ids = set().union(*(set(values) for values in payload["public_scope"].values()))
     search_ids = {item["target_id"] for item in payload["search_index"]}
     if len(search_ids) != len(payload["search_index"]):
         fail("duplicate search index target")
-    if not entity_ids.issubset(search_ids):
-        fail("search index does not cover all research entities")
+    if search_ids != public_scope_ids:
+        fail("search index does not exactly match public page scope")
     for item in payload["search_index"]:
         if item["target_id"] not in valid_ids:
             fail(f"dangling search target: {item['target_id']}")
     hidden_technical_ids = {item["place_id"] for item in payload["map"]["places"] if item["source_kind"] == "technical_parent_node" and item["map_status"] == "hidden"}
     if hidden_technical_ids & search_ids:
         fail("hidden technical node exposed through search")
+    for item in payload["search_index"]:
+        if any(target_id not in public_scope_ids for target_id in item.get("related_ids", [])):
+            fail(f"search relation expansion exposes a non-public target: {item['target_id']}")
+    routes = [item.get("public_route") for item in payload["search_index"]]
+    if any(not route for route in routes) or len(routes) != len(set(routes)):
+        fail("public routes are missing or not unique")
 
     for item in payload["timeline"]:
         if item["entity"]["entity_id"] not in entity_ids:

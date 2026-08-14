@@ -11,10 +11,16 @@ permissions:
 jobs:
   release-integrity:
     runs-on: ubuntu-latest
+    env:
+      CANDIDATE_SHA: ${{ github.event_name == 'pull_request' && github.event.pull_request.head.sha || github.sha }}
+      CANDIDATE_ARTIFACT: v2-rc5-candidate-${{ github.event_name == 'pull_request' && github.event.pull_request.head.sha || github.sha }}
     steps:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
+          ref: ${{ github.event_name == 'pull_request' && github.event.pull_request.head.sha || github.sha }}
+      - name: Assert exact candidate checkout
+        run: test "$(git rev-parse HEAD)" = "$CANDIDATE_SHA"
       - uses: actions/setup-python@v5
         with:
           python-version: "3.13"
@@ -30,6 +36,7 @@ jobs:
         run: python3 scripts/validate_master.py data/master/V1_MASTER.sqlite
       - name: Rebuild and validate Web Data
         run: |
+          python3 scripts/validate_v2_content_quality.py
           python3 scripts/build_v2_web_data.py --generated-at 2026-08-13T00:00:00Z
           python3 scripts/validate_v2_web_data.py
       - name: Check frontend syntax and whitespace
@@ -49,13 +56,14 @@ jobs:
           npm run qa:browser:chromium
       - name: Materialize and verify exact candidate manifest
         run: |
-          python3 scripts/build_v2_release_manifest.py --output /tmp/V2.0.0-rc.4.manifest.json --bundle dist --candidate-commit-sha "$GITHUB_SHA"
-          python3 scripts/build_v2_release_manifest.py --verify --output /tmp/V2.0.0-rc.4.manifest.json --bundle dist --require-release-state pending_v2_n4
+          python3 scripts/build_v2_release_manifest.py --output /tmp/V2.0.0-rc.5.manifest.json --bundle dist --candidate-commit-sha "$CANDIDATE_SHA"
+          python3 scripts/build_v2_release_manifest.py --verify --output /tmp/V2.0.0-rc.5.manifest.json --bundle dist --require-release-state pending_v2_n4
+          python3 scripts/assert_v2_candidate_identity.py --candidate-sha "$CANDIDATE_SHA" --manifest /tmp/V2.0.0-rc.5.manifest.json --artifact-name "$CANDIDATE_ARTIFACT"
       - name: Prove tampering is rejected
         run: |
           cp -R dist /tmp/v2-tampered-dist
           printf '\n' >> /tmp/v2-tampered-dist/data/v2/web/site_data.json
-          if python3 scripts/build_v2_release_manifest.py --verify --output /tmp/V2.0.0-rc.4.manifest.json --bundle /tmp/v2-tampered-dist; then
+          if python3 scripts/build_v2_release_manifest.py --verify --output /tmp/V2.0.0-rc.5.manifest.json --bundle /tmp/v2-tampered-dist; then
             echo "Tampered bundle was incorrectly accepted."
             exit 1
           fi
@@ -63,11 +71,11 @@ jobs:
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: v2-rc4-candidate-${{ github.sha }}
+          name: ${{ env.CANDIDATE_ARTIFACT }}
           if-no-files-found: error
           path: |
-            /tmp/V2.0.0-rc.4.manifest.json
-            artifacts/v2-rc4/browser/
+            /tmp/V2.0.0-rc.5.manifest.json
+            artifacts/v2-rc5/browser/
             dist/
 
   rc-browser-matrix:
@@ -98,6 +106,6 @@ jobs:
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: v2-rc4-browser-matrix-${{ github.sha }}
+          name: v2-rc5-browser-matrix-${{ github.sha }}
           if-no-files-found: error
-          path: artifacts/v2-rc4/
+          path: artifacts/v2-rc5/

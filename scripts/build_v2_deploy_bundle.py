@@ -57,6 +57,15 @@ def clean_public_data(source: Path) -> dict[str, object]:
     entries = [take(item, ("target_id", "field_key", "content_zh", "source_refs")) for item in payload["curation"]["entries"]]
     selections = [take(item, ("target_id", "selection_key", "selection_value", "sort_order")) for item in payload["curation"]["selections"] if item.get("selection_key") in {"featured_author", "featured_work"}]
     recommendations = [take(item, ("from_target_id", "to_target_id", "recommendation_kind", "recommendation_reason", "sort_order")) for item in payload["curation"]["recommendations"]]
+    public_content = {}
+    for group in ("authors", "works", "places"):
+        public_content[group] = []
+        for record in payload["public_content"][group]:
+            compact = {"target_id": record["target_id"]}
+            for key, value in record.items():
+                if key != "target_id":
+                    compact[key] = value.get("content")
+            public_content[group].append(compact)
     timeline = [
         {
             "node_type": item["node_type"],
@@ -73,6 +82,7 @@ def clean_public_data(source: Path) -> dict[str, object]:
     return {
         "research": {"entities": entities, "content_cards": cards, "facts": facts, "relationships": relationships, "sources": sources},
         "curation": {"entries": entries, "selections": selections, "recommendations": recommendations},
+        "public_content": public_content,
         "presentation": presentation,
         "map": {"places": places, "relations": map_relations},
         "search_index": payload["search_index"],

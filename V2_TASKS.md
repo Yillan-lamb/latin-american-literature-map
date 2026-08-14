@@ -408,9 +408,19 @@
 - **产物**：`docs/V2_RC4_REMEDIATION_REPORT.md`、`docs/V2_RC4_CURATION_USER_REVIEW.md`、`docs/V2_RC4_BROWSER_PERFORMANCE_QA.md`、`docs/V2_RC4_RELEASE_INTEGRITY_QA.md`、`artifacts/v2-rc4/`。
 - **状态**：`✅ DONE`（返修任务完成；`V2-N4` 仍为 `👤 USER_REVIEW`，不代表发布批准）
 
+### 🔵 V2-N4-R04：V2.0.0-rc.5 内容深化与视觉返修
+
+- **性质**：针对 rc.4 公开范围过度收缩、内容模板化、核心策展缺位、纸张质感不足及 PR CI 候选身份漂移的发布阻断返修。
+- **目标**：保持 Research / Curation / Web Data 三层架构和 SQLite 单一事实源，以可追溯变更集深化 10 位核心作家、17 部核心作品和现有地点内容，形成 `V2.0.0-rc.5` 候选。
+- **范围**：研究与来源补强、Curation Schema 加法兼容升级、公众内容页与首页/时间线深化、纸张视觉系统、内容质量门禁、候选身份一致性、跨浏览器与性能 QA。
+- **强制产物**：`docs/V2_RC5_CONTENT_RESEARCH_REPORT.md`、`docs/V2_RC5_CURATION_USER_REVIEW.md`、`docs/V2_RC5_VISUAL_DESIGN_QA.md`、`docs/V2_RC5_PRODUCT_AUDIT.md`、`docs/V2_RC5_BROWSER_PERFORMANCE_QA.md`、`docs/V2_RC5_RELEASE_INTEGRITY_QA.md`、`artifacts/v2-rc5/`。
+- **研究边界**：新增事实与来源必须经过候选变更集、独立 Reviewer、版本化 SQLite 迁移及全量导出；策展内容不得伪装成研究关系，未经批准的 `user_review` 不进入 public bundle。
+- **发布边界**：允许提交、推送并更新 PR #4；禁止 merge、tag、GitHub Release、正式 Pages 部署及将 V2-N4 标为通过。
+- **状态**：`🔵 IN_PROGRESS`
+
 ## 当前执行边界
 
-- 当前推进到阶段 8；`V2-N4-R03` 已完成，用户节点继续保持 `V2-N4 = 👤 USER_REVIEW`。
+- 当前推进到阶段 8；`V2-N4-R04` 正在执行，用户节点继续保持 `V2-N4 = 👤 USER_REVIEW`。
 - 在 N4 通过前，不创建 V2.0.0 tag、不推送发布分支、不执行 Pages 部署、不发布正式公开 URL。
 - 不提前开发复杂知识图谱、3D 地图、用户系统、AI 问答、CMS、小程序、多语言或个性化推荐。
 - 不在前端硬编码研究事实，不用策展写作补造研究事实，不为虚构空间伪造现实坐标。

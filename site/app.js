@@ -51,6 +51,7 @@ function hrefFor(type, id) {
 
 const displayName = (id) => entity(id)?.name_zh || place(id)?.name_zh || "未命名条目";
 const curationFor = (id, key) => (data.curation.entries || []).find((item) => item.target_id === id && item.field_key === key);
+const contentFor = (group, id) => (data.public_content?.[group] || []).find((item) => item.target_id === id) || {};
 const publicText = (value) => String(value || "")
   .replace(/V1\s*已审核(?:的)?/g, "已核验的")
   .replace(/V1\s*关系/g, "已核验关系")
@@ -103,13 +104,13 @@ function cardMarkup(item, { id, type, title, description, meta, kind = "" }) {
 
 function authorCard(item) {
   const card = cardFor(item.entity_id);
-  const lede = publicText(curationFor(item.entity_id, "page_lede")?.content_zh) || cardSummary(item.entity_id);
+  const lede = contentFor("authors", item.entity_id).reader_lede || publicText(curationFor(item.entity_id, "page_lede")?.content_zh) || cardSummary(item.entity_id);
   return cardMarkup(item, { id: item.entity_id, type: "author", title: item.name_zh, description: lede, meta: card?.country_or_region || "作家" });
 }
 
 function workCard(item) {
   const card = cardFor(item.entity_id);
-  return cardMarkup(item, { id: item.entity_id, type: "work", title: item.name_zh, description: publicText(curationFor(item.entity_id, "one_line_summary")?.content_zh) || cardSummary(item.entity_id), meta: [card?.genre_or_form, fact(item.entity_id, "first_publication_year", "publication_year")?.value_text].filter(Boolean).join(" · ") || "作品" });
+  return cardMarkup(item, { id: item.entity_id, type: "work", title: item.name_zh, description: contentFor("works", item.entity_id).reading_premise || publicText(curationFor(item.entity_id, "one_line_summary")?.content_zh) || cardSummary(item.entity_id), meta: [card?.genre_or_form, fact(item.entity_id, "first_publication_year", "publication_year")?.value_text].filter(Boolean).join(" · ") || "作品" });
 }
 
 function project([longitude, latitude]) {
@@ -199,7 +200,7 @@ function renderCountry(id) {
 
 function placeCard(item) {
   const fictional = item.reality_status === "fictional";
-  const note = publicText(curationFor(item.place_id, fictional ? "fictional_space_note" : "literary_place_note")?.content_zh) || (fictional ? "一处由作品创造的文学空间。" : "一处可以从文学关系继续探索的现实地点。");
+  const note = contentFor("places", item.place_id).literary_intro || publicText(curationFor(item.place_id, fictional ? "fictional_space_note" : "literary_place_note")?.content_zh) || (fictional ? "一处由作品创造的文学空间。" : "一处可以从文学关系继续探索的现实地点。");
   return cardMarkup(item, { id: item.place_id, type: fictional ? "fictional_space" : "place", title: item.name_zh, description: note, meta: fictional ? "文学虚构空间" : "现实地点", kind: fictional ? "fictional" : "place" });
 }
 
@@ -211,10 +212,11 @@ function renderPlace(id) {
   const mapRelations = data.map.relations.filter((relation) => relation.target_place_id === id);
   const authors = mapRelations.filter((relation) => entity(relation.source_entity_id)?.entity_type === "author" && isPublic(relation.source_entity_id));
   const works = mapRelations.filter((relation) => entity(relation.source_entity_id)?.entity_type === "work" && isPublic(relation.source_entity_id));
-  const text = publicText(entry?.content_zh) || (fictional ? "这是一处由文学作品创造的空间。" : "这个地点因作家生平或作品故事而进入文学地图。");
+  const copy = contentFor("places", id);
+  const text = copy.literary_intro || publicText(entry?.content_zh) || (fictional ? "这是一处由文学作品创造的空间。" : "这个地点因作家生平或作品故事而进入文学地图。");
   const sourceIds = [...(entry?.source_refs || []), ...mapRelations.flatMap((item) => item.source_refs || [])];
   setMeta(item.name_zh, text, routePath(fictional ? "fictional_space" : "place", id));
-  app.innerHTML = `<section class="page-header ${fictional ? "fictional-header" : ""}"><p class="eyebrow">${fictional ? "文学虚构空间" : "文学地点"}</p><h1 class="display-title">${escapeHtml(item.name_zh)}</h1><div class="page-header-meta"><span class="tag ${fictional ? "blue" : "green"}">${fictional ? "由作品创造的空间" : "现实地点"}</span>${item.original_name ? `<span class="tag">${escapeHtml(item.original_name)}</span>` : ""}</div><p class="lede">${escapeHtml(text)}</p></section><section class="content-grid"><div class="content-copy"><h2>${fictional ? "它出现在哪里" : "这里为什么与文学有关"}</h2><div class="linked-list">${[...works, ...authors].map((relation) => { const source = entity(relation.source_entity_id); return `<a href="${hrefFor(routeTypeFor(source.entity_id), source.entity_id)}"><strong>${escapeHtml(source.name_zh)}</strong><span>${escapeHtml(relation.description_zh || relationLabel(relation.relation_type))}</span></a>`; }).join("") || "<p>相关文学资料仍在补充。</p>"}</div>${item.entity_id ? researchPanel(item.entity_id, sourceIds) : sourceList(sourceIds)}</div><aside class="side-rail"><div class="info-box"><h3>继续探索</h3>${works.map((relation) => `<a class="text-link block" href="${hrefFor("work", relation.source_entity_id)}">${escapeHtml(displayName(relation.source_entity_id))} →</a>`).join("")}${authors.map((relation) => `<a class="text-link block" href="${hrefFor("author", relation.source_entity_id)}">${escapeHtml(displayName(relation.source_entity_id))} →</a>`).join("")}</div>${fictional ? `<div class="info-box"><h3>空间说明</h3><p>文学虚构空间不使用现实坐标。地图将它作为独立的文学入口呈现。</p></div>` : ""}</aside></section>`;
+  app.innerHTML = `<section class="page-header ${fictional ? "fictional-header" : ""}"><p class="eyebrow">${fictional ? "文学虚构空间" : "文学地点"}</p><h1 class="display-title">${escapeHtml(item.name_zh)}</h1><div class="page-header-meta"><span class="tag ${fictional ? "blue" : "green"}">${fictional ? "由作品创造的空间" : "现实地点"}</span>${item.original_name ? `<span class="tag">${escapeHtml(item.original_name)}</span>` : ""}</div><p class="lede">${escapeHtml(text)}</p></section><section class="content-grid"><div class="content-copy">${copy.spatial_meaning ? `<h2>这里为什么值得注意</h2><p>${escapeHtml(copy.spatial_meaning)}</p>` : ""}<h2>${fictional ? "它出现在哪里" : "这里为什么与文学有关"}</h2><div class="linked-list">${[...works, ...authors].map((relation) => { const source = entity(relation.source_entity_id); return `<a href="${hrefFor(routeTypeFor(source.entity_id), source.entity_id)}"><strong>${escapeHtml(source.name_zh)}</strong><span>${escapeHtml(relation.description_zh || relationLabel(relation.relation_type))}</span></a>`; }).join("") || "<p>相关文学资料仍在补充。</p>"}</div>${item.entity_id ? researchPanel(item.entity_id, sourceIds) : sourceList(sourceIds)}</div><aside class="side-rail"><div class="info-box"><h3>继续探索</h3>${works.map((relation) => `<a class="text-link block" href="${hrefFor("work", relation.source_entity_id)}">${escapeHtml(displayName(relation.source_entity_id))} →</a>`).join("")}${authors.map((relation) => `<a class="text-link block" href="${hrefFor("author", relation.source_entity_id)}">${escapeHtml(displayName(relation.source_entity_id))} →</a>`).join("")}</div>${fictional ? `<div class="info-box"><h3>空间说明</h3><p>文学虚构空间不使用现实坐标。地图将它作为独立的文学入口呈现。</p></div>` : ""}</aside></section>`;
 }
 
 function relationCards(items) {
@@ -230,23 +232,23 @@ function renderAuthor(id) {
   const item = entity(id);
   const card = cardFor(id);
   if (!item || item.entity_type !== "author" || !isPublic(id)) return renderNotFound();
+  const copy = contentFor("authors", id);
   const allRelations = relationsFor(id);
-  const works = allRelations.filter((relation) => relation.subject_id === id && relation.relation_type === "CREATED").map((relation) => entity(relation.object_id)).filter((work) => work && isPublic(work.entity_id)).sort((first, second) => Number(fact(first.entity_id, "first_publication_year", "publication_year")?.value_text || 9999) - Number(fact(second.entity_id, "first_publication_year", "publication_year")?.value_text || 9999));
+  const allWorks = allRelations.filter((relation) => relation.subject_id === id && relation.relation_type === "CREATED").map((relation) => entity(relation.object_id)).filter(Boolean).sort((first, second) => Number(fact(first.entity_id, "first_publication_year", "publication_year")?.value_text || 9999) - Number(fact(second.entity_id, "first_publication_year", "publication_year")?.value_text || 9999));
+  const works = allWorks.filter((work) => isPublic(work.entity_id));
   const places = allRelations.filter((relation) => relation.subject_id === id && relation.relation_type === "ASSOCIATED_WITH_PLACE").map((relation) => place(relation.object_id)).filter((mapped) => mapped && isPublic(mapped.place_id));
-  const themes = [...new Map(works.flatMap((work) => relationsFor(work.entity_id).filter((relation) => relation.subject_id === work.entity_id && relation.relation_type === "EXPLORES_THEME").map((relation) => entity(relation.object_id))).filter(Boolean).map((theme) => [theme.entity_id, theme])).values()].slice(0, 4);
-  const movements = allRelations.map((relation) => entity(relation.subject_id === id ? relation.object_id : relation.subject_id)).filter((other) => other?.entity_type === "movement").slice(0, 3);
   const birth = fact(id, "birth_year")?.value_text;
   const death = fact(id, "death_year")?.value_text;
-  const lede = publicText(curationFor(id, "page_lede")?.content_zh) || cardSummary(id);
-  const whyKnow = `可以从${places.length ? `${places.map((mapped) => mapped.name_zh).slice(0, 2).join("、")}的文学地理，` : ""}${works.map((work) => work.name_zh).slice(0, 2).join("与")}进入这位作家的创作；本页只采用已有事实与文学关系组织这些入口。`;
-  const writingTopics = [...themes.map((theme) => ({ title: theme.name_zh, text: `正式关系显示，相关作品与“${theme.name_zh}”直接相连。`, id: theme.entity_id })), ...works.map((work) => ({ title: work.name_zh, text: publicText(fact(work.entity_id, "research_note")?.value_text) || cardSummary(work.entity_id), id: work.entity_id }))].filter((topic) => topic.text).slice(0, 4);
-  const keywords = [...themes.map((theme) => theme.name_zh), ...works.map((work) => fact(work.entity_id, "genre_or_form")?.value_text).filter(Boolean).map((value) => value.replace(/（.*?）/g, "")), ...movements.map((movement) => movement.name_zh)].filter(Boolean).slice(0, 4);
+  const lede = copy.reader_lede || publicText(curationFor(id, "page_lede")?.content_zh) || cardSummary(id);
+  const keywords = (copy.literary_features || []).map((feature) => feature.title).slice(0, 4);
+  const bibliographicWorks = allWorks.filter((work) => !isPublic(work.entity_id)).slice(0, Math.max(0, 3 - works.length));
   setMeta(item.name_zh, lede, routePath("author", id));
   app.innerHTML = `<section class="page-header"><p class="eyebrow">作家</p><h1 class="display-title">${escapeHtml(item.name_zh)}</h1><div class="page-header-meta"><span class="tag coral">${escapeHtml(item.original_name || "")}</span>${card?.country_or_region ? `<span class="tag">${escapeHtml(card.country_or_region)}</span>` : ""}${birth ? `<span class="tag">${birth}${death ? `—${death}` : "—"}</span>` : ""}</div><div class="keyword-row">${keywords.map((keyword) => `<span>${escapeHtml(keyword)}</span>`).join("")}</div><p class="lede">${escapeHtml(lede)}</p></section>
-  <section class="section"><div class="section-heading"><h2>为什么值得认识</h2></div><p class="lede compact">${escapeHtml(whyKnow)}</p></section>
+  ${copy.why_know ? `<section class="section"><div class="section-heading"><h2>为什么值得认识</h2></div><p class="lede compact">${escapeHtml(copy.why_know)}</p></section>` : ""}
   <section class="section"><div class="section-heading"><h2>从哪里认识他 / 她</h2><p>与生平和创作有可靠资料关联的地点。</p></div><div class="card-grid">${places.map(placeCard).join("") || "<p>地点资料仍在补充。</p>"}</div></section>
-  <section class="section"><div class="section-heading"><h2>读什么</h2><p>从已有完整导读的作品开始，并按首次发表时间排列，以便观察创作顺序；这不是文学价值排名。</p></div><div class="card-grid">${works.map(workCard).join("") || "<p>作品资料仍在补充。</p>"}</div></section>
-  <section class="section themes-section"><div class="section-heading"><h2>他 / 她在写什么</h2><p>以下线索只复述正式主题关系或已有研究资料。</p></div>${writingTopics.length ? `<div class="theme-grid">${writingTopics.map((topic) => `<a href="${hrefFor(routeTypeFor(topic.id), topic.id)}"><h3>${escapeHtml(topic.title)}</h3><p>${escapeHtml(topic.text)}</p></a>`).join("")}</div>` : `<p>现有资料尚不足以可靠概括核心主题；页面不以标签堆砌代替解释。</p>`}</section>
+  <section class="section"><div class="section-heading"><h2>读什么</h2><p>优先展示已有完整导读的作品；其他书目只作创作脉络提示。</p></div><div class="card-grid">${works.map(workCard).join("")}${bibliographicWorks.map((work) => `<article class="card bibliography-card"><div><div class="card-meta"><span>代表作品</span><span>${escapeHtml(fact(work.entity_id, "first_publication_year", "publication_year")?.value_text || "")}</span></div><h3>${escapeHtml(work.name_zh)}</h3><p>${escapeHtml(work.original_name || "")}</p></div></article>`).join("")}</div></section>
+  <section class="section"><div class="section-heading"><h2>写作的辨识度</h2><p>从来源可支撑的叙事与语言特征进入。</p></div><div class="feature-grid">${(copy.literary_features || []).map((feature) => `<article><h3>${escapeHtml(feature.title)}</h3><p>${escapeHtml(feature.text)}</p></article>`).join("")}</div></section>
+  ${copy.core_themes ? `<section class="section themes-section"><div class="section-heading"><h2>他 / 她在写什么</h2><p>经过编辑审核的核心主题与解释。</p></div><div class="theme-grid">${copy.core_themes.map((topic) => `<article><h3>${escapeHtml(topic.title)}</h3><p>${escapeHtml(topic.text)}</p></article>`).join("")}</div></section>` : ""}
   <section class="section"><div class="section-heading"><h2>文学关系</h2><p>从正式作品与地点关系继续，不展示原始关系图。</p></div><div class="linked-list">${works.slice(0, 3).map((work) => `<a class="linked-item" href="${hrefFor("work", work.entity_id)}"><strong>${escapeHtml(work.name_zh)}</strong><span>由${escapeHtml(item.name_zh)}创作</span></a>`).join("")}${places.slice(0, 3).map((mapped) => `<a class="linked-item" href="${hrefFor(routeTypeFor(mapped.place_id), mapped.place_id)}"><strong>${escapeHtml(mapped.name_zh)}</strong><span>与生平或创作有关的地点</span></a>`).join("")}</div>${researchPanel(id, curationFor(id, "page_lede")?.source_refs)}</section>`;
 }
 
@@ -254,39 +256,31 @@ function renderWork(id) {
   const item = entity(id);
   const card = cardFor(id);
   if (!item || item.entity_type !== "work" || !isPublic(id)) return renderNotFound();
+  const copy = contentFor("works", id);
   const allRelations = relationsFor(id);
   const authors = allRelations.filter((relation) => relation.object_id === id && relation.relation_type === "CREATED").map((relation) => entity(relation.subject_id)).filter(Boolean);
   const locations = allRelations.filter((relation) => relation.subject_id === id && relation.relation_type === "SET_IN").map((relation) => place(relation.object_id)).filter((mapped) => mapped && mapped.map_status !== "hidden" && mapped.reality_status !== "unknown");
-  const themes = allRelations.filter((relation) => relation.subject_id === id && relation.relation_type === "EXPLORES_THEME").map((relation) => entity(relation.object_id)).filter(Boolean).slice(0, 5);
   const connections = allRelations.filter((relation) => !["CREATED", "SET_IN", "EXPLORES_THEME"].includes(relation.relation_type)).map((relation) => ({...relation, _focus:id}));
-  const summary = publicText(curationFor(id, "one_line_summary")?.content_zh) || cardSummary(id);
-  const rawIntroduction = cardSummary(id) || summary;
-  const introduction = /论文|学者|海德格尔|理论|研究/.test(rawIntroduction) ? summary : rawIntroduction;
+  const summary = copy.reading_premise || publicText(curationFor(id, "one_line_summary")?.content_zh) || cardSummary(id);
+  const introduction = copy.story_intro || summary;
   const year = fact(id, "first_publication_year", "publication_year")?.value_text;
   const genre = fact(id, "genre_or_form")?.value_text || card?.genre_or_form;
-  const whyRead = data.presentation.why_read.find((entry) => entry.work_id === id);
-  const authorWorks = authors[0] ? relationsFor(authors[0].entity_id).filter((relation) => relation.subject_id === authors[0].entity_id && relation.relation_type === "CREATED" && relation.object_id !== id).map((relation) => entity(relation.object_id)).filter(Boolean) : [];
-  const reviewedNextReads = data.presentation.next_reads.filter((entry) => entry.from_id === id);
-  const nextReads = reviewedNextReads.length ? reviewedNextReads.map((entry) => ({ target: entity(entry.to_id), reason: entry.reason })) : authorWorks.slice(0, 3).map((target) => ({ target, reason: `同由${authors[0].name_zh}创作；可沿同一作家的作品继续阅读。` }));
-  const readingClues = [
-    fact(id, "key_character") && { title: "从人物进入", text: `主要人物包括：${publicText(fact(id, "key_character").value_text)}。` },
-    locations[0] && { title: "从故事空间进入", text: publicText(allRelations.find((relation) => relation.subject_id === id && relation.relation_type === "SET_IN")?.description_zh) },
-    fact(id, "research_note") && { title: "研究资料关注什么", text: publicText(fact(id, "research_note").value_text) },
-    genre && { title: "从形式进入", text: `这是一部${publicText(genre)}；可以先留意它如何组织人物、声音与时间。` },
-  ].filter(Boolean).slice(0, 4);
-  const discussionClues = [...themes.map((theme) => ({ title: theme.name_zh, text: `正式文学关系将这部作品与“${theme.name_zh}”相连。`, id: theme.entity_id })), ...readingClues.filter((clue) => clue.title !== "从形式进入").map((clue) => ({...clue, id:null}))].slice(0, 5);
+  const whyRead = copy.why_read || data.presentation.why_read.find((entry) => entry.work_id === id)?.points;
+  const nextReads = (copy.next_reads || data.presentation.next_reads.filter((entry) => entry.from_id === id).map((entry) => ({ target_id: entry.to_id, reason: entry.reason }))).map((entry) => ({ target: entity(entry.target_id), reason: entry.reason }));
   const authorLabel = authors[0] ? (isPublic(authors[0].entity_id) ? `<a class="tag" href="${hrefFor("author", authors[0].entity_id)}">${escapeHtml(authors[0].name_zh)}</a>` : `<span class="tag">${escapeHtml(authors[0].name_zh)}</span>`) : "";
   const authorConnections = authors.map((author) => isPublic(author.entity_id)
     ? `<a class="linked-item" href="${hrefFor("author", author.entity_id)}"><strong>${escapeHtml(author.name_zh)}</strong><span>作者</span></a>`
     : `<article class="linked-item"><strong>${escapeHtml(author.name_zh)}</strong><span>作者</span></article>`).join("");
   setMeta(item.name_zh, summary, routePath("work", id));
   app.innerHTML = `<section class="page-header"><p class="eyebrow">作品</p><h1 class="display-title">${escapeHtml(item.name_zh)}</h1><div class="page-header-meta"><span class="tag coral">${escapeHtml(item.original_name || "")}</span>${authorLabel}${year ? `<span class="tag">${escapeHtml(year)}</span>` : ""}${genre ? `<span class="tag">${escapeHtml(genre)}</span>` : ""}${card?.country_or_region ? `<span class="tag">${escapeHtml(card.country_or_region)}</span>` : ""}</div><p class="lede">${escapeHtml(summary)}</p></section>
-  <section class="content-grid"><div class="content-copy"><h2>它讲了什么</h2><p>${escapeHtml(introduction)}</p><h2>为什么值得读</h2>${whyRead ? `<div class="feature-grid">${whyRead.points.map((point) => `<article><h3>${escapeHtml(point.title)}</h3><p>${escapeHtml(point.text)}</p></article>`).join("")}</div>` : `<p>可以先从人物、空间、形式和研究资料所关注的问题进入这部作品。</p><div class="feature-grid">${readingClues.slice(0, 4).map((point) => `<article><h3>${escapeHtml(point.title)}</h3><p>${escapeHtml(point.text)}</p></article>`).join("")}</div>`}</div><aside class="side-rail"><div class="info-box"><h3>作品概览</h3><dl class="info-list">${authors[0] ? `<div><dt>作者</dt><dd>${escapeHtml(authors[0].name_zh)}</dd></div>` : ""}${year ? `<div><dt>首次出版/发表</dt><dd>${escapeHtml(year)}</dd></div>` : ""}${genre ? `<div><dt>体裁</dt><dd>${escapeHtml(genre)}</dd></div>` : ""}${card?.country_or_region ? `<div><dt>国家或地区</dt><dd>${escapeHtml(card.country_or_region)}</dd></div>` : ""}</dl></div></aside></section>
-  <section class="section"><div class="section-heading"><h2>它发生在哪里</h2></div><div class="card-grid">${locations.map(placeCard).join("") || "<p>目前没有达到公开标准的故事地点资料。</p>"}</div></section>
-  <section class="section"><div class="section-heading"><h2>它在讨论什么</h2><p>以下内容区分正式主题关系与研究资料中的阅读焦点。</p></div>${discussionClues.length ? `<div class="theme-grid">${discussionClues.map((clue) => `${clue.id ? `<a href="${hrefFor("node", clue.id)}">` : "<article>"}<h3>${escapeHtml(clue.title)}</h3><p>${escapeHtml(clue.text)}</p>${clue.id ? "</a>" : "</article>"}`).join("")}</div>` : `<p>现有资料尚不足以可靠概括主题。</p>`}</section>
+  <section class="content-grid"><div class="content-copy"><h2>它讲了什么</h2><p>${escapeHtml(introduction)}</p>${whyRead ? `<h2>为什么值得读</h2><div class="feature-grid">${whyRead.map((point) => `<article><h3>${escapeHtml(point.title)}</h3><p>${escapeHtml(point.text)}</p></article>`).join("")}</div>` : ""}</div><aside class="side-rail"><div class="info-box"><h3>作品概览</h3><dl class="info-list">${authors[0] ? `<div><dt>作者</dt><dd>${escapeHtml(authors[0].name_zh)}</dd></div>` : ""}${year ? `<div><dt>首次出版/发表</dt><dd>${escapeHtml(year)}</dd></div>` : ""}${genre ? `<div><dt>体裁</dt><dd>${escapeHtml(genre)}</dd></div>` : ""}${card?.country_or_region ? `<div><dt>国家或地区</dt><dd>${escapeHtml(card.country_or_region)}</dd></div>` : ""}</dl></div>${copy.reading_tips ? `<div class="info-box"><h3>阅读提示</h3><p>${escapeHtml(copy.reading_tips)}</p></div>` : ""}</aside></section>
+  <section class="section"><div class="section-heading"><h2>叙事与形式</h2><p>这些特征均有对应资料支撑。</p></div><div class="feature-grid">${(copy.narrative_features || []).map((feature) => `<article><h3>${escapeHtml(feature.title)}</h3><p>${escapeHtml(feature.text)}</p></article>`).join("")}</div></section>
+  <section class="section"><div class="section-heading"><h2>它发生在哪里</h2><p>${escapeHtml(copy.location_note || "")}</p></div><div class="card-grid">${locations.map(placeCard).join("")}</div></section>
+  ${copy.theme_explanations ? `<section class="section"><div class="section-heading"><h2>它在讨论什么</h2><p>经过编辑审核的核心主题。</p></div><div class="theme-grid">${copy.theme_explanations.map((clue) => `<article><h3>${escapeHtml(clue.title)}</h3><p>${escapeHtml(clue.text)}</p></article>`).join("")}</div></section>` : ""}
+  ${copy.literary_significance ? `<section class="section significance"><div class="section-heading"><h2>文学史位置</h2></div><p class="lede compact">${escapeHtml(copy.literary_significance)}</p></section>` : ""}
   <section class="section"><div class="section-heading"><h2>文学关联</h2></div><div class="linked-list">${authorConnections}${relationCards(connections)}</div></section>
-  <section class="section"><div class="section-heading"><h2>读完之后读什么</h2><p>${reviewedNextReads.length ? "沿已有研究依据的阅读关系继续。" : "跨作品的编辑推荐仍在整理；这里先列同一作者的书目关系。"}</p></div><div class="card-grid">${nextReads.map((entry) => entry.target && isPublic(entry.target.entity_id) ? cardMarkup(entry.target, { id: entry.target.entity_id, type: "work", title: entry.target.name_zh, description: entry.reason, meta: "继续阅读" }) : entry.target ? `<article class="card"><div><div class="card-meta"><span>同一作者作品</span></div><h3>${escapeHtml(entry.target.name_zh)}</h3><p>${escapeHtml(entry.reason)}这部作品的完整资料页尚未开放。</p></div></article>` : "").join("") || "<p>现有书目关系尚不足以提供下一步阅读。</p>"}</div></section>
-  <section class="section">${researchPanel(id, [...(curationFor(id, "one_line_summary")?.source_refs || []), ...(whyRead?.basis || [])])}</section>`;
+  ${nextReads.length ? `<section class="section"><div class="section-heading"><h2>读完之后读什么</h2><p>每条路径都说明它与本书的连接方式。</p></div><div class="card-grid">${nextReads.map((entry) => entry.target && isPublic(entry.target.entity_id) ? cardMarkup(entry.target, { id: entry.target.entity_id, type: "work", title: entry.target.name_zh, description: entry.reason, meta: "继续阅读" }) : "").join("")}</div></section>` : ""}
+  <section class="section">${researchPanel(id, curationFor(id, "one_line_summary")?.source_refs || [])}</section>`;
 }
 
 function renderSearch(query = "") {

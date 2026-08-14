@@ -21,6 +21,7 @@ DEFAULT_GEO = ROOT / "data/v2/geo"
 DEFAULT_CURATION = ROOT / "data/v2/curation"
 DEFAULT_OUTPUT = ROOT / "data/v2/web"
 DEFAULT_PRESENTATION = ROOT / "data/v2/presentation/PUBLIC_PRESENTATION.json"
+DEFAULT_PUBLIC_CONTENT = ROOT / "data/v2/curation/PUBLIC_CONTENT.json"
 SCHEMA_VERSION = "v2-web-0.2"
 CURATION_SCHEMA_VERSION = "v2-curation-0.1"
 ALLOWED_CURATION_STATUSES = {"auto_approved", "user_review", "hold"}
@@ -181,7 +182,7 @@ def load_curation(curation_dir: Path, valid_target_ids: set[str]) -> dict[str, l
     return result
 
 
-def build_data(db_path: Path, geo_dir: Path, curation_dir: Path, presentation_path: Path, generated_at: str) -> dict[str, Any]:
+def build_data(db_path: Path, geo_dir: Path, curation_dir: Path, presentation_path: Path, public_content_path: Path, generated_at: str) -> dict[str, Any]:
     places, place_relations = load_geo(geo_dir)
     with sqlite3.connect(db_path) as conn:
         entities = rows(conn, "SELECT * FROM entities ORDER BY entity_id")
@@ -207,6 +208,31 @@ def build_data(db_path: Path, geo_dir: Path, curation_dir: Path, presentation_pa
             status = item.get("review_status")
             if status not in ALLOWED_CURATION_STATUSES:
                 raise ValueError(f"{group} item lacks an explicit valid review_status: {item.get('id')}")
+    content = json.loads(public_content_path.read_text(encoding="utf-8"))
+    if content.get("schema_version") != "v2-curation-content-0.2":
+        raise ValueError("unexpected public content schema")
+    content_public: dict[str, list[dict[str, Any]]] = {}
+    content_review_queue: dict[str, list[dict[str, Any]]] = {}
+    for group in ("authors", "works", "places"):
+        public_records = []
+        queue_records = []
+        for record in content.get(group, []):
+            target_id = record.get("target_id")
+            if target_id not in valid_target_ids:
+                raise ValueError(f"dangling public content target: {target_id}")
+            public_item = {"target_id": target_id}
+            queue_item = {"target_id": target_id}
+            for key, value in record.items():
+                if key == "target_id":
+                    continue
+                if not isinstance(value, dict) or value.get("status") not in ALLOWED_CURATION_STATUSES:
+                    raise ValueError(f"invalid content field {target_id}.{key}")
+                (public_item if value["status"] == "auto_approved" else queue_item)[key] = value
+            public_records.append(public_item)
+            if len(queue_item) > 1:
+                queue_records.append(queue_item)
+        content_public[group] = public_records
+        content_review_queue[group] = queue_records
     for path in presentation.get("reading_paths", []):
         for target_id in path.get("target_ids", []):
             if target_id not in valid_target_ids:
@@ -316,23 +342,20 @@ def build_data(db_path: Path, geo_dir: Path, curation_dir: Path, presentation_pa
 
     full_author_card_ids = {card["subject_id"] for card in cards if card.get("source_minimum_status") == "meets" and card.get("card_type") == "author"}
     full_work_card_ids = {card["subject_id"] for card in cards if card.get("source_minimum_status") == "meets" and card.get("card_type") == "work"}
+    content_author_ids = {item["target_id"] for item in content_public["authors"] if item.get("reader_lede") and item.get("literary_features")}
+    content_work_ids = {item["target_id"] for item in content_public["works"] if item.get("story_intro") and item.get("narrative_features") and item.get("location_note")}
     public_work_ids: set[str] = set()
     for entity in page_entities["works"]:
         target_id = entity["entity_id"]
-        if target_id not in full_work_card_ids:
+        if target_id not in full_work_card_ids or target_id not in content_work_ids:
             continue
-        work_facts = facts_by_subject[target_id]
-        relation_types = {relation["relation_type"] for relation in relations_by_subject[target_id]}
-        clue_count = sum(1 for fact_item in work_facts if fact_item["fact_field"] in {"key_character", "research_note"}) + len(relation_types & {"SET_IN", "EXPLORES_THEME", "BASED_ON_EVENT"}) + int(any(fact_item["fact_field"] == "genre_or_form" for fact_item in work_facts))
-        summary = next((fact_item["value_text"] for fact_item in work_facts if fact_item["fact_field"] == "one_sentence_summary"), "")
-        academic_only = any(term in summary for term in ("论文", "海德格尔", "ecfrasis")) and not (relation_types & {"SET_IN", "BASED_ON_EVENT"}) and not any(fact_item["fact_field"] == "key_character" for fact_item in work_facts)
-        if clue_count >= 2 and not academic_only and relations_by_object[target_id]:
+        if relations_by_object[target_id]:
             public_work_ids.add(target_id)
     public_author_ids = {
         entity["entity_id"] for entity in page_entities["authors"]
         if entity["entity_id"] in full_author_card_ids
-        and any(relation["relation_type"] == "ASSOCIATED_WITH_PLACE" for relation in relations_by_subject[entity["entity_id"]])
-        and any(relation["relation_type"] == "CREATED" and relation["object_id"] in public_work_ids for relation in relations_by_subject[entity["entity_id"]])
+        and entity["entity_id"] in content_author_ids
+        and sum(relation["relation_type"] == "CREATED" for relation in relations_by_subject[entity["entity_id"]]) >= 2
     }
     public_place_ids = {
         item["place_id"] for item in places_for_web
@@ -476,6 +499,8 @@ def build_data(db_path: Path, geo_dir: Path, curation_dir: Path, presentation_pa
         },
         "curation": curation_public,
         "review_queue": curation_review_queue,
+        "public_content": content_public,
+        "public_content_review_queue": content_review_queue,
         "presentation": presentation_public,
         "presentation_review_queue": presentation_review_queue,
         "public_scope": {
@@ -498,11 +523,12 @@ def main() -> int:
     parser.add_argument("--geo-dir", type=Path, default=DEFAULT_GEO)
     parser.add_argument("--curation-dir", type=Path, default=DEFAULT_CURATION)
     parser.add_argument("--presentation", type=Path, default=DEFAULT_PRESENTATION)
+    parser.add_argument("--public-content", type=Path, default=DEFAULT_PUBLIC_CONTENT)
     parser.add_argument("--output-dir", type=Path, default=DEFAULT_OUTPUT)
     parser.add_argument("--generated-at", default=None)
     args = parser.parse_args()
     generated_at = args.generated_at or datetime.now(timezone.utc).isoformat(timespec="seconds")
-    payload = build_data(args.db, args.geo_dir, args.curation_dir, args.presentation, generated_at)
+    payload = build_data(args.db, args.geo_dir, args.curation_dir, args.presentation, args.public_content, generated_at)
     args.output_dir.mkdir(parents=True, exist_ok=True)
     output_path = args.output_dir / "site_data.json"
     output_path.write_text(json.dumps(payload, ensure_ascii=False, indent=2, sort_keys=True) + "\n", encoding="utf-8")

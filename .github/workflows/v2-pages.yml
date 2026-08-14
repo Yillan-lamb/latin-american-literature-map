@@ -48,8 +48,8 @@ jobs:
         run: |
           python3 scripts/qa_v2_public_ui.py dist
           python3 scripts/validate_v2_public_bundle.py dist
-          python3 scripts/build_v2_release_manifest.py --output /tmp/V2.0.0-rc.4.manifest.json --bundle dist --release-state approved_v2_n4 --candidate-commit-sha "$GITHUB_SHA"
-          python3 scripts/build_v2_release_manifest.py --verify --output /tmp/V2.0.0-rc.4.manifest.json --bundle dist --require-release-state approved_v2_n4
+          python3 scripts/build_v2_release_manifest.py --output /tmp/V2.0.0-rc.5.manifest.json --bundle dist --release-state approved_v2_n4 --candidate-commit-sha "$GITHUB_SHA"
+          python3 scripts/build_v2_release_manifest.py --verify --output /tmp/V2.0.0-rc.5.manifest.json --bundle dist --require-release-state approved_v2_n4
       - uses: actions/configure-pages@v5
       - name: Upload the already verified directory without rebuilding
         uses: actions/upload-pages-artifact@v3
@@ -59,7 +59,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: v2-release-manifest-${{ github.sha }}
-          path: /tmp/V2.0.0-rc.4.manifest.json
+          path: /tmp/V2.0.0-rc.5.manifest.json
       - name: Deploy to Pages
         id: deployment
         uses: actions/deploy-pages@v4

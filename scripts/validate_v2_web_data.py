@@ -35,7 +35,7 @@ def main() -> int:
     payload = json.loads(args.path.read_text(encoding="utf-8"))
     if payload.get("schema_version") != "v2-web-0.2":
         fail("unexpected Web Data schema_version")
-    for key in ("research", "curation", "review_queue", "presentation", "presentation_review_queue", "public_scope", "pages", "map", "qa", "search_index", "timeline"):
+    for key in ("research", "curation", "review_queue", "public_content", "public_content_review_queue", "presentation", "presentation_review_queue", "public_scope", "pages", "map", "qa", "search_index", "timeline"):
         if key not in payload:
             fail(f"missing top-level key: {key}")
 
@@ -76,6 +76,11 @@ def main() -> int:
                 fail(f"dangling recommendation target: {item['curation_id']}")
     if any(item["status"] != "auto_approved" for group in payload["curation"].values() for item in group):
         fail("public curation contains a non-auto-approved record")
+    for group in ("authors", "works", "places"):
+        for record in payload["public_content"].get(group, []):
+            for key, value in record.items():
+                if key != "target_id" and value.get("status") != "auto_approved":
+                    fail(f"public content contains non-approved field: {record['target_id']}.{key}")
 
     presentation = payload["presentation"]
     if presentation.get("schema_version") != "v2-public-presentation-0.1":
@@ -110,6 +115,10 @@ def main() -> int:
             fail(f"map status override lacks basis: {override.get('curation_id')}")
 
     public_scope_ids = set().union(*(set(values) for values in payload["public_scope"].values()))
+    expected_scope_counts = {"authors": 10, "works": 17, "places": 19}
+    for group, expected in expected_scope_counts.items():
+        if len(payload["public_scope"][group]) != expected:
+            fail(f"public {group} scope is {len(payload['public_scope'][group])}, expected {expected}")
     search_ids = {item["target_id"] for item in payload["search_index"]}
     if len(search_ids) != len(payload["search_index"]):
         fail("duplicate search index target")

@@ -166,3 +166,26 @@ S2-002 的构建与 QA 至少检查：
 ## 10. 当前结论
 
 `V2-S2-001 = ✅ DONE`。Schema 已将研究事实、地图技术补充、策展展示判断和 Web 消费投影分层，并为后续 N2 样本、最小策展、Web Data 构建和 QA 提供稳定的字段与审核契约。
+
+## 11. rc.5 加法兼容内容契约
+
+`data/v2/curation/PUBLIC_CONTENT.json` 使用 `v2-curation-content-0.2`，作为三个既有 CSV 的加法扩展，不替换旧字段。它保存作家、作品和地点的公众长内容模块，但不保存或改写研究事实。
+
+顶层包含 `authors`、`works`、`places`。每个对象必须有稳定 `target_id`，每个内容字段使用统一审核包装：
+
+```json
+{
+  "content": "面向公众的中文文案或结构化数组",
+  "status": "auto_approved | user_review | hold",
+  "research_refs": ["V1-FCT-...", "V1-REL-..."],
+  "source_refs": ["SRC-...."],
+  "basis_note": "该文案如何由研究材料转写",
+  "reviewer": "CODEX-REVIEW | USER | UNREVIEWED",
+  "created_at": "YYYY-MM-DD",
+  "reviewed_at": "YYYY-MM-DD | null"
+}
+```
+
+作者允许字段：`reader_lede`、`why_know`、`literary_profile`、`literary_features`、`start_here`、`core_themes`、`literary_connections`。作品允许字段：`story_intro`、`reading_premise`、`why_read`、`narrative_features`、`theme_explanations`、`literary_significance`、`reading_tips`、`next_reads`、`location_note`。地点允许字段：`literary_intro`、`spatial_meaning`、`reader_path`。
+
+构建器只把 `auto_approved` 字段投影到 public bundle；`user_review` 与 `hold` 进入内部审核队列。前端不得根据事实字段临时拼接上述核心文学模块。

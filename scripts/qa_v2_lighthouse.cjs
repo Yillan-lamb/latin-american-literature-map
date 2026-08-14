@@ -5,7 +5,7 @@ const lighthouse = require("lighthouse").default;
 const { chromium } = require("playwright");
 
 const base = process.env.V2_QA_BASE_URL || "http://127.0.0.1:4173/";
-const output = path.resolve("artifacts/v2-rc4/lighthouse");
+const output = path.resolve("artifacts/v2-rc5/lighthouse");
 const pages = { home: "", work: "works/pedro-paramo-v1-ent-0038/" };
 
 (async () => {

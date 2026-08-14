@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build or verify a detached rc.4 manifest for one exact Git commit and one exact dist directory."""
+"""Build or verify a detached rc.5 manifest for one exact Git commit and one exact dist directory."""
 
 from __future__ import annotations
 
@@ -18,19 +18,21 @@ RELEASE_FILES = (
     "data/v2/geo/PLACES_GEO.csv", "data/v2/geo/PLACE_RELATIONS.csv",
     "data/v2/curation/CURATION_ENTRIES.csv", "data/v2/curation/CURATION_SELECTIONS.csv", "data/v2/curation/CURATION_RECOMMENDATIONS.csv",
     "data/v2/presentation/PUBLIC_PRESENTATION.json",
+    "data/v2/curation/PUBLIC_CONTENT.json",
     "data/v2/web/site_data.json", "data/v2/web/manifest.json",
     "site/index.html", "site/app.js", "site/styles.css", "site/assets/latin-america-countries.geojson", "site/README.md",
     "scripts/validate_master.py", "scripts/build_v2_web_data.py", "scripts/validate_v2_web_data.py",
+    "scripts/build_v2_public_content.py", "scripts/validate_v2_content_quality.py", "scripts/build_v2_rc5_user_review.py",
     "scripts/build_v2_deploy_bundle.py", "scripts/build_v2_release_manifest.py", "scripts/validate_v2_public_bundle.py",
     "scripts/qa_v2_public_ui.py", "scripts/qa_v2_browser.cjs", "scripts/qa_v2_lighthouse.cjs",
-    "scripts/audit_v2_source_urls.py",
+    "scripts/audit_v2_source_urls.py", "scripts/assert_v2_candidate_identity.py",
     "scripts/build_v2_coverage_plan.py", "tests/browser/public-product.spec.cjs",
     "package.json", "package-lock.json", "playwright.config.cjs",
     ".github/workflows/v2-ci.yml", ".github/workflows/v2-pages.yml",
     "data/v2/release/V2.0.0_RELEASE_MANIFEST.json",
 )
 RELEASE_STATES = {"pending_v2_n4", "approved_v2_n4"}
-FORBIDDEN_PUBLIC_KEYS = {"review_status", "admission_status", "source_minimum_status", "schema_version", "review_queue", "presentation_review_queue"}
+FORBIDDEN_PUBLIC_KEYS = {"review_status", "admission_status", "source_minimum_status", "schema_version", "review_queue", "presentation_review_queue", "public_content_review_queue"}
 
 
 def digest_bytes(value: bytes) -> str:
@@ -112,12 +114,12 @@ def build_manifest(output: Path, bundle: Path, release_state: str, commit: str |
     inventory = bundle_inventory(bundle)
     boundary = verify_public_boundary(bundle)
     control = json.loads(DEFAULT_CONTROL.read_text(encoding="utf-8"))
-    if control.get("release_candidate") != "V2.0.0-rc.4" or control.get("release_state") != release_state:
+    if control.get("release_candidate") != "V2.0.0-rc.5" or control.get("release_state") != release_state:
         raise ValueError("release control file does not match requested rc/state")
     web = json.loads((ROOT / "data/v2/web/site_data.json").read_text(encoding="utf-8"))
     return {
         "manifest_version": "v2-release-manifest-0.3",
-        "release_candidate": "V2.0.0-rc.4",
+        "release_candidate": "V2.0.0-rc.5",
         "release_state": release_state,
         "candidate_commit_sha": candidate,
         "candidate_mode": "committed_clean_head" if candidate else "local_worktree_preflight",
@@ -133,7 +135,7 @@ def build_manifest(output: Path, bundle: Path, release_state: str, commit: str |
 
 def verify_manifest(path: Path, bundle: Path, required_state: str | None, allow_worktree: bool) -> dict[str, object]:
     manifest = json.loads(path.read_text(encoding="utf-8"))
-    if manifest.get("manifest_version") != "v2-release-manifest-0.3" or manifest.get("release_candidate") != "V2.0.0-rc.4":
+    if manifest.get("manifest_version") != "v2-release-manifest-0.3" or manifest.get("release_candidate") != "V2.0.0-rc.5":
         raise ValueError("unexpected manifest version or candidate")
     if required_state and manifest.get("release_state") != required_state:
         raise ValueError(f"release state must be {required_state}")

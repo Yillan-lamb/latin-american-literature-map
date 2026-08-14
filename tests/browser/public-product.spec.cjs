@@ -24,6 +24,7 @@ test.afterEach(async ({ page }) => {
 test("home, map, country and mobile navigation", async ({ page, isMobile }) => {
   await page.goto("");
   await expect(page.getByRole("heading", { name: /文学地图/ }).first()).toBeVisible();
+  await expect(page.locator(".path-card")).toHaveCount(10);
   await expect(page.locator(".country-shape.available")).toHaveCount(7);
   await page.locator('[data-country-id="V1-ENT-0051"]').click();
   await expect(page.getByText(/当前：墨西哥/)).toBeVisible();
@@ -46,8 +47,13 @@ test("places, author, work, sources and navigation", async ({ page }) => {
   await page.getByText("研究依据与延伸阅读").click();
   await expect(page.getByRole("heading", { name: "资料来源" })).toBeVisible();
   await page.goto(paths.author);
+  await expect(page.getByText("如果你喜欢……")).toBeVisible();
+  await expect(page.getByText("一条阅读路线")).toBeVisible();
+  await expect(page.getByText("带着一个问题去读")).toBeVisible();
   await page.locator(`a[href="/${paths.work}"]`).first().click();
   await expect(page.getByText("为什么值得读")).toBeVisible();
+  await expect(page.getByText("怎么读这本书")).toBeVisible();
+  await expect(page.getByText("带着一个问题去读")).toBeVisible();
   await page.goBack();
   await expect(page.getByText("为什么值得认识")).toBeVisible();
 });
@@ -99,9 +105,9 @@ test("required author, work and place samples resolve through the public layer",
     expect(response.status(), route).toBe(200);
     await expect(page.getByText(title).first()).toBeVisible();
   }
-  for (const incompleteAuthor of ["克拉丽丝·李斯佩克朵", "巴勃罗·聂鲁达"]) {
-    await page.goto(`search/?q=${encodeURIComponent(incompleteAuthor)}`);
-    await expect(page.getByText("没有找到匹配项")).toBeVisible();
+  for (const coreAuthor of ["克拉丽丝·李斯佩克朵", "巴勃罗·聂鲁达"]) {
+    await page.goto(`search/?q=${encodeURIComponent(coreAuthor)}`);
+    await expect(page.getByText(coreAuthor).first()).toBeVisible();
   }
 });
 

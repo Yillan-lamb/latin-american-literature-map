@@ -11,6 +11,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_CONTENT = ROOT / "data/v2/curation/PUBLIC_CONTENT.json"
+DEFAULT_PRESENTATION = ROOT / "data/v2/presentation/PUBLIC_PRESENTATION.json"
 AUTHOR_IDS = {
     "V1-ENT-0002", "V1-ENT-0016", "V1-ENT-0029", "V1-ENT-0030", "V1-ENT-0031",
     "V1-ENT-0072", "V1-ENT-0073", "V1-ENT-0074", "V1-ENT-0114", "V1-ENT-0115",
@@ -45,7 +46,7 @@ def reviewed(record: dict[str, object], field: str, require_public: bool) -> obj
         raise ValueError(f"{record.get('target_id')} {field} is not approved for public use")
     if require_public and (not item.get("research_refs") or not item.get("source_refs")):
         raise ValueError(f"{record.get('target_id')} {field} lacks evidence/reviewer")
-    if item.get("status") == "auto_approved" and item.get("reviewer") != "CODEX-REVIEW":
+    if item.get("status") == "auto_approved" and item.get("reviewer") not in {"CODEX-REVIEW", "USER"}:
         raise ValueError(f"{record.get('target_id')} approved {field} lacks reviewer")
     return item.get("content")
 
@@ -53,14 +54,16 @@ def reviewed(record: dict[str, object], field: str, require_public: bool) -> obj
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("path", type=Path, nargs="?", default=DEFAULT_CONTENT)
+    parser.add_argument("--presentation", type=Path, default=DEFAULT_PRESENTATION)
     parser.add_argument("--require-public", action="store_true", help="Require all release-blocking fields to be auto_approved")
     args = parser.parse_args()
     payload = json.loads(args.path.read_text(encoding="utf-8"))
-    if payload.get("schema_version") != "v2-curation-content-0.2":
+    if payload.get("schema_version") != "v2-curation-content-0.3":
         raise ValueError("unexpected public content schema")
     authors = {item["target_id"]: item for item in payload.get("authors", [])}
     works = {item["target_id"]: item for item in payload.get("works", [])}
     places = {item["target_id"]: item for item in payload.get("places", [])}
+    presentation = json.loads(args.presentation.read_text(encoding="utf-8"))
     if set(authors) != AUTHOR_IDS or set(works) != WORK_IDS or len(places) < 19:
         raise ValueError(f"coverage mismatch authors={len(authors)} works={len(works)} places={len(places)}")
     corpus: list[tuple[str, str]] = []
@@ -70,20 +73,29 @@ def main() -> int:
         features = reviewed(record, "literary_features", args.require_public)
         themes = reviewed(record, "core_themes", args.require_public)
         starts = reviewed(record, "start_here", args.require_public)
-        if len(lede) < 60 or len(why) < 45 or not isinstance(features, list) or len(features) < 2 or not isinstance(themes, list) or len(themes) < 2 or not isinstance(starts, list) or len(starts) < 2:
+        reader_fit = text(reviewed(record, "reader_fit", args.require_public))
+        keywords = reviewed(record, "signature_keywords", args.require_public)
+        route = reviewed(record, "reading_route", args.require_public)
+        question = text(reviewed(record, "guiding_question", args.require_public))
+        if len(lede) < 60 or len(why) < 45 or not isinstance(features, list) or len(features) < 2 or not isinstance(themes, list) or len(themes) < 2 or not isinstance(starts, list) or len(starts) < 2 or len(reader_fit) < 25 or not isinstance(keywords, list) or len(keywords) != 3 or not isinstance(route, list) or len(route) < 2 or not question.endswith("？"):
             raise ValueError(f"incomplete author content: {target_id}")
         corpus.append((target_id, f"{lede} {why}"))
+    approaches = []
     for target_id, record in works.items():
         intro = text(reviewed(record, "story_intro", args.require_public))
         why = reviewed(record, "why_read", args.require_public)
         themes = reviewed(record, "theme_explanations", args.require_public)
         next_reads = reviewed(record, "next_reads", args.require_public)
         location = text(reviewed(record, "location_note", args.require_public))
-        if len(intro) < 80 or not isinstance(why, list) or not 2 <= len(why) <= 4 or not isinstance(themes, list) or len(themes) < 2 or not isinstance(next_reads, list) or len(next_reads) < 2 or len(location) < 12:
+        approach = text(reviewed(record, "reading_approach", args.require_public))
+        question = text(reviewed(record, "guiding_question", args.require_public))
+        if len(intro) < 80 or not isinstance(why, list) or not 2 <= len(why) <= 4 or not isinstance(themes, list) or len(themes) < 2 or not isinstance(next_reads, list) or len(next_reads) < 2 or len(location) < 12 or len(approach) < 25 or not question.endswith("？"):
             raise ValueError(f"incomplete work content: {target_id}")
+        approaches.append(approach)
         corpus.append((target_id, intro))
     for target_id, record in places.items():
-        if len(text(reviewed(record, "literary_intro", args.require_public))) < 35 or len(text(reviewed(record, "spatial_meaning", args.require_public))) < 25:
+        route = text(reviewed(record, "exploration_route", args.require_public))
+        if len(text(reviewed(record, "literary_intro", args.require_public))) < 35 or len(text(reviewed(record, "spatial_meaning", args.require_public))) < 25 or len(route) < 25 or "从本页进入相关作家与作品" in route:
             raise ValueError(f"incomplete place content: {target_id}")
     for target_id, value in corpus:
         if any(phrase in value for phrase in FORBIDDEN):
@@ -96,7 +108,15 @@ def main() -> int:
                 too_similar.append((left_id, right_id, round(ratio, 3)))
     if too_similar:
         raise ValueError(f"highly similar public copy: {too_similar[:5]}")
-    print(json.dumps({"status": "PASS", "phase": "public" if args.require_public else "review_package", "authors": len(authors), "works": len(works), "places": len(places), "similar_pairs": 0}, ensure_ascii=False))
+    if len(set(approaches)) != len(WORK_IDS):
+        raise ValueError("work reading approaches are duplicated")
+    paths = presentation.get("reading_paths", [])
+    if len(paths) < 8:
+        raise ValueError(f"homepage reading paths below gate: {len(paths)}")
+    for path in paths:
+        if len(path.get("intro", "")) < 18 or len(path.get("ordered_targets", [])) < 3 or not path.get("guiding_question", "").endswith("？"):
+            raise ValueError(f"incomplete homepage reading path: {path.get('id')}")
+    print(json.dumps({"status": "PASS", "phase": "public" if args.require_public else "review_package", "authors": len(authors), "works": len(works), "places": len(places), "reading_approaches": len(set(approaches)), "reading_paths": len(paths), "similar_pairs": 0}, ensure_ascii=False))
     return 0
 
 

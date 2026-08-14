@@ -11,10 +11,10 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 OUTPUT = ROOT / "data/v2/curation/PUBLIC_CONTENT.json"
-DATE = "2026-08-13"
+DATE = "2026-08-14"
 
 
-def field(content, research, sources, status="user_review", note="新增长篇公共文案，等待 USER 集中审核"):
+def field(content, research, sources, status="user_review", note="新增长篇公共文案，等待 USER 集中审核", reviewer="UNREVIEWED"):
     research = [item for item in research if item not in {"V1-FCT-0218", "V1-FCT-0231", "V1-FCT-0238"}]
     return {
         "content": content,
@@ -22,10 +22,14 @@ def field(content, research, sources, status="user_review", note="新增长篇�
         "research_refs": research,
         "source_refs": sources,
         "basis_note": note,
-        "reviewer": "UNREVIEWED",
+        "reviewer": reviewer,
         "created_at": DATE,
-        "reviewed_at": None,
+        "reviewed_at": DATE if status == "auto_approved" and reviewer != "UNREVIEWED" else None,
     }
+
+
+def user_field(content, research, sources, note="USER 在 rc.5 内容密度审核中明确批准"):
+    return field(content, research, sources, "auto_approved", note, "USER")
 
 
 def feature(title, text):
@@ -144,50 +148,185 @@ PLACE_MEANINGS = {
 }
 
 
+AUTHOR_EXPANSION = {
+    "V1-ENT-0002": {
+        "reader_fit": "如果你喜欢短篇、谜题、迷宫、悖论，以及“一个故事能不能同时是一道思想实验”，可以从博尔赫斯开始。",
+        "signature_keywords": ["迷宫", "分岔时间", "无限与语言"],
+        "reading_route": ["《小径分岔的花园》", "《阿莱夫》", "沿时间、空间和语言主题继续探索"],
+        "guiding_question": "如果所有可能性都存在，人的选择还重要吗？",
+    },
+    "V1-ENT-0016": {
+        "reader_fit": "如果你比情节更在意人物如何感觉、语言如何靠近经验，以及叙述者是否有权替别人说话，可以从李斯佩克朵开始。",
+        "signature_keywords": ["身体感觉", "内在声音", "语言与沉默"],
+        "reading_route": ["《星辰时刻》", "《活水》", "沿主体、身体与语言主题继续探索"],
+        "guiding_question": "一个人真的能够用自己的语言完整讲述另一个人吗？",
+    },
+    "V1-ENT-0029": {
+        "reader_fit": "如果你喜欢会说话的地点、破碎时间，以及历史并没有真正过去的小说，可以从埃莱娜·加罗开始。",
+        "signature_keywords": ["共同体记忆", "非线性时间", "革命后的日常"],
+        "reading_route": ["《未来的回忆》", "继续观察多重证词", "沿墨西哥村镇与历史记忆探索"],
+        "guiding_question": "历史究竟属于胜利者、见证者，还是记住它的地方？",
+    },
+    "V1-ENT-0030": {
+        "reader_fit": "如果你喜欢家庭小说背后更大的社会结构，以及“谁能说话、谁只能被别人翻译”的问题，可以从卡斯特利亚诺斯开始。",
+        "signature_keywords": ["土地", "族群", "语言权力"],
+        "reading_route": ["《巴伦坎南》", "继续进入恰帕斯共同体", "沿土地、语言与性别主题探索"],
+        "guiding_question": "当一些人的声音只能经由另一些人转述，文学应如何处理这种不平等？",
+    },
+    "V1-ENT-0031": {
+        "reader_fit": "如果你喜欢篇幅不长却余味很重的作品、鬼魂声音、荒凉村镇和克制语言，可以从胡安·鲁尔福开始。",
+        "signature_keywords": ["低语", "土地权力", "死亡与记忆"],
+        "reading_route": ["《佩德罗·巴拉莫》", "《燃烧的原野》", "沿科马拉与墨西哥乡村世界继续探索"],
+        "guiding_question": "如果一座村镇的人都已消失，但声音仍然存在，这座村镇真的死了吗？",
+    },
+    "V1-ENT-0072": {
+        "reader_fit": "如果你喜欢家族史、虚构城镇、现实与奇迹并置，以及个人命运如何与大陆历史纠缠，可以从马尔克斯开始。",
+        "signature_keywords": ["马孔多", "家族时间", "记忆与重复"],
+        "reading_route": ["《百年孤独》", "《没有人给他写信的上校》", "《一桩事先张扬的凶杀案》"],
+        "guiding_question": "当一个共同体不断遗忘自己的历史，它会不会以另一种方式重复历史？",
+    },
+    "V1-ENT-0073": {
+        "reader_fit": "如果你喜欢游戏规则、读者参与、突然变形的日常现实，以及不按顺序阅读的可能，可以从科塔萨尔开始。",
+        "signature_keywords": ["游戏", "阅读顺序", "现实滑移"],
+        "reading_route": ["先读短篇", "《跳房子》", "沿城市、游戏和身份主题继续探索"],
+        "guiding_question": "当读者可以改变阅读顺序时，作品的意义究竟属于作者还是读者？",
+    },
+    "V1-ENT-0074": {
+        "reader_fit": "如果你喜欢加勒比历史、革命、音乐，以及不同文明时间在同一空间相撞，可以从卡彭铁尔开始。",
+        "signature_keywords": ["加勒比", "革命", "文明与时间"],
+        "reading_route": ["《人间王国》", "《消逝的足迹》", "《光明世纪》"],
+        "guiding_question": "当欧洲的现代观念进入加勒比，它还是原来的现代性吗？",
+    },
+    "V1-ENT-0114": {
+        "reader_fit": "如果你喜欢多声部小说、复杂结构、制度暴力，以及没有单一正确解释的政治与社会世界，可以从巴尔加斯·略萨开始。",
+        "signature_keywords": ["权力结构", "多重声音", "城市与制度"],
+        "reading_route": ["《城市与狗》", "《酒吧长谈》", "《世界末日之战》"],
+        "guiding_question": "当所有人都只能看到历史的一部分，小说如何逼近真相？",
+    },
+    "V1-ENT-0115": {
+        "reader_fit": "如果你喜欢强烈的感官语言、爱情诗，以及私人抒情如何逐渐扩展为大陆、劳动和历史，可以从聂鲁达开始。",
+        "signature_keywords": ["爱情与身体", "物质意象", "大陆历史"],
+        "reading_route": ["爱情诗", "更晦暗的现代经验", "《漫歌》式大陆尺度"],
+        "guiding_question": "一个私人抒情声音如何逐渐变成公共历史的声音？",
+    },
+}
+
+
+WORK_READING = {
+    "V1-ENT-0003": ("第一遍先把它当作一篇节奏很快的间谍小说，不必一开始就停下来解释所有哲学概念；到艾伯特解释“花园”时，再回头看故事的选择和结局。", "如果每一种选择都在某个世界发生，责任会因此变轻吗？"),
+    "V1-ENT-0004": ("不要只盯着“能看见全部世界的点”。先注意私人悼念、嫉妒和讽刺，因为无限空间正是从这些很世俗的情感中突然打开。", "看见一切，是否就等于理解一切？"),
+    "V1-ENT-0017": ("不要等待传统情节出现。可以把它分成较短段落阅读，注意反复出现的瞬间、感觉、声音和沉默，允许某些句子暂时不被解释。", "语言真的能够抓住“正在发生的现在”吗？"),
+    "V1-ENT-0018": ("同时跟住两条线：玛卡贝娅怎样生活，以及叙述者怎样谈论自己正在讲述她。第二条线并不是旁枝，而是小说本身的问题。", "谁有权替一个在社会中几乎没有声音的人说话？"),
+    "V1-ENT-0032": ("先接受“地点在说话”这个设定，不必急着把所有事件排成一条时间线。先问伊斯特佩克记住了什么、遗漏了什么，再逐步拼接人物命运。", "一个共同体的记忆能否比官方历史更接近真相？"),
+    "V1-ENT-0035": ("阅读时尤其注意谁在说话、谁需要被翻译、谁保持沉默，以及家庭内部的日常语言如何连接到庄园和土地权力。", "语言上的不平等如何变成社会上的不平等？"),
+    "V1-ENT-0038": ("第一遍不要强迫自己立刻判断每个声音属于谁、发生在什么年份。先抓住“谁在说、说到哪个地点、与佩德罗有什么关系”，时间会在阅读中逐渐显形。", "为什么一座已经荒芜的村镇仍然充满声音？"),
+    "V1-ENT-0075": ("把重复的人名和重复的命运当作作品设计，而不是阅读障碍。比起记住所有人物关系，更重要的是观察哪些欲望、错误和记忆正在一代代重新出现。", "家族为什么总在重复上一代已经经历过的事情？"),
+    "V1-ENT-0076": ("注意重复：星期五、等待、信、斗鸡。小说的节奏故意让读者一起经历“什么都没有发生”的时间，这正是作品的力量。", "尊严在什么情况下会变成一种奢侈，又为什么仍然值得坚持？"),
+    "V1-ENT-0077": ("不要把注意力放在“凶手是谁”。真正要追的是：谁在什么时候知道了什么、为什么没有行动，以及每个人后来怎样解释自己的无能为力。", "当所有人都只承担一点点责任时，悲剧最终属于谁？"),
+    "V1-ENT-0078": ("先选择作品提供的一种阅读方式开始，不必追求“正确顺序”。更重要的是观察：当章节顺序改变，人物、城市和思想之间的关系怎样改变。", "一本书的顺序被打乱之后，读者获得的是自由，还是另一套规则？"),
+    "V1-ENT-0079": ("不要把超自然信念只当作“奇幻元素”。把它看成不同人物理解现实、历史和行动的一种方式，再观察它与殖民秩序怎样并存。", "推翻一种权力，为什么可能产生另一种权力？"),
+    "V1-ENT-0080": ("跟着空间变化读时间变化：都市、旅途、内地不仅是地点转换，也会改变主人公理解艺术、文明和自我的方式。", "离开现代城市，是否真的能够离开现代生活本身？"),
+    "V1-ENT-0081": ("不要只追革命事件本身。注意“自由”“启蒙”等观念每进入一个新的加勒比空间，就怎样与航船、贸易、暴力和个人欲望发生变化。", "一种解放性的观念，如何在传播过程中同时携带暴力？"),
+    "V1-ENT-0116": ("先认清绰号和不同叙述声音，再观察军校规则怎样迫使人物表演强硬。不要只把暴力理解成个体性格问题。", "一个制度如何让人把服从、残酷和“成熟”误认为同一件事？"),
+    "V1-ENT-0117": ("把酒吧里的谈话当作锚点，不必第一遍就重建完整年代。每当叙述切换，先问“这段记忆是谁的、它解释了当前谈话中的什么”。", "一个人什么时候开始意识到，自己的私人失败其实也是时代的一部分？"),
+    "V1-ENT-0118": ("面对众多立场时，不必急着寻找唯一可靠的声音。先辨认每一群人如何命名对方、误解对方，再看误解怎样一步步变成战争条件。", "历史冲突中最危险的，究竟是利益差异，还是确信自己已经完全理解了对方？"),
+}
+
+
+WORK_INTRO_OVERRIDES = {
+    "V1-ENT-0018": "玛卡贝娅从巴西东北部来到里约热内卢，以打字工作勉强生活。她贫穷，几乎没有足够的资源和语言解释自己的处境，却也没有完全按照周围人的尺度理解自己。叙述者罗德里戈·S.M.一边讲她的故事，一边暴露自己的犹豫、优越与无能：小说因此同时审视人物的生活和替她发声的行为。",
+    "V1-ENT-0081": "十八世纪末，来自马赛的维克多·于格进入古巴三个年轻人的生活，并把法国革命的理想、野心与暴力一并带入他们此后的加勒比经历。宏大历史也通过航船、艺术物件与个人选择变得具体可感。",
+}
+
+
+PLACE_PATHS = {
+    "V1-ENT-0001": "从博尔赫斯进入“迷宫与无限”，再转向科塔萨尔的《跳房子》，比较两种完全不同的阿根廷形式实验。",
+    "V1-ENT-0022": "从《星辰时刻》进入玛卡贝娅的城市生活，再回到李斯佩克朵，继续阅读“城市中的不可见者”和“谁替谁说话”。",
+    "V1-ENT-0051": "沿三条路线进入：加罗 → 《未来的回忆》 → 伊斯特佩克；卡斯特利亚诺斯 → 《巴伦坎南》 → 恰帕斯；鲁尔福 → 《佩德罗·巴拉莫》 → 科马拉。",
+    "V1-ENT-0052": "卡斯特利亚诺斯 → 《巴伦坎南》 → 科米坦；重点比较土地、族群和语言如何进入家庭空间。",
+    "V1-ENT-0053": "从卡斯特利亚诺斯的成长地理进入《巴伦坎南》，再返回恰帕斯区域页，区分作家生平地点与作品故事空间。",
+    "V1-ENT-0054": "《未来的回忆》 → 埃莱娜·加罗 → 墨西哥；把“会记忆的地点”作为这条路线的核心。",
+    "V1-ENT-0055": "《佩德罗·巴拉莫》 → 胡安·鲁尔福 → 圣加布里埃尔；最后比较现实作家地理与文学虚构空间如何彼此关联但不等同。",
+    "V1-ENT-0057": "胡安·鲁尔福 → 《佩德罗·巴拉莫》 → 科马拉；重点理解“作家现实地理不等于虚构空间原型坐标”。",
+    "V1-ENT-0095": "阿卡塔卡 → 加西亚·马尔克斯 → 《百年孤独》 → 马孔多，再从《没有人给他写信的上校》和《一桩事先张扬的凶杀案》进入等待与共同体责任。",
+    "V1-ENT-0096": "阿莱霍·卡彭铁尔 → 《人间王国》 / 《光明世纪》 / 《消逝的足迹》，以加勒比、革命、音乐与时间作为四个继续探索入口。",
+    "V1-ENT-0097": "《百年孤独》 → 加西亚·马尔克斯 → 阿卡塔卡；随后转向《没有人给他写信的上校》，比较同一作家如何从百年家族史收缩到漫长等待。",
+    "V1-ENT-0098": "加西亚·马尔克斯 → 《百年孤独》 → 马孔多；始终明确现实出生地与文学虚构城市不能画等号。",
+    "V1-ENT-0123": "巴勃罗·聂鲁达 → 爱情与身体 → 更晦暗的现代经验 → 大陆、劳动与历史，形成一条“私人抒情如何扩大”的阅读路线。",
+    "V1-ENT-0124": "巴尔加斯·略萨 → 《城市与狗》 → 利马 → 《酒吧长谈》，再由城市与制度权力转向《世界末日之战》的历史冲突。",
+    "V1-ENT-0125": "《城市与狗》 → 《酒吧长谈》 → 巴尔加斯·略萨；比较军校、家庭、新闻、酒吧等不同城市空间如何呈现权力。",
+    "V1-ENT-0126": "阿雷基帕 → 巴尔加斯·略萨 → 利马 → 《城市与狗》。本页以作家生平入口为主，不把这里写成重要作品故事空间。",
+    "V1-ENT-0128": "圣地亚哥 → 聂鲁达 → 智利 → 诗歌阅读路线；把这里作为作家公共与文学生活的现实节点。",
+    "V1-ENT-0129": "马德里 → 巴尔加斯·略萨 → 跨大西洋写作与居住经历。本地点只作作家页延伸入口，不进入首页主地图核心点。",
+    "V2-GEO-BR": "李斯佩克朵 → 里约热内卢 → 《星辰时刻》 → 《活水》；《世界末日之战》的巴西腹地路线待正式地点节点补充后再上线。",
+}
+
+
 def build():
     authors = []
     for target_id, sources, refs, lede, why, features, themes, starts in AUTHORS:
+        expansion = AUTHOR_EXPANSION[target_id]
         authors.append({
             "target_id": target_id,
             "reader_lede": field(lede, refs, sources),
-            "why_know": field(why, refs, sources, "user_review", "包含认识价值与编辑取舍，等待 USER 集中审核"),
+            "why_know": user_field(why, refs, sources),
             "literary_profile": field(lede, refs, sources, "user_review", "需与短导语区分并完成编辑审核"),
             "literary_features": field(features, refs, sources),
-            "start_here": field(starts, refs, sources, "user_review", "入门排序与理由属于编辑推荐"),
-            "core_themes": field(themes, refs, sources, "user_review", "主题取舍及解释等待 USER 审核"),
+            "start_here": user_field(starts, refs, sources),
+            "core_themes": user_field(themes, refs, sources),
             "literary_connections": field([item["target_id"] for item in starts], refs, sources, "user_review", "不能从未审核入门排序派生自动关系"),
+            "reader_fit": user_field(expansion["reader_fit"], refs, sources),
+            "signature_keywords": user_field(expansion["signature_keywords"], refs, sources),
+            "reading_route": user_field(expansion["reading_route"], refs, sources),
+            "guiding_question": user_field(expansion["guiding_question"], refs, sources),
         })
     works = []
     why_source = {item["work_id"]: item for item in json.loads((ROOT / "data/v2/presentation/PUBLIC_PRESENTATION.json").read_text(encoding="utf-8"))["why_read"]}
     for target_id, sources, refs, intro, narrative, themes, location, next_reads in WORKS:
         if target_id == "V1-ENT-0118":
             refs = [*refs, "V1-REL-0076"]
+        intro = WORK_INTRO_OVERRIDES.get(target_id, intro)
         reviewed_why = why_source.get(target_id, {}).get("points") or narrative[:2]
+        if target_id == "V1-ENT-0035":
+            reviewed_why = [
+                feature("不平等的世界在同一片恰帕斯社会空间中并置", "白人庄园家庭与原住民共同体的经验彼此靠近却并不平等，语言、土地与权力的差异因此直接进入叙事。"),
+                *reviewed_why[1:],
+            ]
+        reading_approach, guiding_question = WORK_READING[target_id]
         works.append({
             "target_id": target_id,
-            "story_intro": field(intro, refs, sources),
+            "story_intro": user_field(intro, refs, sources),
             "reading_premise": field(intro.split("。", 1)[0] + "。", refs, sources, "user_review", "当前为候选短导语；须改为显式字段并经审核"),
-            "why_read": field(reviewed_why, refs, sources, "user_review", "阅读价值表达等待 USER 集中审核"),
+            "why_read": user_field(reviewed_why, refs, sources),
             "narrative_features": field(narrative, refs, sources),
-            "theme_explanations": field(themes, refs, sources, "user_review", "主题筛选与解释等待 USER 集中审核"),
+            "theme_explanations": user_field(themes, refs, sources),
             "literary_significance": field(narrative[0]["text"], refs, sources, "user_review", "文学意义含价值判断"),
-            "reading_tips": field("先接受作品给出的声音与结构，不必急于把每条时间线一次拼完。", refs, sources, "user_review", "阅读方法属于编辑建议"),
-            "next_reads": field(next_reads, refs, sources, "user_review", "跨作品推荐等待 USER 集中审核"),
+            "reading_tips": user_field(reading_approach, refs, sources),
+            "reading_approach": user_field(reading_approach, refs, sources),
+            "guiding_question": user_field(guiding_question, refs, sources),
+            "next_reads": user_field(next_reads, refs, sources),
             "location_note": field(location, refs, sources),
         })
     old_entries = list(csv.DictReader((ROOT / "data/v2/curation/CURATION_ENTRIES.csv").open(encoding="utf-8-sig")))
-    place_sources = {row["target_id"]: [item for item in row["source_refs"].split(";") if item] for row in old_entries if row["field_key"] in {"literary_place_note", "fictional_space_note"}}
+    place_sources = {row["target_id"]: [item for item in row["source_refs"].split(";") if item.startswith("SRC-") or item.startswith("http")] for row in old_entries if row["field_key"] in {"literary_place_note", "fictional_space_note"}}
+    place_refs = {}
+    with (ROOT / "data/v2/geo/PLACE_RELATIONS.csv").open(encoding="utf-8-sig") as handle:
+        for row in csv.DictReader(handle):
+            place_refs.setdefault(row["target_place_id"], []).append(row["v1_relationship_id"])
+    place_refs["V2-GEO-BR"] = ["V1-REL-0005", "V1-REL-0006", "V1-REL-0008", "V1-REL-0013"]
+    place_sources["V2-GEO-BR"] = ["SRC-0009", "SRC-0012"]
     places = []
     for target_id, (intro, meaning) in PLACE_MEANINGS.items():
         sources = place_sources.get(target_id) or []
-        refs = []
+        refs = place_refs.get(target_id) or []
         places.append({
             "target_id": target_id,
-            "literary_intro": field(intro, refs, sources, "user_review", "地点聚合说明须逐条绑定正式事实或关系"),
-            "spatial_meaning": field(meaning, refs, sources, "user_review", "空间意义包含编辑解释，等待 USER 审核"),
-            "reader_path": field("从本页进入相关作家与作品，再沿研究来源继续。", refs, sources, "user_review", "阅读路径属于编辑选择"),
+            "literary_intro": user_field(intro, refs, sources),
+            "spatial_meaning": user_field(meaning, refs, sources),
+            "reader_path": user_field(PLACE_PATHS[target_id], refs, sources),
+            "exploration_route": user_field(PLACE_PATHS[target_id], refs, sources),
         })
-    return {"schema_version": "v2-curation-content-0.2", "authors": authors, "works": works, "places": places}
+    return {"schema_version": "v2-curation-content-0.3", "authors": authors, "works": works, "places": places}
 
 
 def main():

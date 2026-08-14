@@ -1,7 +1,7 @@
 # 拉丁美洲文学地图 V2 任务源
 
 - **版本**：1.0.0
-- **最后更新**：2026-08-13
+- **最后更新**：2026-08-14
 - **状态**：ACTIVE
 - **唯一动态状态源**：本文件
 - **上位文件**：
@@ -14,10 +14,10 @@
 - **当前阶段**：阶段 8：V2-N4 正式发布准备
 - **当前节点**：`V2-N1`、`V2-N2`、`V2-N3` 已完成；当前用户节点为 `V2-N4`
 - **当前任务**：`V2-N4` 正式公开发布审核（👤 USER_REVIEW）
-- **下一任务**：独立复审 `V2.0.0-rc.4`；不预设复审结论
+- **下一任务**：USER 体验 rc.5 Phase B 内容密度预览并集中审核 5 个新增首页路径问题
 - **当前阻塞**：正式部署仍受 USER 批准、HTTPS origin 与 Pages 设置约束
 - **需要 USER**：集中审核未进入 public bundle 的策展队列；返修负责人不得代为批准
-- **最近完成**：`V2-N4-R03` 独立终审发布阻断返修；`V2.0.0-rc.4` 等待独立复审
+- **最近完成**：`V2-N4-R04 Phase B` 内容密度与策展扩张；rc.5 本地 USER_REVIEW preview 已重建
 
 ## 任务状态规则
 
@@ -415,7 +415,11 @@
 - **范围**：研究与来源补强、Curation Schema 加法兼容升级、公众内容页与首页/时间线深化、纸张视觉系统、内容质量门禁、候选身份一致性、跨浏览器与性能 QA。
 - **强制产物**：`docs/V2_RC5_CONTENT_RESEARCH_REPORT.md`、`docs/V2_RC5_CURATION_USER_REVIEW.md`、`docs/V2_RC5_VISUAL_DESIGN_QA.md`、`docs/V2_RC5_PRODUCT_AUDIT.md`、`docs/V2_RC5_BROWSER_PERFORMANCE_QA.md`、`docs/V2_RC5_RELEASE_INTEGRITY_QA.md`、`artifacts/v2-rc5/`。
 - **研究边界**：新增事实与来源必须经过候选变更集、独立 Reviewer、版本化 SQLite 迁移及全量导出；策展内容不得伪装成研究关系，未经批准的 `user_review` 不进入 public bundle。
-- **发布边界**：允许提交、推送并更新 PR #4；禁止 merge、tag、GitHub Release、正式 Pages 部署及将 V2-N4 标为通过。
+- **发布边界**：允许提交、推送并更新 PR #5；禁止 merge、tag、GitHub Release、正式 Pages 部署及将 V2-N4 标为通过。
+- **Phase B：内容密度与策展扩张**：`✅ DONE`。按 USER 指定的 `V2_RC5_CURATION_SOL_REVIEW_AND_EXPANSION.md` 保留并深化 10 位作家、17 部作品和 19 个地点；补齐 reader fit、3 个关键词、阅读路线、作品专属 reading approach、阅读问题、地点探索路线和 10 条首页路径；未新增 Research Relationship 或地图坐标。
+- **Phase B QA**：`docs/V2_RC5_CONTENT_DENSITY_QA.md`；地图补点边界见 `docs/V2_RC5_MAP_EXPANSION_RESEARCH_GAPS.md`；仅 5 个由 Codex 补写的既有首页路径问题继续列入 `docs/V2_RC5_CURATION_USER_REVIEW.md`。
+- **Phase B 预览**：`artifacts/v2-rc5/user-review-preview/`，仅供本地 USER_REVIEW，不是正式 public bundle。
+- **PR 纠正**：当前候选为 PR #5；PR #4 已被 rc.5 完整继承并作为历史记录关闭。
 - **状态**：`🔵 IN_PROGRESS`
 
 ## 当前执行边界

@@ -74,7 +74,7 @@ def clean_public_data(source: Path) -> dict[str, object]:
         }
         for item in payload["timeline"]
     ]
-    presentation = {key: value for key, value in payload["presentation"].items() if key in {"site", "reading_paths", "timeline_periods", "why_read", "next_reads"}}
+    presentation = {key: value for key, value in payload["presentation"].items() if key in {"site", "reading_paths", "timeline_periods", "timeline_note", "why_read", "next_reads"}}
     for group in ("reading_paths", "timeline_periods", "why_read", "next_reads"):
         if any(item.get("review_status") != "auto_approved" for item in presentation.get(group, [])):
             raise ValueError(f"public presentation gate failed for {group}")

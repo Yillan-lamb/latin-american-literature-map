@@ -209,7 +209,7 @@ def build_data(db_path: Path, geo_dir: Path, curation_dir: Path, presentation_pa
             if status not in ALLOWED_CURATION_STATUSES:
                 raise ValueError(f"{group} item lacks an explicit valid review_status: {item.get('id')}")
     content = json.loads(public_content_path.read_text(encoding="utf-8"))
-    if content.get("schema_version") != "v2-curation-content-0.2":
+    if content.get("schema_version") != "v2-curation-content-0.3":
         raise ValueError("unexpected public content schema")
     content_public: dict[str, list[dict[str, Any]]] = {}
     content_review_queue: dict[str, list[dict[str, Any]]] = {}

@@ -169,7 +169,7 @@ S2-002 的构建与 QA 至少检查：
 
 ## 11. rc.5 加法兼容内容契约
 
-`data/v2/curation/PUBLIC_CONTENT.json` 使用 `v2-curation-content-0.2`，作为三个既有 CSV 的加法扩展，不替换旧字段。它保存作家、作品和地点的公众长内容模块，但不保存或改写研究事实。
+`data/v2/curation/PUBLIC_CONTENT.json` 使用 `v2-curation-content-0.3`，作为三个既有 CSV 的加法扩展，不替换旧字段。它保存作家、作品和地点的公众长内容模块，但不保存或改写研究事实。
 
 顶层包含 `authors`、`works`、`places`。每个对象必须有稳定 `target_id`，每个内容字段使用统一审核包装：
 
@@ -186,6 +186,6 @@ S2-002 的构建与 QA 至少检查：
 }
 ```
 
-作者允许字段：`reader_lede`、`why_know`、`literary_profile`、`literary_features`、`start_here`、`core_themes`、`literary_connections`。作品允许字段：`story_intro`、`reading_premise`、`why_read`、`narrative_features`、`theme_explanations`、`literary_significance`、`reading_tips`、`next_reads`、`location_note`。地点允许字段：`literary_intro`、`spatial_meaning`、`reader_path`。
+作者允许字段：`reader_lede`、`why_know`、`literary_profile`、`literary_features`、`start_here`、`core_themes`、`literary_connections`、`reader_fit`、`signature_keywords`、`reading_route`、`guiding_question`。作品允许字段：`story_intro`、`reading_premise`、`why_read`、`narrative_features`、`theme_explanations`、`literary_significance`、`reading_tips`、`reading_approach`、`guiding_question`、`next_reads`、`location_note`。地点允许字段：`literary_intro`、`spatial_meaning`、`reader_path`、`exploration_route`。
 
 构建器只把 `auto_approved` 字段投影到 public bundle；`user_review` 与 `hold` 进入内部审核队列。前端不得根据事实字段临时拼接上述核心文学模块。

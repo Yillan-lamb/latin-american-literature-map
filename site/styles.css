@@ -266,6 +266,12 @@ button:focus-visible, a:focus-visible, input:focus-visible, summary:focus-visibl
 .timeline-group .section-heading { margin-bottom: 4px; }
 .timeline-full .timeline-item { grid-template-columns: 130px 1fr; padding: 20px 0; }
 .timeline-item strong a { text-decoration: underline; text-decoration-color: rgba(224,91,70,.5); text-underline-offset: 4px; }
+.route-steps { max-width: 760px; margin: 0; padding: 0; list-style: none; counter-reset: route-step; border-top: 1px solid var(--line); }
+.route-steps li { counter-increment: route-step; display: grid; grid-template-columns: 48px 1fr; gap: 16px; padding: 18px 0; border-bottom: 1px solid var(--line); font: 500 20px/1.5 var(--serif); }
+.route-steps li::before { content: counter(route-step, decimal-leading-zero); color: var(--coral-deep); font: 600 12px/2 var(--sans); }
+.guiding-question { max-width: 900px; }
+.guiding-question blockquote { margin: 12px 0 0; padding: 24px 0 24px 28px; border-left: 3px solid var(--coral); font: 500 clamp(24px, 3vw, 38px)/1.4 var(--serif); }
+.reader-fit { max-width: 900px; border-top: 1px solid var(--ink); }
 .status-note { margin-top: 12px; padding: 10px 12px; color: var(--muted); background: rgba(231,189,102,.16); font-size: 12px; line-height: 1.6; }
 .curation-source { display: block; margin-top: 10px; color: var(--muted); font-size: 11px; line-height: 1.6; }
 .curation-source a { color: var(--blue); text-decoration: underline; text-underline-offset: 2px; }

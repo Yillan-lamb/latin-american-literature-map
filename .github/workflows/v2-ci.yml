@@ -2,6 +2,8 @@ name: V2 CI
 
 on:
   push:
+    branches:
+      - main
   pull_request:
   workflow_dispatch:
 
@@ -9,7 +11,52 @@ permissions:
   contents: read
 
 jobs:
+  review-integrity:
+    if: ${{ github.event_name == 'pull_request' && github.event.pull_request.draft == true }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "24.14.0"
+      - name: Validate review package and research data
+        run: |
+          python3 scripts/validate_master.py data/master/V1_MASTER.sqlite
+          python3 scripts/validate_v2_content_quality.py
+      - name: Rebuild review-stage Web Data in isolation
+        run: |
+          rm -rf /tmp/v2-review-web
+          python3 scripts/build_v2_web_data.py --output-dir /tmp/v2-review-web --generated-at 2026-08-13T00:00:00Z
+      - name: Check review-stage Web Data has no unexpected diff
+        run: |
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+
+          pairs = (
+              (Path("data/v2/web/site_data.json"), Path("/tmp/v2-review-web/site_data.json")),
+              (Path("data/v2/web/manifest.json"), Path("/tmp/v2-review-web/manifest.json")),
+          )
+          for committed_path, rebuilt_path in pairs:
+              committed = json.loads(committed_path.read_text(encoding="utf-8"))
+              rebuilt = json.loads(rebuilt_path.read_text(encoding="utf-8"))
+              committed.pop("generated_at", None)
+              rebuilt.pop("generated_at", None)
+              if committed != rebuilt:
+                  raise SystemExit(f"unexpected Web Data rebuild diff: {committed_path}")
+          PY
+      - name: Check frontend syntax and whitespace
+        run: |
+          node --check site/app.js
+          git diff --check
+
   release-integrity:
+    if: ${{ github.event_name == 'workflow_dispatch' || github.ref == 'refs/heads/main' || (github.event_name == 'pull_request' && github.event.pull_request.draft == false) }}
     runs-on: ubuntu-latest
     env:
       CANDIDATE_SHA: ${{ github.event_name == 'pull_request' && github.event.pull_request.head.sha || github.sha }}
@@ -79,6 +126,8 @@ jobs:
             dist/
 
   rc-browser-matrix:
+    needs: release-integrity
+    if: ${{ needs.release-integrity.result == 'success' && (github.event_name == 'workflow_dispatch' || github.ref == 'refs/heads/main' || (github.event_name == 'pull_request' && github.event.pull_request.draft == false)) }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4

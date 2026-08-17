@@ -54,6 +54,31 @@ jobs:
           node --check site/app.js
           git diff --check
 
+  web-pr-browser-smoke:
+    if: ${{ github.event_name == 'pull_request' }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "24.14.0"
+          cache: npm
+      - name: Install locked Chromium QA dependencies
+        run: |
+          npm ci
+          npx playwright install --with-deps chromium
+      - name: Build local Web 0.x review preview
+        run: python3 scripts/build_v2_user_review_preview.py
+      - name: Run Chromium desktop and mobile map smoke
+        run: |
+          python3 -m http.server 4173 --directory artifacts/v2-rc5/user-review-preview > /tmp/web-pr-http.log 2>&1 &
+          server_pid=$!
+          trap 'kill "$server_pid"' EXIT
+          npm run qa:browser:chromium
+
   release-integrity:
     if: ${{ github.event_name == 'workflow_dispatch' }}
     runs-on: ubuntu-latest

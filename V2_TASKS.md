@@ -436,6 +436,15 @@
 - **策展边界**：现有 `user_review` 与 `hold` 保持原状态；内部环境允许构建 USER_REVIEW preview，正式 Public Build 仍不得包含未批准策展内容。
 - **状态**：`✅ DONE`
 
+### ✅ WEB-0.1-UX-P0：地图文学发现体验优化
+
+- **性质**：Web 0.1.x 已完成差量任务；不替代 `WEB-CONTENT-EXPANSION`，不新增第二个 `IN_PROGRESS`。
+- **任务内容**：在既有地图方案上补充动态文学 Context Panel、虚构空间 inset、国家/地点即时发现、读者向 Hero / About 文案，并返修跨国家选中状态、国家聚合口径、筛选失效状态与交互式 SVG 无障碍语义。
+- **产物**：`site/app.js`、`site/styles.css`、`tests/browser/public-product.spec.cjs`、`.github/workflows/v2-ci.yml`、`CHANGELOG.md`；Research / Geo / Curation / Web Data / Frontend 分层不变。
+- **验证结果**：Research Data 完整性、内容质量、Web Data 确定性重建与 validator、public bundle / language scan、前端语法与差异检查均通过；Chromium PR smoke 为 26/26，Chromium / Firefox / WebKit 完整矩阵为 52/52。
+- **发布边界**：未修改研究事实、既有文学关系、虚构空间坐标规则、`PROJECT_CHARTER.md`、Web 0.1.0 开发基线或 `V2-PUBLIC-RELEASE = PAUSED`；不创建 tag、Release 或 production deployment。
+- **状态**：`✅ DONE`
+
 ### 🔵 WEB-CONTENT-EXPANSION：研究数据库与策展内容持续扩张
 
 - **目标**：以 Research Data 增长驱动网页覆盖、内容密度与策展路径增长，不以在前端手写研究事实弥补数据库不足。

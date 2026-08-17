@@ -127,15 +127,8 @@ function featurePath(feature) {
   return feature.geometry.type === "Polygon" ? polygonPath(coordinates) : coordinates.map(polygonPath).join("");
 }
 
-function mapContextFor(target) {
-  if (!target) return null;
-  const mapped = place(target.id);
-  if (!mapped) return null;
-  const fictional = target.type === "fictional_space";
-  const children = target.type === "country"
-    ? publicPlaces().filter((item) => item.parent_place_id === target.id && item.reality_status === "real" && isPublic(item.place_id))
-    : [];
-  const scope = new Set([target.id, ...children.map((item) => item.place_id)]);
+function literaryConnectionsFor(placeIds, includeWorkCreators = false) {
+  const scope = new Set(placeIds);
   const mapRelations = data.map.relations.filter((item) => scope.has(item.target_place_id));
   const authorIds = new Set(mapRelations
     .filter((item) => entity(item.source_entity_id)?.entity_type === "author" && isPublic(item.source_entity_id))
@@ -143,11 +136,45 @@ function mapContextFor(target) {
   const workIds = new Set(mapRelations
     .filter((item) => entity(item.source_entity_id)?.entity_type === "work" && isPublic(item.source_entity_id))
     .map((item) => item.source_entity_id));
-  if (fictional) {
+  if (includeWorkCreators) {
     data.research.relationships
       .filter((item) => item.relation_type === "CREATED" && workIds.has(item.object_id) && isPublic(item.subject_id))
       .forEach((item) => authorIds.add(item.subject_id));
   }
+  return {
+    authors: [...authorIds].map(entity).filter(Boolean),
+    works: [...workIds].map(entity).filter(Boolean),
+  };
+}
+
+function countryLiteraryContext(countryId) {
+  const allChildren = publicPlaces().filter((item) => item.parent_place_id === countryId && isPublic(item.place_id));
+  const children = allChildren.filter((item) => item.reality_status === "real");
+  return {
+    allChildren,
+    children,
+    ...literaryConnectionsFor([countryId, ...allChildren.map((item) => item.place_id)]),
+  };
+}
+
+function allowedMapRoles(filter = mapFilter) {
+  return { author_geography: ["author_geography"], story_setting: ["story_setting"], all: ["author_geography", "story_setting"] }[filter] || [];
+}
+
+function visibleRealMapPlaces(filter = mapFilter) {
+  const roles = allowedMapRoles(filter);
+  const relatedPlaceIds = new Set(data.map.relations.filter((item) => roles.includes(item.map_relation_role)).map((item) => item.target_place_id));
+  return publicPlaces().filter((item) => item.reality_status === "real" && item.place_kind !== "country" && item.latitude != null && (!activeCountry || item.parent_place_id === activeCountry) && relatedPlaceIds.has(item.place_id));
+}
+
+function mapContextFor(target) {
+  if (!target) return null;
+  const mapped = place(target.id);
+  if (!mapped) return null;
+  const fictional = target.type === "fictional_space";
+  const connections = target.type === "country"
+    ? countryLiteraryContext(target.id)
+    : { children: [], ...literaryConnectionsFor([target.id], fictional) };
   const copy = contentFor("places", target.id);
   const curationKey = fictional ? "fictional_space_note" : "literary_place_note";
   const description = copy.literary_intro || publicText(curationFor(target.id, curationKey)?.content_zh)
@@ -156,9 +183,9 @@ function mapContextFor(target) {
     mapped,
     type: target.type,
     description,
-    children,
-    authors: [...authorIds].map(entity).filter(Boolean),
-    works: [...workIds].map(entity).filter(Boolean),
+    children: connections.children,
+    authors: connections.authors,
+    works: connections.works,
   };
 }
 
@@ -185,9 +212,7 @@ function mapMarkup() {
     const active = selectedCode === code;
     return `<path d="${featurePath(feature)}" class="country-shape ${country ? "available" : ""} ${active ? "active" : ""}" ${country ? `data-country-id="${escapeHtml(country.place_id)}" tabindex="0" role="button" aria-pressed="${active}" aria-label="探索${escapeHtml(country.name_zh)}文学"` : `aria-hidden="true"`}><title>${escapeHtml(country?.name_zh || feature.properties.ADMIN)}</title></path>`;
   }).join("");
-  const allowedRoles = { author_geography: ["author_geography"], story_setting: ["story_setting"], all: ["author_geography", "story_setting"] }[mapFilter] || [];
-  const relatedPlaceIds = new Set(data.map.relations.filter((item) => allowedRoles.includes(item.map_relation_role)).map((item) => item.target_place_id));
-  const realNodes = publicPlaces().filter((item) => item.reality_status === "real" && item.place_kind !== "country" && item.latitude != null && (!activeCountry || item.parent_place_id === activeCountry) && relatedPlaceIds.has(item.place_id));
+  const realNodes = visibleRealMapPlaces();
   const labelOffsets = { "V1-ENT-0052": [10, -12], "V1-ENT-0053": [10, 16], "V1-ENT-0054": [-72, 16] };
   const points = realNodes.map((item) => {
     const [x, y] = project([item.longitude, item.latitude]);
@@ -197,7 +222,7 @@ function mapMarkup() {
   }).join("");
   const fictionalNodes = publicPlaces().filter((item) => item.reality_status === "fictional" && isPublic(item.place_id));
   const fictionalInset = `<section class="fictional-space-inset" aria-labelledby="fictional-space-title"><p id="fictional-space-title">写出来的地方</p><span>不使用现实坐标</span><div>${fictionalNodes.map((item) => { const active = activeMapTarget?.type === "fictional_space" && activeMapTarget.id === item.place_id; return `<button type="button" class="fictional-space-button ${active ? "active" : ""}" data-fictional-space-id="${escapeHtml(item.place_id)}" aria-pressed="${active}"><i aria-hidden="true"></i><strong>${escapeHtml(item.name_zh)}</strong></button>`; }).join("")}</div></section>`;
-  return `<div class="map-shell"><div class="map-toolbar"><strong>从国家与地点进入文学</strong><div class="map-legend"><span><i class="legend-swatch country"></i>可探索国家</span><span><i class="legend-swatch place"></i>现实地点</span><span><i class="legend-swatch fictional"></i>文学虚构空间</span></div></div><div class="map-layout"><div class="map-canvas"><svg viewBox="0 0 880 560" role="img" aria-labelledby="map-title map-description"><title id="map-title">拉丁美洲文学地图</title><desc id="map-description">真实国家边界以及依据坐标投影的文学地点。选择国家、现实地点或文学虚构空间，在右侧查看相关作家和作品。</desc><g>${shapes}</g><g>${points}</g></svg>${fictionalInset}</div>${mapContextPanelMarkup()}</div><div class="map-footer"><div class="map-filter">${[["all","全部地点"],["author_geography","作家地理"],["story_setting","故事空间"]].map(([key,label]) => `<button class="chip ${mapFilter === key ? "active" : ""}" aria-pressed="${mapFilter === key}" data-map-filter="${key}">${label}</button>`).join("")}</div><button class="map-reset" type="button" data-map-reset>${activeMapTarget ? "清除选择，返回完整地图" : "点击地图上的地点开始"}</button></div></div>`;
+  return `<div class="map-shell"><div class="map-toolbar"><strong>从国家与地点进入文学</strong><div class="map-legend"><span><i class="legend-swatch country"></i>可探索国家</span><span><i class="legend-swatch place"></i>现实地点</span><span><i class="legend-swatch fictional"></i>文学虚构空间</span></div></div><div class="map-layout"><div class="map-canvas"><svg viewBox="0 0 880 560" aria-labelledby="map-title map-description"><title id="map-title">拉丁美洲文学地图</title><desc id="map-description">真实国家边界以及依据坐标投影的文学地点。选择国家、现实地点或文学虚构空间，在右侧查看相关作家和作品。</desc><g>${shapes}</g><g>${points}</g></svg>${fictionalInset}</div>${mapContextPanelMarkup()}</div><div class="map-footer"><div class="map-filter">${[["all","全部地点"],["author_geography","作家地理"],["story_setting","故事空间"]].map(([key,label]) => `<button class="chip ${mapFilter === key ? "active" : ""}" aria-pressed="${mapFilter === key}" data-map-filter="${key}">${label}</button>`).join("")}</div><button class="map-reset" type="button" data-map-reset>${activeMapTarget ? "清除选择，返回完整地图" : "点击地图上的地点开始"}</button></div></div>`;
 }
 
 function renderHome(focusContext = false) {
@@ -229,13 +254,18 @@ function bindMapInteractions() {
       const id = element.dataset[idKey];
       activeMapTarget = { type, id };
       if (type === "country") activeCountry = id;
-      else if (type === "place") activeCountry = place(id)?.parent_place_id || activeCountry;
+      else activeCountry = place(id)?.parent_place_id || null;
       renderHome(true);
     };
     element.addEventListener("click", activate);
     element.addEventListener("keydown", (event) => { if (["Enter", " "].includes(event.key)) { event.preventDefault(); activate(); } });
   });
-  document.querySelectorAll("[data-map-filter]").forEach((button) => button.addEventListener("click", () => { mapFilter = button.dataset.mapFilter; renderHome(); }));
+  document.querySelectorAll("[data-map-filter]").forEach((button) => button.addEventListener("click", () => {
+    mapFilter = button.dataset.mapFilter;
+    const selectedPlaceIsVisible = activeMapTarget?.type !== "place" || visibleRealMapPlaces().some((item) => item.place_id === activeMapTarget.id);
+    if (!selectedPlaceIsVisible) activeMapTarget = null;
+    renderHome(!selectedPlaceIsVisible);
+  }));
   bindSelection("[data-country-id]", "country", "countryId");
   bindSelection("[data-place-id]", "place", "placeId");
   bindSelection("[data-fictional-space-id]", "fictional_space", "fictionalSpaceId");
@@ -254,11 +284,7 @@ function renderCountry(id) {
   const country = place(id);
   if (!country || country.map_status === "hidden") return renderNotFound();
   const copy = contentFor("places", id);
-  const children = publicPlaces().filter((item) => item.parent_place_id === id && isPublic(item.place_id));
-  const scope = new Set([id, ...children.map((item) => item.place_id)]);
-  const mapRelations = data.map.relations.filter((item) => scope.has(item.target_place_id));
-  const authors = [...new Set(mapRelations.filter((item) => entity(item.source_entity_id)?.entity_type === "author" && isPublic(item.source_entity_id)).map((item) => item.source_entity_id))].map(entity);
-  const works = [...new Set(mapRelations.filter((item) => entity(item.source_entity_id)?.entity_type === "work" && isPublic(item.source_entity_id)).map((item) => item.source_entity_id))].map(entity);
+  const { allChildren: children, authors, works } = countryLiteraryContext(id);
   const note = copy.literary_intro || publicText(curationFor(id, "literary_place_note")?.content_zh) || `从${country.name_zh}的作家、作品与文学地点开始探索。`;
   setMeta(`${country.name_zh}文学`, note, routePath("country", id));
   app.innerHTML = `<section class="page-header"><p class="eyebrow">国家文学入口</p><h1 class="display-title">${escapeHtml(country.name_zh)}</h1><p class="lede">${escapeHtml(note)}</p></section>${copy.spatial_meaning ? `<section class="section"><div class="section-heading"><h2>这里为什么值得注意</h2></div><p class="lede compact">${escapeHtml(copy.spatial_meaning)}</p></section>` : ""}<section class="section"><div class="section-heading"><h2>从这里认识作家</h2><p>与这个国家或其文学地点有正式资料关联的作家。</p></div><div class="card-grid">${authors.map(authorCard).join("") || "<p>相关作家资料仍在补充。</p>"}</div></section><section class="section"><div class="section-heading"><h2>重要地点与文学空间</h2></div><div class="card-grid">${children.map(placeCard).join("") || "<p>可继续探索的地点资料仍在补充。</p>"}</div></section><section class="section"><div class="section-heading"><h2>发生在这里的作品</h2></div><div class="card-grid">${works.map(workCard).join("") || "<p>相关作品资料仍在补充。</p>"}</div></section>${copy.exploration_route ? `<section class="section guiding-question"><p class="eyebrow">从这里继续</p><blockquote>${escapeHtml(copy.exploration_route)}</blockquote></section>` : ""}`;

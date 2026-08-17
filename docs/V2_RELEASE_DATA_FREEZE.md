@@ -1,5 +1,7 @@
 # V2.0 发布候选数据冻结与公开边界
 
+> **Historical**：本文件与既有 Manifest 保留为 Web 0.1.0 形成前的发布候选审计记录。自 2026-08-17 起，`V2-PUBLIC-RELEASE = PAUSED`；以下生产部署门禁不再是当前任务，待 USER 未来重新开启 Public Release Gate 时再使用。
+
 ## 1. 任务信息
 
 - 任务：`V2-S8-001` 发布前数据与内容冻结

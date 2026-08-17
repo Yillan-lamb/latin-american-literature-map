@@ -16,7 +16,7 @@
 
 ## 当前阶段
 
-当前正式版本为 `1.0.0`。USER 已于 2026-08-11 以 B/A/A/A 通过 N3，并批准 N4 正式发布；章程 1.4.0 将 V1 最低关系门槛调整为 75、把 150 作为 V1.1 扩展目标，Schema 0.3 新增 `BASED_ON_EVENT`（仅 `work → event`）。V1 包含 74 个来源、144 个规范实体、76 个经审核关系、40 个 hold、238 条事实素材和 40 张内容卡，同时提供 CSV、JSON、SQLite 和 18 工作表 Excel。已知问题继续公开保留，不因正式发布而确定化。
+当前 Research Data 已发布基线为 `Data V1.0.0`。USER 已于 2026-08-11 以 B/A/A/A 通过 N3，并批准该数据基线正式发布；章程 1.4.0 将 V1 最低关系门槛调整为 75、把 150 作为 V1.1 扩展目标，Schema 0.3 新增 `BASED_ON_EVENT`（仅 `work → event`）。V1 包含 74 个来源、144 个规范实体、76 个经审核关系、40 个 hold、238 条事实素材和 40 张内容卡，同时提供 CSV、JSON、SQLite 和 18 工作表 Excel。已知问题继续公开保留，不因正式发布而确定化。
 
 V1 将建立：
 
@@ -28,11 +28,13 @@ V1 将建立：
 
 网站和小程序不属于 V1。内容数据库通过节点审核后，再进入数字展览开发。
 
-### 当前 V2 阶段
+### 当前 V2 网站建设阶段
 
-V1.0.0 已正式发布。USER 已批准 V2-N1、V2-N2 和 V2-N3；独立终审发布阻断返修已形成 `V2.0.0-rc.4` 候选，正在等待独立复审。`V2-N4` 继续停在 `USER_REVIEW`，`release_state` 继续为 `pending_v2_n4`；正式版本标签、Pages 部署和公开 URL 仍等待 N4 批准。站点位于 `site/`，保留 Research / Geo / Curation / Web Data 架构；未获批准的策展内容由构建门禁自动排除。
+`V1 / V2 / V3` 是项目阶段编号，不是网站产品版本。V2 表示网站 / 数字文学展览建设阶段；当前 Web Product 基线为 `Web 0.1.0`，状态为 `DEVELOPMENT BASELINE`。它表示产品模型已经成立、项目进入 Web 0.x 持续内容建设期，不表示拉丁美洲文学覆盖充分、正式上线、GitHub Release、production Pages deployment 或公开宣传。
 
-V2 的详细产品与开发规范以 [V2 网站产品决策与开发总说明书](./V2_网站产品决策与开发总说明书.md) 为准，执行状态以 [V2 任务源](./V2_TASKS.md) 为准。V2.0 首版坚持静态优先和 Research Data + Curation Data → Web Data → Frontend 分层；复杂知识图谱、用户系统、AI 问答、CMS、3D 地图、小程序、多语言和个性化推荐不属于当前首版范围。
+`V2.0.0-rc.1`—`V2.0.0-rc.5` 作为 Web 0.1.0 形成前的历史开发候选完整保留。原 V2-N4 发布流程已由 USER 暂停，未来正式公开发布将通过单独重新开启的 `V2-PUBLIC-RELEASE` Gate 决定。站点位于 `site/`，继续保持 Research / Geo / Curation / Web Data 架构；`user_review` 与 `hold` 不因开发基线合并而自动批准，未获批准的策展内容仍由 Public Build 门禁排除。
+
+V2 的详细产品与开发规范以 [V2 网站产品决策与开发总说明书](./V2_网站产品决策与开发总说明书.md) 为准，执行状态以 [V2 任务源](./V2_TASKS.md) 为准。当前坚持静态优先和 Research Data + Curation Data → Web Data → Frontend 分层；网页增长主要来自 Research Data 增长，不在前端另行手写研究事实。
 
 ## 工作方式
 
@@ -72,11 +74,11 @@ GitHub 是本项目公开版本历史的权威来源。普通任务与返修先�
 - 已完成的验证；
 - 已知问题和下一步。
 
-版本号采用语义化规则：
+Research Data 与 Web Product 分别维护版本，不得互相覆盖历史。Web Product 在 1.0 前采用以下 SemVer 风格：
 
-- 主版本：不兼容的数据结构或项目定位变化；
-- 次版本：向后兼容的新内容、新数据或新功能；
-- 补丁版本：纠错、补证、文字调整和小范围数据修复。
+- `Web 0.1.x`：当前架构上的小型内容批次、UI 修复、文案优化和小范围策展增强；
+- `Web 0.2.0`、`Web 0.3.0`：多个新国家/地区、大量新作家作品或新一批成熟专题路径等明显内容规模增长；
+- `Web 1.0.0`：只有 USER 明确开启并批准 Public Release Gate 后使用。
 
 正式发布前由 AI 生成一页版本摘要，用户可以直接看到“改了什么、为什么改、还有什么没解决”。
 
@@ -106,6 +108,7 @@ GitHub 是本项目公开版本历史的权威来源。普通任务与返修先�
 - `docs/V2_N3_FULL_TEST_SITE_REVIEW.md`：当前完整测试站 N3 审核包；
 - `docs/V2_HOME_FULL.md`、`docs/V2_MAP_FULL.md`、`docs/V2_PAGES_FULL_QA.md`、`docs/V2_SEARCH_FULL_QA.md`、`docs/V2_TIMELINE_FULL_QA.md`、`docs/V2_RESEARCH_EVIDENCE_QA.md`、`docs/V2_RESPONSIVE_A11Y_QA.md`：V2 完整站模块与 QA 记录；
 - `docs/V2_RC4_REMEDIATION_REPORT.md`、`docs/V2_RC4_CURATION_USER_REVIEW.md`、`docs/V2_RC4_BROWSER_PERFORMANCE_QA.md`、`docs/V2_RC4_RELEASE_INTEGRITY_QA.md`：V2.0.0-rc.4 独立终审返修材料；rc.3 文档保留为历史审计记录；
+- `docs/V2_RC5_CONTENT_DENSITY_QA.md`、`docs/V2_RC5_CURATION_USER_REVIEW.md`、`docs/V2_RC5_MAP_EXPANSION_RESEARCH_GAPS.md`：rc.5 内容深化与 USER_REVIEW 预览记录；rc.1—rc.5 均为 Web 0.1.0 形成前的历史开发候选；
 - `docs/外部AI任务分工与交接手册.md`：可直接交给其他 AI 的工作说明；
 - `docs/外部AI执行工作流与自检手册.md`：外部 AI 执行、自检和差量返修规则；
 - `work/external-ai/新外部AI_项目接管与首任务提示词.md`：新执行方无需聊天上下文即可接管的首条提示词；

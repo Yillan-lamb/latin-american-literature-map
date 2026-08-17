@@ -1,5 +1,7 @@
 # 拉丁美洲文学地图 V2.0.0-rc.4 候选说明
 
+> **Historical**：本文件记录 Web 0.1.0 形成前的 rc.4 历史开发候选。自 2026-08-17 起，网站产品基线为 `Web 0.1.0 DEVELOPMENT BASELINE`，原 V2-N4 发布流程为 `PAUSED BY USER`；本文件不再表示即将正式发布。
+
 > 当前状态：独立终审返修候选；`V2-N4 = USER_REVIEW`，`release_state = pending_v2_n4`。未部署、未创建 tag 或 GitHub Release。
 
 rc.4 保留 Research / Geo / Curation / Web Data 架构，修复未审批策展内容公开、作者/作品完整页标准、关系搜索、语义路由、候选身份、部署字节验证和可复现浏览器 QA。

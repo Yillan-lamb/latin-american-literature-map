@@ -23,6 +23,7 @@ DEFAULT_OUTPUT = ROOT / "data/v2/web"
 DEFAULT_PRESENTATION = ROOT / "data/v2/presentation/PUBLIC_PRESENTATION.json"
 DEFAULT_PUBLIC_CONTENT = ROOT / "data/v2/curation/PUBLIC_CONTENT.json"
 SCHEMA_VERSION = "v2-web-0.2"
+PRODUCT_VERSION = "0.1.0"
 CURATION_SCHEMA_VERSION = "v2-curation-0.1"
 ALLOWED_CURATION_STATUSES = {"auto_approved", "user_review", "hold"}
 PRESENTATION_GROUPS = ("reading_paths", "timeline_periods", "why_read", "next_reads")
@@ -467,6 +468,7 @@ def build_data(db_path: Path, geo_dir: Path, curation_dir: Path, presentation_pa
     timeline_nodes.sort(key=timeline_sort_key)
 
     return {
+        "product_version": PRODUCT_VERSION,
         "schema_version": SCHEMA_VERSION,
         "generated_at": generated_at,
         "data_sources": {
@@ -533,6 +535,7 @@ def main() -> int:
     output_path = args.output_dir / "site_data.json"
     output_path.write_text(json.dumps(payload, ensure_ascii=False, indent=2, sort_keys=True) + "\n", encoding="utf-8")
     manifest = {
+        "product_version": PRODUCT_VERSION,
         "schema_version": SCHEMA_VERSION,
         "generated_at": generated_at,
         "entrypoint": "site_data.json",

@@ -2,6 +2,21 @@
 
 本文件记录拉丁美洲文学地图各版本的实际修改。格式参考 Keep a Changelog，版本号遵循语义化版本规则。
 
+## [Web 0.1.0 — Development Baseline] - 2026-08-17
+
+### 版本治理
+
+- 明确 `V1 / V2 / V3` 是项目阶段编号，不是网站产品语义版本；Research Data 继续沿用既有独立版本与导出命名，不重写历史。
+- 将当前网站产品重新基线为 `Web 0.1.0`：产品模型已建立，进入 Web 0.x 持续内容建设期；该记录是内部开发基线，不是 GitHub Release 或公众发布。
+- 将原 `V2-N4` 正式发布流程暂停为未来由 USER 单独重新开启的 `V2-PUBLIC-RELEASE` Gate；Lighthouse、Manifest、GitHub Pages、GitHub Release 与 production deployment 门禁保留但不再是当前主任务。
+- `V2.0.0-rc.1`—`V2.0.0-rc.5` 继续作为 Web 0.1.0 形成前的历史开发候选保留，不删除、不篡改、不重写。
+- `PROJECT_CHARTER.md` 经 USER 明确授权由 1.5.0 最小增量升级至 1.6.0；SQLite 单一主数据、Research / Curation 分离、来源证据、版权、地图、USER 审核、GitHub 留痕及前端不得修改研究事实等既有规则不变。
+
+### 当前状态
+
+- 新增 `WEB-0.1-BASELINE` 与 `WEB-CONTENT-EXPANSION`；PR #5 可作为后续 Research / Curation / Web Data 扩张的开发基线合并，但合并不触发部署、标签、Release 或公开宣传。
+- 保留全部 `user_review` 与 `hold` 状态；内部 USER_REVIEW preview 可继续构建，未来 Public Build 仍排除未批准策展内容。
+
 ## [Unreleased] - 2026-08-13
 
 - 执行 `V2-N4-R03` 独立终审发布阻断返修，形成 `V2.0.0-rc.4`：`V2-N4` 仍为 `USER_REVIEW`，`release_state` 仍为 `pending_v2_n4`。

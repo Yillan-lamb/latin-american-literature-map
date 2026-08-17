@@ -1,5 +1,8 @@
 {
   "manifest_version": "v2-release-control-0.3",
+  "governance_status": "historical_release_candidate",
+  "superseded_by_web_baseline": "0.1.0",
+  "public_release": "paused_by_user",
   "release_candidate": "V2.0.0-rc.5",
   "release_state": "pending_v2_n4",
   "candidate_identity": {

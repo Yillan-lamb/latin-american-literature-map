@@ -1,7 +1,7 @@
 # 拉丁美洲文学地图 V2 任务源
 
-- **版本**：1.0.0
-- **最后更新**：2026-08-14
+- **版本**：1.1.0
+- **最后更新**：2026-08-17
 - **状态**：ACTIVE
 - **唯一动态状态源**：本文件
 - **上位文件**：
@@ -11,13 +11,14 @@
 
 ## 当前执行摘要
 
-- **当前阶段**：阶段 8：V2-N4 正式发布准备
-- **当前节点**：`V2-N1`、`V2-N2`、`V2-N3` 已完成；当前用户节点为 `V2-N4`
-- **当前任务**：`V2-N4` 正式公开发布审核（👤 USER_REVIEW）
-- **下一任务**：USER 体验 rc.5 Phase B 内容密度预览并集中审核 5 个新增首页路径问题
-- **当前阻塞**：正式部署仍受 USER 批准、HTTPS origin 与 Pages 设置约束
-- **需要 USER**：集中审核未进入 public bundle 的策展队列；返修负责人不得代为批准
-- **最近完成**：`V2-N4-R04 Phase B` 内容密度与策展扩张；rc.5 本地 USER_REVIEW preview 已重建
+- **当前阶段**：V2 网站建设阶段 / Web 0.x 持续内容建设期
+- **当前 Web 版本**：`Web 0.1.0`
+- **当前产品状态**：`DEVELOPMENT BASELINE`
+- **Public Release**：`PAUSED BY USER`
+- **当前任务**：`WEB-CONTENT-EXPANSION` Research Database Expansion
+- **下一任务**：按 Research → Research Review → SQLite → Curation → Web Data → Frontend 流程扩充研究数据库与策展内容
+- **需要 USER**：无需为合并开发基线立即审核全部 `user_review`；未来 Public Build 仍须排除未批准策展内容
+- **最近完成**：`WEB-0.1-BASELINE`；rc.1—rc.5 作为 Web 0.1.0 形成前的历史开发候选保留
 
 ## 任务状态规则
 
@@ -28,6 +29,8 @@
 - `⚠️ REVISION`：验收未通过，需要差量返修；
 - `👤 USER_REVIEW`：等待 USER 节点审核；
 - `✅ APPROVED`：USER 节点已通过并解锁下游；
+- `⏸ PAUSED`：由 USER 暂停，只有 USER 明确重新开启后才恢复；
+- `HISTORICAL`：仅保留历史与审计意义，不是当前任务；
 - `⛔ BLOCKED`：存在外部依赖或无法自主解决的问题。
 
 同一时间原则上只保留一个 `IN_PROGRESS` 任务。每完成一个任务，必须在本文件登记状态、产物、验证结果和下游解锁情况。
@@ -391,11 +394,11 @@
 - **产物**：`V2.0.0-rc.3`、`data/v2/presentation/PUBLIC_PRESENTATION.json`、真实底图、静态路由构建、发布完整性脚本、V2 CI 与 5 份 rc.3 审计/QA 文档。
 - **状态**：`✅ DONE`
 
-### 👤 V2-N4：正式公开发布审核
+### ⏸ V2-N4：正式公开发布审核（历史节点，已暂停）
 
 - **审核包**：`docs/V2_RC4_REMEDIATION_REPORT.md`、`docs/V2_RC4_CURATION_USER_REVIEW.md`、`docs/V2_RC4_BROWSER_PERFORMANCE_QA.md`、`docs/V2_RC4_RELEASE_INTEGRITY_QA.md`
-- **状态**：`👤 USER_REVIEW`
-- **等待内容**：独立复审 rc.4 的 P1 关闭证据；USER 集中审核未进入 public bundle 的策展项。当前 manifest 仍为 `pending_v2_n4`。
+- **状态**：`PAUSED BY USER`（2026-08-17 起由 `V2-PUBLIC-RELEASE` 未来 USER Gate 取代）
+- **历史说明**：rc.1—rc.5 的审核包、`pending_v2_n4` manifest 与发布门禁继续保留用于审计；它们不再表示项目即将正式发布。
 
 ### ✅ V2-N4-R03：独立终审发布阻断返修
 
@@ -408,7 +411,7 @@
 - **产物**：`docs/V2_RC4_REMEDIATION_REPORT.md`、`docs/V2_RC4_CURATION_USER_REVIEW.md`、`docs/V2_RC4_BROWSER_PERFORMANCE_QA.md`、`docs/V2_RC4_RELEASE_INTEGRITY_QA.md`、`artifacts/v2-rc4/`。
 - **状态**：`✅ DONE`（返修任务完成；`V2-N4` 仍为 `👤 USER_REVIEW`，不代表发布批准）
 
-### 🔵 V2-N4-R04：V2.0.0-rc.5 内容深化与视觉返修
+### ✅ V2-N4-R04：V2.0.0-rc.5 内容深化与视觉返修（历史候选）
 
 - **性质**：针对 rc.4 公开范围过度收缩、内容模板化、核心策展缺位、纸张质感不足及 PR CI 候选身份漂移的发布阻断返修。
 - **目标**：保持 Research / Curation / Web Data 三层架构和 SQLite 单一事实源，以可追溯变更集深化 10 位核心作家、17 部核心作品和现有地点内容，形成 `V2.0.0-rc.5` 候选。
@@ -420,12 +423,31 @@
 - **Phase B QA**：`docs/V2_RC5_CONTENT_DENSITY_QA.md`；地图补点边界见 `docs/V2_RC5_MAP_EXPANSION_RESEARCH_GAPS.md`；仅 5 个由 Codex 补写的既有首页路径问题继续列入 `docs/V2_RC5_CURATION_USER_REVIEW.md`。
 - **Phase B 预览**：`artifacts/v2-rc5/user-review-preview/`，仅供本地 USER_REVIEW，不是正式 public bundle。
 - **PR 纠正**：当前候选为 PR #5；PR #4 已被 rc.5 完整继承并作为历史记录关闭。
+- **状态**：`✅ DONE / HISTORICAL`（由 `WEB-0.1-BASELINE` 接续）
+
+## Web 0.x 持续内容建设期
+
+### ✅ WEB-0.1-BASELINE：Web 0.1.0 产品与内容开发基线
+
+- **含义**：V2 网站阶段的第一套稳定产品模型已经建立；当前网站产品版本重新基线为 `Web 0.1.0`。
+- **已成立能力**：国家 → 地点两级地图、现实/虚构空间区分、作家/作品/地点页、搜索、文学时间线、10 条策展阅读路径、Research / Curation / Web Data 分层、普通阅读层 + 研究依据层、静态页面与基础 SEO、响应式网站和基础自动 QA。
+- **历史关系**：`V2.0.0-rc.1`—`V2.0.0-rc.5` 是 Web 0.1.0 形成前的历史开发候选，完整保留，不删除、不篡改、不重写。
+- **合并边界**：PR #5 可合并到 `main`，作为后续 Research / Curation / Web Data 扩张的代码基线；合并不代表正式上线、GitHub Release、production Pages deployment 或公开宣传。
+- **策展边界**：现有 `user_review` 与 `hold` 保持原状态；内部环境允许构建 USER_REVIEW preview，正式 Public Build 仍不得包含未批准策展内容。
+- **状态**：`✅ DONE`
+
+### 🔵 WEB-CONTENT-EXPANSION：研究数据库与策展内容持续扩张
+
+- **目标**：以 Research Data 增长驱动网页覆盖、内容密度与策展路径增长，不以在前端手写研究事实弥补数据库不足。
+- **固定流程**：Research → Research Review → SQLite → Curation → Web Data → Frontend。
+- **版本规则**：`Web 0.1.x` 用于小型内容批次、UI 修复、文案优化与小范围策展增强；出现多个新国家/地区、大量新作家作品或新一批成熟专题路径时升级为 `Web 0.2.0`，后续依此演进。
+- **发布边界**：`V2-PUBLIC-RELEASE = PAUSED`；Lighthouse、Manifest、GitHub Pages、GitHub Release 与 production deployment 门禁保留，但不是当前主任务。`Web 1.0.0` 只能由 USER 明确开启并批准 Public Release Gate 后使用。
 - **状态**：`🔵 IN_PROGRESS`
 
 ## 当前执行边界
 
-- 当前推进到阶段 8；`V2-N4-R04` 正在执行，用户节点继续保持 `V2-N4 = 👤 USER_REVIEW`。
-- 在 N4 通过前，不创建 V2.0.0 tag、不推送发布分支、不执行 Pages 部署、不发布正式公开 URL。
+- 当前处于 V2 网站建设阶段 / Web 0.x 内容建设期；`WEB-CONTENT-EXPANSION` 是当前任务。
+- `V2-PUBLIC-RELEASE = PAUSED`；不创建 Web 1.0.0 tag、GitHub Release，不执行 production Pages 部署，不发布或宣传正式公开 URL。
 - 不提前开发复杂知识图谱、3D 地图、用户系统、AI 问答、CMS、小程序、多语言或个性化推荐。
 - 不在前端硬编码研究事实，不用策展写作补造研究事实，不为虚构空间伪造现实坐标。
-- 普通机械工作由 Codex 自主推进；产品定位、核心用户、地图主结构、研究证据标准、V2.0 范围、重要无依据策展判断和 N3—N4 节点由 USER 决定。
+- 普通机械工作由 Codex 自主推进；产品定位、核心用户、地图主结构、研究证据标准、Web Product 范围、重要无依据策展判断和重新开启/批准 Public Release Gate 由 USER 决定。

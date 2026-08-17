@@ -2,8 +2,51 @@
 
 本文件记录拉丁美洲文学地图各版本的实际修改。格式参考 Keep a Changelog，版本号遵循语义化版本规则。
 
-## [Unreleased] - 2026-08-11
+## [Web 0.1.0 — Development Baseline] - 2026-08-17
 
+### 版本治理
+
+- 明确 `V1 / V2 / V3` 是项目阶段编号，不是网站产品语义版本；Research Data 继续沿用既有独立版本与导出命名，不重写历史。
+- 将当前网站产品重新基线为 `Web 0.1.0`：产品模型已建立，进入 Web 0.x 持续内容建设期；该记录是内部开发基线，不是 GitHub Release 或公众发布。
+- 将原 `V2-N4` 正式发布流程暂停为未来由 USER 单独重新开启的 `V2-PUBLIC-RELEASE` Gate；Lighthouse、Manifest、GitHub Pages、GitHub Release 与 production deployment 门禁保留但不再是当前主任务。
+- `V2.0.0-rc.1`—`V2.0.0-rc.5` 继续作为 Web 0.1.0 形成前的历史开发候选保留，不删除、不篡改、不重写。
+- `PROJECT_CHARTER.md` 经 USER 明确授权由 1.5.0 最小增量升级至 1.6.0；SQLite 单一主数据、Research / Curation 分离、来源证据、版权、地图、USER 审核、GitHub 留痕及前端不得修改研究事实等既有规则不变。
+
+### 当前状态
+
+- 新增 `WEB-0.1-BASELINE` 与 `WEB-CONTENT-EXPANSION`；PR #5 可作为后续 Research / Curation / Web Data 扩张的开发基线合并，但合并不触发部署、标签、Release 或公开宣传。
+- 保留全部 `user_review` 与 `hold` 状态；内部 USER_REVIEW preview 可继续构建，未来 Public Build 仍排除未批准策展内容。
+
+## [Unreleased] - 2026-08-13
+
+- 执行 `V2-N4-R03` 独立终审发布阻断返修，形成 `V2.0.0-rc.4`：`V2-N4` 仍为 `USER_REVIEW`，`release_state` 仍为 `pending_v2_n4`。
+- 修复策展发布门禁：5 条阅读路径、5 个时期、17 组 why-read 和 10 条 next-read 全部保留原 `user_review` 状态并退出 public bundle；validator、deploy builder、public bundle scan 和 CI 均 fail-closed。
+- 公开范围收紧为 7 位完整作者、14 部完整作品、19 个地点/国家/文学空间和 2 个正式主题节点；研究不足的节点保留于研究数据但不进入搜索与 sitemap。
+- 搜索新增可复用的一层正式关系扩展；“马孔多”同时发现马孔多、《百年孤独》和马尔克斯。公开 URL 改为原文 slug + 稳定实体 ID，canonical、`og:url` 和 sitemap 使用同一规则。
+- 发布证明改为与最终 PR head 完整 SHA 绑定的脱离式 Manifest；验证干净 Git 范围、工作树字节和同一个最终 dist，篡改回归已证实拒绝修改后的部署目录。
+- 锁定 Playwright 1.62.1、Lighthouse 13.4.1 和完整 npm 依赖；本地 Chromium desktop/mobile、Firefox、WebKit 为 28/28，并逐条渲染全部 46 条 sitemap 路由；Lighthouse 首页为 92/100/100/100、作品页为 93/100/100/100，原始 JSON/HTML 与失败工件链已建立。
+
+- 完成 `V2-N4-R02` 产品一致性差量返修，形成 `V2.0.0-rc.3` 候选；Research / Geo / Curation / Web Data 既有架构与已审核事实保持不变。
+- 公共网站统一为“拉丁美洲文学地图”，移除版本、阶段、内部字段、审核状态、统计和测试站语言；新增独立 Presentation Layer，并在部署包中物理剥离内部状态字段。
+- 首页改为品牌与真实地图优先，加入 5 条策展阅读路径；10 位作家页升级为文学探索结构，17 部资料达标作品补齐“为什么值得读”，并形成 10 条延伸阅读候选。
+- 地图改用 Natural Earth 公共领域拉丁美洲国家边界和真实坐标投影；文学虚构空间保持独立视觉机制且不赋现实坐标。
+- 生成 146 条静态可索引路由及页面级 title、description、canonical、Open Graph、sitemap 和 robots；搜索、时间线、地点与 About 页面完成公众化。
+- 发布清单冻结范围扩至 22 项关键输入，加入候选源码提交锚定协议；PR CI 覆盖数据、构建、公开语言、静态路由和冻结一致性验证，手动 Pages 部署继续要求用户批准。
+- 三浏览器、桌面/390px、9 条核心路径全部通过；Lighthouse 记录为 Performance 98、Accessibility 100、Best Practices 100、SEO 100。当前仍停在 `V2-N4 = USER_REVIEW`，未部署、未创建标签或 Release。
+
+- 根据 `docs/V2_SOL_AUDIT_REPORT.md` 完成 V2-N4 前整改：地图采用稳定的防碰撞位置、国家节点进入国家页、国家页汇总直接与子地点关系；unknown 地点使用待确认模板，隐藏技术父节点不再进入搜索或独立路由。
+- 修正 Parral 为 provisional 时保持公开地图隐藏；保留其研究状态，不补造官方来源或分类结论。
+- 加固 Web Data validator、release manifest 与 Pages 工作流：候选升级为 `V2.0.0-rc.2`，冻结范围增至 15 个部署输入，部署前必须验证 SHA-256 且 `release_state=approved_v2_n4`。
+- 修正 hash 路由 sitemap、部署 README 来源、构建脚本的 `--help` / `--dry-run` 行为，并清理 V2 动态状态、决策索引和 QA 计数漂移。
+- USER 批准 V2-N1，并授权将已批准的 V2 产品方向、阶段结构、地图/数据/策展治理、V2-N2 至 V2-N4 审核节点和 Codex 权限纳入 `PROJECT_CHARTER.md`；章程由 1.4.0 增量升级至 1.5.0。
+- 新增 DEC-040，记录 V2 启动、V2 最高专项说明书地位、V2.0 范围控制、用户节点和当前下一节点 V2-N2。
+- README 当前阶段同步为 V1.0.0 已发布、V2-N1 已批准、进入 N2 原型准备；V1 既有来源、数据、版权和 GitHub 治理规则保持不变。
+- 完成 V2 数据适配审计、地图地理补充、Curation Data Schema、Web Data 构建、N2 真实样本和最小策展包；生成可回溯的 V2 地图、策展与 Web Data 输出。
+- 新增 `site/` 静态优先 N2 原型：地图主入口、国家→地点交互、现实地点/虚构空间页、作者/作品页、基础搜索、文学时间线和阅读/研究双层；完成 V2-S4-005 QA，当前停在 `V2-N2 = USER_REVIEW`。
+- USER 通过 N2 并授权继续执行；新增 DEC-042，解锁阶段 5—7，下一用户节点切换为 V2-N3；阶段 8 与 N4 继续锁定。
+- 完成阶段 5—7：生成完整页面覆盖和策展草稿，Web Data 升级至 `v2-web-0.2`，完整站接入首页、全量地图、页面回退、类型搜索、作家/作品/背景时间线、来源证据层和响应式/可访问性门禁。
+- 新增 `docs/V2_N3_FULL_TEST_SITE_REVIEW.md`；完整测试站入口与 Web Data HTTP smoke test 均返回 200，内部 QA 通过，当前停在 `V2-N3 = USER_REVIEW`，阶段 8 与 N4 不提前执行。
+- USER 通过 V2-N3 并授权继续执行；完成 V2-S8-001 至 V2-S8-004，生成 V2.0.0-rc.1 冻结清单、公开边界 QA、GitHub Pages 候选工作流、根目录部署包和发布说明，当前停在 `V2-N4 = USER_REVIEW`。
 - 根据 V1.0.0 工作流程审计，新增长期增量维护手册、审计摘要和旧规则淘汰清单。
 - 修正 AI 协同计划、接管提示词、阶段 0/阶段 3 历史文档提示及 V1 发布快照说明，避免把 150 条门槛、Schema 0.2 或“N4 前候选”误作当前规则。
 - 从 V1.0.0 SQLite 建立 `data/master/V1_MASTER.sqlite` 基线，新增事务迁移入口、动态主库验证器和 SQLite→CSV/JSON/Excel 通用导出工具。

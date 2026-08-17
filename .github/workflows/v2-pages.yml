@@ -1,0 +1,65 @@
+name: V2 Pages
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+      - name: Require explicit approval state and HTTPS origin
+        env:
+          V2_SITE_ORIGIN: ${{ vars.V2_SITE_ORIGIN }}
+        run: |
+          python3 -c 'import json; p=json.load(open("data/v2/release/V2.0.0_RELEASE_MANIFEST.json")); assert p["release_state"] == "approved_v2_n4", "V2-N4 has not been explicitly approved"'
+          case "$V2_SITE_ORIGIN" in
+            https://*) ;;
+            *) echo "V2_SITE_ORIGIN must be a confirmed HTTPS origin."; exit 1 ;;
+          esac
+      - name: Rebuild deterministic Web Data and validate inputs
+        run: |
+          python3 scripts/validate_master.py data/master/V1_MASTER.sqlite
+          python3 scripts/build_v2_web_data.py --generated-at 2026-08-13T00:00:00Z
+          python3 scripts/validate_v2_web_data.py
+          git diff --exit-code -- data/v2/web/site_data.json data/v2/web/manifest.json
+      - name: Build the only deployment directory
+        env:
+          V2_SITE_ORIGIN: ${{ vars.V2_SITE_ORIGIN }}
+        run: python3 scripts/build_v2_deploy_bundle.py --output dist --origin "$V2_SITE_ORIGIN"
+      - name: Validate and freeze the exact directory that will be uploaded
+        run: |
+          python3 scripts/qa_v2_public_ui.py dist
+          python3 scripts/validate_v2_public_bundle.py dist
+          python3 scripts/build_v2_release_manifest.py --output /tmp/V2.0.0-rc.5.manifest.json --bundle dist --release-state approved_v2_n4 --candidate-commit-sha "$GITHUB_SHA"
+          python3 scripts/build_v2_release_manifest.py --verify --output /tmp/V2.0.0-rc.5.manifest.json --bundle dist --require-release-state approved_v2_n4
+      - uses: actions/configure-pages@v5
+      - name: Upload the already verified directory without rebuilding
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+      - name: Preserve the detached release manifest
+        uses: actions/upload-artifact@v4
+        with:
+          name: v2-release-manifest-${{ github.sha }}
+          path: /tmp/V2.0.0-rc.5.manifest.json
+      - name: Deploy to Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

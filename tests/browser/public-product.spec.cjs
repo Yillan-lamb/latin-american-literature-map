@@ -24,10 +24,16 @@ test.afterEach(async ({ page }) => {
 test("home, map, country and mobile navigation", async ({ page, isMobile }) => {
   await page.goto("");
   await expect(page.getByRole("heading", { name: /文学地图/ }).first()).toBeVisible();
+  await expect(page.getByRole("link", { name: /从地图开始/ })).toHaveAttribute("href", "#literary-map");
   await expect(page.locator(".path-card")).toHaveCount(10);
   await expect(page.locator(".country-shape.available")).toHaveCount(7);
+  await expect(page.locator(".fictional-space-button")).toHaveCount(2);
+  await expect(page.getByRole("heading", { name: "从一个地方开始" })).toBeVisible();
   await page.locator('[data-country-id="V1-ENT-0051"]').click();
-  await expect(page.getByText(/当前：墨西哥/)).toBeVisible();
+  await expect(page).toHaveURL(/\/$/);
+  await expect(page.locator(".map-context-panel")).toContainText("墨西哥");
+  await expect(page.locator(".map-context-panel")).toContainText("胡安·鲁尔福");
+  await expect(page.locator('[data-country-id="V1-ENT-0051"]')).toHaveAttribute("aria-pressed", "true");
   if (isMobile) {
     await page.locator(".menu-toggle").click();
     await expect(page.locator(".main-nav")).toBeVisible();
@@ -35,6 +41,43 @@ test("home, map, country and mobile navigation", async ({ page, isMobile }) => {
   await page.goto(paths.country);
   await expect(page.getByRole("heading", { name: "墨西哥" })).toBeVisible();
   await expect(page.getByText("胡安·鲁尔福").first()).toBeVisible();
+});
+
+test("map selections update literary context without immediate navigation", async ({ page }) => {
+  await page.goto("");
+  await page.locator('[data-country-id="V1-ENT-0051"]').click();
+  await page.locator('[data-place-id="V1-ENT-0057"]').click();
+  await expect(page).toHaveURL(/\/$/);
+  await expect(page.locator(".map-context-panel")).toContainText("圣加布里埃尔");
+  await expect(page.locator(".map-context-panel")).toContainText("胡安·鲁尔福");
+  await expect(page.locator('[data-place-id="V1-ENT-0057"]')).toHaveAttribute("aria-pressed", "true");
+
+  const comala = page.locator('[data-fictional-space-id="V1-ENT-0055"]');
+  await expect(comala).not.toHaveAttribute("data-latitude");
+  await expect(comala).not.toHaveAttribute("data-longitude");
+  await comala.click();
+  await expect(page).toHaveURL(/\/$/);
+  await expect(page.locator(".map-context-panel")).toContainText("文学虚构空间");
+  await expect(page.locator(".map-context-panel")).toContainText("科马拉");
+  await expect(page.locator(".map-context-panel")).toContainText("《佩德罗·巴拉莫》");
+  await expect(page.locator(".map-context-panel")).toContainText("胡安·鲁尔福");
+  await expect(page.locator(".map-context-panel")).toBeFocused();
+});
+
+test("map selection supports keyboard activation and announces context", async ({ page }) => {
+  await page.goto("");
+  const mexico = page.locator('[data-country-id="V1-ENT-0051"]');
+  await mexico.focus();
+  await page.keyboard.press("Enter");
+  const panel = page.locator(".map-context-panel");
+  await expect(panel).toHaveAttribute("aria-live", "polite");
+  await expect(panel).toBeFocused();
+  await expect(panel).toContainText("墨西哥");
+  const sanGabriel = page.locator('[data-place-id="V1-ENT-0057"]');
+  await sanGabriel.focus();
+  await page.keyboard.press("Space");
+  await expect(page.locator(".map-context-panel")).toContainText("圣加布里埃尔");
+  await expect(page.locator('[data-place-id="V1-ENT-0057"]')).toHaveAttribute("aria-pressed", "true");
 });
 
 test("places, author, work, sources and navigation", async ({ page }) => {
@@ -77,6 +120,14 @@ test("timeline, semantic routes, metadata and 404", async ({ page }) => {
   }
   await page.goto("404.html");
   await expect(page.getByText("这条文学路径尚未开放").first()).toBeVisible();
+});
+
+test("about page explains the reader journey", async ({ page }) => {
+  await page.goto("about/");
+  await expect(page.getByRole("heading", { name: /为什么做一张/ })).toBeVisible();
+  for (const heading of ["这是什么", "为什么是一张地图", "你可以怎样探索", "不止魔幻现实主义", "一张持续生长的地图"]) {
+    await expect(page.getByRole("heading", { name: heading })).toBeVisible();
+  }
 });
 
 test("required author, work and place samples resolve through the public layer", async ({ page }) => {

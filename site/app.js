@@ -10,6 +10,7 @@ let data;
 let geography;
 let mapFilter = "all";
 let activeCountry = null;
+let activeMapTarget = null;
 let searchFilter = "all";
 
 const escapeHtml = (value) => String(value ?? "").replace(/[&<>"']/g, (character) => ({
@@ -126,6 +127,54 @@ function featurePath(feature) {
   return feature.geometry.type === "Polygon" ? polygonPath(coordinates) : coordinates.map(polygonPath).join("");
 }
 
+function mapContextFor(target) {
+  if (!target) return null;
+  const mapped = place(target.id);
+  if (!mapped) return null;
+  const fictional = target.type === "fictional_space";
+  const children = target.type === "country"
+    ? publicPlaces().filter((item) => item.parent_place_id === target.id && item.reality_status === "real" && isPublic(item.place_id))
+    : [];
+  const scope = new Set([target.id, ...children.map((item) => item.place_id)]);
+  const mapRelations = data.map.relations.filter((item) => scope.has(item.target_place_id));
+  const authorIds = new Set(mapRelations
+    .filter((item) => entity(item.source_entity_id)?.entity_type === "author" && isPublic(item.source_entity_id))
+    .map((item) => item.source_entity_id));
+  const workIds = new Set(mapRelations
+    .filter((item) => entity(item.source_entity_id)?.entity_type === "work" && isPublic(item.source_entity_id))
+    .map((item) => item.source_entity_id));
+  if (fictional) {
+    data.research.relationships
+      .filter((item) => item.relation_type === "CREATED" && workIds.has(item.object_id) && isPublic(item.subject_id))
+      .forEach((item) => authorIds.add(item.subject_id));
+  }
+  const copy = contentFor("places", target.id);
+  const curationKey = fictional ? "fictional_space_note" : "literary_place_note";
+  const description = copy.literary_intro || publicText(curationFor(target.id, curationKey)?.content_zh)
+    || (fictional ? "这是一处由文学作品创造的空间。" : `从${mapped.name_zh}的作家、作品与文学地点开始探索。`);
+  return {
+    mapped,
+    type: target.type,
+    description,
+    children,
+    authors: [...authorIds].map(entity).filter(Boolean),
+    works: [...workIds].map(entity).filter(Boolean),
+  };
+}
+
+function mapContextPanelMarkup() {
+  const context = mapContextFor(activeMapTarget);
+  if (!context) return `<aside class="map-context-panel is-empty" tabindex="-1" aria-live="polite" aria-labelledby="map-context-title"><p class="eyebrow">地图上的阅读入口</p><h2 id="map-context-title">从一个地方开始</h2><p>选择一个国家、现实地点或文学虚构空间，看看有哪些作家和作品从这里展开。</p><div class="context-prompt"><span>01</span><p>先点选地图，再沿文学关系继续阅读。</p></div></aside>`;
+  const { mapped, type, description, children, authors, works } = context;
+  const label = type === "country" ? "国家文学入口" : type === "fictional_space" ? "文学虚构空间" : "现实地点";
+  const routeType = type === "country" ? "country" : type === "fictional_space" ? "fictional_space" : "place";
+  return `<aside class="map-context-panel" tabindex="-1" aria-live="polite" aria-labelledby="map-context-title"><p class="eyebrow">${label}</p><h2 id="map-context-title">${escapeHtml(mapped.name_zh)}</h2>${mapped.original_name ? `<p class="context-original">${escapeHtml(mapped.original_name)}</p>` : ""}<p>${escapeHtml(description)}</p>
+    <section><h3>从这里认识作家</h3><div class="context-links">${authors.slice(0, 4).map((item) => `<a href="${hrefFor("author", item.entity_id)}"><strong>${escapeHtml(item.name_zh)}</strong><span>作家 →</span></a>`).join("") || "<p>相关作家资料仍在补充。</p>"}</div></section>
+    <section><h3>${type === "fictional_space" ? "它出现在哪些作品中" : "与这里相关的作品"}</h3><div class="context-links">${works.slice(0, 4).map((item) => `<a href="${hrefFor("work", item.entity_id)}"><strong>${escapeHtml(item.name_zh)}</strong><span>作品 →</span></a>`).join("") || "<p>相关作品资料仍在补充。</p>"}</div></section>
+    ${children.length ? `<section><h3>继续探索地点</h3><div class="context-links compact">${children.slice(0, 5).map((item) => `<a href="${hrefFor("place", item.place_id)}"><strong>${escapeHtml(item.name_zh)}</strong><span>地点 →</span></a>`).join("")}</div></section>` : ""}
+    <a class="context-detail-link" href="${hrefFor(routeType, mapped.place_id)}">打开${escapeHtml(mapped.name_zh)}完整页面 →</a></aside>`;
+}
+
 function mapMarkup() {
   const countries = publicPlaces().filter((item) => item.place_kind === "country");
   const countryByCode = new Map(countries.map((item) => [item.country_code, item]));
@@ -134,18 +183,24 @@ function mapMarkup() {
     const code = feature.properties.ISO_A2;
     const country = countryByCode.get(code);
     const active = selectedCode === code;
-    return `<path d="${featurePath(feature)}" class="country-shape ${country ? "available" : ""} ${active ? "active" : ""}" ${country ? `data-country-id="${escapeHtml(country.place_id)}" tabindex="0" role="button" aria-label="探索${escapeHtml(country.name_zh)}文学"` : `aria-hidden="true"`}><title>${escapeHtml(country?.name_zh || feature.properties.ADMIN)}</title></path>`;
+    return `<path d="${featurePath(feature)}" class="country-shape ${country ? "available" : ""} ${active ? "active" : ""}" ${country ? `data-country-id="${escapeHtml(country.place_id)}" tabindex="0" role="button" aria-pressed="${active}" aria-label="探索${escapeHtml(country.name_zh)}文学"` : `aria-hidden="true"`}><title>${escapeHtml(country?.name_zh || feature.properties.ADMIN)}</title></path>`;
   }).join("");
   const allowedRoles = { author_geography: ["author_geography"], story_setting: ["story_setting"], all: ["author_geography", "story_setting"] }[mapFilter] || [];
   const relatedPlaceIds = new Set(data.map.relations.filter((item) => allowedRoles.includes(item.map_relation_role)).map((item) => item.target_place_id));
   const realNodes = publicPlaces().filter((item) => item.reality_status === "real" && item.place_kind !== "country" && item.latitude != null && (!activeCountry || item.parent_place_id === activeCountry) && relatedPlaceIds.has(item.place_id));
   const labelOffsets = { "V1-ENT-0052": [10, -12], "V1-ENT-0053": [10, 16], "V1-ENT-0054": [-72, 16] };
-  const points = realNodes.map((item) => { const [x, y] = project([item.longitude, item.latitude]); const [dx, dy] = labelOffsets[item.place_id] || [10, 4]; return `<a href="${hrefFor("place", item.place_id)}" class="map-point" aria-label="打开${escapeHtml(item.name_zh)}"><circle cx="${x}" cy="${y}" r="6"></circle><text x="${x + dx}" y="${y + dy}">${escapeHtml(item.name_zh)}</text></a>`; }).join("");
-  const fictionalNodes = publicPlaces().filter((item) => item.reality_status === "fictional" && (!activeCountry || item.parent_place_id === activeCountry));
-  return `<div class="map-shell"><div class="map-toolbar"><strong>从国家与地点进入文学</strong><div class="map-legend"><span><i class="legend-swatch country"></i>可探索国家</span><span><i class="legend-swatch place"></i>现实地点</span><span><i class="legend-swatch fictional"></i>文学虚构空间</span></div></div><div class="map-layout"><div class="map-canvas"><svg viewBox="0 0 880 560" role="img" aria-labelledby="map-title map-description"><title id="map-title">拉丁美洲文学地图</title><desc id="map-description">真实国家边界以及依据坐标投影的文学地点。点击高亮国家继续探索。</desc><g>${shapes}</g><g>${points}</g></svg></div><aside class="fictional-constellation"><p class="eyebrow">写出来的地方</p><h2>文学虚构空间</h2><p>它们属于作品，不被放置到现实坐标上。</p>${fictionalNodes.map((item) => `<a href="${hrefFor("fictional_space", item.place_id)}"><strong>${escapeHtml(item.name_zh)}</strong><span>${escapeHtml(item.original_name || "")}</span></a>`).join("") || "<span>选择国家后探索相关文学空间。</span>"}</aside></div><div class="map-footer"><div class="map-filter">${[["all","全部地点"],["author_geography","作家地理"],["story_setting","故事空间"]].map(([key,label]) => `<button class="chip ${mapFilter === key ? "active" : ""}" aria-pressed="${mapFilter === key}" data-map-filter="${key}">${label}</button>`).join("")}</div><button class="map-reset" type="button" data-map-reset>${activeCountry ? `返回完整地图 · 当前：${escapeHtml(displayName(activeCountry))}` : "点击高亮国家开始"}</button></div></div>`;
+  const points = realNodes.map((item) => {
+    const [x, y] = project([item.longitude, item.latitude]);
+    const [dx, dy] = labelOffsets[item.place_id] || [10, 4];
+    const active = activeMapTarget?.type === "place" && activeMapTarget.id === item.place_id;
+    return `<g class="map-point ${active ? "active" : ""}" data-place-id="${escapeHtml(item.place_id)}" tabindex="0" role="button" aria-pressed="${active}" aria-label="查看${escapeHtml(item.name_zh)}的文学关联"><circle cx="${x}" cy="${y}" r="6"></circle><text x="${x + dx}" y="${y + dy}">${escapeHtml(item.name_zh)}</text></g>`;
+  }).join("");
+  const fictionalNodes = publicPlaces().filter((item) => item.reality_status === "fictional" && isPublic(item.place_id));
+  const fictionalInset = `<section class="fictional-space-inset" aria-labelledby="fictional-space-title"><p id="fictional-space-title">写出来的地方</p><span>不使用现实坐标</span><div>${fictionalNodes.map((item) => { const active = activeMapTarget?.type === "fictional_space" && activeMapTarget.id === item.place_id; return `<button type="button" class="fictional-space-button ${active ? "active" : ""}" data-fictional-space-id="${escapeHtml(item.place_id)}" aria-pressed="${active}"><i aria-hidden="true"></i><strong>${escapeHtml(item.name_zh)}</strong></button>`; }).join("")}</div></section>`;
+  return `<div class="map-shell"><div class="map-toolbar"><strong>从国家与地点进入文学</strong><div class="map-legend"><span><i class="legend-swatch country"></i>可探索国家</span><span><i class="legend-swatch place"></i>现实地点</span><span><i class="legend-swatch fictional"></i>文学虚构空间</span></div></div><div class="map-layout"><div class="map-canvas"><svg viewBox="0 0 880 560" role="img" aria-labelledby="map-title map-description"><title id="map-title">拉丁美洲文学地图</title><desc id="map-description">真实国家边界以及依据坐标投影的文学地点。选择国家、现实地点或文学虚构空间，在右侧查看相关作家和作品。</desc><g>${shapes}</g><g>${points}</g></svg>${fictionalInset}</div>${mapContextPanelMarkup()}</div><div class="map-footer"><div class="map-filter">${[["all","全部地点"],["author_geography","作家地理"],["story_setting","故事空间"]].map(([key,label]) => `<button class="chip ${mapFilter === key ? "active" : ""}" aria-pressed="${mapFilter === key}" data-map-filter="${key}">${label}</button>`).join("")}</div><button class="map-reset" type="button" data-map-reset>${activeMapTarget ? "清除选择，返回完整地图" : "点击地图上的地点开始"}</button></div></div>`;
 }
 
-function renderHome() {
+function renderHome(focusContext = false) {
   const authors = (data.curation.selections || []).filter((item) => item.selection_key === "featured_author" && isPublic(item.target_id)).sort((a, b) => a.sort_order - b.sort_order).slice(0, 8);
   const works = (data.curation.selections || []).filter((item) => item.selection_key === "featured_work" && isPublic(item.target_id)).sort((a, b) => a.sort_order - b.sort_order).slice(0, 6);
   const periods = data.presentation.timeline_periods.slice(0, 5);
@@ -157,24 +212,34 @@ function renderHome() {
     { title: "沿时间进入", description: "按首次发表年份查看作家和作品，在年代之间建立阅读线索。", href: new URL("timeline/", SITE_ROOT).pathname },
   ];
   setMeta(data.presentation.site.name, data.presentation.site.description);
-  app.innerHTML = `<section class="hero home-hero"><div><p class="eyebrow">A literary map of Latin America</p><h1 class="display-title">拉丁美洲<br /><em>文学地图</em></h1><p class="lede">${escapeHtml(data.presentation.site.tagline)}</p></div><aside class="hero-note"><p>从一个国家开始，遇见一位作家，进入一部作品，再沿着地点、主题与时间继续阅读。</p></aside></section>
-  <section class="map-first">${mapMarkup()}</section>
+  app.innerHTML = `<section class="hero home-hero"><div><p class="eyebrow">A literary map of Latin America</p><h1 class="display-title">拉丁美洲<br /><em>文学地图</em></h1><p class="lede">从一个地方开始，进入拉丁美洲文学。</p><a class="hero-map-link" href="#literary-map">从地图开始 →</a></div><aside class="hero-note"><p>在地图上发现国家、城市、作家和作品，再沿着时间、主题与文学关系继续阅读。</p></aside></section>
+  <section class="map-first" id="literary-map">${mapMarkup()}</section>
   <section class="section"><div class="section-heading"><h2>从这些作家开始</h2><p>他们来自不同国家，也提供了截然不同的文学入口。</p></div><div class="card-grid">${authors.map((selection) => authorCard(entity(selection.target_id))).join("")}</div></section>
   <section class="section"><div class="section-heading"><h2>如何进入拉美文学</h2><p>不必先读完文学史。可以从空间、篇幅、语言区域或时间开始。</p></div><div class="path-grid">${navigationPaths.slice(0, 10).map((path, index) => `<a class="path-card" href="${path.href}"><span>${String(index + 1).padStart(2, "0")}</span><h3>${escapeHtml(path.title)}</h3><p>${escapeHtml(path.description)}</p><b>打开探索入口 →</b></a>`).join("")}</div></section>
   <section class="section"><div class="section-heading"><h2>从一部作品开始</h2><p>先知道它讲什么，也知道为什么它可能值得你的时间。</p></div><div class="card-grid">${works.map((selection) => workCard(entity(selection.target_id))).join("")}</div></section>
   <section class="section timeline-preview"><div><p class="eyebrow">沿时间进入</p><h2>把作家和作品放回时间中。</h2><p>${escapeHtml(data.presentation.timeline_note || "先按作家的生卒年与作品的发表年份建立时间感，再沿年代继续阅读。")}</p><a class="text-link" href="${new URL("timeline/", SITE_ROOT).pathname}">打开文学时间线 →</a></div>${periods.length ? `<ol>${periods.map((period) => `<li><span>${escapeHtml(period.display_range || `${period.start}—${period.end}`)}</span><strong>${escapeHtml(period.title)}</strong></li>`).join("")}</ol>` : ""}</section>
-  <section class="section about-preview"><div><p class="eyebrow">关于项目</p><h2>文学在前，研究依据在后。</h2></div><p>这张地图把可靠来源、事实与文学关系组织成普通读者可以进入的页面。现实地点使用可追溯坐标；马孔多、科马拉等文学空间则保留为作品创造的世界。</p><a class="text-link" href="${new URL("about/", SITE_ROOT).pathname}">了解项目与研究方法 →</a></section>`;
+  <section class="section about-preview"><div><p class="eyebrow">关于项目</p><h2>地点怎样进入文学，文学又怎样重新创造地点？</h2></div><p>这张地图不是把作家简单钉在出生地上，而是邀请你观察：一座城市如何塑造写作，一段历史如何进入故事，一个虚构空间又如何改变我们理解现实的方式。</p><a class="text-link" href="${new URL("about/", SITE_ROOT).pathname}">为什么做这张地图 →</a></section>`;
   bindMapInteractions();
+  if (focusContext) document.querySelector(".map-context-panel")?.focus({ preventScroll: true });
 }
 
 function bindMapInteractions() {
-  document.querySelectorAll("[data-map-filter]").forEach((button) => button.addEventListener("click", () => { mapFilter = button.dataset.mapFilter; renderHome(); }));
-  document.querySelectorAll("[data-country-id]").forEach((shape) => {
-    const activate = () => { activeCountry = shape.dataset.countryId; renderHome(); };
-    shape.addEventListener("click", activate);
-    shape.addEventListener("keydown", (event) => { if (["Enter", " "].includes(event.key)) activate(); });
+  const bindSelection = (selector, type, idKey) => document.querySelectorAll(selector).forEach((element) => {
+    const activate = () => {
+      const id = element.dataset[idKey];
+      activeMapTarget = { type, id };
+      if (type === "country") activeCountry = id;
+      else if (type === "place") activeCountry = place(id)?.parent_place_id || activeCountry;
+      renderHome(true);
+    };
+    element.addEventListener("click", activate);
+    element.addEventListener("keydown", (event) => { if (["Enter", " "].includes(event.key)) { event.preventDefault(); activate(); } });
   });
-  document.querySelector("[data-map-reset]")?.addEventListener("click", () => { activeCountry = null; renderHome(); });
+  document.querySelectorAll("[data-map-filter]").forEach((button) => button.addEventListener("click", () => { mapFilter = button.dataset.mapFilter; renderHome(); }));
+  bindSelection("[data-country-id]", "country", "countryId");
+  bindSelection("[data-place-id]", "place", "placeId");
+  bindSelection("[data-fictional-space-id]", "fictional_space", "fictionalSpaceId");
+  document.querySelector("[data-map-reset]")?.addEventListener("click", () => { activeCountry = null; activeMapTarget = null; renderHome(); });
 }
 
 function renderPath(slug) {
@@ -325,8 +390,8 @@ function renderTimeline() {
 }
 
 function renderAbout() {
-  setMeta("关于项目", "了解拉丁美洲文学地图的使用方式、研究方法、空间区分与来源版权原则。", "about/");
-  app.innerHTML = `<section class="page-header"><p class="eyebrow">关于项目</p><h1 class="display-title">让地点成为<br /><em>阅读的入口。</em></h1></section><section class="about-sections"><article><span>01</span><div><h2>这个项目是什么</h2><p>拉丁美洲文学地图是一项面向中文读者的文学探索计划。它把国家、城市、文学虚构空间、作家与作品放在同一条阅读路径上，帮助人们从地理直觉出发，逐渐进入文学形式、主题与历史。</p></div></article><article><span>02</span><div><h2>如何使用</h2><p>你可以从首页地图选择国家，再进入地点、作家与作品；也可以直接搜索名字，或沿时间线观察不同时期的代表作品。每个页面都尽量给出继续探索的方向。</p></div></article><article><span>03</span><div><h2>我们如何研究</h2><p>基础事实与文学关系来自公开可追溯资料。普通页面用自然语言介绍文学；如需继续研究，可展开“研究依据与延伸阅读”查看主要书目。事实、研究解释与编辑推荐彼此区分。</p></div></article><article><span>04</span><div><h2>为什么有些地方没有坐标</h2><p>里约热内卢、利马等现实地点依据地理资料投影到地图。马孔多、科马拉等文学虚构空间属于作品创造的世界，因此以独立方式呈现，不借用现实地点坐标。</p></div></article><article><span>05</span><div><h2>来源与版权</h2><p>项目使用公开研究资料进行事实核验与导读编写，不提供受版权保护作品全文，也不使用作品封面。地图边界来自公共领域的 Natural Earth 数据；页面书目尽可能保留原始访问链接。</p></div></article></section>`;
+  setMeta("关于项目", "从地点进入拉丁美洲文学，理解真实地理、虚构空间、作家与作品如何彼此连接。", "about/");
+  app.innerHTML = `<section class="page-header"><p class="eyebrow">关于项目</p><h1 class="display-title">为什么做一张<br /><em>文学地图？</em></h1><p class="lede">因为文学从来不只发生在书页里。它也发生在城市、边境、河流、港口，以及作家创造出来的世界中。</p></section><section class="about-sections"><article><span>01</span><div><h2>这是什么</h2><p>拉丁美洲文学地图是一项面向中文读者的文学探索计划。你可以从一个地方开始，遇见与它有关的作家和作品，再沿着时间、主题与文学关系继续阅读。它不是一份必须按顺序读完的文学史，而是一组可以自由进入的路径。</p></div></article><article><span>02</span><div><h2>为什么是一张地图</h2><p>地点不只是故事的背景。墨西哥的村庄、布宜诺斯艾利斯的街道、加勒比海岸的城镇，都可能塑造一种叙事声音；马孔多、科马拉这样的虚构空间，也会反过来改变我们理解现实的方式。地图让这些关系变得可见。</p></div></article><article><span>03</span><div><h2>你可以怎样探索</h2><ul><li>从地图选择国家、城市或文学虚构空间；</li><li>从相关作家进入他的生平、作品与写作地点；</li><li>从一部作品继续寻找它发生在哪里、讨论什么；</li><li>也可以使用搜索与时间线，建立自己的阅读顺序。</li></ul></div></article><article><span>04</span><div><h2>不止魔幻现实主义</h2><p>拉丁美洲文学远比一个标签更宽广。这里也有现代主义、先锋实验、城市小说、短篇传统、诗歌、历史叙事与当代写作。地图希望保留这些差异，让读者看见不同语言区域、年代与文学形式之间丰富而不整齐的联系。</p></div></article><article><span>05</span><div><h2>一张持续生长的地图</h2><p>这张地图会随着研究和阅读不断增加新的地点、作家、作品与路径。现实地点依据可追溯的地理资料呈现；文学虚构空间不会借用现实坐标。我们宁可暂时留下空白，也不把尚未确认的关系说成定论。</p></div></article><article><span>资料说明</span><div><h2>研究依据与使用边界</h2><p>基础事实与文学关系来自公开可追溯资料，页面书目尽可能保留原始访问链接。项目不提供受版权保护的作品全文，也不使用作品封面；地图边界来自公共领域的 Natural Earth 数据。需要进一步核对时，可以在内容页展开“研究依据与延伸阅读”。</p></div></article></section>`;
 }
 
 function renderNode(id) {

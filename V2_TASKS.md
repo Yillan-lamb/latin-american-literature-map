@@ -453,6 +453,15 @@
 - **发布边界**：`V2-PUBLIC-RELEASE = PAUSED`；Lighthouse、Manifest、GitHub Pages、GitHub Release 与 production deployment 门禁保留，但不是当前主任务。`Web 1.0.0` 只能由 USER 明确开启并批准 Public Release Gate 后使用。
 - **状态**：`🔵 IN_PROGRESS`
 
+### Batch 01 执行记录（WEB-CE-B01，2026-08-18）
+
+- **批次**：`WEB-CE-B01`｜分支 `content/batch-01-paz-fuentes-mistral`
+- **范围**：新作家富恩特斯、米斯特拉尔；帕斯按已有作家补 3 部作品（Preflight 查重发现 V1-ENT-0059 已存在，经 USER 方案 B 授权）；已有作家追加 14 部（帕斯 3 + 建议池 11，其中卡彭铁尔两部计划作品无中译本，按计划规则替换为《时间之战》《追击》）。
+- **流程**：Preflight → 并行 Research（3 Flash Worker + 建议池独立 pass）→ 独立 Review（2 个 fresh Pro Reviewer，REVIEW_ABC/REVIEW_D）→ 串行迁移 `0003_web_ce_b01_batch01.sql` → validate/导出 `data/exports/v1.1.0/` → Geo/Curation/Web Data → QA。
+- **数据**：+24 实体（2 作者/11 作品/3 诗集/2 事件/1 地点/…）、+80 事实、+24 关系（18 CREATED + 6 ASSOCIATED_WITH_PLACE）、+36 来源、+22 卡片；15 关系 hold、10 行 REJECT(SUPERSEDED)。
+- **中译**：全部计划入库作品有核验记录；《奥拉》pending-hold 不入公共阅读层。
+- **状态**：数据与评审完成，Curation/Web/QA 与 Git/PR 收尾中。
+
 ## 当前执行边界
 
 - 当前处于 V2 网站建设阶段 / Web 0.x 内容建设期；`WEB-CONTENT-EXPANSION` 是当前任务。

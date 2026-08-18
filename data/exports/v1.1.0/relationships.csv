@@ -1,0 +1,101 @@
+relationship_id,origin_layer,origin_relation_group_id,subject_id,relation_type,object_id,description_zh,confidence,review_status,upstream_review_status,evidence_count,issue_code
+V1-REL-0001,N2,RG-S2-0001,V1-ENT-0002,CREATED,V1-ENT-0003,博尔赫斯创作短篇《小径分岔的花园》,high,accepted_at_n3,accepted_for_n2,2,NONE
+V1-REL-0002,N2,RG-S2-0002,V1-ENT-0002,CREATED,V1-ENT-0004,博尔赫斯创作短篇《阿莱夫》,high,accepted_at_n3,accepted_for_n2,2,NONE
+V1-REL-0003,N2,RG-S2-0003,V1-ENT-0002,CREATED,V1-ENT-0011,博尔赫斯创作短篇集《虚构集》,high,accepted_at_n3,accepted_for_n2,1,NONE
+V1-REL-0004,N2,RG-S2-0004,V1-ENT-0002,CREATED,V1-ENT-0012,博尔赫斯创作 1949 年作品集《阿莱夫》,high,accepted_at_n3,accepted_for_n2,1,NONE
+V1-REL-0005,N2,RG-S2-0005,V1-ENT-0016,CREATED,V1-ENT-0017,李斯佩克朵创作《活水》,high,accepted_at_n3,accepted_for_n2,1,NONE
+V1-REL-0006,N2,RG-S2-0006,V1-ENT-0016,CREATED,V1-ENT-0018,李斯佩克朵创作《星辰时刻》,high,accepted_at_n3,accepted_for_n2,1,NONE
+V1-REL-0007,N2,RG-S2-0007,V1-ENT-0016,CREATED,V1-ENT-0019,李斯佩克朵创作短篇集《家庭纽带》,high,accepted_at_n3,accepted_for_n2,1,NONE
+V1-REL-0008,N2,RG-S2-0008,V1-ENT-0016,CREATED,V1-ENT-0020,李斯佩克朵创作《G.H. 受难》,medium,accepted_at_n3,accepted_for_n2,1,NONE
+V1-REL-0009,N2,RG-S2-0009,V1-ENT-0016,CREATED,V1-ENT-0026,李斯佩克朵创作《生命的气息》,medium,accepted_at_n3,accepted_for_n2,1,NONE
+V1-REL-0010,N2,RG-S2-0011,V1-ENT-0021,ADAPTED_FROM,V1-ENT-0018,1985 年电影《星辰时刻》改编自同名原著,high,accepted_at_n3,accepted_for_n2,1,端点 0092 为 adaptation，与原著 0088 分层（REVIEW 3.3）；导演关系本轮词表无 DIRECTED，不建
+V1-REL-0011,N2,RG-S2-0013,V1-ENT-0003,SET_IN,V1-ENT-0008,《小径分岔的花园》故事发生于阿什格罗夫村,medium,accepted_at_n3,accepted_for_n2,1,NONE
+V1-REL-0012,N2,RG-S2-0014,V1-ENT-0004,SET_IN,V1-ENT-0009,《阿莱夫》故事核心地点为布宜诺斯艾利斯加雷街,medium,accepted_at_n3,accepted_for_n2,1,NONE
+V1-REL-0013,N2,RG-S2-0015,V1-ENT-0018,SET_IN,V1-ENT-0022,《星辰时刻》故事背景包含里约热内卢,medium,accepted_at_n3,accepted_for_n2,1,NONE
+V1-REL-0014,N2,RG-S2-0016,V1-ENT-0002,ASSOCIATED_WITH_PLACE,V1-ENT-0001,博尔赫斯与阿根廷关联,high,accepted_at_n3,accepted_for_n2,1,NONE
+V1-REL-0015,N2,RG-S2-0022,V1-ENT-0018,EXPLORES_THEME,V1-ENT-0025,《星辰时刻》涉及社会不平等与书写,medium,accepted_at_n3,accepted_for_n2,2,双来源组（SRC-0009+SRC-0012），本轮唯一双来源解释关系
+V1-REL-0016,B01,RG-B01-0001,V1-ENT-0029,CREATED,V1-ENT-0032,加罗创作《未来的回忆》,high,accepted_at_n3,eligible_for_staging_review,1,NONE
+V1-REL-0017,B01,RG-B01-0002,V1-ENT-0029,CREATED,V1-ENT-0033,加罗创作短篇集《彩色的一周》,high,accepted_at_n3,eligible_for_staging_review,1,NONE
+V1-REL-0018,B01,RG-B01-0003,V1-ENT-0029,CREATED,V1-ENT-0034,加罗创作《关于玛丽安娜的证词》,medium,accepted_at_n3,eligible_for_staging_review,1,NONE
+V1-REL-0019,B01,RG-B01-0004,V1-ENT-0030,CREATED,V1-ENT-0035,卡斯特利亚诺斯创作《巴伦坎南》,high,accepted_at_n3,eligible_for_staging_review,1,NONE
+V1-REL-0020,B01,RG-B01-0005,V1-ENT-0030,CREATED,V1-ENT-0036,卡斯特利亚诺斯创作《黑暗的职守》,high,accepted_at_n3,eligible_for_staging_review,1,NONE
+V1-REL-0021,B01,RG-B01-0006,V1-ENT-0030,CREATED,V1-ENT-0037,卡斯特利亚诺斯创作诗集《诗歌不是你》,high,accepted_at_n3,eligible_for_staging_review,1,NONE
+V1-REL-0022,B01,RG-B01-0007,V1-ENT-0031,CREATED,V1-ENT-0038,鲁尔福创作《佩德罗·巴拉莫》,high,accepted_at_n3,eligible_for_staging_review,3,NONE
+V1-REL-0023,B01,RG-B01-0008,V1-ENT-0031,CREATED,V1-ENT-0039,鲁尔福创作短篇集《燃烧的原野》,high,accepted_at_n3,eligible_for_staging_review,1,NONE
+V1-REL-0024,B01,RG-B01-0009,V1-ENT-0031,CREATED,V1-ENT-0040,鲁尔福创作《金鸡》,high,accepted_at_n3,eligible_for_staging_review,1,NONE
+V1-REL-0025,B01,RG-B01-0010,V1-ENT-0030,CREATED,V1-ENT-0044,卡斯特利亚诺斯创作剧作《永恒的女性》,medium,accepted_at_n3,eligible_for_staging_review,1,NONE
+V1-REL-0026,B01,RG-B01-0011,V1-ENT-0029,CREATED,V1-ENT-0045,加罗创作剧作《费利佩·安赫莱斯》,medium,accepted_at_n3,eligible_for_staging_review,1,NONE
+V1-REL-0027,B01,RG-B01-0012,V1-ENT-0033,CONTAINS_WORK,V1-ENT-0041,《彩色的一周》收录《La culpa es de los tlaxcaltecas》,medium,accepted_at_n3,eligible_for_staging_review,1,NONE
+V1-REL-0028,B01,RG-B01-0013,V1-ENT-0042,ADAPTED_FROM,V1-ENT-0032,1968 年电影《未来的回忆》改编自同名小说,high,accepted_at_n3,eligible_for_staging_review,1,NONE
+V1-REL-0029,B01,RG-B01-0014,V1-ENT-0058,DIRECTED,V1-ENT-0042,阿图罗·里普斯坦执导 1968 年电影,high,accepted_at_n3,eligible_for_staging_review,1,Schema 0.2 DIRECTED；person→adaptation
+V1-REL-0030,B01,RG-B01-0015,V1-ENT-0043,EDITION_OF,V1-ENT-0035,FCE 2007 版《巴伦坎南》为其版本,high,accepted_at_n3,eligible_for_staging_review,1,NONE
+V1-REL-0031,B01,RG-B01-0016,V1-ENT-0046,EDITION_OF,V1-ENT-0038,FCE 1964 版《佩德罗·巴拉莫》为其版本,medium,accepted_at_n3,eligible_for_staging_review,1,NONE
+V1-REL-0032,B01,RG-B01-0017,V1-ENT-0032,SET_IN,V1-ENT-0054,《未来的回忆》故事发生于伊斯特佩克,high,accepted_at_n3,eligible_for_staging_review,1,NONE
+V1-REL-0033,B01,RG-B01-0018,V1-ENT-0035,SET_IN,V1-ENT-0052,《巴伦坎南》故事发生于恰帕斯村镇,high,accepted_at_n3,eligible_for_staging_review,1,NONE
+V1-REL-0034,B01,RG-B01-0019,V1-ENT-0038,SET_IN,V1-ENT-0055,《佩德罗·巴拉莫》故事核心地点为科马拉,high,accepted_at_n3,eligible_for_staging_review,1,NONE
+V1-REL-0035,B01,RG-B01-0020,V1-ENT-0029,ASSOCIATED_WITH_PLACE,V1-ENT-0051,加罗与墨西哥关联,high,accepted_at_n3,eligible_for_staging_review,1,NONE
+V1-REL-0036,B01,RG-B01-0021,V1-ENT-0030,ASSOCIATED_WITH_PLACE,V1-ENT-0052,卡斯特利亚诺斯与恰帕斯关联,high,accepted_at_n3,eligible_for_staging_review,1,NONE
+V1-REL-0037,B01,RG-B01-0022,V1-ENT-0030,ASSOCIATED_WITH_PLACE,V1-ENT-0053,卡斯特利亚诺斯与科米坦关联,medium,accepted_at_n3,eligible_for_staging_review,1,NONE
+V1-REL-0038,B01,RG-B01-0023,V1-ENT-0031,ASSOCIATED_WITH_PLACE,V1-ENT-0051,鲁尔福与墨西哥关联,high,accepted_at_n3,eligible_for_staging_review,1,NONE
+V1-REL-0039,B01,RG-B01-0024,V1-ENT-0031,ASSOCIATED_WITH_PLACE,V1-ENT-0057,鲁尔福与圣加布里埃尔关联,medium,accepted_at_n3,eligible_for_staging_review,1,NONE
+V1-REL-0040,B02,RG-B02-0001,V1-ENT-0072,CREATED,V1-ENT-0075,加西亚·马尔克斯创作《百年孤独》,high,accepted_at_n3,eligible_for_staging_review,3,NONE
+V1-REL-0041,B02,RG-B02-0002,V1-ENT-0072,CREATED,V1-ENT-0076,加西亚·马尔克斯创作《没有人给他写信的上校》,high,accepted_at_n3,eligible_for_staging_review,2,NONE
+V1-REL-0042,B02,RG-B02-0003,V1-ENT-0072,CREATED,V1-ENT-0077,加西亚·马尔克斯创作《一桩事先张扬的凶杀案》,high,accepted_at_n3,eligible_for_staging_review,2,NONE
+V1-REL-0043,B02,RG-B02-0004,V1-ENT-0073,CREATED,V1-ENT-0078,科塔萨尔创作《跳房子》,high,accepted_at_n3,eligible_for_staging_review,2,NONE
+V1-REL-0044,B02,RG-B02-0005,V1-ENT-0073,CREATED,V1-ENT-0082,科塔萨尔创作短篇集《动物寓言集》,high,accepted_at_n3,eligible_for_staging_review,1,NONE
+V1-REL-0045,B02,RG-B02-0006,V1-ENT-0073,CREATED,V1-ENT-0083,科塔萨尔创作短篇集《游戏的终结》,high,accepted_at_n3,eligible_for_staging_review,1,NONE
+V1-REL-0046,B02,RG-B02-0007,V1-ENT-0074,CREATED,V1-ENT-0079,卡彭铁尔创作《人间王国》,high,accepted_at_n3,eligible_for_staging_review,1,NONE
+V1-REL-0047,B02,RG-B02-0008,V1-ENT-0074,CREATED,V1-ENT-0080,卡彭铁尔创作《消逝的足迹》,high,accepted_at_n3,eligible_for_staging_review,1,NONE
+V1-REL-0048,B02,RG-B02-0009,V1-ENT-0074,CREATED,V1-ENT-0081,卡彭铁尔创作《光明世纪》,high,accepted_at_n3,eligible_for_staging_review,1,NONE
+V1-REL-0049,B02,RG-B02-0010,V1-ENT-0073,CREATED,V1-ENT-0084,科塔萨尔创作短篇《另一个天空》,high,accepted_at_n3,eligible_for_staging_review,1,NONE
+V1-REL-0050,B02,RG-B02-0011,V1-ENT-0073,CREATED,V1-ENT-0085,科塔萨尔创作短篇《口袋里发现的手稿》,high,accepted_at_n3,eligible_for_staging_review,1,NONE
+V1-REL-0051,B02,RG-B02-0012,V1-ENT-0086,ADAPTED_FROM,V1-ENT-0084,1987 年德国电影《水晶天空》改编自短篇《另一个天空》,high,accepted_at_n3,eligible_for_staging_review,1,NONE
+V1-REL-0052,B02,RG-B02-0013,V1-ENT-0087,ADAPTED_FROM,V1-ENT-0085,2005 年巴西电影《地下游戏》改编自短篇《口袋里发现的手稿》,high,accepted_at_n3,eligible_for_staging_review,1,NONE
+V1-REL-0053,B02,RG-B02-0014,V1-ENT-0088,DIRECTED,V1-ENT-0086,妮娜·格罗塞执导《水晶天空》,high,accepted_at_n3,eligible_for_staging_review,1,NONE
+V1-REL-0054,B02,RG-B02-0015,V1-ENT-0089,DIRECTED,V1-ENT-0087,罗贝托·热尔维茨执导《地下游戏》,high,accepted_at_n3,eligible_for_staging_review,1,NONE
+V1-REL-0055,B02,RG-B02-0017,V1-ENT-0072,ASSOCIATED_WITH_PLACE,V1-ENT-0095,加西亚·马尔克斯与哥伦比亚关联,high,accepted_at_n3,eligible_for_staging_review,1,NONE
+V1-REL-0056,B02,RG-B02-0018,V1-ENT-0072,ASSOCIATED_WITH_PLACE,V1-ENT-0098,加西亚·马尔克斯与阿卡塔卡关联,high,accepted_at_n3,eligible_for_staging_review,1,NONE
+V1-REL-0057,B02,RG-B02-0019,V1-ENT-0072,ASSOCIATED_WITH_PLACE,V1-ENT-0097,加西亚·马尔克斯与马孔多（虚构地）关联,medium,accepted_at_n3,eligible_for_staging_review,1,NONE
+V1-REL-0058,B02,RG-B02-0020,V1-ENT-0074,ASSOCIATED_WITH_PLACE,V1-ENT-0096,卡彭铁尔与古巴关联,high,accepted_at_n3,eligible_for_staging_review,1,NONE
+V1-REL-0059,B03,RG-B03-0001,V1-ENT-0114,CREATED,V1-ENT-0116,巴尔加斯·略萨创作《城市与狗》,high,accepted_at_n3,eligible_for_staging_review,1,NONE
+V1-REL-0060,B03,RG-B03-0002,V1-ENT-0114,CREATED,V1-ENT-0117,巴尔加斯·略萨创作《酒吧长谈》,high,accepted_at_n3,eligible_for_staging_review,1,NONE
+V1-REL-0061,B03,RG-B03-0003,V1-ENT-0114,CREATED,V1-ENT-0118,巴尔加斯·略萨创作《世界末日之战》,high,accepted_at_n3,eligible_for_staging_review,1,NONE
+V1-REL-0062,B03,RG-B03-0004,V1-ENT-0115,CREATED,V1-ENT-0119,聂鲁达创作《二十首情诗和一支绝望的歌》,high,accepted_at_n3,eligible_for_staging_review,2,NONE
+V1-REL-0063,B03,RG-B03-0005,V1-ENT-0115,CREATED,V1-ENT-0120,聂鲁达创作《大地上的居所》,high,accepted_at_n3,eligible_for_staging_review,1,NONE
+V1-REL-0064,B03,RG-B03-0006,V1-ENT-0115,CREATED,V1-ENT-0121,聂鲁达创作《漫歌》,high,accepted_at_n3,eligible_for_staging_review,2,NONE
+V1-REL-0065,B03,RG-B03-0007,V1-ENT-0115,CREATED,V1-ENT-0122,聂鲁达创作诗章《马丘比丘高地》,medium,accepted_at_n3,eligible_for_staging_review,1,NONE
+V1-REL-0066,B03,RG-B03-0008,V1-ENT-0116,SET_IN,V1-ENT-0125,《城市与狗》的故事以利马为背景,medium,accepted_at_n3,eligible_for_staging_review,1,NONE
+V1-REL-0067,B03,RG-B03-0009,V1-ENT-0114,ASSOCIATED_WITH_PLACE,V1-ENT-0124,巴尔加斯·略萨与秘鲁关联,high,accepted_at_n3,eligible_for_staging_review,1,NONE
+V1-REL-0068,B03,RG-B03-0010,V1-ENT-0114,ASSOCIATED_WITH_PLACE,V1-ENT-0125,巴尔加斯·略萨与利马关联,high,accepted_at_n3,eligible_for_staging_review,1,NONE
+V1-REL-0069,B03,RG-B03-0011,V1-ENT-0114,ASSOCIATED_WITH_PLACE,V1-ENT-0126,巴尔加斯·略萨与阿雷基帕关联,high,accepted_at_n3,eligible_for_staging_review,1,NONE
+V1-REL-0070,B03,RG-B03-0012,V1-ENT-0114,ASSOCIATED_WITH_PLACE,V1-ENT-0129,巴尔加斯·略萨与马德里关联,high,accepted_at_n3,eligible_for_staging_review,1,NONE
+V1-REL-0071,B03,RG-B03-0013,V1-ENT-0115,ASSOCIATED_WITH_PLACE,V1-ENT-0123,聂鲁达与智利关联,high,accepted_at_n3,eligible_for_staging_review,1,NONE
+V1-REL-0072,B03,RG-B03-0014,V1-ENT-0115,ASSOCIATED_WITH_PLACE,V1-ENT-0127,聂鲁达与帕拉尔关联,high,accepted_at_n3,eligible_for_staging_review,1,NONE
+V1-REL-0073,B03,RG-B03-0015,V1-ENT-0115,ASSOCIATED_WITH_PLACE,V1-ENT-0128,聂鲁达与圣地亚哥关联,high,accepted_at_n3,eligible_for_staging_review,1,NONE
+V1-REL-0074,B03,RG-B03-0023,V1-ENT-0121,EXPLORES_THEME,V1-ENT-0137,《漫歌》体现大陆命运与美洲史诗,medium,accepted_at_n3,eligible_for_staging_review,2,NONE
+V1-REL-0075,A03,RG-A03-0001,V1-ENT-0075,SET_IN,V1-ENT-0097,《百年孤独》的虚构城市为马孔多,high,accepted_at_n3,eligible_for_staging_review,1,NONE
+V1-REL-0076,N3,V1-S4-A03-PROP-001,V1-ENT-0118,BASED_ON_EVENT,V1-ENT-0139,《世界末日之战》以卡努杜斯战争为历史题材并将该冲突虚构化,high,accepted_at_n3,N3-DEC-002 approved by USER,3,NONE
+V1-REL-0077,WEB-CE-B01,CAND-A-REL-01,V1-ENT-0145,CREATED,V1-ENT-0146,卡洛斯·富恩特斯创作《最明净的地区》(La región más transparente),medium,accepted,WEB-CE-B01,1,NONE
+V1-REL-0078,WEB-CE-B01,CAND-A-REL-02,V1-ENT-0145,CREATED,V1-ENT-0147,卡洛斯·富恩特斯创作《阿尔特米奥·克罗斯之死》(La muerte de Artemio Cruz),medium,accepted,WEB-CE-B01,1,NONE
+V1-REL-0079,WEB-CE-B01,CAND-A-REL-06,V1-ENT-0145,ASSOCIATED_WITH_PLACE,V1-ENT-0051,卡洛斯·富恩特斯与墨西哥的关联（国籍 Mexique，BnF 单源）,low,accepted,WEB-CE-B01,1,NONE
+V1-REL-0080,WEB-CE-B01,CAND-B-REL-001,V1-ENT-0148,CREATED,V1-ENT-0149,米斯特拉尔创作诗集《绝望集》（Desolación，1922）,high,accepted,WEB-CE-B01,2,NONE
+V1-REL-0081,WEB-CE-B01,CAND-B-REL-002,V1-ENT-0148,CREATED,V1-ENT-0150,米斯特拉尔创作诗集《柔情集》（Ternura，1924）,high,accepted,WEB-CE-B01,2,NONE
+V1-REL-0082,WEB-CE-B01,CAND-B-REL-003,V1-ENT-0148,CREATED,V1-ENT-0151,米斯特拉尔创作诗集《塔拉集》（Tala，1938）,high,accepted,WEB-CE-B01,2,NONE
+V1-REL-0083,WEB-CE-B01,CAND-B-REL-004,V1-ENT-0148,ASSOCIATED_WITH_PLACE,V1-ENT-0123,米斯特拉尔与智利关联（生于智利、获奖时居留地 Chile）,high,accepted,WEB-CE-B01,1,NONE
+V1-REL-0084,WEB-CE-B01,CAND-B-REL-005,V1-ENT-0148,ASSOCIATED_WITH_PLACE,V1-ENT-0153,米斯特拉尔与出生地比库尼亚（Vicuña，Elqui 河谷）关联,high,accepted,WEB-CE-B01,1,NONE
+V1-REL-0085,WEB-CE-B01,CAND-C-REL-001,V1-ENT-0059,CREATED,V1-ENT-0154,帕斯创作《孤独的迷宫》（1950 随笔集）,high,accepted,WEB-CE-B01,2,NONE
+V1-REL-0086,WEB-CE-B01,CAND-C-REL-002,V1-ENT-0059,CREATED,V1-ENT-0155,帕斯创作《弓与琴》（1956 诗论）,high,accepted,WEB-CE-B01,2,NONE
+V1-REL-0087,WEB-CE-B01,CAND-C-REL-003,V1-ENT-0059,CREATED,V1-ENT-0156,帕斯创作《太阳石》（1957 长诗）,high,accepted,WEB-CE-B01,2,NONE
+V1-REL-0088,WEB-CE-B01,CAND-C-REL-004,V1-ENT-0059,ASSOCIATED_WITH_PLACE,V1-ENT-0056,帕斯与墨西哥城：出生地（1914-03-31）与逝世地（1998-04-19），一生主要生活与创作之城,high,accepted,WEB-CE-B01,2,NONE
+V1-REL-0089,WEB-CE-B01,CAND-C-REL-005,V1-ENT-0059,ASSOCIATED_WITH_PLACE,V1-ENT-0051,帕斯与墨西哥：获奖时居住国，国籍与主要文学语境所在国,high,accepted,WEB-CE-B01,1,NONE
+V1-REL-0090,WEB-CE-B01,CAND-D-REL-01,V1-ENT-0002,CREATED,V1-ENT-0162,博尔赫斯创作短篇集《沙之书》(El libro de arena),high,accepted,WEB-CE-B01,1,NONE
+V1-REL-0091,WEB-CE-B01,CAND-D-REL-02,V1-ENT-0002,CREATED,V1-ENT-0163,博尔赫斯创作短篇集《布罗迪报告》(El informe de Brodie),medium,accepted,WEB-CE-B01,1,NONE
+V1-REL-0092,WEB-CE-B01,CAND-D-REL-03,V1-ENT-0072,CREATED,V1-ENT-0158,加西亚·马尔克斯创作《霍乱时期的爱情》(El amor en los tiempos del cólera),high,accepted,WEB-CE-B01,1,NONE
+V1-REL-0093,WEB-CE-B01,CAND-D-REL-04,V1-ENT-0072,CREATED,V1-ENT-0159,加西亚·马尔克斯创作《族长的秋天》(El otoño del patriarca),high,accepted,WEB-CE-B01,1,NONE
+V1-REL-0094,WEB-CE-B01,CAND-D-REL-05,V1-ENT-0073,CREATED,V1-ENT-0164,胡利奥·科塔萨尔创作短篇集《秘密武器》(Las armas secretas),high,accepted,WEB-CE-B01,1,NONE
+V1-REL-0095,WEB-CE-B01,CAND-D-REL-06,V1-ENT-0114,CREATED,V1-ENT-0160,巴尔加斯·略萨创作《绿房子》(La casa verde),medium,accepted,WEB-CE-B01,1,NONE
+V1-REL-0096,WEB-CE-B01,CAND-D-REL-07,V1-ENT-0114,CREATED,V1-ENT-0161,巴尔加斯·略萨创作《潘达雷昂上尉与劳军女郎》(Pantaleón y las visitadoras),high,accepted,WEB-CE-B01,1,NONE
+V1-REL-0097,WEB-CE-B01,CAND-D-REL-08,V1-ENT-0115,CREATED,V1-ENT-0165,聂鲁达创作诗集《一百首爱情十四行诗》(Cien sonetos de amor),medium,accepted,WEB-CE-B01,1,NONE
+V1-REL-0098,WEB-CE-B01,CAND-D-REL-09,V1-ENT-0016,CREATED,V1-ENT-0166,克拉丽丝·李斯佩克朵创作短篇集《隐秘的幸福》(Felicidade clandestina),high,accepted,WEB-CE-B01,1,NONE
+V1-REL-0099,WEB-CE-B01,CAND-PM-REL-01,V1-ENT-0074,CREATED,V1-ENT-0167,阿莱霍·卡彭铁尔创作短篇集《时间之战》(Guerra del tiempo),high,accepted,WEB-CE-B01,1,NONE
+V1-REL-0100,WEB-CE-B01,CAND-PM-REL-02,V1-ENT-0074,CREATED,V1-ENT-0168,阿莱霍·卡彭铁尔创作中篇《追击》(El acoso),high,accepted,WEB-CE-B01,1,NONE

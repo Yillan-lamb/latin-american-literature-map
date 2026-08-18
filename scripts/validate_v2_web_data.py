@@ -117,7 +117,10 @@ def main() -> int:
             fail(f"map status override lacks basis: {override.get('curation_id')}")
 
     public_scope_ids = set().union(*(set(values) for values in payload["public_scope"].values()))
-    expected_scope_counts = {"authors": 10, "works": 17, "places": 19}
+    # 注意:rc.4/rc.5 收紧后,仓库既有 site_data 的 public_scope 实际为 authors=0/works=0/places=19,
+    # 原硬编码 (10/17/19) 已与产物漂移;WEB-CE-B01 重建后实际为 authors=3/works=3/places=21
+    # (新增富恩特斯/米斯特拉尔/帕斯 3 位公共作者、帕斯 3 部公共作品、墨西哥城与比库尼亚 2 个地点)。
+    expected_scope_counts = {"authors": 3, "works": 3, "places": 21}
     for group, expected in expected_scope_counts.items():
         if len(payload["public_scope"][group]) != expected:
             fail(f"public {group} scope is {len(payload['public_scope'][group])}, expected {expected}")

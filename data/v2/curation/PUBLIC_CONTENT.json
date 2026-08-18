@@ -2802,6 +2802,984 @@
         "created_at": "2026-08-14",
         "reviewed_at": "2026-08-14"
       }
+    },
+    {
+      "target_id": "V1-ENT-0145",
+      "reader_lede": {
+        "content": "卡洛斯·富恩特斯（1928–2012），墨西哥小说家、散文家与剧作家。1975–1977 年任墨西哥驻法国大使，1985 年在哈佛大学任文学教授；创作《最明净的地区》与《阿尔特米奥·克罗斯之死》等作品。",
+        "status": "auto_approved",
+        "research_refs": [
+          "V1-FCT-0260",
+          "V1-FCT-0261",
+          "V1-FCT-0262",
+          "V1-FCT-0263",
+          "V1-FCT-0264",
+          "V1-REL-0077",
+          "V1-REL-0078"
+        ],
+        "source_refs": [
+          "SRC-0087",
+          "SRC-0088"
+        ],
+        "basis_note": "仅改写 WEB-CE-B01 已评审事实，可自动准入",
+        "reviewer": "CODEX-WEB-CE-B01",
+        "created_at": "2026-08-14",
+        "reviewed_at": "2026-08-14"
+      },
+      "why_know": {
+        "content": "认识富恩特斯，可以沿墨西哥小说、散文与戏剧写作的路径进入二十世纪墨西哥文学；其外交官与文学教授经历也提供理解作家与公共生活关系的背景线索。",
+        "status": "user_review",
+        "research_refs": [
+          "V1-FCT-0260",
+          "V1-FCT-0261",
+          "V1-FCT-0262",
+          "V1-FCT-0263",
+          "V1-FCT-0264",
+          "V1-REL-0077",
+          "V1-REL-0078"
+        ],
+        "source_refs": [
+          "SRC-0087",
+          "SRC-0088"
+        ],
+        "basis_note": "WEB-CE-B01 新增策展文案，待 USER 集中审核",
+        "reviewer": "UNREVIEWED",
+        "created_at": "2026-08-14",
+        "reviewed_at": null
+      },
+      "literary_profile": {
+        "content": "卡洛斯·富恩特斯（1928–2012），墨西哥小说家、散文家与剧作家。1975–1977 年任墨西哥驻法国大使，1985 年在哈佛大学任文学教授；创作《最明净的地区》与《阿尔特米奥·克罗斯之死》等作品。",
+        "status": "user_review",
+        "research_refs": [
+          "V1-FCT-0260",
+          "V1-FCT-0261",
+          "V1-FCT-0262",
+          "V1-FCT-0263",
+          "V1-FCT-0264",
+          "V1-REL-0077",
+          "V1-REL-0078"
+        ],
+        "source_refs": [
+          "SRC-0087",
+          "SRC-0088"
+        ],
+        "basis_note": "需与短导语区分并完成编辑审核",
+        "reviewer": "UNREVIEWED",
+        "created_at": "2026-08-14",
+        "reviewed_at": null
+      },
+      "literary_features": {
+        "content": [
+          {
+            "title": "职业身份",
+            "text": "主库事实将其职业概括为墨西哥小说家、散文家与剧作家。"
+          },
+          {
+            "title": "外交与教职经历",
+            "text": "1975–1977 年任墨西哥驻法国大使，1985 年在哈佛大学任文学教授（据 BnF 描述）。"
+          },
+          {
+            "title": "两部代表作品",
+            "text": "《最明净的地区》（La región más transparente）与《阿尔特米奥·克罗斯之死》（La muerte de Artemio Cruz）均收录于 BnF 目录。"
+          }
+        ],
+        "status": "auto_approved",
+        "research_refs": [
+          "V1-FCT-0260",
+          "V1-FCT-0261",
+          "V1-FCT-0262",
+          "V1-FCT-0263",
+          "V1-FCT-0264",
+          "V1-REL-0077",
+          "V1-REL-0078"
+        ],
+        "source_refs": [
+          "SRC-0087",
+          "SRC-0088"
+        ],
+        "basis_note": "仅改写 WEB-CE-B01 已评审事实，可自动准入",
+        "reviewer": "CODEX-WEB-CE-B01",
+        "created_at": "2026-08-14",
+        "reviewed_at": "2026-08-14"
+      },
+      "start_here": {
+        "content": [
+          {
+            "target_id": "V1-ENT-0146",
+            "reason": "《最明净的地区》是富恩特斯的作品；当前仅有书目事实，故事释义待后续研究。"
+          },
+          {
+            "target_id": "V1-ENT-0147",
+            "reason": "《阿尔特米奥·克罗斯之死》是富恩特斯的作品；当前仅有书目事实，故事释义待后续研究。"
+          }
+        ],
+        "status": "user_review",
+        "research_refs": [
+          "V1-FCT-0260",
+          "V1-FCT-0261",
+          "V1-FCT-0262",
+          "V1-FCT-0263",
+          "V1-FCT-0264",
+          "V1-REL-0077",
+          "V1-REL-0078"
+        ],
+        "source_refs": [
+          "SRC-0087",
+          "SRC-0088"
+        ],
+        "basis_note": "WEB-CE-B01 新增策展文案，待 USER 集中审核",
+        "reviewer": "UNREVIEWED",
+        "created_at": "2026-08-14",
+        "reviewed_at": null
+      },
+      "core_themes": {
+        "content": [
+          {
+            "title": "作者生平与职业",
+            "text": "当前可确认事实集中在生卒年（1928–2012）、国籍（墨西哥）与职业身份。"
+          },
+          {
+            "title": "作品书目",
+            "text": "两部作品目前只有书目级事实，故事释义待后续研究。"
+          }
+        ],
+        "status": "user_review",
+        "research_refs": [
+          "V1-FCT-0260",
+          "V1-FCT-0261",
+          "V1-FCT-0262",
+          "V1-FCT-0263",
+          "V1-FCT-0264",
+          "V1-REL-0077",
+          "V1-REL-0078"
+        ],
+        "source_refs": [
+          "SRC-0087",
+          "SRC-0088"
+        ],
+        "basis_note": "WEB-CE-B01 新增策展文案，待 USER 集中审核",
+        "reviewer": "UNREVIEWED",
+        "created_at": "2026-08-14",
+        "reviewed_at": null
+      },
+      "literary_connections": {
+        "content": [
+          "V1-ENT-0146",
+          "V1-ENT-0147"
+        ],
+        "status": "user_review",
+        "research_refs": [
+          "V1-FCT-0260",
+          "V1-FCT-0261",
+          "V1-FCT-0262",
+          "V1-FCT-0263",
+          "V1-FCT-0264",
+          "V1-REL-0077",
+          "V1-REL-0078"
+        ],
+        "source_refs": [
+          "SRC-0087",
+          "SRC-0088"
+        ],
+        "basis_note": "不能从未审核入门排序派生自动关系",
+        "reviewer": "UNREVIEWED",
+        "created_at": "2026-08-14",
+        "reviewed_at": null
+      },
+      "reader_fit": {
+        "content": "如果你想从墨西哥小说、散文与戏剧作家的路径进入二十世纪墨西哥文学，可以从富恩特斯开始。",
+        "status": "user_review",
+        "research_refs": [
+          "V1-FCT-0260",
+          "V1-FCT-0261",
+          "V1-FCT-0262",
+          "V1-FCT-0263",
+          "V1-FCT-0264",
+          "V1-REL-0077",
+          "V1-REL-0078"
+        ],
+        "source_refs": [
+          "SRC-0087",
+          "SRC-0088"
+        ],
+        "basis_note": "WEB-CE-B01 新增策展文案，待 USER 集中审核",
+        "reviewer": "UNREVIEWED",
+        "created_at": "2026-08-14",
+        "reviewed_at": null
+      },
+      "signature_keywords": {
+        "content": [
+          "墨西哥文学",
+          "小说与散文",
+          "外交与教职"
+        ],
+        "status": "user_review",
+        "research_refs": [
+          "V1-FCT-0260",
+          "V1-FCT-0261",
+          "V1-FCT-0262",
+          "V1-FCT-0263",
+          "V1-FCT-0264",
+          "V1-REL-0077",
+          "V1-REL-0078"
+        ],
+        "source_refs": [
+          "SRC-0087",
+          "SRC-0088"
+        ],
+        "basis_note": "WEB-CE-B01 新增策展文案，待 USER 集中审核",
+        "reviewer": "UNREVIEWED",
+        "created_at": "2026-08-14",
+        "reviewed_at": null
+      },
+      "reading_route": {
+        "content": [
+          "《最明净的地区》",
+          "《阿尔特米奥·克罗斯之死》",
+          "沿墨西哥二十世纪文学继续探索"
+        ],
+        "status": "user_review",
+        "research_refs": [
+          "V1-FCT-0260",
+          "V1-FCT-0261",
+          "V1-FCT-0262",
+          "V1-FCT-0263",
+          "V1-FCT-0264",
+          "V1-REL-0077",
+          "V1-REL-0078"
+        ],
+        "source_refs": [
+          "SRC-0087",
+          "SRC-0088"
+        ],
+        "basis_note": "WEB-CE-B01 新增策展文案，待 USER 集中审核",
+        "reviewer": "UNREVIEWED",
+        "created_at": "2026-08-14",
+        "reviewed_at": null
+      },
+      "guiding_question": {
+        "content": "一位同时担任外交官与文学教授的作家，其公共身份与创作之间是什么关系？",
+        "status": "user_review",
+        "research_refs": [
+          "V1-FCT-0260",
+          "V1-FCT-0261",
+          "V1-FCT-0262",
+          "V1-FCT-0263",
+          "V1-FCT-0264",
+          "V1-REL-0077",
+          "V1-REL-0078"
+        ],
+        "source_refs": [
+          "SRC-0087",
+          "SRC-0088"
+        ],
+        "basis_note": "WEB-CE-B01 新增策展文案，待 USER 集中审核",
+        "reviewer": "UNREVIEWED",
+        "created_at": "2026-08-14",
+        "reviewed_at": null
+      }
+    },
+    {
+      "target_id": "V1-ENT-0148",
+      "reader_lede": {
+        "content": "加夫列拉·米斯特拉尔（1889–1957），智利诗人，1945 年诺贝尔文学奖得主，是南美洲（拉丁美洲）首位诺贝尔文学奖得主。本名 Lucila Godoy Alcayaga；出身教师，曾任智利驻多国领事。",
+        "status": "auto_approved",
+        "research_refs": [
+          "V1-FCT-0267",
+          "V1-FCT-0268",
+          "V1-FCT-0269",
+          "V1-FCT-0271",
+          "V1-FCT-0272",
+          "V1-FCT-0273",
+          "V1-FCT-0274",
+          "V1-FCT-0275",
+          "V1-FCT-0276",
+          "V1-FCT-0278",
+          "V1-REL-0080",
+          "V1-REL-0081",
+          "V1-REL-0082"
+        ],
+        "source_refs": [
+          "SRC-0089",
+          "SRC-0090",
+          "SRC-0091"
+        ],
+        "basis_note": "仅改写 WEB-CE-B01 已评审事实，可自动准入",
+        "reviewer": "CODEX-WEB-CE-B01",
+        "created_at": "2026-08-14",
+        "reviewed_at": "2026-08-14"
+      },
+      "why_know": {
+        "content": "认识米斯特拉尔，可以从智利诗歌与诺贝尔文学奖史的入口出发：她的抒情诗获奖理由与教师、领事经历共同构成理解其创作的背景事实。",
+        "status": "user_review",
+        "research_refs": [
+          "V1-FCT-0267",
+          "V1-FCT-0268",
+          "V1-FCT-0269",
+          "V1-FCT-0271",
+          "V1-FCT-0272",
+          "V1-FCT-0273",
+          "V1-FCT-0274",
+          "V1-FCT-0275",
+          "V1-FCT-0276",
+          "V1-FCT-0278",
+          "V1-REL-0080",
+          "V1-REL-0081",
+          "V1-REL-0082"
+        ],
+        "source_refs": [
+          "SRC-0089",
+          "SRC-0090",
+          "SRC-0091"
+        ],
+        "basis_note": "WEB-CE-B01 新增策展文案，待 USER 集中审核",
+        "reviewer": "UNREVIEWED",
+        "created_at": "2026-08-14",
+        "reviewed_at": null
+      },
+      "literary_profile": {
+        "content": "加夫列拉·米斯特拉尔（1889–1957），智利诗人，1945 年诺贝尔文学奖得主，是南美洲（拉丁美洲）首位诺贝尔文学奖得主。本名 Lucila Godoy Alcayaga；出身教师，曾任智利驻多国领事。",
+        "status": "user_review",
+        "research_refs": [
+          "V1-FCT-0267",
+          "V1-FCT-0268",
+          "V1-FCT-0269",
+          "V1-FCT-0271",
+          "V1-FCT-0272",
+          "V1-FCT-0273",
+          "V1-FCT-0274",
+          "V1-FCT-0275",
+          "V1-FCT-0276",
+          "V1-FCT-0278",
+          "V1-REL-0080",
+          "V1-REL-0081",
+          "V1-REL-0082"
+        ],
+        "source_refs": [
+          "SRC-0089",
+          "SRC-0090",
+          "SRC-0091"
+        ],
+        "basis_note": "需与短导语区分并完成编辑审核",
+        "reviewer": "UNREVIEWED",
+        "created_at": "2026-08-14",
+        "reviewed_at": null
+      },
+      "literary_features": {
+        "content": [
+          {
+            "title": "生平与职业",
+            "text": "本名 Lucila Godoy Alcayaga；生于比库尼亚（Vicuña），15 岁起在故乡任教，后在拉丁美洲多国教育系统任职并担任智利驻多个国家的领事。"
+          },
+          {
+            "title": "获奖",
+            "text": "1945 年诺贝尔文学奖得主，为南美洲（拉丁美洲）首位诺贝尔文学奖得主；获奖理由称其抒情诗以强烈情感为灵感，使她的名字成为整个拉丁美洲世界理想主义渴望的象征。"
+          },
+          {
+            "title": "笔名来源",
+            "text": "笔名 Gabriela Mistral 取自她喜爱的两位诗人 Gabriele D'Annunzio 与 Frédéric Mistral。"
+          },
+          {
+            "title": "三部诗集",
+            "text": "《绝望集》（1922）、《柔情集》（1924）与《塔拉集》（1938）收录于诺贝尔官网书目。"
+          }
+        ],
+        "status": "auto_approved",
+        "research_refs": [
+          "V1-FCT-0267",
+          "V1-FCT-0268",
+          "V1-FCT-0269",
+          "V1-FCT-0271",
+          "V1-FCT-0272",
+          "V1-FCT-0273",
+          "V1-FCT-0274",
+          "V1-FCT-0275",
+          "V1-FCT-0276",
+          "V1-FCT-0278",
+          "V1-REL-0080",
+          "V1-REL-0081",
+          "V1-REL-0082"
+        ],
+        "source_refs": [
+          "SRC-0089",
+          "SRC-0090",
+          "SRC-0091"
+        ],
+        "basis_note": "仅改写 WEB-CE-B01 已评审事实，可自动准入",
+        "reviewer": "CODEX-WEB-CE-B01",
+        "created_at": "2026-08-14",
+        "reviewed_at": "2026-08-14"
+      },
+      "start_here": {
+        "content": [
+          {
+            "target_id": "V1-ENT-0149",
+            "reason": "《绝望集》是米斯特拉尔 1922 年出版的诗集。"
+          },
+          {
+            "target_id": "V1-ENT-0150",
+            "reason": "《柔情集》以摇篮曲和儿童歌谣为主体。"
+          },
+          {
+            "target_id": "V1-ENT-0151",
+            "reason": "《塔拉集》采用不寻常意象与自由诗。"
+          }
+        ],
+        "status": "user_review",
+        "research_refs": [
+          "V1-FCT-0267",
+          "V1-FCT-0268",
+          "V1-FCT-0269",
+          "V1-FCT-0271",
+          "V1-FCT-0272",
+          "V1-FCT-0273",
+          "V1-FCT-0274",
+          "V1-FCT-0275",
+          "V1-FCT-0276",
+          "V1-FCT-0278",
+          "V1-REL-0080",
+          "V1-REL-0081",
+          "V1-REL-0082"
+        ],
+        "source_refs": [
+          "SRC-0089",
+          "SRC-0090",
+          "SRC-0091"
+        ],
+        "basis_note": "WEB-CE-B01 新增策展文案，待 USER 集中审核",
+        "reviewer": "UNREVIEWED",
+        "created_at": "2026-08-14",
+        "reviewed_at": null
+      },
+      "core_themes": {
+        "content": [
+          {
+            "title": "抒情诗与获奖",
+            "text": "获奖事实集中于其抒情诗与 1945 年诺贝尔文学奖。"
+          },
+          {
+            "title": "诗集书目",
+            "text": "三部诗集目前以书目事实为主，官方一句话释义仅覆盖《柔情集》与《塔拉集》。"
+          }
+        ],
+        "status": "user_review",
+        "research_refs": [
+          "V1-FCT-0267",
+          "V1-FCT-0268",
+          "V1-FCT-0269",
+          "V1-FCT-0271",
+          "V1-FCT-0272",
+          "V1-FCT-0273",
+          "V1-FCT-0274",
+          "V1-FCT-0275",
+          "V1-FCT-0276",
+          "V1-FCT-0278",
+          "V1-REL-0080",
+          "V1-REL-0081",
+          "V1-REL-0082"
+        ],
+        "source_refs": [
+          "SRC-0089",
+          "SRC-0090",
+          "SRC-0091"
+        ],
+        "basis_note": "WEB-CE-B01 新增策展文案，待 USER 集中审核",
+        "reviewer": "UNREVIEWED",
+        "created_at": "2026-08-14",
+        "reviewed_at": null
+      },
+      "literary_connections": {
+        "content": [
+          "V1-ENT-0149",
+          "V1-ENT-0150",
+          "V1-ENT-0151"
+        ],
+        "status": "user_review",
+        "research_refs": [
+          "V1-FCT-0267",
+          "V1-FCT-0268",
+          "V1-FCT-0269",
+          "V1-FCT-0271",
+          "V1-FCT-0272",
+          "V1-FCT-0273",
+          "V1-FCT-0274",
+          "V1-FCT-0275",
+          "V1-FCT-0276",
+          "V1-FCT-0278",
+          "V1-REL-0080",
+          "V1-REL-0081",
+          "V1-REL-0082"
+        ],
+        "source_refs": [
+          "SRC-0089",
+          "SRC-0090",
+          "SRC-0091"
+        ],
+        "basis_note": "不能从未审核入门排序派生自动关系",
+        "reviewer": "UNREVIEWED",
+        "created_at": "2026-08-14",
+        "reviewed_at": null
+      },
+      "reader_fit": {
+        "content": "如果你想从智利诗歌与诺贝尔文学奖史的入口了解拉丁美洲首位诺贝尔文学奖得主，可以从米斯特拉尔开始。",
+        "status": "user_review",
+        "research_refs": [
+          "V1-FCT-0267",
+          "V1-FCT-0268",
+          "V1-FCT-0269",
+          "V1-FCT-0271",
+          "V1-FCT-0272",
+          "V1-FCT-0273",
+          "V1-FCT-0274",
+          "V1-FCT-0275",
+          "V1-FCT-0276",
+          "V1-FCT-0278",
+          "V1-REL-0080",
+          "V1-REL-0081",
+          "V1-REL-0082"
+        ],
+        "source_refs": [
+          "SRC-0089",
+          "SRC-0090",
+          "SRC-0091"
+        ],
+        "basis_note": "WEB-CE-B01 新增策展文案，待 USER 集中审核",
+        "reviewer": "UNREVIEWED",
+        "created_at": "2026-08-14",
+        "reviewed_at": null
+      },
+      "signature_keywords": {
+        "content": [
+          "抒情诗",
+          "诺贝尔文学奖",
+          "智利诗歌"
+        ],
+        "status": "user_review",
+        "research_refs": [
+          "V1-FCT-0267",
+          "V1-FCT-0268",
+          "V1-FCT-0269",
+          "V1-FCT-0271",
+          "V1-FCT-0272",
+          "V1-FCT-0273",
+          "V1-FCT-0274",
+          "V1-FCT-0275",
+          "V1-FCT-0276",
+          "V1-FCT-0278",
+          "V1-REL-0080",
+          "V1-REL-0081",
+          "V1-REL-0082"
+        ],
+        "source_refs": [
+          "SRC-0089",
+          "SRC-0090",
+          "SRC-0091"
+        ],
+        "basis_note": "WEB-CE-B01 新增策展文案，待 USER 集中审核",
+        "reviewer": "UNREVIEWED",
+        "created_at": "2026-08-14",
+        "reviewed_at": null
+      },
+      "reading_route": {
+        "content": [
+          "《绝望集》",
+          "《柔情集》",
+          "《塔拉集》"
+        ],
+        "status": "user_review",
+        "research_refs": [
+          "V1-FCT-0267",
+          "V1-FCT-0268",
+          "V1-FCT-0269",
+          "V1-FCT-0271",
+          "V1-FCT-0272",
+          "V1-FCT-0273",
+          "V1-FCT-0274",
+          "V1-FCT-0275",
+          "V1-FCT-0276",
+          "V1-FCT-0278",
+          "V1-REL-0080",
+          "V1-REL-0081",
+          "V1-REL-0082"
+        ],
+        "source_refs": [
+          "SRC-0089",
+          "SRC-0090",
+          "SRC-0091"
+        ],
+        "basis_note": "WEB-CE-B01 新增策展文案，待 USER 集中审核",
+        "reviewer": "UNREVIEWED",
+        "created_at": "2026-08-14",
+        "reviewed_at": null
+      },
+      "guiding_question": {
+        "content": "一部诗集如何被官方书目与获奖理由定义，而读者又应如何看待这些定义？",
+        "status": "user_review",
+        "research_refs": [
+          "V1-FCT-0267",
+          "V1-FCT-0268",
+          "V1-FCT-0269",
+          "V1-FCT-0271",
+          "V1-FCT-0272",
+          "V1-FCT-0273",
+          "V1-FCT-0274",
+          "V1-FCT-0275",
+          "V1-FCT-0276",
+          "V1-FCT-0278",
+          "V1-REL-0080",
+          "V1-REL-0081",
+          "V1-REL-0082"
+        ],
+        "source_refs": [
+          "SRC-0089",
+          "SRC-0090",
+          "SRC-0091"
+        ],
+        "basis_note": "WEB-CE-B01 新增策展文案，待 USER 集中审核",
+        "reviewer": "UNREVIEWED",
+        "created_at": "2026-08-14",
+        "reviewed_at": null
+      }
+    },
+    {
+      "target_id": "V1-ENT-0059",
+      "reader_lede": {
+        "content": "奥克塔维奥·帕斯（1914–1998），墨西哥诗人、散文家与外交官，1990 年诺贝尔文学奖得主，生于墨西哥城。以《孤独的迷宫》等分析墨西哥历史与文化的随笔闻名，也是《弓与琴》《太阳石》等作品的作者。",
+        "status": "auto_approved",
+        "research_refs": [
+          "V1-FCT-0290",
+          "V1-FCT-0291",
+          "V1-FCT-0292",
+          "V1-FCT-0293",
+          "V1-FCT-0294",
+          "V1-FCT-0295",
+          "V1-FCT-0296",
+          "V1-FCT-0297",
+          "V1-REL-0085",
+          "V1-REL-0086",
+          "V1-REL-0087"
+        ],
+        "source_refs": [
+          "SRC-0092",
+          "SRC-0094",
+          "SRC-0095"
+        ],
+        "basis_note": "仅改写 WEB-CE-B01 已评审事实，可自动准入",
+        "reviewer": "CODEX-WEB-CE-B01",
+        "created_at": "2026-08-14",
+        "reviewed_at": "2026-08-14"
+      },
+      "why_know": {
+        "content": "认识帕斯，可以从墨西哥诗歌、散文与外交生涯的交汇处进入二十世纪墨西哥文学；其随笔与诗论均围绕墨西哥历史与文化展开。",
+        "status": "user_review",
+        "research_refs": [
+          "V1-FCT-0290",
+          "V1-FCT-0291",
+          "V1-FCT-0292",
+          "V1-FCT-0293",
+          "V1-FCT-0294",
+          "V1-FCT-0295",
+          "V1-FCT-0296",
+          "V1-FCT-0297",
+          "V1-REL-0085",
+          "V1-REL-0086",
+          "V1-REL-0087"
+        ],
+        "source_refs": [
+          "SRC-0092",
+          "SRC-0094",
+          "SRC-0095"
+        ],
+        "basis_note": "WEB-CE-B01 新增策展文案，待 USER 集中审核",
+        "reviewer": "UNREVIEWED",
+        "created_at": "2026-08-14",
+        "reviewed_at": null
+      },
+      "literary_profile": {
+        "content": "奥克塔维奥·帕斯（1914–1998），墨西哥诗人、散文家与外交官，1990 年诺贝尔文学奖得主，生于墨西哥城。以《孤独的迷宫》等分析墨西哥历史与文化的随笔闻名，也是《弓与琴》《太阳石》等作品的作者。",
+        "status": "user_review",
+        "research_refs": [
+          "V1-FCT-0290",
+          "V1-FCT-0291",
+          "V1-FCT-0292",
+          "V1-FCT-0293",
+          "V1-FCT-0294",
+          "V1-FCT-0295",
+          "V1-FCT-0296",
+          "V1-FCT-0297",
+          "V1-REL-0085",
+          "V1-REL-0086",
+          "V1-REL-0087"
+        ],
+        "source_refs": [
+          "SRC-0092",
+          "SRC-0094",
+          "SRC-0095"
+        ],
+        "basis_note": "需与短导语区分并完成编辑审核",
+        "reviewer": "UNREVIEWED",
+        "created_at": "2026-08-14",
+        "reviewed_at": null
+      },
+      "literary_features": {
+        "content": [
+          {
+            "title": "诗人、散文家与外交官",
+            "text": "主库事实概括其职业为诗人、散文家与外交官，兼有记者与翻译身份；生于墨西哥城，1990 年诺贝尔文学奖得主。"
+          },
+          {
+            "title": "外交生涯",
+            "text": "1946 年起任外交官约 20 年，1962 年任墨西哥驻印度大使，1968 年为抗议墨西哥城政府镇压学生示威而辞职。"
+          },
+          {
+            "title": "文学杂志与思想影响",
+            "text": "创办《El hijo pródigo》《Vuelta》等文学杂志；受马克思主义、超现实主义、存在主义、佛教与印度教思想影响。"
+          },
+          {
+            "title": "三部代表作品",
+            "text": "《孤独的迷宫》（1950 随笔集）、《弓与琴》（1956 诗论）与《太阳石》（1957 长诗）。"
+          }
+        ],
+        "status": "auto_approved",
+        "research_refs": [
+          "V1-FCT-0290",
+          "V1-FCT-0291",
+          "V1-FCT-0292",
+          "V1-FCT-0293",
+          "V1-FCT-0294",
+          "V1-FCT-0295",
+          "V1-FCT-0296",
+          "V1-FCT-0297",
+          "V1-REL-0085",
+          "V1-REL-0086",
+          "V1-REL-0087"
+        ],
+        "source_refs": [
+          "SRC-0092",
+          "SRC-0094",
+          "SRC-0095"
+        ],
+        "basis_note": "仅改写 WEB-CE-B01 已评审事实，可自动准入",
+        "reviewer": "CODEX-WEB-CE-B01",
+        "created_at": "2026-08-14",
+        "reviewed_at": "2026-08-14"
+      },
+      "start_here": {
+        "content": [
+          {
+            "target_id": "V1-ENT-0154",
+            "reason": "《孤独的迷宫》是帕斯分析墨西哥历史与文化的随笔集。"
+          },
+          {
+            "target_id": "V1-ENT-0155",
+            "reason": "《弓与琴》是帕斯的诗论代表作。"
+          },
+          {
+            "target_id": "V1-ENT-0156",
+            "reason": "《太阳石》是帕斯 1957 年长诗。"
+          }
+        ],
+        "status": "user_review",
+        "research_refs": [
+          "V1-FCT-0290",
+          "V1-FCT-0291",
+          "V1-FCT-0292",
+          "V1-FCT-0293",
+          "V1-FCT-0294",
+          "V1-FCT-0295",
+          "V1-FCT-0296",
+          "V1-FCT-0297",
+          "V1-REL-0085",
+          "V1-REL-0086",
+          "V1-REL-0087"
+        ],
+        "source_refs": [
+          "SRC-0092",
+          "SRC-0094",
+          "SRC-0095"
+        ],
+        "basis_note": "WEB-CE-B01 新增策展文案，待 USER 集中审核",
+        "reviewer": "UNREVIEWED",
+        "created_at": "2026-08-14",
+        "reviewed_at": null
+      },
+      "core_themes": {
+        "content": [
+          {
+            "title": "随笔与诗论",
+            "text": "《孤独的迷宫》分析墨西哥历史与文化；《弓与琴》论诗、诗性启示与诗和历史。"
+          },
+          {
+            "title": "诗歌创作",
+            "text": "《太阳石》为 1957 年长诗，结构借自阿兹特克历法。"
+          }
+        ],
+        "status": "user_review",
+        "research_refs": [
+          "V1-FCT-0290",
+          "V1-FCT-0291",
+          "V1-FCT-0292",
+          "V1-FCT-0293",
+          "V1-FCT-0294",
+          "V1-FCT-0295",
+          "V1-FCT-0296",
+          "V1-FCT-0297",
+          "V1-REL-0085",
+          "V1-REL-0086",
+          "V1-REL-0087"
+        ],
+        "source_refs": [
+          "SRC-0092",
+          "SRC-0094",
+          "SRC-0095"
+        ],
+        "basis_note": "WEB-CE-B01 新增策展文案，待 USER 集中审核",
+        "reviewer": "UNREVIEWED",
+        "created_at": "2026-08-14",
+        "reviewed_at": null
+      },
+      "literary_connections": {
+        "content": [
+          "V1-ENT-0154",
+          "V1-ENT-0155",
+          "V1-ENT-0156"
+        ],
+        "status": "user_review",
+        "research_refs": [
+          "V1-FCT-0290",
+          "V1-FCT-0291",
+          "V1-FCT-0292",
+          "V1-FCT-0293",
+          "V1-FCT-0294",
+          "V1-FCT-0295",
+          "V1-FCT-0296",
+          "V1-FCT-0297",
+          "V1-REL-0085",
+          "V1-REL-0086",
+          "V1-REL-0087"
+        ],
+        "source_refs": [
+          "SRC-0092",
+          "SRC-0094",
+          "SRC-0095"
+        ],
+        "basis_note": "不能从未审核入门排序派生自动关系",
+        "reviewer": "UNREVIEWED",
+        "created_at": "2026-08-14",
+        "reviewed_at": null
+      },
+      "reader_fit": {
+        "content": "如果你喜欢分析历史与文化的随笔、诗论以及具有明确时间结构的长诗，可以从帕斯开始。",
+        "status": "user_review",
+        "research_refs": [
+          "V1-FCT-0290",
+          "V1-FCT-0291",
+          "V1-FCT-0292",
+          "V1-FCT-0293",
+          "V1-FCT-0294",
+          "V1-FCT-0295",
+          "V1-FCT-0296",
+          "V1-FCT-0297",
+          "V1-REL-0085",
+          "V1-REL-0086",
+          "V1-REL-0087"
+        ],
+        "source_refs": [
+          "SRC-0092",
+          "SRC-0094",
+          "SRC-0095"
+        ],
+        "basis_note": "WEB-CE-B01 新增策展文案，待 USER 集中审核",
+        "reviewer": "UNREVIEWED",
+        "created_at": "2026-08-14",
+        "reviewed_at": null
+      },
+      "signature_keywords": {
+        "content": [
+          "墨西哥历史与文化",
+          "随笔与诗论",
+          "长诗"
+        ],
+        "status": "user_review",
+        "research_refs": [
+          "V1-FCT-0290",
+          "V1-FCT-0291",
+          "V1-FCT-0292",
+          "V1-FCT-0293",
+          "V1-FCT-0294",
+          "V1-FCT-0295",
+          "V1-FCT-0296",
+          "V1-FCT-0297",
+          "V1-REL-0085",
+          "V1-REL-0086",
+          "V1-REL-0087"
+        ],
+        "source_refs": [
+          "SRC-0092",
+          "SRC-0094",
+          "SRC-0095"
+        ],
+        "basis_note": "WEB-CE-B01 新增策展文案，待 USER 集中审核",
+        "reviewer": "UNREVIEWED",
+        "created_at": "2026-08-14",
+        "reviewed_at": null
+      },
+      "reading_route": {
+        "content": [
+          "《孤独的迷宫》",
+          "《弓与琴》",
+          "《太阳石》"
+        ],
+        "status": "user_review",
+        "research_refs": [
+          "V1-FCT-0290",
+          "V1-FCT-0291",
+          "V1-FCT-0292",
+          "V1-FCT-0293",
+          "V1-FCT-0294",
+          "V1-FCT-0295",
+          "V1-FCT-0296",
+          "V1-FCT-0297",
+          "V1-REL-0085",
+          "V1-REL-0086",
+          "V1-REL-0087"
+        ],
+        "source_refs": [
+          "SRC-0092",
+          "SRC-0094",
+          "SRC-0095"
+        ],
+        "basis_note": "WEB-CE-B01 新增策展文案，待 USER 集中审核",
+        "reviewer": "UNREVIEWED",
+        "created_at": "2026-08-14",
+        "reviewed_at": null
+      },
+      "guiding_question": {
+        "content": "一位诗人如何同时以随笔分析历史、以诗论思考诗歌本身？",
+        "status": "user_review",
+        "research_refs": [
+          "V1-FCT-0290",
+          "V1-FCT-0291",
+          "V1-FCT-0292",
+          "V1-FCT-0293",
+          "V1-FCT-0294",
+          "V1-FCT-0295",
+          "V1-FCT-0296",
+          "V1-FCT-0297",
+          "V1-REL-0085",
+          "V1-REL-0086",
+          "V1-REL-0087"
+        ],
+        "source_refs": [
+          "SRC-0092",
+          "SRC-0094",
+          "SRC-0095"
+        ],
+        "basis_note": "WEB-CE-B01 新增策展文案，待 USER 集中审核",
+        "reviewer": "UNREVIEWED",
+        "created_at": "2026-08-14",
+        "reviewed_at": null
+      }
     }
   ],
   "works": [
@@ -7077,6 +8055,1427 @@
         "created_at": "2026-08-14",
         "reviewed_at": null
       }
+    },
+    {
+      "target_id": "V1-ENT-0154",
+      "story_intro": {
+        "content": "《孤独的迷宫》是帕斯分析墨西哥历史与文化的随笔集（据 Nobel Facts 与 poets.org 释义），首版于 1950 年。",
+        "status": "auto_approved",
+        "research_refs": [
+          "V1-FCT-0298",
+          "V1-FCT-0299",
+          "V1-FCT-0300",
+          "V1-FCT-0301",
+          "V1-FCT-0302"
+        ],
+        "source_refs": [
+          "SRC-0092",
+          "SRC-0094"
+        ],
+        "basis_note": "仅改写 WEB-CE-B01 已评审事实，可自动准入",
+        "reviewer": "CODEX-WEB-CE-B01",
+        "created_at": "2026-08-14",
+        "reviewed_at": "2026-08-14"
+      },
+      "reading_premise": {
+        "content": "《孤独的迷宫》是帕斯分析墨西哥历史与文化的随笔集（据 Nobel Facts 与 poets.org 释义），首版于 1950 年。",
+        "status": "user_review",
+        "research_refs": [
+          "V1-FCT-0298",
+          "V1-FCT-0299",
+          "V1-FCT-0300",
+          "V1-FCT-0301",
+          "V1-FCT-0302"
+        ],
+        "source_refs": [
+          "SRC-0092",
+          "SRC-0094"
+        ],
+        "basis_note": "当前为候选短导语；须改为显式字段并经审核",
+        "reviewer": "UNREVIEWED",
+        "created_at": "2026-08-14",
+        "reviewed_at": null
+      },
+      "why_read": {
+        "content": [
+          {
+            "title": "随笔集",
+            "text": "体裁为散文/随笔集（essays），首版于 1950 年。"
+          },
+          {
+            "title": "主题",
+            "text": "主库释义称其分析墨西哥历史与文化。"
+          }
+        ],
+        "status": "user_review",
+        "research_refs": [
+          "V1-FCT-0298",
+          "V1-FCT-0299",
+          "V1-FCT-0300",
+          "V1-FCT-0301",
+          "V1-FCT-0302"
+        ],
+        "source_refs": [
+          "SRC-0092",
+          "SRC-0094"
+        ],
+        "basis_note": "WEB-CE-B01 新增策展文案，待 USER 集中审核",
+        "reviewer": "UNREVIEWED",
+        "created_at": "2026-08-14",
+        "reviewed_at": null
+      },
+      "narrative_features": {
+        "content": [
+          {
+            "title": "随笔集",
+            "text": "体裁为散文/随笔集（essays），首版于 1950 年。"
+          },
+          {
+            "title": "主题",
+            "text": "主库释义称其分析墨西哥历史与文化。"
+          }
+        ],
+        "status": "auto_approved",
+        "research_refs": [
+          "V1-FCT-0298",
+          "V1-FCT-0299",
+          "V1-FCT-0300",
+          "V1-FCT-0301",
+          "V1-FCT-0302"
+        ],
+        "source_refs": [
+          "SRC-0092",
+          "SRC-0094"
+        ],
+        "basis_note": "仅改写 WEB-CE-B01 已评审事实，可自动准入",
+        "reviewer": "CODEX-WEB-CE-B01",
+        "created_at": "2026-08-14",
+        "reviewed_at": "2026-08-14"
+      },
+      "theme_explanations": {
+        "content": [
+          {
+            "title": "墨西哥历史与文化",
+            "text": "作品以分析墨西哥历史与文化为主题（据 Nobel Facts 与 poets.org 释义）。"
+          }
+        ],
+        "status": "user_review",
+        "research_refs": [
+          "V1-FCT-0298",
+          "V1-FCT-0299",
+          "V1-FCT-0300",
+          "V1-FCT-0301",
+          "V1-FCT-0302"
+        ],
+        "source_refs": [
+          "SRC-0092",
+          "SRC-0094"
+        ],
+        "basis_note": "WEB-CE-B01 新增策展文案，待 USER 集中审核",
+        "reviewer": "UNREVIEWED",
+        "created_at": "2026-08-14",
+        "reviewed_at": null
+      },
+      "literary_significance": {
+        "content": "体裁为散文/随笔集（essays），首版于 1950 年。",
+        "status": "user_review",
+        "research_refs": [
+          "V1-FCT-0298",
+          "V1-FCT-0299",
+          "V1-FCT-0300",
+          "V1-FCT-0301",
+          "V1-FCT-0302"
+        ],
+        "source_refs": [
+          "SRC-0092",
+          "SRC-0094"
+        ],
+        "basis_note": "文学意义含价值判断",
+        "reviewer": "UNREVIEWED",
+        "created_at": "2026-08-14",
+        "reviewed_at": null
+      },
+      "reading_tips": {
+        "content": "按主题分次阅读随笔集即可；先读分析墨西哥历史与文化的章节，再回到帕斯的整体创作。",
+        "status": "user_review",
+        "research_refs": [
+          "V1-FCT-0298",
+          "V1-FCT-0299",
+          "V1-FCT-0300",
+          "V1-FCT-0301",
+          "V1-FCT-0302"
+        ],
+        "source_refs": [
+          "SRC-0092",
+          "SRC-0094"
+        ],
+        "basis_note": "WEB-CE-B01 新增策展文案，待 USER 集中审核",
+        "reviewer": "UNREVIEWED",
+        "created_at": "2026-08-14",
+        "reviewed_at": null
+      },
+      "reading_approach": {
+        "content": "按主题分次阅读随笔集即可；先读分析墨西哥历史与文化的章节，再回到帕斯的整体创作。",
+        "status": "user_review",
+        "research_refs": [
+          "V1-FCT-0298",
+          "V1-FCT-0299",
+          "V1-FCT-0300",
+          "V1-FCT-0301",
+          "V1-FCT-0302"
+        ],
+        "source_refs": [
+          "SRC-0092",
+          "SRC-0094"
+        ],
+        "basis_note": "WEB-CE-B01 新增策展文案，待 USER 集中审核",
+        "reviewer": "UNREVIEWED",
+        "created_at": "2026-08-14",
+        "reviewed_at": null
+      },
+      "guiding_question": {
+        "content": "一本分析墨西哥历史与文化的随笔集，应当按什么顺序读？",
+        "status": "user_review",
+        "research_refs": [
+          "V1-FCT-0298",
+          "V1-FCT-0299",
+          "V1-FCT-0300",
+          "V1-FCT-0301",
+          "V1-FCT-0302"
+        ],
+        "source_refs": [
+          "SRC-0092",
+          "SRC-0094"
+        ],
+        "basis_note": "WEB-CE-B01 新增策展文案，待 USER 集中审核",
+        "reviewer": "UNREVIEWED",
+        "created_at": "2026-08-14",
+        "reviewed_at": null
+      },
+      "next_reads": {
+        "content": [
+          {
+            "target_id": "V1-ENT-0155",
+            "reason": "同为帕斯的散文/诗论作品，可比较随笔与诗论两种体裁。"
+          },
+          {
+            "target_id": "V1-ENT-0156",
+            "reason": "同为帕斯作品，可观察长诗与随笔的不同形式。"
+          }
+        ],
+        "status": "user_review",
+        "research_refs": [
+          "V1-FCT-0298",
+          "V1-FCT-0299",
+          "V1-FCT-0300",
+          "V1-FCT-0301",
+          "V1-FCT-0302"
+        ],
+        "source_refs": [
+          "SRC-0092",
+          "SRC-0094"
+        ],
+        "basis_note": "WEB-CE-B01 新增策展文案，待 USER 集中审核",
+        "reviewer": "UNREVIEWED",
+        "created_at": "2026-08-14",
+        "reviewed_at": null
+      },
+      "location_note": {
+        "content": "作品为随笔集，不以虚构情节空间为主；当前无经正式准入的地点关系，不设置地图点。",
+        "status": "auto_approved",
+        "research_refs": [
+          "V1-FCT-0298",
+          "V1-FCT-0299",
+          "V1-FCT-0300",
+          "V1-FCT-0301",
+          "V1-FCT-0302"
+        ],
+        "source_refs": [
+          "SRC-0092",
+          "SRC-0094"
+        ],
+        "basis_note": "仅改写 WEB-CE-B01 已评审事实，可自动准入",
+        "reviewer": "CODEX-WEB-CE-B01",
+        "created_at": "2026-08-14",
+        "reviewed_at": "2026-08-14"
+      }
+    },
+    {
+      "target_id": "V1-ENT-0155",
+      "story_intro": {
+        "content": "《弓与琴》是帕斯 1956 年出版的诗论/散文集，据诺贝尔书目页英译本副题，论诗、诗性启示与诗和历史。",
+        "status": "auto_approved",
+        "research_refs": [
+          "V1-FCT-0303",
+          "V1-FCT-0304",
+          "V1-FCT-0305",
+          "V1-FCT-0306",
+          "V1-FCT-0307"
+        ],
+        "source_refs": [
+          "SRC-0094",
+          "SRC-0095"
+        ],
+        "basis_note": "仅改写 WEB-CE-B01 已评审事实，可自动准入",
+        "reviewer": "CODEX-WEB-CE-B01",
+        "created_at": "2026-08-14",
+        "reviewed_at": "2026-08-14"
+      },
+      "reading_premise": {
+        "content": "《弓与琴》是帕斯 1956 年出版的诗论/散文集，据诺贝尔书目页英译本副题，论诗、诗性启示与诗和历史。",
+        "status": "user_review",
+        "research_refs": [
+          "V1-FCT-0303",
+          "V1-FCT-0304",
+          "V1-FCT-0305",
+          "V1-FCT-0306",
+          "V1-FCT-0307"
+        ],
+        "source_refs": [
+          "SRC-0094",
+          "SRC-0095"
+        ],
+        "basis_note": "当前为候选短导语；须改为显式字段并经审核",
+        "reviewer": "UNREVIEWED",
+        "created_at": "2026-08-14",
+        "reviewed_at": null
+      },
+      "why_read": {
+        "content": [
+          {
+            "title": "诗论",
+            "text": "体裁为诗论/散文集（essays），首版于 1956 年。"
+          },
+          {
+            "title": "主题",
+            "text": "据诺贝尔书目页英译本副题，内容论诗、诗性启示与诗和历史。"
+          }
+        ],
+        "status": "user_review",
+        "research_refs": [
+          "V1-FCT-0303",
+          "V1-FCT-0304",
+          "V1-FCT-0305",
+          "V1-FCT-0306",
+          "V1-FCT-0307"
+        ],
+        "source_refs": [
+          "SRC-0094",
+          "SRC-0095"
+        ],
+        "basis_note": "WEB-CE-B01 新增策展文案，待 USER 集中审核",
+        "reviewer": "UNREVIEWED",
+        "created_at": "2026-08-14",
+        "reviewed_at": null
+      },
+      "narrative_features": {
+        "content": [
+          {
+            "title": "诗论",
+            "text": "体裁为诗论/散文集（essays），首版于 1956 年。"
+          },
+          {
+            "title": "主题",
+            "text": "据诺贝尔书目页英译本副题，内容论诗、诗性启示与诗和历史。"
+          }
+        ],
+        "status": "auto_approved",
+        "research_refs": [
+          "V1-FCT-0303",
+          "V1-FCT-0304",
+          "V1-FCT-0305",
+          "V1-FCT-0306",
+          "V1-FCT-0307"
+        ],
+        "source_refs": [
+          "SRC-0094",
+          "SRC-0095"
+        ],
+        "basis_note": "仅改写 WEB-CE-B01 已评审事实，可自动准入",
+        "reviewer": "CODEX-WEB-CE-B01",
+        "created_at": "2026-08-14",
+        "reviewed_at": "2026-08-14"
+      },
+      "theme_explanations": {
+        "content": [
+          {
+            "title": "诗与诗性启示",
+            "text": "作品围绕诗、诗性启示与诗和历史展开（据诺贝尔书目页英译本副题）。"
+          }
+        ],
+        "status": "user_review",
+        "research_refs": [
+          "V1-FCT-0303",
+          "V1-FCT-0304",
+          "V1-FCT-0305",
+          "V1-FCT-0306",
+          "V1-FCT-0307"
+        ],
+        "source_refs": [
+          "SRC-0094",
+          "SRC-0095"
+        ],
+        "basis_note": "WEB-CE-B01 新增策展文案，待 USER 集中审核",
+        "reviewer": "UNREVIEWED",
+        "created_at": "2026-08-14",
+        "reviewed_at": null
+      },
+      "literary_significance": {
+        "content": "体裁为诗论/散文集（essays），首版于 1956 年。",
+        "status": "user_review",
+        "research_refs": [
+          "V1-FCT-0303",
+          "V1-FCT-0304",
+          "V1-FCT-0305",
+          "V1-FCT-0306",
+          "V1-FCT-0307"
+        ],
+        "source_refs": [
+          "SRC-0094",
+          "SRC-0095"
+        ],
+        "basis_note": "文学意义含价值判断",
+        "reviewer": "UNREVIEWED",
+        "created_at": "2026-08-14",
+        "reviewed_at": null
+      },
+      "reading_tips": {
+        "content": "先把握诗论的主旨：诗、诗性启示与诗和历史；再回到帕斯的诗歌创作对照阅读。",
+        "status": "user_review",
+        "research_refs": [
+          "V1-FCT-0303",
+          "V1-FCT-0304",
+          "V1-FCT-0305",
+          "V1-FCT-0306",
+          "V1-FCT-0307"
+        ],
+        "source_refs": [
+          "SRC-0094",
+          "SRC-0095"
+        ],
+        "basis_note": "WEB-CE-B01 新增策展文案，待 USER 集中审核",
+        "reviewer": "UNREVIEWED",
+        "created_at": "2026-08-14",
+        "reviewed_at": null
+      },
+      "reading_approach": {
+        "content": "先把握诗论的主旨：诗、诗性启示与诗和历史；再回到帕斯的诗歌创作对照阅读。",
+        "status": "user_review",
+        "research_refs": [
+          "V1-FCT-0303",
+          "V1-FCT-0304",
+          "V1-FCT-0305",
+          "V1-FCT-0306",
+          "V1-FCT-0307"
+        ],
+        "source_refs": [
+          "SRC-0094",
+          "SRC-0095"
+        ],
+        "basis_note": "WEB-CE-B01 新增策展文案，待 USER 集中审核",
+        "reviewer": "UNREVIEWED",
+        "created_at": "2026-08-14",
+        "reviewed_at": null
+      },
+      "guiding_question": {
+        "content": "诗论与诗歌创作之间，哪一种更接近帕斯对诗歌的理解？",
+        "status": "user_review",
+        "research_refs": [
+          "V1-FCT-0303",
+          "V1-FCT-0304",
+          "V1-FCT-0305",
+          "V1-FCT-0306",
+          "V1-FCT-0307"
+        ],
+        "source_refs": [
+          "SRC-0094",
+          "SRC-0095"
+        ],
+        "basis_note": "WEB-CE-B01 新增策展文案，待 USER 集中审核",
+        "reviewer": "UNREVIEWED",
+        "created_at": "2026-08-14",
+        "reviewed_at": null
+      },
+      "next_reads": {
+        "content": [
+          {
+            "target_id": "V1-ENT-0154",
+            "reason": "同为帕斯的散文/随笔类作品，可对照阅读。"
+          },
+          {
+            "target_id": "V1-ENT-0156",
+            "reason": "从诗论转向帕斯的长诗创作。"
+          }
+        ],
+        "status": "user_review",
+        "research_refs": [
+          "V1-FCT-0303",
+          "V1-FCT-0304",
+          "V1-FCT-0305",
+          "V1-FCT-0306",
+          "V1-FCT-0307"
+        ],
+        "source_refs": [
+          "SRC-0094",
+          "SRC-0095"
+        ],
+        "basis_note": "WEB-CE-B01 新增策展文案，待 USER 集中审核",
+        "reviewer": "UNREVIEWED",
+        "created_at": "2026-08-14",
+        "reviewed_at": null
+      },
+      "location_note": {
+        "content": "作品为诗论集，不以虚构情节空间为主；当前不设置地图点。",
+        "status": "auto_approved",
+        "research_refs": [
+          "V1-FCT-0303",
+          "V1-FCT-0304",
+          "V1-FCT-0305",
+          "V1-FCT-0306",
+          "V1-FCT-0307"
+        ],
+        "source_refs": [
+          "SRC-0094",
+          "SRC-0095"
+        ],
+        "basis_note": "仅改写 WEB-CE-B01 已评审事实，可自动准入",
+        "reviewer": "CODEX-WEB-CE-B01",
+        "created_at": "2026-08-14",
+        "reviewed_at": "2026-08-14"
+      }
+    },
+    {
+      "target_id": "V1-ENT-0156",
+      "story_intro": {
+        "content": "《太阳石》是帕斯 1957 年创作的长诗，结构借自阿兹特克历法（据 poets.org 释义）。",
+        "status": "auto_approved",
+        "research_refs": [
+          "V1-FCT-0308",
+          "V1-FCT-0309",
+          "V1-FCT-0310",
+          "V1-FCT-0311",
+          "V1-FCT-0312"
+        ],
+        "source_refs": [
+          "SRC-0094",
+          "SRC-0095"
+        ],
+        "basis_note": "仅改写 WEB-CE-B01 已评审事实，可自动准入",
+        "reviewer": "CODEX-WEB-CE-B01",
+        "created_at": "2026-08-14",
+        "reviewed_at": "2026-08-14"
+      },
+      "reading_premise": {
+        "content": "《太阳石》是帕斯 1957 年创作的长诗，结构借自阿兹特克历法（据 poets.org 释义）。",
+        "status": "user_review",
+        "research_refs": [
+          "V1-FCT-0308",
+          "V1-FCT-0309",
+          "V1-FCT-0310",
+          "V1-FCT-0311",
+          "V1-FCT-0312"
+        ],
+        "source_refs": [
+          "SRC-0094",
+          "SRC-0095"
+        ],
+        "basis_note": "当前为候选短导语；须改为显式字段并经审核",
+        "reviewer": "UNREVIEWED",
+        "created_at": "2026-08-14",
+        "reviewed_at": null
+      },
+      "why_read": {
+        "content": [
+          {
+            "title": "长诗",
+            "text": "体裁为长诗（long poem），初版于 1957 年。"
+          },
+          {
+            "title": "结构",
+            "text": "结构借自阿兹特克历法（据 poets.org 释义）。"
+          }
+        ],
+        "status": "user_review",
+        "research_refs": [
+          "V1-FCT-0308",
+          "V1-FCT-0309",
+          "V1-FCT-0310",
+          "V1-FCT-0311",
+          "V1-FCT-0312"
+        ],
+        "source_refs": [
+          "SRC-0094",
+          "SRC-0095"
+        ],
+        "basis_note": "WEB-CE-B01 新增策展文案，待 USER 集中审核",
+        "reviewer": "UNREVIEWED",
+        "created_at": "2026-08-14",
+        "reviewed_at": null
+      },
+      "narrative_features": {
+        "content": [
+          {
+            "title": "长诗",
+            "text": "体裁为长诗（long poem），初版于 1957 年。"
+          },
+          {
+            "title": "结构",
+            "text": "结构借自阿兹特克历法（据 poets.org 释义）。"
+          },
+          {
+            "title": "收录情况",
+            "text": "初版墨西哥 Tezontle 1957；后收入《La estación violenta》（FCE 1958）。"
+          }
+        ],
+        "status": "auto_approved",
+        "research_refs": [
+          "V1-FCT-0308",
+          "V1-FCT-0309",
+          "V1-FCT-0310",
+          "V1-FCT-0311",
+          "V1-FCT-0312"
+        ],
+        "source_refs": [
+          "SRC-0094",
+          "SRC-0095"
+        ],
+        "basis_note": "仅改写 WEB-CE-B01 已评审事实，可自动准入",
+        "reviewer": "CODEX-WEB-CE-B01",
+        "created_at": "2026-08-14",
+        "reviewed_at": "2026-08-14"
+      },
+      "theme_explanations": {
+        "content": [
+          {
+            "title": "阿兹特克历法与时间结构",
+            "text": "作品结构借自阿兹特克历法（据 poets.org 释义）。"
+          }
+        ],
+        "status": "user_review",
+        "research_refs": [
+          "V1-FCT-0308",
+          "V1-FCT-0309",
+          "V1-FCT-0310",
+          "V1-FCT-0311",
+          "V1-FCT-0312"
+        ],
+        "source_refs": [
+          "SRC-0094",
+          "SRC-0095"
+        ],
+        "basis_note": "WEB-CE-B01 新增策展文案，待 USER 集中审核",
+        "reviewer": "UNREVIEWED",
+        "created_at": "2026-08-14",
+        "reviewed_at": null
+      },
+      "literary_significance": {
+        "content": "体裁为长诗（long poem），初版于 1957 年。",
+        "status": "user_review",
+        "research_refs": [
+          "V1-FCT-0308",
+          "V1-FCT-0309",
+          "V1-FCT-0310",
+          "V1-FCT-0311",
+          "V1-FCT-0312"
+        ],
+        "source_refs": [
+          "SRC-0094",
+          "SRC-0095"
+        ],
+        "basis_note": "文学意义含价值判断",
+        "reviewer": "UNREVIEWED",
+        "created_at": "2026-08-14",
+        "reviewed_at": null
+      },
+      "reading_tips": {
+        "content": "阅读长诗时先注意其结构：作品借自阿兹特克历法，时间组织因此具有特殊形态。",
+        "status": "user_review",
+        "research_refs": [
+          "V1-FCT-0308",
+          "V1-FCT-0309",
+          "V1-FCT-0310",
+          "V1-FCT-0311",
+          "V1-FCT-0312"
+        ],
+        "source_refs": [
+          "SRC-0094",
+          "SRC-0095"
+        ],
+        "basis_note": "WEB-CE-B01 新增策展文案，待 USER 集中审核",
+        "reviewer": "UNREVIEWED",
+        "created_at": "2026-08-14",
+        "reviewed_at": null
+      },
+      "reading_approach": {
+        "content": "阅读长诗时先注意其结构：作品借自阿兹特克历法，时间组织因此具有特殊形态。",
+        "status": "user_review",
+        "research_refs": [
+          "V1-FCT-0308",
+          "V1-FCT-0309",
+          "V1-FCT-0310",
+          "V1-FCT-0311",
+          "V1-FCT-0312"
+        ],
+        "source_refs": [
+          "SRC-0094",
+          "SRC-0095"
+        ],
+        "basis_note": "WEB-CE-B01 新增策展文案，待 USER 集中审核",
+        "reviewer": "UNREVIEWED",
+        "created_at": "2026-08-14",
+        "reviewed_at": null
+      },
+      "guiding_question": {
+        "content": "一首借阿兹特克历法结构的长诗，如何组织时间经验？",
+        "status": "user_review",
+        "research_refs": [
+          "V1-FCT-0308",
+          "V1-FCT-0309",
+          "V1-FCT-0310",
+          "V1-FCT-0311",
+          "V1-FCT-0312"
+        ],
+        "source_refs": [
+          "SRC-0094",
+          "SRC-0095"
+        ],
+        "basis_note": "WEB-CE-B01 新增策展文案，待 USER 集中审核",
+        "reviewer": "UNREVIEWED",
+        "created_at": "2026-08-14",
+        "reviewed_at": null
+      },
+      "next_reads": {
+        "content": [
+          {
+            "target_id": "V1-ENT-0154",
+            "reason": "从长诗转向帕斯分析墨西哥历史与文化的随笔。"
+          },
+          {
+            "target_id": "V1-ENT-0155",
+            "reason": "继续读帕斯的诗论，理解其诗歌观念。"
+          }
+        ],
+        "status": "user_review",
+        "research_refs": [
+          "V1-FCT-0308",
+          "V1-FCT-0309",
+          "V1-FCT-0310",
+          "V1-FCT-0311",
+          "V1-FCT-0312"
+        ],
+        "source_refs": [
+          "SRC-0094",
+          "SRC-0095"
+        ],
+        "basis_note": "WEB-CE-B01 新增策展文案，待 USER 集中审核",
+        "reviewer": "UNREVIEWED",
+        "created_at": "2026-08-14",
+        "reviewed_at": null
+      },
+      "location_note": {
+        "content": "作品为长诗，不以虚构情节空间为主；当前不设置地图点。",
+        "status": "auto_approved",
+        "research_refs": [
+          "V1-FCT-0308",
+          "V1-FCT-0309",
+          "V1-FCT-0310",
+          "V1-FCT-0311",
+          "V1-FCT-0312"
+        ],
+        "source_refs": [
+          "SRC-0094",
+          "SRC-0095"
+        ],
+        "basis_note": "仅改写 WEB-CE-B01 已评审事实，可自动准入",
+        "reviewer": "CODEX-WEB-CE-B01",
+        "created_at": "2026-08-14",
+        "reviewed_at": "2026-08-14"
+      }
+    },
+    {
+      "target_id": "V1-ENT-0149",
+      "story_intro": {
+        "content": "《绝望集》是米斯特拉尔 1922 年出版的诗集（poesía），首版于纽约 Instituto de las Españas（据诺贝尔官网书目）。",
+        "status": "auto_approved",
+        "research_refs": [
+          "V1-FCT-0279",
+          "V1-FCT-0280",
+          "V1-FCT-0281"
+        ],
+        "source_refs": [
+          "SRC-0091"
+        ],
+        "basis_note": "仅改写 WEB-CE-B01 已评审事实，可自动准入",
+        "reviewer": "CODEX-WEB-CE-B01",
+        "created_at": "2026-08-14",
+        "reviewed_at": "2026-08-14"
+      },
+      "reading_premise": {
+        "content": "《绝望集》是米斯特拉尔 1922 年出版的诗集（poesía），首版于纽约 Instituto de las Españas（据诺贝尔官网书目）。",
+        "status": "user_review",
+        "research_refs": [
+          "V1-FCT-0279",
+          "V1-FCT-0280",
+          "V1-FCT-0281"
+        ],
+        "source_refs": [
+          "SRC-0091"
+        ],
+        "basis_note": "当前为候选短导语；须改为显式字段并经审核",
+        "reviewer": "UNREVIEWED",
+        "created_at": "2026-08-14",
+        "reviewed_at": null
+      },
+      "why_read": {
+        "content": [
+          {
+            "title": "诗集",
+            "text": "体裁为诗集（poesía），首版于 1922 年。"
+          },
+          {
+            "title": "首版信息",
+            "text": "首版：New York : Instituto de las Españas, 1922（诺贝尔官网书目）；中文合集/诗选收录范围待核验。"
+          }
+        ],
+        "status": "user_review",
+        "research_refs": [
+          "V1-FCT-0279",
+          "V1-FCT-0280",
+          "V1-FCT-0281"
+        ],
+        "source_refs": [
+          "SRC-0091"
+        ],
+        "basis_note": "WEB-CE-B01 新增策展文案，待 USER 集中审核",
+        "reviewer": "UNREVIEWED",
+        "created_at": "2026-08-14",
+        "reviewed_at": null
+      },
+      "narrative_features": {
+        "content": [
+          {
+            "title": "诗集",
+            "text": "体裁为诗集（poesía），首版于 1922 年。"
+          },
+          {
+            "title": "首版信息",
+            "text": "首版：New York : Instituto de las Españas, 1922（诺贝尔官网书目）；中文合集/诗选收录范围待核验。"
+          }
+        ],
+        "status": "auto_approved",
+        "research_refs": [
+          "V1-FCT-0279",
+          "V1-FCT-0280",
+          "V1-FCT-0281"
+        ],
+        "source_refs": [
+          "SRC-0091"
+        ],
+        "basis_note": "仅改写 WEB-CE-B01 已评审事实，可自动准入",
+        "reviewer": "CODEX-WEB-CE-B01",
+        "created_at": "2026-08-14",
+        "reviewed_at": "2026-08-14"
+      },
+      "theme_explanations": {
+        "content": [
+          {
+            "title": "诗集创作",
+            "text": "作品为诗集，当前仅有书目级事实，官方一句话释义待后续研究。"
+          }
+        ],
+        "status": "user_review",
+        "research_refs": [
+          "V1-FCT-0279",
+          "V1-FCT-0280",
+          "V1-FCT-0281"
+        ],
+        "source_refs": [
+          "SRC-0091"
+        ],
+        "basis_note": "WEB-CE-B01 新增策展文案，待 USER 集中审核",
+        "reviewer": "UNREVIEWED",
+        "created_at": "2026-08-14",
+        "reviewed_at": null
+      },
+      "literary_significance": {
+        "content": "体裁为诗集（poesía），首版于 1922 年。",
+        "status": "user_review",
+        "research_refs": [
+          "V1-FCT-0279",
+          "V1-FCT-0280",
+          "V1-FCT-0281"
+        ],
+        "source_refs": [
+          "SRC-0091"
+        ],
+        "basis_note": "文学意义含价值判断",
+        "reviewer": "UNREVIEWED",
+        "created_at": "2026-08-14",
+        "reviewed_at": null
+      },
+      "reading_tips": {
+        "content": "作为诗集，可按篇目逐首阅读；当前书目事实只覆盖首版信息，具体诗篇内容待后续研究。",
+        "status": "user_review",
+        "research_refs": [
+          "V1-FCT-0279",
+          "V1-FCT-0280",
+          "V1-FCT-0281"
+        ],
+        "source_refs": [
+          "SRC-0091"
+        ],
+        "basis_note": "WEB-CE-B01 新增策展文案，待 USER 集中审核",
+        "reviewer": "UNREVIEWED",
+        "created_at": "2026-08-14",
+        "reviewed_at": null
+      },
+      "reading_approach": {
+        "content": "作为诗集，可按篇目逐首阅读；当前书目事实只覆盖首版信息，具体诗篇内容待后续研究。",
+        "status": "user_review",
+        "research_refs": [
+          "V1-FCT-0279",
+          "V1-FCT-0280",
+          "V1-FCT-0281"
+        ],
+        "source_refs": [
+          "SRC-0091"
+        ],
+        "basis_note": "WEB-CE-B01 新增策展文案，待 USER 集中审核",
+        "reviewer": "UNREVIEWED",
+        "created_at": "2026-08-14",
+        "reviewed_at": null
+      },
+      "guiding_question": {
+        "content": "一部只有书目事实的诗集，读者应如何开始阅读？",
+        "status": "user_review",
+        "research_refs": [
+          "V1-FCT-0279",
+          "V1-FCT-0280",
+          "V1-FCT-0281"
+        ],
+        "source_refs": [
+          "SRC-0091"
+        ],
+        "basis_note": "WEB-CE-B01 新增策展文案，待 USER 集中审核",
+        "reviewer": "UNREVIEWED",
+        "created_at": "2026-08-14",
+        "reviewed_at": null
+      },
+      "next_reads": {
+        "content": [
+          {
+            "target_id": "V1-ENT-0150",
+            "reason": "同为米斯特拉尔诗集，可继续阅读《柔情集》。"
+          },
+          {
+            "target_id": "V1-ENT-0151",
+            "reason": "同为米斯特拉尔诗集，可继续阅读《塔拉集》。"
+          }
+        ],
+        "status": "user_review",
+        "research_refs": [
+          "V1-FCT-0279",
+          "V1-FCT-0280",
+          "V1-FCT-0281"
+        ],
+        "source_refs": [
+          "SRC-0091"
+        ],
+        "basis_note": "WEB-CE-B01 新增策展文案，待 USER 集中审核",
+        "reviewer": "UNREVIEWED",
+        "created_at": "2026-08-14",
+        "reviewed_at": null
+      },
+      "location_note": {
+        "content": "作品为诗集，不以虚构情节空间为主；当前不设置地图点。",
+        "status": "auto_approved",
+        "research_refs": [
+          "V1-FCT-0279",
+          "V1-FCT-0280",
+          "V1-FCT-0281"
+        ],
+        "source_refs": [
+          "SRC-0091"
+        ],
+        "basis_note": "仅改写 WEB-CE-B01 已评审事实，可自动准入",
+        "reviewer": "CODEX-WEB-CE-B01",
+        "created_at": "2026-08-14",
+        "reviewed_at": "2026-08-14"
+      }
+    },
+    {
+      "target_id": "V1-ENT-0150",
+      "story_intro": {
+        "content": "《柔情集》是米斯特拉尔 1924 年出版的诗集，以摇篮曲和儿童歌谣为主体（据 Nobel Facts 页）。",
+        "status": "auto_approved",
+        "research_refs": [
+          "V1-FCT-0282",
+          "V1-FCT-0283",
+          "V1-FCT-0284",
+          "V1-FCT-0285"
+        ],
+        "source_refs": [
+          "SRC-0089",
+          "SRC-0091"
+        ],
+        "basis_note": "仅改写 WEB-CE-B01 已评审事实，可自动准入",
+        "reviewer": "CODEX-WEB-CE-B01",
+        "created_at": "2026-08-14",
+        "reviewed_at": "2026-08-14"
+      },
+      "reading_premise": {
+        "content": "《柔情集》是米斯特拉尔 1924 年出版的诗集，以摇篮曲和儿童歌谣为主体（据 Nobel Facts 页）。",
+        "status": "user_review",
+        "research_refs": [
+          "V1-FCT-0282",
+          "V1-FCT-0283",
+          "V1-FCT-0284",
+          "V1-FCT-0285"
+        ],
+        "source_refs": [
+          "SRC-0089",
+          "SRC-0091"
+        ],
+        "basis_note": "当前为候选短导语；须改为显式字段并经审核",
+        "reviewer": "UNREVIEWED",
+        "created_at": "2026-08-14",
+        "reviewed_at": null
+      },
+      "why_read": {
+        "content": [
+          {
+            "title": "诗集体裁",
+            "text": "体裁为诗集（儿童摇篮曲与歌谣）。"
+          },
+          {
+            "title": "内容",
+            "text": "以摇篮曲和儿童歌谣为主体（据 Nobel Facts 页）。"
+          }
+        ],
+        "status": "user_review",
+        "research_refs": [
+          "V1-FCT-0282",
+          "V1-FCT-0283",
+          "V1-FCT-0284",
+          "V1-FCT-0285"
+        ],
+        "source_refs": [
+          "SRC-0089",
+          "SRC-0091"
+        ],
+        "basis_note": "WEB-CE-B01 新增策展文案，待 USER 集中审核",
+        "reviewer": "UNREVIEWED",
+        "created_at": "2026-08-14",
+        "reviewed_at": null
+      },
+      "narrative_features": {
+        "content": [
+          {
+            "title": "诗集体裁",
+            "text": "体裁为诗集（儿童摇篮曲与歌谣）。"
+          },
+          {
+            "title": "内容",
+            "text": "以摇篮曲和儿童歌谣为主体（据 Nobel Facts 页）。"
+          },
+          {
+            "title": "首版信息",
+            "text": "首版：Madrid : Saturnino Calleja, 1924（Ternura: canciones de niños）。"
+          }
+        ],
+        "status": "auto_approved",
+        "research_refs": [
+          "V1-FCT-0282",
+          "V1-FCT-0283",
+          "V1-FCT-0284",
+          "V1-FCT-0285"
+        ],
+        "source_refs": [
+          "SRC-0089",
+          "SRC-0091"
+        ],
+        "basis_note": "仅改写 WEB-CE-B01 已评审事实，可自动准入",
+        "reviewer": "CODEX-WEB-CE-B01",
+        "created_at": "2026-08-14",
+        "reviewed_at": "2026-08-14"
+      },
+      "theme_explanations": {
+        "content": [
+          {
+            "title": "摇篮曲与儿童歌谣",
+            "text": "作品以摇篮曲和儿童歌谣为主体（据 Nobel Facts 页）。"
+          }
+        ],
+        "status": "user_review",
+        "research_refs": [
+          "V1-FCT-0282",
+          "V1-FCT-0283",
+          "V1-FCT-0284",
+          "V1-FCT-0285"
+        ],
+        "source_refs": [
+          "SRC-0089",
+          "SRC-0091"
+        ],
+        "basis_note": "WEB-CE-B01 新增策展文案，待 USER 集中审核",
+        "reviewer": "UNREVIEWED",
+        "created_at": "2026-08-14",
+        "reviewed_at": null
+      },
+      "literary_significance": {
+        "content": "体裁为诗集（儿童摇篮曲与歌谣）。",
+        "status": "user_review",
+        "research_refs": [
+          "V1-FCT-0282",
+          "V1-FCT-0283",
+          "V1-FCT-0284",
+          "V1-FCT-0285"
+        ],
+        "source_refs": [
+          "SRC-0089",
+          "SRC-0091"
+        ],
+        "basis_note": "文学意义含价值判断",
+        "reviewer": "UNREVIEWED",
+        "created_at": "2026-08-14",
+        "reviewed_at": null
+      },
+      "reading_tips": {
+        "content": "阅读时注意摇篮曲与儿童歌谣的体裁特征：这是米斯特拉尔以儿童歌谣为主体的诗集。",
+        "status": "user_review",
+        "research_refs": [
+          "V1-FCT-0282",
+          "V1-FCT-0283",
+          "V1-FCT-0284",
+          "V1-FCT-0285"
+        ],
+        "source_refs": [
+          "SRC-0089",
+          "SRC-0091"
+        ],
+        "basis_note": "WEB-CE-B01 新增策展文案，待 USER 集中审核",
+        "reviewer": "UNREVIEWED",
+        "created_at": "2026-08-14",
+        "reviewed_at": null
+      },
+      "reading_approach": {
+        "content": "阅读时注意摇篮曲与儿童歌谣的体裁特征：这是米斯特拉尔以儿童歌谣为主体的诗集。",
+        "status": "user_review",
+        "research_refs": [
+          "V1-FCT-0282",
+          "V1-FCT-0283",
+          "V1-FCT-0284",
+          "V1-FCT-0285"
+        ],
+        "source_refs": [
+          "SRC-0089",
+          "SRC-0091"
+        ],
+        "basis_note": "WEB-CE-B01 新增策展文案，待 USER 集中审核",
+        "reviewer": "UNREVIEWED",
+        "created_at": "2026-08-14",
+        "reviewed_at": null
+      },
+      "guiding_question": {
+        "content": "摇篮曲与儿童歌谣进入诗集后，会改变诗歌的声音吗？",
+        "status": "user_review",
+        "research_refs": [
+          "V1-FCT-0282",
+          "V1-FCT-0283",
+          "V1-FCT-0284",
+          "V1-FCT-0285"
+        ],
+        "source_refs": [
+          "SRC-0089",
+          "SRC-0091"
+        ],
+        "basis_note": "WEB-CE-B01 新增策展文案，待 USER 集中审核",
+        "reviewer": "UNREVIEWED",
+        "created_at": "2026-08-14",
+        "reviewed_at": null
+      },
+      "next_reads": {
+        "content": [
+          {
+            "target_id": "V1-ENT-0149",
+            "reason": "同为米斯特拉尔诗集，可回溯《绝望集》。"
+          },
+          {
+            "target_id": "V1-ENT-0151",
+            "reason": "同为米斯特拉尔诗集，可继续阅读《塔拉集》。"
+          }
+        ],
+        "status": "user_review",
+        "research_refs": [
+          "V1-FCT-0282",
+          "V1-FCT-0283",
+          "V1-FCT-0284",
+          "V1-FCT-0285"
+        ],
+        "source_refs": [
+          "SRC-0089",
+          "SRC-0091"
+        ],
+        "basis_note": "WEB-CE-B01 新增策展文案，待 USER 集中审核",
+        "reviewer": "UNREVIEWED",
+        "created_at": "2026-08-14",
+        "reviewed_at": null
+      },
+      "location_note": {
+        "content": "作品为诗集，不以虚构情节空间为主；当前不设置地图点。",
+        "status": "auto_approved",
+        "research_refs": [
+          "V1-FCT-0282",
+          "V1-FCT-0283",
+          "V1-FCT-0284",
+          "V1-FCT-0285"
+        ],
+        "source_refs": [
+          "SRC-0089",
+          "SRC-0091"
+        ],
+        "basis_note": "仅改写 WEB-CE-B01 已评审事实，可自动准入",
+        "reviewer": "CODEX-WEB-CE-B01",
+        "created_at": "2026-08-14",
+        "reviewed_at": "2026-08-14"
+      }
+    },
+    {
+      "target_id": "V1-ENT-0151",
+      "story_intro": {
+        "content": "《塔拉集》是米斯特拉尔 1938 年出版的诗集，采用不寻常意象与自由诗（据 Nobel Facts 页）。",
+        "status": "auto_approved",
+        "research_refs": [
+          "V1-FCT-0286",
+          "V1-FCT-0287",
+          "V1-FCT-0288",
+          "V1-FCT-0289"
+        ],
+        "source_refs": [
+          "SRC-0089",
+          "SRC-0091"
+        ],
+        "basis_note": "仅改写 WEB-CE-B01 已评审事实，可自动准入",
+        "reviewer": "CODEX-WEB-CE-B01",
+        "created_at": "2026-08-14",
+        "reviewed_at": "2026-08-14"
+      },
+      "reading_premise": {
+        "content": "《塔拉集》是米斯特拉尔 1938 年出版的诗集，采用不寻常意象与自由诗（据 Nobel Facts 页）。",
+        "status": "user_review",
+        "research_refs": [
+          "V1-FCT-0286",
+          "V1-FCT-0287",
+          "V1-FCT-0288",
+          "V1-FCT-0289"
+        ],
+        "source_refs": [
+          "SRC-0089",
+          "SRC-0091"
+        ],
+        "basis_note": "当前为候选短导语；须改为显式字段并经审核",
+        "reviewer": "UNREVIEWED",
+        "created_at": "2026-08-14",
+        "reviewed_at": null
+      },
+      "why_read": {
+        "content": [
+          {
+            "title": "诗集体裁",
+            "text": "体裁为诗集（poesía）。"
+          },
+          {
+            "title": "内容",
+            "text": "采用不寻常意象与自由诗（据 Nobel Facts 页）。"
+          }
+        ],
+        "status": "user_review",
+        "research_refs": [
+          "V1-FCT-0286",
+          "V1-FCT-0287",
+          "V1-FCT-0288",
+          "V1-FCT-0289"
+        ],
+        "source_refs": [
+          "SRC-0089",
+          "SRC-0091"
+        ],
+        "basis_note": "WEB-CE-B01 新增策展文案，待 USER 集中审核",
+        "reviewer": "UNREVIEWED",
+        "created_at": "2026-08-14",
+        "reviewed_at": null
+      },
+      "narrative_features": {
+        "content": [
+          {
+            "title": "诗集体裁",
+            "text": "体裁为诗集（poesía）。"
+          },
+          {
+            "title": "内容",
+            "text": "采用不寻常意象与自由诗（据 Nobel Facts 页）。"
+          },
+          {
+            "title": "首版信息",
+            "text": "首版：Buenos Aires : Sur, 1938（诺贝尔官网书目）。"
+          }
+        ],
+        "status": "auto_approved",
+        "research_refs": [
+          "V1-FCT-0286",
+          "V1-FCT-0287",
+          "V1-FCT-0288",
+          "V1-FCT-0289"
+        ],
+        "source_refs": [
+          "SRC-0089",
+          "SRC-0091"
+        ],
+        "basis_note": "仅改写 WEB-CE-B01 已评审事实，可自动准入",
+        "reviewer": "CODEX-WEB-CE-B01",
+        "created_at": "2026-08-14",
+        "reviewed_at": "2026-08-14"
+      },
+      "theme_explanations": {
+        "content": [
+          {
+            "title": "意象与自由诗",
+            "text": "作品采用不寻常意象与自由诗（据 Nobel Facts 页）。"
+          }
+        ],
+        "status": "user_review",
+        "research_refs": [
+          "V1-FCT-0286",
+          "V1-FCT-0287",
+          "V1-FCT-0288",
+          "V1-FCT-0289"
+        ],
+        "source_refs": [
+          "SRC-0089",
+          "SRC-0091"
+        ],
+        "basis_note": "WEB-CE-B01 新增策展文案，待 USER 集中审核",
+        "reviewer": "UNREVIEWED",
+        "created_at": "2026-08-14",
+        "reviewed_at": null
+      },
+      "literary_significance": {
+        "content": "体裁为诗集（poesía）。",
+        "status": "user_review",
+        "research_refs": [
+          "V1-FCT-0286",
+          "V1-FCT-0287",
+          "V1-FCT-0288",
+          "V1-FCT-0289"
+        ],
+        "source_refs": [
+          "SRC-0089",
+          "SRC-0091"
+        ],
+        "basis_note": "文学意义含价值判断",
+        "reviewer": "UNREVIEWED",
+        "created_at": "2026-08-14",
+        "reviewed_at": null
+      },
+      "reading_tips": {
+        "content": "阅读时注意不寻常意象与自由诗的形式：这是《塔拉集》据 Nobel Facts 页的主要特征。",
+        "status": "user_review",
+        "research_refs": [
+          "V1-FCT-0286",
+          "V1-FCT-0287",
+          "V1-FCT-0288",
+          "V1-FCT-0289"
+        ],
+        "source_refs": [
+          "SRC-0089",
+          "SRC-0091"
+        ],
+        "basis_note": "WEB-CE-B01 新增策展文案，待 USER 集中审核",
+        "reviewer": "UNREVIEWED",
+        "created_at": "2026-08-14",
+        "reviewed_at": null
+      },
+      "reading_approach": {
+        "content": "阅读时注意不寻常意象与自由诗的形式：这是《塔拉集》据 Nobel Facts 页的主要特征。",
+        "status": "user_review",
+        "research_refs": [
+          "V1-FCT-0286",
+          "V1-FCT-0287",
+          "V1-FCT-0288",
+          "V1-FCT-0289"
+        ],
+        "source_refs": [
+          "SRC-0089",
+          "SRC-0091"
+        ],
+        "basis_note": "WEB-CE-B01 新增策展文案，待 USER 集中审核",
+        "reviewer": "UNREVIEWED",
+        "created_at": "2026-08-14",
+        "reviewed_at": null
+      },
+      "guiding_question": {
+        "content": "自由诗中的不寻常意象，如何组织一首诗的节奏？",
+        "status": "user_review",
+        "research_refs": [
+          "V1-FCT-0286",
+          "V1-FCT-0287",
+          "V1-FCT-0288",
+          "V1-FCT-0289"
+        ],
+        "source_refs": [
+          "SRC-0089",
+          "SRC-0091"
+        ],
+        "basis_note": "WEB-CE-B01 新增策展文案，待 USER 集中审核",
+        "reviewer": "UNREVIEWED",
+        "created_at": "2026-08-14",
+        "reviewed_at": null
+      },
+      "next_reads": {
+        "content": [
+          {
+            "target_id": "V1-ENT-0149",
+            "reason": "同为米斯特拉尔诗集，可回溯《绝望集》。"
+          },
+          {
+            "target_id": "V1-ENT-0150",
+            "reason": "同为米斯特拉尔诗集，可继续阅读《柔情集》。"
+          }
+        ],
+        "status": "user_review",
+        "research_refs": [
+          "V1-FCT-0286",
+          "V1-FCT-0287",
+          "V1-FCT-0288",
+          "V1-FCT-0289"
+        ],
+        "source_refs": [
+          "SRC-0089",
+          "SRC-0091"
+        ],
+        "basis_note": "WEB-CE-B01 新增策展文案，待 USER 集中审核",
+        "reviewer": "UNREVIEWED",
+        "created_at": "2026-08-14",
+        "reviewed_at": null
+      },
+      "location_note": {
+        "content": "作品为诗集，不以虚构情节空间为主；当前不设置地图点。",
+        "status": "auto_approved",
+        "research_refs": [
+          "V1-FCT-0286",
+          "V1-FCT-0287",
+          "V1-FCT-0288",
+          "V1-FCT-0289"
+        ],
+        "source_refs": [
+          "SRC-0089",
+          "SRC-0091"
+        ],
+        "basis_note": "仅改写 WEB-CE-B01 已评审事实，可自动准入",
+        "reviewer": "CODEX-WEB-CE-B01",
+        "created_at": "2026-08-14",
+        "reviewed_at": "2026-08-14"
+      }
     }
   ],
   "places": [
@@ -7205,7 +9604,9 @@
         "status": "auto_approved",
         "research_refs": [
           "V1-REL-0035",
-          "V1-REL-0038"
+          "V1-REL-0038",
+          "V1-REL-0079",
+          "V1-REL-0089"
         ],
         "source_refs": [
           "SRC-0017",
@@ -7221,7 +9622,9 @@
         "status": "auto_approved",
         "research_refs": [
           "V1-REL-0035",
-          "V1-REL-0038"
+          "V1-REL-0038",
+          "V1-REL-0079",
+          "V1-REL-0089"
         ],
         "source_refs": [
           "SRC-0017",
@@ -7237,7 +9640,9 @@
         "status": "auto_approved",
         "research_refs": [
           "V1-REL-0035",
-          "V1-REL-0038"
+          "V1-REL-0038",
+          "V1-REL-0079",
+          "V1-REL-0089"
         ],
         "source_refs": [
           "SRC-0017",
@@ -7253,7 +9658,9 @@
         "status": "auto_approved",
         "research_refs": [
           "V1-REL-0035",
-          "V1-REL-0038"
+          "V1-REL-0038",
+          "V1-REL-0079",
+          "V1-REL-0089"
         ],
         "source_refs": [
           "SRC-0017",
@@ -7818,7 +10225,8 @@
         "content": "智利入口连接聂鲁达的诗歌与公共生涯，从爱情诗、大地意象逐步走向大陆历史与政治承诺。",
         "status": "auto_approved",
         "research_refs": [
-          "V1-REL-0071"
+          "V1-REL-0071",
+          "V1-REL-0083"
         ],
         "source_refs": [
           "SRC-0054"
@@ -7832,7 +10240,8 @@
         "content": "国家尺度帮助理解诗歌如何从私人声音扩展到地理、劳动与历史。",
         "status": "auto_approved",
         "research_refs": [
-          "V1-REL-0071"
+          "V1-REL-0071",
+          "V1-REL-0083"
         ],
         "source_refs": [
           "SRC-0054"
@@ -7846,7 +10255,8 @@
         "content": "巴勃罗·聂鲁达 → 爱情与身体 → 更晦暗的现代经验 → 大陆、劳动与历史，形成一条“私人抒情如何扩大”的阅读路线。",
         "status": "auto_approved",
         "research_refs": [
-          "V1-REL-0071"
+          "V1-REL-0071",
+          "V1-REL-0083"
         ],
         "source_refs": [
           "SRC-0054"
@@ -7860,7 +10270,8 @@
         "content": "巴勃罗·聂鲁达 → 爱情与身体 → 更晦暗的现代经验 → 大陆、劳动与历史，形成一条“私人抒情如何扩大”的阅读路线。",
         "status": "auto_approved",
         "research_refs": [
-          "V1-REL-0071"
+          "V1-REL-0071",
+          "V1-REL-0083"
         ],
         "source_refs": [
           "SRC-0054"

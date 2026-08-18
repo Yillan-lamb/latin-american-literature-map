@@ -1,0 +1,10 @@
+temporary_id,subject_id,relation_type,object_id,description_zh,confidence,review_status,evidence_count,issue_code,source_temporary_ids,evidence_notes
+CAND-A-REL-01,CAND-A-ENT-01,CREATED,CAND-A-ENT-02,卡洛斯·富恩特斯创作《最明净的地区》(La región más transparente),medium,candidate,1,NONE,CAND-A-SRC-02,BnF 目录作者面归名证据（A/B 级单来源满足 CREATED 最低证据）
+CAND-A-REL-02,CAND-A-ENT-01,CREATED,CAND-A-ENT-04,卡洛斯·富恩特斯创作《阿尔特米奥·克罗斯之死》(La muerte de Artemio Cruz),medium,candidate,1,NONE,CAND-A-SRC-02,BnF 目录作者面归名证据
+CAND-A-REL-03,CAND-A-ENT-01,CREATED,CAND-A-ENT-03,卡洛斯·富恩特斯创作《奥拉》(Aura),low,hold,0,NEEDS_SOURCE,,本轮无已核验来源（BnF 检索可见面未现 Aura；其余来源被拦截）；实体本身亦 pending
+CAND-A-REL-04,CAND-A-ENT-01,ASSOCIATED_WITH_MOVEMENT,V1-ENT-0130,卡洛斯·富恩特斯与文学爆炸（boom latinoamericano）的关联,low,hold,0,hold_needs_second_source,,解释型关系需两项独立合格来源；本轮 0 来源，不得入库
+CAND-A-REL-05,CAND-A-ENT-01,ASSOCIATED_WITH_PLACE,V1-ENT-0056,卡洛斯·富恩特斯与墨西哥城的关联（BnF deathPlace 仅标 Mexico 国家层级，未直接标墨西哥城）,low,hold,0,hold_needs_second_source,,需具体可说明的关联性质且解释型需双来源；本轮不足
+CAND-A-REL-06,CAND-A-ENT-01,ASSOCIATED_WITH_PLACE,V1-ENT-0051,卡洛斯·富恩特斯与墨西哥的关联（国籍 Mexique，BnF 单源）,low,hold,1,hold_needs_second_source,CAND-A-SRC-01,国籍证据仅单源且属解释型，需第二独立来源
+CAND-A-REL-07,CAND-A-ENT-02,SET_IN,V1-ENT-0056,《最明净的地区》以墨西哥城为主要场景,low,hold,0,NEEDS_SOURCE,,SET_IN 需原作或合格来源直接说明场景；本轮无已核验来源
+CAND-A-REL-08,CAND-A-ENT-04,EXPLORES_THEME,V1-ENT-0064,《阿尔特米奥·克罗斯之死》与墨西哥革命小说的主题/运动关联,low,hold,0,hold_needs_second_source,,解释型需两项独立来源；本轮 0 来源
+CAND-A-REL-09,CAND-A-ENT-04,ASSOCIATED_WITH_MOVEMENT,V1-ENT-0064,《阿尔特米奥·克罗斯之死》与墨西哥革命小说的运动关联,low,hold,0,hold_needs_second_source,,解释型需两项独立来源；本轮 0 来源

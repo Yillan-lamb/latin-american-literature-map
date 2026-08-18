@@ -1,0 +1,340 @@
+fact_id,origin_material_id,card_id,subject_id,fact_field,value_text,material_class,origin_id,confidence,admission_status,usage_note
+V1-FCT-0001,A04-MAT-0001,V1-CARD-0001,V1-ENT-0002,birth_year,1899,fact,STG-FCT-0001,high,accepted_for_n2,
+V1-FCT-0002,A04-MAT-0002,V1-CARD-0001,V1-ENT-0002,death_year,1986,fact,STG-FCT-0002,high,accepted_for_n2,
+V1-FCT-0003,A04-MAT-0003,V1-CARD-0001,V1-ENT-0002,country_or_region,阿根廷,fact,STG-FCT-0003,high,accepted_for_n2,
+V1-FCT-0004,A04-MAT-0004,V1-CARD-0001,V1-ENT-0002,language,es,fact,STG-FCT-0004,high,accepted_for_n2,
+V1-FCT-0005,A04-MAT-0005,V1-CARD-0001,V1-ENT-0002,entity_layer,author,fact,STG-FCT-0005,high,accepted_for_n2,
+V1-FCT-0006,A04-MAT-0006,V1-CARD-0001,V1-ENT-0002,one_sentence_summary,诗人、短篇作家、批评家、散文家、教授，被誉为“作家的作家”,fact,STG-FCT-0006,high,accepted_for_n2,
+V1-FCT-0007,A04-MAT-0007,V1-CARD-0001,V1-ENT-0002,research_note,1914 年一战爆发后举家迁居瑞士，1919 年赴西班牙居留三年，1921 年回国传播极端主义，30 年代放弃其要旨,research_note,STG-FCT-0007,medium,accepted_for_n2,
+V1-FCT-0008,A04-MAT-0008,V1-CARD-0002,V1-ENT-0016,birth_year,1920,fact,STG-FCT-0008,medium,accepted_for_n2,页面未直接显示；依据 2020 年百年诞辰专刊与 Codex 核定（REVIEW 3.4）
+V1-FCT-0009,A04-MAT-0009,V1-CARD-0002,V1-ENT-0016,country_or_region,巴西,fact,STG-FCT-0009,high,accepted_for_n2,
+V1-FCT-0010,A04-MAT-0010,V1-CARD-0002,V1-ENT-0016,language,pt,fact,STG-FCT-0010,high,accepted_for_n2,
+V1-FCT-0011,A04-MAT-0011,V1-CARD-0002,V1-ENT-0016,entity_layer,author,fact,STG-FCT-0011,high,accepted_for_n2,
+V1-FCT-0012,A04-MAT-0012,V1-CARD-0002,V1-ENT-0016,one_sentence_summary,《G.H. 受难》(1964) 与《星辰时刻》(1977) 的作者，以《家庭纽带》(1960)、《外国军团》(1964) 奠定短篇声誉,fact,STG-FCT-0012,high,accepted_for_n2,
+V1-FCT-0013,A04-MAT-0013,V1-CARD-0003,V1-ENT-0003,entity_layer,work,fact,STG-FCT-0013,high,accepted_for_n2,
+V1-FCT-0014,A04-MAT-0014,V1-CARD-0003,V1-ENT-0003,genre_or_form,短篇小说（UNIDAD 8 选文）,fact,STG-FCT-0014,high,accepted_for_n2,
+V1-FCT-0015,A04-MAT-0015,V1-CARD-0003,V1-ENT-0003,one_sentence_summary,间谍余准的供述：借杀死汉学家艾伯特将英军炮兵阵地所在城名传回柏林；艾伯特解出崔朋“小说即迷宫”的时间分岔,fact,STG-FCT-0015,high,accepted_for_n2,
+V1-FCT-0016,A04-MAT-0016,V1-CARD-0003,V1-ENT-0003,key_character,余准、斯蒂芬·艾伯特、理查德·马登、维克托·鲁内贝格、崔朋,fact,STG-FCT-0016,high,accepted_for_n2,
+V1-FCT-0017,A04-MAT-0017,V1-CARD-0003,V1-ENT-0003,key_place,阿什格罗夫、阿尔贝、青岛,fact,STG-FCT-0017,medium,accepted_for_n2,
+V1-FCT-0018,A04-MAT-0018,V1-CARD-0004,V1-ENT-0004,entity_layer,work,fact,STG-FCT-0018,high,accepted_for_n2,与 1949 年同名作品集分层（REVIEW 3.3）
+V1-FCT-0019,A04-MAT-0019,V1-CARD-0004,V1-ENT-0004,genre_or_form,短篇小说（UNIDAD 8 选文）,fact,STG-FCT-0019,high,accepted_for_n2,
+V1-FCT-0020,A04-MAT-0020,V1-CARD-0004,V1-ENT-0004,one_sentence_summary,叙述者博尔赫斯在亡友贝亚特丽斯表兄达内里宅邸地窖得见“包罗一切空间点的”阿莱夫,fact,STG-FCT-0020,high,accepted_for_n2,
+V1-FCT-0021,A04-MAT-0021,V1-CARD-0004,V1-ENT-0004,key_character,贝亚特丽斯·维特博、卡洛斯·阿亨蒂诺·达内里、博尔赫斯（叙述者）,fact,STG-FCT-0021,high,accepted_for_n2,
+V1-FCT-0022,A04-MAT-0022,V1-CARD-0004,V1-ENT-0004,key_place,加雷街,fact,STG-FCT-0022,medium,accepted_for_n2,
+V1-FCT-0023,A04-MAT-0023,V1-CARD-0004,V1-ENT-0004,bibliographic_note,卷首题词引《哈姆雷特》II.2 与《利维坦》IV.46；文末献词致 Estela Canto,fact,STG-FCT-0023,medium,accepted_for_n2,
+V1-FCT-0024,A04-MAT-0024,V1-CARD-0004,V1-ENT-0004,research_note,Rosman 专论《Politics of the Name: On Borges's “El Aleph”》围绕命名、共同语言、翻译、文学共同体与国家身份解读（Codex 已独立复核，REVIEW 3.1）,research_note,STG-FCT-0024,medium,accepted_for_n2,
+V1-FCT-0025,A04-MAT-0025,V1-CARD-0005,V1-ENT-0011,entity_layer,collection,fact,STG-FCT-0025,high,accepted_for_n2,
+V1-FCT-0026,A04-MAT-0026,V1-CARD-0005,V1-ENT-0011,first_publication_year,1944,fact,STG-FCT-0026,high,accepted_for_n2,
+V1-FCT-0027,A04-MAT-0027,V1-CARD-0005,V1-ENT-0011,genre_or_form,短篇作品集,fact,STG-FCT-0027,high,accepted_for_n2,
+V1-FCT-0028,A04-MAT-0028,V1-CARD-0005,V1-ENT-0011,bibliographic_note,SRC-0007 页面记录：1944 初版、1956 修订,fact,STG-FCT-0028,medium,accepted_for_n2,
+V1-FCT-0029,A04-MAT-0029,V1-CARD-0006,V1-ENT-0017,entity_layer,work,fact,STG-FCT-0031,high,accepted_for_n2,
+V1-FCT-0030,A04-MAT-0030,V1-CARD-0006,V1-ENT-0017,first_publication_year,1973,fact,STG-FCT-0032,high,accepted_for_n2,
+V1-FCT-0031,A04-MAT-0031,V1-CARD-0006,V1-ENT-0017,genre_or_form,官网列“Romance”；混合体裁、无常规情节（兼有小说/诗/日记/随笔碎片）,fact,STG-FCT-0033,medium,accepted_for_n2,
+V1-FCT-0032,A04-MAT-0032,V1-CARD-0006,V1-ENT-0017,one_sentence_summary,据 1971 年手稿《Objeto gritante》改写；主题为时间与“当下瞬间”、沉默、创作与女性声音,fact,STG-FCT-0034,medium,accepted_for_n2,
+V1-FCT-0033,A04-MAT-0033,V1-CARD-0006,V1-ENT-0017,bibliographic_note,源自更早专栏文字与《外国军团》中的文本,fact,STG-FCT-0035,medium,accepted_for_n2,
+V1-FCT-0034,A04-MAT-0034,V1-CARD-0006,V1-ENT-0017,research_note,晚年写作《活水》期间开始绘画，与超越言语达至沉默的努力并提,research_note,STG-FCT-0036,medium,accepted_for_n2,
+V1-FCT-0035,A04-MAT-0035,V1-CARD-0007,V1-ENT-0018,entity_layer,work,fact,STG-FCT-0037,high,accepted_for_n2,与 1985 年电影 adaptation 分层（REVIEW 3.3）
+V1-FCT-0036,A04-MAT-0036,V1-CARD-0007,V1-ENT-0018,first_publication_year,1977,fact,STG-FCT-0038,high,accepted_for_n2,
+V1-FCT-0037,A04-MAT-0037,V1-CARD-0007,V1-ENT-0018,genre_or_form,官网列“Novela”（中篇小说）,fact,STG-FCT-0039,medium,accepted_for_n2,
+V1-FCT-0038,A04-MAT-0038,V1-CARD-0007,V1-ENT-0018,one_sentence_summary,东北部贫苦移民少女玛卡贝娅在里约被男友抛弃、遭友人背叛，叙述者罗德里戈·S.M. 反思书写她的故事,fact,STG-FCT-0040,high,accepted_for_n2,
+V1-FCT-0039,A04-MAT-0039,V1-CARD-0007,V1-ENT-0018,key_character,玛卡贝娅、奥林皮科、格洛里娅、罗德里戈·S.M.,fact,STG-FCT-0041,medium,accepted_for_n2,
+V1-FCT-0040,A04-MAT-0040,V1-CARD-0007,V1-ENT-0018,key_place,里约热内卢,fact,STG-FCT-0042,medium,accepted_for_n2,
+V1-FCT-0041,A04-MAT-0041,V1-CARD-0007,V1-ENT-0018,research_note,社会参与文学的悖论化为“虚构面具”；叙述者之声与作家之声时分时合，贫穷人物始终沉默,research_note,STG-FCT-0043,medium,accepted_for_n2,
+V1-FCT-0042,A04-MAT-0042,V1-CARD-0008,V1-ENT-0019,entity_layer,collection,fact,STG-FCT-0044,high,accepted_for_n2,13 篇短篇集；按试行 Schema §5 种子，最终命名待 N2
+V1-FCT-0043,A04-MAT-0043,V1-CARD-0008,V1-ENT-0019,first_publication_year,1960,fact,STG-FCT-0045,high,accepted_for_n2,
+V1-FCT-0044,A04-MAT-0044,V1-CARD-0008,V1-ENT-0019,genre_or_form,短篇集（13 篇）,fact,STG-FCT-0046,high,accepted_for_n2,
+V1-FCT-0045,A04-MAT-0045,V1-CARD-0008,V1-ENT-0019,one_sentence_summary,从城市与家庭场景切入内心生活、家庭关系、沉默、姿态与揭示时刻,fact,STG-FCT-0047,medium,accepted_for_n2,
+V1-FCT-0046,A04-MAT-0046,V1-CARD-0008,V1-ENT-0019,bibliographic_note,1961 年获 Jabuti 文学奖,fact,STG-FCT-0048,high,accepted_for_n2,
+V1-FCT-0047,A04-MAT-0047,V1-CARD-0008,V1-ENT-0019,research_note,女性人物在 21 世纪仍具共鸣；网络语录多被去语境化，文章主张回到文本（fólio 百年诞辰专刊）,research_note,STG-FCT-0049,medium,accepted_for_n2,
+V1-FCT-0048,A04-MAT-0048,V1-CARD-0003,V1-ENT-0003,first_publication_year,1941,fact,STG-FCT-0050,high,accepted_for_n2,Codex 权威来源补充
+V1-FCT-0049,A04-MAT-0049,V1-CARD-0004,V1-ENT-0004,first_publication_year,1945,fact,STG-FCT-0051,high,accepted_for_n2,Codex 权威来源补充；替代候选实体中的 1949 误值
+V1-FCT-0050,A04-MAT-0050,V1-CARD-0002,V1-ENT-0016,death_year,1977,fact,STG-FCT-0052,high,accepted_for_n2,Codex 权威来源补充
+V1-FCT-0051,A04-MAT-0051,V1-CARD-0009,V1-ENT-0029,birth_year,1916,fact,B01-FCT-0001,high,batch_retained_candidate,12 月 11 日生于普埃布拉
+V1-FCT-0052,A04-MAT-0052,V1-CARD-0009,V1-ENT-0029,death_year,1998,fact,B01-FCT-0002,high,batch_retained_candidate,8 月 22 日卒于库埃纳瓦卡
+V1-FCT-0053,A04-MAT-0053,V1-CARD-0009,V1-ENT-0029,country_or_region,墨西哥,fact,B01-FCT-0003,high,batch_retained_candidate,
+V1-FCT-0054,A04-MAT-0054,V1-CARD-0009,V1-ENT-0029,language,es,fact,B01-FCT-0004,high,batch_retained_candidate,
+V1-FCT-0055,A04-MAT-0055,V1-CARD-0009,V1-ENT-0029,entity_layer,author,fact,B01-FCT-0005,high,batch_retained_candidate,
+V1-FCT-0056,A04-MAT-0056,V1-CARD-0009,V1-ENT-0029,one_sentence_summary,墨西哥剧作家与小说家，以《未来的回忆》知名；1937 年与奥克塔维奥·帕斯结婚，1968 年后长期流亡,fact,B01-FCT-0006,high,batch_retained_candidate,
+V1-FCT-0057,A04-MAT-0057,V1-CARD-0009,V1-ENT-0029,research_note,婚姻（1937-1959）与 1968 年特拉特洛尔科事件后流亡美国/法国约 20 年，1994 年前后返墨（词条）,research_note,B01-FCT-0007,medium,batch_retained_candidate,
+V1-FCT-0058,A04-MAT-0058,V1-CARD-0009,V1-ENT-0029,bibliographic_note,奖项：Xavier Villaurrutia 1963、Grijalbo 小说奖 1981（词条）,bibliographic_note,B01-FCT-0008,medium,batch_retained_candidate,
+V1-FCT-0059,A04-MAT-0059,V1-CARD-0013,V1-ENT-0030,birth_year,1925,fact,B01-FCT-0009,high,batch_retained_candidate,5 月 25 日生于墨西哥城
+V1-FCT-0060,A04-MAT-0060,V1-CARD-0013,V1-ENT-0030,death_year,1974,fact,B01-FCT-0010,high,batch_retained_candidate,8 月 7 日卒于以色列特拉维夫
+V1-FCT-0061,A04-MAT-0061,V1-CARD-0013,V1-ENT-0030,country_or_region,墨西哥,fact,B01-FCT-0011,high,batch_retained_candidate,
+V1-FCT-0062,A04-MAT-0062,V1-CARD-0013,V1-ENT-0030,language,es,fact,B01-FCT-0012,high,batch_retained_candidate,
+V1-FCT-0063,A04-MAT-0063,V1-CARD-0013,V1-ENT-0030,entity_layer,author,fact,B01-FCT-0013,high,batch_retained_candidate,
+V1-FCT-0064,A04-MAT-0064,V1-CARD-0013,V1-ENT-0030,one_sentence_summary,墨西哥作家、外交官；幼年在恰帕斯科米坦度过；UNAM 攻读法律与哲学；曾任驻以色列大使,fact,B01-FCT-0014,high,batch_retained_candidate,
+V1-FCT-0065,A04-MAT-0065,V1-CARD-0013,V1-ENT-0030,research_note,曾任 INI 编辑、UNAM 出版社主任、文哲系教授（词条）,research_note,B01-FCT-0015,medium,batch_retained_candidate,
+V1-FCT-0066,A04-MAT-0066,V1-CARD-0013,V1-ENT-0030,bibliographic_note,奖项：Premio Chiapas 1958、Villaurrutia 1960、Sor Juana Inés de la Cruz 1962 等（词条）,bibliographic_note,B01-FCT-0016,medium,batch_retained_candidate,
+V1-FCT-0067,A04-MAT-0067,V1-CARD-0017,V1-ENT-0031,birth_year,1917,fact,B01-FCT-0017,high,batch_retained_candidate,5 月 16 日生于阿普尔科（登记于萨尤拉）
+V1-FCT-0068,A04-MAT-0068,V1-CARD-0017,V1-ENT-0031,death_year,1986,fact,B01-FCT-0018,high,batch_retained_candidate,1 月 7 日卒于墨西哥城
+V1-FCT-0069,A04-MAT-0069,V1-CARD-0017,V1-ENT-0031,country_or_region,墨西哥,fact,B01-FCT-0019,high,batch_retained_candidate,
+V1-FCT-0070,A04-MAT-0070,V1-CARD-0017,V1-ENT-0031,language,es,fact,B01-FCT-0020,high,batch_retained_candidate,
+V1-FCT-0071,A04-MAT-0071,V1-CARD-0017,V1-ENT-0031,entity_layer,author,fact,B01-FCT-0021,high,batch_retained_candidate,
+V1-FCT-0072,A04-MAT-0072,V1-CARD-0017,V1-ENT-0031,one_sentence_summary,墨西哥小说家与摄影师，以《佩德罗·巴拉莫》与《燃烧的原野》著称；童年历经革命与基督战争暴力,fact,B01-FCT-0022,high,batch_retained_candidate,
+V1-FCT-0073,A04-MAT-0073,V1-CARD-0017,V1-ENT-0031,research_note,1952-1953 年墨西哥作家中心（Centro Mexicano de Escritores）奖学金期间完成两部代表作；曾任 INI 编辑（词条）,research_note,B01-FCT-0023,medium,batch_retained_candidate,
+V1-FCT-0074,A04-MAT-0074,V1-CARD-0017,V1-ENT-0031,bibliographic_note,奖项：Xavier Villaurrutia 1955、国家文学奖 1970、阿斯图里亚斯亲王奖 1983（词条）,bibliographic_note,B01-FCT-0024,medium,batch_retained_candidate,
+V1-FCT-0075,A04-MAT-0075,V1-CARD-0010,V1-ENT-0032,entity_layer,work,fact,B01-FCT-0025,high,batch_retained_candidate,
+V1-FCT-0076,A04-MAT-0076,V1-CARD-0010,V1-ENT-0032,first_publication_year,1963,fact,B01-FCT-0026,high,batch_retained_candidate,Joaquín Mortiz（Novelistas Contemporáneos）
+V1-FCT-0077,A04-MAT-0077,V1-CARD-0010,V1-ENT-0032,genre_or_form,长篇小说,fact,B01-FCT-0027,high,batch_retained_candidate,
+V1-FCT-0078,A04-MAT-0078,V1-CARD-0010,V1-ENT-0032,one_sentence_summary,以村镇伊斯特佩克为全知叙述者，讲述革命后秩序幻灭与基督战争之灾；同年获 Xavier Villaurrutia 奖,fact,B01-FCT-0028,high,batch_retained_candidate,
+V1-FCT-0079,A04-MAT-0079,V1-CARD-0010,V1-ENT-0032,key_character,弗朗西斯科·罗萨斯、胡利娅·安德拉德,fact,B01-FCT-0029,medium,batch_retained_candidate,
+V1-FCT-0080,A04-MAT-0080,V1-CARD-0010,V1-ENT-0032,key_place,伊斯特佩克,fact,B01-FCT-0030,high,batch_retained_candidate,
+V1-FCT-0081,A04-MAT-0081,V1-CARD-0010,V1-ENT-0032,research_note,RCL 论文以记忆/anámnesis 与历史真相解读；1968 年 Ripstein 电影改编（B01-SRC-0003/0004）,research_note,B01-FCT-0031,medium,batch_retained_candidate,
+V1-FCT-0082,A04-MAT-0082,V1-CARD-0011,V1-ENT-0033,entity_layer,collection,fact,B01-FCT-0032,high,batch_retained_candidate,
+V1-FCT-0083,A04-MAT-0083,V1-CARD-0011,V1-ENT-0033,first_publication_year,1964,fact,B01-FCT-0033,high,batch_retained_candidate,Universidad Veracruzana（Ficción 58）
+V1-FCT-0084,A04-MAT-0084,V1-CARD-0011,V1-ENT-0033,genre_or_form,短篇集,fact,B01-FCT-0034,high,batch_retained_candidate,
+V1-FCT-0085,A04-MAT-0085,V1-CARD-0011,V1-ENT-0033,one_sentence_summary,1964 年出版的短篇集，含《La culpa es de los tlaxcaltecas》,fact,B01-FCT-0035,medium,batch_retained_candidate,
+V1-FCT-0086,A04-MAT-0086,V1-CARD-0012,V1-ENT-0034,entity_layer,work,fact,B01-FCT-0036,medium,batch_retained_candidate,
+V1-FCT-0087,A04-MAT-0087,V1-CARD-0012,V1-ENT-0034,first_publication_year,1981,fact,B01-FCT-0037,medium,batch_retained_candidate,获 Grijalbo 小说奖；出版信息待核
+V1-FCT-0088,A04-MAT-0088,V1-CARD-0012,V1-ENT-0034,genre_or_form,长篇小说,fact,B01-FCT-0038,medium,batch_retained_candidate,体裁表述待核
+V1-FCT-0089,A04-MAT-0089,V1-CARD-0014,V1-ENT-0035,entity_layer,work,fact,B01-FCT-0039,high,batch_retained_candidate,
+V1-FCT-0090,A04-MAT-0090,V1-CARD-0014,V1-ENT-0035,first_publication_year,1957,fact,B01-FCT-0040,high,batch_retained_candidate,FCE（Letras Mexicanas 36）
+V1-FCT-0091,A04-MAT-0091,V1-CARD-0014,V1-ENT-0035,genre_or_form,长篇小说,fact,B01-FCT-0041,high,batch_retained_candidate,
+V1-FCT-0092,A04-MAT-0092,V1-CARD-0014,V1-ENT-0035,one_sentence_summary,恰帕斯村镇中白人世界与 chontal 印第安世界的张力；1958 年获 Premio Chiapas（词条）,fact,B01-FCT-0042,medium,batch_retained_candidate,
+V1-FCT-0093,A04-MAT-0093,V1-CARD-0014,V1-ENT-0035,key_place,恰帕斯,fact,B01-FCT-0043,medium,batch_retained_candidate,
+V1-FCT-0094,A04-MAT-0094,V1-CARD-0014,V1-ENT-0035,research_note,LM 论文：暴力与语言的交织、书面语/口语错位、沉默作为暴力形式（B01-SRC-0008）,research_note,B01-FCT-0044,medium,batch_retained_candidate,
+V1-FCT-0095,A04-MAT-0095,V1-CARD-0015,V1-ENT-0036,entity_layer,work,fact,B01-FCT-0045,high,batch_retained_candidate,
+V1-FCT-0096,A04-MAT-0096,V1-CARD-0015,V1-ENT-0036,first_publication_year,1962,fact,B01-FCT-0046,high,batch_retained_candidate,Joaquín Mortiz
+V1-FCT-0097,A04-MAT-0097,V1-CARD-0015,V1-ENT-0036,genre_or_form,长篇小说,fact,B01-FCT-0047,medium,batch_retained_candidate,体裁表述以作品页书目为据
+V1-FCT-0098,A04-MAT-0098,V1-CARD-0016,V1-ENT-0037,entity_layer,collection,fact,B01-FCT-0048,high,batch_retained_candidate,
+V1-FCT-0099,A04-MAT-0099,V1-CARD-0016,V1-ENT-0037,first_publication_year,1972,fact,B01-FCT-0049,high,batch_retained_candidate,FCE（Letras Mexicanas）
+V1-FCT-0100,A04-MAT-0100,V1-CARD-0016,V1-ENT-0037,genre_or_form,诗集,fact,B01-FCT-0050,high,batch_retained_candidate,
+V1-FCT-0101,A04-MAT-0101,V1-CARD-0016,V1-ENT-0037,bibliographic_note,副题 obra poética 1948-1971：收录 1948-1971 年诗作（作品页标题）,bibliographic_note,B01-FCT-0051,medium,batch_retained_candidate,
+V1-FCT-0102,A04-MAT-0102,V1-CARD-0018,V1-ENT-0038,entity_layer,work,fact,B01-FCT-0052,high,batch_retained_candidate,
+V1-FCT-0103,A04-MAT-0103,V1-CARD-0018,V1-ENT-0038,first_publication_year,1955,fact,B01-FCT-0053,high,batch_retained_candidate,1955 年 3 月 FCE（Letras Mexicanas 19）
+V1-FCT-0104,A04-MAT-0104,V1-CARD-0018,V1-ENT-0038,genre_or_form,长篇小说,fact,B01-FCT-0054,high,batch_retained_candidate,
+V1-FCT-0105,A04-MAT-0105,V1-CARD-0018,V1-ENT-0038,one_sentence_summary,Juan Preciado 赴科马拉寻父与考迪罗 Pedro Páramo 命运的双主线；村镇最终成为鬼村,fact,B01-FCT-0055,high,batch_retained_candidate,
+V1-FCT-0106,A04-MAT-0106,V1-CARD-0018,V1-ENT-0038,key_character,胡安·普雷西亚多、佩德罗·巴拉莫（人物）,fact,B01-FCT-0056,high,batch_retained_candidate,
+V1-FCT-0107,A04-MAT-0107,V1-CARD-0018,V1-ENT-0038,key_place,科马拉,fact,B01-FCT-0057,high,batch_retained_candidate,
+V1-FCT-0108,A04-MAT-0108,V1-CARD-0018,V1-ENT-0038,research_note,LM 论文：70 个片段构成；片段 67 以十四句对话浓缩 1915-1929 年（B01-SRC-0012）,research_note,B01-FCT-0058,medium,batch_retained_candidate,
+V1-FCT-0109,A04-MAT-0109,V1-CARD-0019,V1-ENT-0039,entity_layer,collection,fact,B01-FCT-0059,high,batch_retained_candidate,
+V1-FCT-0110,A04-MAT-0110,V1-CARD-0019,V1-ENT-0039,first_publication_year,1953,fact,B01-FCT-0060,high,batch_retained_candidate,FCE（Letras Mexicanas 11）
+V1-FCT-0111,A04-MAT-0111,V1-CARD-0019,V1-ENT-0039,genre_or_form,短篇集,fact,B01-FCT-0061,high,batch_retained_candidate,
+V1-FCT-0112,A04-MAT-0112,V1-CARD-0019,V1-ENT-0039,one_sentence_summary,1953 年 FCE 出版；以哈利斯科乡村为背景的短篇集,fact,B01-FCT-0062,medium,batch_retained_candidate,篇数与篇目明细来源未提供，待补
+V1-FCT-0113,A04-MAT-0113,V1-CARD-0020,V1-ENT-0040,entity_layer,work,fact,B01-FCT-0063,high,batch_retained_candidate,
+V1-FCT-0114,A04-MAT-0114,V1-CARD-0020,V1-ENT-0040,composition_year,1958,bibliographic_note,B01-FCT-0064,high,batch_retained_candidate,1958 年写成（R1 拆行，REVIEW §3.3）
+V1-FCT-0115,A04-MAT-0115,V1-CARD-0020,V1-ENT-0040,publication_year,1980,bibliographic_note,B01-FCT-0064,high,batch_retained_candidate,1980 年 Era 出版（R1 拆行，REVIEW §3.3）
+V1-FCT-0116,A04-MAT-0116,V1-CARD-0020,V1-ENT-0040,genre_or_form,中篇小说/电影文本,fact,B01-FCT-0065,medium,batch_retained_candidate,体裁表述待核
+V1-FCT-0117,A04-MAT-0117,V1-CARD-0021,V1-ENT-0072,country_or_region,哥伦比亚,fact,B02-FCT-0003,high,batch_retained_candidate,CVC：加勒比哥伦比亚村落 Aracataca 出生
+V1-FCT-0118,A04-MAT-0118,V1-CARD-0021,V1-ENT-0072,language,es,fact,B02-FCT-0004,high,batch_retained_candidate,西语文学（CVC：“literatura en lengua española”）
+V1-FCT-0119,A04-MAT-0119,V1-CARD-0021,V1-ENT-0072,entity_layer,author,fact,B02-FCT-0005,high,batch_retained_candidate,
+V1-FCT-0120,A04-MAT-0120,V1-CARD-0021,V1-ENT-0072,one_sentence_summary,哥伦比亚小说家，1982 年诺贝尔文学奖得主，生于加勒比哥伦比亚阿卡塔卡，其故乡在马孔多名下进入文学,fact,B02-FCT-0006,high,batch_retained_candidate,CVC 数字展简介
+V1-FCT-0121,A04-MAT-0121,V1-CARD-0021,V1-ENT-0072,research_note,诺贝尔奖获奖理由：小说与短篇把奇幻与现实结合于丰富想象世界，映照一个大陆的生活与冲突,research_note,B02-FCT-0007,high,batch_retained_candidate,NobelPrize.org 原文获奖理由
+V1-FCT-0122,A04-MAT-0122,V1-CARD-0021,V1-ENT-0072,award,诺贝尔文学奖（1982）,fact,B02-FCT-0008,high,batch_retained_candidate,NobelPrize.org 1982 年文学奖
+V1-FCT-0123,A04-MAT-0123,V1-CARD-0025,V1-ENT-0073,language,es,fact,B02-FCT-0012,high,batch_retained_candidate,西语文学
+V1-FCT-0124,A04-MAT-0124,V1-CARD-0025,V1-ENT-0073,entity_layer,author,fact,B02-FCT-0013,high,batch_retained_candidate,
+V1-FCT-0125,A04-MAT-0125,V1-CARD-0025,V1-ENT-0073,one_sentence_summary,科塔萨尔的叙事自早期小说起即对抗既定文学规范，《跳房子》揭示其对传统小说观念的突破，强调碎片叙事与读者的积极参与,fact,B02-FCT-0014,high,batch_retained_candidate,R1：仅保留 SRC-0007 明确支持部分；梦境/早期幻想拆至 FCT-0083
+V1-FCT-0126,A04-MAT-0126,V1-CARD-0029,V1-ENT-0074,country_or_region,古巴,fact,B02-FCT-0017,high,batch_retained_candidate,RFRM 首句“El cubano Alejo Carpentier”
+V1-FCT-0127,A04-MAT-0127,V1-CARD-0029,V1-ENT-0074,language,es,fact,B02-FCT-0018,high,batch_retained_candidate,西语文学
+V1-FCT-0128,A04-MAT-0128,V1-CARD-0029,V1-ENT-0074,entity_layer,author,fact,B02-FCT-0019,high,batch_retained_candidate,
+V1-FCT-0129,A04-MAT-0129,V1-CARD-0029,V1-ENT-0074,one_sentence_summary,古巴跨文化作家，为呈现拉美本质发展出 lo real maravilloso 与 neobarroco 等文学工具,fact,B02-FCT-0020,high,batch_retained_candidate,RFRM 论文判断
+V1-FCT-0130,A04-MAT-0130,V1-CARD-0029,V1-ENT-0074,research_note,RFRM 论文视卡彭铁尔为“处于文化之间”的跨文化作者，Mackandal 人物体现神奇现实,research_note,B02-FCT-0021,high,batch_retained_candidate,Araújo Branco 2013
+V1-FCT-0131,A04-MAT-0131,V1-CARD-0022,V1-ENT-0075,entity_layer,work,fact,B02-FCT-0022,high,batch_retained_candidate,
+V1-FCT-0132,A04-MAT-0132,V1-CARD-0022,V1-ENT-0075,genre_or_form,长篇小说,fact,B02-FCT-0024,high,batch_retained_candidate,Javeriana：“la novela Cien años de soledad”
+V1-FCT-0133,A04-MAT-0133,V1-CARD-0022,V1-ENT-0075,one_sentence_summary,Javeriana 论文认为作品伦理源自圣经神话并构成统一工具，借结构、人物与主题照见人性境况,fact,B02-FCT-0025,high,batch_retained_candidate,R1：删除无来源支持的“马孔多兴衰/家族史诗”表述
+V1-FCT-0134,A04-MAT-0134,V1-CARD-0023,V1-ENT-0076,entity_layer,work,fact,B02-FCT-0027,high,batch_retained_candidate,
+V1-FCT-0135,A04-MAT-0135,V1-CARD-0023,V1-ENT-0076,genre_or_form,中篇小说,fact,B02-FCT-0029,high,batch_retained_candidate,Encuentro：“la célebre novela”
+V1-FCT-0136,A04-MAT-0136,V1-CARD-0023,V1-ENT-0076,one_sentence_summary,上校等待来信的漫长岁月：儿子死于革命活动、家宅抵押、以斗鸡为生，最终拒绝卖鸡并等待斗鸡之日,fact,B02-FCT-0030,high,batch_retained_candidate,Encuentro 摘要
+V1-FCT-0137,A04-MAT-0137,V1-CARD-0023,V1-ENT-0076,key_character,上校;奥古斯丁,fact,B02-FCT-0031,high,batch_retained_candidate,
+V1-FCT-0138,A04-MAT-0138,V1-CARD-0024,V1-ENT-0077,entity_layer,work,fact,B02-FCT-0032,high,batch_retained_candidate,
+V1-FCT-0139,A04-MAT-0139,V1-CARD-0024,V1-ENT-0077,first_publication_year,1981,fact,B02-FCT-0033,high,batch_retained_candidate,Atenea 论文首页标注 (1981)
+V1-FCT-0140,A04-MAT-0140,V1-CARD-0024,V1-ENT-0077,genre_or_form,小说（表面侦探小说结构）,fact,B02-FCT-0034,high,batch_retained_candidate,Atenea：“novela detectivesca”表面结构反讽
+V1-FCT-0141,A04-MAT-0141,V1-CARD-0024,V1-ENT-0077,one_sentence_summary,以圣地亚哥·纳萨尔之死为中心的重构叙事；犯罪仅是前文本，真正探究导致其被复仇杀害的原始之罪,fact,B02-FCT-0035,high,batch_retained_candidate,
+V1-FCT-0142,A04-MAT-0142,V1-CARD-0024,V1-ENT-0077,key_character,圣地亚哥·纳萨尔,fact,B02-FCT-0036,high,batch_retained_candidate,
+V1-FCT-0143,A04-MAT-0143,V1-CARD-0026,V1-ENT-0078,entity_layer,work,fact,B02-FCT-0037,high,batch_retained_candidate,
+V1-FCT-0144,A04-MAT-0144,V1-CARD-0026,V1-ENT-0078,genre_or_form,长篇小说,fact,B02-FCT-0039,high,batch_retained_candidate,Passagens：“su obra más importante”
+V1-FCT-0145,A04-MAT-0145,V1-CARD-0026,V1-ENT-0078,one_sentence_summary,打破传统小说观念的实验小说：碎片化叙述与多种话语交替，召唤读者积极参与文本生产,fact,B02-FCT-0040,high,batch_retained_candidate,
+V1-FCT-0146,A04-MAT-0146,V1-CARD-0026,V1-ENT-0078,research_note,Passagens 论文将 Rayuela 与《Último round》的“影格叙述”并置讨论,research_note,B02-FCT-0041,medium,batch_retained_candidate,
+V1-FCT-0147,A04-MAT-0147,V1-CARD-0027,V1-ENT-0082,entity_layer,collection,fact,B02-FCT-0042,high,batch_retained_candidate,短篇集
+V1-FCT-0148,A04-MAT-0148,V1-CARD-0027,V1-ENT-0082,genre_or_form,幻想短篇集,fact,B02-FCT-0044,high,batch_retained_candidate,Orbis：“cuentos fantásticos de la primera etapa”
+V1-FCT-0149,A04-MAT-0149,V1-CARD-0027,V1-ENT-0082,one_sentence_summary,科塔萨尔早期幻想短篇集；人物与梦境概念保持虚假关系，读者在幻想与真实之间被引导,fact,B02-FCT-0045,high,batch_retained_candidate,
+V1-FCT-0150,A04-MAT-0150,V1-CARD-0028,V1-ENT-0083,entity_layer,collection,fact,B02-FCT-0046,high,batch_retained_candidate,短篇集
+V1-FCT-0151,A04-MAT-0151,V1-CARD-0028,V1-ENT-0083,genre_or_form,幻想短篇集,fact,B02-FCT-0048,high,batch_retained_candidate,
+V1-FCT-0152,A04-MAT-0152,V1-CARD-0028,V1-ENT-0083,one_sentence_summary,UB 论文以《游戏的终结》为对象展开“面具游戏与自我折叠”的阅读路径研究（题名所载主题判断；正文摘要本站不可得）,fact,B02-FCT-0049,medium,batch_retained_candidate,R1：删除来源不能证明的具体篇目清单，仅保留题名支持的最低表述
+V1-FCT-0153,A04-MAT-0153,V1-CARD-0030,V1-ENT-0079,entity_layer,work,fact,B02-FCT-0050,high,batch_retained_candidate,
+V1-FCT-0154,A04-MAT-0154,V1-CARD-0030,V1-ENT-0079,genre_or_form,长篇小说,fact,B02-FCT-0052,high,batch_retained_candidate,
+V1-FCT-0155,A04-MAT-0155,V1-CARD-0030,V1-ENT-0079,one_sentence_summary,以跨文化视角呈现拉丁美洲：Mackandal 体现神奇现实，Henri Christophe 等人物代表“新世界”,fact,B02-FCT-0053,high,batch_retained_candidate,
+V1-FCT-0156,A04-MAT-0156,V1-CARD-0030,V1-ENT-0079,key_character,马康达尔;亨利·克里斯托夫,fact,B02-FCT-0054,high,batch_retained_candidate,
+V1-FCT-0157,A04-MAT-0157,V1-CARD-0031,V1-ENT-0080,entity_layer,work,fact,B02-FCT-0055,high,batch_retained_candidate,
+V1-FCT-0158,A04-MAT-0158,V1-CARD-0031,V1-ENT-0080,genre_or_form,长篇小说,fact,B02-FCT-0057,high,batch_retained_candidate,
+V1-FCT-0159,A04-MAT-0159,V1-CARD-0031,V1-ENT-0080,one_sentence_summary,Maturo 以海德格尔 Kehre 概念解读：小说呈现“美洲作为去蔽与西方传统新起点”,fact,B02-FCT-0058,medium,batch_retained_candidate,
+V1-FCT-0160,A04-MAT-0160,V1-CARD-0031,V1-ENT-0080,research_note,论文从阿尔瓦尔·努涅斯《遇难记》到卡彭铁尔《消逝的足迹》的谱系解读,research_note,B02-FCT-0059,medium,batch_retained_candidate,
+V1-FCT-0161,A04-MAT-0161,V1-CARD-0032,V1-ENT-0081,entity_layer,work,fact,B02-FCT-0060,high,batch_retained_candidate,
+V1-FCT-0162,A04-MAT-0162,V1-CARD-0032,V1-ENT-0081,first_publication_year,1962,fact,B02-FCT-0061,high,batch_retained_candidate,Letras 标题标注 (1962)
+V1-FCT-0163,A04-MAT-0163,V1-CARD-0032,V1-ENT-0081,genre_or_form,长篇小说,fact,B02-FCT-0062,high,batch_retained_candidate,
+V1-FCT-0164,A04-MAT-0164,V1-CARD-0032,V1-ENT-0081,one_sentence_summary,以艺术物件与视觉体制的 ecfrasis 组织叙事，批判启蒙现代性及其对拉丁美洲的影响,fact,B02-FCT-0063,high,batch_retained_candidate,
+V1-FCT-0165,A04-MAT-0165,V1-CARD-0025,V1-ENT-0073,one_sentence_summary,科塔萨尔早期幻想短篇（La otra orilla、Bestiario、Final del juego）中人物与梦境概念保持虚假关系,fact,B02-FCT-0083,high,batch_retained_candidate,R1：自原 FCT-0014 拆出，梦境/早期幻想部分由 SRC-0006 单独支持
+V1-FCT-0166,A04-MAT-0166,V1-CARD-0033,V1-ENT-0114,birth_year,1936,fact,B03-FCT-0001,high,batch_retained_candidate,Nobel：Born 28 March 1936
+V1-FCT-0167,A04-MAT-0167,V1-CARD-0033,V1-ENT-0114,death_year,2025,fact,B03-FCT-0002,high,batch_retained_candidate,"Nobel：Died 13 April 2025, Lima, Peru（权威直接核验）"
+V1-FCT-0168,A04-MAT-0168,V1-CARD-0033,V1-ENT-0114,country_or_region,秘鲁,fact,B03-FCT-0003,high,batch_retained_candidate,Nobel：Peruvian author
+V1-FCT-0169,A04-MAT-0169,V1-CARD-0033,V1-ENT-0114,entity_layer,author,fact,B03-FCT-0004,high,batch_retained_candidate,
+V1-FCT-0170,A04-MAT-0170,V1-CARD-0033,V1-ENT-0114,one_sentence_summary,秘鲁小说家，2010 年诺贝尔文学奖得主，曾为 1990 年秘鲁总统选举候选人，生前大部分时间居于马德里,fact,B03-FCT-0005,high,batch_retained_candidate,Nobel facts 综合
+V1-FCT-0171,A04-MAT-0171,V1-CARD-0033,V1-ENT-0114,award,诺贝尔文学奖（2010）,fact,B03-FCT-0006,high,batch_retained_candidate,NobelPrize.org
+V1-FCT-0172,A04-MAT-0172,V1-CARD-0033,V1-ENT-0114,research_note,获奖理由：对权力结构的绘图与个体抵抗、反叛和失败的尖锐形象,research_note,B03-FCT-0007,high,batch_retained_candidate,NobelPrize.org 原文
+V1-FCT-0173,A04-MAT-0173,V1-CARD-0033,V1-ENT-0114,personal_note,Nobel facts 页称其“已婚并有三个孩子”（页面为旧版表述，未反映后续婚姻变化，照录）,fact,B03-FCT-0008,medium,batch_retained_candidate,Nobel：is married with three children
+V1-FCT-0174,A04-MAT-0174,V1-CARD-0037,V1-ENT-0115,birth_year,1904,fact,B03-FCT-0009,high,batch_retained_candidate,Nobel：Born 12 July 1904；CVC 同
+V1-FCT-0175,A04-MAT-0175,V1-CARD-0037,V1-ENT-0115,death_year,1973,fact,B03-FCT-0010,high,batch_retained_candidate,Nobel：Died 23 September 1973；CVC 同
+V1-FCT-0176,A04-MAT-0176,V1-CARD-0037,V1-ENT-0115,country_or_region,智利,fact,B03-FCT-0011,high,batch_retained_candidate,Nobel：Born/Died/Residence 智利
+V1-FCT-0177,A04-MAT-0177,V1-CARD-0037,V1-ENT-0115,original_name,Neftalí Ricardo Reyes Basoalto,fact,B03-FCT-0012,high,batch_retained_candidate,CVC：原名，1920 年首用笔名 Pablo Neruda、1946 年正式采用
+V1-FCT-0178,A04-MAT-0178,V1-CARD-0037,V1-ENT-0115,entity_layer,author,fact,B03-FCT-0013,high,batch_retained_candidate,
+V1-FCT-0179,A04-MAT-0179,V1-CARD-0037,V1-ENT-0115,one_sentence_summary,智利诗人，1971 年诺贝尔文学奖得主，曾任外交官与智利共产党参议员,fact,B03-FCT-0014,high,batch_retained_candidate,Nobel facts 综合
+V1-FCT-0180,A04-MAT-0180,V1-CARD-0037,V1-ENT-0115,award,诺贝尔文学奖（1971）,fact,B03-FCT-0015,high,batch_retained_candidate,NobelPrize.org
+V1-FCT-0181,A04-MAT-0181,V1-CARD-0037,V1-ENT-0115,research_note,获奖理由：以元素性力量的诗使一个大陆的命运与梦想复活,research_note,B03-FCT-0016,high,batch_retained_candidate,NobelPrize.org 原文
+V1-FCT-0182,A04-MAT-0182,V1-CARD-0037,V1-ENT-0115,career_note,1927 年起任外交官（缅甸、新加坡、爪哇、中国、阿根廷、西班牙等地）；1934-1936 居西班牙,fact,B03-FCT-0017,high,batch_retained_candidate,CVC 传记
+V1-FCT-0183,A04-MAT-0183,V1-CARD-0037,V1-ENT-0115,political_note,1945 年当选智利共产党参议员并获国家文学奖,fact,B03-FCT-0018,high,batch_retained_candidate,CVC 传记；Nobel facts 亦载共产党参议员
+V1-FCT-0184,A04-MAT-0184,V1-CARD-0034,V1-ENT-0116,entity_layer,work,fact,B03-FCT-0019,high,batch_retained_candidate,
+V1-FCT-0185,A04-MAT-0185,V1-CARD-0034,V1-ENT-0116,genre_or_form,长篇小说,fact,B03-FCT-0020,high,batch_retained_candidate,Ángulo Recto：“la novela”
+V1-FCT-0186,A04-MAT-0186,V1-CARD-0034,V1-ENT-0116,one_sentence_summary,以利马为背景的小说；论文从中提取寓言与象征元素作 20 世纪中叶利马城市问题的阐释（困闭与逃避）,fact,B03-FCT-0021,high,batch_retained_candidate,
+V1-FCT-0187,A04-MAT-0187,V1-CARD-0034,V1-ENT-0116,key_place,利马,fact,B03-FCT-0022,high,batch_retained_candidate,
+V1-FCT-0188,A04-MAT-0188,V1-CARD-0035,V1-ENT-0117,entity_layer,work,fact,B03-FCT-0023,high,batch_retained_candidate,
+V1-FCT-0189,A04-MAT-0189,V1-CARD-0035,V1-ENT-0117,first_publication_year,1969,fact,B03-FCT-0024,high,batch_retained_candidate,Catedral Tomada 标题标注 (1969)
+V1-FCT-0190,A04-MAT-0190,V1-CARD-0035,V1-ENT-0117,genre_or_form,长篇小说,fact,B03-FCT-0025,high,batch_retained_candidate,Catedral Tomada：“novela del período”
+V1-FCT-0191,A04-MAT-0191,V1-CARD-0035,V1-ENT-0117,one_sentence_summary,论文以该小说为对象讨论文学爆炸中知识分子的角色：作家进入公共领域及其失败的表征,fact,B03-FCT-0026,high,batch_retained_candidate,
+V1-FCT-0192,A04-MAT-0192,V1-CARD-0036,V1-ENT-0118,entity_layer,work,fact,B03-FCT-0027,high,batch_retained_candidate,
+V1-FCT-0193,A04-MAT-0193,V1-CARD-0036,V1-ENT-0118,first_publication_year,1981,fact,B03-FCT-0028,high,batch_retained_candidate,Letral：“publicada en 1981”
+V1-FCT-0194,A04-MAT-0194,V1-CARD-0036,V1-ENT-0118,genre_or_form,长篇小说,fact,B03-FCT-0029,high,batch_retained_candidate,Letral：“La sexta novela de Vargas Llosa”
+V1-FCT-0195,A04-MAT-0195,V1-CARD-0036,V1-ENT-0118,one_sentence_summary,1981 年出版；论文认为 Consejero 人物与整部小说瓦解殖民视角对拉美的解读，成为拉美去殖民思想在文学话语上的先例,fact,B03-FCT-0030,high,batch_retained_candidate,
+V1-FCT-0196,A04-MAT-0196,V1-CARD-0036,V1-ENT-0118,key_character,劝世者（el Consejero）,fact,B03-FCT-0031,high,batch_retained_candidate,
+V1-FCT-0197,A04-MAT-0197,V1-CARD-0036,V1-ENT-0118,research_note,论文标题“Canudos o la redención de los malditos”直接关联小说与卡努杜斯（Canudos）；关系词表无“基于事件”词，仅记录于此,research_note,B03-FCT-0032,medium,batch_retained_candidate,
+V1-FCT-0198,A04-MAT-0198,V1-CARD-0038,V1-ENT-0119,entity_layer,collection,fact,B03-FCT-0033,high,batch_retained_candidate,Kadhim：“los dos poemarios”
+V1-FCT-0199,A04-MAT-0199,V1-CARD-0038,V1-ENT-0119,first_publication_year,1924,fact,B03-FCT-0034,high,batch_retained_candidate,CVC：1923 年首部诗集后次年出版
+V1-FCT-0200,A04-MAT-0200,V1-CARD-0038,V1-ENT-0119,genre_or_form,诗集,fact,B03-FCT-0035,high,batch_retained_candidate,Kadhim：“poemario”
+V1-FCT-0201,A04-MAT-0201,V1-CARD-0038,V1-ENT-0119,one_sentence_summary,聂鲁达早期情诗集；比较研究以“爱情体验”的形成切入（与 Nizar Qabbani《一百封情书》对比）,fact,B03-FCT-0036,high,batch_retained_candidate,
+V1-FCT-0202,A04-MAT-0202,V1-CARD-0038,V1-ENT-0119,research_note,CVC：该诗集使其进入国际视野，获得近乎鲁文·达里奥的名声,research_note,B03-FCT-0037,high,batch_retained_candidate,R1：Araya 信息拆至 FCT-0059（REVIEW §3.3）
+V1-FCT-0203,A04-MAT-0203,V1-CARD-0039,V1-ENT-0120,entity_layer,collection,fact,B03-FCT-0038,high,batch_retained_candidate,诗集
+V1-FCT-0204,A04-MAT-0204,V1-CARD-0039,V1-ENT-0120,genre_or_form,诗集,fact,B03-FCT-0039,high,batch_retained_candidate,Atenea 专论该诗集
+V1-FCT-0205,A04-MAT-0205,V1-CARD-0039,V1-ENT-0120,research_note,Concha 1972 年《Atenea》专论解读该诗集；分卷构成与各卷出版年来源未直接列明，待补（ISSUES）,research_note,B03-FCT-0040,medium,batch_retained_candidate,
+V1-FCT-0206,A04-MAT-0206,V1-CARD-0040,V1-ENT-0121,entity_layer,collection,fact,B03-FCT-0041,high,batch_retained_candidate,诗集
+V1-FCT-0207,A04-MAT-0207,V1-CARD-0040,V1-ENT-0121,first_publication_year,1950,fact,B03-FCT-0042,high,batch_retained_candidate,Persée：1950 年秋墨西哥 Océano 出版
+V1-FCT-0208,A04-MAT-0208,V1-CARD-0040,V1-ENT-0121,genre_or_form,史诗诗集,fact,B03-FCT-0043,high,batch_retained_candidate,Nobel：“an epic poem about the whole South American continent”；CVC：“la epopeya”
+V1-FCT-0209,A04-MAT-0209,V1-CARD-0040,V1-ENT-0121,one_sentence_summary,关于整个南美大陆的美洲史诗，从美洲最早的世界的浑朴宇宙起源开始（CVC/Nobel）,fact,B03-FCT-0044,high,batch_retained_candidate,CVC：la epopeya que comienza con la telúrica cosmogonía
+V1-FCT-0210,A04-MAT-0210,V1-CARD-0040,V1-ENT-0121,research_note,Persée：1950 年 Océano 版由 Diego Rivera 与 David A. Siqueiros 绘制插图,research_note,B03-FCT-0045,high,batch_retained_candidate,
+V1-FCT-0211,A04-MAT-0211,V1-CARD-0038,V1-ENT-0119,research_note,"Araya 论文（Persée 1982, Bulletin Hispanique）载该诗集创作过程中曾有两个先前标题",research_note,B03-FCT-0059,high,batch_retained_candidate,R1：新增独立事实，仅由 SRC-0010 支持（REVIEW §3.3）
+V1-FCT-0212,A04-MAT-0212,V1-CARD-0021,V1-ENT-0072,birth_year,1927,fact,A01-FCT-0001,high,candidate_for_staging_review,A01 R1 已通过的 high/none 事实候选
+V1-FCT-0213,A04-MAT-0213,V1-CARD-0021,V1-ENT-0072,death_year,2014,fact,A01-FCT-0002,high,candidate_for_staging_review,A01 R1 已通过的 high/none 事实候选
+V1-FCT-0214,A04-MAT-0214,V1-CARD-0021,V1-ENT-0072,language,es,fact,A01-FCT-0003,high,candidate_for_staging_review,A01 R1 已通过的 high/none 事实候选
+V1-FCT-0215,A04-MAT-0215,V1-CARD-0022,V1-ENT-0075,first_publication_year,1967,fact,A01-FCT-0004,high,candidate_for_staging_review,A01 R1 已通过的 high/none 事实候选
+V1-FCT-0216,A04-MAT-0216,V1-CARD-0022,V1-ENT-0075,setting_place,马孔多,fact,A01-FCT-0005,high,candidate_for_staging_review,A01 R1 已通过的 high/none 事实候选
+V1-FCT-0217,A04-MAT-0217,V1-CARD-0034,V1-ENT-0116,first_publication_year,1963,fact,A01-FCT-0006,high,candidate_for_staging_review,A01 R1 已通过的 high/none 事实候选
+V1-FCT-0218,A04-MAT-0218,V1-CARD-0031,V1-ENT-0080,first_publication_year,1953,hold_note,A01-FCT-0007,medium,hold,仅参考文献书目支持 1953，等待权威书目交叉
+V1-FCT-0219,A04-MAT-0219,V1-CARD-0025,V1-ENT-0073,birth_year,1914,fact,A01-FCT-0008,high,candidate_for_staging_review,A01 R1 已通过的 high/none 事实候选
+V1-FCT-0220,A04-MAT-0220,V1-CARD-0025,V1-ENT-0073,death_year,1984,fact,A01-FCT-0009,high,candidate_for_staging_review,A01 R1 已通过的 high/none 事实候选
+V1-FCT-0221,A04-MAT-0221,V1-CARD-0036,V1-ENT-0139,event_year_range,1896-1897,context_fact,A01-FCT-0010,high,candidate_for_staging_review,A01 R1 已通过的 high/none 事实候选
+V1-FCT-0222,A04-MAT-0222,V1-CARD-0036,V1-ENT-0141,research_note,论文同时讨论小说人物 el Consejero（B03-ENT-0028，character），并说明被小说虚构化的卡努杜斯历史运动由 Antônio Conselheiro 领导；历史人物与文学人物不作同一实体或别名合并（R1，REVIEW §2.1）,research_note_only,A01-FCT-0011,medium,research_note_only,人物原型/历史对应建模说明；不得准入别名或实体合并
+V1-FCT-0223,A04-MAT-0223,V1-CARD-0023,V1-ENT-0076,first_periodical_publication_year,1958,fact,GAP-01,medium,candidate_for_staging_review,拆分杂志首次刊载字段
+V1-FCT-0224,A04-MAT-0224,V1-CARD-0023,V1-ENT-0076,first_book_edition_year,1961,fact,GAP-01,medium,candidate_for_staging_review,拆分首个书版本字段
+V1-FCT-0225,A04-MAT-0225,V1-CARD-0026,V1-ENT-0078,first_publication_year,1963,fact,GAP-02,high,candidate_for_staging_review,Persée 书目脚注直接载年份
+V1-FCT-0226,A04-MAT-0226,V1-CARD-0027,V1-ENT-0082,first_publication_year,1951,fact,GAP-03,medium,candidate_for_staging_review,BnF 稳定书目记录载 Bestiario 1951
+V1-FCT-0227,A04-MAT-0227,V1-CARD-0028,V1-ENT-0083,first_publication_year,1956,fact,GAP-04,medium,candidate_for_staging_review,BnF 稳定书目记录载 J. Pablos 1956
+V1-FCT-0228,A04-MAT-0228,V1-CARD-0030,V1-ENT-0079,first_publication_year,1949,fact,GAP-05,high,candidate_for_staging_review,Persée 书目脚注载原版年 1949
+V1-FCT-0229,A04-MAT-0229,V1-CARD-0029,V1-ENT-0074,birth_year,1904,fact,GAP-06,medium,candidate_for_staging_review,将生卒年拆为原子字段
+V1-FCT-0230,A04-MAT-0230,V1-CARD-0029,V1-ENT-0074,death_year,1980,fact,GAP-06,medium,candidate_for_staging_review,将生卒年拆为原子字段
+V1-FCT-0231,A04-MAT-0231,V1-CARD-0025,V1-ENT-0073,nationality_history,阿根廷；1981年入法国籍,fact,GAP-07,medium,candidate_for_staging_review,保留 BnF 权威记录中的双重国别信息
+V1-FCT-0232,A04-MAT-0232,V1-CARD-0039,V1-ENT-0120,bibliographic_scope_note,"Residencia en la tierra 1925-1931；Tercera residencia, 1935-1945",fact,GAP-08,medium,candidate_for_staging_review,只记录 CVC 明示题名，不推断完整分卷结构
+V1-FCT-0233,A04-MAT-0233,V1-CARD-0010,V1-ENT-0065,event_year_range,1926-1929,context_fact,GAP-09,medium,candidate_for_staging_review,BnF 主题标目直接载年份范围
+V1-FCT-0234,A04-MAT-0234,V1-CARD-0040,V1-ENT-0121,political_theme_hold,政治承诺与美洲历史关注（作品级，单来源 SRC-0059）,hold_note,A01-PP-0001,medium,hold,A03 维持 hold；A02 未顺带取得第二独立来源
+V1-FCT-0235,A04-MAT-0235,V1-CARD-0039,V1-ENT-0120,political_theme_gap,社会与政治（作品级）——缺口：无合格开放来源,gap_note,A01-PP-0005,,gap,A03 维持 gap；RCLL 经 JSTOR 付费、RCL 经 SciELO 拦截
+V1-FCT-0236,A04-MAT-0236,V1-CARD-0037,V1-ENT-0115,author_level_political_note,『聂鲁达：诗歌与政治』为作者级主题；不得下推到具体作品,author_level_note,A01-PP-0002,medium,not_work_level,A03 维持作者级×1，不下推作品
+V1-FCT-0237,A04-MAT-0237,V1-CARD-0023,V1-ENT-0076,first_publication_year_gap,泛化字段 first_publication_year 保持空缺/冲突，不回填 1961（A02 R1 REVIEW §3.2；A03 裁决）,gap_note,GAP-01,medium,gap,双字段建模 first_periodical_publication_year=1958 / first_book_edition_year=1961
+V1-FCT-0238,A04-MAT-0238,V1-CARD-0036,V1-ENT-0118,based_on_event_pending,《世界末日之战》与卡努杜斯战争：直接证据 A01-EV-0001（SRC-0046 正文 ficcionaliza）、间接 A01-EV-0002（SRC-0063）；BASED_ON_EVENT 未入 Schema 0.2，N3 用户节点前不生成正式关系,pending_n3_note,A01-EV-0001;A01-EV-0002;A01-EV-0003,high,pending_n3,V1-S4-A03-PROP-001
+V1-FCT-0239,V2-N4-R04,V1-CARD-0022,V1-ENT-0075,story_premise,布恩迪亚—伊瓜兰家族在马孔多延续数代；家族的奇迹、执念、战争、发现与孤独同时组织起这座虚构城镇的历史。,publisher_paraphrase,SRC-0075,high,batch_retained_candidate,低剧透公众导读基础；不替代主题关系
+V1-FCT-0240,V2-N4-R04,V1-CARD-0022,V1-ENT-0075,key_character,布恩迪亚—伊瓜兰家族,publisher_paraphrase,SRC-0075,high,batch_retained_candidate,家族级人物入口
+V1-FCT-0241,V2-N4-R04,V1-CARD-0025,V1-ENT-0078,story_premise,阿根廷作家奥拉西奥·奥利维拉在巴黎与拉玛伽及朋友们生活；一次失去打断这段生活，他随后返回布宜诺斯艾利斯。,publisher_paraphrase,SRC-0076,high,batch_retained_candidate,低剧透公众导读基础
+V1-FCT-0242,V2-N4-R04,V1-CARD-0025,V1-ENT-0078,key_character,奥拉西奥·奥利维拉、拉玛伽,publisher_paraphrase,SRC-0076,high,batch_retained_candidate,主要人物
+V1-FCT-0243,V2-N4-R04,V1-CARD-0025,V1-ENT-0078,setting_place,巴黎、布宜诺斯艾利斯,publisher_paraphrase,SRC-0076,high,batch_retained_candidate,文本情境；暂不自动新增地图关系
+V1-FCT-0244,V2-N4-R04,V1-CARD-0027,V1-ENT-0080,story_premise,一位在纽约从事商业广告工作的作曲家接受赴南美寻找原住民乐器的任务，也重新面对被搁置的创作愿望。,publisher_paraphrase,SRC-0077,high,batch_retained_candidate,低剧透公众导读基础
+V1-FCT-0245,V2-N4-R04,V1-CARD-0027,V1-ENT-0080,setting_place,纽约与南美洲内陆,publisher_paraphrase,SRC-0077,high,batch_retained_candidate,空间基础；不生成精确地图点
+V1-FCT-0246,V2-N4-R04,V1-CARD-0032,V1-ENT-0117,story_premise,圣地亚哥·萨瓦拉与安布罗西奥在名为“大教堂”的酒吧交谈，话题不断打开奥德里亚独裁时期的私人记忆与社会关系。,publisher_paraphrase,SRC-0078,high,batch_retained_candidate,低剧透公众导读基础
+V1-FCT-0247,V2-N4-R04,V1-CARD-0032,V1-ENT-0117,key_character,圣地亚哥·萨瓦拉、安布罗西奥,publisher_paraphrase,SRC-0078,high,batch_retained_candidate,主要人物
+V1-FCT-0248,V2-N4-R04,V1-CARD-0032,V1-ENT-0117,historical_context,秘鲁曼努埃尔·奥德里亚独裁时期,publisher_paraphrase,SRC-0078,high,batch_retained_candidate,背景说明；不自动新建事件关系
+V1-FCT-0249,V2-N4-R04,V1-CARD-0024,V1-ENT-0077,story_premise,叙述者在二十多年后重返小镇，重新调查所有人都预先知道、却无人阻止的圣地亚哥·纳萨尔之死。,publisher_paraphrase,SRC-0080,high,batch_retained_candidate,低剧透公众导读基础
+V1-FCT-0250,V2-N4-R04,V1-CARD-0033,V1-ENT-0118,story_premise,小说围绕十九世纪巴西腹地的卡努杜斯共同体展开，以历史事件写激情、理想与争取自由的斗争。,publisher_paraphrase,SRC-0081,high,batch_retained_candidate,低剧透公众导读基础
+V1-FCT-0251,V2-N4-R04,V1-CARD-0031,V1-ENT-0116,story_premise,利马莱昂西奥·普拉多军事学校的一群少年在严酷纪律、等级与同伴暴力中学习生存。,publisher_paraphrase,SRC-0082,high,batch_retained_candidate,低剧透公众导读基础
+V1-FCT-0252,V2-N4-R04,V1-CARD-0031,V1-ENT-0116,setting_place,利马莱昂西奥·普拉多军事学校,publisher_paraphrase,SRC-0082,high,batch_retained_candidate,细化现有利马地点关系
+V1-FCT-0253,V2-N4-R04,V1-CARD-0023,V1-ENT-0076,story_premise,一位退役上校每周到港口等待迟到多年的养老金批复；他与患病的妻子困于贫穷，也守着亡子留下的斗鸡。,publisher_paraphrase,SRC-0083,high,batch_retained_candidate,低剧透公众导读基础
+V1-FCT-0254,V2-N4-R04,V1-CARD-0023,V1-ENT-0076,setting_place,戒严中的哥伦比亚小村镇,publisher_paraphrase,SRC-0083,high,batch_retained_candidate,不生成精确地图点
+V1-FCT-0255,V2-N4-R04,V1-CARD-0018,V1-ENT-0038,story_premise,胡安·普雷西亚多遵照母亲遗愿前往科马拉寻找父亲佩德罗·巴拉莫，却在空荡街道与低语中逐渐听见这座村镇的过去。,publisher_paraphrase,SRC-0084,high,batch_retained_candidate,低剧透公众导读基础
+V1-FCT-0256,V2-N4-R04,V1-CARD-0007,V1-ENT-0018,story_premise,里约热内卢的贫穷打字员玛卡贝娅过着狭窄生活；叙述者罗德里戈·S.M.一边讲述她，一边不断暴露讲述本身的困难。,publisher_paraphrase,SRC-0085,high,batch_retained_candidate,低剧透公众导读基础
+V1-FCT-0257,V2-N4-R04,V1-CARD-0032,V1-ENT-0081,story_premise,十八世纪末，来自马赛的商船水手维克多·于格抵达古巴，把法国革命的理想、野心与暴力带到三个克里奥尔孤儿的生活中。,publisher_paraphrase,SRC-0086,high,batch_retained_candidate,低剧透公众导读基础
+V1-FCT-0258,V2-N4-R04,V1-CARD-0032,V1-ENT-0081,key_character,维克多·于格、三个克里奥尔孤儿,publisher_paraphrase,SRC-0086,high,batch_retained_candidate,人物入口
+V1-FCT-0259,V2-N4-R04,V1-CARD-0032,V1-ENT-0081,setting_place,十八世纪末的古巴、加勒比海与瓜德罗普,publisher_paraphrase,SRC-0086,high,batch_retained_candidate,区域空间基础；不生成精确地图点
+V1-FCT-0260,WEB-CE-B01,V1-CARD-0041,V1-ENT-0145,birth_year,1928,fact,SRC-0087,high,candidate_for_staging_review,BnF 权威记录 birthDate=11-11-1928
+V1-FCT-0261,WEB-CE-B01,V1-CARD-0041,V1-ENT-0145,death_year,2012,fact,SRC-0087,high,candidate_for_staging_review,BnF 权威记录 deathDate=15-05-2012
+V1-FCT-0262,WEB-CE-B01,V1-CARD-0041,V1-ENT-0145,country_or_region,墨西哥,fact,SRC-0087,high,candidate_for_staging_review,BnF 权威记录 nationality=Mexique
+V1-FCT-0263,WEB-CE-B01,V1-CARD-0041,V1-ENT-0145,one_sentence_summary,墨西哥小说家、散文家与剧作家；1975–1977 年任墨西哥驻法国大使，1985 年在哈佛大学任文学教授,fact,SRC-0087,medium,candidate_for_staging_review,据 BnF description 直译的最小版本；待 Britannica/Wikipedia 打开后补全文学成就与代表作品表述
+V1-FCT-0264,WEB-CE-B01,V1-CARD-0041,V1-ENT-0145,career_note,"1975–1977 年任墨西哥驻法国大使；1985 年在哈佛大学任文学教授（据 BnF 描述：'Ambassadeur du Mexique en France de 1975 à 1977, professeur de littérature à Harvard (en 1985)'）",fact,SRC-0087,medium,candidate_for_staging_review,BnF 单一来源；补充其他生平履历待第二来源
+V1-FCT-0265,WEB-CE-B01,V1-CARD-0042,V1-ENT-0146,bibliographic_note,"BnF 目录在作者 'Fuentes, Carlos (1928-2012)' 名下收录 La región más transparente 相关记录 8 条（检索快照 2026-08-18）",bibliographic_note,SRC-0088,medium,candidate_for_staging_review,仅证目录存在与归名，不含出版细节
+V1-FCT-0266,WEB-CE-B01,V1-CARD-0043,V1-ENT-0147,bibliographic_note,BnF 目录在作者名下收录 La muerte de Artemio Cruz 相关记录 5 条（检索快照 2026-08-18）,bibliographic_note,SRC-0088,medium,candidate_for_staging_review,仅证目录存在与归名，不含出版细节
+V1-FCT-0267,WEB-CE-B01,V1-CARD-0044,V1-ENT-0148,birth_year,1889,fact,SRC-0089,high,batch_retained_candidate,诺贝尔官网 facts 页
+V1-FCT-0268,WEB-CE-B01,V1-CARD-0044,V1-ENT-0148,death_year,1957,fact,SRC-0089,high,batch_retained_candidate,逝世地 Hempstead（纽约州）见于页面；出生地/逝世地不作 BORN_IN 关系
+V1-FCT-0269,WEB-CE-B01,V1-CARD-0044,V1-ENT-0148,country_or_region,智利,fact,SRC-0089,high,batch_retained_candidate,参照 V1-FCT-0176（聂鲁达 country_or_region=智利）写法
+V1-FCT-0270,WEB-CE-B01,V1-CARD-0044,V1-ENT-0148,language,es,fact,SRC-0089,high,batch_retained_candidate,参照 V1-FCT-0118 写法
+V1-FCT-0271,WEB-CE-B01,V1-CARD-0044,V1-ENT-0148,original_name,Lucila Godoy Alcayaga,fact,SRC-0089,high,batch_retained_candidate,本名；笔名见 personal_note
+V1-FCT-0272,WEB-CE-B01,V1-CARD-0044,V1-ENT-0148,personal_note,本名 Lucila Godoy Alcayaga；笔名 Gabriela Mistral 取自她喜爱的两位诗人 Gabriele D'Annunzio 与 Frédéric Mistral,fact,SRC-0089,high,batch_retained_candidate,身份/笔名来源说明
+V1-FCT-0273,WEB-CE-B01,V1-CARD-0044,V1-ENT-0148,one_sentence_summary,智利诗人，1945 年诺贝尔文学奖得主，南美洲（拉丁美洲）首位诺贝尔文学奖得主；出身教师，曾任智利驻多国领事,fact,SRC-0089,high,batch_retained_candidate,"南美洲首位为 Nobel 原文表述（South America's first ever Nobel Laureate in Literature）；packet 所称""拉丁美洲首位""与此一致（1945 年前无任何拉美国家作家获奖）"
+V1-FCT-0274,WEB-CE-B01,V1-CARD-0044,V1-ENT-0148,career_note,15 岁起在故乡任教；后在拉丁美洲多国教育系统任职、参与多个委员会，并担任智利驻多个国家的领事,fact,SRC-0089,high,batch_retained_candidate,参照 V1-FCT-0182（聂鲁达 career_note）写法
+V1-FCT-0275,WEB-CE-B01,V1-CARD-0044,V1-ENT-0148,award,诺贝尔文学奖（1945）,fact,SRC-0089,high,batch_retained_candidate,参照 V1-FCT-0122（马尔克斯 award=诺贝尔文学奖（1982））写法
+V1-FCT-0276,WEB-CE-B01,V1-CARD-0044,V1-ENT-0148,research_note,获奖理由：因其抒情诗以强烈情感为灵感，使她的名字成为整个拉丁美洲世界理想主义渴望的象征,research_note,SRC-0090,high,batch_retained_candidate,参照 V1-FCT-0121（获奖理由 research_note）写法
+V1-FCT-0277,WEB-CE-B01,V1-CARD-0044,V1-ENT-0148,entity_layer,author,fact,SRC-0089,high,batch_retained_candidate,参照 V1-FCT-0178（聂鲁达 entity_layer=author）写法
+V1-FCT-0278,WEB-CE-B01,V1-CARD-0044,V1-ENT-0148,birth_place,比库尼亚（Vicuña）,fact,SRC-0089,high,candidate_for_staging_review,智利科金博大区 Elqui 河谷城镇（河谷/大区细节按 D1 移入 note）；既有 fact_field 词表无 birth_place，按操作手册 SOP-B §8 以事实记录；同一信息另以 ASSOCIATED_WITH_PLACE→比库尼亚承载；禁止 BORN_IN 关系
+V1-FCT-0279,WEB-CE-B01,V1-CARD-0045,V1-ENT-0149,first_publication_year,1922,fact,SRC-0091,high,batch_retained_candidate,首版书目直接来源；出版信息用字段，不用 PUBLISHED_IN 关系
+V1-FCT-0280,WEB-CE-B01,V1-CARD-0045,V1-ENT-0149,genre_or_form,诗集（poesía）,fact,SRC-0091,high,batch_retained_candidate,诗集层级=collection
+V1-FCT-0281,WEB-CE-B01,V1-CARD-0045,V1-ENT-0149,bibliographic_note,"首版：New York : Instituto de las Españas, 1922（诺贝尔官网书目）；中文合集/诗选收录范围待核验",fact,SRC-0091,high,batch_retained_candidate,参照既有 bibliographic_note 用法
+V1-FCT-0282,WEB-CE-B01,V1-CARD-0046,V1-ENT-0150,first_publication_year,1924,fact,SRC-0091,high,batch_retained_candidate,首版书目直接来源
+V1-FCT-0283,WEB-CE-B01,V1-CARD-0046,V1-ENT-0150,genre_or_form,诗集（儿童摇篮曲与歌谣）,fact,SRC-0089,high,batch_retained_candidate,体裁描述出自 Nobel Facts 页
+V1-FCT-0284,WEB-CE-B01,V1-CARD-0046,V1-ENT-0150,bibliographic_note,"首版：Madrid : Saturnino Calleja, 1924（Ternura: canciones de niños）；中文《柔情》/诗选收录范围待核验",fact,SRC-0091,high,batch_retained_candidate,
+V1-FCT-0285,WEB-CE-B01,V1-CARD-0046,V1-ENT-0150,one_sentence_summary,"以摇篮曲和儿童歌谣为主体的诗集（Nobel Facts 页：""contains lullabies and rhymes for children""）",fact,SRC-0089,high,batch_retained_candidate,Nobel 官方表述直引
+V1-FCT-0286,WEB-CE-B01,V1-CARD-0047,V1-ENT-0151,first_publication_year,1938,fact,SRC-0091,high,batch_retained_candidate,首版书目直接来源
+V1-FCT-0287,WEB-CE-B01,V1-CARD-0047,V1-ENT-0151,genre_or_form,诗集（poesía）,fact,SRC-0091,high,batch_retained_candidate,
+V1-FCT-0288,WEB-CE-B01,V1-CARD-0047,V1-ENT-0151,bibliographic_note,"首版：Buenos Aires : Sur, 1938（诺贝尔官网书目）；中文收录待核验",fact,SRC-0091,high,batch_retained_candidate,
+V1-FCT-0289,WEB-CE-B01,V1-CARD-0047,V1-ENT-0151,one_sentence_summary,"采用不寻常意象与自由诗的诗集（Nobel Facts 页：""employs unusual imagery and free verse""）",fact,SRC-0089,high,batch_retained_candidate,Nobel 官方表述直引
+V1-FCT-0290,WEB-CE-B01,V1-CARD-0048,V1-ENT-0059,birth_year,1914,fact,SRC-0092,high,candidate_for_staging_review,"Nobel Facts 页 ""Born: 31 March 1914, Mexico City, Mexico"""
+V1-FCT-0291,WEB-CE-B01,V1-CARD-0048,V1-ENT-0059,death_year,1998,fact,SRC-0092,high,candidate_for_staging_review,"Nobel Facts 页 ""Died: 19 April 1998, Mexico City, Mexico""；poets.org 亦标 1914-1998"
+V1-FCT-0292,WEB-CE-B01,V1-CARD-0048,V1-ENT-0059,country_or_region,墨西哥,fact,SRC-0092,high,candidate_for_staging_review,"Nobel Facts 页 ""Residence at the time of the award: Mexico""；与 poets.org 国籍信息一致"
+V1-FCT-0293,WEB-CE-B01,V1-CARD-0048,V1-ENT-0059,language,es,fact,SRC-0092,high,candidate_for_staging_review,"Nobel Facts 页 ""Language: Spanish"""
+V1-FCT-0294,WEB-CE-B01,V1-CARD-0048,V1-ENT-0059,birth_place,墨西哥城（Ciudad de México）,fact,SRC-0092,high,candidate_for_staging_review,既有 fact_field 词表无 birth_place 字段；按 packet 要求出生地以 fact 记录（禁止 BORN_IN 关系）；建议 Reviewer 评估新增字段或并入既有字段
+V1-FCT-0295,WEB-CE-B01,V1-CARD-0048,V1-ENT-0059,award,诺贝尔文学奖（1990）,fact,SRC-0092,high,candidate_for_staging_review,参照库内 V1-FCT-0122「诺贝尔文学奖（1982）」格式；Nobel Facts 与 1990 主页面双重确认
+V1-FCT-0296,WEB-CE-B01,V1-CARD-0048,V1-ENT-0059,one_sentence_summary,墨西哥诗人、散文家与外交官，1990 年诺贝尔文学奖得主，生于墨西哥城，以《孤独的迷宫》等分析墨西哥历史与文化的随笔闻名,fact,SRC-0092,high,candidate_for_staging_review,综合 Nobel Facts 与 poets.org 传记表述
+V1-FCT-0297,WEB-CE-B01,V1-CARD-0048,V1-ENT-0059,career_note,诗人、散文家、记者与翻译；1946 年起任外交官约 20 年，1962 年任墨西哥驻印度大使，1968 年为抗议墨西哥城政府镇压学生示威而辞职；创办《El hijo pródigo》《Vuelta》等文学杂志；受马克思主义、超现实主义、存在主义、佛教与印度教思想影响,fact,SRC-0092,high,candidate_for_staging_review,Nobel Facts 生涯段 + poets.org 传记载
+V1-FCT-0298,WEB-CE-B01,V1-CARD-0049,V1-ENT-0154,entity_layer,work,fact,SRC-0092,high,candidate_for_staging_review,参照库内 work 实体 entity_layer fact（如 V1-FCT-0013）惯例
+V1-FCT-0299,WEB-CE-B01,V1-CARD-0049,V1-ENT-0154,first_publication_year,1950,fact,SRC-0092,high,candidate_for_staging_review,"Nobel Facts ""El laberinto de la soledad (1950)""；poets.org 标 FCE 1950"
+V1-FCT-0300,WEB-CE-B01,V1-CARD-0049,V1-ENT-0154,genre_or_form,散文/随笔集（essays）,fact,SRC-0092,high,candidate_for_staging_review,"Nobel Facts 称 ""a collection of essays""；中译馆藏 MARC 亦标散文集/杂文集（墨西哥·现代）"
+V1-FCT-0301,WEB-CE-B01,V1-CARD-0049,V1-ENT-0154,one_sentence_summary,帕斯分析墨西哥历史与文化的随笔集（据 Nobel Facts 与 poets.org 释义）,fact,SRC-0092,medium,candidate_for_staging_review,仅据来源转述，不作解释性发挥
+V1-FCT-0302,WEB-CE-B01,V1-CARD-0049,V1-ENT-0154,bibliographic_note,诺贝尔书目页未列西语原版；英译 The Labyrinth of Solitude（tr. Lysander Kemp）Penguin 1985；poets.org 标初版 FCE 1950,fact,SRC-0094,medium,candidate_for_staging_review,原版出版社待 FCE 产品页补充（FCE 站内检索 404，未取得）
+V1-FCT-0303,WEB-CE-B01,V1-CARD-0050,V1-ENT-0155,entity_layer,work,fact,SRC-0095,high,candidate_for_staging_review,参照库内 work 实体 entity_layer fact 惯例
+V1-FCT-0304,WEB-CE-B01,V1-CARD-0050,V1-ENT-0155,first_publication_year,1956,fact,SRC-0095,high,candidate_for_staging_review,"poets.org 散文书目 ""El arco y la lira (1956)"""
+V1-FCT-0305,WEB-CE-B01,V1-CARD-0050,V1-ENT-0155,genre_or_form,诗论/散文集（essays）,fact,SRC-0095,high,candidate_for_staging_review,poets.org 将其列入 Essays 类目
+V1-FCT-0306,WEB-CE-B01,V1-CARD-0050,V1-ENT-0155,one_sentence_summary,"帕斯诗论代表作，论诗、诗性启示与诗和历史（据诺贝尔书目页英译本副题 ""the Poem, the Poetic Revelation, Poetry and History"" 释义）",fact,SRC-0094,medium,candidate_for_staging_review,仅据来源转述
+V1-FCT-0307,WEB-CE-B01,V1-CARD-0050,V1-ENT-0155,bibliographic_note,英译本 The Bow and the Lyre（tr. Ruth L.C. Simms）Univ. of Texas Press 1973（诺贝尔书目页）,fact,SRC-0094,medium,candidate_for_staging_review,原版出版社（FCE 1956）待 FCE 产品页补充
+V1-FCT-0308,WEB-CE-B01,V1-CARD-0051,V1-ENT-0156,entity_layer,work,fact,SRC-0094,high,candidate_for_staging_review,参照库内 work 实体 entity_layer fact 惯例
+V1-FCT-0309,WEB-CE-B01,V1-CARD-0051,V1-ENT-0156,first_publication_year,1957,fact,SRC-0094,high,candidate_for_staging_review,"Nobel 书目页 ""Piedra de sol. México: Tezontle, 1957""；poets.org 标 FCE 1957（Tezontle 系 FCE 诗丛印行，两说相容）"
+V1-FCT-0310,WEB-CE-B01,V1-CARD-0051,V1-ENT-0156,genre_or_form,长诗（long poem）,fact,SRC-0095,high,candidate_for_staging_review,"poets.org 称 ""This long poem""；Nobel 书目页列于 Poetry 部"
+V1-FCT-0311,WEB-CE-B01,V1-CARD-0051,V1-ENT-0156,one_sentence_summary,帕斯 1957 年长诗，结构借自阿兹特克历法（据 poets.org 释义）,fact,SRC-0095,medium,candidate_for_staging_review,仅据来源转述
+V1-FCT-0312,WEB-CE-B01,V1-CARD-0051,V1-ENT-0156,bibliographic_note,初版墨西哥 Tezontle 1957；后收入 La estación violenta（FCE 1958）；英译见 The Collected Poems 1957-1987（1987）,fact,SRC-0094,medium,candidate_for_staging_review,均据诺贝尔书目页（A 级）
+V1-FCT-0313,WEB-CE-B01,V1-CARD-0052,V1-ENT-0158,first_publication_year,1985,fact,SRC-0100,high,candidate_for_staging_review,BnF 目录 1985 西语版记录（El Amor en los tiempos del cólera，ISBN 8402106408）
+V1-FCT-0314,WEB-CE-B01,V1-CARD-0052,V1-ENT-0158,genre_or_form,长篇小说,fact,SRC-0100,medium,candidate_for_staging_review,BnF 法译各版题名标 ': roman'（L'Amour aux temps du choléra : roman）
+V1-FCT-0315,WEB-CE-B01,V1-CARD-0052,V1-ENT-0158,bibliographic_note,"BnF 目录收录 El Amor en los tiempos del cólera 1985 年西语版（ark:/12148/cb34923644w，ISBN 8402106408），作者归名 García Márquez, Gabriel (1927-2014)",bibliographic_note,SRC-0100,medium,candidate_for_staging_review,仅证目录存在与归名及出版年
+V1-FCT-0316,WEB-CE-B01,V1-CARD-0053,V1-ENT-0159,first_publication_year,1975,fact,SRC-0101,high,candidate_for_staging_review,BnF 目录 1975 年西语版记录（El Otoño del patriarca，ISBN 8401301556）
+V1-FCT-0317,WEB-CE-B01,V1-CARD-0053,V1-ENT-0159,genre_or_form,长篇小说,fact,SRC-0101,medium,candidate_for_staging_review,BnF 法译各版题名标 ': roman'（L'automne du patriarche : roman）
+V1-FCT-0318,WEB-CE-B01,V1-CARD-0053,V1-ENT-0159,bibliographic_note,"BnF 目录收录 El Otoño del patriarca 1975 年西语版（ark:/12148/cb352227127，ISBN 8401301556），作者归名 García Márquez, Gabriel (1927-2014)",bibliographic_note,SRC-0101,medium,candidate_for_staging_review,仅证目录存在与归名及出版年
+V1-FCT-0319,WEB-CE-B01,V1-CARD-0054,V1-ENT-0160,bibliographic_note,"BnF 目录收录 La casa verde 西语多版（4e éd.1967 / 6a ed.1968 / 15a ed.1976 / 2023；ISBN 8432218728），作者归名 Vargas Llosa, Mario",bibliographic_note,SRC-0103,medium,candidate_for_staging_review,仅证目录存在与归名及版本史
+V1-FCT-0320,WEB-CE-B01,V1-CARD-0055,V1-ENT-0161,first_publication_year,1973,fact,SRC-0104,high,candidate_for_staging_review,BnF 目录记录原文：'Publication : Barcelona : Seix Barral，1973'
+V1-FCT-0321,WEB-CE-B01,V1-CARD-0055,V1-ENT-0161,bibliographic_note,"BnF 目录记录：Pantaleón y las visitadoras / Mario Vargas Llosa，Barcelona : Seix Barral, 1973，309 p.，Biblioteca breve ; 352，ISBN 84-322-0252-5（ark:/12148/cb35234561k）",bibliographic_note,SRC-0104,high,candidate_for_staging_review,直接书目记录（出版社/年份/页数/丛书/ISBN）
+V1-FCT-0322,WEB-CE-B01,V1-CARD-0056,V1-ENT-0162,first_publication_year,1975,fact,SRC-0098,high,candidate_for_staging_review,BnF 目录 1975 年西语版记录（El Libro de arena；另 1997 版 ISBN 8478883223）
+V1-FCT-0323,WEB-CE-B01,V1-CARD-0056,V1-ENT-0162,genre_or_form,短篇集,fact,SRC-0098,medium,candidate_for_staging_review,BnF 法译版题名标 '[nouvelles]'（Le Livre de sable : [nouvelles]）
+V1-FCT-0324,WEB-CE-B01,V1-CARD-0056,V1-ENT-0162,bibliographic_note,"BnF 目录收录 El Libro de arena 1975 年西语版（ark:/12148/cb352339603），作者归名 Borges, Jorge Luis (1899-1986)",bibliographic_note,SRC-0098,medium,candidate_for_staging_review,仅证目录存在与归名及出版年
+V1-FCT-0325,WEB-CE-B01,V1-CARD-0057,V1-ENT-0163,genre_or_form,短篇集,fact,SRC-0099,medium,candidate_for_staging_review,BnF 法译版题名标 '[nouvelles]'（Le Rapport de Brodie : [nouvelles]）
+V1-FCT-0326,WEB-CE-B01,V1-CARD-0057,V1-ENT-0163,bibliographic_note,"BnF 目录收录 El informe de Brodie 相关记录（含西语合订本 Ficciones ; El Aleph ; El informe de Brodie，委内瑞拉 1986，ark:/12148/cb354902694），作者归名 Borges, Jorge Luis (1899-1986)",bibliographic_note,SRC-0099,medium,candidate_for_staging_review,仅证目录存在与归名；初版年未直接标注
+V1-FCT-0327,WEB-CE-B01,V1-CARD-0058,V1-ENT-0164,first_publication_year,1959,fact,SRC-0066,high,candidate_for_staging_review,复用 SRC-0066：BnF 记录标题即含 'Las armas secretas，1959'
+V1-FCT-0328,WEB-CE-B01,V1-CARD-0058,V1-ENT-0164,genre_or_form,短篇集,fact,SRC-0102,medium,candidate_for_staging_review,BnF 法译版题名标 '[nouvelles]'（Les armes secrètes : [nouvelles]）
+V1-FCT-0329,WEB-CE-B01,V1-CARD-0058,V1-ENT-0164,bibliographic_note,"主源复用 SRC-0066（BnF 记录 Relatos : Bestiario, 1951, Las armas secretas, 1959, ...，ark:/12148/cb352151483）；补充：本轮 BnF SRU 快照另见西语版 1970/1978/1988（ISBN 8420421324、8437601193），作者归名 Cortázar, Julio (1914-1984)",bibliographic_note,SRC-0102,high,candidate_for_staging_review,直接书目记录（reuse:SRC-0066 + 补充快照）
+V1-FCT-0330,WEB-CE-B01,V1-CARD-0059,V1-ENT-0165,genre_or_form,十四行诗集,fact,SRC-0105,medium,candidate_for_staging_review,BnF 记录题名即含 'sonetos'（Cien sonetos de amor），体裁由题名直接标示
+V1-FCT-0331,WEB-CE-B01,V1-CARD-0059,V1-ENT-0165,bibliographic_note,"BnF 目录收录 Cien sonetos de amor 多版（含 8a ed. 1992，ISBN 8440047037，ark:/12148/cb37376218c），作者归名 Neruda, Pablo",bibliographic_note,SRC-0105,medium,candidate_for_staging_review,仅证目录存在与归名
+V1-FCT-0332,WEB-CE-B01,V1-CARD-0060,V1-ENT-0166,first_publication_year,1971,fact,SRC-0106,high,candidate_for_staging_review,BnF 目录记录原文：'Publication : Rio de Janeiro : Sabiá，1971'
+V1-FCT-0333,WEB-CE-B01,V1-CARD-0060,V1-ENT-0166,genre_or_form,短篇集,fact,SRC-0106,high,candidate_for_staging_review,BnF 记录题名标 'contos'（Felicidade clandestina，contos）
+V1-FCT-0334,WEB-CE-B01,V1-CARD-0060,V1-ENT-0166,bibliographic_note,"BnF 目录记录：Felicidade clandestina, contos / Lispector, Clarice (1920-1977)，Rio de Janeiro : Sabiá, 1971（ark:/12148/cb35424958x）",bibliographic_note,SRC-0106,high,candidate_for_staging_review,直接书目记录（出版社/年份/体裁）
+V1-FCT-0335,WEB-CE-B01,V1-CARD-0061,V1-ENT-0167,entity_layer,collection,fact,SRC-0122,high,candidate_for_staging_review,作品实体层级（REVISE-D2:短篇集改 collection）
+V1-FCT-0336,WEB-CE-B01,V1-CARD-0061,V1-ENT-0167,bibliographic_note,"BnF 目录收录 Guerra del tiempo y otros relatos（1982 版 ark:/12148/cb347971092、1998 版 ark:/12148/cb37550508c）,作者归名 Carpentier, Alejo (1904-1980)",bibliographic_note,SRC-0122,medium,candidate_for_staging_review,仅证目录存在与归名;初版年 1958 无直接来源
+V1-FCT-0337,WEB-CE-B01,V1-CARD-0061,V1-ENT-0167,genre_or_form,短篇小说集,fact,SRC-0122,medium,candidate_for_staging_review,BnF 题名 'y otros relatos' 表明短篇集性质;中译简介亦作短篇集(线索级
+V1-FCT-0338,WEB-CE-B01,V1-CARD-0062,V1-ENT-0168,entity_layer,work,fact,SRC-0121,high,candidate_for_staging_review,作品实体层级
+V1-FCT-0339,WEB-CE-B01,V1-CARD-0062,V1-ENT-0168,first_publication_year,1956,fact,SRC-0121,high,candidate_for_staging_review,BnF 目录 1956 年版记录（El Acoso

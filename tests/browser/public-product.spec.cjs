@@ -90,17 +90,22 @@ test("country context aggregates works from fictional child spaces", async ({ pa
   await expect(page.getByText("《百年孤独》").first()).toBeVisible();
 });
 
-test("map filter clears a selected place that is no longer visible", async ({ page }) => {
+test("map filter falls back from an invisible place to its country context", async ({ page }) => {
   await page.goto("");
   await page.locator('[data-country-id="V1-ENT-0051"]').click();
   await page.locator('[data-place-id="V1-ENT-0057"]').click();
   await expect(page.locator(".map-context-panel")).toContainText("圣加布里埃尔");
+  const homeUrl = page.url();
   await page.locator('[data-map-filter="story_setting"]').click();
   await expect(page.locator('[data-place-id="V1-ENT-0057"]')).toHaveCount(0);
-  await expect(page.getByRole("heading", { name: "从一个地方开始" })).toBeVisible();
-  await expect(page.locator(".map-context-panel")).not.toContainText("圣加布里埃尔");
-  await expect(page.locator(".map-context-panel")).toBeFocused();
+  const panel = page.locator(".map-context-panel");
+  await expect(panel.getByRole("heading", { name: "圣加布里埃尔" })).toHaveCount(0);
+  await expect(panel).toContainText("国家文学入口");
+  await expect(panel.getByRole("heading", { name: "墨西哥" })).toBeVisible();
+  await expect(panel).toContainText("《佩德罗·巴拉莫》");
+  await expect(panel).toBeFocused();
   await expect(page.locator('[data-country-id="V1-ENT-0051"]')).toHaveAttribute("aria-pressed", "true");
+  await expect(page).toHaveURL(homeUrl);
 });
 
 test("map selection supports keyboard activation and announces context", async ({ page }) => {

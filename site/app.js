@@ -263,7 +263,10 @@ function bindMapInteractions() {
   document.querySelectorAll("[data-map-filter]").forEach((button) => button.addEventListener("click", () => {
     mapFilter = button.dataset.mapFilter;
     const selectedPlaceIsVisible = activeMapTarget?.type !== "place" || visibleRealMapPlaces().some((item) => item.place_id === activeMapTarget.id);
-    if (!selectedPlaceIsVisible) activeMapTarget = null;
+    if (!selectedPlaceIsVisible) {
+      const currentCountry = place(activeCountry);
+      activeMapTarget = currentCountry?.place_kind === "country" && isPublic(activeCountry) ? { type: "country", id: activeCountry } : null;
+    }
     renderHome(!selectedPlaceIsVisible);
   }));
   bindSelection("[data-country-id]", "country", "countryId");

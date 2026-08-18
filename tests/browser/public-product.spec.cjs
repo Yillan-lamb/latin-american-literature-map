@@ -3,6 +3,7 @@ const { test, expect } = require("@playwright/test");
 const forbidden = /\bV1\b|\bV2\b|\bN[1-4]\b|research_gap|auto_approved|user_review|candidate_for_staging_review|card_period_only|source_minimum_status|review_status|admission_status|map_status|entity_type|place_kind|\bschema\b|SQLite|Web Data|release candidate|完整测试站|测试站|当前样本|Codex|REVIEW\s*[\d.]|待审核|未经审核|用户审核|候选包/i;
 const paths = {
   country: "countries/mexico-v1-ent-0051/",
+  colombia: "countries/colombia-v1-ent-0095/",
   realPlace: "places/rio-de-janeiro-v1-ent-0022/",
   fictionalPlace: "places/macondo-v1-ent-0097/",
   author: "authors/juan-rulfo-v1-ent-0031/",
@@ -24,10 +25,17 @@ test.afterEach(async ({ page }) => {
 test("home, map, country and mobile navigation", async ({ page, isMobile }) => {
   await page.goto("");
   await expect(page.getByRole("heading", { name: /文学地图/ }).first()).toBeVisible();
+  await expect(page.getByRole("link", { name: /从地图开始/ })).toHaveAttribute("href", "#literary-map");
   await expect(page.locator(".path-card")).toHaveCount(10);
   await expect(page.locator(".country-shape.available")).toHaveCount(7);
+  await expect(page.locator(".fictional-space-button")).toHaveCount(2);
+  await expect(page.getByRole("heading", { name: "从一个地方开始" })).toBeVisible();
   await page.locator('[data-country-id="V1-ENT-0051"]').click();
-  await expect(page.getByText(/当前：墨西哥/)).toBeVisible();
+  await expect(page).toHaveURL(/\/$/);
+  await expect(page.locator(".map-context-panel")).toContainText("墨西哥");
+  await expect(page.locator(".map-context-panel")).toContainText("胡安·鲁尔福");
+  await expect(page.locator(".map-context-panel")).toContainText("《佩德罗·巴拉莫》");
+  await expect(page.locator('[data-country-id="V1-ENT-0051"]')).toHaveAttribute("aria-pressed", "true");
   if (isMobile) {
     await page.locator(".menu-toggle").click();
     await expect(page.locator(".main-nav")).toBeVisible();
@@ -35,6 +43,87 @@ test("home, map, country and mobile navigation", async ({ page, isMobile }) => {
   await page.goto(paths.country);
   await expect(page.getByRole("heading", { name: "墨西哥" })).toBeVisible();
   await expect(page.getByText("胡安·鲁尔福").first()).toBeVisible();
+});
+
+test("map selections update literary context without immediate navigation", async ({ page }) => {
+  await page.goto("");
+  await page.locator('[data-country-id="V1-ENT-0051"]').click();
+  await page.locator('[data-place-id="V1-ENT-0057"]').click();
+  await expect(page).toHaveURL(/\/$/);
+  await expect(page.locator(".map-context-panel")).toContainText("圣加布里埃尔");
+  await expect(page.locator(".map-context-panel")).toContainText("胡安·鲁尔福");
+  await expect(page.locator('[data-place-id="V1-ENT-0057"]')).toHaveAttribute("aria-pressed", "true");
+
+  const comala = page.locator('[data-fictional-space-id="V1-ENT-0055"]');
+  await expect(comala).not.toHaveAttribute("data-latitude");
+  await expect(comala).not.toHaveAttribute("data-longitude");
+  await comala.click();
+  await expect(page).toHaveURL(/\/$/);
+  await expect(page.locator(".map-context-panel")).toContainText("文学虚构空间");
+  await expect(page.locator(".map-context-panel")).toContainText("科马拉");
+  await expect(page.locator(".map-context-panel")).toContainText("《佩德罗·巴拉莫》");
+  await expect(page.locator(".map-context-panel")).toContainText("胡安·鲁尔福");
+  await expect(page.locator(".map-context-panel")).toBeFocused();
+});
+
+test("fictional-space selection synchronizes its parent country", async ({ page }) => {
+  await page.goto("");
+  await page.locator('[data-country-id="V1-ENT-0051"]').click();
+  await expect(page.locator('[data-country-id="V1-ENT-0051"]')).toHaveAttribute("aria-pressed", "true");
+  await page.locator('[data-fictional-space-id="V1-ENT-0097"]').click();
+  const panel = page.locator(".map-context-panel");
+  await expect(panel).toContainText("马孔多");
+  await expect(panel).toContainText("《百年孤独》");
+  await expect(page.locator('[data-country-id="V1-ENT-0095"]')).toHaveAttribute("aria-pressed", "true");
+  await expect(page.locator('[data-country-id="V1-ENT-0051"]')).toHaveAttribute("aria-pressed", "false");
+});
+
+test("country context aggregates works from fictional child spaces", async ({ page }) => {
+  await page.goto("");
+  await page.locator('[data-country-id="V1-ENT-0051"]').click();
+  await expect(page.locator(".map-context-panel")).toContainText("《佩德罗·巴拉莫》");
+  await page.locator('[data-country-id="V1-ENT-0095"]').click();
+  await expect(page.locator(".map-context-panel")).toContainText("《百年孤独》");
+  await page.goto(paths.country);
+  await expect(page.getByText("《佩德罗·巴拉莫》").first()).toBeVisible();
+  await page.goto(paths.colombia);
+  await expect(page.getByText("《百年孤独》").first()).toBeVisible();
+});
+
+test("map filter falls back from an invisible place to its country context", async ({ page }) => {
+  await page.goto("");
+  await page.locator('[data-country-id="V1-ENT-0051"]').click();
+  await page.locator('[data-place-id="V1-ENT-0057"]').click();
+  await expect(page.locator(".map-context-panel")).toContainText("圣加布里埃尔");
+  const homeUrl = page.url();
+  await page.locator('[data-map-filter="story_setting"]').click();
+  await expect(page.locator('[data-place-id="V1-ENT-0057"]')).toHaveCount(0);
+  const panel = page.locator(".map-context-panel");
+  await expect(panel.getByRole("heading", { name: "圣加布里埃尔" })).toHaveCount(0);
+  await expect(panel).toContainText("国家文学入口");
+  await expect(panel.getByRole("heading", { name: "墨西哥" })).toBeVisible();
+  await expect(panel).toContainText("《佩德罗·巴拉莫》");
+  await expect(panel).toBeFocused();
+  await expect(page.locator('[data-country-id="V1-ENT-0051"]')).toHaveAttribute("aria-pressed", "true");
+  await expect(page).toHaveURL(homeUrl);
+});
+
+test("map selection supports keyboard activation and announces context", async ({ page }) => {
+  await page.goto("");
+  const map = page.locator(".map-canvas svg");
+  await expect(map).not.toHaveAttribute("role", "img");
+  const mexico = page.getByRole("button", { name: "探索墨西哥文学" });
+  await mexico.focus();
+  await page.keyboard.press("Enter");
+  const panel = page.locator(".map-context-panel");
+  await expect(panel).toHaveAttribute("aria-live", "polite");
+  await expect(panel).toBeFocused();
+  await expect(panel).toContainText("墨西哥");
+  const sanGabriel = page.getByRole("button", { name: "查看圣加布里埃尔的文学关联" });
+  await sanGabriel.focus();
+  await page.keyboard.press("Space");
+  await expect(page.locator(".map-context-panel")).toContainText("圣加布里埃尔");
+  await expect(page.locator('[data-place-id="V1-ENT-0057"]')).toHaveAttribute("aria-pressed", "true");
 });
 
 test("places, author, work, sources and navigation", async ({ page }) => {
@@ -77,6 +166,14 @@ test("timeline, semantic routes, metadata and 404", async ({ page }) => {
   }
   await page.goto("404.html");
   await expect(page.getByText("这条文学路径尚未开放").first()).toBeVisible();
+});
+
+test("about page explains the reader journey", async ({ page }) => {
+  await page.goto("about/");
+  await expect(page.getByRole("heading", { name: /为什么做一张/ })).toBeVisible();
+  for (const heading of ["这是什么", "为什么是一张地图", "你可以怎样探索", "不止魔幻现实主义", "一张持续生长的地图"]) {
+    await expect(page.getByRole("heading", { name: heading })).toBeVisible();
+  }
 });
 
 test("required author, work and place samples resolve through the public layer", async ({ page }) => {

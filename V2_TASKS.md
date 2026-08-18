@@ -460,7 +460,8 @@
 - **流程**：Preflight → 并行 Research（3 Flash Worker + 建议池独立 pass）→ 独立 Review（2 个 fresh Pro Reviewer，REVIEW_ABC/REVIEW_D）→ 串行迁移 `0003_web_ce_b01_batch01.sql` → validate/导出 `data/exports/v1.1.0/` → Geo/Curation/Web Data → QA。
 - **数据**：+24 实体（2 作者/11 作品/3 诗集/2 事件/1 地点/…）、+80 事实、+24 关系（18 CREATED + 6 ASSOCIATED_WITH_PLACE）、+36 来源、+22 卡片；15 关系 hold、10 行 REJECT(SUPERSEDED)。
 - **中译**：全部计划入库作品有核验记录；《奥拉》pending-hold 不入公共阅读层。
-- **状态**：数据与评审完成，Curation/Web/QA 与 Git/PR 收尾中。
+- **完成结果**：全链路闭环（Research→Review→迁移 0003→Geo→Curation→Web Data→QA→PR #7）。commit 6f6a09c；PR https://github.com/Yillan-lamb/latin-american-literature-map/pull/7（未 merge）；详见 `data/changesets/WEB-CE-B01/FINAL_BATCH_REPORT.md`。
+- **状态**：`✅ DONE`（批次闭环；下一批次未启动，`NEXT_BATCH_NOT_STARTED = true`）
 
 ## 当前执行边界
 

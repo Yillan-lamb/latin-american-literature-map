@@ -1,7 +1,7 @@
 # WEB-CE-B01-R1 Batch Report
 
-- Batch status: `IN_PROGRESS`
-- Completion rule: this document remains non-final until all required pull-request checks report `SUCCESS`.
+- Batch status: `DONE`
+- Completion evidence: PR #8 required checks reported `SUCCESS` on GitHub Actions run `32208951034` before this report was finalized.
 
 ## Research
 
@@ -32,10 +32,11 @@
 
 ## GitHub CI
 
-- GitHub Actions: `PENDING`.
-- Pull request: not yet created.
+- GitHub Actions: `SUCCESS` (`development-baseline-integrity`; `web-pr-browser-smoke`).
+- Pull request: https://github.com/Yillan-lamb/latin-american-literature-map/pull/8 (`OPEN / WAITING FOR USER`).
+- Successful run: https://github.com/Yillan-lamb/latin-american-literature-map/actions/runs/32208951034.
 
 ## Completion
 
-- `WEB-CE-B01-R1 = IN_PROGRESS`.
-- Local PASS and PR creation will not change this status; only required GitHub Actions `SUCCESS` permits `DONE`.
+- `WEB-CE-B01-R1 = DONE`.
+- The PR remains open and unmerged. No release, deployment, PR #7 change, force push, or branch deletion was performed.

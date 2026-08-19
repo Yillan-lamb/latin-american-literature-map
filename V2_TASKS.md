@@ -453,6 +453,15 @@
 - **发布边界**：`V2-PUBLIC-RELEASE = PAUSED`；Lighthouse、Manifest、GitHub Pages、GitHub Release 与 production deployment 门禁保留，但不是当前主任务。`Web 1.0.0` 只能由 USER 明确开启并批准 Public Release Gate 后使用。
 - **状态**：`🔵 IN_PROGRESS`
 
+#### 🔵 WEB-CE-B01-R1：Carlos Fuentes 极小批次
+
+- **范围**：1 位作者、2 部作品、14 条事实、2 条 `CREATED` 关系；不改 Geo、Curation、PUBLIC_CONTENT、Schema 或 Frontend。
+- **研究门禁**：独立 Reviewer 最终判定来源 7/7、事实 14/14、关系 2/2、中文书目审计 2/2 PASS；《阿尔特米奥·克罗斯之死》中文版本出版年份保持字段级 HOLD。
+- **数据结果**：迁移 `0003_web_ce_b01_r1_fuentes.sql` 已在副本演练后写入主库；`integrity_check=ok`，`foreign_key_errors=0`。
+- **本地验证**：主库、内容质量、隔离 Web Data 确定性重建、前端语法、差异检查、同一 user-review preview 以及 Chromium 桌面/移动端回归 26/26 PASS。
+- **完成门禁**：GitHub Actions 尚未完成；不得提前标记 DONE。
+- **状态**：`🔵 IN_PROGRESS`
+
 ## 当前执行边界
 
 - 当前处于 V2 网站建设阶段 / Web 0.x 内容建设期；`WEB-CONTENT-EXPANSION` 是当前任务。

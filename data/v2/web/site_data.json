@@ -1,17 +1,17 @@
 {
   "counts": {
-    "content_cards": 40,
+    "content_cards": 43,
     "curation_entries": 51,
     "curation_recommendations": 2,
     "curation_selections": 19,
-    "entities": 144,
-    "facts": 259,
+    "entities": 147,
+    "facts": 273,
     "gaps": 13,
     "place_relations": 25,
     "places": 24,
     "relation_holds": 40,
-    "relationships": 76,
-    "sources": 85
+    "relationships": 78,
+    "sources": 94
   },
   "curation": {
     "entries": [
@@ -5507,6 +5507,121 @@
             "upstream_review_status": "eligible_for_staging_review"
           }
         ]
+      },
+      {
+        "canonical_status": "retained",
+        "content_cards": [
+          {
+            "author_label": "卡洛斯·富恩特斯",
+            "card_id": "V1-CARD-0041",
+            "card_type": "author",
+            "content_markdown": "### 卡洛斯·富恩特斯\\n\\n墨西哥小说家、短篇小说家、散文家与剧作家，是拉丁美洲文学爆炸的重要作者。生于 1928 年 11 月 11 日，卒于 2012 年 5 月 15 日。\\n\\n本卡仅使用独立审核通过的人物事实；不生成出生地或文学运动关系。",
+            "country_or_region": "墨西哥",
+            "genre_or_form": "—",
+            "input_layer": "WEB-CE-B01-R1",
+            "issue_code": "NONE",
+            "language": "es",
+            "origin_card_id": "WEB-CE-B01-R1-CARD-01",
+            "original_title": "Carlos Fuentes",
+            "period_bucket": "1928-2012",
+            "source_minimum_status": "meets",
+            "subject_id": "V1-ENT-0145",
+            "title_zh": "卡洛斯·富恩特斯"
+          }
+        ],
+        "entity_id": "V1-ENT-0145",
+        "entity_type": "author",
+        "facts": [
+          {
+            "admission_status": "batch_retained_candidate",
+            "card_id": "V1-CARD-0041",
+            "confidence": "high",
+            "fact_field": "birth_date",
+            "fact_id": "V1-FCT-0260",
+            "material_class": "fact",
+            "origin_id": "SRC-0087",
+            "origin_material_id": "CAND-R1-FCT-01",
+            "subject_id": "V1-ENT-0145",
+            "usage_note": "Independent review PASS; two institutional biographies",
+            "value_text": "1928-11-11"
+          },
+          {
+            "admission_status": "batch_retained_candidate",
+            "card_id": "V1-CARD-0041",
+            "confidence": "high",
+            "fact_field": "death_date",
+            "fact_id": "V1-FCT-0261",
+            "material_class": "fact",
+            "origin_id": "SRC-0087",
+            "origin_material_id": "CAND-R1-FCT-02",
+            "subject_id": "V1-ENT-0145",
+            "usage_note": "Independent review PASS; two institutional biographies",
+            "value_text": "2012-05-15"
+          },
+          {
+            "admission_status": "batch_retained_candidate",
+            "card_id": "V1-CARD-0041",
+            "confidence": "high",
+            "fact_field": "country_or_region",
+            "fact_id": "V1-FCT-0262",
+            "material_class": "fact",
+            "origin_id": "SRC-0088",
+            "origin_material_id": "CAND-R1-FCT-03",
+            "subject_id": "V1-ENT-0145",
+            "usage_note": "Mexican identity; not a birthplace assertion",
+            "value_text": "墨西哥"
+          },
+          {
+            "admission_status": "batch_retained_candidate",
+            "card_id": "V1-CARD-0041",
+            "confidence": "high",
+            "fact_field": "one_sentence_summary",
+            "fact_id": "V1-FCT-0263",
+            "material_class": "fact",
+            "origin_id": "SRC-0087",
+            "origin_material_id": "CAND-R1-FCT-04",
+            "subject_id": "V1-ENT-0145",
+            "usage_note": "Minimal synthesis of institutional biographies",
+            "value_text": "墨西哥小说家、短篇小说家、散文家与剧作家，是拉丁美洲文学爆炸的重要作者。"
+          }
+        ],
+        "incoming_relations": [],
+        "issue_codes": "NONE",
+        "name_zh": "卡洛斯·富恩特斯",
+        "normalization_basis": "WEB-CE-B01-R1 independent review PASS",
+        "origin_count": "1",
+        "origin_refs": "CAND-R1-ENT-01",
+        "original_name": "Carlos Fuentes",
+        "outgoing_relations": [
+          {
+            "confidence": "high",
+            "description_zh": "卡洛斯·富恩特斯创作《最明净的地区》",
+            "evidence_count": "2",
+            "issue_code": "NONE",
+            "object_id": "V1-ENT-0146",
+            "origin_layer": "WEB-CE-B01-R1",
+            "origin_relation_group_id": "CAND-R1-REL-01",
+            "relation_type": "CREATED",
+            "relationship_id": "V1-REL-0077",
+            "review_status": "accepted_by_reviewer",
+            "subject_id": "V1-ENT-0145",
+            "upstream_review_status": "independent_review_pass"
+          },
+          {
+            "confidence": "high",
+            "description_zh": "卡洛斯·富恩特斯创作《阿尔特米奥·克罗斯之死》",
+            "evidence_count": "2",
+            "issue_code": "NONE",
+            "object_id": "V1-ENT-0147",
+            "origin_layer": "WEB-CE-B01-R1",
+            "origin_relation_group_id": "CAND-R1-REL-02",
+            "relation_type": "CREATED",
+            "relationship_id": "V1-REL-0078",
+            "review_status": "accepted_by_reviewer",
+            "subject_id": "V1-ENT-0145",
+            "upstream_review_status": "independent_review_pass"
+          }
+        ]
       }
     ],
     "events": [
@@ -9928,6 +10043,234 @@
         "origin_count": "1",
         "origin_refs": "B03-ENT-0009",
         "original_name": "Alturas de Macchu Picchu",
+        "outgoing_relations": []
+      },
+      {
+        "canonical_status": "retained",
+        "content_cards": [
+          {
+            "author_label": "卡洛斯·富恩特斯",
+            "card_id": "V1-CARD-0042",
+            "card_type": "work",
+            "content_markdown": "### 《最明净的地区》\\n\\n1958 年首版的长篇小说。作品以多重人物声音与社会群像构成一幅不断移动的墨西哥城图景，在城市日常中追问革命后的社会与身份。\\n\\n中文书目：徐少军、王小芳译，云南人民出版社，1993.3，ISBN 7-222-01047-5（吉林省图书馆 MARC 核验）。",
+            "country_or_region": "墨西哥",
+            "genre_or_form": "长篇小说",
+            "input_layer": "WEB-CE-B01-R1",
+            "issue_code": "NONE",
+            "language": "es",
+            "origin_card_id": "WEB-CE-B01-R1-CARD-02",
+            "original_title": "La región más transparente",
+            "period_bucket": "1958",
+            "source_minimum_status": "meets",
+            "subject_id": "V1-ENT-0146",
+            "title_zh": "《最明净的地区》"
+          }
+        ],
+        "entity_id": "V1-ENT-0146",
+        "entity_type": "work",
+        "facts": [
+          {
+            "admission_status": "batch_retained_candidate",
+            "card_id": "V1-CARD-0042",
+            "confidence": "high",
+            "fact_field": "first_publication_year",
+            "fact_id": "V1-FCT-0264",
+            "material_class": "fact",
+            "origin_id": "SRC-0089",
+            "origin_material_id": "CAND-R1-FCT-05",
+            "subject_id": "V1-ENT-0146",
+            "usage_note": "First-edition record",
+            "value_text": "1958"
+          },
+          {
+            "admission_status": "batch_retained_candidate",
+            "card_id": "V1-CARD-0042",
+            "confidence": "high",
+            "fact_field": "genre_or_form",
+            "fact_id": "V1-FCT-0265",
+            "material_class": "fact",
+            "origin_id": "SRC-0089",
+            "origin_material_id": "CAND-R1-FCT-06",
+            "subject_id": "V1-ENT-0146",
+            "usage_note": "ELEM classification",
+            "value_text": "长篇小说"
+          },
+          {
+            "admission_status": "batch_retained_candidate",
+            "card_id": "V1-CARD-0042",
+            "confidence": "high",
+            "fact_field": "story_premise",
+            "fact_id": "V1-FCT-0266",
+            "material_class": "publisher_paraphrase",
+            "origin_id": "SRC-0089",
+            "origin_material_id": "CAND-R1-FCT-07",
+            "subject_id": "V1-ENT-0146",
+            "usage_note": "Low-spoiler institutional and publisher paraphrase",
+            "value_text": "小说以多个人物与社会阶层的声音拼合二十世纪中叶墨西哥城，在城市日常中追问革命后的社会与身份。"
+          },
+          {
+            "admission_status": "batch_retained_candidate",
+            "card_id": "V1-CARD-0042",
+            "confidence": "high",
+            "fact_field": "setting_place",
+            "fact_id": "V1-FCT-0267",
+            "material_class": "fact",
+            "origin_id": "SRC-0089",
+            "origin_material_id": "CAND-R1-FCT-08",
+            "subject_id": "V1-ENT-0146",
+            "usage_note": "No Geo entity or SET_IN relation created",
+            "value_text": "墨西哥城"
+          },
+          {
+            "admission_status": "batch_retained_candidate",
+            "card_id": "V1-CARD-0042",
+            "confidence": "high",
+            "fact_field": "narrative_feature",
+            "fact_id": "V1-FCT-0268",
+            "material_class": "research_note",
+            "origin_id": "SRC-0089",
+            "origin_material_id": "CAND-R1-FCT-09",
+            "subject_id": "V1-ENT-0146",
+            "usage_note": "Revised direct paraphrase; independent review PASS",
+            "value_text": "以多重人物声音与社会群像构成一幅不断移动的墨西哥城图景。"
+          }
+        ],
+        "incoming_relations": [
+          {
+            "confidence": "high",
+            "description_zh": "卡洛斯·富恩特斯创作《最明净的地区》",
+            "evidence_count": "2",
+            "issue_code": "NONE",
+            "object_id": "V1-ENT-0146",
+            "origin_layer": "WEB-CE-B01-R1",
+            "origin_relation_group_id": "CAND-R1-REL-01",
+            "relation_type": "CREATED",
+            "relationship_id": "V1-REL-0077",
+            "review_status": "accepted_by_reviewer",
+            "subject_id": "V1-ENT-0145",
+            "upstream_review_status": "independent_review_pass"
+          }
+        ],
+        "issue_codes": "NONE",
+        "name_zh": "《最明净的地区》",
+        "normalization_basis": "WEB-CE-B01-R1 independent review PASS; Chinese title verified by library MARC",
+        "origin_count": "1",
+        "origin_refs": "CAND-R1-ENT-02",
+        "original_name": "La región más transparente",
+        "outgoing_relations": []
+      },
+      {
+        "canonical_status": "retained",
+        "content_cards": [
+          {
+            "author_label": "卡洛斯·富恩特斯",
+            "card_id": "V1-CARD-0043",
+            "card_type": "work",
+            "content_markdown": "### 《阿尔特米奥·克罗斯之死》\\n\\n1962 年首版的长篇小说。权势人物阿尔特米奥·克罗斯临终回望自己从革命参与者走向财富与腐败的一生；叙事交替使用三种人称，并在过去、现在与未来之间切换。\\n\\n中文书目：亦潜译，人民文学出版社，ISBN 9787020150168。采购目录未直接显示出版年份，该字段保持 HOLD。",
+            "country_or_region": "墨西哥",
+            "genre_or_form": "长篇小说",
+            "input_layer": "WEB-CE-B01-R1",
+            "issue_code": "TRANSLATION-YEAR-HOLD",
+            "language": "es",
+            "origin_card_id": "WEB-CE-B01-R1-CARD-03",
+            "original_title": "La muerte de Artemio Cruz",
+            "period_bucket": "1962",
+            "source_minimum_status": "meets",
+            "subject_id": "V1-ENT-0147",
+            "title_zh": "《阿尔特米奥·克罗斯之死》"
+          }
+        ],
+        "entity_id": "V1-ENT-0147",
+        "entity_type": "work",
+        "facts": [
+          {
+            "admission_status": "batch_retained_candidate",
+            "card_id": "V1-CARD-0043",
+            "confidence": "high",
+            "fact_field": "first_publication_year",
+            "fact_id": "V1-FCT-0269",
+            "material_class": "fact",
+            "origin_id": "SRC-0091",
+            "origin_material_id": "CAND-R1-FCT-10",
+            "subject_id": "V1-ENT-0147",
+            "usage_note": "Institutional and library records",
+            "value_text": "1962"
+          },
+          {
+            "admission_status": "batch_retained_candidate",
+            "card_id": "V1-CARD-0043",
+            "confidence": "high",
+            "fact_field": "genre_or_form",
+            "fact_id": "V1-FCT-0270",
+            "material_class": "fact",
+            "origin_id": "SRC-0091",
+            "origin_material_id": "CAND-R1-FCT-11",
+            "subject_id": "V1-ENT-0147",
+            "usage_note": "ELEM and WorldCat classifications",
+            "value_text": "长篇小说"
+          },
+          {
+            "admission_status": "batch_retained_candidate",
+            "card_id": "V1-CARD-0043",
+            "confidence": "high",
+            "fact_field": "story_premise",
+            "fact_id": "V1-FCT-0271",
+            "material_class": "publisher_paraphrase",
+            "origin_id": "SRC-0091",
+            "origin_material_id": "CAND-R1-FCT-12",
+            "subject_id": "V1-ENT-0147",
+            "usage_note": "Low-spoiler institutional and publisher paraphrase",
+            "value_text": "权势人物阿尔特米奥·克罗斯临终回望自己从革命参与者走向财富与腐败的一生。"
+          },
+          {
+            "admission_status": "batch_retained_candidate",
+            "card_id": "V1-CARD-0043",
+            "confidence": "high",
+            "fact_field": "key_character",
+            "fact_id": "V1-FCT-0272",
+            "material_class": "fact",
+            "origin_id": "SRC-0091",
+            "origin_material_id": "CAND-R1-FCT-13",
+            "subject_id": "V1-ENT-0147",
+            "usage_note": "Title character and catalogue summary",
+            "value_text": "阿尔特米奥·克罗斯"
+          },
+          {
+            "admission_status": "batch_retained_candidate",
+            "card_id": "V1-CARD-0043",
+            "confidence": "high",
+            "fact_field": "narrative_feature",
+            "fact_id": "V1-FCT-0273",
+            "material_class": "research_note",
+            "origin_id": "SRC-0091",
+            "origin_material_id": "CAND-R1-FCT-14",
+            "subject_id": "V1-ENT-0147",
+            "usage_note": "Revised direct paraphrase; independent review PASS",
+            "value_text": "叙事交替使用第一、第二、第三人称，并在过去、现在与未来之间切换。"
+          }
+        ],
+        "incoming_relations": [
+          {
+            "confidence": "high",
+            "description_zh": "卡洛斯·富恩特斯创作《阿尔特米奥·克罗斯之死》",
+            "evidence_count": "2",
+            "issue_code": "NONE",
+            "object_id": "V1-ENT-0147",
+            "origin_layer": "WEB-CE-B01-R1",
+            "origin_relation_group_id": "CAND-R1-REL-02",
+            "relation_type": "CREATED",
+            "relationship_id": "V1-REL-0078",
+            "review_status": "accepted_by_reviewer",
+            "subject_id": "V1-ENT-0145",
+            "upstream_review_status": "independent_review_pass"
+          }
+        ],
+        "issue_codes": "TRANSLATION-YEAR-HOLD",
+        "name_zh": "《阿尔特米奥·克罗斯之死》",
+        "normalization_basis": "WEB-CE-B01-R1 independent review PASS; Chinese edition year remains field-level HOLD",
+        "origin_count": "1",
+        "origin_refs": "CAND-R1-ENT-03",
+        "original_name": "La muerte de Artemio Cruz",
         "outgoing_relations": []
       }
     ]
@@ -21044,6 +21387,133 @@
         "source_minimum_status": "meets",
         "subject_id": "V1-ENT-0121",
         "title_zh": "《漫歌》"
+      },
+      {
+        "author_label": "卡洛斯·富恩特斯",
+        "card_id": "V1-CARD-0041",
+        "card_type": "author",
+        "content_markdown": "### 卡洛斯·富恩特斯\\n\\n墨西哥小说家、短篇小说家、散文家与剧作家，是拉丁美洲文学爆炸的重要作者。生于 1928 年 11 月 11 日，卒于 2012 年 5 月 15 日。\\n\\n本卡仅使用独立审核通过的人物事实；不生成出生地或文学运动关系。",
+        "country_or_region": "墨西哥",
+        "facts": [
+          {
+            "admission_status": "batch_retained_candidate",
+            "card_id": "V1-CARD-0041",
+            "fact_id": "V1-FCT-0260"
+          },
+          {
+            "admission_status": "batch_retained_candidate",
+            "card_id": "V1-CARD-0041",
+            "fact_id": "V1-FCT-0261"
+          },
+          {
+            "admission_status": "batch_retained_candidate",
+            "card_id": "V1-CARD-0041",
+            "fact_id": "V1-FCT-0262"
+          },
+          {
+            "admission_status": "batch_retained_candidate",
+            "card_id": "V1-CARD-0041",
+            "fact_id": "V1-FCT-0263"
+          }
+        ],
+        "genre_or_form": "—",
+        "input_layer": "WEB-CE-B01-R1",
+        "issue_code": "NONE",
+        "language": "es",
+        "origin_card_id": "WEB-CE-B01-R1-CARD-01",
+        "original_title": "Carlos Fuentes",
+        "period_bucket": "1928-2012",
+        "source_minimum_status": "meets",
+        "subject_id": "V1-ENT-0145",
+        "title_zh": "卡洛斯·富恩特斯"
+      },
+      {
+        "author_label": "卡洛斯·富恩特斯",
+        "card_id": "V1-CARD-0042",
+        "card_type": "work",
+        "content_markdown": "### 《最明净的地区》\\n\\n1958 年首版的长篇小说。作品以多重人物声音与社会群像构成一幅不断移动的墨西哥城图景，在城市日常中追问革命后的社会与身份。\\n\\n中文书目：徐少军、王小芳译，云南人民出版社，1993.3，ISBN 7-222-01047-5（吉林省图书馆 MARC 核验）。",
+        "country_or_region": "墨西哥",
+        "facts": [
+          {
+            "admission_status": "batch_retained_candidate",
+            "card_id": "V1-CARD-0042",
+            "fact_id": "V1-FCT-0264"
+          },
+          {
+            "admission_status": "batch_retained_candidate",
+            "card_id": "V1-CARD-0042",
+            "fact_id": "V1-FCT-0265"
+          },
+          {
+            "admission_status": "batch_retained_candidate",
+            "card_id": "V1-CARD-0042",
+            "fact_id": "V1-FCT-0266"
+          },
+          {
+            "admission_status": "batch_retained_candidate",
+            "card_id": "V1-CARD-0042",
+            "fact_id": "V1-FCT-0267"
+          },
+          {
+            "admission_status": "batch_retained_candidate",
+            "card_id": "V1-CARD-0042",
+            "fact_id": "V1-FCT-0268"
+          }
+        ],
+        "genre_or_form": "长篇小说",
+        "input_layer": "WEB-CE-B01-R1",
+        "issue_code": "NONE",
+        "language": "es",
+        "origin_card_id": "WEB-CE-B01-R1-CARD-02",
+        "original_title": "La región más transparente",
+        "period_bucket": "1958",
+        "source_minimum_status": "meets",
+        "subject_id": "V1-ENT-0146",
+        "title_zh": "《最明净的地区》"
+      },
+      {
+        "author_label": "卡洛斯·富恩特斯",
+        "card_id": "V1-CARD-0043",
+        "card_type": "work",
+        "content_markdown": "### 《阿尔特米奥·克罗斯之死》\\n\\n1962 年首版的长篇小说。权势人物阿尔特米奥·克罗斯临终回望自己从革命参与者走向财富与腐败的一生；叙事交替使用三种人称，并在过去、现在与未来之间切换。\\n\\n中文书目：亦潜译，人民文学出版社，ISBN 9787020150168。采购目录未直接显示出版年份，该字段保持 HOLD。",
+        "country_or_region": "墨西哥",
+        "facts": [
+          {
+            "admission_status": "batch_retained_candidate",
+            "card_id": "V1-CARD-0043",
+            "fact_id": "V1-FCT-0269"
+          },
+          {
+            "admission_status": "batch_retained_candidate",
+            "card_id": "V1-CARD-0043",
+            "fact_id": "V1-FCT-0270"
+          },
+          {
+            "admission_status": "batch_retained_candidate",
+            "card_id": "V1-CARD-0043",
+            "fact_id": "V1-FCT-0271"
+          },
+          {
+            "admission_status": "batch_retained_candidate",
+            "card_id": "V1-CARD-0043",
+            "fact_id": "V1-FCT-0272"
+          },
+          {
+            "admission_status": "batch_retained_candidate",
+            "card_id": "V1-CARD-0043",
+            "fact_id": "V1-FCT-0273"
+          }
+        ],
+        "genre_or_form": "长篇小说",
+        "input_layer": "WEB-CE-B01-R1",
+        "issue_code": "TRANSLATION-YEAR-HOLD",
+        "language": "es",
+        "origin_card_id": "WEB-CE-B01-R1-CARD-03",
+        "original_title": "La muerte de Artemio Cruz",
+        "period_bucket": "1962",
+        "source_minimum_status": "meets",
+        "subject_id": "V1-ENT-0147",
+        "title_zh": "《阿尔特米奥·克罗斯之死》"
       }
     ],
     "entities": [
@@ -27581,6 +28051,349 @@
         "origin_count": "1",
         "origin_refs": "B03-ENT-0031",
         "original_name": "Partido Comunista de Chile"
+      },
+      {
+        "canonical_status": "retained",
+        "content_cards": [
+          {
+            "author_label": "卡洛斯·富恩特斯",
+            "card_id": "V1-CARD-0041",
+            "card_type": "author",
+            "content_markdown": "### 卡洛斯·富恩特斯\\n\\n墨西哥小说家、短篇小说家、散文家与剧作家，是拉丁美洲文学爆炸的重要作者。生于 1928 年 11 月 11 日，卒于 2012 年 5 月 15 日。\\n\\n本卡仅使用独立审核通过的人物事实；不生成出生地或文学运动关系。",
+            "country_or_region": "墨西哥",
+            "genre_or_form": "—",
+            "input_layer": "WEB-CE-B01-R1",
+            "issue_code": "NONE",
+            "language": "es",
+            "origin_card_id": "WEB-CE-B01-R1-CARD-01",
+            "original_title": "Carlos Fuentes",
+            "period_bucket": "1928-2012",
+            "source_minimum_status": "meets",
+            "subject_id": "V1-ENT-0145",
+            "title_zh": "卡洛斯·富恩特斯"
+          }
+        ],
+        "entity_id": "V1-ENT-0145",
+        "entity_type": "author",
+        "facts": [
+          {
+            "admission_status": "batch_retained_candidate",
+            "card_id": "V1-CARD-0041",
+            "confidence": "high",
+            "fact_field": "birth_date",
+            "fact_id": "V1-FCT-0260",
+            "material_class": "fact",
+            "origin_id": "SRC-0087",
+            "origin_material_id": "CAND-R1-FCT-01",
+            "subject_id": "V1-ENT-0145",
+            "usage_note": "Independent review PASS; two institutional biographies",
+            "value_text": "1928-11-11"
+          },
+          {
+            "admission_status": "batch_retained_candidate",
+            "card_id": "V1-CARD-0041",
+            "confidence": "high",
+            "fact_field": "death_date",
+            "fact_id": "V1-FCT-0261",
+            "material_class": "fact",
+            "origin_id": "SRC-0087",
+            "origin_material_id": "CAND-R1-FCT-02",
+            "subject_id": "V1-ENT-0145",
+            "usage_note": "Independent review PASS; two institutional biographies",
+            "value_text": "2012-05-15"
+          },
+          {
+            "admission_status": "batch_retained_candidate",
+            "card_id": "V1-CARD-0041",
+            "confidence": "high",
+            "fact_field": "country_or_region",
+            "fact_id": "V1-FCT-0262",
+            "material_class": "fact",
+            "origin_id": "SRC-0088",
+            "origin_material_id": "CAND-R1-FCT-03",
+            "subject_id": "V1-ENT-0145",
+            "usage_note": "Mexican identity; not a birthplace assertion",
+            "value_text": "墨西哥"
+          },
+          {
+            "admission_status": "batch_retained_candidate",
+            "card_id": "V1-CARD-0041",
+            "confidence": "high",
+            "fact_field": "one_sentence_summary",
+            "fact_id": "V1-FCT-0263",
+            "material_class": "fact",
+            "origin_id": "SRC-0087",
+            "origin_material_id": "CAND-R1-FCT-04",
+            "subject_id": "V1-ENT-0145",
+            "usage_note": "Minimal synthesis of institutional biographies",
+            "value_text": "墨西哥小说家、短篇小说家、散文家与剧作家，是拉丁美洲文学爆炸的重要作者。"
+          }
+        ],
+        "incoming_relations": [],
+        "issue_codes": "NONE",
+        "name_zh": "卡洛斯·富恩特斯",
+        "normalization_basis": "WEB-CE-B01-R1 independent review PASS",
+        "origin_count": "1",
+        "origin_refs": "CAND-R1-ENT-01",
+        "original_name": "Carlos Fuentes",
+        "outgoing_relations": [
+          {
+            "confidence": "high",
+            "description_zh": "卡洛斯·富恩特斯创作《最明净的地区》",
+            "evidence_count": "2",
+            "issue_code": "NONE",
+            "object_id": "V1-ENT-0146",
+            "origin_layer": "WEB-CE-B01-R1",
+            "origin_relation_group_id": "CAND-R1-REL-01",
+            "relation_type": "CREATED",
+            "relationship_id": "V1-REL-0077",
+            "review_status": "accepted_by_reviewer",
+            "subject_id": "V1-ENT-0145",
+            "upstream_review_status": "independent_review_pass"
+          },
+          {
+            "confidence": "high",
+            "description_zh": "卡洛斯·富恩特斯创作《阿尔特米奥·克罗斯之死》",
+            "evidence_count": "2",
+            "issue_code": "NONE",
+            "object_id": "V1-ENT-0147",
+            "origin_layer": "WEB-CE-B01-R1",
+            "origin_relation_group_id": "CAND-R1-REL-02",
+            "relation_type": "CREATED",
+            "relationship_id": "V1-REL-0078",
+            "review_status": "accepted_by_reviewer",
+            "subject_id": "V1-ENT-0145",
+            "upstream_review_status": "independent_review_pass"
+          }
+        ]
+      },
+      {
+        "canonical_status": "retained",
+        "content_cards": [
+          {
+            "author_label": "卡洛斯·富恩特斯",
+            "card_id": "V1-CARD-0042",
+            "card_type": "work",
+            "content_markdown": "### 《最明净的地区》\\n\\n1958 年首版的长篇小说。作品以多重人物声音与社会群像构成一幅不断移动的墨西哥城图景，在城市日常中追问革命后的社会与身份。\\n\\n中文书目：徐少军、王小芳译，云南人民出版社，1993.3，ISBN 7-222-01047-5（吉林省图书馆 MARC 核验）。",
+            "country_or_region": "墨西哥",
+            "genre_or_form": "长篇小说",
+            "input_layer": "WEB-CE-B01-R1",
+            "issue_code": "NONE",
+            "language": "es",
+            "origin_card_id": "WEB-CE-B01-R1-CARD-02",
+            "original_title": "La región más transparente",
+            "period_bucket": "1958",
+            "source_minimum_status": "meets",
+            "subject_id": "V1-ENT-0146",
+            "title_zh": "《最明净的地区》"
+          }
+        ],
+        "entity_id": "V1-ENT-0146",
+        "entity_type": "work",
+        "facts": [
+          {
+            "admission_status": "batch_retained_candidate",
+            "card_id": "V1-CARD-0042",
+            "confidence": "high",
+            "fact_field": "first_publication_year",
+            "fact_id": "V1-FCT-0264",
+            "material_class": "fact",
+            "origin_id": "SRC-0089",
+            "origin_material_id": "CAND-R1-FCT-05",
+            "subject_id": "V1-ENT-0146",
+            "usage_note": "First-edition record",
+            "value_text": "1958"
+          },
+          {
+            "admission_status": "batch_retained_candidate",
+            "card_id": "V1-CARD-0042",
+            "confidence": "high",
+            "fact_field": "genre_or_form",
+            "fact_id": "V1-FCT-0265",
+            "material_class": "fact",
+            "origin_id": "SRC-0089",
+            "origin_material_id": "CAND-R1-FCT-06",
+            "subject_id": "V1-ENT-0146",
+            "usage_note": "ELEM classification",
+            "value_text": "长篇小说"
+          },
+          {
+            "admission_status": "batch_retained_candidate",
+            "card_id": "V1-CARD-0042",
+            "confidence": "high",
+            "fact_field": "story_premise",
+            "fact_id": "V1-FCT-0266",
+            "material_class": "publisher_paraphrase",
+            "origin_id": "SRC-0089",
+            "origin_material_id": "CAND-R1-FCT-07",
+            "subject_id": "V1-ENT-0146",
+            "usage_note": "Low-spoiler institutional and publisher paraphrase",
+            "value_text": "小说以多个人物与社会阶层的声音拼合二十世纪中叶墨西哥城，在城市日常中追问革命后的社会与身份。"
+          },
+          {
+            "admission_status": "batch_retained_candidate",
+            "card_id": "V1-CARD-0042",
+            "confidence": "high",
+            "fact_field": "setting_place",
+            "fact_id": "V1-FCT-0267",
+            "material_class": "fact",
+            "origin_id": "SRC-0089",
+            "origin_material_id": "CAND-R1-FCT-08",
+            "subject_id": "V1-ENT-0146",
+            "usage_note": "No Geo entity or SET_IN relation created",
+            "value_text": "墨西哥城"
+          },
+          {
+            "admission_status": "batch_retained_candidate",
+            "card_id": "V1-CARD-0042",
+            "confidence": "high",
+            "fact_field": "narrative_feature",
+            "fact_id": "V1-FCT-0268",
+            "material_class": "research_note",
+            "origin_id": "SRC-0089",
+            "origin_material_id": "CAND-R1-FCT-09",
+            "subject_id": "V1-ENT-0146",
+            "usage_note": "Revised direct paraphrase; independent review PASS",
+            "value_text": "以多重人物声音与社会群像构成一幅不断移动的墨西哥城图景。"
+          }
+        ],
+        "incoming_relations": [
+          {
+            "confidence": "high",
+            "description_zh": "卡洛斯·富恩特斯创作《最明净的地区》",
+            "evidence_count": "2",
+            "issue_code": "NONE",
+            "object_id": "V1-ENT-0146",
+            "origin_layer": "WEB-CE-B01-R1",
+            "origin_relation_group_id": "CAND-R1-REL-01",
+            "relation_type": "CREATED",
+            "relationship_id": "V1-REL-0077",
+            "review_status": "accepted_by_reviewer",
+            "subject_id": "V1-ENT-0145",
+            "upstream_review_status": "independent_review_pass"
+          }
+        ],
+        "issue_codes": "NONE",
+        "name_zh": "《最明净的地区》",
+        "normalization_basis": "WEB-CE-B01-R1 independent review PASS; Chinese title verified by library MARC",
+        "origin_count": "1",
+        "origin_refs": "CAND-R1-ENT-02",
+        "original_name": "La región más transparente",
+        "outgoing_relations": []
+      },
+      {
+        "canonical_status": "retained",
+        "content_cards": [
+          {
+            "author_label": "卡洛斯·富恩特斯",
+            "card_id": "V1-CARD-0043",
+            "card_type": "work",
+            "content_markdown": "### 《阿尔特米奥·克罗斯之死》\\n\\n1962 年首版的长篇小说。权势人物阿尔特米奥·克罗斯临终回望自己从革命参与者走向财富与腐败的一生；叙事交替使用三种人称，并在过去、现在与未来之间切换。\\n\\n中文书目：亦潜译，人民文学出版社，ISBN 9787020150168。采购目录未直接显示出版年份，该字段保持 HOLD。",
+            "country_or_region": "墨西哥",
+            "genre_or_form": "长篇小说",
+            "input_layer": "WEB-CE-B01-R1",
+            "issue_code": "TRANSLATION-YEAR-HOLD",
+            "language": "es",
+            "origin_card_id": "WEB-CE-B01-R1-CARD-03",
+            "original_title": "La muerte de Artemio Cruz",
+            "period_bucket": "1962",
+            "source_minimum_status": "meets",
+            "subject_id": "V1-ENT-0147",
+            "title_zh": "《阿尔特米奥·克罗斯之死》"
+          }
+        ],
+        "entity_id": "V1-ENT-0147",
+        "entity_type": "work",
+        "facts": [
+          {
+            "admission_status": "batch_retained_candidate",
+            "card_id": "V1-CARD-0043",
+            "confidence": "high",
+            "fact_field": "first_publication_year",
+            "fact_id": "V1-FCT-0269",
+            "material_class": "fact",
+            "origin_id": "SRC-0091",
+            "origin_material_id": "CAND-R1-FCT-10",
+            "subject_id": "V1-ENT-0147",
+            "usage_note": "Institutional and library records",
+            "value_text": "1962"
+          },
+          {
+            "admission_status": "batch_retained_candidate",
+            "card_id": "V1-CARD-0043",
+            "confidence": "high",
+            "fact_field": "genre_or_form",
+            "fact_id": "V1-FCT-0270",
+            "material_class": "fact",
+            "origin_id": "SRC-0091",
+            "origin_material_id": "CAND-R1-FCT-11",
+            "subject_id": "V1-ENT-0147",
+            "usage_note": "ELEM and WorldCat classifications",
+            "value_text": "长篇小说"
+          },
+          {
+            "admission_status": "batch_retained_candidate",
+            "card_id": "V1-CARD-0043",
+            "confidence": "high",
+            "fact_field": "story_premise",
+            "fact_id": "V1-FCT-0271",
+            "material_class": "publisher_paraphrase",
+            "origin_id": "SRC-0091",
+            "origin_material_id": "CAND-R1-FCT-12",
+            "subject_id": "V1-ENT-0147",
+            "usage_note": "Low-spoiler institutional and publisher paraphrase",
+            "value_text": "权势人物阿尔特米奥·克罗斯临终回望自己从革命参与者走向财富与腐败的一生。"
+          },
+          {
+            "admission_status": "batch_retained_candidate",
+            "card_id": "V1-CARD-0043",
+            "confidence": "high",
+            "fact_field": "key_character",
+            "fact_id": "V1-FCT-0272",
+            "material_class": "fact",
+            "origin_id": "SRC-0091",
+            "origin_material_id": "CAND-R1-FCT-13",
+            "subject_id": "V1-ENT-0147",
+            "usage_note": "Title character and catalogue summary",
+            "value_text": "阿尔特米奥·克罗斯"
+          },
+          {
+            "admission_status": "batch_retained_candidate",
+            "card_id": "V1-CARD-0043",
+            "confidence": "high",
+            "fact_field": "narrative_feature",
+            "fact_id": "V1-FCT-0273",
+            "material_class": "research_note",
+            "origin_id": "SRC-0091",
+            "origin_material_id": "CAND-R1-FCT-14",
+            "subject_id": "V1-ENT-0147",
+            "usage_note": "Revised direct paraphrase; independent review PASS",
+            "value_text": "叙事交替使用第一、第二、第三人称，并在过去、现在与未来之间切换。"
+          }
+        ],
+        "incoming_relations": [
+          {
+            "confidence": "high",
+            "description_zh": "卡洛斯·富恩特斯创作《阿尔特米奥·克罗斯之死》",
+            "evidence_count": "2",
+            "issue_code": "NONE",
+            "object_id": "V1-ENT-0147",
+            "origin_layer": "WEB-CE-B01-R1",
+            "origin_relation_group_id": "CAND-R1-REL-02",
+            "relation_type": "CREATED",
+            "relationship_id": "V1-REL-0078",
+            "review_status": "accepted_by_reviewer",
+            "subject_id": "V1-ENT-0145",
+            "upstream_review_status": "independent_review_pass"
+          }
+        ],
+        "issue_codes": "TRANSLATION-YEAR-HOLD",
+        "name_zh": "《阿尔特米奥·克罗斯之死》",
+        "normalization_basis": "WEB-CE-B01-R1 independent review PASS; Chinese edition year remains field-level HOLD",
+        "origin_count": "1",
+        "origin_refs": "CAND-R1-ENT-03",
+        "original_name": "La muerte de Artemio Cruz",
+        "outgoing_relations": []
       }
     ],
     "facts": [
@@ -32762,6 +33575,336 @@
         "subject_id": "V1-ENT-0081",
         "usage_note": "区域空间基础；不生成精确地图点",
         "value_text": "十八世纪末的古巴、加勒比海与瓜德罗普"
+      },
+      {
+        "admission_status": "batch_retained_candidate",
+        "card_id": "V1-CARD-0041",
+        "confidence": "high",
+        "fact_field": "birth_date",
+        "fact_id": "V1-FCT-0260",
+        "material_class": "fact",
+        "origin_id": "SRC-0087",
+        "origin_material_id": "CAND-R1-FCT-01",
+        "sources": [
+          {
+            "fact_id": "V1-FCT-0260",
+            "source_id": "SRC-0087",
+            "source_title": "Carlos Fuentes"
+          },
+          {
+            "fact_id": "V1-FCT-0260",
+            "source_id": "SRC-0088",
+            "source_title": "Carlos Fuentes - Detalle del autor"
+          }
+        ],
+        "subject_id": "V1-ENT-0145",
+        "usage_note": "Independent review PASS; two institutional biographies",
+        "value_text": "1928-11-11"
+      },
+      {
+        "admission_status": "batch_retained_candidate",
+        "card_id": "V1-CARD-0041",
+        "confidence": "high",
+        "fact_field": "death_date",
+        "fact_id": "V1-FCT-0261",
+        "material_class": "fact",
+        "origin_id": "SRC-0087",
+        "origin_material_id": "CAND-R1-FCT-02",
+        "sources": [
+          {
+            "fact_id": "V1-FCT-0261",
+            "source_id": "SRC-0087",
+            "source_title": "Carlos Fuentes"
+          },
+          {
+            "fact_id": "V1-FCT-0261",
+            "source_id": "SRC-0088",
+            "source_title": "Carlos Fuentes - Detalle del autor"
+          }
+        ],
+        "subject_id": "V1-ENT-0145",
+        "usage_note": "Independent review PASS; two institutional biographies",
+        "value_text": "2012-05-15"
+      },
+      {
+        "admission_status": "batch_retained_candidate",
+        "card_id": "V1-CARD-0041",
+        "confidence": "high",
+        "fact_field": "country_or_region",
+        "fact_id": "V1-FCT-0262",
+        "material_class": "fact",
+        "origin_id": "SRC-0088",
+        "origin_material_id": "CAND-R1-FCT-03",
+        "sources": [
+          {
+            "fact_id": "V1-FCT-0262",
+            "source_id": "SRC-0087",
+            "source_title": "Carlos Fuentes"
+          },
+          {
+            "fact_id": "V1-FCT-0262",
+            "source_id": "SRC-0088",
+            "source_title": "Carlos Fuentes - Detalle del autor"
+          }
+        ],
+        "subject_id": "V1-ENT-0145",
+        "usage_note": "Mexican identity; not a birthplace assertion",
+        "value_text": "墨西哥"
+      },
+      {
+        "admission_status": "batch_retained_candidate",
+        "card_id": "V1-CARD-0041",
+        "confidence": "high",
+        "fact_field": "one_sentence_summary",
+        "fact_id": "V1-FCT-0263",
+        "material_class": "fact",
+        "origin_id": "SRC-0087",
+        "origin_material_id": "CAND-R1-FCT-04",
+        "sources": [
+          {
+            "fact_id": "V1-FCT-0263",
+            "source_id": "SRC-0087",
+            "source_title": "Carlos Fuentes"
+          },
+          {
+            "fact_id": "V1-FCT-0263",
+            "source_id": "SRC-0088",
+            "source_title": "Carlos Fuentes - Detalle del autor"
+          }
+        ],
+        "subject_id": "V1-ENT-0145",
+        "usage_note": "Minimal synthesis of institutional biographies",
+        "value_text": "墨西哥小说家、短篇小说家、散文家与剧作家，是拉丁美洲文学爆炸的重要作者。"
+      },
+      {
+        "admission_status": "batch_retained_candidate",
+        "card_id": "V1-CARD-0042",
+        "confidence": "high",
+        "fact_field": "first_publication_year",
+        "fact_id": "V1-FCT-0264",
+        "material_class": "fact",
+        "origin_id": "SRC-0089",
+        "origin_material_id": "CAND-R1-FCT-05",
+        "sources": [
+          {
+            "fact_id": "V1-FCT-0264",
+            "source_id": "SRC-0089",
+            "source_title": "La región más transparente - Detalle de la obra"
+          }
+        ],
+        "subject_id": "V1-ENT-0146",
+        "usage_note": "First-edition record",
+        "value_text": "1958"
+      },
+      {
+        "admission_status": "batch_retained_candidate",
+        "card_id": "V1-CARD-0042",
+        "confidence": "high",
+        "fact_field": "genre_or_form",
+        "fact_id": "V1-FCT-0265",
+        "material_class": "fact",
+        "origin_id": "SRC-0089",
+        "origin_material_id": "CAND-R1-FCT-06",
+        "sources": [
+          {
+            "fact_id": "V1-FCT-0265",
+            "source_id": "SRC-0089",
+            "source_title": "La región más transparente - Detalle de la obra"
+          }
+        ],
+        "subject_id": "V1-ENT-0146",
+        "usage_note": "ELEM classification",
+        "value_text": "长篇小说"
+      },
+      {
+        "admission_status": "batch_retained_candidate",
+        "card_id": "V1-CARD-0042",
+        "confidence": "high",
+        "fact_field": "story_premise",
+        "fact_id": "V1-FCT-0266",
+        "material_class": "publisher_paraphrase",
+        "origin_id": "SRC-0089",
+        "origin_material_id": "CAND-R1-FCT-07",
+        "sources": [
+          {
+            "fact_id": "V1-FCT-0266",
+            "source_id": "SRC-0089",
+            "source_title": "La región más transparente - Detalle de la obra"
+          },
+          {
+            "fact_id": "V1-FCT-0266",
+            "source_id": "SRC-0090",
+            "source_title": "La región más transparente"
+          }
+        ],
+        "subject_id": "V1-ENT-0146",
+        "usage_note": "Low-spoiler institutional and publisher paraphrase",
+        "value_text": "小说以多个人物与社会阶层的声音拼合二十世纪中叶墨西哥城，在城市日常中追问革命后的社会与身份。"
+      },
+      {
+        "admission_status": "batch_retained_candidate",
+        "card_id": "V1-CARD-0042",
+        "confidence": "high",
+        "fact_field": "setting_place",
+        "fact_id": "V1-FCT-0267",
+        "material_class": "fact",
+        "origin_id": "SRC-0089",
+        "origin_material_id": "CAND-R1-FCT-08",
+        "sources": [
+          {
+            "fact_id": "V1-FCT-0267",
+            "source_id": "SRC-0089",
+            "source_title": "La región más transparente - Detalle de la obra"
+          },
+          {
+            "fact_id": "V1-FCT-0267",
+            "source_id": "SRC-0090",
+            "source_title": "La región más transparente"
+          }
+        ],
+        "subject_id": "V1-ENT-0146",
+        "usage_note": "No Geo entity or SET_IN relation created",
+        "value_text": "墨西哥城"
+      },
+      {
+        "admission_status": "batch_retained_candidate",
+        "card_id": "V1-CARD-0042",
+        "confidence": "high",
+        "fact_field": "narrative_feature",
+        "fact_id": "V1-FCT-0268",
+        "material_class": "research_note",
+        "origin_id": "SRC-0089",
+        "origin_material_id": "CAND-R1-FCT-09",
+        "sources": [
+          {
+            "fact_id": "V1-FCT-0268",
+            "source_id": "SRC-0089",
+            "source_title": "La región más transparente - Detalle de la obra"
+          }
+        ],
+        "subject_id": "V1-ENT-0146",
+        "usage_note": "Revised direct paraphrase; independent review PASS",
+        "value_text": "以多重人物声音与社会群像构成一幅不断移动的墨西哥城图景。"
+      },
+      {
+        "admission_status": "batch_retained_candidate",
+        "card_id": "V1-CARD-0043",
+        "confidence": "high",
+        "fact_field": "first_publication_year",
+        "fact_id": "V1-FCT-0269",
+        "material_class": "fact",
+        "origin_id": "SRC-0091",
+        "origin_material_id": "CAND-R1-FCT-10",
+        "sources": [
+          {
+            "fact_id": "V1-FCT-0269",
+            "source_id": "SRC-0091",
+            "source_title": "La muerte de Artemio Cruz - Detalle de la obra"
+          },
+          {
+            "fact_id": "V1-FCT-0269",
+            "source_id": "SRC-0092",
+            "source_title": "La muerte de Artemio Cruz"
+          }
+        ],
+        "subject_id": "V1-ENT-0147",
+        "usage_note": "Institutional and library records",
+        "value_text": "1962"
+      },
+      {
+        "admission_status": "batch_retained_candidate",
+        "card_id": "V1-CARD-0043",
+        "confidence": "high",
+        "fact_field": "genre_or_form",
+        "fact_id": "V1-FCT-0270",
+        "material_class": "fact",
+        "origin_id": "SRC-0091",
+        "origin_material_id": "CAND-R1-FCT-11",
+        "sources": [
+          {
+            "fact_id": "V1-FCT-0270",
+            "source_id": "SRC-0091",
+            "source_title": "La muerte de Artemio Cruz - Detalle de la obra"
+          },
+          {
+            "fact_id": "V1-FCT-0270",
+            "source_id": "SRC-0092",
+            "source_title": "La muerte de Artemio Cruz"
+          }
+        ],
+        "subject_id": "V1-ENT-0147",
+        "usage_note": "ELEM and WorldCat classifications",
+        "value_text": "长篇小说"
+      },
+      {
+        "admission_status": "batch_retained_candidate",
+        "card_id": "V1-CARD-0043",
+        "confidence": "high",
+        "fact_field": "story_premise",
+        "fact_id": "V1-FCT-0271",
+        "material_class": "publisher_paraphrase",
+        "origin_id": "SRC-0091",
+        "origin_material_id": "CAND-R1-FCT-12",
+        "sources": [
+          {
+            "fact_id": "V1-FCT-0271",
+            "source_id": "SRC-0091",
+            "source_title": "La muerte de Artemio Cruz - Detalle de la obra"
+          },
+          {
+            "fact_id": "V1-FCT-0271",
+            "source_id": "SRC-0093",
+            "source_title": "La Muerte de Artemio Cruz"
+          }
+        ],
+        "subject_id": "V1-ENT-0147",
+        "usage_note": "Low-spoiler institutional and publisher paraphrase",
+        "value_text": "权势人物阿尔特米奥·克罗斯临终回望自己从革命参与者走向财富与腐败的一生。"
+      },
+      {
+        "admission_status": "batch_retained_candidate",
+        "card_id": "V1-CARD-0043",
+        "confidence": "high",
+        "fact_field": "key_character",
+        "fact_id": "V1-FCT-0272",
+        "material_class": "fact",
+        "origin_id": "SRC-0091",
+        "origin_material_id": "CAND-R1-FCT-13",
+        "sources": [
+          {
+            "fact_id": "V1-FCT-0272",
+            "source_id": "SRC-0091",
+            "source_title": "La muerte de Artemio Cruz - Detalle de la obra"
+          },
+          {
+            "fact_id": "V1-FCT-0272",
+            "source_id": "SRC-0092",
+            "source_title": "La muerte de Artemio Cruz"
+          }
+        ],
+        "subject_id": "V1-ENT-0147",
+        "usage_note": "Title character and catalogue summary",
+        "value_text": "阿尔特米奥·克罗斯"
+      },
+      {
+        "admission_status": "batch_retained_candidate",
+        "card_id": "V1-CARD-0043",
+        "confidence": "high",
+        "fact_field": "narrative_feature",
+        "fact_id": "V1-FCT-0273",
+        "material_class": "research_note",
+        "origin_id": "SRC-0091",
+        "origin_material_id": "CAND-R1-FCT-14",
+        "sources": [
+          {
+            "fact_id": "V1-FCT-0273",
+            "source_id": "SRC-0091",
+            "source_title": "La muerte de Artemio Cruz - Detalle de la obra"
+          }
+        ],
+        "subject_id": "V1-ENT-0147",
+        "usage_note": "Revised direct paraphrase; independent review PASS",
+        "value_text": "叙事交替使用第一、第二、第三人称，并在过去、现在与未来之间切换。"
       }
     ],
     "gaps": [
@@ -35388,6 +36531,70 @@
         "review_status": "accepted_at_n3",
         "subject_id": "V1-ENT-0118",
         "upstream_review_status": "N3-DEC-002 approved by USER"
+      },
+      {
+        "confidence": "high",
+        "description_zh": "卡洛斯·富恩特斯创作《最明净的地区》",
+        "evidence": [
+          {
+            "evidence_note": "Institutional author page lists La región más transparente among Carlos Fuentes works.",
+            "evidence_status": "direct",
+            "locator": "Works list",
+            "relationship_id": "V1-REL-0077",
+            "source_id": "SRC-0087",
+            "source_title": "Carlos Fuentes"
+          },
+          {
+            "evidence_note": "ELEM work page directly identifies Carlos Fuentes as author.",
+            "evidence_status": "direct",
+            "locator": "Work record",
+            "relationship_id": "V1-REL-0077",
+            "source_id": "SRC-0089",
+            "source_title": "La región más transparente - Detalle de la obra"
+          }
+        ],
+        "evidence_count": "2",
+        "issue_code": "NONE",
+        "object_id": "V1-ENT-0146",
+        "origin_layer": "WEB-CE-B01-R1",
+        "origin_relation_group_id": "CAND-R1-REL-01",
+        "relation_type": "CREATED",
+        "relationship_id": "V1-REL-0077",
+        "review_status": "accepted_by_reviewer",
+        "subject_id": "V1-ENT-0145",
+        "upstream_review_status": "independent_review_pass"
+      },
+      {
+        "confidence": "high",
+        "description_zh": "卡洛斯·富恩特斯创作《阿尔特米奥·克罗斯之死》",
+        "evidence": [
+          {
+            "evidence_note": "Institutional author page lists La muerte de Artemio Cruz among Carlos Fuentes works.",
+            "evidence_status": "direct",
+            "locator": "Works list",
+            "relationship_id": "V1-REL-0078",
+            "source_id": "SRC-0087",
+            "source_title": "Carlos Fuentes"
+          },
+          {
+            "evidence_note": "ELEM work page directly identifies Carlos Fuentes as author.",
+            "evidence_status": "direct",
+            "locator": "Work record",
+            "relationship_id": "V1-REL-0078",
+            "source_id": "SRC-0091",
+            "source_title": "La muerte de Artemio Cruz - Detalle de la obra"
+          }
+        ],
+        "evidence_count": "2",
+        "issue_code": "NONE",
+        "object_id": "V1-ENT-0147",
+        "origin_layer": "WEB-CE-B01-R1",
+        "origin_relation_group_id": "CAND-R1-REL-02",
+        "relation_type": "CREATED",
+        "relationship_id": "V1-REL-0078",
+        "review_status": "accepted_by_reviewer",
+        "subject_id": "V1-ENT-0145",
+        "upstream_review_status": "independent_review_pass"
       }
     ],
     "sources": [
@@ -36155,6 +37362,87 @@
         "source_id": "SRC-0086",
         "source_level": "B",
         "title": "《光明世纪》英文版书目与内容介绍"
+      },
+      {
+        "author_or_editor": "El Colegio Nacional",
+        "canonical_url": "https://colnal.mx/integrantes/carlos-fuentes/",
+        "publication_year": "",
+        "publisher": "El Colegio Nacional",
+        "source_id": "SRC-0087",
+        "source_level": "B",
+        "title": "Carlos Fuentes"
+      },
+      {
+        "author_or_editor": "Berenice Granados / Fundación para las Letras Mexicanas",
+        "canonical_url": "https://www.elem.mx/autor/datos/1162",
+        "publication_year": "2017",
+        "publisher": "Enciclopedia de la Literatura en México",
+        "source_id": "SRC-0088",
+        "source_level": "B",
+        "title": "Carlos Fuentes - Detalle del autor"
+      },
+      {
+        "author_or_editor": "Fabiola Camacho / Fundación para las Letras Mexicanas",
+        "canonical_url": "https://www.elem.mx/obra/datos/2611",
+        "publication_year": "",
+        "publisher": "Enciclopedia de la Literatura en México",
+        "source_id": "SRC-0089",
+        "source_level": "B",
+        "title": "La región más transparente - Detalle de la obra"
+      },
+      {
+        "author_or_editor": "Carlos Fuentes",
+        "canonical_url": "https://www.fcede.es/site/es/libros/detalles.aspx?id_libro=5894",
+        "publication_year": "2006",
+        "publisher": "Fondo de Cultura Económica",
+        "source_id": "SRC-0090",
+        "source_level": "B",
+        "title": "La región más transparente"
+      },
+      {
+        "author_or_editor": "Fundación para las Letras Mexicanas",
+        "canonical_url": "https://www.elem.mx/obra/datos/195029",
+        "publication_year": "",
+        "publisher": "Enciclopedia de la Literatura en México",
+        "source_id": "SRC-0091",
+        "source_level": "B",
+        "title": "La muerte de Artemio Cruz - Detalle de la obra"
+      },
+      {
+        "author_or_editor": "OCLC member libraries",
+        "canonical_url": "https://search.worldcat.org/title/1035925077",
+        "publication_year": "1962",
+        "publisher": "WorldCat",
+        "source_id": "SRC-0092",
+        "source_level": "B",
+        "title": "La muerte de Artemio Cruz"
+      },
+      {
+        "author_or_editor": "Carlos Fuentes",
+        "canonical_url": "https://www.penguinrandomhouse.com/books/328758/la-muerte-de-artemio-cruz-by-carlos-fuentes/",
+        "publication_year": "1996",
+        "publisher": "Penguin Books",
+        "source_id": "SRC-0093",
+        "source_level": "B",
+        "title": "La Muerte de Artemio Cruz"
+      },
+      {
+        "author_or_editor": "吉林省图书馆",
+        "canonical_url": "http://opac.jllib.cn/opac/show_format_marc.php?marc_no=56375362523356610064003202655a370138573a",
+        "publication_year": "1993.3",
+        "publisher": "云南人民出版社",
+        "source_id": "SRC-0094",
+        "source_level": "B",
+        "title": "《最明净的地区》MARC 记录"
+      },
+      {
+        "author_or_editor": "",
+        "canonical_url": "https://bid.snapshot.qudaobao.com.cn/f5832aa685ad553bd0c8080277dd10a82975e0f6.pdf",
+        "publication_year": "",
+        "publisher": "人民文学出版社",
+        "source_id": "SRC-0095",
+        "source_level": "B",
+        "title": "《阿尔特米奥·克罗斯之死》采购目录记录"
       }
     ]
   },
@@ -39553,6 +40841,181 @@
         "canonical_status": "retained",
         "content_cards": [
           {
+            "author_label": "卡洛斯·富恩特斯",
+            "card_id": "V1-CARD-0041",
+            "card_type": "author",
+            "content_markdown": "### 卡洛斯·富恩特斯\\n\\n墨西哥小说家、短篇小说家、散文家与剧作家，是拉丁美洲文学爆炸的重要作者。生于 1928 年 11 月 11 日，卒于 2012 年 5 月 15 日。\\n\\n本卡仅使用独立审核通过的人物事实；不生成出生地或文学运动关系。",
+            "country_or_region": "墨西哥",
+            "genre_or_form": "—",
+            "input_layer": "WEB-CE-B01-R1",
+            "issue_code": "NONE",
+            "language": "es",
+            "origin_card_id": "WEB-CE-B01-R1-CARD-01",
+            "original_title": "Carlos Fuentes",
+            "period_bucket": "1928-2012",
+            "source_minimum_status": "meets",
+            "subject_id": "V1-ENT-0145",
+            "title_zh": "卡洛斯·富恩特斯"
+          }
+        ],
+        "entity_id": "V1-ENT-0145",
+        "entity_type": "author",
+        "facts": [
+          {
+            "admission_status": "batch_retained_candidate",
+            "card_id": "V1-CARD-0041",
+            "confidence": "high",
+            "fact_field": "birth_date",
+            "fact_id": "V1-FCT-0260",
+            "material_class": "fact",
+            "origin_id": "SRC-0087",
+            "origin_material_id": "CAND-R1-FCT-01",
+            "subject_id": "V1-ENT-0145",
+            "usage_note": "Independent review PASS; two institutional biographies",
+            "value_text": "1928-11-11"
+          },
+          {
+            "admission_status": "batch_retained_candidate",
+            "card_id": "V1-CARD-0041",
+            "confidence": "high",
+            "fact_field": "death_date",
+            "fact_id": "V1-FCT-0261",
+            "material_class": "fact",
+            "origin_id": "SRC-0087",
+            "origin_material_id": "CAND-R1-FCT-02",
+            "subject_id": "V1-ENT-0145",
+            "usage_note": "Independent review PASS; two institutional biographies",
+            "value_text": "2012-05-15"
+          },
+          {
+            "admission_status": "batch_retained_candidate",
+            "card_id": "V1-CARD-0041",
+            "confidence": "high",
+            "fact_field": "country_or_region",
+            "fact_id": "V1-FCT-0262",
+            "material_class": "fact",
+            "origin_id": "SRC-0088",
+            "origin_material_id": "CAND-R1-FCT-03",
+            "subject_id": "V1-ENT-0145",
+            "usage_note": "Mexican identity; not a birthplace assertion",
+            "value_text": "墨西哥"
+          },
+          {
+            "admission_status": "batch_retained_candidate",
+            "card_id": "V1-CARD-0041",
+            "confidence": "high",
+            "fact_field": "one_sentence_summary",
+            "fact_id": "V1-FCT-0263",
+            "material_class": "fact",
+            "origin_id": "SRC-0087",
+            "origin_material_id": "CAND-R1-FCT-04",
+            "subject_id": "V1-ENT-0145",
+            "usage_note": "Minimal synthesis of institutional biographies",
+            "value_text": "墨西哥小说家、短篇小说家、散文家与剧作家，是拉丁美洲文学爆炸的重要作者。"
+          }
+        ],
+        "incoming_relations": [],
+        "issue_codes": "NONE",
+        "name_zh": "卡洛斯·富恩特斯",
+        "normalization_basis": "WEB-CE-B01-R1 independent review PASS",
+        "origin_count": "1",
+        "origin_refs": "CAND-R1-ENT-01",
+        "original_name": "Carlos Fuentes",
+        "outgoing_relations": [
+          {
+            "confidence": "high",
+            "description_zh": "卡洛斯·富恩特斯创作《最明净的地区》",
+            "evidence_count": "2",
+            "issue_code": "NONE",
+            "object_id": "V1-ENT-0146",
+            "origin_layer": "WEB-CE-B01-R1",
+            "origin_relation_group_id": "CAND-R1-REL-01",
+            "relation_type": "CREATED",
+            "relationship_id": "V1-REL-0077",
+            "review_status": "accepted_by_reviewer",
+            "subject_id": "V1-ENT-0145",
+            "upstream_review_status": "independent_review_pass"
+          },
+          {
+            "confidence": "high",
+            "description_zh": "卡洛斯·富恩特斯创作《阿尔特米奥·克罗斯之死》",
+            "evidence_count": "2",
+            "issue_code": "NONE",
+            "object_id": "V1-ENT-0147",
+            "origin_layer": "WEB-CE-B01-R1",
+            "origin_relation_group_id": "CAND-R1-REL-02",
+            "relation_type": "CREATED",
+            "relationship_id": "V1-REL-0078",
+            "review_status": "accepted_by_reviewer",
+            "subject_id": "V1-ENT-0145",
+            "upstream_review_status": "independent_review_pass"
+          }
+        ]
+      },
+      "facts": [
+        {
+          "admission_status": "batch_retained_candidate",
+          "card_id": "V1-CARD-0041",
+          "confidence": "high",
+          "fact_field": "birth_date",
+          "fact_id": "V1-FCT-0260",
+          "material_class": "fact",
+          "origin_id": "SRC-0087",
+          "origin_material_id": "CAND-R1-FCT-01",
+          "subject_id": "V1-ENT-0145",
+          "usage_note": "Independent review PASS; two institutional biographies",
+          "value_text": "1928-11-11"
+        },
+        {
+          "admission_status": "batch_retained_candidate",
+          "card_id": "V1-CARD-0041",
+          "confidence": "high",
+          "fact_field": "death_date",
+          "fact_id": "V1-FCT-0261",
+          "material_class": "fact",
+          "origin_id": "SRC-0087",
+          "origin_material_id": "CAND-R1-FCT-02",
+          "subject_id": "V1-ENT-0145",
+          "usage_note": "Independent review PASS; two institutional biographies",
+          "value_text": "2012-05-15"
+        },
+        {
+          "admission_status": "batch_retained_candidate",
+          "card_id": "V1-CARD-0041",
+          "confidence": "high",
+          "fact_field": "country_or_region",
+          "fact_id": "V1-FCT-0262",
+          "material_class": "fact",
+          "origin_id": "SRC-0088",
+          "origin_material_id": "CAND-R1-FCT-03",
+          "subject_id": "V1-ENT-0145",
+          "usage_note": "Mexican identity; not a birthplace assertion",
+          "value_text": "墨西哥"
+        },
+        {
+          "admission_status": "batch_retained_candidate",
+          "card_id": "V1-CARD-0041",
+          "confidence": "high",
+          "fact_field": "one_sentence_summary",
+          "fact_id": "V1-FCT-0263",
+          "material_class": "fact",
+          "origin_id": "SRC-0087",
+          "origin_material_id": "CAND-R1-FCT-04",
+          "subject_id": "V1-ENT-0145",
+          "usage_note": "Minimal synthesis of institutional biographies",
+          "value_text": "墨西哥小说家、短篇小说家、散文家与剧作家，是拉丁美洲文学爆炸的重要作者。"
+        }
+      ],
+      "node_type": "literary_author",
+      "period_bucket": "1928-2012",
+      "status": "card_period_only",
+      "year_label": "1928-2012"
+    },
+    {
+      "entity": {
+        "canonical_status": "retained",
+        "content_cards": [
+          {
             "author_label": "马里奥·巴尔加斯·略萨",
             "card_id": "V1-CARD-0033",
             "card_type": "author",
@@ -41663,6 +43126,193 @@
         "canonical_status": "retained",
         "content_cards": [
           {
+            "author_label": "卡洛斯·富恩特斯",
+            "card_id": "V1-CARD-0042",
+            "card_type": "work",
+            "content_markdown": "### 《最明净的地区》\\n\\n1958 年首版的长篇小说。作品以多重人物声音与社会群像构成一幅不断移动的墨西哥城图景，在城市日常中追问革命后的社会与身份。\\n\\n中文书目：徐少军、王小芳译，云南人民出版社，1993.3，ISBN 7-222-01047-5（吉林省图书馆 MARC 核验）。",
+            "country_or_region": "墨西哥",
+            "genre_or_form": "长篇小说",
+            "input_layer": "WEB-CE-B01-R1",
+            "issue_code": "NONE",
+            "language": "es",
+            "origin_card_id": "WEB-CE-B01-R1-CARD-02",
+            "original_title": "La región más transparente",
+            "period_bucket": "1958",
+            "source_minimum_status": "meets",
+            "subject_id": "V1-ENT-0146",
+            "title_zh": "《最明净的地区》"
+          }
+        ],
+        "entity_id": "V1-ENT-0146",
+        "entity_type": "work",
+        "facts": [
+          {
+            "admission_status": "batch_retained_candidate",
+            "card_id": "V1-CARD-0042",
+            "confidence": "high",
+            "fact_field": "first_publication_year",
+            "fact_id": "V1-FCT-0264",
+            "material_class": "fact",
+            "origin_id": "SRC-0089",
+            "origin_material_id": "CAND-R1-FCT-05",
+            "subject_id": "V1-ENT-0146",
+            "usage_note": "First-edition record",
+            "value_text": "1958"
+          },
+          {
+            "admission_status": "batch_retained_candidate",
+            "card_id": "V1-CARD-0042",
+            "confidence": "high",
+            "fact_field": "genre_or_form",
+            "fact_id": "V1-FCT-0265",
+            "material_class": "fact",
+            "origin_id": "SRC-0089",
+            "origin_material_id": "CAND-R1-FCT-06",
+            "subject_id": "V1-ENT-0146",
+            "usage_note": "ELEM classification",
+            "value_text": "长篇小说"
+          },
+          {
+            "admission_status": "batch_retained_candidate",
+            "card_id": "V1-CARD-0042",
+            "confidence": "high",
+            "fact_field": "story_premise",
+            "fact_id": "V1-FCT-0266",
+            "material_class": "publisher_paraphrase",
+            "origin_id": "SRC-0089",
+            "origin_material_id": "CAND-R1-FCT-07",
+            "subject_id": "V1-ENT-0146",
+            "usage_note": "Low-spoiler institutional and publisher paraphrase",
+            "value_text": "小说以多个人物与社会阶层的声音拼合二十世纪中叶墨西哥城，在城市日常中追问革命后的社会与身份。"
+          },
+          {
+            "admission_status": "batch_retained_candidate",
+            "card_id": "V1-CARD-0042",
+            "confidence": "high",
+            "fact_field": "setting_place",
+            "fact_id": "V1-FCT-0267",
+            "material_class": "fact",
+            "origin_id": "SRC-0089",
+            "origin_material_id": "CAND-R1-FCT-08",
+            "subject_id": "V1-ENT-0146",
+            "usage_note": "No Geo entity or SET_IN relation created",
+            "value_text": "墨西哥城"
+          },
+          {
+            "admission_status": "batch_retained_candidate",
+            "card_id": "V1-CARD-0042",
+            "confidence": "high",
+            "fact_field": "narrative_feature",
+            "fact_id": "V1-FCT-0268",
+            "material_class": "research_note",
+            "origin_id": "SRC-0089",
+            "origin_material_id": "CAND-R1-FCT-09",
+            "subject_id": "V1-ENT-0146",
+            "usage_note": "Revised direct paraphrase; independent review PASS",
+            "value_text": "以多重人物声音与社会群像构成一幅不断移动的墨西哥城图景。"
+          }
+        ],
+        "incoming_relations": [
+          {
+            "confidence": "high",
+            "description_zh": "卡洛斯·富恩特斯创作《最明净的地区》",
+            "evidence_count": "2",
+            "issue_code": "NONE",
+            "object_id": "V1-ENT-0146",
+            "origin_layer": "WEB-CE-B01-R1",
+            "origin_relation_group_id": "CAND-R1-REL-01",
+            "relation_type": "CREATED",
+            "relationship_id": "V1-REL-0077",
+            "review_status": "accepted_by_reviewer",
+            "subject_id": "V1-ENT-0145",
+            "upstream_review_status": "independent_review_pass"
+          }
+        ],
+        "issue_codes": "NONE",
+        "name_zh": "《最明净的地区》",
+        "normalization_basis": "WEB-CE-B01-R1 independent review PASS; Chinese title verified by library MARC",
+        "origin_count": "1",
+        "origin_refs": "CAND-R1-ENT-02",
+        "original_name": "La región más transparente",
+        "outgoing_relations": []
+      },
+      "facts": [
+        {
+          "admission_status": "batch_retained_candidate",
+          "card_id": "V1-CARD-0042",
+          "confidence": "high",
+          "fact_field": "first_publication_year",
+          "fact_id": "V1-FCT-0264",
+          "material_class": "fact",
+          "origin_id": "SRC-0089",
+          "origin_material_id": "CAND-R1-FCT-05",
+          "subject_id": "V1-ENT-0146",
+          "usage_note": "First-edition record",
+          "value_text": "1958"
+        },
+        {
+          "admission_status": "batch_retained_candidate",
+          "card_id": "V1-CARD-0042",
+          "confidence": "high",
+          "fact_field": "genre_or_form",
+          "fact_id": "V1-FCT-0265",
+          "material_class": "fact",
+          "origin_id": "SRC-0089",
+          "origin_material_id": "CAND-R1-FCT-06",
+          "subject_id": "V1-ENT-0146",
+          "usage_note": "ELEM classification",
+          "value_text": "长篇小说"
+        },
+        {
+          "admission_status": "batch_retained_candidate",
+          "card_id": "V1-CARD-0042",
+          "confidence": "high",
+          "fact_field": "story_premise",
+          "fact_id": "V1-FCT-0266",
+          "material_class": "publisher_paraphrase",
+          "origin_id": "SRC-0089",
+          "origin_material_id": "CAND-R1-FCT-07",
+          "subject_id": "V1-ENT-0146",
+          "usage_note": "Low-spoiler institutional and publisher paraphrase",
+          "value_text": "小说以多个人物与社会阶层的声音拼合二十世纪中叶墨西哥城，在城市日常中追问革命后的社会与身份。"
+        },
+        {
+          "admission_status": "batch_retained_candidate",
+          "card_id": "V1-CARD-0042",
+          "confidence": "high",
+          "fact_field": "setting_place",
+          "fact_id": "V1-FCT-0267",
+          "material_class": "fact",
+          "origin_id": "SRC-0089",
+          "origin_material_id": "CAND-R1-FCT-08",
+          "subject_id": "V1-ENT-0146",
+          "usage_note": "No Geo entity or SET_IN relation created",
+          "value_text": "墨西哥城"
+        },
+        {
+          "admission_status": "batch_retained_candidate",
+          "card_id": "V1-CARD-0042",
+          "confidence": "high",
+          "fact_field": "narrative_feature",
+          "fact_id": "V1-FCT-0268",
+          "material_class": "research_note",
+          "origin_id": "SRC-0089",
+          "origin_material_id": "CAND-R1-FCT-09",
+          "subject_id": "V1-ENT-0146",
+          "usage_note": "Revised direct paraphrase; independent review PASS",
+          "value_text": "以多重人物声音与社会群像构成一幅不断移动的墨西哥城图景。"
+        }
+      ],
+      "node_type": "literary_work",
+      "period_bucket": "1958",
+      "status": "batch_retained_candidate",
+      "year_label": "1958"
+    },
+    {
+      "entity": {
+        "canonical_status": "retained",
+        "content_cards": [
+          {
             "author_label": "罗萨里奥·卡斯特利亚诺斯",
             "card_id": "V1-CARD-0015",
             "card_type": "work",
@@ -42025,6 +43675,193 @@
           "subject_id": "V1-ENT-0081",
           "usage_note": "区域空间基础；不生成精确地图点",
           "value_text": "十八世纪末的古巴、加勒比海与瓜德罗普"
+        }
+      ],
+      "node_type": "literary_work",
+      "period_bucket": "1962",
+      "status": "batch_retained_candidate",
+      "year_label": "1962"
+    },
+    {
+      "entity": {
+        "canonical_status": "retained",
+        "content_cards": [
+          {
+            "author_label": "卡洛斯·富恩特斯",
+            "card_id": "V1-CARD-0043",
+            "card_type": "work",
+            "content_markdown": "### 《阿尔特米奥·克罗斯之死》\\n\\n1962 年首版的长篇小说。权势人物阿尔特米奥·克罗斯临终回望自己从革命参与者走向财富与腐败的一生；叙事交替使用三种人称，并在过去、现在与未来之间切换。\\n\\n中文书目：亦潜译，人民文学出版社，ISBN 9787020150168。采购目录未直接显示出版年份，该字段保持 HOLD。",
+            "country_or_region": "墨西哥",
+            "genre_or_form": "长篇小说",
+            "input_layer": "WEB-CE-B01-R1",
+            "issue_code": "TRANSLATION-YEAR-HOLD",
+            "language": "es",
+            "origin_card_id": "WEB-CE-B01-R1-CARD-03",
+            "original_title": "La muerte de Artemio Cruz",
+            "period_bucket": "1962",
+            "source_minimum_status": "meets",
+            "subject_id": "V1-ENT-0147",
+            "title_zh": "《阿尔特米奥·克罗斯之死》"
+          }
+        ],
+        "entity_id": "V1-ENT-0147",
+        "entity_type": "work",
+        "facts": [
+          {
+            "admission_status": "batch_retained_candidate",
+            "card_id": "V1-CARD-0043",
+            "confidence": "high",
+            "fact_field": "first_publication_year",
+            "fact_id": "V1-FCT-0269",
+            "material_class": "fact",
+            "origin_id": "SRC-0091",
+            "origin_material_id": "CAND-R1-FCT-10",
+            "subject_id": "V1-ENT-0147",
+            "usage_note": "Institutional and library records",
+            "value_text": "1962"
+          },
+          {
+            "admission_status": "batch_retained_candidate",
+            "card_id": "V1-CARD-0043",
+            "confidence": "high",
+            "fact_field": "genre_or_form",
+            "fact_id": "V1-FCT-0270",
+            "material_class": "fact",
+            "origin_id": "SRC-0091",
+            "origin_material_id": "CAND-R1-FCT-11",
+            "subject_id": "V1-ENT-0147",
+            "usage_note": "ELEM and WorldCat classifications",
+            "value_text": "长篇小说"
+          },
+          {
+            "admission_status": "batch_retained_candidate",
+            "card_id": "V1-CARD-0043",
+            "confidence": "high",
+            "fact_field": "story_premise",
+            "fact_id": "V1-FCT-0271",
+            "material_class": "publisher_paraphrase",
+            "origin_id": "SRC-0091",
+            "origin_material_id": "CAND-R1-FCT-12",
+            "subject_id": "V1-ENT-0147",
+            "usage_note": "Low-spoiler institutional and publisher paraphrase",
+            "value_text": "权势人物阿尔特米奥·克罗斯临终回望自己从革命参与者走向财富与腐败的一生。"
+          },
+          {
+            "admission_status": "batch_retained_candidate",
+            "card_id": "V1-CARD-0043",
+            "confidence": "high",
+            "fact_field": "key_character",
+            "fact_id": "V1-FCT-0272",
+            "material_class": "fact",
+            "origin_id": "SRC-0091",
+            "origin_material_id": "CAND-R1-FCT-13",
+            "subject_id": "V1-ENT-0147",
+            "usage_note": "Title character and catalogue summary",
+            "value_text": "阿尔特米奥·克罗斯"
+          },
+          {
+            "admission_status": "batch_retained_candidate",
+            "card_id": "V1-CARD-0043",
+            "confidence": "high",
+            "fact_field": "narrative_feature",
+            "fact_id": "V1-FCT-0273",
+            "material_class": "research_note",
+            "origin_id": "SRC-0091",
+            "origin_material_id": "CAND-R1-FCT-14",
+            "subject_id": "V1-ENT-0147",
+            "usage_note": "Revised direct paraphrase; independent review PASS",
+            "value_text": "叙事交替使用第一、第二、第三人称，并在过去、现在与未来之间切换。"
+          }
+        ],
+        "incoming_relations": [
+          {
+            "confidence": "high",
+            "description_zh": "卡洛斯·富恩特斯创作《阿尔特米奥·克罗斯之死》",
+            "evidence_count": "2",
+            "issue_code": "NONE",
+            "object_id": "V1-ENT-0147",
+            "origin_layer": "WEB-CE-B01-R1",
+            "origin_relation_group_id": "CAND-R1-REL-02",
+            "relation_type": "CREATED",
+            "relationship_id": "V1-REL-0078",
+            "review_status": "accepted_by_reviewer",
+            "subject_id": "V1-ENT-0145",
+            "upstream_review_status": "independent_review_pass"
+          }
+        ],
+        "issue_codes": "TRANSLATION-YEAR-HOLD",
+        "name_zh": "《阿尔特米奥·克罗斯之死》",
+        "normalization_basis": "WEB-CE-B01-R1 independent review PASS; Chinese edition year remains field-level HOLD",
+        "origin_count": "1",
+        "origin_refs": "CAND-R1-ENT-03",
+        "original_name": "La muerte de Artemio Cruz",
+        "outgoing_relations": []
+      },
+      "facts": [
+        {
+          "admission_status": "batch_retained_candidate",
+          "card_id": "V1-CARD-0043",
+          "confidence": "high",
+          "fact_field": "first_publication_year",
+          "fact_id": "V1-FCT-0269",
+          "material_class": "fact",
+          "origin_id": "SRC-0091",
+          "origin_material_id": "CAND-R1-FCT-10",
+          "subject_id": "V1-ENT-0147",
+          "usage_note": "Institutional and library records",
+          "value_text": "1962"
+        },
+        {
+          "admission_status": "batch_retained_candidate",
+          "card_id": "V1-CARD-0043",
+          "confidence": "high",
+          "fact_field": "genre_or_form",
+          "fact_id": "V1-FCT-0270",
+          "material_class": "fact",
+          "origin_id": "SRC-0091",
+          "origin_material_id": "CAND-R1-FCT-11",
+          "subject_id": "V1-ENT-0147",
+          "usage_note": "ELEM and WorldCat classifications",
+          "value_text": "长篇小说"
+        },
+        {
+          "admission_status": "batch_retained_candidate",
+          "card_id": "V1-CARD-0043",
+          "confidence": "high",
+          "fact_field": "story_premise",
+          "fact_id": "V1-FCT-0271",
+          "material_class": "publisher_paraphrase",
+          "origin_id": "SRC-0091",
+          "origin_material_id": "CAND-R1-FCT-12",
+          "subject_id": "V1-ENT-0147",
+          "usage_note": "Low-spoiler institutional and publisher paraphrase",
+          "value_text": "权势人物阿尔特米奥·克罗斯临终回望自己从革命参与者走向财富与腐败的一生。"
+        },
+        {
+          "admission_status": "batch_retained_candidate",
+          "card_id": "V1-CARD-0043",
+          "confidence": "high",
+          "fact_field": "key_character",
+          "fact_id": "V1-FCT-0272",
+          "material_class": "fact",
+          "origin_id": "SRC-0091",
+          "origin_material_id": "CAND-R1-FCT-13",
+          "subject_id": "V1-ENT-0147",
+          "usage_note": "Title character and catalogue summary",
+          "value_text": "阿尔特米奥·克罗斯"
+        },
+        {
+          "admission_status": "batch_retained_candidate",
+          "card_id": "V1-CARD-0043",
+          "confidence": "high",
+          "fact_field": "narrative_feature",
+          "fact_id": "V1-FCT-0273",
+          "material_class": "research_note",
+          "origin_id": "SRC-0091",
+          "origin_material_id": "CAND-R1-FCT-14",
+          "subject_id": "V1-ENT-0147",
+          "usage_note": "Revised direct paraphrase; independent review PASS",
+          "value_text": "叙事交替使用第一、第二、第三人称，并在过去、现在与未来之间切换。"
         }
       ],
       "node_type": "literary_work",

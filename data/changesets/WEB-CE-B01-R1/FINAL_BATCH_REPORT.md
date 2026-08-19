@@ -1,7 +1,7 @@
 # WEB-CE-B01-R1 Batch Report
 
 - Batch status: `DONE`
-- Completion evidence: PR #8 required checks reported `SUCCESS` on GitHub Actions run `32208951034` before this report was finalized.
+- Completion gate: required GitHub Actions for the current PR HEAD must report `SUCCESS`; concrete run IDs belong to PR metadata rather than this versioned report.
 
 ## Research
 
@@ -34,7 +34,7 @@
 
 - GitHub Actions: `SUCCESS` (`development-baseline-integrity`; `web-pr-browser-smoke`).
 - Pull request: https://github.com/Yillan-lamb/latin-american-literature-map/pull/8 (`OPEN / WAITING FOR USER`).
-- Successful run: https://github.com/Yillan-lamb/latin-american-literature-map/actions/runs/32208951034.
+- Verification source: the current PR HEAD check rollup on GitHub.
 
 ## Completion
 

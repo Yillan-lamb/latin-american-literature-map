@@ -1,0 +1,15 @@
+candidate_fact_id,subject_candidate_id,fact_field,value_text,source_candidate_ids,confidence,admission_status,usage_note
+CAND-R1-FCT-01,CAND-R1-ENT-01,birth_date,1928-11-11,CAND-R1-SRC-01|CAND-R1-SRC-02,high,candidate_for_review,Two institutional biographies agree
+CAND-R1-FCT-02,CAND-R1-ENT-01,death_date,2012-05-15,CAND-R1-SRC-01|CAND-R1-SRC-02,high,candidate_for_review,Two institutional biographies agree
+CAND-R1-FCT-03,CAND-R1-ENT-01,country_or_region,墨西哥,CAND-R1-SRC-01|CAND-R1-SRC-02,high,candidate_for_review,Mexican writer and long-term national identification
+CAND-R1-FCT-04,CAND-R1-ENT-01,one_sentence_summary,墨西哥小说家、短篇小说家、散文家与剧作家，是拉丁美洲文学爆炸的重要作者。,CAND-R1-SRC-01|CAND-R1-SRC-02,high,candidate_for_review,Minimal synthesis of institutional biographies
+CAND-R1-FCT-05,CAND-R1-ENT-02,first_publication_year,1958,CAND-R1-SRC-03,high,candidate_for_review,First-edition record
+CAND-R1-FCT-06,CAND-R1-ENT-02,genre_or_form,长篇小说,CAND-R1-SRC-03,high,candidate_for_review,ELEM classifies as Narrativa - Novela
+CAND-R1-FCT-07,CAND-R1-ENT-02,story_premise,小说以多个人物与社会阶层的声音拼合二十世纪中叶墨西哥城，在城市日常中追问革命后的社会与身份。,CAND-R1-SRC-03|CAND-R1-SRC-04,high,candidate_for_review,Low-spoiler paraphrase
+CAND-R1-FCT-08,CAND-R1-ENT-02,setting_place,墨西哥城,CAND-R1-SRC-03|CAND-R1-SRC-04,high,candidate_for_review,Directly identified as city setting; no Geo change requested
+CAND-R1-FCT-09,CAND-R1-ENT-02,narrative_feature,以多重人物声音与社会群像构成一幅不断移动的墨西哥城图景。,CAND-R1-SRC-03,high,revised_for_review,Direct paraphrase of the ELEM work analysis; no interpretive relation created
+CAND-R1-FCT-10,CAND-R1-ENT-03,first_publication_year,1962,CAND-R1-SRC-05|CAND-R1-SRC-06,high,candidate_for_review,Independent institutional and library records agree
+CAND-R1-FCT-11,CAND-R1-ENT-03,genre_or_form,长篇小说,CAND-R1-SRC-05|CAND-R1-SRC-06,high,candidate_for_review,ELEM and WorldCat classifications
+CAND-R1-FCT-12,CAND-R1-ENT-03,story_premise,权势人物阿尔特米奥·克罗斯临终回望自己从革命参与者走向财富与腐败的一生。,CAND-R1-SRC-05|CAND-R1-SRC-07,high,candidate_for_review,Low-spoiler publisher/institutional paraphrase
+CAND-R1-FCT-13,CAND-R1-ENT-03,key_character,阿尔特米奥·克罗斯,CAND-R1-SRC-05|CAND-R1-SRC-06,high,candidate_for_review,Title character and catalogue summary
+CAND-R1-FCT-14,CAND-R1-ENT-03,narrative_feature,叙事交替使用第一、第二、第三人称，并在过去、现在与未来之间切换。,CAND-R1-SRC-05,high,revised_for_review,Direct paraphrase of the ELEM work page

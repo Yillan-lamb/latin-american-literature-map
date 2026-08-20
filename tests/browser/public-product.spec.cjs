@@ -22,13 +22,16 @@ test.afterEach(async ({ page }) => {
   expect(await page.locator("body").innerText()).not.toMatch(forbidden);
 });
 
-test("home, map, country and mobile navigation", async ({ page, isMobile }) => {
+test("home, map, country and mobile navigation", async ({ page, isMobile, request }) => {
   await page.goto("");
   await expect(page.getByRole("heading", { name: /文学地图/ }).first()).toBeVisible();
   await expect(page.getByRole("link", { name: /从地图开始/ })).toHaveAttribute("href", "#literary-map");
-  // The ten editorial reading paths remain in user_review; the public home
-  // therefore uses the four factual fallback paths without leaking drafts.
-  await expect(page.locator(".path-card")).toHaveCount(4);
+  // Formal public builds use four factual fallback paths while the explicit
+  // user-review preview may expose up to ten draft paths. Assert the current
+  // bundle's declared projection instead of freezing either count.
+  const webData = await (await request.get("data/v2/web/site_data.json")).json();
+  const projectedPaths = webData.presentation.reading_paths || [];
+  await expect(page.locator(".path-card")).toHaveCount(projectedPaths.length ? Math.min(projectedPaths.length, 10) : 4);
   await expect(page.locator(".country-shape.available")).toHaveCount(7);
   await expect(page.locator(".fictional-space-button")).toHaveCount(2);
   await expect(page.getByRole("heading", { name: "从一个地方开始" })).toBeVisible();

@@ -26,7 +26,9 @@ test("home, map, country and mobile navigation", async ({ page, isMobile }) => {
   await page.goto("");
   await expect(page.getByRole("heading", { name: /文学地图/ }).first()).toBeVisible();
   await expect(page.getByRole("link", { name: /从地图开始/ })).toHaveAttribute("href", "#literary-map");
-  await expect(page.locator(".path-card")).toHaveCount(10);
+  // The ten editorial reading paths remain in user_review; the public home
+  // therefore uses the four factual fallback paths without leaking drafts.
+  await expect(page.locator(".path-card")).toHaveCount(4);
   await expect(page.locator(".country-shape.available")).toHaveCount(7);
   await expect(page.locator(".fictional-space-button")).toHaveCount(2);
   await expect(page.getByRole("heading", { name: "从一个地方开始" })).toBeVisible();
@@ -205,6 +207,25 @@ test("required author, work and place samples resolve through the public layer",
   for (const coreAuthor of ["克拉丽丝·李斯佩克朵", "巴勃罗·聂鲁达"]) {
     await page.goto(`search/?q=${encodeURIComponent(coreAuthor)}`);
     await expect(page.getByText(coreAuthor).first()).toBeVisible();
+  }
+});
+
+test("audited WEB-CE-B01 authors, works, collections and Geo are searchable", async ({ page }) => {
+  const samples = [
+    ["authors/octavio-paz-v1-ent-0059/", "奥克塔维奥·帕斯"],
+    ["authors/carlos-fuentes-v1-ent-0145/", "卡洛斯·富恩特斯"],
+    ["authors/gabriela-mistral-v1-ent-0148/", "加夫列拉·米斯特拉尔"],
+    ["works/desolacion-v1-ent-0149/", "《绝望集》"],
+    ["works/el-laberinto-de-la-soledad-v1-ent-0154/", "《孤独的迷宫》"],
+    ["works/aura-v1-ent-0169/", "《奥拉》"],
+    ["places/vicuna-v1-ent-0153/", "比库尼亚"],
+  ];
+  for (const [route, title] of samples) {
+    const response = await page.goto(route);
+    expect(response.status(), route).toBe(200);
+    await expect(page.getByText(title).first()).toBeVisible();
+    await page.goto(`search/?q=${encodeURIComponent(title.replace(/[《》]/g, ""))}`);
+    await expect(page.getByText(title).first()).toBeVisible();
   }
 });
 

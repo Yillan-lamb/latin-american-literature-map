@@ -1,0 +1,8 @@
+temporary_id,origin_material_id,subject_id,fact_field,value_text,material_class,origin_id,confidence,admission_status,usage_note
+CAND-PM-FCT-01,,CAND-PM-ENT-01,entity_layer,collection,fact,CAND-PM-SRC-02,high,candidate_for_staging_review,作品实体层级（REVISE-D2:短篇集改 collection）
+CAND-PM-FCT-02,,CAND-PM-ENT-01,bibliographic_note,"BnF 目录收录 Guerra del tiempo y otros relatos（1982 版 ark:/12148/cb347971092、1998 版 ark:/12148/cb37550508c）,作者归名 Carpentier, Alejo (1904-1980)",bibliographic_note,CAND-PM-SRC-02,medium,candidate_for_staging_review,仅证目录存在与归名;初版年 1958 无直接来源,不写 first_publication_year
+CAND-PM-FCT-03,,CAND-PM-ENT-01,first_publication_year,待核,gap_note,,low,gap,初版年需原作或权威书目直接来源,本轮未取得
+CAND-PM-FCT-04,,CAND-PM-ENT-01,genre_or_form,短篇小说集,fact,CAND-PM-SRC-02,medium,candidate_for_staging_review,BnF 题名 'y otros relatos' 表明短篇集性质;中译简介亦作短篇集(线索级,不独立成据)
+CAND-PM-FCT-05,,CAND-PM-ENT-02,entity_layer,work,fact,CAND-PM-SRC-01,high,candidate_for_staging_review,作品实体层级
+CAND-PM-FCT-06,,CAND-PM-ENT-02,first_publication_year,1956,fact,CAND-PM-SRC-01,high,candidate_for_staging_review,BnF 目录 1956 年版记录（El Acoso,ark:/12148/cb31909635j）
+CAND-PM-FCT-07,,CAND-PM-ENT-02,genre_or_form,待核,gap_note,,low,gap,BnF El Acoso 记录无体裁直接标注,通行归类不独立成据（REVISE-D2）;待合格来源

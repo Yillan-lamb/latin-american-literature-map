@@ -1,0 +1,60 @@
+temporary_id,origin_material_id,subject_id,fact_field,value_text,material_class,origin_id,confidence,admission_status,usage_note
+CAND-D-FCT-01,CAND-D-SRC-03,CAND-D-ENT-01,first_publication_year,1985,fact,,high,candidate_for_staging_review,BnF 目录 1985 西语版记录（El Amor en los tiempos del cólera，ISBN 8402106408）
+CAND-D-FCT-02,CAND-D-SRC-03,CAND-D-ENT-01,genre_or_form,长篇小说,fact,,medium,candidate_for_staging_review,BnF 法译各版题名标 ': roman'（L'Amour aux temps du choléra : roman）
+CAND-D-FCT-03,CAND-D-SRC-03,CAND-D-ENT-01,bibliographic_note,"BnF 目录收录 El Amor en los tiempos del cólera 1985 年西语版（ark:/12148/cb34923644w，ISBN 8402106408），作者归名 García Márquez, Gabriel (1927-2014)",bibliographic_note,,medium,candidate_for_staging_review,仅证目录存在与归名及出版年
+CAND-D-FCT-04,,CAND-D-ENT-01,story_premise,待核（通行描述：弗洛伦蒂诺·阿里萨与费尔米娜·达萨横跨半个多世纪的爱情）,gap_note,,low,gap,通行说法本轮无已核验来源，不得直接采用；待原作或合格来源释义
+CAND-D-FCT-05,,CAND-D-ENT-01,setting_place,待核（通行：加勒比海港口城市，常与卡塔赫纳关联）,gap_note,,low,gap,无直接场景证据；SET_IN 关系未提（见 RELATION 行 CAND-D-REL-13）
+CAND-D-FCT-06,,CAND-D-ENT-01,key_character,待核（通行：弗洛伦蒂诺·阿里萨、费尔米娜·达萨、乌尔比诺医生）,gap_note,,low,gap,待核
+CAND-D-FCT-07,CAND-D-SRC-04,CAND-D-ENT-02,first_publication_year,1975,fact,,high,candidate_for_staging_review,BnF 目录 1975 年西语版记录（El Otoño del patriarca，ISBN 8401301556）
+CAND-D-FCT-08,CAND-D-SRC-04,CAND-D-ENT-02,genre_or_form,长篇小说,fact,,medium,candidate_for_staging_review,BnF 法译各版题名标 ': roman'（L'automne du patriarche : roman）
+CAND-D-FCT-09,CAND-D-SRC-04,CAND-D-ENT-02,bibliographic_note,"BnF 目录收录 El Otoño del patriarca 1975 年西语版（ark:/12148/cb352227127，ISBN 8401301556），作者归名 García Márquez, Gabriel (1927-2014)",bibliographic_note,,medium,candidate_for_staging_review,仅证目录存在与归名及出版年
+CAND-D-FCT-10,,CAND-D-ENT-02,story_premise,待核（通行描述：拉美独裁者「族长」之死与其漫长独裁统治的回溯）,gap_note,,low,gap,通行说法无已核验来源
+CAND-D-FCT-11,,CAND-D-ENT-02,setting_place,待核（通行：加勒比某无名国家，非写实地点）,gap_note,,low,gap,无直接证据
+CAND-D-FCT-12,,CAND-D-ENT-02,key_character,待核（通行：族长/独裁者，无名字的主人公）,gap_note,,low,gap,待核
+CAND-D-FCT-13,CAND-D-SRC-06,CAND-D-ENT-03,first_publication_year,1966,fact,,medium,candidate_for_staging_review,BnF 西语版记录显示 4e éd. 1967、6a ed. 1968、15a ed. 1976，据此推断初版 1966（间接证据；待第二来源确认后定 high）
+CAND-D-FCT-14,,CAND-D-ENT-03,genre_or_form,长篇小说,gap_note,,low,gap,BnF 记录未见形式标注；通行类型为长篇小说，本轮无直接来源
+CAND-D-FCT-15,CAND-D-SRC-06,CAND-D-ENT-03,bibliographic_note,"BnF 目录收录 La casa verde 西语多版（4e éd.1967 / 6a ed.1968 / 15a ed.1976 / 2023；ISBN 8432218728），作者归名 Vargas Llosa, Mario",bibliographic_note,,medium,candidate_for_staging_review,仅证目录存在与归名及版本史
+CAND-D-FCT-16,,CAND-D-ENT-03,story_premise,待核（通行描述：秘鲁皮乌拉与亚马逊丛林两地交错，以妓院「绿房子」为中心）,gap_note,,low,gap,通行说法无已核验来源
+CAND-D-FCT-17,,CAND-D-ENT-03,setting_place,待核（通行：秘鲁皮乌拉及亚马逊丛林地区）,gap_note,,low,gap,无直接证据；SET_IN 关系未提（见 RELATION 行 CAND-D-REL-14）
+CAND-D-FCT-18,,CAND-D-ENT-03,key_character,待核,gap_note,,low,gap,待核
+CAND-D-FCT-19,CAND-D-SRC-07,CAND-D-ENT-04,first_publication_year,1973,fact,,high,candidate_for_staging_review,BnF 目录记录原文：'Publication : Barcelona : Seix Barral，1973'
+CAND-D-FCT-20,,CAND-D-ENT-04,genre_or_form,长篇小说,gap_note,,low,gap,BnF 记录未见形式标注；通行类型为长篇小说，本轮无直接来源
+CAND-D-FCT-21,CAND-D-SRC-07,CAND-D-ENT-04,bibliographic_note,"BnF 目录记录：Pantaleón y las visitadoras / Mario Vargas Llosa，Barcelona : Seix Barral, 1973，309 p.，Biblioteca breve ; 352，ISBN 84-322-0252-5（ark:/12148/cb35234561k）",bibliographic_note,,high,candidate_for_staging_review,直接书目记录（出版社/年份/页数/丛书/ISBN）
+CAND-D-FCT-22,,CAND-D-ENT-04,story_premise,待核（通行描述：潘达雷昂上尉奉命组建「劳军女郎」服务队）,gap_note,,low,gap,通行说法无已核验来源
+CAND-D-FCT-23,,CAND-D-ENT-04,setting_place,待核（通行：秘鲁亚马逊地区驻军城镇）,gap_note,,low,gap,无直接证据
+CAND-D-FCT-24,,CAND-D-ENT-04,key_character,待核（通行：潘达雷昂·潘托哈上尉）,gap_note,,low,gap,待核
+CAND-D-FCT-25,CAND-D-SRC-10,CAND-D-ENT-05,first_publication_year,1974,fact,,high,candidate_for_staging_review,BnF 目录 1974 年西语版记录（El recurso del método，ISBN 8432301469）
+CAND-D-FCT-26,CAND-D-SRC-10,CAND-D-ENT-05,genre_or_form,长篇小说,fact,,high,candidate_for_staging_review,BnF 记录题名即标 ': novela'（El recurso del método : novela）
+CAND-D-FCT-27,CAND-D-SRC-10,CAND-D-ENT-05,bibliographic_note,"BnF 目录收录 El recurso del método 1974 年西语版（ark:/12148/cb37515697g；另一记录 ISBN 8432301469），作者归名 Carpentier, Alejo (1904-1980)",bibliographic_note,,medium,candidate_for_staging_review,仅证目录存在与归名及出版年
+CAND-D-FCT-28,,CAND-D-ENT-05,story_premise,待核（通行描述：拉美独裁者「首席长官」的故事）,gap_note,,low,gap,通行说法无已核验来源
+CAND-D-FCT-29,,CAND-D-ENT-05,setting_place,待核,gap_note,,low,gap,无直接证据
+CAND-D-FCT-30,,CAND-D-ENT-05,key_character,待核（通行：「首席长官」独裁者）,gap_note,,low,gap,待核
+CAND-D-FCT-31,CAND-D-SRC-11,CAND-D-ENT-06,first_publication_year,1974,fact,,high,candidate_for_staging_review,BnF 目录 1974 年西语版记录（Concierto barroco；同名记录 ISBN 8432301620）
+CAND-D-FCT-32,CAND-D-SRC-11,CAND-D-ENT-06,genre_or_form,中篇小说（novela）,fact,,high,candidate_for_staging_review,BnF 同名记录题名标 ': novela'（Concierto barroco : novela ([2a ed.])）
+CAND-D-FCT-33,CAND-D-SRC-11,CAND-D-ENT-06,bibliographic_note,"BnF 目录收录 Concierto barroco 1974 年西语版（ark:/12148/cb37546280h；另一记录 ark cb35215956x，ISBN 8432301620），作者归名 Carpentier, Alejo (1904-1980)",bibliographic_note,,medium,candidate_for_staging_review,仅证目录存在与归名及出版年
+CAND-D-FCT-34,,CAND-D-ENT-06,story_premise,待核（通行描述：墨西哥富翁与仆人游历欧洲并与亨德尔、维瓦尔第等相遇）,gap_note,,low,gap,通行说法无已核验来源
+CAND-D-FCT-35,,CAND-D-ENT-06,setting_place,待核（通行：哈瓦那、威尼斯、欧洲各城）,gap_note,,low,gap,无直接证据
+CAND-D-FCT-36,,CAND-D-ENT-06,key_character,待核（通行：墨西哥富翁「阿蒙多」及其黑人仆人）,gap_note,,low,gap,待核
+CAND-D-FCT-37,CAND-D-SRC-01,CAND-D-ENT-07,first_publication_year,1975,fact,,high,candidate_for_staging_review,BnF 目录 1975 年西语版记录（El Libro de arena；另 1997 版 ISBN 8478883223）
+CAND-D-FCT-38,CAND-D-SRC-01,CAND-D-ENT-07,genre_or_form,短篇集,fact,,medium,candidate_for_staging_review,BnF 法译版题名标 '[nouvelles]'（Le Livre de sable : [nouvelles]）
+CAND-D-FCT-39,CAND-D-SRC-01,CAND-D-ENT-07,bibliographic_note,"BnF 目录收录 El Libro de arena 1975 年西语版（ark:/12148/cb352339603），作者归名 Borges, Jorge Luis (1899-1986)",bibliographic_note,,medium,candidate_for_staging_review,仅证目录存在与归名及出版年
+CAND-D-FCT-40,,CAND-D-ENT-07,story_premise,待核（通行描述：同名篇目《沙之书》讲述一本无始无终、页码无尽之书）,gap_note,,low,gap,通行说法无已核验来源
+CAND-D-FCT-41,,CAND-D-ENT-07,key_character,待核,gap_note,,low,gap,待核
+CAND-D-FCT-42,,CAND-D-ENT-08,first_publication_year,1970（待核）,gap_note,,low,gap,BnF 本轮未见 1970 年西语初版直接记录（仅见 1972 法译、1986 西语合订本）；通行初版 1970（Emecé）待第二来源确认，见 ISSUES
+CAND-D-FCT-43,CAND-D-SRC-02,CAND-D-ENT-08,genre_or_form,短篇集,fact,,medium,candidate_for_staging_review,BnF 法译版题名标 '[nouvelles]'（Le Rapport de Brodie : [nouvelles]）
+CAND-D-FCT-44,CAND-D-SRC-02,CAND-D-ENT-08,bibliographic_note,"BnF 目录收录 El informe de Brodie 相关记录（含西语合订本 Ficciones ; El Aleph ; El informe de Brodie，委内瑞拉 1986，ark:/12148/cb354902694），作者归名 Borges, Jorge Luis (1899-1986)",bibliographic_note,,medium,candidate_for_staging_review,仅证目录存在与归名；初版年未直接标注
+CAND-D-FCT-45,,CAND-D-ENT-08,story_premise,待核,gap_note,,low,gap,待核（中译简介提及集内篇目《第三者》《小人》等，仅内容线索）
+CAND-D-FCT-46,,CAND-D-ENT-08,key_character,待核,gap_note,,low,gap,待核
+CAND-D-FCT-47,SRC-0066（reuse）,CAND-D-ENT-09,first_publication_year,1959,fact,,high,candidate_for_staging_review,复用 SRC-0066：BnF 记录标题即含 'Las armas secretas，1959'
+CAND-D-FCT-48,CAND-D-SRC-05,CAND-D-ENT-09,genre_or_form,短篇集,fact,,medium,candidate_for_staging_review,BnF 法译版题名标 '[nouvelles]'（Les armes secrètes : [nouvelles]）
+CAND-D-FCT-49,CAND-D-SRC-05,CAND-D-ENT-09,bibliographic_note,"主源复用 SRC-0066（BnF 记录 Relatos : Bestiario, 1951, Las armas secretas, 1959, ...，ark:/12148/cb352151483）；补充：本轮 BnF SRU 快照另见西语版 1970/1978/1988（ISBN 8420421324、8437601193），作者归名 Cortázar, Julio (1914-1984)",bibliographic_note,,high,candidate_for_staging_review,直接书目记录（reuse:SRC-0066 + 补充快照）
+CAND-D-FCT-50,,CAND-D-ENT-09,story_premise,待核（通行描述：同名篇目《秘密武器》讲述重逢与复仇）,gap_note,,low,gap,通行说法无已核验来源
+CAND-D-FCT-51,,CAND-D-ENT-09,key_character,待核,gap_note,,low,gap,待核
+CAND-D-FCT-52,,CAND-D-ENT-10,first_publication_year,1959（待核）,gap_note,,low,gap,BnF 本轮仅见 8a ed. 1992（ISBN 8440047037），未见 1959 初版直接记录；通行初版 1959 待核（建议下一轮查 CVC Neruda bibliografía，既有 SRC-0070），见 ISSUES
+CAND-D-FCT-53,CAND-D-SRC-08,CAND-D-ENT-10,genre_or_form,十四行诗集,fact,,medium,candidate_for_staging_review,BnF 记录题名即含 'sonetos'（Cien sonetos de amor），体裁由题名直接标示
+CAND-D-FCT-54,CAND-D-SRC-08,CAND-D-ENT-10,bibliographic_note,"BnF 目录收录 Cien sonetos de amor 多版（含 8a ed. 1992，ISBN 8440047037，ark:/12148/cb37376218c），作者归名 Neruda, Pablo",bibliographic_note,,medium,candidate_for_staging_review,仅证目录存在与归名
+CAND-D-FCT-55,CAND-D-SRC-09,CAND-D-ENT-11,first_publication_year,1971,fact,,high,candidate_for_staging_review,BnF 目录记录原文：'Publication : Rio de Janeiro : Sabiá，1971'
+CAND-D-FCT-56,CAND-D-SRC-09,CAND-D-ENT-11,genre_or_form,短篇集,fact,,high,candidate_for_staging_review,BnF 记录题名标 'contos'（Felicidade clandestina，contos）
+CAND-D-FCT-57,CAND-D-SRC-09,CAND-D-ENT-11,bibliographic_note,"BnF 目录记录：Felicidade clandestina, contos / Lispector, Clarice (1920-1977)，Rio de Janeiro : Sabiá, 1971（ark:/12148/cb35424958x）",bibliographic_note,,high,candidate_for_staging_review,直接书目记录（出版社/年份/体裁）
+CAND-D-FCT-58,,CAND-D-ENT-11,story_premise,待核,gap_note,,low,gap,待核
+CAND-D-FCT-59,,CAND-D-ENT-11,key_character,待核,gap_note,,low,gap,待核

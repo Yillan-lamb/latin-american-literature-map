@@ -1,0 +1,26 @@
+temporary_id,origin_material_id,subject_id,fact_field,value_text,material_class,origin_id,confidence,admission_status,usage_note
+CAND-B-FCT-001,CAND-B-SRC-001,CAND-B-ENT-001,birth_year,1889,fact,SRC-CAND-B-001（页面字段 Born: 7 April 1889）,high,batch_retained_candidate,诺贝尔官网 facts 页
+CAND-B-FCT-002,CAND-B-SRC-001,CAND-B-ENT-001,death_year,1957,fact,"SRC-CAND-B-001（页面字段 Died: 10 January 1957, Hempstead, NY, USA）",high,batch_retained_candidate,逝世地 Hempstead（纽约州）见于页面；出生地/逝世地不作 BORN_IN 关系
+CAND-B-FCT-003,CAND-B-SRC-001,CAND-B-ENT-001,country_or_region,智利,fact,SRC-CAND-B-001（获奖时居留地 Chile；生于智利）,high,batch_retained_candidate,参照 V1-FCT-0176（聂鲁达 country_or_region=智利）写法
+CAND-B-FCT-004,CAND-B-SRC-001,CAND-B-ENT-001,language,es,fact,SRC-CAND-B-001（页面 Language: Spanish）,high,batch_retained_candidate,参照 V1-FCT-0118 写法
+CAND-B-FCT-005,CAND-B-SRC-001,CAND-B-ENT-001,original_name,Lucila Godoy Alcayaga,fact,SRC-CAND-B-001（Life 段）,high,batch_retained_candidate,本名；笔名见 personal_note
+CAND-B-FCT-006,CAND-B-SRC-001,CAND-B-ENT-001,personal_note,"本名 Lucila Godoy Alcayaga；笔名 Gabriela Mistral 取自她喜爱的两位诗人 Gabriele D'Annunzio 与 Frédéric Mistral",fact,SRC-CAND-B-001（Life 段）,high,batch_retained_candidate,身份/笔名来源说明
+CAND-B-FCT-007,CAND-B-SRC-001,CAND-B-ENT-001,one_sentence_summary,"智利诗人，1945 年诺贝尔文学奖得主，南美洲（拉丁美洲）首位诺贝尔文学奖得主；出身教师，曾任智利驻多国领事",fact,SRC-CAND-B-001（Facts/Life/Work 段综合）,high,batch_retained_candidate,"南美洲首位为 Nobel 原文表述（South America's first ever Nobel Laureate in Literature）；packet 所称""拉丁美洲首位""与此一致（1945 年前无任何拉美国家作家获奖）"
+CAND-B-FCT-008,CAND-B-SRC-001,CAND-B-ENT-001,career_note,"15 岁起在故乡任教；后在拉丁美洲多国教育系统任职、参与多个委员会，并担任智利驻多个国家的领事",fact,SRC-CAND-B-001（Life 段）,high,batch_retained_candidate,参照 V1-FCT-0182（聂鲁达 career_note）写法
+CAND-B-FCT-009,CAND-B-SRC-001,CAND-B-ENT-001,award,诺贝尔文学奖（1945）,fact,SRC-CAND-B-001,high,batch_retained_candidate,参照 V1-FCT-0122（马尔克斯 award=诺贝尔文学奖（1982））写法
+CAND-B-FCT-010,CAND-B-SRC-002,CAND-B-ENT-001,research_note,"获奖理由：因其抒情诗以强烈情感为灵感，使她的名字成为整个拉丁美洲世界理想主义渴望的象征",research_note,SRC-CAND-B-002（Prize motivation 中文页引文）,high,batch_retained_candidate,参照 V1-FCT-0121（获奖理由 research_note）写法
+CAND-B-FCT-011,CAND-B-SRC-001,CAND-B-ENT-001,entity_layer,author,fact,SRC-CAND-B-001,high,batch_retained_candidate,参照 V1-FCT-0178（聂鲁达 entity_layer=author）写法
+CAND-B-FCT-012,CAND-B-SRC-001,CAND-B-ENT-001,birth_place,比库尼亚（Vicuña）,fact,"SRC-CAND-B-001（Born: 7 April 1889, Vicuña, Chile）",high,candidate_for_staging_review,"智利科金博大区 Elqui 河谷城镇（河谷/大区细节按 D1 移入 note）；既有 fact_field 词表无 birth_place，按操作手册 SOP-B §8 以事实记录；同一信息另以 ASSOCIATED_WITH_PLACE→比库尼亚承载；禁止 BORN_IN 关系"
+CAND-B-FCT-013,CAND-B-SRC-003,CAND-B-ENT-002,first_publication_year,1922,fact,"SRC-CAND-B-003（Desolación. – New York : Instituto de las Españas, 1922）",high,batch_retained_candidate,首版书目直接来源；出版信息用字段，不用 PUBLISHED_IN 关系
+CAND-B-FCT-014,CAND-B-SRC-003,CAND-B-ENT-002,genre_or_form,诗集（poesía）,fact,SRC-CAND-B-003,high,batch_retained_candidate,诗集层级=collection
+CAND-B-FCT-015,CAND-B-SRC-003,CAND-B-ENT-002,bibliographic_note,"首版：New York : Instituto de las Españas, 1922（诺贝尔官网书目）；中文合集/诗选收录范围待核验",fact,SRC-CAND-B-003,high,batch_retained_candidate,参照既有 bibliographic_note 用法
+CAND-B-FCT-016,CAND-B-SRC-003,CAND-B-ENT-003,first_publication_year,1924,fact,"SRC-CAND-B-003（Ternura : canciones de niños. – Madrid : Saturnino Calleja, 1924）",high,batch_retained_candidate,首版书目直接来源
+CAND-B-FCT-017,CAND-B-SRC-001,CAND-B-ENT-003,genre_or_form,诗集（儿童摇篮曲与歌谣）,fact,SRC-CAND-B-001（contains lullabies and rhymes for children）,high,batch_retained_candidate,体裁描述出自 Nobel Facts 页
+CAND-B-FCT-018,CAND-B-SRC-003,CAND-B-ENT-003,bibliographic_note,"首版：Madrid : Saturnino Calleja, 1924（Ternura: canciones de niños）；中文《柔情》/诗选收录范围待核验",fact,SRC-CAND-B-003,high,batch_retained_candidate,
+CAND-B-FCT-019,CAND-B-SRC-001,CAND-B-ENT-003,one_sentence_summary,"以摇篮曲和儿童歌谣为主体的诗集（Nobel Facts 页：""contains lullabies and rhymes for children""）",fact,SRC-CAND-B-001,high,batch_retained_candidate,Nobel 官方表述直引
+CAND-B-FCT-020,CAND-B-SRC-003,CAND-B-ENT-004,first_publication_year,1938,fact,"SRC-CAND-B-003（Tala. – Buenos Aires : Sur, 1938）",high,batch_retained_candidate,首版书目直接来源
+CAND-B-FCT-021,CAND-B-SRC-003,CAND-B-ENT-004,genre_or_form,诗集（poesía）,fact,SRC-CAND-B-003,high,batch_retained_candidate,
+CAND-B-FCT-022,CAND-B-SRC-003,CAND-B-ENT-004,bibliographic_note,"首版：Buenos Aires : Sur, 1938（诺贝尔官网书目）；中文收录待核验",fact,SRC-CAND-B-003,high,batch_retained_candidate,
+CAND-B-FCT-023,CAND-B-SRC-001,CAND-B-ENT-004,one_sentence_summary,"采用不寻常意象与自由诗的诗集（Nobel Facts 页：""employs unusual imagery and free verse""）",fact,SRC-CAND-B-001,high,batch_retained_candidate,Nobel 官方表述直引
+CAND-B-FCT-024,CAND-B-SRC-001,CAND-B-ENT-005,event_year_range,1945,context_fact,SRC-CAND-B-001,high,batch_retained_candidate,参照 V1-FCT-0221（卡努杜斯战争 event_year_range=1896-1897）写法
+CAND-B-FCT-025,CAND-B-SRC-001,CAND-B-ENT-005,one_sentence_summary,"1945 年诺贝尔文学奖授予智利诗人加夫列拉·米斯特拉尔，系南美洲（拉丁美洲）首位获奖作家",context_fact,SRC-CAND-B-001,high,batch_retained_candidate,"参照 V1-ENT-0112（1982 年诺奖）实体模式；该既有事件暂无 facts，本候选为事件事实增强示例"

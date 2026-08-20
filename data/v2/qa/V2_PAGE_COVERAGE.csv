@@ -1,6 +1,6 @@
 target_id,target_type,name_zh,page_type,page_status,card_id,card_status,issue_code,map_status,relation_count,coordinate_status,page_action,notes
 V1-ENT-0001,place,阿根廷,country,full,,,,featured,1,country_polygon_required,生成国家页,国家层由 parent_place_id 和作者/作品地点关系驱动
-V1-ENT-0002,author,豪尔赫·路易斯·博尔赫斯,author,full,V1-CARD-0001,meets,NONE,,4,,生成完整作者页,V1 作者卡可直接支撑页面骨架
+V1-ENT-0002,author,豪尔赫·路易斯·博尔赫斯,author,full,V1-CARD-0001,meets,NONE,,6,,生成完整作者页,V1 作者卡可直接支撑页面骨架
 V1-ENT-0003,work,《小径分岔的花园》,work,full,V1-CARD-0003,meets,NONE,,0,,生成完整作品页,内容卡满足最低来源状态
 V1-ENT-0004,work,《阿莱夫》,work,full,V1-CARD-0004,meets,NONE,,0,,生成完整作品页,内容卡满足最低来源状态
 V1-ENT-0005,author,阿图尔·叔本华,author,related_only,,,,,0,,保留关联节点,无 V1 作者卡；不得用策展文案补足完整页
@@ -14,7 +14,7 @@ V1-ENT-0012,collection,《阿莱夫》,collection_module,module_only,,,,,0,,进�
 V1-ENT-0013,theme,时间的分岔与无限（多重未来）,related_node,research_only,,,,,0,,保留研究关联节点,当前无独立页面模板
 V1-ENT-0014,theme,记忆与遗忘,related_node,research_only,,,,,0,,保留研究关联节点,当前无独立页面模板
 V1-ENT-0015,theme,无限与不可言说（阿莱夫）,related_node,research_only,,,,,0,,保留研究关联节点,当前无独立页面模板
-V1-ENT-0016,author,克拉丽丝·李斯佩克朵,author,full,V1-CARD-0002,meets,NONE,,5,,生成完整作者页,V1 作者卡可直接支撑页面骨架
+V1-ENT-0016,author,克拉丽丝·李斯佩克朵,author,full,V1-CARD-0002,meets,NONE,,6,,生成完整作者页,V1 作者卡可直接支撑页面骨架
 V1-ENT-0017,work,《活水》,work,full,V1-CARD-0006,meets,NONE,,0,,生成完整作品页,内容卡满足最低来源状态
 V1-ENT-0018,work,《星辰时刻》,work,full,V1-CARD-0007,meets,NONE,,0,,生成完整作品页,内容卡满足最低来源状态
 V1-ENT-0019,collection,《家庭纽带》,collection_module,module_only,V1-CARD-0008,meets,NONE,,0,,进入作者/作品页关联模块,V2-N2 不单独建设集合页
@@ -49,15 +49,15 @@ V1-ENT-0047,character,弗朗西斯科·罗萨斯,related_node,research_only,,,,,
 V1-ENT-0048,character,胡利娅·安德拉德,related_node,research_only,,,,,0,,保留研究关联节点,当前无独立页面模板
 V1-ENT-0049,character,胡安·普雷西亚多,related_node,research_only,,,,,0,,保留研究关联节点,当前无独立页面模板
 V1-ENT-0050,character,佩德罗·巴拉莫（人物）,related_node,research_only,,,,,0,,保留研究关联节点,当前无独立页面模板
-V1-ENT-0051,place,墨西哥,country,full,,,,featured,2,country_polygon_required,生成国家页,国家层由 parent_place_id 和作者/作品地点关系驱动
+V1-ENT-0051,place,墨西哥,country,full,,,,featured,3,country_polygon_required,生成国家页,国家层由 parent_place_id 和作者/作品地点关系驱动
 V1-ENT-0052,place,恰帕斯,real_place,full_with_point,,,,eligible,2,region_centroid,生成地点页,坐标精度与来源在页面显示
 V1-ENT-0053,place,科米坦,real_place,full_with_point,,,,eligible,1,city_centroid,生成地点页,坐标精度与来源在页面显示
 V1-ENT-0054,place,伊斯特佩克,real_place,full_with_point,,,,eligible,1,city_centroid,生成地点页,坐标精度与来源在页面显示
 V1-ENT-0055,place,科马拉,fictional_space,full_without_point,,,,featured,1,none,生成文学空间页,文学空间不使用现实坐标
-V1-ENT-0056,place,墨西哥城,real_place,research_only,,,,hidden,0,city_centroid,保留研究节点，不进入默认地图,V1 当前没有正式文学地点关系
+V1-ENT-0056,place,墨西哥城,real_place,full_with_point,,,,eligible,2,city_centroid,生成地点页,坐标精度与来源在页面显示
 V1-ENT-0057,place,圣加布里埃尔,real_place,full_with_point,,,,eligible,1,city_centroid,生成地点页,坐标精度与来源在页面显示
 V1-ENT-0058,person,阿图罗·里普斯坦,related_node,research_only,,,,,0,,保留研究关联节点,当前无独立页面模板
-V1-ENT-0059,author,奥克塔维奥·帕斯,author,related_only,,,,,0,,保留关联节点,无 V1 作者卡；不得用策展文案补足完整页
+V1-ENT-0059,author,奥克塔维奥·帕斯,author,full,V1-CARD-0048,meets,NONE,,3,,生成完整作者页,V1 作者卡可直接支撑页面骨架
 V1-ENT-0060,institution,经济文化基金出版社,related_node,research_only,,,,,0,,保留研究关联节点,当前无独立页面模板
 V1-ENT-0061,institution,华金·莫蒂斯出版社,related_node,research_only,,,,,0,,保留研究关联节点,当前无独立页面模板
 V1-ENT-0062,institution,墨西哥国立自治大学,related_node,research_only,,,,,0,,保留研究关联节点,当前无独立页面模板
@@ -70,9 +70,9 @@ V1-ENT-0068,theme,暴力与语言,related_node,research_only,,,,,0,,保留研究
 V1-ENT-0069,theme,沉默,related_node,research_only,,,,,0,,保留研究关联节点,当前无独立页面模板
 V1-ENT-0070,theme,革命与基督战争,related_node,research_only,,,,,0,,保留研究关联节点,当前无独立页面模板
 V1-ENT-0071,theme,乡村与革命后的土地,related_node,research_only,,,,,0,,保留研究关联节点,当前无独立页面模板
-V1-ENT-0072,author,加西亚·马尔克斯,author,full,V1-CARD-0021,meets,NONE,,3,,生成完整作者页,V1 作者卡可直接支撑页面骨架
-V1-ENT-0073,author,胡利奥·科塔萨尔,author,full,V1-CARD-0025,meets,NONE,,5,,生成完整作者页,V1 作者卡可直接支撑页面骨架
-V1-ENT-0074,author,阿莱霍·卡彭铁尔,author,full,V1-CARD-0029,meets,NONE,,3,,生成完整作者页,V1 作者卡可直接支撑页面骨架
+V1-ENT-0072,author,加西亚·马尔克斯,author,full,V1-CARD-0021,meets,NONE,,5,,生成完整作者页,V1 作者卡可直接支撑页面骨架
+V1-ENT-0073,author,胡利奥·科塔萨尔,author,full,V1-CARD-0025,meets,NONE,,6,,生成完整作者页,V1 作者卡可直接支撑页面骨架
+V1-ENT-0074,author,阿莱霍·卡彭铁尔,author,full,V1-CARD-0029,meets,NONE,,5,,生成完整作者页,V1 作者卡可直接支撑页面骨架
 V1-ENT-0075,work,《百年孤独》,work,full,V1-CARD-0022,meets,NONE,,0,,生成完整作品页,内容卡满足最低来源状态
 V1-ENT-0076,work,《没有人给他写信的上校》,work,full,V1-CARD-0023,meets,DUAL-YEAR,,0,,生成完整作品页,内容卡满足最低来源状态
 V1-ENT-0077,work,《一桩事先张扬的凶杀案》,work,full,V1-CARD-0024,meets,NONE,,0,,生成完整作品页,内容卡满足最低来源状态
@@ -112,8 +112,8 @@ V1-ENT-0110,theme,艺术、启蒙与现代性批判,related_node,research_only,,
 V1-ENT-0111,theme,城市浪漫与偶然,related_node,research_only,,,,,0,,保留研究关联节点,当前无独立页面模板
 V1-ENT-0112,event,1982 年诺贝尔文学奖,timeline_node,background_only,,,,,0,,进入时间线背景节点,历史事件不生成独立地图层
 V1-ENT-0113,institution,塞万提斯学院,related_node,research_only,,,,,0,,保留研究关联节点,当前无独立页面模板
-V1-ENT-0114,author,马里奥·巴尔加斯·略萨,author,full,V1-CARD-0033,meets,NONE,,3,,生成完整作者页,V1 作者卡可直接支撑页面骨架
-V1-ENT-0115,author,巴勃罗·聂鲁达,author,full,V1-CARD-0037,meets,AUTHOR-LEVEL-POLITICAL,,4,,生成完整作者页,V1 作者卡可直接支撑页面骨架
+V1-ENT-0114,author,马里奥·巴尔加斯·略萨,author,full,V1-CARD-0033,meets,NONE,,5,,生成完整作者页,V1 作者卡可直接支撑页面骨架
+V1-ENT-0115,author,巴勃罗·聂鲁达,author,full,V1-CARD-0037,meets,AUTHOR-LEVEL-POLITICAL,,5,,生成完整作者页,V1 作者卡可直接支撑页面骨架
 V1-ENT-0116,work,《城市与狗》,work,full,V1-CARD-0034,meets,NONE,,0,,生成完整作品页,内容卡满足最低来源状态
 V1-ENT-0117,work,《酒吧长谈》,work,full,V1-CARD-0035,meets,NONE,,0,,生成完整作品页,内容卡满足最低来源状态
 V1-ENT-0118,work,《世界末日之战》,work,full,V1-CARD-0036,meets,CONTEXT-EVENT,,0,,生成完整作品页,内容卡满足最低来源状态
@@ -121,7 +121,7 @@ V1-ENT-0119,collection,《二十首情诗和一支绝望的歌》,collection_mod
 V1-ENT-0120,collection,《大地上的居所》,collection_module,module_only,V1-CARD-0039,meets,POLITICAL-GAP,,0,,进入作者/作品页关联模块,V2-N2 不单独建设集合页
 V1-ENT-0121,collection,《漫歌》,collection_module,module_only,V1-CARD-0040,meets,POLITICAL-HOLD,,0,,进入作者/作品页关联模块,V2-N2 不单独建设集合页
 V1-ENT-0122,work,《马丘比丘高地》,work,related_only,,,,,0,,保留关联节点,无 V1 作品卡；不得用策展文案补足完整页
-V1-ENT-0123,place,智利,country,full,,,,featured,1,country_polygon_required,生成国家页,国家层由 parent_place_id 和作者/作品地点关系驱动
+V1-ENT-0123,place,智利,country,full,,,,featured,2,country_polygon_required,生成国家页,国家层由 parent_place_id 和作者/作品地点关系驱动
 V1-ENT-0124,place,秘鲁,country,full,,,,featured,1,country_polygon_required,生成国家页,国家层由 parent_place_id 和作者/作品地点关系驱动
 V1-ENT-0125,place,利马,real_place,full_with_point,,,,eligible,2,city_centroid,生成地点页,坐标精度与来源在页面显示
 V1-ENT-0126,place,阿雷基帕,real_place,full_with_point,,,,eligible,1,city_centroid,生成地点页,坐标精度与来源在页面显示
@@ -143,4 +143,27 @@ V1-ENT-0141,character,劝世者,related_node,research_only,,,,,0,,保留研究�
 V1-ENT-0142,person,玛丽亚·安东涅塔·阿吉雷,related_node,research_only,,,,,0,,保留研究关联节点,当前无独立页面模板
 V1-ENT-0143,person,德莉亚·德尔·卡里尔,related_node,research_only,,,,,0,,保留研究关联节点,当前无独立页面模板
 V1-ENT-0144,institution,智利共产党,related_node,research_only,,,,,0,,保留研究关联节点,当前无独立页面模板
+V1-ENT-0145,author,卡洛斯·富恩特斯,author,full,V1-CARD-0041,meets,NONE,,3,,生成完整作者页,V1 作者卡可直接支撑页面骨架
+V1-ENT-0146,work,《最明净的地区》,work,full,V1-CARD-0042,meets,NONE,,0,,生成完整作品页,内容卡满足最低来源状态
+V1-ENT-0147,work,《阿尔特米奥·克罗斯之死》,work,full,V1-CARD-0043,meets,TRANSLATION-YEAR-HOLD,,0,,生成完整作品页,内容卡满足最低来源状态
+V1-ENT-0148,author,加夫列拉·米斯特拉尔,author,full,V1-CARD-0044,meets,NONE,,3,,生成完整作者页,V1 作者卡可直接支撑页面骨架
+V1-ENT-0149,collection,《绝望集》,collection_module,module_only,V1-CARD-0045,meets,NONE,,0,,进入作者/作品页关联模块,V2-N2 不单独建设集合页
+V1-ENT-0150,collection,《柔情集》,collection_module,module_only,V1-CARD-0046,meets,NONE,,0,,进入作者/作品页关联模块,V2-N2 不单独建设集合页
+V1-ENT-0151,collection,《塔拉集》,collection_module,module_only,V1-CARD-0047,meets,NONE,,0,,进入作者/作品页关联模块,V2-N2 不单独建设集合页
+V1-ENT-0153,place,比库尼亚,real_place,full_with_point,,,,eligible,1,city_centroid,生成地点页,坐标精度与来源在页面显示
+V1-ENT-0154,work,《孤独的迷宫》,work,full,V1-CARD-0049,meets,NONE,,0,,生成完整作品页,内容卡满足最低来源状态
+V1-ENT-0155,work,《弓与琴》,work,full,V1-CARD-0050,meets,NONE,,0,,生成完整作品页,内容卡满足最低来源状态
+V1-ENT-0156,work,《太阳石》,work,full,V1-CARD-0051,meets,NONE,,0,,生成完整作品页,内容卡满足最低来源状态
+V1-ENT-0158,work,《霍乱时期的爱情》,work,full,V1-CARD-0052,meets,NONE,,0,,生成完整作品页,内容卡满足最低来源状态
+V1-ENT-0159,work,《族长的秋天》,work,full,V1-CARD-0053,meets,NONE,,0,,生成完整作品页,内容卡满足最低来源状态
+V1-ENT-0160,work,《绿房子》,work,full,V1-CARD-0054,meets,NONE,,0,,生成完整作品页,内容卡满足最低来源状态
+V1-ENT-0161,work,《潘达雷昂上尉与劳军女郎》,work,full,V1-CARD-0055,meets,NONE,,0,,生成完整作品页,内容卡满足最低来源状态
+V1-ENT-0162,collection,《沙之书》,collection_module,module_only,V1-CARD-0056,meets,NONE,,0,,进入作者/作品页关联模块,V2-N2 不单独建设集合页
+V1-ENT-0163,collection,《布罗迪报告》,collection_module,module_only,V1-CARD-0057,meets,NONE,,0,,进入作者/作品页关联模块,V2-N2 不单独建设集合页
+V1-ENT-0164,collection,《秘密武器》,collection_module,module_only,V1-CARD-0058,meets,NONE,,0,,进入作者/作品页关联模块,V2-N2 不单独建设集合页
+V1-ENT-0165,collection,《一百首爱情十四行诗》,collection_module,module_only,V1-CARD-0059,meets,NONE,,0,,进入作者/作品页关联模块,V2-N2 不单独建设集合页
+V1-ENT-0166,collection,《隐秘的幸福》,collection_module,module_only,V1-CARD-0060,meets,NONE,,0,,进入作者/作品页关联模块,V2-N2 不单独建设集合页
+V1-ENT-0167,collection,《时间之战》,collection_module,module_only,V1-CARD-0061,meets,NONE,,0,,进入作者/作品页关联模块,V2-N2 不单独建设集合页
+V1-ENT-0168,work,《追击》,work,full,V1-CARD-0062,meets,NONE,,0,,生成完整作品页,内容卡满足最低来源状态
+V1-ENT-0169,work,《奥拉》,work,full,V1-CARD-0063,meets,NONE,,0,,生成完整作品页,内容卡满足最低来源状态
 V2-GEO-BR,country,巴西,country,full,,,,featured,0,country_polygon_required,生成国家页,V2 技术父级；不新增 V1 研究实体

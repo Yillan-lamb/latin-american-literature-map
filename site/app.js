@@ -213,7 +213,7 @@ function mapMarkup() {
     return `<path d="${featurePath(feature)}" class="country-shape ${country ? "available" : ""} ${active ? "active" : ""}" ${country ? `data-country-id="${escapeHtml(country.place_id)}" tabindex="0" role="button" aria-pressed="${active}" aria-label="探索${escapeHtml(country.name_zh)}文学"` : `aria-hidden="true"`}><title>${escapeHtml(country?.name_zh || feature.properties.ADMIN)}</title></path>`;
   }).join("");
   const realNodes = visibleRealMapPlaces();
-  const labelOffsets = { "V1-ENT-0052": [10, -12], "V1-ENT-0053": [10, 16], "V1-ENT-0054": [-72, 16] };
+  const labelOffsets = { "V1-ENT-0052": [10, -12], "V1-ENT-0053": [10, 16], "V1-ENT-0054": [-72, 16], "V1-ENT-0056": [10, -20] };
   const points = realNodes.map((item) => {
     const [x, y] = project([item.longitude, item.latitude]);
     const [dx, dy] = labelOffsets[item.place_id] || [10, 4];

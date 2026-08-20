@@ -1,0 +1,5 @@
+temporary_id,entity_type,name_zh,original_name,canonical_status,origin_count,origin_refs,normalization_basis,issue_codes
+CAND-A-ENT-01,author,卡洛斯·富恩特斯,Carlos Fuentes,candidate,2,CAND-A-SRC-01;CAND-A-SRC-02,BnF 权威记录核验（姓名与生卒年份一致）；通行中译名'富恩特斯'；与主库 LIKE 查重无冲突,
+CAND-A-ENT-02,work,《最明净的地区》,La región más transparente,candidate,1,CAND-A-SRC-02,BnF 目录在作者名下收录该作品（8 条记录）；中译名按通行译法暂定，待中译核验批次确认,TRANSLATION_PENDING
+CAND-A-ENT-03,work,《奥拉》,Aura,pending,0,,本轮无已核验来源（BnF 检索可见面未出现该作品；Wikipedia/Britannica 未打开）；'奥拉'为通行中译名，实体创建前须先补来源,NEEDS_SOURCE;TRANSLATION_PENDING
+CAND-A-ENT-04,work,《阿尔特米奥·克罗斯之死》,La muerte de Artemio Cruz,candidate,1,CAND-A-SRC-02,BnF 目录在作者名下收录该作品（5 条记录）；中译名按通行译法暂定，待中译核验批次确认,TRANSLATION_PENDING

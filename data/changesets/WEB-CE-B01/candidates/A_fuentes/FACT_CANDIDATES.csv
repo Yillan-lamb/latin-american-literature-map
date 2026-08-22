@@ -1,0 +1,24 @@
+temporary_id,origin_material_id,subject_id,fact_field,value_text,material_class,origin_id,confidence,admission_status,usage_note
+CAND-A-FCT-01,CAND-A-SRC-01,CAND-A-ENT-01,birth_year,1928,fact,,high,candidate_for_staging_review,BnF 权威记录 birthDate=11-11-1928
+CAND-A-FCT-02,CAND-A-SRC-01,CAND-A-ENT-01,death_year,2012,fact,,high,candidate_for_staging_review,BnF 权威记录 deathDate=15-05-2012
+CAND-A-FCT-03,CAND-A-SRC-01,CAND-A-ENT-01,country_or_region,墨西哥,fact,,high,candidate_for_staging_review,BnF 权威记录 nationality=Mexique
+CAND-A-FCT-04,,CAND-A-ENT-01,language,es（西班牙语）,gap_note,,low,gap,本轮无已打开来源直接标注语言；按墨西哥作家身份推定，待作品记录或其他来源确认
+CAND-A-FCT-05,CAND-A-SRC-01,CAND-A-ENT-01,one_sentence_summary,墨西哥小说家、散文家与剧作家；1975–1977 年任墨西哥驻法国大使，1985 年在哈佛大学任文学教授,fact,,medium,candidate_for_staging_review,据 BnF description 直译的最小版本；待 Britannica/Wikipedia 打开后补全文学成就与代表作品表述
+CAND-A-FCT-06,CAND-A-SRC-01,CAND-A-ENT-01,career_note,"1975–1977 年任墨西哥驻法国大使；1985 年在哈佛大学任文学教授（据 BnF 描述：'Ambassadeur du Mexique en France de 1975 à 1977, professeur de littérature à Harvard (en 1985)'）",fact,,medium,candidate_for_staging_review,BnF 单一来源；补充其他生平履历待第二来源
+CAND-A-FCT-07,CAND-A-SRC-01,CAND-A-ENT-01,personal_note,"出生地：BnF 权威记录标注为巴黎（Paris, 11-11-1928）；与本任务假定及通行说法'巴拿马城'冲突，须第二来源仲裁（见 ISSUES.md）",hold_note,,low,hold,出生地以 fact 记录，禁止 BORN_IN 关系；冲突未决前不写入正式库
+CAND-A-FCT-08,,CAND-A-ENT-01,nationality_history,待核：墨西哥籍（父亲为墨西哥外交官、童年随外交职务辗转等说法本轮无已核验来源）,gap_note,,low,gap,无已核验来源，不作候选
+CAND-A-FCT-09,,CAND-A-ENT-01,award,待核：通行记载有塞万提斯奖（1987）、罗慕洛·加列戈斯奖（1977）等，本轮无已核验来源,gap_note,,low,gap,无已核验来源；线索见 ISSUES.md，待下一轮补验
+CAND-A-FCT-10,CAND-A-SRC-02,CAND-A-ENT-02,bibliographic_note,"BnF 目录在作者 'Fuentes, Carlos (1928-2012)' 名下收录 La región más transparente 相关记录 8 条（检索快照 2026-08-18）",bibliographic_note,,medium,candidate_for_staging_review,仅证目录存在与归名，不含出版细节
+CAND-A-FCT-11,,CAND-A-ENT-02,first_publication_year,1958（待核）,gap_note,,low,gap,任务假定 1958，本轮无已打开来源确认，需打开 BnF 作品记录或权威书目
+CAND-A-FCT-12,,CAND-A-ENT-02,genre_or_form,长篇小说（待核）,gap_note,,low,gap,待核
+CAND-A-FCT-13,,CAND-A-ENT-02,story_premise,待核,gap_note,,low,gap,需原作或合格来源释义
+CAND-A-FCT-14,,CAND-A-ENT-02,setting_place,墨西哥城（待核；SET_IN 关系另需直接场景证据）,gap_note,,low,gap,待核
+CAND-A-FCT-15,,CAND-A-ENT-02,key_character,待核,gap_note,,low,gap,待核
+CAND-A-FCT-16,,CAND-A-ENT-03,bibliographic_note,本轮无已核验来源（实体本身待来源确认）,gap_note,,low,gap,见 ISSUES.md
+CAND-A-FCT-17,,CAND-A-ENT-03,first_publication_year,1962（待核）,gap_note,,low,gap,任务假定 1962，本轮无已打开来源确认
+CAND-A-FCT-18,,CAND-A-ENT-03,genre_or_form,中篇/novella（待核）,gap_note,,low,gap,待核
+CAND-A-FCT-19,CAND-A-SRC-02,CAND-A-ENT-04,bibliographic_note,BnF 目录在作者名下收录 La muerte de Artemio Cruz 相关记录 5 条（检索快照 2026-08-18）,bibliographic_note,,medium,candidate_for_staging_review,仅证目录存在与归名，不含出版细节
+CAND-A-FCT-20,,CAND-A-ENT-04,first_publication_year,1962（待核）,gap_note,,low,gap,任务假定 1962，本轮无已打开来源确认
+CAND-A-FCT-21,,CAND-A-ENT-04,genre_or_form,长篇小说（待核）,gap_note,,low,gap,待核
+CAND-A-FCT-22,,CAND-A-ENT-04,story_premise,待核（通行描述：濒死的地产大亨阿尔特米奥·克罗斯在生命最后时刻回望一生，串联墨西哥革命至 1959 年的历史）,gap_note,,low,gap,上句为通行说法，本轮无已核验来源，不得直接采用，待核验
+CAND-A-FCT-23,,CAND-A-ENT-04,key_character,阿尔特米奥·克罗斯（待核）,gap_note,,low,gap,待核

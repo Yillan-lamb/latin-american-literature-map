@@ -1,0 +1,48 @@
+{
+  "batch": "WEB-CE-B07",
+  "plan": "反诗、女性诗歌与乌拉圭大众文学",
+  "started_at": "2026-08-21",
+  "review_metadata": {
+    "origin_batch": "WEB-CE-B07",
+    "created_at": "2026-08-21",
+    "reviewed_at": null,
+    "reviewer": "LUNA-MAX-B07-REVIEW",
+    "review_status": "PASS",
+    "basis_note": "fresh-context Reviewer required before migration"
+  },
+  "display_name_policy": {
+    "applies_to": "all authors[].works[]",
+    "default_status": "common_title",
+    "basis": "60+ roadmap reader-facing label; no Chinese-edition bibliographic claim"
+  },
+  "authors": [
+    {"entity_id":"V1-ENT-0236","name_zh":"尼卡诺尔·帕拉","original_name":"Nicanor Parra","country_or_region":"智利","birth_year":"1914","death_year":"2018","birth_place":"圣法比安·德·阿利科（San Fabián de Alico）","career_note":"诗人","source_ids":["SRC-0188","SRC-0189"],"place_id":"V1-ENT-0123","works":[
+      {"entity_id":"V1-ENT-0239","name_zh":"《诗歌与反诗歌》","original_name":"Poemas y antipoemas","entity_type":"collection","year":"1954","display_name_status":"common_title","display_name_basis":"路线图与中文读者通行译名","source_ids":["SRC-0188","SRC-0189"]},
+      {"entity_id":"V1-ENT-0240","name_zh":"《沙龙篇》","original_name":"Versos de salón","entity_type":"collection","year":"1962","display_name_status":"common_title","display_name_basis":"路线图与中文读者通行译名","source_ids":["SRC-0188","SRC-0189"]},
+      {"entity_id":"V1-ENT-0241","name_zh":"《饭后演讲》","original_name":"Discursos de sobremesa","entity_type":"collection","year":"1997","display_name_status":"common_title","display_name_basis":"路线图与中文读者通行译名；西文书目形态保留","source_ids":["SRC-0189","SRC-0190"]}
+    ]},
+    {"entity_id":"V1-ENT-0237","name_zh":"阿莱杭德拉·皮扎尼克","original_name":"Alejandra Pizarnik","country_or_region":"阿根廷","birth_year":"1936","death_year":"1972","birth_place":"阿韦亚内达（Avellaneda）","career_note":"诗人","source_ids":["SRC-0191","SRC-0192"],"place_id":"V1-ENT-0001","works":[
+      {"entity_id":"V1-ENT-0242","name_zh":"《狄安娜之树》","original_name":"Árbol de Diana","entity_type":"collection","year":"1962","display_name_status":"common_title","display_name_basis":"路线图与中文读者通行译名","source_ids":["SRC-0192"]},
+      {"entity_id":"V1-ENT-0243","name_zh":"《作品与夜晚》","original_name":"Los trabajos y las noches","entity_type":"collection","year":"1965","display_name_status":"common_title","display_name_basis":"路线图与中文读者通行译名","source_ids":["SRC-0192"]},
+      {"entity_id":"V1-ENT-0244","name_zh":"《取出疯石》","original_name":"Extracción de la piedra de locura","entity_type":"collection","year":"1968","display_name_status":"common_title","display_name_basis":"路线图与中文读者通行译名","source_ids":["SRC-0192","SRC-0193"]}
+    ]},
+    {"entity_id":"V1-ENT-0238","name_zh":"马里奥·贝内德蒂","original_name":"Mario Benedetti","country_or_region":"乌拉圭","birth_year":"1920","death_year":"2009","birth_place":"帕索德洛斯托罗斯（Paso de los Toros）","career_note":"作家、诗人","source_ids":["SRC-0194","SRC-0195"],"place_id":"V1-ENT-0196","works":[
+      {"entity_id":"V1-ENT-0245","name_zh":"《休战》","original_name":"La tregua","entity_type":"work","year":"1960","display_name_status":"common_title","display_name_basis":"路线图与中文读者通行译名","source_ids":["SRC-0195"]},
+      {"entity_id":"V1-ENT-0246","name_zh":"《谢谢你的火》","original_name":"Gracias por el fuego","entity_type":"work","year":"1965","display_name_status":"common_title","display_name_basis":"路线图与中文读者通行译名","source_ids":["SRC-0195"]},
+      {"entity_id":"V1-ENT-0247","name_zh":"《蒙得维的亚人》","original_name":"Montevideanos","entity_type":"collection","year":"1959","display_name_status":"common_title","display_name_basis":"路线图与中文读者通行译名","source_ids":["SRC-0195","SRC-0196"]}
+    ]}
+  ],
+  "places": [],
+  "source_registry": [
+    {"source_id":"SRC-0188","title":"Nicanor Parra (1914-2018)","url":"https://www.memoriachilena.gob.cl/602/w3-article-3629.html","source_level":"B","access":"access_pass"},
+    {"source_id":"SRC-0189","title":"Fichas bibliográficas I — Nicanor Parra","url":"https://www.nicanorparra.uchile.cl/bibliografia/bibliogr.html","source_level":"B","access":"access_pass"},
+    {"source_id":"SRC-0190","title":"Portada de Discursos de sobremesa, 1997","url":"https://www.memoriachilena.gob.cl/602/w3-article-71481.html","source_level":"B","access":"access_pass"},
+    {"source_id":"SRC-0191","title":"Alejandra Pizarnik, salvaje e indagadora","url":"https://www.cultura.gob.ar/alejandra-pizarnik-10448/","source_level":"B","access":"access_pass"},
+    {"source_id":"SRC-0192","title":"CVC. Alejandra Pizarnik. Bibliografía. Obras","url":"https://cvc.cervantes.es/literatura/escritores/pizarnik/bibliografia/default.htm","source_level":"B","access":"access_pass"},
+    {"source_id":"SRC-0193","title":"CVC. Alejandra Pizarnik. Obra","url":"https://cvc.cervantes.es/literatura/escritores/pizarnik/obra/","source_level":"B","access":"access_pass"},
+    {"source_id":"SRC-0194","title":"Mario Benedetti — Biografía","url":"https://fundacionmariobenedetti.uy/mariobenedettibio/","source_level":"B","access":"access_pass"},
+    {"source_id":"SRC-0195","title":"Su obra: 1959-1965","url":"https://fundacionmariobenedetti.uy/obras-59-65/","source_level":"B","access":"access_pass"},
+    {"source_id":"SRC-0196","title":"Obras y libros — Fundación Mario Benedetti","url":"https://fundacionmariobenedetti.uy/obras-y-libros/","source_level":"B","access":"access_pass"}
+  ],
+  "holds": []
+}

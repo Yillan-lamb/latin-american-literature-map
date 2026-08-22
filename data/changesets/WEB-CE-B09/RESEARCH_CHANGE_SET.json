@@ -1,0 +1,37 @@
+{
+  "batch":"WEB-CE-B09",
+  "plan":"墨西哥20世纪公共写作、Pacheco 与 Bolaño",
+  "started_at":"2026-08-21",
+  "review_metadata":{"origin_batch":"WEB-CE-B09","created_at":"2026-08-21","reviewed_at":"2026-08-21","reviewer":"LUNA-MAX-B09-REVIEW","review_status":"PASS","basis_note":"fresh-context Reviewer required before migration"},
+  "display_name_policy":{"applies_to":"all authors[].works[]","default_status":"common_title","basis":"60+ roadmap reader-facing label; no Chinese-edition bibliographic claim"},
+  "authors":[
+    {"entity_id":"V1-ENT-0260","name_zh":"埃莱娜·波尼亚托夫斯卡","original_name":"Elena Poniatowska","country_or_region":"墨西哥","birth_year":"1932","birth_place":"巴黎（Paris）","career_note":"作家、记者","literary_identity":"小说、纪实写作、诗歌与散文作者","source_ids":["SRC-0205","SRC-0206","SRC-0207"],"place_id":"V1-ENT-0051","works":[
+      {"entity_id":"V1-ENT-0263","name_zh":"《特拉特洛尔科之夜》","original_name":"La noche de Tlatelolco","entity_type":"work","year":"1971","display_name_status":"common_title","display_name_basis":"路线图与中文读者通行译名","source_ids":["SRC-0205","SRC-0206","SRC-0207"]},
+      {"entity_id":"V1-ENT-0264","name_zh":"《直到见到你，我的赫苏斯》","original_name":"Hasta no verte Jesús mío","entity_type":"work","year":"1969","display_name_status":"common_title","display_name_basis":"路线图与中文读者通行译名","source_ids":["SRC-0205","SRC-0206"]},
+      {"entity_id":"V1-ENT-0265","name_zh":"《蒂娜》","original_name":"Tinísima","entity_type":"work","year":"1991/1992","display_name_status":"common_title","display_name_basis":"路线图中文展示名；年份冲突保留","source_ids":["SRC-0205","SRC-0206","SRC-0207"]}
+    ]},
+    {"entity_id":"V1-ENT-0261","name_zh":"何塞·埃米利奥·帕切科","original_name":"José Emilio Pacheco","country_or_region":"墨西哥","birth_year":"1939","death_year":"2014","birth_place":"墨西哥城（Ciudad de México）","career_note":"作家、诗人、翻译家","literary_identity":"小说、短篇、诗歌与散文作者","source_ids":["SRC-0208","SRC-0209","SRC-0210"],"place_id":"V1-ENT-0051","works":[
+      {"entity_id":"V1-ENT-0266","name_zh":"《沙漠中的战斗》","original_name":"Las batallas en el desierto","entity_type":"work","year":"1981","display_name_status":"common_title","display_name_basis":"路线图与中文读者通行译名","source_ids":["SRC-0208","SRC-0209","SRC-0210"]},
+      {"entity_id":"V1-ENT-0267","name_zh":"《快乐原则》","original_name":"El principio del placer","entity_type":"collection","year":"1972","display_name_status":"common_title","display_name_basis":"路线图中文展示名；按短篇作品集入库","source_ids":["SRC-0208","SRC-0209","SRC-0210"]},
+      {"entity_id":"V1-ENT-0268","name_zh":"《不要问我时间如何流逝》","original_name":"No me preguntes cómo pasa el tiempo","entity_type":"collection","year":"1969","display_name_status":"common_title","display_name_basis":"路线图中文读者通行译名；诗集层级保留","source_ids":["SRC-0208","SRC-0209","SRC-0210"]}
+    ]},
+    {"entity_id":"V1-ENT-0262","name_zh":"罗贝托·波拉尼奥","original_name":"Roberto Bolaño","country_or_region":"智利","birth_year":"1953","death_year":"2003","birth_place":"圣地亚哥（Santiago de Chile）","career_note":"作家、诗人","literary_identity":"小说、诗歌与短篇作者","source_ids":["SRC-0211","SRC-0212","SRC-0213"],"place_id":"V1-ENT-0123","works":[
+      {"entity_id":"V1-ENT-0269","name_zh":"《荒野侦探》","original_name":"Los detectives salvajes","entity_type":"work","year":"1998","display_name_status":"common_title","display_name_basis":"路线图与中文读者通行译名","source_ids":["SRC-0211","SRC-0212"]},
+      {"entity_id":"V1-ENT-0270","name_zh":"《2666》","original_name":"2666","entity_type":"work","year":"2005","display_name_status":"common_title","display_name_basis":"路线图与中文读者通行译名；保留身后出版说明","source_ids":["SRC-0211","SRC-0213"]},
+      {"entity_id":"V1-ENT-0271","name_zh":"《遥远的星辰》","original_name":"Estrella distante","entity_type":"work","year":"1996","display_name_status":"common_title","display_name_basis":"路线图与中文读者通行译名","source_ids":["SRC-0211","SRC-0212"]}
+    ]}
+  ],
+  "places":[],
+  "source_registry":[
+    {"source_id":"SRC-0205","title":"Elena Poniatowska — Ficha Voz Viva","url":"https://vozviva.unam.mx/retrieve/01a737f9-fe5a-4d37-8551-23ae28fe3e48/Poniatowska_Elena_Ficha_VOZVIVA.docx.pdf","source_level":"B","access":"access_pass"},
+    {"source_id":"SRC-0206","title":"Elenísima Literaria, contadora de vidas: Elena Poniatowska","url":"https://coordinaciongenero.unam.mx/2022/05/elenisima-literaria-contadora-de-vidas-elena-poniatowska/","source_level":"B","access":"access_pass"},
+    {"source_id":"SRC-0207","title":"Elena Poniatowska. Biografía","url":"https://www.cervantes.es/bibliotecas_documentacion_espanol/creadores/poniatowska_elena.htm","source_level":"B","access":"access_pass"},
+    {"source_id":"SRC-0208","title":"José Emilio Pacheco. Cronología de obras","url":"https://www.cervantes.es/bibliotecas_documentacion_espanol/creadores/jose_emilio_pacheco_cronologia.htm","source_level":"B","access":"access_pass"},
+    {"source_id":"SRC-0209","title":"José Emilio Pacheco — El Colegio Nacional","url":"https://colnal.mx/integrantes/jose-emilio-pacheco/","source_level":"B","access":"access_pass"},
+    {"source_id":"SRC-0210","title":"José Emilio Pacheco — Literatura a la carta","url":"https://literaturaalacarta.cepe.unam.mx/autor.php?id_autor=45","source_level":"B","access":"access_pass"},
+    {"source_id":"SRC-0211","title":"Roberto Bolaño (1953-2003) — Memoria Chilena","url":"https://www.memoriachilena.gob.cl/602/w3-article-3688.html","source_level":"B","access":"access_pass"},
+    {"source_id":"SRC-0212","title":"Los detectives salvajes — Memoria Chilena","url":"https://www.memoriachilena.gob.cl/602/w3-article-92533.html","source_level":"B","access":"access_pass"},
+    {"source_id":"SRC-0213","title":"Archivo 2005: 2666 — Memoria Chilena","url":"https://www.memoriachilena.gob.cl/602/w3-propertyvalue-158513.html","source_level":"B","access":"access_pass"}
+  ],
+  "holds":[{"gap_id":"V1-GAP-0016","gap_type":"bibliographic_dispute","gap_key":"V1-ENT-0265.first_publication_year","status":"open_research","basis":"SRC-0206 reports 1992 while SRC-0207 reports 1991 for Tinísima; retain 1991/1992 until Sol review","owner":"SOL_REVIEW","downstream_effect":"Public copy must show the date conflict rather than one uncontested year"}]
+}

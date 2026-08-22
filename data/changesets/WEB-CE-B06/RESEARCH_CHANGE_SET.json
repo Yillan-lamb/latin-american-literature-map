@@ -1,0 +1,50 @@
+{
+  "batch": "WEB-CE-B06",
+  "plan": "现代主义与安第斯诗歌",
+  "started_at": "2026-08-21",
+  "review_metadata": {
+    "origin_batch": "WEB-CE-B06",
+    "created_at": "2026-08-21",
+    "reviewed_at": null,
+    "reviewer": "LUNA-MAX-B06-REVIEW",
+    "review_status": "pending",
+    "basis_note": "fresh-context Reviewer required before migration"
+  },
+  "display_name_policy": {
+    "applies_to": "all authors[].works[]",
+    "default_status": "common_title",
+    "basis": "60+ roadmap reader-facing label; no Chinese-edition bibliographic claim"
+  },
+  "authors": [
+    {"entity_id":"V1-ENT-0223","name_zh":"塞萨尔·巴列霍","original_name":"César Vallejo","country_or_region":"秘鲁","birth_year":"1892","death_year":"1938","birth_place":"圣地亚哥·德·丘科（Santiago de Chuco）","career_note":"诗人","source_ids":["SRC-0177","SRC-0178"],"place_id":"V1-ENT-0124","works":[
+      {"entity_id":"V1-ENT-0226","name_zh":"《黑色使者》","original_name":"Los heraldos negros","entity_type":"collection","year":"1918/1919","display_name_status":"common_title","display_name_basis":"路线图与中文读者通行译名；年份争议另列 gap","source_ids":["SRC-0178"]},
+      {"entity_id":"V1-ENT-0227","name_zh":"《特里尔塞》","original_name":"Trilce","entity_type":"collection","year":"1922","display_name_status":"common_title","display_name_basis":"路线图与中文读者通行译名","source_ids":["SRC-0178"]},
+      {"entity_id":"V1-ENT-0228","name_zh":"《人类的诗篇》","original_name":"Poemas humanos","entity_type":"collection","year":"1939","display_name_status":"common_title","display_name_basis":"路线图与中文读者通行译名","source_ids":["SRC-0178"]}
+    ]},
+    {"entity_id":"V1-ENT-0224","name_zh":"鲁文·达里奥","original_name":"Rubén Darío","country_or_region":"尼加拉瓜","birth_year":"1867","death_year":"1916","birth_place":"梅塔帕（Metapa）","career_note":"诗人","source_ids":["SRC-0180","SRC-0181","SRC-0182"],"place_id":"V1-ENT-0235","works":[
+      {"entity_id":"V1-ENT-0229","name_zh":"《蓝……》","original_name":"Azul...","entity_type":"collection","year":"1888","display_name_status":"common_title","display_name_basis":"路线图与中文读者通行译名","source_ids":["SRC-0181"]},
+      {"entity_id":"V1-ENT-0230","name_zh":"《世俗的颂歌》","original_name":"Prosas profanas","entity_type":"collection","year":"1896","display_name_status":"common_title","display_name_basis":"路线图与中文读者通行译名","source_ids":["SRC-0182"]},
+      {"entity_id":"V1-ENT-0231","name_zh":"《生命与希望之歌》","original_name":"Cantos de vida y esperanza","entity_type":"collection","year":"1905","display_name_status":"common_title","display_name_basis":"路线图与中文读者通行译名","source_ids":["SRC-0182"]}
+    ]},
+    {"entity_id":"V1-ENT-0225","name_zh":"何塞·马蒂","original_name":"José Martí","country_or_region":"古巴","birth_year":"1853","death_year":"1895","birth_place":"哈瓦那（La Habana）","career_note":"诗人、作家、政治人物","source_ids":["SRC-0183","SRC-0185","SRC-0187"],"place_id":"V1-ENT-0096","works":[
+      {"entity_id":"V1-ENT-0232","name_zh":"《伊斯梅利约》","original_name":"Ismaelillo","entity_type":"collection","year":"1882","display_name_status":"common_title","display_name_basis":"路线图与中文读者通行译名","source_ids":["SRC-0187"]},
+      {"entity_id":"V1-ENT-0233","name_zh":"《纯朴的诗》","original_name":"Versos sencillos","entity_type":"collection","year":"1891","display_name_status":"common_title","display_name_basis":"路线图与中文读者通行译名","source_ids":["SRC-0185","SRC-0187"]},
+      {"entity_id":"V1-ENT-0234","name_zh":"《我们的美洲》","original_name":"Nuestra América","entity_type":"work","year":"1891","display_name_status":"common_title","display_name_basis":"路线图与中文读者通行译名；essay 不作版本学断言","source_ids":["SRC-0183","SRC-0185"]}
+    ]}
+  ],
+  "places": [{"entity_id":"V1-ENT-0235","entity_type":"place","name_zh":"尼加拉瓜","original_name":"Nicaragua","place_kind":"country","country_code":"NI","source_id":"SRC-0186","display_name_status":"canonical_country_name"}],
+  "source_registry": [
+    {"source_id":"SRC-0177","title":"Santiago de Chuco y César Vallejo: 130 años de su nacimiento","url":"https://www.casadelaliteratura.gob.pe/santiago-chuco-cesar-vallejo-130-anos-nacimiento/","source_level":"B","access":"access_pass"},
+    {"source_id":"SRC-0178","title":"Historia de las literaturas en el Perú. Volumen 4","url":"https://www.casadelaliteratura.gob.pe/wp-content/uploads/2019/04/Historia-de-la-literatura-Vol-4.pdf","source_level":"B","access":"access_pass"},
+    {"source_id":"SRC-0179","title":"Bitácora Ya viene el día: César Vallejo","url":"https://www.casadelaliteratura.gob.pe/wp-content/uploads/2023/08/Bitacora_Ya-viene-el-dia_Cesar-Vallejo.pdf","source_level":"B","access":"access_limited"},
+    {"source_id":"SRC-0180","title":"Darío, Rubén, 1867-1916","url":"https://www.memoriachilena.gob.cl/602/w3-propertyvalue-166318.html","source_level":"B","access":"access_pass"},
+    {"source_id":"SRC-0181","title":"Azul de Rubén Darío","url":"https://www.memoriachilena.gob.cl/602/w3-article-3699.html","source_level":"B","access":"access_pass"},
+    {"source_id":"SRC-0182","title":"El modernismo y Rubén Darío","url":"https://www.memoriachilena.gob.cl/archivos2/pdfs/MC0011355.pdf","source_level":"B","access":"access_pass"},
+    {"source_id":"SRC-0183","title":"Los monstruos del latinoamericanismo arielista: variaciones del apetito en la periferia neocolonial","url":"https://www.cervantesvirtual.com/obra-visor/los-monstruos-del-latinoamericanismo-arielista-variaciones-del-apetito-en-la-periferia-neocolonial/html/1cbb2714-8b3b-407a-adb0-42b16db79e0a_13.html","source_level":"B","access":"access_pass"},
+    {"source_id":"SRC-0184","title":"José Martí. (A propósito de su Ismaelillo)","url":"https://www.cervantesvirtual.com/descargaPdf/jose-marti-a-proposito-de-su-ismaelillo/","source_level":"B","access":"access_limited"},
+    {"source_id":"SRC-0185","title":"Las letras hispanoamericanas en el siglo XIX","url":"https://www.cervantesvirtual.com/obra-visor/las-letras-hispanoamericanas-en-el-siglo-xix--0/html/ff2fae94-82b1-11df-acc7-002185ce6064_5.html","source_level":"B","access":"access_pass"},
+    {"source_id":"SRC-0186","title":"Nicaragua","url":"https://www.geonames.org/countries/NI/nicaragua.html","source_level":"B","access":"access_pass"},
+    {"source_id":"SRC-0187","title":"Traductores hispanoamericanos — José Martí","url":"https://www.cervantesvirtual.com/portales/traducciones_hispanoamericanas/traductores/","source_level":"B","access":"access_pass"}
+  ],
+  "holds": [{"gap_id":"V1-GAP-0015","gap_type":"bibliographic_dispute","gap_key":"V1-ENT-0226.first_publication_year","status":"open_research","basis":"Casa de la Literatura page labels the original edition 1918 and notes July 1919 printing","owner":"SOL_REVIEW","downstream_effect":"Public copy must state the conflict rather than a single uncontested year"}]
+}

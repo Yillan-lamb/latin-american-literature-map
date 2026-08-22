@@ -189,3 +189,13 @@ S2-002 的构建与 QA 至少检查：
 作者允许字段：`reader_lede`、`why_know`、`literary_profile`、`literary_features`、`start_here`、`core_themes`、`literary_connections`、`reader_fit`、`signature_keywords`、`reading_route`、`guiding_question`。作品允许字段：`story_intro`、`reading_premise`、`why_read`、`narrative_features`、`theme_explanations`、`literary_significance`、`reading_tips`、`reading_approach`、`guiding_question`、`next_reads`、`location_note`。地点允许字段：`literary_intro`、`spatial_meaning`、`reader_path`、`exploration_route`。
 
 构建器只把 `auto_approved` 字段投影到 public bundle；`user_review` 与 `hold` 进入内部审核队列。前端不得根据事实字段临时拼接上述核心文学模块。
+
+## 12. Web 0.2.0 内容就绪度（加法兼容）
+
+为避免验证器反向制造模板化文学文案，`content_readiness` 先由 Curation/validator 层从既有字段、审核状态与证据引用推导，不新增 SQLite 字段，也不改变 `v2-curation-content-0.3`：
+
+- `research_basic`：仅具书目或基础事实，可进入基础页面、Research Evidence、搜索和时间线；不强制 `why_read`、主题解释、延伸阅读、阅读方法或引导问题。
+- `reader_ready`：已有作品级可靠研究与足够策展素材，完整文学内容通过结构与非模板质量检查，但仍可能包含待 USER 审核判断。
+- `curation_ready`：必要文学字段已按本 Schema 完成审核并具 Research/Source 回溯，可进入更完整普通阅读层。
+
+命中低价值模板的强判断字段必须降为 `hold`，对象按 `research_basic` 验证；不得为了把对象提升到 `reader_ready` 或 `curation_ready` 而凭 AI 常识补写。该就绪度只控制内容完整性门槛，不改变 `auto_approved / user_review / hold` 的既有审核权限。

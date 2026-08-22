@@ -16,7 +16,9 @@
 
 ## 当前阶段
 
-当前 Research Data 已发布基线为 `Data V1.0.0`。USER 已于 2026-08-11 以 B/A/A/A 通过 N3，并批准该数据基线正式发布；章程 1.4.0 将 V1 最低关系门槛调整为 75、把 150 作为 V1.1 扩展目标，Schema 0.3 新增 `BASED_ON_EVENT`（仅 `work → event`）。V1 包含 74 个来源、144 个规范实体、76 个经审核关系、40 个 hold、238 条事实素材和 40 张内容卡，同时提供 CSV、JSON、SQLite 和 18 工作表 Excel。已知问题继续公开保留，不因正式发布而确定化。
+Research Data 的正式发布基线仍为 `Data V1.0.0`。USER 已于 2026-08-11 批准该数据版本正式发布；它包含 74 个来源、144 个规范实体、76 个经审核关系、40 个 hold、238 条事实素材和 40 张内容卡，并提供 CSV、JSON、SQLite 和 18 工作表 Excel。该历史 Release 不因后续开发主库增长而改写。
+
+B01—B17 已于 2026-08-22 完成。当前 development master 已扩充至 367 entities、998 facts、293 relationships、278 sources 和 255 content cards，对应本轮 61 位计划作者与 168 部作品/合集。该主库尚未形成新的正式 Research Release；当前全量导出候选为 `Data 1.2.0 candidate`（`data/exports/v1.2.0-candidate/`），明确属于 `DEVELOPMENT / CANDIDATE`，是否发布仍由 USER 决定。
 
 V1 将建立：
 
@@ -30,9 +32,9 @@ V1 将建立：
 
 ### 当前 V2 网站建设阶段
 
-`V1 / V2 / V3` 是项目阶段编号，不是网站产品版本。V2 表示网站 / 数字文学展览建设阶段；当前 Web Product 基线为 `Web 0.1.0`，状态为 `DEVELOPMENT BASELINE`。它表示产品模型已经成立、项目进入 Web 0.x 持续内容建设期，不表示拉丁美洲文学覆盖充分、正式上线、GitHub Release、production Pages deployment 或公开宣传。
+`V1 / V2 / V3` 是项目阶段编号，不是网站产品版本。V2 表示网站 / 数字文学展览建设阶段；B01—B17 完成后，当前 Web Product 为 `Web 0.2.0 — Development Baseline`。它表示大规模 Research Expansion 已形成稳定开发基线，不表示正式上线、GitHub Release、production Pages deployment 或公开宣传。
 
-`V2.0.0-rc.1`—`V2.0.0-rc.5` 作为 Web 0.1.0 形成前的历史开发候选完整保留。原 V2-N4 发布流程已由 USER 暂停，未来正式公开发布将通过单独重新开启的 `V2-PUBLIC-RELEASE` Gate 决定。站点位于 `site/`，继续保持 Research / Geo / Curation / Web Data 架构；`user_review` 与 `hold` 不因开发基线合并而自动批准，未获批准的策展内容仍由 Public Build 门禁排除。
+`Web 0.1.0` 与 `V2.0.0-rc.1`—`V2.0.0-rc.5` 作为历史开发记录完整保留。正式发布状态、当前开发 Research 主库与 Web Product 版本是三个独立概念：`Data V1.0.0` 仍是正式 Research Release，`Data 1.2.0 candidate` 是当前开发导出候选，`Web 0.2.0` 是网站开发基线。原 V2-N4 发布流程已由 USER 暂停，未来正式公开发布须单独重新开启 `V2-PUBLIC-RELEASE` Gate。站点继续保持 Research / Geo / Curation / Web Data 分层；`user_review` 与 `hold` 不因开发基线合并而自动批准。
 
 V2 的详细产品与开发规范以 [V2 网站产品决策与开发总说明书](./V2_网站产品决策与开发总说明书.md) 为准，执行状态以 [V2 任务源](./V2_TASKS.md) 为准。当前坚持静态优先和 Research Data + Curation Data → Web Data → Frontend 分层；网页增长主要来自 Research Data 增长，不在前端另行手写研究事实。
 

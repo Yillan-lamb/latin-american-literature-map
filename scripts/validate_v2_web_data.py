@@ -23,6 +23,22 @@ COUNT_PATHS = {
     "place_relations": ("map", "relations"),
 }
 
+# These IDs are the last independently accepted public baseline.  The validator
+# protects them as a subset instead of freezing exact counts, so audited content
+# expansions can add pages without making the check stale.
+BASELINE_PUBLIC_SCOPE = {
+    "authors": {
+        "V1-ENT-0002", "V1-ENT-0016", "V1-ENT-0029", "V1-ENT-0030", "V1-ENT-0031",
+        "V1-ENT-0072", "V1-ENT-0073", "V1-ENT-0074", "V1-ENT-0114", "V1-ENT-0115",
+    },
+    "works": {
+        "V1-ENT-0003", "V1-ENT-0004", "V1-ENT-0017", "V1-ENT-0018", "V1-ENT-0032",
+        "V1-ENT-0035", "V1-ENT-0038", "V1-ENT-0075", "V1-ENT-0076", "V1-ENT-0077",
+        "V1-ENT-0078", "V1-ENT-0079", "V1-ENT-0080", "V1-ENT-0081", "V1-ENT-0116",
+        "V1-ENT-0117", "V1-ENT-0118",
+    },
+}
+
 
 def fail(message: str) -> None:
     raise ValueError(message)
@@ -35,7 +51,7 @@ def main() -> int:
     payload = json.loads(args.path.read_text(encoding="utf-8"))
     if payload.get("schema_version") != "v2-web-0.2":
         fail("unexpected Web Data schema_version")
-    if payload.get("product_version") != "0.1.0":
+    if payload.get("product_version") != "0.2.0":
         fail("unexpected Web Product version")
     for key in ("research", "curation", "review_queue", "public_content", "public_content_review_queue", "presentation", "presentation_review_queue", "public_scope", "pages", "map", "qa", "search_index", "timeline"):
         if key not in payload:
@@ -117,10 +133,10 @@ def main() -> int:
             fail(f"map status override lacks basis: {override.get('curation_id')}")
 
     public_scope_ids = set().union(*(set(values) for values in payload["public_scope"].values()))
-    expected_scope_counts = {"authors": 10, "works": 17, "places": 19}
-    for group, expected in expected_scope_counts.items():
-        if len(payload["public_scope"][group]) != expected:
-            fail(f"public {group} scope is {len(payload['public_scope'][group])}, expected {expected}")
+    for group, baseline_ids in BASELINE_PUBLIC_SCOPE.items():
+        missing = baseline_ids - set(payload["public_scope"][group])
+        if missing:
+            fail(f"public {group} scope regressed; missing baseline IDs: {sorted(missing)}")
     search_ids = {item["target_id"] for item in payload["search_index"]}
     if len(search_ids) != len(payload["search_index"]):
         fail("duplicate search index target")

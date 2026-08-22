@@ -1,0 +1,169 @@
+{
+  "batch": "WEB-CE-B10",
+  "plan": "历史书写、阿根廷现代小说与艾拉",
+  "started_at": "2026-08-21",
+  "review_metadata": {
+    "origin_batch": "WEB-CE-B10",
+    "created_at": "2026-08-21",
+    "reviewed_at": "2026-08-21",
+    "reviewer": "LUNA-MAX-B10-REVIEW",
+    "review_status": "PASS",
+    "basis_note": "fresh-context Reviewer required before migration"
+  },
+  "display_name_policy": {
+    "applies_to": "all authors[].works[]",
+    "default_status": "common_title",
+    "basis": "60+ roadmap reader-facing label; no Chinese-edition bibliographic claim"
+  },
+  "authors": [
+    {
+      "entity_id": "V1-ENT-0272",
+      "name_zh": "爱德华多·加莱亚诺",
+      "original_name": "Eduardo Galeano",
+      "country_or_region": "乌拉圭",
+      "birth_year": "1940",
+      "death_year": "2015",
+      "birth_place": "蒙得维的亚（Montevideo）",
+      "career_note": "作家、记者",
+      "literary_identity": "历史书写、纪实散文与片段写作作者",
+      "source_ids": ["SRC-0214", "SRC-0215"],
+      "place_id": "V1-ENT-0196",
+      "works": [
+        {
+          "entity_id": "V1-ENT-0275",
+          "name_zh": "《拉丁美洲被切开的血管》",
+          "original_name": "Las venas abiertas de América Latina",
+          "entity_type": "work",
+          "year": "1971",
+          "display_name_status": "common_title",
+          "display_name_basis": "路线图与中文读者通行译名",
+          "source_ids": ["SRC-0214", "SRC-0215"]
+        },
+        {
+          "entity_id": "V1-ENT-0276",
+          "name_zh": "《火的记忆Ⅰ：创世纪》",
+          "original_name": "Memoria del fuego I. Los nacimientos",
+          "entity_type": "collection",
+          "year": "1982",
+          "display_name_status": "common_title",
+          "display_name_basis": "路线图中文展示名；保留三部曲卷册层级",
+          "source_ids": ["SRC-0214", "SRC-0216"]
+        },
+        {
+          "entity_id": "V1-ENT-0277",
+          "name_zh": "《拥抱之书》",
+          "original_name": "El libro de los abrazos",
+          "entity_type": "collection",
+          "year": "1989",
+          "display_name_status": "common_title",
+          "display_name_basis": "路线图与中文读者通行译名；片段文集层级",
+          "source_ids": ["SRC-0214", "SRC-0215", "SRC-0216"]
+        }
+      ]
+    },
+    {
+      "entity_id": "V1-ENT-0273",
+      "name_zh": "里卡多·皮格利亚",
+      "original_name": "Ricardo Piglia",
+      "country_or_region": "阿根廷",
+      "birth_year": "1940",
+      "death_year": "2017",
+      "birth_place": "阿德罗格（Adrogué）",
+      "career_note": "作家、文学评论家",
+      "literary_identity": "小说、短篇与文学批评作者",
+      "source_ids": ["SRC-0217", "SRC-0218", "SRC-0219"],
+      "place_id": "V1-ENT-0001",
+      "works": [
+        {
+          "entity_id": "V1-ENT-0278",
+          "name_zh": "《人工呼吸》",
+          "original_name": "Respiración artificial",
+          "entity_type": "work",
+          "year": "1980",
+          "display_name_status": "common_title",
+          "display_name_basis": "路线图与中文读者通行译名",
+          "source_ids": ["SRC-0217", "SRC-0219"]
+        },
+        {
+          "entity_id": "V1-ENT-0279",
+          "name_zh": "《燃烧的钱》",
+          "original_name": "Plata quemada",
+          "entity_type": "work",
+          "year": "1997",
+          "display_name_status": "common_title",
+          "display_name_basis": "路线图与中文读者通行译名",
+          "source_ids": ["SRC-0217", "SRC-0218", "SRC-0219"]
+        },
+        {
+          "entity_id": "V1-ENT-0280",
+          "name_zh": "《夜间目标》",
+          "original_name": "Blanco nocturno",
+          "entity_type": "work",
+          "year": "2010",
+          "display_name_status": "common_title",
+          "display_name_basis": "路线图与中文读者通行译名",
+          "source_ids": ["SRC-0217", "SRC-0218", "SRC-0219"]
+        }
+      ]
+    },
+    {
+      "entity_id": "V1-ENT-0274",
+      "name_zh": "塞萨尔·艾拉",
+      "original_name": "César Aira",
+      "country_or_region": "阿根廷",
+      "birth_year": "1949",
+      "birth_place": "科罗内尔·普林格尔斯（Coronel Pringles）",
+      "career_note": "小说家、翻译家",
+      "literary_identity": "小说、短篇、散文与戏剧作者",
+      "source_ids": ["SRC-0220", "SRC-0221"],
+      "place_id": "V1-ENT-0001",
+      "works": [
+        {
+          "entity_id": "V1-ENT-0281",
+          "name_zh": "《女俘爱玛》",
+          "original_name": "Ema la cautiva",
+          "entity_type": "work",
+          "year": "1981",
+          "display_name_status": "common_title",
+          "display_name_basis": "路线图与中文读者通行译名",
+          "source_ids": ["SRC-0221", "SRC-0223"]
+        },
+        {
+          "entity_id": "V1-ENT-0282",
+          "name_zh": "《中国小说》",
+          "original_name": "Una novela china",
+          "entity_type": "work",
+          "year": "1987",
+          "display_name_status": "common_title",
+          "display_name_basis": "路线图中文展示名；不主张特定中译版本",
+          "source_ids": ["SRC-0221", "SRC-0222"]
+        },
+        {
+          "entity_id": "V1-ENT-0283",
+          "name_zh": "《文学大会》",
+          "original_name": "El congreso de literatura",
+          "entity_type": "work",
+          "year": "1997",
+          "display_name_status": "common_title",
+          "display_name_basis": "路线图中文展示名；不主张特定中译版本",
+          "source_ids": ["SRC-0221", "SRC-0224"]
+        }
+      ]
+    }
+  ],
+  "places": [],
+  "source_registry": [
+    {"source_id": "SRC-0214", "title": "Nace Eduardo Galeano — Uruguay Educa", "url": "https://uruguayeduca.anep.edu.uy/efemerides/nace-eduardo-galeano", "source_level": "B", "access": "access_pass"},
+    {"source_id": "SRC-0215", "title": "Eduardo Galeano: uruguayo de nacimiento, latinoamericano por opción", "url": "https://www.cultura.gob.ar/eduardo-galeano-uruguayo-de-nacimiento-latinoamericano-por-opcion-11057/", "source_level": "B", "access": "access_pass"},
+    {"source_id": "SRC-0216", "title": "Catálogo en línea — Biblioteca del Poder Legislativo del Uruguay", "url": "https://pmb.parlamento.gub.uy/pmb/opac_css/index.php?id=315&l_typdoc=&lvl=author_see&nb_per_page_custom=25&nbr_lignes=100&page=3", "source_level": "B", "access": "access_pass"},
+    {"source_id": "SRC-0217", "title": "Ricardo Piglia — obra y biografía", "url": "https://piglia.pubpub.org/", "source_level": "B", "access": "access_pass"},
+    {"source_id": "SRC-0218", "title": "Now open for research: the papers of Ricardo Piglia", "url": "https://library.princeton.edu/about/library-news/2018/now-open-research-papers-ricardo-piglia-distinguished-latin-american", "source_level": "B", "access": "access_pass"},
+    {"source_id": "SRC-0219", "title": "La Plata: Una geografía literaria", "url": "https://www.memoria.fahce.unlp.edu.ar/libros/pm.895/pm.895.pdf", "source_level": "A", "access": "access_pass"},
+    {"source_id": "SRC-0220", "title": "23 de febrero de 1949: nace César Aira — Biblioteca Nacional", "url": "https://www.bn.gov.ar/noticias/23-de-febrero-de-1949-nace-cesar-aira", "source_level": "B", "access": "access_pass"},
+    {"source_id": "SRC-0221", "title": "César Aira — Fundación Konex", "url": "https://www.fundacionkonex.org/b2344-cesar-aira", "source_level": "B", "access": "access_pass"},
+    {"source_id": "SRC-0222", "title": "Orientalismo, globalización e imaginarios transpacíficos en la novela latinoamericana actual", "url": "https://dialnet.unirioja.es/descarga/articulo/5228514.pdf", "source_level": "A", "access": "access_pass"},
+    {"source_id": "SRC-0223", "title": "La trayectoria temprana de César Aira en textos de publicaciones periódicas", "author_or_editor": "María Belén Riveiro", "publisher": "Universidad Nacional de La Plata", "url": "https://www.memoria.fahce.unlp.edu.ar/trab_eventos/ev.11711/ev.11711.pdf", "source_level": "A", "access": "access_pass"},
+    {"source_id": "SRC-0224", "title": "La figura del gran autor o Carlos Fuentes devenido monstruosidad genética en El congreso de literatura de César Aira", "url": "https://dialnet.unirioja.es/descarga/articulo/7047139.pdf", "source_level": "A", "access": "access_pass"}
+  ],
+  "holds": []
+}

@@ -23,7 +23,7 @@ DEFAULT_OUTPUT = ROOT / "data/v2/web"
 DEFAULT_PRESENTATION = ROOT / "data/v2/presentation/PUBLIC_PRESENTATION.json"
 DEFAULT_PUBLIC_CONTENT = ROOT / "data/v2/curation/PUBLIC_CONTENT.json"
 SCHEMA_VERSION = "v2-web-0.2"
-PRODUCT_VERSION = "0.1.0"
+PRODUCT_VERSION = "0.2.0"
 CURATION_SCHEMA_VERSION = "v2-curation-0.1"
 ALLOWED_CURATION_STATUSES = {"auto_approved", "user_review", "hold"}
 PRESENTATION_GROUPS = ("reading_paths", "timeline_periods", "why_read", "next_reads")
@@ -60,7 +60,7 @@ def stable_slug(original_name: str | None, target_type: str, target_id: str) -> 
 
 
 def public_route(target_type: str, target_id: str, original_name: str | None) -> str:
-    folder = {"author": "authors", "work": "works", "country": "countries", "place": "places", "fictional_space": "places"}.get(target_type, "explore")
+    folder = {"author": "authors", "work": "works", "collection": "works", "country": "countries", "place": "places", "fictional_space": "places"}.get(target_type, "explore")
     return f"{folder}/{stable_slug(original_name, target_type, target_id)}/"
 
 
@@ -330,7 +330,7 @@ def build_data(db_path: Path, geo_dir: Path, curation_dir: Path, presentation_pa
 
     page_entities = {
         "authors": [entity for entity in entities if entity["entity_type"] == "author"],
-        "works": [entity for entity in entities if entity["entity_type"] == "work"],
+        "works": [entity for entity in entities if entity["entity_type"] in {"work", "collection"}],
         "places": places_for_web,
         "events": [entity for entity in entities if entity["entity_type"] == "event"],
     }
@@ -342,9 +342,32 @@ def build_data(db_path: Path, geo_dir: Path, curation_dir: Path, presentation_pa
         entity["incoming_relations"] = relations_by_object.get(entity["entity_id"], [])
 
     full_author_card_ids = {card["subject_id"] for card in cards if card.get("source_minimum_status") == "meets" and card.get("card_type") == "author"}
-    full_work_card_ids = {card["subject_id"] for card in cards if card.get("source_minimum_status") == "meets" and card.get("card_type") == "work"}
-    content_author_ids = {item["target_id"] for item in content_public["authors"] if item.get("reader_lede") and item.get("literary_features")}
-    content_work_ids = {item["target_id"] for item in content_public["works"] if item.get("story_intro") and item.get("narrative_features") and item.get("location_note")}
+    full_work_card_ids = {
+        card["subject_id"] for card in cards
+        if card.get("source_minimum_status") == "meets" and card.get("card_type") in {"work", "collection"}
+    }
+    # PUBLIC_CONTENT v0.3 contains two compatible editorial shapes.  The
+    # original reader-facing records use why_know/core_themes and
+    # story_intro/reading_approach; the B01 expansion uses the more explicitly
+    # research-backed reader_lede/literary_features and
+    # story_intro/narrative_features/location_note fields.  Treat either full
+    # shape as publishable so a content expansion cannot silently remove the
+    # already-approved baseline from search and routing.
+    content_author_ids = {
+        item["target_id"] for item in content_public["authors"]
+        if (
+            item.get("reader_lede") and item.get("literary_features")
+        ) or (
+            item.get("why_know") and item.get("core_themes") and item.get("start_here")
+        )
+    }
+    content_work_ids = {
+        item["target_id"] for item in content_public["works"]
+        if item.get("story_intro") and (
+            item.get("narrative_features") and item.get("location_note")
+            or item.get("reading_approach") and item.get("theme_explanations")
+        )
+    }
     public_work_ids: set[str] = set()
     for entity in page_entities["works"]:
         target_id = entity["entity_id"]

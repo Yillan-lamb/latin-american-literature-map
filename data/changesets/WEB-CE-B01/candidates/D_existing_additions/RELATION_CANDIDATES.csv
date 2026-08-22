@@ -1,0 +1,20 @@
+temporary_id,subject_id,relation_type,object_id,description_zh,confidence,review_status,evidence_count,issue_code,source_temporary_ids,evidence_notes
+CAND-D-REL-01,V1-ENT-0002,CREATED,CAND-D-ENT-07,博尔赫斯创作短篇集《沙之书》(El libro de arena),high,candidate,1,NONE,CAND-D-SRC-01,BnF 目录作者归名证据（1975 西语版，ark:/12148/cb352339603）；CREATED 单来源满足最低证据
+CAND-D-REL-02,V1-ENT-0002,CREATED,CAND-D-ENT-08,博尔赫斯创作短篇集《布罗迪报告》(El informe de Brodie),medium,candidate,1,NONE,CAND-D-SRC-02,BnF 目录作者归名证据（含 Ficciones; El Aleph; El informe de Brodie 合订本记录，ark:/12148/cb354902694）
+CAND-D-REL-03,V1-ENT-0072,CREATED,CAND-D-ENT-01,加西亚·马尔克斯创作《霍乱时期的爱情》(El amor en los tiempos del cólera),high,candidate,1,NONE,CAND-D-SRC-03,BnF 目录作者归名证据（1985 西语版，ark:/12148/cb34923644w）
+CAND-D-REL-04,V1-ENT-0072,CREATED,CAND-D-ENT-02,加西亚·马尔克斯创作《族长的秋天》(El otoño del patriarca),high,candidate,1,NONE,CAND-D-SRC-04,BnF 目录作者归名证据（1975 西语版，ark:/12148/cb352227127）
+CAND-D-REL-05,V1-ENT-0073,CREATED,CAND-D-ENT-09,胡利奥·科塔萨尔创作短篇集《秘密武器》(Las armas secretas),high,candidate,1,NONE,reuse:SRC-0066;（补充 CAND-D-SRC-05）,复用 SRC-0066：BnF 记录标题含 'Las armas secretas，1959'（ark:/12148/cb352151483），作者归名证据；本轮 SRU 快照（CAND-D-SRC-05）作补充
+CAND-D-REL-06,V1-ENT-0114,CREATED,CAND-D-ENT-03,巴尔加斯·略萨创作《绿房子》(La casa verde),medium,candidate,1,NONE,CAND-D-SRC-06,BnF 目录作者归名证据（西语多版，4e éd.1967 起，ISBN 8432218728）
+CAND-D-REL-07,V1-ENT-0114,CREATED,CAND-D-ENT-04,巴尔加斯·略萨创作《潘达雷昂上尉与劳军女郎》(Pantaleón y las visitadoras),high,candidate,1,NONE,CAND-D-SRC-07,BnF 目录记录直接归名（Barcelona : Seix Barral，1973，ark:/12148/cb35234561k）
+CAND-D-REL-08,V1-ENT-0115,CREATED,CAND-D-ENT-10,聂鲁达创作诗集《一百首爱情十四行诗》(Cien sonetos de amor),medium,candidate,1,NONE,CAND-D-SRC-08,BnF 目录作者归名证据（多版记录，含 8a ed. 1992 ISBN 8440047037）
+CAND-D-REL-09,V1-ENT-0016,CREATED,CAND-D-ENT-11,克拉丽丝·李斯佩克朵创作短篇集《隐秘的幸福》(Felicidade clandestina),high,candidate,1,NONE,CAND-D-SRC-09,BnF 目录记录直接归名（Rio de Janeiro : Sabiá，1971，ark:/12148/cb35424958x）
+CAND-D-REL-10,V1-ENT-0074,CREATED,CAND-D-ENT-05,阿莱霍·卡彭铁尔创作《方法的资源》(El recurso del método),high,candidate,1,NONE,CAND-D-SRC-10,BnF 目录作者归名证据（1974，题名标 novela，ark:/12148/cb37515697g）
+CAND-D-REL-11,V1-ENT-0074,CREATED,CAND-D-ENT-06,阿莱霍·卡彭铁尔创作《巴洛克协奏曲》(Concierto barroco),high,candidate,1,NONE,CAND-D-SRC-11,BnF 目录作者归名证据（1974，同名记录标 novela，ark:/12148/cb37546280h）
+CAND-D-REL-12,CAND-D-ENT-01,SET_IN,V1-ENT-0095,《霍乱时期的爱情》设定于哥伦比亚（通行与卡塔赫纳关联）,low,hold,0,NEEDS_SOURCE,,SET_IN 需原作或合格来源直接说明场景；本轮无已核验来源；且目标地点实体「卡塔赫纳」不在主库（仅国家层级 V1-ENT-0095 可用），待来源与地点实体齐备后重提
+CAND-D-REL-13,CAND-D-ENT-03,SET_IN,V1-ENT-0124,《绿房子》设定于秘鲁（通行与皮乌拉/亚马逊关联）,low,hold,0,NEEDS_SOURCE,,SET_IN 需直接场景证据；本轮无已核验来源；目标地点「皮乌拉」实体不在主库
+CAND-D-REL-14,CAND-D-ENT-01,ASSOCIATED_WITH_MOVEMENT,V1-ENT-0099,《霍乱时期的爱情》与魔幻现实主义的运动关联,low,hold,0,hold_needs_second_source,,解释型关系需两项独立来源；本轮 0 来源
+CAND-D-REL-15,CAND-D-ENT-02,ASSOCIATED_WITH_MOVEMENT,V1-ENT-0099,《族长的秋天》与魔幻现实主义的运动关联,low,hold,0,hold_needs_second_source,,解释型关系需两项独立来源；本轮 0 来源
+CAND-D-REL-16,CAND-D-ENT-09,ASSOCIATED_WITH_MOVEMENT,V1-ENT-0130,《秘密武器》作者科塔萨尔与文学爆炸的关联,low,hold,1,hold_needs_second_source,CAND-D-SRC-22,中国作家网转载报道称科塔萨尔为「文学爆炸」主将（C 级 1 来源）；解释型关系需两项独立合格来源，不足
+CAND-D-REL-17,CAND-D-ENT-03,ASSOCIATED_WITH_MOVEMENT,V1-ENT-0130,《绿房子》与文学爆炸的关联,low,hold,0,hold_needs_second_source,,解释型需两项独立来源；本轮 0 来源
+CAND-D-REL-18,CAND-D-ENT-06,ASSOCIATED_WITH_MOVEMENT,V1-ENT-0101,《巴洛克协奏曲》与新巴洛克（neobarroco）的关联,low,hold,0,hold_needs_second_source,,通行学术关联但本轮无已核验来源；解释型需两项独立来源
+CAND-D-REL-19,CAND-D-ENT-01,EXPLORES_THEME,V1-ENT-0136,《霍乱时期的爱情》与爱情体验主题的关联,low,hold,0,hold_needs_second_source,,解释型需两项独立来源；本轮 0 来源

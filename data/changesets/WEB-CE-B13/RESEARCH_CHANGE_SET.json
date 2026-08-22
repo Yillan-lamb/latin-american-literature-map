@@ -1,0 +1,119 @@
+{
+  "batch": "WEB-CE-B13",
+  "plan": "巴西大众阅读、巴西现代诗与加勒比诗歌",
+  "started_at": "2026-08-21",
+  "review_metadata": {
+    "origin_batch": "WEB-CE-B13",
+    "created_at": "2026-08-21",
+    "reviewed_at": "2026-08-21",
+    "reviewer": "LUNA-MAX-B13-REVIEW",
+    "review_status": "PASS",
+    "basis_note": "fresh-context reviewer PASS and focused follow-up PASS in review/REVIEW.md"
+  },
+  "display_name_policy": {
+    "applies_to": "all authors[].works[]",
+    "default_status": "provisional_title",
+    "basis": "60+ roadmap reader-facing label; original title retained; no Chinese edition claim"
+  },
+  "authors": [
+    {
+      "entity_id": "V1-ENT-0308",
+      "name_zh": "保罗·柯艾略",
+      "original_name": "Paulo Coelho",
+      "country_or_region": "巴西",
+      "birth_year": "1947",
+      "death_year": null,
+      "career_note": "作家、记者、作词人",
+      "literary_identity": "小说家与作词人",
+      "source_ids": ["SRC-0241", "SRC-0242"],
+      "place_id": "V1-ENT-0183",
+      "audit_metadata": {
+        "origin_batch": "WEB-CE-B13",
+        "created_at": "2026-08-21",
+        "reviewed_at": "2026-08-21",
+        "reviewer": "LUNA-MAX-B13-REVIEW",
+        "review_status": "PASS",
+        "basis_note": "ABL and USP institutional profiles"
+      },
+      "works": [
+        {"entity_id":"V1-ENT-0311","name_zh":"《牧羊少年奇幻之旅》","original_name":"O Alquimista","entity_type":"work","year":"1988","genre_or_form":null,"source_ids":["SRC-0241","SRC-0242"],"display_name_status":"provisional_title","display_name_basis":"roadmap reader-facing label; original title retained; no Chinese edition claim","audit_metadata":{"origin_batch":"WEB-CE-B13","created_at":"2026-08-21","reviewed_at":"2026-08-21","reviewer":"LUNA-MAX-B13-REVIEW","review_status":"PASS","basis_note":"ABL and USP bibliography; focused follow-up PASS"}},
+        {"entity_id":"V1-ENT-0312","name_zh":"《维罗妮卡决定去死》","original_name":"Veronika Decide Morrer","entity_type":"work","year":"1998","genre_or_form":null,"source_ids":["SRC-0241","SRC-0242"],"display_name_status":"provisional_title","display_name_basis":"roadmap reader-facing label; original title retained; no Chinese edition claim","audit_metadata":{"origin_batch":"WEB-CE-B13","created_at":"2026-08-21","reviewed_at":"2026-08-21","reviewer":"LUNA-MAX-B13-REVIEW","review_status":"PASS","basis_note":"ABL and USP bibliography; focused follow-up PASS"}},
+        {"entity_id":"V1-ENT-0313","name_zh":"《十一分钟》","original_name":"Onze Minutos","entity_type":"work","year":"2003","genre_or_form":null,"source_ids":["SRC-0241","SRC-0242"],"display_name_status":"provisional_title","display_name_basis":"roadmap reader-facing label; original title retained; no Chinese edition claim","audit_metadata":{"origin_batch":"WEB-CE-B13","created_at":"2026-08-21","reviewed_at":"2026-08-21","reviewer":"LUNA-MAX-B13-REVIEW","review_status":"PASS","basis_note":"ABL and USP bibliography; focused follow-up PASS"}}
+      ]
+    },
+    {
+      "entity_id": "V1-ENT-0309",
+      "name_zh": "卡洛斯·德鲁蒙德·德·安德拉德",
+      "original_name": "Carlos Drummond de Andrade",
+      "country_or_region": "巴西",
+      "birth_year": "1902",
+      "death_year": "1987",
+      "career_note": "诗人、作家与记者",
+      "literary_identity": "现代诗人",
+      "source_ids": ["SRC-0243", "SRC-0244"],
+      "place_id": "V1-ENT-0183",
+      "audit_metadata": {
+        "origin_batch": "WEB-CE-B13",
+        "created_at": "2026-08-21",
+        "reviewed_at": "2026-08-21",
+        "reviewer": "LUNA-MAX-B13-REVIEW",
+        "review_status": "PASS",
+        "basis_note": "ABL bibliography and BNDigital authority profile"
+      },
+      "works": [
+        {"entity_id":"V1-ENT-0314","name_zh":"《某种诗》","original_name":"Alguma poesia","entity_type":"collection","year":"1930","genre_or_form":"诗集","source_ids":["SRC-0243","SRC-0244"],"display_name_status":"provisional_title","display_name_basis":"roadmap reader-facing label; original title retained; no Chinese edition claim","audit_metadata":{"origin_batch":"WEB-CE-B13","created_at":"2026-08-21","reviewed_at":"2026-08-21","reviewer":"LUNA-MAX-B13-REVIEW","review_status":"PASS","basis_note":"ABL Poesias list and BNDigital poetry profile; focused follow-up PASS"}},
+        {"entity_id":"V1-ENT-0315","name_zh":"《人民的玫瑰》","original_name":"A rosa do povo","entity_type":"collection","year":"1945","genre_or_form":"诗集","source_ids":["SRC-0243","SRC-0244"],"display_name_status":"provisional_title","display_name_basis":"roadmap reader-facing label; original title retained; no Chinese edition claim","audit_metadata":{"origin_batch":"WEB-CE-B13","created_at":"2026-08-21","reviewed_at":"2026-08-21","reviewer":"LUNA-MAX-B13-REVIEW","review_status":"PASS","basis_note":"ABL Poesias list and BNDigital poetry profile; focused follow-up PASS"}},
+        {"entity_id":"V1-ENT-0316","name_zh":"《明晰之谜》","original_name":"Claro enigma","entity_type":"collection","year":"1951","genre_or_form":"诗集","source_ids":["SRC-0243","SRC-0244"],"display_name_status":"provisional_title","display_name_basis":"roadmap reader-facing label; original title retained; no Chinese edition claim","audit_metadata":{"origin_batch":"WEB-CE-B13","created_at":"2026-08-21","reviewed_at":"2026-08-21","reviewer":"LUNA-MAX-B13-REVIEW","review_status":"PASS","basis_note":"ABL Poesias list and BNDigital poetry profile; focused follow-up PASS"}}
+      ]
+    },
+    {
+      "entity_id": "V1-ENT-0310",
+      "name_zh": "尼古拉斯·纪廉",
+      "original_name": "Nicolás Guillén",
+      "country_or_region": "古巴",
+      "birth_year": "1902",
+      "death_year": "1989",
+      "career_note": "诗人、记者与文化工作者",
+      "literary_identity": "诗人与诗歌作者",
+      "source_ids": ["SRC-0245", "SRC-0246"],
+      "place_id": "V1-ENT-0235",
+      "audit_metadata": {
+        "origin_batch": "WEB-CE-B13",
+        "created_at": "2026-08-21",
+        "reviewed_at": "2026-08-21",
+        "reviewer": "LUNA-MAX-B13-REVIEW",
+        "review_status": "PASS",
+        "basis_note": "Cervantes Virtual bibliography and CVC biography"
+      },
+      "works": [
+        {"entity_id":"V1-ENT-0317","name_zh":"《松调》","original_name":"Motivos de son","entity_type":"collection","year":"1930","genre_or_form":"诗集","source_ids":["SRC-0245","SRC-0246"],"display_name_status":"provisional_title","display_name_basis":"roadmap reader-facing label; original title retained; no Chinese edition claim","audit_metadata":{"origin_batch":"WEB-CE-B13","created_at":"2026-08-21","reviewed_at":"2026-08-21","reviewer":"LUNA-MAX-B13-REVIEW","review_status":"PASS","basis_note":"Cervantes bibliography and CVC poem context; year anchored to SRC-0245"}},
+        {"entity_id":"V1-ENT-0318","name_zh":"《桑戈罗·科松戈》","original_name":"Sóngoro cosongo","entity_type":"collection","year":"1931","genre_or_form":"诗集","source_ids":["SRC-0245","SRC-0246"],"display_name_status":"provisional_title","display_name_basis":"roadmap reader-facing label; original title retained; no Chinese edition claim","audit_metadata":{"origin_batch":"WEB-CE-B13","created_at":"2026-08-21","reviewed_at":"2026-08-21","reviewer":"LUNA-MAX-B13-REVIEW","review_status":"PASS","basis_note":"Cervantes bibliography and CVC poem context; year anchored to SRC-0245"}},
+        {"entity_id":"V1-ENT-0319","name_zh":"《西印度公司》","original_name":"West Indies, Ltd.","entity_type":"collection","year":"1934","genre_or_form":"诗集","source_ids":["SRC-0245","SRC-0246"],"display_name_status":"provisional_title","display_name_basis":"roadmap reader-facing label; original title retained; no Chinese edition claim","audit_metadata":{"origin_batch":"WEB-CE-B13","created_at":"2026-08-21","reviewed_at":"2026-08-21","reviewer":"LUNA-MAX-B13-REVIEW","review_status":"PASS","basis_note":"Cervantes bibliography and CVC poem context; year anchored to SRC-0245"}}
+      ]
+    }
+  ],
+  "sources": [
+    {"source_id":"SRC-0241","title":"Paulo Coelho | Academia Brasileira de Letras","author_or_editor":"Academia Brasileira de Letras","publisher":"Academia Brasileira de Letras","url":"https://www.academia.org.br/academicos/paulo-coelho/biografia","source_level":"B","access":"access_pass","supports":"Paulo Coelho identity, Rio de Janeiro 1947, and O Alquimista 1988, Veronika Decide Morrer 1998, Onze Minutos 2003","origin_batch":"WEB-CE-B13","created_at":"2026-08-21","reviewed_at":"2026-08-21","reviewer":"LUNA-MAX-B13-REVIEW","review_status":"PASS"},
+    {"source_id":"SRC-0242","title":"Coelho, Paulo - Portal Contemporâneo da América Latina e Caribe","author_or_editor":"Portal Contemporâneo da América Latina e Caribe","publisher":"Universidade de São Paulo","url":"https://sites.usp.br/portalatinoamericano/en/coelho-paulo","source_level":"B","access":"access_pass","supports":"Brazilian author identity and independent 1988/1998/2003 bibliography","origin_batch":"WEB-CE-B13","created_at":"2026-08-21","reviewed_at":"2026-08-21","reviewer":"LUNA-MAX-B13-REVIEW","review_status":"PASS"},
+    {"source_id":"SRC-0243","title":"O ano Drummond","author_or_editor":"Antonio Olinto","publisher":"Academia Brasileira de Letras","url":"https://www.academia.org.br/artigos/o-ano-drummond","source_level":"B","access":"access_pass","supports":"Alguma poesia 1930, A rosa do povo 1945, Claro enigma 1951; poetry list","origin_batch":"WEB-CE-B13","created_at":"2026-08-21","reviewed_at":"2026-08-21","reviewer":"LUNA-MAX-B13-REVIEW","review_status":"PASS"},
+    {"source_id":"SRC-0244","title":"Carlos Drummond de Andrade","author_or_editor":"Biblioteca Nacional Digital do Brasil","publisher":"Fundação Biblioteca Nacional","url":"https://bndigital.bn.gov.br/carlos-drummond-de-andrade/","source_level":"B","access":"access_pass","supports":"Drummond authority identity, 1902–1987, Brazilian poetry and selected collection context","origin_batch":"WEB-CE-B13","created_at":"2026-08-21","reviewed_at":"2026-08-21","reviewer":"LUNA-MAX-B13-REVIEW","review_status":"PASS"},
+    {"source_id":"SRC-0245","title":"Bibliografía - Nicolás Guillén","author_or_editor":"Nancy Morejón","publisher":"Biblioteca Virtual Miguel de Cervantes","url":"https://www.cervantesvirtual.com/portales/nicolas_guillen/su_obra_bibliografia/","source_level":"B","access":"access_pass","supports":"Motivos de son 1930, Sóngoro cosongo 1931, West Indies, Ltd. 1934 bibliography","origin_batch":"WEB-CE-B13","created_at":"2026-08-21","reviewed_at":"2026-08-21","reviewer":"LUNA-MAX-B13-REVIEW","review_status":"PASS"},
+    {"source_id":"SRC-0246","title":"CVC. Nicolás Guillén. Biografía","author_or_editor":"Instituto Cervantes","publisher":"Centro Virtual Cervantes","url":"https://cvc.cervantes.es/literatura/escritores/guillen/biografia.htm","source_level":"B","access":"access_pass","supports":"Cuban identity, 1902–1989 and biographical/poemario context; not used as the primary source for the three publication years","origin_batch":"WEB-CE-B13","created_at":"2026-08-21","reviewed_at":"2026-08-21","reviewer":"LUNA-MAX-B13-REVIEW","review_status":"PASS"}
+  ],
+  "research_gaps": [],
+  "holds": [],
+  "relationships": [
+    {"relationship_id":"V1-REL-0236","subject_id":"V1-ENT-0308","relation_type":"CREATED","object_id":"V1-ENT-0311","description_zh":"保罗·柯艾略创作《牧羊少年奇幻之旅》（O Alquimista）","source_ids":["SRC-0241"],"confidence":"high"},
+    {"relationship_id":"V1-REL-0237","subject_id":"V1-ENT-0308","relation_type":"CREATED","object_id":"V1-ENT-0312","description_zh":"保罗·柯艾略创作《维罗妮卡决定去死》（Veronika Decide Morrer）","source_ids":["SRC-0241"],"confidence":"high"},
+    {"relationship_id":"V1-REL-0238","subject_id":"V1-ENT-0308","relation_type":"CREATED","object_id":"V1-ENT-0313","description_zh":"保罗·柯艾略创作《十一分钟》（Onze Minutos）","source_ids":["SRC-0241"],"confidence":"high"},
+    {"relationship_id":"V1-REL-0239","subject_id":"V1-ENT-0309","relation_type":"CREATED","object_id":"V1-ENT-0314","description_zh":"卡洛斯·德鲁蒙德·德·安德拉德创作《某种诗》（Alguma poesia）","source_ids":["SRC-0243"],"confidence":"high"},
+    {"relationship_id":"V1-REL-0240","subject_id":"V1-ENT-0309","relation_type":"CREATED","object_id":"V1-ENT-0315","description_zh":"卡洛斯·德鲁蒙德·德·安德拉德创作《人民的玫瑰》（A rosa do povo）","source_ids":["SRC-0243"],"confidence":"high"},
+    {"relationship_id":"V1-REL-0241","subject_id":"V1-ENT-0309","relation_type":"CREATED","object_id":"V1-ENT-0316","description_zh":"卡洛斯·德鲁蒙德·德·安德拉德创作《明晰之谜》（Claro enigma）","source_ids":["SRC-0243"],"confidence":"high"},
+    {"relationship_id":"V1-REL-0242","subject_id":"V1-ENT-0310","relation_type":"CREATED","object_id":"V1-ENT-0317","description_zh":"尼古拉斯·纪廉创作《松调》（Motivos de son）","source_ids":["SRC-0245"],"confidence":"high"},
+    {"relationship_id":"V1-REL-0243","subject_id":"V1-ENT-0310","relation_type":"CREATED","object_id":"V1-ENT-0318","description_zh":"尼古拉斯·纪廉创作《桑戈罗·科松戈》（Sóngoro cosongo）","source_ids":["SRC-0245"],"confidence":"high"},
+    {"relationship_id":"V1-REL-0244","subject_id":"V1-ENT-0310","relation_type":"CREATED","object_id":"V1-ENT-0319","description_zh":"尼古拉斯·纪廉创作《西印度公司》（West Indies, Ltd.）","source_ids":["SRC-0245"],"confidence":"high"},
+    {"relationship_id":"V1-REL-0245","subject_id":"V1-ENT-0308","relation_type":"ASSOCIATED_WITH_PLACE","object_id":"V1-ENT-0183","description_zh":"保罗·柯艾略与巴西关联","source_ids":["SRC-0241"],"confidence":"high"},
+    {"relationship_id":"V1-REL-0246","subject_id":"V1-ENT-0309","relation_type":"ASSOCIATED_WITH_PLACE","object_id":"V1-ENT-0183","description_zh":"卡洛斯·德鲁蒙德·德·安德拉德与巴西关联","source_ids":["SRC-0244"],"confidence":"high"},
+    {"relationship_id":"V1-REL-0247","subject_id":"V1-ENT-0310","relation_type":"ASSOCIATED_WITH_PLACE","object_id":"V1-ENT-0235","description_zh":"尼古拉斯·纪廉与古巴关联","source_ids":["SRC-0246"],"confidence":"high"}
+  ]
+}

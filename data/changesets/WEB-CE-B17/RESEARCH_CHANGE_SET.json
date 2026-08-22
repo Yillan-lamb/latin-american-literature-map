@@ -1,0 +1,2060 @@
+{
+  "batch": "WEB-CE-B17",
+  "plan": "动态收口批次：巴西女性写作、厄瓜多尔与委内瑞拉国家覆盖",
+  "started_at": "2026-08-22",
+  "review_metadata": {
+    "origin_batch": "WEB-CE-B17",
+    "created_at": "2026-08-22",
+    "reviewed_at": "2026-08-22",
+    "reviewer": "LUNA-MAX-B17-REVIEW",
+    "review_status": "PASS",
+    "basis_note": "fresh-context Reviewer PASS; source identity, support, birth-year dispute, entity layers, display-name boundary, Geo, curation boundary and migration replay verified"
+  },
+  "display_name_policy": {
+    "applies_to": "all authors[].works[]",
+    "default_status": "provisional_title",
+    "basis": "roadmap/reader-facing Chinese labels only; every original title retained; no translator/publisher metadata required"
+  },
+  "authors": [
+    {
+      "entity_id": "V1-ENT-0358",
+      "name_zh": "莉吉娅·法贡德斯·特莱斯",
+      "original_name": "Lygia Fagundes Telles",
+      "country_or_region": "巴西",
+      "birth_year": "1923",
+      "death_year": "2022",
+      "career_note": "小说家与短篇小说家",
+      "literary_identity": "巴西小说家与短篇小说家",
+      "source_ids": [
+        "SRC-0270",
+        "SRC-0271",
+        "SRC-0272"
+      ],
+      "place_id": "V1-ENT-0183",
+      "audit_metadata": {
+        "origin_batch": "WEB-CE-B17",
+        "created_at": "2026-08-22",
+        "reviewed_at": "2026-08-22",
+        "reviewer": "LUNA-MAX-B17-REVIEW",
+        "review_status": "PASS",
+        "basis_note": "fresh-context Reviewer PASS; source identity, support, birth-year dispute, entity layers, display-name boundary, Geo, curation boundary and migration replay verified"
+      },
+      "works": [
+        {
+          "entity_id": "V1-ENT-0361",
+          "name_zh": "《石头圆舞》",
+          "original_name": "Ciranda de pedra",
+          "entity_type": "work",
+          "year": "1954",
+          "year_semantics": "first_publication_year=1954",
+          "genre_or_form": "小说",
+          "source_ids": [
+            "SRC-0271"
+          ],
+          "display_name_status": "provisional_title",
+          "display_name_basis": "reader-facing provisional Chinese label; original title retained; no Chinese edition claim",
+          "audit_metadata": {
+            "origin_batch": "WEB-CE-B17",
+            "created_at": "2026-08-22",
+            "reviewed_at": "2026-08-22",
+            "reviewer": "LUNA-MAX-B17-REVIEW",
+            "review_status": "PASS",
+            "basis_note": "fresh-context Reviewer PASS; source identity, support, birth-year dispute, entity layers, display-name boundary, Geo, curation boundary and migration replay verified"
+          }
+        },
+        {
+          "entity_id": "V1-ENT-0362",
+          "name_zh": "《绿色舞会之前》",
+          "original_name": "Antes do baile verde",
+          "entity_type": "collection",
+          "year": "1970",
+          "year_semantics": "first_publication_year=1970",
+          "genre_or_form": "短篇小说集",
+          "source_ids": [
+            "SRC-0271"
+          ],
+          "display_name_status": "provisional_title",
+          "display_name_basis": "reader-facing provisional Chinese label; original title retained; no Chinese edition claim",
+          "audit_metadata": {
+            "origin_batch": "WEB-CE-B17",
+            "created_at": "2026-08-22",
+            "reviewed_at": "2026-08-22",
+            "reviewer": "LUNA-MAX-B17-REVIEW",
+            "review_status": "PASS",
+            "basis_note": "fresh-context Reviewer PASS; source identity, support, birth-year dispute, entity layers, display-name boundary, Geo, curation boundary and migration replay verified"
+          }
+        },
+        {
+          "entity_id": "V1-ENT-0363",
+          "name_zh": "《姑娘们》",
+          "original_name": "As meninas",
+          "entity_type": "work",
+          "year": "1973",
+          "year_semantics": "first_publication_year=1973",
+          "genre_or_form": "小说",
+          "source_ids": [
+            "SRC-0271"
+          ],
+          "display_name_status": "provisional_title",
+          "display_name_basis": "reader-facing provisional Chinese label; original title retained; no Chinese edition claim",
+          "audit_metadata": {
+            "origin_batch": "WEB-CE-B17",
+            "created_at": "2026-08-22",
+            "reviewed_at": "2026-08-22",
+            "reviewer": "LUNA-MAX-B17-REVIEW",
+            "review_status": "PASS",
+            "basis_note": "fresh-context Reviewer PASS; source identity, support, birth-year dispute, entity layers, display-name boundary, Geo, curation boundary and migration replay verified"
+          }
+        }
+      ]
+    },
+    {
+      "entity_id": "V1-ENT-0359",
+      "name_zh": "豪尔赫·伊卡萨",
+      "original_name": "Jorge Icaza",
+      "country_or_region": "厄瓜多尔",
+      "birth_year": "1906",
+      "death_year": "1978",
+      "career_note": "小说家与剧作家",
+      "literary_identity": "厄瓜多尔小说家与剧作家",
+      "source_ids": [
+        "SRC-0274",
+        "SRC-0273"
+      ],
+      "place_id": "V1-ENT-0356",
+      "audit_metadata": {
+        "origin_batch": "WEB-CE-B17",
+        "created_at": "2026-08-22",
+        "reviewed_at": "2026-08-22",
+        "reviewer": "LUNA-MAX-B17-REVIEW",
+        "review_status": "PASS",
+        "basis_note": "fresh-context Reviewer PASS; source identity, support, birth-year dispute, entity layers, display-name boundary, Geo, curation boundary and migration replay verified"
+      },
+      "works": [
+        {
+          "entity_id": "V1-ENT-0364",
+          "name_zh": "《瓦西蓬戈》",
+          "original_name": "Huasipungo",
+          "entity_type": "work",
+          "year": "1934",
+          "year_semantics": "first_publication_year=1934",
+          "genre_or_form": "小说",
+          "source_ids": [
+            "SRC-0273",
+            "SRC-0274"
+          ],
+          "display_name_status": "provisional_title",
+          "display_name_basis": "reader-facing provisional Chinese label; original title retained; no Chinese edition claim",
+          "audit_metadata": {
+            "origin_batch": "WEB-CE-B17",
+            "created_at": "2026-08-22",
+            "reviewed_at": "2026-08-22",
+            "reviewer": "LUNA-MAX-B17-REVIEW",
+            "review_status": "PASS",
+            "basis_note": "fresh-context Reviewer PASS; source identity, support, birth-year dispute, entity layers, display-name boundary, Geo, curation boundary and migration replay verified"
+          }
+        },
+        {
+          "entity_id": "V1-ENT-0365",
+          "name_zh": "《在街头》",
+          "original_name": "En las calles",
+          "entity_type": "work",
+          "year": "1935",
+          "year_semantics": "first_publication_year=1935",
+          "genre_or_form": "小说",
+          "source_ids": [
+            "SRC-0273",
+            "SRC-0274"
+          ],
+          "display_name_status": "provisional_title",
+          "display_name_basis": "reader-facing provisional Chinese label; original title retained; no Chinese edition claim",
+          "audit_metadata": {
+            "origin_batch": "WEB-CE-B17",
+            "created_at": "2026-08-22",
+            "reviewed_at": "2026-08-22",
+            "reviewer": "LUNA-MAX-B17-REVIEW",
+            "review_status": "PASS",
+            "basis_note": "fresh-context Reviewer PASS; source identity, support, birth-year dispute, entity layers, display-name boundary, Geo, curation boundary and migration replay verified"
+          }
+        },
+        {
+          "entity_id": "V1-ENT-0366",
+          "name_zh": "《乔洛·罗梅罗与弗洛雷斯》",
+          "original_name": "El chulla Romero y Flores",
+          "entity_type": "work",
+          "year": "1958",
+          "year_semantics": "first_publication_year=1958",
+          "genre_or_form": "小说",
+          "source_ids": [
+            "SRC-0273",
+            "SRC-0274"
+          ],
+          "display_name_status": "provisional_title",
+          "display_name_basis": "reader-facing provisional Chinese label; original title retained; no Chinese edition claim",
+          "audit_metadata": {
+            "origin_batch": "WEB-CE-B17",
+            "created_at": "2026-08-22",
+            "reviewed_at": "2026-08-22",
+            "reviewer": "LUNA-MAX-B17-REVIEW",
+            "review_status": "PASS",
+            "basis_note": "fresh-context Reviewer PASS; source identity, support, birth-year dispute, entity layers, display-name boundary, Geo, curation boundary and migration replay verified"
+          }
+        }
+      ]
+    },
+    {
+      "entity_id": "V1-ENT-0360",
+      "name_zh": "罗慕洛·加列戈斯",
+      "original_name": "Rómulo Gallegos",
+      "country_or_region": "委内瑞拉",
+      "birth_year": "1884",
+      "death_year": "1969",
+      "career_note": "作家、教育家与政治人物",
+      "literary_identity": "委内瑞拉小说家与教育家",
+      "source_ids": [
+        "SRC-0275",
+        "SRC-0276"
+      ],
+      "place_id": "V1-ENT-0357",
+      "audit_metadata": {
+        "origin_batch": "WEB-CE-B17",
+        "created_at": "2026-08-22",
+        "reviewed_at": "2026-08-22",
+        "reviewer": "LUNA-MAX-B17-REVIEW",
+        "review_status": "PASS",
+        "basis_note": "fresh-context Reviewer PASS; source identity, support, birth-year dispute, entity layers, display-name boundary, Geo, curation boundary and migration replay verified"
+      },
+      "works": [
+        {
+          "entity_id": "V1-ENT-0367",
+          "name_zh": "《堂娜·芭芭拉》",
+          "original_name": "Doña Bárbara",
+          "entity_type": "work",
+          "year": "1929",
+          "year_semantics": "first_publication_year=1929",
+          "genre_or_form": "小说",
+          "source_ids": [
+            "SRC-0275",
+            "SRC-0276"
+          ],
+          "display_name_status": "provisional_title",
+          "display_name_basis": "reader-facing provisional Chinese label; original title retained; no Chinese edition claim",
+          "audit_metadata": {
+            "origin_batch": "WEB-CE-B17",
+            "created_at": "2026-08-22",
+            "reviewed_at": "2026-08-22",
+            "reviewer": "LUNA-MAX-B17-REVIEW",
+            "review_status": "PASS",
+            "basis_note": "fresh-context Reviewer PASS; source identity, support, birth-year dispute, entity layers, display-name boundary, Geo, curation boundary and migration replay verified"
+          }
+        },
+        {
+          "entity_id": "V1-ENT-0368",
+          "name_zh": "《唱歌者》",
+          "original_name": "Cantaclaro",
+          "entity_type": "work",
+          "year": "1934",
+          "year_semantics": "first_publication_year=1934",
+          "genre_or_form": "小说",
+          "source_ids": [
+            "SRC-0275"
+          ],
+          "display_name_status": "provisional_title",
+          "display_name_basis": "reader-facing provisional Chinese label; original title retained; no Chinese edition claim",
+          "audit_metadata": {
+            "origin_batch": "WEB-CE-B17",
+            "created_at": "2026-08-22",
+            "reviewed_at": "2026-08-22",
+            "reviewer": "LUNA-MAX-B17-REVIEW",
+            "review_status": "PASS",
+            "basis_note": "fresh-context Reviewer PASS; source identity, support, birth-year dispute, entity layers, display-name boundary, Geo, curation boundary and migration replay verified"
+          }
+        },
+        {
+          "entity_id": "V1-ENT-0369",
+          "name_zh": "《卡奈玛》",
+          "original_name": "Canaima",
+          "entity_type": "work",
+          "year": "1935",
+          "year_semantics": "first_publication_year=1935",
+          "genre_or_form": "小说",
+          "source_ids": [
+            "SRC-0275",
+            "SRC-0276"
+          ],
+          "display_name_status": "provisional_title",
+          "display_name_basis": "reader-facing provisional Chinese label; original title retained; no Chinese edition claim",
+          "audit_metadata": {
+            "origin_batch": "WEB-CE-B17",
+            "created_at": "2026-08-22",
+            "reviewed_at": "2026-08-22",
+            "reviewer": "LUNA-MAX-B17-REVIEW",
+            "review_status": "PASS",
+            "basis_note": "fresh-context Reviewer PASS; source identity, support, birth-year dispute, entity layers, display-name boundary, Geo, curation boundary and migration replay verified"
+          }
+        }
+      ]
+    }
+  ],
+  "places": [
+    {
+      "entity_id": "V1-ENT-0356",
+      "name_zh": "厄瓜多尔",
+      "original_name": "Ecuador",
+      "place_kind": "country",
+      "country_code": "EC",
+      "display_policy": "country polygon; no coordinate",
+      "audit_metadata": {
+        "origin_batch": "WEB-CE-B17",
+        "created_at": "2026-08-22",
+        "reviewed_at": "2026-08-22",
+        "reviewer": "LUNA-MAX-B17-REVIEW",
+        "review_status": "PASS",
+        "basis_note": "fresh-context Reviewer PASS; source identity, support, birth-year dispute, entity layers, display-name boundary, Geo, curation boundary and migration replay verified"
+      }
+    },
+    {
+      "entity_id": "V1-ENT-0357",
+      "name_zh": "委内瑞拉",
+      "original_name": "Venezuela",
+      "place_kind": "country",
+      "country_code": "VE",
+      "display_policy": "country polygon; no coordinate",
+      "audit_metadata": {
+        "origin_batch": "WEB-CE-B17",
+        "created_at": "2026-08-22",
+        "reviewed_at": "2026-08-22",
+        "reviewer": "LUNA-MAX-B17-REVIEW",
+        "review_status": "PASS",
+        "basis_note": "fresh-context Reviewer PASS; source identity, support, birth-year dispute, entity layers, display-name boundary, Geo, curation boundary and migration replay verified"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "SRC-0270",
+      "temporary_id": "B17-SRC-0270",
+      "title": "Lygia Fagundes Telles | Academia Brasileira de Letras",
+      "original_title": "Lygia Fagundes Telles | Academia Brasileira de Letras",
+      "author_or_editor": "Academia Brasileira de Letras",
+      "publisher": "Academia Brasileira de Letras",
+      "url": "https://www2.academia.org.br/academicos/lygia-fagundes-telles",
+      "source_level": "B",
+      "access": "access_pass",
+      "supports": "ABL profile: Lygia Fagundes Telles born 19 April 1923 in São Paulo; death 3 April 2022; Brazilian author identity",
+      "language": "pt",
+      "origin_batch": "WEB-CE-B17",
+      "created_at": "2026-08-22",
+      "reviewed_at": "2026-08-22",
+      "reviewer": "LUNA-MAX-B17-REVIEW",
+      "review_status": "PASS",
+      "basis_note": "fresh-context Reviewer PASS; source identity, support, birth-year dispute, entity layers, display-name boundary, Geo, curation boundary and migration replay verified"
+    },
+    {
+      "source_id": "SRC-0271",
+      "temporary_id": "B17-SRC-0271",
+      "title": "Bibliografia | Lygia Fagundes Telles",
+      "original_title": "Bibliografia | Lygia Fagundes Telles",
+      "author_or_editor": "Academia Brasileira de Letras",
+      "publisher": "Academia Brasileira de Letras",
+      "url": "https://www.academia.org.br/academicos/lygia-fagundes-telles/bibliografia",
+      "source_level": "B",
+      "access": "access_pass",
+      "supports": "ABL bibliography: Ciranda de pedra romance 1954; Antes do baile verde contos 1970; As meninas romance 1973",
+      "language": "pt",
+      "origin_batch": "WEB-CE-B17",
+      "created_at": "2026-08-22",
+      "reviewed_at": "2026-08-22",
+      "reviewer": "LUNA-MAX-B17-REVIEW",
+      "review_status": "PASS",
+      "basis_note": "fresh-context Reviewer PASS; source identity, support, birth-year dispute, entity layers, display-name boundary, Geo, curation boundary and migration replay verified"
+    },
+    {
+      "source_id": "SRC-0272",
+      "temporary_id": "B17-SRC-0272",
+      "title": "Os contos",
+      "original_title": "Os contos",
+      "author_or_editor": "Lygia Fagundes Telles; posfácio de Walnice Nogueira Galvão",
+      "publisher": "Companhia das Letras / Biblioteca Nacional do Brasil catalogue",
+      "url": "https://acervo.bn.gov.br/sophia_web/acervo/detalhe/1724755",
+      "source_level": "B",
+      "access": "access_pass",
+      "supports": "BN catalogue record for Os contos; authority line lists Lygia Fagundes Telles 1918–2022, retained as conflicting birth-year evidence",
+      "language": "pt",
+      "origin_batch": "WEB-CE-B17",
+      "created_at": "2026-08-22",
+      "reviewed_at": "2026-08-22",
+      "reviewer": "LUNA-MAX-B17-REVIEW",
+      "review_status": "PASS",
+      "basis_note": "fresh-context Reviewer PASS; source identity, support, birth-year dispute, entity layers, display-name boundary, Geo, curation boundary and migration replay verified"
+    },
+    {
+      "source_id": "SRC-0273",
+      "temporary_id": "B17-SRC-0273",
+      "title": "Jorge Icaza : frontera del relato indiginista",
+      "original_title": "Jorge Icaza : frontera del relato indiginista",
+      "author_or_editor": "Manuel Corrales",
+      "publisher": "Pontificia Universidad Católica del Ecuador / Casa de la Cultura Ecuatoriana",
+      "url": "https://biblioteca.casadelacultura.gob.ec/bib/10452",
+      "source_level": "B",
+      "access": "access_pass",
+      "supports": "CCE catalogue describes the 1974 monograph and lists Huasipungo, En las calles and El Chulla Romero y Flores",
+      "language": "es",
+      "origin_batch": "WEB-CE-B17",
+      "created_at": "2026-08-22",
+      "reviewed_at": "2026-08-22",
+      "reviewer": "LUNA-MAX-B17-REVIEW",
+      "review_status": "PASS",
+      "basis_note": "fresh-context Reviewer PASS; source identity, support, birth-year dispute, entity layers, display-name boundary, Geo, curation boundary and migration replay verified"
+    },
+    {
+      "source_id": "SRC-0274",
+      "temporary_id": "B17-SRC-0274",
+      "title": "Análisis comparativo dialectal de los cuentos El malo de Enrique Gil Gilbert y Barranca Grande de Jorge Icaza",
+      "original_title": "Análisis comparativo dialectal de los cuentos El malo de Enrique Gil Gilbert y Barranca Grande de Jorge Icaza",
+      "author_or_editor": "Ivonne Verónica Mena Reina",
+      "publisher": "Universidad Central del Ecuador",
+      "url": "https://www.dspace.uce.edu.ec/server/api/core/bitstreams/c4493f6a-e702-4d00-8f4f-653644f5a4a9/content",
+      "source_level": "B",
+      "access": "access_pass",
+      "supports": "UCE thesis biography: Jorge Icaza born Quito 1906, died Quito 1978; novels Huasipungo 1934, En las calles 1935 and El chulla Romero y Flores 1958",
+      "language": "es",
+      "origin_batch": "WEB-CE-B17",
+      "created_at": "2026-08-22",
+      "reviewed_at": "2026-08-22",
+      "reviewer": "LUNA-MAX-B17-REVIEW",
+      "review_status": "PASS",
+      "basis_note": "fresh-context Reviewer PASS; source identity, support, birth-year dispute, entity layers, display-name boundary, Geo, curation boundary and migration replay verified"
+    },
+    {
+      "source_id": "SRC-0275",
+      "temporary_id": "B17-SRC-0275",
+      "title": "Gallegos, Rómulo",
+      "original_title": "Gallegos, Rómulo",
+      "author_or_editor": "Fundación Empresas Polar",
+      "publisher": "Fundación Empresas Polar",
+      "url": "https://bibliofep.fundacionempresaspolar.org/dhv/entradas/g/gallegos-romulo/",
+      "source_level": "B",
+      "access": "access_pass",
+      "supports": "Polar profile: Rómulo Gallegos Caracas 1884–1969; writer, educator and politician; Doña Bárbara 1929, Cantaclaro 1934, Canaima 1935",
+      "language": "es",
+      "origin_batch": "WEB-CE-B17",
+      "created_at": "2026-08-22",
+      "reviewed_at": "2026-08-22",
+      "reviewer": "LUNA-MAX-B17-REVIEW",
+      "review_status": "PASS",
+      "basis_note": "fresh-context Reviewer PASS; source identity, support, birth-year dispute, entity layers, display-name boundary, Geo, curation boundary and migration replay verified"
+    },
+    {
+      "source_id": "SRC-0276",
+      "temporary_id": "B17-SRC-0276",
+      "title": "NACIMIENTO DE DON RÓMULO GALLEGOS",
+      "original_title": "NACIMIENTO DE DON RÓMULO GALLEGOS",
+      "author_or_editor": "Universidad de Carabobo, Vicerrectorado Académico",
+      "publisher": "Universidad de Carabobo",
+      "url": "https://viceacademico.uc.edu.ve/efemerides/historia/gallegos",
+      "source_level": "B",
+      "access": "access_pass",
+      "supports": "University profile: Gallegos born Caracas 1884, died Caracas 1969; Doña Bárbara 1929 and Canaima 1935",
+      "language": "es",
+      "origin_batch": "WEB-CE-B17",
+      "created_at": "2026-08-22",
+      "reviewed_at": "2026-08-22",
+      "reviewer": "LUNA-MAX-B17-REVIEW",
+      "review_status": "PASS",
+      "basis_note": "fresh-context Reviewer PASS; source identity, support, birth-year dispute, entity layers, display-name boundary, Geo, curation boundary and migration replay verified"
+    }
+  ],
+  "research_gaps": [
+    {
+      "gap_id": "V1-GAP-0024",
+      "origin_gap_id": "B17-GAP-01-0358",
+      "gap_type": "disputed_fact",
+      "gap_key": "V1-ENT-0358.birth_year",
+      "current_status": "open_research",
+      "evidence_basis": "SRC-0270 ABL profile states 19 April 1923, while SRC-0272 Biblioteca Nacional catalogue authority line states 1918–2022; the birth-year conflict is not reconciled in this batch.",
+      "attempts_or_count": "1",
+      "owner_decision": "SOL_REVIEW",
+      "downstream_effect": "Retain 1923 as a medium-confidence candidate with a visible dispute marker; do not present an uncontested birth year in formal public prose until Sol reconciles the authority records.",
+      "issue_code": "DISPUTED-YEAR",
+      "audit_metadata": {
+        "origin_batch": "WEB-CE-B17",
+        "created_at": "2026-08-22",
+        "reviewed_at": "2026-08-22",
+        "reviewer": "LUNA-MAX-B17-REVIEW",
+        "review_status": "PASS",
+        "basis_note": "fresh-context Reviewer PASS; source identity, support, birth-year dispute, entity layers, display-name boundary, Geo, curation boundary and migration replay verified"
+      }
+    }
+  ],
+  "holds": [],
+  "relationships": [
+    {
+      "relationship_id": "V1-REL-0284",
+      "subject_id": "V1-ENT-0358",
+      "relation_type": "CREATED",
+      "object_id": "V1-ENT-0361",
+      "description_zh": "莉吉娅·法贡德斯·特莱斯创作《石头圆舞》（Ciranda de pedra）",
+      "source_ids": [
+        "SRC-0271"
+      ],
+      "confidence": "high",
+      "audit_metadata": {
+        "origin_batch": "WEB-CE-B17",
+        "created_at": "2026-08-22",
+        "reviewed_at": "2026-08-22",
+        "reviewer": "LUNA-MAX-B17-REVIEW",
+        "review_status": "PASS",
+        "basis_note": "fresh-context Reviewer PASS; source identity, support, birth-year dispute, entity layers, display-name boundary, Geo, curation boundary and migration replay verified"
+      }
+    },
+    {
+      "relationship_id": "V1-REL-0285",
+      "subject_id": "V1-ENT-0358",
+      "relation_type": "CREATED",
+      "object_id": "V1-ENT-0362",
+      "description_zh": "莉吉娅·法贡德斯·特莱斯创作《绿色舞会之前》（Antes do baile verde）",
+      "source_ids": [
+        "SRC-0271"
+      ],
+      "confidence": "high",
+      "audit_metadata": {
+        "origin_batch": "WEB-CE-B17",
+        "created_at": "2026-08-22",
+        "reviewed_at": "2026-08-22",
+        "reviewer": "LUNA-MAX-B17-REVIEW",
+        "review_status": "PASS",
+        "basis_note": "fresh-context Reviewer PASS; source identity, support, birth-year dispute, entity layers, display-name boundary, Geo, curation boundary and migration replay verified"
+      }
+    },
+    {
+      "relationship_id": "V1-REL-0286",
+      "subject_id": "V1-ENT-0358",
+      "relation_type": "CREATED",
+      "object_id": "V1-ENT-0363",
+      "description_zh": "莉吉娅·法贡德斯·特莱斯创作《姑娘们》（As meninas）",
+      "source_ids": [
+        "SRC-0271"
+      ],
+      "confidence": "high",
+      "audit_metadata": {
+        "origin_batch": "WEB-CE-B17",
+        "created_at": "2026-08-22",
+        "reviewed_at": "2026-08-22",
+        "reviewer": "LUNA-MAX-B17-REVIEW",
+        "review_status": "PASS",
+        "basis_note": "fresh-context Reviewer PASS; source identity, support, birth-year dispute, entity layers, display-name boundary, Geo, curation boundary and migration replay verified"
+      }
+    },
+    {
+      "relationship_id": "V1-REL-0287",
+      "subject_id": "V1-ENT-0359",
+      "relation_type": "CREATED",
+      "object_id": "V1-ENT-0364",
+      "description_zh": "豪尔赫·伊卡萨创作《瓦西蓬戈》（Huasipungo）",
+      "source_ids": [
+        "SRC-0273",
+        "SRC-0274"
+      ],
+      "confidence": "high",
+      "audit_metadata": {
+        "origin_batch": "WEB-CE-B17",
+        "created_at": "2026-08-22",
+        "reviewed_at": "2026-08-22",
+        "reviewer": "LUNA-MAX-B17-REVIEW",
+        "review_status": "PASS",
+        "basis_note": "fresh-context Reviewer PASS; source identity, support, birth-year dispute, entity layers, display-name boundary, Geo, curation boundary and migration replay verified"
+      }
+    },
+    {
+      "relationship_id": "V1-REL-0288",
+      "subject_id": "V1-ENT-0359",
+      "relation_type": "CREATED",
+      "object_id": "V1-ENT-0365",
+      "description_zh": "豪尔赫·伊卡萨创作《在街头》（En las calles）",
+      "source_ids": [
+        "SRC-0273",
+        "SRC-0274"
+      ],
+      "confidence": "high",
+      "audit_metadata": {
+        "origin_batch": "WEB-CE-B17",
+        "created_at": "2026-08-22",
+        "reviewed_at": "2026-08-22",
+        "reviewer": "LUNA-MAX-B17-REVIEW",
+        "review_status": "PASS",
+        "basis_note": "fresh-context Reviewer PASS; source identity, support, birth-year dispute, entity layers, display-name boundary, Geo, curation boundary and migration replay verified"
+      }
+    },
+    {
+      "relationship_id": "V1-REL-0289",
+      "subject_id": "V1-ENT-0359",
+      "relation_type": "CREATED",
+      "object_id": "V1-ENT-0366",
+      "description_zh": "豪尔赫·伊卡萨创作《乔洛·罗梅罗与弗洛雷斯》（El chulla Romero y Flores）",
+      "source_ids": [
+        "SRC-0273",
+        "SRC-0274"
+      ],
+      "confidence": "high",
+      "audit_metadata": {
+        "origin_batch": "WEB-CE-B17",
+        "created_at": "2026-08-22",
+        "reviewed_at": "2026-08-22",
+        "reviewer": "LUNA-MAX-B17-REVIEW",
+        "review_status": "PASS",
+        "basis_note": "fresh-context Reviewer PASS; source identity, support, birth-year dispute, entity layers, display-name boundary, Geo, curation boundary and migration replay verified"
+      }
+    },
+    {
+      "relationship_id": "V1-REL-0290",
+      "subject_id": "V1-ENT-0360",
+      "relation_type": "CREATED",
+      "object_id": "V1-ENT-0367",
+      "description_zh": "罗慕洛·加列戈斯创作《堂娜·芭芭拉》（Doña Bárbara）",
+      "source_ids": [
+        "SRC-0275",
+        "SRC-0276"
+      ],
+      "confidence": "high",
+      "audit_metadata": {
+        "origin_batch": "WEB-CE-B17",
+        "created_at": "2026-08-22",
+        "reviewed_at": "2026-08-22",
+        "reviewer": "LUNA-MAX-B17-REVIEW",
+        "review_status": "PASS",
+        "basis_note": "fresh-context Reviewer PASS; source identity, support, birth-year dispute, entity layers, display-name boundary, Geo, curation boundary and migration replay verified"
+      }
+    },
+    {
+      "relationship_id": "V1-REL-0291",
+      "subject_id": "V1-ENT-0360",
+      "relation_type": "CREATED",
+      "object_id": "V1-ENT-0368",
+      "description_zh": "罗慕洛·加列戈斯创作《唱歌者》（Cantaclaro）",
+      "source_ids": [
+        "SRC-0275"
+      ],
+      "confidence": "high",
+      "audit_metadata": {
+        "origin_batch": "WEB-CE-B17",
+        "created_at": "2026-08-22",
+        "reviewed_at": "2026-08-22",
+        "reviewer": "LUNA-MAX-B17-REVIEW",
+        "review_status": "PASS",
+        "basis_note": "fresh-context Reviewer PASS; source identity, support, birth-year dispute, entity layers, display-name boundary, Geo, curation boundary and migration replay verified"
+      }
+    },
+    {
+      "relationship_id": "V1-REL-0292",
+      "subject_id": "V1-ENT-0360",
+      "relation_type": "CREATED",
+      "object_id": "V1-ENT-0369",
+      "description_zh": "罗慕洛·加列戈斯创作《卡奈玛》（Canaima）",
+      "source_ids": [
+        "SRC-0275",
+        "SRC-0276"
+      ],
+      "confidence": "high",
+      "audit_metadata": {
+        "origin_batch": "WEB-CE-B17",
+        "created_at": "2026-08-22",
+        "reviewed_at": "2026-08-22",
+        "reviewer": "LUNA-MAX-B17-REVIEW",
+        "review_status": "PASS",
+        "basis_note": "fresh-context Reviewer PASS; source identity, support, birth-year dispute, entity layers, display-name boundary, Geo, curation boundary and migration replay verified"
+      }
+    },
+    {
+      "relationship_id": "V1-REL-0293",
+      "subject_id": "V1-ENT-0358",
+      "relation_type": "ASSOCIATED_WITH_PLACE",
+      "object_id": "V1-ENT-0183",
+      "description_zh": "莉吉娅·法贡德斯·特莱斯与巴西关联",
+      "source_ids": [
+        "SRC-0270",
+        "SRC-0271"
+      ],
+      "confidence": "high",
+      "audit_metadata": {
+        "origin_batch": "WEB-CE-B17",
+        "created_at": "2026-08-22",
+        "reviewed_at": "2026-08-22",
+        "reviewer": "LUNA-MAX-B17-REVIEW",
+        "review_status": "PASS",
+        "basis_note": "fresh-context Reviewer PASS; source identity, support, birth-year dispute, entity layers, display-name boundary, Geo, curation boundary and migration replay verified"
+      }
+    },
+    {
+      "relationship_id": "V1-REL-0294",
+      "subject_id": "V1-ENT-0359",
+      "relation_type": "ASSOCIATED_WITH_PLACE",
+      "object_id": "V1-ENT-0356",
+      "description_zh": "豪尔赫·伊卡萨与厄瓜多尔关联",
+      "source_ids": [
+        "SRC-0274",
+        "SRC-0273"
+      ],
+      "confidence": "high",
+      "audit_metadata": {
+        "origin_batch": "WEB-CE-B17",
+        "created_at": "2026-08-22",
+        "reviewed_at": "2026-08-22",
+        "reviewer": "LUNA-MAX-B17-REVIEW",
+        "review_status": "PASS",
+        "basis_note": "fresh-context Reviewer PASS; source identity, support, birth-year dispute, entity layers, display-name boundary, Geo, curation boundary and migration replay verified"
+      }
+    },
+    {
+      "relationship_id": "V1-REL-0295",
+      "subject_id": "V1-ENT-0360",
+      "relation_type": "ASSOCIATED_WITH_PLACE",
+      "object_id": "V1-ENT-0357",
+      "description_zh": "罗慕洛·加列戈斯与委内瑞拉关联",
+      "source_ids": [
+        "SRC-0275",
+        "SRC-0276"
+      ],
+      "confidence": "high",
+      "audit_metadata": {
+        "origin_batch": "WEB-CE-B17",
+        "created_at": "2026-08-22",
+        "reviewed_at": "2026-08-22",
+        "reviewer": "LUNA-MAX-B17-REVIEW",
+        "review_status": "PASS",
+        "basis_note": "fresh-context Reviewer PASS; source identity, support, birth-year dispute, entity layers, display-name boundary, Geo, curation boundary and migration replay verified"
+      }
+    }
+  ],
+  "cards": [
+    {
+      "card_id": "V1-CARD-0244",
+      "subject_id": "V1-ENT-0358",
+      "card_type": "author",
+      "title_zh": "莉吉娅·法贡德斯·特莱斯",
+      "author_label": "莉吉娅·法贡德斯·特莱斯",
+      "original_title": "Lygia Fagundes Telles",
+      "country_or_region": "巴西",
+      "language": "pt",
+      "period_bucket": "1923–2022",
+      "genre_or_form": "巴西小说家与短篇小说家",
+      "source_ids": [
+        "SRC-0270",
+        "SRC-0271",
+        "SRC-0272"
+      ],
+      "issue_code": "DISPUTED-YEAR",
+      "content_markdown": "### 莉吉娅·法贡德斯·特莱斯｜Lygia Fagundes Telles — source-backed author entry for WEB-CE-B17.",
+      "audit_metadata": {
+        "origin_batch": "WEB-CE-B17",
+        "created_at": "2026-08-22",
+        "reviewed_at": "2026-08-22",
+        "reviewer": "LUNA-MAX-B17-REVIEW",
+        "review_status": "PASS",
+        "basis_note": "fresh-context Reviewer PASS; source identity, support, birth-year dispute, entity layers, display-name boundary, Geo, curation boundary and migration replay verified"
+      }
+    },
+    {
+      "card_id": "V1-CARD-0245",
+      "subject_id": "V1-ENT-0361",
+      "card_type": "work",
+      "title_zh": "《石头圆舞》",
+      "author_label": "莉吉娅·法贡德斯·特莱斯",
+      "original_title": "Ciranda de pedra",
+      "country_or_region": "巴西",
+      "language": "pt",
+      "period_bucket": "1954",
+      "genre_or_form": "小说",
+      "source_ids": [
+        "SRC-0271"
+      ],
+      "issue_code": "NONE",
+      "content_markdown": "### 《石头圆舞》｜Ciranda de pedra — source-backed 小说 entry; original title retained.",
+      "audit_metadata": {
+        "origin_batch": "WEB-CE-B17",
+        "created_at": "2026-08-22",
+        "reviewed_at": "2026-08-22",
+        "reviewer": "LUNA-MAX-B17-REVIEW",
+        "review_status": "PASS",
+        "basis_note": "fresh-context Reviewer PASS; source identity, support, birth-year dispute, entity layers, display-name boundary, Geo, curation boundary and migration replay verified"
+      }
+    },
+    {
+      "card_id": "V1-CARD-0246",
+      "subject_id": "V1-ENT-0362",
+      "card_type": "collection",
+      "title_zh": "《绿色舞会之前》",
+      "author_label": "莉吉娅·法贡德斯·特莱斯",
+      "original_title": "Antes do baile verde",
+      "country_or_region": "巴西",
+      "language": "pt",
+      "period_bucket": "1970",
+      "genre_or_form": "短篇小说集",
+      "source_ids": [
+        "SRC-0271"
+      ],
+      "issue_code": "NONE",
+      "content_markdown": "### 《绿色舞会之前》｜Antes do baile verde — source-backed 短篇小说集 entry; original title retained.",
+      "audit_metadata": {
+        "origin_batch": "WEB-CE-B17",
+        "created_at": "2026-08-22",
+        "reviewed_at": "2026-08-22",
+        "reviewer": "LUNA-MAX-B17-REVIEW",
+        "review_status": "PASS",
+        "basis_note": "fresh-context Reviewer PASS; source identity, support, birth-year dispute, entity layers, display-name boundary, Geo, curation boundary and migration replay verified"
+      }
+    },
+    {
+      "card_id": "V1-CARD-0247",
+      "subject_id": "V1-ENT-0363",
+      "card_type": "work",
+      "title_zh": "《姑娘们》",
+      "author_label": "莉吉娅·法贡德斯·特莱斯",
+      "original_title": "As meninas",
+      "country_or_region": "巴西",
+      "language": "pt",
+      "period_bucket": "1973",
+      "genre_or_form": "小说",
+      "source_ids": [
+        "SRC-0271"
+      ],
+      "issue_code": "NONE",
+      "content_markdown": "### 《姑娘们》｜As meninas — source-backed 小说 entry; original title retained.",
+      "audit_metadata": {
+        "origin_batch": "WEB-CE-B17",
+        "created_at": "2026-08-22",
+        "reviewed_at": "2026-08-22",
+        "reviewer": "LUNA-MAX-B17-REVIEW",
+        "review_status": "PASS",
+        "basis_note": "fresh-context Reviewer PASS; source identity, support, birth-year dispute, entity layers, display-name boundary, Geo, curation boundary and migration replay verified"
+      }
+    },
+    {
+      "card_id": "V1-CARD-0248",
+      "subject_id": "V1-ENT-0359",
+      "card_type": "author",
+      "title_zh": "豪尔赫·伊卡萨",
+      "author_label": "豪尔赫·伊卡萨",
+      "original_title": "Jorge Icaza",
+      "country_or_region": "厄瓜多尔",
+      "language": "es",
+      "period_bucket": "1906–1978",
+      "genre_or_form": "厄瓜多尔小说家与剧作家",
+      "source_ids": [
+        "SRC-0274",
+        "SRC-0273"
+      ],
+      "issue_code": "NONE",
+      "content_markdown": "### 豪尔赫·伊卡萨｜Jorge Icaza — source-backed author entry for WEB-CE-B17.",
+      "audit_metadata": {
+        "origin_batch": "WEB-CE-B17",
+        "created_at": "2026-08-22",
+        "reviewed_at": "2026-08-22",
+        "reviewer": "LUNA-MAX-B17-REVIEW",
+        "review_status": "PASS",
+        "basis_note": "fresh-context Reviewer PASS; source identity, support, birth-year dispute, entity layers, display-name boundary, Geo, curation boundary and migration replay verified"
+      }
+    },
+    {
+      "card_id": "V1-CARD-0249",
+      "subject_id": "V1-ENT-0364",
+      "card_type": "work",
+      "title_zh": "《瓦西蓬戈》",
+      "author_label": "豪尔赫·伊卡萨",
+      "original_title": "Huasipungo",
+      "country_or_region": "厄瓜多尔",
+      "language": "es",
+      "period_bucket": "1934",
+      "genre_or_form": "小说",
+      "source_ids": [
+        "SRC-0273",
+        "SRC-0274"
+      ],
+      "issue_code": "NONE",
+      "content_markdown": "### 《瓦西蓬戈》｜Huasipungo — source-backed 小说 entry; original title retained.",
+      "audit_metadata": {
+        "origin_batch": "WEB-CE-B17",
+        "created_at": "2026-08-22",
+        "reviewed_at": "2026-08-22",
+        "reviewer": "LUNA-MAX-B17-REVIEW",
+        "review_status": "PASS",
+        "basis_note": "fresh-context Reviewer PASS; source identity, support, birth-year dispute, entity layers, display-name boundary, Geo, curation boundary and migration replay verified"
+      }
+    },
+    {
+      "card_id": "V1-CARD-0250",
+      "subject_id": "V1-ENT-0365",
+      "card_type": "work",
+      "title_zh": "《在街头》",
+      "author_label": "豪尔赫·伊卡萨",
+      "original_title": "En las calles",
+      "country_or_region": "厄瓜多尔",
+      "language": "es",
+      "period_bucket": "1935",
+      "genre_or_form": "小说",
+      "source_ids": [
+        "SRC-0273",
+        "SRC-0274"
+      ],
+      "issue_code": "NONE",
+      "content_markdown": "### 《在街头》｜En las calles — source-backed 小说 entry; original title retained.",
+      "audit_metadata": {
+        "origin_batch": "WEB-CE-B17",
+        "created_at": "2026-08-22",
+        "reviewed_at": "2026-08-22",
+        "reviewer": "LUNA-MAX-B17-REVIEW",
+        "review_status": "PASS",
+        "basis_note": "fresh-context Reviewer PASS; source identity, support, birth-year dispute, entity layers, display-name boundary, Geo, curation boundary and migration replay verified"
+      }
+    },
+    {
+      "card_id": "V1-CARD-0251",
+      "subject_id": "V1-ENT-0366",
+      "card_type": "work",
+      "title_zh": "《乔洛·罗梅罗与弗洛雷斯》",
+      "author_label": "豪尔赫·伊卡萨",
+      "original_title": "El chulla Romero y Flores",
+      "country_or_region": "厄瓜多尔",
+      "language": "es",
+      "period_bucket": "1958",
+      "genre_or_form": "小说",
+      "source_ids": [
+        "SRC-0273",
+        "SRC-0274"
+      ],
+      "issue_code": "NONE",
+      "content_markdown": "### 《乔洛·罗梅罗与弗洛雷斯》｜El chulla Romero y Flores — source-backed 小说 entry; original title retained.",
+      "audit_metadata": {
+        "origin_batch": "WEB-CE-B17",
+        "created_at": "2026-08-22",
+        "reviewed_at": "2026-08-22",
+        "reviewer": "LUNA-MAX-B17-REVIEW",
+        "review_status": "PASS",
+        "basis_note": "fresh-context Reviewer PASS; source identity, support, birth-year dispute, entity layers, display-name boundary, Geo, curation boundary and migration replay verified"
+      }
+    },
+    {
+      "card_id": "V1-CARD-0252",
+      "subject_id": "V1-ENT-0360",
+      "card_type": "author",
+      "title_zh": "罗慕洛·加列戈斯",
+      "author_label": "罗慕洛·加列戈斯",
+      "original_title": "Rómulo Gallegos",
+      "country_or_region": "委内瑞拉",
+      "language": "es",
+      "period_bucket": "1884–1969",
+      "genre_or_form": "委内瑞拉小说家与教育家",
+      "source_ids": [
+        "SRC-0275",
+        "SRC-0276"
+      ],
+      "issue_code": "NONE",
+      "content_markdown": "### 罗慕洛·加列戈斯｜Rómulo Gallegos — source-backed author entry for WEB-CE-B17.",
+      "audit_metadata": {
+        "origin_batch": "WEB-CE-B17",
+        "created_at": "2026-08-22",
+        "reviewed_at": "2026-08-22",
+        "reviewer": "LUNA-MAX-B17-REVIEW",
+        "review_status": "PASS",
+        "basis_note": "fresh-context Reviewer PASS; source identity, support, birth-year dispute, entity layers, display-name boundary, Geo, curation boundary and migration replay verified"
+      }
+    },
+    {
+      "card_id": "V1-CARD-0253",
+      "subject_id": "V1-ENT-0367",
+      "card_type": "work",
+      "title_zh": "《堂娜·芭芭拉》",
+      "author_label": "罗慕洛·加列戈斯",
+      "original_title": "Doña Bárbara",
+      "country_or_region": "委内瑞拉",
+      "language": "es",
+      "period_bucket": "1929",
+      "genre_or_form": "小说",
+      "source_ids": [
+        "SRC-0275",
+        "SRC-0276"
+      ],
+      "issue_code": "NONE",
+      "content_markdown": "### 《堂娜·芭芭拉》｜Doña Bárbara — source-backed 小说 entry; original title retained.",
+      "audit_metadata": {
+        "origin_batch": "WEB-CE-B17",
+        "created_at": "2026-08-22",
+        "reviewed_at": "2026-08-22",
+        "reviewer": "LUNA-MAX-B17-REVIEW",
+        "review_status": "PASS",
+        "basis_note": "fresh-context Reviewer PASS; source identity, support, birth-year dispute, entity layers, display-name boundary, Geo, curation boundary and migration replay verified"
+      }
+    },
+    {
+      "card_id": "V1-CARD-0254",
+      "subject_id": "V1-ENT-0368",
+      "card_type": "work",
+      "title_zh": "《唱歌者》",
+      "author_label": "罗慕洛·加列戈斯",
+      "original_title": "Cantaclaro",
+      "country_or_region": "委内瑞拉",
+      "language": "es",
+      "period_bucket": "1934",
+      "genre_or_form": "小说",
+      "source_ids": [
+        "SRC-0275"
+      ],
+      "issue_code": "NONE",
+      "content_markdown": "### 《唱歌者》｜Cantaclaro — source-backed 小说 entry; original title retained.",
+      "audit_metadata": {
+        "origin_batch": "WEB-CE-B17",
+        "created_at": "2026-08-22",
+        "reviewed_at": "2026-08-22",
+        "reviewer": "LUNA-MAX-B17-REVIEW",
+        "review_status": "PASS",
+        "basis_note": "fresh-context Reviewer PASS; source identity, support, birth-year dispute, entity layers, display-name boundary, Geo, curation boundary and migration replay verified"
+      }
+    },
+    {
+      "card_id": "V1-CARD-0255",
+      "subject_id": "V1-ENT-0369",
+      "card_type": "work",
+      "title_zh": "《卡奈玛》",
+      "author_label": "罗慕洛·加列戈斯",
+      "original_title": "Canaima",
+      "country_or_region": "委内瑞拉",
+      "language": "es",
+      "period_bucket": "1935",
+      "genre_or_form": "小说",
+      "source_ids": [
+        "SRC-0275",
+        "SRC-0276"
+      ],
+      "issue_code": "NONE",
+      "content_markdown": "### 《卡奈玛》｜Canaima — source-backed 小说 entry; original title retained.",
+      "audit_metadata": {
+        "origin_batch": "WEB-CE-B17",
+        "created_at": "2026-08-22",
+        "reviewed_at": "2026-08-22",
+        "reviewer": "LUNA-MAX-B17-REVIEW",
+        "review_status": "PASS",
+        "basis_note": "fresh-context Reviewer PASS; source identity, support, birth-year dispute, entity layers, display-name boundary, Geo, curation boundary and migration replay verified"
+      }
+    }
+  ],
+  "facts": [
+    {
+      "fact_id": "V1-FCT-0962",
+      "card_id": "V1-CARD-0244",
+      "subject_id": "V1-ENT-0358",
+      "fact_field": "birth_year",
+      "value_text": "1923",
+      "material_class": "fact",
+      "origin_id": "SRC-0270",
+      "confidence": "medium",
+      "usage_note": "Source-backed birth year for Lygia Fagundes Telles.",
+      "issue_code": "DISPUTED-YEAR",
+      "audit_metadata": {
+        "origin_batch": "WEB-CE-B17",
+        "created_at": "2026-08-22",
+        "reviewed_at": "2026-08-22",
+        "reviewer": "LUNA-MAX-B17-REVIEW",
+        "review_status": "PASS",
+        "basis_note": "fresh-context Reviewer PASS; source identity, support, birth-year dispute, entity layers, display-name boundary, Geo, curation boundary and migration replay verified"
+      }
+    },
+    {
+      "fact_id": "V1-FCT-0963",
+      "card_id": "V1-CARD-0244",
+      "subject_id": "V1-ENT-0358",
+      "fact_field": "death_year",
+      "value_text": "2022",
+      "material_class": "fact",
+      "origin_id": "SRC-0270",
+      "confidence": "high",
+      "usage_note": "Source-backed death year for Lygia Fagundes Telles.",
+      "issue_code": "NONE",
+      "audit_metadata": {
+        "origin_batch": "WEB-CE-B17",
+        "created_at": "2026-08-22",
+        "reviewed_at": "2026-08-22",
+        "reviewer": "LUNA-MAX-B17-REVIEW",
+        "review_status": "PASS",
+        "basis_note": "fresh-context Reviewer PASS; source identity, support, birth-year dispute, entity layers, display-name boundary, Geo, curation boundary and migration replay verified"
+      }
+    },
+    {
+      "fact_id": "V1-FCT-0964",
+      "card_id": "V1-CARD-0244",
+      "subject_id": "V1-ENT-0358",
+      "fact_field": "country_or_region",
+      "value_text": "巴西",
+      "material_class": "fact",
+      "origin_id": "SRC-0270",
+      "confidence": "high",
+      "usage_note": "Source-backed country association for Lygia Fagundes Telles.",
+      "issue_code": "NONE",
+      "audit_metadata": {
+        "origin_batch": "WEB-CE-B17",
+        "created_at": "2026-08-22",
+        "reviewed_at": "2026-08-22",
+        "reviewer": "LUNA-MAX-B17-REVIEW",
+        "review_status": "PASS",
+        "basis_note": "fresh-context Reviewer PASS; source identity, support, birth-year dispute, entity layers, display-name boundary, Geo, curation boundary and migration replay verified"
+      }
+    },
+    {
+      "fact_id": "V1-FCT-0965",
+      "card_id": "V1-CARD-0244",
+      "subject_id": "V1-ENT-0358",
+      "fact_field": "career_note",
+      "value_text": "小说家与短篇小说家",
+      "material_class": "fact",
+      "origin_id": "SRC-0271",
+      "confidence": "high",
+      "usage_note": "Conservative career description for Lygia Fagundes Telles.",
+      "issue_code": "NONE",
+      "audit_metadata": {
+        "origin_batch": "WEB-CE-B17",
+        "created_at": "2026-08-22",
+        "reviewed_at": "2026-08-22",
+        "reviewer": "LUNA-MAX-B17-REVIEW",
+        "review_status": "PASS",
+        "basis_note": "fresh-context Reviewer PASS; source identity, support, birth-year dispute, entity layers, display-name boundary, Geo, curation boundary and migration replay verified"
+      }
+    },
+    {
+      "fact_id": "V1-FCT-0966",
+      "card_id": "V1-CARD-0244",
+      "subject_id": "V1-ENT-0358",
+      "fact_field": "literary_identity",
+      "value_text": "巴西小说家与短篇小说家",
+      "material_class": "fact",
+      "origin_id": "SRC-0271",
+      "confidence": "medium",
+      "usage_note": "Conservative literary identity for Lygia Fagundes Telles; no movement or influence claim.",
+      "issue_code": "NONE",
+      "audit_metadata": {
+        "origin_batch": "WEB-CE-B17",
+        "created_at": "2026-08-22",
+        "reviewed_at": "2026-08-22",
+        "reviewer": "LUNA-MAX-B17-REVIEW",
+        "review_status": "PASS",
+        "basis_note": "fresh-context Reviewer PASS; source identity, support, birth-year dispute, entity layers, display-name boundary, Geo, curation boundary and migration replay verified"
+      }
+    },
+    {
+      "fact_id": "V1-FCT-0967",
+      "card_id": "V1-CARD-0245",
+      "subject_id": "V1-ENT-0361",
+      "fact_field": "entity_layer",
+      "value_text": "work",
+      "material_class": "metadata",
+      "origin_id": "SRC-0271",
+      "confidence": "high",
+      "usage_note": "Entity layer recorded as work.",
+      "issue_code": "NONE",
+      "audit_metadata": {
+        "origin_batch": "WEB-CE-B17",
+        "created_at": "2026-08-22",
+        "reviewed_at": "2026-08-22",
+        "reviewer": "LUNA-MAX-B17-REVIEW",
+        "review_status": "PASS",
+        "basis_note": "fresh-context Reviewer PASS; source identity, support, birth-year dispute, entity layers, display-name boundary, Geo, curation boundary and migration replay verified"
+      }
+    },
+    {
+      "fact_id": "V1-FCT-0968",
+      "card_id": "V1-CARD-0245",
+      "subject_id": "V1-ENT-0361",
+      "fact_field": "first_publication_year",
+      "value_text": "1954",
+      "material_class": "bibliographic",
+      "origin_id": "SRC-0271",
+      "confidence": "high",
+      "usage_note": "Cited source dates Ciranda de pedra to 1954.",
+      "issue_code": "NONE",
+      "audit_metadata": {
+        "origin_batch": "WEB-CE-B17",
+        "created_at": "2026-08-22",
+        "reviewed_at": "2026-08-22",
+        "reviewer": "LUNA-MAX-B17-REVIEW",
+        "review_status": "PASS",
+        "basis_note": "fresh-context Reviewer PASS; source identity, support, birth-year dispute, entity layers, display-name boundary, Geo, curation boundary and migration replay verified"
+      }
+    },
+    {
+      "fact_id": "V1-FCT-0969",
+      "card_id": "V1-CARD-0245",
+      "subject_id": "V1-ENT-0361",
+      "fact_field": "genre_or_form",
+      "value_text": "小说",
+      "material_class": "bibliographic",
+      "origin_id": "SRC-0271",
+      "confidence": "high",
+      "usage_note": "Cited source supports the conservative form label 小说.",
+      "issue_code": "NONE",
+      "audit_metadata": {
+        "origin_batch": "WEB-CE-B17",
+        "created_at": "2026-08-22",
+        "reviewed_at": "2026-08-22",
+        "reviewer": "LUNA-MAX-B17-REVIEW",
+        "review_status": "PASS",
+        "basis_note": "fresh-context Reviewer PASS; source identity, support, birth-year dispute, entity layers, display-name boundary, Geo, curation boundary and migration replay verified"
+      }
+    },
+    {
+      "fact_id": "V1-FCT-0970",
+      "card_id": "V1-CARD-0246",
+      "subject_id": "V1-ENT-0362",
+      "fact_field": "entity_layer",
+      "value_text": "collection",
+      "material_class": "metadata",
+      "origin_id": "SRC-0271",
+      "confidence": "high",
+      "usage_note": "Entity layer recorded as collection.",
+      "issue_code": "NONE",
+      "audit_metadata": {
+        "origin_batch": "WEB-CE-B17",
+        "created_at": "2026-08-22",
+        "reviewed_at": "2026-08-22",
+        "reviewer": "LUNA-MAX-B17-REVIEW",
+        "review_status": "PASS",
+        "basis_note": "fresh-context Reviewer PASS; source identity, support, birth-year dispute, entity layers, display-name boundary, Geo, curation boundary and migration replay verified"
+      }
+    },
+    {
+      "fact_id": "V1-FCT-0971",
+      "card_id": "V1-CARD-0246",
+      "subject_id": "V1-ENT-0362",
+      "fact_field": "first_publication_year",
+      "value_text": "1970",
+      "material_class": "bibliographic",
+      "origin_id": "SRC-0271",
+      "confidence": "high",
+      "usage_note": "Cited source dates Antes do baile verde to 1970.",
+      "issue_code": "NONE",
+      "audit_metadata": {
+        "origin_batch": "WEB-CE-B17",
+        "created_at": "2026-08-22",
+        "reviewed_at": "2026-08-22",
+        "reviewer": "LUNA-MAX-B17-REVIEW",
+        "review_status": "PASS",
+        "basis_note": "fresh-context Reviewer PASS; source identity, support, birth-year dispute, entity layers, display-name boundary, Geo, curation boundary and migration replay verified"
+      }
+    },
+    {
+      "fact_id": "V1-FCT-0972",
+      "card_id": "V1-CARD-0246",
+      "subject_id": "V1-ENT-0362",
+      "fact_field": "genre_or_form",
+      "value_text": "短篇小说集",
+      "material_class": "bibliographic",
+      "origin_id": "SRC-0271",
+      "confidence": "high",
+      "usage_note": "Cited source supports the conservative form label 短篇小说集.",
+      "issue_code": "NONE",
+      "audit_metadata": {
+        "origin_batch": "WEB-CE-B17",
+        "created_at": "2026-08-22",
+        "reviewed_at": "2026-08-22",
+        "reviewer": "LUNA-MAX-B17-REVIEW",
+        "review_status": "PASS",
+        "basis_note": "fresh-context Reviewer PASS; source identity, support, birth-year dispute, entity layers, display-name boundary, Geo, curation boundary and migration replay verified"
+      }
+    },
+    {
+      "fact_id": "V1-FCT-0973",
+      "card_id": "V1-CARD-0247",
+      "subject_id": "V1-ENT-0363",
+      "fact_field": "entity_layer",
+      "value_text": "work",
+      "material_class": "metadata",
+      "origin_id": "SRC-0271",
+      "confidence": "high",
+      "usage_note": "Entity layer recorded as work.",
+      "issue_code": "NONE",
+      "audit_metadata": {
+        "origin_batch": "WEB-CE-B17",
+        "created_at": "2026-08-22",
+        "reviewed_at": "2026-08-22",
+        "reviewer": "LUNA-MAX-B17-REVIEW",
+        "review_status": "PASS",
+        "basis_note": "fresh-context Reviewer PASS; source identity, support, birth-year dispute, entity layers, display-name boundary, Geo, curation boundary and migration replay verified"
+      }
+    },
+    {
+      "fact_id": "V1-FCT-0974",
+      "card_id": "V1-CARD-0247",
+      "subject_id": "V1-ENT-0363",
+      "fact_field": "first_publication_year",
+      "value_text": "1973",
+      "material_class": "bibliographic",
+      "origin_id": "SRC-0271",
+      "confidence": "high",
+      "usage_note": "Cited source dates As meninas to 1973.",
+      "issue_code": "NONE",
+      "audit_metadata": {
+        "origin_batch": "WEB-CE-B17",
+        "created_at": "2026-08-22",
+        "reviewed_at": "2026-08-22",
+        "reviewer": "LUNA-MAX-B17-REVIEW",
+        "review_status": "PASS",
+        "basis_note": "fresh-context Reviewer PASS; source identity, support, birth-year dispute, entity layers, display-name boundary, Geo, curation boundary and migration replay verified"
+      }
+    },
+    {
+      "fact_id": "V1-FCT-0975",
+      "card_id": "V1-CARD-0247",
+      "subject_id": "V1-ENT-0363",
+      "fact_field": "genre_or_form",
+      "value_text": "小说",
+      "material_class": "bibliographic",
+      "origin_id": "SRC-0271",
+      "confidence": "high",
+      "usage_note": "Cited source supports the conservative form label 小说.",
+      "issue_code": "NONE",
+      "audit_metadata": {
+        "origin_batch": "WEB-CE-B17",
+        "created_at": "2026-08-22",
+        "reviewed_at": "2026-08-22",
+        "reviewer": "LUNA-MAX-B17-REVIEW",
+        "review_status": "PASS",
+        "basis_note": "fresh-context Reviewer PASS; source identity, support, birth-year dispute, entity layers, display-name boundary, Geo, curation boundary and migration replay verified"
+      }
+    },
+    {
+      "fact_id": "V1-FCT-0976",
+      "card_id": "V1-CARD-0248",
+      "subject_id": "V1-ENT-0359",
+      "fact_field": "birth_year",
+      "value_text": "1906",
+      "material_class": "fact",
+      "origin_id": "SRC-0274",
+      "confidence": "high",
+      "usage_note": "Source-backed birth year for Jorge Icaza.",
+      "issue_code": "NONE",
+      "audit_metadata": {
+        "origin_batch": "WEB-CE-B17",
+        "created_at": "2026-08-22",
+        "reviewed_at": "2026-08-22",
+        "reviewer": "LUNA-MAX-B17-REVIEW",
+        "review_status": "PASS",
+        "basis_note": "fresh-context Reviewer PASS; source identity, support, birth-year dispute, entity layers, display-name boundary, Geo, curation boundary and migration replay verified"
+      }
+    },
+    {
+      "fact_id": "V1-FCT-0977",
+      "card_id": "V1-CARD-0248",
+      "subject_id": "V1-ENT-0359",
+      "fact_field": "death_year",
+      "value_text": "1978",
+      "material_class": "fact",
+      "origin_id": "SRC-0274",
+      "confidence": "high",
+      "usage_note": "Source-backed death year for Jorge Icaza.",
+      "issue_code": "NONE",
+      "audit_metadata": {
+        "origin_batch": "WEB-CE-B17",
+        "created_at": "2026-08-22",
+        "reviewed_at": "2026-08-22",
+        "reviewer": "LUNA-MAX-B17-REVIEW",
+        "review_status": "PASS",
+        "basis_note": "fresh-context Reviewer PASS; source identity, support, birth-year dispute, entity layers, display-name boundary, Geo, curation boundary and migration replay verified"
+      }
+    },
+    {
+      "fact_id": "V1-FCT-0978",
+      "card_id": "V1-CARD-0248",
+      "subject_id": "V1-ENT-0359",
+      "fact_field": "country_or_region",
+      "value_text": "厄瓜多尔",
+      "material_class": "fact",
+      "origin_id": "SRC-0274",
+      "confidence": "high",
+      "usage_note": "Source-backed country association for Jorge Icaza.",
+      "issue_code": "NONE",
+      "audit_metadata": {
+        "origin_batch": "WEB-CE-B17",
+        "created_at": "2026-08-22",
+        "reviewed_at": "2026-08-22",
+        "reviewer": "LUNA-MAX-B17-REVIEW",
+        "review_status": "PASS",
+        "basis_note": "fresh-context Reviewer PASS; source identity, support, birth-year dispute, entity layers, display-name boundary, Geo, curation boundary and migration replay verified"
+      }
+    },
+    {
+      "fact_id": "V1-FCT-0979",
+      "card_id": "V1-CARD-0248",
+      "subject_id": "V1-ENT-0359",
+      "fact_field": "career_note",
+      "value_text": "小说家与剧作家",
+      "material_class": "fact",
+      "origin_id": "SRC-0274",
+      "confidence": "high",
+      "usage_note": "Conservative career description for Jorge Icaza.",
+      "issue_code": "NONE",
+      "audit_metadata": {
+        "origin_batch": "WEB-CE-B17",
+        "created_at": "2026-08-22",
+        "reviewed_at": "2026-08-22",
+        "reviewer": "LUNA-MAX-B17-REVIEW",
+        "review_status": "PASS",
+        "basis_note": "fresh-context Reviewer PASS; source identity, support, birth-year dispute, entity layers, display-name boundary, Geo, curation boundary and migration replay verified"
+      }
+    },
+    {
+      "fact_id": "V1-FCT-0980",
+      "card_id": "V1-CARD-0248",
+      "subject_id": "V1-ENT-0359",
+      "fact_field": "literary_identity",
+      "value_text": "厄瓜多尔小说家与剧作家",
+      "material_class": "fact",
+      "origin_id": "SRC-0274",
+      "confidence": "medium",
+      "usage_note": "Conservative literary identity for Jorge Icaza; no movement or influence claim.",
+      "issue_code": "NONE",
+      "audit_metadata": {
+        "origin_batch": "WEB-CE-B17",
+        "created_at": "2026-08-22",
+        "reviewed_at": "2026-08-22",
+        "reviewer": "LUNA-MAX-B17-REVIEW",
+        "review_status": "PASS",
+        "basis_note": "fresh-context Reviewer PASS; source identity, support, birth-year dispute, entity layers, display-name boundary, Geo, curation boundary and migration replay verified"
+      }
+    },
+    {
+      "fact_id": "V1-FCT-0981",
+      "card_id": "V1-CARD-0249",
+      "subject_id": "V1-ENT-0364",
+      "fact_field": "entity_layer",
+      "value_text": "work",
+      "material_class": "metadata",
+      "origin_id": "SRC-0273",
+      "confidence": "high",
+      "usage_note": "Entity layer recorded as work.",
+      "issue_code": "NONE",
+      "audit_metadata": {
+        "origin_batch": "WEB-CE-B17",
+        "created_at": "2026-08-22",
+        "reviewed_at": "2026-08-22",
+        "reviewer": "LUNA-MAX-B17-REVIEW",
+        "review_status": "PASS",
+        "basis_note": "fresh-context Reviewer PASS; source identity, support, birth-year dispute, entity layers, display-name boundary, Geo, curation boundary and migration replay verified"
+      }
+    },
+    {
+      "fact_id": "V1-FCT-0982",
+      "card_id": "V1-CARD-0249",
+      "subject_id": "V1-ENT-0364",
+      "fact_field": "first_publication_year",
+      "value_text": "1934",
+      "material_class": "bibliographic",
+      "origin_id": "SRC-0273",
+      "confidence": "high",
+      "usage_note": "Cited source dates Huasipungo to 1934.",
+      "issue_code": "NONE",
+      "audit_metadata": {
+        "origin_batch": "WEB-CE-B17",
+        "created_at": "2026-08-22",
+        "reviewed_at": "2026-08-22",
+        "reviewer": "LUNA-MAX-B17-REVIEW",
+        "review_status": "PASS",
+        "basis_note": "fresh-context Reviewer PASS; source identity, support, birth-year dispute, entity layers, display-name boundary, Geo, curation boundary and migration replay verified"
+      }
+    },
+    {
+      "fact_id": "V1-FCT-0983",
+      "card_id": "V1-CARD-0249",
+      "subject_id": "V1-ENT-0364",
+      "fact_field": "genre_or_form",
+      "value_text": "小说",
+      "material_class": "bibliographic",
+      "origin_id": "SRC-0273",
+      "confidence": "high",
+      "usage_note": "Cited source supports the conservative form label 小说.",
+      "issue_code": "NONE",
+      "audit_metadata": {
+        "origin_batch": "WEB-CE-B17",
+        "created_at": "2026-08-22",
+        "reviewed_at": "2026-08-22",
+        "reviewer": "LUNA-MAX-B17-REVIEW",
+        "review_status": "PASS",
+        "basis_note": "fresh-context Reviewer PASS; source identity, support, birth-year dispute, entity layers, display-name boundary, Geo, curation boundary and migration replay verified"
+      }
+    },
+    {
+      "fact_id": "V1-FCT-0984",
+      "card_id": "V1-CARD-0250",
+      "subject_id": "V1-ENT-0365",
+      "fact_field": "entity_layer",
+      "value_text": "work",
+      "material_class": "metadata",
+      "origin_id": "SRC-0273",
+      "confidence": "high",
+      "usage_note": "Entity layer recorded as work.",
+      "issue_code": "NONE",
+      "audit_metadata": {
+        "origin_batch": "WEB-CE-B17",
+        "created_at": "2026-08-22",
+        "reviewed_at": "2026-08-22",
+        "reviewer": "LUNA-MAX-B17-REVIEW",
+        "review_status": "PASS",
+        "basis_note": "fresh-context Reviewer PASS; source identity, support, birth-year dispute, entity layers, display-name boundary, Geo, curation boundary and migration replay verified"
+      }
+    },
+    {
+      "fact_id": "V1-FCT-0985",
+      "card_id": "V1-CARD-0250",
+      "subject_id": "V1-ENT-0365",
+      "fact_field": "first_publication_year",
+      "value_text": "1935",
+      "material_class": "bibliographic",
+      "origin_id": "SRC-0273",
+      "confidence": "high",
+      "usage_note": "Cited source dates En las calles to 1935.",
+      "issue_code": "NONE",
+      "audit_metadata": {
+        "origin_batch": "WEB-CE-B17",
+        "created_at": "2026-08-22",
+        "reviewed_at": "2026-08-22",
+        "reviewer": "LUNA-MAX-B17-REVIEW",
+        "review_status": "PASS",
+        "basis_note": "fresh-context Reviewer PASS; source identity, support, birth-year dispute, entity layers, display-name boundary, Geo, curation boundary and migration replay verified"
+      }
+    },
+    {
+      "fact_id": "V1-FCT-0986",
+      "card_id": "V1-CARD-0250",
+      "subject_id": "V1-ENT-0365",
+      "fact_field": "genre_or_form",
+      "value_text": "小说",
+      "material_class": "bibliographic",
+      "origin_id": "SRC-0273",
+      "confidence": "high",
+      "usage_note": "Cited source supports the conservative form label 小说.",
+      "issue_code": "NONE",
+      "audit_metadata": {
+        "origin_batch": "WEB-CE-B17",
+        "created_at": "2026-08-22",
+        "reviewed_at": "2026-08-22",
+        "reviewer": "LUNA-MAX-B17-REVIEW",
+        "review_status": "PASS",
+        "basis_note": "fresh-context Reviewer PASS; source identity, support, birth-year dispute, entity layers, display-name boundary, Geo, curation boundary and migration replay verified"
+      }
+    },
+    {
+      "fact_id": "V1-FCT-0987",
+      "card_id": "V1-CARD-0251",
+      "subject_id": "V1-ENT-0366",
+      "fact_field": "entity_layer",
+      "value_text": "work",
+      "material_class": "metadata",
+      "origin_id": "SRC-0273",
+      "confidence": "high",
+      "usage_note": "Entity layer recorded as work.",
+      "issue_code": "NONE",
+      "audit_metadata": {
+        "origin_batch": "WEB-CE-B17",
+        "created_at": "2026-08-22",
+        "reviewed_at": "2026-08-22",
+        "reviewer": "LUNA-MAX-B17-REVIEW",
+        "review_status": "PASS",
+        "basis_note": "fresh-context Reviewer PASS; source identity, support, birth-year dispute, entity layers, display-name boundary, Geo, curation boundary and migration replay verified"
+      }
+    },
+    {
+      "fact_id": "V1-FCT-0988",
+      "card_id": "V1-CARD-0251",
+      "subject_id": "V1-ENT-0366",
+      "fact_field": "first_publication_year",
+      "value_text": "1958",
+      "material_class": "bibliographic",
+      "origin_id": "SRC-0273",
+      "confidence": "high",
+      "usage_note": "Cited source dates El chulla Romero y Flores to 1958.",
+      "issue_code": "NONE",
+      "audit_metadata": {
+        "origin_batch": "WEB-CE-B17",
+        "created_at": "2026-08-22",
+        "reviewed_at": "2026-08-22",
+        "reviewer": "LUNA-MAX-B17-REVIEW",
+        "review_status": "PASS",
+        "basis_note": "fresh-context Reviewer PASS; source identity, support, birth-year dispute, entity layers, display-name boundary, Geo, curation boundary and migration replay verified"
+      }
+    },
+    {
+      "fact_id": "V1-FCT-0989",
+      "card_id": "V1-CARD-0251",
+      "subject_id": "V1-ENT-0366",
+      "fact_field": "genre_or_form",
+      "value_text": "小说",
+      "material_class": "bibliographic",
+      "origin_id": "SRC-0273",
+      "confidence": "high",
+      "usage_note": "Cited source supports the conservative form label 小说.",
+      "issue_code": "NONE",
+      "audit_metadata": {
+        "origin_batch": "WEB-CE-B17",
+        "created_at": "2026-08-22",
+        "reviewed_at": "2026-08-22",
+        "reviewer": "LUNA-MAX-B17-REVIEW",
+        "review_status": "PASS",
+        "basis_note": "fresh-context Reviewer PASS; source identity, support, birth-year dispute, entity layers, display-name boundary, Geo, curation boundary and migration replay verified"
+      }
+    },
+    {
+      "fact_id": "V1-FCT-0990",
+      "card_id": "V1-CARD-0252",
+      "subject_id": "V1-ENT-0360",
+      "fact_field": "birth_year",
+      "value_text": "1884",
+      "material_class": "fact",
+      "origin_id": "SRC-0275",
+      "confidence": "high",
+      "usage_note": "Source-backed birth year for Rómulo Gallegos.",
+      "issue_code": "NONE",
+      "audit_metadata": {
+        "origin_batch": "WEB-CE-B17",
+        "created_at": "2026-08-22",
+        "reviewed_at": "2026-08-22",
+        "reviewer": "LUNA-MAX-B17-REVIEW",
+        "review_status": "PASS",
+        "basis_note": "fresh-context Reviewer PASS; source identity, support, birth-year dispute, entity layers, display-name boundary, Geo, curation boundary and migration replay verified"
+      }
+    },
+    {
+      "fact_id": "V1-FCT-0991",
+      "card_id": "V1-CARD-0252",
+      "subject_id": "V1-ENT-0360",
+      "fact_field": "death_year",
+      "value_text": "1969",
+      "material_class": "fact",
+      "origin_id": "SRC-0275",
+      "confidence": "high",
+      "usage_note": "Source-backed death year for Rómulo Gallegos.",
+      "issue_code": "NONE",
+      "audit_metadata": {
+        "origin_batch": "WEB-CE-B17",
+        "created_at": "2026-08-22",
+        "reviewed_at": "2026-08-22",
+        "reviewer": "LUNA-MAX-B17-REVIEW",
+        "review_status": "PASS",
+        "basis_note": "fresh-context Reviewer PASS; source identity, support, birth-year dispute, entity layers, display-name boundary, Geo, curation boundary and migration replay verified"
+      }
+    },
+    {
+      "fact_id": "V1-FCT-0992",
+      "card_id": "V1-CARD-0252",
+      "subject_id": "V1-ENT-0360",
+      "fact_field": "country_or_region",
+      "value_text": "委内瑞拉",
+      "material_class": "fact",
+      "origin_id": "SRC-0275",
+      "confidence": "high",
+      "usage_note": "Source-backed country association for Rómulo Gallegos.",
+      "issue_code": "NONE",
+      "audit_metadata": {
+        "origin_batch": "WEB-CE-B17",
+        "created_at": "2026-08-22",
+        "reviewed_at": "2026-08-22",
+        "reviewer": "LUNA-MAX-B17-REVIEW",
+        "review_status": "PASS",
+        "basis_note": "fresh-context Reviewer PASS; source identity, support, birth-year dispute, entity layers, display-name boundary, Geo, curation boundary and migration replay verified"
+      }
+    },
+    {
+      "fact_id": "V1-FCT-0993",
+      "card_id": "V1-CARD-0252",
+      "subject_id": "V1-ENT-0360",
+      "fact_field": "career_note",
+      "value_text": "作家、教育家与政治人物",
+      "material_class": "fact",
+      "origin_id": "SRC-0275",
+      "confidence": "high",
+      "usage_note": "Conservative career description for Rómulo Gallegos.",
+      "issue_code": "NONE",
+      "audit_metadata": {
+        "origin_batch": "WEB-CE-B17",
+        "created_at": "2026-08-22",
+        "reviewed_at": "2026-08-22",
+        "reviewer": "LUNA-MAX-B17-REVIEW",
+        "review_status": "PASS",
+        "basis_note": "fresh-context Reviewer PASS; source identity, support, birth-year dispute, entity layers, display-name boundary, Geo, curation boundary and migration replay verified"
+      }
+    },
+    {
+      "fact_id": "V1-FCT-0994",
+      "card_id": "V1-CARD-0252",
+      "subject_id": "V1-ENT-0360",
+      "fact_field": "literary_identity",
+      "value_text": "委内瑞拉小说家与教育家",
+      "material_class": "fact",
+      "origin_id": "SRC-0275",
+      "confidence": "medium",
+      "usage_note": "Conservative literary identity for Rómulo Gallegos; no movement or influence claim.",
+      "issue_code": "NONE",
+      "audit_metadata": {
+        "origin_batch": "WEB-CE-B17",
+        "created_at": "2026-08-22",
+        "reviewed_at": "2026-08-22",
+        "reviewer": "LUNA-MAX-B17-REVIEW",
+        "review_status": "PASS",
+        "basis_note": "fresh-context Reviewer PASS; source identity, support, birth-year dispute, entity layers, display-name boundary, Geo, curation boundary and migration replay verified"
+      }
+    },
+    {
+      "fact_id": "V1-FCT-0995",
+      "card_id": "V1-CARD-0253",
+      "subject_id": "V1-ENT-0367",
+      "fact_field": "entity_layer",
+      "value_text": "work",
+      "material_class": "metadata",
+      "origin_id": "SRC-0275",
+      "confidence": "high",
+      "usage_note": "Entity layer recorded as work.",
+      "issue_code": "NONE",
+      "audit_metadata": {
+        "origin_batch": "WEB-CE-B17",
+        "created_at": "2026-08-22",
+        "reviewed_at": "2026-08-22",
+        "reviewer": "LUNA-MAX-B17-REVIEW",
+        "review_status": "PASS",
+        "basis_note": "fresh-context Reviewer PASS; source identity, support, birth-year dispute, entity layers, display-name boundary, Geo, curation boundary and migration replay verified"
+      }
+    },
+    {
+      "fact_id": "V1-FCT-0996",
+      "card_id": "V1-CARD-0253",
+      "subject_id": "V1-ENT-0367",
+      "fact_field": "first_publication_year",
+      "value_text": "1929",
+      "material_class": "bibliographic",
+      "origin_id": "SRC-0275",
+      "confidence": "high",
+      "usage_note": "Cited source dates Doña Bárbara to 1929.",
+      "issue_code": "NONE",
+      "audit_metadata": {
+        "origin_batch": "WEB-CE-B17",
+        "created_at": "2026-08-22",
+        "reviewed_at": "2026-08-22",
+        "reviewer": "LUNA-MAX-B17-REVIEW",
+        "review_status": "PASS",
+        "basis_note": "fresh-context Reviewer PASS; source identity, support, birth-year dispute, entity layers, display-name boundary, Geo, curation boundary and migration replay verified"
+      }
+    },
+    {
+      "fact_id": "V1-FCT-0997",
+      "card_id": "V1-CARD-0253",
+      "subject_id": "V1-ENT-0367",
+      "fact_field": "genre_or_form",
+      "value_text": "小说",
+      "material_class": "bibliographic",
+      "origin_id": "SRC-0275",
+      "confidence": "high",
+      "usage_note": "Cited source supports the conservative form label 小说.",
+      "issue_code": "NONE",
+      "audit_metadata": {
+        "origin_batch": "WEB-CE-B17",
+        "created_at": "2026-08-22",
+        "reviewed_at": "2026-08-22",
+        "reviewer": "LUNA-MAX-B17-REVIEW",
+        "review_status": "PASS",
+        "basis_note": "fresh-context Reviewer PASS; source identity, support, birth-year dispute, entity layers, display-name boundary, Geo, curation boundary and migration replay verified"
+      }
+    },
+    {
+      "fact_id": "V1-FCT-0998",
+      "card_id": "V1-CARD-0254",
+      "subject_id": "V1-ENT-0368",
+      "fact_field": "entity_layer",
+      "value_text": "work",
+      "material_class": "metadata",
+      "origin_id": "SRC-0275",
+      "confidence": "high",
+      "usage_note": "Entity layer recorded as work.",
+      "issue_code": "NONE",
+      "audit_metadata": {
+        "origin_batch": "WEB-CE-B17",
+        "created_at": "2026-08-22",
+        "reviewed_at": "2026-08-22",
+        "reviewer": "LUNA-MAX-B17-REVIEW",
+        "review_status": "PASS",
+        "basis_note": "fresh-context Reviewer PASS; source identity, support, birth-year dispute, entity layers, display-name boundary, Geo, curation boundary and migration replay verified"
+      }
+    },
+    {
+      "fact_id": "V1-FCT-0999",
+      "card_id": "V1-CARD-0254",
+      "subject_id": "V1-ENT-0368",
+      "fact_field": "first_publication_year",
+      "value_text": "1934",
+      "material_class": "bibliographic",
+      "origin_id": "SRC-0275",
+      "confidence": "high",
+      "usage_note": "Cited source dates Cantaclaro to 1934.",
+      "issue_code": "NONE",
+      "audit_metadata": {
+        "origin_batch": "WEB-CE-B17",
+        "created_at": "2026-08-22",
+        "reviewed_at": "2026-08-22",
+        "reviewer": "LUNA-MAX-B17-REVIEW",
+        "review_status": "PASS",
+        "basis_note": "fresh-context Reviewer PASS; source identity, support, birth-year dispute, entity layers, display-name boundary, Geo, curation boundary and migration replay verified"
+      }
+    },
+    {
+      "fact_id": "V1-FCT-1000",
+      "card_id": "V1-CARD-0254",
+      "subject_id": "V1-ENT-0368",
+      "fact_field": "genre_or_form",
+      "value_text": "小说",
+      "material_class": "bibliographic",
+      "origin_id": "SRC-0275",
+      "confidence": "high",
+      "usage_note": "Cited source supports the conservative form label 小说.",
+      "issue_code": "NONE",
+      "audit_metadata": {
+        "origin_batch": "WEB-CE-B17",
+        "created_at": "2026-08-22",
+        "reviewed_at": "2026-08-22",
+        "reviewer": "LUNA-MAX-B17-REVIEW",
+        "review_status": "PASS",
+        "basis_note": "fresh-context Reviewer PASS; source identity, support, birth-year dispute, entity layers, display-name boundary, Geo, curation boundary and migration replay verified"
+      }
+    },
+    {
+      "fact_id": "V1-FCT-1001",
+      "card_id": "V1-CARD-0255",
+      "subject_id": "V1-ENT-0369",
+      "fact_field": "entity_layer",
+      "value_text": "work",
+      "material_class": "metadata",
+      "origin_id": "SRC-0275",
+      "confidence": "high",
+      "usage_note": "Entity layer recorded as work.",
+      "issue_code": "NONE",
+      "audit_metadata": {
+        "origin_batch": "WEB-CE-B17",
+        "created_at": "2026-08-22",
+        "reviewed_at": "2026-08-22",
+        "reviewer": "LUNA-MAX-B17-REVIEW",
+        "review_status": "PASS",
+        "basis_note": "fresh-context Reviewer PASS; source identity, support, birth-year dispute, entity layers, display-name boundary, Geo, curation boundary and migration replay verified"
+      }
+    },
+    {
+      "fact_id": "V1-FCT-1002",
+      "card_id": "V1-CARD-0255",
+      "subject_id": "V1-ENT-0369",
+      "fact_field": "first_publication_year",
+      "value_text": "1935",
+      "material_class": "bibliographic",
+      "origin_id": "SRC-0275",
+      "confidence": "high",
+      "usage_note": "Cited source dates Canaima to 1935.",
+      "issue_code": "NONE",
+      "audit_metadata": {
+        "origin_batch": "WEB-CE-B17",
+        "created_at": "2026-08-22",
+        "reviewed_at": "2026-08-22",
+        "reviewer": "LUNA-MAX-B17-REVIEW",
+        "review_status": "PASS",
+        "basis_note": "fresh-context Reviewer PASS; source identity, support, birth-year dispute, entity layers, display-name boundary, Geo, curation boundary and migration replay verified"
+      }
+    },
+    {
+      "fact_id": "V1-FCT-1003",
+      "card_id": "V1-CARD-0255",
+      "subject_id": "V1-ENT-0369",
+      "fact_field": "genre_or_form",
+      "value_text": "小说",
+      "material_class": "bibliographic",
+      "origin_id": "SRC-0275",
+      "confidence": "high",
+      "usage_note": "Cited source supports the conservative form label 小说.",
+      "issue_code": "NONE",
+      "audit_metadata": {
+        "origin_batch": "WEB-CE-B17",
+        "created_at": "2026-08-22",
+        "reviewed_at": "2026-08-22",
+        "reviewer": "LUNA-MAX-B17-REVIEW",
+        "review_status": "PASS",
+        "basis_note": "fresh-context Reviewer PASS; source identity, support, birth-year dispute, entity layers, display-name boundary, Geo, curation boundary and migration replay verified"
+      }
+    }
+  ],
+  "works": [
+    {
+      "entity_id": "V1-ENT-0361",
+      "name_zh": "《石头圆舞》",
+      "original_name": "Ciranda de pedra",
+      "entity_type": "work",
+      "year": "1954",
+      "genre_or_form": "小说",
+      "source_ids": [
+        "SRC-0271"
+      ],
+      "audit_metadata": {
+        "origin_batch": "WEB-CE-B17",
+        "created_at": "2026-08-22",
+        "reviewed_at": "2026-08-22",
+        "reviewer": "LUNA-MAX-B17-REVIEW",
+        "review_status": "PASS",
+        "basis_note": "fresh-context Reviewer PASS; source identity, support, birth-year dispute, entity layers, display-name boundary, Geo, curation boundary and migration replay verified"
+      }
+    },
+    {
+      "entity_id": "V1-ENT-0362",
+      "name_zh": "《绿色舞会之前》",
+      "original_name": "Antes do baile verde",
+      "entity_type": "collection",
+      "year": "1970",
+      "genre_or_form": "短篇小说集",
+      "source_ids": [
+        "SRC-0271"
+      ],
+      "audit_metadata": {
+        "origin_batch": "WEB-CE-B17",
+        "created_at": "2026-08-22",
+        "reviewed_at": "2026-08-22",
+        "reviewer": "LUNA-MAX-B17-REVIEW",
+        "review_status": "PASS",
+        "basis_note": "fresh-context Reviewer PASS; source identity, support, birth-year dispute, entity layers, display-name boundary, Geo, curation boundary and migration replay verified"
+      }
+    },
+    {
+      "entity_id": "V1-ENT-0363",
+      "name_zh": "《姑娘们》",
+      "original_name": "As meninas",
+      "entity_type": "work",
+      "year": "1973",
+      "genre_or_form": "小说",
+      "source_ids": [
+        "SRC-0271"
+      ],
+      "audit_metadata": {
+        "origin_batch": "WEB-CE-B17",
+        "created_at": "2026-08-22",
+        "reviewed_at": "2026-08-22",
+        "reviewer": "LUNA-MAX-B17-REVIEW",
+        "review_status": "PASS",
+        "basis_note": "fresh-context Reviewer PASS; source identity, support, birth-year dispute, entity layers, display-name boundary, Geo, curation boundary and migration replay verified"
+      }
+    },
+    {
+      "entity_id": "V1-ENT-0364",
+      "name_zh": "《瓦西蓬戈》",
+      "original_name": "Huasipungo",
+      "entity_type": "work",
+      "year": "1934",
+      "genre_or_form": "小说",
+      "source_ids": [
+        "SRC-0273",
+        "SRC-0274"
+      ],
+      "audit_metadata": {
+        "origin_batch": "WEB-CE-B17",
+        "created_at": "2026-08-22",
+        "reviewed_at": "2026-08-22",
+        "reviewer": "LUNA-MAX-B17-REVIEW",
+        "review_status": "PASS",
+        "basis_note": "fresh-context Reviewer PASS; source identity, support, birth-year dispute, entity layers, display-name boundary, Geo, curation boundary and migration replay verified"
+      }
+    },
+    {
+      "entity_id": "V1-ENT-0365",
+      "name_zh": "《在街头》",
+      "original_name": "En las calles",
+      "entity_type": "work",
+      "year": "1935",
+      "genre_or_form": "小说",
+      "source_ids": [
+        "SRC-0273",
+        "SRC-0274"
+      ],
+      "audit_metadata": {
+        "origin_batch": "WEB-CE-B17",
+        "created_at": "2026-08-22",
+        "reviewed_at": "2026-08-22",
+        "reviewer": "LUNA-MAX-B17-REVIEW",
+        "review_status": "PASS",
+        "basis_note": "fresh-context Reviewer PASS; source identity, support, birth-year dispute, entity layers, display-name boundary, Geo, curation boundary and migration replay verified"
+      }
+    },
+    {
+      "entity_id": "V1-ENT-0366",
+      "name_zh": "《乔洛·罗梅罗与弗洛雷斯》",
+      "original_name": "El chulla Romero y Flores",
+      "entity_type": "work",
+      "year": "1958",
+      "genre_or_form": "小说",
+      "source_ids": [
+        "SRC-0273",
+        "SRC-0274"
+      ],
+      "audit_metadata": {
+        "origin_batch": "WEB-CE-B17",
+        "created_at": "2026-08-22",
+        "reviewed_at": "2026-08-22",
+        "reviewer": "LUNA-MAX-B17-REVIEW",
+        "review_status": "PASS",
+        "basis_note": "fresh-context Reviewer PASS; source identity, support, birth-year dispute, entity layers, display-name boundary, Geo, curation boundary and migration replay verified"
+      }
+    },
+    {
+      "entity_id": "V1-ENT-0367",
+      "name_zh": "《堂娜·芭芭拉》",
+      "original_name": "Doña Bárbara",
+      "entity_type": "work",
+      "year": "1929",
+      "genre_or_form": "小说",
+      "source_ids": [
+        "SRC-0275",
+        "SRC-0276"
+      ],
+      "audit_metadata": {
+        "origin_batch": "WEB-CE-B17",
+        "created_at": "2026-08-22",
+        "reviewed_at": "2026-08-22",
+        "reviewer": "LUNA-MAX-B17-REVIEW",
+        "review_status": "PASS",
+        "basis_note": "fresh-context Reviewer PASS; source identity, support, birth-year dispute, entity layers, display-name boundary, Geo, curation boundary and migration replay verified"
+      }
+    },
+    {
+      "entity_id": "V1-ENT-0368",
+      "name_zh": "《唱歌者》",
+      "original_name": "Cantaclaro",
+      "entity_type": "work",
+      "year": "1934",
+      "genre_or_form": "小说",
+      "source_ids": [
+        "SRC-0275"
+      ],
+      "audit_metadata": {
+        "origin_batch": "WEB-CE-B17",
+        "created_at": "2026-08-22",
+        "reviewed_at": "2026-08-22",
+        "reviewer": "LUNA-MAX-B17-REVIEW",
+        "review_status": "PASS",
+        "basis_note": "fresh-context Reviewer PASS; source identity, support, birth-year dispute, entity layers, display-name boundary, Geo, curation boundary and migration replay verified"
+      }
+    },
+    {
+      "entity_id": "V1-ENT-0369",
+      "name_zh": "《卡奈玛》",
+      "original_name": "Canaima",
+      "entity_type": "work",
+      "year": "1935",
+      "genre_or_form": "小说",
+      "source_ids": [
+        "SRC-0275",
+        "SRC-0276"
+      ],
+      "audit_metadata": {
+        "origin_batch": "WEB-CE-B17",
+        "created_at": "2026-08-22",
+        "reviewed_at": "2026-08-22",
+        "reviewer": "LUNA-MAX-B17-REVIEW",
+        "review_status": "PASS",
+        "basis_note": "fresh-context Reviewer PASS; source identity, support, birth-year dispute, entity layers, display-name boundary, Geo, curation boundary and migration replay verified"
+      }
+    }
+  ]
+}

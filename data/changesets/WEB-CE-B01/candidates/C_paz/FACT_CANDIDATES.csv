@@ -1,0 +1,26 @@
+temporary_id,origin_material_id,subject_id,fact_field,value_text,material_class,origin_id,confidence,admission_status,usage_note
+CAND-C-FCT-001,CAND-C-SRC-001,V1-ENT-0059,birth_year,1914,fact,CAND-C-FCT-001,high,candidate_for_staging_review,"Nobel Facts 页 ""Born: 31 March 1914, Mexico City, Mexico"""
+CAND-C-FCT-002,CAND-C-SRC-001,V1-ENT-0059,death_year,1998,fact,CAND-C-FCT-002,high,candidate_for_staging_review,"Nobel Facts 页 ""Died: 19 April 1998, Mexico City, Mexico""；poets.org 亦标 1914-1998"
+CAND-C-FCT-003,CAND-C-SRC-001,V1-ENT-0059,country_or_region,墨西哥,fact,CAND-C-FCT-003,high,candidate_for_staging_review,"Nobel Facts 页 ""Residence at the time of the award: Mexico""；与 poets.org 国籍信息一致"
+CAND-C-FCT-004,CAND-C-SRC-001,V1-ENT-0059,language,es,fact,CAND-C-FCT-004,high,candidate_for_staging_review,"Nobel Facts 页 ""Language: Spanish"""
+CAND-C-FCT-005,CAND-C-SRC-001,V1-ENT-0059,birth_place,墨西哥城（Ciudad de México）,fact,CAND-C-FCT-005,high,candidate_for_staging_review,既有 fact_field 词表无 birth_place 字段；按 packet 要求出生地以 fact 记录（禁止 BORN_IN 关系）；建议 Reviewer 评估新增字段或并入既有字段
+CAND-C-FCT-006,CAND-C-SRC-001,V1-ENT-0059,award,诺贝尔文学奖（1990）,fact,CAND-C-FCT-006,high,candidate_for_staging_review,参照库内 V1-FCT-0122「诺贝尔文学奖（1982）」格式；Nobel Facts 与 1990 主页面双重确认
+CAND-C-FCT-007,CAND-C-SRC-001,V1-ENT-0059,one_sentence_summary,墨西哥诗人、散文家与外交官，1990 年诺贝尔文学奖得主，生于墨西哥城，以《孤独的迷宫》等分析墨西哥历史与文化的随笔闻名,fact,CAND-C-FCT-007,high,candidate_for_staging_review,综合 Nobel Facts 与 poets.org 传记表述
+CAND-C-FCT-008,CAND-C-SRC-001,V1-ENT-0059,career_note,诗人、散文家、记者与翻译；1946 年起任外交官约 20 年，1962 年任墨西哥驻印度大使，1968 年为抗议墨西哥城政府镇压学生示威而辞职；创办《El hijo pródigo》《Vuelta》等文学杂志；受马克思主义、超现实主义、存在主义、佛教与印度教思想影响,fact,CAND-C-FCT-008,high,candidate_for_staging_review,Nobel Facts 生涯段 + poets.org 传记载
+CAND-C-FCT-009,CAND-C-SRC-001,CAND-C-W-001,entity_layer,work,fact,CAND-C-FCT-009,high,candidate_for_staging_review,参照库内 work 实体 entity_layer fact（如 V1-FCT-0013）惯例
+CAND-C-FCT-010,CAND-C-SRC-001,CAND-C-W-001,first_publication_year,1950,fact,CAND-C-FCT-010,high,candidate_for_staging_review,"Nobel Facts ""El laberinto de la soledad (1950)""；poets.org 标 FCE 1950"
+CAND-C-FCT-011,CAND-C-SRC-001,CAND-C-W-001,genre_or_form,散文/随笔集（essays）,fact,CAND-C-FCT-011,high,candidate_for_staging_review,"Nobel Facts 称 ""a collection of essays""；中译馆藏 MARC 亦标散文集/杂文集（墨西哥·现代）"
+CAND-C-FCT-012,CAND-C-SRC-001,CAND-C-W-001,one_sentence_summary,帕斯分析墨西哥历史与文化的随笔集（据 Nobel Facts 与 poets.org 释义）,fact,CAND-C-FCT-012,medium,candidate_for_staging_review,仅据来源转述，不作解释性发挥
+CAND-C-FCT-013,CAND-C-SRC-003,CAND-C-W-001,bibliographic_note,诺贝尔书目页未列西语原版；英译 The Labyrinth of Solitude（tr. Lysander Kemp）Penguin 1985；poets.org 标初版 FCE 1950,fact,CAND-C-FCT-013,medium,candidate_for_staging_review,原版出版社待 FCE 产品页补充（FCE 站内检索 404，未取得）
+CAND-C-FCT-014,CAND-C-SRC-004,CAND-C-W-002,entity_layer,work,fact,CAND-C-FCT-014,high,candidate_for_staging_review,参照库内 work 实体 entity_layer fact 惯例
+CAND-C-FCT-015,CAND-C-SRC-004,CAND-C-W-002,first_publication_year,1956,fact,CAND-C-FCT-015,high,candidate_for_staging_review,"poets.org 散文书目 ""El arco y la lira (1956)"""
+CAND-C-FCT-016,CAND-C-SRC-004,CAND-C-W-002,genre_or_form,诗论/散文集（essays）,fact,CAND-C-FCT-016,high,candidate_for_staging_review,poets.org 将其列入 Essays 类目
+CAND-C-FCT-017,CAND-C-SRC-003,CAND-C-W-002,one_sentence_summary,"帕斯诗论代表作，论诗、诗性启示与诗和历史（据诺贝尔书目页英译本副题 ""the Poem, the Poetic Revelation, Poetry and History"" 释义）",fact,CAND-C-FCT-017,medium,candidate_for_staging_review,仅据来源转述
+CAND-C-FCT-018,CAND-C-SRC-003,CAND-C-W-002,bibliographic_note,英译本 The Bow and the Lyre（tr. Ruth L.C. Simms）Univ. of Texas Press 1973（诺贝尔书目页）,fact,CAND-C-FCT-018,medium,candidate_for_staging_review,原版出版社（FCE 1956）待 FCE 产品页补充
+CAND-C-FCT-019,CAND-C-SRC-003,CAND-C-W-003,entity_layer,work,fact,CAND-C-FCT-019,high,candidate_for_staging_review,参照库内 work 实体 entity_layer fact 惯例
+CAND-C-FCT-020,CAND-C-SRC-003,CAND-C-W-003,first_publication_year,1957,fact,CAND-C-FCT-020,high,candidate_for_staging_review,"Nobel 书目页 ""Piedra de sol. México: Tezontle, 1957""；poets.org 标 FCE 1957（Tezontle 系 FCE 诗丛印行，两说相容）"
+CAND-C-FCT-021,CAND-C-SRC-004,CAND-C-W-003,genre_or_form,长诗（long poem）,fact,CAND-C-FCT-021,high,candidate_for_staging_review,"poets.org 称 ""This long poem""；Nobel 书目页列于 Poetry 部"
+CAND-C-FCT-022,CAND-C-SRC-004,CAND-C-W-003,one_sentence_summary,帕斯 1957 年长诗，结构借自阿兹特克历法（据 poets.org 释义）,fact,CAND-C-FCT-022,medium,candidate_for_staging_review,仅据来源转述
+CAND-C-FCT-023,CAND-C-SRC-003,CAND-C-W-003,bibliographic_note,初版墨西哥 Tezontle 1957；后收入 La estación violenta（FCE 1958）；英译见 The Collected Poems 1957-1987（1987）,fact,CAND-C-FCT-023,medium,candidate_for_staging_review,均据诺贝尔书目页（A 级）
+CAND-C-FCT-024,CAND-C-SRC-002,CAND-C-EV-001,event_year_range,1990,fact,CAND-C-FCT-024,high,candidate_for_staging_review,参照库内事件 V1-ENT-0065 的 event_year_range 用法
+CAND-C-FCT-025,CAND-C-SRC-002,CAND-C-EV-001,one_sentence_summary,1990 年诺贝尔文学奖授予墨西哥诗人奥克塔维奥·帕斯，授奖理由为“以广阔视野的激情书写、以感性智慧与人文正直为特征”（据诺贝尔官网）,fact,CAND-C-FCT-025,high,candidate_for_staging_review,授奖理由原文见 Nobel 1990 主页面与 Facts 页

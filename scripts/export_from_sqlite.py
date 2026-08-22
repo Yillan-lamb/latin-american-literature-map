@@ -8,6 +8,7 @@ import csv
 import hashlib
 import json
 import os
+import re
 import sqlite3
 import tempfile
 import zipfile
@@ -65,6 +66,12 @@ def write_xlsx(path: Path, tables: dict[str, tuple[list[str], list[dict[str, obj
     try:
         with zipfile.ZipFile(temporary, "w", compression=zipfile.ZIP_DEFLATED, compresslevel=6) as target:
             for info, payload in entries:
+                if info.filename == "docProps/core.xml":
+                    payload = re.sub(
+                        rb"(<dcterms:modified\b[^>]*>)[^<]*(</dcterms:modified>)",
+                        rb"\g<1>2000-01-01T00:00:00Z\g<2>",
+                        payload,
+                    )
                 normalized = zipfile.ZipInfo(info.filename, date_time=(1980, 1, 1, 0, 0, 0))
                 normalized.compress_type = zipfile.ZIP_DEFLATED
                 normalized.external_attr = info.external_attr
@@ -82,6 +89,12 @@ def main() -> int:
     parser.add_argument("database", type=Path)
     parser.add_argument("output", type=Path)
     parser.add_argument("--version", default="unversioned")
+    parser.add_argument(
+        "--release-status",
+        choices=("development_candidate", "released"),
+        default="released",
+        help="Mark the export as a development candidate or a formal release.",
+    )
     parser.add_argument("--without-xlsx", action="store_true")
     parser.add_argument("--force", action="store_true")
     args = parser.parse_args()
@@ -113,6 +126,7 @@ def main() -> int:
             "schema_version": metadata.get("schema_version"),
             "source_database_sha256": database_sha256,
             "export_version": args.version,
+            "release_status": args.release_status,
             "generation_policy": "deterministic_from_sqlite",
         },
         "columns": {table: fields for table, (fields, _) in tables.items()},
@@ -128,6 +142,10 @@ def main() -> int:
         files = sorted(path for path in args.output.iterdir() if path.is_file() and path.name != "MANIFEST.md")
         lines = [
             f"# Export manifest ({args.version})",
+            "",
+            f"- Release status: `{'DEVELOPMENT / CANDIDATE' if args.release_status == 'development_candidate' else 'RELEASED'}`",
+            "- Generation policy: `deterministic_from_sqlite`",
+            f"- Source database SHA-256: `{database_sha256}`",
             "",
             "| # | 文件名 | 字节数 | SHA-256 |",
             "|---:|---|---:|---|",

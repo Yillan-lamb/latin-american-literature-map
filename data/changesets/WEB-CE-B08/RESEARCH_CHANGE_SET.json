@@ -1,0 +1,36 @@
+{
+  "batch": "WEB-CE-B08",
+  "plan": "安第斯小说与墨西哥短篇/知识分子传统",
+  "started_at": "2026-08-21",
+  "review_metadata": {"origin_batch":"WEB-CE-B08","created_at":"2026-08-21","reviewed_at":"2026-08-21","reviewer":"LUNA-MAX-B08-REVIEW","review_status":"PASS","basis_note":"fresh-context Reviewer required before migration"},
+  "display_name_policy": {"applies_to":"all authors[].works[]","default_status":"common_title","basis":"60+ roadmap reader-facing label; no Chinese-edition bibliographic claim"},
+  "authors": [
+    {"entity_id":"V1-ENT-0248","name_zh":"何塞·玛丽亚·阿格达斯","original_name":"José María Arguedas","country_or_region":"秘鲁","birth_year":"1911","death_year":"1969","birth_place":"安达韦拉斯（Andahuaylas）","career_note":"作家、人类学家、诗人、教师","source_ids":["SRC-0197","SRC-0199"],"place_id":"V1-ENT-0124","works":[
+      {"entity_id":"V1-ENT-0251","name_zh":"《血的节日》","original_name":"Yawar fiesta","entity_type":"work","year":"1941","display_name_status":"common_title","display_name_basis":"路线图与中文读者通行译名","source_ids":["SRC-0198"]},
+      {"entity_id":"V1-ENT-0252","name_zh":"《深沉的河流》","original_name":"Los ríos profundos","entity_type":"work","year":"1958","display_name_status":"common_title","display_name_basis":"路线图与中文读者通行译名","source_ids":["SRC-0198","SRC-0199"]},
+      {"entity_id":"V1-ENT-0253","name_zh":"《所有的血》","original_name":"Todas las sangres","entity_type":"work","year":"1964","display_name_status":"common_title","display_name_basis":"路线图与中文读者通行译名","source_ids":["SRC-0198"]}
+    ]},
+    {"entity_id":"V1-ENT-0249","name_zh":"塞尔希奥·皮托尔","original_name":"Sergio Pitol","country_or_region":"墨西哥","birth_year":"1933","death_year":"2018","birth_place":"普埃布拉（Puebla）","career_note":"小说家、散文家、翻译家","source_ids":["SRC-0200","SRC-0201"],"place_id":"V1-ENT-0051","works":[
+      {"entity_id":"V1-ENT-0254","name_zh":"《爱情游行》","original_name":"El desfile del amor","entity_type":"work","year":"1984","display_name_status":"common_title","display_name_basis":"路线图与中文读者通行译名","source_ids":["SRC-0200","SRC-0201"]},
+      {"entity_id":"V1-ENT-0255","name_zh":"《驯服神圣苍鹭》","original_name":"Domar a la divina garza","entity_type":"work","year":"1988","display_name_status":"common_title","display_name_basis":"路线图中文名对应西文原题","source_ids":["SRC-0200","SRC-0201"]},
+      {"entity_id":"V1-ENT-0256","name_zh":"《婚姻生活》","original_name":"La vida conyugal","entity_type":"work","year":"1991","display_name_status":"common_title","display_name_basis":"路线图与中文读者通行译名","source_ids":["SRC-0200","SRC-0201"]}
+    ]},
+    {"entity_id":"V1-ENT-0250","name_zh":"胡安·何塞·阿雷奥拉","original_name":"Juan José Arreola","country_or_region":"墨西哥","birth_year":"1918","death_year":"2001","birth_place":"萨波特兰大（Zapotlán el Grande/Ciudad Guzmán）","career_note":"作家、叙事家、文化工作者","source_ids":["SRC-0202","SRC-0204"],"place_id":"V1-ENT-0051","works":[
+      {"entity_id":"V1-ENT-0257","name_zh":"《孔法布拉里奥》","original_name":"Confabulario","entity_type":"collection","year":"1952","display_name_status":"common_title","display_name_basis":"路线图与中文读者通行译名","source_ids":["SRC-0202","SRC-0203"]},
+      {"entity_id":"V1-ENT-0258","name_zh":"《动物集》","original_name":"Bestiario","entity_type":"collection","year":"1972","display_name_status":"common_title","display_name_basis":"路线图中文名；与 Cortázar 同名作品按作者分开","source_ids":["SRC-0202","SRC-0203"]},
+      {"entity_id":"V1-ENT-0259","name_zh":"《集市》","original_name":"La feria","entity_type":"work","year":"1963","display_name_status":"common_title","display_name_basis":"路线图与中文读者通行译名","source_ids":["SRC-0202","SRC-0203"]}
+    ]}
+  ],
+  "places": [],
+  "source_registry": [
+    {"source_id":"SRC-0197","title":"BNP: Tayta Arguedas — José María Arguedas","url":"https://www.bnp.gob.pe/bnp-se-presenta-libro-tayta-arguedas-en-conmemoracion-de-los-113-anos-de-su-nacimiento/","source_level":"B","access":"access_pass"},
+    {"source_id":"SRC-0198","title":"Un recorrido por la obra literaria de José María Arguedas","url":"https://www.casadelaliteratura.gob.pe/un-recorrido-por-la-obra-literaria-de-jose-maria-arguedas/","source_level":"B","access":"access_pass"},
+    {"source_id":"SRC-0199","title":"José María Arguedas: puentes entre su vida y Los ríos profundos","url":"https://www.casadelaliteratura.gob.pe/jose-maria-arguedas-puentes-vida-los-rios-profundos/","source_level":"B","access":"access_pass"},
+    {"source_id":"SRC-0200","title":"Sergio Pitol. Biografía","url":"https://www.cervantes.es/bibliotecas_documentacion_espanol/biografias/sofia_sergio_pitol.htm","source_level":"B","access":"access_pass"},
+    {"source_id":"SRC-0201","title":"CVC. Sergio Pitol. Bibliografía","url":"https://cvc.cervantes.es/literatura/escritores/pitol/bibliografia.htm","source_level":"B","access":"access_pass"},
+    {"source_id":"SRC-0202","title":"Cien años de Juan José Arreola","url":"https://fonotecanacional.cultura.gob.mx/index.php/escucha/secciones-especiales/semblanzas/juan-jose-arreola","source_level":"B","access":"access_pass"},
+    {"source_id":"SRC-0203","title":"CVC. Juan José Arreola. Bibliografía","url":"https://cvc.cervantes.es/actcult/arreola/bibliografia/bibliografiabasica.htm","source_level":"B","access":"access_pass"},
+    {"source_id":"SRC-0204","title":"CVC. Juan José Arreola. Cronología","url":"https://cvc.cervantes.es/actcult/arreola/cronologia/","source_level":"B","access":"access_pass"}
+  ],
+  "holds": []
+}

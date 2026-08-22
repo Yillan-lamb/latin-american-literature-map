@@ -2,6 +2,36 @@
 
 本文件记录拉丁美洲文学地图各版本的实际修改。格式参考 Keep a Changelog，版本号遵循语义化版本规则。
 
+## [Web 0.2.0 — Development Baseline] - 2026-08-22
+
+### Content
+
+- 完成 `WEB-CONTENT-EXPANSION` B01—B17，当前 review package 覆盖 61 位作者、168 部作品/合集与 25 个文学地点；新增国家、作者、作品及跨层 Geo / Curation / Web Data 投影。
+- Web Data、搜索、时间线、地图、作者/作品路由与 Research Evidence 继续消费 Research 主库的确定性构建结果。
+
+### Research
+
+- 当前 master 达到 367 entities、998 facts、293 relationships、278 sources 和 255 content cards。
+- 保留全部 Sol audit、remediation 与历史 changeset；migration chain append-only 至版本元数据迁移 `0026`，不重写既有迁移。
+- 新建 `Data 1.2.0 candidate` 全量导出，标记为 `DEVELOPMENT / CANDIDATE`；`Data V1.0.0` 仍是正式 Research Release，`v1.1.0` 仍是 B01 历史快照。
+
+### Product
+
+- Web Product 升级至 `Web 0.2.0 — Development Baseline`，不创建 Web tag、GitHub Release 或 production deployment。
+- Review package 扩展至 61 authors / 168 works / 25 literary places；formal public scope 仍为 25 authors / 60 works / 28 places，Public layer 与 USER_REVIEW layer 继续分离。
+- 内容质量验证器改为推导 `research_basic`、`reader_ready`、`curation_ready`；基础研究页不再被强制补齐文学推荐字段。
+
+### Known limitations
+
+- Formal public layer 仍小于 Research coverage，大量 Curation 等待分层审核。
+- 文学地点粒度、work/author → place 与解释性关系仍需深化；虚构空间继续不使用现实坐标。
+- 国家、加勒比/中美洲/安第斯、女性诗人、诗歌及非叙事体裁覆盖仍不均衡。
+
+### Next
+
+- `WEB-CONTENT-DEEPENING`：WCD-01 Global Curation Triage、WCD-02 Literary Space & Relationship Deepening、WCD-03 Chinese Display Name Consolidation、WCD-04 Coverage Rebalancing。
+- `V2-PUBLIC-RELEASE` 继续 `PAUSED`；Research 正式发布仍等待 USER 决定。
+
 ## [Web 0.1.x — Unreleased]
 
 ### 地图阅读体验

@@ -1,0 +1,12 @@
+temporary_id,entity_type,name_zh,original_name,canonical_status,origin_count,origin_refs,normalization_basis,issue_codes
+CAND-D-ENT-01,work,《霍乱时期的爱情》,El amor en los tiempos del cólera,candidate,2,CAND-D-SRC-03;CAND-D-SRC-14,BnF 目录作者归名核验（1985 西语版）+ 中译书目核验（南海 2022 杨玲译）；与主库 LIKE 查重无同名实体；类型 work（长篇小说）,
+CAND-D-ENT-02,work,《族长的秋天》,El otoño del patriarca,candidate,2,CAND-D-SRC-04;CAND-D-SRC-15,BnF 目录作者归名核验（1975 西语版）+ 中译书目核验（南海 2021 轩乐译）；查重无同名；类型 work（长篇小说）,
+CAND-D-ENT-03,work,《绿房子》,La casa verde,candidate,2,CAND-D-SRC-06;CAND-D-SRC-16,BnF 目录作者归名核验（西语多版）+ 中译旧版核验（外国文学 1983 孙家孟/马林春译）；查重无同名；类型 work（长篇小说）,
+CAND-D-ENT-04,work,《潘达雷昂上尉与劳军女郎》,Pantaleón y las visitadoras,candidate,2,CAND-D-SRC-07;CAND-D-SRC-17,BnF 目录记录核验（Seix Barral 1973）+ 中译书目核验（人民文学 2009 孙家孟译，2021 精装版译名《潘达雷昂上尉和劳军女郎》为别名）；查重无同名；类型 work（长篇小说）,
+CAND-D-ENT-05,work,《方法的资源》,El recurso del método,candidate,1,CAND-D-SRC-10,BnF 目录记录核验（1974，题名标 novela）；中译名未定：packet 规划名《方法的资源》，通行中译名《方法的根源》（仅导读/百科类线索，CAND-D-SRC-25 access_blocked 未核验）；查重无同名；类型 work,
+CAND-D-ENT-06,work,《巴洛克协奏曲》,Concierto barroco,candidate,1,CAND-D-SRC-11,BnF 目录记录核验（1974，同名记录标 novela）；查重无同名；类型 work（中篇/novela，BnF 记录标 novela）；中译 not_found,
+CAND-D-ENT-07,collection,《沙之书》,El libro de arena,candidate,2,CAND-D-SRC-01;CAND-D-SRC-12,BnF 目录作者归名核验（1975 西语版）+ 中译书目核验（上海译文 2015 王永年译）；查重无同名；类型 collection（短篇集）,
+CAND-D-ENT-08,collection,《布罗迪报告》,El informe de Brodie,candidate,2,CAND-D-SRC-02;CAND-D-SRC-13,BnF 目录作者归名核验（合订本记录）+ 中译书目核验（上海译文 2015 王永年译）；查重无同名；类型 collection（短篇集）,
+CAND-D-ENT-09,collection,《秘密武器》,Las armas secretas,candidate,2,SRC-0066（reuse）;CAND-D-SRC-05;CAND-D-SRC-18,BnF 记录（reuse:SRC-0066，标题含 'Las armas secretas，1959'）+ 补充 SRU 快照 + 中译合卷核验（《南方高速》南海 2017 收录）；查重无同名；类型 collection（短篇集）,
+CAND-D-ENT-10,collection,《一百首爱情十四行诗》,Cien sonetos de amor,candidate,2,CAND-D-SRC-08;CAND-D-SRC-20,BnF 目录作者归名核验 + 繁体译本核验（九歌 1999 陈黎/张芬龄译）；中译名采用 packet 名《一百首爱情十四行诗》，别名《一百首爱的十四行诗》《聶魯達一百首愛的十四行詩》；查重与既有《二十首情诗和一支绝望的歌》（V1-ENT-0119）为不同作品；类型 collection（诗集）,
+CAND-D-ENT-11,collection,《隐秘的幸福》,Felicidade clandestina,candidate,2,CAND-D-SRC-09;CAND-D-SRC-19,BnF 目录记录核验（Rio de Janeiro : Sabiá，1971，标 contos）+ 中译书目核验（人民文学 2018 闵雪飞译）；查重无同名；类型 collection（短篇集）；注意中译单行本为精选集（篇目覆盖待核）,

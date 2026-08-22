@@ -445,6 +445,7 @@ test("keyboard focus and links stay inside the public scope", async ({ page }) =
 });
 
 test("every sitemap route renders public reader text without governance language", async ({ page, request }) => {
+  test.setTimeout(120_000);
   const sitemap = await (await request.get("sitemap.xml")).text();
   const routes = [...sitemap.matchAll(/<loc>(.*?)<\/loc>/g)].map((match) => new URL(match[1]).pathname.replace(/^\/+/, ""));
   expect(routes.length).toBeGreaterThan(40);

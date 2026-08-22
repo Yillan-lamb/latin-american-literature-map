@@ -54,6 +54,7 @@ const displayName = (id) => entity(id)?.name_zh || place(id)?.name_zh || "未命
 const curationFor = (id, key) => (data.curation.entries || []).find((item) => item.target_id === id && item.field_key === key);
 const contentFor = (group, id) => (data.public_content?.[group] || []).find((item) => item.target_id === id) || {};
 const publicText = (value) => String(value || "")
+  .replace(/\bV1-[A-Z]+-\d+\b/g, "")
   .replace(/V1\s*已审核(?:的)?/g, "已核验的")
   .replace(/V1\s*关系/g, "已核验关系")
   .replace(/V2\s*不使用/g, "本地图不使用")
@@ -213,7 +214,7 @@ function mapMarkup() {
     return `<path d="${featurePath(feature)}" class="country-shape ${country ? "available" : ""} ${active ? "active" : ""}" ${country ? `data-country-id="${escapeHtml(country.place_id)}" tabindex="0" role="button" aria-pressed="${active}" aria-label="探索${escapeHtml(country.name_zh)}文学"` : `aria-hidden="true"`}><title>${escapeHtml(country?.name_zh || feature.properties.ADMIN)}</title></path>`;
   }).join("");
   const realNodes = visibleRealMapPlaces();
-  const labelOffsets = { "V1-ENT-0052": [10, -12], "V1-ENT-0053": [10, 16], "V1-ENT-0054": [-72, 16] };
+  const labelOffsets = { "V1-ENT-0052": [10, -12], "V1-ENT-0053": [10, 16], "V1-ENT-0054": [-72, 16], "V1-ENT-0056": [10, -20] };
   const points = realNodes.map((item) => {
     const [x, y] = project([item.longitude, item.latitude]);
     const [dx, dy] = labelOffsets[item.place_id] || [10, 4];

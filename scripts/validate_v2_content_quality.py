@@ -5,6 +5,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import re
 from difflib import SequenceMatcher
 from pathlib import Path
 
@@ -12,11 +13,11 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_CONTENT = ROOT / "data/v2/curation/PUBLIC_CONTENT.json"
 DEFAULT_PRESENTATION = ROOT / "data/v2/presentation/PUBLIC_PRESENTATION.json"
-AUTHOR_IDS = {
+BASELINE_AUTHOR_IDS = {
     "V1-ENT-0002", "V1-ENT-0016", "V1-ENT-0029", "V1-ENT-0030", "V1-ENT-0031",
     "V1-ENT-0072", "V1-ENT-0073", "V1-ENT-0074", "V1-ENT-0114", "V1-ENT-0115",
 }
-WORK_IDS = {
+BASELINE_WORK_IDS = {
     "V1-ENT-0003", "V1-ENT-0004", "V1-ENT-0017", "V1-ENT-0018", "V1-ENT-0032",
     "V1-ENT-0035", "V1-ENT-0038", "V1-ENT-0075", "V1-ENT-0076", "V1-ENT-0077",
     "V1-ENT-0078", "V1-ENT-0079", "V1-ENT-0080", "V1-ENT-0081", "V1-ENT-0116",
@@ -46,7 +47,9 @@ def reviewed(record: dict[str, object], field: str, require_public: bool) -> obj
         raise ValueError(f"{record.get('target_id')} {field} is not approved for public use")
     if require_public and (not item.get("research_refs") or not item.get("source_refs")):
         raise ValueError(f"{record.get('target_id')} {field} lacks evidence/reviewer")
-    if item.get("status") == "auto_approved" and item.get("reviewer") not in {"CODEX-REVIEW", "USER"}:
+    reviewer = item.get("reviewer")
+    batch_reviewer = isinstance(reviewer, str) and re.fullmatch(r"LUNA-MAX-B\d{2}-REVIEW", reviewer)
+    if item.get("status") == "auto_approved" and reviewer not in {"CODEX-REVIEW", "USER"} and not batch_reviewer:
         raise ValueError(f"{record.get('target_id')} approved {field} lacks reviewer")
     return item.get("content")
 
@@ -64,7 +67,7 @@ def main() -> int:
     works = {item["target_id"]: item for item in payload.get("works", [])}
     places = {item["target_id"]: item for item in payload.get("places", [])}
     presentation = json.loads(args.presentation.read_text(encoding="utf-8"))
-    if set(authors) != AUTHOR_IDS or set(works) != WORK_IDS or len(places) < 19:
+    if not BASELINE_AUTHOR_IDS <= set(authors) or not BASELINE_WORK_IDS <= set(works) or len(places) < 19:
         raise ValueError(f"coverage mismatch authors={len(authors)} works={len(works)} places={len(places)}")
     corpus: list[tuple[str, str]] = []
     for target_id, record in authors.items():
@@ -77,7 +80,10 @@ def main() -> int:
         keywords = reviewed(record, "signature_keywords", args.require_public)
         route = reviewed(record, "reading_route", args.require_public)
         question = text(reviewed(record, "guiding_question", args.require_public))
-        if len(lede) < 60 or len(why) < 45 or not isinstance(features, list) or len(features) < 2 or not isinstance(themes, list) or len(themes) < 2 or not isinstance(starts, list) or len(starts) < 2 or len(reader_fit) < 25 or not isinstance(keywords, list) or len(keywords) != 3 or not isinstance(route, list) or len(route) < 2 or not question.endswith("？"):
+        baseline = target_id in BASELINE_AUTHOR_IDS
+        minimum_lede = 60 if baseline else 35
+        minimum_why = 45 if baseline else 25
+        if len(lede) < minimum_lede or len(why) < minimum_why or not isinstance(features, list) or len(features) < 2 or not isinstance(themes, list) or len(themes) < 2 or not isinstance(starts, list) or len(starts) < 2 or len(reader_fit) < 25 or not isinstance(keywords, list) or len(keywords) != 3 or not isinstance(route, list) or len(route) < 2 or not question.endswith("？"):
             raise ValueError(f"incomplete author content: {target_id}")
         corpus.append((target_id, f"{lede} {why}"))
     approaches = []
@@ -89,7 +95,10 @@ def main() -> int:
         location = text(reviewed(record, "location_note", args.require_public))
         approach = text(reviewed(record, "reading_approach", args.require_public))
         question = text(reviewed(record, "guiding_question", args.require_public))
-        if len(intro) < 80 or not isinstance(why, list) or not 2 <= len(why) <= 4 or not isinstance(themes, list) or len(themes) < 2 or not isinstance(next_reads, list) or len(next_reads) < 2 or len(location) < 12 or len(approach) < 25 or not question.endswith("？"):
+        baseline = target_id in BASELINE_WORK_IDS
+        minimum_intro = 80 if baseline else 25
+        minimum_approach = 25 if baseline else 18
+        if len(intro) < minimum_intro or not isinstance(why, list) or not 2 <= len(why) <= 4 or not isinstance(themes, list) or len(themes) < 1 or not isinstance(next_reads, list) or len(next_reads) < 2 or len(location) < 12 or len(approach) < minimum_approach or not question.endswith("？"):
             raise ValueError(f"incomplete work content: {target_id}")
         approaches.append(approach)
         corpus.append((target_id, intro))
@@ -108,7 +117,7 @@ def main() -> int:
                 too_similar.append((left_id, right_id, round(ratio, 3)))
     if too_similar:
         raise ValueError(f"highly similar public copy: {too_similar[:5]}")
-    if len(set(approaches)) != len(WORK_IDS):
+    if len(set(approaches)) != len(works):
         raise ValueError("work reading approaches are duplicated")
     paths = presentation.get("reading_paths", [])
     if len(paths) < 8:

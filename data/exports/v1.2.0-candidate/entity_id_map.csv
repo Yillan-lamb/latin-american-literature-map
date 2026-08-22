@@ -1,0 +1,370 @@
+mapping_id,preview_entity_ref,origin_layer,origin_ref,entity_id,mapping_action,mapping_basis
+V1-EMAP-0001,PRE-ENT-0001,N2,STG-ENT-0001,V1-ENT-0001,merge_exact,A02 exact normalization
+V1-EMAP-0002,PRE-ENT-0097,B02,B02-ENT-0025,V1-ENT-0001,merge_exact,A02 exact normalization
+V1-EMAP-0003,PRE-ENT-0002,N2,STG-ENT-0002,V1-ENT-0002,retain_as_formal_candidate,N2 暂存已通过实体层（ENTITY_ID_MAP）
+V1-EMAP-0004,PRE-ENT-0003,N2,STG-ENT-0003,V1-ENT-0003,retain_as_formal_candidate,N2 暂存已通过实体层（ENTITY_ID_MAP）
+V1-EMAP-0005,PRE-ENT-0004,N2,STG-ENT-0004,V1-ENT-0004,retain_as_formal_candidate,N2 暂存已通过实体层（ENTITY_ID_MAP）
+V1-EMAP-0006,PRE-ENT-0005,N2,STG-ENT-0005,V1-ENT-0005,retain_as_formal_candidate,N2 暂存已通过实体层（ENTITY_ID_MAP）
+V1-EMAP-0007,PRE-ENT-0006,N2,STG-ENT-0006,V1-ENT-0006,retain_as_formal_candidate,N2 暂存已通过实体层（ENTITY_ID_MAP）
+V1-EMAP-0008,PRE-ENT-0007,N2,STG-ENT-0007,V1-ENT-0007,retain_as_formal_candidate,N2 暂存已通过实体层（ENTITY_ID_MAP）
+V1-EMAP-0009,PRE-ENT-0008,N2,STG-ENT-0008,V1-ENT-0008,retain_as_formal_candidate,N2 暂存已通过实体层（ENTITY_ID_MAP）
+V1-EMAP-0010,PRE-ENT-0009,N2,STG-ENT-0009,V1-ENT-0009,retain_as_formal_candidate,N2 暂存已通过实体层（ENTITY_ID_MAP）
+V1-EMAP-0011,PRE-ENT-0010,N2,STG-ENT-0010,V1-ENT-0010,retain_as_formal_candidate,N2 暂存已通过实体层（ENTITY_ID_MAP）
+V1-EMAP-0012,PRE-ENT-0011,N2,STG-ENT-0011,V1-ENT-0011,retain_as_formal_candidate,N2 暂存已通过实体层（ENTITY_ID_MAP）
+V1-EMAP-0013,PRE-ENT-0012,N2,STG-ENT-0012,V1-ENT-0012,retain_as_formal_candidate,N2 暂存已通过实体层（ENTITY_ID_MAP）
+V1-EMAP-0014,PRE-ENT-0013,N2,STG-ENT-0013,V1-ENT-0013,retain_as_formal_candidate,N2 暂存已通过实体层（ENTITY_ID_MAP）
+V1-EMAP-0015,PRE-ENT-0014,N2,STG-ENT-0014,V1-ENT-0014,merge_exact,A02 exact normalization
+V1-EMAP-0016,PRE-ENT-0067,B01,B01-ENT-0039,V1-ENT-0014,merge_exact,A02 exact normalization
+V1-EMAP-0017,PRE-ENT-0015,N2,STG-ENT-0015,V1-ENT-0015,retain_as_formal_candidate,N2 暂存已通过实体层（ENTITY_ID_MAP）
+V1-EMAP-0018,PRE-ENT-0016,N2,STG-ENT-0016,V1-ENT-0016,retain_as_formal_candidate,N2 暂存已通过实体层（ENTITY_ID_MAP）
+V1-EMAP-0019,PRE-ENT-0017,N2,STG-ENT-0017,V1-ENT-0017,retain_as_formal_candidate,N2 暂存已通过实体层（ENTITY_ID_MAP）
+V1-EMAP-0020,PRE-ENT-0018,N2,STG-ENT-0018,V1-ENT-0018,retain_as_formal_candidate,N2 暂存已通过实体层（ENTITY_ID_MAP）
+V1-EMAP-0021,PRE-ENT-0019,N2,STG-ENT-0019,V1-ENT-0019,retain_as_formal_candidate,N2 暂存已通过实体层（ENTITY_ID_MAP）
+V1-EMAP-0022,PRE-ENT-0020,N2,STG-ENT-0020,V1-ENT-0020,retain_as_formal_candidate,N2 暂存已通过实体层（ENTITY_ID_MAP）
+V1-EMAP-0023,PRE-ENT-0021,N2,STG-ENT-0021,V1-ENT-0021,retain_as_formal_candidate,N2 暂存已通过实体层（ENTITY_ID_MAP）
+V1-EMAP-0024,PRE-ENT-0022,N2,STG-ENT-0022,V1-ENT-0022,retain_as_formal_candidate,N2 暂存已通过实体层（ENTITY_ID_MAP）
+V1-EMAP-0025,PRE-ENT-0023,N2,STG-ENT-0023,V1-ENT-0023,retain_as_formal_candidate,N2 暂存已通过实体层（ENTITY_ID_MAP）
+V1-EMAP-0026,PRE-ENT-0024,N2,STG-ENT-0024,V1-ENT-0024,retain_as_formal_candidate,N2 暂存已通过实体层（ENTITY_ID_MAP）
+V1-EMAP-0027,PRE-ENT-0025,N2,STG-ENT-0025,V1-ENT-0025,retain_as_formal_candidate,N2 暂存已通过实体层（ENTITY_ID_MAP）
+V1-EMAP-0028,PRE-ENT-0026,N2,STG-ENT-0026,V1-ENT-0026,retain_as_formal_candidate,N2 暂存已通过实体层（ENTITY_ID_MAP）
+V1-EMAP-0029,PRE-ENT-0027,N2,STG-ENT-0027,V1-ENT-0027,retain_as_formal_candidate,N2 暂存已通过实体层（ENTITY_ID_MAP）
+V1-EMAP-0030,PRE-ENT-0028,N2,STG-ENT-0028,V1-ENT-0028,retain_as_formal_candidate,N2 暂存已通过实体层（ENTITY_ID_MAP）
+V1-EMAP-0031,PRE-ENT-0029,B01,B01-ENT-0001,V1-ENT-0029,retain_as_formal_candidate,B01 批次已通过实体层
+V1-EMAP-0032,PRE-ENT-0030,B01,B01-ENT-0002,V1-ENT-0030,retain_as_formal_candidate,B01 批次已通过实体层
+V1-EMAP-0033,PRE-ENT-0031,B01,B01-ENT-0003,V1-ENT-0031,retain_as_formal_candidate,B01 批次已通过实体层
+V1-EMAP-0034,PRE-ENT-0032,B01,B01-ENT-0004,V1-ENT-0032,retain_as_formal_candidate,B01 批次已通过实体层
+V1-EMAP-0035,PRE-ENT-0033,B01,B01-ENT-0005,V1-ENT-0033,retain_as_formal_candidate,B01 批次已通过实体层
+V1-EMAP-0036,PRE-ENT-0034,B01,B01-ENT-0006,V1-ENT-0034,retain_as_formal_candidate,B01 批次已通过实体层
+V1-EMAP-0037,PRE-ENT-0035,B01,B01-ENT-0007,V1-ENT-0035,retain_as_formal_candidate,B01 批次已通过实体层
+V1-EMAP-0038,PRE-ENT-0036,B01,B01-ENT-0008,V1-ENT-0036,retain_as_formal_candidate,B01 批次已通过实体层
+V1-EMAP-0039,PRE-ENT-0037,B01,B01-ENT-0009,V1-ENT-0037,retain_as_formal_candidate,B01 批次已通过实体层
+V1-EMAP-0040,PRE-ENT-0038,B01,B01-ENT-0010,V1-ENT-0038,retain_as_formal_candidate,B01 批次已通过实体层
+V1-EMAP-0041,PRE-ENT-0039,B01,B01-ENT-0011,V1-ENT-0039,retain_as_formal_candidate,B01 批次已通过实体层
+V1-EMAP-0042,PRE-ENT-0040,B01,B01-ENT-0012,V1-ENT-0040,retain_as_formal_candidate,B01 批次已通过实体层
+V1-EMAP-0043,PRE-ENT-0041,B01,B01-ENT-0013,V1-ENT-0041,retain_as_formal_candidate,B01 批次已通过实体层
+V1-EMAP-0044,PRE-ENT-0042,B01,B01-ENT-0014,V1-ENT-0042,retain_as_formal_candidate,A02-TC-0018 裁决：1968 年电影按 adaptation 分层
+V1-EMAP-0045,PRE-ENT-0043,B01,B01-ENT-0015,V1-ENT-0043,retain_as_formal_candidate,B01 批次已通过实体层
+V1-EMAP-0046,PRE-ENT-0044,B01,B01-ENT-0016,V1-ENT-0044,retain_as_formal_candidate,B01 批次已通过实体层
+V1-EMAP-0047,PRE-ENT-0045,B01,B01-ENT-0017,V1-ENT-0045,retain_as_formal_candidate,B01 批次已通过实体层
+V1-EMAP-0048,PRE-ENT-0046,B01,B01-ENT-0018,V1-ENT-0046,retain_as_formal_candidate,B01 批次已通过实体层
+V1-EMAP-0049,PRE-ENT-0047,B01,B01-ENT-0019,V1-ENT-0047,retain_as_formal_candidate,B01 批次已通过实体层
+V1-EMAP-0050,PRE-ENT-0048,B01,B01-ENT-0020,V1-ENT-0048,retain_as_formal_candidate,B01 批次已通过实体层
+V1-EMAP-0051,PRE-ENT-0049,B01,B01-ENT-0021,V1-ENT-0049,retain_as_formal_candidate,B01 批次已通过实体层
+V1-EMAP-0052,PRE-ENT-0050,B01,B01-ENT-0022,V1-ENT-0050,retain_as_formal_candidate,B01 批次已通过实体层
+V1-EMAP-0053,PRE-ENT-0051,B01,B01-ENT-0023,V1-ENT-0051,retain_as_formal_candidate,B01 批次已通过实体层
+V1-EMAP-0054,PRE-ENT-0052,B01,B01-ENT-0024,V1-ENT-0052,retain_as_formal_candidate,B01 批次已通过实体层
+V1-EMAP-0055,PRE-ENT-0053,B01,B01-ENT-0025,V1-ENT-0053,retain_as_formal_candidate,B01 批次已通过实体层
+V1-EMAP-0056,PRE-ENT-0054,B01,B01-ENT-0026,V1-ENT-0054,retain_as_formal_candidate,B01 批次已通过实体层
+V1-EMAP-0057,PRE-ENT-0055,B01,B01-ENT-0027,V1-ENT-0055,retain_as_formal_candidate,B01 批次已通过实体层
+V1-EMAP-0058,PRE-ENT-0056,B01,B01-ENT-0028,V1-ENT-0056,retain_as_formal_candidate,B01 批次已通过实体层
+V1-EMAP-0059,PRE-ENT-0057,B01,B01-ENT-0029,V1-ENT-0057,retain_as_formal_candidate,B01 批次已通过实体层
+V1-EMAP-0060,PRE-ENT-0058,B01,B01-ENT-0030,V1-ENT-0058,retain_as_formal_candidate,B01 批次已通过实体层
+V1-EMAP-0061,PRE-ENT-0059,B01,B01-ENT-0031,V1-ENT-0059,retain_as_formal_candidate,B01 批次已通过实体层
+V1-EMAP-0062,PRE-ENT-0060,B01,B01-ENT-0032,V1-ENT-0060,retain_as_formal_candidate,B01 批次已通过实体层
+V1-EMAP-0063,PRE-ENT-0061,B01,B01-ENT-0033,V1-ENT-0061,retain_as_formal_candidate,B01 批次已通过实体层
+V1-EMAP-0064,PRE-ENT-0062,B01,B01-ENT-0034,V1-ENT-0062,retain_as_formal_candidate,B01 批次已通过实体层
+V1-EMAP-0065,PRE-ENT-0063,B01,B01-ENT-0035,V1-ENT-0063,retain_as_formal_candidate,B01 批次已通过实体层
+V1-EMAP-0066,PRE-ENT-0064,B01,B01-ENT-0036,V1-ENT-0064,retain_as_formal_candidate,B01 批次已通过实体层
+V1-EMAP-0067,PRE-ENT-0065,B01,B01-ENT-0037,V1-ENT-0065,retain_as_formal_candidate,B01 批次已通过实体层
+V1-EMAP-0068,PRE-ENT-0066,B01,B01-ENT-0038,V1-ENT-0066,retain_as_formal_candidate,B01 批次已通过实体层
+V1-EMAP-0069,PRE-ENT-0068,B01,B01-ENT-0040,V1-ENT-0067,retain_as_formal_candidate,B01 批次已通过实体层
+V1-EMAP-0070,PRE-ENT-0069,B01,B01-ENT-0041,V1-ENT-0068,retain_as_formal_candidate,B01 批次已通过实体层
+V1-EMAP-0071,PRE-ENT-0070,B01,B01-ENT-0042,V1-ENT-0069,retain_as_formal_candidate,B01 批次已通过实体层
+V1-EMAP-0072,PRE-ENT-0071,B01,B01-ENT-0043,V1-ENT-0070,retain_as_formal_candidate,B01 批次已通过实体层
+V1-EMAP-0073,PRE-ENT-0072,B01,B01-ENT-0044,V1-ENT-0071,retain_as_formal_candidate,B01 批次已通过实体层
+V1-EMAP-0074,PRE-ENT-0073,B02,B02-ENT-0001,V1-ENT-0072,retain_as_formal_candidate,B02 批次已通过实体层
+V1-EMAP-0075,PRE-ENT-0074,B02,B02-ENT-0002,V1-ENT-0073,retain_as_formal_candidate,B02 批次已通过实体层
+V1-EMAP-0076,PRE-ENT-0075,B02,B02-ENT-0003,V1-ENT-0074,retain_as_formal_candidate,B02 批次已通过实体层
+V1-EMAP-0077,PRE-ENT-0076,B02,B02-ENT-0004,V1-ENT-0075,retain_as_formal_candidate,B02 批次已通过实体层
+V1-EMAP-0078,PRE-ENT-0077,B02,B02-ENT-0005,V1-ENT-0076,retain_as_formal_candidate,B02 批次已通过实体层
+V1-EMAP-0079,PRE-ENT-0078,B02,B02-ENT-0006,V1-ENT-0077,retain_as_formal_candidate,B02 批次已通过实体层
+V1-EMAP-0080,PRE-ENT-0079,B02,B02-ENT-0007,V1-ENT-0078,retain_as_formal_candidate,B02 批次已通过实体层
+V1-EMAP-0081,PRE-ENT-0080,B02,B02-ENT-0008,V1-ENT-0079,retain_as_formal_candidate,B02 批次已通过实体层
+V1-EMAP-0082,PRE-ENT-0081,B02,B02-ENT-0009,V1-ENT-0080,retain_as_formal_candidate,B02 批次已通过实体层
+V1-EMAP-0083,PRE-ENT-0082,B02,B02-ENT-0010,V1-ENT-0081,retain_as_formal_candidate,B02 批次已通过实体层
+V1-EMAP-0084,PRE-ENT-0083,B02,B02-ENT-0011,V1-ENT-0082,retain_as_formal_candidate,B02 批次已通过实体层
+V1-EMAP-0085,PRE-ENT-0084,B02,B02-ENT-0012,V1-ENT-0083,retain_as_formal_candidate,B02 批次已通过实体层
+V1-EMAP-0086,PRE-ENT-0085,B02,B02-ENT-0013,V1-ENT-0084,retain_as_formal_candidate,B02 批次已通过实体层
+V1-EMAP-0087,PRE-ENT-0086,B02,B02-ENT-0014,V1-ENT-0085,retain_as_formal_candidate,B02 批次已通过实体层
+V1-EMAP-0088,PRE-ENT-0087,B02,B02-ENT-0015,V1-ENT-0086,retain_as_formal_candidate,B02 批次已通过实体层
+V1-EMAP-0089,PRE-ENT-0088,B02,B02-ENT-0016,V1-ENT-0087,retain_as_formal_candidate,B02 批次已通过实体层
+V1-EMAP-0090,PRE-ENT-0089,B02,B02-ENT-0017,V1-ENT-0088,retain_as_formal_candidate,B02 批次已通过实体层
+V1-EMAP-0091,PRE-ENT-0090,B02,B02-ENT-0018,V1-ENT-0089,retain_as_formal_candidate,B02 批次已通过实体层
+V1-EMAP-0092,PRE-ENT-0091,B02,B02-ENT-0019,V1-ENT-0090,retain_as_formal_candidate,B02 批次已通过实体层
+V1-EMAP-0093,PRE-ENT-0092,B02,B02-ENT-0020,V1-ENT-0091,retain_as_formal_candidate,B02 批次已通过实体层
+V1-EMAP-0094,PRE-ENT-0093,B02,B02-ENT-0021,V1-ENT-0092,retain_as_formal_candidate,B02 批次已通过实体层
+V1-EMAP-0095,PRE-ENT-0094,B02,B02-ENT-0022,V1-ENT-0093,retain_as_formal_candidate,B02 批次已通过实体层
+V1-EMAP-0096,PRE-ENT-0095,B02,B02-ENT-0023,V1-ENT-0094,retain_as_formal_candidate,B02 批次已通过实体层
+V1-EMAP-0097,PRE-ENT-0096,B02,B02-ENT-0024,V1-ENT-0095,retain_as_formal_candidate,B02 批次已通过实体层
+V1-EMAP-0098,PRE-ENT-0098,B02,B02-ENT-0026,V1-ENT-0096,retain_as_formal_candidate,B02 批次已通过实体层
+V1-EMAP-0099,PRE-ENT-0099,B02,B02-ENT-0027,V1-ENT-0097,retain_as_formal_candidate,B02 批次已通过实体层
+V1-EMAP-0100,PRE-ENT-0100,B02,B02-ENT-0028,V1-ENT-0098,retain_as_formal_candidate,B02 批次已通过实体层
+V1-EMAP-0101,PRE-ENT-0101,B02,B02-ENT-0029,V1-ENT-0099,retain_as_formal_candidate,B02 批次已通过实体层
+V1-EMAP-0102,PRE-ENT-0102,B02,B02-ENT-0030,V1-ENT-0100,retain_as_formal_candidate,B02 批次已通过实体层
+V1-EMAP-0103,PRE-ENT-0103,B02,B02-ENT-0031,V1-ENT-0101,retain_as_formal_candidate,B02 批次已通过实体层
+V1-EMAP-0104,PRE-ENT-0104,B02,B02-ENT-0032,V1-ENT-0102,retain_as_formal_candidate,B02 批次已通过实体层
+V1-EMAP-0105,PRE-ENT-0105,B02,B02-ENT-0033,V1-ENT-0103,retain_as_formal_candidate,B02 批次已通过实体层
+V1-EMAP-0106,PRE-ENT-0106,B02,B02-ENT-0034,V1-ENT-0104,retain_as_formal_candidate,B02 批次已通过实体层
+V1-EMAP-0107,PRE-ENT-0107,B02,B02-ENT-0035,V1-ENT-0105,retain_as_formal_candidate,B02 批次已通过实体层
+V1-EMAP-0108,PRE-ENT-0108,B02,B02-ENT-0036,V1-ENT-0106,retain_as_formal_candidate,B02 批次已通过实体层
+V1-EMAP-0109,PRE-ENT-0109,B02,B02-ENT-0037,V1-ENT-0107,retain_as_formal_candidate,B02 批次已通过实体层
+V1-EMAP-0110,PRE-ENT-0110,B02,B02-ENT-0038,V1-ENT-0108,retain_as_formal_candidate,B02 批次已通过实体层
+V1-EMAP-0111,PRE-ENT-0111,B02,B02-ENT-0039,V1-ENT-0109,retain_as_formal_candidate,B02 批次已通过实体层
+V1-EMAP-0112,PRE-ENT-0112,B02,B02-ENT-0040,V1-ENT-0110,retain_as_formal_candidate,B02 批次已通过实体层
+V1-EMAP-0113,PRE-ENT-0113,B02,B02-ENT-0041,V1-ENT-0111,retain_as_formal_candidate,B02 批次已通过实体层
+V1-EMAP-0114,PRE-ENT-0114,B02,B02-ENT-0042,V1-ENT-0112,retain_as_formal_candidate,B02 批次已通过实体层
+V1-EMAP-0115,PRE-ENT-0115,B02,B02-ENT-0043,V1-ENT-0113,retain_as_formal_candidate,B02 批次已通过实体层
+V1-EMAP-0116,PRE-ENT-0116,B03,B03-ENT-0001,V1-ENT-0114,retain_as_formal_candidate,B03 批次已通过实体层
+V1-EMAP-0117,PRE-ENT-0117,B03,B03-ENT-0002,V1-ENT-0115,retain_as_formal_candidate,B03 批次已通过实体层
+V1-EMAP-0118,PRE-ENT-0118,B03,B03-ENT-0003,V1-ENT-0116,retain_as_formal_candidate,B03 批次已通过实体层
+V1-EMAP-0119,PRE-ENT-0119,B03,B03-ENT-0004,V1-ENT-0117,retain_as_formal_candidate,B03 批次已通过实体层
+V1-EMAP-0120,PRE-ENT-0120,B03,B03-ENT-0005,V1-ENT-0118,retain_as_formal_candidate,B03 批次已通过实体层
+V1-EMAP-0121,PRE-ENT-0121,B03,B03-ENT-0006,V1-ENT-0119,retain_as_formal_candidate,A02-TC-0001/DEC-032 裁决：诗集以 collection 为准
+V1-EMAP-0122,PRE-ENT-0122,B03,B03-ENT-0007,V1-ENT-0120,retain_as_formal_candidate,A02-TC-0002/DEC-032 裁决
+V1-EMAP-0123,PRE-ENT-0123,B03,B03-ENT-0008,V1-ENT-0121,retain_as_formal_candidate,A02-TC-0003/DEC-032 裁决
+V1-EMAP-0124,PRE-ENT-0124,B03,B03-ENT-0009,V1-ENT-0122,retain_as_formal_candidate,B03 批次已通过实体层
+V1-EMAP-0125,PRE-ENT-0125,B03,B03-ENT-0010,V1-ENT-0123,retain_as_formal_candidate,B03 批次已通过实体层
+V1-EMAP-0126,PRE-ENT-0126,B03,B03-ENT-0011,V1-ENT-0124,retain_as_formal_candidate,B03 批次已通过实体层
+V1-EMAP-0127,PRE-ENT-0127,B03,B03-ENT-0012,V1-ENT-0125,retain_as_formal_candidate,B03 批次已通过实体层
+V1-EMAP-0128,PRE-ENT-0128,B03,B03-ENT-0013,V1-ENT-0126,retain_as_formal_candidate,B03 批次已通过实体层
+V1-EMAP-0129,PRE-ENT-0129,B03,B03-ENT-0014,V1-ENT-0127,retain_as_formal_candidate,B03 批次已通过实体层
+V1-EMAP-0130,PRE-ENT-0130,B03,B03-ENT-0015,V1-ENT-0128,retain_as_formal_candidate,B03 批次已通过实体层
+V1-EMAP-0131,PRE-ENT-0131,B03,B03-ENT-0016,V1-ENT-0129,retain_as_formal_candidate,B03 批次已通过实体层
+V1-EMAP-0132,PRE-ENT-0132,B03,B03-ENT-0017,V1-ENT-0130,retain_as_formal_candidate,B03 批次已通过实体层
+V1-EMAP-0133,PRE-ENT-0133,B03,B03-ENT-0018,V1-ENT-0131,retain_as_formal_candidate,B03 批次已通过实体层
+V1-EMAP-0134,PRE-ENT-0134,B03,B03-ENT-0019,V1-ENT-0132,retain_as_formal_candidate,B03 批次已通过实体层
+V1-EMAP-0135,PRE-ENT-0135,B03,B03-ENT-0020,V1-ENT-0133,retain_as_formal_candidate,B03 批次已通过实体层
+V1-EMAP-0136,PRE-ENT-0136,B03,B03-ENT-0021,V1-ENT-0134,retain_as_formal_candidate,B03 批次已通过实体层
+V1-EMAP-0137,PRE-ENT-0137,B03,B03-ENT-0022,V1-ENT-0135,retain_as_formal_candidate,B03 批次已通过实体层
+V1-EMAP-0138,PRE-ENT-0138,B03,B03-ENT-0023,V1-ENT-0136,retain_as_formal_candidate,B03 批次已通过实体层
+V1-EMAP-0139,PRE-ENT-0139,B03,B03-ENT-0024,V1-ENT-0137,retain_as_formal_candidate,B03 批次已通过实体层
+V1-EMAP-0140,PRE-ENT-0140,B03,B03-ENT-0025,V1-ENT-0138,retain_as_formal_candidate,B03 批次已通过实体层
+V1-EMAP-0141,PRE-ENT-0141,B03,B03-ENT-0026,V1-ENT-0139,retain_as_formal_candidate,B03 批次已通过实体层
+V1-EMAP-0142,PRE-ENT-0142,B03,B03-ENT-0027,V1-ENT-0140,retain_as_formal_candidate,B03 批次已通过实体层
+V1-EMAP-0143,PRE-ENT-0143,B03,B03-ENT-0028,V1-ENT-0141,retain_as_formal_candidate,B03 批次已通过实体层；A02-TC-0013/A02 R1 REVIEW：文学人物 el Consejero 与历史人物 Antônio Conselheiro 保持不同引用
+V1-EMAP-0144,PRE-ENT-0144,B03,B03-ENT-0029,V1-ENT-0142,retain_as_formal_candidate,B03 批次已通过实体层
+V1-EMAP-0145,PRE-ENT-0145,B03,B03-ENT-0030,V1-ENT-0143,retain_as_formal_candidate,B03 批次已通过实体层
+V1-EMAP-0146,PRE-ENT-0146,B03,B03-ENT-0031,V1-ENT-0144,retain_as_formal_candidate,B03 批次已通过实体层
+V1-EMAP-0147,CAND-R1-ENT-01,WEB-CE-B01-R1,CAND-R1-ENT-01,V1-ENT-0145,retain_as_formal_candidate,Independent review PASS
+V1-EMAP-0148,CAND-R1-ENT-02,WEB-CE-B01-R1,CAND-R1-ENT-02,V1-ENT-0146,retain_as_formal_candidate,Independent review PASS
+V1-EMAP-0149,CAND-R1-ENT-03,WEB-CE-B01-R1,CAND-R1-ENT-03,V1-ENT-0147,retain_as_formal_candidate,Independent review PASS; translation publication year excluded
+V1-EMAP-0150,PRE-ENT-WEBCE,WEB-CE-B01,CAND-B-ENT-001,V1-ENT-0148,retain_as_formal_candidate,WEB-CE-B01 批次已通过实体层
+V1-EMAP-0151,PRE-ENT-WEBCE,WEB-CE-B01,CAND-B-ENT-002,V1-ENT-0149,retain_as_formal_candidate,WEB-CE-B01 批次已通过实体层
+V1-EMAP-0152,PRE-ENT-WEBCE,WEB-CE-B01,CAND-B-ENT-003,V1-ENT-0150,retain_as_formal_candidate,WEB-CE-B01 批次已通过实体层
+V1-EMAP-0153,PRE-ENT-WEBCE,WEB-CE-B01,CAND-B-ENT-004,V1-ENT-0151,retain_as_formal_candidate,WEB-CE-B01 批次已通过实体层
+V1-EMAP-0154,PRE-ENT-WEBCE,WEB-CE-B01,CAND-B-ENT-006,V1-ENT-0153,retain_as_formal_candidate,WEB-CE-B01 批次已通过实体层
+V1-EMAP-0155,PRE-ENT-WEBCE,WEB-CE-B01,CAND-C-W-001,V1-ENT-0154,retain_as_formal_candidate,WEB-CE-B01 批次已通过实体层
+V1-EMAP-0156,PRE-ENT-WEBCE,WEB-CE-B01,CAND-C-W-002,V1-ENT-0155,retain_as_formal_candidate,WEB-CE-B01 批次已通过实体层
+V1-EMAP-0157,PRE-ENT-WEBCE,WEB-CE-B01,CAND-C-W-003,V1-ENT-0156,retain_as_formal_candidate,WEB-CE-B01 批次已通过实体层
+V1-EMAP-0158,PRE-ENT-WEBCE,WEB-CE-B01,CAND-D-ENT-01,V1-ENT-0158,retain_as_formal_candidate,WEB-CE-B01 批次已通过实体层
+V1-EMAP-0159,PRE-ENT-WEBCE,WEB-CE-B01,CAND-D-ENT-02,V1-ENT-0159,retain_as_formal_candidate,WEB-CE-B01 批次已通过实体层
+V1-EMAP-0160,PRE-ENT-WEBCE,WEB-CE-B01,CAND-D-ENT-03,V1-ENT-0160,retain_as_formal_candidate,WEB-CE-B01 批次已通过实体层
+V1-EMAP-0161,PRE-ENT-WEBCE,WEB-CE-B01,CAND-D-ENT-04,V1-ENT-0161,retain_as_formal_candidate,WEB-CE-B01 批次已通过实体层
+V1-EMAP-0162,PRE-ENT-WEBCE,WEB-CE-B01,CAND-D-ENT-07,V1-ENT-0162,retain_as_formal_candidate,WEB-CE-B01 批次已通过实体层
+V1-EMAP-0163,PRE-ENT-WEBCE,WEB-CE-B01,CAND-D-ENT-08,V1-ENT-0163,retain_as_formal_candidate,WEB-CE-B01 批次已通过实体层
+V1-EMAP-0164,PRE-ENT-WEBCE,WEB-CE-B01,CAND-D-ENT-09,V1-ENT-0164,retain_as_formal_candidate,WEB-CE-B01 批次已通过实体层
+V1-EMAP-0165,PRE-ENT-WEBCE,WEB-CE-B01,CAND-D-ENT-10,V1-ENT-0165,retain_as_formal_candidate,WEB-CE-B01 批次已通过实体层
+V1-EMAP-0166,PRE-ENT-WEBCE,WEB-CE-B01,CAND-D-ENT-11,V1-ENT-0166,retain_as_formal_candidate,WEB-CE-B01 批次已通过实体层
+V1-EMAP-0167,PRE-ENT-WEBCE,WEB-CE-B01,CAND-PM-ENT-01,V1-ENT-0167,retain_as_formal_candidate,WEB-CE-B01 批次已通过实体层
+V1-EMAP-0168,PRE-ENT-WEBCE,WEB-CE-B01,CAND-PM-ENT-02,V1-ENT-0168,retain_as_formal_candidate,WEB-CE-B01 批次已通过实体层
+V1-EMAP-0169,PRE-ENT-WEBCE,WEB-CE-B01-HY3,CAND-HY3-ENT-01,V1-ENT-0169,retain_as_formal_candidate,WEB-CE-B01-HY3 批次已通过实体层
+V1-EMAP-0170,PRE-ENT-WEBCE,WEB-CE-B02,CAND-B02-MIGUEL-AUTHOR,V1-ENT-0170,retain_as_formal_candidate,B02 fresh preflight: no duplicate entity or CREATED relation
+V1-EMAP-0171,PRE-ENT-WEBCE,WEB-CE-B02,CAND-B02-ISABEL-AUTHOR,V1-ENT-0171,retain_as_formal_candidate,B02 fresh preflight: no duplicate entity or CREATED relation
+V1-EMAP-0172,PRE-ENT-WEBCE,WEB-CE-B02,CAND-B02-JORGE-AUTHOR,V1-ENT-0172,retain_as_formal_candidate,B02 fresh preflight: no duplicate entity or CREATED relation
+V1-EMAP-0173,PRE-ENT-WEBCE,WEB-CE-B02,CAND-B02-V1-ENT-0173-WORK,V1-ENT-0173,retain_as_formal_candidate,B02 fresh preflight: no duplicate entity or CREATED relation
+V1-EMAP-0174,PRE-ENT-WEBCE,WEB-CE-B02,CAND-B02-V1-ENT-0174-WORK,V1-ENT-0174,retain_as_formal_candidate,B02 fresh preflight: no duplicate entity or CREATED relation
+V1-EMAP-0175,PRE-ENT-WEBCE,WEB-CE-B02,CAND-B02-V1-ENT-0175-WORK,V1-ENT-0175,retain_as_formal_candidate,B02 fresh preflight: no duplicate entity or CREATED relation
+V1-EMAP-0176,PRE-ENT-WEBCE,WEB-CE-B02,CAND-B02-V1-ENT-0176-WORK,V1-ENT-0176,retain_as_formal_candidate,B02 fresh preflight: no duplicate entity or CREATED relation
+V1-EMAP-0177,PRE-ENT-WEBCE,WEB-CE-B02,CAND-B02-V1-ENT-0177-WORK,V1-ENT-0177,retain_as_formal_candidate,B02 fresh preflight: no duplicate entity or CREATED relation
+V1-EMAP-0178,PRE-ENT-WEBCE,WEB-CE-B02,CAND-B02-V1-ENT-0178-WORK,V1-ENT-0178,retain_as_formal_candidate,B02 fresh preflight: no duplicate entity or CREATED relation
+V1-EMAP-0179,PRE-ENT-WEBCE,WEB-CE-B02,CAND-B02-V1-ENT-0179-WORK,V1-ENT-0179,retain_as_formal_candidate,B02 fresh preflight: no duplicate entity or CREATED relation
+V1-EMAP-0180,PRE-ENT-WEBCE,WEB-CE-B02,CAND-B02-V1-ENT-0180-WORK,V1-ENT-0180,retain_as_formal_candidate,B02 fresh preflight: no duplicate entity or CREATED relation
+V1-EMAP-0181,PRE-ENT-WEBCE,WEB-CE-B02,CAND-B02-V1-ENT-0181-WORK,V1-ENT-0181,retain_as_formal_candidate,B02 fresh preflight: no duplicate entity or CREATED relation
+V1-EMAP-0182,PRE-ENT-WEBCE,WEB-CE-B02,CAND-B02-V1-ENT-0182-PLACE,V1-ENT-0182,retain_as_formal_candidate,B02 fresh preflight: no duplicate entity or CREATED relation
+V1-EMAP-0183,PRE-ENT-WEBCE,WEB-CE-B02,CAND-B02-V1-ENT-0183-PLACE,V1-ENT-0183,retain_as_formal_candidate,B02 fresh preflight: no duplicate entity or CREATED relation
+V1-EMAP-0184,PRE-ENT-WEBCE,WEB-CE-B03,CAND-B03-ONETTI-AUTHOR,V1-ENT-0184,retain_as_formal_candidate,B03 fresh preflight: no duplicate entity or CREATED relation
+V1-EMAP-0185,PRE-ENT-WEBCE,WEB-CE-B03,CAND-B03-DONOSO-AUTHOR,V1-ENT-0185,retain_as_formal_candidate,B03 fresh preflight: no duplicate entity or CREATED relation
+V1-EMAP-0186,PRE-ENT-WEBCE,WEB-CE-B03,CAND-B03-SABATO-AUTHOR,V1-ENT-0186,retain_as_formal_candidate,B03 fresh preflight: no duplicate entity or CREATED relation
+V1-EMAP-0187,PRE-ENT-WEBCE,WEB-CE-B03,CAND-B03-V1-ENT-0187-WORK,V1-ENT-0187,retain_as_formal_candidate,B03 fresh preflight: no duplicate entity or CREATED relation
+V1-EMAP-0188,PRE-ENT-WEBCE,WEB-CE-B03,CAND-B03-V1-ENT-0188-WORK,V1-ENT-0188,retain_as_formal_candidate,B03 fresh preflight: no duplicate entity or CREATED relation
+V1-EMAP-0189,PRE-ENT-WEBCE,WEB-CE-B03,CAND-B03-V1-ENT-0189-WORK,V1-ENT-0189,retain_as_formal_candidate,B03 fresh preflight: no duplicate entity or CREATED relation
+V1-EMAP-0190,PRE-ENT-WEBCE,WEB-CE-B03,CAND-B03-V1-ENT-0190-WORK,V1-ENT-0190,retain_as_formal_candidate,B03 fresh preflight: no duplicate entity or CREATED relation
+V1-EMAP-0191,PRE-ENT-WEBCE,WEB-CE-B03,CAND-B03-V1-ENT-0191-WORK,V1-ENT-0191,retain_as_formal_candidate,B03 fresh preflight: no duplicate entity or CREATED relation
+V1-EMAP-0192,PRE-ENT-WEBCE,WEB-CE-B03,CAND-B03-V1-ENT-0192-WORK,V1-ENT-0192,retain_as_formal_candidate,B03 fresh preflight: no duplicate entity or CREATED relation
+V1-EMAP-0193,PRE-ENT-WEBCE,WEB-CE-B03,CAND-B03-V1-ENT-0193-WORK,V1-ENT-0193,retain_as_formal_candidate,B03 fresh preflight: no duplicate entity or CREATED relation
+V1-EMAP-0194,PRE-ENT-WEBCE,WEB-CE-B03,CAND-B03-V1-ENT-0194-WORK,V1-ENT-0194,retain_as_formal_candidate,B03 fresh preflight: no duplicate entity or CREATED relation
+V1-EMAP-0195,PRE-ENT-WEBCE,WEB-CE-B03,CAND-B03-V1-ENT-0195-WORK,V1-ENT-0195,retain_as_formal_candidate,B03 fresh preflight: no duplicate entity or CREATED relation
+V1-EMAP-0196,PRE-ENT-WEBCE,WEB-CE-B03,CAND-B03-V1-ENT-0196-PLACE,V1-ENT-0196,retain_as_formal_candidate,B03 fresh preflight: no duplicate entity or CREATED relation
+V1-EMAP-0197,PRE-ENT-WEBCE,WEB-CE-B03,CAND-B03-V1-ENT-0197-FICTIONAL-PLACE,V1-ENT-0197,retain_as_formal_candidate,B03 fresh preflight: no duplicate entity or CREATED relation
+V1-EMAP-0198,PRE-ENT-WEBCE,WEB-CE-B04,CAND-B04-BIOY-AUTHOR,V1-ENT-0198,retain_as_formal_candidate,B04 fresh preflight: no duplicate entity or CREATED relation
+V1-EMAP-0199,PRE-ENT-WEBCE,WEB-CE-B04,CAND-B04-ROA-AUTHOR,V1-ENT-0199,retain_as_formal_candidate,B04 fresh preflight: no duplicate entity or CREATED relation
+V1-EMAP-0200,PRE-ENT-WEBCE,WEB-CE-B04,CAND-B04-QUIROGA-AUTHOR,V1-ENT-0200,retain_as_formal_candidate,B04 fresh preflight: no duplicate entity or CREATED relation
+V1-EMAP-0201,PRE-ENT-WEBCE,WEB-CE-B04,CAND-B04-V1-ENT-0201-WORK,V1-ENT-0201,retain_as_formal_candidate,B04 fresh preflight: no duplicate entity or CREATED relation
+V1-EMAP-0202,PRE-ENT-WEBCE,WEB-CE-B04,CAND-B04-V1-ENT-0202-WORK,V1-ENT-0202,retain_as_formal_candidate,B04 fresh preflight: no duplicate entity or CREATED relation
+V1-EMAP-0203,PRE-ENT-WEBCE,WEB-CE-B04,CAND-B04-V1-ENT-0203-WORK,V1-ENT-0203,retain_as_formal_candidate,B04 fresh preflight: no duplicate entity or CREATED relation
+V1-EMAP-0204,PRE-ENT-WEBCE,WEB-CE-B04,CAND-B04-V1-ENT-0204-WORK,V1-ENT-0204,retain_as_formal_candidate,B04 fresh preflight: no duplicate entity or CREATED relation
+V1-EMAP-0205,PRE-ENT-WEBCE,WEB-CE-B04,CAND-B04-V1-ENT-0205-WORK,V1-ENT-0205,retain_as_formal_candidate,B04 fresh preflight: no duplicate entity or CREATED relation
+V1-EMAP-0206,PRE-ENT-WEBCE,WEB-CE-B04,CAND-B04-V1-ENT-0206-WORK,V1-ENT-0206,retain_as_formal_candidate,B04 fresh preflight: no duplicate entity or CREATED relation
+V1-EMAP-0207,PRE-ENT-WEBCE,WEB-CE-B04,CAND-B04-V1-ENT-0207-COLLECTION,V1-ENT-0207,retain_as_formal_candidate,B04 reviewer remediation: official Uruguay page describes a story collection; schema layer is collection.
+V1-EMAP-0208,PRE-ENT-WEBCE,WEB-CE-B04,CAND-B04-V1-ENT-0208-COLLECTION,V1-ENT-0208,retain_as_formal_candidate,B04 reviewer remediation: official Uruguay page describes a story collection; schema layer is collection.
+V1-EMAP-0209,PRE-ENT-WEBCE,WEB-CE-B04,CAND-B04-V1-ENT-0209-COLLECTION,V1-ENT-0209,retain_as_formal_candidate,B04 reviewer remediation: official Uruguay page describes a story collection; schema layer is collection.
+V1-EMAP-0210,PRE-ENT-WEBCE,WEB-CE-B04,CAND-B04-V1-ENT-0210-PLACE,V1-ENT-0210,retain_as_formal_candidate,B04 fresh preflight: no duplicate entity or CREATED relation
+V1-EMAP-0211,PRE-ENT-WEBCE,WEB-CE-B05,CAND-B05-MACHADO-AUTHOR,V1-ENT-0211,retain_as_formal_candidate,B05 fresh preflight: no duplicate entity or CREATED relation
+V1-EMAP-0212,PRE-ENT-WEBCE,WEB-CE-B05,CAND-B05-GUIMARAES-AUTHOR,V1-ENT-0212,retain_as_formal_candidate,B05 fresh preflight: no duplicate entity or CREATED relation
+V1-EMAP-0213,PRE-ENT-WEBCE,WEB-CE-B05,CAND-B05-GRACILIANO-AUTHOR,V1-ENT-0213,retain_as_formal_candidate,B05 fresh preflight: no duplicate entity or CREATED relation
+V1-EMAP-0214,PRE-ENT-WEBCE,WEB-CE-B05,CAND-B05-V1-ENT-0214-WORK,V1-ENT-0214,retain_as_formal_candidate,B05 fresh preflight: no duplicate entity or CREATED relation
+V1-EMAP-0215,PRE-ENT-WEBCE,WEB-CE-B05,CAND-B05-V1-ENT-0215-WORK,V1-ENT-0215,retain_as_formal_candidate,B05 fresh preflight: no duplicate entity or CREATED relation
+V1-EMAP-0216,PRE-ENT-WEBCE,WEB-CE-B05,CAND-B05-V1-ENT-0216-WORK,V1-ENT-0216,retain_as_formal_candidate,B05 fresh preflight: no duplicate entity or CREATED relation
+V1-EMAP-0217,PRE-ENT-WEBCE,WEB-CE-B05,CAND-B05-V1-ENT-0217-WORK,V1-ENT-0217,retain_as_formal_candidate,B05 fresh preflight: no duplicate entity or CREATED relation
+V1-EMAP-0218,PRE-ENT-WEBCE,WEB-CE-B05,CAND-B05-V1-ENT-0218-COLLECTION,V1-ENT-0218,retain_as_formal_candidate,B05 fresh preflight: no duplicate entity or CREATED relation
+V1-EMAP-0219,PRE-ENT-WEBCE,WEB-CE-B05,CAND-B05-V1-ENT-0219-COLLECTION,V1-ENT-0219,retain_as_formal_candidate,B05 fresh preflight: no duplicate entity or CREATED relation
+V1-EMAP-0220,PRE-ENT-WEBCE,WEB-CE-B05,CAND-B05-V1-ENT-0220-WORK,V1-ENT-0220,retain_as_formal_candidate,B05 fresh preflight: no duplicate entity or CREATED relation
+V1-EMAP-0221,PRE-ENT-WEBCE,WEB-CE-B05,CAND-B05-V1-ENT-0221-WORK,V1-ENT-0221,retain_as_formal_candidate,B05 fresh preflight: no duplicate entity or CREATED relation
+V1-EMAP-0222,PRE-ENT-WEBCE,WEB-CE-B05,CAND-B05-V1-ENT-0222-WORK,V1-ENT-0222,retain_as_formal_candidate,B05 fresh preflight: no duplicate entity or CREATED relation
+V1-EMAP-0223,CAND-B06-VALLEJO-AUTHOR,WEB-CE-B06,CAND-B06-VALLEJO-AUTHOR,V1-ENT-0223,create,B06 independent Reviewer pending; source-backed candidate
+V1-EMAP-0224,CAND-B06-DARIO-AUTHOR,WEB-CE-B06,CAND-B06-DARIO-AUTHOR,V1-ENT-0224,create,B06 independent Reviewer pending; source-backed candidate
+V1-EMAP-0225,CAND-B06-MARTI-AUTHOR,WEB-CE-B06,CAND-B06-MARTI-AUTHOR,V1-ENT-0225,create,B06 independent Reviewer pending; source-backed candidate
+V1-EMAP-0226,CAND-B06-VALLEJO-W01,WEB-CE-B06,CAND-B06-VALLEJO-W01,V1-ENT-0226,create,B06 independent Reviewer pending; source-backed candidate
+V1-EMAP-0227,CAND-B06-VALLEJO-W02,WEB-CE-B06,CAND-B06-VALLEJO-W02,V1-ENT-0227,create,B06 independent Reviewer pending; source-backed candidate
+V1-EMAP-0228,CAND-B06-VALLEJO-W03,WEB-CE-B06,CAND-B06-VALLEJO-W03,V1-ENT-0228,create,B06 independent Reviewer pending; source-backed candidate
+V1-EMAP-0229,CAND-B06-DARIO-W01,WEB-CE-B06,CAND-B06-DARIO-W01,V1-ENT-0229,create,B06 independent Reviewer pending; source-backed candidate
+V1-EMAP-0230,CAND-B06-DARIO-W02,WEB-CE-B06,CAND-B06-DARIO-W02,V1-ENT-0230,create,B06 independent Reviewer pending; source-backed candidate
+V1-EMAP-0231,CAND-B06-DARIO-W03,WEB-CE-B06,CAND-B06-DARIO-W03,V1-ENT-0231,create,B06 independent Reviewer pending; source-backed candidate
+V1-EMAP-0232,CAND-B06-MARTI-W01,WEB-CE-B06,CAND-B06-MARTI-W01,V1-ENT-0232,create,B06 independent Reviewer pending; source-backed candidate
+V1-EMAP-0233,CAND-B06-MARTI-W02,WEB-CE-B06,CAND-B06-MARTI-W02,V1-ENT-0233,create,B06 independent Reviewer pending; source-backed candidate
+V1-EMAP-0234,CAND-B06-MARTI-W03,WEB-CE-B06,CAND-B06-MARTI-W03,V1-ENT-0234,create,B06 independent Reviewer pending; source-backed candidate
+V1-EMAP-0235,CAND-B06-PLACE-NI,WEB-CE-B06,CAND-B06-PLACE-NI,V1-ENT-0235,create,B06 independent Reviewer pending; source-backed candidate
+V1-EMAP-0236,CAND-B07-PARRA-AUTHOR,WEB-CE-B07,CAND-B07-PARRA-AUTHOR,V1-ENT-0236,create,B07 Reviewer pending; source-backed candidate
+V1-EMAP-0237,CAND-B07-PIZARNIK-AUTHOR,WEB-CE-B07,CAND-B07-PIZARNIK-AUTHOR,V1-ENT-0237,create,B07 Reviewer pending; source-backed candidate
+V1-EMAP-0238,CAND-B07-BENEDETTI-AUTHOR,WEB-CE-B07,CAND-B07-BENEDETTI-AUTHOR,V1-ENT-0238,create,B07 Reviewer pending; source-backed candidate
+V1-EMAP-0239,CAND-B07-PARRA-W01,WEB-CE-B07,CAND-B07-PARRA-W01,V1-ENT-0239,create,B07 Reviewer pending; source-backed candidate
+V1-EMAP-0240,CAND-B07-PARRA-W02,WEB-CE-B07,CAND-B07-PARRA-W02,V1-ENT-0240,create,B07 Reviewer pending; source-backed candidate
+V1-EMAP-0241,CAND-B07-PARRA-W03,WEB-CE-B07,CAND-B07-PARRA-W03,V1-ENT-0241,create,B07 Reviewer pending; source-backed candidate
+V1-EMAP-0242,CAND-B07-PIZARNIK-W01,WEB-CE-B07,CAND-B07-PIZARNIK-W01,V1-ENT-0242,create,B07 Reviewer pending; source-backed candidate
+V1-EMAP-0243,CAND-B07-PIZARNIK-W02,WEB-CE-B07,CAND-B07-PIZARNIK-W02,V1-ENT-0243,create,B07 Reviewer pending; source-backed candidate
+V1-EMAP-0244,CAND-B07-PIZARNIK-W03,WEB-CE-B07,CAND-B07-PIZARNIK-W03,V1-ENT-0244,create,B07 Reviewer pending; source-backed candidate
+V1-EMAP-0245,CAND-B07-BENEDETTI-W01,WEB-CE-B07,CAND-B07-BENEDETTI-W01,V1-ENT-0245,create,B07 Reviewer pending; source-backed candidate
+V1-EMAP-0246,CAND-B07-BENEDETTI-W02,WEB-CE-B07,CAND-B07-BENEDETTI-W02,V1-ENT-0246,create,B07 Reviewer pending; source-backed candidate
+V1-EMAP-0247,CAND-B07-BENEDETTI-W03,WEB-CE-B07,CAND-B07-BENEDETTI-W03,V1-ENT-0247,create,B07 Reviewer pending; source-backed candidate
+V1-EMAP-0248,CAND-B08-ARGUEDAS-AUTHOR,WEB-CE-B08,CAND-B08-ARGUEDAS-AUTHOR,V1-ENT-0248,create,B08 Reviewer pending; source-backed candidate
+V1-EMAP-0249,CAND-B08-PITOL-AUTHOR,WEB-CE-B08,CAND-B08-PITOL-AUTHOR,V1-ENT-0249,create,B08 Reviewer pending; source-backed candidate
+V1-EMAP-0250,CAND-B08-ARREOLA-AUTHOR,WEB-CE-B08,CAND-B08-ARREOLA-AUTHOR,V1-ENT-0250,create,B08 Reviewer pending; source-backed candidate
+V1-EMAP-0251,CAND-B08-ARGUEDAS-W01,WEB-CE-B08,CAND-B08-ARGUEDAS-W01,V1-ENT-0251,create,B08 Reviewer pending; source-backed candidate
+V1-EMAP-0252,CAND-B08-ARGUEDAS-W02,WEB-CE-B08,CAND-B08-ARGUEDAS-W02,V1-ENT-0252,create,B08 Reviewer pending; source-backed candidate
+V1-EMAP-0253,CAND-B08-ARGUEDAS-W03,WEB-CE-B08,CAND-B08-ARGUEDAS-W03,V1-ENT-0253,create,B08 Reviewer pending; source-backed candidate
+V1-EMAP-0254,CAND-B08-PITOL-W01,WEB-CE-B08,CAND-B08-PITOL-W01,V1-ENT-0254,create,B08 Reviewer pending; source-backed candidate
+V1-EMAP-0255,CAND-B08-PITOL-W02,WEB-CE-B08,CAND-B08-PITOL-W02,V1-ENT-0255,create,B08 Reviewer pending; source-backed candidate
+V1-EMAP-0256,CAND-B08-PITOL-W03,WEB-CE-B08,CAND-B08-PITOL-W03,V1-ENT-0256,create,B08 Reviewer pending; source-backed candidate
+V1-EMAP-0257,CAND-B08-ARREOLA-W01,WEB-CE-B08,CAND-B08-ARREOLA-W01,V1-ENT-0257,create,B08 Reviewer pending; source-backed candidate
+V1-EMAP-0258,CAND-B08-ARREOLA-W02,WEB-CE-B08,CAND-B08-ARREOLA-W02,V1-ENT-0258,create,B08 Reviewer pending; source-backed candidate
+V1-EMAP-0259,CAND-B08-ARREOLA-W03,WEB-CE-B08,CAND-B08-ARREOLA-W03,V1-ENT-0259,create,B08 Reviewer pending; source-backed candidate
+V1-EMAP-0260,CAND-B09-PONIATOWSKA-AUTHOR,WEB-CE-B09,CAND-B09-PONIATOWSKA-AUTHOR,V1-ENT-0260,create,B09 Reviewer pending; source-backed candidate
+V1-EMAP-0261,CAND-B09-PACHECO-AUTHOR,WEB-CE-B09,CAND-B09-PACHECO-AUTHOR,V1-ENT-0261,create,B09 Reviewer pending; source-backed candidate
+V1-EMAP-0262,CAND-B09-BOLANO-AUTHOR,WEB-CE-B09,CAND-B09-BOLANO-AUTHOR,V1-ENT-0262,create,B09 Reviewer pending; source-backed candidate
+V1-EMAP-0263,CAND-B09-PONIATOWSKA-W01,WEB-CE-B09,CAND-B09-PONIATOWSKA-W01,V1-ENT-0263,create,B09 Reviewer pending; source-backed candidate
+V1-EMAP-0264,CAND-B09-PONIATOWSKA-W02,WEB-CE-B09,CAND-B09-PONIATOWSKA-W02,V1-ENT-0264,create,B09 Reviewer pending; source-backed candidate
+V1-EMAP-0265,CAND-B09-PONIATOWSKA-W03,WEB-CE-B09,CAND-B09-PONIATOWSKA-W03,V1-ENT-0265,create,B09 Reviewer pending; source-backed candidate
+V1-EMAP-0266,CAND-B09-PACHECO-W01,WEB-CE-B09,CAND-B09-PACHECO-W01,V1-ENT-0266,create,B09 Reviewer pending; source-backed candidate
+V1-EMAP-0267,CAND-B09-PACHECO-W02,WEB-CE-B09,CAND-B09-PACHECO-W02,V1-ENT-0267,create,B09 Reviewer pending; source-backed candidate
+V1-EMAP-0268,CAND-B09-PACHECO-W03,WEB-CE-B09,CAND-B09-PACHECO-W03,V1-ENT-0268,create,B09 Reviewer pending; source-backed candidate
+V1-EMAP-0269,CAND-B09-BOLANO-W01,WEB-CE-B09,CAND-B09-BOLANO-W01,V1-ENT-0269,create,B09 Reviewer pending; source-backed candidate
+V1-EMAP-0270,CAND-B09-BOLANO-W02,WEB-CE-B09,CAND-B09-BOLANO-W02,V1-ENT-0270,create,B09 Reviewer pending; source-backed candidate
+V1-EMAP-0271,CAND-B09-BOLANO-W03,WEB-CE-B09,CAND-B09-BOLANO-W03,V1-ENT-0271,create,B09 Reviewer pending; source-backed candidate
+V1-EMAP-0272,CAND-B10-GALEANO-AUTHOR,WEB-CE-B10,CAND-B10-GALEANO-AUTHOR,V1-ENT-0272,create,B10 Reviewer pending; source-backed candidate
+V1-EMAP-0273,CAND-B10-PIGLIA-AUTHOR,WEB-CE-B10,CAND-B10-PIGLIA-AUTHOR,V1-ENT-0273,create,B10 Reviewer pending; source-backed candidate
+V1-EMAP-0274,CAND-B10-AIRA-AUTHOR,WEB-CE-B10,CAND-B10-AIRA-AUTHOR,V1-ENT-0274,create,B10 Reviewer pending; source-backed candidate
+V1-EMAP-0275,CAND-B10-GALEANO-W01,WEB-CE-B10,CAND-B10-GALEANO-W01,V1-ENT-0275,create,B10 Reviewer pending; source-backed candidate
+V1-EMAP-0276,CAND-B10-GALEANO-W02,WEB-CE-B10,CAND-B10-GALEANO-W02,V1-ENT-0276,create,B10 Reviewer pending; source-backed candidate
+V1-EMAP-0277,CAND-B10-GALEANO-W03,WEB-CE-B10,CAND-B10-GALEANO-W03,V1-ENT-0277,create,B10 Reviewer pending; source-backed candidate
+V1-EMAP-0278,CAND-B10-PIGLIA-W01,WEB-CE-B10,CAND-B10-PIGLIA-W01,V1-ENT-0278,create,B10 Reviewer pending; source-backed candidate
+V1-EMAP-0279,CAND-B10-PIGLIA-W02,WEB-CE-B10,CAND-B10-PIGLIA-W02,V1-ENT-0279,create,B10 Reviewer pending; source-backed candidate
+V1-EMAP-0280,CAND-B10-PIGLIA-W03,WEB-CE-B10,CAND-B10-PIGLIA-W03,V1-ENT-0280,create,B10 Reviewer pending; source-backed candidate
+V1-EMAP-0281,CAND-B10-AIRA-W01,WEB-CE-B10,CAND-B10-AIRA-W01,V1-ENT-0281,create,B10 Reviewer pending; source-backed candidate
+V1-EMAP-0282,CAND-B10-AIRA-W02,WEB-CE-B10,CAND-B10-AIRA-W02,V1-ENT-0282,create,B10 Reviewer pending; source-backed candidate
+V1-EMAP-0283,CAND-B10-AIRA-W03,WEB-CE-B10,CAND-B10-AIRA-W03,V1-ENT-0283,create,B10 Reviewer pending; source-backed candidate
+V1-EMAP-0284,CAND-B11-PUIG-AUTHOR,WEB-CE-B11,CAND-B11-PUIG-AUTHOR,V1-ENT-0284,create,B11 Reviewer pending; source-backed candidate
+V1-EMAP-0285,CAND-B11-OCAMPO-AUTHOR,WEB-CE-B11,CAND-B11-OCAMPO-AUTHOR,V1-ENT-0285,create,B11 Reviewer pending; source-backed candidate
+V1-EMAP-0286,CAND-B11-ARLT-AUTHOR,WEB-CE-B11,CAND-B11-ARLT-AUTHOR,V1-ENT-0286,create,B11 Reviewer pending; source-backed candidate
+V1-EMAP-0287,CAND-B11-PUIG-W01,WEB-CE-B11,CAND-B11-PUIG-W01,V1-ENT-0287,create,B11 Reviewer pending; source-backed candidate
+V1-EMAP-0288,CAND-B11-PUIG-W02,WEB-CE-B11,CAND-B11-PUIG-W02,V1-ENT-0288,create,B11 Reviewer pending; source-backed candidate
+V1-EMAP-0289,CAND-B11-PUIG-W03,WEB-CE-B11,CAND-B11-PUIG-W03,V1-ENT-0289,create,B11 Reviewer pending; source-backed candidate
+V1-EMAP-0290,CAND-B11-OCAMPO-W01,WEB-CE-B11,CAND-B11-OCAMPO-W01,V1-ENT-0290,create,B11 Reviewer pending; source-backed candidate
+V1-EMAP-0291,CAND-B11-OCAMPO-W02,WEB-CE-B11,CAND-B11-OCAMPO-W02,V1-ENT-0291,create,B11 Reviewer pending; source-backed candidate
+V1-EMAP-0292,CAND-B11-OCAMPO-W03,WEB-CE-B11,CAND-B11-OCAMPO-W03,V1-ENT-0292,create,B11 Reviewer pending; source-backed candidate
+V1-EMAP-0293,CAND-B11-ARLT-W01,WEB-CE-B11,CAND-B11-ARLT-W01,V1-ENT-0293,create,B11 Reviewer pending; source-backed candidate
+V1-EMAP-0294,CAND-B11-ARLT-W02,WEB-CE-B11,CAND-B11-ARLT-W02,V1-ENT-0294,create,B11 Reviewer pending; source-backed candidate
+V1-EMAP-0295,CAND-B11-ARLT-W03,WEB-CE-B11,CAND-B11-ARLT-W03,V1-ENT-0295,create,B11 Reviewer pending; source-backed candidate
+V1-EMAP-0296,CAND-B12-SCHWEBLIN-AUTHOR,WEB-CE-B12,CAND-B12-SCHWEBLIN-AUTHOR,V1-ENT-0296,create,B12 fresh-context Reviewer pending; source-backed candidate
+V1-EMAP-0297,CAND-B12-ENRIQUEZ-AUTHOR,WEB-CE-B12,CAND-B12-ENRIQUEZ-AUTHOR,V1-ENT-0297,create,B12 fresh-context Reviewer pending; source-backed candidate
+V1-EMAP-0298,CAND-B12-ZAMBRA-AUTHOR,WEB-CE-B12,CAND-B12-ZAMBRA-AUTHOR,V1-ENT-0298,create,B12 fresh-context Reviewer pending; source-backed candidate
+V1-EMAP-0299,CAND-B12-SCHWEBLIN-W01,WEB-CE-B12,CAND-B12-SCHWEBLIN-W01,V1-ENT-0299,create,B12 fresh-context Reviewer pending; source-backed candidate
+V1-EMAP-0300,CAND-B12-SCHWEBLIN-W02,WEB-CE-B12,CAND-B12-SCHWEBLIN-W02,V1-ENT-0300,create,B12 fresh-context Reviewer pending; source-backed candidate
+V1-EMAP-0301,CAND-B12-SCHWEBLIN-W03,WEB-CE-B12,CAND-B12-SCHWEBLIN-W03,V1-ENT-0301,create,B12 fresh-context Reviewer pending; source-backed candidate
+V1-EMAP-0302,CAND-B12-ENRIQUEZ-W01,WEB-CE-B12,CAND-B12-ENRIQUEZ-W01,V1-ENT-0302,create,B12 fresh-context Reviewer pending; source-backed candidate
+V1-EMAP-0303,CAND-B12-ENRIQUEZ-W02,WEB-CE-B12,CAND-B12-ENRIQUEZ-W02,V1-ENT-0303,create,B12 fresh-context Reviewer pending; source-backed candidate
+V1-EMAP-0304,CAND-B12-ENRIQUEZ-W03,WEB-CE-B12,CAND-B12-ENRIQUEZ-W03,V1-ENT-0304,create,B12 fresh-context Reviewer pending; source-backed candidate
+V1-EMAP-0305,CAND-B12-ZAMBRA-W01,WEB-CE-B12,CAND-B12-ZAMBRA-W01,V1-ENT-0305,create,B12 fresh-context Reviewer pending; source-backed candidate
+V1-EMAP-0306,CAND-B12-ZAMBRA-W02,WEB-CE-B12,CAND-B12-ZAMBRA-W02,V1-ENT-0306,create,B12 fresh-context Reviewer pending; source-backed candidate
+V1-EMAP-0307,CAND-B12-ZAMBRA-W03,WEB-CE-B12,CAND-B12-ZAMBRA-W03,V1-ENT-0307,create,B12 fresh-context Reviewer pending; source-backed candidate
+V1-EMAP-0308,CAND-B13-COELHO-AUTHOR,WEB-CE-B13,CAND-B13-COELHO-AUTHOR,V1-ENT-0308,create,B13 fresh-context Reviewer PASS; institutional sources
+V1-EMAP-0309,CAND-B13-DRUMMOND-AUTHOR,WEB-CE-B13,CAND-B13-DRUMMOND-AUTHOR,V1-ENT-0309,create,B13 fresh-context Reviewer PASS; institutional sources
+V1-EMAP-0310,CAND-B13-GUILLEN-AUTHOR,WEB-CE-B13,CAND-B13-GUILLEN-AUTHOR,V1-ENT-0310,create,B13 fresh-context Reviewer PASS; institutional sources
+V1-EMAP-0311,CAND-B13-COELHO-W01,WEB-CE-B13,CAND-B13-COELHO-W01,V1-ENT-0311,create,B13 fresh-context Reviewer PASS; institutional bibliography
+V1-EMAP-0312,CAND-B13-COELHO-W02,WEB-CE-B13,CAND-B13-COELHO-W02,V1-ENT-0312,create,B13 fresh-context Reviewer PASS; institutional bibliography
+V1-EMAP-0313,CAND-B13-COELHO-W03,WEB-CE-B13,CAND-B13-COELHO-W03,V1-ENT-0313,create,B13 fresh-context Reviewer PASS; institutional bibliography
+V1-EMAP-0314,CAND-B13-DRUMMOND-W01,WEB-CE-B13,CAND-B13-DRUMMOND-W01,V1-ENT-0314,create,B13 fresh-context Reviewer PASS; ABL poetry list
+V1-EMAP-0315,CAND-B13-DRUMMOND-W02,WEB-CE-B13,CAND-B13-DRUMMOND-W02,V1-ENT-0315,create,B13 fresh-context Reviewer PASS; ABL poetry list
+V1-EMAP-0316,CAND-B13-DRUMMOND-W03,WEB-CE-B13,CAND-B13-DRUMMOND-W03,V1-ENT-0316,create,B13 fresh-context Reviewer PASS; ABL poetry list
+V1-EMAP-0317,CAND-B13-GUILLEN-W01,WEB-CE-B13,CAND-B13-GUILLEN-W01,V1-ENT-0317,create,B13 fresh-context Reviewer PASS; Cervantes bibliography
+V1-EMAP-0318,CAND-B13-GUILLEN-W02,WEB-CE-B13,CAND-B13-GUILLEN-W02,V1-ENT-0318,create,B13 fresh-context Reviewer PASS; Cervantes bibliography
+V1-EMAP-0319,CAND-B13-GUILLEN-W03,WEB-CE-B13,CAND-B13-GUILLEN-W03,V1-ENT-0319,create,B13 fresh-context Reviewer PASS; Cervantes bibliography
+V1-EMAP-0320,CAND-B14-LEZAMA-AUTHOR,WEB-CE-B14,CAND-B14-LEZAMA-AUTHOR,V1-ENT-0320,create,B14 fresh-context Reviewer PASS; institutional sources
+V1-EMAP-0321,CAND-B14-CABRERA-AUTHOR,WEB-CE-B14,CAND-B14-CABRERA-AUTHOR,V1-ENT-0321,create,B14 fresh-context Reviewer PASS; bibliography and scholarly biography
+V1-EMAP-0322,CAND-B14-SORJUANA-AUTHOR,WEB-CE-B14,CAND-B14-SORJUANA-AUTHOR,V1-ENT-0322,create,B14 fresh-context Reviewer PASS; UNAM institutional sources
+V1-EMAP-0323,CAND-B14-LEZAMA-W01,WEB-CE-B14,CAND-B14-LEZAMA-W01,V1-ENT-0323,create,B14 fresh-context Reviewer PASS; bibliography
+V1-EMAP-0324,CAND-B14-LEZAMA-W02,WEB-CE-B14,CAND-B14-LEZAMA-W02,V1-ENT-0324,create,B14 fresh-context Reviewer PASS; bibliography
+V1-EMAP-0325,CAND-B14-LEZAMA-W03,WEB-CE-B14,CAND-B14-LEZAMA-W03,V1-ENT-0325,create,B14 fresh-context Reviewer PASS; AAP profile
+V1-EMAP-0326,CAND-B14-CABRERA-W01,WEB-CE-B14,CAND-B14-CABRERA-W01,V1-ENT-0326,create,B14 fresh-context Reviewer PASS; bibliography
+V1-EMAP-0327,CAND-B14-CABRERA-W02,WEB-CE-B14,CAND-B14-CABRERA-W02,V1-ENT-0327,create,B14 fresh-context Reviewer PASS; bibliography; form left open
+V1-EMAP-0328,CAND-B14-CABRERA-W03,WEB-CE-B14,CAND-B14-CABRERA-W03,V1-ENT-0328,create,B14 fresh-context Reviewer PASS; bibliography
+V1-EMAP-0329,CAND-B14-SORJUANA-W01,WEB-CE-B14,CAND-B14-SORJUANA-W01,V1-ENT-0329,create,B14 fresh-context Reviewer PASS; UNAM repository
+V1-EMAP-0330,CAND-B14-SORJUANA-W02,WEB-CE-B14,CAND-B14-SORJUANA-W02,V1-ENT-0330,create,B14 fresh-context Reviewer PASS; UNAM repository
+V1-EMAP-0331,CAND-B14-SORJUANA-W03,WEB-CE-B14,CAND-B14-SORJUANA-W03,V1-ENT-0331,create,B14 fresh-context Reviewer PASS; UNAM profile
+V1-EMAP-0332,CAND-B15-RIBEYRO-AUTHOR,WEB-CE-B15,CAND-B15-RIBEYRO-AUTHOR,V1-ENT-0332,create,"B15 fresh-context Reviewer PASS (LUNA-MAX-B15-REVIEW, 2026-08-21); Peruvian Ministry and UNMSM sources"
+V1-EMAP-0333,CAND-B15-SAER-AUTHOR,WEB-CE-B15,CAND-B15-SAER-AUTHOR,V1-ENT-0333,create,"B15 fresh-context Reviewer PASS (LUNA-MAX-B15-REVIEW, 2026-08-21); Argentina government and UNL sources"
+V1-EMAP-0334,CAND-B15-ARENAS-AUTHOR,WEB-CE-B15,CAND-B15-ARENAS-AUTHOR,V1-ENT-0334,create,"B15 fresh-context Reviewer PASS (LUNA-MAX-B15-REVIEW, 2026-08-21); Princeton and university sources"
+V1-EMAP-0335,CAND-B15-RIBEYRO-W01,WEB-CE-B15,CAND-B15-RIBEYRO-W01,V1-ENT-0335,create,"B15 fresh-context Reviewer PASS (LUNA-MAX-B15-REVIEW, 2026-08-21); official bibliography and scholarly article"
+V1-EMAP-0336,CAND-B15-RIBEYRO-W02,WEB-CE-B15,CAND-B15-RIBEYRO-W02,V1-ENT-0336,create,"B15 fresh-context Reviewer PASS (LUNA-MAX-B15-REVIEW, 2026-08-21); official bibliography"
+V1-EMAP-0337,CAND-B15-RIBEYRO-W03,WEB-CE-B15,CAND-B15-RIBEYRO-W03,V1-ENT-0337,create,"B15 fresh-context Reviewer PASS (LUNA-MAX-B15-REVIEW, 2026-08-21); official bibliography"
+V1-EMAP-0338,CAND-B15-SAER-W01,WEB-CE-B15,CAND-B15-SAER-W01,V1-ENT-0338,create,"B15 fresh-context Reviewer PASS (LUNA-MAX-B15-REVIEW, 2026-08-21); Argentina government and UNL sources"
+V1-EMAP-0339,CAND-B15-SAER-W02,WEB-CE-B15,CAND-B15-SAER-W02,V1-ENT-0339,create,"B15 fresh-context Reviewer PASS (LUNA-MAX-B15-REVIEW, 2026-08-21); Argentina government and UNL sources"
+V1-EMAP-0340,CAND-B15-SAER-W03,WEB-CE-B15,CAND-B15-SAER-W03,V1-ENT-0340,create,"B15 fresh-context Reviewer PASS (LUNA-MAX-B15-REVIEW, 2026-08-21); 1986 retained provisionally with gap"
+V1-EMAP-0341,CAND-B15-ARENAS-W01,WEB-CE-B15,CAND-B15-ARENAS-W01,V1-ENT-0341,create,"B15 fresh-context Reviewer PASS (LUNA-MAX-B15-REVIEW, 2026-08-21); Cardiff scholarly article"
+V1-EMAP-0342,CAND-B15-ARENAS-W02,WEB-CE-B15,CAND-B15-ARENAS-W02,V1-ENT-0342,create,"B15 fresh-context Reviewer PASS (LUNA-MAX-B15-REVIEW, 2026-08-21); Cardiff scholarly article"
+V1-EMAP-0343,CAND-B15-ARENAS-W03,WEB-CE-B15,CAND-B15-ARENAS-W03,V1-ENT-0343,create,"B15 fresh-context Reviewer PASS (LUNA-MAX-B15-REVIEW, 2026-08-21); Universidad de Antioquia review"
+V1-EMAP-0344,CAND-B16-SEPULVEDA-AUTHOR,WEB-CE-B16,CAND-B16-SEPULVEDA-AUTHOR,V1-ENT-0344,create,"B16 fresh-context Reviewer PASS (LUNA-MAX-B16-REVIEW, 2026-08-22); source/evidence and migration replay verified"
+V1-EMAP-0345,CAND-B16-NETTEL-AUTHOR,WEB-CE-B16,CAND-B16-NETTEL-AUTHOR,V1-ENT-0345,create,"B16 fresh-context Reviewer PASS (LUNA-MAX-B16-REVIEW, 2026-08-22); source/evidence and migration replay verified"
+V1-EMAP-0346,CAND-B16-PERI-ROSSI-AUTHOR,WEB-CE-B16,CAND-B16-PERI-ROSSI-AUTHOR,V1-ENT-0346,create,"B16 fresh-context Reviewer PASS (LUNA-MAX-B16-REVIEW, 2026-08-22); source/evidence and migration replay verified"
+V1-EMAP-0347,CAND-B16-SEPULVEDA-W01,WEB-CE-B16,CAND-B16-SEPULVEDA-W01,V1-ENT-0347,create,"B16 fresh-context Reviewer PASS (LUNA-MAX-B16-REVIEW, 2026-08-22); source/evidence and migration replay verified"
+V1-EMAP-0348,CAND-B16-SEPULVEDA-W02,WEB-CE-B16,CAND-B16-SEPULVEDA-W02,V1-ENT-0348,create,"B16 fresh-context Reviewer PASS (LUNA-MAX-B16-REVIEW, 2026-08-22); source/evidence and migration replay verified"
+V1-EMAP-0349,CAND-B16-SEPULVEDA-W03,WEB-CE-B16,CAND-B16-SEPULVEDA-W03,V1-ENT-0349,create,"B16 fresh-context Reviewer PASS (LUNA-MAX-B16-REVIEW, 2026-08-22); source/evidence and migration replay verified"
+V1-EMAP-0350,CAND-B16-NETTEL-W01,WEB-CE-B16,CAND-B16-NETTEL-W01,V1-ENT-0350,create,"B16 fresh-context Reviewer PASS (LUNA-MAX-B16-REVIEW, 2026-08-22); source/evidence and migration replay verified"
+V1-EMAP-0351,CAND-B16-NETTEL-W02,WEB-CE-B16,CAND-B16-NETTEL-W02,V1-ENT-0351,create,"B16 fresh-context Reviewer PASS (LUNA-MAX-B16-REVIEW, 2026-08-22); source/evidence and migration replay verified"
+V1-EMAP-0352,CAND-B16-NETTEL-W03,WEB-CE-B16,CAND-B16-NETTEL-W03,V1-ENT-0352,create,"B16 fresh-context Reviewer PASS (LUNA-MAX-B16-REVIEW, 2026-08-22); source/evidence and migration replay verified"
+V1-EMAP-0353,CAND-B16-PERI-ROSSI-W01,WEB-CE-B16,CAND-B16-PERI-ROSSI-W01,V1-ENT-0353,create,"B16 fresh-context Reviewer PASS (LUNA-MAX-B16-REVIEW, 2026-08-22); source/evidence and migration replay verified"
+V1-EMAP-0354,CAND-B16-PERI-ROSSI-W02,WEB-CE-B16,CAND-B16-PERI-ROSSI-W02,V1-ENT-0354,create,"B16 fresh-context Reviewer PASS (LUNA-MAX-B16-REVIEW, 2026-08-22); source/evidence and migration replay verified"
+V1-EMAP-0355,CAND-B16-PERI-ROSSI-W03,WEB-CE-B16,CAND-B16-PERI-ROSSI-W03,V1-ENT-0355,create,"B16 fresh-context Reviewer PASS (LUNA-MAX-B16-REVIEW, 2026-08-22); source/evidence and migration replay verified"
+V1-EMAP-0356,CAND-B17-ECUADOR-PLACE,WEB-CE-B17,CAND-B17-ECUADOR-PLACE,V1-ENT-0356,create,"B17 fresh-context Reviewer PASS (LUNA-MAX-B17-REVIEW, 2026-08-22); source/evidence and migration replay verified"
+V1-EMAP-0357,CAND-B17-VENEZUELA-PLACE,WEB-CE-B17,CAND-B17-VENEZUELA-PLACE,V1-ENT-0357,create,"B17 fresh-context Reviewer PASS (LUNA-MAX-B17-REVIEW, 2026-08-22); source/evidence and migration replay verified"
+V1-EMAP-0358,CAND-B17-LYGIA-AUTHOR,WEB-CE-B17,CAND-B17-LYGIA-AUTHOR,V1-ENT-0358,create,"B17 fresh-context Reviewer PASS (LUNA-MAX-B17-REVIEW, 2026-08-22); source/evidence and migration replay verified"
+V1-EMAP-0359,CAND-B17-ICAZA-AUTHOR,WEB-CE-B17,CAND-B17-ICAZA-AUTHOR,V1-ENT-0359,create,"B17 fresh-context Reviewer PASS (LUNA-MAX-B17-REVIEW, 2026-08-22); source/evidence and migration replay verified"
+V1-EMAP-0360,CAND-B17-GALLEGOS-AUTHOR,WEB-CE-B17,CAND-B17-GALLEGOS-AUTHOR,V1-ENT-0360,create,"B17 fresh-context Reviewer PASS (LUNA-MAX-B17-REVIEW, 2026-08-22); source/evidence and migration replay verified"
+V1-EMAP-0361,CAND-B17-LYGIA-FAGUNDES-TELLES-61,WEB-CE-B17,CAND-B17-LYGIA-FAGUNDES-TELLES-61,V1-ENT-0361,create,"B17 fresh-context Reviewer PASS (LUNA-MAX-B17-REVIEW, 2026-08-22); source/evidence and migration replay verified"
+V1-EMAP-0362,CAND-B17-LYGIA-FAGUNDES-TELLES-62,WEB-CE-B17,CAND-B17-LYGIA-FAGUNDES-TELLES-62,V1-ENT-0362,create,"B17 fresh-context Reviewer PASS (LUNA-MAX-B17-REVIEW, 2026-08-22); source/evidence and migration replay verified"
+V1-EMAP-0363,CAND-B17-LYGIA-FAGUNDES-TELLES-63,WEB-CE-B17,CAND-B17-LYGIA-FAGUNDES-TELLES-63,V1-ENT-0363,create,"B17 fresh-context Reviewer PASS (LUNA-MAX-B17-REVIEW, 2026-08-22); source/evidence and migration replay verified"
+V1-EMAP-0364,CAND-B17-JORGE-ICAZA-64,WEB-CE-B17,CAND-B17-JORGE-ICAZA-64,V1-ENT-0364,create,"B17 fresh-context Reviewer PASS (LUNA-MAX-B17-REVIEW, 2026-08-22); source/evidence and migration replay verified"
+V1-EMAP-0365,CAND-B17-JORGE-ICAZA-65,WEB-CE-B17,CAND-B17-JORGE-ICAZA-65,V1-ENT-0365,create,"B17 fresh-context Reviewer PASS (LUNA-MAX-B17-REVIEW, 2026-08-22); source/evidence and migration replay verified"
+V1-EMAP-0366,CAND-B17-JORGE-ICAZA-66,WEB-CE-B17,CAND-B17-JORGE-ICAZA-66,V1-ENT-0366,create,"B17 fresh-context Reviewer PASS (LUNA-MAX-B17-REVIEW, 2026-08-22); source/evidence and migration replay verified"
+V1-EMAP-0367,CAND-B17-RÓMULO-GALLEGOS-67,WEB-CE-B17,CAND-B17-RÓMULO-GALLEGOS-67,V1-ENT-0367,create,"B17 fresh-context Reviewer PASS (LUNA-MAX-B17-REVIEW, 2026-08-22); source/evidence and migration replay verified"
+V1-EMAP-0368,CAND-B17-RÓMULO-GALLEGOS-68,WEB-CE-B17,CAND-B17-RÓMULO-GALLEGOS-68,V1-ENT-0368,create,"B17 fresh-context Reviewer PASS (LUNA-MAX-B17-REVIEW, 2026-08-22); source/evidence and migration replay verified"
+V1-EMAP-0369,CAND-B17-RÓMULO-GALLEGOS-69,WEB-CE-B17,CAND-B17-RÓMULO-GALLEGOS-69,V1-ENT-0369,create,"B17 fresh-context Reviewer PASS (LUNA-MAX-B17-REVIEW, 2026-08-22); source/evidence and migration replay verified"

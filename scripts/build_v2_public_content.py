@@ -33,6 +33,26 @@ B02_B05_PLACE_BATCHES = {
     "V1-ENT-0210": "WEB-CE-B04",
 }
 
+LOW_VALUE_CURATION_PATTERNS = (
+    "先确认原文题名和年份",
+    "先确认原文题名与年份",
+    "从官方书目进入",
+    "先从官方书目确认",
+    "作品时间线如何帮助",
+    "一本作品如何从书目记录进入文学地图",
+    "主题留待后续研究",
+    "主题留待后续来源",
+    "主题与人物关系留待",
+    "社会主题留待来源",
+    "按书目事实进入",
+    "书目事实进入",
+)
+JUDGMENT_FIELDS = {
+    "authors": {"why_know", "reader_fit", "reading_route", "guiding_question"},
+    "works": {"why_read", "theme_explanations", "reading_tips", "reading_approach", "guiding_question", "next_reads"},
+    "places": {"literary_intro", "spatial_meaning", "reader_path", "exploration_route"},
+}
+
 
 def field(content, research, sources, status="user_review", note="新增长篇公共文案，等待 USER 集中审核", reviewer="UNREVIEWED"):
     research = [item for item in research if item not in {"V1-FCT-0218", "V1-FCT-0231", "V1-FCT-0238"}]
@@ -58,6 +78,36 @@ def feature(title, text):
 
 def next_read(target_id, reason):
     return {"target_id": target_id, "reason": reason}
+
+
+def flatten_text(value):
+    if isinstance(value, str):
+        return value
+    if isinstance(value, list):
+        return " ".join(flatten_text(item) for item in value)
+    if isinstance(value, dict):
+        return " ".join(flatten_text(item) for item in value.values())
+    return ""
+
+
+def downgrade_low_value_curation(payload):
+    """Hold template-like literary advice while preserving historical batch inputs."""
+    for group, field_names in JUDGMENT_FIELDS.items():
+        for record in payload[group]:
+            for field_name in field_names:
+                wrapped = record.get(field_name)
+                if not isinstance(wrapped, dict) or wrapped.get("reviewer") == "USER":
+                    continue
+                content = flatten_text(wrapped.get("content"))
+                if not any(pattern in content for pattern in LOW_VALUE_CURATION_PATTERNS):
+                    continue
+                wrapped["status"] = "hold"
+                wrapped["reviewer"] = "CODEX-REVIEW"
+                wrapped["reviewed_at"] = None
+                wrapped["basis_note"] = (
+                    "Web 0.2.0 consolidation: low-value template wording withheld; "
+                    "retain only the research-basic page until work-level evidence supports literary guidance"
+                )
 
 
 AUTHORS = [
@@ -834,6 +884,7 @@ def build():
                     raise ValueError(f"duplicate curation extension target: {target_id}")
                 seen[group].add(target_id)
                 payload[group].append(record)
+    downgrade_low_value_curation(payload)
     return payload
 
 

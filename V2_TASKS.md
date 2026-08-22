@@ -12,13 +12,13 @@
 ## 当前执行摘要
 
 - **当前阶段**：V2 网站建设阶段 / Web 0.x 持续内容建设期
-- **当前 Web 版本**：`Web 0.1.0`
+- **当前 Web 版本**：`Web 0.2.0 — DEVELOPMENT BASELINE`
 - **当前产品状态**：`DEVELOPMENT BASELINE`
 - **Public Release**：`PAUSED BY USER`
-- **当前任务**：`WEB-CONTENT-EXPANSION` Research Database Expansion
-- **下一任务**：按 Research → Research Review → SQLite → Curation → Web Data → Frontend 流程扩充研究数据库与策展内容
+- **当前任务**：`WEB-CONTENT-DEEPENING`
+- **下一任务**：WCD-01 Global Curation Triage
 - **需要 USER**：无需为合并开发基线立即审核全部 `user_review`；未来 Public Build 仍须排除未批准策展内容
-- **最近完成**：`WEB-0.1-BASELINE`；rc.1—rc.5 作为 Web 0.1.0 形成前的历史开发候选保留
+- **最近完成**：`WEB-CONTENT-EXPANSION` B01—B17；rc.1—rc.5 与 Web 0.1.0 均作为历史开发记录保留
 
 ## 任务状态规则
 
@@ -445,27 +445,30 @@
 - **发布边界**：未修改研究事实、既有文学关系、虚构空间坐标规则、`PROJECT_CHARTER.md`、Web 0.1.0 开发基线或 `V2-PUBLIC-RELEASE = PAUSED`；不创建 tag、Release 或 production deployment。
 - **状态**：`✅ DONE`
 
-### 🔵 WEB-CONTENT-EXPANSION：研究数据库与策展内容持续扩张
+### ✅ WEB-CONTENT-EXPANSION：研究数据库与策展内容持续扩张
 
 - **目标**：以 Research Data 增长驱动网页覆盖、内容密度与策展路径增长，不以在前端手写研究事实弥补数据库不足。
 - **固定流程**：Research → Research Review → SQLite → Curation → Web Data → Frontend。
 - **版本规则**：`Web 0.1.x` 用于小型内容批次、UI 修复、文案优化与小范围策展增强；出现多个新国家/地区、大量新作家作品或新一批成熟专题路径时升级为 `Web 0.2.0`，后续依此演进。
 - **发布边界**：`V2-PUBLIC-RELEASE = PAUSED`；Lighthouse、Manifest、GitHub Pages、GitHub Release 与 production deployment 门禁保留，但不是当前主任务。`Web 1.0.0` 只能由 USER 明确开启并批准 Public Release Gate 后使用。
-- **状态**：`🔵 IN_PROGRESS`
-
-#### ✅ WEB-CE-B01-R1：Carlos Fuentes 极小批次
-
-- **范围**：1 位作者、2 部作品、14 条事实、2 条 `CREATED` 关系；不改 Geo、Curation、PUBLIC_CONTENT、Schema 或 Frontend。
-- **研究门禁**：独立 Reviewer 最终判定来源 7/7、事实 14/14、关系 2/2、中文书目审计 2/2 PASS；《阿尔特米奥·克罗斯之死》中文版本出版年份保持字段级 HOLD。
-- **数据结果**：迁移 `0003_web_ce_b01_r1_fuentes.sql` 已在副本演练后写入主库；`integrity_check=ok`，`foreign_key_errors=0`。
-- **本地验证**：主库、内容质量、隔离 Web Data 确定性重建、前端语法、差异检查、同一 user-review preview 以及 Chromium 桌面/移动端回归 26/26 PASS。
-- **GitHub Actions**：PR #8 首轮 required checks 全部 `SUCCESS`：`development-baseline-integrity`、`web-pr-browser-smoke`。
-- **完成结果**：研究、独立复核、副本演练、正式迁移、Web Data 最小投影、本地 PR 同构验证和 GitHub PR CI 闭环完成；PR 保持 OPEN，等待 USER。
 - **状态**：`✅ DONE`
+- **完成结果**：B01—B17 全部完成；形成 61 位计划作者、168 部作品/合集，当前 master 为 367 entities、998 facts、293 relationships、278 sources、255 content cards。Research / Geo / Curation / Web Data 已形成稳定开发基线。
+- **审计入口**：`SOL_REVIEW_B01-B17_PR.md`、`SOL_AUDIT_B02-B05.md`、`SOL_AUDIT_B06-B10.md`、`SOL_AUDIT_B11-B15.md`、`SOL_AUDIT_B16-B17.md`。
+- **整改结论**：多轮 Sol audit 与 corrective migrations 已完成；migration chain 保持 append-only；当前无 unresolved P0。
+- **版本结果**：Web Product 升级为 `Web 0.2.0 — Development Baseline`；Research 全量数据使用 `Data 1.2.0 candidate` 表示，不构成正式 Release。
+
+### 🔵 WEB-CONTENT-DEEPENING：文学空间、关系与策展纵向深化
+
+- **目标**：在现有 61 位作者 / 168 部作品基础上，从横向扩大作家数量转向纵向深化文学空间、研究关系、策展质量与中文读者入口；不创建 Batch 18。
+- **WCD-01 Global Curation Triage**：按事实强度与证据可回溯性分层审核；低判断、机械转写可进入 `auto_approved`，why_read、reader_fit、reading_route、next_read、跨作品比较与推荐继续 `user_review`。
+- **WCD-02 Literary Space & Relationship Deepening**：暂停大规模新增作者，优先补城市、地区、文学发生地、虚构空间及 author/work → place、movement、event、theme 等有证据关系；虚构空间继续禁止现实坐标。
+- **WCD-03 Chinese Display Name Consolidation**：全局核对 original title、Chinese display title 与 `display_name_status`；不把译者、出版社、中文出版年和 ISBN 作为本轮必填。
+- **WCD-04 Coverage Rebalancing**：分析国家、加勒比、中美洲、安第斯、女性作家/诗人、诗歌、戏剧、散文及地方文学空间覆盖，只建立优先级，本轮不立即新增作者。
+- **状态**：`🔵 IN_PROGRESS`
 
 ## 当前执行边界
 
-- 当前处于 V2 网站建设阶段 / Web 0.x 内容建设期；`WEB-CONTENT-EXPANSION` 是当前任务。
+- 当前处于 V2 网站建设阶段 / Web 0.x 内容建设期；`WEB-CONTENT-DEEPENING` 是当前任务。
 - `V2-PUBLIC-RELEASE = PAUSED`；不创建 Web 1.0.0 tag、GitHub Release，不执行 production Pages 部署，不发布或宣传正式公开 URL。
 - 不提前开发复杂知识图谱、3D 地图、用户系统、AI 问答、CMS、小程序、多语言或个性化推荐。
 - 不在前端硬编码研究事实，不用策展写作补造研究事实，不为虚构空间伪造现实坐标。

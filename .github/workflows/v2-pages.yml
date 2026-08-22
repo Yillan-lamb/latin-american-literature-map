@@ -37,7 +37,7 @@ jobs:
       - name: Rebuild deterministic Web Data and validate inputs
         run: |
           python3 scripts/validate_master.py data/master/V1_MASTER.sqlite
-          python3 scripts/build_v2_web_data.py --generated-at 2026-08-13T00:00:00Z
+          python3 scripts/build_v2_web_data.py --generated-at 2026-08-22T12:00:00Z
           python3 scripts/validate_v2_web_data.py
           git diff --exit-code -- data/v2/web/site_data.json data/v2/web/manifest.json
       - name: Build the only deployment directory

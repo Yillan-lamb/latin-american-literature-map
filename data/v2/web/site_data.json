@@ -37223,7 +37223,7 @@
       }
     ]
   },
-  "product_version": "0.1.0",
+  "product_version": "0.2.0",
   "public_content": {
     "authors": [
       {
@@ -40187,7 +40187,8 @@
             "V1-REL-0187",
             "V1-REL-0197",
             "V1-REL-0198",
-            "V1-REL-0259"
+            "V1-REL-0259",
+            "V1-REL-0282"
           ],
           "reviewed_at": "2026-08-14",
           "reviewer": "USER",
@@ -40209,7 +40210,8 @@
             "V1-REL-0187",
             "V1-REL-0197",
             "V1-REL-0198",
-            "V1-REL-0259"
+            "V1-REL-0259",
+            "V1-REL-0282"
           ],
           "reviewed_at": "2026-08-14",
           "reviewer": "USER",
@@ -40231,7 +40233,8 @@
             "V1-REL-0187",
             "V1-REL-0197",
             "V1-REL-0198",
-            "V1-REL-0259"
+            "V1-REL-0259",
+            "V1-REL-0282"
           ],
           "reviewed_at": "2026-08-14",
           "reviewer": "USER",
@@ -40253,7 +40256,8 @@
             "V1-REL-0187",
             "V1-REL-0197",
             "V1-REL-0198",
-            "V1-REL-0259"
+            "V1-REL-0259",
+            "V1-REL-0282"
           ],
           "reviewed_at": "2026-08-14",
           "reviewer": "USER",
@@ -40844,7 +40848,8 @@
             "V1-REL-0125",
             "V1-REL-0173",
             "V1-REL-0199",
-            "V1-REL-0235"
+            "V1-REL-0235",
+            "V1-REL-0281"
           ],
           "reviewed_at": "2026-08-14",
           "reviewer": "USER",
@@ -40864,7 +40869,8 @@
             "V1-REL-0125",
             "V1-REL-0173",
             "V1-REL-0199",
-            "V1-REL-0235"
+            "V1-REL-0235",
+            "V1-REL-0281"
           ],
           "reviewed_at": "2026-08-14",
           "reviewer": "USER",
@@ -40884,7 +40890,8 @@
             "V1-REL-0125",
             "V1-REL-0173",
             "V1-REL-0199",
-            "V1-REL-0235"
+            "V1-REL-0235",
+            "V1-REL-0281"
           ],
           "reviewed_at": "2026-08-14",
           "reviewer": "USER",
@@ -40904,7 +40911,8 @@
             "V1-REL-0125",
             "V1-REL-0173",
             "V1-REL-0199",
-            "V1-REL-0235"
+            "V1-REL-0235",
+            "V1-REL-0281"
           ],
           "reviewed_at": "2026-08-14",
           "reviewer": "USER",
@@ -50026,7 +50034,7 @@
           "status": "user_review"
         },
         "guiding_question": {
-          "basis_note": "WEB-CE-B03 新增策展文案，待 Sol/USER 集中审核",
+          "basis_note": "Web 0.2.0 consolidation: low-value template wording withheld; retain only the research-basic page until work-level evidence supports literary guidance",
           "content": "一条作品时间线如何帮助读者安排对同一作家的首次阅读？",
           "created_at": "2026-08-20",
           "research_refs": [
@@ -50040,14 +50048,14 @@
             "V1-REL-0125"
           ],
           "reviewed_at": null,
-          "reviewer": "UNREVIEWED",
+          "reviewer": "CODEX-REVIEW",
           "source_refs": [
             "SRC-0144",
             "SRC-0145",
             "SRC-0146",
             "SRC-0147"
           ],
-          "status": "user_review"
+          "status": "hold"
         },
         "literary_connections": {
           "basis_note": "不得从未审核入门排序派生自动关系",
@@ -50531,7 +50539,7 @@
           "status": "user_review"
         },
         "guiding_question": {
-          "basis_note": "WEB-CE-B04 新增策展文案，待 Sol/USER 集中审核",
+          "basis_note": "Web 0.2.0 consolidation: low-value template wording withheld; retain only the research-basic page until work-level evidence supports literary guidance",
           "content": "幻想小说的作品时间线如何帮助读者进入一位作家的不同阶段？",
           "created_at": "2026-08-20",
           "research_refs": [
@@ -50546,12 +50554,12 @@
             "V1-REL-0137"
           ],
           "reviewed_at": null,
-          "reviewer": "UNREVIEWED",
+          "reviewer": "CODEX-REVIEW",
           "source_refs": [
             "SRC-0153",
             "SRC-0154"
           ],
-          "status": "user_review"
+          "status": "hold"
         },
         "literary_connections": {
           "basis_note": "不得从未审核入门排序派生自动关系",
@@ -51273,7 +51281,7 @@
           "status": "user_review"
         },
         "guiding_question": {
-          "basis_note": "WEB-CE-B05 新增策展文案，待 Sol/USER 集中审核",
+          "basis_note": "Web 0.2.0 consolidation: low-value template wording withheld; retain only the research-basic page until work-level evidence supports literary guidance",
           "content": "一条作品时间线如何帮助读者进入同一位作家的不同小说形式？",
           "created_at": "2026-08-20",
           "research_refs": [
@@ -51288,13 +51296,13 @@
             "V1-REL-0149"
           ],
           "reviewed_at": null,
-          "reviewer": "UNREVIEWED",
+          "reviewer": "CODEX-REVIEW",
           "source_refs": [
             "SRC-0165",
             "SRC-0166",
             "SRC-0167"
           ],
-          "status": "user_review"
+          "status": "hold"
         },
         "literary_connections": {
           "basis_note": "不得从未审核入门排序派生自动关系",
@@ -54829,18 +54837,20 @@
         },
         "target_id": "V1-ENT-0284",
         "why_know": {
+          "basis_note": "Web 0.2.0 consolidation: low-value template wording withheld; retain only the research-basic page until work-level evidence supports literary guidance",
           "content": "普伊格的三部小说把作者的作品目录、出版年代与读者熟悉的中文入口连在一起，适合先从书目事实进入，再等待更细的阅读说明。",
           "research_refs": [
             "V1-FCT-0740",
             "V1-FCT-0744",
             "V1-FCT-0748"
           ],
-          "reviewer": "UNREVIEWED",
+          "reviewed_at": null,
+          "reviewer": "CODEX-REVIEW",
           "source_refs": [
             "SRC-0225",
             "SRC-0226"
           ],
-          "status": "user_review"
+          "status": "hold"
         }
       },
       {
@@ -55270,18 +55280,20 @@
         },
         "target_id": "V1-ENT-0296",
         "why_know": {
+          "basis_note": "Web 0.2.0 consolidation: low-value template wording withheld; retain only the research-basic page until work-level evidence supports literary guidance",
           "content": "先从《救援距离》、《口中之鸟》、《七座空屋》的书目事实进入，再把更强的风格或文学史判断留在审核层。《救援距离》的版权年与首版年份仍分开记录，另两部故事集的首版年份留在 gap 台账。",
           "research_refs": [
             "V1-FCT-0786",
             "V1-FCT-0787",
             "V1-FCT-0788"
           ],
-          "reviewer": "UNREVIEWED",
+          "reviewed_at": null,
+          "reviewer": "CODEX-REVIEW",
           "source_refs": [
             "SRC-0231",
             "SRC-0232"
           ],
-          "status": "user_review"
+          "status": "hold"
         }
       },
       {
@@ -55435,20 +55447,22 @@
         },
         "target_id": "V1-ENT-0297",
         "why_know": {
+          "basis_note": "Web 0.2.0 consolidation: low-value template wording withheld; retain only the research-basic page until work-level evidence supports literary guidance",
           "content": "先从《我们在火中失去的东西》、《我们的夜晚》、《床上吸烟的危险》的书目事实进入，再把更强的风格或文学史判断留在审核层。《我们在火中失去的东西》有 2016 年出版记录，《我们的夜晚》则只保留 2019 年奖项字段。",
           "research_refs": [
             "V1-FCT-0789",
             "V1-FCT-0790",
             "V1-FCT-0791"
           ],
-          "reviewer": "UNREVIEWED",
+          "reviewed_at": null,
+          "reviewer": "CODEX-REVIEW",
           "source_refs": [
             "SRC-0235",
             "SRC-0236",
             "SRC-0237",
             "SRC-0238"
           ],
-          "status": "user_review"
+          "status": "hold"
         }
       },
       {
@@ -55586,18 +55600,20 @@
         },
         "target_id": "V1-ENT-0298",
         "why_know": {
+          "basis_note": "Web 0.2.0 consolidation: low-value template wording withheld; retain only the research-basic page until work-level evidence supports literary guidance",
           "content": "先从《盆栽》、《树木的私生活》、《回家的方式》的书目事实进入，再把更强的风格或文学史判断留在审核层。三部作品的 2006、2007、2011 年份由 Anagrama 和 Mapocho 文章交叉支持。",
           "research_refs": [
             "V1-FCT-0792",
             "V1-FCT-0793",
             "V1-FCT-0794"
           ],
-          "reviewer": "UNREVIEWED",
+          "reviewed_at": null,
+          "reviewer": "CODEX-REVIEW",
           "source_refs": [
             "SRC-0239",
             "SRC-0240"
           ],
-          "status": "user_review"
+          "status": "hold"
         }
       },
       {
@@ -56257,7 +56273,7 @@
           "content": [
             "先从 1967 年《三只忧伤的老虎》开始",
             "再查看 1974 年作品的题名与年份",
-            "最后回到 1979 年《哈瓦那，一个早夭婴儿的回忆》"
+            "最后回到 1979 年《热带黎明景观》"
           ],
           "research_refs": [
             "V1-FCT-0871",
@@ -56673,7 +56689,7 @@
         },
         "guiding_question": {
           "basis_note": "引导问题为策展候选",
-          "content": "为什么要把来源支持的 1986 年记录与尚未定位的 1985 年线索分开处理？",
+          "content": "当不同目录给出 1985 或 1986 时，读者怎样在不夸大确定性的情况下进入萨埃尔的作品序列？",
           "created_at": "2026-08-21",
           "research_refs": [
             "V1-FCT-0912",
@@ -56807,7 +56823,7 @@
         "target_id": "V1-ENT-0333",
         "why_know": {
           "basis_note": "策展文案不增加客观主义等文学史标签",
-          "content": "《皇家柠檬树》《继子》和《格洛萨》提供一条可回查的阿根廷小说书目线；未核实的年份线索不与正式记录混同。",
+          "content": "《皇家柠檬树》《继子》和《格洛萨》提供一条可回查的阿根廷小说书目线；年份差异不被静默抹平。",
           "created_at": "2026-08-21",
           "research_refs": [
             "V1-FCT-0906",
@@ -57045,7 +57061,7 @@
           "content": [
             "三部作品的体裁分别为：小说, 儿童小说, 旅行叙事",
             "书目节点：first_book_edition_year=1989、1996、1994",
-            "原文题名与已出版中文书名并列"
+            "原文题名与中文暂译并列"
           ],
           "created_at": "2026-08-22",
           "research_refs": [
@@ -57063,7 +57079,7 @@
         },
         "reader_fit": {
           "basis_note": "策展文案待 USER 审核",
-          "content": "如果你想从智利作者进入小说与旅行叙事的交界，这组三部作品提供了一个区分初版与后续版本的时间入口。",
+          "content": "如果你想从智利作者进入小说与旅行叙事的交界，这组三部作品提供了一个保留版本差异的时间入口。",
           "created_at": "2026-08-22",
           "research_refs": [
             "V1-FCT-0926",
@@ -57080,7 +57096,7 @@
         },
         "reader_lede": {
           "basis_note": "仅依据正式 Research 投影，策展判断待 USER 审核",
-          "content": "路易斯·塞普尔维达的作者入口从智利身份出发，把小说、儿童小说与旅行叙事三个书目节点并置；中文书名只是读者入口，西文题名始终作为实体锚点。",
+          "content": "路易斯·塞普尔韦达的作者入口从智利身份出发，把小说、儿童小说与旅行叙事三个书目节点并置；中文书名只是读者入口，西文题名始终作为实体锚点。",
           "created_at": "2026-08-22",
           "research_refs": [
             "V1-FCT-0926",
@@ -57098,9 +57114,9 @@
         "reading_route": {
           "basis_note": "阅读路线未获 USER 批准",
           "content": [
-            "先定位《读爱情故事的老人》（Un viejo que leía novelas de amor）",
-            "先定位《教海鸥飞翔的猫》（Historia de una gaviota y del gato que le enseñó a volar）",
-            "先定位《世界尽头的世界》（Mundo del fin del mundo）"
+            "先定位《一个老人读爱情小说》（Un viejo que leía novelas de amor）",
+            "先定位《一只海鸥和教它飞翔的猫》（Historia de una gaviota y del gato que le enseñó a volar）",
+            "先定位《世界尽头》（Mundo del fin del mundo）"
           ],
           "created_at": "2026-08-22",
           "research_refs": [
@@ -57140,9 +57156,9 @@
         "start_here": {
           "basis_note": "阅读顺序是策展候选，不是 USER 已批准推荐",
           "content": [
-            "《读爱情故事的老人》",
-            "《教海鸥飞翔的猫》",
-            "《世界尽头的世界》"
+            "《一个老人读爱情小说》",
+            "《一只海鸥和教它飞翔的猫》",
+            "《世界尽头》"
           ],
           "created_at": "2026-08-22",
           "research_refs": [
@@ -57161,7 +57177,7 @@
         "target_id": "V1-ENT-0344",
         "why_know": {
           "basis_note": "策展文案不增加 Research 未支持的影响或运动判断",
-          "content": "从《读爱情故事的老人》的版本锚点，到 1994 与 1996 年的后续书目，塞普尔韦达的三个节点让读者先按形式和年份回查，而不必先接受文学史标签。",
+          "content": "从《一个老人读爱情小说》的版本锚点，到 1994 与 1996 年的后续书目，塞普尔韦达的三个节点让读者先按形式和年份回查，而不必先接受文学史标签。",
           "created_at": "2026-08-22",
           "research_refs": [
             "V1-FCT-0926",
@@ -57219,7 +57235,7 @@
           "content": [
             "三部作品的体裁分别为：小说, 短篇小说集, 短篇小说集",
             "书目节点：2020、2013、2008",
-            "原文题名与已出版中文书名并列"
+            "原文题名与中文暂译并列"
           ],
           "created_at": "2026-08-22",
           "research_refs": [
@@ -57252,7 +57268,7 @@
         },
         "reader_lede": {
           "basis_note": "仅依据正式 Research 投影，策展判断待 USER 审核",
-          "content": "瓜达卢佩·内特尔的作者入口连接墨西哥身份、小说与短篇小说集；三部作品采用已出版中文书名，西文题名继续保留为研究锚点。",
+          "content": "瓜达卢佩·内特尔的作者入口连接墨西哥身份、小说与短篇小说集；《真正的孤独》只作为中文暂译，三个西文题名分别保留为研究锚点。",
           "created_at": "2026-08-22",
           "research_refs": [
             "V1-FCT-0938",
@@ -57547,7 +57563,7 @@
         },
         "guiding_question": {
           "basis_note": "引导问题为策展候选",
-          "content": "如何把三种书目形式放在同一入口，同时让 1918 年出生记录及其来源沿革保持可回查？",
+          "content": "如何把三种书目形式放在同一入口，同时保留出生年份的证据差异？",
           "created_at": "2026-08-22",
           "research_refs": [
             "V1-FCT-0962",
@@ -57611,7 +57627,7 @@
         },
         "reader_lede": {
           "basis_note": "仅依据正式 Research 投影，策展判断待 USER 审核",
-          "content": "莉吉娅·法贡德斯·特莱斯的巴西作者入口把 1954 年小说、1970 年短篇小说集和 1973 年小说并列；民事登记与巴西国家图书馆权威记录将出生年确认为 1918。",
+          "content": "莉吉娅·法贡德斯·特莱斯的巴西作者入口把 1954 年小说、1970 年短篇小说集和 1973 年小说并列；出生年份的两条权威记录仍保留为待核对差异。",
           "created_at": "2026-08-22",
           "research_refs": [
             "V1-FCT-0962",
@@ -57705,7 +57721,7 @@
         "target_id": "V1-ENT-0358",
         "why_know": {
           "basis_note": "策展文案不增加 Research 未支持的影响或运动判断",
-          "content": "先按年份和形式回查三部葡语书目，可以同时看见作者入口的范围与资料边界；旧有 1923 年记录作为来源沿革保留，不再作为并列候选。",
+          "content": "先按年份和形式回查三部葡语书目，可以同时看见作者入口的范围与资料边界，而不把尚未解决的出生年份差异遮掉。",
           "created_at": "2026-08-22",
           "research_refs": [
             "V1-FCT-0962",
@@ -58129,16 +58145,16 @@
           "status": "user_review"
         },
         "literary_intro": {
-          "basis_note": "WEB-CE-B02 新增地点策展文案，未获 USER 批准",
+          "basis_note": "Web 0.2.0 consolidation: low-value template wording withheld; retain only the research-basic page until work-level evidence supports literary guidance",
           "content": "危地马拉国家入口新增阿斯图里亚斯及其三部作品，先从官方书目进入，再决定是否补充具体文学地点。",
           "created_at": "2026-08-20",
           "research_refs": [
             "V1-REL-0112"
           ],
           "reviewed_at": null,
-          "reviewer": "UNREVIEWED",
+          "reviewer": "CODEX-REVIEW",
           "source_refs": [],
-          "status": "user_review"
+          "status": "hold"
         },
         "reader_path": {
           "basis_note": "WEB-CE-B02 新增地点策展文案，未获 USER 批准",
@@ -58177,7 +58193,8 @@
             "V1-REL-0150",
             "V1-REL-0151",
             "V1-REL-0245",
-            "V1-REL-0246"
+            "V1-REL-0246",
+            "V1-REL-0293"
           ],
           "reviewed_at": null,
           "reviewer": "UNREVIEWED",
@@ -58199,7 +58216,8 @@
             "V1-REL-0150",
             "V1-REL-0151",
             "V1-REL-0245",
-            "V1-REL-0246"
+            "V1-REL-0246",
+            "V1-REL-0293"
           ],
           "reviewed_at": null,
           "reviewer": "UNREVIEWED",
@@ -58221,7 +58239,8 @@
             "V1-REL-0150",
             "V1-REL-0151",
             "V1-REL-0245",
-            "V1-REL-0246"
+            "V1-REL-0246",
+            "V1-REL-0293"
           ],
           "reviewed_at": null,
           "reviewer": "UNREVIEWED",
@@ -58243,7 +58262,8 @@
             "V1-REL-0150",
             "V1-REL-0151",
             "V1-REL-0245",
-            "V1-REL-0246"
+            "V1-REL-0246",
+            "V1-REL-0293"
           ],
           "reviewed_at": null,
           "reviewer": "UNREVIEWED",
@@ -58266,7 +58286,8 @@
             "V1-REL-0124",
             "V1-REL-0139",
             "V1-REL-0175",
-            "V1-REL-0209"
+            "V1-REL-0209",
+            "V1-REL-0283"
           ],
           "reviewed_at": null,
           "reviewer": "UNREVIEWED",
@@ -58283,7 +58304,8 @@
             "V1-REL-0124",
             "V1-REL-0139",
             "V1-REL-0175",
-            "V1-REL-0209"
+            "V1-REL-0209",
+            "V1-REL-0283"
           ],
           "reviewed_at": null,
           "reviewer": "UNREVIEWED",
@@ -58300,7 +58322,8 @@
             "V1-REL-0124",
             "V1-REL-0139",
             "V1-REL-0175",
-            "V1-REL-0209"
+            "V1-REL-0209",
+            "V1-REL-0283"
           ],
           "reviewed_at": null,
           "reviewer": "UNREVIEWED",
@@ -58317,7 +58340,8 @@
             "V1-REL-0124",
             "V1-REL-0139",
             "V1-REL-0175",
-            "V1-REL-0209"
+            "V1-REL-0209",
+            "V1-REL-0283"
           ],
           "reviewed_at": null,
           "reviewer": "UNREVIEWED",
@@ -61331,7 +61355,7 @@
           "status": "user_review"
         },
         "reading_approach": {
-          "basis_note": "WEB-CE-B02 新增策展文案，待 Sol/USER 集中审核",
+          "basis_note": "Web 0.2.0 consolidation: low-value template wording withheld; retain only the research-basic page until work-level evidence supports literary guidance",
           "content": "先按书目事实进入，不预设文学史结论；读完后再回看作品标题与官方资料对其出版位置的说明。",
           "created_at": "2026-08-20",
           "research_refs": [
@@ -61341,11 +61365,11 @@
             "V1-REL-0103"
           ],
           "reviewed_at": null,
-          "reviewer": "UNREVIEWED",
+          "reviewer": "CODEX-REVIEW",
           "source_refs": [
             "SRC-0130"
           ],
-          "status": "user_review"
+          "status": "hold"
         },
         "reading_premise": {
           "basis_note": "WEB-CE-B02 新增策展文案，待 Sol/USER 集中审核",
@@ -61365,7 +61389,7 @@
           "status": "user_review"
         },
         "reading_tips": {
-          "basis_note": "WEB-CE-B02 新增策展文案，待 Sol/USER 集中审核",
+          "basis_note": "Web 0.2.0 consolidation: low-value template wording withheld; retain only the research-basic page until work-level evidence supports literary guidance",
           "content": "先按书目事实进入，不预设文学史结论；读完后再回看作品标题与官方资料对其出版位置的说明。",
           "created_at": "2026-08-20",
           "research_refs": [
@@ -61375,11 +61399,11 @@
             "V1-REL-0103"
           ],
           "reviewed_at": null,
-          "reviewer": "UNREVIEWED",
+          "reviewer": "CODEX-REVIEW",
           "source_refs": [
             "SRC-0130"
           ],
-          "status": "user_review"
+          "status": "hold"
         },
         "target_id": "V1-ENT-0173",
         "theme_explanations": {
@@ -61493,7 +61517,7 @@
           "status": "user_review"
         },
         "reading_approach": {
-          "basis_note": "WEB-CE-B02 新增策展文案，待 Sol/USER 集中审核",
+          "basis_note": "Web 0.2.0 consolidation: low-value template wording withheld; retain only the research-basic page until work-level evidence supports literary guidance",
           "content": "先确认原文题名与年份，再进入作品本身；主题与人物关系留待正式研究材料补充。",
           "created_at": "2026-08-20",
           "research_refs": [
@@ -61503,11 +61527,11 @@
             "V1-REL-0104"
           ],
           "reviewed_at": null,
-          "reviewer": "UNREVIEWED",
+          "reviewer": "CODEX-REVIEW",
           "source_refs": [
             "SRC-0132"
           ],
-          "status": "user_review"
+          "status": "hold"
         },
         "reading_premise": {
           "basis_note": "WEB-CE-B02 新增策展文案，待 Sol/USER 集中审核",
@@ -61527,7 +61551,7 @@
           "status": "user_review"
         },
         "reading_tips": {
-          "basis_note": "WEB-CE-B02 新增策展文案，待 Sol/USER 集中审核",
+          "basis_note": "Web 0.2.0 consolidation: low-value template wording withheld; retain only the research-basic page until work-level evidence supports literary guidance",
           "content": "先确认原文题名与年份，再进入作品本身；主题与人物关系留待正式研究材料补充。",
           "created_at": "2026-08-20",
           "research_refs": [
@@ -61537,11 +61561,11 @@
             "V1-REL-0104"
           ],
           "reviewed_at": null,
-          "reviewer": "UNREVIEWED",
+          "reviewer": "CODEX-REVIEW",
           "source_refs": [
             "SRC-0132"
           ],
-          "status": "user_review"
+          "status": "hold"
         },
         "target_id": "V1-ENT-0174",
         "theme_explanations": {
@@ -61927,7 +61951,7 @@
       },
       {
         "guiding_question": {
-          "basis_note": "WEB-CE-B02 新增策展文案，待 Sol/USER 集中审核",
+          "basis_note": "Web 0.2.0 consolidation: low-value template wording withheld; retain only the research-basic page until work-level evidence supports literary guidance",
           "content": "作品时间线如何帮助你安排阅读顺序？",
           "created_at": "2026-08-20",
           "research_refs": [
@@ -61937,12 +61961,12 @@
             "V1-REL-0107"
           ],
           "reviewed_at": null,
-          "reviewer": "UNREVIEWED",
+          "reviewer": "CODEX-REVIEW",
           "source_refs": [
             "SRC-0134",
             "SRC-0136"
           ],
-          "status": "user_review"
+          "status": "hold"
         },
         "literary_significance": {
           "basis_note": "WEB-CE-B02 新增策展文案，待 Sol/USER 集中审核",
@@ -62327,7 +62351,7 @@
           "status": "user_review"
         },
         "reading_approach": {
-          "basis_note": "WEB-CE-B02 新增策展文案，待 Sol/USER 集中审核",
+          "basis_note": "Web 0.2.0 consolidation: low-value template wording withheld; retain only the research-basic page until work-level evidence supports literary guidance",
           "content": "先从官方书目确认 1966 年版本，再进入具体阅读；不要把电影或改编信息当作原作事实。",
           "created_at": "2026-08-20",
           "research_refs": [
@@ -62337,11 +62361,11 @@
             "V1-REL-0109"
           ],
           "reviewed_at": null,
-          "reviewer": "UNREVIEWED",
+          "reviewer": "CODEX-REVIEW",
           "source_refs": [
             "SRC-0139"
           ],
-          "status": "user_review"
+          "status": "hold"
         },
         "reading_premise": {
           "basis_note": "WEB-CE-B02 新增策展文案，待 Sol/USER 集中审核",
@@ -62361,7 +62385,7 @@
           "status": "user_review"
         },
         "reading_tips": {
-          "basis_note": "WEB-CE-B02 新增策展文案，待 Sol/USER 集中审核",
+          "basis_note": "Web 0.2.0 consolidation: low-value template wording withheld; retain only the research-basic page until work-level evidence supports literary guidance",
           "content": "先从官方书目确认 1966 年版本，再进入具体阅读；不要把电影或改编信息当作原作事实。",
           "created_at": "2026-08-20",
           "research_refs": [
@@ -62371,11 +62395,11 @@
             "V1-REL-0109"
           ],
           "reviewed_at": null,
-          "reviewer": "UNREVIEWED",
+          "reviewer": "CODEX-REVIEW",
           "source_refs": [
             "SRC-0139"
           ],
-          "status": "user_review"
+          "status": "hold"
         },
         "target_id": "V1-ENT-0179",
         "theme_explanations": {
@@ -62489,7 +62513,7 @@
           "status": "user_review"
         },
         "reading_approach": {
-          "basis_note": "WEB-CE-B02 新增策展文案，待 Sol/USER 集中审核",
+          "basis_note": "Web 0.2.0 consolidation: low-value template wording withheld; retain only the research-basic page until work-level evidence supports literary guidance",
           "content": "先从官方书目确认 1958 年版本，再进入作品；社会主题留待来源审阅。",
           "created_at": "2026-08-20",
           "research_refs": [
@@ -62499,11 +62523,11 @@
             "V1-REL-0110"
           ],
           "reviewed_at": null,
-          "reviewer": "UNREVIEWED",
+          "reviewer": "CODEX-REVIEW",
           "source_refs": [
             "SRC-0139"
           ],
-          "status": "user_review"
+          "status": "hold"
         },
         "reading_premise": {
           "basis_note": "WEB-CE-B02 新增策展文案，待 Sol/USER 集中审核",
@@ -62523,7 +62547,7 @@
           "status": "user_review"
         },
         "reading_tips": {
-          "basis_note": "WEB-CE-B02 新增策展文案，待 Sol/USER 集中审核",
+          "basis_note": "Web 0.2.0 consolidation: low-value template wording withheld; retain only the research-basic page until work-level evidence supports literary guidance",
           "content": "先从官方书目确认 1958 年版本，再进入作品；社会主题留待来源审阅。",
           "created_at": "2026-08-20",
           "research_refs": [
@@ -62533,11 +62557,11 @@
             "V1-REL-0110"
           ],
           "reviewed_at": null,
-          "reviewer": "UNREVIEWED",
+          "reviewer": "CODEX-REVIEW",
           "source_refs": [
             "SRC-0139"
           ],
-          "status": "user_review"
+          "status": "hold"
         },
         "target_id": "V1-ENT-0180",
         "theme_explanations": {
@@ -62591,7 +62615,7 @@
       },
       {
         "guiding_question": {
-          "basis_note": "WEB-CE-B02 新增策展文案，待 Sol/USER 集中审核",
+          "basis_note": "Web 0.2.0 consolidation: low-value template wording withheld; retain only the research-basic page until work-level evidence supports literary guidance",
           "content": "一本作品如何从书目记录进入文学地图？",
           "created_at": "2026-08-20",
           "research_refs": [
@@ -62601,12 +62625,12 @@
             "V1-REL-0111"
           ],
           "reviewed_at": null,
-          "reviewer": "UNREVIEWED",
+          "reviewer": "CODEX-REVIEW",
           "source_refs": [
             "SRC-0139",
             "SRC-0140"
           ],
-          "status": "user_review"
+          "status": "hold"
         },
         "literary_significance": {
           "basis_note": "WEB-CE-B02 新增策展文案，待 Sol/USER 集中审核",
@@ -63449,7 +63473,7 @@
       },
       {
         "guiding_question": {
-          "basis_note": "WEB-CE-B03 新增策展文案，待 Sol/USER 集中审核",
+          "basis_note": "Web 0.2.0 consolidation: low-value template wording withheld; retain only the research-basic page until work-level evidence supports literary guidance",
           "content": "作品时间线如何帮助你安排第一次阅读？",
           "created_at": "2026-08-20",
           "research_refs": [
@@ -63459,12 +63483,12 @@
             "V1-REL-0119"
           ],
           "reviewed_at": null,
-          "reviewer": "UNREVIEWED",
+          "reviewer": "CODEX-REVIEW",
           "source_refs": [
             "SRC-0144",
             "SRC-0147"
           ],
-          "status": "user_review"
+          "status": "hold"
         },
         "literary_significance": {
           "basis_note": "WEB-CE-B03 新增策展文案，待 Sol/USER 集中审核",
@@ -65779,7 +65803,7 @@
         },
         "target_id": "V1-ENT-0209",
         "theme_explanations": {
-          "basis_note": "WEB-CE-B04 新增策展文案，待 Sol/USER 集中审核",
+          "basis_note": "Web 0.2.0 consolidation: low-value template wording withheld; retain only the research-basic page until work-level evidence supports literary guidance",
           "content": [
             {
               "text": "米西奥内斯景观与人物主题留待后续来源审阅。",
@@ -65794,11 +65818,11 @@
             "V1-REL-0136"
           ],
           "reviewed_at": null,
-          "reviewer": "UNREVIEWED",
+          "reviewer": "CODEX-REVIEW",
           "source_refs": [
             "SRC-0162"
           ],
-          "status": "user_review"
+          "status": "hold"
         },
         "why_read": {
           "basis_note": "WEB-CE-B04 新增策展文案，待 Sol/USER 集中审核",
@@ -67019,7 +67043,7 @@
       },
       {
         "guiding_question": {
-          "basis_note": "WEB-CE-B05 新增策展文案，待 Sol/USER 集中审核",
+          "basis_note": "Web 0.2.0 consolidation: low-value template wording withheld; retain only the research-basic page until work-level evidence supports literary guidance",
           "content": "作品时间线如何帮助你安排对一位作家的首次阅读？",
           "created_at": "2026-08-20",
           "research_refs": [
@@ -67029,13 +67053,13 @@
             "V1-REL-0147"
           ],
           "reviewed_at": null,
-          "reviewer": "UNREVIEWED",
+          "reviewer": "CODEX-REVIEW",
           "source_refs": [
             "SRC-0171",
             "SRC-0172",
             "SRC-0173"
           ],
-          "status": "user_review"
+          "status": "hold"
         },
         "literary_significance": {
           "basis_note": "WEB-CE-B05 新增策展文案，待 Sol/USER 集中审核",
@@ -78530,7 +78554,7 @@
       {
         "guiding_question": {
           "basis_note": "引导问题为策展候选",
-          "content": "如何从 《读爱情故事的老人》 的书目与体裁事实进入作品，而不把策展判断误读成 Research 结论？",
+          "content": "如何从 《一个老人读爱情小说》 的书目与体裁事实进入作品，而不把策展判断误读成 Research 结论？",
           "created_at": "2026-08-22",
           "research_refs": [
             "V1-FCT-0929",
@@ -78590,7 +78614,7 @@
         "reading_approach": {
           "basis_note": "阅读方式未获 USER 批准",
           "content": [
-            "先从《读爱情故事的老人》的西文题名 Un viejo que leía novelas de amor 与 小说 标签进入",
+            "先从《一个老人读爱情小说》的西文题名 Un viejo que leía novelas de amor 与 小说 标签进入",
             "再与同作者的另外两个节点对照其年份、形式和来源边界"
           ],
           "created_at": "2026-08-22",
@@ -78610,7 +78634,7 @@
         },
         "story_intro": {
           "basis_note": "直接事实型介绍待 USER 审核",
-          "content": "《读爱情故事的老人》（Un viejo que leía novelas de amor）保留为小说条目，Research 记录的时间锚点为 first_book_edition_year=1989；原文题名与已出版中文书名并列。",
+          "content": "《一个老人读爱情小说》（Un viejo que leía novelas de amor）保留为小说条目，Research 记录的时间锚点为 first_book_edition_year=1989；原文题名与中文暂译并列。",
           "created_at": "2026-08-22",
           "research_refs": [
             "V1-FCT-0929",
@@ -78674,7 +78698,7 @@
       {
         "guiding_question": {
           "basis_note": "引导问题为策展候选",
-          "content": "如何从 《教海鸥飞翔的猫》 的书目与体裁事实进入作品，而不把策展判断误读成 Research 结论？",
+          "content": "如何从 《一只海鸥和教它飞翔的猫》 的书目与体裁事实进入作品，而不把策展判断误读成 Research 结论？",
           "created_at": "2026-08-22",
           "research_refs": [
             "V1-FCT-0932",
@@ -78730,7 +78754,7 @@
         "reading_approach": {
           "basis_note": "阅读方式未获 USER 批准",
           "content": [
-            "先从《教海鸥飞翔的猫》的西文题名 Historia de una gaviota y del gato que le enseñó a volar 与 儿童小说 标签进入",
+            "先从《一只海鸥和教它飞翔的猫》的西文题名 Historia de una gaviota y del gato que le enseñó a volar 与 儿童小说 标签进入",
             "再与同作者的另外两个节点对照其年份、形式和来源边界"
           ],
           "created_at": "2026-08-22",
@@ -78748,7 +78772,7 @@
         },
         "story_intro": {
           "basis_note": "直接事实型介绍待 USER 审核",
-          "content": "《教海鸥飞翔的猫》（Historia de una gaviota y del gato que le enseñó a volar）保留为儿童小说条目，Research 记录的时间锚点为 1996；原文题名与已出版中文书名并列。",
+          "content": "《一只海鸥和教它飞翔的猫》（Historia de una gaviota y del gato que le enseñó a volar）保留为儿童小说条目，Research 记录的时间锚点为 1996；原文题名与中文暂译并列。",
           "created_at": "2026-08-22",
           "research_refs": [
             "V1-FCT-0932",
@@ -78806,7 +78830,7 @@
       {
         "guiding_question": {
           "basis_note": "引导问题为策展候选",
-          "content": "如何从 《世界尽头的世界》 的书目与体裁事实进入作品，而不把策展判断误读成 Research 结论？",
+          "content": "如何从 《世界尽头》 的书目与体裁事实进入作品，而不把策展判断误读成 Research 结论？",
           "created_at": "2026-08-22",
           "research_refs": [
             "V1-FCT-0935",
@@ -78862,7 +78886,7 @@
         "reading_approach": {
           "basis_note": "阅读方式未获 USER 批准",
           "content": [
-            "先从《世界尽头的世界》的西文题名 Mundo del fin del mundo 与 旅行叙事 标签进入",
+            "先从《世界尽头》的西文题名 Mundo del fin del mundo 与 旅行叙事 标签进入",
             "再与同作者的另外两个节点对照其年份、形式和来源边界"
           ],
           "created_at": "2026-08-22",
@@ -78880,7 +78904,7 @@
         },
         "story_intro": {
           "basis_note": "直接事实型介绍待 USER 审核",
-          "content": "《世界尽头的世界》（Mundo del fin del mundo）保留为旅行叙事条目，Research 记录的时间锚点为 1994；原文题名与已出版中文书名并列。",
+          "content": "《世界尽头》（Mundo del fin del mundo）保留为旅行叙事条目，Research 记录的时间锚点为 1994；原文题名与中文暂译并列。",
           "created_at": "2026-08-22",
           "research_refs": [
             "V1-FCT-0935",
@@ -79012,7 +79036,7 @@
         },
         "story_intro": {
           "basis_note": "直接事实型介绍待 USER 审核",
-          "content": "《独生女儿》（La hija única）保留为小说条目，Research 记录的时间锚点为 2020；原文题名与已出版中文书名并列。",
+          "content": "《独生女儿》（La hija única）保留为小说条目，Research 记录的时间锚点为 2020；原文题名与中文暂译并列。",
           "created_at": "2026-08-22",
           "research_refs": [
             "V1-FCT-0941",
@@ -79144,7 +79168,7 @@
         },
         "story_intro": {
           "basis_note": "直接事实型介绍待 USER 审核",
-          "content": "《红鱼之姻》（El matrimonio de los peces rojos）保留为短篇小说集条目，Research 记录的时间锚点为 2013；原文题名与已出版中文书名并列。",
+          "content": "《红鱼之姻》（El matrimonio de los peces rojos）保留为短篇小说集条目，Research 记录的时间锚点为 2013；原文题名与中文暂译并列。",
           "created_at": "2026-08-22",
           "research_refs": [
             "V1-FCT-0944",
@@ -79276,7 +79300,7 @@
         },
         "story_intro": {
           "basis_note": "直接事实型介绍待 USER 审核",
-          "content": "《真正的孤独》（Pétalos y otras historias incómodas）保留为短篇小说集条目，Research 记录的时间锚点为 2008；原文题名与已出版中文书名并列。",
+          "content": "《真正的孤独》（Pétalos y otras historias incómodas）保留为短篇小说集条目，Research 记录的时间锚点为 2008；原文题名与中文暂译并列。",
           "created_at": "2026-08-22",
           "research_refs": [
             "V1-FCT-0947",
@@ -79804,7 +79828,7 @@
           "basis_note": "阅读方式未获 USER 批准",
           "content": [
             "先核对 Ciranda de pedra 在 ABL 书目中的 1954 年条目",
-            "再与同作者另一种形式的 Antes do baile verde 对照，不把作者资料沿革写成作品事实"
+            "再与同作者另一种形式的 Antes do baile verde 对照，不把出生年份差异写成作品事实"
           ],
           "created_at": "2026-08-22",
           "research_refs": [
@@ -79939,7 +79963,7 @@
           "basis_note": "阅读方式未获 USER 批准",
           "content": [
             "先核对 Antes do baile verde 在 ABL 书目中的 1970 年条目",
-            "再与同作者另一种形式的 Ciranda de pedra 对照，不把作者资料沿革写成作品事实"
+            "再与同作者另一种形式的 Ciranda de pedra 对照，不把出生年份差异写成作品事实"
           ],
           "created_at": "2026-08-22",
           "research_refs": [
@@ -80074,7 +80098,7 @@
           "basis_note": "阅读方式未获 USER 批准",
           "content": [
             "先核对 As meninas 在 ABL 书目中的 1973 年条目",
-            "再与同作者另一种形式的 Ciranda de pedra 对照，不把作者资料沿革写成作品事实"
+            "再与同作者另一种形式的 Ciranda de pedra 对照，不把出生年份差异写成作品事实"
           ],
           "created_at": "2026-08-22",
           "research_refs": [

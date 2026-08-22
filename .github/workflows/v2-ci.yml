@@ -30,7 +30,7 @@ jobs:
       - name: Rebuild review-stage Web Data in isolation
         run: |
           rm -rf /tmp/v2-review-web
-          python3 scripts/build_v2_web_data.py --output-dir /tmp/v2-review-web --generated-at 2026-08-13T00:00:00Z
+          python3 scripts/build_v2_web_data.py --output-dir /tmp/v2-review-web --generated-at 2026-08-22T12:00:00Z
       - name: Check review-stage Web Data has no unexpected diff
         run: |
           python3 - <<'PY'
@@ -108,7 +108,7 @@ jobs:
       - name: Rebuild and validate Web Data
         run: |
           python3 scripts/validate_v2_content_quality.py
-          python3 scripts/build_v2_web_data.py --generated-at 2026-08-13T00:00:00Z
+          python3 scripts/build_v2_web_data.py --generated-at 2026-08-22T12:00:00Z
           python3 scripts/validate_v2_web_data.py
       - name: Check frontend syntax and whitespace
         run: |
@@ -168,7 +168,7 @@ jobs:
           npx playwright install --with-deps chromium firefox webkit
       - name: Build final public bundle
         run: |
-          python3 scripts/build_v2_web_data.py --generated-at 2026-08-13T00:00:00Z
+          python3 scripts/build_v2_web_data.py --generated-at 2026-08-22T12:00:00Z
           python3 scripts/build_v2_deploy_bundle.py --output dist --origin https://example.invalid/
       - name: Run Chromium Firefox and WebKit matrix
         run: |

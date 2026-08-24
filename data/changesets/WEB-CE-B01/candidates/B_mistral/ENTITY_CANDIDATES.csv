@@ -1,0 +1,7 @@
+temporary_id,entity_type,name_zh,original_name,canonical_status,origin_count,origin_refs,normalization_basis,issue_codes
+CAND-B-ENT-001,author,加夫列拉·米斯特拉尔,Gabriela Mistral,canonical,1,CAND-B-SRC-001,"诺贝尔奖官网官方生平页核验（本名 Lucila Godoy Alcayaga；1889 比库尼亚出生，1957 纽约州 Hempstead 逝世）；主库 LIKE 自查（%Mistral%/%米斯特拉尔%）无同名实体",NONE
+CAND-B-ENT-002,collection,《绝望集》,Desolación,canonical,1,CAND-B-SRC-003,"诺贝尔官网书目页（Desolación. – New York : Instituto de las Españas, 1922）；诗集层级=collection（原版诗集），不建中文版/合集为同名实体",NONE
+CAND-B-ENT-003,collection,《柔情集》,Ternura,canonical,1,CAND-B-SRC-003,"诺贝尔官网书目页（Ternura : canciones de niños. – Madrid : Saturnino Calleja, 1924）；诗集层级=collection",NONE
+CAND-B-ENT-004,collection,《塔拉集》,Tala,canonical,1,CAND-B-SRC-003,"诺贝尔官网书目页（Tala. – Buenos Aires : Sur, 1938）；诗集层级=collection",NONE
+CAND-B-ENT-005,event,1945 年诺贝尔文学奖,Premio Nobel de Literatura 1945,canonical,1,CAND-B-SRC-001,"参照既有事件实体 V1-ENT-0112（1982 年诺贝尔文学奖）的命名与用法；事件事实用 event_year_range",NONE
+CAND-B-ENT-006,place,比库尼亚,Vicuña,canonical,1,CAND-B-SRC-001,"现实地点：智利科金博大区 Elqui 河谷城镇（诺贝尔页 Born: 7 April 1889, Vicuña, Chile）；新建 place 候选；坐标未核验——禁止伪造，留待 Geo 阶段以权威地理来源补入",coords_pending;geo_pending

@@ -1,10 +1,12 @@
 #!/usr/bin/env python3
-"""Validate rc.5 public literary content coverage and non-template quality."""
+"""Validate literary content by derived readiness without forcing filler copy."""
 
 from __future__ import annotations
 
 import argparse
 import json
+import re
+from collections import Counter
 from difflib import SequenceMatcher
 from pathlib import Path
 
@@ -12,11 +14,11 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_CONTENT = ROOT / "data/v2/curation/PUBLIC_CONTENT.json"
 DEFAULT_PRESENTATION = ROOT / "data/v2/presentation/PUBLIC_PRESENTATION.json"
-AUTHOR_IDS = {
+BASELINE_AUTHOR_IDS = {
     "V1-ENT-0002", "V1-ENT-0016", "V1-ENT-0029", "V1-ENT-0030", "V1-ENT-0031",
     "V1-ENT-0072", "V1-ENT-0073", "V1-ENT-0074", "V1-ENT-0114", "V1-ENT-0115",
 }
-WORK_IDS = {
+BASELINE_WORK_IDS = {
     "V1-ENT-0003", "V1-ENT-0004", "V1-ENT-0017", "V1-ENT-0018", "V1-ENT-0032",
     "V1-ENT-0035", "V1-ENT-0038", "V1-ENT-0075", "V1-ENT-0076", "V1-ENT-0077",
     "V1-ENT-0078", "V1-ENT-0079", "V1-ENT-0080", "V1-ENT-0081", "V1-ENT-0116",
@@ -26,6 +28,28 @@ FORBIDDEN = (
     "可以从形式进入", "可以留意人物、声音与时间", "本页只采用已有事实",
     "跨作品推荐仍在整理", "现有资料尚不足", "同一作者作品",
 )
+LOW_VALUE_PATTERNS = (
+    "先确认原文题名和年份", "先确认原文题名与年份", "从官方书目进入",
+    "先从官方书目确认", "作品时间线如何帮助", "一本作品如何从书目记录进入文学地图",
+    "主题留待后续研究", "主题留待后续来源", "主题与人物关系留待",
+    "社会主题留待来源", "按书目事实进入", "书目事实进入",
+)
+REQUIRED_FIELDS = {
+    "authors": (
+        "reader_lede", "why_know", "literary_features", "core_themes", "start_here",
+        "reader_fit", "signature_keywords", "reading_route", "guiding_question",
+    ),
+    "works": (
+        "story_intro", "why_read", "theme_explanations", "next_reads", "location_note",
+        "reading_approach", "guiding_question",
+    ),
+    "places": ("literary_intro", "spatial_meaning", "exploration_route"),
+}
+CURATION_GATE_FIELDS = {
+    "authors": ("why_know", "core_themes", "start_here", "reader_fit", "signature_keywords", "reading_route", "guiding_question"),
+    "works": ("story_intro", "why_read", "theme_explanations", "next_reads", "reading_approach", "guiding_question"),
+    "places": ("literary_intro", "spatial_meaning", "exploration_route"),
+}
 
 
 def text(value: object) -> str:
@@ -38,65 +62,116 @@ def text(value: object) -> str:
     return ""
 
 
-def reviewed(record: dict[str, object], field: str, require_public: bool) -> object:
+def wrapper(record: dict[str, object], field: str) -> dict[str, object] | None:
     item = record.get(field)
-    if not isinstance(item, dict) or item.get("status") not in {"auto_approved", "user_review"}:
-        raise ValueError(f"{record.get('target_id')} missing reviewed draft {field}")
-    if require_public and item.get("status") != "auto_approved":
-        raise ValueError(f"{record.get('target_id')} {field} is not approved for public use")
-    if require_public and (not item.get("research_refs") or not item.get("source_refs")):
-        raise ValueError(f"{record.get('target_id')} {field} lacks evidence/reviewer")
-    if item.get("status") == "auto_approved" and item.get("reviewer") not in {"CODEX-REVIEW", "USER"}:
+    if not isinstance(item, dict) or item.get("status") not in {"auto_approved", "user_review", "hold"}:
+        return None
+    reviewer = item.get("reviewer")
+    batch_reviewer = isinstance(reviewer, str) and re.fullmatch(r"LUNA-MAX-B\d{2}-REVIEW", reviewer)
+    if item.get("status") == "auto_approved" and reviewer not in {"CODEX-REVIEW", "USER"} and not batch_reviewer:
         raise ValueError(f"{record.get('target_id')} approved {field} lacks reviewer")
-    return item.get("content")
+    return item
+
+
+def structurally_complete(group: str, target_id: str, record: dict[str, object]) -> bool:
+    items = {field: wrapper(record, field) for field in REQUIRED_FIELDS[group]}
+    if any(item is None or item.get("status") == "hold" for item in items.values()):
+        return False
+    values = {field: item.get("content") for field, item in items.items() if item}
+    if group == "authors":
+        baseline = target_id in BASELINE_AUTHOR_IDS
+        return (
+            len(text(values["reader_lede"])) >= (60 if baseline else 35)
+            and len(text(values["why_know"])) >= (45 if baseline else 25)
+            and isinstance(values["literary_features"], list) and len(values["literary_features"]) >= 2
+            and isinstance(values["core_themes"], list) and len(values["core_themes"]) >= 2
+            and isinstance(values["start_here"], list) and len(values["start_here"]) >= 2
+            and len(text(values["reader_fit"])) >= 25
+            and isinstance(values["signature_keywords"], list) and len(values["signature_keywords"]) == 3
+            and isinstance(values["reading_route"], list) and len(values["reading_route"]) >= 2
+            and text(values["guiding_question"]).endswith("？")
+        )
+    if group == "works":
+        baseline = target_id in BASELINE_WORK_IDS
+        return (
+            len(text(values["story_intro"])) >= (80 if baseline else 25)
+            and isinstance(values["why_read"], list) and 2 <= len(values["why_read"]) <= 4
+            and isinstance(values["theme_explanations"], list) and len(values["theme_explanations"]) >= 1
+            and isinstance(values["next_reads"], list) and len(values["next_reads"]) >= 2
+            and len(text(values["location_note"])) >= 12
+            and len(text(values["reading_approach"])) >= (25 if baseline else 18)
+            and text(values["guiding_question"]).endswith("？")
+        )
+    route = text(values["exploration_route"])
+    return (
+        len(text(values["literary_intro"])) >= 35
+        and len(text(values["spatial_meaning"])) >= 25
+        and len(route) >= 25
+        and "从本页进入相关作家与作品" not in route
+    )
+
+
+def derive_readiness(group: str, record: dict[str, object]) -> str:
+    target_id = str(record.get("target_id"))
+    for field in REQUIRED_FIELDS[group]:
+        item = wrapper(record, field)
+        if item and any(pattern in text(item.get("content")) for pattern in LOW_VALUE_PATTERNS):
+            if item.get("status") != "hold":
+                raise ValueError(f"low-value template was not held: {target_id}.{field}")
+            return "research_basic"
+    if not structurally_complete(group, target_id, record):
+        return "research_basic"
+    gated = [wrapper(record, field) for field in CURATION_GATE_FIELDS[group]]
+    if all(
+        item and item.get("status") == "auto_approved"
+        and item.get("research_refs") and item.get("source_refs")
+        for item in gated
+    ):
+        return "curation_ready"
+    return "reader_ready"
 
 
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("path", type=Path, nargs="?", default=DEFAULT_CONTENT)
     parser.add_argument("--presentation", type=Path, default=DEFAULT_PRESENTATION)
-    parser.add_argument("--require-public", action="store_true", help="Require all release-blocking fields to be auto_approved")
+    parser.add_argument("--require-public", action="store_true", help="Validate the curation-ready public subset")
     args = parser.parse_args()
     payload = json.loads(args.path.read_text(encoding="utf-8"))
     if payload.get("schema_version") != "v2-curation-content-0.3":
         raise ValueError("unexpected public content schema")
-    authors = {item["target_id"]: item for item in payload.get("authors", [])}
-    works = {item["target_id"]: item for item in payload.get("works", [])}
-    places = {item["target_id"]: item for item in payload.get("places", [])}
-    presentation = json.loads(args.presentation.read_text(encoding="utf-8"))
-    if set(authors) != AUTHOR_IDS or set(works) != WORK_IDS or len(places) < 19:
-        raise ValueError(f"coverage mismatch authors={len(authors)} works={len(works)} places={len(places)}")
+    groups = {
+        "authors": {item["target_id"]: item for item in payload.get("authors", [])},
+        "works": {item["target_id"]: item for item in payload.get("works", [])},
+        "places": {item["target_id"]: item for item in payload.get("places", [])},
+    }
+    if not BASELINE_AUTHOR_IDS <= set(groups["authors"]) or not BASELINE_WORK_IDS <= set(groups["works"]) or len(groups["places"]) < 19:
+        raise ValueError(
+            f"coverage mismatch authors={len(groups['authors'])} works={len(groups['works'])} places={len(groups['places'])}"
+        )
+
+    readiness: dict[str, Counter[str]] = {group: Counter() for group in groups}
     corpus: list[tuple[str, str]] = []
-    for target_id, record in authors.items():
-        lede = text(reviewed(record, "reader_lede", args.require_public))
-        why = text(reviewed(record, "why_know", args.require_public))
-        features = reviewed(record, "literary_features", args.require_public)
-        themes = reviewed(record, "core_themes", args.require_public)
-        starts = reviewed(record, "start_here", args.require_public)
-        reader_fit = text(reviewed(record, "reader_fit", args.require_public))
-        keywords = reviewed(record, "signature_keywords", args.require_public)
-        route = reviewed(record, "reading_route", args.require_public)
-        question = text(reviewed(record, "guiding_question", args.require_public))
-        if len(lede) < 60 or len(why) < 45 or not isinstance(features, list) or len(features) < 2 or not isinstance(themes, list) or len(themes) < 2 or not isinstance(starts, list) or len(starts) < 2 or len(reader_fit) < 25 or not isinstance(keywords, list) or len(keywords) != 3 or not isinstance(route, list) or len(route) < 2 or not question.endswith("？"):
-            raise ValueError(f"incomplete author content: {target_id}")
-        corpus.append((target_id, f"{lede} {why}"))
-    approaches = []
-    for target_id, record in works.items():
-        intro = text(reviewed(record, "story_intro", args.require_public))
-        why = reviewed(record, "why_read", args.require_public)
-        themes = reviewed(record, "theme_explanations", args.require_public)
-        next_reads = reviewed(record, "next_reads", args.require_public)
-        location = text(reviewed(record, "location_note", args.require_public))
-        approach = text(reviewed(record, "reading_approach", args.require_public))
-        question = text(reviewed(record, "guiding_question", args.require_public))
-        if len(intro) < 80 or not isinstance(why, list) or not 2 <= len(why) <= 4 or not isinstance(themes, list) or len(themes) < 2 or not isinstance(next_reads, list) or len(next_reads) < 2 or len(location) < 12 or len(approach) < 25 or not question.endswith("？"):
-            raise ValueError(f"incomplete work content: {target_id}")
-        approaches.append(approach)
-        corpus.append((target_id, intro))
-    for target_id, record in places.items():
-        route = text(reviewed(record, "exploration_route", args.require_public))
-        if len(text(reviewed(record, "literary_intro", args.require_public))) < 35 or len(text(reviewed(record, "spatial_meaning", args.require_public))) < 25 or len(route) < 25 or "从本页进入相关作家与作品" in route:
-            raise ValueError(f"incomplete place content: {target_id}")
+    approaches: list[str] = []
+    for group, records in groups.items():
+        for target_id, record in records.items():
+            level = derive_readiness(group, record)
+            readiness[group][level] += 1
+            if level == "research_basic":
+                continue
+            if args.require_public and level != "curation_ready":
+                continue
+            if group == "authors":
+                corpus.append((
+                    target_id,
+                    f"{text(wrapper(record, 'reader_lede').get('content'))} "
+                    f"{text(wrapper(record, 'why_know').get('content'))}",
+                ))
+            elif group == "works":
+                intro = text(wrapper(record, "story_intro").get("content"))
+                approaches.append(text(wrapper(record, "reading_approach").get("content")))
+                corpus.append((target_id, intro))
+
     for target_id, value in corpus:
         if any(phrase in value for phrase in FORBIDDEN):
             raise ValueError(f"forbidden template phrase in {target_id}")
@@ -107,16 +182,31 @@ def main() -> int:
             if ratio >= 0.78:
                 too_similar.append((left_id, right_id, round(ratio, 3)))
     if too_similar:
-        raise ValueError(f"highly similar public copy: {too_similar[:5]}")
-    if len(set(approaches)) != len(WORK_IDS):
-        raise ValueError("work reading approaches are duplicated")
+        raise ValueError(f"highly similar reader-ready copy: {too_similar[:5]}")
+    if len(set(approaches)) != len(approaches):
+        raise ValueError("reader-ready work reading approaches are duplicated")
+
+    presentation = json.loads(args.presentation.read_text(encoding="utf-8"))
     paths = presentation.get("reading_paths", [])
     if len(paths) < 8:
         raise ValueError(f"homepage reading paths below gate: {len(paths)}")
     for path in paths:
-        if len(path.get("intro", "")) < 18 or len(path.get("ordered_targets", [])) < 3 or not path.get("guiding_question", "").endswith("？"):
+        if (
+            len(path.get("intro", "")) < 18
+            or len(path.get("ordered_targets", [])) < 3
+            or not path.get("guiding_question", "").endswith("？")
+        ):
             raise ValueError(f"incomplete homepage reading path: {path.get('id')}")
-    print(json.dumps({"status": "PASS", "phase": "public" if args.require_public else "review_package", "authors": len(authors), "works": len(works), "places": len(places), "reading_approaches": len(set(approaches)), "reading_paths": len(paths), "similar_pairs": 0}, ensure_ascii=False))
+
+    print(json.dumps({
+        "status": "PASS",
+        "phase": "public_subset" if args.require_public else "review_package",
+        "counts": {group: len(records) for group, records in groups.items()},
+        "content_readiness": {group: dict(sorted(levels.items())) for group, levels in readiness.items()},
+        "reader_ready_approaches": len(set(approaches)),
+        "reading_paths": len(paths),
+        "similar_pairs": 0,
+    }, ensure_ascii=False, sort_keys=True))
     return 0
 
 

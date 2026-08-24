@@ -30,7 +30,7 @@ def page_shell(kind: str, target_id: str | None, title: str, description: str, c
     if path_slug:
         attrs.append(f'data-path-slug="{escape(path_slug)}"')
     return f'''<!doctype html>
-<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#f3eee4"><meta name="description" content="{escape(description)}"><meta property="og:type" content="website"><meta property="og:locale" content="zh_CN"><meta property="og:site_name" content="拉丁美洲文学地图"><meta property="og:title" content="{escape(title)}"><meta property="og:description" content="{escape(description)}"><meta property="og:url" content="{escape(canonical)}"><meta name="twitter:card" content="summary"><link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%2396342b'/%3E%3Cpath d='M18 16h8v25h20v7H18z' fill='%23fffdf8'/%3E%3C/svg%3E"><link rel="canonical" href="{escape(canonical)}"><title>{escape(title)}｜拉丁美洲文学地图</title><link rel="stylesheet" href="{escape(urljoin(site_base, 'styles.css'))}"></head><body {' '.join(attrs)}><div class="site-frame"><header class="site-header"><a class="wordmark" href="{escape(site_base)}"><span class="wordmark-mark">LATAM</span><span class="wordmark-name">拉丁美洲文学地图</span></a><nav id="main-nav" class="main-nav" aria-label="主要导航"><a href="{escape(site_base)}">地图</a><a href="{escape(urljoin(site_base, 'search/'))}">搜索</a><a href="{escape(urljoin(site_base, 'timeline/'))}">时间线</a><a href="{escape(urljoin(site_base, 'about/'))}">关于项目</a></nav><button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav">菜单</button></header><main id="app" tabindex="-1" aria-live="polite"><div class="loading-state"><span class="loading-dot"></span>正在打开文学地图……</div></main><footer class="site-footer"><div><span class="footer-kicker">A literary map of Latin America</span><span>从地点进入文学，从来源继续研究</span></div><a href="{escape(urljoin(site_base, 'about/'))}">关于项目与研究方法</a></footer></div><script type="module" src="{escape(urljoin(site_base, 'app.js'))}"></script></body></html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#f3eee4"><meta name="description" content="{escape(description)}"><meta property="og:type" content="website"><meta property="og:locale" content="zh_CN"><meta property="og:site_name" content="拉丁美洲文学地图"><meta property="og:title" content="{escape(title)}"><meta property="og:description" content="{escape(description)}"><meta property="og:url" content="{escape(canonical)}"><meta name="twitter:card" content="summary"><link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%2396342b'/%3E%3Cpath d='M18 16h8v25h20v7H18z' fill='%23fffdf8'/%3E%3C/svg%3E"><link rel="canonical" href="{escape(canonical)}"><title>{escape(title)}｜拉丁美洲文学地图</title><link rel="stylesheet" href="{escape(urljoin(site_base, 'styles.css'))}"></head><body {' '.join(attrs)}><div class="site-frame"><header class="site-header"><a class="wordmark" href="{escape(site_base)}"><span class="wordmark-mark">LATAM</span><span class="wordmark-name">拉丁美洲文学地图</span></a><nav id="main-nav" class="main-nav" aria-label="主要导航"><a href="{escape(site_base)}">地图</a><a href="{escape(urljoin(site_base, 'search/'))}">搜索</a><a href="{escape(urljoin(site_base, 'timeline/'))}">时间线</a><a href="{escape(urljoin(site_base, 'about/'))}">关于项目</a></nav><button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav">菜单</button></header><main id="app" tabindex="-1" aria-live="polite"><div class="loading-state"><span class="loading-dot"></span>正在打开文学地图……</div></main><footer class="site-footer"><div><span class="footer-kicker">A literary map of Latin America</span><span>从地点进入文学，从作品继续阅读</span></div><a href="{escape(urljoin(site_base, 'about/'))}">关于这张地图</a></footer></div><script type="module" src="{escape(urljoin(site_base, 'app.js'))}"></script></body></html>
 '''
 
 
@@ -54,18 +54,26 @@ def clean_public_data(source: Path) -> dict[str, object]:
     sources = [take(item, ("source_id", "title", "author_or_editor", "publisher", "publication_year", "canonical_url")) for item in payload["research"]["sources"]]
     places = [take(item, ("place_id", "entity_id", "name_zh", "original_name", "country_code", "place_kind", "parent_place_id", "reality_status", "map_status", "latitude", "longitude")) for item in payload["map"]["places"]]
     map_relations = [take(item, ("source_entity_id", "target_place_id", "relation_type", "map_relation_role", "description_zh", "source_refs")) for item in payload["map"]["relations"]]
-    entries = [take(item, ("target_id", "field_key", "content_zh", "source_refs")) for item in payload["curation"]["entries"]]
+    # Reader prose comes exclusively from the conclusion-only reader projection.
+    # Curation rows remain useful as evidence pointers, but their working copy
+    # must never become a presentation fallback in the public bundle.
+    entries = [take(item, ("target_id", "field_key", "source_refs")) for item in payload["curation"]["entries"]]
     selections = [take(item, ("target_id", "selection_key", "selection_value", "sort_order")) for item in payload["curation"]["selections"] if item.get("selection_key") in {"featured_author", "featured_work"}]
     recommendations = [take(item, ("from_target_id", "to_target_id", "recommendation_kind", "recommendation_reason", "sort_order")) for item in payload["curation"]["recommendations"]]
-    public_content = {}
+    reader_content = {}
+    content_evidence = {}
     for group in ("authors", "works", "places"):
-        public_content[group] = []
+        reader_content[group] = payload["reader_content"].get(group, [])
+        content_evidence[group] = []
         for record in payload["public_content"][group]:
             compact = {"target_id": record["target_id"]}
             for key, value in record.items():
-                if key != "target_id":
-                    compact[key] = value.get("content")
-            public_content[group].append(compact)
+                if key == "target_id" or not isinstance(value, dict):
+                    continue
+                refs = take(value, ("research_refs", "source_refs"))
+                if refs:
+                    compact[key] = refs
+            content_evidence[group].append(compact)
     timeline = [
         {
             "node_type": item["node_type"],
@@ -74,15 +82,23 @@ def clean_public_data(source: Path) -> dict[str, object]:
         }
         for item in payload["timeline"]
     ]
-    presentation = {key: value for key, value in payload["presentation"].items() if key in {"site", "reading_paths", "timeline_periods", "timeline_note", "why_read", "next_reads"}}
+    presentation = {key: value for key, value in payload["presentation"].items() if key in {"site", "reading_paths", "timeline_periods", "timeline_note", "why_read", "next_reads", "discovery"}}
     for group in ("reading_paths", "timeline_periods", "why_read", "next_reads"):
         if any(item.get("review_status") != "auto_approved" for item in presentation.get(group, [])):
             raise ValueError(f"public presentation gate failed for {group}")
-        presentation[group] = [{key: value for key, value in item.items() if key not in {"review_status", "basis"}} for item in presentation.get(group, [])]
+        presentation[group] = [
+            {
+                key: value
+                for key, value in item.items()
+                if key not in {"review_status", "basis", "reviewer", "reviewed_at"}
+            }
+            for item in presentation.get(group, [])
+        ]
     return {
         "research": {"entities": entities, "content_cards": cards, "facts": facts, "relationships": relationships, "sources": sources},
         "curation": {"entries": entries, "selections": selections, "recommendations": recommendations},
-        "public_content": public_content,
+        "reader_content": reader_content,
+        "content_evidence": content_evidence,
         "presentation": presentation,
         "map": {"places": places, "relations": map_relations},
         "search_index": payload["search_index"],

@@ -1,0 +1,71 @@
+{
+  "batch": "WEB-CE-B05",
+  "plan": "巴西经典骨架",
+  "display_name_policy": {"applies_to":"all authors[].works[]","default_status":"provisional_title","basis":"60+ roadmap reader-facing label; no Chinese-edition bibliographic claim"},
+  "authors": [
+    {
+      "entity_id": "V1-ENT-0211",
+      "name_zh": "马查多·德·阿西斯",
+      "original_name": "Machado de Assis",
+      "country_or_region": "巴西",
+      "birth_year": "1839",
+      "death_year": "1908",
+      "birth_place": "里约热内卢（Rio de Janeiro）",
+      "source_ids": ["SRC-0165", "SRC-0166", "SRC-0167"],
+      "works": [
+        {"entity_id": "V1-ENT-0214", "name_zh": "《布拉斯·库巴斯死后的回忆》", "original_name": "Memórias Póstumas de Brás Cubas", "entity_type": "work", "year": "1881", "source_ids": ["SRC-0166", "SRC-0167", "SRC-0176"]},
+        {"entity_id": "V1-ENT-0215", "name_zh": "《金卡斯·博尔巴》", "original_name": "Quincas Borba", "entity_type": "work", "year": "1891", "source_ids": ["SRC-0166", "SRC-0176"]},
+        {"entity_id": "V1-ENT-0216", "name_zh": "《堂卡斯穆罗》", "original_name": "Dom Casmurro", "entity_type": "work", "year": "1899", "source_ids": ["SRC-0166", "SRC-0176"]}
+      ],
+      "place_id": "V1-ENT-0183"
+    },
+    {
+      "entity_id": "V1-ENT-0212",
+      "name_zh": "若昂·吉马朗埃斯·罗萨",
+      "original_name": "João Guimarães Rosa",
+      "country_or_region": "巴西",
+      "birth_year": "1908",
+      "death_year": "1967",
+      "birth_place": "科尔迪斯堡（Cordisburgo, Minas Gerais）",
+      "source_ids": ["SRC-0168", "SRC-0169", "SRC-0170"],
+      "works": [
+        {"entity_id": "V1-ENT-0217", "name_zh": "《广阔腹地：条条小径》", "original_name": "Grande Sertão: Veredas", "entity_type": "work", "year": "1956", "source_ids": ["SRC-0169", "SRC-0170"]},
+        {"entity_id": "V1-ENT-0218", "name_zh": "《萨加拉纳》", "original_name": "Sagarana", "entity_type": "collection", "year": "1946", "source_ids": ["SRC-0169"]},
+        {"entity_id": "V1-ENT-0219", "name_zh": "《第一故事》", "original_name": "Primeiras Estórias", "entity_type": "collection", "year": "1962", "source_ids": ["SRC-0169"]}
+      ],
+      "place_id": "V1-ENT-0183"
+    },
+    {
+      "entity_id": "V1-ENT-0213",
+      "name_zh": "格拉西利亚诺·拉莫斯",
+      "original_name": "Graciliano Ramos",
+      "country_or_region": "巴西",
+      "birth_year": "1892",
+      "death_year": "1953",
+      "birth_place": "库埃布朗古（Quebrangulo, Alagoas）",
+      "source_ids": ["SRC-0171", "SRC-0172", "SRC-0173", "SRC-0174"],
+      "works": [
+        {"entity_id": "V1-ENT-0220", "name_zh": "《枯竭的生命》", "original_name": "Vidas Secas", "entity_type": "work", "year": "1938", "source_ids": ["SRC-0171", "SRC-0172", "SRC-0173"]},
+        {"entity_id": "V1-ENT-0221", "name_zh": "《圣贝尔纳多》", "original_name": "São Bernardo", "entity_type": "work", "year": "1934", "source_ids": ["SRC-0171", "SRC-0172", "SRC-0173"]},
+        {"entity_id": "V1-ENT-0222", "name_zh": "《苦闷》", "original_name": "Angústia", "entity_type": "work", "year": "1936", "source_ids": ["SRC-0171", "SRC-0172", "SRC-0173"]}
+      ],
+      "place_id": "V1-ENT-0183"
+    }
+  ],
+  "places": [],
+  "source_registry": [
+    {"source_id": "SRC-0165", "title": "Machado de Assis – Biografia", "url": "https://www.academia.org.br/academicos/machado-de-assis/biografia", "source_level": "B", "access": "access_pass"},
+    {"source_id": "SRC-0166", "title": "Machado de Assis – Bibliografia", "url": "https://www.academia.org.br/academicos/machado-de-assis/bibliografia", "source_level": "B", "access": "access_pass"},
+    {"source_id": "SRC-0167", "title": "Machado de Assis – Textos escolhidos", "url": "https://www.academia.org.br/academicos/machado-de-assis/textos-escolhidos", "source_level": "B", "access": "access_pass"},
+    {"source_id": "SRC-0168", "title": "João Guimarães Rosa – Perfil acadêmico", "url": "https://www.academia.org.br/academicos/joao-guimaraes-rosa", "source_level": "B", "access": "access_pass"},
+    {"source_id": "SRC-0169", "title": "João Guimarães Rosa – Bibliografia", "url": "https://www.academia.org.br/academicos/joao-guimaraes-rosa/bibliografia", "source_level": "B", "access": "access_pass"},
+    {"source_id": "SRC-0170", "title": "Grande Sertão: Veredas faz 70 anos e permanece instigante", "url": "https://www.academia.org.br/noticias/abl-na-midia-esquerda-grande-sertao-veredas-faz-70-anos-e-permanece-instigante", "source_level": "B", "access": "access_pass"},
+    {"source_id": "SRC-0171", "title": "Graciliano Ramos – BNDigital", "url": "https://bndigital.bn.gov.br/graciliano-ramos/", "source_level": "B", "access": "access_pass"},
+    {"source_id": "SRC-0172", "title": "Making of Vidas Secas", "url": "https://www.bpp.pr.gov.br/Candido/Pagina/Making-Vidas-Secas", "source_level": "B", "access": "access_pass"},
+    {"source_id": "SRC-0173", "title": "133 anos de Graciliano Ramos – Prefeitura de São Paulo", "url": "https://prefeitura.sp.gov.br/web/cultura/w/133-anos-de-graciliano-ramos-5-obras-para-voc%C3%AA-conhecer-a-ess%C3%AAncia-liter%C3%A1ria-do-escritor-que-faz-anivers%C3%A1rio-nesta-segunda-27-smc", "source_level": "B", "access": "access_pass"},
+    {"source_id": "SRC-0174", "title": "Os 70 anos da morte de Graciliano Ramos", "url": "https://www.itaucultural.org.br/secoes/series/os-70-anos-da-morte-de-graciliano-ramos", "source_level": "B", "access": "access_pass"},
+    {"source_id": "SRC-0175", "title": "Federative Republic of Brazil", "url": "https://www.geonames.org/3469034/federative-republic-of-brazil.html", "source_level": "B", "access": "access_pass"},
+    {"source_id": "SRC-0176", "title": "Machado de Assis - Romance", "url": "https://machado.mec.gov.br/obra-completa-lista/itemlist/category/23-romance", "source_level": "B", "access": "access_pass"}
+  ],
+  "holds": []
+}

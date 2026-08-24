@@ -1,0 +1,1359 @@
+{
+  "batch": "WEB-CE-B16",
+  "plan": "智利小说与旅行叙事 + 墨西哥女性短篇/小说 + 乌拉圭女性诗歌/短篇",
+  "started_at": "2026-08-22",
+  "review_metadata": {
+    "origin_batch": "WEB-CE-B16",
+    "created_at": "2026-08-22",
+    "reviewed_at": "2026-08-22",
+    "reviewer": "LUNA-MAX-B16-REVIEW",
+    "review_status": "PASS",
+    "basis_note": "fresh-context Reviewer PASS; source identity, evidence, edition gap, display-name boundary, deduplication and migration replay verified"
+  },
+  "display_name_policy": {
+    "applies_to": "all authors[].works[]",
+    "default_status": "provisional_title",
+    "basis": "roadmap/reader-facing Chinese labels only; every original title retained; no translator/publisher metadata required"
+  },
+  "authors": [
+    {
+      "entity_id": "V1-ENT-0344",
+      "name_zh": "路易斯·塞普尔韦达",
+      "original_name": "Luis Sepúlveda",
+      "country_or_region": "智利",
+      "birth_year": "1949",
+      "death_year": "2020",
+      "career_note": "小说家、记者与旅行作家",
+      "literary_identity": "智利小说家与旅行写作者",
+      "source_ids": [
+        "SRC-0261",
+        "SRC-0262"
+      ],
+      "place_id": "V1-ENT-0123",
+      "audit_metadata": {
+        "origin_batch": "WEB-CE-B16",
+        "created_at": "2026-08-22",
+        "reviewed_at": "2026-08-22",
+        "reviewer": "LUNA-MAX-B16-REVIEW",
+        "review_status": "PASS",
+        "basis_note": "Memoria Chilena bibliography and Biblioteca Nacional Digital academic article; Chinese label remains provisional; fresh-context Reviewer PASS"
+      },
+      "works": [
+        {
+          "entity_id": "V1-ENT-0347",
+          "name_zh": "《一个老人读爱情小说》",
+          "original_name": "Un viejo que leía novelas de amor",
+          "entity_type": "work",
+          "year": null,
+          "year_semantics": "first_book_edition_year=1989",
+          "genre_or_form": "小说",
+          "source_ids": [
+            "SRC-0261",
+            "SRC-0262"
+          ],
+          "display_name_status": "provisional_title",
+          "display_name_basis": "reader-facing Chinese label; original Spanish title retained; no Chinese edition claim",
+          "audit_metadata": {
+            "origin_batch": "WEB-CE-B16",
+            "created_at": "2026-08-22",
+            "reviewed_at": "2026-08-22",
+            "reviewer": "LUNA-MAX-B16-REVIEW",
+            "review_status": "PASS",
+            "basis_note": "Memoria Chilena lists the 1989 Madrid Azanca edition; the BND article cites a later 1993 Tusquets edition, so the edition distinction is retained; fresh-context Reviewer PASS"
+          }
+        },
+        {
+          "entity_id": "V1-ENT-0348",
+          "name_zh": "《一只海鸥和教它飞翔的猫》",
+          "original_name": "Historia de una gaviota y del gato que le enseñó a volar",
+          "entity_type": "work",
+          "year": "1996",
+          "genre_or_form": "儿童小说",
+          "source_ids": [
+            "SRC-0262"
+          ],
+          "display_name_status": "provisional_title",
+          "display_name_basis": "reader-facing Chinese label; original Spanish title retained; no Chinese edition claim",
+          "audit_metadata": {
+            "origin_batch": "WEB-CE-B16",
+            "created_at": "2026-08-22",
+            "reviewed_at": "2026-08-22",
+            "reviewer": "LUNA-MAX-B16-REVIEW",
+            "review_status": "PASS",
+            "basis_note": "BND academic bibliography calls it a 1996 children's novel; fresh-context Reviewer PASS"
+          }
+        },
+        {
+          "entity_id": "V1-ENT-0349",
+          "name_zh": "《世界尽头》",
+          "original_name": "Mundo del fin del mundo",
+          "entity_type": "work",
+          "year": "1994",
+          "genre_or_form": "旅行叙事",
+          "source_ids": [
+            "SRC-0262"
+          ],
+          "display_name_status": "provisional_title",
+          "display_name_basis": "reader-facing Chinese label; original Spanish title retained; no Chinese edition claim",
+          "audit_metadata": {
+            "origin_batch": "WEB-CE-B16",
+            "created_at": "2026-08-22",
+            "reviewed_at": "2026-08-22",
+            "reviewer": "LUNA-MAX-B16-REVIEW",
+            "review_status": "PASS",
+            "basis_note": "BND academic bibliography dates the title to 1994 and distinguishes its travel-narrative form; fresh-context Reviewer PASS"
+          }
+        }
+      ]
+    },
+    {
+      "entity_id": "V1-ENT-0345",
+      "name_zh": "瓜达卢佩·内特尔",
+      "original_name": "Guadalupe Nettel",
+      "country_or_region": "墨西哥",
+      "birth_year": "1973",
+      "career_note": "小说家、短篇小说家与散文作者",
+      "literary_identity": "墨西哥小说家与短篇小说家",
+      "source_ids": [
+        "SRC-0263"
+      ],
+      "place_id": "V1-ENT-0051",
+      "audit_metadata": {
+        "origin_batch": "WEB-CE-B16",
+        "created_at": "2026-08-22",
+        "reviewed_at": "2026-08-22",
+        "reviewer": "LUNA-MAX-B16-REVIEW",
+        "review_status": "PASS",
+        "basis_note": "Editorial Anagrama author page identifies the Mexican author and her novel/story bibliography; Chinese labels remain provisional; fresh-context Reviewer PASS"
+      },
+      "works": [
+        {
+          "entity_id": "V1-ENT-0350",
+          "name_zh": "《独生女儿》",
+          "original_name": "La hija única",
+          "entity_type": "work",
+          "year": "2020",
+          "genre_or_form": "小说",
+          "source_ids": [
+            "SRC-0264"
+          ],
+          "display_name_status": "provisional_title",
+          "display_name_basis": "reader-facing Chinese label; original Spanish title retained; no Chinese edition claim",
+          "audit_metadata": {
+            "origin_batch": "WEB-CE-B16",
+            "created_at": "2026-08-22",
+            "reviewed_at": "2026-08-22",
+            "reviewer": "LUNA-MAX-B16-REVIEW",
+            "review_status": "PASS",
+            "basis_note": "Anagrama catalogue identifies the title as a novel and dates its publication to 16 September 2020; fresh-context Reviewer PASS"
+          }
+        },
+        {
+          "entity_id": "V1-ENT-0351",
+          "name_zh": "《红鱼之姻》",
+          "original_name": "El matrimonio de los peces rojos",
+          "entity_type": "collection",
+          "year": "2013",
+          "genre_or_form": "短篇小说集",
+          "source_ids": [
+            "SRC-0265"
+          ],
+          "display_name_status": "provisional_title",
+          "display_name_basis": "reader-facing Chinese label; original Spanish title retained; no Chinese edition claim",
+          "audit_metadata": {
+            "origin_batch": "WEB-CE-B16",
+            "created_at": "2026-08-22",
+            "reviewed_at": "2026-08-22",
+            "reviewer": "LUNA-MAX-B16-REVIEW",
+            "review_status": "PASS",
+            "basis_note": "Páginas de Espuma catalogue dates the book to May 2013 and describes five narrations; fresh-context Reviewer PASS"
+          }
+        },
+        {
+          "entity_id": "V1-ENT-0352",
+          "name_zh": "《真正的孤独》",
+          "original_name": "Pétalos y otras historias incómodas",
+          "entity_type": "collection",
+          "year": "2008",
+          "genre_or_form": "短篇小说集",
+          "source_ids": [
+            "SRC-0266"
+          ],
+          "display_name_status": "provisional_title",
+          "display_name_basis": "reader-facing Chinese label; original Spanish title retained; no Chinese edition claim",
+          "audit_metadata": {
+            "origin_batch": "WEB-CE-B16",
+            "created_at": "2026-08-22",
+            "reviewed_at": "2026-08-22",
+            "reviewer": "LUNA-MAX-B16-REVIEW",
+            "review_status": "PASS",
+            "basis_note": "Anagrama foreign-rights page establishes the Spanish original and 2008 publication; the Chinese label is provisional and is not used as a Spanish-title fact; fresh-context Reviewer PASS"
+          }
+        }
+      ]
+    },
+    {
+      "entity_id": "V1-ENT-0346",
+      "name_zh": "克里斯蒂娜·佩里·罗西",
+      "original_name": "Cristina Peri Rossi",
+      "country_or_region": "乌拉圭",
+      "birth_year": "1941",
+      "career_note": "作家、记者与活动家",
+      "literary_identity": "乌拉圭诗人、小说家与短篇小说家",
+      "source_ids": [
+        "SRC-0267",
+        "SRC-0268"
+      ],
+      "place_id": "V1-ENT-0196",
+      "audit_metadata": {
+        "origin_batch": "WEB-CE-B16",
+        "created_at": "2026-08-22",
+        "reviewed_at": "2026-08-22",
+        "reviewer": "LUNA-MAX-B16-REVIEW",
+        "review_status": "PASS",
+        "basis_note": "Instituto Cervantes biography, chronology and bibliography; Chinese labels remain provisional; fresh-context Reviewer PASS"
+      },
+      "works": [
+        {
+          "entity_id": "V1-ENT-0353",
+          "name_zh": "《错爱》",
+          "original_name": "Los amores equivocados",
+          "entity_type": "collection",
+          "year": "2015",
+          "genre_or_form": "短篇小说集",
+          "source_ids": [
+            "SRC-0268"
+          ],
+          "display_name_status": "provisional_title",
+          "display_name_basis": "reader-facing Chinese label; original Spanish title retained; no Chinese edition claim",
+          "audit_metadata": {
+            "origin_batch": "WEB-CE-B16",
+            "created_at": "2026-08-22",
+            "reviewed_at": "2026-08-22",
+            "reviewer": "LUNA-MAX-B16-REVIEW",
+            "review_status": "PASS",
+            "basis_note": "Cervantes chronology lists the 2015 relatos title; Chinese label is provisional; fresh-context Reviewer PASS"
+          }
+        },
+        {
+          "entity_id": "V1-ENT-0354",
+          "name_zh": "《恐龙的下午》",
+          "original_name": "La tarde del dinosaurio",
+          "entity_type": "collection",
+          "year": "1976",
+          "genre_or_form": "短篇小说集",
+          "source_ids": [
+            "SRC-0268",
+            "SRC-0269"
+          ],
+          "display_name_status": "provisional_title",
+          "display_name_basis": "reader-facing Chinese label; original Spanish title retained; no Chinese edition claim",
+          "audit_metadata": {
+            "origin_batch": "WEB-CE-B16",
+            "created_at": "2026-08-22",
+            "reviewed_at": "2026-08-22",
+            "reviewer": "LUNA-MAX-B16-REVIEW",
+            "review_status": "PASS",
+            "basis_note": "Cervantes chronology lists the 1976 relatos title and bibliography gives the 1976 Planeta story edition; fresh-context Reviewer PASS"
+          }
+        },
+        {
+          "entity_id": "V1-ENT-0355",
+          "name_zh": "《沉船记》",
+          "original_name": "Descripción de un naufragio",
+          "entity_type": "collection",
+          "year": "1975",
+          "genre_or_form": "诗集",
+          "source_ids": [
+            "SRC-0268",
+            "SRC-0269"
+          ],
+          "display_name_status": "provisional_title",
+          "display_name_basis": "reader-facing Chinese label; original Spanish title retained; no Chinese edition claim",
+          "audit_metadata": {
+            "origin_batch": "WEB-CE-B16",
+            "created_at": "2026-08-22",
+            "reviewed_at": "2026-08-22",
+            "reviewer": "LUNA-MAX-B16-REVIEW",
+            "review_status": "PASS",
+            "basis_note": "Cervantes chronology classifies the 1975 title under poetry and the bibliography records its Lumen poetry edition; fresh-context Reviewer PASS"
+          }
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "SRC-0261",
+      "temporary_id": "B16-SRC-0261",
+      "title": "Sepúlveda, Luis",
+      "original_title": "Sepúlveda, Luis",
+      "author_or_editor": "Biblioteca Nacional de Chile, Memoria Chilena",
+      "publisher": "Biblioteca Nacional de Chile",
+      "url": "https://www.memoriachilena.gob.cl/602/w3-propertyvalue-128650.html",
+      "source_level": "B",
+      "access": "access_pass",
+      "supports": "Luis Sepúlveda bibliography; Chilean author context; Un viejo que leía novelas de amor Madrid Azanca/Ediciones Júcar 1989 edition",
+      "language": "es",
+      "origin_batch": "WEB-CE-B16",
+      "created_at": "2026-08-22",
+      "reviewed_at": "2026-08-22",
+      "reviewer": "LUNA-MAX-B16-REVIEW",
+      "review_status": "PASS"
+    },
+    {
+      "source_id": "SRC-0262",
+      "temporary_id": "B16-SRC-0262",
+      "title": "La narrativa del chileno Luis Sepúlveda",
+      "original_title": "La narrativa del chileno Luis Sepúlveda",
+      "author_or_editor": "Juan Gabriel Araya G.",
+      "publisher": "Universidad del Bío-Bío / Biblioteca Nacional Digital de Chile",
+      "url": "https://www.bibliotecanacionaldigital.gob.cl/colecciones/BND/00/RC/RC0049657.pdf",
+      "source_level": "A",
+      "access": "access_pass",
+      "supports": "Sepúlveda 1949; Un viejo que leía novelas de amor cited in a 1993 Tusquets initial-books list; Mundo del fin del mundo 1994; Historia de una gaviota y del gato que le enseñó a volar 1996; novel/travel narrative and children's-novel distinctions",
+      "language": "es",
+      "origin_batch": "WEB-CE-B16",
+      "created_at": "2026-08-22",
+      "reviewed_at": "2026-08-22",
+      "reviewer": "LUNA-MAX-B16-REVIEW",
+      "review_status": "PASS"
+    },
+    {
+      "source_id": "SRC-0263",
+      "temporary_id": "B16-SRC-0263",
+      "title": "Guadalupe Nettel",
+      "original_title": "Guadalupe Nettel",
+      "author_or_editor": "Editorial Anagrama",
+      "publisher": "Editorial Anagrama",
+      "url": "https://www.anagrama-ed.es/autor/nettel-guadalupe-785",
+      "source_level": "B",
+      "access": "access_pass",
+      "supports": "Guadalupe Nettel, Ciudad de México 1973; bibliography including Pétalos y otras historias incómodas, El cuerpo en que nací, La hija única and El matrimonio de los peces rojos",
+      "language": "es",
+      "origin_batch": "WEB-CE-B16",
+      "created_at": "2026-08-22",
+      "reviewed_at": "2026-08-22",
+      "reviewer": "LUNA-MAX-B16-REVIEW",
+      "review_status": "PASS"
+    },
+    {
+      "source_id": "SRC-0264",
+      "temporary_id": "B16-SRC-0264",
+      "title": "La hija única",
+      "original_title": "La hija única",
+      "author_or_editor": "Editorial Anagrama",
+      "publisher": "Editorial Anagrama",
+      "url": "https://www.anagrama-ed.es/libro/narrativas-hispanicas/la-hija-unica/9788433999061/NH_652",
+      "source_level": "B",
+      "access": "access_pass",
+      "supports": "La hija única title, Guadalupe Nettel attribution, novel form and 16 September 2020 publication",
+      "language": "es",
+      "origin_batch": "WEB-CE-B16",
+      "created_at": "2026-08-22",
+      "reviewed_at": "2026-08-22",
+      "reviewer": "LUNA-MAX-B16-REVIEW",
+      "review_status": "PASS"
+    },
+    {
+      "source_id": "SRC-0265",
+      "temporary_id": "B16-SRC-0265",
+      "title": "El matrimonio de los peces rojos",
+      "original_title": "El matrimonio de los peces rojos",
+      "author_or_editor": "Editorial Páginas de Espuma",
+      "publisher": "Páginas de Espuma",
+      "url": "https://paginasdeespuma.com/libro/el-matrimonio-de-los-peces-rojos/",
+      "source_level": "B",
+      "access": "access_pass",
+      "supports": "El matrimonio de los peces rojos title, Guadalupe Nettel attribution, May 2013 publication and five-narration story-collection description",
+      "language": "es",
+      "origin_batch": "WEB-CE-B16",
+      "created_at": "2026-08-22",
+      "reviewed_at": "2026-08-22",
+      "reviewer": "LUNA-MAX-B16-REVIEW",
+      "review_status": "PASS"
+    },
+    {
+      "source_id": "SRC-0266",
+      "temporary_id": "B16-SRC-0266",
+      "title": "Petals and other awkward stories",
+      "original_title": "Pétalos y otras historias incómodas",
+      "author_or_editor": "Editorial Anagrama",
+      "publisher": "Editorial Anagrama",
+      "url": "https://www.anagrama-ed.es/foreign-rights/book/narrativas-hispanicas/petalos-y-otras-historias-incomodas/9788433971661/NH_428",
+      "source_level": "B",
+      "access": "access_pass",
+      "supports": "Pétalos y otras historias incómodas original title, Guadalupe Nettel attribution, short-story description and 4 February 2008 publication",
+      "language": "en",
+      "origin_batch": "WEB-CE-B16",
+      "created_at": "2026-08-22",
+      "reviewed_at": "2026-08-22",
+      "reviewer": "LUNA-MAX-B16-REVIEW",
+      "review_status": "PASS"
+    },
+    {
+      "source_id": "SRC-0267",
+      "temporary_id": "B16-SRC-0267",
+      "title": "Cristina Peri Rossi. Biografía",
+      "original_title": "Cristina Peri Rossi. Biografía",
+      "author_or_editor": "Instituto Cervantes, Departamento de Bibliotecas y Documentación",
+      "publisher": "Instituto Cervantes",
+      "url": "https://www.cervantes.es/bibliotecas_documentacion_espanol/creadores/peri_rossi_cristina.htm",
+      "source_level": "B",
+      "access": "access_pass",
+      "supports": "Cristina Peri Rossi born Montevideo, Uruguay 1941; writer, journalist and activist; works across prose and poetry including Descripción de un naufragio",
+      "language": "es",
+      "origin_batch": "WEB-CE-B16",
+      "created_at": "2026-08-22",
+      "reviewed_at": "2026-08-22",
+      "reviewer": "LUNA-MAX-B16-REVIEW",
+      "review_status": "PASS"
+    },
+    {
+      "source_id": "SRC-0268",
+      "temporary_id": "B16-SRC-0268",
+      "title": "Cristina Peri Rossi. Cronología de obras",
+      "original_title": "Cristina Peri Rossi. Cronología de obras",
+      "author_or_editor": "Instituto Cervantes, Departamento de Bibliotecas y Documentación",
+      "publisher": "Instituto Cervantes",
+      "url": "https://www.cervantes.es/bibliotecas_documentacion_espanol/creadores/peri_rossi_cristina_cronologia.htm",
+      "source_level": "B",
+      "access": "access_pass",
+      "supports": "Peri Rossi chronology: Descripción de un naufragio 1975 poetry; La tarde del dinosaurio 1976 relatos; Los amores equivocados 2015 relatos; author genre context",
+      "language": "es",
+      "origin_batch": "WEB-CE-B16",
+      "created_at": "2026-08-22",
+      "reviewed_at": "2026-08-22",
+      "reviewer": "LUNA-MAX-B16-REVIEW",
+      "review_status": "PASS"
+    },
+    {
+      "source_id": "SRC-0269",
+      "temporary_id": "B16-SRC-0269",
+      "title": "BIBLIOGRAFÍA DE CRISTINA PERI ROSSI",
+      "original_title": "BIBLIOGRAFÍA DE CRISTINA PERI ROSSI",
+      "author_or_editor": "Instituto Cervantes, Departamento de Bibliotecas y Documentación",
+      "publisher": "Instituto Cervantes",
+      "url": "https://www.cervantes.es/imagenes/File/biblioteca/bibliografias/peri_rossi_cristina_bibliografia_2021.pdf",
+      "source_level": "B",
+      "access": "access_pass",
+      "supports": "Bibliographic records for Descripción de un naufragio 1975 Lumen poetry edition and La tarde del dinosaurio 1976 Planeta story edition",
+      "language": "es",
+      "origin_batch": "WEB-CE-B16",
+      "created_at": "2026-08-22",
+      "reviewed_at": "2026-08-22",
+      "reviewer": "LUNA-MAX-B16-REVIEW",
+      "review_status": "PASS"
+    }
+  ],
+  "research_gaps": [
+    {
+      "gap_id": "V1-GAP-0023",
+      "origin_gap_id": "B16-GAP-01-0347",
+      "gap_type": "bibliographic_dispute",
+      "gap_key": "V1-ENT-0347.first_publication_year",
+      "current_status": "open_research",
+      "evidence_basis": "SRC-0261 lists a Madrid Azanca/Ediciones Júcar 1989 edition while SRC-0262 cites a 1993 Tusquets edition in its initial-books list; edition-level chronology is not reconciled in this batch.",
+      "attempts_or_count": "1",
+      "owner_decision": "SOL_REVIEW",
+      "downstream_effect": "Use first_book_edition_year=1989, keep 1993 as a source note only, and do not assert an uncontested first-publication year in public prose.",
+      "issue_code": "BIBLIOGRAPHIC-DISPUTE"
+    }
+  ],
+  "holds": [],
+  "relationships": [
+    {
+      "relationship_id": "V1-REL-0272",
+      "subject_id": "V1-ENT-0344",
+      "relation_type": "CREATED",
+      "object_id": "V1-ENT-0347",
+      "description_zh": "路易斯·塞普尔韦达创作《一个老人读爱情小说》（Un viejo que leía novelas de amor）",
+      "source_ids": [
+        "SRC-0261",
+        "SRC-0262"
+      ],
+      "confidence": "high"
+    },
+    {
+      "relationship_id": "V1-REL-0273",
+      "subject_id": "V1-ENT-0344",
+      "relation_type": "CREATED",
+      "object_id": "V1-ENT-0348",
+      "description_zh": "路易斯·塞普尔韦达创作《一只海鸥和教它飞翔的猫》（Historia de una gaviota y del gato que le enseñó a volar）",
+      "source_ids": [
+        "SRC-0262"
+      ],
+      "confidence": "high"
+    },
+    {
+      "relationship_id": "V1-REL-0274",
+      "subject_id": "V1-ENT-0344",
+      "relation_type": "CREATED",
+      "object_id": "V1-ENT-0349",
+      "description_zh": "路易斯·塞普尔韦达创作《世界尽头》（Mundo del fin del mundo）",
+      "source_ids": [
+        "SRC-0262"
+      ],
+      "confidence": "high"
+    },
+    {
+      "relationship_id": "V1-REL-0275",
+      "subject_id": "V1-ENT-0345",
+      "relation_type": "CREATED",
+      "object_id": "V1-ENT-0350",
+      "description_zh": "瓜达卢佩·内特尔创作《独生女儿》（La hija única）",
+      "source_ids": [
+        "SRC-0264"
+      ],
+      "confidence": "high"
+    },
+    {
+      "relationship_id": "V1-REL-0276",
+      "subject_id": "V1-ENT-0345",
+      "relation_type": "CREATED",
+      "object_id": "V1-ENT-0351",
+      "description_zh": "瓜达卢佩·内特尔创作《红鱼之姻》（El matrimonio de los peces rojos）",
+      "source_ids": [
+        "SRC-0265"
+      ],
+      "confidence": "high"
+    },
+    {
+      "relationship_id": "V1-REL-0277",
+      "subject_id": "V1-ENT-0345",
+      "relation_type": "CREATED",
+      "object_id": "V1-ENT-0352",
+      "description_zh": "瓜达卢佩·内特尔创作《真正的孤独》（Pétalos y otras historias incómodas）",
+      "source_ids": [
+        "SRC-0266"
+      ],
+      "confidence": "high"
+    },
+    {
+      "relationship_id": "V1-REL-0278",
+      "subject_id": "V1-ENT-0346",
+      "relation_type": "CREATED",
+      "object_id": "V1-ENT-0353",
+      "description_zh": "克里斯蒂娜·佩里·罗西创作《错爱》（Los amores equivocados）",
+      "source_ids": [
+        "SRC-0268"
+      ],
+      "confidence": "high"
+    },
+    {
+      "relationship_id": "V1-REL-0279",
+      "subject_id": "V1-ENT-0346",
+      "relation_type": "CREATED",
+      "object_id": "V1-ENT-0354",
+      "description_zh": "克里斯蒂娜·佩里·罗西创作《恐龙的下午》（La tarde del dinosaurio）",
+      "source_ids": [
+        "SRC-0268",
+        "SRC-0269"
+      ],
+      "confidence": "high"
+    },
+    {
+      "relationship_id": "V1-REL-0280",
+      "subject_id": "V1-ENT-0346",
+      "relation_type": "CREATED",
+      "object_id": "V1-ENT-0355",
+      "description_zh": "克里斯蒂娜·佩里·罗西创作《沉船记》（Descripción de un naufragio）",
+      "source_ids": [
+        "SRC-0268",
+        "SRC-0269"
+      ],
+      "confidence": "high"
+    },
+    {
+      "relationship_id": "V1-REL-0281",
+      "subject_id": "V1-ENT-0344",
+      "relation_type": "ASSOCIATED_WITH_PLACE",
+      "object_id": "V1-ENT-0123",
+      "description_zh": "路易斯·塞普尔韦达与智利关联",
+      "source_ids": [
+        "SRC-0261",
+        "SRC-0262"
+      ],
+      "confidence": "high"
+    },
+    {
+      "relationship_id": "V1-REL-0282",
+      "subject_id": "V1-ENT-0345",
+      "relation_type": "ASSOCIATED_WITH_PLACE",
+      "object_id": "V1-ENT-0051",
+      "description_zh": "瓜达卢佩·内特尔与墨西哥关联",
+      "source_ids": [
+        "SRC-0263"
+      ],
+      "confidence": "high"
+    },
+    {
+      "relationship_id": "V1-REL-0283",
+      "subject_id": "V1-ENT-0346",
+      "relation_type": "ASSOCIATED_WITH_PLACE",
+      "object_id": "V1-ENT-0196",
+      "description_zh": "克里斯蒂娜·佩里·罗西与乌拉圭关联",
+      "source_ids": [
+        "SRC-0267",
+        "SRC-0268"
+      ],
+      "confidence": "high"
+    }
+  ],
+  "cards": [
+    {
+      "card_id": "V1-CARD-0232",
+      "subject_id": "V1-ENT-0344",
+      "card_type": "author",
+      "title_zh": "路易斯·塞普尔韦达",
+      "author_label": "路易斯·塞普尔韦达",
+      "original_title": "Luis Sepúlveda",
+      "country_or_region": "智利",
+      "language": "es",
+      "period_bucket": "1949–2020",
+      "genre_or_form": "智利小说家与旅行写作者",
+      "source_ids": [
+        "SRC-0261",
+        "SRC-0262"
+      ],
+      "content_markdown": "### 路易斯·塞普尔韦达｜Luis Sepúlveda — source-backed author entry for WEB-CE-B16."
+    },
+    {
+      "card_id": "V1-CARD-0233",
+      "subject_id": "V1-ENT-0347",
+      "card_type": "work",
+      "title_zh": "《一个老人读爱情小说》",
+      "author_label": "路易斯·塞普尔韦达",
+      "original_title": "Un viejo que leía novelas de amor",
+      "country_or_region": "智利",
+      "language": "es",
+      "period_bucket": "first_book_edition_year=1989",
+      "genre_or_form": "小说",
+      "source_ids": [
+        "SRC-0261",
+        "SRC-0262"
+      ],
+      "content_markdown": "### 《一个老人读爱情小说》｜Un viejo que leía novelas de amor — source-backed 小说 entry; original title retained."
+    },
+    {
+      "card_id": "V1-CARD-0234",
+      "subject_id": "V1-ENT-0348",
+      "card_type": "work",
+      "title_zh": "《一只海鸥和教它飞翔的猫》",
+      "author_label": "路易斯·塞普尔韦达",
+      "original_title": "Historia de una gaviota y del gato que le enseñó a volar",
+      "country_or_region": "智利",
+      "language": "es",
+      "period_bucket": "1996",
+      "genre_or_form": "儿童小说",
+      "source_ids": [
+        "SRC-0262"
+      ],
+      "content_markdown": "### 《一只海鸥和教它飞翔的猫》｜Historia de una gaviota y del gato que le enseñó a volar — source-backed 儿童小说 entry; original title retained."
+    },
+    {
+      "card_id": "V1-CARD-0235",
+      "subject_id": "V1-ENT-0349",
+      "card_type": "work",
+      "title_zh": "《世界尽头》",
+      "author_label": "路易斯·塞普尔韦达",
+      "original_title": "Mundo del fin del mundo",
+      "country_or_region": "智利",
+      "language": "es",
+      "period_bucket": "1994",
+      "genre_or_form": "旅行叙事",
+      "source_ids": [
+        "SRC-0262"
+      ],
+      "content_markdown": "### 《世界尽头》｜Mundo del fin del mundo — source-backed 旅行叙事 entry; original title retained."
+    },
+    {
+      "card_id": "V1-CARD-0236",
+      "subject_id": "V1-ENT-0345",
+      "card_type": "author",
+      "title_zh": "瓜达卢佩·内特尔",
+      "author_label": "瓜达卢佩·内特尔",
+      "original_title": "Guadalupe Nettel",
+      "country_or_region": "墨西哥",
+      "language": "es",
+      "period_bucket": "1973–present",
+      "genre_or_form": "墨西哥小说家与短篇小说家",
+      "source_ids": [
+        "SRC-0263"
+      ],
+      "content_markdown": "### 瓜达卢佩·内特尔｜Guadalupe Nettel — source-backed author entry for WEB-CE-B16."
+    },
+    {
+      "card_id": "V1-CARD-0237",
+      "subject_id": "V1-ENT-0350",
+      "card_type": "work",
+      "title_zh": "《独生女儿》",
+      "author_label": "瓜达卢佩·内特尔",
+      "original_title": "La hija única",
+      "country_or_region": "墨西哥",
+      "language": "es",
+      "period_bucket": "2020",
+      "genre_or_form": "小说",
+      "source_ids": [
+        "SRC-0264"
+      ],
+      "content_markdown": "### 《独生女儿》｜La hija única — source-backed 小说 entry; original title retained."
+    },
+    {
+      "card_id": "V1-CARD-0238",
+      "subject_id": "V1-ENT-0351",
+      "card_type": "collection",
+      "title_zh": "《红鱼之姻》",
+      "author_label": "瓜达卢佩·内特尔",
+      "original_title": "El matrimonio de los peces rojos",
+      "country_or_region": "墨西哥",
+      "language": "es",
+      "period_bucket": "2013",
+      "genre_or_form": "短篇小说集",
+      "source_ids": [
+        "SRC-0265"
+      ],
+      "content_markdown": "### 《红鱼之姻》｜El matrimonio de los peces rojos — source-backed 短篇小说集 entry; original title retained."
+    },
+    {
+      "card_id": "V1-CARD-0239",
+      "subject_id": "V1-ENT-0352",
+      "card_type": "collection",
+      "title_zh": "《真正的孤独》",
+      "author_label": "瓜达卢佩·内特尔",
+      "original_title": "Pétalos y otras historias incómodas",
+      "country_or_region": "墨西哥",
+      "language": "es",
+      "period_bucket": "2008",
+      "genre_or_form": "短篇小说集",
+      "source_ids": [
+        "SRC-0266"
+      ],
+      "content_markdown": "### 《真正的孤独》｜Pétalos y otras historias incómodas — source-backed 短篇小说集 entry; original title retained."
+    },
+    {
+      "card_id": "V1-CARD-0240",
+      "subject_id": "V1-ENT-0346",
+      "card_type": "author",
+      "title_zh": "克里斯蒂娜·佩里·罗西",
+      "author_label": "克里斯蒂娜·佩里·罗西",
+      "original_title": "Cristina Peri Rossi",
+      "country_or_region": "乌拉圭",
+      "language": "es",
+      "period_bucket": "1941–present",
+      "genre_or_form": "乌拉圭诗人、小说家与短篇小说家",
+      "source_ids": [
+        "SRC-0267",
+        "SRC-0268"
+      ],
+      "content_markdown": "### 克里斯蒂娜·佩里·罗西｜Cristina Peri Rossi — source-backed author entry for WEB-CE-B16."
+    },
+    {
+      "card_id": "V1-CARD-0241",
+      "subject_id": "V1-ENT-0353",
+      "card_type": "collection",
+      "title_zh": "《错爱》",
+      "author_label": "克里斯蒂娜·佩里·罗西",
+      "original_title": "Los amores equivocados",
+      "country_or_region": "乌拉圭",
+      "language": "es",
+      "period_bucket": "2015",
+      "genre_or_form": "短篇小说集",
+      "source_ids": [
+        "SRC-0268"
+      ],
+      "content_markdown": "### 《错爱》｜Los amores equivocados — source-backed 短篇小说集 entry; original title retained."
+    },
+    {
+      "card_id": "V1-CARD-0242",
+      "subject_id": "V1-ENT-0354",
+      "card_type": "collection",
+      "title_zh": "《恐龙的下午》",
+      "author_label": "克里斯蒂娜·佩里·罗西",
+      "original_title": "La tarde del dinosaurio",
+      "country_or_region": "乌拉圭",
+      "language": "es",
+      "period_bucket": "1976",
+      "genre_or_form": "短篇小说集",
+      "source_ids": [
+        "SRC-0268",
+        "SRC-0269"
+      ],
+      "content_markdown": "### 《恐龙的下午》｜La tarde del dinosaurio — source-backed 短篇小说集 entry; original title retained."
+    },
+    {
+      "card_id": "V1-CARD-0243",
+      "subject_id": "V1-ENT-0355",
+      "card_type": "collection",
+      "title_zh": "《沉船记》",
+      "author_label": "克里斯蒂娜·佩里·罗西",
+      "original_title": "Descripción de un naufragio",
+      "country_or_region": "乌拉圭",
+      "language": "es",
+      "period_bucket": "1975",
+      "genre_or_form": "诗集",
+      "source_ids": [
+        "SRC-0268",
+        "SRC-0269"
+      ],
+      "content_markdown": "### 《沉船记》｜Descripción de un naufragio — source-backed 诗集 entry; original title retained."
+    }
+  ],
+  "facts": [
+    {
+      "fact_id": "V1-FCT-0926",
+      "card_id": "V1-CARD-0232",
+      "subject_id": "V1-ENT-0344",
+      "fact_field": "birth_year",
+      "value_text": "1949",
+      "material_class": "fact",
+      "origin_id": "SRC-0262",
+      "confidence": "high",
+      "admission_status": "candidate_for_staging_review",
+      "usage_note": "Official source identifies Luis Sepúlveda birth year."
+    },
+    {
+      "fact_id": "V1-FCT-0927",
+      "card_id": "V1-CARD-0232",
+      "subject_id": "V1-ENT-0344",
+      "fact_field": "career_note",
+      "value_text": "小说家、记者与旅行作家",
+      "material_class": "fact",
+      "origin_id": "SRC-0262",
+      "confidence": "high",
+      "admission_status": "candidate_for_staging_review",
+      "usage_note": "Source-backed career description for Luis Sepúlveda."
+    },
+    {
+      "fact_id": "V1-FCT-0928",
+      "card_id": "V1-CARD-0232",
+      "subject_id": "V1-ENT-0344",
+      "fact_field": "literary_identity",
+      "value_text": "智利小说家与旅行写作者",
+      "material_class": "fact",
+      "origin_id": "SRC-0262",
+      "confidence": "high",
+      "admission_status": "candidate_for_staging_review",
+      "usage_note": "Conservative literary identity derived from the cited author/chronology source."
+    },
+    {
+      "fact_id": "V1-FCT-0929",
+      "card_id": "V1-CARD-0233",
+      "subject_id": "V1-ENT-0347",
+      "fact_field": "entity_layer",
+      "value_text": "work",
+      "material_class": "metadata",
+      "origin_id": "SRC-0261",
+      "confidence": "high",
+      "admission_status": "candidate_for_staging_review",
+      "usage_note": "Entity layer is recorded as work."
+    },
+    {
+      "fact_id": "V1-FCT-0930",
+      "card_id": "V1-CARD-0233",
+      "subject_id": "V1-ENT-0347",
+      "fact_field": "first_book_edition_year",
+      "value_text": "1989",
+      "material_class": "bibliographic",
+      "origin_id": "SRC-0261",
+      "confidence": "medium",
+      "admission_status": "candidate_for_staging_review",
+      "usage_note": "1989 is retained as a book-edition anchor; first-publication chronology remains open."
+    },
+    {
+      "fact_id": "V1-FCT-0931",
+      "card_id": "V1-CARD-0233",
+      "subject_id": "V1-ENT-0347",
+      "fact_field": "genre_or_form",
+      "value_text": "小说",
+      "material_class": "bibliographic",
+      "origin_id": "SRC-0261",
+      "confidence": "high",
+      "admission_status": "candidate_for_staging_review",
+      "usage_note": "Cited source supports the conservative form label 小说."
+    },
+    {
+      "fact_id": "V1-FCT-0932",
+      "card_id": "V1-CARD-0234",
+      "subject_id": "V1-ENT-0348",
+      "fact_field": "entity_layer",
+      "value_text": "work",
+      "material_class": "metadata",
+      "origin_id": "SRC-0262",
+      "confidence": "high",
+      "admission_status": "candidate_for_staging_review",
+      "usage_note": "Entity layer is recorded as work."
+    },
+    {
+      "fact_id": "V1-FCT-0933",
+      "card_id": "V1-CARD-0234",
+      "subject_id": "V1-ENT-0348",
+      "fact_field": "first_publication_year",
+      "value_text": "1996",
+      "material_class": "bibliographic",
+      "origin_id": "SRC-0262",
+      "confidence": "high",
+      "admission_status": "candidate_for_staging_review",
+      "usage_note": "Cited source dates the title to 1996."
+    },
+    {
+      "fact_id": "V1-FCT-0934",
+      "card_id": "V1-CARD-0234",
+      "subject_id": "V1-ENT-0348",
+      "fact_field": "genre_or_form",
+      "value_text": "儿童小说",
+      "material_class": "bibliographic",
+      "origin_id": "SRC-0262",
+      "confidence": "high",
+      "admission_status": "candidate_for_staging_review",
+      "usage_note": "Cited source supports the conservative form label 儿童小说."
+    },
+    {
+      "fact_id": "V1-FCT-0935",
+      "card_id": "V1-CARD-0235",
+      "subject_id": "V1-ENT-0349",
+      "fact_field": "entity_layer",
+      "value_text": "work",
+      "material_class": "metadata",
+      "origin_id": "SRC-0262",
+      "confidence": "high",
+      "admission_status": "candidate_for_staging_review",
+      "usage_note": "Entity layer is recorded as work."
+    },
+    {
+      "fact_id": "V1-FCT-0936",
+      "card_id": "V1-CARD-0235",
+      "subject_id": "V1-ENT-0349",
+      "fact_field": "first_publication_year",
+      "value_text": "1994",
+      "material_class": "bibliographic",
+      "origin_id": "SRC-0262",
+      "confidence": "high",
+      "admission_status": "candidate_for_staging_review",
+      "usage_note": "Cited source dates the title to 1994."
+    },
+    {
+      "fact_id": "V1-FCT-0937",
+      "card_id": "V1-CARD-0235",
+      "subject_id": "V1-ENT-0349",
+      "fact_field": "genre_or_form",
+      "value_text": "旅行叙事",
+      "material_class": "bibliographic",
+      "origin_id": "SRC-0262",
+      "confidence": "high",
+      "admission_status": "candidate_for_staging_review",
+      "usage_note": "Cited source supports the conservative form label 旅行叙事."
+    },
+    {
+      "fact_id": "V1-FCT-0938",
+      "card_id": "V1-CARD-0236",
+      "subject_id": "V1-ENT-0345",
+      "fact_field": "birth_year",
+      "value_text": "1973",
+      "material_class": "fact",
+      "origin_id": "SRC-0263",
+      "confidence": "high",
+      "admission_status": "candidate_for_staging_review",
+      "usage_note": "Official source identifies Guadalupe Nettel birth year."
+    },
+    {
+      "fact_id": "V1-FCT-0939",
+      "card_id": "V1-CARD-0236",
+      "subject_id": "V1-ENT-0345",
+      "fact_field": "career_note",
+      "value_text": "小说家、短篇小说家与散文作者",
+      "material_class": "fact",
+      "origin_id": "SRC-0263",
+      "confidence": "high",
+      "admission_status": "candidate_for_staging_review",
+      "usage_note": "Source-backed career description for Guadalupe Nettel."
+    },
+    {
+      "fact_id": "V1-FCT-0940",
+      "card_id": "V1-CARD-0236",
+      "subject_id": "V1-ENT-0345",
+      "fact_field": "literary_identity",
+      "value_text": "墨西哥小说家与短篇小说家",
+      "material_class": "fact",
+      "origin_id": "SRC-0263",
+      "confidence": "high",
+      "admission_status": "candidate_for_staging_review",
+      "usage_note": "Conservative literary identity derived from the cited author/chronology source."
+    },
+    {
+      "fact_id": "V1-FCT-0941",
+      "card_id": "V1-CARD-0237",
+      "subject_id": "V1-ENT-0350",
+      "fact_field": "entity_layer",
+      "value_text": "work",
+      "material_class": "metadata",
+      "origin_id": "SRC-0264",
+      "confidence": "high",
+      "admission_status": "candidate_for_staging_review",
+      "usage_note": "Entity layer is recorded as work."
+    },
+    {
+      "fact_id": "V1-FCT-0942",
+      "card_id": "V1-CARD-0237",
+      "subject_id": "V1-ENT-0350",
+      "fact_field": "first_publication_year",
+      "value_text": "2020",
+      "material_class": "bibliographic",
+      "origin_id": "SRC-0264",
+      "confidence": "high",
+      "admission_status": "candidate_for_staging_review",
+      "usage_note": "Cited source dates the title to 2020."
+    },
+    {
+      "fact_id": "V1-FCT-0943",
+      "card_id": "V1-CARD-0237",
+      "subject_id": "V1-ENT-0350",
+      "fact_field": "genre_or_form",
+      "value_text": "小说",
+      "material_class": "bibliographic",
+      "origin_id": "SRC-0264",
+      "confidence": "high",
+      "admission_status": "candidate_for_staging_review",
+      "usage_note": "Cited source supports the conservative form label 小说."
+    },
+    {
+      "fact_id": "V1-FCT-0944",
+      "card_id": "V1-CARD-0238",
+      "subject_id": "V1-ENT-0351",
+      "fact_field": "entity_layer",
+      "value_text": "collection",
+      "material_class": "metadata",
+      "origin_id": "SRC-0265",
+      "confidence": "high",
+      "admission_status": "candidate_for_staging_review",
+      "usage_note": "Entity layer is recorded as collection."
+    },
+    {
+      "fact_id": "V1-FCT-0945",
+      "card_id": "V1-CARD-0238",
+      "subject_id": "V1-ENT-0351",
+      "fact_field": "first_publication_year",
+      "value_text": "2013",
+      "material_class": "bibliographic",
+      "origin_id": "SRC-0265",
+      "confidence": "high",
+      "admission_status": "candidate_for_staging_review",
+      "usage_note": "Cited source dates the title to 2013."
+    },
+    {
+      "fact_id": "V1-FCT-0946",
+      "card_id": "V1-CARD-0238",
+      "subject_id": "V1-ENT-0351",
+      "fact_field": "genre_or_form",
+      "value_text": "短篇小说集",
+      "material_class": "bibliographic",
+      "origin_id": "SRC-0265",
+      "confidence": "high",
+      "admission_status": "candidate_for_staging_review",
+      "usage_note": "Cited source supports the conservative form label 短篇小说集."
+    },
+    {
+      "fact_id": "V1-FCT-0947",
+      "card_id": "V1-CARD-0239",
+      "subject_id": "V1-ENT-0352",
+      "fact_field": "entity_layer",
+      "value_text": "collection",
+      "material_class": "metadata",
+      "origin_id": "SRC-0266",
+      "confidence": "high",
+      "admission_status": "candidate_for_staging_review",
+      "usage_note": "Entity layer is recorded as collection."
+    },
+    {
+      "fact_id": "V1-FCT-0948",
+      "card_id": "V1-CARD-0239",
+      "subject_id": "V1-ENT-0352",
+      "fact_field": "first_publication_year",
+      "value_text": "2008",
+      "material_class": "bibliographic",
+      "origin_id": "SRC-0266",
+      "confidence": "high",
+      "admission_status": "candidate_for_staging_review",
+      "usage_note": "Cited source dates the title to 2008."
+    },
+    {
+      "fact_id": "V1-FCT-0949",
+      "card_id": "V1-CARD-0239",
+      "subject_id": "V1-ENT-0352",
+      "fact_field": "genre_or_form",
+      "value_text": "短篇小说集",
+      "material_class": "bibliographic",
+      "origin_id": "SRC-0266",
+      "confidence": "high",
+      "admission_status": "candidate_for_staging_review",
+      "usage_note": "Cited source supports the conservative form label 短篇小说集."
+    },
+    {
+      "fact_id": "V1-FCT-0950",
+      "card_id": "V1-CARD-0240",
+      "subject_id": "V1-ENT-0346",
+      "fact_field": "birth_year",
+      "value_text": "1941",
+      "material_class": "fact",
+      "origin_id": "SRC-0267",
+      "confidence": "high",
+      "admission_status": "candidate_for_staging_review",
+      "usage_note": "Official source identifies Cristina Peri Rossi birth year."
+    },
+    {
+      "fact_id": "V1-FCT-0951",
+      "card_id": "V1-CARD-0240",
+      "subject_id": "V1-ENT-0346",
+      "fact_field": "career_note",
+      "value_text": "作家、记者与活动家",
+      "material_class": "fact",
+      "origin_id": "SRC-0267",
+      "confidence": "high",
+      "admission_status": "candidate_for_staging_review",
+      "usage_note": "Source-backed career description for Cristina Peri Rossi."
+    },
+    {
+      "fact_id": "V1-FCT-0952",
+      "card_id": "V1-CARD-0240",
+      "subject_id": "V1-ENT-0346",
+      "fact_field": "literary_identity",
+      "value_text": "乌拉圭诗人、小说家与短篇小说家",
+      "material_class": "fact",
+      "origin_id": "SRC-0267",
+      "confidence": "high",
+      "admission_status": "candidate_for_staging_review",
+      "usage_note": "Conservative literary identity derived from the cited author/chronology source."
+    },
+    {
+      "fact_id": "V1-FCT-0953",
+      "card_id": "V1-CARD-0241",
+      "subject_id": "V1-ENT-0353",
+      "fact_field": "entity_layer",
+      "value_text": "collection",
+      "material_class": "metadata",
+      "origin_id": "SRC-0268",
+      "confidence": "high",
+      "admission_status": "candidate_for_staging_review",
+      "usage_note": "Entity layer is recorded as collection."
+    },
+    {
+      "fact_id": "V1-FCT-0954",
+      "card_id": "V1-CARD-0241",
+      "subject_id": "V1-ENT-0353",
+      "fact_field": "first_publication_year",
+      "value_text": "2015",
+      "material_class": "bibliographic",
+      "origin_id": "SRC-0268",
+      "confidence": "high",
+      "admission_status": "candidate_for_staging_review",
+      "usage_note": "Cited source dates the title to 2015."
+    },
+    {
+      "fact_id": "V1-FCT-0955",
+      "card_id": "V1-CARD-0241",
+      "subject_id": "V1-ENT-0353",
+      "fact_field": "genre_or_form",
+      "value_text": "短篇小说集",
+      "material_class": "bibliographic",
+      "origin_id": "SRC-0268",
+      "confidence": "high",
+      "admission_status": "candidate_for_staging_review",
+      "usage_note": "Cited source supports the conservative form label 短篇小说集."
+    },
+    {
+      "fact_id": "V1-FCT-0956",
+      "card_id": "V1-CARD-0242",
+      "subject_id": "V1-ENT-0354",
+      "fact_field": "entity_layer",
+      "value_text": "collection",
+      "material_class": "metadata",
+      "origin_id": "SRC-0268",
+      "confidence": "high",
+      "admission_status": "candidate_for_staging_review",
+      "usage_note": "Entity layer is recorded as collection."
+    },
+    {
+      "fact_id": "V1-FCT-0957",
+      "card_id": "V1-CARD-0242",
+      "subject_id": "V1-ENT-0354",
+      "fact_field": "first_publication_year",
+      "value_text": "1976",
+      "material_class": "bibliographic",
+      "origin_id": "SRC-0268",
+      "confidence": "high",
+      "admission_status": "candidate_for_staging_review",
+      "usage_note": "Cited source dates the title to 1976."
+    },
+    {
+      "fact_id": "V1-FCT-0958",
+      "card_id": "V1-CARD-0242",
+      "subject_id": "V1-ENT-0354",
+      "fact_field": "genre_or_form",
+      "value_text": "短篇小说集",
+      "material_class": "bibliographic",
+      "origin_id": "SRC-0268",
+      "confidence": "high",
+      "admission_status": "candidate_for_staging_review",
+      "usage_note": "Cited source supports the conservative form label 短篇小说集."
+    },
+    {
+      "fact_id": "V1-FCT-0959",
+      "card_id": "V1-CARD-0243",
+      "subject_id": "V1-ENT-0355",
+      "fact_field": "entity_layer",
+      "value_text": "collection",
+      "material_class": "metadata",
+      "origin_id": "SRC-0268",
+      "confidence": "high",
+      "admission_status": "candidate_for_staging_review",
+      "usage_note": "Entity layer is recorded as collection."
+    },
+    {
+      "fact_id": "V1-FCT-0960",
+      "card_id": "V1-CARD-0243",
+      "subject_id": "V1-ENT-0355",
+      "fact_field": "first_publication_year",
+      "value_text": "1975",
+      "material_class": "bibliographic",
+      "origin_id": "SRC-0268",
+      "confidence": "high",
+      "admission_status": "candidate_for_staging_review",
+      "usage_note": "Cited source dates the title to 1975."
+    },
+    {
+      "fact_id": "V1-FCT-0961",
+      "card_id": "V1-CARD-0243",
+      "subject_id": "V1-ENT-0355",
+      "fact_field": "genre_or_form",
+      "value_text": "诗集",
+      "material_class": "bibliographic",
+      "origin_id": "SRC-0268",
+      "confidence": "high",
+      "admission_status": "candidate_for_staging_review",
+      "usage_note": "Cited source supports the conservative form label 诗集."
+    }
+  ],
+  "works": [
+    {
+      "entity_id": "V1-ENT-0347",
+      "name_zh": "《一个老人读爱情小说》",
+      "original_name": "Un viejo que leía novelas de amor",
+      "entity_type": "work",
+      "year": null,
+      "year_semantics": "first_book_edition_year=1989",
+      "genre_or_form": "小说",
+      "source_ids": [
+        "SRC-0261",
+        "SRC-0262"
+      ],
+      "candidate_ref": "CAND-B16-SEPULVEDA-W01",
+      "basis": "Memoria Chilena lists the 1989 Madrid Azanca edition; the BND article cites a later 1993 Tusquets edition, so the edition distinction is retained"
+    },
+    {
+      "entity_id": "V1-ENT-0348",
+      "name_zh": "《一只海鸥和教它飞翔的猫》",
+      "original_name": "Historia de una gaviota y del gato que le enseñó a volar",
+      "entity_type": "work",
+      "year": "1996",
+      "genre_or_form": "儿童小说",
+      "source_ids": [
+        "SRC-0262"
+      ],
+      "candidate_ref": "CAND-B16-SEPULVEDA-W02",
+      "basis": "BND academic bibliography calls it a 1996 children's novel"
+    },
+    {
+      "entity_id": "V1-ENT-0349",
+      "name_zh": "《世界尽头》",
+      "original_name": "Mundo del fin del mundo",
+      "entity_type": "work",
+      "year": "1994",
+      "genre_or_form": "旅行叙事",
+      "source_ids": [
+        "SRC-0262"
+      ],
+      "candidate_ref": "CAND-B16-SEPULVEDA-W03",
+      "basis": "BND academic bibliography dates the title to 1994 and distinguishes its travel-narrative form"
+    },
+    {
+      "entity_id": "V1-ENT-0350",
+      "name_zh": "《独生女儿》",
+      "original_name": "La hija única",
+      "entity_type": "work",
+      "year": "2020",
+      "genre_or_form": "小说",
+      "source_ids": [
+        "SRC-0264"
+      ],
+      "candidate_ref": "CAND-B16-NETTEL-W01",
+      "basis": "Anagrama catalogue identifies the title as a novel and dates its publication to 16 September 2020"
+    },
+    {
+      "entity_id": "V1-ENT-0351",
+      "name_zh": "《红鱼之姻》",
+      "original_name": "El matrimonio de los peces rojos",
+      "entity_type": "collection",
+      "year": "2013",
+      "genre_or_form": "短篇小说集",
+      "source_ids": [
+        "SRC-0265"
+      ],
+      "candidate_ref": "CAND-B16-NETTEL-W02",
+      "basis": "Páginas de Espuma catalogue dates the book to May 2013 and describes five narrations"
+    },
+    {
+      "entity_id": "V1-ENT-0352",
+      "name_zh": "《真正的孤独》",
+      "original_name": "Pétalos y otras historias incómodas",
+      "entity_type": "collection",
+      "year": "2008",
+      "genre_or_form": "短篇小说集",
+      "source_ids": [
+        "SRC-0266"
+      ],
+      "candidate_ref": "CAND-B16-NETTEL-W03",
+      "basis": "Anagrama foreign-rights page establishes the Spanish original and 2008 publication; the Chinese label is provisional and is not used as a Spanish-title fact"
+    },
+    {
+      "entity_id": "V1-ENT-0353",
+      "name_zh": "《错爱》",
+      "original_name": "Los amores equivocados",
+      "entity_type": "collection",
+      "year": "2015",
+      "genre_or_form": "短篇小说集",
+      "source_ids": [
+        "SRC-0268"
+      ],
+      "candidate_ref": "CAND-B16-PERI-ROSSI-W01",
+      "basis": "Cervantes chronology lists the 2015 relatos title; Chinese label is provisional"
+    },
+    {
+      "entity_id": "V1-ENT-0354",
+      "name_zh": "《恐龙的下午》",
+      "original_name": "La tarde del dinosaurio",
+      "entity_type": "collection",
+      "year": "1976",
+      "genre_or_form": "短篇小说集",
+      "source_ids": [
+        "SRC-0268",
+        "SRC-0269"
+      ],
+      "candidate_ref": "CAND-B16-PERI-ROSSI-W02",
+      "basis": "Cervantes chronology lists the 1976 relatos title and bibliography gives the 1976 Planeta story edition"
+    },
+    {
+      "entity_id": "V1-ENT-0355",
+      "name_zh": "《沉船记》",
+      "original_name": "Descripción de un naufragio",
+      "entity_type": "collection",
+      "year": "1975",
+      "genre_or_form": "诗集",
+      "source_ids": [
+        "SRC-0268",
+        "SRC-0269"
+      ],
+      "candidate_ref": "CAND-B16-PERI-ROSSI-W03",
+      "basis": "Cervantes chronology classifies the 1975 title under poetry and the bibliography records its Lumen poetry edition"
+    }
+  ]
+}

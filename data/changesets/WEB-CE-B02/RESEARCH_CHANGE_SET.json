@@ -1,0 +1,73 @@
+{
+  "batch": "WEB-CE-B02",
+  "plan": "B02 诺奖前史 + Boom 后女性文学 + 巴西大众经典",
+  "display_name_policy": {"applies_to":"all authors[].works[]","default_status":"provisional_title","basis":"60+ roadmap reader-facing label; no Chinese-edition bibliographic claim"},
+  "authors": [
+    {
+      "entity_id": "V1-ENT-0170",
+      "name_zh": "米格尔·安赫尔·阿斯图里亚斯",
+      "original_name": "Miguel Ángel Asturias",
+      "country_or_region": "危地马拉",
+      "birth_year": "1899",
+      "death_year": "1974",
+      "source_ids": ["SRC-0130"],
+      "works": [
+        {"entity_id":"V1-ENT-0173","name_zh":"《总统先生》","original_name":"El Señor Presidente","entity_type":"work","year":"1946","source_ids":["SRC-0130"]},
+        {"entity_id":"V1-ENT-0174","name_zh":"《玉米人》","original_name":"Hombres de maíz","entity_type":"work","year":"1949","source_ids":["SRC-0132"]},
+        {"entity_id":"V1-ENT-0175","name_zh":"《危地马拉传说》","original_name":"Leyendas de Guatemala","entity_type":"collection","year":"1930","source_ids":["SRC-0130"]}
+      ],
+      "place_id": "V1-ENT-0182"
+    },
+    {
+      "entity_id": "V1-ENT-0171",
+      "name_zh": "伊莎贝尔·阿连德",
+      "original_name": "Isabel Allende",
+      "country_or_region": "智利",
+      "birth_year": "1942",
+      "birth_place": "利马（Lima, Perú）",
+      "source_ids": ["SRC-0133", "SRC-0134"],
+      "works": [
+        {"entity_id":"V1-ENT-0176","name_zh":"《幽灵之家》","original_name":"La casa de los espíritus","entity_type":"work","year":"1982","source_ids":["SRC-0134","SRC-0135"]},
+        {"entity_id":"V1-ENT-0177","name_zh":"《爱情与阴影》","original_name":"De amor y de sombras","entity_type":"work","year":"1984","source_ids":["SRC-0134","SRC-0136"]},
+        {"entity_id":"V1-ENT-0178","name_zh":"《伊娃·露娜》","original_name":"Eva Luna","entity_type":"work","year":"1987","source_ids":["SRC-0134","SRC-0137"]}
+      ],
+      "place_id": "V1-ENT-0123"
+    },
+    {
+      "entity_id": "V1-ENT-0172",
+      "name_zh": "豪尔赫·亚马多",
+      "original_name": "Jorge Amado",
+      "country_or_region": "巴西",
+      "birth_year": "1912",
+      "death_year": "2001",
+      "birth_place": "伊塔布纳（Itabuna, Bahia）",
+      "source_ids": ["SRC-0138", "SRC-0139"],
+      "works": [
+        {"entity_id":"V1-ENT-0179","name_zh":"《弗洛尔和她的两个丈夫》","original_name":"Dona Flor e seus dois maridos","entity_type":"work","year":"1966","source_ids":["SRC-0139"]},
+        {"entity_id":"V1-ENT-0180","name_zh":"《加布里埃拉》","original_name":"Gabriela, cravo e canela","entity_type":"work","year":"1958","source_ids":["SRC-0139"]},
+        {"entity_id":"V1-ENT-0181","name_zh":"《沙滩船长》","original_name":"Capitães da Areia","entity_type":"work","year":"1937","source_ids":["SRC-0139","SRC-0140"]}
+      ],
+      "place_id": "V1-ENT-0183"
+    }
+  ],
+  "places": [
+    {"entity_id":"V1-ENT-0182","name_zh":"危地马拉","original_name":"Guatemala","country_code":"GT","coordinate_source_url":"https://www.geonames.org/3595528/republic-of-guatemala.html"},
+    {"entity_id":"V1-ENT-0183","name_zh":"巴西","original_name":"Brazil","country_code":"BR","coordinate_source_url":"https://www.geonames.org/3469034/federative-republic-of-brazil.html"}
+  ],
+  "source_registry": [
+    {"source_id":"SRC-0130","title":"Miguel Ángel Asturias – Bibliografía","original_title":"Miguel Ángel Asturias","author_or_editor":"Bibliothèque nationale de France","publisher":"Bibliothèque nationale de France","publication_year":"2024","language":"es","source_level":"B","url":"https://www.bnf.fr/sites/default/files/2024-07/Miguel%20Asturias.pdf","scope":"作者生卒年、原文作品题名与首版年份（El Señor Presidente、Hombres de maíz、Leyendas de Guatemala）"},
+    {"source_id":"SRC-0132","title":"Hombres de maíz – Biblioteca de Humanidades","original_title":"Hombres de maíz","author_or_editor":"Universidad de San Carlos de Guatemala, Biblioteca de Humanidades","publisher":"Universidad de San Carlos de Guatemala","publication_year":"持续更新（2026-08-20 访问）","language":"es","source_level":"B","url":"https://bibliohumanidades.usac.edu.gt/library/index.php?title=9408","scope":"Hombres de maíz 书目身份与 1949 年出版年份"},
+    {"source_id":"SRC-0133","title":"Isabel Allende – Biography","original_title":"Isabel Allende - Biography","author_or_editor":"Isabel Allende","publisher":"isabelallende.com","publication_year":"持续更新（2026-08-20 访问）","language":"en","source_level":"B","url":"https://www.isabelallende.com/en/bio","scope":"作者官方传记入口"},
+    {"source_id":"SRC-0134","title":"Isabel Allende – Timeline","original_title":"Isabel Allende - Timeline","author_or_editor":"Isabel Allende","publisher":"isabelallende.com","publication_year":"持续更新（2026-08-20 访问）","language":"en","source_level":"B","url":"https://www.isabelallende.com/en/timeline","scope":"出生年份、原文版出版年份与生平时间线"},
+    {"source_id":"SRC-0135","title":"Isabel Allende – The House of the Spirits","original_title":"The House of the Spirits","author_or_editor":"Isabel Allende","publisher":"isabelallende.com","publication_year":"持续更新（2026-08-20 访问）","language":"en","source_level":"B","url":"https://www.isabelallende.com/en/book/house","scope":"作品官方书目页；英译首版信息"},
+    {"source_id":"SRC-0136","title":"Isabel Allende – Of Love and Shadows","original_title":"Of Love and Shadows","author_or_editor":"Isabel Allende","publisher":"isabelallende.com","publication_year":"持续更新（2026-08-20 访问）","language":"en","source_level":"B","url":"https://www.isabelallende.com/en/book/love","scope":"作品官方书目页；英译首版信息"},
+    {"source_id":"SRC-0137","title":"Isabel Allende – Eva Luna","original_title":"Eva Luna","author_or_editor":"Isabel Allende","publisher":"isabelallende.com","publication_year":"持续更新（2026-08-20 访问）","language":"en","source_level":"B","url":"https://www.isabelallende.com/en/book/evaluna","scope":"作品官方书目页；英译首版信息"},
+    {"source_id":"SRC-0138","title":"Jorge Amado – Biografia","original_title":"Jorge Amado – Biografia","author_or_editor":"Academia Brasileira de Letras","publisher":"Academia Brasileira de Letras","publication_year":"持续更新（2026-08-20 访问）","language":"pt","source_level":"B","url":"https://www.academia.org.br/academicos/jorge-amado/biografia","scope":"作者身份、生卒年月日、出生地与文学活动"},
+    {"source_id":"SRC-0139","title":"Jorge Amado – Bibliografia","original_title":"Jorge Amado – Bibliografia","author_or_editor":"Academia Brasileira de Letras","publisher":"Academia Brasileira de Letras","publication_year":"持续更新（2026-08-20 访问）","language":"pt","source_level":"B","url":"https://www.academia.org.br/academicos/jorge-amado/bibliografia","scope":"作品原文题名与出版年份"},
+    {"source_id":"SRC-0140","title":"Capitães da Areia – Companhia das Letras","original_title":"Capitães da Areia","author_or_editor":"Companhia das Letras","publisher":"Companhia das Letras","publication_year":"持续更新（2026-08-20 访问）","language":"pt","source_level":"B","url":"https://www.companhiadasletras.com.br/trechos/80129.pdf","scope":"出版者书目资料与 1937 年首版信息"}
+  ],
+  "holds": [
+    {"item":"所有强文学史关系、文学运动归属、影响关系和强主题判断","reason":"本批已打开来源未达到项目关系门槛，暂不建立正式关系。"},
+    {"item":"Allende 三部作品的中文版本学字段","reason":"不影响中文展示名；译者、出版社、ISBN和中文出版年留待后续版本学轮次。"}
+  ]
+}

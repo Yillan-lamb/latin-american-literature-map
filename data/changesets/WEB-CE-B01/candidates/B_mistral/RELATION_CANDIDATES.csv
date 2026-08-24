@@ -1,0 +1,7 @@
+temporary_id,subject_id,relation_type,object_id,description_zh,confidence,review_status,evidence_count,issue_code,source_temporary_ids,evidence_notes
+CAND-B-REL-001,CAND-B-ENT-001,CREATED,CAND-B-ENT-002,米斯特拉尔创作诗集《绝望集》（Desolación，1922）,high,candidate,1,NONE,"CAND-B-SRC-001;CAND-B-SRC-003",直接书目来源：Nobel 书目页列 Desolación 1922；Facts 页称其第一部重要作品为 Desolación（"Mistral's first major work was Desolación, published in 1922"）；CREATED 结构关系单来源（A/B）即可
+CAND-B-REL-002,CAND-B-ENT-001,CREATED,CAND-B-ENT-003,米斯特拉尔创作诗集《柔情集》（Ternura，1924）,high,candidate,1,NONE,"CAND-B-SRC-001;CAND-B-SRC-003",Facts 页 "In 1924 came Ternura (Tenderness)" + 书目页 1924
+CAND-B-REL-003,CAND-B-ENT-001,CREATED,CAND-B-ENT-004,米斯特拉尔创作诗集《塔拉集》（Tala，1938）,high,candidate,1,NONE,"CAND-B-SRC-001;CAND-B-SRC-003",Facts 页 "later Tala (Felling) in 1938" + 书目页 1938
+CAND-B-REL-004,CAND-B-ENT-001,ASSOCIATED_WITH_PLACE,V1-ENT-0123,米斯特拉尔与智利关联（生于智利、获奖时居留地 Chile）,high,candidate,1,NONE,CAND-B-SRC-001,参照 V1-REL-0071（聂鲁达→智利，evidence_count=1）关联强度；关联性质=国籍/出生/居留，非解释型
+CAND-B-REL-005,CAND-B-ENT-001,ASSOCIATED_WITH_PLACE,CAND-B-ENT-006,米斯特拉尔与出生地比库尼亚（Vicuña，Elqui 河谷）关联,high,candidate,1,NONE,CAND-B-SRC-001,参照 V1-REL-0056（马尔克斯→阿卡塔卡出生地关联）模式；出生地不作 BORN_IN 关系（禁用）
+CAND-B-REL-006,CAND-B-ENT-001,ASSOCIATED_WITH_MOVEMENT,V1-ENT-0131,早期诗作受现代主义（Modernismo）影响；文学史亦有将其归入现代主义之后"后现代主义"（posmodernismo）一代的归类,medium,hold,1,hold_needs_second_source,"CAND-B-SRC-001;CAND-B-SRC-006;CAND-B-SRC-007",仅 Nobel 官网 1 项合格来源（"They are also influenced by the modernist movement"）；UGR/CORE 学术来源未打开核验（下载超时/0 字节），两项独立来源未凑齐 → 按 packet 规则显式 hold_needs_second_source

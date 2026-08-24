@@ -38,7 +38,7 @@ def main() -> int:
             "python3", str(ROOT / "scripts/build_v2_web_data.py"),
             "--public-content", str(draft), "--output-dir", str(WEB),
             "--presentation", str(presentation_draft),
-            "--generated-at", "2026-08-13T00:00:00Z",
+            "--generated-at", "2026-08-22T12:00:00Z",
         ], cwd=ROOT, check=True)
     subprocess.run([
         "python3", str(ROOT / "scripts/build_v2_deploy_bundle.py"),
@@ -47,7 +47,7 @@ def main() -> int:
     ], cwd=ROOT, check=True)
     index = BUNDLE / "index.html"
     html = index.read_text(encoding="utf-8")
-    banner = '<div style="position:sticky;top:0;z-index:9999;padding:10px 16px;background:#7e281f;color:#fff;text-align:center;font:600 13px sans-serif">rc.5 本地审核预览｜包含待审策展问题｜不是正式发布网站</div>'
+    banner = '<div data-review-preview-banner style="position:sticky;top:0;z-index:9999;padding:10px 16px;background:#7e281f;color:#fff;text-align:center;font:600 13px sans-serif">rc.5 本地审核预览｜包含待审策展问题｜不是正式发布网站</div>'
     index.write_text(html.replace("<body>", f"<body>{banner}", 1), encoding="utf-8")
     print(BUNDLE)
     return 0

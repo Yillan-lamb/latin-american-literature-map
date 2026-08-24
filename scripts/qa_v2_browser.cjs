@@ -12,7 +12,7 @@ const journeys = [
   ["work", "works/pedro-paramo-v1-ent-0038/", "为什么值得读"],
   ["search", "search/?q=马孔多", "马孔多"],
   ["timeline", "timeline/", "文学时间线"],
-  ["about", "about/", "这个项目是什么"],
+  ["about", "about/", "为什么做一张"],
   ["not-found", "404.html", "这条文学路径尚未开放"],
 ];
 

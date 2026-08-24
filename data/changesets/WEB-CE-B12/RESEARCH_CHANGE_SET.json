@@ -1,0 +1,488 @@
+{
+  "batch": "WEB-CE-B12",
+  "plan": "当代短篇、恐怖叙事与智利新小说入口",
+  "started_at": "2026-08-21",
+  "review_metadata": {
+    "origin_batch": "WEB-CE-B12",
+    "created_at": "2026-08-21",
+    "reviewed_at": "2026-08-21",
+    "reviewer": "LUNA-MAX-B12-REVIEW",
+    "review_status": "PASS",
+    "basis_note": "fresh-context Reviewer PASS and follow-up PASS in review/REVIEW.md"
+  },
+  "display_name_policy": {
+    "applies_to": "all authors[].works[]",
+    "default_status": "provisional_title",
+    "basis": "60+ roadmap reader-facing label; original title retained; no Chinese-edition bibliographic claim"
+  },
+  "authors": [
+    {
+      "entity_id": "V1-ENT-0296",
+      "name_zh": "萨曼塔·施韦布林",
+      "original_name": "Samanta Schweblin",
+      "country_or_region": "阿根廷",
+      "birth_year": "1978",
+      "death_year": null,
+      "career_note": "短篇小说家、小说家",
+      "literary_identity": "短篇小说与小说作者",
+      "source_ids": [
+        "SRC-0231",
+        "SRC-0232"
+      ],
+      "place_id": "V1-ENT-0001",
+      "works": [
+        {
+          "entity_id": "V1-ENT-0299",
+          "name_zh": "《救援距离》",
+          "original_name": "Distancia de rescate",
+          "entity_type": "work",
+          "year": null,
+          "genre_or_form": "小说",
+          "source_ids": [
+            "SRC-0231",
+            "SRC-0234"
+          ],
+          "display_name_status": "provisional_title",
+          "display_name_basis": "60+ roadmap reader-facing label; original title retained; no Chinese edition claim",
+          "audit_metadata": {
+            "origin_batch": "WEB-CE-B12",
+            "created_at": "2026-08-21",
+            "reviewed_at": "2026-08-21",
+            "reviewer": "LUNA-MAX-B12-REVIEW",
+            "review_status": "PASS",
+            "basis_note": "Argentina Ministry copyright record and PRH book page; provisional Chinese label"
+          }
+        },
+        {
+          "entity_id": "V1-ENT-0300",
+          "name_zh": "《口中之鸟》",
+          "original_name": "Pájaros en la boca",
+          "entity_type": "collection",
+          "year": null,
+          "genre_or_form": "短篇小说集",
+          "source_ids": [
+            "SRC-0231",
+            "SRC-0233"
+          ],
+          "display_name_status": "provisional_title",
+          "display_name_basis": "60+ roadmap reader-facing label; original title retained; no Chinese edition claim",
+          "audit_metadata": {
+            "origin_batch": "WEB-CE-B12",
+            "created_at": "2026-08-21",
+            "reviewed_at": "2026-08-21",
+            "reviewer": "LUNA-MAX-B12-REVIEW",
+            "review_status": "PASS",
+            "basis_note": "Argentina Ministry bibliography and PRH book page; first year not asserted"
+          }
+        },
+        {
+          "entity_id": "V1-ENT-0301",
+          "name_zh": "《七座空屋》",
+          "original_name": "Siete casas vacías",
+          "entity_type": "collection",
+          "year": null,
+          "genre_or_form": "短篇小说集",
+          "source_ids": [
+            "SRC-0231",
+            "SRC-0232"
+          ],
+          "display_name_status": "provisional_title",
+          "display_name_basis": "60+ roadmap reader-facing label; original title retained; no Chinese edition claim",
+          "audit_metadata": {
+            "origin_batch": "WEB-CE-B12",
+            "created_at": "2026-08-21",
+            "reviewed_at": "2026-08-21",
+            "reviewer": "LUNA-MAX-B12-REVIEW",
+            "review_status": "PASS",
+            "basis_note": "Argentina Ministry bibliography and PRH author/book page; current edition year not used"
+          }
+        }
+      ],
+      "audit_metadata": {
+        "origin_batch": "WEB-CE-B12",
+        "created_at": "2026-08-21",
+        "reviewed_at": "2026-08-21",
+        "reviewer": "LUNA-MAX-B12-REVIEW",
+        "review_status": "PASS",
+        "basis_note": "Argentina Ministry biography and PRH author profile"
+      }
+    },
+    {
+      "entity_id": "V1-ENT-0297",
+      "name_zh": "玛丽安娜·恩里克斯",
+      "original_name": "Mariana Enriquez",
+      "country_or_region": "阿根廷",
+      "birth_year": "1973",
+      "death_year": null,
+      "career_note": "记者、教师与小说/故事作者",
+      "literary_identity": "小说与短篇故事作者",
+      "source_ids": [
+        "SRC-0235"
+      ],
+      "place_id": "V1-ENT-0001",
+      "works": [
+        {
+          "entity_id": "V1-ENT-0302",
+          "name_zh": "《我们在火中失去的东西》",
+          "original_name": "Las cosas que perdimos en el fuego",
+          "entity_type": "collection",
+          "year": "2016",
+          "genre_or_form": "短篇小说集",
+          "source_ids": [
+            "SRC-0235",
+            "SRC-0238"
+          ],
+          "display_name_status": "provisional_title",
+          "display_name_basis": "60+ roadmap reader-facing label; original title retained; no Chinese edition claim",
+          "audit_metadata": {
+            "origin_batch": "WEB-CE-B12",
+            "created_at": "2026-08-21",
+            "reviewed_at": "2026-08-21",
+            "reviewer": "LUNA-MAX-B12-REVIEW",
+            "review_status": "PASS",
+            "basis_note": "Anagrama award notice and book page state collection and February 2016 publication"
+          }
+        },
+        {
+          "entity_id": "V1-ENT-0303",
+          "name_zh": "《我们的夜晚》",
+          "original_name": "Nuestra parte de noche",
+          "entity_type": "work",
+          "year": null,
+          "genre_or_form": "小说",
+          "source_ids": [
+            "SRC-0235",
+            "SRC-0236"
+          ],
+          "display_name_status": "provisional_title",
+          "display_name_basis": "60+ roadmap reader-facing label; original title retained; no Chinese edition claim",
+          "audit_metadata": {
+            "origin_batch": "WEB-CE-B12",
+            "created_at": "2026-08-21",
+            "reviewed_at": "2026-08-21",
+            "reviewer": "LUNA-MAX-B12-REVIEW",
+            "review_status": "PASS",
+            "basis_note": "Anagrama author and book pages identify the novel; 2019 retained as award year only"
+          }
+        },
+        {
+          "entity_id": "V1-ENT-0304",
+          "name_zh": "《床上吸烟的危险》",
+          "original_name": "Los peligros de fumar en la cama",
+          "entity_type": "collection",
+          "year": null,
+          "genre_or_form": "短篇小说集",
+          "source_ids": [
+            "SRC-0235",
+            "SRC-0237"
+          ],
+          "display_name_status": "provisional_title",
+          "display_name_basis": "60+ roadmap reader-facing label; original title retained; no Chinese edition claim",
+          "audit_metadata": {
+            "origin_batch": "WEB-CE-B12",
+            "created_at": "2026-08-21",
+            "reviewed_at": "2026-08-21",
+            "reviewer": "LUNA-MAX-B12-REVIEW",
+            "review_status": "PASS",
+            "basis_note": "Anagrama notice and book page identify a prior story collection; first year not asserted"
+          }
+        }
+      ],
+      "audit_metadata": {
+        "origin_batch": "WEB-CE-B12",
+        "created_at": "2026-08-21",
+        "reviewed_at": "2026-08-21",
+        "reviewer": "LUNA-MAX-B12-REVIEW",
+        "review_status": "PASS",
+        "basis_note": "Anagrama institutional biography and award notice"
+      }
+    },
+    {
+      "entity_id": "V1-ENT-0298",
+      "name_zh": "亚历杭德罗·桑布拉",
+      "original_name": "Alejandro Zambra",
+      "country_or_region": "智利",
+      "birth_year": "1975",
+      "death_year": null,
+      "career_note": "小说家、短篇小说与随笔作者",
+      "literary_identity": "小说、短篇小说与随笔作者",
+      "source_ids": [
+        "SRC-0239",
+        "SRC-0240"
+      ],
+      "place_id": "V1-ENT-0123",
+      "works": [
+        {
+          "entity_id": "V1-ENT-0305",
+          "name_zh": "《盆栽》",
+          "original_name": "Bonsái",
+          "entity_type": "work",
+          "year": "2006",
+          "genre_or_form": "小说",
+          "source_ids": [
+            "SRC-0239",
+            "SRC-0240"
+          ],
+          "display_name_status": "provisional_title",
+          "display_name_basis": "60+ roadmap reader-facing label; original title retained; no Chinese edition claim",
+          "audit_metadata": {
+            "origin_batch": "WEB-CE-B12",
+            "created_at": "2026-08-21",
+            "reviewed_at": "2026-08-21",
+            "reviewer": "LUNA-MAX-B12-REVIEW",
+            "review_status": "PASS",
+            "basis_note": "Anagrama author page and Memoria Chilena article"
+          }
+        },
+        {
+          "entity_id": "V1-ENT-0306",
+          "name_zh": "《树木的私生活》",
+          "original_name": "La vida privada de los árboles",
+          "entity_type": "work",
+          "year": "2007",
+          "genre_or_form": "小说",
+          "source_ids": [
+            "SRC-0239",
+            "SRC-0240"
+          ],
+          "display_name_status": "provisional_title",
+          "display_name_basis": "60+ roadmap reader-facing label; original title retained; no Chinese edition claim",
+          "audit_metadata": {
+            "origin_batch": "WEB-CE-B12",
+            "created_at": "2026-08-21",
+            "reviewed_at": "2026-08-21",
+            "reviewer": "LUNA-MAX-B12-REVIEW",
+            "review_status": "PASS",
+            "basis_note": "Anagrama author page and Memoria Chilena article"
+          }
+        },
+        {
+          "entity_id": "V1-ENT-0307",
+          "name_zh": "《回家的方式》",
+          "original_name": "Formas de volver a casa",
+          "entity_type": "work",
+          "year": "2011",
+          "genre_or_form": "小说",
+          "source_ids": [
+            "SRC-0239",
+            "SRC-0240"
+          ],
+          "display_name_status": "provisional_title",
+          "display_name_basis": "60+ roadmap reader-facing label; original title retained; no Chinese edition claim",
+          "audit_metadata": {
+            "origin_batch": "WEB-CE-B12",
+            "created_at": "2026-08-21",
+            "reviewed_at": "2026-08-21",
+            "reviewer": "LUNA-MAX-B12-REVIEW",
+            "review_status": "PASS",
+            "basis_note": "Anagrama author page and Memoria Chilena article"
+          }
+        }
+      ],
+      "audit_metadata": {
+        "origin_batch": "WEB-CE-B12",
+        "created_at": "2026-08-21",
+        "reviewed_at": "2026-08-21",
+        "reviewer": "LUNA-MAX-B12-REVIEW",
+        "review_status": "PASS",
+        "basis_note": "Anagrama author profile and Memoria Chilena article"
+      }
+    }
+  ],
+  "places": [],
+  "source_registry": [
+    {
+      "source_id": "SRC-0231",
+      "title": "Perdiendo velocidad — Historias x leer",
+      "author_or_editor": "Ministerio de Educación de la Nación Argentina",
+      "publisher": "Ministerio de Educación de la Nación",
+      "url": "https://www.argentina.gob.ar/sites/default/files/2022/11/p700-_perdiendo_velocidad_micro.pdf",
+      "source_level": "B",
+      "access": "access_pass",
+      "supports": "Argentina Ministry PDF records ©2014 Distancia de rescate; Schweblin in Buenos Aires 1978; cuentista/novelista; Pájaros en la boca and Siete casas vacías",
+      "origin_batch": "WEB-CE-B12",
+      "created_at": "2026-08-21",
+      "reviewed_at": "2026-08-21",
+      "reviewer": "LUNA-MAX-B12-REVIEW",
+      "review_status": "PASS"
+    },
+    {
+      "source_id": "SRC-0232",
+      "title": "Samanta Schweblin — Penguin Random House author profile",
+      "author_or_editor": "Penguin Random House",
+      "publisher": "Penguin Random House",
+      "url": "https://www.penguinrandomhouse.com/authors/2128471/samanta-schweblin/",
+      "source_level": "B",
+      "access": "access_pass",
+      "supports": "Publisher profile identifies Schweblin as originally from Buenos Aires and lists Pájaros en la boca, Siete casas vacías / Seven Empty Houses, and Distancia de rescate",
+      "origin_batch": "WEB-CE-B12",
+      "created_at": "2026-08-21",
+      "reviewed_at": "2026-08-21",
+      "reviewer": "LUNA-MAX-B12-REVIEW",
+      "review_status": "PASS"
+    },
+    {
+      "source_id": "SRC-0233",
+      "title": "Pájaros en la boca / Mouthful of Birds: Stories",
+      "author_or_editor": "Penguin Random House",
+      "publisher": "Penguin Random House",
+      "url": "https://www.penguinrandomhouse.com/books/787456/pajaros-en-la-boca--mouthful-of-birds-stories-by-samanta-schweblin/",
+      "source_level": "B",
+      "access": "access_pass",
+      "supports": "Publisher book page gives title, author, and story-collection form; current edition date not used as first publication",
+      "origin_batch": "WEB-CE-B12",
+      "created_at": "2026-08-21",
+      "reviewed_at": "2026-08-21",
+      "reviewer": "LUNA-MAX-B12-REVIEW",
+      "review_status": "PASS"
+    },
+    {
+      "source_id": "SRC-0234",
+      "title": "Distancia de rescate / Fever Dream",
+      "author_or_editor": "Penguin Random House",
+      "publisher": "Penguin Random House",
+      "url": "https://www.penguinrandomhouse.com/books/652915/distancia-de-rescate--fever-dream-by-samanta-schweblin/",
+      "source_level": "B",
+      "access": "access_pass",
+      "supports": "Publisher book page identifies title, author, and first-novel form; current edition date not used as first publication",
+      "origin_batch": "WEB-CE-B12",
+      "created_at": "2026-08-21",
+      "reviewed_at": "2026-08-21",
+      "reviewer": "LUNA-MAX-B12-REVIEW",
+      "review_status": "PASS"
+    },
+    {
+      "source_id": "SRC-0235",
+      "title": "Mariana Enriquez gana el premio Ciutat de Barcelona en la categoría Literatura castellana",
+      "author_or_editor": "Editorial Anagrama",
+      "publisher": "Editorial Anagrama",
+      "url": "https://www.anagrama-ed.es/noticias/premios-y-distinciones/mariana-enriquez-gana-el-premio-ciutat-de-barcelona-en-la-categoria-literatura-castellana--282",
+      "source_level": "B",
+      "access": "access_pass",
+      "supports": "Anagrama notice identifies Argentine author Buenos Aires 1973, journalist/subeditor/teacher; Las cosas as a story book published February 2016; Los peligros as earlier Argentine story book",
+      "origin_batch": "WEB-CE-B12",
+      "created_at": "2026-08-21",
+      "reviewed_at": "2026-08-21",
+      "reviewer": "LUNA-MAX-B12-REVIEW",
+      "review_status": "PASS"
+    },
+    {
+      "source_id": "SRC-0236",
+      "title": "Nuestra parte de noche — Mariana Enriquez",
+      "author_or_editor": "Editorial Anagrama",
+      "publisher": "Editorial Anagrama",
+      "url": "https://www.anagrama-ed.es/libro/narrativas-hispanicas/nuestra-parte-de-noche/9788433998859/NH_636",
+      "source_level": "B",
+      "access": "access_pass",
+      "supports": "Publisher page identifies title, author, novel form, and Premio Herralde de Novela 2019",
+      "origin_batch": "WEB-CE-B12",
+      "created_at": "2026-08-21",
+      "reviewed_at": "2026-08-21",
+      "reviewer": "LUNA-MAX-B12-REVIEW",
+      "review_status": "PASS"
+    },
+    {
+      "source_id": "SRC-0237",
+      "title": "Los peligros de fumar en la cama — Mariana Enriquez",
+      "author_or_editor": "Editorial Anagrama",
+      "publisher": "Editorial Anagrama",
+      "url": "https://www.anagrama-ed.es/libro/narrativas-hispanicas/los-peligros-de-fumar-en-la-cama/9788433998248/NH_580",
+      "source_level": "B",
+      "access": "access_pass",
+      "supports": "Publisher page identifies title, author, and twelve-story collection form",
+      "origin_batch": "WEB-CE-B12",
+      "created_at": "2026-08-21",
+      "reviewed_at": "2026-08-21",
+      "reviewer": "LUNA-MAX-B12-REVIEW",
+      "review_status": "PASS"
+    },
+    {
+      "source_id": "SRC-0238",
+      "title": "Las cosas que perdimos en el fuego — Mariana Enriquez",
+      "author_or_editor": "Editorial Anagrama",
+      "publisher": "Editorial Anagrama",
+      "url": "https://www.anagrama-ed.es/libro/narrativas-hispanicas/las-cosas-que-perdimos-en-el-fuego/9788433998064/NH_559",
+      "source_level": "B",
+      "access": "access_pass",
+      "supports": "Publisher page identifies title and author; Anagrama notice supplies story-collection form and February 2016 publication",
+      "origin_batch": "WEB-CE-B12",
+      "created_at": "2026-08-21",
+      "reviewed_at": "2026-08-21",
+      "reviewer": "LUNA-MAX-B12-REVIEW",
+      "review_status": "PASS"
+    },
+    {
+      "source_id": "SRC-0239",
+      "title": "Alejandro Zambra — Editorial Anagrama",
+      "author_or_editor": "Editorial Anagrama",
+      "publisher": "Editorial Anagrama",
+      "url": "https://www.anagrama-ed.es/autor/zambra-alejandro-1146",
+      "source_level": "B",
+      "access": "access_pass",
+      "supports": "Author profile states Santiago de Chile 1975 and lists Bonsái 2006, La vida privada de los árboles 2007, Formas de volver a casa 2011",
+      "origin_batch": "WEB-CE-B12",
+      "created_at": "2026-08-21",
+      "reviewed_at": "2026-08-21",
+      "reviewer": "LUNA-MAX-B12-REVIEW",
+      "review_status": "PASS"
+    },
+    {
+      "source_id": "SRC-0240",
+      "title": "Sobre No leer. Crónicas y ensayos sobre literatura de Alejandro Zambra — Mapocho",
+      "author_or_editor": "Paulina Andrade S.",
+      "publisher": "Memoria Chilena / Biblioteca Nacional de Chile",
+      "url": "https://www.memoriachilena.gob.cl/archivos2/pdfs/MC0048557.pdf",
+      "source_level": "B",
+      "access": "access_pass",
+      "supports": "Institutional literary article independently records Zambra 1975, the 2006/2007/2011 sequence, and novel forms",
+      "origin_batch": "WEB-CE-B12",
+      "created_at": "2026-08-21",
+      "reviewed_at": "2026-08-21",
+      "reviewer": "LUNA-MAX-B12-REVIEW",
+      "review_status": "PASS"
+    }
+  ],
+  "holds": [],
+  "research_gaps": [
+    {
+      "gap_id": "B12-GAP-01",
+      "target_ids": [
+        "V1-ENT-0300",
+        "V1-ENT-0301",
+        "V1-ENT-0304"
+      ],
+      "formal_gap_ids": [
+        "V1-GAP-0017",
+        "V1-GAP-0018",
+        "V1-GAP-0019"
+      ],
+      "field": "first_publication_year",
+      "status": "open_research",
+      "reason": "Opened publisher pages establish title and collection form but current edition dates do not establish original first publication; do not infer a year."
+    },
+    {
+      "gap_id": "B12-GAP-02",
+      "target_ids": [
+        "V1-ENT-0303"
+      ],
+      "formal_gap_ids": [
+        "V1-GAP-0020"
+      ],
+      "field": "first_publication_year",
+      "status": "open_research",
+      "reason": "Anagrama page establishes novel form and 2019 award; award year is recorded separately and is not silently treated as first publication."
+    },
+    {
+      "gap_id": "B12-GAP-03",
+      "formal_gap_ids": [
+        "V1-GAP-0021"
+      ],
+      "target_ids": [
+        "V1-ENT-0299"
+      ],
+      "field": "first_publication_year",
+      "status": "open_research",
+      "reason": "The accessible Ministry PDF marks ©2014 but does not state first publication; keep copyright year separate from first-publication year."
+    }
+  ]
+}

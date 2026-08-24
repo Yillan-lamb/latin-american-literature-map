@@ -1,0 +1,334 @@
+{
+  "batch": "WEB-CE-B04",
+  "plan": "阿根廷幻想小说 + 巴拉圭历史叙事 + 乌拉圭短篇传统",
+  "display_name_policy": {"applies_to":"all authors[].works[]","default_status":"provisional_title","basis":"60+ roadmap reader-facing label; no Chinese-edition bibliographic claim"},
+  "authors": [
+    {
+      "entity_id": "V1-ENT-0198",
+      "name_zh": "阿道夫·比奥伊·卡萨雷斯",
+      "original_name": "Adolfo Bioy Casares",
+      "country_or_region": "阿根廷",
+      "birth_year": "1914",
+      "death_year": "1999",
+      "birth_place": "布宜诺斯艾利斯（Buenos Aires）",
+      "source_ids": [
+        "SRC-0153",
+        "SRC-0154"
+      ],
+      "works": [
+        {
+          "entity_id": "V1-ENT-0201",
+          "name_zh": "《莫雷尔的发明》",
+          "original_name": "La invención de Morel",
+          "entity_type": "work",
+          "year": "1940",
+          "source_ids": [
+            "SRC-0153",
+            "SRC-0154",
+            "SRC-0155"
+          ]
+        },
+        {
+          "entity_id": "V1-ENT-0202",
+          "name_zh": "《逃亡计划》",
+          "original_name": "Plan de evasión",
+          "entity_type": "work",
+          "year": "1945",
+          "source_ids": [
+            "SRC-0154",
+            "SRC-0156"
+          ]
+        },
+        {
+          "entity_id": "V1-ENT-0203",
+          "name_zh": "《英雄的梦》",
+          "original_name": "El sueño de los héroes",
+          "entity_type": "work",
+          "year": "1954",
+          "source_ids": [
+            "SRC-0154",
+            "SRC-0155"
+          ]
+        }
+      ],
+      "place_id": "V1-ENT-0001"
+    },
+    {
+      "entity_id": "V1-ENT-0199",
+      "name_zh": "奥古斯托·罗亚·巴斯托斯",
+      "original_name": "Augusto Roa Bastos",
+      "country_or_region": "巴拉圭",
+      "birth_year": "1917",
+      "death_year": "2005",
+      "birth_place": "亚松森（Asunción）",
+      "source_ids": [
+        "SRC-0157",
+        "SRC-0159",
+        "SRC-0160"
+      ],
+      "works": [
+        {
+          "entity_id": "V1-ENT-0204",
+          "name_zh": "《人子》",
+          "original_name": "Hijo de hombre",
+          "entity_type": "work",
+          "year": "1960",
+          "source_ids": [
+            "SRC-0158",
+            "SRC-0159",
+            "SRC-0160"
+          ]
+        },
+        {
+          "entity_id": "V1-ENT-0205",
+          "name_zh": "《我，最高统帅》",
+          "original_name": "Yo el Supremo",
+          "entity_type": "work",
+          "year": "1974",
+          "source_ids": [
+            "SRC-0157",
+            "SRC-0161"
+          ]
+        },
+        {
+          "entity_id": "V1-ENT-0206",
+          "name_zh": "《检察官》",
+          "original_name": "El fiscal",
+          "entity_type": "work",
+          "year": "1993",
+          "source_ids": [
+            "SRC-0157",
+            "SRC-0160"
+          ]
+        }
+      ],
+      "place_id": "V1-ENT-0210"
+    },
+    {
+      "entity_id": "V1-ENT-0200",
+      "name_zh": "奥拉西奥·基罗加",
+      "original_name": "Horacio Quiroga",
+      "country_or_region": "乌拉圭",
+      "birth_year": "1878",
+      "death_year": "1937",
+      "birth_place": "萨尔托（Salto）",
+      "source_ids": [
+        "SRC-0162",
+        "SRC-0163"
+      ],
+      "works": [
+        {
+          "entity_id": "V1-ENT-0207",
+          "name_zh": "《爱情、疯狂和死亡的故事》",
+          "original_name": "Cuentos de amor de locura y de muerte",
+          "entity_type": "collection",
+          "year": "1917",
+          "source_ids": [
+            "SRC-0162"
+          ]
+        },
+        {
+          "entity_id": "V1-ENT-0208",
+          "name_zh": "《丛林故事》",
+          "original_name": "Cuentos de la selva",
+          "entity_type": "collection",
+          "year": "1918",
+          "source_ids": [
+            "SRC-0162",
+            "SRC-0163"
+          ]
+        },
+        {
+          "entity_id": "V1-ENT-0209",
+          "name_zh": "《流放者》",
+          "original_name": "Los desterrados",
+          "entity_type": "collection",
+          "year": "1926",
+          "source_ids": [
+            "SRC-0162"
+          ]
+        }
+      ],
+      "place_id": "V1-ENT-0196"
+    }
+  ],
+  "places": [
+    {
+      "entity_id": "V1-ENT-0210",
+      "name_zh": "巴拉圭",
+      "original_name": "Paraguay",
+      "place_kind": "country",
+      "reality_status": "real",
+      "country_code": "PY",
+      "coordinate_source_url": "https://www.geonames.org/3437598/republic-of-paraguay.html"
+    }
+  ],
+  "source_registry": [
+    {
+      "source_id": "SRC-0153",
+      "title": "Adolfo Bioy Casares. Biografía",
+      "original_title": "Adolfo Bioy Casares. Biografía",
+      "author_or_editor": "Instituto Cervantes",
+      "publisher": "Instituto Cervantes",
+      "publication_year": "持续更新（2026-08-20 访问）",
+      "language": "es",
+      "source_level": "B",
+      "url": "https://www.cervantes.es/bibliotecas_documentacion_espanol/biografias/cairo_adolfo_bioy_casares.htm",
+      "scope": "作者生卒、出生地、阿根廷作家身份与职业描述"
+    },
+    {
+      "source_id": "SRC-0154",
+      "title": "Adolfo Bioy Casares. Cronología de obras",
+      "original_title": "Cronología de obras",
+      "author_or_editor": "Biblioteca Virtual Miguel de Cervantes",
+      "publisher": "Instituto Cervantes",
+      "publication_year": "持续更新（2026-08-20 访问）",
+      "language": "es",
+      "source_level": "B",
+      "url": "https://www.cervantesvirtual.com/portales/adolfo_bioy_casares/autor_cronologia/",
+      "scope": "三部小说的书目年份；该页列《莫雷尔的发明》1940，和 SRC-0153 传记所述 1941 存在冲突"
+    },
+    {
+      "source_id": "SRC-0155",
+      "title": "Novelas de Adolfo Bioy Casares",
+      "original_title": "Novelas de Adolfo Bioy Casares",
+      "author_or_editor": "Biblioteca Virtual Miguel de Cervantes",
+      "publisher": "Instituto Cervantes",
+      "publication_year": "持续更新（2026-08-20 访问）",
+      "language": "es",
+      "source_level": "B",
+      "url": "https://www.cervantesvirtual.com/portales/adolfo_bioy_casares/su_obra_novelas/",
+      "scope": "三部小说的原文题名、作者与作品形态"
+    },
+    {
+      "source_id": "SRC-0156",
+      "title": "Cárceles. Narraciones del encierro (1878-2025)",
+      "original_title": "Cárceles. Narraciones del encierro (1878-2025)",
+      "author_or_editor": "Biblioteca Nacional Mariano Moreno",
+      "publisher": "Biblioteca Nacional Mariano Moreno",
+      "publication_year": "2025",
+      "language": "es",
+      "source_level": "B",
+      "url": "https://www.bn.gov.ar/micrositios/admin_assets/issues/files/0bf5f84a1743cfd560d46326fbf7f3cd.pdf",
+      "scope": "Plan de evasión 1945及其监狱叙事背景"
+    },
+    {
+      "source_id": "SRC-0157",
+      "title": "CVC. Augusto Roa Bastos. Biografía",
+      "original_title": "Augusto Roa Bastos. Biografía",
+      "author_or_editor": "Centro Virtual Cervantes",
+      "publisher": "Instituto Cervantes",
+      "publication_year": "持续更新（2026-08-20 访问）",
+      "language": "es",
+      "source_level": "B",
+      "url": "https://cvc.cervantes.es/actcult/roa/biografia.htm",
+      "scope": "作者生卒、亚松森出生、巴拉圭作家身份及作品书目"
+    },
+    {
+      "source_id": "SRC-0158",
+      "title": "Historia y mito en Hijo de hombre",
+      "original_title": "Historia y mito en Hijo de hombre",
+      "author_or_editor": "Centro Virtual Cervantes",
+      "publisher": "Instituto Cervantes",
+      "publication_year": "持续更新（2026-08-20 访问）",
+      "language": "es",
+      "source_level": "B",
+      "url": "https://cvc.cervantes.es/actcult/roa/acerca/acercade05.htm",
+      "scope": "Hijo de hombre 1960及作品身份"
+    },
+    {
+      "source_id": "SRC-0159",
+      "title": "CVC. Augusto Roa Bastos. Cronología 1947-1988",
+      "original_title": "Cronología 1947-1988",
+      "author_or_editor": "Centro Virtual Cervantes",
+      "publisher": "Instituto Cervantes",
+      "publication_year": "持续更新（2026-08-20 访问）",
+      "language": "es",
+      "source_level": "B",
+      "url": "https://cvc.cervantes.es/actcult/roa/cronologia/cronologia02.htm",
+      "scope": "Hijo de hombre与Yo el Supremo年代线索"
+    },
+    {
+      "source_id": "SRC-0160",
+      "title": "Biografía – Fundación Augusto Roa Bastos",
+      "original_title": "Augusto Roa Bastos",
+      "author_or_editor": "Fundación Augusto Roa Bastos",
+      "publisher": "Fundación Augusto Roa Bastos",
+      "publication_year": "持续更新（2026-08-20 访问）",
+      "language": "es",
+      "source_level": "B",
+      "url": "https://fundacionroabastos.org/augusto-roa-bastos/",
+      "scope": "作者生平与三部作品书目关联"
+    },
+    {
+      "source_id": "SRC-0161",
+      "title": "Yo el Supremo – Edición conmemorativa",
+      "original_title": "Yo el Supremo",
+      "author_or_editor": "Asociación de Academias de la Lengua Española",
+      "publisher": "ASALE",
+      "publication_year": "2017",
+      "language": "es",
+      "source_level": "B",
+      "url": "https://www.asale.org/obras-academicas/ediciones-conmemorativas/yo-el-supremo",
+      "scope": "Yo el Supremo 1974、作者身份与作品书目"
+    },
+    {
+      "source_id": "SRC-0162",
+      "title": "Horacio Quiroga – Academia Nacional de Letras",
+      "original_title": "Horacio Quiroga",
+      "author_or_editor": "Ministerio de Educación y Cultura / Academia Nacional de Letras",
+      "publisher": "Ministerio de Educación y Cultura de Uruguay",
+      "publication_year": "持续更新（2026-08-20 访问）",
+      "language": "es",
+      "source_level": "B",
+      "url": "https://www.gub.uy/ministerio-educacion-cultura/academia-nacional-letras/sillones-academicos/horacio-quiroga",
+      "scope": "作者生卒、萨尔托出生、作家身份及三部作品年份/形态"
+    },
+    {
+      "source_id": "SRC-0163",
+      "title": "31 de diciembre de 1878: nace Horacio Quiroga",
+      "original_title": "Horacio Quiroga",
+      "author_or_editor": "Biblioteca Nacional Mariano Moreno",
+      "publisher": "Biblioteca Nacional Mariano Moreno",
+      "publication_year": "2025",
+      "language": "es",
+      "source_level": "B",
+      "url": "https://www.bn.gov.ar/noticias/31-de-diciembre-de-1878-nace-horacio-quiroga",
+      "scope": "作者身份与米西奥内斯文学经验补充"
+    },
+    {
+      "source_id": "SRC-0164",
+      "title": "Republic of Paraguay",
+      "original_title": "Paraguay",
+      "author_or_editor": "GeoNames",
+      "publisher": "",
+      "publication_year": "持续更新（2026-08-20 访问）",
+      "language": "en",
+      "source_level": "B",
+      "url": "https://www.geonames.org/3437598/republic-of-paraguay.html",
+      "scope": "巴拉圭国家节点分类与边界来源；不作为文学事实来源"
+    }
+  ],
+  "holds": [
+    {
+      "item": "所有强文学史关系、文学运动归属、影响关系和强主题判断",
+      "reason": "本批打开来源足以支持身份与书目事实，但未达到解释性关系门槛，留待策展或后续研究。"
+    },
+    {
+      "item": "九部作品的中文译本版本学字段",
+      "reason": "中文展示名用于读者入口；译者、出版社、ISBN 和中文出版年不是本批 Research HOLD 门槛。"
+    },
+    {
+      "item": "作品具体故事地点与虚构空间",
+      "reason": "本批来源主要支持作者与书目；没有直接逐部确认的场景证据，不新增现实坐标或 SET_IN 关系。"
+    },
+    {
+      "item": "Roa Bastos 三部作品的‘权力三部曲’文学史强表述",
+      "reason": "来源可支持 Fundación 的书目关联，但本批只登记书目事实，不把评论性地位写成高强度 Research 关系。"
+    },
+    {
+      "item": "V1-FCT-0443 / V1-ENT-0201 的首版年份",
+      "reason": "SRC-0154 的规范时间线列 1940，而 SRC-0153 的 Instituto Cervantes 传记写 1941；当前候选保留 1940 但已记录争议，交由 Sol 复核，不将该年份视为无争议事实。"
+    }
+  ]
+}

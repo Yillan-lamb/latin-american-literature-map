@@ -1,0 +1,26 @@
+# Export manifest (v1.1.0)
+
+| # | 文件名 | 字节数 | SHA-256 |
+|---:|---|---:|---|
+| 1 | V1_v1.1.0_EXPORT.xlsx | 192683 | 48d33d56c693b356beb55c0524c592ffbab5da2f63d3f62b1d003b0617617267 |
+| 2 | card_facts.csv | 16437 | ec7f828fe667c616d0b3181b9d5ec804e2a8cd3b7a9a9d9b9906575ba1ceb458 |
+| 3 | card_sources.csv | 10055 | b1f6bfe20316f33dd8c100e1afae4a95461208dd6603d1502d8d7173236c6498 |
+| 4 | content_cards.csv | 80946 | 568925fd01e1074e82e8cd6407953278f5a35181defe08f683dd3445c9041b73 |
+| 5 | data.json | 877795 | 437c4a06f801991d2baf87c6a74de7d3330d762830365c94bd52f706438bd2f8 |
+| 6 | entities.csv | 24075 | 47d29441aa6a2921f601b322346bcff42ae41592902e1d2bada7b666d547918b |
+| 7 | entity_id_map.csv | 19776 | dd63c1501466894d576243d0e4912df3ebee57b68d15045e3e14e7f1f0160d35 |
+| 8 | fact_sources.csv | 27827 | 93494b323effec19254a2598a668ee8e59bdb3e097bc215b5b12535f49f52694 |
+| 9 | facts.csv | 69489 | 42734c0268e4f6bbf3f2d606173ad30cb5deb6aaeb4ea34c83c1df93907ec474 |
+| 10 | gaps.csv | 3252 | 39333c879392cf8d2dacebdeb68d5c35b2fdc8dd201334d97c794ba9d2b43fc5 |
+| 11 | legacy_relation_groups.csv | 4213 | f4b344e61606dde2b10891246ac4d654284823d90eb0e0d6b632d316d7f87a86 |
+| 12 | metadata.csv | 1879 | 1f5da9edb32379726afe5680eb22672439deb7ab3f1ada7975d403bbff1f2b74 |
+| 13 | migration_log.csv | 669 | 1412703f93dc6a5871a2f25696890233f913a96023dc9f9a51c7968cac2cbab2 |
+| 14 | n3_decisions.csv | 2848 | 57441d00ec9fbeaee5609a6c913f117a0bbdf498ee377f0ea4e34c2d9d93cf35 |
+| 15 | relation_hold_evidence.csv | 9552 | 889bfb65e3c553b93d9cb1a81f38831d8ff17b82bbf2db4e4c9ca6ef82d9f167 |
+| 16 | relation_holds.csv | 8964 | 5dad0bca4bc58893e500ba9d0f8d5000537ffac364ee6b64ffdf8da054c1510c |
+| 17 | relationship_evidence.csv | 25956 | 3b3c723ce04db61726dd4ebe14696354dd5f82c177624d537c32f0b81cc6a76f |
+| 18 | relationship_sources.csv | 2588 | c9adcbea68706f9111c8b70cc83ffc4840cd33fab1d637e8e32f37c495a0bcf9 |
+| 19 | relationships.csv | 17159 | fc08bf1972e503262e14c6f920ab3d817dbadd740be59b7f95d070e939e01d75 |
+| 20 | source_holds.csv | 613 | e6a9e0b034399b1156b48f7f17811f68b7e3e7a2f2329854a0f239627c909761 |
+| 21 | sources.csv | 44307 | 9d8c6c78680cb29f789091733a4ada0c85b46975b878aa6640646af683215249 |
+| 22 | MANIFEST.md | 2237 | SELF |

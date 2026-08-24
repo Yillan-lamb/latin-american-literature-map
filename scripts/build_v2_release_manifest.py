@@ -32,7 +32,7 @@ RELEASE_FILES = (
     "data/v2/release/V2.0.0_RELEASE_MANIFEST.json",
 )
 RELEASE_STATES = {"pending_v2_n4", "approved_v2_n4"}
-FORBIDDEN_PUBLIC_KEYS = {"review_status", "admission_status", "source_minimum_status", "schema_version", "review_queue", "presentation_review_queue", "public_content_review_queue"}
+FORBIDDEN_PUBLIC_KEYS = {"review_status", "admission_status", "source_minimum_status", "schema_version", "review_queue", "presentation_review_queue", "public_content_review_queue", "public_content", "content_zh", "basis_note", "reviewer"}
 
 
 def digest_bytes(value: bytes) -> str:

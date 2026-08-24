@@ -1,0 +1,9 @@
+temporary_id,subject_id,relation_type,object_id,description_zh,confidence,review_status,evidence_count,issue_code,source_temporary_ids,evidence_notes
+CAND-C-REL-001,V1-ENT-0059,CREATED,CAND-C-W-001,帕斯创作《孤独的迷宫》（1950 随笔集）,high,candidate,2,NONE,CAND-C-SRC-001; CAND-C-SRC-004,Nobel Facts 称其为帕斯最知名作品之一并注 1950；poets.org 散文书目载 1950
+CAND-C-REL-002,V1-ENT-0059,CREATED,CAND-C-W-002,帕斯创作《弓与琴》（1956 诗论）,high,candidate,2,NONE,CAND-C-SRC-003; CAND-C-SRC-004,"poets.org 散文书目 ""El arco y la lira (1956)""；诺贝尔书目页英译本副题 ""(El arco y la lira)"""
+CAND-C-REL-003,V1-ENT-0059,CREATED,CAND-C-W-003,帕斯创作《太阳石》（1957 长诗）,high,candidate,2,NONE,CAND-C-SRC-003; CAND-C-SRC-004,"Nobel 书目页西语诗歌部 ""Piedra de sol. México: Tezontle, 1957""；poets.org 诗歌书目 1957"
+CAND-C-REL-004,V1-ENT-0059,ASSOCIATED_WITH_PLACE,V1-ENT-0056,帕斯与墨西哥城：出生地（1914-03-31）与逝世地（1998-04-19），一生主要生活与创作之城,high,candidate,2,NONE,CAND-C-SRC-001; CAND-C-SRC-004,Nobel Facts 出生/逝世地均墨西哥城；poets.org 同；关联性质具体可说明
+CAND-C-REL-005,V1-ENT-0059,ASSOCIATED_WITH_PLACE,V1-ENT-0051,帕斯与墨西哥：获奖时居住国，国籍与主要文学语境所在国,high,candidate,1,NONE,CAND-C-SRC-001,"Nobel Facts ""Residence at the time of the award: Mexico""；直接人物事实，单来源可支持"
+CAND-C-REL-006,V1-ENT-0059,ASSOCIATED_WITH_MOVEMENT,V1-ENT-0132,帕斯与先锋派：青年时期创办先锋派文学杂志《Barandal》,medium,hold,1,hold_needs_second_source,CAND-C-SRC-004,仅 poets.org 一项独立来源提及先锋派语境；Britannica（403）、CVC（404）等第二来源未打开，凑不齐双来源
+CAND-C-REL-007,V1-ENT-0059,ASSOCIATED_WITH_MOVEMENT,ENTITY_GAP（超现实主义，库内无此运动实体）,帕斯受超现实主义影响,medium,hold,2,entity_gap,CAND-C-SRC-001; CAND-C-SRC-004,Nobel Facts（A）与 poets.org（B）两项独立来源均载超现实主义影响，双来源已够解释级；但 V1_MASTER 无超现实主义 movement 实体且本 packet 未分配新建该实体，故以 hold+entity_gap 交付，由 PM/Reviewer 决定是否新建实体后建关系
+CAND-C-REL-008,CAND-C-W-001,EXPLORES_THEME,V1-ENT-0107,《孤独的迷宫》与墨西哥身份/面具主题,low,hold,0,hold_needs_second_source,,"未获两项独立来源直接论及""面具（máscaras）""主题；现有 Nobel Facts/poets.org 仅证""墨西哥历史与文化分析""主题。《孤独的迷宫》含著名章节「Máscaras mexicanas」，但需专门学术来源支撑，暂不提出"

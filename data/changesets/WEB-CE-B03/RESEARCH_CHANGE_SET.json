@@ -1,0 +1,79 @@
+{
+  "batch": "WEB-CE-B03",
+  "plan": "乌拉圭现代小说 + 智利实验叙事 + 阿根廷存在主义小说",
+  "display_name_policy": {"applies_to":"all authors[].works[]","default_status":"provisional_title","basis":"60+ roadmap reader-facing label; no Chinese-edition bibliographic claim"},
+  "authors": [
+    {
+      "entity_id": "V1-ENT-0184",
+      "name_zh": "胡安·卡洛斯·奥内蒂",
+      "original_name": "Juan Carlos Onetti",
+      "country_or_region": "乌拉圭",
+      "birth_year": "1909",
+      "death_year": "1994",
+      "birth_place": "蒙得维的亚（Montevideo）",
+      "source_ids": ["SRC-0141"],
+      "works": [
+        {"entity_id":"V1-ENT-0187","name_zh":"《短暂的生命》","original_name":"La vida breve","entity_type":"work","year":"1950","source_ids":["SRC-0142","SRC-0143","SRC-0152"]},
+        {"entity_id":"V1-ENT-0188","name_zh":"《造船厂》","original_name":"El astillero","entity_type":"work","year":"1961","source_ids":["SRC-0142","SRC-0143"]},
+        {"entity_id":"V1-ENT-0189","name_zh":"《告别》","original_name":"Los adioses","entity_type":"work","year":"1954","source_ids":["SRC-0142","SRC-0143"]}
+      ],
+      "place_id": "V1-ENT-0196"
+    },
+    {
+      "entity_id": "V1-ENT-0185",
+      "name_zh": "何塞·多诺索",
+      "original_name": "José Donoso",
+      "country_or_region": "智利",
+      "birth_year": "1924",
+      "death_year": "1996",
+      "source_ids": ["SRC-0144"],
+      "works": [
+        {"entity_id":"V1-ENT-0190","name_zh":"《夜晚的淫鸟》","original_name":"El obsceno pájaro de la noche","entity_type":"work","year":"1970","source_ids":["SRC-0146"]},
+        {"entity_id":"V1-ENT-0191","name_zh":"《无尽的地方》","original_name":"El lugar sin límites","entity_type":"work","year":"1966","source_ids":["SRC-0144","SRC-0147"]},
+        {"entity_id":"V1-ENT-0192","name_zh":"《加冕》","original_name":"Coronación","entity_type":"work","year":"1957","source_ids":["SRC-0144","SRC-0145"]}
+      ],
+      "place_id": "V1-ENT-0123"
+    },
+    {
+      "entity_id": "V1-ENT-0186",
+      "name_zh": "埃内斯托·萨瓦托",
+      "original_name": "Ernesto Sábato",
+      "country_or_region": "阿根廷",
+      "birth_year": "1911",
+      "death_year": "2011",
+      "birth_place": "罗哈斯（Rojas，布宜诺斯艾利斯省）",
+      "source_ids": ["SRC-0148", "SRC-0150"],
+      "works": [
+        {"entity_id":"V1-ENT-0193","name_zh":"《隧道》","original_name":"El túnel","entity_type":"work","year":"1948","source_ids":["SRC-0148","SRC-0149"]},
+        {"entity_id":"V1-ENT-0194","name_zh":"《英雄与坟墓》","original_name":"Sobre héroes y tumbas","entity_type":"work","year":"1961","source_ids":["SRC-0148","SRC-0149"]},
+        {"entity_id":"V1-ENT-0195","name_zh":"《阿巴顿，毁灭者》","original_name":"Abaddón el exterminador","entity_type":"work","year":"1974","source_ids":["SRC-0148","SRC-0149"]}
+      ],
+      "place_id": "V1-ENT-0001"
+    }
+  ],
+  "places": [
+    {"entity_id":"V1-ENT-0196","name_zh":"乌拉圭","original_name":"Uruguay","country_code":"UY","coordinate_source_url":"https://www.geonames.org/3439705/uruguay.html"},
+    {"entity_id":"V1-ENT-0197","name_zh":"圣玛丽亚","original_name":"Santa María","place_kind":"fictional_place","reality_status":"fictional","coordinate_source_url":null,"classification_source_url":"https://cvc.cervantes.es/literatura/escritores/onetti/santa_maria/default.htm"}
+  ],
+  "source_registry": [
+    {"source_id":"SRC-0141","title":"Juan Carlos Onetti – Biografía","original_title":"Juan Carlos Onetti. Biografía","author_or_editor":"Instituto Cervantes","publisher":"Instituto Cervantes","publication_year":"持续更新（2026-08-20 访问）","language":"es","source_level":"B","url":"https://www.cervantes.es/bibliotecas_documentacion_espanol/biografias/atenas_juan_carlos_onetti.htm","scope":"作者出生、逝世、乌拉圭身份与作家职业"},
+    {"source_id":"SRC-0142","title":"Juan Carlos Onetti – Bibliografía","original_title":"Obra de Juan Carlos Onetti","author_or_editor":"Centro Virtual Cervantes","publisher":"Instituto Cervantes","publication_year":"持续更新（2026-08-20 访问）","language":"es","source_level":"B","url":"https://cvc.cervantes.es/literatura/escritores/onetti/bibliografia/default.htm","scope":"三部作品的首版题名与年份"},
+    {"source_id":"SRC-0143","title":"Juan Carlos Onetti – Cronología de plenitud","original_title":"1942-1975: Los años de plenitud","author_or_editor":"Centro Virtual Cervantes","publisher":"Instituto Cervantes","publication_year":"持续更新（2026-08-20 访问）","language":"es","source_level":"B","url":"https://cvc.cervantes.es/literatura/escritores/onetti/cronologia/plenitud.htm","scope":"La vida breve、Santa María、Los adioses 和 El astillero 的时间线/文学空间说明"},
+    {"source_id":"SRC-0144","title":"José Donoso (1924-1996)","original_title":"José Donoso","author_or_editor":"Biblioteca Nacional de Chile, Memoria Chilena","publisher":"Biblioteca Nacional de Chile","publication_year":"持续更新（2026-08-20 访问）","language":"es","source_level":"B","url":"https://www.memoriachilena.gob.cl/602/w3-article-3477.html","scope":"作者生卒、作家身份、Coronación 与 El lugar sin límites 时间线"},
+    {"source_id":"SRC-0145","title":"Coronación – Memoria Chilena","original_title":"Coronación","author_or_editor":"Biblioteca Nacional de Chile, Memoria Chilena","publisher":"Biblioteca Nacional de Chile","publication_year":"持续更新（2026-08-20 访问）","language":"es","source_level":"B","url":"https://www.memoriachilena.gob.cl/602/w3-article-94921.html","scope":"Coronación 首版 1957"},
+    {"source_id":"SRC-0146","title":"El obsceno pájaro de la noche – Memoria Chilena","original_title":"El obsceno pájaro de la noche","author_or_editor":"Biblioteca Nacional de Chile, Memoria Chilena","publisher":"Biblioteca Nacional de Chile","publication_year":"持续更新（2026-08-20 访问）","language":"es","source_level":"B","url":"https://www.memoriachilena.gob.cl/602/w3-article-94930.html","scope":"作品身份与 1970 年 Seix Barral 首版"},
+    {"source_id":"SRC-0147","title":"El lugar sin límites – Memoria Chilena","original_title":"El lugar sin límites","author_or_editor":"Biblioteca Nacional de Chile, Memoria Chilena","publisher":"Biblioteca Nacional de Chile","publication_year":"持续更新（2026-08-20 访问）","language":"es","source_level":"B","url":"https://www.memoriachilena.gob.cl/602/w3-article-94929.html","scope":"作品身份、写作背景与出版者资料；不扩写情节或文学地位"},
+    {"source_id":"SRC-0148","title":"24 de junio de 1911: nace Ernesto Sábato","original_title":"Ernesto Sábato","author_or_editor":"Biblioteca Nacional Mariano Moreno","publisher":"Biblioteca Nacional Mariano Moreno","publication_year":"2021","language":"es","source_level":"B","url":"https://www.bn.gov.ar/noticias/24-de-junio-de-1911-nace-ernesto-sabato","scope":"作者出生、逝世、职业转向及 El túnel 1948、Sobre héroes y tumbas 1961"},
+    {"source_id":"SRC-0149","title":"Ernesto Sabato: Obra completa / Narrativa","original_title":"Obra completa. Narrativa","author_or_editor":"CONICET / Biblioteca Electrónica de Ciencia y Tecnología","publisher":"CONICET","publication_year":"持续更新（2026-08-20 访问）","language":"es","source_level":"B","url":"https://bicyt.conicet.gov.ar/fichas/produccion/2371121","scope":"三部小说的书目年份：El túnel 1948、Sobre héroes y tumbas 1961、Abaddón 1974"},
+    {"source_id":"SRC-0150","title":"Ernesto Sabato – Biografía","original_title":"Ernesto Sabato. Biografía","author_or_editor":"Instituto Cervantes","publisher":"Instituto Cervantes","publication_year":"持续更新（2026-08-20 访问）","language":"es","source_level":"B","url":"https://www.cervantes.es/bibliotecas_documentacion_espanol/biografias/budapest_ernesto_sabato.htm","scope":"作者完整生卒、出生地、职业与三部小说的身份核对"},
+    {"source_id":"SRC-0151","title":"Oriental Republic of Uruguay","original_title":"Uruguay","author_or_editor":"GeoNames","publisher":"GeoNames","publication_year":"持续更新（2026-08-20 访问）","language":"en","source_level":"B","url":"https://www.geonames.org/3439705/uruguay.html","scope":"乌拉圭国家节点分类与边界来源；不作为文学事实来源"},
+    {"source_id":"SRC-0152","title":"Santa María – Juan Carlos Onetti","original_title":"Santa María","author_or_editor":"Centro Virtual Cervantes","publisher":"Instituto Cervantes","publication_year":"持续更新（2026-08-20 访问）","language":"es","source_level":"B","url":"https://cvc.cervantes.es/literatura/escritores/onetti/santa_maria/default.htm","scope":"Santa María 作为 Onetti 作品中的平行/虚构文学空间；不支持现实坐标"}
+  ],
+  "holds": [
+    {"item":"所有强文学史关系、文学运动归属、影响关系和强主题判断","reason":"本批直接打开来源支持书目与身份，但未达到项目解释性关系门槛，暂不建立正式关系。"},
+    {"item":"Santa María 的现实地理对应与坐标","reason":"来源明确支持其为 Onetti 叙事中的文学空间，不支持把它等同于现实城市或生成经纬度。"},
+    {"item":"V1-REL-0127 的 SET_IN 关系","reason":"CVC 来源支持 La vida breve 建立 Santa María 文学空间，但当前证据不足以把关系强度写成作品明确设定于该空间；转入 relation hold，待直接场景证据。"},
+    {"item":"九部作品中文译本版本学字段","reason":"不影响中文展示名；译者、出版社、ISBN 和中文出版年留待后续版本学轮次。"},
+    {"item":"Donoso / Sabato 作品的高强度主题与文学地位表述","reason":"可作为后续策展研究线索，但本批只入库可直接回溯的书目事实。"}
+  ]
+}

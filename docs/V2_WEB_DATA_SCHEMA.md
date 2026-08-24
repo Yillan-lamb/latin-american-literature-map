@@ -1,5 +1,7 @@
 # V2 Web Data Schema 与构建流程
 
+> **Current Web 0.2.0 note（2026-08-24）**：本文件的任务起点与末尾 144/238/76 数字是 2026-08-11 初始构建快照，保留作历史记录。当前确定性构建为 367 entities、998 facts、293 relationships、278 sources、255 content cards、33 places 和 78 place relations；正式公开范围为 25 authors、60 works、28 places。当前 Schema 仍为 `v2-web-0.2`，未升级为 0.4。
+
 ## 1. 任务信息
 
 - 任务：`V2-S2-002`
@@ -31,10 +33,12 @@ data/v2/curation/ ─────────────┘
 | `research` | 研究层投影：实体、卡片、事实、关系、来源、hold、gap |
 | `curation` | 仅含 `auto_approved` 的公共策展记录 |
 | `review_queue` | `user_review` 与 `hold` 独立队列，不进入普通阅读层 |
+| `reader_content` | 从已准入内容和结构化事实生成的结论式读者投影；禁止来源核验、审核过程和工作台语言 |
 | `pages` | 作者、作品、地点、事件的页面消费集合 |
 | `map` | 地点节点与文学地点关系；兼容现实点、国家层和无坐标虚构空间 |
 | `search_index` | 实体和内容卡的基础搜索索引 |
 | `timeline` | 作家、作品等文学节点，以及必要的历史背景节点；每个节点保留年份/时期与当前研究状态 |
+| `presentation.discovery` | 覆盖全部公开作者/作品的确定性排序、分数因子、稳定 tie-break 与每页数量 |
 
 ## 4. 页面消费约定
 
@@ -49,7 +53,7 @@ data/v2/curation/ ─────────────┘
 
 前端应将 Web Data 分成：
 
-1. **阅读层**：页面导语、作品简介、地图卡片、精选排序和 `auto_approved` 策展文本；语言自然，默认不展示数据库内部字段。
+1. **阅读层**：页面导语、作品简介、地图卡片和全量目录统一消费 `reader_content`；语言自然，不展示来源机构、书目核验、审核过程或数据库内部字段。
 2. **研究层**：来源、事实字段、关系类型、置信度、审核状态、研究缺口和回溯 ID；用户主动展开后查看。
 
 两层引用同一 Web Data，不复制两套事实。研究层发现错误时，回到 V1 Research Data 或 V2 Curation Data 修复并重新构建。
@@ -68,8 +72,14 @@ data/v2/curation/ ─────────────┘
 
 `validate_v2_web_data.py` 对生成结果再次检查悬空引用、数量、状态门禁和虚构空间坐标安全。任何失败都应阻止进入 S3/S4。
 
-## 7. 当前构建结果
+## 7. 当前构建结果与历史快照
 
-当前构建使用 V1 正式数据库、S1-002 地图数据和阶段 5 完整策展草稿。输出包含 144 个研究实体、40 张内容卡、238 条事实、76 条正式关系、24 个地图节点、25 条文学地点关系、74 个来源、51 条策展记录；公共策展仍只输出 `auto_approved`，2 条推荐和 4 条 hold 记录保留在 `review_queue`。
+### Current Web 0.2.0 build
+
+当前构建使用 development master、V2 Geo 与 Curation Data，输出 367 个研究实体、255 张内容卡、998 条事实、293 条关系、33 个地图节点、78 条文学地点关系和 278 个来源。公开目录严格覆盖 `public_scope` 中的 25 位作者与 60 部作品；分页数量为 9，顺序由 `web-0.2-popularity-v1` 固定算法生成，分数相同时按 `target_id` 升序。Public bundle 物理剥离 review queue 与策展工作稿，只保留结论式 `reader_content` 和 Research Evidence 所需引用。
+
+### Historical initial build snapshot（2026-08-11）
+
+初始构建使用 V1 正式数据库、S1-002 地图数据和阶段 5 完整策展草稿，输出 144 个研究实体、40 张内容卡、238 条事实、76 条正式关系、24 个地图节点、25 条文学地点关系、74 个来源、51 条策展记录；该数字仅用于解释 `V2-S2-002` 的历史验收，不代表当前开发主库。
 
 `V2-S2-002 = ✅ DONE`；数据层已在 V2-S5-002 后重新构建，完整站点消费 `v2-web-0.2` Web Data。

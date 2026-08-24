@@ -1,7 +1,7 @@
 const { test, expect } = require("@playwright/test");
 
 const forbidden = /\bV1\b|\bV2\b|\bN[1-4]\b|research_gap|auto_approved|user_review|candidate_for_staging_review|card_period_only|source_minimum_status|review_status|admission_status|map_status|entity_type|place_kind|\bschema\b|SQLite|Web Data|release candidate|完整测试站|测试站|当前样本|Codex|REVIEW\s*[\d.]|待审核|未经审核|用户审核|候选包/i;
-const readerEvidenceLeakage = /\b(?:ABL|BNE|CVC)\b|Instituto Cervantes|Biblioteca Virtual|Memoria Chilena|CONICET|Itaú Cultural|Nobel\s+Facts|Facts\s*页|BNDigital|\bMEC\b|(?:官网|图书馆|国家机构|公共文化|官方|机构)[^。；\n]{0,24}(?:书目|目录|页面|资料|档案|传记|来源|列出|记录|确认|支持|显示|标注)|(?:书目|目录|资料|档案|来源|时间线)[^。；\n]{0,24}(?:列出|记录|确认|支持|显示|标注|回溯)|论文|研究(?:层|资料|实体|锚点|关系|依据|流程|说明)|(?:正式|作者级)[^。；\n]{0,12}关系|国家父级|导航所需|已经公开|支撑[^。；\n]{0,8}事实|公开[^。；\n]{0,8}关系|作品空间作用|中文(?:名|展示名)[^。；\n]{0,24}(?:展示|读者)|本页(?:仅|只|保留|不把|不将)|可核回|(?:直接作品|书目|研究|事实|机构)来源|来源(?:将|所说|列出|记录|支持|确认|显示|中)|(?:实体层|字段层|工作层)(?:使用|采用|保留)?|\bcollection\b|再次确认|交叉支持|直接支持|直接列出|直接记录|可回溯|可复核|可核验|主库|本批|审核层|审阅|审核|复核|核验|准入|待复核|来源边界|年份冲突记录|Research\s*(?:Data|fact)?|source_id|fact_id|reviewer|reviewed|verified|provisional|gap\s*台账|根据(?:某|该|现有)?(?:资料|来源|数据库|页面)|依据(?:资料|来源)/i;
+const readerEvidenceLeakage = /(?:\b(?:ABL|BNE|CVC|CONICET|UNAM|MEC)\b|Instituto Cervantes|Biblioteca Virtual|Memoria Chilena|Itaú Cultural|Nobel\s+Facts|Facts\s*页|BNDigital|(?:官网|图书馆|国家机构|公共文化|官方|机构|大学|基金会|Universidad|Fundaci[oó]n))[^。；\n]{0,40}(?:书目|目录|页面|资料|档案|传记|来源|列出|列为|记录|确认|核验|核对|支持|依据|显示|标注|区分|回溯)|(?:书目|目录|资料|档案|来源|时间线|论文)[^。；\n]{0,32}(?:列出|列为|记录|确认|核验|核对|支持|依据|显示|标注|认为|指出|解读|分析|讨论|区分|回溯)|(?:Memoria Chilena|巴西文学院)[^。；\n]{0,40}(?:提供|描述)|书目(?:中)?形成[^。；\n]{0,24}(?:时间线|序列)|研究(?:层|资料|实体|锚点|关系|依据|流程|说明)|(?:正式|作者级)[^。；\n]{0,12}关系|国家父级|导航所需|已经公开|支撑[^。；\n]{0,8}事实|公开[^。；\n]{0,8}关系|作品空间作用|中文(?:名|展示名)[^。；\n]{0,24}(?:展示|读者)|本页(?:仅|只|保留|不把|不将)|可核回|(?:直接作品|书目|研究|事实|机构)来源|来源(?:将|所说|列出|记录|支持|确认|显示|中)|(?:实体层|字段层|工作层)(?:使用|采用|保留)?|\bcollection\b|再次确认|交叉支持|直接支持|直接列出|直接记录|可回溯|可复核|可核验|主库|本批|审核层|审阅|审核|复核|核验|准入|待复核|来源边界|年份冲突记录|Research\s*(?:Data|fact)?|source_id|fact_id|reviewer|reviewed|verified|provisional|gap\s*台账|据\s*(?:Nobel|诺贝尔|[A-Za-z.]+)|根据(?:某|该|现有)?(?:资料|来源|数据库|页面|书目|目录|机构|图书馆)|依据(?:资料|来源|书目|目录|机构|图书馆)/i;
 const paths = {
   country: "countries/mexico-v1-ent-0051/",
   colombia: "countries/colombia-v1-ent-0095/",
@@ -50,6 +50,7 @@ test("home, map, country and mobile navigation", async ({ page, isMobile, reques
   for (const country of (webData.map?.places || []).filter((item) => item.place_kind === "country" && projectedCountries.has(item.country_code))) {
     await expect(page.locator(`[data-country-label-code="${country.country_code}"]`).first()).toHaveText(country.name_zh);
   }
+  await expect(page.locator('[data-label-position="automatic"]')).not.toHaveCount(0);
   await expect(page.locator(".fictional-space-button")).toHaveCount(2);
   await expect(page.getByRole("heading", { name: "从一个地方开始" })).toBeVisible();
   await page.locator('[data-country-id="V1-ENT-0051"]').click();
@@ -65,6 +66,31 @@ test("home, map, country and mobile navigation", async ({ page, isMobile, reques
   await page.goto(paths.country);
   await expect(page.getByRole("heading", { name: "墨西哥" })).toBeVisible();
   await expect(page.getByText("胡安·鲁尔福").first()).toBeVisible();
+});
+
+test("a newly public GeoJSON country receives an automatic Chinese label", async ({ page }) => {
+  await page.route("**/data/v2/web/site_data.json", async (route) => {
+    const response = await route.fetch();
+    const webData = await response.json();
+    webData.map.places.push({
+      place_id: "QA-COUNTRY-BO",
+      name_zh: "玻利维亚",
+      original_name: "Bolivia",
+      country_code: "BO",
+      place_kind: "country",
+      parent_place_id: null,
+      reality_status: "real",
+      map_status: "featured",
+      latitude: null,
+      longitude: null,
+    });
+    await route.fulfill({ response, json: webData });
+  });
+  await page.goto("");
+  const label = page.locator('[data-country-label-code="BO"]');
+  await expect(label).toHaveText("玻利维亚");
+  await expect(label).toHaveAttribute("data-label-position", "automatic");
+  await expect(page.locator('[data-country-id="QA-COUNTRY-BO"]')).toHaveAttribute("role", "button");
 });
 
 test("home pagination exposes every public author and work in deterministic order", async ({ page, request }) => {

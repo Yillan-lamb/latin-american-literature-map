@@ -5,43 +5,14 @@ from __future__ import annotations
 
 import argparse
 import json
-import re
 from pathlib import Path
+
+from build_v2_web_data import contains_internal_reader_language
 
 
 ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_DATA = ROOT / "data/v2/web/site_data.json"
 ALLOWED_STATUSES = {"auto_approved", "user_review", "hold"}
-INTERNAL_READER_LANGUAGE = re.compile(
-    r"\b(?:ABL|BNE|CVC)\b|Instituto Cervantes|Biblioteca Virtual|Memoria Chilena|"
-    r"CONICET|Itaú Cultural|UNAM|Universidad|Fundaci[oó]n|Polar|Nobel\s+Facts|Facts\s*页|BNDigital|\bMEC\b|"
-    r"图书馆|国家机构|公共文化|官网|书目|目录|页面|资料|(?<!笔名)来源|"
-    r"论文|(?:原文版|译本|年份|题名|首版|英译)[^。；]{0,20}记录|"
-    r"(?:作品页|作者页|机构年表|作品档案|作者档案|档案事实|档案记录)|"
-    r"(?:机构|基金会|UNAM|Universidad|Fundaci[oó]n|Polar)[^。；]{0,32}"
-    r"(?:年表|作品页|档案|书目|页面|资料|题名|年份|记录|支持|标注|列出|节点)|"
-    r"(?:字段|层级|节点|条目|本卡|争议提示|年份争议)|"
-    r"研究(?:层|资料|实体|锚点|关系|依据|流程|说明|强调|认为|指出|显示|支持|材料|事实|线索)|后续研究|"
-    r"(?:核对|确认|标注|记录|定位|检索)[^。；]{0,24}"
-    r"(?:原文题名|题名|年份|首版|出版|首发|作品集|小说层级|层级|字段|节点|条目|信息|日期|作者关系)|"
-    r"(?:原文题名|年份|首版|出版|首发|西语首刊|作品|小说|戏剧)[^。；]{0,16}"
-    r"(?:记录|核对|确认|标注)|正式(?:研究|地点|关联|关系|作品|主题|实体)|"
-    r"(?:可回查|可核实|已核实|暂译)|(?:待|留待)[^。；]{0,24}(?:研究|补充|上线|确认|核对)|"
-    r"不(?:把|将)[^。；]{0,30}(?:冒充|写成|升级为|推导|外推)[^。；]{0,20}(?:事实|关系|结论|定论|评价)|"
-    r"(?:正式|作者级)[^。；]{0,12}关系|国家父级|导航所需|已经公开|"
-    r"支撑[^。；]{0,8}事实|公开[^。；]{0,8}关系|作品空间作用|"
-    r"中文(?:名|展示名)[^。；]{0,24}(?:展示|读者)|本页|可核回|"
-    r"国家图书馆|官方(?:时间线|书目|页面|资料)|"
-    r"机构(?:来源|资料|传记)|公共文化页面|(?:书目|目录|页面|资料|来源|档案|时间线)"
-    r"(?:列出|记录|确认|支持|显示)|再次确认|交叉支持|直接支持|直接列出|直接记录|"
-    r"可回溯|可复核|可核验|主库|本批|审核层|审阅|审核|复核|核验|准入|待复核|"
-    r"(?:直接作品|书目|研究|事实|机构)来源|来源(?:将|所说|列出|记录|支持|确认|显示|中)|"
-    r"(?:实体层|字段层|工作层)(?:使用|采用|保留)?|\bcollection\b|"
-    r"来源边界|年份冲突记录|Research\s*(?:Data|fact)?|source_id|fact_id|reviewer|"
-    r"reviewed|verified|provisional|gap\s*台账|根据(?:某|该|现有)?(?:资料|来源|数据库|页面)|"
-    r"依据(?:资料|来源)",
-    re.IGNORECASE,
-)
 COUNT_PATHS = {
     "entities": ("research", "entities"),
     "content_cards": ("research", "content_cards"),
@@ -193,7 +164,7 @@ def main() -> int:
         if group in {"authors", "works"} and set(target_ids) != set(payload["public_scope"][group]):
             fail(f"reader content does not cover every public {group}")
     for path, value in reader_strings(reader_content):
-        if INTERNAL_READER_LANGUAGE.search(value):
+        if contains_internal_reader_language(value):
             fail(f"internal evidence-process language leaked into {path}: {value[:80]}")
 
     discovery = presentation.get("discovery")

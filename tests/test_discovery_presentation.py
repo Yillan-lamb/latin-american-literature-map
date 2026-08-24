@@ -62,6 +62,35 @@ class DiscoveryPresentationTests(unittest.TestCase):
             for record in records:
                 self.assertFalse(MODULE.contains_internal_reader_language(record), record["target_id"])
 
+    def test_institutions_are_allowed_as_literary_context(self) -> None:
+        allowed = (
+            "博尔赫斯曾任阿根廷国家图书馆馆长。",
+            "小说写于他在大学任教期间。",
+            "这场文学活动由 Fundación Cultural 举办。",
+            "认识博尔赫斯，也可以从图书馆、迷宫和悖论进入。",
+        )
+        for sentence in allowed:
+            with self.subTest(sentence=sentence):
+                self.assertFalse(MODULE.contains_internal_reader_language(sentence))
+                self.assertEqual(MODULE.clean_reader_value(sentence), sentence)
+        borges = next(
+            item for item in self.first["reader_content"]["authors"]
+            if item["target_id"] == "V1-ENT-0002"
+        )
+        self.assertIn("图书馆、迷宫和悖论", borges["why_know"])
+
+    def test_institution_source_process_language_is_rejected(self) -> None:
+        forbidden = (
+            "ABL 书目列出作品出版于 1956 年。",
+            "国家图书馆页面确认该书出版于 1956 年。",
+            "Universidad 档案记录了作品的首版年份。",
+            "基金会资料支持这一作者关系。",
+        )
+        for sentence in forbidden:
+            with self.subTest(sentence=sentence):
+                self.assertTrue(MODULE.contains_internal_reader_language(sentence))
+                self.assertIsNone(MODULE.clean_reader_value(sentence))
+
 
 if __name__ == "__main__":
     unittest.main()

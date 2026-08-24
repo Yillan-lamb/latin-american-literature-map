@@ -36533,13 +36533,25 @@
         },
         {
           "factors": {
+            "chinese_reader_access": 8,
+            "evidence_depth": 2,
+            "major_award": 0,
+            "reader_content_depth": 24,
+            "reading_path": 0
+          },
+          "rank": 8,
+          "score": 34,
+          "target_id": "V1-ENT-0002"
+        },
+        {
+          "factors": {
             "chinese_reader_access": 4,
             "evidence_depth": 5,
             "major_award": 0,
             "reader_content_depth": 24,
             "reading_path": 0
           },
-          "rank": 8,
+          "rank": 9,
           "score": 33,
           "target_id": "V1-ENT-0073"
         },
@@ -36551,7 +36563,7 @@
             "reader_content_depth": 24,
             "reading_path": 0
           },
-          "rank": 9,
+          "rank": 10,
           "score": 32,
           "target_id": "V1-ENT-0029"
         },
@@ -36563,7 +36575,7 @@
             "reader_content_depth": 24,
             "reading_path": 0
           },
-          "rank": 10,
+          "rank": 11,
           "score": 32,
           "target_id": "V1-ENT-0030"
         },
@@ -36575,21 +36587,9 @@
             "reader_content_depth": 24,
             "reading_path": 0
           },
-          "rank": 11,
+          "rank": 12,
           "score": 32,
           "target_id": "V1-ENT-0031"
-        },
-        {
-          "factors": {
-            "chinese_reader_access": 8,
-            "evidence_depth": 2,
-            "major_award": 0,
-            "reader_content_depth": 21,
-            "reading_path": 0
-          },
-          "rank": 12,
-          "score": 31,
-          "target_id": "V1-ENT-0002"
         },
         {
           "factors": {
@@ -36606,14 +36606,14 @@
         {
           "factors": {
             "chinese_reader_access": 12,
-            "evidence_depth": 4,
+            "evidence_depth": 2,
             "major_award": 0,
-            "reader_content_depth": 3,
+            "reader_content_depth": 6,
             "reading_path": 0
           },
           "rank": 14,
-          "score": 19,
-          "target_id": "V1-ENT-0185"
+          "score": 20,
+          "target_id": "V1-ENT-0200"
         },
         {
           "factors": {
@@ -36625,19 +36625,19 @@
           },
           "rank": 15,
           "score": 19,
-          "target_id": "V1-ENT-0213"
+          "target_id": "V1-ENT-0185"
         },
         {
           "factors": {
             "chinese_reader_access": 12,
-            "evidence_depth": 3,
+            "evidence_depth": 4,
             "major_award": 0,
             "reader_content_depth": 3,
             "reading_path": 0
           },
           "rank": 16,
-          "score": 18,
-          "target_id": "V1-ENT-0184"
+          "score": 19,
+          "target_id": "V1-ENT-0213"
         },
         {
           "factors": {
@@ -36649,7 +36649,7 @@
           },
           "rank": 17,
           "score": 18,
-          "target_id": "V1-ENT-0186"
+          "target_id": "V1-ENT-0184"
         },
         {
           "factors": {
@@ -36661,7 +36661,7 @@
           },
           "rank": 18,
           "score": 18,
-          "target_id": "V1-ENT-0211"
+          "target_id": "V1-ENT-0186"
         },
         {
           "factors": {
@@ -36673,19 +36673,19 @@
           },
           "rank": 19,
           "score": 18,
-          "target_id": "V1-ENT-0212"
+          "target_id": "V1-ENT-0211"
         },
         {
           "factors": {
             "chinese_reader_access": 12,
-            "evidence_depth": 2,
+            "evidence_depth": 3,
             "major_award": 0,
             "reader_content_depth": 3,
             "reading_path": 0
           },
           "rank": 20,
-          "score": 17,
-          "target_id": "V1-ENT-0172"
+          "score": 18,
+          "target_id": "V1-ENT-0212"
         },
         {
           "factors": {
@@ -36697,7 +36697,7 @@
           },
           "rank": 21,
           "score": 17,
-          "target_id": "V1-ENT-0198"
+          "target_id": "V1-ENT-0172"
         },
         {
           "factors": {
@@ -36709,7 +36709,7 @@
           },
           "rank": 22,
           "score": 17,
-          "target_id": "V1-ENT-0200"
+          "target_id": "V1-ENT-0198"
         },
         {
           "factors": {
@@ -36922,20 +36922,20 @@
         },
         {
           "factors": {
-            "author_recognition": 9,
+            "author_recognition": 8,
             "bibliographic_completeness": 12,
-            "literary_connections": 1,
+            "literary_connections": 2,
             "reader_content_depth": 24,
             "reading_guidance": 8,
             "reading_path": 0
           },
           "rank": 14,
           "score": 54,
-          "target_id": "V1-ENT-0017"
+          "target_id": "V1-ENT-0003"
         },
         {
           "factors": {
-            "author_recognition": 7,
+            "author_recognition": 8,
             "bibliographic_completeness": 12,
             "literary_connections": 2,
             "reader_content_depth": 24,
@@ -36943,21 +36943,21 @@
             "reading_path": 0
           },
           "rank": 15,
-          "score": 53,
-          "target_id": "V1-ENT-0003"
+          "score": 54,
+          "target_id": "V1-ENT-0004"
         },
         {
           "factors": {
-            "author_recognition": 7,
+            "author_recognition": 9,
             "bibliographic_completeness": 12,
-            "literary_connections": 2,
+            "literary_connections": 1,
             "reader_content_depth": 24,
             "reading_guidance": 8,
             "reading_path": 0
           },
           "rank": 16,
-          "score": 53,
-          "target_id": "V1-ENT-0004"
+          "score": 54,
+          "target_id": "V1-ENT-0017"
         },
         {
           "factors": {
@@ -37091,16 +37091,16 @@
         },
         {
           "factors": {
-            "author_recognition": 5,
+            "author_recognition": 4,
             "bibliographic_completeness": 4,
             "literary_connections": 1,
-            "reader_content_depth": 6,
+            "reader_content_depth": 9,
             "reading_guidance": 0,
             "reading_path": 0
           },
           "rank": 27,
-          "score": 16,
-          "target_id": "V1-ENT-0204"
+          "score": 18,
+          "target_id": "V1-ENT-0187"
         },
         {
           "factors": {
@@ -37113,7 +37113,7 @@
           },
           "rank": 28,
           "score": 16,
-          "target_id": "V1-ENT-0205"
+          "target_id": "V1-ENT-0204"
         },
         {
           "factors": {
@@ -37126,11 +37126,11 @@
           },
           "rank": 29,
           "score": 16,
-          "target_id": "V1-ENT-0206"
+          "target_id": "V1-ENT-0205"
         },
         {
           "factors": {
-            "author_recognition": 4,
+            "author_recognition": 5,
             "bibliographic_completeness": 4,
             "literary_connections": 1,
             "reader_content_depth": 6,
@@ -37138,12 +37138,12 @@
             "reading_path": 0
           },
           "rank": 30,
-          "score": 15,
-          "target_id": "V1-ENT-0173"
+          "score": 16,
+          "target_id": "V1-ENT-0206"
         },
         {
           "factors": {
-            "author_recognition": 4,
+            "author_recognition": 5,
             "bibliographic_completeness": 4,
             "literary_connections": 1,
             "reader_content_depth": 6,
@@ -37151,12 +37151,12 @@
             "reading_path": 0
           },
           "rank": 31,
-          "score": 15,
-          "target_id": "V1-ENT-0174"
+          "score": 16,
+          "target_id": "V1-ENT-0207"
         },
         {
           "factors": {
-            "author_recognition": 4,
+            "author_recognition": 5,
             "bibliographic_completeness": 4,
             "literary_connections": 1,
             "reader_content_depth": 6,
@@ -37164,12 +37164,12 @@
             "reading_path": 0
           },
           "rank": 32,
-          "score": 15,
-          "target_id": "V1-ENT-0176"
+          "score": 16,
+          "target_id": "V1-ENT-0208"
         },
         {
           "factors": {
-            "author_recognition": 4,
+            "author_recognition": 5,
             "bibliographic_completeness": 4,
             "literary_connections": 1,
             "reader_content_depth": 6,
@@ -37177,8 +37177,8 @@
             "reading_path": 0
           },
           "rank": 33,
-          "score": 15,
-          "target_id": "V1-ENT-0178"
+          "score": 16,
+          "target_id": "V1-ENT-0209"
         },
         {
           "factors": {
@@ -37191,7 +37191,7 @@
           },
           "rank": 34,
           "score": 15,
-          "target_id": "V1-ENT-0179"
+          "target_id": "V1-ENT-0173"
         },
         {
           "factors": {
@@ -37204,7 +37204,7 @@
           },
           "rank": 35,
           "score": 15,
-          "target_id": "V1-ENT-0180"
+          "target_id": "V1-ENT-0174"
         },
         {
           "factors": {
@@ -37217,7 +37217,7 @@
           },
           "rank": 36,
           "score": 15,
-          "target_id": "V1-ENT-0181"
+          "target_id": "V1-ENT-0176"
         },
         {
           "factors": {
@@ -37230,7 +37230,7 @@
           },
           "rank": 37,
           "score": 15,
-          "target_id": "V1-ENT-0187"
+          "target_id": "V1-ENT-0178"
         },
         {
           "factors": {
@@ -37243,7 +37243,7 @@
           },
           "rank": 38,
           "score": 15,
-          "target_id": "V1-ENT-0188"
+          "target_id": "V1-ENT-0179"
         },
         {
           "factors": {
@@ -37256,7 +37256,7 @@
           },
           "rank": 39,
           "score": 15,
-          "target_id": "V1-ENT-0189"
+          "target_id": "V1-ENT-0180"
         },
         {
           "factors": {
@@ -37269,7 +37269,7 @@
           },
           "rank": 40,
           "score": 15,
-          "target_id": "V1-ENT-0190"
+          "target_id": "V1-ENT-0181"
         },
         {
           "factors": {
@@ -37282,7 +37282,7 @@
           },
           "rank": 41,
           "score": 15,
-          "target_id": "V1-ENT-0191"
+          "target_id": "V1-ENT-0188"
         },
         {
           "factors": {
@@ -37295,7 +37295,7 @@
           },
           "rank": 42,
           "score": 15,
-          "target_id": "V1-ENT-0192"
+          "target_id": "V1-ENT-0189"
         },
         {
           "factors": {
@@ -37308,7 +37308,7 @@
           },
           "rank": 43,
           "score": 15,
-          "target_id": "V1-ENT-0193"
+          "target_id": "V1-ENT-0190"
         },
         {
           "factors": {
@@ -37321,7 +37321,7 @@
           },
           "rank": 44,
           "score": 15,
-          "target_id": "V1-ENT-0194"
+          "target_id": "V1-ENT-0191"
         },
         {
           "factors": {
@@ -37334,7 +37334,7 @@
           },
           "rank": 45,
           "score": 15,
-          "target_id": "V1-ENT-0195"
+          "target_id": "V1-ENT-0192"
         },
         {
           "factors": {
@@ -37347,7 +37347,7 @@
           },
           "rank": 46,
           "score": 15,
-          "target_id": "V1-ENT-0201"
+          "target_id": "V1-ENT-0193"
         },
         {
           "factors": {
@@ -37360,7 +37360,7 @@
           },
           "rank": 47,
           "score": 15,
-          "target_id": "V1-ENT-0202"
+          "target_id": "V1-ENT-0194"
         },
         {
           "factors": {
@@ -37373,7 +37373,7 @@
           },
           "rank": 48,
           "score": 15,
-          "target_id": "V1-ENT-0203"
+          "target_id": "V1-ENT-0195"
         },
         {
           "factors": {
@@ -37386,7 +37386,7 @@
           },
           "rank": 49,
           "score": 15,
-          "target_id": "V1-ENT-0207"
+          "target_id": "V1-ENT-0201"
         },
         {
           "factors": {
@@ -37399,7 +37399,7 @@
           },
           "rank": 50,
           "score": 15,
-          "target_id": "V1-ENT-0208"
+          "target_id": "V1-ENT-0202"
         },
         {
           "factors": {
@@ -37412,7 +37412,7 @@
           },
           "rank": 51,
           "score": 15,
-          "target_id": "V1-ENT-0209"
+          "target_id": "V1-ENT-0203"
         },
         {
           "factors": {
@@ -82267,7 +82267,8 @@
             "target_id": "V1-ENT-0004"
           }
         ],
-        "target_id": "V1-ENT-0002"
+        "target_id": "V1-ENT-0002",
+        "why_know": "认识博尔赫斯，可以看见拉丁美洲文学并不只依靠宏大历史或异域奇观，也能以图书馆、迷宫和悖论重新发明小说的尺度。"
       },
       {
         "core_themes": [
@@ -82697,6 +82698,12 @@
         "target_id": "V1-ENT-0199"
       },
       {
+        "literary_features": [
+          {
+            "text": "三部作品分别落在 1917、1918、1926 年。",
+            "title": "短篇书目"
+          }
+        ],
         "reader_lede": "奥拉西奥·基罗加（1878—1937）是乌拉圭作家。可以从《爱情、疯狂和死亡的故事》、《丛林故事》、《流放者》开始阅读。",
         "target_id": "V1-ENT-0200"
       },
@@ -82795,6 +82802,7 @@
         "exploration_route": "加西亚·马尔克斯 → 《百年孤独》 → 马孔多；始终明确现实出生地与文学虚构城市不能画等号。",
         "literary_intro": "阿卡塔卡是马尔克斯出生的加勒比城镇，也是理解其童年经验与马孔多想象之间关系的现实入口。",
         "reader_path": "加西亚·马尔克斯 → 《百年孤独》 → 马孔多；始终明确现实出生地与文学虚构城市不能画等号。",
+        "spatial_meaning": "页面并不把阿卡塔卡等同于马孔多；现实生平地理与虚构城市保持各自边界。",
         "target_id": "V1-ENT-0098"
       },
       {
@@ -83652,6 +83660,7 @@
         "target_id": "V1-ENT-0181"
       },
       {
+        "location_note": "Santa María 是虚构文学空间，不设置现实坐标；页面保留文字关联。",
         "reading_premise": "《短暂的生命》由胡安·卡洛斯·奥内蒂创作，出版于 1950 年。",
         "story_intro": "《短暂的生命》由胡安·卡洛斯·奥内蒂创作，出版于 1950 年。",
         "target_id": "V1-ENT-0187"

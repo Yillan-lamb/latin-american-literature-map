@@ -15,20 +15,16 @@ let searchFilter = "all";
 let authorPage = 1;
 let workPage = 1;
 
-const COUNTRY_LABEL_LAYOUT = {
-  MX: { label: [166, 64] },
-  GT: { anchor: [283, 109], label: [245, 94] },
-  NI: { anchor: [337, 127], label: [326, 148] },
-  CU: { anchor: [394, 72], label: [410, 53] },
-  CO: { label: [452, 176] },
-  VE: { label: [536, 150] },
-  EC: { anchor: [405, 217], label: [379, 230] },
-  PE: { label: [441, 270] },
-  BR: { label: [654, 266] },
-  CL: { anchor: [480, 402], label: [448, 407] },
-  AR: { label: [565, 458] },
-  UY: { anchor: [635, 416], label: [675, 427] },
-  PY: { label: [594, 350] },
+// Most labels are derived from the GeoJSON geometry.  Overrides are only for
+// crowded, island, or unusually narrow shapes; their anchors remain automatic.
+const COUNTRY_LABEL_OVERRIDES = {
+  GT: [245, 94],
+  NI: [326, 148],
+  CU: [410, 53],
+  VE: [536, 150],
+  EC: [379, 230],
+  CL: [448, 407],
+  UY: [675, 427],
 };
 
 const escapeHtml = (value) => String(value ?? "").replace(/[&<>"']/g, (character) => ({
@@ -155,6 +151,41 @@ function featurePath(feature) {
   return feature.geometry.type === "Polygon" ? polygonPath(coordinates) : coordinates.map(polygonPath).join("");
 }
 
+function polygonLabelPoint(ring) {
+  const points = ring.map(project);
+  let areaTwice = 0;
+  let centroidX = 0;
+  let centroidY = 0;
+  points.forEach((point, index) => {
+    const next = points[(index + 1) % points.length];
+    const cross = point[0] * next[1] - next[0] * point[1];
+    areaTwice += cross;
+    centroidX += (point[0] + next[0]) * cross;
+    centroidY += (point[1] + next[1]) * cross;
+  });
+  if (Math.abs(areaTwice) < 0.001) {
+    const xs = points.map((point) => point[0]);
+    const ys = points.map((point) => point[1]);
+    return { area: 0, point: [(Math.min(...xs) + Math.max(...xs)) / 2, (Math.min(...ys) + Math.max(...ys)) / 2] };
+  }
+  return {
+    area: Math.abs(areaTwice / 2),
+    point: [centroidX / (3 * areaTwice), centroidY / (3 * areaTwice)],
+  };
+}
+
+function automaticCountryLabelPoint(feature) {
+  // For island groups, label the largest land mass instead of averaging across
+  // remote islands.  This calculation is presentation-only and never writes to
+  // Research Data or the literary-place coordinate layer.
+  const polygons = feature.geometry.type === "Polygon"
+    ? [feature.geometry.coordinates]
+    : feature.geometry.coordinates;
+  return polygons
+    .map((polygon) => polygonLabelPoint(polygon[0]))
+    .sort((first, second) => second.area - first.area)[0].point;
+}
+
 function literaryConnectionsFor(placeIds, includeWorkCreators = false) {
   const scope = new Set(placeIds);
   const mapRelations = data.map.relations.filter((item) => scope.has(item.target_place_id));
@@ -233,6 +264,7 @@ function mapContextPanelMarkup() {
 function mapMarkup() {
   const countries = publicPlaces().filter((item) => item.place_kind === "country");
   const countryByCode = new Map(countries.map((item) => [item.country_code, item]));
+  const featureByCode = new Map(geography.features.map((feature) => [feature.properties.ISO_A2, feature]));
   const selectedCode = place(activeCountry)?.country_code;
   const shapes = geography.features.map((feature) => {
     const code = feature.properties.ISO_A2;
@@ -241,13 +273,15 @@ function mapMarkup() {
     return `<path d="${featurePath(feature)}" class="country-shape ${country ? "available" : ""} ${active ? "active" : ""}" ${country ? `data-country-id="${escapeHtml(country.place_id)}" tabindex="0" role="button" aria-pressed="${active}" aria-label="探索${escapeHtml(country.name_zh)}文学"` : `aria-hidden="true"`}><title>${escapeHtml(country?.name_zh || feature.properties.ADMIN)}</title></path>`;
   }).join("");
   const countryLabels = [...countryByCode.entries()].map(([code, country]) => {
-    const layout = COUNTRY_LABEL_LAYOUT[code];
-    if (!layout) return "";
-    const [x, y] = layout.label;
-    const leader = layout.anchor
-      ? `<line x1="${layout.anchor[0]}" y1="${layout.anchor[1]}" x2="${x}" y2="${y - 4}"></line>`
+    const feature = featureByCode.get(code);
+    if (!feature) return "";
+    const anchor = automaticCountryLabelPoint(feature);
+    const override = COUNTRY_LABEL_OVERRIDES[code];
+    const [x, y] = override || anchor;
+    const leader = override
+      ? `<line x1="${anchor[0].toFixed(1)}" y1="${anchor[1].toFixed(1)}" x2="${x}" y2="${y - 4}"></line>`
       : "";
-    return `<g class="country-label-group" aria-hidden="true">${leader}<text class="country-label" data-country-label-code="${escapeHtml(code)}" x="${x}" y="${y}" text-anchor="middle">${escapeHtml(country.name_zh)}</text></g>`;
+    return `<g class="country-label-group" aria-hidden="true">${leader}<text class="country-label" data-country-label-code="${escapeHtml(code)}" data-label-position="${override ? "override" : "automatic"}" x="${x.toFixed(1)}" y="${y.toFixed(1)}" text-anchor="middle">${escapeHtml(country.name_zh)}</text></g>`;
   }).join("");
   const realNodes = visibleRealMapPlaces();
   const labelOffsets = { "V1-ENT-0052": [10, -12], "V1-ENT-0053": [10, 16], "V1-ENT-0054": [-72, 16], "V1-ENT-0056": [10, -20] };

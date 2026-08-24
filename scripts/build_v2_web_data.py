@@ -29,17 +29,28 @@ ALLOWED_CURATION_STATUSES = {"auto_approved", "user_review", "hold"}
 PRESENTATION_GROUPS = ("reading_paths", "timeline_periods", "why_read", "next_reads")
 DISCOVERY_RANKING_VERSION = "web-0.2-popularity-v1"
 DISCOVERY_PAGE_SIZE = 9
+INTERNAL_READER_INSTITUTION = (
+    r"(?:\b(?:ABL|BNE|CVC|CONICET|UNAM|MEC)\b|Instituto Cervantes|Biblioteca Virtual|"
+    r"Memoria Chilena|Itaú Cultural|poets\.org|Passagens|RFRM|Universidad|Fundaci[oó]n|"
+    r"Polar|BNDigital|(?:国家)?图书馆|国家机构|公共文化(?:机构)?|大学|基金会|机构|官网)"
+)
+INTERNAL_READER_PROCESS = (
+    r"(?:书目|目录|页面|资料|档案|年表|时间线|题名|年份|记录|确认|核验|核对|支持|依据|"
+    r"显示|标注|列出|列为|区分|检索|回溯|可回溯|可复核|可核验)"
+)
 INTERNAL_READER_LANGUAGE = re.compile(
-    r"(?:"
-    r"\b(?:ABL|BNE|CVC)\b|Instituto Cervantes|Biblioteca Virtual|Memoria Chilena|"
-    r"CONICET|Itaú Cultural|poets\.org|Passagens|RFRM|UNAM|Universidad|Fundaci[oó]n|Polar|"
+    rf"(?:"
+    # An institution is ordinary literary context until it is coupled with
+    # evidence-handling prose.  This preserves biographies such as “曾任国家
+    # 图书馆馆长” while still rejecting “ABL 书目列出……”.
+    rf"{INTERNAL_READER_INSTITUTION}[^。；\n]{{0,40}}{INTERNAL_READER_PROCESS}|"
     r"Nobel\s+Facts|Facts\s*页|"
-    r"BNDigital|\bMEC\b|图书馆|国家机构|公共文化|官网|"
-    r"书目|目录|页面|资料|(?<!笔名)来源|"
-    r"论文|(?:原文版|译本|年份|题名|首版|英译)[^。；]{0,20}记录|"
+    r"(?:书目|目录|页面|资料|(?<!笔名)来源|档案|时间线|论文)[^。；\n]{0,32}"
+    r"(?:列出|列为|记录|确认|核验|核对|支持|依据|显示|标注|认为|指出|解读|分析|讨论|区分|回溯|可回溯|可复核|可核验)|"
+    r"(?:Memoria Chilena|巴西文学院)[^。；\n]{0,40}(?:提供|描述)|"
+    r"书目(?:中)?形成[^。；\n]{0,24}(?:时间线|序列)|"
+    r"(?:原文版|译本|年份|题名|首版|英译)[^。；]{0,20}记录|"
     r"(?:作品页|作者页|机构年表|作品档案|作者档案|档案事实|档案记录)|"
-    r"(?:机构|基金会|UNAM|Universidad|Fundaci[oó]n|Polar)[^。；]{0,32}"
-    r"(?:年表|作品页|档案|书目|页面|资料|题名|年份|记录|支持|标注|列出|节点)|"
     r"(?:字段|层级|节点|条目|本卡|争议提示|年份争议)|"
     r"研究(?:层|资料|实体|锚点|关系|依据|流程|说明|强调|认为|指出|显示|支持|材料|事实|线索)|后续研究|"
     r"(?:核对|确认|标注|记录|定位|检索)[^。；]{0,24}"
@@ -51,15 +62,15 @@ INTERNAL_READER_LANGUAGE = re.compile(
     r"(?:正式|作者级)[^。；]{0,12}关系|国家父级|导航所需|已经公开|"
     r"支撑[^。；]{0,8}事实|公开[^。；]{0,8}关系|作品空间作用|"
     r"中文(?:名|展示名)[^。；]{0,24}(?:展示|读者)|本页|可核回|"
-    r"法国国家图书馆|巴西文学院|阿根廷国家图书馆|智利国家图书馆|"
-    r"国家图书馆|官方(?:时间线|书目|页面|资料)|机构(?:来源|资料|传记)|公共文化页面|"
+    r"官方(?:时间线|书目|页面|资料)[^。；]{0,24}(?:列出|记录|确认|支持|显示)|"
+    r"机构(?:来源|资料|传记)[^。；]{0,24}(?:列出|记录|确认|支持|显示)|公共文化页面[^。；]{0,24}(?:列出|记录|确认|支持|显示)|"
     r"(?:书目|目录|页面|资料|来源|档案|时间线)(?:列出|记录|确认|支持|显示)|"
     r"(?:再次确认|交叉支持|直接支持|直接列出|直接记录|可回溯|可复核|可核验)|"
     r"(?:直接作品|书目|研究|事实|机构)来源|来源(?:将|所说|列出|记录|支持|确认|显示|中)|"
     r"(?:实体层|字段层|工作层)(?:使用|采用|保留)?|\bcollection\b|"
     r"(?:主库|本批|审核层|审阅|审核|复核|核验|准入|待复核|来源边界|年份冲突记录)|"
     r"(?:Research\s*(?:Data|fact)?|source_id|fact_id|reviewer|reviewed|verified|provisional|gap\s*台账)|"
-    r"(?:据\s*(?:Nobel|[A-Za-z.]+)|根据(?:某|该|现有)?(?:资料|来源|数据库|页面)|依据(?:资料|来源))"
+    r"(?:据\s*(?:Nobel|诺贝尔|[A-Za-z.]+)|根据(?:某|该|现有)?(?:资料|来源|数据库|页面|书目|目录|机构|图书馆)|依据(?:资料|来源|书目|目录|机构|图书馆))"
     r")",
     re.IGNORECASE,
 )

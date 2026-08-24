@@ -201,3 +201,11 @@ Review package：61 authors / 168 works or collections / 25 places。
 合并条件：本文件及整改进入 PR #11 原分支后，该精确 head 的 required GitHub checks 必须全部成功。满足后可正常合并至 `main`；不得 force、不得绕过保护、不得重写历史。
 
 合并后只做 main SHA、数据库、Web Data、国家标签、分页、reader/evidence boundary、任务状态与 Public Release 状态复核。随后停止；下一阶段为 WCD-01，但本轮不自动启动。
+
+## Post-Merge Verification
+
+- PR #11 已于 2026-08-24 合并；合并并完成复核时的 `main` SHA 为 `208b53806e25140967e8116738d833f3ca0db90f`。
+- Post-merge `Web Development CI` 成功；本地复核中数据库完整性、27 次迁移重放、10 项 unit/regression、Web Data、public bundle 与公开页面验证均通过。
+- `main = Web 0.2.0 Development Baseline`。
+- `Public Release = PAUSED BY USER`；没有创建 production deployment、Web 1.0.0 tag 或 GitHub Release。
+- 当前任务仍为 `WEB-CONTENT-DEEPENING`，下一任务仍为 `WCD-01 Global Curation Triage`；本次复核未启动 WCD-01。

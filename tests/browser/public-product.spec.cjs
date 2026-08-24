@@ -23,10 +23,11 @@ test.afterEach(async ({ page }) => {
   expect(await page.locator("body").innerText()).not.toMatch(forbidden);
   const ordinaryReaderText = await page.evaluate(() => {
     const copy = document.body.cloneNode(true);
-    copy.querySelectorAll("details").forEach((item) => item.remove());
+    copy.querySelectorAll("details, [data-review-preview-banner]").forEach((item) => item.remove());
     return copy.innerText;
   });
-  expect(ordinaryReaderText, "evidence or source-process prose leaked outside a disclosure").not.toMatch(readerEvidenceLeakage);
+  const evidenceMatch = ordinaryReaderText.match(readerEvidenceLeakage)?.[0] || "none";
+  expect(ordinaryReaderText, `evidence or source-process prose leaked outside a disclosure: ${evidenceMatch}`).not.toMatch(readerEvidenceLeakage);
 });
 
 test("home, map, country and mobile navigation", async ({ page, isMobile, request }) => {
@@ -100,7 +101,7 @@ test("reader prose and expandable research evidence stay on opposite sides of th
   await expect(panel).not.toHaveAttribute("open", "");
   const ordinaryText = await page.evaluate(() => {
     const copy = document.body.cloneNode(true);
-    copy.querySelectorAll("details").forEach((item) => item.remove());
+    copy.querySelectorAll("details, [data-review-preview-banner]").forEach((item) => item.remove());
     return copy.innerText;
   });
   expect(ordinaryText).not.toMatch(readerEvidenceLeakage);
@@ -517,9 +518,10 @@ test("every sitemap route renders public reader text without governance language
     expect(text, route).not.toMatch(forbidden);
     const ordinaryText = await page.evaluate(() => {
       const copy = document.body.cloneNode(true);
-      copy.querySelectorAll("details").forEach((item) => item.remove());
+      copy.querySelectorAll("details, [data-review-preview-banner]").forEach((item) => item.remove());
       return copy.innerText;
     });
-    expect(ordinaryText, route).not.toMatch(readerEvidenceLeakage);
+    const evidenceMatch = ordinaryText.match(readerEvidenceLeakage)?.[0] || "none";
+    expect(ordinaryText, `${route}: ${evidenceMatch}`).not.toMatch(readerEvidenceLeakage);
   }
 });

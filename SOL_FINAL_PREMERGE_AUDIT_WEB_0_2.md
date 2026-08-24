@@ -36,6 +36,7 @@
 - Public bundle 物理剥离 review queue、策展工作稿 `content_zh`、reviewer、basis、reviewed_at 等治理字段。
 - 数据 validator 递归拒绝来源机构、书目核验、审核流程等语言进入 `reader_content`；浏览器测试把默认普通 DOM 与展开后的 Research Evidence 分开检查。
 - 全部 119 条 sitemap 路由逐页渲染通过，无 reader-facing 证据流程语言和治理语言泄漏。
+- CI 使用的 USER_REVIEW 本地审核预览另含 61 位作家、168 部作品和 273 条路由；审核横幅作为测试工具单独标记，不计入读者正文，全部预览路由同样通过 reader / evidence 边界扫描。
 
 ### 3. Author pagination
 
@@ -160,6 +161,7 @@ Review package：61 authors / 168 works or collections / 25 places。
   - Firefox desktop 1440×1000；
   - WebKit mobile 390×844。
 - 独立 journey matrix：Chromium / Firefox / WebKit 各自运行 desktop 1440×1000 与 mobile 390×844，共 6 个组合、54 条用户旅程，全部 PASS。
+- GitHub CI parity：USER_REVIEW 预览在 Chromium desktop / mobile 共 40/40 PASS；其 273 条 sitemap 路由逐页检查通过。
 - 覆盖首页、国家标签、地图 click / keyboard、现实地点、虚构空间、作者与作品全页分页、search、timeline、作者页、作品页、evidence 展开、mobile nav、119 条 sitemap 路由与链接完整性。
 
 ## Security and Copyright

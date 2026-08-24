@@ -5,12 +5,34 @@ from __future__ import annotations
 
 import argparse
 import json
+import re
 from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_DATA = ROOT / "data/v2/web/site_data.json"
 ALLOWED_STATUSES = {"auto_approved", "user_review", "hold"}
+INTERNAL_READER_LANGUAGE = re.compile(
+    r"\b(?:ABL|BNE|CVC)\b|Instituto Cervantes|Biblioteca Virtual|Memoria Chilena|"
+    r"CONICET|Itaú Cultural|Nobel\s+Facts|Facts\s*页|BNDigital|\bMEC\b|"
+    r"图书馆|国家机构|公共文化|官网|书目|目录|页面|资料|(?<!笔名)来源|"
+    r"论文|(?:原文版|译本|年份|题名|首版|英译)[^。；]{0,20}记录|"
+    r"(?:作品页|作者档案|机构档案)[^。；]{0,20}(?:支持|记录|列出|回溯)|"
+    r"研究(?:层|资料|实体|锚点|关系|依据|流程|说明)|"
+    r"(?:正式|作者级)[^。；]{0,12}关系|国家父级|导航所需|已经公开|"
+    r"支撑[^。；]{0,8}事实|公开[^。；]{0,8}关系|作品空间作用|"
+    r"中文(?:名|展示名)[^。；]{0,24}(?:展示|读者)|本页|可核回|"
+    r"国家图书馆|官方(?:时间线|书目|页面|资料)|"
+    r"机构(?:来源|资料|传记)|公共文化页面|(?:书目|目录|页面|资料|来源|档案|时间线)"
+    r"(?:列出|记录|确认|支持|显示)|再次确认|交叉支持|直接支持|直接列出|直接记录|"
+    r"可回溯|可复核|可核验|主库|本批|审核层|审阅|审核|复核|核验|准入|待复核|"
+    r"(?:直接作品|书目|研究|事实|机构)来源|来源(?:将|所说|列出|记录|支持|确认|显示|中)|"
+    r"(?:实体层|字段层|工作层)(?:使用|采用|保留)?|\bcollection\b|"
+    r"来源边界|年份冲突记录|Research\s*(?:Data|fact)?|source_id|fact_id|reviewer|"
+    r"reviewed|verified|provisional|gap\s*台账|根据(?:某|该|现有)?(?:资料|来源|数据库|页面)|"
+    r"依据(?:资料|来源)",
+    re.IGNORECASE,
+)
 COUNT_PATHS = {
     "entities": ("research", "entities"),
     "content_cards": ("research", "content_cards"),
@@ -44,6 +66,17 @@ def fail(message: str) -> None:
     raise ValueError(message)
 
 
+def reader_strings(value: object, path: str = "reader_content"):
+    if isinstance(value, str):
+        yield path, value
+    elif isinstance(value, list):
+        for index, item in enumerate(value):
+            yield from reader_strings(item, f"{path}[{index}]")
+    elif isinstance(value, dict):
+        for key, item in value.items():
+            yield from reader_strings(item, f"{path}.{key}")
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("path", type=Path, nargs="?", default=DEFAULT_DATA)
@@ -53,7 +86,7 @@ def main() -> int:
         fail("unexpected Web Data schema_version")
     if payload.get("product_version") != "0.2.0":
         fail("unexpected Web Product version")
-    for key in ("research", "curation", "review_queue", "public_content", "public_content_review_queue", "presentation", "presentation_review_queue", "public_scope", "pages", "map", "qa", "search_index", "timeline"):
+    for key in ("research", "curation", "review_queue", "public_content", "public_content_review_queue", "reader_content", "presentation", "presentation_review_queue", "public_scope", "pages", "map", "qa", "search_index", "timeline"):
         if key not in payload:
             fail(f"missing top-level key: {key}")
 
@@ -137,6 +170,48 @@ def main() -> int:
         missing = baseline_ids - set(payload["public_scope"][group])
         if missing:
             fail(f"public {group} scope regressed; missing baseline IDs: {sorted(missing)}")
+
+    reader_content = payload["reader_content"]
+    for group in ("authors", "works", "places"):
+        records = reader_content.get(group)
+        if not isinstance(records, list):
+            fail(f"reader content group missing: {group}")
+        target_ids = [item.get("target_id") for item in records]
+        if None in target_ids or len(target_ids) != len(set(target_ids)):
+            fail(f"invalid reader content targets: {group}")
+        if not set(target_ids).issubset(set(payload["public_scope"][group])):
+            fail(f"reader content escapes public scope: {group}")
+        if group in {"authors", "works"} and set(target_ids) != set(payload["public_scope"][group]):
+            fail(f"reader content does not cover every public {group}")
+    for path, value in reader_strings(reader_content):
+        if INTERNAL_READER_LANGUAGE.search(value):
+            fail(f"internal evidence-process language leaked into {path}: {value[:80]}")
+
+    discovery = presentation.get("discovery")
+    if not isinstance(discovery, dict) or discovery.get("algorithm_version") != "web-0.2-popularity-v1":
+        fail("missing or unexpected discovery ranking version")
+    if discovery.get("tie_break") != "target_id_ascending":
+        fail("discovery ranking tie-break is not explicit")
+    if not isinstance(discovery.get("page_size"), int) or not 1 <= discovery["page_size"] <= 24:
+        fail("invalid discovery page size")
+    for group in ("authors", "works"):
+        ranking = discovery.get(group)
+        if not isinstance(ranking, list):
+            fail(f"missing discovery ranking: {group}")
+        target_ids = [item.get("target_id") for item in ranking]
+        if len(target_ids) != len(set(target_ids)) or set(target_ids) != set(payload["public_scope"][group]):
+            fail(f"discovery ranking does not exactly cover public {group}")
+        if [item.get("rank") for item in ranking] != list(range(1, len(ranking) + 1)):
+            fail(f"discovery ranks are not sequential: {group}")
+        expected = sorted(ranking, key=lambda item: (-item["score"], item["target_id"]))
+        if ranking != expected:
+            fail(f"discovery order is not deterministic: {group}")
+        for item in ranking:
+            factors = item.get("factors")
+            if not isinstance(factors, dict) or any(not isinstance(value, int) or value < 0 for value in factors.values()):
+                fail(f"invalid discovery factors: {item.get('target_id')}")
+            if sum(factors.values()) != item.get("score"):
+                fail(f"discovery score is not explainable: {item.get('target_id')}")
     search_ids = {item["target_id"] for item in payload["search_index"]}
     if len(search_ids) != len(payload["search_index"]):
         fail("duplicate search index target")

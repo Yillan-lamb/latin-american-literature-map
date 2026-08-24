@@ -1,7 +1,7 @@
 {
   "metadata": {
     "schema_version": "0.3",
-    "source_database_sha256": "0dc94e354987959081a856f30bdd929e90f370d9bbd9c772a1fbc25d0ce8c6aa",
+    "source_database_sha256": "95e72dbf80a6d0f3dc8619979a34ff36582832175a0006bdcf1cf49b06fbb1ec",
     "export_version": "v1.2.0-candidate",
     "release_status": "development_candidate",
     "generation_policy": "deterministic_from_sqlite"
@@ -42010,7 +42010,7 @@
       },
       {
         "key": "package",
-        "value": "V1 formal candidate package"
+        "value": "Data 1.2.0 development candidate package"
       },
       {
         "key": "relationship_gap",
@@ -42252,6 +42252,14 @@
         "reviewer": "CODEX-SOL-CONSOLIDATION",
         "applied_at": "2026-08-22T08:51:06+00:00",
         "sql_sha256": "ce04d738aed10a323c4140f48f9ebfb7737738680702651dc67224b598a8c767",
+        "schema_version": "0.3"
+      },
+      {
+        "migration_id": "0027_web_0_2_candidate_package_metadata",
+        "task_id": "SOL-FINAL-PREMERGE-AUDIT-WEB-0.2",
+        "reviewer": "CODEX-SOL-FINAL",
+        "applied_at": "2026-08-24T13:08:57+00:00",
+        "sql_sha256": "3b344d56bd06d314475c62fedf5e8b249a0a4e5d184d81b6beeb8e158f224ed4",
         "schema_version": "0.3"
       }
     ],

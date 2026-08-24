@@ -27,6 +27,33 @@ PRODUCT_VERSION = "0.2.0"
 CURATION_SCHEMA_VERSION = "v2-curation-0.1"
 ALLOWED_CURATION_STATUSES = {"auto_approved", "user_review", "hold"}
 PRESENTATION_GROUPS = ("reading_paths", "timeline_periods", "why_read", "next_reads")
+DISCOVERY_RANKING_VERSION = "web-0.2-popularity-v1"
+DISCOVERY_PAGE_SIZE = 9
+INTERNAL_READER_LANGUAGE = re.compile(
+    r"(?:"
+    r"\b(?:ABL|BNE|CVC)\b|Instituto Cervantes|Biblioteca Virtual|Memoria Chilena|"
+    r"CONICET|Itaú Cultural|poets\.org|Passagens|RFRM|"
+    r"Nobel\s+Facts|Facts\s*页|"
+    r"BNDigital|\bMEC\b|图书馆|国家机构|公共文化|官网|"
+    r"书目|目录|页面|资料|(?<!笔名)来源|"
+    r"论文|(?:原文版|译本|年份|题名|首版|英译)[^。；]{0,20}记录|"
+    r"(?:作品页|作者档案|机构档案)[^。；]{0,20}(?:支持|记录|列出|回溯)|"
+    r"研究(?:层|资料|实体|锚点|关系|依据|流程|说明)|"
+    r"(?:正式|作者级)[^。；]{0,12}关系|国家父级|导航所需|已经公开|"
+    r"支撑[^。；]{0,8}事实|公开[^。；]{0,8}关系|作品空间作用|"
+    r"中文(?:名|展示名)[^。；]{0,24}(?:展示|读者)|本页|可核回|"
+    r"法国国家图书馆|巴西文学院|阿根廷国家图书馆|智利国家图书馆|"
+    r"国家图书馆|官方(?:时间线|书目|页面|资料)|机构(?:来源|资料|传记)|公共文化页面|"
+    r"(?:书目|目录|页面|资料|来源|档案|时间线)(?:列出|记录|确认|支持|显示)|"
+    r"(?:再次确认|交叉支持|直接支持|直接列出|直接记录|可回溯|可复核|可核验)|"
+    r"(?:直接作品|书目|研究|事实|机构)来源|来源(?:将|所说|列出|记录|支持|确认|显示|中)|"
+    r"(?:实体层|字段层|工作层)(?:使用|采用|保留)?|\bcollection\b|"
+    r"(?:主库|本批|审核层|审阅|审核|复核|核验|准入|待复核|来源边界|年份冲突记录)|"
+    r"(?:Research\s*(?:Data|fact)?|source_id|fact_id|reviewer|reviewed|verified|provisional|gap\s*台账)|"
+    r"(?:据\s*(?:Nobel|[A-Za-z.]+)|根据(?:某|该|现有)?(?:资料|来源|数据库|页面)|依据(?:资料|来源))"
+    r")",
+    re.IGNORECASE,
+)
 
 
 def rows(conn: sqlite3.Connection, sql: str) -> list[dict[str, Any]]:
@@ -69,6 +96,41 @@ def required_text(row: dict[str, str], key: str, path: Path, line: int) -> str:
     if not value:
         raise ValueError(f"{path}:{line}: missing required field {key}")
     return value
+
+
+def contains_internal_reader_language(value: object) -> bool:
+    if isinstance(value, str):
+        return bool(INTERNAL_READER_LANGUAGE.search(value))
+    if isinstance(value, list):
+        return any(contains_internal_reader_language(item) for item in value)
+    if isinstance(value, dict):
+        return any(contains_internal_reader_language(item) for item in value.values())
+    return False
+
+
+def clean_reader_value(value: object) -> object | None:
+    """Keep literary conclusions and remove optional evidence-process prose.
+
+    The source wrapper remains untouched in ``public_content``.  This function
+    only produces the presentation projection consumed by reader-facing DOM.
+    """
+    if isinstance(value, str):
+        normalized = value.strip()
+        return normalized if normalized and not contains_internal_reader_language(normalized) else None
+    if isinstance(value, list):
+        cleaned = [clean_reader_value(item) for item in value]
+        return [item for item in cleaned if item not in (None, "", [], {})] or None
+    if isinstance(value, dict):
+        if contains_internal_reader_language(value):
+            return None
+        cleaned = {key: clean_reader_value(item) for key, item in value.items()}
+        return {key: item for key, item in cleaned.items() if item not in (None, "", [], {})} or None
+    return value
+
+
+def wrapped_content(record: dict[str, Any], key: str) -> object | None:
+    value = record.get(key)
+    return value.get("content") if isinstance(value, dict) else None
 
 
 def load_geo(geo_dir: Path) -> tuple[list[dict[str, Any]], list[dict[str, Any]]]:
@@ -181,6 +243,241 @@ def load_curation(curation_dir: Path, valid_target_ids: set[str]) -> dict[str, l
             loaded.append(normalized)
         result[group] = loaded
     return result
+
+
+def build_reader_content(
+    content_public: dict[str, list[dict[str, Any]]],
+    curation_public: dict[str, list[dict[str, Any]]],
+    entity_by_id: dict[str, dict[str, Any]],
+    facts_by_subject: dict[str, list[dict[str, Any]]],
+    relations_by_subject: dict[str, list[dict[str, Any]]],
+    relations_by_object: dict[str, list[dict[str, Any]]],
+    public_author_ids: set[str],
+    public_work_ids: set[str],
+    public_place_ids: set[str],
+) -> dict[str, list[dict[str, Any]]]:
+    """Create the conclusion-only projection consumed by ordinary pages."""
+
+    def fact_value(target_id: str, *fields: str) -> str | None:
+        item = next((fact for fact in facts_by_subject.get(target_id, []) if fact.get("fact_field") in fields), None)
+        return str(item["value_text"]).strip() if item and item.get("value_text") else None
+
+    def curation_text(target_id: str, field_key: str) -> str | None:
+        entry = next(
+            (
+                item for item in curation_public.get("entries", [])
+                if item.get("target_id") == target_id and item.get("field_key") == field_key
+            ),
+            None,
+        )
+        value = str(entry.get("content_zh") or "").strip() if entry else ""
+        return value if value and not contains_internal_reader_language(value) else None
+
+    def first_clean(*values: object) -> object | None:
+        for value in values:
+            cleaned = clean_reader_value(value)
+            if cleaned not in (None, "", [], {}):
+                return cleaned
+        return None
+
+    def normalized_identity(target_id: str) -> str:
+        raw = fact_value(target_id, "career_note", "literary_identity") or "作家"
+        raw = re.sub(r"[（(](?:来源|机构)[^）)]*[）)]", "", raw)
+        raw = raw.replace("/", "、").strip(" 、；。")
+        return raw or "作家"
+
+    def publication_year(target_id: str) -> int:
+        value = fact_value(target_id, "first_publication_year", "publication_year") or ""
+        match = re.search(r"\d{4}", value)
+        return int(match.group()) if match else 9999
+
+    def author_lede(target_id: str, record: dict[str, Any]) -> str:
+        approved = first_clean(
+            wrapped_content(record, "reader_lede"),
+            curation_text(target_id, "page_lede"),
+            fact_value(target_id, "one_sentence_summary"),
+        )
+        if isinstance(approved, str):
+            return approved
+        item = entity_by_id[target_id]
+        birth = fact_value(target_id, "birth_year")
+        death = fact_value(target_id, "death_year")
+        country = fact_value(target_id, "country_or_region")
+        identity = normalized_identity(target_id)
+        years = f"（{birth}—{death}）" if birth and death else f"（生于 {birth} 年）" if birth else ""
+        prefix = f"{item['name_zh']}{years}是{country or '拉丁美洲'}{identity}。"
+        works = [
+            entity_by_id[relation["object_id"]]
+            for relation in relations_by_subject.get(target_id, [])
+            if relation.get("relation_type") == "CREATED" and relation.get("object_id") in public_work_ids
+        ]
+        works.sort(key=lambda work: (publication_year(work["entity_id"]), work["entity_id"]))
+        titles = "、".join(work["name_zh"] for work in works[:3])
+        return f"{prefix}{f'可以从{titles}开始阅读。' if titles else ''}"
+
+    def work_intro(target_id: str, record: dict[str, Any]) -> str:
+        approved = first_clean(
+            wrapped_content(record, "story_intro"),
+            curation_text(target_id, "one_line_summary"),
+            fact_value(target_id, "story_premise", "one_sentence_summary"),
+        )
+        if isinstance(approved, str):
+            return approved
+        item = entity_by_id[target_id]
+        author = next(
+            (
+                entity_by_id.get(relation["subject_id"])
+                for relation in relations_by_object.get(target_id, [])
+                if relation.get("relation_type") == "CREATED"
+            ),
+            None,
+        )
+        year = fact_value(target_id, "first_publication_year", "publication_year")
+        genre = fact_value(target_id, "genre_or_form")
+        if author and genre and year:
+            return f"{item['name_zh']}是{author['name_zh']}创作的{genre}，出版于 {year} 年。"
+        if author and year:
+            return f"{item['name_zh']}由{author['name_zh']}创作，出版于 {year} 年。"
+        if year:
+            return f"{item['name_zh']}出版于 {year} 年。"
+        return f"从{item['name_zh']}进入这位作家的作品世界。"
+
+    reader: dict[str, list[dict[str, Any]]] = {"authors": [], "works": [], "places": []}
+    public_ids = {
+        "authors": public_author_ids,
+        "works": public_work_ids,
+        "places": public_place_ids,
+    }
+    for group in ("authors", "works", "places"):
+        for record in content_public[group]:
+            target_id = record["target_id"]
+            if target_id not in public_ids[group]:
+                continue
+            projected: dict[str, Any] = {"target_id": target_id}
+            for key, wrapper in record.items():
+                if key == "target_id":
+                    continue
+                cleaned = clean_reader_value(wrapper.get("content"))
+                if cleaned not in (None, "", [], {}):
+                    projected[key] = cleaned
+            if group == "authors":
+                projected["reader_lede"] = author_lede(target_id, record)
+            elif group == "works":
+                intro = work_intro(target_id, record)
+                projected["story_intro"] = intro
+                projected["reading_premise"] = first_clean(
+                    curation_text(target_id, "one_line_summary"), intro
+                )
+            reader[group].append(projected)
+    return reader
+
+
+def build_discovery_ranking(
+    content_public: dict[str, list[dict[str, Any]]],
+    reader_content: dict[str, list[dict[str, Any]]],
+    facts_by_subject: dict[str, list[dict[str, Any]]],
+    relations_by_subject: dict[str, list[dict[str, Any]]],
+    relations_by_object: dict[str, list[dict[str, Any]]],
+    public_author_ids: set[str],
+    public_work_ids: set[str],
+    presentation_public: dict[str, Any],
+) -> dict[str, Any]:
+    """Build deterministic, explainable discovery order without external metrics."""
+
+    raw_records = {
+        group: {record["target_id"]: record for record in content_public[group]}
+        for group in ("authors", "works")
+    }
+    reader_records = {
+        group: {record["target_id"]: record for record in reader_content[group]}
+        for group in ("authors", "works")
+    }
+    path_ids = {
+        target_id
+        for path in presentation_public.get("reading_paths", [])
+        for target_id in path.get("target_ids", [])
+    }
+
+    def source_depth(record: dict[str, Any]) -> int:
+        return len({
+            source_id
+            for key, wrapper in record.items()
+            if key != "target_id" and isinstance(wrapper, dict)
+            for source_id in wrapper.get("source_refs", [])
+        })
+
+    def award_weight(target_id: str) -> int:
+        awards = " ".join(
+            str(item.get("value_text") or "")
+            for item in facts_by_subject.get(target_id, [])
+            if item.get("fact_field") in {"award", "award_year"}
+        )
+        if "诺贝尔文学奖" in awards:
+            return 40
+        if "塞万提斯" in awards or "Cervantes" in awards:
+            return 30
+        return 15 if awards.strip() else 0
+
+    author_rows = []
+    for target_id in public_author_ids:
+        raw = raw_records["authors"].get(target_id, {"target_id": target_id})
+        readable = reader_records["authors"].get(target_id, {"target_id": target_id})
+        public_works = {
+            relation["object_id"]
+            for relation in relations_by_subject.get(target_id, [])
+            if relation.get("relation_type") == "CREATED" and relation.get("object_id") in public_work_ids
+        }
+        factors = {
+            "major_award": award_weight(target_id),
+            "chinese_reader_access": min(24, len(public_works) * 4),
+            "reader_content_depth": min(24, max(0, len(readable) - 1) * 3),
+            "evidence_depth": min(12, source_depth(raw)),
+            "reading_path": 8 if target_id in path_ids else 0,
+        }
+        author_rows.append({"target_id": target_id, "score": sum(factors.values()), "factors": factors})
+    author_rows.sort(key=lambda item: (-item["score"], item["target_id"]))
+    for rank, item in enumerate(author_rows, 1):
+        item["rank"] = rank
+    author_score = {item["target_id"]: item["score"] for item in author_rows}
+
+    work_rows = []
+    for target_id in public_work_ids:
+        raw = raw_records["works"].get(target_id, {"target_id": target_id})
+        readable = reader_records["works"].get(target_id, {"target_id": target_id})
+        creators = [
+            relation["subject_id"]
+            for relation in relations_by_object.get(target_id, [])
+            if relation.get("relation_type") == "CREATED"
+        ]
+        fields = {item.get("fact_field") for item in facts_by_subject.get(target_id, [])}
+        completeness = 4 * sum(
+            bool(fields & candidates)
+            for candidates in (
+                {"first_publication_year", "publication_year"},
+                {"genre_or_form"},
+                {"story_premise", "one_sentence_summary"},
+            )
+        )
+        factors = {
+            "author_recognition": min(24, max((author_score.get(author, 0) for author in creators), default=0) // 4),
+            "reader_content_depth": min(24, max(0, len(readable) - 1) * 3),
+            "bibliographic_completeness": completeness,
+            "reading_guidance": 8 if any(key in readable for key in ("why_read", "reading_approach")) else 0,
+            "reading_path": 12 if target_id in path_ids else 0,
+            "literary_connections": min(10, len(relations_by_subject.get(target_id, [])) + len(relations_by_object.get(target_id, []))),
+        }
+        work_rows.append({"target_id": target_id, "score": sum(factors.values()), "factors": factors})
+    work_rows.sort(key=lambda item: (-item["score"], item["target_id"]))
+    for rank, item in enumerate(work_rows, 1):
+        item["rank"] = rank
+
+    return {
+        "algorithm_version": DISCOVERY_RANKING_VERSION,
+        "page_size": DISCOVERY_PAGE_SIZE,
+        "tie_break": "target_id_ascending",
+        "authors": author_rows,
+        "works": work_rows,
+    }
 
 
 def build_data(db_path: Path, geo_dir: Path, curation_dir: Path, presentation_path: Path, public_content_path: Path, generated_at: str) -> dict[str, Any]:
@@ -393,6 +690,28 @@ def build_data(db_path: Path, geo_dir: Path, curation_dir: Path, presentation_pa
     }
     public_page_ids = public_author_ids | public_work_ids | public_place_ids | public_node_ids
 
+    reader_content = build_reader_content(
+        content_public,
+        curation_public,
+        entity_by_id,
+        facts_by_subject,
+        relations_by_subject,
+        relations_by_object,
+        public_author_ids,
+        public_work_ids,
+        public_place_ids,
+    )
+    presentation_public["discovery"] = build_discovery_ranking(
+        content_public,
+        reader_content,
+        facts_by_subject,
+        relations_by_subject,
+        relations_by_object,
+        public_author_ids,
+        public_work_ids,
+        presentation_public,
+    )
+
     search_index = []
     graph_neighbors: dict[str, set[str]] = defaultdict(set)
     for relation in relations:
@@ -526,6 +845,7 @@ def build_data(db_path: Path, geo_dir: Path, curation_dir: Path, presentation_pa
         "review_queue": curation_review_queue,
         "public_content": content_public,
         "public_content_review_queue": content_review_queue,
+        "reader_content": reader_content,
         "presentation": presentation_public,
         "presentation_review_queue": presentation_review_queue,
         "public_scope": {

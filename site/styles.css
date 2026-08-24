@@ -115,9 +115,17 @@ button:focus-visible, a:focus-visible, input:focus-visible, summary:focus-visibl
 .country-shape.available { fill: #d79c71; cursor: pointer; }
 .country-shape.available:hover, .country-shape.available:focus, .country-shape.active { fill: var(--coral); outline: none; }
 .country-shape.available:focus-visible { stroke: var(--ink); stroke-width: 3; }
+.country-label-group { pointer-events: none; }
+.country-label-group line { stroke: rgba(32,37,34,.66); stroke-width: 1; vector-effect: non-scaling-stroke; }
+.country-label { fill: #202522; font: 700 15px/1 var(--sans); letter-spacing: .02em; paint-order: stroke; stroke: rgba(255,253,248,.94); stroke-width: 5; stroke-linejoin: round; }
 .map-point { cursor: pointer; outline: none; }
 .map-point circle { fill: var(--green); stroke: var(--white); stroke-width: 2; vector-effect: non-scaling-stroke; }
 .map-point text { fill: var(--ink); font: 600 12px var(--sans); paint-order: stroke; stroke: rgba(255,253,248,.95); stroke-width: 4; stroke-linejoin: round; }
+.map-point[data-place-id="V1-ENT-0052"] text,
+.map-point[data-place-id="V1-ENT-0057"] text,
+.map-point[data-place-id="V1-ENT-0098"] text,
+.map-point[data-place-id="V1-ENT-0125"] text,
+.map-point[data-place-id="V1-ENT-0128"] text { display: none; }
 .map-point:hover circle, .map-point:focus circle, .map-point.active circle { fill: var(--coral); stroke: var(--ink); stroke-width: 3; }
 .map-point:focus-visible text, .map-point.active text { fill: var(--coral-deep); text-decoration: underline; }
 .fictional-space-inset { position: absolute; z-index: 2; left: 18px; bottom: 18px; width: min(270px, calc(100% - 36px)); padding: 15px; border: 1px solid rgba(255,255,255,.45); color: var(--white); background: rgba(52,75,118,.94); box-shadow: 5px 6px 0 rgba(32,37,34,.14); }
@@ -168,6 +176,19 @@ button:focus-visible, a:focus-visible, input:focus-visible, summary:focus-visibl
 .card:nth-child(3n + 2) { transform: translateY(3px) rotate(.18deg); }
 .card:hover { transform: translateY(-4px); box-shadow: 8px 8px 0 rgba(32,37,34,.12); }
 .card::before { content: ""; position: absolute; top: 0; left: 0; width: 42px; height: 4px; background: var(--coral); }
+
+.ranking-note { max-width: 760px; margin: -5px 0 18px; color: var(--muted); font-size: 12px; line-height: 1.7; }
+.ranking-note summary { width: fit-content; color: var(--coral-deep); cursor: pointer; font-weight: 700; }
+.ranking-note p { margin: 10px 0 0; padding-left: 17px; }
+.catalog-status { margin: 0 0 16px; color: var(--muted); font-size: 12px; }
+.catalog-browser h2:focus { outline: none; }
+.catalog-browser h2:focus-visible { text-decoration: underline; text-decoration-color: var(--coral); text-underline-offset: 7px; }
+.catalog-pagination { display: flex; align-items: center; justify-content: center; gap: 12px; margin-top: 28px; }
+.catalog-pagination > div { display: flex; gap: 6px; }
+.catalog-pagination button { min-width: 40px; min-height: 40px; border: 1px solid var(--line); padding: 8px 11px; color: var(--ink); background: var(--white); cursor: pointer; }
+.catalog-pagination button:hover, .catalog-pagination button[aria-current="page"] { color: var(--white); border-color: var(--ink); background: var(--ink); }
+.catalog-pagination button:focus-visible { outline: 3px solid var(--coral); outline-offset: 2px; }
+.catalog-pagination button:disabled { color: #8d918d; background: #eeeae2; cursor: not-allowed; }
 .card.place::before { background: var(--green); }
 .card.fictional::before { background: var(--blue); }
 .card.gap::before { background: var(--yellow); }
@@ -339,6 +360,10 @@ button:focus-visible, a:focus-visible, input:focus-visible, summary:focus-visibl
   .map-toolbar, .map-footer { display: block; }
   .map-legend { margin-top: 13px; }
   .map-canvas, .map-canvas svg { min-height: 410px; }
+  .country-label { font-size: 27px; stroke-width: 8; }
+  .country-label-group line { stroke-width: 1.5; }
+  .map-point text { display: none; }
+  .map-point circle { r: 8px; }
   .map-node-label { max-width: 100px; font-size: 10px; }
   .country-strip, .card-grid, .research-body, .catalog-stat-grid { grid-template-columns: 1fr; }
   .path-grid, .feature-grid, .theme-grid { grid-template-columns: 1fr; }
@@ -358,6 +383,9 @@ button:focus-visible, a:focus-visible, input:focus-visible, summary:focus-visibl
   .section-subheading .card-link { display: inline-block; margin-top: 8px; }
   .site-footer { display: block; }
   .site-footer a { display: inline-block; margin-top: 14px; }
+  .catalog-pagination { align-items: stretch; gap: 7px; }
+  .catalog-pagination > div { gap: 4px; overflow-x: auto; }
+  .catalog-pagination button { min-width: 36px; min-height: 44px; padding: 7px 9px; }
 }
 
 @media (prefers-reduced-motion: reduce) {

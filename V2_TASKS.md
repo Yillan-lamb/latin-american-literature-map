@@ -1,7 +1,7 @@
 # 拉丁美洲文学地图 V2 任务源
 
-- **版本**：1.1.0
-- **最后更新**：2026-08-17
+- **版本**：1.1.1
+- **最后更新**：2026-08-24
 - **状态**：ACTIVE
 - **唯一动态状态源**：本文件
 - **上位文件**：
@@ -456,6 +456,7 @@
 - **审计入口**：`SOL_REVIEW_B01-B17_PR.md`、`SOL_AUDIT_B02-B05.md`、`SOL_AUDIT_B06-B10.md`、`SOL_AUDIT_B11-B15.md`、`SOL_AUDIT_B16-B17.md`。
 - **整改结论**：多轮 Sol audit 与 corrective migrations 已完成；migration chain 保持 append-only；当前无 unresolved P0。
 - **版本结果**：Web Product 升级为 `Web 0.2.0 — Development Baseline`；Research 全量数据使用 `Data 1.2.0 candidate` 表示，不构成正式 Release。
+- **终审结论**：PR #11 的读者展示、证据折叠、首页全量目录、地图中文国名、浏览器矩阵与治理一致性由 `SOL_FINAL_PREMERGE_AUDIT_WEB_0_2.md` 记录；迁移链追加至 `0027`，Public Release 状态不变。
 
 ### 🔵 WEB-CONTENT-DEEPENING：文学空间、关系与策展纵向深化
 

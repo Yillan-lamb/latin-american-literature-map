@@ -11,7 +11,7 @@ from pathlib import Path
 from urllib.parse import urlparse
 
 
-FORBIDDEN_KEYS = {"review_status", "admission_status", "source_minimum_status", "schema_version", "review_queue", "presentation_review_queue"}
+FORBIDDEN_KEYS = {"review_status", "admission_status", "source_minimum_status", "schema_version", "review_queue", "presentation_review_queue", "public_content_review_queue", "content_zh", "basis_note", "reviewer"}
 
 
 def keys(value: object) -> set[str]:
@@ -31,6 +31,14 @@ def main() -> int:
     leaked = sorted(found & FORBIDDEN_KEYS)
     if leaked:
         raise ValueError(f"public data exposes forbidden governance keys: {leaked}")
+    if "public_content" in payload or not isinstance(payload.get("reader_content"), dict):
+        raise ValueError("public bundle must expose reader_content instead of raw public_content wrappers")
+    discovery = payload.get("presentation", {}).get("discovery", {})
+    for group in ("authors", "works"):
+        ranked_ids = [item.get("target_id") for item in discovery.get(group, [])]
+        reader_ids = {item.get("target_id") for item in payload["reader_content"].get(group, [])}
+        if not ranked_ids or len(ranked_ids) != len(set(ranked_ids)) or set(ranked_ids) != reader_ids:
+            raise ValueError(f"public discovery does not exactly cover reader catalog: {group}")
     routes = {item["target_id"]: item["public_route"] for item in payload["search_index"]}
     if len(routes) != len(set(routes.values())):
         raise ValueError("two public entities share a route")

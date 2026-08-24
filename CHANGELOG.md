@@ -12,7 +12,8 @@
 ### Research
 
 - 当前 master 达到 367 entities、998 facts、293 relationships、278 sources 和 255 content cards。
-- 保留全部 Sol audit、remediation 与历史 changeset；migration chain append-only 至版本元数据迁移 `0026`，不重写既有迁移。
+- 保留全部 Sol audit、remediation 与历史 changeset；migration chain append-only 至版本元数据迁移 `0027`，不重写既有迁移。
+- 终审追加 `0027_web_0_2_candidate_package_metadata`，把开发主库与全量导出的 package 口径修正为 `Data 1.2.0 development candidate package`；历史迁移保持不变。
 - 新建 `Data 1.2.0 candidate` 全量导出，标记为 `DEVELOPMENT / CANDIDATE`；`Data V1.0.0` 仍是正式 Research Release，`v1.1.0` 仍是 B01 历史快照。
 
 ### Product
@@ -20,6 +21,9 @@
 - Web Product 升级至 `Web 0.2.0 — Development Baseline`，不创建 Web tag、GitHub Release 或 production deployment。
 - Review package 扩展至 61 authors / 168 works / 25 literary places；formal public scope 仍为 25 authors / 60 works / 28 places，Public layer 与 USER_REVIEW layer 继续分离。
 - 内容质量验证器改为推导 `research_basic`、`reader_ready`、`curation_ready`；基础研究页不再被强制补齐文学推荐字段。
+- 地图为全部可探索国家常驻中文名；移动端优先保留国家名并隐藏拥挤的地点文字，地点交互与无障碍名称不变。
+- 首页按固定、可解释的 `web-0.2-popularity-v1` 规则分页展示全部 25 位公开作者和 60 部公开作品，不再依赖硬编码精选切片。
+- 新增结论式 `reader_content` 投影，普通页面不再消费来源机构、书目核验或审核过程文案；研究与来源引用保留在默认收起的 Research Evidence 中。
 
 ### Known limitations
 
@@ -32,7 +36,9 @@
 - `WEB-CONTENT-DEEPENING`：WCD-01 Global Curation Triage、WCD-02 Literary Space & Relationship Deepening、WCD-03 Chinese Display Name Consolidation、WCD-04 Coverage Rebalancing。
 - `V2-PUBLIC-RELEASE` 继续 `PAUSED`；Research 正式发布仍等待 USER 决定。
 
-## [Web 0.1.x — Unreleased]
+## [Web 0.1.x — Historical maintenance line]
+
+> Historical：以下差量已被 Web 0.2.0 开发基线吸收，不是当前 Unreleased 版本。
 
 ### 地图阅读体验
 

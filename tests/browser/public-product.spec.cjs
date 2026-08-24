@@ -1,6 +1,7 @@
 const { test, expect } = require("@playwright/test");
 
 const forbidden = /\bV1\b|\bV2\b|\bN[1-4]\b|research_gap|auto_approved|user_review|candidate_for_staging_review|card_period_only|source_minimum_status|review_status|admission_status|map_status|entity_type|place_kind|\bschema\b|SQLite|Web Data|release candidate|完整测试站|测试站|当前样本|Codex|REVIEW\s*[\d.]|待审核|未经审核|用户审核|候选包/i;
+const readerEvidenceLeakage = /\b(?:ABL|BNE|CVC)\b|Instituto Cervantes|Biblioteca Virtual|Memoria Chilena|CONICET|Itaú Cultural|Nobel\s+Facts|Facts\s*页|BNDigital|\bMEC\b|(?:官网|图书馆|国家机构|公共文化|官方|机构)[^。；\n]{0,24}(?:书目|目录|页面|资料|档案|传记|来源|列出|记录|确认|支持|显示|标注)|(?:书目|目录|资料|档案|来源|时间线)[^。；\n]{0,24}(?:列出|记录|确认|支持|显示|标注|回溯)|论文|研究(?:层|资料|实体|锚点|关系|依据|流程|说明)|(?:正式|作者级)[^。；\n]{0,12}关系|国家父级|导航所需|已经公开|支撑[^。；\n]{0,8}事实|公开[^。；\n]{0,8}关系|作品空间作用|中文(?:名|展示名)[^。；\n]{0,24}(?:展示|读者)|本页(?:仅|只|保留|不把|不将)|可核回|(?:直接作品|书目|研究|事实|机构)来源|来源(?:将|所说|列出|记录|支持|确认|显示|中)|(?:实体层|字段层|工作层)(?:使用|采用|保留)?|\bcollection\b|再次确认|交叉支持|直接支持|直接列出|直接记录|可回溯|可复核|可核验|主库|本批|审核层|审阅|审核|复核|核验|准入|待复核|来源边界|年份冲突记录|Research\s*(?:Data|fact)?|source_id|fact_id|reviewer|reviewed|verified|provisional|gap\s*台账|根据(?:某|该|现有)?(?:资料|来源|数据库|页面)|依据(?:资料|来源)/i;
 const paths = {
   country: "countries/mexico-v1-ent-0051/",
   colombia: "countries/colombia-v1-ent-0095/",
@@ -20,6 +21,12 @@ test.beforeEach(async ({ page }) => {
 test.afterEach(async ({ page }) => {
   expect(page.__qaErrors, "console and page errors").toEqual([]);
   expect(await page.locator("body").innerText()).not.toMatch(forbidden);
+  const ordinaryReaderText = await page.evaluate(() => {
+    const copy = document.body.cloneNode(true);
+    copy.querySelectorAll("details").forEach((item) => item.remove());
+    return copy.innerText;
+  });
+  expect(ordinaryReaderText, "evidence or source-process prose leaked outside a disclosure").not.toMatch(readerEvidenceLeakage);
 });
 
 test("home, map, country and mobile navigation", async ({ page, isMobile, request }) => {
@@ -36,6 +43,12 @@ test("home, map, country and mobile navigation", async ({ page, isMobile, reques
     .map((item) => item.country_code));
   await expect(page.locator(".path-card")).toHaveCount(projectedPaths.length ? Math.min(projectedPaths.length, 10) : 4);
   await expect(page.locator(".country-shape.available")).toHaveCount(projectedCountries.size);
+  await expect(page.locator("[data-country-label-code]")).toHaveCount(projectedCountries.size);
+  const labelCodes = await page.locator("[data-country-label-code]").evaluateAll((labels) => labels.map((label) => label.dataset.countryLabelCode));
+  expect(new Set(labelCodes).size).toBe(projectedCountries.size);
+  for (const country of (webData.map?.places || []).filter((item) => item.place_kind === "country" && projectedCountries.has(item.country_code))) {
+    await expect(page.locator(`[data-country-label-code="${country.country_code}"]`).first()).toHaveText(country.name_zh);
+  }
   await expect(page.locator(".fictional-space-button")).toHaveCount(2);
   await expect(page.getByRole("heading", { name: "从一个地方开始" })).toBeVisible();
   await page.locator('[data-country-id="V1-ENT-0051"]').click();
@@ -51,6 +64,49 @@ test("home, map, country and mobile navigation", async ({ page, isMobile, reques
   await page.goto(paths.country);
   await expect(page.getByRole("heading", { name: "墨西哥" })).toBeVisible();
   await expect(page.getByText("胡安·鲁尔福").first()).toBeVisible();
+});
+
+test("home pagination exposes every public author and work in deterministic order", async ({ page, request }) => {
+  const webData = await (await request.get("data/v2/web/site_data.json")).json();
+  await page.goto("");
+  for (const [group, label] of [["authors", "作家"], ["works", "作品"]]) {
+    const expectedIds = webData.presentation.discovery[group].map((item) => item.target_id);
+    const pageSize = webData.presentation.discovery.page_size;
+    const pageCount = Math.ceil(expectedIds.length / pageSize);
+    const section = () => page.locator(`[data-catalog="${group}"]`);
+    await expect(section().getByText(`当前共 ${expectedIds.length} 项`)).toBeVisible();
+    await expect(section().getByRole("button", { name: "上一页" })).toBeDisabled();
+    await expect(section().getByRole("button", { name: `${label}第 1 页` })).toHaveAttribute("aria-current", "page");
+    const observed = [];
+    for (let pageNumber = 1; pageNumber <= pageCount; pageNumber += 1) {
+      if (pageNumber > 1) {
+        const pageButton = section().getByRole("button", { name: `${label}第 ${pageNumber} 页` });
+        await pageButton.focus();
+        await page.keyboard.press("Enter");
+        await expect(page.locator(`#${group}-catalog-heading`)).toBeFocused();
+      }
+      observed.push(...await section().locator("[data-card-id]").evaluateAll((cards) => cards.map((card) => card.dataset.cardId)));
+      await expect(section().getByRole("button", { name: `${label}第 ${pageNumber} 页` })).toHaveAttribute("aria-current", "page");
+    }
+    expect(observed).toEqual(expectedIds);
+    expect(new Set(observed).size).toBe(expectedIds.length);
+    await expect(section().getByRole("button", { name: "下一页" })).toBeDisabled();
+  }
+});
+
+test("reader prose and expandable research evidence stay on opposite sides of the boundary", async ({ page }) => {
+  await page.goto("works/grande-sertao-veredas-v1-ent-0217/");
+  const panel = page.locator("details.research-panel");
+  await expect(panel).not.toHaveAttribute("open", "");
+  const ordinaryText = await page.evaluate(() => {
+    const copy = document.body.cloneNode(true);
+    copy.querySelectorAll("details").forEach((item) => item.remove());
+    return copy.innerText;
+  });
+  expect(ordinaryText).not.toMatch(readerEvidenceLeakage);
+  await panel.locator("summary").click();
+  await expect(panel).toHaveAttribute("open", "");
+  await expect(panel.getByRole("heading", { name: "资料来源" })).toBeVisible();
 });
 
 test("map selections update literary context without immediate navigation", async ({ page }) => {
@@ -261,6 +317,7 @@ test("WEB-CE-B06-B10 obey the public boundary and remain fully testable in USER_
   const batchEntityIds = Array.from({ length: 61 }, (_, index) => `V1-ENT-${String(index + 223).padStart(4, "0")}`);
   const authorAndWorkIds = batchEntityIds.filter((targetId) => targetId !== "V1-ENT-0235");
   const searchableIds = new Set(webData.search_index.map((item) => item.target_id));
+  const hasReviewQueue = Object.prototype.hasOwnProperty.call(webData, "public_content_review_queue");
   const reviewQueue = webData.public_content_review_queue || { authors: [], works: [], places: [] };
   const reviewQueueIds = new Set(["authors", "works", "places"]
     .flatMap((group) => reviewQueue[group] || [])
@@ -268,7 +325,7 @@ test("WEB-CE-B06-B10 obey the public boundary and remain fully testable in USER_
 
   if (!searchableIds.has("V1-ENT-0223")) {
     expect(authorAndWorkIds.filter((targetId) => searchableIds.has(targetId)), "formal layer must not partially leak USER_REVIEW records").toEqual([]);
-    expect(batchEntityIds.filter((targetId) => reviewQueueIds.has(targetId))).toHaveLength(61);
+    if (hasReviewQueue) expect(batchEntityIds.filter((targetId) => reviewQueueIds.has(targetId))).toHaveLength(61);
     return;
   }
 
@@ -305,6 +362,7 @@ test("WEB-CE-B11-B15 preserve the review boundary and expose complete preview ro
   const webData = await (await request.get("data/v2/web/site_data.json")).json();
   const batchEntityIds = Array.from({ length: 60 }, (_, index) => `V1-ENT-${String(index + 284).padStart(4, "0")}`);
   const searchableIds = new Set(webData.search_index.map((item) => item.target_id));
+  const hasReviewQueue = Object.prototype.hasOwnProperty.call(webData, "public_content_review_queue");
   const reviewQueue = webData.public_content_review_queue || { authors: [], works: [], places: [] };
   const reviewQueueRecords = ["authors", "works", "places"].flatMap((group) => reviewQueue[group] || []);
   const reviewQueueIds = new Set(reviewQueueRecords.map((item) => item.target_id));
@@ -315,7 +373,7 @@ test("WEB-CE-B11-B15 preserve the review boundary and expose complete preview ro
 
   if (!searchableIds.has("V1-ENT-0284")) {
     expect(batchEntityIds.filter((targetId) => searchableIds.has(targetId)), "formal layer must not partially leak B11-B15 USER_REVIEW records").toEqual([]);
-    expect(batchEntityIds.filter((targetId) => reviewQueueIds.has(targetId))).toHaveLength(60);
+    if (hasReviewQueue) expect(batchEntityIds.filter((targetId) => reviewQueueIds.has(targetId))).toHaveLength(60);
     return;
   }
 
@@ -340,6 +398,7 @@ test("WEB-CE-B16 preserves the review boundary and exposes complete preview rout
   const webData = await (await request.get("data/v2/web/site_data.json")).json();
   const batchEntityIds = Array.from({ length: 12 }, (_, index) => `V1-ENT-${String(index + 344).padStart(4, "0")}`);
   const searchableIds = new Set(webData.search_index.map((item) => item.target_id));
+  const hasReviewQueue = Object.prototype.hasOwnProperty.call(webData, "public_content_review_queue");
   const reviewQueue = webData.public_content_review_queue || { authors: [], works: [], places: [] };
   const reviewQueueRecords = ["authors", "works", "places"].flatMap((group) => reviewQueue[group] || []);
   const reviewQueueIds = new Set(reviewQueueRecords.map((item) => item.target_id));
@@ -353,7 +412,7 @@ test("WEB-CE-B16 preserves the review boundary and exposes complete preview rout
   // B16 curation is intentionally user_review; formal public projection must not leak it.
   if (!searchableIds.has("V1-ENT-0344")) {
     expect(batchEntityIds.filter((targetId) => searchableIds.has(targetId)), "formal layer must not partially leak B16 USER_REVIEW records").toEqual([]);
-    expect(batchEntityIds.filter((targetId) => reviewQueueIds.has(targetId))).toHaveLength(12);
+    if (hasReviewQueue) expect(batchEntityIds.filter((targetId) => reviewQueueIds.has(targetId))).toHaveLength(12);
     await page.goto("404.html");
     await expect(page.getByText("这条文学路径尚未开放").first()).toBeVisible();
     return;
@@ -382,6 +441,7 @@ test("WEB-CE-B17 preserves the review boundary and exposes complete preview rout
   const webData = await (await request.get("data/v2/web/site_data.json")).json();
   const authorAndWorkIds = Array.from({ length: 12 }, (_, index) => `V1-ENT-${String(index + 358).padStart(4, "0")}`);
   const searchableIds = new Set(webData.search_index.map((item) => item.target_id));
+  const hasReviewQueue = Object.prototype.hasOwnProperty.call(webData, "public_content_review_queue");
   const reviewQueue = webData.public_content_review_queue || { authors: [], works: [], places: [] };
   const reviewQueueRecords = ["authors", "works", "places"].flatMap((group) => reviewQueue[group] || []);
   const reviewQueueIds = new Set(reviewQueueRecords.map((item) => item.target_id));
@@ -395,7 +455,7 @@ test("WEB-CE-B17 preserves the review boundary and exposes complete preview rout
 
   if (!searchableIds.has("V1-ENT-0358")) {
     expect(authorAndWorkIds.filter((targetId) => searchableIds.has(targetId)), "formal layer must not partially leak B17 USER_REVIEW records").toEqual([]);
-    expect(authorAndWorkIds.filter((targetId) => reviewQueueIds.has(targetId))).toHaveLength(12);
+    if (hasReviewQueue) expect(authorAndWorkIds.filter((targetId) => reviewQueueIds.has(targetId))).toHaveLength(12);
     return;
   }
 
@@ -432,7 +492,7 @@ test("keyboard focus and links stay inside the public scope", async ({ page }) =
     const response = await page.request.get(href);
     expect(response.status(), `broken public link: ${href}`).toBeLessThan(400);
   }
-  const boxes = await page.locator(".map-point text").evaluateAll((labels) => labels.map((label) => {
+  const boxes = await page.locator(".country-label, .map-point text").evaluateAll((labels) => labels.filter((label) => getComputedStyle(label).display !== "none").map((label) => {
     const box = label.getBoundingClientRect();
     return { text: label.textContent, left: box.left, right: box.right, top: box.top, bottom: box.bottom };
   }));
@@ -455,5 +515,11 @@ test("every sitemap route renders public reader text without governance language
     const text = await page.locator("body").innerText();
     expect(text, route).not.toContain("文学地图暂时没有打开");
     expect(text, route).not.toMatch(forbidden);
+    const ordinaryText = await page.evaluate(() => {
+      const copy = document.body.cloneNode(true);
+      copy.querySelectorAll("details").forEach((item) => item.remove());
+      return copy.innerText;
+    });
+    expect(ordinaryText, route).not.toMatch(readerEvidenceLeakage);
   }
 });

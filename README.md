@@ -12,7 +12,7 @@
 
 ## 最高项目规范
 
-[PROJECT_CHARTER.md](./PROJECT_CHARTER.md) 是本项目的最高、冻结治理文件，规定长期目标、完整阶段流程、角色权限、最终成果和质量门槛。未经用户明确授权，任何 AI、Agent 或脚本不得修改该文件。动态进度以 `TASKS.md` 为准，不能用更新进度为由改写总章程。
+[PROJECT_CHARTER.md](./PROJECT_CHARTER.md) 是本项目的最高、冻结治理文件，规定长期目标、完整阶段流程、角色权限、最终成果和质量门槛。未经用户明确授权，任何 AI、Agent 或脚本不得修改该文件。V1 动态进度以 `TASKS.md` 为准，V2 动态进度以 `V2_TASKS.md` 为准，不能用更新进度为由改写总章程。
 
 ## 当前阶段
 
@@ -78,7 +78,7 @@ GitHub 是本项目公开版本历史的权威来源。普通任务与返修先�
 
 Research Data 与 Web Product 分别维护版本，不得互相覆盖历史。Web Product 在 1.0 前采用以下 SemVer 风格：
 
-- `Web 0.1.x`：当前架构上的小型内容批次、UI 修复、文案优化和小范围策展增强；
+- `Web 0.2.x`：当前 Web 0.2 开发基线上的 UI 修复、文案优化和小范围策展增强；`Web 0.1.x` 仅保留为历史开发线；
 - `Web 0.2.0`、`Web 0.3.0`：多个新国家/地区、大量新作家作品或新一批成熟专题路径等明显内容规模增长；
 - `Web 1.0.0`：只有 USER 明确开启并批准 Public Release Gate 后使用。
 
@@ -111,6 +111,7 @@ Research Data 与 Web Product 分别维护版本，不得互相覆盖历史。We
 - `docs/V2_HOME_FULL.md`、`docs/V2_MAP_FULL.md`、`docs/V2_PAGES_FULL_QA.md`、`docs/V2_SEARCH_FULL_QA.md`、`docs/V2_TIMELINE_FULL_QA.md`、`docs/V2_RESEARCH_EVIDENCE_QA.md`、`docs/V2_RESPONSIVE_A11Y_QA.md`：V2 完整站模块与 QA 记录；
 - `docs/V2_RC4_REMEDIATION_REPORT.md`、`docs/V2_RC4_CURATION_USER_REVIEW.md`、`docs/V2_RC4_BROWSER_PERFORMANCE_QA.md`、`docs/V2_RC4_RELEASE_INTEGRITY_QA.md`：V2.0.0-rc.4 独立终审返修材料；rc.3 文档保留为历史审计记录；
 - `docs/V2_RC5_CONTENT_DENSITY_QA.md`、`docs/V2_RC5_CURATION_USER_REVIEW.md`、`docs/V2_RC5_MAP_EXPANSION_RESEARCH_GAPS.md`：rc.5 内容深化与 USER_REVIEW 预览记录；rc.1—rc.5 均为 Web 0.1.0 形成前的历史开发候选；
+- `SOL_FINAL_PREMERGE_AUDIT_WEB_0_2.md`：PR #11 的 Web 0.2.0 独立终审、整改、门禁与合并结论；
 - `docs/外部AI任务分工与交接手册.md`：可直接交给其他 AI 的工作说明；
 - `docs/外部AI执行工作流与自检手册.md`：外部 AI 执行、自检和差量返修规则；
 - `work/external-ai/新外部AI_项目接管与首任务提示词.md`：新执行方无需聊天上下文即可接管的首条提示词；

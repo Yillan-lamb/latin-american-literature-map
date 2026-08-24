@@ -2,23 +2,23 @@
 
 - Release status: `DEVELOPMENT / CANDIDATE`
 - Generation policy: `deterministic_from_sqlite`
-- Source database SHA-256: `0dc94e354987959081a856f30bdd929e90f370d9bbd9c772a1fbc25d0ce8c6aa`
+- Source database SHA-256: `95e72dbf80a6d0f3dc8619979a34ff36582832175a0006bdcf1cf49b06fbb1ec`
 
 | # | 文件名 | 字节数 | SHA-256 |
 |---:|---|---:|---|
-| 1 | V1_v1.2.0-candidate_EXPORT.xlsx | 404369 | fdbd1b968e402ce867a37e1e22c6dd2a3ca1b58e07d2cbf09c073ef43f681622 |
+| 1 | V1_v1.2.0-candidate_EXPORT.xlsx | 404484 | 9bced555cd5ae5f3e1bb6a494006d419190171653f5ecca9e341522a0fecbc9e |
 | 2 | card_facts.csv | 51213 | dd676297c2d72e1d0cace446dc9253802a826bc85fad7c4c1359b0f87ac84ba0 |
 | 3 | card_sources.csv | 36233 | a89abd73b384abdd02c2c9429295f4d9218989dff6929fe3072aae8d820aa66e |
 | 4 | content_cards.csv | 136182 | 1f6c9d07555dc9ca3732332e659a386bf88ada49a7a8c523c885d32e2de64aac |
-| 5 | data.json | 2219515 | 289df99194b28b119951428d38c67c7faeb79ccd5f3e39cbe55b2c28768675cb |
+| 5 | data.json | 2219879 | e6035415ea916625e512f8c9c89aa87a88365acc0e21648cbc7cca9abbaadb31 |
 | 6 | entities.csv | 58497 | 4931c614ebf175232e81e610a0438f3c569eedcce283d6a6a0b29b4cf2a55d6f |
 | 7 | entity_id_map.csv | 51111 | ba7c8e5e890de79bb1c9baab711beb78811ca5b529d7e7e6c0aa08beb146bfe7 |
 | 8 | fact_sources.csv | 71746 | 52e71b7eb5dc7d04bdd6ecb43175ed51b84244f5c85e7f9f919f813e4d0d9997 |
 | 9 | facts.csv | 199349 | 31091e808d359698d454668a229dabef1d47888e416c4139d83c723fb38456bd |
 | 10 | gaps.csv | 6969 | a0c8d88c4ad988471578d9b9011ce0fb61259cd4cce3241460086e43cc589b3a |
 | 11 | legacy_relation_groups.csv | 4213 | f4b344e61606dde2b10891246ac4d654284823d90eb0e0d6b632d316d7f87a86 |
-| 12 | metadata.csv | 1896 | c6aed7d551ca4f01f70b408df1909d56d2503d14eed659e628fe92ae424b4a2a |
-| 13 | migration_log.csv | 4162 | 8231788bafe7a09548028d8b6ba93e591d68786b012912f5dfcd2bb1e78f8bf0 |
+| 12 | metadata.csv | 1909 | 529ce52126f358d1941e34a8d161e252e1fcb09daa1b3bf491d934d35636305f |
+| 13 | migration_log.csv | 4346 | 9ab67776b60a5cafd150206d8a83da3cbf55ef09f3fc9e462dd2072eea52b009 |
 | 14 | n3_decisions.csv | 2848 | 57441d00ec9fbeaee5609a6c913f117a0bbdf498ee377f0ea4e34c2d9d93cf35 |
 | 15 | relation_hold_evidence.csv | 9818 | edc8114b0282ef6125e45e1558cc4669efadfd17745661d2b3877fe55e0e1702 |
 | 16 | relation_holds.csv | 9225 | cb082425fd691454e68590bca45da87e12c0ee72517ec92c30dc1adaa79d6cab |

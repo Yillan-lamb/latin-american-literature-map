@@ -9,7 +9,7 @@
 
 - Original workspace: local `FAILED_RUN_ARCHIVE / PR7_REFERENCE` workspace (preserved; absolute path intentionally omitted)
 - Branch / HEAD: `content/batch-01-paz-fuentes-mistral` at `649e18e`
-- Preserved untracked paths: `DSH_LALM_Harness_ReadyPack/`, `artifacts/v2-rc5/`, and `拉丁美洲文学地图_60位作家扩充计划_中译本优先版.md`
+- Preserved untracked paths: `DSH_LALM_Harness_ReadyPack/`, `artifacts/v2-rc5/`, and `project/plans/拉丁美洲文学地图_60位作家扩充计划_中译本优先版.md`
 - The original workspace remains the `FAILED_RUN_ARCHIVE / PR7_REFERENCE`; no reset, clean, stash, move, deletion, or development edit was performed there.
 
 ## Entity dedup

@@ -8,4 +8,4 @@
 - 事实素材：238；内容卡：40；
 - 缺口登记：13；N3 用户决策：4 项均已完成。
 
-CSV、JSON、SQLite 由 `scripts/build_v1_candidate.py` 同源生成，作为 V1.0.0 历史重建器保留；Excel 由同一组 CSV 生成。N3 结论见 `N3_审核包.md`，正式发布说明见 `docs/V1_正式发布说明.md`。后续增量不得在本目录原地修改。
+CSV、JSON、SQLite 由 `scripts/build_v1_candidate.py` 同源生成，作为 V1.0.0 历史重建器保留；Excel 由同一组 CSV 生成。N3 结论见 `N3_审核包.md`，正式发布说明见 `docs/releases/V1_正式发布说明.md`。后续增量不得在本目录原地修改。

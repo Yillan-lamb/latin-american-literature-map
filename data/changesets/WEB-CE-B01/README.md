@@ -10,4 +10,4 @@
 - 迁移：`data/master/migrations/0003_web_ce_b01_batch01.sql`（applied，sha256=fa61918cad2316a4d10c49be3d3adaf1e1f0bccb43562fb3e0cf54992375833e；task WEB-CE-B01 / reviewer CODEX-REVIEW）；应用前经 FK 强制排练副本验证。
 - 导出：`data/exports/v1.1.0/`（从主库重建）。
 - Geo：新增地点行 比库尼亚（V1-ENT-0153，real，GeoNames 3868308）；墨西哥城 hidden→eligible（新增帕斯关联）；新增 5 条 PLACE_RELATIONS（V2-GEO-REL-026—030）。虚构空间规则未动。
-- 边界：不覆盖 `data/exports/v1.0.0/`、`data/exports/v1.0.1-rc5/`；未修改 PROJECT_CHARTER.md；未创建 Release/部署；B 目录 FACT CSV 存在未加引号逗号，集成时用 review/B_mistral_FACT_CANDIDATES_FIXED.csv 修复（Worker 原文件未改）。
+- 边界：不覆盖 `data/exports/v1.0.0/`、`data/exports/v1.0.1-rc5/`；未修改 project/governance/PROJECT_CHARTER.md；未创建 Release/部署；B 目录 FACT CSV 存在未加引号逗号，集成时用 review/B_mistral_FACT_CANDIDATES_FIXED.csv 修复（Worker 原文件未改）。

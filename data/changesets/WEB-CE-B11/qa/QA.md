@@ -28,5 +28,5 @@
 
 ## Known scope notes
 
-- 本批没有修改 `PROJECT_CHARTER.md` 或前端通用逻辑。
-- 工作区中 `docs/V2_RC5_CURATION_USER_REVIEW.md` 与 `work/external-ai/deliveries/` CSV 为既存或其他任务变更，未纳入 B11 commit。
+- 本批没有修改 `project/governance/PROJECT_CHARTER.md` 或前端通用逻辑。
+- 工作区中 `project/audits/web/V2_RC5_CURATION_USER_REVIEW.md` 与 `work/external-ai/deliveries/` CSV 为既存或其他任务变更，未纳入 B11 commit。

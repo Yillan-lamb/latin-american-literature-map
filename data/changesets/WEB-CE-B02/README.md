@@ -6,7 +6,7 @@
 - 范围：3 位新作家、每位 3 部代表作；不为满足数量强行追加已有作家作品。
 - 中文展示名：按路线图采用可读的通行名；译者、出版社、译本年份不是本批入库门槛。
 - 研究边界：仅写入可由已打开的官方/机构来源直接支持的原子事实；文学影响、运动归属、强主题判断留作 HOLD 或本批不建模。
-- Git 边界：本批独立 migration、独立 QA 和独立 commit；不修改 `PROJECT_CHARTER.md`，不执行发布、部署或 tag。
+- Git 边界：本批独立 migration、独立 QA 和独立 commit；不修改 `project/governance/PROJECT_CHARTER.md`，不执行发布、部署或 tag。
 
 文件：
 

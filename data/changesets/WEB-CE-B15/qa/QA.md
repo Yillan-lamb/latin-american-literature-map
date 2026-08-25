@@ -43,8 +43,8 @@
 
 ## Known scope notes
 
-- B15 未修改 `PROJECT_CHARTER.md`、通用前端逻辑或 roadmap；未执行 Release、tag、push 或 production deployment。
-- 工作区中 `docs/V2_RC5_CURATION_USER_REVIEW.md`、`work/external-ai/deliveries/` CSV 与 `artifacts/v2-rc5/` 为其他任务/QA 产物，未纳入 B15 commit。
+- B15 未修改 `project/governance/PROJECT_CHARTER.md`、通用前端逻辑或 roadmap；未执行 Release、tag、push 或 production deployment。
+- 工作区中 `project/audits/web/V2_RC5_CURATION_USER_REVIEW.md`、`work/external-ai/deliveries/` CSV 与 `artifacts/v2-rc5/` 为其他任务/QA 产物，未纳入 B15 commit。
 
 ## Gate
 

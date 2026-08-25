@@ -42,7 +42,7 @@
 ## 禁止新增
 
 - 不新做 OCR、文学研究、网络检索、新候选或数据库写入；
-- 不修改输入任务包、`SOURCE_RECORD.md`、`TASKS.md`、`PROJECT_CHARTER.md`、决策记录、CHANGELOG 或 GitHub；
+- 不修改输入任务包、`SOURCE_RECORD.md`、`project/tasks/TASKS.md`、`project/governance/PROJECT_CHARTER.md`、决策记录、CHANGELOG 或 GitHub；
 - 不复制 PDF、EPUB、OCR 正文或 `inputs/`。
 
 ## R1 重新验证

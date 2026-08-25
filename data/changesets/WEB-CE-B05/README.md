@@ -7,7 +7,7 @@
 - 中文展示名：沿路线图采用读者展示候选；原文题名始终保留，译者、出版社、译本年份和 ISBN 不作为本批 Research 门槛。
 - 研究边界：仅写入已打开的 ABL、国家/州级图书馆、公共文化机构和官方文本页面直接支持的原子事实；不建立影响、文学运动或强主题关系。
 - Geo：只新增 3 条作者—巴西关联，不把出生地或作品情节地点自动转成地图坐标。
-- Git 边界：本批独立 migration、Review、QA 和 commit；不修改 `PROJECT_CHARTER.md`，不执行发布、部署或 tag。
+- Git 边界：本批独立 migration、Review、QA 和 commit；不修改 `project/governance/PROJECT_CHARTER.md`，不执行发布、部署或 tag。
 
 文件：
 

@@ -3,7 +3,7 @@
 - 任务 ID：`WEB-CE-B01`（WEB-CONTENT-EXPANSION Batch 01）
 - 预检执行：PM（V4 Pro, high）· 2026-08-18
 - 恢复说明：本批次此前已完成的 Phase 0 / Phase 1 结论全部复用；无任何旧 candidate / review / migration 草稿落盘，Research 及之后各阶段全部 NOT_STARTED。
-- 依据：`AGENTS.md`、`PROJECT_CHARTER.md`、`V2_TASKS.md`、`docs/数据新增与版本维护操作手册.md`、`拉丁美洲文学地图_60位作家扩充计划_中译本优先版.md`、`literature-content-batch`、`lalm-*` skills。
+- 依据：`AGENTS.md`、`project/governance/PROJECT_CHARTER.md`、`project/tasks/V2_TASKS.md`、`docs/data/数据新增与版本维护操作手册.md`、`project/plans/拉丁美洲文学地图_60位作家扩充计划_中译本优先版.md`、`literature-content-batch`、`lalm-*` skills。
 
 ## 1. 仓库与主库基线（COMPLETED_AND_REUSABLE）
 

@@ -7,7 +7,7 @@
 
 ## Review method
 
-我重新读取了 `PROJECT_CHARTER.md`、`V2_TASKS.md` 和《数据新增与版本维护操作手册》，按作者、作品、来源、事实、关系、中文展示名和文学空间逐项检查了本批变更。11 个登记 URL 均重新打开并核对了页面身份与正文信息，包括 Instituto Cervantes / CVC、Memoria Chilena、阿根廷国家图书馆、CONICET 和 GeoNames。将迁移应用到 `/private/tmp/lalm-b03-review.sqlite` 进行副本演练，结果为：
+我重新读取了 `project/governance/PROJECT_CHARTER.md`、`project/tasks/V2_TASKS.md` 和《数据新增与版本维护操作手册》，按作者、作品、来源、事实、关系、中文展示名和文学空间逐项检查了本批变更。11 个登记 URL 均重新打开并核对了页面身份与正文信息，包括 Instituto Cervantes / CVC、Memoria Chilena、阿根廷国家图书馆、CONICET 和 GeoNames。将迁移应用到 `/private/tmp/lalm-b03-review.sqlite` 进行副本演练，结果为：
 
 - `validate_master.py`: PASS；`PRAGMA integrity_check`: `ok`；foreign-key errors: `0`；
 - 迁移后计数：entities 195、facts 434、relationships 126、sources 149、content_cards 87；

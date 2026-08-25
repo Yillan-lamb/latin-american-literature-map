@@ -7,7 +7,7 @@
 - assignee: `EXT-AI-02（交付时登记实际平台、模型及版本）`
 - status: `done`
 - dependency: `V1-S3-B02 R1 Codex gate pass`
-- schema: `docs/阶段2_试行Schema与迁移规则.md` 0.2（冻结）
+- schema: `docs/data/阶段2_试行Schema与迁移规则.md` 0.2（冻结）
 - created_at: `2026-08-10`
 - gate_result: `R1 pass（2026-08-10）`
 
@@ -35,12 +35,12 @@
 
 ## 3. 必读输入
 
-1. `PROJECT_CHARTER.md`
-2. `TASKS.md`
-3. `docs/阶段0_研究与数据规范.md`
-4. `docs/阶段2_试行Schema与迁移规则.md`（0.2）
-5. `docs/外部AI执行工作流与自检手册.md`
-6. `docs/外部AI任务分工与交接手册.md`
+1. `project/governance/PROJECT_CHARTER.md`
+2. `project/tasks/TASKS.md`
+3. `project/archive/阶段0_研究与数据规范.md`
+4. `docs/data/阶段2_试行Schema与迁移规则.md`（0.2）
+5. `project/ai/外部AI执行工作流与自检手册.md`
+6. `project/ai/外部AI任务分工与交接手册.md`
 7. `data/catalog/SOURCE_REGISTRY.csv`
 8. `data/staging/v1_s2_pilot/ENTITIES.csv`
 9. `data/staging/v1_s2_pilot/RELATIONSHIPS.csv`

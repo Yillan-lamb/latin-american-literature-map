@@ -11,7 +11,7 @@
 
 `work/external-ai/deliveries/V1-S1-003_正式来源ID回填_交付/`
 
-请完整阅读 `PROJECT_CHARTER.md`、详细任务卡、阶段 0 规范、Worker 的 HANDOFF/QA/ISSUES/MANIFEST，并对照原 R2 任务包和正式来源登记表执行全量结构检查与规定抽样。`PROJECT_CHARTER.md` 是用户锁定的最高总章程，未经用户明确授权不得修改、移动、重命名或删除。
+请完整阅读 `project/governance/PROJECT_CHARTER.md`、详细任务卡、阶段 0 规范、Worker 的 HANDOFF/QA/ISSUES/MANIFEST，并对照原 R2 任务包和正式来源登记表执行全量结构检查与规定抽样。`project/governance/PROJECT_CHARTER.md` 是用户锁定的最高总章程，未经用户明确授权不得修改、移动、重命名或删除。
 
 你只能检查，不能覆盖或修复 Worker 文件。请新建：
 

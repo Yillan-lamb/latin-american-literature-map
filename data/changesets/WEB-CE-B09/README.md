@@ -9,4 +9,4 @@
 - Geo：复用墨西哥、智利国家节点，新增 3 条作者—国家关系；无新增现实坐标或虚构空间。
 - Curation：3 位作者、9 部作品的策展字段保持 `user_review`，不越过公共内容准入门槛。
 - Review：需由 fresh-context Reviewer 独立复核来源、年份冲突、作品集层级与关系证据后才能入库。
-- Git：本批独立 migration、QA 和 commit；不修改 `PROJECT_CHARTER.md`，不执行发布、部署或 tag。
+- Git：本批独立 migration、QA 和 commit；不修改 `project/governance/PROJECT_CHARTER.md`，不执行发布、部署或 tag。

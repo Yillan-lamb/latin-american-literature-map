@@ -10,6 +10,6 @@
 - Geo：复用智利、阿根廷、乌拉圭国家节点，新增 3 条作者—国家关系；不新增坐标或虚构空间。
 - Curation：3 位作者、9 部作品的策展字段保留 `user_review`，不越过公共内容准入门槛。
 - Review：fresh-context Reviewer 结论为 `PASS`，见 `review/REVIEW.md`。
-- Git：本批独立 migration、QA 和 commit；不修改 `PROJECT_CHARTER.md`，不执行发布、部署或 tag。
+- Git：本批独立 migration、QA 和 commit；不修改 `project/governance/PROJECT_CHARTER.md`，不执行发布、部署或 tag。
 
 文件：`PREFLIGHT.md`、`RESEARCH_CHANGE_SET.json`、`review/REVIEW.md`、`FINAL_BATCH_REPORT.md`、`qa/QA.md`、`curation/PUBLIC_CONTENT.json`。

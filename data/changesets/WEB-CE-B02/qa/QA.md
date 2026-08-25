@@ -34,5 +34,5 @@
 ## 工作区卫生
 
 - `git diff --check`（本批拟提交路径）：PASS
-- 未提交任何 `PROJECT_CHARTER.md`、secret、绝对本地路径或生产发布元数据。
+- 未提交任何 `project/governance/PROJECT_CHARTER.md`、secret、绝对本地路径或生产发布元数据。
 - 根工作区中已有的 `work/external-ai/deliveries/` 改动与 `artifacts/v2-rc5/` 未纳入本批提交。

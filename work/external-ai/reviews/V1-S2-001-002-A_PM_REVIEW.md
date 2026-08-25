@@ -43,7 +43,7 @@
 
 - 不访问或推荐 Z-Library、网盘、盗版站；不下载 PDF、EPUB 或书籍全文。
 - 不绕过登录、付费墙、DRM 或机构访问控制。
-- 不修改 `PROJECT_CHARTER.md`、`TASKS.md`、`SOURCE_REGISTRY.csv`、既有任务包、决策记录、CHANGELOG 或 GitHub。
+- 不修改 `project/governance/PROJECT_CHARTER.md`、`project/tasks/TASKS.md`、`SOURCE_REGISTRY.csv`、既有任务包、决策记录、CHANGELOG 或 GitHub。
 - 不执行正式来源选择、正式等级核定、购买、预约、OCR 或数据库写入。
 
 ## R1 重新验证

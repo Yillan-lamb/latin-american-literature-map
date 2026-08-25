@@ -5,7 +5,7 @@
 - 任务卡：`work/external-ai/V1-S2-007A_试点数据包预组装/README.md`
 - 上游交付：`work/external-ai/deliveries/V1-S2-006A_试点关系候选与内容事实包_交付/`
 - 上游最终验收：`work/external-ai/reviews/V1-S2-006-A_R1_PM_REVIEW.md`
-- 试行 Schema：`docs/阶段2_试行Schema与迁移规则.md`
+- 试行 Schema：`docs/data/阶段2_试行Schema与迁移规则.md`
 - 交付目录：`work/external-ai/deliveries/V1-S2-007A_试点数据包预组装_交付/`
 
 请先完整读取任务卡的全部必读输入。这个任务只做机械预组装，不重新研究、OCR、补来源或修改上游数据。

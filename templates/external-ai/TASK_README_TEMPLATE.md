@@ -18,9 +18,9 @@
 
 ## 必读文件
 
-1. `PROJECT_CHARTER.md`（最高冻结章程，未经用户明确授权不得修改）
-2. `docs/数据新增与版本维护操作手册.md`
-3. `docs/外部AI任务分工与交接手册.md`
+1. `project/governance/PROJECT_CHARTER.md`（最高冻结章程，未经用户明确授权不得修改）
+2. `docs/data/数据新增与版本维护操作手册.md`
+3. `project/ai/外部AI任务分工与交接手册.md`
 4. 本文件
 
 历史阶段追溯材料位于 `docs/archive/v1-foundation/`，不得覆盖当前任务卡、Schema 0.3 或本手册。
@@ -42,9 +42,9 @@
 
 ## 禁止事项
 
-- 不修改、移动、重命名或删除 `PROJECT_CHARTER.md`；
+- 不修改、移动、重命名或删除 `project/governance/PROJECT_CHARTER.md`；
 - 不修改原始文件；
-- 不修改 `TASKS.md`、主数据库、决策记录或 GitHub；
+- 不修改 `project/tasks/TASKS.md`、主数据库、决策记录或 GitHub；
 - 不公开上传资料；
 - 不猜测缺字、出版信息或来源；
 - 不用聊天摘要替代文件交付。

@@ -2,7 +2,7 @@
 
 - 评审角色：fresh-context Independent Reviewer
 - 评审日期：2026-08-20
-- 输入：`PROJECT_CHARTER.md`、`V2_TASKS.md`、`docs/数据新增与版本维护操作手册.md`、`V2_网站产品决策与开发总说明书.md`、本批 `PREFLIGHT.md`、`RESEARCH_CHANGE_SET.json`、`0005_web_ce_b02_luna_max.sql`，以及现有主库和 Geo CSV。
+- 输入：`project/governance/PROJECT_CHARTER.md`、`project/tasks/V2_TASKS.md`、`docs/data/数据新增与版本维护操作手册.md`、`project/plans/V2_网站产品决策与开发总说明书.md`、本批 `PREFLIGHT.md`、`RESEARCH_CHANGE_SET.json`、`0005_web_ce_b02_luna_max.sql`，以及现有主库和 Geo CSV。
 - 方法：只读核对主库查重、静态变更集引用、事实/关系端点和 Geo 层；重新打开候选包列出的官方/机构网址。未写 SQLite、迁移脚本、网站或其他批次文件。
 
 ## 总体判词：REVISE

@@ -6,7 +6,7 @@
 
 - 原目录返修：`work/external-ai/deliveries/V1-S2-001-002A_试点来源候选清单_交付/`
 - 保持 9 个交付文件，不新增第 10 个交付文件。
-- 不修改输入资料、治理文件、`TASKS.md`、`PROJECT_CHARTER.md`、决策记录、CHANGELOG 或 GitHub。
+- 不修改输入资料、治理文件、`project/tasks/TASKS.md`、`project/governance/PROJECT_CHARTER.md`、决策记录、CHANGELOG 或 GitHub。
 
 ## 必须完成
 

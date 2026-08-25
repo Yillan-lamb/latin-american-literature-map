@@ -7,7 +7,7 @@
 - 中文展示名：保留原文题名，中文名仅作读者展示候选；译者、出版社、译本年份和 ISBN 不是本批门槛。
 - 研究边界：只写入可由已打开的国家图书馆、大学/研究机构或 Cervantes 机构页面直接支持的原子事实；文学运动、影响关系和强主题留在策展/HOLD。
 - Geo：新增正式乌拉圭国家节点及有直接来源支持的虚构 Santa María；虚构空间不落现实坐标。
-- Git 边界：本批独立 migration、Review、QA 和 commit；不修改 `PROJECT_CHARTER.md`，不执行发布、部署或 tag。
+- Git 边界：本批独立 migration、Review、QA 和 commit；不修改 `project/governance/PROJECT_CHARTER.md`，不执行发布、部署或 tag。
 
 文件：
 

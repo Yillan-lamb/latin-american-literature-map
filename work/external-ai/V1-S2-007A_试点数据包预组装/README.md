@@ -20,12 +20,12 @@
 
 ## 2. 必读输入
 
-1. `PROJECT_CHARTER.md`
-2. `TASKS.md`（只读）
-3. `docs/阶段0_研究与数据规范.md`
-4. `docs/外部AI执行工作流与自检手册.md`
-5. `docs/阶段2_试行Schema与迁移规则.md`
-6. `拉丁美洲文学地图_项目决策记录.md` 中 DEC-022~024
+1. `project/governance/PROJECT_CHARTER.md`
+2. `project/tasks/TASKS.md`（只读）
+3. `project/archive/阶段0_研究与数据规范.md`
+4. `project/ai/外部AI执行工作流与自检手册.md`
+5. `docs/data/阶段2_试行Schema与迁移规则.md`
+6. `project/decisions/拉丁美洲文学地图_项目决策记录.md` 中 DEC-022~024
 7. `data/catalog/SOURCE_REGISTRY.csv`
 8. `work/external-ai/reviews/V1-S2-006-A_R1_PM_REVIEW.md`
 9. `work/external-ai/deliveries/V1-S2-006A_试点关系候选与内容事实包_交付/RELATION_CANDIDATES.csv`

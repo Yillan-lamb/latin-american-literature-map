@@ -2,6 +2,16 @@
 
 本文件记录拉丁美洲文学地图各版本的实际修改。格式参考 Keep a Changelog，版本号遵循语义化版本规则。
 
+## [Repository Information Architecture Refactor] - 2026-08-25
+
+### Documentation
+
+- 将仓库对外成果说明与内部项目管理分层：`docs/` 聚焦研究方法、数据、网站与版本说明，治理、计划、任务、决策、审计和 AI 协作记录统一归入 `project/`。
+- 将根 README 重写为项目主页，补充项目定位、探索维度、经数据库与完整开发预览核验的内容规模、Research → Data → Web 流程、产品状态及文档入口。
+- 新增 `docs/README.md`、`project/README.md` 与 `project/audits/README.md` 等目录入口，并修复移动后的 Markdown、脚本和 CI 相关路径引用。
+- 保留 `work/external-ai/` 的既有运行包路径，避免破坏仍在使用这些目录的构建脚本；仅迁移上层协作计划与接管说明。
+- 本次未修改 Research Data、Schema、网站视觉或前端业务逻辑；正式 Public Release 状态继续暂停。
+
 ## [Web 0.2.0 — Development Baseline] - 2026-08-22
 
 ### Content
@@ -56,7 +66,7 @@
 - 将当前网站产品重新基线为 `Web 0.1.0`：产品模型已建立，进入 Web 0.x 持续内容建设期；该记录是内部开发基线，不是 GitHub Release 或公众发布。
 - 将原 `V2-N4` 正式发布流程暂停为未来由 USER 单独重新开启的 `V2-PUBLIC-RELEASE` Gate；Lighthouse、Manifest、GitHub Pages、GitHub Release 与 production deployment 门禁保留但不再是当前主任务。
 - `V2.0.0-rc.1`—`V2.0.0-rc.5` 继续作为 Web 0.1.0 形成前的历史开发候选保留，不删除、不篡改、不重写。
-- `PROJECT_CHARTER.md` 经 USER 明确授权由 1.5.0 最小增量升级至 1.6.0；SQLite 单一主数据、Research / Curation 分离、来源证据、版权、地图、USER 审核、GitHub 留痕及前端不得修改研究事实等既有规则不变。
+- `project/governance/PROJECT_CHARTER.md` 经 USER 明确授权由 1.5.0 最小增量升级至 1.6.0；SQLite 单一主数据、Research / Curation 分离、来源证据、版权、地图、USER 审核、GitHub 留痕及前端不得修改研究事实等既有规则不变。
 
 ### 当前状态
 
@@ -80,18 +90,18 @@
 - 发布清单冻结范围扩至 22 项关键输入，加入候选源码提交锚定协议；PR CI 覆盖数据、构建、公开语言、静态路由和冻结一致性验证，手动 Pages 部署继续要求用户批准。
 - 三浏览器、桌面/390px、9 条核心路径全部通过；Lighthouse 记录为 Performance 98、Accessibility 100、Best Practices 100、SEO 100。当前仍停在 `V2-N4 = USER_REVIEW`，未部署、未创建标签或 Release。
 
-- 根据 `docs/V2_SOL_AUDIT_REPORT.md` 完成 V2-N4 前整改：地图采用稳定的防碰撞位置、国家节点进入国家页、国家页汇总直接与子地点关系；unknown 地点使用待确认模板，隐藏技术父节点不再进入搜索或独立路由。
+- 根据 `project/audits/web/V2_SOL_AUDIT_REPORT.md` 完成 V2-N4 前整改：地图采用稳定的防碰撞位置、国家节点进入国家页、国家页汇总直接与子地点关系；unknown 地点使用待确认模板，隐藏技术父节点不再进入搜索或独立路由。
 - 修正 Parral 为 provisional 时保持公开地图隐藏；保留其研究状态，不补造官方来源或分类结论。
 - 加固 Web Data validator、release manifest 与 Pages 工作流：候选升级为 `V2.0.0-rc.2`，冻结范围增至 15 个部署输入，部署前必须验证 SHA-256 且 `release_state=approved_v2_n4`。
 - 修正 hash 路由 sitemap、部署 README 来源、构建脚本的 `--help` / `--dry-run` 行为，并清理 V2 动态状态、决策索引和 QA 计数漂移。
-- USER 批准 V2-N1，并授权将已批准的 V2 产品方向、阶段结构、地图/数据/策展治理、V2-N2 至 V2-N4 审核节点和 Codex 权限纳入 `PROJECT_CHARTER.md`；章程由 1.4.0 增量升级至 1.5.0。
+- USER 批准 V2-N1，并授权将已批准的 V2 产品方向、阶段结构、地图/数据/策展治理、V2-N2 至 V2-N4 审核节点和 Codex 权限纳入 `project/governance/PROJECT_CHARTER.md`；章程由 1.4.0 增量升级至 1.5.0。
 - 新增 DEC-040，记录 V2 启动、V2 最高专项说明书地位、V2.0 范围控制、用户节点和当前下一节点 V2-N2。
 - README 当前阶段同步为 V1.0.0 已发布、V2-N1 已批准、进入 N2 原型准备；V1 既有来源、数据、版权和 GitHub 治理规则保持不变。
 - 完成 V2 数据适配审计、地图地理补充、Curation Data Schema、Web Data 构建、N2 真实样本和最小策展包；生成可回溯的 V2 地图、策展与 Web Data 输出。
 - 新增 `site/` 静态优先 N2 原型：地图主入口、国家→地点交互、现实地点/虚构空间页、作者/作品页、基础搜索、文学时间线和阅读/研究双层；完成 V2-S4-005 QA，当前停在 `V2-N2 = USER_REVIEW`。
 - USER 通过 N2 并授权继续执行；新增 DEC-042，解锁阶段 5—7，下一用户节点切换为 V2-N3；阶段 8 与 N4 继续锁定。
 - 完成阶段 5—7：生成完整页面覆盖和策展草稿，Web Data 升级至 `v2-web-0.2`，完整站接入首页、全量地图、页面回退、类型搜索、作家/作品/背景时间线、来源证据层和响应式/可访问性门禁。
-- 新增 `docs/V2_N3_FULL_TEST_SITE_REVIEW.md`；完整测试站入口与 Web Data HTTP smoke test 均返回 200，内部 QA 通过，当前停在 `V2-N3 = USER_REVIEW`，阶段 8 与 N4 不提前执行。
+- 新增 `project/audits/web/V2_N3_FULL_TEST_SITE_REVIEW.md`；完整测试站入口与 Web Data HTTP smoke test 均返回 200，内部 QA 通过，当前停在 `V2-N3 = USER_REVIEW`，阶段 8 与 N4 不提前执行。
 - USER 通过 V2-N3 并授权继续执行；完成 V2-S8-001 至 V2-S8-004，生成 V2.0.0-rc.1 冻结清单、公开边界 QA、GitHub Pages 候选工作流、根目录部署包和发布说明，当前停在 `V2-N4 = USER_REVIEW`。
 - 根据 V1.0.0 工作流程审计，新增长期增量维护手册、审计摘要和旧规则淘汰清单。
 - 修正 AI 协同计划、接管提示词、阶段 0/阶段 3 历史文档提示及 V1 发布快照说明，避免把 150 条门槛、Schema 0.2 或“N4 前候选”误作当前规则。
@@ -104,7 +114,7 @@
 
 - USER 明确批准 `V1-N4-001`，授权创建 `v1.0.0` 标签和 GitHub Release。
 - 阶段 5 最终一致性与引用审计通过；V1 以 74 来源、144 实体、76 条经审核关系、40 hold、238 条事实素材和 40 张内容卡正式发布。
-- 新增 `docs/N4_正式发布结论.md` 与 `docs/V1_正式发布说明.md`；已知问题继续公开保留。
+- 新增 `project/audits/research/N4_正式发布结论.md` 与 `docs/releases/V1_正式发布说明.md`；已知问题继续公开保留。
 - 正式包继续由 `data/staging/v1_candidate/` 提供 CSV、JSON、SQLite、Excel、质量报告及可重复构建验证脚本；Git 标签冻结其 V1.0.0 内容。
 
 ### Git 节点
@@ -117,7 +127,7 @@
 ### 阶段 5
 
 - 完成最终一致性和引用审计：四格式计数、主键、规范化内容、SQLite 外键、Excel 公式、来源及实体引用全部通过。
-- 新增 `docs/V1_版本摘要.md`、`docs/V1_已知问题.md` 和 `docs/阶段5_最终一致性与引用审计.md`。
+- 新增 `docs/releases/V1_版本摘要.md`、`docs/releases/V1_已知问题.md` 和 `project/audits/research/阶段5_最终一致性与引用审计.md`。
 - 明确披露 40 个关系 hold、5 个 research not_found、1 个 partial、《消逝的足迹》年份 hold、政治诗歌 3/1/1 和 author→event 说明级边界。
 - 新增 DEC-038；阶段 5 完成，`V1-N4-001` 进入用户审核。
 
@@ -130,7 +140,7 @@
 ### N3 用户审核
 
 - USER 以 B/A/A/A 通过 `V1-N3-001`，并明确授权修改冻结章程及对 Schema 作加法兼容升级。
-- `PROJECT_CHARTER.md` 升级至 1.4.0：V1 最低关系门槛由 150 调整为 75；150 转为 V1.1 扩展目标，不以 hold、legacy 或 pending 补数。
+- `project/governance/PROJECT_CHARTER.md` 升级至 1.4.0：V1 最低关系门槛由 150 调整为 75；150 转为 V1.1 扩展目标，不以 hold、legacy 或 pending 补数。
 - Schema 由 0.2 升级至 0.3，新增 `BASED_ON_EVENT`，端点严格限定 `work → event`；author→event 不建模，政治诗歌维持 3/1/1 分层。
 
 ### 数据与验证
@@ -141,7 +151,7 @@
 
 ### 治理
 
-- 新增 `docs/N3_审核结论.md` 与 DEC-037；`V1-S5-001` 完成，解锁 `GIT-V1-N3` 和阶段 5。
+- 新增 `project/audits/research/N3_审核结论.md` 与 DEC-037；`V1-S5-001` 完成，解锁 `GIT-V1-N3` 和阶段 5。
 
 ## [0.8.0] - 2026-08-10
 
@@ -160,7 +170,7 @@
 ### N3 与治理
 
 - 新增 DEC-036；`V1-N3-001` 进入用户 review，节点只审核 75/150、work→event、author→event 和政治诗歌 3/1/1 四项。
-- 本次未修改冻结 `PROJECT_CHARTER.md` 或 Schema 0.2，未触发 `GIT-V1-N3`。
+- 本次未修改冻结 `project/governance/PROJECT_CHARTER.md` 或 Schema 0.2，未触发 `GIT-V1-N3`。
 
 ## [0.7.2] - 2026-08-10
 
@@ -213,7 +223,7 @@
 ### 来源与任务
 
 - 正式来源由 `SRC-0016` 扩展至 `SRC-0072`；新增 56 条、同文复用 2 条、Dialnet hold 3 条，新增 `SOURCE_ID_MAP_V1_S3_S4.csv` 和可重复分配/验证脚本。
-- 新增 DEC-033，并把 `TASKS.md` 更新为 0.6.0。
+- 新增 DEC-033，并把 `project/tasks/TASKS.md` 更新为 0.6.0。
 - 派发 `V1-S4-A04` 里程碑大包：汇总 10 位作家、30 部作品的事实卡/内容卡素材，并对策展覆盖、来源最低标准和关系规模进行诚实审计。
 - 本次未修改冻结章程或 Schema，未触发 `GIT-V1-N3`。
 
@@ -235,7 +245,7 @@
 
 ### 章程与 GitHub 工作流
 
-- USER 明确批准 `PROJECT_CHARTER.md` 修改提案；章程由 1.2.0 升级至 1.3.0。
+- USER 明确批准 `project/governance/PROJECT_CHARTER.md` 修改提案；章程由 1.2.0 升级至 1.3.0。
 - 新增 DEC-031，取代 DEC-015 的逐次上传通知规则；V1 从 `GIT-V1-S3` 起启用节点式自动审计、提交、推送和标签。
 - 固定三个自动节点：阶段 3 完成标签 `v1-s3`、N3 通过标签 `v1-n3`、N4 正式发布标签 `v1.0.0` 和 GitHub Release。
 - 明确逐文件暂存、公开白名单、禁止材料、远端检查和 fail-closed 停止条件；外部 AI 继续无权操作 Git/GitHub。
@@ -301,7 +311,7 @@
 
 ### N2 节点
 
-- 新增 `docs/N2_知识模型试点审核包.md`，把用户审核压缩为实体分层、关系词与证据门槛、内容卡方向、来源定位粒度四项决定。
+- 新增 `project/archive/N2_知识模型试点审核包.md`，把用户审核压缩为实体分层、关系词与证据门槛、内容卡方向、来源定位粒度四项决定。
 - 新增 DEC-027；`V1-N2-001` 进入 review，阶段 3 继续等待用户节点确认。
 - 本次未执行 Git 提交或 GitHub 上传。
 
@@ -361,7 +371,7 @@
 
 ### 章程与 GitHub
 
-- 供应方更换不改变冻结总章程，因此未修改 `PROJECT_CHARTER.md`。
+- 供应方更换不改变冻结总章程，因此未修改 `project/governance/PROJECT_CHARTER.md`。
 - 本次修改仅在本地累积，未执行 Git 提交或 GitHub 上传。
 
 ## [0.4.2] - 2026-08-09
@@ -400,14 +410,14 @@
 
 ### 章程与 GitHub
 
-- 本次仅调整任务层执行粒度，不修改冻结的 `PROJECT_CHARTER.md`。
+- 本次仅调整任务层执行粒度，不修改冻结的 `project/governance/PROJECT_CHARTER.md`。
 - 修改仅在本地累积，未执行 Git 提交或 GitHub 上传。
 
 ## [0.4.0] - 2026-08-04
 
 ### 章程变更
 
-- 用户明确授权把最低证据定位从页码/章节级调整为来源级；`PROJECT_CHARTER.md` 从 1.1.0 升级为 1.2.0。
+- 用户明确授权把最低证据定位从页码/章节级调整为来源级；`project/governance/PROJECT_CHARTER.md` 从 1.1.0 升级为 1.2.0。
 - 书籍最低记录来源 ID 和书名，论文最低记录来源 ID、论文题名及 DOI/稳定 URL（如有），网页最低记录页面标题、机构/作者、URL 和访问日期。
 - 章节、页码、电子位置、段落锚点和短摘录改为可选增强信息，不再作为验收、暂存或主数据准入的强制门槛。
 - 新增章程修改提案和 DEC-017；历史页码与 locator 保留，已通过任务不返工。
@@ -446,7 +456,7 @@
 
 ### 修改
 
-- `TASKS.md` 更新为 0.3.6：`V1-S2-001/002` 完成，`V1-S2-003` 解锁并进入页段定位子任务。
+- `project/tasks/TASKS.md` 更新为 0.3.6：`V1-S2-001/002` 完成，`V1-S2-003` 解锁并进入页段定位子任务。
 - README 和项目决策记录同步当前状态与版本。
 
 ### 验证
@@ -470,7 +480,7 @@
 
 ### 修改
 
-- `TASKS.md` 更新为 0.3.5，记录 R1 已通过的范围、两项阻塞问题和 R2 状态。
+- `project/tasks/TASKS.md` 更新为 0.3.5，记录 R1 已通过的范围、两项阻塞问题和 R2 状态。
 - README 当前版本与阶段 2 状态同步更新。
 
 ### 验证
@@ -495,7 +505,7 @@
 
 ### 修改
 
-- `TASKS.md` 更新为 0.3.4，记录阶段 2 来源候选任务 R0 已交付但等待 R1。
+- `project/tasks/TASKS.md` 更新为 0.3.4，记录阶段 2 来源候选任务 R0 已交付但等待 R1。
 - README 当前版本同步更新，阶段 2 仍处于试点来源选择阶段。
 
 ### 验证
@@ -520,7 +530,7 @@
 
 ### 修改
 
-- `TASKS.md` 升级为 0.3.3：`V1-S1-007` 更新为完成，`V1-S2-001`、`V1-S2-002` 更新为进行中。
+- `project/tasks/TASKS.md` 升级为 0.3.3：`V1-S1-007` 更新为完成，`V1-S2-001`、`V1-S2-002` 更新为进行中。
 - README 当前阶段更新为阶段 1 完成、阶段 2 双作家试点来源选择启动。
 
 ### 决策
@@ -551,7 +561,7 @@
 
 ### 修改
 
-- `PROJECT_CHARTER.md` 从 1.0.0 升级为 1.1.0：不再以单个任务完成触发 Git 提交或 GitHub 上传，改为用户明确通知后的批量收口。
+- `project/governance/PROJECT_CHARTER.md` 从 1.0.0 升级为 1.1.0：不再以单个任务完成触发 Git 提交或 GitHub 上传，改为用户明确通知后的批量收口。
 - README、决策记录、N1 审核包、阶段 0 支持章程和 AI 协同工作计划同步新规则。
 
 ### 决策
@@ -568,18 +578,18 @@
 
 ### 新增
 
-- 新增根目录 `PROJECT_CHARTER.md`，统一记录项目使命、长期成果、V1 内容基线、完整阶段流程、角色权限、数据生命周期、质量门槛和最终完成定义。
+- 新增根目录 `project/governance/PROJECT_CHARTER.md`，统一记录项目使命、长期成果、V1 内容基线、完整阶段流程、角色权限、数据生命周期、质量门槛和最终完成定义。
 - 建立章程冻结与修改程序：未经用户明确授权，任何 AI 不得修改、移动、重命名或删除总章程。
 
 ### 修改
 
 - README、TASKS、阶段 0 章程、AI 协同计划、研究规范和外部 AI 手册统一声明总章程的最高效力。
 - 外部 AI 任务模板新增总章程必读项和禁止修改条款。
-- 项目支持文档版本同步更新为 0.3.1；动态项目状态仍只由 `TASKS.md` 维护。
+- 项目支持文档版本同步更新为 0.3.1；动态项目状态仍只由 `project/tasks/TASKS.md` 维护。
 
 ### 决策
 
-- 新增 DEC-014：将 `PROJECT_CHARTER.md` 确立为用户锁定的最高项目规范。
+- 新增 DEC-014：将 `project/governance/PROJECT_CHARTER.md` 确立为用户锁定的最高项目规范。
 
 ### 验证
 
@@ -590,7 +600,7 @@
 
 ### 已知问题
 
-- 文件级冻结依赖项目治理和 Git 历史审计；未来如需修改，必须先取得用户对 `PROJECT_CHARTER.md` 的明确授权。
+- 文件级冻结依赖项目治理和 Git 历史审计；未来如需修改，必须先取得用户对 `project/governance/PROJECT_CHARTER.md` 的明确授权。
 
 ## [0.3.0] - 2026-08-04
 
@@ -662,7 +672,7 @@
 
 - 完成阶段 0 项目章程，明确 V1 目标、范围、治理、节点和版权边界。
 - 建立来源等级、OCR 页码锚点、候选数据、受控词表、QA 和退回规范。
-- 建立 `TASKS.md` 作为 V1 唯一任务状态源，细化阶段 0—5 与 N1—N4 任务。
+- 建立 `project/tasks/TASKS.md` 作为 V1 唯一任务状态源，细化阶段 0—5 与 N1—N4 任务。
 - 建立 N1 范围基线审核包。
 - 建立外部 AI 任务分工与交接手册，覆盖资料清单、来源建档、OCR、质检、候选抽取、译名核对和书目核对。
 - 建立外部 AI 的任务、状态、来源、OCR、QA、问题、交接、文件清单、Reviewer 和 CSV 模板。

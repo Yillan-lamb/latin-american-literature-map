@@ -25,4 +25,4 @@ Research → Geo → Curation → Web Data 链路已闭环。固定时间戳的 
 - Migration：`data/master/migrations/0016_web_ce_b11_luna_max.sql`
 - Audit materials：`PREFLIGHT.md`、`RESEARCH_CHANGE_SET.json`、`review/REVIEW.md`、`curation/PUBLIC_CONTENT.json`、`qa/QA.md`
 - 建议 commit：`feat(data): complete WEB-CE-B11`
-- 本报告生成后再检查并只 stage B11 文件、主库、Geo、Curation 和 Web Data；既存 `docs/V2_RC5_CURATION_USER_REVIEW.md` 与外部 AI CSV 不属于本批。
+- 本报告生成后再检查并只 stage B11 文件、主库、Geo、Curation 和 Web Data；既存 `project/audits/web/V2_RC5_CURATION_USER_REVIEW.md` 与外部 AI CSV 不属于本批。

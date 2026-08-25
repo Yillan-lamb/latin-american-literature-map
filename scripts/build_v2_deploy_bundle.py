@@ -8,12 +8,13 @@ import json
 import shutil
 from html import escape
 from pathlib import Path
-from urllib.parse import urljoin
+from urllib.parse import urljoin, urlparse
 
 
 ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_DATA = ROOT / "data/v2/web/site_data.json"
 SITE_FILES = ("app.js", "styles.css")
+DEVELOPMENT_PREVIEW_BANNER = "Web 0.2.0 Development Preview｜包含待审内容｜正式 Public Release 仍暂停"
 
 
 def route_for(payload: dict[str, object], target_type: str, target_id: str) -> str:
@@ -23,14 +24,15 @@ def route_for(payload: dict[str, object], target_type: str, target_id: str) -> s
     return indexed["public_route"]
 
 
-def page_shell(kind: str, target_id: str | None, title: str, description: str, canonical: str, site_base: str, path_slug: str | None = None) -> str:
+def page_shell(kind: str, target_id: str | None, title: str, description: str, canonical: str, site_base: str, path_slug: str | None = None, development_preview: bool = False) -> str:
     attrs = [f'data-route-kind="{escape(kind)}"']
     if target_id:
         attrs.append(f'data-route-id="{escape(target_id)}"')
     if path_slug:
         attrs.append(f'data-path-slug="{escape(path_slug)}"')
+    banner = f'<div data-review-preview-banner class="review-banner">{DEVELOPMENT_PREVIEW_BANNER}</div>' if development_preview else ""
     return f'''<!doctype html>
-<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#f3eee4"><meta name="description" content="{escape(description)}"><meta property="og:type" content="website"><meta property="og:locale" content="zh_CN"><meta property="og:site_name" content="拉丁美洲文学地图"><meta property="og:title" content="{escape(title)}"><meta property="og:description" content="{escape(description)}"><meta property="og:url" content="{escape(canonical)}"><meta name="twitter:card" content="summary"><link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%2396342b'/%3E%3Cpath d='M18 16h8v25h20v7H18z' fill='%23fffdf8'/%3E%3C/svg%3E"><link rel="canonical" href="{escape(canonical)}"><title>{escape(title)}｜拉丁美洲文学地图</title><link rel="stylesheet" href="{escape(urljoin(site_base, 'styles.css'))}"></head><body {' '.join(attrs)}><div class="site-frame"><header class="site-header"><a class="wordmark" href="{escape(site_base)}"><span class="wordmark-mark">LATAM</span><span class="wordmark-name">拉丁美洲文学地图</span></a><nav id="main-nav" class="main-nav" aria-label="主要导航"><a href="{escape(site_base)}">地图</a><a href="{escape(urljoin(site_base, 'search/'))}">搜索</a><a href="{escape(urljoin(site_base, 'timeline/'))}">时间线</a><a href="{escape(urljoin(site_base, 'about/'))}">关于项目</a></nav><button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav">菜单</button></header><main id="app" tabindex="-1" aria-live="polite"><div class="loading-state"><span class="loading-dot"></span>正在打开文学地图……</div></main><footer class="site-footer"><div><span class="footer-kicker">A literary map of Latin America</span><span>从地点进入文学，从作品继续阅读</span></div><a href="{escape(urljoin(site_base, 'about/'))}">关于这张地图</a></footer></div><script type="module" src="{escape(urljoin(site_base, 'app.js'))}"></script></body></html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#f3eee4"><meta name="description" content="{escape(description)}"><meta property="og:type" content="website"><meta property="og:locale" content="zh_CN"><meta property="og:site_name" content="拉丁美洲文学地图"><meta property="og:title" content="{escape(title)}"><meta property="og:description" content="{escape(description)}"><meta property="og:url" content="{escape(canonical)}"><meta name="twitter:card" content="summary"><link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%2396342b'/%3E%3Cpath d='M18 16h8v25h20v7H18z' fill='%23fffdf8'/%3E%3C/svg%3E"><link rel="canonical" href="{escape(canonical)}"><title>{escape(title)}｜拉丁美洲文学地图</title><link rel="stylesheet" href="{escape(urljoin(site_base, 'styles.css'))}"></head><body {' '.join(attrs)}>{banner}<div class="site-frame"><header class="site-header"><a class="wordmark" href="{escape(site_base)}"><span class="wordmark-mark">LATAM</span><span class="wordmark-name">拉丁美洲文学地图</span></a><nav id="main-nav" class="main-nav" aria-label="主要导航"><a href="{escape(site_base)}">地图</a><a href="{escape(urljoin(site_base, 'search/'))}">搜索</a><a href="{escape(urljoin(site_base, 'timeline/'))}">时间线</a><a href="{escape(urljoin(site_base, 'about/'))}">关于项目</a></nav><button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav">菜单</button></header><main id="app" tabindex="-1" aria-live="polite"><div class="loading-state"><span class="loading-dot"></span>正在打开文学地图……</div></main><footer class="site-footer"><div><span class="footer-kicker">A literary map of Latin America</span><span>从地点进入文学，从作品继续阅读</span></div><a href="{escape(urljoin(site_base, 'about/'))}">关于这张地图</a></footer></div><script type="module" src="{escape(urljoin(site_base, 'app.js'))}"></script></body></html>
 '''
 
 
@@ -115,13 +117,13 @@ def write_sitemap(output: Path, origin: str, routes: list[str]) -> None:
     (output / "robots.txt").write_text(f"User-agent: *\nAllow: /\nSitemap: {urljoin(base, 'sitemap.xml')}\n", encoding="utf-8")
 
 
-def build(output: Path, data_path: Path, origin: str | None) -> dict[str, object]:
+def build(output: Path, data_path: Path, origin: str | None, development_preview: bool = False) -> dict[str, object]:
     if origin and not origin.startswith("https://"):
         raise ValueError("--origin must be a confirmed HTTPS origin")
     if output.exists():
         shutil.rmtree(output)
     output.mkdir(parents=True, exist_ok=True)
-    for name in ("index.html", *SITE_FILES):
+    for name in SITE_FILES:
         shutil.copy2(ROOT / "site" / name, output / name)
     shutil.copytree(ROOT / "site" / "assets", output / "assets", dirs_exist_ok=True)
     public_data_dir = output / "data/v2/web"
@@ -131,7 +133,11 @@ def build(output: Path, data_path: Path, origin: str | None) -> dict[str, object
     public_manifest = {"site": "拉丁美洲文学地图", "review_queue_exposed": False}
     (public_data_dir / "manifest.json").write_text(json.dumps(public_manifest, ensure_ascii=False, indent=2, sort_keys=True) + "\n", encoding="utf-8")
     canonical_base = origin.rstrip("/") + "/" if origin else "/"
-    site_base = "/"
+    site_base = urlparse(canonical_base).path if origin else "/"
+    if not site_base.endswith("/"):
+        site_base += "/"
+    site = public_data["presentation"]["site"]
+    (output / "index.html").write_text(page_shell("home", None, site["name"], site["description"], canonical_base, site_base, development_preview=development_preview), encoding="utf-8")
     routes = [""]
     static_pages = [("search/", "search", None, "搜索", "搜索作家、作品、地点与文学主题。", None), ("timeline/", "timeline", None, "文学时间线", "沿时期、作家与作品理解拉丁美洲文学。", None), ("about/", "about", None, "关于项目", "了解项目、研究方法、空间区分与来源版权。", None)]
     for path in public_data["presentation"]["reading_paths"]:
@@ -152,11 +158,11 @@ def build(output: Path, data_path: Path, origin: str | None) -> dict[str, object
         target = output / route
         target.mkdir(parents=True, exist_ok=True)
         canonical = urljoin(canonical_base, route)
-        (target / "index.html").write_text(page_shell(kind, target_id, title, description, canonical, site_base, path_slug), encoding="utf-8")
-    (output / "404.html").write_text(page_shell("not-found", None, "页面未找到", "这条文学路径尚未开放。", urljoin(canonical_base, "404.html"), site_base), encoding="utf-8")
+        (target / "index.html").write_text(page_shell(kind, target_id, title, description, canonical, site_base, path_slug, development_preview), encoding="utf-8")
+    (output / "404.html").write_text(page_shell("not-found", None, "页面未找到", "这条文学路径尚未开放。", urljoin(canonical_base, "404.html"), site_base, development_preview=development_preview), encoding="utf-8")
     if origin:
         write_sitemap(output, origin, routes)
-    return {"output": str(output), "files": sum(1 for path in output.rglob("*") if path.is_file()), "routes": len(routes), "review_queue_exposed": False, "sitemap": bool(origin)}
+    return {"output": str(output), "files": sum(1 for path in output.rglob("*") if path.is_file()), "routes": len(routes), "review_queue_exposed": False, "sitemap": bool(origin), "site_base": site_base, "development_preview": development_preview}
 
 
 def main() -> int:
@@ -164,10 +170,11 @@ def main() -> int:
     parser.add_argument("--output", type=Path, required=True)
     parser.add_argument("--data", type=Path, default=DEFAULT_DATA)
     parser.add_argument("--origin", default=None, help="Confirmed HTTPS origin; enables sitemap.xml and robots.txt")
+    parser.add_argument("--development-preview", action="store_true", help="Label every page as a non-release development preview")
     args = parser.parse_args()
     if not args.data.is_file():
         raise FileNotFoundError(args.data)
-    print(json.dumps({"status": "PASS", **build(args.output, args.data, args.origin)}, ensure_ascii=False))
+    print(json.dumps({"status": "PASS", **build(args.output, args.data, args.origin, args.development_preview)}, ensure_ascii=False))
     return 0
 
 

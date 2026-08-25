@@ -85,6 +85,8 @@ class DiscoveryPresentationTests(unittest.TestCase):
             "国家图书馆页面确认该书出版于 1956 年。",
             "Universidad 档案记录了作品的首版年份。",
             "基金会资料支持这一作者关系。",
+            "官方一句话释义仅覆盖其中两部作品。",
+            "一部诗集如何被官方书目与获奖理由定义？",
         )
         for sentence in forbidden:
             with self.subTest(sentence=sentence):

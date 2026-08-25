@@ -531,10 +531,15 @@ test("keyboard focus and links stay inside the public scope", async ({ page }) =
   expect(overlaps, "map labels overlap materially").toEqual([]);
 });
 
-test("every sitemap route renders public reader text without governance language", async ({ page, request }) => {
+test("every sitemap route renders public reader text without governance language", async ({ page, request, baseURL }) => {
   test.setTimeout(120_000);
   const sitemap = await (await request.get("sitemap.xml")).text();
-  const routes = [...sitemap.matchAll(/<loc>(.*?)<\/loc>/g)].map((match) => new URL(match[1]).pathname.replace(/^\/+/, ""));
+  const siteBasePath = new URL(baseURL).pathname;
+  const routes = [...sitemap.matchAll(/<loc>(.*?)<\/loc>/g)].map((match) => {
+    const path = new URL(match[1]).pathname;
+    expect(path.startsWith(siteBasePath), path).toBe(true);
+    return path.slice(siteBasePath.length);
+  });
   expect(routes.length).toBeGreaterThan(40);
   for (const route of routes) {
     const response = await page.goto(route);

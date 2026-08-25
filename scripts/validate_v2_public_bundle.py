@@ -55,7 +55,16 @@ def main() -> int:
         if not canonical or not og_url or canonical.group(1) != og_url.group(1) or not urlparse(canonical.group(1)).scheme:
             raise ValueError(f"invalid canonical/og:url: {route}")
     sitemap = ET.parse(args.root / "sitemap.xml")
-    sitemap_urls = {urlparse(node.text or "").path.lstrip("/") for node in sitemap.findall("{http://www.sitemaps.org/schemas/sitemap/0.9}url/{http://www.sitemaps.org/schemas/sitemap/0.9}loc")}
+    sitemap_nodes = sitemap.findall("{http://www.sitemaps.org/schemas/sitemap/0.9}url/{http://www.sitemaps.org/schemas/sitemap/0.9}loc")
+    sitemap_paths = [urlparse(node.text or "").path for node in sitemap_nodes]
+    if not sitemap_paths:
+        raise ValueError("sitemap has no URLs")
+    site_base = sitemap_paths[0]
+    if not site_base.endswith("/"):
+        raise ValueError("sitemap root URL must end with a slash")
+    if any(not path.startswith(site_base) for path in sitemap_paths):
+        raise ValueError("sitemap URLs do not share the deployment base path")
+    sitemap_urls = {path[len(site_base):] for path in sitemap_paths}
     if not set(routes.values()).issubset(sitemap_urls):
         raise ValueError("sitemap omits public entity routes")
     result = {"status": "PASS", "public_entities": len(routes), "sitemap_urls": len(sitemap_urls), "forbidden_keys": leaked}

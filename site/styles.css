@@ -39,6 +39,18 @@ button, input { font: inherit; }
 
 button { color: inherit; }
 
+.review-banner {
+  position: sticky;
+  top: 0;
+  z-index: 9999;
+  padding: 10px 16px;
+  background: var(--coral-deep);
+  color: var(--white);
+  text-align: center;
+  font-size: 13px;
+  font-weight: 700;
+}
+
 button:focus-visible, a:focus-visible, input:focus-visible, summary:focus-visible {
   outline: 3px solid var(--coral);
   outline-offset: 3px;

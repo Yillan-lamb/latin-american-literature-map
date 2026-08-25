@@ -8,6 +8,7 @@
 - [`data/`](./data)：数据模型、策展结构、Schema 与数据维护；
 - [`web/`](./web)：Research Data → Web Data → Frontend 流程和技术架构；
 - [`releases/`](./releases)：正式数据版本和 Web 候选阶段说明。
+- [`LICENSES.md`](./LICENSES.md)：多许可证体系、署名方式与第三方材料边界。
 
 与具体数据包绑定的 README、Manifest 和数据字典继续与数据共置于 [`data/`](../data)；前端运行说明继续位于 [`site/README.md`](../site/README.md)。
 

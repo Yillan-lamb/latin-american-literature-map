@@ -2,6 +2,7 @@
   "name": "latin-american-literature-map-qa",
   "private": true,
   "version": "0.2.0",
+  "license": "MIT",
   "scripts": {
     "qa:browser": "playwright test",
     "qa:browser:chromium": "playwright test --project=chromium-desktop --project=chromium-mobile",

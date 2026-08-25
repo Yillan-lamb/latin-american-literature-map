@@ -2,6 +2,15 @@
 
 本文件记录拉丁美洲文学地图各版本的实际修改。格式参考 Keep a Changelog，版本号遵循语义化版本规则。
 
+## [Repository Multi-License Framework] - 2026-08-25
+
+### Licensing
+
+- 建立仓库分层授权：项目原创软件代码采用 MIT License；项目原创研究数据、文档与策展内容采用 CC BY 4.0。
+- 新增仓库级多许可证说明、MIT 与 CC BY 4.0 标准全文及中文许可证边界说明。
+- 明确第三方图片、引文、封面、论文、网页、数据库、地图、字体、图标及其他外部材料不因收录于仓库而被重新授权。
+- `package.json` 的 `license: MIT` 仅描述私有 QA 软件包代码，不代表整个仓库采用单一 MIT License。
+
 ## [Repository Information Architecture Refactor] - 2026-08-25
 
 ### Documentation

@@ -8,7 +8,7 @@
 详细任务卡：`work/external-ai/V1-S1-003_正式来源ID回填/README.md`
 映射表：`work/external-ai/V1-S1-003_正式来源ID回填/SOURCE_ID_MAP.csv`
 
-请先完整阅读 `PROJECT_CHARTER.md`、详细任务卡、`docs/阶段0_研究与数据规范.md` 和 `docs/外部AI任务分工与交接手册.md`，再开始工作。`PROJECT_CHARTER.md` 是用户锁定的最高总章程，未经用户明确授权不得修改、移动、重命名或删除。
+请先完整阅读 `project/governance/PROJECT_CHARTER.md`、详细任务卡、`project/archive/阶段0_研究与数据规范.md` 和 `project/ai/外部AI任务分工与交接手册.md`，再开始工作。`project/governance/PROJECT_CHARTER.md` 是用户锁定的最高总章程，未经用户明确授权不得修改、移动、重命名或删除。
 
 本任务只是机械 ID 回填，不是 OCR 返修，也不是文学研究。必须新建：
 

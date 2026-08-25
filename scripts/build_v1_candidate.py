@@ -503,7 +503,7 @@ def main() -> None:
     n3_decisions[0]["codex_recommendation"] = (
         "建议 B：由用户明确批准把 V1 最低门槛从 ≥150 调整为 ≥75 条经审核关系，"
         "150 作为 V1.1 扩展目标；不以 hold、legacy 或 pending 补数。"
-        "用户批准前不修改 PROJECT_CHARTER.md（草案，非用户结论）"
+        "用户批准前不修改 project/governance/PROJECT_CHARTER.md（草案，非用户结论）"
     )
     for row, choice in zip(n3_decisions, ["B", "A", "A", "A"]):
         row["user_decision_required"] = "no"
@@ -787,7 +787,7 @@ def write_docs(tables: dict[str, list[dict[str, str]]], metadata: dict) -> None:
         "- V1 最低关系门槛调整为 75；150 转为 V1.1 扩展目标。",
         "- Schema 升级为 0.3，新增 BASED_ON_EVENT，生成 V1-REL-0076。",
         "- author→event 不建模；政治诗歌维持 3/1/1 分层。",
-        "- 本文件记录 N3 决策；V1.0.0 正式发布见 docs/V1_正式发布说明.md。",
+        "- 本文件记录 N3 决策；V1.0.0 正式发布见 docs/releases/V1_正式发布说明.md。",
     ])
     (OUT / "N3_审核包.md").write_text("\n".join(n3), encoding="utf-8")
 

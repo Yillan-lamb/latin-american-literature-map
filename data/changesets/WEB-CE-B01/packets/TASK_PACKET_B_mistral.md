@@ -28,7 +28,7 @@
 
 ## 禁止
 
-写 `V1_MASTER.sqlite`；分配 `V1-ENT/V1-FCT/V1-REL/SRC-` 正式 ID（只用 CAND-B-* 临时 ID）；批准自己的输出；修改 `PROJECT_CHARTER.md`/`TASKS.md`/`V2_TASKS.md`/`CHANGELOG.md`；git 操作；改 `site/`；研究 packet 外对象。
+写 `V1_MASTER.sqlite`；分配 `V1-ENT/V1-FCT/V1-REL/SRC-` 正式 ID（只用 CAND-B-* 临时 ID）；批准自己的输出；修改 `project/governance/PROJECT_CHARTER.md`/`project/tasks/TASKS.md`/`project/tasks/V2_TASKS.md`/`CHANGELOG.md`；git 操作；改 `site/`；研究 packet 外对象。
 
 ## 规则与 Schema（摘要，权威原文见 PREFLIGHT.md）
 

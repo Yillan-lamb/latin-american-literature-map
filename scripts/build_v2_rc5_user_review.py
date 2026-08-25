@@ -10,7 +10,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 CONTENT = ROOT / "data/v2/curation/PUBLIC_CONTENT.json"
 PRESENTATION = ROOT / "data/v2/presentation/PUBLIC_PRESENTATION.json"
-OUTPUT = ROOT / "docs/V2_RC5_CURATION_USER_REVIEW.md"
+OUTPUT = ROOT / "project/audits/web/V2_RC5_CURATION_USER_REVIEW.md"
 
 PENDING_PATH_QUESTIONS = {
     "PATH-001": "USER 文件要求路径具有最终问题，但未给出该句具体文本",

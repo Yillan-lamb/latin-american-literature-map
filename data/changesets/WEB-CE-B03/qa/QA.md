@@ -33,7 +33,7 @@
 - node --check site/app.js: PASS.
 - node --check tests/browser/public-product.spec.cjs: PASS.
 - git diff --check on B03 scoped paths: PASS.
-- No PROJECT_CHARTER.md change, secret, production deployment, release tag, or local absolute path entered the batch files.
+- No project/governance/PROJECT_CHARTER.md change, secret, production deployment, release tag, or local absolute path entered the batch files.
 
 ## QA coverage adjustment
 

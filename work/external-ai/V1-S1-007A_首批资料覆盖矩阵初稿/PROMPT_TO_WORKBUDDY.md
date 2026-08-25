@@ -12,6 +12,6 @@
 
 必须交付：README.md、STATUS.md、QA_REPORT.md、ISSUES.md、HANDOFF.md、MANIFEST.md、COVERAGE_MATRIX.csv、COVERAGE_SUMMARY.md、GAP_REGISTER.csv。
 
-严格遵守任务卡中的固定字段、计数、验证标准和禁止事项。不要修改任何输入任务包、PROJECT_CHARTER.md、TASKS.md、决策记录、CHANGELOG、主数据或 GitHub。不要复制原始书籍、PDF、EPUB、OCR 正文或 `inputs/`。
+严格遵守任务卡中的固定字段、计数、验证标准和禁止事项。不要修改任何输入任务包、project/governance/PROJECT_CHARTER.md、project/tasks/TASKS.md、决策记录、CHANGELOG、主数据或 GitHub。不要复制原始书籍、PDF、EPUB、OCR 正文或 `inputs/`。
 完成后在聊天中只回复：最终状态、交付目录路径、HANDOFF.md 的三行摘要。
 ```

@@ -38,7 +38,7 @@ R1 已修复非法枚举、五条书目/机构错误、访问桶和主要汇总�
 
 - 不新增第 22 条候选，不扩大到其他作家或作品。
 - 不购买、预约、登录机构资源，不绕过付费墙、DRM 或访问控制。
-- 不修改 `PROJECT_CHARTER.md`、`TASKS.md`、来源注册表、既有任务包、决策记录、CHANGELOG 或 GitHub。
+- 不修改 `project/governance/PROJECT_CHARTER.md`、`project/tasks/TASKS.md`、来源注册表、既有任务包、决策记录、CHANGELOG 或 GitHub。
 
 ## R2 重新验证
 

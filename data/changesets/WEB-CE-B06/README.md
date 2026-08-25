@@ -10,7 +10,7 @@
 - Geo：复用秘鲁与古巴国家节点，新增尼加拉瓜国家节点；不把出生地自动当作作品场景，不创建虚构坐标。
 - 特殊缺口：`Los heraldos negros` 的机构页面同时出现 1918 编目与 1919 实际印行说明，写入 medium/conflict 事实并建立 `V1-GAP-0015`，不静默选择。
 - Review：fresh-context Reviewer 结论及返修记录见 `review/REVIEW.md`。
-- Git：本批单独 migration、QA 和 commit；不修改 `PROJECT_CHARTER.md`，不执行发布、部署或 tag。
+- Git：本批单独 migration、QA 和 commit；不修改 `project/governance/PROJECT_CHARTER.md`，不执行发布、部署或 tag。
 
 文件：
 

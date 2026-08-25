@@ -14,7 +14,7 @@ work/external-ai/V1-S2-001-002A_试点来源候选清单/README.md
 交付到新目录：
 work/external-ai/deliveries/V1-S2-001-002A_试点来源候选清单_交付/
 
-不得修改 PROJECT_CHARTER.md、TASKS.md、SOURCE_REGISTRY、既有任务包、决策记录、CHANGELOG 或 GitHub。不得下载或放入 PDF、EPUB、书籍全文、OCR、inputs、Cookie、账号或密钥。
+不得修改 project/governance/PROJECT_CHARTER.md、project/tasks/TASKS.md、SOURCE_REGISTRY、既有任务包、决策记录、CHANGELOG 或 GitHub。不得下载或放入 PDF、EPUB、书籍全文、OCR、inputs、Cookie、账号或密钥。
 
 完成后在聊天中只回复：最终状态、交付目录、候选数量（按作家/语言/等级）、无法访问或存在冲突的项目数、HANDOFF.md 三行摘要。
 ```

@@ -25,4 +25,4 @@
 
 ## Batch Gate
 
-`BATCH_PASS`。允许生成 `SOL_AUDIT_HANDOFF_B06-B10.md`，不得启动 B11。
+`BATCH_PASS`。允许生成 `project/audits/web/SOL_AUDIT_HANDOFF_B06-B10.md`，不得启动 B11。

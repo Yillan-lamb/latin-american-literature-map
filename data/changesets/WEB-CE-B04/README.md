@@ -7,7 +7,7 @@
 - 中文展示名：保留原文题名，中文名仅作读者展示候选；译本元数据不是本批 Research 门槛。
 - 研究边界：只写入已打开的国家图书馆、大学/研究机构、Cervantes 或作者基金会页面直接支持的原子事实。
 - Geo：新增巴拉圭国家节点及作者—国家关联；不把未有场景证据的地点写成作品坐标。
-- Git 边界：本批独立 migration、Review、QA 和 commit；不修改 `PROJECT_CHARTER.md`，不执行发布、部署或 tag。
+- Git 边界：本批独立 migration、Review、QA 和 commit；不修改 `project/governance/PROJECT_CHARTER.md`，不执行发布、部署或 tag。
 
 文件：
 

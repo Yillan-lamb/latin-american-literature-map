@@ -2,7 +2,7 @@
 
 - Reviewer：`CODEX-REVIEW`（fresh context；未采用 PR #7 的 verdict、migration 或 public copy）
 - 审核日期：2026-08-19
-- 审核范围：`candidates/fuentes/` 下四个 CSV 与 `HANDOFF.md`；准入依据为 `PROJECT_CHARTER.md` 1.6.0 与《数据新增与版本维护操作手册》1.1
+- 审核范围：`candidates/fuentes/` 下四个 CSV 与 `HANDOFF.md`；准入依据为 `project/governance/PROJECT_CHARTER.md` 1.6.0 与《数据新增与版本维护操作手册》1.1
 - 判定口径：逐一重新打开候选 URL；核对来源身份、对象层级、证据直接性、中文释义边界、关系来源要求、中文书目状态和批次规模。无法核验即 fail-closed。
 - 初审 verdict：**REVISE（部分可准入）**。来源、事实和关系主体证据链总体成立，但初审识别出的 1 条来源元数据、2 条释义型事实及 2 条中文书目审计记录须返修后复审。返修复审及整包最终 verdict 见第 9 节。
 

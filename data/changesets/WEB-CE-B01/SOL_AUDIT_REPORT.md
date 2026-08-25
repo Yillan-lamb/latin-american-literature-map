@@ -7,7 +7,7 @@
 
 ## Scope
 
-The task request described a five-Batch audit, but the worktree and repository contain only one complete Batch boundary: `WEB-CE-B01`. `V2_TASKS.md` also records `NEXT_BATCH_NOT_STARTED=true`. No B02–B05 handoffs or migrations exist. This report therefore audits the actual accumulated B01 delta and records the mismatch as `SCOPE_DRIFT`; it does not represent absent Batches as completed.
+The task request described a five-Batch audit, but the worktree and repository contain only one complete Batch boundary: `WEB-CE-B01`. `project/tasks/V2_TASKS.md` also records `NEXT_BATCH_NOT_STARTED=true`. No B02–B05 handoffs or migrations exist. This report therefore audits the actual accumulated B01 delta and records the mismatch as `SCOPE_DRIFT`; it does not represent absent Batches as completed.
 
 The original Hy3 branch was based before the independently reviewed Fuentes R1 work now on `main`. Directly committing that branch would have replaced accepted mainline data. Integration was therefore reconstructed against the current main baseline, preserving the accepted Fuentes R1 records and applying the valid B01 remainder through a new append-only migration.
 

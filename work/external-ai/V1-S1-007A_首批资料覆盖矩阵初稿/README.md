@@ -15,9 +15,9 @@
 
 ## 必读文件
 
-1. 仓库根目录 `PROJECT_CHARTER.md`；
-2. `docs/阶段0_研究与数据规范.md`；
-3. `docs/外部AI任务分工与交接手册.md`；
+1. 仓库根目录 `project/governance/PROJECT_CHARTER.md`；
+2. `project/archive/阶段0_研究与数据规范.md`；
+3. `project/ai/外部AI任务分工与交接手册.md`；
 4. 本任务卡 `README.md`；
 5. `data/catalog/SOURCE_REGISTRY.csv`；
 6. `work/external-ai/deliveries/V1-S1-003_正式来源ID回填_交付/SOURCE_MANIFEST.csv`、`SOURCE_RECORD.md`、`ENTITY_CANDIDATES.csv`、`RELATION_CANDIDATES.csv`。
@@ -78,12 +78,12 @@ gap_id,gap_dimension,statement,classification,affected_source_ids,basis,priority
 3. 抽样 6 行的 `title`、`format`、`publication_year`、`source_level` 与 `SOURCE_REGISTRY.csv` 一致；
 4. 抽样每个来源的一项 `known_scope_from_record` 或 `known_limitations` 可回指 `SOURCE_RECORD.md` 的章节或字段；
 5. 全文检查交付目录不含 PDF、EPUB、`inputs/`、`.DS_Store`、`OCR.md` 或书籍全文；
-6. 确认没有修改输入任务包、`TASKS.md`、主数据、决策记录、CHANGELOG 或 GitHub。
+6. 确认没有修改输入任务包、`project/tasks/TASKS.md`、主数据、决策记录、CHANGELOG 或 GitHub。
 
 ## 禁止事项
 
 - 不做网络检索、不添加网络来源、不评价文学史实。
-- 不修改、移动或重命名 `PROJECT_CHARTER.md`；不更改任何原始输入或既有交付。
+- 不修改、移动或重命名 `project/governance/PROJECT_CHARTER.md`；不更改任何原始输入或既有交付。
 - 不将候选写入 `data/staging` 或主数据库；不分配新的 `SRC-`、实体或关系 ID。
 - 不执行 Git 提交或 GitHub 上传。
 

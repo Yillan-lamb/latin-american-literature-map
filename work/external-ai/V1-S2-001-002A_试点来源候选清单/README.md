@@ -16,10 +16,10 @@
 
 ## 必读文件
 
-1. `PROJECT_CHARTER.md`；
-2. `docs/阶段0_研究与数据规范.md`；
-3. `docs/外部AI任务分工与交接手册.md` 的 G 类任务规范；
-4. `docs/阶段1_首批资料汇总与缺口报告.md`；
+1. `project/governance/PROJECT_CHARTER.md`；
+2. `project/archive/阶段0_研究与数据规范.md`；
+3. `project/ai/外部AI任务分工与交接手册.md` 的 G 类任务规范；
+4. `project/audits/research/阶段1_首批资料汇总与缺口报告.md`；
 5. `data/catalog/SOURCE_REGISTRY.csv`；
 6. 本任务卡。
 
@@ -86,7 +86,7 @@ candidate_id,target_author,access_bucket,required_user_action,recommended_priori
 5. 来源等级建议与阶段 0 A/B/C/D 定义一致；
 6. `ACCESS_PLAN.csv` 中每个 candidate_id 都存在于候选表，且不得出现未登记 ID；
 7. 目录不得含 PDF、EPUB、下载全文、OCR、`inputs/`、Cookie、账号、密钥或 `.DS_Store`；
-8. 确认没有修改 `PROJECT_CHARTER.md`、`TASKS.md`、来源登记表、既有任务包、决策记录、CHANGELOG 或 GitHub。
+8. 确认没有修改 `project/governance/PROJECT_CHARTER.md`、`project/tasks/TASKS.md`、来源登记表、既有任务包、决策记录、CHANGELOG 或 GitHub。
 
 ## 禁止事项
 

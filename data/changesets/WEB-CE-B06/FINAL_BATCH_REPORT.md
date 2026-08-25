@@ -55,4 +55,4 @@
 
 **Batch status：`BATCH_PASS`。**
 
-Git commit SHA 由本批独立提交后写入 `SOL_AUDIT_HANDOFF_B06-B10.md`。
+Git commit SHA 由本批独立提交后写入 `project/audits/web/SOL_AUDIT_HANDOFF_B06-B10.md`。

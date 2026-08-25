@@ -11,12 +11,12 @@
 
 ## 输入
 
-1. 项目根目录 `PROJECT_CHARTER.md`；
+1. 项目根目录 `project/governance/PROJECT_CHARTER.md`；
 2. 项目根目录 `N1-OCR-001_首批资料清单建档与L1OCR/`；
 3. 项目根目录 `data/catalog/SOURCE_REGISTRY.csv`；
 4. 本目录 `SOURCE_ID_MAP.csv`；
-5. `docs/阶段0_研究与数据规范.md`；
-6. `docs/外部AI任务分工与交接手册.md`；
+5. `project/archive/阶段0_研究与数据规范.md`；
+6. `project/ai/外部AI任务分工与交接手册.md`；
 7. `templates/external-ai/`。
 
 ## 目标
@@ -56,14 +56,14 @@
 
 ## 禁止修改
 
-- 不修改、移动、重命名或删除 `PROJECT_CHARTER.md`；
+- 不修改、移动、重命名或删除 `project/governance/PROJECT_CHARTER.md`；
 - 不修改、删除或补写 OCR 正文；
 - 不改变 112 个页码锚点；
 - 不改变 387 个实体候选或 117 条关系候选的内容、数量和候选 ID；
 - 不改变 locator、证据、置信度、关系类型或争议状态；
 - 不分配正式实体 ID；
 - 不把任何候选写入 `data/staging`；
-- 不修改原 R2 任务包、`TASKS.md`、决策记录、主数据库或 GitHub；
+- 不修改原 R2 任务包、`project/tasks/TASKS.md`、决策记录、主数据库或 GitHub；
 - 不复制或公开上传原始 PDF、EPUB、`inputs/`、完整提取件或整书 OCR。
 
 ## 必须验证

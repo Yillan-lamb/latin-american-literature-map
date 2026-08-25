@@ -16,11 +16,11 @@
 
 ## 2. 必读输入
 
-1. `PROJECT_CHARTER.md`
-2. `TASKS.md`（只读）
-3. `docs/阶段0_研究与数据规范.md`
-4. `docs/外部AI执行工作流与自检手册.md`
-5. `docs/阶段2_试行Schema与迁移规则.md`
+1. `project/governance/PROJECT_CHARTER.md`
+2. `project/tasks/TASKS.md`（只读）
+3. `project/archive/阶段0_研究与数据规范.md`
+4. `project/ai/外部AI执行工作流与自检手册.md`
+5. `docs/data/阶段2_试行Schema与迁移规则.md`
 6. `data/catalog/SOURCE_REGISTRY.csv`
 7. `work/external-ai/reviews/V1-S2-003-004-B_PM_REVIEW.md`
 8. `work/external-ai/deliveries/V1-S2-003-004B_试点来源整理与候选抽取_交付/SOURCE_NOTES.md`

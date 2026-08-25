@@ -10,7 +10,7 @@
 - Preflight baseline: B04 commit `d3c7ea6`
 - Formal migration: `data/master/migrations/0008_web_ce_b05_luna_max.sql`
 - Reviewer: `LUNA-MAX-B05-REVIEW`; initial verdict `REVISE`, focused follow-up verdict `PASS`
-- No `PROJECT_CHARTER.md` change; no release/deploy/tag.
+- No `project/governance/PROJECT_CHARTER.md` change; no release/deploy/tag.
 
 ## Actual data delta
 

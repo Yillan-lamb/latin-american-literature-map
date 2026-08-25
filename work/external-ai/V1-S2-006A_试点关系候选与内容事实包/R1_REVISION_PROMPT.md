@@ -4,7 +4,7 @@
 
 - 原交付目录：`work/external-ai/deliveries/V1-S2-006A_试点关系候选与内容事实包_交付/`
 - 唯一返修依据：`work/external-ai/reviews/V1-S2-006-A_PM_REVIEW.md`
-- 仍适用的 Schema：`docs/阶段2_试行Schema与迁移规则.md`
+- 仍适用的 Schema：`docs/data/阶段2_试行Schema与迁移规则.md`
 - 返修方式：在原交付目录内更新，保留 R0 问题与修复记录，不新建第二份完整包。
 
 只执行 REVIEW §2 的四组修复：

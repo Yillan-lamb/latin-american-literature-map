@@ -9,4 +9,4 @@
 - 作品层：Arguedas/Pitol 三部小说为 `work`；Arreola 的 `Confabulario`、`Bestiario` 为 `collection`，`La feria` 为 `work`。
 - Geo：复用秘鲁、墨西哥国家节点，新增 3 条作者—国家关系；无新增现实坐标或虚构空间。
 - Review：需由 fresh-context Reviewer 独立复核来源、同名作品去重及层级后才能入库。
-- Git：本批独立 migration、QA 和 commit；不修改 `PROJECT_CHARTER.md`，不执行发布、部署或 tag。
+- Git：本批独立 migration、QA 和 commit；不修改 `project/governance/PROJECT_CHARTER.md`，不执行发布、部署或 tag。

@@ -21,10 +21,10 @@
 
 ## 必读文件
 
-1. `PROJECT_CHARTER.md`；
-2. `docs/阶段0_研究与数据规范.md`；
-3. `docs/外部AI任务分工与交接手册.md`；
-4. `docs/阶段2_试点来源与作品选择.md`；
+1. `project/governance/PROJECT_CHARTER.md`；
+2. `project/archive/阶段0_研究与数据规范.md`；
+3. `project/ai/外部AI任务分工与交接手册.md`；
+4. `project/audits/research/阶段2_试点来源与作品选择.md`；
 5. `work/external-ai/reviews/V1-S2-001-002-A_R2_PM_REVIEW.md`；
 6. 本任务卡。
 

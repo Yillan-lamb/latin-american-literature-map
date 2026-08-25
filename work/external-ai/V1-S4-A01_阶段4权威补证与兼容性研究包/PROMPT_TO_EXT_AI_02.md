@@ -2,7 +2,7 @@
 
 你是“拉丁美洲文学地图”项目的外部研究执行方。请执行 `V1-S4-A01` 阶段 4 权威补证与兼容性研究包。
 
-开工前完整读取：`PROJECT_CHARTER.md`、`TASKS.md`、`docs/阶段0_研究与数据规范.md`、`docs/阶段2_试行Schema与迁移规则.md`、`docs/阶段3_多作家研究汇总与缺口报告.md`、B01—B03 最终 PM REVIEW，以及任务卡 `work/external-ai/V1-S4-A01_阶段4权威补证与兼容性研究包/README.md`。
+开工前完整读取：`project/governance/PROJECT_CHARTER.md`、`project/tasks/TASKS.md`、`project/archive/阶段0_研究与数据规范.md`、`docs/data/阶段2_试行Schema与迁移规则.md`、`project/archive/阶段3_多作家研究汇总与缺口报告.md`、B01—B03 最终 PM REVIEW，以及任务卡 `work/external-ai/V1-S4-A01_阶段4权威补证与兼容性研究包/README.md`。
 
 请一次完成任务卡中的三个工作流：权威基础事实补核、历史事件关系证据与 `BASED_ON_EVENT` 兼容性资料、政治诗歌主题的作品级补证。你的职责是检索、核验、结构化和自检；不得修改冻结 Schema，不得分配正式 ID，不得写入 data/staging，不得修改治理文件或操作 Git。
 

@@ -1,7 +1,7 @@
 # WEB-CE-B02 Reviewer 返修闭环
 
 - 原始 Reviewer 判词：`REVISE`（见同目录 `REVIEW.md`）。
-- 返修执行者：Luna Max Integrator；未改动 `PROJECT_CHARTER.md`，未改动历史 migration。
+- 返修执行者：Luna Max Integrator；未改动 `project/governance/PROJECT_CHARTER.md`，未改动历史 migration。
 - 返修日期：2026-08-20。
 
 ## 已关闭的返修项

@@ -10,7 +10,7 @@
 
 ## 输入
 
-1. `PROJECT_CHARTER.md`；
+1. `project/governance/PROJECT_CHARTER.md`；
 2. `work/external-ai/deliveries/V1-S1-003_正式来源ID回填_交付/`；
 3. 原 R2 任务包 `N1-OCR-001_首批资料清单建档与L1OCR/`；
 4. `data/catalog/SOURCE_REGISTRY.csv`；
@@ -45,4 +45,4 @@
 
 Reviewer 不得直接修改 Worker 交付物。问题必须写明文件、行号/记录 ID、问题、建议和重新验证项。
 
-Reviewer 不得修改、移动、重命名或删除 `PROJECT_CHARTER.md`。
+Reviewer 不得修改、移动、重命名或删除 `project/governance/PROJECT_CHARTER.md`。

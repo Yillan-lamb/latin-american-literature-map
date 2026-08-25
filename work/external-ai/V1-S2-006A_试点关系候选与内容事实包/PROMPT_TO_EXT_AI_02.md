@@ -5,7 +5,7 @@
 - 任务卡：`work/external-ai/V1-S2-006A_试点关系候选与内容事实包/README.md`
 - 主要输入：`work/external-ai/deliveries/V1-S2-003-004B_试点来源整理与候选抽取_交付/`
 - Codex 验收与裁决：`work/external-ai/reviews/V1-S2-003-004-B_PM_REVIEW.md`
-- 试行 Schema：`docs/阶段2_试行Schema与迁移规则.md`
+- 试行 Schema：`docs/data/阶段2_试行Schema与迁移规则.md`
 - 交付目录：`work/external-ai/deliveries/V1-S2-006A_试点关系候选与内容事实包_交付/`
 
 请先完整读取任务卡列出的全部必读文件。不要依赖此前聊天记忆，也不要重做已经通过的 OCR、来源整理或 122 条实体抽取。

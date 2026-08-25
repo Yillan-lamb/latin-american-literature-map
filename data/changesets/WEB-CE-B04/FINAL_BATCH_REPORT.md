@@ -7,7 +7,7 @@
 - 执行模式：Luna Max；基于 `WEB-CE-B03` commit `97fe225` 的最新主库重新 Preflight。
 - fresh-context Reviewer 初审：`REVISE`；Integrator 完成差量整改后 follow-up：`PASS`。
 - 正式迁移：`data/master/migrations/0007_web_ce_b04_luna_max.sql`。
-- 未修改 `PROJECT_CHARTER.md`；未执行 push、PR、release、tag 或部署。
+- 未修改 `project/governance/PROJECT_CHARTER.md`；未执行 push、PR、release、tag 或部署。
 
 ## 实际增量（B03 → B04）
 

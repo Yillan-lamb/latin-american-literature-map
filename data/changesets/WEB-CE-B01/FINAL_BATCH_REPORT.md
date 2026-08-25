@@ -55,6 +55,6 @@
 
 ## 边界确认
 
-- 未修改 PROJECT_CHARTER.md;未创建 tag/GitHub Release/production deployment;未 merge PR;未启动 Batch 02。
+- 未修改 project/governance/PROJECT_CHARTER.md;未创建 tag/GitHub Release/production deployment;未 merge PR;未启动 Batch 02。
 
 **NEXT_BATCH_NOT_STARTED = true**

@@ -7,7 +7,7 @@
 - assignee: `EXT-AI-02（ZCode；交付时登记实际模型及版本）`
 - status: `done / pass`
 - dependency: `V1-N2-001 done`
-- schema: `docs/阶段2_试行Schema与迁移规则.md` 0.2（冻结）
+- schema: `docs/data/阶段2_试行Schema与迁移规则.md` 0.2（冻结）
 - completed_by: `EXT-AI-02（ZCode / deepseek-v4-flash，版本 unknown）`
 - pm_review: `work/external-ai/reviews/V1-S3-B01_PM_REVIEW.md`
 
@@ -41,12 +41,12 @@
 
 ## 3. 必读输入
 
-1. `PROJECT_CHARTER.md`
-2. `TASKS.md`
-3. `docs/阶段0_研究与数据规范.md`
-4. `docs/阶段2_试行Schema与迁移规则.md`（0.2）
-5. `docs/外部AI执行工作流与自检手册.md`
-6. `docs/外部AI任务分工与交接手册.md`
+1. `project/governance/PROJECT_CHARTER.md`
+2. `project/tasks/TASKS.md`
+3. `project/archive/阶段0_研究与数据规范.md`
+4. `docs/data/阶段2_试行Schema与迁移规则.md`（0.2）
+5. `project/ai/外部AI执行工作流与自检手册.md`
+6. `project/ai/外部AI任务分工与交接手册.md`
 7. `data/catalog/SOURCE_REGISTRY.csv`
 8. `data/staging/v1_s2_pilot/ENTITIES.csv`
 9. `data/staging/v1_s2_pilot/RELATIONSHIPS.csv`

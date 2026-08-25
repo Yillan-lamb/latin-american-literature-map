@@ -16,19 +16,19 @@
 
 ## 2. 必读文件
 
-1. `PROJECT_CHARTER.md`；
-2. `docs/阶段0_研究与数据规范.md`；
-3. `docs/外部AI任务分工与交接手册.md`；
-4. `docs/外部AI执行工作流与自检手册.md`；
-5. `docs/阶段2_试点来源与作品选择.md`；
+1. `project/governance/PROJECT_CHARTER.md`；
+2. `project/archive/阶段0_研究与数据规范.md`；
+3. `project/ai/外部AI任务分工与交接手册.md`；
+4. `project/ai/外部AI执行工作流与自检手册.md`；
+5. `project/audits/research/阶段2_试点来源与作品选择.md`；
 6. `data/catalog/SOURCE_REGISTRY.csv`；
 7. `data/catalog/SOURCE_ID_MAP_V1_S2.csv`；
 8. `work/external-ai/reviews/V1-S2-003-A_R1_PM_REVIEW.md`；
 9. `work/external-ai/deliveries/V1-S2-003A_试点材料页段定位_交付/MATERIAL_ACCESS_LOG.csv`；
 10. `work/external-ai/deliveries/V1-S2-003A_试点材料页段定位_交付/WORK_SOURCE_MATRIX.csv`；
 11. `work/external-ai/deliveries/V1-S1-003_正式来源ID回填_交付/ENTITY_CANDIDATES.csv`（仅用于查重）。
-12. `work/external-ai/新外部AI_项目接管与首任务提示词.md`；
-13. `work/external-ai/后续任务安排_新外部AI.md`。
+12. `project/ai/新外部AI_项目接管与首任务提示词.md`；
+13. `project/ai/后续任务安排_新外部AI.md`。
 
 ## 3. 固定来源与作品
 
@@ -95,7 +95,7 @@ task_id,candidate_id,entity_type,canonical_name_candidate,original_name,aliases,
 
 ## 7. 禁止事项
 
-- 不修改 `PROJECT_CHARTER.md`、`TASKS.md`、来源登记表、决策记录、既有交付包、主数据库或 GitHub。
+- 不修改 `project/governance/PROJECT_CHARTER.md`、`project/tasks/TASKS.md`、来源登记表、决策记录、既有交付包、主数据库或 GitHub。
 - 不新增第九个来源，不分配正式实体或关系 ID，不进入 `data/staging`。
 - 不绕过登录、付费墙、验证码、DRM 或访问限制。
 - 不保存、公开或交付用户原件、整篇论文、整篇作品、整书 OCR 或大段原文。

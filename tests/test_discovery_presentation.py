@@ -24,7 +24,7 @@ class DiscoveryPresentationTests(unittest.TestCase):
             MODULE.DEFAULT_CURATION,
             MODULE.DEFAULT_PRESENTATION,
             MODULE.DEFAULT_PUBLIC_CONTENT,
-            "2026-08-22T12:00:00Z",
+            "2026-08-27T12:00:00Z",
         )
         cls.second = MODULE.build_data(
             MODULE.DEFAULT_DB,
@@ -32,7 +32,7 @@ class DiscoveryPresentationTests(unittest.TestCase):
             MODULE.DEFAULT_CURATION,
             MODULE.DEFAULT_PRESENTATION,
             MODULE.DEFAULT_PUBLIC_CONTENT,
-            "2026-08-22T12:00:00Z",
+            "2026-08-27T12:00:00Z",
         )
 
     def test_ranking_is_deterministic_and_covers_public_catalogs(self) -> None:

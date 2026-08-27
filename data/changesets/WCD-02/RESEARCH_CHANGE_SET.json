@@ -1,0 +1,44 @@
+{
+  "task_id": "WCD-02",
+  "baseline": "bf6e7970c622f3dd4e36d2f9ea13ef7a52dd5427",
+  "schema_version": "0.3",
+  "change_sets": [
+    {
+      "change_set_id": "WCD02-CS01",
+      "title": "Core Literary Cities",
+      "entities": [
+        {"entity_id":"V1-ENT-0370","entity_type":"place","name_zh":"布宜诺斯艾利斯","original_name":"Buenos Aires","basis_refs":["V1-FCT-0440","V1-FCT-0752","V1-FCT-0243"]},
+        {"entity_id":"V1-ENT-0371","entity_type":"place","name_zh":"蒙得维的亚","original_name":"Montevideo","basis_refs":["V1-FCT-0399","V1-FCT-0691"]},
+        {"entity_id":"V1-ENT-0372","entity_type":"place","name_zh":"哈瓦那","original_name":"La Habana","basis_refs":["V1-FCT-0534"]}
+      ],
+      "relationships": [
+        {"relationship_id":"V1-REL-0296","subject_id":"V1-ENT-0171","relation_type":"ASSOCIATED_WITH_PLACE","object_id":"V1-ENT-0125","description_zh":"伊莎贝尔·阿连德与出生地利马关联","confidence":"high","source_ids":["SRC-0134"],"fact_refs":["V1-FCT-0371"]},
+        {"relationship_id":"V1-REL-0297","subject_id":"V1-ENT-0261","relation_type":"ASSOCIATED_WITH_PLACE","object_id":"V1-ENT-0056","description_zh":"何塞·埃米利奥·帕切科与出生地墨西哥城关联","confidence":"high","source_ids":["SRC-0209"],"fact_refs":["V1-FCT-0664"]},
+        {"relationship_id":"V1-REL-0298","subject_id":"V1-ENT-0262","relation_type":"ASSOCIATED_WITH_PLACE","object_id":"V1-ENT-0128","description_zh":"罗贝托·波拉尼奥与出生地圣地亚哥关联","confidence":"high","source_ids":["SRC-0211"],"fact_refs":["V1-FCT-0678"]},
+        {"relationship_id":"V1-REL-0299","subject_id":"V1-ENT-0211","relation_type":"ASSOCIATED_WITH_PLACE","object_id":"V1-ENT-0022","description_zh":"马查多·德·阿西斯与出生地里约热内卢关联","confidence":"medium","source_ids":["SRC-0165"],"fact_refs":["V1-FCT-0482"]},
+        {"relationship_id":"V1-REL-0300","subject_id":"V1-ENT-0198","relation_type":"ASSOCIATED_WITH_PLACE","object_id":"V1-ENT-0370","description_zh":"阿道夫·比奥伊·卡萨雷斯与出生地布宜诺斯艾利斯关联","confidence":"high","source_ids":["SRC-0153"],"fact_refs":["V1-FCT-0440"]},
+        {"relationship_id":"V1-REL-0301","subject_id":"V1-ENT-0285","relation_type":"ASSOCIATED_WITH_PLACE","object_id":"V1-ENT-0370","description_zh":"西尔维娜·奥坎波与出生地布宜诺斯艾利斯关联","confidence":"high","source_ids":["SRC-0228"],"fact_refs":["V1-FCT-0752"]},
+        {"relationship_id":"V1-REL-0302","subject_id":"V1-ENT-0184","relation_type":"ASSOCIATED_WITH_PLACE","object_id":"V1-ENT-0371","description_zh":"胡安·卡洛斯·奥内蒂与出生地蒙得维的亚关联","confidence":"high","source_ids":["SRC-0141"],"fact_refs":["V1-FCT-0399"]},
+        {"relationship_id":"V1-REL-0303","subject_id":"V1-ENT-0272","relation_type":"ASSOCIATED_WITH_PLACE","object_id":"V1-ENT-0371","description_zh":"爱德华多·加莱亚诺与出生地蒙得维的亚关联","confidence":"high","source_ids":["SRC-0215"],"fact_refs":["V1-FCT-0691"]},
+        {"relationship_id":"V1-REL-0304","subject_id":"V1-ENT-0225","relation_type":"ASSOCIATED_WITH_PLACE","object_id":"V1-ENT-0372","description_zh":"何塞·马蒂与出生地哈瓦那关联","confidence":"medium","source_ids":["SRC-0187"],"fact_refs":["V1-FCT-0534"]},
+        {"relationship_id":"V1-REL-0305","subject_id":"V1-ENT-0078","relation_type":"SET_IN","object_id":"V1-ENT-0370","description_zh":"《跳房子》的故事空间包含布宜诺斯艾利斯","confidence":"high","source_ids":["SRC-0076"],"fact_refs":["V1-FCT-0241","V1-FCT-0243"]}
+      ]
+    },
+    {
+      "change_set_id": "WCD02-CS02",
+      "title": "Work Spatial Deepening",
+      "entities": [
+        {"entity_id":"V1-ENT-0373","entity_type":"place","name_zh":"巴黎","original_name":"Paris","basis_refs":["V1-FCT-0241","V1-FCT-0243"]}
+      ],
+      "relationships": [
+        {"relationship_id":"V1-REL-0306","subject_id":"V1-ENT-0078","relation_type":"SET_IN","object_id":"V1-ENT-0373","description_zh":"《跳房子》的故事空间包含巴黎","confidence":"high","source_ids":["SRC-0076"],"fact_refs":["V1-FCT-0241","V1-FCT-0243"]},
+        {"relationship_id":"V1-REL-0307","subject_id":"V1-ENT-0146","relation_type":"SET_IN","object_id":"V1-ENT-0056","description_zh":"《最明净的地区》的故事空间为墨西哥城","confidence":"high","source_ids":["SRC-0089","SRC-0090"],"fact_refs":["V1-FCT-0267"]},
+        {"relationship_id":"V1-REL-0308","subject_id":"V1-ENT-0081","relation_type":"SET_IN","object_id":"V1-ENT-0096","description_zh":"《光明世纪》的故事空间包含十八世纪末的古巴","confidence":"high","source_ids":["SRC-0086"],"fact_refs":["V1-FCT-0259"]}
+      ]
+    }
+  ],
+  "facts_added": [],
+  "sources_added": [],
+  "holds_changed": [],
+  "gaps_changed": []
+}

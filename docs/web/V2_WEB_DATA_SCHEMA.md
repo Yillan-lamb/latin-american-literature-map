@@ -1,6 +1,6 @@
 # V2 Web Data Schema 与构建流程
 
-> **Current Web 0.2.0 note（2026-08-24）**：本文件的任务起点与末尾 144/238/76 数字是 2026-08-11 初始构建快照，保留作历史记录。当前确定性构建为 367 entities、998 facts、293 relationships、278 sources、255 content cards、33 places 和 78 place relations；正式公开范围为 25 authors、60 works、28 places。当前 Schema 仍为 `v2-web-0.2`，未升级为 0.4。
+> **Current Web 0.3.0 note（2026-08-27）**：本文件的任务起点与末尾 144/238/76 数字是 2026-08-11 初始构建快照，保留作历史记录。当前确定性构建为 371 entities、998 facts、306 relationships、278 sources、255 content cards、38 places 和 91 place relations；正式公开范围仍为 25 authors、60 works、28 places。当前 Schema 仍为 `v2-web-0.2`，产品版本升级不等于 Schema 升级。
 
 ## 1. 任务信息
 
@@ -74,9 +74,9 @@ data/v2/curation/ ─────────────┘
 
 ## 7. 当前构建结果与历史快照
 
-### Current Web 0.2.0 build
+### Current Web 0.3.0 build
 
-当前构建使用 development master、V2 Geo 与 Curation Data，输出 367 个研究实体、255 张内容卡、998 条事实、293 条关系、33 个地图节点、78 条文学地点关系和 278 个来源。公开目录严格覆盖 `public_scope` 中的 25 位作者与 60 部作品；分页数量为 9，顺序由 `web-0.2-popularity-v1` 固定算法生成，分数相同时按 `target_id` 升序。Public bundle 物理剥离 review queue 与策展工作稿，只保留结论式 `reader_content` 和 Research Evidence 所需引用。
+当前构建使用 development master、V2 Geo 与 Curation Data，输出 371 个研究实体、255 张内容卡、998 条事实、306 条关系、38 个地图节点、91 条文学地点关系和 278 个来源。公开目录严格覆盖 `public_scope` 中的 25 位作者与 60 部作品；分页数量为 9，顺序由 `web-0.2-popularity-v1` 固定算法生成，分数相同时按 `target_id` 升序。Public bundle 物理剥离 review queue 与策展工作稿，只保留结论式 `reader_content` 和 Research Evidence 所需引用。
 
 ### Historical initial build snapshot（2026-08-11）
 

@@ -2,6 +2,27 @@
 
 本文件记录拉丁美洲文学地图各版本的实际修改。格式参考 Keep a Changelog，版本号遵循语义化版本规则。
 
+## [Web 0.3.0 — Development] - 2026-08-27
+
+### Research
+
+- 完成 WCD-02 全量文学空间与关系覆盖审计及 P0—P3/DEFER 优先级矩阵；不创建 Batch 18，不扩大 61 位作者 / 168 部作品范围。
+- 经独立 Reviewer `PASS` 后，append-only 追加迁移 `0028`—`0029`：新增 Buenos Aires、Montevideo、Havana、Paris 4 个地点实体，9 条 author→city、4 条 work→place 与 14 条关系证据；复用既有来源，不新增 facts、sources、holds 或 gaps。
+- master 达到 371 entities、998 facts、306 relationships、278 sources、255 content cards；生成 `Data 1.3.0 development candidate` 全量 CSV/JSON/XLSX 导出，V1.0.0 正式 Research Release 保持不变。
+
+### Geo / Curation / Web
+
+- Geo 增至 38 个节点和 91 条地点关系；四个新现实城市使用可回溯坐标，虚构空间继续为 0 个现实坐标。
+- 新增 4 条低判断地点说明和 4 条地图选择；高判断内容、既有 `user_review`、3 条 `SET_IN` hold 及证据不足的解释性关系不升级。
+- `PUBLIC_CONTENT` 确定性重建只回填新正式关系 ID 到既有 `research_refs`，不改正文和审核状态。
+- Web Data 增至 371 entities、306 relationships、38 places、91 place relations；Web Product 升级为 `Web 0.3.0 — Development`，Schema 保持 `v2-web-0.2`。
+- 修复 Buenos Aires、Montevideo、Havana 与邻近国家名在地图总览中的文字重叠；保留城市点、键盘焦点、无障碍名称与详情入口。
+
+### Validation / Boundary
+
+- Research 主库、迁移重放、导出一致性、Geo/Curation/Web Data、content quality、public bundle、单元/浏览器 QA、确定性重建与前端语法验证通过。
+- `V2-PUBLIC-RELEASE` 继续 `PAUSED BY USER`；不创建 tag、GitHub Release 或 production deployment。WCD-03 解锁为 `READY / NOT STARTED`。
+
 ## [Repository Multi-License Framework] - 2026-08-25
 
 ### Licensing

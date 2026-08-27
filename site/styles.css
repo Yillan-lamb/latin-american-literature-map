@@ -137,7 +137,10 @@ button:focus-visible, a:focus-visible, input:focus-visible, summary:focus-visibl
 .map-point[data-place-id="V1-ENT-0057"] text,
 .map-point[data-place-id="V1-ENT-0098"] text,
 .map-point[data-place-id="V1-ENT-0125"] text,
-.map-point[data-place-id="V1-ENT-0128"] text { display: none; }
+.map-point[data-place-id="V1-ENT-0128"] text,
+.map-point[data-place-id="V1-ENT-0370"] text,
+.map-point[data-place-id="V1-ENT-0371"] text,
+.map-point[data-place-id="V1-ENT-0372"] text { display: none; }
 .map-point:hover circle, .map-point:focus circle, .map-point.active circle { fill: var(--coral); stroke: var(--ink); stroke-width: 3; }
 .map-point:focus-visible text, .map-point.active text { fill: var(--coral-deep); text-decoration: underline; }
 .fictional-space-inset { position: absolute; z-index: 2; left: 18px; bottom: 18px; width: min(270px, calc(100% - 36px)); padding: 15px; border: 1px solid rgba(255,255,255,.45); color: var(--white); background: rgba(52,75,118,.94); box-shadow: 5px 6px 0 rgba(32,37,34,.14); }

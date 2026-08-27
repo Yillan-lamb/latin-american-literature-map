@@ -34,9 +34,9 @@
 
 | 内容 | 数量 |
 | --- | ---: |
-| 规范实体 | 367 |
+| 规范实体 | 371 |
 | 研究事实 | 998 |
-| 实体关系 | 293 |
+| 实体关系 | 306 |
 | 来源记录 | 278 |
 | 内容卡 | 255 |
 | 开发预览中的作者 | 61 |
@@ -71,8 +71,8 @@ Map / Timeline / Pages / Search
 项目已完成第一阶段研究数据库建设，目前处于持续扩充与数字展览开发阶段。
 
 - **正式 Research Data Release**：`Data V1.0.0`，保留为已发布的历史基线；
-- **当前 Development Data**：主库已扩展至上表规模，最新全量导出仍属于 development candidate；
-- **当前 Web Development**：`Web 0.2.1 Development`，已完成全局策展审核分层，并具备地图、时间线、搜索、作家/作品/地点页面和专题阅读入口；
+- **当前 Development Data**：`Data 1.3.0 development candidate`，主库已扩展至上表规模；
+- **当前 Web Development**：`Web 0.3.0 Development`，已完成文学空间与地点关系深化，并具备地图、时间线、搜索、作家/作品/地点页面和专题阅读入口；
 - **公开状态**：GitHub Pages 提供开发预览，正式 Public Release 仍暂停，预览不等同于正式研究数据发布。
 
 详细变更见 [CHANGELOG](./CHANGELOG.md) 和 [版本文档](./docs/releases)。

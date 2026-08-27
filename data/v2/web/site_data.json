@@ -1,16 +1,16 @@
 {
   "counts": {
     "content_cards": 255,
-    "curation_entries": 54,
+    "curation_entries": 58,
     "curation_recommendations": 2,
-    "curation_selections": 19,
-    "entities": 367,
+    "curation_selections": 23,
+    "entities": 371,
     "facts": 998,
     "gaps": 24,
-    "place_relations": 78,
-    "places": 33,
+    "place_relations": 91,
+    "places": 38,
     "relation_holds": 51,
-    "relationships": 293,
+    "relationships": 306,
     "sources": 278
   },
   "curation": {
@@ -1371,6 +1371,119 @@
         "status": "auto_approved",
         "target_id": "V1-ENT-0059",
         "target_type": "author"
+      },
+      {
+        "basis_note": "只聚合三条已审核正式关系；不把城市概括为未经研究支持的文学中心。",
+        "content_zh": "布宜诺斯艾利斯连接比奥伊·卡萨雷斯、西尔维娜·奥坎波的出生地记录与《跳房子》的故事空间。",
+        "created_at": "2026-08-27",
+        "curation_id": "WCD02-CUR-001",
+        "display_scope": [
+          "map",
+          "detail"
+        ],
+        "draft_origin": "codex",
+        "field_key": "literary_place_note",
+        "research_refs": [
+          "V1-REL-0300",
+          "V1-REL-0301",
+          "V1-REL-0305"
+        ],
+        "review_note": "WCD-02 关系与来源复核通过",
+        "reviewed_at": "2026-08-27",
+        "reviewer": "CODEX",
+        "schema_version": "v2-curation-0.1",
+        "sort_order": null,
+        "source_refs": [
+          "SRC-0153",
+          "SRC-0228",
+          "SRC-0076"
+        ],
+        "status": "auto_approved",
+        "target_id": "V1-ENT-0370",
+        "target_type": "place"
+      },
+      {
+        "basis_note": "只聚合两条已审核正式关系；不扩写作品或城市文学史判断。",
+        "content_zh": "蒙得维的亚连接奥内蒂与加莱亚诺两条有来源的出生地路径。",
+        "created_at": "2026-08-27",
+        "curation_id": "WCD02-CUR-002",
+        "display_scope": [
+          "map",
+          "detail"
+        ],
+        "draft_origin": "codex",
+        "field_key": "literary_place_note",
+        "research_refs": [
+          "V1-REL-0302",
+          "V1-REL-0303"
+        ],
+        "review_note": "WCD-02 关系与来源复核通过",
+        "reviewed_at": "2026-08-27",
+        "reviewer": "CODEX",
+        "schema_version": "v2-curation-0.1",
+        "sort_order": null,
+        "source_refs": [
+          "SRC-0141",
+          "SRC-0215"
+        ],
+        "status": "auto_approved",
+        "target_id": "V1-ENT-0371",
+        "target_type": "place"
+      },
+      {
+        "basis_note": "明确区分城市级作者关系与国家级作品关系，不把古巴场景精确化为哈瓦那。",
+        "content_zh": "哈瓦那当前由何塞·马蒂的出生地关系进入地图；《光明世纪》的古巴故事空间仍停留在国家层。",
+        "created_at": "2026-08-27",
+        "curation_id": "WCD02-CUR-003",
+        "display_scope": [
+          "map",
+          "detail"
+        ],
+        "draft_origin": "codex",
+        "field_key": "literary_place_note",
+        "research_refs": [
+          "V1-REL-0304",
+          "V1-REL-0308"
+        ],
+        "review_note": "WCD-02 关系与地点粒度复核通过",
+        "reviewed_at": "2026-08-27",
+        "reviewer": "CODEX",
+        "schema_version": "v2-curation-0.1",
+        "sort_order": null,
+        "source_refs": [
+          "SRC-0187",
+          "SRC-0086"
+        ],
+        "status": "auto_approved",
+        "target_id": "V1-ENT-0372",
+        "target_type": "place"
+      },
+      {
+        "basis_note": "机械聚合同一作品的两条正式场景关系；不增加跨作品比较。",
+        "content_zh": "巴黎作为《跳房子》的故事空间，与布宜诺斯艾利斯共同形成小说的双城路径。",
+        "created_at": "2026-08-27",
+        "curation_id": "WCD02-CUR-004",
+        "display_scope": [
+          "map",
+          "detail"
+        ],
+        "draft_origin": "codex",
+        "field_key": "literary_place_note",
+        "research_refs": [
+          "V1-REL-0305",
+          "V1-REL-0306"
+        ],
+        "review_note": "WCD-02 作品场景复核通过",
+        "reviewed_at": "2026-08-27",
+        "reviewer": "CODEX",
+        "schema_version": "v2-curation-0.1",
+        "sort_order": null,
+        "source_refs": [
+          "SRC-0076"
+        ],
+        "status": "auto_approved",
+        "target_id": "V1-ENT-0373",
+        "target_type": "place"
       }
     ],
     "recommendations": [],
@@ -1852,6 +1965,112 @@
         "status": "auto_approved",
         "target_id": "V1-ENT-0097",
         "target_type": "fictional_space"
+      },
+      {
+        "basis_note": "WCD-02 多关系核心城市；坐标来源已核验，可作为阿根廷城市入口",
+        "created_at": "2026-08-27",
+        "curation_id": "WCD02-SEL-001",
+        "display_scope": [
+          "map"
+        ],
+        "draft_origin": "codex",
+        "research_refs": [
+          "V1-REL-0300",
+          "V1-REL-0301",
+          "V1-REL-0305"
+        ],
+        "review_note": "地图状态与来源已核验",
+        "reviewed_at": "2026-08-27",
+        "reviewer": "CODEX",
+        "schema_version": "v2-curation-0.1",
+        "selection_key": "map_status",
+        "selection_value": "featured",
+        "sort_order": 100,
+        "source_refs": [
+          "SRC-0153",
+          "SRC-0228",
+          "SRC-0076"
+        ],
+        "status": "auto_approved",
+        "target_id": "V1-ENT-0370",
+        "target_type": "place"
+      },
+      {
+        "basis_note": "WCD-02 双作者城市节点；坐标来源已核验，可作为乌拉圭城市入口",
+        "created_at": "2026-08-27",
+        "curation_id": "WCD02-SEL-002",
+        "display_scope": [
+          "map"
+        ],
+        "draft_origin": "codex",
+        "research_refs": [
+          "V1-REL-0302",
+          "V1-REL-0303"
+        ],
+        "review_note": "地图状态与来源已核验",
+        "reviewed_at": "2026-08-27",
+        "reviewer": "CODEX",
+        "schema_version": "v2-curation-0.1",
+        "selection_key": "map_status",
+        "selection_value": "featured",
+        "sort_order": 110,
+        "source_refs": [
+          "SRC-0141",
+          "SRC-0215"
+        ],
+        "status": "auto_approved",
+        "target_id": "V1-ENT-0371",
+        "target_type": "place"
+      },
+      {
+        "basis_note": "WCD-02 现实作者地理节点；进入古巴后展示",
+        "created_at": "2026-08-27",
+        "curation_id": "WCD02-SEL-003",
+        "display_scope": [
+          "map"
+        ],
+        "draft_origin": "codex",
+        "research_refs": [
+          "V1-REL-0304"
+        ],
+        "review_note": "地图状态与来源已核验",
+        "reviewed_at": "2026-08-27",
+        "reviewer": "CODEX",
+        "schema_version": "v2-curation-0.1",
+        "selection_key": "map_status",
+        "selection_value": "eligible",
+        "sort_order": 120,
+        "source_refs": [
+          "SRC-0187"
+        ],
+        "status": "auto_approved",
+        "target_id": "V1-ENT-0372",
+        "target_type": "place"
+      },
+      {
+        "basis_note": "WCD-02 跨大西洋故事空间；作为《跳房子》页面延伸地点展示",
+        "created_at": "2026-08-27",
+        "curation_id": "WCD02-SEL-004",
+        "display_scope": [
+          "map"
+        ],
+        "draft_origin": "codex",
+        "research_refs": [
+          "V1-REL-0306"
+        ],
+        "review_note": "地图状态与来源已核验",
+        "reviewed_at": "2026-08-27",
+        "reviewer": "CODEX",
+        "schema_version": "v2-curation-0.1",
+        "selection_key": "map_status",
+        "selection_value": "eligible",
+        "sort_order": 130,
+        "source_refs": [
+          "SRC-0076"
+        ],
+        "status": "auto_approved",
+        "target_id": "V1-ENT-0373",
+        "target_type": "place"
       }
     ]
   },
@@ -2194,6 +2413,21 @@
             "target_name_zh": "里约热内卢",
             "target_place_id": "V1-ENT-0022",
             "v1_relationship_id": "V1-REL-0013"
+          },
+          {
+            "confidence": "medium",
+            "description_zh": "马查多·德·阿西斯与出生地里约热内卢关联",
+            "map_relation_role": "author_geography",
+            "relation_id": "V2-GEO-REL-083",
+            "relation_type": "ASSOCIATED_WITH_PLACE",
+            "review_status": "accepted",
+            "source_entity_id": "V1-ENT-0211",
+            "source_name_zh": "马查多·德·阿西斯",
+            "source_reference": "V1-REL-0299",
+            "space_kind": "real",
+            "target_name_zh": "里约热内卢",
+            "target_place_id": "V1-ENT-0022",
+            "v1_relationship_id": "V1-REL-0299"
           }
         ],
         "longitude": -43.18223,
@@ -2675,6 +2909,36 @@
             "target_name_zh": "墨西哥城",
             "target_place_id": "V1-ENT-0056",
             "v1_relationship_id": "V1-REL-0102"
+          },
+          {
+            "confidence": "high",
+            "description_zh": "何塞·埃米利奥·帕切科与出生地墨西哥城关联",
+            "map_relation_role": "author_geography",
+            "relation_id": "V2-GEO-REL-081",
+            "relation_type": "ASSOCIATED_WITH_PLACE",
+            "review_status": "accepted",
+            "source_entity_id": "V1-ENT-0261",
+            "source_name_zh": "何塞·埃米利奥·帕切科",
+            "source_reference": "V1-REL-0297",
+            "space_kind": "real",
+            "target_name_zh": "墨西哥城",
+            "target_place_id": "V1-ENT-0056",
+            "v1_relationship_id": "V1-REL-0297"
+          },
+          {
+            "confidence": "high",
+            "description_zh": "《最明净的地区》的故事空间为墨西哥城",
+            "map_relation_role": "story_setting",
+            "relation_id": "V2-GEO-REL-091",
+            "relation_type": "SET_IN",
+            "review_status": "accepted",
+            "source_entity_id": "V1-ENT-0146",
+            "source_name_zh": "《最明净的地区》",
+            "source_reference": "V1-REL-0307",
+            "space_kind": "real",
+            "target_name_zh": "墨西哥城",
+            "target_place_id": "V1-ENT-0056",
+            "v1_relationship_id": "V1-REL-0307"
           }
         ],
         "longitude": -99.12766457,
@@ -2888,6 +3152,21 @@
             "target_name_zh": "古巴",
             "target_place_id": "V1-ENT-0096",
             "v1_relationship_id": "V1-REL-0271"
+          },
+          {
+            "confidence": "high",
+            "description_zh": "《光明世纪》的故事空间包含十八世纪末的古巴",
+            "map_relation_role": "story_setting",
+            "relation_id": "V2-GEO-REL-092",
+            "relation_type": "SET_IN",
+            "review_status": "accepted",
+            "source_entity_id": "V1-ENT-0081",
+            "source_name_zh": "《光明世纪》",
+            "source_reference": "V1-REL-0308",
+            "space_kind": "real",
+            "target_name_zh": "古巴",
+            "target_place_id": "V1-ENT-0096",
+            "v1_relationship_id": "V1-REL-0308"
           }
         ],
         "longitude": null,
@@ -3312,6 +3591,21 @@
             "target_name_zh": "利马",
             "target_place_id": "V1-ENT-0125",
             "v1_relationship_id": "V1-REL-0068"
+          },
+          {
+            "confidence": "high",
+            "description_zh": "伊莎贝尔·阿连德与出生地利马关联",
+            "map_relation_role": "author_geography",
+            "relation_id": "V2-GEO-REL-080",
+            "relation_type": "ASSOCIATED_WITH_PLACE",
+            "review_status": "accepted",
+            "source_entity_id": "V1-ENT-0171",
+            "source_name_zh": "伊莎贝尔·阿连德",
+            "source_reference": "V1-REL-0296",
+            "space_kind": "real",
+            "target_name_zh": "利马",
+            "target_place_id": "V1-ENT-0125",
+            "v1_relationship_id": "V1-REL-0296"
           }
         ],
         "longitude": -77.0282364,
@@ -3426,6 +3720,21 @@
             "target_name_zh": "圣地亚哥",
             "target_place_id": "V1-ENT-0128",
             "v1_relationship_id": "V1-REL-0073"
+          },
+          {
+            "confidence": "high",
+            "description_zh": "罗贝托·波拉尼奥与出生地圣地亚哥关联",
+            "map_relation_role": "author_geography",
+            "relation_id": "V2-GEO-REL-082",
+            "relation_type": "ASSOCIATED_WITH_PLACE",
+            "review_status": "accepted",
+            "source_entity_id": "V1-ENT-0262",
+            "source_name_zh": "罗贝托·波拉尼奥",
+            "source_reference": "V1-REL-0298",
+            "space_kind": "real",
+            "target_name_zh": "圣地亚哥",
+            "target_place_id": "V1-ENT-0128",
+            "v1_relationship_id": "V1-REL-0298"
           }
         ],
         "longitude": -70.64826965,
@@ -4019,6 +4328,335 @@
         "place_kind": "country",
         "reality_status": "real",
         "source_kind": "v1_entity"
+      },
+      {
+        "classification_note": "WCD-02 核心文学城市；GeoNames RDF 直接给出城市名称与坐标；承载两位作者出生地关联和《跳房子》故事空间",
+        "classification_source_url": "https://sws.geonames.org/3435910/about.rdf",
+        "classification_status": "confirmed",
+        "coordinate_precision": "city_centroid",
+        "coordinate_retrieved_at": "2026-08-27",
+        "coordinate_source_url": "https://sws.geonames.org/3435910/about.rdf",
+        "country_code": "AR",
+        "curation_selections": [
+          {
+            "basis_note": "WCD-02 多关系核心城市；坐标来源已核验，可作为阿根廷城市入口",
+            "created_at": "2026-08-27",
+            "curation_id": "WCD02-SEL-001",
+            "display_scope": [
+              "map"
+            ],
+            "draft_origin": "codex",
+            "research_refs": [
+              "V1-REL-0300",
+              "V1-REL-0301",
+              "V1-REL-0305"
+            ],
+            "review_note": "地图状态与来源已核验",
+            "reviewed_at": "2026-08-27",
+            "reviewer": "CODEX",
+            "schema_version": "v2-curation-0.1",
+            "selection_key": "map_status",
+            "selection_value": "featured",
+            "sort_order": 100,
+            "source_refs": [
+              "SRC-0153",
+              "SRC-0228",
+              "SRC-0076"
+            ],
+            "status": "auto_approved",
+            "target_id": "V1-ENT-0370",
+            "target_type": "place"
+          }
+        ],
+        "entity_id": "V1-ENT-0370",
+        "latitude": -34.61315,
+        "literary_relations": [
+          {
+            "confidence": "high",
+            "description_zh": "阿道夫·比奥伊·卡萨雷斯与出生地布宜诺斯艾利斯关联",
+            "map_relation_role": "author_geography",
+            "relation_id": "V2-GEO-REL-084",
+            "relation_type": "ASSOCIATED_WITH_PLACE",
+            "review_status": "accepted",
+            "source_entity_id": "V1-ENT-0198",
+            "source_name_zh": "阿道夫·比奥伊·卡萨雷斯",
+            "source_reference": "V1-REL-0300",
+            "space_kind": "real",
+            "target_name_zh": "布宜诺斯艾利斯",
+            "target_place_id": "V1-ENT-0370",
+            "v1_relationship_id": "V1-REL-0300"
+          },
+          {
+            "confidence": "high",
+            "description_zh": "西尔维娜·奥坎波与出生地布宜诺斯艾利斯关联",
+            "map_relation_role": "author_geography",
+            "relation_id": "V2-GEO-REL-085",
+            "relation_type": "ASSOCIATED_WITH_PLACE",
+            "review_status": "accepted",
+            "source_entity_id": "V1-ENT-0285",
+            "source_name_zh": "西尔维娜·奥坎波",
+            "source_reference": "V1-REL-0301",
+            "space_kind": "real",
+            "target_name_zh": "布宜诺斯艾利斯",
+            "target_place_id": "V1-ENT-0370",
+            "v1_relationship_id": "V1-REL-0301"
+          },
+          {
+            "confidence": "high",
+            "description_zh": "《跳房子》的故事空间包含布宜诺斯艾利斯",
+            "map_relation_role": "story_setting",
+            "relation_id": "V2-GEO-REL-089",
+            "relation_type": "SET_IN",
+            "review_status": "accepted",
+            "source_entity_id": "V1-ENT-0078",
+            "source_name_zh": "《跳房子》",
+            "source_reference": "V1-REL-0305",
+            "space_kind": "real",
+            "target_name_zh": "布宜诺斯艾利斯",
+            "target_place_id": "V1-ENT-0370",
+            "v1_relationship_id": "V1-REL-0305"
+          }
+        ],
+        "longitude": -58.37723,
+        "map_status": "featured",
+        "name_zh": "布宜诺斯艾利斯",
+        "original_name": "Buenos Aires",
+        "parent_place_id": "V1-ENT-0001",
+        "place_id": "V1-ENT-0370",
+        "place_kind": "city",
+        "reality_status": "real",
+        "source_kind": "v1_entity"
+      },
+      {
+        "classification_note": "WCD-02 核心文学城市；GeoNames RDF 直接给出城市名称与坐标；承载奥内蒂与加莱亚诺出生地关联",
+        "classification_source_url": "https://sws.geonames.org/3441575/about.rdf",
+        "classification_status": "confirmed",
+        "coordinate_precision": "city_centroid",
+        "coordinate_retrieved_at": "2026-08-27",
+        "coordinate_source_url": "https://sws.geonames.org/3441575/about.rdf",
+        "country_code": "UY",
+        "curation_selections": [
+          {
+            "basis_note": "WCD-02 双作者城市节点；坐标来源已核验，可作为乌拉圭城市入口",
+            "created_at": "2026-08-27",
+            "curation_id": "WCD02-SEL-002",
+            "display_scope": [
+              "map"
+            ],
+            "draft_origin": "codex",
+            "research_refs": [
+              "V1-REL-0302",
+              "V1-REL-0303"
+            ],
+            "review_note": "地图状态与来源已核验",
+            "reviewed_at": "2026-08-27",
+            "reviewer": "CODEX",
+            "schema_version": "v2-curation-0.1",
+            "selection_key": "map_status",
+            "selection_value": "featured",
+            "sort_order": 110,
+            "source_refs": [
+              "SRC-0141",
+              "SRC-0215"
+            ],
+            "status": "auto_approved",
+            "target_id": "V1-ENT-0371",
+            "target_type": "place"
+          }
+        ],
+        "entity_id": "V1-ENT-0371",
+        "latitude": -34.90328,
+        "literary_relations": [
+          {
+            "confidence": "high",
+            "description_zh": "胡安·卡洛斯·奥内蒂与出生地蒙得维的亚关联",
+            "map_relation_role": "author_geography",
+            "relation_id": "V2-GEO-REL-086",
+            "relation_type": "ASSOCIATED_WITH_PLACE",
+            "review_status": "accepted",
+            "source_entity_id": "V1-ENT-0184",
+            "source_name_zh": "胡安·卡洛斯·奥内蒂",
+            "source_reference": "V1-REL-0302",
+            "space_kind": "real",
+            "target_name_zh": "蒙得维的亚",
+            "target_place_id": "V1-ENT-0371",
+            "v1_relationship_id": "V1-REL-0302"
+          },
+          {
+            "confidence": "high",
+            "description_zh": "爱德华多·加莱亚诺与出生地蒙得维的亚关联",
+            "map_relation_role": "author_geography",
+            "relation_id": "V2-GEO-REL-087",
+            "relation_type": "ASSOCIATED_WITH_PLACE",
+            "review_status": "accepted",
+            "source_entity_id": "V1-ENT-0272",
+            "source_name_zh": "爱德华多·加莱亚诺",
+            "source_reference": "V1-REL-0303",
+            "space_kind": "real",
+            "target_name_zh": "蒙得维的亚",
+            "target_place_id": "V1-ENT-0371",
+            "v1_relationship_id": "V1-REL-0303"
+          }
+        ],
+        "longitude": -56.18816,
+        "map_status": "featured",
+        "name_zh": "蒙得维的亚",
+        "original_name": "Montevideo",
+        "parent_place_id": "V1-ENT-0196",
+        "place_id": "V1-ENT-0371",
+        "place_kind": "city",
+        "reality_status": "real",
+        "source_kind": "v1_entity"
+      },
+      {
+        "classification_note": "WCD-02 现实城市节点；GeoNames RDF 同时给出 Havana、La Habana 与坐标；本轮只承载何塞·马蒂出生地关联，不把《光明世纪》的古巴空间精确化为哈瓦那",
+        "classification_source_url": "https://sws.geonames.org/3553478/about.rdf",
+        "classification_status": "confirmed",
+        "coordinate_precision": "city_centroid",
+        "coordinate_retrieved_at": "2026-08-27",
+        "coordinate_source_url": "https://sws.geonames.org/3553478/about.rdf",
+        "country_code": "CU",
+        "curation_selections": [
+          {
+            "basis_note": "WCD-02 现实作者地理节点；进入古巴后展示",
+            "created_at": "2026-08-27",
+            "curation_id": "WCD02-SEL-003",
+            "display_scope": [
+              "map"
+            ],
+            "draft_origin": "codex",
+            "research_refs": [
+              "V1-REL-0304"
+            ],
+            "review_note": "地图状态与来源已核验",
+            "reviewed_at": "2026-08-27",
+            "reviewer": "CODEX",
+            "schema_version": "v2-curation-0.1",
+            "selection_key": "map_status",
+            "selection_value": "eligible",
+            "sort_order": 120,
+            "source_refs": [
+              "SRC-0187"
+            ],
+            "status": "auto_approved",
+            "target_id": "V1-ENT-0372",
+            "target_type": "place"
+          }
+        ],
+        "entity_id": "V1-ENT-0372",
+        "latitude": 23.13302,
+        "literary_relations": [
+          {
+            "confidence": "medium",
+            "description_zh": "何塞·马蒂与出生地哈瓦那关联",
+            "map_relation_role": "author_geography",
+            "relation_id": "V2-GEO-REL-088",
+            "relation_type": "ASSOCIATED_WITH_PLACE",
+            "review_status": "accepted",
+            "source_entity_id": "V1-ENT-0225",
+            "source_name_zh": "何塞·马蒂",
+            "source_reference": "V1-REL-0304",
+            "space_kind": "real",
+            "target_name_zh": "哈瓦那",
+            "target_place_id": "V1-ENT-0372",
+            "v1_relationship_id": "V1-REL-0304"
+          }
+        ],
+        "longitude": -82.38304,
+        "map_status": "eligible",
+        "name_zh": "哈瓦那",
+        "original_name": "La Habana",
+        "parent_place_id": "V1-ENT-0096",
+        "place_id": "V1-ENT-0372",
+        "place_kind": "city",
+        "reality_status": "real",
+        "source_kind": "v1_entity"
+      },
+      {
+        "classification_note": "WCD-02 跨大西洋故事空间；GeoNames RDF 直接给出城市名称与坐标；只承载《跳房子》正式场景关系，不扩张拉美国家范围",
+        "classification_source_url": "https://sws.geonames.org/2988507/about.rdf",
+        "classification_status": "confirmed",
+        "coordinate_precision": "city_centroid",
+        "coordinate_retrieved_at": "2026-08-27",
+        "coordinate_source_url": "https://sws.geonames.org/2988507/about.rdf",
+        "country_code": "FR",
+        "curation_selections": [
+          {
+            "basis_note": "WCD-02 跨大西洋故事空间；作为《跳房子》页面延伸地点展示",
+            "created_at": "2026-08-27",
+            "curation_id": "WCD02-SEL-004",
+            "display_scope": [
+              "map"
+            ],
+            "draft_origin": "codex",
+            "research_refs": [
+              "V1-REL-0306"
+            ],
+            "review_note": "地图状态与来源已核验",
+            "reviewed_at": "2026-08-27",
+            "reviewer": "CODEX",
+            "schema_version": "v2-curation-0.1",
+            "selection_key": "map_status",
+            "selection_value": "eligible",
+            "sort_order": 130,
+            "source_refs": [
+              "SRC-0076"
+            ],
+            "status": "auto_approved",
+            "target_id": "V1-ENT-0373",
+            "target_type": "place"
+          }
+        ],
+        "entity_id": "V1-ENT-0373",
+        "latitude": 48.85341,
+        "literary_relations": [
+          {
+            "confidence": "high",
+            "description_zh": "《跳房子》的故事空间包含巴黎",
+            "map_relation_role": "story_setting",
+            "relation_id": "V2-GEO-REL-090",
+            "relation_type": "SET_IN",
+            "review_status": "accepted",
+            "source_entity_id": "V1-ENT-0078",
+            "source_name_zh": "《跳房子》",
+            "source_reference": "V1-REL-0306",
+            "space_kind": "real",
+            "target_name_zh": "巴黎",
+            "target_place_id": "V1-ENT-0373",
+            "v1_relationship_id": "V1-REL-0306"
+          }
+        ],
+        "longitude": 2.3488,
+        "map_status": "eligible",
+        "name_zh": "巴黎",
+        "original_name": "Paris",
+        "parent_place_id": "V2-GEO-FR",
+        "place_id": "V1-ENT-0373",
+        "place_kind": "city",
+        "reality_status": "real",
+        "source_kind": "v1_entity"
+      },
+      {
+        "classification_note": "仅作为巴黎父级技术节点；不属于 Research 实体，不单独作为文学卡片展示",
+        "classification_source_url": "https://www.geonames.org/countries/FR/france.html",
+        "classification_status": "confirmed",
+        "coordinate_precision": "country_polygon_required",
+        "coordinate_retrieved_at": "2026-08-27",
+        "coordinate_source_url": "https://www.geonames.org/countries/FR/france.html",
+        "country_code": "FR",
+        "curation_selections": [],
+        "entity_id": null,
+        "latitude": null,
+        "literary_relations": [],
+        "longitude": null,
+        "map_status": "hidden",
+        "name_zh": "法国",
+        "original_name": "France",
+        "parent_place_id": null,
+        "place_id": "V2-GEO-FR",
+        "place_kind": "country",
+        "reality_status": "real",
+        "source_kind": "technical_parent_node"
       }
     ],
     "relations": [
@@ -5191,6 +5829,201 @@
         "target_name_zh": "委内瑞拉",
         "target_place_id": "V1-ENT-0357",
         "v1_relationship_id": "V1-REL-0295"
+      },
+      {
+        "confidence": "high",
+        "description_zh": "伊莎贝尔·阿连德与出生地利马关联",
+        "map_relation_role": "author_geography",
+        "relation_id": "V2-GEO-REL-080",
+        "relation_type": "ASSOCIATED_WITH_PLACE",
+        "review_status": "accepted",
+        "source_entity_id": "V1-ENT-0171",
+        "source_name_zh": "伊莎贝尔·阿连德",
+        "source_reference": "V1-REL-0296",
+        "space_kind": "real",
+        "target_name_zh": "利马",
+        "target_place_id": "V1-ENT-0125",
+        "v1_relationship_id": "V1-REL-0296"
+      },
+      {
+        "confidence": "high",
+        "description_zh": "何塞·埃米利奥·帕切科与出生地墨西哥城关联",
+        "map_relation_role": "author_geography",
+        "relation_id": "V2-GEO-REL-081",
+        "relation_type": "ASSOCIATED_WITH_PLACE",
+        "review_status": "accepted",
+        "source_entity_id": "V1-ENT-0261",
+        "source_name_zh": "何塞·埃米利奥·帕切科",
+        "source_reference": "V1-REL-0297",
+        "space_kind": "real",
+        "target_name_zh": "墨西哥城",
+        "target_place_id": "V1-ENT-0056",
+        "v1_relationship_id": "V1-REL-0297"
+      },
+      {
+        "confidence": "high",
+        "description_zh": "罗贝托·波拉尼奥与出生地圣地亚哥关联",
+        "map_relation_role": "author_geography",
+        "relation_id": "V2-GEO-REL-082",
+        "relation_type": "ASSOCIATED_WITH_PLACE",
+        "review_status": "accepted",
+        "source_entity_id": "V1-ENT-0262",
+        "source_name_zh": "罗贝托·波拉尼奥",
+        "source_reference": "V1-REL-0298",
+        "space_kind": "real",
+        "target_name_zh": "圣地亚哥",
+        "target_place_id": "V1-ENT-0128",
+        "v1_relationship_id": "V1-REL-0298"
+      },
+      {
+        "confidence": "medium",
+        "description_zh": "马查多·德·阿西斯与出生地里约热内卢关联",
+        "map_relation_role": "author_geography",
+        "relation_id": "V2-GEO-REL-083",
+        "relation_type": "ASSOCIATED_WITH_PLACE",
+        "review_status": "accepted",
+        "source_entity_id": "V1-ENT-0211",
+        "source_name_zh": "马查多·德·阿西斯",
+        "source_reference": "V1-REL-0299",
+        "space_kind": "real",
+        "target_name_zh": "里约热内卢",
+        "target_place_id": "V1-ENT-0022",
+        "v1_relationship_id": "V1-REL-0299"
+      },
+      {
+        "confidence": "high",
+        "description_zh": "阿道夫·比奥伊·卡萨雷斯与出生地布宜诺斯艾利斯关联",
+        "map_relation_role": "author_geography",
+        "relation_id": "V2-GEO-REL-084",
+        "relation_type": "ASSOCIATED_WITH_PLACE",
+        "review_status": "accepted",
+        "source_entity_id": "V1-ENT-0198",
+        "source_name_zh": "阿道夫·比奥伊·卡萨雷斯",
+        "source_reference": "V1-REL-0300",
+        "space_kind": "real",
+        "target_name_zh": "布宜诺斯艾利斯",
+        "target_place_id": "V1-ENT-0370",
+        "v1_relationship_id": "V1-REL-0300"
+      },
+      {
+        "confidence": "high",
+        "description_zh": "西尔维娜·奥坎波与出生地布宜诺斯艾利斯关联",
+        "map_relation_role": "author_geography",
+        "relation_id": "V2-GEO-REL-085",
+        "relation_type": "ASSOCIATED_WITH_PLACE",
+        "review_status": "accepted",
+        "source_entity_id": "V1-ENT-0285",
+        "source_name_zh": "西尔维娜·奥坎波",
+        "source_reference": "V1-REL-0301",
+        "space_kind": "real",
+        "target_name_zh": "布宜诺斯艾利斯",
+        "target_place_id": "V1-ENT-0370",
+        "v1_relationship_id": "V1-REL-0301"
+      },
+      {
+        "confidence": "high",
+        "description_zh": "胡安·卡洛斯·奥内蒂与出生地蒙得维的亚关联",
+        "map_relation_role": "author_geography",
+        "relation_id": "V2-GEO-REL-086",
+        "relation_type": "ASSOCIATED_WITH_PLACE",
+        "review_status": "accepted",
+        "source_entity_id": "V1-ENT-0184",
+        "source_name_zh": "胡安·卡洛斯·奥内蒂",
+        "source_reference": "V1-REL-0302",
+        "space_kind": "real",
+        "target_name_zh": "蒙得维的亚",
+        "target_place_id": "V1-ENT-0371",
+        "v1_relationship_id": "V1-REL-0302"
+      },
+      {
+        "confidence": "high",
+        "description_zh": "爱德华多·加莱亚诺与出生地蒙得维的亚关联",
+        "map_relation_role": "author_geography",
+        "relation_id": "V2-GEO-REL-087",
+        "relation_type": "ASSOCIATED_WITH_PLACE",
+        "review_status": "accepted",
+        "source_entity_id": "V1-ENT-0272",
+        "source_name_zh": "爱德华多·加莱亚诺",
+        "source_reference": "V1-REL-0303",
+        "space_kind": "real",
+        "target_name_zh": "蒙得维的亚",
+        "target_place_id": "V1-ENT-0371",
+        "v1_relationship_id": "V1-REL-0303"
+      },
+      {
+        "confidence": "medium",
+        "description_zh": "何塞·马蒂与出生地哈瓦那关联",
+        "map_relation_role": "author_geography",
+        "relation_id": "V2-GEO-REL-088",
+        "relation_type": "ASSOCIATED_WITH_PLACE",
+        "review_status": "accepted",
+        "source_entity_id": "V1-ENT-0225",
+        "source_name_zh": "何塞·马蒂",
+        "source_reference": "V1-REL-0304",
+        "space_kind": "real",
+        "target_name_zh": "哈瓦那",
+        "target_place_id": "V1-ENT-0372",
+        "v1_relationship_id": "V1-REL-0304"
+      },
+      {
+        "confidence": "high",
+        "description_zh": "《跳房子》的故事空间包含布宜诺斯艾利斯",
+        "map_relation_role": "story_setting",
+        "relation_id": "V2-GEO-REL-089",
+        "relation_type": "SET_IN",
+        "review_status": "accepted",
+        "source_entity_id": "V1-ENT-0078",
+        "source_name_zh": "《跳房子》",
+        "source_reference": "V1-REL-0305",
+        "space_kind": "real",
+        "target_name_zh": "布宜诺斯艾利斯",
+        "target_place_id": "V1-ENT-0370",
+        "v1_relationship_id": "V1-REL-0305"
+      },
+      {
+        "confidence": "high",
+        "description_zh": "《跳房子》的故事空间包含巴黎",
+        "map_relation_role": "story_setting",
+        "relation_id": "V2-GEO-REL-090",
+        "relation_type": "SET_IN",
+        "review_status": "accepted",
+        "source_entity_id": "V1-ENT-0078",
+        "source_name_zh": "《跳房子》",
+        "source_reference": "V1-REL-0306",
+        "space_kind": "real",
+        "target_name_zh": "巴黎",
+        "target_place_id": "V1-ENT-0373",
+        "v1_relationship_id": "V1-REL-0306"
+      },
+      {
+        "confidence": "high",
+        "description_zh": "《最明净的地区》的故事空间为墨西哥城",
+        "map_relation_role": "story_setting",
+        "relation_id": "V2-GEO-REL-091",
+        "relation_type": "SET_IN",
+        "review_status": "accepted",
+        "source_entity_id": "V1-ENT-0146",
+        "source_name_zh": "《最明净的地区》",
+        "source_reference": "V1-REL-0307",
+        "space_kind": "real",
+        "target_name_zh": "墨西哥城",
+        "target_place_id": "V1-ENT-0056",
+        "v1_relationship_id": "V1-REL-0307"
+      },
+      {
+        "confidence": "high",
+        "description_zh": "《光明世纪》的故事空间包含十八世纪末的古巴",
+        "map_relation_role": "story_setting",
+        "relation_id": "V2-GEO-REL-092",
+        "relation_type": "SET_IN",
+        "review_status": "accepted",
+        "source_entity_id": "V1-ENT-0081",
+        "source_name_zh": "《光明世纪》",
+        "source_reference": "V1-REL-0308",
+        "space_kind": "real",
+        "target_name_zh": "古巴",
+        "target_place_id": "V1-ENT-0096",
+        "v1_relationship_id": "V1-REL-0308"
       }
     ]
   },
@@ -8411,6 +9244,20 @@
             "review_status": "accepted",
             "subject_id": "V1-ENT-0171",
             "upstream_review_status": "WEB-CE-B02"
+          },
+          {
+            "confidence": "high",
+            "description_zh": "伊莎贝尔·阿连德与出生地利马关联",
+            "evidence_count": "1",
+            "issue_code": "NONE",
+            "object_id": "V1-ENT-0125",
+            "origin_layer": "WCD02-CS01",
+            "origin_relation_group_id": "WCD02-CS01-REL-01",
+            "relation_type": "ASSOCIATED_WITH_PLACE",
+            "relationship_id": "V1-REL-0296",
+            "review_status": "accepted",
+            "subject_id": "V1-ENT-0171",
+            "upstream_review_status": "WCD02-REVIEW-PASS"
           }
         ]
       },
@@ -8723,6 +9570,20 @@
             "review_status": "accepted",
             "subject_id": "V1-ENT-0184",
             "upstream_review_status": "WEB-CE-B03"
+          },
+          {
+            "confidence": "high",
+            "description_zh": "胡安·卡洛斯·奥内蒂与出生地蒙得维的亚关联",
+            "evidence_count": "1",
+            "issue_code": "NONE",
+            "object_id": "V1-ENT-0371",
+            "origin_layer": "WCD02-CS01",
+            "origin_relation_group_id": "WCD02-CS01-REL-07",
+            "relation_type": "ASSOCIATED_WITH_PLACE",
+            "relationship_id": "V1-REL-0302",
+            "review_status": "accepted",
+            "subject_id": "V1-ENT-0184",
+            "upstream_review_status": "WCD02-REVIEW-PASS"
           }
         ]
       },
@@ -9178,6 +10039,20 @@
             "review_status": "accepted",
             "subject_id": "V1-ENT-0198",
             "upstream_review_status": "WEB-CE-B04"
+          },
+          {
+            "confidence": "high",
+            "description_zh": "阿道夫·比奥伊·卡萨雷斯与出生地布宜诺斯艾利斯关联",
+            "evidence_count": "1",
+            "issue_code": "NONE",
+            "object_id": "V1-ENT-0370",
+            "origin_layer": "WCD02-CS01",
+            "origin_relation_group_id": "WCD02-CS01-REL-05",
+            "relation_type": "ASSOCIATED_WITH_PLACE",
+            "relationship_id": "V1-REL-0300",
+            "review_status": "accepted",
+            "subject_id": "V1-ENT-0198",
+            "upstream_review_status": "WCD02-REVIEW-PASS"
           }
         ]
       },
@@ -9646,6 +10521,20 @@
             "review_status": "accepted",
             "subject_id": "V1-ENT-0211",
             "upstream_review_status": "WEB-CE-B05"
+          },
+          {
+            "confidence": "medium",
+            "description_zh": "马查多·德·阿西斯与出生地里约热内卢关联",
+            "evidence_count": "1",
+            "issue_code": "NONE",
+            "object_id": "V1-ENT-0022",
+            "origin_layer": "WCD02-CS01",
+            "origin_relation_group_id": "WCD02-CS01-REL-04",
+            "relation_type": "ASSOCIATED_WITH_PLACE",
+            "relationship_id": "V1-REL-0299",
+            "review_status": "accepted",
+            "subject_id": "V1-ENT-0211",
+            "upstream_review_status": "WCD02-REVIEW-PASS"
           }
         ]
       },
@@ -10426,6 +11315,20 @@
             "review_status": "accepted",
             "subject_id": "V1-ENT-0225",
             "upstream_review_status": "WEB-CE-B06"
+          },
+          {
+            "confidence": "medium",
+            "description_zh": "何塞·马蒂与出生地哈瓦那关联",
+            "evidence_count": "1",
+            "issue_code": "NONE",
+            "object_id": "V1-ENT-0372",
+            "origin_layer": "WCD02-CS01",
+            "origin_relation_group_id": "WCD02-CS01-REL-09",
+            "relation_type": "ASSOCIATED_WITH_PLACE",
+            "relationship_id": "V1-REL-0304",
+            "review_status": "accepted",
+            "subject_id": "V1-ENT-0225",
+            "upstream_review_status": "WCD02-REVIEW-PASS"
           }
         ]
       },
@@ -11674,6 +12577,20 @@
             "review_status": "accepted",
             "subject_id": "V1-ENT-0261",
             "upstream_review_status": "WEB-CE-B09"
+          },
+          {
+            "confidence": "high",
+            "description_zh": "何塞·埃米利奥·帕切科与出生地墨西哥城关联",
+            "evidence_count": "1",
+            "issue_code": "NONE",
+            "object_id": "V1-ENT-0056",
+            "origin_layer": "WCD02-CS01",
+            "origin_relation_group_id": "WCD02-CS01-REL-02",
+            "relation_type": "ASSOCIATED_WITH_PLACE",
+            "relationship_id": "V1-REL-0297",
+            "review_status": "accepted",
+            "subject_id": "V1-ENT-0261",
+            "upstream_review_status": "WCD02-REVIEW-PASS"
           }
         ]
       },
@@ -11830,6 +12747,20 @@
             "review_status": "accepted",
             "subject_id": "V1-ENT-0262",
             "upstream_review_status": "WEB-CE-B09"
+          },
+          {
+            "confidence": "high",
+            "description_zh": "罗贝托·波拉尼奥与出生地圣地亚哥关联",
+            "evidence_count": "1",
+            "issue_code": "NONE",
+            "object_id": "V1-ENT-0128",
+            "origin_layer": "WCD02-CS01",
+            "origin_relation_group_id": "WCD02-CS01-REL-03",
+            "relation_type": "ASSOCIATED_WITH_PLACE",
+            "relationship_id": "V1-REL-0298",
+            "review_status": "accepted",
+            "subject_id": "V1-ENT-0262",
+            "upstream_review_status": "WCD02-REVIEW-PASS"
           }
         ]
       },
@@ -11999,6 +12930,20 @@
             "review_status": "accepted",
             "subject_id": "V1-ENT-0272",
             "upstream_review_status": "WEB-CE-B10"
+          },
+          {
+            "confidence": "high",
+            "description_zh": "爱德华多·加莱亚诺与出生地蒙得维的亚关联",
+            "evidence_count": "1",
+            "issue_code": "NONE",
+            "object_id": "V1-ENT-0371",
+            "origin_layer": "WCD02-CS01",
+            "origin_relation_group_id": "WCD02-CS01-REL-08",
+            "relation_type": "ASSOCIATED_WITH_PLACE",
+            "relationship_id": "V1-REL-0303",
+            "review_status": "accepted",
+            "subject_id": "V1-ENT-0272",
+            "upstream_review_status": "WCD02-REVIEW-PASS"
           }
         ]
       },
@@ -12649,6 +13594,20 @@
             "review_status": "accepted",
             "subject_id": "V1-ENT-0285",
             "upstream_review_status": "WEB-CE-B11"
+          },
+          {
+            "confidence": "high",
+            "description_zh": "西尔维娜·奥坎波与出生地布宜诺斯艾利斯关联",
+            "evidence_count": "1",
+            "issue_code": "NONE",
+            "object_id": "V1-ENT-0370",
+            "origin_layer": "WCD02-CS01",
+            "origin_relation_group_id": "WCD02-CS01-REL-06",
+            "relation_type": "ASSOCIATED_WITH_PLACE",
+            "relationship_id": "V1-REL-0301",
+            "review_status": "accepted",
+            "subject_id": "V1-ENT-0285",
+            "upstream_review_status": "WCD02-REVIEW-PASS"
           }
         ]
       },
@@ -15692,6 +16651,21 @@
             "target_name_zh": "里约热内卢",
             "target_place_id": "V1-ENT-0022",
             "v1_relationship_id": "V1-REL-0013"
+          },
+          {
+            "confidence": "medium",
+            "description_zh": "马查多·德·阿西斯与出生地里约热内卢关联",
+            "map_relation_role": "author_geography",
+            "relation_id": "V2-GEO-REL-083",
+            "relation_type": "ASSOCIATED_WITH_PLACE",
+            "review_status": "accepted",
+            "source_entity_id": "V1-ENT-0211",
+            "source_name_zh": "马查多·德·阿西斯",
+            "source_reference": "V1-REL-0299",
+            "space_kind": "real",
+            "target_name_zh": "里约热内卢",
+            "target_place_id": "V1-ENT-0022",
+            "v1_relationship_id": "V1-REL-0299"
           }
         ],
         "longitude": -43.18223,
@@ -16173,6 +17147,36 @@
             "target_name_zh": "墨西哥城",
             "target_place_id": "V1-ENT-0056",
             "v1_relationship_id": "V1-REL-0102"
+          },
+          {
+            "confidence": "high",
+            "description_zh": "何塞·埃米利奥·帕切科与出生地墨西哥城关联",
+            "map_relation_role": "author_geography",
+            "relation_id": "V2-GEO-REL-081",
+            "relation_type": "ASSOCIATED_WITH_PLACE",
+            "review_status": "accepted",
+            "source_entity_id": "V1-ENT-0261",
+            "source_name_zh": "何塞·埃米利奥·帕切科",
+            "source_reference": "V1-REL-0297",
+            "space_kind": "real",
+            "target_name_zh": "墨西哥城",
+            "target_place_id": "V1-ENT-0056",
+            "v1_relationship_id": "V1-REL-0297"
+          },
+          {
+            "confidence": "high",
+            "description_zh": "《最明净的地区》的故事空间为墨西哥城",
+            "map_relation_role": "story_setting",
+            "relation_id": "V2-GEO-REL-091",
+            "relation_type": "SET_IN",
+            "review_status": "accepted",
+            "source_entity_id": "V1-ENT-0146",
+            "source_name_zh": "《最明净的地区》",
+            "source_reference": "V1-REL-0307",
+            "space_kind": "real",
+            "target_name_zh": "墨西哥城",
+            "target_place_id": "V1-ENT-0056",
+            "v1_relationship_id": "V1-REL-0307"
           }
         ],
         "longitude": -99.12766457,
@@ -16386,6 +17390,21 @@
             "target_name_zh": "古巴",
             "target_place_id": "V1-ENT-0096",
             "v1_relationship_id": "V1-REL-0271"
+          },
+          {
+            "confidence": "high",
+            "description_zh": "《光明世纪》的故事空间包含十八世纪末的古巴",
+            "map_relation_role": "story_setting",
+            "relation_id": "V2-GEO-REL-092",
+            "relation_type": "SET_IN",
+            "review_status": "accepted",
+            "source_entity_id": "V1-ENT-0081",
+            "source_name_zh": "《光明世纪》",
+            "source_reference": "V1-REL-0308",
+            "space_kind": "real",
+            "target_name_zh": "古巴",
+            "target_place_id": "V1-ENT-0096",
+            "v1_relationship_id": "V1-REL-0308"
           }
         ],
         "longitude": null,
@@ -16810,6 +17829,21 @@
             "target_name_zh": "利马",
             "target_place_id": "V1-ENT-0125",
             "v1_relationship_id": "V1-REL-0068"
+          },
+          {
+            "confidence": "high",
+            "description_zh": "伊莎贝尔·阿连德与出生地利马关联",
+            "map_relation_role": "author_geography",
+            "relation_id": "V2-GEO-REL-080",
+            "relation_type": "ASSOCIATED_WITH_PLACE",
+            "review_status": "accepted",
+            "source_entity_id": "V1-ENT-0171",
+            "source_name_zh": "伊莎贝尔·阿连德",
+            "source_reference": "V1-REL-0296",
+            "space_kind": "real",
+            "target_name_zh": "利马",
+            "target_place_id": "V1-ENT-0125",
+            "v1_relationship_id": "V1-REL-0296"
           }
         ],
         "longitude": -77.0282364,
@@ -16924,6 +17958,21 @@
             "target_name_zh": "圣地亚哥",
             "target_place_id": "V1-ENT-0128",
             "v1_relationship_id": "V1-REL-0073"
+          },
+          {
+            "confidence": "high",
+            "description_zh": "罗贝托·波拉尼奥与出生地圣地亚哥关联",
+            "map_relation_role": "author_geography",
+            "relation_id": "V2-GEO-REL-082",
+            "relation_type": "ASSOCIATED_WITH_PLACE",
+            "review_status": "accepted",
+            "source_entity_id": "V1-ENT-0262",
+            "source_name_zh": "罗贝托·波拉尼奥",
+            "source_reference": "V1-REL-0298",
+            "space_kind": "real",
+            "target_name_zh": "圣地亚哥",
+            "target_place_id": "V1-ENT-0128",
+            "v1_relationship_id": "V1-REL-0298"
           }
         ],
         "longitude": -70.64826965,
@@ -17517,6 +18566,335 @@
         "place_kind": "country",
         "reality_status": "real",
         "source_kind": "v1_entity"
+      },
+      {
+        "classification_note": "WCD-02 核心文学城市；GeoNames RDF 直接给出城市名称与坐标；承载两位作者出生地关联和《跳房子》故事空间",
+        "classification_source_url": "https://sws.geonames.org/3435910/about.rdf",
+        "classification_status": "confirmed",
+        "coordinate_precision": "city_centroid",
+        "coordinate_retrieved_at": "2026-08-27",
+        "coordinate_source_url": "https://sws.geonames.org/3435910/about.rdf",
+        "country_code": "AR",
+        "curation_selections": [
+          {
+            "basis_note": "WCD-02 多关系核心城市；坐标来源已核验，可作为阿根廷城市入口",
+            "created_at": "2026-08-27",
+            "curation_id": "WCD02-SEL-001",
+            "display_scope": [
+              "map"
+            ],
+            "draft_origin": "codex",
+            "research_refs": [
+              "V1-REL-0300",
+              "V1-REL-0301",
+              "V1-REL-0305"
+            ],
+            "review_note": "地图状态与来源已核验",
+            "reviewed_at": "2026-08-27",
+            "reviewer": "CODEX",
+            "schema_version": "v2-curation-0.1",
+            "selection_key": "map_status",
+            "selection_value": "featured",
+            "sort_order": 100,
+            "source_refs": [
+              "SRC-0153",
+              "SRC-0228",
+              "SRC-0076"
+            ],
+            "status": "auto_approved",
+            "target_id": "V1-ENT-0370",
+            "target_type": "place"
+          }
+        ],
+        "entity_id": "V1-ENT-0370",
+        "latitude": -34.61315,
+        "literary_relations": [
+          {
+            "confidence": "high",
+            "description_zh": "阿道夫·比奥伊·卡萨雷斯与出生地布宜诺斯艾利斯关联",
+            "map_relation_role": "author_geography",
+            "relation_id": "V2-GEO-REL-084",
+            "relation_type": "ASSOCIATED_WITH_PLACE",
+            "review_status": "accepted",
+            "source_entity_id": "V1-ENT-0198",
+            "source_name_zh": "阿道夫·比奥伊·卡萨雷斯",
+            "source_reference": "V1-REL-0300",
+            "space_kind": "real",
+            "target_name_zh": "布宜诺斯艾利斯",
+            "target_place_id": "V1-ENT-0370",
+            "v1_relationship_id": "V1-REL-0300"
+          },
+          {
+            "confidence": "high",
+            "description_zh": "西尔维娜·奥坎波与出生地布宜诺斯艾利斯关联",
+            "map_relation_role": "author_geography",
+            "relation_id": "V2-GEO-REL-085",
+            "relation_type": "ASSOCIATED_WITH_PLACE",
+            "review_status": "accepted",
+            "source_entity_id": "V1-ENT-0285",
+            "source_name_zh": "西尔维娜·奥坎波",
+            "source_reference": "V1-REL-0301",
+            "space_kind": "real",
+            "target_name_zh": "布宜诺斯艾利斯",
+            "target_place_id": "V1-ENT-0370",
+            "v1_relationship_id": "V1-REL-0301"
+          },
+          {
+            "confidence": "high",
+            "description_zh": "《跳房子》的故事空间包含布宜诺斯艾利斯",
+            "map_relation_role": "story_setting",
+            "relation_id": "V2-GEO-REL-089",
+            "relation_type": "SET_IN",
+            "review_status": "accepted",
+            "source_entity_id": "V1-ENT-0078",
+            "source_name_zh": "《跳房子》",
+            "source_reference": "V1-REL-0305",
+            "space_kind": "real",
+            "target_name_zh": "布宜诺斯艾利斯",
+            "target_place_id": "V1-ENT-0370",
+            "v1_relationship_id": "V1-REL-0305"
+          }
+        ],
+        "longitude": -58.37723,
+        "map_status": "featured",
+        "name_zh": "布宜诺斯艾利斯",
+        "original_name": "Buenos Aires",
+        "parent_place_id": "V1-ENT-0001",
+        "place_id": "V1-ENT-0370",
+        "place_kind": "city",
+        "reality_status": "real",
+        "source_kind": "v1_entity"
+      },
+      {
+        "classification_note": "WCD-02 核心文学城市；GeoNames RDF 直接给出城市名称与坐标；承载奥内蒂与加莱亚诺出生地关联",
+        "classification_source_url": "https://sws.geonames.org/3441575/about.rdf",
+        "classification_status": "confirmed",
+        "coordinate_precision": "city_centroid",
+        "coordinate_retrieved_at": "2026-08-27",
+        "coordinate_source_url": "https://sws.geonames.org/3441575/about.rdf",
+        "country_code": "UY",
+        "curation_selections": [
+          {
+            "basis_note": "WCD-02 双作者城市节点；坐标来源已核验，可作为乌拉圭城市入口",
+            "created_at": "2026-08-27",
+            "curation_id": "WCD02-SEL-002",
+            "display_scope": [
+              "map"
+            ],
+            "draft_origin": "codex",
+            "research_refs": [
+              "V1-REL-0302",
+              "V1-REL-0303"
+            ],
+            "review_note": "地图状态与来源已核验",
+            "reviewed_at": "2026-08-27",
+            "reviewer": "CODEX",
+            "schema_version": "v2-curation-0.1",
+            "selection_key": "map_status",
+            "selection_value": "featured",
+            "sort_order": 110,
+            "source_refs": [
+              "SRC-0141",
+              "SRC-0215"
+            ],
+            "status": "auto_approved",
+            "target_id": "V1-ENT-0371",
+            "target_type": "place"
+          }
+        ],
+        "entity_id": "V1-ENT-0371",
+        "latitude": -34.90328,
+        "literary_relations": [
+          {
+            "confidence": "high",
+            "description_zh": "胡安·卡洛斯·奥内蒂与出生地蒙得维的亚关联",
+            "map_relation_role": "author_geography",
+            "relation_id": "V2-GEO-REL-086",
+            "relation_type": "ASSOCIATED_WITH_PLACE",
+            "review_status": "accepted",
+            "source_entity_id": "V1-ENT-0184",
+            "source_name_zh": "胡安·卡洛斯·奥内蒂",
+            "source_reference": "V1-REL-0302",
+            "space_kind": "real",
+            "target_name_zh": "蒙得维的亚",
+            "target_place_id": "V1-ENT-0371",
+            "v1_relationship_id": "V1-REL-0302"
+          },
+          {
+            "confidence": "high",
+            "description_zh": "爱德华多·加莱亚诺与出生地蒙得维的亚关联",
+            "map_relation_role": "author_geography",
+            "relation_id": "V2-GEO-REL-087",
+            "relation_type": "ASSOCIATED_WITH_PLACE",
+            "review_status": "accepted",
+            "source_entity_id": "V1-ENT-0272",
+            "source_name_zh": "爱德华多·加莱亚诺",
+            "source_reference": "V1-REL-0303",
+            "space_kind": "real",
+            "target_name_zh": "蒙得维的亚",
+            "target_place_id": "V1-ENT-0371",
+            "v1_relationship_id": "V1-REL-0303"
+          }
+        ],
+        "longitude": -56.18816,
+        "map_status": "featured",
+        "name_zh": "蒙得维的亚",
+        "original_name": "Montevideo",
+        "parent_place_id": "V1-ENT-0196",
+        "place_id": "V1-ENT-0371",
+        "place_kind": "city",
+        "reality_status": "real",
+        "source_kind": "v1_entity"
+      },
+      {
+        "classification_note": "WCD-02 现实城市节点；GeoNames RDF 同时给出 Havana、La Habana 与坐标；本轮只承载何塞·马蒂出生地关联，不把《光明世纪》的古巴空间精确化为哈瓦那",
+        "classification_source_url": "https://sws.geonames.org/3553478/about.rdf",
+        "classification_status": "confirmed",
+        "coordinate_precision": "city_centroid",
+        "coordinate_retrieved_at": "2026-08-27",
+        "coordinate_source_url": "https://sws.geonames.org/3553478/about.rdf",
+        "country_code": "CU",
+        "curation_selections": [
+          {
+            "basis_note": "WCD-02 现实作者地理节点；进入古巴后展示",
+            "created_at": "2026-08-27",
+            "curation_id": "WCD02-SEL-003",
+            "display_scope": [
+              "map"
+            ],
+            "draft_origin": "codex",
+            "research_refs": [
+              "V1-REL-0304"
+            ],
+            "review_note": "地图状态与来源已核验",
+            "reviewed_at": "2026-08-27",
+            "reviewer": "CODEX",
+            "schema_version": "v2-curation-0.1",
+            "selection_key": "map_status",
+            "selection_value": "eligible",
+            "sort_order": 120,
+            "source_refs": [
+              "SRC-0187"
+            ],
+            "status": "auto_approved",
+            "target_id": "V1-ENT-0372",
+            "target_type": "place"
+          }
+        ],
+        "entity_id": "V1-ENT-0372",
+        "latitude": 23.13302,
+        "literary_relations": [
+          {
+            "confidence": "medium",
+            "description_zh": "何塞·马蒂与出生地哈瓦那关联",
+            "map_relation_role": "author_geography",
+            "relation_id": "V2-GEO-REL-088",
+            "relation_type": "ASSOCIATED_WITH_PLACE",
+            "review_status": "accepted",
+            "source_entity_id": "V1-ENT-0225",
+            "source_name_zh": "何塞·马蒂",
+            "source_reference": "V1-REL-0304",
+            "space_kind": "real",
+            "target_name_zh": "哈瓦那",
+            "target_place_id": "V1-ENT-0372",
+            "v1_relationship_id": "V1-REL-0304"
+          }
+        ],
+        "longitude": -82.38304,
+        "map_status": "eligible",
+        "name_zh": "哈瓦那",
+        "original_name": "La Habana",
+        "parent_place_id": "V1-ENT-0096",
+        "place_id": "V1-ENT-0372",
+        "place_kind": "city",
+        "reality_status": "real",
+        "source_kind": "v1_entity"
+      },
+      {
+        "classification_note": "WCD-02 跨大西洋故事空间；GeoNames RDF 直接给出城市名称与坐标；只承载《跳房子》正式场景关系，不扩张拉美国家范围",
+        "classification_source_url": "https://sws.geonames.org/2988507/about.rdf",
+        "classification_status": "confirmed",
+        "coordinate_precision": "city_centroid",
+        "coordinate_retrieved_at": "2026-08-27",
+        "coordinate_source_url": "https://sws.geonames.org/2988507/about.rdf",
+        "country_code": "FR",
+        "curation_selections": [
+          {
+            "basis_note": "WCD-02 跨大西洋故事空间；作为《跳房子》页面延伸地点展示",
+            "created_at": "2026-08-27",
+            "curation_id": "WCD02-SEL-004",
+            "display_scope": [
+              "map"
+            ],
+            "draft_origin": "codex",
+            "research_refs": [
+              "V1-REL-0306"
+            ],
+            "review_note": "地图状态与来源已核验",
+            "reviewed_at": "2026-08-27",
+            "reviewer": "CODEX",
+            "schema_version": "v2-curation-0.1",
+            "selection_key": "map_status",
+            "selection_value": "eligible",
+            "sort_order": 130,
+            "source_refs": [
+              "SRC-0076"
+            ],
+            "status": "auto_approved",
+            "target_id": "V1-ENT-0373",
+            "target_type": "place"
+          }
+        ],
+        "entity_id": "V1-ENT-0373",
+        "latitude": 48.85341,
+        "literary_relations": [
+          {
+            "confidence": "high",
+            "description_zh": "《跳房子》的故事空间包含巴黎",
+            "map_relation_role": "story_setting",
+            "relation_id": "V2-GEO-REL-090",
+            "relation_type": "SET_IN",
+            "review_status": "accepted",
+            "source_entity_id": "V1-ENT-0078",
+            "source_name_zh": "《跳房子》",
+            "source_reference": "V1-REL-0306",
+            "space_kind": "real",
+            "target_name_zh": "巴黎",
+            "target_place_id": "V1-ENT-0373",
+            "v1_relationship_id": "V1-REL-0306"
+          }
+        ],
+        "longitude": 2.3488,
+        "map_status": "eligible",
+        "name_zh": "巴黎",
+        "original_name": "Paris",
+        "parent_place_id": "V2-GEO-FR",
+        "place_id": "V1-ENT-0373",
+        "place_kind": "city",
+        "reality_status": "real",
+        "source_kind": "v1_entity"
+      },
+      {
+        "classification_note": "仅作为巴黎父级技术节点；不属于 Research 实体，不单独作为文学卡片展示",
+        "classification_source_url": "https://www.geonames.org/countries/FR/france.html",
+        "classification_status": "confirmed",
+        "coordinate_precision": "country_polygon_required",
+        "coordinate_retrieved_at": "2026-08-27",
+        "coordinate_source_url": "https://www.geonames.org/countries/FR/france.html",
+        "country_code": "FR",
+        "curation_selections": [],
+        "entity_id": null,
+        "latitude": null,
+        "literary_relations": [],
+        "longitude": null,
+        "map_status": "hidden",
+        "name_zh": "法国",
+        "original_name": "France",
+        "parent_place_id": null,
+        "place_id": "V2-GEO-FR",
+        "place_kind": "country",
+        "reality_status": "real",
+        "source_kind": "technical_parent_node"
       }
     ],
     "works": [
@@ -20262,7 +21640,36 @@
         "origin_count": "1",
         "origin_refs": "B02-ENT-0007",
         "original_name": "Rayuela",
-        "outgoing_relations": []
+        "outgoing_relations": [
+          {
+            "confidence": "high",
+            "description_zh": "《跳房子》的故事空间包含布宜诺斯艾利斯",
+            "evidence_count": "1",
+            "issue_code": "NONE",
+            "object_id": "V1-ENT-0370",
+            "origin_layer": "WCD02-CS01",
+            "origin_relation_group_id": "WCD02-CS01-REL-10",
+            "relation_type": "SET_IN",
+            "relationship_id": "V1-REL-0305",
+            "review_status": "accepted",
+            "subject_id": "V1-ENT-0078",
+            "upstream_review_status": "WCD02-REVIEW-PASS"
+          },
+          {
+            "confidence": "high",
+            "description_zh": "《跳房子》的故事空间包含巴黎",
+            "evidence_count": "1",
+            "issue_code": "NONE",
+            "object_id": "V1-ENT-0373",
+            "origin_layer": "WCD02-CS02",
+            "origin_relation_group_id": "WCD02-CS02-REL-01",
+            "relation_type": "SET_IN",
+            "relationship_id": "V1-REL-0306",
+            "review_status": "accepted",
+            "subject_id": "V1-ENT-0078",
+            "upstream_review_status": "WCD02-REVIEW-PASS"
+          }
+        ]
       },
       {
         "canonical_status": "retained",
@@ -20656,7 +22063,22 @@
         "origin_count": "1",
         "origin_refs": "B02-ENT-0010",
         "original_name": "El siglo de las luces",
-        "outgoing_relations": []
+        "outgoing_relations": [
+          {
+            "confidence": "high",
+            "description_zh": "《光明世纪》的故事空间包含十八世纪末的古巴",
+            "evidence_count": "1",
+            "issue_code": "NONE",
+            "object_id": "V1-ENT-0096",
+            "origin_layer": "WCD02-CS02",
+            "origin_relation_group_id": "WCD02-CS02-REL-03",
+            "relation_type": "SET_IN",
+            "relationship_id": "V1-REL-0308",
+            "review_status": "accepted",
+            "subject_id": "V1-ENT-0081",
+            "upstream_review_status": "WCD02-REVIEW-PASS"
+          }
+        ]
       },
       {
         "canonical_status": "retained",
@@ -21936,7 +23358,22 @@
         "origin_count": "1",
         "origin_refs": "CAND-R1-ENT-02",
         "original_name": "La región más transparente",
-        "outgoing_relations": []
+        "outgoing_relations": [
+          {
+            "confidence": "high",
+            "description_zh": "《最明净的地区》的故事空间为墨西哥城",
+            "evidence_count": "2",
+            "issue_code": "NONE",
+            "object_id": "V1-ENT-0056",
+            "origin_layer": "WCD02-CS02",
+            "origin_relation_group_id": "WCD02-CS02-REL-02",
+            "relation_type": "SET_IN",
+            "relationship_id": "V1-REL-0307",
+            "review_status": "accepted",
+            "subject_id": "V1-ENT-0146",
+            "upstream_review_status": "WCD02-REVIEW-PASS"
+          }
+        ]
       },
       {
         "canonical_status": "retained",
@@ -36817,16 +38254,16 @@
         },
         {
           "factors": {
-            "author_recognition": 8,
+            "author_recognition": 10,
             "bibliographic_completeness": 12,
-            "literary_connections": 3,
+            "literary_connections": 2,
             "reader_content_depth": 24,
             "reading_guidance": 8,
             "reading_path": 12
           },
           "rank": 6,
-          "score": 67,
-          "target_id": "V1-ENT-0032"
+          "score": 68,
+          "target_id": "V1-ENT-0081"
         },
         {
           "factors": {
@@ -36839,7 +38276,7 @@
           },
           "rank": 7,
           "score": 67,
-          "target_id": "V1-ENT-0035"
+          "target_id": "V1-ENT-0032"
         },
         {
           "factors": {
@@ -36852,33 +38289,33 @@
           },
           "rank": 8,
           "score": 67,
-          "target_id": "V1-ENT-0038"
+          "target_id": "V1-ENT-0035"
         },
         {
           "factors": {
-            "author_recognition": 10,
+            "author_recognition": 8,
             "bibliographic_completeness": 12,
-            "literary_connections": 1,
+            "literary_connections": 3,
             "reader_content_depth": 24,
             "reading_guidance": 8,
             "reading_path": 12
           },
           "rank": 9,
           "score": 67,
-          "target_id": "V1-ENT-0079"
+          "target_id": "V1-ENT-0038"
         },
         {
           "factors": {
-            "author_recognition": 10,
+            "author_recognition": 8,
             "bibliographic_completeness": 12,
-            "literary_connections": 1,
+            "literary_connections": 3,
             "reader_content_depth": 24,
             "reading_guidance": 8,
             "reading_path": 12
           },
           "rank": 10,
           "score": 67,
-          "target_id": "V1-ENT-0080"
+          "target_id": "V1-ENT-0078"
         },
         {
           "factors": {
@@ -36891,7 +38328,20 @@
           },
           "rank": 11,
           "score": 67,
-          "target_id": "V1-ENT-0081"
+          "target_id": "V1-ENT-0079"
+        },
+        {
+          "factors": {
+            "author_recognition": 10,
+            "bibliographic_completeness": 12,
+            "literary_connections": 1,
+            "reader_content_depth": 24,
+            "reading_guidance": 8,
+            "reading_path": 12
+          },
+          "rank": 12,
+          "score": 67,
+          "target_id": "V1-ENT-0080"
         },
         {
           "factors": {
@@ -36902,22 +38352,9 @@
             "reading_guidance": 8,
             "reading_path": 0
           },
-          "rank": 12,
+          "rank": 13,
           "score": 66,
           "target_id": "V1-ENT-0075"
-        },
-        {
-          "factors": {
-            "author_recognition": 8,
-            "bibliographic_completeness": 12,
-            "literary_connections": 1,
-            "reader_content_depth": 24,
-            "reading_guidance": 8,
-            "reading_path": 12
-          },
-          "rank": 13,
-          "score": 65,
-          "target_id": "V1-ENT-0078"
         },
         {
           "factors": {
@@ -38355,7 +39792,7 @@
       }
     ]
   },
-  "product_version": "0.2.1",
+  "product_version": "0.3.0",
   "public_content": {
     "authors": [
       {
@@ -41253,7 +42690,8 @@
           "content": "从《星辰时刻》进入玛卡贝娅的城市生活，再回到李斯佩克朵，继续阅读“城市中的不可见者”和“谁替谁说话”。",
           "created_at": "2026-08-14",
           "research_refs": [
-            "V1-REL-0013"
+            "V1-REL-0013",
+            "V1-REL-0299"
           ],
           "reviewed_at": "2026-08-14",
           "reviewer": "USER",
@@ -41267,7 +42705,8 @@
           "content": "里约热内卢是《星辰时刻》中玛卡贝娅谋生的城市。工作、消费想象与贫困在这里并置，叙述者也从城市距离中审视自己如何讲述她。",
           "created_at": "2026-08-14",
           "research_refs": [
-            "V1-REL-0013"
+            "V1-REL-0013",
+            "V1-REL-0299"
           ],
           "reviewed_at": "2026-08-14",
           "reviewer": "USER",
@@ -41281,7 +42720,8 @@
           "content": "从《星辰时刻》进入玛卡贝娅的城市生活，再回到李斯佩克朵，继续阅读“城市中的不可见者”和“谁替谁说话”。",
           "created_at": "2026-08-14",
           "research_refs": [
-            "V1-REL-0013"
+            "V1-REL-0013",
+            "V1-REL-0299"
           ],
           "reviewed_at": "2026-08-14",
           "reviewer": "USER",
@@ -41295,7 +42735,8 @@
           "content": "里约放大人物的社会不可见：它提供现代生活的图景，却不保证迁移者会被城市真正接纳。",
           "created_at": "2026-08-14",
           "research_refs": [
-            "V1-REL-0013"
+            "V1-REL-0013",
+            "V1-REL-0299"
           ],
           "reviewed_at": "2026-08-14",
           "reviewer": "USER",
@@ -41774,7 +43215,8 @@
             "V1-REL-0247",
             "V1-REL-0257",
             "V1-REL-0258",
-            "V1-REL-0271"
+            "V1-REL-0271",
+            "V1-REL-0308"
           ],
           "reviewed_at": "2026-08-14",
           "reviewer": "USER",
@@ -41793,7 +43235,8 @@
             "V1-REL-0247",
             "V1-REL-0257",
             "V1-REL-0258",
-            "V1-REL-0271"
+            "V1-REL-0271",
+            "V1-REL-0308"
           ],
           "reviewed_at": "2026-08-14",
           "reviewer": "USER",
@@ -41812,7 +43255,8 @@
             "V1-REL-0247",
             "V1-REL-0257",
             "V1-REL-0258",
-            "V1-REL-0271"
+            "V1-REL-0271",
+            "V1-REL-0308"
           ],
           "reviewed_at": "2026-08-14",
           "reviewer": "USER",
@@ -41831,7 +43275,8 @@
             "V1-REL-0247",
             "V1-REL-0257",
             "V1-REL-0258",
-            "V1-REL-0271"
+            "V1-REL-0271",
+            "V1-REL-0308"
           ],
           "reviewed_at": "2026-08-14",
           "reviewer": "USER",
@@ -42133,7 +43578,8 @@
           "created_at": "2026-08-14",
           "research_refs": [
             "V1-REL-0066",
-            "V1-REL-0068"
+            "V1-REL-0068",
+            "V1-REL-0296"
           ],
           "reviewed_at": "2026-08-14",
           "reviewer": "USER",
@@ -42149,7 +43595,8 @@
           "created_at": "2026-08-14",
           "research_refs": [
             "V1-REL-0066",
-            "V1-REL-0068"
+            "V1-REL-0068",
+            "V1-REL-0296"
           ],
           "reviewed_at": "2026-08-14",
           "reviewer": "USER",
@@ -42165,7 +43612,8 @@
           "created_at": "2026-08-14",
           "research_refs": [
             "V1-REL-0066",
-            "V1-REL-0068"
+            "V1-REL-0068",
+            "V1-REL-0296"
           ],
           "reviewed_at": "2026-08-14",
           "reviewer": "USER",
@@ -42181,7 +43629,8 @@
           "created_at": "2026-08-14",
           "research_refs": [
             "V1-REL-0066",
-            "V1-REL-0068"
+            "V1-REL-0068",
+            "V1-REL-0296"
           ],
           "reviewed_at": "2026-08-14",
           "reviewer": "USER",
@@ -42258,7 +43707,8 @@
           "content": "圣地亚哥 → 聂鲁达 → 智利 → 诗歌阅读路线；把这里作为作家公共与文学生活的现实节点。",
           "created_at": "2026-08-14",
           "research_refs": [
-            "V1-REL-0073"
+            "V1-REL-0073",
+            "V1-REL-0298"
           ],
           "reviewed_at": "2026-08-14",
           "reviewer": "USER",
@@ -42272,7 +43722,8 @@
           "content": "圣地亚哥关联聂鲁达的公共与文学生活，是从智利城市进入诗人外交、政治和写作经历的一条现实路径。",
           "created_at": "2026-08-14",
           "research_refs": [
-            "V1-REL-0073"
+            "V1-REL-0073",
+            "V1-REL-0298"
           ],
           "reviewed_at": "2026-08-14",
           "reviewer": "USER",
@@ -42286,7 +43737,8 @@
           "content": "圣地亚哥 → 聂鲁达 → 智利 → 诗歌阅读路线；把这里作为作家公共与文学生活的现实节点。",
           "created_at": "2026-08-14",
           "research_refs": [
-            "V1-REL-0073"
+            "V1-REL-0073",
+            "V1-REL-0298"
           ],
           "reviewed_at": "2026-08-14",
           "reviewer": "USER",
@@ -42300,7 +43752,8 @@
           "content": "页面保留正式生平关系，不把作者级政治背景机械套用到每一首诗。",
           "created_at": "2026-08-14",
           "research_refs": [
-            "V1-REL-0073"
+            "V1-REL-0073",
+            "V1-REL-0298"
           ],
           "reviewed_at": "2026-08-14",
           "reviewer": "USER",
@@ -82198,6 +83651,10 @@
       "V1-ENT-0235",
       "V1-ENT-0356",
       "V1-ENT-0357",
+      "V1-ENT-0370",
+      "V1-ENT-0371",
+      "V1-ENT-0372",
+      "V1-ENT-0373",
       "V2-GEO-BR"
     ],
     "works": [
@@ -98789,7 +100246,36 @@
         "origin_count": "1",
         "origin_refs": "B02-ENT-0007",
         "original_name": "Rayuela",
-        "outgoing_relations": []
+        "outgoing_relations": [
+          {
+            "confidence": "high",
+            "description_zh": "《跳房子》的故事空间包含布宜诺斯艾利斯",
+            "evidence_count": "1",
+            "issue_code": "NONE",
+            "object_id": "V1-ENT-0370",
+            "origin_layer": "WCD02-CS01",
+            "origin_relation_group_id": "WCD02-CS01-REL-10",
+            "relation_type": "SET_IN",
+            "relationship_id": "V1-REL-0305",
+            "review_status": "accepted",
+            "subject_id": "V1-ENT-0078",
+            "upstream_review_status": "WCD02-REVIEW-PASS"
+          },
+          {
+            "confidence": "high",
+            "description_zh": "《跳房子》的故事空间包含巴黎",
+            "evidence_count": "1",
+            "issue_code": "NONE",
+            "object_id": "V1-ENT-0373",
+            "origin_layer": "WCD02-CS02",
+            "origin_relation_group_id": "WCD02-CS02-REL-01",
+            "relation_type": "SET_IN",
+            "relationship_id": "V1-REL-0306",
+            "review_status": "accepted",
+            "subject_id": "V1-ENT-0078",
+            "upstream_review_status": "WCD02-REVIEW-PASS"
+          }
+        ]
       },
       {
         "canonical_status": "retained",
@@ -99183,7 +100669,22 @@
         "origin_count": "1",
         "origin_refs": "B02-ENT-0010",
         "original_name": "El siglo de las luces",
-        "outgoing_relations": []
+        "outgoing_relations": [
+          {
+            "confidence": "high",
+            "description_zh": "《光明世纪》的故事空间包含十八世纪末的古巴",
+            "evidence_count": "1",
+            "issue_code": "NONE",
+            "object_id": "V1-ENT-0096",
+            "origin_layer": "WCD02-CS02",
+            "origin_relation_group_id": "WCD02-CS02-REL-03",
+            "relation_type": "SET_IN",
+            "relationship_id": "V1-REL-0308",
+            "review_status": "accepted",
+            "subject_id": "V1-ENT-0081",
+            "upstream_review_status": "WCD02-REVIEW-PASS"
+          }
+        ]
       },
       {
         "canonical_status": "retained",
@@ -101738,7 +103239,22 @@
         "origin_count": "1",
         "origin_refs": "CAND-R1-ENT-02",
         "original_name": "La región más transparente",
-        "outgoing_relations": []
+        "outgoing_relations": [
+          {
+            "confidence": "high",
+            "description_zh": "《最明净的地区》的故事空间为墨西哥城",
+            "evidence_count": "2",
+            "issue_code": "NONE",
+            "object_id": "V1-ENT-0056",
+            "origin_layer": "WCD02-CS02",
+            "origin_relation_group_id": "WCD02-CS02-REL-02",
+            "relation_type": "SET_IN",
+            "relationship_id": "V1-REL-0307",
+            "review_status": "accepted",
+            "subject_id": "V1-ENT-0146",
+            "upstream_review_status": "WCD02-REVIEW-PASS"
+          }
+        ]
       },
       {
         "canonical_status": "retained",
@@ -104086,6 +105602,20 @@
             "review_status": "accepted",
             "subject_id": "V1-ENT-0171",
             "upstream_review_status": "WEB-CE-B02"
+          },
+          {
+            "confidence": "high",
+            "description_zh": "伊莎贝尔·阿连德与出生地利马关联",
+            "evidence_count": "1",
+            "issue_code": "NONE",
+            "object_id": "V1-ENT-0125",
+            "origin_layer": "WCD02-CS01",
+            "origin_relation_group_id": "WCD02-CS01-REL-01",
+            "relation_type": "ASSOCIATED_WITH_PLACE",
+            "relationship_id": "V1-REL-0296",
+            "review_status": "accepted",
+            "subject_id": "V1-ENT-0171",
+            "upstream_review_status": "WCD02-REVIEW-PASS"
           }
         ]
       },
@@ -105212,6 +106742,20 @@
             "review_status": "accepted",
             "subject_id": "V1-ENT-0184",
             "upstream_review_status": "WEB-CE-B03"
+          },
+          {
+            "confidence": "high",
+            "description_zh": "胡安·卡洛斯·奥内蒂与出生地蒙得维的亚关联",
+            "evidence_count": "1",
+            "issue_code": "NONE",
+            "object_id": "V1-ENT-0371",
+            "origin_layer": "WCD02-CS01",
+            "origin_relation_group_id": "WCD02-CS01-REL-07",
+            "relation_type": "ASSOCIATED_WITH_PLACE",
+            "relationship_id": "V1-REL-0302",
+            "review_status": "accepted",
+            "subject_id": "V1-ENT-0184",
+            "upstream_review_status": "WCD02-REVIEW-PASS"
           }
         ]
       },
@@ -106481,6 +108025,20 @@
             "review_status": "accepted",
             "subject_id": "V1-ENT-0198",
             "upstream_review_status": "WEB-CE-B04"
+          },
+          {
+            "confidence": "high",
+            "description_zh": "阿道夫·比奥伊·卡萨雷斯与出生地布宜诺斯艾利斯关联",
+            "evidence_count": "1",
+            "issue_code": "NONE",
+            "object_id": "V1-ENT-0370",
+            "origin_layer": "WCD02-CS01",
+            "origin_relation_group_id": "WCD02-CS01-REL-05",
+            "relation_type": "ASSOCIATED_WITH_PLACE",
+            "relationship_id": "V1-REL-0300",
+            "review_status": "accepted",
+            "subject_id": "V1-ENT-0198",
+            "upstream_review_status": "WCD02-REVIEW-PASS"
           }
         ]
       },
@@ -107752,6 +109310,20 @@
             "review_status": "accepted",
             "subject_id": "V1-ENT-0211",
             "upstream_review_status": "WEB-CE-B05"
+          },
+          {
+            "confidence": "medium",
+            "description_zh": "马查多·德·阿西斯与出生地里约热内卢关联",
+            "evidence_count": "1",
+            "issue_code": "NONE",
+            "object_id": "V1-ENT-0022",
+            "origin_layer": "WCD02-CS01",
+            "origin_relation_group_id": "WCD02-CS01-REL-04",
+            "relation_type": "ASSOCIATED_WITH_PLACE",
+            "relationship_id": "V1-REL-0299",
+            "review_status": "accepted",
+            "subject_id": "V1-ENT-0211",
+            "upstream_review_status": "WCD02-REVIEW-PASS"
           }
         ]
       },
@@ -109324,6 +110896,20 @@
             "review_status": "accepted",
             "subject_id": "V1-ENT-0225",
             "upstream_review_status": "WEB-CE-B06"
+          },
+          {
+            "confidence": "medium",
+            "description_zh": "何塞·马蒂与出生地哈瓦那关联",
+            "evidence_count": "1",
+            "issue_code": "NONE",
+            "object_id": "V1-ENT-0372",
+            "origin_layer": "WCD02-CS01",
+            "origin_relation_group_id": "WCD02-CS01-REL-09",
+            "relation_type": "ASSOCIATED_WITH_PLACE",
+            "relationship_id": "V1-REL-0304",
+            "review_status": "accepted",
+            "subject_id": "V1-ENT-0225",
+            "upstream_review_status": "WCD02-REVIEW-PASS"
           }
         ]
       },
@@ -112959,6 +114545,20 @@
             "review_status": "accepted",
             "subject_id": "V1-ENT-0261",
             "upstream_review_status": "WEB-CE-B09"
+          },
+          {
+            "confidence": "high",
+            "description_zh": "何塞·埃米利奥·帕切科与出生地墨西哥城关联",
+            "evidence_count": "1",
+            "issue_code": "NONE",
+            "object_id": "V1-ENT-0056",
+            "origin_layer": "WCD02-CS01",
+            "origin_relation_group_id": "WCD02-CS01-REL-02",
+            "relation_type": "ASSOCIATED_WITH_PLACE",
+            "relationship_id": "V1-REL-0297",
+            "review_status": "accepted",
+            "subject_id": "V1-ENT-0261",
+            "upstream_review_status": "WCD02-REVIEW-PASS"
           }
         ]
       },
@@ -113115,6 +114715,20 @@
             "review_status": "accepted",
             "subject_id": "V1-ENT-0262",
             "upstream_review_status": "WEB-CE-B09"
+          },
+          {
+            "confidence": "high",
+            "description_zh": "罗贝托·波拉尼奥与出生地圣地亚哥关联",
+            "evidence_count": "1",
+            "issue_code": "NONE",
+            "object_id": "V1-ENT-0128",
+            "origin_layer": "WCD02-CS01",
+            "origin_relation_group_id": "WCD02-CS01-REL-03",
+            "relation_type": "ASSOCIATED_WITH_PLACE",
+            "relationship_id": "V1-REL-0298",
+            "review_status": "accepted",
+            "subject_id": "V1-ENT-0262",
+            "upstream_review_status": "WCD02-REVIEW-PASS"
           }
         ]
       },
@@ -114076,6 +115690,20 @@
             "review_status": "accepted",
             "subject_id": "V1-ENT-0272",
             "upstream_review_status": "WEB-CE-B10"
+          },
+          {
+            "confidence": "high",
+            "description_zh": "爱德华多·加莱亚诺与出生地蒙得维的亚关联",
+            "evidence_count": "1",
+            "issue_code": "NONE",
+            "object_id": "V1-ENT-0371",
+            "origin_layer": "WCD02-CS01",
+            "origin_relation_group_id": "WCD02-CS01-REL-08",
+            "relation_type": "ASSOCIATED_WITH_PLACE",
+            "relationship_id": "V1-REL-0303",
+            "review_status": "accepted",
+            "subject_id": "V1-ENT-0272",
+            "upstream_review_status": "WCD02-REVIEW-PASS"
           }
         ]
       },
@@ -115518,6 +117146,20 @@
             "review_status": "accepted",
             "subject_id": "V1-ENT-0285",
             "upstream_review_status": "WEB-CE-B11"
+          },
+          {
+            "confidence": "high",
+            "description_zh": "西尔维娜·奥坎波与出生地布宜诺斯艾利斯关联",
+            "evidence_count": "1",
+            "issue_code": "NONE",
+            "object_id": "V1-ENT-0370",
+            "origin_layer": "WCD02-CS01",
+            "origin_relation_group_id": "WCD02-CS01-REL-06",
+            "relation_type": "ASSOCIATED_WITH_PLACE",
+            "relationship_id": "V1-REL-0301",
+            "review_status": "accepted",
+            "subject_id": "V1-ENT-0285",
+            "upstream_review_status": "WCD02-REVIEW-PASS"
           }
         ]
       },
@@ -123699,6 +125341,50 @@
         "origin_refs": "CAND-B17-RÓMULO-GALLEGOS-69",
         "original_name": "Canaima",
         "outgoing_relations": []
+      },
+      {
+        "canonical_status": "canonical",
+        "entity_id": "V1-ENT-0370",
+        "entity_type": "place",
+        "issue_codes": "NONE",
+        "name_zh": "布宜诺斯艾利斯",
+        "normalization_basis": "已审核作者出生地与作品场景事实共同支持城市实体；与阿根廷国家实体及加雷街分层",
+        "origin_count": "3",
+        "origin_refs": "V1-FCT-0440;V1-FCT-0752;V1-FCT-0243",
+        "original_name": "Buenos Aires"
+      },
+      {
+        "canonical_status": "canonical",
+        "entity_id": "V1-ENT-0371",
+        "entity_type": "place",
+        "issue_codes": "NONE",
+        "name_zh": "蒙得维的亚",
+        "normalization_basis": "两位作者的已审核出生地事实共同支持城市实体；与乌拉圭国家实体分层",
+        "origin_count": "2",
+        "origin_refs": "V1-FCT-0399;V1-FCT-0691",
+        "original_name": "Montevideo"
+      },
+      {
+        "canonical_status": "canonical",
+        "entity_id": "V1-ENT-0372",
+        "entity_type": "place",
+        "issue_codes": "NONE",
+        "name_zh": "哈瓦那",
+        "normalization_basis": "已审核作者出生地事实支持城市实体；与古巴国家实体分层",
+        "origin_count": "1",
+        "origin_refs": "V1-FCT-0534",
+        "original_name": "La Habana"
+      },
+      {
+        "canonical_status": "canonical",
+        "entity_id": "V1-ENT-0373",
+        "entity_type": "place",
+        "issue_codes": "NONE",
+        "name_zh": "巴黎",
+        "normalization_basis": "已审核《跳房子》故事前提与场景事实共同支持城市实体；作为拉美文学跨洋故事空间保留",
+        "origin_count": "2",
+        "origin_refs": "V1-FCT-0241;V1-FCT-0243",
+        "original_name": "Paris"
       }
     ],
     "facts": [
@@ -152045,6 +153731,326 @@
         "review_status": "accepted",
         "subject_id": "V1-ENT-0360",
         "upstream_review_status": "WEB-CE-B17"
+      },
+      {
+        "confidence": "high",
+        "description_zh": "伊莎贝尔·阿连德与出生地利马关联",
+        "evidence": [
+          {
+            "evidence_note": "机构时间线直接记录伊莎贝尔·阿连德出生于利马；关系仅表达出生地关联。",
+            "evidence_status": "eligible_evidence",
+            "locator": "",
+            "relationship_id": "V1-REL-0296",
+            "source_id": "SRC-0134",
+            "source_title": "Isabel Allende – Timeline"
+          }
+        ],
+        "evidence_count": "1",
+        "issue_code": "NONE",
+        "object_id": "V1-ENT-0125",
+        "origin_layer": "WCD02-CS01",
+        "origin_relation_group_id": "WCD02-CS01-REL-01",
+        "relation_type": "ASSOCIATED_WITH_PLACE",
+        "relationship_id": "V1-REL-0296",
+        "review_status": "accepted",
+        "subject_id": "V1-ENT-0171",
+        "upstream_review_status": "WCD02-REVIEW-PASS"
+      },
+      {
+        "confidence": "high",
+        "description_zh": "何塞·埃米利奥·帕切科与出生地墨西哥城关联",
+        "evidence": [
+          {
+            "evidence_note": "El Colegio Nacional 作者页直接记录何塞·埃米利奥·帕切科出生于墨西哥城；关系仅表达出生地关联。",
+            "evidence_status": "eligible_evidence",
+            "locator": "",
+            "relationship_id": "V1-REL-0297",
+            "source_id": "SRC-0209",
+            "source_title": "José Emilio Pacheco — El Colegio Nacional"
+          }
+        ],
+        "evidence_count": "1",
+        "issue_code": "NONE",
+        "object_id": "V1-ENT-0056",
+        "origin_layer": "WCD02-CS01",
+        "origin_relation_group_id": "WCD02-CS01-REL-02",
+        "relation_type": "ASSOCIATED_WITH_PLACE",
+        "relationship_id": "V1-REL-0297",
+        "review_status": "accepted",
+        "subject_id": "V1-ENT-0261",
+        "upstream_review_status": "WCD02-REVIEW-PASS"
+      },
+      {
+        "confidence": "high",
+        "description_zh": "罗贝托·波拉尼奥与出生地圣地亚哥关联",
+        "evidence": [
+          {
+            "evidence_note": "Memoria Chilena 作者页直接记录罗贝托·波拉尼奥出生于圣地亚哥；关系仅表达出生地关联。",
+            "evidence_status": "eligible_evidence",
+            "locator": "",
+            "relationship_id": "V1-REL-0298",
+            "source_id": "SRC-0211",
+            "source_title": "Roberto Bolaño (1953-2003) — Memoria Chilena"
+          }
+        ],
+        "evidence_count": "1",
+        "issue_code": "NONE",
+        "object_id": "V1-ENT-0128",
+        "origin_layer": "WCD02-CS01",
+        "origin_relation_group_id": "WCD02-CS01-REL-03",
+        "relation_type": "ASSOCIATED_WITH_PLACE",
+        "relationship_id": "V1-REL-0298",
+        "review_status": "accepted",
+        "subject_id": "V1-ENT-0262",
+        "upstream_review_status": "WCD02-REVIEW-PASS"
+      },
+      {
+        "confidence": "medium",
+        "description_zh": "马查多·德·阿西斯与出生地里约热内卢关联",
+        "evidence": [
+          {
+            "evidence_note": "巴西文学院传记支持马查多·德·阿西斯出生于里约热内卢；沿用原事实的 medium 置信度。",
+            "evidence_status": "eligible_evidence",
+            "locator": "",
+            "relationship_id": "V1-REL-0299",
+            "source_id": "SRC-0165",
+            "source_title": "Machado de Assis – Biografia"
+          }
+        ],
+        "evidence_count": "1",
+        "issue_code": "NONE",
+        "object_id": "V1-ENT-0022",
+        "origin_layer": "WCD02-CS01",
+        "origin_relation_group_id": "WCD02-CS01-REL-04",
+        "relation_type": "ASSOCIATED_WITH_PLACE",
+        "relationship_id": "V1-REL-0299",
+        "review_status": "accepted",
+        "subject_id": "V1-ENT-0211",
+        "upstream_review_status": "WCD02-REVIEW-PASS"
+      },
+      {
+        "confidence": "high",
+        "description_zh": "阿道夫·比奥伊·卡萨雷斯与出生地布宜诺斯艾利斯关联",
+        "evidence": [
+          {
+            "evidence_note": "Instituto Cervantes 传记直接记录比奥伊·卡萨雷斯出生于布宜诺斯艾利斯；关系仅表达出生地关联。",
+            "evidence_status": "eligible_evidence",
+            "locator": "",
+            "relationship_id": "V1-REL-0300",
+            "source_id": "SRC-0153",
+            "source_title": "Adolfo Bioy Casares. Biografía"
+          }
+        ],
+        "evidence_count": "1",
+        "issue_code": "NONE",
+        "object_id": "V1-ENT-0370",
+        "origin_layer": "WCD02-CS01",
+        "origin_relation_group_id": "WCD02-CS01-REL-05",
+        "relation_type": "ASSOCIATED_WITH_PLACE",
+        "relationship_id": "V1-REL-0300",
+        "review_status": "accepted",
+        "subject_id": "V1-ENT-0198",
+        "upstream_review_status": "WCD02-REVIEW-PASS"
+      },
+      {
+        "confidence": "high",
+        "description_zh": "西尔维娜·奥坎波与出生地布宜诺斯艾利斯关联",
+        "evidence": [
+          {
+            "evidence_note": "阿根廷文化部页面直接记录西尔维娜·奥坎波出生于布宜诺斯艾利斯；关系仅表达出生地关联。",
+            "evidence_status": "eligible_evidence",
+            "locator": "",
+            "relationship_id": "V1-REL-0301",
+            "source_id": "SRC-0228",
+            "source_title": "Fantástica y misteriosa Silvina — Cultura"
+          }
+        ],
+        "evidence_count": "1",
+        "issue_code": "NONE",
+        "object_id": "V1-ENT-0370",
+        "origin_layer": "WCD02-CS01",
+        "origin_relation_group_id": "WCD02-CS01-REL-06",
+        "relation_type": "ASSOCIATED_WITH_PLACE",
+        "relationship_id": "V1-REL-0301",
+        "review_status": "accepted",
+        "subject_id": "V1-ENT-0285",
+        "upstream_review_status": "WCD02-REVIEW-PASS"
+      },
+      {
+        "confidence": "high",
+        "description_zh": "胡安·卡洛斯·奥内蒂与出生地蒙得维的亚关联",
+        "evidence": [
+          {
+            "evidence_note": "Instituto Cervantes 传记直接记录奥内蒂出生于蒙得维的亚；关系仅表达出生地关联。",
+            "evidence_status": "eligible_evidence",
+            "locator": "",
+            "relationship_id": "V1-REL-0302",
+            "source_id": "SRC-0141",
+            "source_title": "Juan Carlos Onetti – Biografía"
+          }
+        ],
+        "evidence_count": "1",
+        "issue_code": "NONE",
+        "object_id": "V1-ENT-0371",
+        "origin_layer": "WCD02-CS01",
+        "origin_relation_group_id": "WCD02-CS01-REL-07",
+        "relation_type": "ASSOCIATED_WITH_PLACE",
+        "relationship_id": "V1-REL-0302",
+        "review_status": "accepted",
+        "subject_id": "V1-ENT-0184",
+        "upstream_review_status": "WCD02-REVIEW-PASS"
+      },
+      {
+        "confidence": "high",
+        "description_zh": "爱德华多·加莱亚诺与出生地蒙得维的亚关联",
+        "evidence": [
+          {
+            "evidence_note": "阿根廷文化部页面直接记录加莱亚诺出生于蒙得维的亚；关系仅表达出生地关联。",
+            "evidence_status": "eligible_evidence",
+            "locator": "",
+            "relationship_id": "V1-REL-0303",
+            "source_id": "SRC-0215",
+            "source_title": "Eduardo Galeano: uruguayo de nacimiento, latinoamericano por opción"
+          }
+        ],
+        "evidence_count": "1",
+        "issue_code": "NONE",
+        "object_id": "V1-ENT-0371",
+        "origin_layer": "WCD02-CS01",
+        "origin_relation_group_id": "WCD02-CS01-REL-08",
+        "relation_type": "ASSOCIATED_WITH_PLACE",
+        "relationship_id": "V1-REL-0303",
+        "review_status": "accepted",
+        "subject_id": "V1-ENT-0272",
+        "upstream_review_status": "WCD02-REVIEW-PASS"
+      },
+      {
+        "confidence": "medium",
+        "description_zh": "何塞·马蒂与出生地哈瓦那关联",
+        "evidence": [
+          {
+            "evidence_note": "Biblioteca Virtual Miguel de Cervantes 作者页直接记录何塞·马蒂的哈瓦那出生地；沿用原事实的 medium 置信度。",
+            "evidence_status": "eligible_evidence",
+            "locator": "",
+            "relationship_id": "V1-REL-0304",
+            "source_id": "SRC-0187",
+            "source_title": "Traductores hispanoamericanos — José Martí"
+          }
+        ],
+        "evidence_count": "1",
+        "issue_code": "NONE",
+        "object_id": "V1-ENT-0372",
+        "origin_layer": "WCD02-CS01",
+        "origin_relation_group_id": "WCD02-CS01-REL-09",
+        "relation_type": "ASSOCIATED_WITH_PLACE",
+        "relationship_id": "V1-REL-0304",
+        "review_status": "accepted",
+        "subject_id": "V1-ENT-0225",
+        "upstream_review_status": "WCD02-REVIEW-PASS"
+      },
+      {
+        "confidence": "high",
+        "description_zh": "《跳房子》的故事空间包含布宜诺斯艾利斯",
+        "evidence": [
+          {
+            "evidence_note": "出版社内容介绍直接支持奥利维拉返回布宜诺斯艾利斯，作品场景事实明确列出该城。",
+            "evidence_status": "eligible_evidence",
+            "locator": "",
+            "relationship_id": "V1-REL-0305",
+            "source_id": "SRC-0076",
+            "source_title": "《跳房子》书目与内容介绍"
+          }
+        ],
+        "evidence_count": "1",
+        "issue_code": "NONE",
+        "object_id": "V1-ENT-0370",
+        "origin_layer": "WCD02-CS01",
+        "origin_relation_group_id": "WCD02-CS01-REL-10",
+        "relation_type": "SET_IN",
+        "relationship_id": "V1-REL-0305",
+        "review_status": "accepted",
+        "subject_id": "V1-ENT-0078",
+        "upstream_review_status": "WCD02-REVIEW-PASS"
+      },
+      {
+        "confidence": "high",
+        "description_zh": "《跳房子》的故事空间包含巴黎",
+        "evidence": [
+          {
+            "evidence_note": "出版社内容介绍直接支持巴黎生活段落，作品场景事实明确列出巴黎。",
+            "evidence_status": "eligible_evidence",
+            "locator": "",
+            "relationship_id": "V1-REL-0306",
+            "source_id": "SRC-0076",
+            "source_title": "《跳房子》书目与内容介绍"
+          }
+        ],
+        "evidence_count": "1",
+        "issue_code": "NONE",
+        "object_id": "V1-ENT-0373",
+        "origin_layer": "WCD02-CS02",
+        "origin_relation_group_id": "WCD02-CS02-REL-01",
+        "relation_type": "SET_IN",
+        "relationship_id": "V1-REL-0306",
+        "review_status": "accepted",
+        "subject_id": "V1-ENT-0078",
+        "upstream_review_status": "WCD02-REVIEW-PASS"
+      },
+      {
+        "confidence": "high",
+        "description_zh": "《最明净的地区》的故事空间为墨西哥城",
+        "evidence": [
+          {
+            "evidence_note": "墨西哥文学百科作品页直接把墨西哥城作为小说空间与城市主体。",
+            "evidence_status": "eligible_evidence",
+            "locator": "",
+            "relationship_id": "V1-REL-0307",
+            "source_id": "SRC-0089",
+            "source_title": "La región más transparente - Detalle de la obra"
+          },
+          {
+            "evidence_note": "Fondo de Cultura Económica 作品页独立支持小说对墨西哥城的城市书写。",
+            "evidence_status": "eligible_evidence",
+            "locator": "",
+            "relationship_id": "V1-REL-0307",
+            "source_id": "SRC-0090",
+            "source_title": "La región más transparente"
+          }
+        ],
+        "evidence_count": "2",
+        "issue_code": "NONE",
+        "object_id": "V1-ENT-0056",
+        "origin_layer": "WCD02-CS02",
+        "origin_relation_group_id": "WCD02-CS02-REL-02",
+        "relation_type": "SET_IN",
+        "relationship_id": "V1-REL-0307",
+        "review_status": "accepted",
+        "subject_id": "V1-ENT-0146",
+        "upstream_review_status": "WCD02-REVIEW-PASS"
+      },
+      {
+        "confidence": "high",
+        "description_zh": "《光明世纪》的故事空间包含十八世纪末的古巴",
+        "evidence": [
+          {
+            "evidence_note": "出版社内容介绍直接支持十八世纪末古巴与加勒比海故事空间；本关系只正式化到古巴国家层。",
+            "evidence_status": "eligible_evidence",
+            "locator": "",
+            "relationship_id": "V1-REL-0308",
+            "source_id": "SRC-0086",
+            "source_title": "《光明世纪》英文版书目与内容介绍"
+          }
+        ],
+        "evidence_count": "1",
+        "issue_code": "NONE",
+        "object_id": "V1-ENT-0096",
+        "origin_layer": "WCD02-CS02",
+        "origin_relation_group_id": "WCD02-CS02-REL-03",
+        "relation_type": "SET_IN",
+        "relationship_id": "V1-REL-0308",
+        "review_status": "accepted",
+        "subject_id": "V1-ENT-0081",
+        "upstream_review_status": "WCD02-REVIEW-PASS"
       }
     ],
     "sources": [
@@ -154820,7 +156826,8 @@
       "original_name": "Rio de Janeiro",
       "public_route": "places/rio-de-janeiro-v1-ent-0022/",
       "related_ids": [
-        "V1-ENT-0018"
+        "V1-ENT-0018",
+        "V1-ENT-0211"
       ],
       "search_text": "里约热内卢 Rio de Janeiro",
       "target_id": "V1-ENT-0022",
@@ -155087,7 +157094,9 @@
       "original_name": "Rayuela",
       "public_route": "works/rayuela-v1-ent-0078/",
       "related_ids": [
-        "V1-ENT-0073"
+        "V1-ENT-0073",
+        "V1-ENT-0370",
+        "V1-ENT-0373"
       ],
       "search_text": "《跳房子》 Rayuela 《跳房子》 阿根廷 1963",
       "target_id": "V1-ENT-0078",
@@ -155120,7 +157129,8 @@
       "original_name": "El siglo de las luces",
       "public_route": "works/el-siglo-de-las-luces-v1-ent-0081/",
       "related_ids": [
-        "V1-ENT-0074"
+        "V1-ENT-0074",
+        "V1-ENT-0096"
       ],
       "search_text": "《光明世纪》 El siglo de las luces 《光明世纪》 古巴 1962",
       "target_id": "V1-ENT-0081",
@@ -155142,7 +157152,8 @@
       "original_name": "Cuba",
       "public_route": "countries/cuba-v1-ent-0096/",
       "related_ids": [
-        "V1-ENT-0074"
+        "V1-ENT-0074",
+        "V1-ENT-0081"
       ],
       "search_text": "古巴 Cuba",
       "target_id": "V1-ENT-0096",
@@ -155265,7 +157276,8 @@
       "public_route": "places/lima-v1-ent-0125/",
       "related_ids": [
         "V1-ENT-0114",
-        "V1-ENT-0116"
+        "V1-ENT-0116",
+        "V1-ENT-0171"
       ],
       "search_text": "利马 Lima",
       "target_id": "V1-ENT-0125",
@@ -155448,6 +157460,7 @@
       "public_route": "authors/isabel-allende-v1-ent-0171/",
       "related_ids": [
         "V1-ENT-0123",
+        "V1-ENT-0125",
         "V1-ENT-0176",
         "V1-ENT-0177",
         "V1-ENT-0178"
@@ -155602,7 +157615,8 @@
         "V1-ENT-0187",
         "V1-ENT-0188",
         "V1-ENT-0189",
-        "V1-ENT-0196"
+        "V1-ENT-0196",
+        "V1-ENT-0371"
       ],
       "search_text": "胡安·卡洛斯·奥内蒂 Juan Carlos Onetti 胡安·卡洛斯·奥内蒂 乌拉圭 1909–1994",
       "target_id": "V1-ENT-0184",
@@ -155755,7 +157769,8 @@
         "V1-ENT-0001",
         "V1-ENT-0201",
         "V1-ENT-0202",
-        "V1-ENT-0203"
+        "V1-ENT-0203",
+        "V1-ENT-0370"
       ],
       "search_text": "阿道夫·比奥伊·卡萨雷斯 Adolfo Bioy Casares 阿道夫·比奥伊·卡萨雷斯 阿根廷 1914–1999",
       "target_id": "V1-ENT-0198",
@@ -155904,6 +157919,7 @@
       "original_name": "Machado de Assis",
       "public_route": "authors/machado-de-assis-v1-ent-0211/",
       "related_ids": [
+        "V1-ENT-0022",
         "V1-ENT-0183",
         "V1-ENT-0214",
         "V1-ENT-0215",
@@ -156066,6 +158082,49 @@
       "search_text": "委内瑞拉 Venezuela",
       "target_id": "V1-ENT-0357",
       "target_type": "country"
+    },
+    {
+      "name_zh": "布宜诺斯艾利斯",
+      "original_name": "Buenos Aires",
+      "public_route": "places/buenos-aires-v1-ent-0370/",
+      "related_ids": [
+        "V1-ENT-0078",
+        "V1-ENT-0198"
+      ],
+      "search_text": "布宜诺斯艾利斯 Buenos Aires",
+      "target_id": "V1-ENT-0370",
+      "target_type": "place"
+    },
+    {
+      "name_zh": "蒙得维的亚",
+      "original_name": "Montevideo",
+      "public_route": "places/montevideo-v1-ent-0371/",
+      "related_ids": [
+        "V1-ENT-0184"
+      ],
+      "search_text": "蒙得维的亚 Montevideo",
+      "target_id": "V1-ENT-0371",
+      "target_type": "place"
+    },
+    {
+      "name_zh": "哈瓦那",
+      "original_name": "La Habana",
+      "public_route": "places/la-habana-v1-ent-0372/",
+      "related_ids": [],
+      "search_text": "哈瓦那 La Habana",
+      "target_id": "V1-ENT-0372",
+      "target_type": "place"
+    },
+    {
+      "name_zh": "巴黎",
+      "original_name": "Paris",
+      "public_route": "places/paris-v1-ent-0373/",
+      "related_ids": [
+        "V1-ENT-0078"
+      ],
+      "search_text": "巴黎 Paris",
+      "target_id": "V1-ENT-0373",
+      "target_type": "place"
     },
     {
       "name_zh": "巴西",
@@ -156814,6 +158873,20 @@
             "review_status": "accepted",
             "subject_id": "V1-ENT-0211",
             "upstream_review_status": "WEB-CE-B05"
+          },
+          {
+            "confidence": "medium",
+            "description_zh": "马查多·德·阿西斯与出生地里约热内卢关联",
+            "evidence_count": "1",
+            "issue_code": "NONE",
+            "object_id": "V1-ENT-0022",
+            "origin_layer": "WCD02-CS01",
+            "origin_relation_group_id": "WCD02-CS01-REL-04",
+            "relation_type": "ASSOCIATED_WITH_PLACE",
+            "relationship_id": "V1-REL-0299",
+            "review_status": "accepted",
+            "subject_id": "V1-ENT-0211",
+            "upstream_review_status": "WCD02-REVIEW-PASS"
           }
         ]
       },
@@ -157043,6 +159116,20 @@
             "review_status": "accepted",
             "subject_id": "V1-ENT-0225",
             "upstream_review_status": "WEB-CE-B06"
+          },
+          {
+            "confidence": "medium",
+            "description_zh": "何塞·马蒂与出生地哈瓦那关联",
+            "evidence_count": "1",
+            "issue_code": "NONE",
+            "object_id": "V1-ENT-0372",
+            "origin_layer": "WCD02-CS01",
+            "origin_relation_group_id": "WCD02-CS01-REL-09",
+            "relation_type": "ASSOCIATED_WITH_PLACE",
+            "relationship_id": "V1-REL-0304",
+            "review_status": "accepted",
+            "subject_id": "V1-ENT-0225",
+            "upstream_review_status": "WCD02-REVIEW-PASS"
           }
         ]
       },
@@ -161109,6 +163196,20 @@
             "review_status": "accepted",
             "subject_id": "V1-ENT-0285",
             "upstream_review_status": "WEB-CE-B11"
+          },
+          {
+            "confidence": "high",
+            "description_zh": "西尔维娜·奥坎波与出生地布宜诺斯艾利斯关联",
+            "evidence_count": "1",
+            "issue_code": "NONE",
+            "object_id": "V1-ENT-0370",
+            "origin_layer": "WCD02-CS01",
+            "origin_relation_group_id": "WCD02-CS01-REL-06",
+            "relation_type": "ASSOCIATED_WITH_PLACE",
+            "relationship_id": "V1-REL-0301",
+            "review_status": "accepted",
+            "subject_id": "V1-ENT-0285",
+            "upstream_review_status": "WCD02-REVIEW-PASS"
           }
         ]
       },
@@ -162694,6 +164795,20 @@
             "review_status": "accepted",
             "subject_id": "V1-ENT-0184",
             "upstream_review_status": "WEB-CE-B03"
+          },
+          {
+            "confidence": "high",
+            "description_zh": "胡安·卡洛斯·奥内蒂与出生地蒙得维的亚关联",
+            "evidence_count": "1",
+            "issue_code": "NONE",
+            "object_id": "V1-ENT-0371",
+            "origin_layer": "WCD02-CS01",
+            "origin_relation_group_id": "WCD02-CS01-REL-07",
+            "relation_type": "ASSOCIATED_WITH_PLACE",
+            "relationship_id": "V1-REL-0302",
+            "review_status": "accepted",
+            "subject_id": "V1-ENT-0184",
+            "upstream_review_status": "WCD02-REVIEW-PASS"
           }
         ]
       },
@@ -164417,6 +166532,20 @@
             "review_status": "accepted",
             "subject_id": "V1-ENT-0198",
             "upstream_review_status": "WEB-CE-B04"
+          },
+          {
+            "confidence": "high",
+            "description_zh": "阿道夫·比奥伊·卡萨雷斯与出生地布宜诺斯艾利斯关联",
+            "evidence_count": "1",
+            "issue_code": "NONE",
+            "object_id": "V1-ENT-0370",
+            "origin_layer": "WCD02-CS01",
+            "origin_relation_group_id": "WCD02-CS01-REL-05",
+            "relation_type": "ASSOCIATED_WITH_PLACE",
+            "relationship_id": "V1-REL-0300",
+            "review_status": "accepted",
+            "subject_id": "V1-ENT-0198",
+            "upstream_review_status": "WCD02-REVIEW-PASS"
           }
         ]
       },
@@ -173933,6 +176062,20 @@
             "review_status": "accepted",
             "subject_id": "V1-ENT-0261",
             "upstream_review_status": "WEB-CE-B09"
+          },
+          {
+            "confidence": "high",
+            "description_zh": "何塞·埃米利奥·帕切科与出生地墨西哥城关联",
+            "evidence_count": "1",
+            "issue_code": "NONE",
+            "object_id": "V1-ENT-0056",
+            "origin_layer": "WCD02-CS01",
+            "origin_relation_group_id": "WCD02-CS01-REL-02",
+            "relation_type": "ASSOCIATED_WITH_PLACE",
+            "relationship_id": "V1-REL-0297",
+            "review_status": "accepted",
+            "subject_id": "V1-ENT-0261",
+            "upstream_review_status": "WCD02-REVIEW-PASS"
           }
         ]
       },
@@ -174310,6 +176453,20 @@
             "review_status": "accepted",
             "subject_id": "V1-ENT-0272",
             "upstream_review_status": "WEB-CE-B10"
+          },
+          {
+            "confidence": "high",
+            "description_zh": "爱德华多·加莱亚诺与出生地蒙得维的亚关联",
+            "evidence_count": "1",
+            "issue_code": "NONE",
+            "object_id": "V1-ENT-0371",
+            "origin_layer": "WCD02-CS01",
+            "origin_relation_group_id": "WCD02-CS01-REL-08",
+            "relation_type": "ASSOCIATED_WITH_PLACE",
+            "relationship_id": "V1-REL-0303",
+            "review_status": "accepted",
+            "subject_id": "V1-ENT-0272",
+            "upstream_review_status": "WCD02-REVIEW-PASS"
           }
         ]
       },
@@ -175295,6 +177452,20 @@
             "review_status": "accepted",
             "subject_id": "V1-ENT-0171",
             "upstream_review_status": "WEB-CE-B02"
+          },
+          {
+            "confidence": "high",
+            "description_zh": "伊莎贝尔·阿连德与出生地利马关联",
+            "evidence_count": "1",
+            "issue_code": "NONE",
+            "object_id": "V1-ENT-0125",
+            "origin_layer": "WCD02-CS01",
+            "origin_relation_group_id": "WCD02-CS01-REL-01",
+            "relation_type": "ASSOCIATED_WITH_PLACE",
+            "relationship_id": "V1-REL-0296",
+            "review_status": "accepted",
+            "subject_id": "V1-ENT-0171",
+            "upstream_review_status": "WCD02-REVIEW-PASS"
           }
         ]
       },
@@ -179103,6 +181274,20 @@
             "review_status": "accepted",
             "subject_id": "V1-ENT-0262",
             "upstream_review_status": "WEB-CE-B09"
+          },
+          {
+            "confidence": "high",
+            "description_zh": "罗贝托·波拉尼奥与出生地圣地亚哥关联",
+            "evidence_count": "1",
+            "issue_code": "NONE",
+            "object_id": "V1-ENT-0128",
+            "origin_layer": "WCD02-CS01",
+            "origin_relation_group_id": "WCD02-CS01-REL-03",
+            "relation_type": "ASSOCIATED_WITH_PLACE",
+            "relationship_id": "V1-REL-0298",
+            "review_status": "accepted",
+            "subject_id": "V1-ENT-0262",
+            "upstream_review_status": "WCD02-REVIEW-PASS"
           }
         ]
       },
@@ -181842,7 +184027,22 @@
         "origin_count": "1",
         "origin_refs": "CAND-R1-ENT-02",
         "original_name": "La región más transparente",
-        "outgoing_relations": []
+        "outgoing_relations": [
+          {
+            "confidence": "high",
+            "description_zh": "《最明净的地区》的故事空间为墨西哥城",
+            "evidence_count": "2",
+            "issue_code": "NONE",
+            "object_id": "V1-ENT-0056",
+            "origin_layer": "WCD02-CS02",
+            "origin_relation_group_id": "WCD02-CS02-REL-02",
+            "relation_type": "SET_IN",
+            "relationship_id": "V1-REL-0307",
+            "review_status": "accepted",
+            "subject_id": "V1-ENT-0146",
+            "upstream_review_status": "WCD02-REVIEW-PASS"
+          }
+        ]
       },
       "facts": [
         {
@@ -183940,7 +186140,22 @@
         "origin_count": "1",
         "origin_refs": "B02-ENT-0010",
         "original_name": "El siglo de las luces",
-        "outgoing_relations": []
+        "outgoing_relations": [
+          {
+            "confidence": "high",
+            "description_zh": "《光明世纪》的故事空间包含十八世纪末的古巴",
+            "evidence_count": "1",
+            "issue_code": "NONE",
+            "object_id": "V1-ENT-0096",
+            "origin_layer": "WCD02-CS02",
+            "origin_relation_group_id": "WCD02-CS02-REL-03",
+            "relation_type": "SET_IN",
+            "relationship_id": "V1-REL-0308",
+            "review_status": "accepted",
+            "subject_id": "V1-ENT-0081",
+            "upstream_review_status": "WCD02-REVIEW-PASS"
+          }
+        ]
       },
       "facts": [
         {
@@ -185332,7 +187547,36 @@
         "origin_count": "1",
         "origin_refs": "B02-ENT-0007",
         "original_name": "Rayuela",
-        "outgoing_relations": []
+        "outgoing_relations": [
+          {
+            "confidence": "high",
+            "description_zh": "《跳房子》的故事空间包含布宜诺斯艾利斯",
+            "evidence_count": "1",
+            "issue_code": "NONE",
+            "object_id": "V1-ENT-0370",
+            "origin_layer": "WCD02-CS01",
+            "origin_relation_group_id": "WCD02-CS01-REL-10",
+            "relation_type": "SET_IN",
+            "relationship_id": "V1-REL-0305",
+            "review_status": "accepted",
+            "subject_id": "V1-ENT-0078",
+            "upstream_review_status": "WCD02-REVIEW-PASS"
+          },
+          {
+            "confidence": "high",
+            "description_zh": "《跳房子》的故事空间包含巴黎",
+            "evidence_count": "1",
+            "issue_code": "NONE",
+            "object_id": "V1-ENT-0373",
+            "origin_layer": "WCD02-CS02",
+            "origin_relation_group_id": "WCD02-CS02-REL-01",
+            "relation_type": "SET_IN",
+            "relationship_id": "V1-REL-0306",
+            "review_status": "accepted",
+            "subject_id": "V1-ENT-0078",
+            "upstream_review_status": "WCD02-REVIEW-PASS"
+          }
+        ]
       },
       "facts": [
         {

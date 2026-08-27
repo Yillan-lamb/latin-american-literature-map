@@ -50,6 +50,22 @@ CURATION_GATE_FIELDS = {
     "works": ("story_intro", "why_read", "theme_explanations", "next_reads", "reading_approach", "guiding_question"),
     "places": ("literary_intro", "spatial_meaning", "exploration_route"),
 }
+# These fields can encode literary value, reading order, audience fit, or
+# interpretive synthesis. They may only bypass USER_REVIEW when the repository
+# carries an explicit historical USER approval.
+HIGH_JUDGMENT_FIELDS = {
+    "authors": {
+        "why_know", "literary_profile", "start_here", "core_themes",
+        "literary_connections", "reader_fit", "signature_keywords",
+        "reading_route", "guiding_question",
+    },
+    "works": {
+        "why_read", "theme_explanations", "literary_significance",
+        "reading_tips", "reading_approach", "guiding_question", "next_reads",
+    },
+    "places": {"literary_intro", "spatial_meaning", "reader_path", "exploration_route"},
+}
+HIGH_JUDGMENT_PRESENTATION_GROUPS = {"reading_paths", "why_read", "next_reads"}
 
 
 def text(value: object) -> str:
@@ -62,7 +78,11 @@ def text(value: object) -> str:
     return ""
 
 
-def wrapper(record: dict[str, object], field: str) -> dict[str, object] | None:
+def wrapper(
+    record: dict[str, object],
+    field: str,
+    group: str | None = None,
+) -> dict[str, object] | None:
     item = record.get(field)
     if not isinstance(item, dict) or item.get("status") not in {"auto_approved", "user_review", "hold"}:
         return None
@@ -70,11 +90,20 @@ def wrapper(record: dict[str, object], field: str) -> dict[str, object] | None:
     batch_reviewer = isinstance(reviewer, str) and re.fullmatch(r"LUNA-MAX-B\d{2}-REVIEW", reviewer)
     if item.get("status") == "auto_approved" and reviewer not in {"CODEX-REVIEW", "USER"} and not batch_reviewer:
         raise ValueError(f"{record.get('target_id')} approved {field} lacks reviewer")
+    if (
+        group
+        and item.get("status") == "auto_approved"
+        and field in HIGH_JUDGMENT_FIELDS[group]
+        and reviewer != "USER"
+    ):
+        raise ValueError(
+            f"{record.get('target_id')} high-judgment {field} lacks explicit USER approval"
+        )
     return item
 
 
 def structurally_complete(group: str, target_id: str, record: dict[str, object]) -> bool:
-    items = {field: wrapper(record, field) for field in REQUIRED_FIELDS[group]}
+    items = {field: wrapper(record, field, group) for field in REQUIRED_FIELDS[group]}
     if any(item is None or item.get("status") == "hold" for item in items.values()):
         return False
     values = {field: item.get("content") for field, item in items.items() if item}
@@ -114,14 +143,14 @@ def structurally_complete(group: str, target_id: str, record: dict[str, object])
 def derive_readiness(group: str, record: dict[str, object]) -> str:
     target_id = str(record.get("target_id"))
     for field in REQUIRED_FIELDS[group]:
-        item = wrapper(record, field)
+        item = wrapper(record, field, group)
         if item and any(pattern in text(item.get("content")) for pattern in LOW_VALUE_PATTERNS):
             if item.get("status") != "hold":
                 raise ValueError(f"low-value template was not held: {target_id}.{field}")
             return "research_basic"
     if not structurally_complete(group, target_id, record):
         return "research_basic"
-    gated = [wrapper(record, field) for field in CURATION_GATE_FIELDS[group]]
+    gated = [wrapper(record, field, group) for field in CURATION_GATE_FIELDS[group]]
     if all(
         item and item.get("status") == "auto_approved"
         and item.get("research_refs") and item.get("source_refs")
@@ -129,6 +158,22 @@ def derive_readiness(group: str, record: dict[str, object]) -> str:
     ):
         return "curation_ready"
     return "reader_ready"
+
+
+def validate_presentation_reviews(presentation: dict[str, object]) -> None:
+    for group in ("reading_paths", "timeline_periods", "why_read", "next_reads"):
+        for item in presentation.get(group, []):
+            status = item.get("review_status")
+            if status not in {"auto_approved", "user_review", "hold"}:
+                raise ValueError(f"invalid presentation review status: {item.get('id')}")
+            if (
+                status == "auto_approved"
+                and group in HIGH_JUDGMENT_PRESENTATION_GROUPS
+                and item.get("reviewer") != "USER"
+            ):
+                raise ValueError(
+                    f"{item.get('id')} high-judgment presentation lacks explicit USER approval"
+                )
 
 
 def main() -> int:
@@ -155,6 +200,9 @@ def main() -> int:
     approaches: list[str] = []
     for group, records in groups.items():
         for target_id, record in records.items():
+            for field in record:
+                if field != "target_id":
+                    wrapper(record, field, group)
             level = derive_readiness(group, record)
             readiness[group][level] += 1
             if level == "research_basic":
@@ -187,6 +235,7 @@ def main() -> int:
         raise ValueError("reader-ready work reading approaches are duplicated")
 
     presentation = json.loads(args.presentation.read_text(encoding="utf-8"))
+    validate_presentation_reviews(presentation)
     paths = presentation.get("reading_paths", [])
     if len(paths) < 8:
         raise ValueError(f"homepage reading paths below gate: {len(paths)}")

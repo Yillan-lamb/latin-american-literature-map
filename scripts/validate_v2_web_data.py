@@ -13,6 +13,13 @@ from build_v2_web_data import contains_internal_reader_language
 ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_DATA = ROOT / "data/v2/web/site_data.json"
 ALLOWED_STATUSES = {"auto_approved", "user_review", "hold"}
+HIGH_JUDGMENT_CURATION_KEYS = {
+    "why_know", "literary_profile", "start_here", "core_themes",
+    "literary_connections", "reader_fit", "signature_keywords", "reading_route",
+    "guiding_question", "why_read", "theme_explanations", "literary_significance",
+    "reading_tips", "reading_approach", "next_reads", "spatial_meaning",
+    "reader_path", "exploration_route",
+}
 COUNT_PATHS = {
     "entities": ("research", "entities"),
     "content_cards": ("research", "content_cards"),
@@ -64,7 +71,7 @@ def main() -> int:
     payload = json.loads(args.path.read_text(encoding="utf-8"))
     if payload.get("schema_version") != "v2-web-0.2":
         fail("unexpected Web Data schema_version")
-    if payload.get("product_version") != "0.2.0":
+    if payload.get("product_version") != "0.2.1":
         fail("unexpected Web Product version")
     for key in ("research", "curation", "review_queue", "public_content", "public_content_review_queue", "reader_content", "presentation", "presentation_review_queue", "public_scope", "pages", "map", "qa", "search_index", "timeline"):
         if key not in payload:
@@ -72,8 +79,23 @@ def main() -> int:
 
     research = payload["research"]
     entity_ids = {item["entity_id"] for item in research["entities"]}
+    fact_ids = {item["fact_id"] for item in research["facts"]}
+    relationship_ids = {item["relationship_id"] for item in research["relationships"]}
+    relation_hold_ids = {item["relation_hold_id"] for item in research["relation_holds"]}
+    card_ids = {item["card_id"] for item in research["content_cards"]}
+    gap_ids = {item["gap_id"] for item in research["gaps"]}
+    source_ids = {item["source_id"] for item in research["sources"]}
     place_ids = {item["place_id"] for item in payload["map"]["places"]}
     valid_ids = entity_ids | place_ids
+    valid_research_refs = entity_ids | fact_ids | relationship_ids | relation_hold_ids | card_ids | gap_ids
+
+    def validate_refs(item: dict[str, object], label: str) -> None:
+        for ref in item.get("research_refs", []):
+            if ref not in valid_research_refs:
+                fail(f"dangling research ref in {label}: {ref}")
+        for ref in item.get("source_refs", []):
+            if ref not in source_ids and not str(ref).startswith(("https://", "http://")):
+                fail(f"dangling source ref in {label}: {ref}")
     for count_key, (parent, child) in COUNT_PATHS.items():
         if len(payload[parent][child]) != payload["counts"][count_key]:
             fail(f"{count_key} count mismatch")
@@ -105,13 +127,25 @@ def main() -> int:
                 fail(f"dangling curation target: {item['curation_id']}")
             if item.get("to_target_id") and item["to_target_id"] not in valid_ids:
                 fail(f"dangling recommendation target: {item['curation_id']}")
+            validate_refs(item, item["curation_id"])
+            judgment_key = item.get("field_key") or item.get("recommendation_kind")
+            if (
+                item["status"] == "auto_approved"
+                and (group == "recommendations" or judgment_key in HIGH_JUDGMENT_CURATION_KEYS)
+                and item.get("reviewer") != "USER"
+            ):
+                fail(f"high-judgment curation lacks USER approval: {item['curation_id']}")
     if any(item["status"] != "auto_approved" for group in payload["curation"].values() for item in group):
         fail("public curation contains a non-auto-approved record")
     for group in ("authors", "works", "places"):
-        for record in payload["public_content"].get(group, []):
-            for key, value in record.items():
-                if key != "target_id" and value.get("status") != "auto_approved":
-                    fail(f"public content contains non-approved field: {record['target_id']}.{key}")
+        for partition in ("public_content", "public_content_review_queue"):
+            for record in payload[partition].get(group, []):
+                for key, value in record.items():
+                    if key == "target_id":
+                        continue
+                    if partition == "public_content" and value.get("status") != "auto_approved":
+                        fail(f"public content contains non-approved field: {record['target_id']}.{key}")
+                    validate_refs(value, f"{partition}.{record['target_id']}.{key}")
 
     presentation = payload["presentation"]
     if presentation.get("schema_version") != "v2-public-presentation-0.1":
@@ -126,6 +160,10 @@ def main() -> int:
         queue_ids = {item.get("id") for item in payload["presentation_review_queue"].get(group, [])}
         if None in public_ids or None in queue_ids or public_ids & queue_ids:
             fail(f"invalid presentation partition: {group}")
+        for item in presentation.get(group, []) + payload["presentation_review_queue"].get(group, []):
+            for ref in item.get("basis", []):
+                if ref not in valid_research_refs and ref not in source_ids:
+                    fail(f"dangling presentation basis in {item.get('id')}: {ref}")
     for path in presentation.get("reading_paths", []):
         if not path.get("target_ids") or any(target_id not in valid_ids for target_id in path["target_ids"]):
             fail(f"invalid public reading path: {path.get('id')}")

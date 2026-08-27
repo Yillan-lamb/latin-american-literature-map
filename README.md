@@ -72,7 +72,7 @@ Map / Timeline / Pages / Search
 
 - **正式 Research Data Release**：`Data V1.0.0`，保留为已发布的历史基线；
 - **当前 Development Data**：主库已扩展至上表规模，最新全量导出仍属于 development candidate；
-- **当前 Web Development**：`Web 0.2.0 Development Baseline`，已具备地图、时间线、搜索、作家/作品/地点页面和专题阅读入口；
+- **当前 Web Development**：`Web 0.2.1 Development`，已完成全局策展审核分层，并具备地图、时间线、搜索、作家/作品/地点页面和专题阅读入口；
 - **公开状态**：GitHub Pages 提供开发预览，正式 Public Release 仍暂停，预览不等同于正式研究数据发布。
 
 详细变更见 [CHANGELOG](./CHANGELOG.md) 和 [版本文档](./docs/releases)。

@@ -38,7 +38,7 @@ def main() -> int:
             "python3", str(ROOT / "scripts/build_v2_web_data.py"),
             "--public-content", str(draft), "--output-dir", str(WEB),
             "--presentation", str(presentation_draft),
-            "--generated-at", "2026-08-22T12:00:00Z",
+            "--generated-at", "2026-08-27T12:00:00Z",
         ], cwd=ROOT, check=True)
     subprocess.run([
         "python3", str(ROOT / "scripts/build_v2_deploy_bundle.py"),

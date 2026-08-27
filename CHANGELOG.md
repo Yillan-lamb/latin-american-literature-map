@@ -21,6 +21,39 @@
 - 保留 `work/external-ai/` 的既有运行包路径，避免破坏仍在使用这些目录的构建脚本；仅迁移上层协作计划与接管说明。
 - 本次未修改 Research Data、Schema、网站视觉或前端业务逻辑；正式 Public Release 状态继续暂停。
 
+## [Web 0.2.1 — Development] - 2026-08-27
+
+### Changed
+
+- 完成 WCD-01 Global Curation Triage，对三个 Curation CSV、全部 `PUBLIC_CONTENT` 包装字段、Presentation、changeset、Web Data、review queue 与 public bundle 进行全局审核分层。
+- 保护历史 USER 决定：仅恢复 16 条逐字一致的 why_read 与 5 条明确由 USER 指定的首页路径；内容不一致或缺少逐条批准证据的推荐继续留审。
+- 修复 `V2-CUR-ENT-015` 将 Research Relationship ID 误列为 source ref 的分类错误。
+- Web Product 从 `Web 0.2.0 — Development Baseline` 升级为 `Web 0.2.1 — Development`；Research Data 继续为 `Data 1.2.0 candidate`。
+
+### Curation Review
+
+- 2268 条审核记录由 `auto/user/hold = 498/1744/26` 调整为 `519/1723/26`；无内容从 public 降级或退出。
+- 新增持续门禁：高判断字段没有明确 `reviewer=USER` 时不得自动公开；Curation、PUBLIC_CONTENT 与 Presentation 引用必须可回溯。
+- 详细字段、对象、状态矩阵和 USER 冲突记录见 `project/audits/web/WCD_01_GLOBAL_CURATION_TRIAGE.md`。
+
+### Public Content Impact
+
+- public bundle 新增 5 条首页阅读路径与 16 条作品 why_read，移除 0 条；review queue 与 hold 继续不进入普通读者构建。
+- 引用分类修复同步改变公开 evidence 字节，因此本次属于实际 public output 变化，而非仅文档审计。
+
+### Validation
+
+- Research DB、PUBLIC_CONTENT、content quality、Web Data、引用与状态门禁、public bundle、单元测试、浏览器 QA、确定性重建、前端语法与差异检查通过。
+
+### Known / Deferred
+
+- 前 5 条首页路径的新增问题、`WHY-009`、10 条旧版 next_reads 与大批扩展策展字段继续等待 USER；26 条 hold 不以写作替代研究补证。
+- `V2-PUBLIC-RELEASE` 继续 `PAUSED BY USER`；本版本不创建 tag、GitHub Release 或 production deployment。
+
+### Next
+
+- `WCD-02 Literary Space & Relationship Deepening = READY / NOT STARTED`。
+
 ## [Web 0.2.0 — Development Baseline] - 2026-08-22
 
 ### Content

@@ -14,7 +14,7 @@ from urllib.parse import urljoin, urlparse
 ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_DATA = ROOT / "data/v2/web/site_data.json"
 SITE_FILES = ("app.js", "styles.css")
-DEVELOPMENT_PREVIEW_BANNER = "Web 0.2.0 Development Preview｜包含待审内容｜正式 Public Release 仍暂停"
+DEVELOPMENT_PREVIEW_BANNER = "Web 0.2.1 Development Preview｜包含待审内容｜正式 Public Release 仍暂停"
 
 
 def route_for(payload: dict[str, object], target_type: str, target_id: str) -> str:

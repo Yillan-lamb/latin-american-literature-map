@@ -1,0 +1,34 @@
+{
+  "schema_version": "v2-public-content-place-provenance-0.1",
+  "policy": "Relationship refs are field-level semantic provenance. New same-place relationships are never appended automatically.",
+  "places": {
+    "V1-ENT-0001": {"default": ["V1-REL-0014", "V1-REL-0126", "V1-REL-0137", "V1-REL-0174", "V1-REL-0210", "V1-REL-0211", "V1-REL-0221", "V1-REL-0222", "V1-REL-0223", "V1-REL-0233", "V1-REL-0234", "V1-REL-0270"]},
+    "V1-ENT-0022": {"default": ["V1-REL-0013"]},
+    "V1-ENT-0051": {"default": ["V1-REL-0035", "V1-REL-0038", "V1-REL-0089", "V1-REL-0186", "V1-REL-0187", "V1-REL-0197", "V1-REL-0198", "V1-REL-0259", "V1-REL-0282"]},
+    "V1-ENT-0052": {"default": ["V1-REL-0033", "V1-REL-0036"]},
+    "V1-ENT-0053": {"default": ["V1-REL-0037"]},
+    "V1-ENT-0054": {"default": ["V1-REL-0032"]},
+    "V1-ENT-0055": {"default": ["V1-REL-0034"]},
+    "V1-ENT-0057": {"default": ["V1-REL-0039"]},
+    "V1-ENT-0095": {"default": ["V1-REL-0055"]},
+    "V1-ENT-0096": {
+      "default": ["V1-REL-0058", "V1-REL-0163", "V1-REL-0247", "V1-REL-0257", "V1-REL-0258", "V1-REL-0271"],
+      "reader_path": ["V1-REL-0058", "V1-REL-0163", "V1-REL-0247", "V1-REL-0257", "V1-REL-0258", "V1-REL-0271", "V1-REL-0308"],
+      "exploration_route": ["V1-REL-0058", "V1-REL-0163", "V1-REL-0247", "V1-REL-0257", "V1-REL-0258", "V1-REL-0271", "V1-REL-0308"]
+    },
+    "V1-ENT-0097": {"default": ["V1-REL-0057", "V1-REL-0075"]},
+    "V1-ENT-0098": {"default": ["V1-REL-0056"]},
+    "V1-ENT-0123": {"default": ["V1-REL-0071", "V1-REL-0083", "V1-REL-0113", "V1-REL-0125", "V1-REL-0173", "V1-REL-0199", "V1-REL-0235", "V1-REL-0281"]},
+    "V1-ENT-0124": {"default": ["V1-REL-0067", "V1-REL-0161", "V1-REL-0185", "V1-REL-0269"]},
+    "V1-ENT-0125": {"default": ["V1-REL-0066", "V1-REL-0068"]},
+    "V1-ENT-0126": {"default": ["V1-REL-0069"]},
+    "V1-ENT-0128": {"default": ["V1-REL-0073"]},
+    "V1-ENT-0129": {"default": ["V1-REL-0070"]},
+    "V1-ENT-0182": {"default": ["V1-REL-0112"]},
+    "V1-ENT-0183": {"default": ["V1-REL-0114", "V1-REL-0149", "V1-REL-0150", "V1-REL-0151", "V1-REL-0245", "V1-REL-0246", "V1-REL-0293"]},
+    "V1-ENT-0196": {"default": ["V1-REL-0124", "V1-REL-0139", "V1-REL-0175", "V1-REL-0209", "V1-REL-0283"]},
+    "V1-ENT-0197": {"default": []},
+    "V1-ENT-0210": {"default": ["V1-REL-0138"]},
+    "V2-GEO-BR": {"default": ["V1-REL-0005", "V1-REL-0006", "V1-REL-0008", "V1-REL-0013"]}
+  }
+}

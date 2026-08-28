@@ -14,7 +14,8 @@
 
 - Geo 增至 38 个节点和 91 条地点关系；四个新现实城市使用可回溯坐标，虚构空间继续为 0 个现实坐标。
 - 新增 4 条低判断地点说明和 4 条地图选择；高判断内容、既有 `user_review`、3 条 `SET_IN` hold 及证据不足的解释性关系不升级。
-- `PUBLIC_CONTENT` 确定性重建只回填新正式关系 ID 到既有 `research_refs`，不改正文和审核状态。
+- 针对性返修 `PUBLIC_CONTENT` evidence provenance：全量审计 WCD-02 新增的 16 个字段引用，删除 14 个仅因地点相同而机械回填、但不支撑具体文案的关系引用；仅在直接提及《光明世纪》的古巴 `reader_path` / `exploration_route` 保留 `V1-REL-0308`。
+- 构建器改用字段级显式 provenance 映射；无法判断语义对应关系时保持原引用，不再把某地点全部 relationship IDs 自动追加到该地点所有内容字段。Research、迁移 `0028` / `0029` 与 Geo 均无变化。
 - Web Data 增至 371 entities、306 relationships、38 places、91 place relations；Web Product 升级为 `Web 0.3.0 — Development`，Schema 保持 `v2-web-0.2`。
 - 修复 Buenos Aires、Montevideo、Havana 与邻近国家名在地图总览中的文字重叠；保留城市点、键盘焦点、无障碍名称与详情入口。
 

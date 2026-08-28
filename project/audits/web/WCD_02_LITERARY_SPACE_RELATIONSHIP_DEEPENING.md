@@ -62,7 +62,11 @@ Geo 原始层由 33 增至 38 个节点，地点关系由 78 增至 91；其中 
 
 ## 7. Curation
 
-为四个新城市各新增一条低判断 `literary_place_note` 和一条 map selection，共 8 条记录。它们只转写正式关系和来源，不包含阅读排序、强文学判断或未经 USER 批准的推荐，因此可进入 `auto_approved`。`PUBLIC_CONTENT` 确定性重建仅把新正式关系 ID 回填到已有内容的 `research_refs`，没有修改正文或审核状态。高判断策展、既有 `user_review` 与 `hold` 状态不变。
+为四个新城市各新增一条低判断 `literary_place_note` 和一条 map selection，共 8 条记录。它们只转写直接支撑具体文本的正式关系和来源，不包含阅读排序、强文学判断或未经 USER 批准的推荐，因此可进入 `auto_approved`。高判断策展、既有 `user_review` 与 `hold` 状态不变。
+
+PR #16 的针对性 provenance 返修全量审计了 WCD-02 向既有 `PUBLIC_CONTENT` 字段新增的 16 个 `research_refs`。原构建逻辑按 `target_place` 汇总后回填同一地点的全部关系，错误地把“关系存在”当成“关系支持该字段表达”。本次删除 14 个与具体文案无关的引用：里约热内卢 4 个字段中的 `V1-REL-0299`、利马 4 个字段中的 `V1-REL-0296`、圣地亚哥 4 个字段中的 `V1-REL-0298`，以及古巴 `literary_intro` / `spatial_meaning` 中的 `V1-REL-0308`。仅在古巴 `reader_path` / `exploration_route` 保留 `V1-REL-0308`，因为两处文本都直接写到《光明世纪》。
+
+构建器现改用 `PUBLIC_CONTENT_PLACE_PROVENANCE.json` 的字段级显式映射，并由 content-quality validator 与回归测试共同校验。原则是：ref 必须实际支撑对应字段的表达；地点相同不能构成自动追加依据；无法自动判断语义对应关系时保持原有 `research_refs` 不变。该返修不改 Research relationships、迁移 `0028` / `0029`、Geo Data、正文或审核状态。
 
 ## 8. Web Impact
 
@@ -70,7 +74,7 @@ Web Data 确定性重建后为 371 entities、998 facts、306 relationships、27
 
 浏览器验收发现拉普拉塔河口及古巴的国家/城市标签碰撞；保留 Buenos Aires、Montevideo、Havana 的可聚焦地图点、无障碍名称、详情页和关系入口，仅在总览图隐藏三处城市文字标签，避免与国家名及彼此重叠。
 
-61 位作者范围内，city/region 覆盖从 7 增至 16，country-only 从 51 降至 42；有地点关系作者仍为 58，3 位无地点关系作者未被弱证据强行补齐。完整 Research work→place 关系从 9 增至 13；当前 168 部作品预览范围内 `SET_IN` 从 9 增至 11，另有正式关系服务于该范围外的既有 Research 页面。普通 public content 的 61 位作者、168 部作品和 25 个富内容地点规模不因本轮强行扩张；新增城市通过 Geo、Curation、Web 页面与搜索投影进入开发预览。
+61 位作者范围内，city/region 覆盖从 7 增至 16，country-only 从 51 降至 42；有地点关系作者仍为 58，3 位无地点关系作者未被弱证据强行补齐。完整 Research work→place 关系从 9 增至 13；当前 168 部作品预览范围内 `SET_IN` 从 9 增至 11，另有正式关系服务于该范围外的既有 Research 页面。Curation review package 仍为 61 位作者、168 部作品和 25 个富内容地点；正式 public scope 为 25 位作者、60 部作品、32 个地点和 2 个关联节点；Web 地图为 38 个节点。新增城市通过低判断 Curation、Web 页面与搜索投影进入开发预览，三种计数口径不混用。
 
 ## 9. Version
 
@@ -87,4 +91,4 @@ Web Data 确定性重建后为 371 entities、998 facts、306 relationships、27
 
 ## 11. Gate Result
 
-Research 主库、29 个迁移重放 / 19 张表一致性、CSV/JSON/XLSX 全量导出、Geo/Curation/Web Data、content quality、128 路由 public bundle、15 项单元测试、前端语法、84 项 Chromium desktop/mobile + Firefox desktop + WebKit mobile 浏览器矩阵、固定时间确定性重建与任务范围差异检查全部通过。本轮完成后：`WCD-03 Chinese Display Name Consolidation = READY / NOT STARTED`。
+Research 主库、29 个迁移重放 / 19 张表一致性、CSV/JSON/XLSX 全量导出、Geo/Curation/Web Data、content quality、128 路由 public bundle、17 项单元测试、前端语法、84 项 Chromium desktop/mobile + Firefox desktop + WebKit mobile 浏览器矩阵、固定时间确定性重建与任务范围差异检查全部通过。本轮完成后：`WCD-03 Chinese Display Name Consolidation = READY / NOT STARTED`。

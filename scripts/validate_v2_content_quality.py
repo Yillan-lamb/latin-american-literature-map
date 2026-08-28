@@ -14,6 +14,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_CONTENT = ROOT / "data/v2/curation/PUBLIC_CONTENT.json"
 DEFAULT_PRESENTATION = ROOT / "data/v2/presentation/PUBLIC_PRESENTATION.json"
+DEFAULT_PLACE_PROVENANCE = ROOT / "data/v2/curation/PUBLIC_CONTENT_PLACE_PROVENANCE.json"
 BASELINE_AUTHOR_IDS = {
     "V1-ENT-0002", "V1-ENT-0016", "V1-ENT-0029", "V1-ENT-0030", "V1-ENT-0031",
     "V1-ENT-0072", "V1-ENT-0073", "V1-ENT-0074", "V1-ENT-0114", "V1-ENT-0115",
@@ -66,6 +67,7 @@ HIGH_JUDGMENT_FIELDS = {
     "places": {"literary_intro", "spatial_meaning", "reader_path", "exploration_route"},
 }
 HIGH_JUDGMENT_PRESENTATION_GROUPS = {"reading_paths", "why_read", "next_reads"}
+PLACE_CONTENT_FIELDS = ("literary_intro", "spatial_meaning", "reader_path", "exploration_route")
 
 
 def text(value: object) -> str:
@@ -176,6 +178,29 @@ def validate_presentation_reviews(presentation: dict[str, object]) -> None:
                 )
 
 
+def validate_place_provenance(
+    places: dict[str, dict[str, object]], provenance_path: Path
+) -> None:
+    """Require field-level evidence mappings for generated place curation."""
+    payload = json.loads(provenance_path.read_text(encoding="utf-8"))
+    if payload.get("schema_version") != "v2-public-content-place-provenance-0.1":
+        raise ValueError("unexpected place provenance schema")
+    mappings = payload.get("places")
+    if not isinstance(mappings, dict):
+        raise ValueError("invalid place provenance mappings")
+    for target_id, mapping in mappings.items():
+        record = places.get(target_id)
+        if record is None or not isinstance(mapping, dict) or "default" not in mapping:
+            raise ValueError(f"invalid place provenance target: {target_id}")
+        for field_key in PLACE_CONTENT_FIELDS:
+            item = wrapper(record, field_key, "places")
+            expected = mapping.get(field_key, mapping["default"])
+            if item is None or item.get("research_refs") != expected:
+                raise ValueError(
+                    f"place provenance mismatch: {target_id}.{field_key}"
+                )
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("path", type=Path, nargs="?", default=DEFAULT_CONTENT)
@@ -194,6 +219,7 @@ def main() -> int:
         raise ValueError(
             f"coverage mismatch authors={len(groups['authors'])} works={len(groups['works'])} places={len(groups['places'])}"
         )
+    validate_place_provenance(groups["places"], DEFAULT_PLACE_PROVENANCE)
 
     readiness: dict[str, Counter[str]] = {group: Counter() for group in groups}
     corpus: list[tuple[str, str]] = []

@@ -34,3 +34,4 @@ UPDATE relationship_evidence SET source_title=(SELECT title FROM sources WHERE s
 UPDATE metadata SET value='WCD02-CS01' WHERE key='last_change_set';
 UPDATE metadata SET value=(SELECT COUNT(*) FROM entities) WHERE key='entity_count';
 UPDATE metadata SET value=(SELECT COUNT(*) FROM relationships) WHERE key='eligible_relationship_count';
+

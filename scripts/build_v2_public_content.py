@@ -11,6 +11,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 OUTPUT = ROOT / "data/v2/curation/PUBLIC_CONTENT.json"
+PLACE_PROVENANCE = ROOT / "data/v2/curation/PUBLIC_CONTENT_PLACE_PROVENANCE.json"
 DATE = "2026-08-14"
 B02_B05_REVIEW_DATE = "2026-08-20"
 B02_B05_AUTHOR_IDS = {
@@ -52,6 +53,34 @@ JUDGMENT_FIELDS = {
     "works": {"why_read", "theme_explanations", "reading_tips", "reading_approach", "guiding_question", "next_reads"},
     "places": {"literary_intro", "spatial_meaning", "reader_path", "exploration_route"},
 }
+PLACE_CONTENT_FIELDS = {"literary_intro", "spatial_meaning", "reader_path", "exploration_route"}
+
+
+def load_place_provenance(expected_targets: set[str]) -> dict[str, dict[str, list[str]]]:
+    payload = json.loads(PLACE_PROVENANCE.read_text(encoding="utf-8"))
+    if payload.get("schema_version") != "v2-public-content-place-provenance-0.1":
+        raise ValueError("unexpected place provenance schema")
+    places = payload.get("places")
+    if not isinstance(places, dict) or set(places) != expected_targets:
+        raise ValueError("place provenance targets do not match PLACE_MEANINGS")
+    for target_id, mapping in places.items():
+        if not isinstance(mapping, dict) or "default" not in mapping:
+            raise ValueError(f"missing default place provenance: {target_id}")
+        if not set(mapping) <= PLACE_CONTENT_FIELDS | {"default"}:
+            raise ValueError(f"unexpected place provenance field: {target_id}")
+        for field_key, refs in mapping.items():
+            if not isinstance(refs, list) or len(refs) != len(set(refs)):
+                raise ValueError(f"invalid place provenance refs: {target_id}/{field_key}")
+            if any(not isinstance(ref, str) or not ref.startswith("V1-REL-") for ref in refs):
+                raise ValueError(f"invalid place provenance id: {target_id}/{field_key}")
+    return places
+
+
+def place_field_refs(
+    provenance: dict[str, dict[str, list[str]]], target_id: str, field_key: str
+) -> list[str]:
+    mapping = provenance[target_id]
+    return list(mapping.get(field_key, mapping["default"]))
 
 
 def field(content, research, sources, status="user_review", note="新增长篇公共文案，等待 USER 集中审核", reviewer="UNREVIEWED"):
@@ -818,13 +847,12 @@ def build():
             "next_reads": user_field(next_reads, refs, sources),
             "location_note": field(location, refs, sources),
         })
-    old_entries = list(csv.DictReader((ROOT / "data/v2/curation/CURATION_ENTRIES.csv").open(encoding="utf-8-sig")))
+    with (ROOT / "data/v2/curation/CURATION_ENTRIES.csv").open(
+        encoding="utf-8-sig", newline=""
+    ) as handle:
+        old_entries = list(csv.DictReader(handle))
     place_sources = {row["target_id"]: [item for item in row["source_refs"].split(";") if item.startswith("SRC-") or item.startswith("http")] for row in old_entries if row["field_key"] in {"literary_place_note", "fictional_space_note"}}
-    place_refs = {}
-    with (ROOT / "data/v2/geo/PLACE_RELATIONS.csv").open(encoding="utf-8-sig") as handle:
-        for row in csv.DictReader(handle):
-            place_refs.setdefault(row["target_place_id"], []).append(row["v1_relationship_id"])
-    place_refs["V2-GEO-BR"] = ["V1-REL-0005", "V1-REL-0006", "V1-REL-0008", "V1-REL-0013"]
+    place_provenance = load_place_provenance(set(PLACE_MEANINGS))
     place_sources["V2-GEO-BR"] = ["SRC-0009", "SRC-0012"]
     place_sources["V1-ENT-0196"] = ["SRC-0151"]
     place_sources["V1-ENT-0197"] = ["SRC-0152"]
@@ -833,24 +861,23 @@ def build():
     places = []
     for target_id, (intro, meaning) in PLACE_MEANINGS.items():
         sources = place_sources.get(target_id) or []
-        refs = place_refs.get(target_id) or []
         if target_id in B02_B05_PLACE_BATCHES:
             batch = B02_B05_PLACE_BATCHES[target_id]
             note = f"{batch} 新增地点策展文案，未获 USER 批准"
             places.append({
                 "target_id": target_id,
-                "literary_intro": field(intro, refs, sources, "user_review", note, "UNREVIEWED"),
-                "spatial_meaning": field(meaning, refs, sources, "user_review", note, "UNREVIEWED"),
-                "reader_path": field(PLACE_PATHS[target_id], refs, sources, "user_review", note, "UNREVIEWED"),
-                "exploration_route": field(PLACE_PATHS[target_id], refs, sources, "user_review", note, "UNREVIEWED"),
+                "literary_intro": field(intro, place_field_refs(place_provenance, target_id, "literary_intro"), sources, "user_review", note, "UNREVIEWED"),
+                "spatial_meaning": field(meaning, place_field_refs(place_provenance, target_id, "spatial_meaning"), sources, "user_review", note, "UNREVIEWED"),
+                "reader_path": field(PLACE_PATHS[target_id], place_field_refs(place_provenance, target_id, "reader_path"), sources, "user_review", note, "UNREVIEWED"),
+                "exploration_route": field(PLACE_PATHS[target_id], place_field_refs(place_provenance, target_id, "exploration_route"), sources, "user_review", note, "UNREVIEWED"),
             })
             continue
         places.append({
             "target_id": target_id,
-            "literary_intro": user_field(intro, refs, sources),
-            "spatial_meaning": user_field(meaning, refs, sources),
-            "reader_path": user_field(PLACE_PATHS[target_id], refs, sources),
-            "exploration_route": user_field(PLACE_PATHS[target_id], refs, sources),
+            "literary_intro": user_field(intro, place_field_refs(place_provenance, target_id, "literary_intro"), sources),
+            "spatial_meaning": user_field(meaning, place_field_refs(place_provenance, target_id, "spatial_meaning"), sources),
+            "reader_path": user_field(PLACE_PATHS[target_id], place_field_refs(place_provenance, target_id, "reader_path"), sources),
+            "exploration_route": user_field(PLACE_PATHS[target_id], place_field_refs(place_provenance, target_id, "exploration_route"), sources),
         })
 
     audited_ids = B02_B05_AUTHOR_IDS | B02_B05_WORK_IDS | set(B02_B05_PLACE_BATCHES)

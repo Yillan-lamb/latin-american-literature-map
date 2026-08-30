@@ -4,6 +4,14 @@
 
 ## [Web 0.3.1 — Development] - 2026-08-30
 
+### Governance / Research Roadmap
+
+- 完成 WCD-04 Coverage Rebalancing：将 Global Content Gap Audit rebase 到最新 Research Master，剔除 WCD-02/WCD-03 已解决或已取代事项，形成 Current Priority Matrix 以及 WCD-05 / WCD-06 / WCD-07 正式任务路由；旧审计数字不作为当前数据库状态真值。
+- 后续路线固定为 `WCD-05 Entity & Relationship Network Remediation → WCD-06 Author & Work Descriptive Content Completion → WCD-07 Major Works Research Expansion`；WCD-05 为 `READY / NOT STARTED`，WCD-06 与 WCD-07 保持 `LOCKED`，不新增 WCD-08。
+- WCD-07 新设为独立 Missing Major Works Research 阶段；6 个 P0 与 49 个 P1 仅为 research candidates，不是已批准入库项目，仍须完整经过 Research → Review → SQLite Migration。
+- 本次只同步治理与研究规划文档，没有修改 Research DB、migration、Curation、Web Data、前端或公开范围；Research 继续为 `Data 1.3.1 development candidate`，Web 继续为 `Web 0.3.1 — Development`，不升级任何 Data/Web 版本。
+- `V2-PUBLIC-RELEASE` 继续 `PAUSED BY USER`；不创建 tag、GitHub Release 或 production deployment。
+
 ### Research / Names
 
 - 完成 WCD-03 对 371 个实体的中文展示名全量核验及 12 条原 REPLACE 的 multi-edition 复核；最终 11 条名称替换、2 条 alias 候选、1 条冲突名 HOLD。`V1-ENT-0187` 保留作家出版社题名《短暂的生命》，麦田题名《短暂的一生》登记为未来 alias/edition-title candidate。

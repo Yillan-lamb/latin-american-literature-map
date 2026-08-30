@@ -15,7 +15,6 @@ OUTPUT = ROOT / "project/audits/web/WCD_03_CHINESE_NAME_REVIEW_MATRIX.csv"
 
 CHANGES = {
     "V1-ENT-0172": ("若热·亚马多", "WCD03-SRC-01", "published Chinese author spelling"),
-    "V1-ENT-0187": ("《短暂的一生》", "WCD03-SRC-02", "published Chinese title"),
     "V1-ENT-0190": ("《污秽的夜鸟》", "WCD03-SRC-03", "published Chinese title"),
     "V1-ENT-0195": ("《毁灭者亚巴顿》", "WCD03-SRC-04", "published Chinese title"),
     "V1-ENT-0296": ("萨曼塔·施维伯林", "WCD03-SRC-05;WCD03-SRC-06", "published Chinese author spelling"),
@@ -41,6 +40,16 @@ SPECIAL = {
         "high",
         "no",
     ),
+}
+
+MULTI_EDITION = {
+    "V1-ENT-0187": {
+        "evidence": "WCD03-SRC-11;WCD03-SRC-02",
+        "notes": (
+            "retain the current mainland edition title 《短暂的生命》; "
+            "the Taiwan edition title 《短暂的一生》 remains a future alias/edition-title candidate"
+        ),
+    },
 }
 
 
@@ -96,7 +105,14 @@ def main() -> None:
         core_scope = "formal_public" if entity_id in public else "curation_review" if entity_id in review else "research_only"
         decision, confidence, needs = "PASS", "high", "no"
         proposed, evidence, issue, action, notes = entity["name_zh"], entity["origin_refs"], "none", "retain", ""
-        if entity_id in CHANGES:
+        if entity_id in MULTI_EDITION:
+            evidence = MULTI_EDITION[entity_id]["evidence"]
+            decision, confidence, needs = "ALIAS", "high", "no"
+            issue = "multiple documented Chinese edition titles"
+            action = "retain current label; record the other edition title as a future alias candidate"
+            notes = MULTI_EDITION[entity_id]["notes"]
+            status = "published_title"
+        elif entity_id in CHANGES:
             proposed, evidence, reason = CHANGES[entity_id]
             decision, confidence, needs = "REPLACE", "high", "no"
             issue, action = "documented Chinese publication usage differs from current label", f"replace with {reason}"

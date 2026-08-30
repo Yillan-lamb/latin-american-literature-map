@@ -11,7 +11,7 @@
 
 ## Candidate disposition
 
-- `REPLACE`: 12 names with direct published/institutional Chinese-name evidence.
-- `ALIAS`: Julio Cortázar retains the charter-approved `胡利奥·科塔萨尔`; the roadmap variant `胡里奥·科塔萨尔` is recorded only as a future alias candidate, not as a verified replacement.
+- `REPLACE`: 11 names with direct published/institutional Chinese-name evidence and no direct evidence that the previous provisional label is a separate formal Chinese edition title.
+- `ALIAS`: Julio Cortázar retains the charter-approved `胡利奥·科塔萨尔`; the roadmap variant `胡里奥·科塔萨尔` is recorded only as a future alias candidate. `V1-ENT-0187` retains the 作家出版社 title `《短暂的生命》`; the 麦田 title `《短暂的一生》` remains a future alias/edition-title candidate.
 - `HOLD`: Roberto Arlt remains `罗贝托·阿尔特` because available variants are not supported consistently enough for replacement; no automatic replacement is authorized.
 - All other rows are retained as `PASS`, `PROVISIONAL`, or `NO_CHINESE_NAME_NEEDED` in the full matrix.

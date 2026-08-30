@@ -6,8 +6,8 @@
 
 ### Research / Names
 
-- 完成 WCD-03 对 371 个实体的中文展示名全量核验；12 条名称经直接中文出版/机构用名证据修正，1 条别名候选与 1 条冲突名保持不迁移。
-- 独立 Reviewer 最终 `PASS`后追加 migration `0030`—`0031`；实体 ID、原文名、facts、relationship 端点/类型/证据与 Schema 不变，仅机械同步关系描述中的旧中文名；来源增至 288。
+- 完成 WCD-03 对 371 个实体的中文展示名全量核验及 12 条原 REPLACE 的 multi-edition 复核；最终 11 条名称替换、2 条 alias 候选、1 条冲突名 HOLD。`V1-ENT-0187` 保留作家出版社题名《短暂的生命》，麦田题名《短暂的一生》登记为未来 alias/edition-title candidate。
+- D 级来源仅作 discovery：豆瓣不再作为《毁灭者亚巴顿》《营救距离》的正式依据，两项改用政府采购直接书目；未合并的 `0030`/`0031` 重建为单一最终 migration `0030`。实体 ID、原文名、facts、relationship 端点/类型/证据与 Schema 不变；来源仍为 288。
 - Research 从 `Data 1.3.0 development candidate` 升为 `Data 1.3.1 development candidate`；这是名称治理与小范围兼容修正，不是 1.4.0 所代表的研究范围扩张或结构性变化。
 
 ### Web / Boundary

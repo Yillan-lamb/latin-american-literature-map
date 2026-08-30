@@ -1,26 +1,31 @@
-# WCD-03 Independent Review
+# WCD-03 Review and Targeted Remediation
 
-- Reviewer: `FARADAY-WCD03-REVIEW`
-- Review mode: fresh-context, read-only
+- Initial independent reviewer: `FARADAY-WCD03-REVIEW`
+- Targeted remediation reviewer: `CODEX-WCD03-TARGETED-REPAIR`
 - Final verdict: **PASS**
-- Scope reviewed: 371-row name matrix, 12 `REPLACE` candidates, source grading and years, alias/HOLD boundaries, Research scope and schema boundary.
+- Scope: only PR #18 Chinese display-name decisions, direct name evidence, migration and projections; no WCD-04 work.
 
-## First pass
+## Superseded first-pass conclusions
 
-The first pass returned `REVISE` and blocked migration for four reasons:
+The initial review correctly found the Cortázar entity-ID error and corrected three retail/community sources from C to D, but incorrectly treated D-level discovery sources as sufficient for formal display-name replacement. It also treated `La vida breve` as a simple wrong-to-right replacement. Those conclusions are superseded by this remediation.
 
-1. The Cortázar alias disposition was incorrectly attached to `V1-ENT-0030` instead of `V1-ENT-0073`.
-2. Retail/community catalogue sources `WCD03-SRC-02`, `WCD03-SRC-04` and `WCD03-SRC-05` were graded C instead of D.
-3. Source-year metadata for `WCD03-SRC-03`, `WCD03-SRC-07` and `WCD03-SRC-09` was not stated at the supported precision.
-4. Cortázar/Arlt notes overstated unsupported publication evidence.
+## Multi-edition rule and result
 
-## Remediation and focused re-review
+`REPLACE` requires both (a) direct qualified evidence for the new display name and (b) confirmation that the old name is not itself a formal Chinese publication title that must be retained. Multiple formal edition titles are governed as alias/edition-title candidates, not erased by overwrite.
 
-- `V1-ENT-0030` is restored to `PASS`; `V1-ENT-0073` carries `ALIAS`; the rebuilt matrix contains exactly 371 unique Research entity IDs.
-- Sources 02/04/05 are graded D, which remains sufficient for their display-name-only role under the Data SOP.
-- Source 03 and 09 years are corrected to 2022; Source 07 publication year is left blank rather than inferred.
-- Cortázar and Arlt notes now state only the governance disposition: retain the charter-approved/current name, defer alias support, and keep Arlt on HOLD because evidence is not consistent enough for replacement.
+The 12 original REPLACE rows were rechecked in `REPLACE_MULTI_EDITION_RECHECK.csv`. `V1-ENT-0187` is reclassified to `ALIAS`: the 作家出版社 2024 edition and government procurement record directly support `《短暂的生命》`, while the 麦田 edition supports `《短暂的一生》`. The current title is retained, and the latter remains recorded as a future alias/edition-title candidate without adding a schema field. The other 11 old labels originated under explicit `provisional_title` / no-Chinese-edition-claim policy; exact-name checks found no second direct formal-edition record, so their qualified replacements remain.
 
-The focused re-review confirmed all four blockers were resolved and returned final `PASS`. The Reviewer also confirmed that all 12 replacements have direct exact-name support and that the change set does not add or alter entity identity, original-language names, facts, relationship endpoints/types/evidence, entity families or Research schema. Existing relationship descriptions only receive the mechanical Chinese-name substitution.
+## D-level remediation
 
-After the first successful build exposed a stale standalone `metadata.research_version`, the Reviewer separately passed append-only migration `0031_wcd03_patch_version_metadata.sql`. It changes only `research_version=1.3.1` and `generated_at=2026-08-30`; replay, master validation, integrity and foreign-key checks passed on a temporary database before application.
+- `WCD03-SRC-02` remains a D-level discovery candidate for the 麦田 title and does not enter formal `sources` or `card_sources`.
+- `WCD03-SRC-04` no longer relies on Douban. A B-level Inner Mongolia government procurement record directly shows `《毁灭者亚巴顿》`, 埃内斯托·萨瓦托, 四川文艺出版社 and ISBN `9787541159299`.
+- `WCD03-SRC-05` no longer relies on Douban. A B-level Henan government procurement record directly shows `《营救距离》`, 萨曼塔·施维伯林, 人民文学出版社 and ISBN `9787020134663`.
+- `WCD03-SRC-11` is the B-level Henan government procurement record for `《短暂的生命》`, 胡安·卡洛斯·奥内蒂, 作家出版社 and ISBN `9787521229967`.
+
+No source was artificially upgraded. Final WCD-03 formal additions are 8 B and 2 C sources; whole-master distribution is A 48 / B 219 / C 10 / D 11.
+
+## Migration and invariant review
+
+Because PR #18 was not merged, the invalid 0030 and metadata-only 0031 were rebuilt into one clean final `0030_wcd03_chinese_display_names.sql` from `origin/main@937767a`. No 0032 reversal was created. Migration 0028/0029 and Geo Data are unchanged.
+
+The final comparison against main confirms identical entity IDs/types/original names, complete facts, relationship IDs/endpoints/types/status/evidence counts, relationship evidence and relationship-source rows. Only the 11 accepted display replacements, their directly supporting sources/card mappings, and corresponding reader-visible descriptions change.

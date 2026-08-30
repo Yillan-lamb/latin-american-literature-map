@@ -15,7 +15,7 @@
 
 1. **已有内容没有转化为公开阅读体验。** 当前 2276 条策展审核记录中，`1723` 条仍为 `user_review`；61 位核心作者只有 25 位、168 部策展范围作品只有 60 部进入 Reader Content 公开范围。大量页面“看起来空”，首先是审核与公开准入问题，不是缺少 Research entity。
 2. **关系数量增长没有解决语义单一。** WCD-02 将关系从 293 增至 306，并实质改善文学城市与作品空间，但 `CREATED=202`、`ASSOCIATED_WITH_PLACE=78`、`SET_IN=13` 仍占绝大多数。10 个 character 全部零关系，8 个 movement 没有 accepted relation，29 个 theme 只有 2 条 accepted relation，51 条 hold 原样存在。
-3. **核心作者作品覆盖仍有少量高价值真缺口。** 239 条外部候选重新与当前 master 做精确题名、作者归属及层级匹配后，6 个 P0 与 49 个 P1 仍未在库中命中。但它们只是 future Research candidates，不能视为已批准新增。
+3. **核心作者作品覆盖仍有少量高价值候选缺口。** 239 条外部候选完成当前 master 的精确题名 / 当前作者归属预检后，6 个 P0 与 49 个 P1 没有发现 exact current-master match。但它们只是 future Research candidates；语义重复、版本重叠与合集包含关系尚未解决，不能视为已批准新增。
 4. **外部审计已有重要过期项。** Buenos Aires、Montevideo、Havana、Paris 以及《跳房子》双城关系已由 WCD-02 解决；中文展示名问题已由 WCD-03 的 371 实体全量矩阵取代。这些旧项不再进入当前 backlog。
 
 因此，本轮正式确定顺序：
@@ -176,15 +176,14 @@ WCD-07 已创建但保持 `LOCKED`；本轮不执行任何候选研究或迁移�
 
 ### 8.1 Rebase result
 
-外部 239 条候选已全部重新执行：
+外部 239 条候选已全部重新执行本轮允许的轻量预检：
 
 - 当前 master 精确题名匹配；
 - 作者 `CREATED` 归属匹配；
 - WCD-03 当前作者名映射；
-- collection/work/edition 边界提示；
-- source 数量与外部来源状态标记。
+- collection/work/edition 边界风险提示。
 
-结果仍为：P0 6 / P1 49 / P2 85 / P3 65 / DEFER 34，精确当前库命中为 0。保持旧数量并不是复制旧结论，而是因为 WCD-02/WCD-03 没有新增作品，逐条 current-master duplicate check 也没有发现已解决候选。
+结果仍为：P0 6 / P1 49 / P2 85 / P3 65 / DEFER 34，精确题名 / 当前作者归属预检命中为 0。`already_in_db=no_exact_current_master_match` 只表示未发现相同作者下的 exact-title current-master match，不表示语义上不存在重复。语义重复、版本重叠、合集包含关系及外部来源完整性均未在 WCD-04 核验；239 行统一标为 `SOURCE_REVERIFY_IN_WCD07`，由 WCD-07 执行完整治理。
 
 ### 8.2 WCD-07A P0 candidates
 
@@ -207,7 +206,9 @@ WCD-07 已创建但保持 `LOCKED`；本轮不执行任何候选研究或迁移�
 | weak-degree | 225 | work 119、collection 67、place 27，其余 12 |
 | connected | 85 | author 58、work 15、place 7，其余 5 |
 
-“weak” 表示 degree≤1 或语义类型只有 1 种，是审计入口，不等于必须补关系。WCD-05 必须为每个高价值实体给出 `accepted / legitimate-isolated / hold / defer` 判断，不能以消灭孤立节点为 KPI。
+实体路由优先级为：P0 10 / P1 79 / P2 201 / P3 11 / DEFER 70；另有 51 条 relationship hold 全部为 P1。P0 仅用于 character schema / foundational relation，P1 用于 holds 与核心零连接、高价值缺口，P2 是普通弱连接语义多样性复核，P3 是外围 author/person/institution 必要性复核。
+
+“weak” 表示 degree≤1 或语义类型只有 1 种，是审计入口，不等于 P1，也不等于必须补关系。WCD-05 必须为每个高价值实体给出 `accepted / legitimate-isolated / hold / defer` 判断；已经完成有限功能、人工加密无额外价值的节点应保持 DEFER，不能以消灭孤立节点为 KPI。
 
 WCD-05 正式范围扩展为 **Entity & Relationship Network Remediation**：zero-degree、weak-degree、character schema/network、movement、theme、event、holds、peripheral author/person、fictional place 和剩余高价值地点关系统一进入同一治理任务。
 
@@ -256,7 +257,7 @@ WCD-06 分为：
 
 ## 12. Current Priority Matrix
 
-正式矩阵共 16 个决策单元：P0 4 / P1 5 / P2 4 / DEFER 1 / RESOLVED 2。最高优先级是：
+正式矩阵共 17 个决策单元：P0 4 / P1 5 / P2 5 / DEFER 1 / RESOLVED 2。最高优先级是：
 
 1. 1723 条 review queue 的分层恢复；
 2. 45 行 bibliographic-copy 重写；
@@ -323,8 +324,8 @@ WCD-06 分为：
 | Curation/content-quality validation | `PASS` | 61 authors / 168 works / 25 places; readiness rules pass |
 | Current public bundle rebuild | `PASS` | temporary development-preview build: 128 routes / 119 public entities / no review queue or forbidden governance keys |
 | Checked-in historical `dist/` | `FAIL / DEFER` | current validator finds stale `content_zh` / `reviewer` keys; this confirms the old external deployment-staleness finding and is prohibited from repair while Public Release is paused |
-| Audit CSV width/count/ID references | `PASS` | 34 / 16 / 422 / 302 / 239 rows; all entity and hold IDs resolve |
-| Major-work duplicate check | `PASS` | 239/239 current master checks complete; no exact author/title match |
+| Audit CSV width/count/ID references | `PASS` | 34 / 17 / 422 / 302 / 239 rows; all entity and hold IDs resolve |
+| Exact-title / current-author precheck | `PASS` | 239/239 prechecks complete; no exact current-master match under the current author. Semantic duplicate, edition overlap and collection containment remain for WCD-07 |
 | Semantic-output guard | `PASS` | master SHA unchanged; no Research/Curation/Web/site semantic files changed |
 | `git diff --check` | `PASS` | no whitespace errors |
 
@@ -334,7 +335,7 @@ WCD-06 分为：
 
 - `WCD_04_COVERAGE_REBALANCING.md`
 - `WCD_04_EXTERNAL_AUDIT_REBASE.csv` — 34 rows
-- `WCD_04_COVERAGE_PRIORITY_MATRIX.csv` — 16 rows
+- `WCD_04_COVERAGE_PRIORITY_MATRIX.csv` — 17 rows
 - `WCD_04_RELATIONSHIP_ROUTING.csv` — 422 rows
 - `WCD_04_DESCRIPTION_ROUTING.csv` — 302 rows
 - `WCD_04_MAJOR_WORKS_PRIORITY.csv` — 239 rows

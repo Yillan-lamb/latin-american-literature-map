@@ -11,7 +11,7 @@
     "places": 38,
     "relation_holds": 51,
     "relationships": 306,
-    "sources": 278
+    "sources": 288
   },
   "curation": {
     "entries": [
@@ -2231,13 +2231,13 @@
           },
           {
             "confidence": "high",
-            "description_zh": "萨曼塔·施韦布林与阿根廷关联（作者身份来源）",
+            "description_zh": "萨曼塔·施维伯林与阿根廷关联（作者身份来源）",
             "map_relation_role": "author_geography",
             "relation_id": "V2-GEO-REL-062",
             "relation_type": "ASSOCIATED_WITH_PLACE",
             "review_status": "accepted",
             "source_entity_id": "V1-ENT-0296",
-            "source_name_zh": "萨曼塔·施韦布林",
+            "source_name_zh": "萨曼塔·施维伯林",
             "source_reference": "SRC-0231",
             "space_kind": "real",
             "target_name_zh": "阿根廷",
@@ -3949,7 +3949,7 @@
             "relation_type": "ASSOCIATED_WITH_PLACE",
             "review_status": "accepted",
             "source_entity_id": "V1-ENT-0172",
-            "source_name_zh": "豪尔赫·亚马多",
+            "source_name_zh": "若热·亚马多",
             "source_reference": "SRC-0138",
             "space_kind": "real",
             "target_name_zh": "巴西",
@@ -5148,7 +5148,7 @@
         "relation_type": "ASSOCIATED_WITH_PLACE",
         "review_status": "accepted",
         "source_entity_id": "V1-ENT-0172",
-        "source_name_zh": "豪尔赫·亚马多",
+        "source_name_zh": "若热·亚马多",
         "source_reference": "SRC-0138",
         "space_kind": "real",
         "target_name_zh": "巴西",
@@ -5562,13 +5562,13 @@
       },
       {
         "confidence": "high",
-        "description_zh": "萨曼塔·施韦布林与阿根廷关联（作者身份来源）",
+        "description_zh": "萨曼塔·施维伯林与阿根廷关联（作者身份来源）",
         "map_relation_role": "author_geography",
         "relation_id": "V2-GEO-REL-062",
         "relation_type": "ASSOCIATED_WITH_PLACE",
         "review_status": "accepted",
         "source_entity_id": "V1-ENT-0296",
-        "source_name_zh": "萨曼塔·施韦布林",
+        "source_name_zh": "萨曼塔·施维伯林",
         "source_reference": "SRC-0231",
         "space_kind": "real",
         "target_name_zh": "阿根廷",
@@ -9265,10 +9265,10 @@
         "canonical_status": "candidate",
         "content_cards": [
           {
-            "author_label": "豪尔赫·亚马多",
+            "author_label": "若热·亚马多",
             "card_id": "V1-CARD-0072",
             "card_type": "author",
-            "content_markdown": "### 豪尔赫·亚马多\n\n- 对象类型：`author`｜原文名：Jorge Amado｜国家/地区：巴西｜来源批次：WEB-CE-B02\n- 本批只公开来源支持的基础生平和作品书目；文学运动、影响与强主题判断留作后续审计。",
+            "content_markdown": "### 若热·亚马多\n\n- 对象类型：`author`｜原文名：Jorge Amado｜国家/地区：巴西｜来源批次：WEB-CE-B02\n- 本批只公开来源支持的基础生平和作品书目；文学运动、影响与强主题判断留作后续审计。",
             "country_or_region": "巴西",
             "genre_or_form": "",
             "input_layer": "WEB-CE-B02",
@@ -9279,7 +9279,7 @@
             "period_bucket": "1912–2001",
             "source_minimum_status": "meets",
             "subject_id": "V1-ENT-0172",
-            "title_zh": "豪尔赫·亚马多"
+            "title_zh": "若热·亚马多"
           }
         ],
         "entity_id": "V1-ENT-0172",
@@ -9353,15 +9353,15 @@
         ],
         "incoming_relations": [],
         "issue_codes": "NONE",
-        "name_zh": "豪尔赫·亚马多",
-        "normalization_basis": "B02 official/academy source identity check; Chinese display name is a reader-facing canonical candidate",
+        "name_zh": "若热·亚马多",
+        "normalization_basis": "Published Chinese author spelling supported by China Writers Net; original name and entity identity retained.",
         "origin_count": "2",
         "origin_refs": "CAND-B02-JORGE-AUTHOR",
         "original_name": "Jorge Amado",
         "outgoing_relations": [
           {
             "confidence": "high",
-            "description_zh": "豪尔赫·亚马多创作《弗洛尔和她的两个丈夫》（Dona Flor e seus dois maridos）",
+            "description_zh": "若热·亚马多创作《弗洛尔和她的两个丈夫》（Dona Flor e seus dois maridos）",
             "evidence_count": "1",
             "issue_code": "NONE",
             "object_id": "V1-ENT-0179",
@@ -9375,7 +9375,7 @@
           },
           {
             "confidence": "high",
-            "description_zh": "豪尔赫·亚马多创作《加布里埃拉》（Gabriela, cravo e canela）",
+            "description_zh": "若热·亚马多创作《加布里埃拉》（Gabriela, cravo e canela）",
             "evidence_count": "1",
             "issue_code": "NONE",
             "object_id": "V1-ENT-0180",
@@ -9389,7 +9389,7 @@
           },
           {
             "confidence": "high",
-            "description_zh": "豪尔赫·亚马多创作《沙滩船长》（Capitães da Areia）",
+            "description_zh": "若热·亚马多创作《沙滩船长》（Capitães da Areia）",
             "evidence_count": "1",
             "issue_code": "NONE",
             "object_id": "V1-ENT-0181",
@@ -9403,7 +9403,7 @@
           },
           {
             "confidence": "high",
-            "description_zh": "豪尔赫·亚马多与巴西关联（作者生平/身份来源）",
+            "description_zh": "若热·亚马多与巴西关联（作者生平/身份来源）",
             "evidence_count": "1",
             "issue_code": "NONE",
             "object_id": "V1-ENT-0183",
@@ -9674,7 +9674,7 @@
         "outgoing_relations": [
           {
             "confidence": "high",
-            "description_zh": "何塞·多诺索创作《夜晚的淫鸟》（El obsceno pájaro de la noche）",
+            "description_zh": "何塞·多诺索创作《污秽的夜鸟》（El obsceno pájaro de la noche）",
             "evidence_count": "1",
             "issue_code": "NONE",
             "object_id": "V1-ENT-0190",
@@ -9858,7 +9858,7 @@
           },
           {
             "confidence": "high",
-            "description_zh": "埃内斯托·萨瓦托创作《阿巴顿，毁灭者》（Abaddón el exterminador）",
+            "description_zh": "埃内斯托·萨瓦托创作《毁灭者亚巴顿》（Abaddón el exterminador）",
             "evidence_count": "1",
             "issue_code": "NONE",
             "object_id": "V1-ENT-0195",
@@ -13771,10 +13771,10 @@
         "canonical_status": "candidate",
         "content_cards": [
           {
-            "author_label": "萨曼塔·施韦布林",
+            "author_label": "萨曼塔·施维伯林",
             "card_id": "V1-CARD-0184",
             "card_type": "author",
-            "content_markdown": "### 萨曼塔·施韦布林｜Samanta Schweblin — Argentina Ministry and PRH profiles establish the author entry.",
+            "content_markdown": "### 萨曼塔·施维伯林｜Samanta Schweblin — Argentina Ministry and PRH profiles establish the author entry.",
             "country_or_region": "阿根廷",
             "genre_or_form": "短篇小说与小说",
             "input_layer": "WEB-CE-B12",
@@ -13785,7 +13785,7 @@
             "period_bucket": "1978–",
             "source_minimum_status": "meets",
             "subject_id": "V1-ENT-0296",
-            "title_zh": "萨曼塔·施韦布林"
+            "title_zh": "萨曼塔·施维伯林"
           }
         ],
         "entity_id": "V1-ENT-0296",
@@ -13833,15 +13833,15 @@
         ],
         "incoming_relations": [],
         "issue_codes": "NONE",
-        "name_zh": "萨曼塔·施韦布林",
-        "normalization_basis": "B12 Argentina Ministry and PRH profiles; Chinese display candidate",
+        "name_zh": "萨曼塔·施维伯林",
+        "normalization_basis": "Published Chinese author spelling supported across two People's Literature edition records; original name retained.",
         "origin_count": "1",
         "origin_refs": "CAND-B12-SCHWEBLIN-AUTHOR",
         "original_name": "Samanta Schweblin",
         "outgoing_relations": [
           {
             "confidence": "high",
-            "description_zh": "萨曼塔·施韦布林创作《救援距离》（Distancia de rescate）",
+            "description_zh": "萨曼塔·施维伯林创作《营救距离》（Distancia de rescate）",
             "evidence_count": "1",
             "issue_code": "NONE",
             "object_id": "V1-ENT-0299",
@@ -13855,7 +13855,7 @@
           },
           {
             "confidence": "high",
-            "description_zh": "萨曼塔·施韦布林创作《口中之鸟》（Pájaros en la boca）",
+            "description_zh": "萨曼塔·施维伯林创作《吃鸟的女孩》（Pájaros en la boca）",
             "evidence_count": "1",
             "issue_code": "NONE",
             "object_id": "V1-ENT-0300",
@@ -13869,7 +13869,7 @@
           },
           {
             "confidence": "high",
-            "description_zh": "萨曼塔·施韦布林创作《七座空屋》（Siete casas vacías）",
+            "description_zh": "萨曼塔·施维伯林创作《七座空屋》（Siete casas vacías）",
             "evidence_count": "1",
             "issue_code": "NONE",
             "object_id": "V1-ENT-0301",
@@ -13883,7 +13883,7 @@
           },
           {
             "confidence": "high",
-            "description_zh": "萨曼塔·施韦布林与阿根廷关联",
+            "description_zh": "萨曼塔·施维伯林与阿根廷关联",
             "evidence_count": "1",
             "issue_code": "NONE",
             "object_id": "V1-ENT-0001",
@@ -13971,7 +13971,7 @@
         "outgoing_relations": [
           {
             "confidence": "high",
-            "description_zh": "玛丽安娜·恩里克斯创作《我们在火中失去的东西》（Las cosas que perdimos en el fuego）",
+            "description_zh": "玛丽安娜·恩里克斯创作《火中遗物》（Las cosas que perdimos en el fuego）",
             "evidence_count": "1",
             "issue_code": "NONE",
             "object_id": "V1-ENT-0302",
@@ -13985,7 +13985,7 @@
           },
           {
             "confidence": "high",
-            "description_zh": "玛丽安娜·恩里克斯创作《我们的夜晚》（Nuestra parte de noche）",
+            "description_zh": "玛丽安娜·恩里克斯创作《属于我们的夜晚》（Nuestra parte de noche）",
             "evidence_count": "1",
             "issue_code": "NONE",
             "object_id": "V1-ENT-0303",
@@ -13999,7 +13999,7 @@
           },
           {
             "confidence": "high",
-            "description_zh": "玛丽安娜·恩里克斯创作《床上吸烟的危险》（Los peligros de fumar en la cama）",
+            "description_zh": "玛丽安娜·恩里克斯创作《床上抽烟危险》（Los peligros de fumar en la cama）",
             "evidence_count": "1",
             "issue_code": "NONE",
             "object_id": "V1-ENT-0304",
@@ -14115,7 +14115,7 @@
           },
           {
             "confidence": "high",
-            "description_zh": "亚历杭德罗·桑布拉创作《树木的私生活》（La vida privada de los árboles）",
+            "description_zh": "亚历杭德罗·桑布拉创作《树的隐秘生活》（La vida privada de los árboles）",
             "evidence_count": "1",
             "issue_code": "NONE",
             "object_id": "V1-ENT-0306",
@@ -14129,7 +14129,7 @@
           },
           {
             "confidence": "high",
-            "description_zh": "亚历杭德罗·桑布拉创作《回家的方式》（Formas de volver a casa）",
+            "description_zh": "亚历杭德罗·桑布拉创作《回家的路》（Formas de volver a casa）",
             "evidence_count": "1",
             "issue_code": "NONE",
             "object_id": "V1-ENT-0307",
@@ -16469,13 +16469,13 @@
           },
           {
             "confidence": "high",
-            "description_zh": "萨曼塔·施韦布林与阿根廷关联（作者身份来源）",
+            "description_zh": "萨曼塔·施维伯林与阿根廷关联（作者身份来源）",
             "map_relation_role": "author_geography",
             "relation_id": "V2-GEO-REL-062",
             "relation_type": "ASSOCIATED_WITH_PLACE",
             "review_status": "accepted",
             "source_entity_id": "V1-ENT-0296",
-            "source_name_zh": "萨曼塔·施韦布林",
+            "source_name_zh": "萨曼塔·施维伯林",
             "source_reference": "SRC-0231",
             "space_kind": "real",
             "target_name_zh": "阿根廷",
@@ -18187,7 +18187,7 @@
             "relation_type": "ASSOCIATED_WITH_PLACE",
             "review_status": "accepted",
             "source_entity_id": "V1-ENT-0172",
-            "source_name_zh": "豪尔赫·亚马多",
+            "source_name_zh": "若热·亚马多",
             "source_reference": "SRC-0138",
             "space_kind": "real",
             "target_name_zh": "巴西",
@@ -25711,10 +25711,10 @@
         "canonical_status": "candidate",
         "content_cards": [
           {
-            "author_label": "豪尔赫·亚马多",
+            "author_label": "若热·亚马多",
             "card_id": "V1-CARD-0073",
             "card_type": "work",
-            "content_markdown": "### 《弗洛尔和她的两个丈夫》\n\n- 对象类型：`work`｜作者：豪尔赫·亚马多｜原文题名：Dona Flor e seus dois maridos｜国家/地区：巴西\n- 本批记录首版年份、实体层和可回溯书目说明；中文译本版本学字段不作为本批门槛。",
+            "content_markdown": "### 《弗洛尔和她的两个丈夫》\n\n- 对象类型：`work`｜作者：若热·亚马多｜原文题名：Dona Flor e seus dois maridos｜国家/地区：巴西\n- 本批记录首版年份、实体层和可回溯书目说明；中文译本版本学字段不作为本批门槛。",
             "country_or_region": "巴西",
             "genre_or_form": "",
             "input_layer": "WEB-CE-B02",
@@ -25774,7 +25774,7 @@
         "incoming_relations": [
           {
             "confidence": "high",
-            "description_zh": "豪尔赫·亚马多创作《弗洛尔和她的两个丈夫》（Dona Flor e seus dois maridos）",
+            "description_zh": "若热·亚马多创作《弗洛尔和她的两个丈夫》（Dona Flor e seus dois maridos）",
             "evidence_count": "1",
             "issue_code": "NONE",
             "object_id": "V1-ENT-0179",
@@ -25799,10 +25799,10 @@
         "canonical_status": "candidate",
         "content_cards": [
           {
-            "author_label": "豪尔赫·亚马多",
+            "author_label": "若热·亚马多",
             "card_id": "V1-CARD-0074",
             "card_type": "work",
-            "content_markdown": "### 《加布里埃拉》\n\n- 对象类型：`work`｜作者：豪尔赫·亚马多｜原文题名：Gabriela, cravo e canela｜国家/地区：巴西\n- 本批记录首版年份、实体层和可回溯书目说明；中文译本版本学字段不作为本批门槛。",
+            "content_markdown": "### 《加布里埃拉》\n\n- 对象类型：`work`｜作者：若热·亚马多｜原文题名：Gabriela, cravo e canela｜国家/地区：巴西\n- 本批记录首版年份、实体层和可回溯书目说明；中文译本版本学字段不作为本批门槛。",
             "country_or_region": "巴西",
             "genre_or_form": "",
             "input_layer": "WEB-CE-B02",
@@ -25862,7 +25862,7 @@
         "incoming_relations": [
           {
             "confidence": "high",
-            "description_zh": "豪尔赫·亚马多创作《加布里埃拉》（Gabriela, cravo e canela）",
+            "description_zh": "若热·亚马多创作《加布里埃拉》（Gabriela, cravo e canela）",
             "evidence_count": "1",
             "issue_code": "NONE",
             "object_id": "V1-ENT-0180",
@@ -25887,10 +25887,10 @@
         "canonical_status": "candidate",
         "content_cards": [
           {
-            "author_label": "豪尔赫·亚马多",
+            "author_label": "若热·亚马多",
             "card_id": "V1-CARD-0075",
             "card_type": "work",
-            "content_markdown": "### 《沙滩船长》\n\n- 对象类型：`work`｜作者：豪尔赫·亚马多｜原文题名：Capitães da Areia｜国家/地区：巴西\n- 本批记录首版年份、实体层和可回溯书目说明；中文译本版本学字段不作为本批门槛。",
+            "content_markdown": "### 《沙滩船长》\n\n- 对象类型：`work`｜作者：若热·亚马多｜原文题名：Capitães da Areia｜国家/地区：巴西\n- 本批记录首版年份、实体层和可回溯书目说明；中文译本版本学字段不作为本批门槛。",
             "country_or_region": "巴西",
             "genre_or_form": "",
             "input_layer": "WEB-CE-B02",
@@ -25950,7 +25950,7 @@
         "incoming_relations": [
           {
             "confidence": "high",
-            "description_zh": "豪尔赫·亚马多创作《沙滩船长》（Capitães da Areia）",
+            "description_zh": "若热·亚马多创作《沙滩船长》（Capitães da Areia）",
             "evidence_count": "1",
             "issue_code": "NONE",
             "object_id": "V1-ENT-0181",
@@ -26242,7 +26242,7 @@
             "author_label": "何塞·多诺索",
             "card_id": "V1-CARD-0081",
             "card_type": "work",
-            "content_markdown": "### 《夜晚的淫鸟》｜El obsceno pájaro de la noche — 本批记录出版年份、原文题名与来源入口，不扩写未被来源直接支持的情节或文学地位。",
+            "content_markdown": "### 《污秽的夜鸟》｜El obsceno pájaro de la noche — 本批记录出版年份、原文题名与来源入口，不扩写未被来源直接支持的情节或文学地位。",
             "country_or_region": "智利",
             "genre_or_form": "小说",
             "input_layer": "WEB-CE-B03",
@@ -26253,7 +26253,7 @@
             "period_bucket": "1970",
             "source_minimum_status": "meets",
             "subject_id": "V1-ENT-0190",
-            "title_zh": "《夜晚的淫鸟》"
+            "title_zh": "《污秽的夜鸟》"
           }
         ],
         "entity_id": "V1-ENT-0190",
@@ -26302,7 +26302,7 @@
         "incoming_relations": [
           {
             "confidence": "high",
-            "description_zh": "何塞·多诺索创作《夜晚的淫鸟》（El obsceno pájaro de la noche）",
+            "description_zh": "何塞·多诺索创作《污秽的夜鸟》（El obsceno pájaro de la noche）",
             "evidence_count": "1",
             "issue_code": "NONE",
             "object_id": "V1-ENT-0190",
@@ -26316,8 +26316,8 @@
           }
         ],
         "issue_codes": "NONE",
-        "name_zh": "《夜晚的淫鸟》",
-        "normalization_basis": "B03 source-backed original title and Chinese display title; translation metadata is intentionally not a gate",
+        "name_zh": "《污秽的夜鸟》",
+        "normalization_basis": "Published Chinese title supported by a procurement catalogue identifying the People's Literature edition; original title retained.",
         "origin_count": "1",
         "origin_refs": "CAND-B03-V1-ENT-0190-WORK",
         "original_name": "El obsceno pájaro de la noche",
@@ -26682,7 +26682,7 @@
             "author_label": "埃内斯托·萨瓦托",
             "card_id": "V1-CARD-0087",
             "card_type": "work",
-            "content_markdown": "### 《阿巴顿，毁灭者》｜Abaddón el exterminador — 本批记录首版年份与可回溯书目说明，不扩写未被来源直接支持的情节或文学地位。",
+            "content_markdown": "### 《毁灭者亚巴顿》｜Abaddón el exterminador — 本批记录首版年份与可回溯书目说明，不扩写未被来源直接支持的情节或文学地位。",
             "country_or_region": "阿根廷",
             "genre_or_form": "小说",
             "input_layer": "WEB-CE-B03",
@@ -26693,7 +26693,7 @@
             "period_bucket": "1974",
             "source_minimum_status": "meets",
             "subject_id": "V1-ENT-0195",
-            "title_zh": "《阿巴顿，毁灭者》"
+            "title_zh": "《毁灭者亚巴顿》"
           }
         ],
         "entity_id": "V1-ENT-0195",
@@ -26742,7 +26742,7 @@
         "incoming_relations": [
           {
             "confidence": "high",
-            "description_zh": "埃内斯托·萨瓦托创作《阿巴顿，毁灭者》（Abaddón el exterminador）",
+            "description_zh": "埃内斯托·萨瓦托创作《毁灭者亚巴顿》（Abaddón el exterminador）",
             "evidence_count": "1",
             "issue_code": "NONE",
             "object_id": "V1-ENT-0195",
@@ -26756,8 +26756,8 @@
           }
         ],
         "issue_codes": "NONE",
-        "name_zh": "《阿巴顿，毁灭者》",
-        "normalization_basis": "B03 source-backed original title and Chinese display title; translation metadata is intentionally not a gate",
+        "name_zh": "《毁灭者亚巴顿》",
+        "normalization_basis": "Published Chinese title supported by the Sichuan Literature and Art edition catalogue; original title retained.",
         "origin_count": "1",
         "origin_refs": "CAND-B03-V1-ENT-0195-WORK",
         "original_name": "Abaddón el exterminador",
@@ -33220,10 +33220,10 @@
         "canonical_status": "candidate",
         "content_cards": [
           {
-            "author_label": "萨曼塔·施韦布林",
+            "author_label": "萨曼塔·施维伯林",
             "card_id": "V1-CARD-0187",
             "card_type": "work",
-            "content_markdown": "### 《救援距离》｜Distancia de rescate — The Ministry PDF marks ©2014 on the copyright page; first-publication year remains open.",
+            "content_markdown": "### 《营救距离》｜Distancia de rescate — The Ministry PDF marks ©2014 on the copyright page; first-publication year remains open.",
             "country_or_region": "阿根廷",
             "genre_or_form": "小说",
             "input_layer": "WEB-CE-B12",
@@ -33234,7 +33234,7 @@
             "period_bucket": "首版年份待补",
             "source_minimum_status": "meets",
             "subject_id": "V1-ENT-0299",
-            "title_zh": "《救援距离》"
+            "title_zh": "《营救距离》"
           }
         ],
         "entity_id": "V1-ENT-0299",
@@ -33283,7 +33283,7 @@
         "incoming_relations": [
           {
             "confidence": "high",
-            "description_zh": "萨曼塔·施韦布林创作《救援距离》（Distancia de rescate）",
+            "description_zh": "萨曼塔·施维伯林创作《营救距离》（Distancia de rescate）",
             "evidence_count": "1",
             "issue_code": "NONE",
             "object_id": "V1-ENT-0299",
@@ -33297,8 +33297,8 @@
           }
         ],
         "issue_codes": "NONE",
-        "name_zh": "《救援距离》",
-        "normalization_basis": "B12 publisher/institutional bibliography; work layer",
+        "name_zh": "《营救距离》",
+        "normalization_basis": "Published Chinese title supported by the People's Literature edition record; original title retained.",
         "origin_count": "1",
         "origin_refs": "CAND-B12-SCHWEBLIN-W01",
         "original_name": "Distancia de rescate",
@@ -33308,10 +33308,10 @@
         "canonical_status": "candidate",
         "content_cards": [
           {
-            "author_label": "萨曼塔·施韦布林",
+            "author_label": "萨曼塔·施维伯林",
             "card_id": "V1-CARD-0188",
             "card_type": "work",
-            "content_markdown": "### 《口中之鸟》｜Pájaros en la boca — Institutional and publisher pages identify the title as a story collection; first year is an open gap.",
+            "content_markdown": "### 《吃鸟的女孩》｜Pájaros en la boca — Institutional and publisher pages identify the title as a story collection; first year is an open gap.",
             "country_or_region": "阿根廷",
             "genre_or_form": "短篇小说集",
             "input_layer": "WEB-CE-B12",
@@ -33322,7 +33322,7 @@
             "period_bucket": "出版年份待补",
             "source_minimum_status": "meets",
             "subject_id": "V1-ENT-0300",
-            "title_zh": "《口中之鸟》"
+            "title_zh": "《吃鸟的女孩》"
           }
         ],
         "entity_id": "V1-ENT-0300",
@@ -33358,7 +33358,7 @@
         "incoming_relations": [
           {
             "confidence": "high",
-            "description_zh": "萨曼塔·施韦布林创作《口中之鸟》（Pájaros en la boca）",
+            "description_zh": "萨曼塔·施维伯林创作《吃鸟的女孩》（Pájaros en la boca）",
             "evidence_count": "1",
             "issue_code": "NONE",
             "object_id": "V1-ENT-0300",
@@ -33372,8 +33372,8 @@
           }
         ],
         "issue_codes": "NONE",
-        "name_zh": "《口中之鸟》",
-        "normalization_basis": "B12 publisher/institutional bibliography; collection layer",
+        "name_zh": "《吃鸟的女孩》",
+        "normalization_basis": "Published Chinese title supported by a university library catalogue; original title retained.",
         "origin_count": "1",
         "origin_refs": "CAND-B12-SCHWEBLIN-W02",
         "original_name": "Pájaros en la boca",
@@ -33383,7 +33383,7 @@
         "canonical_status": "candidate",
         "content_cards": [
           {
-            "author_label": "萨曼塔·施韦布林",
+            "author_label": "萨曼塔·施维伯林",
             "card_id": "V1-CARD-0189",
             "card_type": "work",
             "content_markdown": "### 《七座空屋》｜Siete casas vacías — The Ministry bibliography and PRH page identify the story collection; current edition date is not first publication.",
@@ -33433,7 +33433,7 @@
         "incoming_relations": [
           {
             "confidence": "high",
-            "description_zh": "萨曼塔·施韦布林创作《七座空屋》（Siete casas vacías）",
+            "description_zh": "萨曼塔·施维伯林创作《七座空屋》（Siete casas vacías）",
             "evidence_count": "1",
             "issue_code": "NONE",
             "object_id": "V1-ENT-0301",
@@ -33461,7 +33461,7 @@
             "author_label": "玛丽安娜·恩里克斯",
             "card_id": "V1-CARD-0190",
             "card_type": "work",
-            "content_markdown": "### 《我们在火中失去的东西》｜Las cosas que perdimos en el fuego — Anagrama identifies a story collection published in February 2016.",
+            "content_markdown": "### 《火中遗物》｜Las cosas que perdimos en el fuego — Anagrama identifies a story collection published in February 2016.",
             "country_or_region": "阿根廷",
             "genre_or_form": "短篇小说集",
             "input_layer": "WEB-CE-B12",
@@ -33472,7 +33472,7 @@
             "period_bucket": "2016",
             "source_minimum_status": "meets",
             "subject_id": "V1-ENT-0302",
-            "title_zh": "《我们在火中失去的东西》"
+            "title_zh": "《火中遗物》"
           }
         ],
         "entity_id": "V1-ENT-0302",
@@ -33521,7 +33521,7 @@
         "incoming_relations": [
           {
             "confidence": "high",
-            "description_zh": "玛丽安娜·恩里克斯创作《我们在火中失去的东西》（Las cosas que perdimos en el fuego）",
+            "description_zh": "玛丽安娜·恩里克斯创作《火中遗物》（Las cosas que perdimos en el fuego）",
             "evidence_count": "1",
             "issue_code": "NONE",
             "object_id": "V1-ENT-0302",
@@ -33535,8 +33535,8 @@
           }
         ],
         "issue_codes": "NONE",
-        "name_zh": "《我们在火中失去的东西》",
-        "normalization_basis": "B12 Anagrama bibliography; collection layer",
+        "name_zh": "《火中遗物》",
+        "normalization_basis": "Published Chinese title supported by Instituto Cervantes Beijing; original title retained.",
         "origin_count": "1",
         "origin_refs": "CAND-B12-ENRIQUEZ-W01",
         "original_name": "Las cosas que perdimos en el fuego",
@@ -33549,7 +33549,7 @@
             "author_label": "玛丽安娜·恩里克斯",
             "card_id": "V1-CARD-0191",
             "card_type": "work",
-            "content_markdown": "### 《我们的夜晚》｜Nuestra parte de noche — Anagrama identifies a novel and the 2019 Herralde award; first-publication year remains a gap.",
+            "content_markdown": "### 《属于我们的夜晚》｜Nuestra parte de noche — Anagrama identifies a novel and the 2019 Herralde award; first-publication year remains a gap.",
             "country_or_region": "阿根廷",
             "genre_or_form": "小说",
             "input_layer": "WEB-CE-B12",
@@ -33560,7 +33560,7 @@
             "period_bucket": "2019奖项节点",
             "source_minimum_status": "meets",
             "subject_id": "V1-ENT-0303",
-            "title_zh": "《我们的夜晚》"
+            "title_zh": "《属于我们的夜晚》"
           }
         ],
         "entity_id": "V1-ENT-0303",
@@ -33609,7 +33609,7 @@
         "incoming_relations": [
           {
             "confidence": "high",
-            "description_zh": "玛丽安娜·恩里克斯创作《我们的夜晚》（Nuestra parte de noche）",
+            "description_zh": "玛丽安娜·恩里克斯创作《属于我们的夜晚》（Nuestra parte de noche）",
             "evidence_count": "1",
             "issue_code": "NONE",
             "object_id": "V1-ENT-0303",
@@ -33623,8 +33623,8 @@
           }
         ],
         "issue_codes": "NONE",
-        "name_zh": "《我们的夜晚》",
-        "normalization_basis": "B12 Anagrama bibliography; novel layer",
+        "name_zh": "《属于我们的夜晚》",
+        "normalization_basis": "Published Chinese title supported by the FLTRP catalogue; original title retained.",
         "origin_count": "1",
         "origin_refs": "CAND-B12-ENRIQUEZ-W02",
         "original_name": "Nuestra parte de noche",
@@ -33637,7 +33637,7 @@
             "author_label": "玛丽安娜·恩里克斯",
             "card_id": "V1-CARD-0192",
             "card_type": "work",
-            "content_markdown": "### 《床上吸烟的危险》｜Los peligros de fumar en la cama — Anagrama identifies an earlier Argentine story collection and twelve-story form.",
+            "content_markdown": "### 《床上抽烟危险》｜Los peligros de fumar en la cama — Anagrama identifies an earlier Argentine story collection and twelve-story form.",
             "country_or_region": "阿根廷",
             "genre_or_form": "短篇小说集",
             "input_layer": "WEB-CE-B12",
@@ -33648,7 +33648,7 @@
             "period_bucket": "出版年份待补",
             "source_minimum_status": "meets",
             "subject_id": "V1-ENT-0304",
-            "title_zh": "《床上吸烟的危险》"
+            "title_zh": "《床上抽烟危险》"
           }
         ],
         "entity_id": "V1-ENT-0304",
@@ -33684,7 +33684,7 @@
         "incoming_relations": [
           {
             "confidence": "high",
-            "description_zh": "玛丽安娜·恩里克斯创作《床上吸烟的危险》（Los peligros de fumar en la cama）",
+            "description_zh": "玛丽安娜·恩里克斯创作《床上抽烟危险》（Los peligros de fumar en la cama）",
             "evidence_count": "1",
             "issue_code": "NONE",
             "object_id": "V1-ENT-0304",
@@ -33698,8 +33698,8 @@
           }
         ],
         "issue_codes": "NONE",
-        "name_zh": "《床上吸烟的危险》",
-        "normalization_basis": "B12 Anagrama bibliography; collection layer",
+        "name_zh": "《床上抽烟危险》",
+        "normalization_basis": "Published Chinese title supported by a university library catalogue; original title retained.",
         "origin_count": "1",
         "origin_refs": "CAND-B12-ENRIQUEZ-W03",
         "original_name": "Los peligros de fumar en la cama",
@@ -33800,7 +33800,7 @@
             "author_label": "亚历杭德罗·桑布拉",
             "card_id": "V1-CARD-0194",
             "card_type": "work",
-            "content_markdown": "### 《树木的私生活》｜La vida privada de los árboles — Anagrama and Memoria Chilena record the 2007 novel.",
+            "content_markdown": "### 《树的隐秘生活》｜La vida privada de los árboles — Anagrama and Memoria Chilena record the 2007 novel.",
             "country_or_region": "智利",
             "genre_or_form": "小说",
             "input_layer": "WEB-CE-B12",
@@ -33811,7 +33811,7 @@
             "period_bucket": "2007",
             "source_minimum_status": "meets",
             "subject_id": "V1-ENT-0306",
-            "title_zh": "《树木的私生活》"
+            "title_zh": "《树的隐秘生活》"
           }
         ],
         "entity_id": "V1-ENT-0306",
@@ -33860,7 +33860,7 @@
         "incoming_relations": [
           {
             "confidence": "high",
-            "description_zh": "亚历杭德罗·桑布拉创作《树木的私生活》（La vida privada de los árboles）",
+            "description_zh": "亚历杭德罗·桑布拉创作《树的隐秘生活》（La vida privada de los árboles）",
             "evidence_count": "1",
             "issue_code": "NONE",
             "object_id": "V1-ENT-0306",
@@ -33874,8 +33874,8 @@
           }
         ],
         "issue_codes": "NONE",
-        "name_zh": "《树木的私生活》",
-        "normalization_basis": "B12 Anagrama and Memoria Chilena bibliography; work layer",
+        "name_zh": "《树的隐秘生活》",
+        "normalization_basis": "Published Chinese title supported by China Writers Net; original title retained.",
         "origin_count": "1",
         "origin_refs": "CAND-B12-ZAMBRA-W02",
         "original_name": "La vida privada de los árboles",
@@ -33888,7 +33888,7 @@
             "author_label": "亚历杭德罗·桑布拉",
             "card_id": "V1-CARD-0195",
             "card_type": "work",
-            "content_markdown": "### 《回家的方式》｜Formas de volver a casa — Anagrama and Memoria Chilena record the 2011 novel.",
+            "content_markdown": "### 《回家的路》｜Formas de volver a casa — Anagrama and Memoria Chilena record the 2011 novel.",
             "country_or_region": "智利",
             "genre_or_form": "小说",
             "input_layer": "WEB-CE-B12",
@@ -33899,7 +33899,7 @@
             "period_bucket": "2011",
             "source_minimum_status": "meets",
             "subject_id": "V1-ENT-0307",
-            "title_zh": "《回家的方式》"
+            "title_zh": "《回家的路》"
           }
         ],
         "entity_id": "V1-ENT-0307",
@@ -33948,7 +33948,7 @@
         "incoming_relations": [
           {
             "confidence": "high",
-            "description_zh": "亚历杭德罗·桑布拉创作《回家的方式》（Formas de volver a casa）",
+            "description_zh": "亚历杭德罗·桑布拉创作《回家的路》（Formas de volver a casa）",
             "evidence_count": "1",
             "issue_code": "NONE",
             "object_id": "V1-ENT-0307",
@@ -33962,8 +33962,8 @@
           }
         ],
         "issue_codes": "NONE",
-        "name_zh": "《回家的方式》",
-        "normalization_basis": "B12 Anagrama and Memoria Chilena bibliography; work layer",
+        "name_zh": "《回家的路》",
+        "normalization_basis": "Published Chinese title supported by China Writers Net; original title retained.",
         "origin_count": "1",
         "origin_refs": "CAND-B12-ZAMBRA-W03",
         "original_name": "Formas de volver a casa",
@@ -39792,7 +39792,7 @@
       }
     ]
   },
-  "product_version": "0.3.0",
+  "product_version": "0.3.1",
   "public_content": {
     "authors": [
       {
@@ -41913,7 +41913,7 @@
         },
         "reader_lede": {
           "basis_note": "SOL-AUDIT-WEB-CE-B02-B05 独立来源与表述强度复核通过",
-          "content": "豪尔赫·亚马多（1912–2001）是巴西记者、小说家和回忆录作者。巴西文学院的官方书目列出《加布里埃拉》（1958）、《弗洛尔和她的两个丈夫》（1966）和《沙滩船长》（1937）。",
+          "content": "若热·亚马多（1912–2001）是巴西记者、小说家和回忆录作者。巴西文学院的官方书目列出《加布里埃拉》（1958）、《弗洛尔和她的两个丈夫》（1966）和《沙滩船长》（1937）。",
           "created_at": "2026-08-20",
           "research_refs": [
             "V1-FCT-0382",
@@ -42029,7 +42029,7 @@
         },
         "reader_lede": {
           "basis_note": "SOL-AUDIT-WEB-CE-B02-B05 独立来源与表述强度复核通过",
-          "content": "何塞·多诺索（1924–1996）是智利作家。智利国家图书馆的 Memoria Chilena 档案记录《加冕》（1957）、《无尽的地方》（1966）与《夜晚的淫鸟》（1970）的作品线索。",
+          "content": "何塞·多诺索（1924–1996）是智利作家。智利国家图书馆的 Memoria Chilena 档案记录《加冕》（1957）、《无尽的地方》（1966）与《污秽的夜鸟》（1970）的作品线索。",
           "created_at": "2026-08-20",
           "research_refs": [
             "V1-FCT-0410",
@@ -42089,7 +42089,7 @@
         },
         "reader_lede": {
           "basis_note": "SOL-AUDIT-WEB-CE-B02-B05 独立来源与表述强度复核通过",
-          "content": "埃内斯托·萨瓦托（1911–2011）是阿根廷作家、画家；受过物理学训练并曾任教。阿根廷国家图书馆与 CONICET 资料列出《隧道》（1948）、《英雄与坟墓》（1961）和《阿巴顿，毁灭者》（1974）。",
+          "content": "埃内斯托·萨瓦托（1911–2011）是阿根廷作家、画家；受过物理学训练并曾任教。阿根廷国家图书馆与 CONICET 资料列出《隧道》（1948）、《英雄与坟墓》（1961）和《毁灭者亚巴顿》（1974）。",
           "created_at": "2026-08-20",
           "research_refs": [
             "V1-FCT-0423",
@@ -52176,7 +52176,7 @@
         },
         "literary_profile": {
           "basis_note": "WEB-CE-B02 新增策展文案，待 Sol/USER 集中审核",
-          "content": "豪尔赫·亚马多（1912–2001）是巴西记者、小说家和回忆录作者。巴西文学院的官方书目列出《加布里埃拉》（1958）、《弗洛尔和她的两个丈夫》（1966）和《沙滩船长》（1937）。",
+          "content": "若热·亚马多（1912–2001）是巴西记者、小说家和回忆录作者。巴西文学院的官方书目列出《加布里埃拉》（1958）、《弗洛尔和她的两个丈夫》（1966）和《沙滩船长》（1937）。",
           "created_at": "2026-08-20",
           "research_refs": [
             "V1-FCT-0382",
@@ -52658,7 +52658,7 @@
         },
         "literary_profile": {
           "basis_note": "WEB-CE-B03 新增策展文案，待 Sol/USER 集中审核",
-          "content": "何塞·多诺索（1924–1996）是智利作家。智利国家图书馆的 Memoria Chilena 档案记录《加冕》（1957）、《无尽的地方》（1966）与《夜晚的淫鸟》（1970）的作品线索。",
+          "content": "何塞·多诺索（1924–1996）是智利作家。智利国家图书馆的 Memoria Chilena 档案记录《加冕》（1957）、《无尽的地方》（1966）与《污秽的夜鸟》（1970）的作品线索。",
           "created_at": "2026-08-20",
           "research_refs": [
             "V1-FCT-0410",
@@ -52709,7 +52709,7 @@
           "content": [
             "《加冕》",
             "《无尽的地方》",
-            "《夜晚的淫鸟》"
+            "《污秽的夜鸟》"
           ],
           "created_at": "2026-08-20",
           "research_refs": [
@@ -52911,7 +52911,7 @@
         },
         "literary_profile": {
           "basis_note": "WEB-CE-B03 新增策展文案，待 Sol/USER 集中审核",
-          "content": "埃内斯托·萨瓦托（1911–2011）是阿根廷作家、画家；受过物理学训练并曾任教。阿根廷国家图书馆与 CONICET 资料列出《隧道》（1948）、《英雄与坟墓》（1961）和《阿巴顿，毁灭者》（1974）。",
+          "content": "埃内斯托·萨瓦托（1911–2011）是阿根廷作家、画家；受过物理学训练并曾任教。阿根廷国家图书馆与 CONICET 资料列出《隧道》（1948）、《英雄与坟墓》（1961）和《毁灭者亚巴顿》（1974）。",
           "created_at": "2026-08-20",
           "research_refs": [
             "V1-FCT-0423",
@@ -52962,7 +52962,7 @@
           "content": [
             "《隧道》",
             "《英雄与坟墓》",
-            "《阿巴顿，毁灭者》"
+            "《毁灭者亚巴顿》"
           ],
           "created_at": "2026-08-20",
           "research_refs": [
@@ -57736,7 +57736,7 @@
           "status": "user_review"
         },
         "guiding_question": {
-          "content": "在保留原文题名的同时，怎样为萨曼塔·施韦布林建立不夸大证据强度的中文阅读入口？",
+          "content": "在保留原文题名的同时，怎样为萨曼塔·施维伯林建立不夸大证据强度的中文阅读入口？",
           "research_refs": [
             "V1-FCT-0786",
             "V1-FCT-0787",
@@ -57768,7 +57768,7 @@
           "status": "user_review"
         },
         "reader_fit": {
-          "content": "如果你想从萨曼塔·施韦布林的作品目录开始，三部作品提供了一条清楚但仍保留待核实字段的进入路径。",
+          "content": "如果你想从萨曼塔·施维伯林的作品目录开始，三部作品提供了一条清楚但仍保留待核实字段的进入路径。",
           "research_refs": [
             "V1-FCT-0786",
             "V1-FCT-0787",
@@ -57782,7 +57782,7 @@
           "status": "user_review"
         },
         "reader_lede": {
-          "content": "萨曼塔·施韦布林的作者入口以身份、国家与可回溯的作品目录为起点；三部作品的原文题名和中文展示名并列，便于中文读者继续核实。教育部资料同时将她标为短篇小说家与小说家，入口可先比较一部小说和两部故事集。",
+          "content": "萨曼塔·施维伯林的作者入口以身份、国家与可回溯的作品目录为起点；三部作品的原文题名和中文展示名并列，便于中文读者继续核实。教育部资料同时将她标为短篇小说家与小说家，入口可先比较一部小说和两部故事集。",
           "research_refs": [
             "V1-FCT-0786",
             "V1-FCT-0787",
@@ -57797,8 +57797,8 @@
         },
         "reading_route": {
           "content": [
-            "先定位《救援距离》的作品层级与已核实字段",
-            "先定位《口中之鸟》的作品层级与已核实字段",
+            "先定位《营救距离》的作品层级与已核实字段",
+            "先定位《吃鸟的女孩》的作品层级与已核实字段",
             "先定位《七座空屋》的作品层级与已核实字段"
           ],
           "research_refs": [
@@ -57833,8 +57833,8 @@
         },
         "start_here": {
           "content": [
-            "《救援距离》",
-            "《口中之鸟》",
+            "《营救距离》",
+            "《吃鸟的女孩》",
             "《七座空屋》"
           ],
           "research_refs": [
@@ -57852,7 +57852,7 @@
         "target_id": "V1-ENT-0296",
         "why_know": {
           "basis_note": "Web 0.2.0 consolidation: low-value template wording withheld; retain only the research-basic page until work-level evidence supports literary guidance",
-          "content": "先从《救援距离》、《口中之鸟》、《七座空屋》的书目事实进入，再把更强的风格或文学史判断留在审核层。《救援距离》的版权年与首版年份仍分开记录，另两部故事集的首版年份留在 gap 台账。",
+          "content": "先从《营救距离》、《吃鸟的女孩》、《七座空屋》的书目事实进入，再把更强的风格或文学史判断留在审核层。《营救距离》的版权年与首版年份仍分开记录，另两部故事集的首版年份留在 gap 台账。",
           "research_refs": [
             "V1-FCT-0786",
             "V1-FCT-0787",
@@ -57958,9 +57958,9 @@
         },
         "reading_route": {
           "content": [
-            "先定位《我们在火中失去的东西》的作品层级与已核实字段",
-            "先定位《我们的夜晚》的作品层级与已核实字段",
-            "先定位《床上吸烟的危险》的作品层级与已核实字段"
+            "先定位《火中遗物》的作品层级与已核实字段",
+            "先定位《属于我们的夜晚》的作品层级与已核实字段",
+            "先定位《床上抽烟危险》的作品层级与已核实字段"
           ],
           "research_refs": [
             "V1-FCT-0789",
@@ -57998,9 +57998,9 @@
         },
         "start_here": {
           "content": [
-            "《我们在火中失去的东西》",
-            "《我们的夜晚》",
-            "《床上吸烟的危险》"
+            "《火中遗物》",
+            "《属于我们的夜晚》",
+            "《床上抽烟危险》"
           ],
           "research_refs": [
             "V1-FCT-0789",
@@ -58019,7 +58019,7 @@
         "target_id": "V1-ENT-0297",
         "why_know": {
           "basis_note": "Web 0.2.0 consolidation: low-value template wording withheld; retain only the research-basic page until work-level evidence supports literary guidance",
-          "content": "先从《我们在火中失去的东西》、《我们的夜晚》、《床上吸烟的危险》的书目事实进入，再把更强的风格或文学史判断留在审核层。《我们在火中失去的东西》有 2016 年出版记录，《我们的夜晚》则只保留 2019 年奖项字段。",
+          "content": "先从《火中遗物》、《属于我们的夜晚》、《床上抽烟危险》的书目事实进入，再把更强的风格或文学史判断留在审核层。《火中遗物》有 2016 年出版记录，《属于我们的夜晚》则只保留 2019 年奖项字段。",
           "research_refs": [
             "V1-FCT-0789",
             "V1-FCT-0790",
@@ -58118,8 +58118,8 @@
         "reading_route": {
           "content": [
             "先定位《盆栽》的作品层级与已核实字段",
-            "先定位《树木的私生活》的作品层级与已核实字段",
-            "先定位《回家的方式》的作品层级与已核实字段"
+            "先定位《树的隐秘生活》的作品层级与已核实字段",
+            "先定位《回家的路》的作品层级与已核实字段"
           ],
           "research_refs": [
             "V1-FCT-0792",
@@ -58154,8 +58154,8 @@
         "start_here": {
           "content": [
             "《盆栽》",
-            "《树木的私生活》",
-            "《回家的方式》"
+            "《树的隐秘生活》",
+            "《回家的路》"
           ],
           "research_refs": [
             "V1-FCT-0792",
@@ -58172,7 +58172,7 @@
         "target_id": "V1-ENT-0298",
         "why_know": {
           "basis_note": "Web 0.2.0 consolidation: low-value template wording withheld; retain only the research-basic page until work-level evidence supports literary guidance",
-          "content": "先从《盆栽》、《树木的私生活》、《回家的方式》的书目事实进入，再把更强的风格或文学史判断留在审核层。三部作品的 2006、2007、2011 年份由 Anagrama 和 Mapocho 文章交叉支持。",
+          "content": "先从《盆栽》、《树的隐秘生活》、《回家的路》的书目事实进入，再把更强的风格或文学史判断留在审核层。三部作品的 2006、2007、2011 年份由 Anagrama 和 Mapocho 文章交叉支持。",
           "research_refs": [
             "V1-FCT-0792",
             "V1-FCT-0793",
@@ -60756,7 +60756,7 @@
       {
         "exploration_route": {
           "basis_note": "WEB-CE-B02 / WEB-CE-B05 新增地点策展文案，未获 USER 批准",
-          "content": "马查多·德·阿西斯 → 若昂·吉马朗埃斯·罗萨 → 格拉西利亚诺·拉莫斯 → 豪尔赫·亚马多；沿巴西国家页比较十九世纪小说、现代长篇、故事集和东北部经验，并与旧里约技术父级保持区分。",
+          "content": "马查多·德·阿西斯 → 若昂·吉马朗埃斯·罗萨 → 格拉西利亚诺·拉莫斯 → 若热·亚马多；沿巴西国家页比较十九世纪小说、现代长篇、故事集和东北部经验，并与旧里约技术父级保持区分。",
           "created_at": "2026-08-20",
           "research_refs": [
             "V1-REL-0114",
@@ -60779,7 +60779,7 @@
         },
         "literary_intro": {
           "basis_note": "WEB-CE-B02 / WEB-CE-B05 新增地点策展文案，未获 USER 批准",
-          "content": "巴西国家入口现在连接马查多·德·阿西斯、若昂·吉马朗埃斯·罗萨、格拉西利亚诺·拉莫斯和豪尔赫·亚马多的多条葡萄牙语作品路径；既有里约热内卢技术父级节点继续保留。",
+          "content": "巴西国家入口现在连接马查多·德·阿西斯、若昂·吉马朗埃斯·罗萨、格拉西利亚诺·拉莫斯和若热·亚马多的多条葡萄牙语作品路径；既有里约热内卢技术父级节点继续保留。",
           "created_at": "2026-08-20",
           "research_refs": [
             "V1-REL-0114",
@@ -60802,7 +60802,7 @@
         },
         "reader_path": {
           "basis_note": "WEB-CE-B02 / WEB-CE-B05 新增地点策展文案，未获 USER 批准",
-          "content": "马查多·德·阿西斯 → 若昂·吉马朗埃斯·罗萨 → 格拉西利亚诺·拉莫斯 → 豪尔赫·亚马多；沿巴西国家页比较十九世纪小说、现代长篇、故事集和东北部经验，并与旧里约技术父级保持区分。",
+          "content": "马查多·德·阿西斯 → 若昂·吉马朗埃斯·罗萨 → 格拉西利亚诺·拉莫斯 → 若热·亚马多；沿巴西国家页比较十九世纪小说、现代长篇、故事集和东北部经验，并与旧里约技术父级保持区分。",
           "created_at": "2026-08-20",
           "research_refs": [
             "V1-REL-0114",
@@ -77200,7 +77200,7 @@
       },
       {
         "guiding_question": {
-          "content": "如何在不混淆作品层级和版本日期的前提下进入《救援距离》？",
+          "content": "如何在不混淆作品层级和版本日期的前提下进入《营救距离》？",
           "research_refs": [
             "V1-FCT-0795",
             "V1-FCT-0797",
@@ -77261,7 +77261,7 @@
           "status": "user_review"
         },
         "story_intro": {
-          "content": "《救援距离》（Distancia de rescate）在本批机构或出版社资料中可回溯到作者与作品层级；版权页有 ©2014 标记，但首版年份待补，不把当前版本日期当作首版年份。",
+          "content": "《营救距离》（Distancia de rescate）在本批机构或出版社资料中可回溯到作者与作品层级；版权页有 ©2014 标记，但首版年份待补，不把当前版本日期当作首版年份。",
           "research_refs": [
             "V1-FCT-0795",
             "V1-FCT-0797",
@@ -77311,7 +77311,7 @@
       },
       {
         "guiding_question": {
-          "content": "如何在不混淆作品层级和版本日期的前提下进入《口中之鸟》？",
+          "content": "如何在不混淆作品层级和版本日期的前提下进入《吃鸟的女孩》？",
           "research_refs": [
             "V1-FCT-0798",
             "V1-FCT-0799"
@@ -77369,7 +77369,7 @@
           "status": "user_review"
         },
         "story_intro": {
-          "content": "《口中之鸟》（Pájaros en la boca）在本批机构或出版社资料中可回溯到作者与作品层级；作品年份暂待补，不把当前版本日期当作首版年份。PRH 将它介绍为包含既有故事的汇编，先把 collection 层级保留下来。",
+          "content": "《吃鸟的女孩》（Pájaros en la boca）在本批机构或出版社资料中可回溯到作者与作品层级；作品年份暂待补，不把当前版本日期当作首版年份。PRH 将它介绍为包含既有故事的汇编，先把 collection 层级保留下来。",
           "research_refs": [
             "V1-FCT-0798",
             "V1-FCT-0799"
@@ -77521,7 +77521,7 @@
       },
       {
         "guiding_question": {
-          "content": "如何在不混淆作品层级和版本日期的前提下进入《我们在火中失去的东西》？",
+          "content": "如何在不混淆作品层级和版本日期的前提下进入《火中遗物》？",
           "research_refs": [
             "V1-FCT-0802",
             "V1-FCT-0804",
@@ -77590,7 +77590,7 @@
           "status": "user_review"
         },
         "story_intro": {
-          "content": "《我们在火中失去的东西》（Las cosas que perdimos en el fuego）在本批机构或出版社资料中可回溯到作者与作品层级；已核实的年份/奖项字段，不把当前版本日期当作首版年份。",
+          "content": "《火中遗物》（Las cosas que perdimos en el fuego）在本批机构或出版社资料中可回溯到作者与作品层级；已核实的年份/奖项字段，不把当前版本日期当作首版年份。",
           "research_refs": [
             "V1-FCT-0802",
             "V1-FCT-0804",
@@ -77646,7 +77646,7 @@
       },
       {
         "guiding_question": {
-          "content": "如何在不混淆作品层级和版本日期的前提下进入《我们的夜晚》？",
+          "content": "如何在不混淆作品层级和版本日期的前提下进入《属于我们的夜晚》？",
           "research_refs": [
             "V1-FCT-0805",
             "V1-FCT-0806",
@@ -77715,7 +77715,7 @@
           "status": "user_review"
         },
         "story_intro": {
-          "content": "《我们的夜晚》（Nuestra parte de noche）在本批机构或出版社资料中可回溯到作者与作品层级；已核实的年份/奖项字段，不把当前版本日期当作首版年份。",
+          "content": "《属于我们的夜晚》（Nuestra parte de noche）在本批机构或出版社资料中可回溯到作者与作品层级；已核实的年份/奖项字段，不把当前版本日期当作首版年份。",
           "research_refs": [
             "V1-FCT-0805",
             "V1-FCT-0806",
@@ -77771,7 +77771,7 @@
       },
       {
         "guiding_question": {
-          "content": "如何在不混淆作品层级和版本日期的前提下进入《床上吸烟的危险》？",
+          "content": "如何在不混淆作品层级和版本日期的前提下进入《床上抽烟危险》？",
           "research_refs": [
             "V1-FCT-0808",
             "V1-FCT-0809"
@@ -77837,7 +77837,7 @@
           "status": "user_review"
         },
         "story_intro": {
-          "content": "《床上吸烟的危险》（Los peligros de fumar en la cama）在本批机构或出版社资料中可回溯到作者与作品层级；作品年份暂待补，不把当前版本日期当作首版年份。",
+          "content": "《床上抽烟危险》（Los peligros de fumar en la cama）在本批机构或出版社资料中可回溯到作者与作品层级；作品年份暂待补，不把当前版本日期当作首版年份。",
           "research_refs": [
             "V1-FCT-0808",
             "V1-FCT-0809"
@@ -78001,7 +78001,7 @@
       },
       {
         "guiding_question": {
-          "content": "如何在不混淆作品层级和版本日期的前提下进入《树木的私生活》？",
+          "content": "如何在不混淆作品层级和版本日期的前提下进入《树的隐秘生活》？",
           "research_refs": [
             "V1-FCT-0813",
             "V1-FCT-0815",
@@ -78062,7 +78062,7 @@
           "status": "user_review"
         },
         "story_intro": {
-          "content": "《树木的私生活》（La vida privada de los árboles）在本批机构或出版社资料中可回溯到作者与作品层级；已核实的年份/奖项字段，不把当前版本日期当作首版年份。",
+          "content": "《树的隐秘生活》（La vida privada de los árboles）在本批机构或出版社资料中可回溯到作者与作品层级；已核实的年份/奖项字段，不把当前版本日期当作首版年份。",
           "research_refs": [
             "V1-FCT-0813",
             "V1-FCT-0815",
@@ -78112,7 +78112,7 @@
       },
       {
         "guiding_question": {
-          "content": "如何在不混淆作品层级和版本日期的前提下进入《回家的方式》？",
+          "content": "如何在不混淆作品层级和版本日期的前提下进入《回家的路》？",
           "research_refs": [
             "V1-FCT-0816",
             "V1-FCT-0818",
@@ -78173,7 +78173,7 @@
           "status": "user_review"
         },
         "story_intro": {
-          "content": "《回家的方式》（Formas de volver a casa）在本批机构或出版社资料中可回溯到作者与作品层级；已核实的年份/奖项字段，不把当前版本日期当作首版年份。Mapocho 文章把它称为自传性小说，策展层保留这条线索而不扩大为文学史判断。",
+          "content": "《回家的路》（Formas de volver a casa）在本批机构或出版社资料中可回溯到作者与作品层级；已核实的年份/奖项字段，不把当前版本日期当作首版年份。Mapocho 文章把它称为自传性小说，策展层保留这条线索而不扩大为文学史判断。",
           "research_refs": [
             "V1-FCT-0816",
             "V1-FCT-0818",
@@ -84154,7 +84154,7 @@
         "target_id": "V1-ENT-0171"
       },
       {
-        "reader_lede": "豪尔赫·亚马多（1912—2001）是巴西作家、小说家。可以从《沙滩船长》、《加布里埃拉》、《弗洛尔和她的两个丈夫》开始阅读。",
+        "reader_lede": "若热·亚马多（1912—2001）是巴西作家、小说家。可以从《沙滩船长》、《加布里埃拉》、《弗洛尔和她的两个丈夫》开始阅读。",
         "target_id": "V1-ENT-0172"
       },
       {
@@ -84162,11 +84162,11 @@
         "target_id": "V1-ENT-0184"
       },
       {
-        "reader_lede": "何塞·多诺索（1924—1996）是智利作家、小说家。可以从《加冕》、《无尽的地方》、《夜晚的淫鸟》开始阅读。",
+        "reader_lede": "何塞·多诺索（1924—1996）是智利作家、小说家。可以从《加冕》、《无尽的地方》、《污秽的夜鸟》开始阅读。",
         "target_id": "V1-ENT-0185"
       },
       {
-        "reader_lede": "埃内斯托·萨瓦托（1911—2011）是阿根廷作家、画家；受过物理学训练并曾任教。可以从《隧道》、《英雄与坟墓》、《阿巴顿，毁灭者》开始阅读。",
+        "reader_lede": "埃内斯托·萨瓦托（1911—2011）是阿根廷作家、画家；受过物理学训练并曾任教。可以从《隧道》、《英雄与坟墓》、《毁灭者亚巴顿》开始阅读。",
         "target_id": "V1-ENT-0186"
       },
       {
@@ -85131,18 +85131,18 @@
         "target_id": "V1-ENT-0178"
       },
       {
-        "reading_premise": "《弗洛尔和她的两个丈夫》由豪尔赫·亚马多创作，出版于 1966 年。",
-        "story_intro": "《弗洛尔和她的两个丈夫》由豪尔赫·亚马多创作，出版于 1966 年。",
+        "reading_premise": "《弗洛尔和她的两个丈夫》由若热·亚马多创作，出版于 1966 年。",
+        "story_intro": "《弗洛尔和她的两个丈夫》由若热·亚马多创作，出版于 1966 年。",
         "target_id": "V1-ENT-0179"
       },
       {
-        "reading_premise": "《加布里埃拉》由豪尔赫·亚马多创作，出版于 1958 年。",
-        "story_intro": "《加布里埃拉》由豪尔赫·亚马多创作，出版于 1958 年。",
+        "reading_premise": "《加布里埃拉》由若热·亚马多创作，出版于 1958 年。",
+        "story_intro": "《加布里埃拉》由若热·亚马多创作，出版于 1958 年。",
         "target_id": "V1-ENT-0180"
       },
       {
-        "reading_premise": "《沙滩船长》由豪尔赫·亚马多创作，出版于 1937 年。",
-        "story_intro": "《沙滩船长》由豪尔赫·亚马多创作，出版于 1937 年。",
+        "reading_premise": "《沙滩船长》由若热·亚马多创作，出版于 1937 年。",
+        "story_intro": "《沙滩船长》由若热·亚马多创作，出版于 1937 年。",
         "target_id": "V1-ENT-0181"
       },
       {
@@ -85162,8 +85162,8 @@
         "target_id": "V1-ENT-0189"
       },
       {
-        "reading_premise": "《夜晚的淫鸟》由何塞·多诺索创作，出版于 1970 年。",
-        "story_intro": "《夜晚的淫鸟》由何塞·多诺索创作，出版于 1970 年。",
+        "reading_premise": "《污秽的夜鸟》由何塞·多诺索创作，出版于 1970 年。",
+        "story_intro": "《污秽的夜鸟》由何塞·多诺索创作，出版于 1970 年。",
         "target_id": "V1-ENT-0190"
       },
       {
@@ -85187,8 +85187,8 @@
         "target_id": "V1-ENT-0194"
       },
       {
-        "reading_premise": "《阿巴顿，毁灭者》由埃内斯托·萨瓦托创作，出版于 1974 年。",
-        "story_intro": "《阿巴顿，毁灭者》由埃内斯托·萨瓦托创作，出版于 1974 年。",
+        "reading_premise": "《毁灭者亚巴顿》由埃内斯托·萨瓦托创作，出版于 1974 年。",
+        "story_intro": "《毁灭者亚巴顿》由埃内斯托·萨瓦托创作，出版于 1974 年。",
         "target_id": "V1-ENT-0195"
       },
       {
@@ -88425,10 +88425,10 @@
         "title_zh": "《伊娃·露娜》"
       },
       {
-        "author_label": "豪尔赫·亚马多",
+        "author_label": "若热·亚马多",
         "card_id": "V1-CARD-0072",
         "card_type": "author",
-        "content_markdown": "### 豪尔赫·亚马多\n\n- 对象类型：`author`｜原文名：Jorge Amado｜国家/地区：巴西｜来源批次：WEB-CE-B02\n- 本批只公开来源支持的基础生平和作品书目；文学运动、影响与强主题判断留作后续审计。",
+        "content_markdown": "### 若热·亚马多\n\n- 对象类型：`author`｜原文名：Jorge Amado｜国家/地区：巴西｜来源批次：WEB-CE-B02\n- 本批只公开来源支持的基础生平和作品书目；文学运动、影响与强主题判断留作后续审计。",
         "country_or_region": "巴西",
         "facts": [
           {
@@ -88466,13 +88466,13 @@
         "period_bucket": "1912–2001",
         "source_minimum_status": "meets",
         "subject_id": "V1-ENT-0172",
-        "title_zh": "豪尔赫·亚马多"
+        "title_zh": "若热·亚马多"
       },
       {
-        "author_label": "豪尔赫·亚马多",
+        "author_label": "若热·亚马多",
         "card_id": "V1-CARD-0073",
         "card_type": "work",
-        "content_markdown": "### 《弗洛尔和她的两个丈夫》\n\n- 对象类型：`work`｜作者：豪尔赫·亚马多｜原文题名：Dona Flor e seus dois maridos｜国家/地区：巴西\n- 本批记录首版年份、实体层和可回溯书目说明；中文译本版本学字段不作为本批门槛。",
+        "content_markdown": "### 《弗洛尔和她的两个丈夫》\n\n- 对象类型：`work`｜作者：若热·亚马多｜原文题名：Dona Flor e seus dois maridos｜国家/地区：巴西\n- 本批记录首版年份、实体层和可回溯书目说明；中文译本版本学字段不作为本批门槛。",
         "country_or_region": "巴西",
         "facts": [
           {
@@ -88503,10 +88503,10 @@
         "title_zh": "《弗洛尔和她的两个丈夫》"
       },
       {
-        "author_label": "豪尔赫·亚马多",
+        "author_label": "若热·亚马多",
         "card_id": "V1-CARD-0074",
         "card_type": "work",
-        "content_markdown": "### 《加布里埃拉》\n\n- 对象类型：`work`｜作者：豪尔赫·亚马多｜原文题名：Gabriela, cravo e canela｜国家/地区：巴西\n- 本批记录首版年份、实体层和可回溯书目说明；中文译本版本学字段不作为本批门槛。",
+        "content_markdown": "### 《加布里埃拉》\n\n- 对象类型：`work`｜作者：若热·亚马多｜原文题名：Gabriela, cravo e canela｜国家/地区：巴西\n- 本批记录首版年份、实体层和可回溯书目说明；中文译本版本学字段不作为本批门槛。",
         "country_or_region": "巴西",
         "facts": [
           {
@@ -88537,10 +88537,10 @@
         "title_zh": "《加布里埃拉》"
       },
       {
-        "author_label": "豪尔赫·亚马多",
+        "author_label": "若热·亚马多",
         "card_id": "V1-CARD-0075",
         "card_type": "work",
-        "content_markdown": "### 《沙滩船长》\n\n- 对象类型：`work`｜作者：豪尔赫·亚马多｜原文题名：Capitães da Areia｜国家/地区：巴西\n- 本批记录首版年份、实体层和可回溯书目说明；中文译本版本学字段不作为本批门槛。",
+        "content_markdown": "### 《沙滩船长》\n\n- 对象类型：`work`｜作者：若热·亚马多｜原文题名：Capitães da Areia｜国家/地区：巴西\n- 本批记录首版年份、实体层和可回溯书目说明；中文译本版本学字段不作为本批门槛。",
         "country_or_region": "巴西",
         "facts": [
           {
@@ -88759,7 +88759,7 @@
         "author_label": "何塞·多诺索",
         "card_id": "V1-CARD-0081",
         "card_type": "work",
-        "content_markdown": "### 《夜晚的淫鸟》｜El obsceno pájaro de la noche — 本批记录出版年份、原文题名与来源入口，不扩写未被来源直接支持的情节或文学地位。",
+        "content_markdown": "### 《污秽的夜鸟》｜El obsceno pájaro de la noche — 本批记录出版年份、原文题名与来源入口，不扩写未被来源直接支持的情节或文学地位。",
         "country_or_region": "智利",
         "facts": [
           {
@@ -88787,7 +88787,7 @@
         "period_bucket": "1970",
         "source_minimum_status": "meets",
         "subject_id": "V1-ENT-0190",
-        "title_zh": "《夜晚的淫鸟》"
+        "title_zh": "《污秽的夜鸟》"
       },
       {
         "author_label": "何塞·多诺索",
@@ -88973,7 +88973,7 @@
         "author_label": "埃内斯托·萨瓦托",
         "card_id": "V1-CARD-0087",
         "card_type": "work",
-        "content_markdown": "### 《阿巴顿，毁灭者》｜Abaddón el exterminador — 本批记录首版年份与可回溯书目说明，不扩写未被来源直接支持的情节或文学地位。",
+        "content_markdown": "### 《毁灭者亚巴顿》｜Abaddón el exterminador — 本批记录首版年份与可回溯书目说明，不扩写未被来源直接支持的情节或文学地位。",
         "country_or_region": "阿根廷",
         "facts": [
           {
@@ -89001,7 +89001,7 @@
         "period_bucket": "1974",
         "source_minimum_status": "meets",
         "subject_id": "V1-ENT-0195",
-        "title_zh": "《阿巴顿，毁灭者》"
+        "title_zh": "《毁灭者亚巴顿》"
       },
       {
         "author_label": "阿道夫·比奥伊·卡萨雷斯",
@@ -92568,10 +92568,10 @@
         "title_zh": "《疯玩具》"
       },
       {
-        "author_label": "萨曼塔·施韦布林",
+        "author_label": "萨曼塔·施维伯林",
         "card_id": "V1-CARD-0184",
         "card_type": "author",
-        "content_markdown": "### 萨曼塔·施韦布林｜Samanta Schweblin — Argentina Ministry and PRH profiles establish the author entry.",
+        "content_markdown": "### 萨曼塔·施维伯林｜Samanta Schweblin — Argentina Ministry and PRH profiles establish the author entry.",
         "country_or_region": "阿根廷",
         "facts": [
           {
@@ -92599,7 +92599,7 @@
         "period_bucket": "1978–",
         "source_minimum_status": "meets",
         "subject_id": "V1-ENT-0296",
-        "title_zh": "萨曼塔·施韦布林"
+        "title_zh": "萨曼塔·施维伯林"
       },
       {
         "author_label": "玛丽安娜·恩里克斯",
@@ -92670,10 +92670,10 @@
         "title_zh": "亚历杭德罗·桑布拉"
       },
       {
-        "author_label": "萨曼塔·施韦布林",
+        "author_label": "萨曼塔·施维伯林",
         "card_id": "V1-CARD-0187",
         "card_type": "work",
-        "content_markdown": "### 《救援距离》｜Distancia de rescate — The Ministry PDF marks ©2014 on the copyright page; first-publication year remains open.",
+        "content_markdown": "### 《营救距离》｜Distancia de rescate — The Ministry PDF marks ©2014 on the copyright page; first-publication year remains open.",
         "country_or_region": "阿根廷",
         "facts": [
           {
@@ -92701,13 +92701,13 @@
         "period_bucket": "首版年份待补",
         "source_minimum_status": "meets",
         "subject_id": "V1-ENT-0299",
-        "title_zh": "《救援距离》"
+        "title_zh": "《营救距离》"
       },
       {
-        "author_label": "萨曼塔·施韦布林",
+        "author_label": "萨曼塔·施维伯林",
         "card_id": "V1-CARD-0188",
         "card_type": "work",
-        "content_markdown": "### 《口中之鸟》｜Pájaros en la boca — Institutional and publisher pages identify the title as a story collection; first year is an open gap.",
+        "content_markdown": "### 《吃鸟的女孩》｜Pájaros en la boca — Institutional and publisher pages identify the title as a story collection; first year is an open gap.",
         "country_or_region": "阿根廷",
         "facts": [
           {
@@ -92730,10 +92730,10 @@
         "period_bucket": "出版年份待补",
         "source_minimum_status": "meets",
         "subject_id": "V1-ENT-0300",
-        "title_zh": "《口中之鸟》"
+        "title_zh": "《吃鸟的女孩》"
       },
       {
-        "author_label": "萨曼塔·施韦布林",
+        "author_label": "萨曼塔·施维伯林",
         "card_id": "V1-CARD-0189",
         "card_type": "work",
         "content_markdown": "### 《七座空屋》｜Siete casas vacías — The Ministry bibliography and PRH page identify the story collection; current edition date is not first publication.",
@@ -92765,7 +92765,7 @@
         "author_label": "玛丽安娜·恩里克斯",
         "card_id": "V1-CARD-0190",
         "card_type": "work",
-        "content_markdown": "### 《我们在火中失去的东西》｜Las cosas que perdimos en el fuego — Anagrama identifies a story collection published in February 2016.",
+        "content_markdown": "### 《火中遗物》｜Las cosas que perdimos en el fuego — Anagrama identifies a story collection published in February 2016.",
         "country_or_region": "阿根廷",
         "facts": [
           {
@@ -92793,13 +92793,13 @@
         "period_bucket": "2016",
         "source_minimum_status": "meets",
         "subject_id": "V1-ENT-0302",
-        "title_zh": "《我们在火中失去的东西》"
+        "title_zh": "《火中遗物》"
       },
       {
         "author_label": "玛丽安娜·恩里克斯",
         "card_id": "V1-CARD-0191",
         "card_type": "work",
-        "content_markdown": "### 《我们的夜晚》｜Nuestra parte de noche — Anagrama identifies a novel and the 2019 Herralde award; first-publication year remains a gap.",
+        "content_markdown": "### 《属于我们的夜晚》｜Nuestra parte de noche — Anagrama identifies a novel and the 2019 Herralde award; first-publication year remains a gap.",
         "country_or_region": "阿根廷",
         "facts": [
           {
@@ -92827,13 +92827,13 @@
         "period_bucket": "2019奖项节点",
         "source_minimum_status": "meets",
         "subject_id": "V1-ENT-0303",
-        "title_zh": "《我们的夜晚》"
+        "title_zh": "《属于我们的夜晚》"
       },
       {
         "author_label": "玛丽安娜·恩里克斯",
         "card_id": "V1-CARD-0192",
         "card_type": "work",
-        "content_markdown": "### 《床上吸烟的危险》｜Los peligros de fumar en la cama — Anagrama identifies an earlier Argentine story collection and twelve-story form.",
+        "content_markdown": "### 《床上抽烟危险》｜Los peligros de fumar en la cama — Anagrama identifies an earlier Argentine story collection and twelve-story form.",
         "country_or_region": "阿根廷",
         "facts": [
           {
@@ -92856,7 +92856,7 @@
         "period_bucket": "出版年份待补",
         "source_minimum_status": "meets",
         "subject_id": "V1-ENT-0304",
-        "title_zh": "《床上吸烟的危险》"
+        "title_zh": "《床上抽烟危险》"
       },
       {
         "author_label": "亚历杭德罗·桑布拉",
@@ -92896,7 +92896,7 @@
         "author_label": "亚历杭德罗·桑布拉",
         "card_id": "V1-CARD-0194",
         "card_type": "work",
-        "content_markdown": "### 《树木的私生活》｜La vida privada de los árboles — Anagrama and Memoria Chilena record the 2007 novel.",
+        "content_markdown": "### 《树的隐秘生活》｜La vida privada de los árboles — Anagrama and Memoria Chilena record the 2007 novel.",
         "country_or_region": "智利",
         "facts": [
           {
@@ -92924,13 +92924,13 @@
         "period_bucket": "2007",
         "source_minimum_status": "meets",
         "subject_id": "V1-ENT-0306",
-        "title_zh": "《树木的私生活》"
+        "title_zh": "《树的隐秘生活》"
       },
       {
         "author_label": "亚历杭德罗·桑布拉",
         "card_id": "V1-CARD-0195",
         "card_type": "work",
-        "content_markdown": "### 《回家的方式》｜Formas de volver a casa — Anagrama and Memoria Chilena record the 2011 novel.",
+        "content_markdown": "### 《回家的路》｜Formas de volver a casa — Anagrama and Memoria Chilena record the 2011 novel.",
         "country_or_region": "智利",
         "facts": [
           {
@@ -92958,7 +92958,7 @@
         "period_bucket": "2011",
         "source_minimum_status": "meets",
         "subject_id": "V1-ENT-0307",
-        "title_zh": "《回家的方式》"
+        "title_zh": "《回家的路》"
       },
       {
         "author_label": "保罗·柯艾略",
@@ -105609,10 +105609,10 @@
         "canonical_status": "candidate",
         "content_cards": [
           {
-            "author_label": "豪尔赫·亚马多",
+            "author_label": "若热·亚马多",
             "card_id": "V1-CARD-0072",
             "card_type": "author",
-            "content_markdown": "### 豪尔赫·亚马多\n\n- 对象类型：`author`｜原文名：Jorge Amado｜国家/地区：巴西｜来源批次：WEB-CE-B02\n- 本批只公开来源支持的基础生平和作品书目；文学运动、影响与强主题判断留作后续审计。",
+            "content_markdown": "### 若热·亚马多\n\n- 对象类型：`author`｜原文名：Jorge Amado｜国家/地区：巴西｜来源批次：WEB-CE-B02\n- 本批只公开来源支持的基础生平和作品书目；文学运动、影响与强主题判断留作后续审计。",
             "country_or_region": "巴西",
             "genre_or_form": "",
             "input_layer": "WEB-CE-B02",
@@ -105623,7 +105623,7 @@
             "period_bucket": "1912–2001",
             "source_minimum_status": "meets",
             "subject_id": "V1-ENT-0172",
-            "title_zh": "豪尔赫·亚马多"
+            "title_zh": "若热·亚马多"
           }
         ],
         "entity_id": "V1-ENT-0172",
@@ -105697,15 +105697,15 @@
         ],
         "incoming_relations": [],
         "issue_codes": "NONE",
-        "name_zh": "豪尔赫·亚马多",
-        "normalization_basis": "B02 official/academy source identity check; Chinese display name is a reader-facing canonical candidate",
+        "name_zh": "若热·亚马多",
+        "normalization_basis": "Published Chinese author spelling supported by China Writers Net; original name and entity identity retained.",
         "origin_count": "2",
         "origin_refs": "CAND-B02-JORGE-AUTHOR",
         "original_name": "Jorge Amado",
         "outgoing_relations": [
           {
             "confidence": "high",
-            "description_zh": "豪尔赫·亚马多创作《弗洛尔和她的两个丈夫》（Dona Flor e seus dois maridos）",
+            "description_zh": "若热·亚马多创作《弗洛尔和她的两个丈夫》（Dona Flor e seus dois maridos）",
             "evidence_count": "1",
             "issue_code": "NONE",
             "object_id": "V1-ENT-0179",
@@ -105719,7 +105719,7 @@
           },
           {
             "confidence": "high",
-            "description_zh": "豪尔赫·亚马多创作《加布里埃拉》（Gabriela, cravo e canela）",
+            "description_zh": "若热·亚马多创作《加布里埃拉》（Gabriela, cravo e canela）",
             "evidence_count": "1",
             "issue_code": "NONE",
             "object_id": "V1-ENT-0180",
@@ -105733,7 +105733,7 @@
           },
           {
             "confidence": "high",
-            "description_zh": "豪尔赫·亚马多创作《沙滩船长》（Capitães da Areia）",
+            "description_zh": "若热·亚马多创作《沙滩船长》（Capitães da Areia）",
             "evidence_count": "1",
             "issue_code": "NONE",
             "object_id": "V1-ENT-0181",
@@ -105747,7 +105747,7 @@
           },
           {
             "confidence": "high",
-            "description_zh": "豪尔赫·亚马多与巴西关联（作者生平/身份来源）",
+            "description_zh": "若热·亚马多与巴西关联（作者生平/身份来源）",
             "evidence_count": "1",
             "issue_code": "NONE",
             "object_id": "V1-ENT-0183",
@@ -106293,10 +106293,10 @@
         "canonical_status": "candidate",
         "content_cards": [
           {
-            "author_label": "豪尔赫·亚马多",
+            "author_label": "若热·亚马多",
             "card_id": "V1-CARD-0073",
             "card_type": "work",
-            "content_markdown": "### 《弗洛尔和她的两个丈夫》\n\n- 对象类型：`work`｜作者：豪尔赫·亚马多｜原文题名：Dona Flor e seus dois maridos｜国家/地区：巴西\n- 本批记录首版年份、实体层和可回溯书目说明；中文译本版本学字段不作为本批门槛。",
+            "content_markdown": "### 《弗洛尔和她的两个丈夫》\n\n- 对象类型：`work`｜作者：若热·亚马多｜原文题名：Dona Flor e seus dois maridos｜国家/地区：巴西\n- 本批记录首版年份、实体层和可回溯书目说明；中文译本版本学字段不作为本批门槛。",
             "country_or_region": "巴西",
             "genre_or_form": "",
             "input_layer": "WEB-CE-B02",
@@ -106356,7 +106356,7 @@
         "incoming_relations": [
           {
             "confidence": "high",
-            "description_zh": "豪尔赫·亚马多创作《弗洛尔和她的两个丈夫》（Dona Flor e seus dois maridos）",
+            "description_zh": "若热·亚马多创作《弗洛尔和她的两个丈夫》（Dona Flor e seus dois maridos）",
             "evidence_count": "1",
             "issue_code": "NONE",
             "object_id": "V1-ENT-0179",
@@ -106381,10 +106381,10 @@
         "canonical_status": "candidate",
         "content_cards": [
           {
-            "author_label": "豪尔赫·亚马多",
+            "author_label": "若热·亚马多",
             "card_id": "V1-CARD-0074",
             "card_type": "work",
-            "content_markdown": "### 《加布里埃拉》\n\n- 对象类型：`work`｜作者：豪尔赫·亚马多｜原文题名：Gabriela, cravo e canela｜国家/地区：巴西\n- 本批记录首版年份、实体层和可回溯书目说明；中文译本版本学字段不作为本批门槛。",
+            "content_markdown": "### 《加布里埃拉》\n\n- 对象类型：`work`｜作者：若热·亚马多｜原文题名：Gabriela, cravo e canela｜国家/地区：巴西\n- 本批记录首版年份、实体层和可回溯书目说明；中文译本版本学字段不作为本批门槛。",
             "country_or_region": "巴西",
             "genre_or_form": "",
             "input_layer": "WEB-CE-B02",
@@ -106444,7 +106444,7 @@
         "incoming_relations": [
           {
             "confidence": "high",
-            "description_zh": "豪尔赫·亚马多创作《加布里埃拉》（Gabriela, cravo e canela）",
+            "description_zh": "若热·亚马多创作《加布里埃拉》（Gabriela, cravo e canela）",
             "evidence_count": "1",
             "issue_code": "NONE",
             "object_id": "V1-ENT-0180",
@@ -106469,10 +106469,10 @@
         "canonical_status": "candidate",
         "content_cards": [
           {
-            "author_label": "豪尔赫·亚马多",
+            "author_label": "若热·亚马多",
             "card_id": "V1-CARD-0075",
             "card_type": "work",
-            "content_markdown": "### 《沙滩船长》\n\n- 对象类型：`work`｜作者：豪尔赫·亚马多｜原文题名：Capitães da Areia｜国家/地区：巴西\n- 本批记录首版年份、实体层和可回溯书目说明；中文译本版本学字段不作为本批门槛。",
+            "content_markdown": "### 《沙滩船长》\n\n- 对象类型：`work`｜作者：若热·亚马多｜原文题名：Capitães da Areia｜国家/地区：巴西\n- 本批记录首版年份、实体层和可回溯书目说明；中文译本版本学字段不作为本批门槛。",
             "country_or_region": "巴西",
             "genre_or_form": "",
             "input_layer": "WEB-CE-B02",
@@ -106532,7 +106532,7 @@
         "incoming_relations": [
           {
             "confidence": "high",
-            "description_zh": "豪尔赫·亚马多创作《沙滩船长》（Capitães da Areia）",
+            "description_zh": "若热·亚马多创作《沙滩船长》（Capitães da Areia）",
             "evidence_count": "1",
             "issue_code": "NONE",
             "object_id": "V1-ENT-0181",
@@ -106832,7 +106832,7 @@
         "outgoing_relations": [
           {
             "confidence": "high",
-            "description_zh": "何塞·多诺索创作《夜晚的淫鸟》（El obsceno pájaro de la noche）",
+            "description_zh": "何塞·多诺索创作《污秽的夜鸟》（El obsceno pájaro de la noche）",
             "evidence_count": "1",
             "issue_code": "NONE",
             "object_id": "V1-ENT-0190",
@@ -107016,7 +107016,7 @@
           },
           {
             "confidence": "high",
-            "description_zh": "埃内斯托·萨瓦托创作《阿巴顿，毁灭者》（Abaddón el exterminador）",
+            "description_zh": "埃内斯托·萨瓦托创作《毁灭者亚巴顿》（Abaddón el exterminador）",
             "evidence_count": "1",
             "issue_code": "NONE",
             "object_id": "V1-ENT-0195",
@@ -107315,7 +107315,7 @@
             "author_label": "何塞·多诺索",
             "card_id": "V1-CARD-0081",
             "card_type": "work",
-            "content_markdown": "### 《夜晚的淫鸟》｜El obsceno pájaro de la noche — 本批记录出版年份、原文题名与来源入口，不扩写未被来源直接支持的情节或文学地位。",
+            "content_markdown": "### 《污秽的夜鸟》｜El obsceno pájaro de la noche — 本批记录出版年份、原文题名与来源入口，不扩写未被来源直接支持的情节或文学地位。",
             "country_or_region": "智利",
             "genre_or_form": "小说",
             "input_layer": "WEB-CE-B03",
@@ -107326,7 +107326,7 @@
             "period_bucket": "1970",
             "source_minimum_status": "meets",
             "subject_id": "V1-ENT-0190",
-            "title_zh": "《夜晚的淫鸟》"
+            "title_zh": "《污秽的夜鸟》"
           }
         ],
         "entity_id": "V1-ENT-0190",
@@ -107375,7 +107375,7 @@
         "incoming_relations": [
           {
             "confidence": "high",
-            "description_zh": "何塞·多诺索创作《夜晚的淫鸟》（El obsceno pájaro de la noche）",
+            "description_zh": "何塞·多诺索创作《污秽的夜鸟》（El obsceno pájaro de la noche）",
             "evidence_count": "1",
             "issue_code": "NONE",
             "object_id": "V1-ENT-0190",
@@ -107389,8 +107389,8 @@
           }
         ],
         "issue_codes": "NONE",
-        "name_zh": "《夜晚的淫鸟》",
-        "normalization_basis": "B03 source-backed original title and Chinese display title; translation metadata is intentionally not a gate",
+        "name_zh": "《污秽的夜鸟》",
+        "normalization_basis": "Published Chinese title supported by a procurement catalogue identifying the People's Literature edition; original title retained.",
         "origin_count": "1",
         "origin_refs": "CAND-B03-V1-ENT-0190-WORK",
         "original_name": "El obsceno pájaro de la noche",
@@ -107755,7 +107755,7 @@
             "author_label": "埃内斯托·萨瓦托",
             "card_id": "V1-CARD-0087",
             "card_type": "work",
-            "content_markdown": "### 《阿巴顿，毁灭者》｜Abaddón el exterminador — 本批记录首版年份与可回溯书目说明，不扩写未被来源直接支持的情节或文学地位。",
+            "content_markdown": "### 《毁灭者亚巴顿》｜Abaddón el exterminador — 本批记录首版年份与可回溯书目说明，不扩写未被来源直接支持的情节或文学地位。",
             "country_or_region": "阿根廷",
             "genre_or_form": "小说",
             "input_layer": "WEB-CE-B03",
@@ -107766,7 +107766,7 @@
             "period_bucket": "1974",
             "source_minimum_status": "meets",
             "subject_id": "V1-ENT-0195",
-            "title_zh": "《阿巴顿，毁灭者》"
+            "title_zh": "《毁灭者亚巴顿》"
           }
         ],
         "entity_id": "V1-ENT-0195",
@@ -107815,7 +107815,7 @@
         "incoming_relations": [
           {
             "confidence": "high",
-            "description_zh": "埃内斯托·萨瓦托创作《阿巴顿，毁灭者》（Abaddón el exterminador）",
+            "description_zh": "埃内斯托·萨瓦托创作《毁灭者亚巴顿》（Abaddón el exterminador）",
             "evidence_count": "1",
             "issue_code": "NONE",
             "object_id": "V1-ENT-0195",
@@ -107829,8 +107829,8 @@
           }
         ],
         "issue_codes": "NONE",
-        "name_zh": "《阿巴顿，毁灭者》",
-        "normalization_basis": "B03 source-backed original title and Chinese display title; translation metadata is intentionally not a gate",
+        "name_zh": "《毁灭者亚巴顿》",
+        "normalization_basis": "Published Chinese title supported by the Sichuan Literature and Art edition catalogue; original title retained.",
         "origin_count": "1",
         "origin_refs": "CAND-B03-V1-ENT-0195-WORK",
         "original_name": "Abaddón el exterminador",
@@ -118218,10 +118218,10 @@
         "canonical_status": "candidate",
         "content_cards": [
           {
-            "author_label": "萨曼塔·施韦布林",
+            "author_label": "萨曼塔·施维伯林",
             "card_id": "V1-CARD-0184",
             "card_type": "author",
-            "content_markdown": "### 萨曼塔·施韦布林｜Samanta Schweblin — Argentina Ministry and PRH profiles establish the author entry.",
+            "content_markdown": "### 萨曼塔·施维伯林｜Samanta Schweblin — Argentina Ministry and PRH profiles establish the author entry.",
             "country_or_region": "阿根廷",
             "genre_or_form": "短篇小说与小说",
             "input_layer": "WEB-CE-B12",
@@ -118232,7 +118232,7 @@
             "period_bucket": "1978–",
             "source_minimum_status": "meets",
             "subject_id": "V1-ENT-0296",
-            "title_zh": "萨曼塔·施韦布林"
+            "title_zh": "萨曼塔·施维伯林"
           }
         ],
         "entity_id": "V1-ENT-0296",
@@ -118280,15 +118280,15 @@
         ],
         "incoming_relations": [],
         "issue_codes": "NONE",
-        "name_zh": "萨曼塔·施韦布林",
-        "normalization_basis": "B12 Argentina Ministry and PRH profiles; Chinese display candidate",
+        "name_zh": "萨曼塔·施维伯林",
+        "normalization_basis": "Published Chinese author spelling supported across two People's Literature edition records; original name retained.",
         "origin_count": "1",
         "origin_refs": "CAND-B12-SCHWEBLIN-AUTHOR",
         "original_name": "Samanta Schweblin",
         "outgoing_relations": [
           {
             "confidence": "high",
-            "description_zh": "萨曼塔·施韦布林创作《救援距离》（Distancia de rescate）",
+            "description_zh": "萨曼塔·施维伯林创作《营救距离》（Distancia de rescate）",
             "evidence_count": "1",
             "issue_code": "NONE",
             "object_id": "V1-ENT-0299",
@@ -118302,7 +118302,7 @@
           },
           {
             "confidence": "high",
-            "description_zh": "萨曼塔·施韦布林创作《口中之鸟》（Pájaros en la boca）",
+            "description_zh": "萨曼塔·施维伯林创作《吃鸟的女孩》（Pájaros en la boca）",
             "evidence_count": "1",
             "issue_code": "NONE",
             "object_id": "V1-ENT-0300",
@@ -118316,7 +118316,7 @@
           },
           {
             "confidence": "high",
-            "description_zh": "萨曼塔·施韦布林创作《七座空屋》（Siete casas vacías）",
+            "description_zh": "萨曼塔·施维伯林创作《七座空屋》（Siete casas vacías）",
             "evidence_count": "1",
             "issue_code": "NONE",
             "object_id": "V1-ENT-0301",
@@ -118330,7 +118330,7 @@
           },
           {
             "confidence": "high",
-            "description_zh": "萨曼塔·施韦布林与阿根廷关联",
+            "description_zh": "萨曼塔·施维伯林与阿根廷关联",
             "evidence_count": "1",
             "issue_code": "NONE",
             "object_id": "V1-ENT-0001",
@@ -118418,7 +118418,7 @@
         "outgoing_relations": [
           {
             "confidence": "high",
-            "description_zh": "玛丽安娜·恩里克斯创作《我们在火中失去的东西》（Las cosas que perdimos en el fuego）",
+            "description_zh": "玛丽安娜·恩里克斯创作《火中遗物》（Las cosas que perdimos en el fuego）",
             "evidence_count": "1",
             "issue_code": "NONE",
             "object_id": "V1-ENT-0302",
@@ -118432,7 +118432,7 @@
           },
           {
             "confidence": "high",
-            "description_zh": "玛丽安娜·恩里克斯创作《我们的夜晚》（Nuestra parte de noche）",
+            "description_zh": "玛丽安娜·恩里克斯创作《属于我们的夜晚》（Nuestra parte de noche）",
             "evidence_count": "1",
             "issue_code": "NONE",
             "object_id": "V1-ENT-0303",
@@ -118446,7 +118446,7 @@
           },
           {
             "confidence": "high",
-            "description_zh": "玛丽安娜·恩里克斯创作《床上吸烟的危险》（Los peligros de fumar en la cama）",
+            "description_zh": "玛丽安娜·恩里克斯创作《床上抽烟危险》（Los peligros de fumar en la cama）",
             "evidence_count": "1",
             "issue_code": "NONE",
             "object_id": "V1-ENT-0304",
@@ -118562,7 +118562,7 @@
           },
           {
             "confidence": "high",
-            "description_zh": "亚历杭德罗·桑布拉创作《树木的私生活》（La vida privada de los árboles）",
+            "description_zh": "亚历杭德罗·桑布拉创作《树的隐秘生活》（La vida privada de los árboles）",
             "evidence_count": "1",
             "issue_code": "NONE",
             "object_id": "V1-ENT-0306",
@@ -118576,7 +118576,7 @@
           },
           {
             "confidence": "high",
-            "description_zh": "亚历杭德罗·桑布拉创作《回家的方式》（Formas de volver a casa）",
+            "description_zh": "亚历杭德罗·桑布拉创作《回家的路》（Formas de volver a casa）",
             "evidence_count": "1",
             "issue_code": "NONE",
             "object_id": "V1-ENT-0307",
@@ -118608,10 +118608,10 @@
         "canonical_status": "candidate",
         "content_cards": [
           {
-            "author_label": "萨曼塔·施韦布林",
+            "author_label": "萨曼塔·施维伯林",
             "card_id": "V1-CARD-0187",
             "card_type": "work",
-            "content_markdown": "### 《救援距离》｜Distancia de rescate — The Ministry PDF marks ©2014 on the copyright page; first-publication year remains open.",
+            "content_markdown": "### 《营救距离》｜Distancia de rescate — The Ministry PDF marks ©2014 on the copyright page; first-publication year remains open.",
             "country_or_region": "阿根廷",
             "genre_or_form": "小说",
             "input_layer": "WEB-CE-B12",
@@ -118622,7 +118622,7 @@
             "period_bucket": "首版年份待补",
             "source_minimum_status": "meets",
             "subject_id": "V1-ENT-0299",
-            "title_zh": "《救援距离》"
+            "title_zh": "《营救距离》"
           }
         ],
         "entity_id": "V1-ENT-0299",
@@ -118671,7 +118671,7 @@
         "incoming_relations": [
           {
             "confidence": "high",
-            "description_zh": "萨曼塔·施韦布林创作《救援距离》（Distancia de rescate）",
+            "description_zh": "萨曼塔·施维伯林创作《营救距离》（Distancia de rescate）",
             "evidence_count": "1",
             "issue_code": "NONE",
             "object_id": "V1-ENT-0299",
@@ -118685,8 +118685,8 @@
           }
         ],
         "issue_codes": "NONE",
-        "name_zh": "《救援距离》",
-        "normalization_basis": "B12 publisher/institutional bibliography; work layer",
+        "name_zh": "《营救距离》",
+        "normalization_basis": "Published Chinese title supported by the People's Literature edition record; original title retained.",
         "origin_count": "1",
         "origin_refs": "CAND-B12-SCHWEBLIN-W01",
         "original_name": "Distancia de rescate",
@@ -118696,10 +118696,10 @@
         "canonical_status": "candidate",
         "content_cards": [
           {
-            "author_label": "萨曼塔·施韦布林",
+            "author_label": "萨曼塔·施维伯林",
             "card_id": "V1-CARD-0188",
             "card_type": "work",
-            "content_markdown": "### 《口中之鸟》｜Pájaros en la boca — Institutional and publisher pages identify the title as a story collection; first year is an open gap.",
+            "content_markdown": "### 《吃鸟的女孩》｜Pájaros en la boca — Institutional and publisher pages identify the title as a story collection; first year is an open gap.",
             "country_or_region": "阿根廷",
             "genre_or_form": "短篇小说集",
             "input_layer": "WEB-CE-B12",
@@ -118710,7 +118710,7 @@
             "period_bucket": "出版年份待补",
             "source_minimum_status": "meets",
             "subject_id": "V1-ENT-0300",
-            "title_zh": "《口中之鸟》"
+            "title_zh": "《吃鸟的女孩》"
           }
         ],
         "entity_id": "V1-ENT-0300",
@@ -118746,7 +118746,7 @@
         "incoming_relations": [
           {
             "confidence": "high",
-            "description_zh": "萨曼塔·施韦布林创作《口中之鸟》（Pájaros en la boca）",
+            "description_zh": "萨曼塔·施维伯林创作《吃鸟的女孩》（Pájaros en la boca）",
             "evidence_count": "1",
             "issue_code": "NONE",
             "object_id": "V1-ENT-0300",
@@ -118760,8 +118760,8 @@
           }
         ],
         "issue_codes": "NONE",
-        "name_zh": "《口中之鸟》",
-        "normalization_basis": "B12 publisher/institutional bibliography; collection layer",
+        "name_zh": "《吃鸟的女孩》",
+        "normalization_basis": "Published Chinese title supported by a university library catalogue; original title retained.",
         "origin_count": "1",
         "origin_refs": "CAND-B12-SCHWEBLIN-W02",
         "original_name": "Pájaros en la boca",
@@ -118771,7 +118771,7 @@
         "canonical_status": "candidate",
         "content_cards": [
           {
-            "author_label": "萨曼塔·施韦布林",
+            "author_label": "萨曼塔·施维伯林",
             "card_id": "V1-CARD-0189",
             "card_type": "work",
             "content_markdown": "### 《七座空屋》｜Siete casas vacías — The Ministry bibliography and PRH page identify the story collection; current edition date is not first publication.",
@@ -118821,7 +118821,7 @@
         "incoming_relations": [
           {
             "confidence": "high",
-            "description_zh": "萨曼塔·施韦布林创作《七座空屋》（Siete casas vacías）",
+            "description_zh": "萨曼塔·施维伯林创作《七座空屋》（Siete casas vacías）",
             "evidence_count": "1",
             "issue_code": "NONE",
             "object_id": "V1-ENT-0301",
@@ -118849,7 +118849,7 @@
             "author_label": "玛丽安娜·恩里克斯",
             "card_id": "V1-CARD-0190",
             "card_type": "work",
-            "content_markdown": "### 《我们在火中失去的东西》｜Las cosas que perdimos en el fuego — Anagrama identifies a story collection published in February 2016.",
+            "content_markdown": "### 《火中遗物》｜Las cosas que perdimos en el fuego — Anagrama identifies a story collection published in February 2016.",
             "country_or_region": "阿根廷",
             "genre_or_form": "短篇小说集",
             "input_layer": "WEB-CE-B12",
@@ -118860,7 +118860,7 @@
             "period_bucket": "2016",
             "source_minimum_status": "meets",
             "subject_id": "V1-ENT-0302",
-            "title_zh": "《我们在火中失去的东西》"
+            "title_zh": "《火中遗物》"
           }
         ],
         "entity_id": "V1-ENT-0302",
@@ -118909,7 +118909,7 @@
         "incoming_relations": [
           {
             "confidence": "high",
-            "description_zh": "玛丽安娜·恩里克斯创作《我们在火中失去的东西》（Las cosas que perdimos en el fuego）",
+            "description_zh": "玛丽安娜·恩里克斯创作《火中遗物》（Las cosas que perdimos en el fuego）",
             "evidence_count": "1",
             "issue_code": "NONE",
             "object_id": "V1-ENT-0302",
@@ -118923,8 +118923,8 @@
           }
         ],
         "issue_codes": "NONE",
-        "name_zh": "《我们在火中失去的东西》",
-        "normalization_basis": "B12 Anagrama bibliography; collection layer",
+        "name_zh": "《火中遗物》",
+        "normalization_basis": "Published Chinese title supported by Instituto Cervantes Beijing; original title retained.",
         "origin_count": "1",
         "origin_refs": "CAND-B12-ENRIQUEZ-W01",
         "original_name": "Las cosas que perdimos en el fuego",
@@ -118937,7 +118937,7 @@
             "author_label": "玛丽安娜·恩里克斯",
             "card_id": "V1-CARD-0191",
             "card_type": "work",
-            "content_markdown": "### 《我们的夜晚》｜Nuestra parte de noche — Anagrama identifies a novel and the 2019 Herralde award; first-publication year remains a gap.",
+            "content_markdown": "### 《属于我们的夜晚》｜Nuestra parte de noche — Anagrama identifies a novel and the 2019 Herralde award; first-publication year remains a gap.",
             "country_or_region": "阿根廷",
             "genre_or_form": "小说",
             "input_layer": "WEB-CE-B12",
@@ -118948,7 +118948,7 @@
             "period_bucket": "2019奖项节点",
             "source_minimum_status": "meets",
             "subject_id": "V1-ENT-0303",
-            "title_zh": "《我们的夜晚》"
+            "title_zh": "《属于我们的夜晚》"
           }
         ],
         "entity_id": "V1-ENT-0303",
@@ -118997,7 +118997,7 @@
         "incoming_relations": [
           {
             "confidence": "high",
-            "description_zh": "玛丽安娜·恩里克斯创作《我们的夜晚》（Nuestra parte de noche）",
+            "description_zh": "玛丽安娜·恩里克斯创作《属于我们的夜晚》（Nuestra parte de noche）",
             "evidence_count": "1",
             "issue_code": "NONE",
             "object_id": "V1-ENT-0303",
@@ -119011,8 +119011,8 @@
           }
         ],
         "issue_codes": "NONE",
-        "name_zh": "《我们的夜晚》",
-        "normalization_basis": "B12 Anagrama bibliography; novel layer",
+        "name_zh": "《属于我们的夜晚》",
+        "normalization_basis": "Published Chinese title supported by the FLTRP catalogue; original title retained.",
         "origin_count": "1",
         "origin_refs": "CAND-B12-ENRIQUEZ-W02",
         "original_name": "Nuestra parte de noche",
@@ -119025,7 +119025,7 @@
             "author_label": "玛丽安娜·恩里克斯",
             "card_id": "V1-CARD-0192",
             "card_type": "work",
-            "content_markdown": "### 《床上吸烟的危险》｜Los peligros de fumar en la cama — Anagrama identifies an earlier Argentine story collection and twelve-story form.",
+            "content_markdown": "### 《床上抽烟危险》｜Los peligros de fumar en la cama — Anagrama identifies an earlier Argentine story collection and twelve-story form.",
             "country_or_region": "阿根廷",
             "genre_or_form": "短篇小说集",
             "input_layer": "WEB-CE-B12",
@@ -119036,7 +119036,7 @@
             "period_bucket": "出版年份待补",
             "source_minimum_status": "meets",
             "subject_id": "V1-ENT-0304",
-            "title_zh": "《床上吸烟的危险》"
+            "title_zh": "《床上抽烟危险》"
           }
         ],
         "entity_id": "V1-ENT-0304",
@@ -119072,7 +119072,7 @@
         "incoming_relations": [
           {
             "confidence": "high",
-            "description_zh": "玛丽安娜·恩里克斯创作《床上吸烟的危险》（Los peligros de fumar en la cama）",
+            "description_zh": "玛丽安娜·恩里克斯创作《床上抽烟危险》（Los peligros de fumar en la cama）",
             "evidence_count": "1",
             "issue_code": "NONE",
             "object_id": "V1-ENT-0304",
@@ -119086,8 +119086,8 @@
           }
         ],
         "issue_codes": "NONE",
-        "name_zh": "《床上吸烟的危险》",
-        "normalization_basis": "B12 Anagrama bibliography; collection layer",
+        "name_zh": "《床上抽烟危险》",
+        "normalization_basis": "Published Chinese title supported by a university library catalogue; original title retained.",
         "origin_count": "1",
         "origin_refs": "CAND-B12-ENRIQUEZ-W03",
         "original_name": "Los peligros de fumar en la cama",
@@ -119188,7 +119188,7 @@
             "author_label": "亚历杭德罗·桑布拉",
             "card_id": "V1-CARD-0194",
             "card_type": "work",
-            "content_markdown": "### 《树木的私生活》｜La vida privada de los árboles — Anagrama and Memoria Chilena record the 2007 novel.",
+            "content_markdown": "### 《树的隐秘生活》｜La vida privada de los árboles — Anagrama and Memoria Chilena record the 2007 novel.",
             "country_or_region": "智利",
             "genre_or_form": "小说",
             "input_layer": "WEB-CE-B12",
@@ -119199,7 +119199,7 @@
             "period_bucket": "2007",
             "source_minimum_status": "meets",
             "subject_id": "V1-ENT-0306",
-            "title_zh": "《树木的私生活》"
+            "title_zh": "《树的隐秘生活》"
           }
         ],
         "entity_id": "V1-ENT-0306",
@@ -119248,7 +119248,7 @@
         "incoming_relations": [
           {
             "confidence": "high",
-            "description_zh": "亚历杭德罗·桑布拉创作《树木的私生活》（La vida privada de los árboles）",
+            "description_zh": "亚历杭德罗·桑布拉创作《树的隐秘生活》（La vida privada de los árboles）",
             "evidence_count": "1",
             "issue_code": "NONE",
             "object_id": "V1-ENT-0306",
@@ -119262,8 +119262,8 @@
           }
         ],
         "issue_codes": "NONE",
-        "name_zh": "《树木的私生活》",
-        "normalization_basis": "B12 Anagrama and Memoria Chilena bibliography; work layer",
+        "name_zh": "《树的隐秘生活》",
+        "normalization_basis": "Published Chinese title supported by China Writers Net; original title retained.",
         "origin_count": "1",
         "origin_refs": "CAND-B12-ZAMBRA-W02",
         "original_name": "La vida privada de los árboles",
@@ -119276,7 +119276,7 @@
             "author_label": "亚历杭德罗·桑布拉",
             "card_id": "V1-CARD-0195",
             "card_type": "work",
-            "content_markdown": "### 《回家的方式》｜Formas de volver a casa — Anagrama and Memoria Chilena record the 2011 novel.",
+            "content_markdown": "### 《回家的路》｜Formas de volver a casa — Anagrama and Memoria Chilena record the 2011 novel.",
             "country_or_region": "智利",
             "genre_or_form": "小说",
             "input_layer": "WEB-CE-B12",
@@ -119287,7 +119287,7 @@
             "period_bucket": "2011",
             "source_minimum_status": "meets",
             "subject_id": "V1-ENT-0307",
-            "title_zh": "《回家的方式》"
+            "title_zh": "《回家的路》"
           }
         ],
         "entity_id": "V1-ENT-0307",
@@ -119336,7 +119336,7 @@
         "incoming_relations": [
           {
             "confidence": "high",
-            "description_zh": "亚历杭德罗·桑布拉创作《回家的方式》（Formas de volver a casa）",
+            "description_zh": "亚历杭德罗·桑布拉创作《回家的路》（Formas de volver a casa）",
             "evidence_count": "1",
             "issue_code": "NONE",
             "object_id": "V1-ENT-0307",
@@ -119350,8 +119350,8 @@
           }
         ],
         "issue_codes": "NONE",
-        "name_zh": "《回家的方式》",
-        "normalization_basis": "B12 Anagrama and Memoria Chilena bibliography; work layer",
+        "name_zh": "《回家的路》",
+        "normalization_basis": "Published Chinese title supported by China Writers Net; original title retained.",
         "origin_count": "1",
         "origin_refs": "CAND-B12-ZAMBRA-W03",
         "original_name": "Formas de volver a casa",
@@ -149232,7 +149232,7 @@
       },
       {
         "confidence": "high",
-        "description_zh": "豪尔赫·亚马多创作《弗洛尔和她的两个丈夫》（Dona Flor e seus dois maridos）",
+        "description_zh": "若热·亚马多创作《弗洛尔和她的两个丈夫》（Dona Flor e seus dois maridos）",
         "evidence": [
           {
             "evidence_note": "来源直接归名/列出作者与作品；CREATED 单来源满足基础关系最低证据。",
@@ -149256,7 +149256,7 @@
       },
       {
         "confidence": "high",
-        "description_zh": "豪尔赫·亚马多创作《加布里埃拉》（Gabriela, cravo e canela）",
+        "description_zh": "若热·亚马多创作《加布里埃拉》（Gabriela, cravo e canela）",
         "evidence": [
           {
             "evidence_note": "来源直接归名/列出作者与作品；CREATED 单来源满足基础关系最低证据。",
@@ -149280,7 +149280,7 @@
       },
       {
         "confidence": "high",
-        "description_zh": "豪尔赫·亚马多创作《沙滩船长》（Capitães da Areia）",
+        "description_zh": "若热·亚马多创作《沙滩船长》（Capitães da Areia）",
         "evidence": [
           {
             "evidence_note": "来源直接归名/列出作者与作品；CREATED 单来源满足基础关系最低证据。",
@@ -149352,7 +149352,7 @@
       },
       {
         "confidence": "high",
-        "description_zh": "豪尔赫·亚马多与巴西关联（作者生平/身份来源）",
+        "description_zh": "若热·亚马多与巴西关联（作者生平/身份来源）",
         "evidence": [
           {
             "evidence_note": "作者来源直接支持与巴西的身份/生平关联；不推导具体作品故事地点。",
@@ -149448,7 +149448,7 @@
       },
       {
         "confidence": "high",
-        "description_zh": "何塞·多诺索创作《夜晚的淫鸟》（El obsceno pájaro de la noche）",
+        "description_zh": "何塞·多诺索创作《污秽的夜鸟》（El obsceno pájaro de la noche）",
         "evidence": [
           {
             "evidence_note": "来源作品档案直接指向作者与作品；CREATED 单来源满足基础关系最低证据。",
@@ -149568,7 +149568,7 @@
       },
       {
         "confidence": "high",
-        "description_zh": "埃内斯托·萨瓦托创作《阿巴顿，毁灭者》（Abaddón el exterminador）",
+        "description_zh": "埃内斯托·萨瓦托创作《毁灭者亚巴顿》（Abaddón el exterminador）",
         "evidence": [
           {
             "evidence_note": "CONICET 书目直接列出作者与作品；CREATED 单来源满足基础关系最低证据。",
@@ -151992,7 +151992,7 @@
       },
       {
         "confidence": "high",
-        "description_zh": "萨曼塔·施韦布林创作《救援距离》（Distancia de rescate）",
+        "description_zh": "萨曼塔·施维伯林创作《营救距离》（Distancia de rescate）",
         "evidence": [
           {
             "evidence_note": "Argentina Ministry bibliography links Distancia de rescate to Schweblin.",
@@ -152016,7 +152016,7 @@
       },
       {
         "confidence": "high",
-        "description_zh": "萨曼塔·施韦布林创作《口中之鸟》（Pájaros en la boca）",
+        "description_zh": "萨曼塔·施维伯林创作《吃鸟的女孩》（Pájaros en la boca）",
         "evidence": [
           {
             "evidence_note": "Argentina Ministry biography lists Pájaros en la boca under Schweblin.",
@@ -152040,7 +152040,7 @@
       },
       {
         "confidence": "high",
-        "description_zh": "萨曼塔·施韦布林创作《七座空屋》（Siete casas vacías）",
+        "description_zh": "萨曼塔·施维伯林创作《七座空屋》（Siete casas vacías）",
         "evidence": [
           {
             "evidence_note": "Argentina Ministry biography lists Siete casas vacías under Schweblin.",
@@ -152064,7 +152064,7 @@
       },
       {
         "confidence": "high",
-        "description_zh": "玛丽安娜·恩里克斯创作《我们在火中失去的东西》（Las cosas que perdimos en el fuego）",
+        "description_zh": "玛丽安娜·恩里克斯创作《火中遗物》（Las cosas que perdimos en el fuego）",
         "evidence": [
           {
             "evidence_note": "Anagrama notice identifies Las cosas que perdimos en el fuego as an Enriquez story book.",
@@ -152088,7 +152088,7 @@
       },
       {
         "confidence": "high",
-        "description_zh": "玛丽安娜·恩里克斯创作《我们的夜晚》（Nuestra parte de noche）",
+        "description_zh": "玛丽安娜·恩里克斯创作《属于我们的夜晚》（Nuestra parte de noche）",
         "evidence": [
           {
             "evidence_note": "Anagrama book page identifies Nuestra parte de noche under Enriquez.",
@@ -152112,7 +152112,7 @@
       },
       {
         "confidence": "high",
-        "description_zh": "玛丽安娜·恩里克斯创作《床上吸烟的危险》（Los peligros de fumar en la cama）",
+        "description_zh": "玛丽安娜·恩里克斯创作《床上抽烟危险》（Los peligros de fumar en la cama）",
         "evidence": [
           {
             "evidence_note": "Anagrama notice and book page identify Los peligros de fumar en la cama under Enriquez.",
@@ -152160,7 +152160,7 @@
       },
       {
         "confidence": "high",
-        "description_zh": "亚历杭德罗·桑布拉创作《树木的私生活》（La vida privada de los árboles）",
+        "description_zh": "亚历杭德罗·桑布拉创作《树的隐秘生活》（La vida privada de los árboles）",
         "evidence": [
           {
             "evidence_note": "Mapocho article lists La vida privada de los árboles in the Zambra chronology; Anagrama supplies the author bibliography.",
@@ -152184,7 +152184,7 @@
       },
       {
         "confidence": "high",
-        "description_zh": "亚历杭德罗·桑布拉创作《回家的方式》（Formas de volver a casa）",
+        "description_zh": "亚历杭德罗·桑布拉创作《回家的路》（Formas de volver a casa）",
         "evidence": [
           {
             "evidence_note": "Mapocho article lists Formas de volver a casa in the Zambra chronology; Anagrama supplies the author bibliography.",
@@ -152208,7 +152208,7 @@
       },
       {
         "confidence": "high",
-        "description_zh": "萨曼塔·施韦布林与阿根廷关联",
+        "description_zh": "萨曼塔·施维伯林与阿根廷关联",
         "evidence": [
           {
             "evidence_note": "Argentina Ministry biography identifies Schweblin in Argentine literary context.",
@@ -156541,6 +156541,96 @@
         "source_id": "SRC-0280",
         "source_level": "C",
         "title": "瓜达卢佩·内特尔作品（三册）"
+      },
+      {
+        "author_or_editor": "中国作家网",
+        "canonical_url": "https://www.chinawriter.com.cn/comm/2016/2016-02-24/265978.html",
+        "publication_year": "2016",
+        "publisher": "中国作家网",
+        "source_id": "SRC-0281",
+        "source_level": "C",
+        "title": "若热·亚马多中文作家名资料"
+      },
+      {
+        "author_or_editor": "胡安·卡洛斯·奥内蒂",
+        "canonical_url": "https://zhengzhou.zfcg.henan.gov.cn/cmsweb81e27e/nas/webfile2024//nanyang/rootfiles/2024/11/15/caaec49ea4264e7990077622cd565e1d.pdf",
+        "publication_year": "2024",
+        "publisher": "作家出版社",
+        "source_id": "SRC-0282",
+        "source_level": "B",
+        "title": "政府采购书目中的短暂的生命"
+      },
+      {
+        "author_or_editor": "",
+        "canonical_url": "https://zfcg.henan.gov.cn/cmsweb81e27e/nas/webfile2024/henan/rootfiles/2024/07/26/2f9f478cc1494af09a6cc32b574049b2.pdf",
+        "publication_year": "2022",
+        "publisher": "人民文学出版社",
+        "source_id": "SRC-0283",
+        "source_level": "B",
+        "title": "污秽的夜鸟"
+      },
+      {
+        "author_or_editor": "埃内斯托·萨瓦托",
+        "canonical_url": "https://www.ccgp-neimenggu.gov.cn/gpx-bid-file/150501/gpx-tender/2022/9/27/402881dd82f475a001837dd994c704ec.pdf?accessCode=6ee03dd5dfaa580f5676714376d8dec5",
+        "publication_year": "2021",
+        "publisher": "四川文艺出版社",
+        "source_id": "SRC-0284",
+        "source_level": "B",
+        "title": "政府采购书目中的毁灭者亚巴顿"
+      },
+      {
+        "author_or_editor": "萨曼塔·施维伯林",
+        "canonical_url": "https://zfcg.henan.gov.cn/cmsweb81e27e/nas/webfile2024/hebi/rootfiles/2023/05/30/f9639cdc6cb440bdaeb5d6b138162c24.pdf",
+        "publication_year": "2018",
+        "publisher": "人民文学出版社",
+        "source_id": "SRC-0285",
+        "source_level": "B",
+        "title": "政府采购书目中的营救距离"
+      },
+      {
+        "author_or_editor": "",
+        "canonical_url": "https://opac.uibe.edu.cn/opac/book/483c06579a847d844526abb43bfd53f2",
+        "publication_year": "2021",
+        "publisher": "对外经济贸易大学图书馆",
+        "source_id": "SRC-0286",
+        "source_level": "B",
+        "title": "吃鸟的女孩"
+      },
+      {
+        "author_or_editor": "",
+        "canonical_url": "https://cultura.cervantes.es/pekin/zh/%C2%ABlas-cosas-que-perdimos-en-el-fuego%C2%BB/186195",
+        "publication_year": "",
+        "publisher": "塞万提斯学院北京",
+        "source_id": "SRC-0287",
+        "source_level": "B",
+        "title": "Las cosas que perdimos en el fuego 文化活动页"
+      },
+      {
+        "author_or_editor": "",
+        "canonical_url": "https://www.fltrp.com/ebook/zhcb/zhcb_tsml_gd_js_2024/files/basic-html/page37.html",
+        "publication_year": "2024",
+        "publisher": "外语教学与研究出版社",
+        "source_id": "SRC-0288",
+        "source_level": "B",
+        "title": "2024 外研社图书目录"
+      },
+      {
+        "author_or_editor": "",
+        "canonical_url": "https://opac.uibe.edu.cn/opac/book/1ad3b7b650abb95d05fd46424018d470",
+        "publication_year": "2022",
+        "publisher": "对外经济贸易大学图书馆",
+        "source_id": "SRC-0289",
+        "source_level": "B",
+        "title": "床上抽烟危险"
+      },
+      {
+        "author_or_editor": "中国作家网",
+        "canonical_url": "https://www.chinawriter.com.cn/n1/2017/0721/c405171-29418970.html",
+        "publication_year": "2017",
+        "publisher": "中国作家网",
+        "source_id": "SRC-0290",
+        "source_level": "C",
+        "title": "桂冠诗人之后的新一代智利诗人"
       }
     ]
   },
@@ -157456,7 +157546,7 @@
       "target_type": "author"
     },
     {
-      "name_zh": "豪尔赫·亚马多",
+      "name_zh": "若热·亚马多",
       "original_name": "Jorge Amado",
       "public_route": "authors/jorge-amado-v1-ent-0172/",
       "related_ids": [
@@ -157465,7 +157555,7 @@
         "V1-ENT-0181",
         "V1-ENT-0183"
       ],
-      "search_text": "豪尔赫·亚马多 Jorge Amado 豪尔赫·亚马多 巴西 1912–2001",
+      "search_text": "若热·亚马多 Jorge Amado 若热·亚马多 巴西 1912–2001",
       "target_id": "V1-ENT-0172",
       "target_type": "author"
     },
@@ -157670,13 +157760,13 @@
       "target_type": "work"
     },
     {
-      "name_zh": "《夜晚的淫鸟》",
+      "name_zh": "《污秽的夜鸟》",
       "original_name": "El obsceno pájaro de la noche",
       "public_route": "works/el-obsceno-pajaro-de-la-noche-v1-ent-0190/",
       "related_ids": [
         "V1-ENT-0185"
       ],
-      "search_text": "《夜晚的淫鸟》 El obsceno pájaro de la noche 《夜晚的淫鸟》 智利 1970",
+      "search_text": "《污秽的夜鸟》 El obsceno pájaro de la noche 《污秽的夜鸟》 智利 1970",
       "target_id": "V1-ENT-0190",
       "target_type": "work"
     },
@@ -157725,13 +157815,13 @@
       "target_type": "work"
     },
     {
-      "name_zh": "《阿巴顿，毁灭者》",
+      "name_zh": "《毁灭者亚巴顿》",
       "original_name": "Abaddón el exterminador",
       "public_route": "works/abaddon-el-exterminador-v1-ent-0195/",
       "related_ids": [
         "V1-ENT-0186"
       ],
-      "search_text": "《阿巴顿，毁灭者》 Abaddón el exterminador 《阿巴顿，毁灭者》 阿根廷 1974",
+      "search_text": "《毁灭者亚巴顿》 Abaddón el exterminador 《毁灭者亚巴顿》 阿根廷 1974",
       "target_id": "V1-ENT-0195",
       "target_type": "work"
     },
@@ -165176,7 +165266,7 @@
           },
           {
             "confidence": "high",
-            "description_zh": "埃内斯托·萨瓦托创作《阿巴顿，毁灭者》（Abaddón el exterminador）",
+            "description_zh": "埃内斯托·萨瓦托创作《毁灭者亚巴顿》（Abaddón el exterminador）",
             "evidence_count": "1",
             "issue_code": "NONE",
             "object_id": "V1-ENT-0195",
@@ -165510,10 +165600,10 @@
         "canonical_status": "candidate",
         "content_cards": [
           {
-            "author_label": "豪尔赫·亚马多",
+            "author_label": "若热·亚马多",
             "card_id": "V1-CARD-0072",
             "card_type": "author",
-            "content_markdown": "### 豪尔赫·亚马多\n\n- 对象类型：`author`｜原文名：Jorge Amado｜国家/地区：巴西｜来源批次：WEB-CE-B02\n- 本批只公开来源支持的基础生平和作品书目；文学运动、影响与强主题判断留作后续审计。",
+            "content_markdown": "### 若热·亚马多\n\n- 对象类型：`author`｜原文名：Jorge Amado｜国家/地区：巴西｜来源批次：WEB-CE-B02\n- 本批只公开来源支持的基础生平和作品书目；文学运动、影响与强主题判断留作后续审计。",
             "country_or_region": "巴西",
             "genre_or_form": "",
             "input_layer": "WEB-CE-B02",
@@ -165524,7 +165614,7 @@
             "period_bucket": "1912–2001",
             "source_minimum_status": "meets",
             "subject_id": "V1-ENT-0172",
-            "title_zh": "豪尔赫·亚马多"
+            "title_zh": "若热·亚马多"
           }
         ],
         "entity_id": "V1-ENT-0172",
@@ -165598,15 +165688,15 @@
         ],
         "incoming_relations": [],
         "issue_codes": "NONE",
-        "name_zh": "豪尔赫·亚马多",
-        "normalization_basis": "B02 official/academy source identity check; Chinese display name is a reader-facing canonical candidate",
+        "name_zh": "若热·亚马多",
+        "normalization_basis": "Published Chinese author spelling supported by China Writers Net; original name and entity identity retained.",
         "origin_count": "2",
         "origin_refs": "CAND-B02-JORGE-AUTHOR",
         "original_name": "Jorge Amado",
         "outgoing_relations": [
           {
             "confidence": "high",
-            "description_zh": "豪尔赫·亚马多创作《弗洛尔和她的两个丈夫》（Dona Flor e seus dois maridos）",
+            "description_zh": "若热·亚马多创作《弗洛尔和她的两个丈夫》（Dona Flor e seus dois maridos）",
             "evidence_count": "1",
             "issue_code": "NONE",
             "object_id": "V1-ENT-0179",
@@ -165620,7 +165710,7 @@
           },
           {
             "confidence": "high",
-            "description_zh": "豪尔赫·亚马多创作《加布里埃拉》（Gabriela, cravo e canela）",
+            "description_zh": "若热·亚马多创作《加布里埃拉》（Gabriela, cravo e canela）",
             "evidence_count": "1",
             "issue_code": "NONE",
             "object_id": "V1-ENT-0180",
@@ -165634,7 +165724,7 @@
           },
           {
             "confidence": "high",
-            "description_zh": "豪尔赫·亚马多创作《沙滩船长》（Capitães da Areia）",
+            "description_zh": "若热·亚马多创作《沙滩船长》（Capitães da Areia）",
             "evidence_count": "1",
             "issue_code": "NONE",
             "object_id": "V1-ENT-0181",
@@ -165648,7 +165738,7 @@
           },
           {
             "confidence": "high",
-            "description_zh": "豪尔赫·亚马多与巴西关联（作者生平/身份来源）",
+            "description_zh": "若热·亚马多与巴西关联（作者生平/身份来源）",
             "evidence_count": "1",
             "issue_code": "NONE",
             "object_id": "V1-ENT-0183",
@@ -169814,7 +169904,7 @@
         "outgoing_relations": [
           {
             "confidence": "high",
-            "description_zh": "何塞·多诺索创作《夜晚的淫鸟》（El obsceno pájaro de la noche）",
+            "description_zh": "何塞·多诺索创作《污秽的夜鸟》（El obsceno pájaro de la noche）",
             "evidence_count": "1",
             "issue_code": "NONE",
             "object_id": "V1-ENT-0190",
@@ -174995,10 +175085,10 @@
         "canonical_status": "candidate",
         "content_cards": [
           {
-            "author_label": "豪尔赫·亚马多",
+            "author_label": "若热·亚马多",
             "card_id": "V1-CARD-0075",
             "card_type": "work",
-            "content_markdown": "### 《沙滩船长》\n\n- 对象类型：`work`｜作者：豪尔赫·亚马多｜原文题名：Capitães da Areia｜国家/地区：巴西\n- 本批记录首版年份、实体层和可回溯书目说明；中文译本版本学字段不作为本批门槛。",
+            "content_markdown": "### 《沙滩船长》\n\n- 对象类型：`work`｜作者：若热·亚马多｜原文题名：Capitães da Areia｜国家/地区：巴西\n- 本批记录首版年份、实体层和可回溯书目说明；中文译本版本学字段不作为本批门槛。",
             "country_or_region": "巴西",
             "genre_or_form": "",
             "input_layer": "WEB-CE-B02",
@@ -175058,7 +175148,7 @@
         "incoming_relations": [
           {
             "confidence": "high",
-            "description_zh": "豪尔赫·亚马多创作《沙滩船长》（Capitães da Areia）",
+            "description_zh": "若热·亚马多创作《沙滩船长》（Capitães da Areia）",
             "evidence_count": "1",
             "issue_code": "NONE",
             "object_id": "V1-ENT-0181",
@@ -184107,10 +184197,10 @@
         "canonical_status": "candidate",
         "content_cards": [
           {
-            "author_label": "豪尔赫·亚马多",
+            "author_label": "若热·亚马多",
             "card_id": "V1-CARD-0074",
             "card_type": "work",
-            "content_markdown": "### 《加布里埃拉》\n\n- 对象类型：`work`｜作者：豪尔赫·亚马多｜原文题名：Gabriela, cravo e canela｜国家/地区：巴西\n- 本批记录首版年份、实体层和可回溯书目说明；中文译本版本学字段不作为本批门槛。",
+            "content_markdown": "### 《加布里埃拉》\n\n- 对象类型：`work`｜作者：若热·亚马多｜原文题名：Gabriela, cravo e canela｜国家/地区：巴西\n- 本批记录首版年份、实体层和可回溯书目说明；中文译本版本学字段不作为本批门槛。",
             "country_or_region": "巴西",
             "genre_or_form": "",
             "input_layer": "WEB-CE-B02",
@@ -184170,7 +184260,7 @@
         "incoming_relations": [
           {
             "confidence": "high",
-            "description_zh": "豪尔赫·亚马多创作《加布里埃拉》（Gabriela, cravo e canela）",
+            "description_zh": "若热·亚马多创作《加布里埃拉》（Gabriela, cravo e canela）",
             "evidence_count": "1",
             "issue_code": "NONE",
             "object_id": "V1-ENT-0180",
@@ -188650,10 +188740,10 @@
         "canonical_status": "candidate",
         "content_cards": [
           {
-            "author_label": "豪尔赫·亚马多",
+            "author_label": "若热·亚马多",
             "card_id": "V1-CARD-0073",
             "card_type": "work",
-            "content_markdown": "### 《弗洛尔和她的两个丈夫》\n\n- 对象类型：`work`｜作者：豪尔赫·亚马多｜原文题名：Dona Flor e seus dois maridos｜国家/地区：巴西\n- 本批记录首版年份、实体层和可回溯书目说明；中文译本版本学字段不作为本批门槛。",
+            "content_markdown": "### 《弗洛尔和她的两个丈夫》\n\n- 对象类型：`work`｜作者：若热·亚马多｜原文题名：Dona Flor e seus dois maridos｜国家/地区：巴西\n- 本批记录首版年份、实体层和可回溯书目说明；中文译本版本学字段不作为本批门槛。",
             "country_or_region": "巴西",
             "genre_or_form": "",
             "input_layer": "WEB-CE-B02",
@@ -188713,7 +188803,7 @@
         "incoming_relations": [
           {
             "confidence": "high",
-            "description_zh": "豪尔赫·亚马多创作《弗洛尔和她的两个丈夫》（Dona Flor e seus dois maridos）",
+            "description_zh": "若热·亚马多创作《弗洛尔和她的两个丈夫》（Dona Flor e seus dois maridos）",
             "evidence_count": "1",
             "issue_code": "NONE",
             "object_id": "V1-ENT-0179",
@@ -190683,7 +190773,7 @@
             "author_label": "何塞·多诺索",
             "card_id": "V1-CARD-0081",
             "card_type": "work",
-            "content_markdown": "### 《夜晚的淫鸟》｜El obsceno pájaro de la noche — 本批记录出版年份、原文题名与来源入口，不扩写未被来源直接支持的情节或文学地位。",
+            "content_markdown": "### 《污秽的夜鸟》｜El obsceno pájaro de la noche — 本批记录出版年份、原文题名与来源入口，不扩写未被来源直接支持的情节或文学地位。",
             "country_or_region": "智利",
             "genre_or_form": "小说",
             "input_layer": "WEB-CE-B03",
@@ -190694,7 +190784,7 @@
             "period_bucket": "1970",
             "source_minimum_status": "meets",
             "subject_id": "V1-ENT-0190",
-            "title_zh": "《夜晚的淫鸟》"
+            "title_zh": "《污秽的夜鸟》"
           }
         ],
         "entity_id": "V1-ENT-0190",
@@ -190743,7 +190833,7 @@
         "incoming_relations": [
           {
             "confidence": "high",
-            "description_zh": "何塞·多诺索创作《夜晚的淫鸟》（El obsceno pájaro de la noche）",
+            "description_zh": "何塞·多诺索创作《污秽的夜鸟》（El obsceno pájaro de la noche）",
             "evidence_count": "1",
             "issue_code": "NONE",
             "object_id": "V1-ENT-0190",
@@ -190757,8 +190847,8 @@
           }
         ],
         "issue_codes": "NONE",
-        "name_zh": "《夜晚的淫鸟》",
-        "normalization_basis": "B03 source-backed original title and Chinese display title; translation metadata is intentionally not a gate",
+        "name_zh": "《污秽的夜鸟》",
+        "normalization_basis": "Published Chinese title supported by a procurement catalogue identifying the People's Literature edition; original title retained.",
         "origin_count": "1",
         "origin_refs": "CAND-B03-V1-ENT-0190-WORK",
         "original_name": "El obsceno pájaro de la noche",
@@ -192178,7 +192268,7 @@
         "outgoing_relations": [
           {
             "confidence": "high",
-            "description_zh": "玛丽安娜·恩里克斯创作《我们在火中失去的东西》（Las cosas que perdimos en el fuego）",
+            "description_zh": "玛丽安娜·恩里克斯创作《火中遗物》（Las cosas que perdimos en el fuego）",
             "evidence_count": "1",
             "issue_code": "NONE",
             "object_id": "V1-ENT-0302",
@@ -192192,7 +192282,7 @@
           },
           {
             "confidence": "high",
-            "description_zh": "玛丽安娜·恩里克斯创作《我们的夜晚》（Nuestra parte de noche）",
+            "description_zh": "玛丽安娜·恩里克斯创作《属于我们的夜晚》（Nuestra parte de noche）",
             "evidence_count": "1",
             "issue_code": "NONE",
             "object_id": "V1-ENT-0303",
@@ -192206,7 +192296,7 @@
           },
           {
             "confidence": "high",
-            "description_zh": "玛丽安娜·恩里克斯创作《床上吸烟的危险》（Los peligros de fumar en la cama）",
+            "description_zh": "玛丽安娜·恩里克斯创作《床上抽烟危险》（Los peligros de fumar en la cama）",
             "evidence_count": "1",
             "issue_code": "NONE",
             "object_id": "V1-ENT-0304",
@@ -192735,7 +192825,7 @@
             "author_label": "埃内斯托·萨瓦托",
             "card_id": "V1-CARD-0087",
             "card_type": "work",
-            "content_markdown": "### 《阿巴顿，毁灭者》｜Abaddón el exterminador — 本批记录首版年份与可回溯书目说明，不扩写未被来源直接支持的情节或文学地位。",
+            "content_markdown": "### 《毁灭者亚巴顿》｜Abaddón el exterminador — 本批记录首版年份与可回溯书目说明，不扩写未被来源直接支持的情节或文学地位。",
             "country_or_region": "阿根廷",
             "genre_or_form": "小说",
             "input_layer": "WEB-CE-B03",
@@ -192746,7 +192836,7 @@
             "period_bucket": "1974",
             "source_minimum_status": "meets",
             "subject_id": "V1-ENT-0195",
-            "title_zh": "《阿巴顿，毁灭者》"
+            "title_zh": "《毁灭者亚巴顿》"
           }
         ],
         "entity_id": "V1-ENT-0195",
@@ -192795,7 +192885,7 @@
         "incoming_relations": [
           {
             "confidence": "high",
-            "description_zh": "埃内斯托·萨瓦托创作《阿巴顿，毁灭者》（Abaddón el exterminador）",
+            "description_zh": "埃内斯托·萨瓦托创作《毁灭者亚巴顿》（Abaddón el exterminador）",
             "evidence_count": "1",
             "issue_code": "NONE",
             "object_id": "V1-ENT-0195",
@@ -192809,8 +192899,8 @@
           }
         ],
         "issue_codes": "NONE",
-        "name_zh": "《阿巴顿，毁灭者》",
-        "normalization_basis": "B03 source-backed original title and Chinese display title; translation metadata is intentionally not a gate",
+        "name_zh": "《毁灭者亚巴顿》",
+        "normalization_basis": "Published Chinese title supported by the Sichuan Literature and Art edition catalogue; original title retained.",
         "origin_count": "1",
         "origin_refs": "CAND-B03-V1-ENT-0195-WORK",
         "original_name": "Abaddón el exterminador",
@@ -193600,7 +193690,7 @@
           },
           {
             "confidence": "high",
-            "description_zh": "亚历杭德罗·桑布拉创作《树木的私生活》（La vida privada de los árboles）",
+            "description_zh": "亚历杭德罗·桑布拉创作《树的隐秘生活》（La vida privada de los árboles）",
             "evidence_count": "1",
             "issue_code": "NONE",
             "object_id": "V1-ENT-0306",
@@ -193614,7 +193704,7 @@
           },
           {
             "confidence": "high",
-            "description_zh": "亚历杭德罗·桑布拉创作《回家的方式》（Formas de volver a casa）",
+            "description_zh": "亚历杭德罗·桑布拉创作《回家的路》（Formas de volver a casa）",
             "evidence_count": "1",
             "issue_code": "NONE",
             "object_id": "V1-ENT-0307",
@@ -194567,10 +194657,10 @@
         "canonical_status": "candidate",
         "content_cards": [
           {
-            "author_label": "萨曼塔·施韦布林",
+            "author_label": "萨曼塔·施维伯林",
             "card_id": "V1-CARD-0184",
             "card_type": "author",
-            "content_markdown": "### 萨曼塔·施韦布林｜Samanta Schweblin — Argentina Ministry and PRH profiles establish the author entry.",
+            "content_markdown": "### 萨曼塔·施维伯林｜Samanta Schweblin — Argentina Ministry and PRH profiles establish the author entry.",
             "country_or_region": "阿根廷",
             "genre_or_form": "短篇小说与小说",
             "input_layer": "WEB-CE-B12",
@@ -194581,7 +194671,7 @@
             "period_bucket": "1978–",
             "source_minimum_status": "meets",
             "subject_id": "V1-ENT-0296",
-            "title_zh": "萨曼塔·施韦布林"
+            "title_zh": "萨曼塔·施维伯林"
           }
         ],
         "entity_id": "V1-ENT-0296",
@@ -194629,15 +194719,15 @@
         ],
         "incoming_relations": [],
         "issue_codes": "NONE",
-        "name_zh": "萨曼塔·施韦布林",
-        "normalization_basis": "B12 Argentina Ministry and PRH profiles; Chinese display candidate",
+        "name_zh": "萨曼塔·施维伯林",
+        "normalization_basis": "Published Chinese author spelling supported across two People's Literature edition records; original name retained.",
         "origin_count": "1",
         "origin_refs": "CAND-B12-SCHWEBLIN-AUTHOR",
         "original_name": "Samanta Schweblin",
         "outgoing_relations": [
           {
             "confidence": "high",
-            "description_zh": "萨曼塔·施韦布林创作《救援距离》（Distancia de rescate）",
+            "description_zh": "萨曼塔·施维伯林创作《营救距离》（Distancia de rescate）",
             "evidence_count": "1",
             "issue_code": "NONE",
             "object_id": "V1-ENT-0299",
@@ -194651,7 +194741,7 @@
           },
           {
             "confidence": "high",
-            "description_zh": "萨曼塔·施韦布林创作《口中之鸟》（Pájaros en la boca）",
+            "description_zh": "萨曼塔·施维伯林创作《吃鸟的女孩》（Pájaros en la boca）",
             "evidence_count": "1",
             "issue_code": "NONE",
             "object_id": "V1-ENT-0300",
@@ -194665,7 +194755,7 @@
           },
           {
             "confidence": "high",
-            "description_zh": "萨曼塔·施韦布林创作《七座空屋》（Siete casas vacías）",
+            "description_zh": "萨曼塔·施维伯林创作《七座空屋》（Siete casas vacías）",
             "evidence_count": "1",
             "issue_code": "NONE",
             "object_id": "V1-ENT-0301",
@@ -194679,7 +194769,7 @@
           },
           {
             "confidence": "high",
-            "description_zh": "萨曼塔·施韦布林与阿根廷关联",
+            "description_zh": "萨曼塔·施维伯林与阿根廷关联",
             "evidence_count": "1",
             "issue_code": "NONE",
             "object_id": "V1-ENT-0001",
@@ -199778,7 +199868,7 @@
             "author_label": "亚历杭德罗·桑布拉",
             "card_id": "V1-CARD-0194",
             "card_type": "work",
-            "content_markdown": "### 《树木的私生活》｜La vida privada de los árboles — Anagrama and Memoria Chilena record the 2007 novel.",
+            "content_markdown": "### 《树的隐秘生活》｜La vida privada de los árboles — Anagrama and Memoria Chilena record the 2007 novel.",
             "country_or_region": "智利",
             "genre_or_form": "小说",
             "input_layer": "WEB-CE-B12",
@@ -199789,7 +199879,7 @@
             "period_bucket": "2007",
             "source_minimum_status": "meets",
             "subject_id": "V1-ENT-0306",
-            "title_zh": "《树木的私生活》"
+            "title_zh": "《树的隐秘生活》"
           }
         ],
         "entity_id": "V1-ENT-0306",
@@ -199838,7 +199928,7 @@
         "incoming_relations": [
           {
             "confidence": "high",
-            "description_zh": "亚历杭德罗·桑布拉创作《树木的私生活》（La vida privada de los árboles）",
+            "description_zh": "亚历杭德罗·桑布拉创作《树的隐秘生活》（La vida privada de los árboles）",
             "evidence_count": "1",
             "issue_code": "NONE",
             "object_id": "V1-ENT-0306",
@@ -199852,8 +199942,8 @@
           }
         ],
         "issue_codes": "NONE",
-        "name_zh": "《树木的私生活》",
-        "normalization_basis": "B12 Anagrama and Memoria Chilena bibliography; work layer",
+        "name_zh": "《树的隐秘生活》",
+        "normalization_basis": "Published Chinese title supported by China Writers Net; original title retained.",
         "origin_count": "1",
         "origin_refs": "CAND-B12-ZAMBRA-W02",
         "original_name": "La vida privada de los árboles",
@@ -200183,7 +200273,7 @@
             "author_label": "亚历杭德罗·桑布拉",
             "card_id": "V1-CARD-0195",
             "card_type": "work",
-            "content_markdown": "### 《回家的方式》｜Formas de volver a casa — Anagrama and Memoria Chilena record the 2011 novel.",
+            "content_markdown": "### 《回家的路》｜Formas de volver a casa — Anagrama and Memoria Chilena record the 2011 novel.",
             "country_or_region": "智利",
             "genre_or_form": "小说",
             "input_layer": "WEB-CE-B12",
@@ -200194,7 +200284,7 @@
             "period_bucket": "2011",
             "source_minimum_status": "meets",
             "subject_id": "V1-ENT-0307",
-            "title_zh": "《回家的方式》"
+            "title_zh": "《回家的路》"
           }
         ],
         "entity_id": "V1-ENT-0307",
@@ -200243,7 +200333,7 @@
         "incoming_relations": [
           {
             "confidence": "high",
-            "description_zh": "亚历杭德罗·桑布拉创作《回家的方式》（Formas de volver a casa）",
+            "description_zh": "亚历杭德罗·桑布拉创作《回家的路》（Formas de volver a casa）",
             "evidence_count": "1",
             "issue_code": "NONE",
             "object_id": "V1-ENT-0307",
@@ -200257,8 +200347,8 @@
           }
         ],
         "issue_codes": "NONE",
-        "name_zh": "《回家的方式》",
-        "normalization_basis": "B12 Anagrama and Memoria Chilena bibliography; work layer",
+        "name_zh": "《回家的路》",
+        "normalization_basis": "Published Chinese title supported by China Writers Net; original title retained.",
         "origin_count": "1",
         "origin_refs": "CAND-B12-ZAMBRA-W03",
         "original_name": "Formas de volver a casa",
@@ -200588,7 +200678,7 @@
             "author_label": "玛丽安娜·恩里克斯",
             "card_id": "V1-CARD-0190",
             "card_type": "work",
-            "content_markdown": "### 《我们在火中失去的东西》｜Las cosas que perdimos en el fuego — Anagrama identifies a story collection published in February 2016.",
+            "content_markdown": "### 《火中遗物》｜Las cosas que perdimos en el fuego — Anagrama identifies a story collection published in February 2016.",
             "country_or_region": "阿根廷",
             "genre_or_form": "短篇小说集",
             "input_layer": "WEB-CE-B12",
@@ -200599,7 +200689,7 @@
             "period_bucket": "2016",
             "source_minimum_status": "meets",
             "subject_id": "V1-ENT-0302",
-            "title_zh": "《我们在火中失去的东西》"
+            "title_zh": "《火中遗物》"
           }
         ],
         "entity_id": "V1-ENT-0302",
@@ -200648,7 +200738,7 @@
         "incoming_relations": [
           {
             "confidence": "high",
-            "description_zh": "玛丽安娜·恩里克斯创作《我们在火中失去的东西》（Las cosas que perdimos en el fuego）",
+            "description_zh": "玛丽安娜·恩里克斯创作《火中遗物》（Las cosas que perdimos en el fuego）",
             "evidence_count": "1",
             "issue_code": "NONE",
             "object_id": "V1-ENT-0302",
@@ -200662,8 +200752,8 @@
           }
         ],
         "issue_codes": "NONE",
-        "name_zh": "《我们在火中失去的东西》",
-        "normalization_basis": "B12 Anagrama bibliography; collection layer",
+        "name_zh": "《火中遗物》",
+        "normalization_basis": "Published Chinese title supported by Instituto Cervantes Beijing; original title retained.",
         "origin_count": "1",
         "origin_refs": "CAND-B12-ENRIQUEZ-W01",
         "original_name": "Las cosas que perdimos en el fuego",
@@ -200723,7 +200813,7 @@
             "author_label": "玛丽安娜·恩里克斯",
             "card_id": "V1-CARD-0191",
             "card_type": "work",
-            "content_markdown": "### 《我们的夜晚》｜Nuestra parte de noche — Anagrama identifies a novel and the 2019 Herralde award; first-publication year remains a gap.",
+            "content_markdown": "### 《属于我们的夜晚》｜Nuestra parte de noche — Anagrama identifies a novel and the 2019 Herralde award; first-publication year remains a gap.",
             "country_or_region": "阿根廷",
             "genre_or_form": "小说",
             "input_layer": "WEB-CE-B12",
@@ -200734,7 +200824,7 @@
             "period_bucket": "2019奖项节点",
             "source_minimum_status": "meets",
             "subject_id": "V1-ENT-0303",
-            "title_zh": "《我们的夜晚》"
+            "title_zh": "《属于我们的夜晚》"
           }
         ],
         "entity_id": "V1-ENT-0303",
@@ -200783,7 +200873,7 @@
         "incoming_relations": [
           {
             "confidence": "high",
-            "description_zh": "玛丽安娜·恩里克斯创作《我们的夜晚》（Nuestra parte de noche）",
+            "description_zh": "玛丽安娜·恩里克斯创作《属于我们的夜晚》（Nuestra parte de noche）",
             "evidence_count": "1",
             "issue_code": "NONE",
             "object_id": "V1-ENT-0303",
@@ -200797,8 +200887,8 @@
           }
         ],
         "issue_codes": "NONE",
-        "name_zh": "《我们的夜晚》",
-        "normalization_basis": "B12 Anagrama bibliography; novel layer",
+        "name_zh": "《属于我们的夜晚》",
+        "normalization_basis": "Published Chinese title supported by the FLTRP catalogue; original title retained.",
         "origin_count": "1",
         "origin_refs": "CAND-B12-ENRIQUEZ-W02",
         "original_name": "Nuestra parte de noche",
@@ -201853,10 +201943,10 @@
         "canonical_status": "candidate",
         "content_cards": [
           {
-            "author_label": "萨曼塔·施韦布林",
+            "author_label": "萨曼塔·施维伯林",
             "card_id": "V1-CARD-0187",
             "card_type": "work",
-            "content_markdown": "### 《救援距离》｜Distancia de rescate — The Ministry PDF marks ©2014 on the copyright page; first-publication year remains open.",
+            "content_markdown": "### 《营救距离》｜Distancia de rescate — The Ministry PDF marks ©2014 on the copyright page; first-publication year remains open.",
             "country_or_region": "阿根廷",
             "genre_or_form": "小说",
             "input_layer": "WEB-CE-B12",
@@ -201867,7 +201957,7 @@
             "period_bucket": "首版年份待补",
             "source_minimum_status": "meets",
             "subject_id": "V1-ENT-0299",
-            "title_zh": "《救援距离》"
+            "title_zh": "《营救距离》"
           }
         ],
         "entity_id": "V1-ENT-0299",
@@ -201916,7 +202006,7 @@
         "incoming_relations": [
           {
             "confidence": "high",
-            "description_zh": "萨曼塔·施韦布林创作《救援距离》（Distancia de rescate）",
+            "description_zh": "萨曼塔·施维伯林创作《营救距离》（Distancia de rescate）",
             "evidence_count": "1",
             "issue_code": "NONE",
             "object_id": "V1-ENT-0299",
@@ -201930,8 +202020,8 @@
           }
         ],
         "issue_codes": "NONE",
-        "name_zh": "《救援距离》",
-        "normalization_basis": "B12 publisher/institutional bibliography; work layer",
+        "name_zh": "《营救距离》",
+        "normalization_basis": "Published Chinese title supported by the People's Literature edition record; original title retained.",
         "origin_count": "1",
         "origin_refs": "CAND-B12-SCHWEBLIN-W01",
         "original_name": "Distancia de rescate",
@@ -201988,10 +202078,10 @@
         "canonical_status": "candidate",
         "content_cards": [
           {
-            "author_label": "萨曼塔·施韦布林",
+            "author_label": "萨曼塔·施维伯林",
             "card_id": "V1-CARD-0188",
             "card_type": "work",
-            "content_markdown": "### 《口中之鸟》｜Pájaros en la boca — Institutional and publisher pages identify the title as a story collection; first year is an open gap.",
+            "content_markdown": "### 《吃鸟的女孩》｜Pájaros en la boca — Institutional and publisher pages identify the title as a story collection; first year is an open gap.",
             "country_or_region": "阿根廷",
             "genre_or_form": "短篇小说集",
             "input_layer": "WEB-CE-B12",
@@ -202002,7 +202092,7 @@
             "period_bucket": "出版年份待补",
             "source_minimum_status": "meets",
             "subject_id": "V1-ENT-0300",
-            "title_zh": "《口中之鸟》"
+            "title_zh": "《吃鸟的女孩》"
           }
         ],
         "entity_id": "V1-ENT-0300",
@@ -202038,7 +202128,7 @@
         "incoming_relations": [
           {
             "confidence": "high",
-            "description_zh": "萨曼塔·施韦布林创作《口中之鸟》（Pájaros en la boca）",
+            "description_zh": "萨曼塔·施维伯林创作《吃鸟的女孩》（Pájaros en la boca）",
             "evidence_count": "1",
             "issue_code": "NONE",
             "object_id": "V1-ENT-0300",
@@ -202052,8 +202142,8 @@
           }
         ],
         "issue_codes": "NONE",
-        "name_zh": "《口中之鸟》",
-        "normalization_basis": "B12 publisher/institutional bibliography; collection layer",
+        "name_zh": "《吃鸟的女孩》",
+        "normalization_basis": "Published Chinese title supported by a university library catalogue; original title retained.",
         "origin_count": "1",
         "origin_refs": "CAND-B12-SCHWEBLIN-W02",
         "original_name": "Pájaros en la boca",
@@ -202097,7 +202187,7 @@
         "canonical_status": "candidate",
         "content_cards": [
           {
-            "author_label": "萨曼塔·施韦布林",
+            "author_label": "萨曼塔·施维伯林",
             "card_id": "V1-CARD-0189",
             "card_type": "work",
             "content_markdown": "### 《七座空屋》｜Siete casas vacías — The Ministry bibliography and PRH page identify the story collection; current edition date is not first publication.",
@@ -202147,7 +202237,7 @@
         "incoming_relations": [
           {
             "confidence": "high",
-            "description_zh": "萨曼塔·施韦布林创作《七座空屋》（Siete casas vacías）",
+            "description_zh": "萨曼塔·施维伯林创作《七座空屋》（Siete casas vacías）",
             "evidence_count": "1",
             "issue_code": "NONE",
             "object_id": "V1-ENT-0301",
@@ -202209,7 +202299,7 @@
             "author_label": "玛丽安娜·恩里克斯",
             "card_id": "V1-CARD-0192",
             "card_type": "work",
-            "content_markdown": "### 《床上吸烟的危险》｜Los peligros de fumar en la cama — Anagrama identifies an earlier Argentine story collection and twelve-story form.",
+            "content_markdown": "### 《床上抽烟危险》｜Los peligros de fumar en la cama — Anagrama identifies an earlier Argentine story collection and twelve-story form.",
             "country_or_region": "阿根廷",
             "genre_or_form": "短篇小说集",
             "input_layer": "WEB-CE-B12",
@@ -202220,7 +202310,7 @@
             "period_bucket": "出版年份待补",
             "source_minimum_status": "meets",
             "subject_id": "V1-ENT-0304",
-            "title_zh": "《床上吸烟的危险》"
+            "title_zh": "《床上抽烟危险》"
           }
         ],
         "entity_id": "V1-ENT-0304",
@@ -202256,7 +202346,7 @@
         "incoming_relations": [
           {
             "confidence": "high",
-            "description_zh": "玛丽安娜·恩里克斯创作《床上吸烟的危险》（Los peligros de fumar en la cama）",
+            "description_zh": "玛丽安娜·恩里克斯创作《床上抽烟危险》（Los peligros de fumar en la cama）",
             "evidence_count": "1",
             "issue_code": "NONE",
             "object_id": "V1-ENT-0304",
@@ -202270,8 +202360,8 @@
           }
         ],
         "issue_codes": "NONE",
-        "name_zh": "《床上吸烟的危险》",
-        "normalization_basis": "B12 Anagrama bibliography; collection layer",
+        "name_zh": "《床上抽烟危险》",
+        "normalization_basis": "Published Chinese title supported by a university library catalogue; original title retained.",
         "origin_count": "1",
         "origin_refs": "CAND-B12-ENRIQUEZ-W03",
         "original_name": "Los peligros de fumar en la cama",

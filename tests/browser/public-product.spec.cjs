@@ -312,7 +312,7 @@ test("audited WEB-CE-B01/B02/B03/B04/B05 authors, works, collections and Geo are
     ["authors/jose-donoso-v1-ent-0185/", "何塞·多诺索"],
     ["authors/ernesto-sabato-v1-ent-0186/", "埃内斯托·萨瓦托"],
     ["works/la-vida-breve-v1-ent-0187/", "《短暂的生命》"],
-    ["works/el-obsceno-pajaro-de-la-noche-v1-ent-0190/", "《夜晚的淫鸟》"],
+    ["works/el-obsceno-pajaro-de-la-noche-v1-ent-0190/", "《污秽的夜鸟》"],
     ["works/el-tunel-v1-ent-0193/", "《隧道》"],
     ["countries/uruguay-v1-ent-0196/", "乌拉圭"],
     ["authors/adolfo-bioy-casares-v1-ent-0198/", "阿道夫·比奥伊·卡萨雷斯"],
@@ -406,7 +406,7 @@ test("WEB-CE-B11-B15 preserve the review boundary and expose complete preview ro
 
   const samples = [
     ["authors/manuel-puig-v1-ent-0284/", "曼努埃尔·普伊格"],
-    ["authors/samanta-schweblin-v1-ent-0296/", "萨曼塔·施韦布林"],
+    ["authors/samanta-schweblin-v1-ent-0296/", "萨曼塔·施维伯林"],
     ["authors/paulo-coelho-v1-ent-0308/", "保罗·柯艾略"],
     ["authors/jose-lezama-lima-v1-ent-0320/", "何塞·莱萨马·利马"],
     ["authors/julio-ramon-ribeyro-v1-ent-0332/", "胡利奥·拉蒙·里贝罗"],

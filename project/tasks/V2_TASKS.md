@@ -1,7 +1,7 @@
 # 拉丁美洲文学地图 V2 任务源
 
-- **版本**：1.3.1
-- **最后更新**：2026-08-28
+- **版本**：1.3.2
+- **最后更新**：2026-08-30
 - **状态**：ACTIVE
 - **唯一动态状态源**：本文件
 - **上位文件**：
@@ -12,12 +12,12 @@
 ## 当前执行摘要
 
 - **当前阶段**：V2 网站建设阶段 / Web 0.x 持续内容建设期
-- **当前 Web 版本**：`Web 0.3.0 — DEVELOPMENT`
+- **当前 Web 版本**：`Web 0.3.1 — DEVELOPMENT`
 - **当前产品状态**：`DEVELOPMENT`
 - **Public Release**：`PAUSED BY USER`
-- **当前任务**：WCD-02 Literary Space & Relationship Deepening 已完成
-- **下一任务**：WCD-03 Chinese Display Name Consolidation（READY / NOT STARTED）
-- **后续顺序**：WCD-03 → WCD-04 → WCD-05 → WCD-06；后续任务均未启动
+- **当前任务**：WCD-03 Chinese Display Name Consolidation 已完成
+- **下一任务**：WCD-04 Coverage Rebalancing（READY / NOT STARTED）
+- **后续顺序**：WCD-04 → WCD-05 → WCD-06；WCD-05 / WCD-06 仍锁定
 - **需要 USER**：无需为合并开发基线立即审核全部 `user_review`；未来 Public Build 仍须排除未批准策展内容
 - **最近完成**：`WEB-CONTENT-EXPANSION` B01—B17；rc.1—rc.5 与 Web 0.1.0 均作为历史开发记录保留
 
@@ -464,8 +464,8 @@
 - **目标**：在现有 61 位作者 / 168 部作品基础上，从横向扩大作家数量转向纵向深化文学空间、研究关系、策展质量与中文读者入口；不创建 Batch 18。
 - **✅ WCD-01 Global Curation Triage**：完成 2268 条全策展层审核记录的机器盘点与全局分层；`auto_approved / user_review / hold` 从 `498 / 1744 / 26` 调整为 `519 / 1723 / 26`。仅恢复 21 条有明确历史 USER 证据的 Presentation 记录（16 条 why_read、5 条首页路径），修复 1 条 source/research 引用分类错误，并新增高判断 USER 门禁与全层引用校验。Research DB SHA-256 前后均为 `95e72dbf80a6d0f3dc8619979a34ff36582832175a0006bdcf1cf49b06fbb1ec`；public bundle 新增 21 条 Presentation 记录、移除 0 条，Web Product 升级为 `Web 0.2.1 — Development`。产物：`project/audits/web/WCD_01_GLOBAL_CURATION_TRIAGE.md`、DEC-046、重建后的 Web Data/manifest。验证：Research DB、Curation、Web Data、content quality、public bundle、单元/浏览器 QA、确定性重建与 `git diff --check` 均通过。状态：`✅ DONE`。
 - **✅ WCD-02 Literary Space & Relationship Deepening**：完成 61 位作者 / 168 部作品及完整 Research/Geo 关系审计，建立 P0—P3/DEFER 矩阵；经独立 Reviewer PASS 后追加迁移 `0028`—`0029`，新增 4 个城市实体、9 条 author→city、4 条 work→place 与 14 条证据，主库达到 371 entities / 306 relationships。Geo 达到 38 places / 91 place relations，虚构空间仍无现实坐标；新增 8 条低判断 Curation 记录。Curation review package 为 61 authors / 168 works / 25 places，formal public scope 为 25 authors / 60 works / 32 places / 2 nodes；Web Product 为 `Web 0.3.0 — Development`，Research 为 `Data 1.3.0 development candidate`。针对性返修已删除 14 个不支撑具体文案的 `PUBLIC_CONTENT.research_refs`，构建器改为字段级显式 provenance，且不改变 Research、迁移或 Geo。既有 3 条 `SET_IN` hold 与证据不足的 movement/theme/event 关系不升级。产物：`project/audits/web/WCD_02_LITERARY_SPACE_RELATIONSHIP_DEEPENING.md`、DEC-047、WCD-02 changeset/review、迁移与全量导出。状态：`✅ DONE`。
-- **⏳ WCD-03 Chinese Display Name Consolidation**：全局核对 original title、Chinese display title 与 `display_name_status`；不把译者、出版社、中文出版年和 ISBN 作为本轮必填。状态：`⏳ READY / NOT STARTED`。
-- **🔒 WCD-04 Coverage Rebalancing**：分析国家、加勒比、中美洲、安第斯、女性作家/诗人、诗歌、戏剧、散文及地方文学空间覆盖，形成后续优先级，不立即大规模新增作者；同时记录“既有实体关系完整性”和“普通读者内容覆盖率”，作为 WCD-05、WCD-06 的输入，但原则上不在本任务直接实施大规模 Research Migration 或批量 Reader Content 写作。依赖 WCD-03。状态：`🔒 LOCKED / downstream of WCD-03`。
+- **✅ WCD-03 Chinese Display Name Consolidation**：完成 371 个实体全量名称矩阵；分类为 PASS 225 / PROVISIONAL 126 / REPLACE 12 / NO_CHINESE_NAME_NEEDED 6 / ALIAS 1 / HOLD 1。经独立 Reviewer 从 `REVISE` 修订后最终 `PASS`，append-only 追加 `0030`—`0031`，更正 2 个作者名与 10 个作品/合集名，新增 10 条中文展示名来源。Research 升至 `Data 1.3.1 development candidate`，Web 升至 `Web 0.3.1 — Development`；实体 ID、原文名、facts、relationship 端点/类型/证据、Schema 与公开范围均不变，关系描述中的旧中文名机械同步。当前 Schema 无 alias 字段，因此仅记录别名候选，不擅自扩展。产物：`project/audits/web/WCD_03_CHINESE_DISPLAY_NAME_CONSOLIDATION.md`、全量矩阵、WCD-03 changeset/review、全量导出。状态：`✅ DONE`。
+- **⏳ WCD-04 Coverage Rebalancing**：分析国家、加勒比、中美洲、安第斯、女性作家/诗人、诗歌、戏剧、散文及地方文学空间覆盖，形成后续优先级，不立即大规模新增作者；同时记录“既有实体关系完整性”和“普通读者内容覆盖率”，作为 WCD-05、WCD-06 的输入，但原则上不在本任务直接实施大规模 Research Migration 或批量 Reader Content 写作。依赖 WCD-03。状态：`⏳ READY / NOT STARTED`。
 - **🔒 WCD-05 Entity Relationship Gap Remediation（既有实体关系缺口补全）**：系统审计已存在于 Research Data、但零关系、弱关系、只有 country-level 地点关系，或已有 character / person / place entity 却未形成可消费研究网络的实体；优先处理 character→work 等基础人物关系、核心作者高价值地点关系、虚构文学空间→作品关系，以及少量 person / peripheral author 的关系必要性。目标不是消灭孤立节点，而是让每个高价值孤立或弱关系实体获得“补关系 / 保持孤立 / hold / defer”的可追溯判断。
   - **当前 known baseline**：Character 关系明显不足，重点候选包括弗朗西斯科·罗萨斯、胡利娅·安德拉德、胡安·普雷西亚多、佩德罗·巴拉莫（人物）、圣地亚哥·纳萨尔、上校、奥古斯丁、马康达尔、亨利·克里斯托夫、劝世者，重点研究 character↔work、character↔character、character↔place 及现有 Schema 合法支持的其他高价值关系；核心作者地点关系重点重新核验克拉丽丝·李斯佩克朵、胡利奥·科塔萨尔、卡洛斯·富恩特斯；阿图尔·叔本华、弗兰茨·卡夫卡、G. K. 切斯特顿等 peripheral author、现实 person 与 Santa María / 圣玛丽亚等虚构空间只在有长期研究与页面价值时建关系。以上仅为当前快照，正式执行时必须从最新 Research Master 重新计算。
   - **优先级**：P0 Character→Work 等最基础核心关系；P1 核心作者缺失的高价值地点关系；P2 既有虚构文学空间→作品关系；P3 Person / Peripheral Author 的关系必要性治理；缺少直接证据、页面价值低、纯文学推断或需要复杂 Schema 扩张者 DEFER。

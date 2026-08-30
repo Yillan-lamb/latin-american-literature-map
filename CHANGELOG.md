@@ -2,6 +2,20 @@
 
 本文件记录拉丁美洲文学地图各版本的实际修改。格式参考 Keep a Changelog，版本号遵循语义化版本规则。
 
+## [Web 0.3.1 — Development] - 2026-08-30
+
+### Research / Names
+
+- 完成 WCD-03 对 371 个实体的中文展示名全量核验；12 条名称经直接中文出版/机构用名证据修正，1 条别名候选与 1 条冲突名保持不迁移。
+- 独立 Reviewer 最终 `PASS`后追加 migration `0030`—`0031`；实体 ID、原文名、facts、relationship 端点/类型/证据与 Schema 不变，仅机械同步关系描述中的旧中文名；来源增至 288。
+- Research 从 `Data 1.3.0 development candidate` 升为 `Data 1.3.1 development candidate`；这是名称治理与小范围兼容修正，不是 1.4.0 所代表的研究范围扩张或结构性变化。
+
+### Web / Boundary
+
+- 核验后名称机械投影到 Curation、Geo、Web Data、搜索、页面标题和 SEO；原文名生成的稳定路由不变。
+- Web 从 `Web 0.3.0 Development` 升为 `Web 0.3.1 Development`；读者可见名称发生兼容性变更，但产品范围、Web Schema 和公开对象数不变，因此不使用 0.4.0。
+- `V2-PUBLIC-RELEASE` 继续 `PAUSED BY USER`；不创建 tag、GitHub Release 或 production deployment。WCD-04 仅解锁为 `READY / NOT STARTED`。
+
 ## [Web 0.3.0 — Development] - 2026-08-27
 
 ### Research

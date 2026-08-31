@@ -28,7 +28,11 @@ def main() -> int:
     parser.add_argument("migration", type=Path)
     parser.add_argument("--task-id", required=True)
     parser.add_argument("--reviewer", required=True)
-    parser.add_argument("--expected-schema", default="0.3")
+    parser.add_argument("--expected-schema", default="0.4")
+    parser.add_argument(
+        "--pre-schema",
+        help="Schema version expected before this migration; defaults to --expected-schema.",
+    )
     parser.add_argument("--dry-run", action="store_true")
     args = parser.parse_args()
 
@@ -56,7 +60,7 @@ def main() -> int:
         )
         if conn.execute("SELECT 1 FROM migration_log WHERE migration_id=?", (migration_id,)).fetchone():
             raise SystemExit(f"migration already applied: {migration_id}")
-        pre = validate_database(args.database, args.expected_schema)
+        pre = validate_database(args.database, args.pre_schema or args.expected_schema)
         if pre["verdict"] != "pass":
             raise SystemExit("pre-migration validation failed; inspect validate_master output")
         if args.dry_run:

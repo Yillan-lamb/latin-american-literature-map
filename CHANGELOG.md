@@ -2,6 +2,25 @@
 
 本文件记录拉丁美洲文学地图各版本的实际修改。格式参考 Keep a Changelog，版本号遵循语义化版本规则。
 
+## [Web 0.3.2 — Development] - 2026-08-31
+
+### Research / Network
+
+- 完成 WCD-05 非 Schema 关系网络治理：External 51 条 hold 全量 rebase，经 fresh-context `CODEX-REVIEW-WCD05` 从 `REVISE` 修订至最终 `PASS`。
+- append-only 新增迁移 `0031`—`0033`，新增 10 个去重后的来源、12 条正式关系、23 条关系证据与 14 条 hold 证据；关系增量为 `SET_IN 2 / INFLUENCED_BY 3 / ASSOCIATED_WITH_MOVEMENT 5 / EXPLORES_THEME 2`。
+- 12 条 hold 标为 `resolved_to_relationship`，1 条《霍乱时期的爱情》—魔幻现实主义 hold 依据反证标为 `rejected`；全部历史 hold 保留，38 条继续 active hold。
+- USER 批准 Character Schema Option A；Schema 由 0.3 加法升级至 0.4，仅新增 `APPEARS_IN`（character→work、无 inverse），并新增 DEC-050、关系类型与严格 endpoint validator。
+- 建立 CS04 逐项核验 10 个 character candidate；fresh-context Reviewer 10/10 PASS 后 append-only 追加 `0034`，新增 10 条 `APPEARS_IN` 与 10 条直接证据。`key_character` facts 未批量转换；Francisco Rosas / Julia Andrade 依据正式来源纠正连接《未来的回忆》，未错误连接《阿尔特米奥·克罗斯之死》。
+- zero-degree 61→41、weak-degree 225→238、connected 85→92；character 0/10→10/10、movement 0/8→5/8、theme 2/29→4/29、作者任意关系覆盖 61/64→64/64。Research 保持同一 `Data 1.4.0 development candidate`，不因 PR 内追加 CS04 机械再次 bump。
+
+### Geo / Web / Gate
+
+- Geo 新增《霍乱时期的爱情》→哥伦比亚、《绿房子》→秘鲁两条 `SET_IN` 投影，place relations 91→93；不新增坐标、featured point 或高判断 Curation 文案。
+- Web Data research layer 同步 328 relationships / 298 sources，Web 保持 `0.3.2 Development`；`APPEARS_IN` 不生成 reader-facing prose，不改变 Curation approval、Web Schema、页面类型、公开范围与路由。
+- `SOURCE_CANDIDATES.csv` 将 WCD05-SRC-03/04 访问状态统一为“此前已核验 / 当前 URL HTTP 403”，与 Reviewer 和正式 source provenance 一致；来源及已通过关系判断不变。
+- WCD-05 状态为 `DONE`，WCD-06 解锁为 `READY / NOT STARTED`，WCD-07 保持 `LOCKED`。
+- WCD-06 与 WCD-07 External Pack 仅登记为下游输入，未执行；Public Release 继续 `PAUSED BY USER`。
+
 ## [Web 0.3.1 — Development] - 2026-08-30
 
 ### Governance / Research Roadmap

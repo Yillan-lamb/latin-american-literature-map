@@ -62,9 +62,9 @@ def main() -> int:
     migration_files = sorted(args.migrations.glob("[0-9][0-9][0-9][0-9]_*.sql"))
     with sqlite3.connect(f"file:{args.master}?mode=ro", uri=True) as master:
         log = {
-            migration_id: (task_id, reviewer)
-            for migration_id, task_id, reviewer in master.execute(
-                "SELECT migration_id, task_id, reviewer FROM migration_log"
+            migration_id: (task_id, reviewer, schema_version)
+            for migration_id, task_id, reviewer, schema_version in master.execute(
+                "SELECT migration_id, task_id, reviewer, schema_version FROM migration_log"
             )
         }
     if [path.stem for path in migration_files] != sorted(log):
@@ -74,7 +74,11 @@ def main() -> int:
         replay = Path(temporary) / "V1_MASTER_REPLAY.sqlite"
         shutil.copy2(args.base, replay)
         for migration in migration_files:
-            task_id, reviewer = log[migration.stem]
+            task_id, reviewer, target_schema = log[migration.stem]
+            with sqlite3.connect(replay) as replay_connection:
+                current_schema = replay_connection.execute(
+                    "SELECT value FROM metadata WHERE key='schema_version'"
+                ).fetchone()[0]
             subprocess.run(
                 [
                     sys.executable,
@@ -85,8 +89,10 @@ def main() -> int:
                     task_id,
                     "--reviewer",
                     reviewer,
+                    "--pre-schema",
+                    current_schema,
                     "--expected-schema",
-                    "0.3",
+                    target_schema,
                 ],
                 cwd=ROOT,
                 check=True,

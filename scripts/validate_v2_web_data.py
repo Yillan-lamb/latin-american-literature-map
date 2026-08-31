@@ -71,7 +71,7 @@ def main() -> int:
     payload = json.loads(args.path.read_text(encoding="utf-8"))
     if payload.get("schema_version") != "v2-web-0.2":
         fail("unexpected Web Data schema_version")
-    if payload.get("product_version") != "0.3.1":
+    if payload.get("product_version") != "0.3.2":
         fail("unexpected Web Product version")
     for key in ("research", "curation", "review_queue", "public_content", "public_content_review_queue", "reader_content", "presentation", "presentation_review_queue", "public_scope", "pages", "map", "qa", "search_index", "timeline"):
         if key not in payload:
@@ -79,6 +79,7 @@ def main() -> int:
 
     research = payload["research"]
     entity_ids = {item["entity_id"] for item in research["entities"]}
+    entity_types = {item["entity_id"]: item["entity_type"] for item in research["entities"]}
     fact_ids = {item["fact_id"] for item in research["facts"]}
     relationship_ids = {item["relationship_id"] for item in research["relationships"]}
     relation_hold_ids = {item["relation_hold_id"] for item in research["relation_holds"]}
@@ -117,6 +118,11 @@ def main() -> int:
     for relation in research["relationships"]:
         if relation["subject_id"] not in entity_ids or relation["object_id"] not in entity_ids:
             fail(f"dangling research relationship: {relation['relationship_id']}")
+        if relation["relation_type"] == "APPEARS_IN" and (
+            entity_types[relation["subject_id"]] != "character"
+            or entity_types[relation["object_id"]] != "work"
+        ):
+            fail(f"invalid APPEARS_IN endpoints: {relation['relationship_id']}")
 
     for group in ("entries", "selections", "recommendations"):
         for item in payload["curation"][group] + payload["review_queue"][group]:

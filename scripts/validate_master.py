@@ -30,6 +30,7 @@ ALLOWED_RELATIONS = {
     "RESPONDS_TO_WORK",
     "INFLUENCED_BY",
     "BASED_ON_EVENT",
+    "APPEARS_IN",
 }
 
 REQUIRED_TABLES = {
@@ -67,7 +68,7 @@ def primary_columns(conn: sqlite3.Connection, table: str) -> list[str]:
     return [row[1] for row in sorted(info, key=lambda row: row[5]) if row[5]]
 
 
-def validate_database(path: Path, expected_schema: str = "0.3") -> dict:
+def validate_database(path: Path, expected_schema: str = "0.4") -> dict:
     errors: list[str] = []
     warnings: list[str] = []
     conn = sqlite3.connect(path)
@@ -127,6 +128,11 @@ def validate_database(path: Path, expected_schema: str = "0.3") -> dict:
                 if relation == "BASED_ON_EVENT" and (subject_type != "work" or object_type != "event"):
                     errors.append(
                         f"BASED_ON_EVENT endpoint mismatch on {row['relationship_id']}: "
+                        f"{subject_type}->{object_type}"
+                    )
+                if relation == "APPEARS_IN" and (subject_type != "character" or object_type != "work"):
+                    errors.append(
+                        f"APPEARS_IN endpoint mismatch on {row['relationship_id']}: "
                         f"{subject_type}->{object_type}"
                     )
 
@@ -193,7 +199,7 @@ def validate_database(path: Path, expected_schema: str = "0.3") -> dict:
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("database", type=Path)
-    parser.add_argument("--expected-schema", default="0.3")
+    parser.add_argument("--expected-schema", default="0.4")
     args = parser.parse_args()
     if not args.database.is_file():
         print(json.dumps({"verdict": "fail", "errors": [f"database not found: {args.database}"]}, ensure_ascii=False, indent=2))

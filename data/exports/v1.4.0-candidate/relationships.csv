@@ -1,0 +1,329 @@
+relationship_id,origin_layer,origin_relation_group_id,subject_id,relation_type,object_id,description_zh,confidence,review_status,upstream_review_status,evidence_count,issue_code
+V1-REL-0001,N2,RG-S2-0001,V1-ENT-0002,CREATED,V1-ENT-0003,博尔赫斯创作短篇《小径分岔的花园》,high,accepted_at_n3,accepted_for_n2,2,NONE
+V1-REL-0002,N2,RG-S2-0002,V1-ENT-0002,CREATED,V1-ENT-0004,博尔赫斯创作短篇《阿莱夫》,high,accepted_at_n3,accepted_for_n2,2,NONE
+V1-REL-0003,N2,RG-S2-0003,V1-ENT-0002,CREATED,V1-ENT-0011,博尔赫斯创作短篇集《虚构集》,high,accepted_at_n3,accepted_for_n2,1,NONE
+V1-REL-0004,N2,RG-S2-0004,V1-ENT-0002,CREATED,V1-ENT-0012,博尔赫斯创作 1949 年作品集《阿莱夫》,high,accepted_at_n3,accepted_for_n2,1,NONE
+V1-REL-0005,N2,RG-S2-0005,V1-ENT-0016,CREATED,V1-ENT-0017,李斯佩克朵创作《活水》,high,accepted_at_n3,accepted_for_n2,1,NONE
+V1-REL-0006,N2,RG-S2-0006,V1-ENT-0016,CREATED,V1-ENT-0018,李斯佩克朵创作《星辰时刻》,high,accepted_at_n3,accepted_for_n2,1,NONE
+V1-REL-0007,N2,RG-S2-0007,V1-ENT-0016,CREATED,V1-ENT-0019,李斯佩克朵创作短篇集《家庭纽带》,high,accepted_at_n3,accepted_for_n2,1,NONE
+V1-REL-0008,N2,RG-S2-0008,V1-ENT-0016,CREATED,V1-ENT-0020,李斯佩克朵创作《G.H. 受难》,medium,accepted_at_n3,accepted_for_n2,1,NONE
+V1-REL-0009,N2,RG-S2-0009,V1-ENT-0016,CREATED,V1-ENT-0026,李斯佩克朵创作《生命的气息》,medium,accepted_at_n3,accepted_for_n2,1,NONE
+V1-REL-0010,N2,RG-S2-0011,V1-ENT-0021,ADAPTED_FROM,V1-ENT-0018,1985 年电影《星辰时刻》改编自同名原著,high,accepted_at_n3,accepted_for_n2,1,端点 0092 为 adaptation，与原著 0088 分层（REVIEW 3.3）；导演关系本轮词表无 DIRECTED，不建
+V1-REL-0011,N2,RG-S2-0013,V1-ENT-0003,SET_IN,V1-ENT-0008,《小径分岔的花园》故事发生于阿什格罗夫村,medium,accepted_at_n3,accepted_for_n2,1,NONE
+V1-REL-0012,N2,RG-S2-0014,V1-ENT-0004,SET_IN,V1-ENT-0009,《阿莱夫》故事核心地点为布宜诺斯艾利斯加雷街,medium,accepted_at_n3,accepted_for_n2,1,NONE
+V1-REL-0013,N2,RG-S2-0015,V1-ENT-0018,SET_IN,V1-ENT-0022,《星辰时刻》故事背景包含里约热内卢,medium,accepted_at_n3,accepted_for_n2,1,NONE
+V1-REL-0014,N2,RG-S2-0016,V1-ENT-0002,ASSOCIATED_WITH_PLACE,V1-ENT-0001,博尔赫斯与阿根廷关联,high,accepted_at_n3,accepted_for_n2,1,NONE
+V1-REL-0015,N2,RG-S2-0022,V1-ENT-0018,EXPLORES_THEME,V1-ENT-0025,《星辰时刻》涉及社会不平等与书写,medium,accepted_at_n3,accepted_for_n2,2,双来源组（SRC-0009+SRC-0012），本轮唯一双来源解释关系
+V1-REL-0016,B01,RG-B01-0001,V1-ENT-0029,CREATED,V1-ENT-0032,加罗创作《未来的回忆》,high,accepted_at_n3,eligible_for_staging_review,1,NONE
+V1-REL-0017,B01,RG-B01-0002,V1-ENT-0029,CREATED,V1-ENT-0033,加罗创作短篇集《彩色的一周》,high,accepted_at_n3,eligible_for_staging_review,1,NONE
+V1-REL-0018,B01,RG-B01-0003,V1-ENT-0029,CREATED,V1-ENT-0034,加罗创作《关于玛丽安娜的证词》,medium,accepted_at_n3,eligible_for_staging_review,1,NONE
+V1-REL-0019,B01,RG-B01-0004,V1-ENT-0030,CREATED,V1-ENT-0035,卡斯特利亚诺斯创作《巴伦坎南》,high,accepted_at_n3,eligible_for_staging_review,1,NONE
+V1-REL-0020,B01,RG-B01-0005,V1-ENT-0030,CREATED,V1-ENT-0036,卡斯特利亚诺斯创作《黑暗的职守》,high,accepted_at_n3,eligible_for_staging_review,1,NONE
+V1-REL-0021,B01,RG-B01-0006,V1-ENT-0030,CREATED,V1-ENT-0037,卡斯特利亚诺斯创作诗集《诗歌不是你》,high,accepted_at_n3,eligible_for_staging_review,1,NONE
+V1-REL-0022,B01,RG-B01-0007,V1-ENT-0031,CREATED,V1-ENT-0038,鲁尔福创作《佩德罗·巴拉莫》,high,accepted_at_n3,eligible_for_staging_review,3,NONE
+V1-REL-0023,B01,RG-B01-0008,V1-ENT-0031,CREATED,V1-ENT-0039,鲁尔福创作短篇集《燃烧的原野》,high,accepted_at_n3,eligible_for_staging_review,1,NONE
+V1-REL-0024,B01,RG-B01-0009,V1-ENT-0031,CREATED,V1-ENT-0040,鲁尔福创作《金鸡》,high,accepted_at_n3,eligible_for_staging_review,1,NONE
+V1-REL-0025,B01,RG-B01-0010,V1-ENT-0030,CREATED,V1-ENT-0044,卡斯特利亚诺斯创作剧作《永恒的女性》,medium,accepted_at_n3,eligible_for_staging_review,1,NONE
+V1-REL-0026,B01,RG-B01-0011,V1-ENT-0029,CREATED,V1-ENT-0045,加罗创作剧作《费利佩·安赫莱斯》,medium,accepted_at_n3,eligible_for_staging_review,1,NONE
+V1-REL-0027,B01,RG-B01-0012,V1-ENT-0033,CONTAINS_WORK,V1-ENT-0041,《彩色的一周》收录《La culpa es de los tlaxcaltecas》,medium,accepted_at_n3,eligible_for_staging_review,1,NONE
+V1-REL-0028,B01,RG-B01-0013,V1-ENT-0042,ADAPTED_FROM,V1-ENT-0032,1968 年电影《未来的回忆》改编自同名小说,high,accepted_at_n3,eligible_for_staging_review,1,NONE
+V1-REL-0029,B01,RG-B01-0014,V1-ENT-0058,DIRECTED,V1-ENT-0042,阿图罗·里普斯坦执导 1968 年电影,high,accepted_at_n3,eligible_for_staging_review,1,Schema 0.2 DIRECTED；person→adaptation
+V1-REL-0030,B01,RG-B01-0015,V1-ENT-0043,EDITION_OF,V1-ENT-0035,FCE 2007 版《巴伦坎南》为其版本,high,accepted_at_n3,eligible_for_staging_review,1,NONE
+V1-REL-0031,B01,RG-B01-0016,V1-ENT-0046,EDITION_OF,V1-ENT-0038,FCE 1964 版《佩德罗·巴拉莫》为其版本,medium,accepted_at_n3,eligible_for_staging_review,1,NONE
+V1-REL-0032,B01,RG-B01-0017,V1-ENT-0032,SET_IN,V1-ENT-0054,《未来的回忆》故事发生于伊斯特佩克,high,accepted_at_n3,eligible_for_staging_review,1,NONE
+V1-REL-0033,B01,RG-B01-0018,V1-ENT-0035,SET_IN,V1-ENT-0052,《巴伦坎南》故事发生于恰帕斯村镇,high,accepted_at_n3,eligible_for_staging_review,1,NONE
+V1-REL-0034,B01,RG-B01-0019,V1-ENT-0038,SET_IN,V1-ENT-0055,《佩德罗·巴拉莫》故事核心地点为科马拉,high,accepted_at_n3,eligible_for_staging_review,1,NONE
+V1-REL-0035,B01,RG-B01-0020,V1-ENT-0029,ASSOCIATED_WITH_PLACE,V1-ENT-0051,加罗与墨西哥关联,high,accepted_at_n3,eligible_for_staging_review,1,NONE
+V1-REL-0036,B01,RG-B01-0021,V1-ENT-0030,ASSOCIATED_WITH_PLACE,V1-ENT-0052,卡斯特利亚诺斯与恰帕斯关联,high,accepted_at_n3,eligible_for_staging_review,1,NONE
+V1-REL-0037,B01,RG-B01-0022,V1-ENT-0030,ASSOCIATED_WITH_PLACE,V1-ENT-0053,卡斯特利亚诺斯与科米坦关联,medium,accepted_at_n3,eligible_for_staging_review,1,NONE
+V1-REL-0038,B01,RG-B01-0023,V1-ENT-0031,ASSOCIATED_WITH_PLACE,V1-ENT-0051,鲁尔福与墨西哥关联,high,accepted_at_n3,eligible_for_staging_review,1,NONE
+V1-REL-0039,B01,RG-B01-0024,V1-ENT-0031,ASSOCIATED_WITH_PLACE,V1-ENT-0057,鲁尔福与圣加布里埃尔关联,medium,accepted_at_n3,eligible_for_staging_review,1,NONE
+V1-REL-0040,B02,RG-B02-0001,V1-ENT-0072,CREATED,V1-ENT-0075,加西亚·马尔克斯创作《百年孤独》,high,accepted_at_n3,eligible_for_staging_review,3,NONE
+V1-REL-0041,B02,RG-B02-0002,V1-ENT-0072,CREATED,V1-ENT-0076,加西亚·马尔克斯创作《没有人给他写信的上校》,high,accepted_at_n3,eligible_for_staging_review,2,NONE
+V1-REL-0042,B02,RG-B02-0003,V1-ENT-0072,CREATED,V1-ENT-0077,加西亚·马尔克斯创作《一桩事先张扬的凶杀案》,high,accepted_at_n3,eligible_for_staging_review,2,NONE
+V1-REL-0043,B02,RG-B02-0004,V1-ENT-0073,CREATED,V1-ENT-0078,科塔萨尔创作《跳房子》,high,accepted_at_n3,eligible_for_staging_review,2,NONE
+V1-REL-0044,B02,RG-B02-0005,V1-ENT-0073,CREATED,V1-ENT-0082,科塔萨尔创作短篇集《动物寓言集》,high,accepted_at_n3,eligible_for_staging_review,1,NONE
+V1-REL-0045,B02,RG-B02-0006,V1-ENT-0073,CREATED,V1-ENT-0083,科塔萨尔创作短篇集《游戏的终结》,high,accepted_at_n3,eligible_for_staging_review,1,NONE
+V1-REL-0046,B02,RG-B02-0007,V1-ENT-0074,CREATED,V1-ENT-0079,卡彭铁尔创作《人间王国》,high,accepted_at_n3,eligible_for_staging_review,1,NONE
+V1-REL-0047,B02,RG-B02-0008,V1-ENT-0074,CREATED,V1-ENT-0080,卡彭铁尔创作《消逝的足迹》,high,accepted_at_n3,eligible_for_staging_review,1,NONE
+V1-REL-0048,B02,RG-B02-0009,V1-ENT-0074,CREATED,V1-ENT-0081,卡彭铁尔创作《光明世纪》,high,accepted_at_n3,eligible_for_staging_review,1,NONE
+V1-REL-0049,B02,RG-B02-0010,V1-ENT-0073,CREATED,V1-ENT-0084,科塔萨尔创作短篇《另一个天空》,high,accepted_at_n3,eligible_for_staging_review,1,NONE
+V1-REL-0050,B02,RG-B02-0011,V1-ENT-0073,CREATED,V1-ENT-0085,科塔萨尔创作短篇《口袋里发现的手稿》,high,accepted_at_n3,eligible_for_staging_review,1,NONE
+V1-REL-0051,B02,RG-B02-0012,V1-ENT-0086,ADAPTED_FROM,V1-ENT-0084,1987 年德国电影《水晶天空》改编自短篇《另一个天空》,high,accepted_at_n3,eligible_for_staging_review,1,NONE
+V1-REL-0052,B02,RG-B02-0013,V1-ENT-0087,ADAPTED_FROM,V1-ENT-0085,2005 年巴西电影《地下游戏》改编自短篇《口袋里发现的手稿》,high,accepted_at_n3,eligible_for_staging_review,1,NONE
+V1-REL-0053,B02,RG-B02-0014,V1-ENT-0088,DIRECTED,V1-ENT-0086,妮娜·格罗塞执导《水晶天空》,high,accepted_at_n3,eligible_for_staging_review,1,NONE
+V1-REL-0054,B02,RG-B02-0015,V1-ENT-0089,DIRECTED,V1-ENT-0087,罗贝托·热尔维茨执导《地下游戏》,high,accepted_at_n3,eligible_for_staging_review,1,NONE
+V1-REL-0055,B02,RG-B02-0017,V1-ENT-0072,ASSOCIATED_WITH_PLACE,V1-ENT-0095,加西亚·马尔克斯与哥伦比亚关联,high,accepted_at_n3,eligible_for_staging_review,1,NONE
+V1-REL-0056,B02,RG-B02-0018,V1-ENT-0072,ASSOCIATED_WITH_PLACE,V1-ENT-0098,加西亚·马尔克斯与阿卡塔卡关联,high,accepted_at_n3,eligible_for_staging_review,1,NONE
+V1-REL-0057,B02,RG-B02-0019,V1-ENT-0072,ASSOCIATED_WITH_PLACE,V1-ENT-0097,加西亚·马尔克斯与马孔多（虚构地）关联,medium,accepted_at_n3,eligible_for_staging_review,1,NONE
+V1-REL-0058,B02,RG-B02-0020,V1-ENT-0074,ASSOCIATED_WITH_PLACE,V1-ENT-0096,卡彭铁尔与古巴关联,high,accepted_at_n3,eligible_for_staging_review,1,NONE
+V1-REL-0059,B03,RG-B03-0001,V1-ENT-0114,CREATED,V1-ENT-0116,巴尔加斯·略萨创作《城市与狗》,high,accepted_at_n3,eligible_for_staging_review,1,NONE
+V1-REL-0060,B03,RG-B03-0002,V1-ENT-0114,CREATED,V1-ENT-0117,巴尔加斯·略萨创作《酒吧长谈》,high,accepted_at_n3,eligible_for_staging_review,1,NONE
+V1-REL-0061,B03,RG-B03-0003,V1-ENT-0114,CREATED,V1-ENT-0118,巴尔加斯·略萨创作《世界末日之战》,high,accepted_at_n3,eligible_for_staging_review,1,NONE
+V1-REL-0062,B03,RG-B03-0004,V1-ENT-0115,CREATED,V1-ENT-0119,聂鲁达创作《二十首情诗和一支绝望的歌》,high,accepted_at_n3,eligible_for_staging_review,2,NONE
+V1-REL-0063,B03,RG-B03-0005,V1-ENT-0115,CREATED,V1-ENT-0120,聂鲁达创作《大地上的居所》,high,accepted_at_n3,eligible_for_staging_review,1,NONE
+V1-REL-0064,B03,RG-B03-0006,V1-ENT-0115,CREATED,V1-ENT-0121,聂鲁达创作《漫歌》,high,accepted_at_n3,eligible_for_staging_review,2,NONE
+V1-REL-0065,B03,RG-B03-0007,V1-ENT-0115,CREATED,V1-ENT-0122,聂鲁达创作诗章《马丘比丘高地》,medium,accepted_at_n3,eligible_for_staging_review,1,NONE
+V1-REL-0066,B03,RG-B03-0008,V1-ENT-0116,SET_IN,V1-ENT-0125,《城市与狗》的故事以利马为背景,medium,accepted_at_n3,eligible_for_staging_review,1,NONE
+V1-REL-0067,B03,RG-B03-0009,V1-ENT-0114,ASSOCIATED_WITH_PLACE,V1-ENT-0124,巴尔加斯·略萨与秘鲁关联,high,accepted_at_n3,eligible_for_staging_review,1,NONE
+V1-REL-0068,B03,RG-B03-0010,V1-ENT-0114,ASSOCIATED_WITH_PLACE,V1-ENT-0125,巴尔加斯·略萨与利马关联,high,accepted_at_n3,eligible_for_staging_review,1,NONE
+V1-REL-0069,B03,RG-B03-0011,V1-ENT-0114,ASSOCIATED_WITH_PLACE,V1-ENT-0126,巴尔加斯·略萨与阿雷基帕关联,high,accepted_at_n3,eligible_for_staging_review,1,NONE
+V1-REL-0070,B03,RG-B03-0012,V1-ENT-0114,ASSOCIATED_WITH_PLACE,V1-ENT-0129,巴尔加斯·略萨与马德里关联,high,accepted_at_n3,eligible_for_staging_review,1,NONE
+V1-REL-0071,B03,RG-B03-0013,V1-ENT-0115,ASSOCIATED_WITH_PLACE,V1-ENT-0123,聂鲁达与智利关联,high,accepted_at_n3,eligible_for_staging_review,1,NONE
+V1-REL-0072,B03,RG-B03-0014,V1-ENT-0115,ASSOCIATED_WITH_PLACE,V1-ENT-0127,聂鲁达与帕拉尔关联,high,accepted_at_n3,eligible_for_staging_review,1,NONE
+V1-REL-0073,B03,RG-B03-0015,V1-ENT-0115,ASSOCIATED_WITH_PLACE,V1-ENT-0128,聂鲁达与圣地亚哥关联,high,accepted_at_n3,eligible_for_staging_review,1,NONE
+V1-REL-0074,B03,RG-B03-0023,V1-ENT-0121,EXPLORES_THEME,V1-ENT-0137,《漫歌》体现大陆命运与美洲史诗,medium,accepted_at_n3,eligible_for_staging_review,2,NONE
+V1-REL-0075,A03,RG-A03-0001,V1-ENT-0075,SET_IN,V1-ENT-0097,《百年孤独》的虚构城市为马孔多,high,accepted_at_n3,eligible_for_staging_review,1,NONE
+V1-REL-0076,N3,V1-S4-A03-PROP-001,V1-ENT-0118,BASED_ON_EVENT,V1-ENT-0139,《世界末日之战》以卡努杜斯战争为历史题材并将该冲突虚构化,high,accepted_at_n3,N3-DEC-002 approved by USER,3,NONE
+V1-REL-0077,WEB-CE-B01-R1,CAND-R1-REL-01,V1-ENT-0145,CREATED,V1-ENT-0146,卡洛斯·富恩特斯创作《最明净的地区》,high,accepted_by_reviewer,independent_review_pass,2,NONE
+V1-REL-0078,WEB-CE-B01-R1,CAND-R1-REL-02,V1-ENT-0145,CREATED,V1-ENT-0147,卡洛斯·富恩特斯创作《阿尔特米奥·克罗斯之死》,high,accepted_by_reviewer,independent_review_pass,2,NONE
+V1-REL-0080,WEB-CE-B01,CAND-B-REL-001,V1-ENT-0148,CREATED,V1-ENT-0149,米斯特拉尔创作诗集《绝望集》（Desolación，1922）,high,accepted,WEB-CE-B01,2,NONE
+V1-REL-0081,WEB-CE-B01,CAND-B-REL-002,V1-ENT-0148,CREATED,V1-ENT-0150,米斯特拉尔创作诗集《柔情集》（Ternura，1924）,high,accepted,WEB-CE-B01,2,NONE
+V1-REL-0082,WEB-CE-B01,CAND-B-REL-003,V1-ENT-0148,CREATED,V1-ENT-0151,米斯特拉尔创作诗集《塔拉集》（Tala，1938）,high,accepted,WEB-CE-B01,2,NONE
+V1-REL-0083,WEB-CE-B01,CAND-B-REL-004,V1-ENT-0148,ASSOCIATED_WITH_PLACE,V1-ENT-0123,米斯特拉尔与智利关联（生于智利、获奖时居留地 Chile）,high,accepted,WEB-CE-B01,1,NONE
+V1-REL-0084,WEB-CE-B01,CAND-B-REL-005,V1-ENT-0148,ASSOCIATED_WITH_PLACE,V1-ENT-0153,米斯特拉尔与出生地比库尼亚（Vicuña，Elqui 河谷）关联,high,accepted,WEB-CE-B01,1,NONE
+V1-REL-0085,WEB-CE-B01,CAND-C-REL-001,V1-ENT-0059,CREATED,V1-ENT-0154,帕斯创作《孤独的迷宫》（1950 随笔集）,high,accepted,WEB-CE-B01,2,NONE
+V1-REL-0086,WEB-CE-B01,CAND-C-REL-002,V1-ENT-0059,CREATED,V1-ENT-0155,帕斯创作《弓与琴》（1956 诗论）,high,accepted,WEB-CE-B01,2,NONE
+V1-REL-0087,WEB-CE-B01,CAND-C-REL-003,V1-ENT-0059,CREATED,V1-ENT-0156,帕斯创作《太阳石》（1957 长诗）,high,accepted,WEB-CE-B01,2,NONE
+V1-REL-0088,WEB-CE-B01,CAND-C-REL-004,V1-ENT-0059,ASSOCIATED_WITH_PLACE,V1-ENT-0056,帕斯与墨西哥城关联：1914 年生于此地，1998 年卒于此地。,high,accepted,WEB-CE-B01,2,NONE
+V1-REL-0089,WEB-CE-B01,CAND-C-REL-005,V1-ENT-0059,ASSOCIATED_WITH_PLACE,V1-ENT-0051,帕斯与墨西哥：获奖时居住国，国籍与主要文学语境所在国,high,accepted,WEB-CE-B01,1,NONE
+V1-REL-0090,WEB-CE-B01,CAND-D-REL-01,V1-ENT-0002,CREATED,V1-ENT-0162,博尔赫斯创作短篇集《沙之书》(El libro de arena),high,accepted,WEB-CE-B01,1,NONE
+V1-REL-0091,WEB-CE-B01,CAND-D-REL-02,V1-ENT-0002,CREATED,V1-ENT-0163,博尔赫斯创作短篇集《布罗迪报告》(El informe de Brodie),medium,accepted,WEB-CE-B01,1,NONE
+V1-REL-0092,WEB-CE-B01,CAND-D-REL-03,V1-ENT-0072,CREATED,V1-ENT-0158,加西亚·马尔克斯创作《霍乱时期的爱情》(El amor en los tiempos del cólera),high,accepted,WEB-CE-B01,1,NONE
+V1-REL-0093,WEB-CE-B01,CAND-D-REL-04,V1-ENT-0072,CREATED,V1-ENT-0159,加西亚·马尔克斯创作《族长的秋天》(El otoño del patriarca),high,accepted,WEB-CE-B01,1,NONE
+V1-REL-0094,WEB-CE-B01,CAND-D-REL-05,V1-ENT-0073,CREATED,V1-ENT-0164,胡利奥·科塔萨尔创作短篇集《秘密武器》(Las armas secretas),high,accepted,WEB-CE-B01,1,NONE
+V1-REL-0095,WEB-CE-B01,CAND-D-REL-06,V1-ENT-0114,CREATED,V1-ENT-0160,巴尔加斯·略萨创作《绿房子》(La casa verde),medium,accepted,WEB-CE-B01,1,NONE
+V1-REL-0096,WEB-CE-B01,CAND-D-REL-07,V1-ENT-0114,CREATED,V1-ENT-0161,巴尔加斯·略萨创作《潘达雷昂上尉与劳军女郎》(Pantaleón y las visitadoras),high,accepted,WEB-CE-B01,1,NONE
+V1-REL-0097,WEB-CE-B01,CAND-D-REL-08,V1-ENT-0115,CREATED,V1-ENT-0165,聂鲁达创作诗集《一百首爱情十四行诗》(Cien sonetos de amor),medium,accepted,WEB-CE-B01,1,NONE
+V1-REL-0098,WEB-CE-B01,CAND-D-REL-09,V1-ENT-0016,CREATED,V1-ENT-0166,克拉丽丝·李斯佩克朵创作短篇集《隐秘的幸福》(Felicidade clandestina),high,accepted,WEB-CE-B01,1,NONE
+V1-REL-0099,WEB-CE-B01,CAND-PM-REL-01,V1-ENT-0074,CREATED,V1-ENT-0167,阿莱霍·卡彭铁尔创作短篇集《时间之战》(Guerra del tiempo),high,accepted,WEB-CE-B01,1,NONE
+V1-REL-0100,WEB-CE-B01,CAND-PM-REL-02,V1-ENT-0074,CREATED,V1-ENT-0168,阿莱霍·卡彭铁尔创作中篇《追击》(El acoso),high,accepted,WEB-CE-B01,1,NONE
+V1-REL-0101,WEB-CE-B01-HY3,CAND-HY3-REL-01,V1-ENT-0145,CREATED,V1-ENT-0169,卡洛斯·富恩特斯创作《奥拉》(Aura),high,accepted,WEB-CE-B01-HY3,1,NONE
+V1-REL-0102,WEB-CE-B01-HY3,CAND-HY3-REL-02,V1-ENT-0169,SET_IN,V1-ENT-0056,《奥拉》故事发生于墨西哥城一座终年昏暗的殖民时期宅邸,medium,accepted,WEB-CE-B01-HY3,1,NONE
+V1-REL-0103,WEB-CE-B02,CAND-B02-REL-0103,V1-ENT-0170,CREATED,V1-ENT-0173,米格尔·安赫尔·阿斯图里亚斯创作《总统先生》（El Señor Presidente）,high,accepted,WEB-CE-B02,1,NONE
+V1-REL-0104,WEB-CE-B02,CAND-B02-REL-0104,V1-ENT-0170,CREATED,V1-ENT-0174,米格尔·安赫尔·阿斯图里亚斯创作《玉米人》（Hombres de maíz）,high,accepted,WEB-CE-B02,1,NONE
+V1-REL-0105,WEB-CE-B02,CAND-B02-REL-0105,V1-ENT-0170,CREATED,V1-ENT-0175,米格尔·安赫尔·阿斯图里亚斯创作《危地马拉传说》（Leyendas de Guatemala）,high,accepted,WEB-CE-B02,1,NONE
+V1-REL-0106,WEB-CE-B02,CAND-B02-REL-0106,V1-ENT-0171,CREATED,V1-ENT-0176,伊莎贝尔·阿连德创作《幽灵之家》（La casa de los espíritus）,high,accepted,WEB-CE-B02,1,NONE
+V1-REL-0107,WEB-CE-B02,CAND-B02-REL-0107,V1-ENT-0171,CREATED,V1-ENT-0177,伊莎贝尔·阿连德创作《爱情与阴影》（De amor y de sombras）,high,accepted,WEB-CE-B02,1,NONE
+V1-REL-0108,WEB-CE-B02,CAND-B02-REL-0108,V1-ENT-0171,CREATED,V1-ENT-0178,伊莎贝尔·阿连德创作《伊娃·露娜》（Eva Luna）,high,accepted,WEB-CE-B02,1,NONE
+V1-REL-0109,WEB-CE-B02,CAND-B02-REL-0109,V1-ENT-0172,CREATED,V1-ENT-0179,若热·亚马多创作《弗洛尔和她的两个丈夫》（Dona Flor e seus dois maridos）,high,accepted,WEB-CE-B02,1,NONE
+V1-REL-0110,WEB-CE-B02,CAND-B02-REL-0110,V1-ENT-0172,CREATED,V1-ENT-0180,"若热·亚马多创作《加布里埃拉》（Gabriela, cravo e canela）",high,accepted,WEB-CE-B02,1,NONE
+V1-REL-0111,WEB-CE-B02,CAND-B02-REL-0111,V1-ENT-0172,CREATED,V1-ENT-0181,若热·亚马多创作《沙滩船长》（Capitães da Areia）,high,accepted,WEB-CE-B02,1,NONE
+V1-REL-0112,WEB-CE-B02,CAND-B02-GEO-0112,V1-ENT-0170,ASSOCIATED_WITH_PLACE,V1-ENT-0182,米格尔·安赫尔·阿斯图里亚斯与危地马拉关联（作者生平/身份来源）,high,accepted,WEB-CE-B02,1,NONE
+V1-REL-0113,WEB-CE-B02,CAND-B02-GEO-0113,V1-ENT-0171,ASSOCIATED_WITH_PLACE,V1-ENT-0123,伊莎贝尔·阿连德与智利关联（作者生平/身份来源）,high,accepted,WEB-CE-B02,1,NONE
+V1-REL-0114,WEB-CE-B02,CAND-B02-GEO-0114,V1-ENT-0172,ASSOCIATED_WITH_PLACE,V1-ENT-0183,若热·亚马多与巴西关联（作者生平/身份来源）,high,accepted,WEB-CE-B02,1,NONE
+V1-REL-0115,WEB-CE-B03,CAND-B03-REL-0115,V1-ENT-0184,CREATED,V1-ENT-0187,胡安·卡洛斯·奥内蒂创作《短暂的生命》（La vida breve）,high,accepted,WEB-CE-B03,1,NONE
+V1-REL-0116,WEB-CE-B03,CAND-B03-REL-0116,V1-ENT-0184,CREATED,V1-ENT-0188,胡安·卡洛斯·奥内蒂创作《造船厂》（El astillero）,high,accepted,WEB-CE-B03,1,NONE
+V1-REL-0117,WEB-CE-B03,CAND-B03-REL-0117,V1-ENT-0184,CREATED,V1-ENT-0189,胡安·卡洛斯·奥内蒂创作《告别》（Los adioses）,high,accepted,WEB-CE-B03,1,NONE
+V1-REL-0118,WEB-CE-B03,CAND-B03-REL-0118,V1-ENT-0185,CREATED,V1-ENT-0190,何塞·多诺索创作《污秽的夜鸟》（El obsceno pájaro de la noche）,high,accepted,WEB-CE-B03,1,NONE
+V1-REL-0119,WEB-CE-B03,CAND-B03-REL-0119,V1-ENT-0185,CREATED,V1-ENT-0191,何塞·多诺索创作《无尽的地方》（El lugar sin límites）,high,accepted,WEB-CE-B03,1,NONE
+V1-REL-0120,WEB-CE-B03,CAND-B03-REL-0120,V1-ENT-0185,CREATED,V1-ENT-0192,何塞·多诺索创作《加冕》（Coronación）,high,accepted,WEB-CE-B03,1,NONE
+V1-REL-0121,WEB-CE-B03,CAND-B03-REL-0121,V1-ENT-0186,CREATED,V1-ENT-0193,埃内斯托·萨瓦托创作《隧道》（El túnel）,high,accepted,WEB-CE-B03,1,NONE
+V1-REL-0122,WEB-CE-B03,CAND-B03-REL-0122,V1-ENT-0186,CREATED,V1-ENT-0194,埃内斯托·萨瓦托创作《英雄与坟墓》（Sobre héroes y tumbas）,high,accepted,WEB-CE-B03,1,NONE
+V1-REL-0123,WEB-CE-B03,CAND-B03-REL-0123,V1-ENT-0186,CREATED,V1-ENT-0195,埃内斯托·萨瓦托创作《毁灭者亚巴顿》（Abaddón el exterminador）,high,accepted,WEB-CE-B03,1,NONE
+V1-REL-0124,WEB-CE-B03,CAND-B03-GEO-0124,V1-ENT-0184,ASSOCIATED_WITH_PLACE,V1-ENT-0196,胡安·卡洛斯·奥内蒂与乌拉圭关联（作者身份来源）,high,accepted,WEB-CE-B03,1,NONE
+V1-REL-0125,WEB-CE-B03,CAND-B03-GEO-0125,V1-ENT-0185,ASSOCIATED_WITH_PLACE,V1-ENT-0123,何塞·多诺索与智利关联（作者身份来源）,high,accepted,WEB-CE-B03,1,NONE
+V1-REL-0126,WEB-CE-B03,CAND-B03-GEO-0126,V1-ENT-0186,ASSOCIATED_WITH_PLACE,V1-ENT-0001,埃内斯托·萨瓦托与阿根廷关联（作者身份来源）,high,accepted,WEB-CE-B03,1,NONE
+V1-REL-0128,WEB-CE-B04,CAND-B04-0128,V1-ENT-0198,CREATED,V1-ENT-0201,阿道夫·比奥伊·卡萨雷斯创作《莫雷尔的发明》（La invención de Morel）,high,accepted,WEB-CE-B04,1,NONE
+V1-REL-0129,WEB-CE-B04,CAND-B04-0129,V1-ENT-0198,CREATED,V1-ENT-0202,阿道夫·比奥伊·卡萨雷斯创作《逃亡计划》（Plan de evasión）,high,accepted,WEB-CE-B04,1,NONE
+V1-REL-0130,WEB-CE-B04,CAND-B04-0130,V1-ENT-0198,CREATED,V1-ENT-0203,阿道夫·比奥伊·卡萨雷斯创作《英雄的梦》（El sueño de los héroes）,high,accepted,WEB-CE-B04,1,NONE
+V1-REL-0131,WEB-CE-B04,CAND-B04-0131,V1-ENT-0199,CREATED,V1-ENT-0204,奥古斯托·罗亚·巴斯托斯创作《人子》（Hijo de hombre）,high,accepted,WEB-CE-B04,1,NONE
+V1-REL-0132,WEB-CE-B04,CAND-B04-0132,V1-ENT-0199,CREATED,V1-ENT-0205,奥古斯托·罗亚·巴斯托斯创作《我，最高统帅》（Yo el Supremo）,high,accepted,WEB-CE-B04,1,NONE
+V1-REL-0133,WEB-CE-B04,CAND-B04-0133,V1-ENT-0199,CREATED,V1-ENT-0206,奥古斯托·罗亚·巴斯托斯创作《检察官》（El fiscal）,high,accepted,WEB-CE-B04,1,NONE
+V1-REL-0134,WEB-CE-B04,CAND-B04-0134,V1-ENT-0200,CREATED,V1-ENT-0207,奥拉西奥·基罗加创作《爱情、疯狂和死亡的故事》（Cuentos de amor de locura y de muerte）,high,accepted,WEB-CE-B04,1,NONE
+V1-REL-0135,WEB-CE-B04,CAND-B04-0135,V1-ENT-0200,CREATED,V1-ENT-0208,奥拉西奥·基罗加创作《丛林故事》（Cuentos de la selva）,high,accepted,WEB-CE-B04,1,NONE
+V1-REL-0136,WEB-CE-B04,CAND-B04-0136,V1-ENT-0200,CREATED,V1-ENT-0209,奥拉西奥·基罗加创作《流放者》（Los desterrados）,high,accepted,WEB-CE-B04,1,NONE
+V1-REL-0137,WEB-CE-B04,CAND-B04-0137,V1-ENT-0198,ASSOCIATED_WITH_PLACE,V1-ENT-0001,阿道夫·比奥伊·卡萨雷斯与阿根廷关联（作者身份来源）,high,accepted,WEB-CE-B04,1,NONE
+V1-REL-0138,WEB-CE-B04,CAND-B04-0138,V1-ENT-0199,ASSOCIATED_WITH_PLACE,V1-ENT-0210,奥古斯托·罗亚·巴斯托斯与巴拉圭关联（作者身份来源）,high,accepted,WEB-CE-B04,1,NONE
+V1-REL-0139,WEB-CE-B04,CAND-B04-0139,V1-ENT-0200,ASSOCIATED_WITH_PLACE,V1-ENT-0196,奥拉西奥·基罗加与乌拉圭关联（作者身份来源）,high,accepted,WEB-CE-B04,1,NONE
+V1-REL-0140,WEB-CE-B05,CAND-B05-0140,V1-ENT-0211,CREATED,V1-ENT-0214,马查多·德·阿西斯 创作 《布拉斯·库巴斯死后的回忆》（Memórias Póstumas de Brás Cubas）,high,accepted,WEB-CE-B05,1,NONE
+V1-REL-0141,WEB-CE-B05,CAND-B05-0141,V1-ENT-0211,CREATED,V1-ENT-0215,马查多·德·阿西斯 创作 《金卡斯·博尔巴》（Quincas Borba）,high,accepted,WEB-CE-B05,1,NONE
+V1-REL-0142,WEB-CE-B05,CAND-B05-0142,V1-ENT-0211,CREATED,V1-ENT-0216,马查多·德·阿西斯 创作 《堂卡斯穆罗》（Dom Casmurro）,high,accepted,WEB-CE-B05,1,NONE
+V1-REL-0143,WEB-CE-B05,CAND-B05-0143,V1-ENT-0212,CREATED,V1-ENT-0217,若昂·吉马朗埃斯·罗萨 创作 《广阔腹地：条条小径》（Grande Sertão: Veredas）,high,accepted,WEB-CE-B05,1,NONE
+V1-REL-0144,WEB-CE-B05,CAND-B05-0144,V1-ENT-0212,CREATED,V1-ENT-0218,若昂·吉马朗埃斯·罗萨 创作 《萨加拉纳》（Sagarana）,high,accepted,WEB-CE-B05,1,NONE
+V1-REL-0145,WEB-CE-B05,CAND-B05-0145,V1-ENT-0212,CREATED,V1-ENT-0219,若昂·吉马朗埃斯·罗萨 创作 《第一故事》（Primeiras Estórias）,high,accepted,WEB-CE-B05,1,NONE
+V1-REL-0146,WEB-CE-B05,CAND-B05-0146,V1-ENT-0213,CREATED,V1-ENT-0220,格拉西利亚诺·拉莫斯 创作 《枯竭的生命》（Vidas Secas）,high,accepted,WEB-CE-B05,2,NONE
+V1-REL-0147,WEB-CE-B05,CAND-B05-0147,V1-ENT-0213,CREATED,V1-ENT-0221,格拉西利亚诺·拉莫斯 创作 《圣贝尔纳多》（São Bernardo）,high,accepted,WEB-CE-B05,2,NONE
+V1-REL-0148,WEB-CE-B05,CAND-B05-0148,V1-ENT-0213,CREATED,V1-ENT-0222,格拉西利亚诺·拉莫斯 创作 《苦闷》（Angústia）,high,accepted,WEB-CE-B05,2,NONE
+V1-REL-0149,WEB-CE-B05,CAND-B05-0149,V1-ENT-0211,ASSOCIATED_WITH_PLACE,V1-ENT-0183,马查多·德·阿西斯 与巴西关联（作者身份来源）,high,accepted,WEB-CE-B05,1,NONE
+V1-REL-0150,WEB-CE-B05,CAND-B05-0150,V1-ENT-0212,ASSOCIATED_WITH_PLACE,V1-ENT-0183,若昂·吉马朗埃斯·罗萨 与巴西关联（作者身份来源）,high,accepted,WEB-CE-B05,1,NONE
+V1-REL-0151,WEB-CE-B05,CAND-B05-0151,V1-ENT-0213,ASSOCIATED_WITH_PLACE,V1-ENT-0183,格拉西利亚诺·拉莫斯 与巴西关联（作者身份来源）,high,accepted,WEB-CE-B05,1,NONE
+V1-REL-0152,WEB-CE-B06,CAND-B06-0152,V1-ENT-0223,CREATED,V1-ENT-0226,V1-ENT-0223 创作 Los heraldos negros,high,accepted,WEB-CE-B06,1,NONE
+V1-REL-0153,WEB-CE-B06,CAND-B06-0153,V1-ENT-0223,CREATED,V1-ENT-0227,V1-ENT-0223 创作 Trilce,high,accepted,WEB-CE-B06,1,NONE
+V1-REL-0154,WEB-CE-B06,CAND-B06-0154,V1-ENT-0223,CREATED,V1-ENT-0228,V1-ENT-0223 创作 Poemas humanos,high,accepted,WEB-CE-B06,1,NONE
+V1-REL-0155,WEB-CE-B06,CAND-B06-0155,V1-ENT-0224,CREATED,V1-ENT-0229,V1-ENT-0224 创作 Azul...,high,accepted,WEB-CE-B06,1,NONE
+V1-REL-0156,WEB-CE-B06,CAND-B06-0156,V1-ENT-0224,CREATED,V1-ENT-0230,V1-ENT-0224 创作 Prosas profanas,high,accepted,WEB-CE-B06,1,NONE
+V1-REL-0157,WEB-CE-B06,CAND-B06-0157,V1-ENT-0224,CREATED,V1-ENT-0231,V1-ENT-0224 创作 Cantos de vida y esperanza,high,accepted,WEB-CE-B06,1,NONE
+V1-REL-0158,WEB-CE-B06,CAND-B06-0158,V1-ENT-0225,CREATED,V1-ENT-0232,V1-ENT-0225 创作 Ismaelillo,high,accepted,WEB-CE-B06,1,NONE
+V1-REL-0159,WEB-CE-B06,CAND-B06-0159,V1-ENT-0225,CREATED,V1-ENT-0233,V1-ENT-0225 创作 Versos sencillos,high,accepted,WEB-CE-B06,1,NONE
+V1-REL-0160,WEB-CE-B06,CAND-B06-0160,V1-ENT-0225,CREATED,V1-ENT-0234,V1-ENT-0225 创作 Nuestra América,high,accepted,WEB-CE-B06,1,NONE
+V1-REL-0161,WEB-CE-B06,CAND-B06-0161,V1-ENT-0223,ASSOCIATED_WITH_PLACE,V1-ENT-0124,塞萨尔·巴列霍与秘鲁关联,high,accepted,WEB-CE-B06,1,NONE
+V1-REL-0162,WEB-CE-B06,CAND-B06-0162,V1-ENT-0224,ASSOCIATED_WITH_PLACE,V1-ENT-0235,鲁文·达里奥与尼加拉瓜关联,high,accepted,WEB-CE-B06,1,NONE
+V1-REL-0163,WEB-CE-B06,CAND-B06-0163,V1-ENT-0225,ASSOCIATED_WITH_PLACE,V1-ENT-0096,何塞·马蒂与古巴关联,high,accepted,WEB-CE-B06,1,NONE
+V1-REL-0164,WEB-CE-B07,CAND-B07-0164,V1-ENT-0236,CREATED,V1-ENT-0239,尼卡诺尔·帕拉 创作 《诗歌与反诗歌》（Poemas y antipoemas）,high,accepted,WEB-CE-B07,1,NONE
+V1-REL-0165,WEB-CE-B07,CAND-B07-0165,V1-ENT-0236,CREATED,V1-ENT-0240,尼卡诺尔·帕拉 创作 《沙龙篇》（Versos de salón）,high,accepted,WEB-CE-B07,1,NONE
+V1-REL-0166,WEB-CE-B07,CAND-B07-0166,V1-ENT-0236,CREATED,V1-ENT-0241,尼卡诺尔·帕拉 创作 《饭后演讲》（Discursos de sobremesa）,high,accepted,WEB-CE-B07,1,NONE
+V1-REL-0167,WEB-CE-B07,CAND-B07-0167,V1-ENT-0237,CREATED,V1-ENT-0242,阿莱杭德拉·皮扎尼克 创作 《狄安娜之树》（Árbol de Diana）,high,accepted,WEB-CE-B07,1,NONE
+V1-REL-0168,WEB-CE-B07,CAND-B07-0168,V1-ENT-0237,CREATED,V1-ENT-0243,阿莱杭德拉·皮扎尼克 创作 《作品与夜晚》（Los trabajos y las noches）,high,accepted,WEB-CE-B07,1,NONE
+V1-REL-0169,WEB-CE-B07,CAND-B07-0169,V1-ENT-0237,CREATED,V1-ENT-0244,阿莱杭德拉·皮扎尼克 创作 《取出疯石》（Extracción de la piedra de locura）,high,accepted,WEB-CE-B07,1,NONE
+V1-REL-0170,WEB-CE-B07,CAND-B07-0170,V1-ENT-0238,CREATED,V1-ENT-0245,马里奥·贝内德蒂 创作 《休战》（La tregua）,high,accepted,WEB-CE-B07,1,NONE
+V1-REL-0171,WEB-CE-B07,CAND-B07-0171,V1-ENT-0238,CREATED,V1-ENT-0246,马里奥·贝内德蒂 创作 《谢谢你的火》（Gracias por el fuego）,high,accepted,WEB-CE-B07,1,NONE
+V1-REL-0172,WEB-CE-B07,CAND-B07-0172,V1-ENT-0238,CREATED,V1-ENT-0247,马里奥·贝内德蒂 创作 《蒙得维的亚人》（Montevideanos）,high,accepted,WEB-CE-B07,1,NONE
+V1-REL-0173,WEB-CE-B07,CAND-B07-0173,V1-ENT-0236,ASSOCIATED_WITH_PLACE,V1-ENT-0123,尼卡诺尔·帕拉与智利关联,high,accepted,WEB-CE-B07,1,NONE
+V1-REL-0174,WEB-CE-B07,CAND-B07-0174,V1-ENT-0237,ASSOCIATED_WITH_PLACE,V1-ENT-0001,阿莱杭德拉·皮扎尼克与阿根廷关联,high,accepted,WEB-CE-B07,1,NONE
+V1-REL-0175,WEB-CE-B07,CAND-B07-0175,V1-ENT-0238,ASSOCIATED_WITH_PLACE,V1-ENT-0196,马里奥·贝内德蒂与乌拉圭关联,high,accepted,WEB-CE-B07,1,NONE
+V1-REL-0176,WEB-CE-B08,CAND-B08-0176,V1-ENT-0248,CREATED,V1-ENT-0251,何塞·玛丽亚·阿格达斯 创作 《血的节日》（Yawar fiesta）,high,accepted,WEB-CE-B08,1,NONE
+V1-REL-0177,WEB-CE-B08,CAND-B08-0177,V1-ENT-0248,CREATED,V1-ENT-0252,何塞·玛丽亚·阿格达斯 创作 《深沉的河流》（Los ríos profundos）,high,accepted,WEB-CE-B08,1,NONE
+V1-REL-0178,WEB-CE-B08,CAND-B08-0178,V1-ENT-0248,CREATED,V1-ENT-0253,何塞·玛丽亚·阿格达斯 创作 《所有的血》（Todas las sangres）,high,accepted,WEB-CE-B08,1,NONE
+V1-REL-0179,WEB-CE-B08,CAND-B08-0179,V1-ENT-0249,CREATED,V1-ENT-0254,塞尔希奥·皮托尔 创作 《爱情游行》（El desfile del amor）,high,accepted,WEB-CE-B08,1,NONE
+V1-REL-0180,WEB-CE-B08,CAND-B08-0180,V1-ENT-0249,CREATED,V1-ENT-0255,塞尔希奥·皮托尔 创作 《驯服神圣苍鹭》（Domar a la divina garza）,high,accepted,WEB-CE-B08,1,NONE
+V1-REL-0181,WEB-CE-B08,CAND-B08-0181,V1-ENT-0249,CREATED,V1-ENT-0256,塞尔希奥·皮托尔 创作 《婚姻生活》（La vida conyugal）,high,accepted,WEB-CE-B08,1,NONE
+V1-REL-0182,WEB-CE-B08,CAND-B08-0182,V1-ENT-0250,CREATED,V1-ENT-0257,胡安·何塞·阿雷奥拉 创作 《孔法布拉里奥》（Confabulario）,high,accepted,WEB-CE-B08,1,NONE
+V1-REL-0183,WEB-CE-B08,CAND-B08-0183,V1-ENT-0250,CREATED,V1-ENT-0258,胡安·何塞·阿雷奥拉 创作 《动物集》（Bestiario）,high,accepted,WEB-CE-B08,1,NONE
+V1-REL-0184,WEB-CE-B08,CAND-B08-0184,V1-ENT-0250,CREATED,V1-ENT-0259,胡安·何塞·阿雷奥拉 创作 《集市》（La feria）,high,accepted,WEB-CE-B08,1,NONE
+V1-REL-0185,WEB-CE-B08,CAND-B08-0185,V1-ENT-0248,ASSOCIATED_WITH_PLACE,V1-ENT-0124,何塞·玛丽亚·阿格达斯与秘鲁关联,high,accepted,WEB-CE-B08,1,NONE
+V1-REL-0186,WEB-CE-B08,CAND-B08-0186,V1-ENT-0249,ASSOCIATED_WITH_PLACE,V1-ENT-0051,塞尔希奥·皮托尔与墨西哥关联,high,accepted,WEB-CE-B08,1,NONE
+V1-REL-0187,WEB-CE-B08,CAND-B08-0187,V1-ENT-0250,ASSOCIATED_WITH_PLACE,V1-ENT-0051,胡安·何塞·阿雷奥拉与墨西哥关联,high,accepted,WEB-CE-B08,1,NONE
+V1-REL-0188,WEB-CE-B09,CAND-B09-0188,V1-ENT-0260,CREATED,V1-ENT-0263,埃莱娜·波尼亚托夫斯卡 创作 《特拉特洛尔科之夜》（La noche de Tlatelolco）,high,accepted,WEB-CE-B09,1,NONE
+V1-REL-0189,WEB-CE-B09,CAND-B09-0189,V1-ENT-0260,CREATED,V1-ENT-0264,埃莱娜·波尼亚托夫斯卡 创作 《直到见到你，我的赫苏斯》（Hasta no verte Jesús mío）,high,accepted,WEB-CE-B09,1,NONE
+V1-REL-0190,WEB-CE-B09,CAND-B09-0190,V1-ENT-0260,CREATED,V1-ENT-0265,埃莱娜·波尼亚托夫斯卡 创作 《蒂娜》（Tinísima）,high,accepted,WEB-CE-B09,1,DISPUTED-YEAR
+V1-REL-0191,WEB-CE-B09,CAND-B09-0191,V1-ENT-0261,CREATED,V1-ENT-0266,何塞·埃米利奥·帕切科 创作 《沙漠中的战斗》（Las batallas en el desierto）,high,accepted,WEB-CE-B09,1,NONE
+V1-REL-0192,WEB-CE-B09,CAND-B09-0192,V1-ENT-0261,CREATED,V1-ENT-0267,何塞·埃米利奥·帕切科 创作 《快乐原则》（El principio del placer）,high,accepted,WEB-CE-B09,1,NONE
+V1-REL-0193,WEB-CE-B09,CAND-B09-0193,V1-ENT-0261,CREATED,V1-ENT-0268,何塞·埃米利奥·帕切科 创作 《不要问我时间如何流逝》（No me preguntes cómo pasa el tiempo）,high,accepted,WEB-CE-B09,1,NONE
+V1-REL-0194,WEB-CE-B09,CAND-B09-0194,V1-ENT-0262,CREATED,V1-ENT-0269,罗贝托·波拉尼奥 创作 《荒野侦探》（Los detectives salvajes）,high,accepted,WEB-CE-B09,1,NONE
+V1-REL-0195,WEB-CE-B09,CAND-B09-0195,V1-ENT-0262,CREATED,V1-ENT-0270,罗贝托·波拉尼奥 创作 《2666》（2666）,high,accepted,WEB-CE-B09,1,NONE
+V1-REL-0196,WEB-CE-B09,CAND-B09-0196,V1-ENT-0262,CREATED,V1-ENT-0271,罗贝托·波拉尼奥 创作 《遥远的星辰》（Estrella distante）,high,accepted,WEB-CE-B09,1,NONE
+V1-REL-0197,WEB-CE-B09,CAND-B09-0197,V1-ENT-0260,ASSOCIATED_WITH_PLACE,V1-ENT-0051,埃莱娜·波尼亚托夫斯卡与墨西哥关联,high,accepted,WEB-CE-B09,1,NONE
+V1-REL-0198,WEB-CE-B09,CAND-B09-0198,V1-ENT-0261,ASSOCIATED_WITH_PLACE,V1-ENT-0051,何塞·埃米利奥·帕切科与墨西哥关联,high,accepted,WEB-CE-B09,1,NONE
+V1-REL-0199,WEB-CE-B09,CAND-B09-0199,V1-ENT-0262,ASSOCIATED_WITH_PLACE,V1-ENT-0123,罗贝托·波拉尼奥与智利关联,high,accepted,WEB-CE-B09,1,NONE
+V1-REL-0200,WEB-CE-B10,CAND-B10-0200,V1-ENT-0272,CREATED,V1-ENT-0275,爱德华多·加莱亚诺 创作 《拉丁美洲被切开的血管》（Las venas abiertas de América Latina）,high,accepted,WEB-CE-B10,1,NONE
+V1-REL-0201,WEB-CE-B10,CAND-B10-0201,V1-ENT-0272,CREATED,V1-ENT-0276,爱德华多·加莱亚诺 创作 《火的记忆Ⅰ：创世纪》（Memoria del fuego I. Los nacimientos）,high,accepted,WEB-CE-B10,1,NONE
+V1-REL-0202,WEB-CE-B10,CAND-B10-0202,V1-ENT-0272,CREATED,V1-ENT-0277,爱德华多·加莱亚诺 创作 《拥抱之书》（El libro de los abrazos）,high,accepted,WEB-CE-B10,1,NONE
+V1-REL-0203,WEB-CE-B10,CAND-B10-0203,V1-ENT-0273,CREATED,V1-ENT-0278,里卡多·皮格利亚 创作 《人工呼吸》（Respiración artificial）,high,accepted,WEB-CE-B10,1,NONE
+V1-REL-0204,WEB-CE-B10,CAND-B10-0204,V1-ENT-0273,CREATED,V1-ENT-0279,里卡多·皮格利亚 创作 《燃烧的钱》（Plata quemada）,high,accepted,WEB-CE-B10,1,NONE
+V1-REL-0205,WEB-CE-B10,CAND-B10-0205,V1-ENT-0273,CREATED,V1-ENT-0280,里卡多·皮格利亚 创作 《夜间目标》（Blanco nocturno）,high,accepted,WEB-CE-B10,1,NONE
+V1-REL-0206,WEB-CE-B10,CAND-B10-0206,V1-ENT-0274,CREATED,V1-ENT-0281,塞萨尔·艾拉 创作 《女俘爱玛》（Ema la cautiva）,high,accepted,WEB-CE-B10,1,NONE
+V1-REL-0207,WEB-CE-B10,CAND-B10-0207,V1-ENT-0274,CREATED,V1-ENT-0282,塞萨尔·艾拉 创作 《中国小说》（Una novela china）,high,accepted,WEB-CE-B10,1,NONE
+V1-REL-0208,WEB-CE-B10,CAND-B10-0208,V1-ENT-0274,CREATED,V1-ENT-0283,塞萨尔·艾拉 创作 《文学大会》（El congreso de literatura）,high,accepted,WEB-CE-B10,1,NONE
+V1-REL-0209,WEB-CE-B10,CAND-B10-0209,V1-ENT-0272,ASSOCIATED_WITH_PLACE,V1-ENT-0196,爱德华多·加莱亚诺与乌拉圭关联,high,accepted,WEB-CE-B10,1,NONE
+V1-REL-0210,WEB-CE-B10,CAND-B10-0210,V1-ENT-0273,ASSOCIATED_WITH_PLACE,V1-ENT-0001,里卡多·皮格利亚与阿根廷关联,high,accepted,WEB-CE-B10,1,NONE
+V1-REL-0211,WEB-CE-B10,CAND-B10-0211,V1-ENT-0274,ASSOCIATED_WITH_PLACE,V1-ENT-0001,塞萨尔·艾拉与阿根廷关联,high,accepted,WEB-CE-B10,1,NONE
+V1-REL-0212,WEB-CE-B11,CAND-B11-0212,V1-ENT-0284,CREATED,V1-ENT-0287,曼努埃尔·普伊格创作《蜘蛛女之吻》（El beso de la mujer araña）,high,accepted,WEB-CE-B11,1,NONE
+V1-REL-0213,WEB-CE-B11,CAND-B11-0213,V1-ENT-0284,CREATED,V1-ENT-0288,曼努埃尔·普伊格创作《丽塔·海华丝的背叛》（La traición de Rita Hayworth）,high,accepted,WEB-CE-B11,1,NONE
+V1-REL-0214,WEB-CE-B11,CAND-B11-0214,V1-ENT-0284,CREATED,V1-ENT-0289,曼努埃尔·普伊格创作《红唇》（Boquitas pintadas）,high,accepted,WEB-CE-B11,1,NONE
+V1-REL-0215,WEB-CE-B11,CAND-B11-0215,V1-ENT-0285,CREATED,V1-ENT-0290,西尔维娜·奥坎波创作《被遗忘的旅程》（Viaje olvidado）,high,accepted,WEB-CE-B11,1,NONE
+V1-REL-0216,WEB-CE-B11,CAND-B11-0216,V1-ENT-0285,CREATED,V1-ENT-0291,西尔维娜·奥坎波创作《愤怒》（La furia）,high,accepted,WEB-CE-B11,1,NONE
+V1-REL-0217,WEB-CE-B11,CAND-B11-0217,V1-ENT-0285,CREATED,V1-ENT-0292,西尔维娜·奥坎波创作《邀请》（Las invitadas）,high,accepted,WEB-CE-B11,1,NONE
+V1-REL-0218,WEB-CE-B11,CAND-B11-0218,V1-ENT-0286,CREATED,V1-ENT-0293,罗贝托·阿尔特创作《七个疯子》（Los siete locos）,high,accepted,WEB-CE-B11,1,NONE
+V1-REL-0219,WEB-CE-B11,CAND-B11-0219,V1-ENT-0286,CREATED,V1-ENT-0294,罗贝托·阿尔特创作《火焰喷射器》（Los lanzallamas）,high,accepted,WEB-CE-B11,1,NONE
+V1-REL-0220,WEB-CE-B11,CAND-B11-0220,V1-ENT-0286,CREATED,V1-ENT-0295,罗贝托·阿尔特创作《疯玩具》（El juguete rabioso）,high,accepted,WEB-CE-B11,1,NONE
+V1-REL-0221,WEB-CE-B11,CAND-B11-0221,V1-ENT-0284,ASSOCIATED_WITH_PLACE,V1-ENT-0001,曼努埃尔·普伊格与阿根廷关联,high,accepted,WEB-CE-B11,1,NONE
+V1-REL-0222,WEB-CE-B11,CAND-B11-0222,V1-ENT-0285,ASSOCIATED_WITH_PLACE,V1-ENT-0001,西尔维娜·奥坎波与阿根廷关联,high,accepted,WEB-CE-B11,1,NONE
+V1-REL-0223,WEB-CE-B11,CAND-B11-0223,V1-ENT-0286,ASSOCIATED_WITH_PLACE,V1-ENT-0001,罗贝托·阿尔特与阿根廷关联,high,accepted,WEB-CE-B11,1,NONE
+V1-REL-0224,WEB-CE-B12,CAND-B12-0224,V1-ENT-0296,CREATED,V1-ENT-0299,萨曼塔·施维伯林创作《营救距离》（Distancia de rescate）,high,accepted,WEB-CE-B12,1,NONE
+V1-REL-0225,WEB-CE-B12,CAND-B12-0225,V1-ENT-0296,CREATED,V1-ENT-0300,萨曼塔·施维伯林创作《吃鸟的女孩》（Pájaros en la boca）,high,accepted,WEB-CE-B12,1,NONE
+V1-REL-0226,WEB-CE-B12,CAND-B12-0226,V1-ENT-0296,CREATED,V1-ENT-0301,萨曼塔·施维伯林创作《七座空屋》（Siete casas vacías）,high,accepted,WEB-CE-B12,1,NONE
+V1-REL-0227,WEB-CE-B12,CAND-B12-0227,V1-ENT-0297,CREATED,V1-ENT-0302,玛丽安娜·恩里克斯创作《火中遗物》（Las cosas que perdimos en el fuego）,high,accepted,WEB-CE-B12,1,NONE
+V1-REL-0228,WEB-CE-B12,CAND-B12-0228,V1-ENT-0297,CREATED,V1-ENT-0303,玛丽安娜·恩里克斯创作《属于我们的夜晚》（Nuestra parte de noche）,high,accepted,WEB-CE-B12,1,NONE
+V1-REL-0229,WEB-CE-B12,CAND-B12-0229,V1-ENT-0297,CREATED,V1-ENT-0304,玛丽安娜·恩里克斯创作《床上抽烟危险》（Los peligros de fumar en la cama）,high,accepted,WEB-CE-B12,1,NONE
+V1-REL-0230,WEB-CE-B12,CAND-B12-0230,V1-ENT-0298,CREATED,V1-ENT-0305,亚历杭德罗·桑布拉创作《盆栽》（Bonsái）,high,accepted,WEB-CE-B12,1,NONE
+V1-REL-0231,WEB-CE-B12,CAND-B12-0231,V1-ENT-0298,CREATED,V1-ENT-0306,亚历杭德罗·桑布拉创作《树的隐秘生活》（La vida privada de los árboles）,high,accepted,WEB-CE-B12,1,NONE
+V1-REL-0232,WEB-CE-B12,CAND-B12-0232,V1-ENT-0298,CREATED,V1-ENT-0307,亚历杭德罗·桑布拉创作《回家的路》（Formas de volver a casa）,high,accepted,WEB-CE-B12,1,NONE
+V1-REL-0233,WEB-CE-B12,CAND-B12-0233,V1-ENT-0296,ASSOCIATED_WITH_PLACE,V1-ENT-0001,萨曼塔·施维伯林与阿根廷关联,high,accepted,WEB-CE-B12,1,NONE
+V1-REL-0234,WEB-CE-B12,CAND-B12-0234,V1-ENT-0297,ASSOCIATED_WITH_PLACE,V1-ENT-0001,玛丽安娜·恩里克斯与阿根廷关联,high,accepted,WEB-CE-B12,1,NONE
+V1-REL-0235,WEB-CE-B12,CAND-B12-0235,V1-ENT-0298,ASSOCIATED_WITH_PLACE,V1-ENT-0123,亚历杭德罗·桑布拉与智利关联,high,accepted,WEB-CE-B12,1,NONE
+V1-REL-0236,WEB-CE-B13,CAND-B13-0236,V1-ENT-0308,CREATED,V1-ENT-0311,保罗·柯艾略创作《牧羊少年奇幻之旅》（O Alquimista）,high,accepted,WEB-CE-B13,1,NONE
+V1-REL-0237,WEB-CE-B13,CAND-B13-0237,V1-ENT-0308,CREATED,V1-ENT-0312,保罗·柯艾略创作《维罗妮卡决定去死》（Veronika Decide Morrer）,high,accepted,WEB-CE-B13,1,NONE
+V1-REL-0238,WEB-CE-B13,CAND-B13-0238,V1-ENT-0308,CREATED,V1-ENT-0313,保罗·柯艾略创作《十一分钟》（Onze Minutos）,high,accepted,WEB-CE-B13,1,NONE
+V1-REL-0239,WEB-CE-B13,CAND-B13-0239,V1-ENT-0309,CREATED,V1-ENT-0314,卡洛斯·德鲁蒙德·德·安德拉德创作《某种诗》（Alguma poesia）,high,accepted,WEB-CE-B13,1,NONE
+V1-REL-0240,WEB-CE-B13,CAND-B13-0240,V1-ENT-0309,CREATED,V1-ENT-0315,卡洛斯·德鲁蒙德·德·安德拉德创作《人民的玫瑰》（A rosa do povo）,high,accepted,WEB-CE-B13,1,NONE
+V1-REL-0241,WEB-CE-B13,CAND-B13-0241,V1-ENT-0309,CREATED,V1-ENT-0316,卡洛斯·德鲁蒙德·德·安德拉德创作《明晰之谜》（Claro enigma）,high,accepted,WEB-CE-B13,1,NONE
+V1-REL-0242,WEB-CE-B13,CAND-B13-0242,V1-ENT-0310,CREATED,V1-ENT-0317,尼古拉斯·纪廉创作《松调》（Motivos de son）,high,accepted,WEB-CE-B13,1,NONE
+V1-REL-0243,WEB-CE-B13,CAND-B13-0243,V1-ENT-0310,CREATED,V1-ENT-0318,尼古拉斯·纪廉创作《桑戈罗·科松戈》（Sóngoro cosongo）,high,accepted,WEB-CE-B13,1,NONE
+V1-REL-0244,WEB-CE-B13,CAND-B13-0244,V1-ENT-0310,CREATED,V1-ENT-0319,"尼古拉斯·纪廉创作《西印度公司》（West Indies, Ltd.）",high,accepted,WEB-CE-B13,1,NONE
+V1-REL-0245,WEB-CE-B13,CAND-B13-0245,V1-ENT-0308,ASSOCIATED_WITH_PLACE,V1-ENT-0183,保罗·柯艾略与巴西关联,high,accepted,WEB-CE-B13,1,NONE
+V1-REL-0246,WEB-CE-B13,CAND-B13-0246,V1-ENT-0309,ASSOCIATED_WITH_PLACE,V1-ENT-0183,卡洛斯·德鲁蒙德·德·安德拉德与巴西关联,high,accepted,WEB-CE-B13,1,NONE
+V1-REL-0247,WEB-CE-B13,CAND-B13-0247,V1-ENT-0310,ASSOCIATED_WITH_PLACE,V1-ENT-0096,尼古拉斯·纪廉与古巴关联,high,accepted,WEB-CE-B13,1,NONE
+V1-REL-0248,WEB-CE-B14,CAND-B14-0248,V1-ENT-0320,CREATED,V1-ENT-0323,何塞·莱萨马·利马创作《天堂》（Paradiso）,high,accepted,WEB-CE-B14,1,NONE
+V1-REL-0249,WEB-CE-B14,CAND-B14-0249,V1-ENT-0320,CREATED,V1-ENT-0324,何塞·莱萨马·利马创作《奥皮亚诺·利卡里奥》（Oppiano Licario）,high,accepted,WEB-CE-B14,1,NONE
+V1-REL-0250,WEB-CE-B14,CAND-B14-0250,V1-ENT-0320,CREATED,V1-ENT-0325,何塞·莱萨马·利马创作《美洲的表达》（La expresión americana）,high,accepted,WEB-CE-B14,1,NONE
+V1-REL-0251,WEB-CE-B14,CAND-B14-0251,V1-ENT-0321,CREATED,V1-ENT-0326,吉列尔莫·卡夫雷拉·因凡特创作《三只忧伤的老虎》（Tres tristes tigres）,high,accepted,WEB-CE-B14,1,NONE
+V1-REL-0252,WEB-CE-B14,CAND-B14-0252,V1-ENT-0321,CREATED,V1-ENT-0327,吉列尔莫·卡夫雷拉·因凡特创作《热带黎明景观》（Vista del amanecer en el trópico）,high,accepted,WEB-CE-B14,1,NONE
+V1-REL-0253,WEB-CE-B14,CAND-B14-0253,V1-ENT-0321,CREATED,V1-ENT-0328,吉列尔莫·卡夫雷拉·因凡特创作《哈瓦那，一个早夭婴儿的回忆》（La Habana para un infante difunto）,high,accepted,WEB-CE-B14,1,NONE
+V1-REL-0254,WEB-CE-B14,CAND-B14-0254,V1-ENT-0322,CREATED,V1-ENT-0329,索尔·胡安娜·伊内斯·德·拉·克鲁斯创作《第一梦》（Primero sueño）,high,accepted,WEB-CE-B14,1,NONE
+V1-REL-0255,WEB-CE-B14,CAND-B14-0255,V1-ENT-0322,CREATED,V1-ENT-0330,索尔·胡安娜·伊内斯·德·拉·克鲁斯创作《答索尔·菲洛特娅》（Respuesta a Sor Filotea de la Cruz）,high,accepted,WEB-CE-B14,1,NONE
+V1-REL-0256,WEB-CE-B14,CAND-B14-0256,V1-ENT-0322,CREATED,V1-ENT-0331,索尔·胡安娜·伊内斯·德·拉·克鲁斯创作《爱情是更大的迷宫》（Amor es más laberinto）,high,accepted,WEB-CE-B14,1,NONE
+V1-REL-0257,WEB-CE-B14,CAND-B14-0257,V1-ENT-0320,ASSOCIATED_WITH_PLACE,V1-ENT-0096,何塞·莱萨马·利马与古巴关联,high,accepted,WEB-CE-B14,1,NONE
+V1-REL-0258,WEB-CE-B14,CAND-B14-0258,V1-ENT-0321,ASSOCIATED_WITH_PLACE,V1-ENT-0096,吉列尔莫·卡夫雷拉·因凡特与古巴关联,high,accepted,WEB-CE-B14,1,NONE
+V1-REL-0259,WEB-CE-B14,CAND-B14-0259,V1-ENT-0322,ASSOCIATED_WITH_PLACE,V1-ENT-0051,索尔·胡安娜·伊内斯·德·拉·克鲁斯与墨西哥关联,high,accepted,WEB-CE-B14,1,NONE
+V1-REL-0260,WEB-CE-B15,CAND-B15-0260,V1-ENT-0332,CREATED,V1-ENT-0335,胡利奥·拉蒙·里贝罗创作《没有羽毛的秃鹫》（Los gallinazos sin plumas）,high,accepted,WEB-CE-B15,1,NONE
+V1-REL-0261,WEB-CE-B15,CAND-B15-0261,V1-ENT-0332,CREATED,V1-ENT-0336,胡利奥·拉蒙·里贝罗创作《西尔维奥在玫瑰园》（Silvio en El Rosedal）,high,accepted,WEB-CE-B15,1,NONE
+V1-REL-0262,WEB-CE-B15,CAND-B15-0262,V1-ENT-0332,CREATED,V1-ENT-0337,胡利奥·拉蒙·里贝罗编写《无言之词》（La palabra del mudo）,high,accepted,WEB-CE-B15,1,NONE
+V1-REL-0263,WEB-CE-B15,CAND-B15-0263,V1-ENT-0333,CREATED,V1-ENT-0338,胡安·何塞·萨埃尔创作《皇家柠檬树》（El limonero real）,high,accepted,WEB-CE-B15,1,NONE
+V1-REL-0264,WEB-CE-B15,CAND-B15-0264,V1-ENT-0333,CREATED,V1-ENT-0339,胡安·何塞·萨埃尔创作《继子》（El entenado）,high,accepted,WEB-CE-B15,1,NONE
+V1-REL-0265,WEB-CE-B15,CAND-B15-0265,V1-ENT-0333,CREATED,V1-ENT-0340,胡安·何塞·萨埃尔创作《格洛萨》（Glosa）,high,accepted,WEB-CE-B15,1,DISPUTED-YEAR
+V1-REL-0266,WEB-CE-B15,CAND-B15-0266,V1-ENT-0334,CREATED,V1-ENT-0341,雷纳尔多·阿雷纳斯创作《黎明前的塞莱斯蒂诺》（Celestino antes del alba）,high,accepted,WEB-CE-B15,1,NONE
+V1-REL-0267,WEB-CE-B15,CAND-B15-0267,V1-ENT-0334,CREATED,V1-ENT-0342,雷纳尔多·阿雷纳斯创作《幻梦世界》（El mundo alucinante）,high,accepted,WEB-CE-B15,1,NONE
+V1-REL-0268,WEB-CE-B15,CAND-B15-0268,V1-ENT-0334,CREATED,V1-ENT-0343,雷纳尔多·阿雷纳斯创作《夜幕降临前》（Antes que anochezca）,high,accepted,WEB-CE-B15,1,NONE
+V1-REL-0269,WEB-CE-B15,CAND-B15-0269,V1-ENT-0332,ASSOCIATED_WITH_PLACE,V1-ENT-0124,胡利奥·拉蒙·里贝罗与秘鲁关联,high,accepted,WEB-CE-B15,1,NONE
+V1-REL-0270,WEB-CE-B15,CAND-B15-0270,V1-ENT-0333,ASSOCIATED_WITH_PLACE,V1-ENT-0001,胡安·何塞·萨埃尔与阿根廷关联,high,accepted,WEB-CE-B15,1,NONE
+V1-REL-0271,WEB-CE-B15,CAND-B15-0271,V1-ENT-0334,ASSOCIATED_WITH_PLACE,V1-ENT-0096,雷纳尔多·阿雷纳斯与古巴关联,high,accepted,WEB-CE-B15,1,NONE
+V1-REL-0272,WEB-CE-B16,V1-REL-0272,V1-ENT-0344,CREATED,V1-ENT-0347,路易斯·塞普尔维达创作《读爱情故事的老人》（Un viejo que leía novelas de amor）,high,accepted,WEB-CE-B16,1,NONE
+V1-REL-0273,WEB-CE-B16,V1-REL-0273,V1-ENT-0344,CREATED,V1-ENT-0348,路易斯·塞普尔维达创作《教海鸥飞翔的猫》（Historia de una gaviota y del gato que le enseñó a volar）,high,accepted,WEB-CE-B16,1,NONE
+V1-REL-0274,WEB-CE-B16,V1-REL-0274,V1-ENT-0344,CREATED,V1-ENT-0349,路易斯·塞普尔维达创作《世界尽头的世界》（Mundo del fin del mundo）,high,accepted,WEB-CE-B16,1,NONE
+V1-REL-0275,WEB-CE-B16,V1-REL-0275,V1-ENT-0345,CREATED,V1-ENT-0350,瓜达卢佩·内特尔创作《独生女儿》（La hija única）,high,accepted,WEB-CE-B16,1,NONE
+V1-REL-0276,WEB-CE-B16,V1-REL-0276,V1-ENT-0345,CREATED,V1-ENT-0351,瓜达卢佩·内特尔创作《红鱼之姻》（El matrimonio de los peces rojos）,high,accepted,WEB-CE-B16,1,NONE
+V1-REL-0277,WEB-CE-B16,V1-REL-0277,V1-ENT-0345,CREATED,V1-ENT-0352,瓜达卢佩·内特尔创作《真正的孤独》（Pétalos y otras historias incómodas）,high,accepted,WEB-CE-B16,1,NONE
+V1-REL-0278,WEB-CE-B16,V1-REL-0278,V1-ENT-0346,CREATED,V1-ENT-0353,克里斯蒂娜·佩里·罗西创作《错爱》（Los amores equivocados）,high,accepted,WEB-CE-B16,1,NONE
+V1-REL-0279,WEB-CE-B16,V1-REL-0279,V1-ENT-0346,CREATED,V1-ENT-0354,克里斯蒂娜·佩里·罗西创作《恐龙的下午》（La tarde del dinosaurio）,high,accepted,WEB-CE-B16,1,NONE
+V1-REL-0280,WEB-CE-B16,V1-REL-0280,V1-ENT-0346,CREATED,V1-ENT-0355,克里斯蒂娜·佩里·罗西创作《沉船记》（Descripción de un naufragio）,high,accepted,WEB-CE-B16,1,NONE
+V1-REL-0281,WEB-CE-B16,V1-REL-0281,V1-ENT-0344,ASSOCIATED_WITH_PLACE,V1-ENT-0123,路易斯·塞普尔维达与智利关联,high,accepted,WEB-CE-B16,1,NONE
+V1-REL-0282,WEB-CE-B16,V1-REL-0282,V1-ENT-0345,ASSOCIATED_WITH_PLACE,V1-ENT-0051,瓜达卢佩·内特尔与墨西哥关联,high,accepted,WEB-CE-B16,1,NONE
+V1-REL-0283,WEB-CE-B16,V1-REL-0283,V1-ENT-0346,ASSOCIATED_WITH_PLACE,V1-ENT-0196,克里斯蒂娜·佩里·罗西与乌拉圭关联,high,accepted,WEB-CE-B16,1,NONE
+V1-REL-0284,WEB-CE-B17,V1-REL-0284,V1-ENT-0358,CREATED,V1-ENT-0361,莉吉娅·法贡德斯·特莱斯创作《石头圆舞》（Ciranda de pedra）,high,accepted,WEB-CE-B17,1,NONE
+V1-REL-0285,WEB-CE-B17,V1-REL-0285,V1-ENT-0358,CREATED,V1-ENT-0362,莉吉娅·法贡德斯·特莱斯创作《绿色舞会之前》（Antes do baile verde）,high,accepted,WEB-CE-B17,1,NONE
+V1-REL-0286,WEB-CE-B17,V1-REL-0286,V1-ENT-0358,CREATED,V1-ENT-0363,莉吉娅·法贡德斯·特莱斯创作《姑娘们》（As meninas）,high,accepted,WEB-CE-B17,1,NONE
+V1-REL-0287,WEB-CE-B17,V1-REL-0287,V1-ENT-0359,CREATED,V1-ENT-0364,豪尔赫·伊卡萨创作《瓦西蓬戈》（Huasipungo）,high,accepted,WEB-CE-B17,1,NONE
+V1-REL-0288,WEB-CE-B17,V1-REL-0288,V1-ENT-0359,CREATED,V1-ENT-0365,豪尔赫·伊卡萨创作《在街头》（En las calles）,high,accepted,WEB-CE-B17,1,NONE
+V1-REL-0289,WEB-CE-B17,V1-REL-0289,V1-ENT-0359,CREATED,V1-ENT-0366,豪尔赫·伊卡萨创作《乔洛·罗梅罗与弗洛雷斯》（El chulla Romero y Flores）,high,accepted,WEB-CE-B17,1,NONE
+V1-REL-0290,WEB-CE-B17,V1-REL-0290,V1-ENT-0360,CREATED,V1-ENT-0367,罗慕洛·加列戈斯创作《堂娜·芭芭拉》（Doña Bárbara）,high,accepted,WEB-CE-B17,1,NONE
+V1-REL-0291,WEB-CE-B17,V1-REL-0291,V1-ENT-0360,CREATED,V1-ENT-0368,罗慕洛·加列戈斯创作《唱歌者》（Cantaclaro）,high,accepted,WEB-CE-B17,1,NONE
+V1-REL-0292,WEB-CE-B17,V1-REL-0292,V1-ENT-0360,CREATED,V1-ENT-0369,罗慕洛·加列戈斯创作《卡奈玛》（Canaima）,high,accepted,WEB-CE-B17,1,NONE
+V1-REL-0293,WEB-CE-B17,V1-REL-0293,V1-ENT-0358,ASSOCIATED_WITH_PLACE,V1-ENT-0183,莉吉娅·法贡德斯·特莱斯与巴西关联,high,accepted,WEB-CE-B17,1,NONE
+V1-REL-0294,WEB-CE-B17,V1-REL-0294,V1-ENT-0359,ASSOCIATED_WITH_PLACE,V1-ENT-0356,豪尔赫·伊卡萨与厄瓜多尔关联,high,accepted,WEB-CE-B17,1,NONE
+V1-REL-0295,WEB-CE-B17,V1-REL-0295,V1-ENT-0360,ASSOCIATED_WITH_PLACE,V1-ENT-0357,罗慕洛·加列戈斯与委内瑞拉关联,high,accepted,WEB-CE-B17,1,NONE
+V1-REL-0296,WCD02-CS01,WCD02-CS01-REL-01,V1-ENT-0171,ASSOCIATED_WITH_PLACE,V1-ENT-0125,伊莎贝尔·阿连德与出生地利马关联,high,accepted,WCD02-REVIEW-PASS,1,NONE
+V1-REL-0297,WCD02-CS01,WCD02-CS01-REL-02,V1-ENT-0261,ASSOCIATED_WITH_PLACE,V1-ENT-0056,何塞·埃米利奥·帕切科与出生地墨西哥城关联,high,accepted,WCD02-REVIEW-PASS,1,NONE
+V1-REL-0298,WCD02-CS01,WCD02-CS01-REL-03,V1-ENT-0262,ASSOCIATED_WITH_PLACE,V1-ENT-0128,罗贝托·波拉尼奥与出生地圣地亚哥关联,high,accepted,WCD02-REVIEW-PASS,1,NONE
+V1-REL-0299,WCD02-CS01,WCD02-CS01-REL-04,V1-ENT-0211,ASSOCIATED_WITH_PLACE,V1-ENT-0022,马查多·德·阿西斯与出生地里约热内卢关联,medium,accepted,WCD02-REVIEW-PASS,1,NONE
+V1-REL-0300,WCD02-CS01,WCD02-CS01-REL-05,V1-ENT-0198,ASSOCIATED_WITH_PLACE,V1-ENT-0370,阿道夫·比奥伊·卡萨雷斯与出生地布宜诺斯艾利斯关联,high,accepted,WCD02-REVIEW-PASS,1,NONE
+V1-REL-0301,WCD02-CS01,WCD02-CS01-REL-06,V1-ENT-0285,ASSOCIATED_WITH_PLACE,V1-ENT-0370,西尔维娜·奥坎波与出生地布宜诺斯艾利斯关联,high,accepted,WCD02-REVIEW-PASS,1,NONE
+V1-REL-0302,WCD02-CS01,WCD02-CS01-REL-07,V1-ENT-0184,ASSOCIATED_WITH_PLACE,V1-ENT-0371,胡安·卡洛斯·奥内蒂与出生地蒙得维的亚关联,high,accepted,WCD02-REVIEW-PASS,1,NONE
+V1-REL-0303,WCD02-CS01,WCD02-CS01-REL-08,V1-ENT-0272,ASSOCIATED_WITH_PLACE,V1-ENT-0371,爱德华多·加莱亚诺与出生地蒙得维的亚关联,high,accepted,WCD02-REVIEW-PASS,1,NONE
+V1-REL-0304,WCD02-CS01,WCD02-CS01-REL-09,V1-ENT-0225,ASSOCIATED_WITH_PLACE,V1-ENT-0372,何塞·马蒂与出生地哈瓦那关联,medium,accepted,WCD02-REVIEW-PASS,1,NONE
+V1-REL-0305,WCD02-CS01,WCD02-CS01-REL-10,V1-ENT-0078,SET_IN,V1-ENT-0370,《跳房子》的故事空间包含布宜诺斯艾利斯,high,accepted,WCD02-REVIEW-PASS,1,NONE
+V1-REL-0306,WCD02-CS02,WCD02-CS02-REL-01,V1-ENT-0078,SET_IN,V1-ENT-0373,《跳房子》的故事空间包含巴黎,high,accepted,WCD02-REVIEW-PASS,1,NONE
+V1-REL-0307,WCD02-CS02,WCD02-CS02-REL-02,V1-ENT-0146,SET_IN,V1-ENT-0056,《最明净的地区》的故事空间为墨西哥城,high,accepted,WCD02-REVIEW-PASS,2,NONE
+V1-REL-0308,WCD02-CS02,WCD02-CS02-REL-03,V1-ENT-0081,SET_IN,V1-ENT-0096,《光明世纪》的故事空间包含十八世纪末的古巴,high,accepted,WCD02-REVIEW-PASS,1,NONE
+V1-REL-0309,WCD-05,WCD05-CS01-01,V1-ENT-0158,SET_IN,V1-ENT-0095,《霍乱时期的爱情》的主要故事空间位于哥伦比亚加勒比地区,high,accepted,CODEX-REVIEW-WCD05-PASS,2,NONE
+V1-REL-0310,WCD-05,WCD05-CS01-02,V1-ENT-0160,SET_IN,V1-ENT-0124,《绿房子》的两组主要场景位于秘鲁的皮乌拉与亚马孙地区,high,accepted,CODEX-REVIEW-WCD05-PASS,1,NONE
+V1-REL-0311,WCD-05,WCD05-CS02-01,V1-ENT-0002,INFLUENCED_BY,V1-ENT-0005,叔本华的哲学构成博尔赫斯长期阅读与思想参照之一,high,accepted,CODEX-REVIEW-WCD05-PASS,2,NONE
+V1-REL-0312,WCD-05,WCD05-CS02-02,V1-ENT-0002,INFLUENCED_BY,V1-ENT-0006,卡夫卡的作品持续影响博尔赫斯的阅读、翻译与创作思考,high,accepted,CODEX-REVIEW-WCD05-PASS,2,NONE
+V1-REL-0313,WCD-05,WCD05-CS02-03,V1-ENT-0002,INFLUENCED_BY,V1-ENT-0007,切斯特顿对博尔赫斯的侦探叙事与小说观形成显著影响,high,accepted,CODEX-REVIEW-WCD05-PASS,2,NONE
+V1-REL-0314,WCD-05,WCD05-CS03-01,V1-ENT-0002,ASSOCIATED_WITH_MOVEMENT,V1-ENT-0010,博尔赫斯在1919至1921年间参与并传播西语极端主义（ultraísmo）运动,high,accepted,CODEX-REVIEW-WCD05-PASS,2,NONE
+V1-REL-0315,WCD-05,WCD05-CS03-02,V1-ENT-0072,ASSOCIATED_WITH_MOVEMENT,V1-ENT-0099,加西亚·马尔克斯是魔幻现实主义最具代表性的作家之一,high,accepted,CODEX-REVIEW-WCD05-PASS,2,NONE
+V1-REL-0316,WCD-05,WCD05-CS03-03,V1-ENT-0074,ASSOCIATED_WITH_MOVEMENT,V1-ENT-0100,卡彭铁尔提出并发展“神奇现实”（lo real maravilloso）的美洲文学表达,high,accepted,CODEX-REVIEW-WCD05-PASS,2,NONE
+V1-REL-0317,WCD-05,WCD05-CS03-04,V1-ENT-0078,EXPLORES_THEME,V1-ENT-0105,《跳房子》的可组合结构要求读者主动参与并挑战传统线性叙事,high,accepted,CODEX-REVIEW-WCD05-PASS,2,NONE
+V1-REL-0318,WCD-05,WCD05-CS03-05,V1-ENT-0079,EXPLORES_THEME,V1-ENT-0108,《人间王国》通过跨文化人物与“神奇现实”表达复合的美洲身份,high,accepted,CODEX-REVIEW-WCD05-PASS,2,NONE
+V1-REL-0319,WCD-05,WCD05-CS03-06,V1-ENT-0115,ASSOCIATED_WITH_MOVEMENT,V1-ENT-0131,聂鲁达的早期诗歌创作与西语现代主义传统存在明确关联,high,accepted,CODEX-REVIEW-WCD05-PASS,2,NONE
+V1-REL-0320,WCD-05,WCD05-CS03-07,V1-ENT-0059,ASSOCIATED_WITH_MOVEMENT,V1-ENT-0132,帕斯曾直接参与以超现实主义为代表的先锋派文学活动,high,accepted,CODEX-REVIEW-WCD05-PASS,2,NONE
+V1-REL-0321,WCD-05,WCD05-CS04-01,V1-ENT-0047,APPEARS_IN,V1-ENT-0032,弗朗西斯科·罗萨斯是《未来的回忆》中的人物,high,accepted,CODEX-REVIEW-WCD05-CS04-PASS,1,NONE
+V1-REL-0322,WCD-05,WCD05-CS04-02,V1-ENT-0048,APPEARS_IN,V1-ENT-0032,胡利娅·安德拉德是《未来的回忆》中的人物,high,accepted,CODEX-REVIEW-WCD05-CS04-PASS,1,NONE
+V1-REL-0323,WCD-05,WCD05-CS04-03,V1-ENT-0049,APPEARS_IN,V1-ENT-0038,胡安·普雷西亚多是《佩德罗·巴拉莫》中的人物,high,accepted,CODEX-REVIEW-WCD05-CS04-PASS,1,NONE
+V1-REL-0324,WCD-05,WCD05-CS04-04,V1-ENT-0050,APPEARS_IN,V1-ENT-0038,佩德罗·巴拉莫（人物）是《佩德罗·巴拉莫》中的人物,high,accepted,CODEX-REVIEW-WCD05-CS04-PASS,1,NONE
+V1-REL-0325,WCD-05,WCD05-CS04-05,V1-ENT-0091,APPEARS_IN,V1-ENT-0076,上校是《没有人给他写信的上校》中的人物,high,accepted,CODEX-REVIEW-WCD05-CS04-PASS,1,NONE
+V1-REL-0326,WCD-05,WCD05-CS04-06,V1-ENT-0092,APPEARS_IN,V1-ENT-0076,奥古斯丁是《没有人给他写信的上校》中的人物,high,accepted,CODEX-REVIEW-WCD05-CS04-PASS,1,NONE
+V1-REL-0327,WCD-05,WCD05-CS04-07,V1-ENT-0090,APPEARS_IN,V1-ENT-0077,圣地亚哥·纳萨尔是《一桩事先张扬的凶杀案》中的人物,high,accepted,CODEX-REVIEW-WCD05-CS04-PASS,1,NONE
+V1-REL-0328,WCD-05,WCD05-CS04-08,V1-ENT-0093,APPEARS_IN,V1-ENT-0079,马康达尔是《人间王国》中的人物,high,accepted,CODEX-REVIEW-WCD05-CS04-PASS,1,NONE
+V1-REL-0329,WCD-05,WCD05-CS04-09,V1-ENT-0094,APPEARS_IN,V1-ENT-0079,亨利·克里斯托夫是《人间王国》中的人物,high,accepted,CODEX-REVIEW-WCD05-CS04-PASS,1,NONE
+V1-REL-0330,WCD-05,WCD05-CS04-10,V1-ENT-0141,APPEARS_IN,V1-ENT-0118,劝世者是《世界末日之战》中的人物,high,accepted,CODEX-REVIEW-WCD05-CS04-PASS,1,NONE

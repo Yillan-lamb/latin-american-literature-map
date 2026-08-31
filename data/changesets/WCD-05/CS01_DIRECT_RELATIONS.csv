@@ -1,0 +1,4 @@
+candidate_id,hold_id,action,subject_id,relation_type,object_id,proposed_description,existing_sources,new_source_keys,evidence_locator,evidence_threshold,integrator_assessment
+WCD05-CS01-01,V1-HOLD-0044,RELEASE,V1-ENT-0158,SET_IN,V1-ENT-0095,《霍乱时期的爱情》的主要故事空间位于哥伦比亚加勒比地区,SRC-0064,WCD05-SRC-09,"Chapter 2 §2 La ciudad colonial y la ciudad moderna, printed/PDF pp. 50–51",one_direct_qualified_source,PASS_TO_REVIEW
+WCD05-CS01-02,V1-HOLD-0045,RELEASE,V1-ENT-0160,SET_IN,V1-ENT-0124,《绿房子》的两组主要场景位于秘鲁的皮乌拉与亚马孙地区,,WCD05-SRC-10,"institutional record Resumen: Piura and Santa María de Nieva in the Amazon",one_direct_qualified_source,PASS_TO_REVIEW
+WCD05-CS01-03,V1-HOLD-0046,REJECT_HOLD,V1-ENT-0158,ASSOCIATED_WITH_MOVEMENT,V1-ENT-0099,不建立《霍乱时期的爱情》与魔幻现实主义的正式运动关系,,WCD05-SRC-09,"Chapter 1 §3 Más allá de Cien años de soledad…, p. 28; Chapter 2 opening, pp. 41–42; Conclusions, p. 91",contrary_source_plus_reason,PASS_TO_REVIEW

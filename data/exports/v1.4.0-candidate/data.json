@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "schema_version": "0.3",
-    "source_database_sha256": "7bba73dd7b1a3e7ba46406c7fef5b7978903988c975415db6907bdd17263068d",
+    "schema_version": "0.4",
+    "source_database_sha256": "2d78e94e6f8acf50d7d3fc1cf279af4c4b09d4a916057b2bb12b78995b032e01",
     "export_version": "v1.4.0-candidate",
     "release_status": "development_candidate",
     "generation_policy": "deterministic_from_sqlite"
@@ -42199,7 +42199,7 @@
       },
       {
         "key": "eligible_relationship_count",
-        "value": "318"
+        "value": "328"
       },
       {
         "key": "entity_count",
@@ -42239,7 +42239,7 @@
       },
       {
         "key": "schema_version",
-        "value": "0.3"
+        "value": "0.4"
       },
       {
         "key": "sha256",
@@ -42522,6 +42522,14 @@
         "applied_at": "2026-08-31T01:17:09+00:00",
         "sql_sha256": "dd86a42c122a14d46ad72e18e5a985035d8a22c66de34698e38a305e5058cc21",
         "schema_version": "0.3"
+      },
+      {
+        "migration_id": "0034_wcd05_character_relations",
+        "task_id": "WCD-05",
+        "reviewer": "CODEX-REVIEW-WCD05-CS04",
+        "applied_at": "2026-08-31T03:00:15+00:00",
+        "sql_sha256": "1ac9830459510d163ebcfec61db9cc7688f5a035f0e7b3c57bea226bd34cb1f6",
+        "schema_version": "0.4"
       }
     ],
     "n3_decisions": [
@@ -48167,6 +48175,126 @@
         "confidence": "high",
         "evidence_status": "eligible_evidence",
         "evidence_origin": "WCD05-CS03"
+      },
+      {
+        "evidence_id": "V1-EV-0358",
+        "relationship_id": "V1-REL-0321",
+        "origin_evidence_id": "WCD05-CS04-01",
+        "source_id": "SRC-0020",
+        "source_title": "Los recuerdos del porvenir - Detalle de la obra",
+        "locator": "ELEM obra 3408, character discussion naming Francisco Rosas",
+        "evidence_note": "The institutional work page directly identifies Francisco Rosas as a character in Los recuerdos del porvenir.",
+        "confidence": "high",
+        "evidence_status": "eligible_evidence",
+        "evidence_origin": "WCD05-CS04"
+      },
+      {
+        "evidence_id": "V1-EV-0359",
+        "relationship_id": "V1-REL-0322",
+        "origin_evidence_id": "WCD05-CS04-02",
+        "source_id": "SRC-0020",
+        "source_title": "Los recuerdos del porvenir - Detalle de la obra",
+        "locator": "ELEM obra 3408, character discussion naming Julia Andrade",
+        "evidence_note": "The institutional work page directly identifies Julia Andrade as a character in Los recuerdos del porvenir.",
+        "confidence": "high",
+        "evidence_status": "eligible_evidence",
+        "evidence_origin": "WCD05-CS04"
+      },
+      {
+        "evidence_id": "V1-EV-0360",
+        "relationship_id": "V1-REL-0323",
+        "origin_evidence_id": "WCD05-CS04-03",
+        "source_id": "SRC-0029",
+        "source_title": "Pedro Páramo - Detalle de la obra",
+        "locator": "ELEM obra 2838, character and narrator discussion naming Juan Preciado",
+        "evidence_note": "The institutional work page directly identifies Juan Preciado as a character and narrator in Pedro Páramo.",
+        "confidence": "high",
+        "evidence_status": "eligible_evidence",
+        "evidence_origin": "WCD05-CS04"
+      },
+      {
+        "evidence_id": "V1-EV-0361",
+        "relationship_id": "V1-REL-0324",
+        "origin_evidence_id": "WCD05-CS04-04",
+        "source_id": "SRC-0029",
+        "source_title": "Pedro Páramo - Detalle de la obra",
+        "locator": "ELEM obra 2838, title-character discussion naming Pedro Páramo",
+        "evidence_note": "The institutional work page directly identifies the character Pedro Páramo; the character and same-name work remain distinct entities.",
+        "confidence": "high",
+        "evidence_status": "eligible_evidence",
+        "evidence_origin": "WCD05-CS04"
+      },
+      {
+        "evidence_id": "V1-EV-0362",
+        "relationship_id": "V1-REL-0325",
+        "origin_evidence_id": "WCD05-CS04-05",
+        "source_id": "SRC-0033",
+        "source_title": "Miseria y violencia en El Coronel no tiene quien le escriba",
+        "locator": "article abstract, the colonel awaiting the letter",
+        "evidence_note": "The work-specific scholarly abstract directly discusses the colonel as the central character.",
+        "confidence": "high",
+        "evidence_status": "eligible_evidence",
+        "evidence_origin": "WCD05-CS04"
+      },
+      {
+        "evidence_id": "V1-EV-0363",
+        "relationship_id": "V1-REL-0326",
+        "origin_evidence_id": "WCD05-CS04-06",
+        "source_id": "SRC-0033",
+        "source_title": "Miseria y violencia en El Coronel no tiene quien le escriba",
+        "locator": "article abstract, identifies Agustín as the colonel's dead son",
+        "evidence_note": "The work-specific scholarly abstract directly identifies Agustín in El coronel no tiene quien le escriba.",
+        "confidence": "high",
+        "evidence_status": "eligible_evidence",
+        "evidence_origin": "WCD05-CS04"
+      },
+      {
+        "evidence_id": "V1-EV-0364",
+        "relationship_id": "V1-REL-0327",
+        "origin_evidence_id": "WCD05-CS04-07",
+        "source_id": "SRC-0034",
+        "source_title": "Un relato sospechoso: Crónica de una muerte anunciada",
+        "locator": "work-specific article, analysis naming Santiago Nasar",
+        "evidence_note": "The work-specific scholarly source directly identifies Santiago Nasar in Crónica de una muerte anunciada.",
+        "confidence": "high",
+        "evidence_status": "eligible_evidence",
+        "evidence_origin": "WCD05-CS04"
+      },
+      {
+        "evidence_id": "V1-EV-0365",
+        "relationship_id": "V1-REL-0328",
+        "origin_evidence_id": "WCD05-CS04-08",
+        "source_id": "SRC-0041",
+        "source_title": "Alejo Carpentier, autor transcultural. El caso de \"El reino de este mundo\"",
+        "locator": "article full text, character discussion naming Mackandal",
+        "evidence_note": "The work-specific scholarly article directly discusses Mackandal as a character in El reino de este mundo.",
+        "confidence": "high",
+        "evidence_status": "eligible_evidence",
+        "evidence_origin": "WCD05-CS04"
+      },
+      {
+        "evidence_id": "V1-EV-0366",
+        "relationship_id": "V1-REL-0329",
+        "origin_evidence_id": "WCD05-CS04-09",
+        "source_id": "SRC-0041",
+        "source_title": "Alejo Carpentier, autor transcultural. El caso de \"El reino de este mundo\"",
+        "locator": "article full text, character discussion naming Henri Christophe",
+        "evidence_note": "The work-specific scholarly article directly discusses Henri Christophe as a character in El reino de este mundo.",
+        "confidence": "high",
+        "evidence_status": "eligible_evidence",
+        "evidence_origin": "WCD05-CS04"
+      },
+      {
+        "evidence_id": "V1-EV-0367",
+        "relationship_id": "V1-REL-0330",
+        "origin_evidence_id": "WCD05-CS04-10",
+        "source_id": "SRC-0046",
+        "source_title": "Canudos o la redención de los malditos: La guerra del fin del mundo, de Mario Vargas Llosa",
+        "locator": "work-specific article, analysis naming el Consejero",
+        "evidence_note": "The work-specific scholarly article directly discusses el Consejero as a character in La guerra del fin del mundo.",
+        "confidence": "high",
+        "evidence_status": "eligible_evidence",
+        "evidence_origin": "WCD05-CS04"
       }
     ],
     "relationship_sources": [
@@ -49713,6 +49841,46 @@
       {
         "relationship_id": "V1-REL-0320",
         "source_id": "SRC-0300"
+      },
+      {
+        "relationship_id": "V1-REL-0321",
+        "source_id": "SRC-0020"
+      },
+      {
+        "relationship_id": "V1-REL-0322",
+        "source_id": "SRC-0020"
+      },
+      {
+        "relationship_id": "V1-REL-0323",
+        "source_id": "SRC-0029"
+      },
+      {
+        "relationship_id": "V1-REL-0324",
+        "source_id": "SRC-0029"
+      },
+      {
+        "relationship_id": "V1-REL-0325",
+        "source_id": "SRC-0033"
+      },
+      {
+        "relationship_id": "V1-REL-0326",
+        "source_id": "SRC-0033"
+      },
+      {
+        "relationship_id": "V1-REL-0327",
+        "source_id": "SRC-0034"
+      },
+      {
+        "relationship_id": "V1-REL-0328",
+        "source_id": "SRC-0041"
+      },
+      {
+        "relationship_id": "V1-REL-0329",
+        "source_id": "SRC-0041"
+      },
+      {
+        "relationship_id": "V1-REL-0330",
+        "source_id": "SRC-0046"
       }
     ],
     "relationships": [
@@ -54166,6 +54334,146 @@
         "review_status": "accepted",
         "upstream_review_status": "CODEX-REVIEW-WCD05-PASS",
         "evidence_count": "2",
+        "issue_code": "NONE"
+      },
+      {
+        "relationship_id": "V1-REL-0321",
+        "origin_layer": "WCD-05",
+        "origin_relation_group_id": "WCD05-CS04-01",
+        "subject_id": "V1-ENT-0047",
+        "relation_type": "APPEARS_IN",
+        "object_id": "V1-ENT-0032",
+        "description_zh": "弗朗西斯科·罗萨斯是《未来的回忆》中的人物",
+        "confidence": "high",
+        "review_status": "accepted",
+        "upstream_review_status": "CODEX-REVIEW-WCD05-CS04-PASS",
+        "evidence_count": "1",
+        "issue_code": "NONE"
+      },
+      {
+        "relationship_id": "V1-REL-0322",
+        "origin_layer": "WCD-05",
+        "origin_relation_group_id": "WCD05-CS04-02",
+        "subject_id": "V1-ENT-0048",
+        "relation_type": "APPEARS_IN",
+        "object_id": "V1-ENT-0032",
+        "description_zh": "胡利娅·安德拉德是《未来的回忆》中的人物",
+        "confidence": "high",
+        "review_status": "accepted",
+        "upstream_review_status": "CODEX-REVIEW-WCD05-CS04-PASS",
+        "evidence_count": "1",
+        "issue_code": "NONE"
+      },
+      {
+        "relationship_id": "V1-REL-0323",
+        "origin_layer": "WCD-05",
+        "origin_relation_group_id": "WCD05-CS04-03",
+        "subject_id": "V1-ENT-0049",
+        "relation_type": "APPEARS_IN",
+        "object_id": "V1-ENT-0038",
+        "description_zh": "胡安·普雷西亚多是《佩德罗·巴拉莫》中的人物",
+        "confidence": "high",
+        "review_status": "accepted",
+        "upstream_review_status": "CODEX-REVIEW-WCD05-CS04-PASS",
+        "evidence_count": "1",
+        "issue_code": "NONE"
+      },
+      {
+        "relationship_id": "V1-REL-0324",
+        "origin_layer": "WCD-05",
+        "origin_relation_group_id": "WCD05-CS04-04",
+        "subject_id": "V1-ENT-0050",
+        "relation_type": "APPEARS_IN",
+        "object_id": "V1-ENT-0038",
+        "description_zh": "佩德罗·巴拉莫（人物）是《佩德罗·巴拉莫》中的人物",
+        "confidence": "high",
+        "review_status": "accepted",
+        "upstream_review_status": "CODEX-REVIEW-WCD05-CS04-PASS",
+        "evidence_count": "1",
+        "issue_code": "NONE"
+      },
+      {
+        "relationship_id": "V1-REL-0325",
+        "origin_layer": "WCD-05",
+        "origin_relation_group_id": "WCD05-CS04-05",
+        "subject_id": "V1-ENT-0091",
+        "relation_type": "APPEARS_IN",
+        "object_id": "V1-ENT-0076",
+        "description_zh": "上校是《没有人给他写信的上校》中的人物",
+        "confidence": "high",
+        "review_status": "accepted",
+        "upstream_review_status": "CODEX-REVIEW-WCD05-CS04-PASS",
+        "evidence_count": "1",
+        "issue_code": "NONE"
+      },
+      {
+        "relationship_id": "V1-REL-0326",
+        "origin_layer": "WCD-05",
+        "origin_relation_group_id": "WCD05-CS04-06",
+        "subject_id": "V1-ENT-0092",
+        "relation_type": "APPEARS_IN",
+        "object_id": "V1-ENT-0076",
+        "description_zh": "奥古斯丁是《没有人给他写信的上校》中的人物",
+        "confidence": "high",
+        "review_status": "accepted",
+        "upstream_review_status": "CODEX-REVIEW-WCD05-CS04-PASS",
+        "evidence_count": "1",
+        "issue_code": "NONE"
+      },
+      {
+        "relationship_id": "V1-REL-0327",
+        "origin_layer": "WCD-05",
+        "origin_relation_group_id": "WCD05-CS04-07",
+        "subject_id": "V1-ENT-0090",
+        "relation_type": "APPEARS_IN",
+        "object_id": "V1-ENT-0077",
+        "description_zh": "圣地亚哥·纳萨尔是《一桩事先张扬的凶杀案》中的人物",
+        "confidence": "high",
+        "review_status": "accepted",
+        "upstream_review_status": "CODEX-REVIEW-WCD05-CS04-PASS",
+        "evidence_count": "1",
+        "issue_code": "NONE"
+      },
+      {
+        "relationship_id": "V1-REL-0328",
+        "origin_layer": "WCD-05",
+        "origin_relation_group_id": "WCD05-CS04-08",
+        "subject_id": "V1-ENT-0093",
+        "relation_type": "APPEARS_IN",
+        "object_id": "V1-ENT-0079",
+        "description_zh": "马康达尔是《人间王国》中的人物",
+        "confidence": "high",
+        "review_status": "accepted",
+        "upstream_review_status": "CODEX-REVIEW-WCD05-CS04-PASS",
+        "evidence_count": "1",
+        "issue_code": "NONE"
+      },
+      {
+        "relationship_id": "V1-REL-0329",
+        "origin_layer": "WCD-05",
+        "origin_relation_group_id": "WCD05-CS04-09",
+        "subject_id": "V1-ENT-0094",
+        "relation_type": "APPEARS_IN",
+        "object_id": "V1-ENT-0079",
+        "description_zh": "亨利·克里斯托夫是《人间王国》中的人物",
+        "confidence": "high",
+        "review_status": "accepted",
+        "upstream_review_status": "CODEX-REVIEW-WCD05-CS04-PASS",
+        "evidence_count": "1",
+        "issue_code": "NONE"
+      },
+      {
+        "relationship_id": "V1-REL-0330",
+        "origin_layer": "WCD-05",
+        "origin_relation_group_id": "WCD05-CS04-10",
+        "subject_id": "V1-ENT-0141",
+        "relation_type": "APPEARS_IN",
+        "object_id": "V1-ENT-0118",
+        "description_zh": "劝世者是《世界末日之战》中的人物",
+        "confidence": "high",
+        "review_status": "accepted",
+        "upstream_review_status": "CODEX-REVIEW-WCD05-CS04-PASS",
+        "evidence_count": "1",
         "issue_code": "NONE"
       }
     ],

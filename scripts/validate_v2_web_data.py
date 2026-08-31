@@ -79,6 +79,7 @@ def main() -> int:
 
     research = payload["research"]
     entity_ids = {item["entity_id"] for item in research["entities"]}
+    entity_types = {item["entity_id"]: item["entity_type"] for item in research["entities"]}
     fact_ids = {item["fact_id"] for item in research["facts"]}
     relationship_ids = {item["relationship_id"] for item in research["relationships"]}
     relation_hold_ids = {item["relation_hold_id"] for item in research["relation_holds"]}
@@ -117,6 +118,11 @@ def main() -> int:
     for relation in research["relationships"]:
         if relation["subject_id"] not in entity_ids or relation["object_id"] not in entity_ids:
             fail(f"dangling research relationship: {relation['relationship_id']}")
+        if relation["relation_type"] == "APPEARS_IN" and (
+            entity_types[relation["subject_id"]] != "character"
+            or entity_types[relation["object_id"]] != "work"
+        ):
+            fail(f"invalid APPEARS_IN endpoints: {relation['relationship_id']}")
 
     for group in ("entries", "selections", "recommendations"):
         for item in payload["curation"][group] + payload["review_queue"][group]:

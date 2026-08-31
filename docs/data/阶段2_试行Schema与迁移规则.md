@@ -1,14 +1,14 @@
 # 阶段 2：试行 Schema 与迁移规则
 
-- 版本：`0.3`
-- 状态：N2 冻结后经 N3 用户批准完成加法兼容升级
+- 版本：`0.4`
+- 状态：N2 冻结后经 N3、WCD-05 用户批准完成加法兼容升级
 - 负责人：`CODEX-DATA`
 - 生效范围：V1 阶段 3—5 的研究、暂存、数据库与导出
-- 冻结节点：`V1-N2-001`（2026-08-10）；加法升级节点：`V1-N3-001`（2026-08-11）
+- 冻结节点：`V1-N2-001`（2026-08-10）；加法升级节点：`V1-N3-001`（2026-08-11）、`WCD-05 Character Schema Option A`（2026-08-31）
 
 ## 1. 目的
 
-本文件规定 V1 批量研究采用的实体分层、关系词、证据规则和迁移口径。N2 已通过；N3 按 V1-S4-A03-PROP-001 批准新增 `BASED_ON_EVENT`，其余实体层、关系词和既有数据不迁移。外部任务不得自行增加实体层或关系词；后续如需改变，仍须由 Codex形成兼容性提案并提交新的用户节点决定。
+本文件规定研究数据采用的实体分层、关系词、证据规则和迁移口径。N2 已通过；N3 按 V1-S4-A03-PROP-001 批准新增 `BASED_ON_EVENT`；WCD-05 按 USER 批准的 Character Schema Option A 新增 `APPEARS_IN`。两次均为加法兼容升级，既有关系与数据不迁移。外部任务不得自行增加实体层或关系词；后续如需改变，仍须由 Codex形成兼容性提案并提交新的用户节点决定。
 
 ## 2. 实体类型
 
@@ -47,13 +47,14 @@
 | `RESPONDS_TO_WORK` | work → work | 解释性判断 |
 | `INFLUENCED_BY` | author/work → author/work | 解释性判断 |
 | `BASED_ON_EVENT` | work → event | 历史题材/虚构化事实 |
+| `APPEARS_IN` | character → work | 人物在作品中出现的直接事实 |
 
 外部 AI 不得新增正式关系词。无法归类的内容写入 `ISSUES.md`，不使用 `PROPOSED:` 扩充词表。`CONTAINS_WORK` 同时承担作品集收录关系，不另设同义的 `COLLECTS_WORK`。
 
 ## 4. 证据与置信度
 
 1. 每条关系候选必须关联有效来源 ID 和准确来源题名；页码、章节和 locator 可空。
-2. `CREATED`、`CONTAINS_WORK`、`EDITION_OF`、`TRANSLATION_OF`、`ADAPTED_FROM` 等直接关系，可由一个明确、合格来源形成候选。`BASED_ON_EVENT` 必须至少有一个 A 级来源直接表达作品以该事件为题材、基础、重述或虚构化对象；只并置作品与事件的标题级材料不能单独建立关系。
+2. `CREATED`、`CONTAINS_WORK`、`EDITION_OF`、`TRANSLATION_OF`、`ADAPTED_FROM`、`APPEARS_IN` 等直接关系，可由一个明确、合格来源形成候选。`APPEARS_IN` 仅允许 `character → work`，来源必须直接识别该人物属于该作品；`key_character` 事实只能作 candidate seed，不得因字符串相同批量转关系。不得保存 inverse，也不得将该词扩展到 collection、place、character、adaptation 或 edition 客体。`BASED_ON_EVENT` 必须至少有一个 A 级来源直接表达作品以该事件为题材、基础、重述或虚构化对象；只并置作品与事件的标题级材料不能单独建立关系。
 3. `EXPLORES_THEME`、`RESPONDS_TO_WORK`、`INFLUENCED_BY`、`ASSOCIATED_WITH_MOVEMENT` 属解释性关系：
    - 只能由原作、A 级研究来源或明确作出该判断的合格来源支持；
    - 不得从标题、常识、关键词共现或 Worker 自己的阅读感受推断；

@@ -23,7 +23,7 @@
 3. `project/ai/外部AI任务分工与交接手册.md`
 4. 本文件
 
-历史阶段追溯材料位于 `docs/archive/v1-foundation/`，不得覆盖当前任务卡、Schema 0.3 或本手册。
+历史阶段追溯材料位于 `docs/archive/v1-foundation/`，不得覆盖当前任务卡、Schema 0.4 或本手册。
 
 ## 必须交付
 

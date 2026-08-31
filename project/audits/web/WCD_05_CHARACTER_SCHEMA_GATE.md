@@ -1,28 +1,28 @@
 # WCD-05 Character Relationship Schema Gate
 
-Status: **USER_REVIEW**
+Status: **DONE / USER APPROVED OPTION A**
 Date: 2026-08-31
-Current schema: Research Relationship Schema 0.3
+Current schema: Research Relationship Schema 0.4
 
-## Decision requested
+## Decision
 
-Approve or reject the minimal Option A extension:
+USER approved the minimal Option A extension:
 
 ```text
 APPEARS_IN
 character -> work
 ```
 
-WCD-05 recommends Option A, but does **not** implement it without an explicit USER
-decision. Character coverage therefore remains 0/10 in this delivery.
+The implementation is additive and complete. Character coverage is 10/10 after
+independent row-level review and append-only migration `0034`.
 
-## Current limitation
+## Pre-decision limitation
 
-Schema 0.3 defines 13 relation types but no legal character endpoint. The master has
+Schema 0.3 defined 13 relation types but no legal character endpoint. The master had
 10 character entities and 15 `key_character` facts across 15 work subjects. Six of
 those fact rows contain the names represented by all 10 existing character entities.
-Those facts are candidate evidence, not relationships, and cannot be projected as a
-network edge under the current schema.
+Those facts were candidate evidence, not relationships, and could not be projected as
+a network edge under Schema 0.3.
 
 ## Options
 
@@ -60,52 +60,53 @@ fictional-space membership. The external proposal does not establish stable name
 directions, endpoint rules, or evidence thresholds for those semantics. Alternative B
 is therefore deferred, not rejected permanently.
 
-## Migration impact if approved later
+## Implemented migration impact
 
-Approval would require a separate CS04 after this gate:
+The approved option was implemented through CS04:
 
-1. update the frozen-at-version relation schema through a new Decision Record;
-2. update endpoint and relation-type validators;
-3. add an append-only migration after the then-current migration head;
-4. convert only verified existing character/work pairs into candidates;
-5. run a fresh independent review before assigning formal relationship IDs;
-6. rebuild Research exports and Web Data;
-7. test duplicate triples, invalid endpoints, missing endpoints, and deterministic
-   projection.
-
-No schema SQL or speculative CS04 migration is included in WCD-05.
+1. DEC-050 records the USER decision and Schema 0.4 boundary;
+2. master and Web validators accept `APPEARS_IN` only for `character -> work`;
+3. CS04 separates all 10 candidates and validates formal fact-source linkage;
+4. fresh-context `CODEX-REVIEW-WCD05-CS04` returned 10/10 `PASS`;
+5. `0034_wcd05_character_relations.sql` adds `V1-REL-0321`—`0330` and one
+   direct evidence row for each relation;
+6. Research exports and Web Data were deterministically rebuilt;
+7. regression tests reject non-character subjects and collection, place, character,
+   adaptation, or edition objects.
 
 ## Web impact and backward compatibility
 
-Option A is additive. Current consumers already ignore unsupported relation types and
-filter relationships whose endpoints are unavailable to a view, so existing public
-pages remain compatible. A later Web Data version could expose character-to-work
-edges in the research layer without generating reader-facing prose. Older clients
-would continue to consume all existing 0.3 relations.
-
-No-change is also technically safe, but leaves all 10 character entities zero-degree
-and prevents the relationship network from representing a basic factual connection.
+Option A is additive. Current consumers ignore unsupported relation types and filter
+relationships whose endpoints are unavailable to a view, so existing public pages
+remain compatible. Web Data now exposes character-to-work edges only in the research
+layer; it does not generate reader-facing prose, routes, search entities, or Curation
+approval. Older clients continue to consume all existing 0.3 relations.
 
 ## Conversion feasibility
 
 The six matching `key_character` fact rows cover all 10 existing character entities:
 
-- 《阿尔特米奥·克罗斯之死》: 弗朗西斯科·罗萨斯、胡利娅·安德拉德
+- 《未来的回忆》: 弗朗西斯科·罗萨斯、胡利娅·安德拉德
 - 《佩德罗·巴拉莫》: 胡安·普雷西亚多、佩德罗·巴拉莫
 - 《没有人给他写信的上校》: 上校、奥古斯丁
 - 《一桩事先张扬的凶杀案》: 圣地亚哥·纳萨尔
 - 《人间王国》: 马康达尔、亨利·克里斯托夫
 - 《世界末日之战》: 劝世者
 
-Feasibility is high, but conversion remains conditional on source-link validation and
-independent review after USER approval.
+The initial proposed mapping of the first two characters to
+《阿尔特米奥·克罗斯之死》 was rejected. `V1-FCT-0079`, `SRC-0020`, and the
+ELEM work record directly place both characters in 《未来的回忆》. All 10 corrected
+candidates passed source-link validation and independent review; no name-only mapping
+was migrated.
 
 ## Gate result
 
 ```text
-Recommendation: APPROVE OPTION A
-USER decision: PENDING
-Implemented: NO
-WCD-05: USER_REVIEW
-WCD-06: LOCKED
+USER decision: OPTION A APPROVED
+Implemented: YES / Schema 0.4 / migration 0034
+Character coverage: 10/10
+WCD-05: DONE
+WCD-06: READY / NOT STARTED
+WCD-07: LOCKED
+Public Release: PAUSED BY USER
 ```

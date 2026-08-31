@@ -7,11 +7,11 @@
     "entities": 371,
     "facts": 998,
     "gaps": 24,
-    "place_relations": 91,
+    "place_relations": 93,
     "places": 38,
     "relation_holds": 51,
-    "relationships": 306,
-    "sources": 288
+    "relationships": 318,
+    "sources": 298
   },
   "curation": {
     "entries": [
@@ -2079,7 +2079,7 @@
     "geo_data": "data/v2/geo",
     "research_database": "data/master/V1_MASTER.sqlite"
   },
-  "generated_at": "2026-08-27T12:00:00Z",
+  "generated_at": "2026-08-31T00:00:00+00:00",
   "map": {
     "places": [
       {
@@ -3039,6 +3039,21 @@
             "target_name_zh": "哥伦比亚",
             "target_place_id": "V1-ENT-0095",
             "v1_relationship_id": "V1-REL-0055"
+          },
+          {
+            "confidence": "high",
+            "description_zh": "《霍乱时期的爱情》的主要故事空间位于哥伦比亚加勒比地区",
+            "map_relation_role": "story_setting",
+            "relation_id": "V2-GEO-REL-093",
+            "relation_type": "SET_IN",
+            "review_status": "accepted",
+            "source_entity_id": "V1-ENT-0158",
+            "source_name_zh": "《霍乱时期的爱情》",
+            "source_reference": "V1-REL-0309",
+            "space_kind": "real",
+            "target_name_zh": "哥伦比亚",
+            "target_place_id": "V1-ENT-0095",
+            "v1_relationship_id": "V1-REL-0309"
           }
         ],
         "longitude": null,
@@ -3538,6 +3553,21 @@
             "target_name_zh": "秘鲁",
             "target_place_id": "V1-ENT-0124",
             "v1_relationship_id": "V1-REL-0269"
+          },
+          {
+            "confidence": "high",
+            "description_zh": "《绿房子》的两组主要场景位于秘鲁的皮乌拉与亚马孙地区",
+            "map_relation_role": "story_setting",
+            "relation_id": "V2-GEO-REL-094",
+            "relation_type": "SET_IN",
+            "review_status": "accepted",
+            "source_entity_id": "V1-ENT-0160",
+            "source_name_zh": "《绿房子》",
+            "source_reference": "V1-REL-0310",
+            "space_kind": "real",
+            "target_name_zh": "秘鲁",
+            "target_place_id": "V1-ENT-0124",
+            "v1_relationship_id": "V1-REL-0310"
           }
         ],
         "longitude": null,
@@ -6024,6 +6054,36 @@
         "target_name_zh": "古巴",
         "target_place_id": "V1-ENT-0096",
         "v1_relationship_id": "V1-REL-0308"
+      },
+      {
+        "confidence": "high",
+        "description_zh": "《霍乱时期的爱情》的主要故事空间位于哥伦比亚加勒比地区",
+        "map_relation_role": "story_setting",
+        "relation_id": "V2-GEO-REL-093",
+        "relation_type": "SET_IN",
+        "review_status": "accepted",
+        "source_entity_id": "V1-ENT-0158",
+        "source_name_zh": "《霍乱时期的爱情》",
+        "source_reference": "V1-REL-0309",
+        "space_kind": "real",
+        "target_name_zh": "哥伦比亚",
+        "target_place_id": "V1-ENT-0095",
+        "v1_relationship_id": "V1-REL-0309"
+      },
+      {
+        "confidence": "high",
+        "description_zh": "《绿房子》的两组主要场景位于秘鲁的皮乌拉与亚马孙地区",
+        "map_relation_role": "story_setting",
+        "relation_id": "V2-GEO-REL-094",
+        "relation_type": "SET_IN",
+        "review_status": "accepted",
+        "source_entity_id": "V1-ENT-0160",
+        "source_name_zh": "《绿房子》",
+        "source_reference": "V1-REL-0310",
+        "space_kind": "real",
+        "target_name_zh": "秘鲁",
+        "target_place_id": "V1-ENT-0124",
+        "v1_relationship_id": "V1-REL-0310"
       }
     ]
   },
@@ -6250,6 +6310,62 @@
             "review_status": "accepted",
             "subject_id": "V1-ENT-0002",
             "upstream_review_status": "WEB-CE-B01"
+          },
+          {
+            "confidence": "high",
+            "description_zh": "叔本华的哲学构成博尔赫斯长期阅读与思想参照之一",
+            "evidence_count": "2",
+            "issue_code": "NONE",
+            "object_id": "V1-ENT-0005",
+            "origin_layer": "WCD-05",
+            "origin_relation_group_id": "WCD05-CS02-01",
+            "relation_type": "INFLUENCED_BY",
+            "relationship_id": "V1-REL-0311",
+            "review_status": "accepted",
+            "subject_id": "V1-ENT-0002",
+            "upstream_review_status": "CODEX-REVIEW-WCD05-PASS"
+          },
+          {
+            "confidence": "high",
+            "description_zh": "卡夫卡的作品持续影响博尔赫斯的阅读、翻译与创作思考",
+            "evidence_count": "2",
+            "issue_code": "NONE",
+            "object_id": "V1-ENT-0006",
+            "origin_layer": "WCD-05",
+            "origin_relation_group_id": "WCD05-CS02-02",
+            "relation_type": "INFLUENCED_BY",
+            "relationship_id": "V1-REL-0312",
+            "review_status": "accepted",
+            "subject_id": "V1-ENT-0002",
+            "upstream_review_status": "CODEX-REVIEW-WCD05-PASS"
+          },
+          {
+            "confidence": "high",
+            "description_zh": "切斯特顿对博尔赫斯的侦探叙事与小说观形成显著影响",
+            "evidence_count": "2",
+            "issue_code": "NONE",
+            "object_id": "V1-ENT-0007",
+            "origin_layer": "WCD-05",
+            "origin_relation_group_id": "WCD05-CS02-03",
+            "relation_type": "INFLUENCED_BY",
+            "relationship_id": "V1-REL-0313",
+            "review_status": "accepted",
+            "subject_id": "V1-ENT-0002",
+            "upstream_review_status": "CODEX-REVIEW-WCD05-PASS"
+          },
+          {
+            "confidence": "high",
+            "description_zh": "博尔赫斯在1919至1921年间参与并传播西语极端主义（ultraísmo）运动",
+            "evidence_count": "2",
+            "issue_code": "NONE",
+            "object_id": "V1-ENT-0010",
+            "origin_layer": "WCD-05",
+            "origin_relation_group_id": "WCD05-CS03-01",
+            "relation_type": "ASSOCIATED_WITH_MOVEMENT",
+            "relationship_id": "V1-REL-0314",
+            "review_status": "accepted",
+            "subject_id": "V1-ENT-0002",
+            "upstream_review_status": "CODEX-REVIEW-WCD05-PASS"
           }
         ]
       },
@@ -6259,7 +6375,22 @@
         "entity_id": "V1-ENT-0005",
         "entity_type": "author",
         "facts": [],
-        "incoming_relations": [],
+        "incoming_relations": [
+          {
+            "confidence": "high",
+            "description_zh": "叔本华的哲学构成博尔赫斯长期阅读与思想参照之一",
+            "evidence_count": "2",
+            "issue_code": "NONE",
+            "object_id": "V1-ENT-0005",
+            "origin_layer": "WCD-05",
+            "origin_relation_group_id": "WCD05-CS02-01",
+            "relation_type": "INFLUENCED_BY",
+            "relationship_id": "V1-REL-0311",
+            "review_status": "accepted",
+            "subject_id": "V1-ENT-0002",
+            "upstream_review_status": "CODEX-REVIEW-WCD05-PASS"
+          }
+        ],
         "issue_codes": "NONE",
         "name_zh": "阿图尔·叔本华",
         "normalization_basis": "N2 暂存已通过实体层（ENTITY_ID_MAP）",
@@ -6274,7 +6405,22 @@
         "entity_id": "V1-ENT-0006",
         "entity_type": "author",
         "facts": [],
-        "incoming_relations": [],
+        "incoming_relations": [
+          {
+            "confidence": "high",
+            "description_zh": "卡夫卡的作品持续影响博尔赫斯的阅读、翻译与创作思考",
+            "evidence_count": "2",
+            "issue_code": "NONE",
+            "object_id": "V1-ENT-0006",
+            "origin_layer": "WCD-05",
+            "origin_relation_group_id": "WCD05-CS02-02",
+            "relation_type": "INFLUENCED_BY",
+            "relationship_id": "V1-REL-0312",
+            "review_status": "accepted",
+            "subject_id": "V1-ENT-0002",
+            "upstream_review_status": "CODEX-REVIEW-WCD05-PASS"
+          }
+        ],
         "issue_codes": "NONE",
         "name_zh": "弗兰茨·卡夫卡",
         "normalization_basis": "N2 暂存已通过实体层（ENTITY_ID_MAP）",
@@ -6289,7 +6435,22 @@
         "entity_id": "V1-ENT-0007",
         "entity_type": "author",
         "facts": [],
-        "incoming_relations": [],
+        "incoming_relations": [
+          {
+            "confidence": "high",
+            "description_zh": "切斯特顿对博尔赫斯的侦探叙事与小说观形成显著影响",
+            "evidence_count": "2",
+            "issue_code": "NONE",
+            "object_id": "V1-ENT-0007",
+            "origin_layer": "WCD-05",
+            "origin_relation_group_id": "WCD05-CS02-03",
+            "relation_type": "INFLUENCED_BY",
+            "relationship_id": "V1-REL-0313",
+            "review_status": "accepted",
+            "subject_id": "V1-ENT-0002",
+            "upstream_review_status": "CODEX-REVIEW-WCD05-PASS"
+          }
+        ],
         "issue_codes": "NONE",
         "name_zh": "吉尔伯特·基思·切斯特顿",
         "normalization_basis": "N2 暂存已通过实体层（ENTITY_ID_MAP）",
@@ -7342,6 +7503,20 @@
             "review_status": "accepted",
             "subject_id": "V1-ENT-0059",
             "upstream_review_status": "WEB-CE-B01"
+          },
+          {
+            "confidence": "high",
+            "description_zh": "帕斯曾直接参与以超现实主义为代表的先锋派文学活动",
+            "evidence_count": "2",
+            "issue_code": "NONE",
+            "object_id": "V1-ENT-0132",
+            "origin_layer": "WCD-05",
+            "origin_relation_group_id": "WCD05-CS03-07",
+            "relation_type": "ASSOCIATED_WITH_MOVEMENT",
+            "relationship_id": "V1-REL-0320",
+            "review_status": "accepted",
+            "subject_id": "V1-ENT-0059",
+            "upstream_review_status": "CODEX-REVIEW-WCD05-PASS"
           }
         ]
       },
@@ -7606,6 +7781,20 @@
             "review_status": "accepted",
             "subject_id": "V1-ENT-0072",
             "upstream_review_status": "WEB-CE-B01"
+          },
+          {
+            "confidence": "high",
+            "description_zh": "加西亚·马尔克斯是魔幻现实主义最具代表性的作家之一",
+            "evidence_count": "2",
+            "issue_code": "NONE",
+            "object_id": "V1-ENT-0099",
+            "origin_layer": "WCD-05",
+            "origin_relation_group_id": "WCD05-CS03-02",
+            "relation_type": "ASSOCIATED_WITH_MOVEMENT",
+            "relationship_id": "V1-REL-0315",
+            "review_status": "accepted",
+            "subject_id": "V1-ENT-0072",
+            "upstream_review_status": "CODEX-REVIEW-WCD05-PASS"
           }
         ]
       },
@@ -8026,6 +8215,20 @@
             "review_status": "accepted",
             "subject_id": "V1-ENT-0074",
             "upstream_review_status": "WEB-CE-B01"
+          },
+          {
+            "confidence": "high",
+            "description_zh": "卡彭铁尔提出并发展“神奇现实”（lo real maravilloso）的美洲文学表达",
+            "evidence_count": "2",
+            "issue_code": "NONE",
+            "object_id": "V1-ENT-0100",
+            "origin_layer": "WCD-05",
+            "origin_relation_group_id": "WCD05-CS03-03",
+            "relation_type": "ASSOCIATED_WITH_MOVEMENT",
+            "relationship_id": "V1-REL-0316",
+            "review_status": "accepted",
+            "subject_id": "V1-ENT-0074",
+            "upstream_review_status": "CODEX-REVIEW-WCD05-PASS"
           }
         ]
       },
@@ -8581,6 +8784,20 @@
             "review_status": "accepted",
             "subject_id": "V1-ENT-0115",
             "upstream_review_status": "WEB-CE-B01"
+          },
+          {
+            "confidence": "high",
+            "description_zh": "聂鲁达的早期诗歌创作与西语现代主义传统存在明确关联",
+            "evidence_count": "2",
+            "issue_code": "NONE",
+            "object_id": "V1-ENT-0131",
+            "origin_layer": "WCD-05",
+            "origin_relation_group_id": "WCD05-CS03-06",
+            "relation_type": "ASSOCIATED_WITH_MOVEMENT",
+            "relationship_id": "V1-REL-0319",
+            "review_status": "accepted",
+            "subject_id": "V1-ENT-0115",
+            "upstream_review_status": "CODEX-REVIEW-WCD05-PASS"
           }
         ]
       },
@@ -17277,6 +17494,21 @@
             "target_name_zh": "哥伦比亚",
             "target_place_id": "V1-ENT-0095",
             "v1_relationship_id": "V1-REL-0055"
+          },
+          {
+            "confidence": "high",
+            "description_zh": "《霍乱时期的爱情》的主要故事空间位于哥伦比亚加勒比地区",
+            "map_relation_role": "story_setting",
+            "relation_id": "V2-GEO-REL-093",
+            "relation_type": "SET_IN",
+            "review_status": "accepted",
+            "source_entity_id": "V1-ENT-0158",
+            "source_name_zh": "《霍乱时期的爱情》",
+            "source_reference": "V1-REL-0309",
+            "space_kind": "real",
+            "target_name_zh": "哥伦比亚",
+            "target_place_id": "V1-ENT-0095",
+            "v1_relationship_id": "V1-REL-0309"
           }
         ],
         "longitude": null,
@@ -17776,6 +18008,21 @@
             "target_name_zh": "秘鲁",
             "target_place_id": "V1-ENT-0124",
             "v1_relationship_id": "V1-REL-0269"
+          },
+          {
+            "confidence": "high",
+            "description_zh": "《绿房子》的两组主要场景位于秘鲁的皮乌拉与亚马孙地区",
+            "map_relation_role": "story_setting",
+            "relation_id": "V2-GEO-REL-094",
+            "relation_type": "SET_IN",
+            "review_status": "accepted",
+            "source_entity_id": "V1-ENT-0160",
+            "source_name_zh": "《绿房子》",
+            "source_reference": "V1-REL-0310",
+            "space_kind": "real",
+            "target_name_zh": "秘鲁",
+            "target_place_id": "V1-ENT-0124",
+            "v1_relationship_id": "V1-REL-0310"
           }
         ],
         "longitude": null,
@@ -21668,6 +21915,20 @@
             "review_status": "accepted",
             "subject_id": "V1-ENT-0078",
             "upstream_review_status": "WCD02-REVIEW-PASS"
+          },
+          {
+            "confidence": "high",
+            "description_zh": "《跳房子》的可组合结构要求读者主动参与并挑战传统线性叙事",
+            "evidence_count": "2",
+            "issue_code": "NONE",
+            "object_id": "V1-ENT-0105",
+            "origin_layer": "WCD-05",
+            "origin_relation_group_id": "WCD05-CS03-04",
+            "relation_type": "EXPLORES_THEME",
+            "relationship_id": "V1-REL-0317",
+            "review_status": "accepted",
+            "subject_id": "V1-ENT-0078",
+            "upstream_review_status": "CODEX-REVIEW-WCD05-PASS"
           }
         ]
       },
@@ -21783,7 +22044,22 @@
         "origin_count": "1",
         "origin_refs": "B02-ENT-0008",
         "original_name": "El reino de este mundo",
-        "outgoing_relations": []
+        "outgoing_relations": [
+          {
+            "confidence": "high",
+            "description_zh": "《人间王国》通过跨文化人物与“神奇现实”表达复合的美洲身份",
+            "evidence_count": "2",
+            "issue_code": "NONE",
+            "object_id": "V1-ENT-0108",
+            "origin_layer": "WCD-05",
+            "origin_relation_group_id": "WCD05-CS03-05",
+            "relation_type": "EXPLORES_THEME",
+            "relationship_id": "V1-REL-0318",
+            "review_status": "accepted",
+            "subject_id": "V1-ENT-0079",
+            "upstream_review_status": "CODEX-REVIEW-WCD05-PASS"
+          }
+        ]
       },
       {
         "canonical_status": "retained",
@@ -24207,7 +24483,22 @@
         "origin_count": "2",
         "origin_refs": "CAND-D-SRC-03;CAND-D-SRC-14",
         "original_name": "El amor en los tiempos del cólera",
-        "outgoing_relations": []
+        "outgoing_relations": [
+          {
+            "confidence": "high",
+            "description_zh": "《霍乱时期的爱情》的主要故事空间位于哥伦比亚加勒比地区",
+            "evidence_count": "2",
+            "issue_code": "NONE",
+            "object_id": "V1-ENT-0095",
+            "origin_layer": "WCD-05",
+            "origin_relation_group_id": "WCD05-CS01-01",
+            "relation_type": "SET_IN",
+            "relationship_id": "V1-REL-0309",
+            "review_status": "accepted",
+            "subject_id": "V1-ENT-0158",
+            "upstream_review_status": "CODEX-REVIEW-WCD05-PASS"
+          }
+        ]
       },
       {
         "canonical_status": "candidate",
@@ -24357,7 +24648,22 @@
         "origin_count": "2",
         "origin_refs": "CAND-D-SRC-06;CAND-D-SRC-16",
         "original_name": "La casa verde",
-        "outgoing_relations": []
+        "outgoing_relations": [
+          {
+            "confidence": "high",
+            "description_zh": "《绿房子》的两组主要场景位于秘鲁的皮乌拉与亚马孙地区",
+            "evidence_count": "1",
+            "issue_code": "NONE",
+            "object_id": "V1-ENT-0124",
+            "origin_layer": "WCD-05",
+            "origin_relation_group_id": "WCD05-CS01-02",
+            "relation_type": "SET_IN",
+            "relationship_id": "V1-REL-0310",
+            "review_status": "accepted",
+            "subject_id": "V1-ENT-0160",
+            "upstream_review_status": "CODEX-REVIEW-WCD05-PASS"
+          }
+        ]
       },
       {
         "canonical_status": "candidate",
@@ -38254,6 +38560,19 @@
         },
         {
           "factors": {
+            "author_recognition": 8,
+            "bibliographic_completeness": 12,
+            "literary_connections": 4,
+            "reader_content_depth": 24,
+            "reading_guidance": 8,
+            "reading_path": 12
+          },
+          "rank": 6,
+          "score": 68,
+          "target_id": "V1-ENT-0078"
+        },
+        {
+          "factors": {
             "author_recognition": 10,
             "bibliographic_completeness": 12,
             "literary_connections": 2,
@@ -38261,7 +38580,20 @@
             "reading_guidance": 8,
             "reading_path": 12
           },
-          "rank": 6,
+          "rank": 7,
+          "score": 68,
+          "target_id": "V1-ENT-0079"
+        },
+        {
+          "factors": {
+            "author_recognition": 10,
+            "bibliographic_completeness": 12,
+            "literary_connections": 2,
+            "reader_content_depth": 24,
+            "reading_guidance": 8,
+            "reading_path": 12
+          },
+          "rank": 8,
           "score": 68,
           "target_id": "V1-ENT-0081"
         },
@@ -38274,7 +38606,7 @@
             "reading_guidance": 8,
             "reading_path": 12
           },
-          "rank": 7,
+          "rank": 9,
           "score": 67,
           "target_id": "V1-ENT-0032"
         },
@@ -38287,7 +38619,7 @@
             "reading_guidance": 8,
             "reading_path": 12
           },
-          "rank": 8,
+          "rank": 10,
           "score": 67,
           "target_id": "V1-ENT-0035"
         },
@@ -38300,35 +38632,9 @@
             "reading_guidance": 8,
             "reading_path": 12
           },
-          "rank": 9,
-          "score": 67,
-          "target_id": "V1-ENT-0038"
-        },
-        {
-          "factors": {
-            "author_recognition": 8,
-            "bibliographic_completeness": 12,
-            "literary_connections": 3,
-            "reader_content_depth": 24,
-            "reading_guidance": 8,
-            "reading_path": 12
-          },
-          "rank": 10,
-          "score": 67,
-          "target_id": "V1-ENT-0078"
-        },
-        {
-          "factors": {
-            "author_recognition": 10,
-            "bibliographic_completeness": 12,
-            "literary_connections": 1,
-            "reader_content_depth": 24,
-            "reading_guidance": 8,
-            "reading_path": 12
-          },
           "rank": 11,
           "score": 67,
-          "target_id": "V1-ENT-0079"
+          "target_id": "V1-ENT-0038"
         },
         {
           "factors": {
@@ -39792,7 +40098,7 @@
       }
     ]
   },
-  "product_version": "0.3.1",
+  "product_version": "0.3.2",
   "public_content": {
     "authors": [
       {
@@ -83606,7 +83912,14 @@
       "V1-ENT-0213"
     ],
     "nodes": [
+      "V1-ENT-0010",
       "V1-ENT-0025",
+      "V1-ENT-0099",
+      "V1-ENT-0100",
+      "V1-ENT-0105",
+      "V1-ENT-0108",
+      "V1-ENT-0131",
+      "V1-ENT-0132",
       "V1-ENT-0137"
     ],
     "places": [
@@ -95249,6 +95562,62 @@
             "review_status": "accepted",
             "subject_id": "V1-ENT-0002",
             "upstream_review_status": "WEB-CE-B01"
+          },
+          {
+            "confidence": "high",
+            "description_zh": "叔本华的哲学构成博尔赫斯长期阅读与思想参照之一",
+            "evidence_count": "2",
+            "issue_code": "NONE",
+            "object_id": "V1-ENT-0005",
+            "origin_layer": "WCD-05",
+            "origin_relation_group_id": "WCD05-CS02-01",
+            "relation_type": "INFLUENCED_BY",
+            "relationship_id": "V1-REL-0311",
+            "review_status": "accepted",
+            "subject_id": "V1-ENT-0002",
+            "upstream_review_status": "CODEX-REVIEW-WCD05-PASS"
+          },
+          {
+            "confidence": "high",
+            "description_zh": "卡夫卡的作品持续影响博尔赫斯的阅读、翻译与创作思考",
+            "evidence_count": "2",
+            "issue_code": "NONE",
+            "object_id": "V1-ENT-0006",
+            "origin_layer": "WCD-05",
+            "origin_relation_group_id": "WCD05-CS02-02",
+            "relation_type": "INFLUENCED_BY",
+            "relationship_id": "V1-REL-0312",
+            "review_status": "accepted",
+            "subject_id": "V1-ENT-0002",
+            "upstream_review_status": "CODEX-REVIEW-WCD05-PASS"
+          },
+          {
+            "confidence": "high",
+            "description_zh": "切斯特顿对博尔赫斯的侦探叙事与小说观形成显著影响",
+            "evidence_count": "2",
+            "issue_code": "NONE",
+            "object_id": "V1-ENT-0007",
+            "origin_layer": "WCD-05",
+            "origin_relation_group_id": "WCD05-CS02-03",
+            "relation_type": "INFLUENCED_BY",
+            "relationship_id": "V1-REL-0313",
+            "review_status": "accepted",
+            "subject_id": "V1-ENT-0002",
+            "upstream_review_status": "CODEX-REVIEW-WCD05-PASS"
+          },
+          {
+            "confidence": "high",
+            "description_zh": "博尔赫斯在1919至1921年间参与并传播西语极端主义（ultraísmo）运动",
+            "evidence_count": "2",
+            "issue_code": "NONE",
+            "object_id": "V1-ENT-0010",
+            "origin_layer": "WCD-05",
+            "origin_relation_group_id": "WCD05-CS03-01",
+            "relation_type": "ASSOCIATED_WITH_MOVEMENT",
+            "relationship_id": "V1-REL-0314",
+            "review_status": "accepted",
+            "subject_id": "V1-ENT-0002",
+            "upstream_review_status": "CODEX-REVIEW-WCD05-PASS"
           }
         ]
       },
@@ -95568,7 +95937,22 @@
         "entity_id": "V1-ENT-0005",
         "entity_type": "author",
         "facts": [],
-        "incoming_relations": [],
+        "incoming_relations": [
+          {
+            "confidence": "high",
+            "description_zh": "叔本华的哲学构成博尔赫斯长期阅读与思想参照之一",
+            "evidence_count": "2",
+            "issue_code": "NONE",
+            "object_id": "V1-ENT-0005",
+            "origin_layer": "WCD-05",
+            "origin_relation_group_id": "WCD05-CS02-01",
+            "relation_type": "INFLUENCED_BY",
+            "relationship_id": "V1-REL-0311",
+            "review_status": "accepted",
+            "subject_id": "V1-ENT-0002",
+            "upstream_review_status": "CODEX-REVIEW-WCD05-PASS"
+          }
+        ],
         "issue_codes": "NONE",
         "name_zh": "阿图尔·叔本华",
         "normalization_basis": "N2 暂存已通过实体层（ENTITY_ID_MAP）",
@@ -95583,7 +95967,22 @@
         "entity_id": "V1-ENT-0006",
         "entity_type": "author",
         "facts": [],
-        "incoming_relations": [],
+        "incoming_relations": [
+          {
+            "confidence": "high",
+            "description_zh": "卡夫卡的作品持续影响博尔赫斯的阅读、翻译与创作思考",
+            "evidence_count": "2",
+            "issue_code": "NONE",
+            "object_id": "V1-ENT-0006",
+            "origin_layer": "WCD-05",
+            "origin_relation_group_id": "WCD05-CS02-02",
+            "relation_type": "INFLUENCED_BY",
+            "relationship_id": "V1-REL-0312",
+            "review_status": "accepted",
+            "subject_id": "V1-ENT-0002",
+            "upstream_review_status": "CODEX-REVIEW-WCD05-PASS"
+          }
+        ],
         "issue_codes": "NONE",
         "name_zh": "弗兰茨·卡夫卡",
         "normalization_basis": "N2 暂存已通过实体层（ENTITY_ID_MAP）",
@@ -95598,7 +95997,22 @@
         "entity_id": "V1-ENT-0007",
         "entity_type": "author",
         "facts": [],
-        "incoming_relations": [],
+        "incoming_relations": [
+          {
+            "confidence": "high",
+            "description_zh": "切斯特顿对博尔赫斯的侦探叙事与小说观形成显著影响",
+            "evidence_count": "2",
+            "issue_code": "NONE",
+            "object_id": "V1-ENT-0007",
+            "origin_layer": "WCD-05",
+            "origin_relation_group_id": "WCD05-CS02-03",
+            "relation_type": "INFLUENCED_BY",
+            "relationship_id": "V1-REL-0313",
+            "review_status": "accepted",
+            "subject_id": "V1-ENT-0002",
+            "upstream_review_status": "CODEX-REVIEW-WCD05-PASS"
+          }
+        ],
         "issue_codes": "NONE",
         "name_zh": "吉尔伯特·基思·切斯特顿",
         "normalization_basis": "N2 暂存已通过实体层（ENTITY_ID_MAP）",
@@ -98792,6 +99206,20 @@
             "review_status": "accepted",
             "subject_id": "V1-ENT-0059",
             "upstream_review_status": "WEB-CE-B01"
+          },
+          {
+            "confidence": "high",
+            "description_zh": "帕斯曾直接参与以超现实主义为代表的先锋派文学活动",
+            "evidence_count": "2",
+            "issue_code": "NONE",
+            "object_id": "V1-ENT-0132",
+            "origin_layer": "WCD-05",
+            "origin_relation_group_id": "WCD05-CS03-07",
+            "relation_type": "ASSOCIATED_WITH_MOVEMENT",
+            "relationship_id": "V1-REL-0320",
+            "review_status": "accepted",
+            "subject_id": "V1-ENT-0059",
+            "upstream_review_status": "CODEX-REVIEW-WCD05-PASS"
           }
         ]
       },
@@ -99210,6 +99638,20 @@
             "review_status": "accepted",
             "subject_id": "V1-ENT-0072",
             "upstream_review_status": "WEB-CE-B01"
+          },
+          {
+            "confidence": "high",
+            "description_zh": "加西亚·马尔克斯是魔幻现实主义最具代表性的作家之一",
+            "evidence_count": "2",
+            "issue_code": "NONE",
+            "object_id": "V1-ENT-0099",
+            "origin_layer": "WCD-05",
+            "origin_relation_group_id": "WCD05-CS03-02",
+            "relation_type": "ASSOCIATED_WITH_MOVEMENT",
+            "relationship_id": "V1-REL-0315",
+            "review_status": "accepted",
+            "subject_id": "V1-ENT-0072",
+            "upstream_review_status": "CODEX-REVIEW-WCD05-PASS"
           }
         ]
       },
@@ -99630,6 +100072,20 @@
             "review_status": "accepted",
             "subject_id": "V1-ENT-0074",
             "upstream_review_status": "WEB-CE-B01"
+          },
+          {
+            "confidence": "high",
+            "description_zh": "卡彭铁尔提出并发展“神奇现实”（lo real maravilloso）的美洲文学表达",
+            "evidence_count": "2",
+            "issue_code": "NONE",
+            "object_id": "V1-ENT-0100",
+            "origin_layer": "WCD-05",
+            "origin_relation_group_id": "WCD05-CS03-03",
+            "relation_type": "ASSOCIATED_WITH_MOVEMENT",
+            "relationship_id": "V1-REL-0316",
+            "review_status": "accepted",
+            "subject_id": "V1-ENT-0074",
+            "upstream_review_status": "CODEX-REVIEW-WCD05-PASS"
           }
         ]
       },
@@ -100260,6 +100716,20 @@
             "review_status": "accepted",
             "subject_id": "V1-ENT-0078",
             "upstream_review_status": "WCD02-REVIEW-PASS"
+          },
+          {
+            "confidence": "high",
+            "description_zh": "《跳房子》的可组合结构要求读者主动参与并挑战传统线性叙事",
+            "evidence_count": "2",
+            "issue_code": "NONE",
+            "object_id": "V1-ENT-0105",
+            "origin_layer": "WCD-05",
+            "origin_relation_group_id": "WCD05-CS03-04",
+            "relation_type": "EXPLORES_THEME",
+            "relationship_id": "V1-REL-0317",
+            "review_status": "accepted",
+            "subject_id": "V1-ENT-0078",
+            "upstream_review_status": "CODEX-REVIEW-WCD05-PASS"
           }
         ]
       },
@@ -100375,7 +100845,22 @@
         "origin_count": "1",
         "origin_refs": "B02-ENT-0008",
         "original_name": "El reino de este mundo",
-        "outgoing_relations": []
+        "outgoing_relations": [
+          {
+            "confidence": "high",
+            "description_zh": "《人间王国》通过跨文化人物与“神奇现实”表达复合的美洲身份",
+            "evidence_count": "2",
+            "issue_code": "NONE",
+            "object_id": "V1-ENT-0108",
+            "origin_layer": "WCD-05",
+            "origin_relation_group_id": "WCD05-CS03-05",
+            "relation_type": "EXPLORES_THEME",
+            "relationship_id": "V1-REL-0318",
+            "review_status": "accepted",
+            "subject_id": "V1-ENT-0079",
+            "upstream_review_status": "CODEX-REVIEW-WCD05-PASS"
+          }
+        ]
       },
       {
         "canonical_status": "retained",
@@ -101826,6 +102311,20 @@
             "review_status": "accepted",
             "subject_id": "V1-ENT-0115",
             "upstream_review_status": "WEB-CE-B01"
+          },
+          {
+            "confidence": "high",
+            "description_zh": "聂鲁达的早期诗歌创作与西语现代主义传统存在明确关联",
+            "evidence_count": "2",
+            "issue_code": "NONE",
+            "object_id": "V1-ENT-0131",
+            "origin_layer": "WCD-05",
+            "origin_relation_group_id": "WCD05-CS03-06",
+            "relation_type": "ASSOCIATED_WITH_MOVEMENT",
+            "relationship_id": "V1-REL-0319",
+            "review_status": "accepted",
+            "subject_id": "V1-ENT-0115",
+            "upstream_review_status": "CODEX-REVIEW-WCD05-PASS"
           }
         ]
       },
@@ -104346,7 +104845,22 @@
         "origin_count": "2",
         "origin_refs": "CAND-D-SRC-03;CAND-D-SRC-14",
         "original_name": "El amor en los tiempos del cólera",
-        "outgoing_relations": []
+        "outgoing_relations": [
+          {
+            "confidence": "high",
+            "description_zh": "《霍乱时期的爱情》的主要故事空间位于哥伦比亚加勒比地区",
+            "evidence_count": "2",
+            "issue_code": "NONE",
+            "object_id": "V1-ENT-0095",
+            "origin_layer": "WCD-05",
+            "origin_relation_group_id": "WCD05-CS01-01",
+            "relation_type": "SET_IN",
+            "relationship_id": "V1-REL-0309",
+            "review_status": "accepted",
+            "subject_id": "V1-ENT-0158",
+            "upstream_review_status": "CODEX-REVIEW-WCD05-PASS"
+          }
+        ]
       },
       {
         "canonical_status": "candidate",
@@ -104496,7 +105010,22 @@
         "origin_count": "2",
         "origin_refs": "CAND-D-SRC-06;CAND-D-SRC-16",
         "original_name": "La casa verde",
-        "outgoing_relations": []
+        "outgoing_relations": [
+          {
+            "confidence": "high",
+            "description_zh": "《绿房子》的两组主要场景位于秘鲁的皮乌拉与亚马孙地区",
+            "evidence_count": "1",
+            "issue_code": "NONE",
+            "object_id": "V1-ENT-0124",
+            "origin_layer": "WCD-05",
+            "origin_relation_group_id": "WCD05-CS01-02",
+            "relation_type": "SET_IN",
+            "relationship_id": "V1-REL-0310",
+            "review_status": "accepted",
+            "subject_id": "V1-ENT-0160",
+            "upstream_review_status": "CODEX-REVIEW-WCD05-PASS"
+          }
+        ]
       },
       {
         "canonical_status": "candidate",
@@ -145808,14 +146337,14 @@
       {
         "confidence": "medium",
         "description_zh": "博尔赫斯曾投身极端主义（ultraísmo）",
-        "evidence_count": "1",
-        "issue_code": "解释性判断，单来源",
+        "evidence_count": "2",
+        "issue_code": "RESOLVED_TO_V1-REL-0314|CODEX-REVIEW-WCD05-PASS",
         "object_id": "V1-ENT-0010",
         "origin_layer": "N2",
         "origin_relation_group_id": "RG-S2-0017",
         "relation_hold_id": "V1-HOLD-0001",
         "relation_type": "ASSOCIATED_WITH_MOVEMENT",
-        "review_status": "hold_needs_second_source",
+        "review_status": "resolved_to_relationship",
         "subject_id": "V1-ENT-0002"
       },
       {
@@ -145899,40 +146428,40 @@
       {
         "confidence": "medium",
         "description_zh": "博尔赫斯受叔本华影响",
-        "evidence_count": "1",
-        "issue_code": "解释性判断，单来源",
+        "evidence_count": "2",
+        "issue_code": "RESOLVED_TO_V1-REL-0311|CODEX-REVIEW-WCD05-PASS",
         "object_id": "V1-ENT-0005",
         "origin_layer": "N2",
         "origin_relation_group_id": "RG-S2-0025",
         "relation_hold_id": "V1-HOLD-0008",
         "relation_type": "INFLUENCED_BY",
-        "review_status": "hold_needs_second_source",
+        "review_status": "resolved_to_relationship",
         "subject_id": "V1-ENT-0002"
       },
       {
         "confidence": "medium",
         "description_zh": "博尔赫斯受卡夫卡影响",
-        "evidence_count": "1",
-        "issue_code": "解释性判断，单来源",
+        "evidence_count": "2",
+        "issue_code": "RESOLVED_TO_V1-REL-0312|CODEX-REVIEW-WCD05-PASS",
         "object_id": "V1-ENT-0006",
         "origin_layer": "N2",
         "origin_relation_group_id": "RG-S2-0026",
         "relation_hold_id": "V1-HOLD-0009",
         "relation_type": "INFLUENCED_BY",
-        "review_status": "hold_needs_second_source",
+        "review_status": "resolved_to_relationship",
         "subject_id": "V1-ENT-0002"
       },
       {
         "confidence": "medium",
         "description_zh": "博尔赫斯受切斯特顿影响",
-        "evidence_count": "1",
-        "issue_code": "解释性判断，单来源",
+        "evidence_count": "2",
+        "issue_code": "RESOLVED_TO_V1-REL-0313|CODEX-REVIEW-WCD05-PASS",
         "object_id": "V1-ENT-0007",
         "origin_layer": "N2",
         "origin_relation_group_id": "RG-S2-0027",
         "relation_hold_id": "V1-HOLD-0010",
         "relation_type": "INFLUENCED_BY",
-        "review_status": "hold_needs_second_source",
+        "review_status": "resolved_to_relationship",
         "subject_id": "V1-ENT-0002"
       },
       {
@@ -146042,27 +146571,27 @@
       {
         "confidence": "medium",
         "description_zh": "加西亚·马尔克斯被视为魔幻现实主义的代表",
-        "evidence_count": "1",
-        "issue_code": "NONE",
+        "evidence_count": "2",
+        "issue_code": "RESOLVED_TO_V1-REL-0315|CODEX-REVIEW-WCD05-PASS",
         "object_id": "V1-ENT-0099",
         "origin_layer": "B02",
         "origin_relation_group_id": "RG-B02-0021",
         "relation_hold_id": "V1-HOLD-0019",
         "relation_type": "ASSOCIATED_WITH_MOVEMENT",
-        "review_status": "hold_needs_second_source",
+        "review_status": "resolved_to_relationship",
         "subject_id": "V1-ENT-0072"
       },
       {
         "confidence": "high",
         "description_zh": "卡彭铁尔发展与界定“神奇现实”（lo real maravilloso）",
-        "evidence_count": "1",
-        "issue_code": "NONE",
+        "evidence_count": "2",
+        "issue_code": "RESOLVED_TO_V1-REL-0316|CODEX-REVIEW-WCD05-PASS",
         "object_id": "V1-ENT-0100",
         "origin_layer": "B02",
         "origin_relation_group_id": "RG-B02-0022",
         "relation_hold_id": "V1-HOLD-0020",
         "relation_type": "ASSOCIATED_WITH_MOVEMENT",
-        "review_status": "hold_needs_second_source",
+        "review_status": "resolved_to_relationship",
         "subject_id": "V1-ENT-0074"
       },
       {
@@ -146120,14 +146649,14 @@
       {
         "confidence": "high",
         "description_zh": "《跳房子》体现读者参与与反传统叙事",
-        "evidence_count": "1",
-        "issue_code": "NONE",
+        "evidence_count": "2",
+        "issue_code": "RESOLVED_TO_V1-REL-0317|CODEX-REVIEW-WCD05-PASS",
         "object_id": "V1-ENT-0105",
         "origin_layer": "B02",
         "origin_relation_group_id": "RG-B02-0027",
         "relation_hold_id": "V1-HOLD-0025",
         "relation_type": "EXPLORES_THEME",
-        "review_status": "hold_needs_second_source",
+        "review_status": "resolved_to_relationship",
         "subject_id": "V1-ENT-0078"
       },
       {
@@ -146172,14 +146701,14 @@
       {
         "confidence": "high",
         "description_zh": "《人间王国》体现跨文化与美洲身份",
-        "evidence_count": "1",
-        "issue_code": "NONE",
+        "evidence_count": "2",
+        "issue_code": "RESOLVED_TO_V1-REL-0318|CODEX-REVIEW-WCD05-PASS",
         "object_id": "V1-ENT-0108",
         "origin_layer": "B02",
         "origin_relation_group_id": "RG-B02-0031",
         "relation_hold_id": "V1-HOLD-0029",
         "relation_type": "EXPLORES_THEME",
-        "review_status": "hold_needs_second_source",
+        "review_status": "resolved_to_relationship",
         "subject_id": "V1-ENT-0079"
       },
       {
@@ -146250,14 +146779,14 @@
       {
         "confidence": "medium",
         "description_zh": "聂鲁达早期诗集与现代主义关联",
-        "evidence_count": "1",
-        "issue_code": "NONE",
+        "evidence_count": "2",
+        "issue_code": "RESOLVED_TO_V1-REL-0319|CODEX-REVIEW-WCD05-PASS",
         "object_id": "V1-ENT-0131",
         "origin_layer": "B03",
         "origin_relation_group_id": "RG-B03-0017",
         "relation_hold_id": "V1-HOLD-0035",
         "relation_type": "ASSOCIATED_WITH_MOVEMENT",
-        "review_status": "hold_needs_second_source",
+        "review_status": "resolved_to_relationship",
         "subject_id": "V1-ENT-0115"
       },
       {
@@ -146341,14 +146870,14 @@
       {
         "confidence": "medium",
         "description_zh": "帕斯与先锋派：青年时期创办先锋派文学杂志《Barandal》",
-        "evidence_count": "1",
-        "issue_code": "hold_needs_second_source",
+        "evidence_count": "2",
+        "issue_code": "RESOLVED_TO_V1-REL-0320|CODEX-REVIEW-WCD05-PASS",
         "object_id": "V1-ENT-0132",
         "origin_layer": "WEB-CE-B01",
         "origin_relation_group_id": "CAND-C-REL-006",
         "relation_hold_id": "V1-HOLD-0042",
         "relation_type": "ASSOCIATED_WITH_MOVEMENT",
-        "review_status": "hold",
+        "review_status": "resolved_to_relationship",
         "subject_id": "V1-ENT-0059"
       },
       {
@@ -146367,40 +146896,40 @@
       {
         "confidence": "low",
         "description_zh": "《霍乱时期的爱情》设定于哥伦比亚（通行与卡塔赫纳关联）",
-        "evidence_count": "0",
-        "issue_code": "NEEDS_SOURCE",
+        "evidence_count": "2",
+        "issue_code": "RESOLVED_TO_V1-REL-0309|CODEX-REVIEW-WCD05-PASS",
         "object_id": "V1-ENT-0095",
         "origin_layer": "WEB-CE-B01",
         "origin_relation_group_id": "CAND-D-REL-12",
         "relation_hold_id": "V1-HOLD-0044",
         "relation_type": "SET_IN",
-        "review_status": "hold",
+        "review_status": "resolved_to_relationship",
         "subject_id": "V1-ENT-0158"
       },
       {
         "confidence": "low",
         "description_zh": "《绿房子》设定于秘鲁（通行与皮乌拉/亚马逊关联）",
-        "evidence_count": "0",
-        "issue_code": "NEEDS_SOURCE",
+        "evidence_count": "1",
+        "issue_code": "RESOLVED_TO_V1-REL-0310|CODEX-REVIEW-WCD05-PASS",
         "object_id": "V1-ENT-0124",
         "origin_layer": "WEB-CE-B01",
         "origin_relation_group_id": "CAND-D-REL-13",
         "relation_hold_id": "V1-HOLD-0045",
         "relation_type": "SET_IN",
-        "review_status": "hold",
+        "review_status": "resolved_to_relationship",
         "subject_id": "V1-ENT-0160"
       },
       {
         "confidence": "low",
         "description_zh": "《霍乱时期的爱情》与魔幻现实主义的运动关联",
-        "evidence_count": "0",
-        "issue_code": "hold_needs_second_source",
+        "evidence_count": "1",
+        "issue_code": "REJECTED_WCD05_CONTRARY_SOURCE|CODEX-REVIEW-WCD05-PASS",
         "object_id": "V1-ENT-0099",
         "origin_layer": "WEB-CE-B01",
         "origin_relation_group_id": "CAND-D-REL-14",
         "relation_hold_id": "V1-HOLD-0046",
         "relation_type": "ASSOCIATED_WITH_MOVEMENT",
-        "review_status": "hold",
+        "review_status": "rejected",
         "subject_id": "V1-ENT-0158"
       },
       {
@@ -154037,6 +154566,382 @@
         "review_status": "accepted",
         "subject_id": "V1-ENT-0081",
         "upstream_review_status": "WCD02-REVIEW-PASS"
+      },
+      {
+        "confidence": "high",
+        "description_zh": "《霍乱时期的爱情》的主要故事空间位于哥伦比亚加勒比地区",
+        "evidence": [
+          {
+            "evidence_note": "Institutional essay links the novel specifically to Colombia and its Caribbean; used as auxiliary independent support.",
+            "evidence_status": "eligible_evidence",
+            "locator": "CVC prose page",
+            "relationship_id": "V1-REL-0309",
+            "source_id": "SRC-0064",
+            "source_title": "CVC. Gabriel García Márquez. Obra. Prosa"
+          },
+          {
+            "evidence_note": "The thesis directly identifies the unnamed composite city through cities and towns on Colombia’s Caribbean coast.",
+            "evidence_status": "eligible_evidence",
+            "locator": "Chapter 2 §2, printed/PDF pp. 50–51",
+            "relationship_id": "V1-REL-0309",
+            "source_id": "SRC-0291",
+            "source_title": "Realismo decimonónico y novela sentimental como modos narrativos en El amor en los tiempos del cólera de Gabriel García Márquez"
+          }
+        ],
+        "evidence_count": "2",
+        "issue_code": "NONE",
+        "object_id": "V1-ENT-0095",
+        "origin_layer": "WCD-05",
+        "origin_relation_group_id": "WCD05-CS01-01",
+        "relation_type": "SET_IN",
+        "relationship_id": "V1-REL-0309",
+        "review_status": "accepted",
+        "subject_id": "V1-ENT-0158",
+        "upstream_review_status": "CODEX-REVIEW-WCD05-PASS"
+      },
+      {
+        "confidence": "high",
+        "description_zh": "《绿房子》的两组主要场景位于秘鲁的皮乌拉与亚马孙地区",
+        "evidence": [
+          {
+            "evidence_note": "The catalogue record directly states that the novel occurs in Piura and Santa María de Nieva in the Amazon.",
+            "evidence_status": "eligible_evidence",
+            "locator": "Institutional record, Resumen",
+            "relationship_id": "V1-REL-0310",
+            "source_id": "SRC-0292",
+            "source_title": "La casa verde"
+          }
+        ],
+        "evidence_count": "1",
+        "issue_code": "NONE",
+        "object_id": "V1-ENT-0124",
+        "origin_layer": "WCD-05",
+        "origin_relation_group_id": "WCD05-CS01-02",
+        "relation_type": "SET_IN",
+        "relationship_id": "V1-REL-0310",
+        "review_status": "accepted",
+        "subject_id": "V1-ENT-0160",
+        "upstream_review_status": "CODEX-REVIEW-WCD05-PASS"
+      },
+      {
+        "confidence": "high",
+        "description_zh": "叔本华的哲学构成博尔赫斯长期阅读与思想参照之一",
+        "evidence": [
+          {
+            "evidence_note": "The textbook explicitly records Schopenhauer as an intellectual influence and contextual reference.",
+            "evidence_status": "eligible_evidence",
+            "locator": "原书161小传、原书168",
+            "relationship_id": "V1-REL-0311",
+            "source_id": "SRC-0002",
+            "source_title": "拉丁美洲文学教程（阅读篇）"
+          },
+          {
+            "evidence_note": "A specialist article systematically studies Borges’s long engagement with Schopenhauer.",
+            "evidence_status": "eligible_evidence",
+            "locator": "Variaciones Borges 17, pp. 103–141",
+            "relationship_id": "V1-REL-0311",
+            "source_id": "SRC-0293",
+            "source_title": "De Borges a Schopenhauer"
+          }
+        ],
+        "evidence_count": "2",
+        "issue_code": "NONE",
+        "object_id": "V1-ENT-0005",
+        "origin_layer": "WCD-05",
+        "origin_relation_group_id": "WCD05-CS02-01",
+        "relation_type": "INFLUENCED_BY",
+        "relationship_id": "V1-REL-0311",
+        "review_status": "accepted",
+        "subject_id": "V1-ENT-0002",
+        "upstream_review_status": "CODEX-REVIEW-WCD05-PASS"
+      },
+      {
+        "confidence": "high",
+        "description_zh": "卡夫卡的作品持续影响博尔赫斯的阅读、翻译与创作思考",
+        "evidence": [
+          {
+            "evidence_note": "The textbook explicitly identifies Kafka as an influence on Borges’s thought and literary career.",
+            "evidence_status": "eligible_evidence",
+            "locator": "原书161小传",
+            "relationship_id": "V1-REL-0312",
+            "source_id": "SRC-0002",
+            "source_title": "拉丁美洲文学教程（阅读篇）"
+          },
+          {
+            "evidence_note": "The article documents roughly seven decades of reading, selection, commentary, and translation; it does not repeat the false title-story translation claim.",
+            "evidence_status": "eligible_evidence",
+            "locator": "Fragmentos 28/29, pp. 49–59",
+            "relationship_id": "V1-REL-0312",
+            "source_id": "SRC-0294",
+            "source_title": "Borges y Kafka"
+          }
+        ],
+        "evidence_count": "2",
+        "issue_code": "NONE",
+        "object_id": "V1-ENT-0006",
+        "origin_layer": "WCD-05",
+        "origin_relation_group_id": "WCD05-CS02-02",
+        "relation_type": "INFLUENCED_BY",
+        "relationship_id": "V1-REL-0312",
+        "review_status": "accepted",
+        "subject_id": "V1-ENT-0002",
+        "upstream_review_status": "CODEX-REVIEW-WCD05-PASS"
+      },
+      {
+        "confidence": "high",
+        "description_zh": "切斯特顿对博尔赫斯的侦探叙事与小说观形成显著影响",
+        "evidence": [
+          {
+            "evidence_note": "The textbook explicitly identifies Chesterton as an influence on Borges’s thought and literary career.",
+            "evidence_status": "eligible_evidence",
+            "locator": "原书161小传",
+            "relationship_id": "V1-REL-0313",
+            "source_id": "SRC-0002",
+            "source_title": "拉丁美洲文学教程（阅读篇）"
+          },
+          {
+            "evidence_note": "The specialist study concludes that Chesterton’s influence on Borges’s fiction was notable and includes Borges’s own acknowledgement.",
+            "evidence_status": "eligible_evidence",
+            "locator": "AIH proceedings article",
+            "relationship_id": "V1-REL-0313",
+            "source_id": "SRC-0295",
+            "source_title": "Jorge Luis Borges y G. K. Chesterton"
+          }
+        ],
+        "evidence_count": "2",
+        "issue_code": "NONE",
+        "object_id": "V1-ENT-0007",
+        "origin_layer": "WCD-05",
+        "origin_relation_group_id": "WCD05-CS02-03",
+        "relation_type": "INFLUENCED_BY",
+        "relationship_id": "V1-REL-0313",
+        "review_status": "accepted",
+        "subject_id": "V1-ENT-0002",
+        "upstream_review_status": "CODEX-REVIEW-WCD05-PASS"
+      },
+      {
+        "confidence": "high",
+        "description_zh": "博尔赫斯在1919至1921年间参与并传播西语极端主义（ultraísmo）运动",
+        "evidence": [
+          {
+            "evidence_note": "The textbook records the 1919 encounter and 1921 dissemination, while also delimiting later abandonment.",
+            "evidence_status": "eligible_evidence",
+            "locator": "原书161小传",
+            "relationship_id": "V1-REL-0314",
+            "source_id": "SRC-0002",
+            "source_title": "拉丁美洲文学教程（阅读篇）"
+          },
+          {
+            "evidence_note": "The page documents manifesto, Ultra magazine, and Prisma proclamation participation in 1921.",
+            "evidence_status": "eligible_evidence",
+            "locator": "CVC 1921 works page",
+            "relationship_id": "V1-REL-0314",
+            "source_id": "SRC-0296",
+            "source_title": "CVC. Borges 100 años. Obras. 1921"
+          }
+        ],
+        "evidence_count": "2",
+        "issue_code": "NONE",
+        "object_id": "V1-ENT-0010",
+        "origin_layer": "WCD-05",
+        "origin_relation_group_id": "WCD05-CS03-01",
+        "relation_type": "ASSOCIATED_WITH_MOVEMENT",
+        "relationship_id": "V1-REL-0314",
+        "review_status": "accepted",
+        "subject_id": "V1-ENT-0002",
+        "upstream_review_status": "CODEX-REVIEW-WCD05-PASS"
+      },
+      {
+        "confidence": "high",
+        "description_zh": "加西亚·马尔克斯是魔幻现实主义最具代表性的作家之一",
+        "evidence": [
+          {
+            "evidence_note": "CVC explicitly identifies García Márquez as one of magical realism’s greatest representatives.",
+            "evidence_status": "eligible_evidence",
+            "locator": "CVC institutional exhibition",
+            "relationship_id": "V1-REL-0315",
+            "source_id": "SRC-0035",
+            "source_title": "CVC. Actos culturales. Gabriel García Márquez"
+          },
+          {
+            "evidence_note": "Nobel independently identifies García Márquez as a foremost interpreter of magical realism.",
+            "evidence_status": "eligible_evidence",
+            "locator": "Nobel Facts page",
+            "relationship_id": "V1-REL-0315",
+            "source_id": "SRC-0056",
+            "source_title": "Gabriel García Márquez – Facts"
+          }
+        ],
+        "evidence_count": "2",
+        "issue_code": "NONE",
+        "object_id": "V1-ENT-0099",
+        "origin_layer": "WCD-05",
+        "origin_relation_group_id": "WCD05-CS03-02",
+        "relation_type": "ASSOCIATED_WITH_MOVEMENT",
+        "relationship_id": "V1-REL-0315",
+        "review_status": "accepted",
+        "subject_id": "V1-ENT-0072",
+        "upstream_review_status": "CODEX-REVIEW-WCD05-PASS"
+      },
+      {
+        "confidence": "high",
+        "description_zh": "卡彭铁尔提出并发展“神奇现实”（lo real maravilloso）的美洲文学表达",
+        "evidence": [
+          {
+            "evidence_note": "The independently authored article identifies lo real maravilloso as Carpentier’s instrument for Latin American expression.",
+            "evidence_status": "eligible_evidence",
+            "locator": "article abstract",
+            "relationship_id": "V1-REL-0316",
+            "source_id": "SRC-0041",
+            "source_title": "Alejo Carpentier, autor transcultural. El caso de \"El reino de este mundo\""
+          },
+          {
+            "evidence_note": "Paz Soldán directly describes lo real maravilloso as Carpentier’s central innovation and American expression.",
+            "evidence_status": "eligible_evidence",
+            "locator": "journal record and abstract",
+            "relationship_id": "V1-REL-0316",
+            "source_id": "SRC-0297",
+            "source_title": "Alejo Carpentier: teoría y práctica de lo real maravilloso"
+          }
+        ],
+        "evidence_count": "2",
+        "issue_code": "NONE",
+        "object_id": "V1-ENT-0100",
+        "origin_layer": "WCD-05",
+        "origin_relation_group_id": "WCD05-CS03-03",
+        "relation_type": "ASSOCIATED_WITH_MOVEMENT",
+        "relationship_id": "V1-REL-0316",
+        "review_status": "accepted",
+        "subject_id": "V1-ENT-0074",
+        "upstream_review_status": "CODEX-REVIEW-WCD05-PASS"
+      },
+      {
+        "confidence": "high",
+        "description_zh": "《跳房子》的可组合结构要求读者主动参与并挑战传统线性叙事",
+        "evidence": [
+          {
+            "evidence_note": "The article discusses fragmented narration and the importance of an active reader.",
+            "evidence_status": "eligible_evidence",
+            "locator": "article abstract",
+            "relationship_id": "V1-REL-0317",
+            "source_id": "SRC-0038",
+            "source_title": "Cortázar: los relatos fragmentados y la importancia de un lector activo"
+          },
+          {
+            "evidence_note": "The page directly links the combinable 155-chapter structure to the active lector cómplice.",
+            "evidence_status": "eligible_evidence",
+            "locator": "institutional critical page",
+            "relationship_id": "V1-REL-0317",
+            "source_id": "SRC-0298",
+            "source_title": "La semana de Rayuela (Julio Cortázar)"
+          }
+        ],
+        "evidence_count": "2",
+        "issue_code": "NONE",
+        "object_id": "V1-ENT-0105",
+        "origin_layer": "WCD-05",
+        "origin_relation_group_id": "WCD05-CS03-04",
+        "relation_type": "EXPLORES_THEME",
+        "relationship_id": "V1-REL-0317",
+        "review_status": "accepted",
+        "subject_id": "V1-ENT-0078",
+        "upstream_review_status": "CODEX-REVIEW-WCD05-PASS"
+      },
+      {
+        "confidence": "high",
+        "description_zh": "《人间王国》通过跨文化人物与“神奇现实”表达复合的美洲身份",
+        "evidence": [
+          {
+            "evidence_note": "The work-specific article reads Latin America in the novel as transcultural and represented through its characters.",
+            "evidence_status": "eligible_evidence",
+            "locator": "article abstract",
+            "relationship_id": "V1-REL-0318",
+            "source_id": "SRC-0041",
+            "source_title": "Alejo Carpentier, autor transcultural. El caso de \"El reino de este mundo\""
+          },
+          {
+            "evidence_note": "The independent article ties this work’s lo real maravilloso to rejecting European aesthetics in search of an American expression.",
+            "evidence_status": "eligible_evidence",
+            "locator": "journal record and abstract",
+            "relationship_id": "V1-REL-0318",
+            "source_id": "SRC-0297",
+            "source_title": "Alejo Carpentier: teoría y práctica de lo real maravilloso"
+          }
+        ],
+        "evidence_count": "2",
+        "issue_code": "NONE",
+        "object_id": "V1-ENT-0108",
+        "origin_layer": "WCD-05",
+        "origin_relation_group_id": "WCD05-CS03-05",
+        "relation_type": "EXPLORES_THEME",
+        "relationship_id": "V1-REL-0318",
+        "review_status": "accepted",
+        "subject_id": "V1-ENT-0079",
+        "upstream_review_status": "CODEX-REVIEW-WCD05-PASS"
+      },
+      {
+        "confidence": "high",
+        "description_zh": "聂鲁达的早期诗歌创作与西语现代主义传统存在明确关联",
+        "evidence": [
+          {
+            "evidence_note": "CVC limits the modernist influence to Neruda’s early works.",
+            "evidence_status": "eligible_evidence",
+            "locator": "CVC biography page",
+            "relationship_id": "V1-REL-0319",
+            "source_id": "SRC-0055",
+            "source_title": "CVC. Pablo Neruda.（数字展：主展页 + Biografía 页）"
+          },
+          {
+            "evidence_note": "Monguió independently describes the early works as strongly modernist before Neruda moved away from that inheritance.",
+            "evidence_status": "eligible_evidence",
+            "locator": "university critical archive",
+            "relationship_id": "V1-REL-0319",
+            "source_id": "SRC-0299",
+            "source_title": "Introducción a la poesía de Pablo Neruda"
+          }
+        ],
+        "evidence_count": "2",
+        "issue_code": "NONE",
+        "object_id": "V1-ENT-0131",
+        "origin_layer": "WCD-05",
+        "origin_relation_group_id": "WCD05-CS03-06",
+        "relation_type": "ASSOCIATED_WITH_MOVEMENT",
+        "relationship_id": "V1-REL-0319",
+        "review_status": "accepted",
+        "subject_id": "V1-ENT-0115",
+        "upstream_review_status": "CODEX-REVIEW-WCD05-PASS"
+      },
+      {
+        "confidence": "high",
+        "description_zh": "帕斯曾直接参与以超现实主义为代表的先锋派文学活动",
+        "evidence": [
+          {
+            "evidence_note": "The existing source places Paz’s early magazine work in an avant-garde context.",
+            "evidence_status": "eligible_evidence",
+            "locator": "Poets.org biography",
+            "relationship_id": "V1-REL-0320",
+            "source_id": "SRC-0100",
+            "source_title": "About Octavio Paz"
+          },
+          {
+            "evidence_note": "Nobel records direct activity and publication with surrealists André Breton and Benjamin Péret.",
+            "evidence_status": "eligible_evidence",
+            "locator": "Nobel biographical page",
+            "relationship_id": "V1-REL-0320",
+            "source_id": "SRC-0300",
+            "source_title": "Octavio Paz – Biographical"
+          }
+        ],
+        "evidence_count": "2",
+        "issue_code": "NONE",
+        "object_id": "V1-ENT-0132",
+        "origin_layer": "WCD-05",
+        "origin_relation_group_id": "WCD05-CS03-07",
+        "relation_type": "ASSOCIATED_WITH_MOVEMENT",
+        "relationship_id": "V1-REL-0320",
+        "review_status": "accepted",
+        "subject_id": "V1-ENT-0059",
+        "upstream_review_status": "CODEX-REVIEW-WCD05-PASS"
       }
     ],
     "sources": [
@@ -156631,6 +157536,96 @@
         "source_id": "SRC-0290",
         "source_level": "C",
         "title": "桂冠诗人之后的新一代智利诗人"
+      },
+      {
+        "author_or_editor": "Nini Johana Rivera Pulido",
+        "canonical_url": "https://bffrepositorio.unal.edu.co/server/api/core/bitstreams/69020378-2940-4ae3-affd-d13b58363ebf/content",
+        "publication_year": "2018",
+        "publisher": "Universidad Nacional de Colombia",
+        "source_id": "SRC-0291",
+        "source_level": "A",
+        "title": "Realismo decimonónico y novela sentimental como modos narrativos en El amor en los tiempos del cólera de Gabriel García Márquez"
+      },
+      {
+        "author_or_editor": "Instituto Nacional para Ciegos de Colombia",
+        "canonical_url": "https://biblioteca.inci.gov.co/handle/inci/20947",
+        "publication_year": "2004",
+        "publisher": "INCI Biblioteca Virtual",
+        "source_id": "SRC-0292",
+        "source_level": "B",
+        "title": "La casa verde"
+      },
+      {
+        "author_or_editor": "Iván Almeida",
+        "canonical_url": "https://www.borges.pitt.edu/sites/default/files/1706.pdf",
+        "publication_year": "2004",
+        "publisher": "Variaciones Borges 17 / Borges Center, University of Pittsburgh",
+        "source_id": "SRC-0293",
+        "source_level": "A",
+        "title": "De Borges a Schopenhauer"
+      },
+      {
+        "author_or_editor": "Carlos García",
+        "canonical_url": "https://periodicos.ufsc.br/index.php/fragmentos/article/viewFile/8119/7489",
+        "publication_year": "2005",
+        "publisher": "Fragmentos 28/29 / Universidade Federal de Santa Catarina",
+        "source_id": "SRC-0294",
+        "source_level": "A",
+        "title": "Borges y Kafka"
+      },
+      {
+        "author_or_editor": "Gillian Gayton",
+        "canonical_url": "https://www.cervantesvirtual.com/research/jorge-luis-borges-y-g-k-chesterton/6f7ff248-27c8-4f78-ba23-583d375a33a1.pdf",
+        "publication_year": "1980",
+        "publisher": "Actas del Sexto Congreso de la Asociación Internacional de Hispanistas",
+        "source_id": "SRC-0295",
+        "source_level": "A",
+        "title": "Jorge Luis Borges y G. K. Chesterton"
+      },
+      {
+        "author_or_editor": "Centro Virtual Cervantes",
+        "canonical_url": "https://cvc.cervantes.es/actcult/borges/obras/1921b.htm",
+        "publication_year": "1999",
+        "publisher": "Centro Virtual Cervantes",
+        "source_id": "SRC-0296",
+        "source_level": "B",
+        "title": "CVC. Borges 100 años. Obras. 1921"
+      },
+      {
+        "author_or_editor": "Edmundo Paz Soldán",
+        "canonical_url": "https://revistas.ucm.es/index.php/ALHI/es/article/view/ALHI0808110035A",
+        "publication_year": "2008",
+        "publisher": "Anales de Literatura Hispanoamericana 37 / Universidad Complutense de Madrid",
+        "source_id": "SRC-0297",
+        "source_level": "A",
+        "title": "Alejo Carpentier: teoría y práctica de lo real maravilloso"
+      },
+      {
+        "author_or_editor": "Antonio Chumbile",
+        "canonical_url": "https://www.casadelaliteratura.gob.pe/libro-la-semana-rayuela-julio-cortazar/",
+        "publication_year": "2020",
+        "publisher": "Casa de la Literatura Peruana",
+        "source_id": "SRC-0298",
+        "source_level": "B",
+        "title": "La semana de Rayuela (Julio Cortázar)"
+      },
+      {
+        "author_or_editor": "Luis Monguió",
+        "canonical_url": "https://www.neruda.uchile.cl/critica/monguio.html",
+        "publication_year": "1963",
+        "publisher": "Universidad de Chile",
+        "source_id": "SRC-0299",
+        "source_level": "B",
+        "title": "Introducción a la poesía de Pablo Neruda"
+      },
+      {
+        "author_or_editor": "Nobel Prize Outreach",
+        "canonical_url": "https://www.nobelprize.org/prizes/literature/1990/paz/biographical/",
+        "publication_year": "",
+        "publisher": "NobelPrize.org",
+        "source_id": "SRC-0300",
+        "source_level": "B",
+        "title": "Octavio Paz – Biographical"
       }
     ]
   },
@@ -156833,7 +157828,8 @@
       "related_ids": [
         "V1-ENT-0001",
         "V1-ENT-0003",
-        "V1-ENT-0004"
+        "V1-ENT-0004",
+        "V1-ENT-0010"
       ],
       "search_text": "豪尔赫·路易斯·博尔赫斯 Jorge Luis Borges 豪尔赫·路易斯·博尔赫斯 阿根廷 1899-1986",
       "target_id": "V1-ENT-0002",
@@ -156860,6 +157856,17 @@
       "search_text": "《阿莱夫》 El Aleph 《阿莱夫》（1945 年短篇） 阿根廷 1945",
       "target_id": "V1-ENT-0004",
       "target_type": "work"
+    },
+    {
+      "name_zh": "极端主义（超主义）",
+      "original_name": "ultraísmo",
+      "public_route": "explore/ultraismo-v1-ent-0010/",
+      "related_ids": [
+        "V1-ENT-0002"
+      ],
+      "search_text": "极端主义（超主义） ultraísmo",
+      "target_id": "V1-ENT-0010",
+      "target_type": "movement"
     },
     {
       "name_zh": "克拉丽丝·李斯佩克朵",
@@ -157082,6 +158089,7 @@
       "related_ids": [
         "V1-ENT-0051",
         "V1-ENT-0056",
+        "V1-ENT-0132",
         "V1-ENT-0154",
         "V1-ENT-0155",
         "V1-ENT-0156"
@@ -157100,7 +158108,8 @@
         "V1-ENT-0077",
         "V1-ENT-0095",
         "V1-ENT-0097",
-        "V1-ENT-0098"
+        "V1-ENT-0098",
+        "V1-ENT-0099"
       ],
       "search_text": "加西亚·马尔克斯 Gabriel García Márquez 加西亚·马尔克斯 哥伦比亚 1927-2014",
       "target_id": "V1-ENT-0072",
@@ -157125,7 +158134,8 @@
         "V1-ENT-0079",
         "V1-ENT-0080",
         "V1-ENT-0081",
-        "V1-ENT-0096"
+        "V1-ENT-0096",
+        "V1-ENT-0100"
       ],
       "search_text": "阿莱霍·卡彭铁尔 Alejo Carpentier 阿莱霍·卡彭铁尔 古巴 1904-1980",
       "target_id": "V1-ENT-0074",
@@ -157171,6 +158181,7 @@
       "public_route": "works/rayuela-v1-ent-0078/",
       "related_ids": [
         "V1-ENT-0073",
+        "V1-ENT-0105",
         "V1-ENT-0370",
         "V1-ENT-0373"
       ],
@@ -157183,7 +158194,8 @@
       "original_name": "El reino de este mundo",
       "public_route": "works/el-reino-de-este-mundo-v1-ent-0079/",
       "related_ids": [
-        "V1-ENT-0074"
+        "V1-ENT-0074",
+        "V1-ENT-0108"
       ],
       "search_text": "《人间王国》 El reino de este mundo 《人间王国》 古巴 1949",
       "target_id": "V1-ENT-0079",
@@ -157259,6 +158271,50 @@
       "target_type": "place"
     },
     {
+      "name_zh": "魔幻现实主义",
+      "original_name": "realismo mágico",
+      "public_route": "explore/realismo-magico-v1-ent-0099/",
+      "related_ids": [
+        "V1-ENT-0072"
+      ],
+      "search_text": "魔幻现实主义 realismo mágico",
+      "target_id": "V1-ENT-0099",
+      "target_type": "movement"
+    },
+    {
+      "name_zh": "美洲神奇现实",
+      "original_name": "lo real maravilloso",
+      "public_route": "explore/lo-real-maravilloso-v1-ent-0100/",
+      "related_ids": [
+        "V1-ENT-0074"
+      ],
+      "search_text": "美洲神奇现实 lo real maravilloso",
+      "target_id": "V1-ENT-0100",
+      "target_type": "movement"
+    },
+    {
+      "name_zh": "读者参与与反传统叙事",
+      "original_name": "lector activo y narrativa anticanónica",
+      "public_route": "explore/lector-activo-y-narrativa-anticanonica-v1-ent-0105/",
+      "related_ids": [
+        "V1-ENT-0078"
+      ],
+      "search_text": "读者参与与反传统叙事 lector activo y narrativa anticanónica",
+      "target_id": "V1-ENT-0105",
+      "target_type": "theme"
+    },
+    {
+      "name_zh": "跨文化与美洲身份",
+      "original_name": "transculturación e identidad latinoamericana",
+      "public_route": "explore/transculturacion-e-identidad-latinoamericana-v1-ent-0108/",
+      "related_ids": [
+        "V1-ENT-0079"
+      ],
+      "search_text": "跨文化与美洲身份 transculturación e identidad latinoamericana",
+      "target_id": "V1-ENT-0108",
+      "target_type": "theme"
+    },
+    {
       "name_zh": "马里奥·巴尔加斯·略萨",
       "original_name": "Mario Vargas Llosa",
       "public_route": "authors/mario-vargas-llosa-v1-ent-0114/",
@@ -157281,7 +158337,8 @@
       "public_route": "authors/pablo-neruda-v1-ent-0115/",
       "related_ids": [
         "V1-ENT-0123",
-        "V1-ENT-0128"
+        "V1-ENT-0128",
+        "V1-ENT-0131"
       ],
       "search_text": "巴勃罗·聂鲁达 Pablo Neruda 巴勃罗·聂鲁达 智利 1904-1973",
       "target_id": "V1-ENT-0115",
@@ -157391,6 +158448,28 @@
       "search_text": "马德里 Madrid",
       "target_id": "V1-ENT-0129",
       "target_type": "place"
+    },
+    {
+      "name_zh": "现代主义",
+      "original_name": "modernismo",
+      "public_route": "explore/modernismo-v1-ent-0131/",
+      "related_ids": [
+        "V1-ENT-0115"
+      ],
+      "search_text": "现代主义 modernismo",
+      "target_id": "V1-ENT-0131",
+      "target_type": "movement"
+    },
+    {
+      "name_zh": "先锋派",
+      "original_name": "vanguardismo",
+      "public_route": "explore/vanguardismo-v1-ent-0132/",
+      "related_ids": [
+        "V1-ENT-0059"
+      ],
+      "search_text": "先锋派 vanguardismo",
+      "target_id": "V1-ENT-0132",
+      "target_type": "movement"
     },
     {
       "name_zh": "大陆命运与美洲史诗",
@@ -162083,6 +163162,62 @@
             "review_status": "accepted",
             "subject_id": "V1-ENT-0002",
             "upstream_review_status": "WEB-CE-B01"
+          },
+          {
+            "confidence": "high",
+            "description_zh": "叔本华的哲学构成博尔赫斯长期阅读与思想参照之一",
+            "evidence_count": "2",
+            "issue_code": "NONE",
+            "object_id": "V1-ENT-0005",
+            "origin_layer": "WCD-05",
+            "origin_relation_group_id": "WCD05-CS02-01",
+            "relation_type": "INFLUENCED_BY",
+            "relationship_id": "V1-REL-0311",
+            "review_status": "accepted",
+            "subject_id": "V1-ENT-0002",
+            "upstream_review_status": "CODEX-REVIEW-WCD05-PASS"
+          },
+          {
+            "confidence": "high",
+            "description_zh": "卡夫卡的作品持续影响博尔赫斯的阅读、翻译与创作思考",
+            "evidence_count": "2",
+            "issue_code": "NONE",
+            "object_id": "V1-ENT-0006",
+            "origin_layer": "WCD-05",
+            "origin_relation_group_id": "WCD05-CS02-02",
+            "relation_type": "INFLUENCED_BY",
+            "relationship_id": "V1-REL-0312",
+            "review_status": "accepted",
+            "subject_id": "V1-ENT-0002",
+            "upstream_review_status": "CODEX-REVIEW-WCD05-PASS"
+          },
+          {
+            "confidence": "high",
+            "description_zh": "切斯特顿对博尔赫斯的侦探叙事与小说观形成显著影响",
+            "evidence_count": "2",
+            "issue_code": "NONE",
+            "object_id": "V1-ENT-0007",
+            "origin_layer": "WCD-05",
+            "origin_relation_group_id": "WCD05-CS02-03",
+            "relation_type": "INFLUENCED_BY",
+            "relationship_id": "V1-REL-0313",
+            "review_status": "accepted",
+            "subject_id": "V1-ENT-0002",
+            "upstream_review_status": "CODEX-REVIEW-WCD05-PASS"
+          },
+          {
+            "confidence": "high",
+            "description_zh": "博尔赫斯在1919至1921年间参与并传播西语极端主义（ultraísmo）运动",
+            "evidence_count": "2",
+            "issue_code": "NONE",
+            "object_id": "V1-ENT-0010",
+            "origin_layer": "WCD-05",
+            "origin_relation_group_id": "WCD05-CS03-01",
+            "relation_type": "ASSOCIATED_WITH_MOVEMENT",
+            "relationship_id": "V1-REL-0314",
+            "review_status": "accepted",
+            "subject_id": "V1-ENT-0002",
+            "upstream_review_status": "CODEX-REVIEW-WCD05-PASS"
           }
         ]
       },
@@ -163582,6 +164717,20 @@
             "review_status": "accepted",
             "subject_id": "V1-ENT-0074",
             "upstream_review_status": "WEB-CE-B01"
+          },
+          {
+            "confidence": "high",
+            "description_zh": "卡彭铁尔提出并发展“神奇现实”（lo real maravilloso）的美洲文学表达",
+            "evidence_count": "2",
+            "issue_code": "NONE",
+            "object_id": "V1-ENT-0100",
+            "origin_layer": "WCD-05",
+            "origin_relation_group_id": "WCD05-CS03-03",
+            "relation_type": "ASSOCIATED_WITH_MOVEMENT",
+            "relationship_id": "V1-REL-0316",
+            "review_status": "accepted",
+            "subject_id": "V1-ENT-0074",
+            "upstream_review_status": "CODEX-REVIEW-WCD05-PASS"
           }
         ]
       },
@@ -163971,6 +165120,20 @@
             "review_status": "accepted",
             "subject_id": "V1-ENT-0115",
             "upstream_review_status": "WEB-CE-B01"
+          },
+          {
+            "confidence": "high",
+            "description_zh": "聂鲁达的早期诗歌创作与西语现代主义传统存在明确关联",
+            "evidence_count": "2",
+            "issue_code": "NONE",
+            "object_id": "V1-ENT-0131",
+            "origin_layer": "WCD-05",
+            "origin_relation_group_id": "WCD05-CS03-06",
+            "relation_type": "ASSOCIATED_WITH_MOVEMENT",
+            "relationship_id": "V1-REL-0319",
+            "review_status": "accepted",
+            "subject_id": "V1-ENT-0115",
+            "upstream_review_status": "CODEX-REVIEW-WCD05-PASS"
           }
         ]
       },
@@ -166031,6 +167194,20 @@
             "review_status": "accepted",
             "subject_id": "V1-ENT-0059",
             "upstream_review_status": "WEB-CE-B01"
+          },
+          {
+            "confidence": "high",
+            "description_zh": "帕斯曾直接参与以超现实主义为代表的先锋派文学活动",
+            "evidence_count": "2",
+            "issue_code": "NONE",
+            "object_id": "V1-ENT-0132",
+            "origin_layer": "WCD-05",
+            "origin_relation_group_id": "WCD05-CS03-07",
+            "relation_type": "ASSOCIATED_WITH_MOVEMENT",
+            "relationship_id": "V1-REL-0320",
+            "review_status": "accepted",
+            "subject_id": "V1-ENT-0059",
+            "upstream_review_status": "CODEX-REVIEW-WCD05-PASS"
           }
         ]
       },
@@ -171149,6 +172326,20 @@
             "review_status": "accepted",
             "subject_id": "V1-ENT-0072",
             "upstream_review_status": "WEB-CE-B01"
+          },
+          {
+            "confidence": "high",
+            "description_zh": "加西亚·马尔克斯是魔幻现实主义最具代表性的作家之一",
+            "evidence_count": "2",
+            "issue_code": "NONE",
+            "object_id": "V1-ENT-0099",
+            "origin_layer": "WCD-05",
+            "origin_relation_group_id": "WCD05-CS03-02",
+            "relation_type": "ASSOCIATED_WITH_MOVEMENT",
+            "relationship_id": "V1-REL-0315",
+            "review_status": "accepted",
+            "subject_id": "V1-ENT-0072",
+            "upstream_review_status": "CODEX-REVIEW-WCD05-PASS"
           }
         ]
       },
@@ -179174,7 +180365,22 @@
         "origin_count": "1",
         "origin_refs": "B02-ENT-0008",
         "original_name": "El reino de este mundo",
-        "outgoing_relations": []
+        "outgoing_relations": [
+          {
+            "confidence": "high",
+            "description_zh": "《人间王国》通过跨文化人物与“神奇现实”表达复合的美洲身份",
+            "evidence_count": "2",
+            "issue_code": "NONE",
+            "object_id": "V1-ENT-0108",
+            "origin_layer": "WCD-05",
+            "origin_relation_group_id": "WCD05-CS03-05",
+            "relation_type": "EXPLORES_THEME",
+            "relationship_id": "V1-REL-0318",
+            "review_status": "accepted",
+            "subject_id": "V1-ENT-0079",
+            "upstream_review_status": "CODEX-REVIEW-WCD05-PASS"
+          }
+        ]
       },
       "facts": [
         {
@@ -187651,6 +188857,20 @@
             "review_status": "accepted",
             "subject_id": "V1-ENT-0078",
             "upstream_review_status": "WCD02-REVIEW-PASS"
+          },
+          {
+            "confidence": "high",
+            "description_zh": "《跳房子》的可组合结构要求读者主动参与并挑战传统线性叙事",
+            "evidence_count": "2",
+            "issue_code": "NONE",
+            "object_id": "V1-ENT-0105",
+            "origin_layer": "WCD-05",
+            "origin_relation_group_id": "WCD05-CS03-04",
+            "relation_type": "EXPLORES_THEME",
+            "relationship_id": "V1-REL-0317",
+            "review_status": "accepted",
+            "subject_id": "V1-ENT-0078",
+            "upstream_review_status": "CODEX-REVIEW-WCD05-PASS"
           }
         ]
       },
@@ -196894,7 +198114,22 @@
         "origin_count": "2",
         "origin_refs": "CAND-D-SRC-03;CAND-D-SRC-14",
         "original_name": "El amor en los tiempos del cólera",
-        "outgoing_relations": []
+        "outgoing_relations": [
+          {
+            "confidence": "high",
+            "description_zh": "《霍乱时期的爱情》的主要故事空间位于哥伦比亚加勒比地区",
+            "evidence_count": "2",
+            "issue_code": "NONE",
+            "object_id": "V1-ENT-0095",
+            "origin_layer": "WCD-05",
+            "origin_relation_group_id": "WCD05-CS01-01",
+            "relation_type": "SET_IN",
+            "relationship_id": "V1-REL-0309",
+            "review_status": "accepted",
+            "subject_id": "V1-ENT-0158",
+            "upstream_review_status": "CODEX-REVIEW-WCD05-PASS"
+          }
+        ]
       },
       "facts": [
         {
@@ -201563,7 +202798,22 @@
         "origin_count": "2",
         "origin_refs": "CAND-D-SRC-06;CAND-D-SRC-16",
         "original_name": "La casa verde",
-        "outgoing_relations": []
+        "outgoing_relations": [
+          {
+            "confidence": "high",
+            "description_zh": "《绿房子》的两组主要场景位于秘鲁的皮乌拉与亚马孙地区",
+            "evidence_count": "1",
+            "issue_code": "NONE",
+            "object_id": "V1-ENT-0124",
+            "origin_layer": "WCD-05",
+            "origin_relation_group_id": "WCD05-CS01-02",
+            "relation_type": "SET_IN",
+            "relationship_id": "V1-REL-0310",
+            "review_status": "accepted",
+            "subject_id": "V1-ENT-0160",
+            "upstream_review_status": "CODEX-REVIEW-WCD05-PASS"
+          }
+        ]
       },
       "facts": [
         {

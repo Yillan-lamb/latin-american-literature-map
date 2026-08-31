@@ -1,7 +1,7 @@
 # 拉丁美洲文学地图 V2 任务源
 
-- **版本**：1.4.1
-- **最后更新**：2026-08-30
+- **版本**：1.4.2
+- **最后更新**：2026-08-31
 - **状态**：ACTIVE
 - **唯一动态状态源**：本文件
 - **上位文件**：
@@ -12,12 +12,12 @@
 ## 当前执行摘要
 
 - **当前阶段**：V2 网站建设阶段 / Web 0.x 持续内容建设期
-- **当前 Web 版本**：`Web 0.3.1 — DEVELOPMENT`
+- **当前 Web 版本**：`Web 0.3.2 — DEVELOPMENT`
 - **当前产品状态**：`DEVELOPMENT`
 - **Public Release**：`PAUSED BY USER`
-- **当前任务**：WCD-04 Coverage Rebalancing 已完成
-- **下一任务**：WCD-05 Entity & Relationship Network Remediation（READY / NOT STARTED）
-- **后续顺序**：WCD-05 → WCD-06 → WCD-07；WCD-06 / WCD-07 仍锁定
+- **当前任务**：WCD-05 Entity & Relationship Network Remediation（USER_REVIEW：Character Schema Option A）
+- **下一任务**：等待 USER 对 Character Schema Gate 作出决定；WCD-06 尚未解锁
+- **后续顺序**：WCD-05 USER Gate → WCD-06 → WCD-07；WCD-06 / WCD-07 仍锁定
 - **路线边界**：顺序固定，不新增 WCD-08；旧 Global Audit 的 Data 1.2.0 / Web 0.2.1 数字只作历史输入，不得覆盖 WCD-04 在最新 `main` 上重算的 current baseline
 - **需要 USER**：无需为合并开发基线立即审核全部 `user_review`；未来 Public Build 仍须排除未批准策展内容
 - **最近完成**：`WEB-CONTENT-EXPANSION` B01—B17；rc.1—rc.5 与 Web 0.1.0 均作为历史开发记录保留
@@ -467,11 +467,11 @@
 - **✅ WCD-02 Literary Space & Relationship Deepening**：完成 61 位作者 / 168 部作品及完整 Research/Geo 关系审计，建立 P0—P3/DEFER 矩阵；经独立 Reviewer PASS 后追加迁移 `0028`—`0029`，新增 4 个城市实体、9 条 author→city、4 条 work→place 与 14 条证据，主库达到 371 entities / 306 relationships。Geo 达到 38 places / 91 place relations，虚构空间仍无现实坐标；新增 8 条低判断 Curation 记录。Curation review package 为 61 authors / 168 works / 25 places，formal public scope 为 25 authors / 60 works / 32 places / 2 nodes；Web Product 为 `Web 0.3.0 — Development`，Research 为 `Data 1.3.0 development candidate`。针对性返修已删除 14 个不支撑具体文案的 `PUBLIC_CONTENT.research_refs`，构建器改为字段级显式 provenance，且不改变 Research、迁移或 Geo。既有 3 条 `SET_IN` hold 与证据不足的 movement/theme/event 关系不升级。产物：`project/audits/web/WCD_02_LITERARY_SPACE_RELATIONSHIP_DEEPENING.md`、DEC-047、WCD-02 changeset/review、迁移与全量导出。状态：`✅ DONE`。
 - **✅ WCD-03 Chinese Display Name Consolidation**：完成 371 个实体全量名称矩阵；最终分类为 PASS 225 / PROVISIONAL 126 / REPLACE 11 / NO_CHINESE_NAME_NEEDED 6 / ALIAS 2 / HOLD 1。经独立 Reviewer 从 `REVISE` 修订后最终 `PASS`；在合并前重建单一 append-only 迁移 `0030_wcd03_chinese_display_names`，更正 1 个作者名与 10 个作品/合集名，新增 10 条中文展示名来源。Research 升至 `Data 1.3.1 development candidate`，Web 升至 `Web 0.3.1 — Development`；实体 ID、原文名、facts、relationship 端点/类型/证据、Schema 与公开范围均不变，关系描述中的旧中文名机械同步。当前 Schema 无 alias 字段，因此仅记录别名候选，不擅自扩展。产物：`project/audits/web/WCD_03_CHINESE_DISPLAY_NAME_CONSOLIDATION.md`、全量矩阵、WCD-03 changeset/review、全量导出。状态：`✅ DONE`。
 - **✅ WCD-04 Coverage Rebalancing**：基于 `main@cbb0b571`、`Data 1.3.1 development candidate` 与 `Web 0.3.1 — Development` 完成最新基线机器快照、34 项 External Audit Rebase、八维覆盖审计与正式 Current Priority Matrix。当前 master 为 371 entities / 998 facts / 306 relationships / 288 sources / 255 content cards；Curation 为 527 auto / 1723 user_review / 26 hold；formal public scope 为 25 authors / 60 works / 32 places / 2 nodes。WCD-02 已解决 Buenos Aires、Montevideo、Havana、Paris 与《跳房子》双城关系；WCD-03 名称问题已取代旧外部清单。仍确认 61 zero-degree、225 weak-degree、51 relationship holds、45 行 bibliographic-copy、6 个 P0 与 49 个 P1 major-work research candidates。关系路由按价值校准为实体 P0 10 / P1 79 / P2 201 / P3 11 / DEFER 70，另有 51 条 hold 为 P1；type diversity=1 不再自动等于 P1。生成 422 行 relationship routing、302 行 description routing、239 行 major-work priority 与 17 项最终优先矩阵；239 项仅完成 exact-title / current-author precheck，来源完整性、语义重复、版本与合集层级统一交由 WCD-07 复核；未修改 Research/Curation/Web semantic output。产物：`project/audits/web/WCD_04_COVERAGE_REBALANCING.md` 及 5 个正式 CSV。状态：`✅ DONE`。
-- **⏳ WCD-05 Entity & Relationship Network Remediation（既有实体与关系网络补全）**：系统审计已存在于 Research Data、但零关系、弱关系、关系语义单一，或已有 character / movement / theme / event / person / place entity 却未形成可消费研究网络的实体；同时处理 relationship holds、remaining high-value place / `SET_IN` 等关系网络缺口。目标不是消灭孤立节点，而是让每个高价值孤立或弱关系实体获得“补关系 / legitimate isolated / hold / defer”的可追溯判断。
+- **👤 WCD-05 Entity & Relationship Network Remediation（既有实体与关系网络补全）**：系统审计已存在于 Research Data、但零关系、弱关系、关系语义单一，或已有 character / movement / theme / event / person / place entity 却未形成可消费研究网络的实体；同时处理 relationship holds、remaining high-value place / `SET_IN` 等关系网络缺口。目标不是消灭孤立节点，而是让每个高价值孤立或弱关系实体获得“补关系 / legitimate isolated / hold / defer”的可追溯判断。
   - **当前 known baseline**：WCD-04 逐实体重算为 61 zero-degree / 225 weak-degree / 85 connected；zero-degree 包括 theme 27、character 10、movement 8、institution 6、event 4、peripheral author 3、person 2、place 1。accepted relationships 为 306，其中 `CREATED 202 / ASSOCIATED_WITH_PLACE 78 / SET_IN 13`；8 个 movement 无 accepted relation，29 个 theme 只有 2 条 `EXPLORES_THEME`，51 条 hold 为 theme 31 / movement 14 / SET_IN 3 / INFLUENCED_BY 3。正式输入为 `WCD_04_RELATIONSHIP_ROUTING.csv` 的 371 个实体 + 51 条 hold 共 422 行。
   - **优先级**：P0 Character→Work 等最基础核心关系与最小 Schema 判断；P1 movement/theme/event、relationship holds、核心作者/作品/虚构空间高价值关系；P2 weak-degree 语义多样性与剩余城市关系；P3 Person / Peripheral Author / institution 的必要性治理；缺少直接证据、页面价值低或纯文学推断者 DEFER。
   - **Schema 与证据门禁**：先检查现有 Relationship Schema；不得直接新增 `APPEARS_IN`、`CHARACTER_OF`、`RELATED_TO` 等 relation type。现有 Schema 无法准确表达时，先提交最小 Schema Extension Proposal，说明端点、边界、inverse、evidence、migration、Web impact 与 backward compatibility，并按治理规则取得必要审批。不得按 AI 常识补关系，不把出生地扩大为创作中心，不把短暂居留扩大为长期文学关联；虚构空间始终保持无现实坐标。
-  - **执行与产物**：Relationship Audit → Priority Matrix → Source Research → Candidate Change Set → Independent Reviewer → SQLite Migration → Master QA → Geo / Curation → Web Data → Frontend → Browser / CI QA。Research Master 仍是唯一正式 Research Source；正式执行时生成 `project/audits/web/WCD_05_ENTITY_RELATIONSHIP_GAP_REMEDIATION.md`，至少记录 entity type / zero-degree / weak-degree、relationship type diversity、character/movement/theme/event/place coverage、holds、accepted / legitimate-isolated / deferred 判断、Schema Proposal、migration 与 Web impact。依赖 WCD-04，现已解锁。状态：`⏳ READY / NOT STARTED`。
+  - **执行与产物**：非 Schema remediation 已经独立 Reviewer 最终 `PASS` 并通过 `0031`—`0033` 迁移：新增 10 sources / 12 relationships / 23 relationship evidence，12 holds resolved、1 hold rejected with history retained；zero-degree 61→51，movement 0/8→5/8，theme 2/29→4/29。Research 为 Data 1.4.0 development candidate，Web 为 0.3.2 Development；审计见 `project/audits/web/WCD_05_ENTITY_RELATIONSHIP_GAP_REMEDIATION.md`。Character Option A (`APPEARS_IN`, character→work, no inverse) 已形成 USER Gate，但未获批准、未实施，故 WCD-05 不标 DONE，WCD-06 继续 LOCKED。状态：`👤 USER_REVIEW`。
 - **🔒 WCD-06 Author & Work Descriptive Content Completion（作家与作品描述性内容补全）**：系统审计现有核心作者与作品的 reader-facing descriptive coverage，区分 missing、`auto_approved`、`user_review`、`hold`、public-visible、non-public、template-like 与 evidence-insufficient；优先保证核心作者 `reader_lede` 和核心作品 `story_intro` 的最低公开可读覆盖，再在 Research Evidence 足够时补充低判断、对象特异的描述。不得把字段填满率作为 KPI，也不得用新写文案替代已有内容审核。
   - **当前 known baseline**：WCD-04 已按当前页面重算：2276 条策展记录为 527 auto / 1723 user_review / 26 hold；61 位核心作者 `reader_lede` 为 15 auto / 46 review，168 部策展范围作品 `story_intro` 为 60 auto / 108 review。302 行 author/work/collection/place 路由中，25 PUBLIC_STRONG、23 PUBLIC_BASIC、45 PUBLIC_BIBLIOGRAPHIC_COPY、150 USER_REVIEW_HIGH_JUDGMENT、5 USER_REVIEW_LOW_JUDGMENT、26 MISSING、23 RESEARCH_INSUFFICIENT、5 HOLD。正式输入为 `WCD_04_DESCRIPTION_ROUTING.csv`，不得继续引用 WCD-01 快照替代现状。
   - **处理顺序与门禁**：保留既有 `auto_approved` → 复用 USER 已批准内容 → 审计既有 `user_review` 的低判断/高判断属性 → 查明 `hold` 的 research gap → 仅对真正 missing 内容考虑新写。稳定事实转写、作品基本介绍和已审核 Research 的保守重述可考虑自动准入；`why_read`、`reader_fit`、`reading_route`、`next_reads`、带“最佳入门”判断的 `start_here`、跨作品比较及强文学判断继续执行 USER_REVIEW 门禁。

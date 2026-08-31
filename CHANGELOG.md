@@ -2,6 +2,22 @@
 
 本文件记录拉丁美洲文学地图各版本的实际修改。格式参考 Keep a Changelog，版本号遵循语义化版本规则。
 
+## [Web 0.3.2 — Development] - 2026-08-31
+
+### Research / Network
+
+- 完成 WCD-05 非 Schema 关系网络治理：External 51 条 hold 全量 rebase，经 fresh-context `CODEX-REVIEW-WCD05` 从 `REVISE` 修订至最终 `PASS`。
+- append-only 新增迁移 `0031`—`0033`，新增 10 个去重后的来源、12 条正式关系、23 条关系证据与 14 条 hold 证据；关系增量为 `SET_IN 2 / INFLUENCED_BY 3 / ASSOCIATED_WITH_MOVEMENT 5 / EXPLORES_THEME 2`。
+- 12 条 hold 标为 `resolved_to_relationship`，1 条《霍乱时期的爱情》—魔幻现实主义 hold 依据反证标为 `rejected`；全部历史 hold 保留，38 条继续 active hold。
+- zero-degree 61→51、connected 85→90；movement 覆盖 0/8→5/8、theme 2/29→4/29、作者任意关系覆盖 61/64→64/64。Research 升至 `Data 1.4.0 development candidate`，Schema 仍为 0.3。
+
+### Geo / Web / Gate
+
+- Geo 新增《霍乱时期的爱情》→哥伦比亚、《绿房子》→秘鲁两条 `SET_IN` 投影，place relations 91→93；不新增坐标、featured point 或高判断 Curation 文案。
+- Web Data research layer 同步 318 relationships / 298 sources，Web 升 patch 至 `0.3.2 Development`；Web Schema、页面类型、公开范围与路由不变。
+- Character 最小 Schema Option A (`APPEARS_IN`, character→work, no inverse) 仅形成 USER Gate，未修改 Schema、验证器、主库或 Web 数据；WCD-05 状态为 `USER_REVIEW`，WCD-06/WCD-07 保持 `LOCKED`。
+- WCD-06 与 WCD-07 External Pack 仅登记为下游输入，未执行；Public Release 继续 `PAUSED BY USER`。
+
 ## [Web 0.3.1 — Development] - 2026-08-30
 
 ### Governance / Research Roadmap

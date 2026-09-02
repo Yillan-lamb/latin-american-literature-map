@@ -1,17 +1,17 @@
 {
   "counts": {
-    "content_cards": 255,
+    "content_cards": 261,
     "curation_entries": 58,
     "curation_recommendations": 2,
     "curation_selections": 23,
-    "entities": 371,
-    "facts": 998,
+    "entities": 377,
+    "facts": 1027,
     "gaps": 24,
     "place_relations": 93,
     "places": 38,
     "relation_holds": 51,
-    "relationships": 328,
-    "sources": 298
+    "relationships": 334,
+    "sources": 314
   },
   "curation": {
     "entries": [
@@ -2079,7 +2079,7 @@
     "geo_data": "data/v2/geo",
     "research_database": "data/master/V1_MASTER.sqlite"
   },
-  "generated_at": "2026-08-31T04:59:03+00:00",
+  "generated_at": "2026-09-02T00:00:00+08:00",
   "map": {
     "places": [
       {
@@ -8494,6 +8494,20 @@
             "review_status": "accepted",
             "subject_id": "V1-ENT-0114",
             "upstream_review_status": "WEB-CE-B01"
+          },
+          {
+            "confidence": "high",
+            "description_zh": "马里奥·巴尔加斯·略萨创作《公羊的节日》",
+            "evidence_count": "2",
+            "issue_code": "NONE",
+            "object_id": "V1-ENT-0377",
+            "origin_layer": "WCD-07A",
+            "origin_relation_group_id": "WCD07A-R04",
+            "relation_type": "CREATED",
+            "relationship_id": "V1-REL-0334",
+            "review_status": "accepted",
+            "subject_id": "V1-ENT-0114",
+            "upstream_review_status": "CODEX-REVIEW-WCD07A-PASS"
           }
         ]
       },
@@ -8927,6 +8941,20 @@
             "review_status": "accepted",
             "subject_id": "V1-ENT-0145",
             "upstream_review_status": "WEB-CE-B01-HY3"
+          },
+          {
+            "confidence": "high",
+            "description_zh": "卡洛斯·富恩特斯创作《我们的土地》",
+            "evidence_count": "2",
+            "issue_code": "NONE",
+            "object_id": "V1-ENT-0374",
+            "origin_layer": "WCD-07A",
+            "origin_relation_group_id": "WCD07A-R01",
+            "relation_type": "CREATED",
+            "relationship_id": "V1-REL-0331",
+            "review_status": "accepted",
+            "subject_id": "V1-ENT-0145",
+            "upstream_review_status": "CODEX-REVIEW-WCD07A-PASS"
           }
         ]
       },
@@ -9631,6 +9659,20 @@
             "review_status": "accepted",
             "subject_id": "V1-ENT-0172",
             "upstream_review_status": "WEB-CE-B02"
+          },
+          {
+            "confidence": "high",
+            "description_zh": "若热·亚马多创作《无边的土地》",
+            "evidence_count": "2",
+            "issue_code": "NONE",
+            "object_id": "V1-ENT-0379",
+            "origin_layer": "WCD-07A",
+            "origin_relation_group_id": "WCD07A-R06",
+            "relation_type": "CREATED",
+            "relationship_id": "V1-REL-0336",
+            "review_status": "accepted",
+            "subject_id": "V1-ENT-0172",
+            "upstream_review_status": "CODEX-REVIEW-WCD07A-PASS"
           }
         ]
       },
@@ -11546,6 +11588,20 @@
             "review_status": "accepted",
             "subject_id": "V1-ENT-0225",
             "upstream_review_status": "WCD02-REVIEW-PASS"
+          },
+          {
+            "confidence": "high",
+            "description_zh": "何塞·马蒂创作《自由诗》",
+            "evidence_count": "2",
+            "issue_code": "NONE",
+            "object_id": "V1-ENT-0376",
+            "origin_layer": "WCD-07A",
+            "origin_relation_group_id": "WCD07A-R03",
+            "relation_type": "CREATED",
+            "relationship_id": "V1-REL-0333",
+            "review_status": "accepted",
+            "subject_id": "V1-ENT-0225",
+            "upstream_review_status": "CODEX-REVIEW-WCD07A-PASS"
           }
         ]
       },
@@ -12170,6 +12226,20 @@
             "review_status": "accepted",
             "subject_id": "V1-ENT-0248",
             "upstream_review_status": "WEB-CE-B08"
+          },
+          {
+            "confidence": "high",
+            "description_zh": "何塞·玛丽亚·阿格达斯创作《山上的狐狸，山下的狐狸》",
+            "evidence_count": "2",
+            "issue_code": "NONE",
+            "object_id": "V1-ENT-0378",
+            "origin_layer": "WCD-07A",
+            "origin_relation_group_id": "WCD07A-R05",
+            "relation_type": "CREATED",
+            "relationship_id": "V1-REL-0335",
+            "review_status": "accepted",
+            "subject_id": "V1-ENT-0248",
+            "upstream_review_status": "CODEX-REVIEW-WCD07A-PASS"
           }
         ]
       },
@@ -12326,6 +12396,20 @@
             "review_status": "accepted",
             "subject_id": "V1-ENT-0249",
             "upstream_review_status": "WEB-CE-B08"
+          },
+          {
+            "confidence": "high",
+            "description_zh": "塞尔希奥·皮托尔创作《逃亡的艺术》",
+            "evidence_count": "2",
+            "issue_code": "NONE",
+            "object_id": "V1-ENT-0375",
+            "origin_layer": "WCD-07A",
+            "origin_relation_group_id": "WCD07A-R02",
+            "relation_type": "CREATED",
+            "relationship_id": "V1-REL-0332",
+            "review_status": "accepted",
+            "subject_id": "V1-ENT-0249",
+            "upstream_review_status": "CODEX-REVIEW-WCD07A-PASS"
           }
         ]
       },
@@ -38321,6 +38405,677 @@
         "origin_count": "1",
         "origin_refs": "CAND-B17-RÓMULO-GALLEGOS-69",
         "original_name": "Canaima",
+        "outgoing_relations": []
+      },
+      {
+        "canonical_status": "candidate",
+        "content_cards": [
+          {
+            "author_label": "卡洛斯·富恩特斯",
+            "card_id": "V1-CARD-0256",
+            "card_type": "work",
+            "content_markdown": "### 《我们的土地》｜Terra Nostra\\n\\n- 对象类型：`work`｜首版：1975｜体裁：长篇小说\\n- 研究基线：ELEM 与 UNAM 支持书目身份和三部结构；不拆子实体。",
+            "country_or_region": "墨西哥",
+            "genre_or_form": "长篇小说",
+            "input_layer": "WCD-07A",
+            "issue_code": "NONE",
+            "language": "es",
+            "origin_card_id": "WCD07A-W01",
+            "original_title": "Terra Nostra",
+            "period_bucket": "1975",
+            "source_minimum_status": "meets",
+            "subject_id": "V1-ENT-0374",
+            "title_zh": "《我们的土地》"
+          }
+        ],
+        "entity_id": "V1-ENT-0374",
+        "entity_type": "work",
+        "facts": [
+          {
+            "admission_status": "batch_retained_candidate",
+            "card_id": "V1-CARD-0256",
+            "confidence": "high",
+            "fact_field": "entity_layer",
+            "fact_id": "V1-FCT-1005",
+            "material_class": "metadata",
+            "origin_id": "WCD07A-W01",
+            "origin_material_id": "WCD07A-F001",
+            "subject_id": "V1-ENT-0374",
+            "usage_note": "single novel; sections not split",
+            "value_text": "work"
+          },
+          {
+            "admission_status": "batch_retained_candidate",
+            "card_id": "V1-CARD-0256",
+            "confidence": "high",
+            "fact_field": "first_publication_year",
+            "fact_id": "V1-FCT-1006",
+            "material_class": "bibliographic",
+            "origin_id": "WCD07A-W01",
+            "origin_material_id": "WCD07A-F002",
+            "subject_id": "V1-ENT-0374",
+            "usage_note": "original publication only",
+            "value_text": "1975"
+          },
+          {
+            "admission_status": "batch_retained_candidate",
+            "card_id": "V1-CARD-0256",
+            "confidence": "high",
+            "fact_field": "genre_or_form",
+            "fact_id": "V1-FCT-1007",
+            "material_class": "bibliographic",
+            "origin_id": "WCD07A-W01",
+            "origin_material_id": "WCD07A-F003",
+            "subject_id": "V1-ENT-0374",
+            "usage_note": "institutional classification",
+            "value_text": "长篇小说"
+          },
+          {
+            "admission_status": "batch_retained_candidate",
+            "card_id": "V1-CARD-0256",
+            "confidence": "high",
+            "fact_field": "bibliographic_note",
+            "fact_id": "V1-FCT-1008",
+            "material_class": "bibliographic_note",
+            "origin_id": "WCD07A-W01",
+            "origin_material_id": "WCD07A-F004",
+            "subject_id": "V1-ENT-0374",
+            "usage_note": "later edition dates excluded",
+            "value_text": "1975年由Joaquín Mortiz与Seix Barral在墨西哥出版。"
+          },
+          {
+            "admission_status": "batch_retained_candidate",
+            "card_id": "V1-CARD-0256",
+            "confidence": "medium",
+            "fact_field": "story_premise",
+            "fact_id": "V1-FCT-1009",
+            "material_class": "institutional_paraphrase",
+            "origin_id": "WCD07A-W01",
+            "origin_material_id": "WCD07A-F005",
+            "subject_id": "V1-ENT-0374",
+            "usage_note": "no theme or child relation inferred",
+            "value_text": "小说以三部结构交织旧世界、新世界与另一个世界的历史文化经验。"
+          }
+        ],
+        "incoming_relations": [
+          {
+            "confidence": "high",
+            "description_zh": "卡洛斯·富恩特斯创作《我们的土地》",
+            "evidence_count": "2",
+            "issue_code": "NONE",
+            "object_id": "V1-ENT-0374",
+            "origin_layer": "WCD-07A",
+            "origin_relation_group_id": "WCD07A-R01",
+            "relation_type": "CREATED",
+            "relationship_id": "V1-REL-0331",
+            "review_status": "accepted",
+            "subject_id": "V1-ENT-0145",
+            "upstream_review_status": "CODEX-REVIEW-WCD07A-PASS"
+          }
+        ],
+        "issue_codes": "NONE",
+        "name_zh": "《我们的土地》",
+        "normalization_basis": "ELEM/UNAM establish the 1975 novel identity; China Writers supports the published Chinese display title",
+        "origin_count": "3",
+        "origin_refs": "WCD07A-W01",
+        "original_name": "Terra Nostra",
+        "outgoing_relations": []
+      },
+      {
+        "canonical_status": "candidate",
+        "content_cards": [
+          {
+            "author_label": "塞尔希奥·皮托尔",
+            "card_id": "V1-CARD-0257",
+            "card_type": "work",
+            "content_markdown": "### 《逃亡的艺术》｜El arte de la fuga\\n\\n- 对象类型：`work`｜首版：1996｜体裁：复合型散文\\n- 研究基线：一部在文学评论、阅读记忆与自传叙述间展开的独立著作。",
+            "country_or_region": "墨西哥",
+            "genre_or_form": "复合型散文",
+            "input_layer": "WCD-07A",
+            "issue_code": "NONE",
+            "language": "es",
+            "origin_card_id": "WCD07A-W02",
+            "original_title": "El arte de la fuga",
+            "period_bucket": "1996",
+            "source_minimum_status": "meets",
+            "subject_id": "V1-ENT-0375",
+            "title_zh": "《逃亡的艺术》"
+          }
+        ],
+        "entity_id": "V1-ENT-0375",
+        "entity_type": "work",
+        "facts": [
+          {
+            "admission_status": "batch_retained_candidate",
+            "card_id": "V1-CARD-0257",
+            "confidence": "high",
+            "fact_field": "entity_layer",
+            "fact_id": "V1-FCT-1010",
+            "material_class": "metadata",
+            "origin_id": "WCD07A-W02",
+            "origin_material_id": "WCD07A-F006",
+            "subject_id": "V1-ENT-0375",
+            "usage_note": "single hybrid book",
+            "value_text": "work"
+          },
+          {
+            "admission_status": "batch_retained_candidate",
+            "card_id": "V1-CARD-0257",
+            "confidence": "high",
+            "fact_field": "first_publication_year",
+            "fact_id": "V1-FCT-1011",
+            "material_class": "bibliographic",
+            "origin_id": "WCD07A-W02",
+            "origin_material_id": "WCD07A-F007",
+            "subject_id": "V1-ENT-0375",
+            "usage_note": "Era Mexico publication",
+            "value_text": "1996"
+          },
+          {
+            "admission_status": "batch_retained_candidate",
+            "card_id": "V1-CARD-0257",
+            "confidence": "medium",
+            "fact_field": "genre_or_form",
+            "fact_id": "V1-FCT-1012",
+            "material_class": "scholarly_paraphrase",
+            "origin_id": "WCD07A-W02",
+            "origin_material_id": "WCD07A-F008",
+            "subject_id": "V1-ENT-0375",
+            "usage_note": "not reduced to memoir",
+            "value_text": "复合型散文"
+          },
+          {
+            "admission_status": "batch_retained_candidate",
+            "card_id": "V1-CARD-0257",
+            "confidence": "high",
+            "fact_field": "bibliographic_note",
+            "fact_id": "V1-FCT-1013",
+            "material_class": "bibliographic_note",
+            "origin_id": "WCD07A-W02",
+            "origin_material_id": "WCD07A-F009",
+            "subject_id": "V1-ENT-0375",
+            "usage_note": "reuses SRC-0201",
+            "value_text": "Instituto Cervantes书目记录该书由Era于1996年在墨西哥出版。"
+          },
+          {
+            "admission_status": "batch_retained_candidate",
+            "card_id": "V1-CARD-0257",
+            "confidence": "medium",
+            "fact_field": "story_premise",
+            "fact_id": "V1-FCT-1014",
+            "material_class": "scholarly_paraphrase",
+            "origin_id": "WCD07A-W02",
+            "origin_material_id": "WCD07A-F010",
+            "subject_id": "V1-ENT-0375",
+            "usage_note": "bounded synthesis",
+            "value_text": "作品在文学评论、阅读记忆与自传叙述之间展开。"
+          }
+        ],
+        "incoming_relations": [
+          {
+            "confidence": "high",
+            "description_zh": "塞尔希奥·皮托尔创作《逃亡的艺术》",
+            "evidence_count": "2",
+            "issue_code": "NONE",
+            "object_id": "V1-ENT-0375",
+            "origin_layer": "WCD-07A",
+            "origin_relation_group_id": "WCD07A-R02",
+            "relation_type": "CREATED",
+            "relationship_id": "V1-REL-0332",
+            "review_status": "accepted",
+            "subject_id": "V1-ENT-0249",
+            "upstream_review_status": "CODEX-REVIEW-WCD07A-PASS"
+          }
+        ],
+        "issue_codes": "NONE",
+        "name_zh": "《逃亡的艺术》",
+        "normalization_basis": "CVC and UNAM establish one 1996 hybrid work; China Reading Weekly supports the published Chinese display title",
+        "origin_count": "3",
+        "origin_refs": "WCD07A-W02",
+        "original_name": "El arte de la fuga",
+        "outgoing_relations": []
+      },
+      {
+        "canonical_status": "candidate",
+        "content_cards": [
+          {
+            "author_label": "何塞·马蒂",
+            "card_id": "V1-CARD-0258",
+            "card_type": "collection",
+            "content_markdown": "### 《自由诗》｜Versos libres\\n\\n- 对象类型：`collection`｜首版：1913（身后出版）｜体裁：诗集\\n- 研究基线：中文名仅作显示，不主张存在独立正式全本中译。",
+            "country_or_region": "古巴",
+            "genre_or_form": "诗集",
+            "input_layer": "WCD-07A",
+            "issue_code": "PROVISIONAL-ZH-DISPLAY",
+            "language": "es",
+            "origin_card_id": "WCD07A-W03",
+            "original_title": "Versos libres",
+            "period_bucket": "1913",
+            "source_minimum_status": "meets",
+            "subject_id": "V1-ENT-0376",
+            "title_zh": "《自由诗》"
+          }
+        ],
+        "entity_id": "V1-ENT-0376",
+        "entity_type": "collection",
+        "facts": [
+          {
+            "admission_status": "batch_retained_candidate",
+            "card_id": "V1-CARD-0258",
+            "confidence": "high",
+            "fact_field": "entity_layer",
+            "fact_id": "V1-FCT-1015",
+            "material_class": "metadata",
+            "origin_id": "WCD07A-W03",
+            "origin_material_id": "WCD07A-F011",
+            "subject_id": "V1-ENT-0376",
+            "usage_note": "posthumous original collection",
+            "value_text": "collection"
+          },
+          {
+            "admission_status": "batch_retained_candidate",
+            "card_id": "V1-CARD-0258",
+            "confidence": "high",
+            "fact_field": "first_publication_year",
+            "fact_id": "V1-FCT-1016",
+            "material_class": "bibliographic",
+            "origin_id": "WCD07A-W03",
+            "origin_material_id": "WCD07A-F012",
+            "subject_id": "V1-ENT-0376",
+            "usage_note": "posthumous publication",
+            "value_text": "1913"
+          },
+          {
+            "admission_status": "batch_retained_candidate",
+            "card_id": "V1-CARD-0258",
+            "confidence": "high",
+            "fact_field": "genre_or_form",
+            "fact_id": "V1-FCT-1017",
+            "material_class": "bibliographic",
+            "origin_id": "WCD07A-W03",
+            "origin_material_id": "WCD07A-F013",
+            "subject_id": "V1-ENT-0376",
+            "usage_note": "original collection",
+            "value_text": "诗集"
+          },
+          {
+            "admission_status": "batch_retained_candidate",
+            "card_id": "V1-CARD-0258",
+            "confidence": "high",
+            "fact_field": "bibliographic_note",
+            "fact_id": "V1-FCT-1018",
+            "material_class": "bibliographic_note",
+            "origin_id": "WCD07A-W03",
+            "origin_material_id": "WCD07A-F014",
+            "subject_id": "V1-ENT-0376",
+            "usage_note": "composition and publication kept distinct",
+            "value_text": "诗作写于作者生前，几乎全部约作于1882年，并于1913年身后出版。"
+          },
+          {
+            "admission_status": "batch_retained_candidate",
+            "card_id": "V1-CARD-0258",
+            "confidence": "medium",
+            "fact_field": "story_premise",
+            "fact_id": "V1-FCT-1019",
+            "material_class": "scholarly_paraphrase",
+            "origin_id": "WCD07A-W03",
+            "origin_material_id": "WCD07A-F015",
+            "subject_id": "V1-ENT-0376",
+            "usage_note": "no movement relation inferred",
+            "value_text": "诗集以无韵十一音节诗及强烈跨行、意象构成其形式特征。"
+          }
+        ],
+        "incoming_relations": [
+          {
+            "confidence": "high",
+            "description_zh": "何塞·马蒂创作《自由诗》",
+            "evidence_count": "2",
+            "issue_code": "NONE",
+            "object_id": "V1-ENT-0376",
+            "origin_layer": "WCD-07A",
+            "origin_relation_group_id": "WCD07A-R03",
+            "relation_type": "CREATED",
+            "relationship_id": "V1-REL-0333",
+            "review_status": "accepted",
+            "subject_id": "V1-ENT-0225",
+            "upstream_review_status": "CODEX-REVIEW-WCD07A-PASS"
+          }
+        ],
+        "issue_codes": "PROVISIONAL-ZH-DISPLAY",
+        "name_zh": "《自由诗》",
+        "normalization_basis": "Two independently authored studies establish the posthumous 1913 poetry collection; Chinese is a display gloss, not a claimed edition",
+        "origin_count": "2",
+        "origin_refs": "WCD07A-W03",
+        "original_name": "Versos libres",
+        "outgoing_relations": []
+      },
+      {
+        "canonical_status": "candidate",
+        "content_cards": [
+          {
+            "author_label": "马里奥·巴尔加斯·略萨",
+            "card_id": "V1-CARD-0259",
+            "card_type": "work",
+            "content_markdown": "### 《公羊的节日》｜La fiesta del Chivo\\n\\n- 对象类型：`work`｜首版：2000｜体裁：长篇小说\\n- 研究基线：小说围绕多米尼加共和国特鲁希略独裁统治及其余波展开。",
+            "country_or_region": "秘鲁",
+            "genre_or_form": "长篇小说",
+            "input_layer": "WCD-07A",
+            "issue_code": "NONE",
+            "language": "es",
+            "origin_card_id": "WCD07A-W04",
+            "original_title": "La fiesta del Chivo",
+            "period_bucket": "2000",
+            "source_minimum_status": "meets",
+            "subject_id": "V1-ENT-0377",
+            "title_zh": "《公羊的节日》"
+          }
+        ],
+        "entity_id": "V1-ENT-0377",
+        "entity_type": "work",
+        "facts": [
+          {
+            "admission_status": "batch_retained_candidate",
+            "card_id": "V1-CARD-0259",
+            "confidence": "high",
+            "fact_field": "entity_layer",
+            "fact_id": "V1-FCT-1020",
+            "material_class": "metadata",
+            "origin_id": "WCD07A-W04",
+            "origin_material_id": "WCD07A-F016",
+            "subject_id": "V1-ENT-0377",
+            "usage_note": "single novel",
+            "value_text": "work"
+          },
+          {
+            "admission_status": "batch_retained_candidate",
+            "card_id": "V1-CARD-0259",
+            "confidence": "high",
+            "fact_field": "first_publication_year",
+            "fact_id": "V1-FCT-1021",
+            "material_class": "bibliographic",
+            "origin_id": "WCD07A-W04",
+            "origin_material_id": "WCD07A-F017",
+            "subject_id": "V1-ENT-0377",
+            "usage_note": "Nobel bibliography",
+            "value_text": "2000"
+          },
+          {
+            "admission_status": "batch_retained_candidate",
+            "card_id": "V1-CARD-0259",
+            "confidence": "high",
+            "fact_field": "genre_or_form",
+            "fact_id": "V1-FCT-1022",
+            "material_class": "bibliographic",
+            "origin_id": "WCD07A-W04",
+            "origin_material_id": "WCD07A-F018",
+            "subject_id": "V1-ENT-0377",
+            "usage_note": "publisher classification",
+            "value_text": "长篇小说"
+          },
+          {
+            "admission_status": "batch_retained_candidate",
+            "card_id": "V1-CARD-0259",
+            "confidence": "high",
+            "fact_field": "bibliographic_note",
+            "fact_id": "V1-FCT-1023",
+            "material_class": "bibliographic_note",
+            "origin_id": "WCD07A-W04",
+            "origin_material_id": "WCD07A-F019",
+            "subject_id": "V1-ENT-0377",
+            "usage_note": "direct bibliography",
+            "value_text": "诺贝尔奖官方书目记录该书2000年由马德里Alfaguara出版。"
+          },
+          {
+            "admission_status": "batch_retained_candidate",
+            "card_id": "V1-CARD-0259",
+            "confidence": "high",
+            "fact_field": "story_premise",
+            "fact_id": "V1-FCT-1024",
+            "material_class": "publisher_paraphrase",
+            "origin_id": "WCD07A-W04",
+            "origin_material_id": "WCD07A-F020",
+            "subject_id": "V1-ENT-0377",
+            "usage_note": "no event or place edge inferred",
+            "value_text": "小说围绕多米尼加共和国特鲁希略独裁统治及其余波展开。"
+          }
+        ],
+        "incoming_relations": [
+          {
+            "confidence": "high",
+            "description_zh": "马里奥·巴尔加斯·略萨创作《公羊的节日》",
+            "evidence_count": "2",
+            "issue_code": "NONE",
+            "object_id": "V1-ENT-0377",
+            "origin_layer": "WCD-07A",
+            "origin_relation_group_id": "WCD07A-R04",
+            "relation_type": "CREATED",
+            "relationship_id": "V1-REL-0334",
+            "review_status": "accepted",
+            "subject_id": "V1-ENT-0114",
+            "upstream_review_status": "CODEX-REVIEW-WCD07A-PASS"
+          }
+        ],
+        "issue_codes": "NONE",
+        "name_zh": "《公羊的节日》",
+        "normalization_basis": "Nobel and Alfaguara establish the 2000 novel identity; China Writers supports the published Chinese display title",
+        "origin_count": "3",
+        "origin_refs": "WCD07A-W04",
+        "original_name": "La fiesta del Chivo",
+        "outgoing_relations": []
+      },
+      {
+        "canonical_status": "candidate",
+        "content_cards": [
+          {
+            "author_label": "何塞·玛丽亚·阿格达斯",
+            "card_id": "V1-CARD-0260",
+            "card_type": "work",
+            "content_markdown": "### 《山上的狐狸，山下的狐狸》｜El zorro de arriba y el zorro de abajo\\n\\n- 对象类型：`work`｜首版：1971｜体裁：长篇小说\\n- 研究基线：作为单一作品保留；日记结构事实因证据不足未准入。",
+            "country_or_region": "秘鲁",
+            "genre_or_form": "长篇小说",
+            "input_layer": "WCD-07A",
+            "issue_code": "NONE",
+            "language": "es",
+            "origin_card_id": "WCD07A-W05",
+            "original_title": "El zorro de arriba y el zorro de abajo",
+            "period_bucket": "1971",
+            "source_minimum_status": "meets",
+            "subject_id": "V1-ENT-0378",
+            "title_zh": "《山上的狐狸，山下的狐狸》"
+          }
+        ],
+        "entity_id": "V1-ENT-0378",
+        "entity_type": "work",
+        "facts": [
+          {
+            "admission_status": "batch_retained_candidate",
+            "card_id": "V1-CARD-0260",
+            "confidence": "high",
+            "fact_field": "entity_layer",
+            "fact_id": "V1-FCT-1025",
+            "material_class": "metadata",
+            "origin_id": "WCD07A-W05",
+            "origin_material_id": "WCD07A-F021",
+            "subject_id": "V1-ENT-0378",
+            "usage_note": "single novel",
+            "value_text": "work"
+          },
+          {
+            "admission_status": "batch_retained_candidate",
+            "card_id": "V1-CARD-0260",
+            "confidence": "high",
+            "fact_field": "first_publication_year",
+            "fact_id": "V1-FCT-1026",
+            "material_class": "bibliographic",
+            "origin_id": "WCD07A-W05",
+            "origin_material_id": "WCD07A-F022",
+            "subject_id": "V1-ENT-0378",
+            "usage_note": "posthumous publication",
+            "value_text": "1971"
+          },
+          {
+            "admission_status": "batch_retained_candidate",
+            "card_id": "V1-CARD-0260",
+            "confidence": "high",
+            "fact_field": "genre_or_form",
+            "fact_id": "V1-FCT-1027",
+            "material_class": "bibliographic",
+            "origin_id": "WCD07A-W05",
+            "origin_material_id": "WCD07A-F023",
+            "subject_id": "V1-ENT-0378",
+            "usage_note": "national library and publisher classification",
+            "value_text": "长篇小说"
+          },
+          {
+            "admission_status": "batch_retained_candidate",
+            "card_id": "V1-CARD-0260",
+            "confidence": "high",
+            "fact_field": "bibliographic_note",
+            "fact_id": "V1-FCT-1028",
+            "material_class": "bibliographic_note",
+            "origin_id": "WCD07A-W05",
+            "origin_material_id": "WCD07A-F024",
+            "subject_id": "V1-ENT-0378",
+            "usage_note": "unsupported diary-year claim excluded",
+            "value_text": "作品于1971年出版；Editorial Losada将其作为作者的文学遗嘱介绍。"
+          }
+        ],
+        "incoming_relations": [
+          {
+            "confidence": "high",
+            "description_zh": "何塞·玛丽亚·阿格达斯创作《山上的狐狸，山下的狐狸》",
+            "evidence_count": "2",
+            "issue_code": "NONE",
+            "object_id": "V1-ENT-0378",
+            "origin_layer": "WCD-07A",
+            "origin_relation_group_id": "WCD07A-R05",
+            "relation_type": "CREATED",
+            "relationship_id": "V1-REL-0335",
+            "review_status": "accepted",
+            "subject_id": "V1-ENT-0248",
+            "upstream_review_status": "CODEX-REVIEW-WCD07A-PASS"
+          }
+        ],
+        "issue_codes": "NONE",
+        "name_zh": "《山上的狐狸，山下的狐狸》",
+        "normalization_basis": "BNP and Losada establish one 1971 novel; Zhejiang Xinhua institutional catalog documents the 2024 People's Literature Publishing House Chinese title, Zhu Jinyu translation, and ISBN 9787020186723",
+        "origin_count": "3",
+        "origin_refs": "WCD07A-W05",
+        "original_name": "El zorro de arriba y el zorro de abajo",
+        "outgoing_relations": []
+      },
+      {
+        "canonical_status": "candidate",
+        "content_cards": [
+          {
+            "author_label": "若热·亚马多",
+            "card_id": "V1-CARD-0261",
+            "card_type": "work",
+            "content_markdown": "### 《无边的土地》｜Terras do sem-fim\\n\\n- 对象类型：`work`｜首版：1943｜体裁：长篇小说\\n- 研究基线：巴西国家图书馆与独立学术来源收敛于1943；1942异说仅留审计。",
+            "country_or_region": "巴西",
+            "genre_or_form": "长篇小说",
+            "input_layer": "WCD-07A",
+            "issue_code": "DISPUTED-YEAR-RESOLVED-1943",
+            "language": "pt",
+            "origin_card_id": "WCD07A-W06",
+            "original_title": "Terras do sem-fim",
+            "period_bucket": "1943",
+            "source_minimum_status": "meets",
+            "subject_id": "V1-ENT-0379",
+            "title_zh": "《无边的土地》"
+          }
+        ],
+        "entity_id": "V1-ENT-0379",
+        "entity_type": "work",
+        "facts": [
+          {
+            "admission_status": "batch_retained_candidate",
+            "card_id": "V1-CARD-0261",
+            "confidence": "high",
+            "fact_field": "entity_layer",
+            "fact_id": "V1-FCT-1029",
+            "material_class": "metadata",
+            "origin_id": "WCD07A-W06",
+            "origin_material_id": "WCD07A-F026",
+            "subject_id": "V1-ENT-0379",
+            "usage_note": "single novel",
+            "value_text": "work"
+          },
+          {
+            "admission_status": "batch_retained_candidate",
+            "card_id": "V1-CARD-0261",
+            "confidence": "high",
+            "fact_field": "first_publication_year",
+            "fact_id": "V1-FCT-1030",
+            "material_class": "bibliographic",
+            "origin_id": "WCD07A-W06",
+            "origin_material_id": "WCD07A-F027",
+            "subject_id": "V1-ENT-0379",
+            "usage_note": "two direct independent sources",
+            "value_text": "1943"
+          },
+          {
+            "admission_status": "batch_retained_candidate",
+            "card_id": "V1-CARD-0261",
+            "confidence": "high",
+            "fact_field": "genre_or_form",
+            "fact_id": "V1-FCT-1031",
+            "material_class": "bibliographic",
+            "origin_id": "WCD07A-W06",
+            "origin_material_id": "WCD07A-F028",
+            "subject_id": "V1-ENT-0379",
+            "usage_note": "both sources identify a novel",
+            "value_text": "长篇小说"
+          },
+          {
+            "admission_status": "batch_retained_candidate",
+            "card_id": "V1-CARD-0261",
+            "confidence": "high",
+            "fact_field": "bibliographic_note",
+            "fact_id": "V1-FCT-1032",
+            "material_class": "bibliographic_note",
+            "origin_id": "WCD07A-W06",
+            "origin_material_id": "WCD07A-F029",
+            "subject_id": "V1-ENT-0379",
+            "usage_note": "1942 dissent remains audit-only",
+            "value_text": "巴西国家图书馆与SciELO论文均记作品于1943年出版。"
+          },
+          {
+            "admission_status": "batch_retained_candidate",
+            "card_id": "V1-CARD-0261",
+            "confidence": "high",
+            "fact_field": "story_premise",
+            "fact_id": "V1-FCT-1033",
+            "material_class": "scholarly_paraphrase",
+            "origin_id": "WCD07A-W06",
+            "origin_material_id": "WCD07A-F030",
+            "subject_id": "V1-ENT-0379",
+            "usage_note": "no place or theme edge inferred",
+            "value_text": "小说以巴伊亚可可产区的土地争夺与地方上校政治为叙事背景。"
+          }
+        ],
+        "incoming_relations": [
+          {
+            "confidence": "high",
+            "description_zh": "若热·亚马多创作《无边的土地》",
+            "evidence_count": "2",
+            "issue_code": "NONE",
+            "object_id": "V1-ENT-0379",
+            "origin_layer": "WCD-07A",
+            "origin_relation_group_id": "WCD07A-R06",
+            "relation_type": "CREATED",
+            "relationship_id": "V1-REL-0336",
+            "review_status": "accepted",
+            "subject_id": "V1-ENT-0172",
+            "upstream_review_status": "CODEX-REVIEW-WCD07A-PASS"
+          }
+        ],
+        "issue_codes": "DISPUTED-YEAR-RESOLVED-1943",
+        "name_zh": "《无边的土地》",
+        "normalization_basis": "Brazilian National Library and independent SciELO scholarship establish the 1943 novel; Fujian Jiangxia University Library links the formal Chinese title and Wu Lao translation to Terras do sem fim",
+        "origin_count": "4",
+        "origin_refs": "WCD07A-W06",
+        "original_name": "Terras do sem-fim",
         "outgoing_relations": []
       }
     ]
@@ -95619,6 +96374,265 @@
         "source_minimum_status": "meets",
         "subject_id": "V1-ENT-0369",
         "title_zh": "《卡奈玛》"
+      },
+      {
+        "author_label": "卡洛斯·富恩特斯",
+        "card_id": "V1-CARD-0256",
+        "card_type": "work",
+        "content_markdown": "### 《我们的土地》｜Terra Nostra\\n\\n- 对象类型：`work`｜首版：1975｜体裁：长篇小说\\n- 研究基线：ELEM 与 UNAM 支持书目身份和三部结构；不拆子实体。",
+        "country_or_region": "墨西哥",
+        "facts": [
+          {
+            "admission_status": "batch_retained_candidate",
+            "card_id": "V1-CARD-0256",
+            "fact_id": "V1-FCT-1005"
+          },
+          {
+            "admission_status": "batch_retained_candidate",
+            "card_id": "V1-CARD-0256",
+            "fact_id": "V1-FCT-1006"
+          },
+          {
+            "admission_status": "batch_retained_candidate",
+            "card_id": "V1-CARD-0256",
+            "fact_id": "V1-FCT-1007"
+          },
+          {
+            "admission_status": "batch_retained_candidate",
+            "card_id": "V1-CARD-0256",
+            "fact_id": "V1-FCT-1008"
+          },
+          {
+            "admission_status": "batch_retained_candidate",
+            "card_id": "V1-CARD-0256",
+            "fact_id": "V1-FCT-1009"
+          }
+        ],
+        "genre_or_form": "长篇小说",
+        "input_layer": "WCD-07A",
+        "issue_code": "NONE",
+        "language": "es",
+        "origin_card_id": "WCD07A-W01",
+        "original_title": "Terra Nostra",
+        "period_bucket": "1975",
+        "source_minimum_status": "meets",
+        "subject_id": "V1-ENT-0374",
+        "title_zh": "《我们的土地》"
+      },
+      {
+        "author_label": "塞尔希奥·皮托尔",
+        "card_id": "V1-CARD-0257",
+        "card_type": "work",
+        "content_markdown": "### 《逃亡的艺术》｜El arte de la fuga\\n\\n- 对象类型：`work`｜首版：1996｜体裁：复合型散文\\n- 研究基线：一部在文学评论、阅读记忆与自传叙述间展开的独立著作。",
+        "country_or_region": "墨西哥",
+        "facts": [
+          {
+            "admission_status": "batch_retained_candidate",
+            "card_id": "V1-CARD-0257",
+            "fact_id": "V1-FCT-1010"
+          },
+          {
+            "admission_status": "batch_retained_candidate",
+            "card_id": "V1-CARD-0257",
+            "fact_id": "V1-FCT-1011"
+          },
+          {
+            "admission_status": "batch_retained_candidate",
+            "card_id": "V1-CARD-0257",
+            "fact_id": "V1-FCT-1012"
+          },
+          {
+            "admission_status": "batch_retained_candidate",
+            "card_id": "V1-CARD-0257",
+            "fact_id": "V1-FCT-1013"
+          },
+          {
+            "admission_status": "batch_retained_candidate",
+            "card_id": "V1-CARD-0257",
+            "fact_id": "V1-FCT-1014"
+          }
+        ],
+        "genre_or_form": "复合型散文",
+        "input_layer": "WCD-07A",
+        "issue_code": "NONE",
+        "language": "es",
+        "origin_card_id": "WCD07A-W02",
+        "original_title": "El arte de la fuga",
+        "period_bucket": "1996",
+        "source_minimum_status": "meets",
+        "subject_id": "V1-ENT-0375",
+        "title_zh": "《逃亡的艺术》"
+      },
+      {
+        "author_label": "何塞·马蒂",
+        "card_id": "V1-CARD-0258",
+        "card_type": "collection",
+        "content_markdown": "### 《自由诗》｜Versos libres\\n\\n- 对象类型：`collection`｜首版：1913（身后出版）｜体裁：诗集\\n- 研究基线：中文名仅作显示，不主张存在独立正式全本中译。",
+        "country_or_region": "古巴",
+        "facts": [
+          {
+            "admission_status": "batch_retained_candidate",
+            "card_id": "V1-CARD-0258",
+            "fact_id": "V1-FCT-1015"
+          },
+          {
+            "admission_status": "batch_retained_candidate",
+            "card_id": "V1-CARD-0258",
+            "fact_id": "V1-FCT-1016"
+          },
+          {
+            "admission_status": "batch_retained_candidate",
+            "card_id": "V1-CARD-0258",
+            "fact_id": "V1-FCT-1017"
+          },
+          {
+            "admission_status": "batch_retained_candidate",
+            "card_id": "V1-CARD-0258",
+            "fact_id": "V1-FCT-1018"
+          },
+          {
+            "admission_status": "batch_retained_candidate",
+            "card_id": "V1-CARD-0258",
+            "fact_id": "V1-FCT-1019"
+          }
+        ],
+        "genre_or_form": "诗集",
+        "input_layer": "WCD-07A",
+        "issue_code": "PROVISIONAL-ZH-DISPLAY",
+        "language": "es",
+        "origin_card_id": "WCD07A-W03",
+        "original_title": "Versos libres",
+        "period_bucket": "1913",
+        "source_minimum_status": "meets",
+        "subject_id": "V1-ENT-0376",
+        "title_zh": "《自由诗》"
+      },
+      {
+        "author_label": "马里奥·巴尔加斯·略萨",
+        "card_id": "V1-CARD-0259",
+        "card_type": "work",
+        "content_markdown": "### 《公羊的节日》｜La fiesta del Chivo\\n\\n- 对象类型：`work`｜首版：2000｜体裁：长篇小说\\n- 研究基线：小说围绕多米尼加共和国特鲁希略独裁统治及其余波展开。",
+        "country_or_region": "秘鲁",
+        "facts": [
+          {
+            "admission_status": "batch_retained_candidate",
+            "card_id": "V1-CARD-0259",
+            "fact_id": "V1-FCT-1020"
+          },
+          {
+            "admission_status": "batch_retained_candidate",
+            "card_id": "V1-CARD-0259",
+            "fact_id": "V1-FCT-1021"
+          },
+          {
+            "admission_status": "batch_retained_candidate",
+            "card_id": "V1-CARD-0259",
+            "fact_id": "V1-FCT-1022"
+          },
+          {
+            "admission_status": "batch_retained_candidate",
+            "card_id": "V1-CARD-0259",
+            "fact_id": "V1-FCT-1023"
+          },
+          {
+            "admission_status": "batch_retained_candidate",
+            "card_id": "V1-CARD-0259",
+            "fact_id": "V1-FCT-1024"
+          }
+        ],
+        "genre_or_form": "长篇小说",
+        "input_layer": "WCD-07A",
+        "issue_code": "NONE",
+        "language": "es",
+        "origin_card_id": "WCD07A-W04",
+        "original_title": "La fiesta del Chivo",
+        "period_bucket": "2000",
+        "source_minimum_status": "meets",
+        "subject_id": "V1-ENT-0377",
+        "title_zh": "《公羊的节日》"
+      },
+      {
+        "author_label": "何塞·玛丽亚·阿格达斯",
+        "card_id": "V1-CARD-0260",
+        "card_type": "work",
+        "content_markdown": "### 《山上的狐狸，山下的狐狸》｜El zorro de arriba y el zorro de abajo\\n\\n- 对象类型：`work`｜首版：1971｜体裁：长篇小说\\n- 研究基线：作为单一作品保留；日记结构事实因证据不足未准入。",
+        "country_or_region": "秘鲁",
+        "facts": [
+          {
+            "admission_status": "batch_retained_candidate",
+            "card_id": "V1-CARD-0260",
+            "fact_id": "V1-FCT-1025"
+          },
+          {
+            "admission_status": "batch_retained_candidate",
+            "card_id": "V1-CARD-0260",
+            "fact_id": "V1-FCT-1026"
+          },
+          {
+            "admission_status": "batch_retained_candidate",
+            "card_id": "V1-CARD-0260",
+            "fact_id": "V1-FCT-1027"
+          },
+          {
+            "admission_status": "batch_retained_candidate",
+            "card_id": "V1-CARD-0260",
+            "fact_id": "V1-FCT-1028"
+          }
+        ],
+        "genre_or_form": "长篇小说",
+        "input_layer": "WCD-07A",
+        "issue_code": "NONE",
+        "language": "es",
+        "origin_card_id": "WCD07A-W05",
+        "original_title": "El zorro de arriba y el zorro de abajo",
+        "period_bucket": "1971",
+        "source_minimum_status": "meets",
+        "subject_id": "V1-ENT-0378",
+        "title_zh": "《山上的狐狸，山下的狐狸》"
+      },
+      {
+        "author_label": "若热·亚马多",
+        "card_id": "V1-CARD-0261",
+        "card_type": "work",
+        "content_markdown": "### 《无边的土地》｜Terras do sem-fim\\n\\n- 对象类型：`work`｜首版：1943｜体裁：长篇小说\\n- 研究基线：巴西国家图书馆与独立学术来源收敛于1943；1942异说仅留审计。",
+        "country_or_region": "巴西",
+        "facts": [
+          {
+            "admission_status": "batch_retained_candidate",
+            "card_id": "V1-CARD-0261",
+            "fact_id": "V1-FCT-1029"
+          },
+          {
+            "admission_status": "batch_retained_candidate",
+            "card_id": "V1-CARD-0261",
+            "fact_id": "V1-FCT-1030"
+          },
+          {
+            "admission_status": "batch_retained_candidate",
+            "card_id": "V1-CARD-0261",
+            "fact_id": "V1-FCT-1031"
+          },
+          {
+            "admission_status": "batch_retained_candidate",
+            "card_id": "V1-CARD-0261",
+            "fact_id": "V1-FCT-1032"
+          },
+          {
+            "admission_status": "batch_retained_candidate",
+            "card_id": "V1-CARD-0261",
+            "fact_id": "V1-FCT-1033"
+          }
+        ],
+        "genre_or_form": "长篇小说",
+        "input_layer": "WCD-07A",
+        "issue_code": "DISPUTED-YEAR-RESOLVED-1943",
+        "language": "pt",
+        "origin_card_id": "WCD07A-W06",
+        "original_title": "Terras do sem-fim",
+        "period_bucket": "1943",
+        "source_minimum_status": "meets",
+        "subject_id": "V1-ENT-0379",
+        "title_zh": "《无边的土地》"
       }
     ],
     "entities": [
@@ -102439,6 +103453,20 @@
             "review_status": "accepted",
             "subject_id": "V1-ENT-0114",
             "upstream_review_status": "WEB-CE-B01"
+          },
+          {
+            "confidence": "high",
+            "description_zh": "马里奥·巴尔加斯·略萨创作《公羊的节日》",
+            "evidence_count": "2",
+            "issue_code": "NONE",
+            "object_id": "V1-ENT-0377",
+            "origin_layer": "WCD-07A",
+            "origin_relation_group_id": "WCD07A-R04",
+            "relation_type": "CREATED",
+            "relationship_id": "V1-REL-0334",
+            "review_status": "accepted",
+            "subject_id": "V1-ENT-0114",
+            "upstream_review_status": "CODEX-REVIEW-WCD07A-PASS"
           }
         ]
       },
@@ -104041,6 +105069,20 @@
             "review_status": "accepted",
             "subject_id": "V1-ENT-0145",
             "upstream_review_status": "WEB-CE-B01-HY3"
+          },
+          {
+            "confidence": "high",
+            "description_zh": "卡洛斯·富恩特斯创作《我们的土地》",
+            "evidence_count": "2",
+            "issue_code": "NONE",
+            "object_id": "V1-ENT-0374",
+            "origin_layer": "WCD-07A",
+            "origin_relation_group_id": "WCD07A-R01",
+            "relation_type": "CREATED",
+            "relationship_id": "V1-REL-0331",
+            "review_status": "accepted",
+            "subject_id": "V1-ENT-0145",
+            "upstream_review_status": "CODEX-REVIEW-WCD07A-PASS"
           }
         ]
       },
@@ -106719,6 +107761,20 @@
             "review_status": "accepted",
             "subject_id": "V1-ENT-0172",
             "upstream_review_status": "WEB-CE-B02"
+          },
+          {
+            "confidence": "high",
+            "description_zh": "若热·亚马多创作《无边的土地》",
+            "evidence_count": "2",
+            "issue_code": "NONE",
+            "object_id": "V1-ENT-0379",
+            "origin_layer": "WCD-07A",
+            "origin_relation_group_id": "WCD07A-R06",
+            "relation_type": "CREATED",
+            "relationship_id": "V1-REL-0336",
+            "review_status": "accepted",
+            "subject_id": "V1-ENT-0172",
+            "upstream_review_status": "CODEX-REVIEW-WCD07A-PASS"
           }
         ]
       },
@@ -111857,6 +112913,20 @@
             "review_status": "accepted",
             "subject_id": "V1-ENT-0225",
             "upstream_review_status": "WCD02-REVIEW-PASS"
+          },
+          {
+            "confidence": "high",
+            "description_zh": "何塞·马蒂创作《自由诗》",
+            "evidence_count": "2",
+            "issue_code": "NONE",
+            "object_id": "V1-ENT-0376",
+            "origin_layer": "WCD-07A",
+            "origin_relation_group_id": "WCD07A-R03",
+            "relation_type": "CREATED",
+            "relationship_id": "V1-REL-0333",
+            "review_status": "accepted",
+            "subject_id": "V1-ENT-0225",
+            "upstream_review_status": "CODEX-REVIEW-WCD07A-PASS"
           }
         ]
       },
@@ -114076,6 +115146,20 @@
             "review_status": "accepted",
             "subject_id": "V1-ENT-0248",
             "upstream_review_status": "WEB-CE-B08"
+          },
+          {
+            "confidence": "high",
+            "description_zh": "何塞·玛丽亚·阿格达斯创作《山上的狐狸，山下的狐狸》",
+            "evidence_count": "2",
+            "issue_code": "NONE",
+            "object_id": "V1-ENT-0378",
+            "origin_layer": "WCD-07A",
+            "origin_relation_group_id": "WCD07A-R05",
+            "relation_type": "CREATED",
+            "relationship_id": "V1-REL-0335",
+            "review_status": "accepted",
+            "subject_id": "V1-ENT-0248",
+            "upstream_review_status": "CODEX-REVIEW-WCD07A-PASS"
           }
         ]
       },
@@ -114232,6 +115316,20 @@
             "review_status": "accepted",
             "subject_id": "V1-ENT-0249",
             "upstream_review_status": "WEB-CE-B08"
+          },
+          {
+            "confidence": "high",
+            "description_zh": "塞尔希奥·皮托尔创作《逃亡的艺术》",
+            "evidence_count": "2",
+            "issue_code": "NONE",
+            "object_id": "V1-ENT-0375",
+            "origin_layer": "WCD-07A",
+            "origin_relation_group_id": "WCD07A-R02",
+            "relation_type": "CREATED",
+            "relationship_id": "V1-REL-0332",
+            "review_status": "accepted",
+            "subject_id": "V1-ENT-0249",
+            "upstream_review_status": "CODEX-REVIEW-WCD07A-PASS"
           }
         ]
       },
@@ -126332,6 +127430,677 @@
         "origin_count": "2",
         "origin_refs": "V1-FCT-0241;V1-FCT-0243",
         "original_name": "Paris"
+      },
+      {
+        "canonical_status": "candidate",
+        "content_cards": [
+          {
+            "author_label": "卡洛斯·富恩特斯",
+            "card_id": "V1-CARD-0256",
+            "card_type": "work",
+            "content_markdown": "### 《我们的土地》｜Terra Nostra\\n\\n- 对象类型：`work`｜首版：1975｜体裁：长篇小说\\n- 研究基线：ELEM 与 UNAM 支持书目身份和三部结构；不拆子实体。",
+            "country_or_region": "墨西哥",
+            "genre_or_form": "长篇小说",
+            "input_layer": "WCD-07A",
+            "issue_code": "NONE",
+            "language": "es",
+            "origin_card_id": "WCD07A-W01",
+            "original_title": "Terra Nostra",
+            "period_bucket": "1975",
+            "source_minimum_status": "meets",
+            "subject_id": "V1-ENT-0374",
+            "title_zh": "《我们的土地》"
+          }
+        ],
+        "entity_id": "V1-ENT-0374",
+        "entity_type": "work",
+        "facts": [
+          {
+            "admission_status": "batch_retained_candidate",
+            "card_id": "V1-CARD-0256",
+            "confidence": "high",
+            "fact_field": "entity_layer",
+            "fact_id": "V1-FCT-1005",
+            "material_class": "metadata",
+            "origin_id": "WCD07A-W01",
+            "origin_material_id": "WCD07A-F001",
+            "subject_id": "V1-ENT-0374",
+            "usage_note": "single novel; sections not split",
+            "value_text": "work"
+          },
+          {
+            "admission_status": "batch_retained_candidate",
+            "card_id": "V1-CARD-0256",
+            "confidence": "high",
+            "fact_field": "first_publication_year",
+            "fact_id": "V1-FCT-1006",
+            "material_class": "bibliographic",
+            "origin_id": "WCD07A-W01",
+            "origin_material_id": "WCD07A-F002",
+            "subject_id": "V1-ENT-0374",
+            "usage_note": "original publication only",
+            "value_text": "1975"
+          },
+          {
+            "admission_status": "batch_retained_candidate",
+            "card_id": "V1-CARD-0256",
+            "confidence": "high",
+            "fact_field": "genre_or_form",
+            "fact_id": "V1-FCT-1007",
+            "material_class": "bibliographic",
+            "origin_id": "WCD07A-W01",
+            "origin_material_id": "WCD07A-F003",
+            "subject_id": "V1-ENT-0374",
+            "usage_note": "institutional classification",
+            "value_text": "长篇小说"
+          },
+          {
+            "admission_status": "batch_retained_candidate",
+            "card_id": "V1-CARD-0256",
+            "confidence": "high",
+            "fact_field": "bibliographic_note",
+            "fact_id": "V1-FCT-1008",
+            "material_class": "bibliographic_note",
+            "origin_id": "WCD07A-W01",
+            "origin_material_id": "WCD07A-F004",
+            "subject_id": "V1-ENT-0374",
+            "usage_note": "later edition dates excluded",
+            "value_text": "1975年由Joaquín Mortiz与Seix Barral在墨西哥出版。"
+          },
+          {
+            "admission_status": "batch_retained_candidate",
+            "card_id": "V1-CARD-0256",
+            "confidence": "medium",
+            "fact_field": "story_premise",
+            "fact_id": "V1-FCT-1009",
+            "material_class": "institutional_paraphrase",
+            "origin_id": "WCD07A-W01",
+            "origin_material_id": "WCD07A-F005",
+            "subject_id": "V1-ENT-0374",
+            "usage_note": "no theme or child relation inferred",
+            "value_text": "小说以三部结构交织旧世界、新世界与另一个世界的历史文化经验。"
+          }
+        ],
+        "incoming_relations": [
+          {
+            "confidence": "high",
+            "description_zh": "卡洛斯·富恩特斯创作《我们的土地》",
+            "evidence_count": "2",
+            "issue_code": "NONE",
+            "object_id": "V1-ENT-0374",
+            "origin_layer": "WCD-07A",
+            "origin_relation_group_id": "WCD07A-R01",
+            "relation_type": "CREATED",
+            "relationship_id": "V1-REL-0331",
+            "review_status": "accepted",
+            "subject_id": "V1-ENT-0145",
+            "upstream_review_status": "CODEX-REVIEW-WCD07A-PASS"
+          }
+        ],
+        "issue_codes": "NONE",
+        "name_zh": "《我们的土地》",
+        "normalization_basis": "ELEM/UNAM establish the 1975 novel identity; China Writers supports the published Chinese display title",
+        "origin_count": "3",
+        "origin_refs": "WCD07A-W01",
+        "original_name": "Terra Nostra",
+        "outgoing_relations": []
+      },
+      {
+        "canonical_status": "candidate",
+        "content_cards": [
+          {
+            "author_label": "塞尔希奥·皮托尔",
+            "card_id": "V1-CARD-0257",
+            "card_type": "work",
+            "content_markdown": "### 《逃亡的艺术》｜El arte de la fuga\\n\\n- 对象类型：`work`｜首版：1996｜体裁：复合型散文\\n- 研究基线：一部在文学评论、阅读记忆与自传叙述间展开的独立著作。",
+            "country_or_region": "墨西哥",
+            "genre_or_form": "复合型散文",
+            "input_layer": "WCD-07A",
+            "issue_code": "NONE",
+            "language": "es",
+            "origin_card_id": "WCD07A-W02",
+            "original_title": "El arte de la fuga",
+            "period_bucket": "1996",
+            "source_minimum_status": "meets",
+            "subject_id": "V1-ENT-0375",
+            "title_zh": "《逃亡的艺术》"
+          }
+        ],
+        "entity_id": "V1-ENT-0375",
+        "entity_type": "work",
+        "facts": [
+          {
+            "admission_status": "batch_retained_candidate",
+            "card_id": "V1-CARD-0257",
+            "confidence": "high",
+            "fact_field": "entity_layer",
+            "fact_id": "V1-FCT-1010",
+            "material_class": "metadata",
+            "origin_id": "WCD07A-W02",
+            "origin_material_id": "WCD07A-F006",
+            "subject_id": "V1-ENT-0375",
+            "usage_note": "single hybrid book",
+            "value_text": "work"
+          },
+          {
+            "admission_status": "batch_retained_candidate",
+            "card_id": "V1-CARD-0257",
+            "confidence": "high",
+            "fact_field": "first_publication_year",
+            "fact_id": "V1-FCT-1011",
+            "material_class": "bibliographic",
+            "origin_id": "WCD07A-W02",
+            "origin_material_id": "WCD07A-F007",
+            "subject_id": "V1-ENT-0375",
+            "usage_note": "Era Mexico publication",
+            "value_text": "1996"
+          },
+          {
+            "admission_status": "batch_retained_candidate",
+            "card_id": "V1-CARD-0257",
+            "confidence": "medium",
+            "fact_field": "genre_or_form",
+            "fact_id": "V1-FCT-1012",
+            "material_class": "scholarly_paraphrase",
+            "origin_id": "WCD07A-W02",
+            "origin_material_id": "WCD07A-F008",
+            "subject_id": "V1-ENT-0375",
+            "usage_note": "not reduced to memoir",
+            "value_text": "复合型散文"
+          },
+          {
+            "admission_status": "batch_retained_candidate",
+            "card_id": "V1-CARD-0257",
+            "confidence": "high",
+            "fact_field": "bibliographic_note",
+            "fact_id": "V1-FCT-1013",
+            "material_class": "bibliographic_note",
+            "origin_id": "WCD07A-W02",
+            "origin_material_id": "WCD07A-F009",
+            "subject_id": "V1-ENT-0375",
+            "usage_note": "reuses SRC-0201",
+            "value_text": "Instituto Cervantes书目记录该书由Era于1996年在墨西哥出版。"
+          },
+          {
+            "admission_status": "batch_retained_candidate",
+            "card_id": "V1-CARD-0257",
+            "confidence": "medium",
+            "fact_field": "story_premise",
+            "fact_id": "V1-FCT-1014",
+            "material_class": "scholarly_paraphrase",
+            "origin_id": "WCD07A-W02",
+            "origin_material_id": "WCD07A-F010",
+            "subject_id": "V1-ENT-0375",
+            "usage_note": "bounded synthesis",
+            "value_text": "作品在文学评论、阅读记忆与自传叙述之间展开。"
+          }
+        ],
+        "incoming_relations": [
+          {
+            "confidence": "high",
+            "description_zh": "塞尔希奥·皮托尔创作《逃亡的艺术》",
+            "evidence_count": "2",
+            "issue_code": "NONE",
+            "object_id": "V1-ENT-0375",
+            "origin_layer": "WCD-07A",
+            "origin_relation_group_id": "WCD07A-R02",
+            "relation_type": "CREATED",
+            "relationship_id": "V1-REL-0332",
+            "review_status": "accepted",
+            "subject_id": "V1-ENT-0249",
+            "upstream_review_status": "CODEX-REVIEW-WCD07A-PASS"
+          }
+        ],
+        "issue_codes": "NONE",
+        "name_zh": "《逃亡的艺术》",
+        "normalization_basis": "CVC and UNAM establish one 1996 hybrid work; China Reading Weekly supports the published Chinese display title",
+        "origin_count": "3",
+        "origin_refs": "WCD07A-W02",
+        "original_name": "El arte de la fuga",
+        "outgoing_relations": []
+      },
+      {
+        "canonical_status": "candidate",
+        "content_cards": [
+          {
+            "author_label": "何塞·马蒂",
+            "card_id": "V1-CARD-0258",
+            "card_type": "collection",
+            "content_markdown": "### 《自由诗》｜Versos libres\\n\\n- 对象类型：`collection`｜首版：1913（身后出版）｜体裁：诗集\\n- 研究基线：中文名仅作显示，不主张存在独立正式全本中译。",
+            "country_or_region": "古巴",
+            "genre_or_form": "诗集",
+            "input_layer": "WCD-07A",
+            "issue_code": "PROVISIONAL-ZH-DISPLAY",
+            "language": "es",
+            "origin_card_id": "WCD07A-W03",
+            "original_title": "Versos libres",
+            "period_bucket": "1913",
+            "source_minimum_status": "meets",
+            "subject_id": "V1-ENT-0376",
+            "title_zh": "《自由诗》"
+          }
+        ],
+        "entity_id": "V1-ENT-0376",
+        "entity_type": "collection",
+        "facts": [
+          {
+            "admission_status": "batch_retained_candidate",
+            "card_id": "V1-CARD-0258",
+            "confidence": "high",
+            "fact_field": "entity_layer",
+            "fact_id": "V1-FCT-1015",
+            "material_class": "metadata",
+            "origin_id": "WCD07A-W03",
+            "origin_material_id": "WCD07A-F011",
+            "subject_id": "V1-ENT-0376",
+            "usage_note": "posthumous original collection",
+            "value_text": "collection"
+          },
+          {
+            "admission_status": "batch_retained_candidate",
+            "card_id": "V1-CARD-0258",
+            "confidence": "high",
+            "fact_field": "first_publication_year",
+            "fact_id": "V1-FCT-1016",
+            "material_class": "bibliographic",
+            "origin_id": "WCD07A-W03",
+            "origin_material_id": "WCD07A-F012",
+            "subject_id": "V1-ENT-0376",
+            "usage_note": "posthumous publication",
+            "value_text": "1913"
+          },
+          {
+            "admission_status": "batch_retained_candidate",
+            "card_id": "V1-CARD-0258",
+            "confidence": "high",
+            "fact_field": "genre_or_form",
+            "fact_id": "V1-FCT-1017",
+            "material_class": "bibliographic",
+            "origin_id": "WCD07A-W03",
+            "origin_material_id": "WCD07A-F013",
+            "subject_id": "V1-ENT-0376",
+            "usage_note": "original collection",
+            "value_text": "诗集"
+          },
+          {
+            "admission_status": "batch_retained_candidate",
+            "card_id": "V1-CARD-0258",
+            "confidence": "high",
+            "fact_field": "bibliographic_note",
+            "fact_id": "V1-FCT-1018",
+            "material_class": "bibliographic_note",
+            "origin_id": "WCD07A-W03",
+            "origin_material_id": "WCD07A-F014",
+            "subject_id": "V1-ENT-0376",
+            "usage_note": "composition and publication kept distinct",
+            "value_text": "诗作写于作者生前，几乎全部约作于1882年，并于1913年身后出版。"
+          },
+          {
+            "admission_status": "batch_retained_candidate",
+            "card_id": "V1-CARD-0258",
+            "confidence": "medium",
+            "fact_field": "story_premise",
+            "fact_id": "V1-FCT-1019",
+            "material_class": "scholarly_paraphrase",
+            "origin_id": "WCD07A-W03",
+            "origin_material_id": "WCD07A-F015",
+            "subject_id": "V1-ENT-0376",
+            "usage_note": "no movement relation inferred",
+            "value_text": "诗集以无韵十一音节诗及强烈跨行、意象构成其形式特征。"
+          }
+        ],
+        "incoming_relations": [
+          {
+            "confidence": "high",
+            "description_zh": "何塞·马蒂创作《自由诗》",
+            "evidence_count": "2",
+            "issue_code": "NONE",
+            "object_id": "V1-ENT-0376",
+            "origin_layer": "WCD-07A",
+            "origin_relation_group_id": "WCD07A-R03",
+            "relation_type": "CREATED",
+            "relationship_id": "V1-REL-0333",
+            "review_status": "accepted",
+            "subject_id": "V1-ENT-0225",
+            "upstream_review_status": "CODEX-REVIEW-WCD07A-PASS"
+          }
+        ],
+        "issue_codes": "PROVISIONAL-ZH-DISPLAY",
+        "name_zh": "《自由诗》",
+        "normalization_basis": "Two independently authored studies establish the posthumous 1913 poetry collection; Chinese is a display gloss, not a claimed edition",
+        "origin_count": "2",
+        "origin_refs": "WCD07A-W03",
+        "original_name": "Versos libres",
+        "outgoing_relations": []
+      },
+      {
+        "canonical_status": "candidate",
+        "content_cards": [
+          {
+            "author_label": "马里奥·巴尔加斯·略萨",
+            "card_id": "V1-CARD-0259",
+            "card_type": "work",
+            "content_markdown": "### 《公羊的节日》｜La fiesta del Chivo\\n\\n- 对象类型：`work`｜首版：2000｜体裁：长篇小说\\n- 研究基线：小说围绕多米尼加共和国特鲁希略独裁统治及其余波展开。",
+            "country_or_region": "秘鲁",
+            "genre_or_form": "长篇小说",
+            "input_layer": "WCD-07A",
+            "issue_code": "NONE",
+            "language": "es",
+            "origin_card_id": "WCD07A-W04",
+            "original_title": "La fiesta del Chivo",
+            "period_bucket": "2000",
+            "source_minimum_status": "meets",
+            "subject_id": "V1-ENT-0377",
+            "title_zh": "《公羊的节日》"
+          }
+        ],
+        "entity_id": "V1-ENT-0377",
+        "entity_type": "work",
+        "facts": [
+          {
+            "admission_status": "batch_retained_candidate",
+            "card_id": "V1-CARD-0259",
+            "confidence": "high",
+            "fact_field": "entity_layer",
+            "fact_id": "V1-FCT-1020",
+            "material_class": "metadata",
+            "origin_id": "WCD07A-W04",
+            "origin_material_id": "WCD07A-F016",
+            "subject_id": "V1-ENT-0377",
+            "usage_note": "single novel",
+            "value_text": "work"
+          },
+          {
+            "admission_status": "batch_retained_candidate",
+            "card_id": "V1-CARD-0259",
+            "confidence": "high",
+            "fact_field": "first_publication_year",
+            "fact_id": "V1-FCT-1021",
+            "material_class": "bibliographic",
+            "origin_id": "WCD07A-W04",
+            "origin_material_id": "WCD07A-F017",
+            "subject_id": "V1-ENT-0377",
+            "usage_note": "Nobel bibliography",
+            "value_text": "2000"
+          },
+          {
+            "admission_status": "batch_retained_candidate",
+            "card_id": "V1-CARD-0259",
+            "confidence": "high",
+            "fact_field": "genre_or_form",
+            "fact_id": "V1-FCT-1022",
+            "material_class": "bibliographic",
+            "origin_id": "WCD07A-W04",
+            "origin_material_id": "WCD07A-F018",
+            "subject_id": "V1-ENT-0377",
+            "usage_note": "publisher classification",
+            "value_text": "长篇小说"
+          },
+          {
+            "admission_status": "batch_retained_candidate",
+            "card_id": "V1-CARD-0259",
+            "confidence": "high",
+            "fact_field": "bibliographic_note",
+            "fact_id": "V1-FCT-1023",
+            "material_class": "bibliographic_note",
+            "origin_id": "WCD07A-W04",
+            "origin_material_id": "WCD07A-F019",
+            "subject_id": "V1-ENT-0377",
+            "usage_note": "direct bibliography",
+            "value_text": "诺贝尔奖官方书目记录该书2000年由马德里Alfaguara出版。"
+          },
+          {
+            "admission_status": "batch_retained_candidate",
+            "card_id": "V1-CARD-0259",
+            "confidence": "high",
+            "fact_field": "story_premise",
+            "fact_id": "V1-FCT-1024",
+            "material_class": "publisher_paraphrase",
+            "origin_id": "WCD07A-W04",
+            "origin_material_id": "WCD07A-F020",
+            "subject_id": "V1-ENT-0377",
+            "usage_note": "no event or place edge inferred",
+            "value_text": "小说围绕多米尼加共和国特鲁希略独裁统治及其余波展开。"
+          }
+        ],
+        "incoming_relations": [
+          {
+            "confidence": "high",
+            "description_zh": "马里奥·巴尔加斯·略萨创作《公羊的节日》",
+            "evidence_count": "2",
+            "issue_code": "NONE",
+            "object_id": "V1-ENT-0377",
+            "origin_layer": "WCD-07A",
+            "origin_relation_group_id": "WCD07A-R04",
+            "relation_type": "CREATED",
+            "relationship_id": "V1-REL-0334",
+            "review_status": "accepted",
+            "subject_id": "V1-ENT-0114",
+            "upstream_review_status": "CODEX-REVIEW-WCD07A-PASS"
+          }
+        ],
+        "issue_codes": "NONE",
+        "name_zh": "《公羊的节日》",
+        "normalization_basis": "Nobel and Alfaguara establish the 2000 novel identity; China Writers supports the published Chinese display title",
+        "origin_count": "3",
+        "origin_refs": "WCD07A-W04",
+        "original_name": "La fiesta del Chivo",
+        "outgoing_relations": []
+      },
+      {
+        "canonical_status": "candidate",
+        "content_cards": [
+          {
+            "author_label": "何塞·玛丽亚·阿格达斯",
+            "card_id": "V1-CARD-0260",
+            "card_type": "work",
+            "content_markdown": "### 《山上的狐狸，山下的狐狸》｜El zorro de arriba y el zorro de abajo\\n\\n- 对象类型：`work`｜首版：1971｜体裁：长篇小说\\n- 研究基线：作为单一作品保留；日记结构事实因证据不足未准入。",
+            "country_or_region": "秘鲁",
+            "genre_or_form": "长篇小说",
+            "input_layer": "WCD-07A",
+            "issue_code": "NONE",
+            "language": "es",
+            "origin_card_id": "WCD07A-W05",
+            "original_title": "El zorro de arriba y el zorro de abajo",
+            "period_bucket": "1971",
+            "source_minimum_status": "meets",
+            "subject_id": "V1-ENT-0378",
+            "title_zh": "《山上的狐狸，山下的狐狸》"
+          }
+        ],
+        "entity_id": "V1-ENT-0378",
+        "entity_type": "work",
+        "facts": [
+          {
+            "admission_status": "batch_retained_candidate",
+            "card_id": "V1-CARD-0260",
+            "confidence": "high",
+            "fact_field": "entity_layer",
+            "fact_id": "V1-FCT-1025",
+            "material_class": "metadata",
+            "origin_id": "WCD07A-W05",
+            "origin_material_id": "WCD07A-F021",
+            "subject_id": "V1-ENT-0378",
+            "usage_note": "single novel",
+            "value_text": "work"
+          },
+          {
+            "admission_status": "batch_retained_candidate",
+            "card_id": "V1-CARD-0260",
+            "confidence": "high",
+            "fact_field": "first_publication_year",
+            "fact_id": "V1-FCT-1026",
+            "material_class": "bibliographic",
+            "origin_id": "WCD07A-W05",
+            "origin_material_id": "WCD07A-F022",
+            "subject_id": "V1-ENT-0378",
+            "usage_note": "posthumous publication",
+            "value_text": "1971"
+          },
+          {
+            "admission_status": "batch_retained_candidate",
+            "card_id": "V1-CARD-0260",
+            "confidence": "high",
+            "fact_field": "genre_or_form",
+            "fact_id": "V1-FCT-1027",
+            "material_class": "bibliographic",
+            "origin_id": "WCD07A-W05",
+            "origin_material_id": "WCD07A-F023",
+            "subject_id": "V1-ENT-0378",
+            "usage_note": "national library and publisher classification",
+            "value_text": "长篇小说"
+          },
+          {
+            "admission_status": "batch_retained_candidate",
+            "card_id": "V1-CARD-0260",
+            "confidence": "high",
+            "fact_field": "bibliographic_note",
+            "fact_id": "V1-FCT-1028",
+            "material_class": "bibliographic_note",
+            "origin_id": "WCD07A-W05",
+            "origin_material_id": "WCD07A-F024",
+            "subject_id": "V1-ENT-0378",
+            "usage_note": "unsupported diary-year claim excluded",
+            "value_text": "作品于1971年出版；Editorial Losada将其作为作者的文学遗嘱介绍。"
+          }
+        ],
+        "incoming_relations": [
+          {
+            "confidence": "high",
+            "description_zh": "何塞·玛丽亚·阿格达斯创作《山上的狐狸，山下的狐狸》",
+            "evidence_count": "2",
+            "issue_code": "NONE",
+            "object_id": "V1-ENT-0378",
+            "origin_layer": "WCD-07A",
+            "origin_relation_group_id": "WCD07A-R05",
+            "relation_type": "CREATED",
+            "relationship_id": "V1-REL-0335",
+            "review_status": "accepted",
+            "subject_id": "V1-ENT-0248",
+            "upstream_review_status": "CODEX-REVIEW-WCD07A-PASS"
+          }
+        ],
+        "issue_codes": "NONE",
+        "name_zh": "《山上的狐狸，山下的狐狸》",
+        "normalization_basis": "BNP and Losada establish one 1971 novel; Zhejiang Xinhua institutional catalog documents the 2024 People's Literature Publishing House Chinese title, Zhu Jinyu translation, and ISBN 9787020186723",
+        "origin_count": "3",
+        "origin_refs": "WCD07A-W05",
+        "original_name": "El zorro de arriba y el zorro de abajo",
+        "outgoing_relations": []
+      },
+      {
+        "canonical_status": "candidate",
+        "content_cards": [
+          {
+            "author_label": "若热·亚马多",
+            "card_id": "V1-CARD-0261",
+            "card_type": "work",
+            "content_markdown": "### 《无边的土地》｜Terras do sem-fim\\n\\n- 对象类型：`work`｜首版：1943｜体裁：长篇小说\\n- 研究基线：巴西国家图书馆与独立学术来源收敛于1943；1942异说仅留审计。",
+            "country_or_region": "巴西",
+            "genre_or_form": "长篇小说",
+            "input_layer": "WCD-07A",
+            "issue_code": "DISPUTED-YEAR-RESOLVED-1943",
+            "language": "pt",
+            "origin_card_id": "WCD07A-W06",
+            "original_title": "Terras do sem-fim",
+            "period_bucket": "1943",
+            "source_minimum_status": "meets",
+            "subject_id": "V1-ENT-0379",
+            "title_zh": "《无边的土地》"
+          }
+        ],
+        "entity_id": "V1-ENT-0379",
+        "entity_type": "work",
+        "facts": [
+          {
+            "admission_status": "batch_retained_candidate",
+            "card_id": "V1-CARD-0261",
+            "confidence": "high",
+            "fact_field": "entity_layer",
+            "fact_id": "V1-FCT-1029",
+            "material_class": "metadata",
+            "origin_id": "WCD07A-W06",
+            "origin_material_id": "WCD07A-F026",
+            "subject_id": "V1-ENT-0379",
+            "usage_note": "single novel",
+            "value_text": "work"
+          },
+          {
+            "admission_status": "batch_retained_candidate",
+            "card_id": "V1-CARD-0261",
+            "confidence": "high",
+            "fact_field": "first_publication_year",
+            "fact_id": "V1-FCT-1030",
+            "material_class": "bibliographic",
+            "origin_id": "WCD07A-W06",
+            "origin_material_id": "WCD07A-F027",
+            "subject_id": "V1-ENT-0379",
+            "usage_note": "two direct independent sources",
+            "value_text": "1943"
+          },
+          {
+            "admission_status": "batch_retained_candidate",
+            "card_id": "V1-CARD-0261",
+            "confidence": "high",
+            "fact_field": "genre_or_form",
+            "fact_id": "V1-FCT-1031",
+            "material_class": "bibliographic",
+            "origin_id": "WCD07A-W06",
+            "origin_material_id": "WCD07A-F028",
+            "subject_id": "V1-ENT-0379",
+            "usage_note": "both sources identify a novel",
+            "value_text": "长篇小说"
+          },
+          {
+            "admission_status": "batch_retained_candidate",
+            "card_id": "V1-CARD-0261",
+            "confidence": "high",
+            "fact_field": "bibliographic_note",
+            "fact_id": "V1-FCT-1032",
+            "material_class": "bibliographic_note",
+            "origin_id": "WCD07A-W06",
+            "origin_material_id": "WCD07A-F029",
+            "subject_id": "V1-ENT-0379",
+            "usage_note": "1942 dissent remains audit-only",
+            "value_text": "巴西国家图书馆与SciELO论文均记作品于1943年出版。"
+          },
+          {
+            "admission_status": "batch_retained_candidate",
+            "card_id": "V1-CARD-0261",
+            "confidence": "high",
+            "fact_field": "story_premise",
+            "fact_id": "V1-FCT-1033",
+            "material_class": "scholarly_paraphrase",
+            "origin_id": "WCD07A-W06",
+            "origin_material_id": "WCD07A-F030",
+            "subject_id": "V1-ENT-0379",
+            "usage_note": "no place or theme edge inferred",
+            "value_text": "小说以巴伊亚可可产区的土地争夺与地方上校政治为叙事背景。"
+          }
+        ],
+        "incoming_relations": [
+          {
+            "confidence": "high",
+            "description_zh": "若热·亚马多创作《无边的土地》",
+            "evidence_count": "2",
+            "issue_code": "NONE",
+            "object_id": "V1-ENT-0379",
+            "origin_layer": "WCD-07A",
+            "origin_relation_group_id": "WCD07A-R06",
+            "relation_type": "CREATED",
+            "relationship_id": "V1-REL-0336",
+            "review_status": "accepted",
+            "subject_id": "V1-ENT-0172",
+            "upstream_review_status": "CODEX-REVIEW-WCD07A-PASS"
+          }
+        ],
+        "issue_codes": "DISPUTED-YEAR-RESOLVED-1943",
+        "name_zh": "《无边的土地》",
+        "normalization_basis": "Brazilian National Library and independent SciELO scholarship establish the 1943 novel; Fujian Jiangxia University Library links the formal Chinese title and Wu Lao translation to Terras do sem fim",
+        "origin_count": "4",
+        "origin_refs": "WCD07A-W06",
+        "original_name": "Terras do sem-fim",
+        "outgoing_relations": []
       }
     ],
     "facts": [
@@ -146473,6 +148242,676 @@
         "subject_id": "V1-ENT-0344",
         "usage_note": "China Writers Net obituary records Luis Sepúlveda's death in 2020.",
         "value_text": "2020"
+      },
+      {
+        "admission_status": "batch_retained_candidate",
+        "card_id": "V1-CARD-0256",
+        "confidence": "high",
+        "fact_field": "entity_layer",
+        "fact_id": "V1-FCT-1005",
+        "material_class": "metadata",
+        "origin_id": "WCD07A-W01",
+        "origin_material_id": "WCD07A-F001",
+        "sources": [
+          {
+            "fact_id": "V1-FCT-1005",
+            "source_id": "SRC-0301",
+            "source_title": "Terra Nostra — Detalle de la obra"
+          },
+          {
+            "fact_id": "V1-FCT-1005",
+            "source_id": "SRC-0302",
+            "source_title": "La Cátedra Carlos Fuentes celebrará el 50 aniversario de Terra Nostra"
+          }
+        ],
+        "subject_id": "V1-ENT-0374",
+        "usage_note": "single novel; sections not split",
+        "value_text": "work"
+      },
+      {
+        "admission_status": "batch_retained_candidate",
+        "card_id": "V1-CARD-0256",
+        "confidence": "high",
+        "fact_field": "first_publication_year",
+        "fact_id": "V1-FCT-1006",
+        "material_class": "bibliographic",
+        "origin_id": "WCD07A-W01",
+        "origin_material_id": "WCD07A-F002",
+        "sources": [
+          {
+            "fact_id": "V1-FCT-1006",
+            "source_id": "SRC-0301",
+            "source_title": "Terra Nostra — Detalle de la obra"
+          },
+          {
+            "fact_id": "V1-FCT-1006",
+            "source_id": "SRC-0302",
+            "source_title": "La Cátedra Carlos Fuentes celebrará el 50 aniversario de Terra Nostra"
+          }
+        ],
+        "subject_id": "V1-ENT-0374",
+        "usage_note": "original publication only",
+        "value_text": "1975"
+      },
+      {
+        "admission_status": "batch_retained_candidate",
+        "card_id": "V1-CARD-0256",
+        "confidence": "high",
+        "fact_field": "genre_or_form",
+        "fact_id": "V1-FCT-1007",
+        "material_class": "bibliographic",
+        "origin_id": "WCD07A-W01",
+        "origin_material_id": "WCD07A-F003",
+        "sources": [
+          {
+            "fact_id": "V1-FCT-1007",
+            "source_id": "SRC-0301",
+            "source_title": "Terra Nostra — Detalle de la obra"
+          }
+        ],
+        "subject_id": "V1-ENT-0374",
+        "usage_note": "institutional classification",
+        "value_text": "长篇小说"
+      },
+      {
+        "admission_status": "batch_retained_candidate",
+        "card_id": "V1-CARD-0256",
+        "confidence": "high",
+        "fact_field": "bibliographic_note",
+        "fact_id": "V1-FCT-1008",
+        "material_class": "bibliographic_note",
+        "origin_id": "WCD07A-W01",
+        "origin_material_id": "WCD07A-F004",
+        "sources": [
+          {
+            "fact_id": "V1-FCT-1008",
+            "source_id": "SRC-0301",
+            "source_title": "Terra Nostra — Detalle de la obra"
+          }
+        ],
+        "subject_id": "V1-ENT-0374",
+        "usage_note": "later edition dates excluded",
+        "value_text": "1975年由Joaquín Mortiz与Seix Barral在墨西哥出版。"
+      },
+      {
+        "admission_status": "batch_retained_candidate",
+        "card_id": "V1-CARD-0256",
+        "confidence": "medium",
+        "fact_field": "story_premise",
+        "fact_id": "V1-FCT-1009",
+        "material_class": "institutional_paraphrase",
+        "origin_id": "WCD07A-W01",
+        "origin_material_id": "WCD07A-F005",
+        "sources": [
+          {
+            "fact_id": "V1-FCT-1009",
+            "source_id": "SRC-0302",
+            "source_title": "La Cátedra Carlos Fuentes celebrará el 50 aniversario de Terra Nostra"
+          }
+        ],
+        "subject_id": "V1-ENT-0374",
+        "usage_note": "no theme or child relation inferred",
+        "value_text": "小说以三部结构交织旧世界、新世界与另一个世界的历史文化经验。"
+      },
+      {
+        "admission_status": "batch_retained_candidate",
+        "card_id": "V1-CARD-0257",
+        "confidence": "high",
+        "fact_field": "entity_layer",
+        "fact_id": "V1-FCT-1010",
+        "material_class": "metadata",
+        "origin_id": "WCD07A-W02",
+        "origin_material_id": "WCD07A-F006",
+        "sources": [
+          {
+            "fact_id": "V1-FCT-1010",
+            "source_id": "SRC-0201",
+            "source_title": "CVC. Sergio Pitol. Bibliografía"
+          },
+          {
+            "fact_id": "V1-FCT-1010",
+            "source_id": "SRC-0304",
+            "source_title": "Sergio Pitol. El arte de la fuga"
+          }
+        ],
+        "subject_id": "V1-ENT-0375",
+        "usage_note": "single hybrid book",
+        "value_text": "work"
+      },
+      {
+        "admission_status": "batch_retained_candidate",
+        "card_id": "V1-CARD-0257",
+        "confidence": "high",
+        "fact_field": "first_publication_year",
+        "fact_id": "V1-FCT-1011",
+        "material_class": "bibliographic",
+        "origin_id": "WCD07A-W02",
+        "origin_material_id": "WCD07A-F007",
+        "sources": [
+          {
+            "fact_id": "V1-FCT-1011",
+            "source_id": "SRC-0201",
+            "source_title": "CVC. Sergio Pitol. Bibliografía"
+          },
+          {
+            "fact_id": "V1-FCT-1011",
+            "source_id": "SRC-0304",
+            "source_title": "Sergio Pitol. El arte de la fuga"
+          }
+        ],
+        "subject_id": "V1-ENT-0375",
+        "usage_note": "Era Mexico publication",
+        "value_text": "1996"
+      },
+      {
+        "admission_status": "batch_retained_candidate",
+        "card_id": "V1-CARD-0257",
+        "confidence": "medium",
+        "fact_field": "genre_or_form",
+        "fact_id": "V1-FCT-1012",
+        "material_class": "scholarly_paraphrase",
+        "origin_id": "WCD07A-W02",
+        "origin_material_id": "WCD07A-F008",
+        "sources": [
+          {
+            "fact_id": "V1-FCT-1012",
+            "source_id": "SRC-0304",
+            "source_title": "Sergio Pitol. El arte de la fuga"
+          }
+        ],
+        "subject_id": "V1-ENT-0375",
+        "usage_note": "not reduced to memoir",
+        "value_text": "复合型散文"
+      },
+      {
+        "admission_status": "batch_retained_candidate",
+        "card_id": "V1-CARD-0257",
+        "confidence": "high",
+        "fact_field": "bibliographic_note",
+        "fact_id": "V1-FCT-1013",
+        "material_class": "bibliographic_note",
+        "origin_id": "WCD07A-W02",
+        "origin_material_id": "WCD07A-F009",
+        "sources": [
+          {
+            "fact_id": "V1-FCT-1013",
+            "source_id": "SRC-0201",
+            "source_title": "CVC. Sergio Pitol. Bibliografía"
+          }
+        ],
+        "subject_id": "V1-ENT-0375",
+        "usage_note": "reuses SRC-0201",
+        "value_text": "Instituto Cervantes书目记录该书由Era于1996年在墨西哥出版。"
+      },
+      {
+        "admission_status": "batch_retained_candidate",
+        "card_id": "V1-CARD-0257",
+        "confidence": "medium",
+        "fact_field": "story_premise",
+        "fact_id": "V1-FCT-1014",
+        "material_class": "scholarly_paraphrase",
+        "origin_id": "WCD07A-W02",
+        "origin_material_id": "WCD07A-F010",
+        "sources": [
+          {
+            "fact_id": "V1-FCT-1014",
+            "source_id": "SRC-0304",
+            "source_title": "Sergio Pitol. El arte de la fuga"
+          }
+        ],
+        "subject_id": "V1-ENT-0375",
+        "usage_note": "bounded synthesis",
+        "value_text": "作品在文学评论、阅读记忆与自传叙述之间展开。"
+      },
+      {
+        "admission_status": "batch_retained_candidate",
+        "card_id": "V1-CARD-0258",
+        "confidence": "high",
+        "fact_field": "entity_layer",
+        "fact_id": "V1-FCT-1015",
+        "material_class": "metadata",
+        "origin_id": "WCD07A-W03",
+        "origin_material_id": "WCD07A-F011",
+        "sources": [
+          {
+            "fact_id": "V1-FCT-1015",
+            "source_id": "SRC-0306",
+            "source_title": "Tradición y modernidad en los Versos libres"
+          },
+          {
+            "fact_id": "V1-FCT-1015",
+            "source_id": "SRC-0307",
+            "source_title": "Introducción a la literatura cubana"
+          }
+        ],
+        "subject_id": "V1-ENT-0376",
+        "usage_note": "posthumous original collection",
+        "value_text": "collection"
+      },
+      {
+        "admission_status": "batch_retained_candidate",
+        "card_id": "V1-CARD-0258",
+        "confidence": "high",
+        "fact_field": "first_publication_year",
+        "fact_id": "V1-FCT-1016",
+        "material_class": "bibliographic",
+        "origin_id": "WCD07A-W03",
+        "origin_material_id": "WCD07A-F012",
+        "sources": [
+          {
+            "fact_id": "V1-FCT-1016",
+            "source_id": "SRC-0306",
+            "source_title": "Tradición y modernidad en los Versos libres"
+          },
+          {
+            "fact_id": "V1-FCT-1016",
+            "source_id": "SRC-0307",
+            "source_title": "Introducción a la literatura cubana"
+          }
+        ],
+        "subject_id": "V1-ENT-0376",
+        "usage_note": "posthumous publication",
+        "value_text": "1913"
+      },
+      {
+        "admission_status": "batch_retained_candidate",
+        "card_id": "V1-CARD-0258",
+        "confidence": "high",
+        "fact_field": "genre_or_form",
+        "fact_id": "V1-FCT-1017",
+        "material_class": "bibliographic",
+        "origin_id": "WCD07A-W03",
+        "origin_material_id": "WCD07A-F013",
+        "sources": [
+          {
+            "fact_id": "V1-FCT-1017",
+            "source_id": "SRC-0306",
+            "source_title": "Tradición y modernidad en los Versos libres"
+          },
+          {
+            "fact_id": "V1-FCT-1017",
+            "source_id": "SRC-0307",
+            "source_title": "Introducción a la literatura cubana"
+          }
+        ],
+        "subject_id": "V1-ENT-0376",
+        "usage_note": "original collection",
+        "value_text": "诗集"
+      },
+      {
+        "admission_status": "batch_retained_candidate",
+        "card_id": "V1-CARD-0258",
+        "confidence": "high",
+        "fact_field": "bibliographic_note",
+        "fact_id": "V1-FCT-1018",
+        "material_class": "bibliographic_note",
+        "origin_id": "WCD07A-W03",
+        "origin_material_id": "WCD07A-F014",
+        "sources": [
+          {
+            "fact_id": "V1-FCT-1018",
+            "source_id": "SRC-0306",
+            "source_title": "Tradición y modernidad en los Versos libres"
+          },
+          {
+            "fact_id": "V1-FCT-1018",
+            "source_id": "SRC-0307",
+            "source_title": "Introducción a la literatura cubana"
+          }
+        ],
+        "subject_id": "V1-ENT-0376",
+        "usage_note": "composition and publication kept distinct",
+        "value_text": "诗作写于作者生前，几乎全部约作于1882年，并于1913年身后出版。"
+      },
+      {
+        "admission_status": "batch_retained_candidate",
+        "card_id": "V1-CARD-0258",
+        "confidence": "medium",
+        "fact_field": "story_premise",
+        "fact_id": "V1-FCT-1019",
+        "material_class": "scholarly_paraphrase",
+        "origin_id": "WCD07A-W03",
+        "origin_material_id": "WCD07A-F015",
+        "sources": [
+          {
+            "fact_id": "V1-FCT-1019",
+            "source_id": "SRC-0307",
+            "source_title": "Introducción a la literatura cubana"
+          }
+        ],
+        "subject_id": "V1-ENT-0376",
+        "usage_note": "no movement relation inferred",
+        "value_text": "诗集以无韵十一音节诗及强烈跨行、意象构成其形式特征。"
+      },
+      {
+        "admission_status": "batch_retained_candidate",
+        "card_id": "V1-CARD-0259",
+        "confidence": "high",
+        "fact_field": "entity_layer",
+        "fact_id": "V1-FCT-1020",
+        "material_class": "metadata",
+        "origin_id": "WCD07A-W04",
+        "origin_material_id": "WCD07A-F016",
+        "sources": [
+          {
+            "fact_id": "V1-FCT-1020",
+            "source_id": "SRC-0308",
+            "source_title": "The Nobel Prize in Literature 2010 — Bio-bibliographical notes"
+          },
+          {
+            "fact_id": "V1-FCT-1020",
+            "source_id": "SRC-0309",
+            "source_title": "La fiesta del Chivo"
+          }
+        ],
+        "subject_id": "V1-ENT-0377",
+        "usage_note": "single novel",
+        "value_text": "work"
+      },
+      {
+        "admission_status": "batch_retained_candidate",
+        "card_id": "V1-CARD-0259",
+        "confidence": "high",
+        "fact_field": "first_publication_year",
+        "fact_id": "V1-FCT-1021",
+        "material_class": "bibliographic",
+        "origin_id": "WCD07A-W04",
+        "origin_material_id": "WCD07A-F017",
+        "sources": [
+          {
+            "fact_id": "V1-FCT-1021",
+            "source_id": "SRC-0308",
+            "source_title": "The Nobel Prize in Literature 2010 — Bio-bibliographical notes"
+          },
+          {
+            "fact_id": "V1-FCT-1021",
+            "source_id": "SRC-0309",
+            "source_title": "La fiesta del Chivo"
+          }
+        ],
+        "subject_id": "V1-ENT-0377",
+        "usage_note": "Nobel bibliography",
+        "value_text": "2000"
+      },
+      {
+        "admission_status": "batch_retained_candidate",
+        "card_id": "V1-CARD-0259",
+        "confidence": "high",
+        "fact_field": "genre_or_form",
+        "fact_id": "V1-FCT-1022",
+        "material_class": "bibliographic",
+        "origin_id": "WCD07A-W04",
+        "origin_material_id": "WCD07A-F018",
+        "sources": [
+          {
+            "fact_id": "V1-FCT-1022",
+            "source_id": "SRC-0309",
+            "source_title": "La fiesta del Chivo"
+          }
+        ],
+        "subject_id": "V1-ENT-0377",
+        "usage_note": "publisher classification",
+        "value_text": "长篇小说"
+      },
+      {
+        "admission_status": "batch_retained_candidate",
+        "card_id": "V1-CARD-0259",
+        "confidence": "high",
+        "fact_field": "bibliographic_note",
+        "fact_id": "V1-FCT-1023",
+        "material_class": "bibliographic_note",
+        "origin_id": "WCD07A-W04",
+        "origin_material_id": "WCD07A-F019",
+        "sources": [
+          {
+            "fact_id": "V1-FCT-1023",
+            "source_id": "SRC-0308",
+            "source_title": "The Nobel Prize in Literature 2010 — Bio-bibliographical notes"
+          }
+        ],
+        "subject_id": "V1-ENT-0377",
+        "usage_note": "direct bibliography",
+        "value_text": "诺贝尔奖官方书目记录该书2000年由马德里Alfaguara出版。"
+      },
+      {
+        "admission_status": "batch_retained_candidate",
+        "card_id": "V1-CARD-0259",
+        "confidence": "high",
+        "fact_field": "story_premise",
+        "fact_id": "V1-FCT-1024",
+        "material_class": "publisher_paraphrase",
+        "origin_id": "WCD07A-W04",
+        "origin_material_id": "WCD07A-F020",
+        "sources": [
+          {
+            "fact_id": "V1-FCT-1024",
+            "source_id": "SRC-0309",
+            "source_title": "La fiesta del Chivo"
+          }
+        ],
+        "subject_id": "V1-ENT-0377",
+        "usage_note": "no event or place edge inferred",
+        "value_text": "小说围绕多米尼加共和国特鲁希略独裁统治及其余波展开。"
+      },
+      {
+        "admission_status": "batch_retained_candidate",
+        "card_id": "V1-CARD-0260",
+        "confidence": "high",
+        "fact_field": "entity_layer",
+        "fact_id": "V1-FCT-1025",
+        "material_class": "metadata",
+        "origin_id": "WCD07A-W05",
+        "origin_material_id": "WCD07A-F021",
+        "sources": [
+          {
+            "fact_id": "V1-FCT-1025",
+            "source_id": "SRC-0311",
+            "source_title": "El zorro de arriba y el zorro de abajo — BNP Digital"
+          },
+          {
+            "fact_id": "V1-FCT-1025",
+            "source_id": "SRC-0312",
+            "source_title": "El zorro de arriba y el zorro de abajo"
+          }
+        ],
+        "subject_id": "V1-ENT-0378",
+        "usage_note": "single novel",
+        "value_text": "work"
+      },
+      {
+        "admission_status": "batch_retained_candidate",
+        "card_id": "V1-CARD-0260",
+        "confidence": "high",
+        "fact_field": "first_publication_year",
+        "fact_id": "V1-FCT-1026",
+        "material_class": "bibliographic",
+        "origin_id": "WCD07A-W05",
+        "origin_material_id": "WCD07A-F022",
+        "sources": [
+          {
+            "fact_id": "V1-FCT-1026",
+            "source_id": "SRC-0311",
+            "source_title": "El zorro de arriba y el zorro de abajo — BNP Digital"
+          }
+        ],
+        "subject_id": "V1-ENT-0378",
+        "usage_note": "posthumous publication",
+        "value_text": "1971"
+      },
+      {
+        "admission_status": "batch_retained_candidate",
+        "card_id": "V1-CARD-0260",
+        "confidence": "high",
+        "fact_field": "genre_or_form",
+        "fact_id": "V1-FCT-1027",
+        "material_class": "bibliographic",
+        "origin_id": "WCD07A-W05",
+        "origin_material_id": "WCD07A-F023",
+        "sources": [
+          {
+            "fact_id": "V1-FCT-1027",
+            "source_id": "SRC-0311",
+            "source_title": "El zorro de arriba y el zorro de abajo — BNP Digital"
+          },
+          {
+            "fact_id": "V1-FCT-1027",
+            "source_id": "SRC-0312",
+            "source_title": "El zorro de arriba y el zorro de abajo"
+          }
+        ],
+        "subject_id": "V1-ENT-0378",
+        "usage_note": "national library and publisher classification",
+        "value_text": "长篇小说"
+      },
+      {
+        "admission_status": "batch_retained_candidate",
+        "card_id": "V1-CARD-0260",
+        "confidence": "high",
+        "fact_field": "bibliographic_note",
+        "fact_id": "V1-FCT-1028",
+        "material_class": "bibliographic_note",
+        "origin_id": "WCD07A-W05",
+        "origin_material_id": "WCD07A-F024",
+        "sources": [
+          {
+            "fact_id": "V1-FCT-1028",
+            "source_id": "SRC-0311",
+            "source_title": "El zorro de arriba y el zorro de abajo — BNP Digital"
+          },
+          {
+            "fact_id": "V1-FCT-1028",
+            "source_id": "SRC-0312",
+            "source_title": "El zorro de arriba y el zorro de abajo"
+          }
+        ],
+        "subject_id": "V1-ENT-0378",
+        "usage_note": "unsupported diary-year claim excluded",
+        "value_text": "作品于1971年出版；Editorial Losada将其作为作者的文学遗嘱介绍。"
+      },
+      {
+        "admission_status": "batch_retained_candidate",
+        "card_id": "V1-CARD-0261",
+        "confidence": "high",
+        "fact_field": "entity_layer",
+        "fact_id": "V1-FCT-1029",
+        "material_class": "metadata",
+        "origin_id": "WCD07A-W06",
+        "origin_material_id": "WCD07A-F026",
+        "sources": [
+          {
+            "fact_id": "V1-FCT-1029",
+            "source_id": "SRC-0313",
+            "source_title": "Literatura — Jorge Amado: um sem-fim de romances"
+          },
+          {
+            "fact_id": "V1-FCT-1029",
+            "source_id": "SRC-0314",
+            "source_title": "Terras adubadas com sangue: o coronelismo em Terras do sem fim"
+          }
+        ],
+        "subject_id": "V1-ENT-0379",
+        "usage_note": "single novel",
+        "value_text": "work"
+      },
+      {
+        "admission_status": "batch_retained_candidate",
+        "card_id": "V1-CARD-0261",
+        "confidence": "high",
+        "fact_field": "first_publication_year",
+        "fact_id": "V1-FCT-1030",
+        "material_class": "bibliographic",
+        "origin_id": "WCD07A-W06",
+        "origin_material_id": "WCD07A-F027",
+        "sources": [
+          {
+            "fact_id": "V1-FCT-1030",
+            "source_id": "SRC-0313",
+            "source_title": "Literatura — Jorge Amado: um sem-fim de romances"
+          },
+          {
+            "fact_id": "V1-FCT-1030",
+            "source_id": "SRC-0314",
+            "source_title": "Terras adubadas com sangue: o coronelismo em Terras do sem fim"
+          }
+        ],
+        "subject_id": "V1-ENT-0379",
+        "usage_note": "two direct independent sources",
+        "value_text": "1943"
+      },
+      {
+        "admission_status": "batch_retained_candidate",
+        "card_id": "V1-CARD-0261",
+        "confidence": "high",
+        "fact_field": "genre_or_form",
+        "fact_id": "V1-FCT-1031",
+        "material_class": "bibliographic",
+        "origin_id": "WCD07A-W06",
+        "origin_material_id": "WCD07A-F028",
+        "sources": [
+          {
+            "fact_id": "V1-FCT-1031",
+            "source_id": "SRC-0313",
+            "source_title": "Literatura — Jorge Amado: um sem-fim de romances"
+          },
+          {
+            "fact_id": "V1-FCT-1031",
+            "source_id": "SRC-0314",
+            "source_title": "Terras adubadas com sangue: o coronelismo em Terras do sem fim"
+          }
+        ],
+        "subject_id": "V1-ENT-0379",
+        "usage_note": "both sources identify a novel",
+        "value_text": "长篇小说"
+      },
+      {
+        "admission_status": "batch_retained_candidate",
+        "card_id": "V1-CARD-0261",
+        "confidence": "high",
+        "fact_field": "bibliographic_note",
+        "fact_id": "V1-FCT-1032",
+        "material_class": "bibliographic_note",
+        "origin_id": "WCD07A-W06",
+        "origin_material_id": "WCD07A-F029",
+        "sources": [
+          {
+            "fact_id": "V1-FCT-1032",
+            "source_id": "SRC-0313",
+            "source_title": "Literatura — Jorge Amado: um sem-fim de romances"
+          },
+          {
+            "fact_id": "V1-FCT-1032",
+            "source_id": "SRC-0314",
+            "source_title": "Terras adubadas com sangue: o coronelismo em Terras do sem fim"
+          }
+        ],
+        "subject_id": "V1-ENT-0379",
+        "usage_note": "1942 dissent remains audit-only",
+        "value_text": "巴西国家图书馆与SciELO论文均记作品于1943年出版。"
+      },
+      {
+        "admission_status": "batch_retained_candidate",
+        "card_id": "V1-CARD-0261",
+        "confidence": "high",
+        "fact_field": "story_premise",
+        "fact_id": "V1-FCT-1033",
+        "material_class": "scholarly_paraphrase",
+        "origin_id": "WCD07A-W06",
+        "origin_material_id": "WCD07A-F030",
+        "sources": [
+          {
+            "fact_id": "V1-FCT-1033",
+            "source_id": "SRC-0313",
+            "source_title": "Literatura — Jorge Amado: um sem-fim de romances"
+          },
+          {
+            "fact_id": "V1-FCT-1033",
+            "source_id": "SRC-0314",
+            "source_title": "Terras adubadas com sangue: o coronelismo em Terras do sem fim"
+          }
+        ],
+        "subject_id": "V1-ENT-0379",
+        "usage_note": "no place or theme edge inferred",
+        "value_text": "小说以巴伊亚可可产区的土地争夺与地方上校政治为叙事背景。"
       }
     ],
     "gaps": [
@@ -155614,6 +158053,198 @@
         "review_status": "accepted",
         "subject_id": "V1-ENT-0141",
         "upstream_review_status": "CODEX-REVIEW-WCD05-CS04-PASS"
+      },
+      {
+        "confidence": "high",
+        "description_zh": "卡洛斯·富恩特斯创作《我们的土地》",
+        "evidence": [
+          {
+            "evidence_note": "ELEM directly attributes the 1975 novel to Carlos Fuentes.",
+            "evidence_status": "eligible_evidence",
+            "locator": "work record: author/title/1975/novel",
+            "relationship_id": "V1-REL-0331",
+            "source_id": "SRC-0301",
+            "source_title": "Terra Nostra — Detalle de la obra"
+          },
+          {
+            "evidence_note": "UNAM independently identifies Fuentes as author of Terra Nostra.",
+            "evidence_status": "eligible_evidence",
+            "locator": "50th-anniversary article",
+            "relationship_id": "V1-REL-0331",
+            "source_id": "SRC-0302",
+            "source_title": "La Cátedra Carlos Fuentes celebrará el 50 aniversario de Terra Nostra"
+          }
+        ],
+        "evidence_count": "2",
+        "issue_code": "NONE",
+        "object_id": "V1-ENT-0374",
+        "origin_layer": "WCD-07A",
+        "origin_relation_group_id": "WCD07A-R01",
+        "relation_type": "CREATED",
+        "relationship_id": "V1-REL-0331",
+        "review_status": "accepted",
+        "subject_id": "V1-ENT-0145",
+        "upstream_review_status": "CODEX-REVIEW-WCD07A-PASS"
+      },
+      {
+        "confidence": "high",
+        "description_zh": "塞尔希奥·皮托尔创作《逃亡的艺术》",
+        "evidence": [
+          {
+            "evidence_note": "Instituto Cervantes lists El arte de la fuga in Sergio Pitol's bibliography.",
+            "evidence_status": "eligible_evidence",
+            "locator": "author bibliography",
+            "relationship_id": "V1-REL-0332",
+            "source_id": "SRC-0201",
+            "source_title": "CVC. Sergio Pitol. Bibliografía"
+          },
+          {
+            "evidence_note": "The independent UNAM review identifies Pitol and the 1996 Era book.",
+            "evidence_status": "eligible_evidence",
+            "locator": "book review bibliographic header",
+            "relationship_id": "V1-REL-0332",
+            "source_id": "SRC-0304",
+            "source_title": "Sergio Pitol. El arte de la fuga"
+          }
+        ],
+        "evidence_count": "2",
+        "issue_code": "NONE",
+        "object_id": "V1-ENT-0375",
+        "origin_layer": "WCD-07A",
+        "origin_relation_group_id": "WCD07A-R02",
+        "relation_type": "CREATED",
+        "relationship_id": "V1-REL-0332",
+        "review_status": "accepted",
+        "subject_id": "V1-ENT-0249",
+        "upstream_review_status": "CODEX-REVIEW-WCD07A-PASS"
+      },
+      {
+        "confidence": "high",
+        "description_zh": "何塞·马蒂创作《自由诗》",
+        "evidence": [
+          {
+            "evidence_note": "Morales studies Versos libres as Marti's posthumously published collection.",
+            "evidence_status": "eligible_evidence",
+            "locator": "opening bibliographic discussion",
+            "relationship_id": "V1-REL-0333",
+            "source_id": "SRC-0306",
+            "source_title": "Tradición y modernidad en los Versos libres"
+          },
+          {
+            "evidence_note": "Retamar independently distinguishes Marti's Versos libres from Versos sencillos.",
+            "evidence_status": "eligible_evidence",
+            "locator": "Marti poetry discussion",
+            "relationship_id": "V1-REL-0333",
+            "source_id": "SRC-0307",
+            "source_title": "Introducción a la literatura cubana"
+          }
+        ],
+        "evidence_count": "2",
+        "issue_code": "NONE",
+        "object_id": "V1-ENT-0376",
+        "origin_layer": "WCD-07A",
+        "origin_relation_group_id": "WCD07A-R03",
+        "relation_type": "CREATED",
+        "relationship_id": "V1-REL-0333",
+        "review_status": "accepted",
+        "subject_id": "V1-ENT-0225",
+        "upstream_review_status": "CODEX-REVIEW-WCD07A-PASS"
+      },
+      {
+        "confidence": "high",
+        "description_zh": "马里奥·巴尔加斯·略萨创作《公羊的节日》",
+        "evidence": [
+          {
+            "evidence_note": "Nobel's official bibliography lists Vargas Llosa's La fiesta del Chivo.",
+            "evidence_status": "eligible_evidence",
+            "locator": "official bibliography",
+            "relationship_id": "V1-REL-0334",
+            "source_id": "SRC-0308",
+            "source_title": "The Nobel Prize in Literature 2010 — Bio-bibliographical notes"
+          },
+          {
+            "evidence_note": "Alfaguara independently identifies the author and novel.",
+            "evidence_status": "eligible_evidence",
+            "locator": "publisher work page",
+            "relationship_id": "V1-REL-0334",
+            "source_id": "SRC-0309",
+            "source_title": "La fiesta del Chivo"
+          }
+        ],
+        "evidence_count": "2",
+        "issue_code": "NONE",
+        "object_id": "V1-ENT-0377",
+        "origin_layer": "WCD-07A",
+        "origin_relation_group_id": "WCD07A-R04",
+        "relation_type": "CREATED",
+        "relationship_id": "V1-REL-0334",
+        "review_status": "accepted",
+        "subject_id": "V1-ENT-0114",
+        "upstream_review_status": "CODEX-REVIEW-WCD07A-PASS"
+      },
+      {
+        "confidence": "high",
+        "description_zh": "何塞·玛丽亚·阿格达斯创作《山上的狐狸，山下的狐狸》",
+        "evidence": [
+          {
+            "evidence_note": "BNP directly attributes the 1971 novel to Jose Maria Arguedas.",
+            "evidence_status": "eligible_evidence",
+            "locator": "national-library item record",
+            "relationship_id": "V1-REL-0335",
+            "source_id": "SRC-0311",
+            "source_title": "El zorro de arriba y el zorro de abajo — BNP Digital"
+          },
+          {
+            "evidence_note": "Losada independently identifies Arguedas and the novel.",
+            "evidence_status": "eligible_evidence",
+            "locator": "publisher work page",
+            "relationship_id": "V1-REL-0335",
+            "source_id": "SRC-0312",
+            "source_title": "El zorro de arriba y el zorro de abajo"
+          }
+        ],
+        "evidence_count": "2",
+        "issue_code": "NONE",
+        "object_id": "V1-ENT-0378",
+        "origin_layer": "WCD-07A",
+        "origin_relation_group_id": "WCD07A-R05",
+        "relation_type": "CREATED",
+        "relationship_id": "V1-REL-0335",
+        "review_status": "accepted",
+        "subject_id": "V1-ENT-0248",
+        "upstream_review_status": "CODEX-REVIEW-WCD07A-PASS"
+      },
+      {
+        "confidence": "high",
+        "description_zh": "若热·亚马多创作《无边的土地》",
+        "evidence": [
+          {
+            "evidence_note": "Brazil's National Library identifies Terras do sem-fim as Jorge Amado's 1943 novel.",
+            "evidence_status": "eligible_evidence",
+            "locator": "author chronology and novel discussion",
+            "relationship_id": "V1-REL-0336",
+            "source_id": "SRC-0313",
+            "source_title": "Literatura — Jorge Amado: um sem-fim de romances"
+          },
+          {
+            "evidence_note": "Independent scholarship attributes the novel to Amado and dates publication to 1943.",
+            "evidence_status": "eligible_evidence",
+            "locator": "abstract and article text",
+            "relationship_id": "V1-REL-0336",
+            "source_id": "SRC-0314",
+            "source_title": "Terras adubadas com sangue: o coronelismo em Terras do sem fim"
+          }
+        ],
+        "evidence_count": "2",
+        "issue_code": "NONE",
+        "object_id": "V1-ENT-0379",
+        "origin_layer": "WCD-07A",
+        "origin_relation_group_id": "WCD07A-R06",
+        "relation_type": "CREATED",
+        "relationship_id": "V1-REL-0336",
+        "review_status": "accepted",
+        "subject_id": "V1-ENT-0172",
+        "upstream_review_status": "CODEX-REVIEW-WCD07A-PASS"
       }
     ],
     "sources": [
@@ -158298,6 +160929,150 @@
         "source_id": "SRC-0300",
         "source_level": "B",
         "title": "Octavio Paz – Biographical"
+      },
+      {
+        "author_or_editor": "Enciclopedia de la Literatura en México",
+        "canonical_url": "https://www.elem.mx/obra/datos/3344",
+        "publication_year": "",
+        "publisher": "Fundación para las Letras Mexicanas",
+        "source_id": "SRC-0301",
+        "source_level": "B",
+        "title": "Terra Nostra — Detalle de la obra"
+      },
+      {
+        "author_or_editor": "Gaceta UNAM",
+        "canonical_url": "https://www.gaceta.unam.mx/la-catedra-carlos-fuentes-celebrara-el-50-aniversario-de-terra-nostra-de-carlos-fuentes/",
+        "publication_year": "2025",
+        "publisher": "UNAM",
+        "source_id": "SRC-0302",
+        "source_level": "C",
+        "title": "La Cátedra Carlos Fuentes celebrará el 50 aniversario de Terra Nostra"
+      },
+      {
+        "author_or_editor": "中国作家网",
+        "canonical_url": "https://www.chinawriter.com.cn/n1/2021/0825/c405084-32207463.html",
+        "publication_year": "2021",
+        "publisher": "作家出版社",
+        "source_id": "SRC-0303",
+        "source_level": "C",
+        "title": "《我们的土地》—书汇"
+      },
+      {
+        "author_or_editor": "Revista Literatura Mexicana",
+        "canonical_url": "https://revistas-filologicas.unam.mx/literatura-mexicana/index.php/lm/article/view/324",
+        "publication_year": "1998",
+        "publisher": "UNAM",
+        "source_id": "SRC-0304",
+        "source_level": "C",
+        "title": "Sergio Pitol. El arte de la fuga"
+      },
+      {
+        "author_or_editor": "中华读书报",
+        "canonical_url": "https://www.gmw.cn/01ds/2006-07/05/content_445692.htm",
+        "publication_year": "2006",
+        "publisher": "光明日报",
+        "source_id": "SRC-0305",
+        "source_level": "C",
+        "title": "《作家的宿命就是逃亡》"
+      },
+      {
+        "author_or_editor": "Carlos Javier Morales",
+        "canonical_url": "https://www.cervantesvirtual.com/descargaPdf/tradicion-y-modernidad-en-los-versos-libres/",
+        "publication_year": "1995",
+        "publisher": "Biblioteca Virtual Miguel de Cervantes",
+        "source_id": "SRC-0306",
+        "source_level": "A",
+        "title": "Tradición y modernidad en los Versos libres"
+      },
+      {
+        "author_or_editor": "Roberto Fernández Retamar",
+        "canonical_url": "https://www.cervantesvirtual.com/obra-visor/america-sin-nombre--11/html/0256666c-82b2-11df-acc7-002185ce6064_3.htm",
+        "publication_year": "2000",
+        "publisher": "Biblioteca Virtual Miguel de Cervantes",
+        "source_id": "SRC-0307",
+        "source_level": "A",
+        "title": "Introducción a la literatura cubana"
+      },
+      {
+        "author_or_editor": "Nobel Prize Outreach",
+        "canonical_url": "https://www.nobelprize.org/prizes/literature/2010/bio-bibliography/",
+        "publication_year": "2010",
+        "publisher": "Nobel Foundation",
+        "source_id": "SRC-0308",
+        "source_level": "B",
+        "title": "The Nobel Prize in Literature 2010 — Bio-bibliographical notes"
+      },
+      {
+        "author_or_editor": "Penguin Random House Grupo Editorial",
+        "canonical_url": "https://www.penguinlibros.com/co/tematicas/15210-ebook-la-fiesta-del-chivo-9788420499437",
+        "publication_year": "",
+        "publisher": "Alfaguara",
+        "source_id": "SRC-0309",
+        "source_level": "B",
+        "title": "La fiesta del Chivo"
+      },
+      {
+        "author_or_editor": "中国作家网",
+        "canonical_url": "http://www.chinawriter.com.cn/n1/2016/0627/c405068-28500637.html",
+        "publication_year": "2016",
+        "publisher": "上海译文出版社",
+        "source_id": "SRC-0310",
+        "source_level": "C",
+        "title": "《公羊的节日》—书汇"
+      },
+      {
+        "author_or_editor": "Biblioteca Nacional del Perú",
+        "canonical_url": "https://bibliotecadigital.bnp.gob.pe/items/72c6e3f4-b4a0-4e00-babd-9481cdb250fb",
+        "publication_year": "1971",
+        "publisher": "Biblioteca Nacional del Perú",
+        "source_id": "SRC-0311",
+        "source_level": "B",
+        "title": "El zorro de arriba y el zorro de abajo — BNP Digital"
+      },
+      {
+        "author_or_editor": "Editorial Losada",
+        "canonical_url": "https://editoriallosada.com/libro/el-zorro-de-arriba-y-el-zorro-de-abajo/",
+        "publication_year": "",
+        "publisher": "Editorial Losada",
+        "source_id": "SRC-0312",
+        "source_level": "B",
+        "title": "El zorro de arriba y el zorro de abajo"
+      },
+      {
+        "author_or_editor": "Biblioteca Nacional do Brasil",
+        "canonical_url": "https://bndigital.bn.gov.br/artigos/literatura-jorge-amado-um-sem-fim-de-romances/",
+        "publication_year": "2021",
+        "publisher": "BNDigital",
+        "source_id": "SRC-0313",
+        "source_level": "B",
+        "title": "Literatura — Jorge Amado: um sem-fim de romances"
+      },
+      {
+        "author_or_editor": "João Paulo Mansur",
+        "canonical_url": "https://www.scielo.br/j/rbcsoc/a/9qN3hjfWHPdxvpKbrhk8Gvv/?lang=pt",
+        "publication_year": "2021",
+        "publisher": "Revista Brasileira de Ciências Sociais",
+        "source_id": "SRC-0314",
+        "source_level": "A",
+        "title": "Terras adubadas com sangue: o coronelismo em Terras do sem fim"
+      },
+      {
+        "author_or_editor": "芸台购 / 浙江省新华书店集团有限公司",
+        "canonical_url": "https://www.yuntaigo.com/book.action?recordid=bm5sZmtsemM5Nzg3MDIwMTg2NzIz",
+        "publication_year": "2024",
+        "publisher": "人民文学出版社",
+        "source_id": "SRC-0315",
+        "source_level": "B",
+        "title": "山上的狐狸山下的狐狸/西葡拉美幻想文学经典"
+      },
+      {
+        "author_or_editor": "福建江夏学院图书馆",
+        "canonical_url": "https://libwx.fjjxu.edu.cn/opac/bookInfo_01a0005179.html",
+        "publication_year": "1992",
+        "publisher": "上海译文出版社",
+        "source_id": "SRC-0316",
+        "source_level": "B",
+        "title": "无边的土地 — 福建江夏学院图书馆馆藏记录"
       }
     ]
   },
@@ -160983,6 +163758,20 @@
             "review_status": "accepted",
             "subject_id": "V1-ENT-0225",
             "upstream_review_status": "WCD02-REVIEW-PASS"
+          },
+          {
+            "confidence": "high",
+            "description_zh": "何塞·马蒂创作《自由诗》",
+            "evidence_count": "2",
+            "issue_code": "NONE",
+            "object_id": "V1-ENT-0376",
+            "origin_layer": "WCD-07A",
+            "origin_relation_group_id": "WCD07A-R03",
+            "relation_type": "CREATED",
+            "relationship_id": "V1-REL-0333",
+            "review_status": "accepted",
+            "subject_id": "V1-ENT-0225",
+            "upstream_review_status": "CODEX-REVIEW-WCD07A-PASS"
           }
         ]
       },
@@ -167381,6 +170170,20 @@
             "review_status": "accepted",
             "subject_id": "V1-ENT-0248",
             "upstream_review_status": "WEB-CE-B08"
+          },
+          {
+            "confidence": "high",
+            "description_zh": "何塞·玛丽亚·阿格达斯创作《山上的狐狸，山下的狐狸》",
+            "evidence_count": "2",
+            "issue_code": "NONE",
+            "object_id": "V1-ENT-0378",
+            "origin_layer": "WCD-07A",
+            "origin_relation_group_id": "WCD07A-R05",
+            "relation_type": "CREATED",
+            "relationship_id": "V1-REL-0335",
+            "review_status": "accepted",
+            "subject_id": "V1-ENT-0248",
+            "upstream_review_status": "CODEX-REVIEW-WCD07A-PASS"
           }
         ]
       },
@@ -167610,6 +170413,20 @@
             "review_status": "accepted",
             "subject_id": "V1-ENT-0172",
             "upstream_review_status": "WEB-CE-B02"
+          },
+          {
+            "confidence": "high",
+            "description_zh": "若热·亚马多创作《无边的土地》",
+            "evidence_count": "2",
+            "issue_code": "NONE",
+            "object_id": "V1-ENT-0379",
+            "origin_layer": "WCD-07A",
+            "origin_relation_group_id": "WCD07A-R06",
+            "relation_type": "CREATED",
+            "relationship_id": "V1-REL-0336",
+            "review_status": "accepted",
+            "subject_id": "V1-ENT-0172",
+            "upstream_review_status": "CODEX-REVIEW-WCD07A-PASS"
           }
         ]
       },
@@ -167684,6 +170501,193 @@
       "period_bucket": "1912–2001",
       "status": "card_period_only",
       "year_label": "1912–2001"
+    },
+    {
+      "entity": {
+        "canonical_status": "candidate",
+        "content_cards": [
+          {
+            "author_label": "何塞·马蒂",
+            "card_id": "V1-CARD-0258",
+            "card_type": "collection",
+            "content_markdown": "### 《自由诗》｜Versos libres\\n\\n- 对象类型：`collection`｜首版：1913（身后出版）｜体裁：诗集\\n- 研究基线：中文名仅作显示，不主张存在独立正式全本中译。",
+            "country_or_region": "古巴",
+            "genre_or_form": "诗集",
+            "input_layer": "WCD-07A",
+            "issue_code": "PROVISIONAL-ZH-DISPLAY",
+            "language": "es",
+            "origin_card_id": "WCD07A-W03",
+            "original_title": "Versos libres",
+            "period_bucket": "1913",
+            "source_minimum_status": "meets",
+            "subject_id": "V1-ENT-0376",
+            "title_zh": "《自由诗》"
+          }
+        ],
+        "entity_id": "V1-ENT-0376",
+        "entity_type": "collection",
+        "facts": [
+          {
+            "admission_status": "batch_retained_candidate",
+            "card_id": "V1-CARD-0258",
+            "confidence": "high",
+            "fact_field": "entity_layer",
+            "fact_id": "V1-FCT-1015",
+            "material_class": "metadata",
+            "origin_id": "WCD07A-W03",
+            "origin_material_id": "WCD07A-F011",
+            "subject_id": "V1-ENT-0376",
+            "usage_note": "posthumous original collection",
+            "value_text": "collection"
+          },
+          {
+            "admission_status": "batch_retained_candidate",
+            "card_id": "V1-CARD-0258",
+            "confidence": "high",
+            "fact_field": "first_publication_year",
+            "fact_id": "V1-FCT-1016",
+            "material_class": "bibliographic",
+            "origin_id": "WCD07A-W03",
+            "origin_material_id": "WCD07A-F012",
+            "subject_id": "V1-ENT-0376",
+            "usage_note": "posthumous publication",
+            "value_text": "1913"
+          },
+          {
+            "admission_status": "batch_retained_candidate",
+            "card_id": "V1-CARD-0258",
+            "confidence": "high",
+            "fact_field": "genre_or_form",
+            "fact_id": "V1-FCT-1017",
+            "material_class": "bibliographic",
+            "origin_id": "WCD07A-W03",
+            "origin_material_id": "WCD07A-F013",
+            "subject_id": "V1-ENT-0376",
+            "usage_note": "original collection",
+            "value_text": "诗集"
+          },
+          {
+            "admission_status": "batch_retained_candidate",
+            "card_id": "V1-CARD-0258",
+            "confidence": "high",
+            "fact_field": "bibliographic_note",
+            "fact_id": "V1-FCT-1018",
+            "material_class": "bibliographic_note",
+            "origin_id": "WCD07A-W03",
+            "origin_material_id": "WCD07A-F014",
+            "subject_id": "V1-ENT-0376",
+            "usage_note": "composition and publication kept distinct",
+            "value_text": "诗作写于作者生前，几乎全部约作于1882年，并于1913年身后出版。"
+          },
+          {
+            "admission_status": "batch_retained_candidate",
+            "card_id": "V1-CARD-0258",
+            "confidence": "medium",
+            "fact_field": "story_premise",
+            "fact_id": "V1-FCT-1019",
+            "material_class": "scholarly_paraphrase",
+            "origin_id": "WCD07A-W03",
+            "origin_material_id": "WCD07A-F015",
+            "subject_id": "V1-ENT-0376",
+            "usage_note": "no movement relation inferred",
+            "value_text": "诗集以无韵十一音节诗及强烈跨行、意象构成其形式特征。"
+          }
+        ],
+        "incoming_relations": [
+          {
+            "confidence": "high",
+            "description_zh": "何塞·马蒂创作《自由诗》",
+            "evidence_count": "2",
+            "issue_code": "NONE",
+            "object_id": "V1-ENT-0376",
+            "origin_layer": "WCD-07A",
+            "origin_relation_group_id": "WCD07A-R03",
+            "relation_type": "CREATED",
+            "relationship_id": "V1-REL-0333",
+            "review_status": "accepted",
+            "subject_id": "V1-ENT-0225",
+            "upstream_review_status": "CODEX-REVIEW-WCD07A-PASS"
+          }
+        ],
+        "issue_codes": "PROVISIONAL-ZH-DISPLAY",
+        "name_zh": "《自由诗》",
+        "normalization_basis": "Two independently authored studies establish the posthumous 1913 poetry collection; Chinese is a display gloss, not a claimed edition",
+        "origin_count": "2",
+        "origin_refs": "WCD07A-W03",
+        "original_name": "Versos libres",
+        "outgoing_relations": []
+      },
+      "facts": [
+        {
+          "admission_status": "batch_retained_candidate",
+          "card_id": "V1-CARD-0258",
+          "confidence": "high",
+          "fact_field": "entity_layer",
+          "fact_id": "V1-FCT-1015",
+          "material_class": "metadata",
+          "origin_id": "WCD07A-W03",
+          "origin_material_id": "WCD07A-F011",
+          "subject_id": "V1-ENT-0376",
+          "usage_note": "posthumous original collection",
+          "value_text": "collection"
+        },
+        {
+          "admission_status": "batch_retained_candidate",
+          "card_id": "V1-CARD-0258",
+          "confidence": "high",
+          "fact_field": "first_publication_year",
+          "fact_id": "V1-FCT-1016",
+          "material_class": "bibliographic",
+          "origin_id": "WCD07A-W03",
+          "origin_material_id": "WCD07A-F012",
+          "subject_id": "V1-ENT-0376",
+          "usage_note": "posthumous publication",
+          "value_text": "1913"
+        },
+        {
+          "admission_status": "batch_retained_candidate",
+          "card_id": "V1-CARD-0258",
+          "confidence": "high",
+          "fact_field": "genre_or_form",
+          "fact_id": "V1-FCT-1017",
+          "material_class": "bibliographic",
+          "origin_id": "WCD07A-W03",
+          "origin_material_id": "WCD07A-F013",
+          "subject_id": "V1-ENT-0376",
+          "usage_note": "original collection",
+          "value_text": "诗集"
+        },
+        {
+          "admission_status": "batch_retained_candidate",
+          "card_id": "V1-CARD-0258",
+          "confidence": "high",
+          "fact_field": "bibliographic_note",
+          "fact_id": "V1-FCT-1018",
+          "material_class": "bibliographic_note",
+          "origin_id": "WCD07A-W03",
+          "origin_material_id": "WCD07A-F014",
+          "subject_id": "V1-ENT-0376",
+          "usage_note": "composition and publication kept distinct",
+          "value_text": "诗作写于作者生前，几乎全部约作于1882年，并于1913年身后出版。"
+        },
+        {
+          "admission_status": "batch_retained_candidate",
+          "card_id": "V1-CARD-0258",
+          "confidence": "medium",
+          "fact_field": "story_premise",
+          "fact_id": "V1-FCT-1019",
+          "material_class": "scholarly_paraphrase",
+          "origin_id": "WCD07A-W03",
+          "origin_material_id": "WCD07A-F015",
+          "subject_id": "V1-ENT-0376",
+          "usage_note": "no movement relation inferred",
+          "value_text": "诗集以无韵十一音节诗及强烈跨行、意象构成其形式特征。"
+        }
+      ],
+      "node_type": "literary_work",
+      "period_bucket": "1913",
+      "status": "batch_retained_candidate",
+      "year_label": "1913"
     },
     {
       "entity": {
@@ -173292,6 +176296,20 @@
             "review_status": "accepted",
             "subject_id": "V1-ENT-0145",
             "upstream_review_status": "WEB-CE-B01-HY3"
+          },
+          {
+            "confidence": "high",
+            "description_zh": "卡洛斯·富恩特斯创作《我们的土地》",
+            "evidence_count": "2",
+            "issue_code": "NONE",
+            "object_id": "V1-ENT-0374",
+            "origin_layer": "WCD-07A",
+            "origin_relation_group_id": "WCD07A-R01",
+            "relation_type": "CREATED",
+            "relationship_id": "V1-REL-0331",
+            "review_status": "accepted",
+            "subject_id": "V1-ENT-0145",
+            "upstream_review_status": "CODEX-REVIEW-WCD07A-PASS"
           }
         ]
       },
@@ -175343,6 +178361,20 @@
             "review_status": "accepted",
             "subject_id": "V1-ENT-0249",
             "upstream_review_status": "WEB-CE-B08"
+          },
+          {
+            "confidence": "high",
+            "description_zh": "塞尔希奥·皮托尔创作《逃亡的艺术》",
+            "evidence_count": "2",
+            "issue_code": "NONE",
+            "object_id": "V1-ENT-0375",
+            "origin_layer": "WCD-07A",
+            "origin_relation_group_id": "WCD07A-R02",
+            "relation_type": "CREATED",
+            "relationship_id": "V1-REL-0332",
+            "review_status": "accepted",
+            "subject_id": "V1-ENT-0249",
+            "upstream_review_status": "CODEX-REVIEW-WCD07A-PASS"
           }
         ]
       },
@@ -176491,6 +179523,20 @@
             "review_status": "accepted",
             "subject_id": "V1-ENT-0114",
             "upstream_review_status": "WEB-CE-B01"
+          },
+          {
+            "confidence": "high",
+            "description_zh": "马里奥·巴尔加斯·略萨创作《公羊的节日》",
+            "evidence_count": "2",
+            "issue_code": "NONE",
+            "object_id": "V1-ENT-0377",
+            "origin_layer": "WCD-07A",
+            "origin_relation_group_id": "WCD07A-R04",
+            "relation_type": "CREATED",
+            "relationship_id": "V1-REL-0334",
+            "review_status": "accepted",
+            "subject_id": "V1-ENT-0114",
+            "upstream_review_status": "CODEX-REVIEW-WCD07A-PASS"
           }
         ]
       },
@@ -179656,6 +182702,193 @@
       "period_bucket": "1943–1990",
       "status": "card_period_only",
       "year_label": "1943–1990"
+    },
+    {
+      "entity": {
+        "canonical_status": "candidate",
+        "content_cards": [
+          {
+            "author_label": "若热·亚马多",
+            "card_id": "V1-CARD-0261",
+            "card_type": "work",
+            "content_markdown": "### 《无边的土地》｜Terras do sem-fim\\n\\n- 对象类型：`work`｜首版：1943｜体裁：长篇小说\\n- 研究基线：巴西国家图书馆与独立学术来源收敛于1943；1942异说仅留审计。",
+            "country_or_region": "巴西",
+            "genre_or_form": "长篇小说",
+            "input_layer": "WCD-07A",
+            "issue_code": "DISPUTED-YEAR-RESOLVED-1943",
+            "language": "pt",
+            "origin_card_id": "WCD07A-W06",
+            "original_title": "Terras do sem-fim",
+            "period_bucket": "1943",
+            "source_minimum_status": "meets",
+            "subject_id": "V1-ENT-0379",
+            "title_zh": "《无边的土地》"
+          }
+        ],
+        "entity_id": "V1-ENT-0379",
+        "entity_type": "work",
+        "facts": [
+          {
+            "admission_status": "batch_retained_candidate",
+            "card_id": "V1-CARD-0261",
+            "confidence": "high",
+            "fact_field": "entity_layer",
+            "fact_id": "V1-FCT-1029",
+            "material_class": "metadata",
+            "origin_id": "WCD07A-W06",
+            "origin_material_id": "WCD07A-F026",
+            "subject_id": "V1-ENT-0379",
+            "usage_note": "single novel",
+            "value_text": "work"
+          },
+          {
+            "admission_status": "batch_retained_candidate",
+            "card_id": "V1-CARD-0261",
+            "confidence": "high",
+            "fact_field": "first_publication_year",
+            "fact_id": "V1-FCT-1030",
+            "material_class": "bibliographic",
+            "origin_id": "WCD07A-W06",
+            "origin_material_id": "WCD07A-F027",
+            "subject_id": "V1-ENT-0379",
+            "usage_note": "two direct independent sources",
+            "value_text": "1943"
+          },
+          {
+            "admission_status": "batch_retained_candidate",
+            "card_id": "V1-CARD-0261",
+            "confidence": "high",
+            "fact_field": "genre_or_form",
+            "fact_id": "V1-FCT-1031",
+            "material_class": "bibliographic",
+            "origin_id": "WCD07A-W06",
+            "origin_material_id": "WCD07A-F028",
+            "subject_id": "V1-ENT-0379",
+            "usage_note": "both sources identify a novel",
+            "value_text": "长篇小说"
+          },
+          {
+            "admission_status": "batch_retained_candidate",
+            "card_id": "V1-CARD-0261",
+            "confidence": "high",
+            "fact_field": "bibliographic_note",
+            "fact_id": "V1-FCT-1032",
+            "material_class": "bibliographic_note",
+            "origin_id": "WCD07A-W06",
+            "origin_material_id": "WCD07A-F029",
+            "subject_id": "V1-ENT-0379",
+            "usage_note": "1942 dissent remains audit-only",
+            "value_text": "巴西国家图书馆与SciELO论文均记作品于1943年出版。"
+          },
+          {
+            "admission_status": "batch_retained_candidate",
+            "card_id": "V1-CARD-0261",
+            "confidence": "high",
+            "fact_field": "story_premise",
+            "fact_id": "V1-FCT-1033",
+            "material_class": "scholarly_paraphrase",
+            "origin_id": "WCD07A-W06",
+            "origin_material_id": "WCD07A-F030",
+            "subject_id": "V1-ENT-0379",
+            "usage_note": "no place or theme edge inferred",
+            "value_text": "小说以巴伊亚可可产区的土地争夺与地方上校政治为叙事背景。"
+          }
+        ],
+        "incoming_relations": [
+          {
+            "confidence": "high",
+            "description_zh": "若热·亚马多创作《无边的土地》",
+            "evidence_count": "2",
+            "issue_code": "NONE",
+            "object_id": "V1-ENT-0379",
+            "origin_layer": "WCD-07A",
+            "origin_relation_group_id": "WCD07A-R06",
+            "relation_type": "CREATED",
+            "relationship_id": "V1-REL-0336",
+            "review_status": "accepted",
+            "subject_id": "V1-ENT-0172",
+            "upstream_review_status": "CODEX-REVIEW-WCD07A-PASS"
+          }
+        ],
+        "issue_codes": "DISPUTED-YEAR-RESOLVED-1943",
+        "name_zh": "《无边的土地》",
+        "normalization_basis": "Brazilian National Library and independent SciELO scholarship establish the 1943 novel; Fujian Jiangxia University Library links the formal Chinese title and Wu Lao translation to Terras do sem fim",
+        "origin_count": "4",
+        "origin_refs": "WCD07A-W06",
+        "original_name": "Terras do sem-fim",
+        "outgoing_relations": []
+      },
+      "facts": [
+        {
+          "admission_status": "batch_retained_candidate",
+          "card_id": "V1-CARD-0261",
+          "confidence": "high",
+          "fact_field": "entity_layer",
+          "fact_id": "V1-FCT-1029",
+          "material_class": "metadata",
+          "origin_id": "WCD07A-W06",
+          "origin_material_id": "WCD07A-F026",
+          "subject_id": "V1-ENT-0379",
+          "usage_note": "single novel",
+          "value_text": "work"
+        },
+        {
+          "admission_status": "batch_retained_candidate",
+          "card_id": "V1-CARD-0261",
+          "confidence": "high",
+          "fact_field": "first_publication_year",
+          "fact_id": "V1-FCT-1030",
+          "material_class": "bibliographic",
+          "origin_id": "WCD07A-W06",
+          "origin_material_id": "WCD07A-F027",
+          "subject_id": "V1-ENT-0379",
+          "usage_note": "two direct independent sources",
+          "value_text": "1943"
+        },
+        {
+          "admission_status": "batch_retained_candidate",
+          "card_id": "V1-CARD-0261",
+          "confidence": "high",
+          "fact_field": "genre_or_form",
+          "fact_id": "V1-FCT-1031",
+          "material_class": "bibliographic",
+          "origin_id": "WCD07A-W06",
+          "origin_material_id": "WCD07A-F028",
+          "subject_id": "V1-ENT-0379",
+          "usage_note": "both sources identify a novel",
+          "value_text": "长篇小说"
+        },
+        {
+          "admission_status": "batch_retained_candidate",
+          "card_id": "V1-CARD-0261",
+          "confidence": "high",
+          "fact_field": "bibliographic_note",
+          "fact_id": "V1-FCT-1032",
+          "material_class": "bibliographic_note",
+          "origin_id": "WCD07A-W06",
+          "origin_material_id": "WCD07A-F029",
+          "subject_id": "V1-ENT-0379",
+          "usage_note": "1942 dissent remains audit-only",
+          "value_text": "巴西国家图书馆与SciELO论文均记作品于1943年出版。"
+        },
+        {
+          "admission_status": "batch_retained_candidate",
+          "card_id": "V1-CARD-0261",
+          "confidence": "high",
+          "fact_field": "story_premise",
+          "fact_id": "V1-FCT-1033",
+          "material_class": "scholarly_paraphrase",
+          "origin_id": "WCD07A-W06",
+          "origin_material_id": "WCD07A-F030",
+          "subject_id": "V1-ENT-0379",
+          "usage_note": "no place or theme edge inferred",
+          "value_text": "小说以巴伊亚可可产区的土地争夺与地方上校政治为叙事背景。"
+        }
+      ],
+      "node_type": "literary_work",
+      "period_bucket": "1943",
+      "status": "batch_retained_candidate",
+      "year_label": "1943"
     },
     {
       "entity": {
@@ -193472,6 +196705,167 @@
     },
     {
       "entity": {
+        "canonical_status": "candidate",
+        "content_cards": [
+          {
+            "author_label": "何塞·玛丽亚·阿格达斯",
+            "card_id": "V1-CARD-0260",
+            "card_type": "work",
+            "content_markdown": "### 《山上的狐狸，山下的狐狸》｜El zorro de arriba y el zorro de abajo\\n\\n- 对象类型：`work`｜首版：1971｜体裁：长篇小说\\n- 研究基线：作为单一作品保留；日记结构事实因证据不足未准入。",
+            "country_or_region": "秘鲁",
+            "genre_or_form": "长篇小说",
+            "input_layer": "WCD-07A",
+            "issue_code": "NONE",
+            "language": "es",
+            "origin_card_id": "WCD07A-W05",
+            "original_title": "El zorro de arriba y el zorro de abajo",
+            "period_bucket": "1971",
+            "source_minimum_status": "meets",
+            "subject_id": "V1-ENT-0378",
+            "title_zh": "《山上的狐狸，山下的狐狸》"
+          }
+        ],
+        "entity_id": "V1-ENT-0378",
+        "entity_type": "work",
+        "facts": [
+          {
+            "admission_status": "batch_retained_candidate",
+            "card_id": "V1-CARD-0260",
+            "confidence": "high",
+            "fact_field": "entity_layer",
+            "fact_id": "V1-FCT-1025",
+            "material_class": "metadata",
+            "origin_id": "WCD07A-W05",
+            "origin_material_id": "WCD07A-F021",
+            "subject_id": "V1-ENT-0378",
+            "usage_note": "single novel",
+            "value_text": "work"
+          },
+          {
+            "admission_status": "batch_retained_candidate",
+            "card_id": "V1-CARD-0260",
+            "confidence": "high",
+            "fact_field": "first_publication_year",
+            "fact_id": "V1-FCT-1026",
+            "material_class": "bibliographic",
+            "origin_id": "WCD07A-W05",
+            "origin_material_id": "WCD07A-F022",
+            "subject_id": "V1-ENT-0378",
+            "usage_note": "posthumous publication",
+            "value_text": "1971"
+          },
+          {
+            "admission_status": "batch_retained_candidate",
+            "card_id": "V1-CARD-0260",
+            "confidence": "high",
+            "fact_field": "genre_or_form",
+            "fact_id": "V1-FCT-1027",
+            "material_class": "bibliographic",
+            "origin_id": "WCD07A-W05",
+            "origin_material_id": "WCD07A-F023",
+            "subject_id": "V1-ENT-0378",
+            "usage_note": "national library and publisher classification",
+            "value_text": "长篇小说"
+          },
+          {
+            "admission_status": "batch_retained_candidate",
+            "card_id": "V1-CARD-0260",
+            "confidence": "high",
+            "fact_field": "bibliographic_note",
+            "fact_id": "V1-FCT-1028",
+            "material_class": "bibliographic_note",
+            "origin_id": "WCD07A-W05",
+            "origin_material_id": "WCD07A-F024",
+            "subject_id": "V1-ENT-0378",
+            "usage_note": "unsupported diary-year claim excluded",
+            "value_text": "作品于1971年出版；Editorial Losada将其作为作者的文学遗嘱介绍。"
+          }
+        ],
+        "incoming_relations": [
+          {
+            "confidence": "high",
+            "description_zh": "何塞·玛丽亚·阿格达斯创作《山上的狐狸，山下的狐狸》",
+            "evidence_count": "2",
+            "issue_code": "NONE",
+            "object_id": "V1-ENT-0378",
+            "origin_layer": "WCD-07A",
+            "origin_relation_group_id": "WCD07A-R05",
+            "relation_type": "CREATED",
+            "relationship_id": "V1-REL-0335",
+            "review_status": "accepted",
+            "subject_id": "V1-ENT-0248",
+            "upstream_review_status": "CODEX-REVIEW-WCD07A-PASS"
+          }
+        ],
+        "issue_codes": "NONE",
+        "name_zh": "《山上的狐狸，山下的狐狸》",
+        "normalization_basis": "BNP and Losada establish one 1971 novel; Zhejiang Xinhua institutional catalog documents the 2024 People's Literature Publishing House Chinese title, Zhu Jinyu translation, and ISBN 9787020186723",
+        "origin_count": "3",
+        "origin_refs": "WCD07A-W05",
+        "original_name": "El zorro de arriba y el zorro de abajo",
+        "outgoing_relations": []
+      },
+      "facts": [
+        {
+          "admission_status": "batch_retained_candidate",
+          "card_id": "V1-CARD-0260",
+          "confidence": "high",
+          "fact_field": "entity_layer",
+          "fact_id": "V1-FCT-1025",
+          "material_class": "metadata",
+          "origin_id": "WCD07A-W05",
+          "origin_material_id": "WCD07A-F021",
+          "subject_id": "V1-ENT-0378",
+          "usage_note": "single novel",
+          "value_text": "work"
+        },
+        {
+          "admission_status": "batch_retained_candidate",
+          "card_id": "V1-CARD-0260",
+          "confidence": "high",
+          "fact_field": "first_publication_year",
+          "fact_id": "V1-FCT-1026",
+          "material_class": "bibliographic",
+          "origin_id": "WCD07A-W05",
+          "origin_material_id": "WCD07A-F022",
+          "subject_id": "V1-ENT-0378",
+          "usage_note": "posthumous publication",
+          "value_text": "1971"
+        },
+        {
+          "admission_status": "batch_retained_candidate",
+          "card_id": "V1-CARD-0260",
+          "confidence": "high",
+          "fact_field": "genre_or_form",
+          "fact_id": "V1-FCT-1027",
+          "material_class": "bibliographic",
+          "origin_id": "WCD07A-W05",
+          "origin_material_id": "WCD07A-F023",
+          "subject_id": "V1-ENT-0378",
+          "usage_note": "national library and publisher classification",
+          "value_text": "长篇小说"
+        },
+        {
+          "admission_status": "batch_retained_candidate",
+          "card_id": "V1-CARD-0260",
+          "confidence": "high",
+          "fact_field": "bibliographic_note",
+          "fact_id": "V1-FCT-1028",
+          "material_class": "bibliographic_note",
+          "origin_id": "WCD07A-W05",
+          "origin_material_id": "WCD07A-F024",
+          "subject_id": "V1-ENT-0378",
+          "usage_note": "unsupported diary-year claim excluded",
+          "value_text": "作品于1971年出版；Editorial Losada将其作为作者的文学遗嘱介绍。"
+        }
+      ],
+      "node_type": "literary_work",
+      "period_bucket": "1971",
+      "status": "batch_retained_candidate",
+      "year_label": "1971"
+    },
+    {
+      "entity": {
         "canonical_status": "retained",
         "content_cards": [
           {
@@ -195941,6 +199335,193 @@
       "node_type": "literary_work",
       "period_bucket": "1975",
       "status": "candidate_for_staging_review",
+      "year_label": "1975"
+    },
+    {
+      "entity": {
+        "canonical_status": "candidate",
+        "content_cards": [
+          {
+            "author_label": "卡洛斯·富恩特斯",
+            "card_id": "V1-CARD-0256",
+            "card_type": "work",
+            "content_markdown": "### 《我们的土地》｜Terra Nostra\\n\\n- 对象类型：`work`｜首版：1975｜体裁：长篇小说\\n- 研究基线：ELEM 与 UNAM 支持书目身份和三部结构；不拆子实体。",
+            "country_or_region": "墨西哥",
+            "genre_or_form": "长篇小说",
+            "input_layer": "WCD-07A",
+            "issue_code": "NONE",
+            "language": "es",
+            "origin_card_id": "WCD07A-W01",
+            "original_title": "Terra Nostra",
+            "period_bucket": "1975",
+            "source_minimum_status": "meets",
+            "subject_id": "V1-ENT-0374",
+            "title_zh": "《我们的土地》"
+          }
+        ],
+        "entity_id": "V1-ENT-0374",
+        "entity_type": "work",
+        "facts": [
+          {
+            "admission_status": "batch_retained_candidate",
+            "card_id": "V1-CARD-0256",
+            "confidence": "high",
+            "fact_field": "entity_layer",
+            "fact_id": "V1-FCT-1005",
+            "material_class": "metadata",
+            "origin_id": "WCD07A-W01",
+            "origin_material_id": "WCD07A-F001",
+            "subject_id": "V1-ENT-0374",
+            "usage_note": "single novel; sections not split",
+            "value_text": "work"
+          },
+          {
+            "admission_status": "batch_retained_candidate",
+            "card_id": "V1-CARD-0256",
+            "confidence": "high",
+            "fact_field": "first_publication_year",
+            "fact_id": "V1-FCT-1006",
+            "material_class": "bibliographic",
+            "origin_id": "WCD07A-W01",
+            "origin_material_id": "WCD07A-F002",
+            "subject_id": "V1-ENT-0374",
+            "usage_note": "original publication only",
+            "value_text": "1975"
+          },
+          {
+            "admission_status": "batch_retained_candidate",
+            "card_id": "V1-CARD-0256",
+            "confidence": "high",
+            "fact_field": "genre_or_form",
+            "fact_id": "V1-FCT-1007",
+            "material_class": "bibliographic",
+            "origin_id": "WCD07A-W01",
+            "origin_material_id": "WCD07A-F003",
+            "subject_id": "V1-ENT-0374",
+            "usage_note": "institutional classification",
+            "value_text": "长篇小说"
+          },
+          {
+            "admission_status": "batch_retained_candidate",
+            "card_id": "V1-CARD-0256",
+            "confidence": "high",
+            "fact_field": "bibliographic_note",
+            "fact_id": "V1-FCT-1008",
+            "material_class": "bibliographic_note",
+            "origin_id": "WCD07A-W01",
+            "origin_material_id": "WCD07A-F004",
+            "subject_id": "V1-ENT-0374",
+            "usage_note": "later edition dates excluded",
+            "value_text": "1975年由Joaquín Mortiz与Seix Barral在墨西哥出版。"
+          },
+          {
+            "admission_status": "batch_retained_candidate",
+            "card_id": "V1-CARD-0256",
+            "confidence": "medium",
+            "fact_field": "story_premise",
+            "fact_id": "V1-FCT-1009",
+            "material_class": "institutional_paraphrase",
+            "origin_id": "WCD07A-W01",
+            "origin_material_id": "WCD07A-F005",
+            "subject_id": "V1-ENT-0374",
+            "usage_note": "no theme or child relation inferred",
+            "value_text": "小说以三部结构交织旧世界、新世界与另一个世界的历史文化经验。"
+          }
+        ],
+        "incoming_relations": [
+          {
+            "confidence": "high",
+            "description_zh": "卡洛斯·富恩特斯创作《我们的土地》",
+            "evidence_count": "2",
+            "issue_code": "NONE",
+            "object_id": "V1-ENT-0374",
+            "origin_layer": "WCD-07A",
+            "origin_relation_group_id": "WCD07A-R01",
+            "relation_type": "CREATED",
+            "relationship_id": "V1-REL-0331",
+            "review_status": "accepted",
+            "subject_id": "V1-ENT-0145",
+            "upstream_review_status": "CODEX-REVIEW-WCD07A-PASS"
+          }
+        ],
+        "issue_codes": "NONE",
+        "name_zh": "《我们的土地》",
+        "normalization_basis": "ELEM/UNAM establish the 1975 novel identity; China Writers supports the published Chinese display title",
+        "origin_count": "3",
+        "origin_refs": "WCD07A-W01",
+        "original_name": "Terra Nostra",
+        "outgoing_relations": []
+      },
+      "facts": [
+        {
+          "admission_status": "batch_retained_candidate",
+          "card_id": "V1-CARD-0256",
+          "confidence": "high",
+          "fact_field": "entity_layer",
+          "fact_id": "V1-FCT-1005",
+          "material_class": "metadata",
+          "origin_id": "WCD07A-W01",
+          "origin_material_id": "WCD07A-F001",
+          "subject_id": "V1-ENT-0374",
+          "usage_note": "single novel; sections not split",
+          "value_text": "work"
+        },
+        {
+          "admission_status": "batch_retained_candidate",
+          "card_id": "V1-CARD-0256",
+          "confidence": "high",
+          "fact_field": "first_publication_year",
+          "fact_id": "V1-FCT-1006",
+          "material_class": "bibliographic",
+          "origin_id": "WCD07A-W01",
+          "origin_material_id": "WCD07A-F002",
+          "subject_id": "V1-ENT-0374",
+          "usage_note": "original publication only",
+          "value_text": "1975"
+        },
+        {
+          "admission_status": "batch_retained_candidate",
+          "card_id": "V1-CARD-0256",
+          "confidence": "high",
+          "fact_field": "genre_or_form",
+          "fact_id": "V1-FCT-1007",
+          "material_class": "bibliographic",
+          "origin_id": "WCD07A-W01",
+          "origin_material_id": "WCD07A-F003",
+          "subject_id": "V1-ENT-0374",
+          "usage_note": "institutional classification",
+          "value_text": "长篇小说"
+        },
+        {
+          "admission_status": "batch_retained_candidate",
+          "card_id": "V1-CARD-0256",
+          "confidence": "high",
+          "fact_field": "bibliographic_note",
+          "fact_id": "V1-FCT-1008",
+          "material_class": "bibliographic_note",
+          "origin_id": "WCD07A-W01",
+          "origin_material_id": "WCD07A-F004",
+          "subject_id": "V1-ENT-0374",
+          "usage_note": "later edition dates excluded",
+          "value_text": "1975年由Joaquín Mortiz与Seix Barral在墨西哥出版。"
+        },
+        {
+          "admission_status": "batch_retained_candidate",
+          "card_id": "V1-CARD-0256",
+          "confidence": "medium",
+          "fact_field": "story_premise",
+          "fact_id": "V1-FCT-1009",
+          "material_class": "institutional_paraphrase",
+          "origin_id": "WCD07A-W01",
+          "origin_material_id": "WCD07A-F005",
+          "subject_id": "V1-ENT-0374",
+          "usage_note": "no theme or child relation inferred",
+          "value_text": "小说以三部结构交织旧世界、新世界与另一个世界的历史文化经验。"
+        }
+      ],
+      "node_type": "literary_work",
+      "period_bucket": "1975",
+      "status": "batch_retained_candidate",
       "year_label": "1975"
     },
     {
@@ -200910,6 +204491,193 @@
         "canonical_status": "candidate",
         "content_cards": [
           {
+            "author_label": "塞尔希奥·皮托尔",
+            "card_id": "V1-CARD-0257",
+            "card_type": "work",
+            "content_markdown": "### 《逃亡的艺术》｜El arte de la fuga\\n\\n- 对象类型：`work`｜首版：1996｜体裁：复合型散文\\n- 研究基线：一部在文学评论、阅读记忆与自传叙述间展开的独立著作。",
+            "country_or_region": "墨西哥",
+            "genre_or_form": "复合型散文",
+            "input_layer": "WCD-07A",
+            "issue_code": "NONE",
+            "language": "es",
+            "origin_card_id": "WCD07A-W02",
+            "original_title": "El arte de la fuga",
+            "period_bucket": "1996",
+            "source_minimum_status": "meets",
+            "subject_id": "V1-ENT-0375",
+            "title_zh": "《逃亡的艺术》"
+          }
+        ],
+        "entity_id": "V1-ENT-0375",
+        "entity_type": "work",
+        "facts": [
+          {
+            "admission_status": "batch_retained_candidate",
+            "card_id": "V1-CARD-0257",
+            "confidence": "high",
+            "fact_field": "entity_layer",
+            "fact_id": "V1-FCT-1010",
+            "material_class": "metadata",
+            "origin_id": "WCD07A-W02",
+            "origin_material_id": "WCD07A-F006",
+            "subject_id": "V1-ENT-0375",
+            "usage_note": "single hybrid book",
+            "value_text": "work"
+          },
+          {
+            "admission_status": "batch_retained_candidate",
+            "card_id": "V1-CARD-0257",
+            "confidence": "high",
+            "fact_field": "first_publication_year",
+            "fact_id": "V1-FCT-1011",
+            "material_class": "bibliographic",
+            "origin_id": "WCD07A-W02",
+            "origin_material_id": "WCD07A-F007",
+            "subject_id": "V1-ENT-0375",
+            "usage_note": "Era Mexico publication",
+            "value_text": "1996"
+          },
+          {
+            "admission_status": "batch_retained_candidate",
+            "card_id": "V1-CARD-0257",
+            "confidence": "medium",
+            "fact_field": "genre_or_form",
+            "fact_id": "V1-FCT-1012",
+            "material_class": "scholarly_paraphrase",
+            "origin_id": "WCD07A-W02",
+            "origin_material_id": "WCD07A-F008",
+            "subject_id": "V1-ENT-0375",
+            "usage_note": "not reduced to memoir",
+            "value_text": "复合型散文"
+          },
+          {
+            "admission_status": "batch_retained_candidate",
+            "card_id": "V1-CARD-0257",
+            "confidence": "high",
+            "fact_field": "bibliographic_note",
+            "fact_id": "V1-FCT-1013",
+            "material_class": "bibliographic_note",
+            "origin_id": "WCD07A-W02",
+            "origin_material_id": "WCD07A-F009",
+            "subject_id": "V1-ENT-0375",
+            "usage_note": "reuses SRC-0201",
+            "value_text": "Instituto Cervantes书目记录该书由Era于1996年在墨西哥出版。"
+          },
+          {
+            "admission_status": "batch_retained_candidate",
+            "card_id": "V1-CARD-0257",
+            "confidence": "medium",
+            "fact_field": "story_premise",
+            "fact_id": "V1-FCT-1014",
+            "material_class": "scholarly_paraphrase",
+            "origin_id": "WCD07A-W02",
+            "origin_material_id": "WCD07A-F010",
+            "subject_id": "V1-ENT-0375",
+            "usage_note": "bounded synthesis",
+            "value_text": "作品在文学评论、阅读记忆与自传叙述之间展开。"
+          }
+        ],
+        "incoming_relations": [
+          {
+            "confidence": "high",
+            "description_zh": "塞尔希奥·皮托尔创作《逃亡的艺术》",
+            "evidence_count": "2",
+            "issue_code": "NONE",
+            "object_id": "V1-ENT-0375",
+            "origin_layer": "WCD-07A",
+            "origin_relation_group_id": "WCD07A-R02",
+            "relation_type": "CREATED",
+            "relationship_id": "V1-REL-0332",
+            "review_status": "accepted",
+            "subject_id": "V1-ENT-0249",
+            "upstream_review_status": "CODEX-REVIEW-WCD07A-PASS"
+          }
+        ],
+        "issue_codes": "NONE",
+        "name_zh": "《逃亡的艺术》",
+        "normalization_basis": "CVC and UNAM establish one 1996 hybrid work; China Reading Weekly supports the published Chinese display title",
+        "origin_count": "3",
+        "origin_refs": "WCD07A-W02",
+        "original_name": "El arte de la fuga",
+        "outgoing_relations": []
+      },
+      "facts": [
+        {
+          "admission_status": "batch_retained_candidate",
+          "card_id": "V1-CARD-0257",
+          "confidence": "high",
+          "fact_field": "entity_layer",
+          "fact_id": "V1-FCT-1010",
+          "material_class": "metadata",
+          "origin_id": "WCD07A-W02",
+          "origin_material_id": "WCD07A-F006",
+          "subject_id": "V1-ENT-0375",
+          "usage_note": "single hybrid book",
+          "value_text": "work"
+        },
+        {
+          "admission_status": "batch_retained_candidate",
+          "card_id": "V1-CARD-0257",
+          "confidence": "high",
+          "fact_field": "first_publication_year",
+          "fact_id": "V1-FCT-1011",
+          "material_class": "bibliographic",
+          "origin_id": "WCD07A-W02",
+          "origin_material_id": "WCD07A-F007",
+          "subject_id": "V1-ENT-0375",
+          "usage_note": "Era Mexico publication",
+          "value_text": "1996"
+        },
+        {
+          "admission_status": "batch_retained_candidate",
+          "card_id": "V1-CARD-0257",
+          "confidence": "medium",
+          "fact_field": "genre_or_form",
+          "fact_id": "V1-FCT-1012",
+          "material_class": "scholarly_paraphrase",
+          "origin_id": "WCD07A-W02",
+          "origin_material_id": "WCD07A-F008",
+          "subject_id": "V1-ENT-0375",
+          "usage_note": "not reduced to memoir",
+          "value_text": "复合型散文"
+        },
+        {
+          "admission_status": "batch_retained_candidate",
+          "card_id": "V1-CARD-0257",
+          "confidence": "high",
+          "fact_field": "bibliographic_note",
+          "fact_id": "V1-FCT-1013",
+          "material_class": "bibliographic_note",
+          "origin_id": "WCD07A-W02",
+          "origin_material_id": "WCD07A-F009",
+          "subject_id": "V1-ENT-0375",
+          "usage_note": "reuses SRC-0201",
+          "value_text": "Instituto Cervantes书目记录该书由Era于1996年在墨西哥出版。"
+        },
+        {
+          "admission_status": "batch_retained_candidate",
+          "card_id": "V1-CARD-0257",
+          "confidence": "medium",
+          "fact_field": "story_premise",
+          "fact_id": "V1-FCT-1014",
+          "material_class": "scholarly_paraphrase",
+          "origin_id": "WCD07A-W02",
+          "origin_material_id": "WCD07A-F010",
+          "subject_id": "V1-ENT-0375",
+          "usage_note": "bounded synthesis",
+          "value_text": "作品在文学评论、阅读记忆与自传叙述之间展开。"
+        }
+      ],
+      "node_type": "literary_work",
+      "period_bucket": "1996",
+      "status": "batch_retained_candidate",
+      "year_label": "1996"
+    },
+    {
+      "entity": {
+        "canonical_status": "candidate",
+        "content_cards": [
+          {
             "author_label": "尼卡诺尔·帕拉",
             "card_id": "V1-CARD-0129",
             "card_type": "collection",
@@ -201553,6 +205321,193 @@
       "period_bucket": "1998",
       "status": "candidate_for_staging_review",
       "year_label": "1998"
+    },
+    {
+      "entity": {
+        "canonical_status": "candidate",
+        "content_cards": [
+          {
+            "author_label": "马里奥·巴尔加斯·略萨",
+            "card_id": "V1-CARD-0259",
+            "card_type": "work",
+            "content_markdown": "### 《公羊的节日》｜La fiesta del Chivo\\n\\n- 对象类型：`work`｜首版：2000｜体裁：长篇小说\\n- 研究基线：小说围绕多米尼加共和国特鲁希略独裁统治及其余波展开。",
+            "country_or_region": "秘鲁",
+            "genre_or_form": "长篇小说",
+            "input_layer": "WCD-07A",
+            "issue_code": "NONE",
+            "language": "es",
+            "origin_card_id": "WCD07A-W04",
+            "original_title": "La fiesta del Chivo",
+            "period_bucket": "2000",
+            "source_minimum_status": "meets",
+            "subject_id": "V1-ENT-0377",
+            "title_zh": "《公羊的节日》"
+          }
+        ],
+        "entity_id": "V1-ENT-0377",
+        "entity_type": "work",
+        "facts": [
+          {
+            "admission_status": "batch_retained_candidate",
+            "card_id": "V1-CARD-0259",
+            "confidence": "high",
+            "fact_field": "entity_layer",
+            "fact_id": "V1-FCT-1020",
+            "material_class": "metadata",
+            "origin_id": "WCD07A-W04",
+            "origin_material_id": "WCD07A-F016",
+            "subject_id": "V1-ENT-0377",
+            "usage_note": "single novel",
+            "value_text": "work"
+          },
+          {
+            "admission_status": "batch_retained_candidate",
+            "card_id": "V1-CARD-0259",
+            "confidence": "high",
+            "fact_field": "first_publication_year",
+            "fact_id": "V1-FCT-1021",
+            "material_class": "bibliographic",
+            "origin_id": "WCD07A-W04",
+            "origin_material_id": "WCD07A-F017",
+            "subject_id": "V1-ENT-0377",
+            "usage_note": "Nobel bibliography",
+            "value_text": "2000"
+          },
+          {
+            "admission_status": "batch_retained_candidate",
+            "card_id": "V1-CARD-0259",
+            "confidence": "high",
+            "fact_field": "genre_or_form",
+            "fact_id": "V1-FCT-1022",
+            "material_class": "bibliographic",
+            "origin_id": "WCD07A-W04",
+            "origin_material_id": "WCD07A-F018",
+            "subject_id": "V1-ENT-0377",
+            "usage_note": "publisher classification",
+            "value_text": "长篇小说"
+          },
+          {
+            "admission_status": "batch_retained_candidate",
+            "card_id": "V1-CARD-0259",
+            "confidence": "high",
+            "fact_field": "bibliographic_note",
+            "fact_id": "V1-FCT-1023",
+            "material_class": "bibliographic_note",
+            "origin_id": "WCD07A-W04",
+            "origin_material_id": "WCD07A-F019",
+            "subject_id": "V1-ENT-0377",
+            "usage_note": "direct bibliography",
+            "value_text": "诺贝尔奖官方书目记录该书2000年由马德里Alfaguara出版。"
+          },
+          {
+            "admission_status": "batch_retained_candidate",
+            "card_id": "V1-CARD-0259",
+            "confidence": "high",
+            "fact_field": "story_premise",
+            "fact_id": "V1-FCT-1024",
+            "material_class": "publisher_paraphrase",
+            "origin_id": "WCD07A-W04",
+            "origin_material_id": "WCD07A-F020",
+            "subject_id": "V1-ENT-0377",
+            "usage_note": "no event or place edge inferred",
+            "value_text": "小说围绕多米尼加共和国特鲁希略独裁统治及其余波展开。"
+          }
+        ],
+        "incoming_relations": [
+          {
+            "confidence": "high",
+            "description_zh": "马里奥·巴尔加斯·略萨创作《公羊的节日》",
+            "evidence_count": "2",
+            "issue_code": "NONE",
+            "object_id": "V1-ENT-0377",
+            "origin_layer": "WCD-07A",
+            "origin_relation_group_id": "WCD07A-R04",
+            "relation_type": "CREATED",
+            "relationship_id": "V1-REL-0334",
+            "review_status": "accepted",
+            "subject_id": "V1-ENT-0114",
+            "upstream_review_status": "CODEX-REVIEW-WCD07A-PASS"
+          }
+        ],
+        "issue_codes": "NONE",
+        "name_zh": "《公羊的节日》",
+        "normalization_basis": "Nobel and Alfaguara establish the 2000 novel identity; China Writers supports the published Chinese display title",
+        "origin_count": "3",
+        "origin_refs": "WCD07A-W04",
+        "original_name": "La fiesta del Chivo",
+        "outgoing_relations": []
+      },
+      "facts": [
+        {
+          "admission_status": "batch_retained_candidate",
+          "card_id": "V1-CARD-0259",
+          "confidence": "high",
+          "fact_field": "entity_layer",
+          "fact_id": "V1-FCT-1020",
+          "material_class": "metadata",
+          "origin_id": "WCD07A-W04",
+          "origin_material_id": "WCD07A-F016",
+          "subject_id": "V1-ENT-0377",
+          "usage_note": "single novel",
+          "value_text": "work"
+        },
+        {
+          "admission_status": "batch_retained_candidate",
+          "card_id": "V1-CARD-0259",
+          "confidence": "high",
+          "fact_field": "first_publication_year",
+          "fact_id": "V1-FCT-1021",
+          "material_class": "bibliographic",
+          "origin_id": "WCD07A-W04",
+          "origin_material_id": "WCD07A-F017",
+          "subject_id": "V1-ENT-0377",
+          "usage_note": "Nobel bibliography",
+          "value_text": "2000"
+        },
+        {
+          "admission_status": "batch_retained_candidate",
+          "card_id": "V1-CARD-0259",
+          "confidence": "high",
+          "fact_field": "genre_or_form",
+          "fact_id": "V1-FCT-1022",
+          "material_class": "bibliographic",
+          "origin_id": "WCD07A-W04",
+          "origin_material_id": "WCD07A-F018",
+          "subject_id": "V1-ENT-0377",
+          "usage_note": "publisher classification",
+          "value_text": "长篇小说"
+        },
+        {
+          "admission_status": "batch_retained_candidate",
+          "card_id": "V1-CARD-0259",
+          "confidence": "high",
+          "fact_field": "bibliographic_note",
+          "fact_id": "V1-FCT-1023",
+          "material_class": "bibliographic_note",
+          "origin_id": "WCD07A-W04",
+          "origin_material_id": "WCD07A-F019",
+          "subject_id": "V1-ENT-0377",
+          "usage_note": "direct bibliography",
+          "value_text": "诺贝尔奖官方书目记录该书2000年由马德里Alfaguara出版。"
+        },
+        {
+          "admission_status": "batch_retained_candidate",
+          "card_id": "V1-CARD-0259",
+          "confidence": "high",
+          "fact_field": "story_premise",
+          "fact_id": "V1-FCT-1024",
+          "material_class": "publisher_paraphrase",
+          "origin_id": "WCD07A-W04",
+          "origin_material_id": "WCD07A-F020",
+          "subject_id": "V1-ENT-0377",
+          "usage_note": "no event or place edge inferred",
+          "value_text": "小说围绕多米尼加共和国特鲁希略独裁统治及其余波展开。"
+        }
+      ],
+      "node_type": "literary_work",
+      "period_bucket": "2000",
+      "status": "batch_retained_candidate",
+      "year_label": "2000"
     },
     {
       "entity": {

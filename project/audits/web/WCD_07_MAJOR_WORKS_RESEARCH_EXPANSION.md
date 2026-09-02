@@ -3,7 +3,7 @@
 - Date: 2026-09-02
 - Scope: WCD-07 only; WCD-08 not started
 - Public Release: `PAUSED BY USER`
-- Audit status: Research and candidate gates complete; deployment/public-boundary, Python, and diff gates pass. The local browser matrix is blocked at browser-process launch by macOS permissions; CI remains the merge gate.
+- Audit status: targeted governance remediation complete; full local Playwright matrix passes 84/84; fresh-context `CODEX-REVIEW-WCD07-FINAL` returns `PASS`. Exact-push CI remains the PR merge gate.
 
 ## Baseline
 
@@ -59,17 +59,65 @@ Only the six PASS work rows were migrated in append-only
 
 | Candidate | Canonical identity | Type / year | Duplicate and Chinese-title result | Sources / gate | Migration |
 |---|---|---|---|---|---|
-| Terra Nostra | Carlos Fuentes — 《我们的土地》 | work / 1975 | no duplicate; display supported by Chinese Writers | ELEM + UNAM; PASS | added |
-| El arte de la fuga | Sergio Pitol — 《逃亡的艺术》 | work / 1996 | distinct from 《逃亡计划》; no collection/series expansion | CVC reuse + UNAM; PASS | added |
+| Terra Nostra | Carlos Fuentes — 《我们的土地》 | work / 1975 | no duplicate; display supported by Chinese Writers | ELEM B + Gaceta UNAM C; PASS | added |
+| El arte de la fuga | Sergio Pitol — 《逃亡的艺术》 | work / 1996 | distinct from 《逃亡计划》; no collection/series expansion | CVC B reuse + UNAM review C; PASS | added |
 | Versos libres | José Martí — 《自由诗》 | collection / 1913 posthumous | distinct from `Versos sencillos`; provisional Chinese display only | two scholarly sources; PASS | added |
-| La fiesta del Chivo | Mario Vargas Llosa — 《公羊的节日》 | work / 2000 | no duplicate; Chinese Writers edition/display support | Nobel + Alfaguara; PASS | added |
-| El zorro de arriba y el zorro de abajo | José María Arguedas — 《山上的狐狸，山下的狐狸》 | work / 1971 | single novel; electronic short title not formal alias | BNP + Losada; PASS | added |
-| Terras do sem-fim | Jorge Amado — 《无边的土地》 | work / 1943 | no duplicate; 1942 dissent stays audit-only | BNDigital + SciELO; PASS | added |
+| La fiesta del Chivo | Mario Vargas Llosa — 《公羊的节日》 | work / 2000 | no duplicate; Chinese Writers edition/display support | Nobel B + Alfaguara B; PASS | added |
+| El zorro de arriba y el zorro de abajo | José María Arguedas — 《山上的狐狸，山下的狐狸》 | work / 1971 | single novel; 2024 Chinese title has formal catalog provenance | BNP B + Losada B; PASS | added |
+| Terras do sem-fim | Jorge Amado — 《无边的土地》 | work / 1943 | no duplicate; 1942 dissent stays audit-only; Chinese title linked to original | BNDigital B + SciELO A; PASS | added |
 
 The two P0 review deferrals were not migrated: the Itaú 1942 conflict-only
 source and the unsupported Arguedas structural premise. No aliases, editions,
 characters, places, themes, events, series, or non-`CREATED` relations were
 added.
+
+### Targeted source-level governance remediation
+
+The formal Data SOP classifies the actual inspected object, not the prestige of
+its host. The unmerged 0035 migration was corrected in place; no 0036 rollback
+migration was created.
+
+| Source | Actual object | Before | Final |
+|---|---|---:|---:|
+| SRC-0301 | ELEM / Fundación institutional work page | A | B |
+| SRC-0302 | Gaceta UNAM institutional news/features page | A | C |
+| SRC-0303 | China Writers book-information web page | B | C |
+| SRC-0304 | *Literatura Mexicana* book review; no evidence inspected that it is a peer-reviewed research article | A | C |
+| SRC-0305 | *中华读书报* newspaper review | B | C |
+| SRC-0306 | authored scholarly study | A | A |
+| SRC-0307 | authored scholarly article | A | A |
+| SRC-0308 | Nobel institutional bibliography | A | B |
+| SRC-0309 | Alfaguara publisher catalog | A | B |
+| SRC-0310 | China Writers book-information web page | B | C |
+| SRC-0311 | Biblioteca Nacional del Perú record | A | B |
+| SRC-0312 | Editorial Losada publisher catalog | A | B |
+| SRC-0313 | Brazilian National Library article | A | B |
+| SRC-0314 | peer-reviewed journal research article with DOI | A | A |
+| SRC-0201 / SRC-0281 | reused institutional bibliography / media context | B / C | B / C |
+
+Regrading does not mechanically remove entities. The gate was reassessed by
+directness, reliability, independence, and claim intensity: W01 remains B+C;
+W02 B+C; W03 A+A; W04 B+B; W05 B+B; and W06 B+A. C-level material is used only
+for bounded review/context or Chinese bibliographic display, not as the sole
+basis of a high-intensity interpretive claim. All six P0 entities, 29 facts and
+six `CREATED` relationships therefore remain admissible.
+
+### W05 / W06 Chinese display provenance
+
+- `SRC-0315` is the Zhejiang Xinhua institutional library-acquisition catalog
+  record for the People's Literature Publishing House June 2024 edition
+  *《山上的狐狸，山下的狐狸》*: translator Zhu Jinyu, ISBN 9787020186723.
+  It is B-level and attached to `V1-CARD-0260` with
+  `source_role=chinese_display`.
+- `SRC-0316` is the Fujian Jiangxia University Library catalog record for the
+  1992 Shanghai Translation Publishing House edition *《无边的土地》*: translator
+  Wu Lao, ISBN 7-5327-0345-2, with the parallel/original title
+  *Terras do sem fim*. It is B-level and attached to `V1-CARD-0261` with
+  `source_role=chinese_display`.
+
+The two records support canonical Chinese display without creating edition
+entities. Their `normalization_basis` fields now state the traceable edition
+linkage; neither entity requires `PROVISIONAL-ZH-DISPLAY`.
 
 ## WCD-07B P1 first-wave
 
@@ -132,7 +180,7 @@ the fact candidate file and remains an audit boundary only.
 | works | 134 | 139 | +5 |
 | collections | 69 | 70 | +1 |
 | facts | 998 | 1027 | +29 |
-| sources | 298 | 312 | +14 |
+| sources | 298 | 314 | +16 |
 | content cards | 255 | 261 | +6 |
 | relationships | 328 | 334 | +6 |
 | `CREATED` added | — | 6 | +6 |
@@ -147,7 +195,7 @@ The six new Research cards are not automatically admitted to reader-facing
 curation. Curation was rebuilt from the existing reviewed package and its
 quality validator remained PASS. Web Data was rebuilt from SQLite and the
 existing curation package, so the Research layer now exposes 377 entities,
-1027 facts, 334 relationships, 312 sources, and 261 cards. Web Data schema is
+1027 facts, 334 relationships, 314 sources, and 261 cards. Web Data schema is
 still `v2-web-0.2`, and Web remains the verified `0.3.3 Development` because
 public reader scope and page types did not change. No new public reader entity
 was admitted by WCD-07.
@@ -176,19 +224,19 @@ was admitted by WCD-07.
 | Frontend syntax (`node --check site/app.js`) | PASS |
 | Deploy bundle / public-boundary validator | PASS (test origin; 137 routes, 128 public entities, no review queue exposure) |
 | Python unit tests | PASS (25/25) |
-| Browser / Playwright matrix | BLOCKED at browser-process launch by macOS permission (`bootstrap_check_in ... Permission denied`); no assertion failure observed |
+| Browser / Playwright matrix | PASS (84/84; Chromium desktop/mobile, Firefox desktop, WebKit mobile; built public bundle) |
 | `git diff --check` | PASS |
-| GitHub CI | PENDING: no push/PR action was taken |
+| GitHub CI | Previous PR candidate PASS; exact remediation commit pending push |
 
-The blocked browser check is environmental, not a data or review failure. It
-must be rerun in the repository CI environment before merge. The test origin
-`https://example.invalid/` was used only for local preview validation; no
-production origin or deployment was used.
+The full local matrix ran with the repository's unmodified `npm run qa:browser`
+entrypoint against the built public bundle; Chromium smoke was not substituted
+for the matrix. The test origin `https://example.invalid/` was used only for
+local preview validation; no production origin or deployment was used.
 
 ## Gate
 
-Research gate: `PASS` for WCD-07A; `CLOSED` for WCD-07B (all 17 DEFER). 0035
-is applied and replayable. Public Release remains `PAUSED BY USER`. No tag,
-GitHub Release, production deployment, or WCD-08 was started. The PR may be
-opened for CI review; merge remains gated on the standard browser matrix and
-CI result.
+Research gate: `PASS` for WCD-07A after source regrading; `CLOSED` for WCD-07B
+(all 17 DEFER). 0035 is applied and replayable. Public Release remains `PAUSED
+BY USER`. No tag, GitHub Release, production deployment, or WCD-08 was started.
+The focused final reviewer returned `PASS`. Local WCD-07 gates are complete;
+the exact pushed remediation commit remains subject to PR CI before merge.

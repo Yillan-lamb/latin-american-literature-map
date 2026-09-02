@@ -7,14 +7,15 @@
 ### Research / WCD-07
 
 - 完成 WCD-07 current-main rebase：6 个 P0 与 17 个 P1 first-wave 全部完成语义去重、作品/合集/版本层级及中文展示名审计；P1 later、P2、P3 与 WCD-06 既有实体研究缺口未进入本轮。
-- WCD-07A 经 fresh-context `CODEX-REVIEW-WCD07A` 最终 PASS，追加 append-only migration `0035_wcd07a_p0_major_works`；Research 新增 6 个实体（5 work / 1 collection）、29 facts、14 sources（另复用 2 条）、6 content cards、6 条 author→CREATED 及完整关系/事实证据。
+- WCD-07A 经 fresh-context `CODEX-REVIEW-WCD07A` 最终 PASS，追加 append-only migration `0035_wcd07a_p0_major_works`；定向治理返修按正式 SOP 将 11 条来源从 A/B 校准为 B/C，并由 `CODEX-REVIEW-WCD07-FINAL` focused re-review 再次 PASS。Research 新增 6 个实体（5 work / 1 collection）、29 facts、16 sources（另复用 2 条）、6 content cards、6 条 author→CREATED 及完整关系/事实证据。
+- 新增两条 B 级正式中文书目来源：人民文学出版社 2024 年《山上的狐狸，山下的狐狸》（朱金玉译，ISBN 9787020186723）与上海译文出版社 1992 年《无边的土地》（吴劳译，ISBN 7-5327-0345-2，并列原题 `Terras do sem fim`）；仅用于 `chinese_display` provenance，不创建 edition entity。
 - WCD-07B 经全新 fresh-context `CODEX-REVIEW-WCD07B` 返回 `DEFER — MIGRATION GATE CLOSED`：17 项全部延后；仅修正并保留既有 `SRC-0066` 的 BnF 复用候选，不新增 P1 实体、事实或关系。内部层级说明未作为 fact 迁移。
 
 ### Version / Gate
 
 - Research 升至 `Data 1.5.0 development candidate`；Research Schema 保持 `0.4`。
-- Web Research layer 同步 377 entities / 1027 facts / 334 relationships / 312 sources / 261 content cards；公开 reader scope 未因本轮 Research 新增而扩张，Web 保持已验证的 `0.3.3 Development`，Web Data schema 保持 `v2-web-0.2`。
-- Curation 重新构建并通过质量门禁；未为新增 Research 作品自动生成读者向策展内容。Public Release 继续 `PAUSED BY USER`，不创建 tag、GitHub Release 或 production deployment；不创建 WCD-08。部署包、公共边界、Python 与 diff 校验通过；本机 Playwright 因 macOS 浏览器进程权限阻断，交由 PR CI 复核。
+- Web Research layer 同步 377 entities / 1027 facts / 334 relationships / 314 sources / 261 content cards；公开 reader scope 未因本轮 Research 新增而扩张，Web 保持已验证的 `0.3.3 Development`，Web Data schema 保持 `v2-web-0.2`。
+- Curation 重新构建并通过质量门禁；未为新增 Research 作品自动生成读者向策展内容。Public Release 继续 `PAUSED BY USER`，不创建 tag、GitHub Release 或 production deployment；不创建 WCD-08。部署包、公共边界、25/25 Python 测试与 diff 校验通过；项目原生 Full Playwright matrix 84/84 PASS（Chromium desktop/mobile、Firefox desktop、WebKit mobile）。
 
 
 ## [Web 0.3.3 — Development] - 2026-08-31

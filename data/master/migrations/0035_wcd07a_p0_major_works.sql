@@ -1,13 +1,14 @@
 -- WCD-07A: six independently reviewed P0 major-work omissions.
--- Reviewer gate: CODEX-REVIEW-WCD07A PASS. Audit-only S17 and deferred F025 are excluded.
+-- Original reviewer gate: CODEX-REVIEW-WCD07A PASS; prepared for focused final re-review.
+-- Audit-only S17 and deferred F025 are excluded.
 
 INSERT INTO entities (entity_id,entity_type,name_zh,original_name,canonical_status,origin_count,origin_refs,normalization_basis,issue_codes) VALUES
 ('V1-ENT-0374','work','《我们的土地》','Terra Nostra','candidate','3','WCD07A-W01','ELEM/UNAM establish the 1975 novel identity; China Writers supports the published Chinese display title','NONE'),
 ('V1-ENT-0375','work','《逃亡的艺术》','El arte de la fuga','candidate','3','WCD07A-W02','CVC and UNAM establish one 1996 hybrid work; China Reading Weekly supports the published Chinese display title','NONE'),
 ('V1-ENT-0376','collection','《自由诗》','Versos libres','candidate','2','WCD07A-W03','Two independently authored studies establish the posthumous 1913 poetry collection; Chinese is a display gloss, not a claimed edition','PROVISIONAL-ZH-DISPLAY'),
 ('V1-ENT-0377','work','《公羊的节日》','La fiesta del Chivo','candidate','3','WCD07A-W04','Nobel and Alfaguara establish the 2000 novel identity; China Writers supports the published Chinese display title','NONE'),
-('V1-ENT-0378','work','《山上的狐狸，山下的狐狸》','El zorro de arriba y el zorro de abajo','candidate','2','WCD07A-W05','Biblioteca Nacional del Perú and Editorial Losada establish one 1971 novel; the shorter electronic title remains audit-only','NONE'),
-('V1-ENT-0379','work','《无边的土地》','Terras do sem-fim','candidate','3','WCD07A-W06','Brazilian National Library and independent SciELO scholarship converge on the 1943 novel; the 1942 dissent remains changeset-only','DISPUTED-YEAR-RESOLVED-1943');
+('V1-ENT-0378','work','《山上的狐狸，山下的狐狸》','El zorro de arriba y el zorro de abajo','candidate','3','WCD07A-W05','BNP and Losada establish one 1971 novel; Zhejiang Xinhua institutional catalog documents the 2024 People''s Literature Publishing House Chinese title, Zhu Jinyu translation, and ISBN 9787020186723','NONE'),
+('V1-ENT-0379','work','《无边的土地》','Terras do sem-fim','candidate','4','WCD07A-W06','Brazilian National Library and independent SciELO scholarship establish the 1943 novel; Fujian Jiangxia University Library links the formal Chinese title and Wu Lao translation to Terras do sem fim','DISPUTED-YEAR-RESOLVED-1943');
 
 INSERT INTO entity_id_map (mapping_id,preview_entity_ref,origin_layer,origin_ref,entity_id,mapping_action,mapping_basis) VALUES
 ('V1-EMAP-0370','WCD07A-W01','WCD-07A','WCD07A-W01','V1-ENT-0374','retain_as_formal_candidate','fresh-context reviewer PASS; semantic duplicate check clear'),
@@ -18,20 +19,22 @@ INSERT INTO entity_id_map (mapping_id,preview_entity_ref,origin_layer,origin_ref
 ('V1-EMAP-0375','WCD07A-W06','WCD-07A','WCD07A-W06','V1-ENT-0379','retain_as_formal_candidate','fresh-context reviewer PASS; 1943 resolved by two direct independent sources');
 
 INSERT INTO sources (source_id,temporary_id,title,original_title,author_or_editor,translator,publisher,publication_year,isbn,format,page_count,language,source_level,processing_status,source_task,public_content_scope,local_asset_status,persistent_id,canonical_url) VALUES
-('SRC-0301','WCD07A-S01','Terra Nostra — Detalle de la obra','Terra Nostra — Detalle de la obra','Enciclopedia de la Literatura en México','','Fundación para las Letras Mexicanas','','','web_page','','es','A','access_pass','WCD-07A','metadata_and_summary','remote_only','','https://www.elem.mx/obra/datos/3344'),
-('SRC-0302','WCD07A-S02','La Cátedra Carlos Fuentes celebrará el 50 aniversario de Terra Nostra','La Cátedra Carlos Fuentes celebrará el 50 aniversario de Terra Nostra','Gaceta UNAM','','UNAM','2025','','web_page','','es','A','access_pass','WCD-07A','metadata_and_summary','remote_only','','https://www.gaceta.unam.mx/la-catedra-carlos-fuentes-celebrara-el-50-aniversario-de-terra-nostra-de-carlos-fuentes/'),
-('SRC-0303','WCD07A-S03','《我们的土地》—书汇','《我们的土地》—书汇','中国作家网','','作家出版社','2021','9787521211542','web_page','','zh','B','access_pass','WCD-07A','chinese_display_and_edition','remote_only','','https://www.chinawriter.com.cn/n1/2021/0825/c405084-32207463.html'),
-('SRC-0304','WCD07A-S05','Sergio Pitol. El arte de la fuga','Sergio Pitol. El arte de la fuga','Revista Literatura Mexicana','','UNAM','1998','','journal_review','','es','A','access_pass','WCD-07A','metadata_and_summary','remote_only','','https://revistas-filologicas.unam.mx/literatura-mexicana/index.php/lm/article/view/324'),
-('SRC-0305','WCD07A-S06','《作家的宿命就是逃亡》','《作家的宿命就是逃亡》','中华读书报','','光明日报','2006','','newspaper_review','','zh','B','access_pass','WCD-07A','chinese_display_and_edition','remote_only','','https://www.gmw.cn/01ds/2006-07/05/content_445692.htm'),
+('SRC-0301','WCD07A-S01','Terra Nostra — Detalle de la obra','Terra Nostra — Detalle de la obra','Enciclopedia de la Literatura en México','','Fundación para las Letras Mexicanas','','','web_page','','es','B','access_pass','WCD-07A','metadata_and_summary','remote_only','','https://www.elem.mx/obra/datos/3344'),
+('SRC-0302','WCD07A-S02','La Cátedra Carlos Fuentes celebrará el 50 aniversario de Terra Nostra','La Cátedra Carlos Fuentes celebrará el 50 aniversario de Terra Nostra','Gaceta UNAM','','UNAM','2025','','web_page','','es','C','access_pass','WCD-07A','metadata_and_summary','remote_only','','https://www.gaceta.unam.mx/la-catedra-carlos-fuentes-celebrara-el-50-aniversario-de-terra-nostra-de-carlos-fuentes/'),
+('SRC-0303','WCD07A-S03','《我们的土地》—书汇','《我们的土地》—书汇','中国作家网','','作家出版社','2021','9787521211542','web_page','','zh','C','access_pass','WCD-07A','chinese_display_and_edition','remote_only','','https://www.chinawriter.com.cn/n1/2021/0825/c405084-32207463.html'),
+('SRC-0304','WCD07A-S05','Sergio Pitol. El arte de la fuga','Sergio Pitol. El arte de la fuga','Revista Literatura Mexicana','','UNAM','1998','','journal_review','','es','C','access_pass','WCD-07A','metadata_and_summary','remote_only','','https://revistas-filologicas.unam.mx/literatura-mexicana/index.php/lm/article/view/324'),
+('SRC-0305','WCD07A-S06','《作家的宿命就是逃亡》','《作家的宿命就是逃亡》','中华读书报','','光明日报','2006','','newspaper_review','','zh','C','access_pass','WCD-07A','chinese_display_and_edition','remote_only','','https://www.gmw.cn/01ds/2006-07/05/content_445692.htm'),
 ('SRC-0306','WCD07A-S07','Tradición y modernidad en los Versos libres','Tradición y modernidad en los Versos libres','Carlos Javier Morales','','Biblioteca Virtual Miguel de Cervantes','1995','','scholarly_article','','es','A','access_pass','WCD-07A','metadata_and_summary','remote_only','','https://www.cervantesvirtual.com/descargaPdf/tradicion-y-modernidad-en-los-versos-libres/'),
 ('SRC-0307','WCD07A-S08','Introducción a la literatura cubana','Introducción a la literatura cubana','Roberto Fernández Retamar','','Biblioteca Virtual Miguel de Cervantes','2000','','scholarly_article','','es','A','access_pass','WCD-07A','metadata_and_summary','remote_only','','https://www.cervantesvirtual.com/obra-visor/america-sin-nombre--11/html/0256666c-82b2-11df-acc7-002185ce6064_3.htm'),
-('SRC-0308','WCD07A-S09','The Nobel Prize in Literature 2010 — Bio-bibliographical notes','The Nobel Prize in Literature 2010 — Bio-bibliographical notes','Nobel Prize Outreach','','Nobel Foundation','2010','','institutional_bibliography','','en','A','access_pass','WCD-07A','metadata_and_summary','remote_only','','https://www.nobelprize.org/prizes/literature/2010/bio-bibliography/'),
-('SRC-0309','WCD07A-S10','La fiesta del Chivo','La fiesta del Chivo','Penguin Random House Grupo Editorial','','Alfaguara','','','publisher_catalog','','es','A','access_pass','WCD-07A','metadata_and_summary','remote_only','','https://www.penguinlibros.com/co/tematicas/15210-ebook-la-fiesta-del-chivo-9788420499437'),
-('SRC-0310','WCD07A-S11','《公羊的节日》—书汇','《公羊的节日》—书汇','中国作家网','','上海译文出版社','2016','9787532741243','web_page','','zh','B','access_pass','WCD-07A','chinese_display_and_edition','remote_only','','http://www.chinawriter.com.cn/n1/2016/0627/c405068-28500637.html'),
-('SRC-0311','WCD07A-S12','El zorro de arriba y el zorro de abajo — BNP Digital','El zorro de arriba y el zorro de abajo','Biblioteca Nacional del Perú','','Biblioteca Nacional del Perú','1971','','national_library_record','','es','A','access_pass','WCD-07A','metadata_and_summary','remote_only','hdl.handle.net/20.500.14428/79320','https://bibliotecadigital.bnp.gob.pe/items/72c6e3f4-b4a0-4e00-babd-9481cdb250fb'),
-('SRC-0312','WCD07A-S13','El zorro de arriba y el zorro de abajo','El zorro de arriba y el zorro de abajo','Editorial Losada','','Editorial Losada','','','publisher_catalog','','es','A','access_pass','WCD-07A','metadata_and_summary','remote_only','','https://editoriallosada.com/libro/el-zorro-de-arriba-y-el-zorro-de-abajo/'),
-('SRC-0313','WCD07A-S14','Literatura — Jorge Amado: um sem-fim de romances','Literatura — Jorge Amado: um sem-fim de romances','Biblioteca Nacional do Brasil','','BNDigital','2021','','national_library_article','','pt','A','access_pass','WCD-07A','metadata_and_summary','remote_only','','https://bndigital.bn.gov.br/artigos/literatura-jorge-amado-um-sem-fim-de-romances/'),
-('SRC-0314','WCD07A-S15','Terras adubadas com sangue: o coronelismo em Terras do sem fim','Terras adubadas com sangue: o coronelismo em Terras do sem fim','João Paulo Mansur','','Revista Brasileira de Ciências Sociais','2021','','scholarly_article','','pt','A','access_pass','WCD-07A','metadata_and_summary','remote_only','DOI 10.1590/3610507/2020','https://www.scielo.br/j/rbcsoc/a/9qN3hjfWHPdxvpKbrhk8Gvv/?lang=pt');
+('SRC-0308','WCD07A-S09','The Nobel Prize in Literature 2010 — Bio-bibliographical notes','The Nobel Prize in Literature 2010 — Bio-bibliographical notes','Nobel Prize Outreach','','Nobel Foundation','2010','','institutional_bibliography','','en','B','access_pass','WCD-07A','metadata_and_summary','remote_only','','https://www.nobelprize.org/prizes/literature/2010/bio-bibliography/'),
+('SRC-0309','WCD07A-S10','La fiesta del Chivo','La fiesta del Chivo','Penguin Random House Grupo Editorial','','Alfaguara','','','publisher_catalog','','es','B','access_pass','WCD-07A','metadata_and_summary','remote_only','','https://www.penguinlibros.com/co/tematicas/15210-ebook-la-fiesta-del-chivo-9788420499437'),
+('SRC-0310','WCD07A-S11','《公羊的节日》—书汇','《公羊的节日》—书汇','中国作家网','','上海译文出版社','2016','9787532741243','web_page','','zh','C','access_pass','WCD-07A','chinese_display_and_edition','remote_only','','http://www.chinawriter.com.cn/n1/2016/0627/c405068-28500637.html'),
+('SRC-0311','WCD07A-S12','El zorro de arriba y el zorro de abajo — BNP Digital','El zorro de arriba y el zorro de abajo','Biblioteca Nacional del Perú','','Biblioteca Nacional del Perú','1971','','national_library_record','','es','B','access_pass','WCD-07A','metadata_and_summary','remote_only','hdl.handle.net/20.500.14428/79320','https://bibliotecadigital.bnp.gob.pe/items/72c6e3f4-b4a0-4e00-babd-9481cdb250fb'),
+('SRC-0312','WCD07A-S13','El zorro de arriba y el zorro de abajo','El zorro de arriba y el zorro de abajo','Editorial Losada','','Editorial Losada','','','publisher_catalog','','es','B','access_pass','WCD-07A','metadata_and_summary','remote_only','','https://editoriallosada.com/libro/el-zorro-de-arriba-y-el-zorro-de-abajo/'),
+('SRC-0313','WCD07A-S14','Literatura — Jorge Amado: um sem-fim de romances','Literatura — Jorge Amado: um sem-fim de romances','Biblioteca Nacional do Brasil','','BNDigital','2021','','national_library_article','','pt','B','access_pass','WCD-07A','metadata_and_summary','remote_only','','https://bndigital.bn.gov.br/artigos/literatura-jorge-amado-um-sem-fim-de-romances/'),
+('SRC-0314','WCD07A-S15','Terras adubadas com sangue: o coronelismo em Terras do sem fim','Terras adubadas com sangue: o coronelismo em Terras do sem fim','João Paulo Mansur','','Revista Brasileira de Ciências Sociais','2021','','scholarly_article','','pt','A','access_pass','WCD-07A','metadata_and_summary','remote_only','DOI 10.1590/3610507/2020','https://www.scielo.br/j/rbcsoc/a/9qN3hjfWHPdxvpKbrhk8Gvv/?lang=pt'),
+('SRC-0315','WCD07A-S18','山上的狐狸山下的狐狸/西葡拉美幻想文学经典','山上的狐狸山下的狐狸/西葡拉美幻想文学经典','芸台购 / 浙江省新华书店集团有限公司','朱金玉','人民文学出版社','2024','9787020186723','library_acquisition_catalog','387','zh','B','access_pass','WCD-07A','chinese_display_and_edition','remote_only','','https://www.yuntaigo.com/book.action?recordid=bm5sZmtsemM5Nzg3MDIwMTg2NzIz'),
+('SRC-0316','WCD07A-S19','无边的土地 — 福建江夏学院图书馆馆藏记录','无边的土地','福建江夏学院图书馆','吴劳','上海译文出版社','1992','7-5327-0345-2','university_library_record','338','zh','B','access_pass','WCD-07A','chinese_display_and_edition','remote_only','','https://libwx.fjjxu.edu.cn/opac/bookInfo_01a0005179.html');
 
 INSERT INTO content_cards (card_id,origin_card_id,subject_id,card_type,title_zh,author_label,original_title,country_or_region,language,period_bucket,genre_or_form,input_layer,source_minimum_status,issue_code,content_markdown) VALUES
 ('V1-CARD-0256','WCD07A-W01','V1-ENT-0374','work','《我们的土地》','卡洛斯·富恩特斯','Terra Nostra','墨西哥','es','1975','长篇小说','WCD-07A','meets','NONE','### 《我们的土地》｜Terra Nostra\n\n- 对象类型：`work`｜首版：1975｜体裁：长篇小说\n- 研究基线：ELEM 与 UNAM 支持书目身份和三部结构；不拆子实体。'),
@@ -91,22 +94,24 @@ INSERT INTO card_facts (card_id,fact_id,admission_status) VALUES
 ('V1-CARD-0261','V1-FCT-1029','batch_retained_candidate'),('V1-CARD-0261','V1-FCT-1030','batch_retained_candidate'),('V1-CARD-0261','V1-FCT-1031','batch_retained_candidate'),('V1-CARD-0261','V1-FCT-1032','batch_retained_candidate'),('V1-CARD-0261','V1-FCT-1033','batch_retained_candidate');
 
 INSERT INTO card_sources (card_source_id,origin_matrix_id,card_id,source_id,source_level,source_role,bibliographic_support,research_support,independent_source_key,usage_status,issue_code) VALUES
-('V1-CS-0519','WCD07A-S01','V1-CARD-0256','SRC-0301','A','identity_and_bibliography','yes','yes','ELEM','accepted','NONE'),
-('V1-CS-0520','WCD07A-S02','V1-CARD-0256','SRC-0302','A','structure_and_context','yes','yes','UNAM-GACETA','accepted','NONE'),
-('V1-CS-0521','WCD07A-S03','V1-CARD-0256','SRC-0303','B','chinese_display','yes','no','CHINA-WRITERS','accepted','NONE'),
+('V1-CS-0519','WCD07A-S01','V1-CARD-0256','SRC-0301','B','identity_and_bibliography','yes','yes','ELEM','accepted','NONE'),
+('V1-CS-0520','WCD07A-S02','V1-CARD-0256','SRC-0302','C','structure_and_context','yes','yes','UNAM-GACETA','accepted','NONE'),
+('V1-CS-0521','WCD07A-S03','V1-CARD-0256','SRC-0303','C','chinese_display','yes','no','CHINA-WRITERS','accepted','NONE'),
 ('V1-CS-0522','WCD07A-S04','V1-CARD-0257','SRC-0201','B','identity_and_bibliography','yes','yes','CVC','accepted','REUSED-SOURCE'),
-('V1-CS-0523','WCD07A-S05','V1-CARD-0257','SRC-0304','A','form_and_context','yes','yes','UNAM-LM','accepted','NONE'),
-('V1-CS-0524','WCD07A-S06','V1-CARD-0257','SRC-0305','B','chinese_display','yes','no','GMW-ZHDSB','accepted','NONE'),
+('V1-CS-0523','WCD07A-S05','V1-CARD-0257','SRC-0304','C','form_and_context','yes','yes','UNAM-LM','accepted','NONE'),
+('V1-CS-0524','WCD07A-S06','V1-CARD-0257','SRC-0305','C','chinese_display','yes','no','GMW-ZHDSB','accepted','NONE'),
 ('V1-CS-0525','WCD07A-S07','V1-CARD-0258','SRC-0306','A','identity_and_bibliography','yes','yes','MORALES-1995','accepted','NONE'),
 ('V1-CS-0526','WCD07A-S08','V1-CARD-0258','SRC-0307','A','form_and_context','yes','yes','RETAMAR-2000','accepted','NONE'),
-('V1-CS-0527','WCD07A-S09','V1-CARD-0259','SRC-0308','A','identity_and_bibliography','yes','yes','NOBEL','accepted','NONE'),
-('V1-CS-0528','WCD07A-S10','V1-CARD-0259','SRC-0309','A','form_and_context','yes','yes','ALFAGUARA','accepted','NONE'),
-('V1-CS-0529','WCD07A-S11','V1-CARD-0259','SRC-0310','B','chinese_display','yes','no','CHINA-WRITERS','accepted','NONE'),
-('V1-CS-0530','WCD07A-S12','V1-CARD-0260','SRC-0311','A','identity_and_bibliography','yes','yes','BNP','accepted','NONE'),
-('V1-CS-0531','WCD07A-S13','V1-CARD-0260','SRC-0312','A','form_and_context','yes','yes','LOSADA','accepted','NONE'),
-('V1-CS-0532','WCD07A-S14','V1-CARD-0261','SRC-0313','A','identity_and_bibliography','yes','yes','BNDIGITAL','accepted','NONE'),
+('V1-CS-0527','WCD07A-S09','V1-CARD-0259','SRC-0308','B','identity_and_bibliography','yes','yes','NOBEL','accepted','NONE'),
+('V1-CS-0528','WCD07A-S10','V1-CARD-0259','SRC-0309','B','form_and_context','yes','yes','ALFAGUARA','accepted','NONE'),
+('V1-CS-0529','WCD07A-S11','V1-CARD-0259','SRC-0310','C','chinese_display','yes','no','CHINA-WRITERS','accepted','NONE'),
+('V1-CS-0530','WCD07A-S12','V1-CARD-0260','SRC-0311','B','identity_and_bibliography','yes','yes','BNP','accepted','NONE'),
+('V1-CS-0531','WCD07A-S13','V1-CARD-0260','SRC-0312','B','form_and_context','yes','yes','LOSADA','accepted','NONE'),
+('V1-CS-0532','WCD07A-S14','V1-CARD-0261','SRC-0313','B','identity_and_bibliography','yes','yes','BNDIGITAL','accepted','NONE'),
 ('V1-CS-0533','WCD07A-S15','V1-CARD-0261','SRC-0314','A','form_and_context','yes','yes','MANSUR-2021','accepted','NONE'),
-('V1-CS-0534','WCD07A-S16','V1-CARD-0261','SRC-0281','C','chinese_name_context','no','no','CHINA-WRITERS','accepted','REUSED-SOURCE');
+('V1-CS-0534','WCD07A-S16','V1-CARD-0261','SRC-0281','C','chinese_name_context','no','no','CHINA-WRITERS','accepted','REUSED-SOURCE'),
+('V1-CS-0535','WCD07A-S18','V1-CARD-0260','SRC-0315','B','chinese_display','yes','no','ZJ-XINHUA-CATALOG','accepted','NONE'),
+('V1-CS-0536','WCD07A-S19','V1-CARD-0261','SRC-0316','B','chinese_display','yes','no','FJJXU-LIBRARY','accepted','NONE');
 
 INSERT INTO relationships (relationship_id,origin_layer,origin_relation_group_id,subject_id,relation_type,object_id,description_zh,confidence,review_status,upstream_review_status,evidence_count,issue_code) VALUES
 ('V1-REL-0331','WCD-07A','WCD07A-R01','V1-ENT-0145','CREATED','V1-ENT-0374','卡洛斯·富恩特斯创作《我们的土地》','high','accepted','CODEX-REVIEW-WCD07A-PASS','2','NONE'),

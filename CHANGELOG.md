@@ -2,6 +2,21 @@
 
 本文件记录拉丁美洲文学地图各版本的实际修改。格式参考 Keep a Changelog，版本号遵循语义化版本规则。
 
+## [Web 0.3.3 — Development] - 2026-08-31
+
+### Curation / Reader Content
+
+- 完成 WCD-06：对 61 位作者、168 部现有策展作品以及 1723 条外部字段候选做 current-main rebase；外部包保持只读。
+- location_note 定向二次审计后，10 条有直接地点证据的既有字段从 review 恢复为公开，2 条因引用未直接支撑地点判断而恢复 USER_REVIEW；另有 2 个新增作品/合集 location_note 维持公开。44 条 `signature_keywords` 等高判断候选未被误作低判断批量放行。
+- 改写 9 个作者导语；为《家庭纽带》《最明净的地区》补入对象特异、逐字段可回溯的最小描述。作品策展范围 168→170，正式公开作品 60→62，公开搜索对象 126→128。
+- 其余 36 个书目型描述、24 个零内容对象和 9 个作者文学连接登记为 69 条 Research Gap；未执行或导入 WCD-07 major-work candidates。
+
+### Version / Gate
+
+- Research 保持 `Data 1.4.0 development candidate`、Schema 0.4、371 entities / 998 facts / 328 relationships / 298 sources；无 migration 或 Research Master 修改。
+- Web 升至 `0.3.3 Development`，Web Data schema 保持 `v2-web-0.2`；fresh-context `CODEX-REVIEW-WCD06` 经两轮 REVISE 差量修订后最终 PASS。
+- `WCD-06 = DONE`，`WCD-07 = READY / NOT STARTED`；Public Release 继续 `PAUSED BY USER`，不创建 tag、Release 或 production deployment。
+
 ## [Web 0.3.2 — Development] - 2026-08-31
 
 ### Research / Network

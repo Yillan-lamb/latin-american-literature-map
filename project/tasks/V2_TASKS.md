@@ -1,6 +1,6 @@
 # 拉丁美洲文学地图 V2 任务源
 
-- **版本**：1.4.2
+- **版本**：1.4.3
 - **最后更新**：2026-08-31
 - **状态**：ACTIVE
 - **唯一动态状态源**：本文件
@@ -12,12 +12,12 @@
 ## 当前执行摘要
 
 - **当前阶段**：V2 网站建设阶段 / Web 0.x 持续内容建设期
-- **当前 Web 版本**：`Web 0.3.2 — DEVELOPMENT`
+- **当前 Web 版本**：`Web 0.3.3 — DEVELOPMENT`
 - **当前产品状态**：`DEVELOPMENT`
 - **Public Release**：`PAUSED BY USER`
-- **当前任务**：WCD-05 Entity & Relationship Network Remediation（DONE；等待 USER 最终审计）
-- **下一任务**：WCD-06 READY / NOT STARTED；本 PR 不执行
-- **后续顺序**：WCD-05 DONE → WCD-06 READY → WCD-07 LOCKED
+- **当前任务**：WCD-06 Author & Work Descriptive Content Completion（DONE）
+- **下一任务**：WCD-07 READY / NOT STARTED；本 PR 不执行
+- **后续顺序**：WCD-05 DONE → WCD-06 DONE → WCD-07 READY
 - **路线边界**：顺序固定，不新增 WCD-08；旧 Global Audit 的 Data 1.2.0 / Web 0.2.1 数字只作历史输入，不得覆盖 WCD-04 在最新 `main` 上重算的 current baseline
 - **需要 USER**：无需为合并开发基线立即审核全部 `user_review`；未来 Public Build 仍须排除未批准策展内容
 - **最近完成**：`WEB-CONTENT-EXPANSION` B01—B17；rc.1—rc.5 与 Web 0.1.0 均作为历史开发记录保留
@@ -472,16 +472,16 @@
   - **优先级**：P0 Character→Work 等最基础核心关系与最小 Schema 判断；P1 movement/theme/event、relationship holds、核心作者/作品/虚构空间高价值关系；P2 weak-degree 语义多样性与剩余城市关系；P3 Person / Peripheral Author / institution 的必要性治理；缺少直接证据、页面价值低或纯文学推断者 DEFER。
   - **Schema 与证据门禁**：USER 已批准最小 Option A；Schema 0.4 仅新增 `APPEARS_IN`，端点严格为 character→work，不保存 inverse，不扩展到 collection/place/character/adaptation/edition。`key_character` fact 只作 candidate seed，须逐条直接来源与独立 Reviewer PASS。不得按 AI 常识补关系，不把出生地扩大为创作中心，不把短暂居留扩大为长期文学关联；虚构空间始终保持无现实坐标。
   - **执行与产物**：`0031`—`0033` 新增 10 sources / 12 relationships / 23 relationship evidence，12 holds resolved、1 hold rejected with history retained；CS04 经独立 Reviewer 10/10 PASS 后追加 `0034`，新增 10 条 `APPEARS_IN` 与 10 条直接证据。zero-degree 61→41、weak 225→238、connected 85→92；character 0/10→10/10、movement 0/8→5/8、theme 2/29→4/29。Research 保持 Data 1.4.0 development candidate，Schema 升至 0.4；Web 保持 0.3.2 Development，仅 Research layer 投影。审计见 `project/audits/web/WCD_05_ENTITY_RELATIONSHIP_GAP_REMEDIATION.md`。状态：`✅ DONE`。
-- **⏳ WCD-06 Author & Work Descriptive Content Completion（作家与作品描述性内容补全）**：系统审计现有核心作者与作品的 reader-facing descriptive coverage，区分 missing、`auto_approved`、`user_review`、`hold`、public-visible、non-public、template-like 与 evidence-insufficient；优先保证核心作者 `reader_lede` 和核心作品 `story_intro` 的最低公开可读覆盖，再在 Research Evidence 足够时补充低判断、对象特异的描述。不得把字段填满率作为 KPI，也不得用新写文案替代已有内容审核。
+- **✅ WCD-06 Author & Work Descriptive Content Completion（作家与作品描述性内容补全）**：系统审计现有核心作者与作品的 reader-facing descriptive coverage，区分 missing、`auto_approved`、`user_review`、`hold`、public-visible、non-public、template-like 与 evidence-insufficient；优先保证核心作者 `reader_lede` 和核心作品 `story_intro` 的最低公开可读覆盖，再在 Research Evidence 足够时补充低判断、对象特异的描述。不得把字段填满率作为 KPI，也不得用新写文案替代已有内容审核。
   - **当前 known baseline**：WCD-04 已按当前页面重算：2276 条策展记录为 527 auto / 1723 user_review / 26 hold；61 位核心作者 `reader_lede` 为 15 auto / 46 review，168 部策展范围作品 `story_intro` 为 60 auto / 108 review。302 行 author/work/collection/place 路由中，25 PUBLIC_STRONG、23 PUBLIC_BASIC、45 PUBLIC_BIBLIOGRAPHIC_COPY、150 USER_REVIEW_HIGH_JUDGMENT、5 USER_REVIEW_LOW_JUDGMENT、26 MISSING、23 RESEARCH_INSUFFICIENT、5 HOLD。正式输入为 `WCD_04_DESCRIPTION_ROUTING.csv`，不得继续引用 WCD-01 快照替代现状。
   - **处理顺序与门禁**：保留既有 `auto_approved` → 复用 USER 已批准内容 → 审计既有 `user_review` 的低判断/高判断属性 → 查明 `hold` 的 research gap → 仅对真正 missing 内容考虑新写。稳定事实转写、作品基本介绍和已审核 Research 的保守重述可考虑自动准入；`why_read`、`reader_fit`、`reading_route`、`next_reads`、带“最佳入门”判断的 `start_here`、跨作品比较及强文学判断继续执行 USER_REVIEW 门禁。
   - **最低可读页面**：Author 第一层硬门槛为 `reader_lede`，并以基本文学定位和已有作品入口作为深化目标；Work 第一层硬门槛为 `story_intro`，并以对象特异的叙事/主题/地点描述和作者入口作为深化目标。Research 不足时登记 Research Gap，走 Source Research → Candidate → Reviewer → Research Master → Curation，不得凭 AI 常识补写后自动批准。
   - **未来执行分组**：`06A Reader Content Review Queue Recovery`；`06B Bibliographic-copy Rewrite`；`06C Core Zero-content Work Remediation`；`06D Author Profile / Literary Connections`；`06E Research Gap Handoff`。
-  - **执行与产物**：先做 Description Coverage Audit，再决定复用、重分类、新写、hold 或 research-gap；正式执行时生成 `project/audits/web/WCD_06_AUTHOR_WORK_DESCRIPTIVE_CONTENT_COMPLETION.md`，记录 Before / Changes / After、逐条 provenance 与合法剩余空缺。依赖 WCD-05，因为 WCD-05 新增的 character、author→city、work→place 与 fictional-space 等正式关系可能成为描述依据。状态：`⏳ READY / NOT STARTED`。
-- **🔒 WCD-07 Major Works Research Expansion（核心作家重要作品补全）**：作为独立 Research 阶段，只处理 WCD-04 已列入优先级、且 exact-title / current-author precheck 未发现 current-master match 的 major-work research candidates。6 个 P0 与 49 个 P1 只是候选优先级，不是已批准入库项目，也不得把该预检解释为语义无重复；每一项仍须完整走 `duplicate check → source verification → entity/collection overlap check → Chinese edition check（辅助）→ candidate changeset → independent reviewer → SQLite migration`，即 Research → Review → SQLite Migration 治理链。
+  - **执行与产物**：完成 229 行 current description matrix 与 1723 行 external rebase；定向二次审计后，10 条低判断地点说明、9 个作者导语和 2 个零内容作品进入正式差量包，2 条地点说明因引用未直接支撑地点判断而恢复 USER_REVIEW。最初独立 Reviewer 经两轮 REVISE 后最终 PASS；本次又逐句核验 14 条 location_note，移除 11 段治理说明并形成字段级 provenance audit。69 条缺口仍移交 Research。作品策展范围 168→170，公开作品 60→62；Research / Schema 不变，Web 保持 0.3.3。审计见 `project/audits/web/WCD_06_AUTHOR_WORK_DESCRIPTIVE_CONTENT_COMPLETION.md`。状态：`✅ DONE`。
+- **⏳ WCD-07 Major Works Research Expansion（核心作家重要作品补全）**：作为独立 Research 阶段，只处理 WCD-04 已列入优先级、且 exact-title / current-author precheck 未发现 current-master match 的 major-work research candidates。6 个 P0 与 49 个 P1 只是候选优先级，不是已批准入库项目，也不得把该预检解释为语义无重复；每一项仍须完整走 `duplicate check → source verification → entity/collection overlap check → Chinese edition check（辅助）→ candidate changeset → independent reviewer → SQLite migration`，即 Research → Review → SQLite Migration 治理链。
   - **输入与分组**：`WCD_04_MAJOR_WORKS_PRIORITY.csv` 共 239 行；`WCD-07A` 为 6 个 P0 canonical omissions，`WCD-07B` 为 49 个 P1 high-impact candidates，`WCD-07C` 为 85 个 P2 + 65 个 P3 optional candidates；34 个 DEFER 不排期。07C 执行前必须再次裁剪，不以清单补完为目标。
   - **治理前置**：博尔赫斯《阿莱夫》短篇/同名集、《马丘比丘高地》/《漫歌》、里贝罗总集/单篇、《火的记忆》卷级、波拉尼奥中文选编/西语原集等先完成 collection/work/edition hierarchy 与 display duplication 判断；不得直接导入 External AI CSV。
-  - **依赖与状态**：依赖 WCD-06；Research/Data/Web 版本只在未来实际迁移与语义输出变化后按规则决定。本轮仅登记任务。状态：`🔒 LOCKED`。
+  - **依赖与状态**：WCD-06 已完成；Research/Data/Web 版本只在未来实际迁移与语义输出变化后按规则决定。本轮不执行。状态：`⏳ READY / NOT STARTED`。
 - **状态**：`🔵 IN_PROGRESS`
 
 ## 当前执行边界

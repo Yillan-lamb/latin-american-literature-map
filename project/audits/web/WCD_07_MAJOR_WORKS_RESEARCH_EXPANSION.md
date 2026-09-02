@@ -3,7 +3,7 @@
 - Date: 2026-09-02
 - Scope: WCD-07 only; WCD-08 not started
 - Public Release: `PAUSED BY USER`
-- Audit status: targeted governance remediation complete; full local Playwright matrix passes 84/84; fresh-context `CODEX-REVIEW-WCD07-FINAL` returns `PASS`. Exact-push CI remains the PR merge gate.
+- Audit status: `DONE`; targeted governance remediation complete; full local Playwright matrix passes 84/84; fresh-context `CODEX-REVIEW-WCD07-FINAL` returns `PASS`; exact remediation commit CI passes.
 
 ## Baseline
 
@@ -226,7 +226,7 @@ was admitted by WCD-07.
 | Python unit tests | PASS (25/25) |
 | Browser / Playwright matrix | PASS (84/84; Chromium desktop/mobile, Firefox desktop, WebKit mobile; built public bundle) |
 | `git diff --check` | PASS |
-| GitHub CI | Previous PR candidate PASS; exact remediation commit pending push |
+| GitHub CI | PASS for exact remediation commit `50ca5fe` ([run 33637514644](https://github.com/Yillan-lamb/latin-american-literature-map/actions/runs/33637514644)): development baseline integrity PASS; Chromium desktop/mobile smoke PASS; release-only jobs skipped as expected for a development PR |
 
 The full local matrix ran with the repository's unmodified `npm run qa:browser`
 entrypoint against the built public bundle; Chromium smoke was not substituted
@@ -238,5 +238,7 @@ local preview validation; no production origin or deployment was used.
 Research gate: `PASS` for WCD-07A after source regrading; `CLOSED` for WCD-07B
 (all 17 DEFER). 0035 is applied and replayable. Public Release remains `PAUSED
 BY USER`. No tag, GitHub Release, production deployment, or WCD-08 was started.
-The focused final reviewer returned `PASS`. Local WCD-07 gates are complete;
-the exact pushed remediation commit remains subject to PR CI before merge.
+The focused final reviewer returned `PASS`, and the exact pushed remediation
+commit passed PR CI. `WCD-07 = DONE`; Public Release remains `PAUSED BY USER`;
+no WCD-08 was created or started. Work stops here pending USER final audit;
+this audit does not authorize merge.

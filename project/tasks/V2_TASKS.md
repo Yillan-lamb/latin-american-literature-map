@@ -1,7 +1,7 @@
 # 拉丁美洲文学地图 V2 任务源
 
 - **版本**：1.4.3
-- **最后更新**：2026-08-31
+- **最后更新**：2026-09-02
 - **状态**：ACTIVE
 - **唯一动态状态源**：本文件
 - **上位文件**：
@@ -15,8 +15,8 @@
 - **当前 Web 版本**：`Web 0.3.3 — DEVELOPMENT`
 - **当前产品状态**：`DEVELOPMENT`
 - **Public Release**：`PAUSED BY USER`
-- **当前任务**：WCD-07 Major Works Research Expansion（实质完成，最终 QA 待环境恢复）
-- **下一任务**：最终 QA 通过后由 USER 决定；不自动启动 WCD-08
+- **当前任务**：WCD-07 Major Works Research Expansion（`DONE`；等待 USER 最终审计）
+- **下一任务**：仅等待 USER 最终审计；不自动启动 WCD-08
 - **后续顺序**：WCD-05 DONE → WCD-06 DONE → WCD-07 DONE
 - **路线边界**：顺序固定，不新增 WCD-08；旧 Global Audit 的 Data 1.2.0 / Web 0.2.1 数字只作历史输入，不得覆盖 WCD-04 在最新 `main` 上重算的 current baseline
 - **需要 USER**：无需为合并开发基线立即审核全部 `user_review`；未来 Public Build 仍须排除未批准策展内容
@@ -479,10 +479,10 @@
   - **未来执行分组**：`06A Reader Content Review Queue Recovery`；`06B Bibliographic-copy Rewrite`；`06C Core Zero-content Work Remediation`；`06D Author Profile / Literary Connections`；`06E Research Gap Handoff`。
   - **执行与产物**：完成 229 行 current description matrix 与 1723 行 external rebase；定向二次审计后，10 条低判断地点说明、9 个作者导语和 2 个零内容作品进入正式差量包，2 条地点说明因引用未直接支撑地点判断而恢复 USER_REVIEW。最初独立 Reviewer 经两轮 REVISE 后最终 PASS；本次又逐句核验 14 条 location_note，移除 11 段治理说明并形成字段级 provenance audit。69 条缺口仍移交 Research。作品策展范围 168→170，公开作品 60→62；Research / Schema 不变，Web 保持 0.3.3。审计见 `project/audits/web/WCD_06_AUTHOR_WORK_DESCRIPTIVE_CONTENT_COMPLETION.md`。状态：`✅ DONE`。
 - **✅ WCD-07 Major Works Research Expansion（核心作家重要作品补全）**：严格消费 WCD-04 的 6 个 P0 与 17 个 P1 first-wave 候选，全部完成 current-main 语义去重、collection/work/edition hierarchy、中文展示名与来源门槛复核；未执行 P1 later、P2、P3 或 WCD-06 的既有实体研究缺口。
-  - **WCD-07A P0**：6/6 经 fresh-context `CODEX-REVIEW-WCD07A` 最终 PASS，追加 append-only migration `0035_wcd07a_p0_major_works`，新增 6 个 Research entities（5 work / 1 collection）、6 条 author→CREATED、29 facts、14 sources（另复用 2 条）、6 cards 与对应 provenance；1943 年异说与阿格达斯结构性主张保留审计/延后，不进入正式 facts。
+  - **WCD-07A P0**：6/6 经 fresh-context `CODEX-REVIEW-WCD07A` 最终 PASS；定向治理返修按正式 Data SOP 在未合并的 `0035_wcd07a_p0_major_works` 内完成 source level 重审，并为 W05 / W06 补入 2 条 B-level 正式中文书目来源。最终新增 6 个 Research entities（5 work / 1 collection）、6 条 author→CREATED、29 facts、16 sources（另复用 2 条）、6 cards 与对应 provenance；六项 source gate 重分级后仍全部 PASS。1943 年异说与阿格达斯结构性主张保留审计/延后，不进入正式 facts。
   - **WCD-07B P1 first-wave**：17/17 完成正式 disposition；fresh-context `CODEX-REVIEW-WCD07B` 返回 `DEFER — MIGRATION GATE CLOSED`，没有任何 P1 获准迁移。修正后的 `SRC-0066` 仅作为既有 BnF 来源复用候选保留；14 项保持来源不足延后，未分配正式 ID。
-  - **边界与版本**：不新增 Schema、alias、edition、series、character、place 或非 CREATED 关系；Research 升至 Data 1.5.0 development candidate，Schema 保持 0.4，Web Data schema 保持 v2-web-0.2，Web 保持已验证的 0.3.3 Development（Research layer 投影更新，公开 reader scope 不变）。审计见 `project/audits/web/WCD_07_MAJOR_WORKS_RESEARCH_EXPANSION.md`；不创建 WCD-08。状态：`🔵 IN_PROGRESS（实质完成；待部署/浏览器/差异/CI 门禁）`。
-- **状态**：`🔵 IN_PROGRESS`
+  - **边界与版本**：不新增 Schema、alias、edition、series、character、place 或非 CREATED 关系；Research 为 Data 1.5.0 development candidate，Schema 保持 0.4，Web Data schema 保持 v2-web-0.2，Web 保持已验证的 0.3.3 Development（Research layer 投影更新，公开 reader scope 不变）。完整 Playwright matrix 84/84 PASS，fresh-context `CODEX-REVIEW-WCD07-FINAL` PASS，PR #23 精确治理提交 CI PASS。审计见 `project/audits/web/WCD_07_MAJOR_WORKS_RESEARCH_EXPANSION.md`；Public Release 仍为 `PAUSED BY USER`，不创建 WCD-08。状态：`✅ DONE`。
+- **状态**：`✅ DONE`（等待 USER 最终审计）
 
 ## 当前执行边界
 

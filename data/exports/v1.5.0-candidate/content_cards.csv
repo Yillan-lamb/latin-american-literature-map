@@ -1,0 +1,962 @@
+card_id,origin_card_id,subject_id,card_type,title_zh,author_label,original_title,country_or_region,language,period_bucket,genre_or_form,input_layer,source_minimum_status,issue_code,content_markdown
+V1-CARD-0001,A04-CARD-01,V1-ENT-0002,author,豪尔赫·路易斯·博尔赫斯,豪尔赫·路易斯·博尔赫斯,Jorge Luis Borges,阿根廷,es,1899-1986,—,N2,meets,NONE,"### 01. 豪尔赫·路易斯·博尔赫斯
+- 对象类型：`author`｜原文名：Jorge Luis Borges｜国家/地区：阿根廷｜语言：es｜时期：1899-1986｜体裁：—
+- 一句话简介：阿根廷作家：诗人、短篇作家、批评家、散文家、教授，被誉为“作家的作家”。
+- 已准入事实素材（3—7 条）：
+  1. **birth_year**：1899（accepted_for_n2｜SRC-0002）
+  2. **death_year**：1986（accepted_for_n2｜SRC-0002）
+  3. **country_or_region**：阿根廷（accepted_for_n2｜SRC-0002）
+  4. **language**：es（accepted_for_n2｜SRC-0002）
+  5. **one_sentence_summary**：诗人、短篇作家、批评家、散文家、教授，被誉为“作家的作家”（accepted_for_n2｜SRC-0002）
+  6. **research_note**：1914 年一战爆发后举家迁居瑞士，1919 年赴西班牙居留三年，1921 年回国传播极端主义，30 年代放弃其要旨（accepted_for_n2｜SRC-0002）
+  7. **entity_layer**：author（accepted_for_n2｜SRC-0002）
+- 可靠来源（正式 SRC）：SRC-0002
+- 研究说明 / hold / gap：无
+"
+V1-CARD-0002,A04-CARD-02,V1-ENT-0016,author,克拉丽丝·李斯佩克朵,克拉丽丝·李斯佩克朵,Clarice Lispector,巴西,pt,1920-1977,—,N2,meets,NONE,"### 02. 克拉丽丝·李斯佩克朵
+- 对象类型：`author`｜原文名：Clarice Lispector｜国家/地区：巴西｜语言：pt｜时期：1920-1977｜体裁：—
+- 一句话简介：巴西作家：《G.H. 受难》(1964) 与《星辰时刻》(1977) 的作者，以《家庭纽带》(1960) 等奠定短篇声誉。
+- 已准入事实素材（3—7 条）：
+  1. **birth_year**：1920（accepted_for_n2｜SRC-0013｜页面未直接显示；依据 2020 年百年诞辰专刊与 Codex 核定（REVIEW 3.4））
+  2. **death_year**：1977（accepted_for_n2｜SRC-0016｜Codex 权威来源补充）
+  3. **country_or_region**：巴西（accepted_for_n2｜SRC-0009）
+  4. **language**：pt（accepted_for_n2｜SRC-0009）
+  5. **one_sentence_summary**：《G.H. 受难》(1964) 与《星辰时刻》(1977) 的作者，以《家庭纽带》(1960)、《外国军团》(1964) 奠定短篇声誉（accepted_for_n2｜SRC-0009）
+  6. **entity_layer**：author（accepted_for_n2｜SRC-0009）
+- 可靠来源（正式 SRC）：SRC-0009、SRC-0013、SRC-0016
+- 研究说明 / hold / gap：无
+"
+V1-CARD-0003,A04-CARD-03,V1-ENT-0003,work,《小径分岔的花园》,豪尔赫·路易斯·博尔赫斯,El jardín de senderos que se bifurcan,阿根廷,es,1941,短篇小说,N2,meets,NONE,"### 03. 《小径分岔的花园》
+- 对象类型：`work`｜原文名：El jardín de senderos que se bifurcan｜国家/地区：阿根廷｜语言：es｜时期：1941｜体裁：短篇小说
+- 一句话简介：短篇小说：间谍余准的供述，以杀死汉学家艾伯特把英军炮兵阵地城名传回柏林。
+- 已准入事实素材（3—7 条）：
+  1. **first_publication_year**：1941（accepted_for_n2｜SRC-0014｜Codex 权威来源补充）
+  2. **one_sentence_summary**：间谍余准的供述：借杀死汉学家艾伯特将英军炮兵阵地所在城名传回柏林；艾伯特解出崔朋“小说即迷宫”的时间分岔（accepted_for_n2｜SRC-0002）
+  3. **genre_or_form**：短篇小说（UNIDAD 8 选文）（accepted_for_n2｜SRC-0002）
+  4. **key_character**：余准、斯蒂芬·艾伯特、理查德·马登、维克托·鲁内贝格、崔朋（accepted_for_n2｜SRC-0002）
+  5. **key_place**：阿什格罗夫、阿尔贝、青岛（accepted_for_n2｜SRC-0002）
+  6. **entity_layer**：work（accepted_for_n2｜SRC-0002）
+- 可靠来源（正式 SRC）：SRC-0002、SRC-0014
+- 研究说明 / hold / gap：无
+"
+V1-CARD-0004,A04-CARD-04,V1-ENT-0004,work,《阿莱夫》（1945 年短篇）,豪尔赫·路易斯·博尔赫斯,El Aleph,阿根廷,es,1945,短篇小说,N2,meets,NONE,"### 04. 《阿莱夫》（1945 年短篇）
+- 对象类型：`work`｜原文名：El Aleph｜国家/地区：阿根廷｜语言：es｜时期：1945｜体裁：短篇小说
+- 一句话简介：短篇小说：叙述者博尔赫斯在亡友贝亚特丽斯表兄达内里宅邸地窖得见“包罗一切空间点的”阿莱夫。
+- 已准入事实素材（3—7 条）：
+  1. **first_publication_year**：1945（accepted_for_n2｜SRC-0015｜Codex 权威来源补充；替代候选实体中的 1949 误值）
+  2. **one_sentence_summary**：叙述者博尔赫斯在亡友贝亚特丽斯表兄达内里宅邸地窖得见“包罗一切空间点的”阿莱夫（accepted_for_n2｜SRC-0002）
+  3. **genre_or_form**：短篇小说（UNIDAD 8 选文）（accepted_for_n2｜SRC-0002）
+  4. **key_character**：贝亚特丽斯·维特博、卡洛斯·阿亨蒂诺·达内里、博尔赫斯（叙述者）（accepted_for_n2｜SRC-0002）
+  5. **key_place**：加雷街（accepted_for_n2｜SRC-0002）
+  6. **bibliographic_note**：卷首题词引《哈姆雷特》II.2 与《利维坦》IV.46；文末献词致 Estela Canto（accepted_for_n2｜SRC-0002）
+  7. **research_note**：Rosman 专论《Politics of the Name: On Borges's “El Aleph”》围绕命名、共同语言、翻译、文学共同体与国家身份解读（Codex 已独立复核，REVIEW 3.1）（accepted_for_n2｜SRC-0008）
+- 可靠来源（正式 SRC）：SRC-0002、SRC-0008、SRC-0015
+- 研究说明 / hold / gap（与事实分栏）：
+  - 分层说明：与 1949 年作品集《阿莱夫》（collection，STG-ENT-0012）保持分层；作品集作为结构说明保存，不计入核心 30。
+"
+V1-CARD-0005,A04-CARD-05,V1-ENT-0011,collection,《虚构集》,豪尔赫·路易斯·博尔赫斯,Ficciones,阿根廷,es,1944,短篇作品集,N2,research_gap,NONE,"### 05. 《虚构集》
+- 对象类型：`collection`｜原文名：Ficciones｜国家/地区：阿根廷｜语言：es｜时期：1944｜体裁：短篇作品集
+- 一句话简介：短篇作品集（1944），博尔赫斯世界声誉的奠基作品集之一。
+- 已准入事实素材（3—7 条）：
+  1. **first_publication_year**：1944（accepted_for_n2｜SRC-0002）
+  2. **genre_or_form**：短篇作品集（accepted_for_n2｜SRC-0002）
+  3. **bibliographic_note**：SRC-0007 页面记录：1944 初版、1956 修订（accepted_for_n2｜SRC-0007）
+  4. **entity_layer**：collection（accepted_for_n2｜SRC-0002）
+- 可靠来源（正式 SRC）：SRC-0002、SRC-0007
+- 研究说明 / hold / gap（与事实分栏）：
+  - 研究缺口：素材池无研究类事实行（书目支持 1944/1956 修订来自 SRC-0002/SRC-0007）；小传级判断未入事实，research_gap。
+"
+V1-CARD-0006,A04-CARD-06,V1-ENT-0017,work,《活水》,克拉丽丝·李斯佩克朵,Água viva,巴西,pt,1973,混合体裁长篇小说,N2,meets,NONE,"### 06. 《活水》
+- 对象类型：`work`｜原文名：Água viva｜国家/地区：巴西｜语言：pt｜时期：1973｜体裁：混合体裁长篇小说
+- 一句话简介：混合体裁作品（1973）：据 1971 年手稿改写，主题为时间与“当下瞬间”、沉默与创作。
+- 已准入事实素材（3—7 条）：
+  1. **first_publication_year**：1973（accepted_for_n2｜SRC-0009）
+  2. **one_sentence_summary**：据 1971 年手稿《Objeto gritante》改写；主题为时间与“当下瞬间”、沉默、创作与女性声音（accepted_for_n2｜SRC-0009）
+  3. **genre_or_form**：官网列“Romance”；混合体裁、无常规情节（兼有小说/诗/日记/随笔碎片）（accepted_for_n2｜SRC-0009）
+  4. **bibliographic_note**：源自更早专栏文字与《外国军团》中的文本（accepted_for_n2｜SRC-0009）
+  5. **research_note**：晚年写作《活水》期间开始绘画，与超越言语达至沉默的努力并提（accepted_for_n2｜SRC-0011）
+  6. **entity_layer**：work（accepted_for_n2｜SRC-0009）
+- 可靠来源（正式 SRC）：SRC-0009、SRC-0011
+- 研究说明 / hold / gap：无
+"
+V1-CARD-0007,A04-CARD-07,V1-ENT-0018,work,《星辰时刻》,克拉丽丝·李斯佩克朵,A hora da estrela,巴西,pt,1977,中篇小说,N2,meets,NONE,"### 07. 《星辰时刻》
+- 对象类型：`work`｜原文名：A hora da estrela｜国家/地区：巴西｜语言：pt｜时期：1977｜体裁：中篇小说
+- 一句话简介：中篇小说（1977）：东北部贫苦移民少女玛卡贝娅的故事，叙述者罗德里戈·S.M. 反思书写她的行为。
+- 已准入事实素材（3—7 条）：
+  1. **first_publication_year**：1977（accepted_for_n2｜SRC-0009）
+  2. **one_sentence_summary**：东北部贫苦移民少女玛卡贝娅在里约被男友抛弃、遭友人背叛，叙述者罗德里戈·S.M. 反思书写她的故事（accepted_for_n2｜SRC-0009）
+  3. **genre_or_form**：官网列“Novela”（中篇小说）（accepted_for_n2｜SRC-0009）
+  4. **key_character**：玛卡贝娅、奥林皮科、格洛里娅、罗德里戈·S.M.（accepted_for_n2｜SRC-0009）
+  5. **key_place**：里约热内卢（accepted_for_n2｜SRC-0009）
+  6. **research_note**：社会参与文学的悖论化为“虚构面具”；叙述者之声与作家之声时分时合，贫穷人物始终沉默（accepted_for_n2｜SRC-0012）
+  7. **entity_layer**：work（accepted_for_n2｜SRC-0009｜与 1985 年电影 adaptation 分层（REVIEW 3.3））
+- 可靠来源（正式 SRC）：SRC-0009、SRC-0012
+- 研究说明 / hold / gap：无
+"
+V1-CARD-0008,A04-CARD-08,V1-ENT-0019,collection,《家庭纽带》,克拉丽丝·李斯佩克朵,Laços de família,巴西,pt,1960,短篇集（13 篇）,N2,meets,NONE,"### 08. 《家庭纽带》
+- 对象类型：`collection`｜原文名：Laços de família｜国家/地区：巴西｜语言：pt｜时期：1960｜体裁：短篇集（13 篇）
+- 一句话简介：短篇集（1960，13 篇）：从城市与家庭场景切入内心生活、家庭关系与沉默。
+- 已准入事实素材（3—7 条）：
+  1. **first_publication_year**：1960（accepted_for_n2｜SRC-0009）
+  2. **one_sentence_summary**：从城市与家庭场景切入内心生活、家庭关系、沉默、姿态与揭示时刻（accepted_for_n2｜SRC-0009）
+  3. **genre_or_form**：短篇集（13 篇）（accepted_for_n2｜SRC-0009）
+  4. **bibliographic_note**：1961 年获 Jabuti 文学奖（accepted_for_n2｜SRC-0009）
+  5. **research_note**：女性人物在 21 世纪仍具共鸣；网络语录多被去语境化，文章主张回到文本（fólio 百年诞辰专刊）（accepted_for_n2｜SRC-0013）
+  6. **entity_layer**：collection（accepted_for_n2｜SRC-0009｜13 篇短篇集；按试行 Schema §5 种子，最终命名待 N2）
+- 可靠来源（正式 SRC）：SRC-0009、SRC-0013
+- 研究说明 / hold / gap：无
+"
+V1-CARD-0009,A04-CARD-09,V1-ENT-0029,author,埃莱娜·加罗,埃莱娜·加罗,Elena Garro,墨西哥,es,1916-1998,—,B01,meets,NONE,"### 09. 埃莱娜·加罗
+- 对象类型：`author`｜原文名：Elena Garro｜国家/地区：墨西哥｜语言：es｜时期：1916-1998｜体裁：—
+- 一句话简介：墨西哥剧作家与小说家，以《未来的回忆》知名；1937 年与奥克塔维奥·帕斯结婚。
+- 已准入事实素材（3—7 条）：
+  1. **birth_year**：1916（batch_retained_candidate｜SRC-0017｜12 月 11 日生于普埃布拉）
+  2. **death_year**：1998（batch_retained_candidate｜SRC-0017｜8 月 22 日卒于库埃纳瓦卡）
+  3. **country_or_region**：墨西哥（batch_retained_candidate｜SRC-0017）
+  4. **language**：es（batch_retained_candidate｜SRC-0017）
+  5. **one_sentence_summary**：墨西哥剧作家与小说家，以《未来的回忆》知名；1937 年与奥克塔维奥·帕斯结婚，1968 年后长期流亡（batch_retained_candidate｜SRC-0017）
+  6. **bibliographic_note**：奖项：Xavier Villaurrutia 1963、Grijalbo 小说奖 1981（词条）（batch_retained_candidate｜SRC-0017）
+  7. **research_note**：婚姻（1937-1959）与 1968 年特拉特洛尔科事件后流亡美国/法国约 20 年，1994 年前后返墨（词条）（batch_retained_candidate｜SRC-0017）
+- 可靠来源（正式 SRC）：SRC-0017
+- 研究说明 / hold / gap：无
+"
+V1-CARD-0010,A04-CARD-10,V1-ENT-0032,work,《未来的回忆》,埃莱娜·加罗,Los recuerdos del porvenir,墨西哥,es,1963,长篇小说,B01,meets,CONTEXT-EVENT,"### 10. 《未来的回忆》
+- 对象类型：`work`｜原文名：Los recuerdos del porvenir｜国家/地区：墨西哥｜语言：es｜时期：1963｜体裁：长篇小说
+- 一句话简介：长篇小说（1963）：以村镇伊斯特佩克为全知叙述者，讲述革命后秩序幻灭与基督战争之灾。
+- 已准入事实素材（3—7 条）：
+  1. **first_publication_year**：1963（batch_retained_candidate｜SRC-0020｜Joaquín Mortiz（Novelistas Contemporáneos））
+  2. **one_sentence_summary**：以村镇伊斯特佩克为全知叙述者，讲述革命后秩序幻灭与基督战争之灾；同年获 Xavier Villaurrutia 奖（batch_retained_candidate｜SRC-0020）
+  3. **genre_or_form**：长篇小说（batch_retained_candidate｜SRC-0020）
+  4. **key_character**：弗朗西斯科·罗萨斯、胡利娅·安德拉德（batch_retained_candidate｜SRC-0020）
+  5. **key_place**：伊斯特佩克（batch_retained_candidate｜SRC-0020）
+  6. **research_note**：RCL 论文以记忆/anámnesis 与历史真相解读；1968 年 Ripstein 电影改编（B01-SRC-0003/0004）（batch_retained_candidate｜SRC-0019）
+  7. **event_year_range**：1926-1929（candidate_for_staging_review｜SRC-0071｜BnF 主题标目直接载年份范围）
+- 可靠来源（正式 SRC）：SRC-0019、SRC-0020、SRC-0071
+- 研究说明 / hold / gap（与事实分栏）：
+  - 关联事件事实：基督战争 1926-1929（A03-FCT-0022，SRC-0071）为背景事件候选，与《未来的回忆》的关系仅作上下文，不建正式事件关系。
+  - 单来源解释关系 hold（A03 复核维持）：RG-B01-0026《未来的回忆》↔记忆与遗忘、RG-B01-0027《未来的回忆》↔时间与历史。
+"
+V1-CARD-0011,A04-CARD-11,V1-ENT-0033,collection,《彩色的一周》,埃莱娜·加罗,La semana de colores,墨西哥,es,1964,短篇集,B01,research_gap,RESEARCH-GAP,"### 11. 《彩色的一周》
+- 对象类型：`collection`｜原文名：La semana de colores｜国家/地区：墨西哥｜语言：es｜时期：1964｜体裁：短篇集
+- 一句话简介：短篇集（1964），含《La culpa es de los tlaxcaltecas》。
+- 已准入事实素材（3—7 条）：
+  1. **first_publication_year**：1964（batch_retained_candidate｜SRC-0021｜Universidad Veracruzana（Ficción 58））
+  2. **one_sentence_summary**：1964 年出版的短篇集，含《La culpa es de los tlaxcaltecas》（batch_retained_candidate｜SRC-0021）
+  3. **genre_or_form**：短篇集（batch_retained_candidate｜SRC-0021）
+  4. **entity_layer**：collection（batch_retained_candidate｜SRC-0021）
+- 可靠来源（正式 SRC）：SRC-0021
+- 研究说明 / hold / gap（与事实分栏）：
+  - 研究缺口：仅 B 级书目来源（ELEM 作品页），无 A 级研究依据；research_gap。
+"
+V1-CARD-0012,A04-CARD-12,V1-ENT-0034,work,《关于玛丽安娜的证词》,埃莱娜·加罗,Testimonios sobre Mariana,墨西哥,es,1981,长篇小说,B01,research_gap,RESEARCH-GAP,"### 12. 《关于玛丽安娜的证词》
+- 对象类型：`work`｜原文名：Testimonios sobre Mariana｜国家/地区：墨西哥｜语言：es｜时期：1981｜体裁：长篇小说
+- 一句话简介：长篇小说（1981），获 Grijalbo 小说奖。
+- 已准入事实素材（3—7 条）：
+  1. **first_publication_year**：1981（batch_retained_candidate｜SRC-0017｜获 Grijalbo 小说奖；出版信息待核）
+  2. **genre_or_form**：长篇小说（batch_retained_candidate｜SRC-0017｜体裁表述待核）
+  3. **entity_layer**：work（batch_retained_candidate｜SRC-0017）
+- 可靠来源（正式 SRC）：SRC-0017
+- 研究说明 / hold / gap（与事实分栏）：
+  - 研究缺口：仅 B 级作者词条（ELEM），出版信息待核；research_gap。
+"
+V1-CARD-0013,A04-CARD-13,V1-ENT-0030,author,罗萨里奥·卡斯特利亚诺斯,罗萨里奥·卡斯特利亚诺斯,Rosario Castellanos,墨西哥,es,1925-1974,—,B01,meets,NONE,"### 13. 罗萨里奥·卡斯特利亚诺斯
+- 对象类型：`author`｜原文名：Rosario Castellanos｜国家/地区：墨西哥｜语言：es｜时期：1925-1974｜体裁：—
+- 一句话简介：墨西哥作家、外交官；幼年在恰帕斯科米坦度过；曾任驻以色列大使。
+- 已准入事实素材（3—7 条）：
+  1. **birth_year**：1925（batch_retained_candidate｜SRC-0022｜5 月 25 日生于墨西哥城）
+  2. **death_year**：1974（batch_retained_candidate｜SRC-0022｜8 月 7 日卒于以色列特拉维夫）
+  3. **country_or_region**：墨西哥（batch_retained_candidate｜SRC-0022）
+  4. **language**：es（batch_retained_candidate｜SRC-0022）
+  5. **one_sentence_summary**：墨西哥作家、外交官；幼年在恰帕斯科米坦度过；UNAM 攻读法律与哲学；曾任驻以色列大使（batch_retained_candidate｜SRC-0022）
+  6. **bibliographic_note**：奖项：Premio Chiapas 1958、Villaurrutia 1960、Sor Juana Inés de la Cruz 1962 等（词条）（batch_retained_candidate｜SRC-0022）
+  7. **research_note**：曾任 INI 编辑、UNAM 出版社主任、文哲系教授（词条）（batch_retained_candidate｜SRC-0022）
+- 可靠来源（正式 SRC）：SRC-0022
+- 研究说明 / hold / gap：无
+"
+V1-CARD-0014,A04-CARD-14,V1-ENT-0035,work,《巴伦坎南》,罗萨里奥·卡斯特利亚诺斯,Balún-Canán,墨西哥,es,1957,长篇小说,B01,meets,NONE,"### 14. 《巴伦坎南》
+- 对象类型：`work`｜原文名：Balún-Canán｜国家/地区：墨西哥｜语言：es｜时期：1957｜体裁：长篇小说
+- 一句话简介：长篇小说（1957）：恰帕斯村镇中白人世界与 chontal 印第安世界的张力。
+- 已准入事实素材（3—7 条）：
+  1. **first_publication_year**：1957（batch_retained_candidate｜SRC-0023｜FCE（Letras Mexicanas 36））
+  2. **one_sentence_summary**：恰帕斯村镇中白人世界与 chontal 印第安世界的张力；1958 年获 Premio Chiapas（词条）（batch_retained_candidate｜SRC-0023）
+  3. **genre_or_form**：长篇小说（batch_retained_candidate｜SRC-0023）
+  4. **key_place**：恰帕斯（batch_retained_candidate｜SRC-0023）
+  5. **research_note**：LM 论文：暴力与语言的交织、书面语/口语错位、沉默作为暴力形式（B01-SRC-0008）（batch_retained_candidate｜SRC-0024）
+  6. **entity_layer**：work（batch_retained_candidate｜SRC-0023）
+- 可靠来源（正式 SRC）：SRC-0023、SRC-0024
+- 研究说明 / hold / gap（与事实分栏）：
+  - 单来源解释关系 hold（A03 复核维持）：RG-B01-0028《巴伦坎南》↔暴力与语言、RG-B01-0029《巴伦坎南》↔沉默。
+"
+V1-CARD-0015,A04-CARD-15,V1-ENT-0036,work,《黑暗的职守》,罗萨里奥·卡斯特利亚诺斯,Oficio de tinieblas,墨西哥,es,1962,长篇小说,B01,research_gap,RESEARCH-GAP,"### 15. 《黑暗的职守》
+- 对象类型：`work`｜原文名：Oficio de tinieblas｜国家/地区：墨西哥｜语言：es｜时期：1962｜体裁：长篇小说
+- 一句话简介：长篇小说（1962），Joaquín Mortiz 出版。
+- 已准入事实素材（3—7 条）：
+  1. **first_publication_year**：1962（batch_retained_candidate｜SRC-0026｜Joaquín Mortiz）
+  2. **genre_or_form**：长篇小说（batch_retained_candidate｜SRC-0026｜体裁表述以作品页书目为据）
+  3. **entity_layer**：work（batch_retained_candidate｜SRC-0026）
+- 可靠来源（正式 SRC）：SRC-0026
+- 研究说明 / hold / gap（与事实分栏）：
+  - 研究缺口：仅 B 级书目来源（ELEM 作品页）；research_gap。
+"
+V1-CARD-0016,A04-CARD-16,V1-ENT-0037,collection,《诗歌不是你》,罗萨里奥·卡斯特利亚诺斯,Poesía no eres tú: obra poética 1948-1971,墨西哥,es,1972,诗集,B01,research_gap,RESEARCH-GAP,"### 16. 《诗歌不是你》
+- 对象类型：`collection`｜原文名：Poesía no eres tú: obra poética 1948-1971｜国家/地区：墨西哥｜语言：es｜时期：1972｜体裁：诗集
+- 一句话简介：诗集（1972，FCE）：收录 1948-1971 年诗作。
+- 已准入事实素材（3—7 条）：
+  1. **first_publication_year**：1972（batch_retained_candidate｜SRC-0025｜FCE（Letras Mexicanas））
+  2. **genre_or_form**：诗集（batch_retained_candidate｜SRC-0025）
+  3. **bibliographic_note**：副题 obra poética 1948-1971：收录 1948-1971 年诗作（作品页标题）（batch_retained_candidate｜SRC-0025）
+  4. **entity_layer**：collection（batch_retained_candidate｜SRC-0025）
+- 可靠来源（正式 SRC）：SRC-0025
+- 研究说明 / hold / gap（与事实分栏）：
+  - 研究缺口：仅 B 级书目来源（ELEM 作品页）；research_gap。
+"
+V1-CARD-0017,A04-CARD-17,V1-ENT-0031,author,胡安·鲁尔福,胡安·鲁尔福,Juan Rulfo,墨西哥,es,1917-1986,—,B01,meets,NONE,"### 17. 胡安·鲁尔福
+- 对象类型：`author`｜原文名：Juan Rulfo｜国家/地区：墨西哥｜语言：es｜时期：1917-1986｜体裁：—
+- 一句话简介：墨西哥小说家与摄影师，以《佩德罗·巴拉莫》与《燃烧的原野》著称。
+- 已准入事实素材（3—7 条）：
+  1. **birth_year**：1917（batch_retained_candidate｜SRC-0027｜5 月 16 日生于阿普尔科（登记于萨尤拉））
+  2. **death_year**：1986（batch_retained_candidate｜SRC-0027｜1 月 7 日卒于墨西哥城）
+  3. **country_or_region**：墨西哥（batch_retained_candidate｜SRC-0027）
+  4. **language**：es（batch_retained_candidate｜SRC-0027）
+  5. **one_sentence_summary**：墨西哥小说家与摄影师，以《佩德罗·巴拉莫》与《燃烧的原野》著称；童年历经革命与基督战争暴力（batch_retained_candidate｜SRC-0027）
+  6. **bibliographic_note**：奖项：Xavier Villaurrutia 1955、国家文学奖 1970、阿斯图里亚斯亲王奖 1983（词条）（batch_retained_candidate｜SRC-0027）
+  7. **research_note**：1952-1953 年墨西哥作家中心（Centro Mexicano de Escritores）奖学金期间完成两部代表作；曾任 INI 编辑（词条）（batch_retained_candidate｜SRC-0027）
+- 可靠来源（正式 SRC）：SRC-0027
+- 研究说明 / hold / gap：无
+"
+V1-CARD-0018,A04-CARD-18,V1-ENT-0038,work,《佩德罗·巴拉莫》,胡安·鲁尔福,Pedro Páramo,墨西哥,es,1955,长篇小说,B01,meets,NONE,"### 18. 《佩德罗·巴拉莫》
+- 对象类型：`work`｜原文名：Pedro Páramo｜国家/地区：墨西哥｜语言：es｜时期：1955｜体裁：长篇小说
+- 一句话简介：长篇小说（1955）：Juan Preciado 赴科马拉寻父与考迪罗 Pedro Páramo 命运的双主线。
+- 已准入事实素材（3—7 条）：
+  1. **first_publication_year**：1955（batch_retained_candidate｜SRC-0029｜1955 年 3 月 FCE（Letras Mexicanas 19））
+  2. **one_sentence_summary**：Juan Preciado 赴科马拉寻父与考迪罗 Pedro Páramo 命运的双主线；村镇最终成为鬼村（batch_retained_candidate｜SRC-0029）
+  3. **genre_or_form**：长篇小说（batch_retained_candidate｜SRC-0029）
+  4. **key_character**：胡安·普雷西亚多、佩德罗·巴拉莫（人物）（batch_retained_candidate｜SRC-0029）
+  5. **key_place**：科马拉（batch_retained_candidate｜SRC-0029）
+  6. **research_note**：LM 论文：70 个片段构成；片段 67 以十四句对话浓缩 1915-1929 年（B01-SRC-0012）（batch_retained_candidate｜SRC-0028）
+  7. **entity_layer**：work（batch_retained_candidate｜SRC-0029）
+- 可靠来源（正式 SRC）：SRC-0028、SRC-0029
+- 研究说明 / hold / gap（与事实分栏）：
+  - 单来源解释关系 hold（A03 复核维持）：RG-B01-0025《佩德罗·巴拉莫》↔墨西哥革命小说、RG-B01-0030↔革命与基督战争、RG-B01-0031↔乡村与革命后的土地。
+"
+V1-CARD-0019,A04-CARD-19,V1-ENT-0039,collection,《燃烧的原野》,胡安·鲁尔福,El Llano en llamas,墨西哥,es,1953,短篇集,B01,research_gap,RESEARCH-GAP,"### 19. 《燃烧的原野》
+- 对象类型：`collection`｜原文名：El Llano en llamas｜国家/地区：墨西哥｜语言：es｜时期：1953｜体裁：短篇集
+- 一句话简介：短篇集（1953，FCE）：以哈利斯科乡村为背景。
+- 已准入事实素材（3—7 条）：
+  1. **first_publication_year**：1953（batch_retained_candidate｜SRC-0030｜FCE（Letras Mexicanas 11））
+  2. **one_sentence_summary**：1953 年 FCE 出版；以哈利斯科乡村为背景的短篇集（batch_retained_candidate｜SRC-0030｜篇数与篇目明细来源未提供，待补）
+  3. **genre_or_form**：短篇集（batch_retained_candidate｜SRC-0030）
+  4. **entity_layer**：collection（batch_retained_candidate｜SRC-0030）
+- 可靠来源（正式 SRC）：SRC-0030
+- 研究说明 / hold / gap（与事实分栏）：
+  - 研究缺口：仅 B 级书目来源（ELEM 作品页），篇目明细未提供；research_gap。
+"
+V1-CARD-0020,A04-CARD-20,V1-ENT-0040,work,《金鸡》,胡安·鲁尔福,El gallo de oro,墨西哥,es,1958（写作）/1980（出版）,中篇小说/电影文本,B01,research_gap,RESEARCH-GAP,"### 20. 《金鸡》
+- 对象类型：`work`｜原文名：El gallo de oro｜国家/地区：墨西哥｜语言：es｜时期：1958（写作）/1980（出版）｜体裁：中篇小说/电影文本
+- 一句话简介：中篇小说/电影文本（1958 年写成、1980 年出版）。
+- 已准入事实素材（3—7 条）：
+  1. **genre_or_form**：中篇小说/电影文本（batch_retained_candidate｜SRC-0031｜体裁表述待核）
+  2. **entity_layer**：work（batch_retained_candidate｜SRC-0031）
+  3. **composition_year**：1958（batch_retained_candidate｜SRC-0031｜1958 年写成（R1 拆行，REVIEW §3.3））
+  4. **publication_year**：1980（batch_retained_candidate｜SRC-0031｜1980 年 Era 出版（R1 拆行，REVIEW §3.3））
+- 可靠来源（正式 SRC）：SRC-0031
+- 研究说明 / hold / gap（与事实分栏）：
+  - 研究缺口：仅 B 级书目来源（ELEM 作品页），体裁表述待核；research_gap。
+"
+V1-CARD-0021,A04-CARD-21,V1-ENT-0072,author,加西亚·马尔克斯,加西亚·马尔克斯,Gabriel García Márquez,哥伦比亚,es,1927-2014,—,B02,meets,NONE,"### 21. 加西亚·马尔克斯
+- 对象类型：`author`｜原文名：Gabriel García Márquez｜国家/地区：哥伦比亚｜语言：es｜时期：1927-2014｜体裁：—
+- 一句话简介：哥伦比亚小说家，1982 年诺贝尔文学奖得主，生于加勒比哥伦比亚阿卡塔卡。
+- 已准入事实素材（3—7 条）：
+  1. **birth_year**：1927（candidate_for_staging_review｜SRC-0056｜A01 R1 已通过的 high/none 事实候选）
+  2. **death_year**：2014（candidate_for_staging_review｜SRC-0056｜A01 R1 已通过的 high/none 事实候选）
+  3. **country_or_region**：哥伦比亚（batch_retained_candidate｜SRC-0035｜CVC：加勒比哥伦比亚村落 Aracataca 出生）
+  4. **language**：es（batch_retained_candidate｜SRC-0035｜西语文学（CVC：“literatura en lengua española”））
+  5. **language**：es（candidate_for_staging_review｜SRC-0056｜A01 R1 已通过的 high/none 事实候选）
+  6. **one_sentence_summary**：哥伦比亚小说家，1982 年诺贝尔文学奖得主，生于加勒比哥伦比亚阿卡塔卡，其故乡在马孔多名下进入文学（batch_retained_candidate｜SRC-0035｜CVC 数字展简介）
+  7. **award**：诺贝尔文学奖（1982）（batch_retained_candidate｜SRC-0036｜NobelPrize.org 1982 年文学奖）
+- 可靠来源（正式 SRC）：SRC-0035、SRC-0036、SRC-0056
+- 研究说明 / hold / gap（与事实分栏）：
+  - 单来源解释关系 hold（A03 复核维持）：RG-B02-0021 加西亚·马尔克斯↔魔幻现实主义。
+"
+V1-CARD-0022,A04-CARD-22,V1-ENT-0075,work,《百年孤独》,加西亚·马尔克斯,Cien años de soledad,哥伦比亚,es,1967,长篇小说,B02,meets,NONE,"### 22. 《百年孤独》
+- 对象类型：`work`｜原文名：Cien años de soledad｜国家/地区：哥伦比亚｜语言：es｜时期：1967｜体裁：长篇小说
+- 一句话简介：长篇小说（1967）：Javeriana 论文认为作品伦理源自圣经神话并构成统一工具，照见人性境况。
+- 已准入事实素材（3—7 条）：
+  1. **first_publication_year**：1967（candidate_for_staging_review｜SRC-0056｜A01 R1 已通过的 high/none 事实候选）
+  2. **one_sentence_summary**：〔来源论文观点，非已确认属性〕Javeriana 论文认为作品伦理源自圣经神话并构成统一工具，借结构、人物与主题照见人性境况（batch_retained_candidate｜SRC-0032｜R1：删除无来源支持的“马孔多兴衰/家族史诗”表述）
+  3. **genre_or_form**：长篇小说（batch_retained_candidate｜SRC-0032｜Javeriana：“la novela Cien años de soledad”）
+  4. **entity_layer**：work（batch_retained_candidate｜SRC-0032）
+  5. **setting_place**：马孔多（candidate_for_staging_review｜SRC-0057｜A01 R1 已通过的 high/none 事实候选）
+- 可靠来源（正式 SRC）：SRC-0032、SRC-0056、SRC-0057
+- 研究说明 / hold / gap（与事实分栏）：
+  - 单来源解释关系 hold（A03 复核维持）：RG-B02-0024《百年孤独》↔伦理与人性。
+"
+V1-CARD-0023,A04-CARD-23,V1-ENT-0076,work,《没有人给他写信的上校》,加西亚·马尔克斯,El coronel no tiene quien le escriba,哥伦比亚,es,1958/1961,中篇小说,B02,meets,DUAL-YEAR,"### 23. 《没有人给他写信的上校》
+- 对象类型：`work`｜原文名：El coronel no tiene quien le escriba｜国家/地区：哥伦比亚｜语言：es｜时期：1958/1961｜体裁：中篇小说
+- 一句话简介：中篇小说：上校等待来信的漫长岁月与拒绝卖鸡的被动抵抗（1958 年杂志刊载、1961 年书版）。
+- 已准入事实素材（3—7 条）：
+  1. **first_periodical_publication_year**：1958（candidate_for_staging_review｜SRC-0064｜拆分杂志首次刊载字段）
+  2. **first_book_edition_year**：1961（candidate_for_staging_review｜SRC-0064｜拆分首个书版本字段）
+  3. **one_sentence_summary**：上校等待来信的漫长岁月：儿子死于革命活动、家宅抵押、以斗鸡为生，最终拒绝卖鸡并等待斗鸡之日（batch_retained_candidate｜SRC-0033｜Encuentro 摘要）
+  4. **genre_or_form**：中篇小说（batch_retained_candidate｜SRC-0033｜Encuentro：“la célebre novela”）
+  5. **key_character**：上校;奥古斯丁（batch_retained_candidate｜SRC-0033）
+  6. **entity_layer**：work（batch_retained_candidate｜SRC-0033）
+- 可靠来源（正式 SRC）：SRC-0033、SRC-0064
+- 研究说明 / hold / gap（与事实分栏）：
+  - 首发语义：1958 年《Mito》杂志首次刊载、1961 年（Medellín, Aguirre）首个书版本（A03-FCT-0012/0013，SRC-0064）；泛化字段 first_publication_year 保持空缺/冲突，不回填 1961。
+  - 单来源解释关系 hold（A03 复核维持）：RG-B02-0025《没有人给他写信的上校》↔贫困与政治暴力。
+  - [gap] first_publication_year_gap：泛化字段 first_publication_year 保持空缺/冲突，不回填 1961（A02 R1 REVIEW §3.2；A03 裁决）（SRC-0064｜双字段建模 first_periodical_publication_year=1958 / first_book_edition_year=1961）
+"
+V1-CARD-0024,A04-CARD-24,V1-ENT-0077,work,《一桩事先张扬的凶杀案》,加西亚·马尔克斯,Crónica de una muerte anunciada,哥伦比亚,es,1981,小说（表面侦探结构）,B02,meets,NONE,"### 24. 《一桩事先张扬的凶杀案》
+- 对象类型：`work`｜原文名：Crónica de una muerte anunciada｜国家/地区：哥伦比亚｜语言：es｜时期：1981｜体裁：小说（表面侦探结构）
+- 一句话简介：小说（1981）：以圣地亚哥·纳萨尔之死为中心的重构叙事。
+- 已准入事实素材（3—7 条）：
+  1. **first_publication_year**：1981（batch_retained_candidate｜SRC-0034｜Atenea 论文首页标注 (1981)）
+  2. **one_sentence_summary**：〔来源论文观点，非已确认属性〕以圣地亚哥·纳萨尔之死为中心的重构叙事；犯罪仅是前文本，真正探究导致其被复仇杀害的原始之罪（batch_retained_candidate｜SRC-0034）
+  3. **genre_or_form**：小说（表面侦探小说结构）（batch_retained_candidate｜SRC-0034｜Atenea：“novela detectivesca”表面结构反讽）
+  4. **key_character**：圣地亚哥·纳萨尔（batch_retained_candidate｜SRC-0034）
+  5. **entity_layer**：work（batch_retained_candidate｜SRC-0034）
+- 可靠来源（正式 SRC）：SRC-0034
+- 研究说明 / hold / gap（与事实分栏）：
+  - 单来源解释关系 hold（A03 复核维持）：RG-B02-0026《一桩事先张扬的凶杀案》↔罪责与真相的悬置。
+"
+V1-CARD-0025,A04-CARD-25,V1-ENT-0073,author,胡利奥·科塔萨尔,胡利奥·科塔萨尔,Julio Cortázar,阿根廷,es,1914-1984,—,B02,meets,NONE,"### 25. 胡利奥·科塔萨尔
+- 对象类型：`author`｜原文名：Julio Cortázar｜国家/地区：阿根廷｜语言：es｜时期：1914-1984｜体裁：—
+- 一句话简介：阿根廷作家（1914-1984）：Passagens 论文认为其叙事自早期小说起即对抗既定文学规范，强调碎片叙事与读者参与。
+- 已准入事实素材（3—7 条）：
+  1. **birth_year**：1914（candidate_for_staging_review｜SRC-0058｜A01 R1 已通过的 high/none 事实候选）
+  2. **death_year**：1984（candidate_for_staging_review｜SRC-0058｜A01 R1 已通过的 high/none 事实候选）
+  3. **language**：es（batch_retained_candidate｜SRC-0037｜西语文学）
+  4. **one_sentence_summary**：〔来源论文观点，非已确认属性〕科塔萨尔的叙事自早期小说起即对抗既定文学规范，《跳房子》揭示其对传统小说观念的突破，强调碎片叙事与读者的积极参与（batch_retained_candidate｜SRC-0038｜R1：仅保留 SRC-0007 明确支持部分；梦境/早期幻想拆至 FCT-0083）
+  5. **one_sentence_summary**：〔来源论文观点，非已确认属性〕科塔萨尔早期幻想短篇（La otra orilla、Bestiario、Final del juego）中人物与梦境概念保持虚假关系（batch_retained_candidate｜SRC-0037｜R1：自原 FCT-0014 拆出，梦境/早期幻想部分由 SRC-0006 单独支持）
+  6. **entity_layer**：author（batch_retained_candidate｜SRC-0037）
+  7. **nationality_history**：阿根廷；1981年入法国籍（candidate_for_staging_review｜SRC-0069｜保留 BnF 权威记录中的双重国别信息）
+- 可靠来源（正式 SRC）：SRC-0037、SRC-0038、SRC-0058、SRC-0069
+- 研究说明 / hold / gap（与事实分栏）：
+  - 国籍候选措辞：阿根廷；1981 年入法国籍（A03-FCT-0020，SRC-0069，保留 BnF 双重国别信息）。
+  - 单来源解释关系 hold（A03 复核维持）：RG-B02-0027《跳房子》↔读者参与与反传统叙事——本卡摘要为 Passagens 论文对作者叙事的判断（已归属式展示），与 hold 三元组同源，非已确认属性。
+"
+V1-CARD-0026,A04-CARD-26,V1-ENT-0078,work,《跳房子》,胡利奥·科塔萨尔,Rayuela,阿根廷,es,1963,长篇小说,B02,meets,NONE,"### 26. 《跳房子》
+- 对象类型：`work`｜原文名：Rayuela｜国家/地区：阿根廷｜语言：es｜时期：1963｜体裁：长篇小说
+- 一句话简介：长篇小说（1963）：Passagens 论文称其为碎片化叙述、召唤读者积极参与的实验小说。
+- 已准入事实素材（3—7 条）：
+  1. **first_publication_year**：1963（candidate_for_staging_review｜SRC-0065｜Persée 书目脚注直接载年份）
+  2. **one_sentence_summary**：〔来源论文观点，非已确认属性〕打破传统小说观念的实验小说：碎片化叙述与多种话语交替，召唤读者积极参与文本生产（batch_retained_candidate｜SRC-0038）
+  3. **genre_or_form**：长篇小说（batch_retained_candidate｜SRC-0038｜Passagens：“su obra más importante”）
+  4. **research_note**：Passagens 论文将 Rayuela 与《Último round》的“影格叙述”并置讨论（batch_retained_candidate｜SRC-0038）
+  5. **entity_layer**：work（batch_retained_candidate｜SRC-0038）
+- 可靠来源（正式 SRC）：SRC-0038、SRC-0065
+- 研究说明 / hold / gap（与事实分栏）：
+  - 单来源解释关系 hold（A03 复核维持）：RG-B02-0027《跳房子》↔读者参与与反传统叙事。
+"
+V1-CARD-0027,A04-CARD-27,V1-ENT-0082,collection,《动物寓言集》,胡利奥·科塔萨尔,Bestiario,阿根廷,es,1951,幻想短篇集,B02,meets,NONE,"### 27. 《动物寓言集》
+- 对象类型：`collection`｜原文名：Bestiario｜国家/地区：阿根廷｜语言：es｜时期：1951｜体裁：幻想短篇集
+- 一句话简介：幻想短篇集（1951）：Orbis Tertius 论文（Dulou）认为其中人物与梦境概念保持虚假关系。
+- 已准入事实素材（3—7 条）：
+  1. **first_publication_year**：1951（candidate_for_staging_review｜SRC-0066｜BnF 稳定书目记录载 Bestiario 1951）
+  2. **one_sentence_summary**：〔来源论文观点，非已确认属性〕科塔萨尔早期幻想短篇集；人物与梦境概念保持虚假关系，读者在幻想与真实之间被引导（batch_retained_candidate｜SRC-0037）
+  3. **genre_or_form**：幻想短篇集（batch_retained_candidate｜SRC-0037｜Orbis：“cuentos fantásticos de la primera etapa”）
+  4. **entity_layer**：collection（batch_retained_candidate｜SRC-0037｜短篇集）
+- 可靠来源（正式 SRC）：SRC-0037、SRC-0066
+- 研究说明 / hold / gap（与事实分栏）：
+  - 单来源解释关系 hold（A03 复核维持）：RG-B02-0028《动物寓言集》↔梦境与现实的模糊。
+"
+V1-CARD-0028,A04-CARD-28,V1-ENT-0083,collection,《游戏的终结》,胡利奥·科塔萨尔,Final del juego,阿根廷,es,1956,幻想短篇集,B02,meets,NONE,"### 28. 《游戏的终结》
+- 对象类型：`collection`｜原文名：Final del juego｜国家/地区：阿根廷｜语言：es｜时期：1956｜体裁：幻想短篇集
+- 一句话简介：幻想短篇集（1956）：论文以“面具游戏与自我折叠”为阅读路径。
+- 已准入事实素材（3—7 条）：
+  1. **first_publication_year**：1956（candidate_for_staging_review｜SRC-0067｜BnF 稳定书目记录载 J. Pablos 1956）
+  2. **one_sentence_summary**：UB 论文以《游戏的终结》为对象展开“面具游戏与自我折叠”的阅读路径研究（题名所载主题判断；正文摘要本站不可得）（batch_retained_candidate｜SRC-0040｜R1：删除来源不能证明的具体篇目清单，仅保留题名支持的最低表述）
+  3. **genre_or_form**：幻想短篇集（batch_retained_candidate｜SRC-0040）
+  4. **entity_layer**：collection（batch_retained_candidate｜SRC-0040｜短篇集）
+- 可靠来源（正式 SRC）：SRC-0040、SRC-0067
+- 研究说明 / hold / gap（与事实分栏）：
+  - 单来源解释关系 hold（A03 复核维持）：RG-B02-0029《游戏的终结》↔梦境与现实的模糊、RG-B02-0030↔面具游戏与自我的折叠。
+"
+V1-CARD-0029,A04-CARD-29,V1-ENT-0074,author,阿莱霍·卡彭铁尔,阿莱霍·卡彭铁尔,Alejo Carpentier,古巴,es,1904-1980,—,B02,meets,NONE,"### 29. 阿莱霍·卡彭铁尔
+- 对象类型：`author`｜原文名：Alejo Carpentier｜国家/地区：古巴｜语言：es｜时期：1904-1980｜体裁：—
+- 一句话简介：古巴跨文化作家（1904-1980）：RFRM 论文认为其为呈现拉美本质发展出 lo real maravilloso 与 neobarroco。
+- 已准入事实素材（3—7 条）：
+  1. **birth_year**：1904（candidate_for_staging_review｜SRC-0068｜将生卒年拆为原子字段）
+  2. **death_year**：1980（candidate_for_staging_review｜SRC-0068｜将生卒年拆为原子字段）
+  3. **country_or_region**：古巴（batch_retained_candidate｜SRC-0041｜RFRM 首句“El cubano Alejo Carpentier”）
+  4. **language**：es（batch_retained_candidate｜SRC-0041｜西语文学）
+  5. **one_sentence_summary**：〔来源论文观点，非已确认属性〕古巴跨文化作家，为呈现拉美本质发展出 lo real maravilloso 与 neobarroco 等文学工具（batch_retained_candidate｜SRC-0041｜RFRM 论文判断）
+  6. **research_note**：RFRM 论文视卡彭铁尔为“处于文化之间”的跨文化作者，Mackandal 人物体现神奇现实（batch_retained_candidate｜SRC-0041｜Araújo Branco 2013）
+  7. **entity_layer**：author（batch_retained_candidate｜SRC-0041）
+- 可靠来源（正式 SRC）：SRC-0041、SRC-0068
+- 研究说明 / hold / gap（与事实分栏）：
+  - 单来源解释关系 hold（A03 复核维持）：RG-B02-0022 卡彭铁尔↔美洲神奇现实、RG-B02-0023↔新巴洛克。
+"
+V1-CARD-0030,A04-CARD-30,V1-ENT-0079,work,《人间王国》,阿莱霍·卡彭铁尔,El reino de este mundo,古巴,es,1949,长篇小说,B02,meets,NONE,"### 30. 《人间王国》
+- 对象类型：`work`｜原文名：El reino de este mundo｜国家/地区：古巴｜语言：es｜时期：1949｜体裁：长篇小说
+- 一句话简介：长篇小说（1949）：RFRM 论文以跨文化视角解读拉丁美洲，Mackandal 体现神奇现实。
+- 已准入事实素材（3—7 条）：
+  1. **first_publication_year**：1949（candidate_for_staging_review｜SRC-0072｜Persée 书目脚注载原版年 1949）
+  2. **one_sentence_summary**：〔来源论文观点，非已确认属性〕以跨文化视角呈现拉丁美洲：Mackandal 体现神奇现实，Henri Christophe 等人物代表“新世界”（batch_retained_candidate｜SRC-0041）
+  3. **genre_or_form**：长篇小说（batch_retained_candidate｜SRC-0041）
+  4. **key_character**：马康达尔;亨利·克里斯托夫（batch_retained_candidate｜SRC-0041）
+  5. **entity_layer**：work（batch_retained_candidate｜SRC-0041）
+- 可靠来源（正式 SRC）：SRC-0041、SRC-0072
+- 研究说明 / hold / gap（与事实分栏）：
+  - 单来源解释关系 hold（A03 复核维持）：RG-B02-0031《人间王国》↔跨文化与美洲身份。
+"
+V1-CARD-0031,A04-CARD-31,V1-ENT-0080,work,《消逝的足迹》,阿莱霍·卡彭铁尔,Los pasos perdidos,古巴,es,1953(hold),长篇小说,B02,meets,HOLD-YEAR,"### 31. 《消逝的足迹》
+- 对象类型：`work`｜原文名：Los pasos perdidos｜国家/地区：古巴｜语言：es｜时期：1953(hold)｜体裁：长篇小说
+- 一句话简介：长篇小说：Maturo 以海德格尔 Kehre 概念解读“美洲作为去蔽与西方传统新起点”。
+- 已准入事实素材（3—7 条）：
+  1. **one_sentence_summary**：Maturo 以海德格尔 Kehre 概念解读：小说呈现“美洲作为去蔽与西方传统新起点”（batch_retained_candidate｜SRC-0042）
+  2. **genre_or_form**：长篇小说（batch_retained_candidate｜SRC-0042）
+  3. **research_note**：论文从阿尔瓦尔·努涅斯《遇难记》到卡彭铁尔《消逝的足迹》的谱系解读（batch_retained_candidate｜SRC-0042）
+  4. **entity_layer**：work（batch_retained_candidate｜SRC-0042）
+- 可靠来源（正式 SRC）：SRC-0042
+- 研究说明 / hold / gap（与事实分栏）：
+  - hold：1953 首发年仅参考文献书目支持（A03-FCT-0007，SRC-0042），等待权威书目交叉后准入。
+  - 单来源解释关系 hold（A03 复核维持）：RG-B02-0032《消逝的足迹》↔美洲与西方传统。
+  - [hold] first_publication_year：1953（SRC-0042｜仅参考文献书目支持 1953，等待权威书目交叉）
+"
+V1-CARD-0032,A04-CARD-32,V1-ENT-0081,work,《光明世纪》,阿莱霍·卡彭铁尔,El siglo de las luces,古巴,es,1962,长篇小说,B02,meets,NONE,"### 32. 《光明世纪》
+- 对象类型：`work`｜原文名：El siglo de las luces｜国家/地区：古巴｜语言：es｜时期：1962｜体裁：长篇小说
+- 一句话简介：长篇小说（1962）：Letras 论文解读其以艺术物件与视觉体制批判启蒙现代性及其对拉美的影响。
+- 已准入事实素材（3—7 条）：
+  1. **first_publication_year**：1962（batch_retained_candidate｜SRC-0043｜Letras 标题标注 (1962)）
+  2. **one_sentence_summary**：〔来源论文观点，非已确认属性〕以艺术物件与视觉体制的 ecfrasis 组织叙事，批判启蒙现代性及其对拉丁美洲的影响（batch_retained_candidate｜SRC-0043）
+  3. **genre_or_form**：长篇小说（batch_retained_candidate｜SRC-0043）
+  4. **entity_layer**：work（batch_retained_candidate｜SRC-0043）
+- 可靠来源（正式 SRC）：SRC-0043
+- 研究说明 / hold / gap（与事实分栏）：
+  - 单来源解释关系 hold（A03 复核维持）：RG-B02-0033《光明世纪》↔艺术、启蒙与现代性批判。
+"
+V1-CARD-0033,A04-CARD-33,V1-ENT-0114,author,马里奥·巴尔加斯·略萨,马里奥·巴尔加斯·略萨,Mario Vargas Llosa,秘鲁,es,1936-2025,—,B03,meets,NONE,"### 33. 马里奥·巴尔加斯·略萨
+- 对象类型：`author`｜原文名：Mario Vargas Llosa｜国家/地区：秘鲁｜语言：es｜时期：1936-2025｜体裁：—
+- 一句话简介：秘鲁小说家（1936-2025），2010 年诺贝尔文学奖得主。
+- 已准入事实素材（3—7 条）：
+  1. **birth_year**：1936（batch_retained_candidate｜SRC-0047｜Nobel：Born 28 March 1936）
+  2. **death_year**：2025（batch_retained_candidate｜SRC-0047｜Nobel：Died 13 April 2025, Lima, Peru（权威直接核验））
+  3. **country_or_region**：秘鲁（batch_retained_candidate｜SRC-0047｜Nobel：Peruvian author）
+  4. **one_sentence_summary**：秘鲁小说家，2010 年诺贝尔文学奖得主，曾为 1990 年秘鲁总统选举候选人，生前大部分时间居于马德里（batch_retained_candidate｜SRC-0047｜Nobel facts 综合）
+  5. **award**：诺贝尔文学奖（2010）（batch_retained_candidate｜SRC-0048｜NobelPrize.org）
+  6. **research_note**：获奖理由：对权力结构的绘图与个体抵抗、反叛和失败的尖锐形象（batch_retained_candidate｜SRC-0048｜NobelPrize.org 原文）
+  7. **personal_note**：Nobel facts 页称其“已婚并有三个孩子”（页面为旧版表述，未反映后续婚姻变化，照录）（batch_retained_candidate｜SRC-0047｜Nobel：is married with three children）
+- 可靠来源（正式 SRC）：SRC-0047、SRC-0048
+- 研究说明 / hold / gap：无
+"
+V1-CARD-0034,A04-CARD-34,V1-ENT-0116,work,《城市与狗》,马里奥·巴尔加斯·略萨,La ciudad y los perros,秘鲁,es,1963,长篇小说,B03,meets,NONE,"### 34. 《城市与狗》
+- 对象类型：`work`｜原文名：La ciudad y los perros｜国家/地区：秘鲁｜语言：es｜时期：1963｜体裁：长篇小说
+- 一句话简介：长篇小说（1963）：论文从中提取寓言与象征元素作利马城市问题阐释。
+- 已准入事实素材（3—7 条）：
+  1. **first_publication_year**：1963（candidate_for_staging_review｜SRC-0046｜A01 R1 已通过的 high/none 事实候选）
+  2. **one_sentence_summary**：以利马为背景的小说；论文从中提取寓言与象征元素作 20 世纪中叶利马城市问题的阐释（困闭与逃避）（batch_retained_candidate｜SRC-0044）
+  3. **genre_or_form**：长篇小说（batch_retained_candidate｜SRC-0044｜Ángulo Recto：“la novela”）
+  4. **key_place**：利马（batch_retained_candidate｜SRC-0044）
+  5. **entity_layer**：work（batch_retained_candidate｜SRC-0044）
+- 可靠来源（正式 SRC）：SRC-0044、SRC-0046
+- 研究说明 / hold / gap（与事实分栏）：
+  - 单来源解释关系 hold（A03 复核维持）：RG-B03-0019《城市与狗》↔利马的困闭与逃避。
+"
+V1-CARD-0035,A04-CARD-35,V1-ENT-0117,work,《酒吧长谈》,马里奥·巴尔加斯·略萨,Conversación en La Catedral,秘鲁,es,1969,长篇小说,B03,meets,NONE,"### 35. 《酒吧长谈》
+- 对象类型：`work`｜原文名：Conversación en La Catedral｜国家/地区：秘鲁｜语言：es｜时期：1969｜体裁：长篇小说
+- 一句话简介：长篇小说（1969）：论文以该小说讨论文学爆炸中知识分子的角色与失败。
+- 已准入事实素材（3—7 条）：
+  1. **first_publication_year**：1969（batch_retained_candidate｜SRC-0045｜Catedral Tomada 标题标注 (1969)）
+  2. **one_sentence_summary**：论文以该小说为对象讨论文学爆炸中知识分子的角色：作家进入公共领域及其失败的表征（batch_retained_candidate｜SRC-0045）
+  3. **genre_or_form**：长篇小说（batch_retained_candidate｜SRC-0045｜Catedral Tomada：“novela del período”）
+  4. **entity_layer**：work（batch_retained_candidate｜SRC-0045）
+- 可靠来源（正式 SRC）：SRC-0045
+- 研究说明 / hold / gap（与事实分栏）：
+  - 单来源解释关系 hold（A03 复核维持）：RG-B03-0016《酒吧长谈》↔文学爆炸、RG-B03-0020↔知识分子的失败与公众角色。
+"
+V1-CARD-0036,A04-CARD-36,V1-ENT-0118,work,《世界末日之战》,马里奥·巴尔加斯·略萨,La guerra del fin del mundo,秘鲁,es,1981,长篇小说,B03,meets,CONTEXT-EVENT,"### 36. 《世界末日之战》
+- 对象类型：`work`｜原文名：La guerra del fin del mundo｜国家/地区：秘鲁｜语言：es｜时期：1981｜体裁：长篇小说
+- 一句话简介：长篇小说（1981）：论文认为 Consejero 人物与整部小说瓦解殖民视角对拉美的解读。
+- 已准入事实素材（3—7 条）：
+  1. **first_publication_year**：1981（batch_retained_candidate｜SRC-0046｜Letral：“publicada en 1981”）
+  2. **one_sentence_summary**：1981 年出版；论文认为 Consejero 人物与整部小说瓦解殖民视角对拉美的解读，成为拉美去殖民思想在文学话语上的先例（batch_retained_candidate｜SRC-0046）
+  3. **genre_or_form**：长篇小说（batch_retained_candidate｜SRC-0046｜Letral：“La sexta novela de Vargas Llosa”）
+  4. **key_character**：劝世者（el Consejero）（batch_retained_candidate｜SRC-0046）
+  5. **research_note**：论文标题“Canudos o la redención de los malditos”直接关联小说与卡努杜斯（Canudos）；关系词表无“基于事件”词，仅记录于此（batch_retained_candidate｜SRC-0046）
+  6. **event_year_range**：1896-1897（candidate_for_staging_review｜SRC-0046｜A01 R1 已通过的 high/none 事实候选）
+  7. **entity_layer**：work（batch_retained_candidate｜SRC-0046）
+- 可靠来源（正式 SRC）：SRC-0046、SRC-0063
+- 研究说明 / hold / gap（与事实分栏）：
+  - 事件关系说明：BASED_ON_EVENT 未入 Schema 0.2——直接证据 A01-EV-0001（SRC-0046 正文 ficcionaliza）、间接 A01-EV-0002（SRC-0063）；V1-S4-A03-PROP-001 提案 pending N3 用户节点，不生成正式关系。人物建模：el Consejero（character）与历史人物 Antônio Conselheiro 不作同一实体或别名合并（research_note_only，A03-FCT-0011）。
+  - 单来源解释关系 hold（A03 复核维持）：RG-B03-0021《世界末日之战》↔殖民视角与去殖民思想。
+  - [research_note_only] research_note：论文同时讨论小说人物 el Consejero（B03-ENT-0028，character），并说明被小说虚构化的卡努杜斯历史运动由 Antônio Conselheiro 领导；历史人物与文学人物不作同一实体或别名合并（R1，REVIEW §2.1）（SRC-0046｜人物原型/历史对应建模说明；不得准入别名或实体合并）
+  - [pending_n3] based_on_event_pending：《世界末日之战》与卡努杜斯战争：直接证据 A01-EV-0001（SRC-0046 正文 ficcionaliza）、间接 A01-EV-0002（SRC-0063）；BASED_ON_EVENT 未入 Schema 0.2，N3 用户节点前不生成正式关系（SRC-0046;SRC-0063｜V1-S4-A03-PROP-001）
+"
+V1-CARD-0037,A04-CARD-37,V1-ENT-0115,author,巴勃罗·聂鲁达,巴勃罗·聂鲁达,Pablo Neruda,智利,es,1904-1973,—,B03,meets,AUTHOR-LEVEL-POLITICAL,"### 37. 巴勃罗·聂鲁达
+- 对象类型：`author`｜原文名：Pablo Neruda｜国家/地区：智利｜语言：es｜时期：1904-1973｜体裁：—
+- 一句话简介：智利诗人（1904-1973），1971 年诺贝尔文学奖得主，曾任外交官与智利共产党参议员。
+- 已准入事实素材（3—7 条）：
+  1. **birth_year**：1904（batch_retained_candidate｜SRC-0054｜Nobel：Born 12 July 1904；CVC 同）
+  2. **death_year**：1973（batch_retained_candidate｜SRC-0054｜Nobel：Died 23 September 1973；CVC 同）
+  3. **country_or_region**：智利（batch_retained_candidate｜SRC-0054｜Nobel：Born/Died/Residence 智利）
+  4. **original_name**：Neftalí Ricardo Reyes Basoalto（batch_retained_candidate｜SRC-0055｜CVC：原名，1920 年首用笔名 Pablo Neruda、1946 年正式采用）
+  5. **one_sentence_summary**：智利诗人，1971 年诺贝尔文学奖得主，曾任外交官与智利共产党参议员（batch_retained_candidate｜SRC-0054｜Nobel facts 综合）
+  6. **award**：诺贝尔文学奖（1971）（batch_retained_candidate｜SRC-0054｜NobelPrize.org）
+  7. **research_note**：获奖理由：以元素性力量的诗使一个大陆的命运与梦想复活（batch_retained_candidate｜SRC-0054｜NobelPrize.org 原文）
+- 可靠来源（正式 SRC）：SRC-0054、SRC-0055、SRC-0060
+- 研究说明 / hold / gap（与事实分栏）：
+  - 作者级说明：『聂鲁达：诗歌与政治』为作者级主题（A01-PP-0002，SRC-0060），不得下推到具体作品。
+  - 单来源解释关系 hold（A03 复核维持）：RG-B03-0017 聂鲁达↔现代主义、RG-B03-0018↔先锋派。
+  - [not_work_level] author_level_political_note：『聂鲁达：诗歌与政治』为作者级主题；不得下推到具体作品（SRC-0060｜A03 维持作者级×1，不下推作品）
+"
+V1-CARD-0038,A04-CARD-38,V1-ENT-0119,collection,《二十首情诗和一支绝望的歌》,巴勃罗·聂鲁达,Veinte poemas de amor y una canción desesperada,智利,es,1924,诗集,B03,meets,NONE,"### 38. 《二十首情诗和一支绝望的歌》
+- 对象类型：`collection`｜原文名：Veinte poemas de amor y una canción desesperada｜国家/地区：智利｜语言：es｜时期：1924｜体裁：诗集
+- 一句话简介：诗集（1924）：聂鲁达早期情诗集，使其进入国际视野。
+- 已准入事实素材（3—7 条）：
+  1. **first_publication_year**：1924（batch_retained_candidate｜SRC-0055｜CVC：1923 年首部诗集后次年出版）
+  2. **one_sentence_summary**：聂鲁达早期情诗集；比较研究以“爱情体验”的形成切入（与 Nizar Qabbani《一百封情书》对比）（batch_retained_candidate｜SRC-0049）
+  3. **genre_or_form**：诗集（batch_retained_candidate｜SRC-0049｜Kadhim：“poemario”）
+  4. **research_note**：CVC：该诗集使其进入国际视野，获得近乎鲁文·达里奥的名声（batch_retained_candidate｜SRC-0055｜R1：Araya 信息拆至 FCT-0059（REVIEW §3.3））
+  5. **research_note**：Araya 论文（Persée 1982, Bulletin Hispanique）载该诗集创作过程中曾有两个先前标题（batch_retained_candidate｜SRC-0053｜R1：新增独立事实，仅由 SRC-0010 支持（REVIEW §3.3））
+  6. **entity_layer**：collection（batch_retained_candidate｜SRC-0049｜Kadhim：“los dos poemarios”）
+- 可靠来源（正式 SRC）：SRC-0049、SRC-0053、SRC-0055
+- 研究说明 / hold / gap（与事实分栏）：
+  - 单来源解释关系 hold（A03 复核维持）：RG-B03-0022《二十首情诗和一支绝望的歌》↔爱情体验。
+"
+V1-CARD-0039,A04-CARD-39,V1-ENT-0120,collection,《大地上的居所》,巴勃罗·聂鲁达,Residencia en la tierra,智利,es,1925-1931,诗集,B03,meets,POLITICAL-GAP,"### 39. 《大地上的居所》
+- 对象类型：`collection`｜原文名：Residencia en la tierra｜国家/地区：智利｜语言：es｜时期：1925-1931｜体裁：诗集
+- 一句话简介：诗集：CVC 书目列 Residencia en la tierra 1925-1931（1933 首版）与独立题名 Tercera residencia, 1935-1945。
+- 已准入事实素材（3—7 条）：
+  1. **genre_or_form**：诗集（batch_retained_candidate｜SRC-0050｜Atenea 专论该诗集）
+  2. **research_note**：Concha 1972 年《Atenea》专论解读该诗集；分卷构成与各卷出版年来源未直接列明，待补（ISSUES）（batch_retained_candidate｜SRC-0050）
+  3. **bibliographic_scope_note**：Residencia en la tierra 1925-1931；Tercera residencia, 1935-1945（candidate_for_staging_review｜SRC-0070｜只记录 CVC 明示题名，不推断完整分卷结构）
+  4. **entity_layer**：collection（batch_retained_candidate｜SRC-0050｜诗集）
+- 可靠来源（正式 SRC）：SRC-0050、SRC-0070
+- 研究说明 / hold / gap（与事实分栏）：
+  - 分卷说明：仅记录 CVC 书目页明确列出的题名（A03-FCT-0021，SRC-0070），不推断完整分卷结构。政治主题 gap：作品级“社会与政治”无合格开放来源（A01-PP-0005）。
+  - [gap] political_theme_gap：社会与政治（作品级）——缺口：无合格开放来源（A03 维持 gap；RCLL 经 JSTOR 付费、RCL 经 SciELO 拦截）
+"
+V1-CARD-0040,A04-CARD-40,V1-ENT-0121,collection,《漫歌》,巴勃罗·聂鲁达,Canto general,智利,es,1950,史诗诗集,B03,meets,POLITICAL-HOLD,"### 40. 《漫歌》
+- 对象类型：`collection`｜原文名：Canto general｜国家/地区：智利｜语言：es｜时期：1950｜体裁：史诗诗集
+- 一句话简介：史诗诗集（1950）：关于整个南美大陆的美洲史诗。
+- 已准入事实素材（3—7 条）：
+  1. **first_publication_year**：1950（batch_retained_candidate｜SRC-0052｜Persée：1950 年秋墨西哥 Océano 出版）
+  2. **one_sentence_summary**：关于整个南美大陆的美洲史诗，从美洲最早的世界的浑朴宇宙起源开始（CVC/Nobel）（batch_retained_candidate｜SRC-0055｜CVC：la epopeya que comienza con la telúrica cosmogonía）
+  3. **genre_or_form**：史诗诗集（batch_retained_candidate｜SRC-0054｜Nobel：“an epic poem about the whole South American continent”；CVC：“la epopeya”）
+  4. **research_note**：Persée：1950 年 Océano 版由 Diego Rivera 与 David A. Siqueiros 绘制插图（batch_retained_candidate｜SRC-0052）
+  5. **entity_layer**：collection（batch_retained_candidate｜SRC-0052｜诗集）
+- 可靠来源（正式 SRC）：SRC-0052、SRC-0054、SRC-0055、SRC-0059
+- 研究说明 / hold / gap（与事实分栏）：
+  - 政治主题 hold：政治承诺与美洲历史关注（作品级，单来源 SRC-0059，A01-PP-0001）；A02 未顺带取得第二独立来源，维持 hold。
+  - [hold] political_theme_hold：政治承诺与美洲历史关注（作品级，单来源 SRC-0059）（SRC-0059｜A03 维持 hold；A02 未顺带取得第二独立来源）
+"
+V1-CARD-0041,WEB-CE-B01-R1-CARD-01,V1-ENT-0145,author,卡洛斯·富恩特斯,卡洛斯·富恩特斯,Carlos Fuentes,墨西哥,es,1928-2012,—,WEB-CE-B01-R1,meets,NONE,### 卡洛斯·富恩特斯\n\n墨西哥小说家、短篇小说家、散文家与剧作家，是拉丁美洲文学爆炸的重要作者。生于 1928 年 11 月 11 日，卒于 2012 年 5 月 15 日。\n\n本卡仅使用独立审核通过的人物事实；不生成出生地或文学运动关系。
+V1-CARD-0042,WEB-CE-B01-R1-CARD-02,V1-ENT-0146,work,《最明净的地区》,卡洛斯·富恩特斯,La región más transparente,墨西哥,es,1958,长篇小说,WEB-CE-B01-R1,meets,NONE,### 《最明净的地区》\n\n1958 年首版的长篇小说。作品以多重人物声音与社会群像构成一幅不断移动的墨西哥城图景，在城市日常中追问革命后的社会与身份。\n\n中文书目：徐少军、王小芳译，云南人民出版社，1993.3，ISBN 7-222-01047-5（吉林省图书馆 MARC 核验）。
+V1-CARD-0043,WEB-CE-B01-R1-CARD-03,V1-ENT-0147,work,《阿尔特米奥·克罗斯之死》,卡洛斯·富恩特斯,La muerte de Artemio Cruz,墨西哥,es,1962,长篇小说,WEB-CE-B01-R1,meets,TRANSLATION-YEAR-HOLD,### 《阿尔特米奥·克罗斯之死》\n\n1962 年首版的长篇小说。权势人物阿尔特米奥·克罗斯临终回望自己从革命参与者走向财富与腐败的一生；叙事交替使用三种人称，并在过去、现在与未来之间切换。\n\n中文书目：亦潜译，人民文学出版社，ISBN 9787020150168。采购目录未直接显示出版年份，该字段保持 HOLD。
+V1-CARD-0044,,V1-ENT-0148,author,加夫列拉·米斯特拉尔,,Gabriela Mistral,智利,,1889–1957,,WEB-CE-B01,meets,NONE,"### 加夫列拉·米斯特拉尔
+- 对象类型：`author`｜原文名：Gabriela Mistral｜国家/地区：—｜语言：—｜时期：—｜体裁：—
+- 已准入事实素材：
+1. **birth_year**：1889（batch_retained_candidate｜SRC-0126）
+2. **death_year**：1957（batch_retained_candidate｜SRC-0126）
+3. **country_or_region**：智利（batch_retained_candidate｜SRC-0126）
+4. **language**：es（batch_retained_candidate｜SRC-0126）
+5. **original_name**：Lucila Godoy Alcayaga（batch_retained_candidate｜SRC-0126）
+6. **personal_note**：本名 Lucila Godoy Alcayaga；笔名 Gabriela Mistral 取自她喜爱的两位诗人 Gabriele D'Annunzio 与 Frédéric Mistral（batch_retained_candidate｜SRC-0126）
+7. **one_sentence_summary**：智利诗人，1945 年诺贝尔文学奖得主，南美洲（拉丁美洲）首位诺贝尔文学奖得主；出身教师，曾任智利驻多国领事（batch_retained_candidate｜SRC-0126）
+8. **career_note**：15 岁起在故乡任教；后在拉丁美洲多国教育系统任职、参与多个委员会，并担任智利驻多个国家的领事（batch_retained_candidate｜SRC-0126）
+9. **award**：诺贝尔文学奖（1945）（batch_retained_candidate｜SRC-0126）
+10. **research_note**：获奖理由：因其抒情诗以强烈情感为灵感，使她的名字成为整个拉丁美洲世界理想主义渴望的象征（batch_retained_candidate｜SRC-0096）
+11. **entity_layer**：author（batch_retained_candidate｜SRC-0126）
+12. **birth_place**：比库尼亚（Vicuña）（candidate_for_staging_review｜SRC-0126）
+- 可靠来源（正式 SRC）：SRC-0126;SRC-0096
+- 研究说明 / hold / gap：见 WEB-CE-B01 变更集 ISSUES 与 REVIEW 记录"
+V1-CARD-0045,,V1-ENT-0149,collection,《绝望集》,加夫列拉·米斯特拉尔,Desolación,,,1922,诗集（poesía）,WEB-CE-B01,meets,NONE,"### 《绝望集》
+- 对象类型：`collection`｜原文名：Desolación｜国家/地区：—｜语言：—｜时期：1922｜体裁：诗集（poesía）
+- 已准入事实素材：
+1. **first_publication_year**：1922（batch_retained_candidate｜SRC-0127）
+2. **genre_or_form**：诗集（poesía）（batch_retained_candidate｜SRC-0127）
+3. **bibliographic_note**：首版：New York : Instituto de las Españas, 1922（诺贝尔官网书目）；中文合集/诗选收录范围待核验（batch_retained_candidate｜SRC-0127）
+- 可靠来源（正式 SRC）：SRC-0127
+- 研究说明 / hold / gap：见 WEB-CE-B01 变更集 ISSUES 与 REVIEW 记录"
+V1-CARD-0046,,V1-ENT-0150,collection,《柔情集》,加夫列拉·米斯特拉尔,Ternura,,,1924,诗集（儿童摇篮曲与歌谣）,WEB-CE-B01,meets,NONE,"### 《柔情集》
+- 对象类型：`collection`｜原文名：Ternura｜国家/地区：—｜语言：—｜时期：1924｜体裁：诗集（儿童摇篮曲与歌谣）
+- 已准入事实素材：
+1. **first_publication_year**：1924（batch_retained_candidate｜SRC-0127）
+2. **genre_or_form**：诗集（儿童摇篮曲与歌谣）（batch_retained_candidate｜SRC-0126）
+3. **bibliographic_note**：首版：Madrid : Saturnino Calleja, 1924（Ternura: canciones de niños）；中文《柔情》/诗选收录范围待核验（batch_retained_candidate｜SRC-0127）
+4. **one_sentence_summary**：以摇篮曲和儿童歌谣为主体的诗集（Nobel Facts 页：""contains lullabies and rhymes for children""）（batch_retained_candidate｜SRC-0126）
+- 可靠来源（正式 SRC）：SRC-0126;SRC-0127
+- 研究说明 / hold / gap：见 WEB-CE-B01 变更集 ISSUES 与 REVIEW 记录"
+V1-CARD-0047,,V1-ENT-0151,collection,《塔拉集》,加夫列拉·米斯特拉尔,Tala,,,1938,诗集（poesía）,WEB-CE-B01,meets,NONE,"### 《塔拉集》
+- 对象类型：`collection`｜原文名：Tala｜国家/地区：—｜语言：—｜时期：1938｜体裁：诗集（poesía）
+- 已准入事实素材：
+1. **first_publication_year**：1938（batch_retained_candidate｜SRC-0127）
+2. **genre_or_form**：诗集（poesía）（batch_retained_candidate｜SRC-0127）
+3. **bibliographic_note**：首版：Buenos Aires : Sur, 1938（诺贝尔官网书目）；中文收录待核验（batch_retained_candidate｜SRC-0127）
+4. **one_sentence_summary**：采用不寻常意象与自由诗的诗集（Nobel Facts 页：""employs unusual imagery and free verse""）（batch_retained_candidate｜SRC-0126）
+- 可靠来源（正式 SRC）：SRC-0126;SRC-0127
+- 研究说明 / hold / gap：见 WEB-CE-B01 变更集 ISSUES 与 REVIEW 记录"
+V1-CARD-0048,,V1-ENT-0059,author,奥克塔维奥·帕斯,,Octavio Paz,墨西哥,,1914–1998,,WEB-CE-B01,meets,NONE,"### 奥克塔维奥·帕斯
+- 对象类型：`author`｜原文名：Octavio Paz｜国家/地区：—｜语言：—｜时期：—｜体裁：—
+- 已准入事实素材：
+1. **birth_year**：1914（candidate_for_staging_review｜SRC-0128）
+2. **death_year**：1998（candidate_for_staging_review｜SRC-0128）
+3. **country_or_region**：墨西哥（candidate_for_staging_review｜SRC-0128）
+4. **language**：es（candidate_for_staging_review｜SRC-0128）
+5. **birth_place**：墨西哥城（Ciudad de México）（candidate_for_staging_review｜SRC-0128）
+6. **award**：诺贝尔文学奖（1990）（candidate_for_staging_review｜SRC-0128）
+7. **one_sentence_summary**：墨西哥诗人、散文家与外交官，1990 年诺贝尔文学奖得主，生于墨西哥城，以《孤独的迷宫》等分析墨西哥历史与文化的随笔闻名（candidate_for_staging_review｜SRC-0128）
+8. **career_note**：诗人、散文家、记者与翻译；1946 年起任外交官约 20 年，1962 年任墨西哥驻印度大使，1968 年为抗议墨西哥城政府镇压学生示威而辞职；创办《El hijo pródigo》《Vuelta》等文学杂志；受马克思主义、超现实主义、存在主义、佛教与印度教思想影响（candidate_for_staging_review｜SRC-0128）
+- 可靠来源（正式 SRC）：SRC-0128
+- 研究说明 / hold / gap：见 WEB-CE-B01 变更集 ISSUES 与 REVIEW 记录"
+V1-CARD-0049,,V1-ENT-0154,work,《孤独的迷宫》,奥克塔维奥·帕斯,El laberinto de la soledad,,,1950,散文/随笔集（essays）,WEB-CE-B01,meets,NONE,"### 《孤独的迷宫》
+- 对象类型：`work`｜原文名：El laberinto de la soledad｜国家/地区：—｜语言：—｜时期：1950｜体裁：散文/随笔集（essays）
+- 已准入事实素材：
+1. **entity_layer**：work（candidate_for_staging_review｜SRC-0128）
+2. **first_publication_year**：1950（candidate_for_staging_review｜SRC-0128）
+3. **genre_or_form**：散文/随笔集（essays）（candidate_for_staging_review｜SRC-0128）
+4. **one_sentence_summary**：帕斯分析墨西哥历史与文化的随笔集（据 Nobel Facts 与 poets.org 释义）（candidate_for_staging_review｜SRC-0128）
+5. **bibliographic_note**：诺贝尔书目页未列西语原版；英译 The Labyrinth of Solitude（tr. Lysander Kemp）Penguin 1985；poets.org 标初版 FCE 1950（candidate_for_staging_review｜SRC-0128）
+- 可靠来源（正式 SRC）：SRC-0128;SRC-0128
+- 研究说明 / hold / gap：见 WEB-CE-B01 变更集 ISSUES 与 REVIEW 记录"
+V1-CARD-0050,,V1-ENT-0155,work,《弓与琴》,奥克塔维奥·帕斯,El arco y la lira,,,1956,诗论/散文集（essays）,WEB-CE-B01,meets,NONE,"### 《弓与琴》
+- 对象类型：`work`｜原文名：El arco y la lira｜国家/地区：—｜语言：—｜时期：1956｜体裁：诗论/散文集（essays）
+- 已准入事实素材：
+1. **entity_layer**：work（candidate_for_staging_review｜SRC-0129）
+2. **first_publication_year**：1956（candidate_for_staging_review｜SRC-0129）
+3. **genre_or_form**：诗论/散文集（essays）（candidate_for_staging_review｜SRC-0129）
+4. **one_sentence_summary**：帕斯诗论代表作，论诗、诗性启示与诗和历史（据诺贝尔书目页英译本副题 ""the Poem, the Poetic Revelation, Poetry and History"" 释义）（candidate_for_staging_review｜SRC-0128）
+5. **bibliographic_note**：英译本 The Bow and the Lyre（tr. Ruth L.C. Simms）Univ. of Texas Press 1973（诺贝尔书目页）（candidate_for_staging_review｜SRC-0128）
+- 可靠来源（正式 SRC）：SRC-0128;SRC-0129
+- 研究说明 / hold / gap：见 WEB-CE-B01 变更集 ISSUES 与 REVIEW 记录"
+V1-CARD-0051,,V1-ENT-0156,work,《太阳石》,奥克塔维奥·帕斯,Piedra de sol,,,1957,长诗（long poem）,WEB-CE-B01,meets,NONE,"### 《太阳石》
+- 对象类型：`work`｜原文名：Piedra de sol｜国家/地区：—｜语言：—｜时期：1957｜体裁：长诗（long poem）
+- 已准入事实素材：
+1. **entity_layer**：work（candidate_for_staging_review｜SRC-0128）
+2. **first_publication_year**：1957（candidate_for_staging_review｜SRC-0128）
+3. **genre_or_form**：长诗（long poem）（candidate_for_staging_review｜SRC-0129）
+4. **one_sentence_summary**：帕斯 1957 年长诗，结构借自阿兹特克历法（据 poets.org 释义）（candidate_for_staging_review｜SRC-0129）
+5. **bibliographic_note**：初版墨西哥 Tezontle 1957；后收入 La estación violenta（FCE 1958）；英译见 The Collected Poems 1957-1987（1987）（candidate_for_staging_review｜SRC-0128）
+- 可靠来源（正式 SRC）：SRC-0128;SRC-0129
+- 研究说明 / hold / gap：见 WEB-CE-B01 变更集 ISSUES 与 REVIEW 记录"
+V1-CARD-0052,,V1-ENT-0158,work,《霍乱时期的爱情》,加西亚·马尔克斯,El amor en los tiempos del cólera,,,1985,长篇小说,WEB-CE-B01,meets,NONE,"### 《霍乱时期的爱情》
+- 对象类型：`work`｜原文名：El amor en los tiempos del cólera｜国家/地区：—｜语言：—｜时期：1985｜体裁：长篇小说
+- 已准入事实素材：
+1. **first_publication_year**：1985（candidate_for_staging_review｜SRC-0129）
+2. **genre_or_form**：长篇小说（candidate_for_staging_review｜SRC-0129）
+3. **bibliographic_note**：BnF 目录收录 El Amor en los tiempos del cólera 1985 年西语版（ark:/12148/cb34923644w，ISBN 8402106408），作者归名 García Márquez, Gabriel (1927-2014)（candidate_for_staging_review｜SRC-0129）
+- 可靠来源（正式 SRC）：SRC-0129
+- 研究说明 / hold / gap：见 WEB-CE-B01 变更集 ISSUES 与 REVIEW 记录"
+V1-CARD-0053,,V1-ENT-0159,work,《族长的秋天》,加西亚·马尔克斯,El otoño del patriarca,,,1975,长篇小说,WEB-CE-B01,meets,NONE,"### 《族长的秋天》
+- 对象类型：`work`｜原文名：El otoño del patriarca｜国家/地区：—｜语言：—｜时期：1975｜体裁：长篇小说
+- 已准入事实素材：
+1. **first_publication_year**：1975（candidate_for_staging_review｜SRC-0126）
+2. **genre_or_form**：长篇小说（candidate_for_staging_review｜SRC-0126）
+3. **bibliographic_note**：BnF 目录收录 El Otoño del patriarca 1975 年西语版（ark:/12148/cb352227127，ISBN 8401301556），作者归名 García Márquez, Gabriel (1927-2014)（candidate_for_staging_review｜SRC-0126）
+- 可靠来源（正式 SRC）：SRC-0126
+- 研究说明 / hold / gap：见 WEB-CE-B01 变更集 ISSUES 与 REVIEW 记录"
+V1-CARD-0054,,V1-ENT-0160,work,《绿房子》,马里奥·巴尔加斯·略萨,La casa verde,,,,,WEB-CE-B01,meets,NONE,"### 《绿房子》
+- 对象类型：`work`｜原文名：La casa verde｜国家/地区：—｜语言：—｜时期：—｜体裁：—
+- 已准入事实素材：
+1. **bibliographic_note**：BnF 目录收录 La casa verde 西语多版（4e éd.1967 / 6a ed.1968 / 15a ed.1976 / 2023；ISBN 8432218728），作者归名 Vargas Llosa, Mario（candidate_for_staging_review｜SRC-0128）
+- 可靠来源（正式 SRC）：SRC-0128
+- 研究说明 / hold / gap：见 WEB-CE-B01 变更集 ISSUES 与 REVIEW 记录"
+V1-CARD-0055,,V1-ENT-0161,work,《潘达雷昂上尉与劳军女郎》,马里奥·巴尔加斯·略萨,Pantaleón y las visitadoras,,,1973,,WEB-CE-B01,meets,NONE,"### 《潘达雷昂上尉与劳军女郎》
+- 对象类型：`work`｜原文名：Pantaleón y las visitadoras｜国家/地区：—｜语言：—｜时期：1973｜体裁：—
+- 已准入事实素材：
+1. **first_publication_year**：1973（candidate_for_staging_review｜SRC-0128）
+2. **bibliographic_note**：BnF 目录记录：Pantaleón y las visitadoras / Mario Vargas Llosa，Barcelona : Seix Barral, 1973，309 p.，Biblioteca breve ; 352，ISBN 84-322-0252-5（ark:/12148/cb35234561k）（candidate_for_staging_review｜SRC-0128）
+- 可靠来源（正式 SRC）：SRC-0128
+- 研究说明 / hold / gap：见 WEB-CE-B01 变更集 ISSUES 与 REVIEW 记录"
+V1-CARD-0056,,V1-ENT-0162,collection,《沙之书》,豪尔赫·路易斯·博尔赫斯,El libro de arena,,,1975,短篇集,WEB-CE-B01,meets,NONE,"### 《沙之书》
+- 对象类型：`collection`｜原文名：El libro de arena｜国家/地区：—｜语言：—｜时期：1975｜体裁：短篇集
+- 已准入事实素材：
+1. **first_publication_year**：1975（candidate_for_staging_review｜SRC-0128）
+2. **genre_or_form**：短篇集（candidate_for_staging_review｜SRC-0128）
+3. **bibliographic_note**：BnF 目录收录 El Libro de arena 1975 年西语版（ark:/12148/cb352339603），作者归名 Borges, Jorge Luis (1899-1986)（candidate_for_staging_review｜SRC-0128）
+- 可靠来源（正式 SRC）：SRC-0128
+- 研究说明 / hold / gap：见 WEB-CE-B01 变更集 ISSUES 与 REVIEW 记录"
+V1-CARD-0057,,V1-ENT-0163,collection,《布罗迪报告》,豪尔赫·路易斯·博尔赫斯,El informe de Brodie,,,,短篇集,WEB-CE-B01,meets,NONE,"### 《布罗迪报告》
+- 对象类型：`collection`｜原文名：El informe de Brodie｜国家/地区：—｜语言：—｜时期：—｜体裁：短篇集
+- 已准入事实素材：
+1. **genre_or_form**：短篇集（candidate_for_staging_review｜SRC-0128）
+2. **bibliographic_note**：BnF 目录收录 El informe de Brodie 相关记录（含西语合订本 Ficciones ; El Aleph ; El informe de Brodie，委内瑞拉 1986，ark:/12148/cb354902694），作者归名 Borges, Jorge Luis (1899-1986)（candidate_for_staging_review｜SRC-0128）
+- 可靠来源（正式 SRC）：SRC-0128
+- 研究说明 / hold / gap：见 WEB-CE-B01 变更集 ISSUES 与 REVIEW 记录"
+V1-CARD-0058,,V1-ENT-0164,collection,《秘密武器》,胡利奥·科塔萨尔,Las armas secretas,,,1959,短篇集,WEB-CE-B01,meets,NONE,"### 《秘密武器》
+- 对象类型：`collection`｜原文名：Las armas secretas｜国家/地区：—｜语言：—｜时期：1959｜体裁：短篇集
+- 已准入事实素材：
+1. **first_publication_year**：1959（candidate_for_staging_review｜SRC-0066）
+2. **genre_or_form**：短篇集（candidate_for_staging_review｜SRC-0127）
+3. **bibliographic_note**：主源复用 SRC-0066（BnF 记录 Relatos : Bestiario, 1951, Las armas secretas, 1959, ...，ark:/12148/cb352151483）；补充：本轮 BnF SRU 快照另见西语版 1970/1978/1988（ISBN 8420421324、8437601193），作者归名 Cortázar, Julio (1914-1984)（candidate_for_staging_review｜SRC-0127）
+- 可靠来源（正式 SRC）：SRC-0066;SRC-0127
+- 研究说明 / hold / gap：见 WEB-CE-B01 变更集 ISSUES 与 REVIEW 记录"
+V1-CARD-0059,,V1-ENT-0165,collection,《一百首爱情十四行诗》,巴勃罗·聂鲁达,Cien sonetos de amor,,,,十四行诗集,WEB-CE-B01,meets,NONE,"### 《一百首爱情十四行诗》
+- 对象类型：`collection`｜原文名：Cien sonetos de amor｜国家/地区：—｜语言：—｜时期：—｜体裁：十四行诗集
+- 已准入事实素材：
+1. **genre_or_form**：十四行诗集（candidate_for_staging_review｜SRC-0129）
+2. **bibliographic_note**：BnF 目录收录 Cien sonetos de amor 多版（含 8a ed. 1992，ISBN 8440047037，ark:/12148/cb37376218c），作者归名 Neruda, Pablo（candidate_for_staging_review｜SRC-0129）
+- 可靠来源（正式 SRC）：SRC-0129
+- 研究说明 / hold / gap：见 WEB-CE-B01 变更集 ISSUES 与 REVIEW 记录"
+V1-CARD-0060,,V1-ENT-0166,collection,《隐秘的幸福》,克拉丽丝·李斯佩克朵,Felicidade clandestina,,,1971,短篇集,WEB-CE-B01,meets,NONE,"### 《隐秘的幸福》
+- 对象类型：`collection`｜原文名：Felicidade clandestina｜国家/地区：—｜语言：—｜时期：1971｜体裁：短篇集
+- 已准入事实素材：
+1. **first_publication_year**：1971（candidate_for_staging_review｜SRC-0126）
+2. **genre_or_form**：短篇集（candidate_for_staging_review｜SRC-0126）
+3. **bibliographic_note**：BnF 目录记录：Felicidade clandestina, contos / Lispector, Clarice (1920-1977)，Rio de Janeiro : Sabiá, 1971（ark:/12148/cb35424958x）（candidate_for_staging_review｜SRC-0126）
+- 可靠来源（正式 SRC）：SRC-0126
+- 研究说明 / hold / gap：见 WEB-CE-B01 变更集 ISSUES 与 REVIEW 记录"
+V1-CARD-0061,,V1-ENT-0167,collection,《时间之战》,阿莱霍·卡彭铁尔,Guerra del tiempo,,,,短篇小说集,WEB-CE-B01,meets,NONE,"### 《时间之战》
+- 对象类型：`collection`｜原文名：Guerra del tiempo｜国家/地区：—｜语言：—｜时期：—｜体裁：短篇小说集
+- 已准入事实素材：
+1. **entity_layer**：collection（candidate_for_staging_review｜SRC-0127）
+2. **bibliographic_note**：BnF 目录收录 Guerra del tiempo y otros relatos（1982 版 ark:/12148/cb347971092、1998 版 ark:/12148/cb37550508c）,作者归名 Carpentier, Alejo (1904-1980)（candidate_for_staging_review｜SRC-0127）
+3. **genre_or_form**：短篇小说集（candidate_for_staging_review｜SRC-0127）
+- 可靠来源（正式 SRC）：SRC-0127
+- 研究说明 / hold / gap：见 WEB-CE-B01 变更集 ISSUES 与 REVIEW 记录"
+V1-CARD-0062,,V1-ENT-0168,work,《追击》,阿莱霍·卡彭铁尔,El acoso,,,1956,,WEB-CE-B01,meets,NONE,"### 《追击》
+- 对象类型：`work`｜原文名：El acoso｜国家/地区：—｜语言：—｜时期：1956｜体裁：—
+- 已准入事实素材：
+1. **entity_layer**：work（candidate_for_staging_review｜SRC-0126）
+2. **first_publication_year**：1956（candidate_for_staging_review｜SRC-0126）
+- 可靠来源（正式 SRC）：SRC-0126
+- 研究说明 / hold / gap：见 WEB-CE-B01 变更集 ISSUES 与 REVIEW 记录"
+V1-CARD-0063,,V1-ENT-0169,work,《奥拉》,卡洛斯·富恩特斯,Aura,,,1962,中篇小说 / novela corta,WEB-CE-B01-HY3,meets,NONE,"### 《奥拉》
+- 对象类型：`work`｜原文名：Aura｜国家/地区：墨西哥｜语言：es｜时期：—｜体裁：novela (novella)
+- 已准入事实素材：
+1. **first_publication_year**：1962（candidate_for_staging_review｜SRC-0128）
+2. **genre_or_form**：novela（novela corta / novella）（candidate_for_staging_review｜SRC-0128）
+3. **bibliographic_note**：首版 México, D.F. : Ediciones Era (colección Alacena), 1962；英语译本 Aura, tr. Lysander Kemp (Farrar, Straus and Giroux)（candidate_for_staging_review｜SRC-0128；SRC-0128）
+4. **one_sentence_summary**：青年历史学家费利佩·莫内罗受雇为寡居的将军遗孀孔苏埃洛整理回忆录，住进其终年昏暗的宅邸，邂逅酷似年轻孔苏埃洛的少女奥拉（candidate_for_staging_review｜SRC-0129）
+5. **setting_place**：墨西哥城（Ciudad de México）（candidate_for_staging_review｜SRC-0129）
+6. **narrative_feature**：全书以第二人称单数（tú）叙述，叙述者直接对费利佩说话（candidate_for_staging_review｜SRC-0129）
+7. **key_character**：费利佩·莫内罗（Felipe Montero）：受雇的青年历史学家，故事主人公（candidate_for_staging_review｜SRC-0129）
+8. **entity_layer**：work（candidate_for_staging_review｜SRC-0128）
+- 可靠来源（正式 SRC）：SRC-0128；SRC-0128；SRC-0129
+- 研究说明 / hold / gap：见 WEB-CE-B01-HY3 变更集与 REVIEW 记录"
+V1-CARD-0064,,V1-ENT-0170,author,米格尔·安赫尔·阿斯图里亚斯,米格尔·安赫尔·阿斯图里亚斯,Miguel Ángel Asturias,危地马拉,es,1899–1974,,WEB-CE-B02,meets,NONE,"### 米格尔·安赫尔·阿斯图里亚斯
+
+- 对象类型：`author`｜原文名：Miguel Ángel Asturias｜国家/地区：危地马拉｜来源批次：WEB-CE-B02
+- 本批只公开来源支持的基础生平和作品书目；文学运动、影响与强主题判断留作后续审计。"
+V1-CARD-0065,,V1-ENT-0173,work,《总统先生》,米格尔·安赫尔·阿斯图里亚斯,El Señor Presidente,危地马拉,es,1946,,WEB-CE-B02,meets,NONE,"### 《总统先生》
+
+- 对象类型：`work`｜作者：米格尔·安赫尔·阿斯图里亚斯｜原文题名：El Señor Presidente｜国家/地区：危地马拉
+- 本批记录首版年份、实体层和可回溯书目说明；中文译本版本学字段不作为本批门槛。"
+V1-CARD-0066,,V1-ENT-0174,work,《玉米人》,米格尔·安赫尔·阿斯图里亚斯,Hombres de maíz,危地马拉,es,1949,,WEB-CE-B02,meets,NONE,"### 《玉米人》
+
+- 对象类型：`work`｜作者：米格尔·安赫尔·阿斯图里亚斯｜原文题名：Hombres de maíz｜国家/地区：危地马拉
+- 本批记录首版年份、实体层和可回溯书目说明；中文译本版本学字段不作为本批门槛。"
+V1-CARD-0067,,V1-ENT-0175,collection,《危地马拉传说》,米格尔·安赫尔·阿斯图里亚斯,Leyendas de Guatemala,危地马拉,es,1930,短篇/传说汇编,WEB-CE-B02,meets,NONE,"### 《危地马拉传说》
+
+- 对象类型：`collection`｜作者：米格尔·安赫尔·阿斯图里亚斯｜原文题名：Leyendas de Guatemala｜国家/地区：危地马拉
+- 本批记录首版年份、实体层和可回溯书目说明；中文译本版本学字段不作为本批门槛。"
+V1-CARD-0068,,V1-ENT-0171,author,伊莎贝尔·阿连德,伊莎贝尔·阿连德,Isabel Allende,智利,es,1942,,WEB-CE-B02,meets,NONE,"### 伊莎贝尔·阿连德
+
+- 对象类型：`author`｜原文名：Isabel Allende｜国家/地区：智利｜来源批次：WEB-CE-B02
+- 本批只公开来源支持的基础生平和作品书目；文学运动、影响与强主题判断留作后续审计。"
+V1-CARD-0069,,V1-ENT-0176,work,《幽灵之家》,伊莎贝尔·阿连德,La casa de los espíritus,智利,es,1982,,WEB-CE-B02,meets,NONE,"### 《幽灵之家》
+
+- 对象类型：`work`｜作者：伊莎贝尔·阿连德｜原文题名：La casa de los espíritus｜国家/地区：智利
+- 本批记录首版年份、实体层和可回溯书目说明；中文译本版本学字段不作为本批门槛。"
+V1-CARD-0070,,V1-ENT-0177,work,《爱情与阴影》,伊莎贝尔·阿连德,De amor y de sombras,智利,es,1984,,WEB-CE-B02,meets,NONE,"### 《爱情与阴影》
+
+- 对象类型：`work`｜作者：伊莎贝尔·阿连德｜原文题名：De amor y de sombras｜国家/地区：智利
+- 本批记录首版年份、实体层和可回溯书目说明；中文译本版本学字段不作为本批门槛。"
+V1-CARD-0071,,V1-ENT-0178,work,《伊娃·露娜》,伊莎贝尔·阿连德,Eva Luna,智利,es,1987,,WEB-CE-B02,meets,NONE,"### 《伊娃·露娜》
+
+- 对象类型：`work`｜作者：伊莎贝尔·阿连德｜原文题名：Eva Luna｜国家/地区：智利
+- 本批记录首版年份、实体层和可回溯书目说明；中文译本版本学字段不作为本批门槛。"
+V1-CARD-0072,,V1-ENT-0172,author,若热·亚马多,若热·亚马多,Jorge Amado,巴西,pt,1912–2001,,WEB-CE-B02,meets,NONE,"### 若热·亚马多
+
+- 对象类型：`author`｜原文名：Jorge Amado｜国家/地区：巴西｜来源批次：WEB-CE-B02
+- 本批只公开来源支持的基础生平和作品书目；文学运动、影响与强主题判断留作后续审计。"
+V1-CARD-0073,,V1-ENT-0179,work,《弗洛尔和她的两个丈夫》,若热·亚马多,Dona Flor e seus dois maridos,巴西,pt,1966,,WEB-CE-B02,meets,NONE,"### 《弗洛尔和她的两个丈夫》
+
+- 对象类型：`work`｜作者：若热·亚马多｜原文题名：Dona Flor e seus dois maridos｜国家/地区：巴西
+- 本批记录首版年份、实体层和可回溯书目说明；中文译本版本学字段不作为本批门槛。"
+V1-CARD-0074,,V1-ENT-0180,work,《加布里埃拉》,若热·亚马多,"Gabriela, cravo e canela",巴西,pt,1958,,WEB-CE-B02,meets,NONE,"### 《加布里埃拉》
+
+- 对象类型：`work`｜作者：若热·亚马多｜原文题名：Gabriela, cravo e canela｜国家/地区：巴西
+- 本批记录首版年份、实体层和可回溯书目说明；中文译本版本学字段不作为本批门槛。"
+V1-CARD-0075,,V1-ENT-0181,work,《沙滩船长》,若热·亚马多,Capitães da Areia,巴西,pt,1937,,WEB-CE-B02,meets,NONE,"### 《沙滩船长》
+
+- 对象类型：`work`｜作者：若热·亚马多｜原文题名：Capitães da Areia｜国家/地区：巴西
+- 本批记录首版年份、实体层和可回溯书目说明；中文译本版本学字段不作为本批门槛。"
+V1-CARD-0076,,V1-ENT-0184,author,胡安·卡洛斯·奥内蒂,胡安·卡洛斯·奥内蒂,Juan Carlos Onetti,乌拉圭,es,1909–1994,,WEB-CE-B03,meets,NONE,### 胡安·卡洛斯·奥内蒂｜Juan Carlos Onetti — 本批只公开来源支持的基础生平、作品书目与 Santa María 文学空间线索；强文学史判断留待后续审计。
+V1-CARD-0077,,V1-ENT-0187,work,《短暂的生命》,胡安·卡洛斯·奥内蒂,La vida breve,乌拉圭,es,1950,小说,WEB-CE-B03,meets,NONE,### 《短暂的生命》｜La vida breve — 本批记录首版年份与 CVC 时间线中的 Santa María 线索；中文译本版本学字段不作为门槛。
+V1-CARD-0078,,V1-ENT-0188,work,《造船厂》,胡安·卡洛斯·奥内蒂,El astillero,乌拉圭,es,1961,小说,WEB-CE-B03,meets,NONE,### 《造船厂》｜El astillero — 本批记录首版年份与可回溯书目说明，不扩写未被来源直接支持的情节或文学地位。
+V1-CARD-0079,,V1-ENT-0189,work,《告别》,胡安·卡洛斯·奥内蒂,Los adioses,乌拉圭,es,1954,中篇小说 / novela corta,WEB-CE-B03,meets,NONE,### 《告别》｜Los adioses — 本批记录首版年份与可回溯书目说明，不扩写未被来源直接支持的情节或文学地位。
+V1-CARD-0080,,V1-ENT-0185,author,何塞·多诺索,何塞·多诺索,José Donoso,智利,es,1924–1996,,WEB-CE-B03,meets,NONE,### 何塞·多诺索｜José Donoso — 本批只公开来源支持的基础生平与三部作品书目；主题、影响与文学地位判断留待后续审计。
+V1-CARD-0081,,V1-ENT-0190,work,《污秽的夜鸟》,何塞·多诺索,El obsceno pájaro de la noche,智利,es,1970,小说,WEB-CE-B03,meets,NONE,### 《污秽的夜鸟》｜El obsceno pájaro de la noche — 本批记录出版年份、原文题名与来源入口，不扩写未被来源直接支持的情节或文学地位。
+V1-CARD-0082,,V1-ENT-0191,work,《无尽的地方》,何塞·多诺索,El lugar sin límites,智利,es,1966,小说,WEB-CE-B03,meets,NONE,### 《无尽的地方》｜El lugar sin límites — 本批记录出版年份、原文题名与来源入口，不扩写未被来源直接支持的情节或文学地位。
+V1-CARD-0083,,V1-ENT-0192,work,《加冕》,何塞·多诺索,Coronación,智利,es,1957,小说,WEB-CE-B03,meets,NONE,### 《加冕》｜Coronación — 本批记录出版年份、原文题名与来源入口，不扩写未被来源直接支持的情节或文学地位。
+V1-CARD-0084,,V1-ENT-0186,author,埃内斯托·萨瓦托,埃内斯托·萨瓦托,Ernesto Sábato,阿根廷,es,1911–2011,,WEB-CE-B03,meets,NONE,### 埃内斯托·萨瓦托｜Ernesto Sabato — 本批只公开来源支持的基础生平、职业与三部小说书目；文学史判断留待后续审计。
+V1-CARD-0085,,V1-ENT-0193,work,《隧道》,埃内斯托·萨瓦托,El túnel,阿根廷,es,1948,小说,WEB-CE-B03,meets,NONE,### 《隧道》｜El túnel — 本批记录首版年份与可回溯书目说明，不扩写未被来源直接支持的情节或文学地位。
+V1-CARD-0086,,V1-ENT-0194,work,《英雄与坟墓》,埃内斯托·萨瓦托,Sobre héroes y tumbas,阿根廷,es,1961,小说,WEB-CE-B03,meets,NONE,### 《英雄与坟墓》｜Sobre héroes y tumbas — 本批记录首版年份与可回溯书目说明，不扩写未被来源直接支持的情节或文学地位。
+V1-CARD-0087,,V1-ENT-0195,work,《毁灭者亚巴顿》,埃内斯托·萨瓦托,Abaddón el exterminador,阿根廷,es,1974,小说,WEB-CE-B03,meets,NONE,### 《毁灭者亚巴顿》｜Abaddón el exterminador — 本批记录首版年份与可回溯书目说明，不扩写未被来源直接支持的情节或文学地位。
+V1-CARD-0088,,V1-ENT-0198,author,阿道夫·比奥伊·卡萨雷斯,阿道夫·比奥伊·卡萨雷斯,Adolfo Bioy Casares,阿根廷,es,1914–1999,,WEB-CE-B04,meets,NONE,### 阿道夫·比奥伊·卡萨雷斯｜Adolfo Bioy Casares — 本批只公开来源支持的生平、作品书目与幻想叙事线索；强文学史判断留待审计。
+V1-CARD-0089,,V1-ENT-0201,work,《莫雷尔的发明》,阿道夫·比奥伊·卡萨雷斯,La invención de Morel,阿根廷,es,1940,小说,WEB-CE-B04,meets,NONE,### 《莫雷尔的发明》｜La invención de Morel — 本批记录首版年份与作品书目；中文译本版本学字段不作为门槛。
+V1-CARD-0090,,V1-ENT-0202,work,《逃亡计划》,阿道夫·比奥伊·卡萨雷斯,Plan de evasión,阿根廷,es,1945,小说,WEB-CE-B04,meets,NONE,### 《逃亡计划》｜Plan de evasión — 本批记录首版年份与机构来源的书目说明；不扩写未直接支持的主题。
+V1-CARD-0091,,V1-ENT-0203,work,《英雄的梦》,阿道夫·比奥伊·卡萨雷斯,El sueño de los héroes,阿根廷,es,1954,小说,WEB-CE-B04,meets,NONE,### 《英雄的梦》｜El sueño de los héroes — 本批记录首版年份与作品书目；文学地位判断留待策展审计。
+V1-CARD-0092,,V1-ENT-0199,author,奥古斯托·罗亚·巴斯托斯,奥古斯托·罗亚·巴斯托斯,Augusto Roa Bastos,巴拉圭,es,1917–2005,,WEB-CE-B04,meets,NONE,### 奥古斯托·罗亚·巴斯托斯｜Augusto Roa Bastos — 本批只公开来源支持的生平、巴拉圭身份与作品书目；解释性关系留待审计。
+V1-CARD-0093,,V1-ENT-0204,work,《人子》,奥古斯托·罗亚·巴斯托斯,Hijo de hombre,巴拉圭,es,1960,小说,WEB-CE-B04,meets,NONE,### 《人子》｜Hijo de hombre — 本批记录首版年份与书目事实；不把评论性三部曲概括写成正式关系。
+V1-CARD-0094,,V1-ENT-0205,work,《我，最高统帅》,奥古斯托·罗亚·巴斯托斯,Yo el Supremo,巴拉圭,es,1974,小说,WEB-CE-B04,meets,NONE,### 《我，最高统帅》｜Yo el Supremo — 本批记录首版年份与作品书目；不扩写强文学史判断。
+V1-CARD-0095,,V1-ENT-0206,work,《检察官》,奥古斯托·罗亚·巴斯托斯,El fiscal,巴拉圭,es,1993,小说,WEB-CE-B04,meets,NONE,### 《检察官》｜El fiscal — 本批记录首版年份与作品书目；三部作品的解释性关联留作 HOLD/策展线索。
+V1-CARD-0096,,V1-ENT-0200,author,奥拉西奥·基罗加,奥拉西奥·基罗加,Horacio Quiroga,乌拉圭,es,1878–1937,,WEB-CE-B04,meets,NONE,### 奥拉西奥·基罗加｜Horacio Quiroga — 本批只公开来源支持的生平、乌拉圭身份与作品书目；不推导影响关系。
+V1-CARD-0097,,V1-ENT-0207,collection,《爱情、疯狂和死亡的故事》,奥拉西奥·基罗加,Cuentos de amor de locura y de muerte,乌拉圭,es,1917,短篇小说集 / collection,WEB-CE-B04,meets,NONE,### 《爱情、疯狂和死亡的故事》｜Cuentos de amor de locura y de muerte — 本批记录短篇集题名与首版年份；不扩写高强度主题。
+V1-CARD-0098,,V1-ENT-0208,collection,《丛林故事》,奥拉西奥·基罗加,Cuentos de la selva,乌拉圭,es,1918,短篇小说集 / collection,WEB-CE-B04,meets,NONE,### 《丛林故事》｜Cuentos de la selva — 本批记录作品书目与首版年份；文学地位判断留待策展审计。
+V1-CARD-0099,,V1-ENT-0209,collection,《流放者》,奥拉西奥·基罗加,Los desterrados,乌拉圭,es,1926,短篇小说集 / collection,WEB-CE-B04,meets,NONE,### 《流放者》｜Los desterrados — 本批记录短篇集题名与首版年份；不把评价性表述写成 Research fact。
+V1-CARD-0100,,V1-ENT-0211,author,马查多·德·阿西斯,马查多·德·阿西斯,Machado de Assis,巴西,pt,1839–1908,,WEB-CE-B05,meets,NONE,### 马查多·德·阿西斯｜Machado de Assis — 本批只公开来源支持的生平与三部作品书目；文学史评价留待后续审计。
+V1-CARD-0101,,V1-ENT-0214,work,《布拉斯·库巴斯死后的回忆》,马查多·德·阿西斯,Memórias Póstumas de Brás Cubas,巴西,pt,1881,小说,WEB-CE-B05,meets,NONE,### 《布拉斯·库巴斯死后的回忆》｜Memórias Póstumas de Brás Cubas — 本批记录原文题名、小说形态与 1881 书目年份；中文译本版本学字段不作为门槛。
+V1-CARD-0102,,V1-ENT-0215,work,《金卡斯·博尔巴》,马查多·德·阿西斯,Quincas Borba,巴西,pt,1891,小说,WEB-CE-B05,meets,NONE,### 《金卡斯·博尔巴》｜Quincas Borba — 本批记录原文题名、小说形态与 1891 书目年份；不扩写未被来源直接支持的主题。
+V1-CARD-0103,,V1-ENT-0216,work,《堂卡斯穆罗》,马查多·德·阿西斯,Dom Casmurro,巴西,pt,1899,小说,WEB-CE-B05,meets,NONE,### 《堂卡斯穆罗》｜Dom Casmurro — 本批记录原文题名、小说形态与 1899 书目年份；文学地位判断留待后续策展审计。
+V1-CARD-0104,,V1-ENT-0212,author,若昂·吉马朗埃斯·罗萨,若昂·吉马朗埃斯·罗萨,João Guimarães Rosa,巴西,pt,1908–1967,,WEB-CE-B05,meets,NONE,### 若昂·吉马朗埃斯·罗萨｜João Guimarães Rosa — 本批只公开来源支持的生平与三部作品书目；不把评价性语言写入 Research fact。
+V1-CARD-0105,,V1-ENT-0217,work,《广阔腹地：条条小径》,若昂·吉马朗埃斯·罗萨,Grande Sertão: Veredas,巴西,pt,1956,长篇小说,WEB-CE-B05,meets,NONE,### 《广阔腹地：条条小径》｜Grande Sertão: Veredas — 本批记录长篇小说形态与 1956 书目年份；不把评论性评价升级为正式事实。
+V1-CARD-0106,,V1-ENT-0218,collection,《萨加拉纳》,若昂·吉马朗埃斯·罗萨,Sagarana,巴西,pt,1946,短篇小说集,WEB-CE-B05,meets,NONE,### 《萨加拉纳》｜Sagarana — 本批记录短篇小说集形态与 1946 书目年份；中文展示名保留为读者入口。
+V1-CARD-0107,,V1-ENT-0219,collection,《第一故事》,若昂·吉马朗埃斯·罗萨,Primeiras Estórias,巴西,pt,1962,短篇小说集,WEB-CE-B05,meets,NONE,### 《第一故事》｜Primeiras Estórias — 本批记录短篇小说集形态与 1962 书目年份；不扩写主题或影响关系。
+V1-CARD-0108,,V1-ENT-0213,author,格拉西利亚诺·拉莫斯,格拉西利亚诺·拉莫斯,Graciliano Ramos,巴西,pt,1892–1953,,WEB-CE-B05,meets,NONE,### 格拉西利亚诺·拉莫斯｜Graciliano Ramos — 本批只公开来源支持的生平与三部作品书目；不同页面的评价性语言不进入 Research fact。
+V1-CARD-0109,,V1-ENT-0220,work,《枯竭的生命》,格拉西利亚诺·拉莫斯,Vidas Secas,巴西,pt,1938,长篇小说,WEB-CE-B05,meets,NONE,### 《枯竭的生命》｜Vidas Secas — 本批记录长篇小说形态、1938 书目年份与公共文化页面入口；不把概括性评价写成事实。
+V1-CARD-0110,,V1-ENT-0221,work,《圣贝尔纳多》,格拉西利亚诺·拉莫斯,São Bernardo,巴西,pt,1934,长篇小说,WEB-CE-B05,meets,NONE,### 《圣贝尔纳多》｜São Bernardo — 本批记录长篇小说形态与 1934 书目年份；情节和文学地位留待后续来源审阅。
+V1-CARD-0111,,V1-ENT-0222,work,《苦闷》,格拉西利亚诺·拉莫斯,Angústia,巴西,pt,1936,长篇小说,WEB-CE-B05,meets,NONE,### 《苦闷》｜Angústia — 本批记录长篇小说形态与 1936 书目年份；不把评论性心理分析写入 Research fact.
+V1-CARD-0112,,V1-ENT-0223,author,塞萨尔·巴列霍,塞萨尔·巴列霍,César Vallejo,秘鲁,es,1892–1938,诗歌,WEB-CE-B06,meets,NONE,### 塞萨尔·巴列霍｜César Vallejo — 本批只公开来源支持的生平与三部诗歌书目；年份冲突保留在研究层。
+V1-CARD-0113,,V1-ENT-0224,author,鲁文·达里奥,鲁文·达里奥,Rubén Darío,尼加拉瓜,es,1867–1916,诗歌与散文,WEB-CE-B06,meets,NONE,### 鲁文·达里奥｜Rubén Darío — 本批以尼加拉瓜作者身份和三部原文诗歌书目建立入口；现代主义定位不扩写为关系。
+V1-CARD-0114,,V1-ENT-0225,author,何塞·马蒂,何塞·马蒂,José Martí,古巴,es,1853–1895,诗歌与散文,WEB-CE-B06,meets,NONE,### 何塞·马蒂｜José Martí — 本批以古巴作者身份、诗集与《我们的美洲》书目建立入口；政治思想解释留待后续审计。
+V1-CARD-0115,,V1-ENT-0226,collection,《黑色使者》,塞萨尔·巴列霍,Los heraldos negros,秘鲁,es,1918/1919,诗集,WEB-CE-B06,meets,DISPUTED-YEAR,### 《黑色使者》｜Los heraldos negros — 机构页面列作 1918 首版，同时说明实际印行时间存在 1919 记载；本批保留争议。
+V1-CARD-0116,,V1-ENT-0227,collection,《特里尔塞》,塞萨尔·巴列霍,Trilce,秘鲁,es,1922,诗集,WEB-CE-B06,meets,NONE,### 《特里尔塞》｜Trilce — Casa de la Literatura 资料列出 1922 年首版；中文展示名不作译本版本学声明。
+V1-CARD-0117,,V1-ENT-0228,collection,《人类的诗篇》,塞萨尔·巴列霍,Poemas humanos,秘鲁,es,1939,诗集,WEB-CE-B06,meets,NONE,### 《人类的诗篇》｜Poemas humanos — 机构资料列入 Vallejo 的 1939 诗歌出版序列；本批不添加主题或影响判断。
+V1-CARD-0118,,V1-ENT-0229,collection,《蓝……》,鲁文·达里奥,Azul...,尼加拉瓜,es,1888,诗歌与散文集,WEB-CE-B06,meets,NONE,### 《蓝……》｜Azul... — Memoria Chilena 资料记录 1888 年在瓦尔帕莱索出版；作品形态按原始书目保留。
+V1-CARD-0119,,V1-ENT-0230,collection,《世俗的颂歌》,鲁文·达里奥,Prosas profanas,尼加拉瓜,es,1896,诗集,WEB-CE-B06,meets,NONE,### 《世俗的颂歌》｜Prosas profanas — 机构书目记录 1896 年；本批只建立原文、年份和诗集入口。
+V1-CARD-0120,,V1-ENT-0231,collection,《生命与希望之歌》,鲁文·达里奥,Cantos de vida y esperanza,尼加拉瓜,es,1905,诗集,WEB-CE-B06,meets,NONE,### 《生命与希望之歌》｜Cantos de vida y esperanza — 机构书目记录 1905 年；不把现代主义评价写成 accepted fact。
+V1-CARD-0121,,V1-ENT-0232,collection,《伊斯梅利约》,何塞·马蒂,Ismaelillo,古巴,es,1882,诗集,WEB-CE-B06,meets,NONE,### 《伊斯梅利约》｜Ismaelillo — Cervantes Virtual 资料记录 1882 年出版；中文展示名服务读者识别。
+V1-CARD-0122,,V1-ENT-0233,collection,《纯朴的诗》,何塞·马蒂,Versos sencillos,古巴,es,1891,诗集,WEB-CE-B06,meets,NONE,### 《纯朴的诗》｜Versos sencillos — Cervantes Virtual 年表记录 1891 年；作品保持 collection 层级。
+V1-CARD-0123,,V1-ENT-0234,work,《我们的美洲》,何塞·马蒂,Nuestra América,古巴,es,1891,随笔,WEB-CE-B06,meets,NONE,### 《我们的美洲》｜Nuestra América — 机构年表记录 1891 年文本；本批记录 essay 书目，不扩写政治影响关系。
+V1-CARD-0124,,V1-ENT-0236,author,尼卡诺尔·帕拉,尼卡诺尔·帕拉,Nicanor Parra,智利,es,1914–2018,诗歌,WEB-CE-B07,meets,NONE,### 尼卡诺尔·帕拉｜Nicanor Parra — 本批以机构来源确认的生平与三部书目建立智利诗歌入口。
+V1-CARD-0125,,V1-ENT-0237,author,阿莱杭德拉·皮扎尼克,阿莱杭德拉·皮扎尼克,Alejandra Pizarnik,阿根廷,es,1936–1972,诗歌,WEB-CE-B07,meets,NONE,### 阿莱杭德拉·皮扎尼克｜Alejandra Pizarnik — 本批以作者资料与 CVC 书目建立三部诗集入口。
+V1-CARD-0126,,V1-ENT-0238,author,马里奥·贝内德蒂,马里奥·贝内德蒂,Mario Benedetti,乌拉圭,es,1920–2009,小说与短篇,WEB-CE-B07,meets,NONE,### 马里奥·贝内德蒂｜Mario Benedetti — 本批以基金会传记和作品目录建立乌拉圭小说/短篇入口。
+V1-CARD-0127,,V1-ENT-0239,collection,《诗歌与反诗歌》,尼卡诺尔·帕拉,Poemas y antipoemas,智利,es,1954,诗集,WEB-CE-B07,meets,NONE,### 《诗歌与反诗歌》｜Poemas y antipoemas — Memoria Chilena 与智利大学书目记录 1954 年题名。
+V1-CARD-0128,,V1-ENT-0240,collection,《沙龙篇》,尼卡诺尔·帕拉,Versos de salón,智利,es,1962,诗集,WEB-CE-B07,meets,NONE,### 《沙龙篇》｜Versos de salón — 机构作者专题和书目页记录 1962 年题名。
+V1-CARD-0129,,V1-ENT-0241,collection,《饭后演讲》,尼卡诺尔·帕拉,Discursos de sobremesa,智利,es,1997,诗歌/演讲体合集,WEB-CE-B07,meets,NONE,### 《饭后演讲》｜Discursos de sobremesa — 书目页记录 1997 年出版与作者信息。
+V1-CARD-0130,,V1-ENT-0242,collection,《狄安娜之树》,阿莱杭德拉·皮扎尼克,Árbol de Diana,阿根廷,es,1962,诗集,WEB-CE-B07,meets,NONE,### 《狄安娜之树》｜Árbol de Diana — CVC 书目页记录 1962 年题名。
+V1-CARD-0131,,V1-ENT-0243,collection,《作品与夜晚》,阿莱杭德拉·皮扎尼克,Los trabajos y las noches,阿根廷,es,1965,诗集,WEB-CE-B07,meets,NONE,### 《作品与夜晚》｜Los trabajos y las noches — CVC 书目页记录 1965 年题名。
+V1-CARD-0132,,V1-ENT-0244,collection,《取出疯石》,阿莱杭德拉·皮扎尼克,Extracción de la piedra de locura,阿根廷,es,1968,诗集,WEB-CE-B07,meets,NONE,### 《取出疯石》｜Extracción de la piedra de locura — CVC 书目与作品页共同支持题名和 1968 年。
+V1-CARD-0133,,V1-ENT-0245,work,《休战》,马里奥·贝内德蒂,La tregua,乌拉圭,es,1960,小说,WEB-CE-B07,meets,NONE,### 《休战》｜La tregua — Fundación Mario Benedetti 记录 1960 年首版和小说形态。
+V1-CARD-0134,,V1-ENT-0246,work,《谢谢你的火》,马里奥·贝内德蒂,Gracias por el fuego,乌拉圭,es,1965,小说,WEB-CE-B07,meets,NONE,### 《谢谢你的火》｜Gracias por el fuego — Fundación Mario Benedetti 记录 1965 年首版。
+V1-CARD-0135,,V1-ENT-0247,collection,《蒙得维的亚人》,马里奥·贝内德蒂,Montevideanos,乌拉圭,es,1959,短篇小说集,WEB-CE-B07,meets,NONE,### 《蒙得维的亚人》｜Montevideanos — Fundación Mario Benedetti 记录 1959 年首版与收录篇目。
+V1-CARD-0136,,V1-ENT-0248,author,何塞·玛丽亚·阿格达斯,何塞·玛丽亚·阿格达斯,José María Arguedas,秘鲁,es,1911–1969,小说与人类学,WEB-CE-B08,meets,NONE,### 何塞·玛丽亚·阿格达斯｜José María Arguedas — 以 BNP 与 Casa de la Literatura 资料建立秘鲁安第斯小说入口。
+V1-CARD-0137,,V1-ENT-0249,author,塞尔希奥·皮托尔,塞尔希奥·皮托尔,Sergio Pitol,墨西哥,es,1933–2018,小说,WEB-CE-B08,meets,NONE,### 塞尔希奥·皮托尔｜Sergio Pitol — 以 Instituto Cervantes 传记与书目建立墨西哥小说入口。
+V1-CARD-0138,,V1-ENT-0250,author,胡安·何塞·阿雷奥拉,胡安·何塞·阿雷奥拉,Juan José Arreola,墨西哥,es,1918–2001,短篇与小说,WEB-CE-B08,meets,NONE,### 胡安·何塞·阿雷奥拉｜Juan José Arreola — 以 Fonoteca Nacional 与 CVC 资料区分作品集和小说。
+V1-CARD-0139,,V1-ENT-0251,work,《血的节日》,何塞·玛丽亚·阿格达斯,Yawar fiesta,秘鲁,es,1941,小说,WEB-CE-B08,meets,NONE,### 《血的节日》｜Yawar fiesta — Casa de la Literatura 记录 1941 年书目。
+V1-CARD-0140,,V1-ENT-0252,work,《深沉的河流》,何塞·玛丽亚·阿格达斯,Los ríos profundos,秘鲁,es,1958,小说,WEB-CE-B08,meets,NONE,### 《深沉的河流》｜Los ríos profundos — 机构书目与作品导读共同支持 1958 年和小说形态。
+V1-CARD-0141,,V1-ENT-0253,work,《所有的血》,何塞·玛丽亚·阿格达斯,Todas las sangres,秘鲁,es,1964,小说,WEB-CE-B08,meets,NONE,### 《所有的血》｜Todas las sangres — Casa de la Literatura 记录 1964 年书目。
+V1-CARD-0142,,V1-ENT-0254,work,《爱情游行》,塞尔希奥·皮托尔,El desfile del amor,墨西哥,es,1984,小说,WEB-CE-B08,meets,NONE,### 《爱情游行》｜El desfile del amor — Instituto Cervantes 传记与书目记录 1984 年小说。
+V1-CARD-0143,,V1-ENT-0255,work,《驯服神圣苍鹭》,塞尔希奥·皮托尔,Domar a la divina garza,墨西哥,es,1988,小说,WEB-CE-B08,meets,NONE,### 《驯服神圣苍鹭》｜Domar a la divina garza — 机构传记与书目记录 1988 年小说。
+V1-CARD-0144,,V1-ENT-0256,work,《婚姻生活》,塞尔希奥·皮托尔,La vida conyugal,墨西哥,es,1991,小说,WEB-CE-B08,meets,NONE,### 《婚姻生活》｜La vida conyugal — Instituto Cervantes 记录 1991 年小说。
+V1-CARD-0145,,V1-ENT-0257,collection,《孔法布拉里奥》,胡安·何塞·阿雷奥拉,Confabulario,墨西哥,es,1952,短篇作品集,WEB-CE-B08,meets,NONE,### 《孔法布拉里奥》｜Confabulario — CVC 与 Fonoteca 资料支持作品集层级和书目。
+V1-CARD-0146,,V1-ENT-0258,collection,《动物集》,胡安·何塞·阿雷奥拉,Bestiario,墨西哥,es,1972,作品集,WEB-CE-B08,meets,NONE,### 《动物集》｜Bestiario — Arreola 的同名作品保留作者锚点，与 Cortázar 实体分开。
+V1-CARD-0147,,V1-ENT-0259,work,《集市》,胡安·何塞·阿雷奥拉,La feria,墨西哥,es,1963,小说,WEB-CE-B08,meets,NONE,### 《集市》｜La feria — CVC 书目和 Fonoteca 资料支持 1963 年小说。
+V1-CARD-0148,,V1-ENT-0260,author,埃莱娜·波尼亚托夫斯卡,埃莱娜·波尼亚托夫斯卡,Elena Poniatowska,墨西哥,es,1932–,小说与纪实写作,WEB-CE-B09,meets,NONE,### 埃莱娜·波尼亚托夫斯卡｜Elena Poniatowska — 以 UNAM 资料建立墨西哥公共写作入口。
+V1-CARD-0149,,V1-ENT-0261,author,何塞·埃米利奥·帕切科,何塞·埃米利奥·帕切科,José Emilio Pacheco,墨西哥,es,1939–2014,小说、诗歌与散文,WEB-CE-B09,meets,NONE,### 何塞·埃米利奥·帕切科｜José Emilio Pacheco — 以 Cervantes、Colegio Nacional 与 CEPE 资料建立墨西哥书目入口。
+V1-CARD-0150,,V1-ENT-0262,author,罗贝托·波拉尼奥,罗贝托·波拉尼奥,Roberto Bolaño,智利,es,1953–2003,小说与诗歌,WEB-CE-B09,meets,NONE,### 罗贝托·波拉尼奥｜Roberto Bolaño — 以 Memoria Chilena 资料连接智利作者与三部小说。
+V1-CARD-0151,,V1-ENT-0263,work,《特拉特洛尔科之夜》,埃莱娜·波尼亚托夫斯卡,La noche de Tlatelolco,墨西哥,es,1971,纪实写作,WEB-CE-B09,meets,NONE,### 《特拉特洛尔科之夜》｜La noche de Tlatelolco — UNAM 资料记录 1971 年作品与事件书写。
+V1-CARD-0152,,V1-ENT-0264,work,《直到见到你，我的赫苏斯》,埃莱娜·波尼亚托夫斯卡,Hasta no verte Jesús mío,墨西哥,es,1969,小说,WEB-CE-B09,meets,NONE,### 《直到见到你，我的赫苏斯》｜Hasta no verte Jesús mío — UNAM 资料记录 1969 年作品。
+V1-CARD-0153,,V1-ENT-0265,work,《蒂娜》,埃莱娜·波尼亚托夫斯卡,Tinísima,墨西哥,es,1991/1992,小说,WEB-CE-B09,meets,DISPUTED-YEAR,### 《蒂娜》｜Tinísima — UNAM 页面分别记录 1991 与 1992；年份冲突保留供 Sol 复核。
+V1-CARD-0154,,V1-ENT-0266,work,《沙漠中的战斗》,何塞·埃米利奥·帕切科,Las batallas en el desierto,墨西哥,es,1981,小说,WEB-CE-B09,meets,NONE,### 《沙漠中的战斗》｜Las batallas en el desierto — Cervantes、Colegio Nacional 与 CEPE 资料记录 1981 年。
+V1-CARD-0155,,V1-ENT-0267,collection,《快乐原则》,何塞·埃米利奥·帕切科,El principio del placer,墨西哥,es,1972,短篇作品集,WEB-CE-B09,meets,NONE,### 《快乐原则》｜El principio del placer — 机构年表与作者页将其列为 1972 年作品集。
+V1-CARD-0156,,V1-ENT-0268,collection,《不要问我时间如何流逝》,何塞·埃米利奥·帕切科,No me preguntes cómo pasa el tiempo,墨西哥,es,1969,诗集,WEB-CE-B09,meets,NONE,### 《不要问我时间如何流逝》｜No me preguntes cómo pasa el tiempo — Cervantes 年表记录 1969 年诗集。
+V1-CARD-0157,,V1-ENT-0269,work,《荒野侦探》,罗贝托·波拉尼奥,Los detectives salvajes,智利,es,1998,小说,WEB-CE-B09,meets,NONE,### 《荒野侦探》｜Los detectives salvajes — Memoria Chilena 记录 1998 年小说及其跨国叙事空间。
+V1-CARD-0158,,V1-ENT-0270,work,《2666》,罗贝托·波拉尼奥,2666,智利,es,2004,小说,WEB-CE-B09,meets,NONE,### 《2666》｜2666 — Memoria Chilena 记录作者身后出版于 2004 年。
+V1-CARD-0159,,V1-ENT-0271,work,《遥远的星辰》,罗贝托·波拉尼奥,Estrella distante,智利,es,1996,小说,WEB-CE-B09,meets,NONE,### 《遥远的星辰》｜Estrella distante — Memoria Chilena 记录 1996 年作品及其小说来源。
+V1-CARD-0160,,V1-ENT-0272,author,爱德华多·加莱亚诺,爱德华多·加莱亚诺,Eduardo Galeano,乌拉圭,es,1940–2015,历史书写与纪实散文,WEB-CE-B10,meets,NONE,### 爱德华多·加莱亚诺｜Eduardo Galeano — 以乌拉圭教育与文化机构资料建立历史书写入口。
+V1-CARD-0161,,V1-ENT-0273,author,里卡多·皮格利亚,里卡多·皮格利亚,Ricardo Piglia,阿根廷,es,1940–2017,小说与文学批评,WEB-CE-B10,meets,NONE,### 里卡多·皮格利亚｜Ricardo Piglia — 以作者档案、Princeton 与 UNLP 资料连接阿根廷小说。
+V1-CARD-0162,,V1-ENT-0274,author,塞萨尔·艾拉,塞萨尔·艾拉,César Aira,阿根廷,es,1949–,小说与翻译,WEB-CE-B10,meets,NONE,### 塞萨尔·艾拉｜César Aira — 以国家图书馆、Konex 与大学研究资料建立当代小说入口。
+V1-CARD-0163,,V1-ENT-0275,work,《拉丁美洲被切开的血管》,爱德华多·加莱亚诺,Las venas abiertas de América Latina,乌拉圭,es,1971,历史/纪实写作,WEB-CE-B10,meets,NONE,### 《拉丁美洲被切开的血管》｜Las venas abiertas de América Latina — 机构年表记录 1971 年出版。
+V1-CARD-0164,,V1-ENT-0276,collection,《火的记忆Ⅰ：创世纪》,爱德华多·加莱亚诺,Memoria del fuego I. Los nacimientos,乌拉圭,es,1982,历史卷册,WEB-CE-B10,meets,NONE,### 《火的记忆Ⅰ：创世纪》｜Memoria del fuego I. Los nacimientos — 年表与目录保留第一卷层级。
+V1-CARD-0165,,V1-ENT-0277,collection,《拥抱之书》,爱德华多·加莱亚诺,El libro de los abrazos,乌拉圭,es,1989,片段散文集,WEB-CE-B10,meets,NONE,### 《拥抱之书》｜El libro de los abrazos — 年表记录 1989 年书目。
+V1-CARD-0166,,V1-ENT-0278,work,《人工呼吸》,里卡多·皮格利亚,Respiración artificial,阿根廷,es,1980,小说,WEB-CE-B10,meets,NONE,### 《人工呼吸》｜Respiración artificial — 作者页与 UNLP 书目记录 1980 年。
+V1-CARD-0167,,V1-ENT-0279,work,《燃烧的钱》,里卡多·皮格利亚,Plata quemada,阿根廷,es,1997,小说,WEB-CE-B10,meets,NONE,### 《燃烧的钱》｜Plata quemada — 作者页、Princeton 与 UNLP 书目记录 1997 年。
+V1-CARD-0168,,V1-ENT-0280,work,《夜间目标》,里卡多·皮格利亚,Blanco nocturno,阿根廷,es,2010,小说,WEB-CE-B10,meets,NONE,### 《夜间目标》｜Blanco nocturno — 作者页、Princeton 与 UNLP 书目记录 2010 年。
+V1-CARD-0169,,V1-ENT-0281,work,《女俘爱玛》,塞萨尔·艾拉,Ema la cautiva,阿根廷,es,1981,小说,WEB-CE-B10,meets,NONE,### 《女俘爱玛》｜Ema la cautiva — UNLP 研究资料记录 1981 年出版。
+V1-CARD-0170,,V1-ENT-0282,work,《中国小说》,塞萨尔·艾拉,Una novela china,阿根廷,es,1987,小说,WEB-CE-B10,meets,NONE,### 《中国小说》｜Una novela china — 大学文学研究记录 1987 年出版。
+V1-CARD-0171,,V1-ENT-0283,work,《文学大会》,塞萨尔·艾拉,El congreso de literatura,阿根廷,es,1997,小说,WEB-CE-B10,meets,NONE,### 《文学大会》｜El congreso de literatura — 学术研究记录 1997 年梅里达首版。
+V1-CARD-0172,,V1-ENT-0284,author,曼努埃尔·普伊格,曼努埃尔·普伊格,Manuel Puig,阿根廷,es,1932–1990,小说、剧本与戏剧,WEB-CE-B11,meets,NONE,### 曼努埃尔·普伊格｜Manuel Puig — 以国家图书馆与布宜诺斯艾利斯图书馆资料建立阿根廷小说入口。
+V1-CARD-0173,,V1-ENT-0285,author,西尔维娜·奥坎波,西尔维娜·奥坎波,Silvina Ocampo,阿根廷,es,1903–1993,短篇小说、诗歌与戏剧,WEB-CE-B11,meets,NONE,### 西尔维娜·奥坎波｜Silvina Ocampo — 以 Educ.ar 与阿根廷文化部资料建立短篇小说入口。
+V1-CARD-0174,,V1-ENT-0286,author,罗贝托·阿尔特,罗贝托·阿尔特,Roberto Arlt,阿根廷,es,1900–1942,小说、新闻与戏剧,WEB-CE-B11,meets,NONE,### 罗贝托·阿尔特｜Roberto Arlt — 以国家图书馆与国会图书馆年表建立都市小说入口。
+V1-CARD-0175,,V1-ENT-0287,work,《蜘蛛女之吻》,曼努埃尔·普伊格,El beso de la mujer araña,阿根廷,es,1976,小说,WEB-CE-B11,meets,NONE,### 《蜘蛛女之吻》｜El beso de la mujer araña — 国家图书馆资料记录 1976 年。
+V1-CARD-0176,,V1-ENT-0288,work,《丽塔·海华丝的背叛》,曼努埃尔·普伊格,La traición de Rita Hayworth,阿根廷,es,1968,小说,WEB-CE-B11,meets,NONE,### 《丽塔·海华丝的背叛》｜La traición de Rita Hayworth — 国家图书馆资料记录 1968 年。
+V1-CARD-0177,,V1-ENT-0289,work,《红唇》,曼努埃尔·普伊格,Boquitas pintadas,阿根廷,es,1969,小说,WEB-CE-B11,meets,NONE,### 《红唇》｜Boquitas pintadas — 国家图书馆资料记录 1969 年。
+V1-CARD-0178,,V1-ENT-0290,collection,《被遗忘的旅程》,西尔维娜·奥坎波,Viaje olvidado,阿根廷,es,1937,短篇小说集,WEB-CE-B11,meets,NONE,### 《被遗忘的旅程》｜Viaje olvidado — Educ.ar 与文化部资料记录 1937 年及故事集层级。
+V1-CARD-0179,,V1-ENT-0291,collection,《愤怒》,西尔维娜·奥坎波,La furia,阿根廷,es,1959,短篇小说集,WEB-CE-B11,meets,NONE,### 《愤怒》｜La furia — Educ.ar 与文化部资料记录 1959 年故事集。
+V1-CARD-0180,,V1-ENT-0292,collection,《邀请》,西尔维娜·奥坎波,Las invitadas,阿根廷,es,1961,短篇小说集,WEB-CE-B11,meets,NONE,### 《邀请》｜Las invitadas — Educ.ar 与文化部资料记录 1961 年故事集。
+V1-CARD-0181,,V1-ENT-0293,work,《七个疯子》,罗贝托·阿尔特,Los siete locos,阿根廷,es,1929,小说,WEB-CE-B11,meets,NONE,### 《七个疯子》｜Los siete locos — 国家图书馆与国会图书馆资料记录 1929 年。
+V1-CARD-0182,,V1-ENT-0294,work,《火焰喷射器》,罗贝托·阿尔特,Los lanzallamas,阿根廷,es,1931,小说,WEB-CE-B11,meets,NONE,### 《火焰喷射器》｜Los lanzallamas — 国会图书馆资料记录 1931 年及续作层级。
+V1-CARD-0183,,V1-ENT-0295,work,《疯玩具》,罗贝托·阿尔特,El juguete rabioso,阿根廷,es,1926,小说,WEB-CE-B11,meets,NONE,### 《疯玩具》｜El juguete rabioso — 国家图书馆与国会图书馆资料记录 1926 年。
+V1-CARD-0184,,V1-ENT-0296,author,萨曼塔·施维伯林,萨曼塔·施维伯林,Samanta Schweblin,阿根廷,es,1978–,短篇小说与小说,WEB-CE-B12,meets,NONE,### 萨曼塔·施维伯林｜Samanta Schweblin — Argentina Ministry and PRH profiles establish the author entry.
+V1-CARD-0185,,V1-ENT-0297,author,玛丽安娜·恩里克斯,玛丽安娜·恩里克斯,Mariana Enriquez,阿根廷,es,1973–,小说与短篇故事,WEB-CE-B12,meets,NONE,### 玛丽安娜·恩里克斯｜Mariana Enriquez — Anagrama institutional material establishes the author entry.
+V1-CARD-0186,,V1-ENT-0298,author,亚历杭德罗·桑布拉,亚历杭德罗·桑布拉,Alejandro Zambra,智利,es,1975–,小说、短篇小说与随笔,WEB-CE-B12,meets,NONE,### 亚历杭德罗·桑布拉｜Alejandro Zambra — Anagrama and Memoria Chilena establish the author entry.
+V1-CARD-0187,,V1-ENT-0299,work,《营救距离》,萨曼塔·施维伯林,Distancia de rescate,阿根廷,es,首版年份待补,小说,WEB-CE-B12,meets,NONE,### 《营救距离》｜Distancia de rescate — The Ministry PDF marks ©2014 on the copyright page; first-publication year remains open.
+V1-CARD-0188,,V1-ENT-0300,work,《吃鸟的女孩》,萨曼塔·施维伯林,Pájaros en la boca,阿根廷,es,出版年份待补,短篇小说集,WEB-CE-B12,meets,NONE,### 《吃鸟的女孩》｜Pájaros en la boca — Institutional and publisher pages identify the title as a story collection; first year is an open gap.
+V1-CARD-0189,,V1-ENT-0301,work,《七座空屋》,萨曼塔·施维伯林,Siete casas vacías,阿根廷,es,出版年份待补,短篇小说集,WEB-CE-B12,meets,NONE,### 《七座空屋》｜Siete casas vacías — The Ministry bibliography and PRH page identify the story collection; current edition date is not first publication.
+V1-CARD-0190,,V1-ENT-0302,work,《火中遗物》,玛丽安娜·恩里克斯,Las cosas que perdimos en el fuego,阿根廷,es,2016,短篇小说集,WEB-CE-B12,meets,NONE,### 《火中遗物》｜Las cosas que perdimos en el fuego — Anagrama identifies a story collection published in February 2016.
+V1-CARD-0191,,V1-ENT-0303,work,《属于我们的夜晚》,玛丽安娜·恩里克斯,Nuestra parte de noche,阿根廷,es,2019奖项节点,小说,WEB-CE-B12,meets,NONE,### 《属于我们的夜晚》｜Nuestra parte de noche — Anagrama identifies a novel and the 2019 Herralde award; first-publication year remains a gap.
+V1-CARD-0192,,V1-ENT-0304,work,《床上抽烟危险》,玛丽安娜·恩里克斯,Los peligros de fumar en la cama,阿根廷,es,出版年份待补,短篇小说集,WEB-CE-B12,meets,NONE,### 《床上抽烟危险》｜Los peligros de fumar en la cama — Anagrama identifies an earlier Argentine story collection and twelve-story form.
+V1-CARD-0193,,V1-ENT-0305,work,《盆栽》,亚历杭德罗·桑布拉,Bonsái,智利,es,2006,小说,WEB-CE-B12,meets,NONE,### 《盆栽》｜Bonsái — Anagrama and Memoria Chilena record the 2006 novel.
+V1-CARD-0194,,V1-ENT-0306,work,《树的隐秘生活》,亚历杭德罗·桑布拉,La vida privada de los árboles,智利,es,2007,小说,WEB-CE-B12,meets,NONE,### 《树的隐秘生活》｜La vida privada de los árboles — Anagrama and Memoria Chilena record the 2007 novel.
+V1-CARD-0195,,V1-ENT-0307,work,《回家的路》,亚历杭德罗·桑布拉,Formas de volver a casa,智利,es,2011,小说,WEB-CE-B12,meets,NONE,### 《回家的路》｜Formas de volver a casa — Anagrama and Memoria Chilena record the 2011 novel.
+V1-CARD-0196,,V1-ENT-0308,author,保罗·柯艾略,保罗·柯艾略,Paulo Coelho,巴西,pt,1947–,小说家与作词人,WEB-CE-B13,meets,NONE,### 保罗·柯艾略｜Paulo Coelho — ABL and USP profiles establish the Brazilian author entry.
+V1-CARD-0197,,V1-ENT-0309,author,卡洛斯·德鲁蒙德·德·安德拉德,卡洛斯·德鲁蒙德·德·安德拉德,Carlos Drummond de Andrade,巴西,pt,1902–1987,现代诗人,WEB-CE-B13,meets,NONE,### 卡洛斯·德鲁蒙德·德·安德拉德｜Carlos Drummond de Andrade — ABL and BNDigital establish the poet entry.
+V1-CARD-0198,,V1-ENT-0310,author,尼古拉斯·纪廉,尼古拉斯·纪廉,Nicolás Guillén,古巴,es,1902–1989,诗人与诗歌作者,WEB-CE-B13,meets,NONE,### 尼古拉斯·纪廉｜Nicolás Guillén — Cervantes Virtual and CVC establish the Cuban poet entry.
+V1-CARD-0199,,V1-ENT-0311,work,《牧羊少年奇幻之旅》,保罗·柯艾略,O Alquimista,巴西,pt,1988,作品,WEB-CE-B13,meets,NONE,### 《牧羊少年奇幻之旅》｜O Alquimista — ABL and USP record the 1988 title.
+V1-CARD-0200,,V1-ENT-0312,work,《维罗妮卡决定去死》,保罗·柯艾略,Veronika Decide Morrer,巴西,pt,1998,作品,WEB-CE-B13,meets,NONE,### 《维罗妮卡决定去死》｜Veronika Decide Morrer — ABL and USP record the 1998 title.
+V1-CARD-0201,,V1-ENT-0313,work,《十一分钟》,保罗·柯艾略,Onze Minutos,巴西,pt,2003,作品,WEB-CE-B13,meets,NONE,### 《十一分钟》｜Onze Minutos — ABL and USP record the 2003 title.
+V1-CARD-0202,,V1-ENT-0314,collection,《某种诗》,卡洛斯·德鲁蒙德·德·安德拉德,Alguma poesia,巴西,pt,1930,诗集,WEB-CE-B13,meets,NONE,### 《某种诗》｜Alguma poesia — ABL and BNDigital record the 1930 poetry collection.
+V1-CARD-0203,,V1-ENT-0315,collection,《人民的玫瑰》,卡洛斯·德鲁蒙德·德·安德拉德,A rosa do povo,巴西,pt,1945,诗集,WEB-CE-B13,meets,NONE,### 《人民的玫瑰》｜A rosa do povo — ABL and BNDigital record the 1945 poetry collection.
+V1-CARD-0204,,V1-ENT-0316,collection,《明晰之谜》,卡洛斯·德鲁蒙德·德·安德拉德,Claro enigma,巴西,pt,1951,诗集,WEB-CE-B13,meets,NONE,### 《明晰之谜》｜Claro enigma — ABL and BNDigital record the 1951 poetry collection.
+V1-CARD-0205,,V1-ENT-0317,collection,《松调》,尼古拉斯·纪廉,Motivos de son,古巴,es,1930,诗集,WEB-CE-B13,meets,NONE,### 《松调》｜Motivos de son — Cervantes bibliography records the 1930 volume.
+V1-CARD-0206,,V1-ENT-0318,collection,《桑戈罗·科松戈》,尼古拉斯·纪廉,Sóngoro cosongo,古巴,es,1931,诗集,WEB-CE-B13,meets,NONE,### 《桑戈罗·科松戈》｜Sóngoro cosongo — Cervantes bibliography records the 1931 volume.
+V1-CARD-0207,,V1-ENT-0319,collection,《西印度公司》,尼古拉斯·纪廉,"West Indies, Ltd.",古巴,es,1934,诗集,WEB-CE-B13,meets,NONE,"### 《西印度公司》｜West Indies, Ltd. — Cervantes bibliography records the 1934 volume."
+V1-CARD-0208,,V1-ENT-0320,author,何塞·莱萨马·利马,何塞·莱萨马·利马,José Lezama Lima,古巴,es,1910–1976,诗人、散文家与小说家,WEB-CE-B14,meets,NONE,### 何塞·莱萨马·利马｜José Lezama Lima — AAP and Cervantes Virtual establish the Cuban author entry.
+V1-CARD-0209,,V1-ENT-0321,author,吉列尔莫·卡夫雷拉·因凡特,吉列尔莫·卡夫雷拉·因凡特,Guillermo Cabrera Infante,古巴,es,1929–2005,古巴小说家与散文家,WEB-CE-B14,meets,NONE,### 吉列尔莫·卡夫雷拉·因凡特｜Guillermo Cabrera Infante — bibliography and UT Press establish the author entry.
+V1-CARD-0210,,V1-ENT-0322,author,索尔·胡安娜·伊内斯·德·拉·克鲁斯,索尔·胡安娜·伊内斯·德·拉·克鲁斯,Sor Juana Inés de la Cruz,墨西哥,es,1651–1695,新西班牙诗人、剧作家与散文家,WEB-CE-B14,meets,NONE,### 索尔·胡安娜·伊内斯·德·拉·克鲁斯｜Sor Juana Inés de la Cruz — UNAM sources establish the author entry.
+V1-CARD-0211,,V1-ENT-0323,work,《天堂》,何塞·莱萨马·利马,Paradiso,古巴,es,1966,小说,WEB-CE-B14,meets,NONE,### 《天堂》｜Paradiso — the scholarly bibliography records the 1966 novel.
+V1-CARD-0212,,V1-ENT-0324,work,《奥皮亚诺·利卡里奥》,何塞·莱萨马·利马,Oppiano Licario,古巴,es,1977,小说,WEB-CE-B14,meets,NONE,### 《奥皮亚诺·利卡里奥》｜Oppiano Licario — the scholarly bibliography records the 1977 work.
+V1-CARD-0213,,V1-ENT-0325,work,《美洲的表达》,何塞·莱萨马·利马,La expresión americana,古巴,es,1957,讲演系列,WEB-CE-B14,meets,NONE,### 《美洲的表达》｜La expresión americana — the AAP profile dates the five-part lecture series to 1957; this is not presented as a first-publication year.
+V1-CARD-0214,,V1-ENT-0326,work,《三只忧伤的老虎》,吉列尔莫·卡夫雷拉·因凡特,Tres tristes tigres,古巴,es,1967,小说,WEB-CE-B14,meets,NONE,### 《三只忧伤的老虎》｜Tres tristes tigres — the bibliography records the 1967 novel.
+V1-CARD-0215,,V1-ENT-0327,work,《热带黎明景观》,吉列尔莫·卡夫雷拉·因凡特,Vista del amanecer en el trópico,古巴,es,1974,作品,WEB-CE-B14,meets,NONE,### 《热带黎明景观》｜Vista del amanecer en el trópico — the bibliography records the 1974 title; form remains open.
+V1-CARD-0216,,V1-ENT-0328,work,《哈瓦那，一个早夭婴儿的回忆》,吉列尔莫·卡夫雷拉·因凡特,La Habana para un infante difunto,古巴,es,1979,作品,WEB-CE-B14,meets,NONE,### 《哈瓦那，一个早夭婴儿的回忆》｜La Habana para un infante difunto — the bibliography records the 1979 title; form remains open.
+V1-CARD-0217,,V1-ENT-0329,work,《第一梦》,索尔·胡安娜·伊内斯·德·拉·克鲁斯,Primero sueño,墨西哥,es,1692,长诗,WEB-CE-B14,meets,NONE,### 《第一梦》｜Primero sueño — the UNAM repository records its original publication in 1692.
+V1-CARD-0218,,V1-ENT-0330,work,《答索尔·菲洛特娅》,索尔·胡安娜·伊内斯·德·拉·克鲁斯,Respuesta a Sor Filotea de la Cruz,墨西哥,es,1691,书信/散文,WEB-CE-B14,meets,NONE,### 《答索尔·菲洛特娅》｜Respuesta a Sor Filotea de la Cruz — the UNAM record dates the letter to 1691.
+V1-CARD-0219,,V1-ENT-0331,work,《爱情是更大的迷宫》,索尔·胡安娜·伊内斯·德·拉·克鲁斯,Amor es más laberinto,墨西哥,es,1689,戏剧,WEB-CE-B14,meets,NONE,### 《爱情是更大的迷宫》｜Amor es más laberinto — UNAM records the comedy premiere in 1689.
+V1-CARD-0220,,V1-ENT-0332,author,胡利奥·拉蒙·里贝罗,胡利奥·拉蒙·里贝罗,Julio Ramón Ribeyro,秘鲁,es,1929–1994,小说家与短篇小说家,WEB-CE-B15,meets,NONE,### 胡利奥·拉蒙·里贝罗｜Julio Ramón Ribeyro — official Peruvian cultural sources establish the author entry.
+V1-CARD-0221,,V1-ENT-0333,author,胡安·何塞·萨埃尔,胡安·何塞·萨埃尔,Juan José Saer,阿根廷,es,1937–2005,小说家与诗人,WEB-CE-B15,meets,NONE,### 胡安·何塞·萨埃尔｜Juan José Saer — Argentina government and UNL sources establish the author entry.
+V1-CARD-0222,,V1-ENT-0334,author,雷纳尔多·阿雷纳斯,雷纳尔多·阿雷纳斯,Reinaldo Arenas,古巴,es,1943–1990,小说家与流亡写作者,WEB-CE-B15,meets,NONE,### 雷纳尔多·阿雷纳斯｜Reinaldo Arenas — Princeton and university research establish the author entry.
+V1-CARD-0223,,V1-ENT-0335,collection,《没有羽毛的秃鹫》,胡利奥·拉蒙·里贝罗,Los gallinazos sin plumas,秘鲁,es,1955,短篇小说集,WEB-CE-B15,meets,NONE,### 《没有羽毛的秃鹫》｜Los gallinazos sin plumas — official and peer-reviewed sources identify the 1955 urban story collection.
+V1-CARD-0224,,V1-ENT-0336,collection,《西尔维奥在玫瑰园》,胡利奥·拉蒙·里贝罗,Silvio en El Rosedal,秘鲁,es,1989,短篇小说集,WEB-CE-B15,meets,NONE,### 《西尔维奥在玫瑰园》｜Silvio en El Rosedal — the official Peruvian cultural page lists the 1989 edition and gathered stories.
+V1-CARD-0225,,V1-ENT-0337,collection,《无言之词》,胡利奥·拉蒙·里贝罗,La palabra del mudo,秘鲁,es,1973 edition,短篇小说集,WEB-CE-B15,meets,NONE,### 《无言之词》｜La palabra del mudo — the official page identifies the 1973 Tomos I–II edition; the year is kept as an edition anchor.
+V1-CARD-0226,,V1-ENT-0338,work,《皇家柠檬树》,胡安·何塞·萨埃尔,El limonero real,阿根廷,es,1974,小说,WEB-CE-B15,meets,NONE,### 《皇家柠檬树》｜El limonero real — Argentina government and UNL sources date the novel to 1974.
+V1-CARD-0227,,V1-ENT-0339,work,《继子》,胡安·何塞·萨埃尔,El entenado,阿根廷,es,1983,小说,WEB-CE-B15,meets,NONE,### 《继子》｜El entenado — Argentina government and UNL sources date the novel to 1983.
+V1-CARD-0228,,V1-ENT-0340,work,《格洛萨》,胡安·何塞·萨埃尔,Glosa,阿根廷,es,1986,小说,WEB-CE-B15,meets,DISPUTED-YEAR,"### 《格洛萨》｜Glosa — 1986 is retained from Argentina government and UNL sources; an unlocated, unverified 1985 discovery lead remains open for Sol review."
+V1-CARD-0229,,V1-ENT-0341,work,《黎明前的塞莱斯蒂诺》,雷纳尔多·阿雷纳斯,Celestino antes del alba,古巴,es,1967,小说,WEB-CE-B15,meets,NONE,### 《黎明前的塞莱斯蒂诺》｜Celestino antes del alba — Cardiff scholarship identifies the 1967 first novel.
+V1-CARD-0230,,V1-ENT-0342,work,《幻梦世界》,雷纳尔多·阿雷纳斯,El mundo alucinante,古巴,es,1968,小说,WEB-CE-B15,meets,NONE,### 《幻梦世界》｜El mundo alucinante — Cardiff scholarship identifies the 1968 second novel.
+V1-CARD-0231,,V1-ENT-0343,work,《夜幕降临前》,雷纳尔多·阿雷纳斯,Antes que anochezca,古巴,es,1992,自传,WEB-CE-B15,meets,NONE,### 《夜幕降临前》｜Antes que anochezca — Universidad de Antioquia scholarship dates the Spanish original to 1992 and identifies its autobiographical form.
+V1-CARD-0232,,V1-ENT-0344,author,路易斯·塞普尔维达,路易斯·塞普尔维达,Luis Sepúlveda,智利,es,1949–2020,智利小说家与旅行写作者,WEB-CE-B16,meets,NONE,### 路易斯·塞普尔维达｜Luis Sepúlveda — source-backed author entry for WEB-CE-B16.
+V1-CARD-0233,,V1-ENT-0347,work,《读爱情故事的老人》,路易斯·塞普尔维达,Un viejo que leía novelas de amor,智利,es,first_book_edition_year=1989,小说,WEB-CE-B16,meets,NONE,### 《读爱情故事的老人》｜Un viejo que leía novelas de amor — source-backed 小说 entry; original title retained.
+V1-CARD-0234,,V1-ENT-0348,work,《教海鸥飞翔的猫》,路易斯·塞普尔维达,Historia de una gaviota y del gato que le enseñó a volar,智利,es,1996,儿童小说,WEB-CE-B16,meets,NONE,### 《教海鸥飞翔的猫》｜Historia de una gaviota y del gato que le enseñó a volar — source-backed 儿童小说 entry; original title retained.
+V1-CARD-0235,,V1-ENT-0349,work,《世界尽头的世界》,路易斯·塞普尔维达,Mundo del fin del mundo,智利,es,1994,旅行叙事,WEB-CE-B16,meets,NONE,### 《世界尽头的世界》｜Mundo del fin del mundo — source-backed 旅行叙事 entry; original title retained.
+V1-CARD-0236,,V1-ENT-0345,author,瓜达卢佩·内特尔,瓜达卢佩·内特尔,Guadalupe Nettel,墨西哥,es,1973–present,墨西哥小说家与短篇小说家,WEB-CE-B16,meets,NONE,### 瓜达卢佩·内特尔｜Guadalupe Nettel — source-backed author entry for WEB-CE-B16.
+V1-CARD-0237,,V1-ENT-0350,work,《独生女儿》,瓜达卢佩·内特尔,La hija única,墨西哥,es,2020,小说,WEB-CE-B16,meets,NONE,### 《独生女儿》｜La hija única — source-backed 小说 entry; original title retained.
+V1-CARD-0238,,V1-ENT-0351,collection,《红鱼之姻》,瓜达卢佩·内特尔,El matrimonio de los peces rojos,墨西哥,es,2013,短篇小说集,WEB-CE-B16,meets,NONE,### 《红鱼之姻》｜El matrimonio de los peces rojos — source-backed 短篇小说集 entry; original title retained.
+V1-CARD-0239,,V1-ENT-0352,collection,《真正的孤独》,瓜达卢佩·内特尔,Pétalos y otras historias incómodas,墨西哥,es,2008,短篇小说集,WEB-CE-B16,meets,NONE,### 《真正的孤独》｜Pétalos y otras historias incómodas — source-backed 短篇小说集 entry; original title retained.
+V1-CARD-0240,,V1-ENT-0346,author,克里斯蒂娜·佩里·罗西,克里斯蒂娜·佩里·罗西,Cristina Peri Rossi,乌拉圭,es,1941–present,乌拉圭诗人、小说家与短篇小说家,WEB-CE-B16,meets,NONE,### 克里斯蒂娜·佩里·罗西｜Cristina Peri Rossi — source-backed author entry for WEB-CE-B16.
+V1-CARD-0241,,V1-ENT-0353,collection,《错爱》,克里斯蒂娜·佩里·罗西,Los amores equivocados,乌拉圭,es,2015,短篇小说集,WEB-CE-B16,meets,NONE,### 《错爱》｜Los amores equivocados — source-backed 短篇小说集 entry; original title retained.
+V1-CARD-0242,,V1-ENT-0354,collection,《恐龙的下午》,克里斯蒂娜·佩里·罗西,La tarde del dinosaurio,乌拉圭,es,1976,短篇小说集,WEB-CE-B16,meets,NONE,### 《恐龙的下午》｜La tarde del dinosaurio — source-backed 短篇小说集 entry; original title retained.
+V1-CARD-0243,,V1-ENT-0355,collection,《沉船记》,克里斯蒂娜·佩里·罗西,Descripción de un naufragio,乌拉圭,es,1975,诗集,WEB-CE-B16,meets,NONE,### 《沉船记》｜Descripción de un naufragio — source-backed 诗集 entry; original title retained.
+V1-CARD-0244,,V1-ENT-0358,author,莉吉娅·法贡德斯·特莱斯,莉吉娅·法贡德斯·特莱斯,Lygia Fagundes Telles,巴西,pt,1918–2022,巴西小说家与短篇小说家,WEB-CE-B17,meets,NONE,### 莉吉娅·法贡德斯·特莱斯｜Lygia Fagundes Telles — source-backed author entry for WEB-CE-B17.
+V1-CARD-0245,,V1-ENT-0361,work,《石头圆舞》,莉吉娅·法贡德斯·特莱斯,Ciranda de pedra,巴西,pt,1954,小说,WEB-CE-B17,meets,NONE,### 《石头圆舞》｜Ciranda de pedra — source-backed 小说 entry; original title retained.
+V1-CARD-0246,,V1-ENT-0362,collection,《绿色舞会之前》,莉吉娅·法贡德斯·特莱斯,Antes do baile verde,巴西,pt,1970,短篇小说集,WEB-CE-B17,meets,NONE,### 《绿色舞会之前》｜Antes do baile verde — source-backed 短篇小说集 entry; original title retained.
+V1-CARD-0247,,V1-ENT-0363,work,《姑娘们》,莉吉娅·法贡德斯·特莱斯,As meninas,巴西,pt,1973,小说,WEB-CE-B17,meets,NONE,### 《姑娘们》｜As meninas — source-backed 小说 entry; original title retained.
+V1-CARD-0248,,V1-ENT-0359,author,豪尔赫·伊卡萨,豪尔赫·伊卡萨,Jorge Icaza,厄瓜多尔,es,1906–1978,厄瓜多尔小说家与剧作家,WEB-CE-B17,meets,NONE,### 豪尔赫·伊卡萨｜Jorge Icaza — source-backed author entry for WEB-CE-B17.
+V1-CARD-0249,,V1-ENT-0364,work,《瓦西蓬戈》,豪尔赫·伊卡萨,Huasipungo,厄瓜多尔,es,1934,小说,WEB-CE-B17,meets,NONE,### 《瓦西蓬戈》｜Huasipungo — source-backed 小说 entry; original title retained.
+V1-CARD-0250,,V1-ENT-0365,work,《在街头》,豪尔赫·伊卡萨,En las calles,厄瓜多尔,es,1935,小说,WEB-CE-B17,meets,NONE,### 《在街头》｜En las calles — source-backed 小说 entry; original title retained.
+V1-CARD-0251,,V1-ENT-0366,work,《乔洛·罗梅罗与弗洛雷斯》,豪尔赫·伊卡萨,El chulla Romero y Flores,厄瓜多尔,es,1958,小说,WEB-CE-B17,meets,NONE,### 《乔洛·罗梅罗与弗洛雷斯》｜El chulla Romero y Flores — source-backed 小说 entry; original title retained.
+V1-CARD-0252,,V1-ENT-0360,author,罗慕洛·加列戈斯,罗慕洛·加列戈斯,Rómulo Gallegos,委内瑞拉,es,1884–1969,委内瑞拉小说家与教育家,WEB-CE-B17,meets,NONE,### 罗慕洛·加列戈斯｜Rómulo Gallegos — source-backed author entry for WEB-CE-B17.
+V1-CARD-0253,,V1-ENT-0367,work,《堂娜·芭芭拉》,罗慕洛·加列戈斯,Doña Bárbara,委内瑞拉,es,1929,小说,WEB-CE-B17,meets,NONE,### 《堂娜·芭芭拉》｜Doña Bárbara — source-backed 小说 entry; original title retained.
+V1-CARD-0254,,V1-ENT-0368,work,《唱歌者》,罗慕洛·加列戈斯,Cantaclaro,委内瑞拉,es,1934,小说,WEB-CE-B17,meets,NONE,### 《唱歌者》｜Cantaclaro — source-backed 小说 entry; original title retained.
+V1-CARD-0255,,V1-ENT-0369,work,《卡奈玛》,罗慕洛·加列戈斯,Canaima,委内瑞拉,es,1935,小说,WEB-CE-B17,meets,NONE,### 《卡奈玛》｜Canaima — source-backed 小说 entry; original title retained.
+V1-CARD-0256,WCD07A-W01,V1-ENT-0374,work,《我们的土地》,卡洛斯·富恩特斯,Terra Nostra,墨西哥,es,1975,长篇小说,WCD-07A,meets,NONE,### 《我们的土地》｜Terra Nostra\n\n- 对象类型：`work`｜首版：1975｜体裁：长篇小说\n- 研究基线：ELEM 与 UNAM 支持书目身份和三部结构；不拆子实体。
+V1-CARD-0257,WCD07A-W02,V1-ENT-0375,work,《逃亡的艺术》,塞尔希奥·皮托尔,El arte de la fuga,墨西哥,es,1996,复合型散文,WCD-07A,meets,NONE,### 《逃亡的艺术》｜El arte de la fuga\n\n- 对象类型：`work`｜首版：1996｜体裁：复合型散文\n- 研究基线：一部在文学评论、阅读记忆与自传叙述间展开的独立著作。
+V1-CARD-0258,WCD07A-W03,V1-ENT-0376,collection,《自由诗》,何塞·马蒂,Versos libres,古巴,es,1913,诗集,WCD-07A,meets,PROVISIONAL-ZH-DISPLAY,### 《自由诗》｜Versos libres\n\n- 对象类型：`collection`｜首版：1913（身后出版）｜体裁：诗集\n- 研究基线：中文名仅作显示，不主张存在独立正式全本中译。
+V1-CARD-0259,WCD07A-W04,V1-ENT-0377,work,《公羊的节日》,马里奥·巴尔加斯·略萨,La fiesta del Chivo,秘鲁,es,2000,长篇小说,WCD-07A,meets,NONE,### 《公羊的节日》｜La fiesta del Chivo\n\n- 对象类型：`work`｜首版：2000｜体裁：长篇小说\n- 研究基线：小说围绕多米尼加共和国特鲁希略独裁统治及其余波展开。
+V1-CARD-0260,WCD07A-W05,V1-ENT-0378,work,《山上的狐狸，山下的狐狸》,何塞·玛丽亚·阿格达斯,El zorro de arriba y el zorro de abajo,秘鲁,es,1971,长篇小说,WCD-07A,meets,NONE,### 《山上的狐狸，山下的狐狸》｜El zorro de arriba y el zorro de abajo\n\n- 对象类型：`work`｜首版：1971｜体裁：长篇小说\n- 研究基线：作为单一作品保留；日记结构事实因证据不足未准入。
+V1-CARD-0261,WCD07A-W06,V1-ENT-0379,work,《无边的土地》,若热·亚马多,Terras do sem-fim,巴西,pt,1943,长篇小说,WCD-07A,meets,DISPUTED-YEAR-RESOLVED-1943,### 《无边的土地》｜Terras do sem-fim\n\n- 对象类型：`work`｜首版：1943｜体裁：长篇小说\n- 研究基线：巴西国家图书馆与独立学术来源收敛于1943；1942异说仅留审计。

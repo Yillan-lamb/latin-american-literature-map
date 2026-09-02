@@ -1,0 +1,13 @@
+fact_candidate_id,work_candidate_id,fact_field,value_text,material_class,confidence,source_candidate_ids,proposed_disposition,usage_note
+WCD07B-F001,WCD07B-W01,entity_layer,collection,metadata,high,WCD07B-S01|WCD07B-S02,PASS,"1689 original collection; no child membership inferred"
+WCD07B-F002,WCD07B-W01,first_publication_year,1689,bibliographic,high,WCD07B-S01|WCD07B-S02,PASS,"original Madrid printing"
+WCD07B-F003,WCD07B-W01,genre_or_form,诗文集,bibliographic,medium,WCD07B-S01|WCD07B-S03,PASS,"bounded collection-level description"
+WCD07B-F004,WCD07B-W01,bibliographic_note,"1689年在马德里由Juan García Infanzón刊印，书名页题作Inundación castálida。",bibliographic_note,high,WCD07B-S01|WCD07B-S02,PASS,"title-page-level statement"
+WCD07B-F005,WCD07B-W02,entity_layer,collection,metadata,high,WCD07B-S04|WCD07B-S05,PASS,"independent poetry collection"
+WCD07B-F006,WCD07B-W02,first_publication_year,1937,bibliographic,high,WCD07B-S04|WCD07B-S05,PASS,"original publication year"
+WCD07B-F007,WCD07B-W02,genre_or_form,诗集,bibliographic,high,WCD07B-S04|WCD07B-S05,PASS,"both references treat it as a poetry book"
+WCD07B-F008,WCD07B-W02,bibliographic_note,"该独立诗集于1937年出版；中文名仅作题名显示，不主张存在正式全本中译。",bibliographic_note,medium,WCD07B-S04|WCD07B-S05,PASS,"no edition claim"
+WCD07B-F009,WCD07B-W03,entity_layer,collection,metadata,high,WCD07B-S06|WCD07B-S07,PASS,"original-language short-story collection"
+WCD07B-F010,WCD07B-W03,first_publication_year,1966,bibliographic,high,WCD07B-S06|WCD07B-S07,PASS,"both bibliographies identify 1966"
+WCD07B-F011,WCD07B-W03,genre_or_form,短篇小说集,bibliographic,high,WCD07B-S06|WCD07B-S07,PASS,"collection-level identity"
+WCD07B-F012,WCD07B-W03,bibliographic_note,"Biblioteca Virtual Miguel de Cervantes书目记该集1966年由Editorial Sudamericana在布宜诺斯艾利斯出版。",bibliographic_note,high,WCD07B-S07,DEFER,"source not independently inspectable; original publication statement not admitted"

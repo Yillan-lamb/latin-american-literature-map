@@ -1,0 +1,1028 @@
+fact_id,origin_material_id,card_id,subject_id,fact_field,value_text,material_class,origin_id,confidence,admission_status,usage_note
+V1-FCT-0001,A04-MAT-0001,V1-CARD-0001,V1-ENT-0002,birth_year,1899,fact,STG-FCT-0001,high,accepted_for_n2,
+V1-FCT-0002,A04-MAT-0002,V1-CARD-0001,V1-ENT-0002,death_year,1986,fact,STG-FCT-0002,high,accepted_for_n2,
+V1-FCT-0003,A04-MAT-0003,V1-CARD-0001,V1-ENT-0002,country_or_region,阿根廷,fact,STG-FCT-0003,high,accepted_for_n2,
+V1-FCT-0004,A04-MAT-0004,V1-CARD-0001,V1-ENT-0002,language,es,fact,STG-FCT-0004,high,accepted_for_n2,
+V1-FCT-0005,A04-MAT-0005,V1-CARD-0001,V1-ENT-0002,entity_layer,author,fact,STG-FCT-0005,high,accepted_for_n2,
+V1-FCT-0006,A04-MAT-0006,V1-CARD-0001,V1-ENT-0002,one_sentence_summary,诗人、短篇作家、批评家、散文家、教授，被誉为“作家的作家”,fact,STG-FCT-0006,high,accepted_for_n2,
+V1-FCT-0007,A04-MAT-0007,V1-CARD-0001,V1-ENT-0002,research_note,1914 年一战爆发后举家迁居瑞士，1919 年赴西班牙居留三年，1921 年回国传播极端主义，30 年代放弃其要旨,research_note,STG-FCT-0007,medium,accepted_for_n2,
+V1-FCT-0008,A04-MAT-0008,V1-CARD-0002,V1-ENT-0016,birth_year,1920,fact,STG-FCT-0008,medium,accepted_for_n2,页面未直接显示；依据 2020 年百年诞辰专刊与 Codex 核定（REVIEW 3.4）
+V1-FCT-0009,A04-MAT-0009,V1-CARD-0002,V1-ENT-0016,country_or_region,巴西,fact,STG-FCT-0009,high,accepted_for_n2,
+V1-FCT-0010,A04-MAT-0010,V1-CARD-0002,V1-ENT-0016,language,pt,fact,STG-FCT-0010,high,accepted_for_n2,
+V1-FCT-0011,A04-MAT-0011,V1-CARD-0002,V1-ENT-0016,entity_layer,author,fact,STG-FCT-0011,high,accepted_for_n2,
+V1-FCT-0012,A04-MAT-0012,V1-CARD-0002,V1-ENT-0016,one_sentence_summary,《G.H. 受难》(1964) 与《星辰时刻》(1977) 的作者，以《家庭纽带》(1960)、《外国军团》(1964) 奠定短篇声誉,fact,STG-FCT-0012,high,accepted_for_n2,
+V1-FCT-0013,A04-MAT-0013,V1-CARD-0003,V1-ENT-0003,entity_layer,work,fact,STG-FCT-0013,high,accepted_for_n2,
+V1-FCT-0014,A04-MAT-0014,V1-CARD-0003,V1-ENT-0003,genre_or_form,短篇小说（UNIDAD 8 选文）,fact,STG-FCT-0014,high,accepted_for_n2,
+V1-FCT-0015,A04-MAT-0015,V1-CARD-0003,V1-ENT-0003,one_sentence_summary,间谍余准的供述：借杀死汉学家艾伯特将英军炮兵阵地所在城名传回柏林；艾伯特解出崔朋“小说即迷宫”的时间分岔,fact,STG-FCT-0015,high,accepted_for_n2,
+V1-FCT-0016,A04-MAT-0016,V1-CARD-0003,V1-ENT-0003,key_character,余准、斯蒂芬·艾伯特、理查德·马登、维克托·鲁内贝格、崔朋,fact,STG-FCT-0016,high,accepted_for_n2,
+V1-FCT-0017,A04-MAT-0017,V1-CARD-0003,V1-ENT-0003,key_place,阿什格罗夫、阿尔贝、青岛,fact,STG-FCT-0017,medium,accepted_for_n2,
+V1-FCT-0018,A04-MAT-0018,V1-CARD-0004,V1-ENT-0004,entity_layer,work,fact,STG-FCT-0018,high,accepted_for_n2,与 1949 年同名作品集分层（REVIEW 3.3）
+V1-FCT-0019,A04-MAT-0019,V1-CARD-0004,V1-ENT-0004,genre_or_form,短篇小说（UNIDAD 8 选文）,fact,STG-FCT-0019,high,accepted_for_n2,
+V1-FCT-0020,A04-MAT-0020,V1-CARD-0004,V1-ENT-0004,one_sentence_summary,叙述者博尔赫斯在亡友贝亚特丽斯表兄达内里宅邸地窖得见“包罗一切空间点的”阿莱夫,fact,STG-FCT-0020,high,accepted_for_n2,
+V1-FCT-0021,A04-MAT-0021,V1-CARD-0004,V1-ENT-0004,key_character,贝亚特丽斯·维特博、卡洛斯·阿亨蒂诺·达内里、博尔赫斯（叙述者）,fact,STG-FCT-0021,high,accepted_for_n2,
+V1-FCT-0022,A04-MAT-0022,V1-CARD-0004,V1-ENT-0004,key_place,加雷街,fact,STG-FCT-0022,medium,accepted_for_n2,
+V1-FCT-0023,A04-MAT-0023,V1-CARD-0004,V1-ENT-0004,bibliographic_note,卷首题词引《哈姆雷特》II.2 与《利维坦》IV.46；文末献词致 Estela Canto,fact,STG-FCT-0023,medium,accepted_for_n2,
+V1-FCT-0024,A04-MAT-0024,V1-CARD-0004,V1-ENT-0004,research_note,Rosman 专论《Politics of the Name: On Borges's “El Aleph”》围绕命名、共同语言、翻译、文学共同体与国家身份解读（Codex 已独立复核，REVIEW 3.1）,research_note,STG-FCT-0024,medium,accepted_for_n2,
+V1-FCT-0025,A04-MAT-0025,V1-CARD-0005,V1-ENT-0011,entity_layer,collection,fact,STG-FCT-0025,high,accepted_for_n2,
+V1-FCT-0026,A04-MAT-0026,V1-CARD-0005,V1-ENT-0011,first_publication_year,1944,fact,STG-FCT-0026,high,accepted_for_n2,
+V1-FCT-0027,A04-MAT-0027,V1-CARD-0005,V1-ENT-0011,genre_or_form,短篇作品集,fact,STG-FCT-0027,high,accepted_for_n2,
+V1-FCT-0028,A04-MAT-0028,V1-CARD-0005,V1-ENT-0011,bibliographic_note,SRC-0007 页面记录：1944 初版、1956 修订,fact,STG-FCT-0028,medium,accepted_for_n2,
+V1-FCT-0029,A04-MAT-0029,V1-CARD-0006,V1-ENT-0017,entity_layer,work,fact,STG-FCT-0031,high,accepted_for_n2,
+V1-FCT-0030,A04-MAT-0030,V1-CARD-0006,V1-ENT-0017,first_publication_year,1973,fact,STG-FCT-0032,high,accepted_for_n2,
+V1-FCT-0031,A04-MAT-0031,V1-CARD-0006,V1-ENT-0017,genre_or_form,官网列“Romance”；混合体裁、无常规情节（兼有小说/诗/日记/随笔碎片）,fact,STG-FCT-0033,medium,accepted_for_n2,
+V1-FCT-0032,A04-MAT-0032,V1-CARD-0006,V1-ENT-0017,one_sentence_summary,据 1971 年手稿《Objeto gritante》改写；主题为时间与“当下瞬间”、沉默、创作与女性声音,fact,STG-FCT-0034,medium,accepted_for_n2,
+V1-FCT-0033,A04-MAT-0033,V1-CARD-0006,V1-ENT-0017,bibliographic_note,源自更早专栏文字与《外国军团》中的文本,fact,STG-FCT-0035,medium,accepted_for_n2,
+V1-FCT-0034,A04-MAT-0034,V1-CARD-0006,V1-ENT-0017,research_note,晚年写作《活水》期间开始绘画，与超越言语达至沉默的努力并提,research_note,STG-FCT-0036,medium,accepted_for_n2,
+V1-FCT-0035,A04-MAT-0035,V1-CARD-0007,V1-ENT-0018,entity_layer,work,fact,STG-FCT-0037,high,accepted_for_n2,与 1985 年电影 adaptation 分层（REVIEW 3.3）
+V1-FCT-0036,A04-MAT-0036,V1-CARD-0007,V1-ENT-0018,first_publication_year,1977,fact,STG-FCT-0038,high,accepted_for_n2,
+V1-FCT-0037,A04-MAT-0037,V1-CARD-0007,V1-ENT-0018,genre_or_form,官网列“Novela”（中篇小说）,fact,STG-FCT-0039,medium,accepted_for_n2,
+V1-FCT-0038,A04-MAT-0038,V1-CARD-0007,V1-ENT-0018,one_sentence_summary,东北部贫苦移民少女玛卡贝娅在里约被男友抛弃、遭友人背叛，叙述者罗德里戈·S.M. 反思书写她的故事,fact,STG-FCT-0040,high,accepted_for_n2,
+V1-FCT-0039,A04-MAT-0039,V1-CARD-0007,V1-ENT-0018,key_character,玛卡贝娅、奥林皮科、格洛里娅、罗德里戈·S.M.,fact,STG-FCT-0041,medium,accepted_for_n2,
+V1-FCT-0040,A04-MAT-0040,V1-CARD-0007,V1-ENT-0018,key_place,里约热内卢,fact,STG-FCT-0042,medium,accepted_for_n2,
+V1-FCT-0041,A04-MAT-0041,V1-CARD-0007,V1-ENT-0018,research_note,社会参与文学的悖论化为“虚构面具”；叙述者之声与作家之声时分时合，贫穷人物始终沉默,research_note,STG-FCT-0043,medium,accepted_for_n2,
+V1-FCT-0042,A04-MAT-0042,V1-CARD-0008,V1-ENT-0019,entity_layer,collection,fact,STG-FCT-0044,high,accepted_for_n2,13 篇短篇集；按试行 Schema §5 种子，最终命名待 N2
+V1-FCT-0043,A04-MAT-0043,V1-CARD-0008,V1-ENT-0019,first_publication_year,1960,fact,STG-FCT-0045,high,accepted_for_n2,
+V1-FCT-0044,A04-MAT-0044,V1-CARD-0008,V1-ENT-0019,genre_or_form,短篇集（13 篇）,fact,STG-FCT-0046,high,accepted_for_n2,
+V1-FCT-0045,A04-MAT-0045,V1-CARD-0008,V1-ENT-0019,one_sentence_summary,从城市与家庭场景切入内心生活、家庭关系、沉默、姿态与揭示时刻,fact,STG-FCT-0047,medium,accepted_for_n2,
+V1-FCT-0046,A04-MAT-0046,V1-CARD-0008,V1-ENT-0019,bibliographic_note,1961 年获 Jabuti 文学奖,fact,STG-FCT-0048,high,accepted_for_n2,
+V1-FCT-0047,A04-MAT-0047,V1-CARD-0008,V1-ENT-0019,research_note,女性人物在 21 世纪仍具共鸣；网络语录多被去语境化，文章主张回到文本（fólio 百年诞辰专刊）,research_note,STG-FCT-0049,medium,accepted_for_n2,
+V1-FCT-0048,A04-MAT-0048,V1-CARD-0003,V1-ENT-0003,first_publication_year,1941,fact,STG-FCT-0050,high,accepted_for_n2,Codex 权威来源补充
+V1-FCT-0049,A04-MAT-0049,V1-CARD-0004,V1-ENT-0004,first_publication_year,1945,fact,STG-FCT-0051,high,accepted_for_n2,Codex 权威来源补充；替代候选实体中的 1949 误值
+V1-FCT-0050,A04-MAT-0050,V1-CARD-0002,V1-ENT-0016,death_year,1977,fact,STG-FCT-0052,high,accepted_for_n2,Codex 权威来源补充
+V1-FCT-0051,A04-MAT-0051,V1-CARD-0009,V1-ENT-0029,birth_year,1916,fact,B01-FCT-0001,high,batch_retained_candidate,12 月 11 日生于普埃布拉
+V1-FCT-0052,A04-MAT-0052,V1-CARD-0009,V1-ENT-0029,death_year,1998,fact,B01-FCT-0002,high,batch_retained_candidate,8 月 22 日卒于库埃纳瓦卡
+V1-FCT-0053,A04-MAT-0053,V1-CARD-0009,V1-ENT-0029,country_or_region,墨西哥,fact,B01-FCT-0003,high,batch_retained_candidate,
+V1-FCT-0054,A04-MAT-0054,V1-CARD-0009,V1-ENT-0029,language,es,fact,B01-FCT-0004,high,batch_retained_candidate,
+V1-FCT-0055,A04-MAT-0055,V1-CARD-0009,V1-ENT-0029,entity_layer,author,fact,B01-FCT-0005,high,batch_retained_candidate,
+V1-FCT-0056,A04-MAT-0056,V1-CARD-0009,V1-ENT-0029,one_sentence_summary,墨西哥剧作家与小说家，以《未来的回忆》知名；1937 年与奥克塔维奥·帕斯结婚，1968 年后长期流亡,fact,B01-FCT-0006,high,batch_retained_candidate,
+V1-FCT-0057,A04-MAT-0057,V1-CARD-0009,V1-ENT-0029,research_note,婚姻（1937-1959）与 1968 年特拉特洛尔科事件后流亡美国/法国约 20 年，1994 年前后返墨（词条）,research_note,B01-FCT-0007,medium,batch_retained_candidate,
+V1-FCT-0058,A04-MAT-0058,V1-CARD-0009,V1-ENT-0029,bibliographic_note,奖项：Xavier Villaurrutia 1963、Grijalbo 小说奖 1981（词条）,bibliographic_note,B01-FCT-0008,medium,batch_retained_candidate,
+V1-FCT-0059,A04-MAT-0059,V1-CARD-0013,V1-ENT-0030,birth_year,1925,fact,B01-FCT-0009,high,batch_retained_candidate,5 月 25 日生于墨西哥城
+V1-FCT-0060,A04-MAT-0060,V1-CARD-0013,V1-ENT-0030,death_year,1974,fact,B01-FCT-0010,high,batch_retained_candidate,8 月 7 日卒于以色列特拉维夫
+V1-FCT-0061,A04-MAT-0061,V1-CARD-0013,V1-ENT-0030,country_or_region,墨西哥,fact,B01-FCT-0011,high,batch_retained_candidate,
+V1-FCT-0062,A04-MAT-0062,V1-CARD-0013,V1-ENT-0030,language,es,fact,B01-FCT-0012,high,batch_retained_candidate,
+V1-FCT-0063,A04-MAT-0063,V1-CARD-0013,V1-ENT-0030,entity_layer,author,fact,B01-FCT-0013,high,batch_retained_candidate,
+V1-FCT-0064,A04-MAT-0064,V1-CARD-0013,V1-ENT-0030,one_sentence_summary,墨西哥作家、外交官；幼年在恰帕斯科米坦度过；UNAM 攻读法律与哲学；曾任驻以色列大使,fact,B01-FCT-0014,high,batch_retained_candidate,
+V1-FCT-0065,A04-MAT-0065,V1-CARD-0013,V1-ENT-0030,research_note,曾任 INI 编辑、UNAM 出版社主任、文哲系教授（词条）,research_note,B01-FCT-0015,medium,batch_retained_candidate,
+V1-FCT-0066,A04-MAT-0066,V1-CARD-0013,V1-ENT-0030,bibliographic_note,奖项：Premio Chiapas 1958、Villaurrutia 1960、Sor Juana Inés de la Cruz 1962 等（词条）,bibliographic_note,B01-FCT-0016,medium,batch_retained_candidate,
+V1-FCT-0067,A04-MAT-0067,V1-CARD-0017,V1-ENT-0031,birth_year,1917,fact,B01-FCT-0017,high,batch_retained_candidate,5 月 16 日生于阿普尔科（登记于萨尤拉）
+V1-FCT-0068,A04-MAT-0068,V1-CARD-0017,V1-ENT-0031,death_year,1986,fact,B01-FCT-0018,high,batch_retained_candidate,1 月 7 日卒于墨西哥城
+V1-FCT-0069,A04-MAT-0069,V1-CARD-0017,V1-ENT-0031,country_or_region,墨西哥,fact,B01-FCT-0019,high,batch_retained_candidate,
+V1-FCT-0070,A04-MAT-0070,V1-CARD-0017,V1-ENT-0031,language,es,fact,B01-FCT-0020,high,batch_retained_candidate,
+V1-FCT-0071,A04-MAT-0071,V1-CARD-0017,V1-ENT-0031,entity_layer,author,fact,B01-FCT-0021,high,batch_retained_candidate,
+V1-FCT-0072,A04-MAT-0072,V1-CARD-0017,V1-ENT-0031,one_sentence_summary,墨西哥小说家与摄影师，以《佩德罗·巴拉莫》与《燃烧的原野》著称；童年历经革命与基督战争暴力,fact,B01-FCT-0022,high,batch_retained_candidate,
+V1-FCT-0073,A04-MAT-0073,V1-CARD-0017,V1-ENT-0031,research_note,1952-1953 年墨西哥作家中心（Centro Mexicano de Escritores）奖学金期间完成两部代表作；曾任 INI 编辑（词条）,research_note,B01-FCT-0023,medium,batch_retained_candidate,
+V1-FCT-0074,A04-MAT-0074,V1-CARD-0017,V1-ENT-0031,bibliographic_note,奖项：Xavier Villaurrutia 1955、国家文学奖 1970、阿斯图里亚斯亲王奖 1983（词条）,bibliographic_note,B01-FCT-0024,medium,batch_retained_candidate,
+V1-FCT-0075,A04-MAT-0075,V1-CARD-0010,V1-ENT-0032,entity_layer,work,fact,B01-FCT-0025,high,batch_retained_candidate,
+V1-FCT-0076,A04-MAT-0076,V1-CARD-0010,V1-ENT-0032,first_publication_year,1963,fact,B01-FCT-0026,high,batch_retained_candidate,Joaquín Mortiz（Novelistas Contemporáneos）
+V1-FCT-0077,A04-MAT-0077,V1-CARD-0010,V1-ENT-0032,genre_or_form,长篇小说,fact,B01-FCT-0027,high,batch_retained_candidate,
+V1-FCT-0078,A04-MAT-0078,V1-CARD-0010,V1-ENT-0032,one_sentence_summary,以村镇伊斯特佩克为全知叙述者，讲述革命后秩序幻灭与基督战争之灾；同年获 Xavier Villaurrutia 奖,fact,B01-FCT-0028,high,batch_retained_candidate,
+V1-FCT-0079,A04-MAT-0079,V1-CARD-0010,V1-ENT-0032,key_character,弗朗西斯科·罗萨斯、胡利娅·安德拉德,fact,B01-FCT-0029,medium,batch_retained_candidate,
+V1-FCT-0080,A04-MAT-0080,V1-CARD-0010,V1-ENT-0032,key_place,伊斯特佩克,fact,B01-FCT-0030,high,batch_retained_candidate,
+V1-FCT-0081,A04-MAT-0081,V1-CARD-0010,V1-ENT-0032,research_note,RCL 论文以记忆/anámnesis 与历史真相解读；1968 年 Ripstein 电影改编（B01-SRC-0003/0004）,research_note,B01-FCT-0031,medium,batch_retained_candidate,
+V1-FCT-0082,A04-MAT-0082,V1-CARD-0011,V1-ENT-0033,entity_layer,collection,fact,B01-FCT-0032,high,batch_retained_candidate,
+V1-FCT-0083,A04-MAT-0083,V1-CARD-0011,V1-ENT-0033,first_publication_year,1964,fact,B01-FCT-0033,high,batch_retained_candidate,Universidad Veracruzana（Ficción 58）
+V1-FCT-0084,A04-MAT-0084,V1-CARD-0011,V1-ENT-0033,genre_or_form,短篇集,fact,B01-FCT-0034,high,batch_retained_candidate,
+V1-FCT-0085,A04-MAT-0085,V1-CARD-0011,V1-ENT-0033,one_sentence_summary,1964 年出版的短篇集，含《La culpa es de los tlaxcaltecas》,fact,B01-FCT-0035,medium,batch_retained_candidate,
+V1-FCT-0086,A04-MAT-0086,V1-CARD-0012,V1-ENT-0034,entity_layer,work,fact,B01-FCT-0036,medium,batch_retained_candidate,
+V1-FCT-0087,A04-MAT-0087,V1-CARD-0012,V1-ENT-0034,first_publication_year,1981,fact,B01-FCT-0037,medium,batch_retained_candidate,获 Grijalbo 小说奖；出版信息待核
+V1-FCT-0088,A04-MAT-0088,V1-CARD-0012,V1-ENT-0034,genre_or_form,长篇小说,fact,B01-FCT-0038,medium,batch_retained_candidate,体裁表述待核
+V1-FCT-0089,A04-MAT-0089,V1-CARD-0014,V1-ENT-0035,entity_layer,work,fact,B01-FCT-0039,high,batch_retained_candidate,
+V1-FCT-0090,A04-MAT-0090,V1-CARD-0014,V1-ENT-0035,first_publication_year,1957,fact,B01-FCT-0040,high,batch_retained_candidate,FCE（Letras Mexicanas 36）
+V1-FCT-0091,A04-MAT-0091,V1-CARD-0014,V1-ENT-0035,genre_or_form,长篇小说,fact,B01-FCT-0041,high,batch_retained_candidate,
+V1-FCT-0092,A04-MAT-0092,V1-CARD-0014,V1-ENT-0035,one_sentence_summary,恰帕斯村镇中白人世界与 chontal 印第安世界的张力；1958 年获 Premio Chiapas（词条）,fact,B01-FCT-0042,medium,batch_retained_candidate,
+V1-FCT-0093,A04-MAT-0093,V1-CARD-0014,V1-ENT-0035,key_place,恰帕斯,fact,B01-FCT-0043,medium,batch_retained_candidate,
+V1-FCT-0094,A04-MAT-0094,V1-CARD-0014,V1-ENT-0035,research_note,LM 论文：暴力与语言的交织、书面语/口语错位、沉默作为暴力形式（B01-SRC-0008）,research_note,B01-FCT-0044,medium,batch_retained_candidate,
+V1-FCT-0095,A04-MAT-0095,V1-CARD-0015,V1-ENT-0036,entity_layer,work,fact,B01-FCT-0045,high,batch_retained_candidate,
+V1-FCT-0096,A04-MAT-0096,V1-CARD-0015,V1-ENT-0036,first_publication_year,1962,fact,B01-FCT-0046,high,batch_retained_candidate,Joaquín Mortiz
+V1-FCT-0097,A04-MAT-0097,V1-CARD-0015,V1-ENT-0036,genre_or_form,长篇小说,fact,B01-FCT-0047,medium,batch_retained_candidate,体裁表述以作品页书目为据
+V1-FCT-0098,A04-MAT-0098,V1-CARD-0016,V1-ENT-0037,entity_layer,collection,fact,B01-FCT-0048,high,batch_retained_candidate,
+V1-FCT-0099,A04-MAT-0099,V1-CARD-0016,V1-ENT-0037,first_publication_year,1972,fact,B01-FCT-0049,high,batch_retained_candidate,FCE（Letras Mexicanas）
+V1-FCT-0100,A04-MAT-0100,V1-CARD-0016,V1-ENT-0037,genre_or_form,诗集,fact,B01-FCT-0050,high,batch_retained_candidate,
+V1-FCT-0101,A04-MAT-0101,V1-CARD-0016,V1-ENT-0037,bibliographic_note,副题 obra poética 1948-1971：收录 1948-1971 年诗作（作品页标题）,bibliographic_note,B01-FCT-0051,medium,batch_retained_candidate,
+V1-FCT-0102,A04-MAT-0102,V1-CARD-0018,V1-ENT-0038,entity_layer,work,fact,B01-FCT-0052,high,batch_retained_candidate,
+V1-FCT-0103,A04-MAT-0103,V1-CARD-0018,V1-ENT-0038,first_publication_year,1955,fact,B01-FCT-0053,high,batch_retained_candidate,1955 年 3 月 FCE（Letras Mexicanas 19）
+V1-FCT-0104,A04-MAT-0104,V1-CARD-0018,V1-ENT-0038,genre_or_form,长篇小说,fact,B01-FCT-0054,high,batch_retained_candidate,
+V1-FCT-0105,A04-MAT-0105,V1-CARD-0018,V1-ENT-0038,one_sentence_summary,Juan Preciado 赴科马拉寻父与考迪罗 Pedro Páramo 命运的双主线；村镇最终成为鬼村,fact,B01-FCT-0055,high,batch_retained_candidate,
+V1-FCT-0106,A04-MAT-0106,V1-CARD-0018,V1-ENT-0038,key_character,胡安·普雷西亚多、佩德罗·巴拉莫（人物）,fact,B01-FCT-0056,high,batch_retained_candidate,
+V1-FCT-0107,A04-MAT-0107,V1-CARD-0018,V1-ENT-0038,key_place,科马拉,fact,B01-FCT-0057,high,batch_retained_candidate,
+V1-FCT-0108,A04-MAT-0108,V1-CARD-0018,V1-ENT-0038,research_note,LM 论文：70 个片段构成；片段 67 以十四句对话浓缩 1915-1929 年（B01-SRC-0012）,research_note,B01-FCT-0058,medium,batch_retained_candidate,
+V1-FCT-0109,A04-MAT-0109,V1-CARD-0019,V1-ENT-0039,entity_layer,collection,fact,B01-FCT-0059,high,batch_retained_candidate,
+V1-FCT-0110,A04-MAT-0110,V1-CARD-0019,V1-ENT-0039,first_publication_year,1953,fact,B01-FCT-0060,high,batch_retained_candidate,FCE（Letras Mexicanas 11）
+V1-FCT-0111,A04-MAT-0111,V1-CARD-0019,V1-ENT-0039,genre_or_form,短篇集,fact,B01-FCT-0061,high,batch_retained_candidate,
+V1-FCT-0112,A04-MAT-0112,V1-CARD-0019,V1-ENT-0039,one_sentence_summary,1953 年 FCE 出版；以哈利斯科乡村为背景的短篇集,fact,B01-FCT-0062,medium,batch_retained_candidate,篇数与篇目明细来源未提供，待补
+V1-FCT-0113,A04-MAT-0113,V1-CARD-0020,V1-ENT-0040,entity_layer,work,fact,B01-FCT-0063,high,batch_retained_candidate,
+V1-FCT-0114,A04-MAT-0114,V1-CARD-0020,V1-ENT-0040,composition_year,1958,bibliographic_note,B01-FCT-0064,high,batch_retained_candidate,1958 年写成（R1 拆行，REVIEW §3.3）
+V1-FCT-0115,A04-MAT-0115,V1-CARD-0020,V1-ENT-0040,publication_year,1980,bibliographic_note,B01-FCT-0064,high,batch_retained_candidate,1980 年 Era 出版（R1 拆行，REVIEW §3.3）
+V1-FCT-0116,A04-MAT-0116,V1-CARD-0020,V1-ENT-0040,genre_or_form,中篇小说/电影文本,fact,B01-FCT-0065,medium,batch_retained_candidate,体裁表述待核
+V1-FCT-0117,A04-MAT-0117,V1-CARD-0021,V1-ENT-0072,country_or_region,哥伦比亚,fact,B02-FCT-0003,high,batch_retained_candidate,CVC：加勒比哥伦比亚村落 Aracataca 出生
+V1-FCT-0118,A04-MAT-0118,V1-CARD-0021,V1-ENT-0072,language,es,fact,B02-FCT-0004,high,batch_retained_candidate,西语文学（CVC：“literatura en lengua española”）
+V1-FCT-0119,A04-MAT-0119,V1-CARD-0021,V1-ENT-0072,entity_layer,author,fact,B02-FCT-0005,high,batch_retained_candidate,
+V1-FCT-0120,A04-MAT-0120,V1-CARD-0021,V1-ENT-0072,one_sentence_summary,哥伦比亚小说家，1982 年诺贝尔文学奖得主，生于加勒比哥伦比亚阿卡塔卡，其故乡在马孔多名下进入文学,fact,B02-FCT-0006,high,batch_retained_candidate,CVC 数字展简介
+V1-FCT-0121,A04-MAT-0121,V1-CARD-0021,V1-ENT-0072,research_note,诺贝尔奖获奖理由：小说与短篇把奇幻与现实结合于丰富想象世界，映照一个大陆的生活与冲突,research_note,B02-FCT-0007,high,batch_retained_candidate,NobelPrize.org 原文获奖理由
+V1-FCT-0122,A04-MAT-0122,V1-CARD-0021,V1-ENT-0072,award,诺贝尔文学奖（1982）,fact,B02-FCT-0008,high,batch_retained_candidate,NobelPrize.org 1982 年文学奖
+V1-FCT-0123,A04-MAT-0123,V1-CARD-0025,V1-ENT-0073,language,es,fact,B02-FCT-0012,high,batch_retained_candidate,西语文学
+V1-FCT-0124,A04-MAT-0124,V1-CARD-0025,V1-ENT-0073,entity_layer,author,fact,B02-FCT-0013,high,batch_retained_candidate,
+V1-FCT-0125,A04-MAT-0125,V1-CARD-0025,V1-ENT-0073,one_sentence_summary,科塔萨尔的叙事自早期小说起即对抗既定文学规范，《跳房子》揭示其对传统小说观念的突破，强调碎片叙事与读者的积极参与,fact,B02-FCT-0014,high,batch_retained_candidate,R1：仅保留 SRC-0007 明确支持部分；梦境/早期幻想拆至 FCT-0083
+V1-FCT-0126,A04-MAT-0126,V1-CARD-0029,V1-ENT-0074,country_or_region,古巴,fact,B02-FCT-0017,high,batch_retained_candidate,RFRM 首句“El cubano Alejo Carpentier”
+V1-FCT-0127,A04-MAT-0127,V1-CARD-0029,V1-ENT-0074,language,es,fact,B02-FCT-0018,high,batch_retained_candidate,西语文学
+V1-FCT-0128,A04-MAT-0128,V1-CARD-0029,V1-ENT-0074,entity_layer,author,fact,B02-FCT-0019,high,batch_retained_candidate,
+V1-FCT-0129,A04-MAT-0129,V1-CARD-0029,V1-ENT-0074,one_sentence_summary,古巴跨文化作家，为呈现拉美本质发展出 lo real maravilloso 与 neobarroco 等文学工具,fact,B02-FCT-0020,high,batch_retained_candidate,RFRM 论文判断
+V1-FCT-0130,A04-MAT-0130,V1-CARD-0029,V1-ENT-0074,research_note,RFRM 论文视卡彭铁尔为“处于文化之间”的跨文化作者，Mackandal 人物体现神奇现实,research_note,B02-FCT-0021,high,batch_retained_candidate,Araújo Branco 2013
+V1-FCT-0131,A04-MAT-0131,V1-CARD-0022,V1-ENT-0075,entity_layer,work,fact,B02-FCT-0022,high,batch_retained_candidate,
+V1-FCT-0132,A04-MAT-0132,V1-CARD-0022,V1-ENT-0075,genre_or_form,长篇小说,fact,B02-FCT-0024,high,batch_retained_candidate,Javeriana：“la novela Cien años de soledad”
+V1-FCT-0133,A04-MAT-0133,V1-CARD-0022,V1-ENT-0075,one_sentence_summary,Javeriana 论文认为作品伦理源自圣经神话并构成统一工具，借结构、人物与主题照见人性境况,fact,B02-FCT-0025,high,batch_retained_candidate,R1：删除无来源支持的“马孔多兴衰/家族史诗”表述
+V1-FCT-0134,A04-MAT-0134,V1-CARD-0023,V1-ENT-0076,entity_layer,work,fact,B02-FCT-0027,high,batch_retained_candidate,
+V1-FCT-0135,A04-MAT-0135,V1-CARD-0023,V1-ENT-0076,genre_or_form,中篇小说,fact,B02-FCT-0029,high,batch_retained_candidate,Encuentro：“la célebre novela”
+V1-FCT-0136,A04-MAT-0136,V1-CARD-0023,V1-ENT-0076,one_sentence_summary,上校等待来信的漫长岁月：儿子死于革命活动、家宅抵押、以斗鸡为生，最终拒绝卖鸡并等待斗鸡之日,fact,B02-FCT-0030,high,batch_retained_candidate,Encuentro 摘要
+V1-FCT-0137,A04-MAT-0137,V1-CARD-0023,V1-ENT-0076,key_character,上校;奥古斯丁,fact,B02-FCT-0031,high,batch_retained_candidate,
+V1-FCT-0138,A04-MAT-0138,V1-CARD-0024,V1-ENT-0077,entity_layer,work,fact,B02-FCT-0032,high,batch_retained_candidate,
+V1-FCT-0139,A04-MAT-0139,V1-CARD-0024,V1-ENT-0077,first_publication_year,1981,fact,B02-FCT-0033,high,batch_retained_candidate,Atenea 论文首页标注 (1981)
+V1-FCT-0140,A04-MAT-0140,V1-CARD-0024,V1-ENT-0077,genre_or_form,小说（表面侦探小说结构）,fact,B02-FCT-0034,high,batch_retained_candidate,Atenea：“novela detectivesca”表面结构反讽
+V1-FCT-0141,A04-MAT-0141,V1-CARD-0024,V1-ENT-0077,one_sentence_summary,以圣地亚哥·纳萨尔之死为中心的重构叙事；犯罪仅是前文本，真正探究导致其被复仇杀害的原始之罪,fact,B02-FCT-0035,high,batch_retained_candidate,
+V1-FCT-0142,A04-MAT-0142,V1-CARD-0024,V1-ENT-0077,key_character,圣地亚哥·纳萨尔,fact,B02-FCT-0036,high,batch_retained_candidate,
+V1-FCT-0143,A04-MAT-0143,V1-CARD-0026,V1-ENT-0078,entity_layer,work,fact,B02-FCT-0037,high,batch_retained_candidate,
+V1-FCT-0144,A04-MAT-0144,V1-CARD-0026,V1-ENT-0078,genre_or_form,长篇小说,fact,B02-FCT-0039,high,batch_retained_candidate,Passagens：“su obra más importante”
+V1-FCT-0145,A04-MAT-0145,V1-CARD-0026,V1-ENT-0078,one_sentence_summary,打破传统小说观念的实验小说：碎片化叙述与多种话语交替，召唤读者积极参与文本生产,fact,B02-FCT-0040,high,batch_retained_candidate,
+V1-FCT-0146,A04-MAT-0146,V1-CARD-0026,V1-ENT-0078,research_note,Passagens 论文将 Rayuela 与《Último round》的“影格叙述”并置讨论,research_note,B02-FCT-0041,medium,batch_retained_candidate,
+V1-FCT-0147,A04-MAT-0147,V1-CARD-0027,V1-ENT-0082,entity_layer,collection,fact,B02-FCT-0042,high,batch_retained_candidate,短篇集
+V1-FCT-0148,A04-MAT-0148,V1-CARD-0027,V1-ENT-0082,genre_or_form,幻想短篇集,fact,B02-FCT-0044,high,batch_retained_candidate,Orbis：“cuentos fantásticos de la primera etapa”
+V1-FCT-0149,A04-MAT-0149,V1-CARD-0027,V1-ENT-0082,one_sentence_summary,科塔萨尔早期幻想短篇集；人物与梦境概念保持虚假关系，读者在幻想与真实之间被引导,fact,B02-FCT-0045,high,batch_retained_candidate,
+V1-FCT-0150,A04-MAT-0150,V1-CARD-0028,V1-ENT-0083,entity_layer,collection,fact,B02-FCT-0046,high,batch_retained_candidate,短篇集
+V1-FCT-0151,A04-MAT-0151,V1-CARD-0028,V1-ENT-0083,genre_or_form,幻想短篇集,fact,B02-FCT-0048,high,batch_retained_candidate,
+V1-FCT-0152,A04-MAT-0152,V1-CARD-0028,V1-ENT-0083,one_sentence_summary,UB 论文以《游戏的终结》为对象展开“面具游戏与自我折叠”的阅读路径研究（题名所载主题判断；正文摘要本站不可得）,fact,B02-FCT-0049,medium,batch_retained_candidate,R1：删除来源不能证明的具体篇目清单，仅保留题名支持的最低表述
+V1-FCT-0153,A04-MAT-0153,V1-CARD-0030,V1-ENT-0079,entity_layer,work,fact,B02-FCT-0050,high,batch_retained_candidate,
+V1-FCT-0154,A04-MAT-0154,V1-CARD-0030,V1-ENT-0079,genre_or_form,长篇小说,fact,B02-FCT-0052,high,batch_retained_candidate,
+V1-FCT-0155,A04-MAT-0155,V1-CARD-0030,V1-ENT-0079,one_sentence_summary,以跨文化视角呈现拉丁美洲：Mackandal 体现神奇现实，Henri Christophe 等人物代表“新世界”,fact,B02-FCT-0053,high,batch_retained_candidate,
+V1-FCT-0156,A04-MAT-0156,V1-CARD-0030,V1-ENT-0079,key_character,马康达尔;亨利·克里斯托夫,fact,B02-FCT-0054,high,batch_retained_candidate,
+V1-FCT-0157,A04-MAT-0157,V1-CARD-0031,V1-ENT-0080,entity_layer,work,fact,B02-FCT-0055,high,batch_retained_candidate,
+V1-FCT-0158,A04-MAT-0158,V1-CARD-0031,V1-ENT-0080,genre_or_form,长篇小说,fact,B02-FCT-0057,high,batch_retained_candidate,
+V1-FCT-0159,A04-MAT-0159,V1-CARD-0031,V1-ENT-0080,one_sentence_summary,Maturo 以海德格尔 Kehre 概念解读：小说呈现“美洲作为去蔽与西方传统新起点”,fact,B02-FCT-0058,medium,batch_retained_candidate,
+V1-FCT-0160,A04-MAT-0160,V1-CARD-0031,V1-ENT-0080,research_note,论文从阿尔瓦尔·努涅斯《遇难记》到卡彭铁尔《消逝的足迹》的谱系解读,research_note,B02-FCT-0059,medium,batch_retained_candidate,
+V1-FCT-0161,A04-MAT-0161,V1-CARD-0032,V1-ENT-0081,entity_layer,work,fact,B02-FCT-0060,high,batch_retained_candidate,
+V1-FCT-0162,A04-MAT-0162,V1-CARD-0032,V1-ENT-0081,first_publication_year,1962,fact,B02-FCT-0061,high,batch_retained_candidate,Letras 标题标注 (1962)
+V1-FCT-0163,A04-MAT-0163,V1-CARD-0032,V1-ENT-0081,genre_or_form,长篇小说,fact,B02-FCT-0062,high,batch_retained_candidate,
+V1-FCT-0164,A04-MAT-0164,V1-CARD-0032,V1-ENT-0081,one_sentence_summary,以艺术物件与视觉体制的 ecfrasis 组织叙事，批判启蒙现代性及其对拉丁美洲的影响,fact,B02-FCT-0063,high,batch_retained_candidate,
+V1-FCT-0165,A04-MAT-0165,V1-CARD-0025,V1-ENT-0073,one_sentence_summary,科塔萨尔早期幻想短篇（La otra orilla、Bestiario、Final del juego）中人物与梦境概念保持虚假关系,fact,B02-FCT-0083,high,batch_retained_candidate,R1：自原 FCT-0014 拆出，梦境/早期幻想部分由 SRC-0006 单独支持
+V1-FCT-0166,A04-MAT-0166,V1-CARD-0033,V1-ENT-0114,birth_year,1936,fact,B03-FCT-0001,high,batch_retained_candidate,Nobel：Born 28 March 1936
+V1-FCT-0167,A04-MAT-0167,V1-CARD-0033,V1-ENT-0114,death_year,2025,fact,B03-FCT-0002,high,batch_retained_candidate,"Nobel：Died 13 April 2025, Lima, Peru（权威直接核验）"
+V1-FCT-0168,A04-MAT-0168,V1-CARD-0033,V1-ENT-0114,country_or_region,秘鲁,fact,B03-FCT-0003,high,batch_retained_candidate,Nobel：Peruvian author
+V1-FCT-0169,A04-MAT-0169,V1-CARD-0033,V1-ENT-0114,entity_layer,author,fact,B03-FCT-0004,high,batch_retained_candidate,
+V1-FCT-0170,A04-MAT-0170,V1-CARD-0033,V1-ENT-0114,one_sentence_summary,秘鲁小说家，2010 年诺贝尔文学奖得主，曾为 1990 年秘鲁总统选举候选人，生前大部分时间居于马德里,fact,B03-FCT-0005,high,batch_retained_candidate,Nobel facts 综合
+V1-FCT-0171,A04-MAT-0171,V1-CARD-0033,V1-ENT-0114,award,诺贝尔文学奖（2010）,fact,B03-FCT-0006,high,batch_retained_candidate,NobelPrize.org
+V1-FCT-0172,A04-MAT-0172,V1-CARD-0033,V1-ENT-0114,research_note,获奖理由：对权力结构的绘图与个体抵抗、反叛和失败的尖锐形象,research_note,B03-FCT-0007,high,batch_retained_candidate,NobelPrize.org 原文
+V1-FCT-0173,A04-MAT-0173,V1-CARD-0033,V1-ENT-0114,personal_note,Nobel facts 页称其“已婚并有三个孩子”（页面为旧版表述，未反映后续婚姻变化，照录）,fact,B03-FCT-0008,medium,batch_retained_candidate,Nobel：is married with three children
+V1-FCT-0174,A04-MAT-0174,V1-CARD-0037,V1-ENT-0115,birth_year,1904,fact,B03-FCT-0009,high,batch_retained_candidate,Nobel：Born 12 July 1904；CVC 同
+V1-FCT-0175,A04-MAT-0175,V1-CARD-0037,V1-ENT-0115,death_year,1973,fact,B03-FCT-0010,high,batch_retained_candidate,Nobel：Died 23 September 1973；CVC 同
+V1-FCT-0176,A04-MAT-0176,V1-CARD-0037,V1-ENT-0115,country_or_region,智利,fact,B03-FCT-0011,high,batch_retained_candidate,Nobel：Born/Died/Residence 智利
+V1-FCT-0177,A04-MAT-0177,V1-CARD-0037,V1-ENT-0115,original_name,Neftalí Ricardo Reyes Basoalto,fact,B03-FCT-0012,high,batch_retained_candidate,CVC：原名，1920 年首用笔名 Pablo Neruda、1946 年正式采用
+V1-FCT-0178,A04-MAT-0178,V1-CARD-0037,V1-ENT-0115,entity_layer,author,fact,B03-FCT-0013,high,batch_retained_candidate,
+V1-FCT-0179,A04-MAT-0179,V1-CARD-0037,V1-ENT-0115,one_sentence_summary,智利诗人，1971 年诺贝尔文学奖得主，曾任外交官与智利共产党参议员,fact,B03-FCT-0014,high,batch_retained_candidate,Nobel facts 综合
+V1-FCT-0180,A04-MAT-0180,V1-CARD-0037,V1-ENT-0115,award,诺贝尔文学奖（1971）,fact,B03-FCT-0015,high,batch_retained_candidate,NobelPrize.org
+V1-FCT-0181,A04-MAT-0181,V1-CARD-0037,V1-ENT-0115,research_note,获奖理由：以元素性力量的诗使一个大陆的命运与梦想复活,research_note,B03-FCT-0016,high,batch_retained_candidate,NobelPrize.org 原文
+V1-FCT-0182,A04-MAT-0182,V1-CARD-0037,V1-ENT-0115,career_note,1927 年起任外交官（缅甸、新加坡、爪哇、中国、阿根廷、西班牙等地）；1934-1936 居西班牙,fact,B03-FCT-0017,high,batch_retained_candidate,CVC 传记
+V1-FCT-0183,A04-MAT-0183,V1-CARD-0037,V1-ENT-0115,political_note,1945 年当选智利共产党参议员并获国家文学奖,fact,B03-FCT-0018,high,batch_retained_candidate,CVC 传记；Nobel facts 亦载共产党参议员
+V1-FCT-0184,A04-MAT-0184,V1-CARD-0034,V1-ENT-0116,entity_layer,work,fact,B03-FCT-0019,high,batch_retained_candidate,
+V1-FCT-0185,A04-MAT-0185,V1-CARD-0034,V1-ENT-0116,genre_or_form,长篇小说,fact,B03-FCT-0020,high,batch_retained_candidate,Ángulo Recto：“la novela”
+V1-FCT-0186,A04-MAT-0186,V1-CARD-0034,V1-ENT-0116,one_sentence_summary,以利马为背景的小说；论文从中提取寓言与象征元素作 20 世纪中叶利马城市问题的阐释（困闭与逃避）,fact,B03-FCT-0021,high,batch_retained_candidate,
+V1-FCT-0187,A04-MAT-0187,V1-CARD-0034,V1-ENT-0116,key_place,利马,fact,B03-FCT-0022,high,batch_retained_candidate,
+V1-FCT-0188,A04-MAT-0188,V1-CARD-0035,V1-ENT-0117,entity_layer,work,fact,B03-FCT-0023,high,batch_retained_candidate,
+V1-FCT-0189,A04-MAT-0189,V1-CARD-0035,V1-ENT-0117,first_publication_year,1969,fact,B03-FCT-0024,high,batch_retained_candidate,Catedral Tomada 标题标注 (1969)
+V1-FCT-0190,A04-MAT-0190,V1-CARD-0035,V1-ENT-0117,genre_or_form,长篇小说,fact,B03-FCT-0025,high,batch_retained_candidate,Catedral Tomada：“novela del período”
+V1-FCT-0191,A04-MAT-0191,V1-CARD-0035,V1-ENT-0117,one_sentence_summary,论文以该小说为对象讨论文学爆炸中知识分子的角色：作家进入公共领域及其失败的表征,fact,B03-FCT-0026,high,batch_retained_candidate,
+V1-FCT-0192,A04-MAT-0192,V1-CARD-0036,V1-ENT-0118,entity_layer,work,fact,B03-FCT-0027,high,batch_retained_candidate,
+V1-FCT-0193,A04-MAT-0193,V1-CARD-0036,V1-ENT-0118,first_publication_year,1981,fact,B03-FCT-0028,high,batch_retained_candidate,Letral：“publicada en 1981”
+V1-FCT-0194,A04-MAT-0194,V1-CARD-0036,V1-ENT-0118,genre_or_form,长篇小说,fact,B03-FCT-0029,high,batch_retained_candidate,Letral：“La sexta novela de Vargas Llosa”
+V1-FCT-0195,A04-MAT-0195,V1-CARD-0036,V1-ENT-0118,one_sentence_summary,1981 年出版；论文认为 Consejero 人物与整部小说瓦解殖民视角对拉美的解读，成为拉美去殖民思想在文学话语上的先例,fact,B03-FCT-0030,high,batch_retained_candidate,
+V1-FCT-0196,A04-MAT-0196,V1-CARD-0036,V1-ENT-0118,key_character,劝世者（el Consejero）,fact,B03-FCT-0031,high,batch_retained_candidate,
+V1-FCT-0197,A04-MAT-0197,V1-CARD-0036,V1-ENT-0118,research_note,论文标题“Canudos o la redención de los malditos”直接关联小说与卡努杜斯（Canudos）；关系词表无“基于事件”词，仅记录于此,research_note,B03-FCT-0032,medium,batch_retained_candidate,
+V1-FCT-0198,A04-MAT-0198,V1-CARD-0038,V1-ENT-0119,entity_layer,collection,fact,B03-FCT-0033,high,batch_retained_candidate,Kadhim：“los dos poemarios”
+V1-FCT-0199,A04-MAT-0199,V1-CARD-0038,V1-ENT-0119,first_publication_year,1924,fact,B03-FCT-0034,high,batch_retained_candidate,CVC：1923 年首部诗集后次年出版
+V1-FCT-0200,A04-MAT-0200,V1-CARD-0038,V1-ENT-0119,genre_or_form,诗集,fact,B03-FCT-0035,high,batch_retained_candidate,Kadhim：“poemario”
+V1-FCT-0201,A04-MAT-0201,V1-CARD-0038,V1-ENT-0119,one_sentence_summary,聂鲁达早期情诗集；比较研究以“爱情体验”的形成切入（与 Nizar Qabbani《一百封情书》对比）,fact,B03-FCT-0036,high,batch_retained_candidate,
+V1-FCT-0202,A04-MAT-0202,V1-CARD-0038,V1-ENT-0119,research_note,CVC：该诗集使其进入国际视野，获得近乎鲁文·达里奥的名声,research_note,B03-FCT-0037,high,batch_retained_candidate,R1：Araya 信息拆至 FCT-0059（REVIEW §3.3）
+V1-FCT-0203,A04-MAT-0203,V1-CARD-0039,V1-ENT-0120,entity_layer,collection,fact,B03-FCT-0038,high,batch_retained_candidate,诗集
+V1-FCT-0204,A04-MAT-0204,V1-CARD-0039,V1-ENT-0120,genre_or_form,诗集,fact,B03-FCT-0039,high,batch_retained_candidate,Atenea 专论该诗集
+V1-FCT-0205,A04-MAT-0205,V1-CARD-0039,V1-ENT-0120,research_note,Concha 1972 年《Atenea》专论解读该诗集；分卷构成与各卷出版年来源未直接列明，待补（ISSUES）,research_note,B03-FCT-0040,medium,batch_retained_candidate,
+V1-FCT-0206,A04-MAT-0206,V1-CARD-0040,V1-ENT-0121,entity_layer,collection,fact,B03-FCT-0041,high,batch_retained_candidate,诗集
+V1-FCT-0207,A04-MAT-0207,V1-CARD-0040,V1-ENT-0121,first_publication_year,1950,fact,B03-FCT-0042,high,batch_retained_candidate,Persée：1950 年秋墨西哥 Océano 出版
+V1-FCT-0208,A04-MAT-0208,V1-CARD-0040,V1-ENT-0121,genre_or_form,史诗诗集,fact,B03-FCT-0043,high,batch_retained_candidate,Nobel：“an epic poem about the whole South American continent”；CVC：“la epopeya”
+V1-FCT-0209,A04-MAT-0209,V1-CARD-0040,V1-ENT-0121,one_sentence_summary,关于整个南美大陆的美洲史诗，从美洲最早的世界的浑朴宇宙起源开始（CVC/Nobel）,fact,B03-FCT-0044,high,batch_retained_candidate,CVC：la epopeya que comienza con la telúrica cosmogonía
+V1-FCT-0210,A04-MAT-0210,V1-CARD-0040,V1-ENT-0121,research_note,Persée：1950 年 Océano 版由 Diego Rivera 与 David A. Siqueiros 绘制插图,research_note,B03-FCT-0045,high,batch_retained_candidate,
+V1-FCT-0211,A04-MAT-0211,V1-CARD-0038,V1-ENT-0119,research_note,"Araya 论文（Persée 1982, Bulletin Hispanique）载该诗集创作过程中曾有两个先前标题",research_note,B03-FCT-0059,high,batch_retained_candidate,R1：新增独立事实，仅由 SRC-0010 支持（REVIEW §3.3）
+V1-FCT-0212,A04-MAT-0212,V1-CARD-0021,V1-ENT-0072,birth_year,1927,fact,A01-FCT-0001,high,candidate_for_staging_review,A01 R1 已通过的 high/none 事实候选
+V1-FCT-0213,A04-MAT-0213,V1-CARD-0021,V1-ENT-0072,death_year,2014,fact,A01-FCT-0002,high,candidate_for_staging_review,A01 R1 已通过的 high/none 事实候选
+V1-FCT-0214,A04-MAT-0214,V1-CARD-0021,V1-ENT-0072,language,es,fact,A01-FCT-0003,high,candidate_for_staging_review,A01 R1 已通过的 high/none 事实候选
+V1-FCT-0215,A04-MAT-0215,V1-CARD-0022,V1-ENT-0075,first_publication_year,1967,fact,A01-FCT-0004,high,candidate_for_staging_review,A01 R1 已通过的 high/none 事实候选
+V1-FCT-0216,A04-MAT-0216,V1-CARD-0022,V1-ENT-0075,setting_place,马孔多,fact,A01-FCT-0005,high,candidate_for_staging_review,A01 R1 已通过的 high/none 事实候选
+V1-FCT-0217,A04-MAT-0217,V1-CARD-0034,V1-ENT-0116,first_publication_year,1963,fact,A01-FCT-0006,high,candidate_for_staging_review,A01 R1 已通过的 high/none 事实候选
+V1-FCT-0218,A04-MAT-0218,V1-CARD-0031,V1-ENT-0080,first_publication_year,1953,hold_note,A01-FCT-0007,medium,hold,仅参考文献书目支持 1953，等待权威书目交叉
+V1-FCT-0219,A04-MAT-0219,V1-CARD-0025,V1-ENT-0073,birth_year,1914,fact,A01-FCT-0008,high,candidate_for_staging_review,A01 R1 已通过的 high/none 事实候选
+V1-FCT-0220,A04-MAT-0220,V1-CARD-0025,V1-ENT-0073,death_year,1984,fact,A01-FCT-0009,high,candidate_for_staging_review,A01 R1 已通过的 high/none 事实候选
+V1-FCT-0221,A04-MAT-0221,V1-CARD-0036,V1-ENT-0139,event_year_range,1896-1897,context_fact,A01-FCT-0010,high,candidate_for_staging_review,A01 R1 已通过的 high/none 事实候选
+V1-FCT-0222,A04-MAT-0222,V1-CARD-0036,V1-ENT-0141,research_note,论文同时讨论小说人物 el Consejero（B03-ENT-0028，character），并说明被小说虚构化的卡努杜斯历史运动由 Antônio Conselheiro 领导；历史人物与文学人物不作同一实体或别名合并（R1，REVIEW §2.1）,research_note_only,A01-FCT-0011,medium,research_note_only,人物原型/历史对应建模说明；不得准入别名或实体合并
+V1-FCT-0223,A04-MAT-0223,V1-CARD-0023,V1-ENT-0076,first_periodical_publication_year,1958,fact,GAP-01,medium,candidate_for_staging_review,拆分杂志首次刊载字段
+V1-FCT-0224,A04-MAT-0224,V1-CARD-0023,V1-ENT-0076,first_book_edition_year,1961,fact,GAP-01,medium,candidate_for_staging_review,拆分首个书版本字段
+V1-FCT-0225,A04-MAT-0225,V1-CARD-0026,V1-ENT-0078,first_publication_year,1963,fact,GAP-02,high,candidate_for_staging_review,Persée 书目脚注直接载年份
+V1-FCT-0226,A04-MAT-0226,V1-CARD-0027,V1-ENT-0082,first_publication_year,1951,fact,GAP-03,medium,candidate_for_staging_review,BnF 稳定书目记录载 Bestiario 1951
+V1-FCT-0227,A04-MAT-0227,V1-CARD-0028,V1-ENT-0083,first_publication_year,1956,fact,GAP-04,medium,candidate_for_staging_review,BnF 稳定书目记录载 J. Pablos 1956
+V1-FCT-0228,A04-MAT-0228,V1-CARD-0030,V1-ENT-0079,first_publication_year,1949,fact,GAP-05,high,candidate_for_staging_review,Persée 书目脚注载原版年 1949
+V1-FCT-0229,A04-MAT-0229,V1-CARD-0029,V1-ENT-0074,birth_year,1904,fact,GAP-06,medium,candidate_for_staging_review,将生卒年拆为原子字段
+V1-FCT-0230,A04-MAT-0230,V1-CARD-0029,V1-ENT-0074,death_year,1980,fact,GAP-06,medium,candidate_for_staging_review,将生卒年拆为原子字段
+V1-FCT-0231,A04-MAT-0231,V1-CARD-0025,V1-ENT-0073,nationality_history,阿根廷；1981年入法国籍,fact,GAP-07,medium,candidate_for_staging_review,保留 BnF 权威记录中的双重国别信息
+V1-FCT-0232,A04-MAT-0232,V1-CARD-0039,V1-ENT-0120,bibliographic_scope_note,"Residencia en la tierra 1925-1931；Tercera residencia, 1935-1945",fact,GAP-08,medium,candidate_for_staging_review,只记录 CVC 明示题名，不推断完整分卷结构
+V1-FCT-0233,A04-MAT-0233,V1-CARD-0010,V1-ENT-0065,event_year_range,1926-1929,context_fact,GAP-09,medium,candidate_for_staging_review,BnF 主题标目直接载年份范围
+V1-FCT-0234,A04-MAT-0234,V1-CARD-0040,V1-ENT-0121,political_theme_hold,政治承诺与美洲历史关注（作品级，单来源 SRC-0059）,hold_note,A01-PP-0001,medium,hold,A03 维持 hold；A02 未顺带取得第二独立来源
+V1-FCT-0235,A04-MAT-0235,V1-CARD-0039,V1-ENT-0120,political_theme_gap,社会与政治（作品级）——缺口：无合格开放来源,gap_note,A01-PP-0005,,gap,A03 维持 gap；RCLL 经 JSTOR 付费、RCL 经 SciELO 拦截
+V1-FCT-0236,A04-MAT-0236,V1-CARD-0037,V1-ENT-0115,author_level_political_note,『聂鲁达：诗歌与政治』为作者级主题；不得下推到具体作品,author_level_note,A01-PP-0002,medium,not_work_level,A03 维持作者级×1，不下推作品
+V1-FCT-0237,A04-MAT-0237,V1-CARD-0023,V1-ENT-0076,first_publication_year_gap,泛化字段 first_publication_year 保持空缺/冲突，不回填 1961（A02 R1 REVIEW §3.2；A03 裁决）,gap_note,GAP-01,medium,gap,双字段建模 first_periodical_publication_year=1958 / first_book_edition_year=1961
+V1-FCT-0238,A04-MAT-0238,V1-CARD-0036,V1-ENT-0118,based_on_event_pending,《世界末日之战》与卡努杜斯战争：直接证据 A01-EV-0001（SRC-0046 正文 ficcionaliza）、间接 A01-EV-0002（SRC-0063）；BASED_ON_EVENT 未入 Schema 0.2，N3 用户节点前不生成正式关系,pending_n3_note,A01-EV-0001;A01-EV-0002;A01-EV-0003,high,pending_n3,V1-S4-A03-PROP-001
+V1-FCT-0239,V2-N4-R04,V1-CARD-0022,V1-ENT-0075,story_premise,布恩迪亚—伊瓜兰家族在马孔多延续数代；家族的奇迹、执念、战争、发现与孤独同时组织起这座虚构城镇的历史。,publisher_paraphrase,SRC-0075,high,batch_retained_candidate,低剧透公众导读基础；不替代主题关系
+V1-FCT-0240,V2-N4-R04,V1-CARD-0022,V1-ENT-0075,key_character,布恩迪亚—伊瓜兰家族,publisher_paraphrase,SRC-0075,high,batch_retained_candidate,家族级人物入口
+V1-FCT-0241,V2-N4-R04,V1-CARD-0025,V1-ENT-0078,story_premise,阿根廷作家奥拉西奥·奥利维拉在巴黎与拉玛伽及朋友们生活；一次失去打断这段生活，他随后返回布宜诺斯艾利斯。,publisher_paraphrase,SRC-0076,high,batch_retained_candidate,低剧透公众导读基础
+V1-FCT-0242,V2-N4-R04,V1-CARD-0025,V1-ENT-0078,key_character,奥拉西奥·奥利维拉、拉玛伽,publisher_paraphrase,SRC-0076,high,batch_retained_candidate,主要人物
+V1-FCT-0243,V2-N4-R04,V1-CARD-0025,V1-ENT-0078,setting_place,巴黎、布宜诺斯艾利斯,publisher_paraphrase,SRC-0076,high,batch_retained_candidate,文本情境；暂不自动新增地图关系
+V1-FCT-0244,V2-N4-R04,V1-CARD-0027,V1-ENT-0080,story_premise,一位在纽约从事商业广告工作的作曲家接受赴南美寻找原住民乐器的任务，也重新面对被搁置的创作愿望。,publisher_paraphrase,SRC-0077,high,batch_retained_candidate,低剧透公众导读基础
+V1-FCT-0245,V2-N4-R04,V1-CARD-0027,V1-ENT-0080,setting_place,纽约与南美洲内陆,publisher_paraphrase,SRC-0077,high,batch_retained_candidate,空间基础；不生成精确地图点
+V1-FCT-0246,V2-N4-R04,V1-CARD-0032,V1-ENT-0117,story_premise,圣地亚哥·萨瓦拉与安布罗西奥在名为“大教堂”的酒吧交谈，话题不断打开奥德里亚独裁时期的私人记忆与社会关系。,publisher_paraphrase,SRC-0078,high,batch_retained_candidate,低剧透公众导读基础
+V1-FCT-0247,V2-N4-R04,V1-CARD-0032,V1-ENT-0117,key_character,圣地亚哥·萨瓦拉、安布罗西奥,publisher_paraphrase,SRC-0078,high,batch_retained_candidate,主要人物
+V1-FCT-0248,V2-N4-R04,V1-CARD-0032,V1-ENT-0117,historical_context,秘鲁曼努埃尔·奥德里亚独裁时期,publisher_paraphrase,SRC-0078,high,batch_retained_candidate,背景说明；不自动新建事件关系
+V1-FCT-0249,V2-N4-R04,V1-CARD-0024,V1-ENT-0077,story_premise,叙述者在二十多年后重返小镇，重新调查所有人都预先知道、却无人阻止的圣地亚哥·纳萨尔之死。,publisher_paraphrase,SRC-0080,high,batch_retained_candidate,低剧透公众导读基础
+V1-FCT-0250,V2-N4-R04,V1-CARD-0033,V1-ENT-0118,story_premise,小说围绕十九世纪巴西腹地的卡努杜斯共同体展开，以历史事件写激情、理想与争取自由的斗争。,publisher_paraphrase,SRC-0081,high,batch_retained_candidate,低剧透公众导读基础
+V1-FCT-0251,V2-N4-R04,V1-CARD-0031,V1-ENT-0116,story_premise,利马莱昂西奥·普拉多军事学校的一群少年在严酷纪律、等级与同伴暴力中学习生存。,publisher_paraphrase,SRC-0082,high,batch_retained_candidate,低剧透公众导读基础
+V1-FCT-0252,V2-N4-R04,V1-CARD-0031,V1-ENT-0116,setting_place,利马莱昂西奥·普拉多军事学校,publisher_paraphrase,SRC-0082,high,batch_retained_candidate,细化现有利马地点关系
+V1-FCT-0253,V2-N4-R04,V1-CARD-0023,V1-ENT-0076,story_premise,一位退役上校每周到港口等待迟到多年的养老金批复；他与患病的妻子困于贫穷，也守着亡子留下的斗鸡。,publisher_paraphrase,SRC-0083,high,batch_retained_candidate,低剧透公众导读基础
+V1-FCT-0254,V2-N4-R04,V1-CARD-0023,V1-ENT-0076,setting_place,戒严中的哥伦比亚小村镇,publisher_paraphrase,SRC-0083,high,batch_retained_candidate,不生成精确地图点
+V1-FCT-0255,V2-N4-R04,V1-CARD-0018,V1-ENT-0038,story_premise,胡安·普雷西亚多遵照母亲遗愿前往科马拉寻找父亲佩德罗·巴拉莫，却在空荡街道与低语中逐渐听见这座村镇的过去。,publisher_paraphrase,SRC-0084,high,batch_retained_candidate,低剧透公众导读基础
+V1-FCT-0256,V2-N4-R04,V1-CARD-0007,V1-ENT-0018,story_premise,里约热内卢的贫穷打字员玛卡贝娅过着狭窄生活；叙述者罗德里戈·S.M.一边讲述她，一边不断暴露讲述本身的困难。,publisher_paraphrase,SRC-0085,high,batch_retained_candidate,低剧透公众导读基础
+V1-FCT-0257,V2-N4-R04,V1-CARD-0032,V1-ENT-0081,story_premise,十八世纪末，来自马赛的商船水手维克多·于格抵达古巴，把法国革命的理想、野心与暴力带到三个克里奥尔孤儿的生活中。,publisher_paraphrase,SRC-0086,high,batch_retained_candidate,低剧透公众导读基础
+V1-FCT-0258,V2-N4-R04,V1-CARD-0032,V1-ENT-0081,key_character,维克多·于格、三个克里奥尔孤儿,publisher_paraphrase,SRC-0086,high,batch_retained_candidate,人物入口
+V1-FCT-0259,V2-N4-R04,V1-CARD-0032,V1-ENT-0081,setting_place,十八世纪末的古巴、加勒比海与瓜德罗普,publisher_paraphrase,SRC-0086,high,batch_retained_candidate,区域空间基础；不生成精确地图点
+V1-FCT-0260,CAND-R1-FCT-01,V1-CARD-0041,V1-ENT-0145,birth_date,1928-11-11,fact,SRC-0087,high,batch_retained_candidate,Independent review PASS; two institutional biographies
+V1-FCT-0261,CAND-R1-FCT-02,V1-CARD-0041,V1-ENT-0145,death_date,2012-05-15,fact,SRC-0087,high,batch_retained_candidate,Independent review PASS; two institutional biographies
+V1-FCT-0262,CAND-R1-FCT-03,V1-CARD-0041,V1-ENT-0145,country_or_region,墨西哥,fact,SRC-0088,high,batch_retained_candidate,Mexican identity; not a birthplace assertion
+V1-FCT-0263,CAND-R1-FCT-04,V1-CARD-0041,V1-ENT-0145,one_sentence_summary,墨西哥小说家、短篇小说家、散文家与剧作家，是拉丁美洲文学爆炸的重要作者。,fact,SRC-0087,high,batch_retained_candidate,Minimal synthesis of institutional biographies
+V1-FCT-0264,CAND-R1-FCT-05,V1-CARD-0042,V1-ENT-0146,first_publication_year,1958,fact,SRC-0089,high,batch_retained_candidate,First-edition record
+V1-FCT-0265,CAND-R1-FCT-06,V1-CARD-0042,V1-ENT-0146,genre_or_form,长篇小说,fact,SRC-0089,high,batch_retained_candidate,ELEM classification
+V1-FCT-0266,CAND-R1-FCT-07,V1-CARD-0042,V1-ENT-0146,story_premise,小说以多个人物与社会阶层的声音拼合二十世纪中叶墨西哥城，在城市日常中追问革命后的社会与身份。,publisher_paraphrase,SRC-0089,high,batch_retained_candidate,Low-spoiler institutional and publisher paraphrase
+V1-FCT-0267,CAND-R1-FCT-08,V1-CARD-0042,V1-ENT-0146,setting_place,墨西哥城,fact,SRC-0089,high,batch_retained_candidate,No Geo entity or SET_IN relation created
+V1-FCT-0268,CAND-R1-FCT-09,V1-CARD-0042,V1-ENT-0146,narrative_feature,以多重人物声音与社会群像构成一幅不断移动的墨西哥城图景。,research_note,SRC-0089,high,batch_retained_candidate,Revised direct paraphrase; independent review PASS
+V1-FCT-0269,CAND-R1-FCT-10,V1-CARD-0043,V1-ENT-0147,first_publication_year,1962,fact,SRC-0091,high,batch_retained_candidate,Institutional and library records
+V1-FCT-0270,CAND-R1-FCT-11,V1-CARD-0043,V1-ENT-0147,genre_or_form,长篇小说,fact,SRC-0091,high,batch_retained_candidate,ELEM and WorldCat classifications
+V1-FCT-0271,CAND-R1-FCT-12,V1-CARD-0043,V1-ENT-0147,story_premise,权势人物阿尔特米奥·克罗斯临终回望自己从革命参与者走向财富与腐败的一生。,publisher_paraphrase,SRC-0091,high,batch_retained_candidate,Low-spoiler institutional and publisher paraphrase
+V1-FCT-0272,CAND-R1-FCT-13,V1-CARD-0043,V1-ENT-0147,key_character,阿尔特米奥·克罗斯,fact,SRC-0091,high,batch_retained_candidate,Title character and catalogue summary
+V1-FCT-0273,CAND-R1-FCT-14,V1-CARD-0043,V1-ENT-0147,narrative_feature,叙事交替使用第一、第二、第三人称，并在过去、现在与未来之间切换。,research_note,SRC-0091,high,batch_retained_candidate,Revised direct paraphrase; independent review PASS
+V1-FCT-0274,WEB-CE-B01,V1-CARD-0044,V1-ENT-0148,birth_year,1889,fact,SRC-0126,high,batch_retained_candidate,诺贝尔官网 facts 页
+V1-FCT-0275,WEB-CE-B01,V1-CARD-0044,V1-ENT-0148,death_year,1957,fact,SRC-0126,high,batch_retained_candidate,逝世地 Hempstead（纽约州）见于页面；出生地/逝世地不作 BORN_IN 关系
+V1-FCT-0276,WEB-CE-B01,V1-CARD-0044,V1-ENT-0148,country_or_region,智利,fact,SRC-0126,high,batch_retained_candidate,参照 V1-FCT-0176（聂鲁达 country_or_region=智利）写法
+V1-FCT-0277,WEB-CE-B01,V1-CARD-0044,V1-ENT-0148,language,es,fact,SRC-0126,high,batch_retained_candidate,参照 V1-FCT-0118 写法
+V1-FCT-0278,WEB-CE-B01,V1-CARD-0044,V1-ENT-0148,original_name,Lucila Godoy Alcayaga,fact,SRC-0126,high,batch_retained_candidate,本名；笔名见 personal_note
+V1-FCT-0279,WEB-CE-B01,V1-CARD-0044,V1-ENT-0148,personal_note,本名 Lucila Godoy Alcayaga；笔名 Gabriela Mistral 取自她喜爱的两位诗人 Gabriele D'Annunzio 与 Frédéric Mistral,fact,SRC-0126,high,batch_retained_candidate,身份/笔名来源说明
+V1-FCT-0280,WEB-CE-B01,V1-CARD-0044,V1-ENT-0148,one_sentence_summary,智利诗人，1945 年诺贝尔文学奖得主，南美洲（拉丁美洲）首位诺贝尔文学奖得主；出身教师，曾任智利驻多国领事,fact,SRC-0126,high,batch_retained_candidate,"南美洲首位为 Nobel 原文表述（South America's first ever Nobel Laureate in Literature）；packet 所称""拉丁美洲首位""与此一致（1945 年前无任何拉美国家作家获奖）"
+V1-FCT-0281,WEB-CE-B01,V1-CARD-0044,V1-ENT-0148,career_note,15 岁起在故乡任教；后在拉丁美洲多国教育系统任职、参与多个委员会，并担任智利驻多个国家的领事,fact,SRC-0126,high,batch_retained_candidate,参照 V1-FCT-0182（聂鲁达 career_note）写法
+V1-FCT-0282,WEB-CE-B01,V1-CARD-0044,V1-ENT-0148,award,诺贝尔文学奖（1945）,fact,SRC-0126,high,batch_retained_candidate,参照 V1-FCT-0122（马尔克斯 award=诺贝尔文学奖（1982））写法
+V1-FCT-0283,WEB-CE-B01,V1-CARD-0044,V1-ENT-0148,research_note,获奖理由：因其抒情诗以强烈情感为灵感，使她的名字成为整个拉丁美洲世界理想主义渴望的象征,research_note,SRC-0096,high,batch_retained_candidate,参照 V1-FCT-0121（获奖理由 research_note）写法
+V1-FCT-0284,WEB-CE-B01,V1-CARD-0044,V1-ENT-0148,entity_layer,author,fact,SRC-0126,high,batch_retained_candidate,参照 V1-FCT-0178（聂鲁达 entity_layer=author）写法
+V1-FCT-0285,WEB-CE-B01,V1-CARD-0044,V1-ENT-0148,birth_place,比库尼亚（Vicuña）,fact,SRC-0126,high,candidate_for_staging_review,智利科金博大区 Elqui 河谷城镇（河谷/大区细节按 D1 移入 note）；既有 fact_field 词表无 birth_place，按操作手册 SOP-B §8 以事实记录；同一信息另以 ASSOCIATED_WITH_PLACE→比库尼亚承载；禁止 BORN_IN 关系
+V1-FCT-0286,WEB-CE-B01,V1-CARD-0045,V1-ENT-0149,first_publication_year,1922,fact,SRC-0127,high,batch_retained_candidate,首版书目直接来源；出版信息用字段，不用 PUBLISHED_IN 关系
+V1-FCT-0287,WEB-CE-B01,V1-CARD-0045,V1-ENT-0149,genre_or_form,诗集（poesía）,fact,SRC-0127,high,batch_retained_candidate,诗集层级=collection
+V1-FCT-0288,WEB-CE-B01,V1-CARD-0045,V1-ENT-0149,bibliographic_note,"首版：New York : Instituto de las Españas, 1922（诺贝尔官网书目）；中文合集/诗选收录范围待核验",fact,SRC-0127,high,batch_retained_candidate,参照既有 bibliographic_note 用法
+V1-FCT-0289,WEB-CE-B01,V1-CARD-0046,V1-ENT-0150,first_publication_year,1924,fact,SRC-0127,high,batch_retained_candidate,首版书目直接来源
+V1-FCT-0290,WEB-CE-B01,V1-CARD-0046,V1-ENT-0150,genre_or_form,诗集（儿童摇篮曲与歌谣）,fact,SRC-0126,high,batch_retained_candidate,体裁描述出自 Nobel Facts 页
+V1-FCT-0291,WEB-CE-B01,V1-CARD-0046,V1-ENT-0150,bibliographic_note,"首版：Madrid : Saturnino Calleja, 1924（Ternura: canciones de niños）；中文《柔情》/诗选收录范围待核验",fact,SRC-0127,high,batch_retained_candidate,
+V1-FCT-0292,WEB-CE-B01,V1-CARD-0046,V1-ENT-0150,one_sentence_summary,"以摇篮曲和儿童歌谣为主体的诗集（Nobel Facts 页：""contains lullabies and rhymes for children""）",fact,SRC-0126,high,batch_retained_candidate,Nobel 官方表述直引
+V1-FCT-0293,WEB-CE-B01,V1-CARD-0047,V1-ENT-0151,first_publication_year,1938,fact,SRC-0127,high,batch_retained_candidate,首版书目直接来源
+V1-FCT-0294,WEB-CE-B01,V1-CARD-0047,V1-ENT-0151,genre_or_form,诗集（poesía）,fact,SRC-0127,high,batch_retained_candidate,
+V1-FCT-0295,WEB-CE-B01,V1-CARD-0047,V1-ENT-0151,bibliographic_note,"首版：Buenos Aires : Sur, 1938（诺贝尔官网书目）；中文收录待核验",fact,SRC-0127,high,batch_retained_candidate,
+V1-FCT-0296,WEB-CE-B01,V1-CARD-0047,V1-ENT-0151,one_sentence_summary,"采用不寻常意象与自由诗的诗集（Nobel Facts 页：""employs unusual imagery and free verse""）",fact,SRC-0126,high,batch_retained_candidate,Nobel 官方表述直引
+V1-FCT-0297,WEB-CE-B01,V1-CARD-0048,V1-ENT-0059,birth_year,1914,fact,SRC-0128,high,candidate_for_staging_review,"Nobel Facts 页 ""Born: 31 March 1914, Mexico City, Mexico"""
+V1-FCT-0298,WEB-CE-B01,V1-CARD-0048,V1-ENT-0059,death_year,1998,fact,SRC-0128,high,candidate_for_staging_review,"Nobel Facts 页 ""Died: 19 April 1998, Mexico City, Mexico""；poets.org 亦标 1914-1998"
+V1-FCT-0299,WEB-CE-B01,V1-CARD-0048,V1-ENT-0059,country_or_region,墨西哥,fact,SRC-0128,high,candidate_for_staging_review,"Nobel Facts 页 ""Residence at the time of the award: Mexico""；与 poets.org 国籍信息一致"
+V1-FCT-0300,WEB-CE-B01,V1-CARD-0048,V1-ENT-0059,language,es,fact,SRC-0128,high,candidate_for_staging_review,"Nobel Facts 页 ""Language: Spanish"""
+V1-FCT-0301,WEB-CE-B01,V1-CARD-0048,V1-ENT-0059,birth_place,墨西哥城（Ciudad de México）,fact,SRC-0128,high,candidate_for_staging_review,既有 fact_field 词表无 birth_place 字段；按 packet 要求出生地以 fact 记录（禁止 BORN_IN 关系）；建议 Reviewer 评估新增字段或并入既有字段
+V1-FCT-0302,WEB-CE-B01,V1-CARD-0048,V1-ENT-0059,award,诺贝尔文学奖（1990）,fact,SRC-0128,high,candidate_for_staging_review,参照库内 V1-FCT-0122「诺贝尔文学奖（1982）」格式；Nobel Facts 与 1990 主页面双重确认
+V1-FCT-0303,WEB-CE-B01,V1-CARD-0048,V1-ENT-0059,one_sentence_summary,墨西哥诗人、散文家与外交官，1990 年诺贝尔文学奖得主，生于墨西哥城，以《孤独的迷宫》等分析墨西哥历史与文化的随笔闻名,fact,SRC-0128,high,candidate_for_staging_review,综合 Nobel Facts 与 poets.org 传记表述
+V1-FCT-0304,WEB-CE-B01,V1-CARD-0048,V1-ENT-0059,career_note,诗人、散文家与外交官；1962 年任墨西哥驻印度大使，1968 年为抗议特拉特洛尔科学生示威遭镇压而辞职；创办文学杂志《Taller》《Plural》与《Vuelta》。,fact,SRC-0098,high,candidate_for_staging_review,Sol 审计移除原记录中未由单一 Nobel Facts 页面直接支持的思想影响清单；保留可由 Nobel 生平页与 poets.org 交叉核验的履历。
+V1-FCT-0305,WEB-CE-B01,V1-CARD-0049,V1-ENT-0154,entity_layer,work,fact,SRC-0128,high,candidate_for_staging_review,参照库内 work 实体 entity_layer fact（如 V1-FCT-0013）惯例
+V1-FCT-0306,WEB-CE-B01,V1-CARD-0049,V1-ENT-0154,first_publication_year,1950,fact,SRC-0128,high,candidate_for_staging_review,"Nobel Facts ""El laberinto de la soledad (1950)""；poets.org 标 FCE 1950"
+V1-FCT-0307,WEB-CE-B01,V1-CARD-0049,V1-ENT-0154,genre_or_form,散文/随笔集（essays）,fact,SRC-0128,high,candidate_for_staging_review,"Nobel Facts 称 ""a collection of essays""；中译馆藏 MARC 亦标散文集/杂文集（墨西哥·现代）"
+V1-FCT-0308,WEB-CE-B01,V1-CARD-0049,V1-ENT-0154,one_sentence_summary,帕斯分析墨西哥历史与文化的随笔集（据 Nobel Facts 与 poets.org 释义）,fact,SRC-0128,medium,candidate_for_staging_review,仅据来源转述，不作解释性发挥
+V1-FCT-0309,WEB-CE-B01,V1-CARD-0049,V1-ENT-0154,bibliographic_note,诺贝尔书目页未列西语原版；英译 The Labyrinth of Solitude（tr. Lysander Kemp）Penguin 1985；poets.org 标初版 FCE 1950,fact,SRC-0128,medium,candidate_for_staging_review,原版出版社待 FCE 产品页补充（FCE 站内检索 404，未取得）
+V1-FCT-0310,WEB-CE-B01,V1-CARD-0050,V1-ENT-0155,entity_layer,work,fact,SRC-0129,high,candidate_for_staging_review,参照库内 work 实体 entity_layer fact 惯例
+V1-FCT-0311,WEB-CE-B01,V1-CARD-0050,V1-ENT-0155,first_publication_year,1956,fact,SRC-0129,high,candidate_for_staging_review,"poets.org 散文书目 ""El arco y la lira (1956)"""
+V1-FCT-0312,WEB-CE-B01,V1-CARD-0050,V1-ENT-0155,genre_or_form,诗论/散文集（essays）,fact,SRC-0129,high,candidate_for_staging_review,poets.org 将其列入 Essays 类目
+V1-FCT-0313,WEB-CE-B01,V1-CARD-0050,V1-ENT-0155,one_sentence_summary,"帕斯诗论代表作，论诗、诗性启示与诗和历史（据诺贝尔书目页英译本副题 ""the Poem, the Poetic Revelation, Poetry and History"" 释义）",fact,SRC-0128,medium,candidate_for_staging_review,仅据来源转述
+V1-FCT-0314,WEB-CE-B01,V1-CARD-0050,V1-ENT-0155,bibliographic_note,英译本 The Bow and the Lyre（tr. Ruth L.C. Simms）Univ. of Texas Press 1973（诺贝尔书目页）,fact,SRC-0128,medium,candidate_for_staging_review,原版出版社（FCE 1956）待 FCE 产品页补充
+V1-FCT-0315,WEB-CE-B01,V1-CARD-0051,V1-ENT-0156,entity_layer,work,fact,SRC-0128,high,candidate_for_staging_review,参照库内 work 实体 entity_layer fact 惯例
+V1-FCT-0316,WEB-CE-B01,V1-CARD-0051,V1-ENT-0156,first_publication_year,1957,fact,SRC-0128,high,candidate_for_staging_review,"Nobel 书目页 ""Piedra de sol. México: Tezontle, 1957""；poets.org 标 FCE 1957（Tezontle 系 FCE 诗丛印行，两说相容）"
+V1-FCT-0317,WEB-CE-B01,V1-CARD-0051,V1-ENT-0156,genre_or_form,长诗（long poem）,fact,SRC-0129,high,candidate_for_staging_review,"poets.org 称 ""This long poem""；Nobel 书目页列于 Poetry 部"
+V1-FCT-0318,WEB-CE-B01,V1-CARD-0051,V1-ENT-0156,one_sentence_summary,帕斯 1957 年长诗，结构借自阿兹特克历法（据 poets.org 释义）,fact,SRC-0129,medium,candidate_for_staging_review,仅据来源转述
+V1-FCT-0319,WEB-CE-B01,V1-CARD-0051,V1-ENT-0156,bibliographic_note,初版墨西哥 Tezontle 1957；后收入 La estación violenta（FCE 1958）；英译见 The Collected Poems 1957-1987（1987）,fact,SRC-0128,medium,candidate_for_staging_review,均据诺贝尔书目页（A 级）
+V1-FCT-0320,WEB-CE-B01,V1-CARD-0052,V1-ENT-0158,first_publication_year,1985,fact,SRC-0129,high,candidate_for_staging_review,BnF 目录 1985 西语版记录（El Amor en los tiempos del cólera，ISBN 8402106408）
+V1-FCT-0321,WEB-CE-B01,V1-CARD-0052,V1-ENT-0158,genre_or_form,长篇小说,fact,SRC-0129,medium,candidate_for_staging_review,BnF 法译各版题名标 ': roman'（L'Amour aux temps du choléra : roman）
+V1-FCT-0322,WEB-CE-B01,V1-CARD-0052,V1-ENT-0158,bibliographic_note,"BnF 目录收录 El Amor en los tiempos del cólera 1985 年西语版（ark:/12148/cb34923644w，ISBN 8402106408），作者归名 García Márquez, Gabriel (1927-2014)",bibliographic_note,SRC-0129,medium,candidate_for_staging_review,仅证目录存在与归名及出版年
+V1-FCT-0323,WEB-CE-B01,V1-CARD-0053,V1-ENT-0159,first_publication_year,1975,fact,SRC-0126,high,candidate_for_staging_review,BnF 目录 1975 年西语版记录（El Otoño del patriarca，ISBN 8401301556）
+V1-FCT-0324,WEB-CE-B01,V1-CARD-0053,V1-ENT-0159,genre_or_form,长篇小说,fact,SRC-0126,medium,candidate_for_staging_review,BnF 法译各版题名标 ': roman'（L'automne du patriarche : roman）
+V1-FCT-0325,WEB-CE-B01,V1-CARD-0053,V1-ENT-0159,bibliographic_note,"BnF 目录收录 El Otoño del patriarca 1975 年西语版（ark:/12148/cb352227127，ISBN 8401301556），作者归名 García Márquez, Gabriel (1927-2014)",bibliographic_note,SRC-0126,medium,candidate_for_staging_review,仅证目录存在与归名及出版年
+V1-FCT-0326,WEB-CE-B01,V1-CARD-0054,V1-ENT-0160,bibliographic_note,"BnF 目录收录 La casa verde 西语多版（4e éd.1967 / 6a ed.1968 / 15a ed.1976 / 2023；ISBN 8432218728），作者归名 Vargas Llosa, Mario",bibliographic_note,SRC-0128,medium,candidate_for_staging_review,仅证目录存在与归名及版本史
+V1-FCT-0327,WEB-CE-B01,V1-CARD-0055,V1-ENT-0161,first_publication_year,1973,fact,SRC-0128,high,candidate_for_staging_review,BnF 目录记录原文：'Publication : Barcelona : Seix Barral，1973'
+V1-FCT-0328,WEB-CE-B01,V1-CARD-0055,V1-ENT-0161,bibliographic_note,"BnF 目录记录：Pantaleón y las visitadoras / Mario Vargas Llosa，Barcelona : Seix Barral, 1973，309 p.，Biblioteca breve ; 352，ISBN 84-322-0252-5（ark:/12148/cb35234561k）",bibliographic_note,SRC-0128,high,candidate_for_staging_review,直接书目记录（出版社/年份/页数/丛书/ISBN）
+V1-FCT-0329,WEB-CE-B01,V1-CARD-0056,V1-ENT-0162,first_publication_year,1975,fact,SRC-0128,high,candidate_for_staging_review,BnF 目录 1975 年西语版记录（El Libro de arena；另 1997 版 ISBN 8478883223）
+V1-FCT-0330,WEB-CE-B01,V1-CARD-0056,V1-ENT-0162,genre_or_form,短篇集,fact,SRC-0128,medium,candidate_for_staging_review,BnF 法译版题名标 '[nouvelles]'（Le Livre de sable : [nouvelles]）
+V1-FCT-0331,WEB-CE-B01,V1-CARD-0056,V1-ENT-0162,bibliographic_note,"BnF 目录收录 El Libro de arena 1975 年西语版（ark:/12148/cb352339603），作者归名 Borges, Jorge Luis (1899-1986)",bibliographic_note,SRC-0128,medium,candidate_for_staging_review,仅证目录存在与归名及出版年
+V1-FCT-0332,WEB-CE-B01,V1-CARD-0057,V1-ENT-0163,genre_or_form,短篇集,fact,SRC-0128,medium,candidate_for_staging_review,BnF 法译版题名标 '[nouvelles]'（Le Rapport de Brodie : [nouvelles]）
+V1-FCT-0333,WEB-CE-B01,V1-CARD-0057,V1-ENT-0163,bibliographic_note,"BnF 目录收录 El informe de Brodie 相关记录（含西语合订本 Ficciones ; El Aleph ; El informe de Brodie，委内瑞拉 1986，ark:/12148/cb354902694），作者归名 Borges, Jorge Luis (1899-1986)",bibliographic_note,SRC-0128,medium,candidate_for_staging_review,仅证目录存在与归名；初版年未直接标注
+V1-FCT-0334,WEB-CE-B01,V1-CARD-0058,V1-ENT-0164,first_publication_year,1959,fact,SRC-0066,high,candidate_for_staging_review,复用 SRC-0066：BnF 记录标题即含 'Las armas secretas，1959'
+V1-FCT-0335,WEB-CE-B01,V1-CARD-0058,V1-ENT-0164,genre_or_form,短篇集,fact,SRC-0127,medium,candidate_for_staging_review,BnF 法译版题名标 '[nouvelles]'（Les armes secrètes : [nouvelles]）
+V1-FCT-0336,WEB-CE-B01,V1-CARD-0058,V1-ENT-0164,bibliographic_note,"主源复用 SRC-0066（BnF 记录 Relatos : Bestiario, 1951, Las armas secretas, 1959, ...，ark:/12148/cb352151483）；补充：本轮 BnF SRU 快照另见西语版 1970/1978/1988（ISBN 8420421324、8437601193），作者归名 Cortázar, Julio (1914-1984)",bibliographic_note,SRC-0127,high,candidate_for_staging_review,直接书目记录（reuse:SRC-0066 + 补充快照）
+V1-FCT-0337,WEB-CE-B01,V1-CARD-0059,V1-ENT-0165,genre_or_form,十四行诗集,fact,SRC-0129,medium,candidate_for_staging_review,BnF 记录题名即含 'sonetos'（Cien sonetos de amor），体裁由题名直接标示
+V1-FCT-0338,WEB-CE-B01,V1-CARD-0059,V1-ENT-0165,bibliographic_note,"BnF 目录收录 Cien sonetos de amor 多版（含 8a ed. 1992，ISBN 8440047037，ark:/12148/cb37376218c），作者归名 Neruda, Pablo",bibliographic_note,SRC-0129,medium,candidate_for_staging_review,仅证目录存在与归名
+V1-FCT-0339,WEB-CE-B01,V1-CARD-0060,V1-ENT-0166,first_publication_year,1971,fact,SRC-0126,high,candidate_for_staging_review,BnF 目录记录原文：'Publication : Rio de Janeiro : Sabiá，1971'
+V1-FCT-0340,WEB-CE-B01,V1-CARD-0060,V1-ENT-0166,genre_or_form,短篇集,fact,SRC-0126,high,candidate_for_staging_review,BnF 记录题名标 'contos'（Felicidade clandestina，contos）
+V1-FCT-0341,WEB-CE-B01,V1-CARD-0060,V1-ENT-0166,bibliographic_note,"BnF 目录记录：Felicidade clandestina, contos / Lispector, Clarice (1920-1977)，Rio de Janeiro : Sabiá, 1971（ark:/12148/cb35424958x）",bibliographic_note,SRC-0126,high,candidate_for_staging_review,直接书目记录（出版社/年份/体裁）
+V1-FCT-0342,WEB-CE-B01,V1-CARD-0061,V1-ENT-0167,entity_layer,collection,fact,SRC-0127,high,candidate_for_staging_review,作品实体层级（REVISE-D2:短篇集改 collection）
+V1-FCT-0343,WEB-CE-B01,V1-CARD-0061,V1-ENT-0167,bibliographic_note,"BnF 目录收录 Guerra del tiempo y otros relatos（1982 版 ark:/12148/cb347971092、1998 版 ark:/12148/cb37550508c）,作者归名 Carpentier, Alejo (1904-1980)",bibliographic_note,SRC-0127,medium,candidate_for_staging_review,仅证目录存在与归名;初版年 1958 无直接来源
+V1-FCT-0344,WEB-CE-B01,V1-CARD-0061,V1-ENT-0167,genre_or_form,短篇小说集,fact,SRC-0127,medium,candidate_for_staging_review,BnF 题名 'y otros relatos' 表明短篇集性质;中译简介亦作短篇集(线索级
+V1-FCT-0345,WEB-CE-B01,V1-CARD-0062,V1-ENT-0168,entity_layer,work,fact,SRC-0126,high,candidate_for_staging_review,作品实体层级
+V1-FCT-0346,WEB-CE-B01,V1-CARD-0062,V1-ENT-0168,first_publication_year,1956,fact,SRC-0126,high,candidate_for_staging_review,BnF 目录 1956 年版记录（El Acoso
+V1-FCT-0347,WEB-CE-B01-HY3,V1-CARD-0063,V1-ENT-0169,first_publication_year,1962,bibliographic,SRC-0128,high,candidate_for_staging_review,ELEM 首版年份 1962
+V1-FCT-0348,WEB-CE-B01-HY3,V1-CARD-0063,V1-ENT-0169,genre_or_form,novela (novela corta / novella),genre,SRC-0128,high,candidate_for_staging_review,ELEM 归类为 Narrativa - Novela
+V1-FCT-0349,WEB-CE-B01-HY3,V1-CARD-0063,V1-ENT-0169,bibliographic_note,"首版 México, D.F. : Ediciones Era (colección Alacena), 1962。",bibliographic_note,SRC-0128,high,candidate_for_staging_review,Sol 审计删除当前来源未直接显示的英语译者与出版社信息；中文版版本细节不作为本阶段门槛。
+V1-FCT-0350,WEB-CE-B01-HY3,V1-CARD-0063,V1-ENT-0169,one_sentence_summary,青年历史学家费利佩·莫内罗受雇为寡居的将军遗孀孔苏埃洛整理回忆录，住进其终年昏暗的宅邸，邂逅酷似年轻孔苏埃洛的少女奥拉。,summary,SRC-0129,medium,candidate_for_staging_review,culturagenial 情节概要（低剧透）
+V1-FCT-0351,WEB-CE-B01-HY3,V1-CARD-0063,V1-ENT-0169,setting_place,Ciudad de México（墨西哥城）,setting,SRC-0129,medium,candidate_for_staging_review,culturagenial 明确「situada en Ciudad de México」
+V1-FCT-0352,WEB-CE-B01-HY3,V1-CARD-0063,V1-ENT-0169,narrative_feature,全书以第二人称单数（tú）叙述，叙述者直接对费利佩说话。,narrative,SRC-0129,medium,candidate_for_staging_review,culturagenial：「Está narrada en segunda persona de singular」
+V1-FCT-0353,WEB-CE-B01-HY3,V1-CARD-0063,V1-ENT-0169,key_character,费利佩·莫内罗（Felipe Montero）：受雇的青年历史学家，故事主人公。,character,SRC-0129,medium,candidate_for_staging_review,culturagenial 人物小节
+V1-FCT-0354,WEB-CE-B01-HY3,V1-CARD-0063,V1-ENT-0169,entity_layer,work,metadata,SRC-0128,high,candidate_for_staging_review,实体类型为 work
+V1-FCT-0355,WEB-CE-B02,V1-CARD-0064,V1-ENT-0170,birth_year,1899,fact,SRC-0130,high,candidate_for_staging_review,作者官方/机构来源直接标注出生年份。
+V1-FCT-0356,WEB-CE-B02,V1-CARD-0064,V1-ENT-0170,death_year,1974,fact,SRC-0130,high,candidate_for_staging_review,作者官方/机构来源直接标注逝年。
+V1-FCT-0357,WEB-CE-B02,V1-CARD-0064,V1-ENT-0170,country_or_region,危地马拉,fact,SRC-0130,high,candidate_for_staging_review,作者与该拉丁美洲国家的公开身份/生平关联。
+V1-FCT-0359,WEB-CE-B02,V1-CARD-0064,V1-ENT-0170,career_note,作家/小说家（来源身份描述）,fact,SRC-0130,medium,candidate_for_staging_review,仅保留来源对职业身份的直接描述，不推导文学史地位。
+V1-FCT-0360,WEB-CE-B02,V1-CARD-0065,V1-ENT-0173,entity_layer,work,metadata,SRC-0130,high,candidate_for_staging_review,实体类型由本批去重与作品形态判断确定；汇编类使用 collection。
+V1-FCT-0361,WEB-CE-B02,V1-CARD-0065,V1-ENT-0173,first_publication_year,1946,bibliographic,SRC-0130,high,candidate_for_staging_review,官方/机构来源直接记录 El Señor Presidente 的书目年份或作品归属；不据此推导主题、影响或故事空间。
+V1-FCT-0362,WEB-CE-B02,V1-CARD-0065,V1-ENT-0173,bibliographic_note,法国国家图书馆书目列出 El Señor Presidente（1946）；本批仅作书目事实。,bibliographic,SRC-0130,high,candidate_for_staging_review,官方/机构来源直接记录 El Señor Presidente 的书目年份或作品归属；不据此推导主题、影响或故事空间。
+V1-FCT-0363,WEB-CE-B02,V1-CARD-0066,V1-ENT-0174,entity_layer,work,metadata,SRC-0132,high,candidate_for_staging_review,实体类型由本批去重与作品形态判断确定；汇编类使用 collection。
+V1-FCT-0364,WEB-CE-B02,V1-CARD-0066,V1-ENT-0174,first_publication_year,1949,bibliographic,SRC-0132,high,candidate_for_staging_review,官方/机构来源直接记录 Hombres de maíz 的书目年份或作品归属；不据此推导主题、影响或故事空间。
+V1-FCT-0365,WEB-CE-B02,V1-CARD-0066,V1-ENT-0174,bibliographic_note,危地马拉圣卡洛斯大学人文图书馆书目页列出 Hombres de maíz（1949）；本批仅作为书目事实。,bibliographic,SRC-0132,high,candidate_for_staging_review,官方/机构来源直接记录 Hombres de maíz 的书目年份或作品归属；不据此推导主题、影响或故事空间。
+V1-FCT-0366,WEB-CE-B02,V1-CARD-0067,V1-ENT-0175,entity_layer,collection,metadata,SRC-0130,high,candidate_for_staging_review,实体类型由本批去重与作品形态判断确定；汇编类使用 collection。
+V1-FCT-0367,WEB-CE-B02,V1-CARD-0067,V1-ENT-0175,first_publication_year,1930,bibliographic,SRC-0130,high,candidate_for_staging_review,官方/机构来源直接记录 Leyendas de Guatemala 的书目年份或作品归属；不据此推导主题、影响或故事空间。
+V1-FCT-0368,WEB-CE-B02,V1-CARD-0067,V1-ENT-0175,bibliographic_note,法国国家图书馆书目列出 Leyendas de Guatemala（1930）；本批仅作书目事实。,bibliographic,SRC-0130,high,candidate_for_staging_review,官方/机构来源直接记录 Leyendas de Guatemala 的书目年份或作品归属；不据此推导主题、影响或故事空间。
+V1-FCT-0369,WEB-CE-B02,V1-CARD-0068,V1-ENT-0171,birth_year,1942,fact,SRC-0134,high,candidate_for_staging_review,官方时间线直接标注出生年份。
+V1-FCT-0370,WEB-CE-B02,V1-CARD-0068,V1-ENT-0171,country_or_region,智利,fact,SRC-0134,high,candidate_for_staging_review,官方时间线直接记载其在智利成长/生活的生平关联。
+V1-FCT-0371,WEB-CE-B02,V1-CARD-0068,V1-ENT-0171,birth_place,"利马（Lima, Perú）",fact,SRC-0134,high,candidate_for_staging_review,官方时间线直接标注出生地；不将其自动当作作品故事地点。
+V1-FCT-0373,WEB-CE-B02,V1-CARD-0069,V1-ENT-0176,entity_layer,work,metadata,SRC-0134,high,candidate_for_staging_review,实体类型由本批去重与作品形态判断确定；汇编类使用 collection。
+V1-FCT-0374,WEB-CE-B02,V1-CARD-0069,V1-ENT-0176,first_publication_year,1982,bibliographic,SRC-0134,high,candidate_for_staging_review,官方/机构来源直接记录 La casa de los espíritus 的书目年份或作品归属；不据此推导主题、影响或故事空间。
+V1-FCT-0375,WEB-CE-B02,V1-CARD-0069,V1-ENT-0176,bibliographic_note,Allende 官方时间线记录西语版 1982；官方作品页另显示英文首版 1985。本事实使用原文版年份。,bibliographic,SRC-0135,high,candidate_for_staging_review,官方/机构来源直接记录 La casa de los espíritus 的书目年份或作品归属；不据此推导主题、影响或故事空间。
+V1-FCT-0376,WEB-CE-B02,V1-CARD-0070,V1-ENT-0177,entity_layer,work,metadata,SRC-0134,high,candidate_for_staging_review,实体类型由本批去重与作品形态判断确定；汇编类使用 collection。
+V1-FCT-0377,WEB-CE-B02,V1-CARD-0070,V1-ENT-0177,first_publication_year,1984,bibliographic,SRC-0134,high,candidate_for_staging_review,官方/机构来源直接记录 De amor y de sombras 的书目年份或作品归属；不据此推导主题、影响或故事空间。
+V1-FCT-0378,WEB-CE-B02,V1-CARD-0070,V1-ENT-0177,bibliographic_note,Allende 官方时间线记录西语版 1984；官方作品页另显示英文首版 1987。本事实使用原文版年份。,bibliographic,SRC-0136,high,candidate_for_staging_review,官方/机构来源直接记录 De amor y de sombras 的书目年份或作品归属；不据此推导主题、影响或故事空间。
+V1-FCT-0379,WEB-CE-B02,V1-CARD-0071,V1-ENT-0178,entity_layer,work,metadata,SRC-0134,high,candidate_for_staging_review,实体类型由本批去重与作品形态判断确定；汇编类使用 collection。
+V1-FCT-0380,WEB-CE-B02,V1-CARD-0071,V1-ENT-0178,first_publication_year,1987,bibliographic,SRC-0134,high,candidate_for_staging_review,官方/机构来源直接记录 Eva Luna 的书目年份或作品归属；不据此推导主题、影响或故事空间。
+V1-FCT-0381,WEB-CE-B02,V1-CARD-0071,V1-ENT-0178,bibliographic_note,Allende 官方时间线记录西语版 1987；官方作品页另显示英文首版 1988。本事实使用原文版年份。,bibliographic,SRC-0137,high,candidate_for_staging_review,官方/机构来源直接记录 Eva Luna 的书目年份或作品归属；不据此推导主题、影响或故事空间。
+V1-FCT-0382,WEB-CE-B02,V1-CARD-0072,V1-ENT-0172,birth_year,1912,fact,SRC-0138,high,candidate_for_staging_review,作者官方/机构来源直接标注出生年份。
+V1-FCT-0383,WEB-CE-B02,V1-CARD-0072,V1-ENT-0172,death_year,2001,fact,SRC-0138,high,candidate_for_staging_review,作者官方/机构来源直接标注逝年。
+V1-FCT-0384,WEB-CE-B02,V1-CARD-0072,V1-ENT-0172,country_or_region,巴西,fact,SRC-0138,high,candidate_for_staging_review,作者与该拉丁美洲国家的公开身份/生平关联。
+V1-FCT-0385,WEB-CE-B02,V1-CARD-0072,V1-ENT-0172,birth_place,"伊塔布纳（Itabuna, Bahia）",fact,SRC-0138,high,candidate_for_staging_review,来源直接标注出生地；不将其自动当作作品故事地点。
+V1-FCT-0386,WEB-CE-B02,V1-CARD-0072,V1-ENT-0172,career_note,作家/小说家（来源身份描述）,fact,SRC-0138,medium,candidate_for_staging_review,仅保留来源对职业身份的直接描述，不推导文学史地位。
+V1-FCT-0387,WEB-CE-B02,V1-CARD-0073,V1-ENT-0179,entity_layer,work,metadata,SRC-0139,high,candidate_for_staging_review,实体类型由本批去重与作品形态判断确定；汇编类使用 collection。
+V1-FCT-0388,WEB-CE-B02,V1-CARD-0073,V1-ENT-0179,first_publication_year,1966,bibliographic,SRC-0139,high,candidate_for_staging_review,官方/机构来源直接记录 Dona Flor e seus dois maridos 的书目年份或作品归属；不据此推导主题、影响或故事空间。
+V1-FCT-0389,WEB-CE-B02,V1-CARD-0073,V1-ENT-0179,bibliographic_note,ABL 官方书目列出 Dona Flor e seus dois maridos（1966）；本批仅作原文题名与出版年份记录。,bibliographic,SRC-0139,high,candidate_for_staging_review,官方/机构来源直接记录 Dona Flor e seus dois maridos 的书目年份或作品归属；不据此推导主题、影响或故事空间。
+V1-FCT-0390,WEB-CE-B02,V1-CARD-0074,V1-ENT-0180,entity_layer,work,metadata,SRC-0139,high,candidate_for_staging_review,实体类型由本批去重与作品形态判断确定；汇编类使用 collection。
+V1-FCT-0391,WEB-CE-B02,V1-CARD-0074,V1-ENT-0180,first_publication_year,1958,bibliographic,SRC-0139,high,candidate_for_staging_review,"官方/机构来源直接记录 Gabriela, cravo e canela 的书目年份或作品归属；不据此推导主题、影响或故事空间。"
+V1-FCT-0392,WEB-CE-B02,V1-CARD-0074,V1-ENT-0180,bibliographic_note,"ABL 官方书目列出 Gabriela, cravo e canela（1958）；本批仅作原文题名与出版年份记录。",bibliographic,SRC-0139,high,candidate_for_staging_review,"官方/机构来源直接记录 Gabriela, cravo e canela 的书目年份或作品归属；不据此推导主题、影响或故事空间。"
+V1-FCT-0393,WEB-CE-B02,V1-CARD-0075,V1-ENT-0181,entity_layer,work,metadata,SRC-0139,high,candidate_for_staging_review,实体类型由本批去重与作品形态判断确定；汇编类使用 collection。
+V1-FCT-0394,WEB-CE-B02,V1-CARD-0075,V1-ENT-0181,first_publication_year,1937,bibliographic,SRC-0139,high,candidate_for_staging_review,官方/机构来源直接记录 Capitães da Areia 的书目年份或作品归属；不据此推导主题、影响或故事空间。
+V1-FCT-0395,WEB-CE-B02,V1-CARD-0075,V1-ENT-0181,bibliographic_note,Companhia das Letras 出版者书目资料确认规范题名 Capitães da Areia 与 1937 年首版；ABL 书目页出现 Capitães de areia 变体，本批不另建实体。,bibliographic,SRC-0140,high,candidate_for_staging_review,出版者/机构来源直接记录 Capitães da Areia 的原文题名与年份；来源题名变体作为规范化说明，不据此推导主题、影响或故事空间。
+V1-FCT-0396,WEB-CE-B03,V1-CARD-0076,V1-ENT-0184,birth_year,1909,fact,SRC-0141,high,candidate_for_staging_review,作者来源直接标注出生日期与年份。
+V1-FCT-0397,WEB-CE-B03,V1-CARD-0076,V1-ENT-0184,death_year,1994,fact,SRC-0141,high,candidate_for_staging_review,作者来源直接标注逝世日期与年份。
+V1-FCT-0398,WEB-CE-B03,V1-CARD-0076,V1-ENT-0184,country_or_region,乌拉圭,fact,SRC-0141,high,candidate_for_staging_review,Instituto Cervantes 直接称其为乌拉圭作家。
+V1-FCT-0399,WEB-CE-B03,V1-CARD-0076,V1-ENT-0184,birth_place,蒙得维的亚（Montevideo）,fact,SRC-0141,high,candidate_for_staging_review,作者来源直接标注出生城市。
+V1-FCT-0400,WEB-CE-B03,V1-CARD-0076,V1-ENT-0184,career_note,作家（来源身份描述）,fact,SRC-0141,medium,candidate_for_staging_review,仅保留来源对职业身份的直接描述，不推导文学史地位。
+V1-FCT-0401,WEB-CE-B03,V1-CARD-0077,V1-ENT-0187,entity_layer,work,metadata,SRC-0142,high,candidate_for_staging_review,实体类型由本批去重与作品形态判断确定。
+V1-FCT-0402,WEB-CE-B03,V1-CARD-0077,V1-ENT-0187,first_publication_year,1950,bibliographic,SRC-0142,high,candidate_for_staging_review,CVC 书目与时间线直接列出 La vida breve 的首版年份。
+V1-FCT-0403,WEB-CE-B03,V1-CARD-0077,V1-ENT-0187,bibliographic_note,CVC 书目列出 La vida breve（1950）；本批仅作书目事实。,bibliographic,SRC-0142,high,candidate_for_staging_review,来源支持原文题名与首版年份，不据此推导主题或影响。
+V1-FCT-0404,WEB-CE-B03,V1-CARD-0078,V1-ENT-0188,entity_layer,work,metadata,SRC-0142,high,candidate_for_staging_review,实体类型由本批去重与作品形态判断确定。
+V1-FCT-0405,WEB-CE-B03,V1-CARD-0078,V1-ENT-0188,first_publication_year,1961,bibliographic,SRC-0142,high,candidate_for_staging_review,CVC 书目与时间线直接列出 El astillero 的首版年份。
+V1-FCT-0406,WEB-CE-B03,V1-CARD-0078,V1-ENT-0188,bibliographic_note,CVC 书目列出 El astillero（1961）；本批仅作书目事实。,bibliographic,SRC-0142,high,candidate_for_staging_review,来源支持原文题名与首版年份，不据此推导主题或影响。
+V1-FCT-0407,WEB-CE-B03,V1-CARD-0079,V1-ENT-0189,entity_layer,work,metadata,SRC-0142,high,candidate_for_staging_review,实体类型由本批去重与作品形态判断确定。
+V1-FCT-0408,WEB-CE-B03,V1-CARD-0079,V1-ENT-0189,first_publication_year,1954,bibliographic,SRC-0142,high,candidate_for_staging_review,CVC 书目与时间线直接列出 Los adioses 的首版年份。
+V1-FCT-0409,WEB-CE-B03,V1-CARD-0079,V1-ENT-0189,bibliographic_note,CVC 书目列出 Los adioses（1954）；本批仅作书目事实。,bibliographic,SRC-0142,high,candidate_for_staging_review,来源支持原文题名与首版年份，不据此推导主题或影响。
+V1-FCT-0410,WEB-CE-B03,V1-CARD-0080,V1-ENT-0185,birth_year,1924,fact,SRC-0144,high,candidate_for_staging_review,Memoria Chilena 作者档案直接标注生年。
+V1-FCT-0411,WEB-CE-B03,V1-CARD-0080,V1-ENT-0185,death_year,1996,fact,SRC-0144,high,candidate_for_staging_review,Memoria Chilena 作者档案直接标注卒年。
+V1-FCT-0412,WEB-CE-B03,V1-CARD-0080,V1-ENT-0185,country_or_region,智利,fact,SRC-0144,high,candidate_for_staging_review,作者档案直接呈现其智利作家身份。
+V1-FCT-0413,WEB-CE-B03,V1-CARD-0080,V1-ENT-0185,career_note,作家/小说家（来源身份描述）,fact,SRC-0144,medium,candidate_for_staging_review,仅保留来源对职业身份的直接描述，不推导文学史地位。
+V1-FCT-0414,WEB-CE-B03,V1-CARD-0081,V1-ENT-0190,entity_layer,work,metadata,SRC-0146,high,candidate_for_staging_review,实体类型由本批去重与作品形态判断确定。
+V1-FCT-0415,WEB-CE-B03,V1-CARD-0081,V1-ENT-0190,first_publication_year,1970,bibliographic,SRC-0146,high,candidate_for_staging_review,Memoria Chilena 作品页直接记录 1970 年 Seix Barral 首版。
+V1-FCT-0416,WEB-CE-B03,V1-CARD-0081,V1-ENT-0190,bibliographic_note,Memoria Chilena 作品页记录 El obsceno pájaro de la noche（1970）；本批仅作书目事实。,bibliographic,SRC-0146,high,candidate_for_staging_review,来源支持原文题名与出版年份，不据此推导主题或影响。
+V1-FCT-0417,WEB-CE-B03,V1-CARD-0082,V1-ENT-0191,entity_layer,work,metadata,SRC-0147,high,candidate_for_staging_review,实体类型由本批去重与作品形态判断确定。
+V1-FCT-0418,WEB-CE-B03,V1-CARD-0082,V1-ENT-0191,first_publication_year,1966,bibliographic,SRC-0147,high,candidate_for_staging_review,Memoria Chilena 作品档案与作者时间线支持 1966 年出版线索。
+V1-FCT-0419,WEB-CE-B03,V1-CARD-0082,V1-ENT-0191,bibliographic_note,Memoria Chilena 作品页记录 El lugar sin límites（1966）；本批仅作书目事实。,bibliographic,SRC-0147,high,candidate_for_staging_review,来源支持原文题名与出版年份，不据此推导主题或影响。
+V1-FCT-0420,WEB-CE-B03,V1-CARD-0083,V1-ENT-0192,entity_layer,work,metadata,SRC-0145,high,candidate_for_staging_review,实体类型由本批去重与作品形态判断确定。
+V1-FCT-0421,WEB-CE-B03,V1-CARD-0083,V1-ENT-0192,first_publication_year,1957,bibliographic,SRC-0145,high,candidate_for_staging_review,Memoria Chilena 作品页直接记录 Coronación 首版年份。
+V1-FCT-0422,WEB-CE-B03,V1-CARD-0083,V1-ENT-0192,bibliographic_note,Memoria Chilena 作品页记录 Coronación（1957）；本批仅作书目事实。,bibliographic,SRC-0145,high,candidate_for_staging_review,来源支持原文题名与出版年份，不据此推导主题或影响。
+V1-FCT-0423,WEB-CE-B03,V1-CARD-0084,V1-ENT-0186,birth_year,1911,fact,SRC-0148,high,candidate_for_staging_review,阿根廷国家图书馆作者纪念页直接标注出生年份。
+V1-FCT-0424,WEB-CE-B03,V1-CARD-0084,V1-ENT-0186,death_year,2011,fact,SRC-0148,high,candidate_for_staging_review,阿根廷国家图书馆作者纪念页直接标注逝年。
+V1-FCT-0425,WEB-CE-B03,V1-CARD-0084,V1-ENT-0186,country_or_region,阿根廷,fact,SRC-0148,high,candidate_for_staging_review,阿根廷国家图书馆机构来源支持其阿根廷作者身份。
+V1-FCT-0426,WEB-CE-B03,V1-CARD-0084,V1-ENT-0186,birth_place,罗哈斯（Rojas，布宜诺斯艾利斯省）,fact,SRC-0148,high,candidate_for_staging_review,阿根廷国家图书馆直接标注出生地 Rojas。
+V1-FCT-0427,WEB-CE-B03,V1-CARD-0084,V1-ENT-0186,career_note,作家、画家；受过物理学训练并曾任教,fact,SRC-0150,medium,candidate_for_staging_review,仅保留来源对职业身份的直接描述，不推导文学史地位。
+V1-FCT-0428,WEB-CE-B03,V1-CARD-0085,V1-ENT-0193,entity_layer,work,metadata,SRC-0148,high,candidate_for_staging_review,实体类型由本批去重与作品形态判断确定。
+V1-FCT-0429,WEB-CE-B03,V1-CARD-0085,V1-ENT-0193,first_publication_year,1948,bibliographic,SRC-0149,high,candidate_for_staging_review,CONICET 作品目录直接列出 El túnel（1948）。
+V1-FCT-0430,WEB-CE-B03,V1-CARD-0085,V1-ENT-0193,bibliographic_note,CONICET 作品目录列出 El túnel（1948）；本批仅作书目事实。,bibliographic,SRC-0149,high,candidate_for_staging_review,来源支持原文题名与首版年份，不据此推导主题或影响。
+V1-FCT-0431,WEB-CE-B03,V1-CARD-0086,V1-ENT-0194,entity_layer,work,metadata,SRC-0148,high,candidate_for_staging_review,实体类型由本批去重与作品形态判断确定。
+V1-FCT-0432,WEB-CE-B03,V1-CARD-0086,V1-ENT-0194,first_publication_year,1961,bibliographic,SRC-0149,high,candidate_for_staging_review,CONICET 作品目录直接列出 Sobre héroes y tumbas（1961）。
+V1-FCT-0433,WEB-CE-B03,V1-CARD-0086,V1-ENT-0194,bibliographic_note,CONICET 作品目录列出 Sobre héroes y tumbas（1961）；本批仅作书目事实。,bibliographic,SRC-0149,high,candidate_for_staging_review,来源支持原文题名与首版年份，不据此推导主题或影响。
+V1-FCT-0434,WEB-CE-B03,V1-CARD-0087,V1-ENT-0195,entity_layer,work,metadata,SRC-0149,high,candidate_for_staging_review,实体类型由本批去重与作品形态判断确定。
+V1-FCT-0435,WEB-CE-B03,V1-CARD-0087,V1-ENT-0195,first_publication_year,1974,bibliographic,SRC-0149,high,candidate_for_staging_review,CONICET 作品目录直接列出 Abaddón el exterminador（1974）。
+V1-FCT-0436,WEB-CE-B03,V1-CARD-0087,V1-ENT-0195,bibliographic_note,CONICET 作品目录列出 Abaddón el exterminador（1974）；本批仅作书目事实。,bibliographic,SRC-0149,high,candidate_for_staging_review,来源支持原文题名与首版年份，不据此推导主题或影响。
+V1-FCT-0437,WEB-CE-B04,V1-CARD-0088,V1-ENT-0198,birth_year,1914,fact,SRC-0153,high,candidate_for_staging_review,机构传记直接标注出生年份。
+V1-FCT-0438,WEB-CE-B04,V1-CARD-0088,V1-ENT-0198,death_year,1999,fact,SRC-0153,high,candidate_for_staging_review,机构传记直接标注逝年。
+V1-FCT-0439,WEB-CE-B04,V1-CARD-0088,V1-ENT-0198,country_or_region,阿根廷,fact,SRC-0153,high,candidate_for_staging_review,Instituto Cervantes 直接称其为阿根廷作家。
+V1-FCT-0440,WEB-CE-B04,V1-CARD-0088,V1-ENT-0198,birth_place,布宜诺斯艾利斯（Buenos Aires）,fact,SRC-0153,high,candidate_for_staging_review,作者机构传记直接标注出生地。
+V1-FCT-0441,WEB-CE-B04,V1-CARD-0088,V1-ENT-0198,career_note,作家，主要写作小说与短篇,fact,SRC-0153,medium,candidate_for_staging_review,只保留来源对职业与写作类型的直接描述。
+V1-FCT-0442,WEB-CE-B04,V1-CARD-0089,V1-ENT-0201,entity_layer,work,metadata,SRC-0155,high,candidate_for_staging_review,机构作品目录确定实体类型。
+V1-FCT-0443,WEB-CE-B04,V1-CARD-0089,V1-ENT-0201,first_publication_year,1940,bibliographic,SRC-0154,medium,candidate_for_staging_review,SRC-0154 规范时间线列 1940；SRC-0153 Instituto Cervantes 传记写 1941。当前候选沿用规范时间线的 1940，但该年份存在来源冲突，须由 Sol 复核，不作无争议表述。
+V1-FCT-0444,WEB-CE-B04,V1-CARD-0089,V1-ENT-0201,bibliographic_note,Cervantes Virtual 目录列出 La invención de Morel；本批仅作书目事实。,bibliographic,SRC-0155,high,candidate_for_staging_review,不据此推导文学地位。
+V1-FCT-0445,WEB-CE-B04,V1-CARD-0090,V1-ENT-0202,entity_layer,work,metadata,SRC-0155,high,candidate_for_staging_review,机构作品目录确定实体类型。
+V1-FCT-0446,WEB-CE-B04,V1-CARD-0090,V1-ENT-0202,first_publication_year,1945,bibliographic,SRC-0154,high,candidate_for_staging_review,Cervantes Virtual chronology lists Plan de evasión in 1945.
+V1-FCT-0447,WEB-CE-B04,V1-CARD-0090,V1-ENT-0202,bibliographic_note,Biblioteca Nacional Mariano Moreno 文献记录 Plan de evasión（1945）；本批不外推情节。,bibliographic,SRC-0156,high,candidate_for_staging_review,不据此推导文学地位。
+V1-FCT-0448,WEB-CE-B04,V1-CARD-0091,V1-ENT-0203,entity_layer,work,metadata,SRC-0155,high,candidate_for_staging_review,机构作品目录确定实体类型。
+V1-FCT-0449,WEB-CE-B04,V1-CARD-0091,V1-ENT-0203,first_publication_year,1954,bibliographic,SRC-0154,high,candidate_for_staging_review,Cervantes Virtual 研究资料标注 El sueño de los héroes（1954）。
+V1-FCT-0450,WEB-CE-B04,V1-CARD-0091,V1-ENT-0203,bibliographic_note,Cervantes Virtual 目录列出 El sueño de los héroes；本批仅作书目事实。,bibliographic,SRC-0155,high,candidate_for_staging_review,不据此推导文学地位。
+V1-FCT-0451,WEB-CE-B04,V1-CARD-0092,V1-ENT-0199,birth_year,1917,fact,SRC-0157,high,candidate_for_staging_review,CVC 传记直接标注出生年份。
+V1-FCT-0452,WEB-CE-B04,V1-CARD-0092,V1-ENT-0199,death_year,2005,fact,SRC-0157,high,candidate_for_staging_review,CVC 传记直接标注逝年。
+V1-FCT-0453,WEB-CE-B04,V1-CARD-0092,V1-ENT-0199,country_or_region,巴拉圭,fact,SRC-0157,high,candidate_for_staging_review,CVC 传记直接称其为巴拉圭作家。
+V1-FCT-0454,WEB-CE-B04,V1-CARD-0092,V1-ENT-0199,birth_place,亚松森（Asunción）,fact,SRC-0157,high,candidate_for_staging_review,CVC 传记直接标注出生地。
+V1-FCT-0455,WEB-CE-B04,V1-CARD-0092,V1-ENT-0199,career_note,作家、记者、剧作家,fact,SRC-0157,medium,candidate_for_staging_review,仅保留来源对职业类型的直接描述。
+V1-FCT-0456,WEB-CE-B04,V1-CARD-0093,V1-ENT-0204,entity_layer,work,metadata,SRC-0158,high,candidate_for_staging_review,CVC 作品研究页确定实体类型。
+V1-FCT-0457,WEB-CE-B04,V1-CARD-0093,V1-ENT-0204,first_publication_year,1960,bibliographic,SRC-0158,high,candidate_for_staging_review,CVC 作品研究页直接标注 Hijo de hombre（1960）。
+V1-FCT-0458,WEB-CE-B04,V1-CARD-0093,V1-ENT-0204,bibliographic_note,CVC 作品研究页列出 Hijo de hombre；本批只记录书目事实。,bibliographic,SRC-0158,high,candidate_for_staging_review,评论性内容不转写为正式关系。
+V1-FCT-0459,WEB-CE-B04,V1-CARD-0094,V1-ENT-0205,entity_layer,work,metadata,SRC-0161,high,candidate_for_staging_review,ASALE 作品页面确定实体类型。
+V1-FCT-0460,WEB-CE-B04,V1-CARD-0094,V1-ENT-0205,first_publication_year,1974,bibliographic,SRC-0161,high,candidate_for_staging_review,ASALE 页面直接标注 Yo el Supremo 1974。
+V1-FCT-0461,WEB-CE-B04,V1-CARD-0094,V1-ENT-0205,bibliographic_note,ASALE 作品页面列出 Yo el Supremo；本批只记录书目事实。,bibliographic,SRC-0161,high,candidate_for_staging_review,不把评价写入 Research fact。
+V1-FCT-0462,WEB-CE-B04,V1-CARD-0095,V1-ENT-0206,entity_layer,work,metadata,SRC-0160,high,candidate_for_staging_review,作者基金会时间线确定实体类型。
+V1-FCT-0463,WEB-CE-B04,V1-CARD-0095,V1-ENT-0206,first_publication_year,1993,bibliographic,SRC-0160,high,candidate_for_staging_review,作者基金会时间线直接标注 El fiscal（1993）。
+V1-FCT-0464,WEB-CE-B04,V1-CARD-0095,V1-ENT-0206,bibliographic_note,作者基金会页面列出 El fiscal；本批只记录书目事实。,bibliographic,SRC-0160,high,candidate_for_staging_review,解释性关联留待策展/HOLD。
+V1-FCT-0465,WEB-CE-B04,V1-CARD-0096,V1-ENT-0200,birth_year,1878,fact,SRC-0162,high,candidate_for_staging_review,乌拉圭教育文化部页面直接标注出生年份。
+V1-FCT-0466,WEB-CE-B04,V1-CARD-0096,V1-ENT-0200,death_year,1937,fact,SRC-0162,high,candidate_for_staging_review,乌拉圭教育文化部页面直接标注逝年。
+V1-FCT-0467,WEB-CE-B04,V1-CARD-0096,V1-ENT-0200,country_or_region,乌拉圭,fact,SRC-0162,high,candidate_for_staging_review,乌拉圭国家机构页面直接介绍其乌拉圭文学身份。
+V1-FCT-0468,WEB-CE-B04,V1-CARD-0096,V1-ENT-0200,birth_place,萨尔托（Salto）,fact,SRC-0162,high,candidate_for_staging_review,乌拉圭教育文化部页面直接标注出生地。
+V1-FCT-0469,WEB-CE-B04,V1-CARD-0096,V1-ENT-0200,career_note,作家,fact,SRC-0162,medium,candidate_for_staging_review,仅保留来源对职业身份的直接描述。
+V1-FCT-0470,WEB-CE-B04,V1-CARD-0097,V1-ENT-0207,entity_layer,collection,metadata,SRC-0162,high,candidate_for_staging_review,乌拉圭国家机构页面将该标题置于作品集/故事集语境；正式实体层为 collection。
+V1-FCT-0471,WEB-CE-B04,V1-CARD-0097,V1-ENT-0207,first_publication_year,1917,bibliographic,SRC-0162,high,candidate_for_staging_review,乌拉圭国家机构页面直接标注该书（1917）。
+V1-FCT-0472,WEB-CE-B04,V1-CARD-0097,V1-ENT-0207,bibliographic_note,乌拉圭国家机构页面列出 Cuentos de amor de locura y de muerte；本批只记录书目事实。,bibliographic,SRC-0162,high,candidate_for_staging_review,不将题名直接扩写为强主题判断。
+V1-FCT-0473,WEB-CE-B04,V1-CARD-0098,V1-ENT-0208,entity_layer,collection,metadata,SRC-0162,high,candidate_for_staging_review,乌拉圭国家机构页面将该标题置于作品集/故事集语境；正式实体层为 collection。
+V1-FCT-0474,WEB-CE-B04,V1-CARD-0098,V1-ENT-0208,first_publication_year,1918,bibliographic,SRC-0162,high,candidate_for_staging_review,乌拉圭国家机构页面直接标注 Cuentos de la selva（1918）。
+V1-FCT-0475,WEB-CE-B04,V1-CARD-0098,V1-ENT-0208,bibliographic_note,乌拉圭国家机构页面列出 Cuentos de la selva；本批只记录书目事实。,bibliographic,SRC-0162,high,candidate_for_staging_review,不扩写文学史判断。
+V1-FCT-0476,WEB-CE-B04,V1-CARD-0099,V1-ENT-0209,entity_layer,collection,metadata,SRC-0162,high,candidate_for_staging_review,乌拉圭国家机构页面将该标题置于作品集/故事集语境；正式实体层为 collection。
+V1-FCT-0477,WEB-CE-B04,V1-CARD-0099,V1-ENT-0209,first_publication_year,1926,bibliographic,SRC-0162,high,candidate_for_staging_review,乌拉圭国家机构页面直接标注 Los desterrados（1926）。
+V1-FCT-0478,WEB-CE-B04,V1-CARD-0099,V1-ENT-0209,bibliographic_note,乌拉圭国家机构页面列出 Los desterrados；本批只记录书目事实。,bibliographic,SRC-0162,high,candidate_for_staging_review,不把来源中的评价性语句写入 Research fact。
+V1-FCT-0479,WEB-CE-B05,V1-CARD-0100,V1-ENT-0211,birth_year,1839,fact,SRC-0165,high,candidate_for_staging_review,机构来源直接标注作者出生年份。
+V1-FCT-0480,WEB-CE-B05,V1-CARD-0100,V1-ENT-0211,death_year,1908,fact,SRC-0165,high,candidate_for_staging_review,机构来源直接标注作者逝世年份。
+V1-FCT-0481,WEB-CE-B05,V1-CARD-0100,V1-ENT-0211,country_or_region,巴西,fact,SRC-0165,high,candidate_for_staging_review,机构或官方文化页面支持作者与巴西的国家关联。
+V1-FCT-0482,WEB-CE-B05,V1-CARD-0100,V1-ENT-0211,birth_place,里约热内卢（Rio de Janeiro）,fact,SRC-0165,medium,candidate_for_staging_review,保留来源直接给出的出生地；不将其自动当作作品场景。
+V1-FCT-0483,WEB-CE-B05,V1-CARD-0100,V1-ENT-0211,career_note,作家（小说家、诗人、剧作家等）,fact,SRC-0165,medium,candidate_for_staging_review,仅保留来源对职业身份的直接描述，不推导文学史地位。
+V1-FCT-0484,WEB-CE-B05,V1-CARD-0101,V1-ENT-0214,entity_layer,work,metadata,SRC-0176,high,candidate_for_staging_review,官方 MEC Romance 目录直接标注该作品属于 romance；ABL 书目 SRC-0166 另支持题名与年份。
+V1-FCT-0485,WEB-CE-B05,V1-CARD-0101,V1-ENT-0214,first_publication_year,1881,bibliographic,SRC-0166,high,candidate_for_staging_review,机构书目或公共文化页面直接列出该作品的首版年份。
+V1-FCT-0486,WEB-CE-B05,V1-CARD-0101,V1-ENT-0214,bibliographic_note,SRC-0166 直接列出 Memórias Póstumas de Brás Cubas；本批仅作书目事实。,bibliographic,SRC-0166,high,candidate_for_staging_review,来源支持原文题名、形态与年份，不据此推导主题、影响或文学地位。
+V1-FCT-0487,WEB-CE-B05,V1-CARD-0102,V1-ENT-0215,entity_layer,work,metadata,SRC-0176,high,candidate_for_staging_review,官方 MEC Romance 目录直接标注该作品属于 romance；ABL 书目 SRC-0166 另支持题名与年份。
+V1-FCT-0488,WEB-CE-B05,V1-CARD-0102,V1-ENT-0215,first_publication_year,1891,bibliographic,SRC-0166,high,candidate_for_staging_review,机构书目或公共文化页面直接列出该作品的首版年份。
+V1-FCT-0489,WEB-CE-B05,V1-CARD-0102,V1-ENT-0215,bibliographic_note,SRC-0166 直接列出 Quincas Borba；本批仅作书目事实。,bibliographic,SRC-0166,high,candidate_for_staging_review,来源支持原文题名、形态与年份，不据此推导主题、影响或文学地位。
+V1-FCT-0490,WEB-CE-B05,V1-CARD-0103,V1-ENT-0216,entity_layer,work,metadata,SRC-0176,high,candidate_for_staging_review,官方 MEC Romance 目录直接标注该作品属于 romance；ABL 书目 SRC-0166 另支持题名与年份。
+V1-FCT-0491,WEB-CE-B05,V1-CARD-0103,V1-ENT-0216,first_publication_year,1899,bibliographic,SRC-0166,high,candidate_for_staging_review,机构书目或公共文化页面直接列出该作品的首版年份。
+V1-FCT-0492,WEB-CE-B05,V1-CARD-0103,V1-ENT-0216,bibliographic_note,SRC-0166 直接列出 Dom Casmurro；本批仅作书目事实。,bibliographic,SRC-0166,high,candidate_for_staging_review,来源支持原文题名、形态与年份，不据此推导主题、影响或文学地位。
+V1-FCT-0493,WEB-CE-B05,V1-CARD-0104,V1-ENT-0212,birth_year,1908,fact,SRC-0168,high,candidate_for_staging_review,机构来源直接标注作者出生年份。
+V1-FCT-0494,WEB-CE-B05,V1-CARD-0104,V1-ENT-0212,death_year,1967,fact,SRC-0168,high,candidate_for_staging_review,机构来源直接标注作者逝世年份。
+V1-FCT-0495,WEB-CE-B05,V1-CARD-0104,V1-ENT-0212,country_or_region,巴西,fact,SRC-0168,high,candidate_for_staging_review,机构或官方文化页面支持作者与巴西的国家关联。
+V1-FCT-0496,WEB-CE-B05,V1-CARD-0104,V1-ENT-0212,birth_place,"科尔迪斯堡（Cordisburgo, Minas Gerais）",fact,SRC-0168,medium,candidate_for_staging_review,保留来源直接给出的出生地；不将其自动当作作品场景。
+V1-FCT-0497,WEB-CE-B05,V1-CARD-0104,V1-ENT-0212,career_note,作家,fact,SRC-0170,medium,candidate_for_staging_review,ABL 相关报道直接称 Guimarães Rosa 为 escritor；本批仅保留“作家”，不扩展外交或医学履历。
+V1-FCT-0498,WEB-CE-B05,V1-CARD-0105,V1-ENT-0217,entity_layer,work,metadata,SRC-0169,high,candidate_for_staging_review,机构作品书目确定实体形态；collection 仅用于短篇小说集。
+V1-FCT-0499,WEB-CE-B05,V1-CARD-0105,V1-ENT-0217,first_publication_year,1956,bibliographic,SRC-0169,high,candidate_for_staging_review,机构书目或公共文化页面直接列出该作品的首版年份。
+V1-FCT-0500,WEB-CE-B05,V1-CARD-0105,V1-ENT-0217,bibliographic_note,SRC-0169 直接列出 Grande Sertão: Veredas；本批仅作书目事实。,bibliographic,SRC-0169,high,candidate_for_staging_review,来源支持原文题名、形态与年份，不据此推导主题、影响或文学地位。
+V1-FCT-0501,WEB-CE-B05,V1-CARD-0106,V1-ENT-0218,entity_layer,collection,metadata,SRC-0169,high,candidate_for_staging_review,机构作品书目确定实体形态；collection 仅用于短篇小说集。
+V1-FCT-0502,WEB-CE-B05,V1-CARD-0106,V1-ENT-0218,first_publication_year,1946,bibliographic,SRC-0169,high,candidate_for_staging_review,机构书目或公共文化页面直接列出该作品的首版年份。
+V1-FCT-0503,WEB-CE-B05,V1-CARD-0106,V1-ENT-0218,bibliographic_note,SRC-0169 直接列出 Sagarana；本批仅作书目事实。,bibliographic,SRC-0169,high,candidate_for_staging_review,来源支持原文题名、形态与年份，不据此推导主题、影响或文学地位。
+V1-FCT-0504,WEB-CE-B05,V1-CARD-0107,V1-ENT-0219,entity_layer,collection,metadata,SRC-0169,high,candidate_for_staging_review,机构作品书目确定实体形态；collection 仅用于短篇小说集。
+V1-FCT-0505,WEB-CE-B05,V1-CARD-0107,V1-ENT-0219,first_publication_year,1962,bibliographic,SRC-0169,high,candidate_for_staging_review,机构书目或公共文化页面直接列出该作品的首版年份。
+V1-FCT-0506,WEB-CE-B05,V1-CARD-0107,V1-ENT-0219,bibliographic_note,SRC-0169 直接列出 Primeiras Estórias；本批仅作书目事实。,bibliographic,SRC-0169,high,candidate_for_staging_review,来源支持原文题名、形态与年份，不据此推导主题、影响或文学地位。
+V1-FCT-0507,WEB-CE-B05,V1-CARD-0108,V1-ENT-0213,birth_year,1892,fact,SRC-0174,high,candidate_for_staging_review,机构来源直接标注作者出生年份。
+V1-FCT-0508,WEB-CE-B05,V1-CARD-0108,V1-ENT-0213,death_year,1953,fact,SRC-0174,high,candidate_for_staging_review,机构来源直接标注作者逝世年份。
+V1-FCT-0509,WEB-CE-B05,V1-CARD-0108,V1-ENT-0213,country_or_region,巴西,fact,SRC-0174,high,candidate_for_staging_review,机构或官方文化页面支持作者与巴西的国家关联。
+V1-FCT-0510,WEB-CE-B05,V1-CARD-0108,V1-ENT-0213,birth_place,"库埃布朗古（Quebrangulo, Alagoas）",fact,SRC-0174,medium,candidate_for_staging_review,保留来源直接给出的出生地；不将其自动当作作品场景。
+V1-FCT-0511,WEB-CE-B05,V1-CARD-0108,V1-ENT-0213,career_note,作家（小说家）,fact,SRC-0174,medium,candidate_for_staging_review,仅保留来源对职业身份的直接描述，不推导文学史地位。
+V1-FCT-0512,WEB-CE-B05,V1-CARD-0109,V1-ENT-0220,entity_layer,work,metadata,SRC-0172,high,candidate_for_staging_review,机构作品书目确定实体形态；collection 仅用于短篇小说集。
+V1-FCT-0513,WEB-CE-B05,V1-CARD-0109,V1-ENT-0220,first_publication_year,1938,bibliographic,SRC-0172,high,candidate_for_staging_review,机构书目或公共文化页面直接列出该作品的首版年份。
+V1-FCT-0514,WEB-CE-B05,V1-CARD-0109,V1-ENT-0220,bibliographic_note,SRC-0173 直接列出 Vidas Secas；本批仅作书目事实。,bibliographic,SRC-0173,high,candidate_for_staging_review,来源支持原文题名、形态与年份，不据此推导主题、影响或文学地位。
+V1-FCT-0515,WEB-CE-B05,V1-CARD-0110,V1-ENT-0221,entity_layer,work,metadata,SRC-0172,high,candidate_for_staging_review,机构作品书目确定实体形态；collection 仅用于短篇小说集。
+V1-FCT-0516,WEB-CE-B05,V1-CARD-0110,V1-ENT-0221,first_publication_year,1934,bibliographic,SRC-0173,high,candidate_for_staging_review,机构书目或公共文化页面直接列出该作品的首版年份。
+V1-FCT-0517,WEB-CE-B05,V1-CARD-0110,V1-ENT-0221,bibliographic_note,SRC-0173 直接列出 São Bernardo；本批仅作书目事实。,bibliographic,SRC-0173,high,candidate_for_staging_review,来源支持原文题名、形态与年份，不据此推导主题、影响或文学地位。
+V1-FCT-0518,WEB-CE-B05,V1-CARD-0111,V1-ENT-0222,entity_layer,work,metadata,SRC-0172,high,candidate_for_staging_review,机构作品书目确定实体形态；collection 仅用于短篇小说集。
+V1-FCT-0519,WEB-CE-B05,V1-CARD-0111,V1-ENT-0222,first_publication_year,1936,bibliographic,SRC-0173,high,candidate_for_staging_review,机构书目或公共文化页面直接列出该作品的首版年份。
+V1-FCT-0520,WEB-CE-B05,V1-CARD-0111,V1-ENT-0222,bibliographic_note,SRC-0173 直接列出 Angústia；本批仅作书目事实。,bibliographic,SRC-0173,high,candidate_for_staging_review,来源支持原文题名、形态与年份，不据此推导主题、影响或文学地位。
+V1-FCT-0521,WEB-CE-B06,V1-CARD-0112,V1-ENT-0223,birth_year,1892,fact,SRC-0177,high,candidate_for_staging_review,机构来源直接标注作者出生年份。
+V1-FCT-0522,WEB-CE-B06,V1-CARD-0112,V1-ENT-0223,death_year,1938,fact,SRC-0177,high,candidate_for_staging_review,机构来源直接标注作者逝世年份。
+V1-FCT-0523,WEB-CE-B06,V1-CARD-0112,V1-ENT-0223,country_or_region,秘鲁,fact,SRC-0177,high,candidate_for_staging_review,来源支持作者与国家关联。
+V1-FCT-0524,WEB-CE-B06,V1-CARD-0112,V1-ENT-0223,birth_place,圣地亚哥·德·丘科（Santiago de Chuco）,fact,SRC-0177,medium,candidate_for_staging_review,保留来源直接给出的出生地；不自动转换为作品场景。
+V1-FCT-0525,WEB-CE-B06,V1-CARD-0112,V1-ENT-0223,career_note,诗人,fact,SRC-0177,medium,candidate_for_staging_review,来源直接称 Vallejo 为诗人；不扩展作家或文学史身份。
+V1-FCT-0526,WEB-CE-B06,V1-CARD-0113,V1-ENT-0224,birth_year,1867,fact,SRC-0180,high,candidate_for_staging_review,机构来源直接标注作者出生年份。
+V1-FCT-0527,WEB-CE-B06,V1-CARD-0113,V1-ENT-0224,death_year,1916,fact,SRC-0180,high,candidate_for_staging_review,机构来源直接标注作者逝世年份。
+V1-FCT-0528,WEB-CE-B06,V1-CARD-0113,V1-ENT-0224,country_or_region,尼加拉瓜,fact,SRC-0181,high,candidate_for_staging_review,来源支持作者与国家关联。
+V1-FCT-0529,WEB-CE-B06,V1-CARD-0113,V1-ENT-0224,birth_place,梅塔帕（Metapa）,fact,SRC-0181,medium,candidate_for_staging_review,保留来源直接给出的出生地；不自动转换为作品场景。
+V1-FCT-0530,WEB-CE-B06,V1-CARD-0113,V1-ENT-0224,career_note,诗人,fact,SRC-0181,medium,candidate_for_staging_review,来源直接支持诗人身份；不扩展记者或文学史身份。
+V1-FCT-0531,WEB-CE-B06,V1-CARD-0114,V1-ENT-0225,birth_year,1853,fact,SRC-0183,high,candidate_for_staging_review,机构来源直接标注作者出生年份。
+V1-FCT-0532,WEB-CE-B06,V1-CARD-0114,V1-ENT-0225,death_year,1895,fact,SRC-0183,high,candidate_for_staging_review,机构来源直接标注作者逝世年份。
+V1-FCT-0533,WEB-CE-B06,V1-CARD-0114,V1-ENT-0225,country_or_region,古巴,fact,SRC-0183,high,candidate_for_staging_review,来源支持作者与国家关联。
+V1-FCT-0534,WEB-CE-B06,V1-CARD-0114,V1-ENT-0225,birth_place,哈瓦那（La Habana）,fact,SRC-0187,medium,candidate_for_staging_review,保留来源直接给出的出生地；不自动转换为作品场景。
+V1-FCT-0535,WEB-CE-B06,V1-CARD-0114,V1-ENT-0225,career_note,诗人、作家、政治人物,fact,SRC-0187,medium,candidate_for_staging_review,来源直接列出诗人、作家、政治人物；不扩展其他职业或文学史身份。
+V1-FCT-0536,WEB-CE-B06,V1-CARD-0115,V1-ENT-0226,entity_layer,collection,metadata,SRC-0178,high,candidate_for_staging_review,作品层级与来源书目形态保持一致。
+V1-FCT-0537,WEB-CE-B06,V1-CARD-0115,V1-ENT-0226,first_publication_year,1918/1919,bibliographic,SRC-0178,medium,candidate_for_staging_review,该页面将 Los heraldos negros 列作 1918 原始版本，并另注实际印行为 1919；保留日期冲突并进入 V1-GAP-0015。
+V1-FCT-0538,WEB-CE-B06,V1-CARD-0115,V1-ENT-0226,bibliographic_note,该页面将 Los heraldos negros 列作 1918 原始版本，并另注实际印行为 1919；保留日期冲突并进入 V1-GAP-0015。,bibliographic,SRC-0178,medium,candidate_for_staging_review,来源支持原文题名、形态与年份；不据此推导主题、影响或文学地位。
+V1-FCT-0539,WEB-CE-B06,V1-CARD-0116,V1-ENT-0227,entity_layer,collection,metadata,SRC-0178,high,candidate_for_staging_review,作品层级与来源书目形态保持一致。
+V1-FCT-0540,WEB-CE-B06,V1-CARD-0116,V1-ENT-0227,first_publication_year,1922,bibliographic,SRC-0178,high,candidate_for_staging_review,机构页面列出 Trilce（1922）首版；本批只作书目事实。
+V1-FCT-0541,WEB-CE-B06,V1-CARD-0116,V1-ENT-0227,bibliographic_note,机构页面列出 Trilce（1922）首版；本批只作书目事实。,bibliographic,SRC-0178,high,candidate_for_staging_review,来源支持原文题名、形态与年份；不据此推导主题、影响或文学地位。
+V1-FCT-0542,WEB-CE-B06,V1-CARD-0117,V1-ENT-0228,entity_layer,collection,metadata,SRC-0178,high,candidate_for_staging_review,作品层级与来源书目形态保持一致。
+V1-FCT-0543,WEB-CE-B06,V1-CARD-0117,V1-ENT-0228,first_publication_year,1939,bibliographic,SRC-0178,high,candidate_for_staging_review,机构页面列出 Poemas humanos（1939）出版序列；本批只作书目事实。
+V1-FCT-0544,WEB-CE-B06,V1-CARD-0117,V1-ENT-0228,bibliographic_note,机构页面列出 Poemas humanos（1939）出版序列；本批只作书目事实。,bibliographic,SRC-0178,high,candidate_for_staging_review,来源支持原文题名、形态与年份；不据此推导主题、影响或文学地位。
+V1-FCT-0545,WEB-CE-B06,V1-CARD-0118,V1-ENT-0229,entity_layer,collection,metadata,SRC-0181,high,candidate_for_staging_review,作品层级与来源书目形态保持一致。
+V1-FCT-0546,WEB-CE-B06,V1-CARD-0118,V1-ENT-0229,first_publication_year,1888,bibliographic,SRC-0181,high,candidate_for_staging_review,Memoria Chilena 直接记录 Azul... 于 1888 年在 Valparaíso 出版；本批不扩展影响判断。
+V1-FCT-0547,WEB-CE-B06,V1-CARD-0118,V1-ENT-0229,bibliographic_note,Memoria Chilena 直接记录 Azul... 于 1888 年在 Valparaíso 出版；本批不扩展影响判断。,bibliographic,SRC-0181,high,candidate_for_staging_review,来源支持原文题名、形态与年份；不据此推导主题、影响或文学地位。
+V1-FCT-0548,WEB-CE-B06,V1-CARD-0119,V1-ENT-0230,entity_layer,collection,metadata,SRC-0182,high,candidate_for_staging_review,作品层级与来源书目形态保持一致。
+V1-FCT-0549,WEB-CE-B06,V1-CARD-0119,V1-ENT-0230,first_publication_year,1896,bibliographic,SRC-0182,high,candidate_for_staging_review,机构文献列出 Prosas profanas（1896）；本批只作诗集书目。
+V1-FCT-0550,WEB-CE-B06,V1-CARD-0119,V1-ENT-0230,bibliographic_note,机构文献列出 Prosas profanas（1896）；本批只作诗集书目。,bibliographic,SRC-0182,high,candidate_for_staging_review,来源支持原文题名、形态与年份；不据此推导主题、影响或文学地位。
+V1-FCT-0551,WEB-CE-B06,V1-CARD-0120,V1-ENT-0231,entity_layer,collection,metadata,SRC-0182,high,candidate_for_staging_review,作品层级与来源书目形态保持一致。
+V1-FCT-0552,WEB-CE-B06,V1-CARD-0120,V1-ENT-0231,first_publication_year,1905,bibliographic,SRC-0182,high,candidate_for_staging_review,机构文献列出 Cantos de vida y esperanza（1905）；本批只作诗集书目。
+V1-FCT-0553,WEB-CE-B06,V1-CARD-0120,V1-ENT-0231,bibliographic_note,机构文献列出 Cantos de vida y esperanza（1905）；本批只作诗集书目。,bibliographic,SRC-0182,high,candidate_for_staging_review,来源支持原文题名、形态与年份；不据此推导主题、影响或文学地位。
+V1-FCT-0554,WEB-CE-B06,V1-CARD-0121,V1-ENT-0232,entity_layer,collection,metadata,SRC-0187,high,candidate_for_staging_review,作品层级与来源书目形态保持一致。
+V1-FCT-0555,WEB-CE-B06,V1-CARD-0121,V1-ENT-0232,first_publication_year,1882,bibliographic,SRC-0187,high,candidate_for_staging_review,Cervantes Virtual 研究直接记录 Ismaelillo（1882）；本批只作诗集书目。
+V1-FCT-0556,WEB-CE-B06,V1-CARD-0121,V1-ENT-0232,bibliographic_note,Cervantes Virtual 作者页直接记录 Ismaelillo（1882）；本批只作诗集书目。,bibliographic,SRC-0187,high,candidate_for_staging_review,来源支持原文题名、形态与年份；不据此推导主题、影响或文学地位。
+V1-FCT-0557,WEB-CE-B06,V1-CARD-0122,V1-ENT-0233,entity_layer,collection,metadata,SRC-0185,high,candidate_for_staging_review,作品层级与来源书目形态保持一致。
+V1-FCT-0558,WEB-CE-B06,V1-CARD-0122,V1-ENT-0233,first_publication_year,1891,bibliographic,SRC-0185,high,candidate_for_staging_review,Cervantes Virtual 年表列出 Versos sencillos（1891）；本批只作诗集书目。
+V1-FCT-0559,WEB-CE-B06,V1-CARD-0122,V1-ENT-0233,bibliographic_note,Cervantes Virtual 年表列出 Versos sencillos（1891）；本批只作诗集书目。,bibliographic,SRC-0185,high,candidate_for_staging_review,来源支持原文题名、形态与年份；不据此推导主题、影响或文学地位。
+V1-FCT-0560,WEB-CE-B06,V1-CARD-0123,V1-ENT-0234,entity_layer,work,metadata,SRC-0185,high,candidate_for_staging_review,作品层级与来源书目形态保持一致。
+V1-FCT-0561,WEB-CE-B06,V1-CARD-0123,V1-ENT-0234,first_publication_year,1891,bibliographic,SRC-0185,high,candidate_for_staging_review,Cervantes Virtual 年表列出 Nuestra América（1891）；本批按 essay work 层级记录。
+V1-FCT-0562,WEB-CE-B06,V1-CARD-0123,V1-ENT-0234,bibliographic_note,Cervantes Virtual 年表列出 Nuestra América（1891）；本批按 essay work 层级记录。,bibliographic,SRC-0185,high,candidate_for_staging_review,来源支持原文题名、形态与年份；不据此推导主题、影响或文学地位。
+V1-FCT-0563,WEB-CE-B07,V1-CARD-0124,V1-ENT-0236,birth_year,1914,fact,SRC-0188,high,candidate_for_staging_review,Memoria Chilena chronology directly records Parra birth year.
+V1-FCT-0564,WEB-CE-B07,V1-CARD-0124,V1-ENT-0236,death_year,2018,fact,SRC-0188,high,candidate_for_staging_review,Source title and author record identify 1914-2018.
+V1-FCT-0565,WEB-CE-B07,V1-CARD-0124,V1-ENT-0236,country_or_region,智利,fact,SRC-0188,high,candidate_for_staging_review,Memoria Chilena author subject is Chilean literature.
+V1-FCT-0566,WEB-CE-B07,V1-CARD-0124,V1-ENT-0236,birth_place,圣法比安·德·阿利科（San Fabián de Alico）,fact,SRC-0188,high,candidate_for_staging_review,Chronology directly names San Fabián de Alico.
+V1-FCT-0567,WEB-CE-B07,V1-CARD-0124,V1-ENT-0236,career_note,诗人,fact,SRC-0188,high,candidate_for_staging_review,Memoria Chilena directly calls Parra a poet.
+V1-FCT-0568,WEB-CE-B07,V1-CARD-0125,V1-ENT-0237,birth_year,1936,fact,SRC-0191,high,candidate_for_staging_review,Argentina Cultura directly records Pizarnik birth year.
+V1-FCT-0569,WEB-CE-B07,V1-CARD-0125,V1-ENT-0237,death_year,1972,fact,SRC-0191,high,candidate_for_staging_review,Argentina Cultura directly records death date and year.
+V1-FCT-0570,WEB-CE-B07,V1-CARD-0125,V1-ENT-0237,country_or_region,阿根廷,fact,SRC-0191,high,candidate_for_staging_review,Official Argentine culture page identifies the author in Argentina.
+V1-FCT-0571,WEB-CE-B07,V1-CARD-0125,V1-ENT-0237,birth_place,阿韦亚内达（Avellaneda）,fact,SRC-0191,high,candidate_for_staging_review,Official page names the Hospital Fiorito in Avellaneda.
+V1-FCT-0572,WEB-CE-B07,V1-CARD-0125,V1-ENT-0237,career_note,诗人,fact,SRC-0191,high,candidate_for_staging_review,Official culture article calls Pizarnik a poet.
+V1-FCT-0573,WEB-CE-B07,V1-CARD-0126,V1-ENT-0238,birth_year,1920,fact,SRC-0194,high,candidate_for_staging_review,Foundation biography records 14 September 1920.
+V1-FCT-0574,WEB-CE-B07,V1-CARD-0126,V1-ENT-0238,death_year,2009,fact,SRC-0194,high,candidate_for_staging_review,Foundation biography records death in Montevideo in 2009.
+V1-FCT-0575,WEB-CE-B07,V1-CARD-0126,V1-ENT-0238,country_or_region,乌拉圭,fact,SRC-0194,high,candidate_for_staging_review,Foundation identifies Benedetti as an Uruguayan author.
+V1-FCT-0576,WEB-CE-B07,V1-CARD-0126,V1-ENT-0238,birth_place,帕索德洛斯托罗斯（Paso de los Toros）,fact,SRC-0194,high,candidate_for_staging_review,Foundation biography directly names Paso de los Toros.
+V1-FCT-0577,WEB-CE-B07,V1-CARD-0126,V1-ENT-0238,career_note,作家、诗人,fact,SRC-0194,medium,candidate_for_staging_review,Foundation biography and work overview identify literary authorship and poetry.
+V1-FCT-0578,WEB-CE-B07,V1-CARD-0127,V1-ENT-0239,entity_layer,collection,metadata,SRC-0188,high,candidate_for_staging_review,Poetry book is represented as a collection.
+V1-FCT-0579,WEB-CE-B07,V1-CARD-0127,V1-ENT-0239,first_publication_year,1954,bibliographic,SRC-0188,high,candidate_for_staging_review,Memoria Chilena directly records publication in 1954.
+V1-FCT-0580,WEB-CE-B07,V1-CARD-0127,V1-ENT-0239,bibliographic_note,SRC-0188 与 SRC-0189 直接列出 Poemas y antipoemas；本批不从题名推导文学史判断。,bibliographic,SRC-0189,high,candidate_for_staging_review,Sources support title and bibliographic identity only.
+V1-FCT-0581,WEB-CE-B07,V1-CARD-0128,V1-ENT-0240,entity_layer,collection,metadata,SRC-0188,high,candidate_for_staging_review,Poetry book is represented as a collection.
+V1-FCT-0582,WEB-CE-B07,V1-CARD-0128,V1-ENT-0240,first_publication_year,1962,bibliographic,SRC-0188,high,candidate_for_staging_review,Memoria Chilena author page lists Versos de salón (1962).
+V1-FCT-0583,WEB-CE-B07,V1-CARD-0128,V1-ENT-0240,bibliographic_note,SRC-0188 与 SRC-0189 直接列出 Versos de salón；本批不扩写反诗理论。,bibliographic,SRC-0189,high,candidate_for_staging_review,Sources support title and bibliographic identity only.
+V1-FCT-0584,WEB-CE-B07,V1-CARD-0129,V1-ENT-0241,entity_layer,collection,metadata,SRC-0189,high,candidate_for_staging_review,Bibliographic collection of speeches retained as collection layer.
+V1-FCT-0585,WEB-CE-B07,V1-CARD-0129,V1-ENT-0241,first_publication_year,1997,bibliographic,SRC-0190,high,candidate_for_staging_review,Memoria Chilena record directly gives 1997.
+V1-FCT-0586,WEB-CE-B07,V1-CARD-0129,V1-ENT-0241,bibliographic_note,SRC-0189 与 SRC-0190 直接列出 Discursos de sobremesa；中文展示名仅作 common_title。,bibliographic,SRC-0190,high,candidate_for_staging_review,"Sources support title, form and year only."
+V1-FCT-0587,WEB-CE-B07,V1-CARD-0130,V1-ENT-0242,entity_layer,collection,metadata,SRC-0192,high,candidate_for_staging_review,Poetry book is represented as a collection.
+V1-FCT-0588,WEB-CE-B07,V1-CARD-0130,V1-ENT-0242,first_publication_year,1962,bibliographic,SRC-0192,high,candidate_for_staging_review,CVC bibliography directly gives Árbol de Diana 1962.
+V1-FCT-0589,WEB-CE-B07,V1-CARD-0130,V1-ENT-0242,bibliographic_note,CVC 书目直接列出 Árbol de Diana；本批不把作品页描述升级为主题事实。,bibliographic,SRC-0192,high,candidate_for_staging_review,Source supports title and year.
+V1-FCT-0590,WEB-CE-B07,V1-CARD-0131,V1-ENT-0243,entity_layer,collection,metadata,SRC-0192,high,candidate_for_staging_review,Poetry book is represented as a collection.
+V1-FCT-0591,WEB-CE-B07,V1-CARD-0131,V1-ENT-0243,first_publication_year,1965,bibliographic,SRC-0192,high,candidate_for_staging_review,CVC bibliography directly gives Los trabajos y las noches 1965.
+V1-FCT-0592,WEB-CE-B07,V1-CARD-0131,V1-ENT-0243,bibliographic_note,CVC 书目直接列出 Los trabajos y las noches；本批不添加主题结论。,bibliographic,SRC-0192,high,candidate_for_staging_review,Source supports title and year.
+V1-FCT-0593,WEB-CE-B07,V1-CARD-0132,V1-ENT-0244,entity_layer,collection,metadata,SRC-0193,high,candidate_for_staging_review,Poetry book is represented as a collection.
+V1-FCT-0594,WEB-CE-B07,V1-CARD-0132,V1-ENT-0244,first_publication_year,1968,bibliographic,SRC-0192,high,candidate_for_staging_review,CVC bibliography directly gives Extracción de la piedra de locura 1968.
+V1-FCT-0595,WEB-CE-B07,V1-CARD-0132,V1-ENT-0244,bibliographic_note,CVC 书目与作品页均列出 Extracción de la piedra de locura；本批仅作书目事实。,bibliographic,SRC-0193,high,candidate_for_staging_review,"Sources support title, form and year."
+V1-FCT-0596,WEB-CE-B07,V1-CARD-0133,V1-ENT-0245,entity_layer,work,metadata,SRC-0195,high,candidate_for_staging_review,Foundation identifies La tregua as a novel.
+V1-FCT-0597,WEB-CE-B07,V1-CARD-0133,V1-ENT-0245,first_publication_year,1960,bibliographic,SRC-0195,high,candidate_for_staging_review,Foundation records first edition in 1960.
+V1-FCT-0598,WEB-CE-B07,V1-CARD-0133,V1-ENT-0245,bibliographic_note,Fundación Mario Benedetti 直接列出 La tregua 的题名、小说形态和首版信息。,bibliographic,SRC-0195,high,candidate_for_staging_review,"Source supports title, form and year only."
+V1-FCT-0599,WEB-CE-B07,V1-CARD-0134,V1-ENT-0246,entity_layer,work,metadata,SRC-0195,high,candidate_for_staging_review,Foundation identifies Gracias por el fuego as a novel.
+V1-FCT-0600,WEB-CE-B07,V1-CARD-0134,V1-ENT-0246,first_publication_year,1965,bibliographic,SRC-0195,high,candidate_for_staging_review,Foundation records first edition in May 1965.
+V1-FCT-0601,WEB-CE-B07,V1-CARD-0134,V1-ENT-0246,bibliographic_note,Fundación Mario Benedetti 直接列出 Gracias por el fuego 的题名、小说形态和首版信息。,bibliographic,SRC-0195,high,candidate_for_staging_review,"Source supports title, form and year only."
+V1-FCT-0602,WEB-CE-B07,V1-CARD-0135,V1-ENT-0247,entity_layer,collection,metadata,SRC-0195,high,candidate_for_staging_review,Foundation identifies Montevideanos as a cuentos collection.
+V1-FCT-0603,WEB-CE-B07,V1-CARD-0135,V1-ENT-0247,first_publication_year,1959,bibliographic,SRC-0195,high,candidate_for_staging_review,Foundation records Alfa first edition in 1959.
+V1-FCT-0604,WEB-CE-B07,V1-CARD-0135,V1-ENT-0247,bibliographic_note,SRC-0195 与 SRC-0196 直接列出 Montevideanos 题名、短篇形态和收录篇目。,bibliographic,SRC-0196,high,candidate_for_staging_review,"Sources support title, form and year only"
+V1-FCT-0605,WEB-CE-B08,V1-CARD-0136,V1-ENT-0248,birth_year,1911,fact,SRC-0197,high,candidate_for_staging_review,BNP directly records Arguedas birth year.
+V1-FCT-0606,WEB-CE-B08,V1-CARD-0136,V1-ENT-0248,death_year,1969,fact,SRC-0197,high,candidate_for_staging_review,BNP directly records death year.
+V1-FCT-0607,WEB-CE-B08,V1-CARD-0136,V1-ENT-0248,country_or_region,秘鲁,fact,SRC-0199,high,candidate_for_staging_review,Casa de la Literatura identifies Arguedas as Peruvian.
+V1-FCT-0608,WEB-CE-B08,V1-CARD-0136,V1-ENT-0248,birth_place,安达韦拉斯（Andahuaylas）,fact,SRC-0197,high,candidate_for_staging_review,BNP names Andahuaylas as birthplace.
+V1-FCT-0609,WEB-CE-B08,V1-CARD-0136,V1-ENT-0248,career_note,作家、人类学家、诗人、教师,fact,SRC-0199,high,candidate_for_staging_review,Casa de la Literatura directly lists these roles.
+V1-FCT-0610,WEB-CE-B08,V1-CARD-0137,V1-ENT-0249,birth_year,1933,fact,SRC-0200,high,candidate_for_staging_review,Instituto Cervantes biography records 1933.
+V1-FCT-0611,WEB-CE-B08,V1-CARD-0137,V1-ENT-0249,death_year,2018,fact,SRC-0200,high,candidate_for_staging_review,Instituto Cervantes biography records 2018.
+V1-FCT-0612,WEB-CE-B08,V1-CARD-0137,V1-ENT-0249,country_or_region,墨西哥,fact,SRC-0200,high,candidate_for_staging_review,Biography identifies Pitol as Mexican.
+V1-FCT-0613,WEB-CE-B08,V1-CARD-0137,V1-ENT-0249,birth_place,普埃布拉（Puebla）,fact,SRC-0200,high,candidate_for_staging_review,Biography names Puebla.
+V1-FCT-0614,WEB-CE-B08,V1-CARD-0137,V1-ENT-0249,career_note,小说家、散文家、翻译家,fact,SRC-0200,high,candidate_for_staging_review,"Instituto Cervantes directly calls Pitol narrator, essayist and translator."
+V1-FCT-0615,WEB-CE-B08,V1-CARD-0138,V1-ENT-0250,birth_year,1918,fact,SRC-0202,high,candidate_for_staging_review,Fonoteca Nacional records 1918.
+V1-FCT-0616,WEB-CE-B08,V1-CARD-0138,V1-ENT-0250,death_year,2001,fact,SRC-0202,high,candidate_for_staging_review,Fonoteca Nacional records 2001.
+V1-FCT-0617,WEB-CE-B08,V1-CARD-0138,V1-ENT-0250,country_or_region,墨西哥,fact,SRC-0202,high,candidate_for_staging_review,Fonoteca Nacional identifies Arreola as Mexican.
+V1-FCT-0618,WEB-CE-B08,V1-CARD-0138,V1-ENT-0250,birth_place,萨波特兰大（Zapotlán el Grande/Ciudad Guzmán）,fact,SRC-0202,high,candidate_for_staging_review,"Fonoteca Nacional names Ciudad Guzmán, Jalisco."
+V1-FCT-0619,WEB-CE-B08,V1-CARD-0138,V1-ENT-0250,career_note,作家、叙事家、文化工作者,fact,SRC-0202,medium,candidate_for_staging_review,Fonoteca Nacional describes writing and public cultural work.
+V1-FCT-0620,WEB-CE-B08,V1-CARD-0139,V1-ENT-0251,entity_layer,work,metadata,SRC-0198,high,candidate_for_staging_review,Casa de la Literatura presents Yawar fiesta as a narrative novel entry.
+V1-FCT-0621,WEB-CE-B08,V1-CARD-0139,V1-ENT-0251,first_publication_year,1941,bibliographic,SRC-0198,high,candidate_for_staging_review,Institutional chronology records 1941.
+V1-FCT-0622,WEB-CE-B08,V1-CARD-0139,V1-ENT-0251,bibliographic_note,Casa de la Literatura 直接列出 Yawar fiesta 题名与 1941 年书目；本批不扩展主题判断。,bibliographic,SRC-0198,high,candidate_for_staging_review,"Source supports title, form and year only."
+V1-FCT-0623,WEB-CE-B08,V1-CARD-0140,V1-ENT-0252,entity_layer,work,metadata,SRC-0199,high,candidate_for_staging_review,Casa de la Literatura describes Los ríos profundos as a novel.
+V1-FCT-0624,WEB-CE-B08,V1-CARD-0140,V1-ENT-0252,first_publication_year,1958,bibliographic,SRC-0198,high,candidate_for_staging_review,Institutional chronology records 1958.
+V1-FCT-0625,WEB-CE-B08,V1-CARD-0140,V1-ENT-0252,bibliographic_note,SRC-0198 与 SRC-0199 直接支持 Los ríos profundos 的题名、小说形态和 1958 年；故事导读不升级为 Research fact。,bibliographic,SRC-0199,high,candidate_for_staging_review,"Sources support title, form, year and low-spoiler premise."
+V1-FCT-0626,WEB-CE-B08,V1-CARD-0141,V1-ENT-0253,entity_layer,work,metadata,SRC-0198,high,candidate_for_staging_review,Casa de la Literatura places Todas las sangres in the narrative chronology.
+V1-FCT-0627,WEB-CE-B08,V1-CARD-0141,V1-ENT-0253,first_publication_year,1964,bibliographic,SRC-0198,high,candidate_for_staging_review,Institutional chronology records 1964.
+V1-FCT-0628,WEB-CE-B08,V1-CARD-0141,V1-ENT-0253,bibliographic_note,Casa de la Literatura 直接列出 Todas las sangres 题名与 1964 年书目。,bibliographic,SRC-0198,high,candidate_for_staging_review,"Source supports title, form and year only."
+V1-FCT-0629,WEB-CE-B08,V1-CARD-0142,V1-ENT-0254,entity_layer,work,metadata,SRC-0200,high,candidate_for_staging_review,Instituto Cervantes identifies El desfile del amor among Pitol novels.
+V1-FCT-0630,WEB-CE-B08,V1-CARD-0142,V1-ENT-0254,first_publication_year,1984,bibliographic,SRC-0200,high,candidate_for_staging_review,Biography gives 1984.
+V1-FCT-0631,WEB-CE-B08,V1-CARD-0142,V1-ENT-0254,bibliographic_note,SRC-0200 与 SRC-0201 直接列出 El desfile del amor 题名、小说形态和 1984 年。,bibliographic,SRC-0201,high,candidate_for_staging_review,"Sources support title, form and year only."
+V1-FCT-0632,WEB-CE-B08,V1-CARD-0143,V1-ENT-0255,entity_layer,work,metadata,SRC-0200,high,candidate_for_staging_review,Instituto Cervantes identifies Domar a la divina garza among Pitol novels.
+V1-FCT-0633,WEB-CE-B08,V1-CARD-0143,V1-ENT-0255,first_publication_year,1988,bibliographic,SRC-0200,high,candidate_for_staging_review,Biography gives 1988.
+V1-FCT-0634,WEB-CE-B08,V1-CARD-0143,V1-ENT-0255,bibliographic_note,SRC-0200 与 SRC-0201 直接列出 Domar a la divina garza 题名、小说形态和 1988 年。,bibliographic,SRC-0201,high,candidate_for_staging_review,"Sources support title, form and year only."
+V1-FCT-0635,WEB-CE-B08,V1-CARD-0144,V1-ENT-0256,entity_layer,work,metadata,SRC-0200,high,candidate_for_staging_review,Instituto Cervantes identifies La vida conyugal among Pitol novels.
+V1-FCT-0636,WEB-CE-B08,V1-CARD-0144,V1-ENT-0256,first_publication_year,1991,bibliographic,SRC-0200,high,candidate_for_staging_review,Biography gives 1991.
+V1-FCT-0637,WEB-CE-B08,V1-CARD-0144,V1-ENT-0256,bibliographic_note,SRC-0200 与 SRC-0201 直接列出 La vida conyugal 题名、小说形态和 1991 年。,bibliographic,SRC-0201,high,candidate_for_staging_review,"Sources support title, form and year only."
+V1-FCT-0638,WEB-CE-B08,V1-CARD-0145,V1-ENT-0257,entity_layer,collection,metadata,SRC-0203,high,candidate_for_staging_review,CVC bibliography records Confabulario as a collection-level book.
+V1-FCT-0639,WEB-CE-B08,V1-CARD-0145,V1-ENT-0257,first_publication_year,1952,bibliographic,SRC-0202,high,candidate_for_staging_review,Fonoteca/CVC materials identify the 1952 book.
+V1-FCT-0640,WEB-CE-B08,V1-CARD-0145,V1-ENT-0257,bibliographic_note,SRC-0202 与 SRC-0203 直接列出 Confabulario 题名与作品集层级。,bibliographic,SRC-0203,high,candidate_for_staging_review,Sources support title and bibliographic layer.
+V1-FCT-0641,WEB-CE-B08,V1-CARD-0146,V1-ENT-0258,entity_layer,collection,metadata,SRC-0203,high,candidate_for_staging_review,CVC bibliography records Arreola Bestiario as a collection.
+V1-FCT-0642,WEB-CE-B08,V1-CARD-0146,V1-ENT-0258,first_publication_year,1972,bibliographic,SRC-0202,high,candidate_for_staging_review,Fonoteca source directly dates Arreola Bestiario to 1972.
+V1-FCT-0643,WEB-CE-B08,V1-CARD-0146,V1-ENT-0258,bibliographic_note,SRC-0202 与 SRC-0203 直接支持 Arreola 的 Bestiario；同名 Cortázar 作品保持独立作者实体。,bibliographic,SRC-0203,high,candidate_for_staging_review,Author-specific identity is retained.
+V1-FCT-0644,WEB-CE-B08,V1-CARD-0147,V1-ENT-0259,entity_layer,work,metadata,SRC-0202,high,candidate_for_staging_review,Fonoteca describes La feria as a novel.
+V1-FCT-0645,WEB-CE-B08,V1-CARD-0147,V1-ENT-0259,first_publication_year,1963,bibliographic,SRC-0203,high,candidate_for_staging_review,CVC bibliography records La feria in 1963.
+V1-FCT-0646,WEB-CE-B08,V1-CARD-0147,V1-ENT-0259,bibliographic_note,SRC-0202 与 SRC-0203 直接列出 La feria 题名、小说形态与 1963 年。,bibliographic,SRC-0203,high,candidate_for_staging_review,"Sources support title, form and year only."
+V1-FCT-0647,WEB-CE-B09,V1-CARD-0148,V1-ENT-0260,birth_year,1932,fact,SRC-0207,high,candidate_for_staging_review,Instituto Cervantes biography records birth in Paris in 1932.
+V1-FCT-0648,WEB-CE-B09,V1-CARD-0148,V1-ENT-0260,country_or_region,墨西哥,fact,SRC-0207,high,candidate_for_staging_review,Instituto Cervantes biography records Mexican nationality.
+V1-FCT-0649,WEB-CE-B09,V1-CARD-0148,V1-ENT-0260,birth_place,巴黎（Paris）,fact,SRC-0207,high,candidate_for_staging_review,Instituto Cervantes biography names Paris as birthplace.
+V1-FCT-0650,WEB-CE-B09,V1-CARD-0148,V1-ENT-0260,career_note,作家、记者,fact,SRC-0207,high,candidate_for_staging_review,Instituto Cervantes biography describes literary and journalistic work.
+V1-FCT-0651,WEB-CE-B09,V1-CARD-0148,V1-ENT-0260,literary_identity,小说、纪实写作、诗歌与散文作者,fact,SRC-0205,high,candidate_for_staging_review,Voz Viva lists these forms and works.
+V1-FCT-0652,WEB-CE-B09,V1-CARD-0151,V1-ENT-0263,entity_layer,work,metadata,SRC-0206,high,candidate_for_staging_review,UNAM presents La noche de Tlatelolco as a book-length work.
+V1-FCT-0653,WEB-CE-B09,V1-CARD-0151,V1-ENT-0263,first_publication_year,1971,bibliographic,SRC-0207,high,candidate_for_staging_review,Instituto Cervantes biography records 1971.
+V1-FCT-0654,WEB-CE-B09,V1-CARD-0151,V1-ENT-0263,bibliographic_note,Instituto Cervantes 资料直接列出 La noche de Tlatelolco 题名与 1971 年；本批不扩展文学史判断。,bibliographic,SRC-0207,high,candidate_for_staging_review,Source supports title and year only.
+V1-FCT-0655,WEB-CE-B09,V1-CARD-0152,V1-ENT-0264,entity_layer,work,metadata,SRC-0206,high,candidate_for_staging_review,UNAM identifies Hasta no verte Jesús mío as a work.
+V1-FCT-0656,WEB-CE-B09,V1-CARD-0152,V1-ENT-0264,first_publication_year,1969,bibliographic,SRC-0206,high,candidate_for_staging_review,UNAM page records 1969.
+V1-FCT-0657,WEB-CE-B09,V1-CARD-0152,V1-ENT-0264,bibliographic_note,UNAM 页面直接列出 Hasta no verte Jesús mío 题名与 1969 年书目。,bibliographic,SRC-0206,high,candidate_for_staging_review,Source supports title and year only.
+V1-FCT-0658,WEB-CE-B09,V1-CARD-0153,V1-ENT-0265,entity_layer,work,metadata,SRC-0205,high,candidate_for_staging_review,Voz Viva lists Tinísima among Poniatowska works.
+V1-FCT-0659,WEB-CE-B09,V1-CARD-0153,V1-ENT-0265,first_publication_year,1991/1992,bibliographic,SRC-0207,medium,candidate_for_staging_review,Instituto Cervantes and UNAM pages report 1991 and 1992; conflict retained in V1-GAP-0016.
+V1-FCT-0660,WEB-CE-B09,V1-CARD-0153,V1-ENT-0265,bibliographic_note,SRC-0206 标注 Tinísima 1992，SRC-0207（Instituto Cervantes）标注 1991；保留日期冲突并进入 V1-GAP-0016。,bibliographic,SRC-0206,medium,candidate_for_staging_review,Do not silently select one year.
+V1-FCT-0661,WEB-CE-B09,V1-CARD-0149,V1-ENT-0261,birth_year,1939,fact,SRC-0209,high,candidate_for_staging_review,El Colegio Nacional records 1939.
+V1-FCT-0662,WEB-CE-B09,V1-CARD-0149,V1-ENT-0261,death_year,2014,fact,SRC-0209,high,candidate_for_staging_review,El Colegio Nacional records death in 2014.
+V1-FCT-0663,WEB-CE-B09,V1-CARD-0149,V1-ENT-0261,country_or_region,墨西哥,fact,SRC-0209,high,candidate_for_staging_review,The Colegio Nacional identifies Pacheco in Mexican literature.
+V1-FCT-0664,WEB-CE-B09,V1-CARD-0149,V1-ENT-0261,birth_place,墨西哥城（Ciudad de México）,fact,SRC-0209,high,candidate_for_staging_review,The author page names Ciudad de México.
+V1-FCT-0665,WEB-CE-B09,V1-CARD-0149,V1-ENT-0261,career_note,作家、诗人、翻译家,fact,SRC-0209,high,candidate_for_staging_review,The Colegio Nacional lists these literary roles.
+V1-FCT-0666,WEB-CE-B09,V1-CARD-0154,V1-ENT-0266,entity_layer,work,metadata,SRC-0208,high,candidate_for_staging_review,Cervantes chronology lists the novel.
+V1-FCT-0667,WEB-CE-B09,V1-CARD-0154,V1-ENT-0266,first_publication_year,1981,bibliographic,SRC-0208,high,candidate_for_staging_review,Cervantes chronology records 1981.
+V1-FCT-0668,WEB-CE-B09,V1-CARD-0154,V1-ENT-0266,bibliographic_note,Cervantes、Colegio Nacional 与 CEPE 直接列出 Las batallas en el desierto 题名与 1981 年。,bibliographic,SRC-0208,high,candidate_for_staging_review,"Sources support title, form and year only."
+V1-FCT-0669,WEB-CE-B09,V1-CARD-0155,V1-ENT-0267,entity_layer,collection,metadata,SRC-0209,high,candidate_for_staging_review,The author page lists El principio del placer as a story collection.
+V1-FCT-0670,WEB-CE-B09,V1-CARD-0155,V1-ENT-0267,first_publication_year,1972,bibliographic,SRC-0208,high,candidate_for_staging_review,Cervantes chronology records 1972.
+V1-FCT-0671,WEB-CE-B09,V1-CARD-0155,V1-ENT-0267,bibliographic_note,机构年表与作者页直接列出 El principio del placer 题名、作品集层级与 1972 年。,bibliographic,SRC-0208,high,candidate_for_staging_review,"Sources support title, layer and year only."
+V1-FCT-0672,WEB-CE-B09,V1-CARD-0156,V1-ENT-0268,entity_layer,collection,metadata,SRC-0208,high,candidate_for_staging_review,Cervantes classifies No me preguntes cómo pasa el tiempo under poetry.
+V1-FCT-0673,WEB-CE-B09,V1-CARD-0156,V1-ENT-0268,first_publication_year,1969,bibliographic,SRC-0208,high,candidate_for_staging_review,Cervantes chronology records 1969.
+V1-FCT-0674,WEB-CE-B09,V1-CARD-0156,V1-ENT-0268,bibliographic_note,Cervantes、Colegio Nacional 与 CEPE 直接列出 No me preguntes cómo pasa el tiempo 题名与 1969 年。,bibliographic,SRC-0208,high,candidate_for_staging_review,"Sources support title, collection layer and year only."
+V1-FCT-0675,WEB-CE-B09,V1-CARD-0150,V1-ENT-0262,birth_year,1953,fact,SRC-0211,high,candidate_for_staging_review,Memoria Chilena chronology records 1953.
+V1-FCT-0676,WEB-CE-B09,V1-CARD-0150,V1-ENT-0262,death_year,2003,fact,SRC-0211,high,candidate_for_staging_review,Memoria Chilena records death in 2003.
+V1-FCT-0677,WEB-CE-B09,V1-CARD-0150,V1-ENT-0262,country_or_region,智利,fact,SRC-0211,high,candidate_for_staging_review,Memoria Chilena presents Bolaño as a Chilean author.
+V1-FCT-0678,WEB-CE-B09,V1-CARD-0150,V1-ENT-0262,birth_place,圣地亚哥（Santiago de Chile）,fact,SRC-0211,high,candidate_for_staging_review,Memoria Chilena chronology names Santiago de Chile.
+V1-FCT-0679,WEB-CE-B09,V1-CARD-0150,V1-ENT-0262,career_note,作家、诗人,fact,SRC-0211,high,candidate_for_staging_review,Memoria Chilena documents poetry and narrative work.
+V1-FCT-0680,WEB-CE-B09,V1-CARD-0157,V1-ENT-0269,entity_layer,work,metadata,SRC-0212,high,candidate_for_staging_review,Memoria Chilena identifies the novel.
+V1-FCT-0681,WEB-CE-B09,V1-CARD-0157,V1-ENT-0269,first_publication_year,1998,bibliographic,SRC-0212,high,candidate_for_staging_review,Memoria Chilena records 1998.
+V1-FCT-0682,WEB-CE-B09,V1-CARD-0157,V1-ENT-0269,bibliographic_note,Memoria Chilena 直接列出 Los detectives salvajes 题名、小说形态与 1998 年。,bibliographic,SRC-0212,high,candidate_for_staging_review,"Source supports title, form and year only."
+V1-FCT-0683,WEB-CE-B09,V1-CARD-0158,V1-ENT-0270,entity_layer,work,metadata,SRC-0213,high,candidate_for_staging_review,Memoria Chilena records 2666 as a posthumous novel.
+V1-FCT-0684,WEB-CE-B09,V1-CARD-0158,V1-ENT-0270,first_publication_year,2004,bibliographic,SRC-0211,high,candidate_for_staging_review,Memoria Chilena records 2666 as a posthumous novel published in 2004.
+V1-FCT-0685,WEB-CE-B09,V1-CARD-0158,V1-ENT-0270,bibliographic_note,Memoria Chilena 作者页记录《2666》于 2004 年身后出版；2005 年档案页对应后续获奖记录，不作为首版年份。,bibliographic,SRC-0211,high,candidate_for_staging_review,Use the 2004 publication statement on the author page; do not infer publication year from the 2005 archive heading.
+V1-FCT-0686,WEB-CE-B09,V1-CARD-0159,V1-ENT-0271,entity_layer,work,metadata,SRC-0211,high,candidate_for_staging_review,Memoria Chilena bibliography lists the novel.
+V1-FCT-0687,WEB-CE-B09,V1-CARD-0159,V1-ENT-0271,first_publication_year,1996,bibliographic,SRC-0211,high,candidate_for_staging_review,Memoria Chilena bibliography records 1996.
+V1-FCT-0688,WEB-CE-B09,V1-CARD-0159,V1-ENT-0271,bibliographic_note,Memoria Chilena 直接列出 Estrella distante 题名、小说形态与 1996 年。,bibliographic,SRC-0211,high,candidate_for_staging_review,"Source supports title, form and year only."
+V1-FCT-0689,WEB-CE-B10,V1-CARD-0160,V1-ENT-0272,birth_year,1940,fact,SRC-0215,high,candidate_for_staging_review,Argentina Culture page records Galeano born in Montevideo in 1940.
+V1-FCT-0690,WEB-CE-B10,V1-CARD-0160,V1-ENT-0272,death_year,2015,fact,SRC-0215,high,candidate_for_staging_review,Argentina Culture page records death in Montevideo in 2015.
+V1-FCT-0691,WEB-CE-B10,V1-CARD-0160,V1-ENT-0272,birth_place,蒙得维的亚（Montevideo）,fact,SRC-0215,high,candidate_for_staging_review,Argentina Culture page names Montevideo as birthplace.
+V1-FCT-0692,WEB-CE-B10,V1-CARD-0160,V1-ENT-0272,career_note,作家、记者,fact,SRC-0215,high,candidate_for_staging_review,Argentina Culture page records his journalism and writing.
+V1-FCT-0693,WEB-CE-B10,V1-CARD-0160,V1-ENT-0272,literary_identity,历史书写、纪实散文与片段写作作者,fact,SRC-0214,medium,candidate_for_staging_review,Uruguay Educa chronology and highlighted works support the descriptive identity without claiming a movement.
+V1-FCT-0694,WEB-CE-B10,V1-CARD-0163,V1-ENT-0275,entity_layer,work,metadata,SRC-0214,high,candidate_for_staging_review,Uruguay Educa chronology lists the title as a standalone book.
+V1-FCT-0695,WEB-CE-B10,V1-CARD-0163,V1-ENT-0275,first_publication_year,1971,bibliographic,SRC-0214,high,candidate_for_staging_review,Uruguay Educa chronology records 1971.
+V1-FCT-0696,WEB-CE-B10,V1-CARD-0163,V1-ENT-0275,bibliographic_note,Uruguay Educa 与阿根廷文化部均列出 Las venas abiertas de América Latina 题名与 1971 年。,bibliographic,SRC-0215,high,candidate_for_staging_review,"Sources support title, year and descriptive form only."
+V1-FCT-0697,WEB-CE-B10,V1-CARD-0164,V1-ENT-0276,entity_layer,collection,metadata,SRC-0216,high,candidate_for_staging_review,Uruguay catalog identifies Los nacimientos as volume one of Memoria del fuego.
+V1-FCT-0698,WEB-CE-B10,V1-CARD-0164,V1-ENT-0276,first_publication_year,1982,bibliographic,SRC-0214,high,candidate_for_staging_review,Uruguay Educa chronology records 1982.
+V1-FCT-0699,WEB-CE-B10,V1-CARD-0164,V1-ENT-0276,bibliographic_note,年表与乌拉圭目录共同保留 Memoria del fuego I. Los nacimientos 的卷册题名。,bibliographic,SRC-0216,high,candidate_for_staging_review,"Sources support title, volume layer and year only."
+V1-FCT-0700,WEB-CE-B10,V1-CARD-0165,V1-ENT-0277,entity_layer,collection,metadata,SRC-0216,high,candidate_for_staging_review,Uruguay catalog records El libro de los abrazos as a Galeano book entry.
+V1-FCT-0701,WEB-CE-B10,V1-CARD-0165,V1-ENT-0277,first_publication_year,1989,bibliographic,SRC-0214,high,candidate_for_staging_review,Uruguay Educa chronology records 1989.
+V1-FCT-0702,WEB-CE-B10,V1-CARD-0165,V1-ENT-0277,bibliographic_note,Uruguay 年表与议会图书馆目录直接列出 El libro de los abrazos 题名。,bibliographic,SRC-0216,high,candidate_for_staging_review,"Sources support title, collection layer and chronology only."
+V1-FCT-0703,WEB-CE-B10,V1-CARD-0161,V1-ENT-0273,birth_year,1940,fact,SRC-0217,high,candidate_for_staging_review,Piglia archive biography records birth in 1940.
+V1-FCT-0704,WEB-CE-B10,V1-CARD-0161,V1-ENT-0273,death_year,2017,fact,SRC-0219,high,candidate_for_staging_review,UNLP literary geography records death in Buenos Aires in 2017.
+V1-FCT-0705,WEB-CE-B10,V1-CARD-0161,V1-ENT-0273,birth_place,阿德罗格（Adrogué）,fact,SRC-0217,high,candidate_for_staging_review,"Piglia archive biography names Adrogué, Buenos Aires Province."
+V1-FCT-0706,WEB-CE-B10,V1-CARD-0161,V1-ENT-0273,country_or_region,阿根廷,fact,SRC-0218,high,candidate_for_staging_review,Princeton University Library identifies Piglia as an Argentine author.
+V1-FCT-0707,WEB-CE-B10,V1-CARD-0161,V1-ENT-0273,career_note,作家、文学评论家,fact,SRC-0218,high,candidate_for_staging_review,"Princeton page describes his fiction, essays and criticism."
+V1-FCT-0708,WEB-CE-B10,V1-CARD-0166,V1-ENT-0278,entity_layer,work,metadata,SRC-0219,high,candidate_for_staging_review,UNLP bibliography identifies Respiración artificial as a novel.
+V1-FCT-0709,WEB-CE-B10,V1-CARD-0166,V1-ENT-0278,first_publication_year,1980,bibliographic,SRC-0219,high,candidate_for_staging_review,UNLP bibliography records 1980.
+V1-FCT-0710,WEB-CE-B10,V1-CARD-0166,V1-ENT-0278,bibliographic_note,作者作品页与 UNLP 书目直接列出 Respiración artificial 题名与 1980 年。,bibliographic,SRC-0217,high,candidate_for_staging_review,"Sources support title, novel layer and year only."
+V1-FCT-0711,WEB-CE-B10,V1-CARD-0167,V1-ENT-0279,entity_layer,work,metadata,SRC-0219,high,candidate_for_staging_review,UNLP bibliography identifies Plata quemada as a novel.
+V1-FCT-0712,WEB-CE-B10,V1-CARD-0167,V1-ENT-0279,first_publication_year,1997,bibliographic,SRC-0219,high,candidate_for_staging_review,UNLP bibliography records 1997.
+V1-FCT-0713,WEB-CE-B10,V1-CARD-0167,V1-ENT-0279,bibliographic_note,作者页、Princeton 页面与 UNLP 书目共同列出 Plata quemada 题名。,bibliographic,SRC-0218,high,candidate_for_staging_review,"Sources support title, novel layer and year only."
+V1-FCT-0714,WEB-CE-B10,V1-CARD-0168,V1-ENT-0280,entity_layer,work,metadata,SRC-0219,high,candidate_for_staging_review,UNLP bibliography identifies Blanco nocturno as a novel.
+V1-FCT-0715,WEB-CE-B10,V1-CARD-0168,V1-ENT-0280,first_publication_year,2010,bibliographic,SRC-0219,high,candidate_for_staging_review,UNLP bibliography records 2010.
+V1-FCT-0716,WEB-CE-B10,V1-CARD-0168,V1-ENT-0280,bibliographic_note,作者页、Princeton 页面与 UNLP 书目共同列出 Blanco nocturno 题名与年份。,bibliographic,SRC-0217,high,candidate_for_staging_review,"Sources support title, novel layer and year only."
+V1-FCT-0717,WEB-CE-B10,V1-CARD-0162,V1-ENT-0274,birth_year,1949,fact,SRC-0220,high,candidate_for_staging_review,Biblioteca Nacional records birth in 1949.
+V1-FCT-0718,WEB-CE-B10,V1-CARD-0162,V1-ENT-0274,country_or_region,阿根廷,fact,SRC-0220,high,candidate_for_staging_review,Biblioteca Nacional presents Aira as an Argentine writer.
+V1-FCT-0719,WEB-CE-B10,V1-CARD-0162,V1-ENT-0274,birth_place,科罗内尔·普林格尔斯（Coronel Pringles）,fact,SRC-0220,high,candidate_for_staging_review,Biblioteca Nacional names Coronel Pringles as birthplace.
+V1-FCT-0720,WEB-CE-B10,V1-CARD-0162,V1-ENT-0274,career_note,小说家、翻译家,fact,SRC-0221,high,candidate_for_staging_review,Fundación Konex describes Aira as translator and novelist.
+V1-FCT-0721,WEB-CE-B10,V1-CARD-0162,V1-ENT-0274,literary_identity,小说、短篇、散文与戏剧作者,fact,SRC-0221,medium,candidate_for_staging_review,"Fundación Konex lists novels, stories, essays and theatre without assigning a movement."
+V1-FCT-0722,WEB-CE-B10,V1-CARD-0169,V1-ENT-0281,entity_layer,work,metadata,SRC-0223,high,candidate_for_staging_review,UNLP research identifies Ema la cautiva as a novel.
+V1-FCT-0723,WEB-CE-B10,V1-CARD-0169,V1-ENT-0281,first_publication_year,1981,bibliographic,SRC-0223,high,candidate_for_staging_review,UNLP research records first publication in 1981.
+V1-FCT-0724,WEB-CE-B10,V1-CARD-0169,V1-ENT-0281,bibliographic_note,Konex 目录与 UNLP 研究直接列出 Ema la cautiva 题名与 1981 年。,bibliographic,SRC-0223,high,candidate_for_staging_review,"Sources support title, novel layer and year only."
+V1-FCT-0725,WEB-CE-B10,V1-CARD-0170,V1-ENT-0282,entity_layer,work,metadata,SRC-0222,high,candidate_for_staging_review,University literature article identifies Una novela china as a novel.
+V1-FCT-0726,WEB-CE-B10,V1-CARD-0170,V1-ENT-0282,first_publication_year,1987,bibliographic,SRC-0222,high,candidate_for_staging_review,University literature article records 1987.
+V1-FCT-0727,WEB-CE-B10,V1-CARD-0170,V1-ENT-0282,bibliographic_note,Konex 目录与大学文学论文直接列出 Una novela china 题名。,bibliographic,SRC-0222,high,candidate_for_staging_review,"Sources support title, novel layer and year only."
+V1-FCT-0728,WEB-CE-B10,V1-CARD-0171,V1-ENT-0283,entity_layer,work,metadata,SRC-0224,high,candidate_for_staging_review,Peer-reviewed article identifies El congreso de literatura as a short novel.
+V1-FCT-0729,WEB-CE-B10,V1-CARD-0171,V1-ENT-0283,first_publication_year,1997,bibliographic,SRC-0224,high,candidate_for_staging_review,Peer-reviewed article records 1997 and the Mérida first edition context.
+V1-FCT-0730,WEB-CE-B10,V1-CARD-0171,V1-ENT-0283,bibliographic_note,Konex 目录与学术论文直接列出 El congreso de literatura 题名；论文补充 1997 年首版地点。,bibliographic,SRC-0224,high,candidate_for_staging_review,"Sources support title, novel layer and year only."
+V1-FCT-0731,WEB-CE-B10,V1-CARD-0160,V1-ENT-0272,country_or_region,乌拉圭,fact,SRC-0215,high,candidate_for_staging_review,Argentina Culture page identifies Galeano as Uruguayan and born in Montevideo.
+V1-FCT-0732,WEB-CE-B11,V1-CARD-0172,V1-ENT-0284,birth_year,1932,fact,SRC-0225,high,candidate_for_staging_review,Biblioteca Nacional page records Puig born in 1932.
+V1-FCT-0733,WEB-CE-B11,V1-CARD-0172,V1-ENT-0284,death_year,1990,fact,SRC-0225,high,candidate_for_staging_review,Biblioteca Nacional page records Puig died in 1990.
+V1-FCT-0734,WEB-CE-B11,V1-CARD-0172,V1-ENT-0284,birth_place,将军维列加斯（General Villegas）,fact,SRC-0225,high,candidate_for_staging_review,Biblioteca Nacional page names General Villegas as birthplace.
+V1-FCT-0735,WEB-CE-B11,V1-CARD-0172,V1-ENT-0284,country_or_region,阿根廷,fact,SRC-0225,high,candidate_for_staging_review,Biblioteca Nacional presents Puig as an Argentine author.
+V1-FCT-0736,WEB-CE-B11,V1-CARD-0172,V1-ENT-0284,career_note,小说家、编剧与剧作家,fact,SRC-0225,high,candidate_for_staging_review,"Biblioteca Nacional describes Puig as novelist, screenwriter and playwright."
+V1-FCT-0737,WEB-CE-B11,V1-CARD-0172,V1-ENT-0284,literary_identity,小说、剧本与戏剧作者,fact,SRC-0225,medium,candidate_for_staging_review,Description is a conservative synthesis of the listed roles.
+V1-FCT-0738,WEB-CE-B11,V1-CARD-0175,V1-ENT-0287,entity_layer,work,metadata,SRC-0226,high,candidate_for_staging_review,Library catalog records the title as a Puig literary work.
+V1-FCT-0739,WEB-CE-B11,V1-CARD-0175,V1-ENT-0287,first_publication_year,1976,bibliographic,SRC-0225,high,candidate_for_staging_review,Biblioteca Nacional page records the work in 1976.
+V1-FCT-0740,WEB-CE-B11,V1-CARD-0175,V1-ENT-0287,genre_or_form,小说,bibliographic,SRC-0225,high,candidate_for_staging_review,Biblioteca Nacional calls the selected Puig titles novels.
+V1-FCT-0741,WEB-CE-B11,V1-CARD-0175,V1-ENT-0287,bibliographic_note,机构资料支持题名、作者归属、小说层级与 1976 年；未推断故事地点。,bibliographic,SRC-0226,high,candidate_for_staging_review,Sources support only the stated bibliographic fields.
+V1-FCT-0742,WEB-CE-B11,V1-CARD-0176,V1-ENT-0288,entity_layer,work,metadata,SRC-0226,high,candidate_for_staging_review,Library catalog records the title as a Puig literary work.
+V1-FCT-0743,WEB-CE-B11,V1-CARD-0176,V1-ENT-0288,first_publication_year,1968,bibliographic,SRC-0225,high,candidate_for_staging_review,Biblioteca Nacional page records the first novel in 1968.
+V1-FCT-0744,WEB-CE-B11,V1-CARD-0176,V1-ENT-0288,genre_or_form,小说,bibliographic,SRC-0225,high,candidate_for_staging_review,Biblioteca Nacional calls the title a novel.
+V1-FCT-0745,WEB-CE-B11,V1-CARD-0176,V1-ENT-0288,bibliographic_note,机构资料支持题名、作者归属、小说层级与 1968 年；未推断故事地点。,bibliographic,SRC-0226,high,candidate_for_staging_review,Sources support only the stated bibliographic fields.
+V1-FCT-0746,WEB-CE-B11,V1-CARD-0177,V1-ENT-0289,entity_layer,work,metadata,SRC-0226,high,candidate_for_staging_review,Library catalog records the title as a Puig literary work.
+V1-FCT-0747,WEB-CE-B11,V1-CARD-0177,V1-ENT-0289,first_publication_year,1969,bibliographic,SRC-0225,high,candidate_for_staging_review,Biblioteca Nacional page records the work in 1969.
+V1-FCT-0748,WEB-CE-B11,V1-CARD-0177,V1-ENT-0289,genre_or_form,小说,bibliographic,SRC-0225,high,candidate_for_staging_review,Biblioteca Nacional calls the title a novel.
+V1-FCT-0749,WEB-CE-B11,V1-CARD-0177,V1-ENT-0289,bibliographic_note,机构资料支持题名、作者归属、小说层级与 1969 年；未推断故事地点。,bibliographic,SRC-0226,high,candidate_for_staging_review,Sources support only the stated bibliographic fields.
+V1-FCT-0750,WEB-CE-B11,V1-CARD-0173,V1-ENT-0285,birth_year,1903,fact,SRC-0228,high,candidate_for_staging_review,Argentina Culture page records Ocampo born in 1903.
+V1-FCT-0751,WEB-CE-B11,V1-CARD-0173,V1-ENT-0285,death_year,1993,fact,SRC-0228,high,candidate_for_staging_review,Argentina Culture page records Ocampo died in 1993.
+V1-FCT-0752,WEB-CE-B11,V1-CARD-0173,V1-ENT-0285,birth_place,布宜诺斯艾利斯（Buenos Aires）,fact,SRC-0228,high,candidate_for_staging_review,Argentina Culture page records Buenos Aires as her place of life and death; birthplace wording kept conservative.
+V1-FCT-0753,WEB-CE-B11,V1-CARD-0173,V1-ENT-0285,country_or_region,阿根廷,fact,SRC-0227,high,candidate_for_staging_review,Educ.ar identifies Ocampo in Argentine literary context.
+V1-FCT-0754,WEB-CE-B11,V1-CARD-0173,V1-ENT-0285,career_note,作家、诗人、翻译家,fact,SRC-0227,high,candidate_for_staging_review,"Educ.ar lists stories, poems, translations and theatre."
+V1-FCT-0755,WEB-CE-B11,V1-CARD-0173,V1-ENT-0285,literary_identity,短篇小说、诗歌与戏剧作者,fact,SRC-0227,medium,candidate_for_staging_review,Description stays at the forms explicitly listed by Educ.ar.
+V1-FCT-0756,WEB-CE-B11,V1-CARD-0178,V1-ENT-0290,entity_layer,collection,metadata,SRC-0227,high,candidate_for_staging_review,Educ.ar calls Viaje olvidado her first book of stories.
+V1-FCT-0757,WEB-CE-B11,V1-CARD-0178,V1-ENT-0290,first_publication_year,1937,bibliographic,SRC-0227,high,candidate_for_staging_review,Educ.ar records Viaje olvidado in 1937.
+V1-FCT-0758,WEB-CE-B11,V1-CARD-0178,V1-ENT-0290,genre_or_form,短篇小说集,bibliographic,SRC-0227,high,candidate_for_staging_review,Educ.ar calls it a first book of stories.
+V1-FCT-0759,WEB-CE-B11,V1-CARD-0178,V1-ENT-0290,bibliographic_note,机构资料支持题名、故事集层级与 1937 年；未添加主题或地点判断。,bibliographic,SRC-0228,high,candidate_for_staging_review,Sources support only the stated bibliographic fields.
+V1-FCT-0760,WEB-CE-B11,V1-CARD-0179,V1-ENT-0291,entity_layer,collection,metadata,SRC-0228,high,candidate_for_staging_review,Argentina Culture lists La furia y otros cuentos as a story collection.
+V1-FCT-0761,WEB-CE-B11,V1-CARD-0179,V1-ENT-0291,first_publication_year,1959,bibliographic,SRC-0228,high,candidate_for_staging_review,Argentina Culture records the collection in 1959.
+V1-FCT-0762,WEB-CE-B11,V1-CARD-0179,V1-ENT-0291,genre_or_form,短篇小说集,bibliographic,SRC-0228,high,candidate_for_staging_review,The source identifies the selected volume as cuentos.
+V1-FCT-0763,WEB-CE-B11,V1-CARD-0179,V1-ENT-0291,bibliographic_note,机构资料支持题名、故事集层级与 1959 年；未添加主题或地点判断。,bibliographic,SRC-0227,high,candidate_for_staging_review,Sources support only the stated bibliographic fields.
+V1-FCT-0764,WEB-CE-B11,V1-CARD-0180,V1-ENT-0292,entity_layer,collection,metadata,SRC-0227,high,candidate_for_staging_review,Educ.ar lists Las invitadas among Ocampo story books.
+V1-FCT-0765,WEB-CE-B11,V1-CARD-0180,V1-ENT-0292,first_publication_year,1961,bibliographic,SRC-0227,high,candidate_for_staging_review,Educ.ar records Las invitadas in 1961.
+V1-FCT-0766,WEB-CE-B11,V1-CARD-0180,V1-ENT-0292,genre_or_form,短篇小说集,bibliographic,SRC-0227,high,candidate_for_staging_review,The source places the title in Ocampo story bibliography.
+V1-FCT-0767,WEB-CE-B11,V1-CARD-0180,V1-ENT-0292,bibliographic_note,机构资料支持题名、故事集层级与 1961 年；未添加主题或地点判断。,bibliographic,SRC-0228,high,candidate_for_staging_review,Sources support only the stated bibliographic fields.
+V1-FCT-0768,WEB-CE-B11,V1-CARD-0174,V1-ENT-0286,birth_year,1900,fact,SRC-0229,high,candidate_for_staging_review,Biblioteca Nacional records Arlt born in 1900.
+V1-FCT-0769,WEB-CE-B11,V1-CARD-0174,V1-ENT-0286,death_year,1942,fact,SRC-0230,high,candidate_for_staging_review,Biblioteca del Congreso records Arlt died in 1942.
+V1-FCT-0771,WEB-CE-B11,V1-CARD-0174,V1-ENT-0286,country_or_region,阿根廷,fact,SRC-0229,high,candidate_for_staging_review,Biblioteca Nacional presents Arlt as an Argentine writer.
+V1-FCT-0772,WEB-CE-B11,V1-CARD-0174,V1-ENT-0286,career_note,小说家、记者与剧作家,fact,SRC-0230,high,candidate_for_staging_review,"Biblioteca del Congreso records novels, journalism and theatre."
+V1-FCT-0773,WEB-CE-B11,V1-CARD-0174,V1-ENT-0286,literary_identity,小说、新闻与戏剧作者,fact,SRC-0230,medium,candidate_for_staging_review,Description stays at forms listed in the institutional profile.
+V1-FCT-0774,WEB-CE-B11,V1-CARD-0181,V1-ENT-0293,entity_layer,work,metadata,SRC-0230,high,candidate_for_staging_review,Biblioteca del Congreso identifies Los siete locos as a novel.
+V1-FCT-0775,WEB-CE-B11,V1-CARD-0181,V1-ENT-0293,first_publication_year,1929,bibliographic,SRC-0230,high,candidate_for_staging_review,Biblioteca del Congreso records publication in 1929.
+V1-FCT-0776,WEB-CE-B11,V1-CARD-0181,V1-ENT-0293,genre_or_form,小说,bibliographic,SRC-0229,high,candidate_for_staging_review,Biblioteca Nacional describes the title as a novel.
+V1-FCT-0777,WEB-CE-B11,V1-CARD-0181,V1-ENT-0293,bibliographic_note,机构资料支持题名、小说层级与 1929 年；未推断故事地点。,bibliographic,SRC-0230,high,candidate_for_staging_review,Sources support only the stated bibliographic fields.
+V1-FCT-0778,WEB-CE-B11,V1-CARD-0182,V1-ENT-0294,entity_layer,work,metadata,SRC-0230,high,candidate_for_staging_review,Biblioteca del Congreso identifies Los lanzallamas as the second part of the novel sequence.
+V1-FCT-0779,WEB-CE-B11,V1-CARD-0182,V1-ENT-0294,first_publication_year,1931,bibliographic,SRC-0230,high,candidate_for_staging_review,Biblioteca del Congreso records publication in 1931.
+V1-FCT-0780,WEB-CE-B11,V1-CARD-0182,V1-ENT-0294,genre_or_form,小说,bibliographic,SRC-0229,high,candidate_for_staging_review,Biblioteca Nacional presents the title among Arlt novels.
+V1-FCT-0781,WEB-CE-B11,V1-CARD-0182,V1-ENT-0294,bibliographic_note,国会图书馆明确说明其为《七个疯子》的后续部分，并记录 1931 年。,bibliographic,SRC-0230,high,candidate_for_staging_review,Source supports sequel description and year only.
+V1-FCT-0782,WEB-CE-B11,V1-CARD-0183,V1-ENT-0295,entity_layer,work,metadata,SRC-0229,high,candidate_for_staging_review,Biblioteca Nacional identifies El juguete rabioso as Arlt first novel.
+V1-FCT-0783,WEB-CE-B11,V1-CARD-0183,V1-ENT-0295,first_publication_year,1926,bibliographic,SRC-0229,high,candidate_for_staging_review,Biblioteca Nacional records publication in 1926.
+V1-FCT-0784,WEB-CE-B11,V1-CARD-0183,V1-ENT-0295,genre_or_form,小说,bibliographic,SRC-0229,high,candidate_for_staging_review,Biblioteca Nacional calls it Arlt first novel.
+V1-FCT-0785,WEB-CE-B11,V1-CARD-0183,V1-ENT-0295,bibliographic_note,机构资料支持题名、小说层级与 1926 年；未推断故事地点。,bibliographic,SRC-0230,high,candidate_for_staging_review,Sources support only the stated bibliographic fields.
+V1-FCT-0786,WEB-CE-B12,V1-CARD-0184,V1-ENT-0296,birth_year,1978,fact,SRC-0231,high,candidate_for_staging_review,Argentina Ministry biography identifies Schweblin as born in 1978.
+V1-FCT-0787,WEB-CE-B12,V1-CARD-0184,V1-ENT-0296,country_or_region,阿根廷,fact,SRC-0231,high,candidate_for_staging_review,Institutional Argentine source places Schweblin in the Argentine literary context.
+V1-FCT-0788,WEB-CE-B12,V1-CARD-0184,V1-ENT-0296,career_note,短篇小说家、小说家,fact,SRC-0231,high,candidate_for_staging_review,The source explicitly calls her cuentista y novelista.
+V1-FCT-0789,WEB-CE-B12,V1-CARD-0185,V1-ENT-0297,birth_year,1973,fact,SRC-0235,high,candidate_for_staging_review,"Anagrama biography identifies Enriquez as Buenos Aires, 1973."
+V1-FCT-0790,WEB-CE-B12,V1-CARD-0185,V1-ENT-0297,country_or_region,阿根廷,fact,SRC-0235,high,candidate_for_staging_review,Anagrama calls her an Argentine writer.
+V1-FCT-0791,WEB-CE-B12,V1-CARD-0185,V1-ENT-0297,career_note,记者、教师与小说/故事作者,fact,SRC-0235,high,candidate_for_staging_review,"Anagrama lists journalist, teacher, novels and collections of stories."
+V1-FCT-0792,WEB-CE-B12,V1-CARD-0186,V1-ENT-0298,birth_year,1975,fact,SRC-0239,high,candidate_for_staging_review,"Anagrama identifies Zambra as Santiago de Chile, 1975."
+V1-FCT-0793,WEB-CE-B12,V1-CARD-0186,V1-ENT-0298,country_or_region,智利,fact,SRC-0239,high,candidate_for_staging_review,Anagrama biography identifies Santiago de Chile.
+V1-FCT-0794,WEB-CE-B12,V1-CARD-0186,V1-ENT-0298,career_note,小说家、短篇小说与随笔作者,fact,SRC-0239,high,candidate_for_staging_review,"Anagrama lists novels, stories and essay collections."
+V1-FCT-0795,WEB-CE-B12,V1-CARD-0187,V1-ENT-0299,entity_layer,work,metadata,SRC-0234,high,candidate_for_staging_review,PRH identifies Distancia de rescate as a novel/first novel.
+V1-FCT-0796,WEB-CE-B12,V1-CARD-0187,V1-ENT-0299,bibliographic_note,版权页标注 ©2014（不等同于首版年份）,bibliographic,SRC-0231,medium,candidate_for_staging_review,Argentina Ministry PDF marks ©2014; no first-publication claim is made.
+V1-FCT-0797,WEB-CE-B12,V1-CARD-0187,V1-ENT-0299,genre_or_form,小说,bibliographic,SRC-0234,high,candidate_for_staging_review,PRH describes the book as Schweblin's first novel.
+V1-FCT-0798,WEB-CE-B12,V1-CARD-0188,V1-ENT-0300,entity_layer,collection,metadata,SRC-0233,high,candidate_for_staging_review,PRH book page describes a story collection.
+V1-FCT-0799,WEB-CE-B12,V1-CARD-0188,V1-ENT-0300,genre_or_form,短篇小说集,bibliographic,SRC-0233,high,candidate_for_staging_review,PRH page identifies the volume as stories/collection.
+V1-FCT-0800,WEB-CE-B12,V1-CARD-0189,V1-ENT-0301,entity_layer,collection,metadata,SRC-0231,high,candidate_for_staging_review,Argentina Ministry biography lists Siete casas vacías among Schweblin's story books.
+V1-FCT-0801,WEB-CE-B12,V1-CARD-0189,V1-ENT-0301,genre_or_form,短篇小说集,bibliographic,SRC-0232,high,candidate_for_staging_review,PRH author profile lists Siete casas vacías among Schweblin books; the selected form is a story collection.
+V1-FCT-0802,WEB-CE-B12,V1-CARD-0190,V1-ENT-0302,entity_layer,collection,metadata,SRC-0235,high,candidate_for_staging_review,Anagrama notice calls Las cosas que perdimos en el fuego a book of stories.
+V1-FCT-0803,WEB-CE-B12,V1-CARD-0190,V1-ENT-0302,first_publication_year,2016,bibliographic,SRC-0235,high,candidate_for_staging_review,Anagrama notice states publication by Anagrama in February 2016.
+V1-FCT-0804,WEB-CE-B12,V1-CARD-0190,V1-ENT-0302,genre_or_form,短篇小说集,bibliographic,SRC-0235,high,candidate_for_staging_review,Anagrama notice identifies the book as a collection of stories.
+V1-FCT-0805,WEB-CE-B12,V1-CARD-0191,V1-ENT-0303,entity_layer,work,metadata,SRC-0236,high,candidate_for_staging_review,Anagrama identifies Nuestra parte de noche as a novel.
+V1-FCT-0806,WEB-CE-B12,V1-CARD-0191,V1-ENT-0303,genre_or_form,小说,bibliographic,SRC-0236,high,candidate_for_staging_review,Publisher page explicitly says novela.
+V1-FCT-0807,WEB-CE-B12,V1-CARD-0191,V1-ENT-0303,award_year,2019,bibliographic,SRC-0236,high,candidate_for_staging_review,Anagrama page identifies the Premio Herralde de Novela 2019; this is not asserted as first publication.
+V1-FCT-0808,WEB-CE-B12,V1-CARD-0192,V1-ENT-0304,entity_layer,collection,metadata,SRC-0237,high,candidate_for_staging_review,Anagrama page identifies a twelve-story volume.
+V1-FCT-0809,WEB-CE-B12,V1-CARD-0192,V1-ENT-0304,genre_or_form,短篇小说集,bibliographic,SRC-0237,high,candidate_for_staging_review,Anagrama page describes twelve cuentos in the volume.
+V1-FCT-0810,WEB-CE-B12,V1-CARD-0193,V1-ENT-0305,entity_layer,work,metadata,SRC-0239,high,candidate_for_staging_review,Anagrama lists Bonsái among Zambra's novels.
+V1-FCT-0811,WEB-CE-B12,V1-CARD-0193,V1-ENT-0305,first_publication_year,2006,bibliographic,SRC-0239,high,candidate_for_staging_review,Anagrama author profile gives Bonsái (2006).
+V1-FCT-0812,WEB-CE-B12,V1-CARD-0193,V1-ENT-0305,genre_or_form,小说,bibliographic,SRC-0240,high,candidate_for_staging_review,Memoria Chilena article calls Bonsái a novel.
+V1-FCT-0813,WEB-CE-B12,V1-CARD-0194,V1-ENT-0306,entity_layer,work,metadata,SRC-0239,high,candidate_for_staging_review,Anagrama lists La vida privada de los árboles among Zambra's novels.
+V1-FCT-0814,WEB-CE-B12,V1-CARD-0194,V1-ENT-0306,first_publication_year,2007,bibliographic,SRC-0239,high,candidate_for_staging_review,Anagrama author profile gives La vida privada de los árboles (2007).
+V1-FCT-0815,WEB-CE-B12,V1-CARD-0194,V1-ENT-0306,genre_or_form,小说,bibliographic,SRC-0240,high,candidate_for_staging_review,Memoria Chilena article calls the work a novel.
+V1-FCT-0816,WEB-CE-B12,V1-CARD-0195,V1-ENT-0307,entity_layer,work,metadata,SRC-0239,high,candidate_for_staging_review,Anagrama lists Formas de volver a casa among Zambra's novels.
+V1-FCT-0817,WEB-CE-B12,V1-CARD-0195,V1-ENT-0307,first_publication_year,2011,bibliographic,SRC-0239,high,candidate_for_staging_review,Anagrama author profile gives Formas de volver a casa (2011).
+V1-FCT-0818,WEB-CE-B12,V1-CARD-0195,V1-ENT-0307,genre_or_form,小说,bibliographic,SRC-0240,high,candidate_for_staging_review,Memoria Chilena article calls Formas de volver a casa a novel.
+V1-FCT-0819,WEB-CE-B13,V1-CARD-0196,V1-ENT-0308,birth_year,1947,fact,SRC-0241,high,candidate_for_staging_review,ABL identifies Coelho as born in Rio de Janeiro in 1947.
+V1-FCT-0820,WEB-CE-B13,V1-CARD-0196,V1-ENT-0308,country_or_region,巴西,fact,SRC-0241,high,candidate_for_staging_review,ABL institutional profile identifies the Brazilian context.
+V1-FCT-0821,WEB-CE-B13,V1-CARD-0196,V1-ENT-0308,career_note,作家、记者、作词人,fact,SRC-0241,high,candidate_for_staging_review,"ABL biography describes work in literature, journalism, theater and music."
+V1-FCT-0822,WEB-CE-B13,V1-CARD-0199,V1-ENT-0311,entity_layer,work,metadata,SRC-0241,high,candidate_for_staging_review,ABL bibliography lists the title as a work by Coelho.
+V1-FCT-0823,WEB-CE-B13,V1-CARD-0199,V1-ENT-0311,first_publication_year,1988,bibliographic,SRC-0241,high,candidate_for_staging_review,ABL states that O Alquimista was published in 1988.
+V1-FCT-0824,WEB-CE-B13,V1-CARD-0199,V1-ENT-0311,genre_or_form,小说,bibliographic,SRC-0241,medium,candidate_for_staging_review,ABL explicitly calls O Alquimista a romance.
+V1-FCT-0825,WEB-CE-B13,V1-CARD-0200,V1-ENT-0312,entity_layer,work,metadata,SRC-0241,high,candidate_for_staging_review,ABL bibliography lists the title as a work by Coelho.
+V1-FCT-0826,WEB-CE-B13,V1-CARD-0200,V1-ENT-0312,first_publication_year,1998,bibliographic,SRC-0241,high,candidate_for_staging_review,ABL lists Veronika Decide Morrer in 1998.
+V1-FCT-0828,WEB-CE-B13,V1-CARD-0201,V1-ENT-0313,entity_layer,work,metadata,SRC-0241,high,candidate_for_staging_review,ABL bibliography lists the title as a work by Coelho.
+V1-FCT-0829,WEB-CE-B13,V1-CARD-0201,V1-ENT-0313,first_publication_year,2003,bibliographic,SRC-0241,high,candidate_for_staging_review,ABL lists Onze Minutos in 2003.
+V1-FCT-0831,WEB-CE-B13,V1-CARD-0197,V1-ENT-0309,birth_year,1902,fact,SRC-0244,high,candidate_for_staging_review,BNDigital identifies Drummond as born in 1902.
+V1-FCT-0832,WEB-CE-B13,V1-CARD-0197,V1-ENT-0309,death_year,1987,fact,SRC-0244,high,candidate_for_staging_review,BNDigital records death in Rio de Janeiro in 1987.
+V1-FCT-0833,WEB-CE-B13,V1-CARD-0197,V1-ENT-0309,career_note,诗人、作家与记者,fact,SRC-0244,high,candidate_for_staging_review,BNDigital identifies the author as a Brazilian poet and writer.
+V1-FCT-0834,WEB-CE-B13,V1-CARD-0202,V1-ENT-0314,entity_layer,collection,metadata,SRC-0243,high,candidate_for_staging_review,ABL places Alguma poesia under Poesias.
+V1-FCT-0835,WEB-CE-B13,V1-CARD-0202,V1-ENT-0314,first_publication_year,1930,bibliographic,SRC-0243,high,candidate_for_staging_review,ABL records the first edition of Alguma poesia in 1930.
+V1-FCT-0836,WEB-CE-B13,V1-CARD-0202,V1-ENT-0314,genre_or_form,诗集,bibliographic,SRC-0243,high,candidate_for_staging_review,ABL section heading and title list identify a poetry volume.
+V1-FCT-0837,WEB-CE-B13,V1-CARD-0203,V1-ENT-0315,entity_layer,collection,metadata,SRC-0243,high,candidate_for_staging_review,ABL places A rosa do povo under Poesias.
+V1-FCT-0838,WEB-CE-B13,V1-CARD-0203,V1-ENT-0315,first_publication_year,1945,bibliographic,SRC-0243,high,candidate_for_staging_review,ABL lists A rosa do povo as 1945.
+V1-FCT-0839,WEB-CE-B13,V1-CARD-0203,V1-ENT-0315,genre_or_form,诗集,bibliographic,SRC-0243,high,candidate_for_staging_review,ABL section heading identifies a poetry volume.
+V1-FCT-0840,WEB-CE-B13,V1-CARD-0204,V1-ENT-0316,entity_layer,collection,metadata,SRC-0243,high,candidate_for_staging_review,ABL places Claro enigma under Poesias.
+V1-FCT-0841,WEB-CE-B13,V1-CARD-0204,V1-ENT-0316,first_publication_year,1951,bibliographic,SRC-0243,high,candidate_for_staging_review,ABL lists Claro enigma as 1951.
+V1-FCT-0842,WEB-CE-B13,V1-CARD-0204,V1-ENT-0316,genre_or_form,诗集,bibliographic,SRC-0243,high,candidate_for_staging_review,ABL section heading identifies a poetry volume.
+V1-FCT-0843,WEB-CE-B13,V1-CARD-0198,V1-ENT-0310,birth_year,1902,fact,SRC-0246,high,candidate_for_staging_review,CVC identifies Guillén as born in Camagüey in 1902.
+V1-FCT-0844,WEB-CE-B13,V1-CARD-0198,V1-ENT-0310,death_year,1989,fact,SRC-0246,high,candidate_for_staging_review,CVC records Guillén death in 1989.
+V1-FCT-0845,WEB-CE-B13,V1-CARD-0198,V1-ENT-0310,career_note,诗人、记者与文化工作者,fact,SRC-0246,high,candidate_for_staging_review,"CVC biography records poetry, journalism and cultural work."
+V1-FCT-0846,WEB-CE-B13,V1-CARD-0205,V1-ENT-0317,entity_layer,collection,metadata,SRC-0246,high,candidate_for_staging_review,CVC biography calls Motivos de son an early poemario.
+V1-FCT-0847,WEB-CE-B13,V1-CARD-0205,V1-ENT-0317,first_publication_year,1930,bibliographic,SRC-0245,high,candidate_for_staging_review,Cervantes bibliography records Motivos de son in 1930.
+V1-FCT-0848,WEB-CE-B13,V1-CARD-0205,V1-ENT-0317,genre_or_form,诗集,bibliographic,SRC-0246,high,candidate_for_staging_review,CVC describes the title as a poemario.
+V1-FCT-0849,WEB-CE-B13,V1-CARD-0206,V1-ENT-0318,entity_layer,collection,metadata,SRC-0246,high,candidate_for_staging_review,CVC biography describes Sóngoro cosongo as a book of poems.
+V1-FCT-0850,WEB-CE-B13,V1-CARD-0206,V1-ENT-0318,first_publication_year,1931,bibliographic,SRC-0245,high,candidate_for_staging_review,Cervantes bibliography records Sóngoro cosongo in 1931.
+V1-FCT-0851,WEB-CE-B13,V1-CARD-0206,V1-ENT-0318,genre_or_form,诗集,bibliographic,SRC-0246,high,candidate_for_staging_review,CVC biography describes the title as a poemario.
+V1-FCT-0852,WEB-CE-B13,V1-CARD-0207,V1-ENT-0319,entity_layer,collection,metadata,SRC-0246,high,candidate_for_staging_review,CVC biography describes West Indies Ltd. as a poemario.
+V1-FCT-0853,WEB-CE-B13,V1-CARD-0207,V1-ENT-0319,first_publication_year,1934,bibliographic,SRC-0245,high,candidate_for_staging_review,"Cervantes bibliography records West Indies, Ltd. in 1934."
+V1-FCT-0854,WEB-CE-B13,V1-CARD-0207,V1-ENT-0319,genre_or_form,诗集,bibliographic,SRC-0246,high,candidate_for_staging_review,CVC biography describes the title as a poemario.
+V1-FCT-0855,WEB-CE-B14,V1-CARD-0208,V1-ENT-0320,birth_year,1910,fact,SRC-0248,high,candidate_for_staging_review,AAP identifies Lezama Lima as born in Havana in 1910.
+V1-FCT-0856,WEB-CE-B14,V1-CARD-0208,V1-ENT-0320,death_year,1976,fact,SRC-0248,high,candidate_for_staging_review,AAP records Lezama Lima death in Havana in 1976.
+V1-FCT-0857,WEB-CE-B14,V1-CARD-0208,V1-ENT-0320,career_note,诗人、散文家与小说家,fact,SRC-0248,high,candidate_for_staging_review,"AAP identifies Lezama Lima as poet, essayist and novelist."
+V1-FCT-0858,WEB-CE-B14,V1-CARD-0211,V1-ENT-0323,entity_layer,work,metadata,SRC-0247,high,candidate_for_staging_review,Scholarly article treats Paradiso as a novel.
+V1-FCT-0859,WEB-CE-B14,V1-CARD-0211,V1-ENT-0323,first_publication_year,1966,bibliographic,SRC-0247,high,candidate_for_staging_review,Scholarly article dates Paradiso to 1966.
+V1-FCT-0860,WEB-CE-B14,V1-CARD-0211,V1-ENT-0323,genre_or_form,小说,bibliographic,SRC-0247,high,candidate_for_staging_review,Scholarly article calls Paradiso a novela.
+V1-FCT-0861,WEB-CE-B14,V1-CARD-0212,V1-ENT-0324,entity_layer,work,metadata,SRC-0247,high,candidate_for_staging_review,Scholarly article treats Oppiano Licario as a novel.
+V1-FCT-0862,WEB-CE-B14,V1-CARD-0212,V1-ENT-0324,first_publication_year,1977,bibliographic,SRC-0247,high,candidate_for_staging_review,Scholarly article dates Oppiano Licario to 1977.
+V1-FCT-0863,WEB-CE-B14,V1-CARD-0212,V1-ENT-0324,genre_or_form,小说,bibliographic,SRC-0247,high,candidate_for_staging_review,Scholarly article calls Oppiano Licario a novela.
+V1-FCT-0864,WEB-CE-B14,V1-CARD-0213,V1-ENT-0325,entity_layer,work,metadata,SRC-0248,high,candidate_for_staging_review,AAP describes La expresión americana as a lecture series later published as a work.
+V1-FCT-0865,WEB-CE-B14,V1-CARD-0213,V1-ENT-0325,composition_year,1957,bibliographic,SRC-0248,high,candidate_for_staging_review,"AAP dates the five-part lecture series to 1957; this is the lecture year, not a first-publication claim."
+V1-FCT-0866,WEB-CE-B14,V1-CARD-0213,V1-ENT-0325,genre_or_form,讲演系列,bibliographic,SRC-0248,medium,candidate_for_staging_review,AAP identifies the work as a five-part lecture series; the card uses the directly supported lecture label.
+V1-FCT-0867,WEB-CE-B14,V1-CARD-0209,V1-ENT-0321,birth_year,1929,fact,SRC-0249,high,candidate_for_staging_review,Escritores.org records Cabrera Infante born in Gibara in 1929.
+V1-FCT-0868,WEB-CE-B14,V1-CARD-0209,V1-ENT-0321,death_year,2005,fact,SRC-0249,high,candidate_for_staging_review,Escritores.org records his death in London in 2005.
+V1-FCT-0869,WEB-CE-B14,V1-CARD-0209,V1-ENT-0321,career_note,小说家、散文家与电影评论/编剧,fact,SRC-0250,high,candidate_for_staging_review,"UT Press biography describes novels, essays, short stories and film scripts."
+V1-FCT-0870,WEB-CE-B14,V1-CARD-0214,V1-ENT-0326,entity_layer,work,metadata,SRC-0249,high,candidate_for_staging_review,Bibliography lists Tres tristes tigres as a title by Cabrera Infante.
+V1-FCT-0871,WEB-CE-B14,V1-CARD-0214,V1-ENT-0326,first_publication_year,1967,bibliographic,SRC-0249,high,candidate_for_staging_review,Escritores.org lists Tres tristes tigres in 1967.
+V1-FCT-0872,WEB-CE-B14,V1-CARD-0214,V1-ENT-0326,genre_or_form,小说,bibliographic,SRC-0250,medium,candidate_for_staging_review,UT Press biography includes the title among Cabrera Infante novels.
+V1-FCT-0873,WEB-CE-B14,V1-CARD-0215,V1-ENT-0327,entity_layer,work,metadata,SRC-0249,high,candidate_for_staging_review,Bibliography lists Vista del amanecer en el trópico as a title; form remains open.
+V1-FCT-0874,WEB-CE-B14,V1-CARD-0215,V1-ENT-0327,first_publication_year,1974,bibliographic,SRC-0249,medium,candidate_for_staging_review,"Escritores.org lists a 1974 Vista del amanecer en el trópico entry, while the same page also shows a 1987 entry; retain 1974 as a provisional bibliographic year pending independent confirmation."
+V1-FCT-0875,WEB-CE-B14,V1-CARD-0216,V1-ENT-0328,entity_layer,work,metadata,SRC-0249,high,candidate_for_staging_review,Bibliography lists La Habana para un infante difunto as a title by Cabrera Infante.
+V1-FCT-0876,WEB-CE-B14,V1-CARD-0216,V1-ENT-0328,first_publication_year,1979,bibliographic,SRC-0249,high,candidate_for_staging_review,Escritores.org lists La Habana para un infante difunto in 1979.
+V1-FCT-0878,WEB-CE-B14,V1-CARD-0210,V1-ENT-0322,birth_year,1651,fact,SRC-0251,high,candidate_for_staging_review,UNAM repository identifies Sor Juana as born in 1651.
+V1-FCT-0879,WEB-CE-B14,V1-CARD-0210,V1-ENT-0322,death_year,1695,fact,SRC-0251,high,candidate_for_staging_review,UNAM repository identifies Sor Juana as dying in 1695.
+V1-FCT-0880,WEB-CE-B14,V1-CARD-0210,V1-ENT-0322,career_note,诗人、剧作家与宗教写作者,fact,SRC-0251,high,candidate_for_staging_review,UNAM materials identify Sor Juana as a religious writer and list poetry and drama.
+V1-FCT-0881,WEB-CE-B14,V1-CARD-0217,V1-ENT-0329,entity_layer,work,metadata,SRC-0251,high,candidate_for_staging_review,UNAM repository presents Primero sueño as a poem.
+V1-FCT-0882,WEB-CE-B14,V1-CARD-0217,V1-ENT-0329,first_publication_year,1692,bibliographic,SRC-0251,high,candidate_for_staging_review,UNAM repository states Primero sueño was originally published in 1692.
+V1-FCT-0883,WEB-CE-B14,V1-CARD-0217,V1-ENT-0329,genre_or_form,长诗,bibliographic,SRC-0251,high,candidate_for_staging_review,UNAM repository describes the 975-line poem.
+V1-FCT-0884,WEB-CE-B14,V1-CARD-0218,V1-ENT-0330,entity_layer,work,metadata,SRC-0252,high,candidate_for_staging_review,UNAM repository presents the Response as an epistle.
+V1-FCT-0885,WEB-CE-B14,V1-CARD-0218,V1-ENT-0330,composition_year,1691,bibliographic,SRC-0252,high,candidate_for_staging_review,UNAM repository dates completion of the letter to 1 March 1691; this is not a first-publication claim.
+V1-FCT-0886,WEB-CE-B14,V1-CARD-0218,V1-ENT-0330,genre_or_form,书信/散文,bibliographic,SRC-0252,high,candidate_for_staging_review,UNAM classifies the item under ensayo and epístola.
+V1-FCT-0887,WEB-CE-B14,V1-CARD-0219,V1-ENT-0331,entity_layer,work,metadata,SRC-0253,high,candidate_for_staging_review,UNAM describes Amor es más laberinto as a comedy.
+V1-FCT-0888,WEB-CE-B14,V1-CARD-0219,V1-ENT-0331,composition_year,1689,bibliographic,SRC-0253,high,candidate_for_staging_review,"UNAM Global dates the premiere of Amor es más laberinto to 1689; this is a premiere year, not a first-publication claim."
+V1-FCT-0889,WEB-CE-B14,V1-CARD-0219,V1-ENT-0331,genre_or_form,戏剧,bibliographic,SRC-0253,high,candidate_for_staging_review,UNAM describes the title as a comedia.
+V1-FCT-0890,WEB-CE-B15,V1-CARD-0220,V1-ENT-0332,birth_year,1929,fact,SRC-0254,high,candidate_for_staging_review,Peruvian Ministry cultural page identifies Ribeyro as Lima 1929.
+V1-FCT-0891,WEB-CE-B15,V1-CARD-0220,V1-ENT-0332,death_year,1994,fact,SRC-0254,high,candidate_for_staging_review,Peruvian Ministry cultural page identifies Ribeyro death in 1994.
+V1-FCT-0892,WEB-CE-B15,V1-CARD-0220,V1-ENT-0332,career_note,小说家、短篇小说家、剧作家与散文家,fact,SRC-0254,high,candidate_for_staging_review,"Official page describes cuentos, novelas, teatro and ensayos."
+V1-FCT-0893,WEB-CE-B15,V1-CARD-0223,V1-ENT-0335,entity_layer,collection,metadata,SRC-0255,high,candidate_for_staging_review,UNMSM article calls the title Ribeyro’s first urban story book.
+V1-FCT-0894,WEB-CE-B15,V1-CARD-0223,V1-ENT-0335,first_publication_year,1955,bibliographic,SRC-0255,high,candidate_for_staging_review,Peer-reviewed UNMSM abstract dates publication to 1955.
+V1-FCT-0895,WEB-CE-B15,V1-CARD-0223,V1-ENT-0335,genre_or_form,短篇小说集,bibliographic,SRC-0255,high,candidate_for_staging_review,UNMSM article describes the title as a first book of urban tales.
+V1-FCT-0896,WEB-CE-B15,V1-CARD-0224,V1-ENT-0336,entity_layer,collection,metadata,SRC-0254,high,candidate_for_staging_review,Official page describes the volume as gathered stories.
+V1-FCT-0897,WEB-CE-B15,V1-CARD-0224,V1-ENT-0336,first_publication_year,1989,bibliographic,SRC-0254,high,candidate_for_staging_review,Official bibliography lists the Barcelona Tusquets edition in 1989.
+V1-FCT-0898,WEB-CE-B15,V1-CARD-0224,V1-ENT-0336,genre_or_form,短篇小说集,bibliographic,SRC-0254,high,candidate_for_staging_review,Official page says the volume gathers stories from Ribeyro’s work as a short-story writer.
+V1-FCT-0899,WEB-CE-B15,V1-CARD-0225,V1-ENT-0337,entity_layer,collection,metadata,SRC-0254,high,candidate_for_staging_review,Official bibliography presents La palabra del mudo as multi-volume story collections.
+V1-FCT-0900,WEB-CE-B15,V1-CARD-0225,V1-ENT-0337,first_book_edition_year,1973,bibliographic,SRC-0254,medium,candidate_for_staging_review,1973 is the Madrid Milla Batres Tomos I–II edition year; the title covers stories from 1952–1972 and is not assigned a first-publication year.
+V1-FCT-0901,WEB-CE-B15,V1-CARD-0225,V1-ENT-0337,genre_or_form,短篇小说集,bibliographic,SRC-0254,high,candidate_for_staging_review,Official page identifies the multi-volume production as cuentos.
+V1-FCT-0902,WEB-CE-B15,V1-CARD-0221,V1-ENT-0333,birth_year,1937,fact,SRC-0256,high,candidate_for_staging_review,Argentina government cultural page identifies Saer born in 1937.
+V1-FCT-0903,WEB-CE-B15,V1-CARD-0221,V1-ENT-0333,death_year,2005,fact,SRC-0256,high,candidate_for_staging_review,Argentina government cultural page records Saer death in 2005.
+V1-FCT-0904,WEB-CE-B15,V1-CARD-0221,V1-ENT-0333,career_note,小说家、短篇小说家、诗人和散文家,fact,SRC-0256,high,candidate_for_staging_review,"Argentina government page lists his cuento, novel, poetry and essay production."
+V1-FCT-0905,WEB-CE-B15,V1-CARD-0226,V1-ENT-0338,entity_layer,work,metadata,SRC-0256,high,candidate_for_staging_review,Argentina government page lists El limonero real among Saer novels; UNL table corroborates the bibliography.
+V1-FCT-0906,WEB-CE-B15,V1-CARD-0226,V1-ENT-0338,first_publication_year,1974,bibliographic,SRC-0257,high,candidate_for_staging_review,UNL scholarly table dates El limonero real to 1974.
+V1-FCT-0907,WEB-CE-B15,V1-CARD-0226,V1-ENT-0338,genre_or_form,小说,bibliographic,SRC-0256,high,candidate_for_staging_review,Argentina government page lists El limonero real among Saer novels; UNL table corroborates the bibliography.
+V1-FCT-0908,WEB-CE-B15,V1-CARD-0227,V1-ENT-0339,entity_layer,work,metadata,SRC-0256,high,candidate_for_staging_review,Argentina government page lists El entenado among Saer novels; UNL table corroborates the bibliography.
+V1-FCT-0909,WEB-CE-B15,V1-CARD-0227,V1-ENT-0339,first_publication_year,1983,bibliographic,SRC-0257,high,candidate_for_staging_review,UNL scholarly table dates El entenado to 1983.
+V1-FCT-0910,WEB-CE-B15,V1-CARD-0227,V1-ENT-0339,genre_or_form,小说,bibliographic,SRC-0256,high,candidate_for_staging_review,Argentina government page lists El entenado among Saer novels; UNL table corroborates the bibliography.
+V1-FCT-0911,WEB-CE-B15,V1-CARD-0228,V1-ENT-0340,entity_layer,work,metadata,SRC-0256,high,candidate_for_staging_review,Argentina government page lists Glosa among Saer novels; UNL table corroborates the bibliography.
+V1-FCT-0912,WEB-CE-B15,V1-CARD-0228,V1-ENT-0340,first_publication_year,1986,bibliographic,SRC-0257,medium,candidate_for_staging_review,Argentina government bibliography and the UNL scholarly table date Glosa to 1986; the separate 1985 discovery lead remains unverified and is tracked in V1-GAP-0022.
+V1-FCT-0913,WEB-CE-B15,V1-CARD-0228,V1-ENT-0340,genre_or_form,小说,bibliographic,SRC-0256,high,candidate_for_staging_review,Argentina government page lists Glosa among Saer novels; UNL table corroborates the bibliography.
+V1-FCT-0914,WEB-CE-B15,V1-CARD-0222,V1-ENT-0334,birth_year,1943,fact,SRC-0258,high,candidate_for_staging_review,Princeton finding-aid identifies Arenas 1943–1990.
+V1-FCT-0915,WEB-CE-B15,V1-CARD-0222,V1-ENT-0334,death_year,1990,fact,SRC-0258,high,candidate_for_staging_review,Princeton finding-aid identifies Arenas 1943–1990.
+V1-FCT-0916,WEB-CE-B15,V1-CARD-0222,V1-ENT-0334,career_note,小说家、诗人、剧作家与散文家,fact,SRC-0258,high,candidate_for_staging_review,"Princeton finding-aid lists Arenas novels, short stories, poetry, plays and essays."
+V1-FCT-0917,WEB-CE-B15,V1-CARD-0229,V1-ENT-0341,entity_layer,work,metadata,SRC-0259,high,candidate_for_staging_review,Cardiff scholarly article identifies Celestino antes del alba as a novel.
+V1-FCT-0918,WEB-CE-B15,V1-CARD-0229,V1-ENT-0341,first_publication_year,1967,bibliographic,SRC-0259,high,candidate_for_staging_review,Cardiff article dates the first novel to 1967.
+V1-FCT-0919,WEB-CE-B15,V1-CARD-0229,V1-ENT-0341,genre_or_form,小说,bibliographic,SRC-0259,high,candidate_for_staging_review,Cardiff article explicitly calls it a novel.
+V1-FCT-0920,WEB-CE-B15,V1-CARD-0230,V1-ENT-0342,entity_layer,work,metadata,SRC-0259,high,candidate_for_staging_review,Cardiff scholarly article identifies El mundo alucinante as a novel.
+V1-FCT-0921,WEB-CE-B15,V1-CARD-0230,V1-ENT-0342,first_publication_year,1968,bibliographic,SRC-0259,high,candidate_for_staging_review,Cardiff article dates the second novel to 1968.
+V1-FCT-0922,WEB-CE-B15,V1-CARD-0230,V1-ENT-0342,genre_or_form,小说,bibliographic,SRC-0259,high,candidate_for_staging_review,Cardiff article explicitly calls it a novel.
+V1-FCT-0923,WEB-CE-B15,V1-CARD-0231,V1-ENT-0343,entity_layer,work,metadata,SRC-0260,high,candidate_for_staging_review,Universidad de Antioquia review identifies the work as an autobiography.
+V1-FCT-0924,WEB-CE-B15,V1-CARD-0231,V1-ENT-0343,first_publication_year,1992,bibliographic,SRC-0260,high,candidate_for_staging_review,Universidad de Antioquia review states the Spanish original was published in 1992.
+V1-FCT-0925,WEB-CE-B15,V1-CARD-0231,V1-ENT-0343,genre_or_form,自传,bibliographic,SRC-0260,high,candidate_for_staging_review,The review describes the work as an autobiografía.
+V1-FCT-0926,WEB-CE-B16,V1-CARD-0232,V1-ENT-0344,birth_year,1949,fact,SRC-0262,high,candidate_for_staging_review,Official source identifies Luis Sepúlveda birth year.
+V1-FCT-0927,WEB-CE-B16,V1-CARD-0232,V1-ENT-0344,career_note,小说家、记者与旅行作家,fact,SRC-0262,high,candidate_for_staging_review,Source-backed career description for Luis Sepúlveda.
+V1-FCT-0928,WEB-CE-B16,V1-CARD-0232,V1-ENT-0344,literary_identity,智利小说家与旅行写作者,fact,SRC-0262,high,candidate_for_staging_review,Conservative literary identity derived from the cited author/chronology source.
+V1-FCT-0929,WEB-CE-B16,V1-CARD-0233,V1-ENT-0347,entity_layer,work,metadata,SRC-0261,high,candidate_for_staging_review,Entity layer is recorded as work.
+V1-FCT-0930,WEB-CE-B16,V1-CARD-0233,V1-ENT-0347,first_book_edition_year,1989,bibliographic,SRC-0261,high,candidate_for_staging_review,"BNE and Memoria Chilena identify the Madrid Júcar 1989 book edition; the 1993 Tusquets record is a later edition, not conflicting evidence."
+V1-FCT-0931,WEB-CE-B16,V1-CARD-0233,V1-ENT-0347,genre_or_form,小说,bibliographic,SRC-0261,high,candidate_for_staging_review,Cited source supports the conservative form label 小说.
+V1-FCT-0932,WEB-CE-B16,V1-CARD-0234,V1-ENT-0348,entity_layer,work,metadata,SRC-0262,high,candidate_for_staging_review,Entity layer is recorded as work.
+V1-FCT-0933,WEB-CE-B16,V1-CARD-0234,V1-ENT-0348,first_publication_year,1996,bibliographic,SRC-0262,high,candidate_for_staging_review,Cited source dates the title to 1996.
+V1-FCT-0934,WEB-CE-B16,V1-CARD-0234,V1-ENT-0348,genre_or_form,儿童小说,bibliographic,SRC-0262,high,candidate_for_staging_review,Cited source supports the conservative form label 儿童小说.
+V1-FCT-0935,WEB-CE-B16,V1-CARD-0235,V1-ENT-0349,entity_layer,work,metadata,SRC-0262,high,candidate_for_staging_review,Entity layer is recorded as work.
+V1-FCT-0936,WEB-CE-B16,V1-CARD-0235,V1-ENT-0349,first_publication_year,1994,bibliographic,SRC-0262,high,candidate_for_staging_review,Cited source dates the title to 1994.
+V1-FCT-0937,WEB-CE-B16,V1-CARD-0235,V1-ENT-0349,genre_or_form,旅行叙事,bibliographic,SRC-0262,high,candidate_for_staging_review,Cited source supports the conservative form label 旅行叙事.
+V1-FCT-0938,WEB-CE-B16,V1-CARD-0236,V1-ENT-0345,birth_year,1973,fact,SRC-0263,high,candidate_for_staging_review,Official source identifies Guadalupe Nettel birth year.
+V1-FCT-0939,WEB-CE-B16,V1-CARD-0236,V1-ENT-0345,career_note,小说家、短篇小说家与散文作者,fact,SRC-0263,high,candidate_for_staging_review,Source-backed career description for Guadalupe Nettel.
+V1-FCT-0940,WEB-CE-B16,V1-CARD-0236,V1-ENT-0345,literary_identity,墨西哥小说家与短篇小说家,fact,SRC-0263,high,candidate_for_staging_review,Conservative literary identity derived from the cited author/chronology source.
+V1-FCT-0941,WEB-CE-B16,V1-CARD-0237,V1-ENT-0350,entity_layer,work,metadata,SRC-0264,high,candidate_for_staging_review,Entity layer is recorded as work.
+V1-FCT-0942,WEB-CE-B16,V1-CARD-0237,V1-ENT-0350,first_publication_year,2020,bibliographic,SRC-0264,high,candidate_for_staging_review,Cited source dates the title to 2020.
+V1-FCT-0943,WEB-CE-B16,V1-CARD-0237,V1-ENT-0350,genre_or_form,小说,bibliographic,SRC-0264,high,candidate_for_staging_review,Cited source supports the conservative form label 小说.
+V1-FCT-0944,WEB-CE-B16,V1-CARD-0238,V1-ENT-0351,entity_layer,collection,metadata,SRC-0265,high,candidate_for_staging_review,Entity layer is recorded as collection.
+V1-FCT-0945,WEB-CE-B16,V1-CARD-0238,V1-ENT-0351,first_publication_year,2013,bibliographic,SRC-0265,high,candidate_for_staging_review,Cited source dates the title to 2013.
+V1-FCT-0946,WEB-CE-B16,V1-CARD-0238,V1-ENT-0351,genre_or_form,短篇小说集,bibliographic,SRC-0265,high,candidate_for_staging_review,Cited source supports the conservative form label 短篇小说集.
+V1-FCT-0947,WEB-CE-B16,V1-CARD-0239,V1-ENT-0352,entity_layer,collection,metadata,SRC-0266,high,candidate_for_staging_review,Entity layer is recorded as collection.
+V1-FCT-0948,WEB-CE-B16,V1-CARD-0239,V1-ENT-0352,first_publication_year,2008,bibliographic,SRC-0266,high,candidate_for_staging_review,Cited source dates the title to 2008.
+V1-FCT-0949,WEB-CE-B16,V1-CARD-0239,V1-ENT-0352,genre_or_form,短篇小说集,bibliographic,SRC-0266,high,candidate_for_staging_review,Cited source supports the conservative form label 短篇小说集.
+V1-FCT-0950,WEB-CE-B16,V1-CARD-0240,V1-ENT-0346,birth_year,1941,fact,SRC-0267,high,candidate_for_staging_review,Official source identifies Cristina Peri Rossi birth year.
+V1-FCT-0951,WEB-CE-B16,V1-CARD-0240,V1-ENT-0346,career_note,作家、记者与活动家,fact,SRC-0267,high,candidate_for_staging_review,Source-backed career description for Cristina Peri Rossi.
+V1-FCT-0952,WEB-CE-B16,V1-CARD-0240,V1-ENT-0346,literary_identity,乌拉圭诗人、小说家与短篇小说家,fact,SRC-0267,high,candidate_for_staging_review,Conservative literary identity derived from the cited author/chronology source.
+V1-FCT-0953,WEB-CE-B16,V1-CARD-0241,V1-ENT-0353,entity_layer,collection,metadata,SRC-0268,high,candidate_for_staging_review,Entity layer is recorded as collection.
+V1-FCT-0954,WEB-CE-B16,V1-CARD-0241,V1-ENT-0353,first_publication_year,2015,bibliographic,SRC-0268,high,candidate_for_staging_review,Cited source dates the title to 2015.
+V1-FCT-0955,WEB-CE-B16,V1-CARD-0241,V1-ENT-0353,genre_or_form,短篇小说集,bibliographic,SRC-0268,high,candidate_for_staging_review,Cited source supports the conservative form label 短篇小说集.
+V1-FCT-0956,WEB-CE-B16,V1-CARD-0242,V1-ENT-0354,entity_layer,collection,metadata,SRC-0268,high,candidate_for_staging_review,Entity layer is recorded as collection.
+V1-FCT-0957,WEB-CE-B16,V1-CARD-0242,V1-ENT-0354,first_publication_year,1976,bibliographic,SRC-0268,high,candidate_for_staging_review,Cited source dates the title to 1976.
+V1-FCT-0958,WEB-CE-B16,V1-CARD-0242,V1-ENT-0354,genre_or_form,短篇小说集,bibliographic,SRC-0268,high,candidate_for_staging_review,Cited source supports the conservative form label 短篇小说集.
+V1-FCT-0959,WEB-CE-B16,V1-CARD-0243,V1-ENT-0355,entity_layer,collection,metadata,SRC-0268,high,candidate_for_staging_review,Entity layer is recorded as collection.
+V1-FCT-0960,WEB-CE-B16,V1-CARD-0243,V1-ENT-0355,first_publication_year,1975,bibliographic,SRC-0268,high,candidate_for_staging_review,Cited source dates the title to 1975.
+V1-FCT-0961,WEB-CE-B16,V1-CARD-0243,V1-ENT-0355,genre_or_form,诗集,bibliographic,SRC-0268,high,candidate_for_staging_review,Cited source supports the conservative form label 诗集.
+V1-FCT-0962,WEB-CE-B17,V1-CARD-0244,V1-ENT-0358,birth_year,1918,fact,SRC-0277,high,candidate_for_staging_review,Civil-registry record reported by Arpen/SP and ANOREG/BR establishes 19 April 1918; Biblioteca Nacional authority data independently records 1918–2022.
+V1-FCT-0963,WEB-CE-B17,V1-CARD-0244,V1-ENT-0358,death_year,2022,fact,SRC-0270,high,candidate_for_staging_review,Source-backed death year for Lygia Fagundes Telles.
+V1-FCT-0964,WEB-CE-B17,V1-CARD-0244,V1-ENT-0358,country_or_region,巴西,fact,SRC-0270,high,candidate_for_staging_review,Source-backed country association for Lygia Fagundes Telles.
+V1-FCT-0965,WEB-CE-B17,V1-CARD-0244,V1-ENT-0358,career_note,小说家与短篇小说家,fact,SRC-0271,high,candidate_for_staging_review,Conservative career description for Lygia Fagundes Telles.
+V1-FCT-0966,WEB-CE-B17,V1-CARD-0244,V1-ENT-0358,literary_identity,巴西小说家与短篇小说家,fact,SRC-0271,medium,candidate_for_staging_review,Conservative literary identity for Lygia Fagundes Telles; no movement or influence claim.
+V1-FCT-0967,WEB-CE-B17,V1-CARD-0245,V1-ENT-0361,entity_layer,work,metadata,SRC-0271,high,candidate_for_staging_review,Entity layer recorded as work.
+V1-FCT-0968,WEB-CE-B17,V1-CARD-0245,V1-ENT-0361,first_publication_year,1954,bibliographic,SRC-0271,high,candidate_for_staging_review,Cited source dates Ciranda de pedra to 1954.
+V1-FCT-0969,WEB-CE-B17,V1-CARD-0245,V1-ENT-0361,genre_or_form,小说,bibliographic,SRC-0271,high,candidate_for_staging_review,Cited source supports the conservative form label 小说.
+V1-FCT-0970,WEB-CE-B17,V1-CARD-0246,V1-ENT-0362,entity_layer,collection,metadata,SRC-0271,high,candidate_for_staging_review,Entity layer recorded as collection.
+V1-FCT-0971,WEB-CE-B17,V1-CARD-0246,V1-ENT-0362,first_publication_year,1970,bibliographic,SRC-0271,high,candidate_for_staging_review,Cited source dates Antes do baile verde to 1970.
+V1-FCT-0972,WEB-CE-B17,V1-CARD-0246,V1-ENT-0362,genre_or_form,短篇小说集,bibliographic,SRC-0271,high,candidate_for_staging_review,Cited source supports the conservative form label 短篇小说集.
+V1-FCT-0973,WEB-CE-B17,V1-CARD-0247,V1-ENT-0363,entity_layer,work,metadata,SRC-0271,high,candidate_for_staging_review,Entity layer recorded as work.
+V1-FCT-0974,WEB-CE-B17,V1-CARD-0247,V1-ENT-0363,first_publication_year,1973,bibliographic,SRC-0271,high,candidate_for_staging_review,Cited source dates As meninas to 1973.
+V1-FCT-0975,WEB-CE-B17,V1-CARD-0247,V1-ENT-0363,genre_or_form,小说,bibliographic,SRC-0271,high,candidate_for_staging_review,Cited source supports the conservative form label 小说.
+V1-FCT-0976,WEB-CE-B17,V1-CARD-0248,V1-ENT-0359,birth_year,1906,fact,SRC-0274,high,candidate_for_staging_review,Source-backed birth year for Jorge Icaza.
+V1-FCT-0977,WEB-CE-B17,V1-CARD-0248,V1-ENT-0359,death_year,1978,fact,SRC-0274,high,candidate_for_staging_review,Source-backed death year for Jorge Icaza.
+V1-FCT-0978,WEB-CE-B17,V1-CARD-0248,V1-ENT-0359,country_or_region,厄瓜多尔,fact,SRC-0274,high,candidate_for_staging_review,Source-backed country association for Jorge Icaza.
+V1-FCT-0979,WEB-CE-B17,V1-CARD-0248,V1-ENT-0359,career_note,小说家与剧作家,fact,SRC-0274,high,candidate_for_staging_review,Conservative career description for Jorge Icaza.
+V1-FCT-0980,WEB-CE-B17,V1-CARD-0248,V1-ENT-0359,literary_identity,厄瓜多尔小说家与剧作家,fact,SRC-0274,medium,candidate_for_staging_review,Conservative literary identity for Jorge Icaza; no movement or influence claim.
+V1-FCT-0981,WEB-CE-B17,V1-CARD-0249,V1-ENT-0364,entity_layer,work,metadata,SRC-0274,high,candidate_for_staging_review,UCE thesis supports the work-level bibliographic entity.
+V1-FCT-0982,WEB-CE-B17,V1-CARD-0249,V1-ENT-0364,first_publication_year,1934,bibliographic,SRC-0274,high,candidate_for_staging_review,UCE thesis explicitly lists the work and publication year.
+V1-FCT-0983,WEB-CE-B17,V1-CARD-0249,V1-ENT-0364,genre_or_form,小说,bibliographic,SRC-0274,high,candidate_for_staging_review,UCE thesis explicitly lists the title among Jorge Icaza's novels.
+V1-FCT-0984,WEB-CE-B17,V1-CARD-0250,V1-ENT-0365,entity_layer,work,metadata,SRC-0274,high,candidate_for_staging_review,UCE thesis supports the work-level bibliographic entity.
+V1-FCT-0985,WEB-CE-B17,V1-CARD-0250,V1-ENT-0365,first_publication_year,1935,bibliographic,SRC-0274,high,candidate_for_staging_review,UCE thesis explicitly lists the work and publication year.
+V1-FCT-0986,WEB-CE-B17,V1-CARD-0250,V1-ENT-0365,genre_or_form,小说,bibliographic,SRC-0274,high,candidate_for_staging_review,UCE thesis explicitly lists the title among Jorge Icaza's novels.
+V1-FCT-0987,WEB-CE-B17,V1-CARD-0251,V1-ENT-0366,entity_layer,work,metadata,SRC-0274,high,candidate_for_staging_review,UCE thesis supports the work-level bibliographic entity.
+V1-FCT-0988,WEB-CE-B17,V1-CARD-0251,V1-ENT-0366,first_publication_year,1958,bibliographic,SRC-0274,high,candidate_for_staging_review,UCE thesis explicitly lists the work and publication year.
+V1-FCT-0989,WEB-CE-B17,V1-CARD-0251,V1-ENT-0366,genre_or_form,小说,bibliographic,SRC-0274,high,candidate_for_staging_review,UCE thesis explicitly lists the title among Jorge Icaza's novels.
+V1-FCT-0990,WEB-CE-B17,V1-CARD-0252,V1-ENT-0360,birth_year,1884,fact,SRC-0275,high,candidate_for_staging_review,Source-backed birth year for Rómulo Gallegos.
+V1-FCT-0991,WEB-CE-B17,V1-CARD-0252,V1-ENT-0360,death_year,1969,fact,SRC-0275,high,candidate_for_staging_review,Source-backed death year for Rómulo Gallegos.
+V1-FCT-0992,WEB-CE-B17,V1-CARD-0252,V1-ENT-0360,country_or_region,委内瑞拉,fact,SRC-0275,high,candidate_for_staging_review,Source-backed country association for Rómulo Gallegos.
+V1-FCT-0993,WEB-CE-B17,V1-CARD-0252,V1-ENT-0360,career_note,作家、教育家与政治人物,fact,SRC-0275,high,candidate_for_staging_review,Conservative career description for Rómulo Gallegos.
+V1-FCT-0994,WEB-CE-B17,V1-CARD-0252,V1-ENT-0360,literary_identity,委内瑞拉小说家与教育家,fact,SRC-0275,medium,candidate_for_staging_review,Conservative literary identity for Rómulo Gallegos; no movement or influence claim.
+V1-FCT-0995,WEB-CE-B17,V1-CARD-0253,V1-ENT-0367,entity_layer,work,metadata,SRC-0275,high,candidate_for_staging_review,Entity layer recorded as work.
+V1-FCT-0996,WEB-CE-B17,V1-CARD-0253,V1-ENT-0367,first_publication_year,1929,bibliographic,SRC-0275,high,candidate_for_staging_review,Cited source dates Doña Bárbara to 1929.
+V1-FCT-0997,WEB-CE-B17,V1-CARD-0253,V1-ENT-0367,genre_or_form,小说,bibliographic,SRC-0275,high,candidate_for_staging_review,Cited source supports the conservative form label 小说.
+V1-FCT-0998,WEB-CE-B17,V1-CARD-0254,V1-ENT-0368,entity_layer,work,metadata,SRC-0275,high,candidate_for_staging_review,Entity layer recorded as work.
+V1-FCT-0999,WEB-CE-B17,V1-CARD-0254,V1-ENT-0368,first_publication_year,1934,bibliographic,SRC-0275,high,candidate_for_staging_review,Cited source dates Cantaclaro to 1934.
+V1-FCT-1000,WEB-CE-B17,V1-CARD-0254,V1-ENT-0368,genre_or_form,小说,bibliographic,SRC-0275,high,candidate_for_staging_review,Cited source supports the conservative form label 小说.
+V1-FCT-1001,WEB-CE-B17,V1-CARD-0255,V1-ENT-0369,entity_layer,work,metadata,SRC-0275,high,candidate_for_staging_review,Entity layer recorded as work.
+V1-FCT-1002,WEB-CE-B17,V1-CARD-0255,V1-ENT-0369,first_publication_year,1935,bibliographic,SRC-0275,high,candidate_for_staging_review,Cited source dates Canaima to 1935.
+V1-FCT-1003,WEB-CE-B17,V1-CARD-0255,V1-ENT-0369,genre_or_form,小说,bibliographic,SRC-0275,high,candidate_for_staging_review,Cited source supports the conservative form label 小说.
+V1-FCT-1004,SOL-AUDIT-REMEDIATION-B16-B17,V1-CARD-0232,V1-ENT-0344,death_year,2020,fact,SRC-0278,high,candidate_for_staging_review,China Writers Net obituary records Luis Sepúlveda's death in 2020.
+V1-FCT-1005,WCD07A-F001,V1-CARD-0256,V1-ENT-0374,entity_layer,work,metadata,WCD07A-W01,high,batch_retained_candidate,single novel; sections not split
+V1-FCT-1006,WCD07A-F002,V1-CARD-0256,V1-ENT-0374,first_publication_year,1975,bibliographic,WCD07A-W01,high,batch_retained_candidate,original publication only
+V1-FCT-1007,WCD07A-F003,V1-CARD-0256,V1-ENT-0374,genre_or_form,长篇小说,bibliographic,WCD07A-W01,high,batch_retained_candidate,institutional classification
+V1-FCT-1008,WCD07A-F004,V1-CARD-0256,V1-ENT-0374,bibliographic_note,1975年由Joaquín Mortiz与Seix Barral在墨西哥出版。,bibliographic_note,WCD07A-W01,high,batch_retained_candidate,later edition dates excluded
+V1-FCT-1009,WCD07A-F005,V1-CARD-0256,V1-ENT-0374,story_premise,小说以三部结构交织旧世界、新世界与另一个世界的历史文化经验。,institutional_paraphrase,WCD07A-W01,medium,batch_retained_candidate,no theme or child relation inferred
+V1-FCT-1010,WCD07A-F006,V1-CARD-0257,V1-ENT-0375,entity_layer,work,metadata,WCD07A-W02,high,batch_retained_candidate,single hybrid book
+V1-FCT-1011,WCD07A-F007,V1-CARD-0257,V1-ENT-0375,first_publication_year,1996,bibliographic,WCD07A-W02,high,batch_retained_candidate,Era Mexico publication
+V1-FCT-1012,WCD07A-F008,V1-CARD-0257,V1-ENT-0375,genre_or_form,复合型散文,scholarly_paraphrase,WCD07A-W02,medium,batch_retained_candidate,not reduced to memoir
+V1-FCT-1013,WCD07A-F009,V1-CARD-0257,V1-ENT-0375,bibliographic_note,Instituto Cervantes书目记录该书由Era于1996年在墨西哥出版。,bibliographic_note,WCD07A-W02,high,batch_retained_candidate,reuses SRC-0201
+V1-FCT-1014,WCD07A-F010,V1-CARD-0257,V1-ENT-0375,story_premise,作品在文学评论、阅读记忆与自传叙述之间展开。,scholarly_paraphrase,WCD07A-W02,medium,batch_retained_candidate,bounded synthesis
+V1-FCT-1015,WCD07A-F011,V1-CARD-0258,V1-ENT-0376,entity_layer,collection,metadata,WCD07A-W03,high,batch_retained_candidate,posthumous original collection
+V1-FCT-1016,WCD07A-F012,V1-CARD-0258,V1-ENT-0376,first_publication_year,1913,bibliographic,WCD07A-W03,high,batch_retained_candidate,posthumous publication
+V1-FCT-1017,WCD07A-F013,V1-CARD-0258,V1-ENT-0376,genre_or_form,诗集,bibliographic,WCD07A-W03,high,batch_retained_candidate,original collection
+V1-FCT-1018,WCD07A-F014,V1-CARD-0258,V1-ENT-0376,bibliographic_note,诗作写于作者生前，几乎全部约作于1882年，并于1913年身后出版。,bibliographic_note,WCD07A-W03,high,batch_retained_candidate,composition and publication kept distinct
+V1-FCT-1019,WCD07A-F015,V1-CARD-0258,V1-ENT-0376,story_premise,诗集以无韵十一音节诗及强烈跨行、意象构成其形式特征。,scholarly_paraphrase,WCD07A-W03,medium,batch_retained_candidate,no movement relation inferred
+V1-FCT-1020,WCD07A-F016,V1-CARD-0259,V1-ENT-0377,entity_layer,work,metadata,WCD07A-W04,high,batch_retained_candidate,single novel
+V1-FCT-1021,WCD07A-F017,V1-CARD-0259,V1-ENT-0377,first_publication_year,2000,bibliographic,WCD07A-W04,high,batch_retained_candidate,Nobel bibliography
+V1-FCT-1022,WCD07A-F018,V1-CARD-0259,V1-ENT-0377,genre_or_form,长篇小说,bibliographic,WCD07A-W04,high,batch_retained_candidate,publisher classification
+V1-FCT-1023,WCD07A-F019,V1-CARD-0259,V1-ENT-0377,bibliographic_note,诺贝尔奖官方书目记录该书2000年由马德里Alfaguara出版。,bibliographic_note,WCD07A-W04,high,batch_retained_candidate,direct bibliography
+V1-FCT-1024,WCD07A-F020,V1-CARD-0259,V1-ENT-0377,story_premise,小说围绕多米尼加共和国特鲁希略独裁统治及其余波展开。,publisher_paraphrase,WCD07A-W04,high,batch_retained_candidate,no event or place edge inferred
+V1-FCT-1025,WCD07A-F021,V1-CARD-0260,V1-ENT-0378,entity_layer,work,metadata,WCD07A-W05,high,batch_retained_candidate,single novel
+V1-FCT-1026,WCD07A-F022,V1-CARD-0260,V1-ENT-0378,first_publication_year,1971,bibliographic,WCD07A-W05,high,batch_retained_candidate,posthumous publication
+V1-FCT-1027,WCD07A-F023,V1-CARD-0260,V1-ENT-0378,genre_or_form,长篇小说,bibliographic,WCD07A-W05,high,batch_retained_candidate,national library and publisher classification
+V1-FCT-1028,WCD07A-F024,V1-CARD-0260,V1-ENT-0378,bibliographic_note,作品于1971年出版；Editorial Losada将其作为作者的文学遗嘱介绍。,bibliographic_note,WCD07A-W05,high,batch_retained_candidate,unsupported diary-year claim excluded
+V1-FCT-1029,WCD07A-F026,V1-CARD-0261,V1-ENT-0379,entity_layer,work,metadata,WCD07A-W06,high,batch_retained_candidate,single novel
+V1-FCT-1030,WCD07A-F027,V1-CARD-0261,V1-ENT-0379,first_publication_year,1943,bibliographic,WCD07A-W06,high,batch_retained_candidate,two direct independent sources
+V1-FCT-1031,WCD07A-F028,V1-CARD-0261,V1-ENT-0379,genre_or_form,长篇小说,bibliographic,WCD07A-W06,high,batch_retained_candidate,both sources identify a novel
+V1-FCT-1032,WCD07A-F029,V1-CARD-0261,V1-ENT-0379,bibliographic_note,巴西国家图书馆与SciELO论文均记作品于1943年出版。,bibliographic_note,WCD07A-W06,high,batch_retained_candidate,1942 dissent remains audit-only
+V1-FCT-1033,WCD07A-F030,V1-CARD-0261,V1-ENT-0379,story_premise,小说以巴伊亚可可产区的土地争夺与地方上校政治为叙事背景。,scholarly_paraphrase,WCD07A-W06,high,batch_retained_candidate,no place or theme edge inferred

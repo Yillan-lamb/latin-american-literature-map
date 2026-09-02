@@ -151,6 +151,7 @@ reviewer did not draft or edit prose. All verdicts are stored under
 | Python unit tests | PASS, 25/25 |
 | Playwright four-browser matrix | PASS, 84/84 |
 | `git diff --check` | PASS |
+| GitHub PR CI | PASS, development baseline integrity and Chromium desktop/mobile smoke |
 
 The first master-validator invocation omitted its required database argument and
 was rerun correctly. One deterministic Web comparison exposed a stale generated

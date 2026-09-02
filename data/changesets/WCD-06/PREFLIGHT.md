@@ -10,4 +10,4 @@
 
 ## Reconciliation
 
-The external 74 low-judgment rows are field-level candidates, while WCD-04's five low-judgment rows are page-level routes and all five are places. Current governance classifies signature keywords, why-read, themes, literary introductions and literary significance as high judgment. Therefore only 12 directly evidenced work location notes are promoted without rewriting; nine bibliographic story introductions require rewrite or research.
+The external 74 low-judgment rows are field-level candidates, while WCD-04's five low-judgment rows are page-level routes and all five are places. Current governance classifies signature keywords, why-read, themes, literary introductions and literary significance as high judgment. The initial WCD-06 pass promoted 12 work location notes. The targeted field-level re-audit restored two unsupported setting claims to USER_REVIEW, leaving 10 directly evidenced promotions; nine bibliographic story introductions require rewrite or research. The External AI rebase and its 74-row classification were not rerun or changed.

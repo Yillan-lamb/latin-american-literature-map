@@ -44,16 +44,38 @@ AUTHOR_REFS = {
 }
 
 LOCATION_PROMOTIONS = {
-    "V1-ENT-0017", "V1-ENT-0018", "V1-ENT-0032", "V1-ENT-0035",
+    "V1-ENT-0018", "V1-ENT-0032", "V1-ENT-0035",
     "V1-ENT-0038", "V1-ENT-0075", "V1-ENT-0076", "V1-ENT-0077",
-    "V1-ENT-0079", "V1-ENT-0081", "V1-ENT-0117", "V1-ENT-0118",
+    "V1-ENT-0081", "V1-ENT-0117", "V1-ENT-0118",
 }
 
+LOCATION_RESTORED_REVIEW = {"V1-ENT-0017", "V1-ENT-0079"}
+LOCATION_REBASE_PROMOTIONS = LOCATION_PROMOTIONS | LOCATION_RESTORED_REVIEW
+
 LOCATION_REWRITES = {
-    "V1-ENT-0018": "故事发生在里约热内卢；玛卡贝娅是一名生活困窘的打字员，城市构成她日常生活的主要空间。",
+    "V1-ENT-0018": "故事发生在里约热内卢；玛卡贝娅是一名生活困窘的打字员。",
+    "V1-ENT-0032": "伊斯特佩克是小说的核心村镇，并作为全知叙述者发声。",
     "V1-ENT-0035": "故事发生在恰帕斯村镇，白人世界与 chontal 印第安世界的张力在这里展开。",
-    "V1-ENT-0075": "马孔多是小说创造的虚构城镇，布恩迪亚—伊瓜兰家族在这里延续数代；不使用现实坐标。",
-    "V1-ENT-0077": "故事发生在未具名小镇；叙述者二十多年后重返此地调查圣地亚哥·纳萨尔之死，因此不指定现实坐标。",
+    "V1-ENT-0038": "胡安·普雷西亚多前往科马拉寻找父亲，并逐渐听见这座村镇的过去。",
+    "V1-ENT-0075": "马孔多是小说中的虚构城镇，布恩迪亚—伊瓜兰家族在这里延续数代。",
+    "V1-ENT-0076": "故事发生在戒严中的哥伦比亚小村镇。",
+    "V1-ENT-0077": "故事发生在一座小镇；叙述者二十多年后重返这里，重新调查圣地亚哥·纳萨尔之死。",
+    "V1-ENT-0081": "故事跨越十八世纪末的古巴、加勒比海与瓜德罗普。",
+    "V1-ENT-0117": "圣地亚哥·萨瓦拉与安布罗西奥在名为“大教堂”的酒吧交谈，话题由此打开奥德里亚独裁时期的私人记忆与社会关系。",
+    "V1-ENT-0118": "故事围绕十九世纪巴西腹地的卡努杜斯共同体展开。",
+}
+
+LOCATION_PROVENANCE = {
+    "V1-ENT-0018": ("V1-FCT-0256", "SRC-0085"),
+    "V1-ENT-0032": ("V1-FCT-0078", "SRC-0020"),
+    "V1-ENT-0035": ("V1-FCT-0092;V1-REL-0033", "SRC-0023"),
+    "V1-ENT-0038": ("V1-FCT-0255", "SRC-0084"),
+    "V1-ENT-0075": ("V1-FCT-0239", "SRC-0075"),
+    "V1-ENT-0076": ("V1-FCT-0254", "SRC-0083"),
+    "V1-ENT-0077": ("V1-FCT-0249", "SRC-0080"),
+    "V1-ENT-0081": ("V1-FCT-0259", "SRC-0086"),
+    "V1-ENT-0117": ("V1-FCT-0246", "SRC-0078"),
+    "V1-ENT-0118": ("V1-FCT-0250", "SRC-0081"),
 }
 
 WORK_REWRITES: dict[str, tuple[str, str, str]] = {}
@@ -62,12 +84,12 @@ NEW_WORKS = {
     "V1-ENT-0019": {
         "story_intro": ("《家庭纽带》（1960）是一部由 13 篇作品组成的短篇集，从城市与家庭场景切入人物的内心生活、家庭关系、沉默、姿态与突然显露的时刻。", "V1-FCT-0042;V1-FCT-0043;V1-FCT-0044;V1-FCT-0045;V1-REL-0007", "SRC-0009"),
         "narrative_features": (["以城市与家庭日常作为人物内心生活的入口", "围绕沉默、姿态与关系中的揭示时刻展开"], "V1-FCT-0045", "SRC-0009"),
-        "location_note": ("空间集中在城市与家庭场景；现有资料未提供可稳定映射到单一坐标的作品地点。", "V1-FCT-0045", "SRC-0009"),
+        "location_note": ("作品从城市与家庭场景切入人物的内心生活与家庭关系。", "V1-FCT-0045", "SRC-0009"),
     },
     "V1-ENT-0146": {
         "story_intro": ("《最明净的地区》（1958）以多个人物和社会阶层的声音拼合二十世纪中叶的墨西哥城，在城市日常中追问革命后的社会结构与身份。", "V1-FCT-0264;V1-FCT-0265;V1-FCT-0266;V1-REL-0077", "SRC-0087;SRC-0088"),
         "narrative_features": (["多重人物声音并置", "以社会群像构成不断移动的墨西哥城图景"], "V1-FCT-0268", "SRC-0087;SRC-0088"),
-        "location_note": ("故事空间明确落在墨西哥城，城市日常与不同社会阶层共同构成作品的叙事场域。", "V1-FCT-0266;V1-FCT-0267", "SRC-0087;SRC-0088"),
+        "location_note": ("故事发生在墨西哥城，并通过城市日常与不同社会阶层的声音展开。", "V1-FCT-0266;V1-FCT-0267", "SRC-0089;SRC-0090"),
     },
 }
 
@@ -120,6 +142,9 @@ def build_patch(baseline: dict[str, object]) -> dict[str, object]:
         original = idx[target_id][1]["location_note"]
         promoted = dict(original)
         promoted["content"] = LOCATION_REWRITES.get(target_id, original["content"])
+        research, sources = LOCATION_PROVENANCE[target_id]
+        promoted["research_refs"] = split_refs(research)
+        promoted["source_refs"] = split_refs(sources)
         promoted.update(status="auto_approved", basis_note="WCD-06 低判断地点说明逐项核证；未扩张地图关系", reviewer="CODEX-REVIEW", reviewed_at=DATE)
         work_overrides.append({"target_id": target_id, "location_note": promoted})
     for target_id, (content, research, sources) in WORK_REWRITES.items():
@@ -203,7 +228,7 @@ def main() -> int:
             status, reason = "CONFLICT_WITH_CURRENT_CURATION", "field is high judgment under current validator"
         elif classification == "LOW_JUDGMENT_EVIDENCE_SUFFICIENT" and field == "story_intro":
             status, reason = "CONFLICT_WITH_WCD04_ROUTING", "page-level route identifies bibliographic copy; rewrite required"
-        elif classification == "LOW_JUDGMENT_EVIDENCE_SUFFICIENT" and field == "location_note" and target_id not in LOCATION_PROMOTIONS:
+        elif classification == "LOW_JUDGMENT_EVIDENCE_SUFFICIENT" and field == "location_note" and target_id not in LOCATION_REBASE_PROMOTIONS:
             status, reason = "NEEDS_REVIEW", "negative/meta copy is not promoted as reader description"
         elif current and current.get("status") != row["current_status"]:
             status, reason = "CHANGED", "current status differs from external snapshot"
@@ -217,6 +242,7 @@ def main() -> int:
         if row["classification"] != "LOW_JUDGMENT_EVIDENCE_SUFFICIENT":
             continue
         if row["target_type"] == "place": decision = "OUT_OF_SCOPE"
+        elif row["field"] == "location_note" and row["target_id"] in LOCATION_RESTORED_REVIEW: decision = "RESTORE_USER_REVIEW"
         elif row["field"] == "location_note" and row["target_id"] in LOCATION_PROMOTIONS: decision = "PROMOTE"
         elif row["field"] == "story_intro": decision = "REWRITE_OR_RESEARCH"
         else: decision = "KEEP_USER_REVIEW_HIGH_JUDGMENT"
@@ -254,7 +280,7 @@ def main() -> int:
     status_counts = Counter(value.get("status") for group in ("authors", "works") for record in baseline[group] for key, value in record.items() if key != "target_id" and isinstance(value, dict))
     class_counts = Counter(row["classification"] for row in matrix)
     rebase_counts = Counter(row["rebase_status"] for row in rebase)
-    preflight = f"""# WCD-06 Preflight\n\n- Baseline: `main@f47ab5793101f85437a793ab45cd0e241ad6cc73`\n- Scope: 61 authors and 168 curated works; external packages read only.\n- Field statuses: auto_approved={status_counts['auto_approved']}, user_review={status_counts['user_review']}, hold={status_counts['hold']}.\n- Current page classifications: {dict(sorted(class_counts.items()))}.\n- WCD-04 routing baseline: {dict(sorted(Counter(row['classification'] for row in routing).items()))}.\n- External field-level baseline: {dict(sorted(Counter(row['classification'] for row in triage).items()))}.\n- External rebase verdicts: {dict(sorted(rebase_counts.items()))}.\n\n## Reconciliation\n\nThe external 74 low-judgment rows are field-level candidates, while WCD-04's five low-judgment rows are page-level routes and all five are places. Current governance classifies signature keywords, why-read, themes, literary introductions and literary significance as high judgment. Therefore only 12 directly evidenced work location notes are promoted without rewriting; nine bibliographic story introductions require rewrite or research.\n"""
+    preflight = f"""# WCD-06 Preflight\n\n- Baseline: `main@f47ab5793101f85437a793ab45cd0e241ad6cc73`\n- Scope: 61 authors and 168 curated works; external packages read only.\n- Field statuses: auto_approved={status_counts['auto_approved']}, user_review={status_counts['user_review']}, hold={status_counts['hold']}.\n- Current page classifications: {dict(sorted(class_counts.items()))}.\n- WCD-04 routing baseline: {dict(sorted(Counter(row['classification'] for row in routing).items()))}.\n- External field-level baseline: {dict(sorted(Counter(row['classification'] for row in triage).items()))}.\n- External rebase verdicts: {dict(sorted(rebase_counts.items()))}.\n\n## Reconciliation\n\nThe external 74 low-judgment rows are field-level candidates, while WCD-04's five low-judgment rows are page-level routes and all five are places. Current governance classifies signature keywords, why-read, themes, literary introductions and literary significance as high judgment. The initial WCD-06 pass promoted 12 work location notes. The targeted field-level re-audit restored two unsupported setting claims to USER_REVIEW, leaving 10 directly evidenced promotions; nine bibliographic story introductions require rewrite or research.\n"""
     (OUT / "PREFLIGHT.md").write_text(preflight, encoding="utf-8")
     review_dir = OUT / "review"
     review_dir.mkdir(exist_ok=True)

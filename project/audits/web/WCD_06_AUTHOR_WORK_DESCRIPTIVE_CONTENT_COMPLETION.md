@@ -36,17 +36,31 @@ interpretive fields are high judgment. They therefore cannot be batch-promoted.
 
 ## 06A Review Queue Recovery
 
-All 74 external low-judgment candidates were decided individually:
+All 74 external low-judgment candidates were decided individually. After the
+targeted location-note re-audit, the final decisions are:
 
-- 12 directly evidenced `location_note` fields were promoted;
+- 10 directly evidenced `location_note` fields were promoted;
+- 2 initially promoted `location_note` fields were restored to USER_REVIEW;
 - 52 interpretive fields remained USER_REVIEW;
 - 9 bibliographic `story_intro` fields were routed to rewrite or research;
 - 1 place row was out of the author/work scope.
 
-Eight promotions preserve their original wording; four were narrowed after the
-first independent review. All 12 preserve or tighten the original evidence
-boundary. Negative or governance-facing location copy was not promoted merely
-to improve a count.
+All 10 final promotions preserve or tighten the original evidence boundary.
+Negative or governance-facing location copy was not promoted merely to improve
+a count.
+
+### Targeted location-note revision
+
+The PR-level re-audit covered all 14 WCD-06 location-note changes: the original
+12 promotion candidates and the two new work/collection additions. Eleven
+reader-facing governance segments were removed from the proposed public copy.
+`V1-ENT-0017` and `V1-ENT-0079` were restored to USER_REVIEW because their
+cited Research facts do not directly establish the proposed negative or
+setting claims. Ten original promotion candidates and both new additions remain
+`auto_approved`, for 12 final public location notes. No Research claim, source,
+relationship, migration, Schema change, or External AI classification was
+added. Claim-level evidence is recorded in
+`data/changesets/WCD-06/review/LOCATION_NOTE_PROVENANCE_AUDIT.csv`.
 
 ## 06B Bibliographic-copy Rewrite
 
@@ -95,7 +109,7 @@ candidates from the external WCD-07 package were not imported or executed.
 | curated authors | 61 | 61 |
 | curated works | 168 | 170 |
 | author auto / review / hold fields | 100 / 492 / 7 | 100 / 492 / 7 |
-| work auto / review / hold fields | 248 / 1191 / 13 | 266 / 1179 / 13 |
+| work auto / review / hold fields | 248 / 1191 / 13 | 264 / 1181 / 13 |
 | public authors | 25 | 25 |
 | public works | 60 | 62 |
 | public places | 32 | 32 |
@@ -103,7 +117,7 @@ candidates from the external WCD-07 package were not imported or executed.
 
 Primary coverage is now 15 public / 46 review / 0 missing author ledes and 62
 public / 108 review / 0 missing story introductions inside the 170-object
-curation package. Across the reader-content package, 1694 wrappers remain
+curation package. Across the reader-content package, 1696 wrappers remain
 USER_REVIEW; no high-judgment field was leaked into public output.
 
 ## Version Decision
@@ -128,21 +142,24 @@ reviewer did not draft or edit prose. All verdicts are stored under
 |---|---|
 | Research master integrity / FK / Schema 0.4 | PASS |
 | Curation deterministic rebuild | PASS, byte-identical |
-| field-level Research and Source references | PASS |
+| field-level Research and Source references | PASS, 14 location notes / 20 claim-level audit rows; 18 supported claims and 2 restored reviews |
 | content-quality review package and public subset | PASS |
 | Web deterministic rebuild at fixed timestamp | PASS, byte-identical |
 | Web Data validator | PASS, 371 entities / 328 relationships / 298 sources / 93 place relations |
 | deploy bundle and public boundary | PASS, 137 routes / 128 public entities / 0 review exposure |
 | frontend syntax | PASS |
-| Python unit tests | PASS, 24/24 |
+| Python unit tests | PASS, 25/25 |
 | Playwright four-browser matrix | PASS, 84/84 |
 | `git diff --check` | PASS |
 
 The first master-validator invocation omitted its required database argument and
 was rerun correctly. One deterministic Web comparison exposed a stale generated
 file after a relationship-reference correction; rebuilding from the corrected
-formal patch then passed byte-for-byte. Neither setup correction changed the
-review boundary or Research data.
+formal patch then passed byte-for-byte. During the targeted revision, the first
+Playwright invocation was blocked before assertions by the macOS process
+sandbox; the identical 84-test matrix passed after browser launch was permitted.
+None of these environment corrections changed the review boundary or Research
+data.
 
 ## Gate
 

@@ -634,7 +634,36 @@ PLACE_PATHS = {
 }
 
 
-def build():
+def apply_wcd06_patch(payload: dict[str, object]) -> dict[str, object]:
+    """Apply the reviewed WCD-06 partial overrides and additions."""
+    patch_path = ROOT / "data/changesets/WCD-06/curation/PUBLIC_CONTENT_PATCH.json"
+    if not patch_path.exists():
+        return payload
+    patch = json.loads(patch_path.read_text(encoding="utf-8"))
+    if patch.get("schema_version") != "v2-curation-content-patch-0.1":
+        raise ValueError(f"unexpected WCD-06 patch schema: {patch_path}")
+    for group in ("authors", "works", "places"):
+        records = {item["target_id"]: item for item in payload[group]}
+        for override in patch.get("overrides", {}).get(group, []):
+            target_id = override.get("target_id")
+            if target_id not in records:
+                raise ValueError(f"unknown WCD-06 override target: {target_id}")
+            for field_key, wrapped in override.items():
+                if field_key == "target_id":
+                    continue
+                if field_key not in records[target_id]:
+                    raise ValueError(f"unknown WCD-06 override field: {target_id}.{field_key}")
+                records[target_id][field_key] = wrapped
+        for addition in patch.get("additions", {}).get(group, []):
+            target_id = addition.get("target_id")
+            if not target_id or target_id in records:
+                raise ValueError(f"duplicate WCD-06 addition target: {target_id}")
+            payload[group].append(addition)
+            records[target_id] = addition
+    return payload
+
+
+def build(*, apply_wcd06: bool = True):
     # WEB-CE-B01 新作者：reader_lede / literary_features 仅复述已评审事实，auto_approved；
     # 其余字段（含价值判断/阅读推荐）保持 user_review 等待 USER 审核。
     NEW_AUTO_AUTHORS = {"V1-ENT-0145", "V1-ENT-0148", "V1-ENT-0059"}
@@ -939,15 +968,21 @@ def build():
                 payload[group].append(record)
     payload = normalize_wcd03_display_names(payload)
     downgrade_low_value_curation(payload)
+    if apply_wcd06:
+        payload = apply_wcd06_patch(payload)
     return payload
 
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--output", type=Path, default=OUTPUT)
+    parser.add_argument("--skip-wcd06", action="store_true")
     args = parser.parse_args()
     args.output.parent.mkdir(parents=True, exist_ok=True)
-    args.output.write_text(json.dumps(build(), ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    args.output.write_text(
+        json.dumps(build(apply_wcd06=not args.skip_wcd06), ensure_ascii=False, indent=2) + "\n",
+        encoding="utf-8",
+    )
     print(args.output)
     return 0
 

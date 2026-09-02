@@ -2079,7 +2079,7 @@
     "geo_data": "data/v2/geo",
     "research_database": "data/master/V1_MASTER.sqlite"
   },
-  "generated_at": "2026-08-27T12:00:00Z",
+  "generated_at": "2026-08-31T04:59:03+00:00",
   "map": {
     "places": [
       {
@@ -38399,19 +38399,19 @@
           },
           "rank": 6,
           "score": 40,
-          "target_id": "V1-ENT-0074"
+          "target_id": "V1-ENT-0016"
         },
         {
           "factors": {
-            "chinese_reader_access": 8,
+            "chinese_reader_access": 12,
             "evidence_depth": 4,
             "major_award": 0,
             "reader_content_depth": 24,
             "reading_path": 0
           },
           "rank": 7,
-          "score": 36,
-          "target_id": "V1-ENT-0016"
+          "score": 40,
+          "target_id": "V1-ENT-0074"
         },
         {
           "factors": {
@@ -38476,14 +38476,26 @@
         {
           "factors": {
             "chinese_reader_access": 12,
-            "evidence_depth": 3,
+            "evidence_depth": 5,
             "major_award": 0,
             "reader_content_depth": 6,
             "reading_path": 0
           },
           "rank": 13,
-          "score": 21,
+          "score": 23,
           "target_id": "V1-ENT-0199"
+        },
+        {
+          "factors": {
+            "chinese_reader_access": 12,
+            "evidence_depth": 5,
+            "major_award": 0,
+            "reader_content_depth": 3,
+            "reading_path": 0
+          },
+          "rank": 14,
+          "score": 20,
+          "target_id": "V1-ENT-0171"
         },
         {
           "factors": {
@@ -38493,7 +38505,7 @@
             "reader_content_depth": 6,
             "reading_path": 0
           },
-          "rank": 14,
+          "rank": 15,
           "score": 20,
           "target_id": "V1-ENT-0200"
         },
@@ -38505,7 +38517,7 @@
             "reader_content_depth": 3,
             "reading_path": 0
           },
-          "rank": 15,
+          "rank": 16,
           "score": 19,
           "target_id": "V1-ENT-0185"
         },
@@ -38517,7 +38529,7 @@
             "reader_content_depth": 3,
             "reading_path": 0
           },
-          "rank": 16,
+          "rank": 17,
           "score": 19,
           "target_id": "V1-ENT-0213"
         },
@@ -38529,7 +38541,7 @@
             "reader_content_depth": 3,
             "reading_path": 0
           },
-          "rank": 17,
+          "rank": 18,
           "score": 18,
           "target_id": "V1-ENT-0184"
         },
@@ -38541,7 +38553,7 @@
             "reader_content_depth": 3,
             "reading_path": 0
           },
-          "rank": 18,
+          "rank": 19,
           "score": 18,
           "target_id": "V1-ENT-0186"
         },
@@ -38553,7 +38565,19 @@
             "reader_content_depth": 3,
             "reading_path": 0
           },
-          "rank": 19,
+          "rank": 20,
+          "score": 18,
+          "target_id": "V1-ENT-0198"
+        },
+        {
+          "factors": {
+            "chinese_reader_access": 12,
+            "evidence_depth": 3,
+            "major_award": 0,
+            "reader_content_depth": 3,
+            "reading_path": 0
+          },
+          "rank": 21,
           "score": 18,
           "target_id": "V1-ENT-0211"
         },
@@ -38565,7 +38589,7 @@
             "reader_content_depth": 3,
             "reading_path": 0
           },
-          "rank": 20,
+          "rank": 22,
           "score": 18,
           "target_id": "V1-ENT-0212"
         },
@@ -38577,33 +38601,9 @@
             "reader_content_depth": 3,
             "reading_path": 0
           },
-          "rank": 21,
+          "rank": 23,
           "score": 17,
           "target_id": "V1-ENT-0172"
-        },
-        {
-          "factors": {
-            "chinese_reader_access": 12,
-            "evidence_depth": 2,
-            "major_award": 0,
-            "reader_content_depth": 3,
-            "reading_path": 0
-          },
-          "rank": 22,
-          "score": 17,
-          "target_id": "V1-ENT-0198"
-        },
-        {
-          "factors": {
-            "chinese_reader_access": 12,
-            "evidence_depth": 1,
-            "major_award": 0,
-            "reader_content_depth": 3,
-            "reading_path": 0
-          },
-          "rank": 23,
-          "score": 16,
-          "target_id": "V1-ENT-0170"
         },
         {
           "factors": {
@@ -38615,18 +38615,18 @@
           },
           "rank": 24,
           "score": 16,
-          "target_id": "V1-ENT-0171"
+          "target_id": "V1-ENT-0170"
         },
         {
           "factors": {
-            "chinese_reader_access": 4,
+            "chinese_reader_access": 8,
             "evidence_depth": 3,
             "major_award": 0,
             "reader_content_depth": 3,
             "reading_path": 0
           },
           "rank": 25,
-          "score": 10,
+          "score": 14,
           "target_id": "V1-ENT-0145"
         }
       ],
@@ -38696,11 +38696,11 @@
           },
           "rank": 5,
           "score": 70,
-          "target_id": "V1-ENT-0079"
+          "target_id": "V1-ENT-0018"
         },
         {
           "factors": {
-            "author_recognition": 9,
+            "author_recognition": 10,
             "bibliographic_completeness": 12,
             "literary_connections": 4,
             "reader_content_depth": 24,
@@ -38708,8 +38708,8 @@
             "reading_path": 12
           },
           "rank": 6,
-          "score": 69,
-          "target_id": "V1-ENT-0018"
+          "score": 70,
+          "target_id": "V1-ENT-0079"
         },
         {
           "factors": {
@@ -38817,16 +38817,16 @@
         },
         {
           "factors": {
-            "author_recognition": 8,
+            "author_recognition": 10,
             "bibliographic_completeness": 12,
-            "literary_connections": 2,
+            "literary_connections": 1,
             "reader_content_depth": 24,
             "reading_guidance": 8,
             "reading_path": 0
           },
           "rank": 15,
-          "score": 54,
-          "target_id": "V1-ENT-0003"
+          "score": 55,
+          "target_id": "V1-ENT-0017"
         },
         {
           "factors": {
@@ -38839,20 +38839,20 @@
           },
           "rank": 16,
           "score": 54,
-          "target_id": "V1-ENT-0004"
+          "target_id": "V1-ENT-0003"
         },
         {
           "factors": {
-            "author_recognition": 9,
+            "author_recognition": 8,
             "bibliographic_completeness": 12,
-            "literary_connections": 1,
+            "literary_connections": 2,
             "reader_content_depth": 24,
             "reading_guidance": 8,
             "reading_path": 0
           },
           "rank": 17,
           "score": 54,
-          "target_id": "V1-ENT-0017"
+          "target_id": "V1-ENT-0004"
         },
         {
           "factors": {
@@ -38934,16 +38934,55 @@
         },
         {
           "factors": {
-            "author_recognition": 2,
+            "author_recognition": 10,
+            "bibliographic_completeness": 12,
+            "literary_connections": 1,
+            "reader_content_depth": 12,
+            "reading_guidance": 0,
+            "reading_path": 0
+          },
+          "rank": 24,
+          "score": 35,
+          "target_id": "V1-ENT-0019"
+        },
+        {
+          "factors": {
+            "author_recognition": 3,
             "bibliographic_completeness": 12,
             "literary_connections": 2,
             "reader_content_depth": 12,
             "reading_guidance": 0,
             "reading_path": 0
           },
-          "rank": 24,
-          "score": 28,
+          "rank": 25,
+          "score": 29,
+          "target_id": "V1-ENT-0146"
+        },
+        {
+          "factors": {
+            "author_recognition": 3,
+            "bibliographic_completeness": 12,
+            "literary_connections": 2,
+            "reader_content_depth": 12,
+            "reading_guidance": 0,
+            "reading_path": 0
+          },
+          "rank": 26,
+          "score": 29,
           "target_id": "V1-ENT-0169"
+        },
+        {
+          "factors": {
+            "author_recognition": 5,
+            "bibliographic_completeness": 4,
+            "literary_connections": 1,
+            "reader_content_depth": 9,
+            "reading_guidance": 0,
+            "reading_path": 0
+          },
+          "rank": 27,
+          "score": 19,
+          "target_id": "V1-ENT-0177"
         },
         {
           "factors": {
@@ -38954,7 +38993,7 @@
             "reading_guidance": 0,
             "reading_path": 0
           },
-          "rank": 25,
+          "rank": 28,
           "score": 18,
           "target_id": "V1-ENT-0175"
         },
@@ -38967,20 +39006,7 @@
             "reading_guidance": 0,
             "reading_path": 0
           },
-          "rank": 26,
-          "score": 18,
-          "target_id": "V1-ENT-0177"
-        },
-        {
-          "factors": {
-            "author_recognition": 4,
-            "bibliographic_completeness": 4,
-            "literary_connections": 1,
-            "reader_content_depth": 9,
-            "reading_guidance": 0,
-            "reading_path": 0
-          },
-          "rank": 27,
+          "rank": 29,
           "score": 18,
           "target_id": "V1-ENT-0187"
         },
@@ -38993,35 +39019,9 @@
             "reading_guidance": 0,
             "reading_path": 0
           },
-          "rank": 28,
-          "score": 16,
-          "target_id": "V1-ENT-0204"
-        },
-        {
-          "factors": {
-            "author_recognition": 5,
-            "bibliographic_completeness": 4,
-            "literary_connections": 1,
-            "reader_content_depth": 6,
-            "reading_guidance": 0,
-            "reading_path": 0
-          },
-          "rank": 29,
-          "score": 16,
-          "target_id": "V1-ENT-0205"
-        },
-        {
-          "factors": {
-            "author_recognition": 5,
-            "bibliographic_completeness": 4,
-            "literary_connections": 1,
-            "reader_content_depth": 6,
-            "reading_guidance": 0,
-            "reading_path": 0
-          },
           "rank": 30,
           "score": 16,
-          "target_id": "V1-ENT-0206"
+          "target_id": "V1-ENT-0176"
         },
         {
           "factors": {
@@ -39034,7 +39034,7 @@
           },
           "rank": 31,
           "score": 16,
-          "target_id": "V1-ENT-0207"
+          "target_id": "V1-ENT-0178"
         },
         {
           "factors": {
@@ -39047,7 +39047,7 @@
           },
           "rank": 32,
           "score": 16,
-          "target_id": "V1-ENT-0208"
+          "target_id": "V1-ENT-0204"
         },
         {
           "factors": {
@@ -39060,11 +39060,11 @@
           },
           "rank": 33,
           "score": 16,
-          "target_id": "V1-ENT-0209"
+          "target_id": "V1-ENT-0205"
         },
         {
           "factors": {
-            "author_recognition": 4,
+            "author_recognition": 5,
             "bibliographic_completeness": 4,
             "literary_connections": 1,
             "reader_content_depth": 6,
@@ -39072,12 +39072,12 @@
             "reading_path": 0
           },
           "rank": 34,
-          "score": 15,
-          "target_id": "V1-ENT-0173"
+          "score": 16,
+          "target_id": "V1-ENT-0206"
         },
         {
           "factors": {
-            "author_recognition": 4,
+            "author_recognition": 5,
             "bibliographic_completeness": 4,
             "literary_connections": 1,
             "reader_content_depth": 6,
@@ -39085,12 +39085,12 @@
             "reading_path": 0
           },
           "rank": 35,
-          "score": 15,
-          "target_id": "V1-ENT-0174"
+          "score": 16,
+          "target_id": "V1-ENT-0207"
         },
         {
           "factors": {
-            "author_recognition": 4,
+            "author_recognition": 5,
             "bibliographic_completeness": 4,
             "literary_connections": 1,
             "reader_content_depth": 6,
@@ -39098,12 +39098,12 @@
             "reading_path": 0
           },
           "rank": 36,
-          "score": 15,
-          "target_id": "V1-ENT-0176"
+          "score": 16,
+          "target_id": "V1-ENT-0208"
         },
         {
           "factors": {
-            "author_recognition": 4,
+            "author_recognition": 5,
             "bibliographic_completeness": 4,
             "literary_connections": 1,
             "reader_content_depth": 6,
@@ -39111,8 +39111,8 @@
             "reading_path": 0
           },
           "rank": 37,
-          "score": 15,
-          "target_id": "V1-ENT-0178"
+          "score": 16,
+          "target_id": "V1-ENT-0209"
         },
         {
           "factors": {
@@ -39125,7 +39125,7 @@
           },
           "rank": 38,
           "score": 15,
-          "target_id": "V1-ENT-0179"
+          "target_id": "V1-ENT-0173"
         },
         {
           "factors": {
@@ -39138,7 +39138,7 @@
           },
           "rank": 39,
           "score": 15,
-          "target_id": "V1-ENT-0180"
+          "target_id": "V1-ENT-0174"
         },
         {
           "factors": {
@@ -39151,7 +39151,7 @@
           },
           "rank": 40,
           "score": 15,
-          "target_id": "V1-ENT-0181"
+          "target_id": "V1-ENT-0179"
         },
         {
           "factors": {
@@ -39164,7 +39164,7 @@
           },
           "rank": 41,
           "score": 15,
-          "target_id": "V1-ENT-0188"
+          "target_id": "V1-ENT-0180"
         },
         {
           "factors": {
@@ -39177,7 +39177,7 @@
           },
           "rank": 42,
           "score": 15,
-          "target_id": "V1-ENT-0189"
+          "target_id": "V1-ENT-0181"
         },
         {
           "factors": {
@@ -39190,7 +39190,7 @@
           },
           "rank": 43,
           "score": 15,
-          "target_id": "V1-ENT-0190"
+          "target_id": "V1-ENT-0188"
         },
         {
           "factors": {
@@ -39203,7 +39203,7 @@
           },
           "rank": 44,
           "score": 15,
-          "target_id": "V1-ENT-0191"
+          "target_id": "V1-ENT-0189"
         },
         {
           "factors": {
@@ -39216,7 +39216,7 @@
           },
           "rank": 45,
           "score": 15,
-          "target_id": "V1-ENT-0192"
+          "target_id": "V1-ENT-0190"
         },
         {
           "factors": {
@@ -39229,7 +39229,7 @@
           },
           "rank": 46,
           "score": 15,
-          "target_id": "V1-ENT-0193"
+          "target_id": "V1-ENT-0191"
         },
         {
           "factors": {
@@ -39242,7 +39242,7 @@
           },
           "rank": 47,
           "score": 15,
-          "target_id": "V1-ENT-0194"
+          "target_id": "V1-ENT-0192"
         },
         {
           "factors": {
@@ -39255,7 +39255,7 @@
           },
           "rank": 48,
           "score": 15,
-          "target_id": "V1-ENT-0195"
+          "target_id": "V1-ENT-0193"
         },
         {
           "factors": {
@@ -39268,7 +39268,7 @@
           },
           "rank": 49,
           "score": 15,
-          "target_id": "V1-ENT-0201"
+          "target_id": "V1-ENT-0194"
         },
         {
           "factors": {
@@ -39281,7 +39281,7 @@
           },
           "rank": 50,
           "score": 15,
-          "target_id": "V1-ENT-0202"
+          "target_id": "V1-ENT-0195"
         },
         {
           "factors": {
@@ -39294,7 +39294,7 @@
           },
           "rank": 51,
           "score": 15,
-          "target_id": "V1-ENT-0203"
+          "target_id": "V1-ENT-0201"
         },
         {
           "factors": {
@@ -39307,7 +39307,7 @@
           },
           "rank": 52,
           "score": 15,
-          "target_id": "V1-ENT-0214"
+          "target_id": "V1-ENT-0202"
         },
         {
           "factors": {
@@ -39320,7 +39320,7 @@
           },
           "rank": 53,
           "score": 15,
-          "target_id": "V1-ENT-0215"
+          "target_id": "V1-ENT-0203"
         },
         {
           "factors": {
@@ -39333,7 +39333,7 @@
           },
           "rank": 54,
           "score": 15,
-          "target_id": "V1-ENT-0216"
+          "target_id": "V1-ENT-0214"
         },
         {
           "factors": {
@@ -39346,7 +39346,7 @@
           },
           "rank": 55,
           "score": 15,
-          "target_id": "V1-ENT-0217"
+          "target_id": "V1-ENT-0215"
         },
         {
           "factors": {
@@ -39359,7 +39359,7 @@
           },
           "rank": 56,
           "score": 15,
-          "target_id": "V1-ENT-0218"
+          "target_id": "V1-ENT-0216"
         },
         {
           "factors": {
@@ -39372,7 +39372,7 @@
           },
           "rank": 57,
           "score": 15,
-          "target_id": "V1-ENT-0219"
+          "target_id": "V1-ENT-0217"
         },
         {
           "factors": {
@@ -39385,7 +39385,7 @@
           },
           "rank": 58,
           "score": 15,
-          "target_id": "V1-ENT-0220"
+          "target_id": "V1-ENT-0218"
         },
         {
           "factors": {
@@ -39398,7 +39398,7 @@
           },
           "rank": 59,
           "score": 15,
-          "target_id": "V1-ENT-0221"
+          "target_id": "V1-ENT-0219"
         },
         {
           "factors": {
@@ -39410,6 +39410,32 @@
             "reading_path": 0
           },
           "rank": 60,
+          "score": 15,
+          "target_id": "V1-ENT-0220"
+        },
+        {
+          "factors": {
+            "author_recognition": 4,
+            "bibliographic_completeness": 4,
+            "literary_connections": 1,
+            "reader_content_depth": 6,
+            "reading_guidance": 0,
+            "reading_path": 0
+          },
+          "rank": 61,
+          "score": 15,
+          "target_id": "V1-ENT-0221"
+        },
+        {
+          "factors": {
+            "author_recognition": 4,
+            "bibliographic_completeness": 4,
+            "literary_connections": 1,
+            "reader_content_depth": 6,
+            "reading_guidance": 0,
+            "reading_path": 0
+          },
+          "rank": 62,
           "score": 15,
           "target_id": "V1-ENT-0222"
         }
@@ -40238,7 +40264,7 @@
       }
     ]
   },
-  "product_version": "0.3.2",
+  "product_version": "0.3.3",
   "public_content": {
     "authors": [
       {
@@ -42262,17 +42288,23 @@
           "status": "auto_approved"
         },
         "reader_lede": {
-          "basis_note": "SOL-AUDIT-WEB-CE-B02-B05 独立来源与表述强度复核通过",
-          "content": "米格尔·安赫尔·阿斯图里亚斯（1899–1974）是危地马拉作家。法国国家图书馆书目列出《危地马拉传说》（1930）、《总统先生》（1946）和《玉米人》（1949）。",
-          "created_at": "2026-08-20",
+          "basis_note": "WCD-06 事实边界内的作者导语改写；独立复核轨迹见 review 目录",
+          "content": "米格尔·安赫尔·阿斯图里亚斯（1899—1974）是危地马拉作家、小说家。他的创作时间线从《危地马拉传说》（1930）延伸到《总统先生》（1946）与《玉米人》（1949）。",
+          "created_at": "2026-08-31",
           "research_refs": [
             "V1-FCT-0355",
             "V1-FCT-0356",
             "V1-FCT-0357",
             "V1-FCT-0359",
-            "V1-REL-0112"
+            "V1-REL-0103",
+            "V1-REL-0104",
+            "V1-REL-0105",
+            "V1-REL-0112",
+            "V1-FCT-0361",
+            "V1-FCT-0364",
+            "V1-FCT-0367"
           ],
-          "reviewed_at": "2026-08-20",
+          "reviewed_at": "2026-08-31",
           "reviewer": "CODEX-REVIEW",
           "source_refs": [
             "SRC-0130"
@@ -42309,19 +42341,30 @@
           "status": "auto_approved"
         },
         "reader_lede": {
-          "basis_note": "SOL-AUDIT-WEB-CE-B02-B05 独立来源与表述强度复核通过",
-          "content": "伊莎贝尔·阿连德（生于 1942 年）是智利作家。她的官方时间线记录《幽灵之家》（1982）、《爱情与阴影》（1984）和《伊娃·露娜》（1987）的西语版出版年份。",
-          "created_at": "2026-08-20",
+          "basis_note": "WCD-06 事实边界内的作者导语改写；独立复核轨迹见 review 目录",
+          "content": "伊莎贝尔·阿连德 1942 年生于秘鲁利马，是智利作家。《幽灵之家》（1982）、《爱情与阴影》（1984）与《伊娃·露娜》（1987）构成这里可循的早期创作线索。",
+          "created_at": "2026-08-31",
           "research_refs": [
             "V1-FCT-0369",
             "V1-FCT-0370",
             "V1-FCT-0371",
-            "V1-REL-0113"
+            "V1-REL-0106",
+            "V1-REL-0107",
+            "V1-REL-0108",
+            "V1-REL-0113",
+            "V1-REL-0296",
+            "V1-FCT-0374",
+            "V1-FCT-0377",
+            "V1-FCT-0380"
           ],
-          "reviewed_at": "2026-08-20",
+          "reviewed_at": "2026-08-31",
           "reviewer": "CODEX-REVIEW",
           "source_refs": [
-            "SRC-0134"
+            "SRC-0133",
+            "SRC-0134",
+            "SRC-0135",
+            "SRC-0136",
+            "SRC-0137"
           ],
           "status": "auto_approved"
         },
@@ -42414,9 +42457,9 @@
           "status": "auto_approved"
         },
         "reader_lede": {
-          "basis_note": "SOL-AUDIT-WEB-CE-B02-B05 独立来源与表述强度复核通过",
-          "content": "胡安·卡洛斯·奥内蒂（1909–1994）是乌拉圭作家。Instituto Cervantes 记录他出生于蒙得维的亚，CVC 书目列出《短暂的生命》（1950）、《告别》（1954）和《造船厂》（1961）。",
-          "created_at": "2026-08-20",
+          "basis_note": "WCD-06 事实边界内的作者导语改写；独立复核轨迹见 review 目录",
+          "content": "胡安·卡洛斯·奥内蒂（1909—1994）是生于蒙得维的亚的乌拉圭作家。《短暂的生命》（1950）、《告别》（1954）与《造船厂》（1961）呈现了他的小说创作序列。",
+          "created_at": "2026-08-31",
           "research_refs": [
             "V1-FCT-0396",
             "V1-FCT-0397",
@@ -42426,9 +42469,13 @@
             "V1-REL-0115",
             "V1-REL-0116",
             "V1-REL-0117",
-            "V1-REL-0124"
+            "V1-REL-0124",
+            "V1-REL-0302",
+            "V1-FCT-0402",
+            "V1-FCT-0405",
+            "V1-FCT-0408"
           ],
-          "reviewed_at": "2026-08-20",
+          "reviewed_at": "2026-08-31",
           "reviewer": "CODEX-REVIEW",
           "source_refs": [
             "SRC-0141",
@@ -42534,9 +42581,9 @@
           "status": "auto_approved"
         },
         "reader_lede": {
-          "basis_note": "SOL-AUDIT-WEB-CE-B02-B05 独立来源与表述强度复核通过",
-          "content": "埃内斯托·萨瓦托（1911–2011）是阿根廷作家、画家；受过物理学训练并曾任教。阿根廷国家图书馆与 CONICET 资料列出《隧道》（1948）、《英雄与坟墓》（1961）和《毁灭者亚巴顿》（1974）。",
-          "created_at": "2026-08-20",
+          "basis_note": "WCD-06 事实边界内的作者导语改写；独立复核轨迹见 review 目录",
+          "content": "埃内斯托·萨瓦托（1911—2011）是阿根廷作家、画家，受过物理学训练并曾任教。他生于布宜诺斯艾利斯省罗哈斯，著有《隧道》《英雄与坟墓》和《毁灭者亚巴顿》。",
+          "created_at": "2026-08-31",
           "research_refs": [
             "V1-FCT-0423",
             "V1-FCT-0424",
@@ -42546,9 +42593,12 @@
             "V1-REL-0121",
             "V1-REL-0122",
             "V1-REL-0123",
-            "V1-REL-0126"
+            "V1-REL-0126",
+            "V1-FCT-0429",
+            "V1-FCT-0432",
+            "V1-FCT-0435"
           ],
-          "reviewed_at": "2026-08-20",
+          "reviewed_at": "2026-08-31",
           "reviewer": "CODEX-REVIEW",
           "source_refs": [
             "SRC-0148",
@@ -42593,9 +42643,9 @@
           "status": "auto_approved"
         },
         "reader_lede": {
-          "basis_note": "SOL-AUDIT-WEB-CE-B02-B05 独立来源与表述强度复核通过",
-          "content": "阿道夫·比奥伊·卡萨雷斯（1914–1999）是阿根廷作家，Instituto Cervantes 与 Biblioteca Virtual Miguel de Cervantes 资料列出《莫雷尔的发明》《逃亡计划》《英雄的梦》。",
-          "created_at": "2026-08-20",
+          "basis_note": "WCD-06 事实边界内的作者导语改写；独立复核轨迹见 review 目录",
+          "content": "阿道夫·比奥伊·卡萨雷斯（1914—1999）是生于布宜诺斯艾利斯的阿根廷小说家、短篇作家。《莫雷尔的发明》首版年份在来源间记为 1940 或 1941，另有《逃亡计划》和《英雄的梦》。",
+          "created_at": "2026-08-31",
           "research_refs": [
             "V1-FCT-0437",
             "V1-FCT-0438",
@@ -42605,13 +42655,17 @@
             "V1-REL-0128",
             "V1-REL-0129",
             "V1-REL-0130",
-            "V1-REL-0137"
+            "V1-REL-0137",
+            "V1-REL-0300",
+            "V1-FCT-0446",
+            "V1-FCT-0449"
           ],
-          "reviewed_at": "2026-08-20",
+          "reviewed_at": "2026-08-31",
           "reviewer": "CODEX-REVIEW",
           "source_refs": [
             "SRC-0153",
-            "SRC-0154"
+            "SRC-0154",
+            "SRC-0155"
           ],
           "status": "auto_approved"
         },
@@ -42652,9 +42706,9 @@
           "status": "auto_approved"
         },
         "reader_lede": {
-          "basis_note": "SOL-AUDIT-WEB-CE-B02-B05 独立来源与表述强度复核通过",
-          "content": "奥古斯托·罗亚·巴斯托斯（1917–2005）是巴拉圭作家、记者与剧作家，CVC、作者基金会和 ASALE 资料列出《人子》《我，最高统帅》《检察官》。",
-          "created_at": "2026-08-20",
+          "basis_note": "WCD-06 事实边界内的作者导语改写；独立复核轨迹见 review 目录",
+          "content": "奥古斯托·罗亚·巴斯托斯（1917—2005）是生于亚松森的巴拉圭作家、记者和剧作家。他的小说包括《人子》（1960）、《我，最高统帅》（1974）与《检察官》（1993）。",
+          "created_at": "2026-08-31",
           "research_refs": [
             "V1-FCT-0451",
             "V1-FCT-0452",
@@ -42664,14 +42718,19 @@
             "V1-REL-0131",
             "V1-REL-0132",
             "V1-REL-0133",
-            "V1-REL-0138"
+            "V1-REL-0138",
+            "V1-FCT-0457",
+            "V1-FCT-0460",
+            "V1-FCT-0463"
           ],
-          "reviewed_at": "2026-08-20",
+          "reviewed_at": "2026-08-31",
           "reviewer": "CODEX-REVIEW",
           "source_refs": [
             "SRC-0157",
+            "SRC-0158",
             "SRC-0159",
-            "SRC-0160"
+            "SRC-0160",
+            "SRC-0161"
           ],
           "status": "auto_approved"
         },
@@ -42711,9 +42770,9 @@
           "status": "auto_approved"
         },
         "reader_lede": {
-          "basis_note": "SOL-AUDIT-WEB-CE-B02-B05 独立来源与表述强度复核通过",
-          "content": "奥拉西奥·基罗加（1878–1937）是乌拉圭作家，乌拉圭教育文化部资料列出《爱情、疯狂和死亡的故事》《丛林故事》《流放者》。",
-          "created_at": "2026-08-20",
+          "basis_note": "WCD-06 事实边界内的作者导语改写；独立复核轨迹见 review 目录",
+          "content": "奥拉西奥·基罗加（1878—1937）是生于萨尔托的乌拉圭作家。《爱情、疯狂和死亡的故事》《丛林故事》与《流放者》是这里收录的三部短篇小说集。",
+          "created_at": "2026-08-31",
           "research_refs": [
             "V1-FCT-0465",
             "V1-FCT-0466",
@@ -42723,9 +42782,12 @@
             "V1-REL-0134",
             "V1-REL-0135",
             "V1-REL-0136",
-            "V1-REL-0139"
+            "V1-REL-0139",
+            "V1-FCT-0471",
+            "V1-FCT-0474",
+            "V1-FCT-0477"
           ],
-          "reviewed_at": "2026-08-20",
+          "reviewed_at": "2026-08-31",
           "reviewer": "CODEX-REVIEW",
           "source_refs": [
             "SRC-0162",
@@ -42770,9 +42832,9 @@
           "status": "auto_approved"
         },
         "reader_lede": {
-          "basis_note": "SOL-AUDIT-WEB-CE-B02-B05 独立来源与表述强度复核通过",
-          "content": "马查多·德·阿西斯（1839–1908）是巴西作家。巴西文学院作者档案与书目列出《布拉斯·库巴斯死后的回忆》《金卡斯·博尔巴》和《堂卡斯穆罗》。",
-          "created_at": "2026-08-20",
+          "basis_note": "WCD-06 事实边界内的作者导语改写；独立复核轨迹见 review 目录",
+          "content": "马查多·德·阿西斯（1839—1908）是生于里约热内卢的巴西作家，兼写小说、诗歌与戏剧。《布拉斯·库巴斯死后的回忆》《金卡斯·博尔巴》和《堂卡斯穆罗》依次出版于 1881、1891 与 1899 年。",
+          "created_at": "2026-08-31",
           "research_refs": [
             "V1-FCT-0479",
             "V1-FCT-0480",
@@ -42782,14 +42844,17 @@
             "V1-REL-0140",
             "V1-REL-0141",
             "V1-REL-0142",
-            "V1-REL-0149"
+            "V1-REL-0149",
+            "V1-REL-0299",
+            "V1-FCT-0485",
+            "V1-FCT-0488",
+            "V1-FCT-0491"
           ],
-          "reviewed_at": "2026-08-20",
+          "reviewed_at": "2026-08-31",
           "reviewer": "CODEX-REVIEW",
           "source_refs": [
             "SRC-0165",
-            "SRC-0166",
-            "SRC-0167"
+            "SRC-0166"
           ],
           "status": "auto_approved"
         },
@@ -42830,9 +42895,9 @@
           "status": "auto_approved"
         },
         "reader_lede": {
-          "basis_note": "SOL-AUDIT-WEB-CE-B02-B05 独立来源与表述强度复核通过",
-          "content": "若昂·吉马朗埃斯·罗萨（1908–1967）是巴西作家。ABL 档案记录其出生于米纳斯吉拉斯州科尔迪斯堡，书目列出《广阔腹地：条条小径》《萨加拉纳》和《第一故事》。",
-          "created_at": "2026-08-20",
+          "basis_note": "WCD-06 事实边界内的作者导语改写；独立复核轨迹见 review 目录",
+          "content": "若昂·吉马朗埃斯·罗萨（1908—1967）是生于米纳斯吉拉斯州科尔迪斯堡的巴西作家。他的作品形态横跨短篇集《萨加拉纳》《第一故事》与长篇小说《广阔腹地：条条小径》。",
+          "created_at": "2026-08-31",
           "research_refs": [
             "V1-FCT-0493",
             "V1-FCT-0494",
@@ -42842,14 +42907,16 @@
             "V1-REL-0143",
             "V1-REL-0144",
             "V1-REL-0145",
-            "V1-REL-0150"
+            "V1-REL-0150",
+            "V1-FCT-0499",
+            "V1-FCT-0502",
+            "V1-FCT-0505"
           ],
-          "reviewed_at": "2026-08-20",
+          "reviewed_at": "2026-08-31",
           "reviewer": "CODEX-REVIEW",
           "source_refs": [
             "SRC-0168",
-            "SRC-0169",
-            "SRC-0170"
+            "SRC-0169"
           ],
           "status": "auto_approved"
         },
@@ -44688,6 +44755,24 @@
           ],
           "status": "auto_approved"
         },
+        "location_note": {
+          "basis_note": "WCD-06 低判断地点说明逐项核证；未扩张地图关系",
+          "content": "这部作品没有需要落在地图上的稳定故事地点；空间主要发生在声音与语言经验中。",
+          "created_at": "2026-08-14",
+          "research_refs": [
+            "V1-FCT-0030",
+            "V1-FCT-0031",
+            "V1-FCT-0032",
+            "V1-FCT-0034"
+          ],
+          "reviewed_at": "2026-08-31",
+          "reviewer": "CODEX-REVIEW",
+          "source_refs": [
+            "SRC-0009",
+            "SRC-0011"
+          ],
+          "status": "auto_approved"
+        },
         "next_reads": {
           "basis_note": "USER 在 rc.5 内容密度审核中明确批准",
           "content": [
@@ -44839,6 +44924,26 @@
           ],
           "reviewed_at": "2026-08-14",
           "reviewer": "USER",
+          "source_refs": [
+            "SRC-0009",
+            "SRC-0012",
+            "SRC-0085"
+          ],
+          "status": "auto_approved"
+        },
+        "location_note": {
+          "basis_note": "WCD-06 低判断地点说明逐项核证；未扩张地图关系",
+          "content": "故事发生在里约热内卢；玛卡贝娅是一名生活困窘的打字员，城市构成她日常生活的主要空间。",
+          "created_at": "2026-08-14",
+          "research_refs": [
+            "V1-FCT-0038",
+            "V1-FCT-0039",
+            "V1-FCT-0040",
+            "V1-FCT-0041",
+            "V1-FCT-0256"
+          ],
+          "reviewed_at": "2026-08-31",
+          "reviewer": "CODEX-REVIEW",
           "source_refs": [
             "SRC-0009",
             "SRC-0012",
@@ -45016,6 +45121,26 @@
           ],
           "status": "auto_approved"
         },
+        "location_note": {
+          "basis_note": "WCD-06 低判断地点说明逐项核证；未扩张地图关系",
+          "content": "伊斯特佩克是小说的核心村镇，也是叙述声音本身；地图以现实城市代表点呈现，但文学页面只讨论作品中的空间。",
+          "created_at": "2026-08-14",
+          "research_refs": [
+            "V1-FCT-0078",
+            "V1-FCT-0079",
+            "V1-FCT-0080",
+            "V1-FCT-0081",
+            "V1-REL-0032"
+          ],
+          "reviewed_at": "2026-08-31",
+          "reviewer": "CODEX-REVIEW",
+          "source_refs": [
+            "SRC-0019",
+            "SRC-0020",
+            "SRC-0071"
+          ],
+          "status": "auto_approved"
+        },
         "next_reads": {
           "basis_note": "USER 在 rc.5 内容密度审核中明确批准",
           "content": [
@@ -45184,6 +45309,24 @@
           ],
           "status": "auto_approved"
         },
+        "location_note": {
+          "basis_note": "WCD-06 低判断地点说明逐项核证；未扩张地图关系",
+          "content": "故事发生在恰帕斯村镇，白人世界与 chontal 印第安世界的张力在这里展开。",
+          "created_at": "2026-08-14",
+          "research_refs": [
+            "V1-FCT-0092",
+            "V1-FCT-0093",
+            "V1-FCT-0094",
+            "V1-REL-0033"
+          ],
+          "reviewed_at": "2026-08-31",
+          "reviewer": "CODEX-REVIEW",
+          "source_refs": [
+            "SRC-0023",
+            "SRC-0024"
+          ],
+          "status": "auto_approved"
+        },
         "next_reads": {
           "basis_note": "USER 在 rc.5 内容密度审核中明确批准",
           "content": [
@@ -45335,6 +45478,26 @@
           ],
           "reviewed_at": "2026-08-14",
           "reviewer": "USER",
+          "source_refs": [
+            "SRC-0028",
+            "SRC-0029",
+            "SRC-0084"
+          ],
+          "status": "auto_approved"
+        },
+        "location_note": {
+          "basis_note": "WCD-06 低判断地点说明逐项核证；未扩张地图关系",
+          "content": "科马拉是由小说创造的核心空间。它不使用现实同名城镇坐标，而以独立文学空间连接人物、死亡与地方历史。",
+          "created_at": "2026-08-14",
+          "research_refs": [
+            "V1-FCT-0105",
+            "V1-FCT-0106",
+            "V1-FCT-0107",
+            "V1-FCT-0108",
+            "V1-FCT-0255"
+          ],
+          "reviewed_at": "2026-08-31",
+          "reviewer": "CODEX-REVIEW",
           "source_refs": [
             "SRC-0028",
             "SRC-0029",
@@ -45505,6 +45668,27 @@
           ],
           "reviewed_at": "2026-08-14",
           "reviewer": "USER",
+          "source_refs": [
+            "SRC-0032",
+            "SRC-0056",
+            "SRC-0057",
+            "SRC-0075"
+          ],
+          "status": "auto_approved"
+        },
+        "location_note": {
+          "basis_note": "WCD-06 低判断地点说明逐项核证；未扩张地图关系",
+          "content": "马孔多是小说创造的虚构城镇，布恩迪亚—伊瓜兰家族在这里延续数代；不使用现实坐标。",
+          "created_at": "2026-08-14",
+          "research_refs": [
+            "V1-FCT-0215",
+            "V1-FCT-0216",
+            "V1-FCT-0239",
+            "V1-FCT-0240",
+            "V1-REL-0075"
+          ],
+          "reviewed_at": "2026-08-31",
+          "reviewer": "CODEX-REVIEW",
           "source_refs": [
             "SRC-0032",
             "SRC-0056",
@@ -45690,6 +45874,27 @@
           ],
           "status": "auto_approved"
         },
+        "location_note": {
+          "basis_note": "WCD-06 低判断地点说明逐项核证；未扩张地图关系",
+          "content": "故事发生在戒严中的哥伦比亚小村镇，具体地点未命名，因此不伪造地图坐标。",
+          "created_at": "2026-08-14",
+          "research_refs": [
+            "V1-FCT-0136",
+            "V1-FCT-0137",
+            "V1-FCT-0223",
+            "V1-FCT-0224",
+            "V1-FCT-0253",
+            "V1-FCT-0254"
+          ],
+          "reviewed_at": "2026-08-31",
+          "reviewer": "CODEX-REVIEW",
+          "source_refs": [
+            "SRC-0033",
+            "SRC-0064",
+            "SRC-0083"
+          ],
+          "status": "auto_approved"
+        },
         "next_reads": {
           "basis_note": "USER 在 rc.5 内容密度审核中明确批准",
           "content": [
@@ -45857,6 +46062,23 @@
           ],
           "reviewed_at": "2026-08-14",
           "reviewer": "USER",
+          "source_refs": [
+            "SRC-0034",
+            "SRC-0080"
+          ],
+          "status": "auto_approved"
+        },
+        "location_note": {
+          "basis_note": "WCD-06 低判断地点说明逐项核证；未扩张地图关系",
+          "content": "故事发生在未具名小镇；叙述者二十多年后重返此地调查圣地亚哥·纳萨尔之死，因此不指定现实坐标。",
+          "created_at": "2026-08-14",
+          "research_refs": [
+            "V1-FCT-0141",
+            "V1-FCT-0142",
+            "V1-FCT-0249"
+          ],
+          "reviewed_at": "2026-08-31",
+          "reviewer": "CODEX-REVIEW",
           "source_refs": [
             "SRC-0034",
             "SRC-0080"
@@ -46182,6 +46404,23 @@
           ],
           "status": "auto_approved"
         },
+        "location_note": {
+          "basis_note": "WCD-06 低判断地点说明逐项核证；未扩张地图关系",
+          "content": "故事核心位于海地革命的加勒比空间；当前地图没有经正式准入的海地点位，因此页面不伪造坐标。",
+          "created_at": "2026-08-14",
+          "research_refs": [
+            "V1-FCT-0155",
+            "V1-FCT-0156",
+            "V1-FCT-0228"
+          ],
+          "reviewed_at": "2026-08-31",
+          "reviewer": "CODEX-REVIEW",
+          "source_refs": [
+            "SRC-0041",
+            "SRC-0072"
+          ],
+          "status": "auto_approved"
+        },
         "next_reads": {
           "basis_note": "USER 在 rc.5 内容密度审核中明确批准",
           "content": [
@@ -46484,6 +46723,26 @@
           ],
           "reviewed_at": "2026-08-14",
           "reviewer": "USER",
+          "source_refs": [
+            "SRC-0043",
+            "SRC-0086"
+          ],
+          "status": "auto_approved"
+        },
+        "location_note": {
+          "basis_note": "WCD-06 低判断地点说明逐项核证；未扩张地图关系",
+          "content": "故事跨越十八世纪末的古巴、加勒比海与瓜德罗普；只作区域说明，不生成精确地图点。",
+          "created_at": "2026-08-14",
+          "research_refs": [
+            "V1-FCT-0162",
+            "V1-FCT-0163",
+            "V1-FCT-0164",
+            "V1-FCT-0257",
+            "V1-FCT-0258",
+            "V1-FCT-0259"
+          ],
+          "reviewed_at": "2026-08-31",
+          "reviewer": "CODEX-REVIEW",
           "source_refs": [
             "SRC-0043",
             "SRC-0086"
@@ -46835,6 +47094,24 @@
           ],
           "status": "auto_approved"
         },
+        "location_note": {
+          "basis_note": "WCD-06 低判断地点说明逐项核证；未扩张地图关系",
+          "content": "故事以利马及“大教堂”酒吧的谈话为轴。当前正式地图关系只支持作者与利马，不据此新增作品地点坐标。",
+          "created_at": "2026-08-14",
+          "research_refs": [
+            "V1-FCT-0191",
+            "V1-FCT-0246",
+            "V1-FCT-0247",
+            "V1-FCT-0248"
+          ],
+          "reviewed_at": "2026-08-31",
+          "reviewer": "CODEX-REVIEW",
+          "source_refs": [
+            "SRC-0045",
+            "SRC-0078"
+          ],
+          "status": "auto_approved"
+        },
         "next_reads": {
           "basis_note": "USER 在 rc.5 内容密度审核中明确批准",
           "content": [
@@ -46986,6 +47263,26 @@
           ],
           "reviewed_at": "2026-08-14",
           "reviewer": "USER",
+          "source_refs": [
+            "SRC-0046",
+            "SRC-0063",
+            "SRC-0081"
+          ],
+          "status": "auto_approved"
+        },
+        "location_note": {
+          "basis_note": "WCD-06 低判断地点说明逐项核证；未扩张地图关系",
+          "content": "故事围绕巴西巴伊亚腹地卡努杜斯展开；现有地图尚无正式巴西内陆地点节点，因此只作区域说明。",
+          "created_at": "2026-08-14",
+          "research_refs": [
+            "V1-FCT-0195",
+            "V1-FCT-0196",
+            "V1-FCT-0197",
+            "V1-FCT-0250",
+            "V1-REL-0076"
+          ],
+          "reviewed_at": "2026-08-31",
+          "reviewer": "CODEX-REVIEW",
           "source_refs": [
             "SRC-0046",
             "SRC-0063",
@@ -50324,6 +50621,113 @@
       },
       {
         "target_id": "V1-ENT-0369"
+      },
+      {
+        "location_note": {
+          "basis_note": "WCD-06 核心零内容对象最小描述补齐；仅使用已准入对象级素材",
+          "content": "空间集中在城市与家庭场景；现有资料未提供可稳定映射到单一坐标的作品地点。",
+          "created_at": "2026-08-31",
+          "research_refs": [
+            "V1-FCT-0045"
+          ],
+          "reviewed_at": "2026-08-31",
+          "reviewer": "CODEX-REVIEW",
+          "source_refs": [
+            "SRC-0009"
+          ],
+          "status": "auto_approved"
+        },
+        "narrative_features": {
+          "basis_note": "WCD-06 核心零内容对象最小描述补齐；仅使用已准入对象级素材",
+          "content": [
+            "以城市与家庭日常作为人物内心生活的入口",
+            "围绕沉默、姿态与关系中的揭示时刻展开"
+          ],
+          "created_at": "2026-08-31",
+          "research_refs": [
+            "V1-FCT-0045"
+          ],
+          "reviewed_at": "2026-08-31",
+          "reviewer": "CODEX-REVIEW",
+          "source_refs": [
+            "SRC-0009"
+          ],
+          "status": "auto_approved"
+        },
+        "story_intro": {
+          "basis_note": "WCD-06 核心零内容对象最小描述补齐；仅使用已准入对象级素材",
+          "content": "《家庭纽带》（1960）是一部由 13 篇作品组成的短篇集，从城市与家庭场景切入人物的内心生活、家庭关系、沉默、姿态与突然显露的时刻。",
+          "created_at": "2026-08-31",
+          "research_refs": [
+            "V1-FCT-0042",
+            "V1-FCT-0043",
+            "V1-FCT-0044",
+            "V1-FCT-0045",
+            "V1-REL-0007"
+          ],
+          "reviewed_at": "2026-08-31",
+          "reviewer": "CODEX-REVIEW",
+          "source_refs": [
+            "SRC-0009"
+          ],
+          "status": "auto_approved"
+        },
+        "target_id": "V1-ENT-0019"
+      },
+      {
+        "location_note": {
+          "basis_note": "WCD-06 核心零内容对象最小描述补齐；仅使用已准入对象级素材",
+          "content": "故事空间明确落在墨西哥城，城市日常与不同社会阶层共同构成作品的叙事场域。",
+          "created_at": "2026-08-31",
+          "research_refs": [
+            "V1-FCT-0266",
+            "V1-FCT-0267"
+          ],
+          "reviewed_at": "2026-08-31",
+          "reviewer": "CODEX-REVIEW",
+          "source_refs": [
+            "SRC-0087",
+            "SRC-0088"
+          ],
+          "status": "auto_approved"
+        },
+        "narrative_features": {
+          "basis_note": "WCD-06 核心零内容对象最小描述补齐；仅使用已准入对象级素材",
+          "content": [
+            "多重人物声音并置",
+            "以社会群像构成不断移动的墨西哥城图景"
+          ],
+          "created_at": "2026-08-31",
+          "research_refs": [
+            "V1-FCT-0268"
+          ],
+          "reviewed_at": "2026-08-31",
+          "reviewer": "CODEX-REVIEW",
+          "source_refs": [
+            "SRC-0087",
+            "SRC-0088"
+          ],
+          "status": "auto_approved"
+        },
+        "story_intro": {
+          "basis_note": "WCD-06 核心零内容对象最小描述补齐；仅使用已准入对象级素材",
+          "content": "《最明净的地区》（1958）以多个人物和社会阶层的声音拼合二十世纪中叶的墨西哥城，在城市日常中追问革命后的社会结构与身份。",
+          "created_at": "2026-08-31",
+          "research_refs": [
+            "V1-FCT-0264",
+            "V1-FCT-0265",
+            "V1-FCT-0266",
+            "V1-REL-0077"
+          ],
+          "reviewed_at": "2026-08-31",
+          "reviewer": "CODEX-REVIEW",
+          "source_refs": [
+            "SRC-0087",
+            "SRC-0088"
+          ],
+          "status": "auto_approved"
+        },
+        "target_id": "V1-ENT-0146"
       }
     ]
   },
@@ -61735,24 +62139,6 @@
           ],
           "status": "user_review"
         },
-        "location_note": {
-          "basis_note": "新增长篇公共文案，等待 USER 集中审核",
-          "content": "这部作品没有需要落在地图上的稳定故事地点；空间主要发生在声音与语言经验中。",
-          "created_at": "2026-08-14",
-          "research_refs": [
-            "V1-FCT-0030",
-            "V1-FCT-0031",
-            "V1-FCT-0032",
-            "V1-FCT-0034"
-          ],
-          "reviewed_at": null,
-          "reviewer": "UNREVIEWED",
-          "source_refs": [
-            "SRC-0009",
-            "SRC-0011"
-          ],
-          "status": "user_review"
-        },
         "narrative_features": {
           "basis_note": "新增长篇公共文案，等待 USER 集中审核",
           "content": [
@@ -61808,26 +62194,6 @@
         "literary_significance": {
           "basis_note": "文学意义含价值判断",
           "content": "玛卡贝娅的日常和罗德里戈对写作的反思并行，谁有权讲述成为结构问题。",
-          "created_at": "2026-08-14",
-          "research_refs": [
-            "V1-FCT-0038",
-            "V1-FCT-0039",
-            "V1-FCT-0040",
-            "V1-FCT-0041",
-            "V1-FCT-0256"
-          ],
-          "reviewed_at": null,
-          "reviewer": "UNREVIEWED",
-          "source_refs": [
-            "SRC-0009",
-            "SRC-0012",
-            "SRC-0085"
-          ],
-          "status": "user_review"
-        },
-        "location_note": {
-          "basis_note": "新增长篇公共文案，等待 USER 集中审核",
-          "content": "故事发生在里约热内卢；城市既提供工作与消费想象，也放大迁移者的孤独和社会不可见。",
           "created_at": "2026-08-14",
           "research_refs": [
             "V1-FCT-0038",
@@ -61917,26 +62283,6 @@
           ],
           "status": "user_review"
         },
-        "location_note": {
-          "basis_note": "新增长篇公共文案，等待 USER 集中审核",
-          "content": "伊斯特佩克是小说的核心村镇，也是叙述声音本身；地图以现实城市代表点呈现，但文学页面只讨论作品中的空间。",
-          "created_at": "2026-08-14",
-          "research_refs": [
-            "V1-FCT-0078",
-            "V1-FCT-0079",
-            "V1-FCT-0080",
-            "V1-FCT-0081",
-            "V1-REL-0032"
-          ],
-          "reviewed_at": null,
-          "reviewer": "UNREVIEWED",
-          "source_refs": [
-            "SRC-0019",
-            "SRC-0020",
-            "SRC-0071"
-          ],
-          "status": "user_review"
-        },
         "narrative_features": {
           "basis_note": "新增长篇公共文案，等待 USER 集中审核",
           "content": [
@@ -61992,24 +62338,6 @@
         "literary_significance": {
           "basis_note": "文学意义含价值判断",
           "content": "局部、有限的目光使读者从家庭关系逐渐察觉土地和族群秩序。",
-          "created_at": "2026-08-14",
-          "research_refs": [
-            "V1-FCT-0092",
-            "V1-FCT-0093",
-            "V1-FCT-0094",
-            "V1-REL-0033"
-          ],
-          "reviewed_at": null,
-          "reviewer": "UNREVIEWED",
-          "source_refs": [
-            "SRC-0023",
-            "SRC-0024"
-          ],
-          "status": "user_review"
-        },
-        "location_note": {
-          "basis_note": "新增长篇公共文案，等待 USER 集中审核",
-          "content": "故事发生在恰帕斯村镇与庄园空间；这里不是地方风景，而是土地关系、家庭秩序与族群冲突的现场。",
           "created_at": "2026-08-14",
           "research_refs": [
             "V1-FCT-0092",
@@ -62093,26 +62421,6 @@
           ],
           "status": "user_review"
         },
-        "location_note": {
-          "basis_note": "新增长篇公共文案，等待 USER 集中审核",
-          "content": "科马拉是由小说创造的核心空间。它不使用现实同名城镇坐标，而以独立文学空间连接人物、死亡与地方历史。",
-          "created_at": "2026-08-14",
-          "research_refs": [
-            "V1-FCT-0105",
-            "V1-FCT-0106",
-            "V1-FCT-0107",
-            "V1-FCT-0108",
-            "V1-FCT-0255"
-          ],
-          "reviewed_at": null,
-          "reviewer": "UNREVIEWED",
-          "source_refs": [
-            "SRC-0028",
-            "SRC-0029",
-            "SRC-0084"
-          ],
-          "status": "user_review"
-        },
         "narrative_features": {
           "basis_note": "新增长篇公共文案，等待 USER 集中审核",
           "content": [
@@ -62172,27 +62480,6 @@
         "literary_significance": {
           "basis_note": "文学意义含价值判断",
           "content": "名字、行为与孤独反复出现，使一百年不是直线编年，而是不断变奏的回返。",
-          "created_at": "2026-08-14",
-          "research_refs": [
-            "V1-FCT-0215",
-            "V1-FCT-0216",
-            "V1-FCT-0239",
-            "V1-FCT-0240",
-            "V1-REL-0075"
-          ],
-          "reviewed_at": null,
-          "reviewer": "UNREVIEWED",
-          "source_refs": [
-            "SRC-0032",
-            "SRC-0056",
-            "SRC-0057",
-            "SRC-0075"
-          ],
-          "status": "user_review"
-        },
-        "location_note": {
-          "basis_note": "新增长篇公共文案，等待 USER 集中审核",
-          "content": "马孔多是文学虚构空间，不使用现实坐标。它由家族居所扩展成一座能够容纳历史、神话与现代化的城市。",
           "created_at": "2026-08-14",
           "research_refs": [
             "V1-FCT-0215",
@@ -62290,27 +62577,6 @@
           ],
           "status": "user_review"
         },
-        "location_note": {
-          "basis_note": "新增长篇公共文案，等待 USER 集中审核",
-          "content": "故事发生在戒严中的哥伦比亚小村镇，具体地点未命名，因此不伪造地图坐标。",
-          "created_at": "2026-08-14",
-          "research_refs": [
-            "V1-FCT-0136",
-            "V1-FCT-0137",
-            "V1-FCT-0223",
-            "V1-FCT-0224",
-            "V1-FCT-0253",
-            "V1-FCT-0254"
-          ],
-          "reviewed_at": null,
-          "reviewer": "UNREVIEWED",
-          "source_refs": [
-            "SRC-0033",
-            "SRC-0064",
-            "SRC-0083"
-          ],
-          "status": "user_review"
-        },
         "narrative_features": {
           "basis_note": "新增长篇公共文案，等待 USER 集中审核",
           "content": [
@@ -62368,23 +62634,6 @@
         "literary_significance": {
           "basis_note": "文学意义含价值判断",
           "content": "死亡先被公布，叙事再以回访和证词拼合原因。",
-          "created_at": "2026-08-14",
-          "research_refs": [
-            "V1-FCT-0141",
-            "V1-FCT-0142",
-            "V1-FCT-0249"
-          ],
-          "reviewed_at": null,
-          "reviewer": "UNREVIEWED",
-          "source_refs": [
-            "SRC-0034",
-            "SRC-0080"
-          ],
-          "status": "user_review"
-        },
-        "location_note": {
-          "basis_note": "新增长篇公共文案，等待 USER 集中审核",
-          "content": "故事发生在未具名的加勒比小镇；其文学意义来自共同体关系，不应为方便展示而指定现实坐标。",
           "created_at": "2026-08-14",
           "research_refs": [
             "V1-FCT-0141",
@@ -62558,23 +62807,6 @@
           ],
           "status": "user_review"
         },
-        "location_note": {
-          "basis_note": "新增长篇公共文案，等待 USER 集中审核",
-          "content": "故事核心位于海地革命的加勒比空间；当前地图没有经正式准入的海地点位，因此页面不伪造坐标。",
-          "created_at": "2026-08-14",
-          "research_refs": [
-            "V1-FCT-0155",
-            "V1-FCT-0156",
-            "V1-FCT-0228"
-          ],
-          "reviewed_at": null,
-          "reviewer": "UNREVIEWED",
-          "source_refs": [
-            "SRC-0041",
-            "SRC-0072"
-          ],
-          "status": "user_review"
-        },
         "narrative_features": {
           "basis_note": "新增长篇公共文案，等待 USER 集中审核",
           "content": [
@@ -62712,26 +62944,6 @@
         "literary_significance": {
           "basis_note": "文学意义含价值判断",
           "content": "艺术品和视觉描写反复出现，使不同观看制度成为理解现代性的线索。",
-          "created_at": "2026-08-14",
-          "research_refs": [
-            "V1-FCT-0162",
-            "V1-FCT-0163",
-            "V1-FCT-0164",
-            "V1-FCT-0257",
-            "V1-FCT-0258",
-            "V1-FCT-0259"
-          ],
-          "reviewed_at": null,
-          "reviewer": "UNREVIEWED",
-          "source_refs": [
-            "SRC-0043",
-            "SRC-0086"
-          ],
-          "status": "user_review"
-        },
-        "location_note": {
-          "basis_note": "新增长篇公共文案，等待 USER 集中审核",
-          "content": "故事跨越十八世纪末的古巴、加勒比海与瓜德罗普；只作区域说明，不生成精确地图点。",
           "created_at": "2026-08-14",
           "research_refs": [
             "V1-FCT-0162",
@@ -62915,24 +63127,6 @@
           ],
           "status": "user_review"
         },
-        "location_note": {
-          "basis_note": "新增长篇公共文案，等待 USER 集中审核",
-          "content": "故事以利马及“大教堂”酒吧的谈话为轴。当前正式地图关系只支持作者与利马，不据此新增作品地点坐标。",
-          "created_at": "2026-08-14",
-          "research_refs": [
-            "V1-FCT-0191",
-            "V1-FCT-0246",
-            "V1-FCT-0247",
-            "V1-FCT-0248"
-          ],
-          "reviewed_at": null,
-          "reviewer": "UNREVIEWED",
-          "source_refs": [
-            "SRC-0045",
-            "SRC-0078"
-          ],
-          "status": "user_review"
-        },
         "narrative_features": {
           "basis_note": "新增长篇公共文案，等待 USER 集中审核",
           "content": [
@@ -62984,26 +63178,6 @@
         "literary_significance": {
           "basis_note": "文学意义含价值判断",
           "content": "人物群与视角彼此冲突，战争无法被单一解释收束。",
-          "created_at": "2026-08-14",
-          "research_refs": [
-            "V1-FCT-0195",
-            "V1-FCT-0196",
-            "V1-FCT-0197",
-            "V1-FCT-0250",
-            "V1-REL-0076"
-          ],
-          "reviewed_at": null,
-          "reviewer": "UNREVIEWED",
-          "source_refs": [
-            "SRC-0046",
-            "SRC-0063",
-            "SRC-0081"
-          ],
-          "status": "user_review"
-        },
-        "location_note": {
-          "basis_note": "新增长篇公共文案，等待 USER 集中审核",
-          "content": "故事围绕巴西巴伊亚腹地卡努杜斯展开；现有地图尚无正式巴西内陆地点节点，因此只作区域说明。",
           "created_at": "2026-08-14",
           "research_refs": [
             "V1-FCT-0195",
@@ -84101,6 +84275,7 @@
       "V1-ENT-0004",
       "V1-ENT-0017",
       "V1-ENT-0018",
+      "V1-ENT-0019",
       "V1-ENT-0032",
       "V1-ENT-0035",
       "V1-ENT-0038",
@@ -84114,6 +84289,7 @@
       "V1-ENT-0116",
       "V1-ENT-0117",
       "V1-ENT-0118",
+      "V1-ENT-0146",
       "V1-ENT-0149",
       "V1-ENT-0150",
       "V1-ENT-0151",
@@ -84599,11 +84775,11 @@
         "target_id": "V1-ENT-0059"
       },
       {
-        "reader_lede": "米格尔·安赫尔·阿斯图里亚斯（1899—1974）是危地马拉作家、小说家。可以从《危地马拉传说》、《总统先生》、《玉米人》开始阅读。",
+        "reader_lede": "米格尔·安赫尔·阿斯图里亚斯（1899—1974）是危地马拉作家、小说家。他的创作时间线从《危地马拉传说》（1930）延伸到《总统先生》（1946）与《玉米人》（1949）。",
         "target_id": "V1-ENT-0170"
       },
       {
-        "reader_lede": "伊莎贝尔·阿连德（生于 1942 年）是智利作家。可以从《幽灵之家》、《爱情与阴影》、《伊娃·露娜》开始阅读。",
+        "reader_lede": "伊莎贝尔·阿连德 1942 年生于秘鲁利马，是智利作家。《幽灵之家》（1982）、《爱情与阴影》（1984）与《伊娃·露娜》（1987）构成这里可循的早期创作线索。",
         "target_id": "V1-ENT-0171"
       },
       {
@@ -84611,7 +84787,7 @@
         "target_id": "V1-ENT-0172"
       },
       {
-        "reader_lede": "胡安·卡洛斯·奥内蒂（1909—1994）是乌拉圭作家。可以从《短暂的生命》、《告别》、《造船厂》开始阅读。",
+        "reader_lede": "胡安·卡洛斯·奥内蒂（1909—1994）是生于蒙得维的亚的乌拉圭作家。《短暂的生命》（1950）、《告别》（1954）与《造船厂》（1961）呈现了他的小说创作序列。",
         "target_id": "V1-ENT-0184"
       },
       {
@@ -84619,11 +84795,11 @@
         "target_id": "V1-ENT-0185"
       },
       {
-        "reader_lede": "埃内斯托·萨瓦托（1911—2011）是阿根廷作家、画家；受过物理学训练并曾任教。可以从《隧道》、《英雄与坟墓》、《毁灭者亚巴顿》开始阅读。",
+        "reader_lede": "埃内斯托·萨瓦托（1911—2011）是阿根廷作家、画家，受过物理学训练并曾任教。他生于布宜诺斯艾利斯省罗哈斯，著有《隧道》《英雄与坟墓》和《毁灭者亚巴顿》。",
         "target_id": "V1-ENT-0186"
       },
       {
-        "reader_lede": "阿道夫·比奥伊·卡萨雷斯（1914—1999）是阿根廷作家，主要写作小说与短篇。可以从《莫雷尔的发明》、《逃亡计划》、《英雄的梦》开始阅读。",
+        "reader_lede": "阿道夫·比奥伊·卡萨雷斯（1914—1999）是生于布宜诺斯艾利斯的阿根廷小说家、短篇作家。《莫雷尔的发明》首版年份在来源间记为 1940 或 1941，另有《逃亡计划》和《英雄的梦》。",
         "target_id": "V1-ENT-0198"
       },
       {
@@ -84633,7 +84809,7 @@
             "title": "作品时间线"
           }
         ],
-        "reader_lede": "奥古斯托·罗亚·巴斯托斯（1917—2005）是巴拉圭作家、记者、剧作家。可以从《人子》、《我，最高统帅》、《检察官》开始阅读。",
+        "reader_lede": "奥古斯托·罗亚·巴斯托斯（1917—2005）是生于亚松森的巴拉圭作家、记者和剧作家。他的小说包括《人子》（1960）、《我，最高统帅》（1974）与《检察官》（1993）。",
         "target_id": "V1-ENT-0199"
       },
       {
@@ -84643,15 +84819,15 @@
             "title": "短篇书目"
           }
         ],
-        "reader_lede": "奥拉西奥·基罗加（1878—1937）是乌拉圭作家。可以从《爱情、疯狂和死亡的故事》、《丛林故事》、《流放者》开始阅读。",
+        "reader_lede": "奥拉西奥·基罗加（1878—1937）是生于萨尔托的乌拉圭作家。《爱情、疯狂和死亡的故事》《丛林故事》与《流放者》是这里收录的三部短篇小说集。",
         "target_id": "V1-ENT-0200"
       },
       {
-        "reader_lede": "马查多·德·阿西斯（1839—1908）是巴西作家（小说家、诗人、剧作家等）。可以从《布拉斯·库巴斯死后的回忆》、《金卡斯·博尔巴》、《堂卡斯穆罗》开始阅读。",
+        "reader_lede": "马查多·德·阿西斯（1839—1908）是生于里约热内卢的巴西作家，兼写小说、诗歌与戏剧。《布拉斯·库巴斯死后的回忆》《金卡斯·博尔巴》和《堂卡斯穆罗》依次出版于 1881、1891 与 1899 年。",
         "target_id": "V1-ENT-0211"
       },
       {
-        "reader_lede": "若昂·吉马朗埃斯·罗萨（1908—1967）是巴西作家。可以从《萨加拉纳》、《广阔腹地：条条小径》、《第一故事》开始阅读。",
+        "reader_lede": "若昂·吉马朗埃斯·罗萨（1908—1967）是生于米纳斯吉拉斯州科尔迪斯堡的巴西作家。他的作品形态横跨短篇集《萨加拉纳》《第一故事》与长篇小说《广阔腹地：条条小径》。",
         "target_id": "V1-ENT-0212"
       },
       {
@@ -84878,6 +85054,7 @@
       },
       {
         "guiding_question": "语言真的能够抓住“正在发生的现在”吗？",
+        "location_note": "这部作品没有需要落在地图上的稳定故事地点；空间主要发生在声音与语言经验中。",
         "next_reads": [
           {
             "reason": "转向更清楚的人物与城市情境，继续看叙述者如何面对他者。",
@@ -84916,6 +85093,7 @@
       },
       {
         "guiding_question": "谁有权替一个在社会中几乎没有声音的人说话？",
+        "location_note": "故事发生在里约热内卢；玛卡贝娅是一名生活困窘的打字员，城市构成她日常生活的主要空间。",
         "next_reads": [
           {
             "reason": "回到更纯粹的声音实验，理解李斯佩克朵的语言边界。",
@@ -84992,6 +85170,7 @@
       },
       {
         "guiding_question": "语言上的不平等如何变成社会上的不平等？",
+        "location_note": "故事发生在恰帕斯村镇，白人世界与 chontal 印第安世界的张力在这里展开。",
         "next_reads": [
           {
             "reason": "继续比较墨西哥村镇如何保存暴力与共同体记忆。",
@@ -85030,6 +85209,7 @@
       },
       {
         "guiding_question": "为什么一座已经荒芜的村镇仍然充满声音？",
+        "location_note": "科马拉是由小说创造的核心空间。它不使用现实同名城镇坐标，而以独立文学空间连接人物、死亡与地方历史。",
         "next_reads": [
           {
             "reason": "从科马拉走向马孔多，比较虚构村镇如何组织家族、死亡与时间。",
@@ -85068,6 +85248,7 @@
       },
       {
         "guiding_question": "家族为什么总在重复上一代已经经历过的事情？",
+        "location_note": "马孔多是小说创造的虚构城镇，布恩迪亚—伊瓜兰家族在这里延续数代；不使用现实坐标。",
         "next_reads": [
           {
             "reason": "回到同一作家更短、更克制的等待故事。",
@@ -85106,6 +85287,7 @@
       },
       {
         "guiding_question": "尊严在什么情况下会变成一种奢侈，又为什么仍然值得坚持？",
+        "location_note": "故事发生在戒严中的哥伦比亚小村镇，具体地点未命名，因此不伪造地图坐标。",
         "next_reads": [
           {
             "reason": "继续阅读等待、传闻和共同体沉默如何推动悲剧。",
@@ -85144,6 +85326,7 @@
       },
       {
         "guiding_question": "当所有人都只承担一点点责任时，悲剧最终属于谁？",
+        "location_note": "故事发生在未具名小镇；叙述者二十多年后重返此地调查圣地亚哥·纳萨尔之死，因此不指定现实坐标。",
         "next_reads": [
           {
             "reason": "比较迟到的国家答复与迟到的集体行动如何制造漫长无力感。",
@@ -85296,6 +85479,7 @@
       },
       {
         "guiding_question": "一种解放性的观念，如何在传播过程中同时携带暴力？",
+        "location_note": "故事跨越十八世纪末的古巴、加勒比海与瓜德罗普；只作区域说明，不生成精确地图点。",
         "next_reads": [
           {
             "reason": "回到海地革命，比较两部作品如何处理革命后的权力循环。",
@@ -85733,6 +85917,26 @@
         "reading_premise": "《苦闷》由格拉西利亚诺·拉莫斯创作，出版于 1936 年。",
         "story_intro": "《苦闷》由格拉西利亚诺·拉莫斯创作，出版于 1936 年。",
         "target_id": "V1-ENT-0222"
+      },
+      {
+        "location_note": "空间集中在城市与家庭场景；现有资料未提供可稳定映射到单一坐标的作品地点。",
+        "narrative_features": [
+          "以城市与家庭日常作为人物内心生活的入口",
+          "围绕沉默、姿态与关系中的揭示时刻展开"
+        ],
+        "reading_premise": "《家庭纽带》（1960）是一部由 13 篇作品组成的短篇集，从城市与家庭场景切入人物的内心生活、家庭关系、沉默、姿态与突然显露的时刻。",
+        "story_intro": "《家庭纽带》（1960）是一部由 13 篇作品组成的短篇集，从城市与家庭场景切入人物的内心生活、家庭关系、沉默、姿态与突然显露的时刻。",
+        "target_id": "V1-ENT-0019"
+      },
+      {
+        "location_note": "故事空间明确落在墨西哥城，城市日常与不同社会阶层共同构成作品的叙事场域。",
+        "narrative_features": [
+          "多重人物声音并置",
+          "以社会群像构成不断移动的墨西哥城图景"
+        ],
+        "reading_premise": "《最明净的地区》（1958）以多个人物和社会阶层的声音拼合二十世纪中叶的墨西哥城，在城市日常中追问革命后的社会结构与身份。",
+        "story_intro": "《最明净的地区》（1958）以多个人物和社会阶层的声音拼合二十世纪中叶的墨西哥城，在城市日常中追问革命后的社会结构与身份。",
+        "target_id": "V1-ENT-0146"
       }
     ]
   },
@@ -158394,7 +158598,8 @@
       "public_route": "authors/clarice-lispector-v1-ent-0016/",
       "related_ids": [
         "V1-ENT-0017",
-        "V1-ENT-0018"
+        "V1-ENT-0018",
+        "V1-ENT-0019"
       ],
       "search_text": "克拉丽丝·李斯佩克朵 Clarice Lispector 克拉丽丝·李斯佩克朵 巴西 1920-1977",
       "target_id": "V1-ENT-0016",
@@ -158423,6 +158628,17 @@
       "search_text": "《星辰时刻》 A hora da estrela 《星辰时刻》 巴西 1977",
       "target_id": "V1-ENT-0018",
       "target_type": "work"
+    },
+    {
+      "name_zh": "《家庭纽带》",
+      "original_name": "Laços de família",
+      "public_route": "works/lacos-de-familia-v1-ent-0019/",
+      "related_ids": [
+        "V1-ENT-0016"
+      ],
+      "search_text": "《家庭纽带》 Laços de família 《家庭纽带》 巴西 1960",
+      "target_id": "V1-ENT-0019",
+      "target_type": "collection"
     },
     {
       "name_zh": "里约热内卢",
@@ -158585,6 +158801,7 @@
       "public_route": "places/ciudad-de-mexico-v1-ent-0056/",
       "related_ids": [
         "V1-ENT-0059",
+        "V1-ENT-0146",
         "V1-ENT-0169"
       ],
       "search_text": "墨西哥城 Ciudad de México",
@@ -159005,11 +159222,24 @@
       "original_name": "Carlos Fuentes",
       "public_route": "authors/carlos-fuentes-v1-ent-0145/",
       "related_ids": [
+        "V1-ENT-0146",
         "V1-ENT-0169"
       ],
       "search_text": "卡洛斯·富恩特斯 Carlos Fuentes 卡洛斯·富恩特斯 墨西哥 1928-2012",
       "target_id": "V1-ENT-0145",
       "target_type": "author"
+    },
+    {
+      "name_zh": "《最明净的地区》",
+      "original_name": "La región más transparente",
+      "public_route": "works/la-region-mas-transparente-v1-ent-0146/",
+      "related_ids": [
+        "V1-ENT-0056",
+        "V1-ENT-0145"
+      ],
+      "search_text": "《最明净的地区》 La región más transparente 《最明净的地区》 墨西哥 1958",
+      "target_id": "V1-ENT-0146",
+      "target_type": "work"
     },
     {
       "name_zh": "加夫列拉·米斯特拉尔",

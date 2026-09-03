@@ -34,11 +34,11 @@
 
 | 内容 | 数量 |
 | --- | ---: |
-| 规范实体 | 371 |
-| 研究事实 | 998 |
-| 实体关系 | 306 |
-| 来源记录 | 288 |
-| 内容卡 | 255 |
+| 规范实体 | 377 |
+| 研究事实 | 1027 |
+| 实体关系 | 334 |
+| 来源记录 | 314 |
+| 内容卡 | 261 |
 | 开发预览中的作者 | 61 |
 | 开发预览中的作品 / 合集 | 168 |
 
@@ -71,8 +71,8 @@ Map / Timeline / Pages / Search
 项目已完成第一阶段研究数据库建设，目前处于持续扩充与数字展览开发阶段。
 
 - **正式 Research Data Release**：`Data V1.0.0`，保留为已发布的历史基线；
-- **当前 Development Data**：`Data 1.3.1 development candidate`，WCD-03 已完成中文展示名治理；
-- **当前 Web Development**：`Web 0.3.1 Development`，已将核验后的中文作家名与作品名投影到地图、时间线、搜索和页面；
+- **当前 Development Data**：`Data 1.5.0 development candidate`，WCD-07 已完成 6 个 P0 重要作品/合集的研究补全与来源治理；
+- **当前 Web Development**：`Web 0.3.4 Development`，Research layer 当前投影为 377 entities / 1027 facts / 334 relationships / 314 sources / 261 content cards；公开 reader scope 未扩张；
 - **公开状态**：GitHub Pages 提供开发预览，正式 Public Release 仍暂停，预览不等同于正式研究数据发布。
 
 详细变更见 [CHANGELOG](./CHANGELOG.md) 和 [版本文档](./docs/releases)。

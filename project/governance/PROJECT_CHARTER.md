@@ -1,9 +1,9 @@
 # 拉丁美洲文学地图：项目总章程
 
 - 文件 ID：`LALM-PROJECT-CHARTER`
-- 章程版本：`1.6.0`
+- 章程版本：`1.7.0`
 - 冻结日期：`2026-08-04`
-- 最近修订：`2026-08-17`（用户明确将 V1 / V2 / V3 重申为项目阶段编号，将网站产品基线调整为 Web 0.1.0，并暂停正式公开发布 Gate；本次仅作相关最小增量修订）
+- 最近修订：`2026-09-03`（用户明确要求每个完成 PR 或重大进展同步治理文件，并按变更性质管理 Web 版本；本次仅作相关最小增量修订）
 - 所有者与最终批准人：`USER`
 - 状态：`FROZEN / 用户锁定`
 - 适用范围：本项目全部版本、全部 AI、全部外部任务包和全部后续开发
@@ -45,7 +45,7 @@
 
 本章程中的 `V1 / V2 / V3` 是项目阶段编号，不是网站软件语义版本号：`V1` 是研究数据库建设阶段，`V2` 是网站 / 数字文学展览建设阶段，`V3` 是后续高级能力扩展阶段。三者不得与 Research Data 版本或 Web Product 版本混用。
 
-Research Data 继续使用既有独立版本体系（如 `Data V1.0.0`、`Data V1.0.1`、`Data V1.1.0`，具体文件命名保持与主数据库和导出体系兼容），不得因网站版本重基线而重写历史。Web Product 自本次修订起以 `Web 0.1.0` 为当前开发基线，并按 `0.1.x → 0.2.0 → 0.3.0 → …` 演进；只有 USER 明确重新开启并批准 Public Release Gate 后，方可使用 `Web 1.0.0`。
+Research Data 继续使用既有独立版本体系（如 `Data V1.0.0`、`Data V1.0.1`、`Data V1.1.0`，具体文件命名保持与主数据库和导出体系兼容），不得因网站版本重基线而重写历史。Web Product 自本次修订起以 `Web 0.1.0` 为当前开发基线，并按语义版本演进：仅治理、文档、构建/验证、修复或 Research-only 投影变化且没有新的 reader-facing 公共内容时，使用 patch 增量（`0.1.x → 0.1.(x+1)`）；新增读者可见公共内容、公共页面类型或实质产品能力时，使用 minor 增量（`0.1.x → 0.2.0`）；破坏既有公共契约或 USER 明确开启并批准 Public Release 时才考虑 major。Research Data、Research Schema 与 Web Data schema 独立编号，不因 Web Product 版本自动升级。只有 USER 明确重新开启并批准 Public Release Gate 后，方可使用 `Web 1.0.0`。每个完成的 GitHub PR 或重大项目进展，必须同步更新任务源、项目决策记录、CHANGELOG、README 以及当前网站版本和受影响的 Web 元数据。
 
 ### 3.1 V1：研究内容数据库
 
@@ -469,6 +469,8 @@ V2 正式节点纳入本章程：
 
 #### 本次章程修订依据
 
+本次 `1.7.0` 修订是一次必要、最小范围的版本治理调整：在保留 `1.6.0` 阶段编号、Research/Web 分层和 Public Release 暂停结论的基础上，明确每个完成 PR 或重大进展的治理同步义务，并将 Web 开发期的 patch/minor/major 判定与“是否新增 reader-facing 内容或实质能力”绑定。WCD-07 的当前 Web 修订为 `0.3.4 Development`，仅表示合并后的治理/元数据同步补丁，不改变公开 reader scope；Research、Schema、P1 disposition、Public Release 和 WCD-08 边界均不变。依据 USER 于 2026-09-03 对本次 `project/governance/PROJECT_CHARTER.md` 修改范围的明确授权；独立提案见 `project/governance/章程修改提案_2026-09-02_治理同步与Web版本规则.md`。
+
 本次 `1.6.0` 修订是一次必要、最小范围的版本治理调整：仅明确项目阶段、Research Data 与 Web Product 三套编号的边界，将当前网站产品基线设为 `Web 0.1.0`，并暂停正式公开发布流程。rc.1—rc.5 及既有 V2-N4 记录作为历史开发与审计记录保留。本次修订完整保留 V1 已完成阶段、SQLite 单一主数据、Research / Curation 分离、来源与证据标准、地图规则、版权规则、USER 审核权限、GitHub 纪律、前端不得修改研究事实和其他既有治理原则；依据 USER 于 2026-08-17 对本次 `project/governance/PROJECT_CHARTER.md` 修改范围的明确授权。
 
 ## 12. 数据模型基线
@@ -541,7 +543,7 @@ OCR 必须按来源和任务范围分隔。`<!-- page: N -->`、章节和 locati
 2. Worker 交付前必须运行可用的机械检查，至少检查文件完整性、CSV 结构、ID 唯一性、来源字段和禁止文件。
 3. Codex 按 `README/HANDOFF → QA/ISSUES → MANIFEST → 主体成果抽样` 的顺序读取，不从头重复 Worker 已完成的机械劳动。
 4. 返修必须采用差量模式，明确“必须修复、保持不变、禁止新增、重新验证”；已通过范围不得无关重做。
-5. `project/tasks/TASKS.md` 是唯一动态状态源。README、决策记录和 CHANGELOG 在里程碑、重要决策或预定义 GitHub 节点时批量同步，避免每个小步骤重复改写。
+5. `project/tasks/TASKS.md` 是唯一动态状态源。每个完成的 GitHub PR 或重大项目进展必须同步更新 README、决策记录、CHANGELOG、当前网站版本及受影响的 Web 元数据；普通小步骤不单独制造版本噪音。
 6. 当前只有一名外部执行 AI 时，默认一个任务完成交付并进入 Codex 验收后再领取下一项；Codex可在不写同一数据域的前提下并行准备 Schema 或验收规则。
 
 外部 AI 不得修改：
@@ -716,7 +718,7 @@ Codex 必须先生成独立的章程修改提案，至少包含：
 2. 提升章程版本号；
 3. 在决策记录新增章程变更决策；
 4. 在 CHANGELOG 记录修改；
-5. 更新受影响任务或迁移计划；
+5. 更新受影响任务、决策记录、CHANGELOG、README/网站当前版本与元数据，或迁移计划；
 6. 验证变更；GitHub 提交与推送按届时生效的第 21 节执行。
 
 即使只是修改措辞、标题、文件名或版本号，也必须遵循该程序。动态项目状态不得写入本章程，以避免用“更新进度”为由频繁修改冻结文件。

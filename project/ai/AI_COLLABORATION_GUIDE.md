@@ -13,6 +13,17 @@
 3. 读取 `project/internal/TASKS.md` 和 `project/internal/DECISIONS.md`，确认任务登记、依赖和已生效决策；两者只在本地可见。
 4. 需要历史背景时才读取 `project/archive/` 或正式审计，不把历史材料当作当前指令。
 
+### Internal-state fallback
+
+If `project/internal/TASKS.md` or `project/internal/DECISIONS.md` is absent from
+the current workspace, the Agent must not infer the current task or current
+effective internal decisions from Git history, `CHANGELOG.md`, old task files,
+or `project/archive/`. The Agent must restore the files from the persistent
+internal workspace designated by USER, or request the current task context from
+USER. Archive material, legacy TASKS, and historical decisions may support
+historical tracing only; they must not automatically restore current execution
+state.
+
 发生冲突时遵循 USER 明确指示、章程、正式决策、稳定领域规则、公开事实、内部记录、历史材料的顺序；内部任务记录不能覆盖章程或稳定 Schema。
 
 ## 2. 角色与权限

@@ -3,8 +3,7 @@
 - Date: 2026-09-02
 - Scope: WCD-07 only; WCD-08 not started
 - Public Release: `PAUSED BY USER`
-- Audit status: `DONE`; targeted governance remediation complete; full local Playwright matrix passes 84/84; fresh-context `CODEX-REVIEW-WCD07-FINAL` returns `PASS`; exact remediation commit CI passes. Post-merge governance synchronization is recorded in DEC-052 / Charter 1.7.0.
-- Current post-merge Web state: `Web 0.3.4 Development` (patch-only governance/metadata synchronization; public reader scope unchanged).
+- Audit status: `DONE`; targeted governance remediation complete; full local Playwright matrix passes 84/84; fresh-context `CODEX-REVIEW-WCD07-FINAL` returns `PASS`; exact remediation commit CI passes.
 
 ## Baseline
 
@@ -197,10 +196,9 @@ curation. Curation was rebuilt from the existing reviewed package and its
 quality validator remained PASS. Web Data was rebuilt from SQLite and the
 existing curation package, so the Research layer now exposes 377 entities,
 1027 facts, 334 relationships, 314 sources, and 261 cards. Web Data schema is
-still `v2-web-0.2`, and Web is now `0.3.4 Development` after the post-merge
-governance/metadata synchronization recorded in DEC-052; public reader scope
-and page types did not change. No new public reader entity was admitted by
-WCD-07.
+still `v2-web-0.2`, and Web remains the verified `0.3.3 Development` because
+public reader scope and page types did not change. No new public reader entity
+was admitted by WCD-07.
 
 ## Remaining backlog
 
@@ -222,7 +220,7 @@ WCD-07.
 | Export deterministic rebuild | PASS; byte-identical temporary rebuild |
 | Curation rebuild | PASS |
 | Curation quality / provenance | PASS |
-| Web Data build / validator | PASS at Web 0.3.4 / v2-web-0.2 |
+| Web Data build / validator | PASS at Web 0.3.3 / v2-web-0.2 |
 | Frontend syntax (`node --check site/app.js`) | PASS |
 | Deploy bundle / public-boundary validator | PASS (test origin; 137 routes, 128 public entities, no review queue exposure) |
 | Python unit tests | PASS (25/25) |
@@ -244,3 +242,18 @@ The focused final reviewer returned `PASS`, and the exact pushed remediation
 commit passed PR CI. `WCD-07 = DONE`; Public Release remains `PAUSED BY USER`;
 no WCD-08 was created or started. Work stops here pending USER final audit;
 this audit does not authorize merge.
+
+## 2026-09-03 Governance Addendum
+
+This addendum records the later governance/metadata synchronization without
+rewriting the historical audit above.
+
+- The original WCD-07 audit was performed against `Web 0.3.3 Development`; its
+  historical QA table and validation descriptions remain at that state.
+- After PR #24, Web product metadata was synchronized from `0.3.3` to `0.3.4`
+  solely for governance/metadata synchronization; reader-facing scope did not
+  change.
+- PR #24 re-executed the applicable validators and CI for that
+  governance/metadata synchronization.
+- This supplementary verification does not change the original WCD-07 audit
+  facts or conclusions.

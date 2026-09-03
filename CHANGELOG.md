@@ -6,7 +6,7 @@
 
 ### Governance synchronization
 
-- 依据 DEC-052 与本次章程修订，补齐 WCD-07 PR #23 合并后的治理同步，并在 PR #24 内完成治理文档分层：更新任务登记、项目决策、README、当前网站版本元数据及本 CHANGELOG；旧章程和提案归档，历史内容不改写。
+- 依据历史 DEC-052 所形成、现已吸收进入 Charter 2.0.0 的规则与本次章程修订，补齐 WCD-07 PR #23 合并后的治理同步，并在 PR #24 内完成治理文档分层：更新任务登记、项目决策、README、当前网站版本元数据及本 CHANGELOG；旧章程和提案归档，历史内容不改写。
 - 活跃总章程统一为 `project/PROJECT_CHARTER.md`（`2.0.0`）；V1/V2 任务映射统一收口到本地忽略的 `project/internal/TASKS.md`，决策记录统一收口到 `project/internal/DECISIONS.md`。
 - 固化 Web 开发期版本规则：没有新增 reader-facing 内容的治理、文档、构建/验证、修复或 Research-only 投影变化使用 patch；新增公共内容或实质能力使用 minor；破坏公共契约或 USER 批准 Public Release 才考虑 major。
 

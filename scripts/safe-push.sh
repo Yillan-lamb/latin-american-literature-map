@@ -9,7 +9,7 @@ usage() {
 仅允许把当前 HEAD 以非强制方式推送到指定远端分支。脚本会在推送前：
   1. 更新远端引用并确认 base 是 HEAD 的祖先；
   2. 检查待推送提交的作者与提交者身份；
-  3. 检查差异格式，并拒绝修改冻结的 project/governance/PROJECT_CHARTER.md；
+  3. 检查差异格式，并拒绝修改冻结的 project/PROJECT_CHARTER.md；
   4. 推送后复核远端分支确实指向本地 HEAD。
 USAGE
 }
@@ -101,17 +101,17 @@ done <<< "$commit_list"
 
 git diff --check "$base_commit..$head_commit"
 changed_paths=$(git diff --name-only "$base_commit..$head_commit")
-if grep -Fqx 'project/governance/PROJECT_CHARTER.md' <<< "$changed_paths"; then
-  if git cat-file -e "$base_commit:PROJECT_CHARTER.md" 2>/dev/null && \
-     ! git cat-file -e "$head_commit:PROJECT_CHARTER.md" 2>/dev/null && \
-     git cat-file -e "$head_commit:project/governance/PROJECT_CHARTER.md" 2>/dev/null; then
+if grep -Fqx 'project/PROJECT_CHARTER.md' <<< "$changed_paths"; then
+  if git cat-file -e "$base_commit:project/governance/PROJECT_CHARTER.md" 2>/dev/null && \
+     ! git cat-file -e "$head_commit:project/governance/PROJECT_CHARTER.md" 2>/dev/null && \
+     git cat-file -e "$head_commit:project/PROJECT_CHARTER.md" 2>/dev/null; then
     echo "允许：本次差异是用户授权的章程路径迁移；后续修改仍由新路径门禁阻断。"
   else
-    echo "拒绝：待推送差异包含冻结文件 project/governance/PROJECT_CHARTER.md。" >&2
+    echo "拒绝：待推送差异包含冻结文件 project/PROJECT_CHARTER.md。" >&2
     exit 1
   fi
-elif grep -Fqx 'PROJECT_CHARTER.md' <<< "$changed_paths"; then
-  echo "拒绝：待推送差异包含旧章程路径，但没有迁移到 project/governance/。" >&2
+elif grep -Fqx 'project/governance/PROJECT_CHARTER.md' <<< "$changed_paths"; then
+  echo "拒绝：待推送差异包含旧章程路径，但没有迁移到 project/。" >&2
   exit 1
 fi
 

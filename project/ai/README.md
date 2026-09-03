@@ -1,5 +1,7 @@
-# AI 协作记录
+# AI 协作
 
-本目录保存 AI 协同计划、任务分工、执行规则、接管提示词和历史派单说明。
+- [`AI_COLLABORATION_GUIDE.md`](./AI_COLLABORATION_GUIDE.md)：跨版本长期协作规则与角色边界。
+- [`../archive/ai/`](../archive/ai/)：已完成阶段的提示词、旧手册和历史协作计划。
+- [`../../work/external-ai/`](../../work/external-ai/)：现有外部交付包、评审材料和批次矩阵；这些运行产物不等同于活动规则。
 
-仍在构建脚本中使用的外部交付包、评审材料和批次矩阵保留在 [`work/external-ai/`](../../work/external-ai/)，因为这些路径属于现有运行流程。新的协作规则和上层计划应放在本目录；具体执行产物仍按既有工作包结构保存。
+临时 prompt、handoff 和内部 review 放入被忽略的 `project/internal/`，不在本目录建立第二套动态任务或状态源。

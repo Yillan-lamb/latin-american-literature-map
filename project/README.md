@@ -1,15 +1,18 @@
-# 内部项目管理
+# 项目治理与协作文档
 
-此目录保存项目治理、计划、任务、决策、审计、AI 协作及历史执行记录，不属于项目对外成果展示主线。
+当前项目文档按稳定规则、公开事实、正式审计和本地项目管理分层。最高规则见 [`PROJECT_CHARTER.md`](./PROJECT_CHARTER.md)。
 
-## 目录职责
+```text
+project/
+├── PROJECT_CHARTER.md       # 活跃总章程
+├── README.md                # 本目录入口
+├── plans/                   # 活跃的稳定产品/领域计划
+├── ai/                      # 跨版本 AI 协作指南
+├── audits/                  # 正式、可追踪的研究与网站审计
+├── archive/                 # 已完成阶段、旧提案和历史审计
+└── internal/                # 本地管理区，整体被 .gitignore 忽略
+```
 
-- [`governance/`](./governance)：项目总章程、规则冲突清单和章程修改提案；
-- [`plans/`](./plans)：阶段计划、产品说明书、扩充计划和研究缺口；
-- [`tasks/`](./tasks)：V1、V2 动态任务状态；
-- [`decisions/`](./decisions)：项目决策、取代关系与影响记录；
-- [`ai/`](./ai)：AI 协作规则、接管提示词、分工与交接说明；
-- [`audits/`](./audits)：Research / Web 审计、QA、Gate、Review 和 Handoff；
-- [`archive/`](./archive)：已经完成历史使命、不能作为当前执行入口的材料。
+`project/internal/` 是唯一的动态项目管理区：`TASKS.md` 保存连续的全局任务登记，`DECISIONS.md` 保存当前决策记录，`prompts/`、`handoffs/` 和 `reviews/` 保存临时提示词、交接与内部复核。它们服务于本地协作，不进入 GitHub、发布包或公开链接。
 
-新增内部文档应先选择上述职责目录，不应放回仓库根目录或 `docs/`。对外长期解释项目成果的材料应放在 [`docs/`](../docs/)；与单个数据变更集紧密绑定的证据和审核文件继续与该变更集共置于 `data/changesets/`。
+角色边界由章程和 [`ai/AI_COLLABORATION_GUIDE.md`](./ai/AI_COLLABORATION_GUIDE.md) 说明；活动文档只引用稳定入口，历史材料从 [`archive/`](./archive/) 进入，不把归档文件当作当前执行指令。

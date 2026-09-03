@@ -503,7 +503,7 @@ def main() -> None:
     n3_decisions[0]["codex_recommendation"] = (
         "建议 B：由用户明确批准把 V1 最低门槛从 ≥150 调整为 ≥75 条经审核关系，"
         "150 作为 V1.1 扩展目标；不以 hold、legacy 或 pending 补数。"
-        "用户批准前不修改 project/governance/PROJECT_CHARTER.md（草案，非用户结论）"
+        "用户批准前不修改 project/PROJECT_CHARTER.md（草案，非用户结论）"
     )
     for row, choice in zip(n3_decisions, ["B", "A", "A", "A"]):
         row["user_decision_required"] = "no"

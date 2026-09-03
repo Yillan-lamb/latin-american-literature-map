@@ -14,4 +14,4 @@
 
 ## 当前开发主库
 
-截至 2026-08-30，开发主库已通过 append-only migration `0001`—`0030` 扩展为 `Data 1.3.1 development candidate`：371 entities、998 facts、306 relationships、288 sources、255 content cards。当前 SHA-256 为 `4d90e7e49c58def1549be18af693685610983816d5113a1e5c91c9582937fb7c`；对应全量导出位于 `data/exports/v1.3.1-candidate/`。WCD-03 仅治理既有实体的中文展示名及其直接证据，不改变实体身份、facts、relationship 端点/类型/证据或 Schema；关系中的旧中文名仅作机械同步。未合并的 0030/0031 已在 PR 内整理为单一最终 0030，不保留纠正型 0031/0032。该状态不是新的正式 Research Release，V1.0.0 历史基线及其校验值保持不变。
+截至 2026-09-03，开发主库已通过 append-only migration `0001`—`0035` 扩展为 `Data 1.5.0 development candidate`：377 entities、1027 facts、334 relationships、314 sources、261 content cards。当前 SHA-256 为 `a8c54e3c0e04a347f310d7f0f969dfba758f575008fa64c1789e43b26bf378cc`；对应全量导出位于 `data/exports/v1.5.0-candidate/`。WCD-07 完成 6 个 P0 重要作品/合集的研究补全、来源治理和中文展示名 provenance，17 个 P1 first-wave 保持 DEFER；该状态不是新的正式 Research Release，V1.0.0 历史基线及其校验值保持不变。

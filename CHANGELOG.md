@@ -2,6 +2,20 @@
 
 本文件记录拉丁美洲文学地图各版本的实际修改。格式参考 Keep a Changelog，版本号遵循语义化版本规则。
 
+## [Data 1.5.0 / Web 0.3.4 — Development] - 2026-09-03
+
+### Governance synchronization
+
+- 依据历史 DEC-052 所形成、现已吸收进入 Charter 2.0.0 的规则与本次章程修订，补齐 WCD-07 PR #23 合并后的治理同步，并在 PR #24 内完成治理文档分层：更新任务登记、项目决策、README、当前网站版本元数据及本 CHANGELOG；旧章程和提案归档，历史内容不改写。
+- 活跃总章程统一为 `project/PROJECT_CHARTER.md`（`2.0.0`）；V1/V2 任务映射统一收口到本地忽略的 `project/internal/TASKS.md`，决策记录统一收口到 `project/internal/DECISIONS.md`。
+- 固化 Web 开发期版本规则：没有新增 reader-facing 内容的治理、文档、构建/验证、修复或 Research-only 投影变化使用 patch；新增公共内容或实质能力使用 minor；破坏公共契约或 USER 批准 Public Release 才考虑 major。
+
+### Version / QA / boundary
+
+- WCD-07 的 Research layer 当前为 377 entities / 1027 facts / 334 relationships / 314 sources / 261 content cards；公开 reader scope 未扩张，因此 Web 从 `0.3.3` 修订为 `0.3.4 Development`。Research 保持 `Data 1.5.0 development candidate`，Schema 保持 `0.4`，Web Data schema 保持 `v2-web-0.2`。
+- WCD-07 已有完整 Playwright matrix 84/84 PASS、fresh-context `CODEX-REVIEW-WCD07-FINAL` PASS 与 PR #23 CI PASS 结论保持；本次不重新执行 WCD-07 Research，不重开 17 个 P1，不启动 P1 later / P2 / P3 / WCD-08。
+- `WCD-07 = DONE`，`V2-PUBLIC-RELEASE = PAUSED BY USER`；不创建 tag、GitHub Release 或 production deployment，等待 USER 最终审计。
+
 ## [Data 1.5.0 / Web 0.3.3 — Development] - 2026-09-02
 
 ### Research / WCD-07

@@ -5,7 +5,7 @@
 ## 主要入口
 
 - [数据新增与版本维护操作手册](./数据新增与版本维护操作手册.md)
-- [V1 试行 Schema 与迁移规则](./阶段2_试行Schema与迁移规则.md)
+- [Research Schema 与迁移规则](./RESEARCH_SCHEMA.md)
 - [V2 Curation Data Schema](./V2_CURATION_SCHEMA.md)
 - [主数据库说明](../../data/master/README.md)
 - [数据库迁移说明](../../data/master/MIGRATIONS.md)

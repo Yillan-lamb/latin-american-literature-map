@@ -1,6 +1,6 @@
 # 外部 AI 模板目录
 
-所有任务在使用模板前必须先阅读仓库根目录 `project/governance/PROJECT_CHARTER.md`。该文件未经用户明确授权不得修改、移动、重命名或删除。
+所有任务在使用模板前必须先阅读仓库根目录 `project/PROJECT_CHARTER.md` 和 [`project/ai/AI_COLLABORATION_GUIDE.md`](../../project/ai/AI_COLLABORATION_GUIDE.md)。章程未经 USER 明确授权不得修改、移动、重命名或删除。
 
 使用方法：为每个任务建立 `<TASK-ID>_<任务主题>/` 目录，将本目录模板复制进去，并按任务类型保留所需文件。
 

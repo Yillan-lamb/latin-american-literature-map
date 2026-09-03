@@ -117,7 +117,7 @@ project/    项目治理、长期规范、计划、正式审计和 AI 协作文�
 - [版本与发布说明](./docs/releases)
 - [CHANGELOG](./CHANGELOG.md)
 
-内部项目治理、任务、审计和 AI 协作记录见 [`project/`](./project)。
+公开 `project/` 仅含章程、长期规范、正式审计和历史归档；动态 TASKS/DECISIONS、提示词、交接和内部复核只在本地被 Git 忽略的 `project/internal/`，不在 GitHub。
 
 ## 公开与版权边界
 

@@ -13,6 +13,10 @@ handoffs/incoming/
 # Internal project management, reasoning and AI working state
 project/internal/
 
+# Local tool configuration (ignore only these exact files)
+/.mcp.json
+/.codebuddy/settings.local.json
+
 *.pdf
 *.epub
 *.mobi

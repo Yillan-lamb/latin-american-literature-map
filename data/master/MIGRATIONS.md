@@ -1,6 +1,6 @@
 # 主库迁移记录
 
-当前基线由 V1.0.0 发布快照直接复制建立，尚无增量迁移。
+V1.0.0 发布快照是不可变历史基线；当前开发主库已在该基线上通过 append-only migration `0001`—`0035` 扩展。迁移文件位于 `migrations/`，可运行 `scripts/validate_migration_replay.py`，从 `data/staging/v1_candidate/V1_CANDIDATE.sqlite` 按序重放并与 `V1_MASTER.sqlite` 的全部表进行比较。
 
 每个后续变更必须：
 

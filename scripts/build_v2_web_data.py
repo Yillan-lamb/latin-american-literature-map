@@ -10,6 +10,7 @@ import sqlite3
 import re
 import unicodedata
 from collections import defaultdict
+from contextlib import closing
 from datetime import date, datetime, timezone
 from pathlib import Path
 from typing import Any
@@ -504,7 +505,8 @@ def build_discovery_ranking(
 
 def build_data(db_path: Path, geo_dir: Path, curation_dir: Path, presentation_path: Path, public_content_path: Path, generated_at: str) -> dict[str, Any]:
     places, place_relations = load_geo(geo_dir)
-    with sqlite3.connect(db_path) as conn:
+    db_uri = f"{db_path.resolve().as_uri()}?mode=ro"
+    with closing(sqlite3.connect(db_uri, uri=True)) as conn:
         entities = rows(conn, "SELECT * FROM entities ORDER BY entity_id")
         cards = rows(conn, "SELECT * FROM content_cards ORDER BY card_id")
         facts = rows(conn, "SELECT * FROM facts ORDER BY fact_id")

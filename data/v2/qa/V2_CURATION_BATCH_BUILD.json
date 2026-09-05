@@ -1,4 +1,41 @@
 {
+  "artifact_status": "historical_snapshot",
+  "artifact_scope": "V2-S5-002 initial batch QA; retained for audit provenance, not a current curation inventory",
+  "current_inventory_checked_at": "2026-09-05",
+  "current_inventory": {
+    "curation_entries": {
+      "rows": 58,
+      "status_counts": {
+        "auto_approved": 54,
+        "hold": 4
+      }
+    },
+    "curation_selections": {
+      "rows": 23,
+      "status_counts": {
+        "auto_approved": 23
+      }
+    },
+    "curation_recommendations": {
+      "rows": 2,
+      "status_counts": {
+        "user_review": 1,
+        "hold": 1
+      }
+    },
+    "public_content": {
+      "authors": 61,
+      "works": 170,
+      "places": 25
+    },
+    "research_master": {
+      "entities": 377,
+      "facts": 1027,
+      "relationships": 334,
+      "sources": 314,
+      "content_cards": 261
+    }
+  },
   "generated_at": "2026-08-11",
   "output": "data/v2/curation/CURATION_ENTRIES.csv",
   "existing_entries": 16,

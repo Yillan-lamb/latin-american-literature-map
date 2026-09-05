@@ -117,8 +117,9 @@ function researchPanel(targetId, extraSourceIds = []) {
   const facts = factsFor(targetId).filter((item) => ["birth_year", "death_year", "country_or_region", "language", "first_publication_year", "publication_year", "genre_or_form", "key_character", "setting_place"].includes(item.fact_field));
   const relations = relationsFor(targetId).filter((item) => ["CREATED", "SET_IN", "ASSOCIATED_WITH_PLACE", "BASED_ON_EVENT", "EXPLORES_THEME"].includes(item.relation_type));
   const sourceIds = [...extraSourceIds, ...contentEvidenceFor(targetId), ...facts.flatMap(sourceIdsForFact), ...relations.flatMap(sourceIdsForRelation)];
+  const factStatusLabel = (item) => item.public_evidence_status === "provisional" ? "（仍待进一步核验）" : "";
   return `<details class="research-panel"><summary>研究依据与延伸阅读</summary><div class="research-body">
-    <section><h3>为什么这样介绍</h3><p>页面依据已核验的基础资料与文学关系组织。只有资料确实不足时，页面才会用自然语言说明。</p>${facts.length ? `<dl class="evidence-list">${facts.slice(0, 8).map((item) => `<div><dt>${factLabel(item.fact_field)}</dt><dd>${escapeHtml(publicText(item.value_text))}</dd></div>`).join("")}</dl>` : ""}</section>
+    <section><h3>为什么这样介绍</h3><p>页面依据公开研究记录与文学关系组织；仍待进一步核验的字段会在具体条目旁明确标示。</p>${facts.length ? `<dl class="evidence-list">${facts.slice(0, 8).map((item) => `<div><dt>${factLabel(item.fact_field)}${factStatusLabel(item)}</dt><dd>${escapeHtml(publicText(item.value_text))}</dd></div>`).join("")}</dl>` : ""}</section>
     <section><h3>资料来源</h3>${sourceList(sourceIds)}</section>
   </div></details>`;
 }

@@ -121,7 +121,16 @@ test("home pagination exposes every public author and work in deterministic orde
   }
 });
 
-test("reader prose and expandable research evidence stay on opposite sides of the boundary", async ({ page }) => {
+test("reader prose and expandable research evidence stay on opposite sides of the boundary", async ({ page, request }) => {
+  const webData = await (await request.get("data/v2/web/site_data.json")).json();
+  const publicIds = new Set(webData.search_index.map((item) => item.target_id));
+  const wcd07aIds = new Set(["V1-ENT-0374", "V1-ENT-0375", "V1-ENT-0376", "V1-ENT-0377", "V1-ENT-0378", "V1-ENT-0379"]);
+  expect(webData.research.entities.map((item) => item.entity_id).filter((id) => wcd07aIds.has(id))).toEqual([]);
+  expect(webData.research.content_cards.map((item) => item.subject_id).filter((id) => wcd07aIds.has(id))).toEqual([]);
+  expect(webData.research.facts.map((item) => item.subject_id).filter((id) => wcd07aIds.has(id))).toEqual([]);
+  expect(webData.research.relationships.flatMap((item) => [item.subject_id, item.object_id]).filter((id) => wcd07aIds.has(id))).toEqual([]);
+  expect(webData.research.facts.every((item) => publicIds.has(item.subject_id) && ["verified", "provisional"].includes(item.public_evidence_status))).toBe(true);
+
   await page.goto("works/grande-sertao-veredas-v1-ent-0217/");
   const panel = page.locator("details.research-panel");
   await expect(panel).not.toHaveAttribute("open", "");
@@ -134,6 +143,12 @@ test("reader prose and expandable research evidence stay on opposite sides of th
   await panel.locator("summary").click();
   await expect(panel).toHaveAttribute("open", "");
   await expect(panel.getByRole("heading", { name: "资料来源" })).toBeVisible();
+  await page.goto("works/pedro-paramo-v1-ent-0038/");
+  const publicPanel = page.locator("details.research-panel");
+  await publicPanel.locator("summary").click();
+  await expect(publicPanel).not.toContainText("已核验的基础资料");
+  await expect(publicPanel).toContainText("公开研究记录");
+  await expect(publicPanel).toContainText("仍待进一步核验");
 });
 
 test("map selections update literary context without immediate navigation", async ({ page }) => {
@@ -431,19 +446,20 @@ test("WEB-CE-B16 preserves the review boundary and exposes complete preview rout
   const reviewQueueIds = new Set(reviewQueueRecords.map((item) => item.target_id));
   const b16Entities = new Map(webData.research.entities.filter((item) => batchEntityIds.includes(item.entity_id)).map((item) => [item.entity_id, item]));
 
-  expect(b16Entities.get("V1-ENT-0344")?.name_zh).toBe("路易斯·塞普尔维达");
-  expect(b16Entities.get("V1-ENT-0347")?.name_zh).toBe("《读爱情故事的老人》");
-  expect(b16Entities.get("V1-ENT-0348")?.name_zh).toBe("《教海鸥飞翔的猫》");
-  expect(b16Entities.get("V1-ENT-0349")?.name_zh).toBe("《世界尽头的世界》");
-
   // B16 curation is intentionally user_review; formal public projection must not leak it.
   if (!searchableIds.has("V1-ENT-0344")) {
     expect(batchEntityIds.filter((targetId) => searchableIds.has(targetId)), "formal layer must not partially leak B16 USER_REVIEW records").toEqual([]);
+    expect(batchEntityIds.filter((targetId) => b16Entities.has(targetId)), "formal research projection must not expose B16 USER_REVIEW entities").toEqual([]);
     if (hasReviewQueue) expect(batchEntityIds.filter((targetId) => reviewQueueIds.has(targetId))).toHaveLength(12);
     await page.goto("404.html");
     await expect(page.getByText("这条文学路径尚未开放").first()).toBeVisible();
     return;
   }
+
+  expect(b16Entities.get("V1-ENT-0344")?.name_zh).toBe("路易斯·塞普尔维达");
+  expect(b16Entities.get("V1-ENT-0347")?.name_zh).toBe("《读爱情故事的老人》");
+  expect(b16Entities.get("V1-ENT-0348")?.name_zh).toBe("《教海鸥飞翔的猫》");
+  expect(b16Entities.get("V1-ENT-0349")?.name_zh).toBe("《世界尽头的世界》");
 
   const samples = [
     ["authors/luis-sepulveda-v1-ent-0344/", "路易斯·塞普尔维达"],

@@ -434,6 +434,22 @@ function relationCards(items) {
   }).join("");
 }
 
+const ANECDOTE_FEATURED_COUNT = 2;
+
+function anecdoteCard(item) {
+  const meta = [item.type_label, item.time_label, item.location_label].filter(Boolean).map((label) => `<span>${escapeHtml(label)}</span>`).join("");
+  const sources = item.sources_label ? `<details class="anecdote-sources research-panel"><summary>来源与依据</summary><p>${escapeHtml(item.sources_label)}</p></details>` : "";
+  return `<article class="card anecdote-card"><div class="card-meta">${meta}</div><h3>${escapeHtml(item.title)}</h3><p class="anecdote-teaser">${escapeHtml(item.teaser)}</p><details class="anecdote-detail"><summary>展开读这个故事</summary><div class="anecdote-body">${escapeHtml(item.story)}</div>${sources}</details></article>`;
+}
+
+function anecdoteSection(anecdotes) {
+  if (!Array.isArray(anecdotes) || !anecdotes.length) return "";
+  const featured = anecdotes.slice(0, ANECDOTE_FEATURED_COUNT).map(anecdoteCard).join("");
+  const rest = anecdotes.slice(ANECDOTE_FEATURED_COUNT);
+  const more = rest.length ? `<details class="anecdote-more"><summary>更多故事（${rest.length}）</summary><div class="card-grid">${rest.map(anecdoteCard).join("")}</div></details>` : "";
+  return `<section class="section anecdotes-section"><div class="section-heading"><h2>作家的另一面</h2><p>把作品放回具体的生活：经过核验的人物故事。</p></div><div class="card-grid">${featured}</div>${more}</section>`;
+}
+
 function renderAuthor(id) {
   const item = entity(id);
   const card = cardFor(id);
@@ -458,6 +474,7 @@ function renderAuthor(id) {
   ${copy.core_themes ? `<section class="section themes-section"><div class="section-heading"><h2>他 / 她在写什么</h2><p>沿核心主题继续理解作品。</p></div><div class="theme-grid">${copy.core_themes.map((topic) => `<article><h3>${escapeHtml(topic.title)}</h3><p>${escapeHtml(topic.text)}</p></article>`).join("")}</div></section>` : ""}
   ${copy.reading_route ? `<section class="section"><div class="section-heading"><h2>一条阅读路线</h2><p>从入门到继续探索，每一步都指向下一层文学问题。</p></div><ol class="route-steps">${copy.reading_route.map((step) => `<li>${escapeHtml(step)}</li>`).join("")}</ol></section>` : ""}
   ${copy.guiding_question ? `<section class="section guiding-question"><p class="eyebrow">带着一个问题去读</p><blockquote>${escapeHtml(copy.guiding_question)}</blockquote></section>` : ""}
+  ${anecdoteSection(copy.anecdotes)}
   <section class="section"><div class="section-heading"><h2>文学关系</h2><p>沿作品与地点之间的联系继续。</p></div><div class="linked-list">${works.slice(0, 3).map((work) => `<a class="linked-item" href="${hrefFor("work", work.entity_id)}"><strong>${escapeHtml(work.name_zh)}</strong><span>由${escapeHtml(item.name_zh)}创作</span></a>`).join("")}${places.slice(0, 3).map((mapped) => `<a class="linked-item" href="${hrefFor(routeTypeFor(mapped.place_id), mapped.place_id)}"><strong>${escapeHtml(mapped.name_zh)}</strong><span>与生平或创作有关的地点</span></a>`).join("")}</div>${researchPanel(id, curationFor(id, "page_lede")?.source_refs)}</section>`;
 }
 

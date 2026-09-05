@@ -230,6 +230,95 @@ def load_geo(geo_dir: Path) -> tuple[list[dict[str, Any]], list[dict[str, Any]]]
     return places, place_relations
 
 
+ANECDOTE_SCHEMA_VERSION = "v2-curation-anecdotes-0.1"
+ANECDOTE_BOUNDARY_KINDS = {
+    "confirmed_fact",
+    "author_recollection",
+    "witness_recollection",
+    "biographer_reconstruction",
+    "disputed",
+    "legend_or_unverified",
+}
+
+
+def load_approved_anecdotes(curation_dir: Path, valid_target_ids: set[str]) -> list[dict[str, Any]]:
+    """Load USER-approved anecdotes for public projection.
+
+    The file is optional: when absent, the build output is identical to the
+    pre-WCD-08 pipeline. Only `status == "auto_approved"` entries are returned,
+    and every approved entry must carry `reviewer == "USER"` (USER content gate
+    per DEC-054); `user_review` / `hold` / `reject` never reach the reader layer.
+    """
+    path = curation_dir / "CURATION_ANECDOTES.json"
+    if not path.exists():
+        return []
+    data = json.loads(path.read_text(encoding="utf-8"))
+    if data.get("schema_version") != ANECDOTE_SCHEMA_VERSION:
+        raise ValueError(f"{path}: expected schema {ANECDOTE_SCHEMA_VERSION}, got {data.get('schema_version')}")
+    approved: list[dict[str, Any]] = []
+    seen: set[str] = set()
+    for index, record in enumerate(data.get("anecdotes", []), 1):
+        anecdote_id = record.get("anecdote_id")
+        if not anecdote_id or anecdote_id in seen:
+            raise ValueError(f"{path}: missing or duplicate anecdote_id at entry {index}")
+        seen.add(anecdote_id)
+        status = record.get("status")
+        if status not in ALLOWED_CURATION_STATUSES:
+            raise ValueError(f"{path}: invalid anecdote status for {anecdote_id}: {status}")
+        if status != "auto_approved":
+            continue
+        if record.get("reviewer") != "USER":
+            raise ValueError(f"{path}: {anecdote_id} is auto_approved without USER review")
+        author_id = record.get("author_id")
+        if author_id not in valid_target_ids:
+            raise ValueError(f"{path}: dangling anecdote author {author_id} for {anecdote_id}")
+        for key in ("title", "teaser", "story"):
+            value = str(record.get(key) or "").strip()
+            if not value:
+                raise ValueError(f"{path}: {anecdote_id} lacks {key}")
+            if contains_internal_reader_language(value):
+                raise ValueError(f"{path}: {anecdote_id}.{key} contains internal reader language")
+        for boundary in record.get("fact_boundary", []):
+            if boundary.get("kind") not in ANECDOTE_BOUNDARY_KINDS:
+                raise ValueError(f"{path}: {anecdote_id} has invalid fact_boundary kind {boundary.get('kind')}")
+        approved.append(
+            {
+                "anecdote_id": anecdote_id,
+                "author_id": author_id,
+                "title": str(record["title"]).strip(),
+                "teaser": str(record["teaser"]).strip(),
+                "story": str(record["story"]).strip(),
+                "time_label": str(record.get("time_label") or "").strip(),
+                "location_label": str(record.get("location_label") or "").strip(),
+                "type_label": str(record.get("type_label") or "").strip(),
+                "sources_label": str(record.get("sources_label") or "").strip(),
+                "sort_order": int(record.get("sort_order") or 0),
+            }
+        )
+    approved.sort(key=lambda item: (item["author_id"], item["sort_order"], item["anecdote_id"]))
+    return approved
+
+
+def attach_anecdotes(
+    reader_content: dict[str, list[dict[str, Any]]],
+    anecdotes: list[dict[str, Any]],
+    public_author_ids: set[str],
+) -> None:
+    """Project approved anecdotes onto public author reader records (additive)."""
+    if not anecdotes:
+        return
+    by_author: dict[str, list[dict[str, Any]]] = defaultdict(list)
+    for item in anecdotes:
+        if item["author_id"] in public_author_ids:
+            by_author[item["author_id"]].append(item)
+    for record in reader_content.get("authors", []):
+        items = by_author.get(record.get("target_id", ""), [])
+        if items:
+            record["anecdotes"] = [
+                {key: value for key, value in item.items() if key not in {"author_id"}} for item in items
+            ]
+
+
 def load_curation(curation_dir: Path, valid_target_ids: set[str]) -> dict[str, list[dict[str, Any]]]:
     files = {
         "entries": ("CURATION_ENTRIES.csv", "curation_id"),
@@ -724,6 +813,11 @@ def build_data(db_path: Path, geo_dir: Path, curation_dir: Path, presentation_pa
         public_author_ids,
         public_work_ids,
         public_place_ids,
+    )
+    attach_anecdotes(
+        reader_content,
+        load_approved_anecdotes(curation_dir, valid_target_ids),
+        public_author_ids,
     )
     presentation_public["discovery"] = build_discovery_ranking(
         content_public,

@@ -436,10 +436,22 @@ function relationCards(items) {
 
 const ANECDOTE_FEATURED_COUNT = 2;
 
+function anecdoteBody(item) {
+  const story = String(item.story || "");
+  const teaser = String(item.teaser || "");
+  // Candidate data keeps the formal full story.  The preview card already
+  // shows teaser, so suppress only a duplicated leading prefix in the
+  // expanded display; never mutate or truncate the stored story.
+  if (teaser && story.startsWith(teaser)) return story.slice(teaser.length).replace(/^\s+/, "");
+  return story;
+}
+
 function anecdoteCard(item) {
-  const meta = [item.type_label, item.time_label, item.location_label].filter(Boolean).map((label) => `<span>${escapeHtml(label)}</span>`).join("");
+  const gate = item.status === "hold" ? "暂缓（门禁未满足）" : item.status === "user_review" ? "待 USER 审核" : "";
+  const meta = [item.type_label, item.time_label, item.location_label, gate].filter(Boolean).map((label) => `<span>${escapeHtml(label)}</span>`).join("");
   const sources = item.sources_label ? `<details class="anecdote-sources research-panel"><summary>来源与依据</summary><p>${escapeHtml(item.sources_label)}</p></details>` : "";
-  return `<article class="card anecdote-card"><div class="card-meta">${meta}</div><h3>${escapeHtml(item.title)}</h3><p class="anecdote-teaser">${escapeHtml(item.teaser)}</p><details class="anecdote-detail"><summary>展开读这个故事</summary><div class="anecdote-body">${escapeHtml(item.story)}</div>${sources}</details></article>`;
+  const holdReason = item.status === "hold" && item.hold_reason ? `<p class="anecdote-gate-note">${escapeHtml(item.hold_reason)}</p>` : "";
+  return `<article class="card anecdote-card" data-anecdote-status="${escapeHtml(item.status || "")}"><div class="card-meta">${meta}</div><h3>${escapeHtml(item.title)}</h3><p class="anecdote-teaser">${escapeHtml(item.teaser)}</p>${holdReason}<details class="anecdote-detail"><summary>展开读这个故事</summary><div class="anecdote-body">${escapeHtml(anecdoteBody(item))}</div>${sources}</details></article>`;
 }
 
 function anecdoteSection(anecdotes) {

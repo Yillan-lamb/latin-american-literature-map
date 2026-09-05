@@ -74,6 +74,7 @@ def main() -> int:
                 "sources_label": "；".join(src_parts),
                 "status": c.get("status"),
                 "risk_level": c.get("risk_level"),
+                "hold_reason": c.get("hold_reason") or "",
                 "preview_mode": True,
             }
         )
@@ -106,15 +107,14 @@ def main() -> int:
         f'background:#96342b;color:#fffdf8;padding:10px 18px;font-size:13px;">{BANNER_TEXT}</div>'
     )
     base_html = (site_dir / "index.html").read_text(encoding="utf-8")
-    (out / "index.html").write_text(base_html.replace("</body>", f"{banner}</body>"), encoding="utf-8")
+    (out / "index.html").write_text(base_html.replace("<body>", f"<body>{banner}", 1), encoding="utf-8")
 
     def author_page(target_id: str, name: str) -> str:
         return (
             base_html
-            .replace('<body>', f'<body data-route-kind="author" data-route-id="{target_id}">')
+            .replace('<body>', f'<body data-route-kind="author" data-route-id="{target_id}">{banner}', 1)
             .replace('src="./app.js"', 'src="../../app.js"')
             .replace('href="./styles.css"', 'href="../../styles.css"')
-            .replace("</body>", f"{banner}</body>")
         )
 
     authors_dir = out / "authors"

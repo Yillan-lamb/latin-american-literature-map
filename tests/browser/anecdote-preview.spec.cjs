@@ -5,8 +5,9 @@ const { test, expect } = require("@playwright/test");
 
 test.describe("WCD-08 anecdote preview", () => {
   test.beforeEach(() => {
-    // 本 spec 只针对本地 USER_REVIEW 预览站（默认 4174 端口）；对 dist 运行时跳过。
-    test.skip(!process.env.V2_QA_BASE_URL || !process.env.V2_QA_BASE_URL.includes("4174"), "anecdote preview spec runs only against the WCD-08 preview server");
+    // 本 spec 只针对显式指定的 USER_REVIEW 预览站；公开 dist 默认使用 4173，运行时跳过。
+    const baseUrl = process.env.V2_QA_BASE_URL || "";
+    test.skip(!baseUrl || /:4173(?:\/|$)/.test(baseUrl), "anecdote preview spec runs only against the WCD-08 preview server");
   });
 
   test("author page renders anecdote section with expandable story", async ({ page }) => {
@@ -20,6 +21,8 @@ test.describe("WCD-08 anecdote preview", () => {
     await first.locator("details.anecdote-detail > summary").click();
     await expect(first.locator(".anecdote-body")).toBeVisible();
     await expect(page.locator("[data-review-preview-banner]")).toBeVisible();
+    const bannerPosition = await page.locator("body").evaluate((body) => body.firstElementChild?.getAttribute("data-review-preview-banner"));
+    expect(bannerPosition).toBe("");
   });
 
   test("anecdote detail expands with sources panel and home page has no section", async ({ page }) => {
@@ -28,8 +31,15 @@ test.describe("WCD-08 anecdote preview", () => {
     await expect(section).toHaveCount(1);
     const cards = section.locator(".anecdote-card");
     expect(await cards.count()).toBeGreaterThanOrEqual(2);
+    const more = section.locator("details.anecdote-more");
+    if (await more.count()) await more.locator(":scope > summary").click();
+    await expect(section.locator('[data-anecdote-status="hold"]').first()).toBeVisible();
+    await expect(section.locator(".anecdote-gate-note").first()).toBeVisible();
+    const teaser = await cards.nth(0).locator(".anecdote-teaser").innerText();
     await cards.nth(0).locator("details.anecdote-detail > summary").click();
     await expect(cards.nth(0).locator(".anecdote-body")).toBeVisible();
+    const expanded = await cards.nth(0).locator(".anecdote-body").innerText();
+    expect(expanded.startsWith(teaser)).toBe(false);
     await page.goto("/");
     await expect(page.locator(".anecdotes-section")).toHaveCount(0);
   });

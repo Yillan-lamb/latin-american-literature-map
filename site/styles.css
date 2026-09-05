@@ -412,6 +412,7 @@ button:focus-visible, a:focus-visible, input:focus-visible, summary:focus-visibl
 .anecdote-card { display: block; }
 .anecdote-card h3 { margin: 6px 0 10px; font: 600 26px/1.25 var(--serif); }
 .anecdote-teaser { margin: 0; color: var(--muted); font-size: 15px; line-height: 1.8; }
+.anecdote-gate-note { margin: 10px 0 0; color: #96342b; font-size: 12px; line-height: 1.7; }
 .anecdote-detail { margin-top: 14px; border-top: 1px dotted var(--line); }
 .anecdote-detail summary { padding: 12px 0 4px; color: var(--blue); cursor: pointer; font-size: 13px; }
 .anecdote-body { padding: 12px 0 4px; font-size: 15px; line-height: 1.95; color: var(--ink); white-space: pre-line; }

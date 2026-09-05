@@ -16,6 +16,14 @@ DEFAULT_DATA = ROOT / "data/v2/web/site_data.json"
 SITE_FILES = ("app.js", "styles.css")
 DEVELOPMENT_PREVIEW_BANNER = "Web 0.3.4 Development Preview｜包含待审内容｜正式 Public Release 仍暂停"
 
+# The complete Web Data keeps the research admission vocabulary for internal
+# review.  A deployment bundle may retain only facts that have a public-safe
+# evidence state; raw admission statuses must never be serialized there.
+PUBLIC_FACT_EVIDENCE_STATUS = {
+    "accepted_for_n2": "verified",
+    "batch_retained_candidate": "provisional",
+}
+
 
 def route_for(payload: dict[str, object], target_type: str, target_id: str) -> str:
     indexed = next((item for item in payload["search_index"] if item["target_id"] == target_id), None)
@@ -38,36 +46,108 @@ def page_shell(kind: str, target_id: str | None, title: str, description: str, c
 
 def clean_public_data(source: Path) -> dict[str, object]:
     payload = json.loads(source.read_text(encoding="utf-8"))
+
     def take(item: dict[str, object], keys: tuple[str, ...]) -> dict[str, object]:
         return {key: item.get(key) for key in keys if item.get(key) not in (None, "", [])}
 
-    entities = [take(item, ("entity_id", "entity_type", "name_zh", "original_name")) for item in payload["research"]["entities"]]
-    cards = [take(item, ("subject_id", "card_type", "country_or_region", "genre_or_form", "language", "period_bucket")) for item in payload["research"]["content_cards"]]
+    search_index = payload["search_index"]
+    public_ids = {item["target_id"] for item in search_index}
+    if len(public_ids) != len(search_index):
+        raise ValueError("public search index contains duplicate target IDs")
+
+    entities = [
+        take(item, ("entity_id", "entity_type", "name_zh", "original_name"))
+        for item in payload["research"]["entities"]
+        if item["entity_id"] in public_ids
+    ]
+    cards = [
+        take(item, ("subject_id", "card_type", "country_or_region", "genre_or_form", "language", "period_bucket"))
+        for item in payload["research"]["content_cards"]
+        if item["subject_id"] in public_ids
+    ]
     facts = []
     for item in payload["research"]["facts"]:
+        if item["subject_id"] not in public_ids:
+            continue
+        public_status = PUBLIC_FACT_EVIDENCE_STATUS.get(item.get("admission_status"))
+        if public_status is None:
+            # hold/gap/research notes and facts awaiting staging review remain
+            # in the complete Web Data, but are not copied into a deployment
+            # artifact where their governance status would be unavailable.
+            continue
         compact = take(item, ("subject_id", "fact_field", "value_text"))
+        compact["public_evidence_status"] = public_status
         compact["sources"] = [take(source, ("source_id",)) for source in item.get("sources", [])]
         facts.append(compact)
     relationships = []
     for item in payload["research"]["relationships"]:
+        if item["subject_id"] not in public_ids or item["object_id"] not in public_ids:
+            continue
         compact = take(item, ("subject_id", "object_id", "relation_type", "description_zh"))
         compact["evidence"] = [take(evidence, ("source_id",)) for evidence in item.get("evidence", [])]
         relationships.append(compact)
-    sources = [take(item, ("source_id", "title", "author_or_editor", "publisher", "publication_year", "canonical_url")) for item in payload["research"]["sources"]]
-    places = [take(item, ("place_id", "entity_id", "name_zh", "original_name", "country_code", "place_kind", "parent_place_id", "reality_status", "map_status", "latitude", "longitude")) for item in payload["map"]["places"]]
-    map_relations = [take(item, ("source_entity_id", "target_place_id", "relation_type", "map_relation_role", "description_zh", "source_refs")) for item in payload["map"]["relations"]]
+
+    source_places = payload["map"]["places"]
+    source_places_by_id = {item["place_id"]: item for item in source_places}
+    public_place_ids = {
+        item["place_id"]
+        for item in source_places
+        if item["place_id"] in public_ids or item.get("entity_id") in public_ids
+    }
+    included_place_ids = set(public_place_ids)
+    pending_place_ids = list(public_place_ids)
+    while pending_place_ids:
+        place_id = pending_place_ids.pop()
+        place = source_places_by_id[place_id]
+        parent_id = place.get("parent_place_id")
+        if not parent_id:
+            continue
+        if parent_id not in source_places_by_id:
+            raise ValueError(f"public map place has missing parent: {place_id} -> {parent_id}")
+        if parent_id not in included_place_ids:
+            included_place_ids.add(parent_id)
+            pending_place_ids.append(parent_id)
+    places = [
+        take(item, ("place_id", "entity_id", "name_zh", "original_name", "country_code", "place_kind", "parent_place_id", "reality_status", "map_status", "latitude", "longitude"))
+        for item in source_places
+        if item["place_id"] in included_place_ids
+    ]
+    map_relations = [
+        take(item, ("source_entity_id", "target_place_id", "relation_type", "map_relation_role", "description_zh", "source_refs"))
+        for item in payload["map"]["relations"]
+        if item["source_entity_id"] in public_ids and item["target_place_id"] in included_place_ids
+    ]
+
     # Reader prose comes exclusively from the conclusion-only reader projection.
     # Curation rows remain useful as evidence pointers, but their working copy
     # must never become a presentation fallback in the public bundle.
-    entries = [take(item, ("target_id", "field_key", "source_refs")) for item in payload["curation"]["entries"]]
-    selections = [take(item, ("target_id", "selection_key", "selection_value", "sort_order")) for item in payload["curation"]["selections"] if item.get("selection_key") in {"featured_author", "featured_work"}]
-    recommendations = [take(item, ("from_target_id", "to_target_id", "recommendation_kind", "recommendation_reason", "sort_order")) for item in payload["curation"]["recommendations"]]
+    entries = [
+        take(item, ("target_id", "field_key", "source_refs"))
+        for item in payload["curation"]["entries"]
+        if item.get("target_id") in public_ids
+    ]
+    selections = [
+        take(item, ("target_id", "selection_key", "selection_value", "sort_order"))
+        for item in payload["curation"]["selections"]
+        if item.get("selection_key") in {"featured_author", "featured_work"}
+        and item.get("target_id") in public_ids
+    ]
+    recommendations = [
+        take(item, ("from_target_id", "to_target_id", "recommendation_kind", "recommendation_reason", "sort_order"))
+        for item in payload["curation"]["recommendations"]
+        if item.get("from_target_id") in public_ids and item.get("to_target_id") in public_ids
+    ]
     reader_content = {}
     content_evidence = {}
     for group in ("authors", "works", "places"):
-        reader_content[group] = payload["reader_content"].get(group, [])
+        reader_content[group] = [
+            item for item in payload["reader_content"].get(group, [])
+            if item.get("target_id") in public_ids
+        ]
         content_evidence[group] = []
         for record in payload["public_content"][group]:
+            if record.get("target_id") not in public_ids:
+                continue
             compact = {"target_id": record["target_id"]}
             for key, value in record.items():
                 if key == "target_id" or not isinstance(value, dict):
@@ -83,6 +163,7 @@ def clean_public_data(source: Path) -> dict[str, object]:
             "entity": take(item["entity"], ("entity_id", "entity_type", "name_zh", "original_name")),
         }
         for item in payload["timeline"]
+        if item["entity"]["entity_id"] in public_ids
     ]
     presentation = {key: value for key, value in payload["presentation"].items() if key in {"site", "reading_paths", "timeline_periods", "timeline_note", "why_read", "next_reads", "discovery"}}
     for group in ("reading_paths", "timeline_periods", "why_read", "next_reads"):
@@ -96,6 +177,39 @@ def clean_public_data(source: Path) -> dict[str, object]:
             }
             for item in presentation.get(group, [])
         ]
+
+    referenced_source_ids = {
+        source["source_id"]
+        for fact in facts
+        for source in fact.get("sources", [])
+        if source.get("source_id")
+    }
+    referenced_source_ids.update(
+        evidence["source_id"]
+        for relation in relationships
+        for evidence in relation.get("evidence", [])
+        if evidence.get("source_id")
+    )
+    referenced_source_ids.update(
+        source_id
+        for item in entries
+        for source_id in item.get("source_refs", [])
+        if str(source_id).startswith("SRC-")
+    )
+    for group in content_evidence.values():
+        for record in group:
+            for value in record.values():
+                if isinstance(value, dict):
+                    referenced_source_ids.update(
+                        source_id
+                        for source_id in value.get("source_refs", [])
+                        if str(source_id).startswith("SRC-")
+                    )
+    sources = [
+        take(item, ("source_id", "title", "author_or_editor", "publisher", "publication_year", "canonical_url"))
+        for item in payload["research"]["sources"]
+        if item["source_id"] in referenced_source_ids
+    ]
     return {
         "research": {"entities": entities, "content_cards": cards, "facts": facts, "relationships": relationships, "sources": sources},
         "curation": {"entries": entries, "selections": selections, "recommendations": recommendations},
@@ -103,7 +217,7 @@ def clean_public_data(source: Path) -> dict[str, object]:
         "content_evidence": content_evidence,
         "presentation": presentation,
         "map": {"places": places, "relations": map_relations},
-        "search_index": payload["search_index"],
+        "search_index": search_index,
         "timeline": timeline,
         "public_release": {"review_queue_exposed": False},
     }

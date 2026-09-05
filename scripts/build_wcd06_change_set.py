@@ -9,6 +9,7 @@ import importlib.util
 import json
 import sqlite3
 from collections import Counter
+from contextlib import closing
 from pathlib import Path
 
 
@@ -190,10 +191,12 @@ def main() -> int:
     PATCH.parent.mkdir(parents=True, exist_ok=True)
     PATCH.write_text(json.dumps(patch, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
-    con = sqlite3.connect(ROOT / "data/master/V1_MASTER.sqlite")
-    con.row_factory = sqlite3.Row
-    names = {row["entity_id"]: row["name_zh"] for row in con.execute("select entity_id,name_zh from entities")}
-    routing = list(csv.DictReader(ROUTING.open(encoding="utf-8-sig")))
+    db_uri = f"{(ROOT / 'data/master/V1_MASTER.sqlite').resolve().as_uri()}?mode=ro"
+    with closing(sqlite3.connect(db_uri, uri=True)) as con:
+        con.row_factory = sqlite3.Row
+        names = {row["entity_id"]: row["name_zh"] for row in con.execute("select entity_id,name_zh from entities")}
+    with ROUTING.open(encoding="utf-8-sig", newline="") as handle:
+        routing = list(csv.DictReader(handle))
     route_idx = {row["entity_id"]: row for row in routing}
     matrix = []
     for group in ("authors", "works"):
@@ -213,7 +216,8 @@ def main() -> int:
             })
     write_csv(OUT / "WCD06_CURRENT_DESCRIPTION_MATRIX.csv", matrix, list(matrix[0]))
 
-    triage = list(csv.DictReader(TRIAGE.open(encoding="utf-8-sig")))
+    with TRIAGE.open(encoding="utf-8-sig", newline="") as handle:
+        triage = list(csv.DictReader(handle))
     rebase = []
     high_fields = {"signature_keywords", "why_read", "theme_explanations", "literary_intro", "literary_significance"}
     for row in triage:

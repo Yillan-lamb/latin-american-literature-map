@@ -4,6 +4,7 @@ import hashlib
 import re
 import sqlite3
 import unittest
+from contextlib import closing
 from pathlib import Path
 
 
@@ -31,7 +32,7 @@ class MigrationChainTest(unittest.TestCase):
         self.assertEqual(offenders, [])
 
     def test_master_log_covers_current_migrations_and_hashes(self) -> None:
-        with sqlite3.connect(f"file:{MASTER_DB}?mode=ro", uri=True) as connection:
+        with closing(sqlite3.connect(f"file:{MASTER_DB}?mode=ro", uri=True)) as connection:
             logged = {
                 migration_id: digest
                 for migration_id, digest in connection.execute(

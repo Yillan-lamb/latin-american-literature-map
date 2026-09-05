@@ -2,6 +2,7 @@ import csv
 import json
 import sqlite3
 import unittest
+from contextlib import closing
 from pathlib import Path
 
 
@@ -10,7 +11,7 @@ ROOT = Path(__file__).resolve().parents[1]
 
 class WCD03NameGovernanceTests(unittest.TestCase):
     def test_la_vida_breve_retains_current_edition_title(self):
-        with sqlite3.connect(ROOT / "data/master/V1_MASTER.sqlite") as conn:
+        with closing(sqlite3.connect(ROOT / "data/master/V1_MASTER.sqlite")) as conn:
             name = conn.execute(
                 "SELECT name_zh FROM entities WHERE entity_id='V1-ENT-0187'"
             ).fetchone()[0]

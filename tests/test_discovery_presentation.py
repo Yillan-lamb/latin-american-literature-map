@@ -35,6 +35,58 @@ class DiscoveryPresentationTests(unittest.TestCase):
             "2026-08-27T12:00:00Z",
         )
 
+    def test_build_data_closes_database_connection(self) -> None:
+        real_connect = MODULE.sqlite3.connect
+        tracked = []
+
+        class TrackingConnection:
+            def __init__(self, connection):
+                self.connection = connection
+                self.closed = False
+
+            @property
+            def row_factory(self):
+                return self.connection.row_factory
+
+            @row_factory.setter
+            def row_factory(self, value):
+                self.connection.row_factory = value
+
+            def execute(self, *args, **kwargs):
+                return self.connection.execute(*args, **kwargs)
+
+            def close(self):
+                self.closed = True
+                return self.connection.close()
+
+            def __enter__(self):
+                self.connection.__enter__()
+                return self
+
+            def __exit__(self, *args):
+                return self.connection.__exit__(*args)
+
+        def tracking_connect(*args, **kwargs):
+            proxy = TrackingConnection(real_connect(*args, **kwargs))
+            tracked.append(proxy)
+            return proxy
+
+        original_connect = MODULE.sqlite3.connect
+        MODULE.sqlite3.connect = tracking_connect
+        try:
+            MODULE.build_data(
+                MODULE.DEFAULT_DB,
+                MODULE.DEFAULT_GEO,
+                MODULE.DEFAULT_CURATION,
+                MODULE.DEFAULT_PRESENTATION,
+                MODULE.DEFAULT_PUBLIC_CONTENT,
+                "2026-08-27T12:00:00Z",
+            )
+        finally:
+            MODULE.sqlite3.connect = original_connect
+        self.assertEqual(len(tracked), 1)
+        self.assertTrue(tracked[0].closed)
+
     def test_ranking_is_deterministic_and_covers_public_catalogs(self) -> None:
         first = self.first["presentation"]["discovery"]
         second = self.second["presentation"]["discovery"]

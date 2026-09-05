@@ -4,6 +4,7 @@ import shutil
 import sqlite3
 import tempfile
 import unittest
+from contextlib import closing
 from pathlib import Path
 
 from scripts.validate_master import validate_database
@@ -18,8 +19,9 @@ class CharacterRelationshipSchemaTest(unittest.TestCase):
         with tempfile.TemporaryDirectory(prefix="lalm-character-schema-") as temporary:
             database = Path(temporary) / "master.sqlite"
             shutil.copy2(MASTER_DB, database)
-            with sqlite3.connect(database) as connection:
+            with closing(sqlite3.connect(database)) as connection:
                 connection.executescript(sql)
+                connection.commit()
             report = validate_database(database, "0.4")
             self.assertEqual(report["verdict"], "fail")
             self.assertTrue(
@@ -45,7 +47,7 @@ class CharacterRelationshipSchemaTest(unittest.TestCase):
             "character": "V1-ENT-0048",
             "adaptation": "V1-ENT-0021",
         }
-        with sqlite3.connect(f"file:{MASTER_DB}?mode=ro", uri=True) as connection:
+        with closing(sqlite3.connect(f"file:{MASTER_DB}?mode=ro", uri=True)) as connection:
             actual = {
                 entity_id: connection.execute(
                     "SELECT entity_type FROM entities WHERE entity_id=?", (entity_id,)

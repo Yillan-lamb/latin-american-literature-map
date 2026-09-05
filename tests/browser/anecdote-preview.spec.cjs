@@ -1,13 +1,12 @@
 // WCD-08 作者页趣闻板块预览测试（针对本地 USER_REVIEW 预览站点）。
 // 运行：先 `python3 scripts/build_wcd08_user_review_preview.py`，再
-// `V2_QA_BASE_URL=http://127.0.0.1:4174 npx playwright test tests/browser/anecdote-preview.spec.cjs --project=chromium-desktop`
+// `V2_WCD08_PREVIEW=1 V2_QA_BASE_URL=http://127.0.0.1:4276 npx playwright test tests/browser/anecdote-preview.spec.cjs --project=chromium-desktop`
 const { test, expect } = require("@playwright/test");
 
 test.describe("WCD-08 anecdote preview", () => {
   test.beforeEach(() => {
-    // 本 spec 只针对显式指定的 USER_REVIEW 预览站；公开 dist 默认使用 4173，运行时跳过。
-    const baseUrl = process.env.V2_QA_BASE_URL || "";
-    test.skip(!baseUrl || /:4173(?:\/|$)/.test(baseUrl), "anecdote preview spec runs only against the WCD-08 preview server");
+    // 只有显式启用预览环境才运行；公共 dist 无论端口都必须跳过。
+    test.skip(process.env.V2_WCD08_PREVIEW !== "1", "set V2_WCD08_PREVIEW=1 for the WCD-08 preview server");
   });
 
   test("author page renders anecdote section with expandable story", async ({ page }) => {

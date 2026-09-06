@@ -2,8 +2,8 @@
 """WCD-08 公开边界机械 QA（public bundle leakage 检查）。
 
 断言：
-1. 候选池全部条目 status ∈ {user_review, hold}（本任务不产生 auto_approved）；
-2. 正式 site_data.json 与公开 bundle（若存在）中不出现任何 anecdote 投影；
+1. 候选池保留原始 USER_REVIEW 快照，正式 Curation 精确记录 95 条 USER 批准与 38 条 hold；
+2. 正式 site_data.json 只投影当前公开作者范围内的 82 条批准内容，且不携带治理字段；
 3. 本地 USER_REVIEW 预览（若存在）包含预览标记且逐条带 status/risk_level；
 4. 候选正文不包含内部流程语言（auto_approved / review_status / V1- / SRC- 字面引用）；teaser 长度与来源门禁符合 08A。
 任何断言失败都以非零码退出（fail-closed）。
@@ -21,6 +21,8 @@ CANDIDATES = REPO / "work/wcd08/WCD08_ANECDOTE_CANDIDATES.json"
 PREVIEW = REPO / "work/wcd08/preview/data/v2/web/site_data.json"
 SOURCES = REPO / "work/wcd08/WCD08_SOURCES.json"
 ALLOWED_STATUSES = {"user_review", "hold"}
+FORMAL = REPO / "data/v2/curation/CURATION_ANECDOTES.json"
+FORMAL_SOURCES = REPO / "data/v2/curation/CURATION_ANECDOTE_SOURCES.json"
 INTERNAL_PATTERNS = re.compile(r"auto_approved|user_review|review_status|SRC-\d|V1-ENT-|research_refs|basis_note")
 
 
@@ -92,17 +94,41 @@ def main() -> int:
     if source_failures:
         failures.append(f"source locator failures: {source_failures[:10]}")
 
-    # 2. main site_data + public bundle must not contain anecdotes
-    for name, path in (("data site_data", REPO / "data/v2/web/site_data.json"),
-                       ("dist bundle", REPO / "dist/data/v2/web/site_data.json")):
-        if not path.exists():
-            continue
-        checks += 1
-        hits = find_anecdote_keys(json.loads(path.read_text(encoding="utf-8")))
-        if hits:
-            failures.append(f"{name} leaks anecdotes at {hits[:3]}")
+    # 2. Formal decision and source closure.
+    checks += 1
+    formal = json.loads(FORMAL.read_text(encoding="utf-8"))
+    formal_sources = {
+        item["source_id"] for item in json.loads(FORMAL_SOURCES.read_text(encoding="utf-8"))["sources"]
+    }
+    formal_rows = formal.get("anecdotes", [])
+    approved = [item for item in formal_rows if item.get("status") == "auto_approved"]
+    held = [item for item in formal_rows if item.get("status") == "hold"]
+    if len(approved) != 95 or len(held) != 38:
+        failures.append(f"formal decision counts drifted: approved={len(approved)}, hold={len(held)}")
+    if any(item.get("reviewer") != "USER" or not item.get("reviewed_at") for item in approved):
+        failures.append("formal approved records lack USER decision metadata")
+    dangling = [item["anecdote_id"] for item in formal_rows if any(ref not in formal_sources for ref in item.get("source_refs", []))]
+    if dangling:
+        failures.append(f"formal source refs are dangling: {dangling[:10]}")
 
-    # 3. preview sanity (optional presence)
+    # 3. Production reader projection is approved-only and governance-free.
+    checks += 1
+    site_data = json.loads((REPO / "data/v2/web/site_data.json").read_text(encoding="utf-8"))
+    projected = [
+        item
+        for author in site_data.get("reader_content", {}).get("authors", [])
+        for item in author.get("anecdotes", [])
+    ]
+    projected_ids = {item.get("anecdote_id") for item in projected}
+    approved_ids = {item["anecdote_id"] for item in approved}
+    forbidden = {"status", "reviewer", "reviewed_at", "risk_level", "fact_status", "fact_boundary", "source_refs"}
+    if len(projected) != 82 or not projected_ids.issubset(approved_ids):
+        failures.append(f"production projection gate drifted: projected={len(projected)}")
+    leaked = [item.get("anecdote_id") for item in projected if set(item) & forbidden]
+    if leaked:
+        failures.append(f"production anecdotes expose governance fields: {leaked[:10]}")
+
+    # 4. preview sanity (optional presence)
     if PREVIEW.exists():
         checks += 1
         preview = json.loads(PREVIEW.read_text(encoding="utf-8"))
@@ -122,7 +148,7 @@ def main() -> int:
         if "<body><div data-review-preview-banner" not in index_html:
             failures.append("preview review banner is not the first body child")
 
-    # 4. internal language scan of candidate prose
+    # 5. internal language scan of candidate prose
     checks += 1
     flagged = []
     for c in cands:

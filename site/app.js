@@ -459,7 +459,7 @@ function anecdoteSection(anecdotes) {
   const featured = anecdotes.slice(0, ANECDOTE_FEATURED_COUNT).map(anecdoteCard).join("");
   const rest = anecdotes.slice(ANECDOTE_FEATURED_COUNT);
   const more = rest.length ? `<details class="anecdote-more"><summary>更多故事（${rest.length}）</summary><div class="card-grid">${rest.map(anecdoteCard).join("")}</div></details>` : "";
-  return `<section class="section anecdotes-section"><div class="section-heading"><h2>作家的另一面</h2><p>把作品放回具体的生活：经过核验的人物故事。</p></div><div class="card-grid">${featured}</div>${more}</section>`;
+  return `<section class="section anecdotes-section"><div class="section-heading"><h2>作家的另一面</h2><p>把作品放回具体的生活：这些人物故事照见写作之外的时刻。</p></div><div class="card-grid">${featured}</div>${more}</section>`;
 }
 
 function renderAuthor(id) {

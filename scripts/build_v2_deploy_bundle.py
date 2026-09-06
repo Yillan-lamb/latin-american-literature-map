@@ -14,7 +14,7 @@ from urllib.parse import urljoin, urlparse
 ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_DATA = ROOT / "data/v2/web/site_data.json"
 SITE_FILES = ("app.js", "styles.css")
-DEVELOPMENT_PREVIEW_BANNER = "Web 0.3.4 Development Preview｜包含待审内容｜正式 Public Release 仍暂停"
+DEVELOPMENT_PREVIEW_BANNER = "Web 0.4.0 Development Preview｜包含已批准 WCD-08 内容｜正式 Public Release 仍暂停"
 
 # The complete Web Data keeps the research admission vocabulary for internal
 # review.  A deployment bundle may retain only facts that have a public-safe

@@ -41,6 +41,7 @@
 | 内容卡 | 261 |
 | 开发预览中的作者 | 61 |
 | 开发预览中的作品 / 合集 | 170 |
+| 已批准并投影的作家趣闻 | 82（覆盖 24 位公开作者） |
 
 数据库还包含地点、文学运动、事件、主题、人物、角色、改编与版本等实体。开发数据库的完整实体数与网页当前展示范围并不等同：网页只消费已进入相应公开或预览范围的数据。
 
@@ -72,8 +73,8 @@ Map / Timeline / Pages / Search
 
 - **正式 Research Data Release**：`Data V1.0.0`，保留为已发布的历史基线；
 - **当前 Development Data**：`Data 1.5.0 development candidate`，WCD-07 已完成 6 个 P0 重要作品/合集的研究补全与来源治理；
-- **当前 Research Schema**：`0.4`；**Web Data schema**：`v2-web-0.2`；
-- **当前 Web Development**：`Web 0.3.4 Development`，Research layer 当前投影为 377 entities / 1027 facts / 334 relationships / 314 sources / 261 content cards；公开 reader scope 未扩张；
+- **当前 Research Schema**：`0.4`；**Web Data schema**：`v2-web-0.3`；
+- **当前 Web Development**：`Web 0.4.0 Development`，Research layer 保持 377 entities / 1027 facts / 334 relationships / 314 sources / 261 content cards；WCD-08 经 USER 批准的 95 条趣闻中，82 条投影到 24 位现有公开作者页，13 条因作者不在公开范围而不投影；
 - **公开状态**：GitHub Pages 提供开发预览，正式 Public Release 仍暂停，预览不等同于正式研究数据发布。
 
 详细变更见 [CHANGELOG](./CHANGELOG.md) 和 [版本文档](./docs/releases)。

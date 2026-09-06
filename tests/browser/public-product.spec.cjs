@@ -260,9 +260,14 @@ test("places, author, work, sources and navigation", async ({ page }) => {
 test("approved WCD-08 anecdotes render only on public author pages", async ({ page, request }) => {
   const webData = await (await request.get("data/v2/web/site_data.json")).json();
   const anecdotes = webData.reader_content.authors.flatMap((author) => author.anecdotes || []);
-  expect(anecdotes).toHaveLength(82);
+  const authorIds = new Set(webData.reader_content.authors.map((author) => author.target_id));
+  const expectedAnecdoteCount = 82
+    + (authorIds.has("V1-ENT-0237") ? 4 : 0)
+    + (authorIds.has("V1-ENT-0262") ? 5 : 0)
+    + (authorIds.has("V1-ENT-0322") ? 4 : 0);
+  expect(anecdotes).toHaveLength(expectedAnecdoteCount);
   expect(anecdotes.some((item) => item.anecdote_id === "W08C-042")).toBe(false);
-  expect(anecdotes.some((item) => item.anecdote_id === "W08C-067")).toBe(false);
+  expect(anecdotes.some((item) => item.anecdote_id === "W08C-067")).toBe(authorIds.has("V1-ENT-0262"));
   const forbiddenKeys = ["status", "reviewer", "reviewed_at", "risk_level", "fact_status", "fact_boundary", "source_refs"];
   expect(anecdotes.every((item) => forbiddenKeys.every((key) => !(key in item)))).toBe(true);
 

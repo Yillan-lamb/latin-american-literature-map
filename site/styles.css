@@ -211,6 +211,7 @@ button:focus-visible, a:focus-visible, input:focus-visible, summary:focus-visibl
 .card h3 { margin: 24px 0 12px; font: 600 26px/1.15 var(--serif); }
 .card p { margin: 0; color: #565b55; font-size: 13px; line-height: 1.7; }
 .card-link { margin-top: 18px; color: var(--coral-deep); font-size: 12px; }
+.section-link { display: inline-flex; margin-top: 24px; padding-bottom: 4px; border-bottom: 1px solid var(--coral-deep); color: var(--coral-deep); font-size: 13px; }
 .path-grid { display: grid; grid-template-columns: repeat(6, 1fr); gap: 12px; }
 .path-card { grid-column: span 2; min-height: 270px; padding: 24px; border: 1px solid rgba(32,37,34,.13); border-top: 4px solid var(--coral); background: linear-gradient(175deg, rgba(231,189,102,.13), transparent 42%), var(--white); box-shadow: 6px 7px 0 rgba(32,37,34,.08); }
 .path-card:nth-child(1), .path-card:nth-child(5) { grid-column: span 3; }
@@ -348,6 +349,12 @@ button:focus-visible, a:focus-visible, input:focus-visible, summary:focus-visibl
 
 @media (max-width: 900px) {
   .site-frame { padding: 0 20px; }
+  .site-header { min-height: 74px; }
+  .main-nav { display: none; position: absolute; z-index: 8; top: 73px; left: 20px; right: 20px; padding: 12px 16px; flex-direction: column; align-items: stretch; gap: 0; border: 1px solid var(--line); background: var(--white); }
+  .main-nav.open { display: flex; }
+  .main-nav a { padding: 13px 0; border-bottom: 1px solid var(--line); }
+  .main-nav a:last-child { border-bottom: 0; }
+  .menu-toggle { display: inline-block; }
   .hero, .split-layout, .content-grid, .timeline-preview, .about-preview { grid-template-columns: 1fr; gap: 32px; }
   .hero { padding: 64px 0 52px; }
   .card-grid { grid-template-columns: repeat(2, 1fr); }
@@ -358,15 +365,9 @@ button:focus-visible, a:focus-visible, input:focus-visible, summary:focus-visibl
 }
 
 @media (max-width: 620px) {
-  .site-header { min-height: 74px; }
   .wordmark { gap: 8px; }
   .wordmark-mark { font-size: 12px; }
   .wordmark-name { font-size: 15px; }
-  .main-nav { display: none; position: absolute; z-index: 8; top: 73px; left: 20px; right: 20px; padding: 12px 16px; flex-direction: column; align-items: stretch; gap: 0; border: 1px solid var(--line); background: var(--white); }
-  .main-nav.open { display: flex; }
-  .main-nav a { padding: 13px 0; border-bottom: 1px solid var(--line); }
-  .main-nav a:last-child { border-bottom: 0; }
-  .menu-toggle { display: inline-block; }
   .display-title { font-size: 48px; }
   .lede { font-size: 16px; }
   .section { padding: 44px 0; }
@@ -422,3 +423,8 @@ button:focus-visible, a:focus-visible, input:focus-visible, summary:focus-visibl
 .anecdote-more summary { padding: 16px 0; color: var(--blue); cursor: pointer; font-size: 13px; }
 .anecdote-more[open] summary { padding-bottom: 8px; }
 .anecdote-more .card-grid { margin-top: 12px; }
+.anecdote-entry-card { min-height: 300px; }
+.anecdote-entry-card .anecdote-author-name { margin: -3px 0 13px; color: var(--coral-deep); font: 600 14px/1.4 var(--serif); }
+.anecdote-entry-card .card-link { width: fit-content; border-bottom: 1px solid transparent; }
+.anecdote-entry-card .card-link:hover { border-bottom-color: currentColor; }
+.anecdote-directory { padding-top: 48px; }

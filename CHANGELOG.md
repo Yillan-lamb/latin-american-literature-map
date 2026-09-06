@@ -4,6 +4,12 @@
 
 ## [Data 1.5.0 / Web 0.4.0 — Development] - 2026-09-06
 
+### Homepage and navigation refinement
+
+- 主页移除完整的作家、作品目录，在“如何进入拉美文学”之后新增作家趣闻精选板块；作家页现有趣闻完整内容保持不变。
+- 顶部主导航新增“作家 / 作品 / 趣闻”入口，并新增独立作家目录、作品目录和趣闻索引路由；所有路由继续仅使用既有公开投影。
+- 这是已批准 Web 0.4.0 Development 范围内的布局收口；不改变 Research、Curation、Web Data schema、作家/作品/趣闻公开范围或 Public Release 暂停状态。
+
 ### WCD-08 / Author anecdotes
 
 - USER 批准 WCD-08 Review Pack 中原 `user_review` 的 95 条候选；原有 38 条 `hold`（包括唯一 HIGH 风险项）继续暂缓，不因本次批准改变状态。

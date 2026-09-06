@@ -82,6 +82,7 @@ Map / Timeline / Pages / Search
 ## 仓库结构
 
 ```text
+AGENTS.md   用户级治理基线在本项目的自动发现与路径映射
 data/       研究数据库、来源目录、变更集和导出数据
 site/       数字文学地图静态前端
 scripts/    数据构建、转换、验证和发布工具
@@ -111,7 +112,9 @@ project/    项目治理、长期规范、计划、正式审计和 AI 协作文�
 ## 文档入口
 
 - [项目文档总览](./docs/README.md)
+- [Agent 项目治理入口](./AGENTS.md)
 - [项目总章程](./project/PROJECT_CHARTER.md)
+- [活跃产品与重大变更 Spec](./project/plans)
 - [研究方法与来源原则](./docs/methodology)
 - [数据模型与维护](./docs/data)
 - [网站架构与数据流](./docs/web)

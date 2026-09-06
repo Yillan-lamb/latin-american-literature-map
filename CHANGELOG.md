@@ -22,6 +22,28 @@
 - 构建器、Web Data validator、public bundle validator、Python 契约测试与浏览器测试同步覆盖趣闻来源闭包、状态隔离、公开作者范围、字段白名单及零治理泄漏。
 - `V2-PUBLIC-RELEASE = PAUSED BY USER` 保持不变；本次批准是内容接入批准，不创建 tag、GitHub Release 或 production deployment，也不自动启动 WCD-09。
 
+## [Governance synchronization follow-up] - 2026-09-06
+
+### Governance / process
+
+- Charter `2.0.1` 先恢复并明确“提交前治理同步门禁”：所有可交付变更在首次 commit 前逐项检查并同步 `CHANGELOG.md`、本地 ignored `project/internal/TASKS.md`、`project/internal/DECISIONS.md` 及其他受影响入口；版本不变或 internal 不进入 Git 均不构成跳过理由。
+- 依 USER 明确要求读取用户级 `~/.codex/AGENTS.md` 与 `~/.agents/AGENTS.md`（两者内容一致），将 Charter 进一步修订至 `2.0.2`；新增根 `AGENTS.md` 自动发现入口，明确标准治理文件到项目现有路径的映射，不取消 `project/internal/` 的 ignored 与本地持久边界。
+- 补齐用户级基线要求：正式活跃任务必须包含目标/状态/验收标准，重要决策必须包含背景/决定/理由/影响，重大变更使用 `project/plans/` Spec，未验证结果标记 `NOT_VERIFIED`，且只有验收、验证和治理同步全部完成后才可标记 `DONE`。关联 `TASK-101 / DEC-058`。
+- `scripts/safe-push.sh` 新增显式 `--allow-charter-change` 通道，解决冻结章程在 USER 已明确授权修订时仍无法走安全推送的问题；默认继续拒绝章程变更，且该参数不跳过 base、提交身份、diff 或远端 OID 校验。
+- 追补 2026-09-05 已合并 [PR #27](https://github.com/Yillan-lamb/latin-american-literature-map/pull/27) 与 [PR #28](https://github.com/Yillan-lamb/latin-american-literature-map/pull/28) 当时遗漏的 CHANGELOG 记录；只新增本条，不修改 2026-09-03 及更早历史条目。
+- 下述 PR #27/#28 内容严格按各自合并时点记录；PR #28 的 `USER_REVIEW` 是当时历史事实。后续 PR #29 已将 WCD-08 推进为 `DONE`，当前版本与公开边界以上方 Web `0.4.0` 条目为准。
+
+### WCD-01—07 audit remediation / PR #27
+
+- 修正 WCD-07 current-main rebase 候选映射与主库可追溯性，加固公开部署包对实体、事实、关系、来源状态及地图父级闭包的 fail-closed 边界，并补充相应回归测试和 QA 记录。
+- Research Master、migration 与版本号未改变；Data 保持 `1.5.0 development candidate`，Research Schema 保持 `0.4`，Web 保持 `0.3.4 Development`，Web Data schema 保持 `v2-web-0.2`。
+
+### WCD-08 guarded preview baseline / PR #28
+
+- 新增数据驱动的作者页趣闻组件候选、本地 USER_REVIEW 预览构建器、趣闻候选/来源/风险泄漏检查及 preview-only 浏览器测试；生产 Web Data 在正式趣闻文件缺失或未获 USER 批准时继续 fail-closed。
+- WCD-08 的 133 条本地候选仍保存在 ignored 工作区，其中 95 条 `user_review`、38 条 `hold`；未写入 Research Master、正式 Curation、生产 Web Data 或 public bundle。`TASK-098 / WCD-08` 保持 `USER_REVIEW`，并未完成或公开。
+- 本轮不升级 Data、Research Schema、Web Data schema 或 Web Product；不创建 Tag、Release 或 production deployment。`TASK-099 / WCD-09` 继续 `LOCKED / NOT STARTED`，`V2-PUBLIC-RELEASE` 继续 `PAUSED BY USER`。
+
 ## [Data 1.5.0 / Web 0.3.4 — Development] - 2026-09-03
 
 ### Governance synchronization

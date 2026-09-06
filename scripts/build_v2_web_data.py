@@ -27,6 +27,10 @@ SCHEMA_VERSION = "v2-web-0.2"
 PRODUCT_VERSION = "0.3.4"
 CURATION_SCHEMA_VERSION = "v2-curation-0.1"
 ALLOWED_CURATION_STATUSES = {"auto_approved", "user_review", "hold"}
+# WCD-08 is still a candidate/USER_REVIEW delivery.  The current public
+# contract is v2-web-0.2, so no anecdote data may be projected until the
+# approved-content PR also lands v2-web-0.3 and its formal schema/validator.
+ANECDOTE_PROJECTION_ENABLED = False
 PRESENTATION_GROUPS = ("reading_paths", "timeline_periods", "why_read", "next_reads")
 DISCOVERY_RANKING_VERSION = "web-0.2-popularity-v1"
 DISCOVERY_PAGE_SIZE = 9
@@ -228,6 +232,150 @@ def load_geo(geo_dir: Path) -> tuple[list[dict[str, Any]], list[dict[str, Any]]]
             }
         )
     return places, place_relations
+
+
+ANECDOTE_SCHEMA_VERSION = "v2-curation-anecdotes-0.1"
+ANECDOTE_BOUNDARY_KINDS = {
+    "confirmed_fact",
+    "author_recollection",
+    "witness_recollection",
+    "biographer_reconstruction",
+    "disputed",
+    "legend_or_unverified",
+}
+ANECDOTE_ALLOWED_STATUSES = {"auto_approved", "user_review", "hold", "reject"}
+ANECDOTE_RISK_LEVELS = {"LOW", "MEDIUM", "HIGH"}
+ANECDOTE_FACT_STATUSES = {"confirmed", "partial", "disputed", "legend_or_unverified"}
+
+
+def _parse_reviewed_at(path: Path, anecdote_id: str, value: object) -> datetime:
+    if not isinstance(value, str) or not value.strip():
+        raise ValueError(f"{path}: {anecdote_id} requires reviewed_at for USER decision")
+    candidate = value.strip().replace("Z", "+00:00")
+    try:
+        return datetime.fromisoformat(candidate)
+    except ValueError as exc:
+        raise ValueError(f"{path}: {anecdote_id} has invalid reviewed_at {value!r}") from exc
+
+
+def load_approved_anecdotes(
+    curation_dir: Path,
+    valid_target_ids: set[str],
+    valid_author_ids: set[str] | None = None,
+) -> list[dict[str, Any]]:
+    """Load USER-approved anecdotes for public projection.
+
+    The file is optional: when absent, the build output is identical to the
+    pre-WCD-08 pipeline.  A formal file is validated even when its entry will
+    not be projected: malformed records must fail closed.  Only
+    `status == "auto_approved"` entries are returned, and every approved entry
+    must carry a USER reviewer and timestamp (DEC-054).  `user_review`, `hold`
+    and `reject` never reach the reader layer.
+    """
+    path = curation_dir / "CURATION_ANECDOTES.json"
+    if not path.exists():
+        return []
+    if valid_author_ids is None:
+        raise ValueError(f"{path}: valid_author_ids is required; target IDs alone cannot validate author ownership")
+    data = json.loads(path.read_text(encoding="utf-8"))
+    if data.get("schema_version") != ANECDOTE_SCHEMA_VERSION:
+        raise ValueError(f"{path}: expected schema {ANECDOTE_SCHEMA_VERSION}, got {data.get('schema_version')}")
+    records = data.get("anecdotes")
+    if not isinstance(records, list):
+        raise ValueError(f"{path}: anecdotes must be a list")
+    approved: list[dict[str, Any]] = []
+    seen: set[str] = set()
+    for index, record in enumerate(records, 1):
+        if not isinstance(record, dict):
+            raise ValueError(f"{path}: anecdote entry {index} must be an object")
+        anecdote_id = record.get("anecdote_id")
+        if not anecdote_id or anecdote_id in seen:
+            raise ValueError(f"{path}: missing or duplicate anecdote_id at entry {index}")
+        seen.add(anecdote_id)
+        status = record.get("status")
+        if status not in ANECDOTE_ALLOWED_STATUSES:
+            raise ValueError(f"{path}: invalid anecdote status for {anecdote_id}: {status}")
+        author_id = record.get("author_id")
+        if not isinstance(author_id, str) or author_id not in valid_author_ids:
+            raise ValueError(f"{path}: {anecdote_id} author_id {author_id!r} is not an author entity")
+        if author_id not in valid_target_ids:
+            raise ValueError(f"{path}: dangling anecdote author {author_id} for {anecdote_id}")
+        if record.get("display_scope") != "detail":
+            raise ValueError(f"{path}: {anecdote_id} display_scope must be detail")
+        if record.get("risk_level") not in ANECDOTE_RISK_LEVELS:
+            raise ValueError(f"{path}: {anecdote_id} has invalid risk_level {record.get('risk_level')!r}")
+        if record.get("fact_status") not in ANECDOTE_FACT_STATUSES:
+            raise ValueError(f"{path}: {anecdote_id} has invalid fact_status {record.get('fact_status')!r}")
+        boundaries = record.get("fact_boundary")
+        if not isinstance(boundaries, list) or not boundaries:
+            raise ValueError(f"{path}: {anecdote_id} requires a non-empty fact_boundary")
+        for boundary in boundaries:
+            if not isinstance(boundary, dict) or boundary.get("kind") not in ANECDOTE_BOUNDARY_KINDS:
+                raise ValueError(f"{path}: {anecdote_id} has invalid fact_boundary kind {boundary.get('kind') if isinstance(boundary, dict) else None}")
+            if not str(boundary.get("note") or "").strip():
+                raise ValueError(f"{path}: {anecdote_id} has an empty fact_boundary note")
+        source_refs = record.get("source_refs")
+        if not isinstance(source_refs, list) or not source_refs or any(not isinstance(ref, str) or not ref.strip() for ref in source_refs):
+            raise ValueError(f"{path}: {anecdote_id} requires non-empty source_refs")
+        reviewer = record.get("reviewer")
+        reviewed_at = record.get("reviewed_at")
+        if status == "auto_approved":
+            if reviewer != "USER":
+                raise ValueError(f"{path}: {anecdote_id} is auto_approved without USER review")
+            _parse_reviewed_at(path, anecdote_id, reviewed_at)
+        elif status == "reject":
+            if reviewer != "USER":
+                raise ValueError(f"{path}: rejected {anecdote_id} must record reviewer USER")
+            _parse_reviewed_at(path, anecdote_id, reviewed_at)
+        elif reviewer not in (None, "", "UNREVIEWED") or reviewed_at not in (None, ""):
+            raise ValueError(f"{path}: {anecdote_id} has USER approval metadata without auto_approved/reject status")
+        for key in ("title", "teaser", "story"):
+            value = str(record.get(key) or "").strip()
+            if not value:
+                raise ValueError(f"{path}: {anecdote_id} lacks {key}")
+            if contains_internal_reader_language(value):
+                raise ValueError(f"{path}: {anecdote_id}.{key} contains internal reader language")
+        if status != "auto_approved":
+            continue
+        approved.append(
+            {
+                "anecdote_id": anecdote_id,
+                "author_id": author_id,
+                "title": str(record["title"]).strip(),
+                "teaser": str(record["teaser"]).strip(),
+                "story": str(record["story"]).strip(),
+                "time_label": str(record.get("time_label") or "").strip(),
+                "location_label": str(record.get("location_label") or "").strip(),
+                "type_label": str(record.get("type_label") or "").strip(),
+                "sources_label": str(record.get("sources_label") or "").strip(),
+                "risk_level": record["risk_level"],
+                "fact_status": record["fact_status"],
+                "fact_boundary": boundaries,
+                "sort_order": int(record.get("sort_order") or 0),
+            }
+        )
+    approved.sort(key=lambda item: (item["author_id"], item["sort_order"], item["anecdote_id"]))
+    return approved
+
+
+def attach_anecdotes(
+    reader_content: dict[str, list[dict[str, Any]]],
+    anecdotes: list[dict[str, Any]],
+    public_author_ids: set[str],
+) -> None:
+    """Project approved anecdotes onto public author reader records (additive)."""
+    if not anecdotes:
+        return
+    by_author: dict[str, list[dict[str, Any]]] = defaultdict(list)
+    for item in anecdotes:
+        if item["author_id"] in public_author_ids:
+            by_author[item["author_id"]].append(item)
+    for record in reader_content.get("authors", []):
+        items = by_author.get(record.get("target_id", ""), [])
+        if items:
+            record["anecdotes"] = [
+                {key: value for key, value in item.items() if key not in {"author_id"}} for item in items
+            ]
 
 
 def load_curation(curation_dir: Path, valid_target_ids: set[str]) -> dict[str, list[dict[str, Any]]]:
@@ -725,6 +873,21 @@ def build_data(db_path: Path, geo_dir: Path, curation_dir: Path, presentation_pa
         public_work_ids,
         public_place_ids,
     )
+    anecdote_file = curation_dir / "CURATION_ANECDOTES.json"
+    if anecdote_file.exists():
+        if not ANECDOTE_PROJECTION_ENABLED:
+            raise ValueError(
+                f"{anecdote_file}: WCD-08 production projection is disabled in {SCHEMA_VERSION}; "
+                "USER approval and the v2-web-0.3 schema/validator must land in the same PR before enabling it"
+            )
+        valid_author_ids = {
+            entity["entity_id"] for entity in entities if entity.get("entity_type") == "author"
+        }
+        attach_anecdotes(
+            reader_content,
+            load_approved_anecdotes(curation_dir, valid_target_ids, valid_author_ids),
+            public_author_ids,
+        )
     presentation_public["discovery"] = build_discovery_ranking(
         content_public,
         reader_content,

@@ -20,7 +20,9 @@
 
 ### Governance / process
 
-- Charter 修订至 `2.0.1`，恢复并明确“提交前治理同步门禁”：所有可交付变更在首次 commit 前逐项检查并同步 `CHANGELOG.md`、本地 ignored `project/internal/TASKS.md`、`project/internal/DECISIONS.md` 及其他受影响入口；版本不变或 internal 不进入 Git 均不构成跳过理由。
+- Charter `2.0.1` 先恢复并明确“提交前治理同步门禁”：所有可交付变更在首次 commit 前逐项检查并同步 `CHANGELOG.md`、本地 ignored `project/internal/TASKS.md`、`project/internal/DECISIONS.md` 及其他受影响入口；版本不变或 internal 不进入 Git 均不构成跳过理由。
+- 依 USER 明确要求读取用户级 `~/.codex/AGENTS.md` 与 `~/.agents/AGENTS.md`（两者内容一致），将 Charter 进一步修订至 `2.0.2`；新增根 `AGENTS.md` 自动发现入口，明确标准治理文件到项目现有路径的映射，不取消 `project/internal/` 的 ignored 与本地持久边界。
+- 补齐用户级基线要求：正式活跃任务必须包含目标/状态/验收标准，重要决策必须包含背景/决定/理由/影响，重大变更使用 `project/plans/` Spec，未验证结果标记 `NOT_VERIFIED`，且只有验收、验证和治理同步全部完成后才可标记 `DONE`。关联 `TASK-101 / DEC-058`。
 - `scripts/safe-push.sh` 新增显式 `--allow-charter-change` 通道，解决冻结章程在 USER 已明确授权修订时仍无法走安全推送的问题；默认继续拒绝章程变更，且该参数不跳过 base、提交身份、diff 或远端 OID 校验。
 - 追补 2026-09-05 已合并 [PR #27](https://github.com/Yillan-lamb/latin-american-literature-map/pull/27) 与 [PR #28](https://github.com/Yillan-lamb/latin-american-literature-map/pull/28) 当时遗漏的 CHANGELOG 记录；只新增本条，不修改 2026-09-03 及更早历史条目。
 - 下述 PR #27/#28 内容严格按各自合并时点记录；PR #28 的 `USER_REVIEW` 是当时历史事实。后续 PR #29 已将 WCD-08 推进为 `DONE`，当前版本与公开边界以上方 Web `0.4.0` 条目为准。

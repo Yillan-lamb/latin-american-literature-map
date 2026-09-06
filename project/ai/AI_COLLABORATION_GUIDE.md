@@ -2,16 +2,21 @@
 
 - 文件性质：跨版本长期协作规则
 - 适用范围：Codex、外部 AI、Worker、Reviewer、脚本和与项目交付有关的其他 Agent
-- 最高约束：[`../PROJECT_CHARTER.md`](../PROJECT_CHARTER.md)
+- 项目自动发现与用户级映射：[`../../AGENTS.md`](../../AGENTS.md)
+- 项目最高长期约束：[`../PROJECT_CHARTER.md`](../PROJECT_CHARTER.md)（位于 USER 当前指示和适用用户级基线之下）
 
 本指南只说明可长期复用的协作方法，不记录当前任务、当前版本、临时提示或动态统计。动态项目管理统一放在被忽略的 `project/internal/`。
 
 ## 1. 开工前的阅读顺序
 
 1. 读取 `project/PROJECT_CHARTER.md`，确认使命、权限、数据和公开边界。
-2. 按任务类型读取相关稳定文档：数据任务读取 `docs/data/`，网站任务读取 `project/plans/` 与 `docs/web/`，来源任务读取 `docs/methodology/`。
-3. 读取 `project/internal/TASKS.md` 和 `project/internal/DECISIONS.md`，确认任务登记、依赖和已生效决策；两者只在本地可见。
-4. 需要历史背景时才读取 `project/archive/` 或正式审计，不把历史材料当作当前指令。
+2. 读取 `project/internal/TASKS.md`，确认当前任务 ID、状态、目标、验收标准和依赖。
+3. 只读取当前任务相关的 `project/internal/DECISIONS.md` 部分，确认已生效决策和取代关系。
+4. 读取相关 `project/plans/` Spec 及稳定领域文档：数据任务读取 `docs/data/`，网站任务读取 `project/plans/` 与 `docs/web/`，来源任务读取 `docs/methodology/`。
+5. 读取 `CHANGELOG.md` 中最近且与当前任务相关的条目，再检查实际代码、数据和测试。
+6. 需要历史背景时才读取 `project/archive/` 或旧审计，不把历史材料当作当前指令。
+
+无需每次通读全部历史。完成上述阅读后，开工前明确确认当前项目阶段、任务、范围、验收标准和必要依赖；信息缺失或互相冲突时不得静默猜测。
 
 ### Internal-state fallback
 
@@ -50,7 +55,10 @@ Research Data、Curation Data、Web Data 和读者向文字必须分层。AI 可
 ## 4. 内部记录与任务包
 
 - `project/internal/TASKS.md` 是唯一连续全局任务源，使用 `TASK-001` 形式的三位数字编号，并在每条记录保留 `Legacy ID`。
+- 正式活跃任务至少包含稳定 ID、目标、状态和验收标准；必要时增加依赖、关联 DEC 和 Spec。历史完成任务可指向正式审计/归档交付，不为补格式而改写。
 - `project/internal/DECISIONS.md` 是当前决策记录；旧决策正文不因路径迁移而改写。
+- 新的重要决策至少记录背景、决定、理由和影响；取代旧决策时保留旧记录并明确新的取代关系。
+- 重大功能、核心架构/数据模型、跨模块重构、主要用户流程变更或多阶段/多 Agent 任务，在 `project/plans/` 建立 Spec，按“背景 → 目标 → 非目标 → 方案 → 验收标准”组织。小型修复、局部优化和普通内容调整无需额外 Spec。
 - 临时 prompt、handoff、scratchpad 和 review 放在 `project/internal/prompts/`、`handoffs/`、`reviews/` 等目录。
 - 需要公开追踪的正式审计、发布结论和可复核交付仍放在 Git 跟踪的相应目录；过程性交接不复制到公开目录。
 - 任何动态状态只保留一个来源；README、产品说明书和稳定 SOP 不写另一套当前任务表。
@@ -69,6 +77,8 @@ Research Data、Curation Data、Web Data 和读者向文字必须分层。AI 可
 如在 commit 后发现遗漏，须在同一分支/PR 内追加治理修复并在合并前闭合；如合并后才发现，立即创建窄修复，不得留给下一任务。`project/internal/` 虽被 Git 忽略，仍必须先完成本地同步；不得因其不会出现在 PR diff 中而跳过。
 
 每次交付前检查活动链接、`git diff --check`、敏感信息、归档完整性、内部目录未被追踪，以及适用的数据、Schema、Web、构建和浏览器门禁。治理或文档整理不应顺手增加无关公开文学内容或改变研究数据。
+
+凡可验证的结果必须运行实际验证；无法验证或未完成验证的结果明确标记 `NOT_VERIFIED` 及原因。如需在假设下继续，在任务或交接中写明假设和适用边界。任务只有在验收标准满足、必要验证通过、治理检查/同步完成后才能标记 `DONE`；中断时必须在持久项目文件中留下状态、剩余工作和验证结果。
 
 ## 6. 版本与发布
 

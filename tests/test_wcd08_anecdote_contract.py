@@ -44,6 +44,24 @@ def record(
 
 class Wcd08AnecdoteContractTests(unittest.TestCase):
     def write_doc(self, directory, rows):
+        (directory / "CURATION_ANECDOTE_SOURCES.json").write_text(
+            json.dumps(
+                {
+                    "schema_version": MODULE.ANECDOTE_SOURCE_SCHEMA_VERSION,
+                    "source_count": 1,
+                    "sources": [
+                        {
+                            "source_id": "SRC-001",
+                            "title": "A primary source",
+                            "url": "https://example.org/source",
+                            "author_or_publisher": "Archive",
+                            "year": "1930",
+                        }
+                    ],
+                }
+            ),
+            encoding="utf-8",
+        )
         (directory / "CURATION_ANECDOTES.json").write_text(
             json.dumps({"schema_version": MODULE.ANECDOTE_SCHEMA_VERSION, "anecdotes": rows}),
             encoding="utf-8",
@@ -69,6 +87,8 @@ class Wcd08AnecdoteContractTests(unittest.TestCase):
             self.write_doc(directory, [approved, unapproved, held, rejected])
             items = self.load(directory)
             self.assertEqual([item["anecdote_id"] for item in items], ["A-001"])
+            self.assertEqual(items[0]["sources_label"], "A primary source（Archive，1930）")
+            self.assertFalse({"risk_level", "fact_status", "fact_boundary", "source_refs"} & set(items[0]))
             reader = {"authors": [{"target_id": "AUTH-1"}]}
             MODULE.attach_anecdotes(reader, items, {"AUTH-1"})
             self.assertEqual(reader["authors"][0]["anecdotes"][0]["anecdote_id"], "A-001")
@@ -108,6 +128,15 @@ class Wcd08AnecdoteContractTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as raw:
             directory = Path(raw)
             bad = record(fact_boundary=[])
+            self.write_doc(directory, [bad])
+            with self.assertRaises(ValueError):
+                self.load(directory)
+
+    def test_dangling_source_is_rejected(self):
+        with tempfile.TemporaryDirectory() as raw:
+            directory = Path(raw)
+            bad = record()
+            bad["source_refs"] = ["SRC-MISSING"]
             self.write_doc(directory, [bad])
             with self.assertRaises(ValueError):
                 self.load(directory)

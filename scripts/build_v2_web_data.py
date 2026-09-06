@@ -14,6 +14,7 @@ from contextlib import closing
 from datetime import date, datetime, timezone
 from pathlib import Path
 from typing import Any
+from urllib.parse import urlsplit
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -23,14 +24,13 @@ DEFAULT_CURATION = ROOT / "data/v2/curation"
 DEFAULT_OUTPUT = ROOT / "data/v2/web"
 DEFAULT_PRESENTATION = ROOT / "data/v2/presentation/PUBLIC_PRESENTATION.json"
 DEFAULT_PUBLIC_CONTENT = ROOT / "data/v2/curation/PUBLIC_CONTENT.json"
-SCHEMA_VERSION = "v2-web-0.2"
-PRODUCT_VERSION = "0.3.4"
+SCHEMA_VERSION = "v2-web-0.3"
+PRODUCT_VERSION = "0.4.0"
 CURATION_SCHEMA_VERSION = "v2-curation-0.1"
 ALLOWED_CURATION_STATUSES = {"auto_approved", "user_review", "hold"}
-# WCD-08 is still a candidate/USER_REVIEW delivery.  The current public
-# contract is v2-web-0.2, so no anecdote data may be projected until the
-# approved-content PR also lands v2-web-0.3 and its formal schema/validator.
-ANECDOTE_PROJECTION_ENABLED = False
+# USER approved the WCD-08 review set on 2026-09-06.  Projection remains
+# fail-closed: only formal auto_approved records owned by public authors pass.
+ANECDOTE_PROJECTION_ENABLED = True
 PRESENTATION_GROUPS = ("reading_paths", "timeline_periods", "why_read", "next_reads")
 DISCOVERY_RANKING_VERSION = "web-0.2-popularity-v1"
 DISCOVERY_PAGE_SIZE = 9
@@ -131,7 +131,18 @@ def contains_internal_reader_language(value: object) -> bool:
     if isinstance(value, list):
         return any(contains_internal_reader_language(item) for item in value)
     if isinstance(value, dict):
-        return any(contains_internal_reader_language(item) for item in value.values())
+        for key, item in value.items():
+            if key == "anecdotes" and isinstance(item, list):
+                for anecdote in item:
+                    if isinstance(anecdote, dict) and any(
+                        ANECDOTE_INTERNAL_LANGUAGE.search(str(anecdote.get(field) or ""))
+                        for field in ("title", "teaser", "story")
+                    ):
+                        return True
+                continue
+            if contains_internal_reader_language(item):
+                return True
+        return False
     return False
 
 
@@ -235,6 +246,7 @@ def load_geo(geo_dir: Path) -> tuple[list[dict[str, Any]], list[dict[str, Any]]]
 
 
 ANECDOTE_SCHEMA_VERSION = "v2-curation-anecdotes-0.1"
+ANECDOTE_SOURCE_SCHEMA_VERSION = "v2-curation-anecdote-sources-0.1"
 ANECDOTE_BOUNDARY_KINDS = {
     "confirmed_fact",
     "author_recollection",
@@ -246,6 +258,47 @@ ANECDOTE_BOUNDARY_KINDS = {
 ANECDOTE_ALLOWED_STATUSES = {"auto_approved", "user_review", "hold", "reject"}
 ANECDOTE_RISK_LEVELS = {"LOW", "MEDIUM", "HIGH"}
 ANECDOTE_FACT_STATUSES = {"confirmed", "partial", "disputed", "legend_or_unverified"}
+ANECDOTE_INTERNAL_LANGUAGE = re.compile(
+    r"auto_approved|user_review|review_status|research_refs|basis_note|V1-ENT-|(?:^|\W)SRC-\d"
+)
+
+
+def load_anecdote_sources(curation_dir: Path) -> dict[str, dict[str, Any]]:
+    path = curation_dir / "CURATION_ANECDOTE_SOURCES.json"
+    if not path.exists():
+        raise ValueError(f"{path}: formal anecdote source registry is required")
+    data = json.loads(path.read_text(encoding="utf-8"))
+    if data.get("schema_version") != ANECDOTE_SOURCE_SCHEMA_VERSION:
+        raise ValueError(
+            f"{path}: expected schema {ANECDOTE_SOURCE_SCHEMA_VERSION}, got {data.get('schema_version')}"
+        )
+    records = data.get("sources")
+    if not isinstance(records, list) or not records:
+        raise ValueError(f"{path}: sources must be a non-empty list")
+    indexed: dict[str, dict[str, Any]] = {}
+    for index, record in enumerate(records, 1):
+        if not isinstance(record, dict):
+            raise ValueError(f"{path}: source entry {index} must be an object")
+        source_id = record.get("source_id")
+        if not isinstance(source_id, str) or not source_id or source_id in indexed:
+            raise ValueError(f"{path}: missing or duplicate source_id at entry {index}")
+        title = str(record.get("title") or "").strip()
+        url = str(record.get("url") or "").strip()
+        parsed = urlsplit(url)
+        if not title or parsed.scheme not in {"http", "https"} or not parsed.netloc:
+            raise ValueError(f"{path}: {source_id} requires a title and public HTTP(S) URL")
+        indexed[source_id] = record
+    if data.get("source_count") != len(indexed):
+        raise ValueError(f"{path}: source_count does not match sources")
+    return indexed
+
+
+def public_source_label(source: dict[str, Any]) -> str:
+    title = str(source["title"]).strip()
+    publisher = str(source.get("author_or_publisher") or "").strip()
+    year = str(source.get("year") or "").strip()
+    details = "，".join(value for value in (publisher, year) if value and value not in title)
+    return f"{title}（{details}）" if details else title
 
 
 def _parse_reviewed_at(path: Path, anecdote_id: str, value: object) -> datetime:
@@ -283,6 +336,7 @@ def load_approved_anecdotes(
     records = data.get("anecdotes")
     if not isinstance(records, list):
         raise ValueError(f"{path}: anecdotes must be a list")
+    sources = load_anecdote_sources(curation_dir)
     approved: list[dict[str, Any]] = []
     seen: set[str] = set()
     for index, record in enumerate(records, 1):
@@ -317,6 +371,9 @@ def load_approved_anecdotes(
         source_refs = record.get("source_refs")
         if not isinstance(source_refs, list) or not source_refs or any(not isinstance(ref, str) or not ref.strip() for ref in source_refs):
             raise ValueError(f"{path}: {anecdote_id} requires non-empty source_refs")
+        missing_sources = [ref for ref in source_refs if ref not in sources]
+        if missing_sources:
+            raise ValueError(f"{path}: {anecdote_id} has dangling source_refs {missing_sources}")
         reviewer = record.get("reviewer")
         reviewed_at = record.get("reviewed_at")
         if status == "auto_approved":
@@ -333,7 +390,7 @@ def load_approved_anecdotes(
             value = str(record.get(key) or "").strip()
             if not value:
                 raise ValueError(f"{path}: {anecdote_id} lacks {key}")
-            if contains_internal_reader_language(value):
+            if ANECDOTE_INTERNAL_LANGUAGE.search(value):
                 raise ValueError(f"{path}: {anecdote_id}.{key} contains internal reader language")
         if status != "auto_approved":
             continue
@@ -347,10 +404,7 @@ def load_approved_anecdotes(
                 "time_label": str(record.get("time_label") or "").strip(),
                 "location_label": str(record.get("location_label") or "").strip(),
                 "type_label": str(record.get("type_label") or "").strip(),
-                "sources_label": str(record.get("sources_label") or "").strip(),
-                "risk_level": record["risk_level"],
-                "fact_status": record["fact_status"],
-                "fact_boundary": boundaries,
+                "sources_label": "；".join(public_source_label(sources[ref]) for ref in source_refs),
                 "sort_order": int(record.get("sort_order") or 0),
             }
         )
@@ -888,6 +942,9 @@ def build_data(db_path: Path, geo_dir: Path, curation_dir: Path, presentation_pa
             load_approved_anecdotes(curation_dir, valid_target_ids, valid_author_ids),
             public_author_ids,
         )
+    projected_anecdote_count = sum(
+        len(record.get("anecdotes", [])) for record in reader_content.get("authors", [])
+    )
     presentation_public["discovery"] = build_discovery_ranking(
         content_public,
         reader_content,
@@ -1018,6 +1075,7 @@ def build_data(db_path: Path, geo_dir: Path, curation_dir: Path, presentation_pa
             "curation_entries": len(curation["entries"]),
             "curation_selections": len(curation["selections"]),
             "curation_recommendations": len(curation["recommendations"]),
+            "anecdotes": projected_anecdote_count,
         },
         "research": {
             "entities": entities,

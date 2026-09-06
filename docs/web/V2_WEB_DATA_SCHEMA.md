@@ -26,7 +26,7 @@ data/v2/curation/ ─────────────┘
 
 | 键 | 用途 |
 |---|---|
-| `schema_version` | 当前 `v2-web-0.2` |
+| `schema_version` | 当前 `v2-web-0.3` |
 | `generated_at` | 构建时间；发布构建应固定记录 |
 | `data_sources` | 输入文件与数据库路径 |
 | `counts` | 构建统计，供 QA 和审核包使用 |
@@ -48,6 +48,7 @@ data/v2/curation/ ─────────────┘
 - `search_index` 只承载检索字段与目标 ID；地点实体在索引中归一为 `country`、`place` 或 `fictional_space`，关联节点保留原实体类型；页面路由由前端路由层决定，不在数据中硬编码外部 URL。
 - `timeline` 以作家和作品文学节点为主体，不创建独立事件地图；必要的历史背景事件可以在作品页和时间线中消费。
 - `research` 可以包含 `hold`、`research_gap` 等状态，但普通阅读组件只能消费已审核或明确允许的字段。
+- `reader_content.authors[].anecdotes` 是 WCD-08 的加法字段，仅包含现有公开作者的 USER 批准条目。每条只允许 `anecdote_id`、`title`、`teaser`、`story`、`time_label`、`location_label`、`type_label`、`sources_label`、`sort_order`；不得携带状态、审核人/时间、风险、事实边界或内部来源引用。
 
 ## 5. 双层阅读
 
@@ -69,6 +70,8 @@ data/v2/curation/ ─────────────┘
 - 公共策展结果只含 `auto_approved`；
 - 推荐记录不写入研究关系；
 - 研究实体全部进入搜索索引。
+- 趣闻正式来源引用全部闭合，只有 `auto_approved + USER + detail` 可投影，且投影不扩张 `public_scope.authors`；
+- `counts.anecdotes` 与 reader projection 实际条数一致，public bundle 继续执行字段白名单和治理字段泄漏检查。
 
 `validate_v2_web_data.py` 对生成结果再次检查悬空引用、数量、状态门禁和虚构空间坐标安全。任何失败都应阻止进入 S3/S4。
 

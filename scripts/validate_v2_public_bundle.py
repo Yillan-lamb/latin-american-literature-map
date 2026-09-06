@@ -11,7 +11,12 @@ from pathlib import Path
 from urllib.parse import urlparse
 
 
-FORBIDDEN_KEYS = {"review_status", "admission_status", "source_minimum_status", "schema_version", "review_queue", "presentation_review_queue", "public_content_review_queue", "content_zh", "basis_note", "reviewer"}
+FORBIDDEN_KEYS = {
+    "review_status", "admission_status", "source_minimum_status", "schema_version",
+    "review_queue", "presentation_review_queue", "public_content_review_queue",
+    "content_zh", "basis_note", "reviewer", "reviewed_at", "risk_level",
+    "fact_status", "fact_boundary", "legacy_candidate_id",
+}
 PUBLIC_FACT_EVIDENCE_STATUS = {"verified", "provisional"}
 
 
@@ -64,6 +69,23 @@ def main() -> int:
         hidden_evidence = sorted({item.get("target_id") for item in payload.get("content_evidence", {}).get(group, []) if item.get("target_id") not in public_ids})
         if hidden_reader or hidden_evidence:
             raise ValueError(f"public {group} projection contains non-public targets: reader={hidden_reader}, evidence={hidden_evidence}")
+
+    allowed_anecdote_keys = {
+        "anecdote_id", "title", "teaser", "story", "time_label",
+        "location_label", "type_label", "sources_label", "sort_order",
+    }
+    anecdote_ids = []
+    for author in payload["reader_content"].get("authors", []):
+        for item in author.get("anecdotes", []):
+            if set(item) - allowed_anecdote_keys:
+                raise ValueError(f"public anecdote exposes non-reader fields: {item.get('anecdote_id')}")
+            if not all(str(item.get(key) or "").strip() for key in ("anecdote_id", "title", "teaser", "story", "sources_label")):
+                raise ValueError(f"public anecdote lacks required copy/source label: {item.get('anecdote_id')}")
+            anecdote_ids.append(item["anecdote_id"])
+    if len(anecdote_ids) != len(set(anecdote_ids)):
+        raise ValueError("public bundle contains duplicate anecdote IDs")
+    if any(record.get("anecdotes") for group in ("works", "places") for record in payload["reader_content"].get(group, [])):
+        raise ValueError("public anecdotes may only appear on author records")
 
     map_places = payload.get("map", {}).get("places", [])
     map_places_by_id = {item.get("place_id"): item for item in map_places}
@@ -149,7 +171,7 @@ def main() -> int:
     sitemap_urls = {path[len(site_base):] for path in sitemap_paths}
     if not set(routes.values()).issubset(sitemap_urls):
         raise ValueError("sitemap omits public entity routes")
-    result = {"status": "PASS", "public_entities": len(routes), "sitemap_urls": len(sitemap_urls), "forbidden_keys": leaked}
+    result = {"status": "PASS", "public_entities": len(routes), "public_anecdotes": len(anecdote_ids), "sitemap_urls": len(sitemap_urls), "forbidden_keys": leaked}
     print(json.dumps(result, ensure_ascii=False, sort_keys=True))
     return 0
 

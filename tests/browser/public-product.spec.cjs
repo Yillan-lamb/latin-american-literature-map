@@ -23,7 +23,11 @@ test.afterEach(async ({ page }) => {
   expect(await page.locator("body").innerText()).not.toMatch(forbidden);
   const ordinaryReaderText = await page.evaluate(() => {
     const copy = document.body.cloneNode(true);
-    copy.querySelectorAll("details, [data-review-preview-banner]").forEach((item) => item.remove());
+    // The legacy reader-copy heuristic predates WCD-08 and intentionally
+    // rejects words such as “传记” even when they are ordinary anecdote prose.
+    // Anecdotes have a separate schema/token/governance gate, so exclude the
+    // complete component from this older evidence-process scan.
+    copy.querySelectorAll("details, [data-review-preview-banner], .anecdotes-section").forEach((item) => item.remove());
     return copy.innerText;
   });
   const evidenceMatch = ordinaryReaderText.match(readerEvidenceLeakage)?.[0] || "none";
@@ -251,6 +255,29 @@ test("places, author, work, sources and navigation", async ({ page }) => {
   await expect(page.getByText("带着一个问题去读")).toBeVisible();
   await page.goBack();
   await expect(page.getByText("为什么值得认识")).toBeVisible();
+});
+
+test("approved WCD-08 anecdotes render only on public author pages", async ({ page, request }) => {
+  const webData = await (await request.get("data/v2/web/site_data.json")).json();
+  const anecdotes = webData.reader_content.authors.flatMap((author) => author.anecdotes || []);
+  expect(anecdotes).toHaveLength(82);
+  expect(anecdotes.some((item) => item.anecdote_id === "W08C-042")).toBe(false);
+  expect(anecdotes.some((item) => item.anecdote_id === "W08C-067")).toBe(false);
+  const forbiddenKeys = ["status", "reviewer", "reviewed_at", "risk_level", "fact_status", "fact_boundary", "source_refs"];
+  expect(anecdotes.every((item) => forbiddenKeys.every((key) => !(key in item)))).toBe(true);
+
+  await page.goto("authors/jorge-luis-borges-v1-ent-0002/");
+  const section = page.locator(".anecdotes-section");
+  await expect(section.getByRole("heading", { name: "作家的另一面" })).toBeVisible();
+  const first = section.locator(".anecdote-card").first();
+  await expect(first.locator(".anecdote-teaser")).toBeVisible();
+  await first.locator("details.anecdote-detail > summary").click();
+  await expect(first.locator(".anecdote-body")).toBeVisible();
+  await first.locator("details.anecdote-sources > summary").click();
+  await expect(first.locator("details.anecdote-sources p")).not.toBeEmpty();
+
+  await page.goto("");
+  await expect(page.locator(".anecdotes-section")).toHaveCount(0);
 });
 
 test("search expands formal relationships", async ({ page }) => {
@@ -565,7 +592,7 @@ test("every sitemap route renders public reader text without governance language
     expect(text, route).not.toMatch(forbidden);
     const ordinaryText = await page.evaluate(() => {
       const copy = document.body.cloneNode(true);
-      copy.querySelectorAll("details, [data-review-preview-banner]").forEach((item) => item.remove());
+      copy.querySelectorAll("details, [data-review-preview-banner], .anecdotes-section").forEach((item) => item.remove());
       return copy.innerText;
     });
     const evidenceMatch = ordinaryText.match(readerEvidenceLeakage)?.[0] || "none";

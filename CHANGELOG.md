@@ -2,6 +2,20 @@
 
 本文件记录拉丁美洲文学地图各版本的实际修改。格式参考 Keep a Changelog，版本号遵循语义化版本规则。
 
+## [Data 1.5.0 / Web 0.4.0 — Development] - 2026-09-06
+
+### WCD-08 / Author anecdotes
+
+- USER 批准 WCD-08 Review Pack 中原 `user_review` 的 95 条候选；原有 38 条 `hold`（包括唯一 HIGH 风险项）继续暂缓，不因本次批准改变状态。
+- 新增正式 `CURATION_ANECDOTES.json` 与 `CURATION_ANECDOTE_SOURCES.json`：完整登记 133 条趣闻及 119 项来源，以 USER 审核时间、正式来源 ID、事实边界和风险门禁保留可追溯性；Research Master、Research Data 版本与 Schema 0.4 均不变。
+- 生产 reader projection 仅接入 `auto_approved + detail`，并进一步受现有公开作者范围约束：95 条已批准内容中 82 条投影至 24 位公开作者，另 13 条因对应作者不在公开范围而不投影。
+- Web Data 升至 `v2-web-0.3`，Web 升至 `0.4.0 Development`；普通阅读层只携带标题、导语、正文、显示标签和可读来源说明，审核人、时间、风险等级、事实状态、事实边界及内部来源 ID 均不进入公开 bundle。
+
+### Gate / release boundary
+
+- 构建器、Web Data validator、public bundle validator、Python 契约测试与浏览器测试同步覆盖趣闻来源闭包、状态隔离、公开作者范围、字段白名单及零治理泄漏。
+- `V2-PUBLIC-RELEASE = PAUSED BY USER` 保持不变；本次批准是内容接入批准，不创建 tag、GitHub Release 或 production deployment，也不自动启动 WCD-09。
+
 ## [Data 1.5.0 / Web 0.3.4 — Development] - 2026-09-03
 
 ### Governance synchronization

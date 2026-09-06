@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""WCD-08 USER_REVIEW 本地预览构建器。
+"""WCD-08 本地决策核对预览构建器。
 
 把候选趣闻（全部默认 user_review）注入 site_data 副本并输出到本地预览目录，
 供 USER 在浏览器中查看作者页“作家的另一面”板块候选效果。
@@ -20,7 +20,7 @@ REPO = Path(__file__).resolve().parent.parent
 DEFAULT_CANDIDATES = REPO / "work/wcd08/WCD08_ANECDOTE_CANDIDATES.json"
 DEFAULT_SOURCES = REPO / "work/wcd08/WCD08_SOURCES.json"
 DEFAULT_OUT = REPO / "work/wcd08/preview"
-BANNER_TEXT = "WCD-08 USER_REVIEW 预览（非公开包）：以下“作家的另一面”板块内容尚未经 USER 批准，禁止用于正式站点。"
+BANNER_TEXT = "WCD-08 决策核对预览（非公开包）：95 条已批准、38 条继续暂缓；正式 Public Release 仍暂停。"
 
 TYPE_ZH = {
     "work_genesis": "作品诞生", "writing_habit": "写作习惯", "reading_influence": "阅读影响",
@@ -46,13 +46,21 @@ def main() -> int:
     candidates_doc = json.loads(args.candidates.read_text(encoding="utf-8"))
     sources_doc = json.loads(args.sources.read_text(encoding="utf-8"))
     src_index = {s["source_id"]: s for s in sources_doc.get("sources", [])}
+    formal_path = REPO / "data/v2/curation/CURATION_ANECDOTES.json"
+    formal_status = {}
+    if formal_path.exists():
+        formal_status = {
+            item.get("legacy_candidate_id", item["anecdote_id"]): item["status"]
+            for item in json.loads(formal_path.read_text(encoding="utf-8")).get("anecdotes", [])
+        }
 
     site_data = json.loads((REPO / "data/v2/web/site_data.json").read_text(encoding="utf-8"))
     public_authors = {a["target_id"] for a in site_data.get("reader_content", {}).get("authors", [])}
 
     by_author: dict[str, list[dict]] = {}
     for c in candidates_doc.get("candidates", []):
-        if c.get("status") not in {"user_review", "hold"}:
+        decision_status = formal_status.get(c["candidate_anecdote_id"], c.get("status"))
+        if decision_status not in {"auto_approved", "user_review", "hold"}:
             continue
         if c.get("author_id") not in public_authors:
             continue  # 非公开范围作者的候选不进入预览
@@ -72,7 +80,7 @@ def main() -> int:
                 "location_label": c.get("location_label") or "",
                 "type_label": type_label(c.get("anecdote_type") or ""),
                 "sources_label": "；".join(src_parts),
-                "status": c.get("status"),
+                "status": decision_status,
                 "risk_level": c.get("risk_level"),
                 "hold_reason": c.get("hold_reason") or "",
                 "preview_mode": True,

@@ -7,7 +7,7 @@ import argparse
 import json
 from pathlib import Path
 
-from build_v2_web_data import contains_internal_reader_language
+from build_v2_web_data import ANECDOTE_INTERNAL_LANGUAGE, contains_internal_reader_language
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -69,9 +69,9 @@ def main() -> int:
     parser.add_argument("path", type=Path, nargs="?", default=DEFAULT_DATA)
     args = parser.parse_args()
     payload = json.loads(args.path.read_text(encoding="utf-8"))
-    if payload.get("schema_version") != "v2-web-0.2":
+    if payload.get("schema_version") != "v2-web-0.3":
         fail("unexpected Web Data schema_version")
-    if payload.get("product_version") != "0.3.4":
+    if payload.get("product_version") != "0.4.0":
         fail("unexpected Web Product version")
     for key in ("research", "curation", "review_queue", "public_content", "public_content_review_queue", "reader_content", "presentation", "presentation_review_queue", "public_scope", "pages", "map", "qa", "search_index", "timeline"):
         if key not in payload:
@@ -207,9 +207,37 @@ def main() -> int:
             fail(f"reader content escapes public scope: {group}")
         if group in {"authors", "works"} and set(target_ids) != set(payload["public_scope"][group]):
             fail(f"reader content does not cover every public {group}")
-    for path, value in reader_strings(reader_content):
+    reader_without_anecdotes = {
+        group: [{key: value for key, value in record.items() if key != "anecdotes"} for record in records]
+        for group, records in reader_content.items()
+    }
+    for path, value in reader_strings(reader_without_anecdotes):
         if contains_internal_reader_language(value):
             fail(f"internal evidence-process language leaked into {path}: {value[:80]}")
+
+    allowed_anecdote_keys = {
+        "anecdote_id", "title", "teaser", "story", "time_label",
+        "location_label", "type_label", "sources_label", "sort_order",
+    }
+    anecdote_ids: list[str] = []
+    for author in reader_content["authors"]:
+        items = author.get("anecdotes", [])
+        if not isinstance(items, list):
+            fail(f"author anecdotes must be a list: {author.get('target_id')}")
+        for item in items:
+            if set(item) - allowed_anecdote_keys:
+                fail(f"reader anecdote exposes non-public fields: {item.get('anecdote_id')}")
+            if not all(str(item.get(key) or "").strip() for key in ("anecdote_id", "title", "teaser", "story", "sources_label")):
+                fail(f"reader anecdote lacks required copy/source label: {item.get('anecdote_id')}")
+            if any(ANECDOTE_INTERNAL_LANGUAGE.search(str(item.get(key) or "")) for key in ("title", "teaser", "story")):
+                fail(f"internal workflow token leaked into anecdote: {item.get('anecdote_id')}")
+            anecdote_ids.append(item["anecdote_id"])
+    if len(anecdote_ids) != len(set(anecdote_ids)):
+        fail("duplicate reader anecdote id")
+    if len(anecdote_ids) != payload["counts"].get("anecdotes"):
+        fail("anecdote count mismatch")
+    if any(record.get("anecdotes") for group in ("works", "places") for record in reader_content[group]):
+        fail("anecdotes may only be attached to author reader records")
 
     discovery = presentation.get("discovery")
     if not isinstance(discovery, dict) or discovery.get("algorithm_version") != "web-0.2-popularity-v1":

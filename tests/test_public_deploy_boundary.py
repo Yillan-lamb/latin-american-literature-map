@@ -46,6 +46,17 @@ class PublicDeployBoundaryTests(unittest.TestCase):
         )
         self.assertNotIn("admission_status", json.dumps(payload, ensure_ascii=False))
 
+        anecdotes = [
+            item
+            for author in payload["reader_content"]["authors"]
+            for item in author.get("anecdotes", [])
+        ]
+        self.assertEqual(len(anecdotes), 82)
+        self.assertNotIn("W08C-042", {item["anecdote_id"] for item in anecdotes})
+        self.assertNotIn("W08C-067", {item["anecdote_id"] for item in anecdotes})
+        forbidden_anecdote_keys = {"status", "reviewer", "reviewed_at", "risk_level", "fact_status", "fact_boundary", "source_refs"}
+        self.assertTrue(all(not (set(item) & forbidden_anecdote_keys) for item in anecdotes))
+
         public_place_ids = {
             item["place_id"]
             for item in payload["map"]["places"]
@@ -125,6 +136,25 @@ class PublicDeployBoundaryTests(unittest.TestCase):
             )
             self.assertNotEqual(result.returncode, 0)
             self.assertIn("missing_parents", result.stderr + result.stdout)
+
+    def test_validator_rejects_anecdote_governance_leak(self) -> None:
+        with tempfile.TemporaryDirectory(prefix="lalm-anecdote-leak-") as temporary:
+            root = Path(temporary)
+            BUILD.build(root, BUILD.DEFAULT_DATA, "https://example.invalid/", True)
+            data_path = root / "data/v2/web/site_data.json"
+            payload = json.loads(data_path.read_text(encoding="utf-8"))
+            author = next(item for item in payload["reader_content"]["authors"] if item.get("anecdotes"))
+            author["anecdotes"][0]["risk_level"] = "LOW"
+            data_path.write_text(json.dumps(payload, ensure_ascii=False) + "\n", encoding="utf-8")
+            result = subprocess.run(
+                [sys.executable, str(ROOT / "scripts/validate_v2_public_bundle.py"), str(root)],
+                cwd=ROOT,
+                capture_output=True,
+                text=True,
+                check=False,
+            )
+            self.assertNotEqual(result.returncode, 0)
+            self.assertIn("forbidden governance keys", result.stderr + result.stdout)
 
     def test_validator_rejects_unrelated_non_public_map_place(self) -> None:
         with tempfile.TemporaryDirectory(prefix="lalm-map-scope-") as temporary:

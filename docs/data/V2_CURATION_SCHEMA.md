@@ -22,13 +22,15 @@ V1 Research Data + V2 Geo Technical Data
         data/v2/web/ → Frontend
 ```
 
-当前目录下的三个结构化文件分别承载不同语义：
+当前目录下的五个结构化文件分别承载不同语义：
 
 | 文件 | 作用 | 是否可写研究事实 |
 |---|---|---|
 | `CURATION_ENTRIES.csv` | 作家、作品、地点、国家、时间线、首页等页面文案和标签 | 否 |
 | `CURATION_SELECTIONS.csv` | 精选、排序、地图/首页/时间线展示开关 | 否 |
 | `CURATION_RECOMMENDATIONS.csv` | 入门作品、延伸阅读、跨作品阅读路径及推荐理由 | 否 |
+| `CURATION_ANECDOTES.json` | 作家趣闻正文、审核决定、风险与事实边界、来源引用 | 否 |
+| `CURATION_ANECDOTE_SOURCES.json` | 趣闻来源登记；为来源引用提供闭包，不写入 Research Master | 否 |
 
 Schema 初始阶段只保留表头；`V2-S3-002` 已按 N2 样本生成最小内容。后续扩展仍必须遵守本文件的字段和状态门禁，不以批量文案替代研究补证。
 
@@ -166,6 +168,14 @@ S2-002 的构建与 QA 至少检查：
 ## 10. 当前结论
 
 `V2-S2-001 = ✅ DONE`。Schema 已将研究事实、地图技术补充、策展展示判断和 Web 消费投影分层，并为后续 N2 样本、最小策展、Web Data 构建和 QA 提供稳定的字段与审核契约。
+
+## 10A. WCD-08 作家趣闻加法契约
+
+`CURATION_ANECDOTES.json` 使用 `v2-curation-anecdotes-0.1`。每条记录必须有唯一 `anecdote_id`、有效作家 `author_id`、`title`、`teaser`、`story`、`display_scope=detail`、受控 `risk_level` / `fact_status`、非空 `fact_boundary`、至少一个 `source_refs`、状态及审核元数据。只有 `status=auto_approved` 且 `reviewer=USER`、`reviewed_at` 为带时区 ISO 时间的记录可以进入 reader projection；`user_review`、`hold`、`reject` 必须留在 Curation 层。
+
+`CURATION_ANECDOTE_SOURCES.json` 使用 `v2-curation-anecdote-sources-0.1`。每个正式来源 ID 唯一，必须具备标题与可定位的 HTTP(S) URL；所有趣闻 `source_refs` 必须闭合。来源等级、定位状态、内部旧 ID及审核信息只用于 Curation/验证，不得投影到普通阅读层。
+
+USER 于 2026-09-06 批准原 review set 的 95 条，原有 38 条 hold 保持不变。正式文件保留全部 133 条以维持决策可追溯性；Web Data 还必须叠加既有 `public_scope.authors` 门禁，因此非公开作者的已批准条目不会自动扩张公开范围。
 
 ## 11. rc.5 加法兼容内容契约
 

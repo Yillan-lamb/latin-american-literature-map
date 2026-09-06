@@ -322,6 +322,44 @@ function catalogMarkup(group, currentPage) {
   return `<section class="section catalog-browser" data-catalog="${group}"><div class="section-heading"><h2 id="${group}-catalog-heading" tabindex="-1">${heading}</h2><p>${description} 当前共 ${ranked.length} 项。</p></div><details class="ranking-note"><summary>这些内容如何排序？</summary><p>顺序由一套固定规则生成：综合重要文学奖项、可继续阅读的公开作品、介绍完整度、延伸阅读丰富度和阅读路径连接；分数相同时使用稳定编号排序。它不采用实时流量，也不设置人工置顶。</p></details><p class="catalog-status" aria-live="polite">第 ${safePage} / ${pageCount} 页，显示第 ${(safePage - 1) * pageSize + 1}—${Math.min(safePage * pageSize, ranked.length)} 项</p><div class="card-grid">${pageItems.map((ranking) => authorGroup ? authorCard(ranking.item, { rank: ranking.rank }) : workCard(ranking.item, { rank: ranking.rank })).join("")}</div>${paginationMarkup(group, safePage, ranked.length)}</section>`;
 }
 
+function renderCatalogPage(group) {
+  const authorGroup = group === "authors";
+  const title = authorGroup ? "作家" : "作品";
+  const description = authorGroup
+    ? "从不同国家、年代与写作传统中认识拉丁美洲文学作家。"
+    : "从故事、体裁与文学关联中选择下一本书。";
+  setMeta(title, description, `${group}/`);
+  app.innerHTML = `<section class="page-header"><p class="eyebrow">文学目录</p><h1 class="display-title">${title}</h1><p class="lede">${description}</p></section>${catalogMarkup(group, authorGroup ? authorPage : workPage)}`;
+  bindCatalogPagination(() => renderCatalogPage(group));
+}
+
+function anecdoteDirectoryItems() {
+  const rankByAuthor = new Map(discoveryItems("authors").map((entry) => [entry.target_id, entry.rank]));
+  return (data.reader_content?.authors || [])
+    .filter((copy) => isPublic(copy.target_id) && Array.isArray(copy.anecdotes) && copy.anecdotes.length)
+    .map((copy) => ({ copy, item: entity(copy.target_id), rank: rankByAuthor.get(copy.target_id) ?? Number.MAX_SAFE_INTEGER }))
+    .filter((entry) => entry.item)
+    .sort((first, second) => first.rank - second.rank || first.item.entity_id.localeCompare(second.item.entity_id));
+}
+
+function anecdoteEntryCard(entry) {
+  const featured = entry.copy.anecdotes[0];
+  const href = `${hrefFor("author", entry.item.entity_id)}#author-anecdotes`;
+  return `<article class="card anecdote-entry-card" data-anecdote-author-id="${escapeHtml(entry.item.entity_id)}"><div><div class="card-meta"><span>作家趣闻</span><span>${entry.copy.anecdotes.length} 则故事</span></div><h3>${escapeHtml(featured.title)}</h3><p class="anecdote-author-name">${escapeHtml(entry.item.name_zh)}</p><p>${escapeHtml(featured.teaser)}</p></div><a class="card-link" href="${href}">在作家页继续阅读 →</a></article>`;
+}
+
+function homeAnecdoteSection() {
+  const entries = anecdoteDirectoryItems().slice(0, 3);
+  if (!entries.length) return "";
+  return `<section class="section home-anecdotes" data-home-anecdotes><div class="section-heading"><h2>作家趣闻</h2><p>从生活片段与创作轶事出发，看见作品之外的作家。</p></div><div class="card-grid anecdote-entry-grid">${entries.map(anecdoteEntryCard).join("")}</div><a class="section-link" href="${new URL("anecdotes/", SITE_ROOT).pathname}">浏览全部作家趣闻 →</a></section>`;
+}
+
+function renderAnecdotes() {
+  const entries = anecdoteDirectoryItems();
+  setMeta("作家趣闻", "从人物故事进入作家的生活与写作。", "anecdotes/");
+  app.innerHTML = `<section class="page-header"><p class="eyebrow">作家的另一面</p><h1 class="display-title">作家趣闻</h1><p class="lede">把作品放回具体的生活。从人物故事出发，再进入作家页阅读完整趣闻。</p></section><section class="section anecdote-directory"><div class="section-heading"><h2>按作家浏览</h2><p>${entries.length} 位作家已收录可公开的人物故事。</p></div><div class="card-grid anecdote-entry-grid">${entries.map(anecdoteEntryCard).join("")}</div></section>`;
+}
+
 function renderHome(focusContext = false) {
   const periods = data.presentation.timeline_periods.slice(0, 5);
   const publicPaths = data.presentation.reading_paths || [];
@@ -334,23 +372,21 @@ function renderHome(focusContext = false) {
   setMeta(data.presentation.site.name, data.presentation.site.description);
   app.innerHTML = `<section class="hero home-hero"><div><p class="eyebrow">A literary map of Latin America</p><h1 class="display-title">拉丁美洲<br /><em>文学地图</em></h1><p class="lede">从一个地方开始，进入拉丁美洲文学。</p><a class="hero-map-link" href="#literary-map">从地图开始 →</a></div><aside class="hero-note"><p>在地图上发现国家、城市、作家和作品，再沿着时间、主题与文学关系继续阅读。</p></aside></section>
   <section class="map-first" id="literary-map">${mapMarkup()}</section>
-  ${catalogMarkup("authors", authorPage)}
   <section class="section"><div class="section-heading"><h2>如何进入拉美文学</h2><p>不必先读完文学史。可以从空间、篇幅、语言区域或时间开始。</p></div><div class="path-grid">${navigationPaths.slice(0, 10).map((path, index) => `<a class="path-card" href="${path.href}"><span>${String(index + 1).padStart(2, "0")}</span><h3>${escapeHtml(path.title)}</h3><p>${escapeHtml(path.description)}</p><b>打开探索入口 →</b></a>`).join("")}</div></section>
-  ${catalogMarkup("works", workPage)}
+  ${homeAnecdoteSection()}
   <section class="section timeline-preview"><div><p class="eyebrow">沿时间进入</p><h2>把作家和作品放回时间中。</h2><p>${escapeHtml(data.presentation.timeline_note || "先按作家的生卒年与作品的发表年份建立时间感，再沿年代继续阅读。")}</p><a class="text-link" href="${new URL("timeline/", SITE_ROOT).pathname}">打开文学时间线 →</a></div>${periods.length ? `<ol>${periods.map((period) => `<li><span>${escapeHtml(period.display_range || `${period.start}—${period.end}`)}</span><strong>${escapeHtml(period.title)}</strong></li>`).join("")}</ol>` : ""}</section>
   <section class="section about-preview"><div><p class="eyebrow">关于项目</p><h2>地点怎样进入文学，文学又怎样重新创造地点？</h2></div><p>这张地图不是把作家简单钉在出生地上，而是邀请你观察：一座城市如何塑造写作，一段历史如何进入故事，一个虚构空间又如何改变我们理解现实的方式。</p><a class="text-link" href="${new URL("about/", SITE_ROOT).pathname}">为什么做这张地图 →</a></section>`;
   bindMapInteractions();
-  bindCatalogPagination();
   if (focusContext) document.querySelector(".map-context-panel")?.focus({ preventScroll: true });
 }
 
-function bindCatalogPagination() {
+function bindCatalogPagination(rerender) {
   document.querySelectorAll("[data-catalog-page]").forEach((button) => button.addEventListener("click", () => {
     const group = button.dataset.catalogPage;
     const nextPage = Number(button.dataset.page);
     if (group === "authors") authorPage = nextPage;
     if (group === "works") workPage = nextPage;
-    renderHome();
+    rerender();
     requestAnimationFrame(() => {
       const heading = document.querySelector(`#${group}-catalog-heading`);
       heading?.scrollIntoView({ block: "start" });
@@ -459,7 +495,7 @@ function anecdoteSection(anecdotes) {
   const featured = anecdotes.slice(0, ANECDOTE_FEATURED_COUNT).map(anecdoteCard).join("");
   const rest = anecdotes.slice(ANECDOTE_FEATURED_COUNT);
   const more = rest.length ? `<details class="anecdote-more"><summary>更多故事（${rest.length}）</summary><div class="card-grid">${rest.map(anecdoteCard).join("")}</div></details>` : "";
-  return `<section class="section anecdotes-section"><div class="section-heading"><h2>作家的另一面</h2><p>把作品放回具体的生活：这些人物故事照见写作之外的时刻。</p></div><div class="card-grid">${featured}</div>${more}</section>`;
+  return `<section class="section anecdotes-section" id="author-anecdotes"><div class="section-heading"><h2>作家的另一面</h2><p>把作品放回具体的生活：这些人物故事照见写作之外的时刻。</p></div><div class="card-grid">${featured}</div>${more}</section>`;
 }
 
 function renderAuthor(id) {
@@ -584,6 +620,9 @@ function initialRoute() {
   if (kind) return { kind, id, pathSlug };
   const segments = window.location.pathname.startsWith(SITE_PATH) ? window.location.pathname.slice(SITE_PATH.length).split("/").filter(Boolean) : [];
   if (!segments.length) return { kind: "home" };
+  if (segments[0] === "authors" && segments.length === 1) return { kind: "authors" };
+  if (segments[0] === "works" && segments.length === 1) return { kind: "works" };
+  if (segments[0] === "anecdotes" && segments.length === 1) return { kind: "anecdotes" };
   if (segments[0] === "search") return { kind: "search" };
   if (segments[0] === "timeline") return { kind: "timeline" };
   if (segments[0] === "about") return { kind: "about" };
@@ -594,7 +633,11 @@ function initialRoute() {
 function renderRoute() {
   const route = initialRoute();
   nav?.querySelectorAll("a").forEach((link) => link.removeAttribute("aria-current"));
+  const navKind = route.kind === "author" ? "authors" : route.kind === "work" ? "works" : route.kind;
+  nav?.querySelector(`[data-nav-kind="${navKind}"]`)?.setAttribute("aria-current", "page");
   if (route.kind === "home") return renderHome();
+  if (route.kind === "authors" || route.kind === "works") return renderCatalogPage(route.kind);
+  if (route.kind === "anecdotes") return renderAnecdotes();
   if (route.kind === "search") return renderSearch(new URLSearchParams(window.location.search).get("q") || "");
   if (route.kind === "timeline") return renderTimeline();
   if (route.kind === "about") return renderAbout();

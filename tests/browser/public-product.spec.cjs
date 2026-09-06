@@ -27,7 +27,7 @@ test.afterEach(async ({ page }) => {
     // rejects words such as “传记” even when they are ordinary anecdote prose.
     // Anecdotes have a separate schema/token/governance gate, so exclude the
     // complete component from this older evidence-process scan.
-    copy.querySelectorAll("details, [data-review-preview-banner], .anecdotes-section").forEach((item) => item.remove());
+    copy.querySelectorAll("details, [data-review-preview-banner], .anecdotes-section, .anecdote-entry-card").forEach((item) => item.remove());
     return copy.innerText;
   });
   const evidenceMatch = ordinaryReaderText.match(readerEvidenceLeakage)?.[0] || "none";
@@ -97,10 +97,24 @@ test("a newly public GeoJSON country receives an automatic Chinese label", async
   await expect(page.locator('[data-country-id="QA-COUNTRY-BO"]')).toHaveAttribute("role", "button");
 });
 
-test("home pagination exposes every public author and work in deterministic order", async ({ page, request }) => {
+test("home moves catalogs to dedicated navigation pages and places anecdotes after reading paths", async ({ page, request }) => {
   const webData = await (await request.get("data/v2/web/site_data.json")).json();
   await page.goto("");
+  await expect(page.getByRole("heading", { name: "浏览全部作家" })).toHaveCount(0);
+  await expect(page.getByRole("heading", { name: "浏览全部作品" })).toHaveCount(0);
+  const readingPaths = page.getByRole("heading", { name: "如何进入拉美文学" });
+  const homeAnecdotes = page.locator("[data-home-anecdotes]");
+  await expect(readingPaths).toBeVisible();
+  await expect(homeAnecdotes.getByRole("heading", { name: "作家趣闻" })).toBeVisible();
+  expect((await readingPaths.boundingBox()).y).toBeLessThan((await homeAnecdotes.boundingBox()).y);
+  for (const [kind, label, href] of [["authors", "作家", "/authors/"], ["works", "作品", "/works/"], ["anecdotes", "趣闻", "/anecdotes/"]]) {
+    const link = page.locator(`.main-nav [data-nav-kind="${kind}"]`);
+    await expect(link).toHaveText(label);
+    await expect(link).toHaveAttribute("href", href);
+  }
+
   for (const [group, label] of [["authors", "作家"], ["works", "作品"]]) {
+    await page.goto(`${group}/`);
     const expectedIds = webData.presentation.discovery[group].map((item) => item.target_id);
     const pageSize = webData.presentation.discovery.page_size;
     const pageCount = Math.ceil(expectedIds.length / pageSize);
@@ -123,6 +137,11 @@ test("home pagination exposes every public author and work in deterministic orde
     expect(new Set(observed).size).toBe(expectedIds.length);
     await expect(section().getByRole("button", { name: "下一页" })).toBeDisabled();
   }
+
+  await page.goto("anecdotes/");
+  const publicAnecdoteAuthors = webData.reader_content.authors.filter((author) => (author.anecdotes || []).length);
+  await expect(page.locator("[data-anecdote-author-id]")).toHaveCount(publicAnecdoteAuthors.length);
+  await expect(page.locator('.main-nav [data-nav-kind="anecdotes"]')).toHaveAttribute("aria-current", "page");
 });
 
 test("reader prose and expandable research evidence stay on opposite sides of the boundary", async ({ page, request }) => {
@@ -597,7 +616,7 @@ test("every sitemap route renders public reader text without governance language
     expect(text, route).not.toMatch(forbidden);
     const ordinaryText = await page.evaluate(() => {
       const copy = document.body.cloneNode(true);
-      copy.querySelectorAll("details, [data-review-preview-banner], .anecdotes-section").forEach((item) => item.remove());
+      copy.querySelectorAll("details, [data-review-preview-banner], .anecdotes-section, .anecdote-entry-card").forEach((item) => item.remove());
       return copy.innerText;
     });
     const evidenceMatch = ordinaryText.match(readerEvidenceLeakage)?.[0] || "none";

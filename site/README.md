@@ -4,7 +4,7 @@
 
 网站保持静态优先，并由 Research Data、Geo Data、Curation Data 和独立 Presentation Layer 生成。开发时可从项目根目录提供静态文件并访问 `/site/`；正式候选应通过 `scripts/build_v2_deploy_bundle.py` 生成，因为该步骤会：
 
-- 生成作者、作品、国家、地点、阅读路径、搜索、时间线与 About 的静态可索引路由；
+- 生成作家目录、作品目录、趣闻索引、作家详情、作品详情、国家、地点、阅读路径、搜索、时间线与 About 的静态可索引路由；
 - 为各页写入 title、description、canonical 与 Open Graph 信息；
 - 生成 sitemap 与 robots 文件；
 - 压缩公共数据，并物理移除审核队列、状态字段和内部统计；

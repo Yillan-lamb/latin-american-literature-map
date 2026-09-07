@@ -2,6 +2,13 @@
 
 本文件记录拉丁美洲文学地图各版本的实际修改。格式参考 Keep a Changelog，版本号遵循语义化版本规则。
 
+## [Data 1.5.0 / Web 0.4.0 — Development] - 2026-09-07
+
+### TASK-103 / Author-page anecdote order
+
+- 作者详情页将“作家的另一面”移动到“从哪里认识他 / 她”之前，使人物故事更早承接作者导语；趣闻内容、展开交互、来源面板及作者页其他板块保持不变。
+- 本次仅调整既有作者页板块顺序并补充浏览器回归断言；不修改 Research、Curation、Web Data、路由、版本号、公开范围、WCD-09 或 Public Release 状态。
+
 ## [Data 1.5.0 / Web 0.4.0 — Development] - 2026-09-06
 
 ### Homepage and navigation refinement

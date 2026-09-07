@@ -293,6 +293,15 @@ test("approved WCD-08 anecdotes render only on public author pages", async ({ pa
   await page.goto("authors/jorge-luis-borges-v1-ent-0002/");
   const section = page.locator(".anecdotes-section");
   await expect(section.getByRole("heading", { name: "作家的另一面" })).toBeVisible();
+  const appearsBeforePlaces = await page.evaluate(() => {
+    const anecdotes = document.querySelector(".anecdotes-section");
+    const placesHeading = [...document.querySelectorAll(".section-heading h2")]
+      .find((heading) => heading.textContent.trim() === "从哪里认识他 / 她");
+    const places = placesHeading?.closest(".section");
+    return Boolean(anecdotes && places && (anecdotes.compareDocumentPosition(places) & Node.DOCUMENT_POSITION_FOLLOWING));
+  });
+  expect(appearsBeforePlaces).toBe(true);
+  expect((await section.boundingBox()).y).toBeLessThan((await page.getByRole("heading", { name: "从哪里认识他 / 她" }).boundingBox()).y);
   const first = section.locator(".anecdote-card").first();
   await expect(first.locator(".anecdote-teaser")).toBeVisible();
   await first.locator("details.anecdote-detail > summary").click();

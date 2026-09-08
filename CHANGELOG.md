@@ -8,6 +8,7 @@
 
 - 将经外部 AI 研究、Luna Max 整改及 Codex 独立终审通过的 WCD-09 成果，从 ignored `work/external-ai/` 晋升为 `project/plans/WCD_09_GEO_NEUTRALITY/` 下的正式实施规格；保留 00–16 证据与政策文件、17 个 USER Gate、CH-01—CH-25 工作项、可复算脚本和 8 张确定性投影图件。
 - 新增 `project/audits/web/WCD_09_GEO_NEUTRALITY_RESEARCH_AUDIT.md`，记录最终裁决 `YES`、零未关闭 BLOCKER/MAJOR/MINOR，以及 6 类仍须按 Gate 或阻塞路径处理的 `CANNOT_VERIFY` 限制。
+- USER 已裁决全部 17 个稳定 Gate：先选定 `C-8-OPT-1`，再授权其余 Gate 按研究包的推荐/安全路径记录。核心选择为 Natural Earth 50m、完整 provenance 链、LAEA 75°W/11.5°S、L1/L2 分离、无内容地区中性非交互背景、图外点改用非地图入口、无充分证据的敏感名称/逐案注记保持阻塞，以及大陆发布前专业评估。Gate 完成不免除来源、许可、证据、验收或独立审计，也不等于已经修改地图、数据或公开内容。
 - TASK-099 进入 `IN_PROGRESS / USER_GATE`。依据 Charter 第 7 节对 governance/documentation/research-only 变更采用 Web patch 的规则，Web Product 从 `0.4.0 Development` 升至 `0.4.1 Development`；这是 WCD-09 research specification / governance-only patch，不替 USER 选择 Gate，不修改 reader-facing 内容、Research Data、Research Schema、Curation、Web Data schema 或公开范围。
 - Research Data 保持 `1.5.0 development candidate`，Research Schema 保持 `0.4`，Web Data schema 保持 `v2-web-0.3`；`V2-PUBLIC-RELEASE` 继续 `PAUSED BY USER`，不创建 Tag、Release 或 deployment。
 

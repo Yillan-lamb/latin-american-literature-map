@@ -1,7 +1,7 @@
 # WCD-09 Map Governance and Geographic Neutrality
 
 - Canonical task: `TASK-099 / WCD-09`
-- Status: `IN_PROGRESS / USER_GATE`
+- Status: `IN_PROGRESS / GATES_DECIDED` (all 17 stable USER Gates recorded; implementation pending)
 - Integration target: current `origin/main`
 - Independent audit: `project/audits/web/WCD_09_GEO_NEUTRALITY_RESEARCH_AUDIT.md`
 - Release boundary: `V2-PUBLIC-RELEASE` remains `PAUSED BY USER`
@@ -23,7 +23,7 @@ The material in this directory began as an external-AI research package. After i
 
 ## Non-goals
 
-- This promotion does not choose any of the 17 pending USER Gate options.
+- This promotion did not preselect any USER Gate option. The USER subsequently chose `C-8-OPT-1` and authorized the research package's recommended/safe paths for the remaining 16 stable Gates. Those decisions authorize only their recorded conditional implementation paths; they do not waive source, license, evidence, acceptance or independent-review gates.
 - It does not modify `site/`, Research Data, Research Schema, Curation, Web Data schema or public scope. Promoting this tracked specification advances only the Web Product patch metadata from `0.4.0 Development` to `0.4.1 Development` under Charter section 7.
 - It does not authorize a tag, GitHub Release, deployment or removal of the Public Release pause.
 - `CANNOT_VERIFY` facts are not upgraded by inclusion in this tracked specification.

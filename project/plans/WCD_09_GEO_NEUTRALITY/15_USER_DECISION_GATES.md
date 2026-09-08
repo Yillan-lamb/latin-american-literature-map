@@ -8,23 +8,23 @@
 
 | ID | 决策对象 | 当前状态 | 直接影响的 CH | 未裁决后果 |
 |---|---|---|---|---|
-| A-1 | 底图几何主源 | `PENDING_USER` | CH-01; CH-02; CH-03; CH-05; CH-06; CH-21; CH-22; CH-23; CH-24 | 不得锁定供给源或补缺几何 |
-| A-2 | 坐标来源与引用规范化 | `PENDING_USER` | CH-13; CH-21 | 不得修改 Data/Curation 引用字段 |
-| A-3 | 版本、日期与处理链记录 | `PENDING_USER` | CH-01; CH-02; CH-03; CH-05; CH-06; CH-20; CH-21 | provenance 缺口保留 |
-| B-1 | 投影候选及参数 | `PENDING_USER` | CH-07; CH-08; CH-09; CH-10; CH-24 | 不得锁定投影或验收指标 |
-| C-8 | L1 范围元决策 | `PENDING_USER` | CH-02; CH-03; CH-04; CH-14; CH-15; CH-16; CH-18; CH-23; CH-24; CH-25 | C-1…C-7 和所有 L1 状态只能保持条件式 |
-| C-1 | 无文学数据地区的 L2 处理 | `PENDING_USER` | CH-14; CH-23; CH-24 | 不得把无数据地区变为已授权交互 |
-| C-2 | 特立尼达和多巴哥 L2 | `PENDING_USER` | CH-03 | 不得因邻接或作家关联自动开放交互；当前几何已存在，需先有内容证据和 L1 前提 |
-| C-3 | 法属圭亚那/法国 polygon 的 L1 处理 | `PENDING_USER` | CH-02; CH-22 | 不得决定法国归属呈现 |
-| C-4 | 美国南部背景几何或 keep-out 说明 | `PENDING_USER` | CH-04; CH-22; CH-24 | 不得选择窗外陆地分支 |
-| C-5 | 马德里/巴黎图外点处理 | `PENDING_USER` | CH-10; CH-11; CH-24 | 不得确定地图交互入口 |
-| C-6 | 加勒比微型主权国及海外领地 L1/L2 | `PENDING_USER` | CH-03; CH-15; CH-16; CH-22; CH-23 | 不得扩展几何或交互 |
-| C-7 | 南乔治亚、纳瓦萨、克利珀顿 keep-out | `PENDING_USER` | CH-04; CH-22; CH-24 | 不得把候选 keep-out 变成已决 |
-| D-1 | 福克兰/马尔维纳斯双名形态、次序与符号 | `PENDING_USER` | CH-16 | 不得选定名称或顺序 |
-| D-2 | 争议线型/叠层的一般规则 | `PENDING_USER` | CH-17; CH-22; CH-24 | 不得增加、删除或改样式争议线 |
-| D-3 | 逐案争议注记与处置 | `PENDING_USER` | CH-17; CH-22; CH-24 | 不得以通用披露替代逐案判断 |
-| D-4 | 通用免责声明与署名文案 | `PENDING_USER` | CH-17; CH-21; CH-22 | 不得落固定披露文案 |
-| E-1 | 中国大陆发布场景专业评估记录方式 | `PENDING_USER` | CH-19 | 保持 `CANNOT_VERIFY`，不实施大陆发布路径 |
+| A-1 | 底图几何主源 | `DECIDED: A-1-OPT-1` | CH-01; CH-02; CH-03; CH-05; CH-06; CH-21; CH-22; CH-23; CH-24 | 按 CH-05 脚本化处理并完成来源/许可验收后实施 |
+| A-2 | 坐标来源与引用规范化 | `DECIDED: A-2-OPT-1` | CH-13; CH-21 | 仅转换 10 个可定位弱引用；V1-ENT-0052 继续阻塞 |
+| A-3 | 版本、日期与处理链记录 | `DECIDED: A-3-OPT-1` | CH-01; CH-02; CH-03; CH-05; CH-06; CH-20; CH-21 | release、日期、完整处理链和 SHA 缺一不得通过 provenance 验收 |
+| B-1 | 投影候选及参数 | `DECIDED: B-1-OPT-1` | CH-07; CH-08; CH-09; CH-10; CH-24 | 采用 LAEA 75°W/11.5°S，并按自身四类指标验收 |
+| C-8 | L1 范围元决策 | `DECIDED: C-8-OPT-1` | CH-02; CH-03; CH-04; CH-14; CH-15; CH-16; CH-18; CH-23; CH-24; CH-25 | C-1…C-7 仍须逐项裁决；L1 不自动授权 L2 |
+| C-1 | 无文学数据地区的 L2 处理 | `DECIDED: C-1-OPT-1` | CH-14; CH-23; CH-24 | L1 中性背景保留，L2 不交互并加入无内容图例 |
+| C-2 | 特立尼达和多巴哥 L2 | `DECIDED: C-2-OPT-1` | CH-03 | L1 条件背景保留；无文学证据前 L2 不交互 |
+| C-3 | 法属圭亚那/法国 polygon 的 L1 处理 | `DECIDED: C-3-OPT-1` | CH-02; CH-22 | 在 A-1 几何、归属和许可证据通过后作为法国关联背景呈现 |
+| C-4 | 美国南部背景几何或 keep-out 说明 | `DECIDED: C-4-OPT-1` | CH-04; CH-22; CH-24 | 保持 keep-out，并提供范围中性说明 |
+| C-5 | 马德里/巴黎图外点处理 | `DECIDED: C-5-OPT-1` | CH-10; CH-11; CH-24 | 改用非地图入口，不保留不可见可聚焦点 |
+| C-6 | 加勒比微型主权国及海外领地 L1/L2 | `DECIDED: C-6-OPT-1` | CH-03; CH-15; CH-16; CH-22; CH-23 | 纳入候选 L1 几何；L2 仍逐地区取决于文学证据 |
+| C-7 | 南乔治亚、纳瓦萨、克利珀顿 keep-out | `DECIDED: C-7-OPT-1` | CH-04; CH-22; CH-24 | 50m 明确 keep-out；10m 另行复核 |
+| D-1 | 福克兰/马尔维纳斯双名形态、次序与符号 | `DECIDED: D-1-OPT-3` | CH-16 | 官方中文名源未核验前延后双名并阻塞敏感 tooltip |
+| D-2 | 争议线型/叠层的一般规则 | `DECIDED: D-2-OPT-2` | CH-17; CH-22; CH-24 | 保留来源 de facto 线并以图例声明非法律裁决；逐案仍走 D-3 |
+| D-3 | 逐案争议注记与处置 | `DECIDED: D-3-A (all six cases)` | CH-17; CH-22; CH-24 | 六案均采用默认安全路径，不实施敏感注记 |
+| D-4 | 通用免责声明与署名文案 | `DECIDED: D-4-OPT-1` | CH-17; CH-21; CH-22 | 采用点名来源的学术式免责声明；不得替代逐案核验 |
+| E-1 | 中国大陆发布场景专业评估记录方式 | `DECIDED: E-1-OPT-1` | CH-19 | 记录三问并委托中国法专业人员评估；完成前不面向大陆发布 |
 
 ## 2. 语义映射和引用规则
 
@@ -58,7 +58,7 @@
 | A-1-OPT-2 | geoBoundaries，逐文件复核 CC BY 4.0 后采用 | 替代 | CH-01; CH-02; CH-03; CH-05; CH-21 | 逐文件 URL、许可和 part 归属；任一文件 `LICENSE_UNCLEAR` 则不供给 |
 | A-1-OPT-3 | 延后/拒绝新增几何，保留当前 110m 作为只读回滚资产 | 延后/拒绝 | CH-02; CH-03; CH-05 不实施 | 明确接受缺岛风险；在裁决前不能把当前覆盖说成完整 |
 
-记录槽：`A-1: option=___; evidence=___; rationale=___; status=PENDING_USER; date=___; decider=___`
+记录槽：`A-1: option=A-1-OPT-1; evidence=MAPSRC-05 及 CH-01、CH-05 的上游 release、许可、part 覆盖与产物 SHA 验收; rationale=Natural Earth 50m 可在公有领域许可下提供足够的区域几何并支持确定性脚本化处理; status=DECIDED; date=2026-09-08; decider=USER`
 
 ### A-2 坐标来源与引用规范化
 
@@ -68,7 +68,7 @@
 | A-2-OPT-2 | 保留现有 URL，仅建立逐行证据登记，不改 Data/Curation 字段 | 替代 | CH-13 仅做登记；CH-21 记录现状 | 需要保留每个弱 URL 和限制；弱引用风险继续存在 |
 | A-2-OPT-3 | 延后整个坐标引用变更并阻塞 CH-13 | 延后 | CH-13; CH-21 不实施 | 不需要猜测实体；正式 Gate 未通过前不得修改 Data/Curation |
 
-记录槽：`A-2: option=___; ten_convertible=___; blocked_case=V1-ENT-0052; six_normalize=___; evidence=___; status=PENDING_USER; date=___; decider=___`
+记录槽：`A-2: option=A-2-OPT-1; ten_convertible=转换为逐条核验的永久 GeoNames ID; blocked_case=V1-ENT-0052 保持 BLOCKED/CANNOT_VERIFY; six_normalize=仅规范化已有永久源; evidence=09 三分支清单及 CH-13、CH-21 逐条永久 URL、标题、坐标、检索日期; status=DECIDED; date=2026-09-08; decider=USER`
 
 ### A-3 版本、日期与处理链
 
@@ -78,7 +78,7 @@
 | A-3-OPT-2 | 只记录上游版本与日期，处理步骤另存 evidence appendix | 替代 | CH-01; CH-20 | 处理链仍须在 16 留完整步骤；不能声称 provenance 完整 |
 | A-3-OPT-3 | 延后 provenance 记录并阻塞底图实现 | 延后 | CH-01; CH-05; CH-20 不实施 | 不以当前文件推断上游版本；保持 `PROVENANCE_GAP` |
 
-记录槽：`A-3: option=___; release=___; retrieval_date=___; process_record=___; sha=___; status=PENDING_USER; date=___; decider=___`
+记录槽：`A-3: option=A-3-OPT-1; release=由 CH-01 写入实际上游 release; retrieval_date=由 CH-01 写入实际获取日期; process_record=下载/解压/explode/窗口筛选/量化完整记录; sha=由 CH-06 对输入与输出复算并登记; status=DECIDED; date=2026-09-08; decider=USER`
 
 ## 4. Gate B — 投影与比例
 
@@ -94,7 +94,7 @@
 
 所有选项都必须分别验收 SVG `preserveAspectRatio`、`ew_ns_scale_ratio`（方向代理）、`principal_axis_ratio`（完整局部形状）和 `area_factor`；画布等比不替代面积因子检查，方向代理也不得冒充完整形状。
 
-记录槽：`B-1: option=___; candidate_id=___; parameters=___; canvas_check=___; shape_check=___; area_check=___; status=PENDING_USER; date=___; decider=___`
+记录槽：`B-1: option=B-1-OPT-1; candidate_id=LAEA; parameters=中心 75°W/11.5°S; canvas_check=SVG preserveAspectRatio 与 CSS 等比缩放必须通过; shape_check=07 的 ew_ns_scale_ratio=0.957492–1.143802 与 principal_axis_ratio=1.000000–1.327088; area_check=area_factor=0.999998–0.999998 且相对中心 0.999999–1.000000; status=DECIDED; date=2026-09-08; decider=USER`
 
 ## 5. Gate C — L1/L2 范围与交互
 
@@ -102,11 +102,11 @@
 
 | 选项 | 互斥方案 | 推荐 | CH 影响 | 所需证据与未裁决后果 |
 |---|---|---|---|---|
-| C-8-OPT-1 | `Latin America` 历史文化口径，另列属地规则 | 待 USER | CH-02; CH-03; CH-04; CH-14; CH-15; CH-18; CH-23; CH-24; CH-25 | 03 候选分类与属地规则；未选前 08 所有 L1 行保持条件 |
+| C-8-OPT-1 | `Latin America` 历史文化口径，另列属地规则 | USER 选定 | CH-02; CH-03; CH-04; CH-14; CH-15; CH-18; CH-23; CH-24; CH-25 | 03 候选分类与属地规则；C-1…C-7 未选前，相应 08 行继续保持条件 |
 | C-8-OPT-2 | UN M49 `Latin America and the Caribbean` 统计口径，另列属地规则 | 待 USER | CH-02; CH-03; CH-04; CH-14; CH-15; CH-18; CH-23; CH-24; CH-25 | M49 primary URL 与成员表；不得自动推出 L2 交互 |
 | C-8-OPT-3 | 延后范围裁决，继续阻塞所有依赖 L1 的实施 | 安全延后 | CH-02; CH-03; CH-04; CH-14; CH-15; CH-18; CH-23; CH-24; CH-25 | 不需要假定范围；03/08/12/14 保持条件式 |
 
-记录槽：`C-8: option=___; L1_definition=___; territories=___; adjacent_land=___; evidence=___; status=PENDING_USER; date=___; decider=___`
+记录槽：`C-8: option=C-8-OPT-1; L1_definition=Latin America 历史文化口径; territories=按 C-3/C-6 单独裁决且不自动进入 L2; adjacent_land=按 C-4/C-7 作为中性背景或 keep-out 单独裁决; evidence=03 §1—§5 与 08 条件式覆盖矩阵; rationale=与项目文学文化定位一致，避免静默扩张为完整 UN M49 LAC 统计区; status=DECIDED; date=2026-09-08; decider=USER`
 
 ### C-1 无文学数据地区 L2
 
@@ -116,7 +116,7 @@
 | C-1-OPT-2 | 暂不渲染无内容候选，待内容证据补足 | 替代 | CH-14; CH-23 | 记录缺失几何；不得称为永久范围外 |
 | C-1-OPT-3 | 延后 C-1，所有相应 L2 保持阻塞 | 延后 | CH-14; CH-23; CH-24 不实施 | 保留条件状态和无内容风险 |
 
-记录槽：`C-1: option=___; member_set=___; evidence=___; status=PENDING_USER; date=___; decider=___`
+记录槽：`C-1: option=C-1-OPT-1; member_set=C-8 选定 L1 中经 08 核验但当前无文学数据的地区; evidence=08 L1/L2 分列、正式文学数据核对及 CH-24 无内容图例/非交互验收; status=DECIDED; date=2026-09-08; decider=USER`
 
 ### C-2 特立尼达和多巴哥 L2
 
@@ -126,7 +126,7 @@
 | C-2-OPT-2 | 在 C-8 后按内容证据开放 L2 | 替代 | CH-03 | 内容来源和标签；证据不足则延后 |
 | C-2-OPT-3 | 延后或拒绝该地区 L2 | 延后/拒绝 | CH-03 不实施 | 保持条件背景或不渲染，不作范围结论 |
 
-记录槽：`C-2: option=___; literary_evidence=___; L1_prerequisite=___; status=PENDING_USER; date=___; decider=___`
+记录槽：`C-2: option=C-2-OPT-1; literary_evidence=当前不足以授权 L2，未来须以正式文学数据逐条补证; L1_prerequisite=C-8-OPT-1，保留条件背景; status=DECIDED; date=2026-09-08; decider=USER`
 
 ### C-3 法属圭亚那/France polygon
 
@@ -136,7 +136,7 @@
 | C-3-OPT-2 | C-8 选择纳入但先保留几何缺口，待证据/数据复核后再补 | 替代 | CH-02 | 只记录几何缺口；不得把空洞写成范围外结论，也不提前触发 CH-05 |
 | C-3-OPT-3 | 延后/拒绝该 polygon 的呈现 | 延后/拒绝 | CH-02 不实施 | 保持空洞并在图例说明候选状态，不宣称授权 |
 
-记录槽：`C-3: option=___; C-8_dependency=___; geometry_evidence=___; status=PENDING_USER; date=___; decider=___`
+记录槽：`C-3: option=C-3-OPT-1; C-8_dependency=C-8-OPT-1; geometry_evidence=A-1-OPT-1 的 NE 50m France part、归属字段和逐文件许可验收通过后实施; status=DECIDED; date=2026-09-08; decider=USER`
 
 ### C-4 美国南部窗内背景
 
@@ -146,7 +146,7 @@
 | C-4-OPT-2 | 经 A-1/许可后加入背景几何，仍不交互 | 替代候选 | CH-04; CH-22; CH-24 | 许可、part 归属和裁剪证据；不得把背景变为 L2 |
 | C-4-OPT-3 | 延后 C-4，阻塞任何 USA 窗内呈现 | 延后 | CH-04 不实施 | 保持 mismatch 风险并标明待决 |
 
-记录槽：`C-4: option=___; keepout_or_geometry=___; evidence=___; status=PENDING_USER; date=___; decider=___`
+记录槽：`C-4: option=C-4-OPT-1; keepout_or_geometry=keep-out 加范围中性说明; evidence=视窗 bbox、03 范围模型、图例和 CH-24 可见性验收; status=DECIDED; date=2026-09-08; decider=USER`
 
 ### C-5 马德里/巴黎图外点
 
@@ -156,7 +156,7 @@
 | C-5-OPT-2 | 扩展 viewport 至欧洲 | 替代 | CH-10; CH-11; CH-24 | 新窗口和投影指标；不得只凭当前点位扩大范围 |
 | C-5-OPT-3 | 延后并阻塞两个点的地图交互 | 延后 | CH-10; CH-11 不实施 | 允许非地图数据入口继续存在，但不进入不可见地图 Tab |
 
-记录槽：`C-5: option=___; Madrid=___; Paris=___; bbox_evidence=___; status=PENDING_USER; date=___; decider=___`
+记录槽：`C-5: option=C-5-OPT-1; Madrid=作家页/关系列表入口; Paris=作家页/关系列表入口; bbox_evidence=09 render_px 复算及 CH-11、CH-24 键盘 Tab 可见性检查; status=DECIDED; date=2026-09-08; decider=USER`
 
 ### C-6 加勒比微型主权国及海外领地
 
@@ -166,7 +166,7 @@
 | C-6-OPT-2 | 暂只纳入已有可核验几何，其余保持 keep-out/无内容候选 | 替代 | CH-03; CH-15; CH-22 | 每个 feature 的来源和缺口；Puerto Rico status 仍须 C-6 记录槽 primary URL/标题/检索日期并核验，否则只做中文名称、不写地位；不将缺失写成政治结论 |
 | C-6-OPT-3 | 延后整个加勒比扩展 | 延后 | CH-03; CH-15 不实施 | 08 保持 conditional，阻塞敏感标签/交互；未来如写 Puerto Rico 描述性地位，仍须补 C-6 记录槽 primary URL/标题/检索日期并核验，否则只做中文名称、不写地位 |
 
-记录槽：`C-6: option=___; member_set=___; L1_evidence=___; L2_evidence=___; status=PENDING_USER; date=___; decider=___`
+记录槽：`C-6: option=C-6-OPT-1; member_set=08 所列加勒比微型主权国及海外领地候选; L1_evidence=C-8-OPT-1、A-1 part/许可及逐地区名称证据通过后纳入; L2_evidence=逐地区正式文学证据，未通过者保持非交互；Puerto Rico 无 primary 地位证据时只用中文名称、不写地位; status=DECIDED; date=2026-09-08; decider=USER`
 
 ### C-7 南乔治亚、纳瓦萨、克利珀顿
 
@@ -176,7 +176,7 @@
 | C-7-OPT-2 | 只在有独立来源和许可时加入背景几何，不开放 L2 | 替代 | CH-04; CH-22; CH-24 | primary URL、许可、part 归属和可见性 QA；任何外部地位仍可 CANNOT_VERIFY |
 | C-7-OPT-3 | 延后所有 keep-out/geometry 决策 | 延后 | CH-04 不实施 | 保持条件记录，不把当前缺失视为永久范围外 |
 
-记录槽：`C-7: option=___; SGS=___; USR=___; CPT=___; evidence=___; status=PENDING_USER; date=___; decider=___`
+记录槽：`C-7: option=C-7-OPT-1; SGS=50m keep-out; USR=50m keep-out; CPT=50m keep-out; evidence=08 candidate rows 与分辨率证据，10m 另行复核且不作外部地位推断; status=DECIDED; date=2026-09-08; decider=USER`
 
 ## 6. Gate D — 争议、命名与披露
 
@@ -188,7 +188,7 @@
 | D-1-OPT-2 | 括号双名：`A（B）`；括号形成层级，USER 必须定主名/次名顺序 | 候选 | CH-16 | 官方中文名源由 CH-16 吸收；未选前不使用候选顺序 |
 | D-1-OPT-3 | 延后双名并保持非敏感占位/阻塞 tooltip | 延后 | CH-16 不实施 | 缺证据时不呈现可能误导的敏感顺序 |
 
-记录槽：`D-1: option=___; first_name=___; second_name=___; separator=___; source_evidence=___; status=PENDING_USER; date=___; decider=___`
+记录槽：`D-1: option=D-1-OPT-3; first_name=未定; second_name=未定; separator=未定; source_evidence=16 将官方中文名源记为 CANNOT_VERIFY，补齐并经 USER 另行裁决前阻塞双名和敏感 tooltip; status=DECIDED; date=2026-09-08; decider=USER`
 
 ### D-2 一般争议线型/叠层
 
@@ -198,7 +198,7 @@
 | D-2-OPT-2 | 只保留来源的 de facto 线，靠图例说明其不是法律裁决 | 候选 | CH-17; CH-22 | 逐案证据和可读性 QA；不以通用披露替代 D-3 |
 | D-2-OPT-3 | 延后所有争议线型，敏感叠层不实施 | 安全延后 | CH-17; CH-22 不实施 | 外部证据不足时默认安全；维持 CANNOT_VERIFY |
 
-记录槽：`D-2: option=___; line_style=___; legend_text=___; evidence=___; status=PENDING_USER; date=___; decider=___`
+记录槽：`D-2: option=D-2-OPT-2; line_style=保留所选来源的 de facto 线，不新增无证据敏感叠层; legend_text=边界按来源的 de facto 数据呈现且不构成法律裁决; evidence=05 逐案风险矩阵、A-1 来源记录及 CH-17、CH-24 可读性验收; status=DECIDED; date=2026-09-08; decider=USER`
 
 ### D-3 逐案子记录（每案独立选择）
 
@@ -216,12 +216,12 @@
 逐案记录槽：
 
 ```text
-D-3/RISK-02: option=___; evidence=___; annotation=___; status=PENDING_USER; date=___; decider=___
-D-3/RISK-03: option=___; evidence=___; annotation=___; status=PENDING_USER; date=___; decider=___
-D-3/RISK-14: option=___; evidence=___; annotation=___; status=PENDING_USER; date=___; decider=___
-D-3/RISK-15: option=___; evidence=___; annotation=___; status=PENDING_USER; date=___; decider=___
-D-3/RISK-19: option=___; evidence=___; annotation=___; status=PENDING_USER; date=___; decider=___
-D-3/RISK-20: option=___; evidence=___; annotation=___; status=PENDING_USER; date=___; decider=___
+D-3/RISK-02: option=D-3-A; evidence=Case 171 primary snapshot 未留存/CANNOT_VERIFY; annotation=保留 de facto 基线，不加程序状态; status=DECIDED; date=2026-09-08; decider=USER
+D-3/RISK-03: option=D-3-A; evidence=Case 177/边界 primary record 不足; annotation=保留普通线，不加逐案说明; status=DECIDED; date=2026-09-08; decider=USER
+D-3/RISK-14: option=D-3-A; evidence=10m 几何与 primary status record 不足; annotation=50m keep-out，不加地位或主权注记; status=DECIDED; date=2026-09-08; decider=USER
+D-3/RISK-15: option=D-3-A; evidence=双方 primary boundary/程序证据不足; annotation=保留 de facto 基线，不加主张注记; status=DECIDED; date=2026-09-08; decider=USER
+D-3/RISK-19: option=D-3-A; evidence=几何 QA 与 Case 185 留存不足; annotation=不单独渲染或加程序注记，先做几何 QA; status=DECIDED; date=2026-09-08; decider=USER
+D-3/RISK-20: option=D-3-A; evidence=几何与最终勘界证据不足，保留 16 中两方 MFA 检索限制; annotation=保留 ARG/CHL 基础线，不加局部敏感注记或最终勘界表述; status=DECIDED; date=2026-09-08; decider=USER
 ```
 
 ### D-4 通用免责声明与署名
@@ -234,7 +234,7 @@ D-3/RISK-20: option=___; evidence=___; annotation=___; status=PENDING_USER; date
 | D-4-OPT-2 | “地图边界与名称不代表任何主权立场；地理数据来源见署名行。” | 替代 | CH-17; CH-21 | 署名行和适用范围；不能替代 D-3 |
 | D-4-OPT-3 | “本地图的边界与坐标来自公开地理数据（Natural Earth、GeoNames）；来源选择不等于对任何争议地区的中立或主权判断。地图不代表对任何争议地区的立场；收录范围与文学关联详见关于页。” | 替代 | CH-17; CH-21 | 来源与范围条件式说明；不能把文案当作事实核验 |
 
-记录槽：`D-4: option=___; map_text=___; attribution_text=___; placement=___; evidence=___; status=PENDING_USER; date=___; decider=___`
+记录槽：`D-4: option=D-4-OPT-1; map_text=本地图仅呈现地理事实与文学关联，不代表对任何争议边界、领土归属或政治地位的立场。边界采用 Natural Earth（公有领域）的 de facto 数据呈现，文学地点坐标来自 GeoNames。; attribution_text=底图几何须含 Natural Earth 数据集、比例尺、版本、获取日期，地点坐标须含 GeoNames 与 CC BY 4.0; placement=地图视图固定区域与 About 页，窄屏可采用 D2 短版但署名行仍保留; evidence=13 §1 与 §3、实际来源版本日期及 CH-17、CH-21、CH-22 验收; status=DECIDED; date=2026-09-08; decider=USER`
 
 ## 7. Gate E — 中国大陆发布场景
 
@@ -246,7 +246,7 @@ D-3/RISK-20: option=___; evidence=___; annotation=___; status=PENDING_USER; date
 | E-1-OPT-2 | 暂不记录专业意见，但明确继续阻塞大陆发布和相关技术实施 | 替代/阻塞 | CH-19 | 记录阻塞决定；仍为 `CANNOT_VERIFY`，不得写无需资质或一概禁止 |
 | E-1-OPT-3 | 明确本阶段不面向大陆发布，待未来需求出现再启动专业评估 | 延后 | CH-19 | 发布范围声明；不将其解释为当前合规结论 |
 
-记录槽：`E-1: option=___; professional_scope=___; questions=publication/审图/资质; evidence=___; status=PENDING_USER; date=___; decider=___`
+记录槽：`E-1: option=E-1-OPT-1; professional_scope=在任何面向中国大陆发布前，由中国法专业人员结合实际发布主体、部署、功能与受众评估; questions=publication/审图/资质; evidence=专业意见尚未取得，继续 CANNOT_VERIFY 并阻塞大陆发布路径; status=DECIDED; date=2026-09-08; decider=USER`
 
 ## 8. 完整裁决记录模板
 

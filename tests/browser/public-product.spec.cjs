@@ -43,8 +43,9 @@ test("home, map, country and mobile navigation", async ({ page, isMobile, reques
   // bundle's declared projection instead of freezing either count.
   const webData = await (await request.get("data/v2/web/site_data.json")).json();
   const projectedPaths = webData.presentation.reading_paths || [];
+  const publicIds = new Set(webData.search_index.map((item) => item.target_id));
   const projectedCountries = new Set((webData.map?.places || [])
-    .filter((item) => item.place_kind === "country" && item.map_status !== "hidden" && item.reality_status !== "unknown")
+    .filter((item) => item.place_kind === "country" && item.map_status !== "hidden" && item.reality_status !== "unknown" && publicIds.has(item.place_id))
     .map((item) => item.country_code));
   await expect(page.locator(".path-card")).toHaveCount(projectedPaths.length ? Math.min(projectedPaths.length, 10) : 4);
   await expect(page.locator(".country-shape.available")).toHaveCount(projectedCountries.size);
@@ -54,7 +55,15 @@ test("home, map, country and mobile navigation", async ({ page, isMobile, reques
   for (const country of (webData.map?.places || []).filter((item) => item.place_kind === "country" && projectedCountries.has(item.country_code))) {
     await expect(page.locator(`[data-country-label-code="${country.country_code}"]`).first()).toHaveText(country.name_zh);
   }
-  await expect(page.locator('[data-label-position="automatic"]')).not.toHaveCount(0);
+  await expect(page.locator('[data-label-position="natural-earth-projected"]')).toHaveCount(projectedCountries.size);
+  await expect(page.locator(".country-shape")).toHaveCount(48);
+  await expect(page.locator(".country-shape.l2-interactive")).toHaveCount(13);
+  await expect(page.locator(".country-shape.l1-only")).toHaveCount(35);
+  await expect(page.locator(".country-shape.l1-only title")).toHaveCount(0);
+  await expect(page.locator('[data-projection="LAEA"]')).toHaveAttribute("data-projection-center", "-75,-11.5");
+  await expect(page.locator(".map-legend")).toContainText("当前暂无收录作家或作品");
+  await expect(page.locator(".map-neutrality-note")).toContainText("不构成法律");
+  await expect(page.locator('[data-place-id="V1-ENT-0129"], [data-place-id="V1-ENT-0373"]')).toHaveCount(0);
   await expect(page.locator(".fictional-space-button")).toHaveCount(2);
   await expect(page.getByRole("heading", { name: "从一个地方开始" })).toBeVisible();
   await page.locator('[data-country-id="V1-ENT-0051"]').click();
@@ -72,7 +81,7 @@ test("home, map, country and mobile navigation", async ({ page, isMobile, reques
   await expect(page.getByText("胡安·鲁尔福").first()).toBeVisible();
 });
 
-test("a newly public GeoJSON country receives an automatic Chinese label", async ({ page }) => {
+test("a newly public L1 country is promoted with its projected Chinese label", async ({ page }) => {
   await page.route("**/data/v2/web/site_data.json", async (route) => {
     const response = await route.fetch();
     const webData = await response.json();
@@ -88,12 +97,18 @@ test("a newly public GeoJSON country receives an automatic Chinese label", async
       latitude: null,
       longitude: null,
     });
+    webData.search_index.push({
+      target_id: "QA-COUNTRY-BO",
+      target_type: "country",
+      title: "玻利维亚",
+      public_route: "countries/bolivia-qa-country-bo/",
+    });
     await route.fulfill({ response, json: webData });
   });
   await page.goto("");
   const label = page.locator('[data-country-label-code="BO"]');
   await expect(label).toHaveText("玻利维亚");
-  await expect(label).toHaveAttribute("data-label-position", "automatic");
+  await expect(label).toHaveAttribute("data-label-position", "natural-earth-projected");
   await expect(page.locator('[data-country-id="QA-COUNTRY-BO"]')).toHaveAttribute("role", "button");
 });
 

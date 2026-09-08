@@ -1,13 +1,14 @@
 const SITE_ROOT = new URL("./", import.meta.url);
 const SITE_PATH = SITE_ROOT.pathname;
 const DATA_URL = new URL(SITE_ROOT.pathname.endsWith("/site/") ? "../data/v2/web/site_data.json" : "data/v2/web/site_data.json", SITE_ROOT);
-const MAP_URL = new URL("assets/latin-america-countries.geojson", SITE_ROOT);
+const MAP_URL = new URL("assets/natural-earth-5.1.1-admin0-50m-latin-america.geojson", SITE_ROOT);
 const app = document.querySelector("#app");
 const nav = document.querySelector(".main-nav");
 const menuToggle = document.querySelector(".menu-toggle");
 
 let data;
 let geography;
+let mapProjectionViewport;
 let mapFilter = "all";
 let activeCountry = null;
 let activeMapTarget = null;
@@ -15,17 +16,11 @@ let searchFilter = "all";
 let authorPage = 1;
 let workPage = 1;
 
-// Most labels are derived from the GeoJSON geometry.  Overrides are only for
-// crowded, island, or unusually narrow shapes; their anchors remain automatic.
-const COUNTRY_LABEL_OVERRIDES = {
-  GT: [245, 94],
-  NI: [326, 148],
-  CU: [410, 53],
-  VE: [536, 150],
-  EC: [379, 230],
-  CL: [448, 407],
-  UY: [675, 427],
-};
+const MAP_WIDTH = 880;
+const MAP_HEIGHT = 560;
+const MAP_PADDING = 22;
+const MAP_WINDOW = { west: -118, south: -56, east: -32, north: 33 };
+const LAEA = { centralLongitude: -75, centralLatitude: -11.5 };
 
 const escapeHtml = (value) => String(value ?? "").replace(/[&<>"']/g, (character) => ({
   "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;",
@@ -139,8 +134,55 @@ function workCard(item, { rank = null } = {}) {
   return cardMarkup(item, { id: item.entity_id, type: "work", title: item.name_zh, description: contentFor("works", item.entity_id).reading_premise || `从《${item.name_zh}》进入它的故事与文学关联。`, meta: [publicGenre(card?.genre_or_form), fact(item.entity_id, "first_publication_year", "publication_year")?.value_text].filter(Boolean).join(" · ") || "作品", rank });
 }
 
-function project([longitude, latitude]) {
-  return [((longitude + 118) / 86) * 880, ((33 - latitude) / 89) * 560];
+function projectLaeaRaw([longitude, latitude]) {
+  const radians = Math.PI / 180;
+  const lambda = longitude * radians;
+  const phi = latitude * radians;
+  const lambda0 = LAEA.centralLongitude * radians;
+  const phi0 = LAEA.centralLatitude * radians;
+  const delta = lambda - lambda0;
+  const denominator = 1 + Math.sin(phi0) * Math.sin(phi) + Math.cos(phi0) * Math.cos(phi) * Math.cos(delta);
+  const k = Math.sqrt(2 / denominator);
+  return [
+    k * Math.cos(phi) * Math.sin(delta),
+    k * (Math.cos(phi0) * Math.sin(phi) - Math.sin(phi0) * Math.cos(phi) * Math.cos(delta)),
+  ];
+}
+
+function eachCoordinate(geometry, callback) {
+  const visit = (value) => {
+    if (typeof value?.[0] === "number") callback(value);
+    else value.forEach(visit);
+  };
+  visit(geometry.coordinates);
+}
+
+function projectionViewport(featureCollection) {
+  const projected = [];
+  featureCollection.features.forEach((feature) => eachCoordinate(feature.geometry, (point) => projected.push(projectLaeaRaw(point))));
+  const xs = projected.map((point) => point[0]);
+  const ys = projected.map((point) => point[1]);
+  const bounds = { minX: Math.min(...xs), maxX: Math.max(...xs), minY: Math.min(...ys), maxY: Math.max(...ys) };
+  const scale = Math.min((MAP_WIDTH - 2 * MAP_PADDING) / (bounds.maxX - bounds.minX), (MAP_HEIGHT - 2 * MAP_PADDING) / (bounds.maxY - bounds.minY));
+  return {
+    ...bounds,
+    scale,
+    offsetX: (MAP_WIDTH - (bounds.maxX - bounds.minX) * scale) / 2,
+    offsetY: (MAP_HEIGHT - (bounds.maxY - bounds.minY) * scale) / 2,
+  };
+}
+
+function project(point) {
+  const [rawX, rawY] = projectLaeaRaw(point);
+  return [
+    mapProjectionViewport.offsetX + (rawX - mapProjectionViewport.minX) * mapProjectionViewport.scale,
+    MAP_HEIGHT - mapProjectionViewport.offsetY - (rawY - mapProjectionViewport.minY) * mapProjectionViewport.scale,
+  ];
+}
+
+function isInsideMapWindow(item) {
+  return item.longitude >= MAP_WINDOW.west && item.longitude <= MAP_WINDOW.east
+    && item.latitude >= MAP_WINDOW.south && item.latitude <= MAP_WINDOW.north;
 }
 
 function polygonPath(coordinates) {
@@ -187,6 +229,48 @@ function automaticCountryLabelPoint(feature) {
     .sort((first, second) => second.area - first.area)[0].point;
 }
 
+function overlapsLabelBox(first, second) {
+  return !(first.right + 4 < second.left || first.left > second.right + 4 || first.bottom + 4 < second.top || first.top > second.bottom + 4);
+}
+
+function countryLabelLayout(countries, featureByCode) {
+  const occupied = [];
+  const labels = new Map();
+  const offsets = [[0, 0], [0, -22], [0, 22], [-34, 0], [34, 0], [-34, -22], [34, 22], [-34, 22], [34, -22]];
+  [...countries.entries()].sort(([first], [second]) => first.localeCompare(second)).forEach(([code, country]) => {
+    const feature = featureByCode.get(code);
+    if (!feature) return;
+    const sourceAnchor = [feature.properties.LABEL_LONGITUDE, feature.properties.LABEL_LATITUDE];
+    const anchor = sourceAnchor.every(Number.isFinite) ? project(sourceAnchor) : automaticCountryLabelPoint(feature);
+    const width = Math.max(42, country.name_zh.length * 16);
+    const choice = offsets.map(([dx, dy]) => ({
+      x: anchor[0] + dx,
+      y: anchor[1] + dy,
+      dx,
+      dy,
+      box: { left: anchor[0] + dx - width / 2, right: anchor[0] + dx + width / 2, top: anchor[1] + dy - 15, bottom: anchor[1] + dy + 6 },
+    })).find((candidate) => candidate.box.left >= 0 && candidate.box.right <= MAP_WIDTH && candidate.box.top >= 0 && candidate.box.bottom <= MAP_HEIGHT && !occupied.some((other) => overlapsLabelBox(candidate.box, other)));
+    const selected = choice || { x: anchor[0], y: anchor[1], dx: 0, dy: 0, box: { left: anchor[0] - width / 2, right: anchor[0] + width / 2, top: anchor[1] - 15, bottom: anchor[1] + 6 } };
+    occupied.push(selected.box);
+    labels.set(code, { ...selected, anchor });
+  });
+  return { labels, occupied };
+}
+
+function mapPointLabelLayout(nodes, occupiedLabels = []) {
+  const occupied = [...occupiedLabels];
+  const layout = new Map();
+  [...nodes].sort((first, second) => Number(second.map_status === "featured") - Number(first.map_status === "featured") || first.place_id.localeCompare(second.place_id)).forEach((item) => {
+    const [x, y] = project([item.longitude, item.latitude]);
+    const width = Math.max(42, item.name_zh.length * 13);
+    const box = { left: x + 9, right: x + 9 + width, top: y - 13, bottom: y + 7 };
+    const visible = item.map_status === "featured" && !occupied.some((other) => overlapsLabelBox(box, other));
+    if (visible) occupied.push(box);
+    layout.set(item.place_id, { x, y, visible });
+  });
+  return layout;
+}
+
 function literaryConnectionsFor(placeIds, includeWorkCreators = false) {
   const scope = new Set(placeIds);
   const mapRelations = data.map.relations.filter((item) => scope.has(item.target_place_id));
@@ -224,7 +308,7 @@ function allowedMapRoles(filter = mapFilter) {
 function visibleRealMapPlaces(filter = mapFilter) {
   const roles = allowedMapRoles(filter);
   const relatedPlaceIds = new Set(data.map.relations.filter((item) => roles.includes(item.map_relation_role)).map((item) => item.target_place_id));
-  return publicPlaces().filter((item) => item.reality_status === "real" && item.place_kind !== "country" && item.latitude != null && (!activeCountry || item.parent_place_id === activeCountry) && relatedPlaceIds.has(item.place_id));
+  return publicPlaces().filter((item) => item.reality_status === "real" && item.place_kind !== "country" && item.latitude != null && isInsideMapWindow(item) && (!activeCountry || item.parent_place_id === activeCountry) && relatedPlaceIds.has(item.place_id));
 }
 
 function mapContextFor(target) {
@@ -263,38 +347,34 @@ function mapContextPanelMarkup() {
 }
 
 function mapMarkup() {
-  const countries = publicPlaces().filter((item) => item.place_kind === "country");
+  const countries = publicPlaces().filter((item) => item.place_kind === "country" && isPublic(item.place_id));
   const countryByCode = new Map(countries.map((item) => [item.country_code, item]));
   const featureByCode = new Map(geography.features.map((feature) => [feature.properties.ISO_A2, feature]));
+  const countryLabelPositions = countryLabelLayout(countryByCode, featureByCode);
   const selectedCode = place(activeCountry)?.country_code;
   const shapes = geography.features.map((feature) => {
     const code = feature.properties.ISO_A2;
     const country = countryByCode.get(code);
     const active = selectedCode === code;
-    return `<path d="${featurePath(feature)}" class="country-shape ${country ? "available" : ""} ${active ? "active" : ""}" ${country ? `data-country-id="${escapeHtml(country.place_id)}" tabindex="0" role="button" aria-pressed="${active}" aria-label="探索${escapeHtml(country.name_zh)}文学"` : `aria-hidden="true"`}><title>${escapeHtml(country?.name_zh || feature.properties.ADMIN)}</title></path>`;
+    const title = country ? `<title>${escapeHtml(country.name_zh)}</title>` : "";
+    return `<path d="${featurePath(feature)}" class="country-shape l1-background ${country ? "available l2-interactive" : "l1-only"} ${active ? "active" : ""}" data-feature-id="${escapeHtml(feature.properties.FEATURE_ID)}" data-part-count="${feature.properties.PART_IDS.length}" ${country ? `data-country-id="${escapeHtml(country.place_id)}" tabindex="0" role="button" aria-pressed="${active}" aria-label="探索${escapeHtml(country.name_zh)}文学"` : `aria-hidden="true"`}>${title}</path>`;
   }).join("");
   const countryLabels = [...countryByCode.entries()].map(([code, country]) => {
-    const feature = featureByCode.get(code);
-    if (!feature) return "";
-    const anchor = automaticCountryLabelPoint(feature);
-    const override = COUNTRY_LABEL_OVERRIDES[code];
-    const [x, y] = override || anchor;
-    const leader = override
-      ? `<line x1="${anchor[0].toFixed(1)}" y1="${anchor[1].toFixed(1)}" x2="${x}" y2="${y - 4}"></line>`
-      : "";
-    return `<g class="country-label-group" aria-hidden="true">${leader}<text class="country-label" data-country-label-code="${escapeHtml(code)}" data-label-position="${override ? "override" : "automatic"}" x="${x.toFixed(1)}" y="${y.toFixed(1)}" text-anchor="middle">${escapeHtml(country.name_zh)}</text></g>`;
+    const position = countryLabelPositions.labels.get(code);
+    if (!position) return "";
+    const leader = position.dx || position.dy ? `<line x1="${position.anchor[0].toFixed(1)}" y1="${position.anchor[1].toFixed(1)}" x2="${position.x.toFixed(1)}" y2="${(position.y - 4).toFixed(1)}"></line>` : "";
+    return `<g class="country-label-group" aria-hidden="true">${leader}<text class="country-label" data-country-label-code="${escapeHtml(code)}" data-label-position="natural-earth-projected" x="${position.x.toFixed(1)}" y="${position.y.toFixed(1)}" text-anchor="middle">${escapeHtml(country.name_zh)}</text></g>`;
   }).join("");
   const realNodes = visibleRealMapPlaces();
-  const labelOffsets = { "V1-ENT-0052": [10, -12], "V1-ENT-0053": [10, 16], "V1-ENT-0054": [-72, 16], "V1-ENT-0056": [10, -20] };
+  const pointLabels = mapPointLabelLayout(realNodes, countryLabelPositions.occupied);
   const points = realNodes.map((item) => {
-    const [x, y] = project([item.longitude, item.latitude]);
-    const [dx, dy] = labelOffsets[item.place_id] || [10, 4];
+    const { x, y, visible } = pointLabels.get(item.place_id);
     const active = activeMapTarget?.type === "place" && activeMapTarget.id === item.place_id;
-    return `<g class="map-point ${active ? "active" : ""}" data-place-id="${escapeHtml(item.place_id)}" tabindex="0" role="button" aria-pressed="${active}" aria-label="查看${escapeHtml(item.name_zh)}的文学关联"><circle cx="${x}" cy="${y}" r="6"></circle><text x="${x + dx}" y="${y + dy}">${escapeHtml(item.name_zh)}</text></g>`;
+    return `<g class="map-point ${active ? "active" : ""}" data-place-id="${escapeHtml(item.place_id)}" tabindex="0" role="button" aria-pressed="${active}" aria-label="查看${escapeHtml(item.name_zh)}的文学关联"><circle cx="${x.toFixed(1)}" cy="${y.toFixed(1)}" r="6"></circle>${visible ? `<text data-map-point-label x="${(x + 10).toFixed(1)}" y="${(y + 4).toFixed(1)}">${escapeHtml(item.name_zh)}</text>` : ""}</g>`;
   }).join("");
   const fictionalNodes = publicPlaces().filter((item) => item.reality_status === "fictional" && isPublic(item.place_id));
   const fictionalInset = `<section class="fictional-space-inset" aria-labelledby="fictional-space-title"><p id="fictional-space-title">写出来的地方</p><span>不使用现实坐标</span><div>${fictionalNodes.map((item) => { const active = activeMapTarget?.type === "fictional_space" && activeMapTarget.id === item.place_id; return `<button type="button" class="fictional-space-button ${active ? "active" : ""}" data-fictional-space-id="${escapeHtml(item.place_id)}" aria-pressed="${active}"><i aria-hidden="true"></i><strong>${escapeHtml(item.name_zh)}</strong></button>`; }).join("")}</div></section>`;
-  return `<div class="map-shell"><div class="map-toolbar"><strong>从国家与地点进入文学</strong><div class="map-legend"><span><i class="legend-swatch country"></i>可探索国家</span><span><i class="legend-swatch place"></i>现实地点</span><span><i class="legend-swatch fictional"></i>文学虚构空间</span></div></div><div class="map-layout"><div class="map-canvas"><svg viewBox="0 0 880 560" aria-labelledby="map-title map-description"><title id="map-title">拉丁美洲文学地图</title><desc id="map-description">真实国家边界以及依据坐标投影的文学地点。地图持续显示可探索国家的中文名称；选择国家、现实地点或文学虚构空间，在右侧查看相关作家和作品。</desc><g>${shapes}</g><g>${countryLabels}</g><g>${points}</g></svg>${fictionalInset}</div>${mapContextPanelMarkup()}</div><div class="map-footer"><div class="map-filter">${[["all","全部地点"],["author_geography","作家地理"],["story_setting","故事空间"]].map(([key,label]) => `<button class="chip ${mapFilter === key ? "active" : ""}" aria-pressed="${mapFilter === key}" data-map-filter="${key}">${label}</button>`).join("")}</div><button class="map-reset" type="button" data-map-reset>${activeMapTarget ? "清除选择，返回完整地图" : "点击地图上的地点开始"}</button></div></div>`;
+  return `<div class="map-shell"><div class="map-toolbar"><strong>从国家与地点进入文学</strong><div class="map-legend"><span><i class="legend-swatch country"></i>可探索国家</span><span><i class="legend-swatch no-content"></i>当前暂无收录作家或作品</span><span><i class="legend-swatch place"></i>现实地点</span><span><i class="legend-swatch fictional"></i>文学虚构空间</span></div></div><div class="map-layout"><div class="map-canvas"><svg viewBox="0 0 880 560" preserveAspectRatio="xMidYMid meet" data-projection="LAEA" data-projection-center="-75,-11.5" aria-labelledby="map-title map-description"><title id="map-title">拉丁美洲文学地图</title><desc id="map-description">以历史文化口径呈现拉丁美洲背景，并以兰伯特方位等积投影显示有公开文学内容的可交互国家与地点。灰色几何仅作中性地理背景，不表示已有文学内容。</desc><g data-map-layer="l1">${shapes}</g><g data-map-layer="l2-labels">${countryLabels}</g><g data-map-layer="literary-places">${points}</g></svg>${fictionalInset}</div>${mapContextPanelMarkup()}</div><div class="map-neutrality-note"><p>地图范围采用拉丁美洲历史文化口径；范围外的邻接陆地不在本图呈现。</p><p>本地图仅呈现地理事实与文学关联，不代表对任何争议边界、领土归属或政治地位的立场。边界采用 Natural Earth（公有领域）的 de facto 数据呈现，不构成法律上的边界或地位裁决；文学地点坐标来自 GeoNames。</p></div><div class="map-footer"><div class="map-filter">${[["all","全部地点"],["author_geography","作家地理"],["story_setting","故事空间"]].map(([key,label]) => `<button class="chip ${mapFilter === key ? "active" : ""}" aria-pressed="${mapFilter === key}" data-map-filter="${key}">${label}</button>`).join("")}</div><button class="map-reset" type="button" data-map-reset>${activeMapTarget ? "清除选择，返回完整地图" : "点击地图上的地点开始"}</button></div><p class="map-attribution">底图几何：Natural Earth Admin 0 Countries 1:50m（公有领域），版本 5.1.1，获取日期 2026-09-08；地点坐标：GeoNames（CC BY 4.0）。</p></div>`;
 }
 
 function discoveryItems(group) {
@@ -366,7 +446,7 @@ function renderHome(focusContext = false) {
   const navigationPaths = publicPaths.length ? publicPaths.map((path) => ({ ...path, href: new URL(`paths/${path.slug}/`, SITE_ROOT).pathname })) : [
     { title: "从文学虚构空间进入", description: "先认识马孔多与科马拉，再回到创造它们的作品和作家。", href: hrefFor("fictional_space", "V1-ENT-0097") },
     { title: "从一篇短篇小说进入", description: "从篇幅较短的作品开始，认识叙事形式与文学空间。", href: `${new URL("search/", SITE_ROOT).pathname}?q=${encodeURIComponent("短篇小说")}` },
-    { title: "从巴西文学进入", description: "沿里约热内卢、作品与作家认识葡萄牙语文学。", href: hrefFor("country", "V2-GEO-BR") },
+    { title: "从巴西文学进入", description: "沿里约热内卢、作品与作家认识葡萄牙语文学。", href: hrefFor("country", "V1-ENT-0183") },
     { title: "沿时间进入", description: "按首次发表年份查看作家和作品，在年代之间建立阅读线索。", href: new URL("timeline/", SITE_ROOT).pathname },
   ];
   setMeta(data.presentation.site.name, data.presentation.site.description);
@@ -596,7 +676,7 @@ function renderTimeline() {
 
 function renderAbout() {
   setMeta("关于项目", "从地点进入拉丁美洲文学，理解真实地理、虚构空间、作家与作品如何彼此连接。", "about/");
-  app.innerHTML = `<section class="page-header"><p class="eyebrow">关于项目</p><h1 class="display-title">为什么做一张<br /><em>文学地图？</em></h1><p class="lede">因为文学从来不只发生在书页里。它也发生在城市、边境、河流、港口，以及作家创造出来的世界中。</p></section><section class="about-sections"><article><span>01</span><div><h2>这是什么</h2><p>拉丁美洲文学地图是一项面向中文读者的文学探索计划。你可以从一个地方开始，遇见与它有关的作家和作品，再沿着时间、主题与文学关系继续阅读。它不是一份必须按顺序读完的文学史，而是一组可以自由进入的路径。</p></div></article><article><span>02</span><div><h2>为什么是一张地图</h2><p>地点不只是故事的背景。墨西哥的村庄、布宜诺斯艾利斯的街道、加勒比海岸的城镇，都可能塑造一种叙事声音；马孔多、科马拉这样的虚构空间，也会反过来改变我们理解现实的方式。地图让这些关系变得可见。</p></div></article><article><span>03</span><div><h2>你可以怎样探索</h2><ul><li>从地图选择国家、城市或文学虚构空间；</li><li>从相关作家进入他的生平、作品与写作地点；</li><li>从一部作品继续寻找它发生在哪里、讨论什么；</li><li>也可以使用搜索与时间线，建立自己的阅读顺序。</li></ul></div></article><article><span>04</span><div><h2>不止魔幻现实主义</h2><p>拉丁美洲文学远比一个标签更宽广。这里也有现代主义、先锋实验、城市小说、短篇传统、诗歌、历史叙事与当代写作。地图希望保留这些差异，让读者看见不同语言区域、年代与文学形式之间丰富而不整齐的联系。</p></div></article><article><span>05</span><div><h2>一张持续生长的地图</h2><p>这张地图会继续增加新的地点、作家、作品与阅读路径。现实地点按它们所在的位置呈现；文学虚构空间则始终与现实坐标分开。某段联系尚不确定时，地图会暂时留下空白。</p></div></article><details class="research-panel about-research"><summary>研究依据与使用边界</summary><div class="research-body"><section><h3>资料与版权</h3><p>基础事实与文学关系来自公开可追溯资料，页面书目尽可能保留原始访问链接。项目不提供受版权保护的作品全文，也不使用作品封面；地图边界来自公共领域的 Natural Earth 数据。内容页的“研究依据与延伸阅读”提供进一步核对入口。</p></section></div></details></section>`;
+  app.innerHTML = `<section class="page-header"><p class="eyebrow">关于项目</p><h1 class="display-title">为什么做一张<br /><em>文学地图？</em></h1><p class="lede">因为文学从来不只发生在书页里。它也发生在城市、边境、河流、港口，以及作家创造出来的世界中。</p></section><section class="about-sections"><article><span>01</span><div><h2>这是什么</h2><p>拉丁美洲文学地图是一项面向中文读者的文学探索计划。你可以从一个地方开始，遇见与它有关的作家和作品，再沿着时间、主题与文学关系继续阅读。它不是一份必须按顺序读完的文学史，而是一组可以自由进入的路径。</p></div></article><article><span>02</span><div><h2>为什么是一张地图</h2><p>地点不只是故事的背景。墨西哥的村庄、布宜诺斯艾利斯的街道、加勒比海岸的城镇，都可能塑造一种叙事声音；马孔多、科马拉这样的虚构空间，也会反过来改变我们理解现实的方式。地图让这些关系变得可见。</p></div></article><article><span>03</span><div><h2>你可以怎样探索</h2><ul><li>从地图选择国家、城市或文学虚构空间；</li><li>从相关作家进入他的生平、作品与写作地点；</li><li>从一部作品继续寻找它发生在哪里、讨论什么；</li><li>也可以使用搜索与时间线，建立自己的阅读顺序。</li></ul></div></article><article><span>04</span><div><h2>不止魔幻现实主义</h2><p>拉丁美洲文学远比一个标签更宽广。这里也有现代主义、先锋实验、城市小说、短篇传统、诗歌、历史叙事与当代写作。地图希望保留这些差异，让读者看见不同语言区域、年代与文学形式之间丰富而不整齐的联系。</p></div></article><article><span>05</span><div><h2>一张持续生长的地图</h2><p>这张地图会继续增加新的地点、作家、作品与阅读路径。现实地点按它们所在的位置呈现；文学虚构空间则始终与现实坐标分开。某段联系尚不确定时，地图会暂时留下空白。</p></div></article><details class="research-panel about-research"><summary>研究依据与使用边界</summary><div class="research-body"><section><h3>地图来源、范围与中立性</h3><p>底图几何来自 Natural Earth Admin 0 Countries 1:50m（公有领域），版本 5.1.1，获取日期 2026-09-08；地点坐标来自 GeoNames（CC BY 4.0）。地图以历史文化口径呈现拉丁美洲背景，且只对已有公开文学内容的国家和地点开放交互。</p><p>本地图仅呈现地理事实与文学关联，不代表对任何争议边界、领土归属或政治地位的立场。边界采用 Natural Earth 的 de facto 数据呈现，不构成法律上的边界或地位裁决。</p></section><section><h3>资料与版权</h3><p>基础事实与文学关系来自公开可追溯资料，页面书目尽可能保留原始访问链接。项目不提供受版权保护的作品全文，也不使用作品封面。内容页的“研究依据与延伸阅读”提供进一步核对入口。</p></section></div></details></section>`;
 }
 
 function renderNode(id) {
@@ -656,6 +736,7 @@ nav?.addEventListener("click", () => { nav.classList.remove("open"); menuToggle?
 Promise.all([fetch(DATA_URL), fetch(MAP_URL)]).then(async ([dataResponse, mapResponse]) => {
   if (!dataResponse.ok || !mapResponse.ok) throw new Error("公开内容暂时无法载入");
   [data, geography] = await Promise.all([dataResponse.json(), mapResponse.json()]);
+  mapProjectionViewport = projectionViewport(geography);
   renderRoute();
 }).catch((error) => {
   console.error("Public application failed to render", error);

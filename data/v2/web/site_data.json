@@ -9,7 +9,7 @@
     "facts": 1027,
     "gaps": 24,
     "place_relations": 93,
-    "places": 38,
+    "places": 37,
     "relation_holds": 51,
     "relationships": 334,
     "sources": 314
@@ -1746,7 +1746,7 @@
         "target_type": "work"
       },
       {
-        "basis_note": "N2 国家层技术父级；默认地图展示巴西国家入口，不新增 V1 研究事实",
+        "basis_note": "WCD-09 将巴西地图入口收口到既有正式国家实体，里约父级在 Web 构建时同步 canonicalize",
         "created_at": "2026-08-11",
         "curation_id": "V2-CUR-SEL-011",
         "display_scope": [
@@ -1754,9 +1754,9 @@
         ],
         "draft_origin": "codex",
         "research_refs": [],
-        "review_note": "国家层显示规则已核验",
-        "reviewed_at": "2026-08-11",
-        "reviewer": "CODEX",
+        "review_note": "WCD-09 CH-12 canonical mapping",
+        "reviewed_at": "2026-09-08",
+        "reviewer": "USER",
         "schema_version": "v2-curation-0.1",
         "selection_key": "map_status",
         "selection_value": "featured",
@@ -1765,7 +1765,7 @@
           "https://www.geonames.org/3469034/federative-republic-of-brazil.html"
         ],
         "status": "auto_approved",
-        "target_id": "V2-GEO-BR",
+        "target_id": "V1-ENT-0183",
         "target_type": "country"
       },
       {
@@ -2080,7 +2080,7 @@
     "geo_data": "data/v2/geo",
     "research_database": "data/master/V1_MASTER.sqlite"
   },
-  "generated_at": "2026-09-06T12:00:20+08:00",
+  "generated_at": "2026-09-08T12:00:00Z",
   "map": {
     "places": [
       {
@@ -2364,11 +2364,11 @@
       },
       {
         "classification_note": "GeoNames城市点；仅用于地图概览，不表示具体叙事场景",
-        "classification_source_url": "https://www.geonames.org/search.html?country=BR",
+        "classification_source_url": "https://www.geonames.org/3451190/",
         "classification_status": "confirmed",
         "coordinate_precision": "city_centroid",
-        "coordinate_retrieved_at": "2026-08-11",
-        "coordinate_source_url": "https://www.geonames.org/search.html?country=BR",
+        "coordinate_retrieved_at": "2026-09-08",
+        "coordinate_source_url": "https://www.geonames.org/3451190/",
         "country_code": "BR",
         "curation_selections": [
           {
@@ -2435,7 +2435,7 @@
         "map_status": "featured",
         "name_zh": "里约热内卢",
         "original_name": "Rio de Janeiro",
-        "parent_place_id": "V2-GEO-BR",
+        "parent_place_id": "V1-ENT-0183",
         "place_id": "V1-ENT-0022",
         "place_kind": "city",
         "reality_status": "real",
@@ -2704,11 +2704,11 @@
       },
       {
         "classification_note": "GeoNames populated place点位",
-        "classification_source_url": "https://www.geonames.org/search.html?country=MX&q=Mexico&startRow=150",
+        "classification_source_url": "https://www.geonames.org/3530367/",
         "classification_status": "confirmed",
         "coordinate_precision": "city_centroid",
-        "coordinate_retrieved_at": "2026-08-11",
-        "coordinate_source_url": "https://www.geonames.org/search.html?country=MX&q=Mexico&startRow=150",
+        "coordinate_retrieved_at": "2026-09-08",
+        "coordinate_source_url": "https://www.geonames.org/3530367/",
         "country_code": "MX",
         "curation_selections": [
           {
@@ -2768,11 +2768,11 @@
       },
       {
         "classification_note": "GeoNames populated place点位",
-        "classification_source_url": "https://www.geonames.org/advanced-search.html?country=MX&featureClass=P&q=Ixtepec",
+        "classification_source_url": "https://www.geonames.org/3526674/",
         "classification_status": "confirmed",
         "coordinate_precision": "city_centroid",
-        "coordinate_retrieved_at": "2026-08-11",
-        "coordinate_source_url": "https://www.geonames.org/advanced-search.html?country=MX&featureClass=P&q=Ixtepec",
+        "coordinate_retrieved_at": "2026-09-08",
+        "coordinate_source_url": "https://www.geonames.org/3526674/",
         "country_code": "MX",
         "curation_selections": [],
         "entity_id": "V1-ENT-0054",
@@ -2871,11 +2871,11 @@
       },
       {
         "classification_note": "V1实体此前无正式地图关系故 hidden；WEB-CE-B01 新增帕斯—墨西哥城 ASSOCIATED_WITH_PLACE（V1-REL-0088）后转为 eligible",
-        "classification_source_url": "https://www.geonames.org/advanced-search.html?q=M%C3%A9xico",
+        "classification_source_url": "https://www.geonames.org/3530597/",
         "classification_status": "confirmed",
         "coordinate_precision": "city_centroid",
-        "coordinate_retrieved_at": "2026-08-11",
-        "coordinate_source_url": "https://www.geonames.org/advanced-search.html?q=M%C3%A9xico",
+        "coordinate_retrieved_at": "2026-09-08",
+        "coordinate_source_url": "https://www.geonames.org/3530597/",
         "country_code": "MX",
         "curation_selections": [],
         "entity_id": "V1-ENT-0056",
@@ -2954,11 +2954,11 @@
       },
       {
         "classification_note": "GeoNames populated place点位",
-        "classification_source_url": "https://www.geonames.org/advanced-search.html?country=MX&q=Mexico&startRow=1450",
+        "classification_source_url": "https://www.geonames.org/8582212/",
         "classification_status": "confirmed",
         "coordinate_precision": "city_centroid",
-        "coordinate_retrieved_at": "2026-08-11",
-        "coordinate_source_url": "https://www.geonames.org/advanced-search.html?country=MX&q=Mexico&startRow=1450",
+        "coordinate_retrieved_at": "2026-09-08",
+        "coordinate_source_url": "https://www.geonames.org/8582212/",
         "country_code": "MX",
         "curation_selections": [],
         "entity_id": "V1-ENT-0057",
@@ -3281,8 +3281,8 @@
         "classification_source_url": "https://mapcarta.com/Aracataca",
         "classification_status": "confirmed",
         "coordinate_precision": "locality_centroid",
-        "coordinate_retrieved_at": "2026-08-11",
-        "coordinate_source_url": "https://www.geonames.org/search.html?country=CO&startRow=100",
+        "coordinate_retrieved_at": "2026-09-08",
+        "coordinate_source_url": "https://www.geonames.org/3689759/",
         "country_code": "CO",
         "curation_selections": [
           {
@@ -3583,11 +3583,11 @@
       },
       {
         "classification_note": "GeoNames城市点位",
-        "classification_source_url": "https://www.geonames.org/advanced-search.html?country=PE&q=Lima",
+        "classification_source_url": "https://www.geonames.org/3936456/",
         "classification_status": "confirmed",
         "coordinate_precision": "city_centroid",
-        "coordinate_retrieved_at": "2026-08-11",
-        "coordinate_source_url": "https://www.geonames.org/advanced-search.html?country=PE&q=Lima",
+        "coordinate_retrieved_at": "2026-09-08",
+        "coordinate_source_url": "https://www.geonames.org/3936456/",
         "country_code": "PE",
         "curation_selections": [],
         "entity_id": "V1-ENT-0125",
@@ -3651,11 +3651,11 @@
       },
       {
         "classification_note": "GeoNames城市点位",
-        "classification_source_url": "https://www.geonames.org/3947322/arequipa.html",
+        "classification_source_url": "https://www.geonames.org/3947322/",
         "classification_status": "confirmed",
         "coordinate_precision": "city_centroid",
-        "coordinate_retrieved_at": "2026-08-11",
-        "coordinate_source_url": "https://www.geonames.org/3947322/arequipa.html",
+        "coordinate_retrieved_at": "2026-09-08",
+        "coordinate_source_url": "https://www.geonames.org/3947322/",
         "country_code": "PE",
         "curation_selections": [],
         "entity_id": "V1-ENT-0126",
@@ -3692,8 +3692,8 @@
         "classification_source_url": "https://www.wikidata.org/wiki/Q51083",
         "classification_status": "provisional",
         "coordinate_precision": "city_centroid",
-        "coordinate_retrieved_at": "2026-08-11",
-        "coordinate_source_url": "https://geonames.en-academic.com/76511/Parral",
+        "coordinate_retrieved_at": "2026-09-08",
+        "coordinate_source_url": "https://www.geonames.org/3877146/",
         "country_code": "CL",
         "curation_selections": [],
         "entity_id": "V1-ENT-0127",
@@ -3727,11 +3727,11 @@
       },
       {
         "classification_note": "GeoNames城市点位；限定为智利圣地亚哥",
-        "classification_source_url": "https://www.geonames.org/search.html?q=Santiago",
+        "classification_source_url": "https://www.geonames.org/3871336/",
         "classification_status": "confirmed",
         "coordinate_precision": "city_centroid",
-        "coordinate_retrieved_at": "2026-08-11",
-        "coordinate_source_url": "https://www.geonames.org/search.html?q=Santiago",
+        "coordinate_retrieved_at": "2026-09-08",
+        "coordinate_source_url": "https://www.geonames.org/3871336/",
         "country_code": "CL",
         "curation_selections": [],
         "entity_id": "V1-ENT-0128",
@@ -3780,11 +3780,11 @@
       },
       {
         "classification_note": "作者地理关系中的欧洲节点；保留以支持完整作者路径，不扩展拉美地图层",
-        "classification_source_url": "https://www.geonames.org/advanced-search.html?q=madrid",
+        "classification_source_url": "https://www.geonames.org/3117735/",
         "classification_status": "confirmed",
         "coordinate_precision": "city_centroid",
-        "coordinate_retrieved_at": "2026-08-11",
-        "coordinate_source_url": "https://www.geonames.org/advanced-search.html?q=madrid",
+        "coordinate_retrieved_at": "2026-09-08",
+        "coordinate_source_url": "https://www.geonames.org/3117735/",
         "country_code": "ES",
         "curation_selections": [],
         "entity_id": "V1-ENT-0129",
@@ -3817,52 +3817,6 @@
         "source_kind": "v1_entity"
       },
       {
-        "classification_note": "仅作为里约热内卢父级技术节点；不属于V1研究实体，不单独展示",
-        "classification_source_url": "https://www.geonames.org/3469034/federative-republic-of-brazil.html",
-        "classification_status": "confirmed",
-        "coordinate_precision": "country_polygon_required",
-        "coordinate_retrieved_at": "2026-08-11",
-        "coordinate_source_url": "https://www.geonames.org/3469034/federative-republic-of-brazil.html",
-        "country_code": "BR",
-        "curation_selections": [
-          {
-            "basis_note": "N2 国家层技术父级；默认地图展示巴西国家入口，不新增 V1 研究事实",
-            "created_at": "2026-08-11",
-            "curation_id": "V2-CUR-SEL-011",
-            "display_scope": [
-              "map"
-            ],
-            "draft_origin": "codex",
-            "research_refs": [],
-            "review_note": "国家层显示规则已核验",
-            "reviewed_at": "2026-08-11",
-            "reviewer": "CODEX",
-            "schema_version": "v2-curation-0.1",
-            "selection_key": "map_status",
-            "selection_value": "featured",
-            "sort_order": 10,
-            "source_refs": [
-              "https://www.geonames.org/3469034/federative-republic-of-brazil.html"
-            ],
-            "status": "auto_approved",
-            "target_id": "V2-GEO-BR",
-            "target_type": "country"
-          }
-        ],
-        "entity_id": null,
-        "latitude": null,
-        "literary_relations": [],
-        "longitude": null,
-        "map_status": "featured",
-        "name_zh": "巴西",
-        "original_name": "Brazil",
-        "parent_place_id": null,
-        "place_id": "V2-GEO-BR",
-        "place_kind": "country",
-        "reality_status": "real",
-        "source_kind": "technical_parent_node"
-      },
-      {
         "classification_note": "仅作为马德里父级技术节点；不属于V1研究实体，不单独展示",
         "classification_source_url": "https://www.geonames.org/advanced-search.html?q=Spain",
         "classification_status": "confirmed",
@@ -3886,11 +3840,11 @@
       },
       {
         "classification_note": "米斯特拉尔出生地（诺贝尔官网 Born: 7 April 1889, Vicuña, Chile）；现实地点，坐标为 GeoNames 编号 3868308 点位（-30.0354,-70.7127，与 latitude.to 一致）；虚构规则不适用，坐标来源可回查",
-        "classification_source_url": "https://www.geonames.org/3868308/vicuna.html",
+        "classification_source_url": "https://www.geonames.org/3868308/",
         "classification_status": "confirmed",
         "coordinate_precision": "city_centroid",
-        "coordinate_retrieved_at": "2026-08-18",
-        "coordinate_source_url": "https://www.geonames.org/3868308/vicuna.html",
+        "coordinate_retrieved_at": "2026-09-08",
+        "coordinate_source_url": "https://www.geonames.org/3868308/",
         "country_code": "CL",
         "curation_selections": [],
         "entity_id": "V1-ENT-0153",
@@ -3968,7 +3922,31 @@
         "coordinate_retrieved_at": "2026-08-20",
         "coordinate_source_url": "https://www.geonames.org/3469034/federative-republic-of-brazil.html",
         "country_code": "BR",
-        "curation_selections": [],
+        "curation_selections": [
+          {
+            "basis_note": "WCD-09 将巴西地图入口收口到既有正式国家实体，里约父级在 Web 构建时同步 canonicalize",
+            "created_at": "2026-08-11",
+            "curation_id": "V2-CUR-SEL-011",
+            "display_scope": [
+              "map"
+            ],
+            "draft_origin": "codex",
+            "research_refs": [],
+            "review_note": "WCD-09 CH-12 canonical mapping",
+            "reviewed_at": "2026-09-08",
+            "reviewer": "USER",
+            "schema_version": "v2-curation-0.1",
+            "selection_key": "map_status",
+            "selection_value": "featured",
+            "sort_order": 10,
+            "source_refs": [
+              "https://www.geonames.org/3469034/federative-republic-of-brazil.html"
+            ],
+            "status": "auto_approved",
+            "target_id": "V1-ENT-0183",
+            "target_type": "country"
+          }
+        ],
         "entity_id": "V1-ENT-0183",
         "latitude": null,
         "literary_relations": [
@@ -4362,11 +4340,11 @@
       },
       {
         "classification_note": "WCD-02 核心文学城市；GeoNames RDF 直接给出城市名称与坐标；承载两位作者出生地关联和《跳房子》故事空间",
-        "classification_source_url": "https://sws.geonames.org/3435910/about.rdf",
+        "classification_source_url": "https://www.geonames.org/3435910/",
         "classification_status": "confirmed",
         "coordinate_precision": "city_centroid",
-        "coordinate_retrieved_at": "2026-08-27",
-        "coordinate_source_url": "https://sws.geonames.org/3435910/about.rdf",
+        "coordinate_retrieved_at": "2026-09-08",
+        "coordinate_source_url": "https://www.geonames.org/3435910/",
         "country_code": "AR",
         "curation_selections": [
           {
@@ -4460,11 +4438,11 @@
       },
       {
         "classification_note": "WCD-02 核心文学城市；GeoNames RDF 直接给出城市名称与坐标；承载奥内蒂与加莱亚诺出生地关联",
-        "classification_source_url": "https://sws.geonames.org/3441575/about.rdf",
+        "classification_source_url": "https://www.geonames.org/3441575/",
         "classification_status": "confirmed",
         "coordinate_precision": "city_centroid",
-        "coordinate_retrieved_at": "2026-08-27",
-        "coordinate_source_url": "https://sws.geonames.org/3441575/about.rdf",
+        "coordinate_retrieved_at": "2026-09-08",
+        "coordinate_source_url": "https://www.geonames.org/3441575/",
         "country_code": "UY",
         "curation_selections": [
           {
@@ -4541,11 +4519,11 @@
       },
       {
         "classification_note": "WCD-02 现实城市节点；GeoNames RDF 同时给出 Havana、La Habana 与坐标；本轮只承载何塞·马蒂出生地关联，不把《光明世纪》的古巴空间精确化为哈瓦那",
-        "classification_source_url": "https://sws.geonames.org/3553478/about.rdf",
+        "classification_source_url": "https://www.geonames.org/3553478/",
         "classification_status": "confirmed",
         "coordinate_precision": "city_centroid",
-        "coordinate_retrieved_at": "2026-08-27",
-        "coordinate_source_url": "https://sws.geonames.org/3553478/about.rdf",
+        "coordinate_retrieved_at": "2026-09-08",
+        "coordinate_source_url": "https://www.geonames.org/3553478/",
         "country_code": "CU",
         "curation_selections": [
           {
@@ -4605,11 +4583,11 @@
       },
       {
         "classification_note": "WCD-02 跨大西洋故事空间；GeoNames RDF 直接给出城市名称与坐标；只承载《跳房子》正式场景关系，不扩张拉美国家范围",
-        "classification_source_url": "https://sws.geonames.org/2988507/about.rdf",
+        "classification_source_url": "https://www.geonames.org/2988507/",
         "classification_status": "confirmed",
         "coordinate_precision": "city_centroid",
-        "coordinate_retrieved_at": "2026-08-27",
-        "coordinate_source_url": "https://sws.geonames.org/2988507/about.rdf",
+        "coordinate_retrieved_at": "2026-09-08",
+        "coordinate_source_url": "https://www.geonames.org/2988507/",
         "country_code": "FR",
         "curation_selections": [
           {
@@ -16903,11 +16881,11 @@
       },
       {
         "classification_note": "GeoNames城市点；仅用于地图概览，不表示具体叙事场景",
-        "classification_source_url": "https://www.geonames.org/search.html?country=BR",
+        "classification_source_url": "https://www.geonames.org/3451190/",
         "classification_status": "confirmed",
         "coordinate_precision": "city_centroid",
-        "coordinate_retrieved_at": "2026-08-11",
-        "coordinate_source_url": "https://www.geonames.org/search.html?country=BR",
+        "coordinate_retrieved_at": "2026-09-08",
+        "coordinate_source_url": "https://www.geonames.org/3451190/",
         "country_code": "BR",
         "curation_selections": [
           {
@@ -16974,7 +16952,7 @@
         "map_status": "featured",
         "name_zh": "里约热内卢",
         "original_name": "Rio de Janeiro",
-        "parent_place_id": "V2-GEO-BR",
+        "parent_place_id": "V1-ENT-0183",
         "place_id": "V1-ENT-0022",
         "place_kind": "city",
         "reality_status": "real",
@@ -17243,11 +17221,11 @@
       },
       {
         "classification_note": "GeoNames populated place点位",
-        "classification_source_url": "https://www.geonames.org/search.html?country=MX&q=Mexico&startRow=150",
+        "classification_source_url": "https://www.geonames.org/3530367/",
         "classification_status": "confirmed",
         "coordinate_precision": "city_centroid",
-        "coordinate_retrieved_at": "2026-08-11",
-        "coordinate_source_url": "https://www.geonames.org/search.html?country=MX&q=Mexico&startRow=150",
+        "coordinate_retrieved_at": "2026-09-08",
+        "coordinate_source_url": "https://www.geonames.org/3530367/",
         "country_code": "MX",
         "curation_selections": [
           {
@@ -17307,11 +17285,11 @@
       },
       {
         "classification_note": "GeoNames populated place点位",
-        "classification_source_url": "https://www.geonames.org/advanced-search.html?country=MX&featureClass=P&q=Ixtepec",
+        "classification_source_url": "https://www.geonames.org/3526674/",
         "classification_status": "confirmed",
         "coordinate_precision": "city_centroid",
-        "coordinate_retrieved_at": "2026-08-11",
-        "coordinate_source_url": "https://www.geonames.org/advanced-search.html?country=MX&featureClass=P&q=Ixtepec",
+        "coordinate_retrieved_at": "2026-09-08",
+        "coordinate_source_url": "https://www.geonames.org/3526674/",
         "country_code": "MX",
         "curation_selections": [],
         "entity_id": "V1-ENT-0054",
@@ -17410,11 +17388,11 @@
       },
       {
         "classification_note": "V1实体此前无正式地图关系故 hidden；WEB-CE-B01 新增帕斯—墨西哥城 ASSOCIATED_WITH_PLACE（V1-REL-0088）后转为 eligible",
-        "classification_source_url": "https://www.geonames.org/advanced-search.html?q=M%C3%A9xico",
+        "classification_source_url": "https://www.geonames.org/3530597/",
         "classification_status": "confirmed",
         "coordinate_precision": "city_centroid",
-        "coordinate_retrieved_at": "2026-08-11",
-        "coordinate_source_url": "https://www.geonames.org/advanced-search.html?q=M%C3%A9xico",
+        "coordinate_retrieved_at": "2026-09-08",
+        "coordinate_source_url": "https://www.geonames.org/3530597/",
         "country_code": "MX",
         "curation_selections": [],
         "entity_id": "V1-ENT-0056",
@@ -17493,11 +17471,11 @@
       },
       {
         "classification_note": "GeoNames populated place点位",
-        "classification_source_url": "https://www.geonames.org/advanced-search.html?country=MX&q=Mexico&startRow=1450",
+        "classification_source_url": "https://www.geonames.org/8582212/",
         "classification_status": "confirmed",
         "coordinate_precision": "city_centroid",
-        "coordinate_retrieved_at": "2026-08-11",
-        "coordinate_source_url": "https://www.geonames.org/advanced-search.html?country=MX&q=Mexico&startRow=1450",
+        "coordinate_retrieved_at": "2026-09-08",
+        "coordinate_source_url": "https://www.geonames.org/8582212/",
         "country_code": "MX",
         "curation_selections": [],
         "entity_id": "V1-ENT-0057",
@@ -17820,8 +17798,8 @@
         "classification_source_url": "https://mapcarta.com/Aracataca",
         "classification_status": "confirmed",
         "coordinate_precision": "locality_centroid",
-        "coordinate_retrieved_at": "2026-08-11",
-        "coordinate_source_url": "https://www.geonames.org/search.html?country=CO&startRow=100",
+        "coordinate_retrieved_at": "2026-09-08",
+        "coordinate_source_url": "https://www.geonames.org/3689759/",
         "country_code": "CO",
         "curation_selections": [
           {
@@ -18122,11 +18100,11 @@
       },
       {
         "classification_note": "GeoNames城市点位",
-        "classification_source_url": "https://www.geonames.org/advanced-search.html?country=PE&q=Lima",
+        "classification_source_url": "https://www.geonames.org/3936456/",
         "classification_status": "confirmed",
         "coordinate_precision": "city_centroid",
-        "coordinate_retrieved_at": "2026-08-11",
-        "coordinate_source_url": "https://www.geonames.org/advanced-search.html?country=PE&q=Lima",
+        "coordinate_retrieved_at": "2026-09-08",
+        "coordinate_source_url": "https://www.geonames.org/3936456/",
         "country_code": "PE",
         "curation_selections": [],
         "entity_id": "V1-ENT-0125",
@@ -18190,11 +18168,11 @@
       },
       {
         "classification_note": "GeoNames城市点位",
-        "classification_source_url": "https://www.geonames.org/3947322/arequipa.html",
+        "classification_source_url": "https://www.geonames.org/3947322/",
         "classification_status": "confirmed",
         "coordinate_precision": "city_centroid",
-        "coordinate_retrieved_at": "2026-08-11",
-        "coordinate_source_url": "https://www.geonames.org/3947322/arequipa.html",
+        "coordinate_retrieved_at": "2026-09-08",
+        "coordinate_source_url": "https://www.geonames.org/3947322/",
         "country_code": "PE",
         "curation_selections": [],
         "entity_id": "V1-ENT-0126",
@@ -18231,8 +18209,8 @@
         "classification_source_url": "https://www.wikidata.org/wiki/Q51083",
         "classification_status": "provisional",
         "coordinate_precision": "city_centroid",
-        "coordinate_retrieved_at": "2026-08-11",
-        "coordinate_source_url": "https://geonames.en-academic.com/76511/Parral",
+        "coordinate_retrieved_at": "2026-09-08",
+        "coordinate_source_url": "https://www.geonames.org/3877146/",
         "country_code": "CL",
         "curation_selections": [],
         "entity_id": "V1-ENT-0127",
@@ -18266,11 +18244,11 @@
       },
       {
         "classification_note": "GeoNames城市点位；限定为智利圣地亚哥",
-        "classification_source_url": "https://www.geonames.org/search.html?q=Santiago",
+        "classification_source_url": "https://www.geonames.org/3871336/",
         "classification_status": "confirmed",
         "coordinate_precision": "city_centroid",
-        "coordinate_retrieved_at": "2026-08-11",
-        "coordinate_source_url": "https://www.geonames.org/search.html?q=Santiago",
+        "coordinate_retrieved_at": "2026-09-08",
+        "coordinate_source_url": "https://www.geonames.org/3871336/",
         "country_code": "CL",
         "curation_selections": [],
         "entity_id": "V1-ENT-0128",
@@ -18319,11 +18297,11 @@
       },
       {
         "classification_note": "作者地理关系中的欧洲节点；保留以支持完整作者路径，不扩展拉美地图层",
-        "classification_source_url": "https://www.geonames.org/advanced-search.html?q=madrid",
+        "classification_source_url": "https://www.geonames.org/3117735/",
         "classification_status": "confirmed",
         "coordinate_precision": "city_centroid",
-        "coordinate_retrieved_at": "2026-08-11",
-        "coordinate_source_url": "https://www.geonames.org/advanced-search.html?q=madrid",
+        "coordinate_retrieved_at": "2026-09-08",
+        "coordinate_source_url": "https://www.geonames.org/3117735/",
         "country_code": "ES",
         "curation_selections": [],
         "entity_id": "V1-ENT-0129",
@@ -18356,52 +18334,6 @@
         "source_kind": "v1_entity"
       },
       {
-        "classification_note": "仅作为里约热内卢父级技术节点；不属于V1研究实体，不单独展示",
-        "classification_source_url": "https://www.geonames.org/3469034/federative-republic-of-brazil.html",
-        "classification_status": "confirmed",
-        "coordinate_precision": "country_polygon_required",
-        "coordinate_retrieved_at": "2026-08-11",
-        "coordinate_source_url": "https://www.geonames.org/3469034/federative-republic-of-brazil.html",
-        "country_code": "BR",
-        "curation_selections": [
-          {
-            "basis_note": "N2 国家层技术父级；默认地图展示巴西国家入口，不新增 V1 研究事实",
-            "created_at": "2026-08-11",
-            "curation_id": "V2-CUR-SEL-011",
-            "display_scope": [
-              "map"
-            ],
-            "draft_origin": "codex",
-            "research_refs": [],
-            "review_note": "国家层显示规则已核验",
-            "reviewed_at": "2026-08-11",
-            "reviewer": "CODEX",
-            "schema_version": "v2-curation-0.1",
-            "selection_key": "map_status",
-            "selection_value": "featured",
-            "sort_order": 10,
-            "source_refs": [
-              "https://www.geonames.org/3469034/federative-republic-of-brazil.html"
-            ],
-            "status": "auto_approved",
-            "target_id": "V2-GEO-BR",
-            "target_type": "country"
-          }
-        ],
-        "entity_id": null,
-        "latitude": null,
-        "literary_relations": [],
-        "longitude": null,
-        "map_status": "featured",
-        "name_zh": "巴西",
-        "original_name": "Brazil",
-        "parent_place_id": null,
-        "place_id": "V2-GEO-BR",
-        "place_kind": "country",
-        "reality_status": "real",
-        "source_kind": "technical_parent_node"
-      },
-      {
         "classification_note": "仅作为马德里父级技术节点；不属于V1研究实体，不单独展示",
         "classification_source_url": "https://www.geonames.org/advanced-search.html?q=Spain",
         "classification_status": "confirmed",
@@ -18425,11 +18357,11 @@
       },
       {
         "classification_note": "米斯特拉尔出生地（诺贝尔官网 Born: 7 April 1889, Vicuña, Chile）；现实地点，坐标为 GeoNames 编号 3868308 点位（-30.0354,-70.7127，与 latitude.to 一致）；虚构规则不适用，坐标来源可回查",
-        "classification_source_url": "https://www.geonames.org/3868308/vicuna.html",
+        "classification_source_url": "https://www.geonames.org/3868308/",
         "classification_status": "confirmed",
         "coordinate_precision": "city_centroid",
-        "coordinate_retrieved_at": "2026-08-18",
-        "coordinate_source_url": "https://www.geonames.org/3868308/vicuna.html",
+        "coordinate_retrieved_at": "2026-09-08",
+        "coordinate_source_url": "https://www.geonames.org/3868308/",
         "country_code": "CL",
         "curation_selections": [],
         "entity_id": "V1-ENT-0153",
@@ -18507,7 +18439,31 @@
         "coordinate_retrieved_at": "2026-08-20",
         "coordinate_source_url": "https://www.geonames.org/3469034/federative-republic-of-brazil.html",
         "country_code": "BR",
-        "curation_selections": [],
+        "curation_selections": [
+          {
+            "basis_note": "WCD-09 将巴西地图入口收口到既有正式国家实体，里约父级在 Web 构建时同步 canonicalize",
+            "created_at": "2026-08-11",
+            "curation_id": "V2-CUR-SEL-011",
+            "display_scope": [
+              "map"
+            ],
+            "draft_origin": "codex",
+            "research_refs": [],
+            "review_note": "WCD-09 CH-12 canonical mapping",
+            "reviewed_at": "2026-09-08",
+            "reviewer": "USER",
+            "schema_version": "v2-curation-0.1",
+            "selection_key": "map_status",
+            "selection_value": "featured",
+            "sort_order": 10,
+            "source_refs": [
+              "https://www.geonames.org/3469034/federative-republic-of-brazil.html"
+            ],
+            "status": "auto_approved",
+            "target_id": "V1-ENT-0183",
+            "target_type": "country"
+          }
+        ],
         "entity_id": "V1-ENT-0183",
         "latitude": null,
         "literary_relations": [
@@ -18901,11 +18857,11 @@
       },
       {
         "classification_note": "WCD-02 核心文学城市；GeoNames RDF 直接给出城市名称与坐标；承载两位作者出生地关联和《跳房子》故事空间",
-        "classification_source_url": "https://sws.geonames.org/3435910/about.rdf",
+        "classification_source_url": "https://www.geonames.org/3435910/",
         "classification_status": "confirmed",
         "coordinate_precision": "city_centroid",
-        "coordinate_retrieved_at": "2026-08-27",
-        "coordinate_source_url": "https://sws.geonames.org/3435910/about.rdf",
+        "coordinate_retrieved_at": "2026-09-08",
+        "coordinate_source_url": "https://www.geonames.org/3435910/",
         "country_code": "AR",
         "curation_selections": [
           {
@@ -18999,11 +18955,11 @@
       },
       {
         "classification_note": "WCD-02 核心文学城市；GeoNames RDF 直接给出城市名称与坐标；承载奥内蒂与加莱亚诺出生地关联",
-        "classification_source_url": "https://sws.geonames.org/3441575/about.rdf",
+        "classification_source_url": "https://www.geonames.org/3441575/",
         "classification_status": "confirmed",
         "coordinate_precision": "city_centroid",
-        "coordinate_retrieved_at": "2026-08-27",
-        "coordinate_source_url": "https://sws.geonames.org/3441575/about.rdf",
+        "coordinate_retrieved_at": "2026-09-08",
+        "coordinate_source_url": "https://www.geonames.org/3441575/",
         "country_code": "UY",
         "curation_selections": [
           {
@@ -19080,11 +19036,11 @@
       },
       {
         "classification_note": "WCD-02 现实城市节点；GeoNames RDF 同时给出 Havana、La Habana 与坐标；本轮只承载何塞·马蒂出生地关联，不把《光明世纪》的古巴空间精确化为哈瓦那",
-        "classification_source_url": "https://sws.geonames.org/3553478/about.rdf",
+        "classification_source_url": "https://www.geonames.org/3553478/",
         "classification_status": "confirmed",
         "coordinate_precision": "city_centroid",
-        "coordinate_retrieved_at": "2026-08-27",
-        "coordinate_source_url": "https://sws.geonames.org/3553478/about.rdf",
+        "coordinate_retrieved_at": "2026-09-08",
+        "coordinate_source_url": "https://www.geonames.org/3553478/",
         "country_code": "CU",
         "curation_selections": [
           {
@@ -19144,11 +19100,11 @@
       },
       {
         "classification_note": "WCD-02 跨大西洋故事空间；GeoNames RDF 直接给出城市名称与坐标；只承载《跳房子》正式场景关系，不扩张拉美国家范围",
-        "classification_source_url": "https://sws.geonames.org/2988507/about.rdf",
+        "classification_source_url": "https://www.geonames.org/2988507/",
         "classification_status": "confirmed",
         "coordinate_precision": "city_centroid",
-        "coordinate_retrieved_at": "2026-08-27",
-        "coordinate_source_url": "https://sws.geonames.org/2988507/about.rdf",
+        "coordinate_retrieved_at": "2026-09-08",
+        "coordinate_source_url": "https://www.geonames.org/2988507/",
         "country_code": "FR",
         "curation_selections": [
           {
@@ -41020,7 +40976,7 @@
       }
     ]
   },
-  "product_version": "0.4.1",
+  "product_version": "0.5.0",
   "public_content": {
     "authors": [
       {
@@ -45077,81 +45033,6 @@
           "status": "auto_approved"
         },
         "target_id": "V1-ENT-0129"
-      },
-      {
-        "exploration_route": {
-          "basis_note": "USER 在 rc.5 内容密度审核中明确批准",
-          "content": "李斯佩克朵 → 里约热内卢 → 《星辰时刻》 → 《活水》；《世界末日之战》的巴西腹地路线待正式地点节点补充后再上线。",
-          "created_at": "2026-08-14",
-          "research_refs": [
-            "V1-REL-0005",
-            "V1-REL-0006",
-            "V1-REL-0008",
-            "V1-REL-0013"
-          ],
-          "reviewed_at": "2026-08-14",
-          "reviewer": "USER",
-          "source_refs": [
-            "SRC-0009",
-            "SRC-0012"
-          ],
-          "status": "auto_approved"
-        },
-        "literary_intro": {
-          "basis_note": "USER 在 rc.5 内容密度审核中明确批准",
-          "content": "巴西入口沿里约热内卢、李斯佩克朵与两部作品展开，为中文读者提供葡萄牙语拉美文学的起点。",
-          "created_at": "2026-08-14",
-          "research_refs": [
-            "V1-REL-0005",
-            "V1-REL-0006",
-            "V1-REL-0008",
-            "V1-REL-0013"
-          ],
-          "reviewed_at": "2026-08-14",
-          "reviewer": "USER",
-          "source_refs": [
-            "SRC-0009",
-            "SRC-0012"
-          ],
-          "status": "auto_approved"
-        },
-        "reader_path": {
-          "basis_note": "USER 在 rc.5 内容密度审核中明确批准",
-          "content": "李斯佩克朵 → 里约热内卢 → 《星辰时刻》 → 《活水》；《世界末日之战》的巴西腹地路线待正式地点节点补充后再上线。",
-          "created_at": "2026-08-14",
-          "research_refs": [
-            "V1-REL-0005",
-            "V1-REL-0006",
-            "V1-REL-0008",
-            "V1-REL-0013"
-          ],
-          "reviewed_at": "2026-08-14",
-          "reviewer": "USER",
-          "source_refs": [
-            "SRC-0009",
-            "SRC-0012"
-          ],
-          "status": "auto_approved"
-        },
-        "spatial_meaning": {
-          "basis_note": "USER 在 rc.5 内容密度审核中明确批准",
-          "content": "这是导航所需的国家父级，不伪装成新增研究实体；文学说明只聚合已经公开的作家与地点关系。",
-          "created_at": "2026-08-14",
-          "research_refs": [
-            "V1-REL-0005",
-            "V1-REL-0006",
-            "V1-REL-0008",
-            "V1-REL-0013"
-          ],
-          "reviewed_at": "2026-08-14",
-          "reviewer": "USER",
-          "source_refs": [
-            "SRC-0009",
-            "SRC-0012"
-          ],
-          "status": "auto_approved"
-        },
-        "target_id": "V2-GEO-BR"
       },
       {
         "target_id": "V1-ENT-0182"
@@ -84969,8 +84850,7 @@
       "V1-ENT-0370",
       "V1-ENT-0371",
       "V1-ENT-0372",
-      "V1-ENT-0373",
-      "V2-GEO-BR"
+      "V1-ENT-0373"
     ],
     "works": [
       "V1-ENT-0003",
@@ -85038,15 +84918,7 @@
     ]
   },
   "qa": {
-    "map_status_overrides": [
-      {
-        "basis_note": "N2 国家层技术父级；默认地图展示巴西国家入口，不新增 V1 研究事实",
-        "curation_id": "V2-CUR-SEL-011",
-        "from_status": "hidden",
-        "place_id": "V2-GEO-BR",
-        "to_status": "featured"
-      }
-    ]
+    "map_status_overrides": []
   },
   "reader_content": {
     "authors": [
@@ -86606,10 +86478,6 @@
         "literary_intro": "马德里位于拉丁美洲地图核心区域之外，但与巴尔加斯·略萨的作家地理关系相连，提示文学生活并不受国界封闭。",
         "reader_path": "马德里 → 巴尔加斯·略萨 → 跨大西洋写作与居住经历。本地点只作作家页延伸入口，不进入首页主地图核心点。",
         "target_id": "V1-ENT-0129"
-      },
-      {
-        "literary_intro": "巴西入口沿里约热内卢、李斯佩克朵与两部作品展开，为中文读者提供葡萄牙语拉美文学的起点。",
-        "target_id": "V2-GEO-BR"
       },
       {
         "target_id": "V1-ENT-0182"
@@ -163704,15 +163572,6 @@
       "search_text": "巴黎 Paris",
       "target_id": "V1-ENT-0373",
       "target_type": "place"
-    },
-    {
-      "name_zh": "巴西",
-      "original_name": "Brazil",
-      "public_route": "countries/brazil-v2-geo-br/",
-      "related_ids": [],
-      "search_text": "巴西 Brazil",
-      "target_id": "V2-GEO-BR",
-      "target_type": "country"
     }
   ],
   "timeline": [

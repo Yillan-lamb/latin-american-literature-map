@@ -27,6 +27,7 @@ jobs:
         run: |
           python3 scripts/validate_master.py data/master/V1_MASTER.sqlite
           python3 scripts/validate_v2_content_quality.py
+          python3 scripts/validate_wcd09_implementation.py
       - name: Rebuild review-stage Web Data in isolation
         run: |
           rm -rf /tmp/v2-review-web

@@ -1,7 +1,7 @@
 # WCD-09 Map Governance and Geographic Neutrality
 
 - Canonical task: `TASK-099 / WCD-09`
-- Status: `IN_PROGRESS / GATES_DECIDED` (all 17 stable USER Gates recorded; implementation pending)
+- Status: `IMPLEMENTED / AUDIT_PASS` (all 17 stable USER Gates executed; merge pending USER review)
 - Integration target: current `origin/main`
 - Independent audit: `project/audits/web/WCD_09_GEO_NEUTRALITY_RESEARCH_AUDIT.md`
 - Release boundary: `V2-PUBLIC-RELEASE` remains `PAUSED BY USER`
@@ -24,7 +24,7 @@ The material in this directory began as an external-AI research package. After i
 ## Non-goals
 
 - This promotion did not preselect any USER Gate option. The USER subsequently chose `C-8-OPT-1` and authorized the research package's recommended/safe paths for the remaining 16 stable Gates. Those decisions authorize only their recorded conditional implementation paths; they do not waive source, license, evidence, acceptance or independent-review gates.
-- It does not modify `site/`, Research Data, Research Schema, Curation, Web Data schema or public scope. Promoting this tracked specification advances only the Web Product patch metadata from `0.4.0 Development` to `0.4.1 Development` under Charter section 7.
+- The earlier specification promotion did not modify `site/`, Research Data, Research Schema, Curation, Web Data schema or public scope. The implementation now changes the reader-facing basemap, projection, L1/L2 interaction and neutrality disclosure, so Web Product advances from `0.4.1 Development` to `0.5.0 Development`; Research Data remains `1.5.0 development candidate`, Research Schema remains `0.4`, and Web Data schema remains `v2-web-0.3`.
 - It does not authorize a tag, GitHub Release, deployment or removal of the Public Release pause.
 - `CANNOT_VERIFY` facts are not upgraded by inclusion in this tracked specification.
 
@@ -47,6 +47,16 @@ Historical remediation reports, superseded audits and external handoff notes are
 3. Run the package validator and projection evidence checker after any specification/evidence change.
 4. Run the CH-specific repository and browser acceptance gates.
 5. Obtain a fresh independent WCD-09 implementation audit before marking `TASK-099` done.
+
+All five steps have been executed. The implementation result and retained evidence blocks are recorded in `project/audits/web/WCD_09_GEO_NEUTRALITY_IMPLEMENTATION_AUDIT.md`.
+
+## Implementation artifacts
+
+- Active basemap: `site/assets/natural-earth-5.1.1-admin0-50m-latin-america.geojson`
+- Deterministic builder: `scripts/build_wcd09_basemap.py`
+- Mechanical acceptance gate: `scripts/validate_wcd09_implementation.py`
+- Runtime projection and interaction: `site/app.js`
+- State styling and narrow-screen presentation: `site/styles.css`
 
 ## Research-package verification
 

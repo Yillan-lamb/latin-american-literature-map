@@ -25,7 +25,7 @@ DEFAULT_OUTPUT = ROOT / "data/v2/web"
 DEFAULT_PRESENTATION = ROOT / "data/v2/presentation/PUBLIC_PRESENTATION.json"
 DEFAULT_PUBLIC_CONTENT = ROOT / "data/v2/curation/PUBLIC_CONTENT.json"
 SCHEMA_VERSION = "v2-web-0.3"
-PRODUCT_VERSION = "0.4.1"
+PRODUCT_VERSION = "0.5.0"
 CURATION_SCHEMA_VERSION = "v2-curation-0.1"
 ALLOWED_CURATION_STATUSES = {"auto_approved", "user_review", "hold"}
 # USER approved the WCD-08 review set on 2026-09-06.  Projection remains
@@ -34,6 +34,7 @@ ANECDOTE_PROJECTION_ENABLED = True
 PRESENTATION_GROUPS = ("reading_paths", "timeline_periods", "why_read", "next_reads")
 DISCOVERY_RANKING_VERSION = "web-0.2-popularity-v1"
 DISCOVERY_PAGE_SIZE = 9
+PLACE_CANONICAL_ALIASES = {"V2-GEO-BR": "V1-ENT-0183"}
 INTERNAL_READER_INSTITUTION = (
     r"(?:\b(?:ABL|BNE|CVC|CONICET|UNAM|MEC)\b|Instituto Cervantes|Biblioteca Virtual|"
     r"Memoria Chilena|Itaú Cultural|poets\.org|Passagens|RFRM|Universidad|Fundaci[oó]n|"
@@ -707,6 +708,10 @@ def build_discovery_ranking(
 
 def build_data(db_path: Path, geo_dir: Path, curation_dir: Path, presentation_path: Path, public_content_path: Path, generated_at: str) -> dict[str, Any]:
     places, place_relations = load_geo(geo_dir)
+    place_relations = [
+        {**relation, "target_place_id": PLACE_CANONICAL_ALIASES.get(relation["target_place_id"], relation["target_place_id"])}
+        for relation in place_relations
+    ]
     db_uri = f"{db_path.resolve().as_uri()}?mode=ro"
     with closing(sqlite3.connect(db_uri, uri=True)) as conn:
         entities = rows(conn, "SELECT * FROM entities ORDER BY entity_id")
@@ -757,6 +762,14 @@ def build_data(db_path: Path, geo_dir: Path, curation_dir: Path, presentation_pa
                 queue_records.append(queue_item)
         content_public[group] = public_records
         content_review_queue[group] = queue_records
+    content_public["places"] = [
+        item for item in content_public["places"]
+        if item.get("target_id") not in PLACE_CANONICAL_ALIASES
+    ]
+    content_review_queue["places"] = [
+        item for item in content_review_queue["places"]
+        if item.get("target_id") not in PLACE_CANONICAL_ALIASES
+    ]
     for path in presentation.get("reading_paths", []):
         for target_id in path.get("target_ids", []):
             if target_id not in valid_target_ids:
@@ -802,11 +815,11 @@ def build_data(db_path: Path, geo_dir: Path, curation_dir: Path, presentation_pa
         enriched_facts.append(item)
 
     curation_public = {
-        group: [item for item in values if item.get("status") == "auto_approved"]
+        group: [item for item in values if item.get("status") == "auto_approved" and item.get("target_id") not in PLACE_CANONICAL_ALIASES]
         for group, values in curation.items()
     }
     curation_review_queue = {
-        group: [item for item in values if item.get("status") != "auto_approved"]
+        group: [item for item in values if item.get("status") != "auto_approved" and item.get("target_id") not in PLACE_CANONICAL_ALIASES]
         for group, values in curation.items()
     }
     presentation_public = {
@@ -829,7 +842,10 @@ def build_data(db_path: Path, geo_dir: Path, curation_dir: Path, presentation_pa
     for relation in place_relations:
         relations_by_place[relation["target_place_id"]].append(relation)
     for place in places:
+        if place["place_id"] in PLACE_CANONICAL_ALIASES:
+            continue
         item = dict(place)
+        item["parent_place_id"] = PLACE_CANONICAL_ALIASES.get(item.get("parent_place_id"), item.get("parent_place_id"))
         item["curation_selections"] = selections_by_target.get(place["place_id"], [])
         map_selection = next((selection for selection in item["curation_selections"] if selection.get("selection_key") == "map_status" and selection.get("status") == "auto_approved"), None)
         if map_selection:
@@ -1070,7 +1086,7 @@ def build_data(db_path: Path, geo_dir: Path, curation_dir: Path, presentation_pa
             "relation_holds": len(relation_holds),
             "gaps": len(gaps),
             "sources": len(sources),
-            "places": len(places),
+            "places": len(places_for_web),
             "place_relations": len(place_relations),
             "curation_entries": len(curation["entries"]),
             "curation_selections": len(curation["selections"]),

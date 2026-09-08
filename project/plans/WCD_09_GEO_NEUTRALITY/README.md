@@ -24,7 +24,7 @@ The material in this directory began as an external-AI research package. After i
 ## Non-goals
 
 - This promotion does not choose any of the 17 pending USER Gate options.
-- It does not modify `site/`, Research Data, Curation, Web Data, versions or public scope.
+- It does not modify `site/`, Research Data, Research Schema, Curation, Web Data schema or public scope. Promoting this tracked specification advances only the Web Product patch metadata from `0.4.0 Development` to `0.4.1 Development` under Charter section 7.
 - It does not authorize a tag, GitHub Release, deployment or removal of the Public Release pause.
 - `CANNOT_VERIFY` facts are not upgraded by inclusion in this tracked specification.
 

@@ -2,6 +2,15 @@
 
 本文件记录拉丁美洲文学地图各版本的实际修改。格式参考 Keep a Changelog，版本号遵循语义化版本规则。
 
+## [Data 1.5.0 / Web 0.4.1 — Development] - 2026-09-08
+
+### TASK-099 / Map governance and geographic neutrality
+
+- 将经外部 AI 研究、Luna Max 整改及 Codex 独立终审通过的 WCD-09 成果，从 ignored `work/external-ai/` 晋升为 `project/plans/WCD_09_GEO_NEUTRALITY/` 下的正式实施规格；保留 00–16 证据与政策文件、17 个 USER Gate、CH-01—CH-25 工作项、可复算脚本和 8 张确定性投影图件。
+- 新增 `project/audits/web/WCD_09_GEO_NEUTRALITY_RESEARCH_AUDIT.md`，记录最终裁决 `YES`、零未关闭 BLOCKER/MAJOR/MINOR，以及 6 类仍须按 Gate 或阻塞路径处理的 `CANNOT_VERIFY` 限制。
+- TASK-099 进入 `IN_PROGRESS / USER_GATE`。依据 Charter 第 7 节对 governance/documentation/research-only 变更采用 Web patch 的规则，Web Product 从 `0.4.0 Development` 升至 `0.4.1 Development`；这是 WCD-09 research specification / governance-only patch，不替 USER 选择 Gate，不修改 reader-facing 内容、Research Data、Research Schema、Curation、Web Data schema 或公开范围。
+- Research Data 保持 `1.5.0 development candidate`，Research Schema 保持 `0.4`，Web Data schema 保持 `v2-web-0.3`；`V2-PUBLIC-RELEASE` 继续 `PAUSED BY USER`，不创建 Tag、Release 或 deployment。
+
 ## [Data 1.5.0 / Web 0.4.0 — Development] - 2026-09-07
 
 ### TASK-103 / Author-page anecdote order

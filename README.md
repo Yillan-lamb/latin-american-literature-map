@@ -74,7 +74,7 @@ Map / Timeline / Pages / Search
 - **正式 Research Data Release**：`Data V1.0.0`，保留为已发布的历史基线；
 - **当前 Development Data**：`Data 1.5.0 development candidate`，WCD-07 已完成 6 个 P0 重要作品/合集的研究补全与来源治理；
 - **当前 Research Schema**：`0.4`；**Web Data schema**：`v2-web-0.3`；
-- **当前 Web Development**：`Web 0.4.0 Development`，Research layer 保持 377 entities / 1027 facts / 334 relationships / 314 sources / 261 content cards；WCD-08 经 USER 批准的 95 条趣闻中，82 条投影到 24 位现有公开作者页，13 条因作者不在公开范围而不投影；主页以地图、阅读路径与趣闻精选为主，完整作家、作品与趣闻目录从顶部独立入口进入；
+- **当前 Web Development**：`Web 0.4.1 Development`，本次 patch 仅正式晋升 WCD-09 research specification / audit，不改变 reader-facing 内容；Research layer 保持 377 entities / 1027 facts / 334 relationships / 314 sources / 261 content cards；WCD-08 经 USER 批准的 95 条趣闻中，82 条投影到 24 位现有公开作者页，13 条因作者不在公开范围而不投影；主页以地图、阅读路径与趣闻精选为主，完整作家、作品与趣闻目录从顶部独立入口进入；
 - **公开状态**：GitHub Pages 提供开发预览，正式 Public Release 仍暂停，预览不等同于正式研究数据发布。
 
 详细变更见 [CHANGELOG](./CHANGELOG.md) 和 [版本文档](./docs/releases)。

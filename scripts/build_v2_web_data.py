@@ -25,7 +25,7 @@ DEFAULT_OUTPUT = ROOT / "data/v2/web"
 DEFAULT_PRESENTATION = ROOT / "data/v2/presentation/PUBLIC_PRESENTATION.json"
 DEFAULT_PUBLIC_CONTENT = ROOT / "data/v2/curation/PUBLIC_CONTENT.json"
 SCHEMA_VERSION = "v2-web-0.3"
-PRODUCT_VERSION = "0.4.0"
+PRODUCT_VERSION = "0.4.1"
 CURATION_SCHEMA_VERSION = "v2-curation-0.1"
 ALLOWED_CURATION_STATUSES = {"auto_approved", "user_review", "hold"}
 # USER approved the WCD-08 review set on 2026-09-06.  Projection remains

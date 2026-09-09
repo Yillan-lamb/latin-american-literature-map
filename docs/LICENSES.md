@@ -41,7 +41,9 @@ Changes: [如有修改，请在此说明]
 
 当前需要特别区分的边界包括：
 
-- `site/assets/latin-america-countries.geojson`：现有项目元数据标明来源为 Natural Earth Admin 0 Countries 1:110m，并记录为 Public Domain；本项目不以 MIT 或 CC BY 4.0 对该上游地理数据重新授权，使用者应核对 [Natural Earth 上游说明](https://www.naturalearthdata.com/downloads/110m-cultural-vectors/110m-admin-0-countries/)；
+- `site/assets/natural-earth-5.1.1-admin0-50m-latin-america.geojson`：活动地图底图，衍生自 Natural Earth 5.1.1 Admin 0 Countries 1:50m，2026-09-08 获取；上游 ZIP SHA-256 为 `5fed433373581fa648920435f937d95f2d3c0200e067409c6478dcdf1b853139`，本仓库产物 SHA-256 为 `9a225c6be6b217bf67ab4ed687598563e8d7c405a827bcca78ede99439c67cd6`。`scripts/build_wcd09_basemap.py` 记录并执行校验、拆分 polygon part、按批准范围与窗口选择、五位小数量化、稳定 ID 和重新分组步骤。Natural Earth 声明其数据为 Public Domain；本项目不以 MIT 或 CC BY 4.0 对该数据重新授权。参见 [50m 数据页](https://www.naturalearthdata.com/downloads/50m-cultural-vectors/50m-admin-0-countries-2/) 与 [Natural Earth 使用条款](https://www.naturalearthdata.com/about/terms-of-use/)；
+- `site/assets/latin-america-countries.geojson`：旧 Natural Earth Admin 0 Countries 1:110m 衍生底图，仅作为可恢复回滚资产保留，不再由活动网站加载；
+- `data/v2/geo/PLACES_GEO.csv` 中的 GeoNames 坐标记录：适用 GeoNames 的 CC BY 4.0；WCD-09 将 16 个坐标来源规范为永久实体 URL 并保留逐行获取日期，参见 [GeoNames 数据库许可说明](https://www.geonames.org/export/)；
 - `package-lock.json` 中列出的 npm 依赖：分别适用各依赖自己的许可证；本仓库的 MIT License 不替代这些许可证；
 - `data/` 中登记的第三方书目、网页、论文、数据库来源及必要短引文：项目原创的数据结构、摘要和策展表达可适用 CC BY 4.0，但第三方题名、引文、图片、全文或其他受保护表达仍适用原有权利条件；
 - 任何未来加入的图片、封面、字体、图标或外部数据：除非随文件明确记录可授权依据，否则不得推定其适用本项目许可证。

@@ -23,10 +23,15 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: "24.14.0"
+      - name: Verify WCD-09 deterministic basemap
+        run: |
+          python3 -m pip install -r requirements-wcd09.txt
+          python3 scripts/build_wcd09_basemap.py --check
       - name: Validate review package and research data
         run: |
           python3 scripts/validate_master.py data/master/V1_MASTER.sqlite
           python3 scripts/validate_v2_content_quality.py
+          python3 scripts/validate_wcd09_implementation.py
       - name: Rebuild review-stage Web Data in isolation
         run: |
           rm -rf /tmp/v2-review-web
@@ -49,6 +54,8 @@ jobs:
               if committed != rebuilt:
                   raise SystemExit(f"unexpected Web Data rebuild diff: {committed_path}")
           PY
+      - name: Validate committed Web Data
+        run: python3 scripts/validate_v2_web_data.py
       - name: Check frontend syntax and whitespace
         run: |
           node --check site/app.js

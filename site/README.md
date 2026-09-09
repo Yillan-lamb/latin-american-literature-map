@@ -8,6 +8,16 @@
 - 为各页写入 title、description、canonical 与 Open Graph 信息；
 - 生成 sitemap 与 robots 文件；
 - 压缩公共数据，并物理移除审核队列、状态字段和内部统计；
-- 复制真实拉丁美洲国家边界底图。
+- 复制 Natural Earth 5.1.1 Admin 0 Countries 1:50m 衍生底图；运行时采用以 75°W / 11.5°S 为中心的 LAEA 投影，并把无公开文学内容的地区保留为非交互 L1 背景。
+
+WCD-09 底图可按固定来源归档与 SHA-256 确定性重建：
+
+```bash
+python3 -m pip install -r requirements-wcd09.txt
+python3 scripts/build_wcd09_basemap.py --source-zip /path/to/ne_50m_admin_0_countries.zip --check
+python3 scripts/validate_wcd09_implementation.py
+```
+
+旧 `site/assets/latin-america-countries.geojson` 只作为回滚资产保留，不再是活动地图入口。
 
 正式部署仍需用户通过 V2-N4，并由手动 Pages 工作流校验批准提交、候选清单和 HTTPS origin。本目录本身不执行部署。

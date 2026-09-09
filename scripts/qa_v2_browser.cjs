@@ -31,12 +31,17 @@ async function run(engineName, engine, viewport) {
   await page.goto(base, { waitUntil: "networkidle" });
   const mapShapes = await page.locator(".country-shape").count();
   const availableCountries = await page.locator(".country-shape.available").count();
+  const l1OnlyCountries = await page.locator(".country-shape.l1-only").count();
+  const l2Countries = await page.locator(".country-shape.l2-interactive").count();
+  const projection = await page.locator("[data-projection]").getAttribute("data-projection");
+  if (mapShapes !== 48 || l1OnlyCountries !== 35 || l2Countries !== 13) errors.push("WCD-09 L1/L2 geometry counts drifted");
+  if (projection !== "LAEA") errors.push("WCD-09 LAEA projection metadata missing");
   if (viewport.width < 500) {
     await page.locator(".menu-toggle").click();
     if (!(await page.locator(".main-nav").isVisible())) errors.push("mobile menu did not open");
   }
   await browser.close();
-  return { engine: engineName, viewport, mapShapes, availableCountries, errors, journeys: results };
+  return { engine: engineName, viewport, mapShapes, availableCountries, l1OnlyCountries, l2Countries, projection, errors, journeys: results };
 }
 
 (async () => {

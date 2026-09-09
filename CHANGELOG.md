@@ -10,7 +10,7 @@
 - 地图渲染从 longitude/latitude affine 映射切换为参数化 LAEA（中心 `75°W / 11.5°S`）和统一 fit；国家标签使用 Natural Earth 经纬度锚点并经投影后通用避让，城市标签改为数据驱动碰撞处理。马德里与巴黎继续保留非地图页面/关系入口，但不再产生画布外可聚焦节点。
 - 真实分离 L1/L2：48 个批准范围几何全部进入中性背景，13 个具有公开文学内容的唯一国家 code 才进入 L2 交互，35 个无内容背景保持非交互并新增“当前暂无收录作家或作品”图例。巴西统一映射为 `V1-ENT-0183`，里约热内卢父级随构建投影修正，旧 `V2-GEO-BR` 不再成为活动地图、搜索、页面或策展节点。
 - 按 USER Gate 更新 16 个 GeoNames 永久实体 URL，其中 10 个弱引用转换、6 个既有永久源规范化；`V1-ENT-0052` 恰帕斯继续 `BLOCKED / CANNOT_VERIFY`。敏感或来源不足的加勒比中文名称、福克兰/马尔维纳斯双名及逐案争议注记继续不公开；地图保留 Natural Earth de facto 基线，并在地图固定区域与 About 页加入范围、来源、许可和非法律裁决说明。
-- 新增 WCD-09 确定性资产构建器与实施 validator；浏览器门禁分别断言 48 个 L1、13 个 L2、35 个无内容背景、零重复 code、无背景 tooltip、LAEA 元数据、键盘可见性和标签无重叠。最终公共静态 bundle 通过 140 个 HTML / 139 条 sitemap 路由及零治理字段泄漏检查；Chromium 桌面/移动、Firefox 桌面和 WebKit 移动共 88 项 PASS、8 项按既有预览条件 SKIP。
+- 新增 WCD-09 确定性资产构建器与实施 validator；普通 PR CI 安装锁定依赖并执行底图 `--check` 与 Web Data validator，浏览器门禁分别断言 48 个 L1、13 个 L2、35 个无内容背景、零重复 code、无背景 tooltip、LAEA 元数据、键盘可见性和标签无重叠。最终公共静态 bundle 通过 140 个 HTML / 139 条 sitemap 路由及零治理字段泄漏检查；Chromium 桌面/移动、Firefox 桌面和 WebKit 移动共 88 项 PASS、8 项按既有预览条件 SKIP。
 - Web Product 因 reader-facing 底图、投影、交互模型、图例与中立性说明的实质变化，从 `0.4.1 Development` 升至 `0.5.0 Development`。Research Data 保持 `1.5.0 development candidate`，Research Schema 保持 `0.4`，Web Data schema 保持 `v2-web-0.3`；正式 `V2-PUBLIC-RELEASE` 继续 `PAUSED BY USER`，不创建 Tag、Release 或 production deployment。
 - 新增 `project/audits/web/WCD_09_GEO_NEUTRALITY_IMPLEMENTATION_AUDIT.md`：CH-01—CH-25 已逐项归类为 DONE 或按 Gate 保持 BLOCKED，最终未关闭 BLOCKER / MAJOR / MINOR 均为 0，结论为 `READY FOR USER REVIEW / MERGE`。
 

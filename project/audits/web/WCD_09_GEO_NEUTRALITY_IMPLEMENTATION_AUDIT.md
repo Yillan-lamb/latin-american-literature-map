@@ -106,10 +106,11 @@ The three `BLOCKED` rows are faithful execution of explicit USER Gate/evidence b
 - WCD-09 research-package validator: PASS.
 - Projection/AEQD evidence `--check`: PASS.
 - New basemap deterministic build and `--check`: PASS.
+- Ordinary PR CI installs the pinned WCD-09 dependency and runs the deterministic basemap `--check`: CONFIGURED; GitHub Actions result is the merge gate.
 - `validate_wcd09_implementation.py`: PASS.
 - Research master and content-quality validators: PASS.
 - Python unit suite: 41/41 PASS.
-- Web Data build and validator: PASS; product `0.5.0`, schema `v2-web-0.3`.
+- Web Data build and validator: PASS; product `0.5.0`, schema `v2-web-0.3`; the committed-data validator is also configured in ordinary PR CI.
 - Static public bundle: 140 HTML files, 139 sitemap URLs, zero forbidden governance keys: PASS.
 - Chromium desktop/mobile, Firefox desktop and WebKit mobile: 88 PASS, 8 expected conditional skips, 0 FAIL.
 - Desktop and 390 px mobile visual inspection: PASS; no material label collision, clipping or hidden focus target observed.

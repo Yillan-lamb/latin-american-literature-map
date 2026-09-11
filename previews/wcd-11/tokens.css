@@ -1,0 +1,84 @@
+/* ============================================================
+   WCD-11 阶段二 · 设计令牌（Design Tokens）
+   全部文字/背景组合经 WCAG 2.1 对比度脚本实测达标（见 research/07_DESIGN_SYSTEM.md）：
+   正文 ≥4.5:1，大字与装饰性控件边界 ≥3:1。
+   ============================================================ */
+
+:root {
+  /* ---- 纸面与墨色 ---- */
+  --paper: #F2EBDD;            /* 主纸底（页面） */
+  --paper-deep: #E9DFC9;       /* 深纸底（分区带/封面块） */
+  --paper-raised: #FAF6EB;     /* 浮起纸面（卡片/面板） */
+  --paper-ink-on: #FBF7EC;     /* 深色块上的“纸色文字”（按钮/选中态） */
+  --frame-bg: #E4DAC2;         /* 画框外底 */
+
+  --ink: #26241D;              /* 正文墨色 13.09:1@paper */
+  --muted: #5D5847;            /* 次要文字 6.00:1@paper */
+
+  /* ---- 语义强调色 ---- */
+  --burgundy: #7B302A;         /* 暗红：标题/CTA/编号 7.70:1@paper */
+  --burgundy-deep: #63251F;    /* 暗红 hover */
+  --burgundy-bright: #A62B22;  /* 焦点环/警示 5.92:1@paper */
+  --navy: #183C4B;             /* 深蓝：研究层/虚构空间块 */
+  --navy-link: #1E4A5E;        /* 研究链接 8.06:1@paper */
+  --forest: #304C3E;           /* 墨绿：现实地点 */
+  --forest-text: #2E4A3A;      /* 现实地点文字 8.21:1@paper */
+  --ochre: #C9962E;            /* 赭石：仅装饰（线脚/印章），不作正文色 */
+  --ochre-text: #7A5A14;       /* 需要小字赭色时的达标替代 */
+
+  /* ---- 线脚 ---- */
+  --line: rgba(38, 36, 29, 0.22);
+  --line-strong: rgba(38, 36, 29, 0.5);
+  --line-burgundy: rgba(123, 48, 42, 0.38);
+
+  /* ---- 地图专用（容器视觉，不改交互语义） ---- */
+  --map-sea: #DCD8C2;          /* 图版底（暖海色） */
+  --map-l1: #E7E0CE;           /* L1 中性背景（无内容地区） */
+  --map-l1-edge: rgba(38, 36, 29, 0.34);
+  --map-l2: #C99568;           /* L2 可交互国家（ink 国名 5.9:1） */
+  --map-l2-hover: #B77F52;
+  --map-point: #304C3E;        /* 现实地点点 */
+  --map-point-active: #7B302A;
+  --map-label-halo: rgba(250, 246, 235, 0.95);
+
+  /* ---- 字体 ---- */
+  --serif: Georgia, "Songti SC", "Noto Serif CJK SC", "Source Han Serif SC", "SimSun", serif;
+  --sans: -apple-system, BlinkMacSystemFont, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Helvetica Neue", sans-serif;
+  --serif-display: var(--serif);
+
+  /* ---- 字号 / 行高（中文长文基准 17px）---- */
+  --fs-display-hero: clamp(56px, 7.4vw, 104px);
+  --fs-display-page: clamp(40px, 4.6vw, 68px);
+  --fs-h2: clamp(24px, 2.4vw, 32px);
+  --fs-h3: 20px;
+  --fs-body-lg: 17px;          /* 长正文 */
+  --fs-body: 15.5px;
+  --fs-meta: 12.5px;
+  --fs-small: 11.5px;
+  --lh-tight: 1.08;
+  --lh-body: 1.9;
+  --lh-meta: 1.7;
+  --measure-body: 40em;        /* ≈42–46 汉字/行 @17px */
+
+  /* ---- 间距 / 容器 ---- */
+  --container: 1360px;
+  --gutter: clamp(18px, 4vw, 64px);
+  --space-section: clamp(44px, 6vw, 76px);
+  --radius-none: 0;            /* 方角为编辑语言基准，无统一圆角 */
+
+  /* ---- 阴影（克制）---- */
+  --shadow-card: 0 1px 0 var(--line);
+  --shadow-plate: 0 0 0 1px var(--line-strong), 10px 12px 0 rgba(38, 36, 29, 0.08);
+
+  /* ---- 焦点 ---- */
+  --focus-ring: 3px solid var(--burgundy-bright);
+  --focus-offset: 3px;
+
+  /* ---- 动效 ---- */
+  --motion-fast: 0.16s ease;
+  --motion-mid: 0.28s ease;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root { --motion-fast: 0.01ms; --motion-mid: 0.01ms; }
+}

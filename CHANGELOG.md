@@ -2,6 +2,14 @@
 
 本文件记录拉丁美洲文学地图各版本的实际修改。格式参考 Keep a Changelog，版本号遵循语义化版本规则。
 
+## [Data 1.5.0 / Web 0.5.0 — Development, Draft Preview] - 2026-09-11
+
+### TASK-128 / WCD-11 imagery candidate checkpoint
+
+- 新增 `previews/wcd-11/`，保存当前可运行的 WCD-11 imagery V8 候选快照、图像许可台账及可复跑浏览器 QA，供 Draft PR 继续视觉评审和后续增量修改；正式 `site/`、生产构建器与 public bundle 均未接入该目录。
+- 该快照继续使用既有公开投影子集与 Natural Earth 派生几何，不修改 Research、Curation、Web Data、正式路由或公开范围；`project/internal/` 保持 ignored 且未被追踪。
+- 本 PR 是设计预览检查点，不构成正式集成、候选复审 PASS 或 Public Release。Web Product 保持 `0.5.0 Development`：原因是该目录不进入正式构建或读者交付；未来正式 redesign 的版本建议仍须在 Spec 和实际接入范围确定后按 Charter 2.0.3 重新判断。
+
 ## [Data 1.5.0 / Web 0.5.0 — Development] - 2026-09-08
 
 ### TASK-099 / WCD-09 implementation

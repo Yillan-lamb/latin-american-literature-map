@@ -43,18 +43,46 @@ const navItems = [
   ['authors', '作家', 'authors/'],
   ['works', '作品', 'works/'],
   ['anecdotes', '趣闻', 'anecdotes/'],
+  ['timeline', '时间线', 'timeline/'],
+  ['about', '关于项目', 'about/'],
+  ['search', '搜索', 'search/'],
+];
+const genericNavItems = [
+  ['home', '地图', ''],
+  ['authors', '作家', 'authors/'],
+  ['works', '作品', 'works/'],
+  ['anecdotes', '趣闻', 'anecdotes/'],
   ['search', '搜索', 'search/'],
   ['timeline', '时间线', 'timeline/'],
   ['about', '关于项目', 'about/'],
 ];
 const navKind = (kind) => ({ author: 'authors', work: 'works', collection: 'works', node: 'works', path: 'home', country: 'home', place: 'home', fictional_space: 'home', 'not-found': 'home' }[kind] || kind);
+const isVisualMaster = (r) => ['anecdotes', 'timeline', 'about'].includes(r.kind)
+  || (r.kind === 'author' && r.id === 'V1-ENT-0002')
+  || (r.kind === 'work' && r.id === 'V1-ENT-0075');
 
 function shell(r) {
   const depth = r.route.endsWith('.html') ? r.route.split('/').length - 1 : r.route.split('/').filter(Boolean).length;
   const base = '../'.repeat(depth);
   const current = navKind(r.kind);
-  const nav = navItems.map(([k, label, href]) =>
-    `<a ${k === current ? 'aria-current="page"' : ''} href="${base}${href}${k === 'home' ? '' : ''}">${label}</a>`).join('\n      ');
+  const visualMaster = isVisualMaster(r);
+  const nav = (visualMaster ? navItems : genericNavItems).map(([k, label, href]) => {
+    if (!visualMaster) return `<a ${k === current ? 'aria-current="page"' : ''} href="${base}${href}">${label}</a>`;
+    const english = { home: 'Map', authors: 'Authors', works: 'Works', anecdotes: 'Anecdotes', timeline: 'Timeline', about: 'About' }[k];
+    const body = k === 'search' ? `<i aria-hidden="true"></i><span>${label}</span>` : `<span>${label}</span><small>${english}</small>`;
+    return `<a class="${k === 'search' ? 'nav-search' : ''}" ${k === current ? 'aria-current="page"' : ''} href="${base}${href}">${body}</a>`;
+  }).join('\n      ');
+  const brand = visualMaster
+    ? `<span class="brand-mark">LATAM</span>
+      <span class="brand-sep" aria-hidden="true"></span>
+      <span class="brand-title"><span class="brand-name">拉丁美洲文学地图</span><span class="brand-en">Latin American Literature Map</span></span>`
+    : `<span class="brand-mark">LATAM</span>
+      <span class="brand-name">拉丁美洲文学地图</span>
+      <span class="brand-sep" aria-hidden="true"></span>
+      <span class="brand-en">A Literary Atlas</span>`;
+  const favicon = visualMaster ? `<link rel="icon" href="${base}assets/backgrounds/literary-postage-stamp-v1.webp" />\n` : '';
+  const masterStyle = visualMaster ? `\n<link rel="stylesheet" href="${base}../styles/master.css" />` : '';
+  const masterScript = visualMaster ? `\n<script src="${base}master-pages.js"></script>` : '';
   return `<!doctype html>
 <html lang="zh-CN">
 <head>
@@ -62,18 +90,15 @@ function shell(r) {
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <meta name="description" content="${esc(r.description)}" />
 <title>${esc(r.title)}｜拉丁美洲文学地图</title>
-<link rel="stylesheet" href="${base}../tokens.css" />
-<link rel="stylesheet" href="${base}site.css" />
+${favicon}<link rel="stylesheet" href="${base}../tokens.css" />
+<link rel="stylesheet" href="${base}site.css" />${masterStyle}
 </head>
 <body>
 <a class="skip-link" href="#app">跳到主要内容</a>
 <div class="page">
   <header class="masthead">
     <a class="brand" href="${base}" aria-label="LATAM 拉丁美洲文学地图 · 回到首页">
-      <span class="brand-mark">LATAM</span>
-      <span class="brand-name">拉丁美洲文学地图</span>
-      <span class="brand-sep" aria-hidden="true"></span>
-      <span class="brand-en">A Literary Atlas</span>
+      ${brand}
     </a>
     <nav id="main-nav" class="main-nav" aria-label="主要导航">
       ${nav}
@@ -98,7 +123,7 @@ function shell(r) {
 <script>window.__SITE_BASE__ = ${JSON.stringify(base)};</script>
 <script>window.__ROUTE__ = ${JSON.stringify({ kind: r.kind, id: r.id, slug: r.slug })};</script>
 <script src="${base}data.js"></script>
-<script src="${base}ui.js"></script>
+<script src="${base}ui.js"></script>${masterScript}
 <script src="${base}pages.js"></script>
 <script>
   window.__WCD11_UI__.initMenu();

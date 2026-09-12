@@ -593,6 +593,7 @@
 
   /* ---------- 路由 ---------- */
   function render() {
+    if (window.__WCD11_MASTER__?.render(ROUTE)) return;
     switch (ROUTE.kind) {
       case "authors": case "works": return renderCatalog(ROUTE.kind);
       case "anecdotes": return renderAnecdotes();

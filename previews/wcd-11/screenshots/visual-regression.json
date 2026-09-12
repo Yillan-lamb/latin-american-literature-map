@@ -1,0 +1,137 @@
+{
+  "base": "http://127.0.0.1:8192/previews/wcd-11/imagery",
+  "report": [
+    {
+      "route": "/",
+      "master": "home",
+      "viewport": {
+        "key": "desktop",
+        "width": 1440,
+        "height": 900
+      },
+      "output": "/private/tmp/lalm-wcd11-pr.Hbxfmg/worktree/previews/wcd-11/screenshots/home-desktop.png",
+      "status": "PASS"
+    },
+    {
+      "route": "/authors/jorge-luis-borges-v1-ent-0002/",
+      "master": "author",
+      "viewport": {
+        "key": "desktop",
+        "width": 1440,
+        "height": 900
+      },
+      "output": "/private/tmp/lalm-wcd11-pr.Hbxfmg/worktree/previews/wcd-11/screenshots/author-borges-desktop.png",
+      "status": "PASS"
+    },
+    {
+      "route": "/works/cien-anos-de-soledad-v1-ent-0075/",
+      "master": "work",
+      "viewport": {
+        "key": "desktop",
+        "width": 1440,
+        "height": 900
+      },
+      "output": "/private/tmp/lalm-wcd11-pr.Hbxfmg/worktree/previews/wcd-11/screenshots/work-cien-anos-desktop.png",
+      "status": "PASS"
+    },
+    {
+      "route": "/anecdotes/",
+      "master": "anecdotes",
+      "viewport": {
+        "key": "desktop",
+        "width": 1440,
+        "height": 900
+      },
+      "output": "/private/tmp/lalm-wcd11-pr.Hbxfmg/worktree/previews/wcd-11/screenshots/anecdotes-desktop.png",
+      "status": "PASS"
+    },
+    {
+      "route": "/timeline/",
+      "master": "timeline",
+      "viewport": {
+        "key": "desktop",
+        "width": 1440,
+        "height": 900
+      },
+      "output": "/private/tmp/lalm-wcd11-pr.Hbxfmg/worktree/previews/wcd-11/screenshots/timeline-desktop.png",
+      "status": "PASS"
+    },
+    {
+      "route": "/about/",
+      "master": "about",
+      "viewport": {
+        "key": "desktop",
+        "width": 1440,
+        "height": 900
+      },
+      "output": "/private/tmp/lalm-wcd11-pr.Hbxfmg/worktree/previews/wcd-11/screenshots/about-desktop.png",
+      "status": "PASS"
+    },
+    {
+      "route": "/",
+      "master": "home",
+      "viewport": {
+        "key": "mobile",
+        "width": 390,
+        "height": 844
+      },
+      "output": "/private/tmp/lalm-wcd11-pr.Hbxfmg/worktree/previews/wcd-11/screenshots/home-mobile.png",
+      "status": "PASS"
+    },
+    {
+      "route": "/authors/jorge-luis-borges-v1-ent-0002/",
+      "master": "author",
+      "viewport": {
+        "key": "mobile",
+        "width": 390,
+        "height": 844
+      },
+      "output": "/private/tmp/lalm-wcd11-pr.Hbxfmg/worktree/previews/wcd-11/screenshots/author-borges-mobile.png",
+      "status": "PASS"
+    },
+    {
+      "route": "/works/cien-anos-de-soledad-v1-ent-0075/",
+      "master": "work",
+      "viewport": {
+        "key": "mobile",
+        "width": 390,
+        "height": 844
+      },
+      "output": "/private/tmp/lalm-wcd11-pr.Hbxfmg/worktree/previews/wcd-11/screenshots/work-cien-anos-mobile.png",
+      "status": "PASS"
+    },
+    {
+      "route": "/anecdotes/",
+      "master": "anecdotes",
+      "viewport": {
+        "key": "mobile",
+        "width": 390,
+        "height": 844
+      },
+      "output": "/private/tmp/lalm-wcd11-pr.Hbxfmg/worktree/previews/wcd-11/screenshots/anecdotes-mobile.png",
+      "status": "PASS"
+    },
+    {
+      "route": "/timeline/",
+      "master": "timeline",
+      "viewport": {
+        "key": "mobile",
+        "width": 390,
+        "height": 844
+      },
+      "output": "/private/tmp/lalm-wcd11-pr.Hbxfmg/worktree/previews/wcd-11/screenshots/timeline-mobile.png",
+      "status": "PASS"
+    },
+    {
+      "route": "/about/",
+      "master": "about",
+      "viewport": {
+        "key": "mobile",
+        "width": 390,
+        "height": 844
+      },
+      "output": "/private/tmp/lalm-wcd11-pr.Hbxfmg/worktree/previews/wcd-11/screenshots/about-mobile.png",
+      "status": "PASS"
+    }
+  ]
+}

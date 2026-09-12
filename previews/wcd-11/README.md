@@ -18,7 +18,30 @@ Then open `http://127.0.0.1:8188/previews/wcd-11/imagery/`.
 ```bash
 node previews/wcd-11/imagery/build.mjs
 BASE=http://127.0.0.1:8188/previews/wcd-11/imagery node previews/wcd-11/qa-imagery.mjs
+BASE=http://127.0.0.1:8188/previews/wcd-11/imagery node previews/wcd-11/capture-masters.mjs
 ```
+
+## Six visual masters
+
+The current review pass reconstructs six reference-driven visual masters only:
+
+- home / literary map;
+- Jorge Luis Borges author detail;
+- *One Hundred Years of Solitude* work detail;
+- anecdotes;
+- timeline;
+- about.
+
+Their shared editorial system is isolated in `styles/master.css`, while
+`imagery/master-pages.js` intercepts only the two named detail records and the
+three named index routes. The remaining generated route shells continue to use
+the existing generic renderers and must not be treated as visually approved.
+
+`capture-masters.mjs` writes full-page screenshots for each master at 1440×900
+and 390×844 to `screenshots/`, plus a machine-readable
+`screenshots/visual-regression.json`. It also fails on a wrong master renderer,
+page-level horizontal overflow, broken images, HTTP/console errors, missing
+master regions, or non-responsive map/timeline controls.
 
 Current scope:
 

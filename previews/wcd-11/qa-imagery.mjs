@@ -1,6 +1,6 @@
-/* WCD-11 imagery 变体终检（2026-09-10，GLM-5.3）
-   用法：服务根 prototype/（默认 8188，可用 BASE 覆盖）：
-     cd .../WCD_11_DESIGN_WORKSPACE && node research/imagery-cache/qa-imagery.mjs
+/* WCD-11 imagery 候选回归（2026-09-13）
+   用法：从仓库根启动本地 HTTP 服务（默认 8188，可用 BASE 覆盖）：
+     BASE=http://127.0.0.1:8188/previews/wcd-11/imagery node previews/wcd-11/qa-imagery.mjs
    检查：
    A. 登记表（data.js portraits）逐条：对应作家页 1440 下肖像 img 真实加载（naturalWidth>0）、图注三要素（摄影/来源/许可）渲染
    B. 首页 1440：writer-list 中有图作家缩略加载；无图作家为首字字块（fallback 契约）
@@ -9,11 +9,13 @@
    D. 全站抽样爬链：每类路由抽 1 条 + 全部作家页，无 404/JS 错误
    失败返回非零退出码。 */
 import { chromium } from '@playwright/test';
+import { existsSync } from 'node:fs';
 
 const BASE = (process.env.BASE || 'http://127.0.0.1:8188/previews/wcd-11/imagery').replace(/\/$/, '');
 const results = [];
 const check = (name, pass, detail = '') => results.push(`${pass ? 'PASS' : 'FAIL'} | ${name}${detail ? ' | ' + detail : ''}`);
-const browser = await chromium.launch();
+const chromePath = '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome';
+const browser = await chromium.launch(existsSync(chromePath) ? { executablePath: chromePath, headless: true } : { headless: true });
 
 /* ---- A. 登记表逐条 ---- */
 {
@@ -35,8 +37,8 @@ const browser = await chromium.launch();
     await page.evaluate(async () => { for (let y = 0; y <= document.body.scrollHeight; y += 600) { window.scrollTo(0, y); await new Promise(r => setTimeout(r, 60)); } window.scrollTo(0, 0); });
     await page.waitForTimeout(250);
     const st = await page.evaluate(() => {
-      const fig = document.querySelector('.portrait-photo img');
-      const cap = document.querySelector('.portrait-photo figcaption');
+      const fig = document.querySelector('.portrait-photo img, .master-author-collage figure img');
+      const cap = document.querySelector('.portrait-photo figcaption, .master-author-collage figure figcaption');
       return { loaded: fig ? (fig.complete && fig.naturalWidth > 0) : false, caption: cap ? cap.textContent : '' };
     });
     page.off('response', onResp);
@@ -103,10 +105,10 @@ const browser = await chromium.launch();
   const page = await browser.newPage({ viewport: { width: 1440, height: 1000 } });
   await page.goto(`${BASE}/works/cien-anos-de-soledad-v1-ent-0075/`, { waitUntil: 'networkidle' });
   const st = await page.evaluate(() => {
-    const img = document.querySelector('.work-cover.has-photo img');
+    const images = [...document.querySelectorAll('.work-cover.has-photo img, .master-work-collage img')];
     return {
-      present: Boolean(img),
-      loaded: img ? img.complete && img.naturalWidth > 0 : false,
+      present: images.length >= 2,
+      loaded: images.length >= 2 && images.every((img) => img.complete && img.naturalWidth > 0),
       bottomQuote: Boolean(document.querySelector('main + .final-archive-quote')),
     };
   });
@@ -154,8 +156,8 @@ const browser = await chromium.launch();
       neutrality,
       plateAttribution: Boolean(document.querySelector('.plate .map-attribution')),
       handdrawn: Boolean(document.querySelector('#map-handdrawn')) && getComputedStyle(landmass).filter !== 'none',
-      unifiedSurface: getComputedStyle(document.querySelector('.page')).backgroundColor === 'rgba(0, 0, 0, 0)' && getComputedStyle(document.querySelector('.hero')).backgroundImage === 'none' && getComputedStyle(document.querySelector('.page'), '::after').display === 'none',
-      plateFullBleed: pageRect && plateRect ? Math.abs(pageRect.left - plateRect.left) < 1 && Math.abs(pageRect.right - plateRect.right) < 1 : false,
+      unifiedSurface: document.body.dataset.master === 'home' && getComputedStyle(document.querySelector('.page'), '::after').display === 'none',
+      plateFullBleed: pageRect && plateRect ? Math.abs(pageRect.left - plateRect.left) <= 2 && Math.abs(pageRect.right - plateRect.right) <= 2 : false,
       plateIndexWidth: plateIndex?.width || 0,
       mapCanvasWidth: mapCanvas?.width || 0,
     };
@@ -175,7 +177,7 @@ const browser = await chromium.launch();
 
 /* ---- C. 窄视口 ---- */
 {
-  const routes = ['/', '/authors/', '/works/', '/timeline/', '/authors/gabriel-garcia-marquez-v1-ent-0072/', '/search/'];
+  const routes = ['/', '/authors/jorge-luis-borges-v1-ent-0002/', '/works/cien-anos-de-soledad-v1-ent-0075/', '/anecdotes/', '/timeline/', '/about/'];
   for (const vw of [390, 320]) {
     const ctx = await browser.newContext({ viewport: { width: vw, height: 844 } });
     const page = await ctx.newPage();

@@ -2,6 +2,15 @@
 
 本文件记录拉丁美洲文学地图各版本的实际修改。格式参考 Keep a Changelog，版本号遵循语义化版本规则。
 
+## [Data 1.5.0 / Web 0.5.0 — Development, Draft Preview] - 2026-09-13
+
+### TASK-128 / WCD-11 six-page visual master candidate
+
+- 依据 USER 提供的六张桌面参考图，在 `previews/wcd-11/` 内重构首页、博尔赫斯作者详情、《百年孤独》作品详情、文学趣闻、时间线与关于项目六个视觉母版；新增独立 `master-pages.js` 与作用域化 `styles/master.css`，采用报刊／档案拼贴、低饱和纸张、窄分隔线和高密度图版结构，未把其余 133 条通用路由宣称为视觉完成。
+- 保留既有公开数据投影、实体 ID、public route、地图与筛选交互、肖像来源／许可字段、现实地点与文学虚构空间边界；本轮只改 Draft preview 的展示层、静态壳模板与验证工具，正式 `site/`、生产构建器、Research、Curation、Web Data 和公开范围均未修改。
+- 新增六页布局映射与可复跑截图器，在 1440×900、390×844 两种视口输出 12 张 full-page 截图及 JSON 清单；截图器验证母版路由、破图、HTTP/JS 错误、页面级横向溢出、地图标记与时间线筛选。既有 imagery 浏览器回归同步适配母版结构，最终 41/41 PASS，六页截图验证 12/12 PASS。
+- PR #36 继续保持 Draft。本检查点不构成 USER 视觉批准、正式 WCD-11 Spec、Web `0.6.0` 集成、合并、Tag、Release、production deployment 或 Public Release；Data 与 Web 版本均保持不变。
+
 ## [Data 1.5.0 / Web 0.5.0 — Development, Draft Preview] - 2026-09-11
 
 ### TASK-128 / WCD-11 imagery candidate checkpoint

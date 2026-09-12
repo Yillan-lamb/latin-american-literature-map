@@ -3,12 +3,14 @@
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<meta name="description" content="一张从地点、作家、作品与时间进入拉丁美洲文学的中文探索地图。（WCD-11 阶段二候选原型）" />
-<title>拉丁美洲文学地图 · 阶段二候选原型</title>
+<meta name="description" content="从马孔多、科马拉到布宜诺斯艾利斯：一张以文学杂志与档案图版方式展开的拉丁美洲文学地图。" />
+<title>拉丁美洲文学地图 · 视觉母版候选</title>
+<link rel="icon" href="assets/backgrounds/literary-postage-stamp-v1.webp" />
 <link rel="stylesheet" href="../tokens.css" />
 <link rel="stylesheet" href="./site.css" />
+<link rel="stylesheet" href="../styles/master.css" />
 </head>
-<body>
+<body data-master="home">
 <a class="skip-link" href="#app">跳到主要内容</a>
 
 <div class="page">
@@ -16,18 +18,17 @@
   <header class="masthead">
     <a class="brand" href="./index.html" aria-label="LATAM 拉丁美洲文学地图 · 回到首页">
       <span class="brand-mark">LATAM</span>
-      <span class="brand-name">拉丁美洲文学地图</span>
       <span class="brand-sep" aria-hidden="true"></span>
-      <span class="brand-en">A Literary Atlas</span>
+      <span class="brand-title"><span class="brand-name">拉丁美洲文学地图</span><span class="brand-en">Latin American Literature Map</span></span>
     </a>
     <nav id="main-nav" class="main-nav" aria-label="主要导航">
       <a href="#literary-map" aria-current="page">地图</a>
       <a href="authors/">作家</a>
       <a href="works/">作品</a>
       <a href="anecdotes/">趣闻</a>
-      <a href="search/">搜索</a>
       <a href="timeline/">时间线</a>
       <a href="about/">关于项目</a>
+      <a class="nav-search" href="search/"><i aria-hidden="true"></i><span>搜索</span></a>
     </nav>
     <button type="button" class="menu-toggle" id="menu-toggle" aria-expanded="false" aria-controls="main-nav">菜单</button>
   </header>
@@ -36,17 +37,17 @@
 
     <!-- 封面 Hero -->
     <section class="hero" aria-labelledby="hero-title">
-      <div>
-        <p class="hero-en">A Literary Atlas of Latin America</p>
+      <div class="hero-copy">
         <h1 class="display-title" id="hero-title">拉丁美洲<br /><em>文学地图</em></h1>
-        <p class="hero-sub-en">Latin American Literature Atlas</p>
-        <p class="lede">从马孔多、科马拉到布宜诺斯艾利斯。从地图进入文学。</p>
-        <a class="hero-cta" href="#literary-map">开始探索 <span aria-hidden="true">→</span></a>
+        <p class="hero-sub-en">LATIN AMERICAN<br />LITERATURE ATLAS</p>
+        <p class="lede">从马孔多、科马拉到布宜诺斯艾利斯。<br />从地图进入文学。</p>
+        <p class="hero-assist">From Macondo and Comala to Buenos Aires.<br />Enter the map, and step into literature.</p>
+        <div class="hero-action"><a class="hero-cta" href="#literary-map">开始探索 <span aria-hidden="true">→</span></a><span>A More<br /><i>Plural Latin America</i><br />A Deeper Reading</span></div>
       </div>
       <div class="hero-collage" aria-hidden="true">
+        <div class="collage-paper"></div>
         <div class="collage-photo main">
           <span class="photo-frame"><img src="assets/editorial/hero-caribbean-writing-desk-v1.webp" alt="" /></span>
-          <span class="hand-note">加勒比的写作桌<i>纸页、打字机与热带午后</i></span>
         </div>
         <div class="collage-photo small-a"><span class="photo-frame"><img src="assets/editorial/hero-colonial-balcony-v1.webp" alt="" /></span></div>
         <div class="collage-photo small-b"><span class="photo-frame"><img src="assets/portraits/v1-ent-0072.jpg" alt="" /></span></div>
@@ -54,8 +55,9 @@
         <div class="collage-botanical">
           <span></span><span></span><span></span><span></span><span></span><span></span><span></span>
         </div>
-        <div class="collage-band"><span>PLATE 01 · NUESTRA AMÉRICA TAMBIÉN ESCRIBE</span></div>
-        <p class="collage-quote">“La realidad también puede ser maravillosa.”</p>
+        <p class="collage-script">Nuestra América<br />también escribe.</p>
+        <div class="collage-band"><span>TERRITORIOS · VOCES · HISTORIAS · LITERATURA</span></div>
+        <p class="collage-quote">La realidad<br />también puede<br />ser maravillosa.</p>
       </div>
     </section>
 
@@ -77,11 +79,6 @@
         </aside>
 
         <div class="plate-map-sheet">
-          <div class="map-explain">
-            <p class="how"><b>如何读这张图</b>　点击国家或地点，右侧显示从这里出发的作家与作品；也可以按「作家地理」或「故事空间」筛选图层。现实地点按可核验坐标呈现；虚构空间不使用现实坐标，单独列出。</p>
-            <p class="quiet">深色国家＝有公开文学内容可交互；灰色＝中性地理背景，仅表示地理存在。</p>
-          </div>
-
           <div class="map-layout">
             <div class="map-canvas" id="map-canvas" aria-label="拉丁美洲文学地图"></div>
             <aside class="map-context-panel" id="map-panel" tabindex="-1" aria-live="polite" aria-label="地图阅读入口"></aside>
@@ -106,6 +103,7 @@
             <summary>按国家浏览地点 <span class="count index-count"></span><span aria-hidden="true">▾</span></summary>
             <div class="index-body"></div>
           </details>
+          <details class="map-notes"><summary>地图阅读说明与地理边界</summary><div><p><b>如何读这张图：</b>点击国家或地点，阅读从这里展开的作家与作品；也可按“作家地理”或“故事空间”筛选。现实地点按可核验坐标呈现，虚构空间单独列出。</p><p>深色国家表示已有公开文学内容；灰色只表示中性地理背景。</p></div></details>
         </div>
       </div>
     </section>
@@ -113,24 +111,22 @@
     <!-- 编辑三栏 -->
     <div class="editorial" aria-label="编辑分栏">
       <section aria-labelledby="paths-title">
-        <p class="col-head">阅读路径 · READING PATHS</p>
-        <h2 id="paths-title">带着问题进入</h2>
-        <p class="col-sub">策展阅读路径，从已经批准的五条中精选三条。</p>
+        <p class="col-head">阅读路径 <small>READING PATHS</small></p>
+        <h2 class="visually-hidden" id="paths-title">阅读路径</h2>
         <div id="path-list"></div>
-        <a class="text-link" href="timeline/" style="margin-top:14px; display:inline-block">沿时间进入全部路径 →</a>
+        <a class="text-link editorial-more" href="timeline/">探索更多路径 →</a>
       </section>
 
       <section class="writers" aria-labelledby="writers-title">
-        <p class="col-head">作家精选 · WRITERS</p>
-        <h2 id="writers-title">窄幅人物索引</h2>
-        <p class="col-sub">从不同国家与写作传统中选择你的入口。</p>
+        <p class="col-head">重要作家 <small>KEY AUTHORS</small></p>
+        <h2 class="visually-hidden" id="writers-title">重要作家</h2>
         <div class="writers-grid" id="writer-list"></div>
+        <a class="text-link editorial-more" href="authors/">浏览所有作家 →</a>
       </section>
 
       <section aria-labelledby="anecdote-title">
-        <p class="col-head">文学趣闻 · ANECDOTES</p>
-        <h2 id="anecdote-title">作家剪报</h2>
-        <p class="col-sub">从生活片段与创作轶事出发，看见作品之外的作家。</p>
+        <p class="col-head">文学趣闻 <small>ANECDOTES</small></p>
+        <h2 class="visually-hidden" id="anecdote-title">文学趣闻</h2>
         <article class="anecdote-clip" id="home-anecdote"></article>
       </section>
     </div>
@@ -180,30 +176,21 @@
   document.getElementById("path-list").innerHTML = D.presentation.readingPaths.slice(0, 3).map((p, i) => `
     <a class="path-item" href="paths/${esc(p.slug)}/">
       <span class="no">${String(i + 1).padStart(2, "0")}</span>
-      <h3>${esc(p.title)}</h3>
-      <p>${esc(p.intro || p.description || "")}</p>
-      <span class="go">打开路径 →</span>
+      <span class="path-copy"><h3>${esc(p.title)}</h3><p>${esc((p.intro || p.description || "").slice(0, 58))}</p></span>
+      <span class="go" aria-hidden="true">→</span>
     </a>`).join("");
 
   /* ---- 作家精选 ---- */
   const PT = D.portraits || {};
   const entOf = (id) => D.entities.find((e) => e.id === id);
-  const rank = (D.presentation.discovery?.authors || []).slice(0, 4);
+  const keyAuthorIds = ["V1-ENT-0002", "V1-ENT-0072", "V1-ENT-0073", "V1-ENT-0031"];
+  const rank = keyAuthorIds.map((target_id, index) => ({ target_id, rank: index + 1 }));
   document.getElementById("writer-list").innerHTML = rank.map((r) => {
     const e = entOf(r.target_id);
     if (!e) return "";
-    const card = D.cards[e.id] || {};
-    const rc = (D.readers.authors || []).find((x) => x.target_id === e.id) || {};
-    const bf = (D.facts || []).filter((f) => f.s === e.id);
-    const birth = bf.find((f) => f.f === "birth_year")?.v || "";
-    const death = bf.find((f) => f.f === "death_year")?.v || "";
     return `<a class="writer-item" href="${D.search.find((s) => s.id === e.id)?.route || "#"}">
       ${PT[e.id] ? `<span class="thumb"><img src="assets/portraits/${PT[e.id].file}" alt="" loading="lazy" /></span>` : `<span class="glyph" aria-hidden="true">${esc(e.name.replace('·', '').charAt(0))}</span>`}
-      <span>
-        <h3>${esc(e.name)}</h3>
-        <p class="meta">${esc(e.original)} · ${esc(card.country || "")} · ${birth}${death ? "—" + death : "—"}</p>
-        <p>${esc((rc.reader_lede || "").slice(0, 60))}</p>
-      </span>
+      <span><h3>${esc(e.original || e.name)}</h3><p>${esc(e.name)}</p></span>
     </a>`;
   }).join("");
 

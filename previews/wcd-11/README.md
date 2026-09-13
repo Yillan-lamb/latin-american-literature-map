@@ -21,33 +21,40 @@ BASE=http://127.0.0.1:8188/previews/wcd-11/imagery node previews/wcd-11/qa-image
 BASE=http://127.0.0.1:8188/previews/wcd-11/imagery node previews/wcd-11/capture-masters.mjs
 ```
 
-## Six visual masters
+## Full editorial template preview
 
-The current review pass reconstructs six reference-driven visual masters only:
+The current review pass applies the reference-driven editorial system to the
+complete public author/work surface, not only to two showcase records:
 
 - home / literary map;
-- Jorge Luis Borges author detail;
-- *One Hundred Years of Solitude* work detail;
+- complete author catalog and all 25 public author details;
+- complete work catalog and all 62 public work/collection details;
+- complete 127-entry public search index;
+- complete 87-entry public author/work timeline;
 - anecdotes;
-- timeline;
 - about.
 
 Their shared editorial system is isolated in `styles/master.css`, while
-`imagery/master-pages.js` intercepts only the two named detail records and the
-three named index routes. The remaining generated route shells continue to use
-the existing generic renderers and must not be treated as visually approved.
+`imagery/master-pages.js` provides data-driven catalog, author, work, search and
+timeline templates. Borges and *One Hundred Years of Solitude* retain their
+bespoke showcase compositions inside the same system. Country, place, reading
+path and other exploration nodes continue to use the existing data-driven
+renderer and are not claimed as formally integrated.
 
-`capture-masters.mjs` writes full-page screenshots for each master at 1440×900
-and 390×844 to `screenshots/`, plus a machine-readable
+`capture-masters.mjs` writes 22 full-page screenshots for 11 representative
+masters at 1440×900 and 390×844 to `screenshots/`, plus a machine-readable
 `screenshots/visual-regression.json`. It also fails on a wrong master renderer,
 page-level horizontal overflow, broken images, HTTP/console errors, missing
-master regions, or non-responsive map/timeline controls.
+master regions, incomplete catalog/search/timeline counts, or non-responsive
+map/search/timeline controls.
 
 Current scope:
 
 - parchment and archival background system;
 - nautical map plate with the existing interactive geography rendered above it;
 - licensed author portraits and project-owned editorial imagery;
+- larger reading-path typography and author portraits on the home page;
+- muted anecdote red with WCAG-level text contrast;
 - desktop/mobile static routes, including direct `file://` navigation compatibility;
 - asset provenance in `ASSET_REGISTER.csv`.
 

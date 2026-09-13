@@ -13,6 +13,17 @@
       "status": "PASS"
     },
     {
+      "route": "/authors/",
+      "master": "authors",
+      "viewport": {
+        "key": "desktop",
+        "width": 1440,
+        "height": 900
+      },
+      "output": "/private/tmp/lalm-wcd11-pr.Hbxfmg/worktree/previews/wcd-11/screenshots/authors-catalog-desktop.png",
+      "status": "PASS"
+    },
+    {
       "route": "/authors/jorge-luis-borges-v1-ent-0002/",
       "master": "author",
       "viewport": {
@@ -24,6 +35,28 @@
       "status": "PASS"
     },
     {
+      "route": "/authors/gabriel-garcia-marquez-v1-ent-0072/",
+      "master": "author",
+      "viewport": {
+        "key": "desktop",
+        "width": 1440,
+        "height": 900
+      },
+      "output": "/private/tmp/lalm-wcd11-pr.Hbxfmg/worktree/previews/wcd-11/screenshots/author-marquez-desktop.png",
+      "status": "PASS"
+    },
+    {
+      "route": "/works/",
+      "master": "works",
+      "viewport": {
+        "key": "desktop",
+        "width": 1440,
+        "height": 900
+      },
+      "output": "/private/tmp/lalm-wcd11-pr.Hbxfmg/worktree/previews/wcd-11/screenshots/works-catalog-desktop.png",
+      "status": "PASS"
+    },
+    {
       "route": "/works/cien-anos-de-soledad-v1-ent-0075/",
       "master": "work",
       "viewport": {
@@ -32,6 +65,17 @@
         "height": 900
       },
       "output": "/private/tmp/lalm-wcd11-pr.Hbxfmg/worktree/previews/wcd-11/screenshots/work-cien-anos-desktop.png",
+      "status": "PASS"
+    },
+    {
+      "route": "/works/la-guerra-del-fin-del-mundo-v1-ent-0118/",
+      "master": "work",
+      "viewport": {
+        "key": "desktop",
+        "width": 1440,
+        "height": 900
+      },
+      "output": "/private/tmp/lalm-wcd11-pr.Hbxfmg/worktree/previews/wcd-11/screenshots/work-fin-del-mundo-desktop.png",
       "status": "PASS"
     },
     {
@@ -57,6 +101,17 @@
       "status": "PASS"
     },
     {
+      "route": "/search/",
+      "master": "search",
+      "viewport": {
+        "key": "desktop",
+        "width": 1440,
+        "height": 900
+      },
+      "output": "/private/tmp/lalm-wcd11-pr.Hbxfmg/worktree/previews/wcd-11/screenshots/search-desktop.png",
+      "status": "PASS"
+    },
+    {
       "route": "/about/",
       "master": "about",
       "viewport": {
@@ -79,6 +134,17 @@
       "status": "PASS"
     },
     {
+      "route": "/authors/",
+      "master": "authors",
+      "viewport": {
+        "key": "mobile",
+        "width": 390,
+        "height": 844
+      },
+      "output": "/private/tmp/lalm-wcd11-pr.Hbxfmg/worktree/previews/wcd-11/screenshots/authors-catalog-mobile.png",
+      "status": "PASS"
+    },
+    {
       "route": "/authors/jorge-luis-borges-v1-ent-0002/",
       "master": "author",
       "viewport": {
@@ -90,6 +156,28 @@
       "status": "PASS"
     },
     {
+      "route": "/authors/gabriel-garcia-marquez-v1-ent-0072/",
+      "master": "author",
+      "viewport": {
+        "key": "mobile",
+        "width": 390,
+        "height": 844
+      },
+      "output": "/private/tmp/lalm-wcd11-pr.Hbxfmg/worktree/previews/wcd-11/screenshots/author-marquez-mobile.png",
+      "status": "PASS"
+    },
+    {
+      "route": "/works/",
+      "master": "works",
+      "viewport": {
+        "key": "mobile",
+        "width": 390,
+        "height": 844
+      },
+      "output": "/private/tmp/lalm-wcd11-pr.Hbxfmg/worktree/previews/wcd-11/screenshots/works-catalog-mobile.png",
+      "status": "PASS"
+    },
+    {
       "route": "/works/cien-anos-de-soledad-v1-ent-0075/",
       "master": "work",
       "viewport": {
@@ -98,6 +186,17 @@
         "height": 844
       },
       "output": "/private/tmp/lalm-wcd11-pr.Hbxfmg/worktree/previews/wcd-11/screenshots/work-cien-anos-mobile.png",
+      "status": "PASS"
+    },
+    {
+      "route": "/works/la-guerra-del-fin-del-mundo-v1-ent-0118/",
+      "master": "work",
+      "viewport": {
+        "key": "mobile",
+        "width": 390,
+        "height": 844
+      },
+      "output": "/private/tmp/lalm-wcd11-pr.Hbxfmg/worktree/previews/wcd-11/screenshots/work-fin-del-mundo-mobile.png",
       "status": "PASS"
     },
     {
@@ -120,6 +219,17 @@
         "height": 844
       },
       "output": "/private/tmp/lalm-wcd11-pr.Hbxfmg/worktree/previews/wcd-11/screenshots/timeline-mobile.png",
+      "status": "PASS"
+    },
+    {
+      "route": "/search/",
+      "master": "search",
+      "viewport": {
+        "key": "mobile",
+        "width": 390,
+        "height": 844
+      },
+      "output": "/private/tmp/lalm-wcd11-pr.Hbxfmg/worktree/previews/wcd-11/screenshots/search-mobile.png",
       "status": "PASS"
     },
     {

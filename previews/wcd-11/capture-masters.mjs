@@ -14,10 +14,15 @@ const CHROME = "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome";
 
 const routes = [
   { key: "home", path: "/", master: "home" },
+  { key: "authors-catalog", path: "/authors/", master: "authors" },
   { key: "author-borges", path: "/authors/jorge-luis-borges-v1-ent-0002/", master: "author" },
+  { key: "author-marquez", path: "/authors/gabriel-garcia-marquez-v1-ent-0072/", master: "author" },
+  { key: "works-catalog", path: "/works/", master: "works" },
   { key: "work-cien-anos", path: "/works/cien-anos-de-soledad-v1-ent-0075/", master: "work" },
+  { key: "work-fin-del-mundo", path: "/works/la-guerra-del-fin-del-mundo-v1-ent-0118/", master: "work" },
   { key: "anecdotes", path: "/anecdotes/", master: "anecdotes" },
   { key: "timeline", path: "/timeline/", master: "timeline" },
+  { key: "search", path: "/search/", master: "search" },
   { key: "about", path: "/about/", master: "about" },
 ];
 
@@ -85,10 +90,13 @@ try {
 
       const selectors = {
         home: [".hero-collage", "#literary-map", ".editorial"],
+        authors: [".master-catalog-hero", ".master-catalog-grid.authors", "#catalog-filter"],
+        works: [".master-catalog-hero", ".master-catalog-grid.works", "#catalog-filter"],
         author: [".master-author-hero", ".master-author-spread", "#author-anecdotes"],
         work: [".master-work-hero", ".master-work-spread", ".work-related"],
         anecdotes: [".master-anecdote-hero", ".clipping-grid", ".anecdote-authors"],
         timeline: [".master-timeline-hero", ".horizontal-timeline", ".timeline-toolbar"],
+        search: [".master-search-hero", ".master-search-results", "#master-search-input"],
         about: [".master-about-hero", ".about-grid", ".about-explore"],
       }[item.master];
       for (const selector of selectors) assert(await page.locator(selector).count(), `${item.key} missing ${selector}`);
@@ -101,9 +109,19 @@ try {
         }
       }
       if (item.master === "timeline") {
+        assert(await page.locator("[data-timeline-kind]").count() === 87, "timeline did not render all 87 public entries");
         const worksButton = page.locator('[data-timeline-filter="literary_work"]');
         await worksButton.click();
         assert(await worksButton.getAttribute("aria-pressed") === "true", "timeline filter did not activate");
+        await page.locator('[data-timeline-filter="all"]').click();
+      }
+      if (item.master === "authors") assert(await page.locator("[data-catalog-item]").count() === 25, "author catalog is incomplete");
+      if (item.master === "works") assert(await page.locator("[data-catalog-item]").count() === 62, "work catalog is incomplete");
+      if (item.master === "search") {
+        assert(await page.locator("[data-search-entry]").count() === 127, "search index is incomplete");
+        await page.locator("#master-search-input").fill("马尔克斯");
+        assert(await page.locator("[data-search-entry]:visible").count() > 0, "search query returned no visible results");
+        await page.locator("#master-search-input").fill("");
       }
 
       const output = join(OUTPUT, `${item.key}-${viewport.key}.png`);

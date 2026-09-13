@@ -28,7 +28,7 @@ for (const group of ['authors', 'works', 'anecdotes', 'search', 'timeline', 'abo
 }
 for (const s of D.search) {
   let kind = s.type;
-  if (s.type === 'collection') kind = ent(s.id)?.type === 'work' ? 'work' : 'node';
+  if (s.type === 'collection') kind = 'work';
   if (['movement', 'theme', 'event', 'person', 'character', 'institution', 'adaptation', 'edition'].includes(s.type)) kind = 'node';
   routes.push({ route: s.route, kind, id: s.id, title: s.type === 'work' || s.type === 'collection' ? `《${s.name}》` : s.name, description: desc(s) });
 }
@@ -57,9 +57,7 @@ const genericNavItems = [
   ['about', '关于项目', 'about/'],
 ];
 const navKind = (kind) => ({ author: 'authors', work: 'works', collection: 'works', node: 'works', path: 'home', country: 'home', place: 'home', fictional_space: 'home', 'not-found': 'home' }[kind] || kind);
-const isVisualMaster = (r) => ['anecdotes', 'timeline', 'about'].includes(r.kind)
-  || (r.kind === 'author' && r.id === 'V1-ENT-0002')
-  || (r.kind === 'work' && r.id === 'V1-ENT-0075');
+const isVisualMaster = (r) => ['authors', 'works', 'search', 'anecdotes', 'timeline', 'about', 'author', 'work'].includes(r.kind);
 
 function shell(r) {
   const depth = r.route.endsWith('.html') ? r.route.split('/').length - 1 : r.route.split('/').filter(Boolean).length;

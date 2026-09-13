@@ -1,6 +1,7 @@
 /* WCD-11 visual master pages.
-   Only the six USER-approved candidate routes are intercepted here. Generic
-   author/work routes continue through pages.js until the visual masters pass. */
+   The editorial system covers every public author/work route plus the complete
+   catalog, search and timeline indexes. Other route families remain on the
+   existing data-driven renderer until formal integration is approved. */
 (function () {
   "use strict";
 
@@ -27,7 +28,7 @@
   function activate(kind) {
     document.body.dataset.master = kind;
     document.querySelectorAll(".main-nav a").forEach((item) => item.removeAttribute("aria-current"));
-    const hrefPart = { author: "authors/", work: "works/", anecdotes: "anecdotes/", timeline: "timeline/", about: "about/" }[kind];
+    const hrefPart = { author: "authors/", authors: "authors/", work: "works/", works: "works/", search: "search/", anecdotes: "anecdotes/", timeline: "timeline/", about: "about/" }[kind];
     document.querySelector(`.main-nav a[href*="${hrefPart}"]`)?.setAttribute("aria-current", "page");
   }
 
@@ -43,6 +44,159 @@
 
   function breadcrumbs(current, parent, parentHref) {
     return `<nav class="breadcrumb master-breadcrumb" aria-label="面包屑"><a href="${BASE}">首页</a><span>›</span>${parent ? `<a href="${BASE}${parentHref}">${parent}</a><span>›</span>` : ""}<b aria-current="page">${esc(current)}</b></nav>`;
+  }
+
+  const publicCreated = (authorId) => D.relations
+    .filter((rel) => rel.s === authorId && rel.t === "CREATED")
+    .map((rel) => entity(rel.o))
+    .filter((item) => item && isPublic(item.id));
+  const publicPlaces = (targetId, relationType) => D.relations
+    .filter((rel) => rel.s === targetId && rel.t === relationType)
+    .map((rel) => place(rel.o))
+    .filter((item) => item && isPublic(item.place_id));
+  const publicCreators = (workId) => D.relations
+    .filter((rel) => rel.o === workId && rel.t === "CREATED")
+    .map((rel) => entity(rel.s))
+    .filter(Boolean);
+
+  function portraitCredit(id) {
+    const item = portrait(id);
+    if (!item) return "项目档案字块 · 无公开肖像";
+    return `摄影：${esc(item.artist || "档案肖像")} · 来源：${esc(item.source || "项目登记表")} · 许可：${esc(item.license || "见来源记录")}`;
+  }
+
+  function renderCatalog(kind) {
+    const authors = kind === "authors";
+    const ranking = D.presentation.discovery?.[kind] || [];
+    const items = ranking.map((entry, index) => ({
+      rank: Number(entry.rank) || index + 1,
+      item: entity(entry.target_id),
+    })).filter(({ item }) => item && isPublic(item.id));
+    const title = authors ? "作家目录" : "作品目录";
+    const intro = authors
+      ? "从不同国家、年代与写作传统中认识拉丁美洲文学作家。"
+      : "从故事、体裁与文学关联中选择下一本书。";
+    setMeta(title, `${intro} 当前完整收录 ${items.length} 项。`);
+    activate(kind);
+    app().innerHTML = `
+      <header class="master-catalog-hero ${authors ? "author-catalog" : "work-catalog"}">
+        <div><p class="master-kicker">文学目录 · ${authors ? "WRITERS" : "WORKS"}</p><h1>${title}</h1><p>${intro}</p><small>当前完整展示 ${items.length} 项 · 不分页</small></div>
+        <figure><img src="${BASE}assets/backgrounds/archive-masthead-v1.webp" alt="热带植物与山脉档案拼贴" width="1667" height="604" /></figure>
+      </header>
+      <div class="catalog-toolbar"><label for="catalog-filter">在本目录中查找</label><input id="catalog-filter" type="search" placeholder="输入中文名或原文名" autocomplete="off" /><p aria-live="polite">显示 <b>${items.length}</b> / ${items.length} 项</p></div>
+      <section class="master-catalog-grid ${authors ? "authors" : "works"}" aria-label="${title}">${items.map(({ item, rank }) => {
+        const c = card(item.id);
+        const y = fact(item.id, "first_publication_year", "publication_year");
+        const authorCopy = reader("authors", item.id);
+        const workCopy = reader("works", item.id);
+        const creatorId = D.createdBy?.[item.id];
+        const imageId = authors ? item.id : creatorId;
+        const meta = authors
+          ? [c.country || fact(item.id, "country_or_region"), fact(item.id, "birth_year") && `${fact(item.id, "birth_year")}—${fact(item.id, "death_year") || ""}`].filter(Boolean).join(" · ")
+          : [y, c.genre || fact(item.id, "genre_or_form"), c.country].filter(Boolean).join(" · ");
+        const text = authors ? authorCopy.reader_lede : workCopy.reading_premise;
+        return `<a class="master-catalog-card" data-catalog-item data-search="${esc(`${item.name} ${item.original || ""}`.toLowerCase())}" href="${route(item.id)}"><span class="catalog-rank">${String(rank).padStart(2, "0")}</span><figure>${portraitHtml(imageId, "", "", false)}<figcaption>${authors ? portraitCredit(item.id) : esc(entity(creatorId)?.name || "作品档案")}</figcaption></figure><div><p>${authors ? "AUTHOR ARCHIVE" : "LITERARY EDITION"}</p><h2>${authors ? esc(item.name) : esc(workName(item.name))}</h2><em>${esc(item.original || "")}</em><small>${esc(meta || (authors ? "拉丁美洲作家" : "文学作品"))}</small><span>${esc(text || "沿作品、地点与文学关系继续阅读。")}</span><b>打开档案 →</b></div></a>`;
+      }).join("")}</section>
+      <p class="catalog-empty" hidden>没有匹配项。可以换一个中文名或原文名。</p>`;
+    const input = app().querySelector("#catalog-filter");
+    const status = app().querySelector(".catalog-toolbar p");
+    const empty = app().querySelector(".catalog-empty");
+    input?.addEventListener("input", () => {
+      const query = input.value.trim().toLowerCase();
+      let visible = 0;
+      app().querySelectorAll("[data-catalog-item]").forEach((item) => {
+        item.hidden = query && !item.dataset.search.includes(query);
+        if (!item.hidden) visible += 1;
+      });
+      status.innerHTML = `显示 <b>${visible}</b> / ${items.length} 项`;
+      empty.hidden = visible !== 0;
+    });
+  }
+
+  function renderAuthorArchive(id) {
+    if (id === "V1-ENT-0002") { renderBorges(); return true; }
+    const item = entity(id);
+    const copy = reader("authors", id);
+    if (!item || !isPublic(id)) return false;
+    const works = publicCreated(id);
+    const places = publicPlaces(id, "ASSOCIATED_WITH_PLACE");
+    const anecdotes = copy.anecdotes || [];
+    const country = card(id).country || fact(id, "country_or_region");
+    const life = [fact(id, "birth_year"), fact(id, "death_year")].filter(Boolean).join("—");
+    setMeta(item.name, copy.reader_lede || `${item.name}的作家档案。`);
+    activate("author");
+    app().innerHTML = `
+      ${breadcrumbs(item.name, "作家", "authors/")}
+      <header class="master-author-hero master-profile-hero">
+        <div class="master-author-copy"><p class="master-kicker">作家档案 · AUTHOR ARCHIVE</p><h1>${esc(item.name)}</h1><p class="master-latin-name">${esc(item.original || "")}</p><p class="master-life">${esc(life || "作家档案")} <span>${esc(country || "拉丁美洲")}</span></p><blockquote><b>“</b>${esc(copy.guiding_question || copy.reader_lede || "从作品与地点进入这位作家的文学世界。")}</blockquote><p class="master-intro">${esc(copy.reader_lede || "")} ${esc(copy.why_know || "")}</p></div>
+        <div class="master-author-collage"><div class="author-architecture"><img src="${BASE}assets/editorial/hero-colonial-balcony-v1.webp" alt="拉丁美洲城市档案图像" width="720" height="960" /></div><div class="author-red-paper"></div><div class="author-blue-paper"></div><figure>${portraitHtml(id, "", `${item.name}的档案肖像`, true)}<figcaption>${portraitCredit(id)}</figcaption></figure><p class="author-script">Las palabras<br />también trazan<br />territorios.</p><p class="author-stamp">${esc((country || "LATAM").toUpperCase())}<br /><b>50</b></p><p class="author-keywords">LITERATURA<br />MEMORIA<br />TERRITORIO<br />FUTURO</p></div>
+      </header>
+      <nav class="master-index" aria-label="本页目录"><a href="#biography"><b>01</b><span>生平与写作<small>Biography</small></span></a><a href="#key-works"><b>02</b><span>代表作品<small>Key Works</small></span></a><a href="#author-places"><b>03</b><span>地点<small>Places</small></span></a><a href="#themes"><b>04</b><span>主题<small>Themes</small></span></a><a href="#author-anecdotes"><b>05</b><span>趣闻<small>Anecdotes</small></span></a></nav>
+      <div class="master-author-spread master-profile-spread">
+        <section id="biography" class="master-biography">${sectionTitle("01", "生平与写作", "BIOGRAPHY")}<div class="biography-layout"><figure class="archive-side-photo">${portraitHtml(id, "", `${item.name}的档案肖像`, false)}<figcaption>${esc(item.original || item.name)}</figcaption></figure><div><p>${esc(copy.why_know || copy.reader_lede || "")}</p><p>${esc(copy.reader_fit || "")}</p></div></div></section>
+        <section id="key-works" class="master-key-works">${sectionTitle("02", "代表作品", "KEY WORKS")}<div class="book-stack">${works.map((work) => `<a href="${route(work.id)}"><span class="mini-cover"><i>${esc(work.name.replace(/[《》\s]/g, "").charAt(0))}</i><small>${esc(item.original || item.name)}</small></span><span><b>${esc(workName(work.name))}</b><em>${esc(work.original || "")}</em><small>${esc(fact(work.id, "first_publication_year", "publication_year") || "作品档案")}</small></span></a>`).join("") || `<p class="master-empty">当前公开投影暂未收录可链接作品。</p>`}</div></section>
+        <section id="author-places" class="master-author-places">${sectionTitle("03", "地点", "PLACES")}<div class="place-ledger">${places.map((entry) => `<a href="${route(entry.place_id)}"><i></i><span><b>${esc(entry.name_zh)}</b><small>${esc(entry.original_name || (entry.reality_status === "fictional" ? "文学虚构空间" : "现实地点"))}</small></span></a>`).join("") || `<p class="master-empty">当前公开投影暂未收录地点关系。</p>`}</div></section>
+        <section id="themes" class="master-connections">${sectionTitle("04", "主题", "THEMES")}<div class="theme-ledger">${(copy.themes || []).map((theme) => `<article><h3>${esc(theme.title)}</h3><p>${esc(theme.text)}</p></article>`).join("") || `<p class="master-empty">主题说明仍在策展中。</p>`}</div></section>
+        <section id="author-anecdotes" class="master-author-anecdote">${sectionTitle("05", "趣闻", "ANECDOTES")}<div class="anecdote-ledger">${anecdotes.map((story, index) => `<article><h3><span>${String(index + 1).padStart(2, "0")}</span>${esc(story.title)}</h3><p>${esc(story.teaser)}</p><details><summary>展开完整故事</summary><div>${esc(story.story)}</div><small>来源与依据：${esc(story.sources_label || "见项目登记")}</small></details></article>`).join("") || `<p class="master-empty">当前没有可公开的趣闻。</p>`}</div></section>
+      </div>`;
+    return true;
+  }
+
+  function renderWorkArchive(id) {
+    if (id === "V1-ENT-0075") { renderCienAnos(); return true; }
+    const item = entity(id);
+    const copy = reader("works", id);
+    if (!item || !isPublic(id)) return false;
+    const authors = publicCreators(id);
+    const author = authors[0];
+    const locations = publicPlaces(id, "SET_IN");
+    const related = (copy.next_reads || []).map((entry) => ({ entry, target: entity(entry.target_id) })).filter(({ target }) => target && isPublic(target.id));
+    const year = fact(id, "first_publication_year", "publication_year");
+    const genre = card(id).genre || fact(id, "genre_or_form");
+    setMeta(item.name, copy.reading_premise || `${item.name}作品档案。`);
+    activate("work");
+    app().innerHTML = `
+      ${breadcrumbs(item.name, "作品", "works/")}
+      <header class="master-work-hero master-edition-hero"><div class="master-work-copy"><p class="master-kicker">作品档案 · LITERARY EDITION</p><h1>${esc(item.name.replace(/[《》]/g, ""))}</h1><p class="work-original">${esc(item.original || "")}</p><p class="work-author">${author ? `<a href="${route(author.id)}">${esc(author.original || author.name)}</a><br /><span>${esc(author.name)}</span>` : "拉丁美洲文学"}</p><p class="work-meta">${esc(year || "年代待查")} <i></i> ${esc(card(id).country || "拉丁美洲")} <i></i> ${esc(genre || "文学作品")}</p><blockquote>${esc(copy.guiding_question || copy.reading_premise || "这部作品如何重新组织现实与叙事？")}</blockquote></div><div class="master-work-collage edition-collage"><img class="work-landscape" src="${BASE}assets/editorial/hero-caribbean-writing-desk-v1.webp" alt="拉丁美洲写作档案图像" width="1440" height="1080" /><div class="work-paper-red"></div><span class="edition-cover">${portraitHtml(author?.id, "", "", true)}<i>${esc(item.name.replace(/[《》\s]/g, "").charAt(0) || "书")}</i><small>A LITERARY EDITION</small></span><p class="work-script">${esc((item.original || item.name).split(" ").slice(0, 4).join(" "))}</p><p class="work-postage">LATAM<br /><b>${esc(year || "—")}</b></p></div></header>
+      <div class="master-work-spread master-edition-spread">
+        <section class="work-overview">${sectionTitle("01", "作品简介", "OVERVIEW")}<p>${esc(copy.story_intro || copy.reading_premise || "")}</p><p class="work-summary-en">${esc(copy.reading_premise || "")}</p></section>
+        <section class="work-family">${sectionTitle("02", "为什么值得读", "WHY READ IT")}<div class="why-ledger">${(copy.why || []).map((point) => `<article><h3>${esc(point.title)}</h3><p>${esc(point.text)}</p></article>`).join("") || `<p>${esc(copy.reading_approach || "沿叙事、人物与历史语境进入这部作品。")}</p>`}</div></section>
+        <section class="work-place">${sectionTitle("03", "地点与空间", "PLACES")}<div class="place-ledger">${locations.map((entry) => `<a href="${route(entry.place_id)}"><i></i><span><b>${esc(entry.name_zh)}</b><small>${entry.reality_status === "fictional" ? "文学虚构空间 · 不使用现实坐标" : "现实地点"}</small></span></a>`).join("") || `<p>${esc(copy.location_note || "当前公开投影未登记可链接地点。")}</p>`}</div></section>
+        <section class="work-themes">${sectionTitle("04", "主题", "THEMES")}<div>${(copy.themes || []).map((theme) => `<article><i aria-hidden="true"></i><b>${esc(theme.title)}</b><p>${esc(theme.text)}</p></article>`).join("") || `<p class="master-empty">主题说明仍在策展中。</p>`}</div></section>
+        <section class="work-quote-note">${sectionTitle("05", "阅读方法", "READING NOTE")}<blockquote>“${esc(copy.guiding_question || copy.reading_premise || "带着问题进入作品。") }”</blockquote><p>${esc(copy.reading_approach || copy.reading_tips || "")}</p></section>
+        <section class="work-related">${sectionTitle("06", "相关阅读", "RELATED READING")}<div>${related.map(({ entry, target }) => `<a href="${route(target.id)}"><span class="related-cover">${portraitHtml(D.createdBy?.[target.id], "", "", false)}</span><b>${esc(workName(target.name))}</b><small>${esc(entry.reason)}</small></a>`).join("") || `<a href="${BASE}works/"><span class="related-cover master-glyph">书</span><b>浏览作品目录</b><small>从完整目录继续选择。</small></a>`}</div></section>
+      </div>`;
+    return true;
+  }
+
+  function renderSearch() {
+    const entries = D.search.filter((item) => item.route);
+    const typeLabel = { author: "作家", work: "作品", collection: "作品集", country: "国家", place: "现实地点", fictional_space: "文学空间", movement: "文学运动", theme: "主题" };
+    const order = ["author", "work", "collection", "country", "place", "fictional_space", "movement", "theme"];
+    setMeta("搜索", `搜索全部 ${entries.length} 个公开文学入口。`);
+    activate("search");
+    app().innerHTML = `<header class="master-search-hero"><p class="master-kicker">文学搜索 · SEARCH</p><h1>找到你的下一条阅读路径。</h1><p>搜索作家、作品、国家、现实地点、文学虚构空间、主题与文学运动。</p><form role="search"><label for="master-search-input">搜索全部公开内容</label><div><input id="master-search-input" type="search" placeholder="输入作者、作品、地点或原文名" autocomplete="off" /><button type="submit">搜索</button></div></form><small aria-live="polite">当前展示全部 ${entries.length} 项</small></header><nav class="search-type-filter" aria-label="搜索类型筛选"><button type="button" data-search-type="all" aria-pressed="true">全部 <b>${entries.length}</b></button>${order.map((type) => `<button type="button" data-search-type="${type}" aria-pressed="false">${typeLabel[type]} <b>${entries.filter((entry) => entry.type === type).length}</b></button>`).join("")}</nav><div class="master-search-results">${order.map((type) => { const items = entries.filter((entry) => entry.type === type); return `<section data-search-group="${type}"><header><h2>${typeLabel[type]}</h2><span>${items.length}</span></header><div>${items.map((entry) => `<a data-search-entry data-type="${type}" data-query="${esc(`${entry.name} ${entry.original || ""}`.toLowerCase())}" href="${route(entry.id)}"><span><b>${["work", "collection"].includes(type) ? esc(workName(entry.name)) : esc(entry.name)}</b><small>${esc(entry.original || typeLabel[type])}</small></span><i>→</i></a>`).join("")}</div></section>`; }).join("")}</div><p class="search-no-results" hidden>没有找到匹配项。请换一个中文名、原文名或地点名。</p>`;
+    const input = app().querySelector("#master-search-input");
+    const status = app().querySelector(".master-search-hero > small");
+    let activeType = "all";
+    const update = () => {
+      const query = input.value.trim().toLowerCase();
+      let visible = 0;
+      app().querySelectorAll("[data-search-entry]").forEach((entry) => {
+        entry.hidden = (activeType !== "all" && entry.dataset.type !== activeType) || (query && !entry.dataset.query.includes(query));
+        if (!entry.hidden) visible += 1;
+      });
+      app().querySelectorAll("[data-search-group]").forEach((group) => { group.hidden = ![...group.querySelectorAll("[data-search-entry]")].some((entry) => !entry.hidden); });
+      app().querySelector(".search-no-results").hidden = visible !== 0;
+      status.textContent = query || activeType !== "all" ? `找到 ${visible} 项` : `当前展示全部 ${entries.length} 项`;
+    };
+    app().querySelector("form")?.addEventListener("submit", (event) => { event.preventDefault(); update(); });
+    input?.addEventListener("input", update);
+    app().querySelectorAll("[data-search-type]").forEach((button) => button.addEventListener("click", () => {
+      activeType = button.dataset.searchType;
+      app().querySelectorAll("[data-search-type]").forEach((item) => item.setAttribute("aria-pressed", String(item === button)));
+      update();
+    }));
   }
 
   function renderBorges() {
@@ -195,11 +349,9 @@
   }
 
   function timelineItems() {
-    const works = D.timeline.filter((item) => item.kind === "literary_work" && isPublic(item.id) && Number(String(item.year).match(/\d{4}/)?.[0] || 0) >= 1940 && Number(String(item.year).match(/\d{4}/)?.[0] || 0) <= 1989);
-    if (works.length <= 8) return works;
-    const selected = [];
-    for (let index = 0; index < 8; index += 1) selected.push(works[Math.round(index * (works.length - 1) / 7)]);
-    return [...new Map(selected.map((item) => [item.id, item])).values()];
+    return D.timeline
+      .filter((item) => ["literary_author", "literary_work"].includes(item.kind) && isPublic(item.id))
+      .sort((a, b) => Number(String(a.year).match(/\d{4}/)?.[0] || 9999) - Number(String(b.year).match(/\d{4}/)?.[0] || 9999));
   }
 
   function renderTimeline() {
@@ -208,12 +360,13 @@
     activate("timeline");
     app().innerHTML = `
       <header class="master-timeline-hero"><div><h1>时间线</h1><p>TIMELINE</p></div><div><h2>一部文学的大陆编年史</h2><em>A Literary Chronicle<br />of a Continent</em><p>从作品、作家与历史相遇的时刻进入拉丁美洲文学。</p></div><figure><img src="${BASE}assets/backgrounds/archive-masthead-v1.webp" alt="热带植物与山脉档案拼贴" width="1667" height="604" /></figure></header>
-      <div class="timeline-toolbar"><p><b>筛选时间线</b><small>FILTER TIMELINE</small></p><div role="group" aria-label="按类型筛选时间线"><button type="button" data-timeline-filter="all" aria-pressed="true">全部</button><button type="button" data-timeline-filter="literary_work" aria-pressed="false">作品 / 出版</button></div><a class="master-button" href="${BASE}#literary-map">探索地图视图 →</a></div>
-      <div class="timeline-legend"><span><i></i>作品 / 出版</span><blockquote>“La literatura también es una forma de habitar el mundo.”</blockquote></div>
-      <section class="horizontal-timeline" aria-label="横向文学时间线">${entries.map((entry, index) => {
-        const creator = D.createdBy?.[entry.id];
+      <div class="timeline-toolbar"><p><b>筛选时间线</b><small>FILTER TIMELINE</small></p><div role="group" aria-label="按类型筛选时间线"><button type="button" data-timeline-filter="all" aria-pressed="true">全部 ${entries.length}</button><button type="button" data-timeline-filter="literary_work" aria-pressed="false">作品 / 出版 ${entries.filter((item) => item.kind === "literary_work").length}</button><button type="button" data-timeline-filter="literary_author" aria-pressed="false">作家生平 ${entries.filter((item) => item.kind === "literary_author").length}</button></div><a class="master-button" href="${BASE}#literary-map">探索地图视图 →</a></div>
+      <div class="timeline-legend"><span><i></i>完整公开编年：${entries.length} 条</span><blockquote>“La literatura también es una forma de habitar el mundo.”</blockquote></div>
+      <section class="horizontal-timeline" style="--timeline-count:${entries.length}" aria-label="横向文学时间线">${entries.map((entry, index) => {
+        const creator = entry.kind === "literary_author" ? entry.id : D.createdBy?.[entry.id];
         const target = entity(entry.id);
-        return `<article data-timeline-kind="${esc(entry.kind)}" class="timeline-card ${index === Math.floor(entries.length / 2) ? "featured" : ""}"><time>${esc(entry.year)}</time><i class="timeline-dot"></i><a href="${route(entry.id)}"><span class="timeline-cover">${creator ? portraitHtml(creator, "", "", false) : `<b>${esc(target?.name?.replace(/[《》\s]/g, "").charAt(0) || "文")}</b>`}<em>${esc(target?.name || entry.name)}</em></span><h3>${esc(entry.name)}</h3><p>${esc(entity(creator)?.name || card(entry.id).country || "拉丁美洲文学")}</p><small>${esc(reader("works", entry.id).reading_premise || "作品首次出版或发表")}</small></a></article>`;
+        const note = entry.kind === "literary_author" ? reader("authors", entry.id).reader_lede : reader("works", entry.id).reading_premise;
+        return `<article data-timeline-kind="${esc(entry.kind)}" class="timeline-card ${index === Math.floor(entries.length / 2) ? "featured" : ""}"><time>${esc(entry.year)}</time><i class="timeline-dot"></i><a href="${route(entry.id)}"><span class="timeline-cover">${creator ? portraitHtml(creator, "", "", false) : `<b>${esc(target?.name?.replace(/[《》\s]/g, "").charAt(0) || "文")}</b>`}<em>${esc(target?.name || entry.name)}</em></span><h3>${esc(entry.name)}</h3><p>${entry.kind === "literary_author" ? "作家生平" : esc(entity(creator)?.name || card(entry.id).country || "拉丁美洲文学")}</p><small>${esc(note || (entry.kind === "literary_author" ? "沿生平与作品进入文学史。" : "作品首次出版或发表。"))}</small></a></article>`;
       }).join("")}</section>`;
     app().querySelectorAll("[data-timeline-filter]").forEach((button) => button.addEventListener("click", () => {
       const filter = button.dataset.timelineFilter;
@@ -240,8 +393,10 @@
   }
 
   function render(routeInfo) {
-    if (routeInfo.kind === "author" && routeInfo.id === "V1-ENT-0002") { renderBorges(); return true; }
-    if (routeInfo.kind === "work" && routeInfo.id === "V1-ENT-0075") { renderCienAnos(); return true; }
+    if (routeInfo.kind === "authors" || routeInfo.kind === "works") { renderCatalog(routeInfo.kind); return true; }
+    if (routeInfo.kind === "author") return renderAuthorArchive(routeInfo.id);
+    if (routeInfo.kind === "work") return renderWorkArchive(routeInfo.id);
+    if (routeInfo.kind === "search") { renderSearch(); return true; }
     if (routeInfo.kind === "anecdotes") { renderAnecdotes(); return true; }
     if (routeInfo.kind === "timeline") { renderTimeline(); return true; }
     if (routeInfo.kind === "about") { renderAbout(); return true; }

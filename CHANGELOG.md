@@ -2,6 +2,30 @@
 
 本文件记录拉丁美洲文学地图各版本的实际修改。格式参考 Keep a Changelog，版本号遵循语义化版本规则。
 
+## [Data 1.5.0 / Web 0.5.0 — Development, Draft Preview] - 2026-09-13
+
+### TASK-128 / WCD-11 full-template visual audit follow-up
+
+- 根据 USER 对首页可读性、旧作者／作品模板、作品覆盖、时间线截断和搜索不完整的复审意见，把新报刊档案视觉系统从 2 条示例详情扩展到完整公开范围：25 位作家详情、62 部作品／合集详情，以及作家目录、作品目录、搜索、时间线；博尔赫斯和《百年孤独》继续保留专属构图。
+- 首页改用更深、更明显的叠层羊皮纸纹理，放大阅读路径标题／摘要与重要作家肖像，将趣闻底色降为低饱和棕红并提高正文对比度；通用作品页加入作者策展版封面与图版式六栏内容，通用作者页加入拼贴 Hero、五段目录和可展开完整趣闻。
+- 移除目录每页 9 条、时间线抽样 8 条与搜索少量展示的预览截断：当前目录完整渲染 25 位作家、62 部作品／合集，搜索完整覆盖 127 个公开入口，时间线完整覆盖 87 条公开作家／作品记录；所有数量、筛选结果和首页字号／肖像尺寸／趣闻对比度均进入浏览器断言。
+- 第二轮自审后，`qa-imagery.mjs` 为 43/43 PASS；11 个代表页面在 1440×900、390×844 共 22/22 截图 PASS，另对 25 位作家与 62 部作品／合集的全部 87 条详情路由执行新母版、404 和 JS 错误全量检查。该成果仍只在 Draft preview 内，不修改正式 `site/`、Research、Curation、Web Data、版本、发布或 Public Release 边界。
+
+### TASK-128 / WCD-11 six-page visual master candidate
+
+- 依据 USER 提供的六张桌面参考图，在 `previews/wcd-11/` 内重构首页、博尔赫斯作者详情、《百年孤独》作品详情、文学趣闻、时间线与关于项目六个视觉母版；新增独立 `master-pages.js` 与作用域化 `styles/master.css`，采用报刊／档案拼贴、低饱和纸张、窄分隔线和高密度图版结构，未把其余 133 条通用路由宣称为视觉完成。
+- 保留既有公开数据投影、实体 ID、public route、地图与筛选交互、肖像来源／许可字段、现实地点与文学虚构空间边界；本轮只改 Draft preview 的展示层、静态壳模板与验证工具，正式 `site/`、生产构建器、Research、Curation、Web Data 和公开范围均未修改。
+- 新增六页布局映射与可复跑截图器，在 1440×900、390×844 两种视口输出 12 张 full-page 截图及 JSON 清单；截图器验证母版路由、破图、HTTP/JS 错误、页面级横向溢出、地图标记与时间线筛选。既有 imagery 浏览器回归同步适配母版结构，最终 41/41 PASS，六页截图验证 12/12 PASS。
+- PR #36 继续保持 Draft。本检查点不构成 USER 视觉批准、正式 WCD-11 Spec、Web `0.6.0` 集成、合并、Tag、Release、production deployment 或 Public Release；Data 与 Web 版本均保持不变。
+
+## [Data 1.5.0 / Web 0.5.0 — Development, Draft Preview] - 2026-09-11
+
+### TASK-128 / WCD-11 imagery candidate checkpoint
+
+- 新增 `previews/wcd-11/`，保存当前可运行的 WCD-11 imagery V8 候选快照、图像许可台账及可复跑浏览器 QA，供 Draft PR 继续视觉评审和后续增量修改；正式 `site/`、生产构建器与 public bundle 均未接入该目录。
+- 该快照继续使用既有公开投影子集与 Natural Earth 派生几何，不修改 Research、Curation、Web Data、正式路由或公开范围；`project/internal/` 保持 ignored 且未被追踪。
+- 本 PR 是设计预览检查点，不构成正式集成、候选复审 PASS 或 Public Release。Web Product 保持 `0.5.0 Development`：原因是该目录不进入正式构建或读者交付；未来正式 redesign 的版本建议仍须在 Spec 和实际接入范围确定后按 Charter 2.0.3 重新判断。
+
 ## [Data 1.5.0 / Web 0.5.0 — Development] - 2026-09-08
 
 ### TASK-099 / WCD-09 implementation

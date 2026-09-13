@@ -1,0 +1,697 @@
+[
+ {
+  "route": "authors/",
+  "kind": "authors",
+  "id": null
+ },
+ {
+  "route": "works/",
+  "kind": "works",
+  "id": null
+ },
+ {
+  "route": "anecdotes/",
+  "kind": "anecdotes",
+  "id": null
+ },
+ {
+  "route": "search/",
+  "kind": "search",
+  "id": null
+ },
+ {
+  "route": "timeline/",
+  "kind": "timeline",
+  "id": null
+ },
+ {
+  "route": "about/",
+  "kind": "about",
+  "id": null
+ },
+ {
+  "route": "countries/argentina-v1-ent-0001/",
+  "kind": "country",
+  "id": "V1-ENT-0001"
+ },
+ {
+  "route": "authors/jorge-luis-borges-v1-ent-0002/",
+  "kind": "author",
+  "id": "V1-ENT-0002"
+ },
+ {
+  "route": "works/el-jardin-de-senderos-que-se-bifurcan-v1-ent-0003/",
+  "kind": "work",
+  "id": "V1-ENT-0003"
+ },
+ {
+  "route": "works/el-aleph-v1-ent-0004/",
+  "kind": "work",
+  "id": "V1-ENT-0004"
+ },
+ {
+  "route": "explore/ultraismo-v1-ent-0010/",
+  "kind": "node",
+  "id": "V1-ENT-0010"
+ },
+ {
+  "route": "authors/clarice-lispector-v1-ent-0016/",
+  "kind": "author",
+  "id": "V1-ENT-0016"
+ },
+ {
+  "route": "works/agua-viva-v1-ent-0017/",
+  "kind": "work",
+  "id": "V1-ENT-0017"
+ },
+ {
+  "route": "works/a-hora-da-estrela-v1-ent-0018/",
+  "kind": "work",
+  "id": "V1-ENT-0018"
+ },
+ {
+  "route": "works/lacos-de-familia-v1-ent-0019/",
+  "kind": "work",
+  "id": "V1-ENT-0019"
+ },
+ {
+  "route": "places/rio-de-janeiro-v1-ent-0022/",
+  "kind": "place",
+  "id": "V1-ENT-0022"
+ },
+ {
+  "route": "explore/theme-v1-ent-0025/",
+  "kind": "node",
+  "id": "V1-ENT-0025"
+ },
+ {
+  "route": "authors/elena-garro-v1-ent-0029/",
+  "kind": "author",
+  "id": "V1-ENT-0029"
+ },
+ {
+  "route": "authors/rosario-castellanos-v1-ent-0030/",
+  "kind": "author",
+  "id": "V1-ENT-0030"
+ },
+ {
+  "route": "authors/juan-rulfo-v1-ent-0031/",
+  "kind": "author",
+  "id": "V1-ENT-0031"
+ },
+ {
+  "route": "works/los-recuerdos-del-porvenir-v1-ent-0032/",
+  "kind": "work",
+  "id": "V1-ENT-0032"
+ },
+ {
+  "route": "works/balun-canan-v1-ent-0035/",
+  "kind": "work",
+  "id": "V1-ENT-0035"
+ },
+ {
+  "route": "works/pedro-paramo-v1-ent-0038/",
+  "kind": "work",
+  "id": "V1-ENT-0038"
+ },
+ {
+  "route": "countries/mexico-v1-ent-0051/",
+  "kind": "country",
+  "id": "V1-ENT-0051"
+ },
+ {
+  "route": "places/chiapas-v1-ent-0052/",
+  "kind": "place",
+  "id": "V1-ENT-0052"
+ },
+ {
+  "route": "places/comitan-v1-ent-0053/",
+  "kind": "place",
+  "id": "V1-ENT-0053"
+ },
+ {
+  "route": "places/ixtepec-v1-ent-0054/",
+  "kind": "place",
+  "id": "V1-ENT-0054"
+ },
+ {
+  "route": "places/comala-v1-ent-0055/",
+  "kind": "fictional_space",
+  "id": "V1-ENT-0055"
+ },
+ {
+  "route": "places/ciudad-de-mexico-v1-ent-0056/",
+  "kind": "place",
+  "id": "V1-ENT-0056"
+ },
+ {
+  "route": "places/san-gabriel-v1-ent-0057/",
+  "kind": "place",
+  "id": "V1-ENT-0057"
+ },
+ {
+  "route": "authors/octavio-paz-v1-ent-0059/",
+  "kind": "author",
+  "id": "V1-ENT-0059"
+ },
+ {
+  "route": "authors/gabriel-garcia-marquez-v1-ent-0072/",
+  "kind": "author",
+  "id": "V1-ENT-0072"
+ },
+ {
+  "route": "authors/julio-cortazar-v1-ent-0073/",
+  "kind": "author",
+  "id": "V1-ENT-0073"
+ },
+ {
+  "route": "authors/alejo-carpentier-v1-ent-0074/",
+  "kind": "author",
+  "id": "V1-ENT-0074"
+ },
+ {
+  "route": "works/cien-anos-de-soledad-v1-ent-0075/",
+  "kind": "work",
+  "id": "V1-ENT-0075"
+ },
+ {
+  "route": "works/el-coronel-no-tiene-quien-le-escriba-v1-ent-0076/",
+  "kind": "work",
+  "id": "V1-ENT-0076"
+ },
+ {
+  "route": "works/cronica-de-una-muerte-anunciada-v1-ent-0077/",
+  "kind": "work",
+  "id": "V1-ENT-0077"
+ },
+ {
+  "route": "works/rayuela-v1-ent-0078/",
+  "kind": "work",
+  "id": "V1-ENT-0078"
+ },
+ {
+  "route": "works/el-reino-de-este-mundo-v1-ent-0079/",
+  "kind": "work",
+  "id": "V1-ENT-0079"
+ },
+ {
+  "route": "works/los-pasos-perdidos-v1-ent-0080/",
+  "kind": "work",
+  "id": "V1-ENT-0080"
+ },
+ {
+  "route": "works/el-siglo-de-las-luces-v1-ent-0081/",
+  "kind": "work",
+  "id": "V1-ENT-0081"
+ },
+ {
+  "route": "countries/colombia-v1-ent-0095/",
+  "kind": "country",
+  "id": "V1-ENT-0095"
+ },
+ {
+  "route": "countries/cuba-v1-ent-0096/",
+  "kind": "country",
+  "id": "V1-ENT-0096"
+ },
+ {
+  "route": "places/macondo-v1-ent-0097/",
+  "kind": "fictional_space",
+  "id": "V1-ENT-0097"
+ },
+ {
+  "route": "places/aracataca-v1-ent-0098/",
+  "kind": "place",
+  "id": "V1-ENT-0098"
+ },
+ {
+  "route": "explore/realismo-magico-v1-ent-0099/",
+  "kind": "node",
+  "id": "V1-ENT-0099"
+ },
+ {
+  "route": "explore/lo-real-maravilloso-v1-ent-0100/",
+  "kind": "node",
+  "id": "V1-ENT-0100"
+ },
+ {
+  "route": "explore/lector-activo-y-narrativa-anticanonica-v1-ent-0105/",
+  "kind": "node",
+  "id": "V1-ENT-0105"
+ },
+ {
+  "route": "explore/transculturacion-e-identidad-latinoamericana-v1-ent-0108/",
+  "kind": "node",
+  "id": "V1-ENT-0108"
+ },
+ {
+  "route": "authors/mario-vargas-llosa-v1-ent-0114/",
+  "kind": "author",
+  "id": "V1-ENT-0114"
+ },
+ {
+  "route": "authors/pablo-neruda-v1-ent-0115/",
+  "kind": "author",
+  "id": "V1-ENT-0115"
+ },
+ {
+  "route": "works/la-ciudad-y-los-perros-v1-ent-0116/",
+  "kind": "work",
+  "id": "V1-ENT-0116"
+ },
+ {
+  "route": "works/conversacion-en-la-catedral-v1-ent-0117/",
+  "kind": "work",
+  "id": "V1-ENT-0117"
+ },
+ {
+  "route": "works/la-guerra-del-fin-del-mundo-v1-ent-0118/",
+  "kind": "work",
+  "id": "V1-ENT-0118"
+ },
+ {
+  "route": "countries/chile-v1-ent-0123/",
+  "kind": "country",
+  "id": "V1-ENT-0123"
+ },
+ {
+  "route": "countries/peru-v1-ent-0124/",
+  "kind": "country",
+  "id": "V1-ENT-0124"
+ },
+ {
+  "route": "places/lima-v1-ent-0125/",
+  "kind": "place",
+  "id": "V1-ENT-0125"
+ },
+ {
+  "route": "places/arequipa-v1-ent-0126/",
+  "kind": "place",
+  "id": "V1-ENT-0126"
+ },
+ {
+  "route": "places/santiago-de-chile-v1-ent-0128/",
+  "kind": "place",
+  "id": "V1-ENT-0128"
+ },
+ {
+  "route": "places/madrid-v1-ent-0129/",
+  "kind": "place",
+  "id": "V1-ENT-0129"
+ },
+ {
+  "route": "explore/modernismo-v1-ent-0131/",
+  "kind": "node",
+  "id": "V1-ENT-0131"
+ },
+ {
+  "route": "explore/vanguardismo-v1-ent-0132/",
+  "kind": "node",
+  "id": "V1-ENT-0132"
+ },
+ {
+  "route": "explore/destino-del-continente-epopeya-americana-v1-ent-0137/",
+  "kind": "node",
+  "id": "V1-ENT-0137"
+ },
+ {
+  "route": "authors/carlos-fuentes-v1-ent-0145/",
+  "kind": "author",
+  "id": "V1-ENT-0145"
+ },
+ {
+  "route": "works/la-region-mas-transparente-v1-ent-0146/",
+  "kind": "work",
+  "id": "V1-ENT-0146"
+ },
+ {
+  "route": "authors/gabriela-mistral-v1-ent-0148/",
+  "kind": "author",
+  "id": "V1-ENT-0148"
+ },
+ {
+  "route": "works/desolacion-v1-ent-0149/",
+  "kind": "work",
+  "id": "V1-ENT-0149"
+ },
+ {
+  "route": "works/ternura-v1-ent-0150/",
+  "kind": "work",
+  "id": "V1-ENT-0150"
+ },
+ {
+  "route": "works/tala-v1-ent-0151/",
+  "kind": "work",
+  "id": "V1-ENT-0151"
+ },
+ {
+  "route": "places/vicuna-v1-ent-0153/",
+  "kind": "place",
+  "id": "V1-ENT-0153"
+ },
+ {
+  "route": "works/el-laberinto-de-la-soledad-v1-ent-0154/",
+  "kind": "work",
+  "id": "V1-ENT-0154"
+ },
+ {
+  "route": "works/el-arco-y-la-lira-v1-ent-0155/",
+  "kind": "work",
+  "id": "V1-ENT-0155"
+ },
+ {
+  "route": "works/piedra-de-sol-v1-ent-0156/",
+  "kind": "work",
+  "id": "V1-ENT-0156"
+ },
+ {
+  "route": "works/aura-v1-ent-0169/",
+  "kind": "work",
+  "id": "V1-ENT-0169"
+ },
+ {
+  "route": "authors/miguel-angel-asturias-v1-ent-0170/",
+  "kind": "author",
+  "id": "V1-ENT-0170"
+ },
+ {
+  "route": "authors/isabel-allende-v1-ent-0171/",
+  "kind": "author",
+  "id": "V1-ENT-0171"
+ },
+ {
+  "route": "authors/jorge-amado-v1-ent-0172/",
+  "kind": "author",
+  "id": "V1-ENT-0172"
+ },
+ {
+  "route": "works/el-senor-presidente-v1-ent-0173/",
+  "kind": "work",
+  "id": "V1-ENT-0173"
+ },
+ {
+  "route": "works/hombres-de-maiz-v1-ent-0174/",
+  "kind": "work",
+  "id": "V1-ENT-0174"
+ },
+ {
+  "route": "works/leyendas-de-guatemala-v1-ent-0175/",
+  "kind": "work",
+  "id": "V1-ENT-0175"
+ },
+ {
+  "route": "works/la-casa-de-los-espiritus-v1-ent-0176/",
+  "kind": "work",
+  "id": "V1-ENT-0176"
+ },
+ {
+  "route": "works/de-amor-y-de-sombras-v1-ent-0177/",
+  "kind": "work",
+  "id": "V1-ENT-0177"
+ },
+ {
+  "route": "works/eva-luna-v1-ent-0178/",
+  "kind": "work",
+  "id": "V1-ENT-0178"
+ },
+ {
+  "route": "works/dona-flor-e-seus-dois-maridos-v1-ent-0179/",
+  "kind": "work",
+  "id": "V1-ENT-0179"
+ },
+ {
+  "route": "works/gabriela-cravo-e-canela-v1-ent-0180/",
+  "kind": "work",
+  "id": "V1-ENT-0180"
+ },
+ {
+  "route": "works/capitaes-da-areia-v1-ent-0181/",
+  "kind": "work",
+  "id": "V1-ENT-0181"
+ },
+ {
+  "route": "countries/guatemala-v1-ent-0182/",
+  "kind": "country",
+  "id": "V1-ENT-0182"
+ },
+ {
+  "route": "countries/brazil-v1-ent-0183/",
+  "kind": "country",
+  "id": "V1-ENT-0183"
+ },
+ {
+  "route": "authors/juan-carlos-onetti-v1-ent-0184/",
+  "kind": "author",
+  "id": "V1-ENT-0184"
+ },
+ {
+  "route": "authors/jose-donoso-v1-ent-0185/",
+  "kind": "author",
+  "id": "V1-ENT-0185"
+ },
+ {
+  "route": "authors/ernesto-sabato-v1-ent-0186/",
+  "kind": "author",
+  "id": "V1-ENT-0186"
+ },
+ {
+  "route": "works/la-vida-breve-v1-ent-0187/",
+  "kind": "work",
+  "id": "V1-ENT-0187"
+ },
+ {
+  "route": "works/el-astillero-v1-ent-0188/",
+  "kind": "work",
+  "id": "V1-ENT-0188"
+ },
+ {
+  "route": "works/los-adioses-v1-ent-0189/",
+  "kind": "work",
+  "id": "V1-ENT-0189"
+ },
+ {
+  "route": "works/el-obsceno-pajaro-de-la-noche-v1-ent-0190/",
+  "kind": "work",
+  "id": "V1-ENT-0190"
+ },
+ {
+  "route": "works/el-lugar-sin-limites-v1-ent-0191/",
+  "kind": "work",
+  "id": "V1-ENT-0191"
+ },
+ {
+  "route": "works/coronacion-v1-ent-0192/",
+  "kind": "work",
+  "id": "V1-ENT-0192"
+ },
+ {
+  "route": "works/el-tunel-v1-ent-0193/",
+  "kind": "work",
+  "id": "V1-ENT-0193"
+ },
+ {
+  "route": "works/sobre-heroes-y-tumbas-v1-ent-0194/",
+  "kind": "work",
+  "id": "V1-ENT-0194"
+ },
+ {
+  "route": "works/abaddon-el-exterminador-v1-ent-0195/",
+  "kind": "work",
+  "id": "V1-ENT-0195"
+ },
+ {
+  "route": "countries/uruguay-v1-ent-0196/",
+  "kind": "country",
+  "id": "V1-ENT-0196"
+ },
+ {
+  "route": "authors/adolfo-bioy-casares-v1-ent-0198/",
+  "kind": "author",
+  "id": "V1-ENT-0198"
+ },
+ {
+  "route": "authors/augusto-roa-bastos-v1-ent-0199/",
+  "kind": "author",
+  "id": "V1-ENT-0199"
+ },
+ {
+  "route": "authors/horacio-quiroga-v1-ent-0200/",
+  "kind": "author",
+  "id": "V1-ENT-0200"
+ },
+ {
+  "route": "works/la-invencion-de-morel-v1-ent-0201/",
+  "kind": "work",
+  "id": "V1-ENT-0201"
+ },
+ {
+  "route": "works/plan-de-evasion-v1-ent-0202/",
+  "kind": "work",
+  "id": "V1-ENT-0202"
+ },
+ {
+  "route": "works/el-sueno-de-los-heroes-v1-ent-0203/",
+  "kind": "work",
+  "id": "V1-ENT-0203"
+ },
+ {
+  "route": "works/hijo-de-hombre-v1-ent-0204/",
+  "kind": "work",
+  "id": "V1-ENT-0204"
+ },
+ {
+  "route": "works/yo-el-supremo-v1-ent-0205/",
+  "kind": "work",
+  "id": "V1-ENT-0205"
+ },
+ {
+  "route": "works/el-fiscal-v1-ent-0206/",
+  "kind": "work",
+  "id": "V1-ENT-0206"
+ },
+ {
+  "route": "works/cuentos-de-amor-de-locura-y-de-muerte-v1-ent-0207/",
+  "kind": "work",
+  "id": "V1-ENT-0207"
+ },
+ {
+  "route": "works/cuentos-de-la-selva-v1-ent-0208/",
+  "kind": "work",
+  "id": "V1-ENT-0208"
+ },
+ {
+  "route": "works/los-desterrados-v1-ent-0209/",
+  "kind": "work",
+  "id": "V1-ENT-0209"
+ },
+ {
+  "route": "countries/paraguay-v1-ent-0210/",
+  "kind": "country",
+  "id": "V1-ENT-0210"
+ },
+ {
+  "route": "authors/machado-de-assis-v1-ent-0211/",
+  "kind": "author",
+  "id": "V1-ENT-0211"
+ },
+ {
+  "route": "authors/joao-guimaraes-rosa-v1-ent-0212/",
+  "kind": "author",
+  "id": "V1-ENT-0212"
+ },
+ {
+  "route": "authors/graciliano-ramos-v1-ent-0213/",
+  "kind": "author",
+  "id": "V1-ENT-0213"
+ },
+ {
+  "route": "works/memorias-postumas-de-bras-cubas-v1-ent-0214/",
+  "kind": "work",
+  "id": "V1-ENT-0214"
+ },
+ {
+  "route": "works/quincas-borba-v1-ent-0215/",
+  "kind": "work",
+  "id": "V1-ENT-0215"
+ },
+ {
+  "route": "works/dom-casmurro-v1-ent-0216/",
+  "kind": "work",
+  "id": "V1-ENT-0216"
+ },
+ {
+  "route": "works/grande-sertao-veredas-v1-ent-0217/",
+  "kind": "work",
+  "id": "V1-ENT-0217"
+ },
+ {
+  "route": "works/sagarana-v1-ent-0218/",
+  "kind": "work",
+  "id": "V1-ENT-0218"
+ },
+ {
+  "route": "works/primeiras-estorias-v1-ent-0219/",
+  "kind": "work",
+  "id": "V1-ENT-0219"
+ },
+ {
+  "route": "works/vidas-secas-v1-ent-0220/",
+  "kind": "work",
+  "id": "V1-ENT-0220"
+ },
+ {
+  "route": "works/sao-bernardo-v1-ent-0221/",
+  "kind": "work",
+  "id": "V1-ENT-0221"
+ },
+ {
+  "route": "works/angustia-v1-ent-0222/",
+  "kind": "work",
+  "id": "V1-ENT-0222"
+ },
+ {
+  "route": "countries/nicaragua-v1-ent-0235/",
+  "kind": "country",
+  "id": "V1-ENT-0235"
+ },
+ {
+  "route": "countries/ecuador-v1-ent-0356/",
+  "kind": "country",
+  "id": "V1-ENT-0356"
+ },
+ {
+  "route": "countries/venezuela-v1-ent-0357/",
+  "kind": "country",
+  "id": "V1-ENT-0357"
+ },
+ {
+  "route": "places/buenos-aires-v1-ent-0370/",
+  "kind": "place",
+  "id": "V1-ENT-0370"
+ },
+ {
+  "route": "places/montevideo-v1-ent-0371/",
+  "kind": "place",
+  "id": "V1-ENT-0371"
+ },
+ {
+  "route": "places/la-habana-v1-ent-0372/",
+  "kind": "place",
+  "id": "V1-ENT-0372"
+ },
+ {
+  "route": "places/paris-v1-ent-0373/",
+  "kind": "place",
+  "id": "V1-ENT-0373"
+ },
+ {
+  "route": "paths/three-fictional-towns/",
+  "kind": "path",
+  "id": null
+ },
+ {
+  "route": "paths/power-in-everyday-life/",
+  "kind": "path",
+  "id": null
+ },
+ {
+  "route": "paths/after-the-revolution/",
+  "kind": "path",
+  "id": null
+ },
+ {
+  "route": "paths/who-gets-to-speak/",
+  "kind": "path",
+  "id": null
+ },
+ {
+  "route": "paths/can-modern-life-be-escaped/",
+  "kind": "path",
+  "id": null
+ },
+ {
+  "route": "404.html",
+  "kind": "not-found",
+  "id": null
+ }
+]

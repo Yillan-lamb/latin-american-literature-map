@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="description" content="从马孔多、科马拉到布宜诺斯艾利斯：一张以文学杂志与档案图版方式展开的拉丁美洲文学地图。" />
+<title>拉丁美洲文学地图 · 视觉母版候选</title>
+<link rel="icon" href="assets/backgrounds/literary-postage-stamp-v1.webp" />
+<link rel="stylesheet" href="../tokens.css" />
+<link rel="stylesheet" href="./site.css" />
+<link rel="stylesheet" href="../styles/master.css" />
+</head>
+<body data-master="home">
+<a class="skip-link" href="#app">跳到主要内容</a>
+
+<div class="page">
+
+  <header class="masthead">
+    <a class="brand" href="./index.html" aria-label="LATAM 拉丁美洲文学地图 · 回到首页">
+      <span class="brand-mark">LATAM</span>
+      <span class="brand-sep" aria-hidden="true"></span>
+      <span class="brand-title"><span class="brand-name">拉丁美洲文学地图</span><span class="brand-en">Latin American Literature Map</span></span>
+    </a>
+    <nav id="main-nav" class="main-nav" aria-label="主要导航">
+      <a href="#literary-map" aria-current="page">地图</a>
+      <a href="authors/">作家</a>
+      <a href="works/">作品</a>
+      <a href="anecdotes/">趣闻</a>
+      <a href="timeline/">时间线</a>
+      <a href="about/">关于项目</a>
+      <a class="nav-search" href="search/"><i aria-hidden="true"></i><span>搜索</span></a>
+    </nav>
+    <button type="button" class="menu-toggle" id="menu-toggle" aria-expanded="false" aria-controls="main-nav">菜单</button>
+  </header>
+
+  <main id="app">
+
+    <!-- 封面 Hero -->
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <h1 class="display-title" id="hero-title">拉丁美洲<br /><em>文学地图</em></h1>
+        <p class="hero-sub-en">LATIN AMERICAN<br />LITERATURE ATLAS</p>
+        <p class="lede">从马孔多、科马拉到布宜诺斯艾利斯。<br />从地图进入文学。</p>
+        <p class="hero-assist">From Macondo and Comala to Buenos Aires.<br />Enter the map, and step into literature.</p>
+        <div class="hero-action"><a class="hero-cta" href="#literary-map">开始探索 <span aria-hidden="true">→</span></a><span>A More<br /><i>Plural Latin America</i><br />A Deeper Reading</span></div>
+      </div>
+      <div class="hero-collage" aria-hidden="true">
+        <div class="collage-paper"></div>
+        <div class="collage-photo main">
+          <span class="photo-frame"><img src="assets/editorial/hero-caribbean-writing-desk-v1.webp" alt="" /></span>
+        </div>
+        <div class="collage-photo small-a"><span class="photo-frame"><img src="assets/editorial/hero-colonial-balcony-v1.webp" alt="" /></span></div>
+        <div class="collage-photo small-b"><span class="photo-frame"><img src="assets/portraits/v1-ent-0072.jpg" alt="" /></span></div>
+        <div class="collage-card collage-stamp"><img src="assets/backgrounds/literary-postage-stamp-v1.webp" alt="" /></div>
+        <div class="collage-botanical">
+          <span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+        </div>
+        <p class="collage-script">Nuestra América<br />también escribe.</p>
+        <div class="collage-band"><span>TERRITORIOS · VOCES · HISTORIAS · LITERATURA</span></div>
+        <p class="collage-quote">La realidad<br />también puede<br />ser maravillosa.</p>
+      </div>
+    </section>
+
+    <!-- PLATE 01 地图图版（单一地图，选择切换状态） -->
+    <section class="plate" id="literary-map" aria-labelledby="plate-title">
+      <div class="plate-atlas-grid">
+        <aside class="plate-index">
+          <span class="plate-no">PLATE 01</span>
+          <p class="plate-title-en">LATIN AMERICA<br />LITERARY GEOGRAPHY</p>
+          <i aria-hidden="true"></i>
+          <h2 id="plate-title">拉丁美洲文学地理</h2>
+          <div class="map-legend" aria-label="图例">
+            <span class="item"><i class="sw country"></i>可探索国家</span>
+            <span class="item"><i class="sw no-content"></i>当前暂无收录</span>
+            <span class="item"><i class="sw place"></i>现实地点</span>
+            <span class="item"><i class="sw fictional"></i>文学虚构空间</span>
+          </div>
+          <p class="plate-intro-en">A continent of stories.<br />Real places, imagined worlds,<br />and the people who connect them.</p>
+        </aside>
+
+        <div class="plate-map-sheet">
+          <div class="map-layout">
+            <div class="map-canvas" id="map-canvas" aria-label="拉丁美洲文学地图"></div>
+            <aside class="map-context-panel" id="map-panel" tabindex="-1" aria-live="polite" aria-label="地图阅读入口"></aside>
+          </div>
+
+          <div class="map-neutrality">
+            <p>本地图仅呈现地理事实与文学关联，不代表对任何争议边界、领土归属或政治地位的立场。</p>
+          </div>
+
+          <div class="map-footer">
+            <div class="map-filter" role="group" aria-label="地点图层筛选">
+              <button type="button" class="chip" data-map-filter="all" aria-pressed="true">全部地点</button>
+              <button type="button" class="chip" data-map-filter="author_geography" aria-pressed="false">作家地理</button>
+              <button type="button" class="chip" data-map-filter="story_setting" aria-pressed="false">故事空间</button>
+            </div>
+            <div class="map-ops">
+              <button type="button" class="ghost-op" id="map-reset">点击地图上的地点开始</button>
+            </div>
+          </div>
+
+          <details class="place-index" id="place-index">
+            <summary>按国家浏览地点 <span class="count index-count"></span><span aria-hidden="true">▾</span></summary>
+            <div class="index-body"></div>
+          </details>
+          <details class="map-notes"><summary>地图阅读说明与地理边界</summary><div><p><b>如何读这张图：</b>点击国家或地点，阅读从这里展开的作家与作品；也可按“作家地理”或“故事空间”筛选。现实地点按可核验坐标呈现，虚构空间单独列出。</p><p>深色国家表示已有公开文学内容；灰色只表示中性地理背景。</p></div></details>
+        </div>
+      </div>
+    </section>
+
+    <!-- 编辑三栏 -->
+    <div class="editorial" aria-label="编辑分栏">
+      <section aria-labelledby="paths-title">
+        <p class="col-head">阅读路径 <small>READING PATHS</small></p>
+        <h2 class="visually-hidden" id="paths-title">阅读路径</h2>
+        <div id="path-list"></div>
+        <a class="text-link editorial-more" href="timeline/">探索更多路径 →</a>
+      </section>
+
+      <section class="writers" aria-labelledby="writers-title">
+        <p class="col-head">重要作家 <small>KEY AUTHORS</small></p>
+        <h2 class="visually-hidden" id="writers-title">重要作家</h2>
+        <div class="writers-grid" id="writer-list"></div>
+        <a class="text-link editorial-more" href="authors/">浏览所有作家 →</a>
+      </section>
+
+      <section aria-labelledby="anecdote-title">
+        <p class="col-head">文学趣闻 <small>ANECDOTES</small></p>
+        <h2 class="visually-hidden" id="anecdote-title">文学趣闻</h2>
+        <article class="anecdote-clip" id="home-anecdote"></article>
+      </section>
+    </div>
+
+    <aside class="final-archive-quote" aria-label="拉丁美洲文学档案引言">
+      <blockquote>
+        <span>“Porque América Latina también se lee.”</span>
+        <small>— 因为拉丁美洲，也在被阅读。</small>
+      </blockquote>
+      <p class="archive-keywords">LITERATURA<br />MEMORIA<br />TERRITORIO<br />FUTURO</p>
+    </aside>
+
+    <footer class="site-footer">
+      <div>
+        <b>A literary map of Latin America</b><br />
+        从地点进入文学，从作品继续阅读 · <a href="authors/">作家目录</a> · <a href="about/">关于这张地图</a>
+      </div>
+      <div>
+        底图几何：Natural Earth（公有领域）· 地点坐标：GeoNames（CC BY 4.0）<br />
+        © 拉丁美洲文学地图 · <a href="about/">来源与依据</a>
+      </div>
+    </footer>
+
+  </main>
+</div>
+
+<script src="./data.js"></script>
+<script src="./geo-data.js"></script>
+<script src="./map.js"></script>
+<script src="./ui.js"></script>
+<script>
+(function () {
+  "use strict";
+  const D = window.__SITE_DATA;
+  const esc = (v) => String(v ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+
+  /* ---- 地图 ---- */
+  window.__WCD11_MAP__.init({
+    root: document.getElementById("literary-map"),
+    canvas: document.getElementById("map-canvas"),
+    panel: document.getElementById("map-panel"),
+    index: document.getElementById("place-index"),
+    reset: document.getElementById("map-reset"),
+  });
+
+  /* ---- 阅读路径 ---- */
+  document.getElementById("path-list").innerHTML = D.presentation.readingPaths.slice(0, 3).map((p, i) => `
+    <a class="path-item" href="paths/${esc(p.slug)}/">
+      <span class="no">${String(i + 1).padStart(2, "0")}</span>
+      <span class="path-copy"><h3>${esc(p.title)}</h3><p>${esc((p.intro || p.description || "").slice(0, 58))}</p></span>
+      <span class="go" aria-hidden="true">→</span>
+    </a>`).join("");
+
+  /* ---- 作家精选 ---- */
+  const PT = D.portraits || {};
+  const entOf = (id) => D.entities.find((e) => e.id === id);
+  const keyAuthorIds = ["V1-ENT-0002", "V1-ENT-0072", "V1-ENT-0073", "V1-ENT-0031"];
+  const rank = keyAuthorIds.map((target_id, index) => ({ target_id, rank: index + 1 }));
+  document.getElementById("writer-list").innerHTML = rank.map((r) => {
+    const e = entOf(r.target_id);
+    if (!e) return "";
+    return `<a class="writer-item" href="${D.search.find((s) => s.id === e.id)?.route || "#"}">
+      ${PT[e.id] ? `<span class="thumb"><img src="assets/portraits/${PT[e.id].file}" alt="" loading="lazy" /></span>` : `<span class="glyph" aria-hidden="true">${esc(e.name.replace('·', '').charAt(0))}</span>`}
+      <span><h3>${esc(e.original || e.name)}</h3><p>${esc(e.name)}</p></span>
+    </a>`;
+  }).join("");
+
+  /* ---- 首页趣闻剪报（真实批准数据） ---- */
+  const marquez = (D.readers.authors || []).find((a) => a.target_id === "V1-ENT-0072");
+  const an = marquez?.anecdotes?.find((x) => x.title.includes("菜篮子")) || marquez?.anecdotes?.[0];
+  const marquezRoute = D.search.find((s) => s.id === "V1-ENT-0072")?.route || "";
+  document.getElementById("home-anecdote").innerHTML = an ? `
+    <figure class="clip-photo"><img src="assets/portraits/v1-ent-0072.jpg" alt="加西亚·马尔克斯档案照片" loading="lazy" /></figure>
+    <div class="clip-copy">
+      <p class="meta">${esc(an.type_label)} · ${esc(an.time_label)} · ${esc(an.location_label)}</p>
+      <h3>${esc(an.title)}</h3>
+      <p>${esc(an.teaser)}</p>
+      <a class="go text-link" href="${marquezRoute}#author-anecdotes">在作家页读完整故事 →</a>
+    </div>` : "";
+
+  /* ---- 菜单与搜索（共享实现，含焦点圈禁与范围提示） ---- */
+  window.__WCD11_UI__.initMenu();
+})();
+</script>
+</body>
+</html>

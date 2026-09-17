@@ -2,6 +2,14 @@
 
 本文件记录拉丁美洲文学地图各版本的实际修改。格式参考 Keep a Changelog，版本号遵循语义化版本规则。
 
+## [WCD-11 formal integration preparation / Web 0.5.0 Development unchanged] - 2026-09-17
+
+### TASK-128 / DEC-067 · visual approval and production integration contract
+
+- USER 已批准 PR #36 的视觉候选，但判定其仅为 preview artifact、不得合并；#36 已关闭而未合并，预览分支与截图保留供正式实现对照。
+- 从实时核实的 `origin/main @ 6e1d882` 建立独立 `codex/wcd-11-formal-integration` 分支，并新增 `project/plans/WCD_11_FORMAL_INTEGRATION.md`：约定生产数据与 WCD-09 地图权威边界、全路由矩阵、素材许可、CSS 整理、时间线年代语义以及构建/浏览器/Lighthouse/地图/独立审查门禁。
+- 本条仅记录正式集成准备和设计方向批准，尚未迁移或验收 `site/`，不改变 Research Data、Research Schema、Curation、Web Data schema、公开范围或 Public Release。Web 保持 `0.5.0 Development`；系统性 redesign 的 `0.6.0 Development` 为后续实际实施后的待核建议，不因规划提交自动升版。
+
 ## [Data 1.5.0 / Web 0.5.0 — Development] - 2026-09-08
 
 ### TASK-099 / WCD-09 implementation

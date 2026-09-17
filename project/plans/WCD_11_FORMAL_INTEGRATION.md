@@ -1,0 +1,80 @@
+# WCD-11 正式网站集成规格（TASK-128）
+
+- 状态：`APPROVED_VISUAL / IMPLEMENTATION_IN_PROGRESS`
+- 基线：`origin/main @ 6e1d88216d262f573993dbc776df52d638239936`（2026-09-17 建立分支时）
+- 视觉母版：[已关闭、未合并的 PR #36](https://github.com/Yillan-lamb/latin-american-literature-map/pull/36)，head `3a72600d6a4d7fcf8dcd4911cab6a3049675947d`
+- 关联：`TASK-128 / DEC-067`
+
+## 背景
+
+USER 已通过 PR #36 的视觉预览，但该 PR 的 `previews/wcd-11/` 与正式 `site/`、Web Data、production bundle 和 release artifacts 隔离。直接合并只会保存实验性预览，不会升级网站。PR #36 因而关闭而不合并；其源码、22 张桌面／移动端截图和素材登记表保留为设计证据。本 Spec 只定义正式集成及验收，不把预览候选误写为生产事实。
+
+## 目标
+
+1. 将已批准的暖白档案纸、报刊档案版式、图像、字级与层次，接入正式网站所有页面类型；首页、目录、作家、作品、趣闻、搜索、时间线、关于项目以 #36 为视觉母版。
+2. 保持生产 Web Data 为唯一公开内容输入，并保留既有稳定路由、SEO 元数据、来源入口、公开边界和 WCD-09 地图几何／中立性／L1-L2 行为。
+3. 把预览的长 CSS 级联与后置 override 折叠为可维护的正式 token、基础、组件和响应式规则，不原封不动复制预览包。
+4. 将视觉设计扩展、核验至 PR #36 尚未声称完成的国家、地点、虚构空间、阅读路径及其他探索节点。
+5. 时间线可按类型和年代窗口组合筛选；显示为 `1960–1979｜文学爆炸年代` 等年代导航，不暗示在该窗口出生的作家属于某文学运动。对作家按生年、作品按首版年分段的定义应可见、可测试。
+
+## 非目标
+
+- 不导入研究候选、修改 SQLite、Schema、Curation 审核结论、Web Data schema 或公开收录范围。
+- 不把预览 `data.js` / `geo-data.js` 快照、静态壳、截图和实验性 QA 目录直接复制到生产构建；生产仍从当前正式数据与权威 Natural Earth 资产生成。
+- 不因视觉批准创建 Tag、GitHub Release、生产部署或开启 `V2-PUBLIC-RELEASE`；这些是独立 USER Gate。
+- 不以预览图中的书籍封面或新文学史叙述替代可核验的来源；无权利依据时继续使用项目原创图块／排版 fallback。
+
+## 方案
+
+### 1. 权威边界与迁移路径
+
+| 层 | 正式权威 | 从 #36 迁入的内容 | 不迁入的内容 |
+| --- | --- | --- | --- |
+| 事实、路由、来源 | `data/v2/web/site_data.json` 与现有 `scripts/build_v2_deploy_bundle.py` | 仅经过核验的表现逻辑 | 预览 `data.js`、页面壳与固定计数 |
+| 地图 | WCD-09 的 Natural Earth 50m、LAEA、L1/L2、GeoNames | 不含政治几何的罗盘／纸张装饰 | 预览内联 GeoJSON 替换权威地图 |
+| UI | `site/`、正式构建及公共 bundle | 已批准版式、图像、可读性、交互细节 | `previews/` 整包和累积 override |
+| 图像 | 正式 `site/assets/` 与公开许可登记 | 逐件通过身份、许可、署名、体积审计的素材 | 身份未确认或权利不明的肖像、假封面 |
+
+正式实现继续由 production build 生成直接可访问的静态路由壳，再由正式渲染层使用公开投影。任何新图像只作展示，不生成研究事实、坐标或文学关系。图片须有宽高、合适加载优先级、失效 fallback 与可读署名；预览台账中 `WITHDRAWN_IDENTITY_UNVERIFIED` 的素材不得进入公共 bundle。
+
+### 2. 页面矩阵
+
+| 页面类型 | 核心验收 |
+| --- | --- |
+| 首页／地图 | 设计母版结构、暖白纸纹、放大阅读路径／作家头像、柔和趣闻；WCD-09 48 个 L1、13 个 L2、35 个无内容背景及键盘／过滤／重置行为不变 |
+| 作家目录／全部作家详情 | 当前正式公开作家全覆盖；肖像可用且有 fallback；01–04 桌面均衡，05 趣闻通栏；来源与相关链接不丢失 |
+| 作品目录／全部作品详情 | 当前正式公开作品／合集全覆盖；无授权原书封面；作品事实、作者、地点、主题、关系及研究依据保留 |
+| 趣闻 | 与正式审核白名单及公开作家范围一致；标题、正文、作者入口和来源可读；对比度达标 |
+| 搜索 | 当前公开索引全覆盖，不以 `.slice(0, 80)` 截断无查询结果；查询、分类、关联与空状态可用 |
+| 时间线 | 当前公开作者／作品事件全覆盖；类型＋年代窗口组合筛选、计数、空状态、键盘操作可用；文学爆炸为年代提示而非流派归属 |
+| About | 项目叙述及 Natural Earth、GeoNames、de facto、非法律裁决、版权与来源说明完整 |
+| 国家、地点、虚构空间、阅读路径、其他节点、404 | 共享视觉系统；真实／虚构空间分离、父子关系、公开来源、稳定 URL 和异常状态保留 |
+
+目录和搜索的验收以正式 Web Data 实际公开范围为准；PR #36 的 `25 / 62 / 127 / 87` 只是当时预览快照，不是可覆盖正式数据的常量。
+
+### 3. 实施顺序
+
+1. `P-A`：建立本 Spec、资产／路由差异清单、正式 CSS 结构与设计 token；独立确认可复用素材的身份、许可、署名、体积和 fallback。
+2. `P-B`：正式站点 shell、首页／地图、目录、作家和作品详情接入；保留原有数据映射、研究依据和 WCD-09 地图行为。
+3. `P-C`：趣闻、搜索、时间线、About、国家／地点／路径／节点补齐；修正文学阶段标签语义和完整计数。
+4. `P-D`：折叠 CSS override、响应式和无障碍加固；增加生产路由／交互／素材／对比度回归。
+5. `P-E`：production build、validators、全浏览器矩阵、Lighthouse、地图门禁、截图对照和独立审计；只在全绿后讨论非 Draft、版本判定及合并。
+
+同一正式集成范围继续在 `codex/wcd-11-formal-integration` 分支和同一个 Draft PR 内追加提交；不向已关闭的 #36 追加代码。若审计要求拆分独立范围，先在 TASKS 记录原因和验收边界。
+
+### 4. 版本与回退
+
+正式系统性 redesign 若实质改变读者体验，建议评估 Web `0.5.0 Development → 0.6.0 Development`；规划提交本身不升版。Research Data `1.5.0 development candidate`、Research Schema `0.4`、Web Data schema `v2-web-0.3` 保持不变，除非后续另有明确审批。回退以正式集成 PR 的变更集为边界，不删除 PR #36 预览素材；禁止因回退恢复旧地图几何或放宽公开数据门禁。
+
+## 验收标准与证据
+
+- [ ] `site/` 和 production bundle 实际使用正式新 UI；不依赖 `previews/` 才能显示。
+- [ ] 生产构建、Web Data validator、public bundle validator、WCD-09 basemap `--check` 与 implementation validator 全部 PASS。
+- [ ] 当前正式 sitemap／搜索／作家／作品／时间线记录全量可达，无 404、缺图、JS 错误、审核字段泄漏或非预期减少。
+- [ ] Chromium 桌面／移动、Firefox 桌面、WebKit 移动完成项目完整 Playwright matrix；对地图、搜索、时间线、目录、趣闻和阅读路径断言功能结果，而非只断言节点存在。
+- [ ] 1440×900、390×844 至少覆盖全部上述页面类型的截图对照；320px 无页面级横向溢出；键盘、焦点、对比度、缩放及 `prefers-reduced-motion` 有记录。
+- [ ] Lighthouse 在正式构建上运行并记录与既有基线的差异；回退项须说明理由，不用 preview 分数代替 production。
+- [ ] 图片许可、署名、身份、宽高、失效 fallback 与体积预算通过独立抽查；WCD-09 几何、48/13/35 分层、中立性说明和 de facto 边界继续 PASS。
+- [ ] 独立 Reviewer 明确 PASS，PR diff 范围、CHANGELOG／TASKS／DECISIONS／公开入口同步，适用 CI 全绿；USER 再判断正式集成与版本／合并，Public Release 仍单独暂停。
+
+在这些项目完成前，本 Spec 与新分支只表示正式集成**已启动**，不是 `READY TO MERGE` 或 `TASK-128 DONE`；未运行的门禁均为 `NOT_VERIFIED`。

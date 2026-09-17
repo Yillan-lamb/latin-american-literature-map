@@ -354,25 +354,51 @@
       .sort((a, b) => Number(String(a.year).match(/\d{4}/)?.[0] || 9999) - Number(String(b.year).match(/\d{4}/)?.[0] || 9999));
   }
 
+  // These are browsing windows, not claims that an author or work belongs to a movement.
+  function timelineStage(year) {
+    const firstYear = Number(String(year).match(/\d{4}/)?.[0] || 0);
+    if (firstYear < 1900) return "early";
+    if (firstYear < 1960) return "modern";
+    if (firstYear < 1980) return "boom";
+    return "contemporary";
+  }
+
   function renderTimeline() {
     const entries = timelineItems();
     setMeta("时间线", "一部文学的大陆编年史。");
     activate("timeline");
     app().innerHTML = `
       <header class="master-timeline-hero"><div><h1>时间线</h1><p>TIMELINE</p></div><div><h2>一部文学的大陆编年史</h2><em>A Literary Chronicle<br />of a Continent</em><p>从作品、作家与历史相遇的时刻进入拉丁美洲文学。</p></div><figure><img src="${BASE}assets/backgrounds/archive-masthead-v1.webp" alt="热带植物与山脉档案拼贴" width="1667" height="604" /></figure></header>
-      <div class="timeline-toolbar"><p><b>筛选时间线</b><small>FILTER TIMELINE</small></p><div role="group" aria-label="按类型筛选时间线"><button type="button" data-timeline-filter="all" aria-pressed="true">全部 ${entries.length}</button><button type="button" data-timeline-filter="literary_work" aria-pressed="false">作品 / 出版 ${entries.filter((item) => item.kind === "literary_work").length}</button><button type="button" data-timeline-filter="literary_author" aria-pressed="false">作家生平 ${entries.filter((item) => item.kind === "literary_author").length}</button></div><a class="master-button" href="${BASE}#literary-map">探索地图视图 →</a></div>
-      <div class="timeline-legend"><span><i></i>完整公开编年：${entries.length} 条</span><blockquote>“La literatura también es una forma de habitar el mundo.”</blockquote></div>
+      <div class="timeline-toolbar"><p><b>筛选时间线</b><small>FILTER TIMELINE</small></p><div role="group" aria-label="按类型筛选时间线"><button type="button" data-timeline-filter="all" aria-pressed="true">全部 ${entries.length}</button><button type="button" data-timeline-filter="literary_work" aria-pressed="false">作品 / 出版 ${entries.filter((item) => item.kind === "literary_work").length}</button><button type="button" data-timeline-filter="literary_author" aria-pressed="false">作家生平 ${entries.filter((item) => item.kind === "literary_author").length}</button></div><label class="timeline-stage-filter">文学阶段<select id="timeline-stage" aria-describedby="timeline-stage-note"><option value="all">全部阶段</option><option value="early">早期文脉 · 1900 年以前</option><option value="modern">现代写作 · 1900–1959</option><option value="boom">文学爆炸时期 · 1960–1979</option><option value="contemporary">当代及延伸 · 1980 年后</option></select></label><a class="master-button" href="${BASE}#literary-map">探索地图视图 →</a></div>
+      <div class="timeline-legend"><span id="timeline-result-count" aria-live="polite"><i></i>当前显示 ${entries.length} / ${entries.length} 条</span><small id="timeline-stage-note">文学阶段按事件起始年／作品首版年分段，仅供年代浏览，不代表文学运动归属。</small><blockquote>“La literatura también es una forma de habitar el mundo.”</blockquote></div>
+      <p class="timeline-empty" hidden>这个组合暂无公开记录，请尝试其他阶段或类型。</p>
       <section class="horizontal-timeline" style="--timeline-count:${entries.length}" aria-label="横向文学时间线">${entries.map((entry, index) => {
         const creator = entry.kind === "literary_author" ? entry.id : D.createdBy?.[entry.id];
         const target = entity(entry.id);
         const note = entry.kind === "literary_author" ? reader("authors", entry.id).reader_lede : reader("works", entry.id).reading_premise;
-        return `<article data-timeline-kind="${esc(entry.kind)}" class="timeline-card ${index === Math.floor(entries.length / 2) ? "featured" : ""}"><time>${esc(entry.year)}</time><i class="timeline-dot"></i><a href="${route(entry.id)}"><span class="timeline-cover">${creator ? portraitHtml(creator, "", "", false) : `<b>${esc(target?.name?.replace(/[《》\s]/g, "").charAt(0) || "文")}</b>`}<em>${esc(target?.name || entry.name)}</em></span><h3>${esc(entry.name)}</h3><p>${entry.kind === "literary_author" ? "作家生平" : esc(entity(creator)?.name || card(entry.id).country || "拉丁美洲文学")}</p><small>${esc(note || (entry.kind === "literary_author" ? "沿生平与作品进入文学史。" : "作品首次出版或发表。"))}</small></a></article>`;
+        return `<article data-timeline-kind="${esc(entry.kind)}" data-timeline-stage="${timelineStage(entry.year)}" class="timeline-card ${index === Math.floor(entries.length / 2) ? "featured" : ""}"><time>${esc(entry.year)}</time><i class="timeline-dot"></i><a href="${route(entry.id)}"><span class="timeline-cover">${creator ? portraitHtml(creator, "", "", false) : `<b>${esc(target?.name?.replace(/[《》\s]/g, "").charAt(0) || "文")}</b>`}<em>${esc(target?.name || entry.name)}</em></span><h3>${esc(entry.name)}</h3><p>${entry.kind === "literary_author" ? "作家生平" : esc(entity(creator)?.name || card(entry.id).country || "拉丁美洲文学")}</p><small>${esc(note || (entry.kind === "literary_author" ? "沿生平与作品进入文学史。" : "作品首次出版或发表。"))}</small></a></article>`;
       }).join("")}</section>`;
+    const stageSelect = app().querySelector("#timeline-stage");
+    const timeline = app().querySelector(".horizontal-timeline");
+    const cards = [...timeline.querySelectorAll("[data-timeline-kind]")];
+    const updateTimeline = () => {
+      const kind = app().querySelector('[data-timeline-filter][aria-pressed="true"]').dataset.timelineFilter;
+      const stage = stageSelect.value;
+      let visible = 0;
+      cards.forEach((item) => {
+        item.hidden = (kind !== "all" && item.dataset.timelineKind !== kind) || (stage !== "all" && item.dataset.timelineStage !== stage);
+        if (!item.hidden) visible += 1;
+      });
+      timeline.style.setProperty("--timeline-count", String(Math.max(1, visible)));
+      app().querySelector("#timeline-result-count").innerHTML = `<i></i>当前显示 ${visible} / ${entries.length} 条`;
+      app().querySelector(".timeline-empty").hidden = visible > 0;
+      timeline.scrollLeft = 0;
+    };
     app().querySelectorAll("[data-timeline-filter]").forEach((button) => button.addEventListener("click", () => {
-      const filter = button.dataset.timelineFilter;
       app().querySelectorAll("[data-timeline-filter]").forEach((item) => item.setAttribute("aria-pressed", String(item === button)));
-      app().querySelectorAll("[data-timeline-kind]").forEach((item) => { item.hidden = filter !== "all" && item.dataset.timelineKind !== filter; });
+      updateTimeline();
     }));
+    stageSelect.addEventListener("change", updateTimeline);
   }
 
   function renderAbout() {

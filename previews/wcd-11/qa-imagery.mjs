@@ -274,6 +274,38 @@ const browser = await chromium.launch(existsSync(chromePath) ? { executablePath:
   const authorEvents = await page.locator('[data-timeline-kind="literary_author"]:visible').count();
   const workEventsVisible = await page.locator('[data-timeline-kind="literary_work"]:visible').count();
   check('完整目录、搜索与时间线均未截断且交互有效', authors === 25 && works === 62 && search === 127 && timeline === 87 && authorMatches > 0 && searchMatches > 0 && authorEvents === 25 && workEventsVisible === 0 && errors.length === 0, `authors=${authors} works=${works} search=${search} timeline=${timeline} authorMatches=${authorMatches} searchMatches=${searchMatches} authorEvents=${authorEvents} visibleWorks=${workEventsVisible} errors=${errors.length}`);
+  await page.locator('#timeline-stage').selectOption('boom');
+  const emptyCombination = await page.locator('.timeline-card:visible').count();
+  const emptyMessage = await page.locator('.timeline-empty').isVisible();
+  await page.locator('[data-timeline-filter="all"]').click();
+  const boomCards = await page.locator('.timeline-card:visible').count();
+  const boomYears = await page.locator('.timeline-card:visible time').allTextContents();
+  const boomCountText = await page.locator('#timeline-result-count').textContent();
+  await page.locator('#timeline-stage').selectOption('all');
+  const resetCards = await page.locator('.timeline-card:visible').count();
+  check('文学阶段与类型可组合筛选、空状态与重置正确', emptyCombination === 0 && emptyMessage && boomCards === 19 && boomYears.every((year) => { const first = Number(year.match(/\d{4}/)?.[0]); return first >= 1960 && first < 1980; }) && boomCountText.includes('19 / 87') && resetCards === 87, `empty=${emptyCombination} emptyMessage=${emptyMessage} boom=${boomCards} reset=${resetCards}`);
+  await page.close();
+}
+
+/* ---- F. 正文字号与作家五板块布局 ---- */
+{
+  const page = await browser.newPage({ viewport: { width: 1440, height: 1000 } });
+  await page.goto(`${BASE}/authors/gabriel-garcia-marquez-v1-ent-0072/`, { waitUntil: 'networkidle' });
+  const st = await page.evaluate(() => {
+    const spread = document.querySelector('.master-author-spread').getBoundingClientRect();
+    const first = [...document.querySelectorAll('.master-author-spread > section')].slice(0, 4).map((el) => el.getBoundingClientRect());
+    const stories = document.querySelector('.master-author-anecdote').getBoundingClientRect();
+    const font = (selector) => parseFloat(getComputedStyle(document.querySelector(selector)).fontSize);
+    return { below: stories.top >= Math.max(...first.map((box) => box.bottom)) - 2, fullWidth: stories.width >= spread.width - 4, columns: first.every((box) => Math.abs(box.top - first[0].top) <= 2), storyCount: document.querySelectorAll('.anecdote-ledger article').length, authorBody: font('.master-author-spread p'), storyBody: font('.anecdote-ledger article > p') };
+  });
+  check('作家页前四栏同排、趣闻通栏居下且正文可读', st.below && st.fullWidth && st.columns && st.storyCount >= 4 && st.authorBody >= 15 && st.storyBody >= 15, JSON.stringify(st));
+  await page.goto(`${BASE}/timeline/`, { waitUntil: 'networkidle' });
+  const timelineFonts = await page.evaluate(() => ({ title: parseFloat(getComputedStyle(document.querySelector('.timeline-card h3')).fontSize), body: parseFloat(getComputedStyle(document.querySelector('.timeline-card > a > small')).fontSize), intro: parseFloat(getComputedStyle(document.querySelector('.master-timeline-hero > div:nth-child(2) p')).fontSize) }));
+  check('时间线卡片与导语达到可读字号', timelineFonts.title >= 17 && timelineFonts.body >= 14 && timelineFonts.intro >= 15, JSON.stringify(timelineFonts));
+  await page.setViewportSize({ width: 390, height: 844 });
+  await page.goto(`${BASE}/authors/gabriel-garcia-marquez-v1-ent-0072/`, { waitUntil: 'networkidle' });
+  const mobile = await page.evaluate(() => ({ overflow: document.documentElement.scrollWidth > innerWidth + 2, sections: [...document.querySelectorAll('.master-author-spread > section')].map((el) => Math.round(el.getBoundingClientRect().top)) }));
+  check('手机作家五板块顺序堆叠且无横向溢出', !mobile.overflow && mobile.sections.length === 5 && mobile.sections.every((top, i) => i === 0 || top >= mobile.sections[i - 1]), JSON.stringify(mobile));
   await page.close();
 }
 

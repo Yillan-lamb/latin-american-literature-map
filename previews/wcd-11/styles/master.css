@@ -733,3 +733,127 @@ body[data-master="home"] .clip-copy h3 { color: #f3e7cf; }
   .master-search-results section > div { grid-template-columns: 1fr; }
   .edition-cover { left: 7%; width: 48%; }
 }
+
+/* Reader-size pass: keep the archival hierarchy, but make narrative copy readable. */
+body[data-master="home"] .path-item p,
+body[data-master="home"] .clip-copy > p:not(.meta),
+.master-intro,
+.master-author-spread p,
+.master-work-spread p,
+.featured-story p,
+.clipping-grid p,
+.about-cell p,
+.about-cell li,
+.master-catalog-card > div > span { font-size: 15px; line-height: 1.7; }
+body[data-master="home"] .writer-item p,
+.master-catalog-card small,
+.catalog-toolbar p,
+.master-search-results a small,
+.place-ledger small,
+.work-related small { font-size: 12px; line-height: 1.45; }
+body[data-master="home"] .writer-item h3 { font-size: 16px; }
+body[data-master="home"] .clip-copy h3 { font-size: 21px; }
+.master-author-spread .master-kicker,
+.master-work-spread .master-kicker { font-size: 13px; }
+.master-author-spread .book-stack b,
+.place-ledger b,
+.theme-ledger h3,
+.why-ledger h3,
+.anecdote-ledger h3,
+.work-themes article b { font-size: 17px; line-height: 1.4; }
+.book-stack a > span:last-child > small,
+.work-related b,
+.master-author-places li,
+.family-nodes span,
+.about-cell summary { font-size: 13px; line-height: 1.5; }
+.anecdote-ledger article > p,
+.anecdote-ledger details > div,
+.work-themes article p { font-size: 15px; line-height: 1.7; }
+.anecdote-ledger summary { font-size: 14px; }
+.anecdote-ledger details > small { font-size: 12px; }
+.master-work-copy blockquote,
+.master-timeline-hero > div:nth-child(2) p { font-size: 15px; line-height: 1.6; }
+.clipping-grid h3 { font-size: 18px; }
+.archive-notes > header p,
+.archive-notes > header a,
+.featured-story a { font-size: 14px; }
+.master-catalog-card h2 { font-size: 24px; }
+.master-search-results a b { font-size: 16px; }
+.horizontal-timeline { grid-template-columns: repeat(var(--timeline-count,8),minmax(244px,1fr)); min-height: 500px; }
+.timeline-card { padding-inline: 14px; }
+.timeline-card h3 { font-size: 17px; line-height: 1.35; }
+.timeline-card p { font-size: 13px; line-height: 1.45; }
+.timeline-card > a > small { font-size: 14px; line-height: 1.55; }
+.timeline-cover em { font-size: 13px; }
+.timeline-toolbar { grid-template-columns: 16% minmax(290px,1fr) minmax(200px,270px) auto; gap: 14px; }
+.timeline-toolbar p b { font-size: 18px; }
+.timeline-toolbar button { min-height: 43px; font-size: 14px; }
+.timeline-stage-filter { display: grid; gap: 5px; font: 600 14px/1.2 var(--serif); }
+.timeline-stage-filter select { width: 100%; min-height: 43px; padding: 0 9px; border: 1px solid rgba(38,36,29,.4); color: var(--master-ink); background: rgba(251,248,241,.75); font: 500 14px/1.2 var(--serif); }
+.timeline-legend { flex-wrap: wrap; }
+.timeline-legend span { font-size: 14px; }
+.timeline-legend > small { max-width: 47ch; color: #655d50; font-size: 12px; line-height: 1.4; }
+.timeline-empty { padding: 28px 0; font-size: 16px; }
+.timeline-empty[hidden] { display: none; }
+/* Exploration routes share the same paper, so their explanatory copy should
+   not revert to the pre-editorial 12–13px reading scale. */
+.map-context-panel .desc,
+.place-card p,
+.research-body .why,
+.catalog-row .lede,
+.path-card p,
+.anecdote-entry p.teaser { font-size: 15px; line-height: 1.7; }
+
+/* Four balanced author columns, then an independent full-width story ledger. */
+.master-author-spread {
+  grid-template-columns: 27% 24% 23% 26%;
+  grid-template-areas:
+    "biography works places connections"
+    "anecdote anecdote anecdote anecdote";
+}
+.master-author-spread > section:nth-child(4) { border-right: 0; }
+.master-author-spread > .master-author-anecdote {
+  margin-top: 22px;
+  padding: 18px 0 0;
+  border-top: 1px solid rgba(38,36,29,.4);
+  border-right: 0;
+}
+.master-profile-spread .master-author-anecdote { margin-top: 22px; }
+.anecdote-ledger { grid-template-columns: repeat(3,minmax(0,1fr)); gap: 18px 24px; }
+.anecdote-ledger article { padding: 14px 18px 4px 0; border-right: 1px solid rgba(38,36,29,.22); }
+.anecdote-ledger article:nth-child(3n) { border-right: 0; }
+
+@media (max-width: 1100px) {
+  .master-author-spread { grid-template-columns: repeat(2,minmax(0,1fr)); grid-template-areas: "biography works" "places connections" "anecdote anecdote"; }
+  .master-author-spread > .master-biography { grid-area: biography; }
+  .master-author-spread > .master-key-works { grid-area: works; }
+  .master-author-spread > .master-author-places { grid-area: places; }
+  .master-author-spread > .master-connections { grid-area: connections; }
+  .master-author-spread > .master-author-anecdote { grid-area: anecdote; }
+  .anecdote-ledger { grid-template-columns: repeat(2,minmax(0,1fr)); }
+  .anecdote-ledger article:nth-child(3n) { border-right: 1px solid rgba(38,36,29,.22); }
+  .anecdote-ledger article:nth-child(2n) { border-right: 0; }
+  .timeline-toolbar { grid-template-columns: 1fr minmax(200px,260px); }
+  .timeline-toolbar > p { grid-column: 1/-1; }
+  .timeline-toolbar > [role="group"] { grid-column: 1; }
+  .timeline-toolbar > .master-button { grid-column: 2; }
+}
+@media (max-width: 620px) {
+  .master-author-spread { grid-template-columns: 1fr; grid-template-areas: "biography" "works" "places" "connections" "anecdote"; }
+  .master-author-spread > section { padding: 16px 0; border-right: 0; }
+  .master-author-spread > .master-author-anecdote { margin-top: 8px; }
+  .anecdote-ledger { grid-template-columns: 1fr; }
+  .anecdote-ledger article,.anecdote-ledger article:nth-child(3n) { border-right: 0; }
+  body[data-master="home"] .path-item p,
+  body[data-master="home"] .clip-copy > p:not(.meta),
+  .master-author-spread p,
+  .master-work-spread p,
+  .featured-story p,
+  .clipping-grid p,
+  .about-cell p,
+  .about-cell li,
+  .master-catalog-card > div > span { font-size: 15px; }
+  .timeline-toolbar { grid-template-columns: 1fr; }
+  .timeline-toolbar > p,.timeline-toolbar > [role="group"],.timeline-toolbar > .master-button { grid-column: 1; }
+  .timeline-stage-filter { grid-row: auto; }
+}

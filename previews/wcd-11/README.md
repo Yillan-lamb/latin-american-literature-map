@@ -56,6 +56,14 @@ Current scope:
 - nautical map plate with the existing interactive geography rendered above it;
 - licensed author portraits and project-owned editorial imagery;
 - larger reading-path typography and author portraits on the home page;
+- a 15px narrative-copy floor across the editorial templates and exploration
+  cards, with larger timeline card titles and descriptions;
+- author detail sections 01–04 in a balanced desktop row, followed by a
+  full-width, responsive 05 anecdote ledger;
+- a composable timeline type + literary-stage filter. Stage windows use the
+  event's first year (for authors, the beginning of the displayed life span;
+  for works, first publication), and are navigation aids rather than claims
+  of literary-movement membership;
 - muted anecdote red with WCAG-level text contrast;
 - desktop/mobile static routes, including direct `file://` navigation compatibility;
 - asset provenance in `ASSET_REGISTER.csv`.

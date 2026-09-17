@@ -555,26 +555,25 @@ body[data-master] .site-footer { padding: 10px 0 12px; font-size: 9px; }
   body[data-master] * { scroll-behavior: auto!important; transition-duration: .01ms!important; animation-duration: .01ms!important; }
 }
 
-/* 2026-09-13 full-template audit: warmer paper, readable home modules and
-   complete author/work/search/timeline masters. */
+/* 2026-09-13 full-template audit: readable home modules and complete
+   author/work/search/timeline masters. The 2026-09-17 paper pass uses a
+   project-owned ivory scan instead of darkening parchment with blend modes. */
 body[data-master] {
-  --master-paper: #e9dec6;
-  --master-paper-dark: #d8c8aa;
-  background-color: #cdbb98;
-  background-image:
-    linear-gradient(rgba(92,65,35,.08), rgba(92,65,35,.08)),
-    url("../imagery/assets/backgrounds/parchment-field-v1.webp"),
-    url("../imagery/assets/texture/paper.svg");
-  background-size: auto, 1180px auto, 420px auto;
-  background-blend-mode: multiply, soft-light, multiply;
+  --master-paper: #f5eee1;
+  --master-paper-dark: #e8ddc9;
+  background-color: #f5eee1;
+  background-image: url("../imagery/assets/backgrounds/archive-paper-ivory-v1.png");
+  background-size: 1450px auto;
+  background-repeat: repeat;
+  background-blend-mode: normal;
 }
 body[data-master] .page {
-  background-color: rgba(232,221,197,.88);
-  background-image:
-    linear-gradient(90deg, rgba(106,75,38,.025), transparent 24%, rgba(255,248,226,.06) 58%, rgba(96,67,38,.035)),
-    url("../imagery/assets/texture/paper.svg");
-  background-size: auto, 360px auto;
-  background-blend-mode: multiply;
+  background: rgba(251, 248, 241, .12);
+}
+body[data-master] .masthead,
+body[data-master="home"] .hero,
+body[data-master="home"] .editorial > section {
+  background: transparent;
 }
 
 body[data-master="home"] .path-item { grid-template-columns: 64px 1fr 22px; padding: 15px 5px; }
@@ -662,7 +661,7 @@ body[data-master="home"] .clip-copy h3 { color: #f3e7cf; }
 .edition-collage .work-paper-red::after { content: "LITERATURA\A MEMORIA\A TERRITORIO\A HISTORIA"; white-space: pre; position: absolute; right: 18px; bottom: 22px; color: #eadbc0; font: 500 10px/1.8 Georgia,serif; letter-spacing: .13em; text-align: right; }
 
 /* Complete search */
-.master-search-hero { padding: 50px 0 28px; border-bottom: 1px solid rgba(38,36,29,.35); background-image: linear-gradient(90deg,transparent 55%,rgba(143,48,42,.06)),url("../imagery/assets/backgrounds/parchment-field-v1.webp"); background-size: auto,cover; background-blend-mode: multiply; }
+.master-search-hero { padding: 50px 0 28px; border-bottom: 1px solid rgba(38,36,29,.35); background: linear-gradient(90deg,transparent 55%,rgba(143,48,42,.035)); }
 .master-search-hero h1 { margin: 13px 0 7px; max-width: 18ch; font: 600 clamp(46px,5.7vw,78px)/1.05 var(--serif); letter-spacing: -.045em; }
 .master-search-hero > p:not(.master-kicker) { font-size: 16px; }
 .master-search-hero form { max-width: 1000px; margin-top: 28px; }

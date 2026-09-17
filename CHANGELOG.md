@@ -2,6 +2,14 @@
 
 本文件记录拉丁美洲文学地图各版本的实际修改。格式参考 Keep a Changelog，版本号遵循语义化版本规则。
 
+## [Data 1.5.0 / Web 0.5.0 — Development, Draft Preview] - 2026-09-17
+
+### TASK-128 / WCD-11 warm-ivory paper revision
+
+- 根据 USER 对初版生成纸纹“太黄”的反馈，新生成并登记项目自有暖白档案纸底纹 `AST-035`，保留细纤维与轻微旧痕；以新资源替换候选预览母版与其余路由的活动纸纹，不覆盖原有羊皮纸资产，便于回退。
+- 去除首页刊头、Hero 和阅读三栏残留的黄褐色叠层，保持地图图版、拼贴照片和功能交互不变；搜索页使用更轻的底色处理，避免旧底纹局部重新泛黄。
+- 1440×900 与 390×844 的 11 类代表页面重拍共 22/22 PASS；浏览器回归补充非母版纸纹断言，44/44 PASS。仅修改 `previews/wcd-11/` 候选预览及本日志，正式 `site/`、Research/Curation/Web Data、Web 版本和 Public Release 边界不变；Draft PR #36 继续等待 USER 视觉确认。
+
 ## [Data 1.5.0 / Web 0.5.0 — Development, Draft Preview] - 2026-09-13
 
 ### TASK-128 / WCD-11 full-template visual audit follow-up

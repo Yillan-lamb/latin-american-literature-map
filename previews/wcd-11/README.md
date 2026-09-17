@@ -50,7 +50,9 @@ map/search/timeline controls.
 
 Current scope:
 
-- parchment and archival background system;
+- project-owned warm-ivory archival paper texture (`AST-035`) across both editorial
+  masters and remaining preview routes; the earlier ochre parchment asset is
+  retained only for rollback;
 - nautical map plate with the existing interactive geography rendered above it;
 - licensed author portraits and project-owned editorial imagery;
 - larger reading-path typography and author portraits on the home page;

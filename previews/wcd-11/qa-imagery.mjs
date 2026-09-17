@@ -68,7 +68,7 @@ const browser = await chromium.launch(existsSync(chromePath) ? { executablePath:
       portraitWidth: portrait?.width || 0,
       portraitHeight: portrait?.height || 0,
       contrast,
-      paper: getComputedStyle(document.body).backgroundImage.includes('parchment-field-v1.webp'),
+      paper: getComputedStyle(document.body).backgroundImage.includes('archive-paper-ivory-v1.png'),
     };
   });
   check('首页纸张、阅读路径、作家头像与趣闻对比度达到可读门槛', st.paper && st.pathTitle >= 17 && st.pathBody >= 12 && st.portraitWidth >= 80 && st.portraitHeight >= 110 && st.contrast >= 4.5, `paper=${st.paper} title=${st.pathTitle}px body=${st.pathBody}px portrait=${Math.round(st.portraitWidth)}x${Math.round(st.portraitHeight)} contrast=${st.contrast.toFixed(2)}`);
@@ -165,10 +165,10 @@ const browser = await chromium.launch(existsSync(chromePath) ? { executablePath:
       img.src = src;
     });
     return {
-      parchmentCss: surfaceBg.includes('parchment-field-v1.webp'),
+      parchmentCss: surfaceBg.includes('archive-paper-ivory-v1.png'),
       nauticalCss: plateBg.includes('nautical-chart-v1.webp'),
       bannerCss: finalBg.includes('archive-masthead-v1.webp'),
-      parchmentLoaded: await load('assets/backgrounds/parchment-field-v1.webp'),
+      parchmentLoaded: await load('assets/backgrounds/archive-paper-ivory-v1.png'),
       nauticalLoaded: await load('assets/backgrounds/nautical-chart-v1.webp'),
       bannerLoaded: await load('assets/backgrounds/archive-masthead-v1.webp'),
       stampLoaded: stamp ? stamp.complete && stamp.naturalWidth > 0 : false,
@@ -189,7 +189,7 @@ const browser = await chromium.launch(existsSync(chromePath) ? { executablePath:
       mapCanvasWidth: mapCanvas?.width || 0,
     };
   });
-  check(`羊皮纸背景进入页面并加载`, st.parchmentCss && st.parchmentLoaded, `css=${st.parchmentCss} loaded=${st.parchmentLoaded}`);
+  check(`暖白档案纸背景进入页面并加载`, st.parchmentCss && st.parchmentLoaded, `css=${st.parchmentCss} loaded=${st.parchmentLoaded}`);
   check(`航海罗盘背景覆盖整张地图图版并加载`, st.nauticalCss && st.nauticalLoaded, `css=${st.nauticalCss} loaded=${st.nauticalLoaded}`);
   check(`页面纸面单层统一且地图图版贯穿左右边界`, st.unifiedSurface && st.plateFullBleed, `surface=${st.unifiedSurface} fullBleed=${st.plateFullBleed}`);
   check(`单一底部引言带使用档案横幅且真实纸制邮票加载`, st.bannerCss && st.bannerLoaded && st.stampLoaded, `bannerCss=${st.bannerCss} bannerLoaded=${st.bannerLoaded} stampLoaded=${st.stampLoaded}`);
@@ -199,6 +199,16 @@ const browser = await chromium.launch(existsSync(chromePath) ? { executablePath:
   check(`地图右下仅保留指定中立声明且图版内无来源长文`, st.neutrality === '本地图仅呈现地理事实与文学关联，不代表对任何争议边界、领土归属或政治地位的立场。' && !st.plateAttribution, `neutrality=${st.neutrality} attribution=${st.plateAttribution}`);
   check(`地图地块启用手绘边缘滤镜`, st.handdrawn, `handdrawn=${st.handdrawn}`);
   check(`地图采用左侧图版索引加右侧大地图`, st.plateIndexWidth >= 200 && st.mapCanvasWidth >= 500, `index=${Math.round(st.plateIndexWidth)} map=${Math.round(st.mapCanvasWidth)}`);
+  await page.close();
+}
+{
+  const page = await browser.newPage({ viewport: { width: 1280, height: 900 } });
+  await page.goto(`${BASE}/countries/argentina-v1-ent-0001/`, { waitUntil: 'networkidle' });
+  const st = await page.evaluate(() => ({
+    body: getComputedStyle(document.body).backgroundImage.includes('archive-paper-ivory-v1.png'),
+    page: getComputedStyle(document.querySelector('.page')).backgroundImage === 'none',
+  }));
+  check('非母版页面继承暖白档案纸且无第二层底色', st.body && st.page, `body=${st.body} pageTransparent=${st.page}`);
   await page.close();
 }
 
@@ -230,7 +240,7 @@ const browser = await chromium.launch(existsSync(chromePath) ? { executablePath:
   await page.goto(`${BASE}/authors/`, { waitUntil: 'networkidle' });
   const authorRoutes = await page.evaluate(() => window.__SITE_DATA.search.filter(s => s.type === 'author').map(s => '/' + String(s.route).replace(/^\//, '')));
   const workRoutes = await page.evaluate(() => window.__SITE_DATA.search.filter(s => ['work','collection'].includes(s.type)).map(s => '/' + String(s.route).replace(/^\//, '')));
-  const samples = ['/authors/', '/works/', '/search/', '/countries/', '/places/', '/paths/', '/about/', '/anecdotes/', '/timeline/', '/404.html'];
+  const samples = ['/authors/', '/works/', '/search/', '/countries/argentina-v1-ent-0001/', '/places/rio-de-janeiro-v1-ent-0022/', '/paths/three-fictional-towns/', '/about/', '/anecdotes/', '/timeline/', '/404.html'];
   let notFound = 0;
   let templateMismatch = 0;
   for (const r of [...authorRoutes, ...workRoutes, ...samples]) {

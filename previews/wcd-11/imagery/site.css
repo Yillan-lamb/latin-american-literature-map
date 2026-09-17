@@ -1208,29 +1208,29 @@ body::before {
 }
 
 /* ============================================================
-   IMAGERY V4 · 生成式羊皮纸与航海图版背景
-   位图均为本项目新生成资产；地图几何仍由交互 SVG 提供，背景不含国界。
+   IMAGERY · 项目自有纸面与航海图版背景
+   纸面于 2026-09-17 改为更浅的暖白档案纸；地图几何仍由交互 SVG 提供。
    ============================================================ */
 :root {
-  --parchment-field: url("assets/backgrounds/parchment-field-v1.webp");
+  --parchment-field: url("assets/backgrounds/archive-paper-ivory-v1.png");
   --nautical-chart: url("assets/backgrounds/nautical-chart-v1.webp");
 }
 
 body {
-  background-color: #d6c7aa;
+  background-color: #f5eee1;
   background-image:
-    linear-gradient(rgba(78,58,34,.12), rgba(78,58,34,.12)),
+    linear-gradient(rgba(250,247,240,.04), rgba(250,247,240,.04)),
     var(--parchment-field);
-  background-size: auto, 1024px 1024px;
-  background-attachment: fixed;
+  background-size: auto, 1450px auto;
+  background-attachment: scroll;
 }
 .page {
-  background-color: #eee3cc;
+  background-color: #f7f1e6;
   background-image:
-    linear-gradient(rgba(245,238,220,.48), rgba(238,226,201,.42)),
+    linear-gradient(rgba(255,252,245,.08), rgba(255,252,245,.08)),
     var(--parchment-field);
-  background-size: auto, 1024px 1024px;
-  background-blend-mode: normal, multiply;
+  background-size: auto, 1450px auto;
+  background-blend-mode: normal;
 }
 .masthead {
   background: linear-gradient(90deg, rgba(245,238,220,.34), rgba(245,238,220,.72), rgba(245,238,220,.32));
@@ -1648,13 +1648,13 @@ body {
 /* 页面与外框共享同一纸色，消除画布边缘的明显色带。 */
 html,
 body {
-  background-color: #e8dcc4;
+  background-color: #f5eee1;
   background-image:
-    linear-gradient(rgba(244, 236, 216, .20), rgba(221, 204, 173, .10)),
+    linear-gradient(rgba(255, 252, 245, .04), rgba(255, 252, 245, .04)),
     var(--parchment-field);
-  background-size: auto, 980px 980px;
+  background-size: auto, 1450px auto;
   background-position: center, center top;
-  background-blend-mode: normal, multiply;
+  background-blend-mode: normal;
   background-attachment: scroll;
 }
 body::before { display: none; }
@@ -1667,7 +1667,7 @@ body::before { display: none; }
   box-shadow: none;
 }
 .page::after { display: none; }
-.masthead { margin-top: 0; background: rgba(239, 228, 206, .46); }
+.masthead { margin-top: 0; background: rgba(250, 247, 240, .16); }
 
 /* Hero 改为文化档案拼贴：主图与阳台明信片不再指向其他真实作家。 */
 .hero {
@@ -1836,7 +1836,7 @@ body::before { display: none; }
   font: 600 12px/1.85 Baskerville, "Iowan Old Style", Georgia, serif;
   letter-spacing: .16em;
 }
-.site-footer { margin-top: 0; background: rgba(233, 220, 194, .52); }
+.site-footer { margin-top: 0; background: rgba(250, 247, 240, .32); }
 .editorial > section { background-color: transparent; background-image: none; }
 
 @media (max-width: 1120px) {
@@ -1859,7 +1859,7 @@ body::before { display: none; }
 
 @media (max-width: 620px) {
   html,
-  body { background-size: auto, 720px 720px; }
+  body { background-size: auto, 960px auto; }
   .page { --page-gutter: 14px; padding-left: var(--page-gutter); padding-right: var(--page-gutter); }
   .hero-collage { min-height: 410px; }
   .collage-photo.main { left: 0; top: 58px; width: 82%; height: 230px; }

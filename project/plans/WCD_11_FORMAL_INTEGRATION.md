@@ -78,3 +78,9 @@ USER 已通过 PR #36 的视觉预览，但该 PR 的 `previews/wcd-11/` 与正�
 - [ ] 独立 Reviewer 明确 PASS，PR diff 范围、CHANGELOG／TASKS／DECISIONS／公开入口同步，适用 CI 全绿；USER 再判断正式集成与版本／合并，Public Release 仍单独暂停。
 
 在这些项目完成前，本 Spec 与新分支只表示正式集成**已启动**，不是 `READY TO MERGE` 或 `TASK-128 DONE`；未运行的门禁均为 `NOT_VERIFIED`。
+
+## 2026-09-18 阶段检查点（不等于验收）
+
+- 已接入：生产 shell、暖白档案纸／首页拼贴、共享视觉 token、作家目录与详情肖像及可见来源署名、01–04 双列＋05 趣闻通栏、公开搜索完整索引、时间线完整公开记录及类型＋年代窗口。未核实身份的 AST-024 明确不迁入。
+- 已验证：development-preview 参数生成的正式构建链产出 139 条路由；public bundle、Web Data、WCD-09 implementation、底图确定性 `--check` 均 PASS；四浏览器 Playwright matrix 96/96 PASS。纸纹 WebP 编码将请求体由约 1.9 MB 缩至约 100 KB，不改变母版视觉意图。
+- 仍未验收：作品及国家／地点／阅读路径等全路由视觉对照、320px／缩放／动效专项、CSS 最终归并、第三方肖像独立身份／许可抽查、独立 Reviewer、正式 PR CI。Lighthouse 本地移动模拟首页 performance 70、作品页 76，其余传统类别均 100；首页性能不视为通过，需继续优化或给出审计解释。所有验收复选框仍保持未勾选。

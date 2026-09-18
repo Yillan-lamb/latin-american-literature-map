@@ -300,7 +300,12 @@ def build(output: Path, data_path: Path, origin: str | None, development_preview
     for item in public_data["search_index"]:
         if item["target_id"] in hidden_places:
             continue
-        target_type = item["target_type"] if item["target_type"] in {"author", "work", "country", "place", "fictional_space"} else "node"
+        if item["target_type"] == "collection":
+            target_type = "work"
+        elif item["target_type"] in {"author", "work", "country", "place", "fictional_space"}:
+            target_type = item["target_type"]
+        else:
+            target_type = "node"
         path = route_for(public_data, target_type, item["target_id"])
         static_pages.append((path, target_type, item["target_id"], item["name_zh"], f"在拉丁美洲文学地图中探索{item['name_zh']}及其文学关联。", None))
     seen: dict[str, str | None] = {}

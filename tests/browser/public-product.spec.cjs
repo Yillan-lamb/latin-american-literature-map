@@ -120,6 +120,7 @@ test("home moves catalogs to dedicated navigation pages and places anecdotes aft
   const readingPaths = page.getByRole("heading", { name: "如何进入拉美文学" });
   const homeAnecdotes = page.locator("[data-home-anecdotes]");
   await expect(readingPaths).toBeVisible();
+  await expect(page.locator(".home-author-grid article")).toHaveCount(4);
   await expect(homeAnecdotes.getByRole("heading", { name: "作家趣闻" })).toBeVisible();
   expect((await readingPaths.boundingBox()).y).toBeLessThan((await homeAnecdotes.boundingBox()).y);
   for (const [kind, label] of [["authors", "作家"], ["works", "作品"], ["anecdotes", "趣闻"]]) {
@@ -146,6 +147,7 @@ test("home moves catalogs to dedicated navigation pages and places anecdotes aft
         await expect(page.locator(`#${group}-catalog-heading`)).toBeFocused();
       }
       observed.push(...await section().locator("[data-card-id]").evaluateAll((cards) => cards.map((card) => card.dataset.cardId)));
+      if (group === "works") await expect(section().locator(".edition-cover")).toHaveCount(Math.min(pageSize, expectedIds.length - (pageNumber - 1) * pageSize));
       await expect(section().getByRole("button", { name: `${label}第 ${pageNumber} 页` })).toHaveAttribute("aria-current", "page");
     }
     expect(observed).toEqual(expectedIds);
@@ -286,6 +288,7 @@ test("places, author, work, sources and navigation", async ({ page, baseURL }) =
   await page.locator(`a[href="${new URL(paths.work, baseURL).pathname}"]`).first().click();
   await expect(page.getByText("为什么值得读")).toBeVisible();
   await expect(page.getByText("怎么读这本书")).toBeVisible();
+  await expect(page.locator(".work-profile-edition figcaption")).toContainText("非原书封面");
   await expect(page.getByText("带着一个问题去读")).toBeVisible();
   await page.goBack();
   await expect(page.getByText("为什么值得认识")).toBeVisible();
@@ -306,6 +309,29 @@ test("formal author archive has credited portraits and anecdotes below four edit
   expect((await request.get("assets/portraits/v1-ent-0199.jpg")).status()).toBe(404);
   await portrait.evaluate((image) => image.dispatchEvent(new Event("error")));
   await expect(page.locator(".author-profile-portrait.portrait-fallback span")).toHaveText("LATAM");
+});
+
+test("all public collections use the literary work archive rather than a generic node", async ({ page, request }) => {
+  const webData = await (await request.get("data/v2/web/site_data.json")).json();
+  const indexed = new Map(webData.search_index.map((item) => [item.target_id, item]));
+  const collections = webData.presentation.discovery.works.map((item) => indexed.get(item.target_id)).filter((item) => item?.target_type === "collection");
+  expect(collections).toHaveLength(10);
+  for (const item of collections) {
+    const response = await page.goto(item.public_route);
+    expect(response.status()).toBe(200);
+    await expect(page.locator(".work-profile-edition")).toBeVisible();
+    await expect(page.getByRole("heading", { name: "它讲了什么" })).toBeVisible();
+    await expect(page.getByText("研究依据与延伸阅读")).toBeVisible();
+  }
+});
+
+test("formal editorial layouts stay within a 320px viewport", async ({ page, baseURL }) => {
+  await page.setViewportSize({ width: 320, height: 900 });
+  for (const route of ["", "authors/", "works/", "anecdotes/", "search/", "timeline/", "about/", paths.country, paths.realPlace, paths.fictionalPlace, paths.author, paths.work]) {
+    await page.goto(new URL(route, baseURL).href);
+    const width = await page.evaluate(() => document.documentElement.scrollWidth);
+    expect(width, `${route || "home"} has horizontal overflow at 320px`).toBeLessThanOrEqual(320);
+  }
 });
 
 test("approved WCD-08 anecdotes render only on public author pages", async ({ page, request }) => {

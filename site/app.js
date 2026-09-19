@@ -837,12 +837,19 @@ app.addEventListener("error", (event) => {
   event.target.replaceWith(label);
 }, true);
 
-Promise.all([fetch(DATA_URL), fetch(MAP_URL)]).then(async ([dataResponse, mapResponse]) => {
-  if (!dataResponse.ok || !mapResponse.ok) throw new Error("公开内容暂时无法载入");
-  [data, geography] = await Promise.all([dataResponse.json(), mapResponse.json()]);
-  mapProjectionViewport = projectionViewport(geography);
+async function loadPublicApplication() {
+  const route = initialRoute();
+  const responses = await Promise.all(route.kind === "home" ? [fetch(DATA_URL), fetch(MAP_URL)] : [fetch(DATA_URL)]);
+  if (responses.some((response) => !response.ok)) throw new Error("公开内容暂时无法载入");
+  data = await responses[0].json();
+  if (route.kind === "home") {
+    geography = await responses[1].json();
+    mapProjectionViewport = projectionViewport(geography);
+  }
   renderRoute();
-}).catch((error) => {
+}
+
+loadPublicApplication().catch((error) => {
   console.error("Public application failed to render", error);
   app.innerHTML = `<div class="error-box"><h1>文学地图暂时没有打开。</h1><p>公开内容暂时无法载入。请稍后重试。</p></div>`;
 });

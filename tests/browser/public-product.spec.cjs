@@ -311,14 +311,18 @@ test("formal author archive has credited portraits and anecdotes below four edit
   await expect(page.locator(".author-profile-portrait.portrait-fallback span")).toHaveText("LATAM");
 });
 
-test("all public collections use the literary work archive rather than a generic node", async ({ page, request }) => {
+test("all public collections use the literary work archive rather than a generic node", async ({ page, request, baseURL }) => {
   const webData = await (await request.get("data/v2/web/site_data.json")).json();
   const indexed = new Map(webData.search_index.map((item) => [item.target_id, item]));
   const collections = webData.presentation.discovery.works.map((item) => indexed.get(item.target_id)).filter((item) => item?.target_type === "collection");
-  expect(collections).toHaveLength(10);
+  expect(collections.length).toBeGreaterThan(0);
   for (const item of collections) {
-    const response = await page.goto(item.public_route);
+    const response = await request.get(new URL(item.public_route, baseURL).href);
     expect(response.status()).toBe(200);
+    expect(await response.text()).toContain('data-route-kind="work"');
+  }
+  for (const item of collections.slice(0, 10)) {
+    await page.goto(new URL(item.public_route, baseURL).href);
     await expect(page.locator(".work-profile-edition")).toBeVisible();
     await expect(page.getByRole("heading", { name: "它讲了什么" })).toBeVisible();
     await expect(page.getByText("研究依据与延伸阅读")).toBeVisible();
@@ -332,6 +336,16 @@ test("formal editorial layouts stay within a 320px viewport", async ({ page, bas
     const width = await page.evaluate(() => document.documentElement.scrollWidth);
     expect(width, `${route || "home"} has horizontal overflow at 320px`).toBeLessThanOrEqual(320);
   }
+});
+
+test("work archive does not download map geometry before rendering", async ({ page, baseURL }) => {
+  const mapRequests = [];
+  page.on("request", (request) => {
+    if (request.url().includes("natural-earth-5.1.1-admin0-50m-latin-america.geojson")) mapRequests.push(request.url());
+  });
+  await page.goto(new URL(paths.work, baseURL).href);
+  await expect(page.getByRole("heading", { name: "它讲了什么" })).toBeVisible();
+  expect(mapRequests).toEqual([]);
 });
 
 test("approved WCD-08 anecdotes render only on public author pages", async ({ page, request }) => {

@@ -78,7 +78,7 @@ button:focus-visible, a:focus-visible, input:focus-visible, summary:focus-visibl
 .main-nav a:hover::after, .main-nav a[aria-current="page"]::after { right: 0; }
 .menu-toggle { display: none; border: 1px solid var(--line); background: transparent; padding: 8px 12px; }
 
-.loading-state { min-height: 60vh; display: grid; place-items: center; color: var(--muted); font-size: 14px; }
+.loading-state { min-height: 100dvh; display: grid; place-items: center; color: var(--muted); font-size: 14px; }
 .loading-dot { width: 10px; height: 10px; display: inline-block; margin-right: 10px; border-radius: 50%; background: var(--coral); }
 
 .eyebrow { margin: 0 0 16px; color: var(--coral-deep); font: 700 12px/1.2 var(--sans); letter-spacing: .16em; text-transform: uppercase; }

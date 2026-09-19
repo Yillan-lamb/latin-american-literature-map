@@ -39,8 +39,41 @@ def page_shell(kind: str, target_id: str | None, title: str, description: str, c
     if path_slug:
         attrs.append(f'data-path-slug="{escape(path_slug)}"')
     banner = f'<div data-review-preview-banner class="review-banner">{DEVELOPMENT_PREVIEW_BANNER}</div>' if development_preview else ""
+    preload = f'<link rel="preload" as="image" href="{escape(urljoin(site_base, "assets/editorial/hero-caribbean-writing-desk-v1.webp"))}" fetchpriority="high">' if kind == "home" else ""
     return f'''<!doctype html>
-<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#f3eee4"><meta name="description" content="{escape(description)}"><meta property="og:type" content="website"><meta property="og:locale" content="zh_CN"><meta property="og:site_name" content="拉丁美洲文学地图"><meta property="og:title" content="{escape(title)}"><meta property="og:description" content="{escape(description)}"><meta property="og:url" content="{escape(canonical)}"><meta name="twitter:card" content="summary"><link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%2396342b'/%3E%3Cpath d='M18 16h8v25h20v7H18z' fill='%23fffdf8'/%3E%3C/svg%3E"><link rel="canonical" href="{escape(canonical)}"><title>{escape(title)}｜拉丁美洲文学地图</title><link rel="stylesheet" href="{escape(urljoin(site_base, 'styles.css'))}"></head><body {' '.join(attrs)}>{banner}<div class="site-frame"><header class="site-header"><a class="wordmark" href="{escape(site_base)}"><span class="wordmark-mark">LATAM</span><span class="wordmark-name">拉丁美洲文学地图</span></a><nav id="main-nav" class="main-nav" aria-label="主要导航"><a data-nav-kind="home" href="{escape(site_base)}">地图</a><a data-nav-kind="authors" href="{escape(urljoin(site_base, 'authors/'))}">作家</a><a data-nav-kind="works" href="{escape(urljoin(site_base, 'works/'))}">作品</a><a data-nav-kind="anecdotes" href="{escape(urljoin(site_base, 'anecdotes/'))}">趣闻</a><a data-nav-kind="search" href="{escape(urljoin(site_base, 'search/'))}">搜索</a><a data-nav-kind="timeline" href="{escape(urljoin(site_base, 'timeline/'))}">时间线</a><a data-nav-kind="about" href="{escape(urljoin(site_base, 'about/'))}">关于项目</a></nav><button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav">菜单</button></header><main id="app" tabindex="-1" aria-live="polite"><div class="loading-state"><span class="loading-dot"></span>正在打开文学地图……</div></main><footer class="site-footer"><div><span class="footer-kicker">A literary map of Latin America</span><span>从地点进入文学，从作品继续阅读</span></div><a href="{escape(urljoin(site_base, 'about/'))}">关于这张地图</a></footer></div><script type="module" src="{escape(urljoin(site_base, 'app.js'))}"></script></body></html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f2ebdd"><meta name="description" content="{escape(description)}">
+  <meta property="og:type" content="website"><meta property="og:locale" content="zh_CN">
+  <meta property="og:site_name" content="拉丁美洲文学地图"><meta property="og:title" content="{escape(title)}">
+  <meta property="og:description" content="{escape(description)}"><meta property="og:url" content="{escape(canonical)}">
+  <meta name="twitter:card" content="summary">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%2396342b'/%3E%3Cpath d='M18 16h8v25h20v7H18z' fill='%23fffdf8'/%3E%3C/svg%3E">
+  <link rel="canonical" href="{escape(canonical)}"><title>{escape(title)}｜拉丁美洲文学地图</title>
+  {preload}<link rel="stylesheet" href="{escape(urljoin(site_base, 'styles.css'))}">
+</head>
+<body {' '.join(attrs)}>{banner}
+  <div class="site-frame">
+    <header class="site-header">
+      <a class="wordmark" href="{escape(site_base)}"><span class="wordmark-mark">LATAM</span><span class="wordmark-title"><span class="wordmark-name">拉丁美洲文学地图</span><small>Latin American Literature Map</small></span></a>
+      <nav id="main-nav" class="main-nav" aria-label="主要导航">
+        <a data-nav-kind="home" href="{escape(site_base)}">地图</a>
+        <a data-nav-kind="authors" href="{escape(urljoin(site_base, 'authors/'))}">作家</a>
+        <a data-nav-kind="works" href="{escape(urljoin(site_base, 'works/'))}">作品</a>
+        <a data-nav-kind="anecdotes" href="{escape(urljoin(site_base, 'anecdotes/'))}">趣闻</a>
+        <a data-nav-kind="search" href="{escape(urljoin(site_base, 'search/'))}">搜索</a>
+        <a data-nav-kind="timeline" href="{escape(urljoin(site_base, 'timeline/'))}">时间线</a>
+        <a data-nav-kind="about" href="{escape(urljoin(site_base, 'about/'))}">关于项目</a>
+      </nav>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav">菜单</button>
+    </header>
+    <main id="app" tabindex="-1" aria-live="polite"><div class="loading-state"><span class="loading-dot"></span>正在打开文学地图……</div></main>
+    <footer class="site-footer"><div><span class="footer-kicker">LATAM · 拉丁美洲文学地图</span><span>从地点进入文学，从作品继续阅读</span></div><a href="{escape(urljoin(site_base, 'about/'))}">关于这张地图</a></footer>
+  </div>
+  <script type="module" src="{escape(urljoin(site_base, 'app.js'))}"></script>
+</body>
+</html>
 '''
 
 
@@ -267,7 +300,12 @@ def build(output: Path, data_path: Path, origin: str | None, development_preview
     for item in public_data["search_index"]:
         if item["target_id"] in hidden_places:
             continue
-        target_type = item["target_type"] if item["target_type"] in {"author", "work", "country", "place", "fictional_space"} else "node"
+        if item["target_type"] == "collection":
+            target_type = "work"
+        elif item["target_type"] in {"author", "work", "country", "place", "fictional_space"}:
+            target_type = item["target_type"]
+        else:
+            target_type = "node"
         path = route_for(public_data, target_type, item["target_id"])
         static_pages.append((path, target_type, item["target_id"], item["name_zh"], f"在拉丁美洲文学地图中探索{item['name_zh']}及其文学关联。", None))
     seen: dict[str, str | None] = {}

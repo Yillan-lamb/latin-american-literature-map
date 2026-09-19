@@ -2,6 +2,19 @@
 
 本文件记录拉丁美洲文学地图各版本的实际修改。格式参考 Keep a Changelog，版本号遵循语义化版本规则。
 
+## [WCD-11 formal integration in progress / Web 0.5.0 Development unchanged] - 2026-09-18
+
+### TASK-128 / DEC-067 · visual approval and production integration contract
+
+- USER 已批准 PR #36 的视觉候选，但判定其仅为 preview artifact、不得合并；#36 已关闭而未合并，预览分支与截图保留供正式实现对照。
+- 从实时核实的 `origin/main @ 6e1d882` 建立独立 `codex/wcd-11-formal-integration` 分支，并新增 `project/plans/WCD_11_FORMAL_INTEGRATION.md`：约定生产数据与 WCD-09 地图权威边界、全路由矩阵、素材许可、CSS 整理、时间线年代语义以及构建/浏览器/Lighthouse/地图/独立审查门禁。
+- 正式 `site/` 第一段已迁入母版暖白纸纹与首页文化图像、调整共同刊头／首页图版；素材逐件复算哈希并在 `docs/web/WCD_11_ASSET_ADMISSION.md` 留下许可与署名边界。公开搜索移除前 80 项截断，时间线展示全部公开作家／作品事件，新增类型＋年代组合筛选并将文学爆炸写作年代窗口而非流派归属；浏览器断言改为支持正式站点子路径。
+- 生产构建器同步生成新版共享刊头、页脚与首页图片预加载，避免只改 `site/index.html` 时正式路由仍采用旧壳；23 张经母版核验的作家肖像接入正式目录及详情，图片下方显示来源、作者和许可，身份未核实并撤回的 AST-024 明确不迁入。作家页将 01–04 编排为双列专题、05 趣闻移至通栏，保留既有阅读与来源内容。档案纸原始 PNG 仅做 WebP quality 85 编码，正式资源由约 1.9 MB 降至约 100 KB，母版原件仍可从 #36 恢复。
+- 当前生产衍生预览构建 139 条路由、127 个公开实体、82 则趣闻，public bundle/Web Data/WCD-09 implementation/deterministic basemap 校验通过；Chromium 桌面／移动、Firefox 桌面、WebKit 移动 96/96 浏览器用例通过。Lighthouse 本地移动模拟：首页 performance 70、作品页 76，其余传统类别均为 100；首页性能和全部页面的独立视觉／许可复审仍是开放门禁，不能据此判定 READY TO MERGE。
+- 后续本地实施中，作品目录为全部 62 部公开作品／合集生成项目原创的排版式“策展版封面”，并明确标注它并非原书封面；构建器将 10 部作品集的静态路由归入作品档案模板，而非通用节点页。首页新增四位带可见来源署名的“重要作家”肖像栏，二级页刊头接入已有档案图像。针对 320px 检出的普通二级页约 3px 横向溢出，已调整装饰圆章位置；12 类代表页面的 320px 断言在四浏览器通过，更新后的完整 Playwright 矩阵 104/104 PASS，62 条作品路由移动端抽查 PASS。本段仍未通过独立视觉／许可审计。
+- 非地图页不再为首屏加载约 274 KB 的 Natural Earth 地图几何，首页地图仍按需加载；加载态占满首屏，避免内容渲染时把页脚从可见区域挤走。最新正式开发构建的四浏览器矩阵 108/108 PASS；Lighthouse 本地移动模拟首页 performance 75、作品页 80，CLS 均为 0，较前一轮 70／76 有改善，但首页 LCP 12.1 秒，性能门禁仍开放。修正作品集回归测试对“正式公开包恰好 10 部”的错误硬编码，改为按构建数据检查全部作品集静态壳并抽查最多 10 部渲染；与 CI 同源的审核预览包含 53 部作品集，Chromium 桌面／移动定向测试 2/2 PASS。该审核预览仅供本地验证，不改变正式公开范围。
+- 这仍是正式集成的早期 Draft 工作，不代表作家／作品／国家／地点／路径等全路由视觉验收完成，也不改变 Research Data、Research Schema、Curation、Web Data schema、公开范围或 Public Release。Web 保持 `0.5.0 Development`；系统性 redesign 的 `0.6.0 Development` 为后续实际实施后的待核建议，不因早期代码提交自动升版。
+
 ## [Data 1.5.0 / Web 0.5.0 — Development] - 2026-09-08
 
 ### TASK-099 / WCD-09 implementation

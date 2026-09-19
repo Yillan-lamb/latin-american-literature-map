@@ -22,6 +22,42 @@ const MAP_PADDING = 22;
 const MAP_WINDOW = { west: -118, south: -56, east: -32, north: 33 };
 const LAEA = { centralLongitude: -75, centralLatitude: -11.5 };
 
+// Portraits admitted from the WCD-11 visual master. A missing or withdrawn
+// identity deliberately falls back to typography instead of a guessed face.
+const PORTRAITS = {
+  "V1-ENT-0002": ["Grete Stern", "https://commons.wikimedia.org/wiki/File:Jorge_Luis_Borges_1951,_by_Grete_Stern.jpg", "Public domain"],
+  "V1-ENT-0016": ["巴西国家档案馆", "https://commons.wikimedia.org/wiki/File:Clarice_Lispector,_1968.jpg", "Public domain"],
+  "V1-ENT-0030": ["Jesús Ortiz Tajonar · fedemx", "https://commons.wikimedia.org/wiki/File:Grabado_de_Rosario_Castellanos_por_Jesus_Ortiz_Tajonar_(1).jpg", "CC BY-SA 4.0"],
+  "V1-ENT-0031": ["Lyon", "https://commons.wikimedia.org/wiki/File:Rulfo_por_Lyon.jpg", "Public domain"],
+  "V1-ENT-0059": ["Jonn Leffmann", "https://commons.wikimedia.org/wiki/File:Octavio_Paz_-_1988_Malm%C3%B6.jpg", "CC BY 3.0"],
+  "V1-ENT-0072": ["Gorup de Besanez", "https://commons.wikimedia.org/wiki/File:Gabriel_Garc%C3%ADa_M%C3%A1rquez_02_(cropped).jpg", "CC BY-SA 4.0"],
+  "V1-ENT-0073": ["Sara Facio", "https://commons.wikimedia.org/wiki/File:Cort%C3%A1zar.jpg", "Public domain"],
+  "V1-ENT-0074": ["佚名", "https://commons.wikimedia.org/wiki/File:Alejo_Carpentier_c._1955.jpg", "Public domain"],
+  "V1-ENT-0114": ["Bernard Gotfryd", "https://commons.wikimedia.org/wiki/File:Mario_Vargas_Llosa_1986_cropped.jpg", "Public domain"],
+  "V1-ENT-0115": ["Annemarie Heinrich", "https://commons.wikimedia.org/wiki/File:Pablo_Neruda_by_Annemarie_Heinrich,_1954.jpg", "Public domain"],
+  "V1-ENT-0145": ["Bernard Gotfryd", "https://commons.wikimedia.org/wiki/File:Carlos_Fuentes_1987.jpg", "Public domain"],
+  "V1-ENT-0148": ["智利国家图书馆藏", "https://commons.wikimedia.org/wiki/File:Retrato_lucila_godoy_1923_bcn.jpg", "Public domain"],
+  "V1-ENT-0170": ["Dominique Roger", "https://commons.wikimedia.org/wiki/File:Miguel_Angel_Asturias,_Nobel_Prize_of_Literature_1967,_visit_at_the_Chateau_of_Cormeilles-en-Parisis.jpg", "CC BY-SA 3.0"],
+  "V1-ENT-0171": ["Mutari", "https://commons.wikimedia.org/wiki/File:Isabel_Allende_-_001.jpg", "Public domain"],
+  "V1-ENT-0172": ["Bernard Gotfryd", "https://commons.wikimedia.org/wiki/File:Jorge_Amado,_gtfy.00010.jpg", "Public domain"],
+  "V1-ENT-0184": ["Elisa Cabot", "https://commons.wikimedia.org/wiki/File:Juan_Carlos_Onetti_1981.jpg", "CC BY-SA 2.0"],
+  "V1-ENT-0185": ["佚名", "https://commons.wikimedia.org/wiki/File:Jos%C3%A9_Donoso,_Estadio,_1953-10-10_(543).jpg", "Public domain"],
+  "V1-ENT-0186": ["Sara Facio · Alicia D'Amico", "https://commons.wikimedia.org/wiki/File:Ernesto_Sabato_-_Antolog%C3%ADa.jpg", "Public domain"],
+  "V1-ENT-0198": ["Alicia D'Amico", "https://commons.wikimedia.org/wiki/File:Adolfo_Bioy_Casares_1968.png", "Public domain"],
+  "V1-ENT-0200": ["佚名", "https://commons.wikimedia.org/wiki/File:Horacio_Quiroga_1897.jpg", "Public domain"],
+  "V1-ENT-0211": ["佚名", "https://commons.wikimedia.org/wiki/File:Machado_de_Assis_aos_57_anos.jpg", "Public domain"],
+  "V1-ENT-0212": ["佚名", "https://commons.wikimedia.org/wiki/File:Guimar%C3%A3es_Rosa,_anos_1960.jpg", "Public domain"],
+  "V1-ENT-0213": ["佚名", "https://commons.wikimedia.org/wiki/File:Graciliano_Ramos,_1940.tif", "Public domain"],
+};
+
+function portraitMarkup(id, name, className = "author-portrait") {
+  const portrait = PORTRAITS[id];
+  if (!portrait) return `<div class="${className} portrait-fallback" aria-label="${escapeHtml(name)}：暂无经核实肖像"><span>LATAM</span></div>`;
+  const [creator, source, license] = portrait;
+  const licenseUrl = license === "Public domain" ? "https://commons.wikimedia.org/wiki/Help:Public_domain" : `https://creativecommons.org/licenses/by${license.includes("-SA") ? "-sa" : ""}/${license.match(/\d\.\d/)?.[0] || "4.0"}/`;
+  return `<figure class="${className}"><img src="${new URL(`assets/portraits/${id.toLowerCase()}.jpg`, SITE_ROOT).pathname}" alt="${escapeHtml(name)}肖像" loading="lazy" decoding="async" /><figcaption><a href="${escapeHtml(source)}" target="_blank" rel="noreferrer">${escapeHtml(creator)}</a> · <a href="${licenseUrl}" target="_blank" rel="noreferrer">${escapeHtml(license)}</a></figcaption></figure>`;
+}
+
 const escapeHtml = (value) => String(value ?? "").replace(/[&<>"']/g, (character) => ({
   "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;",
 }[character]));
@@ -126,12 +162,25 @@ function cardMarkup(item, { id, type, title, description, meta, kind = "", rank 
 function authorCard(item, { rank = null } = {}) {
   const card = cardFor(item.entity_id);
   const lede = contentFor("authors", item.entity_id).reader_lede || `${item.name_zh}的生平、作品与文学关联。`;
-  return cardMarkup(item, { id: item.entity_id, type: "author", title: item.name_zh, description: lede, meta: card?.country_or_region || "作家", rank });
+  return `<article class="card author-directory-card" data-card-id="${escapeHtml(item.entity_id)}"${rank ? ` data-discovery-rank="${rank}"` : ""}>${portraitMarkup(item.entity_id, item.name_zh, "author-directory-portrait")}<div class="author-directory-copy"><div class="card-meta"><span>${escapeHtml(card?.country_or_region || "作家")}</span><span>${escapeHtml(item.original_name || "")}</span></div><h3><a href="${hrefFor("author", item.entity_id)}">${escapeHtml(item.name_zh)}</a></h3><p>${escapeHtml(lede)}</p><a class="card-link" href="${hrefFor("author", item.entity_id)}">打开作家档案 →</a></div></article>`;
 }
 
 function workCard(item, { rank = null } = {}) {
   const card = cardFor(item.entity_id);
   return cardMarkup(item, { id: item.entity_id, type: "work", title: item.name_zh, description: contentFor("works", item.entity_id).reading_premise || `从《${item.name_zh}》进入它的故事与文学关联。`, meta: [publicGenre(card?.genre_or_form), fact(item.entity_id, "first_publication_year", "publication_year")?.value_text].filter(Boolean).join(" · ") || "作品", rank });
+}
+
+function editionCoverMarkup(item, year) {
+  const motif = [...item.entity_id].reduce((sum, character) => sum + character.charCodeAt(0), 0) % 4;
+  return `<div class="edition-cover edition-cover-${motif}" aria-hidden="true"><span>LATAM · LITERARY EDITION</span><strong>${escapeHtml(item.name_zh)}</strong><i></i><small>${escapeHtml(year || "拉丁美洲文学地图")}</small></div>`;
+}
+
+function workDirectoryCard(item, { rank = null } = {}) {
+  const card = cardFor(item.entity_id);
+  const year = fact(item.entity_id, "first_publication_year", "publication_year")?.value_text;
+  const author = relationsFor(item.entity_id).filter((relation) => relation.object_id === item.entity_id && relation.relation_type === "CREATED").map((relation) => entity(relation.subject_id)).find(Boolean);
+  const premise = contentFor("works", item.entity_id).reading_premise || `从《${item.name_zh}》进入它的故事与文学关联。`;
+  return `<a class="card work-directory-card" data-card-id="${escapeHtml(item.entity_id)}"${rank ? ` data-discovery-rank="${rank}"` : ""} href="${hrefFor("work", item.entity_id)}">${editionCoverMarkup(item, year)}<div class="work-directory-copy"><div class="card-meta"><span>${escapeHtml(publicGenre(card?.genre_or_form) || "作品")}${year ? ` · ${escapeHtml(year)}` : ""}</span></div><h3>${escapeHtml(item.name_zh)}</h3>${item.original_name ? `<p class="work-original-name">${escapeHtml(item.original_name)}</p>` : ""}${author ? `<p class="work-author-name">${escapeHtml(author.name_zh)}</p>` : ""}<p class="work-premise">${escapeHtml(premise)}</p><span class="card-link">打开作品档案 →</span></div></a>`;
 }
 
 function projectLaeaRaw([longitude, latitude]) {
@@ -236,21 +285,23 @@ function overlapsLabelBox(first, second) {
 function countryLabelLayout(countries, featureByCode) {
   const occupied = [];
   const labels = new Map();
-  const offsets = [[0, 0], [0, -22], [0, 22], [-34, 0], [34, 0], [-34, -22], [34, 22], [-34, 22], [34, -22]];
+  const offsets = [[0, 0], [0, -30], [0, 30], [-46, 0], [46, 0], [-46, -30], [46, 30], [-46, 30], [46, -30], [-72, 0], [72, 0], [0, -50], [0, 50]];
   [...countries.entries()].sort(([first], [second]) => first.localeCompare(second)).forEach(([code, country]) => {
     const feature = featureByCode.get(code);
     if (!feature) return;
     const sourceAnchor = [feature.properties.LABEL_LONGITUDE, feature.properties.LABEL_LATITUDE];
     const anchor = sourceAnchor.every(Number.isFinite) ? project(sourceAnchor) : automaticCountryLabelPoint(feature);
-    const width = Math.max(42, country.name_zh.length * 16);
+    // Reserve the largest measured serif label width across target browsers.
+    // The previous 16px estimate let Argentina and Chile touch in Firefox.
+    const width = Math.max(48, country.name_zh.length * 20);
     const choice = offsets.map(([dx, dy]) => ({
       x: anchor[0] + dx,
       y: anchor[1] + dy,
       dx,
       dy,
-      box: { left: anchor[0] + dx - width / 2, right: anchor[0] + dx + width / 2, top: anchor[1] + dy - 15, bottom: anchor[1] + dy + 6 },
+      box: { left: anchor[0] + dx - width / 2, right: anchor[0] + dx + width / 2, top: anchor[1] + dy - 20, bottom: anchor[1] + dy + 10 },
     })).find((candidate) => candidate.box.left >= 0 && candidate.box.right <= MAP_WIDTH && candidate.box.top >= 0 && candidate.box.bottom <= MAP_HEIGHT && !occupied.some((other) => overlapsLabelBox(candidate.box, other)));
-    const selected = choice || { x: anchor[0], y: anchor[1], dx: 0, dy: 0, box: { left: anchor[0] - width / 2, right: anchor[0] + width / 2, top: anchor[1] - 15, bottom: anchor[1] + 6 } };
+    const selected = choice || { x: anchor[0], y: anchor[1], dx: 0, dy: 0, box: { left: anchor[0] - width / 2, right: anchor[0] + width / 2, top: anchor[1] - 20, bottom: anchor[1] + 10 } };
     occupied.push(selected.box);
     labels.set(code, { ...selected, anchor });
   });
@@ -399,7 +450,7 @@ function catalogMarkup(group, currentPage) {
   const authorGroup = group === "authors";
   const heading = authorGroup ? "浏览全部作家" : "浏览全部作品";
   const description = authorGroup ? "从不同国家与写作传统中选择你的入口。" : "从故事、体裁与文学关联中选择下一本书。";
-  return `<section class="section catalog-browser" data-catalog="${group}"><div class="section-heading"><h2 id="${group}-catalog-heading" tabindex="-1">${heading}</h2><p>${description} 当前共 ${ranked.length} 项。</p></div><details class="ranking-note"><summary>这些内容如何排序？</summary><p>顺序由一套固定规则生成：综合重要文学奖项、可继续阅读的公开作品、介绍完整度、延伸阅读丰富度和阅读路径连接；分数相同时使用稳定编号排序。它不采用实时流量，也不设置人工置顶。</p></details><p class="catalog-status" aria-live="polite">第 ${safePage} / ${pageCount} 页，显示第 ${(safePage - 1) * pageSize + 1}—${Math.min(safePage * pageSize, ranked.length)} 项</p><div class="card-grid">${pageItems.map((ranking) => authorGroup ? authorCard(ranking.item, { rank: ranking.rank }) : workCard(ranking.item, { rank: ranking.rank })).join("")}</div>${paginationMarkup(group, safePage, ranked.length)}</section>`;
+  return `<section class="section catalog-browser" data-catalog="${group}"><div class="section-heading"><h2 id="${group}-catalog-heading" tabindex="-1">${heading}</h2><p>${description} 当前共 ${ranked.length} 项。</p></div><details class="ranking-note"><summary>这些内容如何排序？</summary><p>顺序由一套固定规则生成：综合重要文学奖项、可继续阅读的公开作品、介绍完整度、延伸阅读丰富度和阅读路径连接；分数相同时使用稳定编号排序。它不采用实时流量，也不设置人工置顶。</p></details><p class="catalog-status" aria-live="polite">第 ${safePage} / ${pageCount} 页，显示第 ${(safePage - 1) * pageSize + 1}—${Math.min(safePage * pageSize, ranked.length)} 项</p><div class="card-grid">${pageItems.map((ranking) => authorGroup ? authorCard(ranking.item, { rank: ranking.rank }) : workDirectoryCard(ranking.item, { rank: ranking.rank })).join("")}</div>${paginationMarkup(group, safePage, ranked.length)}</section>`;
 }
 
 function renderCatalogPage(group) {
@@ -434,6 +485,12 @@ function homeAnecdoteSection() {
   return `<section class="section home-anecdotes" data-home-anecdotes><div class="section-heading"><h2>作家趣闻</h2><p>从生活片段与创作轶事出发，看见作品之外的作家。</p></div><div class="card-grid anecdote-entry-grid">${entries.map(anecdoteEntryCard).join("")}</div><a class="section-link" href="${new URL("anecdotes/", SITE_ROOT).pathname}">浏览全部作家趣闻 →</a></section>`;
 }
 
+function homeFeaturedAuthors() {
+  const featured = ["V1-ENT-0002", "V1-ENT-0072", "V1-ENT-0073", "V1-ENT-0031"].map(entity).filter((item) => item && isPublic(item.entity_id));
+  if (!featured.length) return "";
+  return `<section class="section home-featured-authors"><div class="section-heading"><h2>重要作家 <small>KEY AUTHORS</small></h2><p>沿人物生平、作品与地点继续认识这片大陆。</p></div><div class="home-author-grid">${featured.map((item) => `<article>${portraitMarkup(item.entity_id, item.name_zh, "home-author-portrait")}<h3><a href="${hrefFor("author", item.entity_id)}">${escapeHtml(item.name_zh)} →</a></h3><p>${escapeHtml(item.original_name || "")}</p></article>`).join("")}</div><a class="section-link" href="${new URL("authors/", SITE_ROOT).pathname}">浏览全部作家 →</a></section>`;
+}
+
 function renderAnecdotes() {
   const entries = anecdoteDirectoryItems();
   setMeta("作家趣闻", "从人物故事进入作家的生活与写作。", "anecdotes/");
@@ -450,9 +507,10 @@ function renderHome(focusContext = false) {
     { title: "沿时间进入", description: "按首次发表年份查看作家和作品，在年代之间建立阅读线索。", href: new URL("timeline/", SITE_ROOT).pathname },
   ];
   setMeta(data.presentation.site.name, data.presentation.site.description);
-  app.innerHTML = `<section class="hero home-hero"><div><p class="eyebrow">A literary map of Latin America</p><h1 class="display-title">拉丁美洲<br /><em>文学地图</em></h1><p class="lede">从一个地方开始，进入拉丁美洲文学。</p><a class="hero-map-link" href="#literary-map">从地图开始 →</a></div><aside class="hero-note"><p>在地图上发现国家、城市、作家和作品，再沿着时间、主题与文学关系继续阅读。</p></aside></section>
-  <section class="map-first" id="literary-map">${mapMarkup()}</section>
+  app.innerHTML = `<section class="hero home-hero"><div class="home-hero-copy"><h1 class="display-title">拉丁美洲<br /><em>文学地图</em></h1><p class="home-hero-en">LATIN AMERICAN<br />LITERATURE ATLAS</p><p class="lede">从马孔多、科马拉到布宜诺斯艾利斯。<br />从地图进入文学。</p><p class="home-hero-assist">From Macondo and Comala to Buenos Aires.<br />Enter the map, and step into literature.</p><div class="home-hero-action"><a class="hero-map-link" href="#literary-map">从地图开始 →</a><span>A More Plural Latin America<br />A Deeper Reading</span></div></div><div class="home-collage"><img class="home-collage-landscape" src="${new URL("assets/editorial/hero-caribbean-writing-desk-v1.webp", SITE_ROOT).pathname}" alt="加勒比海岸的文学档案拼贴" width="1440" height="1080" fetchpriority="high" /><img class="home-collage-city" src="${new URL("assets/editorial/hero-colonial-balcony-v1.webp", SITE_ROOT).pathname}" alt="拉丁美洲城市阳台" width="720" height="960" /><figure class="home-collage-portrait"><img src="${new URL("assets/portraits/v1-ent-0072.jpg", SITE_ROOT).pathname}" alt="加西亚·马尔克斯肖像" width="720" height="1115" /><figcaption>Gorup de Besanez · <a href="https://commons.wikimedia.org/wiki/File:Gabriel_Garc%C3%ADa_M%C3%A1rquez_02_(cropped).jpg" target="_blank" rel="noreferrer">CC BY-SA 4.0</a></figcaption></figure><img class="home-collage-stamp" src="${new URL("assets/editorial/literary-postage-stamp-v1.webp", SITE_ROOT).pathname}" alt="" width="560" height="747" /><p class="home-collage-script">Nuestra América<br />también escribe.</p><p class="home-collage-words">TERRITORIOS<br />VOCES<br />HISTORIAS<br />LITERATURA</p></div></section>
+  <section class="map-first" id="literary-map"><div class="map-plate-heading"><span>PLATE 01</span><div><p>LATIN AMERICA<br />LITERARY GEOGRAPHY</p><h2>拉丁美洲文学地理</h2></div><small>A continent of stories.<br />Real places, imagined worlds.</small></div>${mapMarkup()}</section>
   <section class="section"><div class="section-heading"><h2>如何进入拉美文学</h2><p>不必先读完文学史。可以从空间、篇幅、语言区域或时间开始。</p></div><div class="path-grid">${navigationPaths.slice(0, 10).map((path, index) => `<a class="path-card" href="${path.href}"><span>${String(index + 1).padStart(2, "0")}</span><h3>${escapeHtml(path.title)}</h3><p>${escapeHtml(path.description)}</p><b>打开探索入口 →</b></a>`).join("")}</div></section>
+  ${homeFeaturedAuthors()}
   ${homeAnecdoteSection()}
   <section class="section timeline-preview"><div><p class="eyebrow">沿时间进入</p><h2>把作家和作品放回时间中。</h2><p>${escapeHtml(data.presentation.timeline_note || "先按作家的生卒年与作品的发表年份建立时间感，再沿年代继续阅读。")}</p><a class="text-link" href="${new URL("timeline/", SITE_ROOT).pathname}">打开文学时间线 →</a></div>${periods.length ? `<ol>${periods.map((period) => `<li><span>${escapeHtml(period.display_range || `${period.start}—${period.end}`)}</span><strong>${escapeHtml(period.title)}</strong></li>`).join("")}</ol>` : ""}</section>
   <section class="section about-preview"><div><p class="eyebrow">关于项目</p><h2>地点怎样进入文学，文学又怎样重新创造地点？</h2></div><p>这张地图不是把作家简单钉在出生地上，而是邀请你观察：一座城市如何塑造写作，一段历史如何进入故事，一个虚构空间又如何改变我们理解现实的方式。</p><a class="text-link" href="${new URL("about/", SITE_ROOT).pathname}">为什么做这张地图 →</a></section>`;
@@ -575,7 +633,7 @@ function anecdoteSection(anecdotes) {
   const featured = anecdotes.slice(0, ANECDOTE_FEATURED_COUNT).map(anecdoteCard).join("");
   const rest = anecdotes.slice(ANECDOTE_FEATURED_COUNT);
   const more = rest.length ? `<details class="anecdote-more"><summary>更多故事（${rest.length}）</summary><div class="card-grid">${rest.map(anecdoteCard).join("")}</div></details>` : "";
-  return `<section class="section anecdotes-section" id="author-anecdotes"><div class="section-heading"><h2>作家的另一面</h2><p>把作品放回具体的生活：这些人物故事照见写作之外的时刻。</p></div><div class="card-grid">${featured}</div>${more}</section>`;
+  return `<section class="section anecdotes-section author-fifth-chapter" id="author-anecdotes"><div class="section-heading"><h2><span class="chapter-number">05</span> 作家的另一面 <small>ANECDOTES</small></h2><p>把作品放回具体的生活：这些人物故事照见写作之外的时刻。</p></div><div class="card-grid">${featured}</div>${more}</section>`;
 }
 
 function renderAuthor(id) {
@@ -593,24 +651,36 @@ function renderAuthor(id) {
   const keywords = copy.signature_keywords || (copy.literary_features || []).map((feature) => feature.title).slice(0, 3);
   const bibliographicWorks = allWorks.filter((work) => !isPublic(work.entity_id)).slice(0, Math.max(0, 3 - works.length));
   setMeta(item.name_zh, lede, routePath("author", id));
-  app.innerHTML = `<section class="page-header"><p class="eyebrow">作家</p><h1 class="display-title">${escapeHtml(item.name_zh)}</h1><div class="page-header-meta"><span class="tag coral">${escapeHtml(item.original_name || "")}</span>${card?.country_or_region ? `<span class="tag">${escapeHtml(card.country_or_region)}</span>` : ""}${birth ? `<span class="tag">${birth}${death ? `—${death}` : "—"}</span>` : ""}</div><div class="keyword-row">${keywords.map((keyword) => `<span>${escapeHtml(keyword)}</span>`).join("")}</div><p class="lede">${escapeHtml(lede)}</p></section>
-  ${copy.why_know ? `<section class="section"><div class="section-heading"><h2>为什么值得认识</h2></div><p class="lede compact">${escapeHtml(copy.why_know)}</p></section>` : ""}
-  ${copy.reader_fit ? `<section class="section reader-fit"><p class="eyebrow">如果你喜欢……</p><p class="lede compact">${escapeHtml(copy.reader_fit)}</p></section>` : ""}
-  ${anecdoteSection(copy.anecdotes)}
-  <section class="section"><div class="section-heading"><h2>从哪里认识他 / 她</h2><p>沿生平、创作与地点之间的联系继续。</p></div><div class="card-grid">${places.map(placeCard).join("") || "<p>还没有可展示的相关地点。</p>"}</div></section>
-  <section class="section"><div class="section-heading"><h2>读什么</h2><p>从作品导读进入，也可以顺着代表书目了解创作脉络。</p></div><div class="card-grid">${works.map(workCard).join("")}${bibliographicWorks.map((work) => `<article class="card bibliography-card"><div><div class="card-meta"><span>代表作品</span><span>${escapeHtml(fact(work.entity_id, "first_publication_year", "publication_year")?.value_text || "")}</span></div><h3>${escapeHtml(work.name_zh)}</h3><p>${escapeHtml(work.original_name || "")}</p></div></article>`).join("")}</div></section>
-  ${copy.literary_features ? `<section class="section"><div class="section-heading"><h2>写作的辨识度</h2><p>从叙事方式与语言特征进入。</p></div><div class="feature-grid">${copy.literary_features.map((feature) => `<article><h3>${escapeHtml(feature.title)}</h3><p>${escapeHtml(feature.text)}</p></article>`).join("")}</div></section>` : ""}
-  ${copy.core_themes ? `<section class="section themes-section"><div class="section-heading"><h2>他 / 她在写什么</h2><p>沿核心主题继续理解作品。</p></div><div class="theme-grid">${copy.core_themes.map((topic) => `<article><h3>${escapeHtml(topic.title)}</h3><p>${escapeHtml(topic.text)}</p></article>`).join("")}</div></section>` : ""}
-  ${copy.reading_route ? `<section class="section"><div class="section-heading"><h2>一条阅读路线</h2><p>从入门到继续探索，每一步都指向下一层文学问题。</p></div><ol class="route-steps">${copy.reading_route.map((step) => `<li>${escapeHtml(step)}</li>`).join("")}</ol></section>` : ""}
-  ${copy.guiding_question ? `<section class="section guiding-question"><p class="eyebrow">带着一个问题去读</p><blockquote>${escapeHtml(copy.guiding_question)}</blockquote></section>` : ""}
-  <section class="section"><div class="section-heading"><h2>文学关系</h2><p>沿作品与地点之间的联系继续。</p></div><div class="linked-list">${works.slice(0, 3).map((work) => `<a class="linked-item" href="${hrefFor("work", work.entity_id)}"><strong>${escapeHtml(work.name_zh)}</strong><span>由${escapeHtml(item.name_zh)}创作</span></a>`).join("")}${places.slice(0, 3).map((mapped) => `<a class="linked-item" href="${hrefFor(routeTypeFor(mapped.place_id), mapped.place_id)}"><strong>${escapeHtml(mapped.name_zh)}</strong><span>与生平或创作有关的地点</span></a>`).join("")}</div>${researchPanel(id, curationFor(id, "page_lede")?.source_refs)}</section>`;
+  app.innerHTML = `<section class="page-header author-profile-header"><div class="author-profile-copy"><p class="eyebrow">作家 · AUTHORS</p><h1 class="display-title">${escapeHtml(item.name_zh)}</h1>${item.original_name ? `<p class="author-original-name">${escapeHtml(item.original_name)}</p>` : ""}<div class="page-header-meta">${card?.country_or_region ? `<span class="tag">${escapeHtml(card.country_or_region)}</span>` : ""}${birth ? `<span class="tag">${birth}${death ? `—${death}` : "—"}</span>` : ""}</div><div class="keyword-row">${keywords.map((keyword) => `<span>${escapeHtml(keyword)}</span>`).join("")}</div><p class="lede">${escapeHtml(lede)}</p></div>${portraitMarkup(id, item.name_zh, "author-profile-portrait")}</section>
+  <div class="author-chapters">
+    <section class="author-chapter"><header><span>01</span><div><h2>生平与写作</h2><small>BIOGRAPHY</small></div></header>
+      <div class="author-subsection"><h3>为什么值得认识</h3><p>${escapeHtml(copy.why_know || lede)}</p></div>
+      ${copy.reader_fit ? `<div class="author-subsection"><h3>如果你喜欢……</h3><p>${escapeHtml(copy.reader_fit)}</p></div>` : ""}
+    </section>
+    <section class="author-chapter"><header><span>02</span><div><h2>代表作品</h2><small>KEY WORKS</small></div></header>
+      <div class="author-subsection"><h3>读什么</h3><p>从作品导读进入，也可以顺着代表书目了解创作脉络。</p><div class="author-chapter-cards">${works.map(workCard).join("")}${bibliographicWorks.map((work) => `<article class="card bibliography-card"><div><div class="card-meta"><span>代表作品</span><span>${escapeHtml(fact(work.entity_id, "first_publication_year", "publication_year")?.value_text || "")}</span></div><h3>${escapeHtml(work.name_zh)}</h3><p>${escapeHtml(work.original_name || "")}</p></div></article>`).join("")}</div></div>
+      ${copy.reading_route ? `<div class="author-subsection"><h3>一条阅读路线</h3><ol class="route-steps">${copy.reading_route.map((step) => `<li>${escapeHtml(step)}</li>`).join("")}</ol></div>` : ""}
+      ${copy.guiding_question ? `<div class="author-subsection guiding-question"><p class="eyebrow">带着一个问题去读</p><blockquote>${escapeHtml(copy.guiding_question)}</blockquote></div>` : ""}
+    </section>
+    <section class="author-chapter"><header><span>03</span><div><h2>地点与空间</h2><small>PLACES</small></div></header>
+      <div class="author-subsection"><h3>从哪里认识他 / 她</h3><p>沿生平、创作与地点之间的联系继续。</p><div class="author-chapter-cards">${places.map(placeCard).join("") || "<p>还没有可展示的相关地点。</p>"}</div></div>
+      ${copy.core_themes ? `<div class="author-subsection"><h3>他 / 她在写什么</h3><div class="author-topic-list">${copy.core_themes.map((topic) => `<article><strong>${escapeHtml(topic.title)}</strong><p>${escapeHtml(topic.text)}</p></article>`).join("")}</div></div>` : ""}
+    </section>
+    <section class="author-chapter"><header><span>04</span><div><h2>文学关系</h2><small>CONNECTIONS</small></div></header>
+      ${copy.literary_features ? `<div class="author-subsection"><h3>写作的辨识度</h3><div class="author-topic-list">${copy.literary_features.map((feature) => `<article><strong>${escapeHtml(feature.title)}</strong><p>${escapeHtml(feature.text)}</p></article>`).join("")}</div></div>` : ""}
+      <div class="author-subsection"><h3>文学关系</h3><div class="linked-list">${works.slice(0, 3).map((work) => `<a class="linked-item" href="${hrefFor("work", work.entity_id)}"><strong>${escapeHtml(work.name_zh)}</strong><span>由${escapeHtml(item.name_zh)}创作</span></a>`).join("")}${places.slice(0, 3).map((mapped) => `<a class="linked-item" href="${hrefFor(routeTypeFor(mapped.place_id), mapped.place_id)}"><strong>${escapeHtml(mapped.name_zh)}</strong><span>与生平或创作有关的地点</span></a>`).join("")}</div></div>
+      ${researchPanel(id, curationFor(id, "page_lede")?.source_refs)}
+    </section>
+  </div>
+  ${anecdoteSection(copy.anecdotes)}`;
 }
 
 function renderWork(id) {
   const item = entity(id);
   const card = cardFor(id);
-  if (!item || item.entity_type !== "work" || !isPublic(id)) return renderNotFound();
+  if (!item || !["work", "collection"].includes(item.entity_type) || !isPublic(id)) return renderNotFound();
   const copy = contentFor("works", id);
+  const narrativeFeatures = (copy.narrative_features || []).map((feature) => typeof feature === "string" ? { title: feature, text: "" } : feature);
   const allRelations = relationsFor(id);
   const authors = allRelations.filter((relation) => relation.object_id === id && relation.relation_type === "CREATED").map((relation) => entity(relation.subject_id)).filter(Boolean);
   const locations = allRelations.filter((relation) => relation.subject_id === id && relation.relation_type === "SET_IN").map((relation) => place(relation.object_id)).filter((mapped) => mapped && mapped.map_status !== "hidden" && mapped.reality_status !== "unknown");
@@ -626,9 +696,9 @@ function renderWork(id) {
     ? `<a class="linked-item" href="${hrefFor("author", author.entity_id)}"><strong>${escapeHtml(author.name_zh)}</strong><span>作者</span></a>`
     : `<article class="linked-item"><strong>${escapeHtml(author.name_zh)}</strong><span>作者</span></article>`).join("");
   setMeta(item.name_zh, summary, routePath("work", id));
-  app.innerHTML = `<section class="page-header"><p class="eyebrow">作品</p><h1 class="display-title">${escapeHtml(item.name_zh)}</h1><div class="page-header-meta"><span class="tag coral">${escapeHtml(item.original_name || "")}</span>${authorLabel}${year ? `<span class="tag">${escapeHtml(year)}</span>` : ""}${genre ? `<span class="tag">${escapeHtml(genre)}</span>` : ""}${card?.country_or_region ? `<span class="tag">${escapeHtml(card.country_or_region)}</span>` : ""}</div><p class="lede">${escapeHtml(summary)}</p></section>
+  app.innerHTML = `<section class="page-header work-profile-header"><div class="work-profile-copy"><p class="eyebrow">作品档案 · LITERARY EDITION</p><h1 class="display-title">${escapeHtml(item.name_zh)}</h1>${item.original_name ? `<p class="work-profile-original">${escapeHtml(item.original_name)}</p>` : ""}<div class="page-header-meta">${authorLabel}${year ? `<span class="tag">${escapeHtml(year)}</span>` : ""}${genre ? `<span class="tag">${escapeHtml(genre)}</span>` : ""}${card?.country_or_region ? `<span class="tag">${escapeHtml(card.country_or_region)}</span>` : ""}</div><p class="lede">${escapeHtml(summary)}</p></div><figure class="work-profile-edition">${editionCoverMarkup(item, year)}<figcaption>项目原创策展版式，非原书封面。</figcaption></figure></section>
   <section class="content-grid"><div class="content-copy"><h2>它讲了什么</h2><p>${escapeHtml(introduction)}</p>${whyRead ? `<h2>为什么值得读</h2><div class="feature-grid">${whyRead.map((point) => `<article><h3>${escapeHtml(point.title)}</h3><p>${escapeHtml(point.text)}</p></article>`).join("")}</div>` : ""}</div><aside class="side-rail"><div class="info-box"><h3>作品概览</h3><dl class="info-list">${authors[0] ? `<div><dt>作者</dt><dd>${escapeHtml(authors[0].name_zh)}</dd></div>` : ""}${year ? `<div><dt>首次出版/发表</dt><dd>${escapeHtml(year)}</dd></div>` : ""}${genre ? `<div><dt>体裁</dt><dd>${escapeHtml(genre)}</dd></div>` : ""}${card?.country_or_region ? `<div><dt>国家或地区</dt><dd>${escapeHtml(card.country_or_region)}</dd></div>` : ""}</dl></div>${copy.reading_approach ? `<div class="info-box"><h3>怎么读这本书</h3><p>${escapeHtml(copy.reading_approach)}</p></div>` : ""}</aside></section>
-  ${copy.narrative_features ? `<section class="section"><div class="section-heading"><h2>叙事与形式</h2><p>从叙事结构与语言方式进入。</p></div><div class="feature-grid">${copy.narrative_features.map((feature) => `<article><h3>${escapeHtml(feature.title)}</h3><p>${escapeHtml(feature.text)}</p></article>`).join("")}</div></section>` : ""}
+  ${narrativeFeatures.length ? `<section class="section"><div class="section-heading"><h2>叙事与形式</h2><p>从叙事结构与语言方式进入。</p></div><div class="feature-grid">${narrativeFeatures.map((feature) => `<article><h3>${escapeHtml(feature.title)}</h3>${feature.text ? `<p>${escapeHtml(feature.text)}</p>` : ""}</article>`).join("")}</div></section>` : ""}
   ${locations.length || copy.location_note ? `<section class="section"><div class="section-heading"><h2>它发生在哪里</h2>${copy.location_note ? `<p>${escapeHtml(copy.location_note)}</p>` : ""}</div><div class="card-grid">${locations.map(placeCard).join("")}</div></section>` : ""}
   ${copy.theme_explanations ? `<section class="section"><div class="section-heading"><h2>它在讨论什么</h2><p>沿核心主题继续理解作品。</p></div><div class="theme-grid">${copy.theme_explanations.map((clue) => `<article><h3>${escapeHtml(clue.title)}</h3><p>${escapeHtml(clue.text)}</p></article>`).join("")}</div></section>` : ""}
   ${copy.literary_significance ? `<section class="section significance"><div class="section-heading"><h2>文学史位置</h2></div><p class="lede compact">${escapeHtml(copy.literary_significance)}</p></section>` : ""}
@@ -644,7 +714,7 @@ function renderSearch(query = "") {
   const direct = data.search_index.filter((item) => !hidden.has(item.target_id) && (!normalized || item.search_text.toLowerCase().includes(normalized)));
   const expandedIds = normalized ? new Set(direct.flatMap((item) => item.related_ids || [])) : new Set();
   const ranked = data.search_index.filter((item) => direct.includes(item) || expandedIds.has(item.target_id)).sort((a, b) => Number(direct.includes(b)) - Number(direct.includes(a)));
-  const results = ranked.filter((item) => searchFilter === "all" || item.target_type === searchFilter).slice(0, 80);
+  const results = ranked.filter((item) => searchFilter === "all" || item.target_type === searchFilter);
   const grouped = new Map();
   results.forEach((item) => { if (!grouped.has(item.target_type)) grouped.set(item.target_type, []); grouped.get(item.target_type).push(item); });
   const groups = [...grouped.entries()].map(([type, items]) => `<section class="search-group"><h2>${typeLabel(type)}<span>${items.length}</span></h2><div class="search-results">${items.map((item) => `<a class="search-result" href="${hrefFor(item.target_type, item.target_id)}"><div><strong>${escapeHtml(item.name_zh)}</strong><small>${escapeHtml(typeLabel(item.target_type))}${item.original_name ? ` · ${escapeHtml(item.original_name)}` : ""}</small></div><span>→</span></a>`).join("")}</div></section>`).join("");
@@ -661,17 +731,42 @@ function itemYear(item) {
 }
 
 function renderTimeline() {
-  const periods = data.presentation.timeline_periods;
-  const fallbackPeriods = [
-    { id: "years-before-1940", title: "1940 年以前", start: 1800, end: 1939 },
-    { id: "years-1940-1959", title: "1940—1959", start: 1940, end: 1959 },
-    { id: "years-1960-1979", title: "1960—1979", start: 1960, end: 1979 },
-    { id: "years-after-1980", title: "1980 年以后", start: 1980, end: 2100 },
-  ];
-  const groups = (periods.length ? periods : fallbackPeriods).map((period) => ({ ...period, items: data.timeline.filter((item) => { const year = itemYear(item); return year && year >= period.start && year <= period.end && item.node_type !== "historical_background" && isPublic(item.entity.entity_id); }) }));
+  const entries = data.timeline
+    .filter((item) => ["literary_author", "literary_work"].includes(item.node_type) && itemYear(item) && isPublic(item.entity.entity_id))
+    .sort((first, second) => itemYear(first) - itemYear(second) || first.entity.entity_id.localeCompare(second.entity.entity_id));
   const backgrounds = data.timeline.filter((item) => item.node_type === "historical_background" && relationsFor(item.entity.entity_id).some((relation) => relation.relation_type === "BASED_ON_EVENT"));
+  const stageFor = (item) => {
+    const year = itemYear(item);
+    if (year < 1900) return "early";
+    if (year < 1960) return "modern";
+    if (year < 1980) return "boom-years";
+    return "contemporary";
+  };
   setMeta("文学时间线", "沿文学时期、作家与作品理解拉丁美洲文学的发展。", "timeline/");
-  app.innerHTML = `<section class="timeline-page"><p class="eyebrow">文学时间线</p><h1 class="display-title">沿时间进入<br /><em>拉丁美洲文学</em></h1><p class="lede">${escapeHtml(data.presentation.timeline_note || "按作家的生卒年与作品的首次发表年份排列，帮助读者建立时间感。")}</p><div class="timeline-full">${groups.map((group) => `<section class="timeline-group"><div class="section-heading"><h2>${escapeHtml(group.title)}</h2><p>${escapeHtml(group.display_range || `${group.start}—${group.end}`)}</p></div>${group.items.slice(0, 12).map((item) => { const targetType = item.node_type === "literary_author" ? "author" : "work"; return `<div class="timeline-item"><time>${escapeHtml(item.year_label)}</time><div><strong><a href="${hrefFor(targetType, item.entity.entity_id)}">${escapeHtml(item.entity.name_zh)}</a></strong><p>${targetType === "author" ? "作家" : "作品"}</p></div></div>`; }).join("") || "<p>这一年代还没有可展示的条目。</p>"}</section>`).join("")}${backgrounds.length ? `<section class="timeline-group background"><div class="section-heading"><h2>理解作品的历史背景</h2><p>与具体作品直接相连的历史背景</p></div>${backgrounds.map((item) => `<div class="timeline-item"><time>${escapeHtml(item.year_label)}</time><div><strong>${escapeHtml(item.entity.name_zh)}</strong><p>历史背景</p></div></div>`).join("")}</section>` : ""}</div></section>`;
+  app.innerHTML = `<section class="timeline-page"><header class="timeline-hero"><div><p class="eyebrow">文学时间线 · TIMELINE</p><h1 class="display-title">时间线</h1></div><div><h2>一部文学的大陆编年史</h2><p class="lede">${escapeHtml(data.presentation.timeline_note || "从作品、作家与历史相遇的时刻进入拉丁美洲文学。")}</p></div></header>
+  <div class="timeline-toolbar"><div><strong>筛选时间线</strong><small>FILTER TIMELINE</small></div><div class="timeline-type-filters" role="group" aria-label="按类型筛选时间线"><button type="button" data-timeline-kind="all" aria-pressed="true">全部 ${entries.length}</button><button type="button" data-timeline-kind="literary_work" aria-pressed="false">作品 / 出版 ${entries.filter((item) => item.node_type === "literary_work").length}</button><button type="button" data-timeline-kind="literary_author" aria-pressed="false">作家生平 ${entries.filter((item) => item.node_type === "literary_author").length}</button></div><label for="timeline-stage">年代窗口<select id="timeline-stage" aria-describedby="timeline-stage-note"><option value="all">全部年代</option><option value="early">1900 年以前｜早期文脉</option><option value="modern">1900–1959｜现代写作</option><option value="boom-years">1960–1979｜文学爆炸年代</option><option value="contemporary">1980 年以后｜当代及延伸</option></select></label><a class="hero-map-link" href="${SITE_ROOT.pathname}#literary-map">探索地图视图 →</a></div>
+  <div class="timeline-legend"><p id="timeline-count" aria-live="polite">当前显示 ${entries.length} / ${entries.length} 条</p><p id="timeline-stage-note">年代窗口只按事件首年分段：作家取出生年，作品取首次出版年；不代表文学运动归属。</p></div>
+  <p class="timeline-empty" hidden>这个组合暂无公开记录，请尝试其他年代或类型。</p>
+  <div class="timeline-ledger" tabindex="0" aria-label="横向文学时间线，可左右滚动">${entries.map((item) => { const author = item.node_type === "literary_author"; const id = item.entity.entity_id; const copy = contentFor(author ? "authors" : "works", id); const note = author ? copy.reader_lede : copy.reading_premise; return `<article class="timeline-card" data-timeline-kind="${item.node_type}" data-timeline-stage="${stageFor(item)}"><time>${escapeHtml(item.year_label)}</time><a href="${hrefFor(author ? "author" : "work", id)}"><span>${author ? "作家生平" : "作品 / 出版"}</span><h2>${escapeHtml(item.entity.name_zh)}</h2><p>${escapeHtml(note || "沿时间进入文学档案。")}</p><b>打开档案 →</b></a></article>`; }).join("")}</div>
+  ${backgrounds.length ? `<section class="timeline-backgrounds"><h2>理解作品的历史背景</h2><p>仅显示与具体作品有直接关联的历史背景。</p><div>${backgrounds.map((item) => `<article><time>${escapeHtml(item.year_label)}</time><strong>${escapeHtml(item.entity.name_zh)}</strong></article>`).join("")}</div></section>` : ""}</section>`;
+  const cards = [...app.querySelectorAll(".timeline-card")];
+  const stage = app.querySelector("#timeline-stage");
+  const update = () => {
+    const kind = app.querySelector('[data-timeline-kind][aria-pressed="true"]').dataset.timelineKind;
+    let visible = 0;
+    cards.forEach((card) => {
+      card.hidden = (kind !== "all" && card.dataset.timelineKind !== kind) || (stage.value !== "all" && card.dataset.timelineStage !== stage.value);
+      if (!card.hidden) visible += 1;
+    });
+    app.querySelector("#timeline-count").textContent = `当前显示 ${visible} / ${entries.length} 条`;
+    app.querySelector(".timeline-empty").hidden = visible !== 0;
+    app.querySelector(".timeline-ledger").scrollLeft = 0;
+  };
+  app.querySelectorAll(".timeline-type-filters button").forEach((button) => button.addEventListener("click", () => {
+    app.querySelectorAll(".timeline-type-filters button").forEach((item) => item.setAttribute("aria-pressed", String(item === button)));
+    update();
+  }));
+  stage.addEventListener("change", update);
 }
 
 function renderAbout() {
@@ -732,13 +827,29 @@ function renderRoute() {
 
 menuToggle?.addEventListener("click", () => { const open = nav.classList.toggle("open"); menuToggle.setAttribute("aria-expanded", String(open)); });
 nav?.addEventListener("click", () => { nav.classList.remove("open"); menuToggle?.setAttribute("aria-expanded", "false"); });
+app.addEventListener("error", (event) => {
+  if (!(event.target instanceof HTMLImageElement)) return;
+  const figure = event.target.closest(".author-directory-portrait, .author-profile-portrait, .home-author-portrait, .home-collage-portrait");
+  if (!figure) return;
+  figure.classList.add("portrait-fallback");
+  const label = document.createElement("span");
+  label.textContent = "LATAM";
+  event.target.replaceWith(label);
+}, true);
 
-Promise.all([fetch(DATA_URL), fetch(MAP_URL)]).then(async ([dataResponse, mapResponse]) => {
-  if (!dataResponse.ok || !mapResponse.ok) throw new Error("公开内容暂时无法载入");
-  [data, geography] = await Promise.all([dataResponse.json(), mapResponse.json()]);
-  mapProjectionViewport = projectionViewport(geography);
+async function loadPublicApplication() {
+  const route = initialRoute();
+  const responses = await Promise.all(route.kind === "home" ? [fetch(DATA_URL), fetch(MAP_URL)] : [fetch(DATA_URL)]);
+  if (responses.some((response) => !response.ok)) throw new Error("公开内容暂时无法载入");
+  data = await responses[0].json();
+  if (route.kind === "home") {
+    geography = await responses[1].json();
+    mapProjectionViewport = projectionViewport(geography);
+  }
   renderRoute();
-}).catch((error) => {
+}
+
+loadPublicApplication().catch((error) => {
   console.error("Public application failed to render", error);
   app.innerHTML = `<div class="error-box"><h1>文学地图暂时没有打开。</h1><p>公开内容暂时无法载入。请稍后重试。</p></div>`;
 });

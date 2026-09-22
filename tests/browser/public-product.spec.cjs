@@ -81,6 +81,23 @@ test("home, map, country and mobile navigation", async ({ page, isMobile, reques
   await expect(page.getByText("胡安·鲁尔福").first()).toBeVisible();
 });
 
+test("home hero renders before the map geometry finishes loading", async ({ page }) => {
+  let releaseMap;
+  const mapGate = new Promise((resolve) => { releaseMap = resolve; });
+  await page.route("**/natural-earth-5.1.1-admin0-50m-latin-america.geojson", async (route) => {
+    await mapGate;
+    await route.continue();
+  });
+  try {
+    await page.goto("");
+    await expect(page.locator(".home-hero .display-title")).toBeVisible();
+    await expect(page.locator(".map-loading")).toBeVisible();
+  } finally {
+    releaseMap();
+  }
+  await expect(page.locator('[data-home-map] svg[data-projection="LAEA"]')).toBeVisible();
+});
+
 test("a newly public L1 country is promoted with its projected Chinese label", async ({ page }) => {
   await page.route("**/data/v2/web/site_data.json", async (route) => {
     const response = await route.fetch();

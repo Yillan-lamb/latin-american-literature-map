@@ -125,6 +125,8 @@ button:focus-visible, a:focus-visible, input:focus-visible, summary:focus-visibl
 .section-heading p { max-width: 420px; margin: 0; color: var(--muted); font-size: 16px; line-height: 1.65; }
 
 .map-shell { overflow: hidden; border: 1px solid var(--ink); background: #d9dfd6; box-shadow: 11px 13px 0 rgba(52,75,118,.13), -5px -5px 0 rgba(255,253,248,.65); transform: rotate(-.15deg); }
+.map-loading { display: grid; min-height: min(560px, 65vh); place-items: center; padding: 24px; color: var(--blue); background: rgba(217,223,214,.78); font: 600 16px/1.6 var(--serif); letter-spacing: .04em; }
+.map-loading-error { color: var(--coral-deep); }
 .map-toolbar { display: flex; align-items: center; justify-content: space-between; gap: 20px; padding: 16px 18px; background: var(--white); border-bottom: 1px solid var(--line); }
 .map-toolbar strong { font: 600 18px/1 var(--serif); }
 .map-legend { display: flex; gap: 16px; flex-wrap: wrap; color: var(--muted); font-size: 12px; }

@@ -433,10 +433,18 @@ test("timeline, semantic routes, metadata and 404", async ({ page }) => {
 
 test("about page explains the reader journey", async ({ page }) => {
   await page.goto("about/");
+  await expect(page.getByRole("heading", { name: "关于项目", exact: true })).toBeVisible();
   await expect(page.getByRole("heading", { name: /为什么做一张/ })).toBeVisible();
+  await expect(page.locator(".about-profile-collage")).toBeVisible();
+  await expect(page.locator(".about-profile-portrait figcaption")).toContainText("Public domain");
+  await expect(page.locator(".about-sections > article")).toHaveCount(5);
   for (const heading of ["这是什么", "为什么是一张地图", "你可以怎样探索", "不止魔幻现实主义", "一张持续生长的地图"]) {
     await expect(page.getByRole("heading", { name: heading })).toBeVisible();
   }
+  const research = page.locator(".about-research");
+  await expect(research).toBeVisible();
+  await research.locator("summary").click();
+  await expect(page.getByRole("heading", { name: "地图来源、范围与中立性" })).toBeVisible();
 });
 
 test("required author, work and place samples resolve through the public layer", async ({ page }) => {

@@ -320,6 +320,7 @@ test("formal author archive has credited portraits and anecdotes below four edit
   expect(await portrait.evaluate((image) => image.complete && image.naturalWidth > 0)).toBe(true);
   await expect(page.locator(".author-profile-portrait figcaption")).toContainText("Gorup de Besanez");
   await expect(page.locator(".author-profile-portrait figcaption")).toContainText("CC BY-SA 4.0");
+  await expect(page.locator(".author-profile-portrait figcaption")).toContainText("缩放／色调处理");
   const lastChapter = await chapters.last().boundingBox();
   const anecdotes = await page.locator("#author-anecdotes").boundingBox();
   expect(anecdotes.y).toBeGreaterThan(lastChapter.y + lastChapter.height - 2);

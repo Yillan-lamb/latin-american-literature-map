@@ -55,7 +55,8 @@ function portraitMarkup(id, name, className = "author-portrait") {
   if (!portrait) return `<div class="${className} portrait-fallback" aria-label="${escapeHtml(name)}：暂无经核实肖像"><span>LATAM</span></div>`;
   const [creator, source, license] = portrait;
   const licenseUrl = license === "Public domain" ? "https://commons.wikimedia.org/wiki/Help:Public_domain" : `https://creativecommons.org/licenses/by${license.includes("-SA") ? "-sa" : ""}/${license.match(/\d\.\d/)?.[0] || "4.0"}/`;
-  return `<figure class="${className}"><img src="${new URL(`assets/portraits/${id.toLowerCase()}.jpg`, SITE_ROOT).pathname}" alt="${escapeHtml(name)}肖像" loading="lazy" decoding="async" /><figcaption><a href="${escapeHtml(source)}" target="_blank" rel="noreferrer">${escapeHtml(creator)}</a> · <a href="${licenseUrl}" target="_blank" rel="noreferrer">${escapeHtml(license)}</a></figcaption></figure>`;
+  const treatment = license.startsWith("CC ") ? " · 缩放／色调处理" : "";
+  return `<figure class="${className}"><img src="${new URL(`assets/portraits/${id.toLowerCase()}.jpg`, SITE_ROOT).pathname}" alt="${escapeHtml(name)}肖像" loading="lazy" decoding="async" /><figcaption><a href="${escapeHtml(source)}" target="_blank" rel="noreferrer">${escapeHtml(creator)}</a> · <a href="${licenseUrl}" target="_blank" rel="noreferrer">${escapeHtml(license)}</a>${treatment}</figcaption></figure>`;
 }
 
 const escapeHtml = (value) => String(value ?? "").replace(/[&<>"']/g, (character) => ({

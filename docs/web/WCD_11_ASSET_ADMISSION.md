@@ -6,7 +6,7 @@
 | --- | --- | --- | --- | --- |
 | `site/assets/editorial/archive-paper-ivory-v1.webp` | AST-035 | 项目自有 AI 辅助生成 | `26f1b679b8565243ab4b217c27a5d17c6231ae18ae1a803da756f02e569efb2f` | 暖白档案纸纹；母版 PNG `d28a48f0…` 仅做 WebP quality 85 编码，1.9 MB 降至约 100 KB |
 | `site/assets/editorial/nautical-chart-v1.webp` | AST-030 | 项目自有 AI 辅助生成 | `d3da370510928079611683e7776f389039898771ab10c995b1e59ee47c888494` | 地图图版装饰；不含真实边界 |
-| `site/assets/editorial/archive-masthead-v1.webp` | AST-032 | 项目自有 AI 辅助生成 | `d0a9bde7735c15cf890bd167a07ddabc3b24ae86f4fe05f01f938a24e3954c51` | 档案横幅素材，当前未在生产页面启用 |
+| `site/assets/editorial/archive-masthead-v1.webp` | AST-032 | 项目自有 AI 辅助生成 | `d0a9bde7735c15cf890bd167a07ddabc3b24ae86f4fe05f01f938a24e3954c51` | 普通二级页刊头及 About 拼贴背景 |
 | `site/assets/editorial/literary-postage-stamp-v1.webp` | AST-031 | 项目自有 AI 辅助生成 | `804414c072fdb9405a29ce99b10f58140f7a7bf4c60cea04e33d2806daac48a1` | 虚构邮票装饰 |
 | `site/assets/editorial/hero-caribbean-writing-desk-v1.webp` | AST-033 | 项目自有 AI 辅助生成 | `c5d1b39fb57e10fddbf3d7f4fe73c36c50105921e32dd1b771a58e6a0665b810` | 首页文化档案拼贴 |
 | `site/assets/editorial/hero-colonial-balcony-v1.webp` | AST-034 | 项目自有 AI 辅助生成 | `1f0207123f2f051d6459fab35549f6747f0169b189012375eebb16d8e2942727` | 首页城市拼贴 |
@@ -39,4 +39,4 @@
 | `0212` | AST-019 | 佚名 · Public domain | `a24a8c5fe1f5b48` |
 | `0213` | AST-025 | 佚名 · Public domain | `c575c0fe309aeeff` |
 
-母版登记 `WITHDRAWN_IDENTITY_UNVERIFIED` 的 AST-024 没有迁入；其余缺肖像的正式作家实体使用文字占位，不猜测身份。23 张肖像的文件哈希前缀均与母版登记及本地原件一致。许可／身份的母版审核记录仍需正式集成独立 Reviewer 再抽查；整体状态：`PARTIAL / NOT_VERIFIED_FOR_FINAL_INTEGRATION`。
+母版登记 `WITHDRAWN_IDENTITY_UNVERIFIED` 的 AST-024 没有迁入；其余缺肖像的正式作家实体使用文字占位，不猜测身份。23 张肖像的文件哈希前缀均与母版登记及本地原件一致。2026-09-23 已再次复算 6 项 editorial 素材的完整 SHA-256 与 23 张肖像的哈希／文件闭包，并核对所有 editorial 文件均有正式 CSS／DOM 用途；这项机械检查同时修正了 AST-032 仍标成“未启用”的过期用途说明。对 Commons 原页的抽查确认马尔克斯 `CC BY-SA 4.0`、奥内蒂 `CC BY-SA 2.0`、帕斯 `CC BY 3.0` 与阿连德的权利人 Public Domain 声明；抽查也发现 CC 图注只标作者／来源／许可、未声明本地缩放和展示层色调处理，现已为全部 CC 条目增加可见的“缩放／色调处理”说明。其余许可／身份外部来源仍需独立 Reviewer 抽查，不能由哈希一致性或本次样本替代；整体状态保持：`PARTIAL / NOT_VERIFIED_FOR_FINAL_INTEGRATION`。

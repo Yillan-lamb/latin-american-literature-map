@@ -51,6 +51,21 @@ const viewports = [
           images: [...document.images].map((image) => ({ src: image.currentSrc, loaded: image.complete && image.naturalWidth > 0 })),
         }));
         let timelineKeyboardScroll = null;
+        let mapPresentation = null;
+        if (name === "home") {
+          mapPresentation = await page.evaluate(() => {
+            const canvas = document.querySelector(".map-canvas");
+            const panel = document.querySelector(".map-context-panel");
+            const svg = canvas?.querySelector("svg");
+            const fictionalInset = canvas?.querySelector(".fictional-space-inset");
+            return {
+              compassUnderlay: !!canvas && getComputedStyle(canvas).backgroundImage.includes("compass-chart-underlay-v1.jpg"),
+              interactiveCountries: document.querySelectorAll(".country-shape.available").length === 13,
+              mobileInsetClearOfMap: innerWidth > 620 || (!!fictionalInset && !!svg && fictionalInset.getBoundingClientRect().top >= svg.getBoundingClientRect().bottom - 1),
+              desktopPanelFillsMap: innerWidth <= 900 || (!!panel && !!canvas && panel.offsetHeight >= canvas.offsetHeight - 1),
+            };
+          });
+        }
         if (name === "timeline") {
           const ledger = page.locator(".timeline-ledger");
           await ledger.focus();
@@ -62,14 +77,14 @@ const viewports = [
         }
         const screenshot = capture ? `${viewportName}-${name}.png` : null;
         if (screenshot) await page.screenshot({ path: path.join(output, screenshot), fullPage: true });
-        results.push({ viewport: viewportName, name, route, status: response.status(), screenshot, overflow: metrics.documentWidth > metrics.viewportWidth + 1, title: metrics.title, brokenImages: metrics.images.filter((image) => !image.loaded), timelineKeyboardScroll, errors: [...errors] });
+        results.push({ viewport: viewportName, name, route, status: response.status(), screenshot, overflow: metrics.documentWidth > metrics.viewportWidth + 1, title: metrics.title, brokenImages: metrics.images.filter((image) => !image.loaded), mapPresentation, timelineKeyboardScroll, errors: [...errors] });
       }
       await page.close();
     }
   } finally {
     await browser.close();
   }
-  const failed = (item) => item.status !== 200 || item.overflow || item.brokenImages.length || item.timelineKeyboardScroll === false || item.errors.length;
+  const failed = (item) => item.status !== 200 || item.overflow || item.brokenImages.length || (item.mapPresentation && Object.values(item.mapPresentation).some((value) => !value)) || item.timelineKeyboardScroll === false || item.errors.length;
   const status = results.every((item) => !failed(item)) ? "PASS" : "FAIL";
   const report = { status, base, routes: routes.length, checks: results.length, screenshots: results.filter((item) => item.screenshot).length, results };
   fs.writeFileSync(path.join(output, "report.json"), `${JSON.stringify(report, null, 2)}\n`);

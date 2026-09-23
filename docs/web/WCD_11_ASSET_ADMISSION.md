@@ -39,4 +39,4 @@
 | `0212` | AST-019 | 佚名 · Public domain | `a24a8c5fe1f5b48` |
 | `0213` | AST-025 | 佚名 · Public domain | `c575c0fe309aeeff` |
 
-母版登记 `WITHDRAWN_IDENTITY_UNVERIFIED` 的 AST-024 没有迁入；其余缺肖像的正式作家实体使用文字占位，不猜测身份。23 张肖像的文件哈希前缀均与母版登记及本地原件一致。2026-09-23 已再次复算 6 项 editorial 素材的完整 SHA-256 与 23 张肖像的哈希／文件闭包，并核对所有 editorial 文件均有正式 CSS／DOM 用途；这项机械检查同时修正了 AST-032 仍标成“未启用”的过期用途说明。对 Commons 原页的抽查确认马尔克斯 `CC BY-SA 4.0`、奥内蒂 `CC BY-SA 2.0`、帕斯 `CC BY 3.0` 与阿连德的权利人 Public Domain 声明；抽查也发现 CC 图注只标作者／来源／许可、未声明本地缩放和展示层色调处理，现已为全部 CC 条目增加可见的“缩放／色调处理”说明。其余许可／身份外部来源仍需独立 Reviewer 抽查，不能由哈希一致性或本次样本替代；整体状态保持：`PARTIAL / NOT_VERIFIED_FOR_FINAL_INTEGRATION`。
+母版登记 `WITHDRAWN_IDENTITY_UNVERIFIED` 的 AST-024 没有迁入；其余缺肖像的正式作家实体使用文字占位，不猜测身份。23 张肖像的文件哈希前缀均与母版登记及本地原件一致。2026-09-23 已再次复算 6 项 editorial 素材的完整 SHA-256 与 23 张肖像的哈希／文件闭包，并核对所有 editorial 文件均有正式 CSS／DOM 用途；这项机械检查同时修正了 AST-032 仍标成“未启用”的过期用途说明。对 Commons 原页的抽查确认马尔克斯 `CC BY-SA 4.0`、奥内蒂 `CC BY-SA 2.0`、帕斯 `CC BY 3.0` 与阿连德的权利人 Public Domain 声明；抽查也发现 CC 图注只标作者／来源／许可、未声明本地缩放和展示层色调处理，现已为全部 CC 条目增加可见的“缩放／色调处理”说明。首页马尔克斯拼贴肖像也改用同一署名组件，显示作者原始链接、许可和处理说明。其余许可／身份外部来源仍需独立 Reviewer 抽查，不能由哈希一致性或本次样本替代；整体状态保持：`PARTIAL / NOT_VERIFIED_FOR_FINAL_INTEGRATION`。

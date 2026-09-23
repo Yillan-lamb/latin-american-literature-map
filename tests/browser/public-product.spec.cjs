@@ -98,6 +98,25 @@ test("home hero renders before the map geometry finishes loading", async ({ page
   await expect(page.locator('[data-home-map] svg[data-projection="LAEA"]')).toBeVisible();
 });
 
+test("home hero is readable while public data is still loading", async ({ page }) => {
+  let releaseData;
+  const dataGate = new Promise((resolve) => { releaseData = resolve; });
+  await page.route("**/data/v2/web/site_data.json", async (route) => {
+    await dataGate;
+    await route.continue();
+  });
+  try {
+    await page.goto("", { waitUntil: "domcontentloaded" });
+    await expect(page.locator(".home-hero .display-title")).toBeVisible();
+    await expect(page.locator(".home-collage-portrait figcaption")).toContainText("缩放／色调处理");
+    await expect(page.locator(".map-first")).toHaveCount(0);
+  } finally {
+    releaseData();
+  }
+  await expect(page.locator('[data-home-map] svg[data-projection="LAEA"]')).toBeVisible();
+  await expect(page.locator(".home-hero")).toHaveCount(1);
+});
+
 test("a newly public L1 country is promoted with its projected Chinese label", async ({ page }) => {
   await page.route("**/data/v2/web/site_data.json", async (route) => {
     const response = await route.fetch();

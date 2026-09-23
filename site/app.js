@@ -498,6 +498,10 @@ function renderAnecdotes() {
   app.innerHTML = `<section class="page-header"><p class="eyebrow">作家的另一面</p><h1 class="display-title">作家趣闻</h1><p class="lede">把作品放回具体的生活。从人物故事出发，再进入作家页阅读完整趣闻。</p></section><section class="section anecdote-directory"><div class="section-heading"><h2>按作家浏览</h2><p>${entries.length} 位作家已收录可公开的人物故事。</p></div><div class="card-grid anecdote-entry-grid">${entries.map(anecdoteEntryCard).join("")}</div></section>`;
 }
 
+function homeHeroMarkup() {
+  return `<section class="hero home-hero"><div class="home-hero-copy"><h1 class="display-title">拉丁美洲<br /><em>文学地图</em></h1><p class="home-hero-en">LATIN AMERICAN<br />LITERATURE ATLAS</p><p class="lede">从马孔多、科马拉到布宜诺斯艾利斯。<br />从地图进入文学。</p><p class="home-hero-assist">From Macondo and Comala to Buenos Aires.<br />Enter the map, and step into literature.</p><div class="home-hero-action"><a class="hero-map-link" href="#literary-map">从地图开始 →</a><span>A More Plural Latin America<br />A Deeper Reading</span></div></div><div class="home-collage"><img class="home-collage-landscape" src="${new URL("assets/editorial/hero-caribbean-writing-desk-v1.webp", SITE_ROOT).pathname}" alt="加勒比海岸的文学档案拼贴" width="1440" height="1080" fetchpriority="high" /><img class="home-collage-city" src="${new URL("assets/editorial/hero-colonial-balcony-v1.webp", SITE_ROOT).pathname}" alt="拉丁美洲城市阳台" width="720" height="960" />${portraitMarkup("V1-ENT-0072", "加西亚·马尔克斯", "home-collage-portrait")}<img class="home-collage-stamp" src="${new URL("assets/editorial/literary-postage-stamp-v1.webp", SITE_ROOT).pathname}" alt="" width="560" height="747" /><p class="home-collage-script">Nuestra América<br />también escribe.</p><p class="home-collage-words">TERRITORIOS<br />VOCES<br />HISTORIAS<br />LITERATURA</p></div></section>`;
+}
+
 function renderHome(focusContext = false) {
   const periods = data.presentation.timeline_periods.slice(0, 5);
   const publicPaths = data.presentation.reading_paths || [];
@@ -508,13 +512,18 @@ function renderHome(focusContext = false) {
     { title: "沿时间进入", description: "按首次发表年份查看作家和作品，在年代之间建立阅读线索。", href: new URL("timeline/", SITE_ROOT).pathname },
   ];
   setMeta(data.presentation.site.name, data.presentation.site.description);
-  app.innerHTML = `<section class="hero home-hero"><div class="home-hero-copy"><h1 class="display-title">拉丁美洲<br /><em>文学地图</em></h1><p class="home-hero-en">LATIN AMERICAN<br />LITERATURE ATLAS</p><p class="lede">从马孔多、科马拉到布宜诺斯艾利斯。<br />从地图进入文学。</p><p class="home-hero-assist">From Macondo and Comala to Buenos Aires.<br />Enter the map, and step into literature.</p><div class="home-hero-action"><a class="hero-map-link" href="#literary-map">从地图开始 →</a><span>A More Plural Latin America<br />A Deeper Reading</span></div></div><div class="home-collage"><img class="home-collage-landscape" src="${new URL("assets/editorial/hero-caribbean-writing-desk-v1.webp", SITE_ROOT).pathname}" alt="加勒比海岸的文学档案拼贴" width="1440" height="1080" fetchpriority="high" /><img class="home-collage-city" src="${new URL("assets/editorial/hero-colonial-balcony-v1.webp", SITE_ROOT).pathname}" alt="拉丁美洲城市阳台" width="720" height="960" /><figure class="home-collage-portrait"><img src="${new URL("assets/portraits/v1-ent-0072.jpg", SITE_ROOT).pathname}" alt="加西亚·马尔克斯肖像" width="720" height="1115" /><figcaption>Gorup de Besanez · <a href="https://commons.wikimedia.org/wiki/File:Gabriel_Garc%C3%ADa_M%C3%A1rquez_02_(cropped).jpg" target="_blank" rel="noreferrer">CC BY-SA 4.0</a></figcaption></figure><img class="home-collage-stamp" src="${new URL("assets/editorial/literary-postage-stamp-v1.webp", SITE_ROOT).pathname}" alt="" width="560" height="747" /><p class="home-collage-script">Nuestra América<br />también escribe.</p><p class="home-collage-words">TERRITORIOS<br />VOCES<br />HISTORIAS<br />LITERATURA</p></div></section>
-  <section class="map-first" id="literary-map"><div class="map-plate-heading"><span>PLATE 01</span><div><p>LATIN AMERICA<br />LITERARY GEOGRAPHY</p><h2>拉丁美洲文学地理</h2></div><small>A continent of stories.<br />Real places, imagined worlds.</small></div><div data-home-map>${geography ? mapMarkup() : '<div class="map-shell map-loading" role="status">正在展开文学地图……</div>'}</div></section>
+  const existingHero = app.firstElementChild?.classList.contains("home-hero") ? app.firstElementChild : null;
+  if (existingHero) {
+    while (existingHero.nextSibling) existingHero.nextSibling.remove();
+  } else {
+    app.innerHTML = homeHeroMarkup();
+  }
+  app.insertAdjacentHTML("beforeend", `<section class="map-first" id="literary-map"><div class="map-plate-heading"><span>PLATE 01</span><div><p>LATIN AMERICA<br />LITERARY GEOGRAPHY</p><h2>拉丁美洲文学地理</h2></div><small>A continent of stories.<br />Real places, imagined worlds.</small></div><div data-home-map>${geography ? mapMarkup() : '<div class="map-shell map-loading" role="status">正在展开文学地图……</div>'}</div></section>
   <section class="section"><div class="section-heading"><h2>如何进入拉美文学</h2><p>不必先读完文学史。可以从空间、篇幅、语言区域或时间开始。</p></div><div class="path-grid">${navigationPaths.slice(0, 10).map((path, index) => `<a class="path-card" href="${path.href}"><span>${String(index + 1).padStart(2, "0")}</span><h3>${escapeHtml(path.title)}</h3><p>${escapeHtml(path.description)}</p><b>打开探索入口 →</b></a>`).join("")}</div></section>
   ${homeFeaturedAuthors()}
   ${homeAnecdoteSection()}
   <section class="section timeline-preview"><div><p class="eyebrow">沿时间进入</p><h2>把作家和作品放回时间中。</h2><p>${escapeHtml(data.presentation.timeline_note || "先按作家的生卒年与作品的发表年份建立时间感，再沿年代继续阅读。")}</p><a class="text-link" href="${new URL("timeline/", SITE_ROOT).pathname}">打开文学时间线 →</a></div>${periods.length ? `<ol>${periods.map((period) => `<li><span>${escapeHtml(period.display_range || `${period.start}—${period.end}`)}</span><strong>${escapeHtml(period.title)}</strong></li>`).join("")}</ol>` : ""}</section>
-  <section class="section about-preview"><div><p class="eyebrow">关于项目</p><h2>地点怎样进入文学，文学又怎样重新创造地点？</h2></div><p>这张地图不是把作家简单钉在出生地上，而是邀请你观察：一座城市如何塑造写作，一段历史如何进入故事，一个虚构空间又如何改变我们理解现实的方式。</p><a class="text-link" href="${new URL("about/", SITE_ROOT).pathname}">为什么做这张地图 →</a></section>`;
+  <section class="section about-preview"><div><p class="eyebrow">关于项目</p><h2>地点怎样进入文学，文学又怎样重新创造地点？</h2></div><p>这张地图不是把作家简单钉在出生地上，而是邀请你观察：一座城市如何塑造写作，一段历史如何进入故事，一个虚构空间又如何改变我们理解现实的方式。</p><a class="text-link" href="${new URL("about/", SITE_ROOT).pathname}">为什么做这张地图 →</a></section>`);
   bindMapInteractions();
   if (focusContext) document.querySelector(".map-context-panel")?.focus({ preventScroll: true });
 }
@@ -840,6 +849,7 @@ app.addEventListener("error", (event) => {
 
 async function loadPublicApplication() {
   const route = initialRoute();
+  if (route.kind === "home") app.innerHTML = homeHeroMarkup();
   const mapRequest = route.kind === "home" ? fetch(MAP_URL) : null;
   const dataResponse = await fetch(DATA_URL);
   if (!dataResponse.ok) throw new Error("公开内容暂时无法载入");

@@ -17,6 +17,7 @@
 - 首页启动流程不再等待 Natural Earth 几何下载／解析完毕才显示 Hero：Web Data 就绪后先渲染首屏与地图占位，地图随后在局部挂载；地图请求失败时只显示地图内错误，不再抹去已经可读的整页内容。新增将地图请求主动挂起的四浏览器回归，确认 Hero 先出现、请求恢复后 LAEA 地图仍正常激活；完整矩阵更新为 112/112 PASS，正式包与 Web Data/WCD-09 validators 继续 PASS。Lighthouse 移动模拟为首页 75、作品页 79，传统质量项 100、CLS 0；首页 LCP 12.7 秒的元素仍是 180 KB 主拼贴图，因此本次只记为加载韧性改善，不宣称性能门禁通过。
 - 素材台账复算 6 项 editorial 资源和 23 张肖像哈希闭包，并修正 AST-032 已用于普通二级页／About 却仍标为“未启用”的过期说明。Commons 许可样本抽查确认马尔克斯、奥内蒂、帕斯与阿连德条目的页面声明，同时发现 CC 肖像图注缺少改动说明；所有 CC BY／BY-SA 肖像现可见标注“缩放／色调处理”，并新增浏览器回归。其余外部身份／许可仍待独立 Reviewer 完成，不因本轮样本抽查关闭最终素材门禁。
 - 首页 Hero 现于公开数据请求期间先行渲染，数据到达后保留同一 DOM 节点并追加地图与阅读内容；首页马尔克斯拼贴肖像改用统一署名组件，显示作者、原始来源、许可和处理说明。挂起公开数据及地图请求的四浏览器专项 8/8、完整矩阵 116/116、139 路由构建与 public bundle 校验通过。本机 Lighthouse 在 Chromium 启动后两次未完成报告，故本轮 LCP 改善 `NOT_VERIFIED`，性能验收仍开放。
+- 对无 development-preview 横幅的正式输出再次执行 139 路由构建、public bundle、Web Data、WCD-09 implementation 和确定性底图检查，全部 PASS；同一输出的完整四浏览器矩阵 116/116 PASS，含 sitemap 全路由遍历和公开边界检查。WCD-11 Spec 据此关闭构建、路由和浏览器四项可机械验证的验收；视觉、性能、素材独立复核及最终审核继续开放。
 - 这仍是正式集成的早期 Draft 工作，不代表作家／作品／国家／地点／路径等全路由视觉验收完成，也不改变 Research Data、Research Schema、Curation、Web Data schema、公开范围或 Public Release。Web 保持 `0.5.0 Development`；系统性 redesign 的 `0.6.0 Development` 为后续实际实施后的待核建议，不因早期代码提交自动升版。
 
 ## [Data 1.5.0 / Web 0.5.0 — Development] - 2026-09-08

@@ -68,10 +68,10 @@ USER 已通过 PR #36 的视觉预览，但该 PR 的 `previews/wcd-11/` 与正�
 
 ## 验收标准与证据
 
-- [ ] `site/` 和 production bundle 实际使用正式新 UI；不依赖 `previews/` 才能显示。
-- [ ] 生产构建、Web Data validator、public bundle validator、WCD-09 basemap `--check` 与 implementation validator 全部 PASS。
-- [ ] 当前正式 sitemap／搜索／作家／作品／时间线记录全量可达，无 404、缺图、JS 错误、审核字段泄漏或非预期减少。
-- [ ] Chromium 桌面／移动、Firefox 桌面、WebKit 移动完成项目完整 Playwright matrix；对地图、搜索、时间线、目录、趣闻和阅读路径断言功能结果，而非只断言节点存在。
+- [x] `site/` 和 production bundle 实际使用正式新 UI；不依赖 `previews/` 才能显示。
+- [x] 生产构建、Web Data validator、public bundle validator、WCD-09 basemap `--check` 与 implementation validator 全部 PASS。
+- [x] 当前正式 sitemap／搜索／作家／作品／时间线记录全量可达，无 404、缺图、JS 错误、审核字段泄漏或非预期减少。
+- [x] Chromium 桌面／移动、Firefox 桌面、WebKit 移动完成项目完整 Playwright matrix；对地图、搜索、时间线、目录、趣闻和阅读路径断言功能结果，而非只断言节点存在。
 - [ ] 1440×900、390×844 至少覆盖全部上述页面类型的截图对照；320px 无页面级横向溢出；键盘、焦点、对比度、缩放及 `prefers-reduced-motion` 有记录。
 - [ ] Lighthouse 在正式构建上运行并记录与既有基线的差异；回退项须说明理由，不用 preview 分数代替 production。
 - [ ] 图片许可、署名、身份、宽高、失效 fallback 与体积预算通过独立抽查；WCD-09 几何、48/13/35 分层、中立性说明和 de facto 边界继续 PASS。
@@ -89,3 +89,4 @@ USER 已通过 PR #36 的视觉预览，但该 PR 的 `previews/wcd-11/` 与正�
 - 2026-09-23 加载检查：首页以 Web Data 为首屏依赖，Natural Earth 请求继续并行但不再阻塞 Hero；地图加载／失败状态局部收口。四浏览器通过“挂起地图请求仍先显示 Hero，恢复后地图可用”的新断言，完整矩阵 112/112 PASS，public bundle、Web Data 与 WCD-09 implementation validators 继续 PASS。Lighthouse 首页／作品 performance 为 75／79，其他传统类别 100、CLS 0；首页 LCP 12.7 秒仍由主拼贴图触发，故性能复选框继续不勾选。
 - 2026-09-23 素材检查：6 项 editorial 与 23 张肖像哈希闭包复算一致；AST-032 正式用途记录已纠正。Commons 样本复核确认 3 项 CC 与 1 项权利人 Public Domain 页面声明，并补上所有 CC 肖像“缩放／色调处理”的可见改动说明及浏览器断言。其余肖像的独立来源／身份／许可抽查仍未完成，素材复选框继续不勾选。
 - 2026-09-23 首屏补充：首页 Hero 先于公开数据响应渲染；数据到达后保留 Hero 节点并补全地图和正文，避免大 JSON 请求决定首屏图文出现时机。首页拼贴肖像现复用统一来源／许可／处理说明组件。公开数据和地图请求分别被挂起时，四浏览器专项 8/8 PASS；完整矩阵 116/116、139 路由构建和 public bundle PASS。本机 Lighthouse 连续两次停在 Chromium 启动后的阶段，未产生新报告，因此 LCP 是否改善仍为 `NOT_VERIFIED`，性能复选框继续不勾选。
+- 2026-09-23 正式包复核：再次以不带 development-preview 横幅的参数生成 139 路由公共包，public bundle 与 Web Data validators、WCD-09 implementation 和权威 Natural Earth 确定性 `--check` 均 PASS；对这份正式输出重跑完整 Chromium 桌面／移动、Firefox 桌面、WebKit 移动矩阵 116/116 PASS，四浏览器各自遍历 sitemap 全部路由并检查公开文本和控制台错误。前四项可机械验证的验收框据此关闭；截图／缩放／对比度、Lighthouse、素材独立抽查、独立 Reviewer 与 USER 最终 Gate 继续开放。PR #37 head `46ae5f2` 的两项适用 CI 已 SUCCESS，状态 CLEAN，仍为 Draft。

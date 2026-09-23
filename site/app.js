@@ -756,11 +756,18 @@ function renderTimeline() {
   app.innerHTML = `<section class="timeline-page"><header class="timeline-hero"><div><p class="eyebrow">文学时间线 · TIMELINE</p><h1 class="display-title">时间线</h1></div><div><h2>一部文学的大陆编年史</h2><p class="lede">${escapeHtml(data.presentation.timeline_note || "从作品、作家与历史相遇的时刻进入拉丁美洲文学。")}</p></div></header>
   <div class="timeline-toolbar"><div><strong>筛选时间线</strong><small>FILTER TIMELINE</small></div><div class="timeline-type-filters" role="group" aria-label="按类型筛选时间线"><button type="button" data-timeline-kind="all" aria-pressed="true">全部 ${entries.length}</button><button type="button" data-timeline-kind="literary_work" aria-pressed="false">作品 / 出版 ${entries.filter((item) => item.node_type === "literary_work").length}</button><button type="button" data-timeline-kind="literary_author" aria-pressed="false">作家生平 ${entries.filter((item) => item.node_type === "literary_author").length}</button></div><label for="timeline-stage">年代窗口<select id="timeline-stage" aria-describedby="timeline-stage-note"><option value="all">全部年代</option><option value="early">1900 年以前｜早期文脉</option><option value="modern">1900–1959｜现代写作</option><option value="boom-years">1960–1979｜文学爆炸年代</option><option value="contemporary">1980 年以后｜当代及延伸</option></select></label><a class="hero-map-link" href="${SITE_ROOT.pathname}#literary-map">探索地图视图 →</a></div>
   <div class="timeline-legend"><p id="timeline-count" aria-live="polite">当前显示 ${entries.length} / ${entries.length} 条</p><p id="timeline-stage-note">年代窗口只按事件首年分段：作家取出生年，作品取首次出版年；不代表文学运动归属。</p></div>
+  <p class="timeline-scroll-hint">← 向左或向右滑动，或聚焦后按方向键继续看 →</p>
   <p class="timeline-empty" hidden>这个组合暂无公开记录，请尝试其他年代或类型。</p>
   <div class="timeline-ledger" tabindex="0" aria-label="横向文学时间线，可左右滚动">${entries.map((item) => { const author = item.node_type === "literary_author"; const id = item.entity.entity_id; const copy = contentFor(author ? "authors" : "works", id); const note = author ? copy.reader_lede : copy.reading_premise; return `<article class="timeline-card" data-timeline-kind="${item.node_type}" data-timeline-stage="${stageFor(item)}"><time>${escapeHtml(item.year_label)}</time><a href="${hrefFor(author ? "author" : "work", id)}"><span>${author ? "作家生平" : "作品 / 出版"}</span><h2>${escapeHtml(item.entity.name_zh)}</h2><p>${escapeHtml(note || "沿时间进入文学档案。")}</p><b>打开档案 →</b></a></article>`; }).join("")}</div>
   ${backgrounds.length ? `<section class="timeline-backgrounds"><h2>理解作品的历史背景</h2><p>仅显示与具体作品有直接关联的历史背景。</p><div>${backgrounds.map((item) => `<article><time>${escapeHtml(item.year_label)}</time><strong>${escapeHtml(item.entity.name_zh)}</strong></article>`).join("")}</div></section>` : ""}</section>`;
   const cards = [...app.querySelectorAll(".timeline-card")];
   const stage = app.querySelector("#timeline-stage");
+  const ledger = app.querySelector(".timeline-ledger");
+  ledger.addEventListener("keydown", (event) => {
+    if (event.key !== "ArrowLeft" && event.key !== "ArrowRight") return;
+    event.preventDefault();
+    ledger.scrollLeft += event.key === "ArrowRight" ? 180 : -180;
+  });
   const update = () => {
     const kind = app.querySelector('[data-timeline-kind][aria-pressed="true"]').dataset.timelineKind;
     let visible = 0;
@@ -770,7 +777,7 @@ function renderTimeline() {
     });
     app.querySelector("#timeline-count").textContent = `当前显示 ${visible} / ${entries.length} 条`;
     app.querySelector(".timeline-empty").hidden = visible !== 0;
-    app.querySelector(".timeline-ledger").scrollLeft = 0;
+    ledger.scrollLeft = 0;
   };
   app.querySelectorAll(".timeline-type-filters button").forEach((button) => button.addEventListener("click", () => {
     app.querySelectorAll(".timeline-type-filters button").forEach((item) => item.setAttribute("aria-pressed", String(item === button)));

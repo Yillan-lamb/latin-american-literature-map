@@ -372,6 +372,11 @@ test("formal editorial layouts stay within a 320px viewport", async ({ page, bas
     await page.goto(new URL(route, baseURL).href);
     const width = await page.evaluate(() => document.documentElement.scrollWidth);
     expect(width, `${route || "home"} has horizontal overflow at 320px`).toBeLessThanOrEqual(320);
+    if (route === "authors/" || route === "works/") {
+      const nextPage = page.getByRole("button", { name: "下一页" });
+      await nextPage.scrollIntoViewIfNeeded();
+      await expect(nextPage).toBeInViewport({ ratio: 1 });
+    }
   }
 });
 
@@ -443,6 +448,11 @@ test("search and timeline render the full public projection with composable year
   await expect(page.locator("#timeline-count")).toHaveText(`当前显示 ${entries.length} / ${entries.length} 条`);
   await expect(page.getByRole("option", { name: "1960–1979｜文学爆炸年代" })).toHaveCount(1);
   await expect(page.locator("#timeline-stage-note")).toContainText("不代表文学运动归属");
+  await expect(page.locator(".timeline-scroll-hint")).toContainText("按方向键继续看");
+  const ledger = page.locator(".timeline-ledger");
+  await ledger.focus();
+  await page.keyboard.press("ArrowRight");
+  await expect.poll(() => ledger.evaluate((element) => element.scrollLeft)).toBeGreaterThan(0);
 
   const expectedWindow = entries.filter((item) => {
     const year = Number(String(item.year_label).match(/\d{4}/)[0]);

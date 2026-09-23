@@ -47,7 +47,7 @@ button { color: inherit; }
   font-weight: 700;
 }
 
-button:focus-visible, a:focus-visible, input:focus-visible, summary:focus-visible {
+button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible, summary:focus-visible, [tabindex="0"]:focus-visible {
   outline: 3px solid var(--coral);
   outline-offset: 3px;
 }
@@ -467,6 +467,7 @@ button:focus-visible, a:focus-visible, input:focus-visible, summary:focus-visibl
 .timeline-legend { display: flex; justify-content: space-between; gap: 24px; padding: 15px 0 20px; color: var(--muted); }
 .timeline-legend p { margin: 0; font-size: 14px; line-height: 1.6; }
 .timeline-legend #timeline-count { flex: 0 0 auto; color: var(--coral-deep); font-weight: 700; }
+.timeline-scroll-hint { margin: -8px 0 14px; color: var(--coral-deep); font-size: 14px; }
 .timeline-empty { padding: 25px 0; font-size: 16px; }
 .timeline-ledger { display: grid; grid-auto-flow: column; grid-auto-columns: minmax(210px, 245px); gap: 0; max-width: 100%; overflow-x: auto; padding-bottom: 18px; scrollbar-color: var(--coral-deep) var(--paper-deep); }
 .timeline-card { display: grid; grid-template-rows: auto 1fr; min-height: 325px; border-left: 1px solid var(--line); padding: 10px 14px 18px; }
@@ -629,7 +630,8 @@ button:focus-visible, a:focus-visible, input:focus-visible, summary:focus-visibl
   .site-footer { display: block; }
   .site-footer a { display: inline-block; margin-top: 14px; }
   .catalog-pagination { align-items: stretch; gap: 7px; }
-  .catalog-pagination > div { gap: 4px; overflow-x: auto; }
+  .catalog-pagination > div { min-width: 0; flex: 1 1 auto; gap: 4px; overflow-x: auto; }
+  .catalog-pagination > button { flex: 0 0 auto; }
   .catalog-pagination button { min-width: 36px; min-height: 44px; padding: 7px 9px; }
 }
 

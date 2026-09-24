@@ -81,6 +81,42 @@ test("home, map, country and mobile navigation", async ({ page, isMobile, reques
   await expect(page.getByText("胡安·鲁尔福").first()).toBeVisible();
 });
 
+test("home hero renders before the map geometry finishes loading", async ({ page }) => {
+  let releaseMap;
+  const mapGate = new Promise((resolve) => { releaseMap = resolve; });
+  await page.route("**/natural-earth-5.1.1-admin0-50m-latin-america.geojson", async (route) => {
+    await mapGate;
+    await route.continue();
+  });
+  try {
+    await page.goto("");
+    await expect(page.locator(".home-hero .display-title")).toBeVisible();
+    await expect(page.locator(".map-loading")).toBeVisible();
+  } finally {
+    releaseMap();
+  }
+  await expect(page.locator('[data-home-map] svg[data-projection="LAEA"]')).toBeVisible();
+});
+
+test("home hero is readable while public data is still loading", async ({ page }) => {
+  let releaseData;
+  const dataGate = new Promise((resolve) => { releaseData = resolve; });
+  await page.route("**/data/v2/web/site_data.json", async (route) => {
+    await dataGate;
+    await route.continue();
+  });
+  try {
+    await page.goto("", { waitUntil: "domcontentloaded" });
+    await expect(page.locator(".home-hero .display-title")).toBeVisible();
+    await expect(page.locator(".home-collage-portrait figcaption")).toContainText("缩放／色调处理");
+    await expect(page.locator(".map-first")).toHaveCount(0);
+  } finally {
+    releaseData();
+  }
+  await expect(page.locator('[data-home-map] svg[data-projection="LAEA"]')).toBeVisible();
+  await expect(page.locator(".home-hero")).toHaveCount(1);
+});
+
 test("a newly public L1 country is promoted with its projected Chinese label", async ({ page }) => {
   await page.route("**/data/v2/web/site_data.json", async (route) => {
     const response = await route.fetch();
@@ -112,7 +148,7 @@ test("a newly public L1 country is promoted with its projected Chinese label", a
   await expect(page.locator('[data-country-id="QA-COUNTRY-BO"]')).toHaveAttribute("role", "button");
 });
 
-test("home moves catalogs to dedicated navigation pages and places anecdotes after reading paths", async ({ page, request }) => {
+test("home moves catalogs to dedicated navigation pages and places anecdotes after reading paths", async ({ page, request, baseURL }) => {
   const webData = await (await request.get("data/v2/web/site_data.json")).json();
   await page.goto("");
   await expect(page.getByRole("heading", { name: "浏览全部作家" })).toHaveCount(0);
@@ -120,12 +156,13 @@ test("home moves catalogs to dedicated navigation pages and places anecdotes aft
   const readingPaths = page.getByRole("heading", { name: "如何进入拉美文学" });
   const homeAnecdotes = page.locator("[data-home-anecdotes]");
   await expect(readingPaths).toBeVisible();
+  await expect(page.locator(".home-author-grid article")).toHaveCount(4);
   await expect(homeAnecdotes.getByRole("heading", { name: "作家趣闻" })).toBeVisible();
   expect((await readingPaths.boundingBox()).y).toBeLessThan((await homeAnecdotes.boundingBox()).y);
-  for (const [kind, label, href] of [["authors", "作家", "/authors/"], ["works", "作品", "/works/"], ["anecdotes", "趣闻", "/anecdotes/"]]) {
+  for (const [kind, label] of [["authors", "作家"], ["works", "作品"], ["anecdotes", "趣闻"]]) {
     const link = page.locator(`.main-nav [data-nav-kind="${kind}"]`);
     await expect(link).toHaveText(label);
-    await expect(link).toHaveAttribute("href", href);
+    await expect(link).toHaveAttribute("href", new URL(`${kind}/`, baseURL).pathname);
   }
 
   for (const [group, label] of [["authors", "作家"], ["works", "作品"]]) {
@@ -146,6 +183,7 @@ test("home moves catalogs to dedicated navigation pages and places anecdotes aft
         await expect(page.locator(`#${group}-catalog-heading`)).toBeFocused();
       }
       observed.push(...await section().locator("[data-card-id]").evaluateAll((cards) => cards.map((card) => card.dataset.cardId)));
+      if (group === "works") await expect(section().locator(".edition-cover")).toHaveCount(Math.min(pageSize, expectedIds.length - (pageNumber - 1) * pageSize));
       await expect(section().getByRole("button", { name: `${label}第 ${pageNumber} 页` })).toHaveAttribute("aria-current", "page");
     }
     expect(observed).toEqual(expectedIds);
@@ -270,7 +308,7 @@ test("map selection supports keyboard activation and announces context", async (
   await expect(page.locator('[data-place-id="V1-ENT-0057"]')).toHaveAttribute("aria-pressed", "true");
 });
 
-test("places, author, work, sources and navigation", async ({ page }) => {
+test("places, author, work, sources and navigation", async ({ page, baseURL }) => {
   for (const [path, expected] of [[paths.realPlace, "里约热内卢"], [paths.fictionalPlace, "马孔多"], [paths.author, "为什么值得认识"], [paths.work, "为什么值得读"]]) {
     const response = await page.goto(path);
     expect(response.status()).toBe(200);
@@ -283,12 +321,80 @@ test("places, author, work, sources and navigation", async ({ page }) => {
   await expect(page.getByText("如果你喜欢……")).toBeVisible();
   await expect(page.getByText("一条阅读路线")).toBeVisible();
   await expect(page.getByText("带着一个问题去读")).toBeVisible();
-  await page.locator(`a[href="/${paths.work}"]`).first().click();
+  await page.locator(`a[href="${new URL(paths.work, baseURL).pathname}"]`).first().click();
   await expect(page.getByText("为什么值得读")).toBeVisible();
   await expect(page.getByText("怎么读这本书")).toBeVisible();
+  await expect(page.locator(".work-profile-edition figcaption")).toContainText("非原书封面");
   await expect(page.getByText("带着一个问题去读")).toBeVisible();
   await page.goBack();
   await expect(page.getByText("为什么值得认识")).toBeVisible();
+});
+
+test("formal author archive has credited portraits and anecdotes below four editorial chapters", async ({ page, request }) => {
+  await page.goto("authors/gabriel-garcia-marquez-v1-ent-0072/");
+  const chapters = page.locator(".author-chapter");
+  await expect(chapters).toHaveCount(4);
+  const portrait = page.locator(".author-profile-portrait img");
+  await expect(portrait).toBeVisible();
+  expect(await portrait.evaluate((image) => image.complete && image.naturalWidth > 0)).toBe(true);
+  await expect(page.locator(".author-profile-portrait figcaption")).toContainText("Gorup de Besanez");
+  await expect(page.locator(".author-profile-portrait figcaption")).toContainText("CC BY-SA 4.0");
+  await expect(page.locator(".author-profile-portrait figcaption")).toContainText("缩放／色调处理");
+  const lastChapter = await chapters.last().boundingBox();
+  const anecdotes = await page.locator("#author-anecdotes").boundingBox();
+  expect(anecdotes.y).toBeGreaterThan(lastChapter.y + lastChapter.height - 2);
+  expect((await request.get("assets/portraits/v1-ent-0199.jpg")).status()).toBe(404);
+  await portrait.evaluate((image) => image.dispatchEvent(new Event("error")));
+  await expect(page.locator(".author-profile-portrait.portrait-fallback span")).toHaveText("LATAM");
+});
+
+test("withdrawn Sabato portrait is absent from the public bundle and falls back to type", async ({ page, request }) => {
+  await page.goto("authors/ernesto-sabato-v1-ent-0186/");
+  await expect(page.locator(".author-profile-portrait.portrait-fallback")).toBeVisible();
+  await expect(page.locator(".author-profile-portrait img")).toHaveCount(0);
+  expect((await request.get("assets/portraits/v1-ent-0186.jpg")).status()).toBe(404);
+});
+
+test("all public collections use the literary work archive rather than a generic node", async ({ page, request, baseURL }) => {
+  const webData = await (await request.get("data/v2/web/site_data.json")).json();
+  const indexed = new Map(webData.search_index.map((item) => [item.target_id, item]));
+  const collections = webData.presentation.discovery.works.map((item) => indexed.get(item.target_id)).filter((item) => item?.target_type === "collection");
+  expect(collections.length).toBeGreaterThan(0);
+  for (const item of collections) {
+    const response = await request.get(new URL(item.public_route, baseURL).href);
+    expect(response.status()).toBe(200);
+    expect(await response.text()).toContain('data-route-kind="work"');
+  }
+  for (const item of collections.slice(0, 10)) {
+    await page.goto(new URL(item.public_route, baseURL).href);
+    await expect(page.locator(".work-profile-edition")).toBeVisible();
+    await expect(page.getByRole("heading", { name: "它讲了什么" })).toBeVisible();
+    await expect(page.getByText("研究依据与延伸阅读")).toBeVisible();
+  }
+});
+
+test("formal editorial layouts stay within a 320px viewport", async ({ page, baseURL }) => {
+  await page.setViewportSize({ width: 320, height: 900 });
+  for (const route of ["", "authors/", "works/", "anecdotes/", "search/", "timeline/", "about/", paths.country, paths.realPlace, paths.fictionalPlace, paths.author, paths.work]) {
+    await page.goto(new URL(route, baseURL).href);
+    const width = await page.evaluate(() => document.documentElement.scrollWidth);
+    expect(width, `${route || "home"} has horizontal overflow at 320px`).toBeLessThanOrEqual(320);
+    if (route === "authors/" || route === "works/") {
+      const nextPage = page.getByRole("button", { name: "下一页" });
+      await nextPage.scrollIntoViewIfNeeded();
+      await expect(nextPage).toBeInViewport({ ratio: 1 });
+    }
+  }
+});
+
+test("work archive does not download map geometry before rendering", async ({ page, baseURL }) => {
+  const mapRequests = [];
+  page.on("request", (request) => {
+    if (request.url().includes("natural-earth-5.1.1-admin0-50m-latin-america.geojson")) mapRequests.push(request.url());
+  });
+  await page.goto(new URL(paths.work, baseURL).href);
+  await expect(page.getByRole("heading", { name: "它讲了什么" })).toBeVisible();
+  expect(mapRequests).toEqual([]);
 });
 
 test("approved WCD-08 anecdotes render only on public author pages", async ({ page, request }) => {
@@ -308,15 +414,14 @@ test("approved WCD-08 anecdotes render only on public author pages", async ({ pa
   await page.goto("authors/jorge-luis-borges-v1-ent-0002/");
   const section = page.locator(".anecdotes-section");
   await expect(section.getByRole("heading", { name: "作家的另一面" })).toBeVisible();
-  const appearsBeforePlaces = await page.evaluate(() => {
+  const appearsAfterFourChapters = await page.evaluate(() => {
     const anecdotes = document.querySelector(".anecdotes-section");
-    const placesHeading = [...document.querySelectorAll(".section-heading h2")]
-      .find((heading) => heading.textContent.trim() === "从哪里认识他 / 她");
-    const places = placesHeading?.closest(".section");
-    return Boolean(anecdotes && places && (anecdotes.compareDocumentPosition(places) & Node.DOCUMENT_POSITION_FOLLOWING));
+    const chapters = [...document.querySelectorAll(".author-chapter")];
+    return Boolean(anecdotes && chapters.length === 4
+      && (chapters[3].compareDocumentPosition(anecdotes) & Node.DOCUMENT_POSITION_FOLLOWING));
   });
-  expect(appearsBeforePlaces).toBe(true);
-  expect((await section.boundingBox()).y).toBeLessThan((await page.getByRole("heading", { name: "从哪里认识他 / 她" }).boundingBox()).y);
+  expect(appearsAfterFourChapters).toBe(true);
+  expect((await section.boundingBox()).y).toBeGreaterThan((await page.getByRole("heading", { name: "从哪里认识他 / 她" }).boundingBox()).y);
   const first = section.locator(".anecdote-card").first();
   await expect(first.locator(".anecdote-teaser")).toBeVisible();
   await first.locator("details.anecdote-detail > summary").click();
@@ -335,9 +440,40 @@ test("search expands formal relationships", async ({ page }) => {
   await expect(page.getByText("没有找到匹配项")).toBeVisible();
 });
 
+test("search and timeline render the full public projection with composable year windows", async ({ page, request }) => {
+  const webData = await (await request.get("data/v2/web/site_data.json")).json();
+  const hidden = new Set(webData.map.places.filter((item) => item.map_status === "hidden" || item.reality_status === "unknown").map((item) => item.place_id));
+  const expectedSearch = webData.search_index.filter((item) => !hidden.has(item.target_id)).length;
+  await page.goto("search/");
+  await expect(page.locator(".search-result")).toHaveCount(expectedSearch);
+
+  const publicIds = new Set(webData.search_index.map((item) => item.target_id));
+  const entries = webData.timeline.filter((item) => ["literary_author", "literary_work"].includes(item.node_type)
+    && /\d{4}/.test(String(item.year_label || "")) && publicIds.has(item.entity.entity_id));
+  await page.goto("timeline/");
+  await expect(page.locator(".timeline-card")).toHaveCount(entries.length);
+  await expect(page.locator("#timeline-count")).toHaveText(`当前显示 ${entries.length} / ${entries.length} 条`);
+  await expect(page.getByRole("option", { name: "1960–1979｜文学爆炸年代" })).toHaveCount(1);
+  await expect(page.locator("#timeline-stage-note")).toContainText("不代表文学运动归属");
+  await expect(page.locator(".timeline-scroll-hint")).toContainText("按方向键继续看");
+  const ledger = page.locator(".timeline-ledger");
+  await ledger.focus();
+  await page.keyboard.press("ArrowRight");
+  await expect.poll(() => ledger.evaluate((element) => element.scrollLeft)).toBeGreaterThan(0);
+
+  const expectedWindow = entries.filter((item) => {
+    const year = Number(String(item.year_label).match(/\d{4}/)[0]);
+    return item.node_type === "literary_work" && year >= 1960 && year < 1980;
+  }).length;
+  await page.getByRole("button", { name: /作品 \/ 出版/ }).click();
+  await page.locator("#timeline-stage").selectOption("boom-years");
+  await expect(page.locator(".timeline-card:visible")).toHaveCount(expectedWindow);
+  await expect(page.locator("#timeline-count")).toHaveText(`当前显示 ${expectedWindow} / ${entries.length} 条`);
+});
+
 test("timeline, semantic routes, metadata and 404", async ({ page }) => {
   await page.goto("timeline/");
-  await expect(page.getByRole("heading", { name: /沿时间进入/ })).toBeVisible();
+  await expect(page.getByRole("heading", { name: "时间线" })).toBeVisible();
   const themeRoutes = ["explore/theme-v1-ent-0025/", "explore/destino-del-continente-epopeya-americana-v1-ent-0137/"];
   for (const route of themeRoutes) {
     const response = await page.goto(route);
@@ -351,10 +487,18 @@ test("timeline, semantic routes, metadata and 404", async ({ page }) => {
 
 test("about page explains the reader journey", async ({ page }) => {
   await page.goto("about/");
+  await expect(page.getByRole("heading", { name: "关于项目", exact: true })).toBeVisible();
   await expect(page.getByRole("heading", { name: /为什么做一张/ })).toBeVisible();
+  await expect(page.locator(".about-profile-collage")).toBeVisible();
+  await expect(page.locator(".about-profile-portrait figcaption")).toContainText("Public domain");
+  await expect(page.locator(".about-sections > article")).toHaveCount(5);
   for (const heading of ["这是什么", "为什么是一张地图", "你可以怎样探索", "不止魔幻现实主义", "一张持续生长的地图"]) {
     await expect(page.getByRole("heading", { name: heading })).toBeVisible();
   }
+  const research = page.locator(".about-research");
+  await expect(research).toBeVisible();
+  await research.locator("summary").click();
+  await expect(page.getByRole("heading", { name: "地图来源、范围与中立性" })).toBeVisible();
 });
 
 test("required author, work and place samples resolve through the public layer", async ({ page }) => {

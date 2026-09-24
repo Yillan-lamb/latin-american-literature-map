@@ -2,6 +2,41 @@
 
 本文件记录拉丁美洲文学地图各版本的实际修改。格式参考 Keep a Changelog，版本号遵循语义化版本规则。
 
+## [WCD-11 final audit / Web 0.6.0 Development] - 2026-09-24
+
+### TASK-128 / DEC-068 · PR #37 最终合并门禁
+
+- 独立 Reviewer 对正式 production bundle 的 15 类路由双视口截图和 320px 宽度共 45/45 检查进行人工复核；200% 缩放代表页 7/7 PASS，发现并修复普通目录页头部在缩放下约 2px 的横向溢出。完整四浏览器 Playwright 120 PASS／8 个仅用于预览的条件 SKIP，正式 139 路由、Web Data／public bundle／WCD-09 底图与实施校验通过。
+- 重新取得有效 production Lighthouse：移动首页 Performance 75、LCP 12.0 秒、CLS 0；作品页 Performance 79、LCP 5.7 秒、CLS 0；两页 Accessibility／Best Practices／SEO 均为 100。首页拼贴主图已预加载并设置高优先级，页面无显著 JS 阻塞或外部依赖；LCP 仍偏慢，经 DEC-068 记录为非阻塞性能债，不延展为本 PR 的视觉／性能重构。
+- 肖像独立来源抽查发现萨瓦托 AST-028 的 Commons 页面提示美国版权可能恢复，撤回本地图片和映射并验证作家页文字 fallback；同时按 Commons 来源细化多诺索、吉马朗埃斯·罗萨署名。正式肖像从 23 减至 22，AST-024 继续不进入公共包，作品、作家及搜索的公开数据范围不变。
+- WCD-11 属于实质 reader-facing 能力变更，Web Product 按章程升至 `0.6.0 Development` 并同步版本元数据／README；Research Data、Research Schema、Web Data schema、Curation 和公开收录范围不变。新增正式独立审计，更新 Spec 与素材台账；本地 ignored TASKS／DECISIONS 已同步。经审计代码 head `32a2321` 的两项适用 GitHub CI 均 SUCCESS；最终治理文档提交仍须在合并前核对其 CI。本条不表示已合并，不创建 Tag、Release 或部署，Public Release 仍由 USER 单独把关。
+
+## [WCD-11 formal integration in progress / Web 0.5.0 Development unchanged] - 2026-09-24
+
+### TASK-128 · compass underlay refinement
+
+- 按 USER 对罗盘中心的最新反馈，仅从 AST-036 底纹移除中央星形罗盘，补全原处羊皮纸纹、同心虚线与放射线；外围刻度、航海装饰以及权威 Natural Earth 交互地图保持。将正式站点与视觉回归指向无星形的 v2，更新素材哈希台账，v1 从公共包移除但仍可由 Git 历史恢复。此为同一 WCD-11 正式集成分支／Draft PR #37 内的局部视觉返修，不改变 Research Data、Schema、Web Data、地图几何／中立性、公开范围或 Public Release；Web 继续为 `0.5.0 Development`，正式合并门禁不因此自动通过。
+
+## [WCD-11 formal integration in progress / Web 0.5.0 Development unchanged] - 2026-09-18
+
+### TASK-128 / DEC-067 · visual approval and production integration contract
+
+- USER 已批准 PR #36 的视觉候选，但判定其仅为 preview artifact、不得合并；#36 已关闭而未合并，预览分支与截图保留供正式实现对照。
+- 从实时核实的 `origin/main @ 6e1d882` 建立独立 `codex/wcd-11-formal-integration` 分支，并新增 `project/plans/WCD_11_FORMAL_INTEGRATION.md`：约定生产数据与 WCD-09 地图权威边界、全路由矩阵、素材许可、CSS 整理、时间线年代语义以及构建/浏览器/Lighthouse/地图/独立审查门禁。
+- 正式 `site/` 第一段已迁入母版暖白纸纹与首页文化图像、调整共同刊头／首页图版；素材逐件复算哈希并在 `docs/web/WCD_11_ASSET_ADMISSION.md` 留下许可与署名边界。公开搜索移除前 80 项截断，时间线展示全部公开作家／作品事件，新增类型＋年代组合筛选并将文学爆炸写作年代窗口而非流派归属；浏览器断言改为支持正式站点子路径。
+- 生产构建器同步生成新版共享刊头、页脚与首页图片预加载，避免只改 `site/index.html` 时正式路由仍采用旧壳；23 张经母版核验的作家肖像接入正式目录及详情，图片下方显示来源、作者和许可，身份未核实并撤回的 AST-024 明确不迁入。作家页将 01–04 编排为双列专题、05 趣闻移至通栏，保留既有阅读与来源内容。档案纸原始 PNG 仅做 WebP quality 85 编码，正式资源由约 1.9 MB 降至约 100 KB，母版原件仍可从 #36 恢复。
+- 当前生产衍生预览构建 139 条路由、127 个公开实体、82 则趣闻，public bundle/Web Data/WCD-09 implementation/deterministic basemap 校验通过；Chromium 桌面／移动、Firefox 桌面、WebKit 移动 96/96 浏览器用例通过。Lighthouse 本地移动模拟：首页 performance 70、作品页 76，其余传统类别均为 100；首页性能和全部页面的独立视觉／许可复审仍是开放门禁，不能据此判定 READY TO MERGE。
+- 后续本地实施中，作品目录为全部 62 部公开作品／合集生成项目原创的排版式“策展版封面”，并明确标注它并非原书封面；构建器将 10 部作品集的静态路由归入作品档案模板，而非通用节点页。首页新增四位带可见来源署名的“重要作家”肖像栏，二级页刊头接入已有档案图像。针对 320px 检出的普通二级页约 3px 横向溢出，已调整装饰圆章位置；12 类代表页面的 320px 断言在四浏览器通过，更新后的完整 Playwright 矩阵 104/104 PASS，62 条作品路由移动端抽查 PASS。本段仍未通过独立视觉／许可审计。
+- 非地图页不再为首屏加载约 274 KB 的 Natural Earth 地图几何，首页地图仍按需加载；加载态占满首屏，避免内容渲染时把页脚从可见区域挤走。最新正式开发构建的四浏览器矩阵 108/108 PASS；Lighthouse 本地移动模拟首页 performance 75、作品页 80，CLS 均为 0，较前一轮 70／76 有改善，但首页 LCP 12.1 秒，性能门禁仍开放。修正作品集回归测试对“正式公开包恰好 10 部”的错误硬编码，改为按构建数据检查全部作品集静态壳并抽查最多 10 部渲染；与 CI 同源的审核预览包含 53 部作品集，Chromium 桌面／移动定向测试 2/2 PASS。该审核预览仅供本地验证，不改变正式公开范围。
+- “关于项目”不再沿用普通二级页长列表，而按已批准母版重组为左侧项目宣言、右侧文化图像／带署名米斯特拉尔肖像拼贴，以及下方五个阅读模块＋独立研究边界入口；原有 Natural Earth、GeoNames、de facto 边界、非法律裁决及版权说明未删减。新增浏览器断言覆盖 Hero 拼贴、肖像许可、五模块数量和研究依据展开；正式开发构建仍为 139 条 sitemap 路由、127 个公开实体、82 则趣闻，四浏览器完整矩阵 108/108 PASS，public bundle、Web Data、WCD-09 implementation 与确定性底图检查均 PASS。阿根廷国家入口、马孔多虚构空间和“三座不存在的城镇”阅读路径已完成代表性桌面视觉抽查，但这不等于国家／地点／路径全量视觉验收；首页 LCP、素材独立复核及最终 Reviewer 仍是开放门禁。
+- 首页启动流程不再等待 Natural Earth 几何下载／解析完毕才显示 Hero：Web Data 就绪后先渲染首屏与地图占位，地图随后在局部挂载；地图请求失败时只显示地图内错误，不再抹去已经可读的整页内容。新增将地图请求主动挂起的四浏览器回归，确认 Hero 先出现、请求恢复后 LAEA 地图仍正常激活；完整矩阵更新为 112/112 PASS，正式包与 Web Data/WCD-09 validators 继续 PASS。Lighthouse 移动模拟为首页 75、作品页 79，传统质量项 100、CLS 0；首页 LCP 12.7 秒的元素仍是 180 KB 主拼贴图，因此本次只记为加载韧性改善，不宣称性能门禁通过。
+- 素材台账复算 6 项 editorial 资源和 23 张肖像哈希闭包，并修正 AST-032 已用于普通二级页／About 却仍标为“未启用”的过期说明。Commons 许可样本抽查确认马尔克斯、奥内蒂、帕斯与阿连德条目的页面声明，同时发现 CC 肖像图注缺少改动说明；所有 CC BY／BY-SA 肖像现可见标注“缩放／色调处理”，并新增浏览器回归。其余外部身份／许可仍待独立 Reviewer 完成，不因本轮样本抽查关闭最终素材门禁。
+- 首页 Hero 现于公开数据请求期间先行渲染，数据到达后保留同一 DOM 节点并追加地图与阅读内容；首页马尔克斯拼贴肖像改用统一署名组件，显示作者、原始来源、许可和处理说明。挂起公开数据及地图请求的四浏览器专项 8/8、完整矩阵 116/116、139 路由构建与 public bundle 校验通过。本机 Lighthouse 在 Chromium 启动后两次未完成报告，故本轮 LCP 改善 `NOT_VERIFIED`，性能验收仍开放。
+- 对无 development-preview 横幅的正式输出再次执行 139 路由构建、public bundle、Web Data、WCD-09 implementation 和确定性底图检查，全部 PASS；同一输出的完整四浏览器矩阵 116/116 PASS，含 sitemap 全路由遍历和公开边界检查。WCD-11 Spec 据此关闭构建、路由和浏览器四项可机械验证的验收；视觉、性能、素材独立复核及最终审核继续开放。
+- 新增正式路由视觉矩阵脚本：15 类页面的桌面／移动截图、320px 宽度、图片与控制台检查共 45 次，最终输出 30 张截图且 45/45 PASS；人工审视发现并修正时间线横向浏览提示不足、WebKit 移动端方向键不滚动和作品目录小屏“下一页”被挤压。时间线轨道与下拉框获得可见焦点，时间线显式处理左右方向键，移动目录页码容器可收缩；相应四浏览器专项各 4/4 PASS，最终正式包完整矩阵 116 PASS／8 个既有预览条件 SKIP。独立视觉／无障碍审核仍按 Spec 门禁，不把这轮代表性截图当作最终验收。
+- USER 复核后要求将首页交互地图改为手绘罗盘图版。新增不含地理边界或文字的项目自有罗盘／海面底纹 AST-036，仅置于 Natural Earth SVG 之下；地图国家填色、墨线、衬线标签及图例协调到档案视觉系统。同步修正桌面地图右侧面板短于画布时露出异色底，以及手机端“写出来的地方”遮挡南部地图的问题，并在视觉矩阵加入底纹、13 国交互层和双视口布局断言。真实几何、投影、坐标、来源及 WCD-09 中立性边界保持不变；Web 继续为 `0.5.0 Development`，系统性 redesign 的版本判断仍待正式验收。
+- 这仍是正式集成的早期 Draft 工作，不代表作家／作品／国家／地点／路径等全路由视觉验收完成，也不改变 Research Data、Research Schema、Curation、Web Data schema、公开范围或 Public Release。Web 保持 `0.5.0 Development`；系统性 redesign 的 `0.6.0 Development` 为后续实际实施后的待核建议，不因早期代码提交自动升版。
+
 ## [Data 1.5.0 / Web 0.5.0 — Development] - 2026-09-08
 
 ### TASK-099 / WCD-09 implementation

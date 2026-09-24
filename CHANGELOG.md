@@ -9,7 +9,7 @@
 - 独立 Reviewer 对正式 production bundle 的 15 类路由双视口截图和 320px 宽度共 45/45 检查进行人工复核；200% 缩放代表页 7/7 PASS，发现并修复普通目录页头部在缩放下约 2px 的横向溢出。完整四浏览器 Playwright 120 PASS／8 个仅用于预览的条件 SKIP，正式 139 路由、Web Data／public bundle／WCD-09 底图与实施校验通过。
 - 重新取得有效 production Lighthouse：移动首页 Performance 75、LCP 12.0 秒、CLS 0；作品页 Performance 79、LCP 5.7 秒、CLS 0；两页 Accessibility／Best Practices／SEO 均为 100。首页拼贴主图已预加载并设置高优先级，页面无显著 JS 阻塞或外部依赖；LCP 仍偏慢，经 DEC-068 记录为非阻塞性能债，不延展为本 PR 的视觉／性能重构。
 - 肖像独立来源抽查发现萨瓦托 AST-028 的 Commons 页面提示美国版权可能恢复，撤回本地图片和映射并验证作家页文字 fallback；同时按 Commons 来源细化多诺索、吉马朗埃斯·罗萨署名。正式肖像从 23 减至 22，AST-024 继续不进入公共包，作品、作家及搜索的公开数据范围不变。
-- WCD-11 属于实质 reader-facing 能力变更，Web Product 按章程升至 `0.6.0 Development` 并同步版本元数据／README；Research Data、Research Schema、Web Data schema、Curation 和公开收录范围不变。新增正式独立审计，更新 Spec 与素材台账；本地 ignored TASKS／DECISIONS 已同步。适用 GitHub CI 须在本次推送后的最新 head 再次核验；本条不表示已合并，不创建 Tag、Release 或部署，Public Release 仍由 USER 单独把关。
+- WCD-11 属于实质 reader-facing 能力变更，Web Product 按章程升至 `0.6.0 Development` 并同步版本元数据／README；Research Data、Research Schema、Web Data schema、Curation 和公开收录范围不变。新增正式独立审计，更新 Spec 与素材台账；本地 ignored TASKS／DECISIONS 已同步。经审计代码 head `32a2321` 的两项适用 GitHub CI 均 SUCCESS；最终治理文档提交仍须在合并前核对其 CI。本条不表示已合并，不创建 Tag、Release 或部署，Public Release 仍由 USER 单独把关。
 
 ## [WCD-11 formal integration in progress / Web 0.5.0 Development unchanged] - 2026-09-24
 

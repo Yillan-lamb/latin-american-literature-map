@@ -2,7 +2,7 @@
 
 - 日期：2026-09-24
 - 审查对象：`codex/wcd-11-formal-integration` 相对 `main @ 6e1d882` 的正式 `site/`、构建器、素材、测试及治理差量；不把已关闭的 #36 preview 当作生产输出。
-- 本地结论：**INDEPENDENT REVIEW PASS / latest GitHub CI pending**。最终合并仍以本文件随最终提交推送后的适用 CI、无冲突和无未解决 Review 为条件。
+- 结论：**INDEPENDENT REVIEW PASS / READY_TO_MERGE**。经审计的代码 head `32a2321` 两项适用 CI 已成功；最终治理收口提交仍须在合并前重新核对该提交的适用 CI、无冲突和无未解决 Review。
 - BLOCKER：0（下述两项最小修复后）；NON-BLOCKING：1（首页 LCP）。
 
 ## Gate A · 视觉与无障碍
@@ -30,6 +30,6 @@
 
 独立复核 `site/app.js`、`scripts/build_v2_deploy_bundle.py`、`site/styles.css` 和本 PR 测试 diff。肖像缺图文字 fallback 不猜身份，公开数据文本在 HTML 中转义；首页 Hero 先于 Web Data 和 Natural Earth 完成时可见，地图失败只影响地图区域；作品集进入作品档案路由，稳定路由与子路径、canonical 和预加载资源由正式构建器生成。搜索未截断索引；时间线类型与年代窗口按公开事件筛选、明确“文学爆炸年代”不是作者流派归属。事件绑定只作用于当次渲染节点；全站路由、404、分页、地图、来源展开在四浏览器测试中有行为断言。
 
-最终本地门禁：Web Data 确定性重建与 validator PASS；public bundle validator PASS（127 公开实体、139 sitemap、82 则趣闻、无审核字段泄漏）；WCD-09 权威底图 `--check` PASS，资产 SHA-256 `9a225c6b…`、L1 48／L2 13／背景 35；Playwright Chromium desktop/mobile、Firefox desktop、WebKit mobile **120 PASS / 8 EXPECTED SKIP**；视觉 45/45；200% 7/7；前端语法与 diff 检查 PASS。8 个 skip 均为正式包不适用的 WCD-08 审核预览条件；不人为触发 release/RC gate。
+最终本地门禁：Web Data 确定性重建与 validator PASS；public bundle validator PASS（127 公开实体、139 sitemap、82 则趣闻、无审核字段泄漏）；WCD-09 权威底图 `--check` PASS，资产 SHA-256 `9a225c6b…`、L1 48／L2 13／背景 35；Playwright Chromium desktop/mobile、Firefox desktop、WebKit mobile **120 PASS / 8 EXPECTED SKIP**；视觉 45/45；200% 7/7；前端语法与 diff 检查 PASS。经审计代码 head `32a2321` 的 `development-baseline-integrity` 与 `web-pr-browser-smoke` 均 SUCCESS；`release-integrity`、`rc-browser-matrix` 为当前 Development PR 的 EXPECTED SKIP，不人为触发 release/RC gate。
 
 本轮 diff 不修改 Research Master、Schema、Curation 审核结果或公开收录数量。Web minor `0.6.0 Development` 仅为产品版本元数据；生成器重建输出与当前 Web Data 字节一致。`project/internal/TASKS.md` 和 `DECISIONS.md` 是本地 ignored 权威源，已按 TASK-128 / DEC-068 同步，不复制进 Git。Charter 冻结且规则未变，故不修改；README、CHANGELOG、WCD-11 Spec 与素材台账按各自职责收口。Public Release 独立暂停，不创建 Tag、Release 或部署。

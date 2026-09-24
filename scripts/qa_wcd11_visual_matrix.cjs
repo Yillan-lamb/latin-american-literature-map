@@ -59,7 +59,7 @@ const viewports = [
             const svg = canvas?.querySelector("svg");
             const fictionalInset = canvas?.querySelector(".fictional-space-inset");
             return {
-              compassUnderlay: !!canvas && getComputedStyle(canvas).backgroundImage.includes("compass-chart-underlay-v1.jpg"),
+              compassUnderlay: !!canvas && getComputedStyle(canvas).backgroundImage.includes("compass-chart-underlay-v2.jpg"),
               interactiveCountries: document.querySelectorAll(".country-shape.available").length === 13,
               mobileInsetClearOfMap: innerWidth > 620 || (!!fictionalInset && !!svg && fictionalInset.getBoundingClientRect().top >= svg.getBoundingClientRect().bottom - 1),
               desktopPanelFillsMap: innerWidth <= 900 || (!!panel && !!canvas && panel.offsetHeight >= canvas.offsetHeight - 1),

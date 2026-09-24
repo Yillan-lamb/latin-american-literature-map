@@ -6,7 +6,7 @@
 | --- | --- | --- | --- | --- |
 | `site/assets/editorial/archive-paper-ivory-v1.webp` | AST-035 | 项目自有 AI 辅助生成 | `26f1b679b8565243ab4b217c27a5d17c6231ae18ae1a803da756f02e569efb2f` | 暖白档案纸纹；母版 PNG `d28a48f0…` 仅做 WebP quality 85 编码，1.9 MB 降至约 100 KB |
 | `site/assets/editorial/nautical-chart-v1.webp` | AST-030 | 项目自有 AI 辅助生成 | `d3da370510928079611683e7776f389039898771ab10c995b1e59ee47c888494` | 地图图版装饰；不含真实边界 |
-| `site/assets/editorial/compass-chart-underlay-v1.jpg` | AST-036 | 项目自有 AI 辅助生成 | `f143f4304c581ab0a764b198f3d7f177d94ffe6f06d22509c1ba2b86c45302c0` | 互动地图画布的手绘罗盘／海面底纹；不含陆地、边界、地名或坐标，真实几何仍由 Natural Earth SVG 绘制 |
+| `site/assets/editorial/compass-chart-underlay-v2.jpg` | AST-036 | 项目自有 AI 辅助生成 | `8b34ef9e9de9a0dae0c717d624f062fb07c2ecb9d3469f5d9d3002d82b7abcfa` | 互动地图画布的手绘罗盘／海面底纹；中央星形罗盘已按 USER 反馈移除，不含陆地、边界、地名或坐标，真实几何仍由 Natural Earth SVG 绘制 |
 | `site/assets/editorial/archive-masthead-v1.webp` | AST-032 | 项目自有 AI 辅助生成 | `d0a9bde7735c15cf890bd167a07ddabc3b24ae86f4fe05f01f938a24e3954c51` | 普通二级页刊头及 About 拼贴背景 |
 | `site/assets/editorial/literary-postage-stamp-v1.webp` | AST-031 | 项目自有 AI 辅助生成 | `804414c072fdb9405a29ce99b10f58140f7a7bf4c60cea04e33d2806daac48a1` | 虚构邮票装饰 |
 | `site/assets/editorial/hero-caribbean-writing-desk-v1.webp` | AST-033 | 项目自有 AI 辅助生成 | `c5d1b39fb57e10fddbf3d7f4fe73c36c50105921e32dd1b771a58e6a0665b810` | 首页文化档案拼贴 |
@@ -42,4 +42,4 @@
 
 母版登记 `WITHDRAWN_IDENTITY_UNVERIFIED` 的 AST-024 没有迁入；其余缺肖像的正式作家实体使用文字占位，不猜测身份。23 张肖像的文件哈希前缀均与母版登记及本地原件一致。2026-09-23 已再次复算 6 项 editorial 素材的完整 SHA-256 与 23 张肖像的哈希／文件闭包，并核对所有 editorial 文件均有正式 CSS／DOM 用途；这项机械检查同时修正了 AST-032 仍标成“未启用”的过期用途说明。对 Commons 原页的抽查确认马尔克斯 `CC BY-SA 4.0`、奥内蒂 `CC BY-SA 2.0`、帕斯 `CC BY 3.0` 与阿连德的权利人 Public Domain 声明；抽查也发现 CC 图注只标作者／来源／许可、未声明本地缩放和展示层色调处理，现已为全部 CC 条目增加可见的“缩放／色调处理”说明。首页马尔克斯拼贴肖像也改用同一署名组件，显示作者原始链接、许可和处理说明。其余许可／身份外部来源仍需独立 Reviewer 抽查，不能由哈希一致性或本次样本替代；整体状态保持：`PARTIAL / NOT_VERIFIED_FOR_FINAL_INTEGRATION`。
 
-AST-036 由内置 imagegen 在 2026-09-23 根据 USER 提供的罗盘手绘图风格参考生成，不复制参考图像的国界或文字。生成约束为“浅暖白古地图纸、蓝灰海面、中央罗盘刻度与细线、边缘航海／植物装饰；无大陆、岛屿、国界、地名、数字或 UI”。原始 PNG 为 1536×1024；正式 JPEG 仅使用 macOS `sips` quality 78 编码，约 674 KB。素材只担任 CSS 底层装饰，不是地理证据；既有 WCD-09 地图来源、投影、图例和中立性说明不变。
+AST-036 由内置 imagegen 在 2026-09-23 根据 USER 提供的罗盘手绘图风格参考生成，不复制参考图像的国界或文字。2026-09-24 又以原图为编辑目标，仅移除中央星形罗盘，补全羊皮纸纹、同心虚线与放射线；保留外围刻度、日轮、海浪、帆船和植物装饰。原始和编辑 PNG 均为 1536×1024；现用 JPEG 仅使用 macOS `sips` quality 78 编码，约 559 KB。v1 可由 Git 历史恢复，不再装入正式公共包。素材只担任 CSS 底层装饰，不是地理证据；既有 WCD-09 地图来源、投影、图例和中立性说明不变。

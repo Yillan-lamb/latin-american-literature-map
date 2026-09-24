@@ -2,6 +2,12 @@
 
 本文件记录拉丁美洲文学地图各版本的实际修改。格式参考 Keep a Changelog，版本号遵循语义化版本规则。
 
+## [WCD-11 formal integration in progress / Web 0.5.0 Development unchanged] - 2026-09-24
+
+### TASK-128 · compass underlay refinement
+
+- 按 USER 对罗盘中心的最新反馈，仅从 AST-036 底纹移除中央星形罗盘，补全原处羊皮纸纹、同心虚线与放射线；外围刻度、航海装饰以及权威 Natural Earth 交互地图保持。将正式站点与视觉回归指向无星形的 v2，更新素材哈希台账，v1 从公共包移除但仍可由 Git 历史恢复。此为同一 WCD-11 正式集成分支／Draft PR #37 内的局部视觉返修，不改变 Research Data、Schema、Web Data、地图几何／中立性、公开范围或 Public Release；Web 继续为 `0.5.0 Development`，正式合并门禁不因此自动通过。
+
 ## [WCD-11 formal integration in progress / Web 0.5.0 Development unchanged] - 2026-09-18
 
 ### TASK-128 / DEC-067 · visual approval and production integration contract

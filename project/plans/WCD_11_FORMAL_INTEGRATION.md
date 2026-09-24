@@ -1,6 +1,6 @@
 # WCD-11 正式网站集成规格（TASK-128）
 
-- 状态：`APPROVED_VISUAL / IMPLEMENTATION_IN_PROGRESS`
+- 状态：`APPROVED_VISUAL / FINAL_AUDIT_LOCAL_PASS / LATEST_CI_PENDING`
 - 基线：`origin/main @ 6e1d88216d262f573993dbc776df52d638239936`（2026-09-17 建立分支时）
 - 视觉母版：[已关闭、未合并的 PR #36](https://github.com/Yillan-lamb/latin-american-literature-map/pull/36)，head `3a72600d6a4d7fcf8dcd4911cab6a3049675947d`
 - 关联：`TASK-128 / DEC-067`
@@ -64,7 +64,7 @@ USER 已通过 PR #36 的视觉预览，但该 PR 的 `previews/wcd-11/` 与正�
 
 ### 4. 版本与回退
 
-正式系统性 redesign 若实质改变读者体验，建议评估 Web `0.5.0 Development → 0.6.0 Development`；规划提交本身不升版。Research Data `1.5.0 development candidate`、Research Schema `0.4`、Web Data schema `v2-web-0.3` 保持不变，除非后续另有明确审批。回退以正式集成 PR 的变更集为边界，不删除 PR #36 预览素材；禁止因回退恢复旧地图几何或放宽公开数据门禁。
+正式系统性 redesign 已实质改变读者体验和搜索／时间线能力，最终验收按 `DEC-068` 将 Web `0.5.0 Development → 0.6.0 Development`。Research Data `1.5.0 development candidate`、Research Schema `0.4`、Web Data schema `v2-web-0.3` 保持不变，除非后续另有明确审批。回退以正式集成 PR 的变更集为边界，不删除 PR #36 预览素材；禁止因回退恢复旧地图几何或放宽公开数据门禁。
 
 ## 验收标准与证据
 
@@ -72,12 +72,12 @@ USER 已通过 PR #36 的视觉预览，但该 PR 的 `previews/wcd-11/` 与正�
 - [x] 生产构建、Web Data validator、public bundle validator、WCD-09 basemap `--check` 与 implementation validator 全部 PASS。
 - [x] 当前正式 sitemap／搜索／作家／作品／时间线记录全量可达，无 404、缺图、JS 错误、审核字段泄漏或非预期减少。
 - [x] Chromium 桌面／移动、Firefox 桌面、WebKit 移动完成项目完整 Playwright matrix；对地图、搜索、时间线、目录、趣闻和阅读路径断言功能结果，而非只断言节点存在。
-- [ ] 1440×900、390×844 至少覆盖全部上述页面类型的截图对照；320px 无页面级横向溢出；键盘、焦点、对比度、缩放及 `prefers-reduced-motion` 有记录。
-- [ ] Lighthouse 在正式构建上运行并记录与既有基线的差异；回退项须说明理由，不用 preview 分数代替 production。
-- [ ] 图片许可、署名、身份、宽高、失效 fallback 与体积预算通过独立抽查；WCD-09 几何、48/13/35 分层、中立性说明和 de facto 边界继续 PASS。
+- [x] 1440×900、390×844 至少覆盖全部上述页面类型的截图对照；320px 无页面级横向溢出；键盘、焦点、对比度、缩放及 `prefers-reduced-motion` 有记录。
+- [x] Lighthouse 在正式构建上运行并记录与既有基线的差异；回退项须说明理由，不用 preview 分数代替 production。
+- [x] 图片许可、署名、身份、宽高、失效 fallback 与体积预算通过独立抽查；WCD-09 几何、48/13/35 分层、中立性说明和 de facto 边界继续 PASS。
 - [ ] 独立 Reviewer 明确 PASS，PR diff 范围、CHANGELOG／TASKS／DECISIONS／公开入口同步，适用 CI 全绿；USER 再判断正式集成与版本／合并，Public Release 仍单独暂停。
 
-在这些项目完成前，本 Spec 与新分支只表示正式集成**已启动**，不是 `READY TO MERGE` 或 `TASK-128 DONE`；未运行的门禁均为 `NOT_VERIFIED`。
+最终本地独立审计见 `project/audits/web/WCD_11_FORMAL_INTEGRATION_FINAL_AUDIT.md`。在本 PR 最新提交的适用 GitHub CI、无冲突及无未解决 Review 核实前，仍非 `READY TO MERGE` 或 `TASK-128 DONE`；未运行的门禁均为 `NOT_VERIFIED`。
 
 ## 2026-09-18 阶段检查点（不等于验收）
 

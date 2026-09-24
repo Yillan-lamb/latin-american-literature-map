@@ -41,12 +41,11 @@ const PORTRAITS = {
   "V1-ENT-0171": ["Mutari", "https://commons.wikimedia.org/wiki/File:Isabel_Allende_-_001.jpg", "Public domain"],
   "V1-ENT-0172": ["Bernard Gotfryd", "https://commons.wikimedia.org/wiki/File:Jorge_Amado,_gtfy.00010.jpg", "Public domain"],
   "V1-ENT-0184": ["Elisa Cabot", "https://commons.wikimedia.org/wiki/File:Juan_Carlos_Onetti_1981.jpg", "CC BY-SA 2.0"],
-  "V1-ENT-0185": ["佚名", "https://commons.wikimedia.org/wiki/File:Jos%C3%A9_Donoso,_Estadio,_1953-10-10_(543).jpg", "Public domain"],
-  "V1-ENT-0186": ["Sara Facio · Alicia D'Amico", "https://commons.wikimedia.org/wiki/File:Ernesto_Sabato_-_Antolog%C3%ADa.jpg", "Public domain"],
+  "V1-ENT-0185": ["佚名／《Estadio》1953-10-10", "https://commons.wikimedia.org/wiki/File:Jos%C3%A9_Donoso,_Estadio,_1953-10-10_(543).jpg", "Public domain"],
   "V1-ENT-0198": ["Alicia D'Amico", "https://commons.wikimedia.org/wiki/File:Adolfo_Bioy_Casares_1968.png", "Public domain"],
   "V1-ENT-0200": ["佚名", "https://commons.wikimedia.org/wiki/File:Horacio_Quiroga_1897.jpg", "Public domain"],
   "V1-ENT-0211": ["佚名", "https://commons.wikimedia.org/wiki/File:Machado_de_Assis_aos_57_anos.jpg", "Public domain"],
-  "V1-ENT-0212": ["佚名", "https://commons.wikimedia.org/wiki/File:Guimar%C3%A3es_Rosa,_anos_1960.jpg", "Public domain"],
+  "V1-ENT-0212": ["巴西国家档案馆藏（摄影者佚名）", "https://commons.wikimedia.org/wiki/File:Guimar%C3%A3es_Rosa,_anos_1960.jpg", "Public domain"],
   "V1-ENT-0213": ["佚名", "https://commons.wikimedia.org/wiki/File:Graciliano_Ramos,_1940.tif", "Public domain"],
 };
 

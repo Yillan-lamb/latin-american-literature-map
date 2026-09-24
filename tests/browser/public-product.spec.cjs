@@ -348,6 +348,13 @@ test("formal author archive has credited portraits and anecdotes below four edit
   await expect(page.locator(".author-profile-portrait.portrait-fallback span")).toHaveText("LATAM");
 });
 
+test("withdrawn Sabato portrait is absent from the public bundle and falls back to type", async ({ page, request }) => {
+  await page.goto("authors/ernesto-sabato-v1-ent-0186/");
+  await expect(page.locator(".author-profile-portrait.portrait-fallback")).toBeVisible();
+  await expect(page.locator(".author-profile-portrait img")).toHaveCount(0);
+  expect((await request.get("assets/portraits/v1-ent-0186.jpg")).status()).toBe(404);
+});
+
 test("all public collections use the literary work archive rather than a generic node", async ({ page, request, baseURL }) => {
   const webData = await (await request.get("data/v2/web/site_data.json")).json();
   const indexed = new Map(webData.search_index.map((item) => [item.target_id, item]));

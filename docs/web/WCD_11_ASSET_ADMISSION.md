@@ -1,4 +1,4 @@
-# WCD-11 正式站点素材准入（进行中）
+# WCD-11 正式站点素材准入（最终抽查通过）
 
 视觉母版来源：已关闭、未合并的 PR #36，head `3a72600d6a4d7fcf8dcd4911cab6a3049675947d` 的 `previews/wcd-11/ASSET_REGISTER.csv`。以下只是已迁入 `site/assets/` 的素材；它们不会替代正式 Web Data 或 WCD-09 地图几何。未列入此表的预览图片不得据此推定已获正式准入。作家肖像的 Commons 来源、作者和许可在正式页面图片下方可见；`site/app.js` 中的 `PORTRAITS` 是页面署名映射。
 
@@ -13,12 +13,12 @@
 | `site/assets/editorial/hero-colonial-balcony-v1.webp` | AST-034 | 项目自有 AI 辅助生成 | `1f0207123f2f051d6459fab35549f6747f0169b189012375eebb16d8e2942727` | 首页城市拼贴 |
 | `site/assets/portraits/v1-ent-0072.jpg` | AST-005 | Gorup de Besanez，CC BY-SA 4.0，[Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Gabriel_Garc%C3%ADa_M%C3%A1rquez_02_(cropped).jpg) | `c832dc57e9a4de2939ac807207388e7924d1f9c65d276e552fa94e39676b84b6` | 加西亚·马尔克斯肖像；页面可见署名、许可和来源链接 |
 
-另有 22 张母版已标记 `VERIFIED` 的肖像原样复制到 `site/assets/portraits/`；下表列出文件、母版 ID、作者／许可和复制后的 SHA-256 前缀。每张的完整来源链接由 `PORTRAITS` 映射展示在图片下方；完整哈希可按文件复算。
+另有 21 张母版已标记 `VERIFIED` 的肖像原样复制到 `site/assets/portraits/`；下表列出文件、母版 ID、作者／许可和复制后的 SHA-256 前缀。每张的完整来源链接由 `PORTRAITS` 映射展示在图片下方；完整哈希可按文件复算。
 
 | 文件实体 ID | 母版 ID | 作者／权利状态 | SHA-256 前缀 |
 | --- | --- | --- | --- |
 | `0002` | AST-011 | Grete Stern · Public domain | `a3d13e3fb66dfbb6` |
-| `0016` | AST-009 | 巴西国家档案馆 · Public domain | `1c839a78d183a493` |
+| `0016` | AST-009 | 巴西国家档案馆藏（摄影者佚名） · Public domain | `1c839a78d183a493` |
 | `0030` | AST-016 | Jesús Ortiz Tajonar / fedemx · CC BY-SA 4.0 | `ad3e15eec1d2a6fe` |
 | `0031` | AST-017 | Lyon · Public domain | `e820c6ff36ac39ce` |
 | `0059` | AST-008 | Jonn Leffmann · CC BY 3.0 | `d54603dbe632de77` |
@@ -32,14 +32,13 @@
 | `0171` | AST-015 | Mutari · Public domain | `27b9524b113b59ee` |
 | `0172` | AST-018 | Bernard Gotfryd · Public domain | `1d772c8c3e857cc0` |
 | `0184` | AST-022 | Elisa Cabot · CC BY-SA 2.0 | `9e47e92cae06e931` |
-| `0185` | AST-023 | 佚名 · Public domain | `248d9403426ac8b9` |
-| `0186` | AST-028 | Sara Facio / Alicia D'Amico · Public domain | `c5e9d52781789cc5` |
+| `0185` | AST-023 | 佚名／《Estadio》1953-10-10 · Public domain | `248d9403426ac8b9` |
 | `0198` | AST-026 | Alicia D'Amico · Public domain | `da2cd4e824a87d1b` |
 | `0200` | AST-012 | 佚名 · Public domain | `54f29cfbcb9f170c` |
 | `0211` | AST-006 | 佚名 · Public domain | `df54f2c32533c2e3` |
 | `0212` | AST-019 | 佚名 · Public domain | `a24a8c5fe1f5b48` |
 | `0213` | AST-025 | 佚名 · Public domain | `c575c0fe309aeeff` |
 
-母版登记 `WITHDRAWN_IDENTITY_UNVERIFIED` 的 AST-024 没有迁入；其余缺肖像的正式作家实体使用文字占位，不猜测身份。23 张肖像的文件哈希前缀均与母版登记及本地原件一致。2026-09-23 已再次复算 6 项 editorial 素材的完整 SHA-256 与 23 张肖像的哈希／文件闭包，并核对所有 editorial 文件均有正式 CSS／DOM 用途；这项机械检查同时修正了 AST-032 仍标成“未启用”的过期用途说明。对 Commons 原页的抽查确认马尔克斯 `CC BY-SA 4.0`、奥内蒂 `CC BY-SA 2.0`、帕斯 `CC BY 3.0` 与阿连德的权利人 Public Domain 声明；抽查也发现 CC 图注只标作者／来源／许可、未声明本地缩放和展示层色调处理，现已为全部 CC 条目增加可见的“缩放／色调处理”说明。首页马尔克斯拼贴肖像也改用同一署名组件，显示作者原始链接、许可和处理说明。其余许可／身份外部来源仍需独立 Reviewer 抽查，不能由哈希一致性或本次样本替代；整体状态保持：`PARTIAL / NOT_VERIFIED_FOR_FINAL_INTEGRATION`。
+母版登记 `WITHDRAWN_IDENTITY_UNVERIFIED` 的 AST-024 没有迁入；其余缺肖像的正式作家实体使用文字占位，不猜测身份。2026-09-23 的历史检查曾复算 7 项 editorial 与 23 张肖像的哈希／文件闭包。2026-09-24 独立 Reviewer 又核对 Commons 原页的身份、摄影者、许可和站内署名，重点覆盖先前未逐页复核的博尔赫斯、科塔萨尔、聂鲁达、略萨、鲁尔福、李斯佩克朵、吉马朗埃斯·罗萨、比奥伊·卡萨雷斯、若热·亚马多、多诺索及萨瓦托。萨瓦托 AST-028 原页注明美国版权可能恢复，不能视作清晰可复用的 Public Domain；已从 `PORTRAITS` 映射和正式资源撤回，页面使用文字占位。多诺索和罗萨的来源／摄影者描述已按原页细化。现正式肖像为 22 张，AST-024 与 AST-028 均不进入公共包；CC 图片继续显示作者、来源、许可及“缩放／色调处理”。7 项 editorial 均为项目自有 AI 辅助生成素材，不冒称第三方照片或地理证据。最终状态：`PASS / ADMITTED_FOR_FORMAL_INTEGRATION`；不将本抽查等同于未来 Public Release 的全量版权法律复核。
 
 AST-036 由内置 imagegen 在 2026-09-23 根据 USER 提供的罗盘手绘图风格参考生成，不复制参考图像的国界或文字。2026-09-24 又以原图为编辑目标，仅移除中央星形罗盘，补全羊皮纸纹、同心虚线与放射线；保留外围刻度、日轮、海浪、帆船和植物装饰。原始和编辑 PNG 均为 1536×1024；现用 JPEG 仅使用 macOS `sips` quality 78 编码，约 559 KB。v1 可由 Git 历史恢复，不再装入正式公共包。素材只担任 CSS 底层装饰，不是地理证据；既有 WCD-09 地图来源、投影、图例和中立性说明不变。

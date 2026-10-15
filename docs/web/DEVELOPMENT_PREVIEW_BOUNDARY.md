@@ -15,15 +15,19 @@ Pages 的第二次构建会重新裁剪 Research、移除原始策展包装及�
 
 ## 自动验证
 
-在具有完整 Git 历史的全新 checkout 中执行：
+在具有完整 Git 历史的全新 checkout 中执行。Ubuntu CI 还需 C 编译器，以及经校验的冻结 SQLite writer；它只安装到临时目录，不修改系统 SQLite：
 
 ```bash
+python3 scripts/prepare_wcd10_sqlite_runtime.py --output /tmp/wcd10-sqlite
+export LD_LIBRARY_PATH="/tmp/wcd10-sqlite:${LD_LIBRARY_PATH:-}"
+python3 scripts/prepare_wcd10_sqlite_runtime.py --verify
 python3 -m pip install -r requirements-wcd10-ci.txt
 python3 -m unittest discover -s tests -v
 python3 scripts/validate_migration_replay.py --expected-migrations 58 --expected-tables 19
 python3 scripts/qa_wcd10_ci.py --output-dir artifacts/wcd10-integrity
 ```
 
+- 历史物理 SHA 绑定 SQLite 3.53.1 和 `secure_delete=0`。Ubuntu 3.45.1 的默认 `secure_delete=1` 会产生逻辑 19 表相同但文件字节不同的临时检查点；不能通过改写预期 SHA、数据库文件头或放宽断言解决。bootstrap 校验固定源码包 SHA-256 和[官方 sqlite3.c SHA3](https://www.sqlite.org/releaselog/3_53_1.html)，编译原 writer 并在新 Python 进程验证实际版本、source ID 和删除配置。macOS 加载对应临时库使用 `DYLD_LIBRARY_PATH`；已有完全匹配的运行时可直接通过 `--verify`。这些环境变量只用于当前测试进程和子进程，不进入部署包。
 - 历史测试基库来自固定 Git 提交、已跟踪迁移和冻结导出，不读取 ignored SQLite 备份或内部治理源。完整 Python discovery 包含所有 WCD-10 测试，以及既有非 WCD-10 回归。
 - 重放从 SHA-256 固定的 V1 基线逐条调用正式迁移工具；检查全部表的列定义和行多重集、主库和重放库的完整性及外键。仅 `migration_log.applied_at` 因真实执行时刻不同而不参与逐值比较；SQL hash、task、reviewer 和其他值仍必须一致。
 - 0058 的精确差量复用原 QA 核心；CI 使用另有固定文件 SHA 的 tracked 0057 JSON oracle，不依赖本地历史 SQLite 页布局。原 SQLite 基库 hash 门禁保持。漂移回滚、重复执行拒绝和未授权字段修改均有失败回归。

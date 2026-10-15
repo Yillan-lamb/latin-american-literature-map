@@ -1,3 +1,10 @@
+## 2026-10-15 — PR #38 CI 冻结 SQLite writer 复现修复（TASK-129）
+
+- 第一次远端 Research Integrity 正确阻断历史 fixture 字节 SHA 差异；Ubuntu SQLite 3.45.1/secure_delete1 的两个失败 hash 已在本地精确重现，19 表逻辑内容仍完全相同。原 Pages 浏览器和基线检查均 PASS，失败原流保留。
+- 增加官方源码 ZIP SHA-256/sqlite3.c SHA3 双校验的 CI 临时 SQLite 3.53.1 构建，并硬检查实际加载版本、source ID 和 secure_delete0；全部 Python 子进程使用同一 writer。不改系统库、数据库文件头、历史 SHA/候选 Gate、既有断言或冻结材料。
+- 新运行时中 193 Python 回归、58 迁移/19 表、三格式各19表、0058精确差量及标准177/Pages327文件同模式 base/head 比较全部通过；新增3项运行时拒绝测试。通过本地验证后再追加提交/推送并验收新 head CI。
+- 版本保持 Research1.5.0development、Schema0.4、WebData0.3、Web0.6.0；仅补齐 CI 可复现依赖，没有文学内容、策展范围或产品能力变化，PublicRelease继续暂停。TASKS同步实际失败与修复；DECISIONS/冻结Charter/Spec无新规则变化，N/A。未合并、tag、release或部署；此前 CHANGELOG 字节原样保留。
+
 ## 2026-10-15 — PR #38 合并前 CI 与 Pages 部署边界验证（TASK-129）
 
 - 增加独立 WCD-10 Research Integrity CI：全新 checkout 运行全部 190 项 Python 回归、冻结 V1 基线 58 迁移/19 表完整重放、0058 精确差量和 JSON/CSV/XLSX 三格式逐值校验；显式安装固定依赖，失败均阻断 Job。

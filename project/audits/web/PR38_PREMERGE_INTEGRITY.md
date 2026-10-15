@@ -1,5 +1,18 @@
 # PR #38 合并前 CI 与部署边界审计
 
+## 远端环境修复补充（TASK-129，2026-10-15）
+
+第一次推送 `55ae6f3` 的 [CI run 38699331789](https://github.com/Yillan-lamb/latin-american-literature-map/actions/runs/38699331789) 真实失败：Research Integrity 中旧历史 fixture 的物理 SHA 不符；Development Baseline 和实际 Pages 浏览器均通过。失败记录保留，不重写或忽略。
+
+本地使用官方 SQLite 3.45.1、`secure_delete=1` 精确重现 CI 的 B01 `9431f7b9…` 和 B03 `9ede02ec…`，同时 B03 的全部 19 表逐值仍与冻结导出相同。原环境 SQLite 3.53.1、`secure_delete=0` 得到原始 `98b914d5…` 和 `079deee4…`。这是已确认的 CI writer 依赖漂移，不是文学数据损坏；原 byte hash 门禁正确失败。
+
+追加 `scripts/prepare_wcd10_sqlite_runtime.py`：校验固定官方源码包 SHA-256 与[官方 sqlite3.c SHA3](https://www.sqlite.org/releaselog/3_53_1.html)，在 runner 临时目录编译原 writer。CI 通过 `LD_LIBRARY_PATH` 将同一库传给 Python 及全部子进程，并在运行测试前硬检查版本、source ID 和 `secure_delete=0`。不改变系统库、数据库文件头、历史 fixture、预期 SHA、候选 Gate、原有测试或任何断言。
+
+自行编译并加载该库的本地最小依赖 venv 已通过 **193 项 Python 测试，无跳过**；58 迁移/19 表、主库/重放完整性与外键、三格式各 19 表、0058 精确差量，以及标准 177 文件/实际 Pages 327 文件的同模式 base/head 字节比较再次通过。新增 3 项运行时篡改/版本回退/删除配置拒绝测试；合计本次新增 20 项。浏览器产物字节没有变化，前阶段桌面/手机与远端 Pages 浏览器结果仍适用，新 head 仍须重新通过全部适用 CI。
+
+本补充更新当前审计结论；以下保留首次提交前的 190 项本地验收记录，最终远端结果以 PR 当前 head 的 Checks 为准。
+
+
 日期：2026-10-15。范围：TASK-129，承接已通过的 TASK-127 研究终审；仅修复验证和说明。精确 PR base 为 `05f3372c69a54ec331d31b05d16c8288d6d3a993`，原 head 为 `3e48c3a8327e3ad5a63df4813945d8c2cc148c8f`。本地验证使用 tracked checkout 加本次代码修改，不读取原 worktree 的 ignored 数据或未提交外部交付。
 
 ## 发现与处理

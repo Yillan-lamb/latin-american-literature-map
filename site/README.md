@@ -20,4 +20,6 @@ python3 scripts/validate_wcd09_implementation.py
 
 旧 `site/assets/latin-america-countries.geojson` 只作为回滚资产保留，不再是活动地图入口。
 
-正式部署仍需用户通过 V2-N4，并由手动 Pages 工作流校验批准提交、候选清单和 HTTPS origin。本目录本身不执行部署。
+当前 [Pages 工作流](../.github/workflows/v2-pages.yml) 在 `main` 更新后自动部署开发预览，也支持手动触发。它先由 `build_v2_user_review_preview.py` 在临时输入中生成 USER_REVIEW 预览，再由 deploy builder 使用仓库 HTTPS origin 和 `--development-preview` 生成经过裁剪的 `dist/`；只有通过公开包与研究隔离检查的 `dist/` 被上传。
+
+该开发预览为 271 个对象、288 条路由；默认策展输入生成的标准公开包为 127 个对象、139 条路由。两者的用途及字段边界见[开发预览说明](../docs/web/DEVELOPMENT_PREVIEW_BOUNDARY.md)。正式 Public Release 仍须 USER 单独开启并批准，不能将当前自动预览工作流视作正式发布批准。本目录本身不执行部署。

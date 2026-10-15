@@ -2,6 +2,10 @@
 
 本目录保存具有长期版本解释价值的 Research Data 与 Web 阶段说明。版本事实以 Git 历史、`CHANGELOG.md`、数据 Manifest 和相应发布文档共同为准；本目录不承担每日任务状态。
 
+当前开发版本为 Research Data `1.5.0 development candidate`、Research Schema `0.4`、Web Data schema `v2-web-0.3`、Web Product `0.6.0 Development`。PR #38 合并及其验证补强继续归入现有 Development train，不触发新版本或正式发布；当前规模与构建模式以[根 README](../../README.md)为准。
+
+下列 V1 正式发布与 V2 RC 文件保留各自历史时点的结论；`V2.0.0-rc.4` 不是当前 Web 产品版本。GitHub Pages 当前为[开发预览](../web/DEVELOPMENT_PREVIEW_BOUNDARY.md)，Public Release 仍暂停。
+
 - [Data V1.0.0 正式发布说明](./V1_正式发布说明.md)
 - [Data V1 版本摘要](./V1_版本摘要.md)
 - [Data V1 已知问题](./V1_已知问题.md)

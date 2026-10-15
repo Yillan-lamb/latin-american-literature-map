@@ -14,7 +14,7 @@
 
 ## 当前开发主库
 
-截至2026-10-15，当前WCD-10已追加迁移`0058_wcd10_collection_type_correction.sql`；共58迁移、19表。数据库为796 entities、2686 facts、770 relationships、795 sources、824 cards、691 gaps，SHA-256：`7ee4188756f4f18683f5e2e979d44d31f63c4682d782007af0e7c3ad7091a8ad`；当前全量导出为`data/exports/wcd10-type-correction/`。0058更正15个既有合集实体及15张卡片的对象类型；全部稳定ID、事实、来源、角色和缺口保全。61作者/21批内容与必要回补经[最终全量审计](../changesets/WCD-10/FINAL_AUDIT/FINAL_AUDIT.md)通过；58迁移19表全重放、三格式19表、22重复导出、173Python测试、177公共文件字节保全通过。公开对象127/路由139/新增公开0。Research1.5.0development、Schema0.4、WebData0.3、Web0.6.0及PublicRelease暂停不变。`metadata.sha256`仍为V1历史表指纹，不是当前库摘要。0057及之前导出/审核包保留不覆写。
+截至2026-10-15，当前WCD-10已追加迁移`0058_wcd10_collection_type_correction.sql`；共58迁移、19表。数据库为796 entities、2686 facts、770 relationships、795 sources、824 cards、691 gaps，SHA-256：`7ee4188756f4f18683f5e2e979d44d31f63c4682d782007af0e7c3ad7091a8ad`；当前全量导出为`data/exports/wcd10-type-correction/`。0058更正15个既有合集实体及15张卡片的对象类型；全部稳定ID、事实、来源、角色和缺口保全。61作者/21批内容与必要回补经[最终全量审计](../changesets/WCD-10/FINAL_AUDIT/FINAL_AUDIT.md)通过；58迁移19表全重放、三格式19表、22重复导出、研究终审时173项Python测试通过；PR #38 工程补强后，当前完整CI回归为193项。标准公开包127对象/139路由/177文件，Pages开发预览271对象/288路由/327文件；两种模式分别与PR base作固定时间比较，文件字节全同、新增研究公开内容0。详见[部署边界](../../docs/web/DEVELOPMENT_PREVIEW_BOUNDARY.md)。Research1.5.0development、Schema0.4、WebData0.3、Web0.6.0及PublicRelease暂停不变。`metadata.sha256`仍为V1历史表指纹，不是当前库摘要。0057及之前导出/审核包保留不覆写。
 
 B04检查点为418实体／1209事实／386关系／392来源／328卡，SHA `45e8d72c3656f762f4a34f664c822c33685be925b53553b91b19041d6835b47d`；`data/exports/wcd10-b04-checkpoint/`保留不覆写。
 

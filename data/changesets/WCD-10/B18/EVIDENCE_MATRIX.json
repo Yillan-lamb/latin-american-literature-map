@@ -1,0 +1,1193 @@
+{
+  "task_id": "TASK-123",
+  "batch_id": "WCD-10-B18",
+  "baseline_database_sha256": "1bc4695f6c77cad166b5229572f73490006b9e4392379e0017f799049e5aceb0",
+  "entries": [
+    {
+      "candidate_id": "WCD10-B18-W001-F01",
+      "entity_candidate_id": "WCD10-B18-W001",
+      "subject_id": "WCD10-B18-W001",
+      "field": "genre_or_form",
+      "value": "戏剧",
+      "source_refs": [
+        "WCD10-B18-S001"
+      ],
+      "source_title": "Los empeños de una casa / Sor Juana Inés de la Cruz",
+      "url": "https://www.cervantesvirtual.com/portales/sor_juana_ines_de_la_cruz/obra/los-empenos-de-una-casa-923734/",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "实读2026-10-14：第65–91行的电子书书目记录列出作品题名和Sor Juana作者、数字电子书出版年2022、1992年重印底本出处、剧场主题标目/戏剧分类号，并给出托莱多场景、人物及误会情节摘要。",
+      "support_assessment": "direct",
+      "claim_boundary": "仅限该目录/数字作品记录明确支持的书目或摘要信息；不推导未载明的作品首刊年份、文学影响或完整研究结论。"
+    },
+    {
+      "candidate_id": "WCD10-B18-W001-F02",
+      "entity_candidate_id": "WCD10-B18-W001",
+      "subject_id": "WCD10-B18-W001",
+      "field": "one_sentence_summary",
+      "value": "一连串爱情与婚姻安排在托莱多交错展开：安娜、佩德罗、胡安、卡洛斯与莱奥诺尔的追求和逃离计划引发多重误会。",
+      "source_refs": [
+        "WCD10-B18-S001"
+      ],
+      "source_title": "Los empeños de una casa / Sor Juana Inés de la Cruz",
+      "url": "https://www.cervantesvirtual.com/portales/sor_juana_ines_de_la_cruz/obra/los-empenos-de-una-casa-923734/",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "实读2026-10-14：第65–91行的电子书书目记录列出作品题名和Sor Juana作者、数字电子书出版年2022、1992年重印底本出处、剧场主题标目/戏剧分类号，并给出托莱多场景、人物及误会情节摘要。",
+      "support_assessment": "direct",
+      "claim_boundary": "仅限该目录/数字作品记录明确支持的书目或摘要信息；不推导未载明的作品首刊年份、文学影响或完整研究结论。"
+    },
+    {
+      "candidate_id": "WCD10-B18-W001-F03",
+      "entity_candidate_id": "WCD10-B18-W001",
+      "subject_id": "WCD10-B18-W001",
+      "field": "bibliographic_note",
+      "value": "Biblioteca Virtual Miguel de Cervantes的电子文本记录作者为Sor Juana Inés de la Cruz，并注明其重印底本为Dolores Bravo编《Teatro mexicano: historia y crítica》（1992），第71–116页；该记录没有给出原作首演或首刊年份。",
+      "source_refs": [
+        "WCD10-B18-S001"
+      ],
+      "source_title": "Los empeños de una casa / Sor Juana Inés de la Cruz",
+      "url": "https://www.cervantesvirtual.com/portales/sor_juana_ines_de_la_cruz/obra/los-empenos-de-una-casa-923734/",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "实读2026-10-14：第65–91行的电子书书目记录列出作品题名和Sor Juana作者、数字电子书出版年2022、1992年重印底本出处、剧场主题标目/戏剧分类号，并给出托莱多场景、人物及误会情节摘要。",
+      "support_assessment": "direct",
+      "claim_boundary": "仅限该目录/数字作品记录明确支持的书目或摘要信息；不推导未载明的作品首刊年份、文学影响或完整研究结论。"
+    },
+    {
+      "candidate_id": "WCD10-B18-W002-F01",
+      "entity_candidate_id": "WCD10-B18-W002",
+      "subject_id": "WCD10-B18-W002",
+      "field": "genre_or_form",
+      "value": "诗集",
+      "source_refs": [
+        "WCD10-B18-S002"
+      ],
+      "source_title": "Inundación castálida de la única poetisa, musa décima, sóror Juana Inés de la Cruz",
+      "url": "https://sibila.iib.unam.mx/index.php/Detail/Object/Show/object_id/1077",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "实读2026-10-14：第19–24行著录该对象为古籍专著，列作者、完整题名、马德里Juan García Infanzón 1689印记及328页；第25–121行展示具体作品及体裁目录，包括sonetos、romances、redondillas、loas和ovillejos。",
+      "support_assessment": "direct",
+      "claim_boundary": "仅限该目录/数字作品记录明确支持的书目或摘要信息；不推导未载明的作品首刊年份、文学影响或完整研究结论。"
+    },
+    {
+      "candidate_id": "WCD10-B18-W002-F02",
+      "entity_candidate_id": "WCD10-B18-W002",
+      "subject_id": "WCD10-B18-W002",
+      "field": "first_publication_year",
+      "value": "1689",
+      "source_refs": [
+        "WCD10-B18-S002"
+      ],
+      "source_title": "Inundación castálida de la única poetisa, musa décima, sóror Juana Inés de la Cruz",
+      "url": "https://sibila.iib.unam.mx/index.php/Detail/Object/Show/object_id/1077",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "实读2026-10-14：第19–24行著录该对象为古籍专著，列作者、完整题名、马德里Juan García Infanzón 1689印记及328页；第25–121行展示具体作品及体裁目录，包括sonetos、romances、redondillas、loas和ovillejos。",
+      "support_assessment": "direct",
+      "claim_boundary": "仅限该目录/数字作品记录明确支持的书目或摘要信息；不推导未载明的作品首刊年份、文学影响或完整研究结论。"
+    },
+    {
+      "candidate_id": "WCD10-B18-W002-F03",
+      "entity_candidate_id": "WCD10-B18-W002",
+      "subject_id": "WCD10-B18-W002",
+      "field": "one_sentence_summary",
+      "value": "这部诗集汇集多种诗体作品，包括十四行诗、罗曼诗、十行诗与节庆颂歌；UNAM目录逐篇列出原版篇目及页码。",
+      "source_refs": [
+        "WCD10-B18-S002"
+      ],
+      "source_title": "Inundación castálida de la única poetisa, musa décima, sóror Juana Inés de la Cruz",
+      "url": "https://sibila.iib.unam.mx/index.php/Detail/Object/Show/object_id/1077",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "实读2026-10-14：第19–24行著录该对象为古籍专著，列作者、完整题名、马德里Juan García Infanzón 1689印记及328页；第25–121行展示具体作品及体裁目录，包括sonetos、romances、redondillas、loas和ovillejos。",
+      "support_assessment": "direct",
+      "claim_boundary": "仅限该目录/数字作品记录明确支持的书目或摘要信息；不推导未载明的作品首刊年份、文学影响或完整研究结论。"
+    },
+    {
+      "candidate_id": "WCD10-B18-W002-F04",
+      "entity_candidate_id": "WCD10-B18-W002",
+      "subject_id": "WCD10-B18-W002",
+      "field": "bibliographic_note",
+      "value": "UNAM SIBILA将该书著录为索尔·胡安娜的古籍专著，原版印记为马德里 Juan García Infanzón，1689；目录记载328页并列有具体篇目。",
+      "source_refs": [
+        "WCD10-B18-S002"
+      ],
+      "source_title": "Inundación castálida de la única poetisa, musa décima, sóror Juana Inés de la Cruz",
+      "url": "https://sibila.iib.unam.mx/index.php/Detail/Object/Show/object_id/1077",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "实读2026-10-14：第19–24行著录该对象为古籍专著，列作者、完整题名、马德里Juan García Infanzón 1689印记及328页；第25–121行展示具体作品及体裁目录，包括sonetos、romances、redondillas、loas和ovillejos。",
+      "support_assessment": "direct",
+      "claim_boundary": "仅限该目录/数字作品记录明确支持的书目或摘要信息；不推导未载明的作品首刊年份、文学影响或完整研究结论。"
+    },
+    {
+      "candidate_id": "WCD10-B18-W003-F01",
+      "entity_candidate_id": "WCD10-B18-W003",
+      "subject_id": "WCD10-B18-W003",
+      "field": "genre_or_form",
+      "value": "书信/神学论辩散文",
+      "source_refs": [
+        "WCD10-B18-S003"
+      ],
+      "source_title": "Conversación sobre Sor Juana Inés de la Cruz, en Vindictas",
+      "url": "https://unamglobal.unam.mx/global_revista/conversacion-sobre-sor-juana-ines-de-la-cruz-en-vindictas/",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "实读2026-10-14：第32–34行。第32行记《Los empeños de una casa》于1683年在墨西哥城演出、《Inundación Castálida》于1689年在马德里出版；第33行明确《Amor es más laberinto》为Sor Juana与Juan de Guevara合作创作、1689年首演；第34行记Carta Atenagórica于1690年写作、回应Vieyra于1650年所作布道，并与Respuesta的书信回应关系。",
+      "support_assessment": "direct",
+      "claim_boundary": "写作年份是1690，不表达为首刊；摘要只限来源明确交代的批评/书信背景。"
+    },
+    {
+      "candidate_id": "WCD10-B18-W003-F02",
+      "entity_candidate_id": "WCD10-B18-W003",
+      "subject_id": "WCD10-B18-W003",
+      "field": "one_sentence_summary",
+      "value": "Sor Juana在文中对Antonio Vieyra关于1650年布道的论述作神学回应；该文随后引发她与自称Sor Filotea的主教之间的书信往来。",
+      "source_refs": [
+        "WCD10-B18-S003"
+      ],
+      "source_title": "Conversación sobre Sor Juana Inés de la Cruz, en Vindictas",
+      "url": "https://unamglobal.unam.mx/global_revista/conversacion-sobre-sor-juana-ines-de-la-cruz-en-vindictas/",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "实读2026-10-14：第32–34行。第32行记《Los empeños de una casa》于1683年在墨西哥城演出、《Inundación Castálida》于1689年在马德里出版；第33行明确《Amor es más laberinto》为Sor Juana与Juan de Guevara合作创作、1689年首演；第34行记Carta Atenagórica于1690年写作、回应Vieyra于1650年所作布道，并与Respuesta的书信回应关系。",
+      "support_assessment": "direct",
+      "claim_boundary": "写作年份是1690，不表达为首刊；摘要只限来源明确交代的批评/书信背景。"
+    },
+    {
+      "candidate_id": "WCD10-B18-W003-F03",
+      "entity_candidate_id": "WCD10-B18-W003",
+      "subject_id": "WCD10-B18-W003",
+      "field": "bibliographic_note",
+      "value": "UNAM Global记载Carta Atenagórica（又称La crisis de un sermón）写于1690年；此处为写作年份，不作为首刊年份。",
+      "source_refs": [
+        "WCD10-B18-S003"
+      ],
+      "source_title": "Conversación sobre Sor Juana Inés de la Cruz, en Vindictas",
+      "url": "https://unamglobal.unam.mx/global_revista/conversacion-sobre-sor-juana-ines-de-la-cruz-en-vindictas/",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "实读2026-10-14：第32–34行。第32行记《Los empeños de una casa》于1683年在墨西哥城演出、《Inundación Castálida》于1689年在马德里出版；第33行明确《Amor es más laberinto》为Sor Juana与Juan de Guevara合作创作、1689年首演；第34行记Carta Atenagórica于1690年写作、回应Vieyra于1650年所作布道，并与Respuesta的书信回应关系。",
+      "support_assessment": "direct",
+      "claim_boundary": "写作年份是1690，不表达为首刊；摘要只限来源明确交代的批评/书信背景。"
+    },
+    {
+      "candidate_id": "WCD10-B18-F001",
+      "entity_candidate_id": "V1-ENT-0330",
+      "subject_id": "V1-ENT-0330",
+      "field": "one_sentence_summary",
+      "value": "Sor Juana以书信回应自称Sor Filotea的主教对她的劝诫；该回应承接了她此前对Vieyra布道的神学批评。",
+      "source_refs": [
+        "WCD10-B18-S003"
+      ],
+      "source_title": "Conversación sobre Sor Juana Inés de la Cruz, en Vindictas",
+      "url": "https://unamglobal.unam.mx/global_revista/conversacion-sobre-sor-juana-ines-de-la-cruz-en-vindictas/",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "实读2026-10-14：第32–34行。第32行记《Los empeños de una casa》于1683年在墨西哥城演出、《Inundación Castálida》于1689年在马德里出版；第33行明确《Amor es más laberinto》为Sor Juana与Juan de Guevara合作创作、1689年首演；第34行记Carta Atenagórica于1690年写作、回应Vieyra于1650年所作布道，并与Respuesta的书信回应关系。",
+      "support_assessment": "direct",
+      "claim_boundary": "仅补充一个由直接机构来源支持的对象简介；旧作品、既有事实、来源链接和关联保持原样。"
+    },
+    {
+      "candidate_id": "WCD10-B18-F002",
+      "entity_candidate_id": "V1-ENT-0331",
+      "subject_id": "V1-ENT-0331",
+      "field": "one_sentence_summary",
+      "value": "一部与Juan de Guevara合作写作、于1689年首演的喜剧。",
+      "source_refs": [
+        "WCD10-B18-S003"
+      ],
+      "source_title": "Conversación sobre Sor Juana Inés de la Cruz, en Vindictas",
+      "url": "https://unamglobal.unam.mx/global_revista/conversacion-sobre-sor-juana-ines-de-la-cruz-en-vindictas/",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "实读2026-10-14：第32–34行。第32行记《Los empeños de una casa》于1683年在墨西哥城演出、《Inundación Castálida》于1689年在马德里出版；第33行明确《Amor es más laberinto》为Sor Juana与Juan de Guevara合作创作、1689年首演；第34行记Carta Atenagórica于1690年写作、回应Vieyra于1650年所作布道，并与Respuesta的书信回应关系。",
+      "support_assessment": "direct",
+      "claim_boundary": "来源只支持合作作者、喜剧类型和1689首演事实；不补写来源未提供的情节。"
+    },
+    {
+      "candidate_id": "WCD10-B18-F003",
+      "entity_candidate_id": "V1-ENT-0331",
+      "subject_id": "V1-ENT-0331",
+      "field": "bibliographic_note",
+      "value": "UNAM Global记载该剧由Sor Juana与Juan de Guevara合作创作，并于1689年首演；现有事实只保留既有已证年份，不改其字段或来源链。",
+      "source_refs": [
+        "WCD10-B18-S003"
+      ],
+      "source_title": "Conversación sobre Sor Juana Inés de la Cruz, en Vindictas",
+      "url": "https://unamglobal.unam.mx/global_revista/conversacion-sobre-sor-juana-ines-de-la-cruz-en-vindictas/",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "实读2026-10-14：第32–34行。第32行记《Los empeños de una casa》于1683年在墨西哥城演出、《Inundación Castálida》于1689年在马德里出版；第33行明确《Amor es más laberinto》为Sor Juana与Juan de Guevara合作创作、1689年首演；第34行记Carta Atenagórica于1690年写作、回应Vieyra于1650年所作布道，并与Respuesta的书信回应关系。",
+      "support_assessment": "direct",
+      "claim_boundary": "只追加来源明确支持的合作作者与1689年演出说明；保留旧作品身份、旧facts与原有来源SRC-0253。"
+    },
+    {
+      "candidate_fact_id": "WCD10-B18-F101",
+      "author_id": "V1-ENT-0332",
+      "subject_ref": "WCD10-B18-W101",
+      "field": "genre_or_form",
+      "value": "小说",
+      "source_refs": [
+        "WCD10-B18-S101"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B18-S101",
+          "locator": "第127–132行列1960年版本并概述人物、庄园场景及冲突。",
+          "support_type": "official_cultural_institution_bibliography_and_description",
+          "note": "页面直接列出书目和/或作品简介；中文句为限缩释义。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B18-F102",
+      "author_id": "V1-ENT-0332",
+      "subject_ref": "WCD10-B18-W101",
+      "field": "first_publication_year",
+      "value": "1960",
+      "source_refs": [
+        "WCD10-B18-S101"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B18-S101",
+          "locator": "第127–132行列1960年版本并概述人物、庄园场景及冲突。",
+          "support_type": "official_cultural_institution_bibliography_and_description",
+          "note": "页面直接列出书目和/或作品简介；中文句为限缩释义。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B18-F103",
+      "author_id": "V1-ENT-0332",
+      "subject_ref": "WCD10-B18-W101",
+      "field": "one_sentence_summary",
+      "value": "外交部文化中心作品页将故事置于秘鲁内陆的圣加夫列尔庄园，描述一名在首都长大的少年因家庭原因来到庄园后所经历的人际冲突。",
+      "source_refs": [
+        "WCD10-B18-S101"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B18-S101",
+          "locator": "第127–132行列1960年版本并概述人物、庄园场景及冲突。",
+          "support_type": "official_cultural_institution_bibliography_and_description",
+          "note": "页面直接列出书目和/或作品简介；中文句为限缩释义。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B18-F104",
+      "author_id": "V1-ENT-0332",
+      "subject_ref": "WCD10-B18-W102",
+      "field": "genre_or_form",
+      "value": "小说",
+      "source_refs": [
+        "WCD10-B18-S101"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B18-S101",
+          "locator": "作者生平第16行称1964；第134–138行书目列Populibros Peruanos 1965，并概述Ludo Totem经历。",
+          "support_type": "official_cultural_institution_bibliography_and_description",
+          "note": "页面直接列出书目和/或作品简介；中文句为限缩释义。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B18-F105",
+      "author_id": "V1-ENT-0332",
+      "subject_ref": "WCD10-B18-W102",
+      "field": "bibliographic_note",
+      "value": "外交部文化中心作者简介第16行称本书于1964年发表；同页出版书目第134–138行列出Populibros Peruanos, Lima, 1965。由于同一页面存在年份口径冲突，本候选不填原子首发年份，保留两处来源表述供独立复核。",
+      "source_refs": [
+        "WCD10-B18-S101"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B18-S101",
+          "locator": "作者生平第16行称1964；第134–138行书目列Populibros Peruanos 1965，并概述Ludo Totem经历。",
+          "support_type": "official_cultural_institution_bibliography_and_description",
+          "note": "页面直接列出书目和/或作品简介；中文句为限缩释义。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B18-F106",
+      "author_id": "V1-ENT-0332",
+      "subject_ref": "WCD10-B18-W102",
+      "field": "one_sentence_summary",
+      "value": "外交部文化中心作品页介绍主人公Ludo Totem在利马社会中经历一连串交往与处境变化，并将其置于家庭、职业及文学圈人物之间。",
+      "source_refs": [
+        "WCD10-B18-S101"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B18-S101",
+          "locator": "作者生平第16行称1964；第134–138行书目列Populibros Peruanos 1965，并概述Ludo Totem经历。",
+          "support_type": "official_cultural_institution_bibliography_and_description",
+          "note": "页面直接列出书目和/或作品简介；中文句为限缩释义。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B18-F107",
+      "author_id": "V1-ENT-0332",
+      "subject_ref": "WCD10-B18-W103",
+      "field": "genre_or_form",
+      "value": "小说",
+      "source_refs": [
+        "WCD10-B18-S101"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B18-S101",
+          "locator": "第139–145行列Milla Batres, 1976，并概述政变、个人生活及糖果小贩遭遇。",
+          "support_type": "official_cultural_institution_bibliography_and_description",
+          "note": "页面直接列出书目和/或作品简介；中文句为限缩释义。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B18-F108",
+      "author_id": "V1-ENT-0332",
+      "subject_ref": "WCD10-B18-W103",
+      "field": "first_publication_year",
+      "value": "1976",
+      "source_refs": [
+        "WCD10-B18-S101"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B18-S101",
+          "locator": "第139–145行列Milla Batres, 1976，并概述政变、个人生活及糖果小贩遭遇。",
+          "support_type": "official_cultural_institution_bibliography_and_description",
+          "note": "页面直接列出书目和/或作品简介；中文句为限缩释义。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B18-F109",
+      "author_id": "V1-ENT-0332",
+      "subject_ref": "WCD10-B18-W103",
+      "field": "one_sentence_summary",
+      "value": "外交部文化中心作品页将故事写作权力政变后，政治变动如何牵连普通人的生活；情节涉及一名糖果小贩被卷入权力人物之间的阴谋。",
+      "source_refs": [
+        "WCD10-B18-S101"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B18-S101",
+          "locator": "第139–145行列Milla Batres, 1976，并概述政变、个人生活及糖果小贩遭遇。",
+          "support_type": "official_cultural_institution_bibliography_and_description",
+          "note": "页面直接列出书目和/或作品简介；中文句为限缩释义。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B18-F110",
+      "author_id": "V1-ENT-0332",
+      "subject_ref": "WCD10-B18-W104",
+      "field": "genre_or_form",
+      "value": "短散文集（含格言、哲学随笔与日记式文本）",
+      "source_refs": [
+        "WCD10-B18-S101"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B18-S101",
+          "locator": "第110–114行列Tusquets 1975版本及89/150/200篇的后续版本信息，并概述文体与主题。",
+          "support_type": "official_cultural_institution_bibliography_and_description",
+          "note": "页面直接列出书目、版本演进和/或文本描述；中文句为限缩释义。"
+        }
+      ],
+      "subject_entity_type": "collection"
+    },
+    {
+      "candidate_fact_id": "WCD10-B18-F111",
+      "author_id": "V1-ENT-0332",
+      "subject_ref": "WCD10-B18-W104",
+      "field": "first_publication_year",
+      "value": "1975",
+      "source_refs": [
+        "WCD10-B18-S101"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B18-S101",
+          "locator": "第110–114行列Tusquets 1975版本及89/150/200篇的后续版本信息，并概述文体与主题。",
+          "support_type": "official_cultural_institution_bibliography_and_description",
+          "note": "页面直接列出书目、版本演进和/或文本描述；中文句为限缩释义。"
+        }
+      ],
+      "subject_entity_type": "collection"
+    },
+    {
+      "candidate_fact_id": "WCD10-B18-F112",
+      "author_id": "V1-ENT-0332",
+      "subject_ref": "WCD10-B18-W104",
+      "field": "bibliographic_note",
+      "value": "外交部文化中心页面列Tusquets 1975版（89篇）、1978年扩充版（150篇）及1986年定本（200篇）；此候选记录首版年份1975，并在注记中保留后续版本篇数。",
+      "source_refs": [
+        "WCD10-B18-S101"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B18-S101",
+          "locator": "第110–114行列Tusquets 1975版本及89/150/200篇的后续版本信息，并概述文体与主题。",
+          "support_type": "official_cultural_institution_bibliography_and_description",
+          "note": "页面直接列出书目、版本演进和/或文本描述；中文句为限缩释义。"
+        }
+      ],
+      "subject_entity_type": "collection"
+    },
+    {
+      "candidate_fact_id": "WCD10-B18-F113",
+      "author_id": "V1-ENT-0332",
+      "subject_ref": "WCD10-B18-W104",
+      "field": "one_sentence_summary",
+      "value": "外交部文化中心将本书描述为由短篇文本构成，内容介于格言、哲学随笔与日记之间，涉及文学、记忆、遗忘、年龄、童年和爱情等主题。",
+      "source_refs": [
+        "WCD10-B18-S101"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B18-S101",
+          "locator": "第110–114行列Tusquets 1975版本及89/150/200篇的后续版本信息，并概述文体与主题。",
+          "support_type": "official_cultural_institution_bibliography_and_description",
+          "note": "页面直接列出书目、版本演进和/或文本描述；中文句为限缩释义。"
+        }
+      ],
+      "subject_entity_type": "collection"
+    },
+    {
+      "candidate_fact_id": "WCD10-B18-F114",
+      "author_id": "V1-ENT-0332",
+      "subject_ref": "WCD10-B18-W105",
+      "field": "genre_or_form",
+      "value": "日记集（多卷）",
+      "source_refs": [
+        "WCD10-B18-S101"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B18-S101",
+          "locator": "第90–99行列三卷出版年（1992、1993、1995）及Barcelona, Seix Barral 2003合版，并说明日记覆盖1950–1978。",
+          "support_type": "official_cultural_institution_bibliography_and_description",
+          "note": "页面直接列出书目、版本演进和/或文本描述；中文句为限缩释义。"
+        }
+      ],
+      "subject_entity_type": "collection"
+    },
+    {
+      "candidate_fact_id": "WCD10-B18-F115",
+      "author_id": "V1-ENT-0332",
+      "subject_ref": "WCD10-B18-W105",
+      "field": "bibliographic_note",
+      "value": "外交部文化中心页面称第一、二卷分别于1992、1993年出版，第三卷于1995年身后出版；另列2003年Seix Barral版并概述该版日记覆盖1950–1978年。因页面呈现多卷出版序列与后出的合版，本候选留空原子首版年份，不把2003年记作首版。",
+      "source_refs": [
+        "WCD10-B18-S101"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B18-S101",
+          "locator": "第90–99行列三卷出版年（1992、1993、1995）及Barcelona, Seix Barral 2003合版，并说明日记覆盖1950–1978。",
+          "support_type": "official_cultural_institution_bibliography_and_description",
+          "note": "页面直接列出书目、版本演进和/或文本描述；中文句为限缩释义。"
+        }
+      ],
+      "subject_entity_type": "collection"
+    },
+    {
+      "candidate_fact_id": "WCD10-B18-F116",
+      "author_id": "V1-ENT-0332",
+      "subject_ref": "WCD10-B18-W105",
+      "field": "one_sentence_summary",
+      "value": "外交部文化中心将其描述为个人日记集，记录作者1950至1978年间在日常生活、旅行和写作过程中的经历。",
+      "source_refs": [
+        "WCD10-B18-S101"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B18-S101",
+          "locator": "第90–99行列三卷出版年（1992、1993、1995）及Barcelona, Seix Barral 2003合版，并说明日记覆盖1950–1978。",
+          "support_type": "official_cultural_institution_bibliography_and_description",
+          "note": "页面直接列出书目、版本演进和/或文本描述；中文句为限缩释义。"
+        }
+      ],
+      "subject_entity_type": "collection"
+    },
+    {
+      "candidate_fact_id": "WCD10-B18-F201",
+      "author_id": "V1-ENT-0333",
+      "subject_ref": "WCD10-B18-W201",
+      "field": "genre_or_form",
+      "value": "短篇集",
+      "source_refs": [
+        "WCD10-B18-S201"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B18-S201",
+          "locator": "实读2026-10-14，Argentina.gob.ar正文第24–25行说明《En la zona》1960年出版、由14篇短篇构成并点出末篇“Algo se aproxima”；第32–33行列出短篇集Palo y hueso（1965）、Unidad de lugar（1967）、La mayor（1976）、Lugar（2000），诗歌汇编El arte de narrar: poemas 1960/1975（1977），小说Responso（1963）、Cicatrices（1969）、El limonero real（1974）、Nada nunca nada（1980）、El entenado（1983）、Glosa（1986）及散文集El río sin orillas: tratado imaginario（1991）、El concepto de ficción（1997）、La narración-objeto（1999）；第42行明确《La ocasión》获1987年Nadal奖，未据此推断首版年份。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B18-F202",
+      "author_id": "V1-ENT-0333",
+      "subject_ref": "WCD10-B18-W201",
+      "field": "first_publication_year",
+      "value": "1960",
+      "source_refs": [
+        "WCD10-B18-S201"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B18-S201",
+          "locator": "实读2026-10-14，Argentina.gob.ar正文第24–25行说明《En la zona》1960年出版、由14篇短篇构成并点出末篇“Algo se aproxima”；第32–33行列出短篇集Palo y hueso（1965）、Unidad de lugar（1967）、La mayor（1976）、Lugar（2000），诗歌汇编El arte de narrar: poemas 1960/1975（1977），小说Responso（1963）、Cicatrices（1969）、El limonero real（1974）、Nada nunca nada（1980）、El entenado（1983）、Glosa（1986）及散文集El río sin orillas: tratado imaginario（1991）、El concepto de ficción（1997）、La narración-objeto（1999）；第42行明确《La ocasión》获1987年Nadal奖，未据此推断首版年份。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B18-F203",
+      "author_id": "V1-ENT-0333",
+      "subject_ref": "WCD10-B18-W201",
+      "field": "one_sentence_summary",
+      "value": "政府文化文章称该书于1960年出版，包含14篇短篇；其中前13篇保留作者对博尔赫斯的敬仰痕迹，末篇“Algo se aproxima”则标记了作者个人文学路径的转折。",
+      "source_refs": [
+        "WCD10-B18-S201"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B18-S201",
+          "locator": "实读2026-10-14，Argentina.gob.ar正文第24–25行说明《En la zona》1960年出版、由14篇短篇构成并点出末篇“Algo se aproxima”；第32–33行列出短篇集Palo y hueso（1965）、Unidad de lugar（1967）、La mayor（1976）、Lugar（2000），诗歌汇编El arte de narrar: poemas 1960/1975（1977），小说Responso（1963）、Cicatrices（1969）、El limonero real（1974）、Nada nunca nada（1980）、El entenado（1983）、Glosa（1986）及散文集El río sin orillas: tratado imaginario（1991）、El concepto de ficción（1997）、La narración-objeto（1999）；第42行明确《La ocasión》获1987年Nadal奖，未据此推断首版年份。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B18-F204",
+      "author_id": "V1-ENT-0333",
+      "subject_ref": "WCD10-B18-W202",
+      "field": "genre_or_form",
+      "value": "短篇集",
+      "source_refs": [
+        "WCD10-B18-S201"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B18-S201",
+          "locator": "实读2026-10-14，Argentina.gob.ar正文第24–25行说明《En la zona》1960年出版、由14篇短篇构成并点出末篇“Algo se aproxima”；第32–33行列出短篇集Palo y hueso（1965）、Unidad de lugar（1967）、La mayor（1976）、Lugar（2000），诗歌汇编El arte de narrar: poemas 1960/1975（1977），小说Responso（1963）、Cicatrices（1969）、El limonero real（1974）、Nada nunca nada（1980）、El entenado（1983）、Glosa（1986）及散文集El río sin orillas: tratado imaginario（1991）、El concepto de ficción（1997）、La narración-objeto（1999）；第42行明确《La ocasión》获1987年Nadal奖，未据此推断首版年份。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B18-F205",
+      "author_id": "V1-ENT-0333",
+      "subject_ref": "WCD10-B18-W202",
+      "field": "bibliographic_note",
+      "value": "政府文化文章将Palo y hueso列作1965年的短篇集；本文按该条目记录年份，不主张具体版次。",
+      "source_refs": [
+        "WCD10-B18-S201"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B18-S201",
+          "locator": "实读2026-10-14，Argentina.gob.ar正文第24–25行说明《En la zona》1960年出版、由14篇短篇构成并点出末篇“Algo se aproxima”；第32–33行列出短篇集Palo y hueso（1965）、Unidad de lugar（1967）、La mayor（1976）、Lugar（2000），诗歌汇编El arte de narrar: poemas 1960/1975（1977），小说Responso（1963）、Cicatrices（1969）、El limonero real（1974）、Nada nunca nada（1980）、El entenado（1983）、Glosa（1986）及散文集El río sin orillas: tratado imaginario（1991）、El concepto de ficción（1997）、La narración-objeto（1999）；第42行明确《La ocasión》获1987年Nadal奖，未据此推断首版年份。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B18-F206",
+      "author_id": "V1-ENT-0333",
+      "subject_ref": "WCD10-B18-W202",
+      "field": "one_sentence_summary",
+      "value": "Argentina.gob.ar将该作品列入Juan José Saer的短篇集书目。",
+      "source_refs": [
+        "WCD10-B18-S201"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B18-S201",
+          "locator": "实读2026-10-14，Argentina.gob.ar正文第24–25行说明《En la zona》1960年出版、由14篇短篇构成并点出末篇“Algo se aproxima”；第32–33行列出短篇集Palo y hueso（1965）、Unidad de lugar（1967）、La mayor（1976）、Lugar（2000），诗歌汇编El arte de narrar: poemas 1960/1975（1977），小说Responso（1963）、Cicatrices（1969）、El limonero real（1974）、Nada nunca nada（1980）、El entenado（1983）、Glosa（1986）及散文集El río sin orillas: tratado imaginario（1991）、El concepto de ficción（1997）、La narración-objeto（1999）；第42行明确《La ocasión》获1987年Nadal奖，未据此推断首版年份。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B18-F207",
+      "author_id": "V1-ENT-0333",
+      "subject_ref": "WCD10-B18-W203",
+      "field": "genre_or_form",
+      "value": "短篇集",
+      "source_refs": [
+        "WCD10-B18-S201"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B18-S201",
+          "locator": "实读2026-10-14，Argentina.gob.ar正文第24–25行说明《En la zona》1960年出版、由14篇短篇构成并点出末篇“Algo se aproxima”；第32–33行列出短篇集Palo y hueso（1965）、Unidad de lugar（1967）、La mayor（1976）、Lugar（2000），诗歌汇编El arte de narrar: poemas 1960/1975（1977），小说Responso（1963）、Cicatrices（1969）、El limonero real（1974）、Nada nunca nada（1980）、El entenado（1983）、Glosa（1986）及散文集El río sin orillas: tratado imaginario（1991）、El concepto de ficción（1997）、La narración-objeto（1999）；第42行明确《La ocasión》获1987年Nadal奖，未据此推断首版年份。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B18-F208",
+      "author_id": "V1-ENT-0333",
+      "subject_ref": "WCD10-B18-W203",
+      "field": "bibliographic_note",
+      "value": "政府文化文章将Unidad de lugar列作1967年的短篇集；本文按该条目记录年份，不主张具体版次。",
+      "source_refs": [
+        "WCD10-B18-S201"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B18-S201",
+          "locator": "实读2026-10-14，Argentina.gob.ar正文第24–25行说明《En la zona》1960年出版、由14篇短篇构成并点出末篇“Algo se aproxima”；第32–33行列出短篇集Palo y hueso（1965）、Unidad de lugar（1967）、La mayor（1976）、Lugar（2000），诗歌汇编El arte de narrar: poemas 1960/1975（1977），小说Responso（1963）、Cicatrices（1969）、El limonero real（1974）、Nada nunca nada（1980）、El entenado（1983）、Glosa（1986）及散文集El río sin orillas: tratado imaginario（1991）、El concepto de ficción（1997）、La narración-objeto（1999）；第42行明确《La ocasión》获1987年Nadal奖，未据此推断首版年份。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B18-F209",
+      "author_id": "V1-ENT-0333",
+      "subject_ref": "WCD10-B18-W203",
+      "field": "one_sentence_summary",
+      "value": "Argentina.gob.ar将该作品列入Juan José Saer的短篇集书目。",
+      "source_refs": [
+        "WCD10-B18-S201"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B18-S201",
+          "locator": "实读2026-10-14，Argentina.gob.ar正文第24–25行说明《En la zona》1960年出版、由14篇短篇构成并点出末篇“Algo se aproxima”；第32–33行列出短篇集Palo y hueso（1965）、Unidad de lugar（1967）、La mayor（1976）、Lugar（2000），诗歌汇编El arte de narrar: poemas 1960/1975（1977），小说Responso（1963）、Cicatrices（1969）、El limonero real（1974）、Nada nunca nada（1980）、El entenado（1983）、Glosa（1986）及散文集El río sin orillas: tratado imaginario（1991）、El concepto de ficción（1997）、La narración-objeto（1999）；第42行明确《La ocasión》获1987年Nadal奖，未据此推断首版年份。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B18-F210",
+      "author_id": "V1-ENT-0333",
+      "subject_ref": "WCD10-B18-W204",
+      "field": "genre_or_form",
+      "value": "短篇集",
+      "source_refs": [
+        "WCD10-B18-S201"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B18-S201",
+          "locator": "实读2026-10-14，Argentina.gob.ar正文第24–25行说明《En la zona》1960年出版、由14篇短篇构成并点出末篇“Algo se aproxima”；第32–33行列出短篇集Palo y hueso（1965）、Unidad de lugar（1967）、La mayor（1976）、Lugar（2000），诗歌汇编El arte de narrar: poemas 1960/1975（1977），小说Responso（1963）、Cicatrices（1969）、El limonero real（1974）、Nada nunca nada（1980）、El entenado（1983）、Glosa（1986）及散文集El río sin orillas: tratado imaginario（1991）、El concepto de ficción（1997）、La narración-objeto（1999）；第42行明确《La ocasión》获1987年Nadal奖，未据此推断首版年份。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B18-F211",
+      "author_id": "V1-ENT-0333",
+      "subject_ref": "WCD10-B18-W204",
+      "field": "bibliographic_note",
+      "value": "政府文化文章将La mayor列作1976年的短篇集；本文按该条目记录年份，不主张具体版次。",
+      "source_refs": [
+        "WCD10-B18-S201"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B18-S201",
+          "locator": "实读2026-10-14，Argentina.gob.ar正文第24–25行说明《En la zona》1960年出版、由14篇短篇构成并点出末篇“Algo se aproxima”；第32–33行列出短篇集Palo y hueso（1965）、Unidad de lugar（1967）、La mayor（1976）、Lugar（2000），诗歌汇编El arte de narrar: poemas 1960/1975（1977），小说Responso（1963）、Cicatrices（1969）、El limonero real（1974）、Nada nunca nada（1980）、El entenado（1983）、Glosa（1986）及散文集El río sin orillas: tratado imaginario（1991）、El concepto de ficción（1997）、La narración-objeto（1999）；第42行明确《La ocasión》获1987年Nadal奖，未据此推断首版年份。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B18-F212",
+      "author_id": "V1-ENT-0333",
+      "subject_ref": "WCD10-B18-W204",
+      "field": "one_sentence_summary",
+      "value": "Argentina.gob.ar将该作品列入Juan José Saer的短篇集书目。",
+      "source_refs": [
+        "WCD10-B18-S201"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B18-S201",
+          "locator": "实读2026-10-14，Argentina.gob.ar正文第24–25行说明《En la zona》1960年出版、由14篇短篇构成并点出末篇“Algo se aproxima”；第32–33行列出短篇集Palo y hueso（1965）、Unidad de lugar（1967）、La mayor（1976）、Lugar（2000），诗歌汇编El arte de narrar: poemas 1960/1975（1977），小说Responso（1963）、Cicatrices（1969）、El limonero real（1974）、Nada nunca nada（1980）、El entenado（1983）、Glosa（1986）及散文集El río sin orillas: tratado imaginario（1991）、El concepto de ficción（1997）、La narración-objeto（1999）；第42行明确《La ocasión》获1987年Nadal奖，未据此推断首版年份。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B18-F213",
+      "author_id": "V1-ENT-0333",
+      "subject_ref": "WCD10-B18-W205",
+      "field": "genre_or_form",
+      "value": "短篇集",
+      "source_refs": [
+        "WCD10-B18-S201"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B18-S201",
+          "locator": "实读2026-10-14，Argentina.gob.ar正文第24–25行说明《En la zona》1960年出版、由14篇短篇构成并点出末篇“Algo se aproxima”；第32–33行列出短篇集Palo y hueso（1965）、Unidad de lugar（1967）、La mayor（1976）、Lugar（2000），诗歌汇编El arte de narrar: poemas 1960/1975（1977），小说Responso（1963）、Cicatrices（1969）、El limonero real（1974）、Nada nunca nada（1980）、El entenado（1983）、Glosa（1986）及散文集El río sin orillas: tratado imaginario（1991）、El concepto de ficción（1997）、La narración-objeto（1999）；第42行明确《La ocasión》获1987年Nadal奖，未据此推断首版年份。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B18-F214",
+      "author_id": "V1-ENT-0333",
+      "subject_ref": "WCD10-B18-W205",
+      "field": "bibliographic_note",
+      "value": "政府文化文章将Lugar列作2000年的短篇集；本文按该条目记录年份，不主张具体版次。",
+      "source_refs": [
+        "WCD10-B18-S201"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B18-S201",
+          "locator": "实读2026-10-14，Argentina.gob.ar正文第24–25行说明《En la zona》1960年出版、由14篇短篇构成并点出末篇“Algo se aproxima”；第32–33行列出短篇集Palo y hueso（1965）、Unidad de lugar（1967）、La mayor（1976）、Lugar（2000），诗歌汇编El arte de narrar: poemas 1960/1975（1977），小说Responso（1963）、Cicatrices（1969）、El limonero real（1974）、Nada nunca nada（1980）、El entenado（1983）、Glosa（1986）及散文集El río sin orillas: tratado imaginario（1991）、El concepto de ficción（1997）、La narración-objeto（1999）；第42行明确《La ocasión》获1987年Nadal奖，未据此推断首版年份。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B18-F215",
+      "author_id": "V1-ENT-0333",
+      "subject_ref": "WCD10-B18-W205",
+      "field": "one_sentence_summary",
+      "value": "Argentina.gob.ar将该作品列入Juan José Saer的短篇集书目。",
+      "source_refs": [
+        "WCD10-B18-S201"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B18-S201",
+          "locator": "实读2026-10-14，Argentina.gob.ar正文第24–25行说明《En la zona》1960年出版、由14篇短篇构成并点出末篇“Algo se aproxima”；第32–33行列出短篇集Palo y hueso（1965）、Unidad de lugar（1967）、La mayor（1976）、Lugar（2000），诗歌汇编El arte de narrar: poemas 1960/1975（1977），小说Responso（1963）、Cicatrices（1969）、El limonero real（1974）、Nada nunca nada（1980）、El entenado（1983）、Glosa（1986）及散文集El río sin orillas: tratado imaginario（1991）、El concepto de ficción（1997）、La narración-objeto（1999）；第42行明确《La ocasión》获1987年Nadal奖，未据此推断首版年份。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B18-F216",
+      "author_id": "V1-ENT-0333",
+      "subject_ref": "WCD10-B18-W206",
+      "field": "genre_or_form",
+      "value": "诗歌汇编",
+      "source_refs": [
+        "WCD10-B18-S201"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B18-S201",
+          "locator": "实读2026-10-14，Argentina.gob.ar正文第24–25行说明《En la zona》1960年出版、由14篇短篇构成并点出末篇“Algo se aproxima”；第32–33行列出短篇集Palo y hueso（1965）、Unidad de lugar（1967）、La mayor（1976）、Lugar（2000），诗歌汇编El arte de narrar: poemas 1960/1975（1977），小说Responso（1963）、Cicatrices（1969）、El limonero real（1974）、Nada nunca nada（1980）、El entenado（1983）、Glosa（1986）及散文集El río sin orillas: tratado imaginario（1991）、El concepto de ficción（1997）、La narración-objeto（1999）；第42行明确《La ocasión》获1987年Nadal奖，未据此推断首版年份。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B18-F217",
+      "author_id": "V1-ENT-0333",
+      "subject_ref": "WCD10-B18-W206",
+      "field": "bibliographic_note",
+      "value": "政府文化文章列出El arte de narrar: poemas 1960/1975（1977）；题名中的1960/1975为诗歌时间范围，括号年份为文章所列书目年份，不主张具体版次。",
+      "source_refs": [
+        "WCD10-B18-S201"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B18-S201",
+          "locator": "实读2026-10-14，Argentina.gob.ar正文第24–25行说明《En la zona》1960年出版、由14篇短篇构成并点出末篇“Algo se aproxima”；第32–33行列出短篇集Palo y hueso（1965）、Unidad de lugar（1967）、La mayor（1976）、Lugar（2000），诗歌汇编El arte de narrar: poemas 1960/1975（1977），小说Responso（1963）、Cicatrices（1969）、El limonero real（1974）、Nada nunca nada（1980）、El entenado（1983）、Glosa（1986）及散文集El río sin orillas: tratado imaginario（1991）、El concepto de ficción（1997）、La narración-objeto（1999）；第42行明确《La ocasión》获1987年Nadal奖，未据此推断首版年份。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B18-F218",
+      "author_id": "V1-ENT-0333",
+      "subject_ref": "WCD10-B18-W206",
+      "field": "one_sentence_summary",
+      "value": "Argentina.gob.ar将该作品列入Juan José Saer的诗歌汇编书目。",
+      "source_refs": [
+        "WCD10-B18-S201"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B18-S201",
+          "locator": "实读2026-10-14，Argentina.gob.ar正文第24–25行说明《En la zona》1960年出版、由14篇短篇构成并点出末篇“Algo se aproxima”；第32–33行列出短篇集Palo y hueso（1965）、Unidad de lugar（1967）、La mayor（1976）、Lugar（2000），诗歌汇编El arte de narrar: poemas 1960/1975（1977），小说Responso（1963）、Cicatrices（1969）、El limonero real（1974）、Nada nunca nada（1980）、El entenado（1983）、Glosa（1986）及散文集El río sin orillas: tratado imaginario（1991）、El concepto de ficción（1997）、La narración-objeto（1999）；第42行明确《La ocasión》获1987年Nadal奖，未据此推断首版年份。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B18-F219",
+      "author_id": "V1-ENT-0333",
+      "subject_ref": "WCD10-B18-W207",
+      "field": "genre_or_form",
+      "value": "小说",
+      "source_refs": [
+        "WCD10-B18-S201"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B18-S201",
+          "locator": "实读2026-10-14，Argentina.gob.ar正文第24–25行说明《En la zona》1960年出版、由14篇短篇构成并点出末篇“Algo se aproxima”；第32–33行列出短篇集Palo y hueso（1965）、Unidad de lugar（1967）、La mayor（1976）、Lugar（2000），诗歌汇编El arte de narrar: poemas 1960/1975（1977），小说Responso（1963）、Cicatrices（1969）、El limonero real（1974）、Nada nunca nada（1980）、El entenado（1983）、Glosa（1986）及散文集El río sin orillas: tratado imaginario（1991）、El concepto de ficción（1997）、La narración-objeto（1999）；第42行明确《La ocasión》获1987年Nadal奖，未据此推断首版年份。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B18-F220",
+      "author_id": "V1-ENT-0333",
+      "subject_ref": "WCD10-B18-W207",
+      "field": "bibliographic_note",
+      "value": "政府文化文章将Responso列为1963年的小说；本文按该条目记录年份，不主张具体版次。",
+      "source_refs": [
+        "WCD10-B18-S201"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B18-S201",
+          "locator": "实读2026-10-14，Argentina.gob.ar正文第24–25行说明《En la zona》1960年出版、由14篇短篇构成并点出末篇“Algo se aproxima”；第32–33行列出短篇集Palo y hueso（1965）、Unidad de lugar（1967）、La mayor（1976）、Lugar（2000），诗歌汇编El arte de narrar: poemas 1960/1975（1977），小说Responso（1963）、Cicatrices（1969）、El limonero real（1974）、Nada nunca nada（1980）、El entenado（1983）、Glosa（1986）及散文集El río sin orillas: tratado imaginario（1991）、El concepto de ficción（1997）、La narración-objeto（1999）；第42行明确《La ocasión》获1987年Nadal奖，未据此推断首版年份。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B18-F221",
+      "author_id": "V1-ENT-0333",
+      "subject_ref": "WCD10-B18-W207",
+      "field": "one_sentence_summary",
+      "value": "Argentina.gob.ar将该作品列入Juan José Saer的小说书目。",
+      "source_refs": [
+        "WCD10-B18-S201"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B18-S201",
+          "locator": "实读2026-10-14，Argentina.gob.ar正文第24–25行说明《En la zona》1960年出版、由14篇短篇构成并点出末篇“Algo se aproxima”；第32–33行列出短篇集Palo y hueso（1965）、Unidad de lugar（1967）、La mayor（1976）、Lugar（2000），诗歌汇编El arte de narrar: poemas 1960/1975（1977），小说Responso（1963）、Cicatrices（1969）、El limonero real（1974）、Nada nunca nada（1980）、El entenado（1983）、Glosa（1986）及散文集El río sin orillas: tratado imaginario（1991）、El concepto de ficción（1997）、La narración-objeto（1999）；第42行明确《La ocasión》获1987年Nadal奖，未据此推断首版年份。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B18-F222",
+      "author_id": "V1-ENT-0333",
+      "subject_ref": "WCD10-B18-W208",
+      "field": "genre_or_form",
+      "value": "小说",
+      "source_refs": [
+        "WCD10-B18-S201"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B18-S201",
+          "locator": "实读2026-10-14，Argentina.gob.ar正文第24–25行说明《En la zona》1960年出版、由14篇短篇构成并点出末篇“Algo se aproxima”；第32–33行列出短篇集Palo y hueso（1965）、Unidad de lugar（1967）、La mayor（1976）、Lugar（2000），诗歌汇编El arte de narrar: poemas 1960/1975（1977），小说Responso（1963）、Cicatrices（1969）、El limonero real（1974）、Nada nunca nada（1980）、El entenado（1983）、Glosa（1986）及散文集El río sin orillas: tratado imaginario（1991）、El concepto de ficción（1997）、La narración-objeto（1999）；第42行明确《La ocasión》获1987年Nadal奖，未据此推断首版年份。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B18-F223",
+      "author_id": "V1-ENT-0333",
+      "subject_ref": "WCD10-B18-W208",
+      "field": "bibliographic_note",
+      "value": "政府文化文章将Cicatrices列为1969年的小说；本文按该条目记录年份，不主张具体版次。",
+      "source_refs": [
+        "WCD10-B18-S201"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B18-S201",
+          "locator": "实读2026-10-14，Argentina.gob.ar正文第24–25行说明《En la zona》1960年出版、由14篇短篇构成并点出末篇“Algo se aproxima”；第32–33行列出短篇集Palo y hueso（1965）、Unidad de lugar（1967）、La mayor（1976）、Lugar（2000），诗歌汇编El arte de narrar: poemas 1960/1975（1977），小说Responso（1963）、Cicatrices（1969）、El limonero real（1974）、Nada nunca nada（1980）、El entenado（1983）、Glosa（1986）及散文集El río sin orillas: tratado imaginario（1991）、El concepto de ficción（1997）、La narración-objeto（1999）；第42行明确《La ocasión》获1987年Nadal奖，未据此推断首版年份。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B18-F224",
+      "author_id": "V1-ENT-0333",
+      "subject_ref": "WCD10-B18-W208",
+      "field": "one_sentence_summary",
+      "value": "Argentina.gob.ar将该作品列入Juan José Saer的小说书目。",
+      "source_refs": [
+        "WCD10-B18-S201"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B18-S201",
+          "locator": "实读2026-10-14，Argentina.gob.ar正文第24–25行说明《En la zona》1960年出版、由14篇短篇构成并点出末篇“Algo se aproxima”；第32–33行列出短篇集Palo y hueso（1965）、Unidad de lugar（1967）、La mayor（1976）、Lugar（2000），诗歌汇编El arte de narrar: poemas 1960/1975（1977），小说Responso（1963）、Cicatrices（1969）、El limonero real（1974）、Nada nunca nada（1980）、El entenado（1983）、Glosa（1986）及散文集El río sin orillas: tratado imaginario（1991）、El concepto de ficción（1997）、La narración-objeto（1999）；第42行明确《La ocasión》获1987年Nadal奖，未据此推断首版年份。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B18-F225",
+      "author_id": "V1-ENT-0333",
+      "subject_ref": "WCD10-B18-W209",
+      "field": "genre_or_form",
+      "value": "小说",
+      "source_refs": [
+        "WCD10-B18-S201",
+        "WCD10-B18-S204"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B18-S201",
+          "locator": "实读2026-10-14，Argentina.gob.ar正文第24–25行说明《En la zona》1960年出版、由14篇短篇构成并点出末篇“Algo se aproxima”；第32–33行列出短篇集Palo y hueso（1965）、Unidad de lugar（1967）、La mayor（1976）、Lugar（2000），诗歌汇编El arte de narrar: poemas 1960/1975（1977），小说Responso（1963）、Cicatrices（1969）、El limonero real（1974）、Nada nunca nada（1980）、El entenado（1983）、Glosa（1986）及散文集El río sin orillas: tratado imaginario（1991）、El concepto de ficción（1997）、La narración-objeto（1999）；第42行明确《La ocasión》获1987年Nadal奖，未据此推断首版年份。"
+        },
+        {
+          "source_ref": "WCD10-B18-S204",
+          "locator": "2026-10-14实读Rayo Verde出版社《Nadie nada nunca》页面第31–35行：标题、作者及novela体裁；页面简介称故事发生于河边炎热夏日，围绕一连串马匹被杀展开。页面第12行的2014为该版年份，不作为首版年。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B18-F226",
+      "author_id": "V1-ENT-0333",
+      "subject_ref": "WCD10-B18-W209",
+      "field": "bibliographic_note",
+      "value": "Argentina.gob.ar将错题“Nada nunca nada”列为1980年小说；Rayo Verde出版社页面题名为“Nadie nada nunca”，所示2014年为该版本年份。此处并列记录书目差异，不据此断言首版年份。",
+      "source_refs": [
+        "WCD10-B18-S201",
+        "WCD10-B18-S204"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B18-S201",
+          "locator": "实读2026-10-14，Argentina.gob.ar正文第24–25行说明《En la zona》1960年出版、由14篇短篇构成并点出末篇“Algo se aproxima”；第32–33行列出短篇集Palo y hueso（1965）、Unidad de lugar（1967）、La mayor（1976）、Lugar（2000），诗歌汇编El arte de narrar: poemas 1960/1975（1977），小说Responso（1963）、Cicatrices（1969）、El limonero real（1974）、Nada nunca nada（1980）、El entenado（1983）、Glosa（1986）及散文集El río sin orillas: tratado imaginario（1991）、El concepto de ficción（1997）、La narración-objeto（1999）；第42行明确《La ocasión》获1987年Nadal奖，未据此推断首版年份。"
+        },
+        {
+          "source_ref": "WCD10-B18-S204",
+          "locator": "2026-10-14实读Rayo Verde出版社《Nadie nada nunca》页面第31–35行：标题、作者及novela体裁；页面简介称故事发生于河边炎热夏日，围绕一连串马匹被杀展开。页面第12行的2014为该版年份，不作为首版年。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B18-F227",
+      "author_id": "V1-ENT-0333",
+      "subject_ref": "WCD10-B18-W209",
+      "field": "one_sentence_summary",
+      "value": "小说以河边的炎热夏日为背景，故事围绕一连串马匹被杀展开。",
+      "source_refs": [
+        "WCD10-B18-S204"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B18-S204",
+          "locator": "2026-10-14实读Rayo Verde出版社《Nadie nada nunca》页面第31–35行：标题、作者及novela体裁；页面简介称故事发生于河边炎热夏日，围绕一连串马匹被杀展开。页面第12行的2014为该版年份，不作为首版年。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B18-F228",
+      "author_id": "V1-ENT-0333",
+      "subject_ref": "WCD10-B18-W210",
+      "field": "genre_or_form",
+      "value": "随笔",
+      "source_refs": [
+        "WCD10-B18-S201"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B18-S201",
+          "locator": "实读2026-10-14，Argentina.gob.ar正文第24–25行说明《En la zona》1960年出版、由14篇短篇构成并点出末篇“Algo se aproxima”；第32–33行列出短篇集Palo y hueso（1965）、Unidad de lugar（1967）、La mayor（1976）、Lugar（2000），诗歌汇编El arte de narrar: poemas 1960/1975（1977），小说Responso（1963）、Cicatrices（1969）、El limonero real（1974）、Nada nunca nada（1980）、El entenado（1983）、Glosa（1986）及散文集El río sin orillas: tratado imaginario（1991）、El concepto de ficción（1997）、La narración-objeto（1999）；第42行明确《La ocasión》获1987年Nadal奖，未据此推断首版年份。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B18-F229",
+      "author_id": "V1-ENT-0333",
+      "subject_ref": "WCD10-B18-W210",
+      "field": "bibliographic_note",
+      "value": "政府文化文章将El río sin orillas: tratado imaginario列为1991年的随笔/散文作品；本文按该条目记录年份，不主张具体版次。",
+      "source_refs": [
+        "WCD10-B18-S201"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B18-S201",
+          "locator": "实读2026-10-14，Argentina.gob.ar正文第24–25行说明《En la zona》1960年出版、由14篇短篇构成并点出末篇“Algo se aproxima”；第32–33行列出短篇集Palo y hueso（1965）、Unidad de lugar（1967）、La mayor（1976）、Lugar（2000），诗歌汇编El arte de narrar: poemas 1960/1975（1977），小说Responso（1963）、Cicatrices（1969）、El limonero real（1974）、Nada nunca nada（1980）、El entenado（1983）、Glosa（1986）及散文集El río sin orillas: tratado imaginario（1991）、El concepto de ficción（1997）、La narración-objeto（1999）；第42行明确《La ocasión》获1987年Nadal奖，未据此推断首版年份。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B18-F230",
+      "author_id": "V1-ENT-0333",
+      "subject_ref": "WCD10-B18-W210",
+      "field": "one_sentence_summary",
+      "value": "Argentina.gob.ar将该作品列入Juan José Saer的随笔书目。",
+      "source_refs": [
+        "WCD10-B18-S201"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B18-S201",
+          "locator": "实读2026-10-14，Argentina.gob.ar正文第24–25行说明《En la zona》1960年出版、由14篇短篇构成并点出末篇“Algo se aproxima”；第32–33行列出短篇集Palo y hueso（1965）、Unidad de lugar（1967）、La mayor（1976）、Lugar（2000），诗歌汇编El arte de narrar: poemas 1960/1975（1977），小说Responso（1963）、Cicatrices（1969）、El limonero real（1974）、Nada nunca nada（1980）、El entenado（1983）、Glosa（1986）及散文集El río sin orillas: tratado imaginario（1991）、El concepto de ficción（1997）、La narración-objeto（1999）；第42行明确《La ocasión》获1987年Nadal奖，未据此推断首版年份。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B18-F231",
+      "author_id": "V1-ENT-0333",
+      "subject_ref": "WCD10-B18-W211",
+      "field": "genre_or_form",
+      "value": "随笔集",
+      "source_refs": [
+        "WCD10-B18-S201",
+        "WCD10-B18-S202"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B18-S201",
+          "locator": "实读2026-10-14，Argentina.gob.ar正文第24–25行说明《En la zona》1960年出版、由14篇短篇构成并点出末篇“Algo se aproxima”；第32–33行列出短篇集Palo y hueso（1965）、Unidad de lugar（1967）、La mayor（1976）、Lugar（2000），诗歌汇编El arte de narrar: poemas 1960/1975（1977），小说Responso（1963）、Cicatrices（1969）、El limonero real（1974）、Nada nunca nada（1980）、El entenado（1983）、Glosa（1986）及散文集El río sin orillas: tratado imaginario（1991）、El concepto de ficción（1997）、La narración-objeto（1999）；第42行明确《La ocasión》获1987年Nadal奖，未据此推断首版年份。"
+        },
+        {
+          "source_ref": "WCD10-B18-S202",
+          "locator": "2026-10-14实读Editorial Océano页面第37–39行：书籍说明围绕小说写作、虚构与文学思考，并明确说该书汇集多篇随笔（varios ensayos）；第49行的2016为所示版本信息，本包不据此推断首版年。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B18-F232",
+      "author_id": "V1-ENT-0333",
+      "subject_ref": "WCD10-B18-W211",
+      "field": "bibliographic_note",
+      "value": "Argentina.gob.ar列示1997年书目年份；Editorial Océano所示ISBN版本为2016年版。该差异只作为版本书目注记，不据此确定首版年份。",
+      "source_refs": [
+        "WCD10-B18-S201",
+        "WCD10-B18-S202"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B18-S201",
+          "locator": "实读2026-10-14，Argentina.gob.ar正文第24–25行说明《En la zona》1960年出版、由14篇短篇构成并点出末篇“Algo se aproxima”；第32–33行列出短篇集Palo y hueso（1965）、Unidad de lugar（1967）、La mayor（1976）、Lugar（2000），诗歌汇编El arte de narrar: poemas 1960/1975（1977），小说Responso（1963）、Cicatrices（1969）、El limonero real（1974）、Nada nunca nada（1980）、El entenado（1983）、Glosa（1986）及散文集El río sin orillas: tratado imaginario（1991）、El concepto de ficción（1997）、La narración-objeto（1999）；第42行明确《La ocasión》获1987年Nadal奖，未据此推断首版年份。"
+        },
+        {
+          "source_ref": "WCD10-B18-S202",
+          "locator": "2026-10-14实读Editorial Océano页面第37–39行：书籍说明围绕小说写作、虚构与文学思考，并明确说该书汇集多篇随笔（varios ensayos）；第49行的2016为所示版本信息，本包不据此推断首版年。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B18-F233",
+      "author_id": "V1-ENT-0333",
+      "subject_ref": "WCD10-B18-W211",
+      "field": "one_sentence_summary",
+      "value": "本书汇集多篇围绕虚构写作与文学思考的随笔。",
+      "source_refs": [
+        "WCD10-B18-S202"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B18-S202",
+          "locator": "2026-10-14实读Editorial Océano页面第37–39行：书籍说明围绕小说写作、虚构与文学思考，并明确说该书汇集多篇随笔（varios ensayos）；第49行的2016为所示版本信息，本包不据此推断首版年。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B18-F234",
+      "author_id": "V1-ENT-0333",
+      "subject_ref": "WCD10-B18-W212",
+      "field": "genre_or_form",
+      "value": "随笔集",
+      "source_refs": [
+        "WCD10-B18-S201",
+        "WCD10-B18-S203"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B18-S201",
+          "locator": "实读2026-10-14，Argentina.gob.ar正文第24–25行说明《En la zona》1960年出版、由14篇短篇构成并点出末篇“Algo se aproxima”；第32–33行列出短篇集Palo y hueso（1965）、Unidad de lugar（1967）、La mayor（1976）、Lugar（2000），诗歌汇编El arte de narrar: poemas 1960/1975（1977），小说Responso（1963）、Cicatrices（1969）、El limonero real（1974）、Nada nunca nada（1980）、El entenado（1983）、Glosa（1986）及散文集El río sin orillas: tratado imaginario（1991）、El concepto de ficción（1997）、La narración-objeto（1999）；第42行明确《La ocasión》获1987年Nadal奖，未据此推断首版年份。"
+        },
+        {
+          "source_ref": "WCD10-B18-S203",
+          "locator": "2026-10-14实读CeLeHis–Revista del Centro de Letras Hispanoamericanas论文PDF零起算第5页（第6页/印页81），正文第256–257行：Celina Manzoni明确称《La narración-objeto》（1999）汇集Saer的讲演、序言及评论性介入；支持作品层级为文集，不把同题单篇作为独立候选。期刊出版信息见PDF第0页第1–8行（2018，76–85页）。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B18-F235",
+      "author_id": "V1-ENT-0333",
+      "subject_ref": "WCD10-B18-W212",
+      "field": "bibliographic_note",
+      "value": "Argentina.gob.ar列示1999年书目年份；本包按该书目记年，不推断特定版次。",
+      "source_refs": [
+        "WCD10-B18-S201",
+        "WCD10-B18-S203"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B18-S201",
+          "locator": "实读2026-10-14，Argentina.gob.ar正文第24–25行说明《En la zona》1960年出版、由14篇短篇构成并点出末篇“Algo se aproxima”；第32–33行列出短篇集Palo y hueso（1965）、Unidad de lugar（1967）、La mayor（1976）、Lugar（2000），诗歌汇编El arte de narrar: poemas 1960/1975（1977），小说Responso（1963）、Cicatrices（1969）、El limonero real（1974）、Nada nunca nada（1980）、El entenado（1983）、Glosa（1986）及散文集El río sin orillas: tratado imaginario（1991）、El concepto de ficción（1997）、La narración-objeto（1999）；第42行明确《La ocasión》获1987年Nadal奖，未据此推断首版年份。"
+        },
+        {
+          "source_ref": "WCD10-B18-S203",
+          "locator": "2026-10-14实读CeLeHis–Revista del Centro de Letras Hispanoamericanas论文PDF零起算第5页（第6页/印页81），正文第256–257行：Celina Manzoni明确称《La narración-objeto》（1999）汇集Saer的讲演、序言及评论性介入；支持作品层级为文集，不把同题单篇作为独立候选。期刊出版信息见PDF第0页第1–8行（2018，76–85页）。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B18-F236",
+      "author_id": "V1-ENT-0333",
+      "subject_ref": "WCD10-B18-W212",
+      "field": "one_sentence_summary",
+      "value": "本书汇集讲演、序言及围绕文学作品的评论性文字。",
+      "source_refs": [
+        "WCD10-B18-S203"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B18-S203",
+          "locator": "2026-10-14实读CeLeHis–Revista del Centro de Letras Hispanoamericanas论文PDF零起算第5页（第6页/印页81），正文第256–257行：Celina Manzoni明确称《La narración-objeto》（1999）汇集Saer的讲演、序言及评论性介入；支持作品层级为文集，不把同题单篇作为独立候选。期刊出版信息见PDF第0页第1–8行（2018，76–85页）。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B18-F237",
+      "author_id": "V1-ENT-0333",
+      "subject_ref": "WCD10-B18-W213",
+      "field": "genre_or_form",
+      "value": "小说",
+      "source_refs": [
+        "WCD10-B18-S201"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B18-S201",
+          "locator": "实读2026-10-14，Argentina.gob.ar正文第24–25行说明《En la zona》1960年出版、由14篇短篇构成并点出末篇“Algo se aproxima”；第32–33行列出短篇集Palo y hueso（1965）、Unidad de lugar（1967）、La mayor（1976）、Lugar（2000），诗歌汇编El arte de narrar: poemas 1960/1975（1977），小说Responso（1963）、Cicatrices（1969）、El limonero real（1974）、Nada nunca nada（1980）、El entenado（1983）、Glosa（1986）及散文集El río sin orillas: tratado imaginario（1991）、El concepto de ficción（1997）、La narración-objeto（1999）；第42行明确《La ocasión》获1987年Nadal奖，未据此推断首版年份。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B18-F238",
+      "author_id": "V1-ENT-0333",
+      "subject_ref": "WCD10-B18-W213",
+      "field": "bibliographic_note",
+      "value": "Argentina.gob.ar记载该小说获1987年Nadal奖；奖项年份不据作首版年份。",
+      "source_refs": [
+        "WCD10-B18-S201"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B18-S201",
+          "locator": "实读2026-10-14，Argentina.gob.ar正文第24–25行说明《En la zona》1960年出版、由14篇短篇构成并点出末篇“Algo se aproxima”；第32–33行列出短篇集Palo y hueso（1965）、Unidad de lugar（1967）、La mayor（1976）、Lugar（2000），诗歌汇编El arte de narrar: poemas 1960/1975（1977），小说Responso（1963）、Cicatrices（1969）、El limonero real（1974）、Nada nunca nada（1980）、El entenado（1983）、Glosa（1986）及散文集El río sin orillas: tratado imaginario（1991）、El concepto de ficción（1997）、La narración-objeto（1999）；第42行明确《La ocasión》获1987年Nadal奖，未据此推断首版年份。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B18-F239",
+      "author_id": "V1-ENT-0333",
+      "subject_ref": "WCD10-B18-W213",
+      "field": "one_sentence_summary",
+      "value": "Argentina.gob.ar将该作品列入Juan José Saer的小说书目。",
+      "source_refs": [
+        "WCD10-B18-S201"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B18-S201",
+          "locator": "实读2026-10-14，Argentina.gob.ar正文第24–25行说明《En la zona》1960年出版、由14篇短篇构成并点出末篇“Algo se aproxima”；第32–33行列出短篇集Palo y hueso（1965）、Unidad de lugar（1967）、La mayor（1976）、Lugar（2000），诗歌汇编El arte de narrar: poemas 1960/1975（1977），小说Responso（1963）、Cicatrices（1969）、El limonero real（1974）、Nada nunca nada（1980）、El entenado（1983）、Glosa（1986）及散文集El río sin orillas: tratado imaginario（1991）、El concepto de ficción（1997）、La narración-objeto（1999）；第42行明确《La ocasión》获1987年Nadal奖，未据此推断首版年份。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B18-F240",
+      "author_id": "V1-ENT-0333",
+      "subject_ref": "V1-ENT-0339",
+      "field": "one_sentence_summary",
+      "value": "16世纪西班牙探险队的一名船上少年抵达拉普拉塔河区域后，被Colastinés族捕获并收养。",
+      "source_refs": [
+        "WCD10-B18-S205"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B18-S205",
+          "locator": "2026-10-14实读Rayo Verde出版社《El entenado》页面第33–36行：作者及novela体裁；页面说明16世纪西班牙探险队船上少年随队抵达拉普拉塔河区域，被Colastinés族捕获并收养。页面第12行的2013为该版年份，不改变既有1983书目事实。"
+        }
+      ]
+    }
+  ]
+}

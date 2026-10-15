@@ -1,0 +1,898 @@
+{
+  "schema": "wcd10-candidate-change-set-1",
+  "baseline_commit": "05f3372c69a54ec331d31b05d16c8288d6d3a993",
+  "accessed_at": "2026-10-13",
+  "public_boundary": "Research candidates only; no automatic Curation or public admission.",
+  "task_id": "TASK-119",
+  "batch_id": "WCD-10-B14",
+  "baseline_database_sha256": "c7b5951beb2e2a30053b08d84e07931547b8909a1e5a180086fafeedebaea677",
+  "status": "merged_candidate_parent_review_pending",
+  "author_ids": [
+    "V1-ENT-0274",
+    "V1-ENT-0284",
+    "V1-ENT-0285"
+  ],
+  "author_auxiliary_fields": [
+    {
+      "author_id": "V1-ENT-0274",
+      "fields": {
+        "author_status": "author_isolated_candidate_parent_review_pending",
+        "author_public_boundary": "Research candidates only; no automatic Curation or public admission."
+      }
+    },
+    {
+      "author_id": "V1-ENT-0284",
+      "fields": {
+        "author_status": "candidate_only",
+        "author_public_boundary": "Research候选；不自动进入Curation或公开层。"
+      }
+    },
+    {
+      "author_id": "V1-ENT-0285",
+      "fields": {
+        "author_status": "candidate_only",
+        "author_public_boundary": "Research candidates only; no automatic Curation or public admission."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "candidate_id": "WCD10-B14-S001",
+      "url": "https://www.anagrama-ed.es/libro/narrativas-hispanicas/varamo/9788433924995/NH_328",
+      "title": "Varamo — Editorial Anagrama",
+      "author_or_editor": "Editorial Anagrama",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "实读2026-10-13。Anagrama第480-510行；作品简介及Ficha técnica中的PUBLICACIÓN 01/02/2002。",
+      "usage": "支持作品书目、体裁/简介及所列出版社版本日期；不将该版本日期冒充首版年。"
+    },
+    {
+      "candidate_id": "WCD10-B14-S002",
+      "url": "https://www.ndbooks.com/book/how-i-became-a-nun/",
+      "title": "How I Became a Nun — New Directions Publishing",
+      "author_or_editor": "New Directions Publishing",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "实读2026-10-13。第14-16行书名、作者；第35-39行小说体裁与六岁起叙事；第48-54行英文平装版2008-02-01及ISBN。",
+      "usage": "支持独立作品身份、小说体裁、有界简介和英文译本版次日期；不推定西语首版年。"
+    },
+    {
+      "candidate_id": "WCD10-B14-S003",
+      "url": "https://www.penguinlibros.com/es/literatura-contemporanea/28960-libro-un-episodio-en-la-vida-del-pintor-viajero-9788439711919",
+      "title": "Un episodio en la vida del pintor viajero — Penguin Libros",
+      "author_or_editor": "Penguin Random House Grupo Editorial",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "实读2026-10-13。第348行标示Random House、2005年6月；第370行书名；第476-485行作品简介。",
+      "usage": "支持作品书目、体裁/简介及所列出版社版本日期；不将该版本日期冒充首版年。"
+    },
+    {
+      "candidate_id": "WCD10-B14-S101",
+      "url": "https://www.argentina.gob.ar/node/294856",
+      "title": "Manuel Puig: pop, melodrama y literatura de vanguardia",
+      "disposition": "fresh_registration",
+      "candidate_ids": [
+        "WCD10-B14-W101-F01",
+        "WCD10-B14-W101-F04",
+        "WCD10-B14-W102",
+        "WCD10-B14-W102-F01",
+        "WCD10-B14-W102-F02",
+        "WCD10-B14-W102-F03",
+        "WCD10-B14-W102-F04",
+        "WCD10-B14-W104",
+        "WCD10-B14-W104-F01",
+        "WCD10-B14-W104-F02",
+        "WCD10-B14-W104-F03",
+        "WCD10-B14-W104-F04",
+        "WCD10-B14-W105-F01",
+        "WCD10-B14-W105-F04"
+      ],
+      "author_or_editor": "Secretaría de Cultura de la Nación Argentina",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "网页段落34-37、41-58",
+      "usage": "直接支持作品题名/类别/出版年份；文化部段落支持所述概要。"
+    },
+    {
+      "candidate_id": "WCD10-B14-S102",
+      "url": "https://www.planetadelibros.com.ar/libro-el-beso-de-la-mujer-arana/374416",
+      "title": "El beso de la mujer araña — PlanetadeLibros",
+      "disposition": "fresh_registration",
+      "candidate_ids": [
+        "WCD10-B14-W103-F01",
+        "WCD10-B14-W103-F04"
+      ],
+      "author_or_editor": "Editorial Planeta",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "作者书目段落90-92",
+      "usage": "直接支持作品题名/类别/出版年份；文化部段落支持所述概要。"
+    },
+    {
+      "candidate_id": "WCD10-B14-S103",
+      "url": "https://www.planetadelibros.com.ar/libro-the-buenos-aires-affair-ne/354236",
+      "title": "The Buenos Aires Affair (NE) — Manuel Puig | PlanetadeLibros",
+      "disposition": "fresh_registration",
+      "candidate_ids": [
+        "WCD10-B14-W101",
+        "WCD10-B14-W101-F02",
+        "WCD10-B14-W101-F03",
+        "WCD10-B14-W101-F04"
+      ],
+      "author_or_editor": "Editorial Planeta",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "sinopsis网页段落21-23；作者书目段落66-68",
+      "usage": "出版社书目/作品简介，按实际定位范围限定使用。"
+    },
+    {
+      "candidate_id": "WCD10-B14-S104",
+      "url": "https://www.planetadelibros.com.ar/libro-maldicion-eterna-a-quien-lea-estas-paginas-ne/362422",
+      "title": "Maldición eterna a quien lea estas páginas (NE) — Manuel Puig | PlanetadeLibros",
+      "disposition": "fresh_registration",
+      "candidate_ids": [
+        "WCD10-B14-W103",
+        "WCD10-B14-W103-F02",
+        "WCD10-B14-W103-F03",
+        "WCD10-B14-W103-F04"
+      ],
+      "author_or_editor": "Editorial Planeta",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "作者书目段落73-77；Novela literaria主题与作品信息段落59-70",
+      "usage": "出版社书目/作品简介，按实际定位范围限定使用。"
+    },
+    {
+      "candidate_id": "WCD10-B14-S105",
+      "url": "https://www.planetadelibros.com.ar/libro-cae-la-noche-tropical/133554",
+      "title": "Cae la noche tropical — Manuel Puig | PlanetadeLibros",
+      "disposition": "fresh_registration",
+      "candidate_ids": [
+        "WCD10-B14-W105",
+        "WCD10-B14-W105-F02",
+        "WCD10-B14-W105-F03",
+        "WCD10-B14-W105-F04"
+      ],
+      "author_or_editor": "Editorial Planeta",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "sinopsis段落19-23；Novela literaria分类段落50-60；作者书目段落63-67",
+      "usage": "出版社书目/作品简介，按实际定位范围限定使用。"
+    },
+    {
+      "candidate_id": "WCD10-B14-S201",
+      "url": "https://www.educ.ar/recursos/109330/silvina-ocampo-el-viaje-olvidado",
+      "title": "Silvina Ocampo: el viaje olvidado — Educ.ar",
+      "author_or_editor": "Alejandra Torres",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "“Para leer”段落第49-50行：列示作者代表作品/诗集题名与年份；第39-41行提及《被遗忘的旅程》及两部合著/合编作品。实读2026-10-13。",
+      "usage": "直接作品目录书目；只支持该页面列明的题名/年份和有限作品分类。canonical URL与冻结来源SRC-0227相同，标注reuse_existing_source，保持旧source metadata不变。",
+      "disposition": "reuse",
+      "reuse_existing_source": "SRC-0227",
+      "formal_source_id": "SRC-0227"
+    },
+    {
+      "candidate_id": "WCD10-B14-S202",
+      "url": "https://cultura.gob.ar/silvina-ocampo-10848/",
+      "title": "Fantástica y misteriosa Silvina — Cultura",
+      "author_or_editor": "Ministerio de Cultura de la Nación Argentina",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "第65-70行直接列诗集和故事集题名、年份及类别；第69行共同编选与共同写作；实读2026-10-13。",
+      "usage": "阿根廷政府文化门户作者作品目录，直接支持所列作品题名、类别和明示年份；与Educ.ar冲突的年份不选择，留空原子年并注记。",
+      "disposition": "reuse",
+      "reuse_existing_source": "SRC-0228",
+      "formal_source_id": "SRC-0228"
+    },
+    {
+      "candidate_id": "WCD10-B14-S203",
+      "url": "https://rarebooks.library.nd.edu/collections/latin_american/south_american/southern_cone_lit/ocampo_s.html",
+      "title": "Silvina Ocampo — Hesburgh Libraries, University of Notre Dame",
+      "author_or_editor": "Hesburgh Libraries, University of Notre Dame",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "第42-47行列短篇集（含Autobiografía de Irene 1948、Los días de la noche 1970、Y así sucesivamente 1987、Cornelia frente al espejo 1988）；第52-54行列诗集年份（Enumeración de la patria 1942；Espacios métricos 1945）。实读2026-10-13。",
+      "usage": "大学特藏图书馆直接说明其持有作品初版；用于作品层级、形态和年份核对。对与Educ.ar年份冲突的Autobiografía de Irene及Espacios métricos不选择原子年，书目注记保留冲突。"
+    }
+  ],
+  "new_entities": [
+    {
+      "candidate_id": "WCD10-B14-W001",
+      "author_id": "V1-ENT-0274",
+      "entity_type": "work",
+      "original_name": "Varamo",
+      "name_zh_candidate": "《瓦拉莫》",
+      "name_policy": "工作译名用于检索，原题为身份锚点，不声称正式中文译本。",
+      "rationale": "出版社直接列出作者、作品，并提供版本书目与内容简介；补入主要作品目录中未链接的作品。",
+      "created_source_refs": [
+        "WCD10-B14-S001"
+      ],
+      "facts": [
+        {
+          "field": "genre_or_form",
+          "value": "中篇小说（nouvelle）",
+          "source_refs": [
+            "WCD10-B14-S001"
+          ],
+          "fact_candidate_id": "WCD10-B14-W001-F01"
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "作品围绕巴拿马低级公务员瓦拉莫展开：他在领薪后经历一连串日常琐事，随后写出一部后来被称为中美洲现代诗歌杰作的作品。",
+          "source_refs": [
+            "WCD10-B14-S001"
+          ],
+          "fact_candidate_id": "WCD10-B14-W001-F02"
+        },
+        {
+          "field": "bibliographic_note",
+          "value": "Editorial Anagrama作品页将2002-02-01列为该版出版日期；此处作为出版社版本书目日期记录，不推定首版年份。",
+          "source_refs": [
+            "WCD10-B14-S001"
+          ],
+          "fact_candidate_id": "WCD10-B14-W001-F03"
+        }
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B14-W002",
+      "author_id": "V1-ENT-0274",
+      "entity_type": "work",
+      "original_name": "Cómo me hice monja",
+      "name_zh_candidate": "《我如何成为修女》",
+      "name_policy": "工作译名用于检索，原题为身份锚点，不声称正式中文译本。",
+      "rationale": "出版社直接列出作者、作品，并提供版本书目与内容简介；补入主要作品目录中未链接的作品。",
+      "created_source_refs": [
+        "WCD10-B14-S002"
+      ],
+      "facts": [
+        {
+          "field": "genre_or_form",
+          "value": "小说",
+          "source_refs": [
+            "WCD10-B14-S002"
+          ],
+          "fact_candidate_id": "WCD10-B14-W002-F01"
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "作品以第一人称讲述一个六岁儿童的成长经历，叙述在记忆、现实与虚构之间展开。",
+          "source_refs": [
+            "WCD10-B14-S002"
+          ],
+          "fact_candidate_id": "WCD10-B14-W002-F02"
+        },
+        {
+          "field": "bibliographic_note",
+          "value": "New Directions出版社的独立作品页将此作作为单独书名出版，记录该英文版平装本出版于2008年2月1日；此为译本版本日期，不推定西语首版年份。",
+          "source_refs": [
+            "WCD10-B14-S002"
+          ],
+          "fact_candidate_id": "WCD10-B14-W002-F03"
+        }
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B14-W003",
+      "author_id": "V1-ENT-0274",
+      "entity_type": "work",
+      "original_name": "Un episodio en la vida del pintor viajero",
+      "name_zh_candidate": "《旅行画家生涯中的一段插曲》",
+      "name_policy": "工作译名用于检索，原题为身份锚点，不声称正式中文译本。",
+      "rationale": "出版社直接列出作者、作品，并提供版本书目与内容简介；补入主要作品目录中未链接的作品。",
+      "created_source_refs": [
+        "WCD10-B14-S003"
+      ],
+      "facts": [
+        {
+          "field": "genre_or_form",
+          "value": "小说",
+          "source_refs": [
+            "WCD10-B14-S003"
+          ],
+          "fact_candidate_id": "WCD10-B14-W003-F01"
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "作品以旅行画家约翰·莫里茨·鲁根达斯为中心，描写他第二次美洲之行中从门多萨继续穿越潘帕斯平原的经历；这段旅程重塑其身体、视觉与人生。",
+          "source_refs": [
+            "WCD10-B14-S003"
+          ],
+          "fact_candidate_id": "WCD10-B14-W003-F02"
+        },
+        {
+          "field": "bibliographic_note",
+          "value": "Penguin页面将本ISBN版本标为2005年6月；记录为出版社版本日期，不推定作品首发年。",
+          "source_refs": [
+            "WCD10-B14-S003"
+          ],
+          "fact_candidate_id": "WCD10-B14-W003-F03"
+        }
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B14-W101",
+      "author_id": "V1-ENT-0284",
+      "entity_type": "work",
+      "original_name": "The Buenos Aires Affair",
+      "name_zh_candidate": "《布宜诺斯艾利斯事件》",
+      "name_policy": "工作中文译名，原题为身份锚点，不声称正式中文译名。",
+      "rationale": "DEC-070范围内的直接来源基础书目候选。",
+      "created_source_refs": [
+        "WCD10-B14-S103"
+      ],
+      "facts": [
+        {
+          "field": "first_publication_year",
+          "value": "1973",
+          "source_refs": [
+            "WCD10-B14-S101"
+          ],
+          "fact_candidate_id": "WCD10-B14-W101-F01"
+        },
+        {
+          "field": "genre_or_form",
+          "value": "小说",
+          "source_refs": [
+            "WCD10-B14-S103"
+          ],
+          "fact_candidate_id": "WCD10-B14-W101-F02"
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "出版社简介将小说置于1930至1969年间，以Leo Druscovich生命最后两天及一系列失踪、误导线索和性执念之谜为叙事线索。",
+          "source_refs": [
+            "WCD10-B14-S103"
+          ],
+          "fact_candidate_id": "WCD10-B14-W101-F03"
+        },
+        {
+          "field": "bibliographic_note",
+          "value": "阿根廷文化部记载作品于1973年出版并遭查禁；出版社简介支持此处有限情节概述。",
+          "source_refs": [
+            "WCD10-B14-S101",
+            "WCD10-B14-S103"
+          ],
+          "fact_candidate_id": "WCD10-B14-W101-F04"
+        }
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B14-W102",
+      "author_id": "V1-ENT-0284",
+      "entity_type": "work",
+      "original_name": "Pubis angelical",
+      "name_zh_candidate": "《天使耻骨》",
+      "name_policy": "工作中文译名，原题为身份锚点，不声称正式中文译名。",
+      "rationale": "DEC-070范围内的直接来源基础书目候选。",
+      "created_source_refs": [
+        "WCD10-B14-S101"
+      ],
+      "facts": [
+        {
+          "field": "first_publication_year",
+          "value": "1979",
+          "source_refs": [
+            "WCD10-B14-S101"
+          ],
+          "fact_candidate_id": "WCD10-B14-W102-F01"
+        },
+        {
+          "field": "genre_or_form",
+          "value": "小说",
+          "source_refs": [
+            "WCD10-B14-S101"
+          ],
+          "fact_candidate_id": "WCD10-B14-W102-F02"
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "小说以住院的安娜及其情感经历为线索，联系阿根廷20世纪60至70年代生活；阿根廷文化部提供这一简要内容说明。",
+          "source_refs": [
+            "WCD10-B14-S101"
+          ],
+          "fact_candidate_id": "WCD10-B14-W102-F03"
+        },
+        {
+          "field": "bibliographic_note",
+          "value": "阿根廷文化部机构文章记载《Pubis angelical》于1979年出版并列为普伊格作品；出版社作者书目列有该书。",
+          "source_refs": [
+            "WCD10-B14-S101"
+          ],
+          "fact_candidate_id": "WCD10-B14-W102-F04"
+        }
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B14-W103",
+      "author_id": "V1-ENT-0284",
+      "entity_type": "work",
+      "original_name": "Maldición eterna a quien lea estas páginas",
+      "name_zh_candidate": "《读此页者永受诅咒》",
+      "name_policy": "工作中文译名，原题为身份锚点，不声称正式中文译名。",
+      "rationale": "DEC-070范围内的直接来源基础书目候选。",
+      "created_source_refs": [
+        "WCD10-B14-S104"
+      ],
+      "facts": [
+        {
+          "field": "first_publication_year",
+          "value": "1980",
+          "source_refs": [
+            "WCD10-B14-S102"
+          ],
+          "fact_candidate_id": "WCD10-B14-W103-F01"
+        },
+        {
+          "field": "genre_or_form",
+          "value": "小说",
+          "source_refs": [
+            "WCD10-B14-S104"
+          ],
+          "fact_candidate_id": "WCD10-B14-W103-F02"
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "出版社简介写一名阿根廷病人与美国看护者在纽约相遇，两人的孤独与对缺席女性的记忆构成关系主线。",
+          "source_refs": [
+            "WCD10-B14-S104"
+          ],
+          "fact_candidate_id": "WCD10-B14-W103-F03"
+        },
+        {
+          "field": "bibliographic_note",
+          "value": "出版社作者书目记载作品于1980年出版；该书页面支持此处有限情节概述。",
+          "source_refs": [
+            "WCD10-B14-S102",
+            "WCD10-B14-S104"
+          ],
+          "fact_candidate_id": "WCD10-B14-W103-F04"
+        }
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B14-W104",
+      "author_id": "V1-ENT-0284",
+      "entity_type": "work",
+      "original_name": "Sangre de amor correspondido",
+      "name_zh_candidate": "《相互回应的爱情之血》",
+      "name_policy": "工作中文译名，原题为身份锚点，不声称正式中文译名。",
+      "rationale": "DEC-070范围内的直接来源基础书目候选。",
+      "created_source_refs": [
+        "WCD10-B14-S101"
+      ],
+      "facts": [
+        {
+          "field": "first_publication_year",
+          "value": "1982",
+          "source_refs": [
+            "WCD10-B14-S101"
+          ],
+          "fact_candidate_id": "WCD10-B14-W104-F01"
+        },
+        {
+          "field": "genre_or_form",
+          "value": "小说",
+          "source_refs": [
+            "WCD10-B14-S101"
+          ],
+          "fact_candidate_id": "WCD10-B14-W104-F02"
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "小说以巴西小镇为背景，讲述少女Maria da Gloria及其家庭经历；阿根廷文化部提供该书的概要。",
+          "source_refs": [
+            "WCD10-B14-S101"
+          ],
+          "fact_candidate_id": "WCD10-B14-W104-F03"
+        },
+        {
+          "field": "bibliographic_note",
+          "value": "阿根廷文化部机构文章记载《Sangre de amor correspondido》于1982年出版并列为普伊格作品；出版社作者书目列有该书。",
+          "source_refs": [
+            "WCD10-B14-S101"
+          ],
+          "fact_candidate_id": "WCD10-B14-W104-F04"
+        }
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B14-W105",
+      "author_id": "V1-ENT-0284",
+      "entity_type": "work",
+      "original_name": "Cae la noche tropical",
+      "name_zh_candidate": "《热带夜幕降临》",
+      "name_policy": "工作中文译名，原题为身份锚点，不声称正式中文译名。",
+      "rationale": "DEC-070范围内的直接来源基础书目候选。",
+      "created_source_refs": [
+        "WCD10-B14-S105"
+      ],
+      "facts": [
+        {
+          "field": "first_publication_year",
+          "value": "1988",
+          "source_refs": [
+            "WCD10-B14-S101"
+          ],
+          "fact_candidate_id": "WCD10-B14-W105-F01"
+        },
+        {
+          "field": "genre_or_form",
+          "value": "小说",
+          "source_refs": [
+            "WCD10-B14-S105"
+          ],
+          "fact_candidate_id": "WCD10-B14-W105-F02"
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "出版社简介以里约热内卢为背景，写两位年长的阿根廷姐妹谈及一位年轻流亡邻居的情感经历，并以交谈和闲谈呈现故事。",
+          "source_refs": [
+            "WCD10-B14-S105"
+          ],
+          "fact_candidate_id": "WCD10-B14-W105-F03"
+        },
+        {
+          "field": "bibliographic_note",
+          "value": "阿根廷文化部与出版社书目均列作品及1988年；出版社作品页面支持此处有限情节概述。",
+          "source_refs": [
+            "WCD10-B14-S101",
+            "WCD10-B14-S105"
+          ],
+          "fact_candidate_id": "WCD10-B14-W105-F04"
+        }
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B14-W201",
+      "author_id": "V1-ENT-0285",
+      "entity_type": "collection",
+      "original_name": "Autobiografía de Irene",
+      "name_zh_candidate": "《艾琳的自传》",
+      "name_policy": "沿用现有中文题名译法；来源未给中文题名时仅作工作候选。",
+      "rationale": "Ocampo冻结基线仅收录三部早期故事集；Educ.ar作者作品目录还直接列出该题名，按作品/合集对象增补，限定书目层级。",
+      "created_source_refs": [
+        "WCD10-B14-S201",
+        "WCD10-B14-S203"
+      ],
+      "created_description_zh": "Notre Dame特藏馆将本书确认列作短篇集；Educ.ar列1946年，大学特藏及政府文化目录列1948年，年份冲突故不填原子首发年。",
+      "facts": [
+        {
+          "fact_candidate_id": "WCD10-B14-W201-F01",
+          "field": "genre_or_form",
+          "value": "短篇小说集",
+          "source_refs": [
+            "WCD10-B14-S201",
+            "WCD10-B14-S202",
+            "WCD10-B14-S203"
+          ]
+        },
+        {
+          "fact_candidate_id": "WCD10-B14-W201-F03",
+          "field": "one_sentence_summary",
+          "value": "Notre Dame特藏馆确认该对象为短篇故事集；目录将出版年分别列作1946和1948，冲突保留，不填首发年。",
+          "source_refs": [
+            "WCD10-B14-S201",
+            "WCD10-B14-S203"
+          ]
+        },
+        {
+          "fact_candidate_id": "WCD10-B14-W201-F04",
+          "field": "bibliographic_note",
+          "value": "Educ.ar条目将Autobiografía de Irene置于1946，阿根廷文化部与Notre Dame特藏图书馆列其为1948；大学图书馆确认这是1948短篇集初版。不同机构年份冲突保留，首发年份原子值留空。",
+          "source_refs": [
+            "WCD10-B14-S201",
+            "WCD10-B14-S203",
+            "WCD10-B14-S202"
+          ]
+        }
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B14-W202",
+      "author_id": "V1-ENT-0285",
+      "entity_type": "collection",
+      "original_name": "Los días de la noche",
+      "name_zh_candidate": "《夜晚的日子》",
+      "name_policy": "沿用现有中文题名译法；来源未给中文题名时仅作工作候选。",
+      "rationale": "Ocampo冻结基线仅收录三部早期故事集；Educ.ar作者作品目录还直接列出该题名，按作品/合集对象增补，限定书目层级。",
+      "created_source_refs": [
+        "WCD10-B14-S201",
+        "WCD10-B14-S203"
+      ],
+      "created_description_zh": "Notre Dame特藏馆将其列为1970年出版的短篇故事集；此候选只登记对象形态和书目年份。",
+      "facts": [
+        {
+          "fact_candidate_id": "WCD10-B14-W202-F01",
+          "field": "genre_or_form",
+          "value": "短篇小说集",
+          "source_refs": [
+            "WCD10-B14-S201",
+            "WCD10-B14-S202",
+            "WCD10-B14-S203"
+          ]
+        },
+        {
+          "fact_candidate_id": "WCD10-B14-W202-F02",
+          "field": "first_publication_year",
+          "value": "1970",
+          "source_refs": [
+            "WCD10-B14-S201",
+            "WCD10-B14-S202",
+            "WCD10-B14-S203"
+          ]
+        },
+        {
+          "fact_candidate_id": "WCD10-B14-W202-F03",
+          "field": "one_sentence_summary",
+          "value": "Notre Dame特藏馆将其列为1970年出版的短篇故事集。",
+          "source_refs": [
+            "WCD10-B14-S201",
+            "WCD10-B14-S202",
+            "WCD10-B14-S203"
+          ]
+        },
+        {
+          "fact_candidate_id": "WCD10-B14-W202-F04",
+          "field": "bibliographic_note",
+          "value": "Educ.ar列该题名；Notre Dame特藏馆将其列作短篇集并记录1970首版。",
+          "source_refs": [
+            "WCD10-B14-S201",
+            "WCD10-B14-S202",
+            "WCD10-B14-S203"
+          ]
+        }
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B14-W203",
+      "author_id": "V1-ENT-0285",
+      "entity_type": "collection",
+      "original_name": "Y así sucesivamente",
+      "name_zh_candidate": "《如此等等》",
+      "name_policy": "沿用现有中文题名译法；来源未给中文题名时仅作工作候选。",
+      "rationale": "Ocampo冻结基线仅收录三部早期故事集；Educ.ar作者作品目录还直接列出该题名，按作品/合集对象增补，限定书目层级。",
+      "created_source_refs": [
+        "WCD10-B14-S201",
+        "WCD10-B14-S203"
+      ],
+      "created_description_zh": "Educ.ar列为1987年作品；以机构列示的题名和年份作有限书目记录。",
+      "facts": [
+        {
+          "fact_candidate_id": "WCD10-B14-W203-F01",
+          "field": "genre_or_form",
+          "value": "短篇小说集",
+          "source_refs": [
+            "WCD10-B14-S201",
+            "WCD10-B14-S202",
+            "WCD10-B14-S203"
+          ]
+        },
+        {
+          "fact_candidate_id": "WCD10-B14-W203-F02",
+          "field": "first_publication_year",
+          "value": "1987",
+          "source_refs": [
+            "WCD10-B14-S201",
+            "WCD10-B14-S202",
+            "WCD10-B14-S203"
+          ]
+        },
+        {
+          "fact_candidate_id": "WCD10-B14-W203-F03",
+          "field": "one_sentence_summary",
+          "value": "Educ.ar列为1987年作品；以机构列示的题名和年份作有限书目记录。",
+          "source_refs": [
+            "WCD10-B14-S201",
+            "WCD10-B14-S202",
+            "WCD10-B14-S203"
+          ]
+        },
+        {
+          "fact_candidate_id": "WCD10-B14-W203-F04",
+          "field": "bibliographic_note",
+          "value": "Educ.ar在作者作品目录列出《如此等等》（Y así sucesivamente）及1987；此候选不推断版本或作品全集地位。",
+          "source_refs": [
+            "WCD10-B14-S201",
+            "WCD10-B14-S202",
+            "WCD10-B14-S203"
+          ]
+        }
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B14-W204",
+      "author_id": "V1-ENT-0285",
+      "entity_type": "collection",
+      "original_name": "Cornelia frente al espejo",
+      "name_zh_candidate": "《科内莉亚面对镜子》",
+      "name_policy": "沿用现有中文题名译法；来源未给中文题名时仅作工作候选。",
+      "rationale": "Ocampo冻结基线仅收录三部早期故事集；Educ.ar作者作品目录还直接列出该题名，按作品/合集对象增补，限定书目层级。",
+      "created_source_refs": [
+        "WCD10-B14-S201",
+        "WCD10-B14-S203"
+      ],
+      "created_description_zh": "Educ.ar列为1988年作品；本描述限于书目和作品形态。",
+      "facts": [
+        {
+          "fact_candidate_id": "WCD10-B14-W204-F01",
+          "field": "genre_or_form",
+          "value": "短篇小说集",
+          "source_refs": [
+            "WCD10-B14-S201",
+            "WCD10-B14-S202",
+            "WCD10-B14-S203"
+          ]
+        },
+        {
+          "fact_candidate_id": "WCD10-B14-W204-F02",
+          "field": "first_publication_year",
+          "value": "1988",
+          "source_refs": [
+            "WCD10-B14-S201",
+            "WCD10-B14-S202",
+            "WCD10-B14-S203"
+          ]
+        },
+        {
+          "fact_candidate_id": "WCD10-B14-W204-F03",
+          "field": "one_sentence_summary",
+          "value": "Educ.ar列为1988年作品；本描述限于书目和作品形态。",
+          "source_refs": [
+            "WCD10-B14-S201",
+            "WCD10-B14-S202",
+            "WCD10-B14-S203"
+          ]
+        },
+        {
+          "fact_candidate_id": "WCD10-B14-W204-F04",
+          "field": "bibliographic_note",
+          "value": "Educ.ar在作者作品目录列出《科内莉亚面对镜子》（Cornelia frente al espejo）及1988；此候选不推断版本或作品全集地位。",
+          "source_refs": [
+            "WCD10-B14-S201",
+            "WCD10-B14-S202",
+            "WCD10-B14-S203"
+          ]
+        }
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B14-W205",
+      "author_id": "V1-ENT-0285",
+      "entity_type": "collection",
+      "original_name": "Enumeración de la patria",
+      "name_zh_candidate": "《祖国列举》",
+      "name_policy": "沿用现有中文题名译法；来源未给中文题名时仅作工作候选。",
+      "rationale": "Ocampo冻结基线仅收录三部早期故事集；Educ.ar作者作品目录还直接列出该题名，按作品/合集对象增补，限定书目层级。",
+      "created_source_refs": [
+        "WCD10-B14-S201",
+        "WCD10-B14-S203"
+      ],
+      "created_description_zh": "Educ.ar诗歌作品目录列出该题名和1942年。",
+      "facts": [
+        {
+          "fact_candidate_id": "WCD10-B14-W205-F01",
+          "field": "genre_or_form",
+          "value": "诗集",
+          "source_refs": [
+            "WCD10-B14-S201",
+            "WCD10-B14-S202",
+            "WCD10-B14-S203"
+          ]
+        },
+        {
+          "fact_candidate_id": "WCD10-B14-W205-F02",
+          "field": "first_publication_year",
+          "value": "1942",
+          "source_refs": [
+            "WCD10-B14-S201",
+            "WCD10-B14-S202",
+            "WCD10-B14-S203"
+          ]
+        },
+        {
+          "fact_candidate_id": "WCD10-B14-W205-F03",
+          "field": "one_sentence_summary",
+          "value": "Educ.ar诗歌作品目录列出该题名和1942年。",
+          "source_refs": [
+            "WCD10-B14-S201",
+            "WCD10-B14-S202",
+            "WCD10-B14-S203"
+          ]
+        },
+        {
+          "fact_candidate_id": "WCD10-B14-W205-F04",
+          "field": "bibliographic_note",
+          "value": "Educ.ar在作者作品目录列出《祖国列举》（Enumeración de la patria）及1942；此候选不推断版本或作品全集地位。",
+          "source_refs": [
+            "WCD10-B14-S201",
+            "WCD10-B14-S202",
+            "WCD10-B14-S203"
+          ]
+        }
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B14-W206",
+      "author_id": "V1-ENT-0285",
+      "entity_type": "collection",
+      "original_name": "Espacios métricos",
+      "name_zh_candidate": "《格律空间》",
+      "name_policy": "沿用现有中文题名译法；来源未给中文题名时仅作工作候选。",
+      "rationale": "Ocampo冻结基线仅收录三部早期故事集；Educ.ar作者作品目录还直接列出该题名，按作品/合集对象增补，限定书目层级。",
+      "created_source_refs": [
+        "WCD10-B14-S201",
+        "WCD10-B14-S203"
+      ],
+      "created_description_zh": "该对象为诗集；Educ.ar列1942，文化部与大学特藏图书馆列1945，年份冲突故不填原子首发年。",
+      "facts": [
+        {
+          "fact_candidate_id": "WCD10-B14-W206-F01",
+          "field": "genre_or_form",
+          "value": "诗集",
+          "source_refs": [
+            "WCD10-B14-S201",
+            "WCD10-B14-S202",
+            "WCD10-B14-S203"
+          ]
+        },
+        {
+          "fact_candidate_id": "WCD10-B14-W206-F03",
+          "field": "one_sentence_summary",
+          "value": "Educ.ar列1942，文化部与Notre Dame特藏图书馆列1945；冲突保留，不填原子首发年。",
+          "source_refs": [
+            "WCD10-B14-S201",
+            "WCD10-B14-S203"
+          ]
+        },
+        {
+          "fact_candidate_id": "WCD10-B14-W206-F04",
+          "field": "bibliographic_note",
+          "value": "Educ.ar目录列《Espacios métricos》为1942，文化部与Notre Dame特藏图书馆列为1945；大学特藏记为1945首版。冲突保留，首发年份原子值留空。",
+          "source_refs": [
+            "WCD10-B14-S201",
+            "WCD10-B14-S203",
+            "WCD10-B14-S202"
+          ]
+        }
+      ]
+    }
+  ],
+  "existing_facts": [],
+  "extra_relationships": [],
+  "deferred": [
+    {
+      "author_id": "V1-ENT-0274",
+      "title": "《野兔》及其他目录作品的逐件简介/版本首年",
+      "reason": "Anagrama作者页将La liebre列为代表作，但本轮已打开页面未提供该书情节或版本级书目信息；避免由目录列名推断内容与年份。后续需打开具体出版社/图书馆书目页。",
+      "key": "WCD10:B14:AIRA:remaining-bibliography",
+      "disposition": "deferred"
+    },
+    {
+      "author_id": "V1-ENT-0274",
+      "title": "El tilo",
+      "reason": "虽已发现评论文献讨论其出版于2003年及内容，但未核验出版社/图书馆作品专页；本轮暂不把论文二手概述作为获准普通书目来源。",
+      "key": "WCD10:B14:AIRA:El-tilo",
+      "disposition": "deferred"
+    }
+  ],
+  "source_scope_decisions": [
+    {
+      "candidate_ids": [
+        "WCD10-B14-S201"
+      ],
+      "related_existing_source": "SRC-0227",
+      "disposition": "reuse",
+      "notes": "已于2026-10-13直接打开Educ.ar页面；复用与冻结SRC-0227相同canonical URL，不改旧来源元数据。"
+    },
+    {
+      "candidate_ids": [
+        "WCD10-B14-S202"
+      ],
+      "related_existing_source": "SRC-0228",
+      "disposition": "reuse",
+      "notes": "2026-10-13实际打开阿根廷文化部门户作者作品目录；直接支持作品题名、形态和所列年份。不同机构对Autobiografía de Irene、Espacios métricos的年份不一致，候选不择年。"
+    }
+  ]
+}

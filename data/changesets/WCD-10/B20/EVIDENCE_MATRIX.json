@@ -1,0 +1,663 @@
+{
+  "task_id": "TASK-125",
+  "batch_id": "WCD-10-B20",
+  "baseline_database_sha256": "264385afd29d43f6d160d852a9dc6ad685fa2bd5fa25e3e7d7575168ebb72032",
+  "entries": [
+    {
+      "candidate_id": "WCD10-B20-W001-F01",
+      "entity_candidate_id": "WCD10-B20-W001",
+      "subject_id": "WCD10-B20-W001",
+      "field": "genre_or_form",
+      "value": "小说",
+      "source_refs": [
+        "WCD10-B20-S007"
+      ],
+      "source_title": "Cristina Peri Rossi. Biografía",
+      "url": "https://www.cervantes.es/bibliotecas_documentacion_espanol/creadores/peri_rossi_cristina.htm",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "实读2026-10-14，Instituto Cervantes《Biografía》第50行称《El libro de mis primos》(1969)为作者首部小说；URL与冻结基线SRC-0267相同，整行复用。",
+      "support_assessment": "direct",
+      "claim_boundary": "仅限所列来源直接支持的书目、体裁或简介；不推导未支持的版本、影响、解释关系或全集完整性。"
+    },
+    {
+      "candidate_id": "WCD10-B20-W001-F02",
+      "entity_candidate_id": "WCD10-B20-W001",
+      "subject_id": "WCD10-B20-W001",
+      "field": "first_publication_year",
+      "value": "1969",
+      "source_refs": [
+        "WCD10-B20-S006",
+        "WCD10-B20-S007"
+      ],
+      "source_title": "Cristina Peri Rossi. Cronología de obras | Cristina Peri Rossi. Biografía",
+      "url": "https://www.cervantes.es/bibliotecas_documentacion_espanol/creadores/peri_rossi_cristina_cronologia.htm | https://www.cervantes.es/bibliotecas_documentacion_espanol/creadores/peri_rossi_cristina.htm",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "实读2026-10-14，Instituto Cervantes《Cronología de obras》第97–103行将《El libro de mis primos》列为1969年小说、《La nave de los locos》列为1984年小说；URL与冻结基线SRC-0268相同，整行复用。 | 实读2026-10-14，Instituto Cervantes《Biografía》第50行称《El libro de mis primos》(1969)为作者首部小说；URL与冻结基线SRC-0267相同，整行复用。",
+      "support_assessment": "direct",
+      "claim_boundary": "仅限所列来源直接支持的书目、体裁或简介；不推导未支持的版本、影响、解释关系或全集完整性。"
+    },
+    {
+      "candidate_id": "WCD10-B20-W001-F03",
+      "entity_candidate_id": "WCD10-B20-W001",
+      "subject_id": "WCD10-B20-W001",
+      "field": "one_sentence_summary",
+      "value": "小说通过一个家族中多位表兄弟的声音，写传统家族秩序的衰落与城市游击运动的出现；年幼的Oliverio带领读者看见家庭关系、表象与欲望的变化。",
+      "source_refs": [
+        "WCD10-B20-S001"
+      ],
+      "source_title": "Cristina Peri Rossi - Novela",
+      "url": "https://www.cristinaperirossi.es/novela.htm",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "实读2026-10-14，第1–4行列《El libro de mis primos》及Grijalbo 1989版本；第4行说明多位表兄弟的声音、家族衰落和城市游击运动，Oliverio的视角串起家庭关系与情欲变化。",
+      "support_assessment": "direct",
+      "claim_boundary": "仅限所列来源直接支持的书目、体裁或简介；不推导未支持的版本、影响、解释关系或全集完整性。"
+    },
+    {
+      "candidate_id": "WCD10-B20-W002-F01",
+      "entity_candidate_id": "WCD10-B20-W002",
+      "subject_id": "WCD10-B20-W002",
+      "field": "genre_or_form",
+      "value": "小说",
+      "source_refs": [
+        "WCD10-B20-S002"
+      ],
+      "source_title": "Libros clave de la narrativa uruguaya (XIV). La nave de los locos",
+      "url": "https://cvc.cervantes.es/el_rinconete/anteriores/enero_09/19012009_02.htm",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "实读2026-10-14，第17–20行明载作品为1984年小说，描述Equis的流亡旅程、片段化多声叙事与流离失所经验，并说明作品围绕赫罗纳大教堂《创世挂毯》展开。",
+      "support_assessment": "direct",
+      "claim_boundary": "仅限所列来源直接支持的书目、体裁或简介；不推导未支持的版本、影响、解释关系或全集完整性。"
+    },
+    {
+      "candidate_id": "WCD10-B20-W002-F02",
+      "entity_candidate_id": "WCD10-B20-W002",
+      "subject_id": "WCD10-B20-W002",
+      "field": "first_publication_year",
+      "value": "1984",
+      "source_refs": [
+        "WCD10-B20-S002",
+        "WCD10-B20-S006"
+      ],
+      "source_title": "Libros clave de la narrativa uruguaya (XIV). La nave de los locos | Cristina Peri Rossi. Cronología de obras",
+      "url": "https://cvc.cervantes.es/el_rinconete/anteriores/enero_09/19012009_02.htm | https://www.cervantes.es/bibliotecas_documentacion_espanol/creadores/peri_rossi_cristina_cronologia.htm",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "实读2026-10-14，第17–20行明载作品为1984年小说，描述Equis的流亡旅程、片段化多声叙事与流离失所经验，并说明作品围绕赫罗纳大教堂《创世挂毯》展开。 | 实读2026-10-14，Instituto Cervantes《Cronología de obras》第97–103行将《El libro de mis primos》列为1969年小说、《La nave de los locos》列为1984年小说；URL与冻结基线SRC-0268相同，整行复用。",
+      "support_assessment": "direct",
+      "claim_boundary": "仅限所列来源直接支持的书目、体裁或简介；不推导未支持的版本、影响、解释关系或全集完整性。"
+    },
+    {
+      "candidate_id": "WCD10-B20-W002-F03",
+      "entity_candidate_id": "WCD10-B20-W002",
+      "subject_id": "WCD10-B20-W002",
+      "field": "one_sentence_summary",
+      "value": "围绕Equis的流亡旅行展开，小说以短章、插入文本和多重声音串联旅途片段，并借这些经历呈现流离失所与身份漂移。",
+      "source_refs": [
+        "WCD10-B20-S002"
+      ],
+      "source_title": "Libros clave de la narrativa uruguaya (XIV). La nave de los locos",
+      "url": "https://cvc.cervantes.es/el_rinconete/anteriores/enero_09/19012009_02.htm",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "实读2026-10-14，第17–20行明载作品为1984年小说，描述Equis的流亡旅程、片段化多声叙事与流离失所经验，并说明作品围绕赫罗纳大教堂《创世挂毯》展开。",
+      "support_assessment": "direct",
+      "claim_boundary": "仅限所列来源直接支持的书目、体裁或简介；不推导未支持的版本、影响、解释关系或全集完整性。"
+    },
+    {
+      "candidate_id": "WCD10-B20-F001",
+      "entity_candidate_id": "V1-ENT-0353",
+      "subject_id": "V1-ENT-0353",
+      "field": "one_sentence_summary",
+      "value": "这部短篇集围绕意外而强烈的诱惑展开，故事置于当代城市生活，呈现孤独者之间短暂相遇留下的痕迹。",
+      "source_refs": [
+        "WCD10-B20-S003"
+      ],
+      "source_title": "Los amores equivocados",
+      "url": "https://www.cristinaperirossi.es/web/?p=1066",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "实读2026-10-14，第191–209行：官网将其列为2015年作品/Relatos，列出版社Menoscuarto、ISBN及西班牙语，并概述各篇围绕意外而强烈的诱惑展开、发生于当代城市并涉及孤独与短暂相遇。",
+      "support_assessment": "direct",
+      "claim_boundary": "只补充作者官网直接描述的书目内容；保留已有first_publication_year=2015与genre_or_form=短篇小说集及其原始来源SRC-0268，不作替代或冲突修改。"
+    },
+    {
+      "candidate_id": "WCD10-B20-F002",
+      "entity_candidate_id": "V1-ENT-0354",
+      "subject_id": "V1-ENT-0354",
+      "field": "bibliographic_note",
+      "value": "作者官网所列版次包括Planeta 1976版、Plaza & Janés 1984版和TROPO 2008版；此处补充版次书目信息，保留基线1976原子年份及其原来源SRC-0268。",
+      "source_refs": [
+        "WCD10-B20-S004"
+      ],
+      "source_title": "La Tarde del Dinosaurio",
+      "url": "https://www.cristinaperirossi.es/web/?p=522",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "实读2026-10-14，作者官网作品条目第192–225行列《La Tarde del Dinosaurio》及Planeta 1976版、Plaza & Janés 1984版与TROPO 2008版。页面顶部显示的1976日期不作为可确认的网页发布日期。",
+      "support_assessment": "direct",
+      "claim_boundary": "只支持作者官网明确列出的Planeta 1976版、Plaza & Janés 1984版、TROPO 2008版；1976为书版年份，不推断网页实际发布日期。"
+    },
+    {
+      "candidate_id": "WCD10-B20-F003",
+      "entity_candidate_id": "V1-ENT-0355",
+      "subject_id": "V1-ENT-0355",
+      "field": "one_sentence_summary",
+      "value": "作者在官网回顾，海难是她着迷的诗歌与绘画隐喻，因此将一本早期诗集命名为《Descripción de un naufragio》。",
+      "source_refs": [
+        "WCD10-B20-S005"
+      ],
+      "source_title": "Barcos",
+      "url": "https://www.cristinaperirossi.es/web/?page_id=142",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "实读2026-10-14，作者官网Barcos第201行称海难是其着迷的诗歌与绘画隐喻，并说明因此将一本早期诗集命名为《Descripción de un naufragio》。",
+      "support_assessment": "direct",
+      "claim_boundary": "仅限作者关于命名缘由的直接自述；不将其他总体自述延伸为此诗集的内容或学术解释。"
+    },
+    {
+      "candidate_fact_id": "WCD10-B20-F101",
+      "author_id": "V1-ENT-0358",
+      "subject_ref": "WCD10-B20-W101",
+      "field": "genre_or_form",
+      "value": "小说",
+      "source_refs": [
+        "WCD10-B20-S101"
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B20-F121",
+      "author_id": "V1-ENT-0358",
+      "subject_ref": "WCD10-B20-W101",
+      "field": "first_publication_year",
+      "value": "1963",
+      "source_refs": [
+        "WCD10-B20-S101"
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B20-F141",
+      "author_id": "V1-ENT-0358",
+      "subject_ref": "WCD10-B20-W101",
+      "field": "one_sentence_summary",
+      "value": "ABL传记称其为第二部长篇小说，1963年出版；书目页列“romance”。",
+      "source_refs": [
+        "WCD10-B20-S102"
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B20-F161",
+      "author_id": "V1-ENT-0358",
+      "subject_ref": "WCD10-B20-W101",
+      "field": "bibliographic_note",
+      "value": "ABL书目页列示年份1963；保留其书目口径。",
+      "source_refs": [
+        "WCD10-B20-S101"
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B20-F102",
+      "author_id": "V1-ENT-0358",
+      "subject_ref": "WCD10-B20-W102",
+      "field": "genre_or_form",
+      "value": "短篇小说集",
+      "source_refs": [
+        "WCD10-B20-S101"
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B20-F122",
+      "author_id": "V1-ENT-0358",
+      "subject_ref": "WCD10-B20-W102",
+      "field": "first_publication_year",
+      "value": "1977",
+      "source_refs": [
+        "WCD10-B20-S101"
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B20-F142",
+      "author_id": "V1-ENT-0358",
+      "subject_ref": "WCD10-B20-W102",
+      "field": "one_sentence_summary",
+      "value": "ABL传记称该书于1977年出版并获PEN Clube奖；书目页列“contos”。",
+      "source_refs": [
+        "WCD10-B20-S102"
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B20-F162",
+      "author_id": "V1-ENT-0358",
+      "subject_ref": "WCD10-B20-W102",
+      "field": "bibliographic_note",
+      "value": "ABL书目页列示年份1977；保留其书目口径。",
+      "source_refs": [
+        "WCD10-B20-S101"
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B20-F103",
+      "author_id": "V1-ENT-0358",
+      "subject_ref": "WCD10-B20-W103",
+      "field": "genre_or_form",
+      "value": "虚构与回忆文集",
+      "source_refs": [
+        "WCD10-B20-S101"
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B20-F123",
+      "author_id": "V1-ENT-0358",
+      "subject_ref": "WCD10-B20-W103",
+      "field": "first_publication_year",
+      "value": "1980",
+      "source_refs": [
+        "WCD10-B20-S101"
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B20-F143",
+      "author_id": "V1-ENT-0358",
+      "subject_ref": "WCD10-B20-W103",
+      "field": "one_sentence_summary",
+      "value": "ABL书目页将其列为ficção e memória，1980；传记记载该书获奖。",
+      "source_refs": [
+        "WCD10-B20-S101",
+        "WCD10-B20-S102"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B20-S101",
+          "locator": "ABL书目页第7–36行；对应条目分类分别写作“ficção e memória”或“contos”。",
+          "support_type": "institutional_bibliography",
+          "note": "支持书目分类及年份，不具体化ficção为小说。"
+        },
+        {
+          "source_ref": "WCD10-B20-S102",
+          "locator": "ABL传记页第16–18行，对应作品及描述。",
+          "support_type": "institutional_biography",
+          "note": "支持传记中直接说明的奖项或出版背景。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B20-F163",
+      "author_id": "V1-ENT-0358",
+      "subject_ref": "WCD10-B20-W103",
+      "field": "bibliographic_note",
+      "value": "ABL书目页列示年份1980；保留其书目口径。",
+      "source_refs": [
+        "WCD10-B20-S101"
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B20-F104",
+      "author_id": "V1-ENT-0358",
+      "subject_ref": "WCD10-B20-W104",
+      "field": "genre_or_form",
+      "value": "小说",
+      "source_refs": [
+        "WCD10-B20-S101"
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B20-F124",
+      "author_id": "V1-ENT-0358",
+      "subject_ref": "WCD10-B20-W104",
+      "field": "first_publication_year",
+      "value": "1989",
+      "source_refs": [
+        "WCD10-B20-S101"
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B20-F144",
+      "author_id": "V1-ENT-0358",
+      "subject_ref": "WCD10-B20-W104",
+      "field": "one_sentence_summary",
+      "value": "ABL书目页列为romance，1989；传记称其获年度最佳图书奖。",
+      "source_refs": [
+        "WCD10-B20-S102"
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B20-F164",
+      "author_id": "V1-ENT-0358",
+      "subject_ref": "WCD10-B20-W104",
+      "field": "bibliographic_note",
+      "value": "ABL书目页列示年份1989；保留其书目口径。",
+      "source_refs": [
+        "WCD10-B20-S101"
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B20-F105",
+      "author_id": "V1-ENT-0358",
+      "subject_ref": "WCD10-B20-W105",
+      "field": "genre_or_form",
+      "value": "短篇小说集",
+      "source_refs": [
+        "WCD10-B20-S101"
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B20-F125",
+      "author_id": "V1-ENT-0358",
+      "subject_ref": "WCD10-B20-W105",
+      "field": "first_publication_year",
+      "value": "1995",
+      "source_refs": [
+        "WCD10-B20-S101"
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B20-F145",
+      "author_id": "V1-ENT-0358",
+      "subject_ref": "WCD10-B20-W105",
+      "field": "one_sentence_summary",
+      "value": "ABL书目页列为contos，1995；传记说明其获国家图书馆奖等。",
+      "source_refs": [
+        "WCD10-B20-S101",
+        "WCD10-B20-S102"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B20-S101",
+          "locator": "ABL书目页第7–36行；对应条目分类分别写作“ficção e memória”或“contos”。",
+          "support_type": "institutional_bibliography",
+          "note": "支持书目分类及年份，不具体化ficção为小说。"
+        },
+        {
+          "source_ref": "WCD10-B20-S102",
+          "locator": "ABL传记页第16–18行，对应作品及描述。",
+          "support_type": "institutional_biography",
+          "note": "支持传记中直接说明的奖项或出版背景。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B20-F165",
+      "author_id": "V1-ENT-0358",
+      "subject_ref": "WCD10-B20-W105",
+      "field": "bibliographic_note",
+      "value": "ABL书目页列示年份1995；保留其书目口径。",
+      "source_refs": [
+        "WCD10-B20-S101"
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B20-F106",
+      "author_id": "V1-ENT-0358",
+      "subject_ref": "WCD10-B20-W106",
+      "field": "genre_or_form",
+      "value": "虚构与回忆文集",
+      "source_refs": [
+        "WCD10-B20-S101"
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B20-F126",
+      "author_id": "V1-ENT-0358",
+      "subject_ref": "WCD10-B20-W106",
+      "field": "first_publication_year",
+      "value": "2000",
+      "source_refs": [
+        "WCD10-B20-S101"
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B20-F146",
+      "author_id": "V1-ENT-0358",
+      "subject_ref": "WCD10-B20-W106",
+      "field": "one_sentence_summary",
+      "value": "ABL书目页列为ficção e memória，2000；传记称该书获Jabuti、APCA等奖。",
+      "source_refs": [
+        "WCD10-B20-S101",
+        "WCD10-B20-S102"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B20-S101",
+          "locator": "ABL书目页第7–36行；对应条目分类分别写作“ficção e memória”或“contos”。",
+          "support_type": "institutional_bibliography",
+          "note": "支持书目分类及年份，不具体化ficção为小说。"
+        },
+        {
+          "source_ref": "WCD10-B20-S102",
+          "locator": "ABL传记页第16–18行，对应作品及描述。",
+          "support_type": "institutional_biography",
+          "note": "支持传记中直接说明的奖项或出版背景。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B20-F166",
+      "author_id": "V1-ENT-0358",
+      "subject_ref": "WCD10-B20-W106",
+      "field": "bibliographic_note",
+      "value": "ABL书目页列示年份2000；保留其书目口径。",
+      "source_refs": [
+        "WCD10-B20-S101"
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B20-F181",
+      "author_id": "V1-ENT-0358",
+      "subject_ref": "V1-ENT-0361",
+      "field": "one_sentence_summary",
+      "value": "ABL传记称《Ciranda de pedra》（1954）是作者达到文学成熟的作品，并被作者视作其全集创作的起点。",
+      "source_refs": [
+        "WCD10-B20-S102"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B20-S102",
+          "locator": "第11行；直接描述该作品。",
+          "support_type": "institutional_biography",
+          "note": "有界地转述ABL传记中与该书直接相连的信息。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B20-F182",
+      "author_id": "V1-ENT-0358",
+      "subject_ref": "V1-ENT-0362",
+      "field": "one_sentence_summary",
+      "value": "ABL传记记载，同名短篇集于1970年出版，书中标题篇曾获法国国际女性作家比赛首奖。",
+      "source_refs": [
+        "WCD10-B20-S102"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B20-S102",
+          "locator": "第14行；直接描述该作品。",
+          "support_type": "institutional_biography",
+          "note": "有界地转述ABL传记中与该书直接相连的信息。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B20-F183",
+      "author_id": "V1-ENT-0358",
+      "subject_ref": "V1-ENT-0363",
+      "field": "one_sentence_summary",
+      "value": "ABL传记称《As meninas》（1973）为小说，获Jabuti、ABL Coelho Neto及APCA小说奖。",
+      "source_refs": [
+        "WCD10-B20-S102"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B20-S102",
+          "locator": "第14行；直接描述该作品。",
+          "support_type": "institutional_biography",
+          "note": "有界地转述ABL传记中与该书直接相连的信息。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B20-F201",
+      "author_id": "V1-ENT-0359",
+      "subject_ref": "WCD10-B20-W201",
+      "field": "genre_or_form",
+      "value": "短篇小说集",
+      "source_refs": [
+        "WCD10-B20-S202"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B20-S202",
+          "locator": "2026-10-14实际打开PDF；印刷页148（网页PDF页148）列出《Barro de la sierra》(cuentos, 1933)、《Huasipungo》(1934)、《En las calles》(1935)、《Cholos》(1937)、《Media vida deslumbrados》(1942)；印刷页148–150讨论《Barro de la sierra》五篇故事及《Cachorros》《Sed》《Éxodo》等；印刷页158–159讨论《En las calles》及乡村移民至城市的情节。",
+          "support_type": "institutional_essay",
+          "note": "该来源为本事实的直接依据；中文表述限定于实际打开页面所载内容。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B20-F202",
+      "author_id": "V1-ENT-0359",
+      "subject_ref": "WCD10-B20-W201",
+      "field": "first_publication_year",
+      "value": "1933",
+      "source_refs": [
+        "WCD10-B20-S202"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B20-S202",
+          "locator": "2026-10-14实际打开PDF；印刷页148（网页PDF页148）列出《Barro de la sierra》(cuentos, 1933)、《Huasipungo》(1934)、《En las calles》(1935)、《Cholos》(1937)、《Media vida deslumbrados》(1942)；印刷页148–150讨论《Barro de la sierra》五篇故事及《Cachorros》《Sed》《Éxodo》等；印刷页158–159讨论《En las calles》及乡村移民至城市的情节。",
+          "support_type": "institutional_essay",
+          "note": "该来源为本事实的直接依据；中文表述限定于实际打开页面所载内容。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B20-F203",
+      "author_id": "V1-ENT-0359",
+      "subject_ref": "WCD10-B20-W201",
+      "field": "one_sentence_summary",
+      "value": "1948年评论文章称本书收录五篇故事，并以《Cachorros》《Sed》《Éxodo》等篇目讨论儿童成长、印第安村庄的困境与社会压迫。",
+      "source_refs": [
+        "WCD10-B20-S202"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B20-S202",
+          "locator": "2026-10-14实际打开PDF；印刷页148（网页PDF页148）列出《Barro de la sierra》(cuentos, 1933)、《Huasipungo》(1934)、《En las calles》(1935)、《Cholos》(1937)、《Media vida deslumbrados》(1942)；印刷页148–150讨论《Barro de la sierra》五篇故事及《Cachorros》《Sed》《Éxodo》等；印刷页158–159讨论《En las calles》及乡村移民至城市的情节。",
+          "support_type": "institutional_essay",
+          "note": "该来源为本事实的直接依据；中文表述限定于实际打开页面所载内容。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B20-F204",
+      "author_id": "V1-ENT-0359",
+      "subject_ref": "WCD10-B20-W202",
+      "field": "genre_or_form",
+      "value": "小说",
+      "source_refs": [
+        "WCD10-B20-S201"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B20-S201",
+          "locator": "2026-10-14实际打开；第23-28行题名、Icaza署名、出版社及1948书目；第37-48行Novela ecuatoriana主题词及目录列出的叙事单元。",
+          "support_type": "institutional_catalog",
+          "note": "该来源为本事实的直接依据；中文表述限定于实际打开页面所载内容。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B20-F205",
+      "author_id": "V1-ENT-0359",
+      "subject_ref": "WCD10-B20-W202",
+      "field": "first_publication_year",
+      "value": "1948",
+      "source_refs": [
+        "WCD10-B20-S201"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B20-S201",
+          "locator": "2026-10-14实际打开；第23-28行题名、Icaza署名、出版社及1948书目；第37-48行Novela ecuatoriana主题词及目录列出的叙事单元。",
+          "support_type": "institutional_catalog",
+          "note": "该来源为本事实的直接依据；中文表述限定于实际打开页面所载内容。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B20-F206",
+      "author_id": "V1-ENT-0359",
+      "subject_ref": "WCD10-B20-W202",
+      "field": "one_sentence_summary",
+      "value": "Casa de la Cultura目录将其著录为小说，并列出《La longa Juana》《Yatunyura y Guagraloma》《Huairapamushcas》等内容单元。",
+      "source_refs": [
+        "WCD10-B20-S201"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B20-S201",
+          "locator": "2026-10-14实际打开；第23-28行题名、Icaza署名、出版社及1948书目；第37-48行Novela ecuatoriana主题词及目录列出的叙事单元。",
+          "support_type": "institutional_catalog",
+          "note": "该来源为本事实的直接依据；中文表述限定于实际打开页面所载内容。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B20-F207",
+      "author_id": "V1-ENT-0359",
+      "subject_ref": "V1-ENT-0364",
+      "field": "one_sentence_summary",
+      "value": "Casa de la Cultura馆藏简介称，小说围绕庄园主Alfonso Pereira与印第安农民Andrés Chiliquinga展开，写到安第斯地区的剥削、土地丧失及反抗。",
+      "source_refs": [
+        "WCD10-B20-S203"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B20-S203",
+          "locator": "2026-10-14实际打开；第25-30行作者、书目版本及出版信息；第42-48、56行收录的图书馆简介概括书中农庄主Alfonso Pereira、印第安农民Andrés Chiliquinga、安第斯地区土地剥夺与反抗。",
+          "support_type": "institutional_catalog",
+          "note": "该来源为本事实的直接依据；中文表述限定于实际打开页面所载内容。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B20-F208",
+      "author_id": "V1-ENT-0359",
+      "subject_ref": "V1-ENT-0365",
+      "field": "one_sentence_summary",
+      "value": "1948年评论文章将《En las calles》描述为写印第安人离开村庄、试图适应城市生活的小说，并讨论乡村人口迁移与社会阶层处境。",
+      "source_refs": [
+        "WCD10-B20-S202"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B20-S202",
+          "locator": "2026-10-14实际打开PDF；印刷页148（网页PDF页148）列出《Barro de la sierra》(cuentos, 1933)、《Huasipungo》(1934)、《En las calles》(1935)、《Cholos》(1937)、《Media vida deslumbrados》(1942)；印刷页148–150讨论《Barro de la sierra》五篇故事及《Cachorros》《Sed》《Éxodo》等；印刷页158–159讨论《En las calles》及乡村移民至城市的情节。",
+          "support_type": "institutional_essay",
+          "note": "该来源为本事实的直接依据；中文表述限定于实际打开页面所载内容。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B20-F209",
+      "author_id": "V1-ENT-0359",
+      "subject_ref": "V1-ENT-0366",
+      "field": "one_sentence_summary",
+      "value": "Casa de la Cultura馆藏书目摘录以街区、街道与酒馆为故事场景，并将主人公描述为难以归入单一社会阶层的人物。",
+      "source_refs": [
+        "WCD10-B20-S204"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B20-S204",
+          "locator": "2026-10-14实际打开；第23-28行作者与1958年出版信息；第37-45、60行主题词为厄瓜多尔小说，馆藏书目摘录以城市街区、街道、酒馆和社会归属困境描述人物。",
+          "support_type": "institutional_catalog",
+          "note": "该来源为本事实的直接依据；中文表述限定于实际打开页面所载内容。"
+        }
+      ]
+    }
+  ]
+}

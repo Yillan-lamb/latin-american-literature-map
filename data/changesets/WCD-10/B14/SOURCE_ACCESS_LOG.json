@@ -1,0 +1,171 @@
+{
+  "schema": "wcd10-b14-source-access-log-merged-1",
+  "task_id": "TASK-119",
+  "batch_id": "WCD-10-B14",
+  "baseline_database_sha256": "c7b5951beb2e2a30053b08d84e07931547b8909a1e5a180086fafeedebaea677",
+  "author_packages": [
+    {
+      "author_id": "V1-ENT-0274",
+      "source_directory": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/project/internal/WCD_10_WORKSPACE/orchestration/wave-11/aira/R3",
+      "source_access_log": {
+        "schema": "wcd10-b14-source-access-log-1",
+        "task_id": "TASK-119",
+        "batch_id": "WCD-10-B14",
+        "baseline_database_sha256": "c7b5951beb2e2a30053b08d84e07931547b8909a1e5a180086fafeedebaea677",
+        "accessed_at": "2026-10-13",
+        "sources": [
+          {
+            "url": "https://www.anagrama-ed.es/autor/aira-cesar-29",
+            "access_status": "OPENED",
+            "accessed_at": "2026-10-13",
+            "opened": true,
+            "locator": "第62行列出Ema la cautiva、La luz argentina、Cómo me hice monja、La liebre等作品；未提供具体版本或情节。",
+            "use": "目录查重与发现待核作品；本次不将作者目录用作新对象的直接版本证据。"
+          },
+          {
+            "url": "https://www.editorialcuneta.com/autores/cesar-aira/",
+            "access_status": "OPENED",
+            "accessed_at": "2026-10-13",
+            "opened": true,
+            "locator": "第32-33行说明作品数量并列出Moreira、Ema la cautiva、La liebre等作品及作者总述。",
+            "use": "目录交叉查重；不据泛化评论生成作品事实。"
+          },
+          {
+            "candidate_id": "WCD10-B14-S001",
+            "url": "https://www.anagrama-ed.es/libro/narrativas-hispanicas/varamo/9788433924995/NH_328",
+            "access_status": "OPENED",
+            "accessed_at": "2026-10-13",
+            "opened": true,
+            "locator": "实读2026-10-13。Anagrama作品页“Sobre este libro”提供Varamo情节简介；Ficha técnica记录出版日期01/02/2002。"
+          },
+          {
+            "candidate_id": "WCD10-B14-S002",
+            "url": "https://www.ndbooks.com/book/how-i-became-a-nun/",
+            "access_status": "OPENED",
+            "accessed_at": "2026-10-13",
+            "opened": true,
+            "locator": "实读2026-10-13。第14-16、35-39、48-54行；独立作品页标题、小说简介和版次日期。"
+          },
+          {
+            "candidate_id": "WCD10-B14-S003",
+            "url": "https://www.penguinlibros.com/es/literatura-contemporanea/28960-libro-un-episodio-en-la-vida-del-pintor-viajero-9788439711919",
+            "access_status": "OPENED",
+            "accessed_at": "2026-10-13",
+            "opened": true,
+            "locator": "实读2026-10-13。第348行标示Random House、2005年6月；第370行书名；第476-485行作品简介。"
+          }
+        ]
+      }
+    },
+    {
+      "author_id": "V1-ENT-0284",
+      "source_directory": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/project/internal/WCD_10_WORKSPACE/orchestration/wave-11/puig/FINAL",
+      "source_access_log": {
+        "accessed_at": "2026-10-13",
+        "opened_sources": [
+          {
+            "url": "https://www.argentina.gob.ar/node/294856",
+            "title": "Manuel Puig: pop, melodrama y literatura de vanguardia",
+            "opened": true,
+            "locations": "网页段落34-37列作品年份；41-58提供五书概要，其中53-58明确作品故事简介。"
+          },
+          {
+            "url": "https://www.planetadelibros.com.ar/libro-el-beso-de-la-mujer-arana/374416",
+            "title": "El beso de la mujer araña — PlanetadeLibros",
+            "opened": true,
+            "locations": "页面90-92作者书目列八部作品；书目于91行列年份，不作为首版权威。"
+          },
+          {
+            "url": "https://www.planetadelibros.com.ar/libro-the-buenos-aires-affair-ne/354236",
+            "title": "The Buenos Aires Affair (NE) — Manuel Puig | PlanetadeLibros",
+            "opened": true,
+            "locations": "出版社简介段落21-23；作者书目66-68",
+            "accessed_at": "2026-10-13"
+          },
+          {
+            "url": "https://www.planetadelibros.com.ar/libro-maldicion-eterna-a-quien-lea-estas-paginas-ne/362422",
+            "title": "Maldición eterna a quien lea estas páginas (NE) — Manuel Puig | PlanetadeLibros",
+            "opened": true,
+            "locations": "作者书目73-77；作品类别/书目59-70",
+            "accessed_at": "2026-10-13"
+          },
+          {
+            "url": "https://www.planetadelibros.com.ar/libro-cae-la-noche-tropical/133554",
+            "title": "Cae la noche tropical — Manuel Puig | PlanetadeLibros",
+            "opened": true,
+            "locations": "出版社简介段落19-23；分类50-60；作者书目63-67",
+            "accessed_at": "2026-10-13"
+          }
+        ]
+      }
+    },
+    {
+      "author_id": "V1-ENT-0285",
+      "source_directory": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/project/internal/WCD_10_WORKSPACE/orchestration/wave-11/ocampo/R2",
+      "source_access_log": {
+        "accessed_at": "2026-10-13",
+        "entries": [
+          {
+            "url": "https://www.educ.ar/recursos/109330/silvina-ocampo-el-viaje-olvidado",
+            "title": "Silvina Ocampo: el viaje olvidado — Educ.ar",
+            "status": "OPENED",
+            "opened_directly": true,
+            "locator": "第49-50行“Para leer”条目；第39-41行共同作品说明。",
+            "supports": "selected listed titles, years, general genre labels; specifically notes collaborative/compiled objects separately",
+            "notes": "Cultura page attempted but returned 403; not relied on."
+          },
+          {
+            "url": "https://cultura.gob.ar/silvina-ocampo-10848/",
+            "title": "Fantástica y misteriosa Silvina — Cultura",
+            "status": "OPENED",
+            "opened_directly": true,
+            "locator": "第65-70行列出诗集/故事集题名及年份；第69行共同选集和合著说明。",
+            "supports": "direct selected works roster, formats, years and collaborative role evidence",
+            "notes": "页面归属阿根廷文化部；用于年份冲突交叉核对与事实边界。"
+          },
+          {
+            "url": "https://rarebooks.library.nd.edu/collections/latin_american/south_american/southern_cone_lit/ocampo_s.html",
+            "title": "Silvina Ocampo — Hesburgh Libraries, University of Notre Dame",
+            "status": "OPENED",
+            "opened_directly": true,
+            "locator": "第42-47行和52-54行，按短篇作品和诗集分栏列出初版书目及年份。",
+            "supports": "direct university special collections evidence for selected titles, object layer, genre and dates",
+            "notes": "用于辨认 Autobiografía de Irene 为短篇集，以及核对 Espacios métricos 1945；和Educ.ar矛盾时不强行选年。"
+          },
+          {
+            "url": "https://www.cervantesvirtual.com/portales/adolfo_bioy_casares/autor_cronologia/",
+            "title": "Cronología de Adolfo Bioy Casares — Biblioteca Virtual Miguel de Cervantes",
+            "status": "OPENED",
+            "opened_directly": true,
+            "locator": "1940节175-179行及1946节196-200行；实读2026-10-13。",
+            "supports": "1940 anthology collaborative roles; 1946 Los que aman, odian Ocampo/Bioy coauthorship"
+          },
+          {
+            "url": "https://www.cervantesvirtual.com/portales/adolfo_bioy_casares/su_obra_bibliografia/",
+            "title": "Bibliografía de Adolfo Bioy Casares — Biblioteca Virtual Miguel de Cervantes",
+            "status": "OPENED",
+            "opened_directly": true,
+            "locator": "第88-90行；实读2026-10-13。",
+            "supports": "Antología de la literatura fantástica grouped under works in collaboration with Silvina Ocampo and Borges"
+          },
+          {
+            "url": "https://www.cervantesvirtual.com/portales/adolfo_bioy_casares/autor_apunte/",
+            "title": "Biografía de Adolfo Bioy Casares — Biblioteca Virtual Miguel de Cervantes",
+            "status": "OPENED",
+            "opened_directly": true,
+            "locator": "第178行；实读2026-10-13。",
+            "supports": "Biographical confirmation of three-person anthology collaboration"
+          },
+          {
+            "url": "https://proapi.planetadelibros.com.ar/descargas/sala-prensa-libro/sinopsis-y-biografia/219757/los-que-aman-odian.pdf?_locale=ar",
+            "title": "Los que aman, odian — Emecé Editores press sheet",
+            "status": "OPENED",
+            "opened_directly": true,
+            "locator": "第20-24行及36-39行；实读2026-10-13。",
+            "supports": "Publisher confirms Ocampo and Bioy collaborative authorship and provides publication-year statement conflicting with chronology"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "schema": "wcd10-b08-integrator-execution-3",
+  "revision": "R3",
+  "status": "MERGED_CANDIDATE_READY_FOR_PARENT_REVIEW",
+  "executed_at_local": "2026-10-12T14:32:29+08:00",
+  "working_tree": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/work/codex-worktrees/latin-american-literature-map-wcd10",
+  "output_directory": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/work/codex-worktrees/latin-american-literature-map-wcd10/data/changesets/WCD-10/B08",
+  "baseline_database_sha256": "0150e68ee98e28714a7719129aab7d47e137fc692e8e46a5e1db29540f5dbc07",
+  "parent_authorization": "Merge only exact PASS author packages Quiroga R5, Machado R6, Rosa R5 into new B08 candidate; no Gate, prepare, SQL/map, IDs, database write, or Git operation.",
+  "inputs": [
+    {
+      "author": "Quiroga",
+      "author_id": "V1-ENT-0200",
+      "revision": "R5",
+      "package_path": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/project/internal/WCD_10_WORKSPACE/orchestration/wave-05/quiroga/R5",
+      "candidate_sha256": "8fd727b72f97bcd460ef6cf0a2f338997fb27d199ee2d49e4f699e067a109fff",
+      "coverage_sha256": "67f3d4d5780d0b01c5878b2f6829f25af470500f496b696772bf7c34c6ac377e",
+      "source_registration_sha256": "023732f38df7e9f2d7af88f9e748ccdad86eed28ea03ec291e9d21843e4028ef",
+      "evidence_matrix_sha256": "cfc2202bce9568867b658d4f785b4948e4dc54e9c0e2dd8f3885f419db064b4e",
+      "dedup_sha256": "b43cf4be03402a474711e2f743cf86b168fbcca2780f86edf10b7e8b99fb39c9",
+      "review_path": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/project/internal/WCD_10_WORKSPACE/B08/QUIROGA_R5_INDEPENDENT_REVIEW.json",
+      "review_sha256": "60ffd83c36cba18e381df2b063b94712fe2b3968a51bf146ab76716c87513e3d",
+      "review_verdict": "PASS",
+      "manifest_path": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/project/internal/WCD_10_WORKSPACE/orchestration/wave-05/quiroga/R5/HASH_MANIFEST.json",
+      "manifest_sha256": "c19513ff6cfda0b9c0bdfe9be47200d92a379ba7b4622876e374e78a23c5a10e"
+    },
+    {
+      "author": "Machado",
+      "author_id": "V1-ENT-0211",
+      "revision": "R6",
+      "package_path": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/project/internal/WCD_10_WORKSPACE/orchestration/wave-05/machado/R6",
+      "candidate_sha256": "4bcdc37207e1cf793d795b5fac6e6a9712614e79d9982fe28ce6edceff36eadf",
+      "coverage_sha256": "c69565d9d568bafa887f1a01cd48a691e81277702490cc57e1822f295a36959b",
+      "source_registration_sha256": "a7c50ea285dee7ca68694b935d761c93abf62f0230309c05eb038532472b09c4",
+      "evidence_matrix_sha256": "12997b712dfa981b6d960683b4517402384522af4854eef06ec63a7282e5cc16",
+      "dedup_sha256": "2da9f49ea610cffa4ed2fbe1c90fcade2d8a45283feaac72722f92b50c910114",
+      "review_path": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/project/internal/WCD_10_WORKSPACE/B08/MACHADO_R6_INDEPENDENT_REVIEW.json",
+      "review_sha256": "14054a788c78fc25f6e486ed475eee0916fa7a233b2b8cf25d46b3af4b3467d2",
+      "review_verdict": "PASS",
+      "manifest_path": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/project/internal/WCD_10_WORKSPACE/orchestration/wave-05/machado/R6/HASHES_R6.json",
+      "manifest_sha256": "484b44cebd648526ebef9bb06c572107976c9992504225261748e41be8ca7cbb"
+    },
+    {
+      "author": "Rosa",
+      "author_id": "V1-ENT-0212",
+      "revision": "R5",
+      "package_path": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/project/internal/WCD_10_WORKSPACE/orchestration/wave-05/rosa/R5",
+      "candidate_sha256": "5273a2f683d3790ab6ff9ac323a2d8f8793f7087158c88cc570442d7246181ef",
+      "coverage_sha256": "a509a5963820092128bc76533c8e240d6efee5508c8ed98bec0cb242d24ef920",
+      "source_registration_sha256": "5a14021aeca7963ce77d62a0c965a492bd23cfe8d2c92d262307eafc0f107025",
+      "evidence_matrix_sha256": "aa89fa82d1490ec2f19cdbc5e6d4223ba8eea4eb67cc145516ecd9e8a7b85cd6",
+      "dedup_sha256": "2defb2f3e1714703145eff4c7dd4d1fdb5fe485942c0d55a909fa84ed6adf524",
+      "review_path": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/project/internal/WCD_10_WORKSPACE/B08/ROSA_R5_INDEPENDENT_REVIEW.json",
+      "review_sha256": "959fb5675fadf7030385daad9ab3bdd22027a5ab52264eb070f354bc52b2504e",
+      "review_verdict": "PASS",
+      "manifest_path": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/project/internal/WCD_10_WORKSPACE/orchestration/wave-05/rosa/R5/FROZEN_HASHES.json",
+      "manifest_sha256": "0870f7a32f0bf3379a81b2b4d205bffeeeba8e8580ceb77785cb964316d2f136"
+    }
+  ],
+  "merge_method": "Existing /tmp/build_b08_merge_r2.py integration logic adapted in /tmp/build_b08_merge_r3.py to bind M6/R6; fixed author order Q/M/R; exact concatenation and per-fact/matrix/source/coverage closure. Temporary script paths are recorded, and neither script modifies repository code.",
+  "merge_selfcheck": {
+    "verdict": "PASS_PREPARED_CANDIDATE",
+    "checks": 472,
+    "failed": 0,
+    "counts": {
+      "sources": 124,
+      "new_entities": 91,
+      "candidate_facts": 323,
+      "created_relationships": 91,
+      "deferred": 16,
+      "coverage_objects": 103,
+      "coverage_deferred": 16,
+      "matrix_canonical_entries": 323,
+      "matrix_preserved_baseline_entries": 9,
+      "matrix_original_total_entries": 332,
+      "edition_conflicts": 13
+    }
+  },
+  "validator": {
+    "command": "python3 scripts/validate_wcd10_candidates.py data/changesets/WCD-10/B08/CANDIDATES.json --repo . --report data/changesets/WCD-10/B08/VALIDATOR_REPORT.json",
+    "exit_code": 0,
+    "verdict": "pass",
+    "errors": 0,
+    "report_sha256": "b1cbe0364cac1cd14e937b6b63a644cd81edfbc510dea3c196e7039bc0de19a7"
+  },
+  "outputs": {
+    "CANDIDATES.json": "fdc49145d8e206996e3e362bf914ae57d641ee7ec65651fbe646feff47e257c2",
+    "COVERAGE.json": "a48201f03a9ca1724cbccb60cce19c809ce4b00656f881f42ce5b21f8e3741ae",
+    "SOURCE_REGISTRATION.json": "422b0910de455409b2f8790b3da6ff4276a172d587256de6b34f62856c3ce4c7",
+    "EVIDENCE_MATRIX.json": "a715a6afd635634afa4a64db9f12f58a66b265fe2e6ad43a52400bdf494c4c8c",
+    "DEDUP.json": "87aea58de307b130026df8bc72e9c7304753cabf6be72756fa50bf16c5217eb8",
+    "MERGE_PROVENANCE.json": "821d04cbaad29c16f071b9dce64b6d102e664e6931a49e306a6cad0fc3076d91",
+    "SELF_CHECK.json": "1332c6df5c23762285c8994b9f906eab33deafd7966f47758450fb6aaf36e990",
+    "VALIDATOR_REPORT.json": "b1cbe0364cac1cd14e937b6b63a644cd81edfbc510dea3c196e7039bc0de19a7",
+    "RESEARCH_NOTES.md": "f5e3837c6cb9fbcdaeaa668a11f432abe6d17e3aba819ed0d926876dfcc61b45"
+  },
+  "gate_created": false,
+  "sql_created": false,
+  "integration_map_created": false,
+  "database_written": false,
+  "git_operations": false
+}

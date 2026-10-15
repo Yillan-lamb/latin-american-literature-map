@@ -1,0 +1,14 @@
+{
+  "task_id": "TASK-117",
+  "batch_id": "WCD-10-B12",
+  "baseline_database_sha256": "7152ecc903ef7b610440a5173b0dd79d28ce25358b53ffa42512da6eb615db67",
+  "migration_name": "0047_wcd10_b12_author_works.sql",
+  "migration_sha256": "61f052906048628561740d787e6f94abd156cfafea896ead79cf0bf0152b28b2",
+  "mapping_sha256": "f449f029c1b8875c21ced0f3d92a7418cc572b7bde27083316ea8ad3dc950e22",
+  "reviewer": "Codex-parent-independent-SQL-review",
+  "reviewed_at": "2026-10-13",
+  "verdict": "PASS",
+  "mapping_path": "data/changesets/WCD-10/B12/INTEGRATION_MAP.json",
+  "scope": "Actual disposable baseline clone apply and643 exact source/fact/card/role/19table old-row checks PASS; authorize this SQL/map once on the exact baseline followed by necessary actual data/public QA",
+  "parent_sql_report_sha256": "f8cc057407b0c1f51a5209580c97fb6c5c0eec99a36d84c616d80d06bd2ceba9"
+}

@@ -1,0 +1,33 @@
+{
+  "argv": [
+    "/opt/homebrew/opt/python@3.14/bin/python3.14",
+    "work/codex-worktrees/latin-american-literature-map-wcd10/scripts/validate_wcd10_candidates.py",
+    "project/internal/WCD_10_WORKSPACE/orchestration/wave-19/reentry-candidates/CANDIDATES.json",
+    "--repo",
+    "work/codex-worktrees/latin-american-literature-map-wcd10",
+    "--report",
+    "project/internal/WCD_10_WORKSPACE/orchestration/wave-19/reentry-candidates/VALIDATOR_REPORT.json"
+  ],
+  "cwd": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图",
+  "runtime": {
+    "python_executable": "/opt/homebrew/opt/python@3.14/bin/python3.14",
+    "python_version": "3.14.5",
+    "platform": "macOS-15.7.3-arm64-arm-64bit-Mach-O"
+  },
+  "started_at_local_date": "2026-10-15",
+  "duration_seconds": 2.017008,
+  "exit_code": 0,
+  "stdout": {
+    "path": "VALIDATOR_STDOUT.raw",
+    "bytes": 933,
+    "sha256": "76a825eeeff2ed1a19a078a0a688424bdd6313e6a188259da79e4e1193626040"
+  },
+  "stderr": {
+    "path": "VALIDATOR_STDERR.raw",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "result_report": "VALIDATOR_REPORT.json",
+  "candidate_sha256": "56d576883b7555c2e43e595264e47a558e721d16855f01bf349f4e5d157b6abb",
+  "baseline_database_sha256": "559b1858b7b5e647b4b313f841be8d2960cf3a5eacf2a2dd92c6161668da706c"
+}

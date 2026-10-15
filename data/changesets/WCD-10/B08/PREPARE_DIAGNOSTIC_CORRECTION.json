@@ -1,0 +1,41 @@
+{
+  "schema": "wcd10-b08-prepare-diagnostic-correction-1",
+  "task_id": "TASK-113",
+  "batch_id": "WCD-10-B08",
+  "attempt": "R1 prepare retry 2",
+  "prepare_execution_file": "PREPARE_SECOND_FAILURE.json",
+  "prepare_execution_sha256": "c41e30f95df402d8fcd46cb97214e09e891e7348249d244ce82adf28d3098d73",
+  "correction": "The earlier diagnosis that legacy_object_snapshot wrappers were iterated was incorrect. The current builder filters primary coverage rows with classify_coverage_objects and the gap loop iterates coverage_primary_objects. The KeyError at line 662 is from Machado R4 primary rows with research_status institutional_commentary but missing remaining, not the three wrappers.",
+  "read_only_confirmation": {
+    "machado_r4_coverage_sha256": "7fde255bf7ea48d6ead57f5f2afbfe9a451897cd6ce2b9c460bee219fea8659a",
+    "primary_institutional_commentary_rows": 22,
+    "primary_rows_missing_remaining": [
+      "WCD10-B08-W101",
+      "WCD10-B08-W102",
+      "WCD10-B08-W103",
+      "WCD10-B08-W104",
+      "WCD10-B08-W105",
+      "WCD10-B08-W106",
+      "WCD10-B08-W107",
+      "WCD10-B08-W108",
+      "WCD10-B08-W109",
+      "WCD10-B08-W110",
+      "WCD10-B08-W111",
+      "WCD10-B08-W113",
+      "WCD10-B08-W114",
+      "WCD10-B08-W115",
+      "WCD10-B08-W116",
+      "WCD10-B08-W117",
+      "WCD10-B08-W118",
+      "WCD10-B08-W119",
+      "WCD10-B08-W120",
+      "WCD10-B08-W121",
+      "WCD10-B08-W122",
+      "WCD10-B08-W123"
+    ],
+    "legacy_wrappers_are_filtered_before_gap_loop": true,
+    "Rosa_legacy_wrapper_rows_not_modified": true
+  },
+  "actual_failure": "KeyError: remaining in build_wcd10_migration.py when emitting object-level research gap. No SQL or INTEGRATION_MAP was written; baseline and candidate remain unchanged.",
+  "next_action": "Parent has taken ownership of Machado coverage repair and re-review. No further prepare, builder edit, or author-package edit is authorized in this task until parent reauthorizes."
+}

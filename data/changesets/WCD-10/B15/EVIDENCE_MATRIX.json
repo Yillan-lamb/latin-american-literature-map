@@ -1,0 +1,726 @@
+{
+  "task_id": "TASK-120",
+  "batch_id": "WCD-10-B15",
+  "baseline_database_sha256": "651f89688eeba195a4332ee6611cc51478c2c3aeae7fd5b2391069283a0cea92",
+  "entries": [
+    {
+      "candidate_id": "WCD10-B15-W001-F01",
+      "field": "genre_or_form",
+      "value": "短篇小说集",
+      "source_refs": [
+        "WCD10-B15-S001",
+        "WCD10-B15-S002"
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B15-W001-F02",
+      "field": "one_sentence_summary",
+      "value": "阿尔特短篇小说集；塞万提斯虚拟图书馆书目列其1933年布宜诺斯艾利斯Anaconda版。",
+      "source_refs": [
+        "WCD10-B15-S001",
+        "WCD10-B15-S002"
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B15-W001-F03",
+      "field": "first_publication_year",
+      "value": "1933",
+      "source_refs": [
+        "WCD10-B15-S002"
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B15-W002-F01",
+      "field": "genre_or_form",
+      "value": "短篇小说集",
+      "source_refs": [
+        "WCD10-B15-S001",
+        "WCD10-B15-S002"
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B15-W002-F02",
+      "field": "one_sentence_summary",
+      "value": "阿尔特短篇小说集；塞万提斯虚拟图书馆书目列其1941年圣地亚哥Zig-Zag版。",
+      "source_refs": [
+        "WCD10-B15-S001",
+        "WCD10-B15-S002"
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B15-W002-F03",
+      "field": "first_publication_year",
+      "value": "1941",
+      "source_refs": [
+        "WCD10-B15-S002"
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B15-W003-F01",
+      "field": "genre_or_form",
+      "value": "戏剧",
+      "source_refs": [
+        "WCD10-B15-S001",
+        "WCD10-B15-S002"
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B15-W003-F02",
+      "field": "one_sentence_summary",
+      "value": "阿根廷国会图书馆将其列为戏剧作品，并记载1932年在人民剧院首演。",
+      "source_refs": [
+        "WCD10-B15-S001",
+        "WCD10-B15-S002"
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B15-W003-F03",
+      "field": "first_publication_year",
+      "value": "1932",
+      "source_refs": [
+        "WCD10-B15-S001",
+        "WCD10-B15-S002"
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B15-W004-F01",
+      "field": "genre_or_form",
+      "value": "戏剧",
+      "source_refs": [
+        "WCD10-B15-S001",
+        "WCD10-B15-S002"
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B15-W004-F02",
+      "field": "one_sentence_summary",
+      "value": "阿根廷国会图书馆将其列为阿尔特戏剧作品；作者页面记其1937年。",
+      "source_refs": [
+        "WCD10-B15-S001",
+        "WCD10-B15-S002"
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B15-W004-F03",
+      "field": "bibliographic_note",
+      "value": "国会图书馆戏剧作品目录列1937年；Centro Virtual Cervantes书目记录1950年Futuro版及1965年EUDEBA版。现有依据分别描述作品列表年份与出版版本，故不据此断言首演或首版年份。",
+      "source_refs": [
+        "WCD10-B15-S001",
+        "WCD10-B15-S002"
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B15-W005-F01",
+      "field": "genre_or_form",
+      "value": "小说",
+      "source_refs": [
+        "WCD10-B15-S001",
+        "WCD10-B15-S002"
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B15-W005-F02",
+      "field": "one_sentence_summary",
+      "value": "阿根廷国会图书馆将《El amor brujo》列为阿尔特最后一部小说，并记载其于1932年出版。",
+      "source_refs": [
+        "WCD10-B15-S001"
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B15-W005-F03",
+      "field": "first_publication_year",
+      "value": "1932",
+      "source_refs": [
+        "WCD10-B15-S001",
+        "WCD10-B15-S002"
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B15-F101",
+      "author_id": "V1-ENT-0296",
+      "subject_ref": "WCD10-B15-W101",
+      "field": "genre_or_form",
+      "value": "短篇小说集",
+      "source_refs": [
+        "WCD10-B15-S102"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B15-S102",
+          "locator": "实读2026-10-13。第449–454行作者资料列El núcleo del disturbio为2002年短篇集、Kentukis为Random House 2018年作品并记录奖项；第364、427–433行另提供既有《吃鸟的女孩》内容简介，用于语义查重。",
+          "support_type": "direct_publisher_or_bibliographic_record",
+          "note": "仅支持此候选事实；版本日期与作品首发年份严格区分。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B15-F102",
+      "author_id": "V1-ENT-0296",
+      "subject_ref": "WCD10-B15-W101",
+      "field": "one_sentence_summary",
+      "value": "这部短篇集以列车、变形、结伴女性、行李箱中的死亡和郊区酒吧等情境，写人物试图逃离突发困境或现实裂隙。",
+      "source_refs": [
+        "WCD10-B15-S101"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B15-S101",
+          "locator": "实读2026-10-13。第26–33、45–55行：书名、作者、Ediciones Destino 2002、185页及出版社简介；第52行标明Original de Universidade do Texas。",
+          "support_type": "direct_publisher_or_bibliographic_record",
+          "note": "仅支持此候选事实；版本日期与作品首发年份严格区分。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B15-F103",
+      "author_id": "V1-ENT-0296",
+      "subject_ref": "WCD10-B15-W101",
+      "field": "first_publication_year",
+      "value": "2002",
+      "source_refs": [
+        "WCD10-B15-S101",
+        "WCD10-B15-S102"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B15-S101",
+          "locator": "实读2026-10-13。第26–33、45–55行：书名、作者、Ediciones Destino 2002、185页及出版社简介；第52行标明Original de Universidade do Texas。",
+          "support_type": "direct_publisher_or_bibliographic_record",
+          "note": "仅支持此候选事实；版本日期与作品首发年份严格区分。"
+        },
+        {
+          "source_ref": "WCD10-B15-S102",
+          "locator": "实读2026-10-13。第449–454行作者资料列El núcleo del disturbio为2002年短篇集、Kentukis为Random House 2018年作品并记录奖项；第364、427–433行另提供既有《吃鸟的女孩》内容简介，用于语义查重。",
+          "support_type": "direct_publisher_or_bibliographic_record",
+          "note": "仅支持此候选事实；版本日期与作品首发年份严格区分。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B15-F104",
+      "author_id": "V1-ENT-0296",
+      "subject_ref": "WCD10-B15-W102",
+      "field": "genre_or_form",
+      "value": "小说",
+      "source_refs": [
+        "WCD10-B15-S103"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B15-S103",
+          "locator": "实读2026-10-13。第345–348行书名与作者；第368–374行出版社内容说明将其称为novela并描述智能设备/家庭隐私设定；此页面所列2026为本版销售日期，不作作品首发年份。",
+          "support_type": "direct_publisher_or_bibliographic_record",
+          "note": "仅支持此候选事实；版本日期与作品首发年份严格区分。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B15-F105",
+      "author_id": "V1-ENT-0296",
+      "subject_ref": "WCD10-B15-W102",
+      "field": "one_sentence_summary",
+      "value": "小说设想匿名陌生人进入不同地区他人的私人生活，借技术连接呈现窥视、亲密与信任的边界问题。",
+      "source_refs": [
+        "WCD10-B15-S103"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B15-S103",
+          "locator": "实读2026-10-13。Penguin Random House作品页第368–388行；官方简介支持陌生人进入异地他人的私人生活，以及技术、窥视、亲密与信任边界，不声称联网玩偶或远程操控。",
+          "support_type": "direct_publisher_or_bibliographic_record",
+          "note": "官方书目简介只支持本条受限表述；已删除无法由其直接确认的联网玩偶与远程操作细节。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B15-F106",
+      "author_id": "V1-ENT-0296",
+      "subject_ref": "WCD10-B15-W102",
+      "field": "first_publication_year",
+      "value": "2018",
+      "source_refs": [
+        "WCD10-B15-S102"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B15-S102",
+          "locator": "实读2026-10-13。第449–454行作者资料列El núcleo del disturbio为2002年短篇集、Kentukis为Random House 2018年作品并记录奖项；第364、427–433行另提供既有《吃鸟的女孩》内容简介，用于语义查重。",
+          "support_type": "direct_publisher_or_bibliographic_record",
+          "note": "仅支持此候选事实；版本日期与作品首发年份严格区分。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B15-F107",
+      "author_id": "V1-ENT-0296",
+      "subject_ref": "WCD10-B15-W103",
+      "field": "genre_or_form",
+      "value": "短篇小说集",
+      "source_refs": [
+        "WCD10-B15-S104"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B15-S104",
+          "locator": "实读2026-10-13。第20–34行题名、作者及概要；第79–92行 ficha técnica列2025-03-05、Relatos、Seix Barral、ISBN；第94–98行作者资料。",
+          "support_type": "direct_publisher_or_bibliographic_record",
+          "note": "仅支持此候选事实；版本日期与作品首发年份严格区分。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B15-F108",
+      "author_id": "V1-ENT-0296",
+      "subject_ref": "WCD10-B15-W103",
+      "field": "one_sentence_summary",
+      "value": "这部短篇集以突如其来的陌生感扰动熟悉生活，呈现人物面对意外变化的处境。",
+      "source_refs": [
+        "WCD10-B15-S104"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B15-S104",
+          "locator": "实读2026-10-13。PlanetadeLibros作品页第29–36行；官方简介支持熟悉感突然变陌生及意外变化的处境，不以页面下方用户评论补充六篇、悲痛或愧疚。",
+          "support_type": "direct_publisher_or_bibliographic_record",
+          "note": "仅采用作品页官方简介，不使用页面下方用户评论。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B15-F109",
+      "author_id": "V1-ENT-0296",
+      "subject_ref": "WCD10-B15-W103",
+      "field": "bibliographic_note",
+      "value": "Seix Barral书目页将西班牙平装版出版日期列为2025年3月5日；此处仅记录该版书目日期，不推定作品首版年份。",
+      "source_refs": [
+        "WCD10-B15-S104"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B15-S104",
+          "locator": "实读2026-10-13。第20–34行题名、作者及概要；第79–92行 ficha técnica列2025-03-05、Relatos、Seix Barral、ISBN；第94–98行作者资料。",
+          "support_type": "direct_publisher_or_bibliographic_record",
+          "note": "仅支持此候选事实；版本日期与作品首发年份严格区分。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B15-W201-F01",
+      "author_id": "V1-ENT-0297",
+      "subject_ref": "WCD10-B15-W201",
+      "field": "first_publication_year",
+      "value": "1995",
+      "source_refs": [
+        "WCD10-B15-S201"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B15-S201",
+          "locator": "Published 1995 and primary novel; synopsis of three adolescents and the Buenos Aires night scene. Lines 84-104, especially 88, 101-104. Edition data lines 122-145. Read 2026-10-13.",
+          "support_type": "direct_publisher_record",
+          "note": "出版社页面直接列明作品、类别、简介或版本书目。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B15-W201-F02",
+      "author_id": "V1-ENT-0297",
+      "subject_ref": "WCD10-B15-W201",
+      "field": "genre_or_form",
+      "value": "长篇小说",
+      "source_refs": [
+        "WCD10-B15-S201"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B15-S201",
+          "locator": "Published 1995 and primary novel; synopsis of three adolescents and the Buenos Aires night scene. Lines 84-104, especially 88, 101-104. Edition data lines 122-145. Read 2026-10-13.",
+          "support_type": "direct_publisher_record",
+          "note": "出版社页面直接列明作品、类别、简介或版本书目。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B15-W201-F03",
+      "author_id": "V1-ENT-0297",
+      "subject_ref": "WCD10-B15-W201",
+      "field": "one_sentence_summary",
+      "value": "在20世纪90年代夜色弥漫的布宜诺斯艾利斯，Facundo、Narval与Carolina三个年轻人卷入毒品、暴力、毁灭与爱情。",
+      "source_refs": [
+        "WCD10-B15-S201"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B15-S201",
+          "locator": "Published 1995 and primary novel; synopsis of three adolescents and the Buenos Aires night scene. Lines 84-104, especially 88, 101-104. Edition data lines 122-145. Read 2026-10-13.",
+          "support_type": "direct_publisher_record",
+          "note": "出版社页面直接列明作品、类别、简介或版本书目。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B15-W202-F01",
+      "author_id": "V1-ENT-0297",
+      "subject_ref": "WCD10-B15-W202",
+      "field": "first_publication_year",
+      "value": "2004",
+      "source_refs": [
+        "WCD10-B15-S202"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B15-S202",
+          "locator": "Novel classification and synopsis at lines 61-80; 2004 publication stated at line 79; edition metadata further down. Read 2026-10-13.",
+          "support_type": "direct_publisher_record",
+          "note": "出版社页面直接列明作品、类别、简介或版本书目。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B15-W202-F02",
+      "author_id": "V1-ENT-0297",
+      "subject_ref": "WCD10-B15-W202",
+      "field": "genre_or_form",
+      "value": "小说",
+      "source_refs": [
+        "WCD10-B15-S202"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B15-S202",
+          "locator": "Novel classification and synopsis at lines 61-80; 2004 publication stated at line 79; edition metadata further down. Read 2026-10-13.",
+          "support_type": "direct_publisher_record",
+          "note": "出版社页面直接列明作品、类别、简介或版本书目。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B15-W202-F03",
+      "author_id": "V1-ENT-0297",
+      "subject_ref": "WCD10-B15-W202",
+      "field": "one_sentence_summary",
+      "value": "十六岁的Matías Kovac借由哥哥留下的日记和音乐寻找离开边缘生活的路径；小说以其家庭处境和阿根廷经济危机后的社会失序为背景。",
+      "source_refs": [
+        "WCD10-B15-S202"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B15-S202",
+          "locator": "Novel classification and synopsis at lines 61-80; 2004 publication stated at line 79; edition metadata further down. Read 2026-10-13.",
+          "support_type": "direct_publisher_record",
+          "note": "出版社页面直接列明作品、类别、简介或版本书目。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B15-W203-F01",
+      "author_id": "V1-ENT-0297",
+      "subject_ref": "WCD10-B15-W203",
+      "field": "genre_or_form",
+      "value": "恐怖短篇小说集",
+      "source_refs": [
+        "WCD10-B15-S203"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B15-S203",
+          "locator": "Twelve horror stories, bounded synopsis and author at lines 67-86; edition publication date at lines 100-120. Read 2026-10-13.",
+          "support_type": "direct_publisher_record",
+          "note": "出版社页面直接列明作品、类别、简介或版本书目。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B15-W203-F02",
+      "author_id": "V1-ENT-0297",
+      "subject_ref": "WCD10-B15-W203",
+      "field": "one_sentence_summary",
+      "value": "十二篇故事让鬼魂、失踪者、乡镇衰败和日常生活中的怪异威胁彼此交织。",
+      "source_refs": [
+        "WCD10-B15-S203"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B15-S203",
+          "locator": "Twelve horror stories, bounded synopsis and author at lines 67-86; edition publication date at lines 100-120. Read 2026-10-13.",
+          "support_type": "direct_publisher_record",
+          "note": "出版社页面直接列明作品、类别、简介或版本书目。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B15-W203-F03",
+      "author_id": "V1-ENT-0297",
+      "subject_ref": "WCD10-B15-W203",
+      "field": "bibliographic_note",
+      "value": "Anagrama页面列本版出版日为2024-03-06；记为该出版社版本日期。",
+      "source_refs": [
+        "WCD10-B15-S203"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B15-S203",
+          "locator": "Twelve horror stories, bounded synopsis and author at lines 67-86; edition publication date at lines 100-120. Read 2026-10-13.",
+          "support_type": "direct_publisher_record",
+          "note": "出版社页面直接列明作品、类别、简介或版本书目。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B15-W204-F01",
+      "author_id": "V1-ENT-0297",
+      "subject_ref": "WCD10-B15-W204",
+      "field": "genre_or_form",
+      "value": "新闻特写与个人随笔集",
+      "source_refs": [
+        "WCD10-B15-S204"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B15-S204",
+          "locator": "Author, journalistic collection and contents at lines 61-82; edition publication date at lines 97-121. Read 2026-10-13.",
+          "support_type": "direct_publisher_record",
+          "note": "出版社页面直接列明作品、类别、简介或版本书目。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B15-W204-F02",
+      "author_id": "V1-ENT-0297",
+      "subject_ref": "WCD10-B15-W204",
+      "field": "one_sentence_summary",
+      "value": "汇集Enríquez的新闻写作，穿插文学与音乐人物肖像、个人经历和文化观察。",
+      "source_refs": [
+        "WCD10-B15-S204"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B15-S204",
+          "locator": "Author, journalistic collection and contents at lines 61-82; edition publication date at lines 97-121. Read 2026-10-13.",
+          "support_type": "direct_publisher_record",
+          "note": "出版社页面直接列明作品、类别、简介或版本书目。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B15-W204-F03",
+      "author_id": "V1-ENT-0297",
+      "subject_ref": "WCD10-B15-W204",
+      "field": "bibliographic_note",
+      "value": "Anagrama页面列本版出版日为2022-10-05；记为该出版社版本日期。",
+      "source_refs": [
+        "WCD10-B15-S204"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B15-S204",
+          "locator": "Author, journalistic collection and contents at lines 61-82; edition publication date at lines 97-121. Read 2026-10-13.",
+          "support_type": "direct_publisher_record",
+          "note": "出版社页面直接列明作品、类别、简介或版本书目。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B15-W205-F01",
+      "author_id": "V1-ENT-0297",
+      "subject_ref": "WCD10-B15-W205",
+      "field": "first_publication_year",
+      "value": "2014",
+      "source_refs": [
+        "WCD10-B15-S205"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B15-S205",
+          "locator": "Author, travel chronicle form and cemetery visits at lines 61-84; original Argentina publication in 2014 at line 83; later edition data lines 99-123. Read 2026-10-13.",
+          "support_type": "direct_publisher_record",
+          "note": "出版社页面直接列明作品、类别、简介或版本书目。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B15-W205-F02",
+      "author_id": "V1-ENT-0297",
+      "subject_ref": "WCD10-B15-W205",
+      "field": "genre_or_form",
+      "value": "旅行纪事",
+      "source_refs": [
+        "WCD10-B15-S205"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B15-S205",
+          "locator": "Author, travel chronicle form and cemetery visits at lines 61-84; original Argentina publication in 2014 at line 83; later edition data lines 99-123. Read 2026-10-13.",
+          "support_type": "direct_publisher_record",
+          "note": "出版社页面直接列明作品、类别、简介或版本书目。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B15-W205-F03",
+      "author_id": "V1-ENT-0297",
+      "subject_ref": "WCD10-B15-W205",
+      "field": "one_sentence_summary",
+      "value": "作者走访巴黎、伦敦、布拉格等地的墓园，以旅行见闻、历史细节和个人叙述记录各地墓地。",
+      "source_refs": [
+        "WCD10-B15-S205"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B15-S205",
+          "locator": "Author, travel chronicle form and cemetery visits at lines 61-84; original Argentina publication in 2014 at line 83; later edition data lines 99-123. Read 2026-10-13.",
+          "support_type": "direct_publisher_record",
+          "note": "出版社页面直接列明作品、类别、简介或版本书目。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B15-W205-F04",
+      "author_id": "V1-ENT-0297",
+      "subject_ref": "WCD10-B15-W205",
+      "field": "bibliographic_note",
+      "value": "Anagrama指出本书于2014年先由阿根廷Galerna出版社出版；该版增补行程，墓园数从16处增至24处。",
+      "source_refs": [
+        "WCD10-B15-S205"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B15-S205",
+          "locator": "Author, travel chronicle form and cemetery visits at lines 61-84; original Argentina publication in 2014 at line 83; later edition data lines 99-123. Read 2026-10-13.",
+          "support_type": "direct_publisher_record",
+          "note": "出版社页面直接列明作品、类别、简介或版本书目。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B15-W206-F01",
+      "author_id": "V1-ENT-0297",
+      "subject_ref": "WCD10-B15-W206",
+      "field": "genre_or_form",
+      "value": "文学人物传记/肖像",
+      "source_refs": [
+        "WCD10-B15-S206"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B15-S206",
+          "locator": "Author/title and subtitle identify a portrait of Silvina Ocampo at lines 61-67; contents and approach at lines 79-83; edition date at lines 97-120. Read 2026-10-13.",
+          "support_type": "direct_publisher_record",
+          "note": "出版社页面直接列明作品、类别、简介或版本书目。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B15-W206-F02",
+      "author_id": "V1-ENT-0297",
+      "subject_ref": "WCD10-B15-W206",
+      "field": "one_sentence_summary",
+      "value": "以书目资料及友人、评论者、亲属和遗嘱执行人的证言，勾勒阿根廷作家Silvina Ocampo的生平与文学形象。",
+      "source_refs": [
+        "WCD10-B15-S206"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B15-S206",
+          "locator": "Author/title and subtitle identify a portrait of Silvina Ocampo at lines 61-67; contents and approach at lines 79-83; edition date at lines 97-120. Read 2026-10-13.",
+          "support_type": "direct_publisher_record",
+          "note": "出版社页面直接列明作品、类别、简介或版本书目。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B15-W206-F03",
+      "author_id": "V1-ENT-0297",
+      "subject_ref": "WCD10-B15-W206",
+      "field": "bibliographic_note",
+      "value": "Anagrama页面列本版出版日为2018-06-13；未据此推断原作首版年。",
+      "source_refs": [
+        "WCD10-B15-S206"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B15-S206",
+          "locator": "Author/title and subtitle identify a portrait of Silvina Ocampo at lines 61-67; contents and approach at lines 79-83; edition date at lines 97-120. Read 2026-10-13.",
+          "support_type": "direct_publisher_record",
+          "note": "出版社页面直接列明作品、类别、简介或版本书目。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B15-F201",
+      "author_id": "V1-ENT-0297",
+      "subject_ref": "V1-ENT-0302",
+      "field": "one_sentence_summary",
+      "value": "十二篇故事将暴力、身体、社会边缘处境与日常生活中的恐怖交织起来，人物包括试图帮助他人的学生、社工、警察和导游。",
+      "source_refs": [
+        "WCD10-B15-S207"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B15-S207",
+          "locator": "The publisher describes twelve stories and gives a bounded account of their horror/social themes at lines 78-81; 2016 publisher edition date at lines 95-119. Read 2026-10-13.",
+          "support_type": "direct_publisher_record",
+          "note": "出版社作品页直接支持所录内容。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B15-F202",
+      "author_id": "V1-ENT-0297",
+      "subject_ref": "V1-ENT-0303",
+      "field": "one_sentence_summary",
+      "value": "一对父子穿越军事独裁时期的阿根廷；Gaspar被卷入一个借灵媒与黑暗力量追求永生的秘密组织。",
+      "source_refs": [
+        "WCD10-B15-S208"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B15-S208",
+          "locator": "Publisher directly describes the novel, father/son journey, Gaspar and the Order at lines 79-84 and 158-164; edition date 2019 at lines 101-125. Read 2026-10-13.",
+          "support_type": "direct_publisher_record",
+          "note": "出版社作品页直接支持所录内容。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B15-F203",
+      "author_id": "V1-ENT-0297",
+      "subject_ref": "V1-ENT-0304",
+      "field": "one_sentence_summary",
+      "value": "十二篇故事以鬼魂、女巫、降灵会和死者归来等恐怖传统为材料，关注潜伏于日常生活中的怪异、欲望与执念。",
+      "source_refs": [
+        "WCD10-B15-S209"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B15-S209",
+          "locator": "Publisher calls it a 12-story collection and describes bounded horror themes at lines 78-81, 157-161; edition date 2017 at lines 101-125. Read 2026-10-13.",
+          "support_type": "direct_publisher_record",
+          "note": "出版社作品页直接支持所录内容。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B15-F204",
+      "author_id": "V1-ENT-0297",
+      "subject_ref": "V1-ENT-0304",
+      "field": "bibliographic_note",
+      "value": "Anagrama页面列出该出版社版本的出版日为2017-02-01；现有来源未据此确认作品原始首版年份。",
+      "source_refs": [
+        "WCD10-B15-S209"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B15-S209",
+          "locator": "Publisher calls it a 12-story collection and describes bounded horror themes at lines 78-81, 157-161; edition date 2017 at lines 101-125. Read 2026-10-13.",
+          "support_type": "direct_publisher_record",
+          "note": "出版社作品页直接支持所录内容。"
+        }
+      ]
+    }
+  ],
+  "policy_by_author": {
+    "V1-ENT-0286": "普通书目与简短作品导读直接来源；无需research_note。",
+    "V1-ENT-0296": "仅书目、体裁和来源直接支持的有界简介；无未审学术解释。"
+  }
+}

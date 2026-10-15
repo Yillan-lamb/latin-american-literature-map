@@ -1,0 +1,138 @@
+{
+  "schema": "wcd10-wave19-reentry-candidates-status-v1",
+  "date": "2026-10-15",
+  "worker": "GPT-6 Luna high (same-host subagent)",
+  "task_id": "TASK-127",
+  "decision_refs": [
+    "DEC-069",
+    "DEC-070"
+  ],
+  "status": "CANDIDATE_PRODUCED_PARENT_INDEPENDENT_REVIEW_PENDING",
+  "write_scope": "project/internal/WCD_10_WORKSPACE/orchestration/wave-19/reentry-candidates/ only",
+  "baseline": {
+    "worktree": "work/codex-worktrees/latin-american-literature-map-wcd10",
+    "head": "05f3372c69a54ec331d31b05d16c8288d6d3a993",
+    "database_sha256": "559b1858b7b5e647b4b313f841be8d2960cf3a5eacf2a2dd92c6161668da706c",
+    "migration_count": 56,
+    "table_count": 19,
+    "existing_b05_roster": [
+      "V1-ENT-0059",
+      "V1-ENT-0170",
+      "V1-ENT-0171"
+    ],
+    "refreshed_existing_work_closure_count": 17
+  },
+  "ordinary_validator": {
+    "tool": "scripts/validate_wcd10_candidates.py",
+    "verdict": "pass",
+    "counts": {
+      "source_candidates": 3,
+      "new_entity_candidates": 1,
+      "new_fact_candidates": 3,
+      "new_created_candidates": 1,
+      "extra_relationship_candidates": 0,
+      "deferred": 0
+    },
+    "dedup": [
+      {
+        "candidate_id": "WCD10-B05-S07",
+        "kind": "source",
+        "disposition": "reuse",
+        "matches": [
+          "SRC-0099"
+        ]
+      },
+      {
+        "candidate_id": "WCD10-B05-S12",
+        "kind": "source",
+        "disposition": "reuse",
+        "matches": [
+          "SRC-0300"
+        ]
+      },
+      {
+        "candidate_id": "WCD10-B05-S18",
+        "kind": "source",
+        "disposition": "new",
+        "matches": []
+      },
+      {
+        "candidate_id": "WCD10-B05-W027",
+        "kind": "entity",
+        "disposition": "new",
+        "matches": []
+      }
+    ],
+    "independent_review_required": true
+  },
+  "scope_results": {
+    "W03": "one work candidate WCD10-B05-W027; no formal ID; 3 supported facts (genre, concise summary, edition note); no first_publication_year atom; implicit Paz CREATED candidate; original 4-row evidence retained verbatim in preserved original dossier and exact frozen W03 file unchanged; V1-GAP-0123 preserved from actual baseline; no duplicate of that key.",
+    "Amado0172_to_existing_0591": "separate controlled append attachment to existing entity_type=work; reuse SRC-0652; claims one of ten chapter authors only; no new object/source/fact/card/formal relationship ID; ordinary validator not claimed to cover this edge.",
+    "Telles0358_to_0592": "read-only confirmed existing V1-REL-0762; no candidate."
+  },
+  "source_access_boundary": "ELEM 8815, Nobel bibliography and Nobel biography are successful historical B05 accesses dated 2026-10-07; none claims fresh 2026-10-15 access. Parent reopened ELEM on 2026-10-15 and received Timeout. SRC-0652 PDF was freshly opened by parent on 2026-10-15.",
+  "files": {
+    "AMADO0172_TO_0591_CONTROLLED_APPEND.json": "79381528e62ecb5f2d9eeadf26a896452067fcc99c0460e0330e667c8b4c7430",
+    "BASELINE_CLOSURE.json": "36e8594eac2e81be340d4f6df4479dd2e9e82c6a8ba11637880124e79e601311",
+    "CANDIDATES.json": "56d576883b7555c2e43e595264e47a558e721d16855f01bf349f4e5d157b6abb",
+    "COVERAGE.json": "8b7544ae8fcee8def89940f31dc65297ed60ad6a02838ff67d06c0c560cf6fc1",
+    "COVERAGE_CLASSIFICATION_EXECUTION.json": "2cba6df64ebef1df53922b1853daf918f36f228c2c56c07df5ef14c5089c27f2",
+    "COVERAGE_CLASSIFICATION_STDERR.raw": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "COVERAGE_CLASSIFICATION_STDOUT.raw": "9778c43197f6c1500473927d89e521b9f6418b86cce601f582a6fd64380c6225",
+    "DEDUP.json": "bbddbfa78c6c668a5dbf4592d6c8ff82e15a2051bb91856dc98cffb5a5c15888",
+    "EVIDENCE_MATRIX.json": "1dfe51770897db1cab709069a62b7954d590172a3813ca30049f47147d643152",
+    "ORIGINAL_B05_EVIDENCE_MATRIX.json": "06de365fcc6737ef9b2f4d51ff3373733c0b6a0241f25c67c281382ffad0d482",
+    "ORIGINAL_W03_DEFERRED_CANDIDATE.json": "a49cd6f1f4ddc3977077f89d0303895c6aa62020fd776c7e87e560674cac5ad4",
+    "SOURCE_ACCESS_LOG.json": "cec2492bd8adce4a739a218c3d0b83e8a202d2183b03be86e0cbcd1f6553032d",
+    "SOURCE_REGISTRATION.json": "cb6cf05e75336d8c64cb1cb769cb55f89737124d7f78f88a9687291b40256355",
+    "SOURCE_REUSE_FULL_ROWS.json": "269266724a6bffbd58a3041b0d234215f92f9cff565789cf5ddfc15d98c1cde8",
+    "TELLES0592_READ_ONLY_RECHECK.json": "1004cbf208bdacf189646e9c65ee73c100c6e226fcdb5dd5145b54475314b625",
+    "VALIDATOR_EXECUTION.json": "2f0a960918aa18becc7bcc878e11fffcdfc5ce56a553827185b766203cea24c5",
+    "VALIDATOR_REPORT.json": "7f9b63ac4d262af6fb64f2a47f0c6caba9d3fc2f378b7071167ccf6ce6c7d7c2",
+    "VALIDATOR_STDERR.raw": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "VALIDATOR_STDOUT.raw": "76a825eeeff2ed1a19a078a0a688424bdd6313e6a188259da79e4e1193626040"
+  },
+  "not_done": [
+    "No migration prepare/apply",
+    "No formal IDs allocated",
+    "No master database, source registry, validator, tools, worktree, Git, install, publication, or automation changed",
+    "Parent independent review and integrator handoff pending"
+  ],
+  "validator_execution": {
+    "argv": [
+      "/opt/homebrew/opt/python@3.14/bin/python3.14",
+      "work/codex-worktrees/latin-american-literature-map-wcd10/scripts/validate_wcd10_candidates.py",
+      "project/internal/WCD_10_WORKSPACE/orchestration/wave-19/reentry-candidates/CANDIDATES.json",
+      "--repo",
+      "work/codex-worktrees/latin-american-literature-map-wcd10",
+      "--report",
+      "project/internal/WCD_10_WORKSPACE/orchestration/wave-19/reentry-candidates/VALIDATOR_REPORT.json"
+    ],
+    "cwd": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图",
+    "exit_code": 0,
+    "stdout_sha256": "76a825eeeff2ed1a19a078a0a688424bdd6313e6a188259da79e4e1193626040",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "execution_record": "VALIDATOR_EXECUTION.json"
+  },
+  "coverage_classification_execution": {
+    "contract": "scripts/build_wcd10_migration.py::classify_coverage_objects",
+    "argv": [
+      "/opt/homebrew/opt/python@3.14/bin/python3.14",
+      "-c",
+      "import json,sqlite3,sys\nfrom pathlib import Path\nsys.path.insert(0,'work/codex-worktrees/latin-american-literature-map-wcd10/scripts')\nfrom build_wcd10_migration import classify_coverage_objects\nroot=Path('/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图')\nrepo=root/'work/codex-worktrees/latin-american-literature-map-wcd10'\nout=root/'project/internal/WCD_10_WORKSPACE/orchestration/wave-19/reentry-candidates'\ncoverage=json.loads((out/'COVERAGE.json').read_text())\nobjects=coverage['objects']\nexpected=set(coverage['closure_summary']['existing_work_ids'])|{'WCD10-B05-W027'}\nnew={'WCD10-B05-W027'}\ndb=repo/'data/master/V1_MASTER.sqlite'\nconn=sqlite3.connect(db.resolve().as_uri()+'?mode=ro',uri=True)\ntry:\n primary=classify_coverage_objects(objects,expected,new,conn)\n print(json.dumps({'verdict':'pass','input_rows':len(objects),'primary_rows':len(primary),'expected_refs':len(expected),'legacy_wrappers':sum('legacy_object_snapshot' in x for x in objects)},ensure_ascii=False))\nfinally: conn.close()\n"
+    ],
+    "cwd": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图",
+    "exit_code": 0,
+    "stdout": {
+      "path": "COVERAGE_CLASSIFICATION_STDOUT.raw",
+      "bytes": 102,
+      "sha256": "9778c43197f6c1500473927d89e521b9f6418b86cce601f582a6fd64380c6225"
+    },
+    "stderr": {
+      "path": "COVERAGE_CLASSIFICATION_STDERR.raw",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "coverage_sha256": "8b7544ae8fcee8def89940f31dc65297ed60ad6a02838ff67d06c0c560cf6fc1"
+  }
+}

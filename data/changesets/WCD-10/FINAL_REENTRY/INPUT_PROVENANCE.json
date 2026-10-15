@@ -1,0 +1,205 @@
+{
+  "task_id": "TASK-127",
+  "batch_id": "WCD-10-B05",
+  "checkpoint_directory": "FINAL_REENTRY",
+  "prepare_gate_sha256": "5e9ff08faa4ed395efbe32308889c06f882cf949ccac92ed619508a958ad3ed5",
+  "source_content_review_sha256": "57d10f9bb2f40d57ef054efafd1476676f96b2c27b115c03af98a07f42b5ae0a",
+  "controlled_append_sha256": "79381528e62ecb5f2d9eeadf26a896452067fcc99c0460e0330e667c8b4c7430",
+  "copied_files": [
+    {
+      "source": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/project/internal/WCD_10_WORKSPACE/orchestration/wave-19/reentry-candidates/AMADO0172_TO_0591_CONTROLLED_APPEND.json",
+      "destination": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/work/codex-worktrees/latin-american-literature-map-wcd10/data/changesets/WCD-10/FINAL_REENTRY/inputs/wave-19/reentry-candidates/AMADO0172_TO_0591_CONTROLLED_APPEND.json",
+      "bytes": 3709,
+      "source_sha256": "79381528e62ecb5f2d9eeadf26a896452067fcc99c0460e0330e667c8b4c7430",
+      "destination_sha256": "79381528e62ecb5f2d9eeadf26a896452067fcc99c0460e0330e667c8b4c7430",
+      "byte_identical": true
+    },
+    {
+      "source": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/project/internal/WCD_10_WORKSPACE/orchestration/wave-19/reentry-candidates/BASELINE_CLOSURE.json",
+      "destination": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/work/codex-worktrees/latin-american-literature-map-wcd10/data/changesets/WCD-10/FINAL_REENTRY/inputs/wave-19/reentry-candidates/BASELINE_CLOSURE.json",
+      "bytes": 8319,
+      "source_sha256": "36e8594eac2e81be340d4f6df4479dd2e9e82c6a8ba11637880124e79e601311",
+      "destination_sha256": "36e8594eac2e81be340d4f6df4479dd2e9e82c6a8ba11637880124e79e601311",
+      "byte_identical": true
+    },
+    {
+      "source": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/project/internal/WCD_10_WORKSPACE/orchestration/wave-19/reentry-candidates/CANDIDATES.json",
+      "destination": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/work/codex-worktrees/latin-american-literature-map-wcd10/data/changesets/WCD-10/FINAL_REENTRY/inputs/wave-19/reentry-candidates/CANDIDATES.json",
+      "bytes": 6869,
+      "source_sha256": "56d576883b7555c2e43e595264e47a558e721d16855f01bf349f4e5d157b6abb",
+      "destination_sha256": "56d576883b7555c2e43e595264e47a558e721d16855f01bf349f4e5d157b6abb",
+      "byte_identical": true
+    },
+    {
+      "source": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/project/internal/WCD_10_WORKSPACE/orchestration/wave-19/reentry-candidates/COVERAGE.json",
+      "destination": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/work/codex-worktrees/latin-american-literature-map-wcd10/data/changesets/WCD-10/FINAL_REENTRY/inputs/wave-19/reentry-candidates/COVERAGE.json",
+      "bytes": 495303,
+      "source_sha256": "8b7544ae8fcee8def89940f31dc65297ed60ad6a02838ff67d06c0c560cf6fc1",
+      "destination_sha256": "8b7544ae8fcee8def89940f31dc65297ed60ad6a02838ff67d06c0c560cf6fc1",
+      "byte_identical": true
+    },
+    {
+      "source": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/project/internal/WCD_10_WORKSPACE/orchestration/wave-19/reentry-candidates/COVERAGE_CLASSIFICATION_EXECUTION.json",
+      "destination": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/work/codex-worktrees/latin-american-literature-map-wcd10/data/changesets/WCD-10/FINAL_REENTRY/inputs/wave-19/reentry-candidates/COVERAGE_CLASSIFICATION_EXECUTION.json",
+      "bytes": 2064,
+      "source_sha256": "2cba6df64ebef1df53922b1853daf918f36f228c2c56c07df5ef14c5089c27f2",
+      "destination_sha256": "2cba6df64ebef1df53922b1853daf918f36f228c2c56c07df5ef14c5089c27f2",
+      "byte_identical": true
+    },
+    {
+      "source": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/project/internal/WCD_10_WORKSPACE/orchestration/wave-19/reentry-candidates/COVERAGE_CLASSIFICATION_STDERR.raw",
+      "destination": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/work/codex-worktrees/latin-american-literature-map-wcd10/data/changesets/WCD-10/FINAL_REENTRY/inputs/wave-19/reentry-candidates/COVERAGE_CLASSIFICATION_STDERR.raw",
+      "bytes": 0,
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "destination_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "byte_identical": true
+    },
+    {
+      "source": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/project/internal/WCD_10_WORKSPACE/orchestration/wave-19/reentry-candidates/COVERAGE_CLASSIFICATION_STDOUT.raw",
+      "destination": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/work/codex-worktrees/latin-american-literature-map-wcd10/data/changesets/WCD-10/FINAL_REENTRY/inputs/wave-19/reentry-candidates/COVERAGE_CLASSIFICATION_STDOUT.raw",
+      "bytes": 102,
+      "source_sha256": "9778c43197f6c1500473927d89e521b9f6418b86cce601f582a6fd64380c6225",
+      "destination_sha256": "9778c43197f6c1500473927d89e521b9f6418b86cce601f582a6fd64380c6225",
+      "byte_identical": true
+    },
+    {
+      "source": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/project/internal/WCD_10_WORKSPACE/orchestration/wave-19/reentry-candidates/DEDUP.json",
+      "destination": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/work/codex-worktrees/latin-american-literature-map-wcd10/data/changesets/WCD-10/FINAL_REENTRY/inputs/wave-19/reentry-candidates/DEDUP.json",
+      "bytes": 1401,
+      "source_sha256": "bbddbfa78c6c668a5dbf4592d6c8ff82e15a2051bb91856dc98cffb5a5c15888",
+      "destination_sha256": "bbddbfa78c6c668a5dbf4592d6c8ff82e15a2051bb91856dc98cffb5a5c15888",
+      "byte_identical": true
+    },
+    {
+      "source": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/project/internal/WCD_10_WORKSPACE/orchestration/wave-19/reentry-candidates/EVIDENCE_MATRIX.json",
+      "destination": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/work/codex-worktrees/latin-american-literature-map-wcd10/data/changesets/WCD-10/FINAL_REENTRY/inputs/wave-19/reentry-candidates/EVIDENCE_MATRIX.json",
+      "bytes": 2271,
+      "source_sha256": "1dfe51770897db1cab709069a62b7954d590172a3813ca30049f47147d643152",
+      "destination_sha256": "1dfe51770897db1cab709069a62b7954d590172a3813ca30049f47147d643152",
+      "byte_identical": true
+    },
+    {
+      "source": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/project/internal/WCD_10_WORKSPACE/orchestration/wave-19/reentry-candidates/ORIGINAL_B05_EVIDENCE_MATRIX.json",
+      "destination": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/work/codex-worktrees/latin-american-literature-map-wcd10/data/changesets/WCD-10/FINAL_REENTRY/inputs/wave-19/reentry-candidates/ORIGINAL_B05_EVIDENCE_MATRIX.json",
+      "bytes": 25563,
+      "source_sha256": "06de365fcc6737ef9b2f4d51ff3373733c0b6a0241f25c67c281382ffad0d482",
+      "destination_sha256": "06de365fcc6737ef9b2f4d51ff3373733c0b6a0241f25c67c281382ffad0d482",
+      "byte_identical": true
+    },
+    {
+      "source": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/project/internal/WCD_10_WORKSPACE/orchestration/wave-19/reentry-candidates/ORIGINAL_W03_DEFERRED_CANDIDATE.json",
+      "destination": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/work/codex-worktrees/latin-american-literature-map-wcd10/data/changesets/WCD-10/FINAL_REENTRY/inputs/wave-19/reentry-candidates/ORIGINAL_W03_DEFERRED_CANDIDATE.json",
+      "bytes": 15138,
+      "source_sha256": "a49cd6f1f4ddc3977077f89d0303895c6aa62020fd776c7e87e560674cac5ad4",
+      "destination_sha256": "a49cd6f1f4ddc3977077f89d0303895c6aa62020fd776c7e87e560674cac5ad4",
+      "byte_identical": true
+    },
+    {
+      "source": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/project/internal/WCD_10_WORKSPACE/orchestration/wave-19/reentry-candidates/RESULT.md",
+      "destination": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/work/codex-worktrees/latin-american-literature-map-wcd10/data/changesets/WCD-10/FINAL_REENTRY/inputs/wave-19/reentry-candidates/RESULT.md",
+      "bytes": 4130,
+      "source_sha256": "04f3da53f52fa7f8e8a17949184396b6488cbd774826abc522590f4db4b8f5ca",
+      "destination_sha256": "04f3da53f52fa7f8e8a17949184396b6488cbd774826abc522590f4db4b8f5ca",
+      "byte_identical": true
+    },
+    {
+      "source": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/project/internal/WCD_10_WORKSPACE/orchestration/wave-19/reentry-candidates/SOURCE_ACCESS_LOG.json",
+      "destination": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/work/codex-worktrees/latin-american-literature-map-wcd10/data/changesets/WCD-10/FINAL_REENTRY/inputs/wave-19/reentry-candidates/SOURCE_ACCESS_LOG.json",
+      "bytes": 1870,
+      "source_sha256": "cec2492bd8adce4a739a218c3d0b83e8a202d2183b03be86e0cbcd1f6553032d",
+      "destination_sha256": "cec2492bd8adce4a739a218c3d0b83e8a202d2183b03be86e0cbcd1f6553032d",
+      "byte_identical": true
+    },
+    {
+      "source": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/project/internal/WCD_10_WORKSPACE/orchestration/wave-19/reentry-candidates/SOURCE_REGISTRATION.json",
+      "destination": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/work/codex-worktrees/latin-american-literature-map-wcd10/data/changesets/WCD-10/FINAL_REENTRY/inputs/wave-19/reentry-candidates/SOURCE_REGISTRATION.json",
+      "bytes": 2717,
+      "source_sha256": "cb6cf05e75336d8c64cb1cb769cb55f89737124d7f78f88a9687291b40256355",
+      "destination_sha256": "cb6cf05e75336d8c64cb1cb769cb55f89737124d7f78f88a9687291b40256355",
+      "byte_identical": true
+    },
+    {
+      "source": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/project/internal/WCD_10_WORKSPACE/orchestration/wave-19/reentry-candidates/SOURCE_REUSE_FULL_ROWS.json",
+      "destination": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/work/codex-worktrees/latin-american-literature-map-wcd10/data/changesets/WCD-10/FINAL_REENTRY/inputs/wave-19/reentry-candidates/SOURCE_REUSE_FULL_ROWS.json",
+      "bytes": 1668,
+      "source_sha256": "269266724a6bffbd58a3041b0d234215f92f9cff565789cf5ddfc15d98c1cde8",
+      "destination_sha256": "269266724a6bffbd58a3041b0d234215f92f9cff565789cf5ddfc15d98c1cde8",
+      "byte_identical": true
+    },
+    {
+      "source": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/project/internal/WCD_10_WORKSPACE/orchestration/wave-19/reentry-candidates/STATUS.json",
+      "destination": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/work/codex-worktrees/latin-american-literature-map-wcd10/data/changesets/WCD-10/FINAL_REENTRY/inputs/wave-19/reentry-candidates/STATUS.json",
+      "bytes": 7704,
+      "source_sha256": "f85de7f4bd0a68ab22c8708f7c9a449147a8ceac9ff470494f9ab1bcd56b7b18",
+      "destination_sha256": "f85de7f4bd0a68ab22c8708f7c9a449147a8ceac9ff470494f9ab1bcd56b7b18",
+      "byte_identical": true
+    },
+    {
+      "source": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/project/internal/WCD_10_WORKSPACE/orchestration/wave-19/reentry-candidates/TELLES0592_READ_ONLY_RECHECK.json",
+      "destination": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/work/codex-worktrees/latin-american-literature-map-wcd10/data/changesets/WCD-10/FINAL_REENTRY/inputs/wave-19/reentry-candidates/TELLES0592_READ_ONLY_RECHECK.json",
+      "bytes": 828,
+      "source_sha256": "1004cbf208bdacf189646e9c65ee73c100c6e226fcdb5dd5145b54475314b625",
+      "destination_sha256": "1004cbf208bdacf189646e9c65ee73c100c6e226fcdb5dd5145b54475314b625",
+      "byte_identical": true
+    },
+    {
+      "source": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/project/internal/WCD_10_WORKSPACE/orchestration/wave-19/reentry-candidates/VALIDATOR_EXECUTION.json",
+      "destination": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/work/codex-worktrees/latin-american-literature-map-wcd10/data/changesets/WCD-10/FINAL_REENTRY/inputs/wave-19/reentry-candidates/VALIDATOR_EXECUTION.json",
+      "bytes": 1352,
+      "source_sha256": "2f0a960918aa18becc7bcc878e11fffcdfc5ce56a553827185b766203cea24c5",
+      "destination_sha256": "2f0a960918aa18becc7bcc878e11fffcdfc5ce56a553827185b766203cea24c5",
+      "byte_identical": true
+    },
+    {
+      "source": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/project/internal/WCD_10_WORKSPACE/orchestration/wave-19/reentry-candidates/VALIDATOR_REPORT.json",
+      "destination": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/work/codex-worktrees/latin-american-literature-map-wcd10/data/changesets/WCD-10/FINAL_REENTRY/inputs/wave-19/reentry-candidates/VALIDATOR_REPORT.json",
+      "bytes": 932,
+      "source_sha256": "7f9b63ac4d262af6fb64f2a47f0c6caba9d3fc2f378b7071167ccf6ce6c7d7c2",
+      "destination_sha256": "7f9b63ac4d262af6fb64f2a47f0c6caba9d3fc2f378b7071167ccf6ce6c7d7c2",
+      "byte_identical": true
+    },
+    {
+      "source": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/project/internal/WCD_10_WORKSPACE/orchestration/wave-19/reentry-candidates/VALIDATOR_STDERR.raw",
+      "destination": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/work/codex-worktrees/latin-american-literature-map-wcd10/data/changesets/WCD-10/FINAL_REENTRY/inputs/wave-19/reentry-candidates/VALIDATOR_STDERR.raw",
+      "bytes": 0,
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "destination_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "byte_identical": true
+    },
+    {
+      "source": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/project/internal/WCD_10_WORKSPACE/orchestration/wave-19/reentry-candidates/VALIDATOR_STDOUT.raw",
+      "destination": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/work/codex-worktrees/latin-american-literature-map-wcd10/data/changesets/WCD-10/FINAL_REENTRY/inputs/wave-19/reentry-candidates/VALIDATOR_STDOUT.raw",
+      "bytes": 933,
+      "source_sha256": "76a825eeeff2ed1a19a078a0a688424bdd6313e6a188259da79e4e1193626040",
+      "destination_sha256": "76a825eeeff2ed1a19a078a0a688424bdd6313e6a188259da79e4e1193626040",
+      "byte_identical": true
+    },
+    {
+      "source": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/project/internal/WCD_10_WORKSPACE/FINAL_REENTRY/SOURCE_CONTENT_INDEPENDENT_REVIEW.json",
+      "destination": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/work/codex-worktrees/latin-american-literature-map-wcd10/data/changesets/WCD-10/FINAL_REENTRY/inputs/parent-review/SOURCE_CONTENT_INDEPENDENT_REVIEW.json",
+      "bytes": 3910,
+      "source_sha256": "57d10f9bb2f40d57ef054efafd1476676f96b2c27b115c03af98a07f42b5ae0a",
+      "destination_sha256": "57d10f9bb2f40d57ef054efafd1476676f96b2c27b115c03af98a07f42b5ae0a",
+      "byte_identical": true
+    },
+    {
+      "source": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/project/internal/WCD_10_WORKSPACE/FINAL_REENTRY/PARENT_SOURCE_READS.json",
+      "destination": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/work/codex-worktrees/latin-american-literature-map-wcd10/data/changesets/WCD-10/FINAL_REENTRY/inputs/parent-review/PARENT_SOURCE_READS.json",
+      "bytes": 1221,
+      "source_sha256": "d34bdd336d3979770c4cf8ca297a1e73d8ee4213846596fcaa07297d95c5eacb",
+      "destination_sha256": "d34bdd336d3979770c4cf8ca297a1e73d8ee4213846596fcaa07297d95c5eacb",
+      "byte_identical": true
+    }
+  ],
+  "core_candidate_hashes": {
+    "CANDIDATES.json": "56d576883b7555c2e43e595264e47a558e721d16855f01bf349f4e5d157b6abb",
+    "COVERAGE.json": "8b7544ae8fcee8def89940f31dc65297ed60ad6a02838ff67d06c0c560cf6fc1",
+    "SOURCE_REGISTRATION.json": "cb6cf05e75336d8c64cb1cb769cb55f89737124d7f78f88a9687291b40256355",
+    "SOURCE_ACCESS_LOG.json": "cec2492bd8adce4a739a218c3d0b83e8a202d2183b03be86e0cbcd1f6553032d",
+    "EVIDENCE_MATRIX.json": "1dfe51770897db1cab709069a62b7954d590172a3813ca30049f47147d643152",
+    "DEDUP.json": "bbddbfa78c6c668a5dbf4592d6c8ff82e15a2051bb91856dc98cffb5a5c15888",
+    "AMADO0172_TO_0591_CONTROLLED_APPEND.json": "79381528e62ecb5f2d9eeadf26a896452067fcc99c0460e0330e667c8b4c7430",
+    "ORIGINAL_W03_DEFERRED_CANDIDATE.json": "a49cd6f1f4ddc3977077f89d0303895c6aa62020fd776c7e87e560674cac5ad4",
+    "ORIGINAL_B05_EVIDENCE_MATRIX.json": "06de365fcc6737ef9b2f4d51ff3373733c0b6a0241f25c67c281382ffad0d482"
+  }
+}

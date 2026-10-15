@@ -1,0 +1,110 @@
+{
+  "task_id": "TASK-110",
+  "revision": "R3",
+  "checked_at": "2026-10-03",
+  "status": "CANDIDATE_NOT_REVIEWED（R3窄修；机械自检PASS≠独立语义审核PASS）",
+  "copyright_note": "只含自撰释义与短引定位；未复制全文/封面/PDF资产；未含账号、Cookie或密钥。",
+  "checks": [
+    {
+      "check": "作者范围不变",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "coverage=9+9=18",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "source_refs闭包",
+      "result": "PASS",
+      "detail": "bad=无"
+    },
+    {
+      "check": "coverage refs合法",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "profiles/sources一一对应",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "access log覆盖26来源",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "ID格式/唯一/W04未复用",
+      "result": "PASS",
+      "detail": "total=48"
+    },
+    {
+      "check": "R1-02：W03撤book_edition/1972+boundary",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "R1-01：W09简介版本限定",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "R1-05：W10清单=2013封底",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "R1-03：S24/S25元数据亲证一致",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "R1-04：S18/S20/S26年份留空",
+      "result": "PASS",
+      "detail": "{'WCD10-B05-S18': '', 'WCD10-B05-S20': '', 'WCD10-B05-S26': ''}"
+    },
+    {
+      "check": "延续：无research_note事实",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "年份原子值",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "deferred唯一/不撞gap",
+      "result": "PASS",
+      "detail": "14项"
+    },
+    {
+      "check": "主库SHA一致",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "R2机械PASS",
+      "result": "PASS",
+      "detail": "{'source_candidates': 26, 'new_entity_candidates': 9, 'new_fact_candidates': 47, 'new_created_candidates': 9, 'extra_relationship_candidates': 1, 'deferred': 14}"
+    },
+    {
+      "check": "B05/B05_R1/根HANDOFF哈希未变",
+      "result": "PASS",
+      "detail": "两包核对通过"
+    },
+    {
+      "check": "R2-01：W09主题范围限于后续重编/1990定本，矩阵同步",
+      "result": "PASS",
+      "detail": "CANDIDATES 与 EVIDENCE_MATRIX 对应值逐字相同；无“历次版本恒常”断言。"
+    },
+    {
+      "check": "指定候选验证器真实运行",
+      "result": "PASS",
+      "detail": "实施工作区 scripts/validate_wcd10_candidates.py --repo work/codex-worktrees/latin-american-literature-map-wcd10 --report 新包/MECHANICAL_CHECK.json；exit 0，verdict=pass，26 sources/9 entities/47 facts/1 relationship/14 deferred。"
+    }
+  ],
+  "summary": "20/20 项 PASS（R2原18项结果继承；R3仅新增差量与机械验证检查）"
+}

@@ -1,0 +1,869 @@
+{
+  "schema": "wcd10-candidate-change-set-1",
+  "task_id": "TASK-120",
+  "batch_id": "WCD-10-B15",
+  "baseline_database_sha256": "651f89688eeba195a4332ee6611cc51478c2c3aeae7fd5b2391069283a0cea92",
+  "baseline_commit": "05f3372c69a54ec331d31b05d16c8288d6d3a993",
+  "status": "merged_candidate_parent_review_pending",
+  "accessed_at": "2026-10-13",
+  "public_boundary": "Research candidates only; no automatic Curation or public admission.",
+  "author_ids": [
+    "V1-ENT-0286",
+    "V1-ENT-0296",
+    "V1-ENT-0297"
+  ],
+  "sources": [
+    {
+      "candidate_id": "WCD10-B15-S002",
+      "url": "https://cvc.cervantes.es/literatura/escritores/arlt/bibliografia/bibliografia_01.htm",
+      "title": "Obras de Roberto Arlt — Centro Virtual Cervantes (Instituto Cervantes)",
+      "author_or_editor": "Centro Virtual Cervantes (Instituto Cervantes)",
+      "source_level": "A",
+      "access_status": "OPENED",
+      "locator": "实读2026-10-13，第13-54行列小说及所列出版版本；第81-108行列短篇集及版本；具体行号按作品条目定位。",
+      "usage": "支持作品题名、作者归属、体裁类别和其书目列出的版本年份；版本年份仅作书目证据。"
+    },
+    {
+      "candidate_id": "WCD10-B15-S001",
+      "url": "https://bcn.gob.ar/roberto-arlt",
+      "title": "Roberto Arlt — Biblioteca del Congreso de la Nación",
+      "author_or_editor": "Biblioteca del Congreso de la Nación",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "实读2026-10-13，第21-24行概述作品，第31-67行列出小说、短篇集与戏剧并提供若干年份。",
+      "usage": "支持作品归属、类型、有限简介及页面明确列出的年份；不推断未标年份的作品首发年。",
+      "reuse_existing_source": "SRC-0230",
+      "reuse_existing_source_disposition": "reuse_existing_source"
+    },
+    {
+      "candidate_id": "WCD10-B15-S101",
+      "url": "https://books.google.com/books/about/El_n%C3%BAcleo_del_disturbio.html?id=mgBJAAAAYAAJ",
+      "title": "El núcleo del disturbio — Google Books",
+      "author_or_editor": "Google Books; bibliographic record from Ediciones Destino and The University of Texas",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "实读2026-10-13。第26–33、45–55行：书名、作者、Ediciones Destino 2002、185页及出版社简介；第52行标明Original de Universidade do Texas。",
+      "usage": "支持题名、作者、2002年版本书目与基于出版社简介的有限内容概述；非研究论文。"
+    },
+    {
+      "candidate_id": "WCD10-B15-S102",
+      "url": "https://www.penguinlibros.com/mx/literatura-contemporanea/464207-libro-pajaros-en-la-boca-9786073851008",
+      "title": "Pájaros en la boca — Penguin Libros",
+      "author_or_editor": "Penguin Random House Grupo Editorial",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "实读2026-10-13。第449–454行作者资料列El núcleo del disturbio为2002年短篇集、Kentukis为Random House 2018年作品并记录奖项；第364、427–433行另提供既有《吃鸟的女孩》内容简介，用于语义查重。",
+      "usage": "支持Kentukis作者归属及2018书目年份、El núcleo的短篇集类型/年份；用于核查与既有作品《吃鸟的女孩》的区别。"
+    },
+    {
+      "candidate_id": "WCD10-B15-S103",
+      "url": "https://www.penguinrandomhouse.com/books/607610/kentukis-spanish-edition-by-samanta-schweblin/9786073851022/",
+      "title": "Kentukis (Spanish Edition) — Penguin Random House",
+      "author_or_editor": "Penguin Random House",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "实读2026-10-13。第345–348行书名与作者；第368–374行出版社内容说明将其称为novela并描述智能设备/家庭隐私设定；此页面所列2026为本版销售日期，不作作品首发年份。",
+      "usage": "支持作品层级、小说体裁与受限内容概要；不将本版日期误作首发年。"
+    },
+    {
+      "candidate_id": "WCD10-B15-S104",
+      "url": "https://www.planetadelibros.com/libro-el-buen-mal/414257",
+      "title": "El buen mal — PlanetadeLibros / Seix Barral",
+      "author_or_editor": "Editorial Planeta / Seix Barral",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "实读2026-10-13。第20–34行题名、作者及概要；第79–92行 ficha técnica列2025-03-05、Relatos、Seix Barral、ISBN；第94–98行作者资料。",
+      "usage": "支持作品身份、 cuentos/relatos形式、有界简介与Seix Barral版2025-03-05版本书目日期；不把版本日期扩张成首版原子年。"
+    },
+    {
+      "candidate_id": "WCD10-B15-S201",
+      "url": "https://www.anagrama-ed.es/libro/narrativas-hispanicas/bajar-es-lo-peor/9788433999429/NH_689",
+      "title": "Bajar es lo peor — Editorial Anagrama",
+      "author_or_editor": "Editorial Anagrama",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "Published 1995 and primary novel; synopsis of three adolescents and the Buenos Aires night scene. Lines 84-104, especially 88, 101-104. Edition data lines 122-145. Read 2026-10-13.",
+      "usage": "直接支持所列作者、作品身份、体裁/有界简介及页面明确列出的首版/版本日期；不将再版日期推作首版年。"
+    },
+    {
+      "candidate_id": "WCD10-B15-S202",
+      "url": "https://www.anagrama-ed.es/libro/narrativas-hispanicas/como-desaparecer-completamente/9788433946720/NH_766",
+      "title": "Cómo desaparecer completamente — Editorial Anagrama",
+      "author_or_editor": "Editorial Anagrama",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "Novel classification and synopsis at lines 61-80; 2004 publication stated at line 79; edition metadata further down. Read 2026-10-13.",
+      "usage": "直接支持所列作者、作品身份、体裁/有界简介及页面明确列出的首版/版本日期；不将再版日期推作首版年。"
+    },
+    {
+      "candidate_id": "WCD10-B15-S203",
+      "url": "https://www.anagrama-ed.es/libro/narrativas-hispanicas/un-lugar-soleado-para-gente-sombria/9788433922861/NH_735",
+      "title": "Un lugar soleado para gente sombría — Editorial Anagrama",
+      "author_or_editor": "Editorial Anagrama",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "Twelve horror stories, bounded synopsis and author at lines 67-86; edition publication date at lines 100-120. Read 2026-10-13.",
+      "usage": "直接支持所列作者、作品身份、体裁/有界简介及页面明确列出的首版/版本日期；不将再版日期推作首版年。"
+    },
+    {
+      "candidate_id": "WCD10-B15-S204",
+      "url": "https://www.anagrama-ed.es/libro/cronicas/el-otro-lado/9788433926302/CR_126",
+      "title": "El otro lado — Editorial Anagrama",
+      "author_or_editor": "Editorial Anagrama",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "Author, journalistic collection and contents at lines 61-82; edition publication date at lines 97-121. Read 2026-10-13.",
+      "usage": "直接支持所列作者、作品身份、体裁/有界简介及页面明确列出的首版/版本日期；不将再版日期推作首版年。"
+    },
+    {
+      "candidate_id": "WCD10-B15-S205",
+      "url": "https://www.anagrama-ed.es/libro/narrativas-hispanicas/alguien-camina-sobre-tu-tumba/9788433999238/NH_670",
+      "title": "Alguien camina sobre tu tumba — Editorial Anagrama",
+      "author_or_editor": "Editorial Anagrama",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "Author, travel chronicle form and cemetery visits at lines 61-84; original Argentina publication in 2014 at line 83; later edition data lines 99-123. Read 2026-10-13.",
+      "usage": "直接支持所列作者、作品身份、体裁/有界简介及页面明确列出的首版/版本日期；不将再版日期推作首版年。"
+    },
+    {
+      "candidate_id": "WCD10-B15-S206",
+      "url": "https://www.anagrama-ed.es/libro/biblioteca-de-la-memoria/la-hermana-menor/9788433908063/BM_36",
+      "title": "La hermana menor — Editorial Anagrama",
+      "author_or_editor": "Editorial Anagrama",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "Author/title and subtitle identify a portrait of Silvina Ocampo at lines 61-67; contents and approach at lines 79-83; edition date at lines 97-120. Read 2026-10-13.",
+      "usage": "直接支持所列作者、作品身份、体裁/有界简介及页面明确列出的首版/版本日期；不将再版日期推作首版年。"
+    },
+    {
+      "candidate_id": "WCD10-B15-S207",
+      "url": "https://www.anagrama-ed.es/libro/narrativas-hispanicas/las-cosas-que-perdimos-en-el-fuego/9788433998064/NH_559",
+      "title": "Las cosas que perdimos en el fuego — Editorial Anagrama",
+      "author_or_editor": "Editorial Anagrama",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "The publisher describes twelve stories and gives a bounded account of their horror/social themes at lines 78-81; 2016 publisher edition date at lines 95-119. Read 2026-10-13.",
+      "usage": "直接支持所列作者、作品身份、体裁/有界简介及页面明确列出的首版/版本日期；不将再版日期推作首版年。",
+      "disposition": "reuse_existing_source",
+      "reuse_existing_source": "SRC-0238"
+    },
+    {
+      "candidate_id": "WCD10-B15-S208",
+      "url": "https://www.anagrama-ed.es/libro/narrativas-hispanicas/nuestra-parte-de-noche/9788433998859/NH_636",
+      "title": "Nuestra parte de noche — Editorial Anagrama",
+      "author_or_editor": "Editorial Anagrama",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "Publisher directly describes the novel, father/son journey, Gaspar and the Order at lines 79-84 and 158-164; edition date 2019 at lines 101-125. Read 2026-10-13.",
+      "usage": "直接支持所列作者、作品身份、体裁/有界简介及页面明确列出的首版/版本日期；不将再版日期推作首版年。",
+      "disposition": "reuse_existing_source",
+      "reuse_existing_source": "SRC-0236"
+    },
+    {
+      "candidate_id": "WCD10-B15-S209",
+      "url": "https://www.anagrama-ed.es/libro/narrativas-hispanicas/los-peligros-de-fumar-en-la-cama/9788433998248/NH_580",
+      "title": "Los peligros de fumar en la cama — Editorial Anagrama",
+      "author_or_editor": "Editorial Anagrama",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "Publisher calls it a 12-story collection and describes bounded horror themes at lines 78-81, 157-161; edition date 2017 at lines 101-125. Read 2026-10-13.",
+      "usage": "直接支持所列作者、作品身份、体裁/有界简介及页面明确列出的首版/版本日期；不将再版日期推作首版年。",
+      "disposition": "reuse_existing_source",
+      "reuse_existing_source": "SRC-0237"
+    }
+  ],
+  "new_entities": [
+    {
+      "candidate_id": "WCD10-B15-W001",
+      "author_id": "V1-ENT-0286",
+      "entity_type": "collection",
+      "original_name": "El jorobadito",
+      "name_zh_candidate": "《小驼背》",
+      "name_policy": "工作译名仅作检索显示，原题为身份锚点；不声称正式中文译本。",
+      "rationale": "冻结库未见该作品关联；可靠图书馆/大学文化机构书目直接列出作者与作品，补入重要作品目录。",
+      "created_source_refs": [
+        "WCD10-B15-S001",
+        "WCD10-B15-S002"
+      ],
+      "facts": [
+        {
+          "field": "genre_or_form",
+          "value": "短篇小说集",
+          "source_refs": [
+            "WCD10-B15-S001",
+            "WCD10-B15-S002"
+          ],
+          "fact_candidate_id": "WCD10-B15-W001-F01"
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "阿尔特短篇小说集；塞万提斯虚拟图书馆书目列其1933年布宜诺斯艾利斯Anaconda版。",
+          "source_refs": [
+            "WCD10-B15-S001",
+            "WCD10-B15-S002"
+          ],
+          "fact_candidate_id": "WCD10-B15-W001-F02"
+        },
+        {
+          "field": "first_publication_year",
+          "value": "1933",
+          "source_refs": [
+            "WCD10-B15-S002"
+          ],
+          "fact_candidate_id": "WCD10-B15-W001-F03"
+        }
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B15-W002",
+      "author_id": "V1-ENT-0286",
+      "entity_type": "collection",
+      "original_name": "El criador de gorilas",
+      "name_zh_candidate": "《大猩猩饲养者》",
+      "name_policy": "工作译名仅作检索显示，原题为身份锚点；不声称正式中文译本。",
+      "rationale": "冻结库未见该作品关联；可靠图书馆/大学文化机构书目直接列出作者与作品，补入重要作品目录。",
+      "created_source_refs": [
+        "WCD10-B15-S001",
+        "WCD10-B15-S002"
+      ],
+      "facts": [
+        {
+          "field": "genre_or_form",
+          "value": "短篇小说集",
+          "source_refs": [
+            "WCD10-B15-S001",
+            "WCD10-B15-S002"
+          ],
+          "fact_candidate_id": "WCD10-B15-W002-F01"
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "阿尔特短篇小说集；塞万提斯虚拟图书馆书目列其1941年圣地亚哥Zig-Zag版。",
+          "source_refs": [
+            "WCD10-B15-S001",
+            "WCD10-B15-S002"
+          ],
+          "fact_candidate_id": "WCD10-B15-W002-F02"
+        },
+        {
+          "field": "first_publication_year",
+          "value": "1941",
+          "source_refs": [
+            "WCD10-B15-S002"
+          ],
+          "fact_candidate_id": "WCD10-B15-W002-F03"
+        }
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B15-W003",
+      "author_id": "V1-ENT-0286",
+      "entity_type": "work",
+      "original_name": "Trescientos millones",
+      "name_zh_candidate": "《三亿》",
+      "name_policy": "工作译名仅作检索显示，原题为身份锚点；不声称正式中文译本。",
+      "rationale": "冻结库未见该作品关联；可靠图书馆/大学文化机构书目直接列出作者与作品，补入重要作品目录。",
+      "created_source_refs": [
+        "WCD10-B15-S001",
+        "WCD10-B15-S002"
+      ],
+      "facts": [
+        {
+          "field": "genre_or_form",
+          "value": "戏剧",
+          "source_refs": [
+            "WCD10-B15-S001",
+            "WCD10-B15-S002"
+          ],
+          "fact_candidate_id": "WCD10-B15-W003-F01"
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "阿根廷国会图书馆将其列为戏剧作品，并记载1932年在人民剧院首演。",
+          "source_refs": [
+            "WCD10-B15-S001",
+            "WCD10-B15-S002"
+          ],
+          "fact_candidate_id": "WCD10-B15-W003-F02"
+        },
+        {
+          "field": "first_publication_year",
+          "value": "1932",
+          "source_refs": [
+            "WCD10-B15-S001",
+            "WCD10-B15-S002"
+          ],
+          "fact_candidate_id": "WCD10-B15-W003-F03"
+        }
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B15-W004",
+      "author_id": "V1-ENT-0286",
+      "entity_type": "work",
+      "original_name": "La isla desierta",
+      "name_zh_candidate": "《荒岛》",
+      "name_policy": "工作译名仅作检索显示，原题为身份锚点；不声称正式中文译本。",
+      "rationale": "冻结库未见该作品关联；可靠图书馆/大学文化机构书目直接列出作者与作品，补入重要作品目录。",
+      "created_source_refs": [
+        "WCD10-B15-S001",
+        "WCD10-B15-S002"
+      ],
+      "facts": [
+        {
+          "field": "genre_or_form",
+          "value": "戏剧",
+          "source_refs": [
+            "WCD10-B15-S001",
+            "WCD10-B15-S002"
+          ],
+          "fact_candidate_id": "WCD10-B15-W004-F01"
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "阿根廷国会图书馆将其列为阿尔特戏剧作品；作者页面记其1937年。",
+          "source_refs": [
+            "WCD10-B15-S001",
+            "WCD10-B15-S002"
+          ],
+          "fact_candidate_id": "WCD10-B15-W004-F02"
+        },
+        {
+          "field": "bibliographic_note",
+          "value": "国会图书馆戏剧作品目录列1937年；Centro Virtual Cervantes书目记录1950年Futuro版及1965年EUDEBA版。现有依据分别描述作品列表年份与出版版本，故不据此断言首演或首版年份。",
+          "source_refs": [
+            "WCD10-B15-S001",
+            "WCD10-B15-S002"
+          ],
+          "fact_candidate_id": "WCD10-B15-W004-F03"
+        }
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B15-W005",
+      "author_id": "V1-ENT-0286",
+      "entity_type": "work",
+      "original_name": "El amor brujo",
+      "name_zh_candidate": "《魔恋》",
+      "name_policy": "工作译名仅作检索显示，原题为身份锚点；不声称正式中文译本。",
+      "rationale": "阿根廷国会图书馆将其列为阿尔特最后一部小说并记1932年出版；CVC同时列出1932年版本，补入冻结库未见的主要小说。",
+      "created_source_refs": [
+        "WCD10-B15-S001",
+        "WCD10-B15-S002"
+      ],
+      "facts": [
+        {
+          "field": "genre_or_form",
+          "value": "小说",
+          "source_refs": [
+            "WCD10-B15-S001",
+            "WCD10-B15-S002"
+          ],
+          "fact_candidate_id": "WCD10-B15-W005-F01"
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "阿根廷国会图书馆将《El amor brujo》列为阿尔特最后一部小说，并记载其于1932年出版。",
+          "source_refs": [
+            "WCD10-B15-S001"
+          ],
+          "fact_candidate_id": "WCD10-B15-W005-F02"
+        },
+        {
+          "field": "first_publication_year",
+          "value": "1932",
+          "source_refs": [
+            "WCD10-B15-S001",
+            "WCD10-B15-S002"
+          ],
+          "fact_candidate_id": "WCD10-B15-W005-F03"
+        }
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B15-W101",
+      "author_id": "V1-ENT-0296",
+      "entity_type": "collection",
+      "original_name": "El núcleo del disturbio",
+      "name_zh_candidate": "《El núcleo del disturbio》",
+      "name_policy": "未核得正式中文译名，保留原题作为展示候选，不自行翻译题名。",
+      "rationale": "出版社集团作者页将其列作2002年短篇集，Google Books藏书页提供题名、出版社版本和封套简介；此为作者目录中缺失的早期重要作品。",
+      "created_source_refs": [
+        "WCD10-B15-S101",
+        "WCD10-B15-S102"
+      ],
+      "facts": [
+        {
+          "field": "genre_or_form",
+          "value": "短篇小说集",
+          "source_refs": [
+            "WCD10-B15-S102"
+          ],
+          "fact_candidate_id": "WCD10-B15-F101"
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "这部短篇集以列车、变形、结伴女性、行李箱中的死亡和郊区酒吧等情境，写人物试图逃离突发困境或现实裂隙。",
+          "source_refs": [
+            "WCD10-B15-S101"
+          ],
+          "fact_candidate_id": "WCD10-B15-F102"
+        },
+        {
+          "field": "first_publication_year",
+          "value": "2002",
+          "source_refs": [
+            "WCD10-B15-S101",
+            "WCD10-B15-S102"
+          ],
+          "fact_candidate_id": "WCD10-B15-F103"
+        }
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B15-W102",
+      "author_id": "V1-ENT-0296",
+      "entity_type": "work",
+      "original_name": "Kentukis",
+      "name_zh_candidate": "《Kentukis》",
+      "name_policy": "未核得正式中文译名，保留原题作为展示候选，不自行翻译题名。",
+      "rationale": "出版集团作品页直接确认作者、小说类型并提供内容简介；集团作者资料将Random House 2018列为作品版本信息。",
+      "created_source_refs": [
+        "WCD10-B15-S102",
+        "WCD10-B15-S103"
+      ],
+      "facts": [
+        {
+          "field": "genre_or_form",
+          "value": "小说",
+          "source_refs": [
+            "WCD10-B15-S103"
+          ],
+          "fact_candidate_id": "WCD10-B15-F104"
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "小说设想匿名陌生人进入不同地区他人的私人生活，借技术连接呈现窥视、亲密与信任的边界问题。",
+          "source_refs": [
+            "WCD10-B15-S103"
+          ],
+          "fact_candidate_id": "WCD10-B15-F105"
+        },
+        {
+          "field": "first_publication_year",
+          "value": "2018",
+          "source_refs": [
+            "WCD10-B15-S102"
+          ],
+          "fact_candidate_id": "WCD10-B15-F106"
+        }
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B15-W103",
+      "author_id": "V1-ENT-0296",
+      "entity_type": "collection",
+      "original_name": "El buen mal",
+      "name_zh_candidate": "《El buen mal》",
+      "name_policy": "未核得正式中文译名，保留原题作为展示候选，不自行翻译题名。",
+      "rationale": "Seix Barral直接作品页将其列为2025年出版的短篇小说集，提供六篇故事及受限内容简介。",
+      "created_source_refs": [
+        "WCD10-B15-S104"
+      ],
+      "facts": [
+        {
+          "field": "genre_or_form",
+          "value": "短篇小说集",
+          "source_refs": [
+            "WCD10-B15-S104"
+          ],
+          "fact_candidate_id": "WCD10-B15-F107"
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "这部短篇集以突如其来的陌生感扰动熟悉生活，呈现人物面对意外变化的处境。",
+          "source_refs": [
+            "WCD10-B15-S104"
+          ],
+          "fact_candidate_id": "WCD10-B15-F108"
+        },
+        {
+          "field": "bibliographic_note",
+          "value": "Seix Barral书目页将西班牙平装版出版日期列为2025年3月5日；此处仅记录该版书目日期，不推定作品首版年份。",
+          "source_refs": [
+            "WCD10-B15-S104"
+          ],
+          "fact_candidate_id": "WCD10-B15-F109"
+        }
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B15-W201",
+      "author_id": "V1-ENT-0297",
+      "entity_type": "work",
+      "original_name": "Bajar es lo peor",
+      "name_zh_candidate": "《坠落是最糟的》",
+      "name_policy": "仅作检索用工作译名，原题为身份锚点。",
+      "rationale": "出版社确认是作者首部长篇小说，直接提供出版年与情节简介。",
+      "created_source_refs": [
+        "WCD10-B15-S201"
+      ],
+      "facts": [
+        {
+          "field": "first_publication_year",
+          "value": "1995",
+          "source_refs": [
+            "WCD10-B15-S201"
+          ],
+          "fact_candidate_id": "WCD10-B15-W201-F01",
+          "author_id": "V1-ENT-0297"
+        },
+        {
+          "field": "genre_or_form",
+          "value": "长篇小说",
+          "source_refs": [
+            "WCD10-B15-S201"
+          ],
+          "fact_candidate_id": "WCD10-B15-W201-F02",
+          "author_id": "V1-ENT-0297"
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "在20世纪90年代夜色弥漫的布宜诺斯艾利斯，Facundo、Narval与Carolina三个年轻人卷入毒品、暴力、毁灭与爱情。",
+          "source_refs": [
+            "WCD10-B15-S201"
+          ],
+          "fact_candidate_id": "WCD10-B15-W201-F03",
+          "author_id": "V1-ENT-0297"
+        }
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B15-W202",
+      "author_id": "V1-ENT-0297",
+      "entity_type": "work",
+      "original_name": "Cómo desaparecer completamente",
+      "name_zh_candidate": "《如何彻底消失》",
+      "name_policy": "仅作检索用工作译名，原题为身份锚点。",
+      "rationale": "出版社直接确认小说体裁、2004年出版及人物/情节。",
+      "created_source_refs": [
+        "WCD10-B15-S202"
+      ],
+      "facts": [
+        {
+          "field": "first_publication_year",
+          "value": "2004",
+          "source_refs": [
+            "WCD10-B15-S202"
+          ],
+          "fact_candidate_id": "WCD10-B15-W202-F01",
+          "author_id": "V1-ENT-0297"
+        },
+        {
+          "field": "genre_or_form",
+          "value": "小说",
+          "source_refs": [
+            "WCD10-B15-S202"
+          ],
+          "fact_candidate_id": "WCD10-B15-W202-F02",
+          "author_id": "V1-ENT-0297"
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "十六岁的Matías Kovac借由哥哥留下的日记和音乐寻找离开边缘生活的路径；小说以其家庭处境和阿根廷经济危机后的社会失序为背景。",
+          "source_refs": [
+            "WCD10-B15-S202"
+          ],
+          "fact_candidate_id": "WCD10-B15-W202-F03",
+          "author_id": "V1-ENT-0297"
+        }
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B15-W203",
+      "author_id": "V1-ENT-0297",
+      "entity_type": "collection",
+      "original_name": "Un lugar soleado para gente sombría",
+      "name_zh_candidate": "《阴郁者的阳光之地》",
+      "name_policy": "仅作检索用工作译名，原题为身份锚点。",
+      "rationale": "出版社直接确认由十二篇恐怖故事组成并给出多篇有限情节说明。",
+      "created_source_refs": [
+        "WCD10-B15-S203"
+      ],
+      "facts": [
+        {
+          "field": "genre_or_form",
+          "value": "恐怖短篇小说集",
+          "source_refs": [
+            "WCD10-B15-S203"
+          ],
+          "fact_candidate_id": "WCD10-B15-W203-F01",
+          "author_id": "V1-ENT-0297"
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "十二篇故事让鬼魂、失踪者、乡镇衰败和日常生活中的怪异威胁彼此交织。",
+          "source_refs": [
+            "WCD10-B15-S203"
+          ],
+          "fact_candidate_id": "WCD10-B15-W203-F02",
+          "author_id": "V1-ENT-0297"
+        },
+        {
+          "field": "bibliographic_note",
+          "value": "Anagrama页面列本版出版日为2024-03-06；记为该出版社版本日期。",
+          "source_refs": [
+            "WCD10-B15-S203"
+          ],
+          "fact_candidate_id": "WCD10-B15-W203-F03",
+          "author_id": "V1-ENT-0297"
+        }
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B15-W204",
+      "author_id": "V1-ENT-0297",
+      "entity_type": "collection",
+      "original_name": "El otro lado",
+      "name_zh_candidate": "《另一侧》",
+      "name_policy": "仅作检索用工作译名，原题为身份锚点。",
+      "rationale": "出版社明确称其汇集作者新闻写作，并概述涉及文学、音乐与个人生活的文章。",
+      "created_source_refs": [
+        "WCD10-B15-S204"
+      ],
+      "facts": [
+        {
+          "field": "genre_or_form",
+          "value": "新闻特写与个人随笔集",
+          "source_refs": [
+            "WCD10-B15-S204"
+          ],
+          "fact_candidate_id": "WCD10-B15-W204-F01",
+          "author_id": "V1-ENT-0297"
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "汇集Enríquez的新闻写作，穿插文学与音乐人物肖像、个人经历和文化观察。",
+          "source_refs": [
+            "WCD10-B15-S204"
+          ],
+          "fact_candidate_id": "WCD10-B15-W204-F02",
+          "author_id": "V1-ENT-0297"
+        },
+        {
+          "field": "bibliographic_note",
+          "value": "Anagrama页面列本版出版日为2022-10-05；记为该出版社版本日期。",
+          "source_refs": [
+            "WCD10-B15-S204"
+          ],
+          "fact_candidate_id": "WCD10-B15-W204-F03",
+          "author_id": "V1-ENT-0297"
+        }
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B15-W205",
+      "author_id": "V1-ENT-0297",
+      "entity_type": "collection",
+      "original_name": "Alguien camina sobre tu tumba",
+      "name_zh_candidate": "《有人走过你的坟墓》",
+      "name_policy": "仅作检索用工作译名，原题为身份锚点。",
+      "rationale": "出版社确认其为旅行纪事，并明确说明阿根廷初版于2014年及后续增补版本。",
+      "created_source_refs": [
+        "WCD10-B15-S205"
+      ],
+      "facts": [
+        {
+          "field": "first_publication_year",
+          "value": "2014",
+          "source_refs": [
+            "WCD10-B15-S205"
+          ],
+          "fact_candidate_id": "WCD10-B15-W205-F01",
+          "author_id": "V1-ENT-0297"
+        },
+        {
+          "field": "genre_or_form",
+          "value": "旅行纪事",
+          "source_refs": [
+            "WCD10-B15-S205"
+          ],
+          "fact_candidate_id": "WCD10-B15-W205-F02",
+          "author_id": "V1-ENT-0297"
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "作者走访巴黎、伦敦、布拉格等地的墓园，以旅行见闻、历史细节和个人叙述记录各地墓地。",
+          "source_refs": [
+            "WCD10-B15-S205"
+          ],
+          "fact_candidate_id": "WCD10-B15-W205-F03",
+          "author_id": "V1-ENT-0297"
+        },
+        {
+          "field": "bibliographic_note",
+          "value": "Anagrama指出本书于2014年先由阿根廷Galerna出版社出版；该版增补行程，墓园数从16处增至24处。",
+          "source_refs": [
+            "WCD10-B15-S205"
+          ],
+          "fact_candidate_id": "WCD10-B15-W205-F04",
+          "author_id": "V1-ENT-0297"
+        }
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B15-W206",
+      "author_id": "V1-ENT-0297",
+      "entity_type": "work",
+      "original_name": "La hermana menor",
+      "name_zh_candidate": "《小妹妹》",
+      "name_policy": "仅作检索用工作译名，原题为身份锚点。",
+      "rationale": "出版社副标题将其称为Silvina Ocampo肖像，并说明作者依托书目资料与证言展开叙述。",
+      "created_source_refs": [
+        "WCD10-B15-S206"
+      ],
+      "facts": [
+        {
+          "field": "genre_or_form",
+          "value": "文学人物传记/肖像",
+          "source_refs": [
+            "WCD10-B15-S206"
+          ],
+          "fact_candidate_id": "WCD10-B15-W206-F01",
+          "author_id": "V1-ENT-0297"
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "以书目资料及友人、评论者、亲属和遗嘱执行人的证言，勾勒阿根廷作家Silvina Ocampo的生平与文学形象。",
+          "source_refs": [
+            "WCD10-B15-S206"
+          ],
+          "fact_candidate_id": "WCD10-B15-W206-F02",
+          "author_id": "V1-ENT-0297"
+        },
+        {
+          "field": "bibliographic_note",
+          "value": "Anagrama页面列本版出版日为2018-06-13；未据此推断原作首版年。",
+          "source_refs": [
+            "WCD10-B15-S206"
+          ],
+          "fact_candidate_id": "WCD10-B15-W206-F03",
+          "author_id": "V1-ENT-0297"
+        }
+      ]
+    }
+  ],
+  "existing_facts": [
+    {
+      "candidate_id": "WCD10-B15-F201",
+      "subject_id": "V1-ENT-0302",
+      "field": "one_sentence_summary",
+      "value": "十二篇故事将暴力、身体、社会边缘处境与日常生活中的恐怖交织起来，人物包括试图帮助他人的学生、社工、警察和导游。",
+      "source_refs": [
+        "WCD10-B15-S207"
+      ],
+      "boundary": "仅补出版社直接概述的作品内容；完整保留既有事实V1-FCT-0802至V1-FCT-0804及来源链。",
+      "author_id": "V1-ENT-0297"
+    },
+    {
+      "candidate_id": "WCD10-B15-F202",
+      "subject_id": "V1-ENT-0303",
+      "field": "one_sentence_summary",
+      "value": "一对父子穿越军事独裁时期的阿根廷；Gaspar被卷入一个借灵媒与黑暗力量追求永生的秘密组织。",
+      "source_refs": [
+        "WCD10-B15-S208"
+      ],
+      "boundary": "只补出版社简介直接支持的情节；2019只保留为奖项年，首发年份缺口维持开放。",
+      "author_id": "V1-ENT-0297"
+    },
+    {
+      "candidate_id": "WCD10-B15-F203",
+      "subject_id": "V1-ENT-0304",
+      "field": "one_sentence_summary",
+      "value": "十二篇故事以鬼魂、女巫、降灵会和死者归来等恐怖传统为材料，关注潜伏于日常生活中的怪异、欲望与执念。",
+      "source_refs": [
+        "WCD10-B15-S209"
+      ],
+      "boundary": "只补出版社对故事集的直接概述；不推断首版年，原有首发年份缺口保持。",
+      "author_id": "V1-ENT-0297"
+    },
+    {
+      "candidate_id": "WCD10-B15-F204",
+      "subject_id": "V1-ENT-0304",
+      "field": "bibliographic_note",
+      "value": "Anagrama页面列出该出版社版本的出版日为2017-02-01；现有来源未据此确认作品原始首版年份。",
+      "source_refs": [
+        "WCD10-B15-S209"
+      ],
+      "boundary": "该书目注记只记录出版社版本日，不替代或关闭首发年份缺口。",
+      "author_id": "V1-ENT-0297"
+    }
+  ],
+  "extra_relationships": [],
+  "deferred": [
+    {
+      "author_id": "V1-ENT-0297",
+      "key": "WCD10:B15:ENRIQUEZ:remaining-bibliography",
+      "title": "Mariana Enríquez其余未逐项核实的出版物及非虚构作品",
+      "reason": "Anagrama作者目录列出更多出版物；本包聚焦已有主要小说/故事集、出版社直接概述的作品及代表性非虚构作品，未逐项打开其余作品页或排查全集。",
+      "disposition": "deferred"
+    },
+    {
+      "author_id": "V1-ENT-0297",
+      "key": "WCD10:B15:ENRIQUEZ:coauthor-works",
+      "title": "与其他创作者共同署名的图文作品及改编物件",
+      "reason": "EDUVIM页面表明Chicos que vuelven存在图文版且含Laura Dattoli参与；本包未将该版与既有短作建模为同一对象或拆分参与角色，保留待后续专门核实。",
+      "disposition": "deferred"
+    }
+  ],
+  "source_scope_decisions": [
+    {
+      "candidate_ids": [
+        "WCD10-B15-S001"
+      ],
+      "related_existing_source": "SRC-0230",
+      "disposition": "reuse_existing_source",
+      "notes": "Normalized URL exactly matches frozen source; preserve existing B-level metadata unchanged."
+    },
+    {
+      "candidate_ids": [
+        "WCD10-B15-S207"
+      ],
+      "related_existing_source": "SRC-0238",
+      "disposition": "reuse",
+      "notes": "Anagrama的Las cosas que perdimos en el fuego作品页与冻结来源SRC-0238 canonical URL相同；复用原来源，不改等级或元数据。"
+    },
+    {
+      "candidate_ids": [
+        "WCD10-B15-S208"
+      ],
+      "related_existing_source": "SRC-0236",
+      "disposition": "reuse",
+      "notes": "Anagrama的Nuestra parte de noche作品页与冻结来源SRC-0236 canonical URL相同；复用原来源，不改等级或元数据。"
+    },
+    {
+      "candidate_ids": [
+        "WCD10-B15-S209"
+      ],
+      "related_existing_source": "SRC-0237",
+      "disposition": "reuse",
+      "notes": "Anagrama的Los peligros de fumar en la cama作品页与冻结来源SRC-0237 canonical URL相同；复用原来源，不改等级或元数据。"
+    }
+  ],
+  "author_auxiliary_fields": [
+    {
+      "author_id": "V1-ENT-0296",
+      "fields": {
+        "author_status": "candidate_only",
+        "author_public_boundary": "Research candidates only; no automatic Curation or public admission."
+      }
+    },
+    {
+      "author_id": "V1-ENT-0297",
+      "fields": {
+        "author_status": "candidate_only",
+        "author_public_boundary": "Research candidates only; no automatic Curation or public admission."
+      }
+    }
+  ]
+}

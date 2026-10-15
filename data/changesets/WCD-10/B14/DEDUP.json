@@ -1,0 +1,266 @@
+{
+  "schema": "wcd10-b14-dedup-merged-1",
+  "task_id": "TASK-119",
+  "batch_id": "WCD-10-B14",
+  "baseline_database_sha256": "c7b5951beb2e2a30053b08d84e07931547b8909a1e5a180086fafeedebaea677",
+  "author_packages": [
+    {
+      "author_id": "V1-ENT-0274",
+      "source_directory": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/project/internal/WCD_10_WORKSPACE/orchestration/wave-11/aira/R3",
+      "dedup": {
+        "schema": "wcd10-b14-dedup-1",
+        "task_id": "TASK-119",
+        "batch_id": "WCD-10-B14",
+        "baseline_database_sha256": "c7b5951beb2e2a30053b08d84e07931547b8909a1e5a180086fafeedebaea677",
+        "author_id": "V1-ENT-0274",
+        "baseline_existing_work_ids": [
+          "V1-ENT-0281",
+          "V1-ENT-0282",
+          "V1-ENT-0283"
+        ],
+        "works": [
+          {
+            "candidate_id": "WCD10-B14-W001",
+            "kind": "entity",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B14-W002",
+            "kind": "entity",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B14-W003",
+            "kind": "entity",
+            "disposition": "new",
+            "matches": []
+          }
+        ],
+        "sources": [
+          {
+            "candidate_id": "WCD10-B14-S001",
+            "url": "https://www.anagrama-ed.es/libro/narrativas-hispanicas/varamo/9788433924995/NH_328",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B14-S002",
+            "url": "https://www.ndbooks.com/book/how-i-became-a-nun/",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B14-S003",
+            "url": "https://www.penguinlibros.com/es/literatura-contemporanea/28960-libro-un-episodio-en-la-vida-del-pintor-viajero-9788439711919",
+            "disposition": "new",
+            "matches": []
+          }
+        ],
+        "notes": [
+          "现有作品逐项从B14冻结库CREATED边取得；已查Anagrama作者目录所列作品不据此建立版本对象。"
+        ]
+      }
+    },
+    {
+      "author_id": "V1-ENT-0284",
+      "source_directory": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/project/internal/WCD_10_WORKSPACE/orchestration/wave-11/puig/FINAL",
+      "dedup": {
+        "task_id": "TASK-119",
+        "batch_id": "WCD-10-B14",
+        "author_id": "V1-ENT-0284",
+        "baseline_works": [
+          {
+            "entity_id": "V1-ENT-0287",
+            "original_name": "El beso de la mujer araña"
+          },
+          {
+            "entity_id": "V1-ENT-0288",
+            "original_name": "La traición de Rita Hayworth"
+          },
+          {
+            "entity_id": "V1-ENT-0289",
+            "original_name": "Boquitas pintadas"
+          }
+        ],
+        "candidate_works": [
+          {
+            "candidate_id": "WCD10-B14-W101",
+            "original_name": "The Buenos Aires Affair",
+            "outcome": "no exact or title-variant duplicate found among frozen linked works"
+          },
+          {
+            "candidate_id": "WCD10-B14-W102",
+            "original_name": "Pubis angelical",
+            "outcome": "no exact or title-variant duplicate found among frozen linked works"
+          },
+          {
+            "candidate_id": "WCD10-B14-W103",
+            "original_name": "Maldición eterna a quien lea estas páginas",
+            "outcome": "no exact or title-variant duplicate found among frozen linked works"
+          },
+          {
+            "candidate_id": "WCD10-B14-W104",
+            "original_name": "Sangre de amor correspondido",
+            "outcome": "no exact or title-variant duplicate found among frozen linked works"
+          },
+          {
+            "candidate_id": "WCD10-B14-W105",
+            "original_name": "Cae la noche tropical",
+            "outcome": "no exact or title-variant duplicate found among frozen linked works"
+          }
+        ],
+        "checked_against": "B14 frozen baseline inventory and SQLite author linked-work roster."
+      }
+    },
+    {
+      "author_id": "V1-ENT-0285",
+      "source_directory": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/project/internal/WCD_10_WORKSPACE/orchestration/wave-11/ocampo/R2",
+      "dedup": {
+        "task_id": "TASK-119",
+        "author_id": "V1-ENT-0285",
+        "baseline_sha256": "c7b5951beb2e2a30053b08d84e07931547b8909a1e5a180086fafeedebaea677",
+        "old_roster": [
+          {
+            "entity_id": "V1-ENT-0290",
+            "original_name": "Viaje olvidado",
+            "decision": "preserve_existing"
+          },
+          {
+            "entity_id": "V1-ENT-0291",
+            "original_name": "La furia",
+            "decision": "preserve_existing"
+          },
+          {
+            "entity_id": "V1-ENT-0292",
+            "original_name": "Las invitadas",
+            "decision": "preserve_existing"
+          }
+        ],
+        "candidate_roster": [
+          {
+            "candidate_id": "WCD10-B14-W201",
+            "original_name": "Autobiografía de Irene",
+            "decision": "title and entity-layer scan found no same-layer collision in frozen author inventory; validator also scans complete master"
+          },
+          {
+            "candidate_id": "WCD10-B14-W202",
+            "original_name": "Los días de la noche",
+            "decision": "title and entity-layer scan found no same-layer collision in frozen author inventory; validator also scans complete master"
+          },
+          {
+            "candidate_id": "WCD10-B14-W203",
+            "original_name": "Y así sucesivamente",
+            "decision": "title and entity-layer scan found no same-layer collision in frozen author inventory; validator also scans complete master"
+          },
+          {
+            "candidate_id": "WCD10-B14-W204",
+            "original_name": "Cornelia frente al espejo",
+            "decision": "title and entity-layer scan found no same-layer collision in frozen author inventory; validator also scans complete master"
+          },
+          {
+            "candidate_id": "WCD10-B14-W205",
+            "original_name": "Enumeración de la patria",
+            "decision": "title and entity-layer scan found no same-layer collision in frozen author inventory; validator also scans complete master"
+          },
+          {
+            "candidate_id": "WCD10-B14-W206",
+            "original_name": "Espacios métricos",
+            "decision": "title and entity-layer scan found no same-layer collision in frozen author inventory; validator also scans complete master"
+          }
+        ],
+        "coauthor_attachment_objects_not_new_candidates": [
+          "V1-ENT-0493",
+          "V1-ENT-0494"
+        ],
+        "validator_verdict": "pass",
+        "validator_dedup": [
+          {
+            "candidate_id": "WCD10-B14-S201",
+            "kind": "source",
+            "disposition": "reuse",
+            "matches": [
+              "SRC-0227"
+            ]
+          },
+          {
+            "candidate_id": "WCD10-B14-S202",
+            "kind": "source",
+            "disposition": "reuse",
+            "matches": [
+              "SRC-0228"
+            ]
+          },
+          {
+            "candidate_id": "WCD10-B14-S203",
+            "kind": "source",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B14-W201",
+            "kind": "entity",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B14-W202",
+            "kind": "entity",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B14-W203",
+            "kind": "entity",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B14-W204",
+            "kind": "entity",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B14-W205",
+            "kind": "entity",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B14-W206",
+            "kind": "entity",
+            "disposition": "new",
+            "matches": []
+          }
+        ],
+        "same_layer_title_collisions": [],
+        "source_reuse_matches": [
+          {
+            "candidate_id": "WCD10-B14-S201",
+            "kind": "source",
+            "disposition": "reuse",
+            "matches": [
+              "SRC-0227"
+            ]
+          },
+          {
+            "candidate_id": "WCD10-B14-S202",
+            "kind": "source",
+            "disposition": "reuse",
+            "matches": [
+              "SRC-0228"
+            ]
+          },
+          {
+            "candidate_id": "WCD10-B14-S203",
+            "kind": "source",
+            "disposition": "new",
+            "matches": []
+          }
+        ]
+      }
+    }
+  ]
+}

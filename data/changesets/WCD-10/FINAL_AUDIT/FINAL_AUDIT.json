@@ -1,0 +1,89 @@
+{
+  "task_id": "TASK-127",
+  "scope": "61fixed authors /21original batches +required backfills +15type corrections",
+  "date": "2026-10-15",
+  "verdict": "PASS_BOUNDED_DEC070",
+  "database_sha256": "7ee4188756f4f18683f5e2e979d44d31f63c4682d782007af0e7c3ad7091a8ad",
+  "schema": "0.4",
+  "research_version": "1.5.0 development",
+  "web_data_schema": "0.3",
+  "web_product": "0.6.0 Development",
+  "public_release": "PAUSED",
+  "table_totals": {
+    "metadata": 16,
+    "sources": 795,
+    "source_holds": 4,
+    "entities": 796,
+    "entity_id_map": 794,
+    "relationships": 770,
+    "relationship_evidence": 1166,
+    "relationship_sources": 1195,
+    "relation_holds": 51,
+    "relation_hold_evidence": 58,
+    "content_cards": 824,
+    "facts": 2686,
+    "fact_sources": 3323,
+    "card_facts": 2665,
+    "card_sources": 1596,
+    "gaps": 691,
+    "n3_decisions": 4,
+    "legacy_relation_groups": 15,
+    "migration_log": 58
+  },
+  "cumulative_wcd10": {
+    "objects": 419,
+    "facts": 1659,
+    "relationships": 436
+  },
+  "resolved_findings": [
+    {
+      "id": "TASK127-F01",
+      "resolution": "0058_wcd10_collection_type_correction.sql",
+      "entity_ids": [
+        "V1-ENT-0460",
+        "V1-ENT-0465",
+        "V1-ENT-0489",
+        "V1-ENT-0494",
+        "V1-ENT-0573",
+        "V1-ENT-0574",
+        "V1-ENT-0575",
+        "V1-ENT-0576",
+        "V1-ENT-0577",
+        "V1-ENT-0578",
+        "V1-ENT-0579",
+        "V1-ENT-0580",
+        "V1-ENT-0581",
+        "V1-ENT-0582",
+        "V1-ENT-0583"
+      ],
+      "entities": 15,
+      "cards": 15,
+      "stable_ids_facts_sources_roles_preserved": true
+    }
+  ],
+  "unresolved_blockers": [],
+  "retained_boundaries": [
+    "691reasonable gaps/holds and further research remain; not exhaustive oeuvre",
+    "W03 year semantics unresolved;1972French/1974Spanish versions in note; no atomic year",
+    "B02/B04 B-source research_note_only preserved as exact historical behavior",
+    "No new source access claimed; historical ELEM success and later timeout kept distinct",
+    "Research-only; no new curation admission/public expansion"
+  ],
+  "validation": {
+    "migrations": 58,
+    "tables": 19,
+    "json_csv_xlsx_each_tables": 19,
+    "repeat_files": 22,
+    "public_files": 177,
+    "python_tests": 173
+  },
+  "evidence_files": [
+    "AUTHOR_MATRIX.json",
+    "AUTHOR_MATRIX.md",
+    "BATCH_EVIDENCE_HASHES.json",
+    "INITIAL_FINDINGS.json",
+    "VALIDATION.json"
+  ],
+  "predecessor_audit_sha256": "6456aa3ec3b9bd42b92413f53187e3ecbf7d2465e35e0af8e8d1c5910ecc6148",
+  "governance": "ROOT ignored TASKS updated; DECISIONS/Charter unchanged because existingSchema/DEC070 applied; current README/masterREADME/CHANGELOG synchronized; no GitHub merge or release authorized."
+}

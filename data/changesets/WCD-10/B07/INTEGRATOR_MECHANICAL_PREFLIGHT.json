@@ -1,0 +1,59 @@
+{
+  "status": "INTEGRATOR_CANDIDATE_PREFLIGHT_PASS_PARENT_REVIEW_PENDING",
+  "counts": {
+    "sources": 105,
+    "new_entities": 54,
+    "existing_facts": 24,
+    "nested_facts": 176,
+    "proposed_facts_total": 200,
+    "created_relationships": 54,
+    "extra_relationships": 0,
+    "deferred": 41,
+    "coverage_objects": 63,
+    "source_profiles": 105,
+    "source_scope_decisions": 39,
+    "created_role_overrides": 4
+  },
+  "checks": {
+    "three_input_reviews_exact_PASS": true,
+    "all_manifest_file_hashes_verified": true,
+    "baseline_database_sha256": "ea9e01b41b4faaef727a6159b6d34ba7d9121a9992fda1cb993c6574f91f6a27",
+    "baseline_matches_frozen": true,
+    "role_overrides_exact": [
+      "WCD10-B07-W117",
+      "WCD10-B07-W119",
+      "WCD10-B07-W120",
+      "WCD10-B07-W217"
+    ],
+    "author_order": [
+      "V1-ENT-0186",
+      "V1-ENT-0198",
+      "V1-ENT-0199"
+    ],
+    "no_extra_relationships": true,
+    "root_database_sha256": "a8c54e3c0e04a347f310d7f0f969dfba758f575008fa64c1789e43b26bf378cc"
+  },
+  "validator": {
+    "status": "PASS",
+    "exit_code": 0,
+    "verdict": "pass",
+    "errors": [],
+    "counts": {
+      "source_candidates": 105,
+      "new_entity_candidates": 54,
+      "new_fact_candidates": 200,
+      "new_created_candidates": 54,
+      "extra_relationship_candidates": 0,
+      "deferred": 41
+    },
+    "report_path": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/work/codex-worktrees/latin-american-literature-map-wcd10/data/changesets/WCD-10/B07/INTEGRATOR_VALIDATOR.json",
+    "report_sha256": "d3656e0027531a70b25c925213cc2883eae0396333fc700a93ecc1fa6f37df0e"
+  },
+  "source_accounting": {
+    "referenced_candidate_source_ids": 96,
+    "explicit_existing_source_reuses": 8,
+    "deferred_only_source_candidates": 9,
+    "eligible_new_source_records": 88,
+    "parent_gap_estimate_after_dedup": 76
+  }
+}

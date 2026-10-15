@@ -1,0 +1,152 @@
+{
+  "verdict": "PASS",
+  "reviewer": "Codex-parent-independent-review",
+  "reviewed_at": "2026-10-13",
+  "task_id": "TASK-119",
+  "baseline_database_sha256": "c7b5951beb2e2a30053b08d84e07931547b8909a1e5a180086fafeedebaea677",
+  "candidate_sha256": "df2aa6e83ab5ce005d1bcabb23e7262e77109b6e138bc808971e7d8996490242",
+  "original_candidate_sha256": "f71d7493d2e8f069e56a26fd8ce0e36a67d3ed085cc72bd60416d967cacb23e4",
+  "scope": "Three required missing CREATED pairs on existing0493/0494, role-limited coauthorship/compiler only; no new entities/facts/cards or source mutations",
+  "checks": [
+    {
+      "candidate_id": "WCD10-B14-R201",
+      "same_object_closure_matches_frozen_inventory": true,
+      "card_facts_matches_frozen_sqlite": true,
+      "pair_absent": true,
+      "old_bioy_edge_preserved": true
+    },
+    {
+      "candidate_id": "WCD10-B14-R202",
+      "same_object_closure_matches_frozen_inventory": true,
+      "card_facts_matches_frozen_sqlite": true,
+      "pair_absent": true,
+      "old_bioy_edge_preserved": true
+    },
+    {
+      "candidate_id": "WCD10-B14-R203",
+      "same_object_closure_matches_frozen_inventory": true,
+      "card_facts_matches_frozen_sqlite": true,
+      "pair_absent": true,
+      "old_bioy_edge_preserved": true
+    }
+  ],
+  "formal_sources": {
+    "SRC-0154": {
+      "source_id": "SRC-0154",
+      "temporary_id": "B04-SRC-0154",
+      "title": "Adolfo Bioy Casares. Cronología de obras",
+      "original_title": "Cronología de obras",
+      "author_or_editor": "Biblioteca Virtual Miguel de Cervantes",
+      "translator": "",
+      "publisher": "Instituto Cervantes",
+      "publication_year": "持续更新（2026-08-20 访问）",
+      "isbn": "",
+      "format": "web_page",
+      "page_count": "",
+      "language": "es",
+      "source_level": "B",
+      "processing_status": "access_pass",
+      "source_task": "WEB-CE-B04",
+      "public_content_scope": "三部小说的书目年份",
+      "local_asset_status": "remote_only",
+      "persistent_id": "",
+      "canonical_url": "https://www.cervantesvirtual.com/portales/adolfo_bioy_casares/autor_cronologia/"
+    },
+    "SRC-0519": {
+      "source_id": "SRC-0519",
+      "temporary_id": "WCD10-B07-S147",
+      "title": "Los que aman, odian",
+      "original_title": "Los que aman, odian",
+      "author_or_editor": "Silvina Ocampo; Adolfo Bioy Casares",
+      "translator": "",
+      "publisher": "Emecé Editores",
+      "publication_year": "",
+      "isbn": "",
+      "format": "publisher_press_sheet_pdf",
+      "page_count": "",
+      "language": "es",
+      "source_level": "B",
+      "processing_status": "access_pass",
+      "source_task": "WCD-10-B07",
+      "public_content_scope": "Research-only candidate; no Curation admission or public release.",
+      "local_asset_status": "remote_only",
+      "persistent_id": "",
+      "canonical_url": "https://proapi.planetadelibros.com.ar/descargas/sala-prensa-libro/sinopsis-y-biografia/219757/los-que-aman-odian.pdf?_locale=ar"
+    },
+    "SRC-0478": {
+      "source_id": "SRC-0478",
+      "temporary_id": "WCD10-B07-S101",
+      "title": "Bibliografía de Adolfo Bioy Casares",
+      "original_title": "Bibliografía de Adolfo Bioy Casares",
+      "author_or_editor": "Carlos Dámaso Martínez",
+      "translator": "",
+      "publisher": "Biblioteca Virtual Miguel de Cervantes",
+      "publication_year": "",
+      "isbn": "",
+      "format": "institutional_bibliography_web_page",
+      "page_count": "",
+      "language": "es",
+      "source_level": "B",
+      "processing_status": "access_pass",
+      "source_task": "WCD-10-B07",
+      "public_content_scope": "Research-only candidate; no Curation admission or public release.",
+      "local_asset_status": "remote_only",
+      "persistent_id": "",
+      "canonical_url": "https://www.cervantesvirtual.com/portales/adolfo_bioy_casares/su_obra_bibliografia/"
+    },
+    "SRC-0512": {
+      "source_id": "SRC-0512",
+      "temporary_id": "WCD10-B07-S140",
+      "title": "Biografía de Adolfo Bioy Casares",
+      "original_title": "Biografía de Adolfo Bioy Casares",
+      "author_or_editor": "Carlos Dámaso Martínez",
+      "translator": "",
+      "publisher": "Biblioteca Virtual Miguel de Cervantes",
+      "publication_year": "",
+      "isbn": "",
+      "format": "web_page",
+      "page_count": "",
+      "language": "es",
+      "source_level": "B",
+      "processing_status": "access_pass",
+      "source_task": "WCD-10-B07",
+      "public_content_scope": "Research-only candidate; no Curation admission or public release.",
+      "local_asset_status": "remote_only",
+      "persistent_id": "",
+      "canonical_url": "https://www.cervantesvirtual.com/portales/adolfo_bioy_casares/autor_apunte/"
+    }
+  },
+  "actual_source_reads": [
+    {
+      "source_id": "SRC-0154",
+      "locator": "1940/1946 annual entries, lines175-199",
+      "support": "Anthology triad and Ocampo/Bioy novel joint attribution"
+    },
+    {
+      "source_id": "SRC-0478",
+      "locator": "Collaboration section lines88-90",
+      "support": "selection and translation with Silvina Ocampo and Jorge Luis Borges"
+    },
+    {
+      "source_id": "SRC-0512",
+      "locator": "Biographical account lines59-60",
+      "support": "1940 anthology collaboration; corroboration only"
+    },
+    {
+      "source_id": "SRC-0519",
+      "locator": "Publisher PDF p1 lines19-24,29-31,37-38",
+      "support": "Ocampo/Bioy coauthorship and anthology compiler triad; year conflict not changed"
+    }
+  ],
+  "mechanical_corrections": [
+    {
+      "source_id": "SRC-0512",
+      "candidates": [
+        "WCD10-B14-R202",
+        "WCD10-B14-R203"
+      ],
+      "change": "locator178 -> actual59-60; supports removes independent-source claim; no literary/role/refs change"
+    }
+  ],
+  "boundary": "Original R2 stays frozen; final derivative above is sole approved supplemental input; source rows remain immutable. 1945/1946 already preserved old bibliography not adjudicated."
+}

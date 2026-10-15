@@ -1,0 +1,4849 @@
+{
+  "task_id": "TASK-115",
+  "batch_id": "WCD-10-B10",
+  "baseline_database_sha256": "41f895012a71cec9cab831e1717e5f3ec0306100d95acf2ac34c9eccac5a4d3b",
+  "scope": "Merged B10 coverage; frozen author packages concatenated in Martí R2, Parra root, Pizarnik R1 order. Research candidate only.",
+  "author_descriptions": {},
+  "research_policy_by_author": {
+    "V1-ENT-0225": "DEC-070：普通作品书目/简介一项直接机构来源即可；合理缺口保留。",
+    "V1-ENT-0236": "One reliable directly supporting institutional source is sufficient for ordinary bibliography, attribution, and concise descriptions; no exhaustive coverage claim.",
+    "V1-ENT-0237": "单一可靠直接来源足以支持普通书目、作者归属和简介；机构评论保留等级，合理缺口保留。"
+  },
+  "objects": [
+    {
+      "object_ref": "V1-ENT-0232",
+      "entity": {
+        "entity_id": "V1-ENT-0232",
+        "entity_type": "collection",
+        "name_zh": "《伊斯梅利约》",
+        "original_name": "Ismaelillo",
+        "canonical_status": "candidate",
+        "origin_count": "2",
+        "origin_refs": "CAND-B06-MARTI-W01",
+        "normalization_basis": "B06 Cervantes Virtual bibliography and Ismaelillo study",
+        "issue_codes": "NONE"
+      },
+      "bibliography": "按 B10 baseline inventory 原样保全现有书目事实。",
+      "description": "本诗集由面向儿子的抒情诗篇组成，诗中多次直接呼唤儿子并写父子亲情。",
+      "research_status": "institutional_commentary",
+      "research_refs": [
+        "WCD10-B10-S010"
+      ],
+      "old_facts": [
+        {
+          "fact": {
+            "fact_id": "V1-FCT-0554",
+            "origin_material_id": "WEB-CE-B06",
+            "card_id": "V1-CARD-0121",
+            "subject_id": "V1-ENT-0232",
+            "fact_field": "entity_layer",
+            "value_text": "collection",
+            "material_class": "metadata",
+            "origin_id": "SRC-0187",
+            "confidence": "high",
+            "admission_status": "candidate_for_staging_review",
+            "usage_note": "作品层级与来源书目形态保持一致。"
+          },
+          "source_chain": [
+            {
+              "fact_id": "V1-FCT-0554",
+              "source_id": "SRC-0187",
+              "source_title": "Traductores hispanoamericanos — José Martí"
+            }
+          ]
+        },
+        {
+          "fact": {
+            "fact_id": "V1-FCT-0555",
+            "origin_material_id": "WEB-CE-B06",
+            "card_id": "V1-CARD-0121",
+            "subject_id": "V1-ENT-0232",
+            "fact_field": "first_publication_year",
+            "value_text": "1882",
+            "material_class": "bibliographic",
+            "origin_id": "SRC-0187",
+            "confidence": "high",
+            "admission_status": "candidate_for_staging_review",
+            "usage_note": "Cervantes Virtual 研究直接记录 Ismaelillo（1882）；本批只作诗集书目。"
+          },
+          "source_chain": [
+            {
+              "fact_id": "V1-FCT-0555",
+              "source_id": "SRC-0187",
+              "source_title": "Traductores hispanoamericanos — José Martí"
+            }
+          ]
+        },
+        {
+          "fact": {
+            "fact_id": "V1-FCT-0556",
+            "origin_material_id": "WEB-CE-B06",
+            "card_id": "V1-CARD-0121",
+            "subject_id": "V1-ENT-0232",
+            "fact_field": "bibliographic_note",
+            "value_text": "Cervantes Virtual 作者页直接记录 Ismaelillo（1882）；本批只作诗集书目。",
+            "material_class": "bibliographic",
+            "origin_id": "SRC-0187",
+            "confidence": "high",
+            "admission_status": "candidate_for_staging_review",
+            "usage_note": "来源支持原文题名、形态与年份；不据此推导主题、影响或文学地位。"
+          },
+          "source_chain": [
+            {
+              "fact_id": "V1-FCT-0556",
+              "source_id": "SRC-0187",
+              "source_title": "Traductores hispanoamericanos — José Martí"
+            }
+          ]
+        }
+      ],
+      "cards": [
+        {
+          "card_id": "V1-CARD-0121",
+          "origin_card_id": "",
+          "subject_id": "V1-ENT-0232",
+          "card_type": "collection",
+          "title_zh": "《伊斯梅利约》",
+          "author_label": "何塞·马蒂",
+          "original_title": "Ismaelillo",
+          "country_or_region": "古巴",
+          "language": "es",
+          "period_bucket": "1882",
+          "genre_or_form": "诗集",
+          "input_layer": "WEB-CE-B06",
+          "source_minimum_status": "meets",
+          "issue_code": "NONE",
+          "content_markdown": "### 《伊斯梅利约》｜Ismaelillo — Cervantes Virtual 资料记录 1882 年出版；中文展示名服务读者识别。"
+        }
+      ],
+      "card_sources": [
+        {
+          "card_source_id": "V1-CS-0234",
+          "origin_matrix_id": "",
+          "card_id": "V1-CARD-0121",
+          "source_id": "SRC-0183",
+          "source_level": "B",
+          "source_role": "both",
+          "bibliographic_support": "yes",
+          "research_support": "yes",
+          "independent_source_key": "SRC-0183",
+          "usage_status": "used",
+          "issue_code": "NONE"
+        },
+        {
+          "card_source_id": "V1-CS-0235",
+          "origin_matrix_id": "",
+          "card_id": "V1-CARD-0121",
+          "source_id": "SRC-0187",
+          "source_level": "B",
+          "source_role": "both",
+          "bibliographic_support": "yes",
+          "research_support": "yes",
+          "independent_source_key": "SRC-0187",
+          "usage_status": "used",
+          "issue_code": "NONE"
+        }
+      ],
+      "relations": [
+        {
+          "relationship_id": "V1-REL-0158",
+          "origin_layer": "WEB-CE-B06",
+          "origin_relation_group_id": "CAND-B06-0158",
+          "subject_id": "V1-ENT-0225",
+          "relation_type": "CREATED",
+          "object_id": "V1-ENT-0232",
+          "description_zh": "V1-ENT-0225 创作 Ismaelillo",
+          "confidence": "high",
+          "review_status": "accepted",
+          "upstream_review_status": "WEB-CE-B06",
+          "evidence_count": "1",
+          "issue_code": "NONE"
+        }
+      ],
+      "relationship_sources": [
+        {
+          "relationship_id": "V1-REL-0158",
+          "source_id": "SRC-0187"
+        }
+      ],
+      "relationship_evidence": [
+        {
+          "evidence_id": "V1-EV-0183",
+          "relationship_id": "V1-REL-0158",
+          "origin_evidence_id": "CAND-B06-0158",
+          "source_id": "SRC-0187",
+          "source_title": "Traductores hispanoamericanos — José Martí",
+          "locator": "",
+          "evidence_note": "机构来源直接支持作者—作品书目或作者—国家身份关联；本批不扩展解释性关系。",
+          "confidence": "high",
+          "evidence_status": "eligible_evidence",
+          "evidence_origin": "WEB-CE-B06"
+        }
+      ],
+      "source_objects": [
+        {
+          "source_id": "SRC-0183",
+          "temporary_id": "B06-SRC-0183",
+          "title": "Los monstruos del latinoamericanismo arielista: variaciones del apetito en la periferia neocolonial",
+          "original_title": "Los monstruos del latinoamericanismo arielista",
+          "author_or_editor": "Biblioteca Virtual Miguel de Cervantes",
+          "translator": "",
+          "publisher": "Biblioteca Virtual Miguel de Cervantes",
+          "publication_year": "",
+          "isbn": "",
+          "format": "web_page",
+          "page_count": "",
+          "language": "es",
+          "source_level": "B",
+          "processing_status": "access_pass",
+          "source_task": "WEB-CE-B06",
+          "public_content_scope": "José Martí 1853–1895 与古巴思想语境；出生城市、职业和作品书目改由 SRC-0187 支撑",
+          "local_asset_status": "remote_only",
+          "persistent_id": "",
+          "canonical_url": "https://www.cervantesvirtual.com/obra-visor/los-monstruos-del-latinoamericanismo-arielista-variaciones-del-apetito-en-la-periferia-neocolonial/html/1cbb2714-8b3b-407a-adb0-42b16db79e0a_13.html"
+        },
+        {
+          "source_id": "SRC-0187",
+          "temporary_id": "B06-SRC-0187",
+          "title": "Traductores hispanoamericanos — José Martí",
+          "original_title": "José Martí",
+          "author_or_editor": "Biblioteca Virtual Miguel de Cervantes",
+          "translator": "",
+          "publisher": "Biblioteca Virtual Miguel de Cervantes",
+          "publication_year": "",
+          "isbn": "",
+          "format": "web_page",
+          "page_count": "",
+          "language": "es",
+          "source_level": "B",
+          "processing_status": "access_pass",
+          "source_task": "WEB-CE-B06",
+          "public_content_scope": "José Martí La Habana 1853–1895、诗人/作家/政治人物身份、Ismaelillo 1882、Versos sencillos 1891",
+          "local_asset_status": "remote_only",
+          "persistent_id": "",
+          "canonical_url": "https://www.cervantesvirtual.com/portales/traducciones_hispanoamericanas/traductores/"
+        }
+      ],
+      "fresh_review": {
+        "source_refs": [
+          "WCD10-B10-S010"
+        ],
+        "description": "R1新增一句受直接来源支持的普通内容介绍；所有旧事实和来源闭包保全。"
+      },
+      "remaining": "仍可扩充作品层研究；本批不声称学术穷尽。",
+      "source_author_id": "V1-ENT-0225",
+      "candidate_facts": [
+        {
+          "candidate_id": "WCD10-B10-F001",
+          "subject_id": "V1-ENT-0232",
+          "field": "one_sentence_summary",
+          "value": "本诗集由面向儿子的抒情诗篇组成，诗中多次直接呼唤儿子并写父子亲情。",
+          "source_refs": [
+            "WCD10-B10-S010"
+          ],
+          "boundary": "仅新增普通作品简介；所有基线实体、事实、内容卡、关系和来源链原样保留。"
+        }
+      ]
+    },
+    {
+      "object_ref": "V1-ENT-0233",
+      "entity": {
+        "entity_id": "V1-ENT-0233",
+        "entity_type": "collection",
+        "name_zh": "《纯朴的诗》",
+        "original_name": "Versos sencillos",
+        "canonical_status": "candidate",
+        "origin_count": "2",
+        "origin_refs": "CAND-B06-MARTI-W02",
+        "normalization_basis": "B06 Cervantes Virtual chronology and bibliography",
+        "issue_codes": "NONE"
+      },
+      "bibliography": "按 B10 baseline inventory 原样保全现有书目事实。",
+      "description": "这些短诗以简洁明白的语言书写伦理理想、友情与个人悲痛。",
+      "research_status": "institutional_commentary",
+      "research_refs": [
+        "WCD10-B10-S008"
+      ],
+      "old_facts": [
+        {
+          "fact": {
+            "fact_id": "V1-FCT-0557",
+            "origin_material_id": "WEB-CE-B06",
+            "card_id": "V1-CARD-0122",
+            "subject_id": "V1-ENT-0233",
+            "fact_field": "entity_layer",
+            "value_text": "collection",
+            "material_class": "metadata",
+            "origin_id": "SRC-0185",
+            "confidence": "high",
+            "admission_status": "candidate_for_staging_review",
+            "usage_note": "作品层级与来源书目形态保持一致。"
+          },
+          "source_chain": [
+            {
+              "fact_id": "V1-FCT-0557",
+              "source_id": "SRC-0185",
+              "source_title": "Las letras hispanoamericanas en el siglo XIX"
+            }
+          ]
+        },
+        {
+          "fact": {
+            "fact_id": "V1-FCT-0558",
+            "origin_material_id": "WEB-CE-B06",
+            "card_id": "V1-CARD-0122",
+            "subject_id": "V1-ENT-0233",
+            "fact_field": "first_publication_year",
+            "value_text": "1891",
+            "material_class": "bibliographic",
+            "origin_id": "SRC-0185",
+            "confidence": "high",
+            "admission_status": "candidate_for_staging_review",
+            "usage_note": "Cervantes Virtual 年表列出 Versos sencillos（1891）；本批只作诗集书目。"
+          },
+          "source_chain": [
+            {
+              "fact_id": "V1-FCT-0558",
+              "source_id": "SRC-0185",
+              "source_title": "Las letras hispanoamericanas en el siglo XIX"
+            }
+          ]
+        },
+        {
+          "fact": {
+            "fact_id": "V1-FCT-0559",
+            "origin_material_id": "WEB-CE-B06",
+            "card_id": "V1-CARD-0122",
+            "subject_id": "V1-ENT-0233",
+            "fact_field": "bibliographic_note",
+            "value_text": "Cervantes Virtual 年表列出 Versos sencillos（1891）；本批只作诗集书目。",
+            "material_class": "bibliographic",
+            "origin_id": "SRC-0185",
+            "confidence": "high",
+            "admission_status": "candidate_for_staging_review",
+            "usage_note": "来源支持原文题名、形态与年份；不据此推导主题、影响或文学地位。"
+          },
+          "source_chain": [
+            {
+              "fact_id": "V1-FCT-0559",
+              "source_id": "SRC-0185",
+              "source_title": "Las letras hispanoamericanas en el siglo XIX"
+            }
+          ]
+        }
+      ],
+      "cards": [
+        {
+          "card_id": "V1-CARD-0122",
+          "origin_card_id": "",
+          "subject_id": "V1-ENT-0233",
+          "card_type": "collection",
+          "title_zh": "《纯朴的诗》",
+          "author_label": "何塞·马蒂",
+          "original_title": "Versos sencillos",
+          "country_or_region": "古巴",
+          "language": "es",
+          "period_bucket": "1891",
+          "genre_or_form": "诗集",
+          "input_layer": "WEB-CE-B06",
+          "source_minimum_status": "meets",
+          "issue_code": "NONE",
+          "content_markdown": "### 《纯朴的诗》｜Versos sencillos — Cervantes Virtual 年表记录 1891 年；作品保持 collection 层级。"
+        }
+      ],
+      "card_sources": [
+        {
+          "card_source_id": "V1-CS-0236",
+          "origin_matrix_id": "",
+          "card_id": "V1-CARD-0122",
+          "source_id": "SRC-0183",
+          "source_level": "B",
+          "source_role": "both",
+          "bibliographic_support": "yes",
+          "research_support": "yes",
+          "independent_source_key": "SRC-0183",
+          "usage_status": "used",
+          "issue_code": "NONE"
+        },
+        {
+          "card_source_id": "V1-CS-0237",
+          "origin_matrix_id": "",
+          "card_id": "V1-CARD-0122",
+          "source_id": "SRC-0185",
+          "source_level": "B",
+          "source_role": "both",
+          "bibliographic_support": "yes",
+          "research_support": "yes",
+          "independent_source_key": "SRC-0185",
+          "usage_status": "used",
+          "issue_code": "NONE"
+        }
+      ],
+      "relations": [
+        {
+          "relationship_id": "V1-REL-0159",
+          "origin_layer": "WEB-CE-B06",
+          "origin_relation_group_id": "CAND-B06-0159",
+          "subject_id": "V1-ENT-0225",
+          "relation_type": "CREATED",
+          "object_id": "V1-ENT-0233",
+          "description_zh": "V1-ENT-0225 创作 Versos sencillos",
+          "confidence": "high",
+          "review_status": "accepted",
+          "upstream_review_status": "WEB-CE-B06",
+          "evidence_count": "1",
+          "issue_code": "NONE"
+        }
+      ],
+      "relationship_sources": [
+        {
+          "relationship_id": "V1-REL-0159",
+          "source_id": "SRC-0185"
+        }
+      ],
+      "relationship_evidence": [
+        {
+          "evidence_id": "V1-EV-0184",
+          "relationship_id": "V1-REL-0159",
+          "origin_evidence_id": "CAND-B06-0159",
+          "source_id": "SRC-0185",
+          "source_title": "Las letras hispanoamericanas en el siglo XIX",
+          "locator": "",
+          "evidence_note": "机构来源直接支持作者—作品书目或作者—国家身份关联；本批不扩展解释性关系。",
+          "confidence": "high",
+          "evidence_status": "eligible_evidence",
+          "evidence_origin": "WEB-CE-B06"
+        }
+      ],
+      "source_objects": [
+        {
+          "source_id": "SRC-0183",
+          "temporary_id": "B06-SRC-0183",
+          "title": "Los monstruos del latinoamericanismo arielista: variaciones del apetito en la periferia neocolonial",
+          "original_title": "Los monstruos del latinoamericanismo arielista",
+          "author_or_editor": "Biblioteca Virtual Miguel de Cervantes",
+          "translator": "",
+          "publisher": "Biblioteca Virtual Miguel de Cervantes",
+          "publication_year": "",
+          "isbn": "",
+          "format": "web_page",
+          "page_count": "",
+          "language": "es",
+          "source_level": "B",
+          "processing_status": "access_pass",
+          "source_task": "WEB-CE-B06",
+          "public_content_scope": "José Martí 1853–1895 与古巴思想语境；出生城市、职业和作品书目改由 SRC-0187 支撑",
+          "local_asset_status": "remote_only",
+          "persistent_id": "",
+          "canonical_url": "https://www.cervantesvirtual.com/obra-visor/los-monstruos-del-latinoamericanismo-arielista-variaciones-del-apetito-en-la-periferia-neocolonial/html/1cbb2714-8b3b-407a-adb0-42b16db79e0a_13.html"
+        },
+        {
+          "source_id": "SRC-0185",
+          "temporary_id": "B06-SRC-0185",
+          "title": "Las letras hispanoamericanas en el siglo XIX",
+          "original_title": "Las letras hispanoamericanas en el siglo XIX",
+          "author_or_editor": "Biblioteca Virtual Miguel de Cervantes",
+          "translator": "",
+          "publisher": "Biblioteca Virtual Miguel de Cervantes",
+          "publication_year": "",
+          "isbn": "",
+          "format": "web_page",
+          "page_count": "",
+          "language": "es",
+          "source_level": "B",
+          "processing_status": "access_pass",
+          "source_task": "WEB-CE-B06",
+          "public_content_scope": "Versos sencillos 与 Nuestra América 1891 年份",
+          "local_asset_status": "remote_only",
+          "persistent_id": "",
+          "canonical_url": "https://www.cervantesvirtual.com/obra-visor/las-letras-hispanoamericanas-en-el-siglo-xix--0/html/ff2fae94-82b1-11df-acc7-002185ce6064_5.html"
+        }
+      ],
+      "fresh_review": {
+        "source_refs": [
+          "WCD10-B10-S008"
+        ],
+        "description": "R1新增一句受直接来源支持的普通内容介绍；所有旧事实和来源闭包保全。"
+      },
+      "remaining": "仍可扩充作品层研究；本批不声称学术穷尽。",
+      "source_author_id": "V1-ENT-0225",
+      "candidate_facts": [
+        {
+          "candidate_id": "WCD10-B10-F002",
+          "subject_id": "V1-ENT-0233",
+          "field": "one_sentence_summary",
+          "value": "这些短诗以简洁明白的语言书写伦理理想、友情与个人悲痛。",
+          "source_refs": [
+            "WCD10-B10-S008"
+          ],
+          "boundary": "仅新增普通作品简介；不改写基线已记录的1891年书目事实。"
+        }
+      ]
+    },
+    {
+      "object_ref": "V1-ENT-0234",
+      "entity": {
+        "entity_id": "V1-ENT-0234",
+        "entity_type": "work",
+        "name_zh": "《我们的美洲》",
+        "original_name": "Nuestra América",
+        "canonical_status": "candidate",
+        "origin_count": "2",
+        "origin_refs": "CAND-B06-MARTI-W03",
+        "normalization_basis": "B06 Cervantes Virtual chronology and bibliography; essay layer",
+        "issue_codes": "NONE"
+      },
+      "bibliography": "按 B10 baseline inventory 原样保全现有书目事实。",
+      "description": "这篇抒情政论文章借历史与现实分析阐述Martí对拉丁美洲社会政治及其未来的思考。",
+      "research_status": "institutional_commentary",
+      "research_refs": [
+        "WCD10-B10-S009"
+      ],
+      "old_facts": [
+        {
+          "fact": {
+            "fact_id": "V1-FCT-0560",
+            "origin_material_id": "WEB-CE-B06",
+            "card_id": "V1-CARD-0123",
+            "subject_id": "V1-ENT-0234",
+            "fact_field": "entity_layer",
+            "value_text": "work",
+            "material_class": "metadata",
+            "origin_id": "SRC-0185",
+            "confidence": "high",
+            "admission_status": "candidate_for_staging_review",
+            "usage_note": "作品层级与来源书目形态保持一致。"
+          },
+          "source_chain": [
+            {
+              "fact_id": "V1-FCT-0560",
+              "source_id": "SRC-0185",
+              "source_title": "Las letras hispanoamericanas en el siglo XIX"
+            }
+          ]
+        },
+        {
+          "fact": {
+            "fact_id": "V1-FCT-0561",
+            "origin_material_id": "WEB-CE-B06",
+            "card_id": "V1-CARD-0123",
+            "subject_id": "V1-ENT-0234",
+            "fact_field": "first_publication_year",
+            "value_text": "1891",
+            "material_class": "bibliographic",
+            "origin_id": "SRC-0185",
+            "confidence": "high",
+            "admission_status": "candidate_for_staging_review",
+            "usage_note": "Cervantes Virtual 年表列出 Nuestra América（1891）；本批按 essay work 层级记录。"
+          },
+          "source_chain": [
+            {
+              "fact_id": "V1-FCT-0561",
+              "source_id": "SRC-0185",
+              "source_title": "Las letras hispanoamericanas en el siglo XIX"
+            }
+          ]
+        },
+        {
+          "fact": {
+            "fact_id": "V1-FCT-0562",
+            "origin_material_id": "WEB-CE-B06",
+            "card_id": "V1-CARD-0123",
+            "subject_id": "V1-ENT-0234",
+            "fact_field": "bibliographic_note",
+            "value_text": "Cervantes Virtual 年表列出 Nuestra América（1891）；本批按 essay work 层级记录。",
+            "material_class": "bibliographic",
+            "origin_id": "SRC-0185",
+            "confidence": "high",
+            "admission_status": "candidate_for_staging_review",
+            "usage_note": "来源支持原文题名、形态与年份；不据此推导主题、影响或文学地位。"
+          },
+          "source_chain": [
+            {
+              "fact_id": "V1-FCT-0562",
+              "source_id": "SRC-0185",
+              "source_title": "Las letras hispanoamericanas en el siglo XIX"
+            }
+          ]
+        }
+      ],
+      "cards": [
+        {
+          "card_id": "V1-CARD-0123",
+          "origin_card_id": "",
+          "subject_id": "V1-ENT-0234",
+          "card_type": "work",
+          "title_zh": "《我们的美洲》",
+          "author_label": "何塞·马蒂",
+          "original_title": "Nuestra América",
+          "country_or_region": "古巴",
+          "language": "es",
+          "period_bucket": "1891",
+          "genre_or_form": "随笔",
+          "input_layer": "WEB-CE-B06",
+          "source_minimum_status": "meets",
+          "issue_code": "NONE",
+          "content_markdown": "### 《我们的美洲》｜Nuestra América — 机构年表记录 1891 年文本；本批记录 essay 书目，不扩写政治影响关系。"
+        }
+      ],
+      "card_sources": [
+        {
+          "card_source_id": "V1-CS-0238",
+          "origin_matrix_id": "",
+          "card_id": "V1-CARD-0123",
+          "source_id": "SRC-0183",
+          "source_level": "B",
+          "source_role": "both",
+          "bibliographic_support": "yes",
+          "research_support": "yes",
+          "independent_source_key": "SRC-0183",
+          "usage_status": "used",
+          "issue_code": "NONE"
+        },
+        {
+          "card_source_id": "V1-CS-0239",
+          "origin_matrix_id": "",
+          "card_id": "V1-CARD-0123",
+          "source_id": "SRC-0185",
+          "source_level": "B",
+          "source_role": "both",
+          "bibliographic_support": "yes",
+          "research_support": "yes",
+          "independent_source_key": "SRC-0185",
+          "usage_status": "used",
+          "issue_code": "NONE"
+        }
+      ],
+      "relations": [
+        {
+          "relationship_id": "V1-REL-0160",
+          "origin_layer": "WEB-CE-B06",
+          "origin_relation_group_id": "CAND-B06-0160",
+          "subject_id": "V1-ENT-0225",
+          "relation_type": "CREATED",
+          "object_id": "V1-ENT-0234",
+          "description_zh": "V1-ENT-0225 创作 Nuestra América",
+          "confidence": "high",
+          "review_status": "accepted",
+          "upstream_review_status": "WEB-CE-B06",
+          "evidence_count": "1",
+          "issue_code": "NONE"
+        }
+      ],
+      "relationship_sources": [
+        {
+          "relationship_id": "V1-REL-0160",
+          "source_id": "SRC-0185"
+        }
+      ],
+      "relationship_evidence": [
+        {
+          "evidence_id": "V1-EV-0185",
+          "relationship_id": "V1-REL-0160",
+          "origin_evidence_id": "CAND-B06-0160",
+          "source_id": "SRC-0185",
+          "source_title": "Las letras hispanoamericanas en el siglo XIX",
+          "locator": "",
+          "evidence_note": "机构来源直接支持作者—作品书目或作者—国家身份关联；本批不扩展解释性关系。",
+          "confidence": "high",
+          "evidence_status": "eligible_evidence",
+          "evidence_origin": "WEB-CE-B06"
+        }
+      ],
+      "source_objects": [
+        {
+          "source_id": "SRC-0183",
+          "temporary_id": "B06-SRC-0183",
+          "title": "Los monstruos del latinoamericanismo arielista: variaciones del apetito en la periferia neocolonial",
+          "original_title": "Los monstruos del latinoamericanismo arielista",
+          "author_or_editor": "Biblioteca Virtual Miguel de Cervantes",
+          "translator": "",
+          "publisher": "Biblioteca Virtual Miguel de Cervantes",
+          "publication_year": "",
+          "isbn": "",
+          "format": "web_page",
+          "page_count": "",
+          "language": "es",
+          "source_level": "B",
+          "processing_status": "access_pass",
+          "source_task": "WEB-CE-B06",
+          "public_content_scope": "José Martí 1853–1895 与古巴思想语境；出生城市、职业和作品书目改由 SRC-0187 支撑",
+          "local_asset_status": "remote_only",
+          "persistent_id": "",
+          "canonical_url": "https://www.cervantesvirtual.com/obra-visor/los-monstruos-del-latinoamericanismo-arielista-variaciones-del-apetito-en-la-periferia-neocolonial/html/1cbb2714-8b3b-407a-adb0-42b16db79e0a_13.html"
+        },
+        {
+          "source_id": "SRC-0185",
+          "temporary_id": "B06-SRC-0185",
+          "title": "Las letras hispanoamericanas en el siglo XIX",
+          "original_title": "Las letras hispanoamericanas en el siglo XIX",
+          "author_or_editor": "Biblioteca Virtual Miguel de Cervantes",
+          "translator": "",
+          "publisher": "Biblioteca Virtual Miguel de Cervantes",
+          "publication_year": "",
+          "isbn": "",
+          "format": "web_page",
+          "page_count": "",
+          "language": "es",
+          "source_level": "B",
+          "processing_status": "access_pass",
+          "source_task": "WEB-CE-B06",
+          "public_content_scope": "Versos sencillos 与 Nuestra América 1891 年份",
+          "local_asset_status": "remote_only",
+          "persistent_id": "",
+          "canonical_url": "https://www.cervantesvirtual.com/obra-visor/las-letras-hispanoamericanas-en-el-siglo-xix--0/html/ff2fae94-82b1-11df-acc7-002185ce6064_5.html"
+        }
+      ],
+      "fresh_review": {
+        "source_refs": [
+          "WCD10-B10-S009"
+        ],
+        "description": "R1新增一句受直接来源支持的普通内容介绍；所有旧事实和来源闭包保全。"
+      },
+      "remaining": "仍可扩充作品层研究；本批不声称学术穷尽。",
+      "source_author_id": "V1-ENT-0225",
+      "candidate_facts": [
+        {
+          "candidate_id": "WCD10-B10-F003",
+          "subject_id": "V1-ENT-0234",
+          "field": "one_sentence_summary",
+          "value": "这篇抒情政论文章借历史与现实分析阐述Martí对拉丁美洲社会政治及其未来的思考。",
+          "source_refs": [
+            "WCD10-B10-S009"
+          ],
+          "boundary": "仅新增普通作品简介；不改写基线已有的题名、体裁、年份或来源。"
+        }
+      ]
+    },
+    {
+      "object_ref": "V1-ENT-0376",
+      "entity": {
+        "entity_id": "V1-ENT-0376",
+        "entity_type": "collection",
+        "name_zh": "《自由诗》",
+        "original_name": "Versos libres",
+        "canonical_status": "candidate",
+        "origin_count": "2",
+        "origin_refs": "WCD07A-W03",
+        "normalization_basis": "Two independently authored studies establish the posthumous 1913 poetry collection; Chinese is a display gloss, not a claimed edition",
+        "issue_codes": "PROVISIONAL-ZH-DISPLAY"
+      },
+      "bibliography": "按 B10 baseline inventory 原样保全现有书目事实。",
+      "description": "基线内容卡及关联按原值保全；本批只补充其他作品对象。",
+      "research_status": "catalog_only",
+      "research_refs": [],
+      "old_facts": [
+        {
+          "fact": {
+            "fact_id": "V1-FCT-1015",
+            "origin_material_id": "WCD07A-F011",
+            "card_id": "V1-CARD-0258",
+            "subject_id": "V1-ENT-0376",
+            "fact_field": "entity_layer",
+            "value_text": "collection",
+            "material_class": "metadata",
+            "origin_id": "WCD07A-W03",
+            "confidence": "high",
+            "admission_status": "batch_retained_candidate",
+            "usage_note": "posthumous original collection"
+          },
+          "source_chain": [
+            {
+              "fact_id": "V1-FCT-1015",
+              "source_id": "SRC-0306",
+              "source_title": "Tradición y modernidad en los Versos libres"
+            },
+            {
+              "fact_id": "V1-FCT-1015",
+              "source_id": "SRC-0307",
+              "source_title": "Introducción a la literatura cubana"
+            }
+          ]
+        },
+        {
+          "fact": {
+            "fact_id": "V1-FCT-1016",
+            "origin_material_id": "WCD07A-F012",
+            "card_id": "V1-CARD-0258",
+            "subject_id": "V1-ENT-0376",
+            "fact_field": "first_publication_year",
+            "value_text": "1913",
+            "material_class": "bibliographic",
+            "origin_id": "WCD07A-W03",
+            "confidence": "high",
+            "admission_status": "batch_retained_candidate",
+            "usage_note": "posthumous publication"
+          },
+          "source_chain": [
+            {
+              "fact_id": "V1-FCT-1016",
+              "source_id": "SRC-0306",
+              "source_title": "Tradición y modernidad en los Versos libres"
+            },
+            {
+              "fact_id": "V1-FCT-1016",
+              "source_id": "SRC-0307",
+              "source_title": "Introducción a la literatura cubana"
+            }
+          ]
+        },
+        {
+          "fact": {
+            "fact_id": "V1-FCT-1017",
+            "origin_material_id": "WCD07A-F013",
+            "card_id": "V1-CARD-0258",
+            "subject_id": "V1-ENT-0376",
+            "fact_field": "genre_or_form",
+            "value_text": "诗集",
+            "material_class": "bibliographic",
+            "origin_id": "WCD07A-W03",
+            "confidence": "high",
+            "admission_status": "batch_retained_candidate",
+            "usage_note": "original collection"
+          },
+          "source_chain": [
+            {
+              "fact_id": "V1-FCT-1017",
+              "source_id": "SRC-0306",
+              "source_title": "Tradición y modernidad en los Versos libres"
+            },
+            {
+              "fact_id": "V1-FCT-1017",
+              "source_id": "SRC-0307",
+              "source_title": "Introducción a la literatura cubana"
+            }
+          ]
+        },
+        {
+          "fact": {
+            "fact_id": "V1-FCT-1018",
+            "origin_material_id": "WCD07A-F014",
+            "card_id": "V1-CARD-0258",
+            "subject_id": "V1-ENT-0376",
+            "fact_field": "bibliographic_note",
+            "value_text": "诗作写于作者生前，几乎全部约作于1882年，并于1913年身后出版。",
+            "material_class": "bibliographic_note",
+            "origin_id": "WCD07A-W03",
+            "confidence": "high",
+            "admission_status": "batch_retained_candidate",
+            "usage_note": "composition and publication kept distinct"
+          },
+          "source_chain": [
+            {
+              "fact_id": "V1-FCT-1018",
+              "source_id": "SRC-0306",
+              "source_title": "Tradición y modernidad en los Versos libres"
+            },
+            {
+              "fact_id": "V1-FCT-1018",
+              "source_id": "SRC-0307",
+              "source_title": "Introducción a la literatura cubana"
+            }
+          ]
+        },
+        {
+          "fact": {
+            "fact_id": "V1-FCT-1019",
+            "origin_material_id": "WCD07A-F015",
+            "card_id": "V1-CARD-0258",
+            "subject_id": "V1-ENT-0376",
+            "fact_field": "story_premise",
+            "value_text": "诗集以无韵十一音节诗及强烈跨行、意象构成其形式特征。",
+            "material_class": "scholarly_paraphrase",
+            "origin_id": "WCD07A-W03",
+            "confidence": "medium",
+            "admission_status": "batch_retained_candidate",
+            "usage_note": "no movement relation inferred"
+          },
+          "source_chain": [
+            {
+              "fact_id": "V1-FCT-1019",
+              "source_id": "SRC-0307",
+              "source_title": "Introducción a la literatura cubana"
+            }
+          ]
+        }
+      ],
+      "cards": [
+        {
+          "card_id": "V1-CARD-0258",
+          "origin_card_id": "WCD07A-W03",
+          "subject_id": "V1-ENT-0376",
+          "card_type": "collection",
+          "title_zh": "《自由诗》",
+          "author_label": "何塞·马蒂",
+          "original_title": "Versos libres",
+          "country_or_region": "古巴",
+          "language": "es",
+          "period_bucket": "1913",
+          "genre_or_form": "诗集",
+          "input_layer": "WCD-07A",
+          "source_minimum_status": "meets",
+          "issue_code": "PROVISIONAL-ZH-DISPLAY",
+          "content_markdown": "### 《自由诗》｜Versos libres\\n\\n- 对象类型：`collection`｜首版：1913（身后出版）｜体裁：诗集\\n- 研究基线：中文名仅作显示，不主张存在独立正式全本中译。"
+        }
+      ],
+      "card_sources": [
+        {
+          "card_source_id": "V1-CS-0525",
+          "origin_matrix_id": "WCD07A-S07",
+          "card_id": "V1-CARD-0258",
+          "source_id": "SRC-0306",
+          "source_level": "A",
+          "source_role": "identity_and_bibliography",
+          "bibliographic_support": "yes",
+          "research_support": "yes",
+          "independent_source_key": "MORALES-1995",
+          "usage_status": "accepted",
+          "issue_code": "NONE"
+        },
+        {
+          "card_source_id": "V1-CS-0526",
+          "origin_matrix_id": "WCD07A-S08",
+          "card_id": "V1-CARD-0258",
+          "source_id": "SRC-0307",
+          "source_level": "A",
+          "source_role": "form_and_context",
+          "bibliographic_support": "yes",
+          "research_support": "yes",
+          "independent_source_key": "RETAMAR-2000",
+          "usage_status": "accepted",
+          "issue_code": "NONE"
+        }
+      ],
+      "relations": [
+        {
+          "relationship_id": "V1-REL-0333",
+          "origin_layer": "WCD-07A",
+          "origin_relation_group_id": "WCD07A-R03",
+          "subject_id": "V1-ENT-0225",
+          "relation_type": "CREATED",
+          "object_id": "V1-ENT-0376",
+          "description_zh": "何塞·马蒂创作《自由诗》",
+          "confidence": "high",
+          "review_status": "accepted",
+          "upstream_review_status": "CODEX-REVIEW-WCD07A-PASS",
+          "evidence_count": "2",
+          "issue_code": "NONE"
+        }
+      ],
+      "relationship_sources": [
+        {
+          "relationship_id": "V1-REL-0333",
+          "source_id": "SRC-0306"
+        },
+        {
+          "relationship_id": "V1-REL-0333",
+          "source_id": "SRC-0307"
+        }
+      ],
+      "relationship_evidence": [
+        {
+          "evidence_id": "V1-EV-0372",
+          "relationship_id": "V1-REL-0333",
+          "origin_evidence_id": "WCD07A-S07",
+          "source_id": "SRC-0306",
+          "source_title": "Tradición y modernidad en los Versos libres",
+          "locator": "opening bibliographic discussion",
+          "evidence_note": "Morales studies Versos libres as Marti's posthumously published collection.",
+          "confidence": "high",
+          "evidence_status": "eligible_evidence",
+          "evidence_origin": "WCD-07A"
+        },
+        {
+          "evidence_id": "V1-EV-0373",
+          "relationship_id": "V1-REL-0333",
+          "origin_evidence_id": "WCD07A-S08",
+          "source_id": "SRC-0307",
+          "source_title": "Introducción a la literatura cubana",
+          "locator": "Marti poetry discussion",
+          "evidence_note": "Retamar independently distinguishes Marti's Versos libres from Versos sencillos.",
+          "confidence": "high",
+          "evidence_status": "eligible_evidence",
+          "evidence_origin": "WCD-07A"
+        }
+      ],
+      "source_objects": [
+        {
+          "source_id": "SRC-0306",
+          "temporary_id": "WCD07A-S07",
+          "title": "Tradición y modernidad en los Versos libres",
+          "original_title": "Tradición y modernidad en los Versos libres",
+          "author_or_editor": "Carlos Javier Morales",
+          "translator": "",
+          "publisher": "Biblioteca Virtual Miguel de Cervantes",
+          "publication_year": "1995",
+          "isbn": "",
+          "format": "scholarly_article",
+          "page_count": "",
+          "language": "es",
+          "source_level": "A",
+          "processing_status": "access_pass",
+          "source_task": "WCD-07A",
+          "public_content_scope": "metadata_and_summary",
+          "local_asset_status": "remote_only",
+          "persistent_id": "",
+          "canonical_url": "https://www.cervantesvirtual.com/descargaPdf/tradicion-y-modernidad-en-los-versos-libres/"
+        },
+        {
+          "source_id": "SRC-0307",
+          "temporary_id": "WCD07A-S08",
+          "title": "Introducción a la literatura cubana",
+          "original_title": "Introducción a la literatura cubana",
+          "author_or_editor": "Roberto Fernández Retamar",
+          "translator": "",
+          "publisher": "Biblioteca Virtual Miguel de Cervantes",
+          "publication_year": "2000",
+          "isbn": "",
+          "format": "scholarly_article",
+          "page_count": "",
+          "language": "es",
+          "source_level": "A",
+          "processing_status": "access_pass",
+          "source_task": "WCD-07A",
+          "public_content_scope": "metadata_and_summary",
+          "local_asset_status": "remote_only",
+          "persistent_id": "",
+          "canonical_url": "https://www.cervantesvirtual.com/obra-visor/america-sin-nombre--11/html/0256666c-82b2-11df-acc7-002185ce6064_3.htm"
+        }
+      ],
+      "fresh_review": {
+        "source_refs": [],
+        "description": "既有对象完整快照来自指定只读B10 inventory。"
+      },
+      "remaining": "仍可补充直接作品研究/说明；本批保留此缺口，不声称穷尽。",
+      "source_author_id": "V1-ENT-0225",
+      "candidate_facts": []
+    },
+    {
+      "object_ref": "WCD10-B10-W001",
+      "entity": {
+        "entity_id": "WCD10-B10-W001",
+        "entity_type": "work",
+        "name_zh": "《不幸的友谊》",
+        "original_name": "Amistad funesta"
+      },
+      "bibliography": "书目及事实见 CANDIDATES.json。",
+      "description": "小说第一章围绕Lucía Jerez、Juan Jerez、Ana与Adela等人的交往展开，并写到Juan为Sol del Valle母亲求情。",
+      "research_status": "institutional_commentary",
+      "research_refs": [
+        "WCD10-B10-S001",
+        "WCD10-B10-S005",
+        "WCD10-B10-S011"
+      ],
+      "old_facts": [],
+      "cards": [],
+      "card_sources": [],
+      "relations": [],
+      "relationship_sources": [],
+      "relationship_evidence": [],
+      "source_objects": [],
+      "fresh_review": {
+        "source_refs": [
+          "WCD10-B10-S001"
+        ],
+        "description": "仅依据馆藏目录直接支持的普通书目和简述。"
+      },
+      "remaining": "作品层研究尚未展开；不声称学术研究完备。",
+      "source_author_id": "V1-ENT-0225",
+      "candidate_facts": [
+        {
+          "candidate_id": "WCD10-B10-W001-F02",
+          "subject_id": "WCD10-B10-W001",
+          "field": "genre_or_form",
+          "value": "长篇小说",
+          "source_refs": [
+            "WCD10-B10-S001"
+          ]
+        },
+        {
+          "candidate_id": "WCD10-B10-W001-F03",
+          "subject_id": "WCD10-B10-W001",
+          "field": "bibliographic_note",
+          "value": "BVMC将该作品著录为Martí所作小说；数字文本据柏林1911年版制作，1911年是所据版本信息，本候选不将其认作首刊年。",
+          "source_refs": [
+            "WCD10-B10-S001"
+          ]
+        },
+        {
+          "candidate_id": "WCD10-B10-W001-F04",
+          "subject_id": "WCD10-B10-W001",
+          "field": "first_publication_year",
+          "value": "1885",
+          "source_refs": [
+            "WCD10-B10-S005"
+          ]
+        },
+        {
+          "candidate_id": "WCD10-B10-W001-F05",
+          "subject_id": "WCD10-B10-W001",
+          "field": "one_sentence_summary",
+          "value": "小说第一章围绕Lucía Jerez、Juan Jerez、Ana与Adela等人的交往展开，并写到Juan为Sol del Valle母亲求情。",
+          "source_refs": [
+            "WCD10-B10-S011"
+          ]
+        }
+      ]
+    },
+    {
+      "object_ref": "WCD10-B10-W002",
+      "entity": {
+        "entity_id": "WCD10-B10-W002",
+        "entity_type": "collection",
+        "name_zh": "《黄金时代》",
+        "original_name": "La Edad de Oro"
+      },
+      "bibliography": "书目及事实见 CANDIDATES.json。",
+      "description": "这份面向美洲儿童的刊物由Martí撰写，共刊四期，1889年7月至10月在纽约出版，内容包含故事、历史与艺术等栏目。",
+      "research_status": "institutional_commentary",
+      "research_refs": [
+        "WCD10-B10-S002",
+        "WCD10-B10-S003"
+      ],
+      "old_facts": [],
+      "cards": [],
+      "card_sources": [],
+      "relations": [],
+      "relationship_sources": [],
+      "relationship_evidence": [],
+      "source_objects": [],
+      "fresh_review": {
+        "source_refs": [
+          "WCD10-B10-S002",
+          "WCD10-B10-S003"
+        ],
+        "description": "仅依据馆藏目录直接支持的普通书目和简述。"
+      },
+      "remaining": "作品层研究尚未展开；不声称学术研究完备。",
+      "source_author_id": "V1-ENT-0225",
+      "candidate_facts": [
+        {
+          "candidate_id": "WCD10-B10-W002-F02",
+          "subject_id": "WCD10-B10-W002",
+          "field": "first_publication_year",
+          "value": "1889",
+          "source_refs": [
+            "WCD10-B10-S003"
+          ]
+        },
+        {
+          "candidate_id": "WCD10-B10-W002-F03",
+          "subject_id": "WCD10-B10-W002",
+          "field": "one_sentence_summary",
+          "value": "这份面向美洲儿童的刊物由Martí撰写，共刊四期，1889年7月至10月在纽约出版，内容包含故事、历史与艺术等栏目。",
+          "source_refs": [
+            "WCD10-B10-S003"
+          ]
+        },
+        {
+          "candidate_id": "WCD10-B10-W002-F04",
+          "subject_id": "WCD10-B10-W002",
+          "field": "genre_or_form",
+          "value": "面向儿童的月刊（四期）",
+          "source_refs": [
+            "WCD10-B10-S003"
+          ]
+        }
+      ]
+    },
+    {
+      "object_ref": "WCD10-B10-W003",
+      "entity": {
+        "entity_id": "WCD10-B10-W003",
+        "entity_type": "work",
+        "name_zh": "《阿卜达拉》",
+        "original_name": "Abdala"
+      },
+      "bibliography": "书目及事实见 CANDIDATES.json。",
+      "description": "戏剧以Nubia遭征服者威胁为背景，写Abdala率军出战保卫祖国。",
+      "research_status": "institutional_commentary",
+      "research_refs": [
+        "WCD10-B10-S004",
+        "WCD10-B10-S006",
+        "WCD10-B10-S012"
+      ],
+      "old_facts": [],
+      "cards": [],
+      "card_sources": [],
+      "relations": [],
+      "relationship_sources": [],
+      "relationship_evidence": [],
+      "source_objects": [],
+      "fresh_review": {
+        "source_refs": [
+          "WCD10-B10-S004"
+        ],
+        "description": "仅依据馆藏目录直接支持的普通书目和简述。"
+      },
+      "remaining": "作品层研究尚未展开；不声称学术研究完备。",
+      "source_author_id": "V1-ENT-0225",
+      "candidate_facts": [
+        {
+          "candidate_id": "WCD10-B10-W003-F02",
+          "subject_id": "WCD10-B10-W003",
+          "field": "genre_or_form",
+          "value": "戏剧",
+          "source_refs": [
+            "WCD10-B10-S004"
+          ]
+        },
+        {
+          "candidate_id": "WCD10-B10-W003-F03",
+          "subject_id": "WCD10-B10-W003",
+          "field": "first_publication_year",
+          "value": "1869",
+          "source_refs": [
+            "WCD10-B10-S006"
+          ]
+        },
+        {
+          "candidate_id": "WCD10-B10-W003-F04",
+          "subject_id": "WCD10-B10-W003",
+          "field": "one_sentence_summary",
+          "value": "戏剧以Nubia遭征服者威胁为背景，写Abdala率军出战保卫祖国。",
+          "source_refs": [
+            "WCD10-B10-S012"
+          ]
+        }
+      ]
+    },
+    {
+      "entity": {
+        "entity_id": "V1-ENT-0239",
+        "entity_type": "collection",
+        "name_zh": "《诗歌与反诗歌》",
+        "original_name": "Poemas y antipoemas",
+        "canonical_status": "candidate",
+        "origin_count": "1",
+        "origin_refs": "CAND-B07-PARRA-W01",
+        "normalization_basis": "B07 Memoria Chilena title and 1954 publication",
+        "issue_codes": "NONE"
+      },
+      "facts": [
+        {
+          "fact_id": "V1-FCT-0578",
+          "origin_material_id": "WEB-CE-B07",
+          "card_id": "V1-CARD-0127",
+          "subject_id": "V1-ENT-0239",
+          "fact_field": "entity_layer",
+          "value_text": "collection",
+          "material_class": "metadata",
+          "origin_id": "SRC-0188",
+          "confidence": "high",
+          "admission_status": "candidate_for_staging_review",
+          "usage_note": "Poetry book is represented as a collection."
+        },
+        {
+          "fact_id": "V1-FCT-0579",
+          "origin_material_id": "WEB-CE-B07",
+          "card_id": "V1-CARD-0127",
+          "subject_id": "V1-ENT-0239",
+          "fact_field": "first_publication_year",
+          "value_text": "1954",
+          "material_class": "bibliographic",
+          "origin_id": "SRC-0188",
+          "confidence": "high",
+          "admission_status": "candidate_for_staging_review",
+          "usage_note": "Memoria Chilena directly records publication in 1954."
+        },
+        {
+          "fact_id": "V1-FCT-0580",
+          "origin_material_id": "WEB-CE-B07",
+          "card_id": "V1-CARD-0127",
+          "subject_id": "V1-ENT-0239",
+          "fact_field": "bibliographic_note",
+          "value_text": "SRC-0188 与 SRC-0189 直接列出 Poemas y antipoemas；本批不从题名推导文学史判断。",
+          "material_class": "bibliographic",
+          "origin_id": "SRC-0189",
+          "confidence": "high",
+          "admission_status": "candidate_for_staging_review",
+          "usage_note": "Sources support title and bibliographic identity only."
+        }
+      ],
+      "cards": [
+        {
+          "card_id": "V1-CARD-0127",
+          "origin_card_id": "",
+          "subject_id": "V1-ENT-0239",
+          "card_type": "collection",
+          "title_zh": "《诗歌与反诗歌》",
+          "author_label": "尼卡诺尔·帕拉",
+          "original_title": "Poemas y antipoemas",
+          "country_or_region": "智利",
+          "language": "es",
+          "period_bucket": "1954",
+          "genre_or_form": "诗集",
+          "input_layer": "WEB-CE-B07",
+          "source_minimum_status": "meets",
+          "issue_code": "NONE",
+          "content_markdown": "### 《诗歌与反诗歌》｜Poemas y antipoemas — Memoria Chilena 与智利大学书目记录 1954 年题名。"
+        }
+      ],
+      "relations": [
+        {
+          "relationship_id": "V1-REL-0164",
+          "origin_layer": "WEB-CE-B07",
+          "origin_relation_group_id": "CAND-B07-0164",
+          "subject_id": "V1-ENT-0236",
+          "relation_type": "CREATED",
+          "object_id": "V1-ENT-0239",
+          "description_zh": "尼卡诺尔·帕拉 创作 《诗歌与反诗歌》（Poemas y antipoemas）",
+          "confidence": "high",
+          "review_status": "accepted",
+          "upstream_review_status": "WEB-CE-B07",
+          "evidence_count": "1",
+          "issue_code": "NONE"
+        }
+      ],
+      "fact_sources": [
+        {
+          "fact_id": "V1-FCT-0578",
+          "source_id": "SRC-0188",
+          "source_title": "Nicanor Parra (1914-2018)"
+        },
+        {
+          "fact_id": "V1-FCT-0578",
+          "source_id": "SRC-0189",
+          "source_title": "Fichas bibliográficas I — Nicanor Parra"
+        },
+        {
+          "fact_id": "V1-FCT-0579",
+          "source_id": "SRC-0188",
+          "source_title": "Nicanor Parra (1914-2018)"
+        },
+        {
+          "fact_id": "V1-FCT-0580",
+          "source_id": "SRC-0189",
+          "source_title": "Fichas bibliográficas I — Nicanor Parra"
+        }
+      ],
+      "card_sources": [
+        {
+          "card_source_id": "V1-CS-0247",
+          "origin_matrix_id": "",
+          "card_id": "V1-CARD-0127",
+          "source_id": "SRC-0188",
+          "source_level": "B",
+          "source_role": "both",
+          "bibliographic_support": "yes",
+          "research_support": "yes",
+          "independent_source_key": "SRC-0188",
+          "usage_status": "used",
+          "issue_code": "NONE"
+        },
+        {
+          "card_source_id": "V1-CS-0248",
+          "origin_matrix_id": "",
+          "card_id": "V1-CARD-0127",
+          "source_id": "SRC-0189",
+          "source_level": "B",
+          "source_role": "both",
+          "bibliographic_support": "yes",
+          "research_support": "yes",
+          "independent_source_key": "SRC-0189",
+          "usage_status": "used",
+          "issue_code": "NONE"
+        }
+      ],
+      "relationship_sources": [
+        {
+          "relationship_id": "V1-REL-0164",
+          "source_id": "SRC-0188"
+        }
+      ],
+      "relationship_evidence": [
+        {
+          "evidence_id": "V1-EV-0189",
+          "relationship_id": "V1-REL-0164",
+          "origin_evidence_id": "CAND-B07-0164",
+          "source_id": "SRC-0188",
+          "source_title": "Nicanor Parra (1914-2018)",
+          "locator": "",
+          "evidence_note": "Institutional author page directly lists Poemas y antipoemas.",
+          "confidence": "high",
+          "evidence_status": "eligible_evidence",
+          "evidence_origin": "WEB-CE-B07"
+        }
+      ],
+      "source_objects": [
+        {
+          "source_id": "SRC-0188",
+          "temporary_id": "B07-SRC-0188",
+          "title": "Nicanor Parra (1914-2018)",
+          "original_title": "Nicanor Parra (1914-2018)",
+          "author_or_editor": "Biblioteca Nacional de Chile / Memoria Chilena",
+          "translator": "",
+          "publisher": "Biblioteca Nacional de Chile",
+          "publication_year": "",
+          "isbn": "",
+          "format": "web_page",
+          "page_count": "",
+          "language": "es",
+          "source_level": "B",
+          "processing_status": "access_pass",
+          "source_task": "WEB-CE-B07",
+          "public_content_scope": "Parra 生卒、出生地、诗人身份与 Poemas y antipoemas、Versos de salón 书目",
+          "local_asset_status": "remote_only",
+          "persistent_id": "",
+          "canonical_url": "https://www.memoriachilena.gob.cl/602/w3-article-3629.html"
+        },
+        {
+          "source_id": "SRC-0189",
+          "temporary_id": "B07-SRC-0189",
+          "title": "Fichas bibliográficas I — Nicanor Parra",
+          "original_title": "Fichas bibliográficas I — Nicanor Parra",
+          "author_or_editor": "Universidad de Chile",
+          "translator": "",
+          "publisher": "Universidad de Chile",
+          "publication_year": "",
+          "isbn": "",
+          "format": "web_page",
+          "page_count": "",
+          "language": "es",
+          "source_level": "B",
+          "processing_status": "access_pass",
+          "source_task": "WEB-CE-B07",
+          "public_content_scope": "Parra 作品书目与 Discursos de sobremesa 1997 记录",
+          "local_asset_status": "remote_only",
+          "persistent_id": "",
+          "canonical_url": "https://www.nicanorparra.uchile.cl/bibliografia/bibliogr.html"
+        }
+      ],
+      "flags": [
+        "genre_missing",
+        "object_description_fact_missing"
+      ],
+      "object_ref": "V1-ENT-0239",
+      "bibliography": "Baseline bibliography and all old facts preserved; candidate facts append only missing description/metadata fields.",
+      "description": "国家图书馆作者专题明确描述1954年该书及其反诗模式。",
+      "research_status": "institutional_commentary",
+      "research_refs": [
+        "WCD10-B10-S101"
+      ],
+      "old_facts": [
+        {
+          "fact_id": "V1-FCT-0578",
+          "origin_material_id": "WEB-CE-B07",
+          "card_id": "V1-CARD-0127",
+          "subject_id": "V1-ENT-0239",
+          "fact_field": "entity_layer",
+          "value_text": "collection",
+          "material_class": "metadata",
+          "origin_id": "SRC-0188",
+          "confidence": "high",
+          "admission_status": "candidate_for_staging_review",
+          "usage_note": "Poetry book is represented as a collection."
+        },
+        {
+          "fact_id": "V1-FCT-0579",
+          "origin_material_id": "WEB-CE-B07",
+          "card_id": "V1-CARD-0127",
+          "subject_id": "V1-ENT-0239",
+          "fact_field": "first_publication_year",
+          "value_text": "1954",
+          "material_class": "bibliographic",
+          "origin_id": "SRC-0188",
+          "confidence": "high",
+          "admission_status": "candidate_for_staging_review",
+          "usage_note": "Memoria Chilena directly records publication in 1954."
+        },
+        {
+          "fact_id": "V1-FCT-0580",
+          "origin_material_id": "WEB-CE-B07",
+          "card_id": "V1-CARD-0127",
+          "subject_id": "V1-ENT-0239",
+          "fact_field": "bibliographic_note",
+          "value_text": "SRC-0188 与 SRC-0189 直接列出 Poemas y antipoemas；本批不从题名推导文学史判断。",
+          "material_class": "bibliographic",
+          "origin_id": "SRC-0189",
+          "confidence": "high",
+          "admission_status": "candidate_for_staging_review",
+          "usage_note": "Sources support title and bibliographic identity only."
+        }
+      ],
+      "fresh_review": {
+        "source_refs": [
+          "WCD10-B10-S101"
+        ],
+        "description": "直接打开并阅读机构来源正文后提取的有限作品级书目/说明；旧entity/facts/cards/relations/evidence/source chains remain verbatim."
+      },
+      "remaining": "未加入该书专门论文；目前机构作者专题已足以支持本条有限作品简介。",
+      "source_author_id": "V1-ENT-0236",
+      "candidate_facts": [
+        {
+          "candidate_id": "WCD10-B10-F111",
+          "subject_id": "V1-ENT-0239",
+          "field": "genre_or_form",
+          "value": "诗集",
+          "source_refs": [
+            "WCD10-B10-S101",
+            "WCD10-B10-S102"
+          ]
+        },
+        {
+          "candidate_id": "WCD10-B10-F112",
+          "subject_id": "V1-ENT-0239",
+          "field": "one_sentence_summary",
+          "value": "智利国家图书馆称《诗歌与反诗歌》（1954）开启帕拉的反诗模式，其诗句带有讽刺，采用日常、直接的语言。",
+          "source_refs": [
+            "WCD10-B10-S101"
+          ]
+        }
+      ],
+      "holds": [],
+      "gaps": []
+    },
+    {
+      "entity": {
+        "entity_id": "V1-ENT-0240",
+        "entity_type": "collection",
+        "name_zh": "《沙龙篇》",
+        "original_name": "Versos de salón",
+        "canonical_status": "candidate",
+        "origin_count": "1",
+        "origin_refs": "CAND-B07-PARRA-W02",
+        "normalization_basis": "B07 Memoria Chilena title and 1962 publication",
+        "issue_codes": "NONE"
+      },
+      "facts": [
+        {
+          "fact_id": "V1-FCT-0581",
+          "origin_material_id": "WEB-CE-B07",
+          "card_id": "V1-CARD-0128",
+          "subject_id": "V1-ENT-0240",
+          "fact_field": "entity_layer",
+          "value_text": "collection",
+          "material_class": "metadata",
+          "origin_id": "SRC-0188",
+          "confidence": "high",
+          "admission_status": "candidate_for_staging_review",
+          "usage_note": "Poetry book is represented as a collection."
+        },
+        {
+          "fact_id": "V1-FCT-0582",
+          "origin_material_id": "WEB-CE-B07",
+          "card_id": "V1-CARD-0128",
+          "subject_id": "V1-ENT-0240",
+          "fact_field": "first_publication_year",
+          "value_text": "1962",
+          "material_class": "bibliographic",
+          "origin_id": "SRC-0188",
+          "confidence": "high",
+          "admission_status": "candidate_for_staging_review",
+          "usage_note": "Memoria Chilena author page lists Versos de salón (1962)."
+        },
+        {
+          "fact_id": "V1-FCT-0583",
+          "origin_material_id": "WEB-CE-B07",
+          "card_id": "V1-CARD-0128",
+          "subject_id": "V1-ENT-0240",
+          "fact_field": "bibliographic_note",
+          "value_text": "SRC-0188 与 SRC-0189 直接列出 Versos de salón；本批不扩写反诗理论。",
+          "material_class": "bibliographic",
+          "origin_id": "SRC-0189",
+          "confidence": "high",
+          "admission_status": "candidate_for_staging_review",
+          "usage_note": "Sources support title and bibliographic identity only."
+        }
+      ],
+      "cards": [
+        {
+          "card_id": "V1-CARD-0128",
+          "origin_card_id": "",
+          "subject_id": "V1-ENT-0240",
+          "card_type": "collection",
+          "title_zh": "《沙龙篇》",
+          "author_label": "尼卡诺尔·帕拉",
+          "original_title": "Versos de salón",
+          "country_or_region": "智利",
+          "language": "es",
+          "period_bucket": "1962",
+          "genre_or_form": "诗集",
+          "input_layer": "WEB-CE-B07",
+          "source_minimum_status": "meets",
+          "issue_code": "NONE",
+          "content_markdown": "### 《沙龙篇》｜Versos de salón — 机构作者专题和书目页记录 1962 年题名。"
+        }
+      ],
+      "relations": [
+        {
+          "relationship_id": "V1-REL-0165",
+          "origin_layer": "WEB-CE-B07",
+          "origin_relation_group_id": "CAND-B07-0165",
+          "subject_id": "V1-ENT-0236",
+          "relation_type": "CREATED",
+          "object_id": "V1-ENT-0240",
+          "description_zh": "尼卡诺尔·帕拉 创作 《沙龙篇》（Versos de salón）",
+          "confidence": "high",
+          "review_status": "accepted",
+          "upstream_review_status": "WEB-CE-B07",
+          "evidence_count": "1",
+          "issue_code": "NONE"
+        }
+      ],
+      "fact_sources": [
+        {
+          "fact_id": "V1-FCT-0581",
+          "source_id": "SRC-0188",
+          "source_title": "Nicanor Parra (1914-2018)"
+        },
+        {
+          "fact_id": "V1-FCT-0581",
+          "source_id": "SRC-0189",
+          "source_title": "Fichas bibliográficas I — Nicanor Parra"
+        },
+        {
+          "fact_id": "V1-FCT-0582",
+          "source_id": "SRC-0188",
+          "source_title": "Nicanor Parra (1914-2018)"
+        },
+        {
+          "fact_id": "V1-FCT-0583",
+          "source_id": "SRC-0189",
+          "source_title": "Fichas bibliográficas I — Nicanor Parra"
+        }
+      ],
+      "card_sources": [
+        {
+          "card_source_id": "V1-CS-0249",
+          "origin_matrix_id": "",
+          "card_id": "V1-CARD-0128",
+          "source_id": "SRC-0188",
+          "source_level": "B",
+          "source_role": "both",
+          "bibliographic_support": "yes",
+          "research_support": "yes",
+          "independent_source_key": "SRC-0188",
+          "usage_status": "used",
+          "issue_code": "NONE"
+        },
+        {
+          "card_source_id": "V1-CS-0250",
+          "origin_matrix_id": "",
+          "card_id": "V1-CARD-0128",
+          "source_id": "SRC-0189",
+          "source_level": "B",
+          "source_role": "both",
+          "bibliographic_support": "yes",
+          "research_support": "yes",
+          "independent_source_key": "SRC-0189",
+          "usage_status": "used",
+          "issue_code": "NONE"
+        }
+      ],
+      "relationship_sources": [
+        {
+          "relationship_id": "V1-REL-0165",
+          "source_id": "SRC-0188"
+        }
+      ],
+      "relationship_evidence": [
+        {
+          "evidence_id": "V1-EV-0190",
+          "relationship_id": "V1-REL-0165",
+          "origin_evidence_id": "CAND-B07-0165",
+          "source_id": "SRC-0188",
+          "source_title": "Nicanor Parra (1914-2018)",
+          "locator": "",
+          "evidence_note": "Institutional author page directly lists Versos de salón.",
+          "confidence": "high",
+          "evidence_status": "eligible_evidence",
+          "evidence_origin": "WEB-CE-B07"
+        }
+      ],
+      "source_objects": [
+        {
+          "source_id": "SRC-0188",
+          "temporary_id": "B07-SRC-0188",
+          "title": "Nicanor Parra (1914-2018)",
+          "original_title": "Nicanor Parra (1914-2018)",
+          "author_or_editor": "Biblioteca Nacional de Chile / Memoria Chilena",
+          "translator": "",
+          "publisher": "Biblioteca Nacional de Chile",
+          "publication_year": "",
+          "isbn": "",
+          "format": "web_page",
+          "page_count": "",
+          "language": "es",
+          "source_level": "B",
+          "processing_status": "access_pass",
+          "source_task": "WEB-CE-B07",
+          "public_content_scope": "Parra 生卒、出生地、诗人身份与 Poemas y antipoemas、Versos de salón 书目",
+          "local_asset_status": "remote_only",
+          "persistent_id": "",
+          "canonical_url": "https://www.memoriachilena.gob.cl/602/w3-article-3629.html"
+        },
+        {
+          "source_id": "SRC-0189",
+          "temporary_id": "B07-SRC-0189",
+          "title": "Fichas bibliográficas I — Nicanor Parra",
+          "original_title": "Fichas bibliográficas I — Nicanor Parra",
+          "author_or_editor": "Universidad de Chile",
+          "translator": "",
+          "publisher": "Universidad de Chile",
+          "publication_year": "",
+          "isbn": "",
+          "format": "web_page",
+          "page_count": "",
+          "language": "es",
+          "source_level": "B",
+          "processing_status": "access_pass",
+          "source_task": "WEB-CE-B07",
+          "public_content_scope": "Parra 作品书目与 Discursos de sobremesa 1997 记录",
+          "local_asset_status": "remote_only",
+          "persistent_id": "",
+          "canonical_url": "https://www.nicanorparra.uchile.cl/bibliografia/bibliogr.html"
+        }
+      ],
+      "flags": [
+        "genre_missing",
+        "object_description_fact_missing"
+      ],
+      "object_ref": "V1-ENT-0240",
+      "bibliography": "Baseline bibliography and all old facts preserved; candidate facts append only missing description/metadata fields.",
+      "description": "机构作者专题直接列出本书并概括作品序列；智利大学作者目录支持诗集书目身份。",
+      "research_status": "institutional_commentary",
+      "research_refs": [
+        "WCD10-B10-S101",
+        "WCD10-B10-S102"
+      ],
+      "old_facts": [
+        {
+          "fact_id": "V1-FCT-0581",
+          "origin_material_id": "WEB-CE-B07",
+          "card_id": "V1-CARD-0128",
+          "subject_id": "V1-ENT-0240",
+          "fact_field": "entity_layer",
+          "value_text": "collection",
+          "material_class": "metadata",
+          "origin_id": "SRC-0188",
+          "confidence": "high",
+          "admission_status": "candidate_for_staging_review",
+          "usage_note": "Poetry book is represented as a collection."
+        },
+        {
+          "fact_id": "V1-FCT-0582",
+          "origin_material_id": "WEB-CE-B07",
+          "card_id": "V1-CARD-0128",
+          "subject_id": "V1-ENT-0240",
+          "fact_field": "first_publication_year",
+          "value_text": "1962",
+          "material_class": "bibliographic",
+          "origin_id": "SRC-0188",
+          "confidence": "high",
+          "admission_status": "candidate_for_staging_review",
+          "usage_note": "Memoria Chilena author page lists Versos de salón (1962)."
+        },
+        {
+          "fact_id": "V1-FCT-0583",
+          "origin_material_id": "WEB-CE-B07",
+          "card_id": "V1-CARD-0128",
+          "subject_id": "V1-ENT-0240",
+          "fact_field": "bibliographic_note",
+          "value_text": "SRC-0188 与 SRC-0189 直接列出 Versos de salón；本批不扩写反诗理论。",
+          "material_class": "bibliographic",
+          "origin_id": "SRC-0189",
+          "confidence": "high",
+          "admission_status": "candidate_for_staging_review",
+          "usage_note": "Sources support title and bibliographic identity only."
+        }
+      ],
+      "fresh_review": {
+        "source_refs": [
+          "WCD10-B10-S101",
+          "WCD10-B10-S102"
+        ],
+        "description": "直接打开并阅读机构来源正文后提取的有限作品级书目/说明；旧entity/facts/cards/relations/evidence/source chains remain verbatim."
+      },
+      "remaining": "未加入单书专门研究；保留基线1962年首版，页面图版另有1971版不改变此值。",
+      "source_author_id": "V1-ENT-0236",
+      "candidate_facts": [
+        {
+          "candidate_id": "WCD10-B10-F113",
+          "subject_id": "V1-ENT-0240",
+          "field": "genre_or_form",
+          "value": "诗集",
+          "source_refs": [
+            "WCD10-B10-S102"
+          ]
+        },
+        {
+          "candidate_id": "WCD10-B10-F114",
+          "subject_id": "V1-ENT-0240",
+          "field": "one_sentence_summary",
+          "value": "国家图书馆作者专题将《沙龙篇》（1962）列入《诗歌与反诗歌》之后的作品，并概述帕拉此后诗作延展反诗模式。",
+          "source_refs": [
+            "WCD10-B10-S101"
+          ]
+        }
+      ],
+      "holds": [],
+      "gaps": []
+    },
+    {
+      "entity": {
+        "entity_id": "V1-ENT-0241",
+        "entity_type": "collection",
+        "name_zh": "《饭后演讲》",
+        "original_name": "Discursos de sobremesa",
+        "canonical_status": "candidate",
+        "origin_count": "1",
+        "origin_refs": "CAND-B07-PARRA-W03",
+        "normalization_basis": "B07 Universidad de Chile bibliography and Memoria Chilena record; collection layer retained",
+        "issue_codes": "NONE"
+      },
+      "facts": [
+        {
+          "fact_id": "V1-FCT-0584",
+          "origin_material_id": "WEB-CE-B07",
+          "card_id": "V1-CARD-0129",
+          "subject_id": "V1-ENT-0241",
+          "fact_field": "entity_layer",
+          "value_text": "collection",
+          "material_class": "metadata",
+          "origin_id": "SRC-0189",
+          "confidence": "high",
+          "admission_status": "candidate_for_staging_review",
+          "usage_note": "Bibliographic collection of speeches retained as collection layer."
+        },
+        {
+          "fact_id": "V1-FCT-0585",
+          "origin_material_id": "WEB-CE-B07",
+          "card_id": "V1-CARD-0129",
+          "subject_id": "V1-ENT-0241",
+          "fact_field": "first_publication_year",
+          "value_text": "1997",
+          "material_class": "bibliographic",
+          "origin_id": "SRC-0190",
+          "confidence": "high",
+          "admission_status": "candidate_for_staging_review",
+          "usage_note": "Memoria Chilena record directly gives 1997."
+        },
+        {
+          "fact_id": "V1-FCT-0586",
+          "origin_material_id": "WEB-CE-B07",
+          "card_id": "V1-CARD-0129",
+          "subject_id": "V1-ENT-0241",
+          "fact_field": "bibliographic_note",
+          "value_text": "SRC-0189 与 SRC-0190 直接列出 Discursos de sobremesa；中文展示名仅作 common_title。",
+          "material_class": "bibliographic",
+          "origin_id": "SRC-0190",
+          "confidence": "high",
+          "admission_status": "candidate_for_staging_review",
+          "usage_note": "Sources support title, form and year only."
+        }
+      ],
+      "cards": [
+        {
+          "card_id": "V1-CARD-0129",
+          "origin_card_id": "",
+          "subject_id": "V1-ENT-0241",
+          "card_type": "collection",
+          "title_zh": "《饭后演讲》",
+          "author_label": "尼卡诺尔·帕拉",
+          "original_title": "Discursos de sobremesa",
+          "country_or_region": "智利",
+          "language": "es",
+          "period_bucket": "1997",
+          "genre_or_form": "诗歌/演讲体合集",
+          "input_layer": "WEB-CE-B07",
+          "source_minimum_status": "meets",
+          "issue_code": "NONE",
+          "content_markdown": "### 《饭后演讲》｜Discursos de sobremesa — 书目页记录 1997 年出版与作者信息。"
+        }
+      ],
+      "relations": [
+        {
+          "relationship_id": "V1-REL-0166",
+          "origin_layer": "WEB-CE-B07",
+          "origin_relation_group_id": "CAND-B07-0166",
+          "subject_id": "V1-ENT-0236",
+          "relation_type": "CREATED",
+          "object_id": "V1-ENT-0241",
+          "description_zh": "尼卡诺尔·帕拉 创作 《饭后演讲》（Discursos de sobremesa）",
+          "confidence": "high",
+          "review_status": "accepted",
+          "upstream_review_status": "WEB-CE-B07",
+          "evidence_count": "1",
+          "issue_code": "NONE"
+        }
+      ],
+      "fact_sources": [
+        {
+          "fact_id": "V1-FCT-0584",
+          "source_id": "SRC-0189",
+          "source_title": "Fichas bibliográficas I — Nicanor Parra"
+        },
+        {
+          "fact_id": "V1-FCT-0585",
+          "source_id": "SRC-0190",
+          "source_title": "Portada de Discursos de sobremesa, 1997"
+        },
+        {
+          "fact_id": "V1-FCT-0586",
+          "source_id": "SRC-0190",
+          "source_title": "Portada de Discursos de sobremesa, 1997"
+        }
+      ],
+      "card_sources": [
+        {
+          "card_source_id": "V1-CS-0251",
+          "origin_matrix_id": "",
+          "card_id": "V1-CARD-0129",
+          "source_id": "SRC-0189",
+          "source_level": "B",
+          "source_role": "both",
+          "bibliographic_support": "yes",
+          "research_support": "yes",
+          "independent_source_key": "SRC-0189",
+          "usage_status": "used",
+          "issue_code": "NONE"
+        },
+        {
+          "card_source_id": "V1-CS-0252",
+          "origin_matrix_id": "",
+          "card_id": "V1-CARD-0129",
+          "source_id": "SRC-0190",
+          "source_level": "B",
+          "source_role": "both",
+          "bibliographic_support": "yes",
+          "research_support": "yes",
+          "independent_source_key": "SRC-0190",
+          "usage_status": "used",
+          "issue_code": "NONE"
+        }
+      ],
+      "relationship_sources": [
+        {
+          "relationship_id": "V1-REL-0166",
+          "source_id": "SRC-0190"
+        }
+      ],
+      "relationship_evidence": [
+        {
+          "evidence_id": "V1-EV-0191",
+          "relationship_id": "V1-REL-0166",
+          "origin_evidence_id": "CAND-B07-0166",
+          "source_id": "SRC-0190",
+          "source_title": "Portada de Discursos de sobremesa, 1997",
+          "locator": "",
+          "evidence_note": "National library record directly identifies Discursos de sobremesa and author.",
+          "confidence": "high",
+          "evidence_status": "eligible_evidence",
+          "evidence_origin": "WEB-CE-B07"
+        }
+      ],
+      "source_objects": [
+        {
+          "source_id": "SRC-0189",
+          "temporary_id": "B07-SRC-0189",
+          "title": "Fichas bibliográficas I — Nicanor Parra",
+          "original_title": "Fichas bibliográficas I — Nicanor Parra",
+          "author_or_editor": "Universidad de Chile",
+          "translator": "",
+          "publisher": "Universidad de Chile",
+          "publication_year": "",
+          "isbn": "",
+          "format": "web_page",
+          "page_count": "",
+          "language": "es",
+          "source_level": "B",
+          "processing_status": "access_pass",
+          "source_task": "WEB-CE-B07",
+          "public_content_scope": "Parra 作品书目与 Discursos de sobremesa 1997 记录",
+          "local_asset_status": "remote_only",
+          "persistent_id": "",
+          "canonical_url": "https://www.nicanorparra.uchile.cl/bibliografia/bibliogr.html"
+        },
+        {
+          "source_id": "SRC-0190",
+          "temporary_id": "B07-SRC-0190",
+          "title": "Portada de Discursos de sobremesa, 1997",
+          "original_title": "Discursos de sobremesa",
+          "author_or_editor": "Biblioteca Nacional de Chile / Memoria Chilena",
+          "translator": "",
+          "publisher": "Biblioteca Nacional de Chile",
+          "publication_year": "1997",
+          "isbn": "",
+          "format": "web_page",
+          "page_count": "174",
+          "language": "es",
+          "source_level": "B",
+          "processing_status": "access_pass",
+          "source_task": "WEB-CE-B07",
+          "public_content_scope": "Discursos de sobremesa 题名、作者、出版地与 1997 年",
+          "local_asset_status": "remote_only",
+          "persistent_id": "",
+          "canonical_url": "https://www.memoriachilena.gob.cl/602/w3-article-71481.html"
+        }
+      ],
+      "flags": [
+        "genre_missing",
+        "object_description_fact_missing"
+      ],
+      "object_ref": "V1-ENT-0241",
+      "bibliography": "Baseline bibliography and all old facts preserved; candidate facts append only missing description/metadata fields.",
+      "description": "智利大学作者目录列出本书、1997年出版及撤回发行注记；内容简介暂不确定。",
+      "research_status": "catalog_only",
+      "research_refs": [
+        "WCD10-B10-S102"
+      ],
+      "old_facts": [
+        {
+          "fact_id": "V1-FCT-0584",
+          "origin_material_id": "WEB-CE-B07",
+          "card_id": "V1-CARD-0129",
+          "subject_id": "V1-ENT-0241",
+          "fact_field": "entity_layer",
+          "value_text": "collection",
+          "material_class": "metadata",
+          "origin_id": "SRC-0189",
+          "confidence": "high",
+          "admission_status": "candidate_for_staging_review",
+          "usage_note": "Bibliographic collection of speeches retained as collection layer."
+        },
+        {
+          "fact_id": "V1-FCT-0585",
+          "origin_material_id": "WEB-CE-B07",
+          "card_id": "V1-CARD-0129",
+          "subject_id": "V1-ENT-0241",
+          "fact_field": "first_publication_year",
+          "value_text": "1997",
+          "material_class": "bibliographic",
+          "origin_id": "SRC-0190",
+          "confidence": "high",
+          "admission_status": "candidate_for_staging_review",
+          "usage_note": "Memoria Chilena record directly gives 1997."
+        },
+        {
+          "fact_id": "V1-FCT-0586",
+          "origin_material_id": "WEB-CE-B07",
+          "card_id": "V1-CARD-0129",
+          "subject_id": "V1-ENT-0241",
+          "fact_field": "bibliographic_note",
+          "value_text": "SRC-0189 与 SRC-0190 直接列出 Discursos de sobremesa；中文展示名仅作 common_title。",
+          "material_class": "bibliographic",
+          "origin_id": "SRC-0190",
+          "confidence": "high",
+          "admission_status": "candidate_for_staging_review",
+          "usage_note": "Sources support title, form and year only."
+        }
+      ],
+      "fresh_review": {
+        "source_refs": [
+          "WCD10-B10-S102"
+        ],
+        "description": "直接打开并阅读机构来源正文后提取的有限作品级书目/说明；旧entity/facts/cards/relations/evidence/source chains remain verbatim."
+      },
+      "remaining": "仍缺作品层内容描述的直接机构来源；现仅补充书目版本注记。",
+      "source_author_id": "V1-ENT-0236",
+      "candidate_facts": [
+        {
+          "candidate_id": "WCD10-B10-F115",
+          "subject_id": "V1-ENT-0241",
+          "field": "bibliographic_note",
+          "value": "智利大学作者主要作品目录将《Discursos de Sobremesa》列为1997年Concepción出版，并注明该版曾撤回发行。",
+          "source_refs": [
+            "WCD10-B10-S102"
+          ]
+        }
+      ],
+      "holds": [],
+      "gaps": []
+    },
+    {
+      "object_ref": "WCD10-B10-W101",
+      "entity": {
+        "entity_id": "WCD10-B10-W101",
+        "entity_type": "collection",
+        "name_zh": "《长奎卡舞曲》",
+        "original_name": "La cueca larga",
+        "canonical_status": "candidate",
+        "origin_count": "1",
+        "origin_refs": "WCD10-B10-CANDIDATE",
+        "normalization_basis": "中文为工作译名，西班牙语原题为身份锚点；不声称存在正式中文译本名。",
+        "issue_codes": "NONE"
+      },
+      "bibliography": "first_publication_year=1958; genre_or_form=诗集",
+      "description": "智利国家图书馆专题指出，此书取材于智利民间欢庆节奏，并以戏仿方式加以呈现。",
+      "research_status": "institutional_commentary",
+      "research_refs": [
+        "WCD10-B10-S101",
+        "WCD10-B10-S102"
+      ],
+      "old_facts": [],
+      "cards": [],
+      "card_sources": [],
+      "relations": [],
+      "relationship_sources": [],
+      "relationship_evidence": [],
+      "source_objects": [],
+      "fresh_review": {
+        "source_refs": [
+          "WCD10-B10-S101",
+          "WCD10-B10-S102"
+        ],
+        "description": "Direct institutional author bibliography plus national library author page; works and bounded summaries are not claimed as exhaustive or academic-literature review."
+      },
+      "remaining": "作品个别版本及专门研究未穷尽；候选仅记录来源直接支持的书目、体裁和短描述。",
+      "source_author_id": "V1-ENT-0236",
+      "candidate_facts": [
+        {
+          "field": "first_publication_year",
+          "value": "1958",
+          "source_refs": [
+            "WCD10-B10-S102"
+          ],
+          "fact_candidate_id": "WCD10-B10-W101-F01"
+        },
+        {
+          "field": "genre_or_form",
+          "value": "诗集",
+          "source_refs": [
+            "WCD10-B10-S102"
+          ],
+          "fact_candidate_id": "WCD10-B10-W101-F02"
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "智利国家图书馆专题指出，此书取材于智利民间欢庆节奏，并以戏仿方式加以呈现。",
+          "source_refs": [
+            "WCD10-B10-S101"
+          ],
+          "fact_candidate_id": "WCD10-B10-W101-F03"
+        },
+        {
+          "field": "bibliographic_note",
+          "value": "智利大学目录列1958年《La Cueca Larga》；国家图书馆专题同年列入作者作品序列。",
+          "source_refs": [
+            "WCD10-B10-S102"
+          ],
+          "fact_candidate_id": "WCD10-B10-W101-F04"
+        }
+      ],
+      "holds": [],
+      "gaps": []
+    },
+    {
+      "object_ref": "WCD10-B10-W102",
+      "entity": {
+        "entity_id": "WCD10-B10-W102",
+        "entity_type": "collection",
+        "name_zh": "《厚重作品》",
+        "original_name": "Obra gruesa",
+        "canonical_status": "candidate",
+        "origin_count": "1",
+        "origin_refs": "WCD10-B10-CANDIDATE",
+        "normalization_basis": "中文为工作译名，西班牙语原题为身份锚点；不声称存在正式中文译本名。",
+        "issue_codes": "NONE"
+      },
+      "bibliography": "first_publication_year=1969; genre_or_form=诗集",
+      "description": "智利国家图书馆将其列入帕拉的诗作序列，并概括这些作品呈现反诗模式及其演进。",
+      "research_status": "institutional_commentary",
+      "research_refs": [
+        "WCD10-B10-S101",
+        "WCD10-B10-S102"
+      ],
+      "old_facts": [],
+      "cards": [],
+      "card_sources": [],
+      "relations": [],
+      "relationship_sources": [],
+      "relationship_evidence": [],
+      "source_objects": [],
+      "fresh_review": {
+        "source_refs": [
+          "WCD10-B10-S101",
+          "WCD10-B10-S102"
+        ],
+        "description": "Direct institutional author bibliography plus national library author page; works and bounded summaries are not claimed as exhaustive or academic-literature review."
+      },
+      "remaining": "作品个别版本及专门研究未穷尽；候选仅记录来源直接支持的书目、体裁和短描述。",
+      "source_author_id": "V1-ENT-0236",
+      "candidate_facts": [
+        {
+          "field": "first_publication_year",
+          "value": "1969",
+          "source_refs": [
+            "WCD10-B10-S102"
+          ],
+          "fact_candidate_id": "WCD10-B10-W102-F01"
+        },
+        {
+          "field": "genre_or_form",
+          "value": "诗集",
+          "source_refs": [
+            "WCD10-B10-S102"
+          ],
+          "fact_candidate_id": "WCD10-B10-W102-F02"
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "智利国家图书馆将其列入帕拉的诗作序列，并概括这些作品呈现反诗模式及其演进。",
+          "source_refs": [
+            "WCD10-B10-S101"
+          ],
+          "fact_candidate_id": "WCD10-B10-W102-F03"
+        },
+        {
+          "field": "bibliographic_note",
+          "value": "智利大学作者主要作品目录列《Obra Gruesa》（1969，Universitaria）。",
+          "source_refs": [
+            "WCD10-B10-S102"
+          ],
+          "fact_candidate_id": "WCD10-B10-W102-F04"
+        }
+      ],
+      "holds": [],
+      "gaps": []
+    },
+    {
+      "object_ref": "WCD10-B10-W103",
+      "entity": {
+        "entity_id": "WCD10-B10-W103",
+        "entity_type": "collection",
+        "name_zh": "《埃尔基基督的布道与讲道》",
+        "original_name": "Sermones y prédicas del Cristo de Elqui",
+        "canonical_status": "candidate",
+        "origin_count": "1",
+        "origin_refs": "WCD10-B10-CANDIDATE",
+        "normalization_basis": "中文为工作译名，西班牙语原题为身份锚点；不声称存在正式中文译本名。",
+        "issue_codes": "NONE"
+      },
+      "bibliography": "first_publication_year=1977; genre_or_form=诗歌作品集",
+      "description": "智利国家图书馆将此书列为1977年作品，并置于呈现反诗模式及其演进的诗作序列中。",
+      "research_status": "institutional_commentary",
+      "research_refs": [
+        "WCD10-B10-S101",
+        "WCD10-B10-S102"
+      ],
+      "old_facts": [],
+      "cards": [],
+      "card_sources": [],
+      "relations": [],
+      "relationship_sources": [],
+      "relationship_evidence": [],
+      "source_objects": [],
+      "fresh_review": {
+        "source_refs": [
+          "WCD10-B10-S101",
+          "WCD10-B10-S102"
+        ],
+        "description": "Direct institutional author bibliography plus national library author page; works and bounded summaries are not claimed as exhaustive or academic-literature review."
+      },
+      "remaining": "作品个别版本及专门研究未穷尽；候选仅记录来源直接支持的书目、体裁和短描述。",
+      "source_author_id": "V1-ENT-0236",
+      "candidate_facts": [
+        {
+          "field": "first_publication_year",
+          "value": "1977",
+          "source_refs": [
+            "WCD10-B10-S102"
+          ],
+          "fact_candidate_id": "WCD10-B10-W103-F01"
+        },
+        {
+          "field": "genre_or_form",
+          "value": "诗歌作品集",
+          "source_refs": [
+            "WCD10-B10-S102"
+          ],
+          "fact_candidate_id": "WCD10-B10-W103-F02"
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "智利国家图书馆将此书列为1977年作品，并置于呈现反诗模式及其演进的诗作序列中。",
+          "source_refs": [
+            "WCD10-B10-S101"
+          ],
+          "fact_candidate_id": "WCD10-B10-W103-F03"
+        },
+        {
+          "field": "bibliographic_note",
+          "value": "智利大学目录记1979年版本，并注明初版为1977年；国家图书馆作者专题亦列1977年。",
+          "source_refs": [
+            "WCD10-B10-S102"
+          ],
+          "fact_candidate_id": "WCD10-B10-W103-F04"
+        }
+      ],
+      "holds": [],
+      "gaps": []
+    },
+    {
+      "object_ref": "WCD10-B10-W104",
+      "entity": {
+        "entity_id": "WCD10-B10-W104",
+        "entity_type": "collection",
+        "name_zh": "《明信片诗作集》",
+        "original_name": "Artefactos",
+        "canonical_status": "candidate",
+        "origin_count": "1",
+        "origin_refs": "WCD10-B10-CANDIDATE",
+        "normalization_basis": "中文为工作描述性译名，西班牙语原题为身份锚点；形式依来源注明为明信片，不声称该中文名为正式译名。",
+        "issue_codes": "NONE"
+      },
+      "bibliography": "first_publication_year=1972; genre_or_form=明信片形式的诗歌作品集",
+      "description": "《Artefactos》于1972年以明信片形式出版。",
+      "research_status": "institutional_commentary",
+      "research_refs": [
+        "WCD10-B10-S101",
+        "WCD10-B10-S102"
+      ],
+      "old_facts": [],
+      "cards": [],
+      "card_sources": [],
+      "relations": [],
+      "relationship_sources": [],
+      "relationship_evidence": [],
+      "source_objects": [],
+      "fresh_review": {
+        "source_refs": [
+          "WCD10-B10-S101",
+          "WCD10-B10-S102"
+        ],
+        "description": "两家智利机构来源都直接标注1972与明信片形式；简述限于该书目与载体事实。"
+      },
+      "remaining": "作品内部具体卡片与诗作内容未逐项建模；不把媒介形式下推为每张卡片的完整内容说明。",
+      "source_author_id": "V1-ENT-0236",
+      "candidate_facts": [
+        {
+          "field": "first_publication_year",
+          "value": "1972",
+          "source_refs": [
+            "WCD10-B10-S101",
+            "WCD10-B10-S102"
+          ],
+          "fact_candidate_id": "WCD10-B10-W104-F01"
+        },
+        {
+          "field": "genre_or_form",
+          "value": "明信片形式的诗歌作品集",
+          "source_refs": [
+            "WCD10-B10-S102",
+            "WCD10-B10-S101"
+          ],
+          "fact_candidate_id": "WCD10-B10-W104-F02"
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "《Artefactos》于1972年以明信片形式出版。",
+          "source_refs": [
+            "WCD10-B10-S101",
+            "WCD10-B10-S102"
+          ],
+          "fact_candidate_id": "WCD10-B10-W104-F03"
+        }
+      ],
+      "holds": [],
+      "gaps": []
+    },
+    {
+      "object_ref": "V1-ENT-0242",
+      "entity": {
+        "entity_id": "V1-ENT-0242",
+        "entity_type": "collection",
+        "name_zh": "《狄安娜之树》",
+        "original_name": "Árbol de Diana",
+        "canonical_status": "candidate",
+        "origin_count": "1",
+        "origin_refs": "CAND-B07-PIZARNIK-W01",
+        "normalization_basis": "B07 CVC bibliography and 1962 publication",
+        "issue_codes": "NONE"
+      },
+      "bibliography": "基线书目事实原样保留；仅补缺失体裁与简介。",
+      "description": "CVC评论借奥克塔维奥·帕斯的序言讨论书名象征，并提到作品中的色彩意象与绘画题献；此处仅概述该评论内容。",
+      "research_status": "institutional_commentary",
+      "research_refs": [
+        "WCD10-B10-S201",
+        "WCD10-B10-S202"
+      ],
+      "old_facts": [
+        {
+          "fact": {
+            "fact_id": "V1-FCT-0587",
+            "origin_material_id": "WEB-CE-B07",
+            "card_id": "V1-CARD-0130",
+            "subject_id": "V1-ENT-0242",
+            "fact_field": "entity_layer",
+            "value_text": "collection",
+            "material_class": "metadata",
+            "origin_id": "SRC-0192",
+            "confidence": "high",
+            "admission_status": "candidate_for_staging_review",
+            "usage_note": "Poetry book is represented as a collection."
+          },
+          "source_chain": [
+            {
+              "fact_id": "V1-FCT-0587",
+              "source_id": "SRC-0192",
+              "source_title": "CVC. Alejandra Pizarnik. Bibliografía. Obras"
+            }
+          ]
+        },
+        {
+          "fact": {
+            "fact_id": "V1-FCT-0588",
+            "origin_material_id": "WEB-CE-B07",
+            "card_id": "V1-CARD-0130",
+            "subject_id": "V1-ENT-0242",
+            "fact_field": "first_publication_year",
+            "value_text": "1962",
+            "material_class": "bibliographic",
+            "origin_id": "SRC-0192",
+            "confidence": "high",
+            "admission_status": "candidate_for_staging_review",
+            "usage_note": "CVC bibliography directly gives Árbol de Diana 1962."
+          },
+          "source_chain": [
+            {
+              "fact_id": "V1-FCT-0588",
+              "source_id": "SRC-0192",
+              "source_title": "CVC. Alejandra Pizarnik. Bibliografía. Obras"
+            }
+          ]
+        },
+        {
+          "fact": {
+            "fact_id": "V1-FCT-0589",
+            "origin_material_id": "WEB-CE-B07",
+            "card_id": "V1-CARD-0130",
+            "subject_id": "V1-ENT-0242",
+            "fact_field": "bibliographic_note",
+            "value_text": "CVC 书目直接列出 Árbol de Diana；本批不把作品页描述升级为主题事实。",
+            "material_class": "bibliographic",
+            "origin_id": "SRC-0192",
+            "confidence": "high",
+            "admission_status": "candidate_for_staging_review",
+            "usage_note": "Source supports title and year."
+          },
+          "source_chain": [
+            {
+              "fact_id": "V1-FCT-0589",
+              "source_id": "SRC-0192",
+              "source_title": "CVC. Alejandra Pizarnik. Bibliografía. Obras"
+            }
+          ]
+        }
+      ],
+      "cards": [
+        {
+          "card_id": "V1-CARD-0130",
+          "origin_card_id": "",
+          "subject_id": "V1-ENT-0242",
+          "card_type": "collection",
+          "title_zh": "《狄安娜之树》",
+          "author_label": "阿莱杭德拉·皮扎尼克",
+          "original_title": "Árbol de Diana",
+          "country_or_region": "阿根廷",
+          "language": "es",
+          "period_bucket": "1962",
+          "genre_or_form": "诗集",
+          "input_layer": "WEB-CE-B07",
+          "source_minimum_status": "meets",
+          "issue_code": "NONE",
+          "content_markdown": "### 《狄安娜之树》｜Árbol de Diana — CVC 书目页记录 1962 年题名。"
+        }
+      ],
+      "card_sources": [
+        {
+          "card_source_id": "V1-CS-0253",
+          "origin_matrix_id": "",
+          "card_id": "V1-CARD-0130",
+          "source_id": "SRC-0192",
+          "source_level": "B",
+          "source_role": "both",
+          "bibliographic_support": "yes",
+          "research_support": "yes",
+          "independent_source_key": "SRC-0192",
+          "usage_status": "used",
+          "issue_code": "NONE"
+        }
+      ],
+      "relations": [
+        {
+          "relationship_id": "V1-REL-0167",
+          "origin_layer": "WEB-CE-B07",
+          "origin_relation_group_id": "CAND-B07-0167",
+          "subject_id": "V1-ENT-0237",
+          "relation_type": "CREATED",
+          "object_id": "V1-ENT-0242",
+          "description_zh": "阿莱杭德拉·皮扎尼克 创作 《狄安娜之树》（Árbol de Diana）",
+          "confidence": "high",
+          "review_status": "accepted",
+          "upstream_review_status": "WEB-CE-B07",
+          "evidence_count": "1",
+          "issue_code": "NONE"
+        }
+      ],
+      "relationship_sources": [
+        {
+          "relationship_id": "V1-REL-0167",
+          "source_id": "SRC-0192"
+        }
+      ],
+      "relationship_evidence": [
+        {
+          "evidence_id": "V1-EV-0192",
+          "relationship_id": "V1-REL-0167",
+          "origin_evidence_id": "CAND-B07-0167",
+          "source_id": "SRC-0192",
+          "source_title": "CVC. Alejandra Pizarnik. Bibliografía. Obras",
+          "locator": "",
+          "evidence_note": "CVC bibliography directly lists Árbol de Diana.",
+          "confidence": "high",
+          "evidence_status": "eligible_evidence",
+          "evidence_origin": "WEB-CE-B07"
+        }
+      ],
+      "source_objects": [
+        {
+          "source_id": "SRC-0192",
+          "temporary_id": "B07-SRC-0192",
+          "title": "CVC. Alejandra Pizarnik. Bibliografía. Obras",
+          "original_title": "Bibliografía. Obras",
+          "author_or_editor": "Centro Virtual Cervantes",
+          "translator": "",
+          "publisher": "Instituto Cervantes",
+          "publication_year": "",
+          "isbn": "",
+          "format": "web_page",
+          "page_count": "",
+          "language": "es",
+          "source_level": "B",
+          "processing_status": "access_pass",
+          "source_task": "WEB-CE-B07",
+          "public_content_scope": "Árbol de Diana 1962、Los trabajos y las noches 1965、Extracción de la piedra de locura 1968",
+          "local_asset_status": "remote_only",
+          "persistent_id": "",
+          "canonical_url": "https://cvc.cervantes.es/literatura/escritores/pizarnik/bibliografia/default.htm"
+        }
+      ],
+      "fresh_review": {
+        "source_refs": [
+          "WCD10-B10-S202"
+        ],
+        "description": "仅补缺失体裁和机构评论简介；保全旧事实、卡片、作者关系及全部来源闭包。"
+      },
+      "remaining": "本条为归属明确的CVC机构评论；作品专门研究、版本及单篇谱系仍可继续核实。",
+      "source_author_id": "V1-ENT-0237",
+      "candidate_facts": [
+        {
+          "candidate_id": "WCD10-B10-F201",
+          "subject_id": "V1-ENT-0242",
+          "field": "genre_or_form",
+          "value": "诗集",
+          "source_refs": [
+            "WCD10-B10-S202"
+          ],
+          "boundary": "仅补旧对象缺失字段；基线记录全量保全。"
+        },
+        {
+          "candidate_id": "WCD10-B10-F202",
+          "subject_id": "V1-ENT-0242",
+          "field": "one_sentence_summary",
+          "value": "CVC评论借奥克塔维奥·帕斯的序言讨论书名象征，并提到作品中的色彩意象与绘画题献；此处仅概述该评论内容。",
+          "source_refs": [
+            "WCD10-B10-S202"
+          ],
+          "boundary": "仅补旧对象缺失字段；基线记录全量保全。"
+        }
+      ],
+      "card_facts": [
+        {
+          "card_id": "V1-CARD-0130",
+          "fact_id": "V1-FCT-0587",
+          "admission_status": "candidate_for_staging_review"
+        },
+        {
+          "card_id": "V1-CARD-0130",
+          "fact_id": "V1-FCT-0588",
+          "admission_status": "candidate_for_staging_review"
+        },
+        {
+          "card_id": "V1-CARD-0130",
+          "fact_id": "V1-FCT-0589",
+          "admission_status": "candidate_for_staging_review"
+        }
+      ]
+    },
+    {
+      "object_ref": "V1-ENT-0243",
+      "entity": {
+        "entity_id": "V1-ENT-0243",
+        "entity_type": "collection",
+        "name_zh": "《作品与夜晚》",
+        "original_name": "Los trabajos y las noches",
+        "canonical_status": "candidate",
+        "origin_count": "1",
+        "origin_refs": "CAND-B07-PIZARNIK-W02",
+        "normalization_basis": "B07 CVC bibliography and 1965 publication",
+        "issue_codes": "NONE"
+      },
+      "bibliography": "基线书目事实原样保留；仅补缺失体裁与简介。",
+      "description": "CVC评论指出，本集以爱情表达和对话、静默意象交织，并特别提到作品对语音与节奏的经营。",
+      "research_status": "institutional_commentary",
+      "research_refs": [
+        "WCD10-B10-S201",
+        "WCD10-B10-S203"
+      ],
+      "old_facts": [
+        {
+          "fact": {
+            "fact_id": "V1-FCT-0590",
+            "origin_material_id": "WEB-CE-B07",
+            "card_id": "V1-CARD-0131",
+            "subject_id": "V1-ENT-0243",
+            "fact_field": "entity_layer",
+            "value_text": "collection",
+            "material_class": "metadata",
+            "origin_id": "SRC-0192",
+            "confidence": "high",
+            "admission_status": "candidate_for_staging_review",
+            "usage_note": "Poetry book is represented as a collection."
+          },
+          "source_chain": [
+            {
+              "fact_id": "V1-FCT-0590",
+              "source_id": "SRC-0192",
+              "source_title": "CVC. Alejandra Pizarnik. Bibliografía. Obras"
+            }
+          ]
+        },
+        {
+          "fact": {
+            "fact_id": "V1-FCT-0591",
+            "origin_material_id": "WEB-CE-B07",
+            "card_id": "V1-CARD-0131",
+            "subject_id": "V1-ENT-0243",
+            "fact_field": "first_publication_year",
+            "value_text": "1965",
+            "material_class": "bibliographic",
+            "origin_id": "SRC-0192",
+            "confidence": "high",
+            "admission_status": "candidate_for_staging_review",
+            "usage_note": "CVC bibliography directly gives Los trabajos y las noches 1965."
+          },
+          "source_chain": [
+            {
+              "fact_id": "V1-FCT-0591",
+              "source_id": "SRC-0192",
+              "source_title": "CVC. Alejandra Pizarnik. Bibliografía. Obras"
+            }
+          ]
+        },
+        {
+          "fact": {
+            "fact_id": "V1-FCT-0592",
+            "origin_material_id": "WEB-CE-B07",
+            "card_id": "V1-CARD-0131",
+            "subject_id": "V1-ENT-0243",
+            "fact_field": "bibliographic_note",
+            "value_text": "CVC 书目直接列出 Los trabajos y las noches；本批不添加主题结论。",
+            "material_class": "bibliographic",
+            "origin_id": "SRC-0192",
+            "confidence": "high",
+            "admission_status": "candidate_for_staging_review",
+            "usage_note": "Source supports title and year."
+          },
+          "source_chain": [
+            {
+              "fact_id": "V1-FCT-0592",
+              "source_id": "SRC-0192",
+              "source_title": "CVC. Alejandra Pizarnik. Bibliografía. Obras"
+            }
+          ]
+        }
+      ],
+      "cards": [
+        {
+          "card_id": "V1-CARD-0131",
+          "origin_card_id": "",
+          "subject_id": "V1-ENT-0243",
+          "card_type": "collection",
+          "title_zh": "《作品与夜晚》",
+          "author_label": "阿莱杭德拉·皮扎尼克",
+          "original_title": "Los trabajos y las noches",
+          "country_or_region": "阿根廷",
+          "language": "es",
+          "period_bucket": "1965",
+          "genre_or_form": "诗集",
+          "input_layer": "WEB-CE-B07",
+          "source_minimum_status": "meets",
+          "issue_code": "NONE",
+          "content_markdown": "### 《作品与夜晚》｜Los trabajos y las noches — CVC 书目页记录 1965 年题名。"
+        }
+      ],
+      "card_sources": [
+        {
+          "card_source_id": "V1-CS-0254",
+          "origin_matrix_id": "",
+          "card_id": "V1-CARD-0131",
+          "source_id": "SRC-0192",
+          "source_level": "B",
+          "source_role": "both",
+          "bibliographic_support": "yes",
+          "research_support": "yes",
+          "independent_source_key": "SRC-0192",
+          "usage_status": "used",
+          "issue_code": "NONE"
+        }
+      ],
+      "relations": [
+        {
+          "relationship_id": "V1-REL-0168",
+          "origin_layer": "WEB-CE-B07",
+          "origin_relation_group_id": "CAND-B07-0168",
+          "subject_id": "V1-ENT-0237",
+          "relation_type": "CREATED",
+          "object_id": "V1-ENT-0243",
+          "description_zh": "阿莱杭德拉·皮扎尼克 创作 《作品与夜晚》（Los trabajos y las noches）",
+          "confidence": "high",
+          "review_status": "accepted",
+          "upstream_review_status": "WEB-CE-B07",
+          "evidence_count": "1",
+          "issue_code": "NONE"
+        }
+      ],
+      "relationship_sources": [
+        {
+          "relationship_id": "V1-REL-0168",
+          "source_id": "SRC-0192"
+        }
+      ],
+      "relationship_evidence": [
+        {
+          "evidence_id": "V1-EV-0193",
+          "relationship_id": "V1-REL-0168",
+          "origin_evidence_id": "CAND-B07-0168",
+          "source_id": "SRC-0192",
+          "source_title": "CVC. Alejandra Pizarnik. Bibliografía. Obras",
+          "locator": "",
+          "evidence_note": "CVC bibliography directly lists Los trabajos y las noches.",
+          "confidence": "high",
+          "evidence_status": "eligible_evidence",
+          "evidence_origin": "WEB-CE-B07"
+        }
+      ],
+      "source_objects": [
+        {
+          "source_id": "SRC-0192",
+          "temporary_id": "B07-SRC-0192",
+          "title": "CVC. Alejandra Pizarnik. Bibliografía. Obras",
+          "original_title": "Bibliografía. Obras",
+          "author_or_editor": "Centro Virtual Cervantes",
+          "translator": "",
+          "publisher": "Instituto Cervantes",
+          "publication_year": "",
+          "isbn": "",
+          "format": "web_page",
+          "page_count": "",
+          "language": "es",
+          "source_level": "B",
+          "processing_status": "access_pass",
+          "source_task": "WEB-CE-B07",
+          "public_content_scope": "Árbol de Diana 1962、Los trabajos y las noches 1965、Extracción de la piedra de locura 1968",
+          "local_asset_status": "remote_only",
+          "persistent_id": "",
+          "canonical_url": "https://cvc.cervantes.es/literatura/escritores/pizarnik/bibliografia/default.htm"
+        }
+      ],
+      "fresh_review": {
+        "source_refs": [
+          "WCD10-B10-S203"
+        ],
+        "description": "仅补缺失体裁和机构评论简介；保全旧事实、卡片、作者关系及全部来源闭包。"
+      },
+      "remaining": "本条为归属明确的CVC机构评论；作品专门研究、版本及单篇谱系仍可继续核实。",
+      "source_author_id": "V1-ENT-0237",
+      "candidate_facts": [
+        {
+          "candidate_id": "WCD10-B10-F203",
+          "subject_id": "V1-ENT-0243",
+          "field": "genre_or_form",
+          "value": "诗集",
+          "source_refs": [
+            "WCD10-B10-S203"
+          ],
+          "boundary": "仅补旧对象缺失字段；基线记录全量保全。"
+        },
+        {
+          "candidate_id": "WCD10-B10-F204",
+          "subject_id": "V1-ENT-0243",
+          "field": "one_sentence_summary",
+          "value": "CVC评论指出，本集以爱情表达和对话、静默意象交织，并特别提到作品对语音与节奏的经营。",
+          "source_refs": [
+            "WCD10-B10-S203"
+          ],
+          "boundary": "仅补旧对象缺失字段；基线记录全量保全。"
+        }
+      ],
+      "card_facts": [
+        {
+          "card_id": "V1-CARD-0131",
+          "fact_id": "V1-FCT-0590",
+          "admission_status": "candidate_for_staging_review"
+        },
+        {
+          "card_id": "V1-CARD-0131",
+          "fact_id": "V1-FCT-0591",
+          "admission_status": "candidate_for_staging_review"
+        },
+        {
+          "card_id": "V1-CARD-0131",
+          "fact_id": "V1-FCT-0592",
+          "admission_status": "candidate_for_staging_review"
+        }
+      ]
+    },
+    {
+      "object_ref": "V1-ENT-0244",
+      "entity": {
+        "entity_id": "V1-ENT-0244",
+        "entity_type": "collection",
+        "name_zh": "《取出疯石》",
+        "original_name": "Extracción de la piedra de locura",
+        "canonical_status": "candidate",
+        "origin_count": "1",
+        "origin_refs": "CAND-B07-PIZARNIK-W03",
+        "normalization_basis": "B07 CVC bibliography and works page; 1968 publication",
+        "issue_codes": "NONE"
+      },
+      "bibliography": "基线书目事实原样保留；仅补缺失体裁与简介。",
+      "description": "CVC评论以象征意象描述本书中的痛苦与无力，并指出作品从韵文化表达延展到散文形式。",
+      "research_status": "institutional_commentary",
+      "research_refs": [
+        "WCD10-B10-S201",
+        "WCD10-B10-S204",
+        "WCD10-B10-S208"
+      ],
+      "old_facts": [
+        {
+          "fact": {
+            "fact_id": "V1-FCT-0593",
+            "origin_material_id": "WEB-CE-B07",
+            "card_id": "V1-CARD-0132",
+            "subject_id": "V1-ENT-0244",
+            "fact_field": "entity_layer",
+            "value_text": "collection",
+            "material_class": "metadata",
+            "origin_id": "SRC-0193",
+            "confidence": "high",
+            "admission_status": "candidate_for_staging_review",
+            "usage_note": "Poetry book is represented as a collection."
+          },
+          "source_chain": [
+            {
+              "fact_id": "V1-FCT-0593",
+              "source_id": "SRC-0193",
+              "source_title": "CVC. Alejandra Pizarnik. Obra"
+            }
+          ]
+        },
+        {
+          "fact": {
+            "fact_id": "V1-FCT-0594",
+            "origin_material_id": "WEB-CE-B07",
+            "card_id": "V1-CARD-0132",
+            "subject_id": "V1-ENT-0244",
+            "fact_field": "first_publication_year",
+            "value_text": "1968",
+            "material_class": "bibliographic",
+            "origin_id": "SRC-0192",
+            "confidence": "high",
+            "admission_status": "candidate_for_staging_review",
+            "usage_note": "CVC bibliography directly gives Extracción de la piedra de locura 1968."
+          },
+          "source_chain": [
+            {
+              "fact_id": "V1-FCT-0594",
+              "source_id": "SRC-0192",
+              "source_title": "CVC. Alejandra Pizarnik. Bibliografía. Obras"
+            }
+          ]
+        },
+        {
+          "fact": {
+            "fact_id": "V1-FCT-0595",
+            "origin_material_id": "WEB-CE-B07",
+            "card_id": "V1-CARD-0132",
+            "subject_id": "V1-ENT-0244",
+            "fact_field": "bibliographic_note",
+            "value_text": "CVC 书目与作品页均列出 Extracción de la piedra de locura；本批仅作书目事实。",
+            "material_class": "bibliographic",
+            "origin_id": "SRC-0193",
+            "confidence": "high",
+            "admission_status": "candidate_for_staging_review",
+            "usage_note": "Sources support title, form and year."
+          },
+          "source_chain": [
+            {
+              "fact_id": "V1-FCT-0595",
+              "source_id": "SRC-0193",
+              "source_title": "CVC. Alejandra Pizarnik. Obra"
+            }
+          ]
+        }
+      ],
+      "cards": [
+        {
+          "card_id": "V1-CARD-0132",
+          "origin_card_id": "",
+          "subject_id": "V1-ENT-0244",
+          "card_type": "collection",
+          "title_zh": "《取出疯石》",
+          "author_label": "阿莱杭德拉·皮扎尼克",
+          "original_title": "Extracción de la piedra de locura",
+          "country_or_region": "阿根廷",
+          "language": "es",
+          "period_bucket": "1968",
+          "genre_or_form": "诗集",
+          "input_layer": "WEB-CE-B07",
+          "source_minimum_status": "meets",
+          "issue_code": "NONE",
+          "content_markdown": "### 《取出疯石》｜Extracción de la piedra de locura — CVC 书目与作品页共同支持题名和 1968 年。"
+        }
+      ],
+      "card_sources": [
+        {
+          "card_source_id": "V1-CS-0255",
+          "origin_matrix_id": "",
+          "card_id": "V1-CARD-0132",
+          "source_id": "SRC-0192",
+          "source_level": "B",
+          "source_role": "both",
+          "bibliographic_support": "yes",
+          "research_support": "yes",
+          "independent_source_key": "SRC-0192",
+          "usage_status": "used",
+          "issue_code": "NONE"
+        },
+        {
+          "card_source_id": "V1-CS-0256",
+          "origin_matrix_id": "",
+          "card_id": "V1-CARD-0132",
+          "source_id": "SRC-0193",
+          "source_level": "B",
+          "source_role": "both",
+          "bibliographic_support": "yes",
+          "research_support": "yes",
+          "independent_source_key": "SRC-0193",
+          "usage_status": "used",
+          "issue_code": "NONE"
+        }
+      ],
+      "relations": [
+        {
+          "relationship_id": "V1-REL-0169",
+          "origin_layer": "WEB-CE-B07",
+          "origin_relation_group_id": "CAND-B07-0169",
+          "subject_id": "V1-ENT-0237",
+          "relation_type": "CREATED",
+          "object_id": "V1-ENT-0244",
+          "description_zh": "阿莱杭德拉·皮扎尼克 创作 《取出疯石》（Extracción de la piedra de locura）",
+          "confidence": "high",
+          "review_status": "accepted",
+          "upstream_review_status": "WEB-CE-B07",
+          "evidence_count": "1",
+          "issue_code": "NONE"
+        }
+      ],
+      "relationship_sources": [
+        {
+          "relationship_id": "V1-REL-0169",
+          "source_id": "SRC-0192"
+        }
+      ],
+      "relationship_evidence": [
+        {
+          "evidence_id": "V1-EV-0194",
+          "relationship_id": "V1-REL-0169",
+          "origin_evidence_id": "CAND-B07-0169",
+          "source_id": "SRC-0192",
+          "source_title": "CVC. Alejandra Pizarnik. Bibliografía. Obras",
+          "locator": "",
+          "evidence_note": "CVC bibliography directly lists Extracción de la piedra de locura.",
+          "confidence": "high",
+          "evidence_status": "eligible_evidence",
+          "evidence_origin": "WEB-CE-B07"
+        }
+      ],
+      "source_objects": [
+        {
+          "source_id": "SRC-0192",
+          "temporary_id": "B07-SRC-0192",
+          "title": "CVC. Alejandra Pizarnik. Bibliografía. Obras",
+          "original_title": "Bibliografía. Obras",
+          "author_or_editor": "Centro Virtual Cervantes",
+          "translator": "",
+          "publisher": "Instituto Cervantes",
+          "publication_year": "",
+          "isbn": "",
+          "format": "web_page",
+          "page_count": "",
+          "language": "es",
+          "source_level": "B",
+          "processing_status": "access_pass",
+          "source_task": "WEB-CE-B07",
+          "public_content_scope": "Árbol de Diana 1962、Los trabajos y las noches 1965、Extracción de la piedra de locura 1968",
+          "local_asset_status": "remote_only",
+          "persistent_id": "",
+          "canonical_url": "https://cvc.cervantes.es/literatura/escritores/pizarnik/bibliografia/default.htm"
+        },
+        {
+          "source_id": "SRC-0193",
+          "temporary_id": "B07-SRC-0193",
+          "title": "CVC. Alejandra Pizarnik. Obra",
+          "original_title": "Obra de Alejandra Pizarnik",
+          "author_or_editor": "Centro Virtual Cervantes",
+          "translator": "",
+          "publisher": "Instituto Cervantes",
+          "publication_year": "",
+          "isbn": "",
+          "format": "web_page",
+          "page_count": "",
+          "language": "es",
+          "source_level": "B",
+          "processing_status": "access_pass",
+          "source_task": "WEB-CE-B07",
+          "public_content_scope": "Pizarnik 作品形态与主要诗集/散文作品范围",
+          "local_asset_status": "remote_only",
+          "persistent_id": "",
+          "canonical_url": "https://cvc.cervantes.es/literatura/escritores/pizarnik/obra/"
+        }
+      ],
+      "fresh_review": {
+        "source_refs": [
+          "WCD10-B10-S204",
+          "WCD10-B10-S208"
+        ],
+        "description": "仅补缺失体裁和机构评论简介；保全旧事实、卡片、作者关系及全部来源闭包。"
+      },
+      "remaining": "本条为归属明确的CVC机构评论；作品专门研究、版本及单篇谱系仍可继续核实。",
+      "source_author_id": "V1-ENT-0237",
+      "candidate_facts": [
+        {
+          "candidate_id": "WCD10-B10-F205",
+          "subject_id": "V1-ENT-0244",
+          "field": "genre_or_form",
+          "value": "诗集（含散文化表达）",
+          "source_refs": [
+            "WCD10-B10-S208"
+          ],
+          "boundary": "仅补旧对象缺失字段；基线记录全量保全。"
+        },
+        {
+          "candidate_id": "WCD10-B10-F206",
+          "subject_id": "V1-ENT-0244",
+          "field": "one_sentence_summary",
+          "value": "CVC评论以象征意象描述本书中的痛苦与无力，并指出作品从韵文化表达延展到散文形式。",
+          "source_refs": [
+            "WCD10-B10-S204",
+            "WCD10-B10-S208"
+          ],
+          "boundary": "仅补旧对象缺失字段；基线记录全量保全。"
+        }
+      ],
+      "card_facts": [
+        {
+          "card_id": "V1-CARD-0132",
+          "fact_id": "V1-FCT-0593",
+          "admission_status": "candidate_for_staging_review"
+        },
+        {
+          "card_id": "V1-CARD-0132",
+          "fact_id": "V1-FCT-0594",
+          "admission_status": "candidate_for_staging_review"
+        },
+        {
+          "card_id": "V1-CARD-0132",
+          "fact_id": "V1-FCT-0595",
+          "admission_status": "candidate_for_staging_review"
+        }
+      ]
+    },
+    {
+      "object_ref": "WCD10-B10-W201",
+      "entity": {
+        "entity_id": "WCD10-B10-W201",
+        "entity_type": "collection",
+        "name_zh": "《最遥远的土地》",
+        "original_name": "La tierra más ajena",
+        "canonical_status": "candidate",
+        "origin_count": "1",
+        "origin_refs": "WCD10-B10-CANDIDATE",
+        "normalization_basis": "中文为工作译名，西班牙语原题为身份锚点；不声称存在正式中文译本名。",
+        "issue_codes": "NONE"
+      },
+      "bibliography": "first_publication_year=1955; genre_or_form=诗集",
+      "description": "CVC资料称本作为皮扎尼克1955年出版的第一部诗集。",
+      "research_status": "institutional_commentary",
+      "research_refs": [
+        "WCD10-B10-S201",
+        "WCD10-B10-S208"
+      ],
+      "old_facts": [],
+      "cards": [],
+      "card_sources": [],
+      "relations": [],
+      "relationship_sources": [],
+      "relationship_evidence": [],
+      "source_objects": [],
+      "fresh_review": {
+        "source_refs": [
+          "WCD10-B10-S201",
+          "WCD10-B10-S208"
+        ],
+        "description": "CVC书目与作品评论直接支持；按普通机构简介记录，不宣称专门学术研究穷尽。",
+        "source_scope": "新增作品及CREATED作者归属候选。"
+      },
+      "remaining": "作品专门学术研究、诗集内部单篇、手稿及所有版本谱系未穷尽。",
+      "source_author_id": "V1-ENT-0237",
+      "candidate_facts": [
+        {
+          "field": "first_publication_year",
+          "value": "1955",
+          "source_refs": [
+            "WCD10-B10-S201"
+          ],
+          "fact_candidate_id": "WCD10-B10-W201-F01"
+        },
+        {
+          "field": "genre_or_form",
+          "value": "诗集",
+          "source_refs": [
+            "WCD10-B10-S208"
+          ],
+          "fact_candidate_id": "WCD10-B10-W201-F02"
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "CVC资料称本作为皮扎尼克1955年出版的第一部诗集。",
+          "source_refs": [
+            "WCD10-B10-S208"
+          ],
+          "fact_candidate_id": "WCD10-B10-W201-F03"
+        }
+      ]
+    },
+    {
+      "object_ref": "WCD10-B10-W202",
+      "entity": {
+        "entity_id": "WCD10-B10-W202",
+        "entity_type": "collection",
+        "name_zh": "《最后的纯真》",
+        "original_name": "La última inocencia",
+        "canonical_status": "candidate",
+        "origin_count": "1",
+        "origin_refs": "WCD10-B10-CANDIDATE",
+        "normalization_basis": "中文为工作译名，西班牙语原题为身份锚点；不声称存在正式中文译本名。",
+        "issue_codes": "NONE"
+      },
+      "bibliography": "first_publication_year=1956; genre_or_form=诗集",
+      "description": "CVC评论将书名联系到兰波《地狱一季》中的“最后的纯真”表述，并围绕梦境与记忆意象展开讨论。",
+      "research_status": "institutional_commentary",
+      "research_refs": [
+        "WCD10-B10-S201",
+        "WCD10-B10-S205"
+      ],
+      "old_facts": [],
+      "cards": [],
+      "card_sources": [],
+      "relations": [],
+      "relationship_sources": [],
+      "relationship_evidence": [],
+      "source_objects": [],
+      "fresh_review": {
+        "source_refs": [
+          "WCD10-B10-S201",
+          "WCD10-B10-S205"
+        ],
+        "description": "CVC书目与作品评论直接支持；按普通机构简介记录，不宣称专门学术研究穷尽。",
+        "source_scope": "新增作品及CREATED作者归属候选。"
+      },
+      "remaining": "作品专门学术研究、诗集内部单篇、手稿及所有版本谱系未穷尽。",
+      "source_author_id": "V1-ENT-0237",
+      "candidate_facts": [
+        {
+          "field": "first_publication_year",
+          "value": "1956",
+          "source_refs": [
+            "WCD10-B10-S201"
+          ],
+          "fact_candidate_id": "WCD10-B10-W202-F01"
+        },
+        {
+          "field": "genre_or_form",
+          "value": "诗集",
+          "source_refs": [
+            "WCD10-B10-S205"
+          ],
+          "fact_candidate_id": "WCD10-B10-W202-F02"
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "CVC评论将书名联系到兰波《地狱一季》中的“最后的纯真”表述，并围绕梦境与记忆意象展开讨论。",
+          "source_refs": [
+            "WCD10-B10-S205"
+          ],
+          "fact_candidate_id": "WCD10-B10-W202-F03"
+        }
+      ]
+    },
+    {
+      "object_ref": "WCD10-B10-W203",
+      "entity": {
+        "entity_id": "WCD10-B10-W203",
+        "entity_type": "collection",
+        "name_zh": "《失落的冒险》",
+        "original_name": "Las aventuras perdidas",
+        "canonical_status": "candidate",
+        "origin_count": "1",
+        "origin_refs": "WCD10-B10-CANDIDATE",
+        "normalization_basis": "中文为工作译名，西班牙语原题为身份锚点；不声称存在正式中文译本名。",
+        "issue_codes": "NONE"
+      },
+      "bibliography": "first_publication_year=1958; genre_or_form=诗集",
+      "description": "CVC评论以精神分析、超现实主义意象及镜像联想介绍本集，并提到诗中迷失方向的意象。",
+      "research_status": "institutional_commentary",
+      "research_refs": [
+        "WCD10-B10-S201",
+        "WCD10-B10-S206"
+      ],
+      "old_facts": [],
+      "cards": [],
+      "card_sources": [],
+      "relations": [],
+      "relationship_sources": [],
+      "relationship_evidence": [],
+      "source_objects": [],
+      "fresh_review": {
+        "source_refs": [
+          "WCD10-B10-S201",
+          "WCD10-B10-S206"
+        ],
+        "description": "CVC书目与作品评论直接支持；按普通机构简介记录，不宣称专门学术研究穷尽。",
+        "source_scope": "新增作品及CREATED作者归属候选。"
+      },
+      "remaining": "作品专门学术研究、诗集内部单篇、手稿及所有版本谱系未穷尽。",
+      "source_author_id": "V1-ENT-0237",
+      "candidate_facts": [
+        {
+          "field": "first_publication_year",
+          "value": "1958",
+          "source_refs": [
+            "WCD10-B10-S201"
+          ],
+          "fact_candidate_id": "WCD10-B10-W203-F01"
+        },
+        {
+          "field": "genre_or_form",
+          "value": "诗集",
+          "source_refs": [
+            "WCD10-B10-S206"
+          ],
+          "fact_candidate_id": "WCD10-B10-W203-F02"
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "CVC评论以精神分析、超现实主义意象及镜像联想介绍本集，并提到诗中迷失方向的意象。",
+          "source_refs": [
+            "WCD10-B10-S206"
+          ],
+          "fact_candidate_id": "WCD10-B10-W203-F03"
+        }
+      ]
+    },
+    {
+      "object_ref": "WCD10-B10-W204",
+      "entity": {
+        "entity_id": "WCD10-B10-W204",
+        "entity_type": "work",
+        "name_zh": "《嗜血伯爵夫人》",
+        "original_name": "La condesa sangrienta",
+        "canonical_status": "candidate",
+        "origin_count": "1",
+        "origin_refs": "WCD10-B10-CANDIDATE",
+        "normalization_basis": "中文为工作译名，西班牙语原题为身份锚点；不声称存在正式中文译本名。",
+        "issue_codes": "NONE"
+      },
+      "bibliography": "first_book_edition_year=1971; 散文（CVC称essay-poem-novel）；first-publication ambiguity retained in bibliographic_note.",
+      "description": "CVC评论称文本围绕Erzsébet Báthory展开，并将其称作essay-poem-novel。",
+      "research_status": "institutional_commentary",
+      "research_refs": [
+        "WCD10-B10-S201",
+        "WCD10-B10-S207"
+      ],
+      "old_facts": [],
+      "cards": [],
+      "card_sources": [],
+      "relations": [],
+      "relationship_sources": [],
+      "relationship_evidence": [],
+      "source_objects": [],
+      "fresh_review": {
+        "source_refs": [
+          "WCD10-B10-S201",
+          "WCD10-B10-S207"
+        ],
+        "description": "CVC记载1965年墨西哥首次预告、1966年Testigo刊载和1971年单行本；因文本关系未厘清，不填写原子首发年。",
+        "source_scope": "作品对象与直接作者归属候选。"
+      },
+      "remaining": "核定1965年首次预告与1966年Testigo刊载的文本关系；专门研究、手稿及版本谱系亦未穷尽。",
+      "source_author_id": "V1-ENT-0237",
+      "candidate_facts": [
+        {
+          "field": "first_book_edition_year",
+          "value": "1971",
+          "source_refs": [
+            "WCD10-B10-S207"
+          ],
+          "fact_candidate_id": "WCD10-B10-W204-F01"
+        },
+        {
+          "field": "genre_or_form",
+          "value": "散文（CVC称essay-poem-novel）",
+          "source_refs": [
+            "WCD10-B10-S207"
+          ],
+          "fact_candidate_id": "WCD10-B10-W204-F02"
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "CVC评论称文本围绕Erzsébet Báthory展开，并将其称作essay-poem-novel。",
+          "source_refs": [
+            "WCD10-B10-S207"
+          ],
+          "fact_candidate_id": "WCD10-B10-W204-F03"
+        },
+        {
+          "field": "bibliographic_note",
+          "value": "CVC记载该作品曾于1965年有一次“primer avance mexicano”，后于1966年刊于Testigo，并于1971年以单行本出版。因来源没有说明1965年预告与1966年刊载的文本关系，本候选不填原子first_publication_year。",
+          "source_refs": [
+            "WCD10-B10-S207"
+          ],
+          "fact_candidate_id": "WCD10-B10-W204-F04"
+        }
+      ]
+    },
+    {
+      "object_ref": "WCD10-B10-W205",
+      "entity": {
+        "entity_id": "WCD10-B10-W205",
+        "entity_type": "collection",
+        "name_zh": "《音乐地狱》",
+        "original_name": "El infierno musical",
+        "canonical_status": "candidate",
+        "origin_count": "1",
+        "origin_refs": "WCD10-B10-CANDIDATE",
+        "normalization_basis": "中文为工作译名，西班牙语原题为身份锚点；不声称存在正式中文译本名。",
+        "issue_codes": "NONE"
+      },
+      "bibliography": "first_publication_year=1971; genre_or_form=诗集",
+      "description": "CVC文章将“Cold in hand blues”标为本集诗篇，并讨论皮扎尼克如何以语言承载诗歌意象；概述限于该评论范围。",
+      "research_status": "institutional_commentary",
+      "research_refs": [
+        "WCD10-B10-S201",
+        "WCD10-B10-S209"
+      ],
+      "old_facts": [],
+      "cards": [],
+      "card_sources": [],
+      "relations": [],
+      "relationship_sources": [],
+      "relationship_evidence": [],
+      "source_objects": [],
+      "fresh_review": {
+        "source_refs": [
+          "WCD10-B10-S201",
+          "WCD10-B10-S209"
+        ],
+        "description": "CVC书目与作品评论直接支持；按普通机构简介记录，不宣称专门学术研究穷尽。",
+        "source_scope": "新增作品及CREATED作者归属候选。"
+      },
+      "remaining": "作品专门学术研究、诗集内部单篇、手稿及所有版本谱系未穷尽。",
+      "source_author_id": "V1-ENT-0237",
+      "candidate_facts": [
+        {
+          "field": "first_publication_year",
+          "value": "1971",
+          "source_refs": [
+            "WCD10-B10-S201"
+          ],
+          "fact_candidate_id": "WCD10-B10-W205-F01"
+        },
+        {
+          "field": "genre_or_form",
+          "value": "诗集",
+          "source_refs": [
+            "WCD10-B10-S209"
+          ],
+          "fact_candidate_id": "WCD10-B10-W205-F02"
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "CVC文章将“Cold in hand blues”标为本集诗篇，并讨论皮扎尼克如何以语言承载诗歌意象；概述限于该评论范围。",
+          "source_refs": [
+            "WCD10-B10-S209"
+          ],
+          "fact_candidate_id": "WCD10-B10-W205-F03"
+        }
+      ]
+    }
+  ],
+  "deferred_objects": [
+    {
+      "key": "parra.discursos-de-sobremesa.work-description",
+      "reason": "当前已打开机构来源只给出作者作品目录、版本状态及书目封面；没有直接作品层内容介绍，暂不推断主题或体裁。",
+      "disposition": "preserve as catalog_only and research_gap"
+    },
+    {
+      "key": "parra.cancionero-sin-nombre.first-publication-year",
+      "reason": "Memoria Chilena正文叙述称1935，页面书目/封面及智利大学目录记录1937；未据初版实物或权威馆藏裁决首版年，不提原子年份候选。",
+      "disposition": "preserve disputed year as research_gap"
+    }
+  ],
+  "author_context": {
+    "V1-ENT-0225": {
+      "author_id": "V1-ENT-0225",
+      "baseline_author_snapshot": {
+        "batch_id": "WCD-10-B10",
+        "task_id": "TASK-115",
+        "author": {
+          "entity_id": "V1-ENT-0225",
+          "entity_type": "author",
+          "name_zh": "何塞·马蒂",
+          "original_name": "José Martí",
+          "canonical_status": "candidate",
+          "origin_count": "3",
+          "origin_refs": "CAND-B06-MARTI-AUTHOR",
+          "normalization_basis": "B06 Cervantes Virtual Cuban literature dictionary and chronology; Chinese display candidate",
+          "issue_codes": "NONE"
+        },
+        "works": [
+          {
+            "entity": {
+              "entity_id": "V1-ENT-0232",
+              "entity_type": "collection",
+              "name_zh": "《伊斯梅利约》",
+              "original_name": "Ismaelillo",
+              "canonical_status": "candidate",
+              "origin_count": "2",
+              "origin_refs": "CAND-B06-MARTI-W01",
+              "normalization_basis": "B06 Cervantes Virtual bibliography and Ismaelillo study",
+              "issue_codes": "NONE"
+            },
+            "facts": [
+              {
+                "fact_id": "V1-FCT-0554",
+                "origin_material_id": "WEB-CE-B06",
+                "card_id": "V1-CARD-0121",
+                "subject_id": "V1-ENT-0232",
+                "fact_field": "entity_layer",
+                "value_text": "collection",
+                "material_class": "metadata",
+                "origin_id": "SRC-0187",
+                "confidence": "high",
+                "admission_status": "candidate_for_staging_review",
+                "usage_note": "作品层级与来源书目形态保持一致。"
+              },
+              {
+                "fact_id": "V1-FCT-0555",
+                "origin_material_id": "WEB-CE-B06",
+                "card_id": "V1-CARD-0121",
+                "subject_id": "V1-ENT-0232",
+                "fact_field": "first_publication_year",
+                "value_text": "1882",
+                "material_class": "bibliographic",
+                "origin_id": "SRC-0187",
+                "confidence": "high",
+                "admission_status": "candidate_for_staging_review",
+                "usage_note": "Cervantes Virtual 研究直接记录 Ismaelillo（1882）；本批只作诗集书目。"
+              },
+              {
+                "fact_id": "V1-FCT-0556",
+                "origin_material_id": "WEB-CE-B06",
+                "card_id": "V1-CARD-0121",
+                "subject_id": "V1-ENT-0232",
+                "fact_field": "bibliographic_note",
+                "value_text": "Cervantes Virtual 作者页直接记录 Ismaelillo（1882）；本批只作诗集书目。",
+                "material_class": "bibliographic",
+                "origin_id": "SRC-0187",
+                "confidence": "high",
+                "admission_status": "candidate_for_staging_review",
+                "usage_note": "来源支持原文题名、形态与年份；不据此推导主题、影响或文学地位。"
+              }
+            ],
+            "cards": [
+              {
+                "card_id": "V1-CARD-0121",
+                "origin_card_id": "",
+                "subject_id": "V1-ENT-0232",
+                "card_type": "collection",
+                "title_zh": "《伊斯梅利约》",
+                "author_label": "何塞·马蒂",
+                "original_title": "Ismaelillo",
+                "country_or_region": "古巴",
+                "language": "es",
+                "period_bucket": "1882",
+                "genre_or_form": "诗集",
+                "input_layer": "WEB-CE-B06",
+                "source_minimum_status": "meets",
+                "issue_code": "NONE",
+                "content_markdown": "### 《伊斯梅利约》｜Ismaelillo — Cervantes Virtual 资料记录 1882 年出版；中文展示名服务读者识别。"
+              }
+            ],
+            "relations": [
+              {
+                "relationship_id": "V1-REL-0158",
+                "origin_layer": "WEB-CE-B06",
+                "origin_relation_group_id": "CAND-B06-0158",
+                "subject_id": "V1-ENT-0225",
+                "relation_type": "CREATED",
+                "object_id": "V1-ENT-0232",
+                "description_zh": "V1-ENT-0225 创作 Ismaelillo",
+                "confidence": "high",
+                "review_status": "accepted",
+                "upstream_review_status": "WEB-CE-B06",
+                "evidence_count": "1",
+                "issue_code": "NONE"
+              }
+            ],
+            "fact_sources": [
+              {
+                "fact_id": "V1-FCT-0554",
+                "source_id": "SRC-0187",
+                "source_title": "Traductores hispanoamericanos — José Martí"
+              },
+              {
+                "fact_id": "V1-FCT-0555",
+                "source_id": "SRC-0187",
+                "source_title": "Traductores hispanoamericanos — José Martí"
+              },
+              {
+                "fact_id": "V1-FCT-0556",
+                "source_id": "SRC-0187",
+                "source_title": "Traductores hispanoamericanos — José Martí"
+              }
+            ],
+            "card_sources": [
+              {
+                "card_source_id": "V1-CS-0234",
+                "origin_matrix_id": "",
+                "card_id": "V1-CARD-0121",
+                "source_id": "SRC-0183",
+                "source_level": "B",
+                "source_role": "both",
+                "bibliographic_support": "yes",
+                "research_support": "yes",
+                "independent_source_key": "SRC-0183",
+                "usage_status": "used",
+                "issue_code": "NONE"
+              },
+              {
+                "card_source_id": "V1-CS-0235",
+                "origin_matrix_id": "",
+                "card_id": "V1-CARD-0121",
+                "source_id": "SRC-0187",
+                "source_level": "B",
+                "source_role": "both",
+                "bibliographic_support": "yes",
+                "research_support": "yes",
+                "independent_source_key": "SRC-0187",
+                "usage_status": "used",
+                "issue_code": "NONE"
+              }
+            ],
+            "relationship_sources": [
+              {
+                "relationship_id": "V1-REL-0158",
+                "source_id": "SRC-0187"
+              }
+            ],
+            "relationship_evidence": [
+              {
+                "evidence_id": "V1-EV-0183",
+                "relationship_id": "V1-REL-0158",
+                "origin_evidence_id": "CAND-B06-0158",
+                "source_id": "SRC-0187",
+                "source_title": "Traductores hispanoamericanos — José Martí",
+                "locator": "",
+                "evidence_note": "机构来源直接支持作者—作品书目或作者—国家身份关联；本批不扩展解释性关系。",
+                "confidence": "high",
+                "evidence_status": "eligible_evidence",
+                "evidence_origin": "WEB-CE-B06"
+              }
+            ],
+            "source_objects": [
+              {
+                "source_id": "SRC-0183",
+                "temporary_id": "B06-SRC-0183",
+                "title": "Los monstruos del latinoamericanismo arielista: variaciones del apetito en la periferia neocolonial",
+                "original_title": "Los monstruos del latinoamericanismo arielista",
+                "author_or_editor": "Biblioteca Virtual Miguel de Cervantes",
+                "translator": "",
+                "publisher": "Biblioteca Virtual Miguel de Cervantes",
+                "publication_year": "",
+                "isbn": "",
+                "format": "web_page",
+                "page_count": "",
+                "language": "es",
+                "source_level": "B",
+                "processing_status": "access_pass",
+                "source_task": "WEB-CE-B06",
+                "public_content_scope": "José Martí 1853–1895 与古巴思想语境；出生城市、职业和作品书目改由 SRC-0187 支撑",
+                "local_asset_status": "remote_only",
+                "persistent_id": "",
+                "canonical_url": "https://www.cervantesvirtual.com/obra-visor/los-monstruos-del-latinoamericanismo-arielista-variaciones-del-apetito-en-la-periferia-neocolonial/html/1cbb2714-8b3b-407a-adb0-42b16db79e0a_13.html"
+              },
+              {
+                "source_id": "SRC-0187",
+                "temporary_id": "B06-SRC-0187",
+                "title": "Traductores hispanoamericanos — José Martí",
+                "original_title": "José Martí",
+                "author_or_editor": "Biblioteca Virtual Miguel de Cervantes",
+                "translator": "",
+                "publisher": "Biblioteca Virtual Miguel de Cervantes",
+                "publication_year": "",
+                "isbn": "",
+                "format": "web_page",
+                "page_count": "",
+                "language": "es",
+                "source_level": "B",
+                "processing_status": "access_pass",
+                "source_task": "WEB-CE-B06",
+                "public_content_scope": "José Martí La Habana 1853–1895、诗人/作家/政治人物身份、Ismaelillo 1882、Versos sencillos 1891",
+                "local_asset_status": "remote_only",
+                "persistent_id": "",
+                "canonical_url": "https://www.cervantesvirtual.com/portales/traducciones_hispanoamericanas/traductores/"
+              }
+            ],
+            "flags": [
+              "genre_missing",
+              "object_description_fact_missing"
+            ]
+          },
+          {
+            "entity": {
+              "entity_id": "V1-ENT-0233",
+              "entity_type": "collection",
+              "name_zh": "《纯朴的诗》",
+              "original_name": "Versos sencillos",
+              "canonical_status": "candidate",
+              "origin_count": "2",
+              "origin_refs": "CAND-B06-MARTI-W02",
+              "normalization_basis": "B06 Cervantes Virtual chronology and bibliography",
+              "issue_codes": "NONE"
+            },
+            "facts": [
+              {
+                "fact_id": "V1-FCT-0557",
+                "origin_material_id": "WEB-CE-B06",
+                "card_id": "V1-CARD-0122",
+                "subject_id": "V1-ENT-0233",
+                "fact_field": "entity_layer",
+                "value_text": "collection",
+                "material_class": "metadata",
+                "origin_id": "SRC-0185",
+                "confidence": "high",
+                "admission_status": "candidate_for_staging_review",
+                "usage_note": "作品层级与来源书目形态保持一致。"
+              },
+              {
+                "fact_id": "V1-FCT-0558",
+                "origin_material_id": "WEB-CE-B06",
+                "card_id": "V1-CARD-0122",
+                "subject_id": "V1-ENT-0233",
+                "fact_field": "first_publication_year",
+                "value_text": "1891",
+                "material_class": "bibliographic",
+                "origin_id": "SRC-0185",
+                "confidence": "high",
+                "admission_status": "candidate_for_staging_review",
+                "usage_note": "Cervantes Virtual 年表列出 Versos sencillos（1891）；本批只作诗集书目。"
+              },
+              {
+                "fact_id": "V1-FCT-0559",
+                "origin_material_id": "WEB-CE-B06",
+                "card_id": "V1-CARD-0122",
+                "subject_id": "V1-ENT-0233",
+                "fact_field": "bibliographic_note",
+                "value_text": "Cervantes Virtual 年表列出 Versos sencillos（1891）；本批只作诗集书目。",
+                "material_class": "bibliographic",
+                "origin_id": "SRC-0185",
+                "confidence": "high",
+                "admission_status": "candidate_for_staging_review",
+                "usage_note": "来源支持原文题名、形态与年份；不据此推导主题、影响或文学地位。"
+              }
+            ],
+            "cards": [
+              {
+                "card_id": "V1-CARD-0122",
+                "origin_card_id": "",
+                "subject_id": "V1-ENT-0233",
+                "card_type": "collection",
+                "title_zh": "《纯朴的诗》",
+                "author_label": "何塞·马蒂",
+                "original_title": "Versos sencillos",
+                "country_or_region": "古巴",
+                "language": "es",
+                "period_bucket": "1891",
+                "genre_or_form": "诗集",
+                "input_layer": "WEB-CE-B06",
+                "source_minimum_status": "meets",
+                "issue_code": "NONE",
+                "content_markdown": "### 《纯朴的诗》｜Versos sencillos — Cervantes Virtual 年表记录 1891 年；作品保持 collection 层级。"
+              }
+            ],
+            "relations": [
+              {
+                "relationship_id": "V1-REL-0159",
+                "origin_layer": "WEB-CE-B06",
+                "origin_relation_group_id": "CAND-B06-0159",
+                "subject_id": "V1-ENT-0225",
+                "relation_type": "CREATED",
+                "object_id": "V1-ENT-0233",
+                "description_zh": "V1-ENT-0225 创作 Versos sencillos",
+                "confidence": "high",
+                "review_status": "accepted",
+                "upstream_review_status": "WEB-CE-B06",
+                "evidence_count": "1",
+                "issue_code": "NONE"
+              }
+            ],
+            "fact_sources": [
+              {
+                "fact_id": "V1-FCT-0557",
+                "source_id": "SRC-0185",
+                "source_title": "Las letras hispanoamericanas en el siglo XIX"
+              },
+              {
+                "fact_id": "V1-FCT-0558",
+                "source_id": "SRC-0185",
+                "source_title": "Las letras hispanoamericanas en el siglo XIX"
+              },
+              {
+                "fact_id": "V1-FCT-0559",
+                "source_id": "SRC-0185",
+                "source_title": "Las letras hispanoamericanas en el siglo XIX"
+              }
+            ],
+            "card_sources": [
+              {
+                "card_source_id": "V1-CS-0236",
+                "origin_matrix_id": "",
+                "card_id": "V1-CARD-0122",
+                "source_id": "SRC-0183",
+                "source_level": "B",
+                "source_role": "both",
+                "bibliographic_support": "yes",
+                "research_support": "yes",
+                "independent_source_key": "SRC-0183",
+                "usage_status": "used",
+                "issue_code": "NONE"
+              },
+              {
+                "card_source_id": "V1-CS-0237",
+                "origin_matrix_id": "",
+                "card_id": "V1-CARD-0122",
+                "source_id": "SRC-0185",
+                "source_level": "B",
+                "source_role": "both",
+                "bibliographic_support": "yes",
+                "research_support": "yes",
+                "independent_source_key": "SRC-0185",
+                "usage_status": "used",
+                "issue_code": "NONE"
+              }
+            ],
+            "relationship_sources": [
+              {
+                "relationship_id": "V1-REL-0159",
+                "source_id": "SRC-0185"
+              }
+            ],
+            "relationship_evidence": [
+              {
+                "evidence_id": "V1-EV-0184",
+                "relationship_id": "V1-REL-0159",
+                "origin_evidence_id": "CAND-B06-0159",
+                "source_id": "SRC-0185",
+                "source_title": "Las letras hispanoamericanas en el siglo XIX",
+                "locator": "",
+                "evidence_note": "机构来源直接支持作者—作品书目或作者—国家身份关联；本批不扩展解释性关系。",
+                "confidence": "high",
+                "evidence_status": "eligible_evidence",
+                "evidence_origin": "WEB-CE-B06"
+              }
+            ],
+            "source_objects": [
+              {
+                "source_id": "SRC-0183",
+                "temporary_id": "B06-SRC-0183",
+                "title": "Los monstruos del latinoamericanismo arielista: variaciones del apetito en la periferia neocolonial",
+                "original_title": "Los monstruos del latinoamericanismo arielista",
+                "author_or_editor": "Biblioteca Virtual Miguel de Cervantes",
+                "translator": "",
+                "publisher": "Biblioteca Virtual Miguel de Cervantes",
+                "publication_year": "",
+                "isbn": "",
+                "format": "web_page",
+                "page_count": "",
+                "language": "es",
+                "source_level": "B",
+                "processing_status": "access_pass",
+                "source_task": "WEB-CE-B06",
+                "public_content_scope": "José Martí 1853–1895 与古巴思想语境；出生城市、职业和作品书目改由 SRC-0187 支撑",
+                "local_asset_status": "remote_only",
+                "persistent_id": "",
+                "canonical_url": "https://www.cervantesvirtual.com/obra-visor/los-monstruos-del-latinoamericanismo-arielista-variaciones-del-apetito-en-la-periferia-neocolonial/html/1cbb2714-8b3b-407a-adb0-42b16db79e0a_13.html"
+              },
+              {
+                "source_id": "SRC-0185",
+                "temporary_id": "B06-SRC-0185",
+                "title": "Las letras hispanoamericanas en el siglo XIX",
+                "original_title": "Las letras hispanoamericanas en el siglo XIX",
+                "author_or_editor": "Biblioteca Virtual Miguel de Cervantes",
+                "translator": "",
+                "publisher": "Biblioteca Virtual Miguel de Cervantes",
+                "publication_year": "",
+                "isbn": "",
+                "format": "web_page",
+                "page_count": "",
+                "language": "es",
+                "source_level": "B",
+                "processing_status": "access_pass",
+                "source_task": "WEB-CE-B06",
+                "public_content_scope": "Versos sencillos 与 Nuestra América 1891 年份",
+                "local_asset_status": "remote_only",
+                "persistent_id": "",
+                "canonical_url": "https://www.cervantesvirtual.com/obra-visor/las-letras-hispanoamericanas-en-el-siglo-xix--0/html/ff2fae94-82b1-11df-acc7-002185ce6064_5.html"
+              }
+            ],
+            "flags": [
+              "genre_missing",
+              "object_description_fact_missing"
+            ]
+          },
+          {
+            "entity": {
+              "entity_id": "V1-ENT-0234",
+              "entity_type": "work",
+              "name_zh": "《我们的美洲》",
+              "original_name": "Nuestra América",
+              "canonical_status": "candidate",
+              "origin_count": "2",
+              "origin_refs": "CAND-B06-MARTI-W03",
+              "normalization_basis": "B06 Cervantes Virtual chronology and bibliography; essay layer",
+              "issue_codes": "NONE"
+            },
+            "facts": [
+              {
+                "fact_id": "V1-FCT-0560",
+                "origin_material_id": "WEB-CE-B06",
+                "card_id": "V1-CARD-0123",
+                "subject_id": "V1-ENT-0234",
+                "fact_field": "entity_layer",
+                "value_text": "work",
+                "material_class": "metadata",
+                "origin_id": "SRC-0185",
+                "confidence": "high",
+                "admission_status": "candidate_for_staging_review",
+                "usage_note": "作品层级与来源书目形态保持一致。"
+              },
+              {
+                "fact_id": "V1-FCT-0561",
+                "origin_material_id": "WEB-CE-B06",
+                "card_id": "V1-CARD-0123",
+                "subject_id": "V1-ENT-0234",
+                "fact_field": "first_publication_year",
+                "value_text": "1891",
+                "material_class": "bibliographic",
+                "origin_id": "SRC-0185",
+                "confidence": "high",
+                "admission_status": "candidate_for_staging_review",
+                "usage_note": "Cervantes Virtual 年表列出 Nuestra América（1891）；本批按 essay work 层级记录。"
+              },
+              {
+                "fact_id": "V1-FCT-0562",
+                "origin_material_id": "WEB-CE-B06",
+                "card_id": "V1-CARD-0123",
+                "subject_id": "V1-ENT-0234",
+                "fact_field": "bibliographic_note",
+                "value_text": "Cervantes Virtual 年表列出 Nuestra América（1891）；本批按 essay work 层级记录。",
+                "material_class": "bibliographic",
+                "origin_id": "SRC-0185",
+                "confidence": "high",
+                "admission_status": "candidate_for_staging_review",
+                "usage_note": "来源支持原文题名、形态与年份；不据此推导主题、影响或文学地位。"
+              }
+            ],
+            "cards": [
+              {
+                "card_id": "V1-CARD-0123",
+                "origin_card_id": "",
+                "subject_id": "V1-ENT-0234",
+                "card_type": "work",
+                "title_zh": "《我们的美洲》",
+                "author_label": "何塞·马蒂",
+                "original_title": "Nuestra América",
+                "country_or_region": "古巴",
+                "language": "es",
+                "period_bucket": "1891",
+                "genre_or_form": "随笔",
+                "input_layer": "WEB-CE-B06",
+                "source_minimum_status": "meets",
+                "issue_code": "NONE",
+                "content_markdown": "### 《我们的美洲》｜Nuestra América — 机构年表记录 1891 年文本；本批记录 essay 书目，不扩写政治影响关系。"
+              }
+            ],
+            "relations": [
+              {
+                "relationship_id": "V1-REL-0160",
+                "origin_layer": "WEB-CE-B06",
+                "origin_relation_group_id": "CAND-B06-0160",
+                "subject_id": "V1-ENT-0225",
+                "relation_type": "CREATED",
+                "object_id": "V1-ENT-0234",
+                "description_zh": "V1-ENT-0225 创作 Nuestra América",
+                "confidence": "high",
+                "review_status": "accepted",
+                "upstream_review_status": "WEB-CE-B06",
+                "evidence_count": "1",
+                "issue_code": "NONE"
+              }
+            ],
+            "fact_sources": [
+              {
+                "fact_id": "V1-FCT-0560",
+                "source_id": "SRC-0185",
+                "source_title": "Las letras hispanoamericanas en el siglo XIX"
+              },
+              {
+                "fact_id": "V1-FCT-0561",
+                "source_id": "SRC-0185",
+                "source_title": "Las letras hispanoamericanas en el siglo XIX"
+              },
+              {
+                "fact_id": "V1-FCT-0562",
+                "source_id": "SRC-0185",
+                "source_title": "Las letras hispanoamericanas en el siglo XIX"
+              }
+            ],
+            "card_sources": [
+              {
+                "card_source_id": "V1-CS-0238",
+                "origin_matrix_id": "",
+                "card_id": "V1-CARD-0123",
+                "source_id": "SRC-0183",
+                "source_level": "B",
+                "source_role": "both",
+                "bibliographic_support": "yes",
+                "research_support": "yes",
+                "independent_source_key": "SRC-0183",
+                "usage_status": "used",
+                "issue_code": "NONE"
+              },
+              {
+                "card_source_id": "V1-CS-0239",
+                "origin_matrix_id": "",
+                "card_id": "V1-CARD-0123",
+                "source_id": "SRC-0185",
+                "source_level": "B",
+                "source_role": "both",
+                "bibliographic_support": "yes",
+                "research_support": "yes",
+                "independent_source_key": "SRC-0185",
+                "usage_status": "used",
+                "issue_code": "NONE"
+              }
+            ],
+            "relationship_sources": [
+              {
+                "relationship_id": "V1-REL-0160",
+                "source_id": "SRC-0185"
+              }
+            ],
+            "relationship_evidence": [
+              {
+                "evidence_id": "V1-EV-0185",
+                "relationship_id": "V1-REL-0160",
+                "origin_evidence_id": "CAND-B06-0160",
+                "source_id": "SRC-0185",
+                "source_title": "Las letras hispanoamericanas en el siglo XIX",
+                "locator": "",
+                "evidence_note": "机构来源直接支持作者—作品书目或作者—国家身份关联；本批不扩展解释性关系。",
+                "confidence": "high",
+                "evidence_status": "eligible_evidence",
+                "evidence_origin": "WEB-CE-B06"
+              }
+            ],
+            "source_objects": [
+              {
+                "source_id": "SRC-0183",
+                "temporary_id": "B06-SRC-0183",
+                "title": "Los monstruos del latinoamericanismo arielista: variaciones del apetito en la periferia neocolonial",
+                "original_title": "Los monstruos del latinoamericanismo arielista",
+                "author_or_editor": "Biblioteca Virtual Miguel de Cervantes",
+                "translator": "",
+                "publisher": "Biblioteca Virtual Miguel de Cervantes",
+                "publication_year": "",
+                "isbn": "",
+                "format": "web_page",
+                "page_count": "",
+                "language": "es",
+                "source_level": "B",
+                "processing_status": "access_pass",
+                "source_task": "WEB-CE-B06",
+                "public_content_scope": "José Martí 1853–1895 与古巴思想语境；出生城市、职业和作品书目改由 SRC-0187 支撑",
+                "local_asset_status": "remote_only",
+                "persistent_id": "",
+                "canonical_url": "https://www.cervantesvirtual.com/obra-visor/los-monstruos-del-latinoamericanismo-arielista-variaciones-del-apetito-en-la-periferia-neocolonial/html/1cbb2714-8b3b-407a-adb0-42b16db79e0a_13.html"
+              },
+              {
+                "source_id": "SRC-0185",
+                "temporary_id": "B06-SRC-0185",
+                "title": "Las letras hispanoamericanas en el siglo XIX",
+                "original_title": "Las letras hispanoamericanas en el siglo XIX",
+                "author_or_editor": "Biblioteca Virtual Miguel de Cervantes",
+                "translator": "",
+                "publisher": "Biblioteca Virtual Miguel de Cervantes",
+                "publication_year": "",
+                "isbn": "",
+                "format": "web_page",
+                "page_count": "",
+                "language": "es",
+                "source_level": "B",
+                "processing_status": "access_pass",
+                "source_task": "WEB-CE-B06",
+                "public_content_scope": "Versos sencillos 与 Nuestra América 1891 年份",
+                "local_asset_status": "remote_only",
+                "persistent_id": "",
+                "canonical_url": "https://www.cervantesvirtual.com/obra-visor/las-letras-hispanoamericanas-en-el-siglo-xix--0/html/ff2fae94-82b1-11df-acc7-002185ce6064_5.html"
+              }
+            ],
+            "flags": [
+              "genre_missing",
+              "object_description_fact_missing"
+            ]
+          },
+          {
+            "entity": {
+              "entity_id": "V1-ENT-0376",
+              "entity_type": "collection",
+              "name_zh": "《自由诗》",
+              "original_name": "Versos libres",
+              "canonical_status": "candidate",
+              "origin_count": "2",
+              "origin_refs": "WCD07A-W03",
+              "normalization_basis": "Two independently authored studies establish the posthumous 1913 poetry collection; Chinese is a display gloss, not a claimed edition",
+              "issue_codes": "PROVISIONAL-ZH-DISPLAY"
+            },
+            "facts": [
+              {
+                "fact_id": "V1-FCT-1015",
+                "origin_material_id": "WCD07A-F011",
+                "card_id": "V1-CARD-0258",
+                "subject_id": "V1-ENT-0376",
+                "fact_field": "entity_layer",
+                "value_text": "collection",
+                "material_class": "metadata",
+                "origin_id": "WCD07A-W03",
+                "confidence": "high",
+                "admission_status": "batch_retained_candidate",
+                "usage_note": "posthumous original collection"
+              },
+              {
+                "fact_id": "V1-FCT-1016",
+                "origin_material_id": "WCD07A-F012",
+                "card_id": "V1-CARD-0258",
+                "subject_id": "V1-ENT-0376",
+                "fact_field": "first_publication_year",
+                "value_text": "1913",
+                "material_class": "bibliographic",
+                "origin_id": "WCD07A-W03",
+                "confidence": "high",
+                "admission_status": "batch_retained_candidate",
+                "usage_note": "posthumous publication"
+              },
+              {
+                "fact_id": "V1-FCT-1017",
+                "origin_material_id": "WCD07A-F013",
+                "card_id": "V1-CARD-0258",
+                "subject_id": "V1-ENT-0376",
+                "fact_field": "genre_or_form",
+                "value_text": "诗集",
+                "material_class": "bibliographic",
+                "origin_id": "WCD07A-W03",
+                "confidence": "high",
+                "admission_status": "batch_retained_candidate",
+                "usage_note": "original collection"
+              },
+              {
+                "fact_id": "V1-FCT-1018",
+                "origin_material_id": "WCD07A-F014",
+                "card_id": "V1-CARD-0258",
+                "subject_id": "V1-ENT-0376",
+                "fact_field": "bibliographic_note",
+                "value_text": "诗作写于作者生前，几乎全部约作于1882年，并于1913年身后出版。",
+                "material_class": "bibliographic_note",
+                "origin_id": "WCD07A-W03",
+                "confidence": "high",
+                "admission_status": "batch_retained_candidate",
+                "usage_note": "composition and publication kept distinct"
+              },
+              {
+                "fact_id": "V1-FCT-1019",
+                "origin_material_id": "WCD07A-F015",
+                "card_id": "V1-CARD-0258",
+                "subject_id": "V1-ENT-0376",
+                "fact_field": "story_premise",
+                "value_text": "诗集以无韵十一音节诗及强烈跨行、意象构成其形式特征。",
+                "material_class": "scholarly_paraphrase",
+                "origin_id": "WCD07A-W03",
+                "confidence": "medium",
+                "admission_status": "batch_retained_candidate",
+                "usage_note": "no movement relation inferred"
+              }
+            ],
+            "cards": [
+              {
+                "card_id": "V1-CARD-0258",
+                "origin_card_id": "WCD07A-W03",
+                "subject_id": "V1-ENT-0376",
+                "card_type": "collection",
+                "title_zh": "《自由诗》",
+                "author_label": "何塞·马蒂",
+                "original_title": "Versos libres",
+                "country_or_region": "古巴",
+                "language": "es",
+                "period_bucket": "1913",
+                "genre_or_form": "诗集",
+                "input_layer": "WCD-07A",
+                "source_minimum_status": "meets",
+                "issue_code": "PROVISIONAL-ZH-DISPLAY",
+                "content_markdown": "### 《自由诗》｜Versos libres\\n\\n- 对象类型：`collection`｜首版：1913（身后出版）｜体裁：诗集\\n- 研究基线：中文名仅作显示，不主张存在独立正式全本中译。"
+              }
+            ],
+            "relations": [
+              {
+                "relationship_id": "V1-REL-0333",
+                "origin_layer": "WCD-07A",
+                "origin_relation_group_id": "WCD07A-R03",
+                "subject_id": "V1-ENT-0225",
+                "relation_type": "CREATED",
+                "object_id": "V1-ENT-0376",
+                "description_zh": "何塞·马蒂创作《自由诗》",
+                "confidence": "high",
+                "review_status": "accepted",
+                "upstream_review_status": "CODEX-REVIEW-WCD07A-PASS",
+                "evidence_count": "2",
+                "issue_code": "NONE"
+              }
+            ],
+            "fact_sources": [
+              {
+                "fact_id": "V1-FCT-1015",
+                "source_id": "SRC-0306",
+                "source_title": "Tradición y modernidad en los Versos libres"
+              },
+              {
+                "fact_id": "V1-FCT-1015",
+                "source_id": "SRC-0307",
+                "source_title": "Introducción a la literatura cubana"
+              },
+              {
+                "fact_id": "V1-FCT-1016",
+                "source_id": "SRC-0306",
+                "source_title": "Tradición y modernidad en los Versos libres"
+              },
+              {
+                "fact_id": "V1-FCT-1016",
+                "source_id": "SRC-0307",
+                "source_title": "Introducción a la literatura cubana"
+              },
+              {
+                "fact_id": "V1-FCT-1017",
+                "source_id": "SRC-0306",
+                "source_title": "Tradición y modernidad en los Versos libres"
+              },
+              {
+                "fact_id": "V1-FCT-1017",
+                "source_id": "SRC-0307",
+                "source_title": "Introducción a la literatura cubana"
+              },
+              {
+                "fact_id": "V1-FCT-1018",
+                "source_id": "SRC-0306",
+                "source_title": "Tradición y modernidad en los Versos libres"
+              },
+              {
+                "fact_id": "V1-FCT-1018",
+                "source_id": "SRC-0307",
+                "source_title": "Introducción a la literatura cubana"
+              },
+              {
+                "fact_id": "V1-FCT-1019",
+                "source_id": "SRC-0307",
+                "source_title": "Introducción a la literatura cubana"
+              }
+            ],
+            "card_sources": [
+              {
+                "card_source_id": "V1-CS-0525",
+                "origin_matrix_id": "WCD07A-S07",
+                "card_id": "V1-CARD-0258",
+                "source_id": "SRC-0306",
+                "source_level": "A",
+                "source_role": "identity_and_bibliography",
+                "bibliographic_support": "yes",
+                "research_support": "yes",
+                "independent_source_key": "MORALES-1995",
+                "usage_status": "accepted",
+                "issue_code": "NONE"
+              },
+              {
+                "card_source_id": "V1-CS-0526",
+                "origin_matrix_id": "WCD07A-S08",
+                "card_id": "V1-CARD-0258",
+                "source_id": "SRC-0307",
+                "source_level": "A",
+                "source_role": "form_and_context",
+                "bibliographic_support": "yes",
+                "research_support": "yes",
+                "independent_source_key": "RETAMAR-2000",
+                "usage_status": "accepted",
+                "issue_code": "NONE"
+              }
+            ],
+            "relationship_sources": [
+              {
+                "relationship_id": "V1-REL-0333",
+                "source_id": "SRC-0306"
+              },
+              {
+                "relationship_id": "V1-REL-0333",
+                "source_id": "SRC-0307"
+              }
+            ],
+            "relationship_evidence": [
+              {
+                "evidence_id": "V1-EV-0372",
+                "relationship_id": "V1-REL-0333",
+                "origin_evidence_id": "WCD07A-S07",
+                "source_id": "SRC-0306",
+                "source_title": "Tradición y modernidad en los Versos libres",
+                "locator": "opening bibliographic discussion",
+                "evidence_note": "Morales studies Versos libres as Marti's posthumously published collection.",
+                "confidence": "high",
+                "evidence_status": "eligible_evidence",
+                "evidence_origin": "WCD-07A"
+              },
+              {
+                "evidence_id": "V1-EV-0373",
+                "relationship_id": "V1-REL-0333",
+                "origin_evidence_id": "WCD07A-S08",
+                "source_id": "SRC-0307",
+                "source_title": "Introducción a la literatura cubana",
+                "locator": "Marti poetry discussion",
+                "evidence_note": "Retamar independently distinguishes Marti's Versos libres from Versos sencillos.",
+                "confidence": "high",
+                "evidence_status": "eligible_evidence",
+                "evidence_origin": "WCD-07A"
+              }
+            ],
+            "source_objects": [
+              {
+                "source_id": "SRC-0306",
+                "temporary_id": "WCD07A-S07",
+                "title": "Tradición y modernidad en los Versos libres",
+                "original_title": "Tradición y modernidad en los Versos libres",
+                "author_or_editor": "Carlos Javier Morales",
+                "translator": "",
+                "publisher": "Biblioteca Virtual Miguel de Cervantes",
+                "publication_year": "1995",
+                "isbn": "",
+                "format": "scholarly_article",
+                "page_count": "",
+                "language": "es",
+                "source_level": "A",
+                "processing_status": "access_pass",
+                "source_task": "WCD-07A",
+                "public_content_scope": "metadata_and_summary",
+                "local_asset_status": "remote_only",
+                "persistent_id": "",
+                "canonical_url": "https://www.cervantesvirtual.com/descargaPdf/tradicion-y-modernidad-en-los-versos-libres/"
+              },
+              {
+                "source_id": "SRC-0307",
+                "temporary_id": "WCD07A-S08",
+                "title": "Introducción a la literatura cubana",
+                "original_title": "Introducción a la literatura cubana",
+                "author_or_editor": "Roberto Fernández Retamar",
+                "translator": "",
+                "publisher": "Biblioteca Virtual Miguel de Cervantes",
+                "publication_year": "2000",
+                "isbn": "",
+                "format": "scholarly_article",
+                "page_count": "",
+                "language": "es",
+                "source_level": "A",
+                "processing_status": "access_pass",
+                "source_task": "WCD-07A",
+                "public_content_scope": "metadata_and_summary",
+                "local_asset_status": "remote_only",
+                "persistent_id": "",
+                "canonical_url": "https://www.cervantesvirtual.com/obra-visor/america-sin-nombre--11/html/0256666c-82b2-11df-acc7-002185ce6064_3.htm"
+              }
+            ],
+            "flags": []
+          }
+        ],
+        "facts": [
+          {
+            "fact_id": "V1-FCT-0531",
+            "origin_material_id": "WEB-CE-B06",
+            "card_id": "V1-CARD-0114",
+            "subject_id": "V1-ENT-0225",
+            "fact_field": "birth_year",
+            "value_text": "1853",
+            "material_class": "fact",
+            "origin_id": "SRC-0183",
+            "confidence": "high",
+            "admission_status": "candidate_for_staging_review",
+            "usage_note": "机构来源直接标注作者出生年份。"
+          },
+          {
+            "fact_id": "V1-FCT-0532",
+            "origin_material_id": "WEB-CE-B06",
+            "card_id": "V1-CARD-0114",
+            "subject_id": "V1-ENT-0225",
+            "fact_field": "death_year",
+            "value_text": "1895",
+            "material_class": "fact",
+            "origin_id": "SRC-0183",
+            "confidence": "high",
+            "admission_status": "candidate_for_staging_review",
+            "usage_note": "机构来源直接标注作者逝世年份。"
+          },
+          {
+            "fact_id": "V1-FCT-0533",
+            "origin_material_id": "WEB-CE-B06",
+            "card_id": "V1-CARD-0114",
+            "subject_id": "V1-ENT-0225",
+            "fact_field": "country_or_region",
+            "value_text": "古巴",
+            "material_class": "fact",
+            "origin_id": "SRC-0183",
+            "confidence": "high",
+            "admission_status": "candidate_for_staging_review",
+            "usage_note": "来源支持作者与国家关联。"
+          },
+          {
+            "fact_id": "V1-FCT-0534",
+            "origin_material_id": "WEB-CE-B06",
+            "card_id": "V1-CARD-0114",
+            "subject_id": "V1-ENT-0225",
+            "fact_field": "birth_place",
+            "value_text": "哈瓦那（La Habana）",
+            "material_class": "fact",
+            "origin_id": "SRC-0187",
+            "confidence": "medium",
+            "admission_status": "candidate_for_staging_review",
+            "usage_note": "保留来源直接给出的出生地；不自动转换为作品场景。"
+          },
+          {
+            "fact_id": "V1-FCT-0535",
+            "origin_material_id": "WEB-CE-B06",
+            "card_id": "V1-CARD-0114",
+            "subject_id": "V1-ENT-0225",
+            "fact_field": "career_note",
+            "value_text": "诗人、作家、政治人物",
+            "material_class": "fact",
+            "origin_id": "SRC-0187",
+            "confidence": "medium",
+            "admission_status": "candidate_for_staging_review",
+            "usage_note": "来源直接列出诗人、作家、政治人物；不扩展其他职业或文学史身份。"
+          }
+        ],
+        "relations": [
+          {
+            "relationship_id": "V1-REL-0158",
+            "origin_layer": "WEB-CE-B06",
+            "origin_relation_group_id": "CAND-B06-0158",
+            "subject_id": "V1-ENT-0225",
+            "relation_type": "CREATED",
+            "object_id": "V1-ENT-0232",
+            "description_zh": "V1-ENT-0225 创作 Ismaelillo",
+            "confidence": "high",
+            "review_status": "accepted",
+            "upstream_review_status": "WEB-CE-B06",
+            "evidence_count": "1",
+            "issue_code": "NONE"
+          },
+          {
+            "relationship_id": "V1-REL-0159",
+            "origin_layer": "WEB-CE-B06",
+            "origin_relation_group_id": "CAND-B06-0159",
+            "subject_id": "V1-ENT-0225",
+            "relation_type": "CREATED",
+            "object_id": "V1-ENT-0233",
+            "description_zh": "V1-ENT-0225 创作 Versos sencillos",
+            "confidence": "high",
+            "review_status": "accepted",
+            "upstream_review_status": "WEB-CE-B06",
+            "evidence_count": "1",
+            "issue_code": "NONE"
+          },
+          {
+            "relationship_id": "V1-REL-0160",
+            "origin_layer": "WEB-CE-B06",
+            "origin_relation_group_id": "CAND-B06-0160",
+            "subject_id": "V1-ENT-0225",
+            "relation_type": "CREATED",
+            "object_id": "V1-ENT-0234",
+            "description_zh": "V1-ENT-0225 创作 Nuestra América",
+            "confidence": "high",
+            "review_status": "accepted",
+            "upstream_review_status": "WEB-CE-B06",
+            "evidence_count": "1",
+            "issue_code": "NONE"
+          },
+          {
+            "relationship_id": "V1-REL-0163",
+            "origin_layer": "WEB-CE-B06",
+            "origin_relation_group_id": "CAND-B06-0163",
+            "subject_id": "V1-ENT-0225",
+            "relation_type": "ASSOCIATED_WITH_PLACE",
+            "object_id": "V1-ENT-0096",
+            "description_zh": "何塞·马蒂与古巴关联",
+            "confidence": "high",
+            "review_status": "accepted",
+            "upstream_review_status": "WEB-CE-B06",
+            "evidence_count": "1",
+            "issue_code": "NONE"
+          },
+          {
+            "relationship_id": "V1-REL-0304",
+            "origin_layer": "WCD02-CS01",
+            "origin_relation_group_id": "WCD02-CS01-REL-09",
+            "subject_id": "V1-ENT-0225",
+            "relation_type": "ASSOCIATED_WITH_PLACE",
+            "object_id": "V1-ENT-0372",
+            "description_zh": "何塞·马蒂与出生地哈瓦那关联",
+            "confidence": "medium",
+            "review_status": "accepted",
+            "upstream_review_status": "WCD02-REVIEW-PASS",
+            "evidence_count": "1",
+            "issue_code": "NONE"
+          },
+          {
+            "relationship_id": "V1-REL-0333",
+            "origin_layer": "WCD-07A",
+            "origin_relation_group_id": "WCD07A-R03",
+            "subject_id": "V1-ENT-0225",
+            "relation_type": "CREATED",
+            "object_id": "V1-ENT-0376",
+            "description_zh": "何塞·马蒂创作《自由诗》",
+            "confidence": "high",
+            "review_status": "accepted",
+            "upstream_review_status": "CODEX-REVIEW-WCD07A-PASS",
+            "evidence_count": "2",
+            "issue_code": "NONE"
+          }
+        ],
+        "holds": [],
+        "gaps": [],
+        "curation_statuses": {
+          "user_review": 9
+        },
+        "inventory_status": "MECHANICAL_ONLY_NOT_LITERARY_COVERAGE_REVIEW"
+      },
+      "author_sources": [
+        {
+          "source_id": "SRC-0183",
+          "title": "Los monstruos del latinoamericanismo arielista: variaciones del apetito en la periferia neocolonial",
+          "url": "https://www.cervantesvirtual.com/obra-visor/los-monstruos-del-latinoamericanismo-arielista-variaciones-del-apetito-en-la-periferia-neocolonial/html/1cbb2714-8b3b-407a-adb0-42b16db79e0a_13.html"
+        },
+        {
+          "source_id": "SRC-0187",
+          "title": "Traductores hispanoamericanos — José Martí",
+          "url": "https://www.cervantesvirtual.com/portales/traducciones_hispanoamericanas/traductores/"
+        },
+        {
+          "source_id": "SRC-0183",
+          "title": "Los monstruos del latinoamericanismo arielista: variaciones del apetito en la periferia neocolonial",
+          "url": "https://www.cervantesvirtual.com/obra-visor/los-monstruos-del-latinoamericanismo-arielista-variaciones-del-apetito-en-la-periferia-neocolonial/html/1cbb2714-8b3b-407a-adb0-42b16db79e0a_13.html"
+        },
+        {
+          "source_id": "SRC-0185",
+          "title": "Las letras hispanoamericanas en el siglo XIX",
+          "url": "https://www.cervantesvirtual.com/obra-visor/las-letras-hispanoamericanas-en-el-siglo-xix--0/html/ff2fae94-82b1-11df-acc7-002185ce6064_5.html"
+        },
+        {
+          "source_id": "SRC-0183",
+          "title": "Los monstruos del latinoamericanismo arielista: variaciones del apetito en la periferia neocolonial",
+          "url": "https://www.cervantesvirtual.com/obra-visor/los-monstruos-del-latinoamericanismo-arielista-variaciones-del-apetito-en-la-periferia-neocolonial/html/1cbb2714-8b3b-407a-adb0-42b16db79e0a_13.html"
+        },
+        {
+          "source_id": "SRC-0185",
+          "title": "Las letras hispanoamericanas en el siglo XIX",
+          "url": "https://www.cervantesvirtual.com/obra-visor/las-letras-hispanoamericanas-en-el-siglo-xix--0/html/ff2fae94-82b1-11df-acc7-002185ce6064_5.html"
+        },
+        {
+          "source_id": "SRC-0306",
+          "title": "Tradición y modernidad en los Versos libres",
+          "url": "https://www.cervantesvirtual.com/descargaPdf/tradicion-y-modernidad-en-los-versos-libres/"
+        },
+        {
+          "source_id": "SRC-0307",
+          "title": "Introducción a la literatura cubana",
+          "url": "https://www.cervantesvirtual.com/obra-visor/america-sin-nombre--11/html/0256666c-82b2-11df-acc7-002185ce6064_3.htm"
+        }
+      ]
+    },
+    "V1-ENT-0236": {
+      "author": "Nicanor Parra",
+      "summary": "B10 author-isolated work coverage; existing author records preserved; source-backed descriptions from Biblioteca Nacional de Chile / Memoria Chilena."
+    },
+    "V1-ENT-0237": {
+      "author": "Alejandra Pizarnik",
+      "summary": "CVC书目与作品评论支持的B10单作者候选。"
+    }
+  },
+  "author_scope_by_id": {
+    "V1-ENT-0225": "本包仅处理José Martí，不代表B10另两位作者已完成。",
+    "V1-ENT-0236": "V1-ENT-0236 existing three work objects plus three new work candidates; author facts/relationships remain unchanged.",
+    "V1-ENT-0237": "TASK-115单作者隔离候选；只读使用冻结B10基线。"
+  },
+  "author_results_by_id": {
+    "V1-ENT-0225": "3件作品候选；4件旧作品原始闭包保全；等待主代理审核与合包。",
+    "V1-ENT-0236": {
+      "existing_objects_preserved": 3,
+      "new_work_candidates": 3,
+      "deferred_items": 2,
+      "coverage_rows": 6,
+      "candidate_gate": "PARENT_REVIEW_PENDING",
+      "mechanical": "NOT_RUN",
+      "author_results": {
+        "V1-ENT-0236": "3 old works preserved; 3 major work candidates proposed; 5 append-only old-work facts."
+      },
+      "scope_note": "Useful source-backed expansion, not an exhaustive bibliography."
+    },
+    "V1-ENT-0237": "AUTHOR_CANDIDATE_PRODUCTION_PARENT_REVIEW_PENDING"
+  },
+  "author_snapshots_by_id": {
+    "V1-ENT-0236": {
+      "entity": {
+        "entity_id": "V1-ENT-0236",
+        "entity_type": "author",
+        "name_zh": "尼卡诺尔·帕拉",
+        "original_name": "Nicanor Parra",
+        "canonical_status": "candidate",
+        "origin_count": "2",
+        "origin_refs": "CAND-B07-PARRA-AUTHOR",
+        "normalization_basis": "B07 Memoria Chilena and Universidad de Chile bibliography; Chinese display candidate",
+        "issue_codes": "NONE"
+      },
+      "facts": [
+        {
+          "fact_id": "V1-FCT-0563",
+          "origin_material_id": "WEB-CE-B07",
+          "card_id": "V1-CARD-0124",
+          "subject_id": "V1-ENT-0236",
+          "fact_field": "birth_year",
+          "value_text": "1914",
+          "material_class": "fact",
+          "origin_id": "SRC-0188",
+          "confidence": "high",
+          "admission_status": "candidate_for_staging_review",
+          "usage_note": "Memoria Chilena chronology directly records Parra birth year."
+        },
+        {
+          "fact_id": "V1-FCT-0564",
+          "origin_material_id": "WEB-CE-B07",
+          "card_id": "V1-CARD-0124",
+          "subject_id": "V1-ENT-0236",
+          "fact_field": "death_year",
+          "value_text": "2018",
+          "material_class": "fact",
+          "origin_id": "SRC-0188",
+          "confidence": "high",
+          "admission_status": "candidate_for_staging_review",
+          "usage_note": "Source title and author record identify 1914-2018."
+        },
+        {
+          "fact_id": "V1-FCT-0565",
+          "origin_material_id": "WEB-CE-B07",
+          "card_id": "V1-CARD-0124",
+          "subject_id": "V1-ENT-0236",
+          "fact_field": "country_or_region",
+          "value_text": "智利",
+          "material_class": "fact",
+          "origin_id": "SRC-0188",
+          "confidence": "high",
+          "admission_status": "candidate_for_staging_review",
+          "usage_note": "Memoria Chilena author subject is Chilean literature."
+        },
+        {
+          "fact_id": "V1-FCT-0566",
+          "origin_material_id": "WEB-CE-B07",
+          "card_id": "V1-CARD-0124",
+          "subject_id": "V1-ENT-0236",
+          "fact_field": "birth_place",
+          "value_text": "圣法比安·德·阿利科（San Fabián de Alico）",
+          "material_class": "fact",
+          "origin_id": "SRC-0188",
+          "confidence": "high",
+          "admission_status": "candidate_for_staging_review",
+          "usage_note": "Chronology directly names San Fabián de Alico."
+        },
+        {
+          "fact_id": "V1-FCT-0567",
+          "origin_material_id": "WEB-CE-B07",
+          "card_id": "V1-CARD-0124",
+          "subject_id": "V1-ENT-0236",
+          "fact_field": "career_note",
+          "value_text": "诗人",
+          "material_class": "fact",
+          "origin_id": "SRC-0188",
+          "confidence": "high",
+          "admission_status": "candidate_for_staging_review",
+          "usage_note": "Memoria Chilena directly calls Parra a poet."
+        }
+      ],
+      "fact_sources": [
+        {
+          "fact_id": "V1-FCT-0563",
+          "source_id": "SRC-0188",
+          "source_title": "Nicanor Parra (1914-2018)"
+        },
+        {
+          "fact_id": "V1-FCT-0564",
+          "source_id": "SRC-0188",
+          "source_title": "Nicanor Parra (1914-2018)"
+        },
+        {
+          "fact_id": "V1-FCT-0565",
+          "source_id": "SRC-0188",
+          "source_title": "Nicanor Parra (1914-2018)"
+        },
+        {
+          "fact_id": "V1-FCT-0566",
+          "source_id": "SRC-0188",
+          "source_title": "Nicanor Parra (1914-2018)"
+        },
+        {
+          "fact_id": "V1-FCT-0567",
+          "source_id": "SRC-0188",
+          "source_title": "Nicanor Parra (1914-2018)"
+        }
+      ],
+      "cards": [
+        {
+          "card_id": "V1-CARD-0124",
+          "origin_card_id": "",
+          "subject_id": "V1-ENT-0236",
+          "card_type": "author",
+          "title_zh": "尼卡诺尔·帕拉",
+          "author_label": "尼卡诺尔·帕拉",
+          "original_title": "Nicanor Parra",
+          "country_or_region": "智利",
+          "language": "es",
+          "period_bucket": "1914–2018",
+          "genre_or_form": "诗歌",
+          "input_layer": "WEB-CE-B07",
+          "source_minimum_status": "meets",
+          "issue_code": "NONE",
+          "content_markdown": "### 尼卡诺尔·帕拉｜Nicanor Parra — 本批以机构来源确认的生平与三部书目建立智利诗歌入口。"
+        }
+      ],
+      "card_facts": [
+        {
+          "card_id": "V1-CARD-0124",
+          "fact_id": "V1-FCT-0563",
+          "admission_status": "candidate_for_staging_review"
+        },
+        {
+          "card_id": "V1-CARD-0124",
+          "fact_id": "V1-FCT-0564",
+          "admission_status": "candidate_for_staging_review"
+        },
+        {
+          "card_id": "V1-CARD-0124",
+          "fact_id": "V1-FCT-0565",
+          "admission_status": "candidate_for_staging_review"
+        },
+        {
+          "card_id": "V1-CARD-0124",
+          "fact_id": "V1-FCT-0566",
+          "admission_status": "candidate_for_staging_review"
+        },
+        {
+          "card_id": "V1-CARD-0124",
+          "fact_id": "V1-FCT-0567",
+          "admission_status": "candidate_for_staging_review"
+        }
+      ],
+      "card_sources": [
+        {
+          "card_source_id": "V1-CS-0240",
+          "origin_matrix_id": "",
+          "card_id": "V1-CARD-0124",
+          "source_id": "SRC-0188",
+          "source_level": "B",
+          "source_role": "both",
+          "bibliographic_support": "yes",
+          "research_support": "yes",
+          "independent_source_key": "SRC-0188",
+          "usage_status": "used",
+          "issue_code": "NONE"
+        },
+        {
+          "card_source_id": "V1-CS-0241",
+          "origin_matrix_id": "",
+          "card_id": "V1-CARD-0124",
+          "source_id": "SRC-0189",
+          "source_level": "B",
+          "source_role": "both",
+          "bibliographic_support": "yes",
+          "research_support": "yes",
+          "independent_source_key": "SRC-0189",
+          "usage_status": "used",
+          "issue_code": "NONE"
+        }
+      ],
+      "relations": [
+        {
+          "relationship_id": "V1-REL-0164",
+          "origin_layer": "WEB-CE-B07",
+          "origin_relation_group_id": "CAND-B07-0164",
+          "subject_id": "V1-ENT-0236",
+          "relation_type": "CREATED",
+          "object_id": "V1-ENT-0239",
+          "description_zh": "尼卡诺尔·帕拉 创作 《诗歌与反诗歌》（Poemas y antipoemas）",
+          "confidence": "high",
+          "review_status": "accepted",
+          "upstream_review_status": "WEB-CE-B07",
+          "evidence_count": "1",
+          "issue_code": "NONE"
+        },
+        {
+          "relationship_id": "V1-REL-0165",
+          "origin_layer": "WEB-CE-B07",
+          "origin_relation_group_id": "CAND-B07-0165",
+          "subject_id": "V1-ENT-0236",
+          "relation_type": "CREATED",
+          "object_id": "V1-ENT-0240",
+          "description_zh": "尼卡诺尔·帕拉 创作 《沙龙篇》（Versos de salón）",
+          "confidence": "high",
+          "review_status": "accepted",
+          "upstream_review_status": "WEB-CE-B07",
+          "evidence_count": "1",
+          "issue_code": "NONE"
+        },
+        {
+          "relationship_id": "V1-REL-0166",
+          "origin_layer": "WEB-CE-B07",
+          "origin_relation_group_id": "CAND-B07-0166",
+          "subject_id": "V1-ENT-0236",
+          "relation_type": "CREATED",
+          "object_id": "V1-ENT-0241",
+          "description_zh": "尼卡诺尔·帕拉 创作 《饭后演讲》（Discursos de sobremesa）",
+          "confidence": "high",
+          "review_status": "accepted",
+          "upstream_review_status": "WEB-CE-B07",
+          "evidence_count": "1",
+          "issue_code": "NONE"
+        },
+        {
+          "relationship_id": "V1-REL-0173",
+          "origin_layer": "WEB-CE-B07",
+          "origin_relation_group_id": "CAND-B07-0173",
+          "subject_id": "V1-ENT-0236",
+          "relation_type": "ASSOCIATED_WITH_PLACE",
+          "object_id": "V1-ENT-0123",
+          "description_zh": "尼卡诺尔·帕拉与智利关联",
+          "confidence": "high",
+          "review_status": "accepted",
+          "upstream_review_status": "WEB-CE-B07",
+          "evidence_count": "1",
+          "issue_code": "NONE"
+        }
+      ],
+      "relationship_sources": [
+        {
+          "relationship_id": "V1-REL-0164",
+          "source_id": "SRC-0188"
+        },
+        {
+          "relationship_id": "V1-REL-0165",
+          "source_id": "SRC-0188"
+        },
+        {
+          "relationship_id": "V1-REL-0166",
+          "source_id": "SRC-0190"
+        },
+        {
+          "relationship_id": "V1-REL-0173",
+          "source_id": "SRC-0188"
+        }
+      ],
+      "relationship_evidence": [
+        {
+          "evidence_id": "V1-EV-0189",
+          "relationship_id": "V1-REL-0164",
+          "origin_evidence_id": "CAND-B07-0164",
+          "source_id": "SRC-0188",
+          "source_title": "Nicanor Parra (1914-2018)",
+          "locator": "",
+          "evidence_note": "Institutional author page directly lists Poemas y antipoemas.",
+          "confidence": "high",
+          "evidence_status": "eligible_evidence",
+          "evidence_origin": "WEB-CE-B07"
+        },
+        {
+          "evidence_id": "V1-EV-0190",
+          "relationship_id": "V1-REL-0165",
+          "origin_evidence_id": "CAND-B07-0165",
+          "source_id": "SRC-0188",
+          "source_title": "Nicanor Parra (1914-2018)",
+          "locator": "",
+          "evidence_note": "Institutional author page directly lists Versos de salón.",
+          "confidence": "high",
+          "evidence_status": "eligible_evidence",
+          "evidence_origin": "WEB-CE-B07"
+        },
+        {
+          "evidence_id": "V1-EV-0191",
+          "relationship_id": "V1-REL-0166",
+          "origin_evidence_id": "CAND-B07-0166",
+          "source_id": "SRC-0190",
+          "source_title": "Portada de Discursos de sobremesa, 1997",
+          "locator": "",
+          "evidence_note": "National library record directly identifies Discursos de sobremesa and author.",
+          "confidence": "high",
+          "evidence_status": "eligible_evidence",
+          "evidence_origin": "WEB-CE-B07"
+        },
+        {
+          "evidence_id": "V1-EV-0198",
+          "relationship_id": "V1-REL-0173",
+          "origin_evidence_id": "CAND-B07-0173",
+          "source_id": "SRC-0188",
+          "source_title": "Nicanor Parra (1914-2018)",
+          "locator": "",
+          "evidence_note": "Memoria Chilena author page supports Parra and Chile association.",
+          "confidence": "high",
+          "evidence_status": "eligible_evidence",
+          "evidence_origin": "WEB-CE-B07"
+        }
+      ],
+      "holds": [],
+      "gaps": [],
+      "curation_statuses": {
+        "user_review": 9
+      }
+    }
+  }
+}

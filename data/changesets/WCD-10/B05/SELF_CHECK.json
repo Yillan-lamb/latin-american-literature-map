@@ -1,0 +1,82 @@
+{
+  "task_id": "TASK-110",
+  "revision": "R3+F16+W03-DEFERRED-INTEGRATION-SUBSET",
+  "checked_at": "2026-10-07",
+  "status": "CANDIDATE_PENDING_REVIEW_W03_DEFERRED_F16_MECHANICAL_FAIL",
+  "scope_counts": {
+    "original_proposed_additions": 9,
+    "active_new_entities": 8,
+    "deferred_new_entities": 1,
+    "active_nested_facts": 31,
+    "active_existing_object_facts": 13,
+    "active_total_facts": 44,
+    "active_coverage_rows": 17,
+    "active_relationships": 1,
+    "active_evidence_matrix_entries": 45
+  },
+  "checks": [
+    {
+      "check": "pre-policy freeze byte-identical",
+      "result": "PASS",
+      "detail": "14 files; original candidate SHA 09ed0c3e73862c81428837772a3ac9a891a400f52ba84cdb3094febf9d058c17"
+    },
+    {
+      "check": "active counts",
+      "result": "PASS",
+      "detail": "8 entities; 44 facts; 17 coverage rows; 1 relation"
+    },
+    {
+      "check": "W03 deferred chain",
+      "result": "PASS",
+      "detail": "exact original entity, 4 matrix rows, coverage row, source candidates/profiles, hashes and both publication layers preserved"
+    },
+    {
+      "check": "W03 policy decision",
+      "result": "PENDING_USER",
+      "detail": "selected_year null; neither 1972 nor 1974 selected"
+    },
+    {
+      "check": "W03 policy key uniqueness",
+      "result": "PASS",
+      "detail": "exact original key occurs once; no second W03 gap or formal ID"
+    },
+    {
+      "check": "S18 profile",
+      "result": "PASS",
+      "detail": "deferred_only_not_registered; retained in deferred candidate evidence"
+    },
+    {
+      "check": "W04 separate deferral",
+      "result": "PASS",
+      "detail": "pre-existing El Papa Verde deferred item retained"
+    },
+    {
+      "check": "W09 version boundary",
+      "result": "PASS",
+      "detail": "unchanged outside W03"
+    },
+    {
+      "check": "F16 prior row/source links/HOLD-0043",
+      "result": "PASS",
+      "detail": "preserved; no structured supersession claim"
+    },
+    {
+      "check": "candidate validator",
+      "result": "FAIL",
+      "detail": "exit 1; default fail-closed same-subject/same-field conflict V1-ENT-0154/bibliographic_note; no conflict_review gate supplied."
+    }
+  ],
+  "real_review_gate": "NOT_WRITTEN",
+  "sql_prepare": "NOT_AUTHORIZED",
+  "apply": "NOT_AUTHORIZED",
+  "master_write": "NONE",
+  "mechanical_validator": {
+    "verdict": "FAIL",
+    "exit_code": 1,
+    "errors": [
+      "existing field values require explicit conflict review: V1-ENT-0154/bibliographic_note: ['诺贝尔书目页未列西语原版；英译 The Labyrinth of Solitude（tr. Lysander Kemp）Penguin 1985；poets.org 标初版 FCE 1950']"
+    ],
+    "report": "MECHANICAL_CHECK.json",
+    "review_gate_supplied": false
+  }
+}

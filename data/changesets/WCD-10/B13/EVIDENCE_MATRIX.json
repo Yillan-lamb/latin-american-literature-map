@@ -1,0 +1,1945 @@
+{
+  "task_id": "TASK-118",
+  "batch_id": "WCD-10-B13",
+  "baseline_database_sha256": "74a900c2988eec78a700467bc70c5e523a774cd4fa615cfc5edfdd16991ff8f7",
+  "entries": [
+    {
+      "candidate_fact_id": "WCD10-B13-F007",
+      "author_id": "V1-ENT-0262",
+      "subject_ref": "WCD10-B13-W001",
+      "field": "genre_or_form",
+      "value": "仿文学辞典形式的虚构作品集",
+      "source_refs": [
+        "WCD10-B13-S006"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B13-S006",
+          "locator": "第73-78、150-157行：作品体裁、结构描述及1996出版陈述；实读2026-10-13。",
+          "support_type": "direct_publisher_or_national_library_record",
+          "note": "直接支持此字段，短句为释义。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B13-F008",
+      "author_id": "V1-ENT-0262",
+      "subject_ref": "WCD10-B13-W001",
+      "field": "first_publication_year",
+      "value": "1996",
+      "source_refs": [
+        "WCD10-B13-S006"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B13-S006",
+          "locator": "第73-78、150-157行：作品体裁、结构描述及1996出版陈述；实读2026-10-13。",
+          "support_type": "direct_publisher_or_national_library_record",
+          "note": "直接支持此字段，短句为释义。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B13-F009",
+      "author_id": "V1-ENT-0262",
+      "subject_ref": "WCD10-B13-W001",
+      "field": "one_sentence_summary",
+      "value": "出版方称本书仿照文学辞典，以虚构作家的生平与作品条目构成一部“伪装成手册的虚构作品”，并戏仿伊比利亚美洲文学史。",
+      "source_refs": [
+        "WCD10-B13-S006"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B13-S006",
+          "locator": "第73-78、150-157行：作品体裁、结构描述及1996出版陈述；实读2026-10-13。",
+          "support_type": "direct_publisher_or_national_library_record",
+          "note": "直接支持此字段，短句为释义。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B13-F010",
+      "author_id": "V1-ENT-0262",
+      "subject_ref": "WCD10-B13-W002",
+      "field": "genre_or_form",
+      "value": "小说",
+      "source_refs": [
+        "WCD10-B13-S007"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B13-S007",
+          "locator": "第75-78、141-144行：作品简介；实读2026-10-13。",
+          "support_type": "direct_publisher_or_national_library_record",
+          "note": "直接支持此字段，短句为释义。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B13-F011",
+      "author_id": "V1-ENT-0262",
+      "subject_ref": "WCD10-B13-W002",
+      "field": "first_publication_year",
+      "value": "1999",
+      "source_refs": [
+        "WCD10-B13-S001"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B13-S001",
+          "locator": "第105-111行：作品出版时间、合作创作及身后出版；实读2026-10-13。",
+          "support_type": "direct_publisher_or_national_library_record",
+          "note": "直接支持此字段，短句为释义。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B13-F012",
+      "author_id": "V1-ENT-0262",
+      "subject_ref": "WCD10-B13-W002",
+      "field": "one_sentence_summary",
+      "value": "出版方简介由乌拉圭人Auxilio Lacouture的声音展开：她在1968年墨西哥大学遭警方占领时躲入女厕，并回望在墨西哥的生活。",
+      "source_refs": [
+        "WCD10-B13-S007"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B13-S007",
+          "locator": "第75-78、141-144行：作品简介；实读2026-10-13。",
+          "support_type": "direct_publisher_or_national_library_record",
+          "note": "直接支持此字段，短句为释义。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B13-F013",
+      "author_id": "V1-ENT-0262",
+      "subject_ref": "WCD10-B13-W003",
+      "field": "genre_or_form",
+      "value": "小说",
+      "source_refs": [
+        "WCD10-B13-S008"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B13-S008",
+          "locator": "第75-78行：出版方作品简介；实读2026-10-13。",
+          "support_type": "direct_publisher_or_national_library_record",
+          "note": "直接支持此字段，短句为释义。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B13-F014",
+      "author_id": "V1-ENT-0262",
+      "subject_ref": "WCD10-B13-W003",
+      "field": "first_publication_year",
+      "value": "2000",
+      "source_refs": [
+        "WCD10-B13-S001"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B13-S001",
+          "locator": "第105-111行：作品出版时间、合作创作及身后出版；实读2026-10-13。",
+          "support_type": "direct_publisher_or_national_library_record",
+          "note": "直接支持此字段，短句为释义。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B13-F015",
+      "author_id": "V1-ENT-0262",
+      "subject_ref": "WCD10-B13-W003",
+      "field": "one_sentence_summary",
+      "value": "出版方简介写神父兼文学评论家Sebastián Urrutia Lacroix在一场高烧之夜回顾人生，并触及智利文学圈和戒严下圣地亚哥的生活。",
+      "source_refs": [
+        "WCD10-B13-S008"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B13-S008",
+          "locator": "第75-78行：出版方作品简介；实读2026-10-13。",
+          "support_type": "direct_publisher_or_national_library_record",
+          "note": "直接支持此字段，短句为释义。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B13-F016",
+      "author_id": "V1-ENT-0262",
+      "subject_ref": "WCD10-B13-W004",
+      "field": "genre_or_form",
+      "value": "短篇小说集与演讲合集",
+      "source_refs": [
+        "WCD10-B13-S009"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B13-S009",
+          "locator": "第75-79、142-144行：五篇小说与两篇演讲的目录性说明；实读2026-10-13。",
+          "support_type": "direct_publisher_or_national_library_record",
+          "note": "直接支持此字段，短句为释义。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B13-F017",
+      "author_id": "V1-ENT-0262",
+      "subject_ref": "WCD10-B13-W004",
+      "field": "first_publication_year",
+      "value": "2003",
+      "source_refs": [
+        "WCD10-B13-S001"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B13-S001",
+          "locator": "第105-111行：作品出版时间、合作创作及身后出版；实读2026-10-13。",
+          "support_type": "direct_publisher_or_national_library_record",
+          "note": "直接支持此字段，短句为释义。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B13-F018",
+      "author_id": "V1-ENT-0262",
+      "subject_ref": "WCD10-B13-W004",
+      "field": "one_sentence_summary",
+      "value": "出版方说明本书收录五篇小说和两篇演讲，简介举及阿根廷律师转为潘帕斯高乔人、下水道侦探及虚构作家等故事。",
+      "source_refs": [
+        "WCD10-B13-S009"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B13-S009",
+          "locator": "第75-79、142-144行：五篇小说与两篇演讲的目录性说明；实读2026-10-13。",
+          "support_type": "direct_publisher_or_national_library_record",
+          "note": "直接支持此字段，短句为释义。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B13-F019",
+      "author_id": "V1-ENT-0262",
+      "subject_ref": "WCD10-B13-W005",
+      "field": "genre_or_form",
+      "value": "小说",
+      "source_refs": [
+        "WCD10-B13-S010"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B13-S010",
+          "locator": "第75-78、141-144行：三种叙述版本和谋杀线索；实读2026-10-13。",
+          "support_type": "direct_publisher_or_national_library_record",
+          "note": "直接支持此字段，短句为释义。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B13-F020",
+      "author_id": "V1-ENT-0262",
+      "subject_ref": "WCD10-B13-W005",
+      "field": "first_publication_year",
+      "value": "1993",
+      "source_refs": [
+        "WCD10-B13-S001"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B13-S001",
+          "locator": "第105-111行：作品出版时间、合作创作及身后出版；实读2026-10-13。",
+          "support_type": "direct_publisher_or_national_library_record",
+          "note": "直接支持此字段，短句为释义。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B13-F021",
+      "author_id": "V1-ENT-0262",
+      "subject_ref": "WCD10-B13-W005",
+      "field": "one_sentence_summary",
+      "value": "出版方简介以一宗犯罪的三种叙述为线索，分别由一名智利写作者、一名在露营地做夜间保安的墨西哥诗人和一名加泰罗尼亚商人讲述。",
+      "source_refs": [
+        "WCD10-B13-S010"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B13-S010",
+          "locator": "第75-78、141-144行：三种叙述版本和谋杀线索；实读2026-10-13。",
+          "support_type": "direct_publisher_or_national_library_record",
+          "note": "直接支持此字段，短句为释义。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B13-F001",
+      "author_id": "V1-ENT-0262",
+      "subject_ref": "V1-ENT-0269",
+      "field": "genre_or_form",
+      "value": "长篇小说",
+      "source_refs": [
+        "WCD10-B13-S003"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B13-S003",
+          "locator": "第78-80、115-118、153-155行：小说情节/跨国场景及该版书目；实读2026-10-13。",
+          "support_type": "direct_publisher_or_national_library_record",
+          "note": "直接支持此字段，短句为释义。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B13-F002",
+      "author_id": "V1-ENT-0262",
+      "subject_ref": "V1-ENT-0269",
+      "field": "one_sentence_summary",
+      "value": "两位诗人沿着寻找墨西哥女诗人塞萨雷娅·蒂纳赫罗的线索展开旅程；出版方简介称叙事跨越1976至1996年及多个国家。",
+      "source_refs": [
+        "WCD10-B13-S003"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B13-S003",
+          "locator": "第78-80、115-118、153-155行：小说情节/跨国场景及该版书目；实读2026-10-13。",
+          "support_type": "direct_publisher_or_national_library_record",
+          "note": "直接支持此字段，短句为释义。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B13-F003",
+      "author_id": "V1-ENT-0262",
+      "subject_ref": "V1-ENT-0270",
+      "field": "genre_or_form",
+      "value": "长篇小说",
+      "source_refs": [
+        "WCD10-B13-S004"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B13-S004",
+          "locator": "第145-148行：作品简介；实读2026-10-13。",
+          "support_type": "direct_publisher_or_national_library_record",
+          "note": "直接支持此字段，短句为释义。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B13-F004",
+      "author_id": "V1-ENT-0262",
+      "subject_ref": "V1-ENT-0270",
+      "field": "one_sentence_summary",
+      "value": "出版方简介以四位研究德国作家阿尔钦博尔迪的文学教授为线索，写他们前往虚构的圣特雷莎，并展开跨越两大洲和欧洲二十世纪历史的叙事。",
+      "source_refs": [
+        "WCD10-B13-S004"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B13-S004",
+          "locator": "第145-148行：作品简介；实读2026-10-13。",
+          "support_type": "direct_publisher_or_national_library_record",
+          "note": "直接支持此字段，短句为释义。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B13-F005",
+      "author_id": "V1-ENT-0262",
+      "subject_ref": "V1-ENT-0271",
+      "field": "genre_or_form",
+      "value": "长篇小说",
+      "source_refs": [
+        "WCD10-B13-S005"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B13-S005",
+          "locator": "第75-79、142-146行：出版方简介；实读2026-10-13。",
+          "support_type": "direct_publisher_or_national_library_record",
+          "note": "直接支持此字段，短句为释义。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B13-F006",
+      "author_id": "V1-ENT-0262",
+      "subject_ref": "V1-ENT-0271",
+      "field": "one_sentence_summary",
+      "value": "出版方简介围绕诗人鲁伊斯-塔格莱与飞行员魏德尔身份重合展开，叙述者在智利政变前后追索其暴力艺术实践。",
+      "source_refs": [
+        "WCD10-B13-S005"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B13-S005",
+          "locator": "第75-79、142-146行：出版方简介；实读2026-10-13。",
+          "support_type": "direct_publisher_or_national_library_record",
+          "note": "直接支持此字段，短句为释义。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B13-F023",
+      "author_id": "V1-ENT-0262",
+      "subject_ref": "WCD10-B13-W006",
+      "field": "genre_or_form",
+      "value": "短篇小说集",
+      "source_refs": [
+        "WCD10-B13-S011"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B13-S011",
+          "locator": "第77-83、87-112、147-153行：短篇集简介及本版1997-09-01出版信息；实读2026-10-13。",
+          "support_type": "direct_publisher_catalogue_record",
+          "note": "出版商直接支持作品书目、体裁或限缩简介。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B13-F024",
+      "author_id": "V1-ENT-0262",
+      "subject_ref": "WCD10-B13-W006",
+      "field": "first_publication_year",
+      "value": "1997",
+      "source_refs": [
+        "WCD10-B13-S011"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B13-S011",
+          "locator": "第77-83、87-112、147-153行：短篇集简介及本版1997-09-01出版信息；实读2026-10-13。",
+          "support_type": "direct_publisher_catalogue_record",
+          "note": "出版商直接支持作品书目、体裁或限缩简介。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B13-F025",
+      "author_id": "V1-ENT-0262",
+      "subject_ref": "WCD10-B13-W006",
+      "field": "one_sentence_summary",
+      "value": "Sensini、Joanna Silvestri、Henry Simon Leprince等故事以作家、流亡经历和现实与虚构交错为线索，出版方简介概述其开放叙事及文学互文。",
+      "source_refs": [
+        "WCD10-B13-S011"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B13-S011",
+          "locator": "第77-83、87-112、147-153行：短篇集简介及本版1997-09-01出版信息；实读2026-10-13。",
+          "support_type": "direct_publisher_catalogue_record",
+          "note": "出版商直接支持作品书目、体裁或限缩简介。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B13-F026",
+      "author_id": "V1-ENT-0262",
+      "subject_ref": "WCD10-B13-W007",
+      "field": "genre_or_form",
+      "value": "短篇小说集",
+      "source_refs": [
+        "WCD10-B13-S012"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B13-S012",
+          "locator": "第75-81、85-109、145-151行：短篇集简介及本版2001-09-01出版信息；实读2026-10-13。",
+          "support_type": "direct_publisher_catalogue_record",
+          "note": "出版商直接支持作品书目、体裁或限缩简介。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B13-F027",
+      "author_id": "V1-ENT-0262",
+      "subject_ref": "WCD10-B13-W007",
+      "field": "first_publication_year",
+      "value": "2001",
+      "source_refs": [
+        "WCD10-B13-S012"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B13-S012",
+          "locator": "第75-81、85-109、145-151行：短篇集简介及本版2001-09-01出版信息；实读2026-10-13。",
+          "support_type": "direct_publisher_catalogue_record",
+          "note": "出版商直接支持作品书目、体裁或限缩简介。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B13-F028",
+      "author_id": "V1-ENT-0262",
+      "subject_ref": "WCD10-B13-W007",
+      "field": "one_sentence_summary",
+      "value": "出版方简介提及阿卡普尔科之旅、足球故事、与毒品和电影有关的故事，以及重现《荒野侦探》人物Arturo Belano的篇章。",
+      "source_refs": [
+        "WCD10-B13-S012"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B13-S012",
+          "locator": "第75-81、85-109、145-151行：短篇集简介及本版2001-09-01出版信息；实读2026-10-13。",
+          "support_type": "direct_publisher_catalogue_record",
+          "note": "出版商直接支持作品书目、体裁或限缩简介。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B13-W101-F01",
+      "author_id": "V1-ENT-0272",
+      "subject_ref": "WCD10-B13-W101",
+      "field": "first_publication_year",
+      "value": "1963",
+      "source_refs": [
+        "WCD10-B13-S101"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B13-S101",
+          "locator": "实读2026-10-13。第17行：Los días siguientes为Galeano于1963年出版的第一部小说；第61行：El fútbol a sol y sombra列于1995年。",
+          "support_type": "direct_author_institutional_record",
+          "note": "来源直接支持该书目或受限描述。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B13-W101-F02",
+      "author_id": "V1-ENT-0272",
+      "subject_ref": "WCD10-B13-W101",
+      "field": "genre_or_form",
+      "value": "小说（作者首部小说）",
+      "source_refs": [
+        "WCD10-B13-S101"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B13-S101",
+          "locator": "实读2026-10-13。第17行：Los días siguientes为Galeano于1963年出版的第一部小说；第61行：El fútbol a sol y sombra列于1995年。",
+          "support_type": "direct_author_institutional_record",
+          "note": "来源直接支持该书目或受限描述。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B13-W101-F03",
+      "author_id": "V1-ENT-0272",
+      "subject_ref": "WCD10-B13-W101",
+      "field": "one_sentence_summary",
+      "value": "Uruguay Educa将其记为Galeano于1963年出版的首部小说；现有来源未给出情节，简介限于作品书目位置。",
+      "source_refs": [
+        "WCD10-B13-S101"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B13-S101",
+          "locator": "实读2026-10-13。第17行：Los días siguientes为Galeano于1963年出版的第一部小说；第61行：El fútbol a sol y sombra列于1995年。",
+          "support_type": "direct_author_institutional_record",
+          "note": "来源直接支持该书目或受限描述。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B13-W101-F04",
+      "author_id": "V1-ENT-0272",
+      "subject_ref": "WCD10-B13-W101",
+      "field": "bibliographic_note",
+      "value": "Uruguay Educa列出《Los días siguientes》（1963），并说明这是Galeano的第一部小说。",
+      "source_refs": [
+        "WCD10-B13-S101"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B13-S101",
+          "locator": "实读2026-10-13。第17行：Los días siguientes为Galeano于1963年出版的第一部小说；第61行：El fútbol a sol y sombra列于1995年。",
+          "support_type": "direct_author_institutional_record",
+          "note": "来源直接支持该书目或受限描述。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B13-W102-F01",
+      "author_id": "V1-ENT-0272",
+      "subject_ref": "WCD10-B13-W102",
+      "field": "first_publication_year",
+      "value": "1995",
+      "source_refs": [
+        "WCD10-B13-S101"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B13-S101",
+          "locator": "实读2026-10-13。第17行：Los días siguientes为Galeano于1963年出版的第一部小说；第61行：El fútbol a sol y sombra列于1995年。",
+          "support_type": "direct_author_institutional_record",
+          "note": "来源直接支持该书目或受限描述。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B13-W102-F02",
+      "author_id": "V1-ENT-0272",
+      "subject_ref": "WCD10-B13-W102",
+      "field": "genre_or_form",
+      "value": "足球主题散文/叙事",
+      "source_refs": [
+        "WCD10-B13-S106"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B13-S106",
+          "locator": "实读2026-10-13。第27-34行：作者；作品向足球致意，也批评足球商业权力结构，批判职业体育技术官僚化压制快乐、想象和冒险；当前版含2014世界杯相关文字。第37-48行当前版信息。",
+          "support_type": "direct_publisher_record",
+          "note": "来源直接支持该书目或受限描述。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B13-W102-F03",
+      "author_id": "V1-ENT-0272",
+      "subject_ref": "WCD10-B13-W102",
+      "field": "one_sentence_summary",
+      "value": "作品一面礼赞足球，一面揭示这项商业产业中的权力结构，并批评职业体育的技术官僚化压抑快乐、想象与冒险。",
+      "source_refs": [
+        "WCD10-B13-S106"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B13-S106",
+          "locator": "实读2026-10-13。第27-34行：作者；作品向足球致意，也批评足球商业权力结构，批判职业体育技术官僚化压制快乐、想象和冒险；当前版含2014世界杯相关文字。第37-48行当前版信息。",
+          "support_type": "direct_publisher_record",
+          "note": "来源直接支持该书目或受限描述。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B13-W102-F04",
+      "author_id": "V1-ENT-0272",
+      "subject_ref": "WCD10-B13-W102",
+      "field": "bibliographic_note",
+      "value": "Uruguay Educa年表列1995年；出版社当前页提供后续版本资料，不能据再版日期改定初版年。",
+      "source_refs": [
+        "WCD10-B13-S101",
+        "WCD10-B13-S106"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B13-S101",
+          "locator": "实读2026-10-13。第17行：Los días siguientes为Galeano于1963年出版的第一部小说；第61行：El fútbol a sol y sombra列于1995年。",
+          "support_type": "direct_author_institutional_record",
+          "note": "来源直接支持该书目或受限描述。"
+        },
+        {
+          "source_ref": "WCD10-B13-S106",
+          "locator": "实读2026-10-13。第27-34行：作者；作品向足球致意，也批评足球商业权力结构，批判职业体育技术官僚化压制快乐、想象和冒险；当前版含2014世界杯相关文字。第37-48行当前版信息。",
+          "support_type": "direct_publisher_record",
+          "note": "来源直接支持该书目或受限描述。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B13-W103-F01",
+      "author_id": "V1-ENT-0272",
+      "subject_ref": "WCD10-B13-W103",
+      "field": "first_publication_year",
+      "value": "1984",
+      "source_refs": [
+        "WCD10-B13-S101"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B13-S101",
+          "locator": "实读2026-10-13。第17行：Los días siguientes为Galeano于1963年出版的第一部小说；第61行：El fútbol a sol y sombra列于1995年。",
+          "support_type": "direct_author_institutional_record",
+          "note": "来源直接支持该书目或受限描述。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B13-W103-F02",
+      "author_id": "V1-ENT-0272",
+      "subject_ref": "WCD10-B13-W103",
+      "field": "genre_or_form",
+      "value": "历史叙事卷册",
+      "source_refs": [
+        "WCD10-B13-S103"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B13-S103",
+          "locator": "实读2026-10-13。第27-31行：作者、第二卷身份；以有据小故事讲述拉美18—19世纪独立战争、革命及国家形成过程。第38-45行当前版书目信息。",
+          "support_type": "direct_publisher_record",
+          "note": "来源直接支持该书目或受限描述。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B13-W103-F03",
+      "author_id": "V1-ENT-0272",
+      "subject_ref": "WCD10-B13-W103",
+      "field": "one_sentence_summary",
+      "value": "三部曲第二卷以一系列有文献依据的故事呈现拉丁美洲18至19世纪的独立战争、革命和国家形成。",
+      "source_refs": [
+        "WCD10-B13-S103"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B13-S103",
+          "locator": "实读2026-10-13。第27-31行：作者、第二卷身份；以有据小故事讲述拉美18—19世纪独立战争、革命及国家形成过程。第38-45行当前版书目信息。",
+          "support_type": "direct_publisher_record",
+          "note": "来源直接支持该书目或受限描述。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B13-W103-F04",
+      "author_id": "V1-ENT-0272",
+      "subject_ref": "WCD10-B13-W103",
+      "field": "bibliographic_note",
+      "value": "Uruguay Educa年表记录作品年；Siglo XXI页面打开的是后续版（2024年），本候选不以出版社再版年替代首版年。",
+      "source_refs": [
+        "WCD10-B13-S101",
+        "WCD10-B13-S103"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B13-S101",
+          "locator": "实读2026-10-13。第17行：Los días siguientes为Galeano于1963年出版的第一部小说；第61行：El fútbol a sol y sombra列于1995年。",
+          "support_type": "direct_author_institutional_record",
+          "note": "来源直接支持该书目或受限描述。"
+        },
+        {
+          "source_ref": "WCD10-B13-S103",
+          "locator": "实读2026-10-13。第27-31行：作者、第二卷身份；以有据小故事讲述拉美18—19世纪独立战争、革命及国家形成过程。第38-45行当前版书目信息。",
+          "support_type": "direct_publisher_record",
+          "note": "来源直接支持该书目或受限描述。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B13-W104-F01",
+      "author_id": "V1-ENT-0272",
+      "subject_ref": "WCD10-B13-W104",
+      "field": "first_publication_year",
+      "value": "1986",
+      "source_refs": [
+        "WCD10-B13-S101"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B13-S101",
+          "locator": "实读2026-10-13。第17行：Los días siguientes为Galeano于1963年出版的第一部小说；第61行：El fútbol a sol y sombra列于1995年。",
+          "support_type": "direct_author_institutional_record",
+          "note": "来源直接支持该书目或受限描述。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B13-W104-F02",
+      "author_id": "V1-ENT-0272",
+      "subject_ref": "WCD10-B13-W104",
+      "field": "genre_or_form",
+      "value": "历史叙事卷册",
+      "source_refs": [
+        "WCD10-B13-S104"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B13-S104",
+          "locator": "实读2026-10-13。第27-30行：作者、第三卷身份；以日常小故事叙述美洲20世纪动荡，并呈现历史从博物馆走回现实的写作意图。第37-44行当前版书目信息。",
+          "support_type": "direct_publisher_record",
+          "note": "来源直接支持该书目或受限描述。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B13-W104-F03",
+      "author_id": "V1-ENT-0272",
+      "subject_ref": "WCD10-B13-W104",
+      "field": "one_sentence_summary",
+      "value": "三部曲第三卷以日常小故事叙述美洲20世纪的动荡，尝试让历史脱离静止的纪念叙述并重新进入当下。",
+      "source_refs": [
+        "WCD10-B13-S104"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B13-S104",
+          "locator": "实读2026-10-13。第27-30行：作者、第三卷身份；以日常小故事叙述美洲20世纪动荡，并呈现历史从博物馆走回现实的写作意图。第37-44行当前版书目信息。",
+          "support_type": "direct_publisher_record",
+          "note": "来源直接支持该书目或受限描述。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B13-W104-F04",
+      "author_id": "V1-ENT-0272",
+      "subject_ref": "WCD10-B13-W104",
+      "field": "bibliographic_note",
+      "value": "Uruguay Educa年表记录作品年；Siglo XXI页面打开的是后续版（2024年），本候选不以出版社再版年替代首版年。",
+      "source_refs": [
+        "WCD10-B13-S101",
+        "WCD10-B13-S104"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B13-S101",
+          "locator": "实读2026-10-13。第17行：Los días siguientes为Galeano于1963年出版的第一部小说；第61行：El fútbol a sol y sombra列于1995年。",
+          "support_type": "direct_author_institutional_record",
+          "note": "来源直接支持该书目或受限描述。"
+        },
+        {
+          "source_ref": "WCD10-B13-S104",
+          "locator": "实读2026-10-13。第27-30行：作者、第三卷身份；以日常小故事叙述美洲20世纪动荡，并呈现历史从博物馆走回现实的写作意图。第37-44行当前版书目信息。",
+          "support_type": "direct_publisher_record",
+          "note": "来源直接支持该书目或受限描述。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B13-W105-F01",
+      "author_id": "V1-ENT-0272",
+      "subject_ref": "WCD10-B13-W105",
+      "field": "first_publication_year",
+      "value": "2008",
+      "source_refs": [
+        "WCD10-B13-S101"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B13-S101",
+          "locator": "实读2026-10-13。第17行：Los días siguientes为Galeano于1963年出版的第一部小说；第61行：El fútbol a sol y sombra列于1995年。",
+          "support_type": "direct_author_institutional_record",
+          "note": "来源直接支持该书目或受限描述。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B13-W105-F02",
+      "author_id": "V1-ENT-0272",
+      "subject_ref": "WCD10-B13-W105",
+      "field": "genre_or_form",
+      "value": "历史叙事/散文",
+      "source_refs": [
+        "WCD10-B13-S109"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B13-S109",
+          "locator": "实读2026-10-13。第27-38行：作者；叙述将过去与现在连接，关注被忽略的普通人、女性、南方和东方等群体；馆方分类含历史/叙事。第43-50行当前版2008出版信息。",
+          "support_type": "direct_publisher_record",
+          "note": "来源直接支持该书目或受限描述。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B13-W105-F03",
+      "author_id": "V1-ENT-0272",
+      "subject_ref": "WCD10-B13-W105",
+      "field": "one_sentence_summary",
+      "value": "作品将过去与现在连接，转向被忽略的普通人、女性以及南方和东方等群体。",
+      "source_refs": [
+        "WCD10-B13-S109"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B13-S109",
+          "locator": "实读2026-10-13。第27-38行：作者；叙述将过去与现在连接，关注被忽略的普通人、女性、南方和东方等群体；馆方分类含历史/叙事。第43-50行当前版2008出版信息。",
+          "support_type": "direct_publisher_record",
+          "note": "来源直接支持该书目或受限描述。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B13-W105-F04",
+      "author_id": "V1-ENT-0272",
+      "subject_ref": "WCD10-B13-W105",
+      "field": "bibliographic_note",
+      "value": "Uruguay Educa年表记录2008年；Siglo XXI出版社页面也列2008版信息。",
+      "source_refs": [
+        "WCD10-B13-S101",
+        "WCD10-B13-S109"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B13-S101",
+          "locator": "实读2026-10-13。第17行：Los días siguientes为Galeano于1963年出版的第一部小说；第61行：El fútbol a sol y sombra列于1995年。",
+          "support_type": "direct_author_institutional_record",
+          "note": "来源直接支持该书目或受限描述。"
+        },
+        {
+          "source_ref": "WCD10-B13-S109",
+          "locator": "实读2026-10-13。第27-38行：作者；叙述将过去与现在连接，关注被忽略的普通人、女性、南方和东方等群体；馆方分类含历史/叙事。第43-50行当前版2008出版信息。",
+          "support_type": "direct_publisher_record",
+          "note": "来源直接支持该书目或受限描述。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B13-F101",
+      "author_id": "V1-ENT-0272",
+      "subject_ref": "V1-ENT-0276",
+      "field": "one_sentence_summary",
+      "value": "出版社简介称本卷以有文献依据的片段重述征服前至1700年的美洲历史，并写到原住民遭受的压迫。",
+      "source_refs": [
+        "WCD10-B13-S108"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B13-S108",
+          "locator": "实读2026-10-13。第27-30行：作者、三部曲第一卷身份；写到美洲征服前至1700年历史，以及原住民遭受的压迫。第35-46行主题分类和当前版信息。",
+          "support_type": "direct_publisher_record",
+          "note": "来源直接支持该书目或受限描述。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B13-F102",
+      "author_id": "V1-ENT-0272",
+      "subject_ref": "V1-ENT-0277",
+      "field": "genre_or_form",
+      "value": "短篇叙事/图文散文",
+      "source_refs": [
+        "WCD10-B13-S105"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B13-S105",
+          "locator": "实读2026-10-13。第27-30行：作者；由庆典、逸事、编年、梦、记忆等构成的短篇直接叙事，结合作者版画和绘图。第35-46行题材分类和当前版信息。",
+          "support_type": "direct_publisher_record",
+          "note": "来源直接支持该书目或受限描述。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B13-F103",
+      "author_id": "V1-ENT-0272",
+      "subject_ref": "V1-ENT-0277",
+      "field": "one_sentence_summary",
+      "value": "由庆典、逸事、编年、梦与记忆组成的短篇叙事，并结合作者版画和绘图。",
+      "source_refs": [
+        "WCD10-B13-S105"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B13-S105",
+          "locator": "实读2026-10-13。第27-30行：作者；由庆典、逸事、编年、梦、记忆等构成的短篇直接叙事，结合作者版画和绘图。第35-46行题材分类和当前版信息。",
+          "support_type": "direct_publisher_record",
+          "note": "来源直接支持该书目或受限描述。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B13-F104",
+      "author_id": "V1-ENT-0272",
+      "subject_ref": "V1-ENT-0275",
+      "field": "one_sentence_summary",
+      "value": "作者说明本书旨在传播被官方历史遮蔽或歪曲的事实，并以通俗、面向读者的方式讨论政治经济问题。",
+      "source_refs": [
+        "WCD10-B13-S107"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B13-S107",
+          "locator": "实读2026-10-13。第27-35行：作者说明写作意图是传播被官方历史遮蔽或歪曲的事实，并以面向读者的方式讨论政治经济问题。当前为50周年纪念版，第42-50行书目信息。",
+          "support_type": "direct_publisher_record",
+          "note": "来源直接支持该书目或受限描述。"
+        }
+      ]
+    },
+    {
+      "author_id": "V1-ENT-0273",
+      "subject_ref": "WCD10-B13-W201",
+      "field": "genre_or_form",
+      "value": "小说",
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B13-S201",
+          "locator": "页面第15-18行列作者身份、代表小说与文集；第20-110行按体裁列作品目录及出版者/年份。实读2026-10-13。",
+          "support_type": "direct_publisher_or_author_catalog_record",
+          "note": "作者作品目录直接列出作品题名、体裁及部分版本年份；仅用于书目事实、有限体裁说明，不复制长篇内容。"
+        }
+      ],
+      "source_refs": [
+        "WCD10-B13-S201"
+      ],
+      "candidate_fact_id": "WCD10-B13-F201"
+    },
+    {
+      "author_id": "V1-ENT-0273",
+      "subject_ref": "WCD10-B13-W201",
+      "field": "one_sentence_summary",
+      "value": "Junior追索线索进入一个不断消失、又由秘密故事构成的布宜诺斯艾利斯；出版社将作品描述为交织爱情、政治与城市叙事的小说。",
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B13-S203",
+          "locator": "第75-78行提供作品简介并称其为小说；第104-106行显示Anagrama该版本出版日2003-03-01。 实读2026-10-13。",
+          "support_type": "direct_publisher_or_author_catalog_record",
+          "note": "支持Anagrama版本及其简介；与作者档案的1992书目年份并列记录。"
+        }
+      ],
+      "source_refs": [
+        "WCD10-B13-S203"
+      ],
+      "candidate_fact_id": "WCD10-B13-F202"
+    },
+    {
+      "author_id": "V1-ENT-0273",
+      "subject_ref": "WCD10-B13-W201",
+      "field": "first_publication_year",
+      "value": "1992",
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B13-S201",
+          "locator": "页面第15-18行列作者身份、代表小说与文集；第20-110行按体裁列作品目录及出版者/年份。实读2026-10-13。",
+          "support_type": "direct_publisher_or_author_catalog_record",
+          "note": "作者作品目录直接列出作品题名、体裁及部分版本年份；仅用于书目事实、有限体裁说明，不复制长篇内容。"
+        }
+      ],
+      "source_refs": [
+        "WCD10-B13-S201"
+      ],
+      "candidate_fact_id": "WCD10-B13-F203"
+    },
+    {
+      "author_id": "V1-ENT-0273",
+      "subject_ref": "WCD10-B13-W201",
+      "field": "bibliographic_note",
+      "value": "Piglia作者档案将 La ciudad ausente 列为1992年小说；本包所查Anagrama版本页面标示2003年3月1日出版（ISBN 978-84-339-6841-8）。两者分别记录作品目录年份与该版日期。",
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B13-S201",
+          "locator": "页面第15-18行列作者身份、代表小说与文集；第20-110行按体裁列作品目录及出版者/年份。实读2026-10-13。",
+          "support_type": "direct_publisher_or_author_catalog_record",
+          "note": "作者作品目录直接列出作品题名、体裁及部分版本年份；仅用于书目事实、有限体裁说明，不复制长篇内容。"
+        },
+        {
+          "source_ref": "WCD10-B13-S203",
+          "locator": "第75-78行提供作品简介并称其为小说；第104-106行显示Anagrama该版本出版日2003-03-01。 实读2026-10-13。",
+          "support_type": "direct_publisher_or_author_catalog_record",
+          "note": "支持Anagrama版本及其简介；与作者档案的1992书目年份并列记录。"
+        }
+      ],
+      "source_refs": [
+        "WCD10-B13-S201",
+        "WCD10-B13-S203"
+      ],
+      "candidate_fact_id": "WCD10-B13-F204"
+    },
+    {
+      "author_id": "V1-ENT-0273",
+      "subject_ref": "WCD10-B13-W202",
+      "field": "genre_or_form",
+      "value": "小说",
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B13-S201",
+          "locator": "页面第15-18行列作者身份、代表小说与文集；第20-110行按体裁列作品目录及出版者/年份。实读2026-10-13。",
+          "support_type": "direct_publisher_or_author_catalog_record",
+          "note": "作者作品目录直接列出作品题名、体裁及部分版本年份；仅用于书目事实、有限体裁说明，不复制长篇内容。"
+        }
+      ],
+      "source_refs": [
+        "WCD10-B13-S201"
+      ],
+      "candidate_fact_id": "WCD10-B13-F205"
+    },
+    {
+      "author_id": "V1-ENT-0273",
+      "subject_ref": "WCD10-B13-W202",
+      "field": "one_sentence_summary",
+      "value": "Emilio Renzi赴新泽西大学授课后卷入Ida Brown之死及针对学界人士的袭击调查；出版社称小说在侦探叙事中交织情感关系与重塑人生的主题。",
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B13-S204",
+          "locator": "第75-80行提供作品简介并称其为小说；第105-107行显示出版日2013-09-04。 实读2026-10-13。",
+          "support_type": "direct_publisher_or_author_catalog_record",
+          "note": "支持作品围绕Emilio Renzi、Ida Brown、校园连环袭击调查的有界简介及Anagrama版本年份。"
+        }
+      ],
+      "source_refs": [
+        "WCD10-B13-S204"
+      ],
+      "candidate_fact_id": "WCD10-B13-F206"
+    },
+    {
+      "author_id": "V1-ENT-0273",
+      "subject_ref": "WCD10-B13-W202",
+      "field": "first_publication_year",
+      "value": "2013",
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B13-S201",
+          "locator": "页面第15-18行列作者身份、代表小说与文集；第20-110行按体裁列作品目录及出版者/年份。实读2026-10-13。",
+          "support_type": "direct_publisher_or_author_catalog_record",
+          "note": "作者作品目录直接列出作品题名、体裁及部分版本年份；仅用于书目事实、有限体裁说明，不复制长篇内容。"
+        }
+      ],
+      "source_refs": [
+        "WCD10-B13-S201"
+      ],
+      "candidate_fact_id": "WCD10-B13-F207"
+    },
+    {
+      "author_id": "V1-ENT-0273",
+      "subject_ref": "WCD10-B13-W202",
+      "field": "bibliographic_note",
+      "value": "作者档案与Anagrama页面均记录2013年；Anagrama版页面标示2013年9月4日出版（ISBN 978-84-339-9764-7）。",
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B13-S201",
+          "locator": "页面第15-18行列作者身份、代表小说与文集；第20-110行按体裁列作品目录及出版者/年份。实读2026-10-13。",
+          "support_type": "direct_publisher_or_author_catalog_record",
+          "note": "作者作品目录直接列出作品题名、体裁及部分版本年份；仅用于书目事实、有限体裁说明，不复制长篇内容。"
+        },
+        {
+          "source_ref": "WCD10-B13-S204",
+          "locator": "第75-80行提供作品简介并称其为小说；第105-107行显示出版日2013-09-04。 实读2026-10-13。",
+          "support_type": "direct_publisher_or_author_catalog_record",
+          "note": "支持作品围绕Emilio Renzi、Ida Brown、校园连环袭击调查的有界简介及Anagrama版本年份。"
+        }
+      ],
+      "source_refs": [
+        "WCD10-B13-S201",
+        "WCD10-B13-S204"
+      ],
+      "candidate_fact_id": "WCD10-B13-F208"
+    },
+    {
+      "author_id": "V1-ENT-0273",
+      "subject_ref": "WCD10-B13-W203",
+      "field": "genre_or_form",
+      "value": "侦探短篇小说集",
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B13-S205",
+          "locator": "第62-65行称为cuentos policiacos；第77-80行介绍Croce处理的疑案及侦探文学致意；第129-131行显示出版日2018-09-12。 实读2026-10-13。",
+          "support_type": "direct_publisher_or_author_catalog_record",
+          "note": "直接支持体裁、侦探故事简介、2018 Anagrama版本。"
+        },
+        {
+          "source_ref": "WCD10-B13-S202",
+          "locator": "第61-64行直接区分五部小说、四部cuento集和评论/自传书目；第74-113行列该社书目。 实读2026-10-13。",
+          "support_type": "direct_publisher_or_author_catalog_record",
+          "note": "直接支持Piglia作品类别与Anagrama书目归属，不以出版社个人页推定版本年份。"
+        }
+      ],
+      "source_refs": [
+        "WCD10-B13-S205",
+        "WCD10-B13-S202"
+      ],
+      "candidate_fact_id": "WCD10-B13-F209"
+    },
+    {
+      "author_id": "V1-ENT-0273",
+      "subject_ref": "WCD10-B13-W203",
+      "field": "one_sentence_summary",
+      "value": "作品由警长Croce处理的一组疑案构成，包括港口命案、疑似涉及Eva Perón的影片谜团及珠宝盗窃案；出版社称其致意于侦探小说传统。",
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B13-S205",
+          "locator": "第62-65行称为cuentos policiacos；第77-80行介绍Croce处理的疑案及侦探文学致意；第129-131行显示出版日2018-09-12。 实读2026-10-13。",
+          "support_type": "direct_publisher_or_author_catalog_record",
+          "note": "直接支持体裁、侦探故事简介、2018 Anagrama版本。"
+        }
+      ],
+      "source_refs": [
+        "WCD10-B13-S205"
+      ],
+      "candidate_fact_id": "WCD10-B13-F210"
+    },
+    {
+      "author_id": "V1-ENT-0273",
+      "subject_ref": "WCD10-B13-W203",
+      "field": "first_publication_year",
+      "value": "2018",
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B13-S201",
+          "locator": "页面第15-18行列作者身份、代表小说与文集；第20-110行按体裁列作品目录及出版者/年份。实读2026-10-13。",
+          "support_type": "direct_publisher_or_author_catalog_record",
+          "note": "作者作品目录直接列出作品题名、体裁及部分版本年份；仅用于书目事实、有限体裁说明，不复制长篇内容。"
+        }
+      ],
+      "source_refs": [
+        "WCD10-B13-S201"
+      ],
+      "candidate_fact_id": "WCD10-B13-F211"
+    },
+    {
+      "author_id": "V1-ENT-0273",
+      "subject_ref": "WCD10-B13-W203",
+      "field": "bibliographic_note",
+      "value": "Piglia作者档案列2018年；Anagrama版页面标示2018年9月12日出版（ISBN 978-84-339-9860-6）。出版方将该书称为警探短篇故事集。",
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B13-S201",
+          "locator": "页面第15-18行列作者身份、代表小说与文集；第20-110行按体裁列作品目录及出版者/年份。实读2026-10-13。",
+          "support_type": "direct_publisher_or_author_catalog_record",
+          "note": "作者作品目录直接列出作品题名、体裁及部分版本年份；仅用于书目事实、有限体裁说明，不复制长篇内容。"
+        },
+        {
+          "source_ref": "WCD10-B13-S205",
+          "locator": "第62-65行称为cuentos policiacos；第77-80行介绍Croce处理的疑案及侦探文学致意；第129-131行显示出版日2018-09-12。 实读2026-10-13。",
+          "support_type": "direct_publisher_or_author_catalog_record",
+          "note": "直接支持体裁、侦探故事简介、2018 Anagrama版本。"
+        }
+      ],
+      "source_refs": [
+        "WCD10-B13-S201",
+        "WCD10-B13-S205"
+      ],
+      "candidate_fact_id": "WCD10-B13-F212"
+    },
+    {
+      "author_id": "V1-ENT-0273",
+      "subject_ref": "WCD10-B13-W205",
+      "field": "genre_or_form",
+      "value": "短篇小说集",
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B13-S201",
+          "locator": "页面第15-18行列作者身份、代表小说与文集；第20-110行按体裁列作品目录及出版者/年份。实读2026-10-13。",
+          "support_type": "direct_publisher_or_author_catalog_record",
+          "note": "作者作品目录直接列出作品题名、体裁及部分版本年份；仅用于书目事实、有限体裁说明，不复制长篇内容。"
+        }
+      ],
+      "source_refs": [
+        "WCD10-B13-S201"
+      ],
+      "candidate_fact_id": "WCD10-B13-F217"
+    },
+    {
+      "author_id": "V1-ENT-0273",
+      "subject_ref": "WCD10-B13-W205",
+      "field": "one_sentence_summary",
+      "value": "作者作品目录将 La invasión 列为短篇小说集，并记录其出版年份为 1967；本条仅说明体裁与书目身份。",
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B13-S201",
+          "locator": "页面第15-18行列作者身份、代表小说与文集；第20-110行按体裁列作品目录及出版者/年份。实读2026-10-13。",
+          "support_type": "direct_publisher_or_author_catalog_record",
+          "note": "作者作品目录直接列出作品题名、体裁及部分版本年份；仅用于书目事实、有限体裁说明，不复制长篇内容。"
+        }
+      ],
+      "source_refs": [
+        "WCD10-B13-S201"
+      ],
+      "candidate_fact_id": "WCD10-B13-F218"
+    },
+    {
+      "author_id": "V1-ENT-0273",
+      "subject_ref": "WCD10-B13-W205",
+      "field": "first_publication_year",
+      "value": "1967",
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B13-S201",
+          "locator": "页面第15-18行列作者身份、代表小说与文集；第20-110行按体裁列作品目录及出版者/年份。实读2026-10-13。",
+          "support_type": "direct_publisher_or_author_catalog_record",
+          "note": "作者作品目录直接列出作品题名、体裁及部分版本年份；仅用于书目事实、有限体裁说明，不复制长篇内容。"
+        }
+      ],
+      "source_refs": [
+        "WCD10-B13-S201"
+      ],
+      "candidate_fact_id": "WCD10-B13-F219"
+    },
+    {
+      "author_id": "V1-ENT-0273",
+      "subject_ref": "WCD10-B13-W205",
+      "field": "bibliographic_note",
+      "value": "Piglia作者档案分别列 Jaulario 与 La invasión，均为1967年；本包仅收《La invasión》对象，不据该目录认定两书等同或仅为版本关系。",
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B13-S201",
+          "locator": "页面第15-18行列作者身份、代表小说与文集；第20-110行按体裁列作品目录及出版者/年份。实读2026-10-13。",
+          "support_type": "direct_publisher_or_author_catalog_record",
+          "note": "作者作品目录直接列出作品题名、体裁及部分版本年份；仅用于书目事实、有限体裁说明，不复制长篇内容。"
+        }
+      ],
+      "source_refs": [
+        "WCD10-B13-S201"
+      ],
+      "candidate_fact_id": "WCD10-B13-F220"
+    },
+    {
+      "author_id": "V1-ENT-0273",
+      "subject_ref": "WCD10-B13-W206",
+      "field": "genre_or_form",
+      "value": "短篇小说集",
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B13-S201",
+          "locator": "页面第15-18行列作者身份、代表小说与文集；第20-110行按体裁列作品目录及出版者/年份。实读2026-10-13。",
+          "support_type": "direct_publisher_or_author_catalog_record",
+          "note": "作者作品目录直接列出作品题名、体裁及部分版本年份；仅用于书目事实、有限体裁说明，不复制长篇内容。"
+        }
+      ],
+      "source_refs": [
+        "WCD10-B13-S201"
+      ],
+      "candidate_fact_id": "WCD10-B13-F221"
+    },
+    {
+      "author_id": "V1-ENT-0273",
+      "subject_ref": "WCD10-B13-W206",
+      "field": "one_sentence_summary",
+      "value": "作者作品目录将 Nombre falso 列为短篇小说集，并记录其出版年份为 1975；本条仅说明体裁与书目身份。",
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B13-S201",
+          "locator": "页面第15-18行列作者身份、代表小说与文集；第20-110行按体裁列作品目录及出版者/年份。实读2026-10-13。",
+          "support_type": "direct_publisher_or_author_catalog_record",
+          "note": "作者作品目录直接列出作品题名、体裁及部分版本年份；仅用于书目事实、有限体裁说明，不复制长篇内容。"
+        }
+      ],
+      "source_refs": [
+        "WCD10-B13-S201"
+      ],
+      "candidate_fact_id": "WCD10-B13-F222"
+    },
+    {
+      "author_id": "V1-ENT-0273",
+      "subject_ref": "WCD10-B13-W206",
+      "field": "first_publication_year",
+      "value": "1975",
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B13-S201",
+          "locator": "页面第15-18行列作者身份、代表小说与文集；第20-110行按体裁列作品目录及出版者/年份。实读2026-10-13。",
+          "support_type": "direct_publisher_or_author_catalog_record",
+          "note": "作者作品目录直接列出作品题名、体裁及部分版本年份；仅用于书目事实、有限体裁说明，不复制长篇内容。"
+        }
+      ],
+      "source_refs": [
+        "WCD10-B13-S201"
+      ],
+      "candidate_fact_id": "WCD10-B13-F223"
+    },
+    {
+      "author_id": "V1-ENT-0273",
+      "subject_ref": "WCD10-B13-W206",
+      "field": "bibliographic_note",
+      "value": "作者作品目录列为短篇小说集，书目年份为1975。",
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B13-S201",
+          "locator": "页面第15-18行列作者身份、代表小说与文集；第20-110行按体裁列作品目录及出版者/年份。实读2026-10-13。",
+          "support_type": "direct_publisher_or_author_catalog_record",
+          "note": "作者作品目录直接列出作品题名、体裁及部分版本年份；仅用于书目事实、有限体裁说明，不复制长篇内容。"
+        }
+      ],
+      "source_refs": [
+        "WCD10-B13-S201"
+      ],
+      "candidate_fact_id": "WCD10-B13-F224"
+    },
+    {
+      "author_id": "V1-ENT-0273",
+      "subject_ref": "WCD10-B13-W207",
+      "field": "genre_or_form",
+      "value": "小说集（含两部中篇）",
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B13-S201",
+          "locator": "页面第15-18行列作者身份、代表小说与文集；第20-110行按体裁列作品目录及出版者/年份。实读2026-10-13。",
+          "support_type": "direct_publisher_or_author_catalog_record",
+          "note": "作者作品目录直接列出作品题名、体裁及部分版本年份；仅用于书目事实、有限体裁说明，不复制长篇内容。"
+        }
+      ],
+      "source_refs": [
+        "WCD10-B13-S201"
+      ],
+      "candidate_fact_id": "WCD10-B13-F225"
+    },
+    {
+      "author_id": "V1-ENT-0273",
+      "subject_ref": "WCD10-B13-W207",
+      "field": "one_sentence_summary",
+      "value": "作者作品目录将 Prisión perpetua 列为小说集（含两部中篇），并记录其出版年份为 1988；本条仅说明体裁与书目身份。",
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B13-S201",
+          "locator": "页面第15-18行列作者身份、代表小说与文集；第20-110行按体裁列作品目录及出版者/年份。实读2026-10-13。",
+          "support_type": "direct_publisher_or_author_catalog_record",
+          "note": "作者作品目录直接列出作品题名、体裁及部分版本年份；仅用于书目事实、有限体裁说明，不复制长篇内容。"
+        }
+      ],
+      "source_refs": [
+        "WCD10-B13-S201"
+      ],
+      "candidate_fact_id": "WCD10-B13-F226"
+    },
+    {
+      "author_id": "V1-ENT-0273",
+      "subject_ref": "WCD10-B13-W207",
+      "field": "first_publication_year",
+      "value": "1988",
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B13-S201",
+          "locator": "页面第15-18行列作者身份、代表小说与文集；第20-110行按体裁列作品目录及出版者/年份。实读2026-10-13。",
+          "support_type": "direct_publisher_or_author_catalog_record",
+          "note": "作者作品目录直接列出作品题名、体裁及部分版本年份；仅用于书目事实、有限体裁说明，不复制长篇内容。"
+        }
+      ],
+      "source_refs": [
+        "WCD10-B13-S201"
+      ],
+      "candidate_fact_id": "WCD10-B13-F227"
+    },
+    {
+      "author_id": "V1-ENT-0273",
+      "subject_ref": "WCD10-B13-W207",
+      "field": "bibliographic_note",
+      "value": "作者作品目录列为小说集（含两部中篇），书目年份为1988。",
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B13-S201",
+          "locator": "页面第15-18行列作者身份、代表小说与文集；第20-110行按体裁列作品目录及出版者/年份。实读2026-10-13。",
+          "support_type": "direct_publisher_or_author_catalog_record",
+          "note": "作者作品目录直接列出作品题名、体裁及部分版本年份；仅用于书目事实、有限体裁说明，不复制长篇内容。"
+        }
+      ],
+      "source_refs": [
+        "WCD10-B13-S201"
+      ],
+      "candidate_fact_id": "WCD10-B13-F228"
+    },
+    {
+      "author_id": "V1-ENT-0273",
+      "subject_ref": "WCD10-B13-W208",
+      "field": "genre_or_form",
+      "value": "评论与访谈集",
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B13-S201",
+          "locator": "页面第15-18行列作者身份、代表小说与文集；第20-110行按体裁列作品目录及出版者/年份。实读2026-10-13。",
+          "support_type": "direct_publisher_or_author_catalog_record",
+          "note": "作者作品目录直接列出作品题名、体裁及部分版本年份；仅用于书目事实、有限体裁说明，不复制长篇内容。"
+        }
+      ],
+      "source_refs": [
+        "WCD10-B13-S201"
+      ],
+      "candidate_fact_id": "WCD10-B13-F229"
+    },
+    {
+      "author_id": "V1-ENT-0273",
+      "subject_ref": "WCD10-B13-W208",
+      "field": "one_sentence_summary",
+      "value": "作者作品目录将 Crítica y ficción 列为评论与访谈集，并记录其出版年份为 1986；本条仅说明体裁与书目身份。",
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B13-S201",
+          "locator": "页面第15-18行列作者身份、代表小说与文集；第20-110行按体裁列作品目录及出版者/年份。实读2026-10-13。",
+          "support_type": "direct_publisher_or_author_catalog_record",
+          "note": "作者作品目录直接列出作品题名、体裁及部分版本年份；仅用于书目事实、有限体裁说明，不复制长篇内容。"
+        }
+      ],
+      "source_refs": [
+        "WCD10-B13-S201"
+      ],
+      "candidate_fact_id": "WCD10-B13-F230"
+    },
+    {
+      "author_id": "V1-ENT-0273",
+      "subject_ref": "WCD10-B13-W208",
+      "field": "first_publication_year",
+      "value": "1986",
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B13-S201",
+          "locator": "页面第15-18行列作者身份、代表小说与文集；第20-110行按体裁列作品目录及出版者/年份。实读2026-10-13。",
+          "support_type": "direct_publisher_or_author_catalog_record",
+          "note": "作者作品目录直接列出作品题名、体裁及部分版本年份；仅用于书目事实、有限体裁说明，不复制长篇内容。"
+        }
+      ],
+      "source_refs": [
+        "WCD10-B13-S201"
+      ],
+      "candidate_fact_id": "WCD10-B13-F231"
+    },
+    {
+      "author_id": "V1-ENT-0273",
+      "subject_ref": "WCD10-B13-W208",
+      "field": "bibliographic_note",
+      "value": "作者作品目录列为评论与访谈集，书目年份为1986。",
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B13-S201",
+          "locator": "页面第15-18行列作者身份、代表小说与文集；第20-110行按体裁列作品目录及出版者/年份。实读2026-10-13。",
+          "support_type": "direct_publisher_or_author_catalog_record",
+          "note": "作者作品目录直接列出作品题名、体裁及部分版本年份；仅用于书目事实、有限体裁说明，不复制长篇内容。"
+        }
+      ],
+      "source_refs": [
+        "WCD10-B13-S201"
+      ],
+      "candidate_fact_id": "WCD10-B13-F232"
+    },
+    {
+      "author_id": "V1-ENT-0273",
+      "subject_ref": "WCD10-B13-W209",
+      "field": "genre_or_form",
+      "value": "文学评论",
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B13-S201",
+          "locator": "页面第15-18行列作者身份、代表小说与文集；第20-110行按体裁列作品目录及出版者/年份。实读2026-10-13。",
+          "support_type": "direct_publisher_or_author_catalog_record",
+          "note": "作者作品目录直接列出作品题名、体裁及部分版本年份；仅用于书目事实、有限体裁说明，不复制长篇内容。"
+        }
+      ],
+      "source_refs": [
+        "WCD10-B13-S201"
+      ],
+      "candidate_fact_id": "WCD10-B13-F233"
+    },
+    {
+      "author_id": "V1-ENT-0273",
+      "subject_ref": "WCD10-B13-W209",
+      "field": "one_sentence_summary",
+      "value": "作者作品目录将 Formas breves 列为文学评论，并记录其出版年份为 1999；本条仅说明体裁与书目身份。",
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B13-S201",
+          "locator": "页面第15-18行列作者身份、代表小说与文集；第20-110行按体裁列作品目录及出版者/年份。实读2026-10-13。",
+          "support_type": "direct_publisher_or_author_catalog_record",
+          "note": "作者作品目录直接列出作品题名、体裁及部分版本年份；仅用于书目事实、有限体裁说明，不复制长篇内容。"
+        }
+      ],
+      "source_refs": [
+        "WCD10-B13-S201"
+      ],
+      "candidate_fact_id": "WCD10-B13-F234"
+    },
+    {
+      "author_id": "V1-ENT-0273",
+      "subject_ref": "WCD10-B13-W209",
+      "field": "bibliographic_note",
+      "value": "作者档案简介将 Formas breves 列为2000年；作品目录第85行列1999年。年份口径未解，本包不填写原子首版年。",
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B13-S201",
+          "locator": "页面第15-18行列作者身份、代表小说与文集；第20-110行按体裁列作品目录及出版者/年份。实读2026-10-13。",
+          "support_type": "direct_publisher_or_author_catalog_record",
+          "note": "作者作品目录直接列出作品题名、体裁及部分版本年份；仅用于书目事实、有限体裁说明，不复制长篇内容。"
+        }
+      ],
+      "source_refs": [
+        "WCD10-B13-S201"
+      ],
+      "candidate_fact_id": "WCD10-B13-F236"
+    },
+    {
+      "author_id": "V1-ENT-0273",
+      "subject_ref": "WCD10-B13-W210",
+      "field": "genre_or_form",
+      "value": "文学评论",
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B13-S201",
+          "locator": "页面第15-18行列作者身份、代表小说与文集；第20-110行按体裁列作品目录及出版者/年份。实读2026-10-13。",
+          "support_type": "direct_publisher_or_author_catalog_record",
+          "note": "作者作品目录直接列出作品题名、体裁及部分版本年份；仅用于书目事实、有限体裁说明，不复制长篇内容。"
+        }
+      ],
+      "source_refs": [
+        "WCD10-B13-S201"
+      ],
+      "candidate_fact_id": "WCD10-B13-F237"
+    },
+    {
+      "author_id": "V1-ENT-0273",
+      "subject_ref": "WCD10-B13-W210",
+      "field": "one_sentence_summary",
+      "value": "作者作品目录将 El último lector 列为文学评论，并记录其出版年份为 2005；本条仅说明体裁与书目身份。",
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B13-S201",
+          "locator": "页面第15-18行列作者身份、代表小说与文集；第20-110行按体裁列作品目录及出版者/年份。实读2026-10-13。",
+          "support_type": "direct_publisher_or_author_catalog_record",
+          "note": "作者作品目录直接列出作品题名、体裁及部分版本年份；仅用于书目事实、有限体裁说明，不复制长篇内容。"
+        }
+      ],
+      "source_refs": [
+        "WCD10-B13-S201"
+      ],
+      "candidate_fact_id": "WCD10-B13-F238"
+    },
+    {
+      "author_id": "V1-ENT-0273",
+      "subject_ref": "WCD10-B13-W210",
+      "field": "first_publication_year",
+      "value": "2005",
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B13-S201",
+          "locator": "页面第15-18行列作者身份、代表小说与文集；第20-110行按体裁列作品目录及出版者/年份。实读2026-10-13。",
+          "support_type": "direct_publisher_or_author_catalog_record",
+          "note": "作者作品目录直接列出作品题名、体裁及部分版本年份；仅用于书目事实、有限体裁说明，不复制长篇内容。"
+        }
+      ],
+      "source_refs": [
+        "WCD10-B13-S201"
+      ],
+      "candidate_fact_id": "WCD10-B13-F239"
+    },
+    {
+      "author_id": "V1-ENT-0273",
+      "subject_ref": "WCD10-B13-W210",
+      "field": "bibliographic_note",
+      "value": "作者作品目录列为文学评论，书目年份为2005。",
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B13-S201",
+          "locator": "页面第15-18行列作者身份、代表小说与文集；第20-110行按体裁列作品目录及出版者/年份。实读2026-10-13。",
+          "support_type": "direct_publisher_or_author_catalog_record",
+          "note": "作者作品目录直接列出作品题名、体裁及部分版本年份；仅用于书目事实、有限体裁说明，不复制长篇内容。"
+        }
+      ],
+      "source_refs": [
+        "WCD10-B13-S201"
+      ],
+      "candidate_fact_id": "WCD10-B13-F240"
+    },
+    {
+      "author_id": "V1-ENT-0273",
+      "subject_ref": "WCD10-B13-W211",
+      "field": "genre_or_form",
+      "value": "日记／自传性作品",
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B13-S201",
+          "locator": "页面第15-18行列作者身份、代表小说与文集；第20-110行按体裁列作品目录及出版者/年份。实读2026-10-13。",
+          "support_type": "direct_publisher_or_author_catalog_record",
+          "note": "作者作品目录直接列出作品题名、体裁及部分版本年份；仅用于书目事实、有限体裁说明，不复制长篇内容。"
+        }
+      ],
+      "source_refs": [
+        "WCD10-B13-S201"
+      ],
+      "candidate_fact_id": "WCD10-B13-F241"
+    },
+    {
+      "author_id": "V1-ENT-0273",
+      "subject_ref": "WCD10-B13-W211",
+      "field": "one_sentence_summary",
+      "value": "作者作品目录将 Los diarios de Emilio Renzi. Años de formación 列为日记／自传性作品，并记录其出版年份为 2015；本条仅说明体裁与书目身份。",
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B13-S201",
+          "locator": "页面第15-18行列作者身份、代表小说与文集；第20-110行按体裁列作品目录及出版者/年份。实读2026-10-13。",
+          "support_type": "direct_publisher_or_author_catalog_record",
+          "note": "作者作品目录直接列出作品题名、体裁及部分版本年份；仅用于书目事实、有限体裁说明，不复制长篇内容。"
+        }
+      ],
+      "source_refs": [
+        "WCD10-B13-S201"
+      ],
+      "candidate_fact_id": "WCD10-B13-F242"
+    },
+    {
+      "author_id": "V1-ENT-0273",
+      "subject_ref": "WCD10-B13-W211",
+      "field": "first_publication_year",
+      "value": "2015",
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B13-S201",
+          "locator": "页面第15-18行列作者身份、代表小说与文集；第20-110行按体裁列作品目录及出版者/年份。实读2026-10-13。",
+          "support_type": "direct_publisher_or_author_catalog_record",
+          "note": "作者作品目录直接列出作品题名、体裁及部分版本年份；仅用于书目事实、有限体裁说明，不复制长篇内容。"
+        }
+      ],
+      "source_refs": [
+        "WCD10-B13-S201"
+      ],
+      "candidate_fact_id": "WCD10-B13-F243"
+    },
+    {
+      "author_id": "V1-ENT-0273",
+      "subject_ref": "WCD10-B13-W211",
+      "field": "bibliographic_note",
+      "value": "作者作品目录列为日记／自传性作品，书目年份为2015。",
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B13-S201",
+          "locator": "页面第15-18行列作者身份、代表小说与文集；第20-110行按体裁列作品目录及出版者/年份。实读2026-10-13。",
+          "support_type": "direct_publisher_or_author_catalog_record",
+          "note": "作者作品目录直接列出作品题名、体裁及部分版本年份；仅用于书目事实、有限体裁说明，不复制长篇内容。"
+        }
+      ],
+      "source_refs": [
+        "WCD10-B13-S201"
+      ],
+      "candidate_fact_id": "WCD10-B13-F244"
+    },
+    {
+      "author_id": "V1-ENT-0273",
+      "subject_ref": "WCD10-B13-W212",
+      "field": "genre_or_form",
+      "value": "日记／自传性作品",
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B13-S201",
+          "locator": "页面第15-18行列作者身份、代表小说与文集；第20-110行按体裁列作品目录及出版者/年份。实读2026-10-13。",
+          "support_type": "direct_publisher_or_author_catalog_record",
+          "note": "作者作品目录直接列出作品题名、体裁及部分版本年份；仅用于书目事实、有限体裁说明，不复制长篇内容。"
+        }
+      ],
+      "source_refs": [
+        "WCD10-B13-S201"
+      ],
+      "candidate_fact_id": "WCD10-B13-F245"
+    },
+    {
+      "author_id": "V1-ENT-0273",
+      "subject_ref": "WCD10-B13-W212",
+      "field": "one_sentence_summary",
+      "value": "作者作品目录将 Los diarios de Emilio Renzi. Los años felices 列为日记／自传性作品，并记录其出版年份为 2016；本条仅说明体裁与书目身份。",
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B13-S201",
+          "locator": "页面第15-18行列作者身份、代表小说与文集；第20-110行按体裁列作品目录及出版者/年份。实读2026-10-13。",
+          "support_type": "direct_publisher_or_author_catalog_record",
+          "note": "作者作品目录直接列出作品题名、体裁及部分版本年份；仅用于书目事实、有限体裁说明，不复制长篇内容。"
+        }
+      ],
+      "source_refs": [
+        "WCD10-B13-S201"
+      ],
+      "candidate_fact_id": "WCD10-B13-F246"
+    },
+    {
+      "author_id": "V1-ENT-0273",
+      "subject_ref": "WCD10-B13-W212",
+      "field": "first_publication_year",
+      "value": "2016",
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B13-S201",
+          "locator": "页面第15-18行列作者身份、代表小说与文集；第20-110行按体裁列作品目录及出版者/年份。实读2026-10-13。",
+          "support_type": "direct_publisher_or_author_catalog_record",
+          "note": "作者作品目录直接列出作品题名、体裁及部分版本年份；仅用于书目事实、有限体裁说明，不复制长篇内容。"
+        }
+      ],
+      "source_refs": [
+        "WCD10-B13-S201"
+      ],
+      "candidate_fact_id": "WCD10-B13-F247"
+    },
+    {
+      "author_id": "V1-ENT-0273",
+      "subject_ref": "WCD10-B13-W212",
+      "field": "bibliographic_note",
+      "value": "作者作品目录列为日记／自传性作品，书目年份为2016。",
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B13-S201",
+          "locator": "页面第15-18行列作者身份、代表小说与文集；第20-110行按体裁列作品目录及出版者/年份。实读2026-10-13。",
+          "support_type": "direct_publisher_or_author_catalog_record",
+          "note": "作者作品目录直接列出作品题名、体裁及部分版本年份；仅用于书目事实、有限体裁说明，不复制长篇内容。"
+        }
+      ],
+      "source_refs": [
+        "WCD10-B13-S201"
+      ],
+      "candidate_fact_id": "WCD10-B13-F248"
+    },
+    {
+      "author_id": "V1-ENT-0273",
+      "subject_ref": "WCD10-B13-W213",
+      "field": "genre_or_form",
+      "value": "日记／自传性作品",
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B13-S201",
+          "locator": "页面第15-18行列作者身份、代表小说与文集；第20-110行按体裁列作品目录及出版者/年份。实读2026-10-13。",
+          "support_type": "direct_publisher_or_author_catalog_record",
+          "note": "作者作品目录直接列出作品题名、体裁及部分版本年份；仅用于书目事实、有限体裁说明，不复制长篇内容。"
+        }
+      ],
+      "source_refs": [
+        "WCD10-B13-S201"
+      ],
+      "candidate_fact_id": "WCD10-B13-F249"
+    },
+    {
+      "author_id": "V1-ENT-0273",
+      "subject_ref": "WCD10-B13-W213",
+      "field": "one_sentence_summary",
+      "value": "作者作品目录将 Los diarios de Emilio Renzi. Un día en la vida 列为日记／自传性作品，并记录其出版年份为 2017；本条仅说明体裁与书目身份。",
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B13-S201",
+          "locator": "页面第15-18行列作者身份、代表小说与文集；第20-110行按体裁列作品目录及出版者/年份。实读2026-10-13。",
+          "support_type": "direct_publisher_or_author_catalog_record",
+          "note": "作者作品目录直接列出作品题名、体裁及部分版本年份；仅用于书目事实、有限体裁说明，不复制长篇内容。"
+        }
+      ],
+      "source_refs": [
+        "WCD10-B13-S201"
+      ],
+      "candidate_fact_id": "WCD10-B13-F250"
+    },
+    {
+      "author_id": "V1-ENT-0273",
+      "subject_ref": "WCD10-B13-W213",
+      "field": "first_publication_year",
+      "value": "2017",
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B13-S201",
+          "locator": "页面第15-18行列作者身份、代表小说与文集；第20-110行按体裁列作品目录及出版者/年份。实读2026-10-13。",
+          "support_type": "direct_publisher_or_author_catalog_record",
+          "note": "作者作品目录直接列出作品题名、体裁及部分版本年份；仅用于书目事实、有限体裁说明，不复制长篇内容。"
+        }
+      ],
+      "source_refs": [
+        "WCD10-B13-S201"
+      ],
+      "candidate_fact_id": "WCD10-B13-F251"
+    },
+    {
+      "author_id": "V1-ENT-0273",
+      "subject_ref": "WCD10-B13-W213",
+      "field": "bibliographic_note",
+      "value": "作者作品目录列为日记／自传性作品，书目年份为2017。",
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B13-S201",
+          "locator": "页面第15-18行列作者身份、代表小说与文集；第20-110行按体裁列作品目录及出版者/年份。实读2026-10-13。",
+          "support_type": "direct_publisher_or_author_catalog_record",
+          "note": "作者作品目录直接列出作品题名、体裁及部分版本年份；仅用于书目事实、有限体裁说明，不复制长篇内容。"
+        }
+      ],
+      "source_refs": [
+        "WCD10-B13-S201"
+      ],
+      "candidate_fact_id": "WCD10-B13-F252"
+    },
+    {
+      "author_id": "V1-ENT-0273",
+      "subject_ref": "V1-ENT-0278",
+      "field": "genre_or_form",
+      "value": "小说",
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B13-S201",
+          "locator": "页面第15-18行列作者身份、代表小说与文集；第20-110行按体裁列作品目录及出版者/年份。实读2026-10-13。",
+          "support_type": "direct_author_catalog_record",
+          "note": "用于旧作品体裁和有限目录说明。"
+        }
+      ],
+      "source_refs": [
+        "WCD10-B13-S201"
+      ],
+      "candidate_fact_id": "WCD10-B13-F253"
+    },
+    {
+      "author_id": "V1-ENT-0273",
+      "subject_ref": "V1-ENT-0278",
+      "field": "one_sentence_summary",
+      "value": "作者作品目录将 Respiración artificial 列为小说，并列出相关版本信息；本条仅作体裁与书目范围说明。",
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B13-S201",
+          "locator": "页面第15-18行列作者身份、代表小说与文集；第20-110行按体裁列作品目录及出版者/年份。实读2026-10-13。",
+          "support_type": "direct_author_catalog_record",
+          "note": "用于旧作品体裁和有限目录说明。"
+        }
+      ],
+      "source_refs": [
+        "WCD10-B13-S201"
+      ],
+      "candidate_fact_id": "WCD10-B13-F254"
+    },
+    {
+      "author_id": "V1-ENT-0273",
+      "subject_ref": "V1-ENT-0279",
+      "field": "genre_or_form",
+      "value": "小说",
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B13-S201",
+          "locator": "页面第15-18行列作者身份、代表小说与文集；第20-110行按体裁列作品目录及出版者/年份。实读2026-10-13。",
+          "support_type": "direct_author_catalog_record",
+          "note": "用于旧作品体裁和有限目录说明。"
+        }
+      ],
+      "source_refs": [
+        "WCD10-B13-S201"
+      ],
+      "candidate_fact_id": "WCD10-B13-F255"
+    },
+    {
+      "author_id": "V1-ENT-0273",
+      "subject_ref": "V1-ENT-0279",
+      "field": "one_sentence_summary",
+      "value": "作者作品目录将 Plata quemada 列为小说，并列出相关版本信息；本条仅作体裁与书目范围说明。",
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B13-S201",
+          "locator": "页面第15-18行列作者身份、代表小说与文集；第20-110行按体裁列作品目录及出版者/年份。实读2026-10-13。",
+          "support_type": "direct_author_catalog_record",
+          "note": "用于旧作品体裁和有限目录说明。"
+        }
+      ],
+      "source_refs": [
+        "WCD10-B13-S201"
+      ],
+      "candidate_fact_id": "WCD10-B13-F256"
+    },
+    {
+      "author_id": "V1-ENT-0273",
+      "subject_ref": "V1-ENT-0280",
+      "field": "genre_or_form",
+      "value": "小说",
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B13-S201",
+          "locator": "页面第15-18行列作者身份、代表小说与文集；第20-110行按体裁列作品目录及出版者/年份。实读2026-10-13。",
+          "support_type": "direct_author_catalog_record",
+          "note": "用于旧作品体裁和有限目录说明。"
+        }
+      ],
+      "source_refs": [
+        "WCD10-B13-S201"
+      ],
+      "candidate_fact_id": "WCD10-B13-F257"
+    },
+    {
+      "author_id": "V1-ENT-0273",
+      "subject_ref": "V1-ENT-0280",
+      "field": "one_sentence_summary",
+      "value": "作者作品目录将 Blanco nocturno 列为小说，并列出相关版本信息；本条仅作体裁与书目范围说明。",
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B13-S201",
+          "locator": "页面第15-18行列作者身份、代表小说与文集；第20-110行按体裁列作品目录及出版者/年份。实读2026-10-13。",
+          "support_type": "direct_author_catalog_record",
+          "note": "用于旧作品体裁和有限目录说明。"
+        }
+      ],
+      "source_refs": [
+        "WCD10-B13-S201"
+      ],
+      "candidate_fact_id": "WCD10-B13-F258"
+    }
+  ],
+  "author_metadata": [
+    {
+      "author_id": "V1-ENT-0272",
+      "metadata": {
+        "policy_by_author": {
+          "V1-ENT-0272": "DEC-070 direct ordinary bibliographic evidence; no exhaustive claim."
+        }
+      }
+    }
+  ]
+}

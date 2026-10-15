@@ -1,0 +1,23 @@
+{
+  "verdict": "PASS",
+  "task_id": "TASK-122",
+  "batch_id": "WCD-10-B17",
+  "reviewer": "Codex-parent-independent-review",
+  "reviewed_at": "2026-10-14",
+  "checkpoint_date": "2026-10-14",
+  "baseline_database_sha256": "bf814eb0796ad27db76349a4f166ba3ca40be3df47f22373e6e094e34bdf632e",
+  "review_scope": "DEC-070 one pragmatic source/object/description batch review; no academic completeness claim; prepare only",
+  "packages": [
+    {
+      "file": "CANDIDATES.json",
+      "sha256": "1e6824f36feb6b4cdea88a46dd005a94df8f3803ddab52236c9e711140bb308e",
+      "verdict": "PASS"
+    }
+  ],
+  "coverage_sha256": "42463fa34f866fd79a52e97dabad7dbd303c85dff348c081a6a73497a0ed5eb9",
+  "registration_sha256": "1ea3087af4a6a2adf7754cb3018351f2e19851cdac528f6f892f9ad2b16e41bd",
+  "evidence_matrix_sha256": "376c3c05134a856798ff5b245e351237590c481f92bef75ac9825f157a7bdaa3",
+  "merge_provenance_sha256": "f0bd1d9e21ba42d72c24e5280cf800dbe97151af496908e1dc48c3c267e3374f",
+  "builder_sha256": "23a2a5e1b1cf27759ce71faf61524ef83b5777083e4a27c98ff6cf1eab78207b",
+  "parent_review_sha256": "fda8f1ddbd90b83e7a48b9bab84012741f3eb0cf54cfdf48e99867f8241ac9ed"
+}

@@ -1,0 +1,23 @@
+{
+  "task_id": "TASK-107",
+  "reviewer": "wcd10_b01_review",
+  "reviewed_at": "2026-09-28",
+  "review_scope": "B02 candidate content, all source objects, registration, coverage and bounded preparer changes PASS after independent delta review. Generated SQL requires separate review before apply.",
+  "packages": [
+    {
+      "file": "CANDIDATES.json",
+      "sha256": "3acb01b237a75a7393519efff5558d2eb874278918575a297755de58935877f4",
+      "verdict": "PASS"
+    }
+  ],
+  "baseline_database_sha256": "98b914d5421d40b2f20488fe988e52fb165fc02967ec1e7e816f9280ce5071d1",
+  "boundaries": [
+    "Research only, no public scope, Curation or release changes",
+    "SRC-0026 must be reused unchanged",
+    "Perus conference note B/research_note_only, not peer-review A",
+    "15 object-level scholarly gaps and 7 deferred preserved; existing7 bounded studies retained not freshly re-reviewed",
+    "1975 El eterno femenino edition not asserted as first edition",
+    "Gold composition conflict preserved and La hojarasca agency1954 excluded",
+    "Only direct S17 supports W10 story_premise"
+  ]
+}

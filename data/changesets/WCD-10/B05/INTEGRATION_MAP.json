@@ -1,0 +1,1493 @@
+{
+  "task_id": "TASK-110",
+  "batch_id": "WCD-10-B05",
+  "candidate_review": {
+    "verdict": "PASS",
+    "task_id": "TASK-110",
+    "batch_id": "WCD-10-B05",
+    "reviewer": "Codex-parent-independent-review",
+    "reviewed_at": "2026-10-07",
+    "checkpoint_date": "2026-10-07",
+    "review_scope": "Bounded B05 integration subset; original W03 remains deferred and mandatory before TASK-127; independent SQL review still required",
+    "packages": [
+      {
+        "file": "CANDIDATES.json",
+        "sha256": "5447e33567284bb7d60c7525674d67fd7da35a5505025f88e1510e0b7fcb8ffe",
+        "verdict": "PASS"
+      }
+    ],
+    "coverage_sha256": "66baf0a923334b48862f0b7ac4c3aa0dc843384bf9b07d3ba020f7bc0ce48580",
+    "registration_sha256": "69665fa852a4cc978a8933768dbfa9f515234b25ba9fa832334c64271a90e050",
+    "evidence_matrix_sha256": "06de365fcc6737ef9b2f4d51ff3373733c0b6a0241f25c67c281382ffad0d482",
+    "deferred_candidate_sha256": "a49cd6f1f4ddc3977077f89d0303895c6aa62020fd776c7e87e560674cac5ad4",
+    "baseline_database_sha256": "45e8d72c3656f762f4a34f664c822c33685be925b53553b91b19041d6835b47d",
+    "boundaries": [
+      "Research-only; no public/Curation/Schema policy change",
+      "Eight objects,44 facts,eight CREATED and one bounded SET_IN",
+      "W03 USER policy pending: exact proposal/evidence held; no year/formalID/CREATED; must re-enter before final stage completion",
+      "S18 deferred only; S24/S25 C reprints remain C; coverage-only sources registered without scholarly claims",
+      "F16 append-only bibliographic correction; preserve FCT0309 old row/SRC0099/origin error and HOLD0043 unchanged",
+      "W09 later version contents never asserted in1949 initial edition",
+      "W10 1958/2013 cover evidence split retained",
+      "Standalone SQL/map review and exact baseline approval needed before apply"
+    ],
+    "conflict_review": {
+      "schema": "wcd10-append-only-conflict-review-1",
+      "decision": "APPROVE_EXACT_APPEND_ONLY_CORRECTIONS",
+      "reviewer": "Codex-parent-independent-review",
+      "reviewed_at": "2026-10-07",
+      "baseline_database_sha256": "45e8d72c3656f762f4a34f664c822c33685be925b53553b91b19041d6835b47d",
+      "candidate_content_sha256": "784119c04594a8ca25903414b3ac052e68a6ca175f86b611c9e5e86af213c7df",
+      "reviewed_conflicts": [
+        {
+          "candidate_id": "WCD10-B05-F16",
+          "subject_id": "V1-ENT-0154",
+          "field": "bibliographic_note",
+          "new_value": "首版：墨西哥城 Cuadernos Americanos，1950；Fondo de Cultura Económica 版，1959。",
+          "source_refs": [
+            "WCD10-B05-S23"
+          ],
+          "existing_facts": [
+            {
+              "fact_id": "V1-FCT-0309",
+              "value": "诺贝尔书目页未列西语原版；英译 The Labyrinth of Solitude（tr. Lysander Kemp）Penguin 1985；poets.org 标初版 FCE 1950"
+            }
+          ],
+          "decision": "APPEND_ONLY_BIBLIOGRAPHIC_CORRECTION"
+        }
+      ]
+    }
+  },
+  "registration_sha256": "69665fa852a4cc978a8933768dbfa9f515234b25ba9fa832334c64271a90e050",
+  "migration_status": "PREPARED_PENDING_INDEPENDENT_SQL_REVIEW",
+  "id_map": {
+    "WCD10-B05-S01": "SRC-0134",
+    "WCD10-B05-S02": "SRC-0135",
+    "WCD10-B05-S03": "SRC-0136",
+    "WCD10-B05-S04": "SRC-0137",
+    "WCD10-B05-S05": "SRC-0130",
+    "WCD10-B05-S06": "SRC-0132",
+    "WCD10-B05-S07": "SRC-0099",
+    "WCD10-B05-S08": "SRC-0100",
+    "WCD10-B05-S09": "SRC-0395",
+    "WCD10-B05-S11": "SRC-0396",
+    "WCD10-B05-S12": "SRC-0300",
+    "WCD10-B05-S13": "SRC-0397",
+    "WCD10-B05-S14": "SRC-0398",
+    "WCD10-B05-S15": "SRC-0399",
+    "WCD10-B05-S16": "SRC-0400",
+    "WCD10-B05-S17": "SRC-0401",
+    "WCD10-B05-S19": "SRC-0402",
+    "WCD10-B05-S20": "SRC-0403",
+    "WCD10-B05-S21": "SRC-0404",
+    "WCD10-B05-S22": "SRC-0405",
+    "WCD10-B05-S23": "SRC-0406",
+    "WCD10-B05-S24": "SRC-0407",
+    "WCD10-B05-S25": "SRC-0408",
+    "WCD10-B05-W01": "V1-ENT-0421",
+    "WCD10-B05-W02": "V1-ENT-0422",
+    "WCD10-B05-W05": "V1-ENT-0423",
+    "WCD10-B05-W06": "V1-ENT-0424",
+    "WCD10-B05-W07": "V1-ENT-0425",
+    "WCD10-B05-W08": "V1-ENT-0426",
+    "WCD10-B05-W09": "V1-ENT-0427",
+    "WCD10-B05-W10": "V1-ENT-0428",
+    "WCD10-B05-W01-F01": "V1-FCT-1216",
+    "WCD10-B05-W01-F02": "V1-FCT-1217",
+    "WCD10-B05-W01-F03": "V1-FCT-1218",
+    "WCD10-B05-W02-F01": "V1-FCT-1219",
+    "WCD10-B05-W02-F02": "V1-FCT-1220",
+    "WCD10-B05-W02-F03": "V1-FCT-1221",
+    "WCD10-B05-W02-F04": "V1-FCT-1222",
+    "WCD10-B05-W05-F01": "V1-FCT-1223",
+    "WCD10-B05-W05-F02": "V1-FCT-1224",
+    "WCD10-B05-W05-F03": "V1-FCT-1225",
+    "WCD10-B05-W05-F04": "V1-FCT-1226",
+    "WCD10-B05-W06-F01": "V1-FCT-1227",
+    "WCD10-B05-W06-F02": "V1-FCT-1228",
+    "WCD10-B05-W06-F03": "V1-FCT-1229",
+    "WCD10-B05-W06-F04": "V1-FCT-1230",
+    "WCD10-B05-W07-F01": "V1-FCT-1231",
+    "WCD10-B05-W07-F02": "V1-FCT-1232",
+    "WCD10-B05-W07-F03": "V1-FCT-1233",
+    "WCD10-B05-W07-F04": "V1-FCT-1234",
+    "WCD10-B05-W08-F01": "V1-FCT-1235",
+    "WCD10-B05-W08-F02": "V1-FCT-1236",
+    "WCD10-B05-W08-F03": "V1-FCT-1237",
+    "WCD10-B05-W08-F04": "V1-FCT-1238",
+    "WCD10-B05-W09-F01": "V1-FCT-1239",
+    "WCD10-B05-W09-F02": "V1-FCT-1240",
+    "WCD10-B05-W09-F03": "V1-FCT-1241",
+    "WCD10-B05-W09-F04": "V1-FCT-1242",
+    "WCD10-B05-W10-F01": "V1-FCT-1243",
+    "WCD10-B05-W10-F02": "V1-FCT-1244",
+    "WCD10-B05-W10-F03": "V1-FCT-1245",
+    "WCD10-B05-W10-F04": "V1-FCT-1246",
+    "WCD10-B05-F03": "V1-FCT-1247",
+    "WCD10-B05-F04": "V1-FCT-1248",
+    "WCD10-B05-F06": "V1-FCT-1249",
+    "WCD10-B05-F07": "V1-FCT-1250",
+    "WCD10-B05-F08": "V1-FCT-1251",
+    "WCD10-B05-F09": "V1-FCT-1252",
+    "WCD10-B05-F10": "V1-FCT-1253",
+    "WCD10-B05-F11": "V1-FCT-1254",
+    "WCD10-B05-F12": "V1-FCT-1255",
+    "WCD10-B05-F13": "V1-FCT-1256",
+    "WCD10-B05-F14": "V1-FCT-1257",
+    "WCD10-B05-F15": "V1-FCT-1258",
+    "WCD10-B05-F16": "V1-FCT-1259",
+    "WCD10-B05-W01-CREATED": "V1-REL-0389",
+    "WCD10-B05-W02-CREATED": "V1-REL-0390",
+    "WCD10-B05-W05-CREATED": "V1-REL-0391",
+    "WCD10-B05-W06-CREATED": "V1-REL-0392",
+    "WCD10-B05-W07-CREATED": "V1-REL-0393",
+    "WCD10-B05-W08-CREATED": "V1-REL-0394",
+    "WCD10-B05-W09-CREATED": "V1-REL-0395",
+    "WCD10-B05-W10-CREATED": "V1-REL-0396",
+    "WCD10-B05-R01": "V1-REL-0397"
+  },
+  "coverage_sha256": "66baf0a923334b48862f0b7ac4c3aa0dc843384bf9b07d3ba020f7bc0ce48580",
+  "coverage": {
+    "task_id": "TASK-110",
+    "scope": "Original nine proposed additions remain in B05 scope: eight are in this integration and W03 (El mono gramático) is explicitly DEFERRED_NOT_ADMITTED pending USER policy. Nine existing covered objects remain; coverage is bounded, not exhaustive.",
+    "author_descriptions": "沿用三作者既有传记与来源（帕斯Nobel/poets.org、阿斯图里亚斯BnF/USAC、阿连德官网bio/timeline），不从作品梗概生成新作者传记，不下推作者层政治或运动归属。",
+    "research_policy": "R2：保留历史准入与hold；机构书目/官方目录保守B、报纸转载C（署名/题名/日期以页面实载为准）；全部B/C级research_note事实候选不设（builder映射风险留Codex门禁）；来源发表年一律不借作品版次/撰写/版权年；版本内容不下推至早期锚点。",
+    "objects": [
+      {
+        "object_ref": "V1-ENT-0154",
+        "bibliography": "existing_retained_1950_R1_layered_1950CA_1959FCE",
+        "description": "existing_retained（R0的F01冲突型research_note已撤回）",
+        "research_status": "preserved_existing",
+        "research_refs": [
+          "SRC-0098",
+          "SRC-0099",
+          "SRC-0100",
+          "WCD10-B05-S07",
+          "WCD10-B05-S08",
+          "WCD10-B05-S12",
+          "WCD10-B05-S23",
+          "WCD10-B05-S24"
+        ],
+        "remaining": "首版1950 Cuadernos Americanos/1959 FCE由S23 ELEM结构化字段直接支持；FCE新闻转载仅C级旁证。既有诺贝尔来源链保留，不声称其为独立第二来源；旧source links错配仍留痕且未修复。F16为追加式更正候选；HOLD-0043维持。",
+        "formal_subject_id": "V1-ENT-0154"
+      },
+      {
+        "object_ref": "V1-ENT-0155",
+        "bibliography": "existing_retained_1956",
+        "description": "existing_retained",
+        "research_status": "preserved_existing",
+        "research_refs": [
+          "SRC-0099",
+          "SRC-0100",
+          "WCD10-B05-S07"
+        ],
+        "remaining": "1956/诗论/描述沿用；本批无新增事实需求；作品级独立A级研究仍OPEN。",
+        "formal_subject_id": "V1-ENT-0155"
+      },
+      {
+        "object_ref": "V1-ENT-0156",
+        "bibliography": "existing_retained_1957_R1_imprint_resolved",
+        "description": "existing_retained（R0的F02撤回）",
+        "research_status": "preserved_existing",
+        "research_refs": [
+          "SRC-0099",
+          "SRC-0100",
+          "WCD10-B05-S07",
+          "WCD10-B05-S08",
+          "WCD10-B05-S12",
+          "WCD10-B05-S22",
+          "WCD10-B05-S25"
+        ],
+        "remaining": "Tezontle=FCE旗下丛书已证（ELEM字段/FCE转载'colección Tezontle del FCE'，1957-09-28印300册）；旧FCT-0319无需勘误。",
+        "formal_subject_id": "V1-ENT-0156"
+      },
+      {
+        "object_ref": "V1-ENT-0173",
+        "bibliography": "existing_retained_1946",
+        "description": "F03_F04_candidate_institutional_summary",
+        "research_status": "institutional_commentary",
+        "research_refs": [
+          "SRC-0130",
+          "WCD10-B05-S05",
+          "WCD10-B05-S09"
+        ],
+        "remaining": "体裁与对象级概述补齐；'独裁者小说'归类入F05署名research_note；SET_IN危地马拉无直接背景表述保持缺口；首刊载体未核。",
+        "formal_subject_id": "V1-ENT-0173",
+        "gap_id": "V1-GAP-0138"
+      },
+      {
+        "object_ref": "V1-ENT-0174",
+        "bibliography": "existing_retained_1949",
+        "description": "F06_F07_candidate_institutional_summary",
+        "research_status": "institutional_commentary",
+        "research_refs": [
+          "SRC-0132",
+          "WCD10-B05-S05",
+          "WCD10-B05-S06"
+        ],
+        "remaining": "体裁与概述补齐（USAC封底简介转引，归属明确）；BnF引言1948旁支不采；作品级独立A级研究仍OPEN。",
+        "formal_subject_id": "V1-ENT-0174",
+        "gap_id": "V1-GAP-0139"
+      },
+      {
+        "object_ref": "V1-ENT-0175",
+        "bibliography": "existing_retained_1930",
+        "description": "F08_F09_candidate_institutional_summary",
+        "research_status": "institutional_commentary",
+        "research_refs": [
+          "SRC-0130",
+          "WCD10-B05-S05",
+          "WCD10-B05-S11"
+        ],
+        "remaining": "collection层级保持；体裁与概述补齐；单篇传说不建对象；BnF'首部书'定位为旁证。",
+        "formal_subject_id": "V1-ENT-0175",
+        "gap_id": "V1-GAP-0140"
+      },
+      {
+        "object_ref": "V1-ENT-0176",
+        "bibliography": "existing_retained_1982",
+        "description": "F10_F11_candidate_official_summary",
+        "research_status": "catalog_only",
+        "research_refs": [
+          "SRC-0134",
+          "SRC-0135",
+          "WCD10-B05-S01",
+          "WCD10-B05-S02"
+        ],
+        "remaining": "体裁与概述补齐（作者官网简介）；国家未具名不生成SET_IN；改编影视与公开准入不在本通道。",
+        "formal_subject_id": "V1-ENT-0176",
+        "gap_id": "V1-GAP-0141"
+      },
+      {
+        "object_ref": "V1-ENT-0177",
+        "bibliography": "existing_retained_1984",
+        "description": "F12_F13_candidate_official_summary",
+        "research_status": "catalog_only",
+        "research_refs": [
+          "SRC-0134",
+          "SRC-0136",
+          "WCD10-B05-S01",
+          "WCD10-B05-S03"
+        ],
+        "remaining": "体裁与概述补齐；军事独裁背景为虚构国家表述，不生成BASED_ON_EVENT/SET_IN。",
+        "formal_subject_id": "V1-ENT-0177",
+        "gap_id": "V1-GAP-0142"
+      },
+      {
+        "object_ref": "V1-ENT-0178",
+        "bibliography": "existing_retained_1987",
+        "description": "F14_F15_candidate_official_summary",
+        "research_status": "catalog_only",
+        "research_refs": [
+          "SRC-0134",
+          "SRC-0137",
+          "WCD10-B05-S01",
+          "WCD10-B05-S04"
+        ],
+        "remaining": "体裁（流浪汉式自述）与概述补齐；与新增Cuentos de Eva Luna两对象分立；南美国度未具名。",
+        "formal_subject_id": "V1-ENT-0178",
+        "gap_id": "V1-GAP-0143"
+      },
+      {
+        "object_ref": "WCD10-B05-W01",
+        "bibliography": "candidate_verified_pending_review",
+        "description": "candidate_bounded_object_level_description",
+        "research_status": "institutional_commentary",
+        "research_refs": [
+          "WCD10-B05-S07",
+          "WCD10-B05-S08"
+        ],
+        "remaining": "R1未改动（审计未涉）；作品级独立A级研究仍OPEN。中文显示名暂译。",
+        "formal_subject_id": "V1-ENT-0421",
+        "gap_id": "V1-GAP-0144"
+      },
+      {
+        "object_ref": "WCD10-B05-W02",
+        "bibliography": "candidate_verified_pending_review_R1_ELEM_structure",
+        "description": "R1_rewritten_three_sections_and_content",
+        "research_status": "institutional_commentary",
+        "research_refs": [
+          "WCD10-B05-S07",
+          "WCD10-B05-S12",
+          "WCD10-B05-S13",
+          "WCD10-B05-S19"
+        ],
+        "remaining": "Ladera east作品级独立A级研究仍OPEN；三部构成（50+15诗+Blanco）与Intermitencias del Oeste表述均归属ELEM专文。",
+        "formal_subject_id": "V1-ENT-0422",
+        "gap_id": "V1-GAP-0145"
+      },
+      {
+        "object_ref": "WCD10-B05-W05",
+        "bibliography": "candidate_verified_pending_review",
+        "description": "candidate_bounded_object_level_description",
+        "research_status": "catalog_only",
+        "research_refs": [
+          "WCD10-B05-S01",
+          "WCD10-B05-S14"
+        ],
+        "remaining": "Cuentos de Eva Luna作品级独立A级研究及需第二来源的解释关系仍OPEN；与0178人物共享不建人物对象；'23则'限定官网简介所述版本。",
+        "formal_subject_id": "V1-ENT-0423",
+        "gap_id": "V1-GAP-0146"
+      },
+      {
+        "object_ref": "WCD10-B05-W06",
+        "bibliography": "candidate_verified_pending_review",
+        "description": "candidate_bounded_object_level_description",
+        "research_status": "catalog_only",
+        "research_refs": [
+          "WCD10-B05-S01",
+          "WCD10-B05-S15"
+        ],
+        "remaining": "Paula作品级独立A级研究仍OPEN；家族史与讣告性内容不在本通道展开；女儿病况仅作写作背景。",
+        "formal_subject_id": "V1-ENT-0424",
+        "gap_id": "V1-GAP-0147"
+      },
+      {
+        "object_ref": "WCD10-B05-W07",
+        "bibliography": "candidate_verified_pending_review",
+        "description": "candidate_bounded_object_level_description",
+        "research_status": "catalog_only",
+        "research_refs": [
+          "WCD10-B05-S01",
+          "WCD10-B05-S16"
+        ],
+        "remaining": "Hija de la fortuna作品级独立A级研究仍OPEN；SET_IN智利仅表开篇（R01待审）；加州主场景无库内端点。",
+        "formal_subject_id": "V1-ENT-0425",
+        "gap_id": "V1-GAP-0148"
+      },
+      {
+        "object_ref": "WCD10-B05-W08",
+        "bibliography": "candidate_verified_pending_review",
+        "description": "candidate_bounded_object_level_description",
+        "research_status": "catalog_only",
+        "research_refs": [
+          "WCD10-B05-S01",
+          "WCD10-B05-S17"
+        ],
+        "remaining": "La ciudad de las bestias作品级独立A级研究仍OPEN；亚马逊背景无地点端点；续卷两册未立对象。",
+        "formal_subject_id": "V1-ENT-0426",
+        "gap_id": "V1-GAP-0149"
+      },
+      {
+        "object_ref": "WCD10-B05-W09",
+        "bibliography": "candidate_verified_pending_review",
+        "description": "R2_version_limited_summary_Piedra_excluded_from_1949",
+        "research_status": "institutional_commentary",
+        "research_refs": [
+          "WCD10-B05-S07",
+          "WCD10-B05-S12",
+          "WCD10-B05-S20"
+        ],
+        "remaining": "R2修订（二轮R1-01）：简介逐版本限定——《El cántaro roto》与《太阳石》系初版后写出、仅入后续重编版；ELEM页内字段/导语(1960)与传记节(1949)差异已登记；如需对1960/1990版独立细述应按Schema另做edition分层（本批不建）。独立A级研究仍OPEN。",
+        "formal_subject_id": "V1-ENT-0427",
+        "gap_id": "V1-GAP-0150"
+      },
+      {
+        "object_ref": "WCD10-B05-W10",
+        "bibliography": "candidate_verified_pending_review",
+        "description": "candidate_bounded_object_level_description",
+        "research_status": "institutional_commentary",
+        "research_refs": [
+          "WCD10-B05-S07",
+          "WCD10-B05-S12",
+          "WCD10-B05-S21",
+          "WCD10-B05-S20"
+        ],
+        "remaining": "R2修订（二轮R1-05）：九诗清单出处更正为2013年版封底（ELEM页明标），未独立核证与1958年初版目录相同；1958出版与时间主题证据不受影响。独立A级研究仍OPEN。",
+        "formal_subject_id": "V1-ENT-0428",
+        "gap_id": "V1-GAP-0151"
+      }
+    ],
+    "deferred_objects": [
+      {
+        "candidate_id": "WCD10-B05-W03",
+        "original_candidate_id": "WCD10-B05-W03",
+        "original_author_id": "V1-ENT-0059",
+        "original_name": "El mono gramático",
+        "status": "DEFERRED_NOT_ADMITTED",
+        "policy_status": "USER_POLICY_PENDING",
+        "formal_subject_id": null,
+        "research_refs": [
+          "WCD10-B05-S07",
+          "WCD10-B05-S12",
+          "WCD10-B05-S18"
+        ],
+        "withheld_fields": [
+          "first_publication_year",
+          "genre_or_form",
+          "one_sentence_summary",
+          "bibliographic_note"
+        ],
+        "candidate_source_ids": [
+          "WCD10-B05-S07",
+          "WCD10-B05-S12",
+          "WCD10-B05-S18"
+        ],
+        "policy_gap_key": "WCD10:B05:Paz:El_mono_gramatico:first_publication_semantics",
+        "selected_year": null,
+        "publication_evidence": {
+          "french_translation_year": "1972",
+          "spanish_original_first_edition_year": "1974",
+          "note": "Both layers preserved as evidence; neither selected as field value pending USER policy."
+        },
+        "deferred_candidate_path": "W03_DEFERRED_CANDIDATE.json",
+        "reentry_required_before": "TASK-127 / final WCD-10 completion",
+        "deferred_candidate_sha256": "a49cd6f1f4ddc3977077f89d0303895c6aa62020fd776c7e87e560674cac5ad4"
+      }
+    ]
+  },
+  "metadata_hash_boundary": "metadata.sha256 is the unchanged V1.0.0 historical snapshot table-hash set, not a current-table digest. Current integrity uses baseline database SHA, reviewed SQL SHA, migration log, replay and deterministic exports.",
+  "sources": [
+    {
+      "candidate_id": "WCD10-B05-S01",
+      "source_id": "SRC-0134",
+      "disposition": "reuse_without_modifying_source",
+      "scope_decision": {
+        "candidate_ids": [
+          "WCD10-B05-S01"
+        ],
+        "disposition": "reuse",
+        "related_existing_source": "SRC-0134",
+        "reason": "同URL来源fresh重读不成为第二独立来源；保留旧等级与全部元数据，只登记本次实读的新locator/用途。"
+      },
+      "accessed_at": "2026-09-30",
+      "verified_by": "EXT-AI-02 (external research worker) opened used passages; independent Reviewer required",
+      "copyright_boundary": "Only original brief paraphrases and metadata. No book/article full text, cover art or PDF assets copied. USAC/BnF/Nobel/ELEM/author-site copyright retained; summaries are brief attributed paraphrases, not verbatim passages beyond short quoted terms.",
+      "locator": "1989 The Stories of Eva Luna、1994 Paula、1999 Daughter of Fortune、2002 City of the Beasts 四条西语出版条目；另核1982/1984/1987既有三条目",
+      "usage": "只用四部新候选对象的西语首版年；页面纪事其余事件不入库。复用SRC-0134，不改旧元数据。",
+      "notes": "实读目标年份条目；纪事类页面无稳定发表年字段，留空不作猜测。 作品年/版权脚注不作为网页发表年。"
+    },
+    {
+      "candidate_id": "WCD10-B05-S02",
+      "source_id": "SRC-0135",
+      "disposition": "reuse_without_modifying_source",
+      "scope_decision": {
+        "candidate_ids": [
+          "WCD10-B05-S02"
+        ],
+        "disposition": "reuse",
+        "related_existing_source": "SRC-0135",
+        "reason": "同URL来源fresh重读不成为第二独立来源；保留旧等级与全部元数据，只登记本次实读的新locator/用途。"
+      },
+      "accessed_at": "2026-09-30",
+      "verified_by": "EXT-AI-02 (external research worker) opened used passages; independent Reviewer required",
+      "copyright_boundary": "Only original brief paraphrases and metadata. No book/article full text, cover art or PDF assets copied. USAC/BnF/Nobel/ELEM/author-site copyright retained; summaries are brief attributed paraphrases, not verbatim passages beyond short quoted terms.",
+      "locator": "主页 First English edition ©1985 标记；/en/book/house/summary 正文两段（家族三代、未具名拉美国家）",
+      "usage": "只取作品体裁与归属官网的情节概述；国家未具名表述保留，不作SET_IN智利。复用SRC-0135。",
+      "notes": "主页©1985为英译首版年、页脚©2026为版权年，均非网页发表年。 作品年/版权脚注不作为网页发表年。"
+    },
+    {
+      "candidate_id": "WCD10-B05-S03",
+      "source_id": "SRC-0136",
+      "disposition": "reuse_without_modifying_source",
+      "scope_decision": {
+        "candidate_ids": [
+          "WCD10-B05-S03"
+        ],
+        "disposition": "reuse",
+        "related_existing_source": "SRC-0136",
+        "reason": "同URL来源fresh重读不成为第二独立来源；保留旧等级与全部元数据，只登记本次实读的新locator/用途。"
+      },
+      "accessed_at": "2026-09-30",
+      "verified_by": "EXT-AI-02 (external research worker) opened used passages; independent Reviewer required",
+      "copyright_boundary": "Only original brief paraphrases and metadata. No book/article full text, cover art or PDF assets copied. USAC/BnF/Nobel/ELEM/author-site copyright retained; summaries are brief attributed paraphrases, not verbatim passages beyond short quoted terms.",
+      "locator": "主页 First English edition ©1987 标记；/en/book/love/summary 正文三段（军事独裁、Irene/Francisco、Evangelina案）",
+      "usage": "只取体裁与概述；政权与国家未具名，不生成事件或地点关系。复用SRC-0136。",
+      "notes": "©1987为英译首版年；summary子页为该站稳定子路径。 作品年/版权脚注不作为网页发表年。"
+    },
+    {
+      "candidate_id": "WCD10-B05-S04",
+      "source_id": "SRC-0137",
+      "disposition": "reuse_without_modifying_source",
+      "scope_decision": {
+        "candidate_ids": [
+          "WCD10-B05-S04"
+        ],
+        "disposition": "reuse",
+        "related_existing_source": "SRC-0137",
+        "reason": "同URL来源fresh重读不成为第二独立来源；保留旧等级与全部元数据，只登记本次实读的新locator/用途。"
+      },
+      "accessed_at": "2026-09-30",
+      "verified_by": "EXT-AI-02 (external research worker) opened used passages; independent Reviewer required",
+      "copyright_boundary": "Only original brief paraphrases and metadata. No book/article full text, cover art or PDF assets copied. USAC/BnF/Nobel/ELEM/author-site copyright retained; summaries are brief attributed paraphrases, not verbatim passages beyond short quoted terms.",
+      "locator": "主页 First English edition ©1988 标记；/en/book/evaluna/summary 正文两段（picaresque自述、南美国家众生）",
+      "usage": "只取体裁（picaresque式自述）与概述；国家未具名。复用SRC-0137。",
+      "notes": "©1988为英译首版年；只读作品简介，未读节选/国际版页。 作品年/版权脚注不作为网页发表年。"
+    },
+    {
+      "candidate_id": "WCD10-B05-S05",
+      "source_id": "SRC-0130",
+      "disposition": "reuse_without_modifying_source",
+      "scope_decision": {
+        "candidate_ids": [
+          "WCD10-B05-S05"
+        ],
+        "disposition": "reuse",
+        "related_existing_source": "SRC-0130",
+        "reason": "同URL来源fresh重读不成为第二独立来源；保留旧等级与全部元数据，只登记本次实读的新locator/用途。"
+      },
+      "accessed_at": "2026-09-30",
+      "verified_by": "EXT-AI-02 (external research worker) opened used passages; independent Reviewer required",
+      "copyright_boundary": "Only original brief paraphrases and metadata. No book/article full text, cover art or PDF assets copied. USAC/BnF/Nobel/ELEM/author-site copyright retained; summaries are brief attributed paraphrases, not verbatim passages beyond short quoted terms.",
+      "locator": "PDF实读：第2页引言（Leyendas 1930首部书、El Señor Presidente 1946独裁者小说与Estrada Cabrera措辞、Hombres 1948旁支、Nobel 1967）；第3页小说书目（El Papa verde. Buenos Aires: Losada, 1954；Los ojos de los enterrados [1960] 1961；Viento fuerte [1949]）；第4页（Leyendas. Madrid: Oriente, 1930；Week-end en Guatemala. Goyanarte, [1956] 1958）",
+      "usage": "西语原版书目年份与归类（Contes/小说）；引言1948旁支错年不传播；Estrada Cabrera比较属诠释仅入research_note。复用SRC-0130。",
+      "notes": "PDF封面记'Bibliographie sélective Juin 2024'；正文引言与第3-4页书目为实读范围，16页全读未声明。 作品年/版权脚注不作为网页发表年。"
+    },
+    {
+      "candidate_id": "WCD10-B05-S06",
+      "source_id": "SRC-0132",
+      "disposition": "reuse_without_modifying_source",
+      "scope_decision": {
+        "candidate_ids": [
+          "WCD10-B05-S06"
+        ],
+        "disposition": "reuse",
+        "related_existing_source": "SRC-0132",
+        "reason": "同URL来源fresh重读不成为第二独立来源；保留旧等级与全部元数据，只登记本次实读的新locator/用途。"
+      },
+      "accessed_at": "2026-09-30",
+      "verified_by": "EXT-AI-02 (external research worker) opened used passages; independent Reviewer required",
+      "copyright_boundary": "Only original brief paraphrases and metadata. No book/article full text, cover art or PDF assets copied. USAC/BnF/Nobel/ELEM/author-site copyright retained; summaries are brief attributed paraphrases, not verbatim passages beyond short quoted terms.",
+      "locator": "书目字段（1988/2012重印）与Resumen全段：1949年Buenos Aires出版、Popol Wuj玉米神话、日常与奇幻结合、realismo mágico定位、危地马拉农民与mestizaje",
+      "usage": "体裁、对象级概述与1949首版佐证；Resumen注明转引自封底文字，归属USAC。复用SRC-0132。",
+      "notes": "重印版1988/2012为馆藏年版；Resumen转引封底文字由该馆注明。 作品年/版权脚注不作为网页发表年。"
+    },
+    {
+      "candidate_id": "WCD10-B05-S07",
+      "source_id": "SRC-0099",
+      "disposition": "reuse_without_modifying_source",
+      "scope_decision": {
+        "candidate_ids": [
+          "WCD10-B05-S07"
+        ],
+        "disposition": "reuse",
+        "related_existing_source": "SRC-0099",
+        "reason": "同URL来源fresh重读不成为第二独立来源；保留旧等级与全部元数据，只登记本次实读的新locator/用途。"
+      },
+      "accessed_at": "2026-09-30",
+      "verified_by": "EXT-AI-02 (external research worker) opened used passages; independent Reviewer required",
+      "copyright_boundary": "Only original brief paraphrases and metadata. No book/article full text, cover art or PDF assets copied. USAC/BnF/Nobel/ELEM/author-site copyright retained; summaries are brief attributed paraphrases, not verbatim passages beyond short quoted terms.",
+      "locator": "Works in Spanish 诗歌与散文书目：Libertad bajo palabra Tezontle 1949、¿Águila o sol? 1951、Piedra de sol Tezontle 1957、La estación violenta FCE 1958、Ladera este (1962-1968) Mortiz 1969、El mono gramático Seix Barral 1974等",
+      "usage": "只取目标书目条目年份/出版社；该页未列El laberinto西语原版的既有观察再次确认。复用SRC-0099。",
+      "notes": "页面底部©Nobel Prize Outreach 2026非网页发表年；只读书目列表。 作品年/版权脚注不作为网页发表年。"
+    },
+    {
+      "candidate_id": "WCD10-B05-S08",
+      "source_id": "SRC-0100",
+      "disposition": "reuse_without_modifying_source",
+      "scope_decision": {
+        "candidate_ids": [
+          "WCD10-B05-S08"
+        ],
+        "disposition": "reuse",
+        "related_existing_source": "SRC-0100",
+        "reason": "同URL来源fresh重读不成为第二独立来源；保留旧等级与全部元数据，只登记本次实读的新locator/用途。"
+      },
+      "accessed_at": "2026-09-30",
+      "verified_by": "EXT-AI-02 (external research worker) opened used passages; independent Reviewer required",
+      "copyright_boundary": "Only original brief paraphrases and metadata. No book/article full text, cover art or PDF assets copied. USAC/BnF/Nobel/ELEM/author-site copyright retained; summaries are brief attributed paraphrases, not verbatim passages beyond short quoted terms.",
+      "locator": "传记段：¿Águila o sol? (Tezontle, 1951)为散文诗系列、Tamayo插图、对墨西哥过去现在未来的幻象式描绘；Piedra de sol FCE 1957借阿兹特克历法结构；El laberinto FCE 1950",
+      "usage": "只取散文诗对象描述与体裁；该页Piedra de sol/FCE出版社与诺贝尔书目Tezontle不一致，记冲突不裁决。复用SRC-0100。",
+      "notes": "页面无单独发表年字段；只读传略相关段落。 作品年/版权脚注不作为网页发表年。"
+    },
+    {
+      "candidate_id": "WCD10-B05-S09",
+      "source_id": "SRC-0395",
+      "scope_decision": {
+        "candidate_ids": [
+          "WCD10-B05-S09",
+          "WCD10-B05-S10",
+          "WCD10-B05-S11",
+          "WCD10-B05-S13",
+          "WCD10-B05-S14",
+          "WCD10-B05-S15",
+          "WCD10-B05-S16",
+          "WCD10-B05-S17"
+        ],
+        "disposition": "bounded_B_new_sources",
+        "reason": "大学院系虚拟图书馆条目、ELEM出版目录页与作者官方网站书目页分别定位，均实读目标字段；机构书目/官方目录按稳定规则保守评B。（R1修订：诺贝尔自传页S12已复用SRC-0300，不再列入新来源组。）"
+      },
+      "accessed_at": "2026-09-30",
+      "verified_by": "EXT-AI-02 (external research worker) opened used passages; independent Reviewer required",
+      "copyright_boundary": "Only original brief paraphrases and metadata. No book/article full text, cover art or PDF assets copied. USAC/BnF/Nobel/ELEM/author-site copyright retained; summaries are brief attributed paraphrases, not verbatim passages beyond short quoted terms.",
+      "locator": "Dublin Core Descripción字段：Novela política y experimental，总统的决断左右他人命运、especialmente Miguel Cara de Ángel；Etiquetas含Novela",
+      "usage": "0173既有对象的体裁与归属机构的对象级概述；不含年份与国家背景，不生成SET_IN。",
+      "notes": "页面引注格式含'consulta 29 de septiembre de 2026'为访问日；站脚©2016非条目发表年。 作品年/版权脚注不作为网页发表年。"
+    },
+    {
+      "candidate_id": "WCD10-B05-S11",
+      "source_id": "SRC-0396",
+      "scope_decision": {
+        "candidate_ids": [
+          "WCD10-B05-S09",
+          "WCD10-B05-S10",
+          "WCD10-B05-S11",
+          "WCD10-B05-S13",
+          "WCD10-B05-S14",
+          "WCD10-B05-S15",
+          "WCD10-B05-S16",
+          "WCD10-B05-S17"
+        ],
+        "disposition": "bounded_B_new_sources",
+        "reason": "大学院系虚拟图书馆条目、ELEM出版目录页与作者官方网站书目页分别定位，均实读目标字段；机构书目/官方目录按稳定规则保守评B。（R1修订：诺贝尔自传页S12已复用SRC-0300，不再列入新来源组。）"
+      },
+      "accessed_at": "2026-09-30",
+      "verified_by": "EXT-AI-02 (external research worker) opened used passages; independent Reviewer required",
+      "copyright_boundary": "Only original brief paraphrases and metadata. No book/article full text, cover art or PDF assets copied. USAC/BnF/Nobel/ELEM/author-site copyright retained; summaries are brief attributed paraphrases, not verbatim passages beyond short quoted terms.",
+      "locator": "Dublin Core Descripción字段：基于危地马拉民间传说重写、超现实主义实验技法；Etiquetas含Leyenda/Narrativa/Surrealismo",
+      "usage": "0175既有collection的体裁与概述；单篇传说不建新对象。",
+      "notes": "同上；Etiquetas与Descripción为实读字段。 作品年/版权脚注不作为网页发表年。"
+    },
+    {
+      "candidate_id": "WCD10-B05-S12",
+      "source_id": "SRC-0300",
+      "disposition": "reuse_without_modifying_source",
+      "scope_decision": {
+        "candidate_ids": [
+          "WCD10-B05-S12"
+        ],
+        "disposition": "reuse",
+        "related_existing_source": "SRC-0300",
+        "reason": "同URL已登记SRC-0300；fresh重读扩展实读范围不成为第二独立来源，保留旧标题/等级/元数据。"
+      },
+      "accessed_at": "2026-09-30",
+      "verified_by": "EXT-AI-02 (external research worker) opened used passages; independent Reviewer required",
+      "copyright_boundary": "Only original brief paraphrases and metadata. No book/article full text, cover art or PDF assets copied. USAC/BnF/Nobel/ELEM/author-site copyright retained; summaries are brief attributed paraphrases, not verbatim passages beyond short quoted terms.",
+      "locator": "自传正文（驻法期间写成The Labyrinth of Solitude、1962驻印大使、印度时期著作especially The Grammarian Monkey and East Slope、1968抗议辞职）与自传书目（El laberinto. Cuadernos Americanos 1950，二版FCE 1959；¿Águila o sol? 1951；Ladera Este (1962-1968) Mortiz 1969；El mono gramático Seix Barral 1974；Libertad bajo palabra FCE 1949）",
+      "usage": "复用SRC-0300（WCD-05曾以Breton/Péret活动范围使用）；本次实读扩展至自传正文与自传书目（印度时期著作、El laberinto条目），不改旧元数据。本R1包内S12仅作W02/W03/W09/W10的年份与印度时期旁证；Laberinto首版社结论已由S23/S12并按ELEM结构化字段定层。",
+      "notes": "R1修订（审计R5）：复用SRC-0300且网页发表年未知，publication_year留空；1990为自传撰写年、1991为Les Prix Nobel书系出版年，均不充当页面发表年。旧记录用途为Breton/Péret活动，本次实读范围扩展已声明。 作品年/版权脚注不作为网页发表年。"
+    },
+    {
+      "candidate_id": "WCD10-B05-S13",
+      "source_id": "SRC-0397",
+      "scope_decision": {
+        "candidate_ids": [
+          "WCD10-B05-S09",
+          "WCD10-B05-S10",
+          "WCD10-B05-S11",
+          "WCD10-B05-S13",
+          "WCD10-B05-S14",
+          "WCD10-B05-S15",
+          "WCD10-B05-S16",
+          "WCD10-B05-S17"
+        ],
+        "disposition": "bounded_B_new_sources",
+        "reason": "大学院系虚拟图书馆条目、ELEM出版目录页与作者官方网站书目页分别定位，均实读目标字段；机构书目/官方目录按稳定规则保守评B。（R1修订：诺贝尔自传页S12已复用SRC-0300，不再列入新来源组。）"
+      },
+      "accessed_at": "2026-09-30",
+      "verified_by": "EXT-AI-02 (external research worker) opened used passages; independent Reviewer required",
+      "copyright_boundary": "Only original brief paraphrases and metadata. No book/article full text, cover art or PDF assets copied. USAC/BnF/Nobel/ELEM/author-site copyright retained; summaries are brief attributed paraphrases, not verbatim passages beyond short quoted terms.",
+      "locator": "Mortiz目录列表第16条：Ladera este (1962-1968)，1969，Paz, Octavio. México, D. F.: Joaquín Mortiz (Las Dos Orillas)",
+      "usage": "仅取该条书目年份与出版社作为Ladera este第二机构佐证；目录其余条目不入库。",
+      "notes": "只读Mortiz目录列表条目；页面无明确发表年。 作品年/版权脚注不作为网页发表年。"
+    },
+    {
+      "candidate_id": "WCD10-B05-S14",
+      "source_id": "SRC-0398",
+      "scope_decision": {
+        "candidate_ids": [
+          "WCD10-B05-S09",
+          "WCD10-B05-S10",
+          "WCD10-B05-S11",
+          "WCD10-B05-S13",
+          "WCD10-B05-S14",
+          "WCD10-B05-S15",
+          "WCD10-B05-S16",
+          "WCD10-B05-S17"
+        ],
+        "disposition": "bounded_B_new_sources",
+        "reason": "大学院系虚拟图书馆条目、ELEM出版目录页与作者官方网站书目页分别定位，均实读目标字段；机构书目/官方目录按稳定规则保守评B。（R1修订：诺贝尔自传页S12已复用SRC-0300，不再列入新来源组。）"
+      },
+      "accessed_at": "2026-09-30",
+      "verified_by": "EXT-AI-02 (external research worker) opened used passages; independent Reviewer required",
+      "copyright_boundary": "Only original brief paraphrases and metadata. No book/article full text, cover art or PDF assets copied. USAC/BnF/Nobel/ELEM/author-site copyright retained; summaries are brief attributed paraphrases, not verbatim passages beyond short quoted terms.",
+      "locator": "主页 First English edition ©1991 标记；/en/book/stories/summary 正文（应Rolf Carlé之请讲述从未讲过的故事、twenty-three则）",
+      "usage": "新对象Cuentos de Eva Luna的体裁与概述；西语1989年由S01时间线支持。",
+      "notes": "©1991为英译首版年。 作品年/版权脚注不作为网页发表年。"
+    },
+    {
+      "candidate_id": "WCD10-B05-S15",
+      "source_id": "SRC-0399",
+      "scope_decision": {
+        "candidate_ids": [
+          "WCD10-B05-S09",
+          "WCD10-B05-S10",
+          "WCD10-B05-S11",
+          "WCD10-B05-S13",
+          "WCD10-B05-S14",
+          "WCD10-B05-S15",
+          "WCD10-B05-S16",
+          "WCD10-B05-S17"
+        ],
+        "disposition": "bounded_B_new_sources",
+        "reason": "大学院系虚拟图书馆条目、ELEM出版目录页与作者官方网站书目页分别定位，均实读目标字段；机构书目/官方目录按稳定规则保守评B。（R1修订：诺贝尔自传页S12已复用SRC-0300，不再列入新来源组。）"
+      },
+      "accessed_at": "2026-09-30",
+      "verified_by": "EXT-AI-02 (external research worker) opened used passages; independent Reviewer required",
+      "copyright_boundary": "Only original brief paraphrases and metadata. No book/article full text, cover art or PDF assets copied. USAC/BnF/Nobel/ELEM/author-site copyright retained; summaries are brief attributed paraphrases, not verbatim passages beyond short quoted terms.",
+      "locator": "主页 First English edition ©1995 标记；/en/book/paula/summary 正文（1991年12月女儿昏迷后陪护中开始写作的memoir）",
+      "usage": "新对象Paula的体裁（回忆录）与概述；西语1994年由S01时间线支持。",
+      "notes": "©1995为英译首版年。 作品年/版权脚注不作为网页发表年。"
+    },
+    {
+      "candidate_id": "WCD10-B05-S16",
+      "source_id": "SRC-0400",
+      "scope_decision": {
+        "candidate_ids": [
+          "WCD10-B05-S09",
+          "WCD10-B05-S10",
+          "WCD10-B05-S11",
+          "WCD10-B05-S13",
+          "WCD10-B05-S14",
+          "WCD10-B05-S15",
+          "WCD10-B05-S16",
+          "WCD10-B05-S17"
+        ],
+        "disposition": "bounded_B_new_sources",
+        "reason": "大学院系虚拟图书馆条目、ELEM出版目录页与作者官方网站书目页分别定位，均实读目标字段；机构书目/官方目录按稳定规则保守评B。（R1修订：诺贝尔自传页S12已复用SRC-0300，不再列入新来源组。）"
+      },
+      "accessed_at": "2026-09-30",
+      "verified_by": "EXT-AI-02 (external research worker) opened used passages; independent Reviewer required",
+      "copyright_boundary": "Only original brief paraphrases and metadata. No book/article full text, cover art or PDF assets copied. USAC/BnF/Nobel/ELEM/author-site copyright retained; summaries are brief attributed paraphrases, not verbatim passages beyond short quoted terms.",
+      "locator": "主页 First English edition ©1999 标记；/en/book/daughter/summary 正文（Eliza Sommers在智利Valparaíso英国侨民家庭成长、1849淘金热北上加州）",
+      "usage": "新对象Hija de la fortuna的体裁、概述与开篇地（智利瓦尔帕莱索）直接表述；SET_IN仅指向已有Chile端点。",
+      "notes": "©1999为英译首版年；简介中'First English edition'与时间线1999西语同年稍晚。 作品年/版权脚注不作为网页发表年。"
+    },
+    {
+      "candidate_id": "WCD10-B05-S17",
+      "source_id": "SRC-0401",
+      "scope_decision": {
+        "candidate_ids": [
+          "WCD10-B05-S09",
+          "WCD10-B05-S10",
+          "WCD10-B05-S11",
+          "WCD10-B05-S13",
+          "WCD10-B05-S14",
+          "WCD10-B05-S15",
+          "WCD10-B05-S16",
+          "WCD10-B05-S17"
+        ],
+        "disposition": "bounded_B_new_sources",
+        "reason": "大学院系虚拟图书馆条目、ELEM出版目录页与作者官方网站书目页分别定位，均实读目标字段；机构书目/官方目录按稳定规则保守评B。（R1修订：诺贝尔自传页S12已复用SRC-0300，不再列入新来源组。）"
+      },
+      "accessed_at": "2026-09-30",
+      "verified_by": "EXT-AI-02 (external research worker) opened used passages; independent Reviewer required",
+      "copyright_boundary": "Only original brief paraphrases and metadata. No book/article full text, cover art or PDF assets copied. USAC/BnF/Nobel/ELEM/author-site copyright retained; summaries are brief attributed paraphrases, not verbatim passages beyond short quoted terms.",
+      "locator": "主页 First English edition ©2002 标记；/en/book/city/summary 正文（15岁Alexander Cold随International Geographic远征亚马逊、与Nadia深入雨林）",
+      "usage": "新对象La ciudad de las bestias的体裁（青少年三部曲首部）与概述；西语2002年由S01时间线支持。",
+      "notes": "©2002为英译首版年。 作品年/版权脚注不作为网页发表年。"
+    },
+    {
+      "candidate_id": "WCD10-B05-S19",
+      "source_id": "SRC-0402",
+      "scope_decision": {
+        "candidate_ids": [
+          "WCD10-B05-S18",
+          "WCD10-B05-S19",
+          "WCD10-B05-S20",
+          "WCD10-B05-S21",
+          "WCD10-B05-S22",
+          "WCD10-B05-S23",
+          "WCD10-B05-S26"
+        ],
+        "disposition": "bounded_B_new_elem_nobel_pages",
+        "reason": "审计R1-R4定位的ELEM作品级条目与诺贝尔阿斯图里亚斯自传页，返修轮fresh实读结构化字段与正文目标段后新登记；ELEM条目内引文/被引研究不作为已读第二独立来源。"
+      },
+      "accessed_at": "2026-09-30",
+      "verified_by": "EXT-AI-02 (external research worker) opened used passages; independent Reviewer required",
+      "copyright_boundary": "Only original brief paraphrases and metadata. No book/article full text, cover art or PDF assets copied. USAC/BnF/Nobel/ELEM/author-site copyright retained; summaries are brief attributed paraphrases, not verbatim passages beyond short quoted terms.",
+      "locator": "结构化字段：PRIMERA EDICIÓN=México, D. F., Joaquín Mortiz (Las Dos Orillas), 1969。正文：'El libro está dividido en tres secciones: Ladera este, que contiene cincuenta poemas; Hacia el comienzo, compuesto por quince poemas, y Blanco, poema largo aparecido por primera vez de manera independiente en 1967'；驻印度大使任内1962-1968写作、除'Cuento de dos jardines'外均写于阿富汗/锡兰/印度、可读作东方纪行bitácora、'Intermitencias del Oeste'四诗涉墨西哥与法国学生运动",
+      "usage": "W02对象级描述与三部结构；Blanco 1967独立出版先例用于版本分层说明。",
+      "notes": "作品页结构化字段+专文正文实读；页面无明确发表年。 作品年/版权脚注不作为网页发表年。"
+    },
+    {
+      "candidate_id": "WCD10-B05-S20",
+      "source_id": "SRC-0403",
+      "scope_decision": {
+        "candidate_ids": [
+          "WCD10-B05-S18",
+          "WCD10-B05-S19",
+          "WCD10-B05-S20",
+          "WCD10-B05-S21",
+          "WCD10-B05-S22",
+          "WCD10-B05-S23",
+          "WCD10-B05-S26"
+        ],
+        "disposition": "bounded_B_new_elem_nobel_pages",
+        "reason": "审计R1-R4定位的ELEM作品级条目与诺贝尔阿斯图里亚斯自传页，返修轮fresh实读结构化字段与正文目标段后新登记；ELEM条目内引文/被引研究不作为已读第二独立来源。"
+      },
+      "accessed_at": "2026-09-30",
+      "verified_by": "EXT-AI-02 (external research worker) opened used passages; independent Reviewer required",
+      "copyright_boundary": "Only original brief paraphrases and metadata. No book/article full text, cover art or PDF assets copied. USAC/BnF/Nobel/ELEM/author-site copyright retained; summaries are brief attributed paraphrases, not verbatim passages beyond short quoted terms.",
+      "locator": "结构化字段：PRIMERA EDICIÓN=México, D. F., Fondo de Cultura Económica, 1960。'Biografía del libro'节：'En principio…se refería sólo a un libro de noventa poemas que publicó en 1949 la editorial Fondo de Cultura Económica, dentro de la colección Tezontle, con un tiraje de 1,100 ejemplares. Ésta es la que conocemos como primera edición'；1960年obra poética (1935-1957)收225首、初拟题Todavía；1968三版、1979、1990定本；导语'La primera edición data de 1960'与其传记节1949表述页内并存；1990版207诗分五节含'¿Águila o sol?''La estación violenta'",
+      "usage": "W09候选：1949初版锚点+五版本演进；页内字段/导语与传记节的差异如实登记，不裁决。",
+      "notes": "R2修订（二轮R1-04）：页面顶部'2015/01 dic 2017'指向不明，不充当文章发表年，留空。 作品年/版权脚注不作为网页发表年。"
+    },
+    {
+      "candidate_id": "WCD10-B05-S21",
+      "source_id": "SRC-0404",
+      "scope_decision": {
+        "candidate_ids": [
+          "WCD10-B05-S18",
+          "WCD10-B05-S19",
+          "WCD10-B05-S20",
+          "WCD10-B05-S21",
+          "WCD10-B05-S22",
+          "WCD10-B05-S23",
+          "WCD10-B05-S26"
+        ],
+        "disposition": "bounded_B_new_elem_nobel_pages",
+        "reason": "审计R1-R4定位的ELEM作品级条目与诺贝尔阿斯图里亚斯自传页，返修轮fresh实读结构化字段与正文目标段后新登记；ELEM条目内引文/被引研究不作为已读第二独立来源。"
+      },
+      "accessed_at": "2026-09-30",
+      "verified_by": "EXT-AI-02 (external research worker) opened used passages; independent Reviewer required",
+      "copyright_boundary": "Only original brief paraphrases and metadata. No book/article full text, cover art or PDF assets copied. USAC/BnF/Nobel/ELEM/author-site copyright retained; summaries are brief attributed paraphrases, not verbatim passages beyond short quoted terms.",
+      "locator": "结构化字段（FCE Letras Mexicanas;42/1958）+正文：主题两段标'contraportada 1958'、九诗清单标'contraportada 2013'（ELEM页内明示两处版次归属）",
+      "usage": "W10候选：1958初版+构成+主题性内容描述（归属ELEM转引的封底与介绍文字）。",
+      "notes": "页面无明确发表年；正文含转引的初版封底文字。 作品年/版权脚注不作为网页发表年。"
+    },
+    {
+      "candidate_id": "WCD10-B05-S22",
+      "source_id": "SRC-0405",
+      "scope_decision": {
+        "candidate_ids": [
+          "WCD10-B05-S18",
+          "WCD10-B05-S19",
+          "WCD10-B05-S20",
+          "WCD10-B05-S21",
+          "WCD10-B05-S22",
+          "WCD10-B05-S23",
+          "WCD10-B05-S26"
+        ],
+        "disposition": "bounded_B_new_elem_nobel_pages",
+        "reason": "审计R1-R4定位的ELEM作品级条目与诺贝尔阿斯图里亚斯自传页，返修轮fresh实读结构化字段与正文目标段后新登记；ELEM条目内引文/被引研究不作为已读第二独立来源。"
+      },
+      "accessed_at": "2026-09-30",
+      "verified_by": "EXT-AI-02 (external research worker) opened used passages; independent Reviewer required",
+      "copyright_boundary": "Only original brief paraphrases and metadata. No book/article full text, cover art or PDF assets copied. USAC/BnF/Nobel/ELEM/author-site copyright retained; summaries are brief attributed paraphrases, not verbatim passages beyond short quoted terms.",
+      "locator": "结构化字段：PRIMERA EDICIÓN=México, D. F., Editorial: Tezontle, 1957；Género=Poesía-Libros individuales",
+      "usage": "仅用于deferred中Piedra首版'Tezontle'作为ELEM登记的imprint层证据；与S25共同说明Tezontle/FCE非互斥。",
+      "notes": "仅读结构化字段。 作品年/版权脚注不作为网页发表年。"
+    },
+    {
+      "candidate_id": "WCD10-B05-S23",
+      "source_id": "SRC-0406",
+      "scope_decision": {
+        "candidate_ids": [
+          "WCD10-B05-S18",
+          "WCD10-B05-S19",
+          "WCD10-B05-S20",
+          "WCD10-B05-S21",
+          "WCD10-B05-S22",
+          "WCD10-B05-S23",
+          "WCD10-B05-S26"
+        ],
+        "disposition": "bounded_B_new_elem_nobel_pages",
+        "reason": "审计R1-R4定位的ELEM作品级条目与诺贝尔阿斯图里亚斯自传页，返修轮fresh实读结构化字段与正文目标段后新登记；ELEM条目内引文/被引研究不作为已读第二独立来源。"
+      },
+      "accessed_at": "2026-09-30",
+      "verified_by": "EXT-AI-02 (external research worker) opened used passages; independent Reviewer required",
+      "copyright_boundary": "Only original brief paraphrases and metadata. No book/article full text, cover art or PDF assets copied. USAC/BnF/Nobel/ELEM/author-site copyright retained; summaries are brief attributed paraphrases, not verbatim passages beyond short quoted terms.",
+      "locator": "结构化字段：PRIMERA EDICIÓN=Ciudad de México, Cuadernos Americanos, 1950；Género=Ensayo-Libros individuales。正文段：现代文学关键之作、对本世纪西语散文影响最深",
+      "usage": "deferred：Laberinto首版社分层（1950 Cuadernos Americanos首版、1959 FCE后版）的机构书目证据；与S12/S24三方一致。",
+      "notes": "结构化字段+首段正文。 作品年/版权脚注不作为网页发表年。"
+    },
+    {
+      "candidate_id": "WCD10-B05-S24",
+      "source_id": "SRC-0407",
+      "scope_decision": {
+        "candidate_ids": [
+          "WCD10-B05-S24",
+          "WCD10-B05-S25"
+        ],
+        "disposition": "bounded_C_reprints_corroboration_only",
+        "reason": "FCE官网转载的报纸文章，按审计口径保守C级、仅作deferred佐证，不因出版社域名升格、不充当独立第二来源。"
+      },
+      "accessed_at": "2026-09-30",
+      "verified_by": "EXT-AI-02 (external research worker) opened used passages; independent Reviewer required",
+      "copyright_boundary": "Only original brief paraphrases and metadata. No book/article full text, cover art or PDF assets copied. USAC/BnF/Nobel/ELEM/author-site copyright retained; summaries are brief attributed paraphrases, not verbatim passages beyond short quoted terms.",
+      "locator": "页内文章头：题名'De libro maldito a libro de texto'、日期2020-06-04、署名Javier Aranda Luna、'Fuente: La Jornada Maya'及原文URL；正文（'edición especial de la revista Cuadernos Americanos'句等）",
+      "usage": "仅为deferred佐证：1950年以Cuadernos Americanos杂志特别版形式首版的表述；系报纸文章的出版社域名转载，按审计口径不因域名升A、不充独立第二来源。",
+      "notes": "R2修订（二轮R1-03）：FCE转载页明示日期2020-06-04、署名Javier Aranda Luna、来源La Jornada Maya（本人重开页面亲证）；publication_year取页面所载原发日期之年。C级转载。 作品年/版权脚注不作为网页发表年。"
+    },
+    {
+      "candidate_id": "WCD10-B05-S25",
+      "source_id": "SRC-0408",
+      "scope_decision": {
+        "candidate_ids": [
+          "WCD10-B05-S24",
+          "WCD10-B05-S25"
+        ],
+        "disposition": "bounded_C_reprints_corroboration_only",
+        "reason": "FCE官网转载的报纸文章，按审计口径保守C级、仅作deferred佐证，不因出版社域名升格、不充当独立第二来源。"
+      },
+      "accessed_at": "2026-09-30",
+      "verified_by": "EXT-AI-02 (external research worker) opened used passages; independent Reviewer required",
+      "copyright_boundary": "Only original brief paraphrases and metadata. No book/article full text, cover art or PDF assets copied. USAC/BnF/Nobel/ELEM/author-site copyright retained; summaries are brief attributed paraphrases, not verbatim passages beyond short quoted terms.",
+      "locator": "页内文章头：题名'584 versos'、日期2019-12-10、署名Juan José González Mejía、'Fuente: El Sol de Tampico'及原文URL；正文（'colección Tezontle del Fondo de Cultura Económica'/1957-09-28/300册句）",
+      "usage": "仅为deferred佐证：Tezontle系FCE旗下丛书（colección）的直接表述；报纸专栏转载，保守C级。",
+      "notes": "R2修订（二轮R1-03）：题名更正为'584 versos'、作者更正为Juan José González Mejía；FCE转载页明示日期2019-12-10、来源El Sol de Tampico（本人重开页面亲证）。C级转载。 作品年/版权脚注不作为网页发表年。"
+    }
+  ],
+  "facts": [
+    {
+      "candidate_id": "WCD10-B05-W01-F01",
+      "fact_id": "V1-FCT-1216",
+      "subject_id": "V1-ENT-0421",
+      "field": "first_publication_year"
+    },
+    {
+      "candidate_id": "WCD10-B05-W01-F02",
+      "fact_id": "V1-FCT-1217",
+      "subject_id": "V1-ENT-0421",
+      "field": "genre_or_form"
+    },
+    {
+      "candidate_id": "WCD10-B05-W01-F03",
+      "fact_id": "V1-FCT-1218",
+      "subject_id": "V1-ENT-0421",
+      "field": "one_sentence_summary"
+    },
+    {
+      "candidate_id": "WCD10-B05-W02-F01",
+      "fact_id": "V1-FCT-1219",
+      "subject_id": "V1-ENT-0422",
+      "field": "first_publication_year"
+    },
+    {
+      "candidate_id": "WCD10-B05-W02-F02",
+      "fact_id": "V1-FCT-1220",
+      "subject_id": "V1-ENT-0422",
+      "field": "genre_or_form"
+    },
+    {
+      "candidate_id": "WCD10-B05-W02-F03",
+      "fact_id": "V1-FCT-1221",
+      "subject_id": "V1-ENT-0422",
+      "field": "one_sentence_summary"
+    },
+    {
+      "candidate_id": "WCD10-B05-W02-F04",
+      "fact_id": "V1-FCT-1222",
+      "subject_id": "V1-ENT-0422",
+      "field": "bibliographic_note"
+    },
+    {
+      "candidate_id": "WCD10-B05-W05-F01",
+      "fact_id": "V1-FCT-1223",
+      "subject_id": "V1-ENT-0423",
+      "field": "first_publication_year"
+    },
+    {
+      "candidate_id": "WCD10-B05-W05-F02",
+      "fact_id": "V1-FCT-1224",
+      "subject_id": "V1-ENT-0423",
+      "field": "genre_or_form"
+    },
+    {
+      "candidate_id": "WCD10-B05-W05-F03",
+      "fact_id": "V1-FCT-1225",
+      "subject_id": "V1-ENT-0423",
+      "field": "one_sentence_summary"
+    },
+    {
+      "candidate_id": "WCD10-B05-W05-F04",
+      "fact_id": "V1-FCT-1226",
+      "subject_id": "V1-ENT-0423",
+      "field": "bibliographic_note"
+    },
+    {
+      "candidate_id": "WCD10-B05-W06-F01",
+      "fact_id": "V1-FCT-1227",
+      "subject_id": "V1-ENT-0424",
+      "field": "first_publication_year"
+    },
+    {
+      "candidate_id": "WCD10-B05-W06-F02",
+      "fact_id": "V1-FCT-1228",
+      "subject_id": "V1-ENT-0424",
+      "field": "genre_or_form"
+    },
+    {
+      "candidate_id": "WCD10-B05-W06-F03",
+      "fact_id": "V1-FCT-1229",
+      "subject_id": "V1-ENT-0424",
+      "field": "one_sentence_summary"
+    },
+    {
+      "candidate_id": "WCD10-B05-W06-F04",
+      "fact_id": "V1-FCT-1230",
+      "subject_id": "V1-ENT-0424",
+      "field": "bibliographic_note"
+    },
+    {
+      "candidate_id": "WCD10-B05-W07-F01",
+      "fact_id": "V1-FCT-1231",
+      "subject_id": "V1-ENT-0425",
+      "field": "first_publication_year"
+    },
+    {
+      "candidate_id": "WCD10-B05-W07-F02",
+      "fact_id": "V1-FCT-1232",
+      "subject_id": "V1-ENT-0425",
+      "field": "genre_or_form"
+    },
+    {
+      "candidate_id": "WCD10-B05-W07-F03",
+      "fact_id": "V1-FCT-1233",
+      "subject_id": "V1-ENT-0425",
+      "field": "one_sentence_summary"
+    },
+    {
+      "candidate_id": "WCD10-B05-W07-F04",
+      "fact_id": "V1-FCT-1234",
+      "subject_id": "V1-ENT-0425",
+      "field": "bibliographic_note"
+    },
+    {
+      "candidate_id": "WCD10-B05-W08-F01",
+      "fact_id": "V1-FCT-1235",
+      "subject_id": "V1-ENT-0426",
+      "field": "first_publication_year"
+    },
+    {
+      "candidate_id": "WCD10-B05-W08-F02",
+      "fact_id": "V1-FCT-1236",
+      "subject_id": "V1-ENT-0426",
+      "field": "genre_or_form"
+    },
+    {
+      "candidate_id": "WCD10-B05-W08-F03",
+      "fact_id": "V1-FCT-1237",
+      "subject_id": "V1-ENT-0426",
+      "field": "one_sentence_summary"
+    },
+    {
+      "candidate_id": "WCD10-B05-W08-F04",
+      "fact_id": "V1-FCT-1238",
+      "subject_id": "V1-ENT-0426",
+      "field": "bibliographic_note"
+    },
+    {
+      "candidate_id": "WCD10-B05-W09-F01",
+      "fact_id": "V1-FCT-1239",
+      "subject_id": "V1-ENT-0427",
+      "field": "first_publication_year"
+    },
+    {
+      "candidate_id": "WCD10-B05-W09-F02",
+      "fact_id": "V1-FCT-1240",
+      "subject_id": "V1-ENT-0427",
+      "field": "genre_or_form"
+    },
+    {
+      "candidate_id": "WCD10-B05-W09-F03",
+      "fact_id": "V1-FCT-1241",
+      "subject_id": "V1-ENT-0427",
+      "field": "one_sentence_summary"
+    },
+    {
+      "candidate_id": "WCD10-B05-W09-F04",
+      "fact_id": "V1-FCT-1242",
+      "subject_id": "V1-ENT-0427",
+      "field": "bibliographic_note"
+    },
+    {
+      "candidate_id": "WCD10-B05-W10-F01",
+      "fact_id": "V1-FCT-1243",
+      "subject_id": "V1-ENT-0428",
+      "field": "first_publication_year"
+    },
+    {
+      "candidate_id": "WCD10-B05-W10-F02",
+      "fact_id": "V1-FCT-1244",
+      "subject_id": "V1-ENT-0428",
+      "field": "genre_or_form"
+    },
+    {
+      "candidate_id": "WCD10-B05-W10-F03",
+      "fact_id": "V1-FCT-1245",
+      "subject_id": "V1-ENT-0428",
+      "field": "one_sentence_summary"
+    },
+    {
+      "candidate_id": "WCD10-B05-W10-F04",
+      "fact_id": "V1-FCT-1246",
+      "subject_id": "V1-ENT-0428",
+      "field": "bibliographic_note"
+    },
+    {
+      "candidate_id": "WCD10-B05-F03",
+      "fact_id": "V1-FCT-1247",
+      "subject_id": "V1-ENT-0173",
+      "field": "genre_or_form"
+    },
+    {
+      "candidate_id": "WCD10-B05-F04",
+      "fact_id": "V1-FCT-1248",
+      "subject_id": "V1-ENT-0173",
+      "field": "one_sentence_summary"
+    },
+    {
+      "candidate_id": "WCD10-B05-F06",
+      "fact_id": "V1-FCT-1249",
+      "subject_id": "V1-ENT-0174",
+      "field": "genre_or_form"
+    },
+    {
+      "candidate_id": "WCD10-B05-F07",
+      "fact_id": "V1-FCT-1250",
+      "subject_id": "V1-ENT-0174",
+      "field": "one_sentence_summary"
+    },
+    {
+      "candidate_id": "WCD10-B05-F08",
+      "fact_id": "V1-FCT-1251",
+      "subject_id": "V1-ENT-0175",
+      "field": "genre_or_form"
+    },
+    {
+      "candidate_id": "WCD10-B05-F09",
+      "fact_id": "V1-FCT-1252",
+      "subject_id": "V1-ENT-0175",
+      "field": "one_sentence_summary"
+    },
+    {
+      "candidate_id": "WCD10-B05-F10",
+      "fact_id": "V1-FCT-1253",
+      "subject_id": "V1-ENT-0176",
+      "field": "genre_or_form"
+    },
+    {
+      "candidate_id": "WCD10-B05-F11",
+      "fact_id": "V1-FCT-1254",
+      "subject_id": "V1-ENT-0176",
+      "field": "one_sentence_summary"
+    },
+    {
+      "candidate_id": "WCD10-B05-F12",
+      "fact_id": "V1-FCT-1255",
+      "subject_id": "V1-ENT-0177",
+      "field": "genre_or_form"
+    },
+    {
+      "candidate_id": "WCD10-B05-F13",
+      "fact_id": "V1-FCT-1256",
+      "subject_id": "V1-ENT-0177",
+      "field": "one_sentence_summary"
+    },
+    {
+      "candidate_id": "WCD10-B05-F14",
+      "fact_id": "V1-FCT-1257",
+      "subject_id": "V1-ENT-0178",
+      "field": "genre_or_form"
+    },
+    {
+      "candidate_id": "WCD10-B05-F15",
+      "fact_id": "V1-FCT-1258",
+      "subject_id": "V1-ENT-0178",
+      "field": "one_sentence_summary"
+    },
+    {
+      "candidate_id": "WCD10-B05-F16",
+      "fact_id": "V1-FCT-1259",
+      "subject_id": "V1-ENT-0154",
+      "field": "bibliographic_note"
+    }
+  ],
+  "cards": [
+    {
+      "subject_id": "V1-ENT-0421",
+      "card_id": "V1-CARD-0329",
+      "preserves_existing_cards": true
+    },
+    {
+      "subject_id": "V1-ENT-0422",
+      "card_id": "V1-CARD-0330",
+      "preserves_existing_cards": true
+    },
+    {
+      "subject_id": "V1-ENT-0423",
+      "card_id": "V1-CARD-0331",
+      "preserves_existing_cards": true
+    },
+    {
+      "subject_id": "V1-ENT-0424",
+      "card_id": "V1-CARD-0332",
+      "preserves_existing_cards": true
+    },
+    {
+      "subject_id": "V1-ENT-0425",
+      "card_id": "V1-CARD-0333",
+      "preserves_existing_cards": true
+    },
+    {
+      "subject_id": "V1-ENT-0426",
+      "card_id": "V1-CARD-0334",
+      "preserves_existing_cards": true
+    },
+    {
+      "subject_id": "V1-ENT-0427",
+      "card_id": "V1-CARD-0335",
+      "preserves_existing_cards": true
+    },
+    {
+      "subject_id": "V1-ENT-0428",
+      "card_id": "V1-CARD-0336",
+      "preserves_existing_cards": true
+    },
+    {
+      "subject_id": "V1-ENT-0173",
+      "card_id": "V1-CARD-0337",
+      "preserves_existing_cards": true
+    },
+    {
+      "subject_id": "V1-ENT-0174",
+      "card_id": "V1-CARD-0338",
+      "preserves_existing_cards": true
+    },
+    {
+      "subject_id": "V1-ENT-0175",
+      "card_id": "V1-CARD-0339",
+      "preserves_existing_cards": true
+    },
+    {
+      "subject_id": "V1-ENT-0176",
+      "card_id": "V1-CARD-0340",
+      "preserves_existing_cards": true
+    },
+    {
+      "subject_id": "V1-ENT-0177",
+      "card_id": "V1-CARD-0341",
+      "preserves_existing_cards": true
+    },
+    {
+      "subject_id": "V1-ENT-0178",
+      "card_id": "V1-CARD-0342",
+      "preserves_existing_cards": true
+    },
+    {
+      "subject_id": "V1-ENT-0154",
+      "card_id": "V1-CARD-0343",
+      "preserves_existing_cards": true
+    }
+  ],
+  "relationships": [
+    {
+      "candidate_id": "WCD10-B05-W01-CREATED",
+      "relationship_id": "V1-REL-0389",
+      "subject_id": "V1-ENT-0059",
+      "relation_type": "CREATED",
+      "object_id": "V1-ENT-0421"
+    },
+    {
+      "candidate_id": "WCD10-B05-W02-CREATED",
+      "relationship_id": "V1-REL-0390",
+      "subject_id": "V1-ENT-0059",
+      "relation_type": "CREATED",
+      "object_id": "V1-ENT-0422"
+    },
+    {
+      "candidate_id": "WCD10-B05-W05-CREATED",
+      "relationship_id": "V1-REL-0391",
+      "subject_id": "V1-ENT-0171",
+      "relation_type": "CREATED",
+      "object_id": "V1-ENT-0423"
+    },
+    {
+      "candidate_id": "WCD10-B05-W06-CREATED",
+      "relationship_id": "V1-REL-0392",
+      "subject_id": "V1-ENT-0171",
+      "relation_type": "CREATED",
+      "object_id": "V1-ENT-0424"
+    },
+    {
+      "candidate_id": "WCD10-B05-W07-CREATED",
+      "relationship_id": "V1-REL-0393",
+      "subject_id": "V1-ENT-0171",
+      "relation_type": "CREATED",
+      "object_id": "V1-ENT-0425"
+    },
+    {
+      "candidate_id": "WCD10-B05-W08-CREATED",
+      "relationship_id": "V1-REL-0394",
+      "subject_id": "V1-ENT-0171",
+      "relation_type": "CREATED",
+      "object_id": "V1-ENT-0426"
+    },
+    {
+      "candidate_id": "WCD10-B05-W09-CREATED",
+      "relationship_id": "V1-REL-0395",
+      "subject_id": "V1-ENT-0059",
+      "relation_type": "CREATED",
+      "object_id": "V1-ENT-0427"
+    },
+    {
+      "candidate_id": "WCD10-B05-W10-CREATED",
+      "relationship_id": "V1-REL-0396",
+      "subject_id": "V1-ENT-0059",
+      "relation_type": "CREATED",
+      "object_id": "V1-ENT-0428"
+    },
+    {
+      "candidate_id": "WCD10-B05-R01",
+      "relationship_id": "V1-REL-0397",
+      "subject_id": "V1-ENT-0425",
+      "relation_type": "SET_IN",
+      "object_id": "V1-ENT-0123"
+    }
+  ],
+  "gaps": [
+    {
+      "gap_id": "V1-GAP-0123",
+      "key": "WCD10:B05:Paz:El_mono_gramatico:first_publication_semantics"
+    },
+    {
+      "gap_id": "V1-GAP-0124",
+      "key": "WCD10:B05:Paz:Laberinto:first_edition_layering_resolved"
+    },
+    {
+      "gap_id": "V1-GAP-0125",
+      "key": "WCD10:B05:Paz:Piedra:imprint_layering_resolved"
+    },
+    {
+      "gap_id": "V1-GAP-0126",
+      "key": "WCD10:B05:Paz:Salamandra_further_bibliography"
+    },
+    {
+      "gap_id": "V1-GAP-0127",
+      "key": "WCD10:B05:Paz:HOLD0043_second_source"
+    },
+    {
+      "gap_id": "V1-GAP-0128",
+      "key": "WCD10:B05:Asturias:Papa_Verde_object_deferred"
+    },
+    {
+      "gap_id": "V1-GAP-0129",
+      "key": "WCD10:B05:Asturias:trilogy_volumes_year_conflicts"
+    },
+    {
+      "gap_id": "V1-GAP-0130",
+      "key": "WCD10:B05:Asturias:Hombres_1948_1949_conflict"
+    },
+    {
+      "gap_id": "V1-GAP-0131",
+      "key": "WCD10:B05:Asturias:SET_IN_Guatemala_unsupported"
+    },
+    {
+      "gap_id": "V1-GAP-0132",
+      "key": "WCD10:B05:Allende:unnamed_country_setin"
+    },
+    {
+      "gap_id": "V1-GAP-0133",
+      "key": "WCD10:B05:Allende:further_bibliography"
+    },
+    {
+      "gap_id": "V1-GAP-0134",
+      "key": "WCD10:B05:builder_research_note_mapping"
+    },
+    {
+      "gap_id": "V1-GAP-0135",
+      "key": "WCD10:B05:R01_partial_scene_boundary"
+    },
+    {
+      "gap_id": "V1-GAP-0136",
+      "key": "WCD10:B05:failed_access_entries"
+    },
+    {
+      "gap_id": "V1-GAP-0137",
+      "key": "WCD10:B05:Paz:Laberinto:V1-FCT-0309:append_only_errata"
+    },
+    {
+      "gap_id": "V1-GAP-0138",
+      "key": "WCD10:work_level_research:V1-ENT-0173"
+    },
+    {
+      "gap_id": "V1-GAP-0139",
+      "key": "WCD10:work_level_research:V1-ENT-0174"
+    },
+    {
+      "gap_id": "V1-GAP-0140",
+      "key": "WCD10:work_level_research:V1-ENT-0175"
+    },
+    {
+      "gap_id": "V1-GAP-0141",
+      "key": "WCD10:work_level_research:V1-ENT-0176"
+    },
+    {
+      "gap_id": "V1-GAP-0142",
+      "key": "WCD10:work_level_research:V1-ENT-0177"
+    },
+    {
+      "gap_id": "V1-GAP-0143",
+      "key": "WCD10:work_level_research:V1-ENT-0178"
+    },
+    {
+      "gap_id": "V1-GAP-0144",
+      "key": "WCD10:work_level_research:V1-ENT-0421"
+    },
+    {
+      "gap_id": "V1-GAP-0145",
+      "key": "WCD10:work_level_research:V1-ENT-0422"
+    },
+    {
+      "gap_id": "V1-GAP-0146",
+      "key": "WCD10:work_level_research:V1-ENT-0423"
+    },
+    {
+      "gap_id": "V1-GAP-0147",
+      "key": "WCD10:work_level_research:V1-ENT-0424"
+    },
+    {
+      "gap_id": "V1-GAP-0148",
+      "key": "WCD10:work_level_research:V1-ENT-0425"
+    },
+    {
+      "gap_id": "V1-GAP-0149",
+      "key": "WCD10:work_level_research:V1-ENT-0426"
+    },
+    {
+      "gap_id": "V1-GAP-0150",
+      "key": "WCD10:work_level_research:V1-ENT-0427"
+    },
+    {
+      "gap_id": "V1-GAP-0151",
+      "key": "WCD10:work_level_research:V1-ENT-0428"
+    }
+  ],
+  "public_boundary": "Research-only B05 integration subset: 8 new objects, 44 fact candidates, and one SET_IN. W03 remains in original scope but is DEFERRED_NOT_ADMITTED pending USER policy; preserved in W03_DEFERRED_CANDIDATE.json and must be integrated before TASK-127 completion. F16 remains an independently supported append-only candidate; no SQL/apply/public admission.",
+  "author_metadata_fallbacks": [
+    {
+      "author_id": "V1-ENT-0171",
+      "field": "language",
+      "value": "es",
+      "existing_card_ids": [
+        "V1-CARD-0068"
+      ],
+      "boundary": "Legacy card metadata reused; no new author fact"
+    },
+    {
+      "author_id": "V1-ENT-0170",
+      "field": "language",
+      "value": "es",
+      "existing_card_ids": [
+        "V1-CARD-0064"
+      ],
+      "boundary": "Legacy card metadata reused; no new author fact"
+    }
+  ],
+  "counts": {
+    "sources": 14,
+    "entities": 8,
+    "entity_id_map": 8,
+    "content_cards": 15,
+    "facts": 44,
+    "card_facts": 44,
+    "fact_sources": 61,
+    "card_sources": 30,
+    "relationships": 9,
+    "relationship_sources": 21,
+    "relationship_evidence": 21,
+    "gaps": 29
+  }
+}

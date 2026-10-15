@@ -1,0 +1,4716 @@
+{
+  "task_id": "TASK-124",
+  "batch_id": "WCD-10-B19",
+  "baseline_database_sha256": "8e2c26422a219990c8e397005ebd4e2c8499181f657b63f53cdb70af3e99d016",
+  "scope": "Three-author B19 selected-work coverage; original per-author scope and closure records are preserved in this artifact and MERGE_PROVENANCE.",
+  "author_ids": [
+    "V1-ENT-0334",
+    "V1-ENT-0344",
+    "V1-ENT-0345"
+  ],
+  "author_descriptions": {},
+  "research_policy_by_author": {
+    "V1-ENT-0334": "DEC-070：一项可靠出版者/图书馆/大学/文化机构直接依据即可支持普通书目、体裁与有界简介；不要求穷尽或专门论文。",
+    "V1-ENT-0344": {
+      "author_id": "V1-ENT-0344",
+      "status": "catalog_only",
+      "remaining": "仅依据智利国家图书馆、智利国家数字图书馆与Tusquets直接来源扩充主要作品书目和有界说明；未声称全集完备或学术研究覆盖。"
+    },
+    "V1-ENT-0345": {
+      "author_id": "V1-ENT-0345",
+      "status": "catalog_only",
+      "remaining": "依据墨西哥文学百科书目和出版者目录补充主要书目与有界简介，不宣称学术研究覆盖或全集完备。"
+    }
+  },
+  "author_context_by_id": {},
+  "author_context": [],
+  "author_scope_by_id": {
+    "V1-ENT-0334": {
+      "existing_linked_work_ids": [
+        "V1-ENT-0341",
+        "V1-ENT-0342",
+        "V1-ENT-0343"
+      ],
+      "candidate_work_ids": [
+        "WCD10-B19-W001",
+        "WCD10-B19-W002",
+        "WCD10-B19-W003",
+        "WCD10-B19-W004",
+        "WCD10-B19-W005"
+      ]
+    },
+    "V1-ENT-0344": "Selected directly sourced works; no exhaustiveness claim.",
+    "V1-ENT-0345": "三项既有作品简介补充、四项主要作品候选；不代表全集完备。"
+  },
+  "author_results_by_id": {
+    "V1-ENT-0334": "5 new work candidates; 3 pre-existing work closures preserved; batch independent review required.",
+    "V1-ENT-0344": [
+      {
+        "author_id": "V1-ENT-0344",
+        "status": "catalog_only",
+        "new_candidate_count": 4,
+        "remaining": "作品目录未穷尽；仅补充有直接证据的重点书目。"
+      }
+    ],
+    "V1-ENT-0345": "candidate_complete_pending_independent_review"
+  },
+  "author_snapshots_by_id": {
+    "V1-ENT-0334": {
+      "entity_id": "V1-ENT-0334",
+      "entity_type": "author",
+      "name_zh": "雷纳尔多·阿雷纳斯",
+      "original_name": "Reinaldo Arenas",
+      "canonical_status": "candidate",
+      "origin_count": "1",
+      "origin_refs": "CAND-B15-ARENAS-AUTHOR",
+      "normalization_basis": "B15 Princeton finding-aid and university research; Chinese display candidate",
+      "issue_codes": "NONE"
+    },
+    "V1-ENT-0344": {
+      "batch_id": "WCD-10-B19",
+      "task_id": "TASK-124",
+      "author": {
+        "entity_id": "V1-ENT-0344",
+        "entity_type": "author",
+        "name_zh": "路易斯·塞普尔维达",
+        "original_name": "Luis Sepúlveda",
+        "canonical_status": "candidate",
+        "origin_count": "1",
+        "origin_refs": "CAND-B16-SEPULVEDA-AUTHOR",
+        "normalization_basis": "Published Chinese author spelling supported by China Writers Net; original name retained.",
+        "issue_codes": "NONE"
+      },
+      "works": [
+        {
+          "entity": {
+            "entity_id": "V1-ENT-0347",
+            "entity_type": "work",
+            "name_zh": "《读爱情故事的老人》",
+            "original_name": "Un viejo que leía novelas de amor",
+            "canonical_status": "candidate",
+            "origin_count": "1",
+            "origin_refs": "CAND-B16-SEPULVEDA-W01",
+            "normalization_basis": "Published Chinese title supported by China Writers Net; original title and 1989 edition evidence retained.",
+            "issue_codes": "NONE"
+          },
+          "facts": [
+            {
+              "fact_id": "V1-FCT-0929",
+              "origin_material_id": "WEB-CE-B16",
+              "card_id": "V1-CARD-0233",
+              "subject_id": "V1-ENT-0347",
+              "fact_field": "entity_layer",
+              "value_text": "work",
+              "material_class": "metadata",
+              "origin_id": "SRC-0261",
+              "confidence": "high",
+              "admission_status": "candidate_for_staging_review",
+              "usage_note": "Entity layer is recorded as work."
+            },
+            {
+              "fact_id": "V1-FCT-0930",
+              "origin_material_id": "WEB-CE-B16",
+              "card_id": "V1-CARD-0233",
+              "subject_id": "V1-ENT-0347",
+              "fact_field": "first_book_edition_year",
+              "value_text": "1989",
+              "material_class": "bibliographic",
+              "origin_id": "SRC-0261",
+              "confidence": "high",
+              "admission_status": "candidate_for_staging_review",
+              "usage_note": "BNE and Memoria Chilena identify the Madrid Júcar 1989 book edition; the 1993 Tusquets record is a later edition, not conflicting evidence."
+            },
+            {
+              "fact_id": "V1-FCT-0931",
+              "origin_material_id": "WEB-CE-B16",
+              "card_id": "V1-CARD-0233",
+              "subject_id": "V1-ENT-0347",
+              "fact_field": "genre_or_form",
+              "value_text": "小说",
+              "material_class": "bibliographic",
+              "origin_id": "SRC-0261",
+              "confidence": "high",
+              "admission_status": "candidate_for_staging_review",
+              "usage_note": "Cited source supports the conservative form label 小说."
+            }
+          ],
+          "cards": [
+            {
+              "card_id": "V1-CARD-0233",
+              "origin_card_id": "",
+              "subject_id": "V1-ENT-0347",
+              "card_type": "work",
+              "title_zh": "《读爱情故事的老人》",
+              "author_label": "路易斯·塞普尔维达",
+              "original_title": "Un viejo que leía novelas de amor",
+              "country_or_region": "智利",
+              "language": "es",
+              "period_bucket": "first_book_edition_year=1989",
+              "genre_or_form": "小说",
+              "input_layer": "WEB-CE-B16",
+              "source_minimum_status": "meets",
+              "issue_code": "NONE",
+              "content_markdown": "### 《读爱情故事的老人》｜Un viejo que leía novelas de amor — source-backed 小说 entry; original title retained."
+            }
+          ],
+          "relations": [
+            {
+              "relationship_id": "V1-REL-0272",
+              "origin_layer": "WEB-CE-B16",
+              "origin_relation_group_id": "V1-REL-0272",
+              "subject_id": "V1-ENT-0344",
+              "relation_type": "CREATED",
+              "object_id": "V1-ENT-0347",
+              "description_zh": "路易斯·塞普尔维达创作《读爱情故事的老人》（Un viejo que leía novelas de amor）",
+              "confidence": "high",
+              "review_status": "accepted",
+              "upstream_review_status": "WEB-CE-B16",
+              "evidence_count": "1",
+              "issue_code": "NONE"
+            }
+          ],
+          "fact_sources": [
+            {
+              "fact_id": "V1-FCT-0929",
+              "source_id": "SRC-0261",
+              "source_title": "Sepúlveda, Luis"
+            },
+            {
+              "fact_id": "V1-FCT-0930",
+              "source_id": "SRC-0261",
+              "source_title": "Sepúlveda, Luis"
+            },
+            {
+              "fact_id": "V1-FCT-0931",
+              "source_id": "SRC-0261",
+              "source_title": "Sepúlveda, Luis"
+            }
+          ],
+          "card_sources": [
+            {
+              "card_source_id": "V1-CS-0462",
+              "origin_matrix_id": "",
+              "card_id": "V1-CARD-0233",
+              "source_id": "SRC-0261",
+              "source_level": "B",
+              "source_role": "both",
+              "bibliographic_support": "yes",
+              "research_support": "yes",
+              "independent_source_key": "SRC-0261",
+              "usage_status": "used",
+              "issue_code": "BIBLIOGRAPHIC-DISPUTE"
+            },
+            {
+              "card_source_id": "V1-CS-0463",
+              "origin_matrix_id": "",
+              "card_id": "V1-CARD-0233",
+              "source_id": "SRC-0262",
+              "source_level": "A",
+              "source_role": "both",
+              "bibliographic_support": "yes",
+              "research_support": "yes",
+              "independent_source_key": "SRC-0262",
+              "usage_status": "used",
+              "issue_code": "BIBLIOGRAPHIC-DISPUTE"
+            },
+            {
+              "card_source_id": "V1-CS-0500",
+              "origin_matrix_id": "SOL-AUDIT-B16-B17",
+              "card_id": "V1-CARD-0233",
+              "source_id": "SRC-0278",
+              "source_level": "C",
+              "source_role": "display",
+              "bibliographic_support": "yes",
+              "research_support": "no",
+              "independent_source_key": "SRC-0278",
+              "usage_status": "used",
+              "issue_code": "NONE"
+            }
+          ],
+          "relationship_sources": [
+            {
+              "relationship_id": "V1-REL-0272",
+              "source_id": "SRC-0261"
+            },
+            {
+              "relationship_id": "V1-REL-0272",
+              "source_id": "SRC-0262"
+            }
+          ],
+          "relationship_evidence": [
+            {
+              "evidence_id": "V1-EV-0297",
+              "relationship_id": "V1-REL-0272",
+              "origin_evidence_id": "V1-REL-0272",
+              "source_id": "SRC-0261",
+              "source_title": "Sepúlveda, Luis",
+              "locator": "",
+              "evidence_note": "Sepúlveda, Luis directly links the author and cited work/place relation.",
+              "confidence": "high",
+              "evidence_status": "eligible_evidence",
+              "evidence_origin": "WEB-CE-B16"
+            }
+          ],
+          "source_objects": [
+            {
+              "source_id": "SRC-0261",
+              "temporary_id": "B16-SRC-0261",
+              "title": "Sepúlveda, Luis",
+              "original_title": "Sepúlveda, Luis",
+              "author_or_editor": "Biblioteca Nacional de Chile, Memoria Chilena",
+              "translator": "",
+              "publisher": "Biblioteca Nacional de Chile",
+              "publication_year": "",
+              "isbn": "",
+              "format": "web_page",
+              "page_count": "",
+              "language": "es",
+              "source_level": "B",
+              "processing_status": "access_pass",
+              "source_task": "WEB-CE-B16",
+              "public_content_scope": "Luis Sepúlveda bibliography; Chilean author context; Un viejo que leía novelas de amor Madrid Azanca/Ediciones Júcar 1989 edition",
+              "local_asset_status": "remote_only",
+              "persistent_id": "",
+              "canonical_url": "https://www.memoriachilena.gob.cl/602/w3-propertyvalue-128650.html"
+            },
+            {
+              "source_id": "SRC-0262",
+              "temporary_id": "B16-SRC-0262",
+              "title": "La narrativa del chileno Luis Sepúlveda",
+              "original_title": "La narrativa del chileno Luis Sepúlveda",
+              "author_or_editor": "Juan Gabriel Araya G.",
+              "translator": "",
+              "publisher": "Universidad del Bío-Bío / Biblioteca Nacional Digital de Chile",
+              "publication_year": "",
+              "isbn": "",
+              "format": "web_page",
+              "page_count": "",
+              "language": "es",
+              "source_level": "A",
+              "processing_status": "access_pass",
+              "source_task": "WEB-CE-B16",
+              "public_content_scope": "Sepúlveda 1949; Un viejo que leía novelas de amor cited in a 1993 Tusquets initial-books list; Mundo del fin del mundo 1994; Historia de una gaviota y del gato que le enseñó a volar 1996; novel/travel narrative and children's-novel distinctions",
+              "local_asset_status": "remote_only",
+              "persistent_id": "",
+              "canonical_url": "https://www.bibliotecanacionaldigital.gob.cl/colecciones/BND/00/RC/RC0049657.pdf"
+            },
+            {
+              "source_id": "SRC-0278",
+              "temporary_id": "SOL-B16-B17-SRC-02",
+              "title": "智利作家路易斯·塞普尔维达因新冠肺炎去世",
+              "original_title": "智利作家路易斯·塞普尔维达因新冠肺炎去世",
+              "author_or_editor": "中国作家网",
+              "translator": "",
+              "publisher": "中国作家协会",
+              "publication_year": "2020",
+              "isbn": "",
+              "format": "web_page",
+              "page_count": "",
+              "language": "zh",
+              "source_level": "C",
+              "processing_status": "access_pass",
+              "source_task": "SOL-AUDIT-REMEDIATION-B16-B17",
+              "public_content_scope": "Chinese display-name support for 路易斯·塞普尔维达, 《读爱情故事的老人》 and 《教海鸥飞翔的猫》; also supports death in 2020",
+              "local_asset_status": "remote_only",
+              "persistent_id": "",
+              "canonical_url": "https://www.chinawriter.com.cn/n1/2020/0416/c404090-31676734.html"
+            }
+          ],
+          "flags": [
+            "object_description_fact_missing"
+          ]
+        },
+        {
+          "entity": {
+            "entity_id": "V1-ENT-0348",
+            "entity_type": "work",
+            "name_zh": "《教海鸥飞翔的猫》",
+            "original_name": "Historia de una gaviota y del gato que le enseñó a volar",
+            "canonical_status": "candidate",
+            "origin_count": "1",
+            "origin_refs": "CAND-B16-SEPULVEDA-W02",
+            "normalization_basis": "Published Chinese title supported by China Writers Net; original title retained.",
+            "issue_codes": "NONE"
+          },
+          "facts": [
+            {
+              "fact_id": "V1-FCT-0932",
+              "origin_material_id": "WEB-CE-B16",
+              "card_id": "V1-CARD-0234",
+              "subject_id": "V1-ENT-0348",
+              "fact_field": "entity_layer",
+              "value_text": "work",
+              "material_class": "metadata",
+              "origin_id": "SRC-0262",
+              "confidence": "high",
+              "admission_status": "candidate_for_staging_review",
+              "usage_note": "Entity layer is recorded as work."
+            },
+            {
+              "fact_id": "V1-FCT-0933",
+              "origin_material_id": "WEB-CE-B16",
+              "card_id": "V1-CARD-0234",
+              "subject_id": "V1-ENT-0348",
+              "fact_field": "first_publication_year",
+              "value_text": "1996",
+              "material_class": "bibliographic",
+              "origin_id": "SRC-0262",
+              "confidence": "high",
+              "admission_status": "candidate_for_staging_review",
+              "usage_note": "Cited source dates the title to 1996."
+            },
+            {
+              "fact_id": "V1-FCT-0934",
+              "origin_material_id": "WEB-CE-B16",
+              "card_id": "V1-CARD-0234",
+              "subject_id": "V1-ENT-0348",
+              "fact_field": "genre_or_form",
+              "value_text": "儿童小说",
+              "material_class": "bibliographic",
+              "origin_id": "SRC-0262",
+              "confidence": "high",
+              "admission_status": "candidate_for_staging_review",
+              "usage_note": "Cited source supports the conservative form label 儿童小说."
+            }
+          ],
+          "cards": [
+            {
+              "card_id": "V1-CARD-0234",
+              "origin_card_id": "",
+              "subject_id": "V1-ENT-0348",
+              "card_type": "work",
+              "title_zh": "《教海鸥飞翔的猫》",
+              "author_label": "路易斯·塞普尔维达",
+              "original_title": "Historia de una gaviota y del gato que le enseñó a volar",
+              "country_or_region": "智利",
+              "language": "es",
+              "period_bucket": "1996",
+              "genre_or_form": "儿童小说",
+              "input_layer": "WEB-CE-B16",
+              "source_minimum_status": "meets",
+              "issue_code": "NONE",
+              "content_markdown": "### 《教海鸥飞翔的猫》｜Historia de una gaviota y del gato que le enseñó a volar — source-backed 儿童小说 entry; original title retained."
+            }
+          ],
+          "relations": [
+            {
+              "relationship_id": "V1-REL-0273",
+              "origin_layer": "WEB-CE-B16",
+              "origin_relation_group_id": "V1-REL-0273",
+              "subject_id": "V1-ENT-0344",
+              "relation_type": "CREATED",
+              "object_id": "V1-ENT-0348",
+              "description_zh": "路易斯·塞普尔维达创作《教海鸥飞翔的猫》（Historia de una gaviota y del gato que le enseñó a volar）",
+              "confidence": "high",
+              "review_status": "accepted",
+              "upstream_review_status": "WEB-CE-B16",
+              "evidence_count": "1",
+              "issue_code": "NONE"
+            }
+          ],
+          "fact_sources": [
+            {
+              "fact_id": "V1-FCT-0932",
+              "source_id": "SRC-0262",
+              "source_title": "La narrativa del chileno Luis Sepúlveda"
+            },
+            {
+              "fact_id": "V1-FCT-0933",
+              "source_id": "SRC-0262",
+              "source_title": "La narrativa del chileno Luis Sepúlveda"
+            },
+            {
+              "fact_id": "V1-FCT-0934",
+              "source_id": "SRC-0262",
+              "source_title": "La narrativa del chileno Luis Sepúlveda"
+            }
+          ],
+          "card_sources": [
+            {
+              "card_source_id": "V1-CS-0464",
+              "origin_matrix_id": "",
+              "card_id": "V1-CARD-0234",
+              "source_id": "SRC-0262",
+              "source_level": "A",
+              "source_role": "both",
+              "bibliographic_support": "yes",
+              "research_support": "yes",
+              "independent_source_key": "SRC-0262",
+              "usage_status": "used",
+              "issue_code": "NONE"
+            },
+            {
+              "card_source_id": "V1-CS-0501",
+              "origin_matrix_id": "SOL-AUDIT-B16-B17",
+              "card_id": "V1-CARD-0234",
+              "source_id": "SRC-0278",
+              "source_level": "C",
+              "source_role": "display",
+              "bibliographic_support": "yes",
+              "research_support": "no",
+              "independent_source_key": "SRC-0278",
+              "usage_status": "used",
+              "issue_code": "NONE"
+            }
+          ],
+          "relationship_sources": [
+            {
+              "relationship_id": "V1-REL-0273",
+              "source_id": "SRC-0262"
+            }
+          ],
+          "relationship_evidence": [
+            {
+              "evidence_id": "V1-EV-0298",
+              "relationship_id": "V1-REL-0273",
+              "origin_evidence_id": "V1-REL-0273",
+              "source_id": "SRC-0262",
+              "source_title": "La narrativa del chileno Luis Sepúlveda",
+              "locator": "",
+              "evidence_note": "La narrativa del chileno Luis Sepúlveda directly links the author and cited work/place relation.",
+              "confidence": "high",
+              "evidence_status": "eligible_evidence",
+              "evidence_origin": "WEB-CE-B16"
+            }
+          ],
+          "source_objects": [
+            {
+              "source_id": "SRC-0262",
+              "temporary_id": "B16-SRC-0262",
+              "title": "La narrativa del chileno Luis Sepúlveda",
+              "original_title": "La narrativa del chileno Luis Sepúlveda",
+              "author_or_editor": "Juan Gabriel Araya G.",
+              "translator": "",
+              "publisher": "Universidad del Bío-Bío / Biblioteca Nacional Digital de Chile",
+              "publication_year": "",
+              "isbn": "",
+              "format": "web_page",
+              "page_count": "",
+              "language": "es",
+              "source_level": "A",
+              "processing_status": "access_pass",
+              "source_task": "WEB-CE-B16",
+              "public_content_scope": "Sepúlveda 1949; Un viejo que leía novelas de amor cited in a 1993 Tusquets initial-books list; Mundo del fin del mundo 1994; Historia de una gaviota y del gato que le enseñó a volar 1996; novel/travel narrative and children's-novel distinctions",
+              "local_asset_status": "remote_only",
+              "persistent_id": "",
+              "canonical_url": "https://www.bibliotecanacionaldigital.gob.cl/colecciones/BND/00/RC/RC0049657.pdf"
+            },
+            {
+              "source_id": "SRC-0278",
+              "temporary_id": "SOL-B16-B17-SRC-02",
+              "title": "智利作家路易斯·塞普尔维达因新冠肺炎去世",
+              "original_title": "智利作家路易斯·塞普尔维达因新冠肺炎去世",
+              "author_or_editor": "中国作家网",
+              "translator": "",
+              "publisher": "中国作家协会",
+              "publication_year": "2020",
+              "isbn": "",
+              "format": "web_page",
+              "page_count": "",
+              "language": "zh",
+              "source_level": "C",
+              "processing_status": "access_pass",
+              "source_task": "SOL-AUDIT-REMEDIATION-B16-B17",
+              "public_content_scope": "Chinese display-name support for 路易斯·塞普尔维达, 《读爱情故事的老人》 and 《教海鸥飞翔的猫》; also supports death in 2020",
+              "local_asset_status": "remote_only",
+              "persistent_id": "",
+              "canonical_url": "https://www.chinawriter.com.cn/n1/2020/0416/c404090-31676734.html"
+            }
+          ],
+          "flags": [
+            "object_description_fact_missing"
+          ]
+        },
+        {
+          "entity": {
+            "entity_id": "V1-ENT-0349",
+            "entity_type": "work",
+            "name_zh": "《世界尽头的世界》",
+            "original_name": "Mundo del fin del mundo",
+            "canonical_status": "candidate",
+            "origin_count": "1",
+            "origin_refs": "CAND-B16-SEPULVEDA-W03",
+            "normalization_basis": "Published Chinese title supported by a university library catalogue; original title retained.",
+            "issue_codes": "NONE"
+          },
+          "facts": [
+            {
+              "fact_id": "V1-FCT-0935",
+              "origin_material_id": "WEB-CE-B16",
+              "card_id": "V1-CARD-0235",
+              "subject_id": "V1-ENT-0349",
+              "fact_field": "entity_layer",
+              "value_text": "work",
+              "material_class": "metadata",
+              "origin_id": "SRC-0262",
+              "confidence": "high",
+              "admission_status": "candidate_for_staging_review",
+              "usage_note": "Entity layer is recorded as work."
+            },
+            {
+              "fact_id": "V1-FCT-0936",
+              "origin_material_id": "WEB-CE-B16",
+              "card_id": "V1-CARD-0235",
+              "subject_id": "V1-ENT-0349",
+              "fact_field": "first_publication_year",
+              "value_text": "1994",
+              "material_class": "bibliographic",
+              "origin_id": "SRC-0262",
+              "confidence": "high",
+              "admission_status": "candidate_for_staging_review",
+              "usage_note": "Cited source dates the title to 1994."
+            },
+            {
+              "fact_id": "V1-FCT-0937",
+              "origin_material_id": "WEB-CE-B16",
+              "card_id": "V1-CARD-0235",
+              "subject_id": "V1-ENT-0349",
+              "fact_field": "genre_or_form",
+              "value_text": "旅行叙事",
+              "material_class": "bibliographic",
+              "origin_id": "SRC-0262",
+              "confidence": "high",
+              "admission_status": "candidate_for_staging_review",
+              "usage_note": "Cited source supports the conservative form label 旅行叙事."
+            }
+          ],
+          "cards": [
+            {
+              "card_id": "V1-CARD-0235",
+              "origin_card_id": "",
+              "subject_id": "V1-ENT-0349",
+              "card_type": "work",
+              "title_zh": "《世界尽头的世界》",
+              "author_label": "路易斯·塞普尔维达",
+              "original_title": "Mundo del fin del mundo",
+              "country_or_region": "智利",
+              "language": "es",
+              "period_bucket": "1994",
+              "genre_or_form": "旅行叙事",
+              "input_layer": "WEB-CE-B16",
+              "source_minimum_status": "meets",
+              "issue_code": "NONE",
+              "content_markdown": "### 《世界尽头的世界》｜Mundo del fin del mundo — source-backed 旅行叙事 entry; original title retained."
+            }
+          ],
+          "relations": [
+            {
+              "relationship_id": "V1-REL-0274",
+              "origin_layer": "WEB-CE-B16",
+              "origin_relation_group_id": "V1-REL-0274",
+              "subject_id": "V1-ENT-0344",
+              "relation_type": "CREATED",
+              "object_id": "V1-ENT-0349",
+              "description_zh": "路易斯·塞普尔维达创作《世界尽头的世界》（Mundo del fin del mundo）",
+              "confidence": "high",
+              "review_status": "accepted",
+              "upstream_review_status": "WEB-CE-B16",
+              "evidence_count": "1",
+              "issue_code": "NONE"
+            }
+          ],
+          "fact_sources": [
+            {
+              "fact_id": "V1-FCT-0935",
+              "source_id": "SRC-0262",
+              "source_title": "La narrativa del chileno Luis Sepúlveda"
+            },
+            {
+              "fact_id": "V1-FCT-0936",
+              "source_id": "SRC-0262",
+              "source_title": "La narrativa del chileno Luis Sepúlveda"
+            },
+            {
+              "fact_id": "V1-FCT-0937",
+              "source_id": "SRC-0262",
+              "source_title": "La narrativa del chileno Luis Sepúlveda"
+            }
+          ],
+          "card_sources": [
+            {
+              "card_source_id": "V1-CS-0465",
+              "origin_matrix_id": "",
+              "card_id": "V1-CARD-0235",
+              "source_id": "SRC-0262",
+              "source_level": "A",
+              "source_role": "both",
+              "bibliographic_support": "yes",
+              "research_support": "yes",
+              "independent_source_key": "SRC-0262",
+              "usage_status": "used",
+              "issue_code": "NONE"
+            },
+            {
+              "card_source_id": "V1-CS-0502",
+              "origin_matrix_id": "SOL-AUDIT-B16-B17",
+              "card_id": "V1-CARD-0235",
+              "source_id": "SRC-0279",
+              "source_level": "B",
+              "source_role": "display",
+              "bibliographic_support": "yes",
+              "research_support": "no",
+              "independent_source_key": "SRC-0279",
+              "usage_status": "used",
+              "issue_code": "NONE"
+            }
+          ],
+          "relationship_sources": [
+            {
+              "relationship_id": "V1-REL-0274",
+              "source_id": "SRC-0262"
+            }
+          ],
+          "relationship_evidence": [
+            {
+              "evidence_id": "V1-EV-0299",
+              "relationship_id": "V1-REL-0274",
+              "origin_evidence_id": "V1-REL-0274",
+              "source_id": "SRC-0262",
+              "source_title": "La narrativa del chileno Luis Sepúlveda",
+              "locator": "",
+              "evidence_note": "La narrativa del chileno Luis Sepúlveda directly links the author and cited work/place relation.",
+              "confidence": "high",
+              "evidence_status": "eligible_evidence",
+              "evidence_origin": "WEB-CE-B16"
+            }
+          ],
+          "source_objects": [
+            {
+              "source_id": "SRC-0262",
+              "temporary_id": "B16-SRC-0262",
+              "title": "La narrativa del chileno Luis Sepúlveda",
+              "original_title": "La narrativa del chileno Luis Sepúlveda",
+              "author_or_editor": "Juan Gabriel Araya G.",
+              "translator": "",
+              "publisher": "Universidad del Bío-Bío / Biblioteca Nacional Digital de Chile",
+              "publication_year": "",
+              "isbn": "",
+              "format": "web_page",
+              "page_count": "",
+              "language": "es",
+              "source_level": "A",
+              "processing_status": "access_pass",
+              "source_task": "WEB-CE-B16",
+              "public_content_scope": "Sepúlveda 1949; Un viejo que leía novelas de amor cited in a 1993 Tusquets initial-books list; Mundo del fin del mundo 1994; Historia de una gaviota y del gato que le enseñó a volar 1996; novel/travel narrative and children's-novel distinctions",
+              "local_asset_status": "remote_only",
+              "persistent_id": "",
+              "canonical_url": "https://www.bibliotecanacionaldigital.gob.cl/colecciones/BND/00/RC/RC0049657.pdf"
+            },
+            {
+              "source_id": "SRC-0279",
+              "temporary_id": "SOL-B16-B17-SRC-03",
+              "title": "湖南大学图书馆书目检索：Mundo del fin del mundo",
+              "original_title": "湖南大学图书馆书目检索：Mundo del fin del mundo",
+              "author_or_editor": "湖南大学图书馆",
+              "translator": "",
+              "publisher": "湖南大学图书馆",
+              "publication_year": "",
+              "isbn": "",
+              "format": "catalog_record",
+              "page_count": "",
+              "language": "zh",
+              "source_level": "B",
+              "processing_status": "access_pass",
+              "source_task": "SOL-AUDIT-REMEDIATION-B16-B17",
+              "public_content_scope": "Library-catalogue support for the published Chinese display title 《世界尽头的世界》",
+              "local_asset_status": "remote_only",
+              "persistent_id": "",
+              "canonical_url": "https://opac.hnu.edu.cn/opac/search?f_subject=%E7%8E%B0%E4%BB%A3&isFacet=true&logical0=AND&q=Mundo&rows=10&searchType=standard&searchWay0=marc&sortOrder=desc&sortWay=score&view=standard"
+            }
+          ],
+          "flags": [
+            "object_description_fact_missing"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "fact_id": "V1-FCT-0926",
+          "origin_material_id": "WEB-CE-B16",
+          "card_id": "V1-CARD-0232",
+          "subject_id": "V1-ENT-0344",
+          "fact_field": "birth_year",
+          "value_text": "1949",
+          "material_class": "fact",
+          "origin_id": "SRC-0262",
+          "confidence": "high",
+          "admission_status": "candidate_for_staging_review",
+          "usage_note": "Official source identifies Luis Sepúlveda birth year."
+        },
+        {
+          "fact_id": "V1-FCT-0927",
+          "origin_material_id": "WEB-CE-B16",
+          "card_id": "V1-CARD-0232",
+          "subject_id": "V1-ENT-0344",
+          "fact_field": "career_note",
+          "value_text": "小说家、记者与旅行作家",
+          "material_class": "fact",
+          "origin_id": "SRC-0262",
+          "confidence": "high",
+          "admission_status": "candidate_for_staging_review",
+          "usage_note": "Source-backed career description for Luis Sepúlveda."
+        },
+        {
+          "fact_id": "V1-FCT-0928",
+          "origin_material_id": "WEB-CE-B16",
+          "card_id": "V1-CARD-0232",
+          "subject_id": "V1-ENT-0344",
+          "fact_field": "literary_identity",
+          "value_text": "智利小说家与旅行写作者",
+          "material_class": "fact",
+          "origin_id": "SRC-0262",
+          "confidence": "high",
+          "admission_status": "candidate_for_staging_review",
+          "usage_note": "Conservative literary identity derived from the cited author/chronology source."
+        },
+        {
+          "fact_id": "V1-FCT-1004",
+          "origin_material_id": "SOL-AUDIT-REMEDIATION-B16-B17",
+          "card_id": "V1-CARD-0232",
+          "subject_id": "V1-ENT-0344",
+          "fact_field": "death_year",
+          "value_text": "2020",
+          "material_class": "fact",
+          "origin_id": "SRC-0278",
+          "confidence": "high",
+          "admission_status": "candidate_for_staging_review",
+          "usage_note": "China Writers Net obituary records Luis Sepúlveda's death in 2020."
+        }
+      ],
+      "relations": [
+        {
+          "relationship_id": "V1-REL-0272",
+          "origin_layer": "WEB-CE-B16",
+          "origin_relation_group_id": "V1-REL-0272",
+          "subject_id": "V1-ENT-0344",
+          "relation_type": "CREATED",
+          "object_id": "V1-ENT-0347",
+          "description_zh": "路易斯·塞普尔维达创作《读爱情故事的老人》（Un viejo que leía novelas de amor）",
+          "confidence": "high",
+          "review_status": "accepted",
+          "upstream_review_status": "WEB-CE-B16",
+          "evidence_count": "1",
+          "issue_code": "NONE"
+        },
+        {
+          "relationship_id": "V1-REL-0273",
+          "origin_layer": "WEB-CE-B16",
+          "origin_relation_group_id": "V1-REL-0273",
+          "subject_id": "V1-ENT-0344",
+          "relation_type": "CREATED",
+          "object_id": "V1-ENT-0348",
+          "description_zh": "路易斯·塞普尔维达创作《教海鸥飞翔的猫》（Historia de una gaviota y del gato que le enseñó a volar）",
+          "confidence": "high",
+          "review_status": "accepted",
+          "upstream_review_status": "WEB-CE-B16",
+          "evidence_count": "1",
+          "issue_code": "NONE"
+        },
+        {
+          "relationship_id": "V1-REL-0274",
+          "origin_layer": "WEB-CE-B16",
+          "origin_relation_group_id": "V1-REL-0274",
+          "subject_id": "V1-ENT-0344",
+          "relation_type": "CREATED",
+          "object_id": "V1-ENT-0349",
+          "description_zh": "路易斯·塞普尔维达创作《世界尽头的世界》（Mundo del fin del mundo）",
+          "confidence": "high",
+          "review_status": "accepted",
+          "upstream_review_status": "WEB-CE-B16",
+          "evidence_count": "1",
+          "issue_code": "NONE"
+        },
+        {
+          "relationship_id": "V1-REL-0281",
+          "origin_layer": "WEB-CE-B16",
+          "origin_relation_group_id": "V1-REL-0281",
+          "subject_id": "V1-ENT-0344",
+          "relation_type": "ASSOCIATED_WITH_PLACE",
+          "object_id": "V1-ENT-0123",
+          "description_zh": "路易斯·塞普尔维达与智利关联",
+          "confidence": "high",
+          "review_status": "accepted",
+          "upstream_review_status": "WEB-CE-B16",
+          "evidence_count": "1",
+          "issue_code": "NONE"
+        }
+      ],
+      "holds": [],
+      "gaps": [
+        {
+          "gap_id": "V1-GAP-0023",
+          "origin_gap_id": "B16-GAP-01-0347",
+          "gap_type": "bibliographic_dispute",
+          "gap_key": "V1-ENT-0347.first_publication_year",
+          "current_status": "verified",
+          "evidence_basis": "SRC-0261/BNE and Memoria Chilena identify a Madrid Júcar 1989 edition; SRC-0262 identifies a later 1993 Tusquets edition. The records describe distinct editions and do not conflict.",
+          "attempts_or_count": "2",
+          "owner_decision": "CODEX-SOL-AUDIT",
+          "downstream_effect": "Use first_book_edition_year=1989; retain 1993 only as later-edition context.",
+          "issue_code": "NONE"
+        }
+      ],
+      "curation_statuses": {
+        "user_review": 9
+      },
+      "inventory_status": "MECHANICAL_ONLY_NOT_LITERARY_COVERAGE_REVIEW"
+    },
+    "V1-ENT-0345": {
+      "batch_id": "WCD-10-B19",
+      "task_id": "TASK-124",
+      "author": {
+        "entity_id": "V1-ENT-0345",
+        "entity_type": "author",
+        "name_zh": "瓜达卢佩·内特尔",
+        "original_name": "Guadalupe Nettel",
+        "canonical_status": "candidate",
+        "origin_count": "1",
+        "origin_refs": "CAND-B16-NETTEL-AUTHOR",
+        "normalization_basis": "Editorial Anagrama author page identifies the Mexican author and her novel/story bibliography; Chinese labels remain provisional",
+        "issue_codes": "NONE"
+      },
+      "works": [
+        {
+          "entity": {
+            "entity_id": "V1-ENT-0350",
+            "entity_type": "work",
+            "name_zh": "《独生女儿》",
+            "original_name": "La hija única",
+            "canonical_status": "candidate",
+            "origin_count": "1",
+            "origin_refs": "CAND-B16-NETTEL-W01",
+            "normalization_basis": "Anagrama catalogue identifies the title as a novel and dates its publication to 16 September 2020",
+            "issue_codes": "NONE"
+          },
+          "facts": [
+            {
+              "fact_id": "V1-FCT-0941",
+              "origin_material_id": "WEB-CE-B16",
+              "card_id": "V1-CARD-0237",
+              "subject_id": "V1-ENT-0350",
+              "fact_field": "entity_layer",
+              "value_text": "work",
+              "material_class": "metadata",
+              "origin_id": "SRC-0264",
+              "confidence": "high",
+              "admission_status": "candidate_for_staging_review",
+              "usage_note": "Entity layer is recorded as work."
+            },
+            {
+              "fact_id": "V1-FCT-0942",
+              "origin_material_id": "WEB-CE-B16",
+              "card_id": "V1-CARD-0237",
+              "subject_id": "V1-ENT-0350",
+              "fact_field": "first_publication_year",
+              "value_text": "2020",
+              "material_class": "bibliographic",
+              "origin_id": "SRC-0264",
+              "confidence": "high",
+              "admission_status": "candidate_for_staging_review",
+              "usage_note": "Cited source dates the title to 2020."
+            },
+            {
+              "fact_id": "V1-FCT-0943",
+              "origin_material_id": "WEB-CE-B16",
+              "card_id": "V1-CARD-0237",
+              "subject_id": "V1-ENT-0350",
+              "fact_field": "genre_or_form",
+              "value_text": "小说",
+              "material_class": "bibliographic",
+              "origin_id": "SRC-0264",
+              "confidence": "high",
+              "admission_status": "candidate_for_staging_review",
+              "usage_note": "Cited source supports the conservative form label 小说."
+            }
+          ],
+          "cards": [
+            {
+              "card_id": "V1-CARD-0237",
+              "origin_card_id": "",
+              "subject_id": "V1-ENT-0350",
+              "card_type": "work",
+              "title_zh": "《独生女儿》",
+              "author_label": "瓜达卢佩·内特尔",
+              "original_title": "La hija única",
+              "country_or_region": "墨西哥",
+              "language": "es",
+              "period_bucket": "2020",
+              "genre_or_form": "小说",
+              "input_layer": "WEB-CE-B16",
+              "source_minimum_status": "meets",
+              "issue_code": "NONE",
+              "content_markdown": "### 《独生女儿》｜La hija única — source-backed 小说 entry; original title retained."
+            }
+          ],
+          "relations": [
+            {
+              "relationship_id": "V1-REL-0275",
+              "origin_layer": "WEB-CE-B16",
+              "origin_relation_group_id": "V1-REL-0275",
+              "subject_id": "V1-ENT-0345",
+              "relation_type": "CREATED",
+              "object_id": "V1-ENT-0350",
+              "description_zh": "瓜达卢佩·内特尔创作《独生女儿》（La hija única）",
+              "confidence": "high",
+              "review_status": "accepted",
+              "upstream_review_status": "WEB-CE-B16",
+              "evidence_count": "1",
+              "issue_code": "NONE"
+            }
+          ],
+          "fact_sources": [
+            {
+              "fact_id": "V1-FCT-0941",
+              "source_id": "SRC-0264",
+              "source_title": "La hija única"
+            },
+            {
+              "fact_id": "V1-FCT-0942",
+              "source_id": "SRC-0264",
+              "source_title": "La hija única"
+            },
+            {
+              "fact_id": "V1-FCT-0943",
+              "source_id": "SRC-0264",
+              "source_title": "La hija única"
+            }
+          ],
+          "card_sources": [
+            {
+              "card_source_id": "V1-CS-0467",
+              "origin_matrix_id": "",
+              "card_id": "V1-CARD-0237",
+              "source_id": "SRC-0264",
+              "source_level": "B",
+              "source_role": "both",
+              "bibliographic_support": "yes",
+              "research_support": "yes",
+              "independent_source_key": "SRC-0264",
+              "usage_status": "used",
+              "issue_code": "NONE"
+            },
+            {
+              "card_source_id": "V1-CS-0503",
+              "origin_matrix_id": "SOL-AUDIT-B16-B17",
+              "card_id": "V1-CARD-0237",
+              "source_id": "SRC-0280",
+              "source_level": "C",
+              "source_role": "display",
+              "bibliographic_support": "yes",
+              "research_support": "no",
+              "independent_source_key": "SRC-0280",
+              "usage_status": "used",
+              "issue_code": "NONE"
+            }
+          ],
+          "relationship_sources": [
+            {
+              "relationship_id": "V1-REL-0275",
+              "source_id": "SRC-0264"
+            }
+          ],
+          "relationship_evidence": [
+            {
+              "evidence_id": "V1-EV-0300",
+              "relationship_id": "V1-REL-0275",
+              "origin_evidence_id": "V1-REL-0275",
+              "source_id": "SRC-0264",
+              "source_title": "La hija única",
+              "locator": "",
+              "evidence_note": "La hija única directly links the author and cited work/place relation.",
+              "confidence": "high",
+              "evidence_status": "eligible_evidence",
+              "evidence_origin": "WEB-CE-B16"
+            }
+          ],
+          "source_objects": [
+            {
+              "source_id": "SRC-0264",
+              "temporary_id": "B16-SRC-0264",
+              "title": "La hija única",
+              "original_title": "La hija única",
+              "author_or_editor": "Editorial Anagrama",
+              "translator": "",
+              "publisher": "Editorial Anagrama",
+              "publication_year": "",
+              "isbn": "",
+              "format": "web_page",
+              "page_count": "",
+              "language": "es",
+              "source_level": "B",
+              "processing_status": "access_pass",
+              "source_task": "WEB-CE-B16",
+              "public_content_scope": "La hija única title, Guadalupe Nettel attribution, novel form and 16 September 2020 publication",
+              "local_asset_status": "remote_only",
+              "persistent_id": "",
+              "canonical_url": "https://www.anagrama-ed.es/libro/narrativas-hispanicas/la-hija-unica/9788433999061/NH_652"
+            },
+            {
+              "source_id": "SRC-0280",
+              "temporary_id": "SOL-B16-B17-SRC-04",
+              "title": "瓜达卢佩·内特尔作品（三册）",
+              "original_title": "瓜达卢佩·内特尔作品（三册）",
+              "author_or_editor": "新华文轩网络书店",
+              "translator": "",
+              "publisher": "广西师范大学出版社",
+              "publication_year": "2025",
+              "isbn": "",
+              "format": "catalog_record",
+              "page_count": "",
+              "language": "zh",
+              "source_level": "C",
+              "processing_status": "access_pass",
+              "source_task": "SOL-AUDIT-REMEDIATION-B16-B17",
+              "public_content_scope": "Published Chinese-title support for 《独生女儿》《真正的孤独》《红鱼之姻》; display/bibliographic use only",
+              "local_asset_status": "remote_only",
+              "persistent_id": "",
+              "canonical_url": "https://www.96192.com/product/detail/1177695"
+            }
+          ],
+          "flags": [
+            "object_description_fact_missing"
+          ]
+        },
+        {
+          "entity": {
+            "entity_id": "V1-ENT-0351",
+            "entity_type": "collection",
+            "name_zh": "《红鱼之姻》",
+            "original_name": "El matrimonio de los peces rojos",
+            "canonical_status": "candidate",
+            "origin_count": "1",
+            "origin_refs": "CAND-B16-NETTEL-W02",
+            "normalization_basis": "Páginas de Espuma catalogue dates the book to May 2013 and describes five narrations",
+            "issue_codes": "NONE"
+          },
+          "facts": [
+            {
+              "fact_id": "V1-FCT-0944",
+              "origin_material_id": "WEB-CE-B16",
+              "card_id": "V1-CARD-0238",
+              "subject_id": "V1-ENT-0351",
+              "fact_field": "entity_layer",
+              "value_text": "collection",
+              "material_class": "metadata",
+              "origin_id": "SRC-0265",
+              "confidence": "high",
+              "admission_status": "candidate_for_staging_review",
+              "usage_note": "Entity layer is recorded as collection."
+            },
+            {
+              "fact_id": "V1-FCT-0945",
+              "origin_material_id": "WEB-CE-B16",
+              "card_id": "V1-CARD-0238",
+              "subject_id": "V1-ENT-0351",
+              "fact_field": "first_publication_year",
+              "value_text": "2013",
+              "material_class": "bibliographic",
+              "origin_id": "SRC-0265",
+              "confidence": "high",
+              "admission_status": "candidate_for_staging_review",
+              "usage_note": "Cited source dates the title to 2013."
+            },
+            {
+              "fact_id": "V1-FCT-0946",
+              "origin_material_id": "WEB-CE-B16",
+              "card_id": "V1-CARD-0238",
+              "subject_id": "V1-ENT-0351",
+              "fact_field": "genre_or_form",
+              "value_text": "短篇小说集",
+              "material_class": "bibliographic",
+              "origin_id": "SRC-0265",
+              "confidence": "high",
+              "admission_status": "candidate_for_staging_review",
+              "usage_note": "Cited source supports the conservative form label 短篇小说集."
+            }
+          ],
+          "cards": [
+            {
+              "card_id": "V1-CARD-0238",
+              "origin_card_id": "",
+              "subject_id": "V1-ENT-0351",
+              "card_type": "collection",
+              "title_zh": "《红鱼之姻》",
+              "author_label": "瓜达卢佩·内特尔",
+              "original_title": "El matrimonio de los peces rojos",
+              "country_or_region": "墨西哥",
+              "language": "es",
+              "period_bucket": "2013",
+              "genre_or_form": "短篇小说集",
+              "input_layer": "WEB-CE-B16",
+              "source_minimum_status": "meets",
+              "issue_code": "NONE",
+              "content_markdown": "### 《红鱼之姻》｜El matrimonio de los peces rojos — source-backed 短篇小说集 entry; original title retained."
+            }
+          ],
+          "relations": [
+            {
+              "relationship_id": "V1-REL-0276",
+              "origin_layer": "WEB-CE-B16",
+              "origin_relation_group_id": "V1-REL-0276",
+              "subject_id": "V1-ENT-0345",
+              "relation_type": "CREATED",
+              "object_id": "V1-ENT-0351",
+              "description_zh": "瓜达卢佩·内特尔创作《红鱼之姻》（El matrimonio de los peces rojos）",
+              "confidence": "high",
+              "review_status": "accepted",
+              "upstream_review_status": "WEB-CE-B16",
+              "evidence_count": "1",
+              "issue_code": "NONE"
+            }
+          ],
+          "fact_sources": [
+            {
+              "fact_id": "V1-FCT-0944",
+              "source_id": "SRC-0265",
+              "source_title": "El matrimonio de los peces rojos"
+            },
+            {
+              "fact_id": "V1-FCT-0945",
+              "source_id": "SRC-0265",
+              "source_title": "El matrimonio de los peces rojos"
+            },
+            {
+              "fact_id": "V1-FCT-0946",
+              "source_id": "SRC-0265",
+              "source_title": "El matrimonio de los peces rojos"
+            }
+          ],
+          "card_sources": [
+            {
+              "card_source_id": "V1-CS-0468",
+              "origin_matrix_id": "",
+              "card_id": "V1-CARD-0238",
+              "source_id": "SRC-0265",
+              "source_level": "B",
+              "source_role": "both",
+              "bibliographic_support": "yes",
+              "research_support": "yes",
+              "independent_source_key": "SRC-0265",
+              "usage_status": "used",
+              "issue_code": "NONE"
+            },
+            {
+              "card_source_id": "V1-CS-0504",
+              "origin_matrix_id": "SOL-AUDIT-B16-B17",
+              "card_id": "V1-CARD-0238",
+              "source_id": "SRC-0280",
+              "source_level": "C",
+              "source_role": "display",
+              "bibliographic_support": "yes",
+              "research_support": "no",
+              "independent_source_key": "SRC-0280",
+              "usage_status": "used",
+              "issue_code": "NONE"
+            }
+          ],
+          "relationship_sources": [
+            {
+              "relationship_id": "V1-REL-0276",
+              "source_id": "SRC-0265"
+            }
+          ],
+          "relationship_evidence": [
+            {
+              "evidence_id": "V1-EV-0301",
+              "relationship_id": "V1-REL-0276",
+              "origin_evidence_id": "V1-REL-0276",
+              "source_id": "SRC-0265",
+              "source_title": "El matrimonio de los peces rojos",
+              "locator": "",
+              "evidence_note": "El matrimonio de los peces rojos directly links the author and cited work/place relation.",
+              "confidence": "high",
+              "evidence_status": "eligible_evidence",
+              "evidence_origin": "WEB-CE-B16"
+            }
+          ],
+          "source_objects": [
+            {
+              "source_id": "SRC-0265",
+              "temporary_id": "B16-SRC-0265",
+              "title": "El matrimonio de los peces rojos",
+              "original_title": "El matrimonio de los peces rojos",
+              "author_or_editor": "Editorial Páginas de Espuma",
+              "translator": "",
+              "publisher": "Páginas de Espuma",
+              "publication_year": "",
+              "isbn": "",
+              "format": "web_page",
+              "page_count": "",
+              "language": "es",
+              "source_level": "B",
+              "processing_status": "access_pass",
+              "source_task": "WEB-CE-B16",
+              "public_content_scope": "El matrimonio de los peces rojos title, Guadalupe Nettel attribution, May 2013 publication and five-narration story-collection description",
+              "local_asset_status": "remote_only",
+              "persistent_id": "",
+              "canonical_url": "https://paginasdeespuma.com/libro/el-matrimonio-de-los-peces-rojos/"
+            },
+            {
+              "source_id": "SRC-0280",
+              "temporary_id": "SOL-B16-B17-SRC-04",
+              "title": "瓜达卢佩·内特尔作品（三册）",
+              "original_title": "瓜达卢佩·内特尔作品（三册）",
+              "author_or_editor": "新华文轩网络书店",
+              "translator": "",
+              "publisher": "广西师范大学出版社",
+              "publication_year": "2025",
+              "isbn": "",
+              "format": "catalog_record",
+              "page_count": "",
+              "language": "zh",
+              "source_level": "C",
+              "processing_status": "access_pass",
+              "source_task": "SOL-AUDIT-REMEDIATION-B16-B17",
+              "public_content_scope": "Published Chinese-title support for 《独生女儿》《真正的孤独》《红鱼之姻》; display/bibliographic use only",
+              "local_asset_status": "remote_only",
+              "persistent_id": "",
+              "canonical_url": "https://www.96192.com/product/detail/1177695"
+            }
+          ],
+          "flags": [
+            "object_description_fact_missing"
+          ]
+        },
+        {
+          "entity": {
+            "entity_id": "V1-ENT-0352",
+            "entity_type": "collection",
+            "name_zh": "《真正的孤独》",
+            "original_name": "Pétalos y otras historias incómodas",
+            "canonical_status": "candidate",
+            "origin_count": "1",
+            "origin_refs": "CAND-B16-NETTEL-W03",
+            "normalization_basis": "Published Chinese title in the 2025 Guangxi Normal University Press three-volume set; original title and 2008 source record retained.",
+            "issue_codes": "NONE"
+          },
+          "facts": [
+            {
+              "fact_id": "V1-FCT-0947",
+              "origin_material_id": "WEB-CE-B16",
+              "card_id": "V1-CARD-0239",
+              "subject_id": "V1-ENT-0352",
+              "fact_field": "entity_layer",
+              "value_text": "collection",
+              "material_class": "metadata",
+              "origin_id": "SRC-0266",
+              "confidence": "high",
+              "admission_status": "candidate_for_staging_review",
+              "usage_note": "Entity layer is recorded as collection."
+            },
+            {
+              "fact_id": "V1-FCT-0948",
+              "origin_material_id": "WEB-CE-B16",
+              "card_id": "V1-CARD-0239",
+              "subject_id": "V1-ENT-0352",
+              "fact_field": "first_publication_year",
+              "value_text": "2008",
+              "material_class": "bibliographic",
+              "origin_id": "SRC-0266",
+              "confidence": "high",
+              "admission_status": "candidate_for_staging_review",
+              "usage_note": "Cited source dates the title to 2008."
+            },
+            {
+              "fact_id": "V1-FCT-0949",
+              "origin_material_id": "WEB-CE-B16",
+              "card_id": "V1-CARD-0239",
+              "subject_id": "V1-ENT-0352",
+              "fact_field": "genre_or_form",
+              "value_text": "短篇小说集",
+              "material_class": "bibliographic",
+              "origin_id": "SRC-0266",
+              "confidence": "high",
+              "admission_status": "candidate_for_staging_review",
+              "usage_note": "Cited source supports the conservative form label 短篇小说集."
+            }
+          ],
+          "cards": [
+            {
+              "card_id": "V1-CARD-0239",
+              "origin_card_id": "",
+              "subject_id": "V1-ENT-0352",
+              "card_type": "collection",
+              "title_zh": "《真正的孤独》",
+              "author_label": "瓜达卢佩·内特尔",
+              "original_title": "Pétalos y otras historias incómodas",
+              "country_or_region": "墨西哥",
+              "language": "es",
+              "period_bucket": "2008",
+              "genre_or_form": "短篇小说集",
+              "input_layer": "WEB-CE-B16",
+              "source_minimum_status": "meets",
+              "issue_code": "NONE",
+              "content_markdown": "### 《真正的孤独》｜Pétalos y otras historias incómodas — source-backed 短篇小说集 entry; original title retained."
+            }
+          ],
+          "relations": [
+            {
+              "relationship_id": "V1-REL-0277",
+              "origin_layer": "WEB-CE-B16",
+              "origin_relation_group_id": "V1-REL-0277",
+              "subject_id": "V1-ENT-0345",
+              "relation_type": "CREATED",
+              "object_id": "V1-ENT-0352",
+              "description_zh": "瓜达卢佩·内特尔创作《真正的孤独》（Pétalos y otras historias incómodas）",
+              "confidence": "high",
+              "review_status": "accepted",
+              "upstream_review_status": "WEB-CE-B16",
+              "evidence_count": "1",
+              "issue_code": "NONE"
+            }
+          ],
+          "fact_sources": [
+            {
+              "fact_id": "V1-FCT-0947",
+              "source_id": "SRC-0266",
+              "source_title": "Petals and other awkward stories"
+            },
+            {
+              "fact_id": "V1-FCT-0948",
+              "source_id": "SRC-0266",
+              "source_title": "Petals and other awkward stories"
+            },
+            {
+              "fact_id": "V1-FCT-0949",
+              "source_id": "SRC-0266",
+              "source_title": "Petals and other awkward stories"
+            }
+          ],
+          "card_sources": [
+            {
+              "card_source_id": "V1-CS-0469",
+              "origin_matrix_id": "",
+              "card_id": "V1-CARD-0239",
+              "source_id": "SRC-0266",
+              "source_level": "B",
+              "source_role": "both",
+              "bibliographic_support": "yes",
+              "research_support": "yes",
+              "independent_source_key": "SRC-0266",
+              "usage_status": "used",
+              "issue_code": "NONE"
+            },
+            {
+              "card_source_id": "V1-CS-0505",
+              "origin_matrix_id": "SOL-AUDIT-B16-B17",
+              "card_id": "V1-CARD-0239",
+              "source_id": "SRC-0280",
+              "source_level": "C",
+              "source_role": "display",
+              "bibliographic_support": "yes",
+              "research_support": "no",
+              "independent_source_key": "SRC-0280",
+              "usage_status": "used",
+              "issue_code": "NONE"
+            }
+          ],
+          "relationship_sources": [
+            {
+              "relationship_id": "V1-REL-0277",
+              "source_id": "SRC-0266"
+            }
+          ],
+          "relationship_evidence": [
+            {
+              "evidence_id": "V1-EV-0302",
+              "relationship_id": "V1-REL-0277",
+              "origin_evidence_id": "V1-REL-0277",
+              "source_id": "SRC-0266",
+              "source_title": "Petals and other awkward stories",
+              "locator": "",
+              "evidence_note": "Petals and other awkward stories directly links the author and cited work/place relation.",
+              "confidence": "high",
+              "evidence_status": "eligible_evidence",
+              "evidence_origin": "WEB-CE-B16"
+            }
+          ],
+          "source_objects": [
+            {
+              "source_id": "SRC-0266",
+              "temporary_id": "B16-SRC-0266",
+              "title": "Petals and other awkward stories",
+              "original_title": "Pétalos y otras historias incómodas",
+              "author_or_editor": "Editorial Anagrama",
+              "translator": "",
+              "publisher": "Editorial Anagrama",
+              "publication_year": "",
+              "isbn": "",
+              "format": "web_page",
+              "page_count": "",
+              "language": "en",
+              "source_level": "B",
+              "processing_status": "access_pass",
+              "source_task": "WEB-CE-B16",
+              "public_content_scope": "Pétalos y otras historias incómodas original title, Guadalupe Nettel attribution, short-story description and 4 February 2008 publication",
+              "local_asset_status": "remote_only",
+              "persistent_id": "",
+              "canonical_url": "https://www.anagrama-ed.es/foreign-rights/book/narrativas-hispanicas/petalos-y-otras-historias-incomodas/9788433971661/NH_428"
+            },
+            {
+              "source_id": "SRC-0280",
+              "temporary_id": "SOL-B16-B17-SRC-04",
+              "title": "瓜达卢佩·内特尔作品（三册）",
+              "original_title": "瓜达卢佩·内特尔作品（三册）",
+              "author_or_editor": "新华文轩网络书店",
+              "translator": "",
+              "publisher": "广西师范大学出版社",
+              "publication_year": "2025",
+              "isbn": "",
+              "format": "catalog_record",
+              "page_count": "",
+              "language": "zh",
+              "source_level": "C",
+              "processing_status": "access_pass",
+              "source_task": "SOL-AUDIT-REMEDIATION-B16-B17",
+              "public_content_scope": "Published Chinese-title support for 《独生女儿》《真正的孤独》《红鱼之姻》; display/bibliographic use only",
+              "local_asset_status": "remote_only",
+              "persistent_id": "",
+              "canonical_url": "https://www.96192.com/product/detail/1177695"
+            }
+          ],
+          "flags": [
+            "object_description_fact_missing"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "fact_id": "V1-FCT-0938",
+          "origin_material_id": "WEB-CE-B16",
+          "card_id": "V1-CARD-0236",
+          "subject_id": "V1-ENT-0345",
+          "fact_field": "birth_year",
+          "value_text": "1973",
+          "material_class": "fact",
+          "origin_id": "SRC-0263",
+          "confidence": "high",
+          "admission_status": "candidate_for_staging_review",
+          "usage_note": "Official source identifies Guadalupe Nettel birth year."
+        },
+        {
+          "fact_id": "V1-FCT-0939",
+          "origin_material_id": "WEB-CE-B16",
+          "card_id": "V1-CARD-0236",
+          "subject_id": "V1-ENT-0345",
+          "fact_field": "career_note",
+          "value_text": "小说家、短篇小说家与散文作者",
+          "material_class": "fact",
+          "origin_id": "SRC-0263",
+          "confidence": "high",
+          "admission_status": "candidate_for_staging_review",
+          "usage_note": "Source-backed career description for Guadalupe Nettel."
+        },
+        {
+          "fact_id": "V1-FCT-0940",
+          "origin_material_id": "WEB-CE-B16",
+          "card_id": "V1-CARD-0236",
+          "subject_id": "V1-ENT-0345",
+          "fact_field": "literary_identity",
+          "value_text": "墨西哥小说家与短篇小说家",
+          "material_class": "fact",
+          "origin_id": "SRC-0263",
+          "confidence": "high",
+          "admission_status": "candidate_for_staging_review",
+          "usage_note": "Conservative literary identity derived from the cited author/chronology source."
+        }
+      ],
+      "relations": [
+        {
+          "relationship_id": "V1-REL-0275",
+          "origin_layer": "WEB-CE-B16",
+          "origin_relation_group_id": "V1-REL-0275",
+          "subject_id": "V1-ENT-0345",
+          "relation_type": "CREATED",
+          "object_id": "V1-ENT-0350",
+          "description_zh": "瓜达卢佩·内特尔创作《独生女儿》（La hija única）",
+          "confidence": "high",
+          "review_status": "accepted",
+          "upstream_review_status": "WEB-CE-B16",
+          "evidence_count": "1",
+          "issue_code": "NONE"
+        },
+        {
+          "relationship_id": "V1-REL-0276",
+          "origin_layer": "WEB-CE-B16",
+          "origin_relation_group_id": "V1-REL-0276",
+          "subject_id": "V1-ENT-0345",
+          "relation_type": "CREATED",
+          "object_id": "V1-ENT-0351",
+          "description_zh": "瓜达卢佩·内特尔创作《红鱼之姻》（El matrimonio de los peces rojos）",
+          "confidence": "high",
+          "review_status": "accepted",
+          "upstream_review_status": "WEB-CE-B16",
+          "evidence_count": "1",
+          "issue_code": "NONE"
+        },
+        {
+          "relationship_id": "V1-REL-0277",
+          "origin_layer": "WEB-CE-B16",
+          "origin_relation_group_id": "V1-REL-0277",
+          "subject_id": "V1-ENT-0345",
+          "relation_type": "CREATED",
+          "object_id": "V1-ENT-0352",
+          "description_zh": "瓜达卢佩·内特尔创作《真正的孤独》（Pétalos y otras historias incómodas）",
+          "confidence": "high",
+          "review_status": "accepted",
+          "upstream_review_status": "WEB-CE-B16",
+          "evidence_count": "1",
+          "issue_code": "NONE"
+        },
+        {
+          "relationship_id": "V1-REL-0282",
+          "origin_layer": "WEB-CE-B16",
+          "origin_relation_group_id": "V1-REL-0282",
+          "subject_id": "V1-ENT-0345",
+          "relation_type": "ASSOCIATED_WITH_PLACE",
+          "object_id": "V1-ENT-0051",
+          "description_zh": "瓜达卢佩·内特尔与墨西哥关联",
+          "confidence": "high",
+          "review_status": "accepted",
+          "upstream_review_status": "WEB-CE-B16",
+          "evidence_count": "1",
+          "issue_code": "NONE"
+        }
+      ],
+      "holds": [],
+      "gaps": [],
+      "curation_statuses": {
+        "user_review": 9
+      },
+      "inventory_status": "MECHANICAL_ONLY_NOT_LITERARY_COVERAGE_REVIEW"
+    }
+  },
+  "objects": [
+    {
+      "object_ref": "V1-ENT-0341",
+      "entity": {
+        "entity_id": "V1-ENT-0341",
+        "entity_type": "work",
+        "name_zh": "《黎明前的塞莱斯蒂诺》",
+        "original_name": "Celestino antes del alba",
+        "canonical_status": "candidate",
+        "origin_count": "1",
+        "origin_refs": "CAND-B15-ARENAS-W01",
+        "normalization_basis": "B15 Cardiff University Press article; work layer",
+        "issue_codes": "NONE"
+      },
+      "bibliography": "冻结B19基线原样快照；不改变既有对象。",
+      "description": "既有事实及Research卡片均逐值快照保全。",
+      "research_status": "catalog_only",
+      "research_refs": [
+        "SRC-0258",
+        "SRC-0259"
+      ],
+      "old_facts": [
+        {
+          "fact": {
+            "fact_id": "V1-FCT-0917",
+            "origin_material_id": "WEB-CE-B15",
+            "card_id": "V1-CARD-0229",
+            "subject_id": "V1-ENT-0341",
+            "fact_field": "entity_layer",
+            "value_text": "work",
+            "material_class": "metadata",
+            "origin_id": "SRC-0259",
+            "confidence": "high",
+            "admission_status": "candidate_for_staging_review",
+            "usage_note": "Cardiff scholarly article identifies Celestino antes del alba as a novel."
+          },
+          "fact_sources": [
+            {
+              "fact_id": "V1-FCT-0917",
+              "source_id": "SRC-0259",
+              "source_title": "Forms of dissidence: ‘Celestino antes del alba’ and ‘El mundo alucinante’ by Reinaldo Arenas"
+            }
+          ]
+        },
+        {
+          "fact": {
+            "fact_id": "V1-FCT-0918",
+            "origin_material_id": "WEB-CE-B15",
+            "card_id": "V1-CARD-0229",
+            "subject_id": "V1-ENT-0341",
+            "fact_field": "first_publication_year",
+            "value_text": "1967",
+            "material_class": "bibliographic",
+            "origin_id": "SRC-0259",
+            "confidence": "high",
+            "admission_status": "candidate_for_staging_review",
+            "usage_note": "Cardiff article dates the first novel to 1967."
+          },
+          "fact_sources": [
+            {
+              "fact_id": "V1-FCT-0918",
+              "source_id": "SRC-0259",
+              "source_title": "Forms of dissidence: ‘Celestino antes del alba’ and ‘El mundo alucinante’ by Reinaldo Arenas"
+            }
+          ]
+        },
+        {
+          "fact": {
+            "fact_id": "V1-FCT-0919",
+            "origin_material_id": "WEB-CE-B15",
+            "card_id": "V1-CARD-0229",
+            "subject_id": "V1-ENT-0341",
+            "fact_field": "genre_or_form",
+            "value_text": "小说",
+            "material_class": "bibliographic",
+            "origin_id": "SRC-0259",
+            "confidence": "high",
+            "admission_status": "candidate_for_staging_review",
+            "usage_note": "Cardiff article explicitly calls it a novel."
+          },
+          "fact_sources": [
+            {
+              "fact_id": "V1-FCT-0919",
+              "source_id": "SRC-0259",
+              "source_title": "Forms of dissidence: ‘Celestino antes del alba’ and ‘El mundo alucinante’ by Reinaldo Arenas"
+            }
+          ]
+        }
+      ],
+      "cards": [
+        {
+          "card_id": "V1-CARD-0229",
+          "origin_card_id": "",
+          "subject_id": "V1-ENT-0341",
+          "card_type": "work",
+          "title_zh": "《黎明前的塞莱斯蒂诺》",
+          "author_label": "雷纳尔多·阿雷纳斯",
+          "original_title": "Celestino antes del alba",
+          "country_or_region": "古巴",
+          "language": "es",
+          "period_bucket": "1967",
+          "genre_or_form": "小说",
+          "input_layer": "WEB-CE-B15",
+          "source_minimum_status": "meets",
+          "issue_code": "NONE",
+          "content_markdown": "### 《黎明前的塞莱斯蒂诺》｜Celestino antes del alba — Cardiff scholarship identifies the 1967 first novel."
+        }
+      ],
+      "card_facts": [
+        {
+          "card_id": "V1-CARD-0229",
+          "fact_id": "V1-FCT-0917",
+          "admission_status": "candidate_for_staging_review"
+        },
+        {
+          "card_id": "V1-CARD-0229",
+          "fact_id": "V1-FCT-0918",
+          "admission_status": "candidate_for_staging_review"
+        },
+        {
+          "card_id": "V1-CARD-0229",
+          "fact_id": "V1-FCT-0919",
+          "admission_status": "candidate_for_staging_review"
+        }
+      ],
+      "card_sources": [
+        {
+          "card_source_id": "V1-CS-0455",
+          "origin_matrix_id": "",
+          "card_id": "V1-CARD-0229",
+          "source_id": "SRC-0258",
+          "source_level": "B",
+          "source_role": "both",
+          "bibliographic_support": "yes",
+          "research_support": "yes",
+          "independent_source_key": "SRC-0258",
+          "usage_status": "used",
+          "issue_code": "NONE"
+        },
+        {
+          "card_source_id": "V1-CS-0456",
+          "origin_matrix_id": "",
+          "card_id": "V1-CARD-0229",
+          "source_id": "SRC-0259",
+          "source_level": "A",
+          "source_role": "both",
+          "bibliographic_support": "yes",
+          "research_support": "yes",
+          "independent_source_key": "SRC-0259",
+          "usage_status": "used",
+          "issue_code": "NONE"
+        }
+      ],
+      "relations": [
+        {
+          "relationship_id": "V1-REL-0266",
+          "origin_layer": "WEB-CE-B15",
+          "origin_relation_group_id": "CAND-B15-0266",
+          "subject_id": "V1-ENT-0334",
+          "relation_type": "CREATED",
+          "object_id": "V1-ENT-0341",
+          "description_zh": "雷纳尔多·阿雷纳斯创作《黎明前的塞莱斯蒂诺》（Celestino antes del alba）",
+          "confidence": "high",
+          "review_status": "accepted",
+          "upstream_review_status": "WEB-CE-B15",
+          "evidence_count": "1",
+          "issue_code": "NONE"
+        }
+      ],
+      "relationship_sources": [
+        {
+          "relationship_id": "V1-REL-0266",
+          "source_id": "SRC-0258"
+        },
+        {
+          "relationship_id": "V1-REL-0266",
+          "source_id": "SRC-0259"
+        }
+      ],
+      "relationship_evidence": [
+        {
+          "evidence_id": "V1-EV-0291",
+          "relationship_id": "V1-REL-0266",
+          "origin_evidence_id": "CAND-B15-0266",
+          "source_id": "SRC-0259",
+          "source_title": "Forms of dissidence: ‘Celestino antes del alba’ and ‘El mundo alucinante’ by Reinaldo Arenas",
+          "locator": "",
+          "evidence_note": "Cardiff scholarly article identifies Celestino antes del alba as an Arenas novel.",
+          "confidence": "high",
+          "evidence_status": "eligible_evidence",
+          "evidence_origin": "WEB-CE-B15"
+        }
+      ],
+      "source_objects": [
+        {
+          "source_id": "SRC-0258",
+          "temporary_id": "B15-SRC-0258",
+          "title": "Arenas, Reinaldo, 1943-1990 / Reinaldo Arenas Papers",
+          "original_title": "Arenas, Reinaldo, 1943-1990",
+          "author_or_editor": "Princeton University Library",
+          "translator": "",
+          "publisher": "Princeton University Library, Manuscripts Division",
+          "publication_year": "",
+          "isbn": "",
+          "format": "web_page",
+          "page_count": "",
+          "language": "en",
+          "source_level": "B",
+          "processing_status": "access_pass",
+          "source_task": "WEB-CE-B15",
+          "public_content_scope": "Finding-aid entry identifies Reinaldo Arenas 1943–1990 and lists manuscripts of novels, short stories, poetry, plays and essays",
+          "local_asset_status": "remote_only",
+          "persistent_id": "",
+          "canonical_url": "https://static-prod.lib.princeton.edu/scsites/aids/msslist/colls1.htm.back"
+        },
+        {
+          "source_id": "SRC-0259",
+          "temporary_id": "B15-SRC-0259",
+          "title": "Forms of dissidence: ‘Celestino antes del alba’ and ‘El mundo alucinante’ by Reinaldo Arenas",
+          "original_title": "Forms of dissidence: Celestino antes del alba and El mundo alucinante by Reinaldo Arenas",
+          "author_or_editor": "Joey Whitfield",
+          "translator": "",
+          "publisher": "Cardiff University Press, New Readings",
+          "publication_year": "",
+          "isbn": "",
+          "format": "web_page",
+          "page_count": "",
+          "language": "en",
+          "source_level": "A",
+          "processing_status": "access_pass",
+          "source_task": "WEB-CE-B15",
+          "public_content_scope": "Scholarly article identifies Celestino antes del alba 1967 and El mundo alucinante 1968 as Arenas’s first two novels",
+          "local_asset_status": "remote_only",
+          "persistent_id": "",
+          "canonical_url": "https://orca.cardiff.ac.uk/id/eprint/120697/"
+        }
+      ],
+      "holds": [],
+      "gaps": [],
+      "fresh_review": {
+        "source_refs": [],
+        "description": "旧对象闭包完全来自冻结B19基线，留待批次独立Reviewer复核。"
+      },
+      "remaining": "仅有既有catalog/institutional commentary来源的限制；不作为学术覆盖完整结论。",
+      "source_author_id": "V1-ENT-0334",
+      "candidate_facts": [],
+      "snapshot_role": "frozen_baseline_snapshot"
+    },
+    {
+      "object_ref": "V1-ENT-0342",
+      "entity": {
+        "entity_id": "V1-ENT-0342",
+        "entity_type": "work",
+        "name_zh": "《幻梦世界》",
+        "original_name": "El mundo alucinante",
+        "canonical_status": "candidate",
+        "origin_count": "1",
+        "origin_refs": "CAND-B15-ARENAS-W02",
+        "normalization_basis": "B15 Cardiff University Press article; work layer",
+        "issue_codes": "NONE"
+      },
+      "bibliography": "冻结B19基线原样快照；不改变既有对象。",
+      "description": "既有事实及Research卡片均逐值快照保全。",
+      "research_status": "catalog_only",
+      "research_refs": [
+        "SRC-0258",
+        "SRC-0259"
+      ],
+      "old_facts": [
+        {
+          "fact": {
+            "fact_id": "V1-FCT-0920",
+            "origin_material_id": "WEB-CE-B15",
+            "card_id": "V1-CARD-0230",
+            "subject_id": "V1-ENT-0342",
+            "fact_field": "entity_layer",
+            "value_text": "work",
+            "material_class": "metadata",
+            "origin_id": "SRC-0259",
+            "confidence": "high",
+            "admission_status": "candidate_for_staging_review",
+            "usage_note": "Cardiff scholarly article identifies El mundo alucinante as a novel."
+          },
+          "fact_sources": [
+            {
+              "fact_id": "V1-FCT-0920",
+              "source_id": "SRC-0259",
+              "source_title": "Forms of dissidence: ‘Celestino antes del alba’ and ‘El mundo alucinante’ by Reinaldo Arenas"
+            }
+          ]
+        },
+        {
+          "fact": {
+            "fact_id": "V1-FCT-0921",
+            "origin_material_id": "WEB-CE-B15",
+            "card_id": "V1-CARD-0230",
+            "subject_id": "V1-ENT-0342",
+            "fact_field": "first_publication_year",
+            "value_text": "1968",
+            "material_class": "bibliographic",
+            "origin_id": "SRC-0259",
+            "confidence": "high",
+            "admission_status": "candidate_for_staging_review",
+            "usage_note": "Cardiff article dates the second novel to 1968."
+          },
+          "fact_sources": [
+            {
+              "fact_id": "V1-FCT-0921",
+              "source_id": "SRC-0259",
+              "source_title": "Forms of dissidence: ‘Celestino antes del alba’ and ‘El mundo alucinante’ by Reinaldo Arenas"
+            }
+          ]
+        },
+        {
+          "fact": {
+            "fact_id": "V1-FCT-0922",
+            "origin_material_id": "WEB-CE-B15",
+            "card_id": "V1-CARD-0230",
+            "subject_id": "V1-ENT-0342",
+            "fact_field": "genre_or_form",
+            "value_text": "小说",
+            "material_class": "bibliographic",
+            "origin_id": "SRC-0259",
+            "confidence": "high",
+            "admission_status": "candidate_for_staging_review",
+            "usage_note": "Cardiff article explicitly calls it a novel."
+          },
+          "fact_sources": [
+            {
+              "fact_id": "V1-FCT-0922",
+              "source_id": "SRC-0259",
+              "source_title": "Forms of dissidence: ‘Celestino antes del alba’ and ‘El mundo alucinante’ by Reinaldo Arenas"
+            }
+          ]
+        }
+      ],
+      "cards": [
+        {
+          "card_id": "V1-CARD-0230",
+          "origin_card_id": "",
+          "subject_id": "V1-ENT-0342",
+          "card_type": "work",
+          "title_zh": "《幻梦世界》",
+          "author_label": "雷纳尔多·阿雷纳斯",
+          "original_title": "El mundo alucinante",
+          "country_or_region": "古巴",
+          "language": "es",
+          "period_bucket": "1968",
+          "genre_or_form": "小说",
+          "input_layer": "WEB-CE-B15",
+          "source_minimum_status": "meets",
+          "issue_code": "NONE",
+          "content_markdown": "### 《幻梦世界》｜El mundo alucinante — Cardiff scholarship identifies the 1968 second novel."
+        }
+      ],
+      "card_facts": [
+        {
+          "card_id": "V1-CARD-0230",
+          "fact_id": "V1-FCT-0920",
+          "admission_status": "candidate_for_staging_review"
+        },
+        {
+          "card_id": "V1-CARD-0230",
+          "fact_id": "V1-FCT-0921",
+          "admission_status": "candidate_for_staging_review"
+        },
+        {
+          "card_id": "V1-CARD-0230",
+          "fact_id": "V1-FCT-0922",
+          "admission_status": "candidate_for_staging_review"
+        }
+      ],
+      "card_sources": [
+        {
+          "card_source_id": "V1-CS-0457",
+          "origin_matrix_id": "",
+          "card_id": "V1-CARD-0230",
+          "source_id": "SRC-0258",
+          "source_level": "B",
+          "source_role": "both",
+          "bibliographic_support": "yes",
+          "research_support": "yes",
+          "independent_source_key": "SRC-0258",
+          "usage_status": "used",
+          "issue_code": "NONE"
+        },
+        {
+          "card_source_id": "V1-CS-0458",
+          "origin_matrix_id": "",
+          "card_id": "V1-CARD-0230",
+          "source_id": "SRC-0259",
+          "source_level": "A",
+          "source_role": "both",
+          "bibliographic_support": "yes",
+          "research_support": "yes",
+          "independent_source_key": "SRC-0259",
+          "usage_status": "used",
+          "issue_code": "NONE"
+        }
+      ],
+      "relations": [
+        {
+          "relationship_id": "V1-REL-0267",
+          "origin_layer": "WEB-CE-B15",
+          "origin_relation_group_id": "CAND-B15-0267",
+          "subject_id": "V1-ENT-0334",
+          "relation_type": "CREATED",
+          "object_id": "V1-ENT-0342",
+          "description_zh": "雷纳尔多·阿雷纳斯创作《幻梦世界》（El mundo alucinante）",
+          "confidence": "high",
+          "review_status": "accepted",
+          "upstream_review_status": "WEB-CE-B15",
+          "evidence_count": "1",
+          "issue_code": "NONE"
+        }
+      ],
+      "relationship_sources": [
+        {
+          "relationship_id": "V1-REL-0267",
+          "source_id": "SRC-0258"
+        },
+        {
+          "relationship_id": "V1-REL-0267",
+          "source_id": "SRC-0259"
+        }
+      ],
+      "relationship_evidence": [
+        {
+          "evidence_id": "V1-EV-0292",
+          "relationship_id": "V1-REL-0267",
+          "origin_evidence_id": "CAND-B15-0267",
+          "source_id": "SRC-0259",
+          "source_title": "Forms of dissidence: ‘Celestino antes del alba’ and ‘El mundo alucinante’ by Reinaldo Arenas",
+          "locator": "",
+          "evidence_note": "Cardiff scholarly article identifies El mundo alucinante as an Arenas novel.",
+          "confidence": "high",
+          "evidence_status": "eligible_evidence",
+          "evidence_origin": "WEB-CE-B15"
+        }
+      ],
+      "source_objects": [
+        {
+          "source_id": "SRC-0258",
+          "temporary_id": "B15-SRC-0258",
+          "title": "Arenas, Reinaldo, 1943-1990 / Reinaldo Arenas Papers",
+          "original_title": "Arenas, Reinaldo, 1943-1990",
+          "author_or_editor": "Princeton University Library",
+          "translator": "",
+          "publisher": "Princeton University Library, Manuscripts Division",
+          "publication_year": "",
+          "isbn": "",
+          "format": "web_page",
+          "page_count": "",
+          "language": "en",
+          "source_level": "B",
+          "processing_status": "access_pass",
+          "source_task": "WEB-CE-B15",
+          "public_content_scope": "Finding-aid entry identifies Reinaldo Arenas 1943–1990 and lists manuscripts of novels, short stories, poetry, plays and essays",
+          "local_asset_status": "remote_only",
+          "persistent_id": "",
+          "canonical_url": "https://static-prod.lib.princeton.edu/scsites/aids/msslist/colls1.htm.back"
+        },
+        {
+          "source_id": "SRC-0259",
+          "temporary_id": "B15-SRC-0259",
+          "title": "Forms of dissidence: ‘Celestino antes del alba’ and ‘El mundo alucinante’ by Reinaldo Arenas",
+          "original_title": "Forms of dissidence: Celestino antes del alba and El mundo alucinante by Reinaldo Arenas",
+          "author_or_editor": "Joey Whitfield",
+          "translator": "",
+          "publisher": "Cardiff University Press, New Readings",
+          "publication_year": "",
+          "isbn": "",
+          "format": "web_page",
+          "page_count": "",
+          "language": "en",
+          "source_level": "A",
+          "processing_status": "access_pass",
+          "source_task": "WEB-CE-B15",
+          "public_content_scope": "Scholarly article identifies Celestino antes del alba 1967 and El mundo alucinante 1968 as Arenas’s first two novels",
+          "local_asset_status": "remote_only",
+          "persistent_id": "",
+          "canonical_url": "https://orca.cardiff.ac.uk/id/eprint/120697/"
+        }
+      ],
+      "holds": [],
+      "gaps": [],
+      "fresh_review": {
+        "source_refs": [],
+        "description": "旧对象闭包完全来自冻结B19基线，留待批次独立Reviewer复核。"
+      },
+      "remaining": "仅有既有catalog/institutional commentary来源的限制；不作为学术覆盖完整结论。",
+      "source_author_id": "V1-ENT-0334",
+      "candidate_facts": [],
+      "snapshot_role": "frozen_baseline_snapshot"
+    },
+    {
+      "object_ref": "V1-ENT-0343",
+      "entity": {
+        "entity_id": "V1-ENT-0343",
+        "entity_type": "work",
+        "name_zh": "《夜幕降临前》",
+        "original_name": "Antes que anochezca",
+        "canonical_status": "candidate",
+        "origin_count": "1",
+        "origin_refs": "CAND-B15-ARENAS-W03",
+        "normalization_basis": "B15 Universidad de Antioquia review; autobiographical work layer",
+        "issue_codes": "NONE"
+      },
+      "bibliography": "冻结B19基线原样快照；不改变既有对象。",
+      "description": "既有事实及Research卡片均逐值快照保全。",
+      "research_status": "catalog_only",
+      "research_refs": [
+        "SRC-0258",
+        "SRC-0260"
+      ],
+      "old_facts": [
+        {
+          "fact": {
+            "fact_id": "V1-FCT-0923",
+            "origin_material_id": "WEB-CE-B15",
+            "card_id": "V1-CARD-0231",
+            "subject_id": "V1-ENT-0343",
+            "fact_field": "entity_layer",
+            "value_text": "work",
+            "material_class": "metadata",
+            "origin_id": "SRC-0260",
+            "confidence": "high",
+            "admission_status": "candidate_for_staging_review",
+            "usage_note": "Universidad de Antioquia review identifies the work as an autobiography."
+          },
+          "fact_sources": [
+            {
+              "fact_id": "V1-FCT-0923",
+              "source_id": "SRC-0260",
+              "source_title": "Arciniegas: revisión bibliográfica sobre Antes que anochezca de Reinaldo Arenas y sus reescrituras (1993-2022)"
+            }
+          ]
+        },
+        {
+          "fact": {
+            "fact_id": "V1-FCT-0924",
+            "origin_material_id": "WEB-CE-B15",
+            "card_id": "V1-CARD-0231",
+            "subject_id": "V1-ENT-0343",
+            "fact_field": "first_publication_year",
+            "value_text": "1992",
+            "material_class": "bibliographic",
+            "origin_id": "SRC-0260",
+            "confidence": "high",
+            "admission_status": "candidate_for_staging_review",
+            "usage_note": "Universidad de Antioquia review states the Spanish original was published in 1992."
+          },
+          "fact_sources": [
+            {
+              "fact_id": "V1-FCT-0924",
+              "source_id": "SRC-0260",
+              "source_title": "Arciniegas: revisión bibliográfica sobre Antes que anochezca de Reinaldo Arenas y sus reescrituras (1993-2022)"
+            }
+          ]
+        },
+        {
+          "fact": {
+            "fact_id": "V1-FCT-0925",
+            "origin_material_id": "WEB-CE-B15",
+            "card_id": "V1-CARD-0231",
+            "subject_id": "V1-ENT-0343",
+            "fact_field": "genre_or_form",
+            "value_text": "自传",
+            "material_class": "bibliographic",
+            "origin_id": "SRC-0260",
+            "confidence": "high",
+            "admission_status": "candidate_for_staging_review",
+            "usage_note": "The review describes the work as an autobiografía."
+          },
+          "fact_sources": [
+            {
+              "fact_id": "V1-FCT-0925",
+              "source_id": "SRC-0260",
+              "source_title": "Arciniegas: revisión bibliográfica sobre Antes que anochezca de Reinaldo Arenas y sus reescrituras (1993-2022)"
+            }
+          ]
+        }
+      ],
+      "cards": [
+        {
+          "card_id": "V1-CARD-0231",
+          "origin_card_id": "",
+          "subject_id": "V1-ENT-0343",
+          "card_type": "work",
+          "title_zh": "《夜幕降临前》",
+          "author_label": "雷纳尔多·阿雷纳斯",
+          "original_title": "Antes que anochezca",
+          "country_or_region": "古巴",
+          "language": "es",
+          "period_bucket": "1992",
+          "genre_or_form": "自传",
+          "input_layer": "WEB-CE-B15",
+          "source_minimum_status": "meets",
+          "issue_code": "NONE",
+          "content_markdown": "### 《夜幕降临前》｜Antes que anochezca — Universidad de Antioquia scholarship dates the Spanish original to 1992 and identifies its autobiographical form."
+        }
+      ],
+      "card_facts": [
+        {
+          "card_id": "V1-CARD-0231",
+          "fact_id": "V1-FCT-0923",
+          "admission_status": "candidate_for_staging_review"
+        },
+        {
+          "card_id": "V1-CARD-0231",
+          "fact_id": "V1-FCT-0924",
+          "admission_status": "candidate_for_staging_review"
+        },
+        {
+          "card_id": "V1-CARD-0231",
+          "fact_id": "V1-FCT-0925",
+          "admission_status": "candidate_for_staging_review"
+        }
+      ],
+      "card_sources": [
+        {
+          "card_source_id": "V1-CS-0459",
+          "origin_matrix_id": "",
+          "card_id": "V1-CARD-0231",
+          "source_id": "SRC-0260",
+          "source_level": "A",
+          "source_role": "both",
+          "bibliographic_support": "yes",
+          "research_support": "yes",
+          "independent_source_key": "SRC-0260",
+          "usage_status": "used",
+          "issue_code": "NONE"
+        }
+      ],
+      "relations": [
+        {
+          "relationship_id": "V1-REL-0268",
+          "origin_layer": "WEB-CE-B15",
+          "origin_relation_group_id": "CAND-B15-0268",
+          "subject_id": "V1-ENT-0334",
+          "relation_type": "CREATED",
+          "object_id": "V1-ENT-0343",
+          "description_zh": "雷纳尔多·阿雷纳斯创作《夜幕降临前》（Antes que anochezca）",
+          "confidence": "high",
+          "review_status": "accepted",
+          "upstream_review_status": "WEB-CE-B15",
+          "evidence_count": "1",
+          "issue_code": "NONE"
+        }
+      ],
+      "relationship_sources": [
+        {
+          "relationship_id": "V1-REL-0268",
+          "source_id": "SRC-0258"
+        },
+        {
+          "relationship_id": "V1-REL-0268",
+          "source_id": "SRC-0260"
+        }
+      ],
+      "relationship_evidence": [
+        {
+          "evidence_id": "V1-EV-0293",
+          "relationship_id": "V1-REL-0268",
+          "origin_evidence_id": "CAND-B15-0268",
+          "source_id": "SRC-0260",
+          "source_title": "Arciniegas: revisión bibliográfica sobre Antes que anochezca de Reinaldo Arenas y sus reescrituras (1993-2022)",
+          "locator": "",
+          "evidence_note": "Universidad de Antioquia review identifies Antes que anochezca as an Arenas autobiography.",
+          "confidence": "high",
+          "evidence_status": "eligible_evidence",
+          "evidence_origin": "WEB-CE-B15"
+        }
+      ],
+      "source_objects": [
+        {
+          "source_id": "SRC-0258",
+          "temporary_id": "B15-SRC-0258",
+          "title": "Arenas, Reinaldo, 1943-1990 / Reinaldo Arenas Papers",
+          "original_title": "Arenas, Reinaldo, 1943-1990",
+          "author_or_editor": "Princeton University Library",
+          "translator": "",
+          "publisher": "Princeton University Library, Manuscripts Division",
+          "publication_year": "",
+          "isbn": "",
+          "format": "web_page",
+          "page_count": "",
+          "language": "en",
+          "source_level": "B",
+          "processing_status": "access_pass",
+          "source_task": "WEB-CE-B15",
+          "public_content_scope": "Finding-aid entry identifies Reinaldo Arenas 1943–1990 and lists manuscripts of novels, short stories, poetry, plays and essays",
+          "local_asset_status": "remote_only",
+          "persistent_id": "",
+          "canonical_url": "https://static-prod.lib.princeton.edu/scsites/aids/msslist/colls1.htm.back"
+        },
+        {
+          "source_id": "SRC-0260",
+          "temporary_id": "B15-SRC-0260",
+          "title": "Arciniegas: revisión bibliográfica sobre Antes que anochezca de Reinaldo Arenas y sus reescrituras (1993-2022)",
+          "original_title": "Arciniegas: revisión bibliográfica sobre Antes que anochezca de Reinaldo Arenas y sus reescrituras",
+          "author_or_editor": "Lina María Arciniegas",
+          "translator": "",
+          "publisher": "Universidad de Antioquia, Lingüística y Literatura",
+          "publication_year": "",
+          "isbn": "",
+          "format": "web_page",
+          "page_count": "",
+          "language": "es",
+          "source_level": "A",
+          "processing_status": "access_pass",
+          "source_task": "WEB-CE-B15",
+          "public_content_scope": "Scholarly review states Antes que anochezca was originally published in Spanish in 1992 by Tusquets and describes its autobiographical structure",
+          "local_asset_status": "remote_only",
+          "persistent_id": "",
+          "canonical_url": "https://revistas.udea.edu.co/index.php/lyl/article/view/354780/20816600"
+        }
+      ],
+      "holds": [],
+      "gaps": [],
+      "fresh_review": {
+        "source_refs": [],
+        "description": "旧对象闭包完全来自冻结B19基线，留待批次独立Reviewer复核。"
+      },
+      "remaining": "仅有既有catalog/institutional commentary来源的限制；不作为学术覆盖完整结论。",
+      "source_author_id": "V1-ENT-0334",
+      "candidate_facts": [],
+      "snapshot_role": "frozen_baseline_snapshot"
+    },
+    {
+      "object_ref": "WCD10-B19-W001",
+      "candidate_id": "WCD10-B19-W001",
+      "entity": {
+        "entity_type": "work",
+        "original_name": "El palacio de las blanquísimas mofetas",
+        "name_zh": "《白色臭鼬宫殿》（暂译）",
+        "canonical_status": "candidate",
+        "origin_count": "1",
+        "origin_refs": "WCD10-B19-W001",
+        "normalization_basis": "WCD-10-B19 publisher source candidate",
+        "issue_codes": "NONE"
+      },
+      "bibliography": "由CANDIDATES逐事实候选化；首版年未证作品不填原子年。",
+      "description": "候选有界作品说明见one_sentence_summary，不取代既有卡片。",
+      "research_status": "institutional_commentary",
+      "research_refs": [
+        "WCD10-B19-S001",
+        "WCD10-B19-S004"
+      ],
+      "old_facts": [],
+      "cards": [],
+      "card_facts": [],
+      "card_sources": [],
+      "relations": [],
+      "relationship_sources": [],
+      "relationship_evidence": [],
+      "source_objects": [],
+      "holds": [],
+      "gaps": [],
+      "fresh_review": {
+        "source_refs": [
+          "WCD10-B19-S001",
+          "WCD10-B19-S004"
+        ],
+        "description": "候选所引出版社直接来源已实际打开，等待母代理内容与来源独立审核。"
+      },
+      "remaining": "出版者目录提供普通书目/简介依据；原始首版年或更细研究阐释仍未证，保留空缺。",
+      "source_author_id": "V1-ENT-0334",
+      "candidate_facts": [
+        {
+          "candidate_id": "WCD10-B19-F001",
+          "subject_id": "WCD10-B19-W001",
+          "field": "genre_or_form",
+          "value": "小说",
+          "source_refs": [
+            "WCD10-B19-S001"
+          ]
+        },
+        {
+          "candidate_id": "WCD10-B19-F013",
+          "subject_id": "WCD10-B19-W001",
+          "field": "one_sentence_summary",
+          "value": "Tusquets简介称，本书以具有个人色彩的方式回顾作者自身经历与古巴历史。",
+          "source_refs": [
+            "WCD10-B19-S004"
+          ]
+        },
+        {
+          "candidate_id": "WCD10-B19-F015",
+          "subject_id": "WCD10-B19-W001",
+          "field": "bibliographic_note",
+          "value": "Tusquets作者目录列出本书为pentagonía系列成员，但未在该目录段提供首版年份；本候选仅记录出版者书目列示，不推定首版年。",
+          "source_refs": [
+            "WCD10-B19-S001"
+          ]
+        }
+      ],
+      "snapshot_role": "candidate_preview"
+    },
+    {
+      "object_ref": "WCD10-B19-W002",
+      "candidate_id": "WCD10-B19-W002",
+      "entity": {
+        "entity_type": "work",
+        "original_name": "Otra vez el mar",
+        "name_zh": "《再一次，大海》（暂译）",
+        "canonical_status": "candidate",
+        "origin_count": "1",
+        "origin_refs": "WCD10-B19-W002",
+        "normalization_basis": "WCD-10-B19 publisher source candidate",
+        "issue_codes": "NONE"
+      },
+      "bibliography": "由CANDIDATES逐事实候选化；首版年未证作品不填原子年。",
+      "description": "候选有界作品说明见one_sentence_summary，不取代既有卡片。",
+      "research_status": "institutional_commentary",
+      "research_refs": [
+        "WCD10-B19-S001",
+        "WCD10-B19-S005"
+      ],
+      "old_facts": [],
+      "cards": [],
+      "card_facts": [],
+      "card_sources": [],
+      "relations": [],
+      "relationship_sources": [],
+      "relationship_evidence": [],
+      "source_objects": [],
+      "holds": [],
+      "gaps": [],
+      "fresh_review": {
+        "source_refs": [
+          "WCD10-B19-S001",
+          "WCD10-B19-S005"
+        ],
+        "description": "候选所引出版社直接来源已实际打开，等待母代理内容与来源独立审核。"
+      },
+      "remaining": "出版者目录提供普通书目/简介依据；原始首版年或更细研究阐释仍未证，保留空缺。",
+      "source_author_id": "V1-ENT-0334",
+      "candidate_facts": [
+        {
+          "candidate_id": "WCD10-B19-F003",
+          "subject_id": "WCD10-B19-W002",
+          "field": "genre_or_form",
+          "value": "小说",
+          "source_refs": [
+            "WCD10-B19-S001"
+          ]
+        },
+        {
+          "candidate_id": "WCD10-B19-F004",
+          "subject_id": "WCD10-B19-W002",
+          "field": "bibliographic_note",
+          "value": "Tusquets新闻资料称本页版本采用作者修订的1982年文本；出版社作者目录也列出本书。现有直接来源未能确定作品原始首版年份，因此first_publication_year留空。",
+          "source_refs": [
+            "WCD10-B19-S001",
+            "WCD10-B19-S005"
+          ]
+        },
+        {
+          "candidate_id": "WCD10-B19-F018",
+          "subject_id": "WCD10-B19-W002",
+          "field": "one_sentence_summary",
+          "value": "Tusquets资料介绍一对年轻夫妻在度假地的故事，并以妻子和丈夫Héctor的双重叙述呈现两人的挫折与对自由的渴望。",
+          "source_refs": [
+            "WCD10-B19-S005"
+          ]
+        }
+      ],
+      "snapshot_role": "candidate_preview"
+    },
+    {
+      "object_ref": "WCD10-B19-W003",
+      "candidate_id": "WCD10-B19-W003",
+      "entity": {
+        "entity_type": "work",
+        "original_name": "El color del verano",
+        "name_zh": "《夏日的颜色》（暂译）",
+        "canonical_status": "candidate",
+        "origin_count": "1",
+        "origin_refs": "WCD10-B19-W003",
+        "normalization_basis": "WCD-10-B19 publisher source candidate",
+        "issue_codes": "NONE"
+      },
+      "bibliography": "由CANDIDATES逐事实候选化；首版年未证作品不填原子年。",
+      "description": "候选有界作品说明见one_sentence_summary，不取代既有卡片。",
+      "research_status": "institutional_commentary",
+      "research_refs": [
+        "WCD10-B19-S001",
+        "WCD10-B19-S002"
+      ],
+      "old_facts": [],
+      "cards": [],
+      "card_facts": [],
+      "card_sources": [],
+      "relations": [],
+      "relationship_sources": [],
+      "relationship_evidence": [],
+      "source_objects": [],
+      "holds": [],
+      "gaps": [],
+      "fresh_review": {
+        "source_refs": [
+          "WCD10-B19-S001",
+          "WCD10-B19-S002"
+        ],
+        "description": "候选所引出版社直接来源已实际打开，等待母代理内容与来源独立审核。"
+      },
+      "remaining": "出版者目录提供普通书目/简介依据；原始首版年或更细研究阐释仍未证，保留空缺。",
+      "source_author_id": "V1-ENT-0334",
+      "candidate_facts": [
+        {
+          "candidate_id": "WCD10-B19-F005",
+          "subject_id": "WCD10-B19-W003",
+          "field": "genre_or_form",
+          "value": "小说",
+          "source_refs": [
+            "WCD10-B19-S001"
+          ]
+        },
+        {
+          "candidate_id": "WCD10-B19-F006",
+          "subject_id": "WCD10-B19-W003",
+          "field": "one_sentence_summary",
+          "value": "Tusquets简介写到古巴为统治者在位五十周年举行狂欢庆典，并呈现庆典背后的青年地下生活及岛上的压迫处境。",
+          "source_refs": [
+            "WCD10-B19-S002"
+          ]
+        },
+        {
+          "candidate_id": "WCD10-B19-F007",
+          "subject_id": "WCD10-B19-W003",
+          "field": "bibliographic_note",
+          "value": "出版者页面列出的1999年Tusquets版仅作为版本年份记录；未把它推定为作品首版年。",
+          "source_refs": [
+            "WCD10-B19-S002"
+          ]
+        }
+      ],
+      "snapshot_role": "candidate_preview"
+    },
+    {
+      "object_ref": "WCD10-B19-W004",
+      "candidate_id": "WCD10-B19-W004",
+      "entity": {
+        "entity_type": "work",
+        "original_name": "El asalto",
+        "name_zh": "《袭击》（暂译）",
+        "canonical_status": "candidate",
+        "origin_count": "1",
+        "origin_refs": "WCD10-B19-W004",
+        "normalization_basis": "WCD-10-B19 publisher source candidate",
+        "issue_codes": "NONE"
+      },
+      "bibliography": "由CANDIDATES逐事实候选化；首版年未证作品不填原子年。",
+      "description": "候选有界作品说明见one_sentence_summary，不取代既有卡片。",
+      "research_status": "institutional_commentary",
+      "research_refs": [
+        "WCD10-B19-S001",
+        "WCD10-B19-S006"
+      ],
+      "old_facts": [],
+      "cards": [],
+      "card_facts": [],
+      "card_sources": [],
+      "relations": [],
+      "relationship_sources": [],
+      "relationship_evidence": [],
+      "source_objects": [],
+      "holds": [],
+      "gaps": [],
+      "fresh_review": {
+        "source_refs": [
+          "WCD10-B19-S001",
+          "WCD10-B19-S006"
+        ],
+        "description": "候选所引出版社直接来源已实际打开，等待母代理内容与来源独立审核。"
+      },
+      "remaining": "出版者目录提供普通书目/简介依据；原始首版年或更细研究阐释仍未证，保留空缺。",
+      "source_author_id": "V1-ENT-0334",
+      "candidate_facts": [
+        {
+          "candidate_id": "WCD10-B19-F008",
+          "subject_id": "WCD10-B19-W004",
+          "field": "genre_or_form",
+          "value": "小说",
+          "source_refs": [
+            "WCD10-B19-S001"
+          ]
+        },
+        {
+          "candidate_id": "WCD10-B19-F014",
+          "subject_id": "WCD10-B19-W004",
+          "field": "one_sentence_summary",
+          "value": "Tusquets简介中的叙述者身处严密控制的国家，借加入秘密行动机构寻找母亲并实施个人复仇。",
+          "source_refs": [
+            "WCD10-B19-S006"
+          ]
+        },
+        {
+          "candidate_id": "WCD10-B19-F017",
+          "subject_id": "WCD10-B19-W004",
+          "field": "bibliographic_note",
+          "value": "Tusquets作者目录列出本书为pentagonía系列成员，但未在该目录段提供首版年份；本候选仅记录出版者书目列示，不推定首版年。",
+          "source_refs": [
+            "WCD10-B19-S001"
+          ]
+        }
+      ],
+      "snapshot_role": "candidate_preview"
+    },
+    {
+      "object_ref": "WCD10-B19-W005",
+      "candidate_id": "WCD10-B19-W005",
+      "entity": {
+        "entity_type": "work",
+        "original_name": "El portero",
+        "name_zh": "《门卫》（暂译）",
+        "canonical_status": "candidate",
+        "origin_count": "1",
+        "origin_refs": "WCD10-B19-W005",
+        "normalization_basis": "WCD-10-B19 publisher source candidate",
+        "issue_codes": "NONE"
+      },
+      "bibliography": "由CANDIDATES逐事实候选化；首版年未证作品不填原子年。",
+      "description": "候选有界作品说明见one_sentence_summary，不取代既有卡片。",
+      "research_status": "institutional_commentary",
+      "research_refs": [
+        "WCD10-B19-S001",
+        "WCD10-B19-S003"
+      ],
+      "old_facts": [],
+      "cards": [],
+      "card_facts": [],
+      "card_sources": [],
+      "relations": [],
+      "relationship_sources": [],
+      "relationship_evidence": [],
+      "source_objects": [],
+      "holds": [],
+      "gaps": [],
+      "fresh_review": {
+        "source_refs": [
+          "WCD10-B19-S001",
+          "WCD10-B19-S003"
+        ],
+        "description": "候选所引出版社直接来源已实际打开，等待母代理内容与来源独立审核。"
+      },
+      "remaining": "出版者目录提供普通书目/简介依据；原始首版年或更细研究阐释仍未证，保留空缺。",
+      "source_author_id": "V1-ENT-0334",
+      "candidate_facts": [
+        {
+          "candidate_id": "WCD10-B19-F010",
+          "subject_id": "WCD10-B19-W005",
+          "field": "genre_or_form",
+          "value": "小说",
+          "source_refs": [
+            "WCD10-B19-S001"
+          ]
+        },
+        {
+          "candidate_id": "WCD10-B19-F011",
+          "subject_id": "WCD10-B19-W005",
+          "field": "one_sentence_summary",
+          "value": "小说描写纽约大楼中的微观社会，并以一名古巴流亡门卫的观察展开；出版者称作品写于1984至1986年。",
+          "source_refs": [
+            "WCD10-B19-S003"
+          ]
+        },
+        {
+          "candidate_id": "WCD10-B19-F012",
+          "subject_id": "WCD10-B19-W005",
+          "field": "bibliographic_note",
+          "value": "Tusquets产品页列2004年版；此为所见版本年份，未作为首版年份。",
+          "source_refs": [
+            "WCD10-B19-S003"
+          ]
+        }
+      ],
+      "snapshot_role": "candidate_preview"
+    },
+    {
+      "object_ref": "V1-ENT-0347",
+      "entity": {
+        "entity_id": "V1-ENT-0347",
+        "entity_type": "work",
+        "name_zh": "《读爱情故事的老人》",
+        "original_name": "Un viejo que leía novelas de amor",
+        "canonical_status": "candidate",
+        "origin_count": "1",
+        "origin_refs": "CAND-B16-SEPULVEDA-W01",
+        "normalization_basis": "Published Chinese title supported by China Writers Net; original title and 1989 edition evidence retained.",
+        "issue_codes": "NONE"
+      },
+      "bibliography": "按B19冻结基线逐值保全既有书目事实。",
+      "description": "B19冻结基线逐值保全既有卡片、事实、关系与来源链；本轮不覆盖。",
+      "research_status": "catalog_only",
+      "research_refs": [
+        "SRC-0261",
+        "SRC-0262",
+        "SRC-0278"
+      ],
+      "old_facts": [
+        {
+          "fact": {
+            "fact_id": "V1-FCT-0929",
+            "origin_material_id": "WEB-CE-B16",
+            "card_id": "V1-CARD-0233",
+            "subject_id": "V1-ENT-0347",
+            "fact_field": "entity_layer",
+            "value_text": "work",
+            "material_class": "metadata",
+            "origin_id": "SRC-0261",
+            "confidence": "high",
+            "admission_status": "candidate_for_staging_review",
+            "usage_note": "Entity layer is recorded as work."
+          },
+          "source_chain": [
+            {
+              "fact_id": "V1-FCT-0929",
+              "source_id": "SRC-0261",
+              "source_title": "Sepúlveda, Luis"
+            }
+          ]
+        },
+        {
+          "fact": {
+            "fact_id": "V1-FCT-0930",
+            "origin_material_id": "WEB-CE-B16",
+            "card_id": "V1-CARD-0233",
+            "subject_id": "V1-ENT-0347",
+            "fact_field": "first_book_edition_year",
+            "value_text": "1989",
+            "material_class": "bibliographic",
+            "origin_id": "SRC-0261",
+            "confidence": "high",
+            "admission_status": "candidate_for_staging_review",
+            "usage_note": "BNE and Memoria Chilena identify the Madrid Júcar 1989 book edition; the 1993 Tusquets record is a later edition, not conflicting evidence."
+          },
+          "source_chain": [
+            {
+              "fact_id": "V1-FCT-0930",
+              "source_id": "SRC-0261",
+              "source_title": "Sepúlveda, Luis"
+            }
+          ]
+        },
+        {
+          "fact": {
+            "fact_id": "V1-FCT-0931",
+            "origin_material_id": "WEB-CE-B16",
+            "card_id": "V1-CARD-0233",
+            "subject_id": "V1-ENT-0347",
+            "fact_field": "genre_or_form",
+            "value_text": "小说",
+            "material_class": "bibliographic",
+            "origin_id": "SRC-0261",
+            "confidence": "high",
+            "admission_status": "candidate_for_staging_review",
+            "usage_note": "Cited source supports the conservative form label 小说."
+          },
+          "source_chain": [
+            {
+              "fact_id": "V1-FCT-0931",
+              "source_id": "SRC-0261",
+              "source_title": "Sepúlveda, Luis"
+            }
+          ]
+        }
+      ],
+      "cards": [
+        {
+          "card_id": "V1-CARD-0233",
+          "origin_card_id": "",
+          "subject_id": "V1-ENT-0347",
+          "card_type": "work",
+          "title_zh": "《读爱情故事的老人》",
+          "author_label": "路易斯·塞普尔维达",
+          "original_title": "Un viejo que leía novelas de amor",
+          "country_or_region": "智利",
+          "language": "es",
+          "period_bucket": "first_book_edition_year=1989",
+          "genre_or_form": "小说",
+          "input_layer": "WEB-CE-B16",
+          "source_minimum_status": "meets",
+          "issue_code": "NONE",
+          "content_markdown": "### 《读爱情故事的老人》｜Un viejo que leía novelas de amor — source-backed 小说 entry; original title retained."
+        }
+      ],
+      "card_facts": [
+        {
+          "card_id": "V1-CARD-0233",
+          "fact_id": "V1-FCT-0929",
+          "admission_status": "candidate_for_staging_review"
+        },
+        {
+          "card_id": "V1-CARD-0233",
+          "fact_id": "V1-FCT-0930",
+          "admission_status": "candidate_for_staging_review"
+        },
+        {
+          "card_id": "V1-CARD-0233",
+          "fact_id": "V1-FCT-0931",
+          "admission_status": "candidate_for_staging_review"
+        }
+      ],
+      "card_sources": [
+        {
+          "card_source_id": "V1-CS-0462",
+          "origin_matrix_id": "",
+          "card_id": "V1-CARD-0233",
+          "source_id": "SRC-0261",
+          "source_level": "B",
+          "source_role": "both",
+          "bibliographic_support": "yes",
+          "research_support": "yes",
+          "independent_source_key": "SRC-0261",
+          "usage_status": "used",
+          "issue_code": "BIBLIOGRAPHIC-DISPUTE"
+        },
+        {
+          "card_source_id": "V1-CS-0463",
+          "origin_matrix_id": "",
+          "card_id": "V1-CARD-0233",
+          "source_id": "SRC-0262",
+          "source_level": "A",
+          "source_role": "both",
+          "bibliographic_support": "yes",
+          "research_support": "yes",
+          "independent_source_key": "SRC-0262",
+          "usage_status": "used",
+          "issue_code": "BIBLIOGRAPHIC-DISPUTE"
+        },
+        {
+          "card_source_id": "V1-CS-0500",
+          "origin_matrix_id": "SOL-AUDIT-B16-B17",
+          "card_id": "V1-CARD-0233",
+          "source_id": "SRC-0278",
+          "source_level": "C",
+          "source_role": "display",
+          "bibliographic_support": "yes",
+          "research_support": "no",
+          "independent_source_key": "SRC-0278",
+          "usage_status": "used",
+          "issue_code": "NONE"
+        }
+      ],
+      "relations": [
+        {
+          "relationship_id": "V1-REL-0272",
+          "origin_layer": "WEB-CE-B16",
+          "origin_relation_group_id": "V1-REL-0272",
+          "subject_id": "V1-ENT-0344",
+          "relation_type": "CREATED",
+          "object_id": "V1-ENT-0347",
+          "description_zh": "路易斯·塞普尔维达创作《读爱情故事的老人》（Un viejo que leía novelas de amor）",
+          "confidence": "high",
+          "review_status": "accepted",
+          "upstream_review_status": "WEB-CE-B16",
+          "evidence_count": "1",
+          "issue_code": "NONE"
+        }
+      ],
+      "relationship_sources": [
+        {
+          "relationship_id": "V1-REL-0272",
+          "source_id": "SRC-0261"
+        },
+        {
+          "relationship_id": "V1-REL-0272",
+          "source_id": "SRC-0262"
+        }
+      ],
+      "relationship_evidence": [
+        {
+          "evidence_id": "V1-EV-0297",
+          "relationship_id": "V1-REL-0272",
+          "origin_evidence_id": "V1-REL-0272",
+          "source_id": "SRC-0261",
+          "source_title": "Sepúlveda, Luis",
+          "locator": "",
+          "evidence_note": "Sepúlveda, Luis directly links the author and cited work/place relation.",
+          "confidence": "high",
+          "evidence_status": "eligible_evidence",
+          "evidence_origin": "WEB-CE-B16"
+        }
+      ],
+      "source_objects": [
+        {
+          "source_id": "SRC-0261",
+          "temporary_id": "B16-SRC-0261",
+          "title": "Sepúlveda, Luis",
+          "original_title": "Sepúlveda, Luis",
+          "author_or_editor": "Biblioteca Nacional de Chile, Memoria Chilena",
+          "translator": "",
+          "publisher": "Biblioteca Nacional de Chile",
+          "publication_year": "",
+          "isbn": "",
+          "format": "web_page",
+          "page_count": "",
+          "language": "es",
+          "source_level": "B",
+          "processing_status": "access_pass",
+          "source_task": "WEB-CE-B16",
+          "public_content_scope": "Luis Sepúlveda bibliography; Chilean author context; Un viejo que leía novelas de amor Madrid Azanca/Ediciones Júcar 1989 edition",
+          "local_asset_status": "remote_only",
+          "persistent_id": "",
+          "canonical_url": "https://www.memoriachilena.gob.cl/602/w3-propertyvalue-128650.html"
+        },
+        {
+          "source_id": "SRC-0262",
+          "temporary_id": "B16-SRC-0262",
+          "title": "La narrativa del chileno Luis Sepúlveda",
+          "original_title": "La narrativa del chileno Luis Sepúlveda",
+          "author_or_editor": "Juan Gabriel Araya G.",
+          "translator": "",
+          "publisher": "Universidad del Bío-Bío / Biblioteca Nacional Digital de Chile",
+          "publication_year": "",
+          "isbn": "",
+          "format": "web_page",
+          "page_count": "",
+          "language": "es",
+          "source_level": "A",
+          "processing_status": "access_pass",
+          "source_task": "WEB-CE-B16",
+          "public_content_scope": "Sepúlveda 1949; Un viejo que leía novelas de amor cited in a 1993 Tusquets initial-books list; Mundo del fin del mundo 1994; Historia de una gaviota y del gato que le enseñó a volar 1996; novel/travel narrative and children's-novel distinctions",
+          "local_asset_status": "remote_only",
+          "persistent_id": "",
+          "canonical_url": "https://www.bibliotecanacionaldigital.gob.cl/colecciones/BND/00/RC/RC0049657.pdf"
+        },
+        {
+          "source_id": "SRC-0278",
+          "temporary_id": "SOL-B16-B17-SRC-02",
+          "title": "智利作家路易斯·塞普尔维达因新冠肺炎去世",
+          "original_title": "智利作家路易斯·塞普尔维达因新冠肺炎去世",
+          "author_or_editor": "中国作家网",
+          "translator": "",
+          "publisher": "中国作家协会",
+          "publication_year": "2020",
+          "isbn": "",
+          "format": "web_page",
+          "page_count": "",
+          "language": "zh",
+          "source_level": "C",
+          "processing_status": "access_pass",
+          "source_task": "SOL-AUDIT-REMEDIATION-B16-B17",
+          "public_content_scope": "Chinese display-name support for 路易斯·塞普尔维达, 《读爱情故事的老人》 and 《教海鸥飞翔的猫》; also supports death in 2020",
+          "local_asset_status": "remote_only",
+          "persistent_id": "",
+          "canonical_url": "https://www.chinawriter.com.cn/n1/2020/0416/c404090-31676734.html"
+        }
+      ],
+      "holds": [],
+      "hold_evidence": [],
+      "gaps": [
+        {
+          "gap_id": "V1-GAP-0023",
+          "origin_gap_id": "B16-GAP-01-0347",
+          "gap_type": "bibliographic_dispute",
+          "gap_key": "V1-ENT-0347.first_publication_year",
+          "current_status": "verified",
+          "evidence_basis": "SRC-0261/BNE and Memoria Chilena identify a Madrid Júcar 1989 edition; SRC-0262 identifies a later 1993 Tusquets edition. The records describe distinct editions and do not conflict.",
+          "attempts_or_count": "2",
+          "owner_decision": "CODEX-SOL-AUDIT",
+          "downstream_effect": "Use first_book_edition_year=1989; retain 1993 only as later-edition context.",
+          "issue_code": "NONE"
+        }
+      ],
+      "fresh_review": {
+        "source_refs": [],
+        "description": "完整基线闭包逐值保全。"
+      },
+      "remaining": "既有书目仅代表历史已收录，不表示完整目录。",
+      "candidate_facts": []
+    },
+    {
+      "object_ref": "V1-ENT-0348",
+      "entity": {
+        "entity_id": "V1-ENT-0348",
+        "entity_type": "work",
+        "name_zh": "《教海鸥飞翔的猫》",
+        "original_name": "Historia de una gaviota y del gato que le enseñó a volar",
+        "canonical_status": "candidate",
+        "origin_count": "1",
+        "origin_refs": "CAND-B16-SEPULVEDA-W02",
+        "normalization_basis": "Published Chinese title supported by China Writers Net; original title retained.",
+        "issue_codes": "NONE"
+      },
+      "bibliography": "按B19冻结基线逐值保全既有书目事实。",
+      "description": "B19冻结基线逐值保全既有卡片、事实、关系与来源链；本轮不覆盖。",
+      "research_status": "catalog_only",
+      "research_refs": [
+        "SRC-0262",
+        "SRC-0278"
+      ],
+      "old_facts": [
+        {
+          "fact": {
+            "fact_id": "V1-FCT-0932",
+            "origin_material_id": "WEB-CE-B16",
+            "card_id": "V1-CARD-0234",
+            "subject_id": "V1-ENT-0348",
+            "fact_field": "entity_layer",
+            "value_text": "work",
+            "material_class": "metadata",
+            "origin_id": "SRC-0262",
+            "confidence": "high",
+            "admission_status": "candidate_for_staging_review",
+            "usage_note": "Entity layer is recorded as work."
+          },
+          "source_chain": [
+            {
+              "fact_id": "V1-FCT-0932",
+              "source_id": "SRC-0262",
+              "source_title": "La narrativa del chileno Luis Sepúlveda"
+            }
+          ]
+        },
+        {
+          "fact": {
+            "fact_id": "V1-FCT-0933",
+            "origin_material_id": "WEB-CE-B16",
+            "card_id": "V1-CARD-0234",
+            "subject_id": "V1-ENT-0348",
+            "fact_field": "first_publication_year",
+            "value_text": "1996",
+            "material_class": "bibliographic",
+            "origin_id": "SRC-0262",
+            "confidence": "high",
+            "admission_status": "candidate_for_staging_review",
+            "usage_note": "Cited source dates the title to 1996."
+          },
+          "source_chain": [
+            {
+              "fact_id": "V1-FCT-0933",
+              "source_id": "SRC-0262",
+              "source_title": "La narrativa del chileno Luis Sepúlveda"
+            }
+          ]
+        },
+        {
+          "fact": {
+            "fact_id": "V1-FCT-0934",
+            "origin_material_id": "WEB-CE-B16",
+            "card_id": "V1-CARD-0234",
+            "subject_id": "V1-ENT-0348",
+            "fact_field": "genre_or_form",
+            "value_text": "儿童小说",
+            "material_class": "bibliographic",
+            "origin_id": "SRC-0262",
+            "confidence": "high",
+            "admission_status": "candidate_for_staging_review",
+            "usage_note": "Cited source supports the conservative form label 儿童小说."
+          },
+          "source_chain": [
+            {
+              "fact_id": "V1-FCT-0934",
+              "source_id": "SRC-0262",
+              "source_title": "La narrativa del chileno Luis Sepúlveda"
+            }
+          ]
+        }
+      ],
+      "cards": [
+        {
+          "card_id": "V1-CARD-0234",
+          "origin_card_id": "",
+          "subject_id": "V1-ENT-0348",
+          "card_type": "work",
+          "title_zh": "《教海鸥飞翔的猫》",
+          "author_label": "路易斯·塞普尔维达",
+          "original_title": "Historia de una gaviota y del gato que le enseñó a volar",
+          "country_or_region": "智利",
+          "language": "es",
+          "period_bucket": "1996",
+          "genre_or_form": "儿童小说",
+          "input_layer": "WEB-CE-B16",
+          "source_minimum_status": "meets",
+          "issue_code": "NONE",
+          "content_markdown": "### 《教海鸥飞翔的猫》｜Historia de una gaviota y del gato que le enseñó a volar — source-backed 儿童小说 entry; original title retained."
+        }
+      ],
+      "card_facts": [
+        {
+          "card_id": "V1-CARD-0234",
+          "fact_id": "V1-FCT-0932",
+          "admission_status": "candidate_for_staging_review"
+        },
+        {
+          "card_id": "V1-CARD-0234",
+          "fact_id": "V1-FCT-0933",
+          "admission_status": "candidate_for_staging_review"
+        },
+        {
+          "card_id": "V1-CARD-0234",
+          "fact_id": "V1-FCT-0934",
+          "admission_status": "candidate_for_staging_review"
+        }
+      ],
+      "card_sources": [
+        {
+          "card_source_id": "V1-CS-0464",
+          "origin_matrix_id": "",
+          "card_id": "V1-CARD-0234",
+          "source_id": "SRC-0262",
+          "source_level": "A",
+          "source_role": "both",
+          "bibliographic_support": "yes",
+          "research_support": "yes",
+          "independent_source_key": "SRC-0262",
+          "usage_status": "used",
+          "issue_code": "NONE"
+        },
+        {
+          "card_source_id": "V1-CS-0501",
+          "origin_matrix_id": "SOL-AUDIT-B16-B17",
+          "card_id": "V1-CARD-0234",
+          "source_id": "SRC-0278",
+          "source_level": "C",
+          "source_role": "display",
+          "bibliographic_support": "yes",
+          "research_support": "no",
+          "independent_source_key": "SRC-0278",
+          "usage_status": "used",
+          "issue_code": "NONE"
+        }
+      ],
+      "relations": [
+        {
+          "relationship_id": "V1-REL-0273",
+          "origin_layer": "WEB-CE-B16",
+          "origin_relation_group_id": "V1-REL-0273",
+          "subject_id": "V1-ENT-0344",
+          "relation_type": "CREATED",
+          "object_id": "V1-ENT-0348",
+          "description_zh": "路易斯·塞普尔维达创作《教海鸥飞翔的猫》（Historia de una gaviota y del gato que le enseñó a volar）",
+          "confidence": "high",
+          "review_status": "accepted",
+          "upstream_review_status": "WEB-CE-B16",
+          "evidence_count": "1",
+          "issue_code": "NONE"
+        }
+      ],
+      "relationship_sources": [
+        {
+          "relationship_id": "V1-REL-0273",
+          "source_id": "SRC-0262"
+        }
+      ],
+      "relationship_evidence": [
+        {
+          "evidence_id": "V1-EV-0298",
+          "relationship_id": "V1-REL-0273",
+          "origin_evidence_id": "V1-REL-0273",
+          "source_id": "SRC-0262",
+          "source_title": "La narrativa del chileno Luis Sepúlveda",
+          "locator": "",
+          "evidence_note": "La narrativa del chileno Luis Sepúlveda directly links the author and cited work/place relation.",
+          "confidence": "high",
+          "evidence_status": "eligible_evidence",
+          "evidence_origin": "WEB-CE-B16"
+        }
+      ],
+      "source_objects": [
+        {
+          "source_id": "SRC-0262",
+          "temporary_id": "B16-SRC-0262",
+          "title": "La narrativa del chileno Luis Sepúlveda",
+          "original_title": "La narrativa del chileno Luis Sepúlveda",
+          "author_or_editor": "Juan Gabriel Araya G.",
+          "translator": "",
+          "publisher": "Universidad del Bío-Bío / Biblioteca Nacional Digital de Chile",
+          "publication_year": "",
+          "isbn": "",
+          "format": "web_page",
+          "page_count": "",
+          "language": "es",
+          "source_level": "A",
+          "processing_status": "access_pass",
+          "source_task": "WEB-CE-B16",
+          "public_content_scope": "Sepúlveda 1949; Un viejo que leía novelas de amor cited in a 1993 Tusquets initial-books list; Mundo del fin del mundo 1994; Historia de una gaviota y del gato que le enseñó a volar 1996; novel/travel narrative and children's-novel distinctions",
+          "local_asset_status": "remote_only",
+          "persistent_id": "",
+          "canonical_url": "https://www.bibliotecanacionaldigital.gob.cl/colecciones/BND/00/RC/RC0049657.pdf"
+        },
+        {
+          "source_id": "SRC-0278",
+          "temporary_id": "SOL-B16-B17-SRC-02",
+          "title": "智利作家路易斯·塞普尔维达因新冠肺炎去世",
+          "original_title": "智利作家路易斯·塞普尔维达因新冠肺炎去世",
+          "author_or_editor": "中国作家网",
+          "translator": "",
+          "publisher": "中国作家协会",
+          "publication_year": "2020",
+          "isbn": "",
+          "format": "web_page",
+          "page_count": "",
+          "language": "zh",
+          "source_level": "C",
+          "processing_status": "access_pass",
+          "source_task": "SOL-AUDIT-REMEDIATION-B16-B17",
+          "public_content_scope": "Chinese display-name support for 路易斯·塞普尔维达, 《读爱情故事的老人》 and 《教海鸥飞翔的猫》; also supports death in 2020",
+          "local_asset_status": "remote_only",
+          "persistent_id": "",
+          "canonical_url": "https://www.chinawriter.com.cn/n1/2020/0416/c404090-31676734.html"
+        }
+      ],
+      "holds": [],
+      "hold_evidence": [],
+      "gaps": [],
+      "fresh_review": {
+        "source_refs": [],
+        "description": "完整基线闭包逐值保全。"
+      },
+      "remaining": "既有书目仅代表历史已收录，不表示完整目录。",
+      "candidate_facts": []
+    },
+    {
+      "object_ref": "V1-ENT-0349",
+      "entity": {
+        "entity_id": "V1-ENT-0349",
+        "entity_type": "work",
+        "name_zh": "《世界尽头的世界》",
+        "original_name": "Mundo del fin del mundo",
+        "canonical_status": "candidate",
+        "origin_count": "1",
+        "origin_refs": "CAND-B16-SEPULVEDA-W03",
+        "normalization_basis": "Published Chinese title supported by a university library catalogue; original title retained.",
+        "issue_codes": "NONE"
+      },
+      "bibliography": "按B19冻结基线逐值保全既有书目事实。",
+      "description": "B19冻结基线逐值保全既有卡片、事实、关系与来源链；本轮不覆盖。",
+      "research_status": "catalog_only",
+      "research_refs": [
+        "SRC-0262",
+        "SRC-0279"
+      ],
+      "old_facts": [
+        {
+          "fact": {
+            "fact_id": "V1-FCT-0935",
+            "origin_material_id": "WEB-CE-B16",
+            "card_id": "V1-CARD-0235",
+            "subject_id": "V1-ENT-0349",
+            "fact_field": "entity_layer",
+            "value_text": "work",
+            "material_class": "metadata",
+            "origin_id": "SRC-0262",
+            "confidence": "high",
+            "admission_status": "candidate_for_staging_review",
+            "usage_note": "Entity layer is recorded as work."
+          },
+          "source_chain": [
+            {
+              "fact_id": "V1-FCT-0935",
+              "source_id": "SRC-0262",
+              "source_title": "La narrativa del chileno Luis Sepúlveda"
+            }
+          ]
+        },
+        {
+          "fact": {
+            "fact_id": "V1-FCT-0936",
+            "origin_material_id": "WEB-CE-B16",
+            "card_id": "V1-CARD-0235",
+            "subject_id": "V1-ENT-0349",
+            "fact_field": "first_publication_year",
+            "value_text": "1994",
+            "material_class": "bibliographic",
+            "origin_id": "SRC-0262",
+            "confidence": "high",
+            "admission_status": "candidate_for_staging_review",
+            "usage_note": "Cited source dates the title to 1994."
+          },
+          "source_chain": [
+            {
+              "fact_id": "V1-FCT-0936",
+              "source_id": "SRC-0262",
+              "source_title": "La narrativa del chileno Luis Sepúlveda"
+            }
+          ]
+        },
+        {
+          "fact": {
+            "fact_id": "V1-FCT-0937",
+            "origin_material_id": "WEB-CE-B16",
+            "card_id": "V1-CARD-0235",
+            "subject_id": "V1-ENT-0349",
+            "fact_field": "genre_or_form",
+            "value_text": "旅行叙事",
+            "material_class": "bibliographic",
+            "origin_id": "SRC-0262",
+            "confidence": "high",
+            "admission_status": "candidate_for_staging_review",
+            "usage_note": "Cited source supports the conservative form label 旅行叙事."
+          },
+          "source_chain": [
+            {
+              "fact_id": "V1-FCT-0937",
+              "source_id": "SRC-0262",
+              "source_title": "La narrativa del chileno Luis Sepúlveda"
+            }
+          ]
+        }
+      ],
+      "cards": [
+        {
+          "card_id": "V1-CARD-0235",
+          "origin_card_id": "",
+          "subject_id": "V1-ENT-0349",
+          "card_type": "work",
+          "title_zh": "《世界尽头的世界》",
+          "author_label": "路易斯·塞普尔维达",
+          "original_title": "Mundo del fin del mundo",
+          "country_or_region": "智利",
+          "language": "es",
+          "period_bucket": "1994",
+          "genre_or_form": "旅行叙事",
+          "input_layer": "WEB-CE-B16",
+          "source_minimum_status": "meets",
+          "issue_code": "NONE",
+          "content_markdown": "### 《世界尽头的世界》｜Mundo del fin del mundo — source-backed 旅行叙事 entry; original title retained."
+        }
+      ],
+      "card_facts": [
+        {
+          "card_id": "V1-CARD-0235",
+          "fact_id": "V1-FCT-0935",
+          "admission_status": "candidate_for_staging_review"
+        },
+        {
+          "card_id": "V1-CARD-0235",
+          "fact_id": "V1-FCT-0936",
+          "admission_status": "candidate_for_staging_review"
+        },
+        {
+          "card_id": "V1-CARD-0235",
+          "fact_id": "V1-FCT-0937",
+          "admission_status": "candidate_for_staging_review"
+        }
+      ],
+      "card_sources": [
+        {
+          "card_source_id": "V1-CS-0465",
+          "origin_matrix_id": "",
+          "card_id": "V1-CARD-0235",
+          "source_id": "SRC-0262",
+          "source_level": "A",
+          "source_role": "both",
+          "bibliographic_support": "yes",
+          "research_support": "yes",
+          "independent_source_key": "SRC-0262",
+          "usage_status": "used",
+          "issue_code": "NONE"
+        },
+        {
+          "card_source_id": "V1-CS-0502",
+          "origin_matrix_id": "SOL-AUDIT-B16-B17",
+          "card_id": "V1-CARD-0235",
+          "source_id": "SRC-0279",
+          "source_level": "B",
+          "source_role": "display",
+          "bibliographic_support": "yes",
+          "research_support": "no",
+          "independent_source_key": "SRC-0279",
+          "usage_status": "used",
+          "issue_code": "NONE"
+        }
+      ],
+      "relations": [
+        {
+          "relationship_id": "V1-REL-0274",
+          "origin_layer": "WEB-CE-B16",
+          "origin_relation_group_id": "V1-REL-0274",
+          "subject_id": "V1-ENT-0344",
+          "relation_type": "CREATED",
+          "object_id": "V1-ENT-0349",
+          "description_zh": "路易斯·塞普尔维达创作《世界尽头的世界》（Mundo del fin del mundo）",
+          "confidence": "high",
+          "review_status": "accepted",
+          "upstream_review_status": "WEB-CE-B16",
+          "evidence_count": "1",
+          "issue_code": "NONE"
+        }
+      ],
+      "relationship_sources": [
+        {
+          "relationship_id": "V1-REL-0274",
+          "source_id": "SRC-0262"
+        }
+      ],
+      "relationship_evidence": [
+        {
+          "evidence_id": "V1-EV-0299",
+          "relationship_id": "V1-REL-0274",
+          "origin_evidence_id": "V1-REL-0274",
+          "source_id": "SRC-0262",
+          "source_title": "La narrativa del chileno Luis Sepúlveda",
+          "locator": "",
+          "evidence_note": "La narrativa del chileno Luis Sepúlveda directly links the author and cited work/place relation.",
+          "confidence": "high",
+          "evidence_status": "eligible_evidence",
+          "evidence_origin": "WEB-CE-B16"
+        }
+      ],
+      "source_objects": [
+        {
+          "source_id": "SRC-0262",
+          "temporary_id": "B16-SRC-0262",
+          "title": "La narrativa del chileno Luis Sepúlveda",
+          "original_title": "La narrativa del chileno Luis Sepúlveda",
+          "author_or_editor": "Juan Gabriel Araya G.",
+          "translator": "",
+          "publisher": "Universidad del Bío-Bío / Biblioteca Nacional Digital de Chile",
+          "publication_year": "",
+          "isbn": "",
+          "format": "web_page",
+          "page_count": "",
+          "language": "es",
+          "source_level": "A",
+          "processing_status": "access_pass",
+          "source_task": "WEB-CE-B16",
+          "public_content_scope": "Sepúlveda 1949; Un viejo que leía novelas de amor cited in a 1993 Tusquets initial-books list; Mundo del fin del mundo 1994; Historia de una gaviota y del gato que le enseñó a volar 1996; novel/travel narrative and children's-novel distinctions",
+          "local_asset_status": "remote_only",
+          "persistent_id": "",
+          "canonical_url": "https://www.bibliotecanacionaldigital.gob.cl/colecciones/BND/00/RC/RC0049657.pdf"
+        },
+        {
+          "source_id": "SRC-0279",
+          "temporary_id": "SOL-B16-B17-SRC-03",
+          "title": "湖南大学图书馆书目检索：Mundo del fin del mundo",
+          "original_title": "湖南大学图书馆书目检索：Mundo del fin del mundo",
+          "author_or_editor": "湖南大学图书馆",
+          "translator": "",
+          "publisher": "湖南大学图书馆",
+          "publication_year": "",
+          "isbn": "",
+          "format": "catalog_record",
+          "page_count": "",
+          "language": "zh",
+          "source_level": "B",
+          "processing_status": "access_pass",
+          "source_task": "SOL-AUDIT-REMEDIATION-B16-B17",
+          "public_content_scope": "Library-catalogue support for the published Chinese display title 《世界尽头的世界》",
+          "local_asset_status": "remote_only",
+          "persistent_id": "",
+          "canonical_url": "https://opac.hnu.edu.cn/opac/search?f_subject=%E7%8E%B0%E4%BB%A3&isFacet=true&logical0=AND&q=Mundo&rows=10&searchType=standard&searchWay0=marc&sortOrder=desc&sortWay=score&view=standard"
+        }
+      ],
+      "holds": [],
+      "hold_evidence": [],
+      "gaps": [],
+      "fresh_review": {
+        "source_refs": [],
+        "description": "完整基线闭包逐值保全。"
+      },
+      "remaining": "既有书目仅代表历史已收录，不表示完整目录。",
+      "candidate_facts": []
+    },
+    {
+      "object_ref": "WCD10-B19-W101",
+      "entity": {
+        "entity_id": "WCD10-B19-W101",
+        "entity_type": "work",
+        "original_name": "Nombre de torero",
+        "name_zh": "《斗牛士之名》"
+      },
+      "bibliography": "Memoria Chilena列Nombre de torero为Barcelona: Tusquets, 1994；PlanetadeLibros技术资料标注出版日期1994-10-01。此处保留来源所载书目/版本年份，不宣称已核定作者首版年份。",
+      "description": "金币失窃近五十年后，柏林墙已经倒塌；Juan Belmonte与Frank Galinsky分别受雇追寻金币。",
+      "research_status": "catalog_only",
+      "research_refs": [
+        "WCD10-B19-S102",
+        "WCD10-B19-S101",
+        "WCD10-B19-S105"
+      ],
+      "old_facts": [],
+      "cards": [],
+      "card_facts": [],
+      "card_sources": [],
+      "relations": [],
+      "relationship_sources": [],
+      "relationship_evidence": [],
+      "source_objects": [],
+      "holds": [],
+      "hold_evidence": [],
+      "gaps": [],
+      "fresh_review": {
+        "source_refs": [
+          "WCD10-B19-S102",
+          "WCD10-B19-S101",
+          "WCD10-B19-S105"
+        ],
+        "description": "仅基于本轮已打开直接来源。"
+      },
+      "remaining": "本轮只纳入来源可直接支持的重点作品，不声称目录穷尽或学术研究覆盖完整。",
+      "candidate_facts": [
+        {
+          "candidate_id": "WCD10-B19-W101-F01",
+          "field": "genre_or_form",
+          "value": "长篇小说",
+          "source_refs": [
+            "WCD10-B19-S102",
+            "WCD10-B19-S101"
+          ],
+          "subject_id": "WCD10-B19-W101"
+        },
+        {
+          "candidate_id": "WCD10-B19-W101-F02",
+          "field": "bibliographic_note",
+          "value": "Memoria Chilena列Nombre de torero为Barcelona: Tusquets, 1994；PlanetadeLibros技术资料标注出版日期1994-10-01。此处保留来源所载书目/版本年份，不宣称已核定作者首版年份。",
+          "source_refs": [
+            "WCD10-B19-S101",
+            "WCD10-B19-S105"
+          ],
+          "subject_id": "WCD10-B19-W101"
+        },
+        {
+          "candidate_id": "WCD10-B19-W101-F03",
+          "field": "one_sentence_summary",
+          "value": "金币失窃近五十年后，柏林墙已经倒塌；Juan Belmonte与Frank Galinsky分别受雇追寻金币。",
+          "source_refs": [
+            "WCD10-B19-S105"
+          ],
+          "subject_id": "WCD10-B19-W101"
+        }
+      ]
+    },
+    {
+      "object_ref": "WCD10-B19-W102",
+      "entity": {
+        "entity_id": "WCD10-B19-W102",
+        "entity_type": "work",
+        "original_name": "Patagonia Express",
+        "name_zh": "《巴塔哥尼亚快车》"
+      },
+      "bibliography": "BND文章将Patagonia Express列为1995年作品；Memoria Chilena列Barcelona: Tusquets, 1995。该年份按来源所列书目信息保留，不断言首版年。",
+      "description": "这部旅行叙事围绕作者在智利和阿根廷南部经历的空间与冒险，并兼及发生在厄瓜多尔的故事展开。",
+      "research_status": "catalog_only",
+      "research_refs": [
+        "WCD10-B19-S102",
+        "WCD10-B19-S101"
+      ],
+      "old_facts": [],
+      "cards": [],
+      "card_facts": [],
+      "card_sources": [],
+      "relations": [],
+      "relationship_sources": [],
+      "relationship_evidence": [],
+      "source_objects": [],
+      "holds": [],
+      "hold_evidence": [],
+      "gaps": [],
+      "fresh_review": {
+        "source_refs": [
+          "WCD10-B19-S102",
+          "WCD10-B19-S101"
+        ],
+        "description": "仅基于本轮已打开直接来源。"
+      },
+      "remaining": "本轮只纳入来源可直接支持的重点作品，不声称目录穷尽或学术研究覆盖完整。",
+      "candidate_facts": [
+        {
+          "candidate_id": "WCD10-B19-W102-F01",
+          "field": "genre_or_form",
+          "value": "旅行叙事",
+          "source_refs": [
+            "WCD10-B19-S102",
+            "WCD10-B19-S101"
+          ],
+          "subject_id": "WCD10-B19-W102"
+        },
+        {
+          "candidate_id": "WCD10-B19-W102-F02",
+          "field": "bibliographic_note",
+          "value": "BND文章将Patagonia Express列为1995年作品；Memoria Chilena列Barcelona: Tusquets, 1995。该年份按来源所列书目信息保留，不断言首版年。",
+          "source_refs": [
+            "WCD10-B19-S102",
+            "WCD10-B19-S101"
+          ],
+          "subject_id": "WCD10-B19-W102"
+        },
+        {
+          "candidate_id": "WCD10-B19-W102-F03",
+          "field": "one_sentence_summary",
+          "value": "这部旅行叙事围绕作者在智利和阿根廷南部经历的空间与冒险，并兼及发生在厄瓜多尔的故事展开。",
+          "source_refs": [
+            "WCD10-B19-S102"
+          ],
+          "subject_id": "WCD10-B19-W102"
+        }
+      ]
+    },
+    {
+      "object_ref": "WCD10-B19-W103",
+      "entity": {
+        "entity_id": "WCD10-B19-W103",
+        "entity_type": "collection",
+        "original_name": "Desencuentros",
+        "name_zh": "《错过》（检索译名）"
+      },
+      "bibliography": "BND文章将Desencuentros列为1997年故事集；该年份按来源所载书目信息保留，不断言首版年。",
+      "description": "Tusquets材料称本书汇集作者偏爱的旧作及未刊故事，共二十七篇，围绕愿望、情感与命运的错位展开。中文为检索译名，不声称正式中译本。",
+      "research_status": "catalog_only",
+      "research_refs": [
+        "WCD10-B19-S102",
+        "WCD10-B19-S104"
+      ],
+      "old_facts": [],
+      "cards": [],
+      "card_facts": [],
+      "card_sources": [],
+      "relations": [],
+      "relationship_sources": [],
+      "relationship_evidence": [],
+      "source_objects": [],
+      "holds": [],
+      "hold_evidence": [],
+      "gaps": [],
+      "fresh_review": {
+        "source_refs": [
+          "WCD10-B19-S102",
+          "WCD10-B19-S104"
+        ],
+        "description": "仅基于本轮已打开直接来源。"
+      },
+      "remaining": "本轮只纳入来源可直接支持的重点作品，不声称目录穷尽或学术研究覆盖完整。",
+      "candidate_facts": [
+        {
+          "candidate_id": "WCD10-B19-W103-F01",
+          "field": "genre_or_form",
+          "value": "短篇小说集",
+          "source_refs": [
+            "WCD10-B19-S102"
+          ],
+          "subject_id": "WCD10-B19-W103"
+        },
+        {
+          "candidate_id": "WCD10-B19-W103-F02",
+          "field": "bibliographic_note",
+          "value": "BND文章将Desencuentros列为1997年故事集；该年份按来源所载书目信息保留，不断言首版年。",
+          "source_refs": [
+            "WCD10-B19-S102"
+          ],
+          "subject_id": "WCD10-B19-W103"
+        },
+        {
+          "candidate_id": "WCD10-B19-W103-F03",
+          "field": "one_sentence_summary",
+          "value": "Tusquets材料称本书汇集作者偏爱的旧作及未刊故事，共二十七篇，围绕愿望、情感与命运的错位展开。中文为检索译名，不声称正式中译本。",
+          "source_refs": [
+            "WCD10-B19-S104"
+          ],
+          "subject_id": "WCD10-B19-W103"
+        }
+      ]
+    },
+    {
+      "object_ref": "WCD10-B19-W104",
+      "entity": {
+        "entity_id": "WCD10-B19-W104",
+        "entity_type": "collection",
+        "original_name": "Diario de un killer sentimental seguido de Yacaré",
+        "name_zh": "《一个多情杀手的日记》与《亚卡雷》（检索译名）"
+      },
+      "bibliography": "出版社资料注明Tusquets版于1998-06-01出版；BND文章亦列Diario…及Yacaré为1998年作品。本轮保留版本说明，不把合辑出版年原子化为两篇各自的首版年。",
+      "description": "Tusquets称本册收入两部中篇小说：一篇写职业杀手因恋爱而违背行规；另一篇写保险调查员从苏黎世转往米兰，深入巴西南部 anaré 与 yacaré 的世界。",
+      "research_status": "catalog_only",
+      "research_refs": [
+        "WCD10-B19-S103",
+        "WCD10-B19-S102"
+      ],
+      "old_facts": [],
+      "cards": [],
+      "card_facts": [],
+      "card_sources": [],
+      "relations": [],
+      "relationship_sources": [],
+      "relationship_evidence": [],
+      "source_objects": [],
+      "holds": [],
+      "hold_evidence": [],
+      "gaps": [],
+      "fresh_review": {
+        "source_refs": [
+          "WCD10-B19-S103",
+          "WCD10-B19-S102"
+        ],
+        "description": "仅基于本轮已打开直接来源。"
+      },
+      "remaining": "本轮只纳入来源可直接支持的重点作品，不声称目录穷尽或学术研究覆盖完整。",
+      "candidate_facts": [
+        {
+          "candidate_id": "WCD10-B19-W104-F01",
+          "field": "genre_or_form",
+          "value": "两部中篇小说合集",
+          "source_refs": [
+            "WCD10-B19-S103",
+            "WCD10-B19-S102"
+          ],
+          "subject_id": "WCD10-B19-W104"
+        },
+        {
+          "candidate_id": "WCD10-B19-W104-F02",
+          "field": "bibliographic_note",
+          "value": "出版社资料注明Tusquets版于1998-06-01出版；BND文章亦列Diario…及Yacaré为1998年作品。本轮保留版本说明，不把合辑出版年原子化为两篇各自的首版年。",
+          "source_refs": [
+            "WCD10-B19-S103",
+            "WCD10-B19-S102"
+          ],
+          "subject_id": "WCD10-B19-W104"
+        },
+        {
+          "candidate_id": "WCD10-B19-W104-F03",
+          "field": "one_sentence_summary",
+          "value": "Tusquets称本册收入两部中篇小说：一篇写职业杀手因恋爱而违背行规；另一篇写保险调查员从苏黎世转往米兰，深入巴西南部 anaré 与 yacaré 的世界。",
+          "source_refs": [
+            "WCD10-B19-S103"
+          ],
+          "subject_id": "WCD10-B19-W104"
+        }
+      ]
+    },
+    {
+      "object_ref": "V1-ENT-0350",
+      "entity": {
+        "entity_id": "V1-ENT-0350",
+        "entity_type": "work",
+        "name_zh": "《独生女儿》",
+        "original_name": "La hija única",
+        "canonical_status": "candidate",
+        "origin_count": "1",
+        "origin_refs": "CAND-B16-NETTEL-W01",
+        "normalization_basis": "Anagrama catalogue identifies the title as a novel and dates its publication to 16 September 2020",
+        "issue_codes": "NONE"
+      },
+      "bibliography": "冻结B19基线中的书目事实与卡片原样保留。",
+      "description": "本轮只补充出版社直接支持的有界简介；不覆盖基线事实、卡片、CREATED关系或来源链。",
+      "research_status": "catalog_only",
+      "research_refs": [
+        "SRC-0264",
+        "SRC-0280"
+      ],
+      "old_facts": [
+        {
+          "fact": {
+            "fact_id": "V1-FCT-0941",
+            "origin_material_id": "WEB-CE-B16",
+            "card_id": "V1-CARD-0237",
+            "subject_id": "V1-ENT-0350",
+            "fact_field": "entity_layer",
+            "value_text": "work",
+            "material_class": "metadata",
+            "origin_id": "SRC-0264",
+            "confidence": "high",
+            "admission_status": "candidate_for_staging_review",
+            "usage_note": "Entity layer is recorded as work."
+          },
+          "source_chain": [
+            {
+              "fact_id": "V1-FCT-0941",
+              "source_id": "SRC-0264",
+              "source_title": "La hija única"
+            }
+          ]
+        },
+        {
+          "fact": {
+            "fact_id": "V1-FCT-0942",
+            "origin_material_id": "WEB-CE-B16",
+            "card_id": "V1-CARD-0237",
+            "subject_id": "V1-ENT-0350",
+            "fact_field": "first_publication_year",
+            "value_text": "2020",
+            "material_class": "bibliographic",
+            "origin_id": "SRC-0264",
+            "confidence": "high",
+            "admission_status": "candidate_for_staging_review",
+            "usage_note": "Cited source dates the title to 2020."
+          },
+          "source_chain": [
+            {
+              "fact_id": "V1-FCT-0942",
+              "source_id": "SRC-0264",
+              "source_title": "La hija única"
+            }
+          ]
+        },
+        {
+          "fact": {
+            "fact_id": "V1-FCT-0943",
+            "origin_material_id": "WEB-CE-B16",
+            "card_id": "V1-CARD-0237",
+            "subject_id": "V1-ENT-0350",
+            "fact_field": "genre_or_form",
+            "value_text": "小说",
+            "material_class": "bibliographic",
+            "origin_id": "SRC-0264",
+            "confidence": "high",
+            "admission_status": "candidate_for_staging_review",
+            "usage_note": "Cited source supports the conservative form label 小说."
+          },
+          "source_chain": [
+            {
+              "fact_id": "V1-FCT-0943",
+              "source_id": "SRC-0264",
+              "source_title": "La hija única"
+            }
+          ]
+        }
+      ],
+      "cards": [
+        {
+          "card_id": "V1-CARD-0237",
+          "origin_card_id": "",
+          "subject_id": "V1-ENT-0350",
+          "card_type": "work",
+          "title_zh": "《独生女儿》",
+          "author_label": "瓜达卢佩·内特尔",
+          "original_title": "La hija única",
+          "country_or_region": "墨西哥",
+          "language": "es",
+          "period_bucket": "2020",
+          "genre_or_form": "小说",
+          "input_layer": "WEB-CE-B16",
+          "source_minimum_status": "meets",
+          "issue_code": "NONE",
+          "content_markdown": "### 《独生女儿》｜La hija única — source-backed 小说 entry; original title retained."
+        }
+      ],
+      "card_facts": [
+        {
+          "card_id": "V1-CARD-0237",
+          "fact_id": "V1-FCT-0941",
+          "admission_status": "candidate_for_staging_review"
+        },
+        {
+          "card_id": "V1-CARD-0237",
+          "fact_id": "V1-FCT-0942",
+          "admission_status": "candidate_for_staging_review"
+        },
+        {
+          "card_id": "V1-CARD-0237",
+          "fact_id": "V1-FCT-0943",
+          "admission_status": "candidate_for_staging_review"
+        }
+      ],
+      "card_sources": [
+        {
+          "card_source_id": "V1-CS-0467",
+          "origin_matrix_id": "",
+          "card_id": "V1-CARD-0237",
+          "source_id": "SRC-0264",
+          "source_level": "B",
+          "source_role": "both",
+          "bibliographic_support": "yes",
+          "research_support": "yes",
+          "independent_source_key": "SRC-0264",
+          "usage_status": "used",
+          "issue_code": "NONE"
+        },
+        {
+          "card_source_id": "V1-CS-0503",
+          "origin_matrix_id": "SOL-AUDIT-B16-B17",
+          "card_id": "V1-CARD-0237",
+          "source_id": "SRC-0280",
+          "source_level": "C",
+          "source_role": "display",
+          "bibliographic_support": "yes",
+          "research_support": "no",
+          "independent_source_key": "SRC-0280",
+          "usage_status": "used",
+          "issue_code": "NONE"
+        }
+      ],
+      "relations": [
+        {
+          "relationship_id": "V1-REL-0275",
+          "origin_layer": "WEB-CE-B16",
+          "origin_relation_group_id": "V1-REL-0275",
+          "subject_id": "V1-ENT-0345",
+          "relation_type": "CREATED",
+          "object_id": "V1-ENT-0350",
+          "description_zh": "瓜达卢佩·内特尔创作《独生女儿》（La hija única）",
+          "confidence": "high",
+          "review_status": "accepted",
+          "upstream_review_status": "WEB-CE-B16",
+          "evidence_count": "1",
+          "issue_code": "NONE"
+        }
+      ],
+      "relationship_sources": [
+        {
+          "relationship_id": "V1-REL-0275",
+          "source_id": "SRC-0264"
+        }
+      ],
+      "relationship_evidence": [
+        {
+          "evidence_id": "V1-EV-0300",
+          "relationship_id": "V1-REL-0275",
+          "origin_evidence_id": "V1-REL-0275",
+          "source_id": "SRC-0264",
+          "source_title": "La hija única",
+          "locator": "",
+          "evidence_note": "La hija única directly links the author and cited work/place relation.",
+          "confidence": "high",
+          "evidence_status": "eligible_evidence",
+          "evidence_origin": "WEB-CE-B16"
+        }
+      ],
+      "source_objects": [
+        {
+          "source_id": "SRC-0264",
+          "temporary_id": "B16-SRC-0264",
+          "title": "La hija única",
+          "original_title": "La hija única",
+          "author_or_editor": "Editorial Anagrama",
+          "translator": "",
+          "publisher": "Editorial Anagrama",
+          "publication_year": "",
+          "isbn": "",
+          "format": "web_page",
+          "page_count": "",
+          "language": "es",
+          "source_level": "B",
+          "processing_status": "access_pass",
+          "source_task": "WEB-CE-B16",
+          "public_content_scope": "La hija única title, Guadalupe Nettel attribution, novel form and 16 September 2020 publication",
+          "local_asset_status": "remote_only",
+          "persistent_id": "",
+          "canonical_url": "https://www.anagrama-ed.es/libro/narrativas-hispanicas/la-hija-unica/9788433999061/NH_652"
+        },
+        {
+          "source_id": "SRC-0280",
+          "temporary_id": "SOL-B16-B17-SRC-04",
+          "title": "瓜达卢佩·内特尔作品（三册）",
+          "original_title": "瓜达卢佩·内特尔作品（三册）",
+          "author_or_editor": "新华文轩网络书店",
+          "translator": "",
+          "publisher": "广西师范大学出版社",
+          "publication_year": "2025",
+          "isbn": "",
+          "format": "catalog_record",
+          "page_count": "",
+          "language": "zh",
+          "source_level": "C",
+          "processing_status": "access_pass",
+          "source_task": "SOL-AUDIT-REMEDIATION-B16-B17",
+          "public_content_scope": "Published Chinese-title support for 《独生女儿》《真正的孤独》《红鱼之姻》; display/bibliographic use only",
+          "local_asset_status": "remote_only",
+          "persistent_id": "",
+          "canonical_url": "https://www.96192.com/product/detail/1177695"
+        }
+      ],
+      "holds": [],
+      "gaps": [],
+      "fresh_review": true,
+      "remaining": "已按本轮出版社直接来源增补短简介；不代表全集或学术研究覆盖。",
+      "source_author_id": "V1-ENT-0345",
+      "candidate_facts": [
+        {
+          "candidate_id": "WCD10-B19-F213",
+          "field": "one_sentence_summary",
+          "value": "出版社简介以三名女性及不同的母职经验为线索，涉及Alina在孕晚期被告知女儿出生后可能无法存活、夫妻由此经历预期丧失与哀悼，以及邻居单亲母子面对的处境。",
+          "source_refs": [
+            "WCD10-B19-S206"
+          ],
+          "subject_id": "V1-ENT-0350"
+        }
+      ]
+    },
+    {
+      "object_ref": "V1-ENT-0351",
+      "entity": {
+        "entity_id": "V1-ENT-0351",
+        "entity_type": "collection",
+        "name_zh": "《红鱼之姻》",
+        "original_name": "El matrimonio de los peces rojos",
+        "canonical_status": "candidate",
+        "origin_count": "1",
+        "origin_refs": "CAND-B16-NETTEL-W02",
+        "normalization_basis": "Páginas de Espuma catalogue dates the book to May 2013 and describes five narrations",
+        "issue_codes": "NONE"
+      },
+      "bibliography": "冻结B19基线中的书目事实与卡片原样保留。",
+      "description": "本轮仅增补独立简介事实；基线卡片、事实、CREATED关系及全部来源/证据链逐值快照。",
+      "research_status": "catalog_only",
+      "research_refs": [
+        "SRC-0265",
+        "SRC-0280"
+      ],
+      "old_facts": [
+        {
+          "fact": {
+            "fact_id": "V1-FCT-0944",
+            "origin_material_id": "WEB-CE-B16",
+            "card_id": "V1-CARD-0238",
+            "subject_id": "V1-ENT-0351",
+            "fact_field": "entity_layer",
+            "value_text": "collection",
+            "material_class": "metadata",
+            "origin_id": "SRC-0265",
+            "confidence": "high",
+            "admission_status": "candidate_for_staging_review",
+            "usage_note": "Entity layer is recorded as collection."
+          },
+          "source_chain": [
+            {
+              "fact_id": "V1-FCT-0944",
+              "source_id": "SRC-0265",
+              "source_title": "El matrimonio de los peces rojos"
+            }
+          ]
+        },
+        {
+          "fact": {
+            "fact_id": "V1-FCT-0945",
+            "origin_material_id": "WEB-CE-B16",
+            "card_id": "V1-CARD-0238",
+            "subject_id": "V1-ENT-0351",
+            "fact_field": "first_publication_year",
+            "value_text": "2013",
+            "material_class": "bibliographic",
+            "origin_id": "SRC-0265",
+            "confidence": "high",
+            "admission_status": "candidate_for_staging_review",
+            "usage_note": "Cited source dates the title to 2013."
+          },
+          "source_chain": [
+            {
+              "fact_id": "V1-FCT-0945",
+              "source_id": "SRC-0265",
+              "source_title": "El matrimonio de los peces rojos"
+            }
+          ]
+        },
+        {
+          "fact": {
+            "fact_id": "V1-FCT-0946",
+            "origin_material_id": "WEB-CE-B16",
+            "card_id": "V1-CARD-0238",
+            "subject_id": "V1-ENT-0351",
+            "fact_field": "genre_or_form",
+            "value_text": "短篇小说集",
+            "material_class": "bibliographic",
+            "origin_id": "SRC-0265",
+            "confidence": "high",
+            "admission_status": "candidate_for_staging_review",
+            "usage_note": "Cited source supports the conservative form label 短篇小说集."
+          },
+          "source_chain": [
+            {
+              "fact_id": "V1-FCT-0946",
+              "source_id": "SRC-0265",
+              "source_title": "El matrimonio de los peces rojos"
+            }
+          ]
+        }
+      ],
+      "cards": [
+        {
+          "card_id": "V1-CARD-0238",
+          "origin_card_id": "",
+          "subject_id": "V1-ENT-0351",
+          "card_type": "collection",
+          "title_zh": "《红鱼之姻》",
+          "author_label": "瓜达卢佩·内特尔",
+          "original_title": "El matrimonio de los peces rojos",
+          "country_or_region": "墨西哥",
+          "language": "es",
+          "period_bucket": "2013",
+          "genre_or_form": "短篇小说集",
+          "input_layer": "WEB-CE-B16",
+          "source_minimum_status": "meets",
+          "issue_code": "NONE",
+          "content_markdown": "### 《红鱼之姻》｜El matrimonio de los peces rojos — source-backed 短篇小说集 entry; original title retained."
+        }
+      ],
+      "card_facts": [
+        {
+          "card_id": "V1-CARD-0238",
+          "fact_id": "V1-FCT-0944",
+          "admission_status": "candidate_for_staging_review"
+        },
+        {
+          "card_id": "V1-CARD-0238",
+          "fact_id": "V1-FCT-0945",
+          "admission_status": "candidate_for_staging_review"
+        },
+        {
+          "card_id": "V1-CARD-0238",
+          "fact_id": "V1-FCT-0946",
+          "admission_status": "candidate_for_staging_review"
+        }
+      ],
+      "card_sources": [
+        {
+          "card_source_id": "V1-CS-0468",
+          "origin_matrix_id": "",
+          "card_id": "V1-CARD-0238",
+          "source_id": "SRC-0265",
+          "source_level": "B",
+          "source_role": "both",
+          "bibliographic_support": "yes",
+          "research_support": "yes",
+          "independent_source_key": "SRC-0265",
+          "usage_status": "used",
+          "issue_code": "NONE"
+        },
+        {
+          "card_source_id": "V1-CS-0504",
+          "origin_matrix_id": "SOL-AUDIT-B16-B17",
+          "card_id": "V1-CARD-0238",
+          "source_id": "SRC-0280",
+          "source_level": "C",
+          "source_role": "display",
+          "bibliographic_support": "yes",
+          "research_support": "no",
+          "independent_source_key": "SRC-0280",
+          "usage_status": "used",
+          "issue_code": "NONE"
+        }
+      ],
+      "relations": [
+        {
+          "relationship_id": "V1-REL-0276",
+          "origin_layer": "WEB-CE-B16",
+          "origin_relation_group_id": "V1-REL-0276",
+          "subject_id": "V1-ENT-0345",
+          "relation_type": "CREATED",
+          "object_id": "V1-ENT-0351",
+          "description_zh": "瓜达卢佩·内特尔创作《红鱼之姻》（El matrimonio de los peces rojos）",
+          "confidence": "high",
+          "review_status": "accepted",
+          "upstream_review_status": "WEB-CE-B16",
+          "evidence_count": "1",
+          "issue_code": "NONE"
+        }
+      ],
+      "relationship_sources": [
+        {
+          "relationship_id": "V1-REL-0276",
+          "source_id": "SRC-0265"
+        }
+      ],
+      "relationship_evidence": [
+        {
+          "evidence_id": "V1-EV-0301",
+          "relationship_id": "V1-REL-0276",
+          "origin_evidence_id": "V1-REL-0276",
+          "source_id": "SRC-0265",
+          "source_title": "El matrimonio de los peces rojos",
+          "locator": "",
+          "evidence_note": "El matrimonio de los peces rojos directly links the author and cited work/place relation.",
+          "confidence": "high",
+          "evidence_status": "eligible_evidence",
+          "evidence_origin": "WEB-CE-B16"
+        }
+      ],
+      "source_objects": [
+        {
+          "source_id": "SRC-0265",
+          "temporary_id": "B16-SRC-0265",
+          "title": "El matrimonio de los peces rojos",
+          "original_title": "El matrimonio de los peces rojos",
+          "author_or_editor": "Editorial Páginas de Espuma",
+          "translator": "",
+          "publisher": "Páginas de Espuma",
+          "publication_year": "",
+          "isbn": "",
+          "format": "web_page",
+          "page_count": "",
+          "language": "es",
+          "source_level": "B",
+          "processing_status": "access_pass",
+          "source_task": "WEB-CE-B16",
+          "public_content_scope": "El matrimonio de los peces rojos title, Guadalupe Nettel attribution, May 2013 publication and five-narration story-collection description",
+          "local_asset_status": "remote_only",
+          "persistent_id": "",
+          "canonical_url": "https://paginasdeespuma.com/libro/el-matrimonio-de-los-peces-rojos/"
+        },
+        {
+          "source_id": "SRC-0280",
+          "temporary_id": "SOL-B16-B17-SRC-04",
+          "title": "瓜达卢佩·内特尔作品（三册）",
+          "original_title": "瓜达卢佩·内特尔作品（三册）",
+          "author_or_editor": "新华文轩网络书店",
+          "translator": "",
+          "publisher": "广西师范大学出版社",
+          "publication_year": "2025",
+          "isbn": "",
+          "format": "catalog_record",
+          "page_count": "",
+          "language": "zh",
+          "source_level": "C",
+          "processing_status": "access_pass",
+          "source_task": "SOL-AUDIT-REMEDIATION-B16-B17",
+          "public_content_scope": "Published Chinese-title support for 《独生女儿》《真正的孤独》《红鱼之姻》; display/bibliographic use only",
+          "local_asset_status": "remote_only",
+          "persistent_id": "",
+          "canonical_url": "https://www.96192.com/product/detail/1177695"
+        }
+      ],
+      "holds": [],
+      "gaps": [],
+      "fresh_review": true,
+      "remaining": "已按本轮出版社直接来源增补短简介；不代表全集或学术研究覆盖。",
+      "source_author_id": "V1-ENT-0345",
+      "candidate_facts": [
+        {
+          "candidate_id": "WCD10-B19-F214",
+          "field": "one_sentence_summary",
+          "value": "出版社称本集包含五篇叙事，以动物与人的世界交错书写伴侣关系、母职、青春期危机及亲密关系中的隐秘面向。",
+          "source_refs": [
+            "WCD10-B19-S207"
+          ],
+          "subject_id": "V1-ENT-0351"
+        }
+      ]
+    },
+    {
+      "object_ref": "V1-ENT-0352",
+      "entity": {
+        "entity_id": "V1-ENT-0352",
+        "entity_type": "collection",
+        "name_zh": "《真正的孤独》",
+        "original_name": "Pétalos y otras historias incómodas",
+        "canonical_status": "candidate",
+        "origin_count": "1",
+        "origin_refs": "CAND-B16-NETTEL-W03",
+        "normalization_basis": "Published Chinese title in the 2025 Guangxi Normal University Press three-volume set; original title and 2008 source record retained.",
+        "issue_codes": "NONE"
+      },
+      "bibliography": "冻结B19基线中的书目事实与卡片原样保留。",
+      "description": "本轮仅增补独立简介事实；基线卡片、事实、CREATED关系及全部来源/证据链逐值快照。",
+      "research_status": "catalog_only",
+      "research_refs": [
+        "SRC-0266",
+        "SRC-0280"
+      ],
+      "old_facts": [
+        {
+          "fact": {
+            "fact_id": "V1-FCT-0947",
+            "origin_material_id": "WEB-CE-B16",
+            "card_id": "V1-CARD-0239",
+            "subject_id": "V1-ENT-0352",
+            "fact_field": "entity_layer",
+            "value_text": "collection",
+            "material_class": "metadata",
+            "origin_id": "SRC-0266",
+            "confidence": "high",
+            "admission_status": "candidate_for_staging_review",
+            "usage_note": "Entity layer is recorded as collection."
+          },
+          "source_chain": [
+            {
+              "fact_id": "V1-FCT-0947",
+              "source_id": "SRC-0266",
+              "source_title": "Petals and other awkward stories"
+            }
+          ]
+        },
+        {
+          "fact": {
+            "fact_id": "V1-FCT-0948",
+            "origin_material_id": "WEB-CE-B16",
+            "card_id": "V1-CARD-0239",
+            "subject_id": "V1-ENT-0352",
+            "fact_field": "first_publication_year",
+            "value_text": "2008",
+            "material_class": "bibliographic",
+            "origin_id": "SRC-0266",
+            "confidence": "high",
+            "admission_status": "candidate_for_staging_review",
+            "usage_note": "Cited source dates the title to 2008."
+          },
+          "source_chain": [
+            {
+              "fact_id": "V1-FCT-0948",
+              "source_id": "SRC-0266",
+              "source_title": "Petals and other awkward stories"
+            }
+          ]
+        },
+        {
+          "fact": {
+            "fact_id": "V1-FCT-0949",
+            "origin_material_id": "WEB-CE-B16",
+            "card_id": "V1-CARD-0239",
+            "subject_id": "V1-ENT-0352",
+            "fact_field": "genre_or_form",
+            "value_text": "短篇小说集",
+            "material_class": "bibliographic",
+            "origin_id": "SRC-0266",
+            "confidence": "high",
+            "admission_status": "candidate_for_staging_review",
+            "usage_note": "Cited source supports the conservative form label 短篇小说集."
+          },
+          "source_chain": [
+            {
+              "fact_id": "V1-FCT-0949",
+              "source_id": "SRC-0266",
+              "source_title": "Petals and other awkward stories"
+            }
+          ]
+        }
+      ],
+      "cards": [
+        {
+          "card_id": "V1-CARD-0239",
+          "origin_card_id": "",
+          "subject_id": "V1-ENT-0352",
+          "card_type": "collection",
+          "title_zh": "《真正的孤独》",
+          "author_label": "瓜达卢佩·内特尔",
+          "original_title": "Pétalos y otras historias incómodas",
+          "country_or_region": "墨西哥",
+          "language": "es",
+          "period_bucket": "2008",
+          "genre_or_form": "短篇小说集",
+          "input_layer": "WEB-CE-B16",
+          "source_minimum_status": "meets",
+          "issue_code": "NONE",
+          "content_markdown": "### 《真正的孤独》｜Pétalos y otras historias incómodas — source-backed 短篇小说集 entry; original title retained."
+        }
+      ],
+      "card_facts": [
+        {
+          "card_id": "V1-CARD-0239",
+          "fact_id": "V1-FCT-0947",
+          "admission_status": "candidate_for_staging_review"
+        },
+        {
+          "card_id": "V1-CARD-0239",
+          "fact_id": "V1-FCT-0948",
+          "admission_status": "candidate_for_staging_review"
+        },
+        {
+          "card_id": "V1-CARD-0239",
+          "fact_id": "V1-FCT-0949",
+          "admission_status": "candidate_for_staging_review"
+        }
+      ],
+      "card_sources": [
+        {
+          "card_source_id": "V1-CS-0469",
+          "origin_matrix_id": "",
+          "card_id": "V1-CARD-0239",
+          "source_id": "SRC-0266",
+          "source_level": "B",
+          "source_role": "both",
+          "bibliographic_support": "yes",
+          "research_support": "yes",
+          "independent_source_key": "SRC-0266",
+          "usage_status": "used",
+          "issue_code": "NONE"
+        },
+        {
+          "card_source_id": "V1-CS-0505",
+          "origin_matrix_id": "SOL-AUDIT-B16-B17",
+          "card_id": "V1-CARD-0239",
+          "source_id": "SRC-0280",
+          "source_level": "C",
+          "source_role": "display",
+          "bibliographic_support": "yes",
+          "research_support": "no",
+          "independent_source_key": "SRC-0280",
+          "usage_status": "used",
+          "issue_code": "NONE"
+        }
+      ],
+      "relations": [
+        {
+          "relationship_id": "V1-REL-0277",
+          "origin_layer": "WEB-CE-B16",
+          "origin_relation_group_id": "V1-REL-0277",
+          "subject_id": "V1-ENT-0345",
+          "relation_type": "CREATED",
+          "object_id": "V1-ENT-0352",
+          "description_zh": "瓜达卢佩·内特尔创作《真正的孤独》（Pétalos y otras historias incómodas）",
+          "confidence": "high",
+          "review_status": "accepted",
+          "upstream_review_status": "WEB-CE-B16",
+          "evidence_count": "1",
+          "issue_code": "NONE"
+        }
+      ],
+      "relationship_sources": [
+        {
+          "relationship_id": "V1-REL-0277",
+          "source_id": "SRC-0266"
+        }
+      ],
+      "relationship_evidence": [
+        {
+          "evidence_id": "V1-EV-0302",
+          "relationship_id": "V1-REL-0277",
+          "origin_evidence_id": "V1-REL-0277",
+          "source_id": "SRC-0266",
+          "source_title": "Petals and other awkward stories",
+          "locator": "",
+          "evidence_note": "Petals and other awkward stories directly links the author and cited work/place relation.",
+          "confidence": "high",
+          "evidence_status": "eligible_evidence",
+          "evidence_origin": "WEB-CE-B16"
+        }
+      ],
+      "source_objects": [
+        {
+          "source_id": "SRC-0266",
+          "temporary_id": "B16-SRC-0266",
+          "title": "Petals and other awkward stories",
+          "original_title": "Pétalos y otras historias incómodas",
+          "author_or_editor": "Editorial Anagrama",
+          "translator": "",
+          "publisher": "Editorial Anagrama",
+          "publication_year": "",
+          "isbn": "",
+          "format": "web_page",
+          "page_count": "",
+          "language": "en",
+          "source_level": "B",
+          "processing_status": "access_pass",
+          "source_task": "WEB-CE-B16",
+          "public_content_scope": "Pétalos y otras historias incómodas original title, Guadalupe Nettel attribution, short-story description and 4 February 2008 publication",
+          "local_asset_status": "remote_only",
+          "persistent_id": "",
+          "canonical_url": "https://www.anagrama-ed.es/foreign-rights/book/narrativas-hispanicas/petalos-y-otras-historias-incomodas/9788433971661/NH_428"
+        },
+        {
+          "source_id": "SRC-0280",
+          "temporary_id": "SOL-B16-B17-SRC-04",
+          "title": "瓜达卢佩·内特尔作品（三册）",
+          "original_title": "瓜达卢佩·内特尔作品（三册）",
+          "author_or_editor": "新华文轩网络书店",
+          "translator": "",
+          "publisher": "广西师范大学出版社",
+          "publication_year": "2025",
+          "isbn": "",
+          "format": "catalog_record",
+          "page_count": "",
+          "language": "zh",
+          "source_level": "C",
+          "processing_status": "access_pass",
+          "source_task": "SOL-AUDIT-REMEDIATION-B16-B17",
+          "public_content_scope": "Published Chinese-title support for 《独生女儿》《真正的孤独》《红鱼之姻》; display/bibliographic use only",
+          "local_asset_status": "remote_only",
+          "persistent_id": "",
+          "canonical_url": "https://www.96192.com/product/detail/1177695"
+        }
+      ],
+      "holds": [],
+      "gaps": [],
+      "fresh_review": true,
+      "remaining": "已按本轮出版社直接来源增补短简介；不代表全集或学术研究覆盖。",
+      "source_author_id": "V1-ENT-0345",
+      "candidate_facts": [
+        {
+          "candidate_id": "WCD10-B19-F215",
+          "field": "one_sentence_summary",
+          "value": "出版社将其描述为六篇“令人不安的故事”，人物各有隐秘癖好或异于常态的生活方式，写被日常表象遮住的异质经验。",
+          "source_refs": [
+            "WCD10-B19-S208"
+          ],
+          "subject_id": "V1-ENT-0352"
+        }
+      ]
+    },
+    {
+      "object_ref": "WCD10-B19-W201",
+      "entity": {
+        "entity_id": "WCD10-B19-W201",
+        "entity_type": "work",
+        "name_zh": "El huésped",
+        "original_name": "El huésped",
+        "canonical_status": "candidate",
+        "origin_count": "1",
+        "origin_refs": "WCD10-B19-W201",
+        "normalization_basis": "出版者直接列明作品题名、作者、作品类别、页面版本日期和有界简介；按书籍层级登记，不扩展到篇目或版次实体。",
+        "issue_codes": "NONE"
+      },
+      "bibliography": "Anagrama产品页PUBLICACIÓN日期为2006-01-01；本值仅记录该页面所示版本日期，不宣称首版年份。首版年原子值留空。",
+      "description": "### El huésped｜El huésped — 出版社将其称为内特尔的第一部小说：少女安娜与一个或许只是想象的“寄居者”抗衡，叙事延伸至成年后的失明经验与墨西哥城地下世界。",
+      "research_status": "institutional_commentary",
+      "research_refs": [
+        "WCD10-B19-S201",
+        "WCD10-B19-S205"
+      ],
+      "old_facts": [],
+      "cards": [],
+      "card_facts": [],
+      "card_sources": [],
+      "relations": [],
+      "relationship_sources": [],
+      "relationship_evidence": [],
+      "source_objects": [],
+      "holds": [],
+      "gaps": [],
+      "fresh_review": true,
+      "remaining": "单一出版社目录直接支持书目、体裁与有界简介；未声称学术覆盖。",
+      "source_author_id": "V1-ENT-0345",
+      "candidate_facts": [
+        {
+          "candidate_id": "WCD10-B19-F201",
+          "field": "genre_or_form",
+          "value": "小说",
+          "source_refs": [
+            "WCD10-B19-S201"
+          ],
+          "subject_id": "WCD10-B19-W201"
+        },
+        {
+          "candidate_id": "WCD10-B19-F202",
+          "field": "bibliographic_note",
+          "value": "Anagrama产品页PUBLICACIÓN日期为2006-01-01；本值仅记录该页面所示版本日期，不宣称首版年份。首版年原子值留空。",
+          "source_refs": [
+            "WCD10-B19-S201"
+          ],
+          "subject_id": "WCD10-B19-W201"
+        },
+        {
+          "candidate_id": "WCD10-B19-F203",
+          "field": "one_sentence_summary",
+          "value": "出版社将其称为内特尔的第一部小说：少女安娜与一个或许只是想象的“寄居者”抗衡，叙事延伸至成年后的失明经验与墨西哥城地下世界。",
+          "source_refs": [
+            "WCD10-B19-S201"
+          ],
+          "subject_id": "WCD10-B19-W201"
+        }
+      ]
+    },
+    {
+      "object_ref": "WCD10-B19-W202",
+      "entity": {
+        "entity_id": "WCD10-B19-W202",
+        "entity_type": "work",
+        "name_zh": "El cuerpo en que nací",
+        "original_name": "El cuerpo en que nací",
+        "canonical_status": "candidate",
+        "origin_count": "1",
+        "origin_refs": "WCD10-B19-W202",
+        "normalization_basis": "出版者直接列明作品题名、作者、作品类别、页面版本日期和有界简介；按书籍层级登记，不扩展到篇目或版次实体。",
+        "issue_codes": "NONE"
+      },
+      "bibliography": "Anagrama产品页PUBLICACIÓN日期为2011-10-01；本值仅记录该页面所示版本日期，不宣称首版年份。首版年原子值留空。",
+      "description": "### El cuerpo en que nací｜El cuerpo en que nací — 出版社简介称小说受作者童年启发，围绕一名眼部先天缺陷女孩的成长、家庭与自我接纳展开，并以咨询室独白框架回忆往事。",
+      "research_status": "institutional_commentary",
+      "research_refs": [
+        "WCD10-B19-S202",
+        "WCD10-B19-S205"
+      ],
+      "old_facts": [],
+      "cards": [],
+      "card_facts": [],
+      "card_sources": [],
+      "relations": [],
+      "relationship_sources": [],
+      "relationship_evidence": [],
+      "source_objects": [],
+      "holds": [],
+      "gaps": [],
+      "fresh_review": true,
+      "remaining": "单一出版社目录直接支持书目、体裁与有界简介；未声称学术覆盖。",
+      "source_author_id": "V1-ENT-0345",
+      "candidate_facts": [
+        {
+          "candidate_id": "WCD10-B19-F204",
+          "field": "genre_or_form",
+          "value": "小说",
+          "source_refs": [
+            "WCD10-B19-S202"
+          ],
+          "subject_id": "WCD10-B19-W202"
+        },
+        {
+          "candidate_id": "WCD10-B19-F205",
+          "field": "bibliographic_note",
+          "value": "Anagrama产品页PUBLICACIÓN日期为2011-10-01；本值仅记录该页面所示版本日期，不宣称首版年份。首版年原子值留空。",
+          "source_refs": [
+            "WCD10-B19-S202"
+          ],
+          "subject_id": "WCD10-B19-W202"
+        },
+        {
+          "candidate_id": "WCD10-B19-F206",
+          "field": "one_sentence_summary",
+          "value": "出版社简介称小说受作者童年启发，围绕一名眼部先天缺陷女孩的成长、家庭与自我接纳展开，并以咨询室独白框架回忆往事。",
+          "source_refs": [
+            "WCD10-B19-S202"
+          ],
+          "subject_id": "WCD10-B19-W202"
+        }
+      ]
+    },
+    {
+      "object_ref": "WCD10-B19-W203",
+      "entity": {
+        "entity_id": "WCD10-B19-W203",
+        "entity_type": "work",
+        "name_zh": "Después del invierno",
+        "original_name": "Después del invierno",
+        "canonical_status": "candidate",
+        "origin_count": "1",
+        "origin_refs": "WCD10-B19-W203",
+        "normalization_basis": "出版者直接列明作品题名、作者、作品类别、页面版本日期和有界简介；按书籍层级登记，不扩展到篇目或版次实体。",
+        "issue_codes": "NONE"
+      },
+      "bibliography": "Anagrama产品页PUBLICACIÓN日期为2014-11-19；本值仅记录该页面所示版本日期，不宣称首版年份。首版年原子值留空。",
+      "description": "### Después del invierno｜Después del invierno — 出版社简介交织古巴裔Claudio与墨西哥裔Cecilia在纽约、巴黎的生活，写两人的亲密关系、孤独与各自的过往。",
+      "research_status": "institutional_commentary",
+      "research_refs": [
+        "WCD10-B19-S203",
+        "WCD10-B19-S205"
+      ],
+      "old_facts": [],
+      "cards": [],
+      "card_facts": [],
+      "card_sources": [],
+      "relations": [],
+      "relationship_sources": [],
+      "relationship_evidence": [],
+      "source_objects": [],
+      "holds": [],
+      "gaps": [],
+      "fresh_review": true,
+      "remaining": "单一出版社目录直接支持书目、体裁与有界简介；未声称学术覆盖。",
+      "source_author_id": "V1-ENT-0345",
+      "candidate_facts": [
+        {
+          "candidate_id": "WCD10-B19-F207",
+          "field": "genre_or_form",
+          "value": "小说",
+          "source_refs": [
+            "WCD10-B19-S203"
+          ],
+          "subject_id": "WCD10-B19-W203"
+        },
+        {
+          "candidate_id": "WCD10-B19-F208",
+          "field": "bibliographic_note",
+          "value": "Anagrama产品页PUBLICACIÓN日期为2014-11-19；本值仅记录该页面所示版本日期，不宣称首版年份。首版年原子值留空。",
+          "source_refs": [
+            "WCD10-B19-S203"
+          ],
+          "subject_id": "WCD10-B19-W203"
+        },
+        {
+          "candidate_id": "WCD10-B19-F209",
+          "field": "one_sentence_summary",
+          "value": "出版社简介交织古巴裔Claudio与墨西哥裔Cecilia在纽约、巴黎的生活，写两人的亲密关系、孤独与各自的过往。",
+          "source_refs": [
+            "WCD10-B19-S203"
+          ],
+          "subject_id": "WCD10-B19-W203"
+        }
+      ]
+    },
+    {
+      "object_ref": "WCD10-B19-W204",
+      "entity": {
+        "entity_id": "WCD10-B19-W204",
+        "entity_type": "collection",
+        "name_zh": "Los divagantes",
+        "original_name": "Los divagantes",
+        "canonical_status": "candidate",
+        "origin_count": "1",
+        "origin_refs": "WCD10-B19-W204",
+        "normalization_basis": "出版者直接列明作品题名、作者、作品类别、页面版本日期和有界简介；按书籍层级登记，不扩展到篇目或版次实体。",
+        "issue_codes": "NONE"
+      },
+      "bibliography": "Anagrama产品页PUBLICACIÓN日期为2023-09-06；本值仅记录该页面所示版本日期，不宣称首版年份。首版年原子值留空。",
+      "description": "### Los divagantes｜Los divagantes — 出版社称本书收录八篇故事，人物因意外离开惯常生活，在现实与幻想之间遭遇陌生处境，并面对成功与失败的执念。",
+      "research_status": "institutional_commentary",
+      "research_refs": [
+        "WCD10-B19-S204",
+        "WCD10-B19-S205"
+      ],
+      "old_facts": [],
+      "cards": [],
+      "card_facts": [],
+      "card_sources": [],
+      "relations": [],
+      "relationship_sources": [],
+      "relationship_evidence": [],
+      "source_objects": [],
+      "holds": [],
+      "gaps": [],
+      "fresh_review": true,
+      "remaining": "单一出版社目录直接支持书目、体裁与有界简介；未声称学术覆盖。",
+      "source_author_id": "V1-ENT-0345",
+      "candidate_facts": [
+        {
+          "candidate_id": "WCD10-B19-F210",
+          "field": "genre_or_form",
+          "value": "短篇小说集",
+          "source_refs": [
+            "WCD10-B19-S204"
+          ],
+          "subject_id": "WCD10-B19-W204"
+        },
+        {
+          "candidate_id": "WCD10-B19-F211",
+          "field": "bibliographic_note",
+          "value": "Anagrama产品页PUBLICACIÓN日期为2023-09-06；本值仅记录该页面所示版本日期，不宣称首版年份。首版年原子值留空。",
+          "source_refs": [
+            "WCD10-B19-S204"
+          ],
+          "subject_id": "WCD10-B19-W204"
+        },
+        {
+          "candidate_id": "WCD10-B19-F212",
+          "field": "one_sentence_summary",
+          "value": "出版社称本书收录八篇故事，人物因意外离开惯常生活，在现实与幻想之间遭遇陌生处境，并面对成功与失败的执念。",
+          "source_refs": [
+            "WCD10-B19-S204"
+          ],
+          "subject_id": "WCD10-B19-W204"
+        }
+      ]
+    }
+  ],
+  "deferred_objects": [
+    {
+      "author_id": "V1-ENT-0345",
+      "topic": "全作品目录、篇目级作品、译本及其他非核心短作",
+      "status": "deferred",
+      "reason": "DEC-070允许在主要作品与普通直接来源信息满足后停止；不追求全集与数量。",
+      "key": "WCD10:B19:Nettel:bounded_uncovered_roster",
+      "disposition": "deferred_research_gap"
+    }
+  ]
+}

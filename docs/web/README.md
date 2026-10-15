@@ -18,5 +18,6 @@ Research Data + Curation Data + Geo Data
 - [Web Data Schema 与构建流程](./V2_WEB_DATA_SCHEMA.md)
 - [前端运行说明](../../site/README.md)
 - [浏览器与部署工作流](../../.github/workflows/v2-ci.yml)
+- [开发预览、Pages 部署边界与 WCD-10 CI](./DEVELOPMENT_PREVIEW_BOUNDARY.md)
 
 阶段性原型、RC、浏览器 QA 和发布门禁记录位于 [`project/audits/`](../../project/audits/)。

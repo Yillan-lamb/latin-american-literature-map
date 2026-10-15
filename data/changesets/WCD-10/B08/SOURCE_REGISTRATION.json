@@ -1,0 +1,1262 @@
+{
+  "task_id": "TASK-113",
+  "batch_id": "WCD-10-B08",
+  "accessed_at": "2026-10-10",
+  "verified_by": {
+    "V1-ENT-0200": "GPT-6 Luna worker; listed sources were opened in web research. Locators and per-field claim boundaries are in RESEARCH_NOTES.md and EVIDENCE_MATRIX.json.",
+    "V1-ENT-0211": "GPT-6 Luna worker; URLs marked OPENED were actually opened through the web tool; failed direct opens and boundaries are recorded in RESEARCH_NOTES.md.",
+    "V1-ENT-0212": "GPT-6 Luna worker; all 25 registered sources have direct opened page/document locators; failed opens and unused bibliography leads were excluded from sources and retained only as search-history notes."
+  },
+  "source_year_policy": {
+    "V1-ENT-0200": {
+      "V1-ENT-0200": "Source profile publication_year records the page/article publication date only when explicit; never substitute the work/edition date. Existing SRC-0162 metadata remains unchanged. Catalogued edition years, serialized first installment years and collected-book years are described separately. R1 adds Lauren Rea (2019), a digitized 1918 issue index with no page publication date, and content pages whose website posting dates are kept distinct from work dates. R1 profiles distinguish source-page posting year (when explicitly displayed) from the literary work’s first publication year; digital text postings by Edu Robsy or Brian are not treated as original editions."
+    },
+    "V1-ENT-0211": "Source publication_year is the source/article issue date only. Work/edition years and access dates are not substituted. Reused SRC-0166 retains its historical source metadata unchanged.",
+    "V1-ENT-0212": {
+      "V1-ENT-0212": "publication_year describes the source page/publication itself, not work year. It remains blank where directly opened page does not state a page publication date. Work years are only in candidate facts and evidence. Existing SRC-0169 metadata remains unchanged."
+    }
+  },
+  "public_content_scope": "Merged research candidate only; no Curation admission or public release.",
+  "local_asset_status": "remote_only",
+  "copyright_boundary": "Only brief factual evidence locators and attributed paraphrases; no article text reproduced.",
+  "profiles": [
+    {
+      "candidate_id": "WCD10-B08-S001",
+      "publisher": "Ministerio de Educación y Cultura de Uruguay",
+      "format": "institutional_biography_web_page",
+      "language": "es",
+      "publication_year": "",
+      "notes": "作者书目、部分作品年份/体裁；旧来源元数据保持不变。",
+      "disposition": "reuse",
+      "reuse_existing_source": "SRC-0162",
+      "related_existing_source": "SRC-0162"
+    },
+    {
+      "candidate_id": "WCD10-B08-S002",
+      "publisher": "",
+      "format": "institutional_bibliography_web_page",
+      "language": "es",
+      "publication_year": "",
+      "notes": "独立书目与作品年份/文类线索；书目年份仍需按版本边界解释。",
+      "disposition": "new",
+      "reuse_existing_source": "",
+      "related_existing_source": ""
+    },
+    {
+      "candidate_id": "WCD10-B08-S003",
+      "publisher": "",
+      "format": "national_library_article",
+      "language": "es",
+      "publication_year": "2022",
+      "notes": "直接说明戏剧作品名称、1920年版本及形态。",
+      "disposition": "new",
+      "reuse_existing_source": "",
+      "related_existing_source": ""
+    },
+    {
+      "candidate_id": "WCD10-B08-S004",
+      "publisher": "",
+      "format": "scholarly_journal_article_fulltext",
+      "language": "es",
+      "publication_year": "2017",
+      "notes": "只支持故事合集的期刊初刊/编选史及文中具体单篇范围。",
+      "disposition": "new",
+      "reuse_existing_source": "",
+      "related_existing_source": ""
+    },
+    {
+      "candidate_id": "WCD10-B08-S005",
+      "publisher": "",
+      "format": "scholarly_journal_article_fulltext",
+      "language": "es",
+      "publication_year": "2020",
+      "notes": "2020 journal review; direct content and publication record of six S. Fragoso Lima feuilletons, but 1912 on Una cacería conflicts with original-periodical chronology and is deferred.",
+      "disposition": "new",
+      "reuse_existing_source": "",
+      "related_existing_source": ""
+    },
+    {
+      "candidate_id": "WCD10-B08-S006",
+      "publisher": "",
+      "format": "library_catalog_record",
+      "language": "es",
+      "publication_year": "",
+      "notes": "仅支持该馆藏版/连载的题名和编目边界；2019是版次年。",
+      "disposition": "new",
+      "reuse_existing_source": "",
+      "related_existing_source": ""
+    },
+    {
+      "candidate_id": "WCD10-B08-S007",
+      "publisher": "",
+      "format": "scholarly_journal_article_abstract",
+      "language": "es",
+      "publication_year": "2010",
+      "notes": "直接研究对象El hombre artificial；摘要支持其科幻情节和叙事创新，不外推至作者整体。",
+      "disposition": "new",
+      "reuse_existing_source": "",
+      "related_existing_source": ""
+    },
+    {
+      "candidate_id": "WCD10-B08-S008",
+      "publisher": "",
+      "format": "scholarly_journal_article_landing",
+      "language": "es",
+      "publication_year": "1971",
+      "notes": "提供原刊作者与期次元数据；正文释义以CVC全文来源为准。",
+      "disposition": "new",
+      "reuse_existing_source": "",
+      "related_existing_source": ""
+    },
+    {
+      "candidate_id": "WCD10-B08-S009",
+      "publisher": "Biblioteca Virtual Miguel de Cervantes",
+      "format": "scholarly_article_reprint_fulltext",
+      "language": "es",
+      "publication_year": "2006",
+      "notes": "只在El crimen del otro标题篇及El almohadón de plumas等明确段落范围内使用；不据此概括整集。",
+      "disposition": "new",
+      "reuse_existing_source": "",
+      "related_existing_source": ""
+    },
+    {
+      "candidate_id": "WCD10-B08-S010",
+      "publisher": "",
+      "format": "scholarly_journal_article_pdf",
+      "language": "es",
+      "publication_year": "2001",
+      "notes": "Directly studies Miss Dorothy Phillips and gives four cinema story dates; only this title/story is used here.",
+      "disposition": "new",
+      "reuse_existing_source": "",
+      "related_existing_source": ""
+    },
+    {
+      "candidate_id": "WCD10-B08-S011",
+      "publisher": "",
+      "format": "official_government_scholarly_edition_pdf",
+      "language": "es",
+      "publication_year": "",
+      "notes": "Ferrari preliminary study; supports Cartas and De la vida series dates/content plus posthumous book citation.",
+      "disposition": "new",
+      "reuse_existing_source": "",
+      "related_existing_source": ""
+    },
+    {
+      "candidate_id": "WCD10-B08-S012",
+      "publisher": "",
+      "format": "library_catalog_record",
+      "language": "es",
+      "publication_year": "",
+      "notes": "支持馆藏1988年版及篇目数；不作为系列初发年证据。",
+      "disposition": "new",
+      "reuse_existing_source": "",
+      "related_existing_source": ""
+    },
+    {
+      "candidate_id": "WCD10-B08-S013",
+      "publisher": "",
+      "format": "public_domain_text_web_page",
+      "language": "es",
+      "publication_year": "2026",
+      "notes": "支持稿本题名/作者及电影梗概形态；无初刊年，不能单独确定年份。; page posting date 2026-09-03, posted by Brian; this is the digital page date, not work publication year.",
+      "disposition": "new",
+      "reuse_existing_source": "",
+      "related_existing_source": ""
+    },
+    {
+      "candidate_id": "WCD10-B08-S014",
+      "publisher": "",
+      "format": "literary_chronology_web_page",
+      "language": "es",
+      "publication_year": "",
+      "notes": "次级年表，辅助作品版本/文类筛查，不作A级研究。",
+      "disposition": "new",
+      "reuse_existing_source": "",
+      "related_existing_source": ""
+    },
+    {
+      "candidate_id": "WCD10-B08-S015",
+      "publisher": "Edinburgh University Press",
+      "format": "university_repository_accepted_manuscript",
+      "language": "es",
+      "publication_year": "2019",
+      "notes": "直接研究Cartas系列与Suelo natal；在P10 L240–243提到Quiroga于1924和1925年为Caras y Caretas撰写De la vida de nuestros animales短札；该处不提供篇数或精确月份。",
+      "disposition": "new",
+      "reuse_existing_source": "",
+      "related_existing_source": ""
+    },
+    {
+      "candidate_id": "WCD10-B08-S016",
+      "publisher": "",
+      "format": "digitized_primary_issue_index",
+      "language": "es",
+      "publication_year": "",
+      "notes": "数字化原刊目录直接列作者、题名、地点、系列及Academia Argentina de Letras提供原件来源；页脚平台更新时间不作作品年。",
+      "disposition": "new",
+      "reuse_existing_source": "",
+      "related_existing_source": ""
+    },
+    {
+      "candidate_id": "WCD10-B08-S017",
+      "publisher": "Quálea Editorial",
+      "format": "publisher_catalogue_page",
+      "language": "es",
+      "publication_year": "2014",
+      "notes": "出版社页面给出1904版与目录，并以简短简介概括短篇集的Poe式怪异、犯罪与死亡叙事。",
+      "disposition": "new",
+      "reuse_existing_source": "",
+      "related_existing_source": ""
+    },
+    {
+      "candidate_id": "WCD10-B08-S018",
+      "publisher": "",
+      "format": "digital_text",
+      "language": "es",
+      "publication_year": "2022",
+      "notes": "实际阅读数字文本；内容用于作品摘要，网站数字发布年不作为初刊年。 Page metadata checked: 4 Nov 2022; full ebook text opened, digital posting by Edu Robsy. This source-page year is independent of the work publication year.",
+      "disposition": "new",
+      "reuse_existing_source": "",
+      "related_existing_source": ""
+    },
+    {
+      "candidate_id": "WCD10-B08-S019",
+      "publisher": "",
+      "format": "digital_text",
+      "language": "es",
+      "publication_year": "2017",
+      "notes": "实际阅读文本页及其简介；数字文本页日期不作为作品年。 Page metadata checked: 21 Oct 2017; full ebook text opened, digital posting by Edu Robsy. This source-page year is independent of the work publication year.",
+      "disposition": "new",
+      "reuse_existing_source": "",
+      "related_existing_source": ""
+    },
+    {
+      "candidate_id": "WCD10-B08-S020",
+      "publisher": "",
+      "format": "digital_text",
+      "language": "es",
+      "publication_year": "2016",
+      "notes": "实际阅读文本页简介；数字文本页日期不作作品年。 Page metadata checked: 27 Jul 2016; full ebook text opened, digital posting by Edu Robsy. This source-page year is independent of the work publication year.",
+      "disposition": "new",
+      "reuse_existing_source": "",
+      "related_existing_source": ""
+    },
+    {
+      "candidate_id": "WCD10-B08-S021",
+      "publisher": "",
+      "format": "digital_text",
+      "language": "es",
+      "publication_year": "2017",
+      "notes": "数字选本含多个后编篇目；仅以标题篇文本描述水蚺议会情节，不将其目录投射至1921初版。; page posting date 2017-10-23, posted by Edu Robsy; this is the digital page date, not work publication year.",
+      "disposition": "new",
+      "reuse_existing_source": "",
+      "related_existing_source": ""
+    },
+    {
+      "candidate_id": "WCD10-B08-S022",
+      "publisher": "",
+      "format": "library_repository_record",
+      "language": "es",
+      "publication_year": "",
+      "notes": "馆藏原版扫描条目、1924日期、作者与11篇目录；简介明确说明其故事概要转引Lecturalia。",
+      "disposition": "new",
+      "reuse_existing_source": "",
+      "related_existing_source": ""
+    },
+    {
+      "candidate_id": "WCD10-B08-S023",
+      "publisher": "",
+      "format": "digital_text",
+      "language": "es",
+      "publication_year": "2016",
+      "notes": "实际阅读数字页面；页面发布元数据为2016-05-18，发布者Edu Robsy。该日期是页面发布日，不代表文章或作品原始出版年。",
+      "disposition": "new",
+      "reuse_existing_source": "",
+      "related_existing_source": ""
+    },
+    {
+      "candidate_id": "WCD10-B08-S024",
+      "publisher": "",
+      "format": "digital_text",
+      "language": "es",
+      "publication_year": "2024",
+      "notes": "实际阅读文本；数字页面未明确出版年。 Page metadata checked: 23 Jan 2024; full text opened, digital posting date belongs to page, not essay. This source-page year is independent of the work publication year.",
+      "disposition": "new",
+      "reuse_existing_source": "",
+      "related_existing_source": ""
+    },
+    {
+      "candidate_id": "WCD10-B08-S025",
+      "publisher": "",
+      "format": "digital_text",
+      "language": "es",
+      "publication_year": "2016",
+      "notes": "直接阅读故事文本，支持父子狩猎、死亡事实与幻觉结尾；数字页面日期不作为初刊年。 Page metadata checked: 18 May 2016; full story page opened, digital posting by Edu Robsy. This source-page year is independent of the work publication year.",
+      "disposition": "new",
+      "reuse_existing_source": "",
+      "related_existing_source": ""
+    },
+    {
+      "candidate_id": "WCD10-B08-S026",
+      "publisher": "",
+      "format": "digital_text",
+      "language": "es",
+      "publication_year": "2016",
+      "notes": "直接阅读完整故事，支持农人工作中受伤及清醒观察死亡的摘要。 Page metadata checked: 18 May 2016; full story page opened, digital posting by Edu Robsy. This source-page year is independent of the work publication year.",
+      "disposition": "new",
+      "reuse_existing_source": "",
+      "related_existing_source": ""
+    },
+    {
+      "candidate_id": "WCD10-B08-S027",
+      "publisher": "",
+      "format": "digital_text",
+      "language": "es",
+      "publication_year": "2016",
+      "notes": "直接阅读故事文本，支持Alicia病弱及枕中寄生物揭示。; page posting date 2016-07-28, posted by Edu Robsy; this is the digital page date, not work publication year.",
+      "disposition": "new",
+      "reuse_existing_source": "",
+      "related_existing_source": ""
+    },
+    {
+      "candidate_id": "WCD10-B08-S028",
+      "publisher": "",
+      "format": "digital_text",
+      "language": "es",
+      "publication_year": "2016",
+      "notes": "直接阅读故事文本，支持Paulino中毒、划舟求救和死亡过程。 Page metadata checked: 28 Jul 2016; full text page opened, digital posting by Edu Robsy. This source-page year is independent of the work publication year.",
+      "disposition": "new",
+      "reuse_existing_source": "",
+      "related_existing_source": ""
+    },
+    {
+      "candidate_id": "WCD10-B08-S029",
+      "publisher": "",
+      "format": "digital_text",
+      "language": "es",
+      "publication_year": "2016",
+      "notes": "直接阅读文本，支持Nébel/Lidia恋情、分离和重逢，以及篇名信息。 Page metadata checked: 27 Jul 2016; full text page opened, digital posting by Edu Robsy. This source-page year is independent of the work publication year.",
+      "disposition": "new",
+      "reuse_existing_source": "",
+      "related_existing_source": ""
+    },
+    {
+      "candidate_id": "WCD10-B08-S030",
+      "publisher": "",
+      "format": "digital_text",
+      "language": "es",
+      "publication_year": "2016",
+      "notes": "直接阅读文本，支持漂流船、失踪船员与幸存者所述谜团。; page posting date 2016-07-27, posted by Edu Robsy; this is the digital page date, not work publication year.",
+      "disposition": "new",
+      "reuse_existing_source": "",
+      "related_existing_source": ""
+    },
+    {
+      "candidate_id": "WCD10-B08-S031",
+      "publisher": "",
+      "format": "digital_text",
+      "language": "es",
+      "publication_year": "2016",
+      "notes": "Directly read full short story; page explicitly says posted 2016-07-28 by Edu Robsy. This is the digital page date, not the work first-publication year.",
+      "disposition": "new",
+      "reuse_existing_source": "",
+      "related_existing_source": ""
+    },
+    {
+      "candidate_id": "WCD10-B08-S032",
+      "publisher": "",
+      "format": "digital_text",
+      "language": "es",
+      "publication_year": "2017",
+      "notes": "后编数字选本；仅支持标题篇内容，不用其现代篇目表推断1920初版。; page posting date 2017-10-23, posted by Edu Robsy; this is the digital page date, not work publication year.",
+      "disposition": "new",
+      "reuse_existing_source": "",
+      "related_existing_source": ""
+    },
+    {
+      "candidate_id": "WCD10-B08-S036",
+      "publisher": "",
+      "format": "scholarly_journal_article_pdf",
+      "language": "es",
+      "publication_year": "2021",
+      "notes": "Ferrari (2021), (an)ecdótica 5(2), pp.95–120, DOI 10.19130/iifl.anec.2021.5.2.49244. UNAM landing metadata retained; full article was actually read in the author-uploaded RG copy. Direct UNAM/DOI fetch failed on the later parent check, not the full text.",
+      "disposition": "new",
+      "reuse_existing_source": "",
+      "related_existing_source": ""
+    },
+    {
+      "candidate_id": "WCD10-B08-S037",
+      "publisher": "",
+      "format": "primary_play_text",
+      "language": "es",
+      "publication_year": "",
+      "notes": "Cervantes Virtual institutional primary play text directly opened; supports dramatic situation/characters. Does not establish first-publication year.",
+      "disposition": "new",
+      "reuse_existing_source": "",
+      "related_existing_source": ""
+    },
+    {
+      "candidate_id": "WCD10-B08-S038",
+      "publisher": "",
+      "format": "digital_primary_text_collection",
+      "language": "es",
+      "publication_year": "2017",
+      "notes": "Textos.info community digital transcription of Quiroga primary essays directly opened; supports essay contents. Digital posting date is not used as original publication year; page posting date 2017-10-20, posted by Edu Robsy; this is the digital page date, not work publication year.",
+      "disposition": "new",
+      "reuse_existing_source": "",
+      "related_existing_source": ""
+    },
+    {
+      "candidate_id": "WCD10-B08-S039",
+      "publisher": "",
+      "format": "digital_annotated_collection_page",
+      "language": "es",
+      "publication_year": "2017",
+      "notes": "Later digital selection of 11 stories; supports only the visible modern selection and its synopsis, not the contents of 1935 edition.",
+      "disposition": "new",
+      "reuse_existing_source": "",
+      "related_existing_source": ""
+    },
+    {
+      "candidate_id": "WCD10-B08-S040",
+      "publisher": "",
+      "format": "institutional_repository_catalogue",
+      "language": "es",
+      "publication_year": "",
+      "notes": "The repository item date is 1926; abstract describes the collection as published in 1920 and lists contents. 1920 first-publication year is separately supported by S001; do not substitute the 1926 item date.",
+      "disposition": "new",
+      "reuse_existing_source": "",
+      "related_existing_source": ""
+    },
+    {
+      "candidate_id": "WCD10-B08-S041",
+      "publisher": "",
+      "format": "digital_primary_text",
+      "language": "es",
+      "publication_year": "2016",
+      "notes": "Directly read full story. Supports the title-story plot only; this modern page does not establish the original contents of the 1925 anthology. Page metadata checked: 27 Jul 2016; full text page opened, digital posting by Edu Robsy. This source-page year is independent of the work publication year.",
+      "disposition": "new",
+      "reuse_existing_source": "",
+      "related_existing_source": ""
+    },
+    {
+      "candidate_id": "WCD10-B08-S042",
+      "publisher": "",
+      "format": "digital_primary_text_excerpt",
+      "language": "es",
+      "publication_year": "2026",
+      "notes": "Visible excerpt only: the opening presents Didio Julian and the courtly setting after Commodus’s death. The page is a modern digital excerpt and supplies no original publication date. Page metadata checked: 1 Sep 2026; visible excerpt page posted by Brian. This source-page year is independent of the work publication year.",
+      "disposition": "new",
+      "reuse_existing_source": "",
+      "related_existing_source": ""
+    },
+    {
+      "candidate_id": "WCD10-B08-S043",
+      "publisher": "",
+      "format": "digital_primary_text",
+      "language": "es",
+      "publication_year": "2016",
+      "notes": "Directly read full story. Supports detailed content only; 1918 original serialization separately supported by S016 and Ferrari bibliography. Page metadata checked: 27 Jul 2016; full ebook text opened, digital posting by Edu Robsy. This source-page year is independent of the work publication year.",
+      "disposition": "new",
+      "reuse_existing_source": "",
+      "related_existing_source": ""
+    },
+    {
+      "candidate_id": "WCD10-B08-S101",
+      "publisher": "Academia Brasileira de Letras",
+      "format": "institutional_author_bibliography_web_page",
+      "language": "pt",
+      "publication_year": "",
+      "notes": "Reopened directly. Exact URL reuses SRC-0166; do not alter historical source grade or metadata, including its access-date-like historical publication_year.",
+      "disposition": "reuse",
+      "reuse_existing_source": "SRC-0166",
+      "related_existing_source": "SRC-0166"
+    },
+    {
+      "candidate_id": "WCD10-B08-S102",
+      "publisher": "Academia Brasileira de Letras",
+      "format": "institutional_author_biography_web_page",
+      "language": "pt",
+      "publication_year": "",
+      "notes": "Reopened directly. Exact URL reuses SRC-0165; preserve all historical metadata unchanged. No source publication date stated.",
+      "disposition": "reuse",
+      "reuse_existing_source": "SRC-0165",
+      "related_existing_source": "SRC-0165"
+    },
+    {
+      "candidate_id": "WCD10-B08-S103",
+      "publisher": "Ministério da Educação",
+      "format": "government_digital_corpus_work_page",
+      "language": "pt",
+      "publication_year": "",
+      "notes": "Page has no explicit publication date; do not reuse work year as source publication_year. Institutional catalogue/editorial source (B).",
+      "disposition": "new"
+    },
+    {
+      "candidate_id": "WCD10-B08-S104",
+      "publisher": "Ministério da Educação",
+      "format": "government_digital_corpus_work_page",
+      "language": "pt",
+      "publication_year": "",
+      "notes": "Page has no explicit publication date; do not reuse work year as source publication_year. Institutional catalogue/editorial source (B).",
+      "disposition": "new"
+    },
+    {
+      "candidate_id": "WCD10-B08-S105",
+      "publisher": "Ministério da Educação",
+      "format": "government_digital_corpus_work_page",
+      "language": "pt",
+      "publication_year": "",
+      "notes": "Page has no explicit publication date; do not reuse work year as source publication_year. Institutional catalogue/editorial source (B).",
+      "disposition": "new"
+    },
+    {
+      "candidate_id": "WCD10-B08-S106",
+      "publisher": "Matraga - Revista do Programa de Pós-Graduação em Letras da UERJ",
+      "format": "scholarly_journal_article_web_page",
+      "language": "pt",
+      "publication_year": "2008",
+      "notes": "Publication year is the article issue/publication date stated on the journal page; author identified on the article page.",
+      "disposition": "new"
+    },
+    {
+      "candidate_id": "WCD10-B08-S107",
+      "publisher": "Universidade de São Paulo",
+      "format": "scholarly_journal_article_pdf",
+      "language": "pt",
+      "publication_year": "",
+      "notes": "PDF itself has no explicit publication date in the accessed header excerpt; publication_year left blank. Scholarly article, author and pagination identified in PDF.",
+      "disposition": "new"
+    },
+    {
+      "candidate_id": "WCD10-B08-S108",
+      "publisher": "Biblioteca Brasiliana Guita e José Mindlin, Universidade de São Paulo",
+      "format": "library_first_edition_catalog_record",
+      "language": "pt",
+      "publication_year": "",
+      "notes": "Catalog describes a specific first-edition copy issued 1896; that is work-edition metadata, not page publication_year.",
+      "disposition": "new"
+    },
+    {
+      "candidate_id": "WCD10-B08-S109",
+      "publisher": "SciELO / Machado Assis Linha",
+      "format": "scholarly_journal_article_web_page",
+      "language": "pt",
+      "publication_year": "2018",
+      "notes": "Journal page states April 2018 issue date and identifies author; article page date, not work date.",
+      "disposition": "new"
+    },
+    {
+      "candidate_id": "WCD10-B08-S110",
+      "publisher": "Revista Aproximando / Universidade do Estado do Rio de Janeiro",
+      "format": "scholarly_journal_article_web_page",
+      "language": "pt",
+      "publication_year": "2018",
+      "notes": "PDF masthead identifies Revista Aproximando, v.3 n.4 (2018); site issue index labels 2017 and online posting is 2018-05-14. Candidate preserves the distinction.",
+      "disposition": "new"
+    },
+    {
+      "candidate_id": "WCD10-B08-S111",
+      "publisher": "Fundação Biblioteca Nacional",
+      "format": "institutional_digital_exhibition_web_page",
+      "language": "pt",
+      "publication_year": "",
+      "notes": "The page gives the 1873 date of the source work, not its own publication date; this profile publication_year is blank. Institutional object/history page (B), not direct A-level study.",
+      "disposition": "new"
+    },
+    {
+      "candidate_id": "WCD10-B08-S112",
+      "publisher": "Universidade Federal de Santa Catarina",
+      "format": "university_digital_work_catalog_record",
+      "language": "pt",
+      "publication_year": "",
+      "notes": "No source-page publication date stated. The 1873 value is the cataloged work publication date and is not copied into this profile. Institutional university metadata record (B).",
+      "disposition": "new"
+    },
+    {
+      "candidate_id": "WCD10-B08-S113",
+      "publisher": "Nova Aguilar; digitized by Ministério da Educação / Coleção Digital Machado de Assis",
+      "format": "digitized_primary_text_in_1994_edition",
+      "language": "pt",
+      "publication_year": "1994",
+      "notes": "PDF states it reproduces Obra completa, Rio de Janeiro: Nova Aguilar, vol. II, 1994; original Revista Brasileira publication is work metadata (1880), not source publication_year. Institutional digitization of primary text (B).",
+      "disposition": "new"
+    },
+    {
+      "candidate_id": "WCD10-B08-S114",
+      "publisher": "Wikisource / Wikimedia Foundation",
+      "format": "community_maintained_primary_text_and_catalog_page",
+      "language": "pt",
+      "publication_year": "",
+      "notes": "No page publication date stated; last edit date is not substituted. Community-maintained transcription/catalog (C); used as corroboration alongside ABL bibliography.",
+      "disposition": "new"
+    },
+    {
+      "candidate_id": "WCD10-B08-S115",
+      "publisher": "Nova Aguilar; digitized by Ministério da Educação / Coleção Digital Machado de Assis",
+      "format": "digitized_primary_text_in_1994_edition",
+      "language": "pt",
+      "publication_year": "1994",
+      "notes": "PDF says Obra completa, Rio de Janeiro: Nova Aguilar, vol. II, 1994. Work itself was first included in Páginas Recolhidas (1899), not 1994.",
+      "disposition": "new"
+    },
+    {
+      "candidate_id": "WCD10-B08-S116",
+      "publisher": "Nova Aguilar; digitized by Ministério da Educação / Coleção Digital Machado de Assis",
+      "format": "digitized_primary_text_in_1994_edition",
+      "language": "pt",
+      "publication_year": "1994",
+      "notes": "PDF says Obra completa, Rio de Janeiro: Nova Aguilar, vol. II, 1994. Work itself was first included in Relíquias de Casa Velha (1906), not 1994.",
+      "disposition": "new"
+    },
+    {
+      "candidate_id": "WCD10-B08-S117",
+      "publisher": "Brigham Young University",
+      "format": "institutional_digital_corpus_page",
+      "language": "en/pt",
+      "publication_year": "",
+      "notes": "Project citation identifies Nielson and Browne; page-specific date not stated.",
+      "disposition": "new"
+    },
+    {
+      "candidate_id": "WCD10-B08-S118",
+      "publisher": "Brigham Young University",
+      "format": "institutional_digital_corpus_page",
+      "language": "en/pt",
+      "publication_year": "",
+      "notes": "Project citation identifies Nielson and Browne; page-specific date not stated.",
+      "disposition": "new"
+    },
+    {
+      "candidate_id": "WCD10-B08-S119",
+      "publisher": "Brigham Young University",
+      "format": "institutional_digital_corpus_page",
+      "language": "en/pt",
+      "publication_year": "",
+      "notes": "Project citation identifies Nielson and Browne; page-specific date not stated.",
+      "disposition": "new"
+    },
+    {
+      "candidate_id": "WCD10-B08-S120",
+      "publisher": "Brigham Young University",
+      "format": "institutional_digital_corpus_page",
+      "language": "en/pt",
+      "publication_year": "",
+      "notes": "Project citation identifies Nielson and Browne; page-specific date not stated.",
+      "disposition": "new"
+    },
+    {
+      "candidate_id": "WCD10-B08-S121",
+      "publisher": "Brigham Young University",
+      "format": "institutional_digital_corpus_page",
+      "language": "en/pt",
+      "publication_year": "",
+      "notes": "Project citation identifies Nielson and Browne; page-specific date not stated.",
+      "disposition": "new"
+    },
+    {
+      "candidate_id": "WCD10-B08-S122",
+      "publisher": "Brigham Young University",
+      "format": "institutional_digital_corpus_page",
+      "language": "en/pt",
+      "publication_year": "",
+      "notes": "Project citation identifies Nielson and Browne; page-specific date not stated.",
+      "disposition": "new"
+    },
+    {
+      "candidate_id": "WCD10-B08-S123",
+      "publisher": "Brigham Young University",
+      "format": "institutional_digital_corpus_work_description_and_text",
+      "language": "en/pt",
+      "publication_year": "",
+      "notes": "Page directly states the novel and dates its serialization/book edition; page-specific web publication year not stated.",
+      "disposition": "new"
+    },
+    {
+      "candidate_id": "WCD10-B08-S124",
+      "publisher": "Brigham Young University",
+      "format": "institutional_digital_corpus_page",
+      "language": "en/pt",
+      "publication_year": "",
+      "notes": "Project citation identifies Nielson and Browne; page-specific date not stated.",
+      "disposition": "new"
+    },
+    {
+      "candidate_id": "WCD10-B08-S125",
+      "publisher": "Brigham Young University",
+      "format": "institutional_digital_corpus_page",
+      "language": "en/pt",
+      "publication_year": "",
+      "notes": "Project citation identifies Nielson and Browne; page-specific date not stated.",
+      "disposition": "new"
+    },
+    {
+      "candidate_id": "WCD10-B08-S126",
+      "publisher": "Brigham Young University",
+      "format": "institutional_digital_corpus_page",
+      "language": "en/pt",
+      "publication_year": "",
+      "notes": "Project citation identifies Nielson and Browne; page-specific date not stated.",
+      "disposition": "new"
+    },
+    {
+      "candidate_id": "WCD10-B08-S127",
+      "publisher": "Brigham Young University",
+      "format": "institutional_digital_corpus_page",
+      "language": "en/pt",
+      "publication_year": "",
+      "notes": "Project citation identifies Nielson and Browne; page-specific date not stated.",
+      "disposition": "new"
+    },
+    {
+      "candidate_id": "WCD10-B08-S128",
+      "publisher": "SciELO / Revista Brasileira de Literatura Comparada",
+      "format": "scholarly_journal_article_web_page",
+      "language": "pt/en",
+      "publication_year": "2024",
+      "notes": "SciELO page identifies Dossiê, Revista Brasileira de Literatura Comparada 26 (2024), published in this collection 16 Dec 2024; page author is Germana Maria Araújo Sales (lines 227–245).",
+      "disposition": "new"
+    },
+    {
+      "candidate_id": "WCD10-B08-S130",
+      "publisher": "Brigham Young University",
+      "format": "institutional_digital_edition_page",
+      "language": "pt/en",
+      "publication_year": "",
+      "notes": "No page-specific publication year used.",
+      "disposition": "new"
+    },
+    {
+      "candidate_id": "WCD10-B08-S131",
+      "publisher": "Biblioteca Brasiliana Guita e José Mindlin / Universidade de São Paulo",
+      "format": "institutional_library_catalog_record",
+      "language": "pt",
+      "publication_year": "",
+      "notes": "Accessed directly; no page-level publication date used unless explicitly stated.",
+      "disposition": "new"
+    },
+    {
+      "candidate_id": "WCD10-B08-S132",
+      "publisher": "Travessias Interativas",
+      "format": "peer_reviewed_journal_article_page",
+      "language": "pt",
+      "publication_year": "2021",
+      "notes": "Journal issue n.24 is identified as 2021; webpage says posted 07-01-2022 and citation uses 2022. The package records issue year 2021 and preserves the separate online/citation year. Only the abstract was read; the PDF link returned a cache miss.",
+      "disposition": "new"
+    },
+    {
+      "candidate_id": "WCD10-B08-S133",
+      "publisher": "Biblioteca Brasiliana Guita e José Mindlin / Universidade de São Paulo",
+      "format": "institutional_library_catalog_record",
+      "language": "pt",
+      "publication_year": "",
+      "notes": "Accessed directly; no page-level publication date used unless explicitly stated.",
+      "disposition": "new"
+    },
+    {
+      "candidate_id": "WCD10-B08-S134",
+      "publisher": "Universidade Federal de Minas Gerais",
+      "format": "institutional_masters_dissertation",
+      "language": "pt",
+      "publication_year": "2012",
+      "notes": "The dissertation title/identification pages (PDF pp.0–2) identify a 2012 master’s dissertation; 1956 dates in cited pages are the later collection editions it studies, not this source publication year.",
+      "disposition": "new"
+    },
+    {
+      "candidate_id": "WCD10-B08-S135",
+      "publisher": "Editôra Civilização Brasileira (book imprint as cataloged)",
+      "format": "digitized_book_catalog_record",
+      "language": "pt",
+      "publication_year": "",
+      "notes": "The cited year is the historic object’s imprint/issue date, not the web page publication date; no web page publication year is asserted.",
+      "disposition": "new"
+    },
+    {
+      "candidate_id": "WCD10-B08-S136",
+      "publisher": "Editora Civilização Brasileira (book imprint as cataloged)",
+      "format": "digitized_book_catalog_record",
+      "language": "pt",
+      "publication_year": "",
+      "notes": "The cited year is the historic object’s imprint/issue date, not the web page publication date; no web page publication year is asserted.",
+      "disposition": "new"
+    },
+    {
+      "candidate_id": "WCD10-B08-S137",
+      "publisher": "Wikisource",
+      "format": "community_transcribed_text_page",
+      "language": "pt",
+      "publication_year": "",
+      "notes": "The cited year is the historic object’s imprint/issue date, not the web page publication date; no web page publication year is asserted.",
+      "disposition": "new"
+    },
+    {
+      "candidate_id": "WCD10-B08-S138",
+      "publisher": "Biblioteca Brasiliana Guita e José Mindlin / Universidade de São Paulo",
+      "format": "institutional_library_catalog_record",
+      "language": "pt",
+      "publication_year": "",
+      "notes": "The cited year is the historic object’s imprint/issue date, not the web page publication date; no web page publication year is asserted.",
+      "disposition": "new"
+    },
+    {
+      "candidate_id": "WCD10-B08-S139",
+      "publisher": "Biblioteca Brasiliana Guita e José Mindlin / Universidade de São Paulo",
+      "format": "institutional_library_catalog_record",
+      "language": "pt",
+      "publication_year": "",
+      "notes": "Source-page publication date is kept separate from historical work/edition dates; blank when the opened page states no publication year.",
+      "disposition": "new"
+    },
+    {
+      "candidate_id": "WCD10-B08-S140",
+      "publisher": "Biblioteca Brasiliana Guita e José Mindlin / Universidade de São Paulo",
+      "format": "institutional_library_catalog_record",
+      "language": "pt",
+      "publication_year": "",
+      "notes": "Source-page publication date is kept separate from historical work/edition dates; blank when the opened page states no publication year.",
+      "disposition": "new"
+    },
+    {
+      "candidate_id": "WCD10-B08-S141",
+      "publisher": "Ministério da Educação",
+      "format": "digitized_primary_text_pdf",
+      "language": "pt",
+      "publication_year": "",
+      "notes": "Source-page publication date is kept separate from historical work/edition dates; blank when the opened page states no publication year.",
+      "disposition": "new"
+    },
+    {
+      "candidate_id": "WCD10-B08-S142",
+      "publisher": "Ministério da Educação",
+      "format": "digitized_primary_text_pdf",
+      "language": "pt",
+      "publication_year": "",
+      "notes": "Source-page publication date is kept separate from historical work/edition dates; blank when the opened page states no publication year.",
+      "disposition": "new"
+    },
+    {
+      "candidate_id": "WCD10-B08-S143",
+      "publisher": "Machado de Assis em Linha / SciELO",
+      "format": "peer_reviewed_journal_article",
+      "language": "pt",
+      "publication_year": "2021",
+      "notes": "Source-page publication date is kept separate from historical work/edition dates; blank when the opened page states no publication year.",
+      "disposition": "new"
+    },
+    {
+      "candidate_id": "WCD10-B08-S144",
+      "publisher": "Biblioteca Brasiliana Guita e José Mindlin / Universidade de São Paulo",
+      "format": "institutional_library_catalog_record",
+      "language": "pt",
+      "publication_year": "",
+      "notes": "Source-page publication date is kept separate from historical work/edition dates; blank when the opened page states no publication year.",
+      "disposition": "new"
+    },
+    {
+      "candidate_id": "WCD10-B08-S145",
+      "publisher": "Machadiana Eletrônica / Universidade Federal do Espírito Santo",
+      "format": "critical_edition",
+      "language": "pt",
+      "publication_year": "2022",
+      "notes": "Source-page publication date is kept separate from historical work/edition dates; blank when the opened page states no publication year.",
+      "disposition": "new"
+    },
+    {
+      "candidate_id": "WCD10-B08-S146",
+      "publisher": "Biblioteca Brasiliana Guita e José Mindlin / Universidade de São Paulo",
+      "format": "institutional_library_catalog_record",
+      "language": "pt",
+      "publication_year": "",
+      "notes": "Source-page publication date is kept separate from historical work/edition dates; blank when the opened page states no publication year.",
+      "disposition": "new"
+    },
+    {
+      "candidate_id": "WCD10-B08-S147",
+      "publisher": "Biblioteca Brasiliana Guita e José Mindlin / Universidade de São Paulo",
+      "format": "institutional_library_catalog_record",
+      "language": "pt",
+      "publication_year": "",
+      "notes": "Source-page publication date is kept separate from historical work/edition dates; blank when the opened page states no publication year.",
+      "disposition": "new"
+    },
+    {
+      "candidate_id": "WCD10-B08-S148",
+      "publisher": "Biblioteca Brasiliana Guita e José Mindlin / Universidade de São Paulo",
+      "format": "institutional_library_catalog_record",
+      "language": "pt",
+      "publication_year": "",
+      "notes": "Source-page publication date is kept separate from historical work/edition dates; blank when the opened page states no publication year.",
+      "disposition": "new"
+    },
+    {
+      "candidate_id": "WCD10-B08-S149",
+      "publisher": "Biblioteca Brasiliana Guita e José Mindlin / Universidade de São Paulo",
+      "format": "institutional_library_catalog_record",
+      "language": "pt",
+      "publication_year": "",
+      "notes": "Source-page publication date is kept separate from historical work/edition dates; blank when the opened page states no publication year.",
+      "disposition": "new"
+    },
+    {
+      "candidate_id": "WCD10-B08-S150",
+      "publisher": "Biblioteca Brasiliana Guita e José Mindlin / Universidade de São Paulo",
+      "format": "institutional_library_catalog_record",
+      "language": "pt",
+      "publication_year": "",
+      "notes": "Source-page publication date is kept separate from historical work/edition dates; blank when the opened page states no publication year.",
+      "disposition": "new"
+    },
+    {
+      "candidate_id": "WCD10-B08-S152",
+      "publisher": "BYU Machado de Assis Digital Corpus Project",
+      "format": "digital_primary_text",
+      "language": "pt",
+      "publication_year": "",
+      "notes": "Source-page publication date is kept separate from historical work/edition dates; blank when the opened page states no publication year.",
+      "disposition": "new"
+    },
+    {
+      "candidate_id": "WCD10-B08-S153",
+      "publisher": "BYU Machado de Assis Digital Corpus Project",
+      "format": "digital_primary_text",
+      "language": "pt",
+      "publication_year": "",
+      "notes": "Source-page publication date is kept separate from historical work/edition dates; blank when the opened page states no publication year.",
+      "disposition": "new"
+    },
+    {
+      "candidate_id": "WCD10-B08-S154",
+      "publisher": "BYU Machado de Assis Digital Corpus Project",
+      "format": "digital_primary_text",
+      "language": "pt",
+      "publication_year": "",
+      "notes": "Source-page publication date is kept separate from historical work/edition dates; blank when the opened page states no publication year.",
+      "disposition": "new"
+    },
+    {
+      "candidate_id": "WCD10-B08-S155",
+      "publisher": "Machado de Assis em Linha (journal page)",
+      "format": "scholarly_journal_article",
+      "language": "pt",
+      "publication_year": "2017",
+      "notes": "Journal header gives volume 10 issue 21, August 2017; the page directly identifies the article author/title and the 1932 collection.",
+      "disposition": "new"
+    },
+    {
+      "candidate_id": "WCD10-B08-S156",
+      "publisher": "Open Library / Library of Congress MARC-derived catalog record",
+      "format": "library_catalog_record",
+      "language": "pt",
+      "publication_year": "",
+      "notes": "Cataloged historical book issue is 1956; the web source page provides no publication year for itself.",
+      "disposition": "new"
+    },
+    {
+      "candidate_id": "WCD10-B08-S157",
+      "publisher": "Machadiana Eletrônica",
+      "format": "scholarly_journal_article_pdf",
+      "language": "pt",
+      "publication_year": "2020",
+      "notes": "PDF issue header gives v.3 n.6, Jul–Dec 2020; do not infer date from page crawl metadata.",
+      "disposition": "new"
+    },
+    {
+      "candidate_id": "WCD10-B08-S158",
+      "publisher": "Biblioteca Brasiliana Guita e José Mindlin / Universidade de São Paulo",
+      "format": "institutional_first_edition_catalog_record",
+      "language": "pt",
+      "publication_year": "",
+      "notes": "The historical book record is dated [1873]; the webpage itself gives no publication year.",
+      "disposition": "new"
+    },
+    {
+      "candidate_id": "WCD10-B08-S159",
+      "publisher": "Universidade de São Paulo",
+      "format": "institutional_masters_dissertation_pdf",
+      "language": "pt",
+      "publication_year": "2013",
+      "notes": "USP repository metadata and thesis title page identify a 2013 master’s thesis; consulted directly as PDF.",
+      "disposition": "new"
+    },
+    {
+      "candidate_id": "WCD10-B08-S201",
+      "publisher": "Academia Brasileira de Letras",
+      "format": "web_page",
+      "language": "pt",
+      "publication_year": "",
+      "notes": "打开页第7–30行；书目逐项列Sagarana、Com o vaqueiro Mariano、Corpo de baile、三分卷、Tutameia (Terceiras estórias)、Estas estórias、Ave, palavra及合作书目。URL与既有SRC-0169完全相同，旧等级/元数据不修改。",
+      "disposition": "reuse",
+      "reuse_existing_source": "SRC-0169",
+      "related_existing_source": "SRC-0169"
+    },
+    {
+      "candidate_id": "WCD10-B08-S202",
+      "publisher": "",
+      "format": "research_pdf_or_thesis_pdf",
+      "language": "pt",
+      "publication_year": "",
+      "notes": "已打开7页PDF。P0 L0–13；P1 L28–33；P2 L53–62；P3 L68–93；正文明确1956两卷、1960单卷、第三版三册1964/65，列七篇及分类、人物跨篇。",
+      "disposition": "fresh_registration"
+    },
+    {
+      "candidate_id": "WCD10-B08-S203",
+      "publisher": "Academia Brasileira de Letras",
+      "format": "web_page",
+      "language": "pt",
+      "publication_year": "",
+      "notes": "正文L10–19：Magma于1936获奖且未出版；Sagarana 1946；Com o vaqueiro Mariano文本与1952远行、遗作 Estas estórias 1969；Grande sertão/Corpo 1956。",
+      "disposition": "fresh_registration"
+    },
+    {
+      "candidate_id": "WCD10-B08-S204",
+      "publisher": "Universidade de São Paulo",
+      "format": "web_page",
+      "language": "pt",
+      "publication_year": "",
+      "notes": "USP João Guimarães Rosa bibliographic database page. L22–46 lists the 1952 independent volume and collection inclusion; L48–106 records 1947–48 newspaper installments. Separate page lines L256–269 summarize Andrea Ramos Jubé Vianna (2019) and use reportagem; lines L282–294 list Guilherme Mazzafera e Silva Vilhena (2017) on a different study. Original theses not read; do not attribute Vianna summary to Vilhena.",
+      "disposition": "fresh_registration"
+    },
+    {
+      "candidate_id": "WCD10-B08-S205",
+      "publisher": "Museus Estaduais de Minas Gerais – SECULT",
+      "format": "web_page",
+      "language": "pt",
+      "publication_year": "",
+      "notes": "L47–61题名与1997馆藏编年；L70–96书目收藏层级、作者和Nova Fronteira；L109–114题名/作者/出版地出版社年份。",
+      "disposition": "fresh_registration"
+    },
+    {
+      "candidate_id": "WCD10-B08-S206",
+      "publisher": "Universidade Federal de Minas Gerais",
+      "format": "research_pdf_or_thesis_pdf",
+      "language": "pt",
+      "publication_year": "2024",
+      "notes": "打开183页UFMG博士论文；题名页P0 L0–7；P16直接记40篇contos和4篇prefácios；P177–178 L5437–40引1967初版书目。",
+      "disposition": "fresh_registration"
+    },
+    {
+      "candidate_id": "WCD10-B08-S207",
+      "publisher": "Universidade de São Paulo",
+      "format": "web_page",
+      "language": "pt",
+      "publication_year": "",
+      "notes": "L22–40题名、七位作者、Rosa标注co-autor，目录列其篇名Os chapéus transeuntes并标首版1964，p.1–36。",
+      "disposition": "fresh_registration"
+    },
+    {
+      "candidate_id": "WCD10-B08-S209",
+      "publisher": "OCLC",
+      "format": "web_page",
+      "language": "pt",
+      "publication_year": "",
+      "notes": "L39–51题名、作者、1956葡文印本与J. Olympio；用作书目交叉核对。",
+      "disposition": "fresh_registration"
+    },
+    {
+      "candidate_id": "WCD10-B08-S210",
+      "publisher": "Universidade Federal de Santa Catarina",
+      "format": "web_page",
+      "language": "pt",
+      "publication_year": "",
+      "notes": "L9–33书名/作者/分类/1947报刊首发；L35–39显示页面复引Wikipedia，故只使用Data层目录元数据，不使用其下方转载描述。",
+      "disposition": "fresh_registration"
+    },
+    {
+      "candidate_id": "WCD10-B08-S211",
+      "publisher": "Universidade Estadual de Londrina",
+      "format": "research_pdf_or_thesis_pdf",
+      "language": "pt",
+      "publication_year": "2016",
+      "notes": "Title page P0–1 L0–15 identifies Vinícius Ferreira dos Santos, UEL master dissertation (2016); P44–45 L1389–95 is a brief discussion of O Mistério dos MMM inside a dissertation about another novel. It attributes 1962, ten authors and chapter relay; not a dedicated study.",
+      "disposition": "fresh_registration"
+    },
+    {
+      "candidate_id": "WCD10-B08-S212",
+      "publisher": "Universidade de São Paulo",
+      "format": "web_page",
+      "language": "pt",
+      "publication_year": "",
+      "notes": "L315–381列书版；L321–326首版出版社和1969；L87–101把Entremeio: com o vaqueiro Mariano收入该集；L539–540将其称为遗作书。",
+      "disposition": "fresh_registration"
+    },
+    {
+      "candidate_id": "WCD10-B08-S215",
+      "publisher": "Pontifícia Universidade Católica de Minas Gerais",
+      "format": "web_page",
+      "language": "pt",
+      "publication_year": "2005",
+      "notes": "L30–31：Nogueira摘要将Miguilim描述为以感官经验理解世界、通过讲故事应对充满疑虑、恐惧与死亡的童年；L69–74为期刊卷期页码与出版年。",
+      "disposition": "fresh_registration"
+    },
+    {
+      "candidate_id": "WCD10-B08-S216",
+      "publisher": "Universidade Federal de Viçosa",
+      "format": "web_page",
+      "language": "pt",
+      "publication_year": "2015",
+      "notes": "L38–39：Silva摘要说明Manuelzão强悍勇敢的外表下隐藏焦虑与不安；期刊卷3第1期为2015年，网页L57–62记在线日期2018-04-06。",
+      "disposition": "fresh_registration"
+    },
+    {
+      "candidate_id": "WCD10-B08-S217",
+      "publisher": "",
+      "format": "web_page",
+      "language": "pt",
+      "publication_year": "2020",
+      "notes": "UCP仓储页面L8–28给题名、作者、文章类型、2020-06-08仓储日期及摘要；全文12页PDF P0 L20–P1 L40交代五人旅行和叙事背景，P2 L81–89论谋害阴谋及七重预言，P6–7 L245–260论最后关头获救。仓储机构与期刊出版者分开记录。 DOI 10.34624/fb.v0i16.25183；期刊Forma Breve第16期，2020。",
+      "disposition": "fresh_registration"
+    },
+    {
+      "candidate_id": "WCD10-B08-S218",
+      "publisher": "Universidade Federal da Grande Dourados",
+      "format": "web_page",
+      "language": "pt",
+      "publication_year": "2011",
+      "notes": "L36–37摘要：Sá Rosa叙述Cara-de-Bronze误解父亲死因、临终派Grivo寻访事物本质并带回讲述；期刊卷5第10期为2011年，网页L53–58记在线日期2012-04-13。",
+      "disposition": "fresh_registration"
+    },
+    {
+      "candidate_id": "WCD10-B08-S219",
+      "publisher": "Universidade Federal de Minas Gerais",
+      "format": "web_page",
+      "language": "pt",
+      "publication_year": "2014",
+      "notes": "L23–32题名和作者；L37–40摘要：Lélio为牧牛人，从城中返回米纳斯吉拉斯荒原，经历主要在Pinhém农庄展开；L142正式引用。",
+      "disposition": "fresh_registration"
+    },
+    {
+      "candidate_id": "WCD10-B08-S220",
+      "publisher": "Universidade Federal de Minas Gerais",
+      "format": "web_page",
+      "language": "pt",
+      "publication_year": "2006",
+      "notes": "L23–38作者与摘要：D’Angelo称该篇为romance breve，讨论Soropita与Doralda的肉身之爱和欲望；期刊v.12为2006年，卷期信息L59–65。",
+      "disposition": "fresh_registration"
+    },
+    {
+      "candidate_id": "WCD10-B08-S221",
+      "publisher": "Universidade Federal de Minas Gerais",
+      "format": "web_page",
+      "language": "pt",
+      "publication_year": "2011",
+      "notes": "L18–32作者与摘要：Diogo讨论Lalinha抵达Buriti Bom及其对封闭父权秩序的扰动；L39–45为期刊卷3 (2011)出版元数据。",
+      "disposition": "fresh_registration"
+    },
+    {
+      "candidate_id": "WCD10-B08-S222",
+      "publisher": "Museu da Língua Portuguesa",
+      "format": "web_page",
+      "language": "pt",
+      "publication_year": "",
+      "notes": "L22–62馆藏作者/书名/版本与摘要：21篇短篇，以人物、人性与sertão为题材。仅作为馆藏记录及其摘要使用。",
+      "disposition": "fresh_registration"
+    },
+    {
+      "candidate_id": "WCD10-B08-S223",
+      "publisher": "Fundação Editora UNESP",
+      "format": "web_page",
+      "language": "pt",
+      "publication_year": "",
+      "notes": "L30–45为UNESP出版社书目页，载Magma未刊至1997及诗歌集概述；网页自身未列可核的页面发表日期，故来源publication_year留空。",
+      "disposition": "fresh_registration"
+    },
+    {
+      "candidate_id": "WCD10-B08-S224",
+      "publisher": "Universidade do Estado do Rio de Janeiro",
+      "format": "research_pdf",
+      "language": "pt",
+      "publication_year": "2022",
+      "notes": "已打开12页论文：P2 L95–96称1964年在O Cruzeiro连载、后来也出版成书；P3 L105–111论有限剧情；P4 L154–156提及Rosa与Jorge Amado及十位合作者。1964年代说与S230 1961连载及1962书版目录相冲突。",
+      "disposition": "fresh_registration"
+    },
+    {
+      "candidate_id": "WCD10-B08-S225",
+      "publisher": "",
+      "format": "research_pdf",
+      "language": "pt",
+      "publication_year": "2018",
+      "notes": "实际打开官方期刊17页PDF：P0 L1–17题名/作者/摘要；P9 L349–355列crônicas、contos、diários、notas de viagem并举“O lago do Itamaraty”；P10 L364–371讨论1947–1967报刊文本与杂集编排。此前访问失败仅作为检索历史记录。",
+      "disposition": "fresh_registration"
+    },
+    {
+      "candidate_id": "WCD10-B08-S226",
+      "publisher": "Pontifícia Universidade Católica de São Paulo",
+      "format": "research_pdf",
+      "language": "pt",
+      "publication_year": "2009",
+      "notes": "16-page direct study, P0 L0–4 title/author; P6 L213–216 gives 22 June 1930 O Cruzeiro publication and setup; P7–P9 L217–310 analyzes plot of Zviazline, chess, Tempo/Destino and supernatural resolution. Journal issue/year separately verified on official issue page n.3 (2009).",
+      "disposition": "fresh_registration"
+    },
+    {
+      "candidate_id": "WCD10-B08-S227",
+      "publisher": "Academia Brasileira de Letras",
+      "format": "institutional_article",
+      "language": "pt",
+      "publication_year": "2006",
+      "notes": "Page L7–13 identifies credited author Ana Maria Machado and describes Grande sertão: veredas as built around a pact with the devil, with protagonist Riobaldo and Diadorim; L24–26 records original publication in O Globo Prosa e Verso, 11 Mar 2006. Treat as B commentary, not dedicated research.",
+      "disposition": "fresh_registration"
+    },
+    {
+      "candidate_id": "WCD10-B08-S228",
+      "publisher": "Toda Matéria",
+      "format": "educational_literary_article",
+      "language": "pt",
+      "publication_year": "",
+      "notes": "Page L43–50 names Daniela Diana; L51–64 identifies the nine-story collection and L158–171 summarizes the Minas Gerais sertão setting and recurring conflicts. Citation template says [s.d.], so no page publication year entered.",
+      "disposition": "fresh_registration"
+    },
+    {
+      "candidate_id": "WCD10-B08-S229",
+      "publisher": "Fundação Cultural do Pará",
+      "format": "web_page",
+      "language": "pt",
+      "publication_year": "",
+      "notes": "帕拉州基金会数字稀见图书目录第90页；打开页L2–3著录书名、O Cruzeiro、Rio de Janeiro、1962及208页。馆藏目录所列是书本版本，不据此推导连载起始年。",
+      "disposition": "fresh_registration"
+    },
+    {
+      "candidate_id": "WCD10-B08-S230",
+      "publisher": "Universidade de São Paulo, Instituto de Estudos Brasileiros",
+      "format": "research_article",
+      "language": "pt",
+      "publication_year": "1996",
+      "notes": "原文作者Lenira Marques Covizzi与Iná Valéria Rodrigues Verlangieri；《Revista do Instituto de Estudos Brasileiros》第41期，1996，页213–234，DOI 10.11606/issn.2316-901X.v0i41p213-234。USP官方题录检索结果核实上述原刊元数据，官方页面直接open失败。全文内容通过Scribd托管转录本阅读（页面显示上传者Raquel Villazon；托管者不是论文作者或原刊出版者）：转录L125–126列MMM的1961年10–12月连载及1962书版，L127列Estas estórias 1969年初版九篇目录。转录位置采用行号，不将未核印刷页码作为定位。",
+      "disposition": "fresh_registration"
+    }
+  ],
+  "author_registrations": [
+    {
+      "author_id": "V1-ENT-0211",
+      "source_refs": [
+        "WCD10-B08-S101",
+        "WCD10-B08-S102"
+      ],
+      "description": "Preserve author facts and identity; this package adds no author biography fact."
+    }
+  ],
+  "author_metadata": {
+    "V1-ENT-0200": {
+      "task_id": "TASK-113",
+      "batch_id": "WCD-10-B08",
+      "accessed_at": "2026-10-10",
+      "public_content_scope": "Research-only candidate; no Curation admission or public release.",
+      "local_asset_status": "remote_only",
+      "copyright_boundary": "Only brief factual evidence locators and attributed paraphrases; no article text reproduced."
+    },
+    "V1-ENT-0211": {
+      "task_id": "TASK-113",
+      "batch_id": "WCD-10-B08",
+      "accessed_at": "2026-10-10",
+      "public_content_scope": "Research-only candidate; no Curation admission or public release.",
+      "local_asset_status": "remote_only",
+      "copyright_boundary": "Only short factual paraphrases and catalog metadata; no extended text reproduced."
+    },
+    "V1-ENT-0212": {
+      "task_id": "TASK-113",
+      "batch_id": "WCD-10-B08",
+      "accessed_at": "2026-10-10",
+      "public_content_scope": "Single-author Research-only candidate; no Curation or Web admission.",
+      "local_asset_status": "remote_only",
+      "copyright_boundary": "Only short factual bibliographic values and attributed paraphrases; no copied source text or source PDFs are saved."
+    }
+  }
+}

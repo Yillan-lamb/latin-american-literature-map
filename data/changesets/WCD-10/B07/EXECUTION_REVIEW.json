@@ -1,0 +1,459 @@
+{
+  "schema": "wcd10-b07-execution-review-1",
+  "date": "2026-10-10",
+  "task_id": "TASK-112",
+  "batch_id": "WCD-10-B07",
+  "status": "PASS_BOUNDED_B07_EXECUTION_AND_GOVERNANCE",
+  "verdict": "PASS_BOUNDED_B07_EXECUTION_AND_GOVERNANCE",
+  "execution_actor": {
+    "candidate_production": "GPT-6 Luna author workers",
+    "merge_integrator": "Codex subagent / B07 integrator",
+    "prepare_sql_apply_and_post_apply_qa": "Codex parent fallback after the Luna terminal reported usage-limit exhaustion",
+    "documented_by": "B07 integrator; documentary work only, no repeated prepare/apply"
+  },
+  "input_author_packages": [
+    {
+      "author": "Sabato",
+      "author_id": "V1-ENT-0186",
+      "revision": "R3",
+      "candidate_sha256": "6f3a4933090a563f7065b2089095f233826188966fe82ae53c85bbf8d428641f",
+      "review_path": "project/internal/WCD_10_WORKSPACE/B07/SABATO_R3_INDEPENDENT_REVIEW.json",
+      "review_sha256": "4f8338b9f71b1692d9f79d2819027e67ff9136aa1c553cc162190aadd68828d6",
+      "verdict": "PASS_BOUNDED_AUTHOR_PACKAGE",
+      "input_path": "project/internal/WCD_10_WORKSPACE/orchestration/wave-04/sabato/revisions/R3"
+    },
+    {
+      "author": "Bioy",
+      "author_id": "V1-ENT-0198",
+      "revision": "R8",
+      "candidate_sha256": "5b5665a70cd71a48049a52e6b0ba92b23da26b458790ceaba80e0cef5653c7ce",
+      "manifest_sha256": "c83a083dbb09a91a555506102e2cbcc1618637f82d73453107e3b2071f53f79f",
+      "review_path": "project/internal/WCD_10_WORKSPACE/B07/BIOY_R8_INDEPENDENT_REVIEW.json",
+      "review_sha256": "b8ce5a120327c99a9d6376c32905aa230d327c0345b552fbc230973333d9aaa4",
+      "verdict": "PASS_BOUNDED_AUTHOR_PACKAGE",
+      "input_path": "project/internal/WCD_10_WORKSPACE/orchestration/wave-04/bioy/R8"
+    },
+    {
+      "author": "Roa",
+      "author_id": "V1-ENT-0199",
+      "revision": "R5",
+      "candidate_sha256": "c6453390e2d8fdf044cbb2139ea080aa9471497a4e900367bc23b2db3ce70efd",
+      "manifest_sha256": "2b34e26b7f7be9e93accc0db2da8cc2147f3f86b5fd93ab1d636307f2d6eab37",
+      "review_path": "project/internal/WCD_10_WORKSPACE/B07/ROA_R5_INDEPENDENT_REVIEW.json",
+      "review_sha256": "1a5c94c67a21fbe192418228a10db07419c91e809637589088875330a52edc59",
+      "verdict": "PASS_BOUNDED_AUTHOR_PACKAGE",
+      "input_path": "project/internal/WCD_10_WORKSPACE/orchestration/wave-04/roa/frozen/R5"
+    }
+  ],
+  "bindings": {
+    "candidate_sha256": "35c653123fcf944a8c333f7d76bf39496867fb4c8507724e16598a9bbfc57aeb",
+    "candidate_gate_sha256": "266745b1ea95999a9943ed176d15ca354d3f1a6d9dc85f908c014c3e4a5ab49c",
+    "checkpoint_gate_sha256": "8fa3725d8e3bbaba26bca2b007349293692acab42f6740e4856ef9a5ee7eedae",
+    "baseline_wt_sha256": "ea9e01b41b4faaef727a6159b6d34ba7d9121a9992fda1cb993c6574f91f6a27",
+    "migration_sha256": "4110d4c32fb5f418636640f2f6ecb4f32853a0c12431ebcdd2e7b2fdc34c66c7",
+    "mapping_sha256": "7fbf2e238c959d80ffdc1b58fefce128d6124cd21c241cd73b8297b053a9cef1",
+    "actual_wt_master_sha256": "0150e68ee98e28714a7719129aab7d47e137fc692e8e46a5e1db29540f5dbc07",
+    "root_master_sha256": "a8c54e3c0e04a347f310d7f0f969dfba758f575008fa64c1789e43b26bf378cc",
+    "merge_provenance_sha256": "ad4f582aa4bc843a62f0c4388abbef401d81d4c94116f0d9036974923b627b69"
+  },
+  "independent_reviews": {
+    "merged_candidate": {
+      "verdict": "PASS_MERGED_CANDIDATE",
+      "assertions": 1815,
+      "report_path": "project/internal/WCD_10_WORKSPACE/B07/MERGED_INDEPENDENT_REVIEW.json",
+      "sha256": "3f032ce0551c99773235b5e3767ddb125abb3f8a058937bc74c70583cebb349f"
+    },
+    "merged_roster_mechanical": {
+      "verdict": "pass",
+      "report_path": "project/internal/WCD_10_WORKSPACE/B07/MERGED_PARENT_MECHANICAL.json",
+      "sha256": "d3656e0027531a70b25c925213cc2883eae0396333fc700a93ecc1fa6f37df0e"
+    },
+    "sql": {
+      "verdict": "PASS_SQL_REVIEW",
+      "assertions": 732,
+      "clone_apply_exit": 0,
+      "table_deltas": {
+        "metadata": 0,
+        "sources": 88,
+        "source_holds": 0,
+        "entities": 54,
+        "entity_id_map": 54,
+        "relationships": 54,
+        "relationship_evidence": 152,
+        "relationship_sources": 152,
+        "relation_holds": 0,
+        "relation_hold_evidence": 0,
+        "content_cards": 63,
+        "facts": 200,
+        "fact_sources": 355,
+        "card_facts": 200,
+        "card_sources": 195,
+        "gaps": 76,
+        "n3_decisions": 0,
+        "legacy_relation_groups": 0,
+        "migration_log": 1
+      },
+      "report_path": "project/internal/WCD_10_WORKSPACE/B07/SQL_INDEPENDENT_REVIEW.json",
+      "sha256": "41ef68624406bd9855e12c73362b72f0763517af0f12a4c5fd3ace1a8564c62b"
+    },
+    "role_descriptions": {
+      "verdict": "PASS",
+      "reviewed_candidates": [
+        "WCD10-B07-W117",
+        "WCD10-B07-W119",
+        "WCD10-B07-W120",
+        "WCD10-B07-W128",
+        "WCD10-B07-W129",
+        "WCD10-B07-W217"
+      ],
+      "report_path": "project/internal/WCD_10_WORKSPACE/B07/SQL_ROLE_SUPPLEMENTAL_REVIEW.json",
+      "sha256": "b5abb5f6ea5b65f11e0b8e89fdfb9a0da6aa7caef4141340a4332806f53d8436"
+    },
+    "actual_database": {
+      "verdict": "PASS_ACTUAL_DB_MATCHES_INDEPENDENT_CLONE",
+      "checks": 19,
+      "actual_apply_exit": 0,
+      "report_path": "project/internal/WCD_10_WORKSPACE/B07/ACTUAL_DATABASE_INDEPENDENT_REVIEW.json",
+      "sha256": "b41fdab57571ea99c0d6f723c1bffe9a84e85ebb37626fe4bbaaf34c3cdea953"
+    }
+  },
+  "allocation": {
+    "counts": {
+      "sources": 88,
+      "entities": 54,
+      "entity_id_map": 54,
+      "content_cards": 63,
+      "facts": 200,
+      "card_facts": 200,
+      "fact_sources": 355,
+      "card_sources": 195,
+      "relationships": 54,
+      "relationship_sources": 152,
+      "relationship_evidence": 152,
+      "gaps": 76
+    },
+    "new_source_id_range": [
+      "SRC-0459",
+      "SRC-0546"
+    ],
+    "reused_source_ids": {
+      "WCD10-B07-S001": "SRC-0148",
+      "WCD10-B07-S002": "SRC-0149",
+      "WCD10-B07-S003": "SRC-0150",
+      "WCD10-B07-S102": "SRC-0154",
+      "WCD10-B07-S103": "SRC-0155",
+      "WCD10-B07-S104": "SRC-0153",
+      "WCD10-B07-S215": "SRC-0160",
+      "WCD10-B07-S219": "SRC-0159"
+    },
+    "deferred_only_candidate_source_ids": [
+      "WCD10-B07-S018",
+      "WCD10-B07-S024",
+      "WCD10-B07-S025",
+      "WCD10-B07-S026",
+      "WCD10-B07-S027",
+      "WCD10-B07-S028",
+      "WCD10-B07-S126",
+      "WCD10-B07-S139",
+      "WCD10-B07-S217"
+    ],
+    "formal_source_ids_for_deferred_only_candidates": [],
+    "new_entity_id_range": [
+      "V1-ENT-0457",
+      "V1-ENT-0510"
+    ],
+    "new_fact_id_range": [
+      "V1-FCT-1377",
+      "V1-FCT-1576"
+    ],
+    "new_card_id_range": [
+      "V1-CARD-0381",
+      "V1-CARD-0443"
+    ],
+    "new_relationship_id_range": [
+      "V1-REL-0426",
+      "V1-REL-0479"
+    ],
+    "new_gap_id_range": [
+      "V1-GAP-0195",
+      "V1-GAP-0270"
+    ]
+  },
+  "actual_database": {
+    "sha256": "0150e68ee98e28714a7719129aab7d47e137fc692e8e46a5e1db29540f5dbc07",
+    "counts": {
+      "metadata": 16,
+      "sources": 544,
+      "source_holds": 4,
+      "entities": 508,
+      "entity_id_map": 506,
+      "relationships": 477,
+      "relationship_evidence": 673,
+      "relationship_sources": 702,
+      "relation_holds": 51,
+      "relation_hold_evidence": 58,
+      "content_cards": 443,
+      "facts": 1570,
+      "fact_sources": 1878,
+      "card_facts": 1549,
+      "card_sources": 947,
+      "gaps": 270,
+      "n3_decisions": 4,
+      "legacy_relation_groups": 15,
+      "migration_log": 42
+    },
+    "integrity_check": "ok",
+    "foreign_key_errors": 0,
+    "root_database_unchanged_sha256": "a8c54e3c0e04a347f310d7f0f969dfba758f575008fa64c1789e43b26bf378cc"
+  },
+  "checkpoint_qa": {
+    "status": "PASS",
+    "export_formats_equal": {
+      "json": 19,
+      "csv": 19,
+      "xlsx": 19
+    },
+    "reviewed_sql_exact_replay": true,
+    "public_artifacts_byte_identical": 177,
+    "public_entities": 127,
+    "new_b07_entities_public": 0,
+    "snapshot_boundary": "Research checkpoint only; not a new formal Data release",
+    "report_sha256": "cdcfc902be376aa3c6b449f848e86d36596c90ba19510a29354e9d03a1049cc4",
+    "old_non_metadata_rows_preserved": true,
+    "metadata_changes": "Only approved checkpoint keys were updated; the SQL review explicitly asserted that only those metadata values changed."
+  },
+  "export_repeat": {
+    "verdict": "PASS",
+    "file_count": 22,
+    "report_sha256": "e0ce6117713fe0198a880e34101def0cd1d2687796eca577a6af3b4175026a21"
+  },
+  "migration_replay": {
+    "status": "PASS",
+    "migrations_replayed": 42,
+    "tables_equal": 19,
+    "integrity_check": "ok",
+    "foreign_key_errors": 0,
+    "log_sha256": "1442b5d2a2d4a01c5d5cd192c8c624f8720adc7ffe17aa96c6565e2a64aaecc7"
+  },
+  "full_tests": {
+    "test_count": 161,
+    "exit_code": 0,
+    "duration_seconds": 33.877,
+    "log_sha256": "df4d37310e37b896a17b8249071f62d7091c6123b920736e65cb81e6aa12cf8c"
+  },
+  "browser": {
+    "verdict": "PASS",
+    "passed": 60,
+    "explicit_preview_skips": 4,
+    "unexpected": 0,
+    "flaky": 0,
+    "server": "127.0.0.1:4187 only, local static copy; no deploy",
+    "report_sha256": "bd24160f228e856eb71a5c91f1e989414200bef9e12d6e69d5f34c66888a3690"
+  },
+  "web_projection": {
+    "generated_at": "2026-10-08T00:00:00Z",
+    "schema_version": "v2-web-0.3",
+    "product_version": "0.6.0",
+    "public_artifacts": 177,
+    "public_entities": 127,
+    "routes": 139,
+    "new_b07_entities_public": 0,
+    "validation": "PASS",
+    "site_data_sha256": "6f5cfc7fe2e81941c8729cae6b621e4100c0cc7123e717f3141f92a1a11907f0",
+    "manifest_sha256": "e2b69e84c0e311d5d0930befe7f6c73d251a25af56167603cba834077d10014f",
+    "byte_equal_to_reviewed_b07_after_build": true
+  },
+  "role_preservation": {
+    "approved_overrides": [
+      "WCD10-B07-W117",
+      "WCD10-B07-W119",
+      "WCD10-B07-W120",
+      "WCD10-B07-W217"
+    ],
+    "existing_descriptions_preserved": [
+      "WCD10-B07-W128",
+      "WCD10-B07-W129"
+    ],
+    "empty_unknown_publishers_preserved": [
+      "WCD10-B07-S131",
+      "WCD10-B07-S136",
+      "WCD10-B07-S142",
+      "WCD10-B07-S144",
+      "WCD10-B07-S149"
+    ],
+    "role_review": "PASS"
+  },
+  "operational_deviations": {
+    "prepare_and_actual_execution_attempts": "Parent prepare command contract failures and an incorrect read-only query are retained in PREPARE_CONTRACT_FAILURES.json; subsequent prepare and apply succeeded. No failed attempt applied SQL.",
+    "initial_web_build": "A relative --db argument failed; absolute-path retry succeeded with the pinned generated_at value.",
+    "http_server": "Initial default-sandbox bind logged PermissionError. Explicitly approved escalated invocation bound only 127.0.0.1:4187; browser review passed and no deployment occurred. Parent confirms the temporary server was stopped with Ctrl-C and exited 0.",
+    "database_write_actor": "Only the parent fallback performed actual apply; this reviewer did not apply/re-apply the migration."
+  },
+  "version_boundary": {
+    "research_data": "1.5.0 development checkpoint; unchanged train",
+    "research_schema": "0.4 unchanged",
+    "web_data_schema": "v2-web-0.3 unchanged",
+    "formal_release": false,
+    "public_scope_changed": false,
+    "curation_changed": false,
+    "task_done": true,
+    "b08_unlocked": true
+  },
+  "evidence_sha256": {
+    "merged_candidate_review": {
+      "path": "project/internal/WCD_10_WORKSPACE/B07/MERGED_INDEPENDENT_REVIEW.json",
+      "sha256": "3f032ce0551c99773235b5e3767ddb125abb3f8a058937bc74c70583cebb349f"
+    },
+    "parent_merged_mechanical": {
+      "path": "project/internal/WCD_10_WORKSPACE/B07/MERGED_PARENT_MECHANICAL.json",
+      "sha256": "d3656e0027531a70b25c925213cc2883eae0396333fc700a93ecc1fa6f37df0e"
+    },
+    "sql_review": {
+      "path": "project/internal/WCD_10_WORKSPACE/B07/SQL_INDEPENDENT_REVIEW.json",
+      "sha256": "41ef68624406bd9855e12c73362b72f0763517af0f12a4c5fd3ace1a8564c62b"
+    },
+    "sql_role_review": {
+      "path": "project/internal/WCD_10_WORKSPACE/B07/SQL_ROLE_SUPPLEMENTAL_REVIEW.json",
+      "sha256": "b5abb5f6ea5b65f11e0b8e89fdfb9a0da6aa7caef4141340a4332806f53d8436"
+    },
+    "actual_database_review": {
+      "path": "project/internal/WCD_10_WORKSPACE/B07/ACTUAL_DATABASE_INDEPENDENT_REVIEW.json",
+      "sha256": "b41fdab57571ea99c0d6f723c1bffe9a84e85ebb37626fe4bbaaf34c3cdea953"
+    },
+    "prepare_contract_failures": {
+      "path": "project/internal/WCD_10_WORKSPACE/B07/PREPARE_CONTRACT_FAILURES.json",
+      "sha256": "3f6b6a4d8f53b97fc14b4e9d8ceb604ae7a0edb271ed0a88ba5c18b8c6979ad8"
+    },
+    "checkpoint_qa": {
+      "path": "work/codex-worktrees/latin-american-literature-map-wcd10/work/wcd10-qa/B07_PARENT_CHECKPOINT_QA.json",
+      "sha256": "cdcfc902be376aa3c6b449f848e86d36596c90ba19510a29354e9d03a1049cc4"
+    },
+    "export_repeat": {
+      "path": "work/codex-worktrees/latin-american-literature-map-wcd10/work/wcd10-qa/B07_PARENT_EXPORT_REPEAT.json",
+      "sha256": "e0ce6117713fe0198a880e34101def0cd1d2687796eca577a6af3b4175026a21"
+    },
+    "browser_review": {
+      "path": "work/codex-worktrees/latin-american-literature-map-wcd10/work/wcd10-qa/B07_PARENT_BROWSER_REVIEW.json",
+      "sha256": "bd24160f228e856eb71a5c91f1e989414200bef9e12d6e69d5f34c66888a3690"
+    },
+    "post_apply_tests_log": {
+      "path": "work/codex-worktrees/latin-american-literature-map-wcd10/work/wcd10-qa/B07_POST_APPLY_FULL_TESTS.log",
+      "sha256": "df4d37310e37b896a17b8249071f62d7091c6123b920736e65cb81e6aa12cf8c"
+    },
+    "migration_replay_log": {
+      "path": "work/codex-worktrees/latin-american-literature-map-wcd10/work/wcd10-qa/B07_MIGRATION_REPLAY.log",
+      "sha256": "1442b5d2a2d4a01c5d5cd192c8c624f8720adc7ffe17aa96c6565e2a64aaecc7"
+    },
+    "http_server_default_log": {
+      "path": "work/codex-worktrees/latin-american-literature-map-wcd10/work/wcd10-qa/B07_HTTP_SERVER.log",
+      "sha256": "8aa78ae2853f65c5fcdae4e119835c09a7ffdfb8c6fa4e472f11afe81f0de946"
+    },
+    "http_server_escalated_log": {
+      "path": "work/codex-worktrees/latin-american-literature-map-wcd10/work/wcd10-qa/B07_HTTP_SERVER_ESCALATED.log",
+      "sha256": "43e64aef1b235b019a031a04c830e16dba01d280e6e9a3ee3501a13a00ee7fe8"
+    },
+    "master_validation_log": {
+      "path": "work/codex-worktrees/latin-american-literature-map-wcd10/work/wcd10-qa/B07_MASTER_VALIDATION.log",
+      "sha256": "85613bc84789a813fbceecba0c836f32b138469e48ba7907a8ceb42d00009c15"
+    },
+    "export_log": {
+      "path": "work/codex-worktrees/latin-american-literature-map-wcd10/work/wcd10-qa/B07_EXPORT.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "export_repeat_log": {
+      "path": "work/codex-worktrees/latin-american-literature-map-wcd10/work/wcd10-qa/B07_EXPORT_REPEAT.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "web_build_initial_log": {
+      "path": "work/codex-worktrees/latin-american-literature-map-wcd10/work/wcd10-qa/B07_WEB_BUILD.log",
+      "sha256": "5023aa7f1fe21c1ba0e22f8bd8e16e30a07dcee45400bdfdabf600c55d748296"
+    },
+    "web_build_retry_log": {
+      "path": "work/codex-worktrees/latin-american-literature-map-wcd10/work/wcd10-qa/B07_WEB_BUILD_RETRY.log",
+      "sha256": "cf218c812e8d13da24cc8b858cde4c372369d6ed2de7bd940e2026fdd78a88ae"
+    },
+    "web_validation_log": {
+      "path": "work/codex-worktrees/latin-american-literature-map-wcd10/work/wcd10-qa/B07_WEB_VALIDATION.log",
+      "sha256": "beccef9afbf7051e71f144d943577bec7a034a43967e321e36b2c8743fa9118d"
+    },
+    "public_validation_log": {
+      "path": "work/codex-worktrees/latin-american-literature-map-wcd10/work/wcd10-qa/B07_PUBLIC_VALIDATION.log",
+      "sha256": "a92ae9b0c44d8fa009294bb5d7d834a684696626571981193c2b64b50766faeb"
+    },
+    "formal_web_build_log": {
+      "path": "work/codex-worktrees/latin-american-literature-map-wcd10/work/wcd10-qa/B07_FORMAL_WEB_BUILD.log",
+      "sha256": "cf218c812e8d13da24cc8b858cde4c372369d6ed2de7bd940e2026fdd78a88ae"
+    },
+    "deploy_bundle_build_log": {
+      "path": "work/codex-worktrees/latin-american-literature-map-wcd10/work/wcd10-qa/B07_DEPLOY_BUILD.log",
+      "sha256": "e4d8ac9f2c9774f2724f975273fb9fd60d2478b2a3d89c314e3122a0dc4c1c9b"
+    },
+    "sql": {
+      "path": "work/codex-worktrees/latin-american-literature-map-wcd10/data/master/migrations/0042_wcd10_b07_author_works.sql",
+      "sha256": "4110d4c32fb5f418636640f2f6ecb4f32853a0c12431ebcdd2e7b2fdc34c66c7"
+    },
+    "integration_map": {
+      "path": "work/codex-worktrees/latin-american-literature-map-wcd10/data/changesets/WCD-10/B07/INTEGRATION_MAP.json",
+      "sha256": "7fbf2e238c959d80ffdc1b58fefce128d6124cd21c241cd73b8297b053a9cef1"
+    },
+    "candidate": {
+      "path": "work/codex-worktrees/latin-american-literature-map-wcd10/data/changesets/WCD-10/B07/CANDIDATES.json",
+      "sha256": "35c653123fcf944a8c333f7d76bf39496867fb4c8507724e16598a9bbfc57aeb"
+    },
+    "candidate_gate": {
+      "path": "work/codex-worktrees/latin-american-literature-map-wcd10/data/changesets/WCD-10/B07/REVIEW_GATE.json",
+      "sha256": "266745b1ea95999a9943ed176d15ca354d3f1a6d9dc85f908c014c3e4a5ab49c"
+    },
+    "checkpoint_gate": {
+      "path": "work/codex-worktrees/latin-american-literature-map-wcd10/data/changesets/WCD-10/B07/CHECKPOINT_REVIEW.json",
+      "sha256": "8fa3725d8e3bbaba26bca2b007349293692acab42f6740e4856ef9a5ee7eedae"
+    },
+    "merge_provenance": {
+      "path": "work/codex-worktrees/latin-american-literature-map-wcd10/data/changesets/WCD-10/B07/MERGE_PROVENANCE.json",
+      "sha256": "ad4f582aa4bc843a62f0c4388abbef401d81d4c94116f0d9036974923b627b69"
+    },
+    "builder": {
+      "path": "work/codex-worktrees/latin-american-literature-map-wcd10/scripts/build_wcd10_migration.py",
+      "sha256": "0b3fea52119d4e998479f93e4923742bf9780b5432d0d77a4eaf657531588975"
+    },
+    "candidate_validator": {
+      "path": "work/codex-worktrees/latin-american-literature-map-wcd10/scripts/validate_wcd10_candidates.py",
+      "sha256": "320a45549d301e0b8866f89abce889c90bfe0b4ada88e80a46a1b3dcc346b31c"
+    },
+    "final_master": {
+      "path": "work/codex-worktrees/latin-american-literature-map-wcd10/data/master/V1_MASTER.sqlite",
+      "sha256": "0150e68ee98e28714a7719129aab7d47e137fc692e8e46a5e1db29540f5dbc07"
+    },
+    "root_master": {
+      "path": "data/master/V1_MASTER.sqlite",
+      "sha256": "a8c54e3c0e04a347f310d7f0f969dfba758f575008fa64c1789e43b26bf378cc"
+    }
+  },
+  "database_preservation": {
+    "old_non_metadata_rows_preserved": true,
+    "metadata_change_scope": "Only approved checkpoint metadata keys changed; no metadata row-count delta.",
+    "actual_database_review": "All 19 table comparisons passed against the independent clone."
+  },
+  "remaining_stage_obligations": {
+    "W03": "USER policy for cross-language first-publication years and actual backfill remain required.",
+    "coauthor_reentry": "TASK-127/B14 controlled migration must review the same-object works V1-ENT-0493 Los que aman odian and V1-ENT-0494 Antología. Missing Silvina Ocampo and Borges CREATED edges remain for that controlled migration; B07 role descriptions do not add them."
+  },
+  "documentation": {
+    "audit_path": "data/changesets/WCD-10/B07/AUDIT.md",
+    "audit_sha256": "49c65c06f68951e9cd9c1286ba4008a65afb196dcf6846b5bec13494a323e4d8",
+    "validation_path": "data/changesets/WCD-10/B07/VALIDATION.md",
+    "validation_sha256": "bfafd69981e13fbbd02f3952407a3ba6e3ed54687ca53499fff9cbe16f4fac66",
+    "readme_sha256": "cb8affd6a1f3ba677d048f95e0e55a1ddb9d016e59186c7fe73876fc3c82c20d",
+    "master_readme_sha256": "d7514be23261bd990e10a09368452bfb7a117b0e79cd3971bbb397a604a510b8",
+    "readme_path": "README.md",
+    "master_readme_path": "data/master/README.md"
+  },
+  "artifact_integrity": {
+    "parent_strict_check": "PASS for 11 JSON artifacts present at check time; credentials scan and diff-check passed. The three execution JSON files authored afterward are separately JSON-parsed in this documentation pass."
+  },
+  "parent_final_review": "project/internal/WCD_10_WORKSPACE/B07/FINAL_EXECUTION_GOVERNANCE_REVIEW.json",
+  "documentary_corrections": [
+    "README stale B06 checkpoint label corrected to B07",
+    "prepare actual argument is --batch B07, not a path; original documentary files preserved"
+  ]
+}

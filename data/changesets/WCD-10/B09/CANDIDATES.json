@@ -1,0 +1,841 @@
+{
+  "schema": "wcd10-candidates-1",
+  "task_id": "TASK-114",
+  "batch_id": "WCD-10-B09",
+  "baseline_commit": "05f3372c69a54ec331d31b05d16c8288d6d3a993",
+  "baseline_database_sha256": "af6c293aa32d86143f2be6f4c4ed414799086f8878df22b13a7356397ebd6050",
+  "status": "MERGED_CANDIDATE_PARENT_REVIEW_PENDING",
+  "author_ids": [
+    "V1-ENT-0213",
+    "V1-ENT-0223",
+    "V1-ENT-0224"
+  ],
+  "accessed_at": "2026-10-12",
+  "public_boundary": "Ramos author-isolated B09 research candidate only. No formal IDs, Curation/Gate admission, SQL, database write, apply, code, commit, or release is authorized by this candidate package.",
+  "source_scope_decisions": [
+    {
+      "source_id": "SRC-0171",
+      "url": "https://bndigital.bn.gov.br/graciliano-ramos/",
+      "decision": "reuse_existing_source",
+      "disposition": "reuse",
+      "related_existing_source": "SRC-0171",
+      "reuse_existing_source": "SRC-0171",
+      "candidate_ids": [
+        "WCD10-B09-S001"
+      ],
+      "target_candidate_ids": [
+        "WCD10-B09-W001",
+        "WCD10-B09-W002",
+        "WCD10-B09-W003",
+        "WCD10-B09-W001-F01",
+        "WCD10-B09-W001-F02",
+        "WCD10-B09-W001-F03",
+        "WCD10-B09-W002-F01",
+        "WCD10-B09-W002-F02",
+        "WCD10-B09-W002-F03",
+        "WCD10-B09-W003-F01",
+        "WCD10-B09-W003-F02",
+        "WCD10-B09-W003-F03"
+      ],
+      "boundary": "Exact canonical source URL reopened on 2026-10-12; preserve baseline source object metadata unchanged; use only directly supported bibliography/description."
+    },
+    {
+      "source_id": "SRC-0173",
+      "url": "https://prefeitura.sp.gov.br/web/cultura/w/133-anos-de-graciliano-ramos-5-obras-para-voc%C3%AA-conhecer-a-ess%C3%AAncia-liter%C3%A1ria-do-escritor-que-faz-anivers%C3%A1rio-nesta-segunda-27-smc",
+      "decision": "reuse_existing_source",
+      "disposition": "reuse",
+      "related_existing_source": "SRC-0173",
+      "reuse_existing_source": "SRC-0173",
+      "candidate_ids": [
+        "WCD10-B09-S002"
+      ],
+      "target_candidate_ids": [
+        "WCD10-B09-W001",
+        "WCD10-B09-W002",
+        "WCD10-B09-W001-F01",
+        "WCD10-B09-W001-F02",
+        "WCD10-B09-W001-F03",
+        "WCD10-B09-W002-F01",
+        "WCD10-B09-W002-F02",
+        "WCD10-B09-W002-F03",
+        "WCD10-B09-F003",
+        "WCD10-B09-F004",
+        "WCD10-B09-F005",
+        "WCD10-B09-F006"
+      ],
+      "boundary": "Exact canonical source URL reopened on 2026-10-12; preserve baseline source object metadata unchanged; use only directly supported bibliography/description."
+    },
+    {
+      "source_id": "SRC-0172",
+      "url": "https://www.bpp.pr.gov.br/Candido/Pagina/Making-Vidas-Secas",
+      "decision": "reuse_existing_source",
+      "disposition": "reuse",
+      "related_existing_source": "SRC-0172",
+      "reuse_existing_source": "SRC-0172",
+      "candidate_ids": [
+        "WCD10-B09-S003"
+      ],
+      "target_candidate_ids": [
+        "WCD10-B09-F001",
+        "WCD10-B09-F002"
+      ],
+      "boundary": "Exact canonical source URL reopened on 2026-10-12; preserve baseline source object metadata unchanged; use only directly supported bibliography/description."
+    },
+    {
+      "source_id": "WCD10-B09-S101",
+      "url": "https://www.casadelaliteratura.gob.pe/cesar-vallejo-la-historia-detras-la-publicacion-obras/",
+      "decision": "register_new_source",
+      "reuse_existing_source": "",
+      "candidate_ids": [
+        "WCD10-B09-F101",
+        "WCD10-B09-F102",
+        "WCD10-B09-F103",
+        "WCD10-B09-F104",
+        "WCD10-B09-F105",
+        "WCD10-B09-F106",
+        "WCD10-B09-W102",
+        "WCD10-B09-W103"
+      ],
+      "boundary": "作品级机构说明限于文章定位段落；《黑色使者》基线1918/1919冲突继续保留，不添加/改写年份；《España, aparta de mí este cáliz》自身题名、独立印本线索与其被编入1939年《Poemas humanos》卷的事实分别说明。"
+    },
+    {
+      "source_id": "WCD10-B09-S102",
+      "url": "https://www.casadelaliteratura.gob.pe/wp-content/uploads/2023/03/Historia-de-la-literatura-Vol-5-final.pdf",
+      "decision": "register_new_source",
+      "reuse_existing_source": "",
+      "candidate_ids": [
+        "WCD10-B09-W101",
+        "WCD10-B09-W103"
+      ],
+      "boundary": "作品小说书目及内容摘要使用P39 / chronology定位，来源书本身出版信息取版权页；不把卷内观点泛化为作者身份判断。"
+    },
+    {
+      "source_id": "WCD10-B09-S103",
+      "url": "https://memoriaypapel.bnp.gob.pe/items/4665561f-5d41-4b28-a9cc-1bbeeb8fcfed",
+      "decision": "register_new_source",
+      "reuse_existing_source": "",
+      "candidate_ids": [
+        "WCD10-B09-W102"
+      ],
+      "boundary": "BNP数字馆藏记录的1939为馆藏书目项日期；不作为作品写作年，亦不消除该独立印本历史中的传播争议。"
+    },
+    {
+      "decision": "reuse_existing_source",
+      "source_id": "SRC-0181",
+      "url": "https://www.memoriachilena.gob.cl/602/w3-article-3699.html",
+      "reuse_existing_source": "SRC-0181",
+      "candidate_ids": [
+        "WCD10-B09-F201",
+        "WCD10-B09-F202"
+      ],
+      "boundary": "实读该精确URL；沿用基线来源等级B，不改历史source元数据。"
+    },
+    {
+      "decision": "reuse_existing_source",
+      "source_id": "SRC-0182",
+      "url": "https://www.memoriachilena.gob.cl/archivos2/pdfs/MC0011355.pdf",
+      "reuse_existing_source": "SRC-0182",
+      "candidate_ids": [
+        "WCD10-B09-W201",
+        "WCD10-B09-W201-F01",
+        "WCD10-B09-W201-F02",
+        "WCD10-B09-W201-F03",
+        "WCD10-B09-F203",
+        "WCD10-B09-F204",
+        "WCD10-B09-F205",
+        "WCD10-B09-F206"
+      ],
+      "boundary": "已直接打开精确URL；作者实际署名Raúl Silva Castro；旧来源等级及元数据均保持不变。"
+    },
+    {
+      "decision": "fresh_registration",
+      "candidate_source_id": "WCD10-B09-S203",
+      "url": "https://cervantesvirtual.com/portales/ruben_dario/ruben_dario_y_su_obra/",
+      "candidate_ids": [
+        "WCD10-B09-W202",
+        "WCD10-B09-W202-F01",
+        "WCD10-B09-W202-F02",
+        "WCD10-B09-W202-F03"
+      ],
+      "boundary": "已直接打开大学署名专题页面，正文直接列出完整书名与1910年。"
+    }
+  ],
+  "sources": [
+    {
+      "candidate_id": "WCD10-B09-S001",
+      "url": "https://bndigital.bn.gov.br/graciliano-ramos/",
+      "title": "Graciliano Ramos – BNDigital",
+      "disposition": "reuse",
+      "reuse_existing_source": "SRC-0171",
+      "candidate_ids": [
+        "WCD10-B09-W001",
+        "WCD10-B09-W002",
+        "WCD10-B09-W003",
+        "WCD10-B09-W001-F01",
+        "WCD10-B09-W001-F02",
+        "WCD10-B09-W001-F03",
+        "WCD10-B09-W002-F01",
+        "WCD10-B09-W002-F02",
+        "WCD10-B09-W002-F03",
+        "WCD10-B09-W003-F01",
+        "WCD10-B09-W003-F02",
+        "WCD10-B09-W003-F03"
+      ],
+      "author_or_editor": "Fundação Biblioteca Nacional",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "direct bibliographic and biographical authority; opened lines 47–50 directly list Caetés (1933), São Bernardo (1934), Angústia (1936), Vidas Secas (1938), Memórias do Cárcere (1953, posthumous), Infância (1945), and Viagem (1954); line 49 describes prison memoir; line 50 identifies Infância as autobiographical.",
+      "usage": "普通书目/简介及作者—作品直接关联；限于页面明确列示内容，不外推更广文学评价。"
+    },
+    {
+      "candidate_id": "WCD10-B09-S002",
+      "url": "https://prefeitura.sp.gov.br/web/cultura/w/133-anos-de-graciliano-ramos-5-obras-para-voc%C3%AA-conhecer-a-ess%C3%AAncia-liter%C3%A1ria-do-escritor-que-faz-anivers%C3%A1rio-nesta-segunda-27-smc",
+      "title": "133 anos de Graciliano Ramos: 5 obras para você conhecer a essência literária do escritor",
+      "disposition": "reuse",
+      "reuse_existing_source": "SRC-0173",
+      "candidate_ids": [
+        "WCD10-B09-W001",
+        "WCD10-B09-W002",
+        "WCD10-B09-W001-F01",
+        "WCD10-B09-W001-F02",
+        "WCD10-B09-W001-F03",
+        "WCD10-B09-W002-F01",
+        "WCD10-B09-W002-F02",
+        "WCD10-B09-W002-F03",
+        "WCD10-B09-F003",
+        "WCD10-B09-F004",
+        "WCD10-B09-F005",
+        "WCD10-B09-F006"
+      ],
+      "author_or_editor": "Secretaria Municipal de Cultura e Economia Criativa de São Paulo",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "opened lines 109–123: Caetés 1933 novel debut and description; São Bernardo story of farmer Paulo Honório; Angústia protagonist Luís da Silva; Vidas Secas family of retirantes; Memórias do Cárcere posthumous and prison experience.",
+      "usage": "普通书目/简介及作者—作品直接关联；限于页面明确列示内容，不外推更广文学评价。"
+    },
+    {
+      "candidate_id": "WCD10-B09-S003",
+      "url": "https://www.bpp.pr.gov.br/Candido/Pagina/Making-Vidas-Secas",
+      "title": "Making of | Vidas Secas",
+      "disposition": "reuse",
+      "reuse_existing_source": "SRC-0172",
+      "candidate_ids": [
+        "WCD10-B09-F001",
+        "WCD10-B09-F002"
+      ],
+      "author_or_editor": "Biblioteca Pública do Paraná",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "opened lines 85–99 and 109: publication context and Vidas Secas family of retirantes facing drought; names Fabiano, Sinhá Vitória and two children; confirms earlier novels and 1938 publication.",
+      "usage": "普通书目/简介及作者—作品直接关联；限于页面明确列示内容，不外推更广文学评价。"
+    },
+    {
+      "candidate_id": "WCD10-B09-S101",
+      "url": "https://www.casadelaliteratura.gob.pe/cesar-vallejo-la-historia-detras-la-publicacion-obras/",
+      "title": "César Vallejo: la historia detrás de la publicación de sus obras",
+      "disposition": "new",
+      "reuse_existing_source": "",
+      "candidate_ids": [
+        "WCD10-B09-F101",
+        "WCD10-B09-F102",
+        "WCD10-B09-F103",
+        "WCD10-B09-F104",
+        "WCD10-B09-F105",
+        "WCD10-B09-F106",
+        "WCD10-B09-W102",
+        "WCD10-B09-W103"
+      ],
+      "author_or_editor": "Micaela Montes Reyes / Casa de la Literatura Peruana",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "已直接打开；网页第41–44行《Los heraldos negros》，第48–53行《Trilce》，第56–60行《Escalas》，第68–75行《Poemas humanos》与《España, aparta de mí este cáliz》；访问日期2026-10-12。",
+      "usage": "作者机构展览文章对诗集内容、写作/出版背景和出版史作归属明确的说明；仅作作品级普通简介与书目边界，不延伸至作者总体风格或关系。"
+    },
+    {
+      "candidate_id": "WCD10-B09-S102",
+      "url": "https://www.casadelaliteratura.gob.pe/wp-content/uploads/2023/03/Historia-de-la-literatura-Vol-5-final.pdf",
+      "title": "La narrativa peruana contemporánea. Cuento y novela (1920-2000)",
+      "disposition": "new",
+      "reuse_existing_source": "",
+      "candidate_ids": [
+        "WCD10-B09-W101",
+        "WCD10-B09-W103"
+      ],
+      "author_or_editor": "Estelle Tarica; Jorge Marcone y José Alberto Portugal (coordinadores); Raquel Chang-Rodríguez y Marcel Velázquez Castro (directores generales)",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "已直接打开PDF；P39第1109–1119行讨论《El tungsteno》及矿区、Mining Society与Soras；P4版权页列出版机构/协调人；访问日期2026-10-12。",
+      "usage": "机构参与出版的文学史直接介绍《El tungsteno》及矿工、矿业剥削和Soras社区处境；P39摘述作限定简介，避免延伸到未证文学关系。"
+    },
+    {
+      "candidate_id": "WCD10-B09-S103",
+      "url": "https://memoriaypapel.bnp.gob.pe/items/4665561f-5d41-4b28-a9cc-1bbeeb8fcfed",
+      "title": "España, aparta de mí este cáliz : poemas",
+      "disposition": "new",
+      "reuse_existing_source": "",
+      "candidate_ids": [
+        "WCD10-B09-W102"
+      ],
+      "author_or_editor": "Biblioteca Nacional del Perú",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "已直接打开BNP数字馆藏书目项；第18–20行显示题名与PDF，第35–47行显示1939、作者及西班牙内战诗歌主题；访问日期2026-10-12。",
+      "usage": "国家图书馆馆藏记录支持该独立题名诗集的馆藏出版项、1939日期、作者和内战相关主题词；不据此推断写作年份或印本流传经过。"
+    },
+    {
+      "candidate_id": "WCD10-B09-S201",
+      "url": "https://www.memoriachilena.gob.cl/archivos2/pdfs/MC0011355.pdf",
+      "title": "El modernismo y Rubén Darío",
+      "disposition": "reuse",
+      "reuse_existing_source": "SRC-0182",
+      "candidate_ids": [
+        "WCD10-B09-W201",
+        "WCD10-B09-W201-F01",
+        "WCD10-B09-W201-F02",
+        "WCD10-B09-W201-F03",
+        "WCD10-B09-F203",
+        "WCD10-B09-F204",
+        "WCD10-B09-F205",
+        "WCD10-B09-F206"
+      ],
+      "author_or_editor": "Raúl Silva Castro; Biblioteca Nacional de Chile / Memoria Chilena",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "PDF第31页（Memoria Chilena全文行625–643；实读日期2026-10-12）。直接列1896《世俗的颂歌》、1905《生命与希望之歌》、1907《流浪之歌》、1910《秋之诗篇》，称后两者与前书为主要抒情作品；亦说明其散文报刊作品集。",
+      "usage": "直接书目和作品层描述；限于所列作品与事实，不以作者总论扩张个别作品阐释。"
+    },
+    {
+      "candidate_id": "WCD10-B09-S202",
+      "url": "https://www.memoriachilena.gob.cl/602/w3-article-3699.html",
+      "title": "Azul de Rubén Darío",
+      "disposition": "reuse",
+      "reuse_existing_source": "SRC-0181",
+      "candidate_ids": [
+        "WCD10-B09-F201",
+        "WCD10-B09-F202"
+      ],
+      "author_or_editor": "Biblioteca Nacional de Chile / Memoria Chilena",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "正文第82–90行；实读日期2026-10-12。直接说明《蓝……》有诗与散文，并讨论文本中吸收其他文学传统/文化元素及艺术家面对社会结构。",
+      "usage": "直接书目和作品层描述；限于所列作品与事实，不以作者总论扩张个别作品阐释。"
+    },
+    {
+      "candidate_id": "WCD10-B09-S203",
+      "url": "https://cervantesvirtual.com/portales/ruben_dario/ruben_dario_y_su_obra/",
+      "title": "Rubén Darío y su obra",
+      "disposition": "fresh_registration",
+      "candidate_ids": [
+        "WCD10-B09-W202",
+        "WCD10-B09-W202-F01",
+        "WCD10-B09-W202-F02",
+        "WCD10-B09-W202-F03"
+      ],
+      "author_or_editor": "Pedro Mendiola (Universidad de Alicante)",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "正文第86行；实读日期2026-10-12。页面以链接条目标明 Poema del otoño y otros poemas (1910)。",
+      "usage": "直接确认完整书名及1910年出版，以合集对象与同题诗作区别。"
+    }
+  ],
+  "new_entities": [
+    {
+      "candidate_id": "WCD10-B09-W001",
+      "author_id": "V1-ENT-0213",
+      "entity_type": "work",
+      "original_name": "Caetés",
+      "name_zh_candidate": "《卡埃特斯》",
+      "name_policy": "中文名为便于检索的暂译；葡萄牙语原题为身份锚点，不声称存在正式中文译本。",
+      "rationale": "补入拉莫斯主要作品；由国家图书馆/市级文化机构直接书目或内容介绍支持；普通简介按来源范围转述。",
+      "created_source_refs": [
+        "WCD10-B09-S001",
+        "WCD10-B09-S002"
+      ],
+      "facts": [
+        {
+          "field": "first_publication_year",
+          "value": "1933",
+          "source_refs": [
+            "WCD10-B09-S001",
+            "WCD10-B09-S002"
+          ],
+          "fact_candidate_id": "WCD10-B09-W001-F01"
+        },
+        {
+          "field": "genre_or_form",
+          "value": "长篇小说",
+          "source_refs": [
+            "WCD10-B09-S001",
+            "WCD10-B09-S002"
+          ],
+          "fact_candidate_id": "WCD10-B09-W001-F02"
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "圣保罗市文化部门称这是拉莫斯的小说处女作，并将其描述为带有心理内省的叙事，呈现个体在社会与个人困境中的挣扎。",
+          "source_refs": [
+            "WCD10-B09-S001",
+            "WCD10-B09-S002"
+          ],
+          "fact_candidate_id": "WCD10-B09-W001-F03"
+        }
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B09-W002",
+      "author_id": "V1-ENT-0213",
+      "entity_type": "work",
+      "original_name": "Memórias do Cárcere",
+      "name_zh_candidate": "《狱中回忆》",
+      "name_policy": "中文名为便于检索的暂译；葡萄牙语原题为身份锚点，不声称存在正式中文译本。",
+      "rationale": "补入拉莫斯主要作品；由国家图书馆/市级文化机构直接书目或内容介绍支持；普通简介按来源范围转述。",
+      "created_source_refs": [
+        "WCD10-B09-S001",
+        "WCD10-B09-S002"
+      ],
+      "facts": [
+        {
+          "field": "first_publication_year",
+          "value": "1953",
+          "source_refs": [
+            "WCD10-B09-S001",
+            "WCD10-B09-S002"
+          ],
+          "fact_candidate_id": "WCD10-B09-W002-F01"
+        },
+        {
+          "field": "genre_or_form",
+          "value": "回忆录 / 狱中回忆",
+          "source_refs": [
+            "WCD10-B09-S001",
+            "WCD10-B09-S002"
+          ],
+          "fact_candidate_id": "WCD10-B09-W002-F02"
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "国家图书馆数字馆藏记载该书于作者去世后出版，写其狱中经历。",
+          "source_refs": [
+            "WCD10-B09-S001",
+            "WCD10-B09-S002"
+          ],
+          "fact_candidate_id": "WCD10-B09-W002-F03"
+        }
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B09-W003",
+      "author_id": "V1-ENT-0213",
+      "entity_type": "work",
+      "original_name": "Infância",
+      "name_zh_candidate": "《童年》",
+      "name_policy": "中文名为便于检索的暂译；葡萄牙语原题为身份锚点，不声称存在正式中文译本。",
+      "rationale": "补入拉莫斯主要作品；由国家图书馆/市级文化机构直接书目或内容介绍支持；普通简介按来源范围转述。",
+      "created_source_refs": [
+        "WCD10-B09-S001"
+      ],
+      "facts": [
+        {
+          "field": "first_publication_year",
+          "value": "1945",
+          "source_refs": [
+            "WCD10-B09-S001"
+          ],
+          "fact_candidate_id": "WCD10-B09-W003-F01"
+        },
+        {
+          "field": "genre_or_form",
+          "value": "自传 / 回忆录",
+          "source_refs": [
+            "WCD10-B09-S001"
+          ],
+          "fact_candidate_id": "WCD10-B09-W003-F02"
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "国家图书馆数字馆藏将《童年》列为1945年出版的作品，并明确称其为自传性叙述。",
+          "source_refs": [
+            "WCD10-B09-S001"
+          ],
+          "fact_candidate_id": "WCD10-B09-W003-F03"
+        }
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B09-W101",
+      "author_id": "V1-ENT-0223",
+      "entity_type": "work",
+      "original_name": "El tungsteno",
+      "name_zh_candidate": "《钨矿》",
+      "name_policy": "中文为检索/展示工作译名，西班牙语原题为身份锚点；不声称存在正式中文译名。",
+      "rationale": "主要小说，机构参与出版的文学史记录1931年马德里出版，并直接介绍矿业公司、矿工与Soras社区处境；中文名仅作工作译名。",
+      "created_source_refs": [
+        "WCD10-B09-S102"
+      ],
+      "facts": [
+        {
+          "field": "first_publication_year",
+          "value": "1931",
+          "source_refs": [
+            "WCD10-B09-S102"
+          ]
+        },
+        {
+          "field": "genre_or_form",
+          "value": "小说",
+          "source_refs": [
+            "WCD10-B09-S102"
+          ]
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "小说以库斯科地区的钨矿和Mining Society为背景，描写Soras社区遭到土地剥夺并被迫进入矿井劳动的处境。",
+          "source_refs": [
+            "WCD10-B09-S102"
+          ]
+        }
+      ],
+      "created_description_zh": "塞萨尔·巴列霍创作《El tungsteno》"
+    },
+    {
+      "candidate_id": "WCD10-B09-W102",
+      "author_id": "V1-ENT-0223",
+      "entity_type": "collection",
+      "original_name": "España, aparta de mí este cáliz",
+      "name_zh_candidate": "《西班牙，离开我的这只圣杯》",
+      "name_policy": "中文为检索/展示工作译名，保留西班牙语原题；不声称存在正式中文译本或固定译名。",
+      "rationale": "重要的独立题名诗集。国家图书馆有1939年单独书目项；Casa de la Literatura说明其由15首诗组成、与西班牙内战相关，并记录其印本及被编入《Poemas humanos》卷的复杂出版史。",
+      "created_source_refs": [
+        "WCD10-B09-S101",
+        "WCD10-B09-S103"
+      ],
+      "facts": [
+        {
+          "field": "first_publication_year",
+          "value": "1939",
+          "source_refs": [
+            "WCD10-B09-S103"
+          ]
+        },
+        {
+          "field": "genre_or_form",
+          "value": "诗集",
+          "source_refs": [
+            "WCD10-B09-S101",
+            "WCD10-B09-S103"
+          ]
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "这部诗集由15首与西班牙内战相关的诗组成；机构出版史同时记录其独立题名及诗作被编入1939年《Poemas humanos》卷的情况。",
+          "source_refs": [
+            "WCD10-B09-S101",
+            "WCD10-B09-S103"
+          ]
+        }
+      ],
+      "created_description_zh": "塞萨尔·巴列霍创作《España, aparta de mí este cáliz》"
+    },
+    {
+      "candidate_id": "WCD10-B09-W103",
+      "author_id": "V1-ENT-0223",
+      "entity_type": "collection",
+      "original_name": "Escalas",
+      "name_zh_candidate": "《阶梯》",
+      "name_policy": "中文为检索/展示工作译名，保留西班牙语原题；此题名不是《Escalas melografiadas》的规范化替代名，不声称正式译本名。",
+      "rationale": "1923年短篇/叙事作品集，机构出版史直接区分原题《Escalas》与后来的《Escalas melografiadas》误称，并说明其两部分结构；按原始题名建立作品集对象。",
+      "created_source_refs": [
+        "WCD10-B09-S101",
+        "WCD10-B09-S102"
+      ],
+      "facts": [
+        {
+          "field": "first_publication_year",
+          "value": "1923",
+          "source_refs": [
+            "WCD10-B09-S101",
+            "WCD10-B09-S102"
+          ]
+        },
+        {
+          "field": "genre_or_form",
+          "value": "故事与叙事作品集",
+          "source_refs": [
+            "WCD10-B09-S101",
+            "WCD10-B09-S102"
+          ]
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "作品分为Cuneiformes与Coro de Vientos两部分，各收六篇文本；机构介绍将前部与作者的监狱经历相连，并将后部描述为怪诞、幻想故事。",
+          "source_refs": [
+            "WCD10-B09-S101"
+          ]
+        }
+      ],
+      "created_description_zh": "塞萨尔·巴列霍创作《Escalas》"
+    },
+    {
+      "candidate_id": "WCD10-B09-W201",
+      "author_id": "V1-ENT-0224",
+      "entity_type": "collection",
+      "original_name": "El canto errante",
+      "name_zh_candidate": "《流浪之歌》",
+      "name_policy": "中文为工作译名，西班牙语原题为身份锚点；不声称存在正式中文译本名。",
+      "rationale": "智利国家图书馆书目研究直接将其列为达里奥的主要抒情作品之一；按独立诗集处理。",
+      "created_source_refs": [
+        "WCD10-B09-S201"
+      ],
+      "facts": [
+        {
+          "field": "first_publication_year",
+          "value": "1907",
+          "source_refs": [
+            "WCD10-B09-S201"
+          ],
+          "fact_candidate_id": "WCD10-B09-W201-F01"
+        },
+        {
+          "field": "genre_or_form",
+          "value": "诗集（抒情诗）",
+          "source_refs": [
+            "WCD10-B09-S201"
+          ],
+          "fact_candidate_id": "WCD10-B09-W201-F02"
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "国家图书馆研究将此书列入达里奥主要抒情作品，并记于《生命与希望之歌》之后出版。",
+          "source_refs": [
+            "WCD10-B09-S201"
+          ],
+          "fact_candidate_id": "WCD10-B09-W201-F03"
+        }
+      ],
+      "created_description_zh": "达里奥后期主要抒情诗集之一，1907年出版。"
+    },
+    {
+      "candidate_id": "WCD10-B09-W202",
+      "author_id": "V1-ENT-0224",
+      "entity_type": "collection",
+      "original_name": "Poema del otoño y otros poemas",
+      "name_zh_candidate": "《秋之诗篇及其他诗作》",
+      "name_policy": "中文为工作译名，西班牙语原题为身份锚点；不声称存在正式中文译本名。",
+      "rationale": "塞万提斯虚拟图书馆大学专题直接列出完整书名及1910年出版信息；按诗歌合集处理，与同题单篇诗保持区分。",
+      "created_source_refs": [
+        "WCD10-B09-S203"
+      ],
+      "facts": [
+        {
+          "field": "first_publication_year",
+          "value": "1910",
+          "source_refs": [
+            "WCD10-B09-S203"
+          ],
+          "fact_candidate_id": "WCD10-B09-W202-F01"
+        },
+        {
+          "field": "genre_or_form",
+          "value": "诗歌作品集",
+          "source_refs": [
+            "WCD10-B09-S203"
+          ],
+          "fact_candidate_id": "WCD10-B09-W202-F02"
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "塞万提斯虚拟图书馆将本书列为达里奥晚期诗歌作品，并记载于1910年出版。",
+          "source_refs": [
+            "WCD10-B09-S203"
+          ],
+          "fact_candidate_id": "WCD10-B09-W202-F03"
+        }
+      ],
+      "created_description_zh": "达里奥1910年出版的诗歌作品集，书名含“及其他诗作”。"
+    }
+  ],
+  "existing_facts": [
+    {
+      "candidate_id": "WCD10-B09-F001",
+      "subject_id": "V1-ENT-0220",
+      "field": "genre_or_form",
+      "value": "长篇小说",
+      "source_refs": [
+        "WCD10-B09-S003"
+      ],
+      "boundary": "补充基线缺失的体裁/简介字段；逐值保留原有实体、全部旧facts/cards/relations及其来源与证据链，不更改既有值。"
+    },
+    {
+      "candidate_id": "WCD10-B09-F002",
+      "subject_id": "V1-ENT-0220",
+      "field": "one_sentence_summary",
+      "value": "据巴拉那州公共图书馆页面，小说围绕因旱灾迁徙的牧人法比亚诺一家展开，成员包括妻子辛哈·维多利亚、两个孩子与狗巴莱娅。",
+      "source_refs": [
+        "WCD10-B09-S003"
+      ],
+      "boundary": "补充基线缺失的体裁/简介字段；逐值保留原有实体、全部旧facts/cards/relations及其来源与证据链，不更改既有值。"
+    },
+    {
+      "candidate_id": "WCD10-B09-F003",
+      "subject_id": "V1-ENT-0221",
+      "field": "genre_or_form",
+      "value": "长篇小说",
+      "source_refs": [
+        "WCD10-B09-S002"
+      ],
+      "boundary": "补充基线缺失的体裁/简介字段；逐值保留原有实体、全部旧facts/cards/relations及其来源与证据链，不更改既有值。"
+    },
+    {
+      "candidate_id": "WCD10-B09-F004",
+      "subject_id": "V1-ENT-0221",
+      "field": "one_sentence_summary",
+      "value": "圣保罗市文化部门通过农场主保罗·奥诺里奥的故事，介绍作品对野心、权力与道德败坏的呈现。",
+      "source_refs": [
+        "WCD10-B09-S002"
+      ],
+      "boundary": "补充基线缺失的体裁/简介字段；逐值保留原有实体、全部旧facts/cards/relations及其来源与证据链，不更改既有值。"
+    },
+    {
+      "candidate_id": "WCD10-B09-F005",
+      "subject_id": "V1-ENT-0222",
+      "field": "genre_or_form",
+      "value": "长篇小说",
+      "source_refs": [
+        "WCD10-B09-S002"
+      ],
+      "boundary": "补充基线缺失的体裁/简介字段；逐值保留原有实体、全部旧facts/cards/relations及其来源与证据链，不更改既有值。"
+    },
+    {
+      "candidate_id": "WCD10-B09-F006",
+      "subject_id": "V1-ENT-0222",
+      "field": "one_sentence_summary",
+      "value": "圣保罗市文化部门将小说概括为路易斯·达·席尔瓦的内心叙事，聚焦其执念、挫折与恐惧。",
+      "source_refs": [
+        "WCD10-B09-S002"
+      ],
+      "boundary": "补充基线缺失的体裁/简介字段；逐值保留原有实体、全部旧facts/cards/relations及其来源与证据链，不更改既有值。"
+    },
+    {
+      "candidate_id": "WCD10-B09-F101",
+      "subject_id": "V1-ENT-0226",
+      "field": "genre_or_form",
+      "value": "诗集",
+      "source_refs": [
+        "WCD10-B09-S101"
+      ],
+      "boundary": "仅补基线缺失的作品类型/普通机构简介；保留基线 entity、全部旧 facts/cards/CREATED relation、holds/gaps 及可用 source/evidence/source_objects 链不变。 已有卡片标注诗集；此处补入事实字段，不重复写出版年份。"
+    },
+    {
+      "candidate_id": "WCD10-B09-F102",
+      "subject_id": "V1-ENT-0226",
+      "field": "one_sentence_summary",
+      "value": "这部早期诗集围绕家庭、故土、宗教与日常生活展开，机构展览资料将其描述为带有乡愁色彩的亲密作品。",
+      "source_refs": [
+        "WCD10-B09-S101"
+      ],
+      "boundary": "仅补基线缺失的作品类型/普通机构简介；保留基线 entity、全部旧 facts/cards/CREATED relation、holds/gaps 及可用 source/evidence/source_objects 链不变。 只转述该机构对作品本身的介绍，不裁决《黑色使者》1918/1919首版与印行冲突。"
+    },
+    {
+      "candidate_id": "WCD10-B09-F103",
+      "subject_id": "V1-ENT-0227",
+      "field": "genre_or_form",
+      "value": "诗集",
+      "source_refs": [
+        "WCD10-B09-S101"
+      ],
+      "boundary": "仅补基线缺失的作品类型/普通机构简介；保留基线 entity、全部旧 facts/cards/CREATED relation、holds/gaps 及可用 source/evidence/source_objects 链不变。 不重复现有1922年份事实。"
+    },
+    {
+      "candidate_id": "WCD10-B09-F104",
+      "subject_id": "V1-ENT-0227",
+      "field": "one_sentence_summary",
+      "value": "机构展览资料记载，该诗集大部分写于Vallejo在特鲁希略服刑期间，并将诗中监禁空间与自由愿望的张力联系起来。",
+      "source_refs": [
+        "WCD10-B09-S101"
+      ],
+      "boundary": "仅补基线缺失的作品类型/普通机构简介；保留基线 entity、全部旧 facts/cards/CREATED relation、holds/gaps 及可用 source/evidence/source_objects 链不变。 这是对该作品的有归属概述，不把它提升为作者总体创作结论。"
+    },
+    {
+      "candidate_id": "WCD10-B09-F105",
+      "subject_id": "V1-ENT-0228",
+      "field": "genre_or_form",
+      "value": "诗集",
+      "source_refs": [
+        "WCD10-B09-S101"
+      ],
+      "boundary": "仅补基线缺失的作品类型/普通机构简介；保留基线 entity、全部旧 facts/cards/CREATED relation、holds/gaps 及可用 source/evidence/source_objects 链不变。 不重复现有1939出版序列年份事实。"
+    },
+    {
+      "candidate_id": "WCD10-B09-F106",
+      "subject_id": "V1-ENT-0228",
+      "field": "one_sentence_summary",
+      "value": "这部诗集由1931至1937年间写作的诗作构成，Vallejo逝世后于1939年出版；机构文章指出Georgette Vallejo与Raúl Porras Barrenechea参与编排诗作。",
+      "source_refs": [
+        "WCD10-B09-S101"
+      ],
+      "boundary": "仅补基线缺失的作品类型/普通机构简介；保留基线 entity、全部旧 facts/cards/CREATED relation、holds/gaps 及可用 source/evidence/source_objects 链不变。 明确区分诗作写作时段与诗集出版年份，不新增写作或出版日期事实。"
+    },
+    {
+      "candidate_id": "WCD10-B09-F201",
+      "subject_id": "V1-ENT-0229",
+      "field": "genre_or_form",
+      "value": "诗歌与短篇叙事并收的作品集",
+      "source_refs": [
+        "WCD10-B09-S202"
+      ],
+      "boundary": "仅补基线缺失字段；逐字保全该作品既有facts/cards/CREATED关系及完整来源链，不改写已有值。"
+    },
+    {
+      "candidate_id": "WCD10-B09-F202",
+      "subject_id": "V1-ENT-0229",
+      "field": "one_sentence_summary",
+      "value": "本书兼收诗与短篇叙事；国家图书馆专题指出，作品吸收了其他文学传统与文化元素，并呈现艺术家面对当时社会结构的立场。",
+      "source_refs": [
+        "WCD10-B09-S202"
+      ],
+      "boundary": "仅补基线缺失字段；逐字保全该作品既有facts/cards/CREATED关系及完整来源链，不改写已有值。"
+    },
+    {
+      "candidate_id": "WCD10-B09-F203",
+      "subject_id": "V1-ENT-0230",
+      "field": "genre_or_form",
+      "value": "诗集（抒情诗）",
+      "source_refs": [
+        "WCD10-B09-S201"
+      ],
+      "boundary": "仅补基线缺失字段；逐字保全该作品既有facts/cards/CREATED关系及完整来源链，不改写已有值。"
+    },
+    {
+      "candidate_id": "WCD10-B09-F204",
+      "subject_id": "V1-ENT-0230",
+      "field": "one_sentence_summary",
+      "value": "书中强调词语的音乐性、异域色彩与暗示能力，体现达里奥对诗歌形式和用词的精细锤炼。",
+      "source_refs": [
+        "WCD10-B09-S201"
+      ],
+      "boundary": "仅补基线缺失字段；逐字保全该作品既有facts/cards/CREATED关系及完整来源链，不改写已有值。"
+    },
+    {
+      "candidate_id": "WCD10-B09-F205",
+      "subject_id": "V1-ENT-0231",
+      "field": "genre_or_form",
+      "value": "诗集（抒情诗）",
+      "source_refs": [
+        "WCD10-B09-S201"
+      ],
+      "boundary": "仅补基线缺失字段；逐字保全该作品既有facts/cards/CREATED关系及完整来源链，不改写已有值。"
+    },
+    {
+      "candidate_id": "WCD10-B09-F206",
+      "subject_id": "V1-ENT-0231",
+      "field": "one_sentence_summary",
+      "value": "该书为达里奥1905年出版的主要抒情诗集；国家图书馆书目研究将其置于《世俗的颂歌》之后。",
+      "source_refs": [
+        "WCD10-B09-S201"
+      ],
+      "boundary": "仅补基线缺失字段；逐字保全该作品既有facts/cards/CREATED关系及完整来源链，不改写已有值。"
+    }
+  ],
+  "extra_relationships": [],
+  "deferred": []
+}

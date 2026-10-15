@@ -1,0 +1,27 @@
+{
+  "task_id": "TASK-127",
+  "finding_id": "TASK127-F01",
+  "reviewer": "Codex-central-semantic-review",
+  "verdict": "PASS_PREPARE_ONLY",
+  "basis": "Prior independent TASK127 final audit; all15 explicit multi-text containers checked against existing genre, summary and source links; no new research claim.",
+  "candidate_sha256": "f449003aaf77a6d032f66cd669243ec82297e1959cc8ea8eaee2b80c9abe2ca0",
+  "baseline_sha256": "5a410850fed0ffa936db1de135e3872fa1f53a5a3a3b294927eb902db2b3b12c",
+  "migration_name": "0058_wcd10_collection_type_correction.sql",
+  "migration_sha256": "d70f92206de4df7674f9029044d34a59101c9ca06bf6c30caa9be5b577a6678f",
+  "changes": {
+    "entities": 15,
+    "content_cards": 15,
+    "metadata_keys": [
+      "last_change_set"
+    ]
+  },
+  "preserve": [
+    "stable IDs",
+    "all facts and sources",
+    "all relationships/evidence and role descriptions",
+    "all gaps/holds",
+    "historical packages/migrations",
+    "public scope"
+  ],
+  "next_gate": "Independent disposable-clone exact-row diff and drift rejection before live apply."
+}

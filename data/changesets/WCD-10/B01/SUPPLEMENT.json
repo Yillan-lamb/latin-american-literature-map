@@ -1,0 +1,19 @@
+{
+  "schema": "wcd10-supplement-1",
+  "batch_id": "WCD-10-B01",
+  "accessed_at": "2026-09-26",
+  "status": "CANDIDATE_NOT_REVIEWED",
+  "boundary": "Separately prepared during frozen base-package review; not yet merged into CANDIDATES.json, not admitted to Research or Curation.",
+  "sources": [
+    {"candidate_id":"WCD10-B01-S25","title":"CVC. Borges 100 años. Obras. 1952.","author_or_editor":"Instituto Cervantes","url":"https://cvc.cervantes.es/actcult/borges/obras/1952b.htm","source_level":"B","access_status":"OPENED","locator":"Otras inquisiciones, Buenos Aires, Sur, 1952","usage":"作者、原文题名和首版书目；1937–1952 是标题/写作收集范围，不是合并首版年"},
+    {"candidate_id":"WCD10-B01-S26","title":"Collection Highlight: Borges' Otras inquisiciones (1952)","author_or_editor":"Pablo Alvarez / River Campus Libraries, University of Rochester","url":"https://www.library.rochester.edu/rbscp/blog/borges","source_level":"B","access_status":"OPENED","locator":"2008-03-24; first-edition and thirty-nine essays paragraphs","usage":"大学馆藏初版介绍及集合内容；不冒充同行评议论文，不把例述旁支作品的版次写入它们的首版事实"},
+    {"candidate_id":"WCD10-B01-S27","title":"El libro de arena","author_or_editor":"Lumen / Penguin Random House Grupo Editorial","url":"https://www.penguinlibros.com/es/literatura-contemporanea/324267-libro-el-libro-de-arena-9788426407504","source_level":"B","access_status":"OPENED","locator":"Descripción: Trece piezas…; El otro / Ulrica / El Congreso / Undr paragraphs","usage":"1975 短篇集合的对象级描述；2023 是当代版本，不能据同名短篇情节把合集指向国家图书馆或单一主题"}
+  ],
+  "new_entities": [
+    {"candidate_id":"WCD10-B01-W10","author_id":"V1-ENT-0002","entity_type":"collection","original_name":"Otras inquisiciones","name_zh_candidate":"《其他探讨》（暂译）","name_policy":"暂译，不声明为已核实中文版本名","rationale":"补足作者的随笔谱系，与 1925 年 Inquisiciones 及再版/译本分开；最终语义查重待 Reviewer。","facts":[{"field":"first_publication_year","value":"1952","source_refs":["WCD10-B01-S25","WCD10-B01-S26"]},{"field":"genre_or_form","value":"随笔集","source_refs":["WCD10-B01-S26"]},{"field":"one_sentence_summary","value":"汇集此前在文学期刊发表的随笔，内容涉及文学、语言、历史、宗教与哲学问题。","source_refs":["WCD10-B01-S26"]}],"created_source_refs":["WCD10-B01-S25"]}
+  ],
+  "existing_facts": [
+    {"candidate_id":"WCD10-B01-F19","subject_id":"V1-ENT-0162","field":"one_sentence_summary","value":"短篇小说集，收录《另一个人》《乌尔里卡》《大会》和同名短篇等故事，叙述自我相遇、爱情与幻想中的经历。","source_refs":["WCD10-B01-S27"],"boundary":"collection 内容释义，不把同名短篇的无限书本情节当作整个集合的单一情节；不新建单篇或主题关系"}
+  ],
+  "extra_relationships": []
+}

@@ -1,0 +1,115 @@
+{
+  "verdict": "PASS",
+  "task_id": "TASK-111",
+  "batch_id": "WCD-10-B06",
+  "reviewer": "Codex-parent-independent-review",
+  "reviewed_at": "2026-10-08",
+  "checkpoint_date": "2026-10-08",
+  "review_scope": "Hash-bound author semantic source reviews and independent frozen merged candidate review; SQL/apply require separate review",
+  "packages": [
+    {
+      "file": "CANDIDATES.json",
+      "sha256": "deca46fb7501808ea3769e83823b0c3d0424c165f25a30c92d0629e0a202d990",
+      "verdict": "PASS"
+    }
+  ],
+  "coverage_sha256": "0f50da17265a57f7d782ca7f2917c12f4f545a06a87c27a027b20d268f4d067b",
+  "registration_sha256": "6591b5403805573d50e30fd3c03973dd705b6df614a044ba5f0b77319c592c2c",
+  "evidence_matrix_sha256": "0ef064a45cdc33874c194768eb28115249f8a7eb5681ee0d4b1aa08c4020af7c",
+  "merge_provenance_sha256": "6866e0db7e8fd114952b3d2b27285a4dda604f0035770af760ef4b785982f413",
+  "baseline_database_sha256": "0185f6c81ebe1dce1d761e7e9d8780f65baf1b3ed5769987f92f977fdfbdd868",
+  "research_note_gate": {
+    "field": "research_note",
+    "source_grade_rule": {
+      "A": "scholarly_paraphrase",
+      "B": null,
+      "C": null
+    },
+    "material_class": "scholarly_paraphrase",
+    "entries": [
+      {
+        "candidate_id": "WCD10-B06-W002-F04",
+        "source_refs": [
+          "WCD10-B06-S005"
+        ],
+        "source_grades": {
+          "WCD10-B06-S005": "A"
+        },
+        "material_class": "scholarly_paraphrase"
+      },
+      {
+        "candidate_id": "WCD10-B06-W003-F04",
+        "source_refs": [
+          "WCD10-B06-S010",
+          "WCD10-B06-S011"
+        ],
+        "source_grades": {
+          "WCD10-B06-S010": "A",
+          "WCD10-B06-S011": "A"
+        },
+        "material_class": "scholarly_paraphrase"
+      },
+      {
+        "candidate_id": "WCD10-B06-W102-F04",
+        "source_refs": [
+          "WCD10-B06-S106"
+        ],
+        "source_grades": {
+          "WCD10-B06-S106": "A"
+        },
+        "material_class": "scholarly_paraphrase"
+      },
+      {
+        "candidate_id": "WCD10-B06-W103-F04",
+        "source_refs": [
+          "WCD10-B06-S109"
+        ],
+        "source_grades": {
+          "WCD10-B06-S109": "A"
+        },
+        "material_class": "scholarly_paraphrase"
+      },
+      {
+        "candidate_id": "WCD10-B06-W205-F04",
+        "source_refs": [
+          "WCD10-B06-S216"
+        ],
+        "source_grades": {
+          "WCD10-B06-S216": "A"
+        },
+        "material_class": "scholarly_paraphrase"
+      },
+      {
+        "candidate_id": "WCD10-B06-W208-F04",
+        "source_refs": [
+          "WCD10-B06-S216"
+        ],
+        "source_grades": {
+          "WCD10-B06-S216": "A"
+        },
+        "material_class": "scholarly_paraphrase"
+      },
+      {
+        "candidate_id": "WCD10-B06-F107",
+        "source_refs": [
+          "WCD10-B06-S107"
+        ],
+        "source_grades": {
+          "WCD10-B06-S107": "A"
+        },
+        "material_class": "scholarly_paraphrase"
+      }
+    ]
+  },
+  "boundaries": [
+    "Research-only; unchanged public/Curation/Schema scope",
+    "28 work/collection objects,117 facts,28 CREATED,0 extra relationships; 38-object coverage",
+    "Collections and reprints stay distinguished; original factual values/source refs/profile fields preserved",
+    "25 institutional-commentary object gaps plus18 explicit deferred remain bounded; direct A genre or edition evidence does not imply full scholarly coverage",
+    "Terras sem fim existing A chain preserved, not reread; old card source chains and H0051 fictional Santa Maria unchanged",
+    "All seven attributed research notes use only exact A sources; no inferred literary relationship",
+    "Parent actual 784 merged assertions and actual mechanical exit0; scoped author source reviews retained in hash-bound frozen provenance",
+    "Mandatory W03 USER policy and actual reentry before final TASK127 remains unchanged",
+    "SQL/mapping review and baseline approval required before actual apply"
+  ]
+}

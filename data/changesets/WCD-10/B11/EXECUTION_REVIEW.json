@@ -1,0 +1,119 @@
+{
+  "verdict": "PASS_ACTUAL_EXECUTION_REVIEW",
+  "reviewer": "Codex-parent-independent-review",
+  "date": "2026-10-13",
+  "task_id": "TASK-116",
+  "batch_id": "WCD-10-B11",
+  "database_sha256": "7152ecc903ef7b610440a5173b0dd79d28ce25358b53ffa42512da6eb615db67",
+  "table_totals": {
+    "card_facts": 2048,
+    "card_sources": 1268,
+    "content_cards": 608,
+    "entities": 636,
+    "entity_id_map": 634,
+    "fact_sources": 2524,
+    "facts": 2069,
+    "gaps": 425,
+    "legacy_relation_groups": 15,
+    "metadata": 16,
+    "migration_log": 46,
+    "n3_decisions": 4,
+    "relation_hold_evidence": 58,
+    "relation_holds": 51,
+    "relationship_evidence": 921,
+    "relationship_sources": 950,
+    "relationships": 605,
+    "source_holds": 4,
+    "sources": 688
+  },
+  "table_deltas": {
+    "sources": 9,
+    "entities": 17,
+    "entity_id_map": 17,
+    "content_cards": 28,
+    "facts": 80,
+    "card_facts": 80,
+    "fact_sources": 94,
+    "card_sources": 36,
+    "relationships": 17,
+    "relationship_sources": 24,
+    "relationship_evidence": 24,
+    "gaps": 27
+  },
+  "evidence_sha256": {
+    "CANDIDATES.json": "dc4477d205363b36b77f04ca79a822e8bcd587e8608eb012dbba4172b7475071",
+    "COVERAGE.json": "195edc5d4f1aa74499520da91de72956e37ed5c75e3eaadb3888a13fb4e26024",
+    "data/changesets/WCD-10/B11/REVIEW_GATE.json": "75fed490883f681ee3fd63d84befb336c6bddca5dc31c8189310a9d8c821402e",
+    "data/changesets/WCD-10/B11/INTEGRATION_MAP.json": "4383cfffdb0d7c11ede7df650e2875669dc16b9afe52833e417c2c05315f7a72",
+    "data/changesets/WCD-10/B11/CHECKPOINT_REVIEW.json": "0027fd29a581315d90c0583655266da8ea18720beab8665c7d4817edb46143c1",
+    "work/wcd10-qa/B11_CHECKPOINT_QA.json": "9061632166282faff3577533b2faf4ce5b80697717345c05d1b23a4602ee7eef",
+    "work/wcd10-qa/B11_MIGRATION_REPLAY.log": "1918d8e501a31e19d630cf2314023b76f5764510d91d38092904f188f79072b3",
+    "work/wcd10-qa/B11_MIGRATION_REPLAY_RAW.log": "603aae735517c28ce0cc0fc8e3714ffcc48c801436395fc3f14b221a630bf81c",
+    "project/internal/WCD_10_WORKSPACE/B11/B11_MIGRATION_REPLAY.log": "603aae735517c28ce0cc0fc8e3714ffcc48c801436395fc3f14b221a630bf81c",
+    "project/internal/WCD_10_WORKSPACE/B11/INTEGRATOR_APPLY_QA.json": "7db9d688a4600830a6cea0e3cd878992352c79f87575fb6f7f1763d350a67a1c",
+    "project/internal/WCD_10_WORKSPACE/B11/INTEGRATOR_APPLY_QA_R0.json": "a383879d0366bbcca3398bbbe084c38d1f5a22a3b65d6ba4b3968c73ff29dbe2",
+    "project/internal/WCD_10_WORKSPACE/B11/ACTUAL_DATA_INDEPENDENT_REVIEW.json": "cf8828e64bfd97decffd85b79c65ec489b6694d6f4175483b654be0fe7a5a823",
+    "data/master/migrations/0046_wcd10_b11_author_works.sql": "c410613cdd19c4593c8e558ee8c35c4558b84432467700b0a287f13141619a7e"
+  },
+  "independent_reviews": {
+    "sql_clone_checks": 536,
+    "actual_data_checks": 546,
+    "actual_data_verdict": "PASS_ACTUAL_DATA_REVIEW"
+  },
+  "apply": {
+    "migration": "0046_wcd10_b11_author_works.sql",
+    "exit_code": 0,
+    "applied_once": true,
+    "exact_command": "python3 scripts/apply_migration.py data/master/V1_MASTER.sqlite data/master/migrations/0046_wcd10_b11_author_works.sql --task-id TASK-116 --reviewer Codex-parent-independent-SQL-review"
+  },
+  "qa": {
+    "integrity_check": "ok",
+    "foreign_key_errors": 0,
+    "migration_replay": {
+      "base_sha256": "e82533519dcfe2ae1a1c6d02f60c5d775dd95f49e0506c2cbeb6c649a89fb853",
+      "foreign_key_errors": 0,
+      "integrity_check": "ok",
+      "migrations_replayed": 46,
+      "status": "PASS",
+      "tables_equal": 19
+    },
+    "export_table_formats_equal": {
+      "json": 19,
+      "csv": 19,
+      "xlsx": 19
+    },
+    "repeat_export_files": 22,
+    "public_files_byte_identical": 177,
+    "new_entities_public": 0,
+    "generated_at": "2026-10-08T00:00:00Z"
+  },
+  "operational_exceptions": [
+    "Initial relative-database-path Web-data build exited 1; absolute-database-path retry exited 0.",
+    "STATUS relative-path write attempt failed; evidence retained.",
+    "Replay raw stdout and formatted WT log are separately preserved and hash-bound; formatting did not rerun the replay.",
+    "Prior failed validator/QA attempts remain in the Integrator command record and are not represented as first-attempt successes."
+  ],
+  "governance": {
+    "README.md": "UPDATED",
+    "data/master/README.md": "UPDATED",
+    "CHANGELOG.md": "UPDATED (new B11 entry prepended; prior history preserved)",
+    "AUDIT.md": "UPDATED",
+    "VALIDATION.md": "UPDATED",
+    "EXECUTION_REVIEW.json": "UPDATED",
+    "TASKS_DECISIONS_CHARTER_SPEC": "PARENT_OWNED_NOT_MODIFIED"
+  },
+  "release_boundary": {
+    "research_data": "1.5.0 development",
+    "research_schema": "0.4",
+    "web_data_schema": "0.3",
+    "web": "0.6.0",
+    "curation": "unchanged",
+    "public_release": "paused",
+    "public_deployment": "unchanged; 177 files byte-identical"
+  },
+  "evidence_base_by_prefix": {
+    "project/internal/*": "ROOT repository base: /Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图",
+    "CANDIDATES.json and COVERAGE.json": "WT B11 directory: data/changesets/WCD-10/B11/",
+    "data/* and work/*": "WT repository base: /Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/work/codex-worktrees/latin-american-literature-map-wcd10"
+  }
+}

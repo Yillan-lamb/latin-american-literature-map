@@ -1,0 +1,165 @@
+{
+  "verdict": "PASS_ACTUAL_EXECUTION_REVIEW",
+  "reviewer": "Codex-parent-independent-review",
+  "date": "2026-10-12",
+  "task_id": "TASK-114",
+  "batch_id": "WCD-10-B09",
+  "database_sha256": "41f895012a71cec9cab831e1717e5f3ec0306100d95acf2ac34c9eccac5a4d3b",
+  "table_totals": {
+    "card_facts": 1914,
+    "card_sources": 1197,
+    "content_cards": 560,
+    "entities": 607,
+    "entity_id_map": 605,
+    "fact_sources": 2371,
+    "facts": 1935,
+    "gaps": 373,
+    "legacy_relation_groups": 15,
+    "metadata": 16,
+    "migration_log": 44,
+    "n3_decisions": 4,
+    "relation_hold_evidence": 58,
+    "relation_holds": 51,
+    "relationship_evidence": 875,
+    "relationship_sources": 904,
+    "relationships": 576,
+    "source_holds": 4,
+    "sources": 660
+  },
+  "table_deltas": {
+    "card_facts": 42,
+    "card_sources": 21,
+    "content_cards": 17,
+    "entities": 8,
+    "entity_id_map": 8,
+    "fact_sources": 52,
+    "facts": 42,
+    "gaps": 17,
+    "legacy_relation_groups": 0,
+    "metadata": 0,
+    "migration_log": 1,
+    "n3_decisions": 0,
+    "relation_hold_evidence": 0,
+    "relation_holds": 0,
+    "relationship_evidence": 12,
+    "relationship_sources": 12,
+    "relationships": 8,
+    "source_holds": 0,
+    "sources": 4
+  },
+  "evidence_sha256": {
+    "work/wcd10-qa/B09_CHECKPOINT_QA.json": "3012feceaa03e80a22d2b74ae5eeb44ec5fe12566a347b96da10eac82b0fca20",
+    "work/wcd10-qa/B09_MIGRATION_REPLAY.log": "1df22e29d20e32b49b673752258a627748e70ac8bdaa5f14a199ceb42e9e4b86",
+    "data/changesets/WCD-10/B09/CHECKPOINT_REVIEW.json": "f1da5ba86c349fedeee9f11602e9a5283698c2538173e1b4bebef2564f0930f3",
+    "data/changesets/WCD-10/B09/INTEGRATION_MAP.json": "3f9ac782fd367cf0821d7f806b784becf60d4370421651fc0b4bf12b85063f95"
+  },
+  "local_integrator_report_sha256": "ed079b2ea46b13303e7edd802cfb0300088d5559380c8087b7fe11ffbf5fe28f",
+  "export_repeat_files": 22,
+  "not_rerun": "No product/tool changes: no browser matrix or unrelated unittest per DEC-070",
+  "retained": "17 reasonable new gaps; old1918/1919 and all holds retained; W03/coauthor reentry/12laterbatches still stage obligations",
+  "checks": [
+    {
+      "check": "all14 actual commands exit0/exact stream hashes",
+      "passed": true
+    },
+    {
+      "check": "QA PASS/current DB/report hashes",
+      "passed": true
+    },
+    {
+      "check": "exact reviewed SQL/map/Gate",
+      "passed": true
+    },
+    {
+      "check": "task/baseline/reviewer QA binding",
+      "passed": true
+    },
+    {
+      "check": "SQLite/FK/schema",
+      "passed": true
+    },
+    {
+      "check": "19table threeformats, old rows, exact SQL replay",
+      "passed": true
+    },
+    {
+      "check": "separate full44 replay command",
+      "passed": true
+    },
+    {
+      "check": "full44 replay19tables integrity/FK",
+      "passed": true
+    },
+    {
+      "check": "full replay formatted log binds command/exit/hash/stream",
+      "passed": true
+    },
+    {
+      "check": "ROOT24 pre-existing tracked files preserved",
+      "passed": true
+    },
+    {
+      "check": "ROOT DB/frozen baseline unchanged",
+      "passed": true
+    },
+    {
+      "check": "frozen author hashes /Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/project/internal/WCD_10_WORKSPACE/orchestration/wave-06/ramos/R1",
+      "passed": true
+    },
+    {
+      "check": "frozen author hashes /Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/project/internal/WCD_10_WORKSPACE/orchestration/wave-06/vallejo",
+      "passed": true
+    },
+    {
+      "check": "frozen author hashes /Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/project/internal/WCD_10_WORKSPACE/orchestration/wave-06/dario",
+      "passed": true
+    },
+    {
+      "check": "merged candidate/matrix/Gate original hashes",
+      "passed": true
+    },
+    {
+      "check": "actual22 deterministic export files",
+      "passed": true
+    },
+    {
+      "check": "actual177 public byte preservation",
+      "passed": true
+    },
+    {
+      "check": "BEFORE179 artifacts original baseline hashes",
+      "passed": true
+    },
+    {
+      "check": "new8 public0 and127 approved public count",
+      "passed": true
+    },
+    {
+      "check": "two validated AFTER WebJSON copied exact",
+      "passed": true
+    },
+    {
+      "check": "all333 detailed actual-source/fact/card/role assertions passed",
+      "passed": true
+    }
+  ],
+  "detailed_assertion_count": 333,
+  "parent_data_review_sha256": "f68082c37540050a820d26335b08f4fc8f67e24b5a5a6b64073d4f381fe6831d",
+  "governance": {
+    "CHANGELOG": "UPDATED",
+    "TASKS": "UPDATED: TASK114 bounded DONE, TASK115 READY, umbrella IN_PROGRESS",
+    "DECISIONS": "N/A: existing DEC-070/069 apply, no new policy",
+    "PROJECT_CHARTER": "N/A: frozen2.0.3, no scope/mission change",
+    "SPEC": "N/A: existing WCD-10 contract unchanged",
+    "README_MASTER_README_AUDIT_VALIDATION": "UPDATED",
+    "HANDOFF": "UPDATED: B10 and complete remaining stage obligations"
+  },
+  "governance_sha256": {
+    "README.md": "ee69a10283d7fbc47405a31a2f5a62f6fb603b947e1fc933646e611e122623d9",
+    "data/master/README.md": "e10eefac3c423becb88bd81b79bed675057403503a6d8a47d1acf265bf06f9ce",
+    "CHANGELOG.md": "3189b1cac6f4a62387d5a6b4e18f70205988a0f7162b8c912c7f1ae49c64c4e3",
+    "data/changesets/WCD-10/B09/AUDIT.md": "18de0af1be47cd1a34d2546f09351549b29acda90aeaa13780bae73a92c31107",
+    "data/changesets/WCD-10/B09/VALIDATION.md": "cdb61e537f2016a5bff5617d8acabb80f04f392c00a2e2f059aea1c44b4d6128"
+  },
+  "preserved_corrections": "Optional proof ID and formatted log parent guard comparisons corrected; full44 replay omission completed separately; originals retained; candidate/SQL/DB unaffected by mechanical corrections."
+}

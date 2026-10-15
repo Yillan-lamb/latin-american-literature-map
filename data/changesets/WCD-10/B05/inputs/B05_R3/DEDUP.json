@@ -1,0 +1,289 @@
+{
+  "task_id": "TASK-110",
+  "revision": "R2",
+  "source_dedup": [
+    {
+      "candidate_id": "WCD10-B05-S01",
+      "disposition": "reuse",
+      "matched_existing": "SRC-0134"
+    },
+    {
+      "candidate_id": "WCD10-B05-S02",
+      "disposition": "reuse",
+      "matched_existing": "SRC-0135"
+    },
+    {
+      "candidate_id": "WCD10-B05-S03",
+      "disposition": "reuse",
+      "matched_existing": "SRC-0136"
+    },
+    {
+      "candidate_id": "WCD10-B05-S04",
+      "disposition": "reuse",
+      "matched_existing": "SRC-0137"
+    },
+    {
+      "candidate_id": "WCD10-B05-S05",
+      "disposition": "reuse",
+      "matched_existing": "SRC-0130"
+    },
+    {
+      "candidate_id": "WCD10-B05-S06",
+      "disposition": "reuse",
+      "matched_existing": "SRC-0132"
+    },
+    {
+      "candidate_id": "WCD10-B05-S07",
+      "disposition": "reuse",
+      "matched_existing": "SRC-0099"
+    },
+    {
+      "candidate_id": "WCD10-B05-S08",
+      "disposition": "reuse",
+      "matched_existing": "SRC-0100"
+    },
+    {
+      "candidate_id": "WCD10-B05-S12",
+      "disposition": "reuse",
+      "matched_existing": "SRC-0300"
+    },
+    {
+      "candidate_id": "WCD10-B05-S09",
+      "disposition": "new",
+      "matched_existing": null,
+      "check": "canonical URL 与库内392条来源比对无命中（含ELEM既有21条为其他obra ID）"
+    },
+    {
+      "candidate_id": "WCD10-B05-S10",
+      "disposition": "new",
+      "matched_existing": null,
+      "check": "canonical URL 与库内392条来源比对无命中（含ELEM既有21条为其他obra ID）"
+    },
+    {
+      "candidate_id": "WCD10-B05-S11",
+      "disposition": "new",
+      "matched_existing": null,
+      "check": "canonical URL 与库内392条来源比对无命中（含ELEM既有21条为其他obra ID）"
+    },
+    {
+      "candidate_id": "WCD10-B05-S13",
+      "disposition": "new",
+      "matched_existing": null,
+      "check": "canonical URL 与库内392条来源比对无命中（含ELEM既有21条为其他obra ID）"
+    },
+    {
+      "candidate_id": "WCD10-B05-S14",
+      "disposition": "new",
+      "matched_existing": null,
+      "check": "canonical URL 与库内392条来源比对无命中（含ELEM既有21条为其他obra ID）"
+    },
+    {
+      "candidate_id": "WCD10-B05-S15",
+      "disposition": "new",
+      "matched_existing": null,
+      "check": "canonical URL 与库内392条来源比对无命中（含ELEM既有21条为其他obra ID）"
+    },
+    {
+      "candidate_id": "WCD10-B05-S16",
+      "disposition": "new",
+      "matched_existing": null,
+      "check": "canonical URL 与库内392条来源比对无命中（含ELEM既有21条为其他obra ID）"
+    },
+    {
+      "candidate_id": "WCD10-B05-S17",
+      "disposition": "new",
+      "matched_existing": null,
+      "check": "canonical URL 与库内392条来源比对无命中（含ELEM既有21条为其他obra ID）"
+    },
+    {
+      "candidate_id": "WCD10-B05-S18",
+      "disposition": "new",
+      "matched_existing": null,
+      "check": "canonical URL 与库内392条来源比对无命中（含ELEM既有21条为其他obra ID）"
+    },
+    {
+      "candidate_id": "WCD10-B05-S19",
+      "disposition": "new",
+      "matched_existing": null,
+      "check": "canonical URL 与库内392条来源比对无命中（含ELEM既有21条为其他obra ID）"
+    },
+    {
+      "candidate_id": "WCD10-B05-S20",
+      "disposition": "new",
+      "matched_existing": null,
+      "check": "canonical URL 与库内392条来源比对无命中（含ELEM既有21条为其他obra ID）"
+    },
+    {
+      "candidate_id": "WCD10-B05-S21",
+      "disposition": "new",
+      "matched_existing": null,
+      "check": "canonical URL 与库内392条来源比对无命中（含ELEM既有21条为其他obra ID）"
+    },
+    {
+      "candidate_id": "WCD10-B05-S22",
+      "disposition": "new",
+      "matched_existing": null,
+      "check": "canonical URL 与库内392条来源比对无命中（含ELEM既有21条为其他obra ID）"
+    },
+    {
+      "candidate_id": "WCD10-B05-S23",
+      "disposition": "new",
+      "matched_existing": null,
+      "check": "canonical URL 与库内392条来源比对无命中（含ELEM既有21条为其他obra ID）"
+    },
+    {
+      "candidate_id": "WCD10-B05-S24",
+      "disposition": "new",
+      "matched_existing": null,
+      "check": "canonical URL 与库内392条来源比对无命中（含ELEM既有21条为其他obra ID）"
+    },
+    {
+      "candidate_id": "WCD10-B05-S25",
+      "disposition": "new",
+      "matched_existing": null,
+      "check": "canonical URL 与库内392条来源比对无命中（含ELEM既有21条为其他obra ID）"
+    },
+    {
+      "candidate_id": "WCD10-B05-S26",
+      "disposition": "new",
+      "matched_existing": null,
+      "check": "canonical URL 与库内392条来源比对无命中（含ELEM既有21条为其他obra ID）"
+    }
+  ],
+  "entity_dedup": [
+    {
+      "candidate": "WCD10-B05-W01 ¿Águila o sol?",
+      "decision": "new(R0保留)",
+      "reason": "NFKD归一无同名；审计未涉"
+    },
+    {
+      "candidate": "WCD10-B05-W02 Ladera este",
+      "decision": "new(R1修订)",
+      "reason": "无同名；描述按ELEM专文重写；Piedra收录关系仍由旧FCT-0319文字承载"
+    },
+    {
+      "candidate": "WCD10-B05-W03 El mono gramático",
+      "decision": "new(R1修订)",
+      "reason": "无同名；R2撤first_book_edition_year，1972首发+双版本注记"
+    },
+    {
+      "candidate": "WCD10-B05-W05 Cuentos de Eva Luna",
+      "decision": "new(R0保留)",
+      "reason": "与0178小说分层"
+    },
+    {
+      "candidate": "WCD10-B05-W06 Paula",
+      "decision": "new(R0保留)",
+      "reason": "回忆录与小说分层"
+    },
+    {
+      "candidate": "WCD10-B05-W07 Hija de la fortuna",
+      "decision": "new(R0保留)",
+      "reason": "R01 SET_IN部分场景候选"
+    },
+    {
+      "candidate": "WCD10-B05-W08 La ciudad de las bestias",
+      "decision": "new(R0保留)",
+      "reason": "三部曲续卷不自动入列"
+    },
+    {
+      "candidate": "WCD10-B05-W09 Libertad bajo palabra",
+      "decision": "new(R1新增)",
+      "reason": "R2简介逐版本限定（太阳石/El cántaro roto系初版后写出）；ELEM页内差异登记"
+    },
+    {
+      "candidate": "WCD10-B05-W10 La estación violenta",
+      "decision": "new(R1新增)",
+      "reason": "R2九诗清单出处更正为2013封底（ELEM页标），1958出版与主题不受影响"
+    },
+    {
+      "candidate": "WCD10-B05-W04 El Papa Verde",
+      "decision": "withdrawn_R1_deferred",
+      "reason": "审计R4：系列级标签不构成对象级描述；两轮检索无合格内容页，撤回转deferred，W04编号不复用"
+    }
+  ],
+  "version_layering_resolved_R1": [
+    {
+      "scope": "V1-ENT-0154 El laberinto",
+      "conclusion": "1950 Cuadernos Americanos首版（ELEM字段；FCE转载称'该刊特别版'）→1959 FCE后版；poets.org'FCE 1950'=来源误述",
+      "sources": [
+        "S23",
+        "S12",
+        "S24",
+        "S08"
+      ],
+      "old_fact_action": "FCT-0309相应文字留Codex追加式勘误"
+    },
+    {
+      "scope": "V1-ENT-0156 Piedra de sol",
+      "conclusion": "Tezontle=FCE旗下丛书，'Tezontle vs FCE'非互斥；1957-09-28印300册",
+      "sources": [
+        "S22",
+        "S25"
+      ],
+      "old_fact_action": "FCT-0319在imprint层面成立，无需勘误"
+    },
+    {
+      "scope": "W03 El mono gramático",
+      "conclusion": "法译1972（Skira/Les Sentiers de la Création，Claude Esteban译）先行；西语原文版Seix Barral 1974；字段按全语种首次取1972，政策待追认",
+      "sources": [
+        "S18",
+        "S07"
+      ],
+      "old_fact_action": "无旧行"
+    },
+    {
+      "scope": "Libertad bajo palabra",
+      "conclusion": "1949初版（FCE Tezontle丛书90首）锚点；1960 obra poética 225首为重编；ELEM页内字段/导语1960与传记节1949并存已登记",
+      "sources": [
+        "S20",
+        "S07"
+      ],
+      "old_fact_action": "无旧行（新对象）"
+    },
+    {
+      "scope": "V1-ENT-0174 Hombres de maíz",
+      "conclusion": "1948（BnF引言旁支）不采，维持1949",
+      "sources": [
+        "S05",
+        "S06"
+      ],
+      "old_fact_action": "冲突仅存deferred（R0的F05已撤回）"
+    }
+  ],
+  "layer_decisions": [
+    "诗集/短篇集→collection（Ladera este、Cuentos de Eva Luna、Libertad、La estación violenta）",
+    "单册跨文类/小说/回忆录→work（¿Águila o sol?、El mono gramático、Paula、Hija、Ciudad）",
+    "containment（Piedra∈estación violenta∈Libertad重编、Blanco∈Ladera）只作注记不建关系，与B04口径一致",
+    "转载文章（FCE Noticia×2）为C级佐证，不充当独立第二来源；ELEM文内引文同理"
+  ],
+  "source_metadata_corrections_R2": [
+    {
+      "candidate_id": "WCD10-B05-S24",
+      "was": "author_or_editor误填Christopher Domínguez Michael",
+      "now": "Javier Aranda Luna（页面署名亲证）",
+      "root_cause": "R1登记时作者名系我的推断而非页面实载——过程错误，已承认并全程留痕"
+    },
+    {
+      "candidate_id": "WCD10-B05-S25",
+      "was": "题名误作'Versos: Piedra de sol'、作者泛称'专栏'、发表年留空",
+      "now": "题名'584 versos'、作者Juan José González Mejía、2019-12-10（均页面亲证）",
+      "root_cause": "R1提取时未读页内文章头元数据行"
+    },
+    {
+      "candidate_id": "WCD10-B05-S18",
+      "was": "publication_year=2014",
+      "now": "留空（C.2014为版次链接行）"
+    },
+    {
+      "candidate_id": "WCD10-B05-S20",
+      "was": "publication_year=2015",
+      "now": "留空（页面顶部日期指向不明）"
+    },
+    {
+      "candidate_id": "WCD10-B05-S26",
+      "was": "publication_year=1967",
+      "now": "留空（撰写/获奖年非网页发表年）"
+    }
+  ]
+}

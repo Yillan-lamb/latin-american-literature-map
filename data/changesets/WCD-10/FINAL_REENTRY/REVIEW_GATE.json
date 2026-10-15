@@ -1,0 +1,34 @@
+{
+  "verdict": "PASS",
+  "task_id": "TASK-127",
+  "batch_id": "WCD-10-B05",
+  "reviewer": "Codex-parent-independent-review",
+  "reviewed_at": "2026-10-15",
+  "checkpoint_date": "2026-10-15",
+  "baseline_database_sha256": "559b1858b7b5e647b4b313f841be8d2960cf3a5eacf2a2dd92c6161668da706c",
+  "review_scope": "Only prepare W03 normal fixed B05 roster package and exact independent Amado appendix; actual apply prohibited until disposable-clone SQL review and CHECKPOINT_REVIEW",
+  "packages": [
+    {
+      "file": "CANDIDATES.json",
+      "sha256": "56d576883b7555c2e43e595264e47a558e721d16855f01bf349f4e5d157b6abb",
+      "verdict": "PASS"
+    }
+  ],
+  "coverage_sha256": "8b7544ae8fcee8def89940f31dc65297ed60ad6a02838ff67d06c0c560cf6fc1",
+  "registration_sha256": "cb6cf05e75336d8c64cb1cb769cb55f89737124d7f78f88a9687291b40256355",
+  "evidence_matrix_sha256": "1dfe51770897db1cab709069a62b7954d590172a3813ca30049f47147d643152",
+  "parent_review_sha256": "57d10f9bb2f40d57ef054efafd1476676f96b2c27b115c03af98a07f42b5ae0a",
+  "builder_sha256": "23a2a5e1b1cf27759ce71faf61524ef83b5777083e4a27c98ff6cf1eab78207b",
+  "controlled_append_attachment_sha256": "79381528e62ecb5f2d9eeadf26a896452067fcc99c0460e0330e667c8b4c7430",
+  "controlled_append_approval": {
+    "subject_id": "V1-ENT-0172",
+    "relation_type": "CREATED",
+    "object_id": "V1-ENT-0591",
+    "source_ids": [
+      "SRC-0652"
+    ],
+    "new_object_source_fact_card": false,
+    "description_zh": "若热·亚马多是《O mistério dos MMM》十位章节作者之一；本关系不推断其具体章节或独著身份。",
+    "validation_boundary": "Outside ordinary fixed-author validator; parent separately reviewed source/role; exact SQL and clone still required."
+  }
+}

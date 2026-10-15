@@ -1,0 +1,1290 @@
+{
+  "schema": "wcd10-b07-merged-dedup-1",
+  "task_id": "TASK-112",
+  "batch_id": "WCD-10-B07",
+  "baseline_database_sha256": "ea9e01b41b4faaef727a6159b6d34ba7d9121a9992fda1cb993c6574f91f6a27",
+  "author_order": [
+    "V1-ENT-0186",
+    "V1-ENT-0198",
+    "V1-ENT-0199"
+  ],
+  "inputs": [
+    {
+      "author_id": "V1-ENT-0186",
+      "revision": "R3",
+      "source_dedup": {
+        "schema": "wcd10-dedup-1",
+        "task_id": "TASK-112",
+        "batch_id": "WCD-10-B07",
+        "author_id": "V1-ENT-0186",
+        "method": "Compared exact Spanish titles, author labels, first-publication years, publisher/institution editions, and the baseline author/work entities. Do not split chapters, excerpts, editions, reprints or collected volumes into extra authored work objects. Original Spanish title is the identity anchor; Chinese display labels for new works are provisional working translations.",
+        "decisions": [
+          {
+            "candidate_id": "WCD10-B07-W001",
+            "title": "Uno y el Universo",
+            "decision": "new_work_candidate",
+            "rationale": "Separate author-attributed book with distinct title, year and source-backed book form/description; not a version or compilation."
+          },
+          {
+            "candidate_id": "WCD10-B07-W002",
+            "title": "Hombres y engranajes",
+            "decision": "new_work_candidate",
+            "rationale": "Separate author-attributed book with distinct title, year and source-backed book form/description; not a version or compilation."
+          },
+          {
+            "candidate_id": "WCD10-B07-W003",
+            "title": "El escritor y sus fantasmas",
+            "decision": "new_work_candidate",
+            "rationale": "Separate author-attributed book with distinct title, year and source-backed book form/description; not a version or compilation."
+          },
+          {
+            "candidate_id": "WCD10-B07-W004",
+            "title": "Apologías y rechazos",
+            "decision": "new_work_candidate",
+            "rationale": "Separate author-attributed book with distinct title, year and source-backed book form/description; not a version or compilation."
+          },
+          {
+            "candidate_id": "WCD10-B07-W005",
+            "title": "Antes del fin",
+            "decision": "new_work_candidate",
+            "rationale": "Separate author-attributed book with distinct title, year and source-backed book form/description; not a version or compilation."
+          },
+          {
+            "candidate_id": "WCD10-B07-W006",
+            "title": "La resistencia",
+            "decision": "new_work_candidate",
+            "rationale": "Separate author-attributed book with distinct title, year and source-backed book form/description; not a version or compilation."
+          },
+          {
+            "candidate_id": "WCD10-B07-W007",
+            "title": "España en los diarios de mi vejez",
+            "decision": "new_work_candidate",
+            "rationale": "Separate author-attributed book with distinct title, year and source-backed book form/description; not a version or compilation."
+          },
+          {
+            "entity_id": "V1-ENT-0193",
+            "title": "El túnel",
+            "decision": "retain_existing_work",
+            "rationale": "Preserve legacy IDs and years; CONICET 1996 aggregate marks this as one of three separate novels, while publisher pages directly describe each novel."
+          },
+          {
+            "entity_id": "V1-ENT-0194",
+            "title": "Sobre héroes y tumbas",
+            "decision": "retain_existing_work",
+            "rationale": "Preserve legacy IDs and years; CONICET 1996 aggregate marks this as one of three separate novels, while publisher pages directly describe each novel."
+          },
+          {
+            "entity_id": "V1-ENT-0195",
+            "title": "Abaddón el exterminador",
+            "decision": "retain_existing_work",
+            "rationale": "Preserve legacy IDs and years; CONICET 1996 aggregate marks this as one of three separate novels, while publisher pages directly describe each novel."
+          },
+          {
+            "title": "Heterodoxia",
+            "decision": "deferred_year_conflict",
+            "rationale": "Opened Instituto Cervantes chronology lists the essay in 1952 (S019, lines 56–63, especially line 62), while the separately opened Cervantes biography lists it in 1953 (S003, lines 49–57). The 2022 Cervantes bibliography records only a 2000 combined edition (S018, p.2, lines 42–43), not the original year. Direct exact-title page openings failed for the additional 1953 snippets. Defer the whole work and choose no year."
+          },
+          {
+            "title": "El dragón y la princesa",
+            "decision": "edition_or_extract_not_separate_work",
+            "rationale": "Opened Casa de la Cultura Ecuatoriana MARC catalog (1995 edition) explicitly calls it an author-adapted edition of part one of Sobre héroes y tumbas; no separate work candidate."
+          },
+          {
+            "title": "Obras completas / Narrativa (1996)",
+            "decision": "collection_or_edition",
+            "rationale": "CONICET page identifies a revised/corrected complete-narrative volume containing the 3 separate novels, unpublished excerpts and a 1994 essay. This is a collective edition, not a single novel entity or a basis for new first-publication years."
+          },
+          {
+            "title": "Informe sobre ciegos",
+            "decision": "subordinate_text_not_separate_work",
+            "rationale": "CONICET identifies an essay about Informe sobre ciegos at the end of the complete-narrative volume; publisher describes the title as a metaphor developed in Abaddón. No independent first-publication object was established in this review."
+          },
+          {
+            "title": "Additional essay titles, including Sartre contra Sartre (1968), Heterodoxia, and works in the Cervantes bibliography",
+            "decision": "inventory_gap_not_asserted_complete",
+            "rationale": "Listed in the opened Cervantes institutional bibliography/chronology (S018/S019), but not all individual pages and first-publication evidence were accessed in this pass. Heterodoxia is separately deferred because of the specifically documented 1952/1953 conflict; remaining titles are explicit catalog-scan gaps, not claims of exhaustive author bibliography."
+          },
+          {
+            "title": "Itinerario / Narrativa completa / Páginas vivas (compilations)",
+            "decision": "collection_or_edition",
+            "rationale": "The Cervantes bibliography lists aggregate/selected-volume titles; no individual title is normalized as an authored original work without object-level edition evidence and deduplication. Record as collection/version scan gap."
+          },
+          {
+            "candidate_id": "WCD10-B07-W008",
+            "title": "El otro rostro del peronismo",
+            "decision": "new_work_candidate",
+            "rationale": "Independent work listed as essay in institutional chronology; 1956 author/title/year/form corroborated by UNNE library record; direct academic abstract names/analyzes it. Not an extract, anthology or version of a baseline novel."
+          },
+          {
+            "title": "El caso Sábato: torturas y libertad de prensa. Carta abierta al general Aramburu",
+            "decision": "not_added_scope_gap",
+            "rationale": "Listed as an essay in institutional chronology, but no separately opened primary catalog/publisher object record, direct object description, or direct work-specific research was obtained in this pass; keep as an explicit inventory gap rather than infer genre/description from title alone."
+          },
+          {
+            "title": "Tango, discusión y clave",
+            "decision": "deferred_year_conflict",
+            "rationale": "Cervantes chronology lists 1963; CEDINPE author bibliography lists Tango. Discusión y clave (Losada) 1965. Losada page was opened and confirms Sábato/title/content about tango but does not state original publication year. Defer whole object pending original-year resolution."
+          },
+          {
+            "title": "Pedro Henríquez Ureña (1967)",
+            "decision": "not_added_scope_gap",
+            "rationale": "Opened CEDINPE catalog records a 1966 selection/notes volume by Carmelina and Luis Alberto Castellanos with one Sábato contribution, while the opened Cervantes chronology says 1967; defer instead of normalizing the entire volume as sole-authored."
+          },
+          {
+            "title": "Entre la letra y la sangre (1988)",
+            "decision": "collaboration_form_gap",
+            "rationale": "Opened St George’s College catalog describes conversations with Carlos Catania and lists both names; defer sole-author normalization."
+          },
+          {
+            "title": "Querido y remoto muchacho (1990)",
+            "decision": "not_added_scope_gap",
+            "rationale": "Opened Biblioteca Padre Juan Alberto Sancho catalog calls the 1990 Losada item a chapter extracted from Abaddón; preserve the excerpt/edition boundary rather than create an additional book-level work."
+          },
+          {
+            "title": "La cultura en la encrucijada nacional (1973 anthology / 1976 essay chronology)",
+            "decision": "edition_or_form_conflict",
+            "rationale": "Cervantes classifies a 1976 title under essays and a 1973 title under anthologies with the same name; CEDINPE lists a 1982 fourth edition. No content-level item/edition comparison was obtained; defer instead of conflating entries."
+          },
+          {
+            "title": "Diálogos / Sábato and Jorge Luis Borges (1976)",
+            "decision": "coauthored_form_gap",
+            "rationale": "Chronology explicitly lists a joint dialogue; no directly opened joint-work object record or description; do not silently normalize as sole-authored Sábato work."
+          },
+          {
+            "title": "Other Cervantes chronology essays, anthologies, complete works and conferences not separately listed above",
+            "decision": "collection_or_unresearched_scan_items",
+            "rationale": "Full exact source list retained in author_context.bibliographic_scan.institutional_chronology_all_titles. Anthologies and complete works are collections/editions; remaining individual essays/conference items lack opened object-level sources supporting a bounded candidate in this pass. No exhaustiveness claim."
+          },
+          {
+            "candidate_id": "WCD10-B07-W009",
+            "title": "Tres aproximaciones a la literatura de nuestro tiempo",
+            "decision": "new_work_candidate",
+            "rationale": "Independent 1968 Sábato book confirmed by Cervantes chronology and UNC university catalog; catalog form and subject headings support a bounded essay/criticism description. Search-result PDF snippets were not relied on."
+          }
+        ],
+        "explicit_boundaries": [
+          {
+            "item": "Obras completas/Narrativa (1996)",
+            "boundary": "revised/corrected collective edition containing the 3 novelistic works, unpublished pieces and a 1994 essay; collection/version, not novel corpus expansion."
+          },
+          {
+            "item": "Informe sobre ciegos",
+            "boundary": "a subordinate title/element referred to in descriptions of Abaddón and the collected volume; no independent work candidate."
+          },
+          {
+            "item": "El dragón y la princesa",
+            "boundary": "adapted edition of part of Sobre héroes y tumbas according to catalog; no independent candidate."
+          },
+          {
+            "item": "La resistencia online serial vs book",
+            "boundary": "BN says it appeared online in 2000 and later in print; one work object, not separate web and print works."
+          },
+          {
+            "item": "Pedro Henríquez Ureña",
+            "boundary": "CEDINPE identifies a 1966 selection/notes volume by Carmelina and Luis Alberto Castellanos with a single Sábato contribution; Cervantes lists 1967. No sole-authored book entity is inferred."
+          },
+          {
+            "item": "Entre la letra y la sangre",
+            "boundary": "Library catalog identifies a conversation book jointly attributed to Sábato and Carlos Catania; no sole-author work candidate."
+          },
+          {
+            "item": "Querido y remoto muchacho",
+            "boundary": "Library catalog identifies the separately issued 1990 text as an extracted chapter from Abaddón; it remains an edition/extract, not an independent new-work candidate."
+          },
+          {
+            "item": "Los libros y su misión en la liberación e integración de la América Latina",
+            "boundary": "Cervantes chronology lists 1979; a municipal catalog search result lists an Embassy publication in 1978, but its page could not be opened. Defer the whole object pending first-year resolution."
+          }
+        ]
+      }
+    },
+    {
+      "author_id": "V1-ENT-0198",
+      "revision": "R8",
+      "source_dedup": {
+        "task_id": "TASK-112",
+        "batch_id": "WCD-10-B07",
+        "baseline_database_sha256": "ea9e01b41b4faaef727a6159b6d34ba7d9121a9992fda1cb993c6574f91f6a27",
+        "method": "Read-only exact and normalized-title scan of 49 source candidates, 29 work candidates, and all 29 CREATED relationship proposals against the frozen baseline source/work/relationship records. Every CREATED candidate ID is unique and maps to one Bioy work and its direct attribution source refs; the cross-file R7 checks confirm no duplicate candidate IDs, missing sources, or mismatched created_source_refs. The five early-title screens and residual edition boundaries remain itemized in the preserved research notes; R6/R7 add only the source-supported title-level candidates and source-specific role/edition corrections recorded in this snapshot. Collaborator roles are stated only where sources identify them.",
+        "matches": [
+          {
+            "candidate_id": "WCD10-B07-S101",
+            "kind": "source",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B07-S102",
+            "kind": "source",
+            "disposition": "reuse",
+            "matches": [
+              "SRC-0154"
+            ]
+          },
+          {
+            "candidate_id": "WCD10-B07-S103",
+            "kind": "source",
+            "disposition": "reuse",
+            "matches": [
+              "SRC-0155"
+            ]
+          },
+          {
+            "candidate_id": "WCD10-B07-S104",
+            "kind": "source",
+            "disposition": "reuse",
+            "matches": [
+              "SRC-0153"
+            ]
+          },
+          {
+            "candidate_id": "WCD10-B07-S105",
+            "kind": "source",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B07-S106",
+            "kind": "source",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B07-S107",
+            "kind": "source",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B07-S108",
+            "kind": "source",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B07-S109",
+            "kind": "source",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B07-S110",
+            "kind": "source",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B07-S111",
+            "kind": "source",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B07-S112",
+            "kind": "source",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B07-S113",
+            "kind": "source",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B07-S114",
+            "kind": "source",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B07-S115",
+            "kind": "source",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B07-S116",
+            "kind": "source",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B07-S117",
+            "kind": "source",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B07-S118",
+            "kind": "source",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B07-S119",
+            "kind": "source",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B07-S120",
+            "kind": "source",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B07-S121",
+            "kind": "source",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B07-S122",
+            "kind": "source",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B07-S123",
+            "kind": "source",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B07-S124",
+            "kind": "source",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B07-S125",
+            "kind": "source",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B07-W101",
+            "kind": "entity",
+            "disposition": "new",
+            "matches": [],
+            "title": "Diario de la guerra del cerdo",
+            "checked_author_id": "V1-ENT-0198"
+          },
+          {
+            "candidate_id": "WCD10-B07-W102",
+            "kind": "entity",
+            "disposition": "new",
+            "matches": [],
+            "title": "Dormir al sol",
+            "checked_author_id": "V1-ENT-0198"
+          },
+          {
+            "candidate_id": "WCD10-B07-W103",
+            "kind": "entity",
+            "disposition": "new",
+            "matches": [],
+            "title": "La trama celeste",
+            "checked_author_id": "V1-ENT-0198"
+          },
+          {
+            "candidate_id": "WCD10-B07-W104",
+            "kind": "entity",
+            "disposition": "new",
+            "matches": [],
+            "title": "Historia prodigiosa",
+            "checked_author_id": "V1-ENT-0198"
+          },
+          {
+            "candidate_id": "WCD10-B07-W105",
+            "kind": "entity",
+            "disposition": "new",
+            "matches": [],
+            "title": "Guirnalda con amores",
+            "checked_author_id": "V1-ENT-0198"
+          },
+          {
+            "candidate_id": "WCD10-B07-W106",
+            "kind": "entity",
+            "disposition": "new",
+            "matches": [],
+            "title": "El gran Serafín",
+            "checked_author_id": "V1-ENT-0198"
+          },
+          {
+            "candidate_id": "WCD10-B07-W107",
+            "kind": "entity",
+            "disposition": "new",
+            "matches": [],
+            "title": "La aventura de un fotógrafo en La Plata",
+            "checked_author_id": "V1-ENT-0198"
+          },
+          {
+            "candidate_id": "WCD10-B07-W108",
+            "kind": "entity",
+            "disposition": "new",
+            "matches": [],
+            "title": "Un campeón desparejo",
+            "checked_author_id": "V1-ENT-0198"
+          },
+          {
+            "candidate_id": "WCD10-B07-W109",
+            "kind": "entity",
+            "disposition": "new",
+            "matches": [],
+            "title": "De un mundo a otro",
+            "checked_author_id": "V1-ENT-0198"
+          },
+          {
+            "candidate_id": "WCD10-B07-W110",
+            "kind": "entity",
+            "disposition": "new",
+            "matches": [],
+            "title": "El lado de la sombra",
+            "checked_author_id": "V1-ENT-0198"
+          },
+          {
+            "candidate_id": "WCD10-B07-W111",
+            "kind": "entity",
+            "disposition": "new",
+            "matches": [],
+            "title": "El héroe de las mujeres",
+            "checked_author_id": "V1-ENT-0198"
+          },
+          {
+            "candidate_id": "WCD10-B07-W112",
+            "kind": "entity",
+            "disposition": "new",
+            "matches": [],
+            "title": "Historias desaforadas",
+            "checked_author_id": "V1-ENT-0198"
+          },
+          {
+            "candidate_id": "WCD10-B07-W113",
+            "kind": "entity",
+            "disposition": "new",
+            "matches": [],
+            "title": "Una muñeca rusa",
+            "checked_author_id": "V1-ENT-0198"
+          },
+          {
+            "candidate_id": "WCD10-B07-W114",
+            "kind": "entity",
+            "disposition": "new",
+            "matches": [],
+            "title": "Una magia modesta",
+            "checked_author_id": "V1-ENT-0198"
+          },
+          {
+            "candidate_id": "WCD10-B07-S126",
+            "kind": "source",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B07-S127",
+            "kind": "source",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B07-S128",
+            "kind": "source",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B07-S129",
+            "kind": "source",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B07-S130",
+            "kind": "source",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B07-S131",
+            "kind": "source",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B07-S132",
+            "kind": "source",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B07-S133",
+            "kind": "source",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B07-S134",
+            "kind": "source",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B07-S135",
+            "kind": "source",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B07-S136",
+            "kind": "source",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B07-S137",
+            "kind": "source",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B07-W115",
+            "kind": "entity",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B07-W116",
+            "kind": "entity",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B07-W117",
+            "kind": "entity",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B07-W118",
+            "kind": "entity",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B07-W119",
+            "kind": "entity",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B07-W120",
+            "kind": "entity",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B07-W121",
+            "kind": "entity",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B07-S138",
+            "kind": "source",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B07-S139",
+            "kind": "source",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B07-W122",
+            "kind": "entity",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B07-W123",
+            "kind": "entity",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B07-W124",
+            "kind": "entity",
+            "disposition": "new",
+            "matches": [],
+            "title": "La estatua casera",
+            "checked_author_id": "V1-ENT-0198"
+          },
+          {
+            "candidate_id": "WCD10-B07-R101",
+            "kind": "relationship",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B07-R102",
+            "kind": "relationship",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B07-R103",
+            "kind": "relationship",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B07-R104",
+            "kind": "relationship",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B07-R105",
+            "kind": "relationship",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B07-R106",
+            "kind": "relationship",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B07-R107",
+            "kind": "relationship",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B07-R108",
+            "kind": "relationship",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B07-R109",
+            "kind": "relationship",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B07-R120",
+            "kind": "relationship",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B07-R121",
+            "kind": "relationship",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B07-R122",
+            "kind": "relationship",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B07-R123",
+            "kind": "relationship",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B07-R124",
+            "kind": "relationship",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B07-R115",
+            "kind": "relationship",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B07-R116",
+            "kind": "relationship",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B07-R117",
+            "kind": "relationship",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B07-R118",
+            "kind": "relationship",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B07-R119",
+            "kind": "relationship",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B07-R130",
+            "kind": "relationship",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B07-R131",
+            "kind": "relationship",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B07-R132",
+            "kind": "relationship",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B07-R133",
+            "kind": "relationship",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B07-R134",
+            "kind": "relationship",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B07-S140",
+            "kind": "source",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B07-S141",
+            "kind": "source",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B07-S142",
+            "kind": "source",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B07-S143",
+            "kind": "source",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B07-S144",
+            "kind": "source",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B07-S145",
+            "kind": "source",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B07-S146",
+            "kind": "source",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B07-S147",
+            "kind": "source",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B07-R135",
+            "kind": "relationship",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B07-W125",
+            "kind": "entity",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B07-R136",
+            "kind": "relationship",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B07-W126",
+            "kind": "entity",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B07-R137",
+            "kind": "relationship",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B07-W127",
+            "kind": "entity",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B07-R138",
+            "kind": "relationship",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B07-W128",
+            "kind": "entity",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B07-R139",
+            "kind": "relationship",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B07-W129",
+            "kind": "entity",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B07-S148",
+            "kind": "source",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B07-S149",
+            "kind": "source",
+            "disposition": "new",
+            "matches": []
+          }
+        ],
+        "edition_and_identity_decisions": [
+          {
+            "identity": "La trama celeste",
+            "decision": "Treat 1948 book of stories as a collection. Do not create the 1981 La trama celeste y otros relatos anthology as a separate Bioy original work nor merge it into the original 1948 collection."
+          },
+          {
+            "identity": "Historias fantásticas / Historias de amor",
+            "decision": "1972 later selections of stories previously published, per CVC bibliography lines 71–73; not new original composition candidates."
+          },
+          {
+            "identity": "Últimas novelas",
+            "decision": "Publisher compilation of individual novels; not a separate new original work. Use only where individual title/year/summary explicitly shown."
+          },
+          {
+            "identity": "Borges collaborations/pseudonyms",
+            "decision": "No sole-author Bioy CREATED candidate. CVC bibliography identifies collaborative and pseudonymous joint works; preserve explicit coauthor boundaries."
+          },
+          {
+            "identity": "Los que aman, odian",
+            "decision": "CVC chronology explicitly says coauthored with Silvina Ocampo in 1946; excluded from sole-author list."
+          },
+          {
+            "identity": "La invención de Morel",
+            "decision": "Old entity retained; no duplicate. Year discrepancy is not resolved or silently edited."
+          },
+          {
+            "title": "Últimos cuentos (publisher compilation) vs Historias desaforadas / Una muñeca rusa / Una magia modesta",
+            "decision": "No candidate entity for Últimos cuentos. The publisher expressly says the compilation gathers three earlier books (1986, 1991, 1997); each original book remains a separate candidate W112/W113/W114. No anthology-level authorship is mistaken for coauthorship or a first-publication date."
+          },
+          {
+            "title": "El lado de la sombra / El héroe de las mujeres",
+            "decision": "Each is a distinct original story collection (1962 and 1978 respectively), supported by the signed CVC bibliography/chronology and publisher/object-study evidence; no individual story entity is created."
+          },
+          {
+            "candidate_id": "WCD10-B07-W124",
+            "title": "La estatua casera",
+            "decision": "new independent early book object",
+            "basis": "CVC chronology and García direct study identify the 1936 book. Its pieces are described as contents only; no duplicate story entities are created. Silvina Ocampo is an illustrator, not a coauthor. Baseline exact/normalized author-title scan found no matching work."
+          },
+          {
+            "candidate_id": "WCD10-B07-W124",
+            "title": "La estatua casera",
+            "decision": "new independent early book object",
+            "basis": "CVC chronology and García direct study identify the 1936 book. Its pieces are described as contents only; no duplicate story entities are created. Silvina Ocampo is an illustrator, not a coauthor. Baseline exact/normalized author-title scan found no matching work."
+          },
+          {
+            "candidate_id": "WCD10-B07-W125",
+            "title": "El perjurio de la nieve",
+            "decision": "standalone story/work with source-specific 1944 edition; chronology discrepancy retained",
+            "basis": "Google Books lists Bioy/Emecé/1944/64 pp.; two direct studies identify the cuento and 1944. CVC author biography S140 lists 1945; source-specific conflict is carried in W125-F04; no CVC chronology year is asserted for this title."
+          },
+          {
+            "candidate_id": "WCD10-B07-W126",
+            "title": "Las vísperas de Fausto",
+            "decision": "single story/work, 1949 separate edition distinct from 1956 collection",
+            "basis": "Notre Dame catalog lists the 1949 limited edition; Giovannini describes its original 1949 issue and 1956 Historia prodigiosa reuse."
+          },
+          {
+            "candidate_id": "WCD10-B07-W127",
+            "title": "Homenaje a Francisco Almeyra",
+            "decision": "1954 single story, with later 1956 collection reuse",
+            "basis": "Gramuglio directly identifies Sur 1954 appearance and bounded plot; no separate collection object created."
+          },
+          {
+            "candidate_id": "WCD10-B07-W128",
+            "title": "Los que aman, odian",
+            "decision": "jointly authored novel, not Bioy sole-author object",
+            "basis": "CVC bibliography/chronology and Gabriela Galán Carrasco’s 2024 Universidad de Extremadura undergraduate thesis (printed p.20) support 1946; thesis is B-level and only its explicit bibliographic statement is used. Emecé press sheet explicitly supports joint authorship/synopsis but its biography paragraph says 1945, recorded in W128-F04. 2016 is the current book-edition date, not first-publication year."
+          },
+          {
+            "candidate_id": "WCD10-B07-W129",
+            "title": "Antología de la literatura fantástica",
+            "decision": "1940 jointly selected/translated anthology; 1965 expanded edition retained as later edition of same object",
+            "basis": "CVC author note lines 58–62 supports authorship roles, year and content boundary; line 74 identifies the second edition."
+          }
+        ]
+      }
+    },
+    {
+      "author_id": "V1-ENT-0199",
+      "revision": "R5",
+      "source_dedup": {
+        "schema": "wcd10-dedup-1",
+        "task_id": "TASK-112",
+        "batch_id": "WCD-10-B07",
+        "author_id": "V1-ENT-0199",
+        "method": "Compared original Spanish title, edition and first-publication metadata, baseline author/work IDs, institutional bibliographies, author/foundation pages and library catalogues. New work IDs are assigned only to separately titled published books with object-specific records; provisional Chinese titles are display aids, not identity keys. Chapters, single stories, anthology selections, reprints, film adaptations and author screenplays are not silently merged with books.",
+        "decisions": [
+          {
+            "candidate_id": "WCD10-B07-W201",
+            "title": "El trueno entre las hojas",
+            "decision": "new_work_candidate",
+            "rationale": "基金会称其为作者首部/代表性短篇集；有具名直接作品研究，满足对象重要性。"
+          },
+          {
+            "candidate_id": "WCD10-B07-W202",
+            "title": "El baldío",
+            "decision": "new_work_candidate",
+            "rationale": "基金会称作者的重要短篇集，且已取得对应作品页的集级介绍；未把同名单篇当成电影。"
+          },
+          {
+            "candidate_id": "WCD10-B07-W203",
+            "title": "Los pies sobre el agua",
+            "decision": "new_work_candidate",
+            "rationale": "Instituto Cervantes将其列为作者短篇集，基金会提供集级版本/收录说明。"
+          },
+          {
+            "candidate_id": "WCD10-B07-W204",
+            "title": "Madera quemada",
+            "decision": "new_work_candidate",
+            "rationale": "列入缺失的重要短篇集；支持集中可直接说明书集与《人子》章节/单篇版本关系，避免对象混淆。"
+          },
+          {
+            "candidate_id": "WCD10-B07-W205",
+            "title": "Moriencia",
+            "decision": "new_work_candidate",
+            "rationale": "基金会和Cervantes书目均列为作者核心短篇集，且基金会直接描述其作品集结构。"
+          },
+          {
+            "candidate_id": "WCD10-B07-W206",
+            "title": "Cuerpo presente y otros cuentos",
+            "decision": "new_work_candidate",
+            "rationale": "属于机构书目列出的成体系短篇集；目前简介有意限制在可证实的合集层级。"
+          },
+          {
+            "candidate_id": "WCD10-B07-W207",
+            "title": "El pollito de fuego",
+            "decision": "new_work_candidate",
+            "rationale": "Cervantes目录与基金会页面均将其列作作者儿童叙事，且作品页有直接故事内容。"
+          },
+          {
+            "candidate_id": "WCD10-B07-W208",
+            "title": "Vigilia del Almirante",
+            "decision": "new_work_candidate",
+            "rationale": "被CVC/基金会明确列为小说，且作品本身自述和对象说明可读。"
+          },
+          {
+            "candidate_id": "WCD10-B07-W209",
+            "title": "Contravida",
+            "decision": "new_work_candidate",
+            "rationale": "巴拉圭1994原版副文本和两项Cervantes书目证据互证首发年；基金会生平将Contravida排于1995，候选明确采用原版1994而保留冲突说明。"
+          },
+          {
+            "candidate_id": null,
+            "title_or_key": "WCD10-B07:roa:Fulgencio-Miranda",
+            "decision": "deferred",
+            "rationale": "CVC Bibliografía L6明确称 novela inédita（未出版）；Cervantes Chronología只列1941作品名。未获底本/正式出版物，且不能把提交奖项年份当出版首年。暂不建published-work实体。"
+          },
+          {
+            "candidate_id": null,
+            "title_or_key": "WCD10-B07:roa:El-genesis-de-los-guaranies",
+            "decision": "deferred",
+            "rationale": "CVC Bibliografía L6 lists “El génesis de los guaraníes. Leyenda de la creación y destrucción del mundo” in Revista del Ateneo Paraguayo (1948). Enrique Flores, “Las ‘culturas condenadas’: el mitólogo como compilador,” Revista Telar 27 (2021), directly states that the 1948 text was taken/translated from Nimuendajú’s original (Dialnet article PDF physical p.2 L55–79), and its note 18 calls the 1971 El génesis de los Apapokuva-guaraní a “reedición” (PDF physical p.10 L283–284). The same five song titles listed for the 1948 text at PDF p.2 L78–79 correspond to the five poems in the near-contemporary 1971 Alcor issue review (S217, Caravelle 18, pp.173–196; title at p.22 and poem listings from p.25; also S219/CVC chronology L25 spells Apapokura). These records establish a 1971 bibliographic item but conflict with treating it as a distinct first-publication-year 1971 work. No physical 1971 Alcor/book artifact or full contents/title-page collation has been obtained. Therefore work identity, 1948-versus-1971 first-publication year, title/spelling relation (Apapokuva/Apapokura), and exact re-edition scope remain unresolved; W211 is deferred, not admitted as an independent 1971 work. The 1948 attribution/translation formulation is reported as Flores’ bibliography/analysis and does not determine sole authorship of a later edition."
+          },
+          {
+            "candidate_id": null,
+            "title_or_key": "WCD10-B07:roa:Contar-un-cuento-y-otros-relatos",
+            "decision": "deferred",
+            "rationale": "CVC机构书目列1984年Kapelusz选集，CVC作品年表却列1948；目前无法区分早期单篇/合集、首版与选集版，不能把选集年认作首发年。"
+          },
+          {
+            "candidate_id": null,
+            "title_or_key": "WCD10-B07:roa:Lucha-hasta-el-alba",
+            "decision": "deferred",
+            "rationale": "CVC列1979独立书名；基金会称为作者最早文本，选集页也列单篇。当前未取得独立篇目首次发表证据与原书目录，暂不将单篇和后来的同名书/重收版本合并为作品。"
+          },
+          {
+            "candidate_id": null,
+            "title_or_key": "WCD10-B07:roa:Antologia-personal",
+            "decision": "deferred",
+            "rationale": "1980作者自选选集，基金会页说明其为代表性选录；本轮不把每一选集版本当作独立创作作品，也未逐项核对新增/异名内容。"
+          },
+          {
+            "candidate_id": null,
+            "title_or_key": "WCD10-B07:roa:Cuentos-completos",
+            "decision": "deferred",
+            "rationale": "基金会和CVC把2003/2008 Cuentos completos作为合集版次，包含多本既有集与较少流传篇目；它是后期合集而非单一原创书集，需另行核对版本及内容，不在本轮新增。"
+          },
+          {
+            "candidate_id": null,
+            "title_or_key": "WCD10-B07:roa:other-poetry-essays-theatre",
+            "decision": "deferred",
+            "rationale": "CVC全书目另列诗集、散文/随笔、戏剧、合作编著及影视剧本；本轮逐类登记为待查范围，不将合作序跋、改编剧本、歌曲与原创小说/短篇合集混并。需未来任务逐对象核验。"
+          },
+          {
+            "candidate_id": "WCD10-B07-W210",
+            "title": "El naranjal ardiente",
+            "decision": "new_work_candidate",
+            "rationale": "Fundación/CVC list 1960 first poetry collection; record the 1983 near-complete second edition separately; Antologías places early/new poems and Silenciario in the distinct 1998 Poesías Reunidas volume."
+          },
+          {
+            "candidate_id": null,
+            "title_or_key": "WCD10-B07:roa:Los-juegos-2-La-casa-de-invierno-verano",
+            "decision": "deferred",
+            "rationale": "针对完整书名、标题变体及Roa Bastos + 1981检索并打开CVC chronology L28与基金会生平L160–161；只确认书目/儿童书身份及出版/插图信息，没有获得单册内容或目录，故保留对象描述gap。"
+          },
+          {
+            "candidate_id": null,
+            "title_or_key": "WCD10-B07:roa:Candido-Lopez-1984",
+            "decision": "deferred",
+            "rationale": "CVC Bibliografía列1984年Franco Maria Ricci出版物，但仅列题名与出版项，未核其属于作者独立文学作品、艺术专著或其他文本形态；身份/类型/内容未清。"
+          },
+          {
+            "candidate_id": null,
+            "title_or_key": "WCD10-B07:roa:Los-dilemas-de-la-integracion-iberoamericana",
+            "decision": "deferred",
+            "rationale": "CVC Bibliografía列1986年出版项，未有直接作品页/对象说明，故不据题名推断散文论点或内容。"
+          },
+          {
+            "candidate_id": null,
+            "title_or_key": "WCD10-B07:roa:Carlos-Colombino-1990",
+            "decision": "deferred",
+            "rationale": "CVC Bibliografía列1990年Imprenta Comuneros出版项，但无法由该书目行确认其是艺术家专著、合作或其他文本；对象身份/体裁待查。"
+          },
+          {
+            "candidate_id": null,
+            "title_or_key": "WCD10-B07:roa:El-texto-cautivo",
+            "decision": "deferred",
+            "rationale": "CVC Bibliografía列1990 Fundación del Rey出版，CVC chronology也含90年代出版记录；未核原版体裁、选文边界与内容，不把合集/文章集误作单一小说。"
+          },
+          {
+            "candidate_id": null,
+            "title_or_key": "WCD10-B07:roa:Poesia-Colihue-1999",
+            "decision": "deferred",
+            "rationale": "CVC Bibliografía列1999《Poesía》选集及Jorge Boccanera序；未核其收录作品、是否与前述单诗集有版本合并关系，不能将汇编年当作早期诗作首发年。"
+          },
+          {
+            "candidate_id": null,
+            "title_or_key": "WCD10-B07:roa:Un-pais-detras-de-la-lluvia",
+            "decision": "deferred",
+            "rationale": "基金会传记L222-223称作者生前称已完成小说、但作品仍失落；缺可访问底本/正式出版物，不建已出版作品。"
+          },
+          {
+            "candidate_id": null,
+            "title_or_key": "WCD10-B07:roa:Yo-el-Supremo-teatro",
+            "decision": "deferred",
+            "rationale": "CVC Bibliografía列1985年戏剧文本；基金会传记L179称1986年戏剧作品。另属小说的舞台版本，不与1974小说合并；未获取剧本/舞台版本和首演/出版证据，整对象延期。"
+          },
+          {
+            "candidate_id": null,
+            "title_or_key": "WCD10-B07:roa:early-theater-plays",
+            "decision": "deferred",
+            "rationale": "CVC Bibliografía teatro栏目列 Alma de tradición（多位合作者）、El niño del rocío (1945演出)、Mientras llega el día（1946演出）；基金会另称La Residenta/版本题名与年份。均属舞台/合著层次，缺原剧本与出版/演出版本核实，故整类待查，不归入小说或单篇小说集。"
+          },
+          {
+            "candidate_id": null,
+            "title_or_key": "WCD10-B07:roa:coauthored-edited-and-preface-books",
+            "decision": "deferred",
+            "rationale": "CVC Bibliografía L10-14列共同创作、编选/编纂、序言/呈献、合作著作与艺术册等角色，包括 Amérikka..., Novelistas criollistas latinoamericanos, Culturas condenadas, Los conjurados del quilombo del Gran Chaco, Polisapo 等。尚未逐本核实作者角色、合作者、编辑角色和书内原文，作为角色盘点延期项而非单作者原创作品列表。"
+          },
+          {
+            "candidate_id": null,
+            "title_or_key": "WCD10-B07:roa:films-screenplays-and-adaptations",
+            "decision": "deferred",
+            "rationale": "CVC Bibliografía L15-16区分改编他人小说/故事、Roa原作 La madre María、Castigo al traidor（基于其单篇 Encuentro）及Hijo de hombre故事章节电影Hijo de hombre/La sed/Chóferes del Chaco；CVC chronology L19也单列Armando Bo 1956电影。影视剧本、原作、底层小说和单篇均不同层级。本轮不创建电影实体或把影视演员/角色并入书籍对象。"
+          },
+          {
+            "candidate_id": null,
+            "title_or_key": "WCD10-B07:roa:song-lyrics-and-periodical-work",
+            "decision": "deferred",
+            "rationale": "CVC Bibliografía L18-31逐列歌曲歌词及报刊文章/专栏。它们是歌曲、期刊文章、评论/政论/访谈等形态，不等同于小说/短篇集。本轮将CVC各目录节作为已盘点但尚未按作品逐件核对的待查群组。"
+          },
+          {
+            "candidate_id": "WCD10-B07-W212",
+            "title": "El ruiseñor de la aurora y otros poemas",
+            "decision": "new_work_candidate",
+            "rationale": "1942诗集在CVC书目、Google Books目录和基金会诗歌页也直接标出1942；CVC年表另称1952出版“完整版本”，故本候选只锚定1942项并显式记录后续版本，不把1952当首发年。"
+          },
+          {
+            "candidate_id": "WCD10-B07-W213",
+            "title": "La Inglaterra que yo vi",
+            "decision": "new_work_candidate",
+            "rationale": "CVC书目列1946书目项；基金会将其描述为首次赴欧期间新闻文章的汇集，FLM作者条目进一步称其为El País刊行的小册子，并列出旅行观察/访谈对象，足以说明体裁和对象内容。"
+          },
+          {
+            "candidate_id": "WCD10-B07-W214",
+            "title": "Madama Sui",
+            "decision": "new_work_candidate",
+            "rationale": "CVC及基金会记录1996年版本，但Laura Welsch学术论文明确区分1995年初版与1996年Seix Barral第二版，消解首发年冲突；论文直接以该小说为研究对象，满足重要性及有界直接研究要求。"
+          },
+          {
+            "candidate_id": "WCD10-B07-W215",
+            "title": "Metaforismos",
+            "decision": "new_work_candidate",
+            "rationale": "CVC书目及基金会版次页均列1996；WorldCat和Google Books记录分别描述格言类内容并确认1996版次。两个不同出版者的1996记录（El Lector与Seix Barral/Edhasa）并存，现有来源未证明二者先后/共版关系，故不判定唯一首版出版者。"
+          },
+          {
+            "candidate_id": "WCD10-B07-W216",
+            "title": "Los Juegos 1: Carolina y Gaspar",
+            "decision": "new_work_candidate",
+            "rationale": "1979儿童读物在CVC年表、基金会传记及CVC书目均有记录；基金会短篇小说（Cuento）页面提供该书片段，足以给出有界的对象级说明，但不把片段延伸为全书情节。"
+          },
+          {
+            "candidate_id": "WCD10-B07-W217",
+            "title": "Las culturas condenadas",
+            "decision": "new_work_candidate",
+            "rationale": "Distinct 1978 compiled anthology/collection. CVC and Google Books support identity/year; Google Books and Flores identify Roa as editor/compiler, not sole author of all included material; Flores provides direct A-level work-specific research."
+          }
+        ],
+        "explicit_boundaries": [
+          {
+            "objects": [
+              "V1-ENT-0204",
+              "WCD10-B07-W201",
+              "WCD10-B07-W204"
+            ],
+            "boundary": "Hijo de hombre is a 1960 novel; Madera quemada is both a collection title and a text/chapter with later inclusion in the 1980s revised novel. W201 El trueno entre las hojas is a 1953 collection and a 1956 film title; no film object/role is created. Do not equate the novel text states."
+          },
+          {
+            "objects": [
+              "V1-ENT-0205"
+            ],
+            "boundary": "Yo el Supremo first appeared in 1974; ASALE 2017 is a commemorative edition and a volume with appended studies, not the work first-publication date."
+          },
+          {
+            "objects": [
+              "V1-ENT-0206"
+            ],
+            "boundary": "El fiscal is a 1993 novel; no characters are created as database objects, and the correct Ravetti galley is used instead of the adjacent preceding article PDF."
+          },
+          {
+            "objects": [
+              "WCD10-B07-W206"
+            ],
+            "boundary": "Cuerpo presente y otros cuentos (c1971, CEAL, library contents) is distinguished from Fundación Antologías’ Cuerpo presente y otros textos (1972), a different anthology that includes two Hijo de hombre fragments. Similar titles alone are not enough to merge."
+          },
+          {
+            "objects": [
+              "WCD10-B07-W203",
+              "WCD10-B07-W205"
+            ],
+            "boundary": "El baldío (1966) and Moriencia (1969) are book-level story collections; same-named individual stories/short texts remain stories within or across collections, not separate objects here."
+          },
+          {
+            "objects": [
+              "WCD10-B07-W202",
+              "WCD10-B07-W201"
+            ],
+            "boundary": "Los pies sobre el agua (1967) and El trueno entre las hojas (1953) are short story collections; 1977 CVC catalogue listing is a later Los pies edition, not first publication."
+          },
+          {
+            "objects": [
+              "WCD10-B07-W209"
+            ],
+            "boundary": "Contravida is 1994 per the Paraguayan first-edition paratext and CVC listings. Fundación biographical chronology separately reports 1995; this discrepancy remains noted and does not silently overwrite the local first edition."
+          },
+          {
+            "objects": [
+              "WCD10-B07-W208"
+            ],
+            "boundary": "Vigilia del Almirante (1992) is a novel based on a historical person; the historical figure is not registered as a fictional character or new relationship."
+          },
+          {
+            "objects": [
+              "WCD10-B07-W207"
+            ],
+            "boundary": "El pollito de fuego (1974) is a children’s story; its protagonist/animal is story content, not a separate entity or film role."
+          },
+          {
+            "objects": [
+              "SRC-0160",
+              "WCD10-B07-S215"
+            ],
+            "boundary": "Same exact canonical URL. Reuse existing SRC-0160 with its historical B level and metadata; no duplicate new source."
+          },
+          {
+            "objects": [
+              "SRC-0158",
+              "WCD10-B07-S201"
+            ],
+            "boundary": "S201 Hijo revision passage substantially reproduces Carmen de Mora’s CVC acerca05 text per parent’s direct review. Not independent confirmation; preserve source identity/level as B and do not infer author from institutional host."
+          },
+          {
+            "objects": [
+              "WCD10-B07-S214"
+            ],
+            "boundary": "Correct article-specific Ravetti PDF /29948/23546 is an article object. Rejected /29949/23547/89234 opens to Rafael Soares de Oliveira poem study and is never admitted as Ravetti evidence."
+          },
+          {
+            "objects": [
+              "WCD10-B07-S212"
+            ],
+            "boundary": "Lupi directly studies Yo el Supremo but expressly does not claim cybernetics influenced the novel or is its theme; no theme/causal influence fact is supported."
+          },
+          {
+            "objects": [
+              "WCD10-B07-W210"
+            ],
+            "boundary": "El naranjal ardiente first appeared in 1960 as a selection from earlier unpublished poetry; 1983 was a near-complete second edition, not first publication."
+          },
+          {
+            "objects": [
+              "WCD10-B07-W211"
+            ],
+            "boundary": "El génesis de los Apapokura-Guaraní (1971 bilingual poetry collection) is not the similarly named El génesis de los guaraníes magazine legend listed in 1948."
+          }
+        ]
+      }
+    }
+  ],
+  "note": "Input DEDUP documents are embedded intact and remain attributable to their frozen author packages."
+}

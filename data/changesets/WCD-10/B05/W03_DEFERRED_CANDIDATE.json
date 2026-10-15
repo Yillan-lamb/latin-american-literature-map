@@ -1,0 +1,254 @@
+{
+  "schema": "wcd10-b05-deferred-candidate-1",
+  "task_id": "TASK-110",
+  "batch_id": "WCD-10-B05",
+  "candidate_id": "WCD10-B05-W03",
+  "original_author_id": "V1-ENT-0059",
+  "original_name": "El mono gramático",
+  "status": "DEFERRED_NOT_ADMITTED",
+  "policy_status": "USER_POLICY_PENDING",
+  "formal_subject_id": null,
+  "created_relationship": "NOT_GENERATED; implicit CREATED is omitted with the deferred new_entity",
+  "policy_gap_key": "WCD10:B05:Paz:El_mono_gramatico:first_publication_semantics",
+  "unique_policy_gap": true,
+  "selected_year": null,
+  "scope_note": "W03 remains in original B05/WCD-10 scope and must be integrated after USER resolves field semantics. This preserves the unadmitted draft and evidence; it does not decide the year.",
+  "pre_policy_proposal": {
+    "first_publication_year_draft": "1972",
+    "draft_status": "UNADMITTED_PRE_POLICY_VALUE_NOT_SELECTED",
+    "basis_as_stated": "ELEM 8815 documents the French translation Le singe grammairien (Claude Esteban; Skira, Les Sentiers de la Création) in 1972 and the Spanish-original first edition by Seix Barral in 1974.",
+    "alternative_layer": "Spanish-original first edition 1974",
+    "question_for_user": "Should first_publication_year mean earliest publication in any language or first publication in the original language?"
+  },
+  "preserved_candidate_entity": {
+    "candidate_id": "WCD10-B05-W03",
+    "author_id": "V1-ENT-0059",
+    "entity_type": "work",
+    "original_name": "El mono gramático",
+    "name_zh_candidate": "语法家猴子",
+    "name_policy": "中文为候选显示暂译，未核实正式中文译本；原题为身份锚点。单篇/合集/版本分层，不与既有对象或诗集收录混同。",
+    "rationale": "补帕斯跨文类散文诗书。R1按ELEM修订首发年语义：法译1972年先行面世、西语原文版1974；不把1974当全语种首发。",
+    "created_source_refs": [
+      "WCD10-B05-S07",
+      "WCD10-B05-S12",
+      "WCD10-B05-S18"
+    ],
+    "facts": [
+      {
+        "field": "first_publication_year",
+        "value": "1972",
+        "source_refs": [
+          "WCD10-B05-S18"
+        ],
+        "boundary": "本字段按'全语种首次出版'语义取法译Le singe grammairien（Claude Esteban译，Skira丛书Les Sentiers de la Création）1972年先行出版；西语原文版Seix Barral 1974仅记入bibliographic_note。二轮审计R1-02确认1974不得以first_book_edition_year入库（该字段若表'首个书版本年'则与1972已出书证据冲突）；跨语种首发字段政策留Codex最终裁决，若定为'原文语种首版'，本原子值应改为1974并同步迁移注记。"
+      },
+      {
+        "field": "genre_or_form",
+        "value": "跨文类散文诗（游记·随笔·散文诗）",
+        "source_refs": [
+          "WCD10-B05-S18"
+        ]
+      },
+      {
+        "field": "one_sentence_summary",
+        "value": "据ELEM作品页文章，本书横跨多种文类：既是前往印度加尔塔的旅行记述，也是关于创作过程与旅程的随笔，又是一首探索内在与视像的散文诗；印度加尔塔的小路与剑桥的花园两个场景在其中交汇。",
+        "source_refs": [
+          "WCD10-B05-S18"
+        ]
+      },
+      {
+        "field": "bibliographic_note",
+        "value": "法译Le singe grammairien 1972年（Claude Esteban译，Skira'Les Sentiers de la Création'丛书）先行出版；西语原文版Seix Barral（巴塞罗那）1974年；后有Círculo de Lectores 1996、Penguin Random House 1999、Galaxia Gutenberg 2014等版（ELEM）。",
+        "source_refs": [
+          "WCD10-B05-S18"
+        ]
+      }
+    ]
+  },
+  "preserved_evidence_matrix_rows": [
+    {
+      "candidate_id": "WCD10-B05-W03",
+      "object_ref": "WCD10-B05-W03",
+      "field": "first_publication_year",
+      "value": "1972",
+      "source_refs": [
+        "WCD10-B05-S18"
+      ],
+      "locators": [
+        "结构化字段（Seix Barral 1974等）+正文（1972法译句/跨文类句/Galta-Cambridge句）"
+      ],
+      "note": "R2修订 new_entity(El mono gramático)嵌套事实；CREATED由created_source_refs表达"
+    },
+    {
+      "candidate_id": "WCD10-B05-W03",
+      "object_ref": "WCD10-B05-W03",
+      "field": "genre_or_form",
+      "value": "跨文类散文诗（游记·随笔·散文诗）",
+      "source_refs": [
+        "WCD10-B05-S18"
+      ],
+      "locators": [
+        "结构化字段（Seix Barral 1974等）+正文（1972法译句/跨文类句/Galta-Cambridge句）"
+      ],
+      "note": "R2修订 new_entity(El mono gramático)嵌套事实；CREATED由created_source_refs表达"
+    },
+    {
+      "candidate_id": "WCD10-B05-W03",
+      "object_ref": "WCD10-B05-W03",
+      "field": "one_sentence_summary",
+      "value": "据ELEM作品页文章，本书横跨多种文类：既是前往印度加尔塔的旅行记述，也是关于创作过程与旅程的随笔，又是一首探索内在与视像的散文诗；印度加尔塔的小路与剑桥的花园两个场景在其中交汇。",
+      "source_refs": [
+        "WCD10-B05-S18"
+      ],
+      "locators": [
+        "结构化字段（Seix Barral 1974等）+正文（1972法译句/跨文类句/Galta-Cambridge句）"
+      ],
+      "note": "R2修订 new_entity(El mono gramático)嵌套事实；CREATED由created_source_refs表达"
+    },
+    {
+      "candidate_id": "WCD10-B05-W03",
+      "object_ref": "WCD10-B05-W03",
+      "field": "bibliographic_note",
+      "value": "法译Le singe grammairien 1972年（Claude Esteban译，Skira'Les Sentiers de la Création'丛书）先行出版；西语原文版Seix Barral（巴塞罗那）1974年；后有Círculo de Lectores 1996、Penguin Random House 1999、Galaxia Gutenberg 2014等版（ELEM）。",
+      "source_refs": [
+        "WCD10-B05-S18"
+      ],
+      "locators": [
+        "结构化字段（Seix Barral 1974等）+正文（1972法译句/跨文类句/Galta-Cambridge句）"
+      ],
+      "note": "R2修订 new_entity(El mono gramático)嵌套事实；CREATED由created_source_refs表达"
+    }
+  ],
+  "preserved_original_coverage_object": {
+    "object_ref": "WCD10-B05-W03",
+    "bibliography": "R2_revised_1972_only_book_edition_field_withdrawn",
+    "description": "R1_rewritten_ELEM_cross_genre_summary",
+    "research_status": "institutional_commentary",
+    "research_refs": [
+      "WCD10-B05-S07",
+      "WCD10-B05-S12",
+      "WCD10-B05-S18"
+    ],
+    "remaining": "R2修订（二轮R1-02）：first_book_edition_year=1974撤回（与1972法译已出书证据冲突），仅存bibliographic_note；首发年字段口径待Codex正式裁决。ELEM文内Castañón引文未作第二独立来源。"
+  },
+  "preserved_deferred_entry": {
+    "key": "WCD10:B05:Paz:El_mono_gramatico:first_publication_semantics",
+    "disposition": "field_policy_pending_codex",
+    "source_refs": [
+      "WCD10-B05-S18",
+      "WCD10-B05-S07"
+    ],
+    "reason": "R2修订（二轮R1-02）：first_book_edition_year=1974已撤回——若该字段表'首个书版本年'，1972年法译本已出书，1974与之冲突；西语原文版1974仅存bibliographic_note。first_publication_year=1972按'全语种首次出版'语义保留并附boundary；字段口径请Codex正式裁决，若定为'原文语种首版'则原子值改1974并迁移注记。"
+  },
+  "source_candidates": [
+    {
+      "candidate_id": "WCD10-B05-S07",
+      "title": "Octavio Paz – Bibliography",
+      "author_or_editor": "Nobel Prize Outreach / NobelPrize.org",
+      "url": "https://www.nobelprize.org/prizes/literature/1990/paz/bibliography/",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "Works in Spanish 诗歌与散文书目：Libertad bajo palabra Tezontle 1949、¿Águila o sol? 1951、Piedra de sol Tezontle 1957、La estación violenta FCE 1958、Ladera este (1962-1968) Mortiz 1969、El mono gramático Seix Barral 1974等",
+      "usage": "只取目标书目条目年份/出版社；该页未列El laberinto西语原版的既有观察再次确认。复用SRC-0099。",
+      "reuse_existing_source": "SRC-0099"
+    },
+    {
+      "candidate_id": "WCD10-B05-S12",
+      "title": "Octavio Paz – Biographical",
+      "author_or_editor": "Nobel Prize Outreach",
+      "url": "https://www.nobelprize.org/prizes/literature/1990/paz/biographical/",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "自传正文（驻法期间写成The Labyrinth of Solitude、1962驻印大使、印度时期著作especially The Grammarian Monkey and East Slope、1968抗议辞职）与自传书目（El laberinto. Cuadernos Americanos 1950，二版FCE 1959；¿Águila o sol? 1951；Ladera Este (1962-1968) Mortiz 1969；El mono gramático Seix Barral 1974；Libertad bajo palabra FCE 1949）",
+      "usage": "复用SRC-0300（WCD-05曾以Breton/Péret活动范围使用）；本次实读扩展至自传正文与自传书目（印度时期著作、El laberinto条目），不改旧元数据。本R1包内S12仅作W02/W03/W09/W10的年份与印度时期旁证；Laberinto首版社结论已由S23/S12并按ELEM结构化字段定层。",
+      "reuse_existing_source": "SRC-0300"
+    },
+    {
+      "candidate_id": "WCD10-B05-S18",
+      "title": "El mono gramático - Detalle de la obra",
+      "author_or_editor": "Enciclopedia de la Literatura en México / FLM (artículo ELEM)",
+      "url": "https://www.elem.mx/obra/datos/8815",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "结构化字段：PRIMERA EDICIÓN=Barcelona, Seix Barral, 1974；Género=Poesía-Libros individuales；Lengua=原文西班牙语；OTRAS EDICIONES 1996/1999/2014/2016。正文全读：'Le singe grammairien…aparece por vez primera en 1972, traducido al francés por Claude Esteban para la colección Les Sentiers de la Création'；'participa de varios géneros…relato de un viaje a Galta…un ensayo…y un poema en prosa'；'Dos escenarios convergentes —el camino de Galta, en la India, y un jardín de Cambridge—'",
+      "usage": "W03首发年（1972法译先行/1974西语原文版分层）、体裁与对象级描述的唯一已读对象级来源；文内Castañón引文按审计要求不作为第二独立来源。"
+    }
+  ],
+  "source_registration_profiles": [
+    {
+      "candidate_id": "WCD10-B05-S07",
+      "publisher": "Nobel Prize Outreach",
+      "format": "nobel_bibliography_page",
+      "language": "en",
+      "publication_year": "",
+      "notes": "页面底部©Nobel Prize Outreach 2026非网页发表年；只读书目列表。 作品年/版权脚注不作为网页发表年。",
+      "reuse_existing_source": "SRC-0099",
+      "related_existing_source": "SRC-0099",
+      "disposition": "reuse"
+    },
+    {
+      "candidate_id": "WCD10-B05-S12",
+      "publisher": "Nobel Prize Outreach / NobelPrize.org",
+      "format": "institutional_biography",
+      "language": "en",
+      "publication_year": "",
+      "notes": "R1修订（审计R5）：复用SRC-0300且网页发表年未知，publication_year留空；1990为自传撰写年、1991为Les Prix Nobel书系出版年，均不充当页面发表年。旧记录用途为Breton/Péret活动，本次实读范围扩展已声明。 作品年/版权脚注不作为网页发表年。",
+      "reuse_existing_source": "SRC-0300",
+      "related_existing_source": "SRC-0300",
+      "disposition": "reuse"
+    },
+    {
+      "candidate_id": "WCD10-B05-S18",
+      "publisher": "Fundación de las Letras Mexicanas / elem.mx",
+      "format": "encyclopedia_work_article",
+      "language": "es",
+      "publication_year": "",
+      "notes": "R2修订（二轮R1-04）：'C.2014'系ELEM页版次链接行，非文章发表年，按source_year_policy留空；结构化字段与正文为实读范围。 作品年/版权脚注不作为网页发表年。"
+    }
+  ],
+  "source_scope": "S07 and S12 remain active elsewhere and retain existing SRC reuse. S18 is preserved for W03 traceability and is not registered in this migration.",
+  "evidence_context": {
+    "review_reference": "project/internal/WCD_10_WORKSPACE/B05/R2_INDEPENDENT_REVIEW.md, R1-02",
+    "review_finding": "Narrow repair PASS only: first_book_edition_year=1974 was withdrawn. 1974 remains in edition note; 1972 remains a draft value with policy pending. Reviewer did not decide field semantics.",
+    "source": "https://www.elem.mx/obra/datos/8815",
+    "reviewed_at": "Parent report: ELEM 8815 reopened 2026-10-07; no W03 policy decision supplied.",
+    "competing_publication_layers": [
+      {
+        "language": "French translation",
+        "year": "1972",
+        "edition": "Le singe grammairien; Claude Esteban translation; Skira, Les Sentiers de la Création",
+        "status": "documented evidence; not a policy decision"
+      },
+      {
+        "language": "Spanish original",
+        "year": "1974",
+        "edition": "Seix Barral edition",
+        "status": "documented evidence; not a policy decision"
+      }
+    ]
+  },
+  "pre_policy_hashes": {
+    "candidate_directory_files": {
+      "CANDIDATES.json": "09ed0c3e73862c81428837772a3ac9a891a400f52ba84cdb3094febf9d058c17",
+      "COVERAGE.json": "7dc32d40d1b1555b9c228b1f4b1032e583d160a35c0b1fde244370e4ca515936",
+      "DEDUP.json": "58dc0361a3320c8e37d8945285a51ba9c08ab6543eec0076130195d60da15b5d",
+      "EVIDENCE_MATRIX.json": "28cdbc344467f70e3fc11a267a95f7d4929820c2f5fadad3c6f2375db5fa1cbc",
+      "FILES_SHA256.txt": "894e65cce334cdbe9e90a13ebece0b5d6a75ec338f64459129633b0059c6d396",
+      "INPUT_MANIFEST.json": "9b0699b23c64d3663d11107fbbaf174f6d3369f844cd724750cb737e6b8cc9ba",
+      "INVENTORY.md": "8f177614bdba2cc164d195e60e226e0ca8ebb2e3ccdb5635b7d664544d70c745",
+      "ISSUES.md": "a117d47c6e867bec412cf502a53ebdfb2a3f6ade399fe0ee3bcfeaee71394853",
+      "MECHANICAL_CHECK.json": "ccc19d0282e626b32de3a2940a2d17c34326928839ce3db3f8d8815184778285",
+      "README.md": "225b2ff9aa6fc7612063df318035277846d5c43ef724997805cd424cfbfe357b",
+      "REVISION_NOTES.md": "566a5ae103dce4fc13668dc25043b99d990f3c7ee62cf758a766a695159f928a",
+      "SELF_CHECK.json": "d91943386dfa0b1c6bbb05c4efc9a1c347a3c11626b039db4cd7e3822b07a655",
+      "SOURCE_ACCESS_LOG.json": "307e2eb8b9ddbbad72ade155dc3bf6b752d9a7ce90753f155e079a86ae7c91e1",
+      "SOURCE_REGISTRATION.json": "09ccd274d690030e3649dfa9d8da9eff4caa435558ec4451ebb3cca1c6fcf5ab"
+    },
+    "CANDIDATES.json": "09ed0c3e73862c81428837772a3ac9a891a400f52ba84cdb3094febf9d058c17",
+    "COVERAGE.json": "7dc32d40d1b1555b9c228b1f4b1032e583d160a35c0b1fde244370e4ca515936",
+    "SOURCE_REGISTRATION.json": "09ccd274d690030e3649dfa9d8da9eff4caa435558ec4451ebb3cca1c6fcf5ab",
+    "EVIDENCE_MATRIX.json": "28cdbc344467f70e3fc11a267a95f7d4929820c2f5fadad3c6f2375db5fa1cbc"
+  },
+  "pre_policy_frozen_input": "inputs/B05_WITH_F16_PRE_POLICY/",
+  "reentry_condition": "After USER decides field semantics, restore W03 to active candidate/coverage/matrix, update the year only according to that decision, independently review the full object and sources, and include CREATED plus all four facts in a separately reviewed migration before TASK-127 completion."
+}

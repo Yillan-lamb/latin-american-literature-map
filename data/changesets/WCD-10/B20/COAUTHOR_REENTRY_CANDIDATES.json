@@ -1,0 +1,243 @@
+{
+  "schema": "wcd10-coauthor-reentry-candidates-1",
+  "task_id": "TASK-125",
+  "origin_task": "TASK-113",
+  "baseline_sha256": "264385afd29d43f6d160d852a9dc6ad685fa2bd5fa25e3e7d7575168ebb72032",
+  "status": "candidate_only_parent_independent_review_required",
+  "scope": "既有0592 Os sete pecados capitais合编作品缺少Telles 0358共同作者边；独立append附件，不复制对象、不放入普通linked roster，不声称独著或推定篇目。",
+  "entries": [
+    {
+      "candidate_id": "WCD10-B20-R101",
+      "subject_id": "V1-ENT-0358",
+      "object_id": "V1-ENT-0592",
+      "relation_type": "CREATED",
+      "description_zh": "作为《Os sete pecados capitais》的参与作者之一；此CREATED仅表示对集体作品的创作贡献，不表示独著。",
+      "formal_source_refs": [
+        "SRC-0638",
+        "SRC-0271"
+      ],
+      "locator_evidence": [
+        {
+          "formal_source_id": "SRC-0638",
+          "url": "https://sgpa.webhostusp.sti.usp.br/obra.php?cod=1165&s=grosa",
+          "locator": "USP页面第24–26行列出Os sete pecados capitais及作者名单，含Lygia Fagundes Telles；该页面只在具体篇目处展示Rosa的篇名，不据此推定Telles篇目；实读2026-10-14。",
+          "supports": "Telles作为该合编作品七位作者之一。"
+        },
+        {
+          "formal_source_id": "SRC-0271",
+          "url": "https://www.academia.org.br/academicos/lygia-fagundes-telles/bibliografia",
+          "locator": "ABL书目页第112–114行：“Gaby (novela). In: ... Os Sete Pecados Capitais ... 1964, pp. 241-68.”；实读2026-10-14。",
+          "supports": "Telles参与作品中的篇目Gaby及书目页码。"
+        }
+      ],
+      "expected_absent": {
+        "checked_against": "B20 frozen SQLite B20_BASELINE.sqlite",
+        "baseline_sha256": "264385afd29d43f6d160d852a9dc6ad685fa2bd5fa25e3e7d7575168ebb72032",
+        "edge_absent": true,
+        "existing_rosa_edge": "V1-REL-0561"
+      },
+      "old_complete_object_closure": {
+        "owner_author_id": "V1-ENT-0212",
+        "owner_name": "João Guimarães Rosa",
+        "inventory_snapshot": {
+          "entity": {
+            "entity_id": "V1-ENT-0592",
+            "entity_type": "collection",
+            "name_zh": "《七宗罪》",
+            "original_name": "Os sete pecados capitais",
+            "canonical_status": "candidate",
+            "origin_count": "1",
+            "origin_refs": "WCD10-B08-W208",
+            "normalization_basis": "ABL列为合作作品；USP题录确认七位作者、Rosa合作者身份和具体篇目。; 中文为工作显示译名；保留原文题名作为身份锚点，不主张已有正式中译本。",
+            "issue_codes": "PROVISIONAL-ZH-DISPLAY"
+          },
+          "facts": [
+            {
+              "fact_id": "V1-FCT-1838",
+              "origin_material_id": "WCD10-B08-W208-F01",
+              "card_id": "V1-CARD-0525",
+              "subject_id": "V1-ENT-0592",
+              "fact_field": "first_publication_year",
+              "value_text": "1964",
+              "material_class": "bibliographic",
+              "origin_id": "WCD-10-B08",
+              "confidence": "high",
+              "admission_status": "batch_retained_candidate",
+              "usage_note": "Research-only; independent candidate review PASS; no public admission"
+            },
+            {
+              "fact_id": "V1-FCT-1839",
+              "origin_material_id": "WCD10-B08-W208-F02",
+              "card_id": "V1-CARD-0525",
+              "subject_id": "V1-ENT-0592",
+              "fact_field": "genre_or_form",
+              "value_text": "collective short_story_collection",
+              "material_class": "bibliographic",
+              "origin_id": "WCD-10-B08",
+              "confidence": "high",
+              "admission_status": "batch_retained_candidate",
+              "usage_note": "Research-only; independent candidate review PASS; no public admission"
+            },
+            {
+              "fact_id": "V1-FCT-1840",
+              "origin_material_id": "WCD10-B08-W208-F03",
+              "card_id": "V1-CARD-0525",
+              "subject_id": "V1-ENT-0592",
+              "fact_field": "one_sentence_summary",
+              "value_text": "七位作者的合作故事集；USP目录确认若昂·吉马朗埃斯·罗萨为合作者之一，并记载其篇目“Os chapéus transeuntes”位于本书第1–36页。",
+              "material_class": "institutional_paraphrase",
+              "origin_id": "WCD-10-B08",
+              "confidence": "high",
+              "admission_status": "batch_retained_candidate",
+              "usage_note": "Research-only; independent candidate review PASS; no public admission"
+            }
+          ],
+          "fact_sources": [
+            {
+              "fact_id": "V1-FCT-1838",
+              "source_id": "SRC-0638",
+              "source_title": "Os sete pecados capitais | Banco de Dados Bibliográfico João Guimarães Rosa"
+            },
+            {
+              "fact_id": "V1-FCT-1839",
+              "source_id": "SRC-0638",
+              "source_title": "Os sete pecados capitais | Banco de Dados Bibliográfico João Guimarães Rosa"
+            },
+            {
+              "fact_id": "V1-FCT-1840",
+              "source_id": "SRC-0638",
+              "source_title": "Os sete pecados capitais | Banco de Dados Bibliográfico João Guimarães Rosa"
+            }
+          ],
+          "card_facts": [
+            {
+              "card_id": "V1-CARD-0525",
+              "fact_id": "V1-FCT-1838",
+              "admission_status": "batch_retained_candidate"
+            },
+            {
+              "card_id": "V1-CARD-0525",
+              "fact_id": "V1-FCT-1839",
+              "admission_status": "batch_retained_candidate"
+            },
+            {
+              "card_id": "V1-CARD-0525",
+              "fact_id": "V1-FCT-1840",
+              "admission_status": "batch_retained_candidate"
+            }
+          ],
+          "cards": [
+            {
+              "card_id": "V1-CARD-0525",
+              "origin_card_id": "WCD-10-B08:V1-ENT-0592",
+              "subject_id": "V1-ENT-0592",
+              "card_type": "collection",
+              "title_zh": "《七宗罪》",
+              "author_label": "若昂·吉马朗埃斯·罗萨",
+              "original_title": "Os sete pecados capitais",
+              "country_or_region": "巴西",
+              "language": "pt",
+              "period_bucket": "1964",
+              "genre_or_form": "collective short_story_collection",
+              "input_layer": "WCD-10-B08",
+              "source_minimum_status": "research_gap",
+              "issue_code": "RESEARCH-ONLY-NOT-CURATED",
+              "content_markdown": "### 《七宗罪》｜Os sete pecados capitais\n\n- 对象类型：collection\n- 研究边界：本补充卡仅保存下列已复核事实和有归属的研究说明，不是策展批准。\n- first_publication_year：1964\n- genre_or_form：collective short_story_collection\n- one_sentence_summary：七位作者的合作故事集；USP目录确认若昂·吉马朗埃斯·罗萨为合作者之一，并记载其篇目“Os chapéus transeuntes”位于本书第1–36页。\n\n#### 未关闭的研究边界\n\n本卡不升级任何既有 hold；未核实的文学解释或作品级学术研究保持 research_gap。"
+            }
+          ],
+          "card_sources": [
+            {
+              "card_source_id": "V1-CS-1151",
+              "origin_matrix_id": "WCD10-B08-S207",
+              "card_id": "V1-CARD-0525",
+              "source_id": "SRC-0638",
+              "source_level": "B",
+              "source_role": "bibliography_or_bounded_description",
+              "bibliographic_support": "yes",
+              "research_support": "no",
+              "independent_source_key": "SRC-0638",
+              "usage_status": "accepted",
+              "issue_code": "NONE"
+            }
+          ],
+          "relations": [
+            {
+              "relationship_id": "V1-REL-0561",
+              "origin_layer": "WCD-10-B08",
+              "origin_relation_group_id": "WCD10-B08-W208-CREATED",
+              "subject_id": "V1-ENT-0212",
+              "relation_type": "CREATED",
+              "object_id": "V1-ENT-0592",
+              "description_zh": "作为合著者之一参与该合编故事集；可核实的具体贡献为篇目“Os chapéus transeuntes”（第1–36页）。本关系不表示该书为Rosa独著。",
+              "confidence": "high",
+              "review_status": "accepted",
+              "upstream_review_status": "Codex-parent-independent-review:PASS",
+              "evidence_count": "1",
+              "issue_code": "NONE"
+            }
+          ],
+          "relationship_sources": [
+            {
+              "relationship_id": "V1-REL-0561",
+              "source_id": "SRC-0638"
+            }
+          ],
+          "relationship_evidence": [
+            {
+              "evidence_id": "V1-EV-0846",
+              "relationship_id": "V1-REL-0561",
+              "origin_evidence_id": "WCD10-B08-S207",
+              "source_id": "SRC-0638",
+              "source_title": "Os sete pecados capitais | Banco de Dados Bibliográfico João Guimarães Rosa",
+              "locator": "L22–40题名、七位作者、Rosa标注co-autor，目录列其篇名Os chapéus transeuntes并标首版1964，p.1–36。",
+              "evidence_note": "作为合著者之一参与该合编故事集；可核实的具体贡献为篇目“Os chapéus transeuntes”（第1–36页）。本关系不表示该书为Rosa独著。",
+              "confidence": "high",
+              "evidence_status": "eligible_evidence",
+              "evidence_origin": "WCD-10-B08"
+            }
+          ],
+          "sources": [
+            {
+              "source_id": "SRC-0638",
+              "temporary_id": "WCD10-B08-S207",
+              "title": "Os sete pecados capitais | Banco de Dados Bibliográfico João Guimarães Rosa",
+              "original_title": "Os sete pecados capitais | Banco de Dados Bibliográfico João Guimarães Rosa",
+              "author_or_editor": "Universidade de São Paulo",
+              "translator": "",
+              "publisher": "Universidade de São Paulo",
+              "publication_year": "",
+              "isbn": "",
+              "format": "web_page",
+              "page_count": "",
+              "language": "pt",
+              "source_level": "B",
+              "processing_status": "access_pass",
+              "source_task": "WCD-10-B08",
+              "public_content_scope": "Merged research candidate only; no Curation admission or public release.",
+              "local_asset_status": "remote_only",
+              "persistent_id": "",
+              "canonical_url": "https://sgpa.webhostusp.sti.usp.br/obra.php?cod=1165&s=grosa"
+            }
+          ],
+          "source_holds": [],
+          "relation_holds": [],
+          "relation_hold_evidence": [],
+          "gaps": [
+            {
+              "gap_id": "V1-GAP-0356",
+              "origin_gap_id": "WCD-10-B08:WCD10-B08-W208",
+              "gap_type": "research_gap",
+              "gap_key": "WCD10:work_level_research:V1-ENT-0592",
+              "current_status": "open",
+              "evidence_basis": "Independent parent review pending.",
+              "attempts_or_count": "not_claimed_exhaustive",
+              "owner_decision": "CODEX-REVIEW: preserve object-level scholarly gap; bibliography/description only",
+              "downstream_effect": "No inferred literary interpretation or public scope expansion.",
+              "issue_code": "WCD10-WORK-RESEARCH-GAP"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

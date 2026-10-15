@@ -1,0 +1,1211 @@
+{
+  "schema": "wcd10-candidate-change-set-1",
+  "task_id": "TASK-123",
+  "batch_id": "WCD-10-B18",
+  "baseline_commit": "05f3372c69a54ec331d31b05d16c8288d6d3a993",
+  "baseline_database_sha256": "1bc4695f6c77cad166b5229572f73490006b9e4392379e0017f799049e5aceb0",
+  "status": "candidate_frozen_parent_review_pending",
+  "author_ids": [
+    "V1-ENT-0322",
+    "V1-ENT-0332",
+    "V1-ENT-0333"
+  ],
+  "accessed_at": "2026-10-14",
+  "public_boundary": "Research候选；未经独立审核及后续Curation准入，不自动进入公开层。",
+  "source_scope_decisions": [
+    {
+      "decision": "reuse_existing_source",
+      "candidate_source_id": "WCD10-B18-S003",
+      "reuse_existing_source": "SRC-0253",
+      "url": "https://unamglobal.unam.mx/global_revista/conversacion-sobre-sor-juana-ines-de-la-cruz-en-vindictas/",
+      "candidate_ids": [
+        "WCD10-B18-W003",
+        "WCD10-B18-W003-F01",
+        "WCD10-B18-W003-F02",
+        "WCD10-B18-W003-F03",
+        "WCD10-B18-F001",
+        "WCD10-B18-F002",
+        "WCD10-B18-F003"
+      ],
+      "boundary": "规范化URL与冻结B18来源SRC-0253相同；沿用现有等级B及完整元数据，不新建来源、不升格。"
+    },
+    {
+      "decision": "reuse_existing_source",
+      "candidate_source_id": "WCD10-B18-S101",
+      "reuse_existing_source": "SRC-0254",
+      "url": "https://www.ccincagarcilaso.gob.pe/la-palabra-escrita/julio-ramon-ribeyro/",
+      "candidate_ids": [
+        "WCD10-B18-S101",
+        "WCD10-B18-W101",
+        "WCD10-B18-W102",
+        "WCD10-B18-W103",
+        "WCD10-B18-W104",
+        "WCD10-B18-W105",
+        "WCD10-B18-F101",
+        "WCD10-B18-F102",
+        "WCD10-B18-F103",
+        "WCD10-B18-F104",
+        "WCD10-B18-F105",
+        "WCD10-B18-F106",
+        "WCD10-B18-F107",
+        "WCD10-B18-F108",
+        "WCD10-B18-F109",
+        "WCD10-B18-F110",
+        "WCD10-B18-F111",
+        "WCD10-B18-F112",
+        "WCD10-B18-F113",
+        "WCD10-B18-F114",
+        "WCD10-B18-F115",
+        "WCD10-B18-F116"
+      ],
+      "boundary": "冻结库SRC-0254与此URL一致；页面重新实际打开。仅候选引用SRC-0254，不改正式源元数据、source_level或已有来源链。"
+    },
+    {
+      "candidate_source_id": "WCD10-B18-S201",
+      "url": "https://www.argentina.gob.ar/noticias/juan-jose-saer-un-narrador-en-busca-de-poesia",
+      "disposition": "reuse_existing_source",
+      "reuse_existing_source": "SRC-0256",
+      "candidate_ids": [
+        "WCD10-B18-W201",
+        "WCD10-B18-W202",
+        "WCD10-B18-W203",
+        "WCD10-B18-W204",
+        "WCD10-B18-W205",
+        "WCD10-B18-W206",
+        "WCD10-B18-W207",
+        "WCD10-B18-W208",
+        "WCD10-B18-W209",
+        "WCD10-B18-W210",
+        "WCD10-B18-W211",
+        "WCD10-B18-W212",
+        "WCD10-B18-W213",
+        "WCD10-B18-F201",
+        "WCD10-B18-F202",
+        "WCD10-B18-F203",
+        "WCD10-B18-F204",
+        "WCD10-B18-F205",
+        "WCD10-B18-F206",
+        "WCD10-B18-F207",
+        "WCD10-B18-F208",
+        "WCD10-B18-F209",
+        "WCD10-B18-F210",
+        "WCD10-B18-F211",
+        "WCD10-B18-F212",
+        "WCD10-B18-F213",
+        "WCD10-B18-F214",
+        "WCD10-B18-F215",
+        "WCD10-B18-F216",
+        "WCD10-B18-F217",
+        "WCD10-B18-F218",
+        "WCD10-B18-F219",
+        "WCD10-B18-F220",
+        "WCD10-B18-F221",
+        "WCD10-B18-F222",
+        "WCD10-B18-F223",
+        "WCD10-B18-F224",
+        "WCD10-B18-F225",
+        "WCD10-B18-F226",
+        "WCD10-B18-F227",
+        "WCD10-B18-F228",
+        "WCD10-B18-F229",
+        "WCD10-B18-F230",
+        "WCD10-B18-F231",
+        "WCD10-B18-F232",
+        "WCD10-B18-F233",
+        "WCD10-B18-F234",
+        "WCD10-B18-F235",
+        "WCD10-B18-F236",
+        "WCD10-B18-F237",
+        "WCD10-B18-F238",
+        "WCD10-B18-F239"
+      ],
+      "boundary": "规范URL与冻结来源SRC-0256一致；整行复用既有来源元数据，不新增或改写source对象。"
+    }
+  ],
+  "sources": [
+    {
+      "candidate_id": "WCD10-B18-S001",
+      "url": "https://www.cervantesvirtual.com/portales/sor_juana_ines_de_la_cruz/obra/los-empenos-de-una-casa-923734/",
+      "title": "Los empeños de una casa / Sor Juana Inés de la Cruz",
+      "original_title": "Los empeños de una casa / Sor Juana Inés de la Cruz",
+      "author_or_editor": "Biblioteca Virtual Miguel de Cervantes",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "实读2026-10-14：第65–91行的电子书书目记录列出作品题名和Sor Juana作者、数字电子书出版年2022、1992年重印底本出处、剧场主题标目/戏剧分类号，并给出托莱多场景、人物及误会情节摘要。",
+      "usage": "支持作品题名和Sor Juana作者归属、戏剧类别、简短情节摘要及所用数字文本的重印底本注记；来源未给原作首刊/首演年份，故不填写原子年份。",
+      "disposition": "fresh_registration",
+      "candidate_ids": [
+        "WCD10-B18-W001",
+        "WCD10-B18-W001-F01",
+        "WCD10-B18-W001-F02",
+        "WCD10-B18-W001-F03"
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B18-S002",
+      "url": "https://sibila.iib.unam.mx/index.php/Detail/Object/Show/object_id/1077",
+      "title": "Inundación castálida de la única poetisa, musa décima, sóror Juana Inés de la Cruz",
+      "original_title": "Inundación castálida de la única poetisa, musa décima, sóror Juana Inés de la Cruz",
+      "author_or_editor": "Sor Juana Inés de la Cruz",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "实读2026-10-14：第19–24行著录该对象为古籍专著，列作者、完整题名、马德里Juan García Infanzón 1689印记及328页；第25–121行展示具体作品及体裁目录，包括sonetos、romances、redondillas、loas和ovillejos。",
+      "usage": "支持诗集对象的身份、作者、1689年版本、诗集类型和受限的目录内容描述；不从目录推导未列篇目或文学影响。",
+      "disposition": "fresh_registration",
+      "candidate_ids": [
+        "WCD10-B18-W002",
+        "WCD10-B18-W002-F01",
+        "WCD10-B18-W002-F02",
+        "WCD10-B18-W002-F03",
+        "WCD10-B18-W002-F04"
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B18-S003",
+      "url": "https://unamglobal.unam.mx/global_revista/conversacion-sobre-sor-juana-ines-de-la-cruz-en-vindictas/",
+      "title": "Conversación sobre Sor Juana Inés de la Cruz, en Vindictas",
+      "original_title": "Conversación sobre Sor Juana Inés de la Cruz, en Vindictas",
+      "author_or_editor": "Isabel Revuelta Poo",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "实读2026-10-14：第32–34行。第32行记《Los empeños de una casa》于1683年在墨西哥城演出、《Inundación Castálida》于1689年在马德里出版；第33行明确《Amor es más laberinto》为Sor Juana与Juan de Guevara合作创作、1689年首演；第34行记Carta Atenagórica于1690年写作、回应Vieyra于1650年所作布道，并与Respuesta的书信回应关系。",
+      "usage": "仅支持来源明确陈述的作品书目/合作、首演和写作背景；1690是Carta Atenagórica写作年份，不表述为首刊年份；不把讲述扩展为文学影响判断。",
+      "disposition": "reuse",
+      "reuse_existing_source": "SRC-0253",
+      "candidate_ids": [
+        "WCD10-B18-W003",
+        "WCD10-B18-W003-F01",
+        "WCD10-B18-W003-F02",
+        "WCD10-B18-W003-F03",
+        "WCD10-B18-F001",
+        "WCD10-B18-F002",
+        "WCD10-B18-F003"
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B18-S101",
+      "url": "https://www.ccincagarcilaso.gob.pe/la-palabra-escrita/julio-ramon-ribeyro/",
+      "title": "Julio Ramón Ribeyro",
+      "author_or_editor": "Centro Cultural Inca Garcilaso del Ministerio de Relaciones Exteriores",
+      "publisher": "Ministerio de Relaciones Exteriores del Perú",
+      "source_level": "B",
+      "format": "web_page",
+      "language": "es",
+      "reuse_existing_source": "SRC-0254",
+      "locator": "实际打开外交部文化中心页面：正文第15–16行及出版书目段落第127–145行。第127–132行列Crónica de San Gabriel、Ediciones Tawantinsuyo、1960，并概述少年Lucho进入内陆庄园生活；第134–138行列Los geniecillos dominicales，书目为Lima, Populibros Peruanos, 1965，概述Ludo Totem在利马与不同社会人物交往；作者生平第16行称其1964年发表该小说，形成同页年份冲突；第139–145行列Cambio de guardia，Milla Batres, 1976，并概述政变后的权力更迭及个人遭际。实读2026-10-14。 实际打开外交部文化中心页面：第90–99行列La tentación del fracaso日记各卷，第一、二卷分别于1992、1993年出版，第三卷1995年身后出版；另列Seix Barral 2003年合版。第110–114行列Prosas apátridas，Tusquets 1975初版89篇，1978扩至150篇，1986定本200篇，并说明内容介于格言、哲学随笔和日记。实读2026-10-14。",
+      "usage": "复用冻结库SRC-0254同规范化URL的外交部文化中心作者页面；重新实际打开。保留既有正式来源元数据和B级，不升格。直接支撑三部作品的作者归属、体裁、所列版本年份，以及以下限缩释义。 同页第90–99、110–114行还直接支持La tentación del fracaso的多卷出版序列/2003合版，以及Prosas apátridas的1975/1978/1986版本递进和文体范围。",
+      "disposition": "reuse",
+      "access_status": "OPENED"
+    },
+    {
+      "candidate_id": "WCD10-B18-S201",
+      "url": "https://www.argentina.gob.ar/noticias/juan-jose-saer-un-narrador-en-busca-de-poesia",
+      "title": "Juan José Saer: un narrador en busca de poesía",
+      "original_title": "Juan José Saer: un narrador en busca de poesía",
+      "author_or_editor": "Secretaría de Cultura, Presidencia de la Nación Argentina",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "实读2026-10-14，Argentina.gob.ar正文第24–25行说明《En la zona》1960年出版、由14篇短篇构成并点出末篇“Algo se aproxima”；第32–33行列出短篇集Palo y hueso（1965）、Unidad de lugar（1967）、La mayor（1976）、Lugar（2000），诗歌汇编El arte de narrar: poemas 1960/1975（1977），小说Responso（1963）、Cicatrices（1969）、El limonero real（1974）、Nada nunca nada（1980）、El entenado（1983）、Glosa（1986）及散文集El río sin orillas: tratado imaginario（1991）、El concepto de ficción（1997）、La narración-objeto（1999）；第42行明确《La ocasión》获1987年Nadal奖，未据此推断首版年份。",
+      "usage": "支持Saer作品书目及页面明示书目年份；W209标题异文“Nada nunca nada”只作政府书目记录，与出版社正式题名并列；不将其错题作为规范题名。",
+      "disposition": "reuse",
+      "reuse_existing_source": "SRC-0256",
+      "candidate_ids": [
+        "WCD10-B18-W201",
+        "WCD10-B18-W202",
+        "WCD10-B18-W203",
+        "WCD10-B18-W204",
+        "WCD10-B18-W205",
+        "WCD10-B18-W206",
+        "WCD10-B18-W207",
+        "WCD10-B18-W208",
+        "WCD10-B18-W209",
+        "WCD10-B18-W210",
+        "WCD10-B18-W211",
+        "WCD10-B18-W212",
+        "WCD10-B18-W213",
+        "WCD10-B18-F201",
+        "WCD10-B18-F202",
+        "WCD10-B18-F203",
+        "WCD10-B18-F204",
+        "WCD10-B18-F205",
+        "WCD10-B18-F206",
+        "WCD10-B18-F207",
+        "WCD10-B18-F208",
+        "WCD10-B18-F209",
+        "WCD10-B18-F210",
+        "WCD10-B18-F211",
+        "WCD10-B18-F212",
+        "WCD10-B18-F213",
+        "WCD10-B18-F214",
+        "WCD10-B18-F215",
+        "WCD10-B18-F216",
+        "WCD10-B18-F217",
+        "WCD10-B18-F218",
+        "WCD10-B18-F219",
+        "WCD10-B18-F220",
+        "WCD10-B18-F221",
+        "WCD10-B18-F222",
+        "WCD10-B18-F223",
+        "WCD10-B18-F224",
+        "WCD10-B18-F225",
+        "WCD10-B18-F226",
+        "WCD10-B18-F227",
+        "WCD10-B18-F228",
+        "WCD10-B18-F229",
+        "WCD10-B18-F230",
+        "WCD10-B18-F231",
+        "WCD10-B18-F232",
+        "WCD10-B18-F233",
+        "WCD10-B18-F234",
+        "WCD10-B18-F235",
+        "WCD10-B18-F236",
+        "WCD10-B18-F237",
+        "WCD10-B18-F238",
+        "WCD10-B18-F239"
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B18-S202",
+      "url": "https://oceano.mx/obras/el-concepto-de-ficcion-juan-jose-saer-22874.aspx",
+      "title": "El concepto de ficción — Juan José Saer",
+      "original_title": "El concepto de ficción",
+      "author_or_editor": "Editorial Océano",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "2026-10-14实读Editorial Océano页面第37–39行：书籍说明围绕小说写作、虚构与文学思考，并明确说该书汇集多篇随笔（varios ensayos）；第49行的2016为所示版本信息，本包不据此推断首版年。",
+      "usage": "校正W211的文集层级、随笔集体裁及围绕虚构写作/文学的概括；该版日期不用于首版年份。",
+      "disposition": "new_source",
+      "candidate_ids": [
+        "WCD10-B18-W211",
+        "WCD10-B18-F231",
+        "WCD10-B18-F233"
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B18-S203",
+      "url": "https://fh.mdp.edu.ar/revistas/index.php/celehis/article/download/3109/3021",
+      "title": "Platicar cuesta. Juan Rulfo: una moral de la escritura",
+      "original_title": "Platicar cuesta. Juan Rulfo: una moral de la escritura",
+      "author_or_editor": "Celina Manzoni; CeLeHis–Revista del Centro de Letras Hispanoamericanas, Universidad Nacional de Mar del Plata",
+      "source_level": "A",
+      "access_status": "OPENED",
+      "locator": "2026-10-14实读CeLeHis–Revista del Centro de Letras Hispanoamericanas论文PDF零起算第5页（第6页/印页81），正文第256–257行：Celina Manzoni明确称《La narración-objeto》（1999）汇集Saer的讲演、序言及评论性介入；支持作品层级为文集，不把同题单篇作为独立候选。期刊出版信息见PDF第0页第1–8行（2018，76–85页）。",
+      "usage": "确认W212指书名《La narración-objeto》所代表的文集层级；不建立其中任何同题单篇对象。",
+      "disposition": "new_source",
+      "candidate_ids": [
+        "WCD10-B18-W212",
+        "WCD10-B18-F234",
+        "WCD10-B18-F236"
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B18-S204",
+      "url": "https://www.rayoverde.es/catalogo/nadie-nada-nunca/",
+      "title": "Nadie nada nunca — Juan José Saer",
+      "original_title": "Nadie nada nunca",
+      "author_or_editor": "Editorial Rayo Verde",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "2026-10-14实读Rayo Verde出版社《Nadie nada nunca》页面第31–35行：标题、作者及novela体裁；页面简介称故事发生于河边炎热夏日，围绕一连串马匹被杀展开。页面第12行的2014为该版年份，不作为首版年。",
+      "usage": "校正W209题名，支持novela体裁与有限情节简介，并记录2014为该版年份、不是首版年；与Argentina.gob.ar的标题/年份书目项并列留注。",
+      "disposition": "new_source",
+      "candidate_ids": [
+        "WCD10-B18-W209",
+        "WCD10-B18-F225",
+        "WCD10-B18-F226",
+        "WCD10-B18-F227"
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B18-S205",
+      "url": "https://www.rayoverde.es/catalogo/el-entenado/",
+      "title": "El entenado — Juan José Saer",
+      "original_title": "El entenado",
+      "author_or_editor": "Editorial Rayo Verde",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "2026-10-14实读Rayo Verde出版社《El entenado》页面第33–36行：作者及novela体裁；页面说明16世纪西班牙探险队船上少年随队抵达拉普拉塔河区域，被Colastinés族捕获并收养。页面第12行的2013为该版年份，不改变既有1983书目事实。",
+      "usage": "给既有W0339补充简短情节简介；明确出版社所示2013版年份不覆盖已有1983首版事实。",
+      "disposition": "new_source",
+      "candidate_ids": [
+        "WCD10-B18-F240",
+        "V1-ENT-0339"
+      ]
+    }
+  ],
+  "new_entities": [
+    {
+      "candidate_id": "WCD10-B18-W001",
+      "author_id": "V1-ENT-0322",
+      "entity_type": "work",
+      "original_name": "Los empeños de una casa",
+      "name_zh_candidate": "《一所房子的纠葛》",
+      "name_policy": "中文为检索工作译名，西班牙语原题是身份锚点；不声称存在正式中文译本。",
+      "rationale": "Biblioteca Virtual Miguel de Cervantes的Sor Juana作品目录及作品记录直接给出题名、作者、戏剧分类，并提供情节摘要；原作年份未由该记录确认，留空。",
+      "created_source_refs": [
+        "WCD10-B18-S001"
+      ],
+      "facts": [
+        {
+          "field": "genre_or_form",
+          "value": "戏剧",
+          "source_refs": [
+            "WCD10-B18-S001"
+          ],
+          "fact_candidate_id": "WCD10-B18-W001-F01"
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "一连串爱情与婚姻安排在托莱多交错展开：安娜、佩德罗、胡安、卡洛斯与莱奥诺尔的追求和逃离计划引发多重误会。",
+          "source_refs": [
+            "WCD10-B18-S001"
+          ],
+          "fact_candidate_id": "WCD10-B18-W001-F02"
+        },
+        {
+          "field": "bibliographic_note",
+          "value": "Biblioteca Virtual Miguel de Cervantes的电子文本记录作者为Sor Juana Inés de la Cruz，并注明其重印底本为Dolores Bravo编《Teatro mexicano: historia y crítica》（1992），第71–116页；该记录没有给出原作首演或首刊年份。",
+          "source_refs": [
+            "WCD10-B18-S001"
+          ],
+          "fact_candidate_id": "WCD10-B18-W001-F03"
+        }
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B18-W002",
+      "author_id": "V1-ENT-0322",
+      "entity_type": "collection",
+      "original_name": "Inundación castálida",
+      "name_zh_candidate": "《卡斯塔利亚泉涌》",
+      "name_policy": "中文为检索工作译名，原文题名是身份锚点；不声称存在正式中文译本。",
+      "rationale": "UNAM SIBILA古籍目录直接著录作者、完整题名、1689年印记和篇目目录；对象为包含多种诗体的作品集。",
+      "created_source_refs": [
+        "WCD10-B18-S002"
+      ],
+      "facts": [
+        {
+          "field": "genre_or_form",
+          "value": "诗集",
+          "source_refs": [
+            "WCD10-B18-S002"
+          ],
+          "fact_candidate_id": "WCD10-B18-W002-F01"
+        },
+        {
+          "field": "first_publication_year",
+          "value": "1689",
+          "source_refs": [
+            "WCD10-B18-S002"
+          ],
+          "fact_candidate_id": "WCD10-B18-W002-F02"
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "这部诗集汇集多种诗体作品，包括十四行诗、罗曼诗、十行诗与节庆颂歌；UNAM目录逐篇列出原版篇目及页码。",
+          "source_refs": [
+            "WCD10-B18-S002"
+          ],
+          "fact_candidate_id": "WCD10-B18-W002-F03"
+        },
+        {
+          "field": "bibliographic_note",
+          "value": "UNAM SIBILA将该书著录为索尔·胡安娜的古籍专著，原版印记为马德里 Juan García Infanzón，1689；目录记载328页并列有具体篇目。",
+          "source_refs": [
+            "WCD10-B18-S002"
+          ],
+          "fact_candidate_id": "WCD10-B18-W002-F04"
+        }
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B18-W003",
+      "author_id": "V1-ENT-0322",
+      "entity_type": "work",
+      "original_name": "Carta Atenagórica",
+      "name_zh_candidate": "《阿特纳戈里卡书信》",
+      "name_policy": "中文为检索工作译名，西班牙语原题为身份锚点；不声称存在正式中文译本。",
+      "rationale": "复用UNAM Global既有机构来源SRC-0253。来源称该文又名La crisis de un sermón，记载其于1690年写作，并直接说明它回应Antonio Vieyra于1650年所作布道；年份作为写作年代记入书目注记，不填首刊年。",
+      "created_source_refs": [
+        "WCD10-B18-S003"
+      ],
+      "facts": [
+        {
+          "field": "genre_or_form",
+          "value": "书信/神学论辩散文",
+          "source_refs": [
+            "WCD10-B18-S003"
+          ],
+          "fact_candidate_id": "WCD10-B18-W003-F01"
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "Sor Juana在文中对Antonio Vieyra关于1650年布道的论述作神学回应；该文随后引发她与自称Sor Filotea的主教之间的书信往来。",
+          "source_refs": [
+            "WCD10-B18-S003"
+          ],
+          "fact_candidate_id": "WCD10-B18-W003-F02"
+        },
+        {
+          "field": "bibliographic_note",
+          "value": "UNAM Global记载Carta Atenagórica（又称La crisis de un sermón）写于1690年；此处为写作年份，不作为首刊年份。",
+          "source_refs": [
+            "WCD10-B18-S003"
+          ],
+          "fact_candidate_id": "WCD10-B18-W003-F03"
+        }
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B18-W101",
+      "author_id": "V1-ENT-0332",
+      "entity_type": "work",
+      "original_name": "Crónica de San Gabriel",
+      "name_zh_candidate": "《圣加夫列尔纪事》（暂译）",
+      "name_policy": "中文题名仅作检索用暂译，西班牙语原题为作品身份锚点，不表示存在正式中文译本。",
+      "rationale": "外交部文化中心作者专题直接列出作品、体裁/版本信息或作品内容。本候选只提出普通书目与有界释义，不声称全集或学术覆盖。",
+      "created_source_refs": [
+        "WCD10-B18-S101"
+      ],
+      "facts": [
+        {
+          "field": "genre_or_form",
+          "value": "小说",
+          "source_refs": [
+            "WCD10-B18-S101"
+          ],
+          "fact_candidate_id": "WCD10-B18-F101"
+        },
+        {
+          "field": "first_publication_year",
+          "value": "1960",
+          "source_refs": [
+            "WCD10-B18-S101"
+          ],
+          "fact_candidate_id": "WCD10-B18-F102"
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "外交部文化中心作品页将故事置于秘鲁内陆的圣加夫列尔庄园，描述一名在首都长大的少年因家庭原因来到庄园后所经历的人际冲突。",
+          "source_refs": [
+            "WCD10-B18-S101"
+          ],
+          "fact_candidate_id": "WCD10-B18-F103"
+        }
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B18-W102",
+      "author_id": "V1-ENT-0332",
+      "entity_type": "work",
+      "original_name": "Los geniecillos dominicales",
+      "name_zh_candidate": "《星期日的小精灵们》（暂译）",
+      "name_policy": "中文题名仅作检索用暂译，西班牙语原题为作品身份锚点，不表示存在正式中文译本。",
+      "rationale": "外交部文化中心作者专题直接列出作品、体裁/版本信息或作品内容。本候选只提出普通书目与有界释义，不声称全集或学术覆盖。",
+      "created_source_refs": [
+        "WCD10-B18-S101"
+      ],
+      "facts": [
+        {
+          "field": "genre_or_form",
+          "value": "小说",
+          "source_refs": [
+            "WCD10-B18-S101"
+          ],
+          "fact_candidate_id": "WCD10-B18-F104"
+        },
+        {
+          "field": "bibliographic_note",
+          "value": "外交部文化中心作者简介第16行称本书于1964年发表；同页出版书目第134–138行列出Populibros Peruanos, Lima, 1965。由于同一页面存在年份口径冲突，本候选不填原子首发年份，保留两处来源表述供独立复核。",
+          "source_refs": [
+            "WCD10-B18-S101"
+          ],
+          "fact_candidate_id": "WCD10-B18-F105"
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "外交部文化中心作品页介绍主人公Ludo Totem在利马社会中经历一连串交往与处境变化，并将其置于家庭、职业及文学圈人物之间。",
+          "source_refs": [
+            "WCD10-B18-S101"
+          ],
+          "fact_candidate_id": "WCD10-B18-F106"
+        }
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B18-W103",
+      "author_id": "V1-ENT-0332",
+      "entity_type": "work",
+      "original_name": "Cambio de guardia",
+      "name_zh_candidate": "《换岗》（暂译）",
+      "name_policy": "中文题名仅作检索用暂译，西班牙语原题为作品身份锚点，不表示存在正式中文译本。",
+      "rationale": "外交部文化中心作者专题直接列出作品、体裁/版本信息或作品内容。本候选只提出普通书目与有界释义，不声称全集或学术覆盖。",
+      "created_source_refs": [
+        "WCD10-B18-S101"
+      ],
+      "facts": [
+        {
+          "field": "genre_or_form",
+          "value": "小说",
+          "source_refs": [
+            "WCD10-B18-S101"
+          ],
+          "fact_candidate_id": "WCD10-B18-F107"
+        },
+        {
+          "field": "first_publication_year",
+          "value": "1976",
+          "source_refs": [
+            "WCD10-B18-S101"
+          ],
+          "fact_candidate_id": "WCD10-B18-F108"
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "外交部文化中心作品页将故事写作权力政变后，政治变动如何牵连普通人的生活；情节涉及一名糖果小贩被卷入权力人物之间的阴谋。",
+          "source_refs": [
+            "WCD10-B18-S101"
+          ],
+          "fact_candidate_id": "WCD10-B18-F109"
+        }
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B18-W104",
+      "author_id": "V1-ENT-0332",
+      "entity_type": "collection",
+      "original_name": "Prosas apátridas",
+      "name_zh_candidate": "《无国籍散文》（暂译）",
+      "name_policy": "中文题名仅作检索用暂译，西班牙语原题为作品身份锚点，不表示存在正式中文译本。",
+      "rationale": "外交部文化中心作者专题直接列出版本书目及作品文本特征。本候选只提出普通书目与有界释义，不声称全集或学术覆盖。",
+      "created_source_refs": [
+        "WCD10-B18-S101"
+      ],
+      "facts": [
+        {
+          "field": "genre_or_form",
+          "value": "短散文集（含格言、哲学随笔与日记式文本）",
+          "source_refs": [
+            "WCD10-B18-S101"
+          ],
+          "fact_candidate_id": "WCD10-B18-F110"
+        },
+        {
+          "field": "first_publication_year",
+          "value": "1975",
+          "source_refs": [
+            "WCD10-B18-S101"
+          ],
+          "fact_candidate_id": "WCD10-B18-F111"
+        },
+        {
+          "field": "bibliographic_note",
+          "value": "外交部文化中心页面列Tusquets 1975版（89篇）、1978年扩充版（150篇）及1986年定本（200篇）；此候选记录首版年份1975，并在注记中保留后续版本篇数。",
+          "source_refs": [
+            "WCD10-B18-S101"
+          ],
+          "fact_candidate_id": "WCD10-B18-F112"
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "外交部文化中心将本书描述为由短篇文本构成，内容介于格言、哲学随笔与日记之间，涉及文学、记忆、遗忘、年龄、童年和爱情等主题。",
+          "source_refs": [
+            "WCD10-B18-S101"
+          ],
+          "fact_candidate_id": "WCD10-B18-F113"
+        }
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B18-W105",
+      "author_id": "V1-ENT-0332",
+      "entity_type": "collection",
+      "original_name": "La tentación del fracaso",
+      "name_zh_candidate": "《失败的诱惑》（暂译）",
+      "name_policy": "中文题名仅作检索用暂译，西班牙语原题为作品身份锚点，不表示存在正式中文译本。",
+      "rationale": "外交部文化中心作者专题直接列出版本书目及作品文本特征。本候选只提出普通书目与有界释义，不声称全集或学术覆盖。",
+      "created_source_refs": [
+        "WCD10-B18-S101"
+      ],
+      "facts": [
+        {
+          "field": "genre_or_form",
+          "value": "日记集（多卷）",
+          "source_refs": [
+            "WCD10-B18-S101"
+          ],
+          "fact_candidate_id": "WCD10-B18-F114"
+        },
+        {
+          "field": "bibliographic_note",
+          "value": "外交部文化中心页面称第一、二卷分别于1992、1993年出版，第三卷于1995年身后出版；另列2003年Seix Barral版并概述该版日记覆盖1950–1978年。因页面呈现多卷出版序列与后出的合版，本候选留空原子首版年份，不把2003年记作首版。",
+          "source_refs": [
+            "WCD10-B18-S101"
+          ],
+          "fact_candidate_id": "WCD10-B18-F115"
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "外交部文化中心将其描述为个人日记集，记录作者1950至1978年间在日常生活、旅行和写作过程中的经历。",
+          "source_refs": [
+            "WCD10-B18-S101"
+          ],
+          "fact_candidate_id": "WCD10-B18-F116"
+        }
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B18-W201",
+      "author_id": "V1-ENT-0333",
+      "entity_type": "collection",
+      "original_name": "En la zona",
+      "name_zh_candidate": "《En la zona》",
+      "name_policy": "中文字段保留西班牙语题名作为检索名，不声称存在正式中文译本。",
+      "rationale": "Argentina.gob.ar政府文化页面直接记录《En la zona》1960年出版、由14篇短篇构成，并简述末篇“Algo se aproxima”的文学转折；未扩写为全书情节概括。",
+      "created_source_refs": [
+        "WCD10-B18-S201"
+      ],
+      "facts": [
+        {
+          "field": "genre_or_form",
+          "value": "短篇集",
+          "source_refs": [
+            "WCD10-B18-S201"
+          ],
+          "fact_candidate_id": "WCD10-B18-F201"
+        },
+        {
+          "field": "first_publication_year",
+          "value": "1960",
+          "source_refs": [
+            "WCD10-B18-S201"
+          ],
+          "fact_candidate_id": "WCD10-B18-F202"
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "政府文化文章称该书于1960年出版，包含14篇短篇；其中前13篇保留作者对博尔赫斯的敬仰痕迹，末篇“Algo se aproxima”则标记了作者个人文学路径的转折。",
+          "source_refs": [
+            "WCD10-B18-S201"
+          ],
+          "fact_candidate_id": "WCD10-B18-F203"
+        }
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B18-W202",
+      "author_id": "V1-ENT-0333",
+      "entity_type": "collection",
+      "original_name": "Palo y hueso",
+      "name_zh_candidate": "《Palo y hueso》",
+      "name_policy": "中文字段保留西班牙语题名作为检索名，不声称存在正式中文译本。",
+      "rationale": "Argentina.gob.ar政府文化页面直接列出该作品及体裁/书目年份；候选仅保存有限书目与来源明确的短简介。",
+      "created_source_refs": [
+        "WCD10-B18-S201"
+      ],
+      "facts": [
+        {
+          "field": "genre_or_form",
+          "value": "短篇集",
+          "source_refs": [
+            "WCD10-B18-S201"
+          ],
+          "fact_candidate_id": "WCD10-B18-F204"
+        },
+        {
+          "field": "bibliographic_note",
+          "value": "政府文化文章将Palo y hueso列作1965年的短篇集；本文按该条目记录年份，不主张具体版次。",
+          "source_refs": [
+            "WCD10-B18-S201"
+          ],
+          "fact_candidate_id": "WCD10-B18-F205"
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "Argentina.gob.ar将该作品列入Juan José Saer的短篇集书目。",
+          "source_refs": [
+            "WCD10-B18-S201"
+          ],
+          "fact_candidate_id": "WCD10-B18-F206"
+        }
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B18-W203",
+      "author_id": "V1-ENT-0333",
+      "entity_type": "collection",
+      "original_name": "Unidad de lugar",
+      "name_zh_candidate": "《Unidad de lugar》",
+      "name_policy": "中文字段保留西班牙语题名作为检索名，不声称存在正式中文译本。",
+      "rationale": "Argentina.gob.ar政府文化页面直接列出该作品及体裁/书目年份；候选仅保存有限书目与来源明确的短简介。",
+      "created_source_refs": [
+        "WCD10-B18-S201"
+      ],
+      "facts": [
+        {
+          "field": "genre_or_form",
+          "value": "短篇集",
+          "source_refs": [
+            "WCD10-B18-S201"
+          ],
+          "fact_candidate_id": "WCD10-B18-F207"
+        },
+        {
+          "field": "bibliographic_note",
+          "value": "政府文化文章将Unidad de lugar列作1967年的短篇集；本文按该条目记录年份，不主张具体版次。",
+          "source_refs": [
+            "WCD10-B18-S201"
+          ],
+          "fact_candidate_id": "WCD10-B18-F208"
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "Argentina.gob.ar将该作品列入Juan José Saer的短篇集书目。",
+          "source_refs": [
+            "WCD10-B18-S201"
+          ],
+          "fact_candidate_id": "WCD10-B18-F209"
+        }
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B18-W204",
+      "author_id": "V1-ENT-0333",
+      "entity_type": "collection",
+      "original_name": "La mayor",
+      "name_zh_candidate": "《La mayor》",
+      "name_policy": "中文字段保留西班牙语题名作为检索名，不声称存在正式中文译本。",
+      "rationale": "Argentina.gob.ar政府文化页面直接列出该作品及体裁/书目年份；候选仅保存有限书目与来源明确的短简介。",
+      "created_source_refs": [
+        "WCD10-B18-S201"
+      ],
+      "facts": [
+        {
+          "field": "genre_or_form",
+          "value": "短篇集",
+          "source_refs": [
+            "WCD10-B18-S201"
+          ],
+          "fact_candidate_id": "WCD10-B18-F210"
+        },
+        {
+          "field": "bibliographic_note",
+          "value": "政府文化文章将La mayor列作1976年的短篇集；本文按该条目记录年份，不主张具体版次。",
+          "source_refs": [
+            "WCD10-B18-S201"
+          ],
+          "fact_candidate_id": "WCD10-B18-F211"
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "Argentina.gob.ar将该作品列入Juan José Saer的短篇集书目。",
+          "source_refs": [
+            "WCD10-B18-S201"
+          ],
+          "fact_candidate_id": "WCD10-B18-F212"
+        }
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B18-W205",
+      "author_id": "V1-ENT-0333",
+      "entity_type": "collection",
+      "original_name": "Lugar",
+      "name_zh_candidate": "《Lugar》",
+      "name_policy": "中文字段保留西班牙语题名作为检索名，不声称存在正式中文译本。",
+      "rationale": "Argentina.gob.ar政府文化页面直接列出该作品及体裁/书目年份；候选仅保存有限书目与来源明确的短简介。",
+      "created_source_refs": [
+        "WCD10-B18-S201"
+      ],
+      "facts": [
+        {
+          "field": "genre_or_form",
+          "value": "短篇集",
+          "source_refs": [
+            "WCD10-B18-S201"
+          ],
+          "fact_candidate_id": "WCD10-B18-F213"
+        },
+        {
+          "field": "bibliographic_note",
+          "value": "政府文化文章将Lugar列作2000年的短篇集；本文按该条目记录年份，不主张具体版次。",
+          "source_refs": [
+            "WCD10-B18-S201"
+          ],
+          "fact_candidate_id": "WCD10-B18-F214"
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "Argentina.gob.ar将该作品列入Juan José Saer的短篇集书目。",
+          "source_refs": [
+            "WCD10-B18-S201"
+          ],
+          "fact_candidate_id": "WCD10-B18-F215"
+        }
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B18-W206",
+      "author_id": "V1-ENT-0333",
+      "entity_type": "collection",
+      "original_name": "El arte de narrar: poemas 1960/1975",
+      "name_zh_candidate": "《El arte de narrar: poemas 1960/1975》",
+      "name_policy": "中文字段保留西班牙语题名作为检索名，不声称存在正式中文译本。",
+      "rationale": "Argentina.gob.ar政府文化页面直接列出该作品及体裁/书目年份；候选仅保存有限书目与来源明确的短简介。",
+      "created_source_refs": [
+        "WCD10-B18-S201"
+      ],
+      "facts": [
+        {
+          "field": "genre_or_form",
+          "value": "诗歌汇编",
+          "source_refs": [
+            "WCD10-B18-S201"
+          ],
+          "fact_candidate_id": "WCD10-B18-F216"
+        },
+        {
+          "field": "bibliographic_note",
+          "value": "政府文化文章列出El arte de narrar: poemas 1960/1975（1977）；题名中的1960/1975为诗歌时间范围，括号年份为文章所列书目年份，不主张具体版次。",
+          "source_refs": [
+            "WCD10-B18-S201"
+          ],
+          "fact_candidate_id": "WCD10-B18-F217"
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "Argentina.gob.ar将该作品列入Juan José Saer的诗歌汇编书目。",
+          "source_refs": [
+            "WCD10-B18-S201"
+          ],
+          "fact_candidate_id": "WCD10-B18-F218"
+        }
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B18-W207",
+      "author_id": "V1-ENT-0333",
+      "entity_type": "work",
+      "original_name": "Responso",
+      "name_zh_candidate": "《Responso》",
+      "name_policy": "中文字段保留西班牙语题名作为检索名，不声称存在正式中文译本。",
+      "rationale": "Argentina.gob.ar政府文化页面直接列出该作品及体裁/书目年份；候选仅保存有限书目与来源明确的短简介。",
+      "created_source_refs": [
+        "WCD10-B18-S201"
+      ],
+      "facts": [
+        {
+          "field": "genre_or_form",
+          "value": "小说",
+          "source_refs": [
+            "WCD10-B18-S201"
+          ],
+          "fact_candidate_id": "WCD10-B18-F219"
+        },
+        {
+          "field": "bibliographic_note",
+          "value": "政府文化文章将Responso列为1963年的小说；本文按该条目记录年份，不主张具体版次。",
+          "source_refs": [
+            "WCD10-B18-S201"
+          ],
+          "fact_candidate_id": "WCD10-B18-F220"
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "Argentina.gob.ar将该作品列入Juan José Saer的小说书目。",
+          "source_refs": [
+            "WCD10-B18-S201"
+          ],
+          "fact_candidate_id": "WCD10-B18-F221"
+        }
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B18-W208",
+      "author_id": "V1-ENT-0333",
+      "entity_type": "work",
+      "original_name": "Cicatrices",
+      "name_zh_candidate": "《Cicatrices》",
+      "name_policy": "中文字段保留西班牙语题名作为检索名，不声称存在正式中文译本。",
+      "rationale": "Argentina.gob.ar政府文化页面直接列出该作品及体裁/书目年份；候选仅保存有限书目与来源明确的短简介。",
+      "created_source_refs": [
+        "WCD10-B18-S201"
+      ],
+      "facts": [
+        {
+          "field": "genre_or_form",
+          "value": "小说",
+          "source_refs": [
+            "WCD10-B18-S201"
+          ],
+          "fact_candidate_id": "WCD10-B18-F222"
+        },
+        {
+          "field": "bibliographic_note",
+          "value": "政府文化文章将Cicatrices列为1969年的小说；本文按该条目记录年份，不主张具体版次。",
+          "source_refs": [
+            "WCD10-B18-S201"
+          ],
+          "fact_candidate_id": "WCD10-B18-F223"
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "Argentina.gob.ar将该作品列入Juan José Saer的小说书目。",
+          "source_refs": [
+            "WCD10-B18-S201"
+          ],
+          "fact_candidate_id": "WCD10-B18-F224"
+        }
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B18-W209",
+      "author_id": "V1-ENT-0333",
+      "entity_type": "work",
+      "original_name": "Nadie nada nunca",
+      "name_zh_candidate": "《Nadie nada nunca》",
+      "name_policy": "中文字段保留西班牙语题名作为检索名，不声称存在正式中文译本。",
+      "rationale": "政府文化页列出该小说书目但题名与出版社直接题名不一致；按出版社正式题名Nadie nada nunca规范化，年份冲突仅保留书目注记。",
+      "created_source_refs": [
+        "WCD10-B18-S201",
+        "WCD10-B18-S204"
+      ],
+      "facts": [
+        {
+          "field": "genre_or_form",
+          "value": "小说",
+          "source_refs": [
+            "WCD10-B18-S201",
+            "WCD10-B18-S204"
+          ],
+          "fact_candidate_id": "WCD10-B18-F225"
+        },
+        {
+          "field": "bibliographic_note",
+          "value": "Argentina.gob.ar将错题“Nada nunca nada”列为1980年小说；Rayo Verde出版社页面题名为“Nadie nada nunca”，所示2014年为该版本年份。此处并列记录书目差异，不据此断言首版年份。",
+          "source_refs": [
+            "WCD10-B18-S201",
+            "WCD10-B18-S204"
+          ],
+          "fact_candidate_id": "WCD10-B18-F226"
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "小说以河边的炎热夏日为背景，故事围绕一连串马匹被杀展开。",
+          "source_refs": [
+            "WCD10-B18-S204"
+          ],
+          "fact_candidate_id": "WCD10-B18-F227"
+        }
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B18-W210",
+      "author_id": "V1-ENT-0333",
+      "entity_type": "work",
+      "original_name": "El río sin orillas: tratado imaginario",
+      "name_zh_candidate": "《El río sin orillas: tratado imaginario》",
+      "name_policy": "中文字段保留西班牙语题名作为检索名，不声称存在正式中文译本。",
+      "rationale": "Argentina.gob.ar政府文化页面直接列出该作品及体裁/书目年份；候选仅保存有限书目与来源明确的短简介。",
+      "created_source_refs": [
+        "WCD10-B18-S201"
+      ],
+      "facts": [
+        {
+          "field": "genre_or_form",
+          "value": "随笔",
+          "source_refs": [
+            "WCD10-B18-S201"
+          ],
+          "fact_candidate_id": "WCD10-B18-F228"
+        },
+        {
+          "field": "bibliographic_note",
+          "value": "政府文化文章将El río sin orillas: tratado imaginario列为1991年的随笔/散文作品；本文按该条目记录年份，不主张具体版次。",
+          "source_refs": [
+            "WCD10-B18-S201"
+          ],
+          "fact_candidate_id": "WCD10-B18-F229"
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "Argentina.gob.ar将该作品列入Juan José Saer的随笔书目。",
+          "source_refs": [
+            "WCD10-B18-S201"
+          ],
+          "fact_candidate_id": "WCD10-B18-F230"
+        }
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B18-W211",
+      "author_id": "V1-ENT-0333",
+      "entity_type": "collection",
+      "original_name": "El concepto de ficción",
+      "name_zh_candidate": "《El concepto de ficción》",
+      "name_policy": "中文字段保留西班牙语题名作为检索名，不声称存在正式中文译本。",
+      "rationale": "Argentina.gob.ar提供书目线索；Editorial Océano直接说明该书汇集多篇围绕虚构与文学的随笔。",
+      "created_source_refs": [
+        "WCD10-B18-S201",
+        "WCD10-B18-S202"
+      ],
+      "facts": [
+        {
+          "field": "genre_or_form",
+          "value": "随笔集",
+          "source_refs": [
+            "WCD10-B18-S201",
+            "WCD10-B18-S202"
+          ],
+          "fact_candidate_id": "WCD10-B18-F231"
+        },
+        {
+          "field": "bibliographic_note",
+          "value": "Argentina.gob.ar列示1997年书目年份；Editorial Océano所示ISBN版本为2016年版。该差异只作为版本书目注记，不据此确定首版年份。",
+          "source_refs": [
+            "WCD10-B18-S201",
+            "WCD10-B18-S202"
+          ],
+          "fact_candidate_id": "WCD10-B18-F232"
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "本书汇集多篇围绕虚构写作与文学思考的随笔。",
+          "source_refs": [
+            "WCD10-B18-S202"
+          ],
+          "fact_candidate_id": "WCD10-B18-F233"
+        }
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B18-W212",
+      "author_id": "V1-ENT-0333",
+      "entity_type": "collection",
+      "original_name": "La narración-objeto",
+      "name_zh_candidate": "《La narración-objeto》",
+      "name_policy": "中文字段保留西班牙语题名作为检索名，不声称存在正式中文译本。",
+      "rationale": "Argentina.gob.ar提供书目线索；CeLeHis期刊论文直接称该书汇集讲演、序言及评论性介入，明确本候选指文集层级。",
+      "created_source_refs": [
+        "WCD10-B18-S201",
+        "WCD10-B18-S203"
+      ],
+      "facts": [
+        {
+          "field": "genre_or_form",
+          "value": "随笔集",
+          "source_refs": [
+            "WCD10-B18-S201",
+            "WCD10-B18-S203"
+          ],
+          "fact_candidate_id": "WCD10-B18-F234"
+        },
+        {
+          "field": "bibliographic_note",
+          "value": "Argentina.gob.ar列示1999年书目年份；本包按该书目记年，不推断特定版次。",
+          "source_refs": [
+            "WCD10-B18-S201",
+            "WCD10-B18-S203"
+          ],
+          "fact_candidate_id": "WCD10-B18-F235"
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "本书汇集讲演、序言及围绕文学作品的评论性文字。",
+          "source_refs": [
+            "WCD10-B18-S203"
+          ],
+          "fact_candidate_id": "WCD10-B18-F236"
+        }
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B18-W213",
+      "author_id": "V1-ENT-0333",
+      "entity_type": "work",
+      "original_name": "La ocasión",
+      "name_zh_candidate": "《La ocasión》",
+      "name_policy": "中文字段保留西班牙语题名作为检索名，不声称存在正式中文译本。",
+      "rationale": "Argentina.gob.ar政府文化页面明确将La ocasión称作小说并记载其获1987年Nadal奖；奖项年份不推断为首版年份。",
+      "created_source_refs": [
+        "WCD10-B18-S201"
+      ],
+      "facts": [
+        {
+          "field": "genre_or_form",
+          "value": "小说",
+          "source_refs": [
+            "WCD10-B18-S201"
+          ],
+          "fact_candidate_id": "WCD10-B18-F237"
+        },
+        {
+          "field": "bibliographic_note",
+          "value": "Argentina.gob.ar记载该小说获1987年Nadal奖；奖项年份不据作首版年份。",
+          "source_refs": [
+            "WCD10-B18-S201"
+          ],
+          "fact_candidate_id": "WCD10-B18-F238"
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "Argentina.gob.ar将该作品列入Juan José Saer的小说书目。",
+          "source_refs": [
+            "WCD10-B18-S201"
+          ],
+          "fact_candidate_id": "WCD10-B18-F239"
+        }
+      ]
+    }
+  ],
+  "existing_facts": [
+    {
+      "candidate_id": "WCD10-B18-F001",
+      "subject_id": "V1-ENT-0330",
+      "field": "one_sentence_summary",
+      "value": "Sor Juana以书信回应自称Sor Filotea的主教对她的劝诫；该回应承接了她此前对Vieyra布道的神学批评。",
+      "source_refs": [
+        "WCD10-B18-S003"
+      ],
+      "boundary": "仅补充一个由直接机构来源支持的对象简介；旧作品、既有事实、来源链接和关联保持原样。"
+    },
+    {
+      "candidate_id": "WCD10-B18-F002",
+      "subject_id": "V1-ENT-0331",
+      "field": "one_sentence_summary",
+      "value": "一部与Juan de Guevara合作写作、于1689年首演的喜剧。",
+      "source_refs": [
+        "WCD10-B18-S003"
+      ],
+      "boundary": "来源只支持合作作者、喜剧类型和1689首演事实；不补写来源未提供的情节。"
+    },
+    {
+      "candidate_id": "WCD10-B18-F003",
+      "subject_id": "V1-ENT-0331",
+      "field": "bibliographic_note",
+      "value": "UNAM Global记载该剧由Sor Juana与Juan de Guevara合作创作，并于1689年首演；现有事实只保留既有已证年份，不改其字段或来源链。",
+      "source_refs": [
+        "WCD10-B18-S003"
+      ],
+      "boundary": "只追加来源明确支持的合作作者与演出地点说明；保留旧作品身份、旧facts与原有来源SRC-0253。"
+    },
+    {
+      "candidate_id": "WCD10-B18-F240",
+      "subject_id": "V1-ENT-0339",
+      "field": "one_sentence_summary",
+      "value": "16世纪西班牙探险队的一名船上少年抵达拉普拉塔河区域后，被Colastinés族捕获并收养。",
+      "source_refs": [
+        "WCD10-B18-S205"
+      ],
+      "boundary": "仅增补出版社直接支持的一句情节简介；保留既有实体、书目年1983、事实、卡片、关系、来源链与gap不变；2013仅为当前版年份。"
+    }
+  ],
+  "extra_relationships": [],
+  "deferred": [
+    {
+      "key": "saer.full_author_oeuvre",
+      "reason": "本轮只纳入单一政府文化来源直接列出的主要小说、短篇集、诗歌汇编与随笔；未穷尽Saer全部作品、诗歌、文章、遗稿及版本目录。",
+      "disposition": "preserve as out_of_scope"
+    }
+  ]
+}

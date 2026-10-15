@@ -1,0 +1,314 @@
+{
+  "database_path": "work/codex-worktrees/latin-american-literature-map-wcd10/data/master/V1_MASTER.sqlite",
+  "database_sha256": "559b1858b7b5e647b4b313f841be8d2960cf3a5eacf2a2dd92c6161668da706c",
+  "migration_count": 56,
+  "table_count": 19,
+  "table_row_counts": {
+    "metadata": 16,
+    "sources": 794,
+    "source_holds": 4,
+    "entities": 795,
+    "entity_id_map": 793,
+    "relationships": 768,
+    "relationship_evidence": 1164,
+    "relationship_sources": 1193,
+    "relation_holds": 51,
+    "relation_hold_evidence": 58,
+    "content_cards": 823,
+    "facts": 2683,
+    "fact_sources": 3320,
+    "card_facts": 2662,
+    "card_sources": 1595,
+    "gaps": 690,
+    "n3_decisions": 4,
+    "legacy_relation_groups": 15,
+    "migration_log": 56
+  },
+  "existing_work_count": 17,
+  "existing_works": [
+    {
+      "entity_id": "V1-ENT-0154",
+      "author_id": "V1-ENT-0059",
+      "entity_type": "work",
+      "original_name": "El laberinto de la soledad",
+      "facts": 6,
+      "cards": 2,
+      "relations": 1,
+      "gaps": 0,
+      "sources": [
+        "SRC-0098",
+        "SRC-0099",
+        "SRC-0100",
+        "SRC-0406"
+      ]
+    },
+    {
+      "entity_id": "V1-ENT-0155",
+      "author_id": "V1-ENT-0059",
+      "entity_type": "work",
+      "original_name": "El arco y la lira",
+      "facts": 5,
+      "cards": 1,
+      "relations": 1,
+      "gaps": 0,
+      "sources": [
+        "SRC-0099",
+        "SRC-0100"
+      ]
+    },
+    {
+      "entity_id": "V1-ENT-0156",
+      "author_id": "V1-ENT-0059",
+      "entity_type": "work",
+      "original_name": "Piedra de sol",
+      "facts": 5,
+      "cards": 1,
+      "relations": 1,
+      "gaps": 0,
+      "sources": [
+        "SRC-0099",
+        "SRC-0100"
+      ]
+    },
+    {
+      "entity_id": "V1-ENT-0421",
+      "author_id": "V1-ENT-0059",
+      "entity_type": "work",
+      "original_name": "¿Águila o sol?",
+      "facts": 3,
+      "cards": 1,
+      "relations": 1,
+      "gaps": 1,
+      "sources": [
+        "SRC-0099",
+        "SRC-0100"
+      ]
+    },
+    {
+      "entity_id": "V1-ENT-0422",
+      "author_id": "V1-ENT-0059",
+      "entity_type": "collection",
+      "original_name": "Ladera este",
+      "facts": 4,
+      "cards": 1,
+      "relations": 1,
+      "gaps": 1,
+      "sources": [
+        "SRC-0099",
+        "SRC-0300",
+        "SRC-0397",
+        "SRC-0402"
+      ]
+    },
+    {
+      "entity_id": "V1-ENT-0427",
+      "author_id": "V1-ENT-0059",
+      "entity_type": "collection",
+      "original_name": "Libertad bajo palabra",
+      "facts": 4,
+      "cards": 1,
+      "relations": 1,
+      "gaps": 1,
+      "sources": [
+        "SRC-0099",
+        "SRC-0300",
+        "SRC-0403"
+      ]
+    },
+    {
+      "entity_id": "V1-ENT-0428",
+      "author_id": "V1-ENT-0059",
+      "entity_type": "collection",
+      "original_name": "La estación violenta",
+      "facts": 4,
+      "cards": 1,
+      "relations": 1,
+      "gaps": 1,
+      "sources": [
+        "SRC-0099",
+        "SRC-0300",
+        "SRC-0403",
+        "SRC-0404"
+      ]
+    },
+    {
+      "entity_id": "V1-ENT-0173",
+      "author_id": "V1-ENT-0170",
+      "entity_type": "work",
+      "original_name": "El Señor Presidente",
+      "facts": 5,
+      "cards": 2,
+      "relations": 1,
+      "gaps": 1,
+      "sources": [
+        "SRC-0130",
+        "SRC-0395"
+      ]
+    },
+    {
+      "entity_id": "V1-ENT-0174",
+      "author_id": "V1-ENT-0170",
+      "entity_type": "work",
+      "original_name": "Hombres de maíz",
+      "facts": 5,
+      "cards": 2,
+      "relations": 1,
+      "gaps": 1,
+      "sources": [
+        "SRC-0130",
+        "SRC-0132"
+      ]
+    },
+    {
+      "entity_id": "V1-ENT-0175",
+      "author_id": "V1-ENT-0170",
+      "entity_type": "collection",
+      "original_name": "Leyendas de Guatemala",
+      "facts": 5,
+      "cards": 2,
+      "relations": 1,
+      "gaps": 1,
+      "sources": [
+        "SRC-0130",
+        "SRC-0396"
+      ]
+    },
+    {
+      "entity_id": "V1-ENT-0176",
+      "author_id": "V1-ENT-0171",
+      "entity_type": "work",
+      "original_name": "La casa de los espíritus",
+      "facts": 5,
+      "cards": 2,
+      "relations": 1,
+      "gaps": 1,
+      "sources": [
+        "SRC-0134",
+        "SRC-0135"
+      ]
+    },
+    {
+      "entity_id": "V1-ENT-0177",
+      "author_id": "V1-ENT-0171",
+      "entity_type": "work",
+      "original_name": "De amor y de sombras",
+      "facts": 5,
+      "cards": 2,
+      "relations": 1,
+      "gaps": 1,
+      "sources": [
+        "SRC-0134",
+        "SRC-0136"
+      ]
+    },
+    {
+      "entity_id": "V1-ENT-0178",
+      "author_id": "V1-ENT-0171",
+      "entity_type": "work",
+      "original_name": "Eva Luna",
+      "facts": 5,
+      "cards": 2,
+      "relations": 1,
+      "gaps": 1,
+      "sources": [
+        "SRC-0134",
+        "SRC-0137"
+      ]
+    },
+    {
+      "entity_id": "V1-ENT-0423",
+      "author_id": "V1-ENT-0171",
+      "entity_type": "collection",
+      "original_name": "Cuentos de Eva Luna",
+      "facts": 4,
+      "cards": 1,
+      "relations": 1,
+      "gaps": 1,
+      "sources": [
+        "SRC-0134",
+        "SRC-0398"
+      ]
+    },
+    {
+      "entity_id": "V1-ENT-0424",
+      "author_id": "V1-ENT-0171",
+      "entity_type": "work",
+      "original_name": "Paula",
+      "facts": 4,
+      "cards": 1,
+      "relations": 1,
+      "gaps": 1,
+      "sources": [
+        "SRC-0134",
+        "SRC-0399"
+      ]
+    },
+    {
+      "entity_id": "V1-ENT-0425",
+      "author_id": "V1-ENT-0171",
+      "entity_type": "work",
+      "original_name": "Hija de la fortuna",
+      "facts": 4,
+      "cards": 1,
+      "relations": 2,
+      "gaps": 1,
+      "sources": [
+        "SRC-0134",
+        "SRC-0400"
+      ]
+    },
+    {
+      "entity_id": "V1-ENT-0426",
+      "author_id": "V1-ENT-0171",
+      "entity_type": "work",
+      "original_name": "La ciudad de las bestias",
+      "facts": 4,
+      "cards": 1,
+      "relations": 1,
+      "gaps": 1,
+      "sources": [
+        "SRC-0134",
+        "SRC-0401"
+      ]
+    }
+  ],
+  "existing_gap_rows": [
+    {
+      "gap_id": "V1-GAP-0123",
+      "origin_gap_id": "WCD-10-B05-G01",
+      "gap_type": "research_gap",
+      "gap_key": "WCD10:B05:Paz:El_mono_gramatico:first_publication_semantics",
+      "current_status": "open",
+      "evidence_basis": "USER policy remains unresolved: ELEM 8815 documents a 1972 French translation and a 1974 Spanish-original first edition. The project field semantics await USER direction; neither year is selected here. Preserve the full W03 object/evidence in W03_DEFERRED_CANDIDATE.json, then re-enter it for independent review and integration after USER resolves the policy, before TASK-127 completion.",
+      "attempts_or_count": "",
+      "owner_decision": "Independent Reviewer: preserve field_policy_pending_user",
+      "downstream_effect": "No confirmed relation, edition or public admission generated.",
+      "issue_code": "WCD10-DEFERRED"
+    }
+  ],
+  "target_entities": [
+    {
+      "entity_id": "V1-ENT-0591",
+      "entity_type": "work",
+      "name_zh": "《MMM之谜》",
+      "original_name": "O mistério dos MMM",
+      "canonical_status": "candidate",
+      "origin_count": "1",
+      "origin_refs": "WCD10-B08-W207",
+      "normalization_basis": "首发年份采用Covizzi与Verlangieri书目所载1961年10–12月《O Cruzeiro》连载；该书目另列1962年O Cruzeiro书本版，ABL及帕拉州基金会馆藏目录也支持1962书版。S224称1964年在《O Cruzeiro》连载、后来又出书；此说与1961年连载、1962年书版冲突，作为相反来源说法保留。; 中文为工作显示译名；保留原文题名作为身份锚点，不主张已有正式中译本。",
+      "issue_codes": "PROVISIONAL-ZH-DISPLAY"
+    },
+    {
+      "entity_id": "V1-ENT-0592",
+      "entity_type": "collection",
+      "name_zh": "《七宗罪》",
+      "original_name": "Os sete pecados capitais",
+      "canonical_status": "candidate",
+      "origin_count": "1",
+      "origin_refs": "WCD10-B08-W208",
+      "normalization_basis": "ABL列为合作作品；USP题录确认七位作者、Rosa合作者身份和具体篇目。; 中文为工作显示译名；保留原文题名作为身份锚点，不主张已有正式中译本。",
+      "issue_codes": "PROVISIONAL-ZH-DISPLAY"
+    }
+  ],
+  "candidate_title_matches": []
+}

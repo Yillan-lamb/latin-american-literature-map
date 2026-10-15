@@ -1,0 +1,298 @@
+{
+  "schema": "wcd10-b12-dedup-merged-1",
+  "task_id": "TASK-117",
+  "batch_id": "WCD-10-B12",
+  "baseline_database_sha256": "7152ecc903ef7b610440a5173b0dd79d28ce25358b53ffa42512da6eb615db67",
+  "author_packages": [
+    {
+      "author_id": "V1-ENT-0250",
+      "source_directory": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/project/internal/WCD_10_WORKSPACE/orchestration/wave-09/arreola/R1",
+      "dedup": {
+        "task_id": "TASK-117",
+        "batch_id": "WCD-10-B12",
+        "baseline_database_sha256": "7152ecc903ef7b610440a5173b0dd79d28ce25358b53ffa42512da6eb615db67",
+        "baseline_dedup": "按B12冻结作者作品清单与规范化URL核对；新增作品均无同名同层对象。",
+        "works": [
+          {
+            "candidate_id": "WCD10-B12-W001",
+            "proposed_title": "La hora de todos",
+            "baseline_match": "none",
+            "disposition": "new"
+          },
+          {
+            "candidate_id": "WCD10-B12-W002",
+            "proposed_title": "Varia invención",
+            "baseline_match": "none",
+            "disposition": "new"
+          },
+          {
+            "candidate_id": "WCD10-B12-W003",
+            "proposed_title": "Palindroma",
+            "baseline_match": "none",
+            "disposition": "new"
+          }
+        ],
+        "sources": [
+          {
+            "candidate_id": "WCD10-B12-S001",
+            "canonical_url": "https://cvc.cervantes.es/actcult/arreola/bibliografia/bibliografiabasica.htm",
+            "disposition": "reuse",
+            "reuse_existing_source": "SRC-0203",
+            "normalized_existing_url": "cvc.cervantes.es/actcult/arreola/bibliografia/bibliografiabasica.htm",
+            "existing_title": "CVC. Juan José Arreola. Bibliografía"
+          },
+          {
+            "candidate_id": "WCD10-B12-S002",
+            "canonical_url": "https://cvc.cervantes.es/actcult/arreola/biografia.htm",
+            "disposition": "new source"
+          },
+          {
+            "candidate_id": "WCD10-B12-S003",
+            "canonical_url": "https://cvc.cervantes.es/actcult/arreola/indice.htm",
+            "disposition": "new source"
+          },
+          {
+            "candidate_id": "WCD10-B12-S004",
+            "canonical_url": "https://www.elem.mx/obra/datos/151",
+            "disposition": "new source"
+          },
+          {
+            "candidate_id": "WCD10-B12-S005",
+            "canonical_url": "https://www.elem.mx/obra/datos/147",
+            "disposition": "new source; combined edition only, no new work entity"
+          }
+        ],
+        "baseline_existing_work_titles": [
+          {
+            "entity_id": "V1-ENT-0257",
+            "title": "Confabulario"
+          },
+          {
+            "entity_id": "V1-ENT-0258",
+            "title": "Bestiario"
+          },
+          {
+            "entity_id": "V1-ENT-0259",
+            "title": "La feria"
+          }
+        ]
+      }
+    },
+    {
+      "author_id": "V1-ENT-0260",
+      "source_directory": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/project/internal/WCD_10_WORKSPACE/orchestration/wave-09/poniatowska",
+      "dedup": {
+        "baseline_dedup": "WCD-10 candidate validator compared every candidate entity and source against the frozen B12 database by normalized title/URL.",
+        "works": [
+          {
+            "candidate_id": "WCD10-B12-W101",
+            "kind": "entity",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B12-W102",
+            "kind": "entity",
+            "disposition": "new",
+            "matches": []
+          }
+        ],
+        "sources": [
+          {
+            "candidate_id": "WCD10-B12-S101",
+            "kind": "source",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B12-S102",
+            "kind": "source",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B12-S103",
+            "kind": "source",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B12-S104",
+            "kind": "source",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B12-S105",
+            "kind": "source",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B12-S106",
+            "kind": "source",
+            "disposition": "new",
+            "matches": []
+          }
+        ]
+      }
+    },
+    {
+      "author_id": "V1-ENT-0261",
+      "source_directory": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/project/internal/WCD_10_WORKSPACE/orchestration/wave-09/pacheco/FINAL",
+      "dedup": {
+        "baseline_dedup": "B12 author-specific inventory and master database reviewed; all proposed original titles compared against linked work titles and canonical entities.",
+        "works": [
+          {
+            "candidate_id": "WCD10-B12-W201",
+            "kind": "entity",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B12-W202",
+            "kind": "entity",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B12-W203",
+            "kind": "entity",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B12-W204",
+            "kind": "entity",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B12-W205",
+            "kind": "entity",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B12-W206",
+            "kind": "entity",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B12-W207",
+            "kind": "entity",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B12-W208",
+            "kind": "entity",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B12-W209",
+            "kind": "entity",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B12-W210",
+            "kind": "entity",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B12-W211",
+            "kind": "entity",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B12-W212",
+            "kind": "entity",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B12-W213",
+            "kind": "entity",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B12-W214",
+            "kind": "entity",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B12-W215",
+            "kind": "entity",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B12-W216",
+            "kind": "entity",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B12-W218",
+            "kind": "entity",
+            "disposition": "new",
+            "matches": []
+          }
+        ],
+        "sources": [
+          {
+            "candidate_id": "WCD10-B12-S201",
+            "url": "https://www.cervantes.es/bibliotecas_documentacion_espanol/creadores/jose_emilio_pacheco_cronologia.htm",
+            "disposition": "reuse",
+            "matches": [
+              "SRC-0208"
+            ]
+          },
+          {
+            "candidate_id": "WCD10-B12-S202",
+            "url": "https://colnal.mx/integrantes/jose-emilio-pacheco/",
+            "disposition": "reuse",
+            "matches": [
+              "SRC-0209"
+            ]
+          },
+          {
+            "candidate_id": "WCD10-B12-S203",
+            "url": "https://literaturaalacarta.cepe.unam.mx/autor.php?id_autor=45",
+            "disposition": "reuse",
+            "matches": [
+              "SRC-0210"
+            ]
+          },
+          {
+            "candidate_id": "WCD10-B12-S204",
+            "url": "https://www.elem.mx/obra/datos/5751",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B12-S205",
+            "url": "https://cvc.cervantes.es/el_rinconete/anteriores/mayo_06/11052006_02.htm",
+            "disposition": "new",
+            "matches": []
+          }
+        ],
+        "baseline_existing_work_titles": [
+          "Las batallas en el desierto",
+          "El principio del placer",
+          "No me preguntes cómo pasa el tiempo"
+        ],
+        "task_id": "TASK-117",
+        "batch_id": "WCD-10-B12",
+        "baseline_database_sha256": "7152ecc903ef7b610440a5173b0dd79d28ce25358b53ffa42512da6eb615db67"
+      }
+    }
+  ]
+}

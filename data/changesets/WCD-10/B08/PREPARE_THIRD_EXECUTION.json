@@ -1,0 +1,54 @@
+{
+  "schema": "wcd10-b08-prepare-third-execution-1",
+  "attempt": 3,
+  "executed_at_local": "2026-10-11T23:30:12+08:00",
+  "command": [
+    "python3",
+    "scripts/build_wcd10_migration.py",
+    "--repo",
+    "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/work/codex-worktrees/latin-american-literature-map-wcd10",
+    "--batch",
+    "B08",
+    "--sql",
+    "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/work/codex-worktrees/latin-american-literature-map-wcd10/data/master/migrations/0043_wcd10_b08_author_works.sql",
+    "--mapping",
+    "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/work/codex-worktrees/latin-american-literature-map-wcd10/data/changesets/WCD-10/B08/INTEGRATION_MAP.json"
+  ],
+  "cwd": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/work/codex-worktrees/latin-american-literature-map-wcd10",
+  "exit_code": 1,
+  "stdout": "",
+  "stderr": "Traceback (most recent call last):\n  File \"/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/work/codex-worktrees/latin-american-literature-map-wcd10/scripts/build_wcd10_migration.py\", line 711, in <module>\n    raise SystemExit(main())\n                     ~~~~^^\n  File \"/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/work/codex-worktrees/latin-american-literature-map-wcd10/scripts/build_wcd10_migration.py\", line 699, in main\n    sql, mapping = prepare(args.repo, directory)\n                   ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/work/codex-worktrees/latin-american-literature-map-wcd10/scripts/build_wcd10_migration.py\", line 653, in prepare\n    for ref in item[\"research_refs\"]:\n               ~~~~^^^^^^^^^^^^^^^^^\nKeyError: 'research_refs'\n",
+  "before": {
+    "baseline_database_sha256": "0150e68ee98e28714a7719129aab7d47e137fc692e8e46a5e1db29540f5dbc07",
+    "candidate_sha256": "fdc49145d8e206996e3e362bf914ae57d641ee7ec65651fbe646feff47e257c2",
+    "coverage_sha256": "13ffa14a35f45055c8f7c072184e87921db9f0b7522ebdecfbaa714e01a55ae5",
+    "review_gate_sha256": "4ec3168bf31ed376d14e6ffa69cbb292e8050c18fd907b943323aa87468565c3",
+    "builder_sha256": "23a2a5e1b1cf27759ce71faf61524ef83b5777083e4a27c98ff6cf1eab78207b",
+    "first_failure_sha256": "12b3e98e5ef2e05f6695e5a2797e790f27300e933bd57b6dfbbfa4273504aa59",
+    "second_failure_sha256": "c41e30f95df402d8fcd46cb97214e09e891e7348249d244ce82adf28d3098d73",
+    "diagnostic_correction_sha256": "fce562f5c5ff30409c7ec3c2299f00800f282704ef50cae648b995dade3aece7",
+    "sql_absent": true,
+    "map_absent": true
+  },
+  "after": {
+    "baseline_database_sha256": "0150e68ee98e28714a7719129aab7d47e137fc692e8e46a5e1db29540f5dbc07",
+    "candidate_sha256": "fdc49145d8e206996e3e362bf914ae57d641ee7ec65651fbe646feff47e257c2",
+    "coverage_sha256": "13ffa14a35f45055c8f7c072184e87921db9f0b7522ebdecfbaa714e01a55ae5",
+    "review_gate_sha256": "4ec3168bf31ed376d14e6ffa69cbb292e8050c18fd907b943323aa87468565c3",
+    "builder_sha256": "23a2a5e1b1cf27759ce71faf61524ef83b5777083e4a27c98ff6cf1eab78207b",
+    "sql_sha256": null,
+    "mapping_sha256": null
+  },
+  "prior_failure_records_after": {
+    "first_failure_sha256": "12b3e98e5ef2e05f6695e5a2797e790f27300e933bd57b6dfbbfa4273504aa59",
+    "second_failure_sha256": "c41e30f95df402d8fcd46cb97214e09e891e7348249d244ce82adf28d3098d73",
+    "diagnostic_correction_sha256": "fce562f5c5ff30409c7ec3c2299f00800f282704ef50cae648b995dade3aece7"
+  },
+  "prior_failure_records_unchanged": true,
+  "mapping_summary_fields": null,
+  "success": false,
+  "database_write_performed": false,
+  "apply_performed": false,
+  "sql_audit_performed": false,
+  "git_action_performed": false
+}

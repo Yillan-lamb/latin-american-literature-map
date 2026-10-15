@@ -1,0 +1,1467 @@
+{
+  "schema": "wcd10-candidate-change-set-1",
+  "task_id": "TASK-116",
+  "batch_id": "WCD-10-B11",
+  "baseline_commit": "05f3372c69a54ec331d31b05d16c8288d6d3a993",
+  "baseline_database_sha256": "062c0cb663e27765085a85eb8cb63baee848a91e6d94bb261550327b00a5036c",
+  "status": "merged_candidate_parent_review_pending",
+  "accessed_at": "2026-10-12",
+  "public_boundary": "Research candidates only; no automatic Curation or public admission.",
+  "author_ids": [
+    "V1-ENT-0238",
+    "V1-ENT-0248",
+    "V1-ENT-0249"
+  ],
+  "sources": [
+    {
+      "candidate_id": "WCD10-B11-S001",
+      "url": "https://fundacionmariobenedetti.uy/obras/",
+      "title": "Su obra: 1945-1958 — Fundación Mario Benedetti",
+      "disposition": "fresh_registration",
+      "candidate_ids": [
+        "WCD10-B11-W001",
+        "WCD10-B11-W002",
+        "WCD10-B11-W003",
+        "WCD10-B11-W001-F01",
+        "WCD10-B11-W001-F02",
+        "WCD10-B11-W001-F03",
+        "WCD10-B11-W001-F04",
+        "WCD10-B11-W002-F01",
+        "WCD10-B11-W002-F02",
+        "WCD10-B11-W002-F03",
+        "WCD10-B11-W002-F04",
+        "WCD10-B11-W003-F01",
+        "WCD10-B11-W003-F02",
+        "WCD10-B11-W003-F03",
+        "WCD10-B11-W003-F04"
+      ],
+      "author_or_editor": "Fundación Mario Benedetti",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "第38-42行给出时期总述；第61-73行Esta mañana/Sólo mientras tanto；第91-108行Quién de nosotros、Poemas de la oficina的题名、类别、首次书目与内容说明。实读2026-10-12。",
+      "usage": "支持1953《Quién de nosotros》为作者首部长篇小说、1956诗集书目，以及Esta mañana篇目目录；不据此延伸无来源的情节解释。"
+    },
+    {
+      "candidate_id": "WCD10-B11-S002",
+      "url": "https://fundacionmariobenedetti.uy/obras-66-72/",
+      "title": "Su obra: 1966-1972 — Fundación Mario Benedetti",
+      "disposition": "fresh_registration",
+      "candidate_ids": [
+        "WCD10-B11-W004",
+        "WCD10-B11-W004-F01",
+        "WCD10-B11-W004-F02",
+        "WCD10-B11-W004-F03",
+        "WCD10-B11-W004-F04"
+      ],
+      "author_or_editor": "Fundación Mario Benedetti",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "第38-42行时期概述；第153-160行El cumpleaños de Juan Ángel的1971首版、诗体小说和实验性描述。实读2026-10-12。",
+      "usage": "支持作品题名、1971首版、诗体小说形态及基金会对其形式实验的描述。"
+    },
+    {
+      "candidate_id": "WCD10-B11-S003",
+      "url": "https://fundacionmariobenedetti.uy/obras-73-83/",
+      "title": "Su obra: 1973-1983 — Fundación Mario Benedetti",
+      "disposition": "fresh_registration",
+      "candidate_ids": [
+        "WCD10-B11-W005",
+        "WCD10-B11-W006",
+        "WCD10-B11-W007",
+        "WCD10-B11-W005-F01",
+        "WCD10-B11-W005-F02",
+        "WCD10-B11-W005-F03",
+        "WCD10-B11-W005-F04",
+        "WCD10-B11-W006-F01",
+        "WCD10-B11-W006-F02",
+        "WCD10-B11-W006-F03",
+        "WCD10-B11-W006-F04",
+        "WCD10-B11-W007-F02",
+        "WCD10-B11-W007-F03",
+        "WCD10-B11-W007-F04"
+      ],
+      "author_or_editor": "Fundación Mario Benedetti",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "第38-40行提及流亡期间创作《Primavera con una esquina rota》；第92-96行Con y sin nostalgia及其篇目；第107-112行Pedro y el capitán戏剧作品及1979版/演出信息。实读2026-10-12。",
+      "usage": "支持作品归属、体裁、版本或机构直接给出的简要内容；不以作者阶段概述推导完整情节。"
+    },
+    {
+      "candidate_id": "WCD10-B11-S004",
+      "url": "https://fundacionmariobenedetti.uy/obras-59-65/",
+      "title": "Su obra: 1959-1965",
+      "disposition": "reuse",
+      "reuse_existing_source": "SRC-0195",
+      "candidate_ids": [
+        "WCD10-B11-F001",
+        "WCD10-B11-F002",
+        "WCD10-B11-F003",
+        "WCD10-B11-F004",
+        "WCD10-B11-F005",
+        "WCD10-B11-F006"
+      ],
+      "author_or_editor": "Fundación Mario Benedetti",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "第47-53行：Montevideanos为短篇集、首版1959并列出作品篇目；第60-63行：La Tregua为小说，首版在Alfa（Montevideo）；第152-155行：Gracias por el fuego为小说，1965年5月Alfa首版。实读2026-10-12。",
+      "usage": "复用基线SRC-0195；支持三件旧作的体裁与受限作品级简介/版本描述，不新增出版者等源元数据。"
+    },
+    {
+      "candidate_id": "WCD10-B11-S101",
+      "url": "https://repositoriodigital.bnp.gob.pe/bnp/recursos/2/html/jose-maria-arguedas-recursos/",
+      "title": "José María Arguedas; Recursos bibliográficos en la BNP",
+      "disposition": "new",
+      "reuse_existing_source": "",
+      "candidate_ids": [
+        "WCD10-B11-W101",
+        "WCD10-B11-W102",
+        "WCD10-B11-W103",
+        "WCD10-B11-W104",
+        "WCD10-B11-W105"
+      ],
+      "author_or_editor": "Biblioteca Nacional del Perú",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "实读2026-10-12，第60行Agua及同册故事题名；第64–65行Diamantes y pedernales 1954；第73行El Sexto 1961、La agonía de Rasu Ñiti 1962；第78行El sueño del pongo 1965并标注cuento quechua和双语。",
+      "usage": "支持逐项题名、版本、日期及直接列明的体裁/语言。"
+    },
+    {
+      "candidate_id": "WCD10-B11-S102",
+      "url": "https://biblioteca.casadelaliteratura.gob.pe/cgi-bin/koha/opac-detail.pl?biblionumber=6249",
+      "title": "El sexto / José María Arguedas; prólogo de Alberto Escobar",
+      "disposition": "new",
+      "reuse_existing_source": "",
+      "candidate_ids": [
+        "WCD10-B11-W103"
+      ],
+      "author_or_editor": "Biblioteca Mario Vargas Llosa - Casa de la Literatura Peruana",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "实读2026-10-12，第29–40行题名、责任者、小说分类与封底简介；仅该记录系2015再版，不据此确定首版年。",
+      "usage": "支持小说形式及小说人物Gabriel在利马监狱经历的有界概述。"
+    },
+    {
+      "candidate_id": "WCD10-B11-S103",
+      "url": "https://biblioteca.casadelaliteratura.gob.pe/cgi-bin/koha/opac-detail.pl?biblionumber=288&shelfbrowse_itemnumber=742",
+      "title": "La agonía de Rasu-Ñiti / José María Arguedas",
+      "disposition": "new",
+      "reuse_existing_source": "",
+      "candidate_ids": [
+        "WCD10-B11-W104"
+      ],
+      "author_or_editor": "Biblioteca Mario Vargas Llosa - Casa de la Literatura Peruana",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "实读2026-10-12，第48–51行作者、馆藏版[1964?]、 cuentos peruanos 分类与内容摘要；与BNP的1962版并存，不能据该版裁定首版。",
+      "usage": "支持短篇形式和关于舞者最后一舞及Wamani传承的有限概述。"
+    },
+    {
+      "candidate_id": "WCD10-B11-S104",
+      "url": "https://biblioteca.casadelaliteratura.gob.pe/cgi-bin/koha/opac-detail.pl?biblionumber=289+thumbnail-shelfbrowser",
+      "title": "Amor mundo y todos los cuentos de José María Arguedas",
+      "disposition": "new",
+      "reuse_existing_source": "",
+      "candidate_ids": [
+        "WCD10-B11-W106"
+      ],
+      "author_or_editor": "Biblioteca Mario Vargas Llosa - Casa de la Literatura Peruana",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "实读2026-10-12，第48–54行作者、1967首版和Cuentos peruanos分类；第54行列收录篇目。",
+      "usage": "支持该短篇集/合集的书目身份、体裁和目录题名。"
+    },
+    {
+      "candidate_id": "WCD10-B11-S105",
+      "url": "https://www.casadelaliteratura.gob.pe/un-recorrido-por-la-obra-literaria-de-jose-maria-arguedas/",
+      "title": "Un recorrido por la obra literaria de José María Arguedas",
+      "disposition": "reuse",
+      "reuse_existing_source": "SRC-0198",
+      "candidate_ids": [
+        "WCD10-B11-W101"
+      ],
+      "author_or_editor": "Casa de la Literatura Peruana",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "实读2026-10-12，第30–40行列按时序展示的主要作品，并列Agua (1935)。规范化URL复用SRC-0198原B级。",
+      "usage": "支持Agua作为作者主要作品及1935年书目身份；不把来源级别等同学术覆盖。"
+    },
+    {
+      "candidate_id": "WCD10-B11-S201",
+      "url": "https://cvc.cervantes.es/literatura/escritores/pitol/bibliografia.htm",
+      "title": "CVC. Sergio Pitol. Bibliografía",
+      "disposition": "reuse",
+      "reuse_existing_source": "SRC-0201",
+      "candidate_ids": [
+        "WCD10-B11-W201",
+        "WCD10-B11-F201",
+        "WCD10-B11-F202",
+        "WCD10-B11-F203",
+        "WCD10-B11-W202",
+        "WCD10-B11-F204",
+        "WCD10-B11-F205",
+        "WCD10-B11-F206",
+        "WCD10-B11-W203",
+        "WCD10-B11-F209",
+        "WCD10-B11-F210",
+        "WCD10-B11-W204",
+        "WCD10-B11-F211",
+        "WCD10-B11-F213",
+        "WCD10-B11-F214"
+      ],
+      "author_or_editor": "Centro Virtual Cervantes; Valentina Valverde (bibliografía)",
+      "publisher": "Instituto Cervantes",
+      "format": "web_page",
+      "language": "es",
+      "publication_date": "undated",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "实读2026-10-12：Narrativa第7、11、13、24、28、30项列 El tañido de una flauta (1972)、Juegos florales (1982)、Vals de Mefisto (1984)、El viaje (2000)、El mago de Viena (2005)、Trilogía de la memoria (2007)；第51–57行列 Obras reunidas各卷。",
+      "usage": "支持作者书目中的题名、出版者、所载版本年份及对象层级；不把机构目录本身称为作品专门研究。",
+      "candidate_source_id": "WCD10-B11-S201",
+      "publication_year": "undated"
+    },
+    {
+      "candidate_id": "WCD10-B11-S202",
+      "url": "https://www.anagrama-ed.es/autor/pitol-sergio-858",
+      "title": "Sergio Pitol — Editorial Anagrama",
+      "disposition": "new",
+      "reuse_existing_source": null,
+      "candidate_ids": [
+        "WCD10-B11-W201",
+        "WCD10-B11-F201",
+        "WCD10-B11-F202",
+        "WCD10-B11-F203",
+        "WCD10-B11-W202",
+        "WCD10-B11-F204",
+        "WCD10-B11-F205",
+        "WCD10-B11-F206",
+        "WCD10-B11-W203",
+        "WCD10-B11-F207",
+        "WCD10-B11-F208",
+        "WCD10-B11-F210",
+        "WCD10-B11-W204",
+        "WCD10-B11-F211",
+        "WCD10-B11-F214",
+        "WCD10-B11-F215",
+        "WCD10-B11-F216",
+        "WCD10-B11-F217",
+        "WCD10-B11-F218",
+        "WCD10-B11-F219",
+        "WCD10-B11-F220"
+      ],
+      "author_or_editor": "Editorial Anagrama",
+      "publisher": "Editorial Anagrama",
+      "format": "web_page",
+      "language": "es",
+      "publication_date": "undated (page accessed 2026-10-12)",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "实读2026-10-12：作者简介第62–64行区分五部小说、短篇集与Trilogía de la Memoria；第63行说明El viaje、El mago de Viena属于跨文类记忆三部曲；第62行将El tañido/Juegos列为小说，所列1986/1985与CVC的原书目年份不同。",
+      "usage": "用于简短、范围受限的文类说明和版次差异注记；不把出版机构简介提升为学术研究。",
+      "candidate_source_id": "WCD10-B11-S202",
+      "publication_year": "undated (page accessed 2026-10-12)"
+    },
+    {
+      "candidate_id": "WCD10-B11-S203",
+      "url": "https://revistas-filologicas.unam.mx/literatura-mexicana/index.php/lm/article/view/324",
+      "title": "Sergio Pitol. El arte de la fuga. México: Era, 1996",
+      "disposition": "reuse",
+      "reuse_existing_source": "SRC-0304",
+      "candidate_ids": [
+        "WCD10-B11-F222"
+      ],
+      "author_or_editor": "Armando Pereira; Instituto de Investigaciones Filológicas, UNAM",
+      "publisher": "UNAM, Instituto de Investigaciones Filológicas",
+      "format": "journal_review",
+      "language": "es",
+      "publication_date": "1998",
+      "source_level": "C",
+      "access_status": "OPENED",
+      "locator": "实读2026-10-12：网页第21行书评题名与Era 1996版；第31–36行作者、机构及摘要描述。摘要称作品以记忆为中心，组合回忆、阅读、绘画和旅行等片段；仅据此形成一句有边界的作品简介。",
+      "usage": "支持El arte de la fuga书目及受限作品简介；沿用既有SRC-0304的C级，不升级来源等级。",
+      "candidate_source_id": "WCD10-B11-S203",
+      "publication_year": "1998"
+    },
+    {
+      "candidate_id": "WCD10-B11-S204",
+      "candidate_source_id": "WCD10-B11-S204",
+      "url": "https://www.anagrama-ed.es/libro/compactos/el-mago-de-viena/9788433951113/CM_883",
+      "title": "El mago de Viena — Sergio Pitol — Editorial Anagrama",
+      "original_title": "El mago de Viena",
+      "author_or_editor": "Editorial Anagrama",
+      "publisher": "Editorial Anagrama",
+      "publication_year": "2026-10-21 (listed edition date; not first publication year)",
+      "format": "publisher_book_page",
+      "language": "es",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "accessed_at": "2026-10-12",
+      "locator": "实读2026-10-12：第62–65行作品题名、作者和简述；第79–83行/152–155行说明片段形式、记忆、写作、喜爱的作家与旅行。第115–117行列本页面版本发布日期2026-10-21，仅识别当前版次，不作首发年。",
+      "usage": "直接支持El mago de Viena的有限内容简介和当前版次信息；不把当前版次日期作为作品首发年份。",
+      "disposition": "new",
+      "candidate_ids": [
+        "WCD10-B11-F212"
+      ]
+    }
+  ],
+  "new_entities": [
+    {
+      "candidate_id": "WCD10-B11-W001",
+      "author_id": "V1-ENT-0238",
+      "entity_type": "work",
+      "original_name": "Quién de nosotros",
+      "name_zh_candidate": "《我们之中的谁》",
+      "name_policy": "中文为检索工作译名，西班牙语原题为身份锚点，不声称存在正式中文译本。",
+      "rationale": "Fundación Mario Benedetti作者作品目录直接列出作品题名、类别及可用书目信息；仅作有来源的普通书目与内容补充。",
+      "created_source_refs": [
+        "WCD10-B11-S001"
+      ],
+      "facts": [
+        {
+          "field": "first_publication_year",
+          "value": "1953",
+          "source_refs": [
+            "WCD10-B11-S001"
+          ],
+          "fact_candidate_id": "WCD10-B11-W001-F01"
+        },
+        {
+          "field": "genre_or_form",
+          "value": "长篇小说",
+          "source_refs": [
+            "WCD10-B11-S001"
+          ],
+          "fact_candidate_id": "WCD10-B11-W001-F02"
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "Benedetti早期小说创作的起点；基金会称其为作者第一部小说，并记录后续版本。",
+          "source_refs": [
+            "WCD10-B11-S001"
+          ],
+          "fact_candidate_id": "WCD10-B11-W001-F03"
+        },
+        {
+          "field": "bibliographic_note",
+          "value": "基金会将《Quién de nosotros》列为贝内德蒂的第一部小说，并记载1953年《Número》首版及其后的再版。",
+          "source_refs": [
+            "WCD10-B11-S001"
+          ],
+          "fact_candidate_id": "WCD10-B11-W001-F04"
+        }
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B11-W002",
+      "author_id": "V1-ENT-0238",
+      "entity_type": "collection",
+      "original_name": "Poemas de la oficina",
+      "name_zh_candidate": "《办公室诗》",
+      "name_policy": "中文为检索工作译名，西班牙语原题为身份锚点，不声称存在正式中文译本。",
+      "rationale": "Fundación Mario Benedetti作者作品目录直接列出作品题名、类别及可用书目信息；仅作有来源的普通书目与内容补充。",
+      "created_source_refs": [
+        "WCD10-B11-S001"
+      ],
+      "facts": [
+        {
+          "field": "first_publication_year",
+          "value": "1956",
+          "source_refs": [
+            "WCD10-B11-S001"
+          ],
+          "fact_candidate_id": "WCD10-B11-W002-F01"
+        },
+        {
+          "field": "genre_or_form",
+          "value": "诗集",
+          "source_refs": [
+            "WCD10-B11-S001"
+          ],
+          "fact_candidate_id": "WCD10-B11-W002-F02"
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "基金会称该诗集是贝内德蒂的重要作品之一，并指出作者认为它是首部在读者中产生实际反响的书。",
+          "source_refs": [
+            "WCD10-B11-S001"
+          ],
+          "fact_candidate_id": "WCD10-B11-W002-F03"
+        },
+        {
+          "field": "bibliographic_note",
+          "value": "基金会称该诗集是贝内德蒂重要作品之一，并指出作者承认它是首部在读者中产生实际反响的书；首版为1956年《Número》。",
+          "source_refs": [
+            "WCD10-B11-S001"
+          ],
+          "fact_candidate_id": "WCD10-B11-W002-F04"
+        }
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B11-W003",
+      "author_id": "V1-ENT-0238",
+      "entity_type": "collection",
+      "original_name": "Esta mañana",
+      "name_zh_candidate": "《今天早晨》",
+      "name_policy": "中文为检索工作译名，西班牙语原题为身份锚点，不声称存在正式中文译本。",
+      "rationale": "Fundación Mario Benedetti作者作品目录直接列出作品题名、类别及可用书目信息；仅作有来源的普通书目与内容补充。",
+      "created_source_refs": [
+        "WCD10-B11-S001"
+      ],
+      "facts": [
+        {
+          "field": "first_publication_year",
+          "value": "1949",
+          "source_refs": [
+            "WCD10-B11-S001"
+          ],
+          "fact_candidate_id": "WCD10-B11-W003-F01"
+        },
+        {
+          "field": "genre_or_form",
+          "value": "短篇小说集",
+          "source_refs": [
+            "WCD10-B11-S001"
+          ],
+          "fact_candidate_id": "WCD10-B11-W003-F02"
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "短篇集收录九篇作品，基金会所列篇目从同名故事延伸至《Como un ladrón》《Idilio》等。",
+          "source_refs": [
+            "WCD10-B11-S001"
+          ],
+          "fact_candidate_id": "WCD10-B11-W003-F03"
+        },
+        {
+          "field": "bibliographic_note",
+          "value": "基金会列出本书收录的九篇短篇，包括同名篇、Como un ladrón、Idilio与La lluvia y los hongos。",
+          "source_refs": [
+            "WCD10-B11-S001"
+          ],
+          "fact_candidate_id": "WCD10-B11-W003-F04"
+        }
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B11-W004",
+      "author_id": "V1-ENT-0238",
+      "entity_type": "work",
+      "original_name": "El cumpleaños de Juan Ángel",
+      "name_zh_candidate": "《胡安·安赫尔的生日》",
+      "name_policy": "中文为检索工作译名，西班牙语原题为身份锚点，不声称存在正式中文译本。",
+      "rationale": "Fundación Mario Benedetti作者作品目录直接列出作品题名、类别及可用书目信息；仅作有来源的普通书目与内容补充。",
+      "created_source_refs": [
+        "WCD10-B11-S002"
+      ],
+      "facts": [
+        {
+          "field": "first_publication_year",
+          "value": "1971",
+          "source_refs": [
+            "WCD10-B11-S002"
+          ],
+          "fact_candidate_id": "WCD10-B11-W004-F01"
+        },
+        {
+          "field": "genre_or_form",
+          "value": "诗体小说",
+          "source_refs": [
+            "WCD10-B11-S002"
+          ],
+          "fact_candidate_id": "WCD10-B11-W004-F02"
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "作品以诗体小说形式展开；基金会称其具有形式实验性，并记录1971年首版。",
+          "source_refs": [
+            "WCD10-B11-S002"
+          ],
+          "fact_candidate_id": "WCD10-B11-W004-F03"
+        },
+        {
+          "field": "bibliographic_note",
+          "value": "基金会将其称为诗体小说，并指出它是贝内德蒂较具形式实验性的作品；首版于1971年在墨西哥出版。",
+          "source_refs": [
+            "WCD10-B11-S002"
+          ],
+          "fact_candidate_id": "WCD10-B11-W004-F04"
+        }
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B11-W005",
+      "author_id": "V1-ENT-0238",
+      "entity_type": "collection",
+      "original_name": "Con y sin nostalgia",
+      "name_zh_candidate": "《有与无乡愁》",
+      "name_policy": "中文为检索工作译名，西班牙语原题为身份锚点，不声称存在正式中文译本。",
+      "rationale": "Fundación Mario Benedetti作者作品目录直接列出作品题名、类别及可用书目信息；仅作有来源的普通书目与内容补充。",
+      "created_source_refs": [
+        "WCD10-B11-S003"
+      ],
+      "facts": [
+        {
+          "field": "first_publication_year",
+          "value": "1977",
+          "source_refs": [
+            "WCD10-B11-S003"
+          ],
+          "fact_candidate_id": "WCD10-B11-W005-F01"
+        },
+        {
+          "field": "genre_or_form",
+          "value": "短篇小说集",
+          "source_refs": [
+            "WCD10-B11-S003"
+          ],
+          "fact_candidate_id": "WCD10-B11-W005-F02"
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "短篇集收录多篇故事，基金会列出的篇目包括《Sobre el éxodo》《La vecina orilla》。",
+          "source_refs": [
+            "WCD10-B11-S003"
+          ],
+          "fact_candidate_id": "WCD10-B11-W005-F03"
+        },
+        {
+          "field": "bibliographic_note",
+          "value": "基金会记录其1977年由墨西哥Siglo XXI出版，并列出收录的短篇题名，包括Sobre el éxodo与La vecina orilla。",
+          "source_refs": [
+            "WCD10-B11-S003"
+          ],
+          "fact_candidate_id": "WCD10-B11-W005-F04"
+        }
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B11-W006",
+      "author_id": "V1-ENT-0238",
+      "entity_type": "work",
+      "original_name": "Pedro y el capitán",
+      "name_zh_candidate": "《佩德罗与上尉》",
+      "name_policy": "中文为检索工作译名，西班牙语原题为身份锚点，不声称存在正式中文译本。",
+      "rationale": "Fundación Mario Benedetti作者作品目录直接列出作品题名、类别及可用书目信息；仅作有来源的普通书目与内容补充。",
+      "created_source_refs": [
+        "WCD10-B11-S003"
+      ],
+      "facts": [
+        {
+          "field": "first_publication_year",
+          "value": "1979",
+          "source_refs": [
+            "WCD10-B11-S003"
+          ],
+          "fact_candidate_id": "WCD10-B11-W006-F01"
+        },
+        {
+          "field": "genre_or_form",
+          "value": "戏剧",
+          "source_refs": [
+            "WCD10-B11-S003"
+          ],
+          "fact_candidate_id": "WCD10-B11-W006-F02"
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "戏剧作品于1979年在墨西哥出版并由流亡中的El Galpón剧团首演；基金会称其为贝内德蒂上演次数最多的戏剧。",
+          "source_refs": [
+            "WCD10-B11-S003"
+          ],
+          "fact_candidate_id": "WCD10-B11-W006-F03"
+        },
+        {
+          "field": "bibliographic_note",
+          "value": "基金会称这是贝内德蒂上演次数最多的戏剧，并记载1979年墨西哥出版及同年首演。",
+          "source_refs": [
+            "WCD10-B11-S003"
+          ],
+          "fact_candidate_id": "WCD10-B11-W006-F04"
+        }
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B11-W007",
+      "author_id": "V1-ENT-0238",
+      "entity_type": "work",
+      "original_name": "Primavera con una esquina rota",
+      "name_zh_candidate": "《破碎一角的春天》",
+      "name_policy": "中文为检索工作译名，西班牙语原题为身份锚点，不声称存在正式中文译本。",
+      "rationale": "Fundación Mario Benedetti作者作品目录直接列出作品题名、类别及可用书目信息；仅作有来源的普通书目与内容补充。",
+      "created_source_refs": [
+        "WCD10-B11-S003"
+      ],
+      "facts": [
+        {
+          "field": "genre_or_form",
+          "value": "小说",
+          "source_refs": [
+            "WCD10-B11-S003"
+          ],
+          "fact_candidate_id": "WCD10-B11-W007-F02"
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "基金会将本小说列为作者流亡期间的重要创作；本条只记录其直接归属及书目身份。",
+          "source_refs": [
+            "WCD10-B11-S003"
+          ],
+          "fact_candidate_id": "WCD10-B11-W007-F03"
+        },
+        {
+          "field": "bibliographic_note",
+          "value": "基金会将其列为贝内德蒂流亡期间创作的代表小说之一。",
+          "source_refs": [
+            "WCD10-B11-S003"
+          ],
+          "fact_candidate_id": "WCD10-B11-W007-F04"
+        }
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B11-W101",
+      "author_id": "V1-ENT-0248",
+      "entity_type": "collection",
+      "original_name": "Agua",
+      "name_zh_candidate": "《水》",
+      "name_policy": "中文为工作译名，西班牙语题名为身份锚点；未宣称为正式中文出版译名。",
+      "rationale": "补入有直接馆藏或图书馆书目支持的Arguedas作品/合集；不追求全集或学术覆盖。",
+      "created_source_refs": [
+        "WCD10-B11-S101",
+        "WCD10-B11-S105"
+      ],
+      "facts": [
+        {
+          "field": "first_publication_year",
+          "value": "1935",
+          "source_refs": [
+            "WCD10-B11-S101",
+            "WCD10-B11-S105"
+          ]
+        },
+        {
+          "field": "genre_or_form",
+          "value": "短篇小说集",
+          "source_refs": [
+            "WCD10-B11-S101",
+            "WCD10-B11-S105"
+          ]
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "《Agua》首版同册还收录《Los escoleros》和《Warma kuyay》；仅按目录记录说明该故事集。",
+          "source_refs": [
+            "WCD10-B11-S101"
+          ]
+        }
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B11-W102",
+      "author_id": "V1-ENT-0248",
+      "entity_type": "work",
+      "original_name": "Diamantes y pedernales",
+      "name_zh_candidate": "《钻石与燧石》",
+      "name_policy": "中文为工作译名，西班牙语题名为身份锚点；未宣称为正式中文出版译名。",
+      "rationale": "补入有直接馆藏或图书馆书目支持的Arguedas作品/合集；不追求全集或学术覆盖。",
+      "created_source_refs": [
+        "WCD10-B11-S101"
+      ],
+      "facts": [
+        {
+          "field": "first_publication_year",
+          "value": "1954",
+          "source_refs": [
+            "WCD10-B11-S101"
+          ]
+        },
+        {
+          "field": "genre_or_form",
+          "value": "小说",
+          "source_refs": [
+            "WCD10-B11-S101"
+          ]
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "Arguedas于1954年出版的小说；本条限于书目身份和体裁，不增加主题解释。",
+          "source_refs": [
+            "WCD10-B11-S101"
+          ]
+        }
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B11-W103",
+      "author_id": "V1-ENT-0248",
+      "entity_type": "work",
+      "original_name": "El Sexto",
+      "name_zh_candidate": "《第六监狱》",
+      "name_policy": "中文为工作译名，西班牙语题名为身份锚点；未宣称为正式中文出版译名。",
+      "rationale": "补入有直接馆藏或图书馆书目支持的Arguedas作品/合集；不追求全集或学术覆盖。",
+      "created_source_refs": [
+        "WCD10-B11-S101",
+        "WCD10-B11-S102"
+      ],
+      "facts": [
+        {
+          "field": "first_publication_year",
+          "value": "1961",
+          "source_refs": [
+            "WCD10-B11-S101"
+          ]
+        },
+        {
+          "field": "genre_or_form",
+          "value": "小说",
+          "source_refs": [
+            "WCD10-B11-S101",
+            "WCD10-B11-S102"
+          ]
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "小说人物Gabriel讲述自己在利马El Sexto监狱的经历；简介限于馆藏版本封底所载。",
+          "source_refs": [
+            "WCD10-B11-S102"
+          ]
+        }
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B11-W104",
+      "author_id": "V1-ENT-0248",
+      "entity_type": "work",
+      "original_name": "La agonía de Rasu-Ñiti",
+      "name_zh_candidate": "《拉苏-尼蒂的临终》",
+      "name_policy": "中文为工作译名，西班牙语题名为身份锚点；未宣称为正式中文出版译名。",
+      "rationale": "补入有直接馆藏或图书馆书目支持的Arguedas作品/合集；不追求全集或学术覆盖。",
+      "created_source_refs": [
+        "WCD10-B11-S101",
+        "WCD10-B11-S103"
+      ],
+      "facts": [
+        {
+          "field": "bibliographic_note",
+          "value": "BNP目录记录1962年版，Casa馆藏记录[1964?]版；版本首发口径未定，原子年份留空。",
+          "source_refs": [
+            "WCD10-B11-S101",
+            "WCD10-B11-S103"
+          ]
+        },
+        {
+          "field": "genre_or_form",
+          "value": "短篇小说",
+          "source_refs": [
+            "WCD10-B11-S101",
+            "WCD10-B11-S103"
+          ]
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "短篇小说写剪刀舞者Rasu-Ñiti临终前最后一舞，并将Wamani精神传给徒弟；限于馆藏简介。",
+          "source_refs": [
+            "WCD10-B11-S103"
+          ]
+        }
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B11-W105",
+      "author_id": "V1-ENT-0248",
+      "entity_type": "work",
+      "original_name": "El sueño del pongo",
+      "name_zh_candidate": "《仆人的梦》",
+      "name_policy": "中文为工作译名，西班牙语题名为身份锚点；未宣称为正式中文出版译名。",
+      "rationale": "补入有直接馆藏或图书馆书目支持的Arguedas作品/合集；不追求全集或学术覆盖。",
+      "created_source_refs": [
+        "WCD10-B11-S101"
+      ],
+      "facts": [
+        {
+          "field": "first_publication_year",
+          "value": "1965",
+          "source_refs": [
+            "WCD10-B11-S101"
+          ]
+        },
+        {
+          "field": "genre_or_form",
+          "value": "盖丘亚语故事",
+          "source_refs": [
+            "WCD10-B11-S101"
+          ]
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "1965年版目录将其著录为盖丘亚语故事，并说明文本为盖丘亚语和西班牙语双语。",
+          "source_refs": [
+            "WCD10-B11-S101"
+          ]
+        },
+        {
+          "field": "bibliographic_note",
+          "value": "BNP说明该故事并非Arguedas原创；他记述自己在利马听一位Qatqa社区成员讲述后，将其以盖丘亚语和西班牙语出版。",
+          "source_refs": [
+            "WCD10-B11-S101"
+          ]
+        }
+      ],
+      "created_description_zh": "Arguedas整理并出版其听自Qatqa社区成员的盖丘亚传统故事，版本附盖丘亚语和西班牙语文本；不主张其为原创创作。"
+    },
+    {
+      "candidate_id": "WCD10-B11-W106",
+      "author_id": "V1-ENT-0248",
+      "entity_type": "collection",
+      "original_name": "Amor mundo y todos los cuentos de José María Arguedas",
+      "name_zh_candidate": "《爱情世界与阿格达斯短篇集》",
+      "name_policy": "中文为工作译名，西班牙语题名为身份锚点；未宣称为正式中文出版译名。",
+      "rationale": "补入有直接馆藏或图书馆书目支持的Arguedas作品/合集；不追求全集或学术覆盖。",
+      "created_source_refs": [
+        "WCD10-B11-S104"
+      ],
+      "facts": [
+        {
+          "field": "first_publication_year",
+          "value": "1967",
+          "source_refs": [
+            "WCD10-B11-S104"
+          ]
+        },
+        {
+          "field": "genre_or_form",
+          "value": "短篇小说集",
+          "source_refs": [
+            "WCD10-B11-S104"
+          ]
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "1967年首版的短篇小说集，馆藏目录列出其中包括Agua、Warma Kuyay、La agonía de Rasu-Ñiti等篇目。",
+          "source_refs": [
+            "WCD10-B11-S104"
+          ]
+        }
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B11-W201",
+      "author_id": "V1-ENT-0249",
+      "entity_type": "work",
+      "original_name": "El tañido de una flauta",
+      "name_zh_candidate": "《长笛之声》",
+      "name_policy": "中文仅为本轮工作译名；以西班牙语原题识别，不主张已核实正式中文译本名。",
+      "rationale": "CVC作者书目直接列出该独立作品，且与既有皮托尔作品实体逐题去重后未发现相同对象；文类和简介限于直接来源所述。",
+      "created_source_refs": [
+        "WCD10-B11-S201",
+        "WCD10-B11-S202"
+      ],
+      "facts": [
+        {
+          "field": "genre_or_form",
+          "value": "小说",
+          "source_refs": [
+            "WCD10-B11-S201",
+            "WCD10-B11-S202"
+          ],
+          "fact_candidate_id": "WCD10-B11-F201"
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "塞万提斯学院书目将《El tañido de una flauta》列入皮托尔叙事作品；Anagrama也将其列作小说。",
+          "source_refs": [
+            "WCD10-B11-S201",
+            "WCD10-B11-S202"
+          ],
+          "fact_candidate_id": "WCD10-B11-F202"
+        },
+        {
+          "field": "bibliographic_note",
+          "value": "Centro Virtual Cervantes列Era（墨西哥）1972年版；Anagrama作者简介在小说清单中列1986年。两来源可能对应不同版本/书目口径，原子首发年暂留空，不将差异强行归并。",
+          "source_refs": [
+            "WCD10-B11-S201",
+            "WCD10-B11-S202"
+          ],
+          "fact_candidate_id": "WCD10-B11-F203"
+        }
+      ],
+      "created_description_zh": "塞尔希奥·皮托尔创作《长笛之声》（El tañido de una flauta）。"
+    },
+    {
+      "candidate_id": "WCD10-B11-W202",
+      "author_id": "V1-ENT-0249",
+      "entity_type": "work",
+      "original_name": "Juegos florales",
+      "name_zh_candidate": "《花卉节》",
+      "name_policy": "中文仅为本轮工作译名；以西班牙语原题识别，不主张已核实正式中文译本名。",
+      "rationale": "CVC作者书目直接列出该独立作品，且与既有皮托尔作品实体逐题去重后未发现相同对象；文类和简介限于直接来源所述。",
+      "created_source_refs": [
+        "WCD10-B11-S201",
+        "WCD10-B11-S202"
+      ],
+      "facts": [
+        {
+          "field": "genre_or_form",
+          "value": "小说",
+          "source_refs": [
+            "WCD10-B11-S201",
+            "WCD10-B11-S202"
+          ],
+          "fact_candidate_id": "WCD10-B11-F204"
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "塞万提斯学院与Anagrama均把《Juegos florales》列为皮托尔小说。",
+          "source_refs": [
+            "WCD10-B11-S201",
+            "WCD10-B11-S202"
+          ],
+          "fact_candidate_id": "WCD10-B11-F205"
+        },
+        {
+          "field": "bibliographic_note",
+          "value": "Centro Virtual Cervantes书目列Siglo XXI（墨西哥）1982年版，Anagrama作者简介列1985年；未核定原版与后续版次关系，原子首发年留空。",
+          "source_refs": [
+            "WCD10-B11-S201",
+            "WCD10-B11-S202"
+          ],
+          "fact_candidate_id": "WCD10-B11-F206"
+        }
+      ],
+      "created_description_zh": "塞尔希奥·皮托尔创作《花卉节》（Juegos florales）。"
+    },
+    {
+      "candidate_id": "WCD10-B11-W203",
+      "author_id": "V1-ENT-0249",
+      "entity_type": "work",
+      "original_name": "El viaje",
+      "name_zh_candidate": "《旅程》",
+      "name_policy": "中文仅为本轮工作译名；以西班牙语原题识别，不主张已核实正式中文译本名。",
+      "rationale": "CVC作者书目直接列出该独立作品，且与既有皮托尔作品实体逐题去重后未发现相同对象；文类和简介限于直接来源所述。",
+      "created_source_refs": [
+        "WCD10-B11-S201",
+        "WCD10-B11-S202"
+      ],
+      "facts": [
+        {
+          "field": "genre_or_form",
+          "value": "跨文类记忆写作",
+          "source_refs": [
+            "WCD10-B11-S202"
+          ],
+          "fact_candidate_id": "WCD10-B11-F207"
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "Anagrama将《El viaje》与《El arte de la fuga》《El mago de Viena》并列为跨文类记忆三部曲。",
+          "source_refs": [
+            "WCD10-B11-S202"
+          ],
+          "fact_candidate_id": "WCD10-B11-F208"
+        },
+        {
+          "field": "first_publication_year",
+          "value": "2000",
+          "source_refs": [
+            "WCD10-B11-S201"
+          ],
+          "fact_candidate_id": "WCD10-B11-F209"
+        },
+        {
+          "field": "bibliographic_note",
+          "value": "CVC作者书目列Era（墨西哥）2000年；Anagrama列2001年为其出版目录中的版本，故此候选仅采用CVC所列2000年墨西哥版。",
+          "source_refs": [
+            "WCD10-B11-S201",
+            "WCD10-B11-S202"
+          ],
+          "fact_candidate_id": "WCD10-B11-F210"
+        }
+      ],
+      "created_description_zh": "塞尔希奥·皮托尔创作《旅程》（El viaje）。"
+    },
+    {
+      "candidate_id": "WCD10-B11-W204",
+      "author_id": "V1-ENT-0249",
+      "entity_type": "work",
+      "original_name": "El mago de Viena",
+      "name_zh_candidate": "《维也纳魔法师》",
+      "name_policy": "中文仅为本轮工作译名；以西班牙语原题识别，不主张已核实正式中文译本名。",
+      "rationale": "CVC作者书目直接列出该独立作品，且与既有皮托尔作品实体逐题去重后未发现相同对象；文类和简介限于直接来源所述。",
+      "created_source_refs": [
+        "WCD10-B11-S201",
+        "WCD10-B11-S202"
+      ],
+      "facts": [
+        {
+          "field": "genre_or_form",
+          "value": "散文/记忆写作",
+          "source_refs": [
+            "WCD10-B11-S201",
+            "WCD10-B11-S202"
+          ],
+          "fact_candidate_id": "WCD10-B11-F211"
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "Anagrama介绍该书以片段交织记忆、写作、喜爱的作家与旅行，并呈现皮托尔对阅读和创作的思考。",
+          "source_refs": [
+            "WCD10-B11-S204"
+          ],
+          "fact_candidate_id": "WCD10-B11-F212"
+        },
+        {
+          "field": "first_publication_year",
+          "value": "2005",
+          "source_refs": [
+            "WCD10-B11-S201"
+          ],
+          "fact_candidate_id": "WCD10-B11-F213"
+        },
+        {
+          "field": "bibliographic_note",
+          "value": "CVC列Pre-Textos（瓦伦西亚）2005年版；Anagrama将其与《El arte de la fuga》《El viaje》并列为记忆三部曲。",
+          "source_refs": [
+            "WCD10-B11-S201",
+            "WCD10-B11-S202"
+          ],
+          "fact_candidate_id": "WCD10-B11-F214"
+        }
+      ],
+      "created_description_zh": "塞尔希奥·皮托尔创作《维也纳魔法师》（El mago de Viena）。"
+    }
+  ],
+  "existing_facts": [
+    {
+      "candidate_id": "WCD10-B11-F001",
+      "subject_id": "V1-ENT-0245",
+      "field": "genre_or_form",
+      "value": "小说",
+      "source_refs": [
+        "WCD10-B11-S004"
+      ],
+      "boundary": "追加缺失体裁/有限简介；保留全部基线事实及其来源链。"
+    },
+    {
+      "candidate_id": "WCD10-B11-F002",
+      "subject_id": "V1-ENT-0245",
+      "field": "one_sentence_summary",
+      "value": "基金会将《La tregua》列为贝内德蒂的知名小说，并记载其推动作者国际影响、曾有多次再版及影视改编。",
+      "source_refs": [
+        "WCD10-B11-S004"
+      ],
+      "boundary": "追加缺失体裁/有限简介；保留全部基线事实及其来源链。"
+    },
+    {
+      "candidate_id": "WCD10-B11-F003",
+      "subject_id": "V1-ENT-0246",
+      "field": "genre_or_form",
+      "value": "小说",
+      "source_refs": [
+        "WCD10-B11-S004"
+      ],
+      "boundary": "追加缺失体裁/有限简介；保留全部基线事实及其来源链。"
+    },
+    {
+      "candidate_id": "WCD10-B11-F004",
+      "subject_id": "V1-ENT-0246",
+      "field": "one_sentence_summary",
+      "value": "基金会记载《Gracias por el fuego》于1965年5月由蒙得维的亚Alfa首次出版，并于1972年达到第九版。",
+      "source_refs": [
+        "WCD10-B11-S004"
+      ],
+      "boundary": "追加缺失体裁/有限简介；保留全部基线事实及其来源链。"
+    },
+    {
+      "candidate_id": "WCD10-B11-F005",
+      "subject_id": "V1-ENT-0247",
+      "field": "genre_or_form",
+      "value": "短篇小说集",
+      "source_refs": [
+        "WCD10-B11-S004"
+      ],
+      "boundary": "追加缺失体裁/有限简介；保留全部基线事实及其来源链。"
+    },
+    {
+      "candidate_id": "WCD10-B11-F006",
+      "subject_id": "V1-ENT-0247",
+      "field": "one_sentence_summary",
+      "value": "基金会列出《Montevideanos》所收短篇，包括“Puntero izquierdo”“Los pocillos”等篇目。",
+      "source_refs": [
+        "WCD10-B11-S004"
+      ],
+      "boundary": "追加缺失体裁/有限简介；保留全部基线事实及其来源链。"
+    },
+    {
+      "candidate_id": "WCD10-B11-F101",
+      "subject_id": "V1-ENT-0251",
+      "field": "genre_or_form",
+      "value": "小说",
+      "source_refs": [
+        "WCD10-B11-S101"
+      ],
+      "boundary": "仅采纳BNP同一作者资源页L36/L45/L52/L58的体裁和对象简介；不增加人物事实、主题关系或其他解释。"
+    },
+    {
+      "candidate_id": "WCD10-B11-F102",
+      "subject_id": "V1-ENT-0251",
+      "field": "one_sentence_summary",
+      "value": "小说以安第斯地区传统与现代生活之间的冲突为背景。",
+      "source_refs": [
+        "WCD10-B11-S101"
+      ],
+      "boundary": "仅采纳BNP同一作者资源页L36/L45/L52/L58的体裁和对象简介；不增加人物事实、主题关系或其他解释。"
+    },
+    {
+      "candidate_id": "WCD10-B11-F103",
+      "subject_id": "V1-ENT-0252",
+      "field": "genre_or_form",
+      "value": "小说",
+      "source_refs": [
+        "WCD10-B11-S101"
+      ],
+      "boundary": "仅采纳BNP同一作者资源页L36/L45/L52/L58的体裁和对象简介；不增加人物事实、主题关系或其他解释。"
+    },
+    {
+      "candidate_id": "WCD10-B11-F104",
+      "subject_id": "V1-ENT-0252",
+      "field": "one_sentence_summary",
+      "value": "小说描写少年埃内斯托生活于安第斯与混血文化两个世界之间。",
+      "source_refs": [
+        "WCD10-B11-S101"
+      ],
+      "boundary": "仅采纳BNP同一作者资源页L36/L45/L52/L58的体裁和对象简介；不增加人物事实、主题关系或其他解释。"
+    },
+    {
+      "candidate_id": "WCD10-B11-F105",
+      "subject_id": "V1-ENT-0253",
+      "field": "genre_or_form",
+      "value": "小说",
+      "source_refs": [
+        "WCD10-B11-S101"
+      ],
+      "boundary": "仅采纳BNP同一作者资源页L36/L45/L52/L58的体裁和对象简介；不增加人物事实、主题关系或其他解释。"
+    },
+    {
+      "candidate_id": "WCD10-B11-F106",
+      "subject_id": "V1-ENT-0253",
+      "field": "one_sentence_summary",
+      "value": "小说通过不同地理和社会场景呈现秘鲁社会的地域与文化多样性。",
+      "source_refs": [
+        "WCD10-B11-S101"
+      ],
+      "boundary": "仅采纳BNP同一作者资源页L36/L45/L52/L58的体裁和对象简介；不增加人物事实、主题关系或其他解释。"
+    },
+    {
+      "candidate_id": "WCD10-B11-F107",
+      "subject_id": "V1-ENT-0378",
+      "field": "one_sentence_summary",
+      "value": "小说于作者逝世后出版；BNP介绍将作品与作者的个人危机及对秘鲁现代化的失望联系起来。",
+      "source_refs": [
+        "WCD10-B11-S101"
+      ],
+      "boundary": "仅采纳BNP同一作者资源页L36/L45/L52/L58的体裁和对象简介；不增加人物事实、主题关系或其他解释。"
+    },
+    {
+      "candidate_id": "WCD10-B11-F215",
+      "subject_id": "V1-ENT-0254",
+      "field": "genre_or_form",
+      "value": "小说",
+      "source_refs": [
+        "WCD10-B11-S202"
+      ],
+      "boundary": "只追加此候选字段；保留该对象所有现存同字段/异字段事实及完整来源链，不执行覆盖或冲突裁决。"
+    },
+    {
+      "candidate_id": "WCD10-B11-F216",
+      "subject_id": "V1-ENT-0254",
+      "field": "one_sentence_summary",
+      "value": "Anagrama称该小说获1984年Herralde小说奖。",
+      "source_refs": [
+        "WCD10-B11-S202"
+      ],
+      "boundary": "只追加此候选字段；保留该对象所有现存同字段/异字段事实及完整来源链，不执行覆盖或冲突裁决。"
+    },
+    {
+      "candidate_id": "WCD10-B11-F217",
+      "subject_id": "V1-ENT-0255",
+      "field": "genre_or_form",
+      "value": "小说",
+      "source_refs": [
+        "WCD10-B11-S202"
+      ],
+      "boundary": "只追加此候选字段；保留该对象所有现存同字段/异字段事实及完整来源链，不执行覆盖或冲突裁决。"
+    },
+    {
+      "candidate_id": "WCD10-B11-F218",
+      "subject_id": "V1-ENT-0255",
+      "field": "one_sentence_summary",
+      "value": "Anagrama将本书与《爱情游行》《婚姻生活》并列组成Tríptico del Carnaval。",
+      "source_refs": [
+        "WCD10-B11-S202"
+      ],
+      "boundary": "只追加此候选字段；保留该对象所有现存同字段/异字段事实及完整来源链，不执行覆盖或冲突裁决。"
+    },
+    {
+      "candidate_id": "WCD10-B11-F219",
+      "subject_id": "V1-ENT-0256",
+      "field": "genre_or_form",
+      "value": "小说",
+      "source_refs": [
+        "WCD10-B11-S202"
+      ],
+      "boundary": "只追加此候选字段；保留该对象所有现存同字段/异字段事实及完整来源链，不执行覆盖或冲突裁决。"
+    },
+    {
+      "candidate_id": "WCD10-B11-F220",
+      "subject_id": "V1-ENT-0256",
+      "field": "one_sentence_summary",
+      "value": "Anagrama将本书与《爱情游行》《驯服神圣苍鹭》并列组成Tríptico del Carnaval。",
+      "source_refs": [
+        "WCD10-B11-S202"
+      ],
+      "boundary": "只追加此候选字段；保留该对象所有现存同字段/异字段事实及完整来源链，不执行覆盖或冲突裁决。"
+    },
+    {
+      "candidate_id": "WCD10-B11-F222",
+      "subject_id": "V1-ENT-0375",
+      "field": "one_sentence_summary",
+      "value": "Armando Pereira的书评称本书以记忆为中心，并交织回忆、阅读、绘画和旅行片段。",
+      "source_refs": [
+        "WCD10-B11-S203"
+      ],
+      "boundary": "只追加此候选字段；保留该对象所有现存同字段/异字段事实及完整来源链，不执行覆盖或冲突裁决。"
+    }
+  ],
+  "extra_relationships": [],
+  "deferred": [
+    {
+      "key": "benedetti.primavera-con-una-esquina-rota.first_publication_year",
+      "reason": "已实读基金会1973-1983作品页，仅列作品及流亡期间创作背景，未提供1982首版年份；保留原有体裁、受限简介和非空书目注记，待有直接年份来源时再补。",
+      "disposition": "preserve year as research_gap; DEC-070 permits nonempty bibliographic_note without atomic year"
+    },
+    {
+      "key": "arguedas.rasu_niti.first_publication_year",
+      "reason": "BNP目录显示1962版，Casa馆藏Populibros记录标作[1964?]；单一首发值未定。",
+      "disposition": "bibliographic note records both observed versions; atomic year blank"
+    },
+    {
+      "author_id": "V1-ENT-0249",
+      "title_candidates": [
+        "Nocturno de Bujara",
+        "Vals de Mefisto"
+      ],
+      "reason": "Anagrama称Vals de Mefisto原题Nocturno de Bujara；CVC却分别列1981年Nocturno与1984年Vals。为避免把重题/改版关系误当两件作品或未经审定合并，本轮不新建第二对象，交父审核决定是否作为一个作品对象及版本注记处理。",
+      "key": "pitol.vals-de-mefisto.nocturno-de-bujara.identity-version",
+      "disposition": "preserve as catalog_only and research_gap; do not create duplicate work pending identity/version reconciliation"
+    }
+  ],
+  "source_scope_decisions": [
+    {
+      "decision": "fresh_registration",
+      "candidate_source_id": "WCD10-B11-S001",
+      "url": "https://fundacionmariobenedetti.uy/obras/",
+      "candidate_ids": [
+        "WCD10-B11-W001",
+        "WCD10-B11-W002",
+        "WCD10-B11-W003",
+        "WCD10-B11-W001-F01",
+        "WCD10-B11-W001-F02",
+        "WCD10-B11-W001-F03",
+        "WCD10-B11-W001-F04",
+        "WCD10-B11-W002-F01",
+        "WCD10-B11-W002-F02",
+        "WCD10-B11-W002-F03",
+        "WCD10-B11-W002-F04",
+        "WCD10-B11-W003-F01",
+        "WCD10-B11-W003-F02",
+        "WCD10-B11-W003-F03",
+        "WCD10-B11-W003-F04"
+      ],
+      "boundary": "已实际打开相应基金会作者作品目录页，按直接作品书目与机构说明使用。"
+    },
+    {
+      "decision": "fresh_registration",
+      "candidate_source_id": "WCD10-B11-S002",
+      "url": "https://fundacionmariobenedetti.uy/obras-66-72/",
+      "candidate_ids": [
+        "WCD10-B11-W004",
+        "WCD10-B11-W004-F01",
+        "WCD10-B11-W004-F02",
+        "WCD10-B11-W004-F03",
+        "WCD10-B11-W004-F04"
+      ],
+      "boundary": "已实际打开相应基金会作者作品目录页，按直接作品书目与机构说明使用。"
+    },
+    {
+      "decision": "fresh_registration",
+      "candidate_source_id": "WCD10-B11-S003",
+      "url": "https://fundacionmariobenedetti.uy/obras-73-83/",
+      "candidate_ids": [
+        "WCD10-B11-W005",
+        "WCD10-B11-W006",
+        "WCD10-B11-W007",
+        "WCD10-B11-W005-F01",
+        "WCD10-B11-W005-F02",
+        "WCD10-B11-W005-F03",
+        "WCD10-B11-W005-F04",
+        "WCD10-B11-W006-F01",
+        "WCD10-B11-W006-F02",
+        "WCD10-B11-W006-F03",
+        "WCD10-B11-W006-F04",
+        "WCD10-B11-W007-F02",
+        "WCD10-B11-W007-F03",
+        "WCD10-B11-W007-F04"
+      ],
+      "boundary": "已实际打开相应基金会作者作品目录页，按直接作品书目与机构说明使用。"
+    },
+    {
+      "decision": "reuse_existing_source",
+      "candidate_source_id": "WCD10-B11-S004",
+      "reuse_existing_source": "SRC-0195",
+      "url": "https://fundacionmariobenedetti.uy/obras-59-65/",
+      "candidate_ids": [
+        "WCD10-B11-F001",
+        "WCD10-B11-F002",
+        "WCD10-B11-F003",
+        "WCD10-B11-F004",
+        "WCD10-B11-F005",
+        "WCD10-B11-F006"
+      ],
+      "boundary": "复用基线同URL来源，仅以新实读确认的作品页内容支持本批候选事实；不改写源元数据。"
+    },
+    {
+      "decision": "reuse_existing_source",
+      "source_id": "SRC-0198",
+      "url": "https://www.casadelaliteratura.gob.pe/un-recorrido-por-la-obra-literaria-de-jose-maria-arguedas/",
+      "reuse_existing_source": "SRC-0198",
+      "candidate_ids": [
+        "WCD10-B11-S105",
+        "WCD10-B11-W101"
+      ],
+      "boundary": "URL与SRC-0198规范化相同，沿用原B级及元数据。"
+    },
+    {
+      "decision": "register_new_source",
+      "source_id": "",
+      "url": "https://repositoriodigital.bnp.gob.pe/bnp/recursos/2/html/jose-maria-arguedas-recursos/",
+      "reuse_existing_source": "",
+      "candidate_ids": [
+        "WCD10-B11-S101",
+        "WCD10-B11-W101",
+        "WCD10-B11-W102",
+        "WCD10-B11-W103",
+        "WCD10-B11-W104",
+        "WCD10-B11-W105"
+      ],
+      "boundary": "来源页面已打开，按普通机构书目/馆藏B级登记，不推定学术研究覆盖。"
+    },
+    {
+      "decision": "register_new_source",
+      "source_id": "",
+      "url": "https://biblioteca.casadelaliteratura.gob.pe/cgi-bin/koha/opac-detail.pl?biblionumber=6249",
+      "reuse_existing_source": "",
+      "candidate_ids": [
+        "WCD10-B11-S102",
+        "WCD10-B11-W103"
+      ],
+      "boundary": "来源页面已打开，按普通机构书目/馆藏B级登记，不推定学术研究覆盖。"
+    },
+    {
+      "decision": "register_new_source",
+      "source_id": "",
+      "url": "https://biblioteca.casadelaliteratura.gob.pe/cgi-bin/koha/opac-detail.pl?biblionumber=288&shelfbrowse_itemnumber=742",
+      "reuse_existing_source": "",
+      "candidate_ids": [
+        "WCD10-B11-S103",
+        "WCD10-B11-W104"
+      ],
+      "boundary": "来源页面已打开，按普通机构书目/馆藏B级登记，不推定学术研究覆盖。"
+    },
+    {
+      "decision": "register_new_source",
+      "source_id": "",
+      "url": "https://biblioteca.casadelaliteratura.gob.pe/cgi-bin/koha/opac-detail.pl?biblionumber=289+thumbnail-shelfbrowser",
+      "reuse_existing_source": "",
+      "candidate_ids": [
+        "WCD10-B11-S104",
+        "WCD10-B11-W106"
+      ],
+      "boundary": "来源页面已打开，按普通机构书目/馆藏B级登记，不推定学术研究覆盖。"
+    },
+    {
+      "decision": "reuse_existing_source",
+      "source_id": "SRC-0201",
+      "candidate_source_id": "WCD10-B11-S201",
+      "url": "https://cvc.cervantes.es/literatura/escritores/pitol/bibliografia.htm",
+      "candidate_ids": [
+        "WCD10-B11-W201",
+        "WCD10-B11-F201",
+        "WCD10-B11-F202",
+        "WCD10-B11-F203",
+        "WCD10-B11-W202",
+        "WCD10-B11-F204",
+        "WCD10-B11-F205",
+        "WCD10-B11-F206",
+        "WCD10-B11-W203",
+        "WCD10-B11-F209",
+        "WCD10-B11-F210",
+        "WCD10-B11-W204",
+        "WCD10-B11-F211",
+        "WCD10-B11-F213",
+        "WCD10-B11-F214"
+      ],
+      "boundary": "支持作者书目中的题名、出版者、所载版本年份及对象层级；不把机构目录本身称为作品专门研究。"
+    },
+    {
+      "decision": "fresh_registration",
+      "source_id": null,
+      "candidate_source_id": "WCD10-B11-S202",
+      "url": "https://www.anagrama-ed.es/autor/pitol-sergio-858",
+      "candidate_ids": [
+        "WCD10-B11-W201",
+        "WCD10-B11-F201",
+        "WCD10-B11-F202",
+        "WCD10-B11-F203",
+        "WCD10-B11-W202",
+        "WCD10-B11-F204",
+        "WCD10-B11-F205",
+        "WCD10-B11-F206",
+        "WCD10-B11-W203",
+        "WCD10-B11-F207",
+        "WCD10-B11-F208",
+        "WCD10-B11-F210",
+        "WCD10-B11-W204",
+        "WCD10-B11-F211",
+        "WCD10-B11-F214",
+        "WCD10-B11-F215",
+        "WCD10-B11-F216",
+        "WCD10-B11-F217",
+        "WCD10-B11-F218",
+        "WCD10-B11-F219",
+        "WCD10-B11-F220"
+      ],
+      "boundary": "用于简短、范围受限的文类说明和版次差异注记；不把出版机构简介提升为学术研究。"
+    },
+    {
+      "decision": "reuse_existing_source",
+      "source_id": "SRC-0304",
+      "candidate_source_id": "WCD10-B11-S203",
+      "url": "https://revistas-filologicas.unam.mx/literatura-mexicana/index.php/lm/article/view/324",
+      "candidate_ids": [
+        "WCD10-B11-F222"
+      ],
+      "boundary": "支持El arte de la fuga书目及受限作品简介；沿用既有SRC-0304的C级，不升级来源等级。"
+    },
+    {
+      "decision": "fresh_registration",
+      "source_id": null,
+      "candidate_source_id": "WCD10-B11-S204",
+      "url": "https://www.anagrama-ed.es/libro/compactos/el-mago-de-viena/9788433951113/CM_883",
+      "candidate_ids": [
+        "WCD10-B11-F212"
+      ],
+      "boundary": "直接支持El mago de Viena的有限内容简介和当前版次信息；不把当前版次日期作为作品首发年份。"
+    }
+  ]
+}

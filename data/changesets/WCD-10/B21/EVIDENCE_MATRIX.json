@@ -1,0 +1,636 @@
+{
+  "task_id": "TASK-126",
+  "batch_id": "WCD-10-B21",
+  "baseline_database_sha256": "db16fe4f5faaafcfca3b02b42c52d56bb9b11d63704d2de49201d1f328e0a0ba",
+  "entries": [
+    {
+      "candidate_id": "WCD10-B21-F001",
+      "entity_candidate_id": null,
+      "subject_id": "V1-ENT-0367",
+      "field": "one_sentence_summary",
+      "value": "小说把Santos Luzardo重返阿普雷平原、接手Altamira庄园的经历，与Doña Bárbara所代表的土地权力和暴力相对照，呈现人物在冲突中的改变。",
+      "source_refs": [
+        "WCD10-B21-S002"
+      ],
+      "source_title": "Rómulo Gallegos",
+      "url": "https://www.anhvenezuela.org.ve/wp-content/uploads/2024/06/ROMULO-GALLEGOS-S.-A.-CONSALVI-BBV-41.pdf",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "实读2026-10-15，PDF《Biblioteca Biográfica Venezolana》印刷页53–56、66–72、74–77、91–95、102–104、115–121及140：列《Los aventureros》(1913)及作品简介、《El Último Solar》(1920)及后续《Reinaldo Solar》脉络、《La Trepadora》(1925)、《Doña Bárbara》(1929)、《Cantaclaro》(1934)、《Canaima》(1935)、《Pobre Negro》(1937)、《El Forastero》(1942)、《Sobre la misma tierra》(章节标1943)；第140页说明流亡时期两部小说的题材。",
+      "support_assessment": "direct",
+      "claim_boundary": "仅限来源直接支持的书目、体裁或简介，不推导未支持的版本、影响或解释关系。"
+    },
+    {
+      "candidate_id": "WCD10-B21-F002",
+      "entity_candidate_id": null,
+      "subject_id": "V1-ENT-0368",
+      "field": "one_sentence_summary",
+      "value": "小说以委内瑞拉平原为背景，围绕歌者Florentino展开；传记将作品描述为富有歌唱性、诗性叙述和传奇氛围。",
+      "source_refs": [
+        "WCD10-B21-S002"
+      ],
+      "source_title": "Rómulo Gallegos",
+      "url": "https://www.anhvenezuela.org.ve/wp-content/uploads/2024/06/ROMULO-GALLEGOS-S.-A.-CONSALVI-BBV-41.pdf",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "实读2026-10-15，PDF《Biblioteca Biográfica Venezolana》印刷页53–56、66–72、74–77、91–95、102–104、115–121及140：列《Los aventureros》(1913)及作品简介、《El Último Solar》(1920)及后续《Reinaldo Solar》脉络、《La Trepadora》(1925)、《Doña Bárbara》(1929)、《Cantaclaro》(1934)、《Canaima》(1935)、《Pobre Negro》(1937)、《El Forastero》(1942)、《Sobre la misma tierra》(章节标1943)；第140页说明流亡时期两部小说的题材。",
+      "support_assessment": "direct",
+      "claim_boundary": "仅依据ANH传记第92–94页对Florentino、平原场景及作品叙述气质的介绍，不新增未见于来源的情节。"
+    },
+    {
+      "candidate_id": "WCD10-B21-F003",
+      "entity_candidate_id": null,
+      "subject_id": "V1-ENT-0369",
+      "field": "one_sentence_summary",
+      "value": "小说以圭亚那为背景，写冒险者Marcos Vargas遭遇的旅途、暴力冲突及其与当地人物的较量，并以壮阔景观构成叙事的重要部分。",
+      "source_refs": [
+        "WCD10-B21-S002"
+      ],
+      "source_title": "Rómulo Gallegos",
+      "url": "https://www.anhvenezuela.org.ve/wp-content/uploads/2024/06/ROMULO-GALLEGOS-S.-A.-CONSALVI-BBV-41.pdf",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "实读2026-10-15，PDF《Biblioteca Biográfica Venezolana》印刷页53–56、66–72、74–77、91–95、102–104、115–121及140：列《Los aventureros》(1913)及作品简介、《El Último Solar》(1920)及后续《Reinaldo Solar》脉络、《La Trepadora》(1925)、《Doña Bárbara》(1929)、《Cantaclaro》(1934)、《Canaima》(1935)、《Pobre Negro》(1937)、《El Forastero》(1942)、《Sobre la misma tierra》(章节标1943)；第140页说明流亡时期两部小说的题材。",
+      "support_assessment": "direct",
+      "claim_boundary": "仅限来源直接支持的书目、体裁或简介，不推导未支持的版本、影响或解释关系。"
+    },
+    {
+      "candidate_id": "WCD10-B21-F004",
+      "entity_candidate_id": "WCD10-B21-W001",
+      "subject_id": "WCD10-B21-W001",
+      "field": "genre_or_form",
+      "value": "小说",
+      "source_refs": [
+        "WCD10-B21-S001"
+      ],
+      "source_title": "Rómulo Gallegos",
+      "url": "https://www.anhvenezuela.org.ve/wp-content/uploads/2024/06/ROMULO-GALLEGOS-S.-A.-CONSALVI-BBV-41.pdf",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "实读2026-10-15，PDF《Biblioteca Biográfica Venezolana》印刷页53–56、66–72、74–77、91–95、102–104、115–121及140：列《Los aventureros》(1913)及作品简介、《El Último Solar》(1920)及后续《Reinaldo Solar》脉络、《La Trepadora》(1925)、《Doña Bárbara》(1929)、《Cantaclaro》(1934)、《Canaima》(1935)、《Pobre Negro》(1937)、《El Forastero》(1942)、《Sobre la misma tierra》(章节标1943)；第140页说明流亡时期两部小说的题材。",
+      "support_assessment": "direct",
+      "claim_boundary": "仅限来源直接支持的书目、体裁或简介，不推导未支持的版本、影响或解释关系。"
+    },
+    {
+      "candidate_id": "WCD10-B21-F004",
+      "entity_candidate_id": "WCD10-B21-W001",
+      "subject_id": "WCD10-B21-W001",
+      "field": "genre_or_form",
+      "value": "小说",
+      "source_refs": [
+        "WCD10-B21-S002"
+      ],
+      "source_title": "Rómulo Gallegos",
+      "url": "https://www.anhvenezuela.org.ve/wp-content/uploads/2024/06/ROMULO-GALLEGOS-S.-A.-CONSALVI-BBV-41.pdf",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "实读2026-10-15，PDF《Biblioteca Biográfica Venezolana》印刷页53–56、66–72、74–77、91–95、102–104、115–121及140：列《Los aventureros》(1913)及作品简介、《El Último Solar》(1920)及后续《Reinaldo Solar》脉络、《La Trepadora》(1925)、《Doña Bárbara》(1929)、《Cantaclaro》(1934)、《Canaima》(1935)、《Pobre Negro》(1937)、《El Forastero》(1942)、《Sobre la misma tierra》(章节标1943)；第140页说明流亡时期两部小说的题材。",
+      "support_assessment": "direct",
+      "claim_boundary": "仅限来源直接支持的书目、体裁或简介，不推导未支持的版本、影响或解释关系。"
+    },
+    {
+      "candidate_id": "WCD10-B21-F006",
+      "entity_candidate_id": "WCD10-B21-W001",
+      "subject_id": "WCD10-B21-W001",
+      "field": "bibliographic_note",
+      "value": "资料记载《El Último Solar》于1920年出版，之后经修改和删节后以《Reinaldo Solar》于1930年再版；本候选以修订再版题名作为作品身份，不把旧题名重复建成另一对象。",
+      "source_refs": [
+        "WCD10-B21-S001"
+      ],
+      "source_title": "Rómulo Gallegos",
+      "url": "https://www.anhvenezuela.org.ve/wp-content/uploads/2024/06/ROMULO-GALLEGOS-S.-A.-CONSALVI-BBV-41.pdf",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "实读2026-10-15，PDF《Biblioteca Biográfica Venezolana》印刷页53–56、66–72、74–77、91–95、102–104、115–121及140：列《Los aventureros》(1913)及作品简介、《El Último Solar》(1920)及后续《Reinaldo Solar》脉络、《La Trepadora》(1925)、《Doña Bárbara》(1929)、《Cantaclaro》(1934)、《Canaima》(1935)、《Pobre Negro》(1937)、《El Forastero》(1942)、《Sobre la misma tierra》(章节标1943)；第140页说明流亡时期两部小说的题材。",
+      "support_assessment": "direct",
+      "claim_boundary": "仅限来源直接支持的书目、体裁或简介，不推导未支持的版本、影响或解释关系。"
+    },
+    {
+      "candidate_id": "WCD10-B21-F006",
+      "entity_candidate_id": "WCD10-B21-W001",
+      "subject_id": "WCD10-B21-W001",
+      "field": "bibliographic_note",
+      "value": "资料记载《El Último Solar》于1920年出版，之后经修改和删节后以《Reinaldo Solar》于1930年再版；本候选以修订再版题名作为作品身份，不把旧题名重复建成另一对象。",
+      "source_refs": [
+        "WCD10-B21-S002"
+      ],
+      "source_title": "Rómulo Gallegos",
+      "url": "https://www.anhvenezuela.org.ve/wp-content/uploads/2024/06/ROMULO-GALLEGOS-S.-A.-CONSALVI-BBV-41.pdf",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "实读2026-10-15，PDF《Biblioteca Biográfica Venezolana》印刷页53–56、66–72、74–77、91–95、102–104、115–121及140：列《Los aventureros》(1913)及作品简介、《El Último Solar》(1920)及后续《Reinaldo Solar》脉络、《La Trepadora》(1925)、《Doña Bárbara》(1929)、《Cantaclaro》(1934)、《Canaima》(1935)、《Pobre Negro》(1937)、《El Forastero》(1942)、《Sobre la misma tierra》(章节标1943)；第140页说明流亡时期两部小说的题材。",
+      "support_assessment": "direct",
+      "claim_boundary": "仅限来源直接支持的书目、体裁或简介，不推导未支持的版本、影响或解释关系。"
+    },
+    {
+      "candidate_id": "WCD10-B21-F007",
+      "entity_candidate_id": "WCD10-B21-W001",
+      "subject_id": "WCD10-B21-W001",
+      "field": "one_sentence_summary",
+      "value": "小说围绕家族衰落后的最后代表Reinaldo展开，他在恢复家族庄园、公共理想与个人生活之间不断摇摆，最终走向未定的政治冒险。",
+      "source_refs": [
+        "WCD10-B21-S002"
+      ],
+      "source_title": "Rómulo Gallegos",
+      "url": "https://www.anhvenezuela.org.ve/wp-content/uploads/2024/06/ROMULO-GALLEGOS-S.-A.-CONSALVI-BBV-41.pdf",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "实读2026-10-15，PDF《Biblioteca Biográfica Venezolana》印刷页53–56、66–72、74–77、91–95、102–104、115–121及140：列《Los aventureros》(1913)及作品简介、《El Último Solar》(1920)及后续《Reinaldo Solar》脉络、《La Trepadora》(1925)、《Doña Bárbara》(1929)、《Cantaclaro》(1934)、《Canaima》(1935)、《Pobre Negro》(1937)、《El Forastero》(1942)、《Sobre la misma tierra》(章节标1943)；第140页说明流亡时期两部小说的题材。",
+      "support_assessment": "direct",
+      "claim_boundary": "仅限来源直接支持的书目、体裁或简介，不推导未支持的版本、影响或解释关系。"
+    },
+    {
+      "candidate_id": "WCD10-B21-F008",
+      "entity_candidate_id": "WCD10-B21-W002",
+      "subject_id": "WCD10-B21-W002",
+      "field": "genre_or_form",
+      "value": "小说",
+      "source_refs": [
+        "WCD10-B21-S002"
+      ],
+      "source_title": "Rómulo Gallegos",
+      "url": "https://www.anhvenezuela.org.ve/wp-content/uploads/2024/06/ROMULO-GALLEGOS-S.-A.-CONSALVI-BBV-41.pdf",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "实读2026-10-15，PDF《Biblioteca Biográfica Venezolana》印刷页53–56、66–72、74–77、91–95、102–104、115–121及140：列《Los aventureros》(1913)及作品简介、《El Último Solar》(1920)及后续《Reinaldo Solar》脉络、《La Trepadora》(1925)、《Doña Bárbara》(1929)、《Cantaclaro》(1934)、《Canaima》(1935)、《Pobre Negro》(1937)、《El Forastero》(1942)、《Sobre la misma tierra》(章节标1943)；第140页说明流亡时期两部小说的题材。",
+      "support_assessment": "direct",
+      "claim_boundary": "仅限来源直接支持的书目、体裁或简介，不推导未支持的版本、影响或解释关系。"
+    },
+    {
+      "candidate_id": "WCD10-B21-F009",
+      "entity_candidate_id": "WCD10-B21-W002",
+      "subject_id": "WCD10-B21-W002",
+      "field": "first_publication_year",
+      "value": "1925",
+      "source_refs": [
+        "WCD10-B21-S002"
+      ],
+      "source_title": "Rómulo Gallegos",
+      "url": "https://www.anhvenezuela.org.ve/wp-content/uploads/2024/06/ROMULO-GALLEGOS-S.-A.-CONSALVI-BBV-41.pdf",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "实读2026-10-15，PDF《Biblioteca Biográfica Venezolana》印刷页53–56、66–72、74–77、91–95、102–104、115–121及140：列《Los aventureros》(1913)及作品简介、《El Último Solar》(1920)及后续《Reinaldo Solar》脉络、《La Trepadora》(1925)、《Doña Bárbara》(1929)、《Cantaclaro》(1934)、《Canaima》(1935)、《Pobre Negro》(1937)、《El Forastero》(1942)、《Sobre la misma tierra》(章节标1943)；第140页说明流亡时期两部小说的题材。",
+      "support_assessment": "direct",
+      "claim_boundary": "仅限来源直接支持的书目、体裁或简介，不推导未支持的版本、影响或解释关系。"
+    },
+    {
+      "candidate_id": "WCD10-B21-F010",
+      "entity_candidate_id": "WCD10-B21-W002",
+      "subject_id": "WCD10-B21-W002",
+      "field": "one_sentence_summary",
+      "value": "小说以咖啡采收女子Modesta Guanipa之子Hilario及其女儿Victoria为中心，写家族继承、庄园权力与爱情关系交织的变化。",
+      "source_refs": [
+        "WCD10-B21-S002"
+      ],
+      "source_title": "Rómulo Gallegos",
+      "url": "https://www.anhvenezuela.org.ve/wp-content/uploads/2024/06/ROMULO-GALLEGOS-S.-A.-CONSALVI-BBV-41.pdf",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "实读2026-10-15，PDF《Biblioteca Biográfica Venezolana》印刷页53–56、66–72、74–77、91–95、102–104、115–121及140：列《Los aventureros》(1913)及作品简介、《El Último Solar》(1920)及后续《Reinaldo Solar》脉络、《La Trepadora》(1925)、《Doña Bárbara》(1929)、《Cantaclaro》(1934)、《Canaima》(1935)、《Pobre Negro》(1937)、《El Forastero》(1942)、《Sobre la misma tierra》(章节标1943)；第140页说明流亡时期两部小说的题材。",
+      "support_assessment": "direct",
+      "claim_boundary": "仅限来源直接支持的书目、体裁或简介，不推导未支持的版本、影响或解释关系。"
+    },
+    {
+      "candidate_id": "WCD10-B21-F011",
+      "entity_candidate_id": "WCD10-B21-W003",
+      "subject_id": "WCD10-B21-W003",
+      "field": "genre_or_form",
+      "value": "小说",
+      "source_refs": [
+        "WCD10-B21-S002"
+      ],
+      "source_title": "Obras completas /",
+      "url": "https://catalogosiidca.csuca.org/Record/UP.96127/TOC",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "实读2026-10-15，目录页第26–45行：记录主作者Rómulo Gallegos、Aguilar 1958西班牙语版；第44–45行列两卷目录，包含《Reinaldo Solar》《La trepadora》《Pobre negro》《El forastero》《Sobre la misma tierra》《La brizna de paja en el viento》等。",
+      "support_assessment": "direct",
+      "claim_boundary": "仅限来源直接支持的书目、体裁或简介，不推导未支持的版本、影响或解释关系。"
+    },
+    {
+      "candidate_id": "WCD10-B21-F011",
+      "entity_candidate_id": "WCD10-B21-W003",
+      "subject_id": "WCD10-B21-W003",
+      "field": "genre_or_form",
+      "value": "小说",
+      "source_refs": [
+        "WCD10-B21-S003"
+      ],
+      "source_title": "Obras completas /",
+      "url": "https://catalogosiidca.csuca.org/Record/UP.96127/TOC",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "实读2026-10-15，目录页第26–45行：记录主作者Rómulo Gallegos、Aguilar 1958西班牙语版；第44–45行列两卷目录，包含《Reinaldo Solar》《La trepadora》《Pobre negro》《El forastero》《Sobre la misma tierra》《La brizna de paja en el viento》等。",
+      "support_assessment": "direct",
+      "claim_boundary": "仅限来源直接支持的书目、体裁或简介，不推导未支持的版本、影响或解释关系。"
+    },
+    {
+      "candidate_id": "WCD10-B21-F012",
+      "entity_candidate_id": "WCD10-B21-W003",
+      "subject_id": "WCD10-B21-W003",
+      "field": "first_publication_year",
+      "value": "1937",
+      "source_refs": [
+        "WCD10-B21-S002"
+      ],
+      "source_title": "Obras completas /",
+      "url": "https://catalogosiidca.csuca.org/Record/UP.96127/TOC",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "实读2026-10-15，目录页第26–45行：记录主作者Rómulo Gallegos、Aguilar 1958西班牙语版；第44–45行列两卷目录，包含《Reinaldo Solar》《La trepadora》《Pobre negro》《El forastero》《Sobre la misma tierra》《La brizna de paja en el viento》等。",
+      "support_assessment": "direct",
+      "claim_boundary": "仅限来源直接支持的书目、体裁或简介，不推导未支持的版本、影响或解释关系。"
+    },
+    {
+      "candidate_id": "WCD10-B21-F013",
+      "entity_candidate_id": "WCD10-B21-W003",
+      "subject_id": "WCD10-B21-W003",
+      "field": "one_sentence_summary",
+      "value": "小说以联邦战争前后的委内瑞拉为背景，描写内战、废奴之后的社会冲突及普通民众在动荡历史中的处境。",
+      "source_refs": [
+        "WCD10-B21-S002"
+      ],
+      "source_title": "Obras completas /",
+      "url": "https://catalogosiidca.csuca.org/Record/UP.96127/TOC",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "实读2026-10-15，目录页第26–45行：记录主作者Rómulo Gallegos、Aguilar 1958西班牙语版；第44–45行列两卷目录，包含《Reinaldo Solar》《La trepadora》《Pobre negro》《El forastero》《Sobre la misma tierra》《La brizna de paja en el viento》等。",
+      "support_assessment": "direct",
+      "claim_boundary": "仅限来源直接支持的书目、体裁或简介，不推导未支持的版本、影响或解释关系。"
+    },
+    {
+      "candidate_id": "WCD10-B21-F014",
+      "entity_candidate_id": "WCD10-B21-W004",
+      "subject_id": "WCD10-B21-W004",
+      "field": "genre_or_form",
+      "value": "小说",
+      "source_refs": [
+        "WCD10-B21-S002"
+      ],
+      "source_title": "Obras completas /",
+      "url": "https://catalogosiidca.csuca.org/Record/UP.96127/TOC",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "实读2026-10-15，目录页第26–45行：记录主作者Rómulo Gallegos、Aguilar 1958西班牙语版；第44–45行列两卷目录，包含《Reinaldo Solar》《La trepadora》《Pobre negro》《El forastero》《Sobre la misma tierra》《La brizna de paja en el viento》等。",
+      "support_assessment": "direct",
+      "claim_boundary": "仅限来源直接支持的书目、体裁或简介，不推导未支持的版本、影响或解释关系。"
+    },
+    {
+      "candidate_id": "WCD10-B21-F014",
+      "entity_candidate_id": "WCD10-B21-W004",
+      "subject_id": "WCD10-B21-W004",
+      "field": "genre_or_form",
+      "value": "小说",
+      "source_refs": [
+        "WCD10-B21-S003"
+      ],
+      "source_title": "Obras completas /",
+      "url": "https://catalogosiidca.csuca.org/Record/UP.96127/TOC",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "实读2026-10-15，目录页第26–45行：记录主作者Rómulo Gallegos、Aguilar 1958西班牙语版；第44–45行列两卷目录，包含《Reinaldo Solar》《La trepadora》《Pobre negro》《El forastero》《Sobre la misma tierra》《La brizna de paja en el viento》等。",
+      "support_assessment": "direct",
+      "claim_boundary": "仅限来源直接支持的书目、体裁或简介，不推导未支持的版本、影响或解释关系。"
+    },
+    {
+      "candidate_id": "WCD10-B21-F015",
+      "entity_candidate_id": "WCD10-B21-W004",
+      "subject_id": "WCD10-B21-W004",
+      "field": "first_publication_year",
+      "value": "1942",
+      "source_refs": [
+        "WCD10-B21-S002"
+      ],
+      "source_title": "Obras completas /",
+      "url": "https://catalogosiidca.csuca.org/Record/UP.96127/TOC",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "实读2026-10-15，目录页第26–45行：记录主作者Rómulo Gallegos、Aguilar 1958西班牙语版；第44–45行列两卷目录，包含《Reinaldo Solar》《La trepadora》《Pobre negro》《El forastero》《Sobre la misma tierra》《La brizna de paja en el viento》等。",
+      "support_assessment": "direct",
+      "claim_boundary": "仅限来源直接支持的书目、体裁或简介，不推导未支持的版本、影响或解释关系。"
+    },
+    {
+      "candidate_id": "WCD10-B21-F016",
+      "entity_candidate_id": "WCD10-B21-W004",
+      "subject_id": "WCD10-B21-W004",
+      "field": "bibliographic_note",
+      "value": "传记区分1921年写成而1980年才以“未刊小说”出版的早期稿本，与1942年刊行的重写版本；本候选只收1942年出版对象，不将两者误称为同一版本。",
+      "source_refs": [
+        "WCD10-B21-S002"
+      ],
+      "source_title": "Rómulo Gallegos",
+      "url": "https://www.anhvenezuela.org.ve/wp-content/uploads/2024/06/ROMULO-GALLEGOS-S.-A.-CONSALVI-BBV-41.pdf",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "实读2026-10-15，PDF《Biblioteca Biográfica Venezolana》印刷页53–56、66–72、74–77、91–95、102–104、115–121及140：列《Los aventureros》(1913)及作品简介、《El Último Solar》(1920)及后续《Reinaldo Solar》脉络、《La Trepadora》(1925)、《Doña Bárbara》(1929)、《Cantaclaro》(1934)、《Canaima》(1935)、《Pobre Negro》(1937)、《El Forastero》(1942)、《Sobre la misma tierra》(章节标1943)；第140页说明流亡时期两部小说的题材。",
+      "support_assessment": "direct",
+      "claim_boundary": "仅限来源直接支持的书目、体裁或简介，不推导未支持的版本、影响或解释关系。"
+    },
+    {
+      "candidate_id": "WCD10-B21-F017",
+      "entity_candidate_id": "WCD10-B21-W004",
+      "subject_id": "WCD10-B21-W004",
+      "field": "one_sentence_summary",
+      "value": "小说以受压迫的小镇和横行的暴君为背景；传记强调1942年重写本与早期稿在故事情节上明显不同。",
+      "source_refs": [
+        "WCD10-B21-S002"
+      ],
+      "source_title": "Obras completas /",
+      "url": "https://catalogosiidca.csuca.org/Record/UP.96127/TOC",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "实读2026-10-15，目录页第26–45行：记录主作者Rómulo Gallegos、Aguilar 1958西班牙语版；第44–45行列两卷目录，包含《Reinaldo Solar》《La trepadora》《Pobre negro》《El forastero》《Sobre la misma tierra》《La brizna de paja en el viento》等。",
+      "support_assessment": "direct",
+      "claim_boundary": "仅依据ANH传记对受压迫小镇与暴君的介绍，以及其明确指出1942年重写本与早期稿情节不同；不把任何一版其他情节概括移用于该对象。"
+    },
+    {
+      "candidate_id": "WCD10-B21-F018",
+      "entity_candidate_id": "WCD10-B21-W005",
+      "subject_id": "WCD10-B21-W005",
+      "field": "genre_or_form",
+      "value": "小说",
+      "source_refs": [
+        "WCD10-B21-S001"
+      ],
+      "source_title": "Obras completas /",
+      "url": "https://catalogosiidca.csuca.org/Record/UP.96127/TOC",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "实读2026-10-15，目录页第26–45行：记录主作者Rómulo Gallegos、Aguilar 1958西班牙语版；第44–45行列两卷目录，包含《Reinaldo Solar》《La trepadora》《Pobre negro》《El forastero》《Sobre la misma tierra》《La brizna de paja en el viento》等。",
+      "support_assessment": "direct",
+      "claim_boundary": "仅限来源直接支持的书目、体裁或简介，不推导未支持的版本、影响或解释关系。"
+    },
+    {
+      "candidate_id": "WCD10-B21-F018",
+      "entity_candidate_id": "WCD10-B21-W005",
+      "subject_id": "WCD10-B21-W005",
+      "field": "genre_or_form",
+      "value": "小说",
+      "source_refs": [
+        "WCD10-B21-S002"
+      ],
+      "source_title": "Obras completas /",
+      "url": "https://catalogosiidca.csuca.org/Record/UP.96127/TOC",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "实读2026-10-15，目录页第26–45行：记录主作者Rómulo Gallegos、Aguilar 1958西班牙语版；第44–45行列两卷目录，包含《Reinaldo Solar》《La trepadora》《Pobre negro》《El forastero》《Sobre la misma tierra》《La brizna de paja en el viento》等。",
+      "support_assessment": "direct",
+      "claim_boundary": "仅限来源直接支持的书目、体裁或简介，不推导未支持的版本、影响或解释关系。"
+    },
+    {
+      "candidate_id": "WCD10-B21-F018",
+      "entity_candidate_id": "WCD10-B21-W005",
+      "subject_id": "WCD10-B21-W005",
+      "field": "genre_or_form",
+      "value": "小说",
+      "source_refs": [
+        "WCD10-B21-S003"
+      ],
+      "source_title": "Obras completas /",
+      "url": "https://catalogosiidca.csuca.org/Record/UP.96127/TOC",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "实读2026-10-15，目录页第26–45行：记录主作者Rómulo Gallegos、Aguilar 1958西班牙语版；第44–45行列两卷目录，包含《Reinaldo Solar》《La trepadora》《Pobre negro》《El forastero》《Sobre la misma tierra》《La brizna de paja en el viento》等。",
+      "support_assessment": "direct",
+      "claim_boundary": "仅限来源直接支持的书目、体裁或简介，不推导未支持的版本、影响或解释关系。"
+    },
+    {
+      "candidate_id": "WCD10-B21-F019",
+      "entity_candidate_id": "WCD10-B21-W005",
+      "subject_id": "WCD10-B21-W005",
+      "field": "bibliographic_note",
+      "value": "资料记载分歧：Fundación Empresas Polar列《Sobre la misma tierra》为1941年；Academia Nacional de la Historia传记以1943年为章节年份。现有来源在年份记载上不一致，暂不填写首版年；此处不据此断言存在不同版本。",
+      "source_refs": [
+        "WCD10-B21-S001"
+      ],
+      "source_title": "Rómulo Gallegos",
+      "url": "https://www.anhvenezuela.org.ve/wp-content/uploads/2024/06/ROMULO-GALLEGOS-S.-A.-CONSALVI-BBV-41.pdf",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "实读2026-10-15，PDF《Biblioteca Biográfica Venezolana》印刷页53–56、66–72、74–77、91–95、102–104、115–121及140：列《Los aventureros》(1913)及作品简介、《El Último Solar》(1920)及后续《Reinaldo Solar》脉络、《La Trepadora》(1925)、《Doña Bárbara》(1929)、《Cantaclaro》(1934)、《Canaima》(1935)、《Pobre Negro》(1937)、《El Forastero》(1942)、《Sobre la misma tierra》(章节标1943)；第140页说明流亡时期两部小说的题材。",
+      "support_assessment": "direct",
+      "claim_boundary": "仅限来源直接支持的书目、体裁或简介，不推导未支持的版本、影响或解释关系。"
+    },
+    {
+      "candidate_id": "WCD10-B21-F019",
+      "entity_candidate_id": "WCD10-B21-W005",
+      "subject_id": "WCD10-B21-W005",
+      "field": "bibliographic_note",
+      "value": "资料记载分歧：Fundación Empresas Polar列《Sobre la misma tierra》为1941年；Academia Nacional de la Historia传记以1943年为章节年份。现有来源在年份记载上不一致，暂不填写首版年；此处不据此断言存在不同版本。",
+      "source_refs": [
+        "WCD10-B21-S002"
+      ],
+      "source_title": "Rómulo Gallegos",
+      "url": "https://www.anhvenezuela.org.ve/wp-content/uploads/2024/06/ROMULO-GALLEGOS-S.-A.-CONSALVI-BBV-41.pdf",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "实读2026-10-15，PDF《Biblioteca Biográfica Venezolana》印刷页53–56、66–72、74–77、91–95、102–104、115–121及140：列《Los aventureros》(1913)及作品简介、《El Último Solar》(1920)及后续《Reinaldo Solar》脉络、《La Trepadora》(1925)、《Doña Bárbara》(1929)、《Cantaclaro》(1934)、《Canaima》(1935)、《Pobre Negro》(1937)、《El Forastero》(1942)、《Sobre la misma tierra》(章节标1943)；第140页说明流亡时期两部小说的题材。",
+      "support_assessment": "direct",
+      "claim_boundary": "仅限来源直接支持的书目、体裁或简介，不推导未支持的版本、影响或解释关系。"
+    },
+    {
+      "candidate_id": "WCD10-B21-F020",
+      "entity_candidate_id": "WCD10-B21-W005",
+      "subject_id": "WCD10-B21-W005",
+      "field": "one_sentence_summary",
+      "value": "小说以苏利亚州和委内瑞拉瓜希拉地区为背景，通过Remota Montiel及当地牧民的生活，呈现贫困、土地处境与石油开发带来的变化。",
+      "source_refs": [
+        "WCD10-B21-S002"
+      ],
+      "source_title": "Obras completas /",
+      "url": "https://catalogosiidca.csuca.org/Record/UP.96127/TOC",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "实读2026-10-15，目录页第26–45行：记录主作者Rómulo Gallegos、Aguilar 1958西班牙语版；第44–45行列两卷目录，包含《Reinaldo Solar》《La trepadora》《Pobre negro》《El forastero》《Sobre la misma tierra》《La brizna de paja en el viento》等。",
+      "support_assessment": "direct",
+      "claim_boundary": "仅限来源直接支持的书目、体裁或简介，不推导未支持的版本、影响或解释关系。"
+    },
+    {
+      "candidate_id": "WCD10-B21-F021",
+      "entity_candidate_id": "WCD10-B21-W006",
+      "subject_id": "WCD10-B21-W006",
+      "field": "genre_or_form",
+      "value": "小说",
+      "source_refs": [
+        "WCD10-B21-S002"
+      ],
+      "source_title": "Obras completas /",
+      "url": "https://catalogosiidca.csuca.org/Record/UP.96127/TOC",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "实读2026-10-15，目录页第26–45行：记录主作者Rómulo Gallegos、Aguilar 1958西班牙语版；第44–45行列两卷目录，包含《Reinaldo Solar》《La trepadora》《Pobre negro》《El forastero》《Sobre la misma tierra》《La brizna de paja en el viento》等。",
+      "support_assessment": "direct",
+      "claim_boundary": "仅限来源直接支持的书目、体裁或简介，不推导未支持的版本、影响或解释关系。"
+    },
+    {
+      "candidate_id": "WCD10-B21-F021",
+      "entity_candidate_id": "WCD10-B21-W006",
+      "subject_id": "WCD10-B21-W006",
+      "field": "genre_or_form",
+      "value": "小说",
+      "source_refs": [
+        "WCD10-B21-S003"
+      ],
+      "source_title": "Obras completas /",
+      "url": "https://catalogosiidca.csuca.org/Record/UP.96127/TOC",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "实读2026-10-15，目录页第26–45行：记录主作者Rómulo Gallegos、Aguilar 1958西班牙语版；第44–45行列两卷目录，包含《Reinaldo Solar》《La trepadora》《Pobre negro》《El forastero》《Sobre la misma tierra》《La brizna de paja en el viento》等。",
+      "support_assessment": "direct",
+      "claim_boundary": "仅限来源直接支持的书目、体裁或简介，不推导未支持的版本、影响或解释关系。"
+    },
+    {
+      "candidate_id": "WCD10-B21-F022",
+      "entity_candidate_id": "WCD10-B21-W006",
+      "subject_id": "WCD10-B21-W006",
+      "field": "bibliographic_note",
+      "value": "CSUCA目录以《La brizna de paja en el viento》著录该题名，并列入Aguilar 1958年《Obras completas》第二卷；Academia传记以《Una brizna de paja en el viento》称该流亡时期小说。1958为汇编版出版年，不作为本作品首版年。",
+      "source_refs": [
+        "WCD10-B21-S002"
+      ],
+      "source_title": "Obras completas /",
+      "url": "https://catalogosiidca.csuca.org/Record/UP.96127/TOC",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "实读2026-10-15，目录页第26–45行：记录主作者Rómulo Gallegos、Aguilar 1958西班牙语版；第44–45行列两卷目录，包含《Reinaldo Solar》《La trepadora》《Pobre negro》《El forastero》《Sobre la misma tierra》《La brizna de paja en el viento》等。",
+      "support_assessment": "direct",
+      "claim_boundary": "仅限来源直接支持的书目、体裁或简介，不推导未支持的版本、影响或解释关系。"
+    },
+    {
+      "candidate_id": "WCD10-B21-F022",
+      "entity_candidate_id": "WCD10-B21-W006",
+      "subject_id": "WCD10-B21-W006",
+      "field": "bibliographic_note",
+      "value": "CSUCA目录以《La brizna de paja en el viento》著录该题名，并列入Aguilar 1958年《Obras completas》第二卷；Academia传记以《Una brizna de paja en el viento》称该流亡时期小说。1958为汇编版出版年，不作为本作品首版年。",
+      "source_refs": [
+        "WCD10-B21-S003"
+      ],
+      "source_title": "Obras completas /",
+      "url": "https://catalogosiidca.csuca.org/Record/UP.96127/TOC",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "实读2026-10-15，目录页第26–45行：记录主作者Rómulo Gallegos、Aguilar 1958西班牙语版；第44–45行列两卷目录，包含《Reinaldo Solar》《La trepadora》《Pobre negro》《El forastero》《Sobre la misma tierra》《La brizna de paja en el viento》等。",
+      "support_assessment": "direct",
+      "claim_boundary": "仅限来源直接支持的书目、体裁或简介，不推导未支持的版本、影响或解释关系。"
+    },
+    {
+      "candidate_id": "WCD10-B21-F023",
+      "entity_candidate_id": "WCD10-B21-W006",
+      "subject_id": "WCD10-B21-W006",
+      "field": "one_sentence_summary",
+      "value": "这部流亡时期创作的小说以古巴为题材，涉及大学生运动及马查多独裁政治遗留的问题。",
+      "source_refs": [
+        "WCD10-B21-S002"
+      ],
+      "source_title": "Obras completas /",
+      "url": "https://catalogosiidca.csuca.org/Record/UP.96127/TOC",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "实读2026-10-15，目录页第26–45行：记录主作者Rómulo Gallegos、Aguilar 1958西班牙语版；第44–45行列两卷目录，包含《Reinaldo Solar》《La trepadora》《Pobre negro》《El forastero》《Sobre la misma tierra》《La brizna de paja en el viento》等。",
+      "support_assessment": "direct",
+      "claim_boundary": "仅限来源直接支持的书目、体裁或简介，不推导未支持的版本、影响或解释关系。"
+    },
+    {
+      "candidate_id": "WCD10-B21-F024",
+      "entity_candidate_id": "WCD10-B21-W007",
+      "subject_id": "WCD10-B21-W007",
+      "field": "genre_or_form",
+      "value": "短篇小说集",
+      "source_refs": [
+        "WCD10-B21-S002"
+      ],
+      "source_title": "Rómulo Gallegos",
+      "url": "https://www.anhvenezuela.org.ve/wp-content/uploads/2024/06/ROMULO-GALLEGOS-S.-A.-CONSALVI-BBV-41.pdf",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "实读2026-10-15，PDF《Biblioteca Biográfica Venezolana》印刷页53–56、66–72、74–77、91–95、102–104、115–121及140：列《Los aventureros》(1913)及作品简介、《El Último Solar》(1920)及后续《Reinaldo Solar》脉络、《La Trepadora》(1925)、《Doña Bárbara》(1929)、《Cantaclaro》(1934)、《Canaima》(1935)、《Pobre Negro》(1937)、《El Forastero》(1942)、《Sobre la misma tierra》(章节标1943)；第140页说明流亡时期两部小说的题材。",
+      "support_assessment": "direct",
+      "claim_boundary": "仅限来源直接支持的书目、体裁或简介，不推导未支持的版本、影响或解释关系。"
+    },
+    {
+      "candidate_id": "WCD10-B21-F025",
+      "entity_candidate_id": "WCD10-B21-W007",
+      "subject_id": "WCD10-B21-W007",
+      "field": "first_publication_year",
+      "value": "1913",
+      "source_refs": [
+        "WCD10-B21-S002"
+      ],
+      "source_title": "Rómulo Gallegos",
+      "url": "https://www.anhvenezuela.org.ve/wp-content/uploads/2024/06/ROMULO-GALLEGOS-S.-A.-CONSALVI-BBV-41.pdf",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "实读2026-10-15，PDF《Biblioteca Biográfica Venezolana》印刷页53–56、66–72、74–77、91–95、102–104、115–121及140：列《Los aventureros》(1913)及作品简介、《El Último Solar》(1920)及后续《Reinaldo Solar》脉络、《La Trepadora》(1925)、《Doña Bárbara》(1929)、《Cantaclaro》(1934)、《Canaima》(1935)、《Pobre Negro》(1937)、《El Forastero》(1942)、《Sobre la misma tierra》(章节标1943)；第140页说明流亡时期两部小说的题材。",
+      "support_assessment": "direct",
+      "claim_boundary": "仅限来源直接支持的书目、体裁或简介，不推导未支持的版本、影响或解释关系。"
+    },
+    {
+      "candidate_id": "WCD10-B21-F026",
+      "entity_candidate_id": "WCD10-B21-W007",
+      "subject_id": "WCD10-B21-W007",
+      "field": "one_sentence_summary",
+      "value": "这部早期短篇集收录七篇故事；同名篇章写律师Jacinto Ávila与山地首领Matías Rosalira策动起义的经历。",
+      "source_refs": [
+        "WCD10-B21-S002"
+      ],
+      "source_title": "Rómulo Gallegos",
+      "url": "https://www.anhvenezuela.org.ve/wp-content/uploads/2024/06/ROMULO-GALLEGOS-S.-A.-CONSALVI-BBV-41.pdf",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "实读2026-10-15，PDF《Biblioteca Biográfica Venezolana》印刷页53–56、66–72、74–77、91–95、102–104、115–121及140：列《Los aventureros》(1913)及作品简介、《El Último Solar》(1920)及后续《Reinaldo Solar》脉络、《La Trepadora》(1925)、《Doña Bárbara》(1929)、《Cantaclaro》(1934)、《Canaima》(1935)、《Pobre Negro》(1937)、《El Forastero》(1942)、《Sobre la misma tierra》(章节标1943)；第140页说明流亡时期两部小说的题材。",
+      "support_assessment": "direct",
+      "claim_boundary": "仅限来源直接支持的书目、体裁或简介，不推导未支持的版本、影响或解释关系。"
+    },
+    {
+      "candidate_id": "WCD10-B21-F027",
+      "entity_candidate_id": "WCD10-B21-W008",
+      "subject_id": "WCD10-B21-W008",
+      "field": "genre_or_form",
+      "value": "短篇小说集",
+      "source_refs": [
+        "WCD10-B21-S004"
+      ],
+      "source_title": "La rebelión (1922) / Rómulo Gallegos",
+      "url": "https://www.cervantesvirtual.com/portales/rosalia_de_castro_ga/obra/la-rebelion-1922--0/",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "实读2026-10-15，第51–58行记作品作者、数字化目录信息、原始出版物《La rebelión y otros cuentos》(Caracas, Librería y Editorial del Maestro, 1946)及短篇叙事主题分类；第54–55行将《La rebelión》定位为该集页7–40。",
+      "support_assessment": "direct",
+      "claim_boundary": "仅限来源直接支持的书目、体裁或简介，不推导未支持的版本、影响或解释关系。"
+    },
+    {
+      "candidate_id": "WCD10-B21-F028",
+      "entity_candidate_id": "WCD10-B21-W008",
+      "subject_id": "WCD10-B21-W008",
+      "field": "bibliographic_note",
+      "value": "Cervantes数字记录所据《La rebelión y otros cuentos》为Caracas Librería y Editorial del Maestro 1946年版；不将单篇《La rebelión》页面题名中的1922年认定为合集首版年。",
+      "source_refs": [
+        "WCD10-B21-S004"
+      ],
+      "source_title": "La rebelión (1922) / Rómulo Gallegos",
+      "url": "https://www.cervantesvirtual.com/portales/rosalia_de_castro_ga/obra/la-rebelion-1922--0/",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "实读2026-10-15，第51–58行记作品作者、数字化目录信息、原始出版物《La rebelión y otros cuentos》(Caracas, Librería y Editorial del Maestro, 1946)及短篇叙事主题分类；第54–55行将《La rebelión》定位为该集页7–40。",
+      "support_assessment": "direct",
+      "claim_boundary": "仅记录数字馆藏页面标明的合集及1946年版本信息，不将单篇题名年份等同合集首版年。"
+    },
+    {
+      "candidate_id": "WCD10-B21-F029",
+      "entity_candidate_id": "WCD10-B21-W008",
+      "subject_id": "WCD10-B21-W008",
+      "field": "one_sentence_summary",
+      "value": "这部短篇小说集收录《La rebelión》等篇；图书馆数字目录将同名篇目定位在该集的页7至40。",
+      "source_refs": [
+        "WCD10-B21-S004"
+      ],
+      "source_title": "La rebelión (1922) / Rómulo Gallegos",
+      "url": "https://www.cervantesvirtual.com/portales/rosalia_de_castro_ga/obra/la-rebelion-1922--0/",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "实读2026-10-15，第51–58行记作品作者、数字化目录信息、原始出版物《La rebelión y otros cuentos》(Caracas, Librería y Editorial del Maestro, 1946)及短篇叙事主题分类；第54–55行将《La rebelión》定位为该集页7–40。",
+      "support_assessment": "direct",
+      "claim_boundary": "仅限来源直接支持的书目、体裁或简介，不推导未支持的版本、影响或解释关系。"
+    }
+  ]
+}

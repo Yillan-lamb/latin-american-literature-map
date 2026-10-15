@@ -1,0 +1,52 @@
+{
+  "task_id": "TASK-127",
+  "schema": "wcd10-evidence-matrix-v1",
+  "candidate_id": "WCD10-B05-W027",
+  "preserved_original_four_rows_path": "ORIGINAL_W03_DEFERRED_CANDIDATE.json#preserved_evidence_matrix_rows",
+  "entries": [
+    {
+      "candidate_id": "WCD10-B05-F050",
+      "object_ref": "WCD10-B05-W027",
+      "field": "genre_or_form",
+      "value": "跨文类散文诗（游记·随笔·散文诗）",
+      "source_refs": [
+        "WCD10-B05-S18"
+      ],
+      "locator": "ELEM 8815正文文类说明；历史实读2026-10-07",
+      "disposition": "active_candidate"
+    },
+    {
+      "candidate_id": "WCD10-B05-F051",
+      "object_ref": "WCD10-B05-W027",
+      "field": "one_sentence_summary",
+      "value": "据ELEM作品页文章，本书横跨多种文类：既是前往印度加尔塔的旅行记述，也是关于创作过程与旅程的随笔，又是一首探索内在与视像的散文诗；印度加尔塔的小路与剑桥的花园两个场景在其中交汇。",
+      "source_refs": [
+        "WCD10-B05-S18"
+      ],
+      "locator": "ELEM 8815正文关于Galta与Cambridge两个场景及作品构成；历史实读2026-10-07",
+      "disposition": "active_candidate"
+    },
+    {
+      "candidate_id": "WCD10-B05-F052",
+      "object_ref": "WCD10-B05-W027",
+      "field": "bibliographic_note",
+      "value": "ELEM记载法语译本 Le singe grammairien（Claude Esteban译，Skira《Les Sentiers de la Création》丛书）于1972年先行出版；西班牙语原文版由Seix Barral于1974年出版。此处分别记录已证版本，不选择 first_publication_year 原子值。",
+      "source_refs": [
+        "WCD10-B05-S18"
+      ],
+      "locator": "ELEM 8815正文所载1972法译本 + 结构化PRIMERA EDICIÓN字段所载1974西语原文版；历史实读2026-10-07",
+      "disposition": "active_candidate"
+    },
+    {
+      "candidate_id": "WCD10-B05-W03-ORIGINAL-FIRST-YEAR",
+      "object_ref": "WCD10-B05-W027",
+      "field": "first_publication_year",
+      "value": null,
+      "source_refs": [
+        "WCD10-B05-S18"
+      ],
+      "locator": "原四条证据见冻结原件；1972法译/1974西语版证据保留",
+      "disposition": "preserved_evidence_atomic_value_omitted_by_DEC070; do_not_migrate"
+    }
+  ]
+}

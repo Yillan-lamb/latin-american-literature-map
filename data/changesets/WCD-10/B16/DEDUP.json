@@ -1,0 +1,281 @@
+{
+  "task_id": "TASK-121",
+  "batch_id": "WCD-10-B16",
+  "baseline_database_sha256": "51966400aa4e9de43867e2b5c684b873be811857945151a6bc5592c2b915e7fb",
+  "works": [
+    {
+      "candidate_id": "WCD10-B16-W001",
+      "original_name": "Poeta chileno",
+      "name_zh_candidate": "《智利诗人》（暂译）",
+      "database_exact_original_title_matches": [],
+      "database_exact_chinese_display_matches": [],
+      "same_author_existing_work_semantic_review": {
+        "reviewed_existing_titles": [
+          "Bonsái",
+          "La vida privada de los árboles",
+          "Formas de volver a casa"
+        ],
+        "result": "distinct title; no same work/translation/edition identified"
+      },
+      "decision": "new candidate; independent semantic review still required"
+    },
+    {
+      "candidate_id": "WCD10-B16-W002",
+      "original_name": "Mis documentos",
+      "name_zh_candidate": "《我的文件》（暂译）",
+      "database_exact_original_title_matches": [],
+      "database_exact_chinese_display_matches": [],
+      "same_author_existing_work_semantic_review": {
+        "reviewed_existing_titles": [
+          "Bonsái",
+          "La vida privada de los árboles",
+          "Formas de volver a casa"
+        ],
+        "result": "distinct title; no same work/translation/edition identified"
+      },
+      "decision": "new candidate; independent semantic review still required"
+    },
+    {
+      "candidate_id": "WCD10-B16-W003",
+      "original_name": "Facsímil",
+      "name_zh_candidate": "《摹本》（暂译）",
+      "database_exact_original_title_matches": [],
+      "database_exact_chinese_display_matches": [],
+      "same_author_existing_work_semantic_review": {
+        "reviewed_existing_titles": [
+          "Bonsái",
+          "La vida privada de los árboles",
+          "Formas de volver a casa"
+        ],
+        "result": "distinct title; no same work/translation/edition identified"
+      },
+      "decision": "new candidate; independent semantic review still required"
+    },
+    {
+      "candidate_id": "WCD10-B16-W004",
+      "original_name": "Literatura infantil",
+      "name_zh_candidate": "《儿童文学》（暂译）",
+      "database_exact_original_title_matches": [],
+      "database_exact_chinese_display_matches": [],
+      "same_author_existing_work_semantic_review": {
+        "reviewed_existing_titles": [
+          "Bonsái",
+          "La vida privada de los árboles",
+          "Formas de volver a casa"
+        ],
+        "result": "distinct title; no same work/translation/edition identified"
+      },
+      "decision": "new candidate; independent semantic review still required"
+    },
+    {
+      "candidate_id": "WCD10-B16-W005",
+      "original_name": "No leer",
+      "name_zh_candidate": "《不读》（暂译）",
+      "database_exact_original_title_matches": [],
+      "database_exact_chinese_display_matches": [],
+      "same_author_existing_work_semantic_review": {
+        "reviewed_existing_titles": [
+          "Bonsái",
+          "La vida privada de los árboles",
+          "Formas de volver a casa"
+        ],
+        "result": "distinct title; no same work/translation/edition identified"
+      },
+      "decision": "new candidate; independent semantic review still required"
+    },
+    {
+      "candidate_id": "WCD10-B16-W006",
+      "original_name": "Tema libre",
+      "name_zh_candidate": "《自由主题》（暂译）",
+      "database_exact_original_title_matches": [],
+      "database_exact_chinese_display_matches": [],
+      "same_author_existing_work_semantic_review": {
+        "reviewed_existing_titles": [
+          "Bonsái",
+          "La vida privada de los árboles",
+          "Formas de volver a casa"
+        ],
+        "result": "distinct title; no same work/translation/edition identified"
+      },
+      "decision": "new candidate; independent semantic review still required"
+    },
+    {
+      "candidate_id": "WCD10-B16-W101",
+      "kind": "entity",
+      "disposition": "new",
+      "matches": []
+    },
+    {
+      "candidate_id": "WCD10-B16-W102",
+      "kind": "entity",
+      "disposition": "new",
+      "matches": []
+    },
+    {
+      "candidate_id": "WCD10-B16-W103",
+      "kind": "entity",
+      "disposition": "new",
+      "matches": []
+    },
+    {
+      "candidate_id": "WCD10-B16-W104",
+      "kind": "entity",
+      "disposition": "new",
+      "matches": []
+    },
+    {
+      "candidate_id": "WCD10-B16-W105",
+      "kind": "entity",
+      "disposition": "new",
+      "matches": []
+    },
+    {
+      "candidate_id": "WCD10-B16-W201",
+      "kind": "entity",
+      "disposition": "new",
+      "matches": []
+    },
+    {
+      "candidate_id": "WCD10-B16-W202",
+      "kind": "entity",
+      "disposition": "new",
+      "matches": []
+    },
+    {
+      "candidate_id": "WCD10-B16-W203",
+      "kind": "entity",
+      "disposition": "new",
+      "matches": []
+    },
+    {
+      "candidate_id": "WCD10-B16-W204",
+      "kind": "entity",
+      "disposition": "new",
+      "matches": []
+    },
+    {
+      "candidate_id": "WCD10-B16-W205",
+      "kind": "entity",
+      "disposition": "new",
+      "matches": []
+    },
+    {
+      "candidate_id": "WCD10-B16-W206",
+      "kind": "entity",
+      "disposition": "new",
+      "matches": []
+    }
+  ],
+  "sources": [
+    {
+      "candidate_id": "WCD10-B16-S001",
+      "url": "https://www.anagrama-ed.es/autor/zambra-alejandro-1146",
+      "disposition": "reuse",
+      "matches": [
+        "SRC-0239"
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B16-S002",
+      "url": "https://ediciones.udp.cl/libro/no-leer/",
+      "disposition": "fresh_registration",
+      "matches": []
+    },
+    {
+      "candidate_id": "WCD10-B16-S003",
+      "url": "https://www.anagrama-ed.es/libro/narrativas-hispanicas/poeta-chileno/9788433998934/NH_641",
+      "disposition": "fresh_registration",
+      "matches": []
+    },
+    {
+      "candidate_id": "WCD10-B16-S004",
+      "url": "https://www.anagrama-ed.es/libro/compactos/mis-documentos/9788433960252/CM_724",
+      "disposition": "fresh_registration",
+      "matches": []
+    },
+    {
+      "candidate_id": "WCD10-B16-S005",
+      "url": "https://www.anagrama-ed.es/libro/narrativas-hispanicas/facsimil/9788433999122/NH_666",
+      "disposition": "fresh_registration",
+      "matches": []
+    },
+    {
+      "candidate_id": "WCD10-B16-S006",
+      "url": "https://www.anagrama-ed.es/libro/narrativas-hispanicas/literatura-infantil/9788433905161/NH_715",
+      "disposition": "fresh_registration",
+      "matches": []
+    },
+    {
+      "candidate_id": "WCD10-B16-S007",
+      "url": "https://www.anagrama-ed.es/libro/narrativas-hispanicas/bonsai/9788433932471/NH_391",
+      "disposition": "fresh_registration",
+      "matches": []
+    },
+    {
+      "candidate_id": "WCD10-B16-S008",
+      "url": "https://www.anagrama-ed.es/libro/narrativas-hispanicas/la-vida-privada-de-los-arboles/9788433932525/NH_416",
+      "disposition": "fresh_registration",
+      "matches": []
+    },
+    {
+      "candidate_id": "WCD10-B16-S009",
+      "url": "https://www.anagrama-ed.es/libro/narrativas-hispanicas/formas-de-volver-a-casa/9788433933041/EB_84",
+      "disposition": "fresh_registration",
+      "matches": []
+    },
+    {
+      "candidate_id": "WCD10-B16-S101",
+      "kind": "source",
+      "disposition": "new",
+      "matches": []
+    },
+    {
+      "candidate_id": "WCD10-B16-S102",
+      "kind": "source",
+      "disposition": "new",
+      "matches": []
+    },
+    {
+      "candidate_id": "WCD10-B16-S103",
+      "kind": "source",
+      "disposition": "reuse",
+      "matches": [
+        "SRC-0242"
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B16-S201",
+      "url": "https://funag.gov.br/biblioteca-nova/produto/loc_pdf/314/1/biografias",
+      "disposition": "new",
+      "matches": []
+    },
+    {
+      "candidate_id": "WCD10-B16-S202",
+      "url": "https://www.record.com.br/products/sentimento-do-mundo/",
+      "disposition": "new",
+      "matches": []
+    },
+    {
+      "candidate_id": "WCD10-B16-S203",
+      "url": "https://www.academia.org.br/artigos/o-ano-drummond",
+      "disposition": "reuse",
+      "matches": [
+        "SRC-0243"
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B16-S204",
+      "url": "https://bndigital.bn.gov.br/carlos-drummond-de-andrade/",
+      "disposition": "reuse",
+      "matches": [
+        "SRC-0244"
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B16-S205",
+      "url": "https://www.record.com.br/products/contos-de-aprendiz",
+      "disposition": "new",
+      "matches": []
+    }
+  ]
+}

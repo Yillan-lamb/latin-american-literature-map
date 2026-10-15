@@ -1,0 +1,478 @@
+{
+  "task_id": "TASK-110",
+  "worker": "EXT-AI-02",
+  "log_window": "2026-09-29 至 2026-09-30（本地 UTC+8）；R2验证性重开均于2026-09-30",
+  "toolchain": "mcp webReader 初探导航 + curl(browser UA) 抓取 + 本地 HTML/PDF 文本抽取；判定以实际读到的正文为准",
+  "entries": [
+    {
+      "candidate_id": "WCD10-B05-S01",
+      "kind": "used",
+      "urls": [
+        "https://www.isabelallende.com/en/timeline"
+      ],
+      "accessed_dates": [
+        "2026-09-29"
+      ],
+      "method": "webReader+curl",
+      "read_scope": "整页时间线条目（1942-2025）通读；仅采用四部新作西语年份条目及既有1982/1984/1987核对"
+    },
+    {
+      "candidate_id": "WCD10-B05-S02",
+      "kind": "used",
+      "urls": [
+        "https://www.isabelallende.com/en/book/house",
+        "https://www.isabelallende.com/en/book/house/summary"
+      ],
+      "accessed_dates": [
+        "2026-09-29"
+      ],
+      "method": "curl",
+      "read_scope": "主页 First English edition ©1985 标记 + summary 子页两段正文（读到'The Trueba family's passions…'整段）"
+    },
+    {
+      "candidate_id": "WCD10-B05-S03",
+      "kind": "used",
+      "urls": [
+        "https://www.isabelallende.com/en/book/love",
+        "https://www.isabelallende.com/en/book/love/summary"
+      ],
+      "accessed_dates": [
+        "2026-09-29"
+      ],
+      "method": "curl",
+      "read_scope": "主页 ©1987 + summary 三段（Irene/Francisco/Evangelina 段全读）"
+    },
+    {
+      "candidate_id": "WCD10-B05-S04",
+      "kind": "used",
+      "urls": [
+        "https://www.isabelallende.com/en/book/evaluna",
+        "https://www.isabelallende.com/en/book/evaluna/summary"
+      ],
+      "accessed_dates": [
+        "2026-09-29"
+      ],
+      "method": "curl",
+      "read_scope": "主页 ©1988 + summary 两段（开篇引文与 picaresque 段）"
+    },
+    {
+      "candidate_id": "WCD10-B05-S05",
+      "kind": "used",
+      "urls": [
+        "https://www.bnf.fr/sites/default/files/2024-07/Miguel%20Asturias.pdf"
+      ],
+      "accessed_dates": [
+        "2026-09-30"
+      ],
+      "method": "curl+pypdf",
+      "read_scope": "16页PDF实读第1-4页：封面、引言（第2页全读）、小说书目（第3页）、Contes/Theatre（第4页）；第5页起未读不引用"
+    },
+    {
+      "candidate_id": "WCD10-B05-S06",
+      "kind": "used",
+      "urls": [
+        "https://bibliohumanidades.usac.edu.gt/library/index.php?title=9408"
+      ],
+      "accessed_dates": [
+        "2026-09-30"
+      ],
+      "method": "curl",
+      "read_scope": "书目字段与 Resumen 全段（封底转引，含1949 Buenos Aires、Popol Wuj、realismo mágico 措辞）"
+    },
+    {
+      "candidate_id": "WCD10-B05-S07",
+      "kind": "used",
+      "urls": [
+        "https://www.nobelprize.org/prizes/literature/1990/paz/bibliography/"
+      ],
+      "accessed_dates": [
+        "2026-09-30"
+      ],
+      "method": "curl",
+      "read_scope": "Works in Spanish 诗歌与散文书目全列表；Translations into English 段首条目已读但未引用"
+    },
+    {
+      "candidate_id": "WCD10-B05-S08",
+      "kind": "used",
+      "urls": [
+        "https://poets.org/poet/octavio-paz"
+      ],
+      "accessed_dates": [
+        "2026-09-30"
+      ],
+      "method": "curl",
+      "read_scope": "传略正文段落全读（Luna silvestre、¿Águila o sol? 描述、Piedra、laberinto、India/1968、评价段）"
+    },
+    {
+      "candidate_id": "WCD10-B05-S09",
+      "kind": "used",
+      "urls": [
+        "https://bvhumanidades.usac.edu.gt/items/show/3553"
+      ],
+      "accessed_dates": [
+        "2026-09-30"
+      ],
+      "method": "curl",
+      "read_scope": "Dublin Core 全字段（Título/Materia/Descripción/Autor/Colección/Etiquetas）"
+    },
+    {
+      "candidate_id": "WCD10-B05-S10",
+      "kind": "used",
+      "urls": [
+        "https://bvhumanidades.usac.edu.gt/items/show/3554"
+      ],
+      "accessed_dates": [
+        "2026-09-30"
+      ],
+      "method": "curl",
+      "read_scope": "Dublin Core 全字段（trilogía bananera 描述）"
+    },
+    {
+      "candidate_id": "WCD10-B05-S11",
+      "kind": "used",
+      "urls": [
+        "https://bvhumanidades.usac.edu.gt/items/show/3544"
+      ],
+      "accessed_dates": [
+        "2026-09-30"
+      ],
+      "method": "curl",
+      "read_scope": "Dublin Core 全字段（leyendas 重写+超现实主义描述）"
+    },
+    {
+      "candidate_id": "WCD10-B05-S12",
+      "kind": "used",
+      "urls": [
+        "https://www.nobelprize.org/prizes/literature/1990/paz/biographical/"
+      ],
+      "accessed_dates": [
+        "2026-09-30"
+      ],
+      "method": "curl",
+      "read_scope": "自传正文全读 + 自传书目段全读（Poesía/Prosa poética/Teatro/Ensayos 起始部分）；Translations/Paz in English 段未细读不引用"
+    },
+    {
+      "candidate_id": "WCD10-B05-S13",
+      "kind": "used",
+      "urls": [
+        "https://www.elem.mx/institucion/editorial/28/1406/false/genero/"
+      ],
+      "accessed_dates": [
+        "2026-09-30"
+      ],
+      "method": "curl",
+      "read_scope": "Mortiz(Las Dos Orillas) 目录列表整页；仅采第16条 Ladera este (1962-1968) 1969"
+    },
+    {
+      "candidate_id": "WCD10-B05-S14",
+      "kind": "used",
+      "urls": [
+        "https://www.isabelallende.com/en/book/stories",
+        "https://www.isabelallende.com/en/book/stories/summary"
+      ],
+      "accessed_dates": [
+        "2026-09-29"
+      ],
+      "method": "webReader+curl",
+      "read_scope": "主页 ©1991 + summary 正文段（Rolf Carlé 起兴、23则、Agua Santa/Marcia Lieberman 段）"
+    },
+    {
+      "candidate_id": "WCD10-B05-S15",
+      "kind": "used",
+      "urls": [
+        "https://www.isabelallende.com/en/book/paula",
+        "https://www.isabelallende.com/en/book/paula/summary"
+      ],
+      "accessed_dates": [
+        "2026-09-29"
+      ],
+      "method": "webReader+curl",
+      "read_scope": "主页 ©1995 + summary 三段（1991年12月起病、写作缘起、'Note from Isabel'）"
+    },
+    {
+      "candidate_id": "WCD10-B05-S16",
+      "kind": "used",
+      "urls": [
+        "https://www.isabelallende.com/en/book/daughter",
+        "https://www.isabelallende.com/en/book/daughter/summary"
+      ],
+      "accessed_dates": [
+        "2026-09-29"
+      ],
+      "method": "webReader+curl",
+      "read_scope": "主页 ©1999 + summary 三段（Valparaíso 开篇、北上、Tao Chi'en）"
+    },
+    {
+      "candidate_id": "WCD10-B05-S17",
+      "kind": "used",
+      "urls": [
+        "https://www.isabelallende.com/en/book/city",
+        "https://www.isabelallende.com/en/book/city/summary"
+      ],
+      "accessed_dates": [
+        "2026-09-30"
+      ],
+      "method": "webReader+curl",
+      "read_scope": "主页 ©2002（city 主页于09-30重取） + summary 正文（Alexander Cold/Nadia/People of the Mist 段）"
+    },
+    {
+      "kind": "failed_or_limited",
+      "query_or_url": "CVC 作者门户探测",
+      "urls": [
+        "https://cvc.cervantes.es/literatura/escritores/asturias/",
+        "https://cvc.cervantes.es/literatura/escritores/paz/"
+      ],
+      "accessed_dates": [
+        "2026-09-30"
+      ],
+      "result": "HTTP 200 但内容为'Página no encontrada'404页",
+      "note": "CVC 无此二作者门户；未从CVC取任何证据"
+    },
+    {
+      "kind": "failed_or_limited",
+      "query_or_url": "USAC bibliohumanidades 站内检索",
+      "urls": [
+        "https://bibliohumanidades.usac.edu.gt/library/api.php?action=query&list=search&srsearch=Asturias",
+        "...srsearch=Presidente",
+        "index.php?search=Señor&title=Special:Search&fulltext=1"
+      ],
+      "accessed_dates": [
+        "2026-09-29",
+        "2026-09-30"
+      ],
+      "result": "API 200 空结果集；全文检索页超时(exit 28, HTTP 000)",
+      "note": "该库检索不可用；条目改经外部搜索引擎定位后逐页直开核对"
+    },
+    {
+      "kind": "failed_or_limited",
+      "query_or_url": "FCE 出版社目录",
+      "urls": [
+        "https://fondodeculturaeconomica.com/buscar?query=estación+violenta",
+        "https://fondodeculturaeconomica.com/Libros/L/la-estacion-violenta"
+      ],
+      "accessed_dates": [
+        "2026-09-30"
+      ],
+      "result": "HTTP 404 ×2",
+      "note": "未取得 FCE 站内 La estación violenta/Libertad 简介页；两对象维持暂缓"
+    },
+    {
+      "kind": "failed_or_limited",
+      "query_or_url": "ELEM 站内检索与列表",
+      "urls": [
+        "https://www.elem.mx/buscador?q=Libertad+bajo+palabra",
+        "https://www.elem.mx/obra/search?q=Libertad+bajo+palabra",
+        "https://www.elem.mx/obras/poesia"
+      ],
+      "accessed_dates": [
+        "2026-09-30"
+      ],
+      "result": "200 但为 JS 壳（无服务端结果）；poesia 列表服务端仅渲染 A-Ar 段",
+      "note": "ELEM obra 详情页（含 sinopsis）本轮未能定位；仅采 Mortiz 出版目录页"
+    },
+    {
+      "kind": "failed_or_limited",
+      "query_or_url": "USAC BV 条目3653",
+      "urls": [
+        "https://bvhumanidades.usac.edu.gt/items/show/3653"
+      ],
+      "accessed_dates": [
+        "2026-09-30"
+      ],
+      "result": "200，Dublin Core 仅 YouTube 视频元数据",
+      "note": "CAUDAL 视频（Standard YouTube License）不合来源标准，未使用"
+    },
+    {
+      "kind": "failed_or_limited",
+      "query_or_url": "isabelallende.com wp-json 探测",
+      "urls": [
+        "https://www.isabelallende.com/wp-json/wp/v2/pages?slug=paula"
+      ],
+      "accessed_dates": [
+        "2026-09-29"
+      ],
+      "result": "返回站点 not_found 页",
+      "note": "改为直开 /en/book/<key>/summary 静态子页成功"
+    },
+    {
+      "kind": "failed_or_limited",
+      "query_or_url": "USAC BV 引注日期说明",
+      "urls": [
+        "https://bvhumanidades.usac.edu.gt/items/show/3553"
+      ],
+      "accessed_dates": [
+        "2026-09-30"
+      ],
+      "result": "页面引注模板渲染'consulta 29 de septiembre de 2026'（危地马拉 UTC-6 本地日）",
+      "note": "访问日志以本地 UTC+8 日期为准；不影响内容证据"
+    },
+    {
+      "candidate_id": "WCD10-B05-S18",
+      "kind": "used",
+      "urls": [
+        "https://www.elem.mx/obra/datos/8815"
+      ],
+      "accessed_dates": [
+        "2026-09-30"
+      ],
+      "method": "curl",
+      "read_scope": "结构化字段区（PRIMERA EDICIÓN/OTRAS EDICIONES/TRADUCCIONES）与专文正文全读（跨文类段/1972法译段/intertextos段/结构与主题段）；文内Castañón引文未作为独立来源"
+    },
+    {
+      "candidate_id": "WCD10-B05-S19",
+      "kind": "used",
+      "urls": [
+        "https://www.elem.mx/obra/datos/8687"
+      ],
+      "accessed_dates": [
+        "2026-09-30"
+      ],
+      "method": "curl",
+      "read_scope": "结构化字段+专文正文（写作背景/三部构成/技法/Intermitencias del Oeste段）"
+    },
+    {
+      "candidate_id": "WCD10-B05-S20",
+      "kind": "used",
+      "urls": [
+        "https://www.elem.mx/obra/datos/5746"
+      ],
+      "accessed_dates": [
+        "2026-09-30"
+      ],
+      "method": "curl",
+      "read_scope": "结构化字段+Introducción/Biografía del libro/Anatomía节（1949初版/五版本/五节构成句）"
+    },
+    {
+      "candidate_id": "WCD10-B05-S21",
+      "kind": "used",
+      "urls": [
+        "https://www.elem.mx/obra/datos/5745"
+      ],
+      "accessed_dates": [
+        "2026-09-30"
+      ],
+      "method": "curl",
+      "read_scope": "结构化字段+正文三段（封底转引九诗清单/时间主题段）"
+    },
+    {
+      "candidate_id": "WCD10-B05-S22",
+      "kind": "used",
+      "urls": [
+        "https://www.elem.mx/obra/datos/5744"
+      ],
+      "accessed_dates": [
+        "2026-09-30"
+      ],
+      "method": "curl",
+      "read_scope": "仅结构化字段（PRIMERA EDICIÓN: Tezontle 1957）"
+    },
+    {
+      "candidate_id": "WCD10-B05-S23",
+      "kind": "used",
+      "urls": [
+        "https://www.elem.mx/obra/datos/205027"
+      ],
+      "accessed_dates": [
+        "2026-09-30"
+      ],
+      "method": "curl",
+      "read_scope": "结构化字段（Cuadernos Americanos 1950/Ensayo）+首段正文（现代文学关键之作段）"
+    },
+    {
+      "candidate_id": "WCD10-B05-S24",
+      "kind": "used",
+      "urls": [
+        "https://www.fondodeculturaeconomica.com/Noticia/2290"
+      ],
+      "accessed_dates": [
+        "2026-09-30"
+      ],
+      "method": "curl",
+      "read_scope": "转载正文全读（La Jornada Maya原文署名与2020-06-04日期在页内标示）；仅采1950年Cuadernos Americanos特别版句"
+    },
+    {
+      "candidate_id": "WCD10-B05-S25",
+      "kind": "used",
+      "urls": [
+        "https://www.fondodeculturaeconomica.com/Noticia/479"
+      ],
+      "accessed_dates": [
+        "2026-09-30"
+      ],
+      "method": "curl",
+      "read_scope": "转载正文通读；仅采'colección Tezontle del Fondo de Cultura Económica'/1957-09-28/300册句"
+    },
+    {
+      "candidate_id": "WCD10-B05-S26",
+      "kind": "used",
+      "urls": [
+        "https://www.nobelprize.org/prizes/literature/1967/asturias/biographical/"
+      ],
+      "accessed_dates": [
+        "2026-09-30"
+      ],
+      "method": "curl",
+      "read_scope": "自传正文全读（至From Nobel Lectures落款）；未读Bibliography等其他子页"
+    },
+    {
+      "kind": "failed_or_limited",
+      "query_or_url": "El Papa Verde 内容页定向检索×2",
+      "urls": [
+        "web search结果仅scribd/二手书目录(uniliber)/搜索摘要"
+      ],
+      "accessed_dates": [
+        "2026-09-30"
+      ],
+      "result": "无合格可开机构内容页",
+      "note": "按A05纪律两轮用尽；scribd/商业目录/搜索摘要不构成核验，W04按审计R4转暂缓"
+    },
+    {
+      "candidate_id": "WCD10-B05-S24",
+      "kind": "used",
+      "urls": [
+        "https://www.fondodeculturaeconomica.com/Noticia/2290"
+      ],
+      "accessed_dates": [
+        "2026-09-30"
+      ],
+      "method": "curl×2（含一次网络000后重试成功）",
+      "read_scope": "R2重开：完整读页内文章头（题名/2020-06-04/Javier Aranda Luna/Fuente: La Jornada Maya/原文URL）并逐字核正R1误填的作者字段"
+    },
+    {
+      "candidate_id": "WCD10-B05-S25",
+      "kind": "used",
+      "urls": [
+        "https://www.fondodeculturaeconomica.com/Noticia/479"
+      ],
+      "accessed_dates": [
+        "2026-09-30"
+      ],
+      "method": "curl×2（含一次网络000后重试成功）",
+      "read_scope": "R2重开：完整读页内文章头（584 versos/2019-12-10/Juan José González Mejía/Fuente: El Sol de Tampico）并核正R1题名/作者/日期三处"
+    },
+    {
+      "candidate_id": "WCD10-B05-S21",
+      "kind": "used",
+      "urls": [
+        "https://www.elem.mx/obra/datos/5745"
+      ],
+      "accessed_dates": [
+        "2026-09-30"
+      ],
+      "method": "curl（会话存档复核）",
+      "read_scope": "R2复核封底版次标注：主题两段后随'This contraportada…edición de 1958'、九诗清单后随'This contraportada…edición de 2013'，据实分层"
+    },
+    {
+      "candidate_id": "WCD10-B05-S20",
+      "kind": "used",
+      "urls": [
+        "https://www.elem.mx/obra/datos/5746"
+      ],
+      "accessed_dates": [
+        "2026-09-30"
+      ],
+      "method": "curl（会话存档复核）",
+      "read_scope": "R2复核《太阳石》收录版本：'dos de los más celebrados…aún estaban por escribirse: El cántaro roto (1955) y Piedra de sol (1957)'——两诗系1949初版后写出"
+    }
+  ]
+}

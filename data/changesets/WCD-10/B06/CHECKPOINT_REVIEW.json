@@ -1,0 +1,13 @@
+{
+  "verdict": "PASS",
+  "task_id": "TASK-111",
+  "batch_id": "WCD-10-B06",
+  "baseline_database_sha256": "0185f6c81ebe1dce1d761e7e9d8780f65baf1b3ed5769987f92f977fdfbdd868",
+  "migration_name": "0041_wcd10_b06_author_works.sql",
+  "migration_sha256": "5452a4d15545777e7b328e9a469ccc8ea0f00e0c997a354dd01b8d4516b2b8db",
+  "mapping_path": "data/changesets/WCD-10/B06/INTEGRATION_MAP.json",
+  "mapping_sha256": "369f10c44c161ab58c580271542d8ec5111d6c543d56beb0f476569804d1173f",
+  "reviewer": "Codex-parent-independent-SQL-review",
+  "reviewed_at": "2026-10-08",
+  "scope": "Actual disposable clone apply PASS;439 independent assertions;all19-table old rows retained except allowed metadata checkpoint values;actual master apply and QA pending"
+}

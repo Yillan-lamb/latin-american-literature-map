@@ -1,0 +1,17 @@
+{
+  "verdict": "PASS",
+  "task_id": "TASK-125",
+  "batch_id": "WCD-10-B20",
+  "reviewer": "Codex-parent-independent-review",
+  "reviewed_at": "2026-10-14",
+  "baseline_database_sha256": "264385afd29d43f6d160d852a9dc6ad685fa2bd5fa25e3e7d7575168ebb72032",
+  "migration_name": "0055_wcd10_b20_author_works.sql",
+  "migration_sha256": "2f288075cac14d73f38075fe41ac12ca353e2e5194069c2ab89a881d6df2bdc3",
+  "mapping_path": "data/changesets/WCD-10/B20/INTEGRATION_MAP.json",
+  "mapping_sha256": "064253f82fbcea513180180727c2d604b116f0f1252166f1782284d12eba3a87",
+  "review_scope": "Actual disposable-clone application and all19table old-row/source/fact/card/directCREATED plus same-object Telles role/source closure audit; authorizes exact live apply once and16required QA",
+  "sql_review_report_sha256": "114325064b4500976d0c75d4922a8728398333eb3a38c39b56a55ef46281be6f",
+  "candidate_review_gate_sha256": "bd86dd8e96eb18bc8d98ac508d28600cd93efe332e64194adf40109561ecd915",
+  "prepared_sql_location_evidence_sha256": "fbb48ee8b9bb7692207f39418476f2d24496f7f9f507bfc6903322c1d5c9b8b8",
+  "recorded_at_utc": "2026-10-14T15:42:57.956904+00:00"
+}

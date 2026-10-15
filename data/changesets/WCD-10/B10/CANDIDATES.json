@@ -1,0 +1,1313 @@
+{
+  "schema": "wcd10-candidates-1",
+  "task_id": "TASK-115",
+  "batch_id": "WCD-10-B10",
+  "baseline_commit": "05f3372c69a54ec331d31b05d16c8288d6d3a993",
+  "baseline_database_sha256": "41f895012a71cec9cab831e1717e5f3ec0306100d95acf2ac34c9eccac5a4d3b",
+  "status": "MERGED_CANDIDATE_PARENT_REVIEW_PENDING",
+  "author_ids": [
+    "V1-ENT-0225",
+    "V1-ENT-0236",
+    "V1-ENT-0237"
+  ],
+  "accessed_at": "2026-10-12",
+  "public_boundary": "B10 three-author Research candidate only; no formal IDs, Curation/public admission, SQL, database write, Git, or release authorized by this package.",
+  "source_scope_decisions": [
+    {
+      "decision": "fresh_registration",
+      "candidate_source_id": "WCD10-B10-S001",
+      "url": "https://www.cervantesvirtual.com/obra/amistad-funesta-novela--0/",
+      "candidate_ids": [
+        "WCD10-B10-W001",
+        "WCD10-B10-W001-F01",
+        "WCD10-B10-W001-F02",
+        "WCD10-B10-W001-F03"
+      ],
+      "boundary": "本轮直接打开核验；按B级普通馆藏/机构书目使用。"
+    },
+    {
+      "decision": "fresh_registration",
+      "candidate_source_id": "WCD10-B10-S002",
+      "url": "https://www.cervantesvirtual.com/obra/la-edad-de-oro-publicacion-mensual-dedicada-a-los-ninos--0/",
+      "candidate_ids": [
+        "WCD10-B10-W002",
+        "WCD10-B10-W002-F01",
+        "WCD10-B10-W002-F02",
+        "WCD10-B10-W002-F03"
+      ],
+      "boundary": "本轮直接打开核验；按B级普通馆藏/机构书目使用。"
+    },
+    {
+      "decision": "fresh_registration",
+      "candidate_source_id": "WCD10-B10-S003",
+      "url": "https://catalogo.bnphu.gob.do/cgi-bin/koha/opac-detail.pl?biblionumber=11683&query_desc=",
+      "candidate_ids": [
+        "WCD10-B10-W002",
+        "WCD10-B10-W002-F01",
+        "WCD10-B10-W002-F02",
+        "WCD10-B10-W002-F03"
+      ],
+      "boundary": "本轮直接打开核验；按B级普通馆藏/机构书目使用。"
+    },
+    {
+      "decision": "fresh_registration",
+      "candidate_source_id": "WCD10-B10-S004",
+      "url": "https://cervantesvirtual.com/obra/abdala--0/",
+      "candidate_ids": [
+        "WCD10-B10-W003",
+        "WCD10-B10-W003-F01",
+        "WCD10-B10-W003-F02"
+      ],
+      "boundary": "本轮直接打开核验；按B级普通馆藏/机构书目使用。"
+    },
+    {
+      "decision": "fresh_registration",
+      "candidate_source_id": "WCD10-B10-S005",
+      "url": "https://www.cervantesvirtual.com/obra-visor/amistad-funesta-novela--0/html/fef79342-82b1-11df-acc7-002185ce6064_2.html",
+      "candidate_ids": [
+        "WCD10-B10-W001",
+        "WCD10-B10-W001-F04",
+        "WCD10-B10-W001-F05"
+      ],
+      "boundary": "直接打开精确作品/机构词典页面并核验；用于普通书目及有限简介。"
+    },
+    {
+      "decision": "fresh_registration",
+      "candidate_source_id": "WCD10-B10-S006",
+      "url": "https://www.cervantesvirtual.com/obra-visor/diccionario-de-la-literatura-cubana--0/html/254m.htm",
+      "candidate_ids": [
+        "WCD10-B10-W003",
+        "WCD10-B10-W003-F03",
+        "WCD10-B10-W003-F04"
+      ],
+      "boundary": "直接打开精确作品/机构词典页面并核验；用于普通书目及有限简介。"
+    },
+    {
+      "decision": "reuse_existing_source",
+      "candidate_source_id": "WCD10-B10-S007",
+      "url": "https://www.cervantesvirtual.com/portales/traducciones_hispanoamericanas/traductores/",
+      "reuse_existing_source": "SRC-0187",
+      "candidate_ids": [
+        "WCD10-B10-F001"
+      ],
+      "boundary": "R1直接打开页面并核验定位；普通对象说明使用，原source对象元数据保持不变。"
+    },
+    {
+      "decision": "fresh_registration",
+      "candidate_source_id": "WCD10-B10-S008",
+      "url": "https://www.educ.ar/recursos/151773/versos-sencillos-de-jose-marti",
+      "reuse_existing_source": null,
+      "candidate_ids": [
+        "WCD10-B10-F002"
+      ],
+      "boundary": "R1直接打开页面并核验定位；普通对象说明使用，原source对象元数据保持不变。"
+    },
+    {
+      "decision": "fresh_registration",
+      "candidate_source_id": "WCD10-B10-S009",
+      "url": "https://bcn.gob.ar/la-biblioteca/publicaciones/coleccion-pensamiento-del-bicentenario/nuestra-america",
+      "reuse_existing_source": null,
+      "candidate_ids": [
+        "WCD10-B10-F003"
+      ],
+      "boundary": "R1直接打开页面并核验定位；普通对象说明使用，原source对象元数据保持不变。"
+    },
+    {
+      "decision": "fresh_registration",
+      "candidate_source_id": "WCD10-B10-S010",
+      "url": "https://www.poeticous.com/marti/books/ismaelillo?locale=es",
+      "reuse_existing_source": null,
+      "candidate_ids": [
+        "WCD10-B10-F001"
+      ],
+      "boundary": "R1直接打开页面并核验定位；普通对象说明使用，原source对象元数据保持不变。"
+    },
+    {
+      "decision": "fresh_registration",
+      "candidate_source_id": "WCD10-B10-S011",
+      "url": "https://www.cervantesvirtual.com/obra-visor/amistad-funesta-novela--0/html/fef79342-82b1-11df-acc7-002185ce6064_3.html",
+      "candidate_ids": [
+        "WCD10-B10-W001-F05"
+      ],
+      "boundary": "直接从BVMC作品目录进入原始章节/场次，并核对作品正文；只支持相应一句剧情简介。"
+    },
+    {
+      "decision": "fresh_registration",
+      "candidate_source_id": "WCD10-B10-S012",
+      "url": "https://www.cervantesvirtual.com/obra-visor/abdala--0/html/fef77c2c-82b1-11df-acc7-002185ce6064_2.html",
+      "candidate_ids": [
+        "WCD10-B10-W003-F04"
+      ],
+      "boundary": "直接从BVMC作品目录进入原始章节/场次，并核对作品正文；只支持相应一句剧情简介。"
+    },
+    {
+      "decision": "reuse_existing_source",
+      "source_id": "SRC-0188",
+      "url": "https://www.memoriachilena.gob.cl/602/w3-article-3629.html",
+      "reuse_existing_source": "SRC-0188",
+      "candidate_ids": [
+        "WCD10-B10-S101",
+        "WCD10-B10-F111",
+        "WCD10-B10-F112",
+        "WCD10-B10-F114",
+        "WCD10-B10-W101",
+        "WCD10-B10-W102",
+        "WCD10-B10-W103",
+        "WCD10-B10-W104",
+        "WCD10-B10-W104-F01",
+        "WCD10-B10-W104-F02",
+        "WCD10-B10-W104-F03"
+      ],
+      "boundary": "已实读Memoria Chilena页面正文；精确URL已登记为SRC-0188，沿用B级与原元数据，仅在候选中登记逐行定位。"
+    },
+    {
+      "decision": "reuse_existing_source",
+      "source_id": "SRC-0189",
+      "url": "https://www.nicanorparra.uchile.cl/bibliografia/bibliogr.html",
+      "reuse_existing_source": "SRC-0189",
+      "candidate_ids": [
+        "WCD10-B10-S102",
+        "WCD10-B10-F111",
+        "WCD10-B10-F113",
+        "WCD10-B10-W101",
+        "WCD10-B10-W102",
+        "WCD10-B10-W103",
+        "WCD10-B10-W104",
+        "WCD10-B10-W104-F01",
+        "WCD10-B10-W104-F02",
+        "WCD10-B10-W104-F03"
+      ],
+      "boundary": "已实读智利大学作者作品书目正文；精确URL已登记为SRC-0189，沿用B级与原元数据。"
+    },
+    {
+      "decision": "reuse_existing_source",
+      "source_id": "SRC-0192",
+      "url": "https://cvc.cervantes.es/literatura/escritores/pizarnik/bibliografia/default.htm",
+      "reuse_existing_source": "SRC-0192",
+      "candidate_ids": [
+        "WCD10-B10-W201",
+        "WCD10-B10-W201-F01",
+        "WCD10-B10-W202",
+        "WCD10-B10-W202-F01",
+        "WCD10-B10-W203",
+        "WCD10-B10-W203-F01",
+        "WCD10-B10-W204",
+        "WCD10-B10-W205",
+        "WCD10-B10-W205-F01"
+      ],
+      "boundary": "已打开精确URL并实读全文；沿用基线B级来源，不修改既有来源记录。"
+    },
+    {
+      "decision": "fresh_registration",
+      "candidate_source_id": "WCD10-B10-S202",
+      "url": "https://cvc.cervantes.es/literatura/escritores/pizarnik/obra/arbol.htm",
+      "candidate_ids": [
+        "WCD10-B10-F201",
+        "WCD10-B10-F202"
+      ],
+      "boundary": "已实际打开并读取精确页面全文；CVC机构评论记B级，未标出的网页出版年份留空。"
+    },
+    {
+      "decision": "fresh_registration",
+      "candidate_source_id": "WCD10-B10-S203",
+      "url": "https://cvc.cervantes.es/literatura/escritores/pizarnik/obra/trabajos.htm",
+      "candidate_ids": [
+        "WCD10-B10-F203",
+        "WCD10-B10-F204"
+      ],
+      "boundary": "已实际打开并读取精确页面全文；CVC机构评论记B级，未标出的网页出版年份留空。"
+    },
+    {
+      "decision": "fresh_registration",
+      "candidate_source_id": "WCD10-B10-S204",
+      "url": "https://cvc.cervantes.es/literatura/escritores/pizarnik/biografia.htm",
+      "candidate_ids": [
+        "WCD10-B10-F206"
+      ],
+      "boundary": "已实际打开并读取精确页面全文；仅支持痛苦与无力的评论表述（第38行）；CVC机构评论记B级，未标出的网页出版年份留空。"
+    },
+    {
+      "decision": "fresh_registration",
+      "candidate_source_id": "WCD10-B10-S205",
+      "url": "https://cvc.cervantes.es/literatura/escritores/pizarnik/obra/inocencia.htm",
+      "candidate_ids": [
+        "WCD10-B10-W202",
+        "WCD10-B10-W202-F02",
+        "WCD10-B10-W202-F03"
+      ],
+      "boundary": "已实际打开并读取精确页面全文；CVC机构评论记B级，未标出的网页出版年份留空。"
+    },
+    {
+      "decision": "fresh_registration",
+      "candidate_source_id": "WCD10-B10-S206",
+      "url": "https://cvc.cervantes.es/literatura/escritores/pizarnik/obra/aventuras.htm",
+      "candidate_ids": [
+        "WCD10-B10-W203",
+        "WCD10-B10-W203-F02",
+        "WCD10-B10-W203-F03"
+      ],
+      "boundary": "已实际打开并读取精确页面全文；CVC机构评论记B级，未标出的网页出版年份留空。"
+    },
+    {
+      "decision": "fresh_registration",
+      "candidate_source_id": "WCD10-B10-S207",
+      "url": "https://cvc.cervantes.es/literatura/escritores/pizarnik/obra/condesa.htm",
+      "candidate_ids": [
+        "WCD10-B10-W204",
+        "WCD10-B10-W204-F01",
+        "WCD10-B10-W204-F02",
+        "WCD10-B10-W204-F03",
+        "WCD10-B10-W204-F04"
+      ],
+      "boundary": "已打开全文；页面同时报告1965年墨西哥首次预告、1966年Testigo刊载及1971年单行本。关系未厘清，保留两个明确版本年份，不填原子首发年份。"
+    },
+    {
+      "decision": "fresh_registration",
+      "candidate_source_id": "WCD10-B10-S208",
+      "url": "https://cvc.cervantes.es/literatura/escritores/pizarnik/acerca/martinez.htm",
+      "candidate_ids": [
+        "WCD10-B10-W201",
+        "WCD10-B10-W201-F02",
+        "WCD10-B10-W201-F03",
+        "WCD10-B10-F205",
+        "WCD10-B10-F206"
+      ],
+      "boundary": "已实际打开并读取精确页面全文；第14-17行支持《La tierra más ajena》书目描述，第15行支持《取出疯石》韵文向散文延展；CVC机构评论记B级，未标出的网页出版年份留空。"
+    },
+    {
+      "decision": "fresh_registration",
+      "candidate_source_id": "WCD10-B10-S209",
+      "url": "https://cvc.cervantes.es/literatura/escritores/pizarnik/acerca/barella.htm",
+      "candidate_ids": [
+        "WCD10-B10-W205",
+        "WCD10-B10-W205-F02",
+        "WCD10-B10-W205-F03"
+      ],
+      "boundary": "已实际打开并读取精确页面全文；CVC机构评论记B级，未标出的网页出版年份留空。"
+    }
+  ],
+  "sources": [
+    {
+      "candidate_id": "WCD10-B10-S001",
+      "url": "https://www.cervantesvirtual.com/obra/amistad-funesta-novela--0/",
+      "title": "Amistad funesta : novela / José Martí | Biblioteca Virtual Miguel de Cervantes",
+      "disposition": "fresh_registration",
+      "candidate_ids": [
+        "WCD10-B10-W001",
+        "WCD10-B10-W001-F01",
+        "WCD10-B10-W001-F02",
+        "WCD10-B10-W001-F03"
+      ],
+      "author_or_editor": "Biblioteca Virtual Miguel de Cervantes",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "Registro bibliográfico lines 8-22: title, author Martí, digital publication 1999, reproduced edition based on Berlin 1911, Spanish language, Cuban 19th-century novel subject; line 26 confirms source edition.",
+      "usage": "Supports title, authorship, novel form, language, and reproduced edition. 1911 is not represented as first publication."
+    },
+    {
+      "candidate_id": "WCD10-B10-S002",
+      "url": "https://www.cervantesvirtual.com/obra/la-edad-de-oro-publicacion-mensual-dedicada-a-los-ninos--0/",
+      "title": "La Edad de Oro : publicación mensual ... dedicada a los niños / José Martí | Biblioteca Virtual Miguel de Cervantes",
+      "disposition": "fresh_registration",
+      "candidate_ids": [
+        "WCD10-B10-W002",
+        "WCD10-B10-W002-F01",
+        "WCD10-B10-W002-F02",
+        "WCD10-B10-W002-F03"
+      ],
+      "author_or_editor": "Biblioteca Virtual Miguel de Cervantes",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "Bibliographic record lines 8-22: title, Martí authorship, children literature classification, reproduction from Obras Completas vol. 18; no original first-publication date in this record.",
+      "usage": "Supports authorship, title and children literature catalog classification; publication window separately supported by national library."
+    },
+    {
+      "candidate_id": "WCD10-B10-S003",
+      "url": "https://catalogo.bnphu.gob.do/cgi-bin/koha/opac-detail.pl?biblionumber=11683&query_desc=",
+      "title": "La edad de oro / José Martí | Biblioteca Pedro Henríquez Ureña catalog",
+      "disposition": "fresh_registration",
+      "candidate_ids": [
+        "WCD10-B10-W002",
+        "WCD10-B10-W002-F01",
+        "WCD10-B10-W002-F02",
+        "WCD10-B10-W002-F03"
+      ],
+      "author_or_editor": "Biblioteca Pedro Henríquez Ureña",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "Catalog lines 23-42 and 50-56: Martí authorship; 1978 collection edition; note says four issues for children of America, published in New York July-October 1889; contents list stories, history, art.",
+      "usage": "Supports four-part periodical, Martí authorship and 1889 publication window; bounded summary of contents."
+    },
+    {
+      "candidate_id": "WCD10-B10-S004",
+      "url": "https://cervantesvirtual.com/obra/abdala--0/",
+      "title": "Abdala / José Martí | Biblioteca Virtual Miguel de Cervantes",
+      "disposition": "fresh_registration",
+      "candidate_ids": [
+        "WCD10-B10-W003",
+        "WCD10-B10-W003-F01",
+        "WCD10-B10-W003-F02"
+      ],
+      "author_or_editor": "Biblioteca Virtual Miguel de Cervantes",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "Bibliographic record lines 8-22 and 25: title, Martí authorship, reproduction from Obras Completas vol. 18 Teatro-Novela-La Edad de Oro pages 11-24, Spanish language, Cuban 19th-century theatre classification.",
+      "usage": "Supports title, authorship, theatre form and language; digital republication date not used as composition/first-publication year."
+    },
+    {
+      "candidate_id": "WCD10-B10-S005",
+      "url": "https://www.cervantesvirtual.com/obra-visor/amistad-funesta-novela--0/html/fef79342-82b1-11df-acc7-002185ce6064_2.html",
+      "title": "Amistad funesta : novela | Biblioteca Virtual Miguel de Cervantes (texto e introducción)",
+      "disposition": "fresh_registration",
+      "candidate_ids": [
+        "WCD10-B10-W001",
+        "WCD10-B10-W001-F04",
+        "WCD10-B10-W001-F05"
+      ],
+      "author_or_editor": "Biblioteca Virtual Miguel de Cervantes",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "作品页 lines 6-20: 题名、体裁、作者；Gonzalo de Quesada引言 line 20 记录小说于1885年在《El Latino Americano》分期发表、署名Adelaida Ral。",
+      "usage": "支持1885分期首刊书目。简介仅根据作品正文概述：Lucía、Sol del Valle、Juan Jerez等人物构成情感与婚姻冲突，限小说人物关系的基本介绍。"
+    },
+    {
+      "candidate_id": "WCD10-B10-S006",
+      "url": "https://www.cervantesvirtual.com/obra-visor/diccionario-de-la-literatura-cubana--0/html/254m.htm",
+      "title": "Diccionario de la literatura cubana | Biblioteca Virtual Miguel de Cervantes",
+      "disposition": "fresh_registration",
+      "candidate_ids": [
+        "WCD10-B10-W003",
+        "WCD10-B10-W003-F03",
+        "WCD10-B10-W003-F04"
+      ],
+      "author_or_editor": "Biblioteca Virtual Miguel de Cervantes",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "Martí biography lines 252-255: line 254 records Abdala published in verse in La Patria Libre on 23 January 1869; same entry directly lists author and events.",
+      "usage": "支持Abdala 1869年发表及诗剧形态；概述仅限题名/形式/作者/发表时间，不扩展政治解释。"
+    },
+    {
+      "candidate_id": "WCD10-B10-S007",
+      "url": "https://www.cervantesvirtual.com/portales/traducciones_hispanoamericanas/traductores/",
+      "title": "Traductores hispanoamericanos — Biblioteca de Traducciones Hispanoamericanas",
+      "disposition": "reuse",
+      "reuse_existing_source": "SRC-0187",
+      "candidate_ids": [
+        "WCD10-B10-F001"
+      ],
+      "author_or_editor": "Biblioteca Virtual Miguel de Cervantes",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "José Martí entry lines 161-165: author profile lists Ismaelillo (1882), Versos sencillos (1891), Versos libres; original source is reused only for Ismaelillo basic poem collection context and author attribution.",
+      "usage": "来源直接介绍José Martí及Ismaelillo诗集；仅用于补充该对象的读者向普通说明，不改动基线事实。"
+    },
+    {
+      "candidate_id": "WCD10-B10-S008",
+      "url": "https://www.educ.ar/recursos/151773/versos-sencillos-de-jose-marti",
+      "title": "Versos sencillos, de José Martí | Educ.ar",
+      "disposition": "fresh_registration",
+      "candidate_ids": [
+        "WCD10-B10-F002"
+      ],
+      "author_or_editor": "Educ.ar, Portal educativo de la Secretaría de Educación",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "页面 lines 14-16、55-65: author Martí; page description says short clear poems express ethical ideals, friendship and personal pain; exilic voice seeks truth and moral coherence; page classifies as poetry and provides CC BY-NC-SA license.",
+      "usage": "机构教育资源直接支持诗集的简明内容介绍及署名；不采用网页发布日期作为原作出版年。"
+    },
+    {
+      "candidate_id": "WCD10-B10-S009",
+      "url": "https://bcn.gob.ar/la-biblioteca/publicaciones/coleccion-pensamiento-del-bicentenario/nuestra-america",
+      "title": "Nuestra América | Biblioteca del Congreso de la Nación",
+      "disposition": "fresh_registration",
+      "candidate_ids": [
+        "WCD10-B10-F003"
+      ],
+      "author_or_editor": "Biblioteca del Congreso de la Nación",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "页面 lines 15-22: title and introduction identify the essay and describe its social/political thought through history, contextual analysis and a vision of Latin America’s future.",
+      "usage": "国会图书馆书目介绍直接支持普通内容简介及作品体裁，不据此扩大解释性关系。"
+    },
+    {
+      "candidate_id": "WCD10-B10-S010",
+      "url": "https://www.poeticous.com/marti/books/ismaelillo?locale=es",
+      "title": "Ismaelillo | José Martí | Poeticous",
+      "disposition": "fresh_registration",
+      "candidate_ids": [
+        "WCD10-B10-F001"
+      ],
+      "author_or_editor": "Poeticous",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "正文页 lines 2-3为书名；lines 6、12-18、25-28等提供序言和诗篇摘录，可支持面向儿子的诗歌内容。页面标题区lines 4显示1878，本批明确不使用该日期。",
+      "usage": "仅使用公开的序言和诗篇摘录支持父子主题的普通简介；排除页面标题区不一致的1878日期，首刊年仍由原基线来源支持。"
+    },
+    {
+      "candidate_id": "WCD10-B10-S011",
+      "url": "https://www.cervantesvirtual.com/obra-visor/amistad-funesta-novela--0/html/fef79342-82b1-11df-acc7-002185ce6064_3.html",
+      "title": "Amistad funesta : novela, Capítulo I | Biblioteca Virtual Miguel de Cervantes",
+      "disposition": "fresh_registration",
+      "candidate_ids": [
+        "WCD10-B10-W001-F05"
+      ],
+      "author_or_editor": "Biblioteca Virtual Miguel de Cervantes",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "目录路径：Amistad funesta > Novela > Capítulo I；直接原文 lines 13-18介绍Lucía Jerez、Ana与Adela；lines 29-53写Juan Jerez到访并为Sol del Valle母亲求情；后续lines 56-68叙述Juan与Lucía的关系。",
+      "usage": "仅以小说第一章原文概括人物关系与情感冲突；不从该章推断全书情节或研究评价。"
+    },
+    {
+      "candidate_id": "WCD10-B10-S012",
+      "url": "https://www.cervantesvirtual.com/obra-visor/abdala--0/html/fef77c2c-82b1-11df-acc7-002185ce6064_2.html",
+      "title": "Abdala, Escena I-II | Biblioteca Virtual Miguel de Cervantes",
+      "disposition": "fresh_registration",
+      "candidate_ids": [
+        "WCD10-B10-W003-F04"
+      ],
+      "author_or_editor": "Biblioteca Virtual Miguel de Cervantes",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "目录路径：Abdala > Escena I；正文 lines 12-21列人物并说明场景在Nubia；lines 25-47、57-86写征服者威胁Nubia、Abdala接受出战并为国牺牲；Scene II lines 102-111继续直接说明保卫祖国。",
+      "usage": "仅依据戏剧正文概括Nubia受到征服者威胁、Abdala率军出战保卫祖国；剧情简述以原文为证。"
+    },
+    {
+      "candidate_id": "WCD10-B10-S101",
+      "url": "https://www.memoriachilena.gob.cl/602/w3-article-3629.html",
+      "title": "Nicanor Parra (1914-2018)",
+      "disposition": "reuse",
+      "reuse_existing_source": "SRC-0188",
+      "candidate_ids": [
+        "WCD10-B10-W104",
+        "WCD10-B10-W104-F01",
+        "WCD10-B10-W104-F02",
+        "WCD10-B10-W104-F03"
+      ],
+      "author_or_editor": "Biblioteca Nacional de Chile / Memoria Chilena",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "正文第80、108–112行及时间线第475–491、510–526行，实读日期2026-10-12。第108–109行直接说明 Poemas y antipoemas (1954) 开启反诗模式，其诗句带有讽刺、使用日常直接语言；第110行说明 La cueca larga (1958) 取材于智利民间欢庆节奏并予以戏仿；第111–112行列出 Obra gruesa (1969)、Sermones y prédicas del Cristo de Elqui (1977) 等作品，并称这些书展示反诗模式及其演进。",
+      "usage": "支持Parra作品归属、作品年份与有边界的机构性内容概述；不把作者总评下推为作品专门论文结论。"
+    },
+    {
+      "candidate_id": "WCD10-B10-S102",
+      "url": "https://www.nicanorparra.uchile.cl/bibliografia/bibliogr.html",
+      "title": "Fichas bibliográficas I — Nicanor Parra",
+      "disposition": "reuse",
+      "reuse_existing_source": "SRC-0189",
+      "candidate_ids": [
+        "WCD10-B10-W104",
+        "WCD10-B10-W104-F01",
+        "WCD10-B10-W104-F02",
+        "WCD10-B10-W104-F03"
+      ],
+      "author_or_editor": "Federico Schopf; Universidad de Chile",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "正文第0–4行标题署Federico Schopf；第12、19、29–30、49行列La Cueca Larga、Obra Gruesa、Sermones y Prédicas del Cristo de Elqui、Discursos de Sobremesa的书目信息及版本注记。实读日期2026-10-12。",
+      "usage": "支持智利大学作者作品目录中的题名、书籍身份及书目注记；不以目录替代作品专门研究。"
+    },
+    {
+      "candidate_id": "WCD10-B10-S201",
+      "url": "https://cvc.cervantes.es/literatura/escritores/pizarnik/bibliografia/default.htm",
+      "title": "CVC. Alejandra Pizarnik. Bibliografía. Obras",
+      "disposition": "reuse",
+      "reuse_existing_source": "SRC-0192",
+      "candidate_ids": [
+        "WCD10-B10-W201",
+        "WCD10-B10-W201-F01",
+        "WCD10-B10-W202",
+        "WCD10-B10-W202-F01",
+        "WCD10-B10-W203",
+        "WCD10-B10-W203-F01",
+        "WCD10-B10-W204",
+        "WCD10-B10-W205",
+        "WCD10-B10-W205-F01"
+      ],
+      "author_or_editor": "Centro Virtual Cervantes",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "网页全文第13-21、27-30、44-47、66-70、81-84行；直接列作品书目、出版年与部分出版信息。2026-10-12实读。",
+      "usage": "支持作品题名与书目年份；《嗜血伯爵夫人》区分1966期刊初刊与1971单行本。"
+    },
+    {
+      "candidate_id": "WCD10-B10-S202",
+      "url": "https://cvc.cervantes.es/literatura/escritores/pizarnik/obra/arbol.htm",
+      "title": "CVC. Alejandra Pizarnik. Obra. Árbol de Diana",
+      "disposition": "fresh_registration",
+      "candidate_ids": [
+        "WCD10-B10-F201",
+        "WCD10-B10-F202"
+      ],
+      "author_or_editor": "Antonio Beneyto；Centro Virtual Cervantes",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "网页全文第5-17行；评论讨论帕斯序言、书名象征、意象及绘画题献。2026-10-12实读。",
+      "usage": "仅概述CVC评论对本书象征、色彩及意象的解读。"
+    },
+    {
+      "candidate_id": "WCD10-B10-S203",
+      "url": "https://cvc.cervantes.es/literatura/escritores/pizarnik/obra/trabajos.htm",
+      "title": "CVC. Alejandra Pizarnik. Obra. Los trabajos y las noches",
+      "disposition": "fresh_registration",
+      "candidate_ids": [
+        "WCD10-B10-F203",
+        "WCD10-B10-F204"
+      ],
+      "author_or_editor": "Antonio Beneyto；Centro Virtual Cervantes",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "网页全文第5-19行；评论谈诗集的爱情表达、对话/静默意象及语音节奏。2026-10-12实读。",
+      "usage": "仅概述CVC评论对本集抒情表达、静默意象和声音节奏的观察。"
+    },
+    {
+      "candidate_id": "WCD10-B10-S204",
+      "url": "https://cvc.cervantes.es/literatura/escritores/pizarnik/biografia.htm",
+      "title": "CVC. Alejandra Pizarnik. Biografía literaria",
+      "disposition": "fresh_registration",
+      "candidate_ids": [
+        "WCD10-B10-F206"
+      ],
+      "author_or_editor": "Centro Virtual Cervantes",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "网页全文第38行；CVC评论将象征意象与痛苦、无力相联系。2026-10-12实读。",
+      "usage": "仅支持《取出疯石》评论所述象征意象与痛苦、无力。"
+    },
+    {
+      "candidate_id": "WCD10-B10-S205",
+      "url": "https://cvc.cervantes.es/literatura/escritores/pizarnik/obra/inocencia.htm",
+      "title": "CVC. Alejandra Pizarnik. Obra. La última inocencia",
+      "disposition": "fresh_registration",
+      "candidate_ids": [
+        "WCD10-B10-W202",
+        "WCD10-B10-W202-F02",
+        "WCD10-B10-W202-F03"
+      ],
+      "author_or_editor": "Antonio Beneyto；Centro Virtual Cervantes",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "网页全文第5-17行；明示1956年，并评论书名来源、梦境与记忆意象。2026-10-12实读。",
+      "usage": "直接支持题名、年份与有归属的简要评论。"
+    },
+    {
+      "candidate_id": "WCD10-B10-S206",
+      "url": "https://cvc.cervantes.es/literatura/escritores/pizarnik/obra/aventuras.htm",
+      "title": "CVC. Alejandra Pizarnik. Obra. Las aventuras perdidas",
+      "disposition": "fresh_registration",
+      "candidate_ids": [
+        "WCD10-B10-W203",
+        "WCD10-B10-W203-F02",
+        "WCD10-B10-W203-F03"
+      ],
+      "author_or_editor": "Antonio Beneyto；Centro Virtual Cervantes",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "网页全文第5-17行；明示1958年，评论精神分析、超现实主义意象及镜像/迷失方向。2026-10-12实读。",
+      "usage": "直接支持题名、年份与有归属的简要评论。"
+    },
+    {
+      "candidate_id": "WCD10-B10-S207",
+      "url": "https://cvc.cervantes.es/literatura/escritores/pizarnik/obra/condesa.htm",
+      "title": "CVC. Alejandra Pizarnik. Obra. La condesa sangrienta",
+      "disposition": "fresh_registration",
+      "candidate_ids": [
+        "WCD10-B10-W204",
+        "WCD10-B10-W204-F01",
+        "WCD10-B10-W204-F02",
+        "WCD10-B10-W204-F03",
+        "WCD10-B10-W204-F04"
+      ],
+      "author_or_editor": "Centro Virtual Cervantes",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "网页全文第12-13、20行；记1965年墨西哥首次预告、1966年发表于Testigo、1971年以书本版出版，并称为essay-poem-novel。2026-10-12实读。",
+      "usage": "支持1966年期刊刊载与1971年单行本；另明确记录1965年首次预告，使原子首发年份不被擅自确定。"
+    },
+    {
+      "candidate_id": "WCD10-B10-S208",
+      "url": "https://cvc.cervantes.es/literatura/escritores/pizarnik/acerca/martinez.htm",
+      "title": "CVC. Alejandra Pizarnik: leyenda de una vida tras de su obra",
+      "disposition": "fresh_registration",
+      "candidate_ids": [
+        "WCD10-B10-W201",
+        "WCD10-B10-W201-F02",
+        "WCD10-B10-W201-F03",
+        "WCD10-B10-F205",
+        "WCD10-B10-F206"
+      ],
+      "author_or_editor": "Gustavo Martínez González；Centro Virtual Cervantes",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "网页全文第14-17行；直接称《La tierra más ajena》为1955年首部诗集；第15行评论写作由韵文向散文延展。2026-10-12实读。",
+      "usage": "支持《La tierra más ajena》普通书目描述，并支持《取出疯石》含散文化表达及韵文向散文延展。"
+    },
+    {
+      "candidate_id": "WCD10-B10-S209",
+      "url": "https://cvc.cervantes.es/literatura/escritores/pizarnik/acerca/barella.htm",
+      "title": "CVC. Alejandra Pizarnik escondida en el lenguaje",
+      "disposition": "fresh_registration",
+      "candidate_ids": [
+        "WCD10-B10-W205",
+        "WCD10-B10-W205-F02",
+        "WCD10-B10-W205-F03"
+      ],
+      "author_or_editor": "Julia Barella；Centro Virtual Cervantes",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "网页全文第14-21行；将“Cold in hand blues”标为El infierno musical（1971）中的诗，并概述语言写作。2026-10-12实读。",
+      "usage": "只确认本集所含诗篇及评论范围，不概括全书主题。"
+    }
+  ],
+  "new_entities": [
+    {
+      "candidate_id": "WCD10-B10-W001",
+      "author_id": "V1-ENT-0225",
+      "entity_type": "work",
+      "original_name": "Amistad funesta",
+      "name_zh_candidate": "《不幸的友谊》",
+      "name_policy": "中文名为检索暂译，西班牙语原题为身份锚点，不声称存在正式中文译本。",
+      "rationale": "Martí重要小说；BVMC馆藏目录直接署名并标注小说层级。",
+      "created_source_refs": [
+        "WCD10-B10-S001"
+      ],
+      "facts": [
+        {
+          "field": "genre_or_form",
+          "value": "长篇小说",
+          "source_refs": [
+            "WCD10-B10-S001"
+          ],
+          "fact_candidate_id": "WCD10-B10-W001-F02"
+        },
+        {
+          "field": "bibliographic_note",
+          "value": "BVMC将该作品著录为Martí所作小说；数字文本据柏林1911年版制作，1911年是所据版本信息，本候选不将其认作首刊年。",
+          "source_refs": [
+            "WCD10-B10-S001"
+          ],
+          "fact_candidate_id": "WCD10-B10-W001-F03"
+        },
+        {
+          "field": "first_publication_year",
+          "value": "1885",
+          "source_refs": [
+            "WCD10-B10-S005"
+          ],
+          "fact_candidate_id": "WCD10-B10-W001-F04"
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "小说第一章围绕Lucía Jerez、Juan Jerez、Ana与Adela等人的交往展开，并写到Juan为Sol del Valle母亲求情。",
+          "source_refs": [
+            "WCD10-B10-S011"
+          ],
+          "fact_candidate_id": "WCD10-B10-W001-F05"
+        }
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B10-W002",
+      "author_id": "V1-ENT-0225",
+      "entity_type": "collection",
+      "original_name": "La Edad de Oro",
+      "name_zh_candidate": "《黄金时代》",
+      "name_policy": "中文名作为检索译名；保留西班牙语原题。目录说明其为儿童月刊，合计四期。",
+      "rationale": "Martí面向儿童的重要刊物；BVMC和国家图书馆目录支持作者、形态及刊行信息。",
+      "created_source_refs": [
+        "WCD10-B10-S002",
+        "WCD10-B10-S003"
+      ],
+      "facts": [
+        {
+          "field": "first_publication_year",
+          "value": "1889",
+          "source_refs": [
+            "WCD10-B10-S003"
+          ],
+          "fact_candidate_id": "WCD10-B10-W002-F02"
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "这份面向美洲儿童的刊物由Martí撰写，共刊四期，1889年7月至10月在纽约出版，内容包含故事、历史与艺术等栏目。",
+          "source_refs": [
+            "WCD10-B10-S003"
+          ],
+          "fact_candidate_id": "WCD10-B10-W002-F03"
+        },
+        {
+          "field": "genre_or_form",
+          "value": "面向儿童的月刊（四期）",
+          "source_refs": [
+            "WCD10-B10-S003"
+          ],
+          "fact_candidate_id": "WCD10-B10-W002-F04"
+        }
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B10-W003",
+      "author_id": "V1-ENT-0225",
+      "entity_type": "work",
+      "original_name": "Abdala",
+      "name_zh_candidate": "《阿卜达拉》",
+      "name_policy": "中文名为暂译，保留原题名。",
+      "rationale": "Martí早期戏剧作品；BVMC馆藏记录直接署名并分类为19世纪古巴戏剧。",
+      "created_source_refs": [
+        "WCD10-B10-S004"
+      ],
+      "facts": [
+        {
+          "field": "genre_or_form",
+          "value": "戏剧",
+          "source_refs": [
+            "WCD10-B10-S004"
+          ],
+          "fact_candidate_id": "WCD10-B10-W003-F02"
+        },
+        {
+          "field": "first_publication_year",
+          "value": "1869",
+          "source_refs": [
+            "WCD10-B10-S006"
+          ],
+          "fact_candidate_id": "WCD10-B10-W003-F03"
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "戏剧以Nubia遭征服者威胁为背景，写Abdala率军出战保卫祖国。",
+          "source_refs": [
+            "WCD10-B10-S012"
+          ],
+          "fact_candidate_id": "WCD10-B10-W003-F04"
+        }
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B10-W101",
+      "author_id": "V1-ENT-0236",
+      "entity_type": "collection",
+      "original_name": "La cueca larga",
+      "name_zh_candidate": "《长奎卡舞曲》",
+      "name_policy": "中文为工作译名，西班牙语原题为身份锚点；cueca按智利民间舞曲名称音译，不声称存在正式中文译名。",
+      "rationale": "智利国家图书馆作者专题与智利大学作者主要作品书目直接列出该独立书名；按作品集/诗集对象保留。",
+      "created_source_refs": [
+        "WCD10-B10-S101",
+        "WCD10-B10-S102"
+      ],
+      "facts": [
+        {
+          "field": "first_publication_year",
+          "value": "1958",
+          "source_refs": [
+            "WCD10-B10-S102"
+          ],
+          "fact_candidate_id": "WCD10-B10-W101-F01"
+        },
+        {
+          "field": "genre_or_form",
+          "value": "诗集",
+          "source_refs": [
+            "WCD10-B10-S102"
+          ],
+          "fact_candidate_id": "WCD10-B10-W101-F02"
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "智利国家图书馆专题指出，此书取材于智利民间欢庆节奏，并以戏仿方式加以呈现。",
+          "source_refs": [
+            "WCD10-B10-S101"
+          ],
+          "fact_candidate_id": "WCD10-B10-W101-F03"
+        },
+        {
+          "field": "bibliographic_note",
+          "value": "智利大学目录列1958年《La Cueca Larga》；国家图书馆专题同年列入作者作品序列。",
+          "source_refs": [
+            "WCD10-B10-S102"
+          ],
+          "fact_candidate_id": "WCD10-B10-W101-F04"
+        }
+      ],
+      "created_description_zh": "尼卡诺尔·帕拉创作《长奎卡舞曲》（La cueca larga）。"
+    },
+    {
+      "candidate_id": "WCD10-B10-W102",
+      "author_id": "V1-ENT-0236",
+      "entity_type": "collection",
+      "original_name": "Obra gruesa",
+      "name_zh_candidate": "《厚重作品》",
+      "name_policy": "中文为工作译名，西班牙语原题为身份锚点；不声称存在正式中文译本名。",
+      "rationale": "智利国家图书馆作者专题与智利大学作者主要作品书目直接列出该独立书名；按作品集/诗集对象保留。",
+      "created_source_refs": [
+        "WCD10-B10-S101",
+        "WCD10-B10-S102"
+      ],
+      "facts": [
+        {
+          "field": "first_publication_year",
+          "value": "1969",
+          "source_refs": [
+            "WCD10-B10-S102"
+          ],
+          "fact_candidate_id": "WCD10-B10-W102-F01"
+        },
+        {
+          "field": "genre_or_form",
+          "value": "诗集",
+          "source_refs": [
+            "WCD10-B10-S102"
+          ],
+          "fact_candidate_id": "WCD10-B10-W102-F02"
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "智利国家图书馆将其列入帕拉的诗作序列，并概括这些作品呈现反诗模式及其演进。",
+          "source_refs": [
+            "WCD10-B10-S101"
+          ],
+          "fact_candidate_id": "WCD10-B10-W102-F03"
+        },
+        {
+          "field": "bibliographic_note",
+          "value": "智利大学作者主要作品目录列《Obra Gruesa》（1969，Universitaria）。",
+          "source_refs": [
+            "WCD10-B10-S102"
+          ],
+          "fact_candidate_id": "WCD10-B10-W102-F04"
+        }
+      ],
+      "created_description_zh": "尼卡诺尔·帕拉创作《厚重作品》（Obra gruesa）。"
+    },
+    {
+      "candidate_id": "WCD10-B10-W103",
+      "author_id": "V1-ENT-0236",
+      "entity_type": "collection",
+      "original_name": "Sermones y prédicas del Cristo de Elqui",
+      "name_zh_candidate": "《埃尔基基督的布道与讲道》",
+      "name_policy": "中文为工作译名，保留地名Elqui音译为埃尔基；不声称存在正式中文译名。",
+      "rationale": "智利国家图书馆作者专题与智利大学作者主要作品书目直接列出该独立书名；按作品集/诗集对象保留。",
+      "created_source_refs": [
+        "WCD10-B10-S101",
+        "WCD10-B10-S102"
+      ],
+      "facts": [
+        {
+          "field": "first_publication_year",
+          "value": "1977",
+          "source_refs": [
+            "WCD10-B10-S102"
+          ],
+          "fact_candidate_id": "WCD10-B10-W103-F01"
+        },
+        {
+          "field": "genre_or_form",
+          "value": "诗歌作品集",
+          "source_refs": [
+            "WCD10-B10-S102"
+          ],
+          "fact_candidate_id": "WCD10-B10-W103-F02"
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "智利国家图书馆将此书列为1977年作品，并置于呈现反诗模式及其演进的诗作序列中。",
+          "source_refs": [
+            "WCD10-B10-S101"
+          ],
+          "fact_candidate_id": "WCD10-B10-W103-F03"
+        },
+        {
+          "field": "bibliographic_note",
+          "value": "智利大学目录记1979年版本，并注明初版为1977年；国家图书馆作者专题亦列1977年。",
+          "source_refs": [
+            "WCD10-B10-S102"
+          ],
+          "fact_candidate_id": "WCD10-B10-W103-F04"
+        }
+      ],
+      "created_description_zh": "尼卡诺尔·帕拉创作《埃尔基基督的布道与讲道》（Sermones y prédicas del Cristo de Elqui）。"
+    },
+    {
+      "candidate_id": "WCD10-B10-W104",
+      "author_id": "V1-ENT-0236",
+      "entity_type": "collection",
+      "original_name": "Artefactos",
+      "name_zh_candidate": "《明信片诗作集》",
+      "name_policy": "中文为工作描述性译名，西班牙语原题为身份锚点；形式依来源注明为明信片，不声称该中文名为正式译名。",
+      "rationale": "国家图书馆专题正文记其1972年以明信片形式出版，智利大学主要作品目录也直接标注 tarjetas postales；与同题单篇/实物卡片内容不混同。",
+      "created_source_refs": [
+        "WCD10-B10-S101",
+        "WCD10-B10-S102"
+      ],
+      "facts": [
+        {
+          "field": "first_publication_year",
+          "value": "1972",
+          "source_refs": [
+            "WCD10-B10-S101",
+            "WCD10-B10-S102"
+          ],
+          "fact_candidate_id": "WCD10-B10-W104-F01"
+        },
+        {
+          "field": "genre_or_form",
+          "value": "明信片形式的诗歌作品集",
+          "source_refs": [
+            "WCD10-B10-S102",
+            "WCD10-B10-S101"
+          ],
+          "fact_candidate_id": "WCD10-B10-W104-F02"
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "《Artefactos》于1972年以明信片形式出版。",
+          "source_refs": [
+            "WCD10-B10-S101",
+            "WCD10-B10-S102"
+          ],
+          "fact_candidate_id": "WCD10-B10-W104-F03"
+        }
+      ],
+      "created_description_zh": "尼卡诺尔·帕拉创作《明信片诗作集》（Artefactos），1972年以明信片形式出版。"
+    },
+    {
+      "candidate_id": "WCD10-B10-W201",
+      "author_id": "V1-ENT-0237",
+      "entity_type": "collection",
+      "original_name": "La tierra más ajena",
+      "name_zh_candidate": "《最遥远的土地》",
+      "name_policy": "中文为工作译名，西班牙语原题为身份锚点；不声称存在正式中文译本名。",
+      "rationale": "CVC直接称本作为皮扎尼克1955年在布宜诺斯艾利斯出版的第一部诗集。",
+      "created_source_refs": [
+        "WCD10-B10-S201",
+        "WCD10-B10-S208"
+      ],
+      "facts": [
+        {
+          "field": "first_publication_year",
+          "value": "1955",
+          "source_refs": [
+            "WCD10-B10-S201"
+          ]
+        },
+        {
+          "field": "genre_or_form",
+          "value": "诗集",
+          "source_refs": [
+            "WCD10-B10-S208"
+          ]
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "CVC资料称本作为皮扎尼克1955年出版的第一部诗集。",
+          "source_refs": [
+            "WCD10-B10-S208"
+          ]
+        }
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B10-W202",
+      "author_id": "V1-ENT-0237",
+      "entity_type": "collection",
+      "original_name": "La última inocencia",
+      "name_zh_candidate": "《最后的纯真》",
+      "name_policy": "中文为工作译名，西班牙语原题为身份锚点；不声称存在正式中文译本名。",
+      "rationale": "CVC作品评论直接讨论本作及其题名、梦境和记忆意象。",
+      "created_source_refs": [
+        "WCD10-B10-S201",
+        "WCD10-B10-S205"
+      ],
+      "facts": [
+        {
+          "field": "first_publication_year",
+          "value": "1956",
+          "source_refs": [
+            "WCD10-B10-S201"
+          ]
+        },
+        {
+          "field": "genre_or_form",
+          "value": "诗集",
+          "source_refs": [
+            "WCD10-B10-S205"
+          ]
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "CVC评论将书名联系到兰波《地狱一季》中的“最后的纯真”表述，并围绕梦境与记忆意象展开讨论。",
+          "source_refs": [
+            "WCD10-B10-S205"
+          ]
+        }
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B10-W203",
+      "author_id": "V1-ENT-0237",
+      "entity_type": "collection",
+      "original_name": "Las aventuras perdidas",
+      "name_zh_candidate": "《失落的冒险》",
+      "name_policy": "中文为工作译名，西班牙语原题为身份锚点；不声称存在正式中文译本名。",
+      "rationale": "CVC作品评论直接介绍本集及精神分析、超现实主义意象。",
+      "created_source_refs": [
+        "WCD10-B10-S201",
+        "WCD10-B10-S206"
+      ],
+      "facts": [
+        {
+          "field": "first_publication_year",
+          "value": "1958",
+          "source_refs": [
+            "WCD10-B10-S201"
+          ]
+        },
+        {
+          "field": "genre_or_form",
+          "value": "诗集",
+          "source_refs": [
+            "WCD10-B10-S206"
+          ]
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "CVC评论以精神分析、超现实主义意象及镜像联想介绍本集，并提到诗中迷失方向的意象。",
+          "source_refs": [
+            "WCD10-B10-S206"
+          ]
+        }
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B10-W204",
+      "author_id": "V1-ENT-0237",
+      "entity_type": "work",
+      "original_name": "La condesa sangrienta",
+      "name_zh_candidate": "《嗜血伯爵夫人》",
+      "name_policy": "中文为工作译名，西班牙语原题为身份锚点；不声称存在正式中文译本名。",
+      "rationale": "CVC称该文本为essay-poem-novel，围绕Erzsébet Báthory展开。",
+      "created_source_refs": [
+        "WCD10-B10-S201",
+        "WCD10-B10-S207"
+      ],
+      "facts": [
+        {
+          "field": "first_book_edition_year",
+          "value": "1971",
+          "source_refs": [
+            "WCD10-B10-S207"
+          ]
+        },
+        {
+          "field": "genre_or_form",
+          "value": "散文（CVC称essay-poem-novel）",
+          "source_refs": [
+            "WCD10-B10-S207"
+          ]
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "CVC评论称文本围绕Erzsébet Báthory展开，并将其称作essay-poem-novel。",
+          "source_refs": [
+            "WCD10-B10-S207"
+          ]
+        },
+        {
+          "field": "bibliographic_note",
+          "value": "CVC记载该作品曾于1965年有一次“primer avance mexicano”，后于1966年刊于Testigo，并于1971年以单行本出版。因来源没有说明1965年预告与1966年刊载的文本关系，本候选不填原子first_publication_year。",
+          "source_refs": [
+            "WCD10-B10-S207"
+          ]
+        }
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B10-W205",
+      "author_id": "V1-ENT-0237",
+      "entity_type": "collection",
+      "original_name": "El infierno musical",
+      "name_zh_candidate": "《音乐地狱》",
+      "name_policy": "中文为工作译名，西班牙语原题为身份锚点；不声称存在正式中文译本名。",
+      "rationale": "CVC评论直接将“Cold in hand blues”标为本集诗篇并讨论皮扎尼克的语言写作。",
+      "created_source_refs": [
+        "WCD10-B10-S201",
+        "WCD10-B10-S209"
+      ],
+      "facts": [
+        {
+          "field": "first_publication_year",
+          "value": "1971",
+          "source_refs": [
+            "WCD10-B10-S201"
+          ]
+        },
+        {
+          "field": "genre_or_form",
+          "value": "诗集",
+          "source_refs": [
+            "WCD10-B10-S209"
+          ]
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "CVC文章将“Cold in hand blues”标为本集诗篇，并讨论皮扎尼克如何以语言承载诗歌意象；概述限于该评论范围。",
+          "source_refs": [
+            "WCD10-B10-S209"
+          ]
+        }
+      ]
+    }
+  ],
+  "existing_facts": [
+    {
+      "candidate_id": "WCD10-B10-F001",
+      "subject_id": "V1-ENT-0232",
+      "field": "one_sentence_summary",
+      "value": "本诗集由面向儿子的抒情诗篇组成，诗中多次直接呼唤儿子并写父子亲情。",
+      "source_refs": [
+        "WCD10-B10-S010"
+      ],
+      "boundary": "仅新增普通作品简介；所有基线实体、事实、内容卡、关系和来源链原样保留。"
+    },
+    {
+      "candidate_id": "WCD10-B10-F002",
+      "subject_id": "V1-ENT-0233",
+      "field": "one_sentence_summary",
+      "value": "这些短诗以简洁明白的语言书写伦理理想、友情与个人悲痛。",
+      "source_refs": [
+        "WCD10-B10-S008"
+      ],
+      "boundary": "仅新增普通作品简介；不改写基线已记录的1891年书目事实。"
+    },
+    {
+      "candidate_id": "WCD10-B10-F003",
+      "subject_id": "V1-ENT-0234",
+      "field": "one_sentence_summary",
+      "value": "这篇抒情政论文章借历史与现实分析阐述Martí对拉丁美洲社会政治及其未来的思考。",
+      "source_refs": [
+        "WCD10-B10-S009"
+      ],
+      "boundary": "仅新增普通作品简介；不改写基线已有的题名、体裁、年份或来源。"
+    },
+    {
+      "candidate_id": "WCD10-B10-F111",
+      "subject_id": "V1-ENT-0239",
+      "field": "genre_or_form",
+      "value": "诗集",
+      "source_refs": [
+        "WCD10-B10-S101",
+        "WCD10-B10-S102"
+      ],
+      "boundary": "inventory中该字段缺失；只追加书目与形式字段，不改写V1-FCT-0578–0580。"
+    },
+    {
+      "candidate_id": "WCD10-B10-F112",
+      "subject_id": "V1-ENT-0239",
+      "field": "one_sentence_summary",
+      "value": "智利国家图书馆称《诗歌与反诗歌》（1954）开启帕拉的反诗模式，其诗句带有讽刺，采用日常、直接的语言。",
+      "source_refs": [
+        "WCD10-B10-S101"
+      ],
+      "boundary": "仅追加国家图书馆作者专题对该书的明确描述，不扩张为完整反诗理论。"
+    },
+    {
+      "candidate_id": "WCD10-B10-F113",
+      "subject_id": "V1-ENT-0240",
+      "field": "genre_or_form",
+      "value": "诗集",
+      "source_refs": [
+        "WCD10-B10-S102"
+      ],
+      "boundary": "inventory中该字段缺失；只追加形式字段，保留基线1962首版事实及所有版次来源链。"
+    },
+    {
+      "candidate_id": "WCD10-B10-F114",
+      "subject_id": "V1-ENT-0240",
+      "field": "one_sentence_summary",
+      "value": "国家图书馆作者专题将《沙龙篇》（1962）列入《诗歌与反诗歌》之后的作品，并概述帕拉此后诗作延展反诗模式。",
+      "source_refs": [
+        "WCD10-B10-S101"
+      ],
+      "boundary": "只采用作者专题对列举作品序列的概述；不将图版中1971版误作1962首版，也不声称单书研究结论。"
+    },
+    {
+      "candidate_id": "WCD10-B10-F201",
+      "subject_id": "V1-ENT-0242",
+      "field": "genre_or_form",
+      "value": "诗集",
+      "source_refs": [
+        "WCD10-B10-S202"
+      ],
+      "boundary": "仅补旧对象缺失字段；保全基线实体、事实、卡片、关系及完整来源闭包。"
+    },
+    {
+      "candidate_id": "WCD10-B10-F202",
+      "subject_id": "V1-ENT-0242",
+      "field": "one_sentence_summary",
+      "value": "CVC评论借奥克塔维奥·帕斯的序言讨论书名象征，并提到作品中的色彩意象与绘画题献；此处仅概述该评论内容。",
+      "source_refs": [
+        "WCD10-B10-S202"
+      ],
+      "boundary": "仅补旧对象缺失字段；保全基线实体、事实、卡片、关系及完整来源闭包。"
+    },
+    {
+      "candidate_id": "WCD10-B10-F203",
+      "subject_id": "V1-ENT-0243",
+      "field": "genre_or_form",
+      "value": "诗集",
+      "source_refs": [
+        "WCD10-B10-S203"
+      ],
+      "boundary": "仅补旧对象缺失字段；保全基线实体、事实、卡片、关系及完整来源闭包。"
+    },
+    {
+      "candidate_id": "WCD10-B10-F204",
+      "subject_id": "V1-ENT-0243",
+      "field": "one_sentence_summary",
+      "value": "CVC评论指出，本集以爱情表达和对话、静默意象交织，并特别提到作品对语音与节奏的经营。",
+      "source_refs": [
+        "WCD10-B10-S203"
+      ],
+      "boundary": "仅补旧对象缺失字段；保全基线实体、事实、卡片、关系及完整来源闭包。"
+    },
+    {
+      "candidate_id": "WCD10-B10-F205",
+      "subject_id": "V1-ENT-0244",
+      "field": "genre_or_form",
+      "value": "诗集（含散文化表达）",
+      "source_refs": [
+        "WCD10-B10-S208"
+      ],
+      "boundary": "仅补旧对象缺失字段；保全基线实体、事实、卡片、关系及完整来源闭包。"
+    },
+    {
+      "candidate_id": "WCD10-B10-F206",
+      "subject_id": "V1-ENT-0244",
+      "field": "one_sentence_summary",
+      "value": "CVC评论以象征意象描述本书中的痛苦与无力，并指出作品从韵文化表达延展到散文形式。",
+      "source_refs": [
+        "WCD10-B10-S204",
+        "WCD10-B10-S208"
+      ],
+      "boundary": "仅补旧对象缺失字段；保全基线实体、事实、卡片、关系及完整来源闭包。"
+    }
+  ],
+  "extra_relationships": [],
+  "deferred": [
+    {
+      "key": "parra.discursos-de-sobremesa.work-description",
+      "reason": "当前已打开机构来源只给出作者作品目录、版本状态及书目封面；没有直接作品层内容介绍，暂不推断主题或体裁。",
+      "disposition": "preserve as catalog_only and research_gap"
+    },
+    {
+      "key": "parra.cancionero-sin-nombre.first-publication-year",
+      "reason": "Memoria Chilena正文叙述称1935，页面书目/封面及智利大学目录记录1937；未据初版实物或权威馆藏裁决首版年，不提原子年份候选。",
+      "disposition": "preserve disputed year as research_gap"
+    },
+    {
+      "key": "V1-ENT-0237:完整作品谱系/单篇/手稿/全部版本未穷尽",
+      "reason": "按DEC-070聚焦主要作品和有直接依据的描述，不追全集、所有单篇及全部版次。",
+      "disposition": "保留合理研究缺口；本包不宣称作品目录完整。"
+    }
+  ]
+}

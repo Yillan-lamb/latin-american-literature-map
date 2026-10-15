@@ -1,0 +1,254 @@
+{
+  "schema": "wcd10-b13-source-access-log-merged-1",
+  "task_id": "TASK-118",
+  "batch_id": "WCD-10-B13",
+  "baseline_database_sha256": "74a900c2988eec78a700467bc70c5e523a774cd4fa615cfc5edfdd16991ff8f7",
+  "author_packages": [
+    {
+      "author_id": "V1-ENT-0262",
+      "source_directory": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/project/internal/WCD_10_WORKSPACE/orchestration/wave-10/bolano/R2",
+      "source_access_log": {
+        "accessed_at": "2026-10-13",
+        "sources": [
+          {
+            "candidate_id": "WCD10-B13-S001",
+            "url": "https://www.memoriachilena.gob.cl/602/w3-article-3688.html",
+            "access_status": "OPENED",
+            "accessed_at": "2026-10-13",
+            "opened": true,
+            "locator": "第105-111行：作品出版时间、合作创作及身后出版；实读2026-10-13。"
+          },
+          {
+            "candidate_id": "WCD10-B13-S002",
+            "url": "https://www.anagrama-ed.es/autor/bolano-roberto-134",
+            "access_status": "OPENED",
+            "accessed_at": "2026-10-13",
+            "opened": true,
+            "locator": "第61-66行列作家身份、小说/故事分类、2666身后出版及其他身后作品；实读2026-10-13。"
+          },
+          {
+            "candidate_id": "WCD10-B13-S003",
+            "url": "https://www.anagrama-ed.es/libro/narrativas-hispanicas/los-detectives-salvajes/9788433910868/NH_256",
+            "access_status": "OPENED",
+            "accessed_at": "2026-10-13",
+            "opened": true,
+            "locator": "第78-80、115-118、153-155行：小说情节/跨国场景及该版书目；实读2026-10-13。"
+          },
+          {
+            "candidate_id": "WCD10-B13-S004",
+            "url": "https://www.anagrama-ed.es/libro/compactos/2666/9788433973184/CM_462",
+            "access_status": "OPENED",
+            "accessed_at": "2026-10-13",
+            "opened": true,
+            "locator": "第145-148行：作品简介；实读2026-10-13。"
+          },
+          {
+            "candidate_id": "WCD10-B13-S005",
+            "url": "https://www.anagrama-ed.es/libro/compactos/estrella-distante/9788433966735/CM_242",
+            "access_status": "OPENED",
+            "accessed_at": "2026-10-13",
+            "opened": true,
+            "locator": "第75-79、142-146行：出版方简介；实读2026-10-13。"
+          },
+          {
+            "candidate_id": "WCD10-B13-S006",
+            "url": "https://www.anagrama-ed.es/libro/narrativas-hispanicas/la-literatura-nazi-en-america/9788433972194/NH_480",
+            "access_status": "OPENED",
+            "accessed_at": "2026-10-13",
+            "opened": true,
+            "locator": "第73-78、150-157行：作品体裁、结构描述及1996出版陈述；实读2026-10-13。"
+          },
+          {
+            "candidate_id": "WCD10-B13-S007",
+            "url": "https://www.anagrama-ed.es/libro/compactos/amuleto/9788433973559/CM_499",
+            "access_status": "OPENED",
+            "accessed_at": "2026-10-13",
+            "opened": true,
+            "locator": "第75-78、141-144行：作品简介；实读2026-10-13。"
+          },
+          {
+            "candidate_id": "WCD10-B13-S008",
+            "url": "https://www.anagrama-ed.es/libro/compactos/nocturno-de-chile/9788433977489/CM_645",
+            "access_status": "OPENED",
+            "accessed_at": "2026-10-13",
+            "opened": true,
+            "locator": "第75-78行：出版方作品简介；实读2026-10-13。"
+          },
+          {
+            "candidate_id": "WCD10-B13-S009",
+            "url": "https://www.anagrama-ed.es/libro/compactos/el-gaucho-insufrible/9788433973252/CM_469",
+            "access_status": "OPENED",
+            "accessed_at": "2026-10-13",
+            "opened": true,
+            "locator": "第75-79、142-144行：五篇小说与两篇演讲的目录性说明；实读2026-10-13。"
+          },
+          {
+            "candidate_id": "WCD10-B13-S010",
+            "url": "https://www.anagrama-ed.es/libro/compactos/la-pista-de-hielo/9788433977038/CM_601",
+            "access_status": "OPENED",
+            "accessed_at": "2026-10-13",
+            "opened": true,
+            "locator": "第75-78、141-144行：三种叙述版本和谋杀线索；实读2026-10-13。"
+          },
+          {
+            "candidate_id": "WCD10-B13-S011",
+            "url": "https://www.anagrama-ed.es/libro/narrativas-hispanicas/llamadas-telefonicas/9788433910660/NH_236",
+            "access_status": "OPENED",
+            "accessed_at": "2026-10-13",
+            "opened": true,
+            "locator": "第77-83、87-112、147-153行：短篇集简介及本版1997-09-01出版信息；实读2026-10-13。"
+          },
+          {
+            "candidate_id": "WCD10-B13-S012",
+            "url": "https://www.anagrama-ed.es/libro/narrativas-hispanicas/putas-asesinas/9788433924858/NH_314",
+            "access_status": "OPENED",
+            "accessed_at": "2026-10-13",
+            "opened": true,
+            "locator": "第75-81、85-109、145-151行：短篇集简介及本版2001-09-01出版信息；实读2026-10-13。"
+          }
+        ]
+      }
+    },
+    {
+      "author_id": "V1-ENT-0272",
+      "source_directory": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/project/internal/WCD_10_WORKSPACE/orchestration/wave-10/galeano/FINAL",
+      "source_access_log": {
+        "schema": "wcd10-b13-source-access-log-1",
+        "task_id": "TASK-118",
+        "batch_id": "WCD-10-B13",
+        "baseline_database_sha256": "74a900c2988eec78a700467bc70c5e523a774cd4fa615cfc5edfdd16991ff8f7",
+        "accessed_at": "2026-10-13",
+        "sources": [
+          {
+            "candidate_id": "WCD10-B13-S101",
+            "url": "https://uruguayeduca.anep.edu.uy/efemerides/nace-eduardo-galeano",
+            "access_status": "OPENED",
+            "accessed_at": "2026-10-13",
+            "opened": true,
+            "locator": "实读2026-10-13。第17行：Los días siguientes为Galeano于1963年出版的第一部小说；第61行：El fútbol a sol y sombra列于1995年。"
+          },
+          {
+            "candidate_id": "WCD10-B13-S103",
+            "url": "https://www.sigloxxieditores.com/libro/memoria-del-fuego-2-las-caras-y-las-mascaras_53908/",
+            "access_status": "OPENED",
+            "accessed_at": "2026-10-13",
+            "opened": true,
+            "locator": "实读2026-10-13。第27-31行：作者、第二卷身份；以有据小故事讲述拉美18—19世纪独立战争、革命及国家形成过程。第38-45行当前版书目信息。"
+          },
+          {
+            "candidate_id": "WCD10-B13-S104",
+            "url": "https://www.sigloxxieditores.com/libro/memoria-del-fuego-3-el-siglo-del-viento_53910/",
+            "access_status": "OPENED",
+            "accessed_at": "2026-10-13",
+            "opened": true,
+            "locator": "实读2026-10-13。第27-30行：作者、第三卷身份；以日常小故事叙述美洲20世纪动荡，并呈现历史从博物馆走回现实的写作意图。第37-44行当前版书目信息。"
+          },
+          {
+            "candidate_id": "WCD10-B13-S105",
+            "url": "https://www.sigloxxieditores.com/libro/el-libro-de-los-abrazos_53558/",
+            "access_status": "OPENED",
+            "accessed_at": "2026-10-13",
+            "opened": true,
+            "locator": "实读2026-10-13。第27-30行：作者；由庆典、逸事、编年、梦、记忆等构成的短篇直接叙事，结合作者版画和绘图。第35-46行题材分类和当前版信息。"
+          },
+          {
+            "candidate_id": "WCD10-B13-S106",
+            "url": "https://www.sigloxxieditores.com/libro/el-futbol-a-sol-y-sombra_53031/",
+            "access_status": "OPENED",
+            "accessed_at": "2026-10-13",
+            "opened": true,
+            "locator": "实读2026-10-13。第27-34行：作者；作品向足球致意，也批评足球商业权力结构，批判职业体育技术官僚化压制快乐、想象和冒险；当前版含2014世界杯相关文字。第37-48行当前版信息。"
+          },
+          {
+            "candidate_id": "WCD10-B13-S107",
+            "url": "https://www.sigloxxieditores.com/libro/las-venas-abiertas-de-america-latina_52766/",
+            "access_status": "OPENED",
+            "accessed_at": "2026-10-13",
+            "opened": true,
+            "locator": "实读2026-10-13。第27-35行：作者说明写作意图是传播被官方历史遮蔽或歪曲的事实，并以面向读者的方式讨论政治经济问题。当前为50周年纪念版，第42-50行书目信息。"
+          },
+          {
+            "candidate_id": "WCD10-B13-S108",
+            "url": "https://www.sigloxxieditores.com/libro/memoria-del-fuego-1-los-nacimientos_53906/",
+            "access_status": "OPENED",
+            "accessed_at": "2026-10-13",
+            "opened": true,
+            "locator": "实读2026-10-13。第27-30行：作者、三部曲第一卷身份；写到美洲征服前至1700年历史，以及原住民遭受的压迫。第35-46行主题分类和当前版信息。"
+          },
+          {
+            "candidate_id": "WCD10-B13-S109",
+            "url": "https://www.sigloxxieditores.com/libro/espejos_16488/",
+            "access_status": "OPENED",
+            "accessed_at": "2026-10-13",
+            "opened": true,
+            "locator": "实读2026-10-13。第27-38行：作者；叙述将过去与现在连接，关注被忽略的普通人、女性、南方和东方等群体；馆方分类含历史/叙事。第43-50行当前版2008出版信息。"
+          }
+        ]
+      }
+    },
+    {
+      "author_id": "V1-ENT-0273",
+      "source_directory": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/project/internal/WCD_10_WORKSPACE/orchestration/wave-10/piglia/FINAL",
+      "source_access_log": {
+        "accessed_at": "2026-10-13",
+        "sources": [
+          {
+            "source_ref": "WCD10-B13-S201",
+            "url": "https://piglia.pubpub.org/bio",
+            "title": "OBRA · Ricardo Piglia",
+            "access_status": "OPENED",
+            "accessed_at": "2026-10-13",
+            "verified_by": "B13 Piglia candidate producer",
+            "locator": "页面第15-18行列作者身份、代表小说与文集；第20-110行按体裁列作品目录及出版者/年份。实读2026-10-13。",
+            "supports": "官方作者档案中的作家简介及完整作品目录；所列条目的体裁、年份和出版书目信息。",
+            "limitations": "作者自建档案不是独立学术评价；不支持未列出的年份、作品情节或全集完整性。"
+          },
+          {
+            "source_ref": "WCD10-B13-S202",
+            "url": "https://www.anagrama-ed.es/autor/piglia-ricardo-856",
+            "title": "Ricardo Piglia — Editorial Anagrama",
+            "access_status": "OPENED",
+            "accessed_at": "2026-10-13",
+            "verified_by": "B13 Piglia candidate producer",
+            "locator": "第61-64行直接区分五部小说、四部cuento集和评论/自传书目；第74-113行列该社书目。 实读2026-10-13。",
+            "supports": "直接支持Piglia作品类别与Anagrama书目归属，不以出版社个人页推定版本年份。",
+            "limitations": "出版社页面支持其自版分类、版本日期和概要；未从其推断首版年份，简介为受限转述。"
+          },
+          {
+            "source_ref": "WCD10-B13-S203",
+            "url": "https://www.anagrama-ed.es/libro/narrativas-hispanicas/la-ciudad-ausente/9788433968418/NH_340",
+            "title": "La ciudad ausente — Editorial Anagrama",
+            "access_status": "OPENED",
+            "accessed_at": "2026-10-13",
+            "verified_by": "B13 Piglia candidate producer",
+            "locator": "第75-78行提供作品简介并称其为小说；第104-106行显示Anagrama该版本出版日2003-03-01。 实读2026-10-13。",
+            "supports": "支持Anagrama版本及其简介；与作者档案的1992书目年份并列记录。",
+            "limitations": "出版社页面支持其自版分类、版本日期和概要；未从其推断首版年份，简介为受限转述。"
+          },
+          {
+            "source_ref": "WCD10-B13-S204",
+            "url": "https://www.anagrama-ed.es/libro/narrativas-hispanicas/el-camino-de-ida/9788433997647/NH_517",
+            "title": "El camino de Ida — Editorial Anagrama",
+            "access_status": "OPENED",
+            "accessed_at": "2026-10-13",
+            "verified_by": "B13 Piglia candidate producer",
+            "locator": "第75-80行提供作品简介并称其为小说；第105-107行显示出版日2013-09-04。 实读2026-10-13。",
+            "supports": "支持作品围绕Emilio Renzi、Ida Brown、校园连环袭击调查的有界简介及Anagrama版本年份。",
+            "limitations": "出版社页面支持其自版分类、版本日期和概要；未从其推断首版年份，简介为受限转述。"
+          },
+          {
+            "source_ref": "WCD10-B13-S205",
+            "url": "https://www.anagrama-ed.es/libro/narrativas-hispanicas/los-casos-del-comisario-croce/9788433998606/NH_611",
+            "title": "Los casos del comisario Croce — Editorial Anagrama",
+            "access_status": "OPENED",
+            "accessed_at": "2026-10-13",
+            "verified_by": "B13 Piglia candidate producer",
+            "locator": "第62-65行称为cuentos policiacos；第77-80行介绍Croce处理的疑案及侦探文学致意；第129-131行显示出版日2018-09-12。 实读2026-10-13。",
+            "supports": "直接支持体裁、侦探故事简介、2018 Anagrama版本。",
+            "limitations": "出版社页面支持其自版分类、版本日期和概要；未从其推断首版年份，简介为受限转述。"
+          }
+        ]
+      }
+    }
+  ]
+}

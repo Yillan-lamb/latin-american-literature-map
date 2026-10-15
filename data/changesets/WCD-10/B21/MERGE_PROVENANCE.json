@@ -1,0 +1,2123 @@
+{
+  "task_id": "TASK-126",
+  "batch_id": "WCD-10-B21",
+  "author_order": [
+    "V1-ENT-0360"
+  ],
+  "freeze_inputs_sha256": "a658a1d767d967b267912c9d55ca46bd937f498fe2c8a0165a2551f3a98646ba",
+  "source_content_review_sha256": "ba407453e81db4b0e26bc2203ced4ccbefab4e279a879fcd5f8f4d6af4b5eb41",
+  "baseline_database_sha256": "db16fe4f5faaafcfca3b02b42c52d56bb9b11d63704d2de49201d1f328e0a0ba",
+  "input_packages": [
+    {
+      "author_id": "V1-ENT-0360",
+      "directory": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/project/internal/WCD_10_WORKSPACE/orchestration/wave-18/gallegos",
+      "candidate_sha256": "17abd149acebb70c849a91dd5bafbe7919883eba83514680ad3c523deab130d0",
+      "evidence_matrix_sha256": "780c60f942714f971ac28135c6bdca40d3d719950bd666e17aa2b2f8afd1fc8a",
+      "sha256": {
+        "CANDIDATES.json": "17abd149acebb70c849a91dd5bafbe7919883eba83514680ad3c523deab130d0",
+        "COVERAGE.json": "85bb6c66324886b1954aac609427018c32903f150cfe8bc0c5c23b801e23c93d",
+        "SOURCE_REGISTRATION.json": "8fa89220af1191bd8a5e3f1c9a5da3a4bc11d73306cdd06e8f9a0ace0cc70746",
+        "EVIDENCE_MATRIX.json": "780c60f942714f971ac28135c6bdca40d3d719950bd666e17aa2b2f8afd1fc8a",
+        "DEDUP.json": "1c499e1ede91e7033c25b613ffe76e47b053dadd6d9055411cf5c3a4924fae46",
+        "SOURCE_ACCESS_LOG.json": "5e2e57f6684f6701503229c7404dc65205b309c11b4f77b8647022099cc55c96",
+        "SELF_CHECK.json": "2c2b8559005b7799385545075a66aba51532aa7b413b1f5b70b7eb80d85075f3",
+        "VALIDATOR_REPORT.json": "c153a9d3002436acd6ad0de933fcda9554d270a9af6c964f2f2e5cc35f01068f",
+        "VALIDATOR_FLOW.json": "d0671475fb1920d8ea56291b26a96ae8fa4f6f5aaf16b8998f883edae90e68f6",
+        "VALIDATOR.stdout.raw": "bd8f875b9544697eb1c977faa99af4786a869b0e527fb2b1091e445f17713e10",
+        "VALIDATOR.stderr.raw": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "VALIDATOR_HELP.stdout.raw": "3ddf5ca513cbd9260f32ecb0bca68570ab3eae97e6cd1b9d034f7e9ee5e9452f",
+        "VALIDATOR_HELP.stderr.raw": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "HANDOFF.md": "bba1507d792fff10e61810958d61a6d99cfb1e99a99eabeb259b0789072ab22f",
+        "STATUS.json": "17a63fd7939e7b56ce25557e491dd5d9d5f06d65422a705d77d6b175882641ac"
+      },
+      "freeze_manifest": {
+        "files": {
+          "CANDIDATES.json": "17abd149acebb70c849a91dd5bafbe7919883eba83514680ad3c523deab130d0",
+          "COVERAGE.json": "85bb6c66324886b1954aac609427018c32903f150cfe8bc0c5c23b801e23c93d",
+          "SOURCE_REGISTRATION.json": "8fa89220af1191bd8a5e3f1c9a5da3a4bc11d73306cdd06e8f9a0ace0cc70746",
+          "EVIDENCE_MATRIX.json": "780c60f942714f971ac28135c6bdca40d3d719950bd666e17aa2b2f8afd1fc8a",
+          "DEDUP.json": "1c499e1ede91e7033c25b613ffe76e47b053dadd6d9055411cf5c3a4924fae46",
+          "SOURCE_ACCESS_LOG.json": "5e2e57f6684f6701503229c7404dc65205b309c11b4f77b8647022099cc55c96",
+          "SELF_CHECK.json": "2c2b8559005b7799385545075a66aba51532aa7b413b1f5b70b7eb80d85075f3",
+          "VALIDATOR_REPORT.json": "c153a9d3002436acd6ad0de933fcda9554d270a9af6c964f2f2e5cc35f01068f",
+          "VALIDATOR_FLOW.json": "d0671475fb1920d8ea56291b26a96ae8fa4f6f5aaf16b8998f883edae90e68f6",
+          "VALIDATOR.stdout.raw": "bd8f875b9544697eb1c977faa99af4786a869b0e527fb2b1091e445f17713e10",
+          "VALIDATOR.stderr.raw": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "VALIDATOR_HELP.stdout.raw": "3ddf5ca513cbd9260f32ecb0bca68570ab3eae97e6cd1b9d034f7e9ee5e9452f",
+          "VALIDATOR_HELP.stderr.raw": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "HANDOFF.md": "bba1507d792fff10e61810958d61a6d99cfb1e99a99eabeb259b0789072ab22f",
+          "STATUS.json": "17a63fd7939e7b56ce25557e491dd5d9d5f06d65422a705d77d6b175882641ac"
+        },
+        "producer_manifest_sha256": "dcb092788d810315ea0a2ff5b8f45ed5c82a829d51f6cb1711f5bb6b6a2478fb"
+      }
+    }
+  ],
+  "original_coverage_documents": [
+    {
+      "task_id": "TASK-126",
+      "batch_id": "WCD-10-B21",
+      "baseline_database_sha256": "db16fe4f5faaafcfca3b02b42c52d56bb9b11d63704d2de49201d1f328e0a0ba",
+      "scope": "仅Rómulo Gallegos；基线三部关联作品闭包逐值保全，新增六部主要小说及两部短篇集，并为三部既有作品增加有界简介候选；不主张全集穷尽。",
+      "author_ids": [
+        "V1-ENT-0360"
+      ],
+      "author_descriptions": {},
+      "research_policy_by_author": {
+        "V1-ENT-0360": {
+          "author_id": "V1-ENT-0360",
+          "status": "institutional_commentary",
+          "remaining": "本轮以委内瑞拉国家历史学会托管传记、区域馆藏目录和数字图书馆记录补充主要作品及摘要；不声明全集或学术覆盖完备。"
+        }
+      },
+      "author_context_by_id": {},
+      "author_scope_by_id": {
+        "V1-ENT-0360": {
+          "author_id": "V1-ENT-0360",
+          "scope": "冻结基线内三部既有CREATED作品各一条主行；新增候选作品各一条主行。既有Doña Bárbara、Cantaclaro、Canaima全来源闭包逐值保全，新增摘要以existing_facts候选另列。"
+        }
+      },
+      "author_results_by_id": {},
+      "author_snapshots_by_id": {
+        "V1-ENT-0360": {
+          "batch_id": "WCD-10-B21",
+          "task_id": "TASK-126",
+          "author": {
+            "entity_id": "V1-ENT-0360",
+            "entity_type": "author",
+            "name_zh": "罗慕洛·加列戈斯",
+            "original_name": "Rómulo Gallegos",
+            "canonical_status": "candidate",
+            "origin_count": "1",
+            "origin_refs": "CAND-B17-GALLEGOS-AUTHOR",
+            "normalization_basis": "Fundación Empresas Polar and Universidad de Carabobo profiles establish the Venezuelan author, life dates and selected novels.",
+            "issue_codes": "NONE"
+          },
+          "works": [
+            {
+              "entity": {
+                "entity_id": "V1-ENT-0367",
+                "entity_type": "work",
+                "name_zh": "《堂娜·芭芭拉》",
+                "original_name": "Doña Bárbara",
+                "canonical_status": "candidate",
+                "origin_count": "1",
+                "origin_refs": "CAND-B17-RÓMULO-GALLEGOS-67",
+                "normalization_basis": "Polar and Universidad de Carabobo profiles date Doña Bárbara to 1929; Chinese label is provisional.",
+                "issue_codes": "NONE"
+              },
+              "facts": [
+                {
+                  "fact_id": "V1-FCT-0995",
+                  "origin_material_id": "WEB-CE-B17",
+                  "card_id": "V1-CARD-0253",
+                  "subject_id": "V1-ENT-0367",
+                  "fact_field": "entity_layer",
+                  "value_text": "work",
+                  "material_class": "metadata",
+                  "origin_id": "SRC-0275",
+                  "confidence": "high",
+                  "admission_status": "candidate_for_staging_review",
+                  "usage_note": "Entity layer recorded as work."
+                },
+                {
+                  "fact_id": "V1-FCT-0996",
+                  "origin_material_id": "WEB-CE-B17",
+                  "card_id": "V1-CARD-0253",
+                  "subject_id": "V1-ENT-0367",
+                  "fact_field": "first_publication_year",
+                  "value_text": "1929",
+                  "material_class": "bibliographic",
+                  "origin_id": "SRC-0275",
+                  "confidence": "high",
+                  "admission_status": "candidate_for_staging_review",
+                  "usage_note": "Cited source dates Doña Bárbara to 1929."
+                },
+                {
+                  "fact_id": "V1-FCT-0997",
+                  "origin_material_id": "WEB-CE-B17",
+                  "card_id": "V1-CARD-0253",
+                  "subject_id": "V1-ENT-0367",
+                  "fact_field": "genre_or_form",
+                  "value_text": "小说",
+                  "material_class": "bibliographic",
+                  "origin_id": "SRC-0275",
+                  "confidence": "high",
+                  "admission_status": "candidate_for_staging_review",
+                  "usage_note": "Cited source supports the conservative form label 小说."
+                }
+              ],
+              "cards": [
+                {
+                  "card_id": "V1-CARD-0253",
+                  "origin_card_id": "",
+                  "subject_id": "V1-ENT-0367",
+                  "card_type": "work",
+                  "title_zh": "《堂娜·芭芭拉》",
+                  "author_label": "罗慕洛·加列戈斯",
+                  "original_title": "Doña Bárbara",
+                  "country_or_region": "委内瑞拉",
+                  "language": "es",
+                  "period_bucket": "1929",
+                  "genre_or_form": "小说",
+                  "input_layer": "WEB-CE-B17",
+                  "source_minimum_status": "meets",
+                  "issue_code": "NONE",
+                  "content_markdown": "### 《堂娜·芭芭拉》｜Doña Bárbara — source-backed 小说 entry; original title retained."
+                }
+              ],
+              "relations": [
+                {
+                  "relationship_id": "V1-REL-0290",
+                  "origin_layer": "WEB-CE-B17",
+                  "origin_relation_group_id": "V1-REL-0290",
+                  "subject_id": "V1-ENT-0360",
+                  "relation_type": "CREATED",
+                  "object_id": "V1-ENT-0367",
+                  "description_zh": "罗慕洛·加列戈斯创作《堂娜·芭芭拉》（Doña Bárbara）",
+                  "confidence": "high",
+                  "review_status": "accepted",
+                  "upstream_review_status": "WEB-CE-B17",
+                  "evidence_count": "1",
+                  "issue_code": "NONE"
+                }
+              ],
+              "fact_sources": [
+                {
+                  "fact_id": "V1-FCT-0995",
+                  "source_id": "SRC-0275",
+                  "source_title": "Gallegos, Rómulo"
+                },
+                {
+                  "fact_id": "V1-FCT-0996",
+                  "source_id": "SRC-0275",
+                  "source_title": "Gallegos, Rómulo"
+                },
+                {
+                  "fact_id": "V1-FCT-0997",
+                  "source_id": "SRC-0275",
+                  "source_title": "Gallegos, Rómulo"
+                }
+              ],
+              "card_sources": [
+                {
+                  "card_source_id": "V1-CS-0493",
+                  "origin_matrix_id": "",
+                  "card_id": "V1-CARD-0253",
+                  "source_id": "SRC-0275",
+                  "source_level": "B",
+                  "source_role": "both",
+                  "bibliographic_support": "yes",
+                  "research_support": "yes",
+                  "independent_source_key": "SRC-0275",
+                  "usage_status": "used",
+                  "issue_code": "NONE"
+                },
+                {
+                  "card_source_id": "V1-CS-0494",
+                  "origin_matrix_id": "",
+                  "card_id": "V1-CARD-0253",
+                  "source_id": "SRC-0276",
+                  "source_level": "C",
+                  "source_role": "both",
+                  "bibliographic_support": "yes",
+                  "research_support": "yes",
+                  "independent_source_key": "SRC-0276",
+                  "usage_status": "used",
+                  "issue_code": "NONE"
+                }
+              ],
+              "relationship_sources": [
+                {
+                  "relationship_id": "V1-REL-0290",
+                  "source_id": "SRC-0275"
+                },
+                {
+                  "relationship_id": "V1-REL-0290",
+                  "source_id": "SRC-0276"
+                }
+              ],
+              "relationship_evidence": [
+                {
+                  "evidence_id": "V1-EV-0315",
+                  "relationship_id": "V1-REL-0290",
+                  "origin_evidence_id": "V1-REL-0290",
+                  "source_id": "SRC-0275",
+                  "source_title": "Gallegos, Rómulo",
+                  "locator": "",
+                  "evidence_note": "罗慕洛·加列戈斯创作《堂娜·芭芭拉》（Doña Bárbara） is directly supported by the cited source(s); no influence claim is made.",
+                  "confidence": "high",
+                  "evidence_status": "eligible_evidence",
+                  "evidence_origin": "WEB-CE-B17"
+                }
+              ],
+              "source_objects": [
+                {
+                  "source_id": "SRC-0275",
+                  "temporary_id": "B17-SRC-0275",
+                  "title": "Gallegos, Rómulo",
+                  "original_title": "Gallegos, Rómulo",
+                  "author_or_editor": "Fundación Empresas Polar",
+                  "translator": "",
+                  "publisher": "Fundación Empresas Polar",
+                  "publication_year": "",
+                  "isbn": "",
+                  "format": "web_page",
+                  "page_count": "",
+                  "language": "es",
+                  "source_level": "B",
+                  "processing_status": "access_pass",
+                  "source_task": "WEB-CE-B17",
+                  "public_content_scope": "Polar profile: Rómulo Gallegos Caracas 1884–1969; writer, educator and politician; Doña Bárbara 1929, Cantaclaro 1934, Canaima 1935",
+                  "local_asset_status": "remote_only",
+                  "persistent_id": "",
+                  "canonical_url": "https://bibliofep.fundacionempresaspolar.org/dhv/entradas/g/gallegos-romulo/"
+                },
+                {
+                  "source_id": "SRC-0276",
+                  "temporary_id": "B17-SRC-0276",
+                  "title": "NACIMIENTO DE DON RÓMULO GALLEGOS",
+                  "original_title": "NACIMIENTO DE DON RÓMULO GALLEGOS",
+                  "author_or_editor": "Universidad de Carabobo, Vicerrectorado Académico",
+                  "translator": "",
+                  "publisher": "Universidad de Carabobo",
+                  "publication_year": "2018",
+                  "isbn": "",
+                  "format": "web_page",
+                  "page_count": "",
+                  "language": "es",
+                  "source_level": "C",
+                  "processing_status": "access_pass",
+                  "source_task": "WEB-CE-B17",
+                  "public_content_scope": "Republished biographical note attributed on-page to BuscaBiografias; low-risk corroboration only, not independent support for strong claims",
+                  "local_asset_status": "remote_only",
+                  "persistent_id": "",
+                  "canonical_url": "https://viceacademico.uc.edu.ve/efemerides/historia/gallegos"
+                }
+              ],
+              "flags": [
+                "object_description_fact_missing"
+              ]
+            },
+            {
+              "entity": {
+                "entity_id": "V1-ENT-0368",
+                "entity_type": "work",
+                "name_zh": "《唱歌者》",
+                "original_name": "Cantaclaro",
+                "canonical_status": "candidate",
+                "origin_count": "1",
+                "origin_refs": "CAND-B17-RÓMULO-GALLEGOS-68",
+                "normalization_basis": "Polar profile dates Cantaclaro to 1934; Chinese label is provisional.",
+                "issue_codes": "NONE"
+              },
+              "facts": [
+                {
+                  "fact_id": "V1-FCT-0998",
+                  "origin_material_id": "WEB-CE-B17",
+                  "card_id": "V1-CARD-0254",
+                  "subject_id": "V1-ENT-0368",
+                  "fact_field": "entity_layer",
+                  "value_text": "work",
+                  "material_class": "metadata",
+                  "origin_id": "SRC-0275",
+                  "confidence": "high",
+                  "admission_status": "candidate_for_staging_review",
+                  "usage_note": "Entity layer recorded as work."
+                },
+                {
+                  "fact_id": "V1-FCT-0999",
+                  "origin_material_id": "WEB-CE-B17",
+                  "card_id": "V1-CARD-0254",
+                  "subject_id": "V1-ENT-0368",
+                  "fact_field": "first_publication_year",
+                  "value_text": "1934",
+                  "material_class": "bibliographic",
+                  "origin_id": "SRC-0275",
+                  "confidence": "high",
+                  "admission_status": "candidate_for_staging_review",
+                  "usage_note": "Cited source dates Cantaclaro to 1934."
+                },
+                {
+                  "fact_id": "V1-FCT-1000",
+                  "origin_material_id": "WEB-CE-B17",
+                  "card_id": "V1-CARD-0254",
+                  "subject_id": "V1-ENT-0368",
+                  "fact_field": "genre_or_form",
+                  "value_text": "小说",
+                  "material_class": "bibliographic",
+                  "origin_id": "SRC-0275",
+                  "confidence": "high",
+                  "admission_status": "candidate_for_staging_review",
+                  "usage_note": "Cited source supports the conservative form label 小说."
+                }
+              ],
+              "cards": [
+                {
+                  "card_id": "V1-CARD-0254",
+                  "origin_card_id": "",
+                  "subject_id": "V1-ENT-0368",
+                  "card_type": "work",
+                  "title_zh": "《唱歌者》",
+                  "author_label": "罗慕洛·加列戈斯",
+                  "original_title": "Cantaclaro",
+                  "country_or_region": "委内瑞拉",
+                  "language": "es",
+                  "period_bucket": "1934",
+                  "genre_or_form": "小说",
+                  "input_layer": "WEB-CE-B17",
+                  "source_minimum_status": "meets",
+                  "issue_code": "NONE",
+                  "content_markdown": "### 《唱歌者》｜Cantaclaro — source-backed 小说 entry; original title retained."
+                }
+              ],
+              "relations": [
+                {
+                  "relationship_id": "V1-REL-0291",
+                  "origin_layer": "WEB-CE-B17",
+                  "origin_relation_group_id": "V1-REL-0291",
+                  "subject_id": "V1-ENT-0360",
+                  "relation_type": "CREATED",
+                  "object_id": "V1-ENT-0368",
+                  "description_zh": "罗慕洛·加列戈斯创作《唱歌者》（Cantaclaro）",
+                  "confidence": "high",
+                  "review_status": "accepted",
+                  "upstream_review_status": "WEB-CE-B17",
+                  "evidence_count": "1",
+                  "issue_code": "NONE"
+                }
+              ],
+              "fact_sources": [
+                {
+                  "fact_id": "V1-FCT-0998",
+                  "source_id": "SRC-0275",
+                  "source_title": "Gallegos, Rómulo"
+                },
+                {
+                  "fact_id": "V1-FCT-0999",
+                  "source_id": "SRC-0275",
+                  "source_title": "Gallegos, Rómulo"
+                },
+                {
+                  "fact_id": "V1-FCT-1000",
+                  "source_id": "SRC-0275",
+                  "source_title": "Gallegos, Rómulo"
+                }
+              ],
+              "card_sources": [
+                {
+                  "card_source_id": "V1-CS-0495",
+                  "origin_matrix_id": "",
+                  "card_id": "V1-CARD-0254",
+                  "source_id": "SRC-0275",
+                  "source_level": "B",
+                  "source_role": "both",
+                  "bibliographic_support": "yes",
+                  "research_support": "yes",
+                  "independent_source_key": "SRC-0275",
+                  "usage_status": "used",
+                  "issue_code": "NONE"
+                }
+              ],
+              "relationship_sources": [
+                {
+                  "relationship_id": "V1-REL-0291",
+                  "source_id": "SRC-0275"
+                }
+              ],
+              "relationship_evidence": [
+                {
+                  "evidence_id": "V1-EV-0316",
+                  "relationship_id": "V1-REL-0291",
+                  "origin_evidence_id": "V1-REL-0291",
+                  "source_id": "SRC-0275",
+                  "source_title": "Gallegos, Rómulo",
+                  "locator": "",
+                  "evidence_note": "罗慕洛·加列戈斯创作《唱歌者》（Cantaclaro） is directly supported by the cited source(s); no influence claim is made.",
+                  "confidence": "high",
+                  "evidence_status": "eligible_evidence",
+                  "evidence_origin": "WEB-CE-B17"
+                }
+              ],
+              "source_objects": [
+                {
+                  "source_id": "SRC-0275",
+                  "temporary_id": "B17-SRC-0275",
+                  "title": "Gallegos, Rómulo",
+                  "original_title": "Gallegos, Rómulo",
+                  "author_or_editor": "Fundación Empresas Polar",
+                  "translator": "",
+                  "publisher": "Fundación Empresas Polar",
+                  "publication_year": "",
+                  "isbn": "",
+                  "format": "web_page",
+                  "page_count": "",
+                  "language": "es",
+                  "source_level": "B",
+                  "processing_status": "access_pass",
+                  "source_task": "WEB-CE-B17",
+                  "public_content_scope": "Polar profile: Rómulo Gallegos Caracas 1884–1969; writer, educator and politician; Doña Bárbara 1929, Cantaclaro 1934, Canaima 1935",
+                  "local_asset_status": "remote_only",
+                  "persistent_id": "",
+                  "canonical_url": "https://bibliofep.fundacionempresaspolar.org/dhv/entradas/g/gallegos-romulo/"
+                }
+              ],
+              "flags": [
+                "object_description_fact_missing"
+              ]
+            },
+            {
+              "entity": {
+                "entity_id": "V1-ENT-0369",
+                "entity_type": "work",
+                "name_zh": "《卡奈玛》",
+                "original_name": "Canaima",
+                "canonical_status": "candidate",
+                "origin_count": "1",
+                "origin_refs": "CAND-B17-RÓMULO-GALLEGOS-69",
+                "normalization_basis": "Polar and Universidad de Carabobo profiles date Canaima to 1935; Chinese label is provisional.",
+                "issue_codes": "NONE"
+              },
+              "facts": [
+                {
+                  "fact_id": "V1-FCT-1001",
+                  "origin_material_id": "WEB-CE-B17",
+                  "card_id": "V1-CARD-0255",
+                  "subject_id": "V1-ENT-0369",
+                  "fact_field": "entity_layer",
+                  "value_text": "work",
+                  "material_class": "metadata",
+                  "origin_id": "SRC-0275",
+                  "confidence": "high",
+                  "admission_status": "candidate_for_staging_review",
+                  "usage_note": "Entity layer recorded as work."
+                },
+                {
+                  "fact_id": "V1-FCT-1002",
+                  "origin_material_id": "WEB-CE-B17",
+                  "card_id": "V1-CARD-0255",
+                  "subject_id": "V1-ENT-0369",
+                  "fact_field": "first_publication_year",
+                  "value_text": "1935",
+                  "material_class": "bibliographic",
+                  "origin_id": "SRC-0275",
+                  "confidence": "high",
+                  "admission_status": "candidate_for_staging_review",
+                  "usage_note": "Cited source dates Canaima to 1935."
+                },
+                {
+                  "fact_id": "V1-FCT-1003",
+                  "origin_material_id": "WEB-CE-B17",
+                  "card_id": "V1-CARD-0255",
+                  "subject_id": "V1-ENT-0369",
+                  "fact_field": "genre_or_form",
+                  "value_text": "小说",
+                  "material_class": "bibliographic",
+                  "origin_id": "SRC-0275",
+                  "confidence": "high",
+                  "admission_status": "candidate_for_staging_review",
+                  "usage_note": "Cited source supports the conservative form label 小说."
+                }
+              ],
+              "cards": [
+                {
+                  "card_id": "V1-CARD-0255",
+                  "origin_card_id": "",
+                  "subject_id": "V1-ENT-0369",
+                  "card_type": "work",
+                  "title_zh": "《卡奈玛》",
+                  "author_label": "罗慕洛·加列戈斯",
+                  "original_title": "Canaima",
+                  "country_or_region": "委内瑞拉",
+                  "language": "es",
+                  "period_bucket": "1935",
+                  "genre_or_form": "小说",
+                  "input_layer": "WEB-CE-B17",
+                  "source_minimum_status": "meets",
+                  "issue_code": "NONE",
+                  "content_markdown": "### 《卡奈玛》｜Canaima — source-backed 小说 entry; original title retained."
+                }
+              ],
+              "relations": [
+                {
+                  "relationship_id": "V1-REL-0292",
+                  "origin_layer": "WEB-CE-B17",
+                  "origin_relation_group_id": "V1-REL-0292",
+                  "subject_id": "V1-ENT-0360",
+                  "relation_type": "CREATED",
+                  "object_id": "V1-ENT-0369",
+                  "description_zh": "罗慕洛·加列戈斯创作《卡奈玛》（Canaima）",
+                  "confidence": "high",
+                  "review_status": "accepted",
+                  "upstream_review_status": "WEB-CE-B17",
+                  "evidence_count": "1",
+                  "issue_code": "NONE"
+                }
+              ],
+              "fact_sources": [
+                {
+                  "fact_id": "V1-FCT-1001",
+                  "source_id": "SRC-0275",
+                  "source_title": "Gallegos, Rómulo"
+                },
+                {
+                  "fact_id": "V1-FCT-1002",
+                  "source_id": "SRC-0275",
+                  "source_title": "Gallegos, Rómulo"
+                },
+                {
+                  "fact_id": "V1-FCT-1003",
+                  "source_id": "SRC-0275",
+                  "source_title": "Gallegos, Rómulo"
+                }
+              ],
+              "card_sources": [
+                {
+                  "card_source_id": "V1-CS-0496",
+                  "origin_matrix_id": "",
+                  "card_id": "V1-CARD-0255",
+                  "source_id": "SRC-0275",
+                  "source_level": "B",
+                  "source_role": "both",
+                  "bibliographic_support": "yes",
+                  "research_support": "yes",
+                  "independent_source_key": "SRC-0275",
+                  "usage_status": "used",
+                  "issue_code": "NONE"
+                },
+                {
+                  "card_source_id": "V1-CS-0497",
+                  "origin_matrix_id": "",
+                  "card_id": "V1-CARD-0255",
+                  "source_id": "SRC-0276",
+                  "source_level": "C",
+                  "source_role": "both",
+                  "bibliographic_support": "yes",
+                  "research_support": "yes",
+                  "independent_source_key": "SRC-0276",
+                  "usage_status": "used",
+                  "issue_code": "NONE"
+                }
+              ],
+              "relationship_sources": [
+                {
+                  "relationship_id": "V1-REL-0292",
+                  "source_id": "SRC-0275"
+                },
+                {
+                  "relationship_id": "V1-REL-0292",
+                  "source_id": "SRC-0276"
+                }
+              ],
+              "relationship_evidence": [
+                {
+                  "evidence_id": "V1-EV-0317",
+                  "relationship_id": "V1-REL-0292",
+                  "origin_evidence_id": "V1-REL-0292",
+                  "source_id": "SRC-0275",
+                  "source_title": "Gallegos, Rómulo",
+                  "locator": "",
+                  "evidence_note": "罗慕洛·加列戈斯创作《卡奈玛》（Canaima） is directly supported by the cited source(s); no influence claim is made.",
+                  "confidence": "high",
+                  "evidence_status": "eligible_evidence",
+                  "evidence_origin": "WEB-CE-B17"
+                }
+              ],
+              "source_objects": [
+                {
+                  "source_id": "SRC-0275",
+                  "temporary_id": "B17-SRC-0275",
+                  "title": "Gallegos, Rómulo",
+                  "original_title": "Gallegos, Rómulo",
+                  "author_or_editor": "Fundación Empresas Polar",
+                  "translator": "",
+                  "publisher": "Fundación Empresas Polar",
+                  "publication_year": "",
+                  "isbn": "",
+                  "format": "web_page",
+                  "page_count": "",
+                  "language": "es",
+                  "source_level": "B",
+                  "processing_status": "access_pass",
+                  "source_task": "WEB-CE-B17",
+                  "public_content_scope": "Polar profile: Rómulo Gallegos Caracas 1884–1969; writer, educator and politician; Doña Bárbara 1929, Cantaclaro 1934, Canaima 1935",
+                  "local_asset_status": "remote_only",
+                  "persistent_id": "",
+                  "canonical_url": "https://bibliofep.fundacionempresaspolar.org/dhv/entradas/g/gallegos-romulo/"
+                },
+                {
+                  "source_id": "SRC-0276",
+                  "temporary_id": "B17-SRC-0276",
+                  "title": "NACIMIENTO DE DON RÓMULO GALLEGOS",
+                  "original_title": "NACIMIENTO DE DON RÓMULO GALLEGOS",
+                  "author_or_editor": "Universidad de Carabobo, Vicerrectorado Académico",
+                  "translator": "",
+                  "publisher": "Universidad de Carabobo",
+                  "publication_year": "2018",
+                  "isbn": "",
+                  "format": "web_page",
+                  "page_count": "",
+                  "language": "es",
+                  "source_level": "C",
+                  "processing_status": "access_pass",
+                  "source_task": "WEB-CE-B17",
+                  "public_content_scope": "Republished biographical note attributed on-page to BuscaBiografias; low-risk corroboration only, not independent support for strong claims",
+                  "local_asset_status": "remote_only",
+                  "persistent_id": "",
+                  "canonical_url": "https://viceacademico.uc.edu.ve/efemerides/historia/gallegos"
+                }
+              ],
+              "flags": [
+                "object_description_fact_missing"
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "fact_id": "V1-FCT-0990",
+              "origin_material_id": "WEB-CE-B17",
+              "card_id": "V1-CARD-0252",
+              "subject_id": "V1-ENT-0360",
+              "fact_field": "birth_year",
+              "value_text": "1884",
+              "material_class": "fact",
+              "origin_id": "SRC-0275",
+              "confidence": "high",
+              "admission_status": "candidate_for_staging_review",
+              "usage_note": "Source-backed birth year for Rómulo Gallegos."
+            },
+            {
+              "fact_id": "V1-FCT-0991",
+              "origin_material_id": "WEB-CE-B17",
+              "card_id": "V1-CARD-0252",
+              "subject_id": "V1-ENT-0360",
+              "fact_field": "death_year",
+              "value_text": "1969",
+              "material_class": "fact",
+              "origin_id": "SRC-0275",
+              "confidence": "high",
+              "admission_status": "candidate_for_staging_review",
+              "usage_note": "Source-backed death year for Rómulo Gallegos."
+            },
+            {
+              "fact_id": "V1-FCT-0992",
+              "origin_material_id": "WEB-CE-B17",
+              "card_id": "V1-CARD-0252",
+              "subject_id": "V1-ENT-0360",
+              "fact_field": "country_or_region",
+              "value_text": "委内瑞拉",
+              "material_class": "fact",
+              "origin_id": "SRC-0275",
+              "confidence": "high",
+              "admission_status": "candidate_for_staging_review",
+              "usage_note": "Source-backed country association for Rómulo Gallegos."
+            },
+            {
+              "fact_id": "V1-FCT-0993",
+              "origin_material_id": "WEB-CE-B17",
+              "card_id": "V1-CARD-0252",
+              "subject_id": "V1-ENT-0360",
+              "fact_field": "career_note",
+              "value_text": "作家、教育家与政治人物",
+              "material_class": "fact",
+              "origin_id": "SRC-0275",
+              "confidence": "high",
+              "admission_status": "candidate_for_staging_review",
+              "usage_note": "Conservative career description for Rómulo Gallegos."
+            },
+            {
+              "fact_id": "V1-FCT-0994",
+              "origin_material_id": "WEB-CE-B17",
+              "card_id": "V1-CARD-0252",
+              "subject_id": "V1-ENT-0360",
+              "fact_field": "literary_identity",
+              "value_text": "委内瑞拉小说家与教育家",
+              "material_class": "fact",
+              "origin_id": "SRC-0275",
+              "confidence": "medium",
+              "admission_status": "candidate_for_staging_review",
+              "usage_note": "Conservative literary identity for Rómulo Gallegos; no movement or influence claim."
+            }
+          ],
+          "relations": [
+            {
+              "relationship_id": "V1-REL-0290",
+              "origin_layer": "WEB-CE-B17",
+              "origin_relation_group_id": "V1-REL-0290",
+              "subject_id": "V1-ENT-0360",
+              "relation_type": "CREATED",
+              "object_id": "V1-ENT-0367",
+              "description_zh": "罗慕洛·加列戈斯创作《堂娜·芭芭拉》（Doña Bárbara）",
+              "confidence": "high",
+              "review_status": "accepted",
+              "upstream_review_status": "WEB-CE-B17",
+              "evidence_count": "1",
+              "issue_code": "NONE"
+            },
+            {
+              "relationship_id": "V1-REL-0291",
+              "origin_layer": "WEB-CE-B17",
+              "origin_relation_group_id": "V1-REL-0291",
+              "subject_id": "V1-ENT-0360",
+              "relation_type": "CREATED",
+              "object_id": "V1-ENT-0368",
+              "description_zh": "罗慕洛·加列戈斯创作《唱歌者》（Cantaclaro）",
+              "confidence": "high",
+              "review_status": "accepted",
+              "upstream_review_status": "WEB-CE-B17",
+              "evidence_count": "1",
+              "issue_code": "NONE"
+            },
+            {
+              "relationship_id": "V1-REL-0292",
+              "origin_layer": "WEB-CE-B17",
+              "origin_relation_group_id": "V1-REL-0292",
+              "subject_id": "V1-ENT-0360",
+              "relation_type": "CREATED",
+              "object_id": "V1-ENT-0369",
+              "description_zh": "罗慕洛·加列戈斯创作《卡奈玛》（Canaima）",
+              "confidence": "high",
+              "review_status": "accepted",
+              "upstream_review_status": "WEB-CE-B17",
+              "evidence_count": "1",
+              "issue_code": "NONE"
+            },
+            {
+              "relationship_id": "V1-REL-0295",
+              "origin_layer": "WEB-CE-B17",
+              "origin_relation_group_id": "V1-REL-0295",
+              "subject_id": "V1-ENT-0360",
+              "relation_type": "ASSOCIATED_WITH_PLACE",
+              "object_id": "V1-ENT-0357",
+              "description_zh": "罗慕洛·加列戈斯与委内瑞拉关联",
+              "confidence": "high",
+              "review_status": "accepted",
+              "upstream_review_status": "WEB-CE-B17",
+              "evidence_count": "1",
+              "issue_code": "NONE"
+            }
+          ],
+          "holds": [],
+          "gaps": [],
+          "curation_statuses": {
+            "user_review": 9
+          },
+          "inventory_status": "MECHANICAL_ONLY_NOT_LITERARY_COVERAGE_REVIEW"
+        }
+      },
+      "objects": [
+        {
+          "object_ref": "V1-ENT-0367",
+          "entity": {
+            "entity_id": "V1-ENT-0367",
+            "entity_type": "work",
+            "name_zh": "《堂娜·芭芭拉》",
+            "original_name": "Doña Bárbara",
+            "canonical_status": "candidate",
+            "origin_count": "1",
+            "origin_refs": "CAND-B17-RÓMULO-GALLEGOS-67",
+            "normalization_basis": "Polar and Universidad de Carabobo profiles date Doña Bárbara to 1929; Chinese label is provisional.",
+            "issue_codes": "NONE"
+          },
+          "bibliography": "既有基线事实保全；本轮只新增一条有界内容释义。",
+          "description": "既有内容卡及研究来源闭包依基线逐值保全。",
+          "research_status": "institutional_commentary",
+          "research_refs": [
+            "SRC-0275",
+            "SRC-0276"
+          ],
+          "old_facts": [
+            {
+              "fact": {
+                "fact_id": "V1-FCT-0995",
+                "origin_material_id": "WEB-CE-B17",
+                "card_id": "V1-CARD-0253",
+                "subject_id": "V1-ENT-0367",
+                "fact_field": "entity_layer",
+                "value_text": "work",
+                "material_class": "metadata",
+                "origin_id": "SRC-0275",
+                "confidence": "high",
+                "admission_status": "candidate_for_staging_review",
+                "usage_note": "Entity layer recorded as work."
+              },
+              "source_chain": [
+                {
+                  "fact_id": "V1-FCT-0995",
+                  "source_id": "SRC-0275",
+                  "source_title": "Gallegos, Rómulo"
+                }
+              ]
+            },
+            {
+              "fact": {
+                "fact_id": "V1-FCT-0996",
+                "origin_material_id": "WEB-CE-B17",
+                "card_id": "V1-CARD-0253",
+                "subject_id": "V1-ENT-0367",
+                "fact_field": "first_publication_year",
+                "value_text": "1929",
+                "material_class": "bibliographic",
+                "origin_id": "SRC-0275",
+                "confidence": "high",
+                "admission_status": "candidate_for_staging_review",
+                "usage_note": "Cited source dates Doña Bárbara to 1929."
+              },
+              "source_chain": [
+                {
+                  "fact_id": "V1-FCT-0996",
+                  "source_id": "SRC-0275",
+                  "source_title": "Gallegos, Rómulo"
+                }
+              ]
+            },
+            {
+              "fact": {
+                "fact_id": "V1-FCT-0997",
+                "origin_material_id": "WEB-CE-B17",
+                "card_id": "V1-CARD-0253",
+                "subject_id": "V1-ENT-0367",
+                "fact_field": "genre_or_form",
+                "value_text": "小说",
+                "material_class": "bibliographic",
+                "origin_id": "SRC-0275",
+                "confidence": "high",
+                "admission_status": "candidate_for_staging_review",
+                "usage_note": "Cited source supports the conservative form label 小说."
+              },
+              "source_chain": [
+                {
+                  "fact_id": "V1-FCT-0997",
+                  "source_id": "SRC-0275",
+                  "source_title": "Gallegos, Rómulo"
+                }
+              ]
+            }
+          ],
+          "cards": [
+            {
+              "card_id": "V1-CARD-0253",
+              "origin_card_id": "",
+              "subject_id": "V1-ENT-0367",
+              "card_type": "work",
+              "title_zh": "《堂娜·芭芭拉》",
+              "author_label": "罗慕洛·加列戈斯",
+              "original_title": "Doña Bárbara",
+              "country_or_region": "委内瑞拉",
+              "language": "es",
+              "period_bucket": "1929",
+              "genre_or_form": "小说",
+              "input_layer": "WEB-CE-B17",
+              "source_minimum_status": "meets",
+              "issue_code": "NONE",
+              "content_markdown": "### 《堂娜·芭芭拉》｜Doña Bárbara — source-backed 小说 entry; original title retained."
+            }
+          ],
+          "card_facts": [
+            {
+              "card_id": "V1-CARD-0253",
+              "fact_id": "V1-FCT-0995",
+              "admission_status": "candidate_for_staging_review"
+            },
+            {
+              "card_id": "V1-CARD-0253",
+              "fact_id": "V1-FCT-0996",
+              "admission_status": "candidate_for_staging_review"
+            },
+            {
+              "card_id": "V1-CARD-0253",
+              "fact_id": "V1-FCT-0997",
+              "admission_status": "candidate_for_staging_review"
+            }
+          ],
+          "card_sources": [
+            {
+              "card_source_id": "V1-CS-0493",
+              "origin_matrix_id": "",
+              "card_id": "V1-CARD-0253",
+              "source_id": "SRC-0275",
+              "source_level": "B",
+              "source_role": "both",
+              "bibliographic_support": "yes",
+              "research_support": "yes",
+              "independent_source_key": "SRC-0275",
+              "usage_status": "used",
+              "issue_code": "NONE"
+            },
+            {
+              "card_source_id": "V1-CS-0494",
+              "origin_matrix_id": "",
+              "card_id": "V1-CARD-0253",
+              "source_id": "SRC-0276",
+              "source_level": "C",
+              "source_role": "both",
+              "bibliographic_support": "yes",
+              "research_support": "yes",
+              "independent_source_key": "SRC-0276",
+              "usage_status": "used",
+              "issue_code": "NONE"
+            }
+          ],
+          "relations": [
+            {
+              "relationship_id": "V1-REL-0290",
+              "origin_layer": "WEB-CE-B17",
+              "origin_relation_group_id": "V1-REL-0290",
+              "subject_id": "V1-ENT-0360",
+              "relation_type": "CREATED",
+              "object_id": "V1-ENT-0367",
+              "description_zh": "罗慕洛·加列戈斯创作《堂娜·芭芭拉》（Doña Bárbara）",
+              "confidence": "high",
+              "review_status": "accepted",
+              "upstream_review_status": "WEB-CE-B17",
+              "evidence_count": "1",
+              "issue_code": "NONE"
+            }
+          ],
+          "relationship_sources": [
+            {
+              "relationship_id": "V1-REL-0290",
+              "source_id": "SRC-0275"
+            },
+            {
+              "relationship_id": "V1-REL-0290",
+              "source_id": "SRC-0276"
+            }
+          ],
+          "relationship_evidence": [
+            {
+              "evidence_id": "V1-EV-0315",
+              "relationship_id": "V1-REL-0290",
+              "origin_evidence_id": "V1-REL-0290",
+              "source_id": "SRC-0275",
+              "source_title": "Gallegos, Rómulo",
+              "locator": "",
+              "evidence_note": "罗慕洛·加列戈斯创作《堂娜·芭芭拉》（Doña Bárbara） is directly supported by the cited source(s); no influence claim is made.",
+              "confidence": "high",
+              "evidence_status": "eligible_evidence",
+              "evidence_origin": "WEB-CE-B17"
+            }
+          ],
+          "source_objects": [
+            {
+              "source_id": "SRC-0275",
+              "temporary_id": "B17-SRC-0275",
+              "title": "Gallegos, Rómulo",
+              "original_title": "Gallegos, Rómulo",
+              "author_or_editor": "Fundación Empresas Polar",
+              "translator": "",
+              "publisher": "Fundación Empresas Polar",
+              "publication_year": "",
+              "isbn": "",
+              "format": "web_page",
+              "page_count": "",
+              "language": "es",
+              "source_level": "B",
+              "processing_status": "access_pass",
+              "source_task": "WEB-CE-B17",
+              "public_content_scope": "Polar profile: Rómulo Gallegos Caracas 1884–1969; writer, educator and politician; Doña Bárbara 1929, Cantaclaro 1934, Canaima 1935",
+              "local_asset_status": "remote_only",
+              "persistent_id": "",
+              "canonical_url": "https://bibliofep.fundacionempresaspolar.org/dhv/entradas/g/gallegos-romulo/"
+            },
+            {
+              "source_id": "SRC-0276",
+              "temporary_id": "B17-SRC-0276",
+              "title": "NACIMIENTO DE DON RÓMULO GALLEGOS",
+              "original_title": "NACIMIENTO DE DON RÓMULO GALLEGOS",
+              "author_or_editor": "Universidad de Carabobo, Vicerrectorado Académico",
+              "translator": "",
+              "publisher": "Universidad de Carabobo",
+              "publication_year": "2018",
+              "isbn": "",
+              "format": "web_page",
+              "page_count": "",
+              "language": "es",
+              "source_level": "C",
+              "processing_status": "access_pass",
+              "source_task": "WEB-CE-B17",
+              "public_content_scope": "Republished biographical note attributed on-page to BuscaBiografias; low-risk corroboration only, not independent support for strong claims",
+              "local_asset_status": "remote_only",
+              "persistent_id": "",
+              "canonical_url": "https://viceacademico.uc.edu.ve/efemerides/historia/gallegos"
+            }
+          ],
+          "holds": [],
+          "gaps": [],
+          "fresh_review": false,
+          "remaining": "原有实体、事实、卡片与关系来源闭包仅按冻结基线保全；新摘要候选待独立审核。",
+          "source_author_id": "V1-ENT-0360",
+          "candidate_facts": [
+            {
+              "candidate_id": "WCD10-B21-F001",
+              "field": "one_sentence_summary",
+              "value": "小说把Santos Luzardo重返阿普雷平原、接手Altamira庄园的经历，与Doña Bárbara所代表的土地权力和暴力相对照，呈现人物在冲突中的改变。",
+              "source_refs": [
+                "WCD10-B21-S002"
+              ]
+            }
+          ]
+        },
+        {
+          "object_ref": "V1-ENT-0368",
+          "entity": {
+            "entity_id": "V1-ENT-0368",
+            "entity_type": "work",
+            "name_zh": "《唱歌者》",
+            "original_name": "Cantaclaro",
+            "canonical_status": "candidate",
+            "origin_count": "1",
+            "origin_refs": "CAND-B17-RÓMULO-GALLEGOS-68",
+            "normalization_basis": "Polar profile dates Cantaclaro to 1934; Chinese label is provisional.",
+            "issue_codes": "NONE"
+          },
+          "bibliography": "既有基线事实保全；本轮只新增一条有界内容释义。",
+          "description": "既有内容卡及研究来源闭包依基线逐值保全。",
+          "research_status": "institutional_commentary",
+          "research_refs": [
+            "SRC-0275"
+          ],
+          "old_facts": [
+            {
+              "fact": {
+                "fact_id": "V1-FCT-0998",
+                "origin_material_id": "WEB-CE-B17",
+                "card_id": "V1-CARD-0254",
+                "subject_id": "V1-ENT-0368",
+                "fact_field": "entity_layer",
+                "value_text": "work",
+                "material_class": "metadata",
+                "origin_id": "SRC-0275",
+                "confidence": "high",
+                "admission_status": "candidate_for_staging_review",
+                "usage_note": "Entity layer recorded as work."
+              },
+              "source_chain": [
+                {
+                  "fact_id": "V1-FCT-0998",
+                  "source_id": "SRC-0275",
+                  "source_title": "Gallegos, Rómulo"
+                }
+              ]
+            },
+            {
+              "fact": {
+                "fact_id": "V1-FCT-0999",
+                "origin_material_id": "WEB-CE-B17",
+                "card_id": "V1-CARD-0254",
+                "subject_id": "V1-ENT-0368",
+                "fact_field": "first_publication_year",
+                "value_text": "1934",
+                "material_class": "bibliographic",
+                "origin_id": "SRC-0275",
+                "confidence": "high",
+                "admission_status": "candidate_for_staging_review",
+                "usage_note": "Cited source dates Cantaclaro to 1934."
+              },
+              "source_chain": [
+                {
+                  "fact_id": "V1-FCT-0999",
+                  "source_id": "SRC-0275",
+                  "source_title": "Gallegos, Rómulo"
+                }
+              ]
+            },
+            {
+              "fact": {
+                "fact_id": "V1-FCT-1000",
+                "origin_material_id": "WEB-CE-B17",
+                "card_id": "V1-CARD-0254",
+                "subject_id": "V1-ENT-0368",
+                "fact_field": "genre_or_form",
+                "value_text": "小说",
+                "material_class": "bibliographic",
+                "origin_id": "SRC-0275",
+                "confidence": "high",
+                "admission_status": "candidate_for_staging_review",
+                "usage_note": "Cited source supports the conservative form label 小说."
+              },
+              "source_chain": [
+                {
+                  "fact_id": "V1-FCT-1000",
+                  "source_id": "SRC-0275",
+                  "source_title": "Gallegos, Rómulo"
+                }
+              ]
+            }
+          ],
+          "cards": [
+            {
+              "card_id": "V1-CARD-0254",
+              "origin_card_id": "",
+              "subject_id": "V1-ENT-0368",
+              "card_type": "work",
+              "title_zh": "《唱歌者》",
+              "author_label": "罗慕洛·加列戈斯",
+              "original_title": "Cantaclaro",
+              "country_or_region": "委内瑞拉",
+              "language": "es",
+              "period_bucket": "1934",
+              "genre_or_form": "小说",
+              "input_layer": "WEB-CE-B17",
+              "source_minimum_status": "meets",
+              "issue_code": "NONE",
+              "content_markdown": "### 《唱歌者》｜Cantaclaro — source-backed 小说 entry; original title retained."
+            }
+          ],
+          "card_facts": [
+            {
+              "card_id": "V1-CARD-0254",
+              "fact_id": "V1-FCT-0998",
+              "admission_status": "candidate_for_staging_review"
+            },
+            {
+              "card_id": "V1-CARD-0254",
+              "fact_id": "V1-FCT-0999",
+              "admission_status": "candidate_for_staging_review"
+            },
+            {
+              "card_id": "V1-CARD-0254",
+              "fact_id": "V1-FCT-1000",
+              "admission_status": "candidate_for_staging_review"
+            }
+          ],
+          "card_sources": [
+            {
+              "card_source_id": "V1-CS-0495",
+              "origin_matrix_id": "",
+              "card_id": "V1-CARD-0254",
+              "source_id": "SRC-0275",
+              "source_level": "B",
+              "source_role": "both",
+              "bibliographic_support": "yes",
+              "research_support": "yes",
+              "independent_source_key": "SRC-0275",
+              "usage_status": "used",
+              "issue_code": "NONE"
+            }
+          ],
+          "relations": [
+            {
+              "relationship_id": "V1-REL-0291",
+              "origin_layer": "WEB-CE-B17",
+              "origin_relation_group_id": "V1-REL-0291",
+              "subject_id": "V1-ENT-0360",
+              "relation_type": "CREATED",
+              "object_id": "V1-ENT-0368",
+              "description_zh": "罗慕洛·加列戈斯创作《唱歌者》（Cantaclaro）",
+              "confidence": "high",
+              "review_status": "accepted",
+              "upstream_review_status": "WEB-CE-B17",
+              "evidence_count": "1",
+              "issue_code": "NONE"
+            }
+          ],
+          "relationship_sources": [
+            {
+              "relationship_id": "V1-REL-0291",
+              "source_id": "SRC-0275"
+            }
+          ],
+          "relationship_evidence": [
+            {
+              "evidence_id": "V1-EV-0316",
+              "relationship_id": "V1-REL-0291",
+              "origin_evidence_id": "V1-REL-0291",
+              "source_id": "SRC-0275",
+              "source_title": "Gallegos, Rómulo",
+              "locator": "",
+              "evidence_note": "罗慕洛·加列戈斯创作《唱歌者》（Cantaclaro） is directly supported by the cited source(s); no influence claim is made.",
+              "confidence": "high",
+              "evidence_status": "eligible_evidence",
+              "evidence_origin": "WEB-CE-B17"
+            }
+          ],
+          "source_objects": [
+            {
+              "source_id": "SRC-0275",
+              "temporary_id": "B17-SRC-0275",
+              "title": "Gallegos, Rómulo",
+              "original_title": "Gallegos, Rómulo",
+              "author_or_editor": "Fundación Empresas Polar",
+              "translator": "",
+              "publisher": "Fundación Empresas Polar",
+              "publication_year": "",
+              "isbn": "",
+              "format": "web_page",
+              "page_count": "",
+              "language": "es",
+              "source_level": "B",
+              "processing_status": "access_pass",
+              "source_task": "WEB-CE-B17",
+              "public_content_scope": "Polar profile: Rómulo Gallegos Caracas 1884–1969; writer, educator and politician; Doña Bárbara 1929, Cantaclaro 1934, Canaima 1935",
+              "local_asset_status": "remote_only",
+              "persistent_id": "",
+              "canonical_url": "https://bibliofep.fundacionempresaspolar.org/dhv/entradas/g/gallegos-romulo/"
+            }
+          ],
+          "holds": [],
+          "gaps": [],
+          "fresh_review": false,
+          "remaining": "原有实体、事实、卡片与关系来源闭包仅按冻结基线保全；新摘要候选待独立审核。",
+          "source_author_id": "V1-ENT-0360",
+          "candidate_facts": [
+            {
+              "candidate_id": "WCD10-B21-F002",
+              "field": "one_sentence_summary",
+              "value": "小说以委内瑞拉平原为背景，围绕歌者Florentino展开；传记将作品描述为富有歌唱性、诗性叙述和传奇氛围。",
+              "source_refs": [
+                "WCD10-B21-S002"
+              ]
+            }
+          ]
+        },
+        {
+          "object_ref": "V1-ENT-0369",
+          "entity": {
+            "entity_id": "V1-ENT-0369",
+            "entity_type": "work",
+            "name_zh": "《卡奈玛》",
+            "original_name": "Canaima",
+            "canonical_status": "candidate",
+            "origin_count": "1",
+            "origin_refs": "CAND-B17-RÓMULO-GALLEGOS-69",
+            "normalization_basis": "Polar and Universidad de Carabobo profiles date Canaima to 1935; Chinese label is provisional.",
+            "issue_codes": "NONE"
+          },
+          "bibliography": "既有基线事实保全；本轮只新增一条有界内容释义。",
+          "description": "既有内容卡及研究来源闭包依基线逐值保全。",
+          "research_status": "institutional_commentary",
+          "research_refs": [
+            "SRC-0275",
+            "SRC-0276"
+          ],
+          "old_facts": [
+            {
+              "fact": {
+                "fact_id": "V1-FCT-1001",
+                "origin_material_id": "WEB-CE-B17",
+                "card_id": "V1-CARD-0255",
+                "subject_id": "V1-ENT-0369",
+                "fact_field": "entity_layer",
+                "value_text": "work",
+                "material_class": "metadata",
+                "origin_id": "SRC-0275",
+                "confidence": "high",
+                "admission_status": "candidate_for_staging_review",
+                "usage_note": "Entity layer recorded as work."
+              },
+              "source_chain": [
+                {
+                  "fact_id": "V1-FCT-1001",
+                  "source_id": "SRC-0275",
+                  "source_title": "Gallegos, Rómulo"
+                }
+              ]
+            },
+            {
+              "fact": {
+                "fact_id": "V1-FCT-1002",
+                "origin_material_id": "WEB-CE-B17",
+                "card_id": "V1-CARD-0255",
+                "subject_id": "V1-ENT-0369",
+                "fact_field": "first_publication_year",
+                "value_text": "1935",
+                "material_class": "bibliographic",
+                "origin_id": "SRC-0275",
+                "confidence": "high",
+                "admission_status": "candidate_for_staging_review",
+                "usage_note": "Cited source dates Canaima to 1935."
+              },
+              "source_chain": [
+                {
+                  "fact_id": "V1-FCT-1002",
+                  "source_id": "SRC-0275",
+                  "source_title": "Gallegos, Rómulo"
+                }
+              ]
+            },
+            {
+              "fact": {
+                "fact_id": "V1-FCT-1003",
+                "origin_material_id": "WEB-CE-B17",
+                "card_id": "V1-CARD-0255",
+                "subject_id": "V1-ENT-0369",
+                "fact_field": "genre_or_form",
+                "value_text": "小说",
+                "material_class": "bibliographic",
+                "origin_id": "SRC-0275",
+                "confidence": "high",
+                "admission_status": "candidate_for_staging_review",
+                "usage_note": "Cited source supports the conservative form label 小说."
+              },
+              "source_chain": [
+                {
+                  "fact_id": "V1-FCT-1003",
+                  "source_id": "SRC-0275",
+                  "source_title": "Gallegos, Rómulo"
+                }
+              ]
+            }
+          ],
+          "cards": [
+            {
+              "card_id": "V1-CARD-0255",
+              "origin_card_id": "",
+              "subject_id": "V1-ENT-0369",
+              "card_type": "work",
+              "title_zh": "《卡奈玛》",
+              "author_label": "罗慕洛·加列戈斯",
+              "original_title": "Canaima",
+              "country_or_region": "委内瑞拉",
+              "language": "es",
+              "period_bucket": "1935",
+              "genre_or_form": "小说",
+              "input_layer": "WEB-CE-B17",
+              "source_minimum_status": "meets",
+              "issue_code": "NONE",
+              "content_markdown": "### 《卡奈玛》｜Canaima — source-backed 小说 entry; original title retained."
+            }
+          ],
+          "card_facts": [
+            {
+              "card_id": "V1-CARD-0255",
+              "fact_id": "V1-FCT-1001",
+              "admission_status": "candidate_for_staging_review"
+            },
+            {
+              "card_id": "V1-CARD-0255",
+              "fact_id": "V1-FCT-1002",
+              "admission_status": "candidate_for_staging_review"
+            },
+            {
+              "card_id": "V1-CARD-0255",
+              "fact_id": "V1-FCT-1003",
+              "admission_status": "candidate_for_staging_review"
+            }
+          ],
+          "card_sources": [
+            {
+              "card_source_id": "V1-CS-0496",
+              "origin_matrix_id": "",
+              "card_id": "V1-CARD-0255",
+              "source_id": "SRC-0275",
+              "source_level": "B",
+              "source_role": "both",
+              "bibliographic_support": "yes",
+              "research_support": "yes",
+              "independent_source_key": "SRC-0275",
+              "usage_status": "used",
+              "issue_code": "NONE"
+            },
+            {
+              "card_source_id": "V1-CS-0497",
+              "origin_matrix_id": "",
+              "card_id": "V1-CARD-0255",
+              "source_id": "SRC-0276",
+              "source_level": "C",
+              "source_role": "both",
+              "bibliographic_support": "yes",
+              "research_support": "yes",
+              "independent_source_key": "SRC-0276",
+              "usage_status": "used",
+              "issue_code": "NONE"
+            }
+          ],
+          "relations": [
+            {
+              "relationship_id": "V1-REL-0292",
+              "origin_layer": "WEB-CE-B17",
+              "origin_relation_group_id": "V1-REL-0292",
+              "subject_id": "V1-ENT-0360",
+              "relation_type": "CREATED",
+              "object_id": "V1-ENT-0369",
+              "description_zh": "罗慕洛·加列戈斯创作《卡奈玛》（Canaima）",
+              "confidence": "high",
+              "review_status": "accepted",
+              "upstream_review_status": "WEB-CE-B17",
+              "evidence_count": "1",
+              "issue_code": "NONE"
+            }
+          ],
+          "relationship_sources": [
+            {
+              "relationship_id": "V1-REL-0292",
+              "source_id": "SRC-0275"
+            },
+            {
+              "relationship_id": "V1-REL-0292",
+              "source_id": "SRC-0276"
+            }
+          ],
+          "relationship_evidence": [
+            {
+              "evidence_id": "V1-EV-0317",
+              "relationship_id": "V1-REL-0292",
+              "origin_evidence_id": "V1-REL-0292",
+              "source_id": "SRC-0275",
+              "source_title": "Gallegos, Rómulo",
+              "locator": "",
+              "evidence_note": "罗慕洛·加列戈斯创作《卡奈玛》（Canaima） is directly supported by the cited source(s); no influence claim is made.",
+              "confidence": "high",
+              "evidence_status": "eligible_evidence",
+              "evidence_origin": "WEB-CE-B17"
+            }
+          ],
+          "source_objects": [
+            {
+              "source_id": "SRC-0275",
+              "temporary_id": "B17-SRC-0275",
+              "title": "Gallegos, Rómulo",
+              "original_title": "Gallegos, Rómulo",
+              "author_or_editor": "Fundación Empresas Polar",
+              "translator": "",
+              "publisher": "Fundación Empresas Polar",
+              "publication_year": "",
+              "isbn": "",
+              "format": "web_page",
+              "page_count": "",
+              "language": "es",
+              "source_level": "B",
+              "processing_status": "access_pass",
+              "source_task": "WEB-CE-B17",
+              "public_content_scope": "Polar profile: Rómulo Gallegos Caracas 1884–1969; writer, educator and politician; Doña Bárbara 1929, Cantaclaro 1934, Canaima 1935",
+              "local_asset_status": "remote_only",
+              "persistent_id": "",
+              "canonical_url": "https://bibliofep.fundacionempresaspolar.org/dhv/entradas/g/gallegos-romulo/"
+            },
+            {
+              "source_id": "SRC-0276",
+              "temporary_id": "B17-SRC-0276",
+              "title": "NACIMIENTO DE DON RÓMULO GALLEGOS",
+              "original_title": "NACIMIENTO DE DON RÓMULO GALLEGOS",
+              "author_or_editor": "Universidad de Carabobo, Vicerrectorado Académico",
+              "translator": "",
+              "publisher": "Universidad de Carabobo",
+              "publication_year": "2018",
+              "isbn": "",
+              "format": "web_page",
+              "page_count": "",
+              "language": "es",
+              "source_level": "C",
+              "processing_status": "access_pass",
+              "source_task": "WEB-CE-B17",
+              "public_content_scope": "Republished biographical note attributed on-page to BuscaBiografias; low-risk corroboration only, not independent support for strong claims",
+              "local_asset_status": "remote_only",
+              "persistent_id": "",
+              "canonical_url": "https://viceacademico.uc.edu.ve/efemerides/historia/gallegos"
+            }
+          ],
+          "holds": [],
+          "gaps": [],
+          "fresh_review": false,
+          "remaining": "原有实体、事实、卡片与关系来源闭包仅按冻结基线保全；新摘要候选待独立审核。",
+          "source_author_id": "V1-ENT-0360",
+          "candidate_facts": [
+            {
+              "candidate_id": "WCD10-B21-F003",
+              "field": "one_sentence_summary",
+              "value": "小说以圭亚那为背景，写冒险者Marcos Vargas遭遇的旅途、暴力冲突及其与当地人物的较量，并以壮阔景观构成叙事的重要部分。",
+              "source_refs": [
+                "WCD10-B21-S002"
+              ]
+            }
+          ]
+        },
+        {
+          "object_ref": "WCD10-B21-W001",
+          "entity": {
+            "entity_id": "WCD10-B21-W001",
+            "entity_type": "work",
+            "name_zh": "《雷纳尔多·索拉尔》（暂译）",
+            "original_name": "Reinaldo Solar",
+            "canonical_status": "candidate",
+            "origin_count": "1",
+            "origin_refs": "WCD10-B21-W001",
+            "normalization_basis": "Fundación Empresas Polar记载《El Último Solar》于1920年出版，修改删节后以《Reinaldo Solar》于1930年再版；Academia Nacional de la Historia传记提供人物与小说脉络。按再版题名建立一项作品，不另建旧题名实体。",
+            "issue_codes": "NONE"
+          },
+          "bibliography": "Fundación Empresas Polar记载《El Último Solar》于1920年出版，修改删节后以《Reinaldo Solar》于1930年再版；Academia Nacional de la Historia传记提供人物与小说脉络。按再版题名建立一项作品，不另建旧题名实体。",
+          "description": "《雷纳尔多·索拉尔》（暂译）｜Reinaldo Solar — 小说围绕家族衰落后的最后代表Reinaldo展开，他在恢复家族庄园、公共理想与个人生活之间不断摇摆，最终走向未定的政治冒险。",
+          "research_status": "institutional_commentary",
+          "research_refs": [
+            "WCD10-B21-S001",
+            "WCD10-B21-S002"
+          ],
+          "old_facts": [],
+          "cards": [],
+          "card_facts": [],
+          "card_sources": [],
+          "relations": [
+            {
+              "subject_id": "V1-ENT-0360",
+              "relation_type": "CREATED",
+              "object_id": "WCD10-B21-W001",
+              "source_refs": [
+                "WCD10-B21-S001",
+                "WCD10-B21-S002"
+              ],
+              "description": "Rómulo Gallegos创作《Reinaldo Solar》；候选关系由直接书目来源支持，待独立审核。"
+            }
+          ],
+          "relationship_sources": [],
+          "relationship_evidence": [],
+          "source_objects": [],
+          "holds": [],
+          "gaps": [],
+          "fresh_review": false,
+          "remaining": "依据机构传记及馆藏目录形成有界书目与简介；未声称全集、版本穷尽或学术完备。",
+          "source_author_id": "V1-ENT-0360",
+          "candidate_facts": [
+            {
+              "candidate_id": "WCD10-B21-F004",
+              "field": "genre_or_form",
+              "value": "小说",
+              "source_refs": [
+                "WCD10-B21-S001",
+                "WCD10-B21-S002"
+              ]
+            },
+            {
+              "candidate_id": "WCD10-B21-F006",
+              "field": "bibliographic_note",
+              "value": "资料记载《El Último Solar》于1920年出版，之后经修改和删节后以《Reinaldo Solar》于1930年再版；本候选以修订再版题名作为作品身份，不把旧题名重复建成另一对象。",
+              "source_refs": [
+                "WCD10-B21-S001",
+                "WCD10-B21-S002"
+              ]
+            },
+            {
+              "candidate_id": "WCD10-B21-F007",
+              "field": "one_sentence_summary",
+              "value": "小说围绕家族衰落后的最后代表Reinaldo展开，他在恢复家族庄园、公共理想与个人生活之间不断摇摆，最终走向未定的政治冒险。",
+              "source_refs": [
+                "WCD10-B21-S002"
+              ]
+            }
+          ]
+        },
+        {
+          "object_ref": "WCD10-B21-W002",
+          "entity": {
+            "entity_id": "WCD10-B21-W002",
+            "entity_type": "work",
+            "name_zh": "《攀援者》（暂译）",
+            "original_name": "La Trepadora",
+            "canonical_status": "candidate",
+            "origin_count": "1",
+            "origin_refs": "WCD10-B21-W002",
+            "normalization_basis": "Academia Nacional de la Historia传记明确记载该小说于1925年由Tipografía Mercantil出版，并介绍Hilario Guanipa与女儿Victoria等主要人物。",
+            "issue_codes": "NONE"
+          },
+          "bibliography": "Academia Nacional de la Historia传记明确记载该小说于1925年由Tipografía Mercantil出版，并介绍Hilario Guanipa与女儿Victoria等主要人物。",
+          "description": "《攀援者》（暂译）｜La Trepadora — 小说以咖啡采收者出身的Hilario Guanipa及其女儿Victoria为中心，写家族继承、庄园权力与爱情关系交织的变化。",
+          "research_status": "institutional_commentary",
+          "research_refs": [
+            "WCD10-B21-S002"
+          ],
+          "old_facts": [],
+          "cards": [],
+          "card_facts": [],
+          "card_sources": [],
+          "relations": [
+            {
+              "subject_id": "V1-ENT-0360",
+              "relation_type": "CREATED",
+              "object_id": "WCD10-B21-W002",
+              "source_refs": [
+                "WCD10-B21-S002"
+              ],
+              "description": "Rómulo Gallegos创作《La Trepadora》；候选关系由直接书目来源支持，待独立审核。"
+            }
+          ],
+          "relationship_sources": [],
+          "relationship_evidence": [],
+          "source_objects": [],
+          "holds": [],
+          "gaps": [],
+          "fresh_review": false,
+          "remaining": "依据机构传记及馆藏目录形成有界书目与简介；未声称全集、版本穷尽或学术完备。",
+          "source_author_id": "V1-ENT-0360",
+          "candidate_facts": [
+            {
+              "candidate_id": "WCD10-B21-F008",
+              "field": "genre_or_form",
+              "value": "小说",
+              "source_refs": [
+                "WCD10-B21-S002"
+              ]
+            },
+            {
+              "candidate_id": "WCD10-B21-F009",
+              "field": "first_publication_year",
+              "value": "1925",
+              "source_refs": [
+                "WCD10-B21-S002"
+              ]
+            },
+            {
+              "candidate_id": "WCD10-B21-F010",
+              "field": "one_sentence_summary",
+              "value": "小说以咖啡采收女子Modesta Guanipa之子Hilario及其女儿Victoria为中心，写家族继承、庄园权力与爱情关系交织的变化。",
+              "source_refs": [
+                "WCD10-B21-S002"
+              ]
+            }
+          ]
+        },
+        {
+          "object_ref": "WCD10-B21-W003",
+          "entity": {
+            "entity_id": "WCD10-B21-W003",
+            "entity_type": "work",
+            "name_zh": "《穷黑人》（暂译）",
+            "original_name": "Pobre Negro",
+            "canonical_status": "candidate",
+            "origin_count": "1",
+            "origin_refs": "WCD10-B21-W003",
+            "normalization_basis": "Academia Nacional de la Historia传记记载该小说1937年出版，并将其内容与委内瑞拉联邦战争及其社会冲突相联系；CSUCA目录列入Gallegos作品汇编。",
+            "issue_codes": "NONE"
+          },
+          "bibliography": "Academia Nacional de la Historia传记记载该小说1937年出版，并将其内容与委内瑞拉联邦战争及其社会冲突相联系；CSUCA目录列入Gallegos作品汇编。",
+          "description": "《穷黑人》（暂译）｜Pobre Negro — 小说以联邦战争前后的委内瑞拉为背景，描写内战、废奴之后的社会冲突及普通民众在动荡历史中的处境。",
+          "research_status": "institutional_commentary",
+          "research_refs": [
+            "WCD10-B21-S002",
+            "WCD10-B21-S003"
+          ],
+          "old_facts": [],
+          "cards": [],
+          "card_facts": [],
+          "card_sources": [],
+          "relations": [
+            {
+              "subject_id": "V1-ENT-0360",
+              "relation_type": "CREATED",
+              "object_id": "WCD10-B21-W003",
+              "source_refs": [
+                "WCD10-B21-S002",
+                "WCD10-B21-S003"
+              ],
+              "description": "Rómulo Gallegos创作《Pobre Negro》；候选关系由直接书目来源支持，待独立审核。"
+            }
+          ],
+          "relationship_sources": [],
+          "relationship_evidence": [],
+          "source_objects": [],
+          "holds": [],
+          "gaps": [],
+          "fresh_review": false,
+          "remaining": "依据机构传记及馆藏目录形成有界书目与简介；未声称全集、版本穷尽或学术完备。",
+          "source_author_id": "V1-ENT-0360",
+          "candidate_facts": [
+            {
+              "candidate_id": "WCD10-B21-F011",
+              "field": "genre_or_form",
+              "value": "小说",
+              "source_refs": [
+                "WCD10-B21-S002",
+                "WCD10-B21-S003"
+              ]
+            },
+            {
+              "candidate_id": "WCD10-B21-F012",
+              "field": "first_publication_year",
+              "value": "1937",
+              "source_refs": [
+                "WCD10-B21-S002"
+              ]
+            },
+            {
+              "candidate_id": "WCD10-B21-F013",
+              "field": "one_sentence_summary",
+              "value": "小说以联邦战争前后的委内瑞拉为背景，描写内战、废奴之后的社会冲突及普通民众在动荡历史中的处境。",
+              "source_refs": [
+                "WCD10-B21-S002"
+              ]
+            }
+          ]
+        },
+        {
+          "object_ref": "WCD10-B21-W004",
+          "entity": {
+            "entity_id": "WCD10-B21-W004",
+            "entity_type": "work",
+            "name_zh": "《异乡客》（暂译）",
+            "original_name": "El Forastero",
+            "canonical_status": "candidate",
+            "origin_count": "1",
+            "origin_refs": "WCD10-B21-W004",
+            "normalization_basis": "Academia Nacional de la Historia传记说明1942年出版版本是作者重写的第二版，并区别于1921年写成、1980年才出版的早期版本；CSUCA目录列入其1958年作品汇编。",
+            "issue_codes": "NONE"
+          },
+          "bibliography": "Academia Nacional de la Historia传记说明1942年出版版本是作者重写的第二版，并区别于1921年写成、1980年才出版的早期版本；CSUCA目录列入其1958年作品汇编。",
+          "description": "《异乡客》（暂译）｜El Forastero — 1942年刊行的版本写一名陌生人进入受压迫的小镇后，推动沉睡社区逐步形成共同意识的过程。",
+          "research_status": "institutional_commentary",
+          "research_refs": [
+            "WCD10-B21-S002",
+            "WCD10-B21-S003"
+          ],
+          "old_facts": [],
+          "cards": [],
+          "card_facts": [],
+          "card_sources": [],
+          "relations": [
+            {
+              "subject_id": "V1-ENT-0360",
+              "relation_type": "CREATED",
+              "object_id": "WCD10-B21-W004",
+              "source_refs": [
+                "WCD10-B21-S002",
+                "WCD10-B21-S003"
+              ],
+              "description": "Rómulo Gallegos创作《El Forastero》；候选关系由直接书目来源支持，待独立审核。"
+            }
+          ],
+          "relationship_sources": [],
+          "relationship_evidence": [],
+          "source_objects": [],
+          "holds": [],
+          "gaps": [],
+          "fresh_review": false,
+          "remaining": "依据机构传记及馆藏目录形成有界书目与简介；未声称全集、版本穷尽或学术完备。",
+          "source_author_id": "V1-ENT-0360",
+          "candidate_facts": [
+            {
+              "candidate_id": "WCD10-B21-F014",
+              "field": "genre_or_form",
+              "value": "小说",
+              "source_refs": [
+                "WCD10-B21-S002",
+                "WCD10-B21-S003"
+              ]
+            },
+            {
+              "candidate_id": "WCD10-B21-F015",
+              "field": "first_publication_year",
+              "value": "1942",
+              "source_refs": [
+                "WCD10-B21-S002"
+              ]
+            },
+            {
+              "candidate_id": "WCD10-B21-F016",
+              "field": "bibliographic_note",
+              "value": "传记区分1921年写成而1980年才以“未刊小说”出版的早期稿本，与1942年刊行的重写版本；本候选只收1942年出版对象，不将两者误称为同一版本。",
+              "source_refs": [
+                "WCD10-B21-S002"
+              ]
+            },
+            {
+              "candidate_id": "WCD10-B21-F017",
+              "field": "one_sentence_summary",
+              "value": "小说以受压迫的小镇和横行的暴君为背景；传记强调1942年重写本与早期稿在故事情节上明显不同。",
+              "source_refs": [
+                "WCD10-B21-S002"
+              ]
+            }
+          ]
+        },
+        {
+          "object_ref": "WCD10-B21-W005",
+          "entity": {
+            "entity_id": "WCD10-B21-W005",
+            "entity_type": "work",
+            "name_zh": "《在同一片土地上》（暂译）",
+            "original_name": "Sobre la misma tierra",
+            "canonical_status": "candidate",
+            "origin_count": "1",
+            "origin_refs": "WCD10-B21-W005",
+            "normalization_basis": "Fundación Empresas Polar和Academia Nacional de la Historia均记载该作品并提供不同年份；Academia传记介绍瓜希拉地区、Remota Montiel与石油开发的相关内容；CSUCA目录确认该题名收入汇编。",
+            "issue_codes": "NONE"
+          },
+          "bibliography": "Fundación Empresas Polar和Academia Nacional de la Historia均记载该作品并提供不同年份；Academia传记介绍瓜希拉地区、Remota Montiel与石油开发的相关内容；CSUCA目录确认该题名收入汇编。",
+          "description": "《在同一片土地上》（暂译）｜Sobre la misma tierra — 小说以苏利亚州和委内瑞拉瓜希拉地区为背景，通过Remota Montiel及当地牧民的生活，呈现贫困、土地处境与石油开发带来的变化。",
+          "research_status": "institutional_commentary",
+          "research_refs": [
+            "WCD10-B21-S001",
+            "WCD10-B21-S002",
+            "WCD10-B21-S003"
+          ],
+          "old_facts": [],
+          "cards": [],
+          "card_facts": [],
+          "card_sources": [],
+          "relations": [
+            {
+              "subject_id": "V1-ENT-0360",
+              "relation_type": "CREATED",
+              "object_id": "WCD10-B21-W005",
+              "source_refs": [
+                "WCD10-B21-S001",
+                "WCD10-B21-S002",
+                "WCD10-B21-S003"
+              ],
+              "description": "Rómulo Gallegos创作《Sobre la misma tierra》；候选关系由直接书目来源支持，待独立审核。"
+            }
+          ],
+          "relationship_sources": [],
+          "relationship_evidence": [],
+          "source_objects": [],
+          "holds": [],
+          "gaps": [],
+          "fresh_review": false,
+          "remaining": "依据机构传记及馆藏目录形成有界书目与简介；未声称全集、版本穷尽或学术完备。",
+          "source_author_id": "V1-ENT-0360",
+          "candidate_facts": [
+            {
+              "candidate_id": "WCD10-B21-F018",
+              "field": "genre_or_form",
+              "value": "小说",
+              "source_refs": [
+                "WCD10-B21-S001",
+                "WCD10-B21-S002",
+                "WCD10-B21-S003"
+              ]
+            },
+            {
+              "candidate_id": "WCD10-B21-F019",
+              "field": "bibliographic_note",
+              "value": "资料记载分歧：Fundación Empresas Polar列《Sobre la misma tierra》为1941年；Academia Nacional de la Historia传记以1943年为章节年份。现有来源在年份记载上不一致，暂不填写首版年；此处不据此断言存在不同版本。",
+              "source_refs": [
+                "WCD10-B21-S001",
+                "WCD10-B21-S002"
+              ]
+            },
+            {
+              "candidate_id": "WCD10-B21-F020",
+              "field": "one_sentence_summary",
+              "value": "小说以苏利亚州和委内瑞拉瓜希拉地区为背景，通过Remota Montiel及当地牧民的生活，呈现贫困、土地处境与石油开发带来的变化。",
+              "source_refs": [
+                "WCD10-B21-S002"
+              ]
+            }
+          ]
+        },
+        {
+          "object_ref": "WCD10-B21-W006",
+          "entity": {
+            "entity_id": "WCD10-B21-W006",
+            "entity_type": "work",
+            "name_zh": "《风中的一根稻草》（暂译）",
+            "original_name": "La brizna de paja en el viento",
+            "canonical_status": "candidate",
+            "origin_count": "1",
+            "origin_refs": "WCD10-B21-W006",
+            "normalization_basis": "CSUCA图书馆目录将《La brizna de paja en el viento》列入1958年《Obras completas》第二卷；Academia Nacional de la Historia传记把题为《Una brizna de paja en el viento》的作品列作流亡时期小说之一，并概述其古巴题材。",
+            "issue_codes": "NONE"
+          },
+          "bibliography": "CSUCA图书馆目录将《La brizna de paja en el viento》列入1958年《Obras completas》第二卷；Academia Nacional de la Historia传记把题为《Una brizna de paja en el viento》的作品列作流亡时期小说之一，并概述其古巴题材。",
+          "description": "《风中的一根稻草》（暂译）｜La brizna de paja en el viento — 这部流亡时期创作的小说以古巴为题材，涉及大学生运动及马查多独裁政治遗留的问题。",
+          "research_status": "institutional_commentary",
+          "research_refs": [
+            "WCD10-B21-S002",
+            "WCD10-B21-S003"
+          ],
+          "old_facts": [],
+          "cards": [],
+          "card_facts": [],
+          "card_sources": [],
+          "relations": [
+            {
+              "subject_id": "V1-ENT-0360",
+              "relation_type": "CREATED",
+              "object_id": "WCD10-B21-W006",
+              "source_refs": [
+                "WCD10-B21-S002",
+                "WCD10-B21-S003"
+              ],
+              "description": "Rómulo Gallegos创作《La brizna de paja en el viento》；候选关系由直接书目来源支持，待独立审核。"
+            }
+          ],
+          "relationship_sources": [],
+          "relationship_evidence": [],
+          "source_objects": [],
+          "holds": [],
+          "gaps": [],
+          "fresh_review": false,
+          "remaining": "依据机构传记及馆藏目录形成有界书目与简介；未声称全集、版本穷尽或学术完备。",
+          "source_author_id": "V1-ENT-0360",
+          "candidate_facts": [
+            {
+              "candidate_id": "WCD10-B21-F021",
+              "field": "genre_or_form",
+              "value": "小说",
+              "source_refs": [
+                "WCD10-B21-S002",
+                "WCD10-B21-S003"
+              ]
+            },
+            {
+              "candidate_id": "WCD10-B21-F022",
+              "field": "bibliographic_note",
+              "value": "CSUCA目录以《La brizna de paja en el viento》著录该题名，并列入Aguilar 1958年《Obras completas》第二卷；Academia传记以《Una brizna de paja en el viento》称该流亡时期小说。1958为汇编版出版年，不作为本作品首版年。",
+              "source_refs": [
+                "WCD10-B21-S002",
+                "WCD10-B21-S003"
+              ]
+            },
+            {
+              "candidate_id": "WCD10-B21-F023",
+              "field": "one_sentence_summary",
+              "value": "这部流亡时期创作的小说以古巴为题材，涉及大学生运动及马查多独裁政治遗留的问题。",
+              "source_refs": [
+                "WCD10-B21-S002"
+              ]
+            }
+          ]
+        },
+        {
+          "object_ref": "WCD10-B21-W007",
+          "entity": {
+            "entity_id": "WCD10-B21-W007",
+            "entity_type": "collection",
+            "name_zh": "《冒险者们》（暂译）",
+            "original_name": "Los aventureros",
+            "canonical_status": "candidate",
+            "origin_count": "1",
+            "origin_refs": "WCD10-B21-W007",
+            "normalization_basis": "Academia Nacional de la Historia传记明确称《Los aventureros》为Gallegos 1913年出版的第一本短篇小说集，并说明内含七篇故事。",
+            "issue_codes": "NONE"
+          },
+          "bibliography": "Academia Nacional de la Historia传记明确称《Los aventureros》为Gallegos 1913年出版的第一本短篇小说集，并说明内含七篇故事。",
+          "description": "《冒险者们》（暂译）｜Los aventureros — 这部早期短篇集收录七篇故事；同名篇章写律师Jacinto Ávila与山地首领Matías Rosalira策动起义的经历。",
+          "research_status": "institutional_commentary",
+          "research_refs": [
+            "WCD10-B21-S002"
+          ],
+          "old_facts": [],
+          "cards": [],
+          "card_facts": [],
+          "card_sources": [],
+          "relations": [
+            {
+              "subject_id": "V1-ENT-0360",
+              "relation_type": "CREATED",
+              "object_id": "WCD10-B21-W007",
+              "source_refs": [
+                "WCD10-B21-S002"
+              ],
+              "description": "Rómulo Gallegos创作《Los aventureros》；候选关系由直接书目来源支持，待独立审核。"
+            }
+          ],
+          "relationship_sources": [],
+          "relationship_evidence": [],
+          "source_objects": [],
+          "holds": [],
+          "gaps": [],
+          "fresh_review": false,
+          "remaining": "依据机构传记及馆藏目录形成有界书目与简介；未声称全集、版本穷尽或学术完备。",
+          "source_author_id": "V1-ENT-0360",
+          "candidate_facts": [
+            {
+              "candidate_id": "WCD10-B21-F024",
+              "field": "genre_or_form",
+              "value": "短篇小说集",
+              "source_refs": [
+                "WCD10-B21-S002"
+              ]
+            },
+            {
+              "candidate_id": "WCD10-B21-F025",
+              "field": "first_publication_year",
+              "value": "1913",
+              "source_refs": [
+                "WCD10-B21-S002"
+              ]
+            },
+            {
+              "candidate_id": "WCD10-B21-F026",
+              "field": "one_sentence_summary",
+              "value": "这部早期短篇集收录七篇故事；同名篇章写律师Jacinto Ávila与山地首领Matías Rosalira策动起义的经历。",
+              "source_refs": [
+                "WCD10-B21-S002"
+              ]
+            }
+          ]
+        },
+        {
+          "object_ref": "WCD10-B21-W008",
+          "entity": {
+            "entity_id": "WCD10-B21-W008",
+            "entity_type": "collection",
+            "name_zh": "《叛乱及其他短篇》（暂译）",
+            "original_name": "La rebelión y otros cuentos",
+            "canonical_status": "candidate",
+            "origin_count": "1",
+            "origin_refs": "WCD10-B21-W008",
+            "normalization_basis": "Biblioteca Virtual Miguel de Cervantes的书目记录将《La rebelión》标作该集所收篇目，并明确记录原始版本为1946年Caracas的Librería y Editorial del Maestro出版。",
+            "issue_codes": "NONE"
+          },
+          "bibliography": "Biblioteca Virtual Miguel de Cervantes的书目记录将《La rebelión》标作该集所收篇目，并明确记录原始版本为1946年Caracas的Librería y Editorial del Maestro出版。",
+          "description": "《叛乱及其他短篇》（暂译）｜La rebelión y otros cuentos — 这部短篇小说集收录《La rebelión》等篇；图书馆数字目录将同名篇目定位在该集的页7至40。",
+          "research_status": "institutional_commentary",
+          "research_refs": [
+            "WCD10-B21-S004"
+          ],
+          "old_facts": [],
+          "cards": [],
+          "card_facts": [],
+          "card_sources": [],
+          "relations": [
+            {
+              "subject_id": "V1-ENT-0360",
+              "relation_type": "CREATED",
+              "object_id": "WCD10-B21-W008",
+              "source_refs": [
+                "WCD10-B21-S004"
+              ],
+              "description": "Rómulo Gallegos创作《La rebelión y otros cuentos》；候选关系由直接书目来源支持，待独立审核。"
+            }
+          ],
+          "relationship_sources": [],
+          "relationship_evidence": [],
+          "source_objects": [],
+          "holds": [],
+          "gaps": [],
+          "fresh_review": false,
+          "remaining": "依据机构传记及馆藏目录形成有界书目与简介；未声称全集、版本穷尽或学术完备。",
+          "source_author_id": "V1-ENT-0360",
+          "candidate_facts": [
+            {
+              "candidate_id": "WCD10-B21-F027",
+              "field": "genre_or_form",
+              "value": "短篇小说集",
+              "source_refs": [
+                "WCD10-B21-S004"
+              ]
+            },
+            {
+              "candidate_id": "WCD10-B21-F028",
+              "field": "bibliographic_note",
+              "value": "Cervantes数字记录所据《La rebelión y otros cuentos》为Caracas Librería y Editorial del Maestro 1946年版；不将单篇《La rebelión》页面题名中的1922年认定为合集首版年。",
+              "source_refs": [
+                "WCD10-B21-S004"
+              ]
+            },
+            {
+              "candidate_id": "WCD10-B21-F029",
+              "field": "one_sentence_summary",
+              "value": "这部短篇小说集收录《La rebelión》等篇；图书馆数字目录将同名篇目定位在该集的页7至40。",
+              "source_refs": [
+                "WCD10-B21-S004"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "normalization_actions": [],
+  "merge_method": "Exact byte copy of the single frozen author package into WT B21; no literary/source/profile/evidence-matrix/dedup/access/old-closure normalization. Provenance preserves the complete original author coverage JSON.",
+  "dynamic_counts": {
+    "new_entities": 8,
+    "candidate_facts": 28,
+    "source_candidates": 4,
+    "fresh_source_registrations": 3,
+    "reused_sources": 1,
+    "coverage_primary_rows": 11,
+    "preexisting_complete_closures": 3,
+    "extra_relationships": 0,
+    "source_scope_decisions": 0,
+    "deferred_items": 1
+  }
+}

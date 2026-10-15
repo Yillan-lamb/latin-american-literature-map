@@ -1,0 +1,406 @@
+{
+  "task_id": "TASK-122",
+  "batch_id": "WCD-10-B17",
+  "baseline_database_sha256": "bf814eb0796ad27db76349a4f166ba3ca40be3df47f22373e6e094e34bdf632e",
+  "works": [
+    {
+      "candidate_id": "WCD10-B17-W001",
+      "original_name": "Cantos para soldados y sones para turistas",
+      "normalized_match_check": "searched against all 558 frozen linked works via exact normalized title inventory and author-local titles",
+      "disposition": "new_candidate_no_semantic_duplicate_identified",
+      "similar_titles_reviewed": [
+        "Motivos de son",
+        "Sóngoro cosongo",
+        "West Indies, Ltd."
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B17-W002",
+      "original_name": "España. Poema en cuatro angustias y una esperanza",
+      "normalized_match_check": "searched against all 558 frozen linked works via exact normalized title inventory and author-local titles",
+      "disposition": "new_candidate_no_semantic_duplicate_identified",
+      "similar_titles_reviewed": [
+        "Motivos de son",
+        "Sóngoro cosongo",
+        "West Indies, Ltd."
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B17-W003",
+      "original_name": "La paloma de vuelo popular. Elegías",
+      "normalized_match_check": "searched against all 558 frozen linked works via exact normalized title inventory and author-local titles",
+      "disposition": "new_candidate_no_semantic_duplicate_identified",
+      "similar_titles_reviewed": [
+        "Motivos de son",
+        "Sóngoro cosongo",
+        "West Indies, Ltd."
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B17-W004",
+      "original_name": "El gran zoo",
+      "normalized_match_check": "searched against all 558 frozen linked works via exact normalized title inventory and author-local titles",
+      "disposition": "new_candidate_no_semantic_duplicate_identified",
+      "similar_titles_reviewed": [
+        "Motivos de son",
+        "Sóngoro cosongo",
+        "West Indies, Ltd."
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B17-W005",
+      "original_name": "Tengo",
+      "normalized_match_check": "与全部冻结关联作品进行题名去重，未见同题同层重复。",
+      "disposition": "new_candidate_no_semantic_duplicate_identified",
+      "similar_titles_reviewed": [
+        "existing Guillén works Motivos de son, Sóngoro cosongo, West Indies, Ltd."
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B17-W101",
+      "original_name": "Muerte de Narciso",
+      "name_zh_candidate": "《纳西索之死》（暂译）",
+      "database_exact_original_title_matches": [],
+      "database_exact_chinese_display_matches": [],
+      "same_author_existing_work_semantic_review": {
+        "reviewed_existing_titles": [
+          "Paradiso",
+          "Oppiano Licario",
+          "La expresión americana"
+        ],
+        "result": "S103同一专著相邻章节明确为一首长诗，非合集；与三部冻结关联作品均为不同对象。标题核查无同作异名/译名/版本命中。"
+      },
+      "decision": "new work candidate; single long poem; parent semantic review complete/confirm"
+    },
+    {
+      "candidate_id": "WCD10-B17-W102",
+      "original_name": "Enemigo rumor",
+      "name_zh_candidate": "《敌意的传闻》（暂译）",
+      "database_exact_original_title_matches": [],
+      "database_exact_chinese_display_matches": [],
+      "same_author_existing_work_semantic_review": {
+        "reviewed_existing_titles": [
+          "Paradiso",
+          "Oppiano Licario",
+          "La expresión americana"
+        ],
+        "result": "题名与三部冻结关联作品均不同；无同作异名/译名/版本证据，仍交独立复核确认。"
+      },
+      "decision": "new candidate; independent semantic review still required"
+    },
+    {
+      "candidate_id": "WCD10-B17-W103",
+      "original_name": "Aventuras sigilosas",
+      "name_zh_candidate": "《隐秘的冒险》（暂译）",
+      "database_exact_original_title_matches": [],
+      "database_exact_chinese_display_matches": [],
+      "same_author_existing_work_semantic_review": {
+        "reviewed_existing_titles": [
+          "Paradiso",
+          "Oppiano Licario",
+          "La expresión americana"
+        ],
+        "result": "题名与三部冻结关联作品均不同；无同作异名/译名/版本证据，仍交独立复核确认。"
+      },
+      "decision": "new candidate; independent semantic review still required"
+    },
+    {
+      "candidate_id": "WCD10-B17-W104",
+      "original_name": "La fijeza",
+      "name_zh_candidate": "《固定》（暂译）",
+      "database_exact_original_title_matches": [],
+      "database_exact_chinese_display_matches": [],
+      "same_author_existing_work_semantic_review": {
+        "reviewed_existing_titles": [
+          "Paradiso",
+          "Oppiano Licario",
+          "La expresión americana"
+        ],
+        "result": "题名与三部冻结关联作品均不同；无同作异名/译名/版本证据，仍交独立复核确认。"
+      },
+      "decision": "new candidate; independent semantic review still required"
+    },
+    {
+      "candidate_id": "WCD10-B17-W105",
+      "original_name": "Dador",
+      "name_zh_candidate": "《给予者》（暂译）",
+      "database_exact_original_title_matches": [],
+      "database_exact_chinese_display_matches": [],
+      "same_author_existing_work_semantic_review": {
+        "reviewed_existing_titles": [
+          "Paradiso",
+          "Oppiano Licario",
+          "La expresión americana"
+        ],
+        "result": "题名与三部冻结关联作品均不同；无同作异名/译名/版本证据，仍交独立复核确认。"
+      },
+      "decision": "new candidate; independent semantic review still required"
+    },
+    {
+      "candidate_id": "WCD10-B17-W106",
+      "original_name": "Tratados en La Habana",
+      "name_zh_candidate": "《哈瓦那论稿》（暂译）",
+      "database_exact_original_title_matches": [],
+      "database_exact_chinese_display_matches": [],
+      "same_author_existing_work_semantic_review": {
+        "reviewed_existing_titles": [
+          "Paradiso",
+          "Oppiano Licario",
+          "La expresión americana"
+        ],
+        "result": "题名与三部冻结关联作品均不同；无同作异名/译名/版本证据，仍交独立复核确认。"
+      },
+      "decision": "new candidate; independent semantic review still required"
+    },
+    {
+      "candidate_id": "WCD10-B17-W107",
+      "original_name": "La cantidad hechizada",
+      "name_zh_candidate": "《着魔的数量》（暂译）",
+      "database_exact_original_title_matches": [],
+      "database_exact_chinese_display_matches": [],
+      "same_author_existing_work_semantic_review": {
+        "reviewed_existing_titles": [
+          "Paradiso",
+          "Oppiano Licario",
+          "La expresión americana"
+        ],
+        "result": "题名与三部冻结关联作品均不同；无同作异名/译名/版本证据，仍交独立复核确认。"
+      },
+      "decision": "new candidate; independent semantic review still required"
+    },
+    {
+      "candidate_id": "WCD10-B17-W108",
+      "original_name": "Fragmentos a su imán",
+      "name_zh_candidate": "《献给磁石的片段》（暂译）",
+      "database_exact_original_title_matches": [],
+      "database_exact_chinese_display_matches": [],
+      "same_author_existing_work_semantic_review": {
+        "reviewed_existing_titles": [
+          "Paradiso",
+          "Oppiano Licario",
+          "La expresión americana"
+        ],
+        "result": "题名与三部冻结关联作品均不同；无同作异名/译名/版本证据，仍交独立复核确认。"
+      },
+      "decision": "new candidate; independent semantic review still required"
+    },
+    {
+      "candidate_id": "WCD10-B17-W101",
+      "original_name": "Muerte de Narciso",
+      "name_zh_candidate": "《纳西索之死》（暂译）",
+      "database_exact_original_title_matches": [],
+      "database_exact_chinese_display_matches": [],
+      "same_author_existing_work_semantic_review": {
+        "reviewed_existing_titles": [
+          "Paradiso",
+          "Oppiano Licario",
+          "La expresión americana"
+        ],
+        "result": "S103同一专著相邻章节明确为一首长诗，非合集；与三部冻结关联作品均为不同对象。标题核查无同作异名/译名/版本命中。"
+      },
+      "decision": "new work candidate; single long poem; parent semantic review complete/confirm"
+    },
+    {
+      "candidate_id": "WCD10-B17-W102",
+      "original_name": "Enemigo rumor",
+      "name_zh_candidate": "《敌意的传闻》（暂译）",
+      "database_exact_original_title_matches": [],
+      "database_exact_chinese_display_matches": [],
+      "same_author_existing_work_semantic_review": {
+        "reviewed_existing_titles": [
+          "Paradiso",
+          "Oppiano Licario",
+          "La expresión americana"
+        ],
+        "result": "仅在当前作者三部冻结作品内核查同名、译名和版次；未发现同作；仍需父审确认语义去重。"
+      },
+      "decision": "new candidate; parent semantic review required"
+    },
+    {
+      "candidate_id": "WCD10-B17-W103",
+      "original_name": "Aventuras sigilosas",
+      "name_zh_candidate": "《隐秘的冒险》（暂译）",
+      "database_exact_original_title_matches": [],
+      "database_exact_chinese_display_matches": [],
+      "same_author_existing_work_semantic_review": {
+        "reviewed_existing_titles": [
+          "Paradiso",
+          "Oppiano Licario",
+          "La expresión americana"
+        ],
+        "result": "仅在当前作者三部冻结作品内核查同名、译名和版次；未发现同作；仍需父审确认语义去重。"
+      },
+      "decision": "new candidate; parent semantic review required"
+    },
+    {
+      "candidate_id": "WCD10-B17-W104",
+      "original_name": "La fijeza",
+      "name_zh_candidate": "《固定》（暂译）",
+      "database_exact_original_title_matches": [],
+      "database_exact_chinese_display_matches": [],
+      "same_author_existing_work_semantic_review": {
+        "reviewed_existing_titles": [
+          "Paradiso",
+          "Oppiano Licario",
+          "La expresión americana"
+        ],
+        "result": "仅在当前作者三部冻结作品内核查同名、译名和版次；未发现同作；仍需父审确认语义去重。"
+      },
+      "decision": "new candidate; parent semantic review required"
+    },
+    {
+      "candidate_id": "WCD10-B17-W105",
+      "original_name": "Dador",
+      "name_zh_candidate": "《给予者》（暂译）",
+      "database_exact_original_title_matches": [],
+      "database_exact_chinese_display_matches": [],
+      "same_author_existing_work_semantic_review": {
+        "reviewed_existing_titles": [
+          "Paradiso",
+          "Oppiano Licario",
+          "La expresión americana"
+        ],
+        "result": "仅在当前作者三部冻结作品内核查同名、译名和版次；未发现同作；仍需父审确认语义去重。"
+      },
+      "decision": "new candidate; parent semantic review required"
+    },
+    {
+      "candidate_id": "WCD10-B17-W106",
+      "original_name": "Tratados en La Habana",
+      "name_zh_candidate": "《哈瓦那论稿》（暂译）",
+      "database_exact_original_title_matches": [],
+      "database_exact_chinese_display_matches": [],
+      "same_author_existing_work_semantic_review": {
+        "reviewed_existing_titles": [
+          "Paradiso",
+          "Oppiano Licario",
+          "La expresión americana"
+        ],
+        "result": "仅在当前作者三部冻结作品内核查同名、译名和版次；未发现同作；仍需父审确认语义去重。"
+      },
+      "decision": "new candidate; parent semantic review required"
+    },
+    {
+      "candidate_id": "WCD10-B17-W107",
+      "original_name": "La cantidad hechizada",
+      "name_zh_candidate": "《着魔的数量》（暂译）",
+      "database_exact_original_title_matches": [],
+      "database_exact_chinese_display_matches": [],
+      "same_author_existing_work_semantic_review": {
+        "reviewed_existing_titles": [
+          "Paradiso",
+          "Oppiano Licario",
+          "La expresión americana"
+        ],
+        "result": "仅在当前作者三部冻结作品内核查同名、译名和版次；未发现同作；仍需父审确认语义去重。"
+      },
+      "decision": "new candidate; parent semantic review required"
+    },
+    {
+      "candidate_id": "WCD10-B17-W108",
+      "original_name": "Fragmentos a su imán",
+      "name_zh_candidate": "《献给磁石的片段》（暂译）",
+      "database_exact_original_title_matches": [],
+      "database_exact_chinese_display_matches": [],
+      "same_author_existing_work_semantic_review": {
+        "reviewed_existing_titles": [
+          "Paradiso",
+          "Oppiano Licario",
+          "La expresión americana"
+        ],
+        "result": "仅在当前作者三部冻结作品内核查同名、译名和版次；未发现同作；仍需父审确认语义去重。"
+      },
+      "decision": "new candidate; parent semantic review required"
+    },
+    {
+      "candidate_id": "WCD10-B17-W201",
+      "kind": "entity",
+      "original_name": "Así en la paz como en la guerra",
+      "disposition": "new",
+      "matches": []
+    },
+    {
+      "candidate_id": "WCD10-B17-W202",
+      "kind": "entity",
+      "original_name": "Un oficio del siglo XX",
+      "disposition": "new",
+      "matches": []
+    },
+    {
+      "candidate_id": "WCD10-B17-W203",
+      "kind": "entity",
+      "original_name": "Cuerpos divinos",
+      "disposition": "new",
+      "matches": []
+    }
+  ],
+  "sources": [
+    {
+      "candidate_id": "WCD10-B17-S001",
+      "url": "https://cervantesvirtual.com/portales/nicolas_guillen/su_obra_bibliografia/",
+      "disposition": "reuse_existing_source",
+      "reuse_existing_source": "SRC-0245"
+    },
+    {
+      "candidate_id": "WCD10-B17-S002",
+      "url": "https://cvc.cervantes.es/literatura/escritores/guillen/biografia.htm",
+      "disposition": "reuse_existing_source",
+      "reuse_existing_source": "SRC-0246"
+    },
+    {
+      "candidate_id": "WCD10-B17-S101",
+      "url": "https://poets.org/poet/jose-lezama-lima",
+      "disposition": "reuse_existing_source",
+      "matches": [
+        "SRC-0248"
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B17-S102",
+      "url": "https://www.anagrama-ed.es/autor/lezama-lima-jose-633",
+      "disposition": "fresh_registration",
+      "matches": []
+    },
+    {
+      "candidate_id": "WCD10-B17-S103",
+      "url": "https://www.cervantesvirtual.com/obra-visor/la-escritura-de-lo-posible--el-sistema-potico-de-jos-lezama-lima-0/html/ff2fbdf8-82b1-11df-acc7-002185ce6064_60.htm",
+      "disposition": "fresh_registration",
+      "matches": []
+    },
+    {
+      "candidate_id": "WCD10-B17-S201",
+      "kind": "source",
+      "url": "https://www.cervantes.es/bibliotecas_documentacion_espanol/biografias/varsovia_guillermo_cabrera_infante_1.htm",
+      "disposition": "new",
+      "matches": []
+    },
+    {
+      "candidate_id": "WCD10-B17-S202",
+      "kind": "source",
+      "url": "https://www.treccani.it/enciclopedia/guillermo-cabrera-infante/",
+      "disposition": "new",
+      "matches": []
+    },
+    {
+      "candidate_id": "WCD10-B17-S203",
+      "kind": "source",
+      "url": "https://books.google.es/books/about/Vista_del_amanecer_en_el_tr%C3%B3pico.html?id=MnNAAAAAYAAJ",
+      "disposition": "new",
+      "matches": []
+    },
+    {
+      "candidate_id": "WCD10-B17-S204",
+      "kind": "source",
+      "url": "https://www.planetadelibros.com.ar/libro-la-habana-para-un-infante-difunto/125852",
+      "disposition": "new",
+      "matches": []
+    },
+    {
+      "candidate_id": "WCD10-B17-S205",
+      "kind": "source",
+      "url": "https://www.penguinlibros.com/us/67409-guillermo-cabrera-infante",
+      "disposition": "new",
+      "matches": []
+    }
+  ]
+}

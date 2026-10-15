@@ -1,0 +1,107 @@
+{
+  "task_id": "TASK-122",
+  "batch_id": "WCD-10-B17",
+  "accessed_at": "2026-10-14",
+  "sources": [
+    {
+      "source_ref": "WCD10-B17-S001",
+      "url": "https://cervantesvirtual.com/portales/nicolas_guillen/su_obra_bibliografia/",
+      "opened_at": "2026-10-14",
+      "access_status": "OPENED",
+      "locator": "实读2026-10-14：第47–48行列Cantos para soldados y sones para turistas（1937）和España. Poema en cuatro angustias y una esperanza（1937）；第56行列La paloma de vuelo popular. Elegías（1958）；第62行列Tengo（1964）；第65行列El gran zoo的1967版。",
+      "content_used": "逐项支持作品题名、书目版本与直接注明的体裁；该页为作者书目目录，不据此宣称学术覆盖。"
+    },
+    {
+      "source_ref": "WCD10-B17-S002",
+      "url": "https://cvc.cervantes.es/literatura/escritores/guillen/biografia.htm",
+      "opened_at": "2026-10-14",
+      "access_status": "OPENED",
+      "locator": "实读2026-10-14：第25–31行直接描述既有Motivos de son、Sóngoro cosongo、West Indies Ltd.以及作品内容与时间关系；第50行将España. Poema en cuatro angustias y una esperanza称为poemario并联系西班牙共和国；第51行概述Cantos para soldados y sones para turistas；第63–64行概述La paloma de vuelo popular；第66行记Tengo（1964）及其内容；第67行概述El gran zoo（传记记1968）。",
+      "content_used": "新增三条既有作品简介，判定España的poemario层级，并支持Tengo候选。"
+    },
+    {
+      "source_ref": "WCD10-B17-S101",
+      "url": "https://poets.org/poet/jose-lezama-lima",
+      "opened": true,
+      "accessed_at": "2026-10-14",
+      "locator": "实际打开正文第37–40行：第37行列Muerte de Narciso为1937首部诗集；第38行列Paradiso (UNEAC, 1966)、Oppiano Licario (Mexico, 1977)；第39行列Dador (1960)、La Fijeza (1949)、Aventuras sigilosas (1945)、Enemigo rumor (1941)；第40行说明La expresión americana源自1957年五部分讲演。实读2026-10-14。",
+      "direct_support": "AAP直接支持Muerte de Narciso首部诗集信息、Paradiso、Oppiano Licario、La expresión americana及W102-W105的年份；不支持Fragmentos a su imán。"
+    },
+    {
+      "source_ref": "WCD10-B17-S102",
+      "url": "https://www.anagrama-ed.es/autor/lezama-lima-jose-633",
+      "opened": true,
+      "accessed_at": "2026-10-14",
+      "locator": "实际打开第61–66行：作者身份与生卒（62–64）；第65行列诗集并标注1937–1978等书目年份；第66行列随笔集及1957–1970年份，并称Paradiso、Oppiano Licario为小说作品。实读2026-10-14。",
+      "direct_support": "出版社作者书目列作品与类别；Fragmentos a su imán列于诗歌作品并标1978年。"
+    },
+    {
+      "source_ref": "WCD10-B17-S103",
+      "url": "https://www.cervantesvirtual.com/obra-visor/la-escritura-de-lo-posible--el-sistema-potico-de-jos-lezama-lima-0/html/ff2fbdf8-82b1-11df-acc7-002185ce6064_60.htm",
+      "opened": true,
+      "accessed_at": "2026-10-14",
+      "locator": "实际打开第392–415行、第426–444行：诗集分类及Muerte de Narciso(1937)、Enemigo rumor(1941)、Aventuras sigilosas(1945)、La fijeza(1949)、Dador(1960)、Fragmentos a su imán (La Habana 1977; México/Barcelona 1978)；小说与短篇汇编、随笔分别列在第413–444行。实读2026-10-14。",
+      "direct_support": "作品类别、Fragmentos作为诗篇集及其晚年语境的简述；书目列其1977与1978版本。；另在2026-10-14实际打开同书相邻章节…_59.htm，第427行称Muerte de Narciso为长诗并记录1937 Verbum第二期/同年Úcar单册，第432行称25节。",
+      "alternate_accesses": [
+        {
+          "url": "https://www.cervantesvirtual.com/obra-visor/la-escritura-de-lo-posible--el-sistema-potico-de-jos-lezama-lima-0/html/ff2fbdf8-82b1-11df-acc7-002185ce6064_59.htm",
+          "opened": true,
+          "accessed_at": "2026-10-14",
+          "relationship_to_registered_source": "同一研究专著，章节相邻入口；不登记为第二个source object。",
+          "locator": "第427行：长诗Muerte de Narciso于1937年出现在Verbum第二期，并于同年由Impresiones Úcar印为小册；第432行：二十五节。",
+          "support_scope": "WCD10-B17-W101 的 work 层级、长诗体裁、1937首刊及25节描述。"
+        }
+      ]
+    },
+    {
+      "candidate_source_id": "WCD10-B17-S201",
+      "url": "https://www.cervantes.es/bibliotecas_documentacion_espanol/biografias/varsovia_guillermo_cabrera_infante_1.htm",
+      "opened": true,
+      "accessed_at": "2026-10-14",
+      "title_seen": "Guillermo Cabrera Infante. Cronología de obras — Instituto Cervantes",
+      "locator": "实读2026-10-14；页面标题“Guillermo Cabrera Infante. Cronología de obras”；第47行列 Así en la paz como en la guerra (1960)，第49行列 Un oficio del siglo XX (1963)，第51/57/64/66行分别列Tres tristes tigres (1967)、Vista del amanecer en el trópico (1974)、Cuerpos divinos (1979)、La Habana para un infante difunto (1979)。",
+      "captured_content": "仅登记必要题名/出版年/类别或短释义支持范围；未下载或保存原始页面/书籍内容。",
+      "access_result": "OPENED"
+    },
+    {
+      "candidate_source_id": "WCD10-B17-S202",
+      "url": "https://www.treccani.it/enciclopedia/guillermo-cabrera-infante/",
+      "opened": true,
+      "accessed_at": "2026-10-14",
+      "title_seen": "Cabrera Infante, Guillermo — Enciclopedia Treccani",
+      "locator": "实读2026-10-14；第20—22行：称Tres tristes tigres为小说，概括其语言与结构实验及巴蒂斯塔时期年轻人的故事；该条还将 Tres tristes tigres 列作1964（意大利语译本1976）。",
+      "captured_content": "仅登记必要题名/出版年/类别或短释义支持范围；未下载或保存原始页面/书籍内容。",
+      "access_result": "OPENED"
+    },
+    {
+      "candidate_source_id": "WCD10-B17-S203",
+      "url": "https://books.google.es/books/about/Vista_del_amanecer_en_el_tr%C3%B3pico.html?id=MnNAAAAAYAAJ",
+      "opened": true,
+      "accessed_at": "2026-10-14",
+      "title_seen": "Vista del amanecer en el trópico — Google Libros / Seix Barral record",
+      "locator": "实读2026-10-14；第13—15行显示作者、Seix Barral 1974版及出版者简介：以文学化短篇巡览古巴历史、人民、英雄、地理与艺术；第53—66行书目字段及系列“Relatos”。",
+      "captured_content": "仅登记必要题名/出版年/类别或短释义支持范围；未下载或保存原始页面/书籍内容。",
+      "access_result": "OPENED"
+    },
+    {
+      "candidate_source_id": "WCD10-B17-S204",
+      "url": "https://www.planetadelibros.com.ar/libro-la-habana-para-un-infante-difunto/125852",
+      "opened": true,
+      "accessed_at": "2026-10-14",
+      "title_seen": "La Habana para un infante difunto — PlanetadeLibros Argentina",
+      "locator": "实读2026-10-14；第14—22行含作品题名及出版社简介；第44—54行为“Novela literaria”分类和Seix Barral版本信息；第62—63行作者书目分类。",
+      "captured_content": "仅登记必要题名/出版年/类别或短释义支持范围；未下载或保存原始页面/书籍内容。",
+      "access_result": "OPENED"
+    },
+    {
+      "candidate_source_id": "WCD10-B17-S205",
+      "url": "https://www.penguinlibros.com/us/67409-guillermo-cabrera-infante",
+      "opened": true,
+      "accessed_at": "2026-10-14",
+      "title_seen": "Guillermo Cabrera Infante — Penguin Libros author page",
+      "locator": "实读2026-10-14；第210—221行作者简介与作品类别：列出Así en la paz como en la guerra (1960)为短篇集、Un oficio del siglo XX (1963)为电影评论汇编、Cuerpos divinos (2010)为身后出版的自传性作品；第224—227行说明Cuerpos divinos回忆作者在古巴的青年生活。",
+      "captured_content": "仅登记必要题名/出版年/类别或短释义支持范围；未下载或保存原始页面/书籍内容。",
+      "access_result": "OPENED"
+    }
+  ]
+}

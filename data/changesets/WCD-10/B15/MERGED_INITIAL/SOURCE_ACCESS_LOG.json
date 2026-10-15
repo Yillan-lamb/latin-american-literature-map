@@ -1,0 +1,180 @@
+{
+  "schema": "wcd10-b15-source-access-log-merged-1",
+  "task_id": "TASK-120",
+  "batch_id": "WCD-10-B15",
+  "baseline_database_sha256": "651f89688eeba195a4332ee6611cc51478c2c3aeae7fd5b2391069283a0cea92",
+  "author_packages": [
+    {
+      "author_id": "V1-ENT-0286",
+      "package": {
+        "schema": "wcd10-source-access-log-1",
+        "task_id": "TASK-120",
+        "batch_id": "WCD-10-B15",
+        "baseline_database_sha256": "651f89688eeba195a4332ee6611cc51478c2c3aeae7fd5b2391069283a0cea92",
+        "accessed_at": "2026-10-13",
+        "sources": [
+          {
+            "url": "https://bcn.gob.ar/roberto-arlt",
+            "access_status": "OPENED",
+            "accessed_at": "2026-10-13",
+            "opened": true,
+            "locator": "实读2026-10-13，第21-24行概述作品，第31-67行列出小说、短篇集与戏剧并提供若干年份。",
+            "use": "支持作品归属、类型、有限简介及页面明确列出的年份；不推断未标年份的作品首发年。"
+          },
+          {
+            "url": "https://cvc.cervantes.es/literatura/escritores/arlt/bibliografia/bibliografia_01.htm",
+            "access_status": "OPENED",
+            "accessed_at": "2026-10-13",
+            "opened": true,
+            "locator": "实读2026-10-13。第13-54行列小说及书目版本，第81-106行列短篇集版本，第107-116行列戏剧作品、1950与1965等版本及具体出版条目。",
+            "use": "支持作品身份、体裁和页面实际列出的版本年份；版本日期不自动等于首演或首发年。"
+          }
+        ]
+      }
+    },
+    {
+      "author_id": "V1-ENT-0296",
+      "package": {
+        "schema": "wcd10-b15-source-access-log-1",
+        "task_id": "TASK-120",
+        "batch_id": "WCD-10-B15",
+        "baseline_database_sha256": "651f89688eeba195a4332ee6611cc51478c2c3aeae7fd5b2391069283a0cea92",
+        "accessed_at": "2026-10-13",
+        "sources": [
+          {
+            "candidate_id": "WCD10-B15-S101",
+            "url": "https://books.google.com/books/about/El_n%C3%BAcleo_del_disturbio.html?id=mgBJAAAAYAAJ",
+            "access_status": "OPENED",
+            "accessed_at": "2026-10-13",
+            "opened": true,
+            "locator": "实读2026-10-13。第26–33、45–55行：书名、作者、Ediciones Destino 2002、185页及出版社简介；第52行标明Original de Universidade do Texas。",
+            "use": "支持题名、作者、2002年版本书目与基于出版社简介的有限内容概述；非研究论文。"
+          },
+          {
+            "candidate_id": "WCD10-B15-S102",
+            "url": "https://www.penguinlibros.com/mx/literatura-contemporanea/464207-libro-pajaros-en-la-boca-9786073851008",
+            "access_status": "OPENED",
+            "accessed_at": "2026-10-13",
+            "opened": true,
+            "locator": "实读2026-10-13。第449–454行作者资料列El núcleo del disturbio为2002年短篇集、Kentukis为Random House 2018年作品并记录奖项；第364、427–433行另提供既有《吃鸟的女孩》内容简介，用于语义查重。",
+            "use": "支持Kentukis作者归属及2018书目年份、El núcleo的短篇集类型/年份；用于核查与既有作品《吃鸟的女孩》的区别。"
+          },
+          {
+            "candidate_id": "WCD10-B15-S103",
+            "url": "https://www.penguinrandomhouse.com/books/607610/kentukis-spanish-edition-by-samanta-schweblin/9786073851022/",
+            "access_status": "OPENED",
+            "accessed_at": "2026-10-13",
+            "opened": true,
+            "locator": "实读2026-10-13。Penguin Random House作品页第368–388行；官方简介支持陌生人进入异地他人的私人生活，以及技术、窥视、亲密与信任边界，不声称联网玩偶或远程操控。",
+            "use": "支持作品层级、小说体裁与受限内容概要；不将本版日期误作首发年。"
+          },
+          {
+            "candidate_id": "WCD10-B15-S104",
+            "url": "https://www.planetadelibros.com/libro-el-buen-mal/414257",
+            "access_status": "OPENED",
+            "accessed_at": "2026-10-13",
+            "opened": true,
+            "locator": "实读2026-10-13。PlanetadeLibros作品页第29–36行；官方简介支持熟悉感突然变陌生及意外变化的处境，不以页面下方用户评论补充六篇、悲痛或愧疚。",
+            "use": "支持作品身份、 cuentos/relatos形式、有界简介与Seix Barral版2025-03-05版本书目日期；不把版本日期扩张成首版原子年。"
+          },
+          {
+            "url": "https://www.penguinrandomhouse.com/authors/2128471/samanta-schweblin/",
+            "access_status": "OPENED",
+            "accessed_at": "2026-10-13",
+            "opened": true,
+            "locator": "实读2026-10-13。第144–173行列作者书目并列出Good and Evil、Little Eyes与现有collection/novel目录。",
+            "use": "作者级语义查重目录；未将作者目录本身用作版本事实。"
+          },
+          {
+            "url": "https://www.penguinlibros.com/mx/literatura-contemporanea/464207-libro-pajaros-en-la-boca-9786073851008",
+            "access_status": "OPENED",
+            "accessed_at": "2026-10-13",
+            "opened": true,
+            "locator": "实读2026-10-13。第449–454行作者资料列El núcleo del disturbio为2002年短篇集、Kentukis为Random House 2018年作品并记录奖项；第364、427–433行另提供既有《吃鸟的女孩》内容简介，用于语义查重。",
+            "use": "直接作者与作品来源，且用于与已连接《吃鸟的女孩》进行版本/对象查重。"
+          }
+        ]
+      }
+    },
+    {
+      "author_id": "V1-ENT-0297",
+      "package": {
+        "accessed_at": "2026-10-13",
+        "sources": [
+          {
+            "candidate_id": "WCD10-B15-S201",
+            "url": "https://www.anagrama-ed.es/libro/narrativas-hispanicas/bajar-es-lo-peor/9788433999429/NH_689",
+            "access_status": "OPENED",
+            "accessed_at": "2026-10-13",
+            "opened": true,
+            "locator": "Published 1995 and primary novel; synopsis of three adolescents and the Buenos Aires night scene. Lines 84-104, especially 88, 101-104. Edition data lines 122-145. Read 2026-10-13."
+          },
+          {
+            "candidate_id": "WCD10-B15-S202",
+            "url": "https://www.anagrama-ed.es/libro/narrativas-hispanicas/como-desaparecer-completamente/9788433946720/NH_766",
+            "access_status": "OPENED",
+            "accessed_at": "2026-10-13",
+            "opened": true,
+            "locator": "Novel classification and synopsis at lines 61-80; 2004 publication stated at line 79; edition metadata further down. Read 2026-10-13."
+          },
+          {
+            "candidate_id": "WCD10-B15-S203",
+            "url": "https://www.anagrama-ed.es/libro/narrativas-hispanicas/un-lugar-soleado-para-gente-sombria/9788433922861/NH_735",
+            "access_status": "OPENED",
+            "accessed_at": "2026-10-13",
+            "opened": true,
+            "locator": "Twelve horror stories, bounded synopsis and author at lines 67-86; edition publication date at lines 100-120. Read 2026-10-13."
+          },
+          {
+            "candidate_id": "WCD10-B15-S204",
+            "url": "https://www.anagrama-ed.es/libro/cronicas/el-otro-lado/9788433926302/CR_126",
+            "access_status": "OPENED",
+            "accessed_at": "2026-10-13",
+            "opened": true,
+            "locator": "Author, journalistic collection and contents at lines 61-82; edition publication date at lines 97-121. Read 2026-10-13."
+          },
+          {
+            "candidate_id": "WCD10-B15-S205",
+            "url": "https://www.anagrama-ed.es/libro/narrativas-hispanicas/alguien-camina-sobre-tu-tumba/9788433999238/NH_670",
+            "access_status": "OPENED",
+            "accessed_at": "2026-10-13",
+            "opened": true,
+            "locator": "Author, travel chronicle form and cemetery visits at lines 61-84; original Argentina publication in 2014 at line 83; later edition data lines 99-123. Read 2026-10-13."
+          },
+          {
+            "candidate_id": "WCD10-B15-S206",
+            "url": "https://www.anagrama-ed.es/libro/biblioteca-de-la-memoria/la-hermana-menor/9788433908063/BM_36",
+            "access_status": "OPENED",
+            "accessed_at": "2026-10-13",
+            "opened": true,
+            "locator": "Author/title and subtitle identify a portrait of Silvina Ocampo at lines 61-67; contents and approach at lines 79-83; edition date at lines 97-120. Read 2026-10-13."
+          },
+          {
+            "candidate_id": "WCD10-B15-S207",
+            "url": "https://www.anagrama-ed.es/libro/narrativas-hispanicas/las-cosas-que-perdimos-en-el-fuego/9788433998064/NH_559",
+            "access_status": "OPENED",
+            "accessed_at": "2026-10-13",
+            "opened": true,
+            "locator": "The publisher describes twelve stories and gives a bounded account of their horror/social themes at lines 78-81; 2016 publisher edition date at lines 95-119. Read 2026-10-13."
+          },
+          {
+            "candidate_id": "WCD10-B15-S208",
+            "url": "https://www.anagrama-ed.es/libro/narrativas-hispanicas/nuestra-parte-de-noche/9788433998859/NH_636",
+            "access_status": "OPENED",
+            "accessed_at": "2026-10-13",
+            "opened": true,
+            "locator": "Publisher directly describes the novel, father/son journey, Gaspar and the Order at lines 79-84 and 158-164; edition date 2019 at lines 101-125. Read 2026-10-13."
+          },
+          {
+            "candidate_id": "WCD10-B15-S209",
+            "url": "https://www.anagrama-ed.es/libro/narrativas-hispanicas/los-peligros-de-fumar-en-la-cama/9788433998248/NH_580",
+            "access_status": "OPENED",
+            "accessed_at": "2026-10-13",
+            "opened": true,
+            "locator": "Publisher calls it a 12-story collection and describes bounded horror themes at lines 78-81, 157-161; edition date 2017 at lines 101-125. Read 2026-10-13."
+          }
+        ]
+      }
+    }
+  ]
+}

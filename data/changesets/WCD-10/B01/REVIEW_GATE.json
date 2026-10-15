@@ -1,0 +1,12 @@
+{
+  "task_id":"TASK-106",
+  "reviewer":"wcd10_b01_review",
+  "reviewed_at":"2026-09-26",
+  "review_scope":"Candidate content and source identity only; registration and generated migration require separate review before application.",
+  "packages":[
+    {"file":"CANDIDATES.json","sha256":"46b0739aa42e57a5e5b7598907de02a5205e83abd667c373582435ec2ffb092a","verdict":"PASS"},
+    {"file":"SUPPLEMENT.json","sha256":"afca3a2a81012943fd92fef4babd4207abaa6dec1e8cc8be03f38e0e46a12e3d","verdict":"PASS"}
+  ],
+  "baseline_database_sha256":"a8c54e3c0e04a347f310d7f0f969dfba758f575008fa64c1789e43b26bf378cc",
+  "boundaries":["Research only; no Curation approval, public expansion or release","1979 UNAM book edition is not asserted to be the first book edition","IMS container/subpage and CVC exhibition pages cannot be counted as independent second interpretations","S24 historical individual peer review and conflicting license labels remain NOT_VERIFIED","S19/S20 are used only for unresolved object/edition scope and are not source admission candidates in this migration"]
+}

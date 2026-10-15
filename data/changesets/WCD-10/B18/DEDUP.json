@@ -1,0 +1,321 @@
+{
+  "task_id": "TASK-123",
+  "batch_id": "WCD-10-B18",
+  "baseline_database_sha256": "1bc4695f6c77cad166b5229572f73490006b9e4392379e0017f799049e5aceb0",
+  "works": [
+    {
+      "candidate_id": "WCD10-B18-W001",
+      "original_name": "Los empeños de una casa",
+      "normalized_match_check": "通过冻结B18_BASELINE.sqlite对全部575个work/collection标题检索，并人工核对Sor Juana作者范围、戏剧身份和题名变体。",
+      "disposition": "new_candidate_no_semantic_duplicate_identified",
+      "similar_titles_reviewed": [
+        "Amor es más laberinto",
+        "Respuesta a Sor Filotea de la Cruz",
+        "Primero sueño"
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B18-W002",
+      "original_name": "Inundación castálida",
+      "normalized_match_check": "通过冻结B18_BASELINE.sqlite对全部575个work/collection标题检索，并人工核对作者范围、作品集层级和早期版本题名。",
+      "disposition": "new_candidate_no_semantic_duplicate_identified",
+      "similar_titles_reviewed": [
+        "Poesías completas",
+        "Obras completas de Sor Juana Inés de la Cruz"
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B18-W003",
+      "original_name": "Carta Atenagórica",
+      "normalized_match_check": "冻结B18全部575件作品/作品集标题查重；无语义重复，区分既有《答索尔·菲洛特娅》（Respuesta）这一后续回复作品。",
+      "disposition": "new_candidate_no_semantic_duplicate_identified",
+      "similar_titles_reviewed": [
+        "Respuesta a Sor Filotea de la Cruz",
+        "Primero sueño",
+        "Amor es más laberinto"
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B18-W101",
+      "original_name": "Crónica de San Gabriel",
+      "name_zh_candidate": "《圣加夫列尔纪事》（暂译）",
+      "database_exact_original_title_matches": [],
+      "database_exact_chinese_display_matches": [],
+      "same_author_existing_work_semantic_review": {
+        "reviewed_existing_titles": [
+          "Los gallinazos sin plumas",
+          "Silvio en El Rosedal",
+          "La palabra del mudo"
+        ],
+        "result": "与该作者冻结基线3部已关联作品题名不同；再对全库作品实体执行完全题名匹配，无精确命中。语义去重仍交批次Reviewer复核。"
+      },
+      "decision": "new candidate; independent semantic review still required"
+    },
+    {
+      "candidate_id": "WCD10-B18-W102",
+      "original_name": "Los geniecillos dominicales",
+      "name_zh_candidate": "《星期日的小精灵们》（暂译）",
+      "database_exact_original_title_matches": [],
+      "database_exact_chinese_display_matches": [],
+      "same_author_existing_work_semantic_review": {
+        "reviewed_existing_titles": [
+          "Los gallinazos sin plumas",
+          "Silvio en El Rosedal",
+          "La palabra del mudo"
+        ],
+        "result": "与该作者冻结基线3部已关联作品题名不同；再对全库作品实体执行完全题名匹配，无精确命中。语义去重仍交批次Reviewer复核。"
+      },
+      "decision": "new candidate; independent semantic review still required"
+    },
+    {
+      "candidate_id": "WCD10-B18-W103",
+      "original_name": "Cambio de guardia",
+      "name_zh_candidate": "《换岗》（暂译）",
+      "database_exact_original_title_matches": [],
+      "database_exact_chinese_display_matches": [],
+      "same_author_existing_work_semantic_review": {
+        "reviewed_existing_titles": [
+          "Los gallinazos sin plumas",
+          "Silvio en El Rosedal",
+          "La palabra del mudo"
+        ],
+        "result": "与该作者冻结基线3部已关联作品题名不同；再对全库作品实体执行完全题名匹配，无精确命中。语义去重仍交批次Reviewer复核。"
+      },
+      "decision": "new candidate; independent semantic review still required"
+    },
+    {
+      "candidate_id": "WCD10-B18-W104",
+      "original_name": "Prosas apátridas",
+      "name_zh_candidate": "《无国籍散文》（暂译）",
+      "database_exact_original_title_matches": [],
+      "database_exact_chinese_display_matches": [],
+      "same_author_existing_work_semantic_review": {
+        "reviewed_existing_titles": [
+          "Los gallinazos sin plumas",
+          "Silvio en El Rosedal",
+          "La palabra del mudo"
+        ],
+        "result": "与作者冻结关联作品题名不同；全库575个作品/合集无完全题名匹配。短散文/日记的作品层级与版本序列仍交独立Reviewer复核。"
+      },
+      "decision": "new candidate; independent semantic review still required",
+      "entity_type": "collection"
+    },
+    {
+      "candidate_id": "WCD10-B18-W105",
+      "original_name": "La tentación del fracaso",
+      "name_zh_candidate": "《失败的诱惑》（暂译）",
+      "database_exact_original_title_matches": [],
+      "database_exact_chinese_display_matches": [],
+      "same_author_existing_work_semantic_review": {
+        "reviewed_existing_titles": [
+          "Los gallinazos sin plumas",
+          "Silvio en El Rosedal",
+          "La palabra del mudo"
+        ],
+        "result": "与作者冻结关联作品题名不同；全库575个作品/合集无完全题名匹配。作品层级/版本仍交独立Reviewer复核。"
+      },
+      "decision": "new candidate; independent semantic review still required",
+      "entity_type": "collection"
+    },
+    {
+      "candidate_id": "WCD10-B18-W201",
+      "original_name": "En la zona",
+      "normalized_match_check": "按SQLite B18冻结inventory检索全部575个work/collection实体的规范化原题，并逐项人工检查Juan José Saer既有linked works；另用候选书目主标题复核。",
+      "disposition": "new_candidate_no_semantic_duplicate_identified",
+      "similar_titles_reviewed": [
+        "El limonero real",
+        "El entenado",
+        "Glosa"
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B18-W202",
+      "original_name": "Palo y hueso",
+      "normalized_match_check": "按SQLite B18冻结inventory检索全部575个work/collection实体的规范化原题，并逐项人工检查Juan José Saer既有linked works；另用候选书目主标题复核。",
+      "disposition": "new_candidate_no_semantic_duplicate_identified",
+      "similar_titles_reviewed": [
+        "El limonero real",
+        "El entenado",
+        "Glosa"
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B18-W203",
+      "original_name": "Unidad de lugar",
+      "normalized_match_check": "按SQLite B18冻结inventory检索全部575个work/collection实体的规范化原题，并逐项人工检查Juan José Saer既有linked works；另用候选书目主标题复核。",
+      "disposition": "new_candidate_no_semantic_duplicate_identified",
+      "similar_titles_reviewed": [
+        "El limonero real",
+        "El entenado",
+        "Glosa"
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B18-W204",
+      "original_name": "La mayor",
+      "normalized_match_check": "按SQLite B18冻结inventory检索全部575个work/collection实体的规范化原题，并逐项人工检查Juan José Saer既有linked works；另用候选书目主标题复核。",
+      "disposition": "new_candidate_no_semantic_duplicate_identified",
+      "similar_titles_reviewed": [
+        "El limonero real",
+        "El entenado",
+        "Glosa"
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B18-W205",
+      "original_name": "Lugar",
+      "normalized_match_check": "按SQLite B18冻结inventory检索全部575个work/collection实体的规范化原题，并逐项人工检查Juan José Saer既有linked works；另用候选书目主标题复核。",
+      "disposition": "new_candidate_no_semantic_duplicate_identified",
+      "similar_titles_reviewed": [
+        "El limonero real",
+        "El entenado",
+        "Glosa"
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B18-W206",
+      "original_name": "El arte de narrar: poemas 1960/1975",
+      "normalized_match_check": "按SQLite B18冻结inventory检索全部575个work/collection实体的规范化原题，并逐项人工检查Juan José Saer既有linked works；另用候选书目主标题复核。",
+      "disposition": "new_candidate_no_semantic_duplicate_identified",
+      "similar_titles_reviewed": [
+        "El limonero real",
+        "El entenado",
+        "Glosa"
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B18-W207",
+      "original_name": "Responso",
+      "normalized_match_check": "按SQLite B18冻结inventory检索全部575个work/collection实体的规范化原题，并逐项人工检查Juan José Saer既有linked works；另用候选书目主标题复核。",
+      "disposition": "new_candidate_no_semantic_duplicate_identified",
+      "similar_titles_reviewed": [
+        "El limonero real",
+        "El entenado",
+        "Glosa"
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B18-W208",
+      "original_name": "Cicatrices",
+      "normalized_match_check": "按SQLite B18冻结inventory检索全部575个work/collection实体的规范化原题，并逐项人工检查Juan José Saer既有linked works；另用候选书目主标题复核。",
+      "disposition": "new_candidate_no_semantic_duplicate_identified",
+      "similar_titles_reviewed": [
+        "El limonero real",
+        "El entenado",
+        "Glosa"
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B18-W209",
+      "original_name": "Nadie nada nunca",
+      "normalized_match_check": "按B18冻结SQLite全量575个work/collection实体规范化题名检索，并人工复核全部Juan José Saer既有linked works；同时检查政府页错题“Nada nunca nada”，仅作为同一作品的书目异文，不单独创建候选。",
+      "disposition": "new_candidate_no_semantic_duplicate_identified_title_corrected_from_publisher",
+      "similar_titles_reviewed": [
+        "Nada nunca nada (Argentina.gob.ar source title variant)",
+        "El limonero real",
+        "El entenado",
+        "Glosa"
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B18-W210",
+      "original_name": "El río sin orillas: tratado imaginario",
+      "normalized_match_check": "按SQLite B18冻结inventory检索全部575个work/collection实体的规范化原题，并逐项人工检查Juan José Saer既有linked works；另用候选书目主标题复核。",
+      "disposition": "new_candidate_no_semantic_duplicate_identified",
+      "similar_titles_reviewed": [
+        "El limonero real",
+        "El entenado",
+        "Glosa"
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B18-W211",
+      "original_name": "El concepto de ficción",
+      "normalized_match_check": "按SQLite B18冻结inventory检索全部575个work/collection实体的规范化原题，并逐项人工检查Juan José Saer既有linked works；另用候选书目主标题复核。",
+      "disposition": "new_candidate_no_semantic_duplicate_identified",
+      "similar_titles_reviewed": [
+        "El limonero real",
+        "El entenado",
+        "Glosa"
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B18-W212",
+      "original_name": "La narración-objeto",
+      "normalized_match_check": "按SQLite B18冻结inventory检索全部575个work/collection实体的规范化原题，并逐项人工检查Juan José Saer既有linked works；另用候选书目主标题复核。",
+      "disposition": "new_candidate_no_semantic_duplicate_identified",
+      "similar_titles_reviewed": [
+        "El limonero real",
+        "El entenado",
+        "Glosa"
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B18-W213",
+      "original_name": "La ocasión",
+      "normalized_match_check": "按SQLite B18冻结inventory检索全部575个work/collection实体的规范化原题，并逐项人工检查Juan José Saer既有linked works；另用候选书目主标题复核。",
+      "disposition": "new_candidate_no_semantic_duplicate_identified",
+      "similar_titles_reviewed": [
+        "El limonero real",
+        "El entenado",
+        "Glosa"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "candidate_id": "WCD10-B18-S001",
+      "normalized_url_check": "未在B18冻结库sources.canonical_url发现同规范化URL；按新来源登记。",
+      "disposition": "new_source"
+    },
+    {
+      "candidate_id": "WCD10-B18-S002",
+      "normalized_url_check": "未在B18冻结库sources.canonical_url发现同规范化URL；按新来源登记。",
+      "disposition": "new_source"
+    },
+    {
+      "candidate_id": "WCD10-B18-S003",
+      "normalized_url_check": "规范化URL与冻结来源SRC-0253相同；复用原来源，元数据和等级不变。",
+      "disposition": "reuse",
+      "reuse_existing_source": "SRC-0253"
+    },
+    {
+      "candidate_id": "WCD10-B18-S101",
+      "url": "https://www.ccincagarcilaso.gob.pe/la-palabra-escrita/julio-ramon-ribeyro/",
+      "normalized_url_matches": [
+        "SRC-0254"
+      ],
+      "decision": "reuse_existing_source; URL and source object match; do not create duplicate source"
+    },
+    {
+      "candidate_id": "WCD10-B18-S201",
+      "url": "https://www.argentina.gob.ar/noticias/juan-jose-saer-un-narrador-en-busca-de-poesia",
+      "disposition": "reuse_existing_source",
+      "reuse_existing_source": "SRC-0256"
+    },
+    {
+      "candidate_id": "WCD10-B18-S202",
+      "url": "https://oceano.mx/obras/el-concepto-de-ficcion-juan-jose-saer-22874.aspx",
+      "disposition": "new_source_no_canonical_url_match_in_frozen_B18_sources",
+      "reuse_existing_source": ""
+    },
+    {
+      "candidate_id": "WCD10-B18-S203",
+      "url": "https://fh.mdp.edu.ar/revistas/index.php/celehis/article/download/3109/3021",
+      "disposition": "new_source_no_canonical_url_match_in_frozen_B18_sources",
+      "reuse_existing_source": ""
+    },
+    {
+      "candidate_id": "WCD10-B18-S204",
+      "url": "https://www.rayoverde.es/catalogo/nadie-nada-nunca/",
+      "disposition": "new_source_no_canonical_url_match_in_frozen_B18_sources",
+      "reuse_existing_source": ""
+    },
+    {
+      "candidate_id": "WCD10-B18-S205",
+      "url": "https://www.rayoverde.es/catalogo/el-entenado/",
+      "disposition": "new_source_no_canonical_url_match_in_frozen_B18_sources",
+      "reuse_existing_source": ""
+    }
+  ]
+}

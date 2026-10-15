@@ -1,0 +1,244 @@
+{
+  "task_id": "TASK-120",
+  "batch_id": "WCD-10-B15",
+  "baseline_database_sha256": "651f89688eeba195a4332ee6611cc51478c2c3aeae7fd5b2391069283a0cea92",
+  "accessed_at": "2026-10-13",
+  "verified_by": "Parent-reviewed frozen WCD-10 B15 author packages; soleIntegrator exact merge.",
+  "copyright_boundary": "仅整理可追溯书目信息与短篇幅释义，不复制来源正文或保存来源资产；作者原始边界保留在author_policies。",
+  "public_content_scope": "仅Research候选包，不代表策展审核、正式Research准入或公开许可；作者原始边界保留在author_policies。",
+  "local_asset_status": "remote_only",
+  "source_year_policy": "仅记录直接来源支持的年份；区分作品首发与具体版本日期，未解决字段保留注记。",
+  "profiles": [
+    {
+      "candidate_id": "WCD10-B15-S001",
+      "publisher": "Biblioteca del Congreso de la Nación",
+      "format": "institutional_author_bibliography",
+      "language": "es",
+      "author_or_editor": "Biblioteca del Congreso de la Nación",
+      "source_level": "B",
+      "title": "Roberto Arlt — Biblioteca del Congreso de la Nación",
+      "publication_year": "",
+      "date_purpose": "页面/书目条目发布日期未知；作品年份单独依定位记录。",
+      "reuse_existing_source": "SRC-0230"
+    },
+    {
+      "candidate_id": "WCD10-B15-S002",
+      "publisher": "Centro Virtual Cervantes (Instituto Cervantes)",
+      "format": "institutional_author_bibliography",
+      "language": "es",
+      "author_or_editor": "Centro Virtual Cervantes (Instituto Cervantes)",
+      "source_level": "A",
+      "title": "Obras de Roberto Arlt — Centro Virtual Cervantes (Instituto Cervantes)",
+      "publication_year": "",
+      "date_purpose": "页面/书目条目发布日期未知；作品年份单独依定位记录。"
+    },
+    {
+      "candidate_id": "WCD10-B15-S101",
+      "publisher": "",
+      "format": "google_books_bibliographic_record",
+      "language": "es",
+      "author_or_editor": "Google Books; bibliographic record from Ediciones Destino and The University of Texas",
+      "source_level": "B",
+      "title": "El núcleo del disturbio — Google Books",
+      "publication_year": "2002",
+      "date_purpose": "publisher edition date; source dates the Ediciones Destino edition"
+    },
+    {
+      "candidate_id": "WCD10-B15-S102",
+      "publisher": "Penguin Random House Grupo Editorial",
+      "format": "publisher_author_catalogue",
+      "language": "es",
+      "author_or_editor": "Penguin Random House Grupo Editorial",
+      "source_level": "B",
+      "title": "Pájaros en la boca — Penguin Libros",
+      "publication_year": "2018",
+      "date_purpose": "author biography reports Kentukis / Random House 2018; not a separately verified first-edition statement"
+    },
+    {
+      "candidate_id": "WCD10-B15-S103",
+      "publisher": "Penguin Random House",
+      "format": "publisher_book_page",
+      "language": "es",
+      "author_or_editor": "Penguin Random House",
+      "source_level": "B",
+      "title": "Kentukis (Spanish Edition) — Penguin Random House",
+      "publication_year": "2026",
+      "date_purpose": "US publisher page edition availability date; not used as original first publication year"
+    },
+    {
+      "candidate_id": "WCD10-B15-S104",
+      "publisher": "Editorial Planeta / Seix Barral",
+      "format": "publisher_book_page",
+      "language": "es",
+      "author_or_editor": "Editorial Planeta / Seix Barral",
+      "source_level": "B",
+      "title": "El buen mal — PlanetadeLibros",
+      "publication_year": "2025",
+      "date_purpose": "Spanish Seix Barral paperback edition date shown as 2025-03-05"
+    },
+    {
+      "candidate_id": "WCD10-B15-S201",
+      "publisher": "Editorial Anagrama",
+      "format": "publisher_book_page",
+      "language": "es",
+      "author_or_editor": "Editorial Anagrama",
+      "source_level": "B",
+      "title": "Bajar es lo peor — Editorial Anagrama",
+      "publication_year": "",
+      "date_purpose": "本次实读日期为2026-10-13；页面书目日期用途按字段说明区分首版/该版日期。",
+      "notes": "直接出版社页面；novel。仅记录支持范围。",
+      "disposition": "fresh_registration"
+    },
+    {
+      "candidate_id": "WCD10-B15-S202",
+      "publisher": "Editorial Anagrama",
+      "format": "publisher_book_page",
+      "language": "es",
+      "author_or_editor": "Editorial Anagrama",
+      "source_level": "B",
+      "title": "Cómo desaparecer completamente — Editorial Anagrama",
+      "publication_year": "",
+      "date_purpose": "本次实读日期为2026-10-13；页面书目日期用途按字段说明区分首版/该版日期。",
+      "notes": "直接出版社页面；novel。仅记录支持范围。",
+      "disposition": "fresh_registration"
+    },
+    {
+      "candidate_id": "WCD10-B15-S203",
+      "publisher": "Editorial Anagrama",
+      "format": "publisher_book_page",
+      "language": "es",
+      "author_or_editor": "Editorial Anagrama",
+      "source_level": "B",
+      "title": "Un lugar soleado para gente sombría — Editorial Anagrama",
+      "publication_year": "",
+      "date_purpose": "本次实读日期为2026-10-13；页面书目日期用途按字段说明区分首版/该版日期。",
+      "notes": "直接出版社页面；short_story_collection。仅记录支持范围。",
+      "disposition": "fresh_registration"
+    },
+    {
+      "candidate_id": "WCD10-B15-S204",
+      "publisher": "Editorial Anagrama",
+      "format": "publisher_book_page",
+      "language": "es",
+      "author_or_editor": "Editorial Anagrama",
+      "source_level": "B",
+      "title": "El otro lado — Editorial Anagrama",
+      "publication_year": "",
+      "date_purpose": "本次实读日期为2026-10-13；页面书目日期用途按字段说明区分首版/该版日期。",
+      "notes": "直接出版社页面；journalistic_collection。仅记录支持范围。",
+      "disposition": "fresh_registration"
+    },
+    {
+      "candidate_id": "WCD10-B15-S205",
+      "publisher": "Editorial Anagrama",
+      "format": "publisher_book_page",
+      "language": "es",
+      "author_or_editor": "Editorial Anagrama",
+      "source_level": "B",
+      "title": "Alguien camina sobre tu tumba — Editorial Anagrama",
+      "publication_year": "",
+      "date_purpose": "本次实读日期为2026-10-13；页面书目日期用途按字段说明区分首版/该版日期。",
+      "notes": "直接出版社页面；travel_chronicles。仅记录支持范围。",
+      "disposition": "fresh_registration"
+    },
+    {
+      "candidate_id": "WCD10-B15-S206",
+      "publisher": "Editorial Anagrama",
+      "format": "publisher_book_page",
+      "language": "es",
+      "author_or_editor": "Editorial Anagrama",
+      "source_level": "B",
+      "title": "La hermana menor — Editorial Anagrama",
+      "publication_year": "",
+      "date_purpose": "本次实读日期为2026-10-13；页面书目日期用途按字段说明区分首版/该版日期。",
+      "notes": "直接出版社页面；literary_profile。仅记录支持范围。",
+      "disposition": "fresh_registration"
+    },
+    {
+      "candidate_id": "WCD10-B15-S207",
+      "publisher": "Editorial Anagrama",
+      "format": "web_page",
+      "language": "es",
+      "author_or_editor": "Editorial Anagrama",
+      "source_level": "B",
+      "title": "Las cosas que perdimos en el fuego — Mariana Enriquez",
+      "publication_year": "",
+      "date_purpose": "本次实读日期为2026-10-13；页面书目日期用途按字段说明区分首版/该版日期。",
+      "notes": "直接出版社页面；short_story_collection。仅记录支持范围。",
+      "disposition": "reuse_existing_source",
+      "reuse_existing_source": "SRC-0238"
+    },
+    {
+      "candidate_id": "WCD10-B15-S208",
+      "publisher": "Editorial Anagrama",
+      "format": "web_page",
+      "language": "es",
+      "author_or_editor": "Editorial Anagrama",
+      "source_level": "B",
+      "title": "Nuestra parte de noche — Mariana Enriquez",
+      "publication_year": "",
+      "date_purpose": "本次实读日期为2026-10-13；页面书目日期用途按字段说明区分首版/该版日期。",
+      "notes": "直接出版社页面；novel。仅记录支持范围。",
+      "disposition": "reuse_existing_source",
+      "reuse_existing_source": "SRC-0236"
+    },
+    {
+      "candidate_id": "WCD10-B15-S209",
+      "publisher": "Editorial Anagrama",
+      "format": "web_page",
+      "language": "es",
+      "author_or_editor": "Editorial Anagrama",
+      "source_level": "B",
+      "title": "Los peligros de fumar en la cama — Mariana Enriquez",
+      "publication_year": "",
+      "date_purpose": "本次实读日期为2026-10-13；页面书目日期用途按字段说明区分首版/该版日期。",
+      "notes": "直接出版社页面；short_story_collection。仅记录支持范围。",
+      "disposition": "reuse_existing_source",
+      "reuse_existing_source": "SRC-0237"
+    }
+  ],
+  "author_policies": [
+    {
+      "author_id": "V1-ENT-0286",
+      "root_execution_metadata": {
+        "accessed_at": "2026-10-13",
+        "verified_by": "GPT-6 Luna isolated candidate producer; parent review pending",
+        "copyright_boundary": "仅书目元数据与受限释义；未下载或保存来源资产。",
+        "public_content_scope": "仅研究候选书目与短篇幅改述；无自动策展或公开准入。",
+        "local_asset_status": "remote_only",
+        "source_year_policy": "仅将直接书目来源明确支持的首刊或版本年份写入year字段；未标年作品保留延期。"
+      },
+      "author_policy_by_id": {
+        "V1-ENT-0286": "DEC-070：普通作品书目、体裁及有界简介采用直接可靠来源；不求全集或学术覆盖。"
+      }
+    },
+    {
+      "author_id": "V1-ENT-0296",
+      "root_execution_metadata": {
+        "accessed_at": "2026-10-13",
+        "verified_by": "GPT-6 Luna isolated candidate producer; parent review pending",
+        "copyright_boundary": "仅书目元数据与短幅度自拟改述；未下载或保存来源资产、全文或长段引文。",
+        "public_content_scope": "仅Research候选书目事实与短幅度改述；无自动策展或公开准入。",
+        "local_asset_status": "remote_only",
+        "source_year_policy": "原子首发年份仅在直接来源清楚支持时记录；其他日期说明具体出版社/版本及日期用途，不将版次年冒充作品首发年。"
+      },
+      "author_policy_by_id": {
+        "V1-ENT-0296": "DEC-070：普通作品书目、体裁及有界简介采用可靠直接来源；不追求全集、专门论文或学术覆盖数量。未核得的中文译名保留原题；首发年份无直接依据则不录原子年份。"
+      }
+    },
+    {
+      "author_id": "V1-ENT-0297",
+      "root_execution_metadata": {
+        "accessed_at": "2026-10-13",
+        "verified_by": "gpt-6-luna candidate worker",
+        "copyright_boundary": "Bibliographic metadata and short paraphrases only; no copyrighted text or local assets copied.",
+        "public_content_scope": "Research candidate support only; no automatic public/Curation admission.",
+        "local_asset_status": "remote_only",
+        "source_year_policy": "Record first publication year only where explicitly supported; otherwise use version-specific bibliographic_note and keep gap open."
+      },
+      "author_policy_by_id": {
+        "V1-ENT-0297": "DEC-070：出版社直接页面支持普通书目、体裁与有限简介即可；年份冲突/无首年时保留缺口并以版本书目注记区分，不声称目录穷尽。"
+      }
+    }
+  ]
+}

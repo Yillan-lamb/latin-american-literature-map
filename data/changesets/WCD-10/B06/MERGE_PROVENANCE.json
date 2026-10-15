@@ -1,0 +1,1796 @@
+{
+  "schema": "wcd10-b06-merge-provenance-1",
+  "task_id": "TASK-111",
+  "batch_id": "WCD-10-B06",
+  "status": "MERGED_CANDIDATE_ONLY_PARENT_GATE_PENDING",
+  "baseline_commit": "05f3372c69a54ec331d31b05d16c8288d6d3a993",
+  "baseline_database_sha256": "0185f6c81ebe1dce1d761e7e9d8780f65baf1b3ed5769987f92f977fdfbdd868",
+  "fixed_author_order": [
+    "V1-ENT-0172",
+    "V1-ENT-0184",
+    "V1-ENT-0185"
+  ],
+  "inputs": [
+    {
+      "author_id": "V1-ENT-0172",
+      "author": "Amado",
+      "revision": "R3",
+      "frozen_input_directory": "work/wcd10-qa/B06_INPUTS_AMADO_R3",
+      "candidate_sha256": "ae84a0b0249312cccf267a10bc6d8873892e79900537ae839a87876ad48545dc",
+      "review_file": "PARENT_INDEPENDENT_REVIEW.json",
+      "review_sha256": "0d2374f4d3cde853affb4d745ff7e2164c52b60a548cd2242ec381e0ee5428f7",
+      "review_verdict": "PASS_SCOPED_AUTHOR_CANDIDATE_SEMANTICS",
+      "review_assertions": 62,
+      "mechanical_file": "PARENT_MECHANICAL_REVIEW.json",
+      "source_file_sha256": {
+        "CANDIDATES.json": "ae84a0b0249312cccf267a10bc6d8873892e79900537ae839a87876ad48545dc",
+        "COVERAGE.json": "7bf7a4fc0240c6adcaf723e89dac4c1b2229ebb2cee3bc15206f3a544c8b8235",
+        "SOURCE_REGISTRATION.json": "c12defc8bc95de8d1f8255a914e1a9d8882254ec08d363690badaa5f13e10218",
+        "EVIDENCE_MATRIX.json": "80efdf29fca7adb2aafc0bd31acf9aa84cdbaf477f1842f0f48f701728717522",
+        "PARENT_INDEPENDENT_REVIEW.json": "0d2374f4d3cde853affb4d745ff7e2164c52b60a548cd2242ec381e0ee5428f7",
+        "PARENT_MECHANICAL_REVIEW.json": "6d20b3d52a3ebe18ff512864d1709f2e1dabcd88eedbb89911a649ebd3c5baa0",
+        "FILES_SHA256.json": "1f8c17d7c1a18a60110196bc5fdc5044b22618be4be84c50ebcf7fc04b037bea"
+      }
+    },
+    {
+      "author_id": "V1-ENT-0184",
+      "author": "Onetti",
+      "revision": "R3",
+      "frozen_input_directory": "work/wcd10-qa/B06_INPUTS_ONETTI_R3",
+      "candidate_sha256": "7d21aeac51eea18a5c109b14ecf3b622835918e2d968db544d04adbca2cbd55f",
+      "review_file": "PARENT_INDEPENDENT_REVIEW.json",
+      "review_sha256": "d468be8afbfa5042b86b74814b8e80bdbf11fefa21230d79a7ced80828c142ae",
+      "review_verdict": "PASS_SCOPED_AUTHOR_CANDIDATE_SEMANTICS",
+      "review_assertions": 81,
+      "mechanical_file": null,
+      "source_file_sha256": {
+        "CANDIDATES.json": "7d21aeac51eea18a5c109b14ecf3b622835918e2d968db544d04adbca2cbd55f",
+        "COVERAGE.json": "286caf06fb50abbb8dafc37bd0f7f843ad1ce23e88bb4ed3ec4442cba4ce3348",
+        "SOURCE_REGISTRATION.json": "d2889dbf7f1d55aaeedc024544341d5f41c1bb49724d55ad70b6d4640c118ed2",
+        "EVIDENCE_MATRIX.json": "6aa2da6ffa5e42a63a2183211ef9805e62cae036203aeae52bdce78a917048c6",
+        "PARENT_INDEPENDENT_REVIEW.json": "d468be8afbfa5042b86b74814b8e80bdbf11fefa21230d79a7ced80828c142ae",
+        "R3_SHA256.txt": "0055bd2b35cff3db87d4c91a4f95db26d525008611347cdceb5e8c30cc1f3def"
+      }
+    },
+    {
+      "author_id": "V1-ENT-0185",
+      "author": "Donoso",
+      "revision": "R2",
+      "frozen_input_directory": "work/wcd10-qa/B06_INPUTS_DONOSO_R2",
+      "candidate_sha256": "9b05962cc8cfc957e3c81ce254f626eacb1728faf1748be056e2b4f613f2c452",
+      "review_file": "PARENT_INDEPENDENT_REVIEW.json",
+      "review_sha256": "e4ed1eefb574020674ac911fcd130fb81888fb9d3ac4e63feb8b0762e984df29",
+      "review_verdict": "PASS_SCOPED_AUTHOR_CANDIDATE_SEMANTICS",
+      "review_assertions": 320,
+      "mechanical_file": "PARENT_MECHANICAL_REVIEW.json",
+      "source_file_sha256": {
+        "CANDIDATES.json": "9b05962cc8cfc957e3c81ce254f626eacb1728faf1748be056e2b4f613f2c452",
+        "COVERAGE.json": "a7df7bf738261f4c3985940cb8fd71fa9f9f6aca4be79d506045eb644656e2d2",
+        "SOURCE_REGISTRATION.json": "f4ea99cc96ad21085b666758b598f5114eb030fee9091b1a2bb7aef43fdcedac",
+        "EVIDENCE_MATRIX.json": "511ddc21225b8d36fc853695c37219865f0667864a3bcfa9f7e89c167eae5943",
+        "PARENT_INDEPENDENT_REVIEW.json": "e4ed1eefb574020674ac911fcd130fb81888fb9d3ac4e63feb8b0762e984df29",
+        "PARENT_MECHANICAL_REVIEW.json": "99e4238ae1e6f10cd2f5aebea70e40f3bb64df0b2887aabafbe516ffbef8acf7",
+        "R2_MANIFEST.json": "c755be78a152779f476b190e935e4b45eeced8dac1c1f7d9d89b53ccbd157c22"
+      }
+    }
+  ],
+  "source_file_sha256": {
+    "Amado/CANDIDATES.json": "ae84a0b0249312cccf267a10bc6d8873892e79900537ae839a87876ad48545dc",
+    "Amado/COVERAGE.json": "7bf7a4fc0240c6adcaf723e89dac4c1b2229ebb2cee3bc15206f3a544c8b8235",
+    "Amado/SOURCE_REGISTRATION.json": "c12defc8bc95de8d1f8255a914e1a9d8882254ec08d363690badaa5f13e10218",
+    "Amado/EVIDENCE_MATRIX.json": "80efdf29fca7adb2aafc0bd31acf9aa84cdbaf477f1842f0f48f701728717522",
+    "Onetti/CANDIDATES.json": "7d21aeac51eea18a5c109b14ecf3b622835918e2d968db544d04adbca2cbd55f",
+    "Onetti/COVERAGE.json": "286caf06fb50abbb8dafc37bd0f7f843ad1ce23e88bb4ed3ec4442cba4ce3348",
+    "Onetti/SOURCE_REGISTRATION.json": "d2889dbf7f1d55aaeedc024544341d5f41c1bb49724d55ad70b6d4640c118ed2",
+    "Onetti/EVIDENCE_MATRIX.json": "6aa2da6ffa5e42a63a2183211ef9805e62cae036203aeae52bdce78a917048c6",
+    "Donoso/CANDIDATES.json": "9b05962cc8cfc957e3c81ce254f626eacb1728faf1748be056e2b4f613f2c452",
+    "Donoso/COVERAGE.json": "a7df7bf738261f4c3985940cb8fd71fa9f9f6aca4be79d506045eb644656e2d2",
+    "Donoso/SOURCE_REGISTRATION.json": "f4ea99cc96ad21085b666758b598f5114eb030fee9091b1a2bb7aef43fdcedac",
+    "Donoso/EVIDENCE_MATRIX.json": "511ddc21225b8d36fc853695c37219865f0667864a3bcfa9f7e89c167eae5943"
+  },
+  "source_scope_decision_normalization": "Original decision objects retained; candidate_source_id / candidate_source_ids are normalized to candidate_ids when needed for the shared builder.",
+  "nested_fact_id_mapping": [
+    {
+      "author_id": "V1-ENT-0172",
+      "entity_candidate_id": "WCD10-B06-W001",
+      "fact_index": 1,
+      "candidate_fact_id": "WCD10-B06-W001-F01",
+      "field": "first_publication_year",
+      "value": "1935",
+      "source_refs": [
+        "WCD10-B06-S001",
+        "WCD10-B06-S003"
+      ]
+    },
+    {
+      "author_id": "V1-ENT-0172",
+      "entity_candidate_id": "WCD10-B06-W001",
+      "fact_index": 2,
+      "candidate_fact_id": "WCD10-B06-W001-F02",
+      "field": "genre_or_form",
+      "value": "长篇小说",
+      "source_refs": [
+        "WCD10-B06-S003"
+      ]
+    },
+    {
+      "author_id": "V1-ENT-0172",
+      "entity_candidate_id": "WCD10-B06-W001",
+      "fact_index": 3,
+      "candidate_fact_id": "WCD10-B06-W001-F03",
+      "field": "one_sentence_summary",
+      "value": "据出版社简介，作品以孤儿安东尼奥·巴尔杜伊诺为中心，追写他在萨尔瓦多街头、烟草种植园、巡回马戏团和码头之间经历的生活转折，直至参加罢工。",
+      "source_refs": [
+        "WCD10-B06-S003"
+      ]
+    },
+    {
+      "author_id": "V1-ENT-0172",
+      "entity_candidate_id": "WCD10-B06-W002",
+      "fact_index": 1,
+      "candidate_fact_id": "WCD10-B06-W002-F01",
+      "field": "first_publication_year",
+      "value": "1969",
+      "source_refs": [
+        "WCD10-B06-S001",
+        "WCD10-B06-S005"
+      ]
+    },
+    {
+      "author_id": "V1-ENT-0172",
+      "entity_candidate_id": "WCD10-B06-W002",
+      "fact_index": 2,
+      "candidate_fact_id": "WCD10-B06-W002-F02",
+      "field": "genre_or_form",
+      "value": "长篇小说",
+      "source_refs": [
+        "WCD10-B06-S005"
+      ]
+    },
+    {
+      "author_id": "V1-ENT-0172",
+      "entity_candidate_id": "WCD10-B06-W002",
+      "fact_index": 3,
+      "candidate_fact_id": "WCD10-B06-W002-F03",
+      "field": "one_sentence_summary",
+      "value": "据出版社简介，小说以萨尔瓦多一间印刷铺及其周边为场景，围绕自学研究非裔文化并主张混血社会的Pedro Archanjo展开，并以两个时代交错回望其生平。",
+      "source_refs": [
+        "WCD10-B06-S004"
+      ]
+    },
+    {
+      "author_id": "V1-ENT-0172",
+      "entity_candidate_id": "WCD10-B06-W002",
+      "fact_index": 4,
+      "candidate_fact_id": "WCD10-B06-W002-F04",
+      "field": "research_note",
+      "value": "Soleni Biscouto Fressato的文章同时研究1969年小说与1977年电影；此处只转述其明确涉及小说的分析：小说将candomblé呈现为黑人与混血群体的身份、抵抗及争取正义的场域，并以两个叙事时段展开。不得移用电影独有的人物、改编或场景细节。",
+      "source_refs": [
+        "WCD10-B06-S005"
+      ]
+    },
+    {
+      "author_id": "V1-ENT-0172",
+      "entity_candidate_id": "WCD10-B06-W003",
+      "fact_index": 1,
+      "candidate_fact_id": "WCD10-B06-W003-F01",
+      "field": "first_publication_year",
+      "value": "1933",
+      "source_refs": [
+        "WCD10-B06-S001",
+        "WCD10-B06-S010",
+        "WCD10-B06-S011"
+      ]
+    },
+    {
+      "author_id": "V1-ENT-0172",
+      "entity_candidate_id": "WCD10-B06-W003",
+      "fact_index": 2,
+      "candidate_fact_id": "WCD10-B06-W003-F02",
+      "field": "genre_or_form",
+      "value": "小说（出版社称 pequeno romance；不据此细分篇幅类别）",
+      "source_refs": [
+        "WCD10-B06-S009"
+      ]
+    },
+    {
+      "author_id": "V1-ENT-0172",
+      "entity_candidate_id": "WCD10-B06-W003",
+      "fact_index": 3,
+      "candidate_fact_id": "WCD10-B06-W003-F03",
+      "field": "one_sentence_summary",
+      "value": "据出版社简介，小说由一名曾做过工厂工人的农场劳动者以第一人称叙述，写其在巴伊亚可可产区劳动并形成社会与政治意识的经历。",
+      "source_refs": [
+        "WCD10-B06-S009"
+      ]
+    },
+    {
+      "author_id": "V1-ENT-0172",
+      "entity_candidate_id": "WCD10-B06-W003",
+      "fact_index": 4,
+      "candidate_fact_id": "WCD10-B06-W003-F04",
+      "field": "research_note",
+      "value": "Matheus de Mesquita e Pontes将《Cacau》(1933)置于Amado早期“romances proletários”与阶级、地区、种族议题的出版脉络；Josiane Silva Calhau与Zulma Elizabete de Freitas Madruga则直接分析小说所写可可种植劳动者的实践知识及社会文化语境。以上为研究者归属明确的对象研究摘要，不把单一教学研究概括成作品唯一主题。",
+      "source_refs": [
+        "WCD10-B06-S010",
+        "WCD10-B06-S011"
+      ]
+    },
+    {
+      "author_id": "V1-ENT-0172",
+      "entity_candidate_id": "WCD10-B06-W004",
+      "fact_index": 1,
+      "candidate_fact_id": "WCD10-B06-W004-F01",
+      "field": "first_publication_year",
+      "value": "1931",
+      "source_refs": [
+        "WCD10-B06-S001",
+        "WCD10-B06-S014"
+      ]
+    },
+    {
+      "author_id": "V1-ENT-0172",
+      "entity_candidate_id": "WCD10-B06-W004",
+      "fact_index": 2,
+      "candidate_fact_id": "WCD10-B06-W004-F02",
+      "field": "genre_or_form",
+      "value": "长篇小说（romance）",
+      "source_refs": [
+        "WCD10-B06-S014"
+      ]
+    },
+    {
+      "author_id": "V1-ENT-0172",
+      "entity_candidate_id": "WCD10-B06-W004",
+      "fact_index": 3,
+      "candidate_fact_id": "WCD10-B06-W004-F03",
+      "field": "one_sentence_summary",
+      "value": "据出版社简介，青年农场主之子Paulo Rigger从巴黎返巴西后，先在里约、后在萨尔瓦多与诗人和记者交往，周围人物在爱情、金钱、政治、资产阶级生活与宗教中寻找人生意义。",
+      "source_refs": [
+        "WCD10-B06-S014"
+      ]
+    },
+    {
+      "author_id": "V1-ENT-0172",
+      "entity_candidate_id": "WCD10-B06-W005",
+      "fact_index": 1,
+      "candidate_fact_id": "WCD10-B06-W005-F01",
+      "field": "first_publication_year",
+      "value": "1984",
+      "source_refs": [
+        "WCD10-B06-S001",
+        "WCD10-B06-S013"
+      ]
+    },
+    {
+      "author_id": "V1-ENT-0172",
+      "entity_candidate_id": "WCD10-B06-W005",
+      "fact_index": 2,
+      "candidate_fact_id": "WCD10-B06-W005-F02",
+      "field": "genre_or_form",
+      "value": "长篇小说",
+      "source_refs": [
+        "WCD10-B06-S002"
+      ]
+    },
+    {
+      "author_id": "V1-ENT-0172",
+      "entity_candidate_id": "WCD10-B06-W005",
+      "fact_index": 3,
+      "candidate_fact_id": "WCD10-B06-W005-F03",
+      "field": "one_sentence_summary",
+      "value": "据出版社简介，小说写20世纪初一处因暴力伏击与土地争夺而兴起的村镇；Natário da Fonseca取得并经营土地，商贩、妓女、赶骡人和前奴隶等陆续聚居，形成聚落。",
+      "source_refs": [
+        "WCD10-B06-S013"
+      ]
+    },
+    {
+      "author_id": "V1-ENT-0172",
+      "entity_candidate_id": "WCD10-B06-W005",
+      "fact_index": 4,
+      "candidate_fact_id": "WCD10-B06-W005-F04",
+      "field": "bibliographic_note",
+      "value": "ABL书目列Tocaia Grande（1984），Companhia das Letras对象页直接写Publicado em 1984；BNDigital署名文章第54行则以将来式称作品将于1988出版。该差异保留作来源冲突记录，当前不推断其原因。",
+      "source_refs": [
+        "WCD10-B06-S001",
+        "WCD10-B06-S002",
+        "WCD10-B06-S013"
+      ]
+    },
+    {
+      "author_id": "V1-ENT-0184",
+      "entity_candidate_id": "WCD10-B06-W101",
+      "fact_index": 1,
+      "candidate_fact_id": "WCD10-B06-W101-F01",
+      "field": "first_publication_year",
+      "value": "1939",
+      "source_refs": [
+        "WCD10-B06-S101"
+      ]
+    },
+    {
+      "author_id": "V1-ENT-0184",
+      "entity_candidate_id": "WCD10-B06-W101",
+      "fact_index": 2,
+      "candidate_fact_id": "WCD10-B06-W101-F02",
+      "field": "genre_or_form",
+      "value": "中篇小说（novela corta）",
+      "source_refs": [
+        "WCD10-B06-S101",
+        "WCD10-B06-S104"
+      ]
+    },
+    {
+      "author_id": "V1-ENT-0184",
+      "entity_candidate_id": "WCD10-B06-W101",
+      "fact_index": 3,
+      "candidate_fact_id": "WCD10-B06-W101-F03",
+      "field": "one_sentence_summary",
+      "value": "Linacero在独处中借回忆、梦境与想象组织自己的内在故事，以此应对现实处境带来的倦怠。",
+      "source_refs": [
+        "WCD10-B06-S103",
+        "WCD10-B06-S104"
+      ]
+    },
+    {
+      "author_id": "V1-ENT-0184",
+      "entity_candidate_id": "WCD10-B06-W102",
+      "fact_index": 1,
+      "candidate_fact_id": "WCD10-B06-W102-F01",
+      "field": "first_publication_year",
+      "value": "1964",
+      "source_refs": [
+        "WCD10-B06-S101",
+        "WCD10-B06-S106"
+      ]
+    },
+    {
+      "author_id": "V1-ENT-0184",
+      "entity_candidate_id": "WCD10-B06-W102",
+      "fact_index": 2,
+      "candidate_fact_id": "WCD10-B06-W102-F02",
+      "field": "genre_or_form",
+      "value": "小说",
+      "source_refs": [
+        "WCD10-B06-S101",
+        "WCD10-B06-S106"
+      ]
+    },
+    {
+      "author_id": "V1-ENT-0184",
+      "entity_candidate_id": "WCD10-B06-W102",
+      "fact_index": 3,
+      "candidate_fact_id": "WCD10-B06-W102-F03",
+      "field": "one_sentence_summary",
+      "value": "拉森带着三名妓女乘火车抵达圣玛丽亚，获准在那里开设妓院；妓院依法关闭后，他与同伴离开。",
+      "source_refs": [
+        "WCD10-B06-S106"
+      ]
+    },
+    {
+      "author_id": "V1-ENT-0184",
+      "entity_candidate_id": "WCD10-B06-W102",
+      "fact_index": 4,
+      "candidate_fact_id": "WCD10-B06-W102-F04",
+      "field": "research_note",
+      "value": "Rodrigo Cánovas认为，小说把空间安排与人物功能组织成万花筒式结构，使看似对立的地点和人物彼此等同或映照。",
+      "source_refs": [
+        "WCD10-B06-S106"
+      ]
+    },
+    {
+      "author_id": "V1-ENT-0184",
+      "entity_candidate_id": "WCD10-B06-W103",
+      "fact_index": 1,
+      "candidate_fact_id": "WCD10-B06-W103-F01",
+      "field": "first_publication_year",
+      "value": "1979",
+      "source_refs": [
+        "WCD10-B06-S101"
+      ]
+    },
+    {
+      "author_id": "V1-ENT-0184",
+      "entity_candidate_id": "WCD10-B06-W103",
+      "fact_index": 2,
+      "candidate_fact_id": "WCD10-B06-W103-F02",
+      "field": "genre_or_form",
+      "value": "小说",
+      "source_refs": [
+        "WCD10-B06-S109"
+      ]
+    },
+    {
+      "author_id": "V1-ENT-0184",
+      "entity_candidate_id": "WCD10-B06-W103",
+      "fact_index": 3,
+      "candidate_fact_id": "WCD10-B06-W103-F03",
+      "field": "one_sentence_summary",
+      "value": "警长Medina返回Santa María，试图与可能是其儿子的Julián重建关系并使他脱离Frieda的影响；结尾由Colorado在Medina、Díaz Grey等人的配合下纵火，Santa María陷入火焰。",
+      "source_refs": [
+        "WCD10-B06-S109",
+        "WCD10-B06-S110"
+      ]
+    },
+    {
+      "author_id": "V1-ENT-0184",
+      "entity_candidate_id": "WCD10-B06-W103",
+      "fact_index": 4,
+      "candidate_fact_id": "WCD10-B06-W103-F04",
+      "field": "research_note",
+      "value": "Hugo J. Verani将《Dejemos hablar al viento》视为Santa María系列的收束，并指出作品吸收、改写奥内蒂先前叙事，形成互文结构。",
+      "source_refs": [
+        "WCD10-B06-S109"
+      ]
+    },
+    {
+      "author_id": "V1-ENT-0185",
+      "entity_candidate_id": "WCD10-B06-W201",
+      "fact_index": 1,
+      "candidate_fact_id": "WCD10-B06-W201-F01",
+      "field": "first_publication_year",
+      "value": "1955",
+      "source_refs": [
+        "WCD10-B06-S201",
+        "WCD10-B06-S205",
+        "WCD10-B06-S206"
+      ]
+    },
+    {
+      "author_id": "V1-ENT-0185",
+      "entity_candidate_id": "WCD10-B06-W201",
+      "fact_index": 2,
+      "candidate_fact_id": "WCD10-B06-W201-F02",
+      "field": "genre_or_form",
+      "value": "短篇小说集（七则故事）",
+      "source_refs": [
+        "WCD10-B06-S205"
+      ]
+    },
+    {
+      "author_id": "V1-ENT-0185",
+      "entity_candidate_id": "WCD10-B06-W201",
+      "fact_index": 3,
+      "candidate_fact_id": "WCD10-B06-W201-F03",
+      "field": "one_sentence_summary",
+      "value": "Memoria Chilena的《Veraneo y otros cuentos》作品页列出《Veraneo》《Tocayos》《El Güero》《Una señora》《Fiesta en grande》《Dos cartas》和《Dinamanquero》七篇故事。",
+      "source_refs": [
+        "WCD10-B06-S205",
+        "WCD10-B06-S201"
+      ]
+    },
+    {
+      "author_id": "V1-ENT-0185",
+      "entity_candidate_id": "WCD10-B06-W201",
+      "fact_index": 4,
+      "candidate_fact_id": "WCD10-B06-W201-F04",
+      "field": "bibliographic_note",
+      "value": "作者档案称1955年为其首部故事集；国家图书馆馆藏记录《Veraneo y otros cuentos》1955年、115页，但该条目没有“1a edición”标记。Balcells英文作品页年份栏列1951、正文却称首部故事集于1955年出版，差异照录待审。",
+      "source_refs": [
+        "WCD10-B06-S206",
+        "WCD10-B06-S207"
+      ]
+    },
+    {
+      "author_id": "V1-ENT-0185",
+      "entity_candidate_id": "WCD10-B06-W202",
+      "fact_index": 1,
+      "candidate_fact_id": "WCD10-B06-W202-F01",
+      "field": "first_publication_year",
+      "value": "1966",
+      "source_refs": [
+        "WCD10-B06-S201"
+      ]
+    },
+    {
+      "author_id": "V1-ENT-0185",
+      "entity_candidate_id": "WCD10-B06-W202",
+      "fact_index": 2,
+      "candidate_fact_id": "WCD10-B06-W202-F02",
+      "field": "genre_or_form",
+      "value": "小说",
+      "source_refs": [
+        "WCD10-B06-S208",
+        "WCD10-B06-S224"
+      ]
+    },
+    {
+      "author_id": "V1-ENT-0185",
+      "entity_candidate_id": "WCD10-B06-W202",
+      "fact_index": 3,
+      "candidate_fact_id": "WCD10-B06-W202-F03",
+      "field": "one_sentence_summary",
+      "value": "Violeta常在雇主夫妇周日外出时与青年Álvaro相处；Álvaro与Chepa的婚姻及婚外关系也在孤独与沟通隔阂中展开。",
+      "source_refs": [
+        "WCD10-B06-S224"
+      ]
+    },
+    {
+      "author_id": "V1-ENT-0185",
+      "entity_candidate_id": "WCD10-B06-W203",
+      "fact_index": 1,
+      "candidate_fact_id": "WCD10-B06-W203-F01",
+      "field": "first_publication_year",
+      "value": "1973",
+      "source_refs": [
+        "WCD10-B06-S201",
+        "WCD10-B06-S209"
+      ]
+    },
+    {
+      "author_id": "V1-ENT-0185",
+      "entity_candidate_id": "WCD10-B06-W203",
+      "fact_index": 2,
+      "candidate_fact_id": "WCD10-B06-W203-F02",
+      "field": "genre_or_form",
+      "value": "中篇小说集（三部中篇小说）",
+      "source_refs": [
+        "WCD10-B06-S209"
+      ]
+    },
+    {
+      "author_id": "V1-ENT-0185",
+      "entity_candidate_id": "WCD10-B06-W203",
+      "fact_index": 3,
+      "candidate_fact_id": "WCD10-B06-W203-F03",
+      "field": "one_sentence_summary",
+      "value": "该书卷由三部中篇小说组成，叙事从现实主义渐向梦幻与怪诞；作品页称三部叙事围绕欧洲富裕专业人士的日常生活展开。",
+      "source_refs": [
+        "WCD10-B06-S209"
+      ]
+    },
+    {
+      "author_id": "V1-ENT-0185",
+      "entity_candidate_id": "WCD10-B06-W204",
+      "fact_index": 1,
+      "candidate_fact_id": "WCD10-B06-W204-F01",
+      "field": "first_publication_year",
+      "value": "1978",
+      "source_refs": [
+        "WCD10-B06-S211",
+        "WCD10-B06-S210"
+      ]
+    },
+    {
+      "author_id": "V1-ENT-0185",
+      "entity_candidate_id": "WCD10-B06-W204",
+      "fact_index": 2,
+      "candidate_fact_id": "WCD10-B06-W204-F02",
+      "field": "genre_or_form",
+      "value": "小说",
+      "source_refs": [
+        "WCD10-B06-S210"
+      ]
+    },
+    {
+      "author_id": "V1-ENT-0185",
+      "entity_candidate_id": "WCD10-B06-W204",
+      "fact_index": 3,
+      "candidate_fact_id": "WCD10-B06-W204-F03",
+      "field": "one_sentence_summary",
+      "value": "Ventura家族带着配偶和三十五名子女在远离文明的庄园度夏；父母安排成人野餐并把孩子留在宅邸，孩子们在宅院、广原和外部威胁之间展开自己的行动。",
+      "source_refs": [
+        "WCD10-B06-S217",
+        "WCD10-B06-S210"
+      ]
+    },
+    {
+      "author_id": "V1-ENT-0185",
+      "entity_candidate_id": "WCD10-B06-W204",
+      "fact_index": 4,
+      "candidate_fact_id": "WCD10-B06-W204-F04",
+      "field": "bibliographic_note",
+      "value": "国家图书馆Casa de campo目录对象明确标“1a. edición. Barcelona: Seix Barral, 1978, 498 páginas”；作品页亦称1978出版并另记1979年获奖。Balcells作品页单独将作品列为1979，未解释字段。两项日期保留；首版候选基于明确第一版目录，不将获奖年与出版年混同。",
+      "source_refs": [
+        "WCD10-B06-S211",
+        "WCD10-B06-S210",
+        "WCD10-B06-S217"
+      ]
+    },
+    {
+      "author_id": "V1-ENT-0185",
+      "entity_candidate_id": "WCD10-B06-W205",
+      "fact_index": 1,
+      "candidate_fact_id": "WCD10-B06-W205-F01",
+      "field": "first_publication_year",
+      "value": "1981",
+      "source_refs": [
+        "WCD10-B06-S201",
+        "WCD10-B06-S212",
+        "WCD10-B06-S216"
+      ]
+    },
+    {
+      "author_id": "V1-ENT-0185",
+      "entity_candidate_id": "WCD10-B06-W205",
+      "fact_index": 2,
+      "candidate_fact_id": "WCD10-B06-W205-F02",
+      "field": "genre_or_form",
+      "value": "小说",
+      "source_refs": [
+        "WCD10-B06-S212",
+        "WCD10-B06-S216"
+      ]
+    },
+    {
+      "author_id": "V1-ENT-0185",
+      "entity_candidate_id": "WCD10-B06-W205",
+      "fact_index": 3,
+      "candidate_fact_id": "WCD10-B06-W205-F03",
+      "field": "one_sentence_summary",
+      "value": "流亡西班牙的智利小说家Julio Méndez渴望获得文学成功，却在创作受挫与接受自身局限之间挣扎；经纪人Núria Monclús和作家Marcelo Chiriboga也牵动他的处境。",
+      "source_refs": [
+        "WCD10-B06-S236",
+        "WCD10-B06-S212"
+      ]
+    },
+    {
+      "author_id": "V1-ENT-0185",
+      "entity_candidate_id": "WCD10-B06-W205",
+      "fact_index": 4,
+      "candidate_fact_id": "WCD10-B06-W205-F04",
+      "field": "research_note",
+      "value": "研究者Nadine Dejong将《El jardín de al lado》视为《Historia personal del «boom»》的小说化版本，并分析小说家Julio如何经由对Boom圈子的观察呈现其挫败与排斥感。",
+      "source_refs": [
+        "WCD10-B06-S216"
+      ]
+    },
+    {
+      "author_id": "V1-ENT-0185",
+      "entity_candidate_id": "WCD10-B06-W206",
+      "fact_index": 1,
+      "candidate_fact_id": "WCD10-B06-W206-F01",
+      "field": "first_publication_year",
+      "value": "1981",
+      "source_refs": [
+        "WCD10-B06-S201",
+        "WCD10-B06-S213"
+      ]
+    },
+    {
+      "author_id": "V1-ENT-0185",
+      "entity_candidate_id": "WCD10-B06-W206",
+      "fact_index": 2,
+      "candidate_fact_id": "WCD10-B06-W206-F02",
+      "field": "genre_or_form",
+      "value": "诗集（约三十首诗）",
+      "source_refs": [
+        "WCD10-B06-S213"
+      ]
+    },
+    {
+      "author_id": "V1-ENT-0185",
+      "entity_candidate_id": "WCD10-B06-W206",
+      "fact_index": 3,
+      "candidate_fact_id": "WCD10-B06-W206-F03",
+      "field": "one_sentence_summary",
+      "value": "Memoria Chilena称该书为多诺索唯一的诗歌类作品，约收三十首诗，并按四个章节组织；目录同时列有写于1952年的三首诗，不能把全部诗作写作年概括为单一时期。",
+      "source_refs": [
+        "WCD10-B06-S213"
+      ]
+    },
+    {
+      "author_id": "V1-ENT-0185",
+      "entity_candidate_id": "WCD10-B06-W207",
+      "fact_index": 1,
+      "candidate_fact_id": "WCD10-B06-W207-F01",
+      "field": "first_publication_year",
+      "value": "1986",
+      "source_refs": [
+        "WCD10-B06-S201",
+        "WCD10-B06-S214"
+      ]
+    },
+    {
+      "author_id": "V1-ENT-0185",
+      "entity_candidate_id": "WCD10-B06-W207",
+      "fact_index": 2,
+      "candidate_fact_id": "WCD10-B06-W207-F02",
+      "field": "genre_or_form",
+      "value": "小说",
+      "source_refs": [
+        "WCD10-B06-S214"
+      ]
+    },
+    {
+      "author_id": "V1-ENT-0185",
+      "entity_candidate_id": "WCD10-B06-W207",
+      "fact_index": 3,
+      "candidate_fact_id": "WCD10-B06-W207-F03",
+      "field": "one_sentence_summary",
+      "value": "据Memoria Chilena引述的作者访谈，小说从Matilde Neruda醒来写起，随后跟随一对伴侣在Santiago的一次出行，并在Matilde葬礼收束；来源称全书时间跨度约八小时。",
+      "source_refs": [
+        "WCD10-B06-S214"
+      ]
+    },
+    {
+      "author_id": "V1-ENT-0185",
+      "entity_candidate_id": "WCD10-B06-W208",
+      "fact_index": 1,
+      "candidate_fact_id": "WCD10-B06-W208-F01",
+      "field": "first_publication_year",
+      "value": "1995",
+      "source_refs": [
+        "WCD10-B06-S201",
+        "WCD10-B06-S216"
+      ]
+    },
+    {
+      "author_id": "V1-ENT-0185",
+      "entity_candidate_id": "WCD10-B06-W208",
+      "fact_index": 2,
+      "candidate_fact_id": "WCD10-B06-W208-F02",
+      "field": "genre_or_form",
+      "value": "小说",
+      "source_refs": [
+        "WCD10-B06-S215",
+        "WCD10-B06-S216"
+      ]
+    },
+    {
+      "author_id": "V1-ENT-0185",
+      "entity_candidate_id": "WCD10-B06-W208",
+      "fact_index": 3,
+      "candidate_fact_id": "WCD10-B06-W208-F03",
+      "field": "one_sentence_summary",
+      "value": "智利文学教授Gustavo Zuleta到美国一所小型大学任教，在妻儿抵达前经历学术圈的嫉妒、权力争斗、性关系与一起造成多人遇害的谋杀案；Ruby进入他的生活。",
+      "source_refs": [
+        "WCD10-B06-S235",
+        "WCD10-B06-S215"
+      ]
+    },
+    {
+      "author_id": "V1-ENT-0185",
+      "entity_candidate_id": "WCD10-B06-W208",
+      "fact_index": 4,
+      "candidate_fact_id": "WCD10-B06-W208-F04",
+      "field": "research_note",
+      "value": "Dejong将《Donde van a morir los elefantes》称作《El jardín de al lado》的续篇，并比较Marcelo Chiriboga在两书中从“Boom代表性名字”到更具体人物的变化。此为该论文对两部作品的研究归属，不建立作品关系候选。",
+      "source_refs": [
+        "WCD10-B06-S216"
+      ]
+    },
+    {
+      "author_id": "V1-ENT-0185",
+      "entity_candidate_id": "WCD10-B06-W209",
+      "fact_index": 1,
+      "candidate_fact_id": "WCD10-B06-W209-F01",
+      "field": "first_publication_year",
+      "value": "1996",
+      "source_refs": [
+        "WCD10-B06-S201",
+        "WCD10-B06-S215"
+      ]
+    },
+    {
+      "author_id": "V1-ENT-0185",
+      "entity_candidate_id": "WCD10-B06-W209",
+      "fact_index": 2,
+      "candidate_fact_id": "WCD10-B06-W209-F02",
+      "field": "genre_or_form",
+      "value": "家族回忆/自传性叙事作品（具体体裁仍待作品专门研究）",
+      "source_refs": [
+        "WCD10-B06-S215"
+      ]
+    },
+    {
+      "author_id": "V1-ENT-0185",
+      "entity_candidate_id": "WCD10-B06-W209",
+      "fact_index": 3,
+      "candidate_fact_id": "WCD10-B06-W209-F03",
+      "field": "one_sentence_summary",
+      "value": "作者以小说化方式叙写家族史和祖先记忆。",
+      "source_refs": [
+        "WCD10-B06-S215"
+      ]
+    },
+    {
+      "author_id": "V1-ENT-0185",
+      "entity_candidate_id": "WCD10-B06-W210",
+      "fact_index": 1,
+      "candidate_fact_id": "WCD10-B06-W210-F01",
+      "field": "first_publication_year",
+      "value": "1972",
+      "source_refs": [
+        "WCD10-B06-S216"
+      ]
+    },
+    {
+      "author_id": "V1-ENT-0185",
+      "entity_candidate_id": "WCD10-B06-W210",
+      "fact_index": 2,
+      "candidate_fact_id": "WCD10-B06-W210-F02",
+      "field": "genre_or_form",
+      "value": "自传性文学随笔（兼具文学史论述与传记性纪事）",
+      "source_refs": [
+        "WCD10-B06-S216"
+      ]
+    },
+    {
+      "author_id": "V1-ENT-0185",
+      "entity_candidate_id": "WCD10-B06-W210",
+      "fact_index": 3,
+      "candidate_fact_id": "WCD10-B06-W210-F03",
+      "field": "one_sentence_summary",
+      "value": "这部自传性文学随笔回顾拉美文学Boom，并在文学史论述与作者个人文学经历之间展开。",
+      "source_refs": [
+        "WCD10-B06-S216"
+      ]
+    },
+    {
+      "author_id": "V1-ENT-0185",
+      "entity_candidate_id": "WCD10-B06-W210",
+      "fact_index": 4,
+      "candidate_fact_id": "WCD10-B06-W210-F04",
+      "field": "bibliographic_note",
+      "value": "Dejong记载《Historia personal del «boom»》1972年首次出版；1983重版增补Donoso的附录《Diez años después》。1972为作品初版候选，1983为增补重版，不另列为第二部作品。",
+      "source_refs": [
+        "WCD10-B06-S216"
+      ]
+    },
+    {
+      "author_id": "V1-ENT-0185",
+      "entity_candidate_id": "WCD10-B06-W211",
+      "fact_index": 1,
+      "candidate_fact_id": "WCD10-B06-W211-F01",
+      "field": "first_publication_year",
+      "value": "1980",
+      "source_refs": [
+        "WCD10-B06-S201",
+        "WCD10-B06-S218"
+      ]
+    },
+    {
+      "author_id": "V1-ENT-0185",
+      "entity_candidate_id": "WCD10-B06-W211",
+      "fact_index": 2,
+      "candidate_fact_id": "WCD10-B06-W211-F02",
+      "field": "genre_or_form",
+      "value": "小说",
+      "source_refs": [
+        "WCD10-B06-S218"
+      ]
+    },
+    {
+      "author_id": "V1-ENT-0185",
+      "entity_candidate_id": "WCD10-B06-W211",
+      "fact_index": 3,
+      "candidate_fact_id": "WCD10-B06-W211-F03",
+      "field": "one_sentence_summary",
+      "value": "年轻寡妇Marquesita在1920年代马德里游走，在丧偶后的自由中经历诱惑与感官生活。",
+      "source_refs": [
+        "WCD10-B06-S218"
+      ]
+    },
+    {
+      "author_id": "V1-ENT-0185",
+      "entity_candidate_id": "WCD10-B06-W213",
+      "fact_index": 1,
+      "candidate_fact_id": "WCD10-B06-W213-F01",
+      "field": "first_publication_year",
+      "value": "1990",
+      "source_refs": [
+        "WCD10-B06-S215",
+        "WCD10-B06-S220",
+        "WCD10-B06-S234"
+      ]
+    },
+    {
+      "author_id": "V1-ENT-0185",
+      "entity_candidate_id": "WCD10-B06-W213",
+      "fact_index": 2,
+      "candidate_fact_id": "WCD10-B06-W213-F02",
+      "field": "genre_or_form",
+      "value": "两部小说合卷（collection）",
+      "source_refs": [
+        "WCD10-B06-S220"
+      ]
+    },
+    {
+      "author_id": "V1-ENT-0185",
+      "entity_candidate_id": "WCD10-B06-W213",
+      "fact_index": 3,
+      "candidate_fact_id": "WCD10-B06-W213-F03",
+      "field": "one_sentence_summary",
+      "value": "《Taratuta》以马德里和布宜诺斯艾利斯为背景，写到逃离十月革命的俄国人及列宁；《Naturaleza muerta con cachimba》则以一处衰败海滨度假地为背景，描写沉浸在梦想中的小人物。",
+      "source_refs": [
+        "WCD10-B06-S220"
+      ]
+    },
+    {
+      "author_id": "V1-ENT-0185",
+      "entity_candidate_id": "WCD10-B06-W214",
+      "fact_index": 1,
+      "candidate_fact_id": "WCD10-B06-W214-F01",
+      "field": "first_publication_year",
+      "value": "1997",
+      "source_refs": [
+        "WCD10-B06-S201",
+        "WCD10-B06-S225",
+        "WCD10-B06-S234"
+      ]
+    },
+    {
+      "author_id": "V1-ENT-0185",
+      "entity_candidate_id": "WCD10-B06-W214",
+      "fact_index": 2,
+      "candidate_fact_id": "WCD10-B06-W214-F02",
+      "field": "genre_or_form",
+      "value": "小说",
+      "source_refs": [
+        "WCD10-B06-S225"
+      ]
+    },
+    {
+      "author_id": "V1-ENT-0185",
+      "entity_candidate_id": "WCD10-B06-W214",
+      "fact_index": 3,
+      "candidate_fact_id": "WCD10-B06-W214-F03",
+      "field": "one_sentence_summary",
+      "value": "故事置于煤矿与军政府背景之下，并以妓院和马戏团作为日常生活的另一组场景；作者未及见书出版。",
+      "source_refs": [
+        "WCD10-B06-S225"
+      ]
+    },
+    {
+      "author_id": "V1-ENT-0185",
+      "entity_candidate_id": "WCD10-B06-W214",
+      "fact_index": 4,
+      "candidate_fact_id": "WCD10-B06-W214-F04",
+      "field": "bibliographic_note",
+      "value": "国家图书馆书目记录Aguilar Chilena 1997年版；对象页也列1997，并说明作者未及见出版。",
+      "source_refs": [
+        "WCD10-B06-S225",
+        "WCD10-B06-S234"
+      ]
+    },
+    {
+      "author_id": "V1-ENT-0185",
+      "entity_candidate_id": "WCD10-B06-W215",
+      "fact_index": 1,
+      "candidate_fact_id": "WCD10-B06-W215-F01",
+      "field": "first_publication_year",
+      "value": "2007",
+      "source_refs": [
+        "WCD10-B06-S201",
+        "WCD10-B06-S226"
+      ]
+    },
+    {
+      "author_id": "V1-ENT-0185",
+      "entity_candidate_id": "WCD10-B06-W215",
+      "fact_index": 2,
+      "candidate_fact_id": "WCD10-B06-W215-F02",
+      "field": "genre_or_form",
+      "value": "小说",
+      "source_refs": [
+        "WCD10-B06-S226"
+      ]
+    },
+    {
+      "author_id": "V1-ENT-0185",
+      "entity_candidate_id": "WCD10-B06-W215",
+      "fact_index": 3,
+      "candidate_fact_id": "WCD10-B06-W215-F03",
+      "field": "one_sentence_summary",
+      "value": "画家Armando Muñoz-Roa与Luisa离开巴塞罗那后，回想他曾试图拯救的Dors小镇及家族衰落。",
+      "source_refs": [
+        "WCD10-B06-S226"
+      ]
+    },
+    {
+      "author_id": "V1-ENT-0185",
+      "entity_candidate_id": "WCD10-B06-W215",
+      "fact_index": 4,
+      "candidate_fact_id": "WCD10-B06-W215-F04",
+      "field": "bibliographic_note",
+      "value": "作品页称Donoso于1973年开始写作后搁置稿件，2007年出版；创作开始年份与出版年份不合并。",
+      "source_refs": [
+        "WCD10-B06-S226"
+      ]
+    },
+    {
+      "author_id": "V1-ENT-0185",
+      "entity_candidate_id": "WCD10-B06-W216",
+      "fact_index": 1,
+      "candidate_fact_id": "WCD10-B06-W216-F01",
+      "field": "first_publication_year",
+      "value": "1960",
+      "source_refs": [
+        "WCD10-B06-S228",
+        "WCD10-B06-S234"
+      ]
+    },
+    {
+      "author_id": "V1-ENT-0185",
+      "entity_candidate_id": "WCD10-B06-W216",
+      "fact_index": 2,
+      "candidate_fact_id": "WCD10-B06-W216-F02",
+      "field": "genre_or_form",
+      "value": "短篇小说集（六篇）",
+      "source_refs": [
+        "WCD10-B06-S228"
+      ]
+    },
+    {
+      "author_id": "V1-ENT-0185",
+      "entity_candidate_id": "WCD10-B06-W216",
+      "fact_index": 3,
+      "candidate_fact_id": "WCD10-B06-W216-F03",
+      "field": "one_sentence_summary",
+      "value": "该卷收录《El hombrecito》《Ana María》《El charlestón》《La puerta cerrada》《Paseo》和《Santelices》六篇短篇。",
+      "source_refs": [
+        "WCD10-B06-S228"
+      ]
+    },
+    {
+      "author_id": "V1-ENT-0185",
+      "entity_candidate_id": "WCD10-B06-W217",
+      "fact_index": 1,
+      "candidate_fact_id": "WCD10-B06-W217-F01",
+      "field": "first_publication_year",
+      "value": "1996",
+      "source_refs": [
+        "WCD10-B06-S229",
+        "WCD10-B06-S230"
+      ]
+    },
+    {
+      "author_id": "V1-ENT-0185",
+      "entity_candidate_id": "WCD10-B06-W217",
+      "fact_index": 2,
+      "candidate_fact_id": "WCD10-B06-W217-F02",
+      "field": "genre_or_form",
+      "value": "九部中篇小说的合辑（collection）",
+      "source_refs": [
+        "WCD10-B06-S230"
+      ]
+    },
+    {
+      "author_id": "V1-ENT-0185",
+      "entity_candidate_id": "WCD10-B06-W217",
+      "fact_index": 3,
+      "candidate_fact_id": "WCD10-B06-W217-F03",
+      "field": "one_sentence_summary",
+      "value": "该合辑重收九部此前分见三个独立书卷的中篇小说，包括《Tres novelitas burguesas》《Cuatro para Delfina》及Taratuta卷中的两部小说。",
+      "source_refs": [
+        "WCD10-B06-S230"
+      ]
+    },
+    {
+      "author_id": "V1-ENT-0185",
+      "entity_candidate_id": "WCD10-B06-W217",
+      "fact_index": 4,
+      "candidate_fact_id": "WCD10-B06-W217-F04",
+      "field": "bibliographic_note",
+      "value": "国家图书馆目录将1996年记录标为1a edición；Google Books同页版次元数据却标reprint。两个记录保留，未经独立审读不裁定字段差异。",
+      "source_refs": [
+        "WCD10-B06-S229",
+        "WCD10-B06-S230"
+      ]
+    },
+    {
+      "author_id": "V1-ENT-0185",
+      "entity_candidate_id": "WCD10-B06-W218",
+      "fact_index": 1,
+      "candidate_fact_id": "WCD10-B06-W218-F01",
+      "field": "first_publication_year",
+      "value": "1956",
+      "source_refs": [
+        "WCD10-B06-S231",
+        "WCD10-B06-S234",
+        "WCD10-B06-S205"
+      ]
+    },
+    {
+      "author_id": "V1-ENT-0185",
+      "entity_candidate_id": "WCD10-B06-W218",
+      "fact_index": 2,
+      "candidate_fact_id": "WCD10-B06-W218-F02",
+      "field": "genre_or_form",
+      "value": "短篇小说及版画合集（collection）",
+      "source_refs": [
+        "WCD10-B06-S231"
+      ]
+    },
+    {
+      "author_id": "V1-ENT-0185",
+      "entity_candidate_id": "WCD10-B06-W218",
+      "fact_index": 3,
+      "candidate_fact_id": "WCD10-B06-W218-F03",
+      "field": "one_sentence_summary",
+      "value": "这册45页、500册的限量卷收录《El hombrecito》和《Ana María》两篇故事，并配有Nemesio Antúnez三幅版画。",
+      "source_refs": [
+        "WCD10-B06-S231"
+      ]
+    },
+    {
+      "author_id": "V1-ENT-0185",
+      "entity_candidate_id": "WCD10-B06-W219",
+      "fact_index": 1,
+      "candidate_fact_id": "WCD10-B06-W219-F01",
+      "field": "first_publication_year",
+      "value": "1998",
+      "source_refs": [
+        "WCD10-B06-S232",
+        "WCD10-B06-S234"
+      ]
+    },
+    {
+      "author_id": "V1-ENT-0185",
+      "entity_candidate_id": "WCD10-B06-W219",
+      "fact_index": 2,
+      "candidate_fact_id": "WCD10-B06-W219-F02",
+      "field": "genre_or_form",
+      "value": "新闻文章、纪事选集（collection）",
+      "source_refs": [
+        "WCD10-B06-S232"
+      ]
+    },
+    {
+      "author_id": "V1-ENT-0185",
+      "entity_candidate_id": "WCD10-B06-W219",
+      "fact_index": 3,
+      "candidate_fact_id": "WCD10-B06-W219-F03",
+      "field": "one_sentence_summary",
+      "value": "本卷选收作者自1960年起的新闻作品，包括文章与纪事，由Cecilia García Huidobro按主题编排。",
+      "source_refs": [
+        "WCD10-B06-S232"
+      ]
+    },
+    {
+      "author_id": "V1-ENT-0185",
+      "entity_candidate_id": "WCD10-B06-W220",
+      "fact_index": 1,
+      "candidate_fact_id": "WCD10-B06-W220-F01",
+      "field": "first_publication_year",
+      "value": "2004",
+      "source_refs": [
+        "WCD10-B06-S233"
+      ]
+    },
+    {
+      "author_id": "V1-ENT-0185",
+      "entity_candidate_id": "WCD10-B06-W220",
+      "fact_index": 2,
+      "candidate_fact_id": "WCD10-B06-W220-F02",
+      "field": "genre_or_form",
+      "value": "文章、纪事与访谈合集（collection）",
+      "source_refs": [
+        "WCD10-B06-S233"
+      ]
+    },
+    {
+      "author_id": "V1-ENT-0185",
+      "entity_candidate_id": "WCD10-B06-W220",
+      "fact_index": 3,
+      "candidate_fact_id": "WCD10-B06-W220-F03",
+      "field": "one_sentence_summary",
+      "value": "本卷收录Donoso 1960年代初的新闻文章、纪事与采访，涉及其观察环境、人群、文学和社会生活的文字。",
+      "source_refs": [
+        "WCD10-B06-S233"
+      ]
+    },
+    {
+      "author_id": "V1-ENT-0185",
+      "entity_candidate_id": "WCD10-B06-W221",
+      "fact_index": 1,
+      "candidate_fact_id": "WCD10-B06-W221-F01",
+      "field": "first_publication_year",
+      "value": "1966",
+      "source_refs": [
+        "WCD10-B06-S234"
+      ]
+    },
+    {
+      "author_id": "V1-ENT-0185",
+      "entity_candidate_id": "WCD10-B06-W221",
+      "fact_index": 2,
+      "candidate_fact_id": "WCD10-B06-W221-F02",
+      "field": "genre_or_form",
+      "value": "短篇小说选集（collection）",
+      "source_refs": [
+        "WCD10-B06-S234"
+      ]
+    },
+    {
+      "author_id": "V1-ENT-0185",
+      "entity_candidate_id": "WCD10-B06-W221",
+      "fact_index": 3,
+      "candidate_fact_id": "WCD10-B06-W221-F03",
+      "field": "one_sentence_summary",
+      "value": "国家图书馆目录记录的Donoso短篇选集，由Zig-Zag于1966年在圣地亚哥出版，192页。",
+      "source_refs": [
+        "WCD10-B06-S234"
+      ]
+    },
+    {
+      "author_id": "V1-ENT-0185",
+      "entity_candidate_id": "WCD10-B06-W221",
+      "fact_index": 4,
+      "candidate_fact_id": "WCD10-B06-W221-F04",
+      "field": "bibliographic_note",
+      "value": "国家图书馆目录另列《Cuentos》Seix Barral, c1971, 284页；Balcells作品页将Cuentos列1970并称其距“原始出版”约三十年。Cuentos与本题名间的重编/复版关系、日期含义及独立合集层级未由直接对象证据裁定，保持待审。",
+      "source_refs": [
+        "WCD10-B06-S234",
+        "WCD10-B06-S227"
+      ]
+    }
+  ],
+  "existing_fact_id_mapping": [
+    {
+      "author_id": "V1-ENT-0172",
+      "candidate_fact_id": "WCD10-B06-F001",
+      "subject_id": "V1-ENT-0179",
+      "field": "genre_or_form",
+      "value": "长篇小说",
+      "source_refs": [
+        "WCD10-B06-S007"
+      ]
+    },
+    {
+      "author_id": "V1-ENT-0172",
+      "candidate_fact_id": "WCD10-B06-F002",
+      "subject_id": "V1-ENT-0179",
+      "field": "one_sentence_summary",
+      "value": "据出版社简介，Flor在Vadinho去世后与药剂师Teodoro再婚；第一任丈夫以鬼魂形态回返，使她重新面对激情与安稳并存的可能。",
+      "source_refs": [
+        "WCD10-B06-S007"
+      ]
+    },
+    {
+      "author_id": "V1-ENT-0172",
+      "candidate_fact_id": "WCD10-B06-F003",
+      "subject_id": "V1-ENT-0180",
+      "field": "genre_or_form",
+      "value": "长篇小说",
+      "source_refs": [
+        "WCD10-B06-S008"
+      ]
+    },
+    {
+      "author_id": "V1-ENT-0172",
+      "candidate_fact_id": "WCD10-B06-F004",
+      "subject_id": "V1-ENT-0180",
+      "field": "one_sentence_summary",
+      "value": "据出版社简介，小说以20世纪20年代伊列乌斯的可可经济扩张为背景，写叙利亚裔纳西布与加布里埃拉的爱情，以及当地现代化与女性通奸惩罚法律之间的冲突。",
+      "source_refs": [
+        "WCD10-B06-S008"
+      ]
+    },
+    {
+      "author_id": "V1-ENT-0172",
+      "candidate_fact_id": "WCD10-B06-F005",
+      "subject_id": "V1-ENT-0181",
+      "field": "genre_or_form",
+      "value": "长篇小说",
+      "source_refs": [
+        "WCD10-B06-S006"
+      ]
+    },
+    {
+      "author_id": "V1-ENT-0172",
+      "candidate_fact_id": "WCD10-B06-F006",
+      "subject_id": "V1-ENT-0181",
+      "field": "one_sentence_summary",
+      "value": "据出版社简介，作品写一群住在萨尔瓦多废弃码头仓库的贫困少年，他们在社会边缘生活；叙事借Pedro Bala、Pirulito、Sem-Pernas等人物展现各自处境与愿望。",
+      "source_refs": [
+        "WCD10-B06-S006"
+      ]
+    },
+    {
+      "author_id": "V1-ENT-0184",
+      "candidate_fact_id": "WCD10-B06-F101",
+      "subject_id": "V1-ENT-0187",
+      "field": "genre_or_form",
+      "value": "小说",
+      "source_refs": [
+        "WCD10-B06-S101",
+        "WCD10-B06-S108"
+      ]
+    },
+    {
+      "author_id": "V1-ENT-0184",
+      "candidate_fact_id": "WCD10-B06-F102",
+      "subject_id": "V1-ENT-0187",
+      "field": "one_sentence_summary",
+      "value": "广告职员胡安·玛丽亚·布劳森在婚姻破裂之际听见邻居克卡的生活声响，一面以阿尔塞的身份试图进入她的生活，一面为电影脚本构想出圣玛丽亚及医生迪亚斯·格雷。",
+      "source_refs": [
+        "WCD10-B06-S103",
+        "WCD10-B06-S108"
+      ]
+    },
+    {
+      "author_id": "V1-ENT-0184",
+      "candidate_fact_id": "WCD10-B06-F103",
+      "subject_id": "V1-ENT-0188",
+      "field": "genre_or_form",
+      "value": "小说",
+      "source_refs": [
+        "WCD10-B06-S101",
+        "WCD10-B06-S107"
+      ]
+    },
+    {
+      "author_id": "V1-ENT-0184",
+      "candidate_fact_id": "WCD10-B06-F104",
+      "subject_id": "V1-ENT-0188",
+      "field": "one_sentence_summary",
+      "value": "拉森被驱逐后返回故地，试图取得废弃造船厂经理职位，并重新追求爱情。",
+      "source_refs": [
+        "WCD10-B06-S105"
+      ]
+    },
+    {
+      "author_id": "V1-ENT-0184",
+      "candidate_fact_id": "WCD10-B06-F105",
+      "subject_id": "V1-ENT-0189",
+      "field": "genre_or_form",
+      "value": "中篇小说（novela corta）",
+      "source_refs": [
+        "WCD10-B06-S102",
+        "WCD10-B06-S104"
+      ]
+    },
+    {
+      "author_id": "V1-ENT-0184",
+      "candidate_fact_id": "WCD10-B06-F106",
+      "subject_id": "V1-ENT-0189",
+      "field": "one_sentence_summary",
+      "value": "叙述者根据一位退役篮球运动员与两名女性之间的关系不断提出猜测，这些悬而未决的判断推动了故事。",
+      "source_refs": [
+        "WCD10-B06-S103"
+      ]
+    },
+    {
+      "author_id": "V1-ENT-0184",
+      "candidate_fact_id": "WCD10-B06-F107",
+      "subject_id": "V1-ENT-0188",
+      "field": "research_note",
+      "value": "Katalin Kulin指出，小说的叙述常由匿名的“我们”或与之认同的人物承担，叙述者像观众一样观看与评论；Larsen、Petrus、Gálvez与Kunz的举止和话语构成一种面向观众的表演，造船厂成为这一表演的舞台。",
+      "source_refs": [
+        "WCD10-B06-S107"
+      ]
+    },
+    {
+      "author_id": "V1-ENT-0185",
+      "candidate_fact_id": "WCD10-B06-F274",
+      "subject_id": "V1-ENT-0190",
+      "field": "genre_or_form",
+      "value": "小说",
+      "source_refs": [
+        "WCD10-B06-S203"
+      ]
+    },
+    {
+      "author_id": "V1-ENT-0185",
+      "candidate_fact_id": "WCD10-B06-F275",
+      "subject_id": "V1-ENT-0190",
+      "field": "one_sentence_summary",
+      "value": "Humberto Peñaloza是Jerónimo Azcoitía的私人秘书，被交付照看其畸形儿并将孩子藏在Rinconada；另一重要场景为Azcoitía家族拥有、由孤儿与老人居住的La Encarnación de la Chumba。",
+      "source_refs": [
+        "WCD10-B06-S221"
+      ]
+    },
+    {
+      "author_id": "V1-ENT-0185",
+      "candidate_fact_id": "WCD10-B06-F276",
+      "subject_id": "V1-ENT-0191",
+      "field": "genre_or_form",
+      "value": "小说",
+      "source_refs": [
+        "WCD10-B06-S204"
+      ]
+    },
+    {
+      "author_id": "V1-ENT-0185",
+      "candidate_fact_id": "WCD10-B06-F277",
+      "subject_id": "V1-ENT-0191",
+      "field": "one_sentence_summary",
+      "value": "Manuela生活在乡镇妓院，小说围绕她与乡镇边缘空间中的人物关系展开，并涉及情色关系及支配。",
+      "source_refs": [
+        "WCD10-B06-S222"
+      ]
+    },
+    {
+      "author_id": "V1-ENT-0185",
+      "candidate_fact_id": "WCD10-B06-F278",
+      "subject_id": "V1-ENT-0192",
+      "field": "genre_or_form",
+      "value": "小说",
+      "source_refs": [
+        "WCD10-B06-S202"
+      ]
+    },
+    {
+      "author_id": "V1-ENT-0185",
+      "candidate_fact_id": "WCD10-B06-F279",
+      "subject_id": "V1-ENT-0192",
+      "field": "one_sentence_summary",
+      "value": "独居的Andrés Ábalos见证九十多岁祖母生命最后阶段及其痴呆；故事亦呈现圣地亚哥旧家族宅邸内的家庭生活。",
+      "source_refs": [
+        "WCD10-B06-S223"
+      ]
+    }
+  ],
+  "research_status_mapping": [
+    {
+      "author_id": "V1-ENT-0172",
+      "object_ref": "V1-ENT-0179",
+      "prior_status": "preserved_existing_and_fresh_review",
+      "research_status": "institutional_commentary",
+      "fresh_A_sources": []
+    },
+    {
+      "author_id": "V1-ENT-0172",
+      "object_ref": "V1-ENT-0180",
+      "prior_status": "preserved_existing_and_fresh_review",
+      "research_status": "institutional_commentary",
+      "fresh_A_sources": []
+    },
+    {
+      "author_id": "V1-ENT-0172",
+      "object_ref": "V1-ENT-0181",
+      "prior_status": "preserved_existing_and_fresh_review",
+      "research_status": "institutional_commentary",
+      "fresh_A_sources": []
+    },
+    {
+      "author_id": "V1-ENT-0172",
+      "object_ref": "V1-ENT-0379",
+      "prior_status": "preserved_existing_A_not_freshly_reaudited",
+      "research_status": "preserved_existing_A_not_fresh",
+      "fresh_A_sources": []
+    },
+    {
+      "author_id": "V1-ENT-0172",
+      "object_ref": "WCD10-B06-W001",
+      "prior_status": "candidate_verified_pending_review",
+      "research_status": "institutional_commentary",
+      "fresh_A_sources": []
+    },
+    {
+      "author_id": "V1-ENT-0172",
+      "object_ref": "WCD10-B06-W002",
+      "prior_status": "candidate_verified_pending_review",
+      "research_status": "bounded_direct_study",
+      "fresh_A_sources": [
+        "WCD10-B06-S005"
+      ]
+    },
+    {
+      "author_id": "V1-ENT-0172",
+      "object_ref": "WCD10-B06-W003",
+      "prior_status": "candidate_verified_pending_review",
+      "research_status": "bounded_direct_study",
+      "fresh_A_sources": [
+        "WCD10-B06-S010",
+        "WCD10-B06-S011"
+      ]
+    },
+    {
+      "author_id": "V1-ENT-0172",
+      "object_ref": "WCD10-B06-W004",
+      "prior_status": "candidate_verified_pending_review",
+      "research_status": "institutional_commentary",
+      "fresh_A_sources": []
+    },
+    {
+      "author_id": "V1-ENT-0172",
+      "object_ref": "WCD10-B06-W005",
+      "prior_status": "candidate_verified_pending_review",
+      "research_status": "institutional_commentary",
+      "fresh_A_sources": []
+    },
+    {
+      "author_id": "V1-ENT-0184",
+      "object_ref": "V1-ENT-0187",
+      "prior_status": "preserved_existing_plus_fresh_description_review",
+      "research_status": "bounded_direct_study",
+      "fresh_A_sources": [
+        "WCD10-B06-S108"
+      ]
+    },
+    {
+      "author_id": "V1-ENT-0184",
+      "object_ref": "V1-ENT-0188",
+      "prior_status": "preserved_existing_plus_fresh_description_review",
+      "research_status": "bounded_direct_study",
+      "fresh_A_sources": [
+        "WCD10-B06-S107"
+      ]
+    },
+    {
+      "author_id": "V1-ENT-0184",
+      "object_ref": "V1-ENT-0189",
+      "prior_status": "preserved_existing_plus_fresh_description_review",
+      "research_status": "bounded_direct_study",
+      "fresh_A_sources": [
+        "WCD10-B06-S104"
+      ]
+    },
+    {
+      "author_id": "V1-ENT-0184",
+      "object_ref": "WCD10-B06-W101",
+      "prior_status": "new_candidate_supported_by_B_bibliography_and_A_work_specific_research",
+      "research_status": "bounded_direct_study",
+      "fresh_A_sources": [
+        "WCD10-B06-S104"
+      ]
+    },
+    {
+      "author_id": "V1-ENT-0184",
+      "object_ref": "WCD10-B06-W102",
+      "prior_status": "new_candidate_supported_by_B_bibliography_and_A_direct_journal_article",
+      "research_status": "bounded_direct_study",
+      "fresh_A_sources": [
+        "WCD10-B06-S106"
+      ]
+    },
+    {
+      "author_id": "V1-ENT-0184",
+      "object_ref": "WCD10-B06-W103",
+      "prior_status": "new_candidate_supported_by_B_bibliography_and_A_direct_work_study",
+      "research_status": "bounded_direct_study",
+      "fresh_A_sources": [
+        "WCD10-B06-S109"
+      ]
+    },
+    {
+      "author_id": "V1-ENT-0185",
+      "object_ref": "V1-ENT-0190",
+      "prior_status": "preserved_existing_plus_fresh_candidate",
+      "research_status": "institutional_commentary",
+      "fresh_A_sources": []
+    },
+    {
+      "author_id": "V1-ENT-0185",
+      "object_ref": "V1-ENT-0191",
+      "prior_status": "preserved_existing_plus_fresh_candidate",
+      "research_status": "institutional_commentary",
+      "fresh_A_sources": []
+    },
+    {
+      "author_id": "V1-ENT-0185",
+      "object_ref": "V1-ENT-0192",
+      "prior_status": "preserved_existing_plus_fresh_candidate",
+      "research_status": "institutional_commentary",
+      "fresh_A_sources": []
+    },
+    {
+      "author_id": "V1-ENT-0185",
+      "object_ref": "WCD10-B06-W201",
+      "prior_status": "candidate_pending_independent_review",
+      "research_status": "institutional_commentary",
+      "fresh_A_sources": []
+    },
+    {
+      "author_id": "V1-ENT-0185",
+      "object_ref": "WCD10-B06-W202",
+      "prior_status": "candidate_pending_independent_review",
+      "research_status": "institutional_commentary",
+      "fresh_A_sources": []
+    },
+    {
+      "author_id": "V1-ENT-0185",
+      "object_ref": "WCD10-B06-W203",
+      "prior_status": "candidate_pending_independent_review",
+      "research_status": "institutional_commentary",
+      "fresh_A_sources": []
+    },
+    {
+      "author_id": "V1-ENT-0185",
+      "object_ref": "WCD10-B06-W204",
+      "prior_status": "candidate_pending_independent_review",
+      "research_status": "institutional_commentary",
+      "fresh_A_sources": []
+    },
+    {
+      "author_id": "V1-ENT-0185",
+      "object_ref": "WCD10-B06-W205",
+      "prior_status": "candidate_pending_independent_review",
+      "research_status": "bounded_direct_study",
+      "fresh_A_sources": [
+        "WCD10-B06-S216"
+      ]
+    },
+    {
+      "author_id": "V1-ENT-0185",
+      "object_ref": "WCD10-B06-W206",
+      "prior_status": "candidate_pending_independent_review",
+      "research_status": "institutional_commentary",
+      "fresh_A_sources": []
+    },
+    {
+      "author_id": "V1-ENT-0185",
+      "object_ref": "WCD10-B06-W207",
+      "prior_status": "candidate_pending_independent_review",
+      "research_status": "institutional_commentary",
+      "fresh_A_sources": []
+    },
+    {
+      "author_id": "V1-ENT-0185",
+      "object_ref": "WCD10-B06-W208",
+      "prior_status": "candidate_pending_independent_review",
+      "research_status": "bounded_direct_study",
+      "fresh_A_sources": [
+        "WCD10-B06-S216"
+      ]
+    },
+    {
+      "author_id": "V1-ENT-0185",
+      "object_ref": "WCD10-B06-W209",
+      "prior_status": "candidate_pending_independent_review",
+      "research_status": "institutional_commentary",
+      "fresh_A_sources": []
+    },
+    {
+      "author_id": "V1-ENT-0185",
+      "object_ref": "WCD10-B06-W210",
+      "prior_status": "candidate_pending_independent_review",
+      "research_status": "bounded_direct_study",
+      "fresh_A_sources": [
+        "WCD10-B06-S216"
+      ]
+    },
+    {
+      "author_id": "V1-ENT-0185",
+      "object_ref": "WCD10-B06-W211",
+      "prior_status": "candidate_pending_independent_review",
+      "research_status": "institutional_commentary",
+      "fresh_A_sources": []
+    },
+    {
+      "author_id": "V1-ENT-0185",
+      "object_ref": "WCD10-B06-W213",
+      "prior_status": "candidate_pending_independent_review",
+      "research_status": "institutional_commentary",
+      "fresh_A_sources": []
+    },
+    {
+      "author_id": "V1-ENT-0185",
+      "object_ref": "WCD10-B06-W214",
+      "prior_status": "candidate_pending_independent_review",
+      "research_status": "institutional_commentary",
+      "fresh_A_sources": []
+    },
+    {
+      "author_id": "V1-ENT-0185",
+      "object_ref": "WCD10-B06-W215",
+      "prior_status": "candidate_pending_independent_review",
+      "research_status": "institutional_commentary",
+      "fresh_A_sources": []
+    },
+    {
+      "author_id": "V1-ENT-0185",
+      "object_ref": "WCD10-B06-W216",
+      "prior_status": "candidate_pending_independent_review",
+      "research_status": "institutional_commentary",
+      "fresh_A_sources": []
+    },
+    {
+      "author_id": "V1-ENT-0185",
+      "object_ref": "WCD10-B06-W217",
+      "prior_status": "candidate_pending_independent_review",
+      "research_status": "institutional_commentary",
+      "fresh_A_sources": []
+    },
+    {
+      "author_id": "V1-ENT-0185",
+      "object_ref": "WCD10-B06-W218",
+      "prior_status": "candidate_pending_independent_review",
+      "research_status": "bounded_direct_study",
+      "fresh_A_sources": [
+        "WCD10-B06-S231"
+      ]
+    },
+    {
+      "author_id": "V1-ENT-0185",
+      "object_ref": "WCD10-B06-W219",
+      "prior_status": "candidate_pending_independent_review",
+      "research_status": "institutional_commentary",
+      "fresh_A_sources": []
+    },
+    {
+      "author_id": "V1-ENT-0185",
+      "object_ref": "WCD10-B06-W220",
+      "prior_status": "candidate_pending_independent_review",
+      "research_status": "institutional_commentary",
+      "fresh_A_sources": []
+    },
+    {
+      "author_id": "V1-ENT-0185",
+      "object_ref": "WCD10-B06-W221",
+      "prior_status": "candidate_pending_independent_review",
+      "research_status": "institutional_commentary",
+      "fresh_A_sources": []
+    },
+    {
+      "author_id": "V1-ENT-0185",
+      "object_ref": "bounded_gap:Cuatro para Delfina",
+      "excluded_from_object_scope": true,
+      "reason": "Deferred entity retained in candidate.deferred and coverage.deferred_objects; not one of 38 objects."
+    }
+  ],
+  "excluded_coverage_rows": [
+    {
+      "author_id": "V1-ENT-0185",
+      "object_ref": "bounded_gap:Cuatro para Delfina",
+      "status": "retained in deferred_objects and candidate.deferred; excluded from 38 object rows."
+    }
+  ],
+  "scope_counts": {
+    "sources": 59,
+    "source_reuse_expected": 8,
+    "source_new_expected": 51,
+    "new_entities": 28,
+    "facts_total": 117,
+    "facts_by_author": {
+      "V1-ENT-0172": 24,
+      "V1-ENT-0184": 18,
+      "V1-ENT-0185": 75
+    },
+    "created_relationships": 28,
+    "extra_relationships": 0,
+    "deferred": 18,
+    "coverage_objects": 38
+  },
+  "authorization_boundary": "No REVIEW_GATE, SQL preparation, migration apply, Curation admission, or public scope change is included or authorized.",
+  "merged_artifact_sha256": {
+    "CANDIDATES.json": "deca46fb7501808ea3769e83823b0c3d0424c165f25a30c92d0629e0a202d990",
+    "COVERAGE.json": "0f50da17265a57f7d782ca7f2917c12f4f545a06a87c27a027b20d268f4d067b",
+    "SOURCE_REGISTRATION.json": "6591b5403805573d50e30fd3c03973dd705b6df614a044ba5f0b77319c592c2c",
+    "EVIDENCE_MATRIX.json": "0ef064a45cdc33874c194768eb28115249f8a7eb5681ee0d4b1aa08c4020af7c"
+  },
+  "canonical_candidate_sha256": "400fa04be33b6776fc124261f255b721c61c23ba3a5e744541509187d6c3ab10",
+  "normalization_differences": [
+    {
+      "artifact": "SOURCE_SCOPE_DECISIONS",
+      "change": "Original decision objects retained; candidate_source_id or candidate_source_ids copied into candidate_ids where needed by the shared builder."
+    },
+    {
+      "artifact": "EVIDENCE_MATRIX",
+      "change": "Per-author matrix rows normalized into one global entry per fact; original rows retained verbatim under source_evidence. Amado local nested IDs W001-Fxx etc map to canonical candidate fact IDs WCD10-B06-W001-Fxx etc; candidate values and source refs are unchanged."
+    },
+    {
+      "artifact": "COVERAGE",
+      "object_ref": "V1-ENT-0187",
+      "field": "research_refs",
+      "before": "SRC-0282 (preserved existing card source; not freshly read in this pass)",
+      "after": "SRC-0282",
+      "reason": "Builder requires research_refs to be source IDs only. Preservation provenance remains verbatim in existing_card and remaining."
+    },
+    {
+      "artifact": "COVERAGE",
+      "change": "Canonical research_status mapping: B-only object rows use institutional_commentary; direct-A rows use bounded_direct_study; pre-existing Amado A row V1-ENT-0379 uses preserved_existing_A_not_fresh. Existing remaining text and old card/relation/fact/source chains remain preserved."
+    },
+    {
+      "artifact": "COVERAGE",
+      "change": "Donoso Cuatro para Delfina remains in deferred_objects and candidate.deferred; excluded from 38 coverage object rows."
+    },
+    {
+      "artifact": "SOURCE_REGISTRATION",
+      "change": "Per-author source profiles copied unchanged, including publication_year (webpage publication year) as distinct from work first_publication_year."
+    },
+    {
+      "artifact": "COVERAGE",
+      "change": "Removed obsolete candidate-only / not-yet-independently-reviewed prefix from remaining on 16 rows (English or Chinese variants); all substantive remaining text and source/fact/card/relation chains remain unchanged. This wording cleanup does not change review status or admit content."
+    }
+  ],
+  "merged_validation": {
+    "command": "python3 scripts/validate_wcd10_candidates.py data/changesets/WCD-10/B06/CANDIDATES.json --repo . --report work/wcd10-qa/B06_MERGED_CANDIDATE_VALIDATION.json",
+    "exit_code": 0,
+    "verdict": "pass",
+    "report_path": "work/wcd10-qa/B06_MERGED_CANDIDATE_VALIDATION.json",
+    "report_sha256": "895759a7e4f0f2355be9eee9934c4504b2d92b2d4d8b7e30886c9878a1115fbe",
+    "counts": {
+      "source_candidates": 59,
+      "new_entity_candidates": 28,
+      "new_fact_candidates": 117,
+      "new_created_candidates": 28,
+      "extra_relationship_candidates": 0,
+      "deferred": 18
+    },
+    "note": "Mechanical PASS does not admit sources/facts/relations; parent full-batch REVIEW_GATE remains pending."
+  }
+}

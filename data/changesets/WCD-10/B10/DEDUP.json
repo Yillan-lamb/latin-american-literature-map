@@ -1,0 +1,341 @@
+{
+  "schema": "wcd10-b10-dedup-merged-1",
+  "task_id": "TASK-115",
+  "batch_id": "WCD-10-B10",
+  "baseline_database_sha256": "41f895012a71cec9cab831e1717e5f3ec0306100d95acf2ac34c9eccac5a4d3b",
+  "author_packages": [
+    {
+      "author_id": "V1-ENT-0225",
+      "source_directory": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/project/internal/WCD_10_WORKSPACE/orchestration/wave-07/marti/R2",
+      "dedup": {
+        "task_id": "TASK-115",
+        "batch_id": "WCD-10-B10",
+        "baseline_database_sha256": "41f895012a71cec9cab831e1717e5f3ec0306100d95acf2ac34c9eccac5a4d3b",
+        "entities": [
+          {
+            "candidate_id": "WCD10-B10-W001",
+            "query_title": "Amistad funesta",
+            "same_title_matches": [],
+            "decision": "new_object_no_same_title_in_baseline"
+          },
+          {
+            "candidate_id": "WCD10-B10-W002",
+            "query_title": "La Edad de Oro",
+            "same_title_matches": [],
+            "decision": "new_object_no_same_title_in_baseline"
+          },
+          {
+            "candidate_id": "WCD10-B10-W003",
+            "query_title": "Abdala",
+            "same_title_matches": [],
+            "decision": "new_object_no_same_title_in_baseline"
+          }
+        ],
+        "urls": [
+          {
+            "candidate_source_id": "WCD10-B10-S001",
+            "canonical_url": "https://www.cervantesvirtual.com/obra/amistad-funesta-novela--0/",
+            "existing_matches": [],
+            "decision": "fresh_registration_no_canonical_match"
+          },
+          {
+            "candidate_source_id": "WCD10-B10-S002",
+            "canonical_url": "https://www.cervantesvirtual.com/obra/la-edad-de-oro-publicacion-mensual-dedicada-a-los-ninos--0/",
+            "existing_matches": [],
+            "decision": "fresh_registration_no_canonical_match"
+          },
+          {
+            "candidate_source_id": "WCD10-B10-S003",
+            "canonical_url": "https://catalogo.bnphu.gob.do/cgi-bin/koha/opac-detail.pl?biblionumber=11683&query_desc=",
+            "existing_matches": [],
+            "decision": "fresh_registration_no_canonical_match"
+          },
+          {
+            "candidate_source_id": "WCD10-B10-S004",
+            "canonical_url": "https://cervantesvirtual.com/obra/abdala--0/",
+            "existing_matches": [],
+            "decision": "fresh_registration_no_canonical_match"
+          },
+          {
+            "candidate_source_id": "WCD10-B10-S005",
+            "canonical_url": "https://www.cervantesvirtual.com/obra-visor/amistad-funesta-novela--0/html/fef79342-82b1-11df-acc7-002185ce6064_2.html",
+            "existing_matches": [],
+            "decision": "fresh_registration_no_canonical_match"
+          },
+          {
+            "candidate_source_id": "WCD10-B10-S006",
+            "canonical_url": "https://www.cervantesvirtual.com/obra-visor/diccionario-de-la-literatura-cubana--0/html/254m.htm",
+            "existing_matches": [],
+            "decision": "fresh_registration_no_canonical_match"
+          },
+          {
+            "candidate_source_id": "WCD10-B10-S007",
+            "canonical_url": "https://www.cervantesvirtual.com/portales/traducciones_hispanoamericanas/traductores/",
+            "existing_matches": [
+              {
+                "source_id": "SRC-0187",
+                "title": "Traductores hispanoamericanos — José Martí",
+                "canonical_url": "https://www.cervantesvirtual.com/portales/traducciones_hispanoamericanas/traductores/",
+                "source_level": "B"
+              }
+            ],
+            "decision": "reuse_existing_source"
+          },
+          {
+            "candidate_source_id": "WCD10-B10-S008",
+            "canonical_url": "https://www.educ.ar/recursos/151773/versos-sencillos-de-jose-marti",
+            "existing_matches": [],
+            "decision": "fresh_registration_no_canonical_match"
+          },
+          {
+            "candidate_source_id": "WCD10-B10-S009",
+            "canonical_url": "https://bcn.gob.ar/la-biblioteca/publicaciones/coleccion-pensamiento-del-bicentenario/nuestra-america",
+            "existing_matches": [],
+            "decision": "fresh_registration_no_canonical_match"
+          },
+          {
+            "candidate_source_id": "WCD10-B10-S010",
+            "canonical_url": "https://www.poeticous.com/marti/books/ismaelillo?locale=es",
+            "existing_matches": [],
+            "decision": "fresh_registration_no_canonical_match"
+          },
+          {
+            "candidate_source_id": "WCD10-B10-S011",
+            "canonical_url": "https://www.cervantesvirtual.com/obra-visor/amistad-funesta-novela--0/html/fef79342-82b1-11df-acc7-002185ce6064_3.html",
+            "existing_matches": [],
+            "decision": "fresh_registration_no_canonical_match"
+          },
+          {
+            "candidate_source_id": "WCD10-B10-S012",
+            "canonical_url": "https://www.cervantesvirtual.com/obra-visor/abdala--0/html/fef77c2c-82b1-11df-acc7-002185ce6064_2.html",
+            "existing_matches": [],
+            "decision": "fresh_registration_no_canonical_match"
+          }
+        ],
+        "decision": "All proposed works and source canonical URLs checked against the specified read-only baseline."
+      }
+    },
+    {
+      "author_id": "V1-ENT-0236",
+      "source_directory": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/project/internal/WCD_10_WORKSPACE/orchestration/wave-07/parra",
+      "dedup": {
+        "schema": "wcd10-b10-parra-dedup-1",
+        "task_id": "TASK-115",
+        "batch_id": "WCD-10-B10",
+        "author_id": "V1-ENT-0236",
+        "baseline_database_sha256": "41f895012a71cec9cab831e1717e5f3ec0306100d95acf2ac34c9eccac5a4d3b",
+        "policy": "保留所有基线对象/关系/来源链；分别识别作品集、版本与单篇；不以同名版次重复建作品，年份差异按书目注记或gap保留。",
+        "decisions": [
+          {
+            "candidate_id": "V1-ENT-0239",
+            "title": "Poemas y antipoemas",
+            "decision": "preserve_existing_object",
+            "basis": "完整保留冻结基线中的entity/facts/cards/relations及fact/card/relationship source chains、evidence和holds/gaps；只提议缺项追加。"
+          },
+          {
+            "candidate_id": "V1-ENT-0240",
+            "title": "Versos de salón",
+            "decision": "preserve_existing_object",
+            "basis": "完整保留冻结基线中的entity/facts/cards/relations及fact/card/relationship source chains、evidence和holds/gaps；只提议缺项追加。"
+          },
+          {
+            "candidate_id": "V1-ENT-0241",
+            "title": "Discursos de sobremesa",
+            "decision": "preserve_existing_object",
+            "basis": "完整保留冻结基线中的entity/facts/cards/relations及fact/card/relationship source chains、evidence和holds/gaps；只提议缺项追加。"
+          },
+          {
+            "candidate_id": "WCD10-B10-W101",
+            "title": "La cueca larga",
+            "decision": "new_candidate",
+            "basis": "冻结基线entities中按原题名和collection层查重；保留为独立书目对象，不把译名或单篇/版次当独立作品。"
+          },
+          {
+            "candidate_id": "WCD10-B10-W102",
+            "title": "Obra gruesa",
+            "decision": "new_candidate",
+            "basis": "冻结基线entities中按原题名和collection层查重；保留为独立书目对象，不把译名或单篇/版次当独立作品。"
+          },
+          {
+            "candidate_id": "WCD10-B10-W103",
+            "title": "Sermones y prédicas del Cristo de Elqui",
+            "decision": "new_candidate",
+            "basis": "冻结基线entities中按原题名和collection层查重；保留为独立书目对象，不把译名或单篇/版次当独立作品。"
+          },
+          {
+            "candidate_id": "V1-ENT-0240",
+            "title": "Versos de salón (1962) / 1971 illustrated copy",
+            "decision": "keep_edition_separate_from_first_publication_fact",
+            "basis": "作者专题目录与正文记1962作品，页面另有1971版封面图；不把1971版覆盖或另建成作品。"
+          },
+          {
+            "candidate_id": "Cancionero sin nombre",
+            "title": "Cancionero sin nombre",
+            "decision": "defer_year_conflict",
+            "basis": "Memoria Chilena正文书目叙述有1935，作者页面书目/图片与智利大学目录指向1937；不静默选择。"
+          },
+          {
+            "candidate_id": "WCD10-B10-W104",
+            "title": "Artefactos",
+            "decision": "new_candidate",
+            "basis": "基线工作题名按原题名与collection层查重；机构目录证实1972明信片形式，保持作品集对象与单张实物/卡片内容相区分。"
+          }
+        ]
+      }
+    },
+    {
+      "author_id": "V1-ENT-0237",
+      "source_directory": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/project/internal/WCD_10_WORKSPACE/orchestration/wave-07/pizarnik/R1",
+      "dedup": {
+        "schema": "wcd10-b10-pizarnik-dedup-1",
+        "task_id": "TASK-115",
+        "batch_id": "WCD-10-B10",
+        "author_id": "V1-ENT-0237",
+        "baseline_database_sha256": "41f895012a71cec9cab831e1717e5f3ec0306100d95acf2ac34c9eccac5a4d3b",
+        "policy": "全库题名查重；保全旧作实体/关系闭包，不重复建作品；书籍、单篇和版本分开处理。",
+        "decisions": [
+          {
+            "candidate_id": "V1-ENT-0242",
+            "kind": "existing_object",
+            "title": "Árbol de Diana",
+            "decision": "preserve_existing_object",
+            "matches": [
+              "V1-ENT-0242"
+            ],
+            "basis": "按冻结inventory逐值保全，不新建副本。"
+          },
+          {
+            "candidate_id": "V1-ENT-0243",
+            "kind": "existing_object",
+            "title": "Los trabajos y las noches",
+            "decision": "preserve_existing_object",
+            "matches": [
+              "V1-ENT-0243"
+            ],
+            "basis": "按冻结inventory逐值保全，不新建副本。"
+          },
+          {
+            "candidate_id": "V1-ENT-0244",
+            "kind": "existing_object",
+            "title": "Extracción de la piedra de locura",
+            "decision": "preserve_existing_object",
+            "matches": [
+              "V1-ENT-0244"
+            ],
+            "basis": "按冻结inventory逐值保全，不新建副本。"
+          },
+          {
+            "candidate_id": "WCD10-B10-W201",
+            "kind": "entity",
+            "title": "La tierra más ajena",
+            "decision": "new_candidate",
+            "matches": [],
+            "related_title_search": [],
+            "basis": "全库规范化原题精确查重；另检索非空原文题名包含近似项。CVC另列La última inocencia与Las aventuras perdidas的1976合刊再版，本候选分别对应1956/1958初版，不另建该再版本对象。"
+          },
+          {
+            "candidate_id": "WCD10-B10-W202",
+            "kind": "entity",
+            "title": "La última inocencia",
+            "decision": "new_candidate",
+            "matches": [],
+            "related_title_search": [],
+            "basis": "全库规范化原题精确查重；另检索非空原文题名包含近似项。CVC另列La última inocencia与Las aventuras perdidas的1976合刊再版，本候选分别对应1956/1958初版，不另建该再版本对象。"
+          },
+          {
+            "candidate_id": "WCD10-B10-W203",
+            "kind": "entity",
+            "title": "Las aventuras perdidas",
+            "decision": "new_candidate",
+            "matches": [],
+            "related_title_search": [],
+            "basis": "全库规范化原题精确查重；另检索非空原文题名包含近似项。CVC另列La última inocencia与Las aventuras perdidas的1976合刊再版，本候选分别对应1956/1958初版，不另建该再版本对象。"
+          },
+          {
+            "candidate_id": "WCD10-B10-W204",
+            "kind": "entity",
+            "title": "La condesa sangrienta",
+            "decision": "new_candidate",
+            "matches": [],
+            "related_title_search": [],
+            "basis": "全库规范化原题精确查重；另检索非空原文题名包含近似项。CVC另列La última inocencia与Las aventuras perdidas的1976合刊再版，本候选分别对应1956/1958初版，不另建该再版本对象。"
+          },
+          {
+            "candidate_id": "WCD10-B10-W205",
+            "kind": "entity",
+            "title": "El infierno musical",
+            "decision": "new_candidate",
+            "matches": [],
+            "related_title_search": [],
+            "basis": "全库规范化原题精确查重；另检索非空原文题名包含近似项。CVC另列La última inocencia与Las aventuras perdidas的1976合刊再版，本候选分别对应1956/1958初版，不另建该再版本对象。"
+          },
+          {
+            "candidate_id": "WCD10-B10-S201",
+            "kind": "source",
+            "title": "CVC. Alejandra Pizarnik. Bibliografía. Obras",
+            "decision": "reuse_existing_source",
+            "matches": [
+              "SRC-0192"
+            ]
+          },
+          {
+            "candidate_id": "WCD10-B10-S202",
+            "kind": "source",
+            "title": "CVC. Alejandra Pizarnik. Obra. Árbol de Diana",
+            "decision": "fresh_registration",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B10-S203",
+            "kind": "source",
+            "title": "CVC. Alejandra Pizarnik. Obra. Los trabajos y las noches",
+            "decision": "fresh_registration",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B10-S204",
+            "kind": "source",
+            "title": "CVC. Alejandra Pizarnik. Biografía literaria",
+            "decision": "fresh_registration",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B10-S205",
+            "kind": "source",
+            "title": "CVC. Alejandra Pizarnik. Obra. La última inocencia",
+            "decision": "fresh_registration",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B10-S206",
+            "kind": "source",
+            "title": "CVC. Alejandra Pizarnik. Obra. Las aventuras perdidas",
+            "decision": "fresh_registration",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B10-S207",
+            "kind": "source",
+            "title": "CVC. Alejandra Pizarnik. Obra. La condesa sangrienta",
+            "decision": "fresh_registration",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B10-S208",
+            "kind": "source",
+            "title": "CVC. Alejandra Pizarnik: leyenda de una vida tras de su obra",
+            "decision": "fresh_registration",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B10-S209",
+            "kind": "source",
+            "title": "CVC. Alejandra Pizarnik escondida en el lenguaje",
+            "decision": "fresh_registration",
+            "matches": []
+          }
+        ]
+      }
+    }
+  ]
+}

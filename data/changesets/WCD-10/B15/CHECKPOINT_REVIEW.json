@@ -1,0 +1,14 @@
+{
+  "task_id": "TASK-120",
+  "batch_id": "WCD-10-B15",
+  "baseline_database_sha256": "651f89688eeba195a4332ee6611cc51478c2c3aeae7fd5b2391069283a0cea92",
+  "migration_name": "0050_wcd10_b15_author_works.sql",
+  "migration_sha256": "4f0803e185dcf9c2409caf171c4218f52921b926d6248a2e2461c72b79d13c9d",
+  "mapping_sha256": "9e5e4cecd482994ad500448a87e84f9006c332189ee8610264435cb4bdca52f9",
+  "reviewer": "Codex-parent-independent-review",
+  "reviewed_at": "2026-10-13",
+  "verdict": "PASS",
+  "mapping_path": "data/changesets/WCD-10/B15/INTEGRATION_MAP.json",
+  "scope": "Actual disposable frozen clone applies exact0050; all19table old rows/source/fact/card/14role closures PASS. Authorize this exact SQL/map once on frozen live baseline, then16necessary QA including separate full50migration replay.",
+  "parent_sql_report_sha256": "1f9df4983c3f097df509b947242ec8b2a663954a8b52c35243fdff0854d3fffc"
+}

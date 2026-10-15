@@ -1,0 +1,52 @@
+relation_hold_id,origin_layer,origin_relation_group_id,subject_id,relation_type,object_id,description_zh,confidence,review_status,evidence_count,issue_code
+V1-HOLD-0001,N2,RG-S2-0017,V1-ENT-0002,ASSOCIATED_WITH_MOVEMENT,V1-ENT-0010,博尔赫斯曾投身极端主义（ultraísmo）,medium,resolved_to_relationship,2,RESOLVED_TO_V1-REL-0314|CODEX-REVIEW-WCD05-PASS
+V1-HOLD-0002,N2,RG-S2-0018,V1-ENT-0003,EXPLORES_THEME,V1-ENT-0013,《小径分岔的花园》探讨时间的分岔与无限,medium,hold_needs_second_source,1,解释性判断，单来源
+V1-HOLD-0003,N2,RG-S2-0019,V1-ENT-0004,EXPLORES_THEME,V1-ENT-0015,《阿莱夫》探讨无限与不可言说,medium,hold_needs_second_source,1,解释性判断，单来源
+V1-HOLD-0004,N2,RG-S2-0020,V1-ENT-0004,EXPLORES_THEME,V1-ENT-0014,《阿莱夫》涉及记忆与遗忘,medium,hold_needs_second_source,1,解释性判断，单来源
+V1-HOLD-0005,N2,RG-S2-0021,V1-ENT-0017,EXPLORES_THEME,V1-ENT-0024,《活水》探讨时间、当下瞬间与沉默（复合主题）,medium,hold_needs_second_source,1,R1：不再与 SRC-0011 构成同主题双源组（REVIEW R1-03）；仅“沉默”与 0109 部分重叠，主题不同
+V1-HOLD-0006,N2,RG-S2-0023,V1-ENT-0019,EXPLORES_THEME,V1-ENT-0023,《家庭纽带》涉及家庭关系与内心生活,medium,hold_needs_second_source,1,解释性判断，单来源
+V1-HOLD-0007,N2,RG-S2-0024,V1-ENT-0019,EXPLORES_THEME,V1-ENT-0028,《家庭纽带》的女性人物在 21 世纪被再读,medium,hold_needs_second_source,1,解释性判断，单来源
+V1-HOLD-0008,N2,RG-S2-0025,V1-ENT-0002,INFLUENCED_BY,V1-ENT-0005,博尔赫斯受叔本华影响,medium,resolved_to_relationship,2,RESOLVED_TO_V1-REL-0311|CODEX-REVIEW-WCD05-PASS
+V1-HOLD-0009,N2,RG-S2-0026,V1-ENT-0002,INFLUENCED_BY,V1-ENT-0006,博尔赫斯受卡夫卡影响,medium,resolved_to_relationship,2,RESOLVED_TO_V1-REL-0312|CODEX-REVIEW-WCD05-PASS
+V1-HOLD-0010,N2,RG-S2-0027,V1-ENT-0002,INFLUENCED_BY,V1-ENT-0007,博尔赫斯受切斯特顿影响,medium,resolved_to_relationship,2,RESOLVED_TO_V1-REL-0313|CODEX-REVIEW-WCD05-PASS
+V1-HOLD-0011,N2,RG-S2-0028,V1-ENT-0017,EXPLORES_THEME,V1-ENT-0027,《活水》涉及升华、沉默与女性写作（精神分析视角）,medium,hold_needs_second_source,1,R1：由原 RG-S2-0021 拆出改指 0109，新组 RG-S2-0028（REVIEW R1-03）
+V1-HOLD-0012,B01,RG-B01-0025,V1-ENT-0038,ASSOCIATED_WITH_MOVEMENT,V1-ENT-0064,《佩德罗·巴拉莫》与墨西哥革命小说传统对话,low,hold_needs_second_source,1,解释性/文学史判断，单来源
+V1-HOLD-0013,B01,RG-B01-0026,V1-ENT-0032,EXPLORES_THEME,V1-ENT-0014,《未来的回忆》探讨记忆与遗忘,medium,hold_needs_second_source,1,解释性判断，单来源
+V1-HOLD-0014,B01,RG-B01-0027,V1-ENT-0032,EXPLORES_THEME,V1-ENT-0067,《未来的回忆》涉及时间与历史,medium,hold_needs_second_source,1,解释性判断，单来源
+V1-HOLD-0015,B01,RG-B01-0028,V1-ENT-0035,EXPLORES_THEME,V1-ENT-0068,《巴伦坎南》探讨暴力与语言,medium,hold_needs_second_source,1,解释性判断，单来源
+V1-HOLD-0016,B01,RG-B01-0029,V1-ENT-0035,EXPLORES_THEME,V1-ENT-0069,《巴伦坎南》涉及沉默,medium,hold_needs_second_source,1,解释性判断，单来源
+V1-HOLD-0017,B01,RG-B01-0030,V1-ENT-0038,EXPLORES_THEME,V1-ENT-0070,《佩德罗·巴拉莫》涉及革命与基督战争,medium,hold_needs_second_source,1,解释性判断，单来源
+V1-HOLD-0018,B01,RG-B01-0031,V1-ENT-0038,EXPLORES_THEME,V1-ENT-0071,《佩德罗·巴拉莫》涉及乡村与革命后的土地,medium,hold_needs_second_source,1,解释性判断，单来源
+V1-HOLD-0019,B02,RG-B02-0021,V1-ENT-0072,ASSOCIATED_WITH_MOVEMENT,V1-ENT-0099,加西亚·马尔克斯被视为魔幻现实主义的代表,medium,resolved_to_relationship,2,RESOLVED_TO_V1-REL-0315|CODEX-REVIEW-WCD05-PASS
+V1-HOLD-0020,B02,RG-B02-0022,V1-ENT-0074,ASSOCIATED_WITH_MOVEMENT,V1-ENT-0100,卡彭铁尔发展与界定“神奇现实”（lo real maravilloso）,high,resolved_to_relationship,2,RESOLVED_TO_V1-REL-0316|CODEX-REVIEW-WCD05-PASS
+V1-HOLD-0021,B02,RG-B02-0023,V1-ENT-0074,ASSOCIATED_WITH_MOVEMENT,V1-ENT-0101,卡彭铁尔与新巴洛克（neobarroco）相关,medium,hold_needs_second_source,1,NONE
+V1-HOLD-0022,B02,RG-B02-0024,V1-ENT-0075,EXPLORES_THEME,V1-ENT-0102,《百年孤独》探讨伦理与人性,high,hold_needs_second_source,1,NONE
+V1-HOLD-0023,B02,RG-B02-0025,V1-ENT-0076,EXPLORES_THEME,V1-ENT-0103,《没有人给他写信的上校》涉及贫困与政治暴力,high,hold_needs_second_source,1,NONE
+V1-HOLD-0024,B02,RG-B02-0026,V1-ENT-0077,EXPLORES_THEME,V1-ENT-0104,《一桩事先张扬的凶杀案》涉及罪责与真相的悬置,medium,hold_needs_second_source,1,NONE
+V1-HOLD-0025,B02,RG-B02-0027,V1-ENT-0078,EXPLORES_THEME,V1-ENT-0105,《跳房子》体现读者参与与反传统叙事,high,resolved_to_relationship,2,RESOLVED_TO_V1-REL-0317|CODEX-REVIEW-WCD05-PASS
+V1-HOLD-0026,B02,RG-B02-0028,V1-ENT-0082,EXPLORES_THEME,V1-ENT-0106,《动物寓言集》涉及梦境与现实的模糊,high,hold_needs_second_source,1,NONE
+V1-HOLD-0027,B02,RG-B02-0029,V1-ENT-0083,EXPLORES_THEME,V1-ENT-0106,《游戏的终结》涉及梦境与现实的模糊,medium,hold_needs_second_source,1,NONE
+V1-HOLD-0028,B02,RG-B02-0030,V1-ENT-0083,EXPLORES_THEME,V1-ENT-0107,《游戏的终结》涉及面具游戏与自我的折叠,medium,hold_needs_second_source,1,NONE
+V1-HOLD-0029,B02,RG-B02-0031,V1-ENT-0079,EXPLORES_THEME,V1-ENT-0108,《人间王国》体现跨文化与美洲身份,high,resolved_to_relationship,2,RESOLVED_TO_V1-REL-0318|CODEX-REVIEW-WCD05-PASS
+V1-HOLD-0030,B02,RG-B02-0032,V1-ENT-0080,EXPLORES_THEME,V1-ENT-0109,《消逝的足迹》涉及美洲与西方传统,medium,hold_needs_second_source,1,NONE
+V1-HOLD-0031,B02,RG-B02-0033,V1-ENT-0081,EXPLORES_THEME,V1-ENT-0110,《光明世纪》涉及艺术、启蒙与现代性批判,high,hold_needs_second_source,1,NONE
+V1-HOLD-0032,B02,RG-B02-0034,V1-ENT-0084,EXPLORES_THEME,V1-ENT-0111,《另一个天空》体现城市浪漫与偶然,medium,hold_needs_second_source,1,NONE
+V1-HOLD-0033,B02,RG-B02-0035,V1-ENT-0085,EXPLORES_THEME,V1-ENT-0111,《口袋里发现的手稿》体现城市浪漫与偶然,medium,hold_needs_second_source,1,NONE
+V1-HOLD-0034,B03,RG-B03-0016,V1-ENT-0117,ASSOCIATED_WITH_MOVEMENT,V1-ENT-0130,《酒吧长谈》与拉丁美洲文学爆炸关联,medium,hold_needs_second_source,1,NONE
+V1-HOLD-0035,B03,RG-B03-0017,V1-ENT-0115,ASSOCIATED_WITH_MOVEMENT,V1-ENT-0131,聂鲁达早期诗集与现代主义关联,medium,resolved_to_relationship,2,RESOLVED_TO_V1-REL-0319|CODEX-REVIEW-WCD05-PASS
+V1-HOLD-0036,B03,RG-B03-0018,V1-ENT-0115,ASSOCIATED_WITH_MOVEMENT,V1-ENT-0132,聂鲁达与先锋派革新关联,medium,hold_needs_second_source,1,NONE
+V1-HOLD-0037,B03,RG-B03-0019,V1-ENT-0116,EXPLORES_THEME,V1-ENT-0133,《城市与狗》体现利马的困闭与逃避,high,hold_needs_second_source,1,NONE
+V1-HOLD-0038,B03,RG-B03-0020,V1-ENT-0117,EXPLORES_THEME,V1-ENT-0134,《酒吧长谈》涉及知识分子的失败与公众角色,high,hold_needs_second_source,1,NONE
+V1-HOLD-0039,B03,RG-B03-0021,V1-ENT-0118,EXPLORES_THEME,V1-ENT-0135,《世界末日之战》体现殖民视角与去殖民思想,high,hold_needs_second_source,1,NONE
+V1-HOLD-0040,B03,RG-B03-0022,V1-ENT-0119,EXPLORES_THEME,V1-ENT-0136,《二十首情诗和一支绝望的歌》涉及爱情体验,high,hold_needs_second_source,1,NONE
+V1-HOLD-0041,WEB-CE-B01,CAND-B-REL-006,V1-ENT-0148,ASSOCIATED_WITH_MOVEMENT,V1-ENT-0131,"早期诗作受现代主义（Modernismo）影响；文学史亦有将其归入现代主义之后""后现代主义""（posmodernismo）一代的归类",medium,hold,1,hold_needs_second_source
+V1-HOLD-0042,WEB-CE-B01,CAND-C-REL-006,V1-ENT-0059,ASSOCIATED_WITH_MOVEMENT,V1-ENT-0132,帕斯与先锋派：青年时期创办先锋派文学杂志《Barandal》,medium,resolved_to_relationship,2,RESOLVED_TO_V1-REL-0320|CODEX-REVIEW-WCD05-PASS
+V1-HOLD-0043,WEB-CE-B01,CAND-C-REL-008,V1-ENT-0154,EXPLORES_THEME,V1-ENT-0107,《孤独的迷宫》与墨西哥身份/面具主题,low,hold,0,hold_needs_second_source
+V1-HOLD-0044,WEB-CE-B01,CAND-D-REL-12,V1-ENT-0158,SET_IN,V1-ENT-0095,《霍乱时期的爱情》设定于哥伦比亚（通行与卡塔赫纳关联）,low,resolved_to_relationship,2,RESOLVED_TO_V1-REL-0309|CODEX-REVIEW-WCD05-PASS
+V1-HOLD-0045,WEB-CE-B01,CAND-D-REL-13,V1-ENT-0160,SET_IN,V1-ENT-0124,《绿房子》设定于秘鲁（通行与皮乌拉/亚马逊关联）,low,resolved_to_relationship,1,RESOLVED_TO_V1-REL-0310|CODEX-REVIEW-WCD05-PASS
+V1-HOLD-0046,WEB-CE-B01,CAND-D-REL-14,V1-ENT-0158,ASSOCIATED_WITH_MOVEMENT,V1-ENT-0099,《霍乱时期的爱情》与魔幻现实主义的运动关联,low,rejected,1,REJECTED_WCD05_CONTRARY_SOURCE|CODEX-REVIEW-WCD05-PASS
+V1-HOLD-0047,WEB-CE-B01,CAND-D-REL-15,V1-ENT-0159,ASSOCIATED_WITH_MOVEMENT,V1-ENT-0099,《族长的秋天》与魔幻现实主义的运动关联,low,hold,0,hold_needs_second_source
+V1-HOLD-0048,WEB-CE-B01,CAND-D-REL-16,V1-ENT-0164,ASSOCIATED_WITH_MOVEMENT,V1-ENT-0130,《秘密武器》作者科塔萨尔与文学爆炸的关联,low,hold,1,hold_needs_second_source
+V1-HOLD-0049,WEB-CE-B01,CAND-D-REL-17,V1-ENT-0160,ASSOCIATED_WITH_MOVEMENT,V1-ENT-0130,《绿房子》与文学爆炸的关联,low,hold,0,hold_needs_second_source
+V1-HOLD-0050,WEB-CE-B01,CAND-D-REL-19,V1-ENT-0158,EXPLORES_THEME,V1-ENT-0136,《霍乱时期的爱情》与爱情体验主题的关联,low,hold,0,hold_needs_second_source
+V1-HOLD-0051,WEB-CE-B03,CAND-B03-GEO-0127,V1-ENT-0187,SET_IN,V1-ENT-0197,《短暂的生命》与 Santa María 的场景关系待直接证据确认；当前来源只足以支持其建立该文学空间。,medium,hold_needs_direct_scene_evidence,1,HOLD_REQUIRED

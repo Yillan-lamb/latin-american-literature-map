@@ -1,0 +1,247 @@
+{
+  "verdict": "fail",
+  "errors": [
+    "existing field values require explicit conflict review: V1-ENT-0154/bibliographic_note: ['诺贝尔书目页未列西语原版；英译 The Labyrinth of Solitude（tr. Lysander Kemp）Penguin 1985；poets.org 标初版 FCE 1950']"
+  ],
+  "warnings": [
+    "Mechanical PASS does not admit sources/facts/relations; independent Reviewer remains required."
+  ],
+  "counts": {
+    "source_candidates": 26,
+    "new_entity_candidates": 9,
+    "new_fact_candidates": 48,
+    "new_created_candidates": 9,
+    "extra_relationship_candidates": 1,
+    "deferred": 15
+  },
+  "dedup": [
+    {
+      "candidate_id": "WCD10-B05-S01",
+      "kind": "source",
+      "disposition": "reuse",
+      "matches": [
+        "SRC-0134"
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B05-S02",
+      "kind": "source",
+      "disposition": "reuse",
+      "matches": [
+        "SRC-0135"
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B05-S03",
+      "kind": "source",
+      "disposition": "reuse",
+      "matches": [
+        "SRC-0136"
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B05-S04",
+      "kind": "source",
+      "disposition": "reuse",
+      "matches": [
+        "SRC-0137"
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B05-S05",
+      "kind": "source",
+      "disposition": "reuse",
+      "matches": [
+        "SRC-0130"
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B05-S06",
+      "kind": "source",
+      "disposition": "reuse",
+      "matches": [
+        "SRC-0132"
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B05-S07",
+      "kind": "source",
+      "disposition": "reuse",
+      "matches": [
+        "SRC-0099"
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B05-S08",
+      "kind": "source",
+      "disposition": "reuse",
+      "matches": [
+        "SRC-0100"
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B05-S09",
+      "kind": "source",
+      "disposition": "new",
+      "matches": []
+    },
+    {
+      "candidate_id": "WCD10-B05-S10",
+      "kind": "source",
+      "disposition": "new",
+      "matches": []
+    },
+    {
+      "candidate_id": "WCD10-B05-S11",
+      "kind": "source",
+      "disposition": "new",
+      "matches": []
+    },
+    {
+      "candidate_id": "WCD10-B05-S12",
+      "kind": "source",
+      "disposition": "reuse",
+      "matches": [
+        "SRC-0300"
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B05-S13",
+      "kind": "source",
+      "disposition": "new",
+      "matches": []
+    },
+    {
+      "candidate_id": "WCD10-B05-S14",
+      "kind": "source",
+      "disposition": "new",
+      "matches": []
+    },
+    {
+      "candidate_id": "WCD10-B05-S15",
+      "kind": "source",
+      "disposition": "new",
+      "matches": []
+    },
+    {
+      "candidate_id": "WCD10-B05-S16",
+      "kind": "source",
+      "disposition": "new",
+      "matches": []
+    },
+    {
+      "candidate_id": "WCD10-B05-S17",
+      "kind": "source",
+      "disposition": "new",
+      "matches": []
+    },
+    {
+      "candidate_id": "WCD10-B05-S18",
+      "kind": "source",
+      "disposition": "new",
+      "matches": []
+    },
+    {
+      "candidate_id": "WCD10-B05-S19",
+      "kind": "source",
+      "disposition": "new",
+      "matches": []
+    },
+    {
+      "candidate_id": "WCD10-B05-S20",
+      "kind": "source",
+      "disposition": "new",
+      "matches": []
+    },
+    {
+      "candidate_id": "WCD10-B05-S21",
+      "kind": "source",
+      "disposition": "new",
+      "matches": []
+    },
+    {
+      "candidate_id": "WCD10-B05-S22",
+      "kind": "source",
+      "disposition": "new",
+      "matches": []
+    },
+    {
+      "candidate_id": "WCD10-B05-S23",
+      "kind": "source",
+      "disposition": "new",
+      "matches": []
+    },
+    {
+      "candidate_id": "WCD10-B05-S24",
+      "kind": "source",
+      "disposition": "new",
+      "matches": []
+    },
+    {
+      "candidate_id": "WCD10-B05-S25",
+      "kind": "source",
+      "disposition": "new",
+      "matches": []
+    },
+    {
+      "candidate_id": "WCD10-B05-S26",
+      "kind": "source",
+      "disposition": "new",
+      "matches": []
+    },
+    {
+      "candidate_id": "WCD10-B05-W01",
+      "kind": "entity",
+      "disposition": "new",
+      "matches": []
+    },
+    {
+      "candidate_id": "WCD10-B05-W02",
+      "kind": "entity",
+      "disposition": "new",
+      "matches": []
+    },
+    {
+      "candidate_id": "WCD10-B05-W03",
+      "kind": "entity",
+      "disposition": "new",
+      "matches": []
+    },
+    {
+      "candidate_id": "WCD10-B05-W05",
+      "kind": "entity",
+      "disposition": "new",
+      "matches": []
+    },
+    {
+      "candidate_id": "WCD10-B05-W06",
+      "kind": "entity",
+      "disposition": "new",
+      "matches": []
+    },
+    {
+      "candidate_id": "WCD10-B05-W07",
+      "kind": "entity",
+      "disposition": "new",
+      "matches": []
+    },
+    {
+      "candidate_id": "WCD10-B05-W08",
+      "kind": "entity",
+      "disposition": "new",
+      "matches": []
+    },
+    {
+      "candidate_id": "WCD10-B05-W09",
+      "kind": "entity",
+      "disposition": "new",
+      "matches": []
+    },
+    {
+      "candidate_id": "WCD10-B05-W10",
+      "kind": "entity",
+      "disposition": "new",
+      "matches": []
+    }
+  ]
+}

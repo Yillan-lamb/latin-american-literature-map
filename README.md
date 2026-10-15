@@ -30,17 +30,18 @@
 
 ## 当前内容规模
 
-以下数字由当前 `main` 的 Research Database 与完整开发预览重新核验：
+以下数字由本开发分支的当前 Research Database 与完整开发投影重新核验；WCD-10 TYPE_CORRECTION是未发布研究检查点，公开包仍与既有基线逐字节一致：
 
 | 内容 | 数量 |
 | --- | ---: |
-| 规范实体 | 377 |
-| 研究事实 | 1027 |
-| 实体关系 | 334 |
-| 来源记录 | 314 |
-| 内容卡 | 261 |
-| 开发预览中的作者 | 61 |
-| 开发预览中的作品 / 合集 | 170 |
+| 规范实体 | 796 |
+| 研究事实 | 2686 |
+| 实体关系 | 770 |
+| 来源记录 | 795 |
+| 内容卡 | 824 |
+| 研究缺口 | 691 |
+| Curation 登记的核心作者（不全公开） | 61 |
+| Curation 登记的作品 / 合集（不全公开） | 170 |
 | 已批准并投影的作家趣闻 | 82（覆盖 24 位公开作者） |
 
 数据库还包含地点、文学运动、事件、主题、人物、角色、改编与版本等实体。开发数据库的完整实体数与网页当前展示范围并不等同：网页只消费已进入相应公开或预览范围的数据。
@@ -66,15 +67,16 @@ Map / Timeline / Pages / Search
 - 研究事实、证据材料、策展文字和网页展示数据分层保存；
 - 网站内容从研究数据和策展数据构建，不在前端另行维护一套文学事实；
 - 尚不确定或未完成审核的内容进入 hold / review，不被强行发布。
+- WCD-10候选验证的 `--review-gate` 应传入完整主 `REVIEW_GATE.json`；仅当整体 `verdict` 为 `PASS` 时，验证器才提取其中的 `conflict_review`。缺少该字段或整体门禁未通过会 fail closed；命令行仍兼容直接传入窄格式 `wcd10-append-only-conflict-review-1` 文件。
 
 ## 项目状态
 
 项目已完成第一阶段研究数据库建设，目前处于持续扩充与数字展览开发阶段。
 
 - **正式 Research Data Release**：`Data V1.0.0`，保留为已发布的历史基线；
-- **当前 Development Data**：`Data 1.5.0 development candidate`，WCD-07 已完成 6 个 P0 重要作品/合集的研究补全与来源治理；
+- **当前 Development Data**：`Data 1.5.0 development candidate`。WCD-10已完成61位作者、21个批次和必要回补的有边界内容扩充，累计新增419个作品/合集、1659项事实和436条关系。终审15个合集类型问题通过0058修正；58迁移/19表重放、三格式导出、173项Python测试及公开边界验收通过。详见[最终全量审计](./data/changesets/WCD-10/FINAL_AUDIT/FINAL_AUDIT.md)与[61作者矩阵](./data/changesets/WCD-10/FINAL_AUDIT/AUTHOR_MATRIX.md)。合理研究缺口保留，研究内容尚未取得新增公开准入；
 - **当前 Research Schema**：`0.4`；**Web Data schema**：`v2-web-0.3`；
-- **当前 Web Development**：`Web 0.6.0 Development`，WCD-11 已将已批准的文学档案视觉系统接入正式全站，搜索覆盖完整公开索引、时间线支持类型与年代窗口组合筛选；WCD-09 的 Natural Earth 50m 底图、LAEA 投影、L1 背景 / L2 文学交互及地理中立性说明保持不变。Research layer 仍为 377 entities / 1027 facts / 334 relationships / 314 sources / 261 content cards；WCD-08 获批趣闻中 82 条投影到 24 位现有公开作者页；
+- **当前 Web Development**：`Web 0.6.0 Development`，WCD-11 已将已批准的文学档案视觉系统接入正式全站，搜索覆盖完整公开索引、时间线支持类型与年代窗口组合筛选；WCD-09 的 Natural Earth 50m 底图、LAEA 投影、L1 背景 / L2 文学交互及地理中立性说明保持不变。TYPE_CORRECTION固定日期重建后177个公共文件与既有基线逐字节相同；仍为127个公开对象／139条路由，本次新增公开对象0；校验通过的manifest.json与site_data.json按字节复制至开发Web数据目录。WCD-08获批趣闻中82条投影到24位现有公开作者页；
 - **公开状态**：GitHub Pages 提供开发预览，正式 Public Release 仍暂停，预览不等同于正式研究数据发布。
 
 详细变更见 [CHANGELOG](./CHANGELOG.md) 和 [版本文档](./docs/releases)。

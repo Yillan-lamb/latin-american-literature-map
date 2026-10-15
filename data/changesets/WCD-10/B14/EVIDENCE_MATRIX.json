@@ -1,0 +1,1060 @@
+{
+  "task_id": "TASK-119",
+  "batch_id": "WCD-10-B14",
+  "baseline_database_sha256": "c7b5951beb2e2a30053b08d84e07931547b8909a1e5a180086fafeedebaea677",
+  "entries": [
+    {
+      "candidate_fact_id": "WCD10-B14-W001-F01",
+      "author_id": "V1-ENT-0274",
+      "subject_ref": "WCD10-B14-W001",
+      "field": "genre_or_form",
+      "value": "中篇小说（nouvelle）",
+      "source_refs": [
+        "WCD10-B14-S001"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B14-S001",
+          "locator": "实读2026-10-13。Anagrama第480-510行；作品简介及Ficha técnica中的PUBLICACIÓN 01/02/2002。",
+          "support_type": "direct_publisher_work_page",
+          "note": "仅支持本事实陈述及指定出版社版本，不推断未证事实。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B14-W001-F02",
+      "author_id": "V1-ENT-0274",
+      "subject_ref": "WCD10-B14-W001",
+      "field": "one_sentence_summary",
+      "value": "作品围绕巴拿马低级公务员瓦拉莫展开：他在领薪后经历一连串日常琐事，随后写出一部后来被称为中美洲现代诗歌杰作的作品。",
+      "source_refs": [
+        "WCD10-B14-S001"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B14-S001",
+          "locator": "实读2026-10-13。Anagrama第480-510行；作品简介及Ficha técnica中的PUBLICACIÓN 01/02/2002。",
+          "support_type": "direct_publisher_work_page",
+          "note": "仅支持本事实陈述及指定出版社版本，不推断未证事实。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B14-W001-F03",
+      "author_id": "V1-ENT-0274",
+      "subject_ref": "WCD10-B14-W001",
+      "field": "bibliographic_note",
+      "value": "Editorial Anagrama作品页将2002-02-01列为该版出版日期；此处作为出版社版本书目日期记录，不推定首版年份。",
+      "source_refs": [
+        "WCD10-B14-S001"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B14-S001",
+          "locator": "实读2026-10-13。Anagrama第480-510行；作品简介及Ficha técnica中的PUBLICACIÓN 01/02/2002。",
+          "support_type": "direct_publisher_work_page",
+          "note": "仅支持本事实陈述及指定出版社版本，不推断未证事实。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B14-W002-F01",
+      "author_id": "V1-ENT-0274",
+      "subject_ref": "WCD10-B14-W002",
+      "field": "genre_or_form",
+      "value": "小说",
+      "source_refs": [
+        "WCD10-B14-S002"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B14-S002",
+          "locator": "实读2026-10-13。New Directions独立作品页第14-16、35-39行标明书名作者、小说体裁与简介；第48-54行标明该英文版日期。",
+          "support_type": "direct_publisher_work_page",
+          "note": "独立作品页直接提供作品信息，不推定西语首发年。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B14-W002-F02",
+      "author_id": "V1-ENT-0274",
+      "subject_ref": "WCD10-B14-W002",
+      "field": "one_sentence_summary",
+      "value": "作品以第一人称讲述一个六岁儿童的成长经历，叙述在记忆、现实与虚构之间展开。",
+      "source_refs": [
+        "WCD10-B14-S002"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B14-S002",
+          "locator": "实读2026-10-13。New Directions独立作品页第14-16、35-39行标明书名作者、小说体裁与简介；第48-54行标明该英文版日期。",
+          "support_type": "direct_publisher_work_page",
+          "note": "独立作品页直接提供作品信息，不推定西语首发年。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B14-W002-F03",
+      "author_id": "V1-ENT-0274",
+      "subject_ref": "WCD10-B14-W002",
+      "field": "bibliographic_note",
+      "value": "New Directions出版社的独立作品页将此作作为单独书名出版，记录该英文版平装本出版于2008年2月1日；此为译本版本日期，不推定西语首版年份。",
+      "source_refs": [
+        "WCD10-B14-S002"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B14-S002",
+          "locator": "实读2026-10-13。New Directions独立作品页第14-16、35-39行标明书名作者、小说体裁与简介；第48-54行标明该英文版日期。",
+          "support_type": "direct_publisher_work_page",
+          "note": "独立作品页直接提供作品信息，不推定西语首发年。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B14-W003-F01",
+      "author_id": "V1-ENT-0274",
+      "subject_ref": "WCD10-B14-W003",
+      "field": "genre_or_form",
+      "value": "小说",
+      "source_refs": [
+        "WCD10-B14-S003"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B14-S003",
+          "locator": "实读2026-10-13。第348行标示Random House、2005年6月；第370行书名；第476-485行作品简介。",
+          "support_type": "direct_publisher_work_page",
+          "note": "仅支持本事实陈述及指定出版社版本，不推断未证事实。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B14-W003-F02",
+      "author_id": "V1-ENT-0274",
+      "subject_ref": "WCD10-B14-W003",
+      "field": "one_sentence_summary",
+      "value": "作品以旅行画家约翰·莫里茨·鲁根达斯为中心，描写他第二次美洲之行中从门多萨继续穿越潘帕斯平原的经历；这段旅程重塑其身体、视觉与人生。",
+      "source_refs": [
+        "WCD10-B14-S003"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B14-S003",
+          "locator": "实读2026-10-13。第348行标示Random House、2005年6月；第370行书名；第476-485行作品简介。",
+          "support_type": "direct_publisher_work_page",
+          "note": "仅支持本事实陈述及指定出版社版本，不推断未证事实。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B14-W003-F03",
+      "author_id": "V1-ENT-0274",
+      "subject_ref": "WCD10-B14-W003",
+      "field": "bibliographic_note",
+      "value": "Penguin页面将本ISBN版本标为2005年6月；记录为出版社版本日期，不推定作品首发年。",
+      "source_refs": [
+        "WCD10-B14-S003"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B14-S003",
+          "locator": "实读2026-10-13。第348行标示Random House、2005年6月；第370行书名；第476-485行作品简介。",
+          "support_type": "direct_publisher_work_page",
+          "note": "仅支持本事实陈述及指定出版社版本，不推断未证事实。"
+        }
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B14-W101-F01",
+      "subject_ref": "WCD10-B14-W101",
+      "field": "first_publication_year",
+      "value": "1973",
+      "source_refs": [
+        "WCD10-B14-S101"
+      ],
+      "support": "Argentina.gob.ar culture article lines 34-37, 53-58; PlanetadeLibros author bibliography lines 90-92."
+    },
+    {
+      "candidate_id": "WCD10-B14-W101-F02",
+      "subject_ref": "WCD10-B14-W101",
+      "field": "genre_or_form",
+      "value": "小说",
+      "source_refs": [
+        "WCD10-B14-S103"
+      ],
+      "support": "Argentina.gob.ar culture article lines 34-37, 53-58; PlanetadeLibros author bibliography lines 90-92."
+    },
+    {
+      "candidate_id": "WCD10-B14-W101-F03",
+      "subject_ref": "WCD10-B14-W101",
+      "field": "one_sentence_summary",
+      "value": "出版社简介将小说置于1930至1969年间，以Leo Druscovich生命最后两天及一系列失踪、误导线索和性执念之谜为叙事线索。",
+      "source_refs": [
+        "WCD10-B14-S103"
+      ],
+      "support": "实读来源定位：出版社The Buenos Aires Affair页面简介段落21-23。"
+    },
+    {
+      "candidate_id": "WCD10-B14-W101-F04",
+      "subject_ref": "WCD10-B14-W101",
+      "field": "bibliographic_note",
+      "value": "阿根廷文化部记载作品于1973年出版并遭查禁；出版社简介支持此处有限情节概述。",
+      "source_refs": [
+        "WCD10-B14-S101",
+        "WCD10-B14-S103"
+      ],
+      "support": "Argentina.gob.ar culture article lines 34-37, 53-58; PlanetadeLibros author bibliography lines 90-92."
+    },
+    {
+      "candidate_id": "WCD10-B14-W102-F01",
+      "subject_ref": "WCD10-B14-W102",
+      "field": "first_publication_year",
+      "value": "1979",
+      "source_refs": [
+        "WCD10-B14-S101"
+      ],
+      "support": "Argentina.gob.ar culture article lines 34-37, 53-58; PlanetadeLibros author bibliography lines 90-92."
+    },
+    {
+      "candidate_id": "WCD10-B14-W102-F02",
+      "subject_ref": "WCD10-B14-W102",
+      "field": "genre_or_form",
+      "value": "小说",
+      "source_refs": [
+        "WCD10-B14-S101"
+      ],
+      "support": "Argentina.gob.ar culture article lines 34-37, 53-58; PlanetadeLibros author bibliography lines 90-92."
+    },
+    {
+      "candidate_id": "WCD10-B14-W102-F03",
+      "subject_ref": "WCD10-B14-W102",
+      "field": "one_sentence_summary",
+      "value": "小说以住院的安娜及其情感经历为线索，联系阿根廷20世纪60至70年代生活；阿根廷文化部提供这一简要内容说明。",
+      "source_refs": [
+        "WCD10-B14-S101"
+      ],
+      "support": "实读来源定位：Argentina.gob.ar网页段落41-58。"
+    },
+    {
+      "candidate_id": "WCD10-B14-W102-F04",
+      "subject_ref": "WCD10-B14-W102",
+      "field": "bibliographic_note",
+      "value": "阿根廷文化部机构文章记载《Pubis angelical》于1979年出版并列为普伊格作品；出版社作者书目列有该书。",
+      "source_refs": [
+        "WCD10-B14-S101"
+      ],
+      "support": "Argentina.gob.ar culture article lines 34-37, 53-58; PlanetadeLibros author bibliography lines 90-92."
+    },
+    {
+      "candidate_id": "WCD10-B14-W103-F01",
+      "subject_ref": "WCD10-B14-W103",
+      "field": "first_publication_year",
+      "value": "1980",
+      "source_refs": [
+        "WCD10-B14-S102"
+      ],
+      "support": "Argentina.gob.ar culture article lines 34-37, 53-58; PlanetadeLibros author bibliography lines 90-92."
+    },
+    {
+      "candidate_id": "WCD10-B14-W103-F02",
+      "subject_ref": "WCD10-B14-W103",
+      "field": "genre_or_form",
+      "value": "小说",
+      "source_refs": [
+        "WCD10-B14-S104"
+      ],
+      "support": "Argentina.gob.ar culture article lines 34-37, 53-58; PlanetadeLibros author bibliography lines 90-92."
+    },
+    {
+      "candidate_id": "WCD10-B14-W103-F03",
+      "subject_ref": "WCD10-B14-W103",
+      "field": "one_sentence_summary",
+      "value": "出版社简介写一名阿根廷病人与美国看护者在纽约相遇，两人的孤独与对缺席女性的记忆构成关系主线。",
+      "source_refs": [
+        "WCD10-B14-S104"
+      ],
+      "support": "实读来源定位：出版社Maldición eterna页面类别/书目段落59-77。"
+    },
+    {
+      "candidate_id": "WCD10-B14-W103-F04",
+      "subject_ref": "WCD10-B14-W103",
+      "field": "bibliographic_note",
+      "value": "出版社作者书目记载作品于1980年出版；该书页面支持此处有限情节概述。",
+      "source_refs": [
+        "WCD10-B14-S102",
+        "WCD10-B14-S104"
+      ],
+      "support": "Argentina.gob.ar culture article lines 34-37, 53-58; PlanetadeLibros author bibliography lines 90-92."
+    },
+    {
+      "candidate_id": "WCD10-B14-W104-F01",
+      "subject_ref": "WCD10-B14-W104",
+      "field": "first_publication_year",
+      "value": "1982",
+      "source_refs": [
+        "WCD10-B14-S101"
+      ],
+      "support": "Argentina.gob.ar culture article lines 34-37, 53-58; PlanetadeLibros author bibliography lines 90-92."
+    },
+    {
+      "candidate_id": "WCD10-B14-W104-F02",
+      "subject_ref": "WCD10-B14-W104",
+      "field": "genre_or_form",
+      "value": "小说",
+      "source_refs": [
+        "WCD10-B14-S101"
+      ],
+      "support": "Argentina.gob.ar culture article lines 34-37, 53-58; PlanetadeLibros author bibliography lines 90-92."
+    },
+    {
+      "candidate_id": "WCD10-B14-W104-F03",
+      "subject_ref": "WCD10-B14-W104",
+      "field": "one_sentence_summary",
+      "value": "小说以巴西小镇为背景，讲述少女Maria da Gloria及其家庭经历；阿根廷文化部提供该书的概要。",
+      "source_refs": [
+        "WCD10-B14-S101"
+      ],
+      "support": "实读来源定位：Argentina.gob.ar网页段落41-58。"
+    },
+    {
+      "candidate_id": "WCD10-B14-W104-F04",
+      "subject_ref": "WCD10-B14-W104",
+      "field": "bibliographic_note",
+      "value": "阿根廷文化部机构文章记载《Sangre de amor correspondido》于1982年出版并列为普伊格作品；出版社作者书目列有该书。",
+      "source_refs": [
+        "WCD10-B14-S101"
+      ],
+      "support": "Argentina.gob.ar culture article lines 34-37, 53-58; PlanetadeLibros author bibliography lines 90-92."
+    },
+    {
+      "candidate_id": "WCD10-B14-W105-F01",
+      "subject_ref": "WCD10-B14-W105",
+      "field": "first_publication_year",
+      "value": "1988",
+      "source_refs": [
+        "WCD10-B14-S101"
+      ],
+      "support": "Argentina.gob.ar culture article lines 34-37, 53-58; PlanetadeLibros author bibliography lines 90-92."
+    },
+    {
+      "candidate_id": "WCD10-B14-W105-F02",
+      "subject_ref": "WCD10-B14-W105",
+      "field": "genre_or_form",
+      "value": "小说",
+      "source_refs": [
+        "WCD10-B14-S105"
+      ],
+      "support": "Argentina.gob.ar culture article lines 34-37, 53-58; PlanetadeLibros author bibliography lines 90-92."
+    },
+    {
+      "candidate_id": "WCD10-B14-W105-F03",
+      "subject_ref": "WCD10-B14-W105",
+      "field": "one_sentence_summary",
+      "value": "出版社简介以里约热内卢为背景，写两位年长的阿根廷姐妹谈及一位年轻流亡邻居的情感经历，并以交谈和闲谈呈现故事。",
+      "source_refs": [
+        "WCD10-B14-S105"
+      ],
+      "support": "实读来源定位：出版社Cae la noche tropical页面简介段落19-23。"
+    },
+    {
+      "candidate_id": "WCD10-B14-W105-F04",
+      "subject_ref": "WCD10-B14-W105",
+      "field": "bibliographic_note",
+      "value": "阿根廷文化部与出版社书目均列作品及1988年；出版社作品页面支持此处有限情节概述。",
+      "source_refs": [
+        "WCD10-B14-S101",
+        "WCD10-B14-S105"
+      ],
+      "support": "Argentina.gob.ar culture article lines 34-37, 53-58; PlanetadeLibros author bibliography lines 90-92."
+    },
+    {
+      "candidate_fact_id": "WCD10-B14-W201-F01",
+      "author_id": "V1-ENT-0285",
+      "subject_ref": "WCD10-B14-W201",
+      "field": "genre_or_form",
+      "value": "短篇小说集",
+      "source_refs": [
+        "WCD10-B14-S201",
+        "WCD10-B14-S202",
+        "WCD10-B14-S203"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B14-S201",
+          "locator": "Educ.ar “Para leer”第49-50行；实读2026-10-13。",
+          "support_type": "direct_institutional_or_university_library_record",
+          "note": "机构作品目录或大学特藏直接支持作品、形态与可确认年份；来源年份冲突则以候选注记保留。"
+        },
+        {
+          "source_ref": "WCD10-B14-S202",
+          "locator": "阿根廷文化部作者作品目录第65-70行；实读2026-10-13。",
+          "support_type": "direct_institutional_or_university_library_record",
+          "note": "机构作品目录或大学特藏直接支持作品、形态与可确认年份；来源年份冲突则以候选注记保留。"
+        },
+        {
+          "source_ref": "WCD10-B14-S203",
+          "locator": "Notre Dame特藏图书馆第42-47、52-54行；实读2026-10-13。",
+          "support_type": "direct_institutional_or_university_library_record",
+          "note": "机构作品目录或大学特藏直接支持作品、形态与可确认年份；来源年份冲突则以候选注记保留。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B14-W201-F03",
+      "author_id": "V1-ENT-0285",
+      "subject_ref": "WCD10-B14-W201",
+      "field": "one_sentence_summary",
+      "value": "Notre Dame特藏馆确认该对象为短篇故事集；目录将出版年分别列作1946和1948，冲突保留，不填首发年。",
+      "source_refs": [
+        "WCD10-B14-S201",
+        "WCD10-B14-S203"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B14-S201",
+          "locator": "Educ.ar “Para leer”第49-50行；实读2026-10-13。",
+          "support_type": "direct_institutional_or_university_library_record",
+          "note": "机构作品目录或大学特藏直接支持作品、形态与可确认年份；来源年份冲突则以候选注记保留。"
+        },
+        {
+          "source_ref": "WCD10-B14-S203",
+          "locator": "Notre Dame特藏图书馆第42-47、52-54行；实读2026-10-13。",
+          "support_type": "direct_institutional_or_university_library_record",
+          "note": "机构作品目录或大学特藏直接支持作品、形态与可确认年份；来源年份冲突则以候选注记保留。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B14-W201-F04",
+      "author_id": "V1-ENT-0285",
+      "subject_ref": "WCD10-B14-W201",
+      "field": "bibliographic_note",
+      "value": "Educ.ar条目将Autobiografía de Irene置于1946，阿根廷文化部与Notre Dame特藏图书馆列其为1948；大学图书馆确认这是1948短篇集初版。不同机构年份冲突保留，首发年份原子值留空。",
+      "source_refs": [
+        "WCD10-B14-S201",
+        "WCD10-B14-S203",
+        "WCD10-B14-S202"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B14-S201",
+          "locator": "Educ.ar “Para leer”第49-50行；实读2026-10-13。",
+          "support_type": "direct_institutional_or_university_library_record",
+          "note": "机构作品目录或大学特藏直接支持作品、形态与可确认年份；来源年份冲突则以候选注记保留。"
+        },
+        {
+          "source_ref": "WCD10-B14-S203",
+          "locator": "Notre Dame特藏图书馆第42-47、52-54行；实读2026-10-13。",
+          "support_type": "direct_institutional_or_university_library_record",
+          "note": "机构作品目录或大学特藏直接支持作品、形态与可确认年份；来源年份冲突则以候选注记保留。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B14-W202-F01",
+      "author_id": "V1-ENT-0285",
+      "subject_ref": "WCD10-B14-W202",
+      "field": "genre_or_form",
+      "value": "短篇小说集",
+      "source_refs": [
+        "WCD10-B14-S201",
+        "WCD10-B14-S202",
+        "WCD10-B14-S203"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B14-S201",
+          "locator": "Educ.ar “Para leer”第49-50行；实读2026-10-13。",
+          "support_type": "direct_institutional_or_university_library_record",
+          "note": "机构作品目录或大学特藏直接支持作品、形态与可确认年份；来源年份冲突则以候选注记保留。"
+        },
+        {
+          "source_ref": "WCD10-B14-S202",
+          "locator": "阿根廷文化部作者作品目录第65-70行；实读2026-10-13。",
+          "support_type": "direct_institutional_or_university_library_record",
+          "note": "机构作品目录或大学特藏直接支持作品、形态与可确认年份；来源年份冲突则以候选注记保留。"
+        },
+        {
+          "source_ref": "WCD10-B14-S203",
+          "locator": "Notre Dame特藏图书馆第42-47、52-54行；实读2026-10-13。",
+          "support_type": "direct_institutional_or_university_library_record",
+          "note": "机构作品目录或大学特藏直接支持作品、形态与可确认年份；来源年份冲突则以候选注记保留。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B14-W202-F02",
+      "author_id": "V1-ENT-0285",
+      "subject_ref": "WCD10-B14-W202",
+      "field": "first_publication_year",
+      "value": "1970",
+      "source_refs": [
+        "WCD10-B14-S201",
+        "WCD10-B14-S202",
+        "WCD10-B14-S203"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B14-S201",
+          "locator": "Educ.ar “Para leer”第49-50行；实读2026-10-13。",
+          "support_type": "direct_institutional_or_university_library_record",
+          "note": "机构作品目录或大学特藏直接支持作品、形态与可确认年份；来源年份冲突则以候选注记保留。"
+        },
+        {
+          "source_ref": "WCD10-B14-S202",
+          "locator": "阿根廷文化部作者作品目录第65-70行；实读2026-10-13。",
+          "support_type": "direct_institutional_or_university_library_record",
+          "note": "机构作品目录或大学特藏直接支持作品、形态与可确认年份；来源年份冲突则以候选注记保留。"
+        },
+        {
+          "source_ref": "WCD10-B14-S203",
+          "locator": "Notre Dame特藏图书馆第42-47、52-54行；实读2026-10-13。",
+          "support_type": "direct_institutional_or_university_library_record",
+          "note": "机构作品目录或大学特藏直接支持作品、形态与可确认年份；来源年份冲突则以候选注记保留。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B14-W202-F03",
+      "author_id": "V1-ENT-0285",
+      "subject_ref": "WCD10-B14-W202",
+      "field": "one_sentence_summary",
+      "value": "Notre Dame特藏馆将其列为1970年出版的短篇故事集。",
+      "source_refs": [
+        "WCD10-B14-S201",
+        "WCD10-B14-S202",
+        "WCD10-B14-S203"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B14-S201",
+          "locator": "Educ.ar “Para leer”第49-50行；实读2026-10-13。",
+          "support_type": "direct_institutional_or_university_library_record",
+          "note": "机构作品目录或大学特藏直接支持作品、形态与可确认年份；来源年份冲突则以候选注记保留。"
+        },
+        {
+          "source_ref": "WCD10-B14-S202",
+          "locator": "阿根廷文化部作者作品目录第65-70行；实读2026-10-13。",
+          "support_type": "direct_institutional_or_university_library_record",
+          "note": "该政府目录提供2021年作品清单，用于支持该书目注记中的来源年份说法。"
+        },
+        {
+          "source_ref": "WCD10-B14-S203",
+          "locator": "Notre Dame特藏图书馆第42-47、52-54行；实读2026-10-13。",
+          "support_type": "direct_institutional_or_university_library_record",
+          "note": "机构作品目录或大学特藏直接支持作品、形态与可确认年份；来源年份冲突则以候选注记保留。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B14-W202-F04",
+      "author_id": "V1-ENT-0285",
+      "subject_ref": "WCD10-B14-W202",
+      "field": "bibliographic_note",
+      "value": "Educ.ar列该题名；Notre Dame特藏馆将其列作短篇集并记录1970首版。",
+      "source_refs": [
+        "WCD10-B14-S201",
+        "WCD10-B14-S202",
+        "WCD10-B14-S203"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B14-S201",
+          "locator": "Educ.ar “Para leer”第49-50行；实读2026-10-13。",
+          "support_type": "direct_institutional_or_university_library_record",
+          "note": "机构作品目录或大学特藏直接支持作品、形态与可确认年份；来源年份冲突则以候选注记保留。"
+        },
+        {
+          "source_ref": "WCD10-B14-S202",
+          "locator": "阿根廷文化部作者作品目录第65-70行；实读2026-10-13。",
+          "support_type": "direct_institutional_or_university_library_record",
+          "note": "机构作品目录或大学特藏直接支持作品、形态与可确认年份；来源年份冲突则以候选注记保留。"
+        },
+        {
+          "source_ref": "WCD10-B14-S203",
+          "locator": "Notre Dame特藏图书馆第42-47、52-54行；实读2026-10-13。",
+          "support_type": "direct_institutional_or_university_library_record",
+          "note": "机构作品目录或大学特藏直接支持作品、形态与可确认年份；来源年份冲突则以候选注记保留。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B14-W203-F01",
+      "author_id": "V1-ENT-0285",
+      "subject_ref": "WCD10-B14-W203",
+      "field": "genre_or_form",
+      "value": "短篇小说集",
+      "source_refs": [
+        "WCD10-B14-S201",
+        "WCD10-B14-S202",
+        "WCD10-B14-S203"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B14-S201",
+          "locator": "Educ.ar “Para leer”第49-50行；实读2026-10-13。",
+          "support_type": "direct_institutional_or_university_library_record",
+          "note": "机构作品目录或大学特藏直接支持作品、形态与可确认年份；来源年份冲突则以候选注记保留。"
+        },
+        {
+          "source_ref": "WCD10-B14-S202",
+          "locator": "阿根廷文化部作者作品目录第65-70行；实读2026-10-13。",
+          "support_type": "direct_institutional_or_university_library_record",
+          "note": "机构作品目录或大学特藏直接支持作品、形态与可确认年份；来源年份冲突则以候选注记保留。"
+        },
+        {
+          "source_ref": "WCD10-B14-S203",
+          "locator": "Notre Dame特藏图书馆第42-47、52-54行；实读2026-10-13。",
+          "support_type": "direct_institutional_or_university_library_record",
+          "note": "机构作品目录或大学特藏直接支持作品、形态与可确认年份；来源年份冲突则以候选注记保留。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B14-W203-F02",
+      "author_id": "V1-ENT-0285",
+      "subject_ref": "WCD10-B14-W203",
+      "field": "first_publication_year",
+      "value": "1987",
+      "source_refs": [
+        "WCD10-B14-S201",
+        "WCD10-B14-S202",
+        "WCD10-B14-S203"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B14-S201",
+          "locator": "Educ.ar “Para leer”第49-50行；实读2026-10-13。",
+          "support_type": "direct_institutional_or_university_library_record",
+          "note": "机构作品目录或大学特藏直接支持作品、形态与可确认年份；来源年份冲突则以候选注记保留。"
+        },
+        {
+          "source_ref": "WCD10-B14-S202",
+          "locator": "阿根廷文化部作者作品目录第65-70行；实读2026-10-13。",
+          "support_type": "direct_institutional_or_university_library_record",
+          "note": "机构作品目录或大学特藏直接支持作品、形态与可确认年份；来源年份冲突则以候选注记保留。"
+        },
+        {
+          "source_ref": "WCD10-B14-S203",
+          "locator": "Notre Dame特藏图书馆第42-47、52-54行；实读2026-10-13。",
+          "support_type": "direct_institutional_or_university_library_record",
+          "note": "机构作品目录或大学特藏直接支持作品、形态与可确认年份；来源年份冲突则以候选注记保留。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B14-W203-F03",
+      "author_id": "V1-ENT-0285",
+      "subject_ref": "WCD10-B14-W203",
+      "field": "one_sentence_summary",
+      "value": "Educ.ar列为1987年作品；以机构列示的题名和年份作有限书目记录。",
+      "source_refs": [
+        "WCD10-B14-S201",
+        "WCD10-B14-S202",
+        "WCD10-B14-S203"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B14-S201",
+          "locator": "Educ.ar “Para leer”第49-50行；实读2026-10-13。",
+          "support_type": "direct_institutional_or_university_library_record",
+          "note": "机构作品目录或大学特藏直接支持作品、形态与可确认年份；来源年份冲突则以候选注记保留。"
+        },
+        {
+          "source_ref": "WCD10-B14-S202",
+          "locator": "阿根廷文化部作者作品目录第65-70行；实读2026-10-13。",
+          "support_type": "direct_institutional_or_university_library_record",
+          "note": "机构作品目录或大学特藏直接支持作品、形态与可确认年份；来源年份冲突则以候选注记保留。"
+        },
+        {
+          "source_ref": "WCD10-B14-S203",
+          "locator": "Notre Dame特藏图书馆第42-47、52-54行；实读2026-10-13。",
+          "support_type": "direct_institutional_or_university_library_record",
+          "note": "机构作品目录或大学特藏直接支持作品、形态与可确认年份；来源年份冲突则以候选注记保留。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B14-W203-F04",
+      "author_id": "V1-ENT-0285",
+      "subject_ref": "WCD10-B14-W203",
+      "field": "bibliographic_note",
+      "value": "Educ.ar在作者作品目录列出《如此等等》（Y así sucesivamente）及1987；此候选不推断版本或作品全集地位。",
+      "source_refs": [
+        "WCD10-B14-S201",
+        "WCD10-B14-S202",
+        "WCD10-B14-S203"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B14-S201",
+          "locator": "Educ.ar “Para leer”第49-50行；实读2026-10-13。",
+          "support_type": "direct_institutional_or_university_library_record",
+          "note": "机构作品目录或大学特藏直接支持作品、形态与可确认年份；来源年份冲突则以候选注记保留。"
+        },
+        {
+          "source_ref": "WCD10-B14-S202",
+          "locator": "阿根廷文化部作者作品目录第65-70行；实读2026-10-13。",
+          "support_type": "direct_institutional_or_university_library_record",
+          "note": "机构作品目录或大学特藏直接支持作品、形态与可确认年份；来源年份冲突则以候选注记保留。"
+        },
+        {
+          "source_ref": "WCD10-B14-S203",
+          "locator": "Notre Dame特藏图书馆第42-47、52-54行；实读2026-10-13。",
+          "support_type": "direct_institutional_or_university_library_record",
+          "note": "机构作品目录或大学特藏直接支持作品、形态与可确认年份；来源年份冲突则以候选注记保留。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B14-W204-F01",
+      "author_id": "V1-ENT-0285",
+      "subject_ref": "WCD10-B14-W204",
+      "field": "genre_or_form",
+      "value": "短篇小说集",
+      "source_refs": [
+        "WCD10-B14-S201",
+        "WCD10-B14-S202",
+        "WCD10-B14-S203"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B14-S201",
+          "locator": "Educ.ar “Para leer”第49-50行；实读2026-10-13。",
+          "support_type": "direct_institutional_or_university_library_record",
+          "note": "机构作品目录或大学特藏直接支持作品、形态与可确认年份；来源年份冲突则以候选注记保留。"
+        },
+        {
+          "source_ref": "WCD10-B14-S202",
+          "locator": "阿根廷文化部作者作品目录第65-70行；实读2026-10-13。",
+          "support_type": "direct_institutional_or_university_library_record",
+          "note": "机构作品目录或大学特藏直接支持作品、形态与可确认年份；来源年份冲突则以候选注记保留。"
+        },
+        {
+          "source_ref": "WCD10-B14-S203",
+          "locator": "Notre Dame特藏图书馆第42-47、52-54行；实读2026-10-13。",
+          "support_type": "direct_institutional_or_university_library_record",
+          "note": "机构作品目录或大学特藏直接支持作品、形态与可确认年份；来源年份冲突则以候选注记保留。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B14-W204-F02",
+      "author_id": "V1-ENT-0285",
+      "subject_ref": "WCD10-B14-W204",
+      "field": "first_publication_year",
+      "value": "1988",
+      "source_refs": [
+        "WCD10-B14-S201",
+        "WCD10-B14-S202",
+        "WCD10-B14-S203"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B14-S201",
+          "locator": "Educ.ar “Para leer”第49-50行；实读2026-10-13。",
+          "support_type": "direct_institutional_or_university_library_record",
+          "note": "机构作品目录或大学特藏直接支持作品、形态与可确认年份；来源年份冲突则以候选注记保留。"
+        },
+        {
+          "source_ref": "WCD10-B14-S202",
+          "locator": "阿根廷文化部作者作品目录第65-70行；实读2026-10-13。",
+          "support_type": "direct_institutional_or_university_library_record",
+          "note": "机构作品目录或大学特藏直接支持作品、形态与可确认年份；来源年份冲突则以候选注记保留。"
+        },
+        {
+          "source_ref": "WCD10-B14-S203",
+          "locator": "Notre Dame特藏图书馆第42-47、52-54行；实读2026-10-13。",
+          "support_type": "direct_institutional_or_university_library_record",
+          "note": "机构作品目录或大学特藏直接支持作品、形态与可确认年份；来源年份冲突则以候选注记保留。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B14-W204-F03",
+      "author_id": "V1-ENT-0285",
+      "subject_ref": "WCD10-B14-W204",
+      "field": "one_sentence_summary",
+      "value": "Educ.ar列为1988年作品；本描述限于书目和作品形态。",
+      "source_refs": [
+        "WCD10-B14-S201",
+        "WCD10-B14-S202",
+        "WCD10-B14-S203"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B14-S201",
+          "locator": "Educ.ar “Para leer”第49-50行；实读2026-10-13。",
+          "support_type": "direct_institutional_or_university_library_record",
+          "note": "机构作品目录或大学特藏直接支持作品、形态与可确认年份；来源年份冲突则以候选注记保留。"
+        },
+        {
+          "source_ref": "WCD10-B14-S202",
+          "locator": "阿根廷文化部作者作品目录第65-70行；实读2026-10-13。",
+          "support_type": "direct_institutional_or_university_library_record",
+          "note": "机构作品目录或大学特藏直接支持作品、形态与可确认年份；来源年份冲突则以候选注记保留。"
+        },
+        {
+          "source_ref": "WCD10-B14-S203",
+          "locator": "Notre Dame特藏图书馆第42-47、52-54行；实读2026-10-13。",
+          "support_type": "direct_institutional_or_university_library_record",
+          "note": "机构作品目录或大学特藏直接支持作品、形态与可确认年份；来源年份冲突则以候选注记保留。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B14-W204-F04",
+      "author_id": "V1-ENT-0285",
+      "subject_ref": "WCD10-B14-W204",
+      "field": "bibliographic_note",
+      "value": "Educ.ar在作者作品目录列出《科内莉亚面对镜子》（Cornelia frente al espejo）及1988；此候选不推断版本或作品全集地位。",
+      "source_refs": [
+        "WCD10-B14-S201",
+        "WCD10-B14-S202",
+        "WCD10-B14-S203"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B14-S201",
+          "locator": "Educ.ar “Para leer”第49-50行；实读2026-10-13。",
+          "support_type": "direct_institutional_or_university_library_record",
+          "note": "机构作品目录或大学特藏直接支持作品、形态与可确认年份；来源年份冲突则以候选注记保留。"
+        },
+        {
+          "source_ref": "WCD10-B14-S202",
+          "locator": "阿根廷文化部作者作品目录第65-70行；实读2026-10-13。",
+          "support_type": "direct_institutional_or_university_library_record",
+          "note": "机构作品目录或大学特藏直接支持作品、形态与可确认年份；来源年份冲突则以候选注记保留。"
+        },
+        {
+          "source_ref": "WCD10-B14-S203",
+          "locator": "Notre Dame特藏图书馆第42-47、52-54行；实读2026-10-13。",
+          "support_type": "direct_institutional_or_university_library_record",
+          "note": "机构作品目录或大学特藏直接支持作品、形态与可确认年份；来源年份冲突则以候选注记保留。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B14-W205-F01",
+      "author_id": "V1-ENT-0285",
+      "subject_ref": "WCD10-B14-W205",
+      "field": "genre_or_form",
+      "value": "诗集",
+      "source_refs": [
+        "WCD10-B14-S201",
+        "WCD10-B14-S202",
+        "WCD10-B14-S203"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B14-S201",
+          "locator": "Educ.ar “Para leer”第49-50行；实读2026-10-13。",
+          "support_type": "direct_institutional_or_university_library_record",
+          "note": "机构作品目录或大学特藏直接支持作品、形态与可确认年份；来源年份冲突则以候选注记保留。"
+        },
+        {
+          "source_ref": "WCD10-B14-S202",
+          "locator": "阿根廷文化部作者作品目录第65-70行；实读2026-10-13。",
+          "support_type": "direct_institutional_or_university_library_record",
+          "note": "机构作品目录或大学特藏直接支持作品、形态与可确认年份；来源年份冲突则以候选注记保留。"
+        },
+        {
+          "source_ref": "WCD10-B14-S203",
+          "locator": "Notre Dame特藏图书馆第42-47、52-54行；实读2026-10-13。",
+          "support_type": "direct_institutional_or_university_library_record",
+          "note": "机构作品目录或大学特藏直接支持作品、形态与可确认年份；来源年份冲突则以候选注记保留。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B14-W205-F02",
+      "author_id": "V1-ENT-0285",
+      "subject_ref": "WCD10-B14-W205",
+      "field": "first_publication_year",
+      "value": "1942",
+      "source_refs": [
+        "WCD10-B14-S201",
+        "WCD10-B14-S202",
+        "WCD10-B14-S203"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B14-S201",
+          "locator": "Educ.ar “Para leer”第49-50行；实读2026-10-13。",
+          "support_type": "direct_institutional_or_university_library_record",
+          "note": "机构作品目录或大学特藏直接支持作品、形态与可确认年份；来源年份冲突则以候选注记保留。"
+        },
+        {
+          "source_ref": "WCD10-B14-S202",
+          "locator": "阿根廷文化部作者作品目录第65-70行；实读2026-10-13。",
+          "support_type": "direct_institutional_or_university_library_record",
+          "note": "机构作品目录或大学特藏直接支持作品、形态与可确认年份；来源年份冲突则以候选注记保留。"
+        },
+        {
+          "source_ref": "WCD10-B14-S203",
+          "locator": "Notre Dame特藏图书馆第42-47、52-54行；实读2026-10-13。",
+          "support_type": "direct_institutional_or_university_library_record",
+          "note": "机构作品目录或大学特藏直接支持作品、形态与可确认年份；来源年份冲突则以候选注记保留。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B14-W205-F03",
+      "author_id": "V1-ENT-0285",
+      "subject_ref": "WCD10-B14-W205",
+      "field": "one_sentence_summary",
+      "value": "Educ.ar诗歌作品目录列出该题名和1942年。",
+      "source_refs": [
+        "WCD10-B14-S201",
+        "WCD10-B14-S202",
+        "WCD10-B14-S203"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B14-S201",
+          "locator": "Educ.ar “Para leer”第49-50行；实读2026-10-13。",
+          "support_type": "direct_institutional_or_university_library_record",
+          "note": "机构作品目录或大学特藏直接支持作品、形态与可确认年份；来源年份冲突则以候选注记保留。"
+        },
+        {
+          "source_ref": "WCD10-B14-S202",
+          "locator": "阿根廷文化部作者作品目录第65-70行；实读2026-10-13。",
+          "support_type": "direct_institutional_or_university_library_record",
+          "note": "机构作品目录或大学特藏直接支持作品、形态与可确认年份；来源年份冲突则以候选注记保留。"
+        },
+        {
+          "source_ref": "WCD10-B14-S203",
+          "locator": "Notre Dame特藏图书馆第42-47、52-54行；实读2026-10-13。",
+          "support_type": "direct_institutional_or_university_library_record",
+          "note": "机构作品目录或大学特藏直接支持作品、形态与可确认年份；来源年份冲突则以候选注记保留。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B14-W205-F04",
+      "author_id": "V1-ENT-0285",
+      "subject_ref": "WCD10-B14-W205",
+      "field": "bibliographic_note",
+      "value": "Educ.ar在作者作品目录列出《祖国列举》（Enumeración de la patria）及1942；此候选不推断版本或作品全集地位。",
+      "source_refs": [
+        "WCD10-B14-S201",
+        "WCD10-B14-S202",
+        "WCD10-B14-S203"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B14-S201",
+          "locator": "Educ.ar “Para leer”第49-50行；实读2026-10-13。",
+          "support_type": "direct_institutional_or_university_library_record",
+          "note": "机构作品目录或大学特藏直接支持作品、形态与可确认年份；来源年份冲突则以候选注记保留。"
+        },
+        {
+          "source_ref": "WCD10-B14-S202",
+          "locator": "阿根廷文化部作者作品目录第65-70行；实读2026-10-13。",
+          "support_type": "direct_institutional_or_university_library_record",
+          "note": "机构作品目录或大学特藏直接支持作品、形态与可确认年份；来源年份冲突则以候选注记保留。"
+        },
+        {
+          "source_ref": "WCD10-B14-S203",
+          "locator": "Notre Dame特藏图书馆第42-47、52-54行；实读2026-10-13。",
+          "support_type": "direct_institutional_or_university_library_record",
+          "note": "机构作品目录或大学特藏直接支持作品、形态与可确认年份；来源年份冲突则以候选注记保留。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B14-W206-F01",
+      "author_id": "V1-ENT-0285",
+      "subject_ref": "WCD10-B14-W206",
+      "field": "genre_or_form",
+      "value": "诗集",
+      "source_refs": [
+        "WCD10-B14-S201",
+        "WCD10-B14-S202",
+        "WCD10-B14-S203"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B14-S201",
+          "locator": "Educ.ar “Para leer”第49-50行；实读2026-10-13。",
+          "support_type": "direct_institutional_or_university_library_record",
+          "note": "机构作品目录或大学特藏直接支持作品、形态与可确认年份；来源年份冲突则以候选注记保留。"
+        },
+        {
+          "source_ref": "WCD10-B14-S202",
+          "locator": "阿根廷文化部作者作品目录第65-70行；实读2026-10-13。",
+          "support_type": "direct_institutional_or_university_library_record",
+          "note": "机构作品目录或大学特藏直接支持作品、形态与可确认年份；来源年份冲突则以候选注记保留。"
+        },
+        {
+          "source_ref": "WCD10-B14-S203",
+          "locator": "Notre Dame特藏图书馆第42-47、52-54行；实读2026-10-13。",
+          "support_type": "direct_institutional_or_university_library_record",
+          "note": "机构作品目录或大学特藏直接支持作品、形态与可确认年份；来源年份冲突则以候选注记保留。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B14-W206-F03",
+      "author_id": "V1-ENT-0285",
+      "subject_ref": "WCD10-B14-W206",
+      "field": "one_sentence_summary",
+      "value": "Educ.ar列1942，文化部与Notre Dame特藏图书馆列1945；冲突保留，不填原子首发年。",
+      "source_refs": [
+        "WCD10-B14-S201",
+        "WCD10-B14-S203"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B14-S201",
+          "locator": "Educ.ar “Para leer”第49-50行；实读2026-10-13。",
+          "support_type": "direct_institutional_or_university_library_record",
+          "note": "机构作品目录或大学特藏直接支持作品、形态与可确认年份；来源年份冲突则以候选注记保留。"
+        },
+        {
+          "source_ref": "WCD10-B14-S203",
+          "locator": "Notre Dame特藏图书馆第42-47、52-54行；实读2026-10-13。",
+          "support_type": "direct_institutional_or_university_library_record",
+          "note": "机构作品目录或大学特藏直接支持作品、形态与可确认年份；来源年份冲突则以候选注记保留。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B14-W206-F04",
+      "author_id": "V1-ENT-0285",
+      "subject_ref": "WCD10-B14-W206",
+      "field": "bibliographic_note",
+      "value": "Educ.ar目录列《Espacios métricos》为1942，文化部与Notre Dame特藏图书馆列为1945；大学特藏记为1945首版。冲突保留，首发年份原子值留空。",
+      "source_refs": [
+        "WCD10-B14-S201",
+        "WCD10-B14-S203",
+        "WCD10-B14-S202"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B14-S201",
+          "locator": "Educ.ar “Para leer”第49-50行；实读2026-10-13。",
+          "support_type": "direct_institutional_or_university_library_record",
+          "note": "机构作品目录或大学特藏直接支持作品、形态与可确认年份；来源年份冲突则以候选注记保留。"
+        },
+        {
+          "source_ref": "WCD10-B14-S203",
+          "locator": "Notre Dame特藏图书馆第42-47、52-54行；实读2026-10-13。",
+          "support_type": "direct_institutional_or_university_library_record",
+          "note": "机构作品目录或大学特藏直接支持作品、形态与可确认年份；来源年份冲突则以候选注记保留。"
+        }
+      ]
+    }
+  ],
+  "author_metadata": [
+    {
+      "author_id": "V1-ENT-0274",
+      "metadata": {
+        "policy_by_author": {
+          "V1-ENT-0274": "未新增候选事实；既有事实的完整来源链见coverage。"
+        }
+      }
+    }
+  ]
+}

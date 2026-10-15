@@ -1,0 +1,337 @@
+{
+  "task_id": "TASK-124",
+  "batch_id": "WCD-10-B19",
+  "baseline_database_sha256": "8e2c26422a219990c8e397005ebd4e2c8499181f657b63f53cdb70af3e99d016",
+  "works": [
+    {
+      "candidate_id": "WCD10-B19-W001",
+      "original_name": "El palacio de las blanquísimas mofetas",
+      "name_zh_candidate": "《白色臭鼬宫殿》（暂译）",
+      "database_exact_original_title_matches": [],
+      "database_exact_chinese_display_matches": [],
+      "same_author_existing_work_semantic_review": {
+        "reviewed_existing_titles": [
+          "Celestino antes del alba",
+          "El mundo alucinante",
+          "Antes que anochezca"
+        ],
+        "result": "与该作者3部冻结关联作品题名不同；对冻结基库全部work/collection原题执行精确匹配，无命中。语义层次和Pentagonía关系交由批次独立Reviewer确认。"
+      },
+      "decision": "new candidate; independent semantic and relationship review required"
+    },
+    {
+      "candidate_id": "WCD10-B19-W002",
+      "original_name": "Otra vez el mar",
+      "name_zh_candidate": "《再一次，大海》（暂译）",
+      "database_exact_original_title_matches": [],
+      "database_exact_chinese_display_matches": [],
+      "same_author_existing_work_semantic_review": {
+        "reviewed_existing_titles": [
+          "Celestino antes del alba",
+          "El mundo alucinante",
+          "Antes que anochezca"
+        ],
+        "result": "与该作者3部冻结关联作品题名不同；对冻结基库全部work/collection原题执行精确匹配，无命中。语义层次和Pentagonía关系交由批次独立Reviewer确认。"
+      },
+      "decision": "new candidate; independent semantic and relationship review required"
+    },
+    {
+      "candidate_id": "WCD10-B19-W003",
+      "original_name": "El color del verano",
+      "name_zh_candidate": "《夏日的颜色》（暂译）",
+      "database_exact_original_title_matches": [],
+      "database_exact_chinese_display_matches": [],
+      "same_author_existing_work_semantic_review": {
+        "reviewed_existing_titles": [
+          "Celestino antes del alba",
+          "El mundo alucinante",
+          "Antes que anochezca"
+        ],
+        "result": "与该作者3部冻结关联作品题名不同；对冻结基库全部work/collection原题执行精确匹配，无命中。语义层次和Pentagonía关系交由批次独立Reviewer确认。"
+      },
+      "decision": "new candidate; independent semantic and relationship review required"
+    },
+    {
+      "candidate_id": "WCD10-B19-W004",
+      "original_name": "El asalto",
+      "name_zh_candidate": "《袭击》（暂译）",
+      "database_exact_original_title_matches": [],
+      "database_exact_chinese_display_matches": [],
+      "same_author_existing_work_semantic_review": {
+        "reviewed_existing_titles": [
+          "Celestino antes del alba",
+          "El mundo alucinante",
+          "Antes que anochezca"
+        ],
+        "result": "与该作者3部冻结关联作品题名不同；对冻结基库全部work/collection原题执行精确匹配，无命中。语义层次和Pentagonía关系交由批次独立Reviewer确认。"
+      },
+      "decision": "new candidate; independent semantic and relationship review required"
+    },
+    {
+      "candidate_id": "WCD10-B19-W005",
+      "original_name": "El portero",
+      "name_zh_candidate": "《门卫》（暂译）",
+      "database_exact_original_title_matches": [],
+      "database_exact_chinese_display_matches": [],
+      "same_author_existing_work_semantic_review": {
+        "reviewed_existing_titles": [
+          "Celestino antes del alba",
+          "El mundo alucinante",
+          "Antes que anochezca"
+        ],
+        "result": "与该作者3部冻结关联作品题名不同；对冻结基库全部work/collection原题执行精确匹配，无命中。语义层次和Pentagonía关系交由批次独立Reviewer确认。"
+      },
+      "decision": "new candidate; independent semantic and relationship review required"
+    },
+    {
+      "candidate_id": "WCD10-B19-W101",
+      "original_name": "Nombre de torero",
+      "normalized_match_check": "以SQLite冻结B19基线检索全部work/collection标题的规范化题名，并人工复核Sepúlveda全部3项linked作品与短篇合集层级。",
+      "disposition": "new_candidate_no_semantic_duplicate_identified",
+      "exact_matches": [],
+      "similar_titles_reviewed": [
+        "Un viejo que leía novelas de amor",
+        "Historia de una gaviota y del gato que le enseñó a volar",
+        "Mundo del fin del mundo"
+      ],
+      "entity_type": "work"
+    },
+    {
+      "candidate_id": "WCD10-B19-W102",
+      "original_name": "Patagonia Express",
+      "normalized_match_check": "以SQLite冻结B19基线检索全部work/collection标题的规范化题名，并人工复核Sepúlveda全部3项linked作品与短篇合集层级。",
+      "disposition": "new_candidate_no_semantic_duplicate_identified",
+      "exact_matches": [],
+      "similar_titles_reviewed": [
+        "Un viejo que leía novelas de amor",
+        "Historia de una gaviota y del gato que le enseñó a volar",
+        "Mundo del fin del mundo"
+      ],
+      "entity_type": "work"
+    },
+    {
+      "candidate_id": "WCD10-B19-W103",
+      "original_name": "Desencuentros",
+      "normalized_match_check": "以SQLite冻结B19基线检索全部work/collection标题的规范化题名，并人工复核Sepúlveda全部3项linked作品与短篇合集层级。",
+      "disposition": "new_candidate_no_semantic_duplicate_identified",
+      "exact_matches": [],
+      "similar_titles_reviewed": [
+        "Un viejo que leía novelas de amor",
+        "Historia de una gaviota y del gato que le enseñó a volar",
+        "Mundo del fin del mundo"
+      ],
+      "entity_type": "collection"
+    },
+    {
+      "candidate_id": "WCD10-B19-W104",
+      "original_name": "Diario de un killer sentimental seguido de Yacaré",
+      "normalized_match_check": "以SQLite冻结B19基线检索全部work/collection标题的规范化题名，并人工复核Sepúlveda全部3项linked作品与短篇合集层级。",
+      "disposition": "new_candidate_no_semantic_duplicate_identified",
+      "exact_matches": [],
+      "similar_titles_reviewed": [
+        "Un viejo que leía novelas de amor",
+        "Historia de una gaviota y del gato que le enseñó a volar",
+        "Mundo del fin del mundo"
+      ],
+      "entity_type": "collection"
+    },
+    {
+      "candidate_id": "WCD10-B19-W201",
+      "original_name": "El huésped",
+      "normalized_title_matches": [],
+      "disposition": "new_title_no_exact_or_normalized_existing_match",
+      "similar_titles_reviewed": [
+        "La hija única",
+        "El matrimonio de los peces rojos",
+        "Pétalos y otras historias incómodas"
+      ],
+      "semantic_scope_note": "手核作者全部冻结CREATED作品与批次B19冻结inventory；未把翻译版、单篇故事或同名题材当作不同作品创建。"
+    },
+    {
+      "candidate_id": "WCD10-B19-W202",
+      "original_name": "El cuerpo en que nací",
+      "normalized_title_matches": [],
+      "disposition": "new_title_no_exact_or_normalized_existing_match",
+      "similar_titles_reviewed": [
+        "La hija única",
+        "El matrimonio de los peces rojos",
+        "Pétalos y otras historias incómodas"
+      ],
+      "semantic_scope_note": "手核作者全部冻结CREATED作品与批次B19冻结inventory；未把翻译版、单篇故事或同名题材当作不同作品创建。"
+    },
+    {
+      "candidate_id": "WCD10-B19-W203",
+      "original_name": "Después del invierno",
+      "normalized_title_matches": [],
+      "disposition": "new_title_no_exact_or_normalized_existing_match",
+      "similar_titles_reviewed": [
+        "La hija única",
+        "El matrimonio de los peces rojos",
+        "Pétalos y otras historias incómodas"
+      ],
+      "semantic_scope_note": "手核作者全部冻结CREATED作品与批次B19冻结inventory；未把翻译版、单篇故事或同名题材当作不同作品创建。"
+    },
+    {
+      "candidate_id": "WCD10-B19-W204",
+      "original_name": "Los divagantes",
+      "normalized_title_matches": [],
+      "disposition": "new_title_no_exact_or_normalized_existing_match",
+      "similar_titles_reviewed": [
+        "La hija única",
+        "El matrimonio de los peces rojos",
+        "Pétalos y otras historias incómodas"
+      ],
+      "semantic_scope_note": "手核作者全部冻结CREATED作品与批次B19冻结inventory；未把翻译版、单篇故事或同名题材当作不同作品创建。"
+    }
+  ],
+  "sources": [
+    {
+      "candidate_id": "WCD10-B19-S001",
+      "url": "https://www.planetadelibros.com.mx/autor/reinaldo-arenas/000028899",
+      "normalized_url": "https://www.planetadelibros.com.mx/autor/reinaldo-arenas/000028899",
+      "disposition": "new_source_no_frozen_baseline_url_match",
+      "same_url_baseline_matches": [],
+      "candidate_facts": [
+        "WCD10-B19-F001",
+        "WCD10-B19-F015",
+        "WCD10-B19-F003",
+        "WCD10-B19-F004",
+        "WCD10-B19-F005",
+        "WCD10-B19-F007",
+        "WCD10-B19-F008",
+        "WCD10-B19-F017",
+        "WCD10-B19-F010",
+        "WCD10-B19-F012"
+      ],
+      "note": "普通新来源登记；不存在来源范围重叠裁决。"
+    },
+    {
+      "candidate_id": "WCD10-B19-S002",
+      "url": "https://www.planetadelibros.com/libro-el-color-del-verano/88440",
+      "normalized_url": "https://www.planetadelibros.com/libro-el-color-del-verano/88440",
+      "disposition": "new_source_no_frozen_baseline_url_match",
+      "same_url_baseline_matches": [],
+      "candidate_facts": [
+        "WCD10-B19-F006",
+        "WCD10-B19-F007"
+      ],
+      "note": "普通新来源登记；不存在来源范围重叠裁决。"
+    },
+    {
+      "candidate_id": "WCD10-B19-S003",
+      "url": "https://www.planetadelibros.com/libro-el-portero/88609",
+      "normalized_url": "https://www.planetadelibros.com/libro-el-portero/88609",
+      "disposition": "new_source_no_frozen_baseline_url_match",
+      "same_url_baseline_matches": [],
+      "candidate_facts": [
+        "WCD10-B19-F011",
+        "WCD10-B19-F012"
+      ],
+      "note": "普通新来源登记；不存在来源范围重叠裁决。"
+    },
+    {
+      "candidate_id": "WCD10-B19-S004",
+      "url": "https://www.planetadelibros.com/libro-el-palacio-de-las-blanquisimas-mofetas/88511",
+      "normalized_url": "https://www.planetadelibros.com/libro-el-palacio-de-las-blanquisimas-mofetas/88511",
+      "disposition": "new_source_no_frozen_baseline_url_match",
+      "same_url_baseline_matches": [],
+      "candidate_facts": [
+        "WCD10-B19-F013"
+      ],
+      "note": "普通新来源登记；不存在来源范围重叠裁决。"
+    },
+    {
+      "candidate_id": "WCD10-B19-S005",
+      "url": "https://proapi.planetadelibros.com/descargas/sala-prensa-libro/sinopsis-y-biografia/291793/otra-vez-el-mar.pdf",
+      "normalized_url": "https://proapi.planetadelibros.com/descargas/sala-prensa-libro/sinopsis-y-biografia/291793/otra-vez-el-mar.pdf",
+      "disposition": "new_source_no_frozen_baseline_url_match",
+      "same_url_baseline_matches": [],
+      "candidate_facts": [
+        "WCD10-B19-F004",
+        "WCD10-B19-F018"
+      ],
+      "note": "普通新来源登记；不存在来源范围重叠裁决。"
+    },
+    {
+      "candidate_id": "WCD10-B19-S006",
+      "url": "https://proapi.planetadelibros.com/descargas/sala-prensa-libro/sinopsis-y-biografia/88580/el-asalto.pdf",
+      "normalized_url": "https://proapi.planetadelibros.com/descargas/sala-prensa-libro/sinopsis-y-biografia/88580/el-asalto.pdf",
+      "disposition": "new_source_no_frozen_baseline_url_match",
+      "same_url_baseline_matches": [],
+      "candidate_facts": [
+        "WCD10-B19-F014"
+      ],
+      "note": "普通新来源登记；不存在来源范围重叠裁决。"
+    },
+    {
+      "candidate_id": "WCD10-B19-S101",
+      "existing_source_id": "SRC-0261",
+      "disposition": "reuse_existing_source",
+      "url": "https://www.memoriachilena.gob.cl/602/w3-propertyvalue-128650.html"
+    },
+    {
+      "candidate_id": "WCD10-B19-S102",
+      "existing_source_id": "SRC-0262",
+      "disposition": "reuse_existing_source",
+      "url": "https://www.bibliotecanacionaldigital.gob.cl/colecciones/BND/00/RC/RC0049657.pdf"
+    },
+    {
+      "candidate_id": "WCD10-B19-S103",
+      "disposition": "new_source",
+      "url": "https://proapi.planetadelibros.com/descargas/sala-prensa-libro/sinopsis-y-biografia/88421/diario-de-un-killer-sentimental-seguido-de-yacare.pdf"
+    },
+    {
+      "candidate_id": "WCD10-B19-S104",
+      "disposition": "new_source",
+      "url": "https://proapi.planetadelibros.com/descargas/sala-prensa-libro/sinopsis-y-biografia/91361/desencuentros.pdf"
+    },
+    {
+      "candidate_id": "WCD10-B19-S201",
+      "url": "https://www.anagrama-ed.es/libro/narrativas-hispanicas/el-huesped/9788433944481/NH_390",
+      "disposition": "new_source",
+      "reuse_existing_source": ""
+    },
+    {
+      "candidate_id": "WCD10-B19-S202",
+      "url": "https://www.anagrama-ed.es/libro/narrativas-hispanicas/el-cuerpo-en-que-naci/9788433933201/NH_491",
+      "disposition": "new_source",
+      "reuse_existing_source": ""
+    },
+    {
+      "candidate_id": "WCD10-B19-S203",
+      "url": "https://www.anagrama-ed.es/libro/narrativas-hispanicas/despues-del-invierno/9788433932723/NH_539",
+      "disposition": "new_source",
+      "reuse_existing_source": ""
+    },
+    {
+      "candidate_id": "WCD10-B19-S204",
+      "url": "https://www.anagrama-ed.es/libro/narrativas-hispanicas/los-divagantes/9788433908186/NH_719",
+      "disposition": "new_source",
+      "reuse_existing_source": ""
+    },
+    {
+      "candidate_id": "WCD10-B19-S205",
+      "url": "https://www.anagrama-ed.es/autor/nettel-guadalupe-785",
+      "disposition": "reuse_existing_source",
+      "reuse_existing_source": "SRC-0263"
+    },
+    {
+      "candidate_id": "WCD10-B19-S206",
+      "url": "https://www.anagrama-ed.es/libro/narrativas-hispanicas/la-hija-unica/9788433999061/NH_652",
+      "disposition": "reuse_existing_source",
+      "reuse_existing_source": "SRC-0264"
+    },
+    {
+      "candidate_id": "WCD10-B19-S207",
+      "url": "https://paginasdeespuma.com/libro/el-matrimonio-de-los-peces-rojos/",
+      "disposition": "reuse_existing_source",
+      "reuse_existing_source": "SRC-0265"
+    },
+    {
+      "candidate_id": "WCD10-B19-S208",
+      "url": "https://www.anagrama-ed.es/foreign-rights/book/narrativas-hispanicas/petalos-y-otras-historias-incomodas/9788433971661/NH_428",
+      "disposition": "reuse_existing_source",
+      "reuse_existing_source": "SRC-0266"
+    }
+  ]
+}

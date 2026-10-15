@@ -1,0 +1,1382 @@
+{
+  "task_id": "TASK-122",
+  "batch_id": "WCD-10-B17",
+  "baseline_database_sha256": "bf814eb0796ad27db76349a4f166ba3ca40be3df47f22373e6e094e34bdf632e",
+  "entries": [
+    {
+      "candidate_fact_id": "WCD10-B17-W001-F01",
+      "author_id": "V1-ENT-0310",
+      "subject_ref": "WCD10-B17-W001",
+      "field": "first_publication_year",
+      "value": "1937",
+      "source_refs": [
+        "WCD10-B17-S001"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B17-S001",
+          "locator": "实读2026-10-14，Cervantes Virtual bibliografía第42-49行列出作品题名、类别与出版信息；第45行Hombres de la España leal为与Juan Marinello合作的编年文集，第52行El son entero为1929–1946诗歌汇编；本轮只用第47–48行Cantos para soldados…与España…书目项、第56行La paloma de vuelo popular、第65行El gran zoo版本条目。",
+          "support_type": "institutional_bibliography_or_biography_direct_catalog",
+          "note": "实际打开并阅读来源正文，只使用其直接支持的书目、体裁或简短释义。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B17-W001-F02",
+      "author_id": "V1-ENT-0310",
+      "subject_ref": "WCD10-B17-W001",
+      "field": "genre_or_form",
+      "value": "诗集",
+      "source_refs": [
+        "WCD10-B17-S001"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B17-S001",
+          "locator": "实读2026-10-14，Cervantes Virtual bibliografía第42-49行列出作品题名、类别与出版信息；第45行Hombres de la España leal为与Juan Marinello合作的编年文集，第52行El son entero为1929–1946诗歌汇编；本轮只用第47–48行Cantos para soldados…与España…书目项、第56行La paloma de vuelo popular、第65行El gran zoo版本条目。",
+          "support_type": "institutional_bibliography_or_biography_direct_catalog",
+          "note": "实际打开并阅读来源正文，只使用其直接支持的书目、体裁或简短释义。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B17-W001-F03",
+      "author_id": "V1-ENT-0310",
+      "subject_ref": "WCD10-B17-W001",
+      "field": "one_sentence_summary",
+      "value": "书中诗歌呼吁被征为士兵、服务于他人利益的工人重新认识自身的无产阶级出身，并与本阶级利益相连。",
+      "source_refs": [
+        "WCD10-B17-S002"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B17-S002",
+          "locator": "实读2026-10-14，第51行称Cantos para soldados y sones para turistas为1937年在墨西哥出版的书并概述其面向工人/士兵的诗歌内容；第63–64行记La paloma de vuelo popular出版及书中旅行经验、社会主题；第67行记El gran zoo内容与体例；第69–70行提及晚期作品与合集。",
+          "support_type": "institutional_bibliography_or_biography_direct_catalog",
+          "note": "实际打开并阅读来源正文，只使用其直接支持的书目、体裁或简短释义。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B17-W002-F01",
+      "author_id": "V1-ENT-0310",
+      "subject_ref": "WCD10-B17-W002",
+      "field": "first_publication_year",
+      "value": "1937",
+      "source_refs": [
+        "WCD10-B17-S001"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B17-S001",
+          "locator": "实读2026-10-14，Cervantes Virtual bibliografía第42-49行列出作品题名、类别与出版信息；第45行Hombres de la España leal为与Juan Marinello合作的编年文集，第52行El son entero为1929–1946诗歌汇编；本轮只用第47–48行Cantos para soldados…与España…书目项、第56行La paloma de vuelo popular、第65行El gran zoo版本条目。",
+          "support_type": "institutional_bibliography_or_biography_direct_catalog",
+          "note": "实际打开并阅读来源正文，只使用其直接支持的书目、体裁或简短释义。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B17-W002-F02",
+      "author_id": "V1-ENT-0310",
+      "subject_ref": "WCD10-B17-W002",
+      "field": "genre_or_form",
+      "value": "诗集",
+      "source_refs": [
+        "WCD10-B17-S001"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B17-S001",
+          "locator": "实读2026-10-14，Cervantes Virtual bibliografía第42-49行列出作品题名、类别与出版信息；第45行Hombres de la España leal为与Juan Marinello合作的编年文集，第52行El son entero为1929–1946诗歌汇编；本轮只用第47–48行Cantos para soldados…与España…书目项、第56行La paloma de vuelo popular、第65行El gran zoo版本条目。",
+          "support_type": "institutional_bibliography_or_biography_direct_catalog",
+          "note": "实际打开并阅读来源正文，只使用其直接支持的书目、体裁或简短释义。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B17-W002-F03",
+      "author_id": "V1-ENT-0310",
+      "subject_ref": "WCD10-B17-W002",
+      "field": "bibliographic_note",
+      "value": "书目副题为Poema en cuatro angustias y una esperanza；1937年墨西哥版。",
+      "source_refs": [
+        "WCD10-B17-S001"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B17-S001",
+          "locator": "实读2026-10-14，Cervantes Virtual bibliografía第42-49行列出作品题名、类别与出版信息；第45行Hombres de la España leal为与Juan Marinello合作的编年文集，第52行El son entero为1929–1946诗歌汇编；本轮只用第47–48行Cantos para soldados…与España…书目项、第56行La paloma de vuelo popular、第65行El gran zoo版本条目。",
+          "support_type": "institutional_bibliography_or_biography_direct_catalog",
+          "note": "实际打开并阅读来源正文，只使用其直接支持的书目、体裁或简短释义。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B17-W002-F04",
+      "author_id": "V1-ENT-0310",
+      "subject_ref": "WCD10-B17-W002",
+      "field": "one_sentence_summary",
+      "value": "作者传记将该诗集与作者声援受到威胁的西班牙共和国相联系。",
+      "source_refs": [
+        "WCD10-B17-S002"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B17-S002",
+          "locator": "实读2026-10-14，第51行称Cantos para soldados y sones para turistas为1937年在墨西哥出版的书并概述其面向工人/士兵的诗歌内容；第63–64行记La paloma de vuelo popular出版及书中旅行经验、社会主题；第67行记El gran zoo内容与体例；第69–70行提及晚期作品与合集。",
+          "support_type": "institutional_bibliography_or_biography_direct_catalog",
+          "note": "实际打开并阅读来源正文，只使用其直接支持的书目、体裁或简短释义。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B17-W003-F01",
+      "author_id": "V1-ENT-0310",
+      "subject_ref": "WCD10-B17-W003",
+      "field": "first_publication_year",
+      "value": "1958",
+      "source_refs": [
+        "WCD10-B17-S001"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B17-S001",
+          "locator": "实读2026-10-14，Cervantes Virtual bibliografía第42-49行列出作品题名、类别与出版信息；第45行Hombres de la España leal为与Juan Marinello合作的编年文集，第52行El son entero为1929–1946诗歌汇编；本轮只用第47–48行Cantos para soldados…与España…书目项、第56行La paloma de vuelo popular、第65行El gran zoo版本条目。",
+          "support_type": "institutional_bibliography_or_biography_direct_catalog",
+          "note": "实际打开并阅读来源正文，只使用其直接支持的书目、体裁或简短释义。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B17-W003-F02",
+      "author_id": "V1-ENT-0310",
+      "subject_ref": "WCD10-B17-W003",
+      "field": "genre_or_form",
+      "value": "挽歌诗集",
+      "source_refs": [
+        "WCD10-B17-S001"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B17-S001",
+          "locator": "实读2026-10-14，Cervantes Virtual bibliografía第42-49行列出作品题名、类别与出版信息；第45行Hombres de la España leal为与Juan Marinello合作的编年文集，第52行El son entero为1929–1946诗歌汇编；本轮只用第47–48行Cantos para soldados…与España…书目项、第56行La paloma de vuelo popular、第65行El gran zoo版本条目。",
+          "support_type": "institutional_bibliography_or_biography_direct_catalog",
+          "note": "实际打开并阅读来源正文，只使用其直接支持的书目、体裁或简短释义。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B17-W003-F03",
+      "author_id": "V1-ENT-0310",
+      "subject_ref": "WCD10-B17-W003",
+      "field": "one_sentence_summary",
+      "value": "作品收录作者旅行经历；传记指出其中以不义、奴役与殖民主义为主题，并写到甘蔗田工人的劳动。",
+      "source_refs": [
+        "WCD10-B17-S002"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B17-S002",
+          "locator": "实读2026-10-14，第51行称Cantos para soldados y sones para turistas为1937年在墨西哥出版的书并概述其面向工人/士兵的诗歌内容；第63–64行记La paloma de vuelo popular出版及书中旅行经验、社会主题；第67行记El gran zoo内容与体例；第69–70行提及晚期作品与合集。",
+          "support_type": "institutional_bibliography_or_biography_direct_catalog",
+          "note": "实际打开并阅读来源正文，只使用其直接支持的书目、体裁或简短释义。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B17-W004-F01",
+      "author_id": "V1-ENT-0310",
+      "subject_ref": "WCD10-B17-W004",
+      "field": "genre_or_form",
+      "value": "诗集",
+      "source_refs": [
+        "WCD10-B17-S001"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B17-S001",
+          "locator": "实读2026-10-14，Cervantes Virtual bibliografía第42-49行列出作品题名、类别与出版信息；第45行Hombres de la España leal为与Juan Marinello合作的编年文集，第52行El son entero为1929–1946诗歌汇编；本轮只用第47–48行Cantos para soldados…与España…书目项、第56行La paloma de vuelo popular、第65行El gran zoo版本条目。",
+          "support_type": "institutional_bibliography_or_biography_direct_catalog",
+          "note": "实际打开并阅读来源正文，只使用其直接支持的书目、体裁或简短释义。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B17-W004-F02",
+      "author_id": "V1-ENT-0310",
+      "subject_ref": "WCD10-B17-W004",
+      "field": "bibliographic_note",
+      "value": "Cervantes Virtual作品书目列1967年《Unión》版；CVC作者传记记为1968年出版。两来源口径有差异，故不将任一版本年份直接确认为首版年。",
+      "source_refs": [
+        "WCD10-B17-S001",
+        "WCD10-B17-S002"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B17-S001",
+          "locator": "实读2026-10-14，Cervantes Virtual bibliografía第42-49行列出作品题名、类别与出版信息；第45行Hombres de la España leal为与Juan Marinello合作的编年文集，第52行El son entero为1929–1946诗歌汇编；本轮只用第47–48行Cantos para soldados…与España…书目项、第56行La paloma de vuelo popular、第65行El gran zoo版本条目。",
+          "support_type": "institutional_bibliography_or_biography_direct_catalog",
+          "note": "实际打开并阅读来源正文，只使用其直接支持的书目、体裁或简短释义。"
+        },
+        {
+          "source_ref": "WCD10-B17-S002",
+          "locator": "实读2026-10-14，第51行称Cantos para soldados y sones para turistas为1937年在墨西哥出版的书并概述其面向工人/士兵的诗歌内容；第63–64行记La paloma de vuelo popular出版及书中旅行经验、社会主题；第67行记El gran zoo内容与体例；第69–70行提及晚期作品与合集。",
+          "support_type": "institutional_bibliography_or_biography_direct_catalog",
+          "note": "实际打开并阅读来源正文，只使用其直接支持的书目、体裁或简短释义。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B17-W004-F03",
+      "author_id": "V1-ENT-0310",
+      "subject_ref": "WCD10-B17-W004",
+      "field": "one_sentence_summary",
+      "value": "作品以简洁、诙谐的风格，将安第斯山、飓风与加勒比海等拉美地理事物描写为想象动物园中的奇异生物。",
+      "source_refs": [
+        "WCD10-B17-S002"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B17-S002",
+          "locator": "实读2026-10-14，第51行称Cantos para soldados y sones para turistas为1937年在墨西哥出版的书并概述其面向工人/士兵的诗歌内容；第63–64行记La paloma de vuelo popular出版及书中旅行经验、社会主题；第67行记El gran zoo内容与体例；第69–70行提及晚期作品与合集。",
+          "support_type": "institutional_bibliography_or_biography_direct_catalog",
+          "note": "实际打开并阅读来源正文，只使用其直接支持的书目、体裁或简短释义。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B17-F001",
+      "author_id": "V1-ENT-0310",
+      "subject_ref": "V1-ENT-0317",
+      "field": "one_sentence_summary",
+      "value": "《松调》｜Motivos de son — CVC传记称这本1930年的首部诗集以古巴黑人民众的独特言语和son节奏呈现其生活，使其成为岛屿文化与情感的核心主体。",
+      "source_refs": [
+        "WCD10-B17-S002"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B17-S002",
+          "locator": "实读2026-10-14：第25–31行直接描述既有Motivos de son、Sóngoro cosongo、West Indies Ltd.以及作品内容与时间关系；第50行将España. Poema en cuatro angustias y una esperanza称为poemario并联系西班牙共和国；第51行概述Cantos para soldados y sones para turistas；第63–64行概述La paloma de vuelo popular；第66行记Tengo（1964）及其内容；第67行概述El gran zoo（传记记1968）。",
+          "support_type": "institutional_biography_direct_description",
+          "note": "CVC传记在作品层级直接描述该诗集；仅作简短释义。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B17-F002",
+      "author_id": "V1-ENT-0310",
+      "subject_ref": "V1-ENT-0318",
+      "field": "one_sentence_summary",
+      "value": "《桑戈罗·科松戈》｜Sóngoro cosongo — CVC传记称该诗集借助标题的拟声形式，表现诗人呈现古巴岛屿非洲根源、节奏与声音的意图。",
+      "source_refs": [
+        "WCD10-B17-S002"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B17-S002",
+          "locator": "实读2026-10-14：第25–31行直接描述既有Motivos de son、Sóngoro cosongo、West Indies Ltd.以及作品内容与时间关系；第50行将España. Poema en cuatro angustias y una esperanza称为poemario并联系西班牙共和国；第51行概述Cantos para soldados y sones para turistas；第63–64行概述La paloma de vuelo popular；第66行记Tengo（1964）及其内容；第67行概述El gran zoo（传记记1968）。",
+          "support_type": "institutional_biography_direct_description",
+          "note": "CVC传记在作品层级直接描述该诗集；仅作简短释义。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B17-F003",
+      "author_id": "V1-ENT-0310",
+      "subject_ref": "V1-ENT-0319",
+      "field": "one_sentence_summary",
+      "value": "《西印度公司》｜West Indies, Ltd. — CVC传记将该诗集描述为延续古巴诗歌节奏与声音、同时加强社会批判的作品。",
+      "source_refs": [
+        "WCD10-B17-S002"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B17-S002",
+          "locator": "实读2026-10-14：第25–31行直接描述既有Motivos de son、Sóngoro cosongo、West Indies Ltd.以及作品内容与时间关系；第50行将España. Poema en cuatro angustias y una esperanza称为poemario并联系西班牙共和国；第51行概述Cantos para soldados y sones para turistas；第63–64行概述La paloma de vuelo popular；第66行记Tengo（1964）及其内容；第67行概述El gran zoo（传记记1968）。",
+          "support_type": "institutional_biography_direct_description",
+          "note": "CVC传记在作品层级直接描述该诗集；仅作简短释义。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B17-W005-F01",
+      "author_id": "V1-ENT-0310",
+      "subject_ref": "WCD10-B17-W005",
+      "field": "first_publication_year",
+      "value": "1964",
+      "source_refs": [
+        "WCD10-B17-S001"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B17-S001",
+          "locator": "实读2026-10-14：第47–48行列Cantos para soldados y sones para turistas（1937）和España. Poema en cuatro angustias y una esperanza（1937）；第56行列La paloma de vuelo popular. Elegías（1958）；第62行列Tengo（1964）；第65行列El gran zoo的1967版。",
+          "support_type": "institutional_bibliography_or_biography_direct_catalog",
+          "note": "实际打开来源正文，按书目/作者传记直接描述记录。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B17-W005-F02",
+      "author_id": "V1-ENT-0310",
+      "subject_ref": "WCD10-B17-W005",
+      "field": "genre_or_form",
+      "value": "诗集",
+      "source_refs": [
+        "WCD10-B17-S001"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B17-S001",
+          "locator": "实读2026-10-14：第47–48行列Cantos para soldados y sones para turistas（1937）和España. Poema en cuatro angustias y una esperanza（1937）；第56行列La paloma de vuelo popular. Elegías（1958）；第62行列Tengo（1964）；第65行列El gran zoo的1967版。",
+          "support_type": "institutional_bibliography_or_biography_direct_catalog",
+          "note": "实际打开来源正文，按书目/作者传记直接描述记录。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B17-W005-F03",
+      "author_id": "V1-ENT-0310",
+      "subject_ref": "WCD10-B17-W005",
+      "field": "one_sentence_summary",
+      "value": "诗人以作品见证革命后的生活变化；CVC传记指出，该书不再只是歌唱革命的承诺，而转向庆祝其成果。",
+      "source_refs": [
+        "WCD10-B17-S002"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B17-S002",
+          "locator": "实读2026-10-14：第25–31行直接描述既有Motivos de son、Sóngoro cosongo、West Indies Ltd.以及作品内容与时间关系；第50行将España. Poema en cuatro angustias y una esperanza称为poemario并联系西班牙共和国；第51行概述Cantos para soldados y sones para turistas；第63–64行概述La paloma de vuelo popular；第66行记Tengo（1964）及其内容；第67行概述El gran zoo（传记记1968）。",
+          "support_type": "institutional_bibliography_or_biography_direct_catalog",
+          "note": "实际打开来源正文，按书目/作者传记直接描述记录。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B17-W005-F04",
+      "author_id": "V1-ENT-0310",
+      "subject_ref": "WCD10-B17-W005",
+      "field": "bibliographic_note",
+      "value": "Cervantes Virtual书目记载La Habana、Universidad de Las Villas、1964；CVC传记亦记1964年出版。",
+      "source_refs": [
+        "WCD10-B17-S001",
+        "WCD10-B17-S002"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B17-S001",
+          "locator": "实读2026-10-14：第47–48行列Cantos para soldados y sones para turistas（1937）和España. Poema en cuatro angustias y una esperanza（1937）；第56行列La paloma de vuelo popular. Elegías（1958）；第62行列Tengo（1964）；第65行列El gran zoo的1967版。",
+          "support_type": "institutional_bibliography_or_biography_direct_catalog",
+          "note": "实际打开来源正文，按书目/作者传记直接描述记录。"
+        },
+        {
+          "source_ref": "WCD10-B17-S002",
+          "locator": "实读2026-10-14：第25–31行直接描述既有Motivos de son、Sóngoro cosongo、West Indies Ltd.以及作品内容与时间关系；第50行将España. Poema en cuatro angustias y una esperanza称为poemario并联系西班牙共和国；第51行概述Cantos para soldados y sones para turistas；第63–64行概述La paloma de vuelo popular；第66行记Tengo（1964）及其内容；第67行概述El gran zoo（传记记1968）。",
+          "support_type": "institutional_bibliography_or_biography_direct_catalog",
+          "note": "实际打开来源正文，按书目/作者传记直接描述记录。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B17-F101",
+      "author_id": "V1-ENT-0320",
+      "subject_ref": "V1-ENT-0323",
+      "field": "one_sentence_summary",
+      "value": "AAP称其为1966年小说，并概述其位于二十世纪西语小说的重要作品之列。",
+      "source_refs": [
+        "WCD10-B17-S101"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B17-S101",
+          "locator": "实际打开正文第37–40行：第37行列Muerte de Narciso为1937首部诗集；第38行列Paradiso (UNEAC, 1966)、Oppiano Licario (Mexico, 1977)；第39行列Dador (1960)、La Fijeza (1949)、Aventuras sigilosas (1945)、Enemigo rumor (1941)；第40行说明La expresión americana源自1957年五部分讲演。实读2026-10-14。",
+          "support_type": "institutional_author_profile",
+          "note": "已实际打开来源正文；只采纳其直接支持的书目或作品概述。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B17-F102",
+      "author_id": "V1-ENT-0320",
+      "subject_ref": "V1-ENT-0324",
+      "field": "one_sentence_summary",
+      "value": "AAP称其为《天堂》中人物命名的未完成续作，并记录其1977年在墨西哥初版。",
+      "source_refs": [
+        "WCD10-B17-S101"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B17-S101",
+          "locator": "实际打开正文第37–40行：第37行列Muerte de Narciso为1937首部诗集；第38行列Paradiso (UNEAC, 1966)、Oppiano Licario (Mexico, 1977)；第39行列Dador (1960)、La Fijeza (1949)、Aventuras sigilosas (1945)、Enemigo rumor (1941)；第40行说明La expresión americana源自1957年五部分讲演。实读2026-10-14。",
+          "support_type": "institutional_author_profile",
+          "note": "已实际打开来源正文；只采纳其直接支持的书目或作品概述。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B17-F103",
+      "author_id": "V1-ENT-0320",
+      "subject_ref": "V1-ENT-0325",
+      "field": "one_sentence_summary",
+      "value": "AAP记载该书源自作者1957年在哈瓦那所作的五部分讲演，内容表达其对拉丁美洲文化的看法。",
+      "source_refs": [
+        "WCD10-B17-S101"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B17-S101",
+          "locator": "实际打开正文第37–40行：第37行列Muerte de Narciso为1937首部诗集；第38行列Paradiso (UNEAC, 1966)、Oppiano Licario (Mexico, 1977)；第39行列Dador (1960)、La Fijeza (1949)、Aventuras sigilosas (1945)、Enemigo rumor (1941)；第40行说明La expresión americana源自1957年五部分讲演。实读2026-10-14。",
+          "support_type": "institutional_author_profile",
+          "note": "已实际打开来源正文；只采纳其直接支持的书目或作品概述。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B17-F110",
+      "author_id": "V1-ENT-0320",
+      "subject_ref": "WCD10-B17-W101",
+      "field": "first_publication_year",
+      "value": "1937",
+      "source_refs": [
+        "WCD10-B17-S101",
+        "WCD10-B17-S102",
+        "WCD10-B17-S103"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B17-S101",
+          "locator": "实际打开正文第37–40行：第37行列Muerte de Narciso为1937首部诗集；第38行列Paradiso (UNEAC, 1966)、Oppiano Licario (Mexico, 1977)；第39行列Dador (1960)、La Fijeza (1949)、Aventuras sigilosas (1945)、Enemigo rumor (1941)；第40行说明La expresión americana源自1957年五部分讲演。实读2026-10-14。",
+          "support_type": "institutional_author_profile",
+          "note": "已实际打开来源正文；限定为来源直接列示的书目、类别与版本信息，不延伸为研究覆盖完整性判断。"
+        },
+        {
+          "source_ref": "WCD10-B17-S102",
+          "locator": "实际打开第61–66行：作者身份与生卒（62–64）；第65行列诗集并标注1937–1978等书目年份；第66行列随笔集及1957–1970年份，并称Paradiso、Oppiano Licario为小说作品。实读2026-10-14。",
+          "support_type": "publisher_direct_author_bibliography",
+          "note": "已实际打开来源正文；限定为来源直接列示的书目、类别与版本信息，不延伸为研究覆盖完整性判断。"
+        },
+        {
+          "source_ref": "WCD10-B17-S103",
+          "locator": "实际打开第392–415行、第426–444行：诗集分类及Muerte de Narciso(1937)、Enemigo rumor(1941)、Aventuras sigilosas(1945)、La fijeza(1949)、Dador(1960)、Fragmentos a su imán (La Habana 1977; México/Barcelona 1978)；小说与短篇汇编、随笔分别列在第413–444行。实读2026-10-14。",
+          "support_type": "institutional_scholarly_bibliography",
+          "note": "已实际打开来源正文；限定为来源直接列示的书目、类别与版本信息，不延伸为研究覆盖完整性判断。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B17-F111",
+      "author_id": "V1-ENT-0320",
+      "subject_ref": "WCD10-B17-W101",
+      "field": "genre_or_form",
+      "value": "长诗",
+      "source_refs": [
+        "WCD10-B17-S103"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B17-S103",
+          "locator": "替代访问入口（同一研究专著的相邻章节，不新增来源对象）：第427行明确称Muerte de Narciso为长诗，记载1937年发表于Verbum第二期并于同年由Impresiones Úcar单册印行；第432行称其有二十五节。该入口由worker于2026-10-14实际打开。规范canonical bibliografía URL仍为本来源S103的…_60.htm。",
+          "support_type": "institutional_scholarly_monograph_direct_work_description",
+          "note": "同一已登记研究专著的相邻章节入口已实际打开；第427、432行直接给出文类、首刊/单册印行与篇节数。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B17-F112",
+      "author_id": "V1-ENT-0320",
+      "subject_ref": "WCD10-B17-W101",
+      "field": "one_sentence_summary",
+      "value": "1937年首刊于《Verbum》第二期并于同年单册印行的二十五节长诗。",
+      "source_refs": [
+        "WCD10-B17-S103"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B17-S103",
+          "locator": "替代访问入口（同一研究专著的相邻章节，不新增来源对象）：第427行明确称Muerte de Narciso为长诗，记载1937年发表于Verbum第二期并于同年由Impresiones Úcar单册印行；第432行称其有二十五节。该入口由worker于2026-10-14实际打开。规范canonical bibliografía URL仍为本来源S103的…_60.htm。",
+          "support_type": "institutional_scholarly_monograph_direct_work_description",
+          "note": "同一已登记研究专著的相邻章节入口已实际打开；第427、432行直接给出文类、首刊/单册印行与篇节数。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B17-F113",
+      "author_id": "V1-ENT-0320",
+      "subject_ref": "WCD10-B17-W102",
+      "field": "first_publication_year",
+      "value": "1941",
+      "source_refs": [
+        "WCD10-B17-S101",
+        "WCD10-B17-S102",
+        "WCD10-B17-S103"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B17-S101",
+          "locator": "实际打开正文第37–40行：第37行列Muerte de Narciso为1937首部诗集；第38行列Paradiso (UNEAC, 1966)、Oppiano Licario (Mexico, 1977)；第39行列Dador (1960)、La Fijeza (1949)、Aventuras sigilosas (1945)、Enemigo rumor (1941)；第40行说明La expresión americana源自1957年五部分讲演。实读2026-10-14。",
+          "support_type": "institutional_author_profile",
+          "note": "已实际打开来源正文；限定为来源直接列示的书目、类别与版本信息，不延伸为研究覆盖完整性判断。"
+        },
+        {
+          "source_ref": "WCD10-B17-S102",
+          "locator": "实际打开第61–66行：作者身份与生卒（62–64）；第65行列诗集并标注1937–1978等书目年份；第66行列随笔集及1957–1970年份，并称Paradiso、Oppiano Licario为小说作品。实读2026-10-14。",
+          "support_type": "publisher_direct_author_bibliography",
+          "note": "已实际打开来源正文；限定为来源直接列示的书目、类别与版本信息，不延伸为研究覆盖完整性判断。"
+        },
+        {
+          "source_ref": "WCD10-B17-S103",
+          "locator": "实际打开第392–415行、第426–444行：诗集分类及Muerte de Narciso(1937)、Enemigo rumor(1941)、Aventuras sigilosas(1945)、La fijeza(1949)、Dador(1960)、Fragmentos a su imán (La Habana 1977; México/Barcelona 1978)；小说与短篇汇编、随笔分别列在第413–444行。实读2026-10-14。",
+          "support_type": "institutional_scholarly_bibliography",
+          "note": "已实际打开来源正文；限定为来源直接列示的书目、类别与版本信息，不延伸为研究覆盖完整性判断。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B17-F114",
+      "author_id": "V1-ENT-0320",
+      "subject_ref": "WCD10-B17-W102",
+      "field": "genre_or_form",
+      "value": "诗集",
+      "source_refs": [
+        "WCD10-B17-S101",
+        "WCD10-B17-S102",
+        "WCD10-B17-S103"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B17-S101",
+          "locator": "实际打开正文第37–40行：第37行列Muerte de Narciso为1937首部诗集；第38行列Paradiso (UNEAC, 1966)、Oppiano Licario (Mexico, 1977)；第39行列Dador (1960)、La Fijeza (1949)、Aventuras sigilosas (1945)、Enemigo rumor (1941)；第40行说明La expresión americana源自1957年五部分讲演。实读2026-10-14。",
+          "support_type": "institutional_author_profile",
+          "note": "已实际打开来源正文；限定为来源直接列示的书目、类别与版本信息，不延伸为研究覆盖完整性判断。"
+        },
+        {
+          "source_ref": "WCD10-B17-S102",
+          "locator": "实际打开第61–66行：作者身份与生卒（62–64）；第65行列诗集并标注1937–1978等书目年份；第66行列随笔集及1957–1970年份，并称Paradiso、Oppiano Licario为小说作品。实读2026-10-14。",
+          "support_type": "publisher_direct_author_bibliography",
+          "note": "已实际打开来源正文；限定为来源直接列示的书目、类别与版本信息，不延伸为研究覆盖完整性判断。"
+        },
+        {
+          "source_ref": "WCD10-B17-S103",
+          "locator": "实际打开第392–415行、第426–444行：诗集分类及Muerte de Narciso(1937)、Enemigo rumor(1941)、Aventuras sigilosas(1945)、La fijeza(1949)、Dador(1960)、Fragmentos a su imán (La Habana 1977; México/Barcelona 1978)；小说与短篇汇编、随笔分别列在第413–444行。实读2026-10-14。",
+          "support_type": "institutional_scholarly_bibliography",
+          "note": "已实际打开来源正文；限定为来源直接列示的书目、类别与版本信息，不延伸为研究覆盖完整性判断。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B17-F115",
+      "author_id": "V1-ENT-0320",
+      "subject_ref": "WCD10-B17-W102",
+      "field": "one_sentence_summary",
+      "value": "作者书目将其列为诗集，并记录1941年出版；此处只作书目级描述。",
+      "source_refs": [
+        "WCD10-B17-S101",
+        "WCD10-B17-S102",
+        "WCD10-B17-S103"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B17-S101",
+          "locator": "实际打开正文第37–40行：第37行列Muerte de Narciso为1937首部诗集；第38行列Paradiso (UNEAC, 1966)、Oppiano Licario (Mexico, 1977)；第39行列Dador (1960)、La Fijeza (1949)、Aventuras sigilosas (1945)、Enemigo rumor (1941)；第40行说明La expresión americana源自1957年五部分讲演。实读2026-10-14。",
+          "support_type": "institutional_author_profile",
+          "note": "已实际打开来源正文；限定为来源直接列示的书目、类别与版本信息，不延伸为研究覆盖完整性判断。"
+        },
+        {
+          "source_ref": "WCD10-B17-S102",
+          "locator": "实际打开第61–66行：作者身份与生卒（62–64）；第65行列诗集并标注1937–1978等书目年份；第66行列随笔集及1957–1970年份，并称Paradiso、Oppiano Licario为小说作品。实读2026-10-14。",
+          "support_type": "publisher_direct_author_bibliography",
+          "note": "已实际打开来源正文；限定为来源直接列示的书目、类别与版本信息，不延伸为研究覆盖完整性判断。"
+        },
+        {
+          "source_ref": "WCD10-B17-S103",
+          "locator": "实际打开第392–415行、第426–444行：诗集分类及Muerte de Narciso(1937)、Enemigo rumor(1941)、Aventuras sigilosas(1945)、La fijeza(1949)、Dador(1960)、Fragmentos a su imán (La Habana 1977; México/Barcelona 1978)；小说与短篇汇编、随笔分别列在第413–444行。实读2026-10-14。",
+          "support_type": "institutional_scholarly_bibliography",
+          "note": "已实际打开来源正文；限定为来源直接列示的书目、类别与版本信息，不延伸为研究覆盖完整性判断。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B17-F116",
+      "author_id": "V1-ENT-0320",
+      "subject_ref": "WCD10-B17-W103",
+      "field": "first_publication_year",
+      "value": "1945",
+      "source_refs": [
+        "WCD10-B17-S101",
+        "WCD10-B17-S102",
+        "WCD10-B17-S103"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B17-S101",
+          "locator": "实际打开正文第37–40行：第37行列Muerte de Narciso为1937首部诗集；第38行列Paradiso (UNEAC, 1966)、Oppiano Licario (Mexico, 1977)；第39行列Dador (1960)、La Fijeza (1949)、Aventuras sigilosas (1945)、Enemigo rumor (1941)；第40行说明La expresión americana源自1957年五部分讲演。实读2026-10-14。",
+          "support_type": "institutional_author_profile",
+          "note": "已实际打开来源正文；限定为来源直接列示的书目、类别与版本信息，不延伸为研究覆盖完整性判断。"
+        },
+        {
+          "source_ref": "WCD10-B17-S102",
+          "locator": "实际打开第61–66行：作者身份与生卒（62–64）；第65行列诗集并标注1937–1978等书目年份；第66行列随笔集及1957–1970年份，并称Paradiso、Oppiano Licario为小说作品。实读2026-10-14。",
+          "support_type": "publisher_direct_author_bibliography",
+          "note": "已实际打开来源正文；限定为来源直接列示的书目、类别与版本信息，不延伸为研究覆盖完整性判断。"
+        },
+        {
+          "source_ref": "WCD10-B17-S103",
+          "locator": "实际打开第392–415行、第426–444行：诗集分类及Muerte de Narciso(1937)、Enemigo rumor(1941)、Aventuras sigilosas(1945)、La fijeza(1949)、Dador(1960)、Fragmentos a su imán (La Habana 1977; México/Barcelona 1978)；小说与短篇汇编、随笔分别列在第413–444行。实读2026-10-14。",
+          "support_type": "institutional_scholarly_bibliography",
+          "note": "已实际打开来源正文；限定为来源直接列示的书目、类别与版本信息，不延伸为研究覆盖完整性判断。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B17-F117",
+      "author_id": "V1-ENT-0320",
+      "subject_ref": "WCD10-B17-W103",
+      "field": "genre_or_form",
+      "value": "诗集",
+      "source_refs": [
+        "WCD10-B17-S101",
+        "WCD10-B17-S102",
+        "WCD10-B17-S103"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B17-S101",
+          "locator": "实际打开正文第37–40行：第37行列Muerte de Narciso为1937首部诗集；第38行列Paradiso (UNEAC, 1966)、Oppiano Licario (Mexico, 1977)；第39行列Dador (1960)、La Fijeza (1949)、Aventuras sigilosas (1945)、Enemigo rumor (1941)；第40行说明La expresión americana源自1957年五部分讲演。实读2026-10-14。",
+          "support_type": "institutional_author_profile",
+          "note": "已实际打开来源正文；限定为来源直接列示的书目、类别与版本信息，不延伸为研究覆盖完整性判断。"
+        },
+        {
+          "source_ref": "WCD10-B17-S102",
+          "locator": "实际打开第61–66行：作者身份与生卒（62–64）；第65行列诗集并标注1937–1978等书目年份；第66行列随笔集及1957–1970年份，并称Paradiso、Oppiano Licario为小说作品。实读2026-10-14。",
+          "support_type": "publisher_direct_author_bibliography",
+          "note": "已实际打开来源正文；限定为来源直接列示的书目、类别与版本信息，不延伸为研究覆盖完整性判断。"
+        },
+        {
+          "source_ref": "WCD10-B17-S103",
+          "locator": "实际打开第392–415行、第426–444行：诗集分类及Muerte de Narciso(1937)、Enemigo rumor(1941)、Aventuras sigilosas(1945)、La fijeza(1949)、Dador(1960)、Fragmentos a su imán (La Habana 1977; México/Barcelona 1978)；小说与短篇汇编、随笔分别列在第413–444行。实读2026-10-14。",
+          "support_type": "institutional_scholarly_bibliography",
+          "note": "已实际打开来源正文；限定为来源直接列示的书目、类别与版本信息，不延伸为研究覆盖完整性判断。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B17-F118",
+      "author_id": "V1-ENT-0320",
+      "subject_ref": "WCD10-B17-W103",
+      "field": "one_sentence_summary",
+      "value": "作者书目将其列为诗集，并记录1945年出版；此处只作书目级描述。",
+      "source_refs": [
+        "WCD10-B17-S101",
+        "WCD10-B17-S102",
+        "WCD10-B17-S103"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B17-S101",
+          "locator": "实际打开正文第37–40行：第37行列Muerte de Narciso为1937首部诗集；第38行列Paradiso (UNEAC, 1966)、Oppiano Licario (Mexico, 1977)；第39行列Dador (1960)、La Fijeza (1949)、Aventuras sigilosas (1945)、Enemigo rumor (1941)；第40行说明La expresión americana源自1957年五部分讲演。实读2026-10-14。",
+          "support_type": "institutional_author_profile",
+          "note": "已实际打开来源正文；限定为来源直接列示的书目、类别与版本信息，不延伸为研究覆盖完整性判断。"
+        },
+        {
+          "source_ref": "WCD10-B17-S102",
+          "locator": "实际打开第61–66行：作者身份与生卒（62–64）；第65行列诗集并标注1937–1978等书目年份；第66行列随笔集及1957–1970年份，并称Paradiso、Oppiano Licario为小说作品。实读2026-10-14。",
+          "support_type": "publisher_direct_author_bibliography",
+          "note": "已实际打开来源正文；限定为来源直接列示的书目、类别与版本信息，不延伸为研究覆盖完整性判断。"
+        },
+        {
+          "source_ref": "WCD10-B17-S103",
+          "locator": "实际打开第392–415行、第426–444行：诗集分类及Muerte de Narciso(1937)、Enemigo rumor(1941)、Aventuras sigilosas(1945)、La fijeza(1949)、Dador(1960)、Fragmentos a su imán (La Habana 1977; México/Barcelona 1978)；小说与短篇汇编、随笔分别列在第413–444行。实读2026-10-14。",
+          "support_type": "institutional_scholarly_bibliography",
+          "note": "已实际打开来源正文；限定为来源直接列示的书目、类别与版本信息，不延伸为研究覆盖完整性判断。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B17-F119",
+      "author_id": "V1-ENT-0320",
+      "subject_ref": "WCD10-B17-W104",
+      "field": "first_publication_year",
+      "value": "1949",
+      "source_refs": [
+        "WCD10-B17-S101",
+        "WCD10-B17-S103"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B17-S101",
+          "locator": "实际打开正文第37–40行：第37行列Muerte de Narciso为1937首部诗集；第38行列Paradiso (UNEAC, 1966)、Oppiano Licario (Mexico, 1977)；第39行列Dador (1960)、La Fijeza (1949)、Aventuras sigilosas (1945)、Enemigo rumor (1941)；第40行说明La expresión americana源自1957年五部分讲演。实读2026-10-14。",
+          "support_type": "institutional_author_profile",
+          "note": "已实际打开来源正文；限定为来源直接列示的书目、类别与版本信息，不延伸为研究覆盖完整性判断。"
+        },
+        {
+          "source_ref": "WCD10-B17-S103",
+          "locator": "实际打开第392–415行、第426–444行：诗集分类及Muerte de Narciso(1937)、Enemigo rumor(1941)、Aventuras sigilosas(1945)、La fijeza(1949)、Dador(1960)、Fragmentos a su imán (La Habana 1977; México/Barcelona 1978)；小说与短篇汇编、随笔分别列在第413–444行。实读2026-10-14。",
+          "support_type": "institutional_scholarly_bibliography",
+          "note": "已实际打开来源正文；限定为来源直接列示的书目、类别与版本信息，不延伸为研究覆盖完整性判断。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B17-F120",
+      "author_id": "V1-ENT-0320",
+      "subject_ref": "WCD10-B17-W104",
+      "field": "genre_or_form",
+      "value": "诗集",
+      "source_refs": [
+        "WCD10-B17-S101",
+        "WCD10-B17-S103"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B17-S101",
+          "locator": "实际打开正文第37–40行：第37行列Muerte de Narciso为1937首部诗集；第38行列Paradiso (UNEAC, 1966)、Oppiano Licario (Mexico, 1977)；第39行列Dador (1960)、La Fijeza (1949)、Aventuras sigilosas (1945)、Enemigo rumor (1941)；第40行说明La expresión americana源自1957年五部分讲演。实读2026-10-14。",
+          "support_type": "institutional_author_profile",
+          "note": "已实际打开来源正文；限定为来源直接列示的书目、类别与版本信息，不延伸为研究覆盖完整性判断。"
+        },
+        {
+          "source_ref": "WCD10-B17-S103",
+          "locator": "实际打开第392–415行、第426–444行：诗集分类及Muerte de Narciso(1937)、Enemigo rumor(1941)、Aventuras sigilosas(1945)、La fijeza(1949)、Dador(1960)、Fragmentos a su imán (La Habana 1977; México/Barcelona 1978)；小说与短篇汇编、随笔分别列在第413–444行。实读2026-10-14。",
+          "support_type": "institutional_scholarly_bibliography",
+          "note": "已实际打开来源正文；限定为来源直接列示的书目、类别与版本信息，不延伸为研究覆盖完整性判断。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B17-F121",
+      "author_id": "V1-ENT-0320",
+      "subject_ref": "WCD10-B17-W104",
+      "field": "one_sentence_summary",
+      "value": "机构作者页和研究书目均将其列为诗集；书目记录1949年版。",
+      "source_refs": [
+        "WCD10-B17-S101",
+        "WCD10-B17-S103"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B17-S101",
+          "locator": "实际打开正文第37–40行：第37行列Muerte de Narciso为1937首部诗集；第38行列Paradiso (UNEAC, 1966)、Oppiano Licario (Mexico, 1977)；第39行列Dador (1960)、La Fijeza (1949)、Aventuras sigilosas (1945)、Enemigo rumor (1941)；第40行说明La expresión americana源自1957年五部分讲演。实读2026-10-14。",
+          "support_type": "institutional_author_profile",
+          "note": "已实际打开来源正文；限定为来源直接列示的书目、类别与版本信息，不延伸为研究覆盖完整性判断。"
+        },
+        {
+          "source_ref": "WCD10-B17-S103",
+          "locator": "实际打开第392–415行、第426–444行：诗集分类及Muerte de Narciso(1937)、Enemigo rumor(1941)、Aventuras sigilosas(1945)、La fijeza(1949)、Dador(1960)、Fragmentos a su imán (La Habana 1977; México/Barcelona 1978)；小说与短篇汇编、随笔分别列在第413–444行。实读2026-10-14。",
+          "support_type": "institutional_scholarly_bibliography",
+          "note": "已实际打开来源正文；限定为来源直接列示的书目、类别与版本信息，不延伸为研究覆盖完整性判断。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B17-F122",
+      "author_id": "V1-ENT-0320",
+      "subject_ref": "WCD10-B17-W105",
+      "field": "first_publication_year",
+      "value": "1960",
+      "source_refs": [
+        "WCD10-B17-S101",
+        "WCD10-B17-S102",
+        "WCD10-B17-S103"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B17-S101",
+          "locator": "实际打开正文第37–40行：第37行列Muerte de Narciso为1937首部诗集；第38行列Paradiso (UNEAC, 1966)、Oppiano Licario (Mexico, 1977)；第39行列Dador (1960)、La Fijeza (1949)、Aventuras sigilosas (1945)、Enemigo rumor (1941)；第40行说明La expresión americana源自1957年五部分讲演。实读2026-10-14。",
+          "support_type": "institutional_author_profile",
+          "note": "已实际打开来源正文；限定为来源直接列示的书目、类别与版本信息，不延伸为研究覆盖完整性判断。"
+        },
+        {
+          "source_ref": "WCD10-B17-S102",
+          "locator": "实际打开第61–66行：作者身份与生卒（62–64）；第65行列诗集并标注1937–1978等书目年份；第66行列随笔集及1957–1970年份，并称Paradiso、Oppiano Licario为小说作品。实读2026-10-14。",
+          "support_type": "publisher_direct_author_bibliography",
+          "note": "已实际打开来源正文；限定为来源直接列示的书目、类别与版本信息，不延伸为研究覆盖完整性判断。"
+        },
+        {
+          "source_ref": "WCD10-B17-S103",
+          "locator": "实际打开第392–415行、第426–444行：诗集分类及Muerte de Narciso(1937)、Enemigo rumor(1941)、Aventuras sigilosas(1945)、La fijeza(1949)、Dador(1960)、Fragmentos a su imán (La Habana 1977; México/Barcelona 1978)；小说与短篇汇编、随笔分别列在第413–444行。实读2026-10-14。",
+          "support_type": "institutional_scholarly_bibliography",
+          "note": "已实际打开来源正文；限定为来源直接列示的书目、类别与版本信息，不延伸为研究覆盖完整性判断。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B17-F123",
+      "author_id": "V1-ENT-0320",
+      "subject_ref": "WCD10-B17-W105",
+      "field": "genre_or_form",
+      "value": "诗集",
+      "source_refs": [
+        "WCD10-B17-S101",
+        "WCD10-B17-S102",
+        "WCD10-B17-S103"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B17-S101",
+          "locator": "实际打开正文第37–40行：第37行列Muerte de Narciso为1937首部诗集；第38行列Paradiso (UNEAC, 1966)、Oppiano Licario (Mexico, 1977)；第39行列Dador (1960)、La Fijeza (1949)、Aventuras sigilosas (1945)、Enemigo rumor (1941)；第40行说明La expresión americana源自1957年五部分讲演。实读2026-10-14。",
+          "support_type": "institutional_author_profile",
+          "note": "已实际打开来源正文；限定为来源直接列示的书目、类别与版本信息，不延伸为研究覆盖完整性判断。"
+        },
+        {
+          "source_ref": "WCD10-B17-S102",
+          "locator": "实际打开第61–66行：作者身份与生卒（62–64）；第65行列诗集并标注1937–1978等书目年份；第66行列随笔集及1957–1970年份，并称Paradiso、Oppiano Licario为小说作品。实读2026-10-14。",
+          "support_type": "publisher_direct_author_bibliography",
+          "note": "已实际打开来源正文；限定为来源直接列示的书目、类别与版本信息，不延伸为研究覆盖完整性判断。"
+        },
+        {
+          "source_ref": "WCD10-B17-S103",
+          "locator": "实际打开第392–415行、第426–444行：诗集分类及Muerte de Narciso(1937)、Enemigo rumor(1941)、Aventuras sigilosas(1945)、La fijeza(1949)、Dador(1960)、Fragmentos a su imán (La Habana 1977; México/Barcelona 1978)；小说与短篇汇编、随笔分别列在第413–444行。实读2026-10-14。",
+          "support_type": "institutional_scholarly_bibliography",
+          "note": "已实际打开来源正文；限定为来源直接列示的书目、类别与版本信息，不延伸为研究覆盖完整性判断。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B17-F124",
+      "author_id": "V1-ENT-0320",
+      "subject_ref": "WCD10-B17-W105",
+      "field": "one_sentence_summary",
+      "value": "作者书目将其列为诗集，并记录1960年出版；此处只作书目级描述。",
+      "source_refs": [
+        "WCD10-B17-S101",
+        "WCD10-B17-S102",
+        "WCD10-B17-S103"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B17-S101",
+          "locator": "实际打开正文第37–40行：第37行列Muerte de Narciso为1937首部诗集；第38行列Paradiso (UNEAC, 1966)、Oppiano Licario (Mexico, 1977)；第39行列Dador (1960)、La Fijeza (1949)、Aventuras sigilosas (1945)、Enemigo rumor (1941)；第40行说明La expresión americana源自1957年五部分讲演。实读2026-10-14。",
+          "support_type": "institutional_author_profile",
+          "note": "已实际打开来源正文；限定为来源直接列示的书目、类别与版本信息，不延伸为研究覆盖完整性判断。"
+        },
+        {
+          "source_ref": "WCD10-B17-S102",
+          "locator": "实际打开第61–66行：作者身份与生卒（62–64）；第65行列诗集并标注1937–1978等书目年份；第66行列随笔集及1957–1970年份，并称Paradiso、Oppiano Licario为小说作品。实读2026-10-14。",
+          "support_type": "publisher_direct_author_bibliography",
+          "note": "已实际打开来源正文；限定为来源直接列示的书目、类别与版本信息，不延伸为研究覆盖完整性判断。"
+        },
+        {
+          "source_ref": "WCD10-B17-S103",
+          "locator": "实际打开第392–415行、第426–444行：诗集分类及Muerte de Narciso(1937)、Enemigo rumor(1941)、Aventuras sigilosas(1945)、La fijeza(1949)、Dador(1960)、Fragmentos a su imán (La Habana 1977; México/Barcelona 1978)；小说与短篇汇编、随笔分别列在第413–444行。实读2026-10-14。",
+          "support_type": "institutional_scholarly_bibliography",
+          "note": "已实际打开来源正文；限定为来源直接列示的书目、类别与版本信息，不延伸为研究覆盖完整性判断。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B17-F125",
+      "author_id": "V1-ENT-0320",
+      "subject_ref": "WCD10-B17-W106",
+      "field": "first_publication_year",
+      "value": "1958",
+      "source_refs": [
+        "WCD10-B17-S102",
+        "WCD10-B17-S103"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B17-S102",
+          "locator": "实际打开第61–66行：作者身份与生卒（62–64）；第65行列诗集并标注1937–1978等书目年份；第66行列随笔集及1957–1970年份，并称Paradiso、Oppiano Licario为小说作品。实读2026-10-14。",
+          "support_type": "publisher_direct_author_bibliography",
+          "note": "已实际打开来源正文；限定为来源直接列示的书目、类别与版本信息，不延伸为研究覆盖完整性判断。"
+        },
+        {
+          "source_ref": "WCD10-B17-S103",
+          "locator": "实际打开第392–415行、第426–444行：诗集分类及Muerte de Narciso(1937)、Enemigo rumor(1941)、Aventuras sigilosas(1945)、La fijeza(1949)、Dador(1960)、Fragmentos a su imán (La Habana 1977; México/Barcelona 1978)；小说与短篇汇编、随笔分别列在第413–444行。实读2026-10-14。",
+          "support_type": "institutional_scholarly_bibliography",
+          "note": "已实际打开来源正文；限定为来源直接列示的书目、类别与版本信息，不延伸为研究覆盖完整性判断。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B17-F126",
+      "author_id": "V1-ENT-0320",
+      "subject_ref": "WCD10-B17-W106",
+      "field": "genre_or_form",
+      "value": "随笔集",
+      "source_refs": [
+        "WCD10-B17-S102",
+        "WCD10-B17-S103"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B17-S102",
+          "locator": "实际打开第61–66行：作者身份与生卒（62–64）；第65行列诗集并标注1937–1978等书目年份；第66行列随笔集及1957–1970年份，并称Paradiso、Oppiano Licario为小说作品。实读2026-10-14。",
+          "support_type": "publisher_direct_author_bibliography",
+          "note": "已实际打开来源正文；限定为来源直接列示的书目、类别与版本信息，不延伸为研究覆盖完整性判断。"
+        },
+        {
+          "source_ref": "WCD10-B17-S103",
+          "locator": "实际打开第392–415行、第426–444行：诗集分类及Muerte de Narciso(1937)、Enemigo rumor(1941)、Aventuras sigilosas(1945)、La fijeza(1949)、Dador(1960)、Fragmentos a su imán (La Habana 1977; México/Barcelona 1978)；小说与短篇汇编、随笔分别列在第413–444行。实读2026-10-14。",
+          "support_type": "institutional_scholarly_bibliography",
+          "note": "已实际打开来源正文；限定为来源直接列示的书目、类别与版本信息，不延伸为研究覆盖完整性判断。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B17-F127",
+      "author_id": "V1-ENT-0320",
+      "subject_ref": "WCD10-B17-W106",
+      "field": "one_sentence_summary",
+      "value": "作者书目将其列为随笔/论文著作，并记录1958年出版；此处只作书目级描述。",
+      "source_refs": [
+        "WCD10-B17-S102",
+        "WCD10-B17-S103"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B17-S102",
+          "locator": "实际打开第61–66行：作者身份与生卒（62–64）；第65行列诗集并标注1937–1978等书目年份；第66行列随笔集及1957–1970年份，并称Paradiso、Oppiano Licario为小说作品。实读2026-10-14。",
+          "support_type": "publisher_direct_author_bibliography",
+          "note": "已实际打开来源正文；限定为来源直接列示的书目、类别与版本信息，不延伸为研究覆盖完整性判断。"
+        },
+        {
+          "source_ref": "WCD10-B17-S103",
+          "locator": "实际打开第392–415行、第426–444行：诗集分类及Muerte de Narciso(1937)、Enemigo rumor(1941)、Aventuras sigilosas(1945)、La fijeza(1949)、Dador(1960)、Fragmentos a su imán (La Habana 1977; México/Barcelona 1978)；小说与短篇汇编、随笔分别列在第413–444行。实读2026-10-14。",
+          "support_type": "institutional_scholarly_bibliography",
+          "note": "已实际打开来源正文；限定为来源直接列示的书目、类别与版本信息，不延伸为研究覆盖完整性判断。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B17-F128",
+      "author_id": "V1-ENT-0320",
+      "subject_ref": "WCD10-B17-W107",
+      "field": "first_publication_year",
+      "value": "1970",
+      "source_refs": [
+        "WCD10-B17-S102",
+        "WCD10-B17-S103"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B17-S102",
+          "locator": "实际打开第61–66行：作者身份与生卒（62–64）；第65行列诗集并标注1937–1978等书目年份；第66行列随笔集及1957–1970年份，并称Paradiso、Oppiano Licario为小说作品。实读2026-10-14。",
+          "support_type": "publisher_direct_author_bibliography",
+          "note": "已实际打开来源正文；限定为来源直接列示的书目、类别与版本信息，不延伸为研究覆盖完整性判断。"
+        },
+        {
+          "source_ref": "WCD10-B17-S103",
+          "locator": "实际打开第392–415行、第426–444行：诗集分类及Muerte de Narciso(1937)、Enemigo rumor(1941)、Aventuras sigilosas(1945)、La fijeza(1949)、Dador(1960)、Fragmentos a su imán (La Habana 1977; México/Barcelona 1978)；小说与短篇汇编、随笔分别列在第413–444行。实读2026-10-14。",
+          "support_type": "institutional_scholarly_bibliography",
+          "note": "已实际打开来源正文；限定为来源直接列示的书目、类别与版本信息，不延伸为研究覆盖完整性判断。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B17-F129",
+      "author_id": "V1-ENT-0320",
+      "subject_ref": "WCD10-B17-W107",
+      "field": "genre_or_form",
+      "value": "随笔集",
+      "source_refs": [
+        "WCD10-B17-S102",
+        "WCD10-B17-S103"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B17-S102",
+          "locator": "实际打开第61–66行：作者身份与生卒（62–64）；第65行列诗集并标注1937–1978等书目年份；第66行列随笔集及1957–1970年份，并称Paradiso、Oppiano Licario为小说作品。实读2026-10-14。",
+          "support_type": "publisher_direct_author_bibliography",
+          "note": "已实际打开来源正文；限定为来源直接列示的书目、类别与版本信息，不延伸为研究覆盖完整性判断。"
+        },
+        {
+          "source_ref": "WCD10-B17-S103",
+          "locator": "实际打开第392–415行、第426–444行：诗集分类及Muerte de Narciso(1937)、Enemigo rumor(1941)、Aventuras sigilosas(1945)、La fijeza(1949)、Dador(1960)、Fragmentos a su imán (La Habana 1977; México/Barcelona 1978)；小说与短篇汇编、随笔分别列在第413–444行。实读2026-10-14。",
+          "support_type": "institutional_scholarly_bibliography",
+          "note": "已实际打开来源正文；限定为来源直接列示的书目、类别与版本信息，不延伸为研究覆盖完整性判断。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B17-F130",
+      "author_id": "V1-ENT-0320",
+      "subject_ref": "WCD10-B17-W107",
+      "field": "one_sentence_summary",
+      "value": "作者书目将其列为随笔/论文著作，并记录1970年出版；此处只作书目级描述。",
+      "source_refs": [
+        "WCD10-B17-S102",
+        "WCD10-B17-S103"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B17-S102",
+          "locator": "实际打开第61–66行：作者身份与生卒（62–64）；第65行列诗集并标注1937–1978等书目年份；第66行列随笔集及1957–1970年份，并称Paradiso、Oppiano Licario为小说作品。实读2026-10-14。",
+          "support_type": "publisher_direct_author_bibliography",
+          "note": "已实际打开来源正文；限定为来源直接列示的书目、类别与版本信息，不延伸为研究覆盖完整性判断。"
+        },
+        {
+          "source_ref": "WCD10-B17-S103",
+          "locator": "实际打开第392–415行、第426–444行：诗集分类及Muerte de Narciso(1937)、Enemigo rumor(1941)、Aventuras sigilosas(1945)、La fijeza(1949)、Dador(1960)、Fragmentos a su imán (La Habana 1977; México/Barcelona 1978)；小说与短篇汇编、随笔分别列在第413–444行。实读2026-10-14。",
+          "support_type": "institutional_scholarly_bibliography",
+          "note": "已实际打开来源正文；限定为来源直接列示的书目、类别与版本信息，不延伸为研究覆盖完整性判断。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B17-F132",
+      "author_id": "V1-ENT-0320",
+      "subject_ref": "WCD10-B17-W108",
+      "field": "genre_or_form",
+      "value": "诗集",
+      "source_refs": [
+        "WCD10-B17-S102",
+        "WCD10-B17-S103"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B17-S102",
+          "locator": "实际打开第65行：Fragmentos a su imán列于诗歌作品并标注1978年；第66行直接区分随笔与小说类别。实读2026-10-14。",
+          "support_type": "publisher_direct_author_bibliography",
+          "note": "已实际打开正文；只登记来源直接支持的体裁、描述和版本信息。"
+        },
+        {
+          "source_ref": "WCD10-B17-S103",
+          "locator": "实际打开第260、264-265行：Fragmentos a su imán为死后出版的诗篇集，体现作者晚年处境的诗歌化表达；第408行列哈瓦那1977、墨西哥/巴塞罗那1978各版。实读2026-10-14。",
+          "support_type": "institutional_scholarly_bibliography",
+          "note": "已实际打开正文；只登记来源直接支持的体裁、描述和版本信息。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B17-F133",
+      "author_id": "V1-ENT-0320",
+      "subject_ref": "WCD10-B17-W108",
+      "field": "one_sentence_summary",
+      "value": "研究者将该书描述为莱萨马晚年处境的诗歌化表达，并指出它以更具情境性的诗篇呈现其诗学脉络。",
+      "source_refs": [
+        "WCD10-B17-S103"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B17-S103",
+          "locator": "实际打开第260、264-265行：Fragmentos a su imán为死后出版的诗篇集，体现作者晚年处境的诗歌化表达；第408行列哈瓦那1977、墨西哥/巴塞罗那1978各版。实读2026-10-14。",
+          "support_type": "institutional_scholarly_bibliography",
+          "note": "已实际打开正文；只登记来源直接支持的体裁、描述和版本信息。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B17-F134",
+      "author_id": "V1-ENT-0320",
+      "subject_ref": "WCD10-B17-W108",
+      "field": "bibliographic_note",
+      "value": "塞万提斯虚拟图书馆书目列哈瓦那1977年版及墨西哥、巴塞罗那1978年版；Editorial Anagrama作者页标注1978年。来源年份口径不同，故保留版本记录并不指定原子首版年份。",
+      "source_refs": [
+        "WCD10-B17-S102",
+        "WCD10-B17-S103"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B17-S103",
+          "locator": "实际打开第260、264-265行：Fragmentos a su imán为死后出版的诗篇集，体现作者晚年处境的诗歌化表达；第408行列哈瓦那1977、墨西哥/巴塞罗那1978各版。实读2026-10-14。",
+          "support_type": "institutional_scholarly_bibliography",
+          "note": "已实际打开正文；只登记来源直接支持的体裁、描述和版本信息。"
+        },
+        {
+          "source_ref": "WCD10-B17-S102",
+          "locator": "实际打开第65行：Fragmentos a su imán列于诗歌作品并标注1978年；第66行直接区分随笔与小说类别。实读2026-10-14。",
+          "support_type": "publisher_direct_author_bibliography",
+          "note": "已实际打开正文；只登记来源直接支持的体裁、描述和版本信息。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B17-F201",
+      "author_id": "V1-ENT-0321",
+      "subject_ref": "V1-ENT-0326",
+      "field": "one_sentence_summary",
+      "value": "小说以巴蒂斯塔独裁时期的一群年轻人为中心，并通过强烈的语言与结构实验展开。",
+      "source_refs": [
+        "WCD10-B17-S202"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B17-S202",
+          "locator": "实读2026-10-14；第20—22行：称Tres tristes tigres为小说，概括其语言与结构实验及巴蒂斯塔时期年轻人的故事；该条还将 Tres tristes tigres 列作1964（意大利语译本1976）。",
+          "support_type": "direct_institutional_or_publisher_source",
+          "note": "只采纳Treccani对小说体裁、人物群像与语言/结构实验的有限概述；未补写具体人物或情节。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B17-F202",
+      "author_id": "V1-ENT-0321",
+      "subject_ref": "V1-ENT-0326",
+      "field": "bibliographic_note",
+      "value": "Instituto Cervantes作品年表列1967；Treccani条目将小说标注为1964年（并注明意大利语译本1976）。现存V1-FCT-0871仍按1967保留；两来源口径的对应版本/年份关系未能由本次来源厘清。",
+      "source_refs": [
+        "WCD10-B17-S201",
+        "WCD10-B17-S202"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B17-S201",
+          "locator": "实读2026-10-14；页面标题“Guillermo Cabrera Infante. Cronología de obras”；第47行列 Así en la paz como en la guerra (1960)，第49行列 Un oficio del siglo XX (1963)，第51/57/64/66行分别列Tres tristes tigres (1967)、Vista del amanecer en el trópico (1974)、Cuerpos divinos (1979)、La Habana para un infante difunto (1979)。",
+          "support_type": "direct_institutional_or_publisher_source",
+          "note": "仅增加来源口径并存说明，不覆盖既存原子年份事实V1-FCT-0871；不将1964或1967重定为已解决的唯一首发年。"
+        },
+        {
+          "source_ref": "WCD10-B17-S202",
+          "locator": "实读2026-10-14；第20—22行：称Tres tristes tigres为小说，概括其语言与结构实验及巴蒂斯塔时期年轻人的故事；该条还将 Tres tristes tigres 列作1964（意大利语译本1976）。",
+          "support_type": "direct_institutional_or_publisher_source",
+          "note": "仅增加来源口径并存说明，不覆盖既存原子年份事实V1-FCT-0871；不将1964或1967重定为已解决的唯一首发年。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B17-F203",
+      "author_id": "V1-ENT-0321",
+      "subject_ref": "V1-ENT-0327",
+      "field": "genre_or_form",
+      "value": "历史题材叙事作品（Relatos）",
+      "source_refs": [
+        "WCD10-B17-S203"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B17-S203",
+          "locator": "实读2026-10-14；第13—15行显示作者、Seix Barral 1974版及出版者简介：以文学化短篇巡览古巴历史、人民、英雄、地理与艺术；第53—66行书目字段及系列“Relatos”。",
+          "support_type": "direct_institutional_or_publisher_source",
+          "note": "按Seix Barral书目系列Relatos及作品简介作有限体裁描述，不推定更窄的体裁分类。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B17-F204",
+      "author_id": "V1-ENT-0321",
+      "subject_ref": "V1-ENT-0327",
+      "field": "one_sentence_summary",
+      "value": "以诗性叙事片段巡览古巴历史、人民、地理与艺术，并涉及独立斗争、独裁暴力及革命后的冲突。",
+      "source_refs": [
+        "WCD10-B17-S203"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B17-S203",
+          "locator": "实读2026-10-14；第13—15行显示作者、Seix Barral 1974版及出版者简介：以文学化短篇巡览古巴历史、人民、英雄、地理与艺术；第53—66行书目字段及系列“Relatos”。",
+          "support_type": "direct_institutional_or_publisher_source",
+          "note": "紧随出版社简介的主题范围；不把书中片段归并为完整或中立的古巴史。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B17-F205",
+      "author_id": "V1-ENT-0321",
+      "subject_ref": "V1-ENT-0328",
+      "field": "genre_or_form",
+      "value": "小说",
+      "source_refs": [
+        "WCD10-B17-S204"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B17-S204",
+          "locator": "实读2026-10-14；第14—22行含作品题名及出版社简介；第44—54行为“Novela literaria”分类和Seix Barral版本信息；第62—63行作者书目分类。",
+          "support_type": "direct_institutional_or_publisher_source",
+          "note": "沿用出版社作品页的“Novela literaria”体裁标签。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B17-F206",
+      "author_id": "V1-ENT-0321",
+      "subject_ref": "V1-ENT-0328",
+      "field": "one_sentence_summary",
+      "value": "出版社简介提及好莱坞电影，以及叙述者追寻金发女性的叙事线索。",
+      "source_refs": [
+        "WCD10-B17-S204"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B17-S204",
+          "locator": "实读2026-10-14；第14—22行含作品题名及出版社简介；第44—54行为“Novela literaria”分类和Seix Barral版本信息；第62—63行作者书目分类。",
+          "support_type": "direct_institutional_or_publisher_source",
+          "note": "转述出版社作品页简介；不扩展为作者生平事实或全书情节概括。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B17-W201-F01",
+      "author_id": "V1-ENT-0321",
+      "subject_ref": "WCD10-B17-W201",
+      "field": "first_publication_year",
+      "value": "1960",
+      "source_refs": [
+        "WCD10-B17-S201",
+        "WCD10-B17-S205"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B17-S201",
+          "locator": "实读2026-10-14；页面标题“Guillermo Cabrera Infante. Cronología de obras”；第47行列 Así en la paz como en la guerra (1960)，第49行列 Un oficio del siglo XX (1963)，第51/57/64/66行分别列Tres tristes tigres (1967)、Vista del amanecer en el trópico (1974)、Cuerpos divinos (1979)、La Habana para un infante difunto (1979)。",
+          "support_type": "direct_institutional_or_publisher_source",
+          "note": "该来源直接列示作品题名/出版年/体裁，或其自身作品说明支持短释义。"
+        },
+        {
+          "source_ref": "WCD10-B17-S205",
+          "locator": "实读2026-10-14；第210—221行作者简介与作品类别：列出Así en la paz como en la guerra (1960)为短篇集、Un oficio del siglo XX (1963)为电影评论汇编、Cuerpos divinos (2010)为身后出版的自传性作品；第224—227行说明Cuerpos divinos回忆作者在古巴的青年生活。",
+          "support_type": "direct_institutional_or_publisher_source",
+          "note": "该来源直接列示作品题名/出版年/体裁，或其自身作品说明支持短释义。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B17-W201-F02",
+      "author_id": "V1-ENT-0321",
+      "subject_ref": "WCD10-B17-W201",
+      "field": "genre_or_form",
+      "value": "短篇小说集",
+      "source_refs": [
+        "WCD10-B17-S205"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B17-S205",
+          "locator": "实读2026-10-14；第210—221行作者简介与作品类别：列出Así en la paz como en la guerra (1960)为短篇集、Un oficio del siglo XX (1963)为电影评论汇编、Cuerpos divinos (2010)为身后出版的自传性作品；第224—227行说明Cuerpos divinos回忆作者在古巴的青年生活。",
+          "support_type": "direct_institutional_or_publisher_source",
+          "note": "该来源直接列示作品题名/出版年/体裁，或其自身作品说明支持短释义。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B17-W201-F03",
+      "author_id": "V1-ENT-0321",
+      "subject_ref": "WCD10-B17-W201",
+      "field": "one_sentence_summary",
+      "value": "出版者将该书列为作者1960年的短篇小说集。",
+      "source_refs": [
+        "WCD10-B17-S205"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B17-S205",
+          "locator": "实读2026-10-14；第210—221行作者简介与作品类别：列出Así en la paz como en la guerra (1960)为短篇集、Un oficio del siglo XX (1963)为电影评论汇编、Cuerpos divinos (2010)为身后出版的自传性作品；第224—227行说明Cuerpos divinos回忆作者在古巴的青年生活。",
+          "support_type": "direct_institutional_or_publisher_source",
+          "note": "该来源直接列示作品题名/出版年/体裁，或其自身作品说明支持短释义。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B17-W202-F01",
+      "author_id": "V1-ENT-0321",
+      "subject_ref": "WCD10-B17-W202",
+      "field": "first_publication_year",
+      "value": "1963",
+      "source_refs": [
+        "WCD10-B17-S201",
+        "WCD10-B17-S205"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B17-S201",
+          "locator": "实读2026-10-14；页面标题“Guillermo Cabrera Infante. Cronología de obras”；第47行列 Así en la paz como en la guerra (1960)，第49行列 Un oficio del siglo XX (1963)，第51/57/64/66行分别列Tres tristes tigres (1967)、Vista del amanecer en el trópico (1974)、Cuerpos divinos (1979)、La Habana para un infante difunto (1979)。",
+          "support_type": "direct_institutional_or_publisher_source",
+          "note": "该来源直接列示作品题名/出版年/体裁，或其自身作品说明支持短释义。"
+        },
+        {
+          "source_ref": "WCD10-B17-S205",
+          "locator": "实读2026-10-14；第210—221行作者简介与作品类别：列出Así en la paz como en la guerra (1960)为短篇集、Un oficio del siglo XX (1963)为电影评论汇编、Cuerpos divinos (2010)为身后出版的自传性作品；第224—227行说明Cuerpos divinos回忆作者在古巴的青年生活。",
+          "support_type": "direct_institutional_or_publisher_source",
+          "note": "该来源直接列示作品题名/出版年/体裁，或其自身作品说明支持短释义。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B17-W202-F02",
+      "author_id": "V1-ENT-0321",
+      "subject_ref": "WCD10-B17-W202",
+      "field": "genre_or_form",
+      "value": "电影评论汇编",
+      "source_refs": [
+        "WCD10-B17-S205"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B17-S205",
+          "locator": "实读2026-10-14；第210—221行作者简介与作品类别：列出Así en la paz como en la guerra (1960)为短篇集、Un oficio del siglo XX (1963)为电影评论汇编、Cuerpos divinos (2010)为身后出版的自传性作品；第224—227行说明Cuerpos divinos回忆作者在古巴的青年生活。",
+          "support_type": "direct_institutional_or_publisher_source",
+          "note": "该来源直接列示作品题名/出版年/体裁，或其自身作品说明支持短释义。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B17-W202-F03",
+      "author_id": "V1-ENT-0321",
+      "subject_ref": "WCD10-B17-W202",
+      "field": "one_sentence_summary",
+      "value": "这部1963年作品汇集作者的电影评论。",
+      "source_refs": [
+        "WCD10-B17-S205"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B17-S205",
+          "locator": "实读2026-10-14；第210—221行作者简介与作品类别：列出Así en la paz como en la guerra (1960)为短篇集、Un oficio del siglo XX (1963)为电影评论汇编、Cuerpos divinos (2010)为身后出版的自传性作品；第224—227行说明Cuerpos divinos回忆作者在古巴的青年生活。",
+          "support_type": "direct_institutional_or_publisher_source",
+          "note": "该来源直接列示作品题名/出版年/体裁，或其自身作品说明支持短释义。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B17-W203-F01",
+      "author_id": "V1-ENT-0321",
+      "subject_ref": "WCD10-B17-W203",
+      "field": "bibliographic_note",
+      "value": "Instituto Cervantes年表将Cuerpos divinos列于1979年；Penguin书目列2010年并说明身后出版。两来源未说明1979的年份口径，故本候选不填写原子首发年。",
+      "source_refs": [
+        "WCD10-B17-S201",
+        "WCD10-B17-S205"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B17-S201",
+          "locator": "实读2026-10-14；页面标题“Guillermo Cabrera Infante. Cronología de obras”；第47行列 Así en la paz como en la guerra (1960)，第49行列 Un oficio del siglo XX (1963)，第51/57/64/66行分别列Tres tristes tigres (1967)、Vista del amanecer en el trópico (1974)、Cuerpos divinos (1979)、La Habana para un infante difunto (1979)。",
+          "support_type": "direct_institutional_or_publisher_source",
+          "note": "该来源直接列示作品题名/出版年/体裁，或其自身作品说明支持短释义。"
+        },
+        {
+          "source_ref": "WCD10-B17-S205",
+          "locator": "实读2026-10-14；第210—221行作者简介与作品类别：列出Así en la paz como en la guerra (1960)为短篇集、Un oficio del siglo XX (1963)为电影评论汇编、Cuerpos divinos (2010)为身后出版的自传性作品；第224—227行说明Cuerpos divinos回忆作者在古巴的青年生活。",
+          "support_type": "direct_institutional_or_publisher_source",
+          "note": "该来源直接列示作品题名/出版年/体裁，或其自身作品说明支持短释义。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B17-W203-F02",
+      "author_id": "V1-ENT-0321",
+      "subject_ref": "WCD10-B17-W203",
+      "field": "genre_or_form",
+      "value": "小说化回忆录",
+      "source_refs": [
+        "WCD10-B17-S205"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B17-S205",
+          "locator": "实读2026-10-14；第210—221行作者简介与作品类别：列出Así en la paz como en la guerra (1960)为短篇集、Un oficio del siglo XX (1963)为电影评论汇编、Cuerpos divinos (2010)为身后出版的自传性作品；第224—227行说明Cuerpos divinos回忆作者在古巴的青年生活。",
+          "support_type": "direct_institutional_or_publisher_source",
+          "note": "该来源直接列示作品题名/出版年/体裁，或其自身作品说明支持短释义。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B17-W203-F03",
+      "author_id": "V1-ENT-0321",
+      "subject_ref": "WCD10-B17-W203",
+      "field": "one_sentence_summary",
+      "value": "以小说化回忆重现作者在古巴度过的青年生活；Penguin书目注明该书身后出版。",
+      "source_refs": [
+        "WCD10-B17-S205"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B17-S205",
+          "locator": "实读2026-10-14；第210—221行作者简介与作品类别：列出Así en la paz como en la guerra (1960)为短篇集、Un oficio del siglo XX (1963)为电影评论汇编、Cuerpos divinos (2010)为身后出版的自传性作品；第224—227行说明Cuerpos divinos回忆作者在古巴的青年生活。",
+          "support_type": "direct_institutional_or_publisher_source",
+          "note": "该来源直接列示作品题名/出版年/体裁，或其自身作品说明支持短释义。"
+        }
+      ]
+    }
+  ]
+}

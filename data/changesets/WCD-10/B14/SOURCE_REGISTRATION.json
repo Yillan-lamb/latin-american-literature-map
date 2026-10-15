@@ -1,0 +1,216 @@
+{
+  "task_id": "TASK-119",
+  "batch_id": "WCD-10-B14",
+  "baseline_database_sha256": "c7b5951beb2e2a30053b08d84e07931547b8909a1e5a180086fafeedebaea677",
+  "accessed_at": "2026-10-13",
+  "verified_by": "Parent-reviewed WCD-10 B14 author source packages; individual verifier identities retained under author_policies.",
+  "copyright_boundary": "Research-only candidate metadata and bounded paraphrases; no substantial source text copied or retained. Original author boundaries retained under author_policies.",
+  "public_content_scope": "Research candidates only; no automatic Curation or public admission. Original author scopes retained under author_policies.",
+  "local_asset_status": "remote_only",
+  "source_year_policy": "Record only directly supported source-specific dates; distinguish edition dates from first-publication years and preserve unresolved differences. Original author policies retained under author_policies.",
+  "profiles": [
+    {
+      "candidate_id": "WCD10-B14-S001",
+      "publisher": "Editorial Anagrama",
+      "format": "publisher_book_page",
+      "language": "es",
+      "author_or_editor": "Editorial Anagrama",
+      "source_level": "B",
+      "title": "Varamo — Editorial Anagrama",
+      "publication_year": "2002",
+      "date_purpose": "publisher edition date; not asserted as first publication year"
+    },
+    {
+      "candidate_id": "WCD10-B14-S002",
+      "publisher": "New Directions Publishing",
+      "format": "publisher_book_page",
+      "language": "en",
+      "author_or_editor": "New Directions Publishing",
+      "source_level": "B",
+      "title": "How I Became a Nun — New Directions Publishing",
+      "publication_year": "2008",
+      "date_purpose": "English paperback edition date; not asserted as original Spanish first publication"
+    },
+    {
+      "candidate_id": "WCD10-B14-S003",
+      "publisher": "Penguin Random House Grupo Editorial",
+      "format": "publisher_book_page",
+      "language": "es",
+      "author_or_editor": "Penguin Random House Grupo Editorial",
+      "source_level": "B",
+      "title": "Un episodio en la vida del pintor viajero — Penguin Libros",
+      "publication_year": "2005",
+      "date_purpose": "publisher edition date; not asserted as first publication year"
+    },
+    {
+      "candidate_id": "WCD10-B14-S101",
+      "publisher": "Argentina.gob.ar / Secretaría de Cultura",
+      "format": "government_cultural_institution_web_article",
+      "language": "es",
+      "author_or_editor": "Secretaría de Cultura de la Nación Argentina",
+      "source_level": "B",
+      "title": "Manuel Puig: pop, melodrama y literatura de vanguardia",
+      "publication_year": "2022",
+      "date_purpose": "网页标注2022-12-28；2026-10-13实读。",
+      "notes": "支持文中逐项列示的书目及有限概要。",
+      "disposition": "fresh_registration",
+      "access_status": "OPENED",
+      "locator": "网页段落34-37、41-58",
+      "usage": "实读页面；按定位范围限定使用。"
+    },
+    {
+      "candidate_id": "WCD10-B14-S102",
+      "publisher": "Grupo Planeta",
+      "format": "publisher_author_bibliography",
+      "language": "es",
+      "author_or_editor": "Editorial Planeta",
+      "source_level": "B",
+      "title": "El beso de la mujer araña — Manuel Puig",
+      "publication_year": "",
+      "date_purpose": "网页未标发布日期，留空；2026-10-13实读。",
+      "notes": "仅使用作者书目章节所列作品/类别，不将当前版本出版日期误作初版年。",
+      "disposition": "fresh_registration",
+      "access_status": "OPENED",
+      "locator": "作者书目段落90-92",
+      "usage": "实读页面；按定位范围限定使用。"
+    },
+    {
+      "candidate_id": "WCD10-B14-S103",
+      "publisher": "Grupo Planeta",
+      "format": "publisher_work_page",
+      "language": "es",
+      "author_or_editor": "Editorial Planeta",
+      "source_level": "B",
+      "title": "The Buenos Aires Affair (NE) — Manuel Puig | PlanetadeLibros",
+      "publication_year": "",
+      "date_purpose": "页面未标原作初版年份；2026-10-13实读。",
+      "notes": "仅支持相应作品页面直接列出的情节、体裁和书目信息；避免将当前版本年份误作原作初版。",
+      "disposition": "fresh_registration",
+      "access_status": "OPENED",
+      "locator": "出版社简介段落21-23；作者书目66-68",
+      "usage": "仅限对应作品的题名、类别及有界情节释义。"
+    },
+    {
+      "candidate_id": "WCD10-B14-S104",
+      "publisher": "Grupo Planeta",
+      "format": "publisher_work_page",
+      "language": "es",
+      "author_or_editor": "Editorial Planeta",
+      "source_level": "B",
+      "title": "Maldición eterna a quien lea estas páginas (NE) — Manuel Puig | PlanetadeLibros",
+      "publication_year": "",
+      "date_purpose": "页面未标原作初版年份；2026-10-13实读。",
+      "notes": "仅支持相应作品页面直接列出的情节、体裁和书目信息；避免将当前版本年份误作原作初版。",
+      "disposition": "fresh_registration",
+      "access_status": "OPENED",
+      "locator": "作者书目73-77；作品类别/书目59-70",
+      "usage": "仅限对应作品的题名、类别及有界情节释义。"
+    },
+    {
+      "candidate_id": "WCD10-B14-S105",
+      "publisher": "Grupo Planeta",
+      "format": "publisher_work_page",
+      "language": "es",
+      "author_or_editor": "Editorial Planeta",
+      "source_level": "B",
+      "title": "Cae la noche tropical — Manuel Puig | PlanetadeLibros",
+      "publication_year": "",
+      "date_purpose": "页面未标原作初版年份；2026-10-13实读。",
+      "notes": "仅支持相应作品页面直接列出的情节、体裁和书目信息；避免将当前版本年份误作原作初版。",
+      "disposition": "fresh_registration",
+      "access_status": "OPENED",
+      "locator": "出版社简介段落19-23；分类50-60；作者书目63-67",
+      "usage": "仅限对应作品的题名、类别及有界情节释义。"
+    },
+    {
+      "candidate_id": "WCD10-B14-S201",
+      "publisher": "Educ.ar",
+      "format": "institutional_educational_web_page",
+      "language": "es",
+      "author_or_editor": "Alejandra Torres",
+      "source_level": "B",
+      "title": "Silvina Ocampo: el viaje olvidado — Educ.ar",
+      "publication_year": "2012-07-26",
+      "date_purpose": "页面标明2012-07-26发布、2026-02-25更新；本轮实读2026-10-13。",
+      "notes": "规范机构教育门户页面，复用冻结正式来源SRC-0227，旧元数据不改。",
+      "disposition": "reuse",
+      "formal_source_id": "SRC-0227",
+      "reuse_existing_source": "SRC-0227"
+    },
+    {
+      "candidate_id": "WCD10-B14-S202",
+      "publisher": "Ministerio de Cultura de la Nación Argentina",
+      "format": "government_cultural_web_page",
+      "language": "es",
+      "author_or_editor": "Ministerio de Cultura de la Nación Argentina",
+      "source_level": "B",
+      "title": "Fantástica y misteriosa Silvina — Cultura",
+      "publication_year": "2021-07-28",
+      "date_purpose": "页面刊期2021-07-28；实读2026-10-13。",
+      "notes": "政府文化门户的作者作品目录；直接打开并核实相关作品条目。",
+      "disposition": "reuse",
+      "reuse_existing_source": "SRC-0228",
+      "formal_source_id": "SRC-0228"
+    },
+    {
+      "candidate_id": "WCD10-B14-S203",
+      "publisher": "University of Notre Dame",
+      "format": "university_special_collections_web_page",
+      "language": "en",
+      "author_or_editor": "Hesburgh Libraries, University of Notre Dame",
+      "source_level": "B",
+      "title": "Silvina Ocampo — Hesburgh Libraries, University of Notre Dame",
+      "publication_year": "",
+      "date_purpose": "网页未标发布日期；实读2026-10-13。",
+      "notes": "大学特藏作者页，明确列出初版特藏和作品清单；新注册。",
+      "disposition": "fresh_registration"
+    }
+  ],
+  "author_policies": [
+    {
+      "author_id": "V1-ENT-0274",
+      "root_execution_metadata": {
+        "accessed_at": "2026-10-13",
+        "verified_by": "GPT-6 Luna isolated candidate producer; parent review pending",
+        "copyright_boundary": "仅书目元数据与短篇幅改述；未下载或保存来源资产。",
+        "public_content_scope": "仅研究候选书目与受限描述；无自动策展或公开准入。",
+        "local_asset_status": "remote_only",
+        "source_year_policy": "不从作者目录推断版本年份；具体版本年份仅在直接书目页核实后录入。"
+      },
+      "author_policies": {
+        "V1-ENT-0274": "只记录实读直接来源支持的事实；目录列名不当作版本年或情节简介。"
+      },
+      "other_registration_metadata": {
+        "author_policies": {
+          "V1-ENT-0274": "只记录实读直接来源支持的事实；目录列名不当作版本年或情节简介。"
+        }
+      }
+    },
+    {
+      "author_id": "V1-ENT-0284",
+      "root_execution_metadata": {
+        "accessed_at": "2026-10-13",
+        "verified_by": "GPT-6 Luna candidate producer",
+        "copyright_boundary": "仅记录短篇释义、书目信息与来源定位，不复制原文。",
+        "public_content_scope": "候选研究层；无自动公开许可。",
+        "local_asset_status": "remote_only",
+        "source_year_policy": "仅在来源直接记载作品出版年时记录；不得把当前版本年份混为初版年。"
+      },
+      "author_policies": {},
+      "other_registration_metadata": {}
+    },
+    {
+      "author_id": "V1-ENT-0285",
+      "root_execution_metadata": {
+        "accessed_at": "2026-10-13",
+        "verified_by": "gpt-6-luna candidate producer; direct browser open",
+        "copyright_boundary": "仅保存书目信息、有限释义和来源定位；不复制来源长文。",
+        "public_content_scope": "Research-only candidate; no reader-facing admission or release.",
+        "local_asset_status": "remote_only",
+        "source_year_policy": "仅记录Educ.ar页面明确标示的年份；未标则留空，不推断版次。"
+      },
+      "author_policies": {},
+      "other_registration_metadata": {}
+    }
+  ]
+}

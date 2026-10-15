@@ -1,0 +1,67 @@
+{
+  "schema": "wcd10-controlled-append-attachment-v1",
+  "task_id": "TASK-127",
+  "baseline_database_sha256": "559b1858b7b5e647b4b313f841be8d2960cf3a5eacf2a2dd92c6161668da706c",
+  "candidate_relationship": {
+    "subject_id": "V1-ENT-0172",
+    "subject_name": "Jorge Amado",
+    "relation_type": "CREATED",
+    "object_id": "V1-ENT-0591",
+    "object_name": "O mistério dos MMM",
+    "object_entity_type": "work",
+    "description_zh": "若热·亚马多是《O mistério dos MMM》十位章节作者之一；本关系不推断其具体章节或独著身份。",
+    "source_id": "SRC-0652",
+    "source_title": "A escrita em conjunto na literatura policial brasileira: um olhar sobre os arquivos de João Condé",
+    "locator": "PDF page 4 / printed p. 557 / lines 134–156",
+    "role_boundary": "仅称十位章节作者之一，不推断独著或具体章节。",
+    "append_only": true,
+    "formal_relationship_id": null
+  },
+  "evidence_access": {
+    "accessed_at": "2026-10-15",
+    "access_type": "fresh_parent_open",
+    "url": "https://www.e-publicacoes.uerj.br/palimpsesto/article/download/65304/42073/235926",
+    "tool": "web.open",
+    "record_path": "project/internal/WCD_10_WORKSPACE/FINAL_REENTRY/PARENT_SOURCE_READS.json",
+    "record_ref": "turn0view1",
+    "result": "OPENED_CONTENT; PDF p.4 / printed p.557 / lines 134–156 states that each of ten authors wrote one chapter and lists Jorge Amado.",
+    "historical_raw_extract_not_used_as_current_access": true
+  },
+  "baseline_findings": {
+    "existing_relationship_rows": [],
+    "existing_object_row": {
+      "entity_id": "V1-ENT-0591",
+      "entity_type": "work",
+      "name_zh": "《MMM之谜》",
+      "original_name": "O mistério dos MMM",
+      "canonical_status": "candidate",
+      "origin_count": "1",
+      "origin_refs": "WCD10-B08-W207",
+      "normalization_basis": "首发年份采用Covizzi与Verlangieri书目所载1961年10–12月《O Cruzeiro》连载；该书目另列1962年O Cruzeiro书本版，ABL及帕拉州基金会馆藏目录也支持1962书版。S224称1964年在《O Cruzeiro》连载、后来又出书；此说与1961年连载、1962年书版冲突，作为相反来源说法保留。; 中文为工作显示译名；保留原文题名作为身份锚点，不主张已有正式中译本。",
+      "issue_codes": "PROVISIONAL-ZH-DISPLAY"
+    },
+    "existing_source_full_row": {
+      "source_id": "SRC-0652",
+      "temporary_id": "WCD10-B08-S224",
+      "title": "A escrita em conjunto na literatura policial brasileira: um olhar sobre os arquivos de João Condé",
+      "original_title": "A escrita em conjunto na literatura policial brasileira: um olhar sobre os arquivos de João Condé",
+      "author_or_editor": "Taynara Leszczynski; Isabelle Maria Soares",
+      "translator": "",
+      "publisher": "Universidade do Estado do Rio de Janeiro",
+      "publication_year": "2022",
+      "isbn": "",
+      "format": "research_pdf",
+      "page_count": "",
+      "language": "pt",
+      "source_level": "A",
+      "processing_status": "access_pass",
+      "source_task": "WCD-10-B08",
+      "public_content_scope": "Merged research candidate only; no Curation admission or public release.",
+      "local_asset_status": "remote_only",
+      "persistent_id": "",
+      "canonical_url": "https://www.e-publicacoes.uerj.br/palimpsesto/article/download/65304/42073/235926"
+    },
+    "new_object_source_fact_card_created": false
+  },
+  "validation_boundary": "This is a separate controlled append attachment, outside ordinary fixed-author validator scope; requires parent independent review and clone append/readback. No object/source/fact/card or formal relationship ID is assigned here."
+}

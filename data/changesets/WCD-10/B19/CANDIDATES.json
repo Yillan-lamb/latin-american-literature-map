@@ -1,0 +1,889 @@
+{
+  "schema": "wcd10-candidate-change-set-1",
+  "task_id": "TASK-124",
+  "batch_id": "WCD-10-B19",
+  "baseline_commit": "05f3372c69a54ec331d31b05d16c8288d6d3a993",
+  "baseline_database_sha256": "8e2c26422a219990c8e397005ebd4e2c8499181f657b63f53cdb70af3e99d016",
+  "status": "candidate_only",
+  "author_ids": [
+    "V1-ENT-0334",
+    "V1-ENT-0344",
+    "V1-ENT-0345"
+  ],
+  "accessed_at": "2026-10-14",
+  "public_boundary": "本批仅Research候选；未经独立审核不进入正式库、Curation或公开层。",
+  "source_scope_decisions": [],
+  "sources": [
+    {
+      "candidate_id": "WCD10-B19-S001",
+      "url": "https://www.planetadelibros.com.mx/autor/reinaldo-arenas/000028899",
+      "title": "Reinaldo Arenas | PlanetadeLibros",
+      "author_or_editor": "Tusquets Editores / Grupo Planeta",
+      "publisher": "Editorial Planeta",
+      "source_level": "B",
+      "disposition": "fresh_registration",
+      "access_status": "OPENED",
+      "locator": "2026-10-14实际打开。第9-13行作者介绍并称Tusquets出版的pentagonía由Celestino antes del alba、El palacio de las blanquísimas mofetas、Otra vez el mar、El color del verano、El asalto构成；第12行亦将El mundo alucinante、El portero列为小说。第25-70行相关作品目录可交叉核验题名与novela分类。",
+      "usage": "直接支持五部pentagonía作品与作者的出版者归属及小说体裁，另支持El portero为小说。此作者目录未给出原始首版年，不从当前版年倒推。",
+      "candidate_ids": [
+        "WCD10-B19-S001",
+        "WCD10-B19-W001",
+        "WCD10-B19-W002",
+        "WCD10-B19-W003",
+        "WCD10-B19-W004",
+        "WCD10-B19-W005",
+        "WCD10-B19-F001",
+        "WCD10-B19-F015",
+        "WCD10-B19-F003",
+        "WCD10-B19-F004",
+        "WCD10-B19-F005",
+        "WCD10-B19-F007",
+        "WCD10-B19-F008",
+        "WCD10-B19-F017",
+        "WCD10-B19-F010",
+        "WCD10-B19-F012"
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B19-S002",
+      "url": "https://www.planetadelibros.com/libro-el-color-del-verano/88440",
+      "title": "El color del verano - Reinaldo Arenas | PlanetadeLibros",
+      "author_or_editor": "Tusquets Editores",
+      "publisher": "Tusquets Editores / Editorial Planeta",
+      "source_level": "B",
+      "disposition": "fresh_registration",
+      "access_status": "OPENED",
+      "locator": "2026-10-14实际打开。第16-23行书名、作者与简介，写古巴岛上为独裁者在位五十周年举行狂欢节及地下青年生活；第51-64行现版技术书目（1999版），第67-70行作者简介和pentagonía归属。",
+      "usage": "支持El color del verano的作者归属、现版书目、小说分类及限缩情节简介；1999为该页面所列版次年份，不作为原始首版年。",
+      "candidate_ids": [
+        "WCD10-B19-S002",
+        "WCD10-B19-W003",
+        "WCD10-B19-F006",
+        "WCD10-B19-F007"
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B19-S003",
+      "url": "https://www.planetadelibros.com/libro-el-portero/88609",
+      "title": "El portero - Reinaldo Arenas | PlanetadeLibros",
+      "author_or_editor": "Tusquets Editores",
+      "publisher": "Tusquets Editores / Editorial Planeta",
+      "source_level": "B",
+      "disposition": "fresh_registration",
+      "access_status": "OPENED",
+      "locator": "2026-10-14实际打开。第16-23行书名、作者及简介：纽约写作（1984-1986）、大楼微观社会和古巴流亡门卫；第54-66行现版书目（2004年Tusquets版）及Novela literaria分类。",
+      "usage": "支持El portero作者归属、小说体裁、现版年和有界简介。2004为页面所列版次年份，不作为作品首版年。",
+      "candidate_ids": [
+        "WCD10-B19-S003",
+        "WCD10-B19-W005",
+        "WCD10-B19-F011",
+        "WCD10-B19-F012"
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B19-S004",
+      "url": "https://www.planetadelibros.com/libro-el-palacio-de-las-blanquisimas-mofetas/88511",
+      "title": "El palacio de las blanquísimas mofetas - Reinaldo Arenas | PlanetadeLibros",
+      "author_or_editor": "Tusquets Editores",
+      "publisher": "Tusquets Editores / Editorial Planeta",
+      "source_level": "B",
+      "disposition": "fresh_registration",
+      "access_status": "OPENED",
+      "locator": "2026-10-14实际打开。第16-23行书名、作者与出版者简介；简介称作品对作者个人经历及其国家作了具有个人色彩的回顾。第47-59行列Novela literaria及当前版技术书目。第61-65行可核作者身份，但无首版年份。",
+      "usage": "直接支持该作作者归属、小说类别和限缩作品简介；当前版本信息不视为作品首版年。简介不引用五部曲内部次序。",
+      "candidate_ids": [
+        "WCD10-B19-S004",
+        "WCD10-B19-F013"
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B19-S005",
+      "url": "https://proapi.planetadelibros.com/descargas/sala-prensa-libro/sinopsis-y-biografia/291793/otra-vez-el-mar.pdf",
+      "title": "Otra vez el mar — sinopsis y biografía (press kit)",
+      "author_or_editor": "Tusquets Editores",
+      "publisher": "Tusquets Editores / Editorial Planeta",
+      "source_level": "B",
+      "disposition": "fresh_registration",
+      "access_status": "OPENED",
+      "locator": "2026-10-14实际打开1页PDF。第5-8行题名、作者及“对古巴革命失望的故事”；第15-27行描述一对年轻夫妻在度假地的双部叙述，第一部分为妻子视角，第二部分为丈夫Héctor视角；第28-37行作者介绍。页面所称1982是经作者修订的文本版本背景，不据此断定更早首版。",
+      "usage": "直接支持作者归属及有界简介；另用于保留版本说明，不推定原子首版年份。",
+      "candidate_ids": [
+        "WCD10-B19-S005",
+        "WCD10-B19-F004",
+        "WCD10-B19-F018"
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B19-S006",
+      "url": "https://proapi.planetadelibros.com/descargas/sala-prensa-libro/sinopsis-y-biografia/88580/el-asalto.pdf",
+      "title": "El asalto — sinopsis y biografía (press kit)",
+      "author_or_editor": "Tusquets Editores",
+      "publisher": "Tusquets Editores / Editorial Planeta",
+      "source_level": "B",
+      "disposition": "fresh_registration",
+      "access_status": "OPENED",
+      "locator": "2026-10-14实际打开1页PDF。第5-12行题名、作者和作品总述；第13-22行介绍压迫性国家中的叙述者成为秘密行动机构成员、借职务寻找并谋杀母亲的情节；第23-26行作者对作品的简短评价。",
+      "usage": "直接支持该作作者归属、出版者简介及小说体裁。所列出版日期2003只视为该版本/资料的日期，不作为首版年份。",
+      "candidate_ids": [
+        "WCD10-B19-S006",
+        "WCD10-B19-F014"
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B19-S101",
+      "url": "https://www.memoriachilena.gob.cl/602/w3-propertyvalue-128650.html",
+      "title": "Sepúlveda, Luis — Referencias bibliográficas",
+      "original_title": "Sepúlveda, Luis — Referencias bibliográficas",
+      "author_or_editor": "Biblioteca Nacional de Chile, Memoria Chilena",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "实读2026-10-14：网页“Referencias bibliográficas de Sepúlveda, Luis”逐项列出Nombre de torero（Barcelona: Tusquets, 1994）、Patagonia express（Barcelona: Tusquets, 1995）及Diario de un killer sentimental; Seguido de Yacaré（Barcelona: Tusquets, 1998），并列Un viejo…1989。",
+      "usage": "直接书目记录支持Nombre de torero、Patagonia Express、Diario… seguido de Yacaré的书目身份与所列版本出版年；不是完整作品全集。",
+      "reuse_existing_source": "SRC-0261"
+    },
+    {
+      "candidate_id": "WCD10-B19-S102",
+      "url": "https://www.bibliotecanacionaldigital.gob.cl/colecciones/BND/00/RC/RC0049657.pdf",
+      "title": "La narrativa del chileno Luis Sepúlveda",
+      "original_title": "La narrativa del chileno Luis Sepúlveda",
+      "author_or_editor": "Juan Gabriel Araya G.；Universidad del Bío-Bío / Biblioteca Nacional Digital de Chile",
+      "source_level": "A",
+      "access_status": "OPENED",
+      "locator": "实读2026-10-14，PDF第1页/Lines 59–71：列四部初期作品的年份，明确Nombre de torero小说、Patagonia Express旅行叙事；第61–65行列Desencuentros (1997)故事集与两篇Diario…/Yacaré (1998)。",
+      "usage": "直接支持所列作品年份、类别及旅行叙事概括；研究文章观点仅作该文归属表达，不扩大成学界共识。",
+      "reuse_existing_source": "SRC-0262"
+    },
+    {
+      "candidate_id": "WCD10-B19-S103",
+      "url": "https://proapi.planetadelibros.com/descargas/sala-prensa-libro/sinopsis-y-biografia/88421/diario-de-un-killer-sentimental-seguido-de-yacare.pdf",
+      "title": "Diario de un Killer sentimental seguido de Yacaré — Tusquets",
+      "original_title": "Diario de un Killer sentimental seguido de Yacaré — Tusquets",
+      "author_or_editor": "Tusquets Editores / Grupo Planeta",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "实读2026-10-14，Tusquets出版社新闻材料第0–20行载书目日期1998-06-01、将两篇称为短篇小说并概述其犯罪故事；第26–30行作者简介分类为故事集。仅采该版发布日，不将其误作作品首版年。",
+      "usage": "出版社新闻资料直接支持合辑书目、内容边界和两篇短篇小说的描述；页面所标1998为该版日期。"
+    },
+    {
+      "candidate_id": "WCD10-B19-S104",
+      "url": "https://proapi.planetadelibros.com/descargas/sala-prensa-libro/sinopsis-y-biografia/91361/desencuentros.pdf",
+      "title": "Desencuentros — Tusquets",
+      "original_title": "Desencuentros",
+      "author_or_editor": "Tusquets Editores / Grupo Planeta",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "实读2026-10-14，Tusquets出版社新闻材料第0–7行标识作品和出版社；第9–17行说明该书汇集作者挑选的早期与未刊故事；第21–29行称为27篇故事并概述其围绕愿望、情感、友谊与命运错位展开；第40–46行作者简介将Desencuentros列为故事集。资料出版日期为2013-02-14，视为该资料所载再版/版本日期，不据此推断首版年。",
+      "usage": "直接支持本书为27篇故事构成的合集及其内容简介；2013日期仅为该资料对应版本日期，不作为首版年。"
+    },
+    {
+      "candidate_id": "WCD10-B19-S105",
+      "url": "https://www.planetadelibros.com/libro-nombre-de-torero/88303",
+      "title": "Nombre de torero — PlanetadeLibros / Tusquets",
+      "original_title": "Nombre de torero",
+      "author_or_editor": "Tusquets Editores / Grupo Planeta",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "实读2026-10-14：第18–25行列出作品作者及书商梗概，纳粹时期失窃金币、柏林墙倒塌近五十年后、Juan Belmonte与Frank Galinsky被分别雇用；第67–80行技术资料列主题Novela literaria、出版日期1994-10-01、Tusquets出版社及ISBN。此出版日期记录版本数据，不将该书目字段表述为作者首版年份。",
+      "usage": "直接支持Nombre de torero作品身份、小说类型和有界情节简介；页面出版日期作为版本书目信息保存。"
+    },
+    {
+      "candidate_id": "WCD10-B19-S201",
+      "url": "https://www.anagrama-ed.es/libro/narrativas-hispanicas/el-huesped/9788433944481/NH_390",
+      "title": "El huésped",
+      "original_title": "El huésped",
+      "author_or_editor": "Editorial Anagrama",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "实读2026-10-14，页面第61–73行标题、作者、小说形态与出版社简介；第95–97行该页面版本出版日期2006-01-01。",
+      "usage": "用于其书目、作品类别和有界简介；复用来源保留冻结来源元数据。",
+      "disposition": "new_source",
+      "reuse_existing_source": "",
+      "candidate_ids": [
+        "WCD10-B19-W201",
+        "WCD10-B19-F201",
+        "WCD10-B19-F202",
+        "WCD10-B19-F203"
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B19-S202",
+      "url": "https://www.anagrama-ed.es/libro/narrativas-hispanicas/el-cuerpo-en-que-naci/9788433933201/NH_491",
+      "title": "El cuerpo en que nací",
+      "original_title": "El cuerpo en que nací",
+      "author_or_editor": "Editorial Anagrama",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "实读2026-10-14，页面第61–74行标题、作者、出版社简介及“novela”；第103–105行该页面版本出版日期2011-10-01。",
+      "usage": "用于其书目、作品类别和有界简介；复用来源保留冻结来源元数据。",
+      "disposition": "new_source",
+      "reuse_existing_source": "",
+      "candidate_ids": [
+        "WCD10-B19-W202",
+        "WCD10-B19-F204",
+        "WCD10-B19-F205",
+        "WCD10-B19-F206"
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B19-S203",
+      "url": "https://www.anagrama-ed.es/libro/narrativas-hispanicas/despues-del-invierno/9788433932723/NH_539",
+      "title": "Después del invierno",
+      "original_title": "Después del invierno",
+      "author_or_editor": "Editorial Anagrama",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "实读2026-10-14，页面第73–76行小说体裁与限缩简介；第104–106行出版社版本出版日期2014-11-19。",
+      "usage": "用于其书目、作品类别和有界简介；复用来源保留冻结来源元数据。",
+      "disposition": "new_source",
+      "reuse_existing_source": "",
+      "candidate_ids": [
+        "WCD10-B19-W203",
+        "WCD10-B19-F207",
+        "WCD10-B19-F208",
+        "WCD10-B19-F209"
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B19-S204",
+      "url": "https://www.anagrama-ed.es/libro/narrativas-hispanicas/los-divagantes/9788433908186/NH_719",
+      "title": "Los divagantes",
+      "original_title": "Los divagantes",
+      "author_or_editor": "Editorial Anagrama",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "实读2026-10-14，页面第78–81行八篇故事与内容概述；第113–115行页面版本日期2023-09-06。",
+      "usage": "用于其书目、作品类别和有界简介；复用来源保留冻结来源元数据。",
+      "disposition": "new_source",
+      "reuse_existing_source": "",
+      "candidate_ids": [
+        "WCD10-B19-W204",
+        "WCD10-B19-F210",
+        "WCD10-B19-F211",
+        "WCD10-B19-F212"
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B19-S205",
+      "url": "https://www.anagrama-ed.es/autor/nettel-guadalupe-785",
+      "title": "Guadalupe Nettel — Editorial Anagrama",
+      "original_title": "Guadalupe Nettel — Editorial Anagrama",
+      "author_or_editor": "Editorial Anagrama",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "实读2026-10-14，作者目录第62行列举《El huésped》《Pétalos y otras historias incómodas》《El cuerpo en que nací》《Después del invierno》《La hija única》《Los divagantes》及作者归属；用于交叉核对书目与作者。",
+      "usage": "用于其书目、作品类别和有界简介；复用来源保留冻结来源元数据。",
+      "disposition": "reuse",
+      "reuse_existing_source": "SRC-0263",
+      "candidate_ids": [
+        "WCD10-B19-W201",
+        "WCD10-B19-W202",
+        "WCD10-B19-W203",
+        "WCD10-B19-W204"
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B19-S206",
+      "url": "https://www.anagrama-ed.es/libro/narrativas-hispanicas/la-hija-unica/9788433999061/NH_652",
+      "title": "La hija única",
+      "original_title": "La hija única",
+      "author_or_editor": "Editorial Anagrama",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "实读2026-10-14，页面第61–80行题名、作者、小说形态及简介；第117–119行该页面版本日期2020-09-16。复用既有源对象，不改其元数据。",
+      "usage": "用于其书目、作品类别和有界简介；复用来源保留冻结来源元数据。",
+      "disposition": "reuse",
+      "reuse_existing_source": "SRC-0264",
+      "candidate_ids": [
+        "WCD10-B19-F213"
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B19-S207",
+      "url": "https://paginasdeespuma.com/libro/el-matrimonio-de-los-peces-rojos/",
+      "title": "El matrimonio de los peces rojos",
+      "original_title": "El matrimonio de los peces rojos",
+      "author_or_editor": "Páginas de Espuma",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "实读2026-10-14，页面第10–27行题名、作者、2013年5月版次书目信息；第48–50行五篇叙事与主题简介。复用既有源对象，不改其元数据。",
+      "usage": "用于其书目、作品类别和有界简介；复用来源保留冻结来源元数据。",
+      "disposition": "reuse",
+      "reuse_existing_source": "SRC-0265",
+      "candidate_ids": [
+        "WCD10-B19-F214"
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B19-S208",
+      "url": "https://www.anagrama-ed.es/foreign-rights/book/narrativas-hispanicas/petalos-y-otras-historias-incomodas/9788433971661/NH_428",
+      "title": "Petals and other awkward stories",
+      "original_title": "Petals and other awkward stories",
+      "author_or_editor": "Editorial Anagrama",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "实读2026-10-14，页面第77–90行原题、作者、六篇故事集及简介；第130–138行页面版本日期2008-02-04。复用既有源对象，不改其元数据。",
+      "usage": "用于其书目、作品类别和有界简介；复用来源保留冻结来源元数据。",
+      "disposition": "reuse",
+      "reuse_existing_source": "SRC-0266",
+      "candidate_ids": [
+        "WCD10-B19-F215"
+      ]
+    }
+  ],
+  "new_entities": [
+    {
+      "candidate_id": "WCD10-B19-W001",
+      "author_id": "V1-ENT-0334",
+      "entity_type": "work",
+      "original_name": "El palacio de las blanquísimas mofetas",
+      "name_zh_candidate": "《白色臭鼬宫殿》（暂译）",
+      "name_policy": "中文题名仅为检索用暂译；以西班牙语原题识别作品，不表示存在正式中文译本。",
+      "rationale": "出版者作者目录/图书产品页直接列出该作；只补有直接依据的普通书目、体裁与限缩简介，不声称全集或学术覆盖。",
+      "created_source_refs": [
+        "WCD10-B19-S001"
+      ],
+      "facts": [
+        {
+          "field": "genre_or_form",
+          "value": "小说",
+          "source_refs": [
+            "WCD10-B19-S001"
+          ],
+          "fact_candidate_id": "WCD10-B19-F001"
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "Tusquets简介称，本书以具有个人色彩的方式回顾作者自身经历与古巴历史。",
+          "source_refs": [
+            "WCD10-B19-S004"
+          ],
+          "fact_candidate_id": "WCD10-B19-F013"
+        },
+        {
+          "field": "bibliographic_note",
+          "value": "Tusquets作者目录列出本书为pentagonía系列成员，但未在该目录段提供首版年份；本候选仅记录出版者书目列示，不推定首版年。",
+          "source_refs": [
+            "WCD10-B19-S001"
+          ],
+          "fact_candidate_id": "WCD10-B19-F015"
+        }
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B19-W002",
+      "author_id": "V1-ENT-0334",
+      "entity_type": "work",
+      "original_name": "Otra vez el mar",
+      "name_zh_candidate": "《再一次，大海》（暂译）",
+      "name_policy": "中文题名仅为检索用暂译；以西班牙语原题识别作品，不表示存在正式中文译本。",
+      "rationale": "出版者作者目录/图书产品页直接列出该作；只补有直接依据的普通书目、体裁与限缩简介，不声称全集或学术覆盖。",
+      "created_source_refs": [
+        "WCD10-B19-S001"
+      ],
+      "facts": [
+        {
+          "field": "genre_or_form",
+          "value": "小说",
+          "source_refs": [
+            "WCD10-B19-S001"
+          ],
+          "fact_candidate_id": "WCD10-B19-F003"
+        },
+        {
+          "field": "bibliographic_note",
+          "value": "Tusquets新闻资料称本页版本采用作者修订的1982年文本；出版社作者目录也列出本书。现有直接来源未能确定作品原始首版年份，因此first_publication_year留空。",
+          "source_refs": [
+            "WCD10-B19-S001",
+            "WCD10-B19-S005"
+          ],
+          "fact_candidate_id": "WCD10-B19-F004"
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "Tusquets资料介绍一对年轻夫妻在度假地的故事，并以妻子和丈夫Héctor的双重叙述呈现两人的挫折与对自由的渴望。",
+          "source_refs": [
+            "WCD10-B19-S005"
+          ],
+          "fact_candidate_id": "WCD10-B19-F018"
+        }
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B19-W003",
+      "author_id": "V1-ENT-0334",
+      "entity_type": "work",
+      "original_name": "El color del verano",
+      "name_zh_candidate": "《夏日的颜色》（暂译）",
+      "name_policy": "中文题名仅为检索用暂译；以西班牙语原题识别作品，不表示存在正式中文译本。",
+      "rationale": "出版者作者目录/图书产品页直接列出该作；只补有直接依据的普通书目、体裁与限缩简介，不声称全集或学术覆盖。",
+      "created_source_refs": [
+        "WCD10-B19-S001",
+        "WCD10-B19-S002"
+      ],
+      "facts": [
+        {
+          "field": "genre_or_form",
+          "value": "小说",
+          "source_refs": [
+            "WCD10-B19-S001"
+          ],
+          "fact_candidate_id": "WCD10-B19-F005"
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "Tusquets简介写到古巴为统治者在位五十周年举行狂欢庆典，并呈现庆典背后的青年地下生活及岛上的压迫处境。",
+          "source_refs": [
+            "WCD10-B19-S002"
+          ],
+          "fact_candidate_id": "WCD10-B19-F006"
+        },
+        {
+          "field": "bibliographic_note",
+          "value": "出版者页面列出的1999年Tusquets版仅作为版本年份记录；未把它推定为作品首版年。",
+          "source_refs": [
+            "WCD10-B19-S002"
+          ],
+          "fact_candidate_id": "WCD10-B19-F007"
+        }
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B19-W004",
+      "author_id": "V1-ENT-0334",
+      "entity_type": "work",
+      "original_name": "El asalto",
+      "name_zh_candidate": "《袭击》（暂译）",
+      "name_policy": "中文题名仅为检索用暂译；以西班牙语原题识别作品，不表示存在正式中文译本。",
+      "rationale": "出版者作者目录/图书产品页直接列出该作；只补有直接依据的普通书目、体裁与限缩简介，不声称全集或学术覆盖。",
+      "created_source_refs": [
+        "WCD10-B19-S001"
+      ],
+      "facts": [
+        {
+          "field": "genre_or_form",
+          "value": "小说",
+          "source_refs": [
+            "WCD10-B19-S001"
+          ],
+          "fact_candidate_id": "WCD10-B19-F008"
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "Tusquets简介中的叙述者身处严密控制的国家，借加入秘密行动机构寻找母亲并实施个人复仇。",
+          "source_refs": [
+            "WCD10-B19-S006"
+          ],
+          "fact_candidate_id": "WCD10-B19-F014"
+        },
+        {
+          "field": "bibliographic_note",
+          "value": "Tusquets作者目录列出本书为pentagonía系列成员，但未在该目录段提供首版年份；本候选仅记录出版者书目列示，不推定首版年。",
+          "source_refs": [
+            "WCD10-B19-S001"
+          ],
+          "fact_candidate_id": "WCD10-B19-F017"
+        }
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B19-W005",
+      "author_id": "V1-ENT-0334",
+      "entity_type": "work",
+      "original_name": "El portero",
+      "name_zh_candidate": "《门卫》（暂译）",
+      "name_policy": "中文题名仅为检索用暂译；以西班牙语原题识别作品，不表示存在正式中文译本。",
+      "rationale": "出版者作者目录/图书产品页直接列出该作；只补有直接依据的普通书目、体裁与限缩简介，不声称全集或学术覆盖。",
+      "created_source_refs": [
+        "WCD10-B19-S001",
+        "WCD10-B19-S003"
+      ],
+      "facts": [
+        {
+          "field": "genre_or_form",
+          "value": "小说",
+          "source_refs": [
+            "WCD10-B19-S001"
+          ],
+          "fact_candidate_id": "WCD10-B19-F010"
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "小说描写纽约大楼中的微观社会，并以一名古巴流亡门卫的观察展开；出版者称作品写于1984至1986年。",
+          "source_refs": [
+            "WCD10-B19-S003"
+          ],
+          "fact_candidate_id": "WCD10-B19-F011"
+        },
+        {
+          "field": "bibliographic_note",
+          "value": "Tusquets产品页列2004年版；此为所见版本年份，未作为首版年份。",
+          "source_refs": [
+            "WCD10-B19-S003"
+          ],
+          "fact_candidate_id": "WCD10-B19-F012"
+        }
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B19-W101",
+      "author_id": "V1-ENT-0344",
+      "entity_type": "work",
+      "original_name": "Nombre de torero",
+      "name_zh_candidate": "《斗牛士之名》",
+      "name_policy": "保留西班牙语原题；中文为检索译名，不主张正式中译本。",
+      "rationale": "冻结B19基线语义查重后未发现同题既有作品；直接来源支持作品书目与本条限定的体裁/简介。",
+      "created_source_refs": [
+        "WCD10-B19-S102",
+        "WCD10-B19-S101",
+        "WCD10-B19-S105"
+      ],
+      "facts": [
+        {
+          "field": "genre_or_form",
+          "value": "长篇小说",
+          "source_refs": [
+            "WCD10-B19-S102",
+            "WCD10-B19-S101"
+          ],
+          "fact_candidate_id": "WCD10-B19-W101-F01"
+        },
+        {
+          "field": "bibliographic_note",
+          "value": "Memoria Chilena列Nombre de torero为Barcelona: Tusquets, 1994；PlanetadeLibros技术资料标注出版日期1994-10-01。此处保留来源所载书目/版本年份，不宣称已核定作者首版年份。",
+          "source_refs": [
+            "WCD10-B19-S101",
+            "WCD10-B19-S105"
+          ],
+          "fact_candidate_id": "WCD10-B19-W101-F02"
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "金币失窃近五十年后，柏林墙已经倒塌；Juan Belmonte与Frank Galinsky分别受雇追寻金币。",
+          "source_refs": [
+            "WCD10-B19-S105"
+          ],
+          "fact_candidate_id": "WCD10-B19-W101-F03"
+        }
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B19-W102",
+      "author_id": "V1-ENT-0344",
+      "entity_type": "work",
+      "original_name": "Patagonia Express",
+      "name_zh_candidate": "《巴塔哥尼亚快车》",
+      "name_policy": "保留西班牙语原题；中文为检索译名，不主张正式中译本。",
+      "rationale": "冻结B19基线语义查重后未发现同题既有作品；直接来源支持作品书目与本条限定的体裁/简介。",
+      "created_source_refs": [
+        "WCD10-B19-S102",
+        "WCD10-B19-S101"
+      ],
+      "facts": [
+        {
+          "field": "genre_or_form",
+          "value": "旅行叙事",
+          "source_refs": [
+            "WCD10-B19-S102",
+            "WCD10-B19-S101"
+          ],
+          "fact_candidate_id": "WCD10-B19-W102-F01"
+        },
+        {
+          "field": "bibliographic_note",
+          "value": "BND文章将Patagonia Express列为1995年作品；Memoria Chilena列Barcelona: Tusquets, 1995。该年份按来源所列书目信息保留，不断言首版年。",
+          "source_refs": [
+            "WCD10-B19-S102",
+            "WCD10-B19-S101"
+          ],
+          "fact_candidate_id": "WCD10-B19-W102-F02"
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "这部旅行叙事围绕作者在智利和阿根廷南部经历的空间与冒险，并兼及发生在厄瓜多尔的故事展开。",
+          "source_refs": [
+            "WCD10-B19-S102"
+          ],
+          "fact_candidate_id": "WCD10-B19-W102-F03"
+        }
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B19-W103",
+      "author_id": "V1-ENT-0344",
+      "entity_type": "collection",
+      "original_name": "Desencuentros",
+      "name_zh_candidate": "《错过》（检索译名）",
+      "name_policy": "以西班牙语原题为身份锚点；中文标题为检索译名，不主张已出版中文译本。",
+      "rationale": "冻结B19基线语义查重后未发现同题既有作品；直接来源支持作品书目与本条限定的体裁/简介。",
+      "created_source_refs": [
+        "WCD10-B19-S102",
+        "WCD10-B19-S104"
+      ],
+      "facts": [
+        {
+          "field": "genre_or_form",
+          "value": "短篇小说集",
+          "source_refs": [
+            "WCD10-B19-S102"
+          ],
+          "fact_candidate_id": "WCD10-B19-W103-F01"
+        },
+        {
+          "field": "bibliographic_note",
+          "value": "BND文章将Desencuentros列为1997年故事集；该年份按来源所载书目信息保留，不断言首版年。",
+          "source_refs": [
+            "WCD10-B19-S102"
+          ],
+          "fact_candidate_id": "WCD10-B19-W103-F02"
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "Tusquets材料称本书汇集作者偏爱的旧作及未刊故事，共二十七篇，围绕愿望、情感与命运的错位展开。中文为检索译名，不声称正式中译本。",
+          "source_refs": [
+            "WCD10-B19-S104"
+          ],
+          "fact_candidate_id": "WCD10-B19-W103-F03"
+        }
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B19-W104",
+      "author_id": "V1-ENT-0344",
+      "entity_type": "collection",
+      "original_name": "Diario de un killer sentimental seguido de Yacaré",
+      "name_zh_candidate": "《一个多情杀手的日记》与《亚卡雷》（检索译名）",
+      "name_policy": "以西班牙语原题为身份锚点；中文标题为检索译名，不主张已出版中文译本。",
+      "rationale": "冻结B19基线语义查重后未发现同题既有作品；直接来源支持作品书目与本条限定的体裁/简介。",
+      "created_source_refs": [
+        "WCD10-B19-S103",
+        "WCD10-B19-S102"
+      ],
+      "facts": [
+        {
+          "field": "genre_or_form",
+          "value": "两部中篇小说合集",
+          "source_refs": [
+            "WCD10-B19-S103",
+            "WCD10-B19-S102"
+          ],
+          "fact_candidate_id": "WCD10-B19-W104-F01"
+        },
+        {
+          "field": "bibliographic_note",
+          "value": "出版社资料注明Tusquets版于1998-06-01出版；BND文章亦列Diario…及Yacaré为1998年作品。本轮保留版本说明，不把合辑出版年原子化为两篇各自的首版年。",
+          "source_refs": [
+            "WCD10-B19-S103",
+            "WCD10-B19-S102"
+          ],
+          "fact_candidate_id": "WCD10-B19-W104-F02"
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "Tusquets称本册收入两部中篇小说：一篇写职业杀手因恋爱而违背行规；另一篇写保险调查员从苏黎世转往米兰，深入巴西南部 anaré 与 yacaré 的世界。",
+          "source_refs": [
+            "WCD10-B19-S103"
+          ],
+          "fact_candidate_id": "WCD10-B19-W104-F03"
+        }
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B19-W201",
+      "author_id": "V1-ENT-0345",
+      "entity_type": "work",
+      "original_name": "El huésped",
+      "name_zh_candidate": "El huésped",
+      "name_policy": "沿用西班牙语原题作中文检索显示值，不声称存在正式中文译名。",
+      "rationale": "出版者直接列明作品题名、作者、作品类别、页面版本日期和有界简介；按书籍层级登记，不扩展到篇目或版次实体。",
+      "created_source_refs": [
+        "WCD10-B19-S201",
+        "WCD10-B19-S205"
+      ],
+      "facts": [
+        {
+          "field": "genre_or_form",
+          "value": "小说",
+          "source_refs": [
+            "WCD10-B19-S201"
+          ],
+          "fact_candidate_id": "WCD10-B19-F201"
+        },
+        {
+          "field": "bibliographic_note",
+          "value": "Anagrama产品页PUBLICACIÓN日期为2006-01-01；本值仅记录该页面所示版本日期，不宣称首版年份。首版年原子值留空。",
+          "source_refs": [
+            "WCD10-B19-S201"
+          ],
+          "fact_candidate_id": "WCD10-B19-F202"
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "出版社将其称为内特尔的第一部小说：少女安娜与一个或许只是想象的“寄居者”抗衡，叙事延伸至成年后的失明经验与墨西哥城地下世界。",
+          "source_refs": [
+            "WCD10-B19-S201"
+          ],
+          "fact_candidate_id": "WCD10-B19-F203"
+        }
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B19-W202",
+      "author_id": "V1-ENT-0345",
+      "entity_type": "work",
+      "original_name": "El cuerpo en que nací",
+      "name_zh_candidate": "El cuerpo en que nací",
+      "name_policy": "沿用西班牙语原题作中文检索显示值，不声称存在正式中文译名。",
+      "rationale": "出版者直接列明作品题名、作者、作品类别、页面版本日期和有界简介；按书籍层级登记，不扩展到篇目或版次实体。",
+      "created_source_refs": [
+        "WCD10-B19-S202",
+        "WCD10-B19-S205"
+      ],
+      "facts": [
+        {
+          "field": "genre_or_form",
+          "value": "小说",
+          "source_refs": [
+            "WCD10-B19-S202"
+          ],
+          "fact_candidate_id": "WCD10-B19-F204"
+        },
+        {
+          "field": "bibliographic_note",
+          "value": "Anagrama产品页PUBLICACIÓN日期为2011-10-01；本值仅记录该页面所示版本日期，不宣称首版年份。首版年原子值留空。",
+          "source_refs": [
+            "WCD10-B19-S202"
+          ],
+          "fact_candidate_id": "WCD10-B19-F205"
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "出版社简介称小说受作者童年启发，围绕一名眼部先天缺陷女孩的成长、家庭与自我接纳展开，并以咨询室独白框架回忆往事。",
+          "source_refs": [
+            "WCD10-B19-S202"
+          ],
+          "fact_candidate_id": "WCD10-B19-F206"
+        }
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B19-W203",
+      "author_id": "V1-ENT-0345",
+      "entity_type": "work",
+      "original_name": "Después del invierno",
+      "name_zh_candidate": "Después del invierno",
+      "name_policy": "沿用西班牙语原题作中文检索显示值，不声称存在正式中文译名。",
+      "rationale": "出版者直接列明作品题名、作者、作品类别、页面版本日期和有界简介；按书籍层级登记，不扩展到篇目或版次实体。",
+      "created_source_refs": [
+        "WCD10-B19-S203",
+        "WCD10-B19-S205"
+      ],
+      "facts": [
+        {
+          "field": "genre_or_form",
+          "value": "小说",
+          "source_refs": [
+            "WCD10-B19-S203"
+          ],
+          "fact_candidate_id": "WCD10-B19-F207"
+        },
+        {
+          "field": "bibliographic_note",
+          "value": "Anagrama产品页PUBLICACIÓN日期为2014-11-19；本值仅记录该页面所示版本日期，不宣称首版年份。首版年原子值留空。",
+          "source_refs": [
+            "WCD10-B19-S203"
+          ],
+          "fact_candidate_id": "WCD10-B19-F208"
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "出版社简介交织古巴裔Claudio与墨西哥裔Cecilia在纽约、巴黎的生活，写两人的亲密关系、孤独与各自的过往。",
+          "source_refs": [
+            "WCD10-B19-S203"
+          ],
+          "fact_candidate_id": "WCD10-B19-F209"
+        }
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B19-W204",
+      "author_id": "V1-ENT-0345",
+      "entity_type": "collection",
+      "original_name": "Los divagantes",
+      "name_zh_candidate": "Los divagantes",
+      "name_policy": "沿用西班牙语原题作中文检索显示值，不声称存在正式中文译名。",
+      "rationale": "出版者直接列明作品题名、作者、作品类别、页面版本日期和有界简介；按书籍层级登记，不扩展到篇目或版次实体。",
+      "created_source_refs": [
+        "WCD10-B19-S204",
+        "WCD10-B19-S205"
+      ],
+      "facts": [
+        {
+          "field": "genre_or_form",
+          "value": "短篇小说集",
+          "source_refs": [
+            "WCD10-B19-S204"
+          ],
+          "fact_candidate_id": "WCD10-B19-F210"
+        },
+        {
+          "field": "bibliographic_note",
+          "value": "Anagrama产品页PUBLICACIÓN日期为2023-09-06；本值仅记录该页面所示版本日期，不宣称首版年份。首版年原子值留空。",
+          "source_refs": [
+            "WCD10-B19-S204"
+          ],
+          "fact_candidate_id": "WCD10-B19-F211"
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "出版社称本书收录八篇故事，人物因意外离开惯常生活，在现实与幻想之间遭遇陌生处境，并面对成功与失败的执念。",
+          "source_refs": [
+            "WCD10-B19-S204"
+          ],
+          "fact_candidate_id": "WCD10-B19-F212"
+        }
+      ]
+    }
+  ],
+  "existing_facts": [
+    {
+      "candidate_id": "WCD10-B19-F213",
+      "subject_id": "V1-ENT-0350",
+      "field": "one_sentence_summary",
+      "value": "出版社简介以三名女性及不同的母职经验为线索，涉及Alina在孕晚期被告知女儿出生后可能无法存活、夫妻由此经历预期丧失与哀悼，以及邻居单亲母子面对的处境。",
+      "source_refs": [
+        "WCD10-B19-S206"
+      ],
+      "boundary": "仅追加出版者所载的有界作品简介；冻结基线中的实体、既有事实、卡片、CREATED关系、关系证据、来源链与hold/gap逐值保留。"
+    },
+    {
+      "candidate_id": "WCD10-B19-F214",
+      "subject_id": "V1-ENT-0351",
+      "field": "one_sentence_summary",
+      "value": "出版社称本集包含五篇叙事，以动物与人的世界交错书写伴侣关系、母职、青春期危机及亲密关系中的隐秘面向。",
+      "source_refs": [
+        "WCD10-B19-S207"
+      ],
+      "boundary": "仅追加出版者所载的有界作品简介；冻结基线中的实体、既有事实、卡片、CREATED关系、关系证据、来源链与hold/gap逐值保留。"
+    },
+    {
+      "candidate_id": "WCD10-B19-F215",
+      "subject_id": "V1-ENT-0352",
+      "field": "one_sentence_summary",
+      "value": "出版社将其描述为六篇“令人不安的故事”，人物各有隐秘癖好或异于常态的生活方式，写被日常表象遮住的异质经验。",
+      "source_refs": [
+        "WCD10-B19-S208"
+      ],
+      "boundary": "仅追加出版者所载的有界作品简介；冻结基线中的实体、既有事实、卡片、CREATED关系、关系证据、来源链与hold/gap逐值保留。"
+    }
+  ],
+  "extra_relationships": [],
+  "deferred": [
+    {
+      "author_id": "V1-ENT-0345",
+      "topic": "未登记的短篇/散文篇目、译本与早期/选集作品",
+      "reason": "本轮采用出版社直接书目补主要小说与集子并补现有核心对象简介；不追求全集或版本穷尽，未逐项登记的边缘/合集身份保持未决。",
+      "key": "WCD10:B19:Nettel:bounded_uncovered_roster",
+      "disposition": "deferred_research_gap"
+    }
+  ]
+}

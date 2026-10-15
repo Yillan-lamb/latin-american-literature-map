@@ -1,0 +1,12 @@
+{
+  "status": "ALL_REQUIRED_STEPS_PASS",
+  "task_id": "TASK-127",
+  "checkpoint": "FINAL_REENTRY",
+  "steps": 16,
+  "database_sha256": "5a410850fed0ffa936db1de135e3872fa1f53a5a3a3b294927eb902db2b3b12c",
+  "migration_count_expected": 57,
+  "table_count_expected": 19,
+  "gate_sha256": "c4ac464058bb39a25d1694efa1f8798112742d1e71a6682a6e517a29c7352264",
+  "sql_sha256": "798f243e820dc6ac0093642279ec751b94888acfef5cecc1d630a10783ab47f5",
+  "mapping_sha256": "0419d88b34984cdf299d903055188aeb2b67d2f009441009e9dcacee85dc1a06"
+}

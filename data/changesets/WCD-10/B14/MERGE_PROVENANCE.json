@@ -1,0 +1,758 @@
+{
+  "schema": "wcd10-b14-merge-provenance-1",
+  "task_id": "TASK-119",
+  "batch_id": "WCD-10-B14",
+  "status": "MERGED_CANDIDATE_PARENT_REVIEW_PENDING",
+  "baseline_database_sha256": "c7b5951beb2e2a30053b08d84e07931547b8909a1e5a180086fafeedebaea677",
+  "observed_baseline_database_sha256": "c7b5951beb2e2a30053b08d84e07931547b8909a1e5a180086fafeedebaea677",
+  "root": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图",
+  "worktree": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/work/codex-worktrees/latin-american-literature-map-wcd10",
+  "baseline_commit": "05f3372c69a54ec331d31b05d16c8288d6d3a993",
+  "fixed_author_order": [
+    "V1-ENT-0274",
+    "V1-ENT-0284",
+    "V1-ENT-0285"
+  ],
+  "inputs": [
+    {
+      "author_id": "V1-ENT-0274",
+      "author": "aira",
+      "directory": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/project/internal/WCD_10_WORKSPACE/orchestration/wave-11/aira/R3",
+      "freeze_manifest": {
+        "file": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/project/internal/WCD_10_WORKSPACE/orchestration/wave-11/aira/R3/SHA256SUMS.json",
+        "sha256": "d135ab721087b7eeeddd3fa2ac23d33c9773c6384630da73d8d8e17e535ab7bc",
+        "files": {
+          "CANDIDATES.json": "54a36a632688f50355a7c613c478ff58e162fdcf09a3358289be66500f43d585",
+          "COVERAGE.json": "e6a3252262f5bae8e6d1b650e327da1d4a098d4dc5091156943c90887796f966",
+          "SOURCE_REGISTRATION.json": "6cd34db94e7e4957f371d7b17a8bf8fe33e61cf45702def450d58a94e0970fee",
+          "EVIDENCE_MATRIX.json": "7a696847e551469112738f6e5dfffe81dcf31ee7d587ae173bfd4af7972a9a5f",
+          "DEDUP.json": "09d50b02b8e1da5f5faca565e0565999d7ce913b2bf15b56a87ee6e08006b42c",
+          "SOURCE_ACCESS_LOG.json": "e55e70e2d9168748fc5526b13fd6d149f8508d592a5962e7f8beca0c2a6a5245",
+          "SELF_CHECK.json": "a9c4533339b5acac7be5bda0dd695f4447eef67bf041d1d31802d7bbd9cac68b",
+          "VALIDATOR_REPORT.json": "282a73fbd0084ca782f42fa307e12e0e716223fe6db6fe973f9c6306fc68ee42",
+          "HANDOFF.md": "ed45fb5665fc7e1ad1cabc04a8a2feb6e7ab9ad33757be33d3530e2e2358dc56",
+          "STATUS.json": "512d2684143e2c8d77eb0b206f472e3e1d04882b3fc50934863244df0bd5ec82"
+        }
+      },
+      "candidate_sha256": "54a36a632688f50355a7c613c478ff58e162fdcf09a3358289be66500f43d585",
+      "root_execution_metadata": {
+        "accessed_at": "2026-10-13",
+        "verified_by": "GPT-6 Luna isolated candidate producer; parent review pending",
+        "copyright_boundary": "仅书目元数据与短篇幅改述；未下载或保存来源资产。",
+        "public_content_scope": "仅研究候选书目与受限描述；无自动策展或公开准入。",
+        "local_asset_status": "remote_only",
+        "source_year_policy": "不从作者目录推断版本年份；具体版本年份仅在直接书目页核实后录入。"
+      }
+    },
+    {
+      "author_id": "V1-ENT-0284",
+      "author": "puig",
+      "directory": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/project/internal/WCD_10_WORKSPACE/orchestration/wave-11/puig/FINAL",
+      "freeze_manifest": {
+        "file": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/project/internal/WCD_10_WORKSPACE/orchestration/wave-11/puig/FINAL/SHA256SUMS.json",
+        "sha256": "6817bea11e40228a5041b0733b38eef634f52667384cc15ce050bfe198f21113",
+        "files": {
+          "CANDIDATES.json": "e3d66390edb47375c459a1d10504e64983df2df163fc70fe58fe5ee558d2c437",
+          "COVERAGE.json": "55043903575fb5ccf8b362166953093d2f5615ac10cda6593d4a2874f2eb4930",
+          "SOURCE_REGISTRATION.json": "437481bec2773f52b3f29af6e843f1ef4701993c41599a1ccea332c766319367",
+          "EVIDENCE_MATRIX.json": "1994404ff9628e5d2c4478169226da9a7ce4c3c78cb59d9e76e12465215b1181",
+          "DEDUP.json": "07bd5b45e7ac27faf5034426e27b240fd1f407ae366fabb02e54400025960177",
+          "SOURCE_ACCESS_LOG.json": "a7cd306861b26f0425969d160896f4d2a13cd9ec5f4e350663ad5aa31cb0e951",
+          "SELF_CHECK.json": "d411f6a687913e3dd075fc9c53c8271641756461be010c2606f979c291270641",
+          "VALIDATOR_REPORT.json": "18ce19b69021a98040fa973bac61f02d2364a123d3931607dedf25cf732dd40d",
+          "HANDOFF.md": "759028276abf6237267111c21166286078a3bda22d067e4358b192da501a2d1c",
+          "STATUS.json": "98db7f8c160e355714a52b1d4f2c3fee970652265c12a2151fba327141cd6603"
+        }
+      },
+      "candidate_sha256": "e3d66390edb47375c459a1d10504e64983df2df163fc70fe58fe5ee558d2c437",
+      "root_execution_metadata": {
+        "accessed_at": "2026-10-13",
+        "verified_by": "GPT-6 Luna candidate producer",
+        "copyright_boundary": "仅记录短篇释义、书目信息与来源定位，不复制原文。",
+        "public_content_scope": "候选研究层；无自动公开许可。",
+        "local_asset_status": "remote_only",
+        "source_year_policy": "仅在来源直接记载作品出版年时记录；不得把当前版本年份混为初版年。"
+      }
+    },
+    {
+      "author_id": "V1-ENT-0285",
+      "author": "ocampo",
+      "directory": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/project/internal/WCD_10_WORKSPACE/orchestration/wave-11/ocampo/R2",
+      "freeze_manifest": {
+        "file": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/project/internal/WCD_10_WORKSPACE/orchestration/wave-11/ocampo/R2/SHA256SUMS.json",
+        "sha256": "95d30f1c06dc8b4d0947c42ed3b3ca526fe08c49c7cabb0c5709ddfa876ec0e8",
+        "files": {
+          "CANDIDATES.json": "1ada66f3ded74ac7432a60a3ac2c4dc3d47014c24030466052ab1adcadc4809d",
+          "COVERAGE.json": "7de71b751ba149096a35024fd658257601dd297ca1ecd4b0caae2e4973227328",
+          "SOURCE_REGISTRATION.json": "314720f764466368931dce9357b9286626e17ecfda5d7c7a3784d3b54a60d368",
+          "EVIDENCE_MATRIX.json": "dbc59e4f84595131d8edef212ec28e1941a73a69120e471585240536b5c8946e",
+          "DEDUP.json": "6b3ca1f3adf45418717d83b7cdae2f40f2e6b56ae1ab165682828c0bcfb30832",
+          "SOURCE_ACCESS_LOG.json": "4be27436e67cd531327efc7120c37bd724282c6cba7c5f25477e3a928025adc2",
+          "SELF_CHECK.json": "3c1173ca8ebc027e25d5e14e6803de58df412d168640c9784be1a202f880a310",
+          "VALIDATOR_REPORT.json": "3115e432cc7ceefe9d718971e52f5593b0208eb3f4f89ba47d1167d3123bb92f",
+          "HANDOFF.md": "f8c8bd348a169e36c59943b034d67467ce1f36ea06fc37d8455441c67e9b858f",
+          "STATUS.json": "32853d47216ac02304642f6cc4fe5669187980966303e729e72099d3d930fe54",
+          "COAUTHOR_REENTRY_CANDIDATES.json": "f71d7493d2e8f069e56a26fd8ce0e36a67d3ed085cc72bd60416d967cacb23e4"
+        }
+      },
+      "candidate_sha256": "1ada66f3ded74ac7432a60a3ac2c4dc3d47014c24030466052ab1adcadc4809d",
+      "root_execution_metadata": {
+        "accessed_at": "2026-10-13",
+        "verified_by": "gpt-6-luna candidate producer; direct browser open",
+        "copyright_boundary": "仅保存书目信息、有限释义和来源定位；不复制来源长文。",
+        "public_content_scope": "Research-only candidate; no reader-facing admission or release.",
+        "local_asset_status": "remote_only",
+        "source_year_policy": "仅记录Educ.ar页面明确标示的年份；未标则留空，不推断版次。"
+      }
+    }
+  ],
+  "normalization": {
+    "candidate_arrays": "Exact array concatenation in fixed author order; task/batch/baseline/status/roster envelope normalized. Original author packages remain in pinned freezes.",
+    "coverage": "Exact object/deferred row concatenation and author metadata mapping; no literary content edits.",
+    "registration": "Profiles concatenated exactly in author order; each author six root metadata values retained in author_policies; complete profiles preserved.",
+    "evidence_matrix": "Entries concatenated exactly in author order; author-specific non-row metadata retained.",
+    "dedup_and_access": "Complete original per-author JSON payloads retained as child records, including their different wrappers.",
+    "coverage_mechanical_sync": "One parent-authorized pass after immutable initial snapshot. Candidate coverage rows were compared against fixed CANDIDATES arrays; research_refs remained unchanged. Legacy card_facts were compared with the read-only frozen SQLite and only differing snapshots synchronized.",
+    "auxiliary_interface_sync": "Aira deferred key/disposition and canonical source reuse scope interface transformed exactly as parent directed; original source scope values remain preserved by author freeze and original_source_scope_decisions_by_author."
+  },
+  "checks": {
+    "candidate_arrays_exact_author_order_concat": {
+      "sources": true,
+      "new_entities": true,
+      "existing_facts": true,
+      "extra_relationships": true,
+      "deferred": true,
+      "source_scope_decisions": true
+    },
+    "coverage_objects_exact_author_order_concat": true,
+    "coverage_deferred_exact_author_order_concat": true,
+    "source_profiles_exact_author_order_concat": true,
+    "matrix_entries_exact_author_order_concat": true,
+    "root6_metadata_nonempty": true,
+    "initial_source_scope_decisions_exact_author_order_concat": true
+  },
+  "counts": {
+    "sources": 11,
+    "new_entities": 14,
+    "existing_facts": 0,
+    "extra_relationships": 0,
+    "deferred": 2,
+    "source_scope_decisions": 8,
+    "coverage_objects": 23,
+    "coverage_deferred_objects": 3,
+    "source_profiles": 11,
+    "evidence_matrix_entries": 51,
+    "source_scope_decisions_final": 2,
+    "deferred_final": 2
+  },
+  "original_source_scope_decisions_by_author": [
+    {
+      "author_id": "V1-ENT-0274",
+      "decisions": []
+    },
+    {
+      "author_id": "V1-ENT-0284",
+      "decisions": [
+        {
+          "decision": "fresh_registration",
+          "candidate_source_id": "WCD10-B14-S101",
+          "url": "https://www.argentina.gob.ar/node/294856",
+          "candidate_ids": [
+            "WCD10-B14-W101-F01",
+            "WCD10-B14-W101-F04",
+            "WCD10-B14-W102",
+            "WCD10-B14-W102-F01",
+            "WCD10-B14-W102-F02",
+            "WCD10-B14-W102-F03",
+            "WCD10-B14-W102-F04",
+            "WCD10-B14-W104",
+            "WCD10-B14-W104-F01",
+            "WCD10-B14-W104-F02",
+            "WCD10-B14-W104-F03",
+            "WCD10-B14-W104-F04",
+            "WCD10-B14-W105-F01",
+            "WCD10-B14-W105-F04"
+          ],
+          "boundary": "已实读阿根廷政府文化机构文章，支持作品书目与有限内容简介。"
+        },
+        {
+          "decision": "fresh_registration",
+          "candidate_source_id": "WCD10-B14-S102",
+          "url": "https://www.planetadelibros.com.ar/libro-el-beso-de-la-mujer-arana/374416",
+          "candidate_ids": [
+            "WCD10-B14-W103-F01",
+            "WCD10-B14-W103-F04"
+          ],
+          "boundary": "已实读出版社作者书目，仅支持普伊格作品题名/类别和年份，不借用其他作品简介。"
+        },
+        {
+          "decision": "fresh_registration",
+          "candidate_source_id": "WCD10-B14-S103",
+          "url": "https://www.planetadelibros.com.ar/libro-the-buenos-aires-affair-ne/354236",
+          "candidate_ids": [
+            "WCD10-B14-W101",
+            "WCD10-B14-W101-F02",
+            "WCD10-B14-W101-F03",
+            "WCD10-B14-W101-F04"
+          ],
+          "boundary": "已实读出版社对应作品页；仅支持作品自身简介/类别，年份若引用仅用作者书目或机构来源。"
+        },
+        {
+          "decision": "fresh_registration",
+          "candidate_source_id": "WCD10-B14-S104",
+          "url": "https://www.planetadelibros.com.ar/libro-maldicion-eterna-a-quien-lea-estas-paginas-ne/362422",
+          "candidate_ids": [
+            "WCD10-B14-W103",
+            "WCD10-B14-W103-F02",
+            "WCD10-B14-W103-F03",
+            "WCD10-B14-W103-F04"
+          ],
+          "boundary": "已实读出版社对应作品页；仅支持作品自身简介/类别，年份若引用仅用作者书目或机构来源。"
+        },
+        {
+          "decision": "fresh_registration",
+          "candidate_source_id": "WCD10-B14-S105",
+          "url": "https://www.planetadelibros.com.ar/libro-cae-la-noche-tropical/133554",
+          "candidate_ids": [
+            "WCD10-B14-W105",
+            "WCD10-B14-W105-F02",
+            "WCD10-B14-W105-F03",
+            "WCD10-B14-W105-F04"
+          ],
+          "boundary": "已实读出版社对应作品页；仅支持作品自身简介/类别，年份若引用仅用作者书目或机构来源。"
+        }
+      ]
+    },
+    {
+      "author_id": "V1-ENT-0285",
+      "decisions": [
+        {
+          "decision": "reuse_existing_source",
+          "candidate_source_id": "WCD10-B14-S201",
+          "formal_source_id": "SRC-0227",
+          "url": "https://www.educ.ar/recursos/109330/silvina-ocampo-el-viaje-olvidado",
+          "candidate_ids": [
+            "WCD10-B14-W201-F01",
+            "WCD10-B14-W201-F02",
+            "WCD10-B14-W201-F03",
+            "WCD10-B14-W201-F04",
+            "WCD10-B14-W202-F01",
+            "WCD10-B14-W202-F02",
+            "WCD10-B14-W202-F03",
+            "WCD10-B14-W202-F04",
+            "WCD10-B14-W203-F01",
+            "WCD10-B14-W203-F02",
+            "WCD10-B14-W203-F03",
+            "WCD10-B14-W203-F04",
+            "WCD10-B14-W204-F01",
+            "WCD10-B14-W204-F02",
+            "WCD10-B14-W204-F03",
+            "WCD10-B14-W204-F04",
+            "WCD10-B14-W205-F01",
+            "WCD10-B14-W205-F02",
+            "WCD10-B14-W205-F03",
+            "WCD10-B14-W205-F04",
+            "WCD10-B14-W206-F01",
+            "WCD10-B14-W206-F02",
+            "WCD10-B14-W206-F03",
+            "WCD10-B14-W206-F04",
+            "WCD10-B14-W201",
+            "WCD10-B14-W202",
+            "WCD10-B14-W203",
+            "WCD10-B14-W204",
+            "WCD10-B14-W205",
+            "WCD10-B14-W206"
+          ],
+          "boundary": "已于2026-10-13直接打开Educ.ar页面；复用与冻结SRC-0227相同canonical URL，不改旧来源元数据。"
+        },
+        {
+          "decision": "fresh_registration",
+          "candidate_source_id": "WCD10-B14-S202",
+          "url": "https://cultura.gob.ar/silvina-ocampo-10848/",
+          "candidate_ids": [
+            "WCD10-B14-W201",
+            "WCD10-B14-W202",
+            "WCD10-B14-W203",
+            "WCD10-B14-W204",
+            "WCD10-B14-W205",
+            "WCD10-B14-W206",
+            "WCD10-B14-W201-F01",
+            "WCD10-B14-W201-F02",
+            "WCD10-B14-W201-F03",
+            "WCD10-B14-W201-F04",
+            "WCD10-B14-W202-F01",
+            "WCD10-B14-W202-F02",
+            "WCD10-B14-W202-F03",
+            "WCD10-B14-W202-F04",
+            "WCD10-B14-W203-F01",
+            "WCD10-B14-W203-F02",
+            "WCD10-B14-W203-F03",
+            "WCD10-B14-W203-F04",
+            "WCD10-B14-W204-F01",
+            "WCD10-B14-W204-F02",
+            "WCD10-B14-W204-F03",
+            "WCD10-B14-W204-F04",
+            "WCD10-B14-W205-F01",
+            "WCD10-B14-W205-F02",
+            "WCD10-B14-W205-F03",
+            "WCD10-B14-W205-F04",
+            "WCD10-B14-W206-F01",
+            "WCD10-B14-W206-F02",
+            "WCD10-B14-W206-F03",
+            "WCD10-B14-W206-F04"
+          ],
+          "boundary": "2026-10-13实际打开阿根廷文化部门户作者作品目录；直接支持作品题名、形态和所列年份。不同机构对Autobiografía de Irene、Espacios métricos的年份不一致，候选不择年。"
+        },
+        {
+          "decision": "fresh_registration",
+          "candidate_source_id": "WCD10-B14-S203",
+          "url": "https://rarebooks.library.nd.edu/collections/latin_american/south_american/southern_cone_lit/ocampo_s.html",
+          "candidate_ids": [
+            "WCD10-B14-W201",
+            "WCD10-B14-W202",
+            "WCD10-B14-W203",
+            "WCD10-B14-W204",
+            "WCD10-B14-W205",
+            "WCD10-B14-W206",
+            "WCD10-B14-W201-F01",
+            "WCD10-B14-W201-F03",
+            "WCD10-B14-W201-F04",
+            "WCD10-B14-W202-F01",
+            "WCD10-B14-W202-F02",
+            "WCD10-B14-W202-F03",
+            "WCD10-B14-W202-F04",
+            "WCD10-B14-W203-F01",
+            "WCD10-B14-W203-F02",
+            "WCD10-B14-W203-F03",
+            "WCD10-B14-W203-F04",
+            "WCD10-B14-W204-F01",
+            "WCD10-B14-W204-F02",
+            "WCD10-B14-W204-F03",
+            "WCD10-B14-W204-F04",
+            "WCD10-B14-W205-F01",
+            "WCD10-B14-W205-F02",
+            "WCD10-B14-W205-F03",
+            "WCD10-B14-W205-F04",
+            "WCD10-B14-W206-F01",
+            "WCD10-B14-W206-F03",
+            "WCD10-B14-W206-F04"
+          ],
+          "boundary": "已直接打开圣母大学Hesburgh Libraries作者特藏页；页内明确讨论初版作品并逐项列出本批相关作品、体裁和年份。用于对象/版本辨识及年份交叉核对。"
+        }
+      ]
+    }
+  ],
+  "merged_artifact_sha256_initial": {
+    "CANDIDATES.json": "47839ab723201693fad2947424e12a46b9313da5e4f8e368cc1d680b0455d85b",
+    "COVERAGE.json": "7cb9716e6b3d40edef5af5dbde0ee783f92f7f22748c2d5d2d7b7f9a2e5f9b34",
+    "SOURCE_REGISTRATION.json": "eb65dd4a747af52400aa4951ef2d5ff7f0f54ea40924f69df9648e58b54dcfcb",
+    "EVIDENCE_MATRIX.json": "c3867f854aaccad1cc412aa7b7763c8886917c3e842273064e5f19f7c4e11ed2",
+    "DEDUP.json": "b9786680dd7f8f506cc73499c5a885ca6624bae2eb94fa7071fa0cd13636fdf0",
+    "SOURCE_ACCESS_LOG.json": "664079662f2097027b5a568b132a50020a96c20635a37c685d16ee7ab02145c4"
+  },
+  "database_writes": false,
+  "sql_created": false,
+  "apply_performed": false,
+  "normalization_diff": {
+    "coverage_rows_before": 23,
+    "coverage_rows_after": 23,
+    "candidate_interface_changes": [],
+    "baseline_card_facts_sync": [],
+    "research_refs_preserved_exactly": true,
+    "source_scope_interface_normalization": {
+      "original_decisions_by_author": [
+        {
+          "author_id": "V1-ENT-0274",
+          "decisions": []
+        },
+        {
+          "author_id": "V1-ENT-0284",
+          "decisions": [
+            {
+              "decision": "fresh_registration",
+              "candidate_source_id": "WCD10-B14-S101",
+              "url": "https://www.argentina.gob.ar/node/294856",
+              "candidate_ids": [
+                "WCD10-B14-W101-F01",
+                "WCD10-B14-W101-F04",
+                "WCD10-B14-W102",
+                "WCD10-B14-W102-F01",
+                "WCD10-B14-W102-F02",
+                "WCD10-B14-W102-F03",
+                "WCD10-B14-W102-F04",
+                "WCD10-B14-W104",
+                "WCD10-B14-W104-F01",
+                "WCD10-B14-W104-F02",
+                "WCD10-B14-W104-F03",
+                "WCD10-B14-W104-F04",
+                "WCD10-B14-W105-F01",
+                "WCD10-B14-W105-F04"
+              ],
+              "boundary": "已实读阿根廷政府文化机构文章，支持作品书目与有限内容简介。"
+            },
+            {
+              "decision": "fresh_registration",
+              "candidate_source_id": "WCD10-B14-S102",
+              "url": "https://www.planetadelibros.com.ar/libro-el-beso-de-la-mujer-arana/374416",
+              "candidate_ids": [
+                "WCD10-B14-W103-F01",
+                "WCD10-B14-W103-F04"
+              ],
+              "boundary": "已实读出版社作者书目，仅支持普伊格作品题名/类别和年份，不借用其他作品简介。"
+            },
+            {
+              "decision": "fresh_registration",
+              "candidate_source_id": "WCD10-B14-S103",
+              "url": "https://www.planetadelibros.com.ar/libro-the-buenos-aires-affair-ne/354236",
+              "candidate_ids": [
+                "WCD10-B14-W101",
+                "WCD10-B14-W101-F02",
+                "WCD10-B14-W101-F03",
+                "WCD10-B14-W101-F04"
+              ],
+              "boundary": "已实读出版社对应作品页；仅支持作品自身简介/类别，年份若引用仅用作者书目或机构来源。"
+            },
+            {
+              "decision": "fresh_registration",
+              "candidate_source_id": "WCD10-B14-S104",
+              "url": "https://www.planetadelibros.com.ar/libro-maldicion-eterna-a-quien-lea-estas-paginas-ne/362422",
+              "candidate_ids": [
+                "WCD10-B14-W103",
+                "WCD10-B14-W103-F02",
+                "WCD10-B14-W103-F03",
+                "WCD10-B14-W103-F04"
+              ],
+              "boundary": "已实读出版社对应作品页；仅支持作品自身简介/类别，年份若引用仅用作者书目或机构来源。"
+            },
+            {
+              "decision": "fresh_registration",
+              "candidate_source_id": "WCD10-B14-S105",
+              "url": "https://www.planetadelibros.com.ar/libro-cae-la-noche-tropical/133554",
+              "candidate_ids": [
+                "WCD10-B14-W105",
+                "WCD10-B14-W105-F02",
+                "WCD10-B14-W105-F03",
+                "WCD10-B14-W105-F04"
+              ],
+              "boundary": "已实读出版社对应作品页；仅支持作品自身简介/类别，年份若引用仅用作者书目或机构来源。"
+            }
+          ]
+        },
+        {
+          "author_id": "V1-ENT-0285",
+          "decisions": [
+            {
+              "decision": "reuse_existing_source",
+              "candidate_source_id": "WCD10-B14-S201",
+              "formal_source_id": "SRC-0227",
+              "url": "https://www.educ.ar/recursos/109330/silvina-ocampo-el-viaje-olvidado",
+              "candidate_ids": [
+                "WCD10-B14-W201-F01",
+                "WCD10-B14-W201-F02",
+                "WCD10-B14-W201-F03",
+                "WCD10-B14-W201-F04",
+                "WCD10-B14-W202-F01",
+                "WCD10-B14-W202-F02",
+                "WCD10-B14-W202-F03",
+                "WCD10-B14-W202-F04",
+                "WCD10-B14-W203-F01",
+                "WCD10-B14-W203-F02",
+                "WCD10-B14-W203-F03",
+                "WCD10-B14-W203-F04",
+                "WCD10-B14-W204-F01",
+                "WCD10-B14-W204-F02",
+                "WCD10-B14-W204-F03",
+                "WCD10-B14-W204-F04",
+                "WCD10-B14-W205-F01",
+                "WCD10-B14-W205-F02",
+                "WCD10-B14-W205-F03",
+                "WCD10-B14-W205-F04",
+                "WCD10-B14-W206-F01",
+                "WCD10-B14-W206-F02",
+                "WCD10-B14-W206-F03",
+                "WCD10-B14-W206-F04",
+                "WCD10-B14-W201",
+                "WCD10-B14-W202",
+                "WCD10-B14-W203",
+                "WCD10-B14-W204",
+                "WCD10-B14-W205",
+                "WCD10-B14-W206"
+              ],
+              "boundary": "已于2026-10-13直接打开Educ.ar页面；复用与冻结SRC-0227相同canonical URL，不改旧来源元数据。"
+            },
+            {
+              "decision": "fresh_registration",
+              "candidate_source_id": "WCD10-B14-S202",
+              "url": "https://cultura.gob.ar/silvina-ocampo-10848/",
+              "candidate_ids": [
+                "WCD10-B14-W201",
+                "WCD10-B14-W202",
+                "WCD10-B14-W203",
+                "WCD10-B14-W204",
+                "WCD10-B14-W205",
+                "WCD10-B14-W206",
+                "WCD10-B14-W201-F01",
+                "WCD10-B14-W201-F02",
+                "WCD10-B14-W201-F03",
+                "WCD10-B14-W201-F04",
+                "WCD10-B14-W202-F01",
+                "WCD10-B14-W202-F02",
+                "WCD10-B14-W202-F03",
+                "WCD10-B14-W202-F04",
+                "WCD10-B14-W203-F01",
+                "WCD10-B14-W203-F02",
+                "WCD10-B14-W203-F03",
+                "WCD10-B14-W203-F04",
+                "WCD10-B14-W204-F01",
+                "WCD10-B14-W204-F02",
+                "WCD10-B14-W204-F03",
+                "WCD10-B14-W204-F04",
+                "WCD10-B14-W205-F01",
+                "WCD10-B14-W205-F02",
+                "WCD10-B14-W205-F03",
+                "WCD10-B14-W205-F04",
+                "WCD10-B14-W206-F01",
+                "WCD10-B14-W206-F02",
+                "WCD10-B14-W206-F03",
+                "WCD10-B14-W206-F04"
+              ],
+              "boundary": "2026-10-13实际打开阿根廷文化部门户作者作品目录；直接支持作品题名、形态和所列年份。不同机构对Autobiografía de Irene、Espacios métricos的年份不一致，候选不择年。"
+            },
+            {
+              "decision": "fresh_registration",
+              "candidate_source_id": "WCD10-B14-S203",
+              "url": "https://rarebooks.library.nd.edu/collections/latin_american/south_american/southern_cone_lit/ocampo_s.html",
+              "candidate_ids": [
+                "WCD10-B14-W201",
+                "WCD10-B14-W202",
+                "WCD10-B14-W203",
+                "WCD10-B14-W204",
+                "WCD10-B14-W205",
+                "WCD10-B14-W206",
+                "WCD10-B14-W201-F01",
+                "WCD10-B14-W201-F03",
+                "WCD10-B14-W201-F04",
+                "WCD10-B14-W202-F01",
+                "WCD10-B14-W202-F02",
+                "WCD10-B14-W202-F03",
+                "WCD10-B14-W202-F04",
+                "WCD10-B14-W203-F01",
+                "WCD10-B14-W203-F02",
+                "WCD10-B14-W203-F03",
+                "WCD10-B14-W203-F04",
+                "WCD10-B14-W204-F01",
+                "WCD10-B14-W204-F02",
+                "WCD10-B14-W204-F03",
+                "WCD10-B14-W204-F04",
+                "WCD10-B14-W205-F01",
+                "WCD10-B14-W205-F02",
+                "WCD10-B14-W205-F03",
+                "WCD10-B14-W205-F04",
+                "WCD10-B14-W206-F01",
+                "WCD10-B14-W206-F03",
+                "WCD10-B14-W206-F04"
+              ],
+              "boundary": "已直接打开圣母大学Hesburgh Libraries作者特藏页；页内明确讨论初版作品并逐项列出本批相关作品、体裁和年份。用于对象/版本辨识及年份交叉核对。"
+            }
+          ]
+        }
+      ],
+      "merged_initial_count": 8,
+      "final_scope_decisions": [
+        {
+          "candidate_ids": [
+            "WCD10-B14-S201"
+          ],
+          "related_existing_source": "SRC-0227",
+          "disposition": "reuse",
+          "notes": "已于2026-10-13直接打开Educ.ar页面；复用与冻结SRC-0227相同canonical URL，不改旧来源元数据。"
+        },
+        {
+          "candidate_ids": [
+            "WCD10-B14-S202"
+          ],
+          "related_existing_source": "SRC-0228",
+          "disposition": "reuse",
+          "notes": "2026-10-13实际打开阿根廷文化部门户作者作品目录；直接支持作品题名、形态和所列年份。不同机构对Autobiografía de Irene、Espacios métricos的年份不一致，候选不择年。"
+        }
+      ],
+      "dropped_from_scope_interface_count": 6,
+      "reused_source_candidate_ids": [
+        "WCD10-B14-S201",
+        "WCD10-B14-S202"
+      ]
+    },
+    "deferred_interface_changes": [
+      {
+        "title": "《野兔》及其他目录作品的逐件简介/版本首年",
+        "preserved_author_id": "V1-ENT-0274",
+        "preserved_reason": "Anagrama作者页将La liebre列为代表作，但本轮已打开页面未提供该书情节或版本级书目信息；避免由目录列名推断内容与年份。后续需打开具体出版社/图书馆书目页。",
+        "added_key": "WCD10:B14:AIRA:remaining-bibliography",
+        "added_disposition": "deferred"
+      },
+      {
+        "title": "El tilo",
+        "preserved_author_id": "V1-ENT-0274",
+        "preserved_reason": "虽已发现评论文献讨论其出版于2003年及内容，但未核验出版社/图书馆作品专页；本轮暂不把论文二手概述作为获准普通书目来源。",
+        "added_key": "WCD10:B14:AIRA:El-tilo",
+        "added_disposition": "deferred"
+      }
+    ]
+  },
+  "merged_artifact_sha256_final": {
+    "CANDIDATES.json": "1ee4a720518c9bb2ac8729517b716b679ce343ed18f3aefbb10cef74e87573f2",
+    "COVERAGE.json": "7cb9716e6b3d40edef5af5dbde0ee783f92f7f22748c2d5d2d7b7f9a2e5f9b34",
+    "SOURCE_REGISTRATION.json": "eb65dd4a747af52400aa4951ef2d5ff7f0f54ea40924f69df9648e58b54dcfcb",
+    "EVIDENCE_MATRIX.json": "c3867f854aaccad1cc412aa7b7763c8886917c3e842273064e5f19f7c4e11ed2",
+    "DEDUP.json": "b9786680dd7f8f506cc73499c5a885ca6624bae2eb94fa7071fa0cd13636fdf0",
+    "SOURCE_ACCESS_LOG.json": "664079662f2097027b5a568b132a50020a96c20635a37c685d16ee7ab02145c4"
+  },
+  "initial_snapshot_sha256": {
+    "CANDIDATES.json": "47839ab723201693fad2947424e12a46b9313da5e4f8e368cc1d680b0455d85b",
+    "COVERAGE.json": "7cb9716e6b3d40edef5af5dbde0ee783f92f7f22748c2d5d2d7b7f9a2e5f9b34",
+    "SOURCE_REGISTRATION.json": "eb65dd4a747af52400aa4951ef2d5ff7f0f54ea40924f69df9648e58b54dcfcb",
+    "EVIDENCE_MATRIX.json": "c3867f854aaccad1cc412aa7b7763c8886917c3e842273064e5f19f7c4e11ed2",
+    "DEDUP.json": "b9786680dd7f8f506cc73499c5a885ca6624bae2eb94fa7071fa0cd13636fdf0",
+    "SOURCE_ACCESS_LOG.json": "664079662f2097027b5a568b132a50020a96c20635a37c685d16ee7ab02145c4",
+    "MERGE_PROVENANCE.json": "6df2e7ed0abb55f912975a313088d2c29554310df334f91dd9025c6c9a5605b2"
+  },
+  "supplemental_attachments_sha256": {
+    "COAUTHOR_REENTRY_CANDIDATES.json": "df2aa6e83ab5ce005d1bcabb23e7262e77109b6e138bc808971e7d8996490242",
+    "COAUTHOR_REENTRY_REVIEW.json": "d4da3735cdf7a0a8a1604bba44ead312c7c37609a55ab333b1de8f5abcee0afd"
+  },
+  "validation": {
+    "argv": [
+      "/opt/homebrew/opt/python@3.14/bin/python3.14",
+      "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/work/codex-worktrees/latin-american-literature-map-wcd10/scripts/validate_wcd10_candidates.py",
+      "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/work/codex-worktrees/latin-american-literature-map-wcd10/data/changesets/WCD-10/B14/CANDIDATES.json",
+      "--repo",
+      "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/work/codex-worktrees/latin-american-literature-map-wcd10",
+      "--report",
+      "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/work/codex-worktrees/latin-american-literature-map-wcd10/data/changesets/WCD-10/B14/INTEGRATOR_VALIDATION.json"
+    ],
+    "cwd": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/work/codex-worktrees/latin-american-literature-map-wcd10",
+    "exit_code": 0,
+    "stdout": "{\n  \"verdict\": \"pass\",\n  \"errors\": [],\n  \"warnings\": [\n    \"Mechanical PASS does not admit sources/facts/relations; independent Reviewer remains required.\"\n  ],\n  \"counts\": {\n    \"source_candidates\": 11,\n    \"new_entity_candidates\": 14,\n    \"new_fact_candidates\": 51,\n    \"new_created_candidates\": 14,\n    \"extra_relationship_candidates\": 0,\n    \"deferred\": 2\n  },\n  \"dedup\": [\n    {\n      \"candidate_id\": \"WCD10-B14-S001\",\n      \"kind\": \"source\",\n      \"disposition\": \"new\",\n      \"matches\": []\n    },\n    {\n      \"candidate_id\": \"WCD10-B14-S002\",\n      \"kind\": \"source\",\n      \"disposition\": \"new\",\n      \"matches\": []\n    },\n    {\n      \"candidate_id\": \"WCD10-B14-S003\",\n      \"kind\": \"source\",\n      \"disposition\": \"new\",\n      \"matches\": []\n    },\n    {\n      \"candidate_id\": \"WCD10-B14-S101\",\n      \"kind\": \"source\",\n      \"disposition\": \"new\",\n      \"matches\": []\n    },\n    {\n      \"candidate_id\": \"WCD10-B14-S102\",\n      \"kind\": \"source\",\n      \"disposition\": \"new\",\n      \"matches\": []\n    },\n    {\n      \"candidate_id\": \"WCD10-B14-S103\",\n      \"kind\": \"source\",\n      \"disposition\": \"new\",\n      \"matches\": []\n    },\n    {\n      \"candidate_id\": \"WCD10-B14-S104\",\n      \"kind\": \"source\",\n      \"disposition\": \"new\",\n      \"matches\": []\n    },\n    {\n      \"candidate_id\": \"WCD10-B14-S105\",\n      \"kind\": \"source\",\n      \"disposition\": \"new\",\n      \"matches\": []\n    },\n    {\n      \"candidate_id\": \"WCD10-B14-S201\",\n      \"kind\": \"source\",\n      \"disposition\": \"reuse\",\n      \"matches\": [\n        \"SRC-0227\"\n      ]\n    },\n    {\n      \"candidate_id\": \"WCD10-B14-S202\",\n      \"kind\": \"source\",\n      \"disposition\": \"reuse\",\n      \"matches\": [\n        \"SRC-0228\"\n      ]\n    },\n    {\n      \"candidate_id\": \"WCD10-B14-S203\",\n      \"kind\": \"source\",\n      \"disposition\": \"new\",\n      \"matches\": []\n    },\n    {\n      \"candidate_id\": \"WCD10-B14-W001\",\n      \"kind\": \"entity\",\n      \"disposition\": \"new\",\n      \"matches\": []\n    },\n    {\n      \"candidate_id\": \"WCD10-B14-W002\",\n      \"kind\": \"entity\",\n      \"disposition\": \"new\",\n      \"matches\": []\n    },\n    {\n      \"candidate_id\": \"WCD10-B14-W003\",\n      \"kind\": \"entity\",\n      \"disposition\": \"new\",\n      \"matches\": []\n    },\n    {\n      \"candidate_id\": \"WCD10-B14-W101\",\n      \"kind\": \"entity\",\n      \"disposition\": \"new\",\n      \"matches\": []\n    },\n    {\n      \"candidate_id\": \"WCD10-B14-W102\",\n      \"kind\": \"entity\",\n      \"disposition\": \"new\",\n      \"matches\": []\n    },\n    {\n      \"candidate_id\": \"WCD10-B14-W103\",\n      \"kind\": \"entity\",\n      \"disposition\": \"new\",\n      \"matches\": []\n    },\n    {\n      \"candidate_id\": \"WCD10-B14-W104\",\n      \"kind\": \"entity\",\n      \"disposition\": \"new\",\n      \"matches\": []\n    },\n    {\n      \"candidate_id\": \"WCD10-B14-W105\",\n      \"kind\": \"entity\",\n      \"disposition\": \"new\",\n      \"matches\": []\n    },\n    {\n      \"candidate_id\": \"WCD10-B14-W201\",\n      \"kind\": \"entity\",\n      \"disposition\": \"new\",\n      \"matches\": []\n    },\n    {\n      \"candidate_id\": \"WCD10-B14-W202\",\n      \"kind\": \"entity\",\n      \"disposition\": \"new\",\n      \"matches\": []\n    },\n    {\n      \"candidate_id\": \"WCD10-B14-W203\",\n      \"kind\": \"entity\",\n      \"disposition\": \"new\",\n      \"matches\": []\n    },\n    {\n      \"candidate_id\": \"WCD10-B14-W204\",\n      \"kind\": \"entity\",\n      \"disposition\": \"new\",\n      \"matches\": []\n    },\n    {\n      \"candidate_id\": \"WCD10-B14-W205\",\n      \"kind\": \"entity\",\n      \"disposition\": \"new\",\n      \"matches\": []\n    },\n    {\n      \"candidate_id\": \"WCD10-B14-W206\",\n      \"kind\": \"entity\",\n      \"disposition\": \"new\",\n      \"matches\": []\n    }\n  ]\n}\n\n",
+    "stderr": "",
+    "stdout_sha256": "513162e775c349a63ccaa01cd1dda67d5de77e73f4c961df32010e6b36d70130",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "report_path": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/work/codex-worktrees/latin-american-literature-map-wcd10/data/changesets/WCD-10/B14/INTEGRATOR_VALIDATION.json",
+    "report_sha256": "1dc2dc93cbf6f3221744276f7949a68f4f1c5bcd140e2fec40263eb6b352a969",
+    "verdict": "pass",
+    "counts": {
+      "source_candidates": 11,
+      "new_entity_candidates": 14,
+      "new_fact_candidates": 51,
+      "new_created_candidates": 14,
+      "extra_relationship_candidates": 0,
+      "deferred": 2
+    },
+    "errors": [],
+    "warnings": [
+      "Mechanical PASS does not admit sources/facts/relations; independent Reviewer remains required."
+    ]
+  },
+  "prior_merge_attempts": [
+    {
+      "argv": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/project/internal/WCD_10_WORKSPACE/orchestration/wave-11/integrator/merge_b14.py"
+      ],
+      "cwd": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图",
+      "exit_code": 2,
+      "stdout": "",
+      "stderr": "ERROR: ValueError: WT master baseline differs: c7b5951beb2e2a30053b08d84e07931547b8909a1e5a180086fafeedebaea677\n",
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_sha256": "4f86da313f928a19e1d4493d796d5c579c989a5ed3d45569907348454f73a072",
+      "attempt": 1
+    },
+    {
+      "argv": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/project/internal/WCD_10_WORKSPACE/orchestration/wave-11/integrator/merge_b14.py"
+      ],
+      "cwd": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图",
+      "exit_code": 2,
+      "stdout": "",
+      "stderr": "ERROR: ValueError: dangling source scope decision: {'decision': 'fresh_registration', 'candidate_source_id': 'WCD10-B14-S101', 'url': 'https://www.argentina.gob.ar/node/294856', 'candidate_ids': ['WCD10-B14-W101-F01', 'WCD10-B14-W101-F04', 'WCD10-B14-W102', 'WCD10-B14-W102-F01', 'WCD10-B14-W102-F02', 'WCD10-B14-W102-F03', 'WCD10-B14-W102-F04', 'WCD10-B14-W104', 'WCD10-B14-W104-F01', 'WCD10-B14-W104-F02', 'WCD10-B14-W104-F03', 'WCD10-B14-W104-F04', 'WCD10-B14-W105-F01', 'WCD10-B14-W105-F04'], 'boundary': '已实读阿根廷政府文化机构文章，支持作品书目与有限内容简介。'}\n",
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_sha256": "41d213acee2c39cc9e344243aac9a11b2016502a30eca303a5d8958b6a659288",
+      "attempt": 2
+    },
+    {
+      "argv": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/project/internal/WCD_10_WORKSPACE/orchestration/wave-11/integrator/merge_b14.py"
+      ],
+      "cwd": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图",
+      "exit_code": 2,
+      "stdout": "",
+      "stderr": "ERROR: AttributeError: 'str' object has no attribute 'get'\n",
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_sha256": "f0c835ae4a35e71fadbb6ff05feb4091b5a7288ba263fc96b2bffae326c46f14",
+      "attempt": 3
+    }
+  ],
+  "initial_merge_execution": {
+    "argv": [
+      "/opt/homebrew/opt/python@3.14/bin/python3.14",
+      "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/project/internal/WCD_10_WORKSPACE/orchestration/wave-11/integrator/merge_b14.py"
+    ],
+    "cwd": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图",
+    "exit_code": 2,
+    "stdout": "",
+    "stderr": "ERROR: AttributeError: 'str' object has no attribute 'get'\n",
+    "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stderr_sha256": "f0c835ae4a35e71fadbb6ff05feb4091b5a7288ba263fc96b2bffae326c46f14",
+    "script_sha256": "f07b7d98bf2a7bd284ba5a5368a084695aad54655acf8f0ad9e4c250b47aee99",
+    "note": "This invocation wrote and archived the exact initial seven files before the subsequent in-process normalization evidence step raised; that failure is retained in prior_merge_attempts."
+  },
+  "normalization_execution": {
+    "argv": [
+      "/opt/homebrew/opt/python@3.14/bin/python3.14",
+      "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/project/internal/WCD_10_WORKSPACE/orchestration/wave-11/integrator/finish_b14.py"
+    ],
+    "cwd": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图",
+    "exit_code": 0,
+    "stdout": "{\n  \"phase\": \"normalization_and_validator\",\n  \"baseline_sha256\": \"c7b5951beb2e2a30053b08d84e07931547b8909a1e5a180086fafeedebaea677\",\n  \"initial_hashes\": {\n    \"CANDIDATES.json\": \"47839ab723201693fad2947424e12a46b9313da5e4f8e368cc1d680b0455d85b\",\n    \"COVERAGE.json\": \"7cb9716e6b3d40edef5af5dbde0ee783f92f7f22748c2d5d2d7b7f9a2e5f9b34\",\n    \"SOURCE_REGISTRATION.json\": \"eb65dd4a747af52400aa4951ef2d5ff7f0f54ea40924f69df9648e58b54dcfcb\",\n    \"EVIDENCE_MATRIX.json\": \"c3867f854aaccad1cc412aa7b7763c8886917c3e842273064e5f19f7c4e11ed2\",\n    \"DEDUP.json\": \"b9786680dd7f8f506cc73499c5a885ca6624bae2eb94fa7071fa0cd13636fdf0\",\n    \"SOURCE_ACCESS_LOG.json\": \"664079662f2097027b5a568b132a50020a96c20635a37c685d16ee7ab02145c4\",\n    \"MERGE_PROVENANCE.json\": \"6df2e7ed0abb55f912975a313088d2c29554310df334f91dd9025c6c9a5605b2\"\n  },\n  \"final_hashes\": {\n    \"CANDIDATES.json\": \"1ee4a720518c9bb2ac8729517b716b679ce343ed18f3aefbb10cef74e87573f2\",\n    \"COVERAGE.json\": \"7cb9716e6b3d40edef5af5dbde0ee783f92f7f22748c2d5d2d7b7f9a2e5f9b34\",\n    \"SOURCE_REGISTRATION.json\": \"eb65dd4a747af52400aa4951ef2d5ff7f0f54ea40924f69df9648e58b54dcfcb\",\n    \"EVIDENCE_MATRIX.json\": \"c3867f854aaccad1cc412aa7b7763c8886917c3e842273064e5f19f7c4e11ed2\",\n    \"DEDUP.json\": \"b9786680dd7f8f506cc73499c5a885ca6624bae2eb94fa7071fa0cd13636fdf0\",\n    \"SOURCE_ACCESS_LOG.json\": \"664079662f2097027b5a568b132a50020a96c20635a37c685d16ee7ab02145c4\",\n    \"MERGE_PROVENANCE.json\": \"7fb27ed41a585b124ba840a16d5885a96cb09f861a55da614feb90919bd2485c\",\n    \"INTEGRATOR_VALIDATION.json\": \"1dc2dc93cbf6f3221744276f7949a68f4f1c5bcd140e2fec40263eb6b352a969\",\n    \"COAUTHOR_REENTRY_CANDIDATES.json\": \"df2aa6e83ab5ce005d1bcabb23e7262e77109b6e138bc808971e7d8996490242\",\n    \"COAUTHOR_REENTRY_REVIEW.json\": \"d4da3735cdf7a0a8a1604bba44ead312c7c37609a55ab333b1de8f5abcee0afd\"\n  },\n  \"normalization_diff\": {\n    \"coverage_rows_before\": 23,\n    \"coverage_rows_after\": 23,\n    \"candidate_interface_changes\": [],\n    \"baseline_card_facts_sync\": [],\n    \"research_refs_preserved_exactly\": true,\n    \"source_scope_interface_normalization\": {\n      \"original_decisions_by_author\": [\n        {\n          \"author_id\": \"V1-ENT-0274\",\n          \"decisions\": []\n        },\n        {\n          \"author_id\": \"V1-ENT-0284\",\n          \"decisions\": [\n            {\n              \"decision\": \"fresh_registration\",\n              \"candidate_source_id\": \"WCD10-B14-S101\",\n              \"url\": \"https://www.argentina.gob.ar/node/294856\",\n              \"candidate_ids\": [\n                \"WCD10-B14-W101-F01\",\n                \"WCD10-B14-W101-F04\",\n                \"WCD10-B14-W102\",\n                \"WCD10-B14-W102-F01\",\n                \"WCD10-B14-W102-F02\",\n                \"WCD10-B14-W102-F03\",\n                \"WCD10-B14-W102-F04\",\n                \"WCD10-B14-W104\",\n                \"WCD10-B14-W104-F01\",\n                \"WCD10-B14-W104-F02\",\n                \"WCD10-B14-W104-F03\",\n                \"WCD10-B14-W104-F04\",\n                \"WCD10-B14-W105-F01\",\n                \"WCD10-B14-W105-F04\"\n              ],\n              \"boundary\": \"已实读阿根廷政府文化机构文章，支持作品书目与有限内容简介。\"\n            },\n            {\n              \"decision\": \"fresh_registration\",\n              \"candidate_source_id\": \"WCD10-B14-S102\",\n              \"url\": \"https://www.planetadelibros.com.ar/libro-el-beso-de-la-mujer-arana/374416\",\n              \"candidate_ids\": [\n                \"WCD10-B14-W103-F01\",\n                \"WCD10-B14-W103-F04\"\n              ],\n              \"boundary\": \"已实读出版社作者书目，仅支持普伊格作品题名/类别和年份，不借用其他作品简介。\"\n            },\n            {\n              \"decision\": \"fresh_registration\",\n              \"candidate_source_id\": \"WCD10-B14-S103\",\n              \"url\": \"https://www.planetadelibros.com.ar/libro-the-buenos-aires-affair-ne/354236\",\n              \"candidate_ids\": [\n                \"WCD10-B14-W101\",\n                \"WCD10-B14-W101-F02\",\n                \"WCD10-B14-W101-F03\",\n                \"WCD10-B14-W101-F04\"\n              ],\n              \"boundary\": \"已实读出版社对应作品页；仅支持作品自身简介/类别，年份若引用仅用作者书目或机构来源。\"\n            },\n            {\n              \"decision\": \"fresh_registration\",\n              \"candidate_source_id\": \"WCD10-B14-S104\",\n              \"url\": \"https://www.planetadelibros.com.ar/libro-maldicion-eterna-a-quien-lea-estas-paginas-ne/362422\",\n              \"candidate_ids\": [\n                \"WCD10-B14-W103\",\n                \"WCD10-B14-W103-F02\",\n                \"WCD10-B14-W103-F03\",\n                \"WCD10-B14-W103-F04\"\n              ],\n              \"boundary\": \"已实读出版社对应作品页；仅支持作品自身简介/类别，年份若引用仅用作者书目或机构来源。\"\n            },\n            {\n              \"decision\": \"fresh_registration\",\n              \"candidate_source_id\": \"WCD10-B14-S105\",\n              \"url\": \"https://www.planetadelibros.com.ar/libro-cae-la-noche-tropical/133554\",\n              \"candidate_ids\": [\n                \"WCD10-B14-W105\",\n                \"WCD10-B14-W105-F02\",\n                \"WCD10-B14-W105-F03\",\n                \"WCD10-B14-W105-F04\"\n              ],\n              \"boundary\": \"已实读出版社对应作品页；仅支持作品自身简介/类别，年份若引用仅用作者书目或机构来源。\"\n            }\n          ]\n        },\n        {\n          \"author_id\": \"V1-ENT-0285\",\n          \"decisions\": [\n            {\n              \"decision\": \"reuse_existing_source\",\n              \"candidate_source_id\": \"WCD10-B14-S201\",\n              \"formal_source_id\": \"SRC-0227\",\n              \"url\": \"https://www.educ.ar/recursos/109330/silvina-ocampo-el-viaje-olvidado\",\n              \"candidate_ids\": [\n                \"WCD10-B14-W201-F01\",\n                \"WCD10-B14-W201-F02\",\n                \"WCD10-B14-W201-F03\",\n                \"WCD10-B14-W201-F04\",\n                \"WCD10-B14-W202-F01\",\n                \"WCD10-B14-W202-F02\",\n                \"WCD10-B14-W202-F03\",\n                \"WCD10-B14-W202-F04\",\n                \"WCD10-B14-W203-F01\",\n                \"WCD10-B14-W203-F02\",\n                \"WCD10-B14-W203-F03\",\n                \"WCD10-B14-W203-F04\",\n                \"WCD10-B14-W204-F01\",\n                \"WCD10-B14-W204-F02\",\n                \"WCD10-B14-W204-F03\",\n                \"WCD10-B14-W204-F04\",\n                \"WCD10-B14-W205-F01\",\n                \"WCD10-B14-W205-F02\",\n                \"WCD10-B14-W205-F03\",\n                \"WCD10-B14-W205-F04\",\n                \"WCD10-B14-W206-F01\",\n                \"WCD10-B14-W206-F02\",\n                \"WCD10-B14-W206-F03\",\n                \"WCD10-B14-W206-F04\",\n                \"WCD10-B14-W201\",\n                \"WCD10-B14-W202\",\n                \"WCD10-B14-W203\",\n                \"WCD10-B14-W204\",\n                \"WCD10-B14-W205\",\n                \"WCD10-B14-W206\"\n              ],\n              \"boundary\": \"已于2026-10-13直接打开Educ.ar页面；复用与冻结SRC-0227相同canonical URL，不改旧来源元数据。\"\n            },\n            {\n              \"decision\": \"fresh_registration\",\n              \"candidate_source_id\": \"WCD10-B14-S202\",\n              \"url\": \"https://cultura.gob.ar/silvina-ocampo-10848/\",\n              \"candidate_ids\": [\n                \"WCD10-B14-W201\",\n                \"WCD10-B14-W202\",\n                \"WCD10-B14-W203\",\n                \"WCD10-B14-W204\",\n                \"WCD10-B14-W205\",\n                \"WCD10-B14-W206\",\n                \"WCD10-B14-W201-F01\",\n                \"WCD10-B14-W201-F02\",\n                \"WCD10-B14-W201-F03\",\n                \"WCD10-B14-W201-F04\",\n                \"WCD10-B14-W202-F01\",\n                \"WCD10-B14-W202-F02\",\n                \"WCD10-B14-W202-F03\",\n                \"WCD10-B14-W202-F04\",\n                \"WCD10-B14-W203-F01\",\n                \"WCD10-B14-W203-F02\",\n                \"WCD10-B14-W203-F03\",\n                \"WCD10-B14-W203-F04\",\n                \"WCD10-B14-W204-F01\",\n                \"WCD10-B14-W204-F02\",\n                \"WCD10-B14-W204-F03\",\n                \"WCD10-B14-W204-F04\",\n                \"WCD10-B14-W205-F01\",\n                \"WCD10-B14-W205-F02\",\n                \"WCD10-B14-W205-F03\",\n                \"WCD10-B14-W205-F04\",\n                \"WCD10-B14-W206-F01\",\n                \"WCD10-B14-W206-F02\",\n                \"WCD10-B14-W206-F03\",\n                \"WCD10-B14-W206-F04\"\n              ],\n              \"boundary\": \"2026-10-13实际打开阿根廷文化部门户作者作品目录；直接支持作品题名、形态和所列年份。不同机构对Autobiografía de Irene、Espacios métricos的年份不一致，候选不择年。\"\n            },\n            {\n              \"decision\": \"fresh_registration\",\n              \"candidate_source_id\": \"WCD10-B14-S203\",\n              \"url\": \"https://rarebooks.library.nd.edu/collections/latin_american/south_american/southern_cone_lit/ocampo_s.html\",\n              \"candidate_ids\": [\n                \"WCD10-B14-W201\",\n                \"WCD10-B14-W202\",\n                \"WCD10-B14-W203\",\n                \"WCD10-B14-W204\",\n                \"WCD10-B14-W205\",\n                \"WCD10-B14-W206\",\n                \"WCD10-B14-W201-F01\",\n                \"WCD10-B14-W201-F03\",\n                \"WCD10-B14-W201-F04\",\n                \"WCD10-B14-W202-F01\",\n                \"WCD10-B14-W202-F02\",\n                \"WCD10-B14-W202-F03\",\n                \"WCD10-B14-W202-F04\",\n                \"WCD10-B14-W203-F01\",\n                \"WCD10-B14-W203-F02\",\n                \"WCD10-B14-W203-F03\",\n                \"WCD10-B14-W203-F04\",\n                \"WCD10-B14-W204-F01\",\n                \"WCD10-B14-W204-F02\",\n                \"WCD10-B14-W204-F03\",\n                \"WCD10-B14-W204-F04\",\n                \"WCD10-B14-W205-F01\",\n                \"WCD10-B14-W205-F02\",\n                \"WCD10-B14-W205-F03\",\n                \"WCD10-B14-W205-F04\",\n                \"WCD10-B14-W206-F01\",\n                \"WCD10-B14-W206-F03\",\n                \"WCD10-B14-W206-F04\"\n              ],\n              \"boundary\": \"已直接打开圣母大学Hesburgh Libraries作者特藏页；页内明确讨论初版作品并逐项列出本批相关作品、体裁和年份。用于对象/版本辨识及年份交叉核对。\"\n            }\n          ]\n        }\n      ],\n      \"merged_initial_count\": 8,\n      \"final_scope_decisions\": [\n        {\n          \"candidate_ids\": [\n            \"WCD10-B14-S201\"\n          ],\n          \"related_existing_source\": \"SRC-0227\",\n          \"disposition\": \"reuse\",\n          \"notes\": \"已于2026-10-13直接打开Educ.ar页面；复用与冻结SRC-0227相同canonical URL，不改旧来源元数据。\"\n        },\n        {\n          \"candidate_ids\": [\n            \"WCD10-B14-S202\"\n          ],\n          \"related_existing_source\": \"SRC-0228\",\n          \"disposition\": \"reuse\",\n          \"notes\": \"2026-10-13实际打开阿根廷文化部门户作者作品目录；直接支持作品题名、形态和所列年份。不同机构对Autobiografía de Irene、Espacios métricos的年份不一致，候选不择年。\"\n        }\n      ],\n      \"dropped_from_scope_interface_count\": 6,\n      \"reused_source_candidate_ids\": [\n        \"WCD10-B14-S201\",\n        \"WCD10-B14-S202\"\n      ]\n    },\n    \"deferred_interface_changes\": [\n      {\n        \"title\": \"《野兔》及其他目录作品的逐件简介/版本首年\",\n        \"preserved_author_id\": \"V1-ENT-0274\",\n        \"preserved_reason\": \"Anagrama作者页将La liebre列为代表作，但本轮已打开页面未提供该书情节或版本级书目信息；避免由目录列名推断内容与年份。后续需打开具体出版社/图书馆书目页。\",\n        \"added_key\": \"WCD10:B14:AIRA:remaining-bibliography\",\n        \"added_disposition\": \"deferred\"\n      },\n      {\n        \"title\": \"El tilo\",\n        \"preserved_author_id\": \"V1-ENT-0274\",\n        \"preserved_reason\": \"虽已发现评论文献讨论其出版于2003年及内容，但未核验出版社/图书馆作品专页；本轮暂不把论文二手概述作为获准普通书目来源。\",\n        \"added_key\": \"WCD10:B14:AIRA:El-tilo\",\n        \"added_disposition\": \"deferred\"\n      }\n    ]\n  },\n  \"validator_exit_code\": 0,\n  \"validator_verdict\": \"pass\",\n  \"validator_errors\": [],\n  \"validator_stdout_sha256\": \"513162e775c349a63ccaa01cd1dda67d5de77e73f4c961df32010e6b36d70130\",\n  \"validator_stderr_sha256\": \"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855\"\n}\n",
+    "stderr": "",
+    "stdout_sha256": "aac08cb2d7b8a7f7a81cbcbc427bc3cf6b889f40f2ad7bbfd0f663f467a7c3a0",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "script_sha256": "969ab1f95ddfee1d4a5c41196b9ec75b130ef247a98c4904ec77667e0f0b0428"
+  },
+  "evidence_binding": {
+    "raw_merge_attempts": [
+      {
+        "attempt": 1,
+        "stdout_path": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/project/internal/WCD_10_WORKSPACE/orchestration/wave-11/integrator/MERGE_ATTEMPT_01.stdout",
+        "stderr_path": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/project/internal/WCD_10_WORKSPACE/orchestration/wave-11/integrator/MERGE_ATTEMPT_01.stderr",
+        "exit_path": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/project/internal/WCD_10_WORKSPACE/orchestration/wave-11/integrator/MERGE_ATTEMPT_01.exit",
+        "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "stderr_sha256": "4f86da313f928a19e1d4493d796d5c579c989a5ed3d45569907348454f73a072",
+        "exit_code": 2
+      },
+      {
+        "attempt": 2,
+        "stdout_path": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/project/internal/WCD_10_WORKSPACE/orchestration/wave-11/integrator/MERGE_ATTEMPT_02.stdout",
+        "stderr_path": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/project/internal/WCD_10_WORKSPACE/orchestration/wave-11/integrator/MERGE_ATTEMPT_02.stderr",
+        "exit_path": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/project/internal/WCD_10_WORKSPACE/orchestration/wave-11/integrator/MERGE_ATTEMPT_02.exit",
+        "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "stderr_sha256": "41d213acee2c39cc9e344243aac9a11b2016502a30eca303a5d8958b6a659288",
+        "exit_code": 2
+      },
+      {
+        "attempt": 3,
+        "stdout_path": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/project/internal/WCD_10_WORKSPACE/orchestration/wave-11/integrator/MERGE_ATTEMPT_03.stdout",
+        "stderr_path": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/project/internal/WCD_10_WORKSPACE/orchestration/wave-11/integrator/MERGE_ATTEMPT_03.stderr",
+        "exit_path": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/project/internal/WCD_10_WORKSPACE/orchestration/wave-11/integrator/MERGE_ATTEMPT_03.exit",
+        "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "stderr_sha256": "f0c835ae4a35e71fadbb6ff05feb4091b5a7288ba263fc96b2bffae326c46f14",
+        "exit_code": 2
+      }
+    ],
+    "freeze_hash_check_stdout_sha256": "12ab76f8d3f7cfd2cc11eb41b8529aa881c25866aa0d9ffd43969e49cf695dfb",
+    "freeze_hash_check_stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "finalizer_stdout_sha256": "aac08cb2d7b8a7f7a81cbcbc427bc3cf6b889f40f2ad7bbfd0f663f467a7c3a0",
+    "finalizer_stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  }
+}

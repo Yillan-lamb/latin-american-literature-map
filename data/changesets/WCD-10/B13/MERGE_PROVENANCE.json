@@ -1,0 +1,178 @@
+{
+  "schema": "wcd10-b13-merge-provenance-1",
+  "task_id": "TASK-118",
+  "batch_id": "WCD-10-B13",
+  "status": "MERGED_CANDIDATE_ONLY_PARENT_REVIEW_PENDING",
+  "parent_authorization": "Parent explicit final input and exact merge authorization, 2026-10-13; candidate hashes pinned in parent message.",
+  "baseline_database_sha256": "74a900c2988eec78a700467bc70c5e523a774cd4fa615cfc5edfdd16991ff8f7",
+  "observed_baseline_database_sha256": "74a900c2988eec78a700467bc70c5e523a774cd4fa615cfc5edfdd16991ff8f7",
+  "root": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图",
+  "worktree": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/work/codex-worktrees/latin-american-literature-map-wcd10",
+  "expected_branch": "codex/wcd-10-author-deepening",
+  "observed_branch": "codex/wcd-10-author-deepening",
+  "observed_head": "05f3372c69a54ec331d31b05d16c8288d6d3a993",
+  "fixed_author_order": [
+    "V1-ENT-0262",
+    "V1-ENT-0272",
+    "V1-ENT-0273"
+  ],
+  "inputs": [
+    {
+      "author_id": "V1-ENT-0262",
+      "author": "Bolaño",
+      "directory": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/project/internal/WCD_10_WORKSPACE/orchestration/wave-10/bolano/R2",
+      "freeze_manifest": {
+        "file": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/project/internal/WCD_10_WORKSPACE/orchestration/wave-10/bolano/R2/SHA256SUMS.json",
+        "sha256": "7a5c9b94cc477f0be71edb9a396f7eaba9dc61297ec43a03d9dc62cd33a33eb1",
+        "files": {
+          "CANDIDATES.json": "a609d13cb8fcdc8ea61356132bed3715263a97937483af5472b29e071114dc72",
+          "COVERAGE.json": "569726998cf790bf12fd84f592135ee2d92bb362465d662183855511ee984e7d",
+          "DEDUP.json": "6b24a9f401898fb084ec2fe13687075b7a7a0a89876758ffe96c581cf685f6d0",
+          "EVIDENCE_MATRIX.json": "77f36ce25451ee9a6529bee96ed7a28cd461d7af37e5ffa6c98f1e29edbbc6c5",
+          "HANDOFF.md": "25629f78528f6c2636a9e8eb8591432a9ebbd1c2e255307150899e4f1a02e883",
+          "SELF_CHECK.json": "3a6679ae2851c9ee97b5ab42214c949d514dc577b81fa567aeaaeaa511da1ee7",
+          "SOURCE_ACCESS_LOG.json": "7b31b595ac4fc7da90002807fdc738b05ed7a4ee0cd6e3dc3a6ab5f1ee8742c9",
+          "SOURCE_REGISTRATION.json": "cd110c0be3238a5e3ddd599a9c82e610e8ee9cb996535c4657d93a619d85955a",
+          "STATUS.json": "cba84afde3f363ef983c93267a0d2cc195a9182f1ebdf83f78bf360972a2cd09",
+          "VALIDATOR_REPORT.json": "6f612bacdbd5b68943865da755afb4ce5bc0a5ca4e11103b955f33a8d1f42b10"
+        }
+      },
+      "candidate_sha256": "a609d13cb8fcdc8ea61356132bed3715263a97937483af5472b29e071114dc72",
+      "root_execution_metadata": {
+        "accessed_at": "2026-10-13",
+        "verified_by": "GPT-6 Luna isolated author candidate producer",
+        "copyright_boundary": "仅中文释义短句和书目元数据；不复制来源段落，不下载或保留全文。",
+        "public_content_scope": "B13 Bolaño research candidate metadata only; no public admission implied.",
+        "local_asset_status": "remote_only",
+        "source_year_policy": "作品首发年仅按Memoria Chilena作者页陈述录入；出版方当代再版页面日期不视为首版年。"
+      }
+    },
+    {
+      "author_id": "V1-ENT-0272",
+      "author": "Galeano",
+      "directory": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/project/internal/WCD_10_WORKSPACE/orchestration/wave-10/galeano/FINAL",
+      "freeze_manifest": {
+        "file": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/project/internal/WCD_10_WORKSPACE/orchestration/wave-10/galeano/FINAL/SHA256SUMS.json",
+        "sha256": "dcc9b3ddeee6d7e4dc18c30a45b77c45fe8c6c49e64181ed16123f9460d4796a",
+        "files": {
+          "CANDIDATES.json": "99abd4559887d1be52baf47a1af35249e673b54f65d5b39af3489fa582a2347d",
+          "COVERAGE.json": "b3cf24804f3a04171f4ca5c60957cb067c15b5ba225d0cb3cafdb4ee0d9a058d",
+          "SOURCE_REGISTRATION.json": "42b1765a0e7058cba1cd9f1c8cc277460035a2a5d53d2d2d0586d931d5aa9430",
+          "EVIDENCE_MATRIX.json": "0f8d060e2533ae604721488a83bed8649a5b23c333a9bf2a0c3e2d2ed7165f95",
+          "DEDUP.json": "9dbd2b1de9948c590afba124b3cb9a140f575777c9b877b07304698dbc0359cf",
+          "SOURCE_ACCESS_LOG.json": "0b75eef0111a8356e2e7a236fe70d2cd4b1a71f8a76817033c3c7180d1d33046",
+          "SELF_CHECK.json": "316a977252e73c0077c4c4eea6054f10782a3c6a54facd775738af1788a06c76",
+          "VALIDATOR_REPORT.json": "93551e9f39e884f4a4ff97e7e95327290a283197e6e08a5c1dbc2b053ddd1c0d",
+          "HANDOFF.md": "569ecb00bdcd20885bfde421f4088179c33d3da71a29a913154309f98a3ce7c5",
+          "STATUS.json": "7c74bb5da796db3fce1b2e2310e14fa967db8d70d2d13ccf0dbdffe1386bc3d5"
+        }
+      },
+      "candidate_sha256": "99abd4559887d1be52baf47a1af35249e673b54f65d5b39af3489fa582a2347d",
+      "root_execution_metadata": {
+        "accessed_at": "2026-10-13",
+        "verified_by": "GPT-6 Luna isolated candidate producer; parent content review corrections incorporated; fresh-context sources opened.",
+        "copyright_boundary": "Only bibliographic metadata and short paraphrases; no substantial source text copied.",
+        "public_content_scope": "Research candidate bibliographic facts and bounded descriptions; no Curation or public admission.",
+        "local_asset_status": "remote_only",
+        "source_year_policy": "Only atomic years explicitly recorded by the direct source are proposed; catalogue edition year is distinguished in bibliographic notes."
+      }
+    },
+    {
+      "author_id": "V1-ENT-0273",
+      "author": "Piglia",
+      "directory": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/project/internal/WCD_10_WORKSPACE/orchestration/wave-10/piglia/FINAL",
+      "freeze_manifest": {
+        "file": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/project/internal/WCD_10_WORKSPACE/orchestration/wave-10/piglia/FINAL/SHA256SUMS.json",
+        "sha256": "8f0afc24d07ecdba57042d2ea08ac3056b53193dff2c65fe1e1ccb082bd5f6da",
+        "files": {
+          "CANDIDATES.json": "55ca21446cc2dcd75faac8093673b581038af686b63c0ede86703fd330df65d9",
+          "COVERAGE.json": "5a8568c928def026bbc8276c4bdbea4ccc8f131b27814a4c0fd6fff6c337ac15",
+          "SOURCE_REGISTRATION.json": "7a4bcdd179a3fd0791dc7cafd2986f379d4fd394288f024b6e76ac42091695dc",
+          "EVIDENCE_MATRIX.json": "d214554ba116dc655da3d8ee355d2a43157784dafa47944db602dd736fe508b0",
+          "DEDUP.json": "54587c3085ccd1f2cee19e0bd965ca937c63c993abe53690465508914f8b4044",
+          "SOURCE_ACCESS_LOG.json": "eaa1725863a7d24f1a505e49012e52f767eb518bad7b39e0def2086ba8fc07e2",
+          "SELF_CHECK.json": "3f7615f04e56c2b2b60a9f13166947aec9a473a40e16a6c009a32ae90f6d8b27",
+          "VALIDATOR_REPORT.json": "95999e570a393f37f653e4edc9837d699163db07bc1675c24d95b6e5ec96d8c1",
+          "HANDOFF.md": "272d846d5f31b0a5341b5a9deea8d110b7aeb8ef5e5cc21718a019166f542eef",
+          "STATUS.json": "6b06e4c0f7bff9bfe0f451b86d5af47bd578d4d6bd811241ac4b966be91971e0",
+          "BASELINE_SQL_CLOSURE.json": "ea87c847f62596631736ea378971eba926accab70282b110cd4c6e40e3e66f5d",
+          "REVISION_DIFF.md": "4531af7d48dbcbb22295f9386d919a7bc705f2a73b3dc0b4d0c75cdd85c2cf54"
+        }
+      },
+      "candidate_sha256": "55ca21446cc2dcd75faac8093673b581038af686b63c0ede86703fd330df65d9",
+      "root_execution_metadata": {
+        "accessed_at": "2026-10-13",
+        "verified_by": "B13 Piglia candidate producer",
+        "copyright_boundary": "仅登记书目资料及自行概括的短篇作品简介，不复制出版物正文或较长出版社文案。",
+        "public_content_scope": "研究候选中的作品题名、体裁、版本信息及受限中文释义；不自动准入Curation或公开层。",
+        "local_asset_status": "remote_only",
+        "source_year_policy": "区分作者档案作品目录所列年份与出版方具体版本日期；出现年份口径冲突时保留书目注记并将原子首版年留空。"
+      }
+    }
+  ],
+  "normalization": {
+    "candidate": "Six candidate arrays concatenated verbatim in the fixed author order; only task, batch, baseline, status, and fixed roster metadata set to B13 values. Producer-specific auxiliary top-level fields are retained verbatim under author_auxiliary_fields.",
+    "coverage": "Objects and deferred rows concatenated verbatim; author-keyed descriptions, context, scope, policy, result, and snapshot fields combined with collision rejection; author-specific scope strings retained in author context.",
+    "registration": "Profiles concatenated verbatim; six nonempty shared root execution fields unified mechanically; every author root value and author policy preserved verbatim under author_policies with hashes and in this provenance.",
+    "evidence_matrix": "Entries concatenated verbatim; non-row author matrix metadata preserved under author_metadata.",
+    "source_scope_decisions": "Only the Piglia /bio fresh-registration decision tied to historical SRC-0217 is present in the formal candidate interface; all author DEDUP/source access material is retained under author_packages.",
+    "auxiliary": "Complete per-author DEDUP and SOURCE_ACCESS_LOG objects retained under author_packages without schema normalization."
+  },
+  "checks": {
+    "candidate_arrays_exact_ordered_concat": {
+      "sources": true,
+      "new_entities": true,
+      "existing_facts": true,
+      "extra_relationships": true,
+      "deferred": true,
+      "source_scope_decisions": true
+    },
+    "coverage_author_descriptions_exact_mapping": true,
+    "coverage_objects_exact_ordered_concat": true,
+    "coverage_deferred_exact_ordered_concat": true,
+    "registration_profiles_exact_ordered_concat": true,
+    "evidence_matrix_entries_exact_ordered_concat": true,
+    "registration_root_metadata_all_nonempty": true,
+    "only_parent-approved_source_scope_decision": true
+  },
+  "counts": {
+    "sources": 25,
+    "new_entities": 24,
+    "existing_facts": 16,
+    "extra_relationships": 0,
+    "deferred": 3,
+    "source_scope_decisions": 1,
+    "coverage_objects": 33,
+    "coverage_deferred_objects": 3,
+    "registration_profiles": 25,
+    "evidence_matrix_entries": 104
+  },
+  "merged_artifact_sha256": {
+    "CANDIDATES.json": "1a83e88bd3feafc0827023ed245838a27e0681cfbd630c34b6a142d05936c208",
+    "COVERAGE.json": "ffa290b7026d51370779546fb3f43723c0912f59e2b2abd04c43b6c41bf2281a",
+    "SOURCE_REGISTRATION.json": "f42bb5195b490dcf4d0b02618c2ed094a9c62903b8593f1bc6ec6749bbc11ccc",
+    "EVIDENCE_MATRIX.json": "f1184fa5701432e3244c2600122a21a629486f77b7b1ffea918553fafa553a16",
+    "DEDUP.json": "00e93fba41af302eed43492b0e60278697f6c0c2905409e3c5bbb114b60f08f5",
+    "SOURCE_ACCESS_LOG.json": "1a7f313e20438933a91e4b675319bf7988754a5f052ee9e44f25f7fa1e051c45"
+  },
+  "database_writes": false,
+  "gate_created": false,
+  "sql_created": false,
+  "map_created": false,
+  "apply_performed": false,
+  "raw_commands": [
+    {
+      "argv": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "project/internal/WCD_10_WORKSPACE/orchestration/wave-10/integrator/merge_b13.py"
+      ],
+      "working_directory": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图",
+      "exit_code": 0,
+      "stdout": "{\"write\":true,\"destination\":\"/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/work/codex-worktrees/latin-american-literature-map-wcd10/data/changesets/WCD-10/B13\",\"hashes\":{\"CANDIDATES.json\":\"1a83e88bd3feafc0827023ed245838a27e0681cfbd630c34b6a142d05936c208\",\"COVERAGE.json\":\"ffa290b7026d51370779546fb3f43723c0912f59e2b2abd04c43b6c41bf2281a\",\"SOURCE_REGISTRATION.json\":\"f42bb5195b490dcf4d0b02618c2ed094a9c62903b8593f1bc6ec6749bbc11ccc\",\"EVIDENCE_MATRIX.json\":\"f1184fa5701432e3244c2600122a21a629486f77b7b1ffea918553fafa553a16\",\"DEDUP.json\":\"00e93fba41af302eed43492b0e60278697f6c0c2905409e3c5bbb114b60f08f5\",\"SOURCE_ACCESS_LOG.json\":\"1a7f313e20438933a91e4b675319bf7988754a5f052ee9e44f25f7fa1e051c45\"},\"counts\":{\"sources\":25,\"new_entities\":24,\"existing_facts\":16,\"extra_relationships\":0,\"deferred\":3,\"source_scope_decisions\":1,\"coverage_objects\":33,\"coverage_deferred_objects\":3,\"registration_profiles\":25,\"evidence_matrix_entries\":104}}\n",
+      "stderr": "",
+      "stdout_sha256": "b5b83d5742ea60e0b2548ec8190d6fcf025f5cb09bec85de91e6c2be4d60755b",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "script_sha256": "7eb825b3fdaa9e759e0f032a1a2e26be53e7a051863fdc7d68402af2e8418e6e"
+    }
+  ]
+}

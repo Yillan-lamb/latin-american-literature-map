@@ -1,0 +1,13 @@
+{
+  "verdict": "PASS",
+  "task_id": "TASK-112",
+  "batch_id": "WCD-10-B07",
+  "baseline_database_sha256": "ea9e01b41b4faaef727a6159b6d34ba7d9121a9992fda1cb993c6574f91f6a27",
+  "migration_name": "0042_wcd10_b07_author_works.sql",
+  "migration_sha256": "4110d4c32fb5f418636640f2f6ecb4f32853a0c12431ebcdd2e7b2fdc34c66c7",
+  "mapping_path": "data/changesets/WCD-10/B07/INTEGRATION_MAP.json",
+  "mapping_sha256": "7fbf2e238c959d80ffdc1b58fefce128d6124cd21c241cd73b8297b053a9cef1",
+  "reviewer": "Codex-parent-independent-SQL-review",
+  "reviewed_at": "2026-10-10",
+  "scope": "Actual disposable clone apply PASS;732 independent checks plus6 explicit role descriptions/all relationship_evidence notes exact; all19-table old rows retained except allowed metadata; parent mechanical preparation fallback due Luna terminal usage limit. Actual apply and QA separate next"
+}

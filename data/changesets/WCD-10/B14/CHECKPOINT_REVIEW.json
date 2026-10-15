@@ -1,0 +1,14 @@
+{
+  "task_id": "TASK-119",
+  "batch_id": "WCD-10-B14",
+  "baseline_database_sha256": "c7b5951beb2e2a30053b08d84e07931547b8909a1e5a180086fafeedebaea677",
+  "migration_name": "0049_wcd10_b14_author_works.sql",
+  "migration_sha256": "f9b2f3049c04b37a3590046614103c734df990e2bb88d0467230971ee318b95b",
+  "mapping_sha256": "b37121daae664084d6d822c291ab741c09306b482ab95a4a9fe824d03150e956",
+  "reviewer": "Codex-parent-independent-SQL-review",
+  "reviewed_at": "2026-10-13",
+  "verdict": "PASS",
+  "mapping_path": "data/changesets/WCD-10/B14/INTEGRATION_MAP.json",
+  "scope": "Actual disposable baseline clone applies exact0049, all19table old-row/source/fact/card/3same-object coauthor closure audit PASS; authorize this exact SQL/map once on this frozen baseline then necessary data/export/replay/publicQA.",
+  "parent_sql_report_sha256": "59fddf4cf06363555fb34d820d876bd0a15e684d57389b4685a5c43a201fbb5a"
+}

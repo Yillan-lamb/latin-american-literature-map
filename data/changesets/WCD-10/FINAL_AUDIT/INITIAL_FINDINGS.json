@@ -1,0 +1,892 @@
+[
+  {
+    "finding_id": "TASK127-F01",
+    "priority": "P2",
+    "status": "UNRESOLVED_READ_ONLY_REPORT",
+    "title": "15个已明确识别为多篇作品容器的对象仍以work保存",
+    "rule": "RESEARCH_SCHEMA.md §2 defines collection for containers of multiple works; TASK105 acceptance forbids work/collection/version layer confusion.",
+    "evidence": [
+      {
+        "entity_id": "V1-ENT-0460",
+        "title": "Apologías y rechazos",
+        "actual_type": "work",
+        "expected_container_type": "collection",
+        "genre_evidence": [
+          {
+            "fact_id": "V1-FCT-1389",
+            "origin_material_id": "WCD10-B07-W004-F02",
+            "card_id": "V1-CARD-0384",
+            "subject_id": "V1-ENT-0460",
+            "fact_field": "genre_or_form",
+            "value_text": "essay collection",
+            "material_class": "bibliographic",
+            "origin_id": "WCD-10-B07",
+            "confidence": "high",
+            "admission_status": "batch_retained_candidate",
+            "usage_note": "Research-only; independent candidate review PASS; no public admission",
+            "source_links": [
+              {
+                "fact_id": "V1-FCT-1389",
+                "source_id": "SRC-0150",
+                "source_title": "Ernesto Sabato – Biografía"
+              },
+              {
+                "fact_id": "V1-FCT-1389",
+                "source_id": "SRC-0462",
+                "source_title": "Apologías y rechazos"
+              }
+            ]
+          }
+        ],
+        "summary_evidence": [
+          {
+            "fact_id": "V1-FCT-1390",
+            "origin_material_id": "WCD10-B07-W004-F03",
+            "card_id": "V1-CARD-0384",
+            "subject_id": "V1-ENT-0460",
+            "fact_field": "one_sentence_summary",
+            "value_text": "出版社简介称本书汇集七篇较长文章；作者书目将其列为1979年出版的现代性与文学论说类作品。",
+            "material_class": "institutional_paraphrase",
+            "origin_id": "WCD-10-B07",
+            "confidence": "high",
+            "admission_status": "batch_retained_candidate",
+            "usage_note": "Research-only; independent candidate review PASS; no public admission",
+            "source_links": [
+              {
+                "fact_id": "V1-FCT-1390",
+                "source_id": "SRC-0150",
+                "source_title": "Ernesto Sabato – Biografía"
+              },
+              {
+                "fact_id": "V1-FCT-1390",
+                "source_id": "SRC-0462",
+                "source_title": "Apologías y rechazos"
+              }
+            ]
+          }
+        ],
+        "card_ids": [
+          "V1-CARD-0384"
+        ],
+        "created_author_ids": [
+          "V1-ENT-0186"
+        ],
+        "support_basis": "Existing admitted explicit anthology/multiple-text contents, not title-string inference. No new network claim."
+      },
+      {
+        "entity_id": "V1-ENT-0465",
+        "title": "Tres aproximaciones a la literatura de nuestro tiempo",
+        "actual_type": "work",
+        "expected_container_type": "collection",
+        "genre_evidence": [
+          {
+            "fact_id": "V1-FCT-1405",
+            "origin_material_id": "WCD10-B07-W009-F02",
+            "card_id": "V1-CARD-0389",
+            "subject_id": "V1-ENT-0465",
+            "fact_field": "genre_or_form",
+            "value_text": "literary-critical essay collection",
+            "material_class": "bibliographic",
+            "origin_id": "WCD-10-B07",
+            "confidence": "high",
+            "admission_status": "batch_retained_candidate",
+            "usage_note": "Research-only; independent candidate review PASS; no public admission",
+            "source_links": [
+              {
+                "fact_id": "V1-FCT-1405",
+                "source_id": "SRC-0476",
+                "source_title": "Tres aproximaciones a la literatura de nuestro tiempo : Robbe-Grillet, Borges, Sartre"
+              }
+            ]
+          }
+        ],
+        "summary_evidence": [
+          {
+            "fact_id": "V1-FCT-1406",
+            "origin_material_id": "WCD10-B07-W009-F03",
+            "card_id": "V1-CARD-0389",
+            "subject_id": "V1-ENT-0465",
+            "fact_field": "one_sentence_summary",
+            "value_text": "据馆藏编目题名、副题和主题词，本书由围绕Robbe-Grillet、Jorge Luis Borges与Jean-Paul Sartre的文学批评论说构成。",
+            "material_class": "institutional_paraphrase",
+            "origin_id": "WCD-10-B07",
+            "confidence": "high",
+            "admission_status": "batch_retained_candidate",
+            "usage_note": "Research-only; independent candidate review PASS; no public admission",
+            "source_links": [
+              {
+                "fact_id": "V1-FCT-1406",
+                "source_id": "SRC-0476",
+                "source_title": "Tres aproximaciones a la literatura de nuestro tiempo : Robbe-Grillet, Borges, Sartre"
+              }
+            ]
+          }
+        ],
+        "card_ids": [
+          "V1-CARD-0389"
+        ],
+        "created_author_ids": [
+          "V1-ENT-0186"
+        ],
+        "support_basis": "Existing admitted explicit anthology/multiple-text contents, not title-string inference. No new network claim."
+      },
+      {
+        "entity_id": "V1-ENT-0489",
+        "title": "La estatua casera",
+        "actual_type": "work",
+        "expected_container_type": "collection",
+        "genre_evidence": [
+          {
+            "fact_id": "V1-FCT-1477",
+            "origin_material_id": "WCD10-B07-W124-F02",
+            "card_id": "V1-CARD-0413",
+            "subject_id": "V1-ENT-0489",
+            "fact_field": "genre_or_form",
+            "value_text": "杂集（混合散文、短篇叙事与短篇文论；不归为单一小说体裁）",
+            "material_class": "bibliographic",
+            "origin_id": "WCD-10-B07",
+            "confidence": "high",
+            "admission_status": "batch_retained_candidate",
+            "usage_note": "Research-only; independent candidate review PASS; no public admission",
+            "source_links": [
+              {
+                "fact_id": "V1-FCT-1477",
+                "source_id": "SRC-0504",
+                "source_title": "La voz ajena. Bioy Casares como lexicógrafo y antólogo"
+              }
+            ]
+          }
+        ],
+        "summary_evidence": [
+          {
+            "fact_id": "V1-FCT-1478",
+            "origin_material_id": "WCD10-B07-W124-F03",
+            "card_id": "V1-CARD-0413",
+            "subject_id": "V1-ENT-0489",
+            "fact_field": "one_sentence_summary",
+            "value_text": "据García对原书的直接讨论，本书由实验性短篇叙事和反思性文字构成，包含《El hermano de la nonata》《Locus》《Utilidad y fin práctico》及《Sobre la técnica de los cuentos fantásticos》等不同文本；此说明概括其杂集构成，不把任何单篇另作合集身份。",
+            "material_class": "institutional_paraphrase",
+            "origin_id": "WCD-10-B07",
+            "confidence": "high",
+            "admission_status": "batch_retained_candidate",
+            "usage_note": "Research-only; independent candidate review PASS; no public admission",
+            "source_links": [
+              {
+                "fact_id": "V1-FCT-1478",
+                "source_id": "SRC-0504",
+                "source_title": "La voz ajena. Bioy Casares como lexicógrafo y antólogo"
+              }
+            ]
+          }
+        ],
+        "card_ids": [
+          "V1-CARD-0413"
+        ],
+        "created_author_ids": [
+          "V1-ENT-0198"
+        ],
+        "support_basis": "Existing admitted explicit anthology/multiple-text contents, not title-string inference. No new network claim."
+      },
+      {
+        "entity_id": "V1-ENT-0494",
+        "title": "Antología de la literatura fantástica",
+        "actual_type": "work",
+        "expected_container_type": "collection",
+        "genre_evidence": [
+          {
+            "fact_id": "V1-FCT-1494",
+            "origin_material_id": "WCD10-B07-W129-F02",
+            "card_id": "V1-CARD-0418",
+            "subject_id": "V1-ENT-0494",
+            "fact_field": "genre_or_form",
+            "value_text": "奇幻文学选集（共同编选、翻译）",
+            "material_class": "bibliographic",
+            "origin_id": "WCD-10-B07",
+            "confidence": "high",
+            "admission_status": "batch_retained_candidate",
+            "usage_note": "Research-only; independent candidate review PASS; no public admission",
+            "source_links": [
+              {
+                "fact_id": "V1-FCT-1494",
+                "source_id": "SRC-0512",
+                "source_title": "Biografía de Adolfo Bioy Casares"
+              }
+            ]
+          }
+        ],
+        "summary_evidence": [
+          {
+            "fact_id": "V1-FCT-1495",
+            "origin_material_id": "WCD10-B07-W129-F03",
+            "card_id": "V1-CARD-0418",
+            "subject_id": "V1-ENT-0494",
+            "fact_field": "one_sentence_summary",
+            "value_text": "该选集汇集H. G. Wells、Franz Kafka、Rudyard Kipling等作者作品，并收入Macedonio Fernández、Silvina Ocampo与Jorge Luis Borges的文本；Bioy另撰序。",
+            "material_class": "institutional_paraphrase",
+            "origin_id": "WCD-10-B07",
+            "confidence": "high",
+            "admission_status": "batch_retained_candidate",
+            "usage_note": "Research-only; independent candidate review PASS; no public admission",
+            "source_links": [
+              {
+                "fact_id": "V1-FCT-1495",
+                "source_id": "SRC-0512",
+                "source_title": "Biografía de Adolfo Bioy Casares"
+              }
+            ]
+          }
+        ],
+        "card_ids": [
+          "V1-CARD-0418"
+        ],
+        "created_author_ids": [
+          "V1-ENT-0198",
+          "V1-ENT-0285",
+          "V1-ENT-0002"
+        ],
+        "support_basis": "Existing admitted explicit anthology/multiple-text contents, not title-string inference. No new network claim."
+      },
+      {
+        "entity_id": "V1-ENT-0573",
+        "title": "Contos esparsos",
+        "actual_type": "work",
+        "expected_container_type": "collection",
+        "genre_evidence": [
+          {
+            "fact_id": "V1-FCT-1775",
+            "origin_material_id": "WCD10-B08-W127-F02",
+            "card_id": "V1-CARD-0506",
+            "subject_id": "V1-ENT-0573",
+            "fact_field": "genre_or_form",
+            "value_text": "short_story_collection",
+            "material_class": "bibliographic",
+            "origin_id": "WCD-10-B08",
+            "confidence": "high",
+            "admission_status": "batch_retained_candidate",
+            "usage_note": "Research-only; independent candidate review PASS; no public admission",
+            "source_links": [
+              {
+                "fact_id": "V1-FCT-1775",
+                "source_id": "SRC-0609",
+                "source_title": "A medalha e seu reverso: fantástico e desfantasticização em contos de Machado de Assis"
+              }
+            ]
+          }
+        ],
+        "summary_evidence": [
+          {
+            "fact_id": "V1-FCT-1776",
+            "origin_material_id": "WCD10-B08-W127-F03",
+            "card_id": "V1-CARD-0506",
+            "subject_id": "V1-ENT-0573",
+            "fact_field": "one_sentence_summary",
+            "value_text": "Raimundo Magalhães Júnior 1956年编选的短篇集，目录列有“O anjo Rafael”。",
+            "material_class": "institutional_paraphrase",
+            "origin_id": "WCD-10-B08",
+            "confidence": "high",
+            "admission_status": "batch_retained_candidate",
+            "usage_note": "Research-only; independent candidate review PASS; no public admission",
+            "source_links": [
+              {
+                "fact_id": "V1-FCT-1776",
+                "source_id": "SRC-0609",
+                "source_title": "A medalha e seu reverso: fantástico e desfantasticização em contos de Machado de Assis"
+              }
+            ]
+          }
+        ],
+        "card_ids": [
+          "V1-CARD-0506"
+        ],
+        "created_author_ids": [
+          "V1-ENT-0211"
+        ],
+        "support_basis": "Existing admitted explicit anthology/multiple-text contents, not title-string inference. No new network claim."
+      },
+      {
+        "entity_id": "V1-ENT-0574",
+        "title": "Contos esquecidos",
+        "actual_type": "work",
+        "expected_container_type": "collection",
+        "genre_evidence": [
+          {
+            "fact_id": "V1-FCT-1778",
+            "origin_material_id": "WCD10-B08-W128-F02",
+            "card_id": "V1-CARD-0507",
+            "subject_id": "V1-ENT-0574",
+            "fact_field": "genre_or_form",
+            "value_text": "short_story_collection",
+            "material_class": "bibliographic",
+            "origin_id": "WCD-10-B08",
+            "confidence": "high",
+            "admission_status": "batch_retained_candidate",
+            "usage_note": "Research-only; independent candidate review PASS; no public admission",
+            "source_links": [
+              {
+                "fact_id": "V1-FCT-1778",
+                "source_id": "SRC-0609",
+                "source_title": "A medalha e seu reverso: fantástico e desfantasticização em contos de Machado de Assis"
+              }
+            ]
+          }
+        ],
+        "summary_evidence": [
+          {
+            "fact_id": "V1-FCT-1779",
+            "origin_material_id": "WCD10-B08-W128-F03",
+            "card_id": "V1-CARD-0507",
+            "subject_id": "V1-ENT-0574",
+            "fact_field": "one_sentence_summary",
+            "value_text": "Raimundo Magalhães Júnior 1956年编选的短篇集，目录列有“Decadência de dois grandes homens”与“Um esqueleto”。",
+            "material_class": "institutional_paraphrase",
+            "origin_id": "WCD-10-B08",
+            "confidence": "high",
+            "admission_status": "batch_retained_candidate",
+            "usage_note": "Research-only; independent candidate review PASS; no public admission",
+            "source_links": [
+              {
+                "fact_id": "V1-FCT-1779",
+                "source_id": "SRC-0609",
+                "source_title": "A medalha e seu reverso: fantástico e desfantasticização em contos de Machado de Assis"
+              }
+            ]
+          }
+        ],
+        "card_ids": [
+          "V1-CARD-0507"
+        ],
+        "created_author_ids": [
+          "V1-ENT-0211"
+        ],
+        "support_basis": "Existing admitted explicit anthology/multiple-text contents, not title-string inference. No new network claim."
+      },
+      {
+        "entity_id": "V1-ENT-0575",
+        "title": "Contos recolhidos",
+        "actual_type": "work",
+        "expected_container_type": "collection",
+        "genre_evidence": [
+          {
+            "fact_id": "V1-FCT-1781",
+            "origin_material_id": "WCD10-B08-W129-F02",
+            "card_id": "V1-CARD-0508",
+            "subject_id": "V1-ENT-0575",
+            "fact_field": "genre_or_form",
+            "value_text": "short_story_collection",
+            "material_class": "bibliographic",
+            "origin_id": "WCD-10-B08",
+            "confidence": "high",
+            "admission_status": "batch_retained_candidate",
+            "usage_note": "Research-only; independent candidate review PASS; no public admission",
+            "source_links": [
+              {
+                "fact_id": "V1-FCT-1781",
+                "source_id": "SRC-0609",
+                "source_title": "A medalha e seu reverso: fantástico e desfantasticização em contos de Machado de Assis"
+              }
+            ]
+          }
+        ],
+        "summary_evidence": [
+          {
+            "fact_id": "V1-FCT-1782",
+            "origin_material_id": "WCD10-B08-W129-F03",
+            "card_id": "V1-CARD-0508",
+            "subject_id": "V1-ENT-0575",
+            "fact_field": "one_sentence_summary",
+            "value_text": "Raimundo Magalhães Júnior 1956年编选的短篇集，目录列有“O capitão Mendonça”。",
+            "material_class": "institutional_paraphrase",
+            "origin_id": "WCD-10-B08",
+            "confidence": "high",
+            "admission_status": "batch_retained_candidate",
+            "usage_note": "Research-only; independent candidate review PASS; no public admission",
+            "source_links": [
+              {
+                "fact_id": "V1-FCT-1782",
+                "source_id": "SRC-0609",
+                "source_title": "A medalha e seu reverso: fantástico e desfantasticização em contos de Machado de Assis"
+              }
+            ]
+          }
+        ],
+        "card_ids": [
+          "V1-CARD-0508"
+        ],
+        "created_author_ids": [
+          "V1-ENT-0211"
+        ],
+        "support_basis": "Existing admitted explicit anthology/multiple-text contents, not title-string inference. No new network claim."
+      },
+      {
+        "entity_id": "V1-ENT-0576",
+        "title": "Contos avulsos",
+        "actual_type": "work",
+        "expected_container_type": "collection",
+        "genre_evidence": [
+          {
+            "fact_id": "V1-FCT-1784",
+            "origin_material_id": "WCD10-B08-W130-F02",
+            "card_id": "V1-CARD-0509",
+            "subject_id": "V1-ENT-0576",
+            "fact_field": "genre_or_form",
+            "value_text": "short_story_collection",
+            "material_class": "bibliographic",
+            "origin_id": "WCD-10-B08",
+            "confidence": "high",
+            "admission_status": "batch_retained_candidate",
+            "usage_note": "Research-only; independent candidate review PASS; no public admission",
+            "source_links": [
+              {
+                "fact_id": "V1-FCT-1784",
+                "source_id": "SRC-0609",
+                "source_title": "A medalha e seu reverso: fantástico e desfantasticização em contos de Machado de Assis"
+              }
+            ]
+          }
+        ],
+        "summary_evidence": [
+          {
+            "fact_id": "V1-FCT-1785",
+            "origin_material_id": "WCD10-B08-W130-F03",
+            "card_id": "V1-CARD-0509",
+            "subject_id": "V1-ENT-0576",
+            "fact_field": "one_sentence_summary",
+            "value_text": "Raimundo Magalhães Júnior 1956年编选的短篇集，目录列有“A vida eterna”与“Os óculos de Pedro Antão”。",
+            "material_class": "institutional_paraphrase",
+            "origin_id": "WCD-10-B08",
+            "confidence": "high",
+            "admission_status": "batch_retained_candidate",
+            "usage_note": "Research-only; independent candidate review PASS; no public admission",
+            "source_links": [
+              {
+                "fact_id": "V1-FCT-1785",
+                "source_id": "SRC-0609",
+                "source_title": "A medalha e seu reverso: fantástico e desfantasticização em contos de Machado de Assis"
+              }
+            ]
+          }
+        ],
+        "card_ids": [
+          "V1-CARD-0509"
+        ],
+        "created_author_ids": [
+          "V1-ENT-0211"
+        ],
+        "support_basis": "Existing admitted explicit anthology/multiple-text contents, not title-string inference. No new network claim."
+      },
+      {
+        "entity_id": "V1-ENT-0577",
+        "title": "Contos sem data",
+        "actual_type": "work",
+        "expected_container_type": "collection",
+        "genre_evidence": [
+          {
+            "fact_id": "V1-FCT-1787",
+            "origin_material_id": "WCD10-B08-W131-F02",
+            "card_id": "V1-CARD-0510",
+            "subject_id": "V1-ENT-0577",
+            "fact_field": "genre_or_form",
+            "value_text": "short_story_collection",
+            "material_class": "bibliographic",
+            "origin_id": "WCD-10-B08",
+            "confidence": "high",
+            "admission_status": "batch_retained_candidate",
+            "usage_note": "Research-only; independent candidate review PASS; no public admission",
+            "source_links": [
+              {
+                "fact_id": "V1-FCT-1787",
+                "source_id": "SRC-0609",
+                "source_title": "A medalha e seu reverso: fantástico e desfantasticização em contos de Machado de Assis"
+              }
+            ]
+          }
+        ],
+        "summary_evidence": [
+          {
+            "fact_id": "V1-FCT-1788",
+            "origin_material_id": "WCD10-B08-W131-F03",
+            "card_id": "V1-CARD-0510",
+            "subject_id": "V1-ENT-0577",
+            "fact_field": "one_sentence_summary",
+            "value_text": "Raimundo Magalhães Júnior 1956年编选的短篇集，目录列有“A mulher pálida”。",
+            "material_class": "institutional_paraphrase",
+            "origin_id": "WCD-10-B08",
+            "confidence": "high",
+            "admission_status": "batch_retained_candidate",
+            "usage_note": "Research-only; independent candidate review PASS; no public admission",
+            "source_links": [
+              {
+                "fact_id": "V1-FCT-1788",
+                "source_id": "SRC-0609",
+                "source_title": "A medalha e seu reverso: fantástico e desfantasticização em contos de Machado de Assis"
+              }
+            ]
+          }
+        ],
+        "card_ids": [
+          "V1-CARD-0510"
+        ],
+        "created_author_ids": [
+          "V1-ENT-0211"
+        ],
+        "support_basis": "Existing admitted explicit anthology/multiple-text contents, not title-string inference. No new network claim."
+      },
+      {
+        "entity_id": "V1-ENT-0578",
+        "title": "Contos e crônicas",
+        "actual_type": "work",
+        "expected_container_type": "collection",
+        "genre_evidence": [
+          {
+            "fact_id": "V1-FCT-1790",
+            "origin_material_id": "WCD10-B08-W132-F02",
+            "card_id": "V1-CARD-0511",
+            "subject_id": "V1-ENT-0578",
+            "fact_field": "genre_or_form",
+            "value_text": "short_story_and_chronicle_collection",
+            "material_class": "bibliographic",
+            "origin_id": "WCD-10-B08",
+            "confidence": "high",
+            "admission_status": "batch_retained_candidate",
+            "usage_note": "Research-only; independent candidate review PASS; no public admission",
+            "source_links": [
+              {
+                "fact_id": "V1-FCT-1790",
+                "source_id": "SRC-0610",
+                "source_title": "Contos e crônicas"
+              }
+            ]
+          }
+        ],
+        "summary_evidence": [
+          {
+            "fact_id": "V1-FCT-1791",
+            "origin_material_id": "WCD10-B08-W132-F03",
+            "card_id": "V1-CARD-0511",
+            "subject_id": "V1-ENT-0578",
+            "fact_field": "one_sentence_summary",
+            "value_text": "目录示例列《O Teles e o Tobias》和《O carro nº 13》；Google Books 记录该卷由 Raimundo Magalhães Júnior 编，Civilização Brasileira 于1958年出版。",
+            "material_class": "institutional_paraphrase",
+            "origin_id": "WCD-10-B08",
+            "confidence": "high",
+            "admission_status": "batch_retained_candidate",
+            "usage_note": "Research-only; independent candidate review PASS; no public admission",
+            "source_links": [
+              {
+                "fact_id": "V1-FCT-1791",
+                "source_id": "SRC-0610",
+                "source_title": "Contos e crônicas"
+              }
+            ]
+          }
+        ],
+        "card_ids": [
+          "V1-CARD-0511"
+        ],
+        "created_author_ids": [
+          "V1-ENT-0211"
+        ],
+        "support_basis": "Existing admitted explicit anthology/multiple-text contents, not title-string inference. No new network claim."
+      },
+      {
+        "entity_id": "V1-ENT-0579",
+        "title": "Contos fantásticos de Machado de Assis",
+        "actual_type": "work",
+        "expected_container_type": "collection",
+        "genre_evidence": [
+          {
+            "fact_id": "V1-FCT-1793",
+            "origin_material_id": "WCD10-B08-W133-F02",
+            "card_id": "V1-CARD-0512",
+            "subject_id": "V1-ENT-0579",
+            "fact_field": "genre_or_form",
+            "value_text": "short_story_collection",
+            "material_class": "bibliographic",
+            "origin_id": "WCD-10-B08",
+            "confidence": "high",
+            "admission_status": "batch_retained_candidate",
+            "usage_note": "Research-only; independent candidate review PASS; no public admission",
+            "source_links": [
+              {
+                "fact_id": "V1-FCT-1793",
+                "source_id": "SRC-0609",
+                "source_title": "A medalha e seu reverso: fantástico e desfantasticização em contos de Machado de Assis"
+              }
+            ]
+          }
+        ],
+        "summary_evidence": [
+          {
+            "fact_id": "V1-FCT-1794",
+            "origin_material_id": "WCD10-B08-W133-F03",
+            "card_id": "V1-CARD-0512",
+            "subject_id": "V1-ENT-0579",
+            "fact_field": "one_sentence_summary",
+            "value_text": "Raimundo Magalhães Júnior 1973年编选的十一篇故事，包括《A chinela turca》《A mulher pálida》《O anjo Rafael》与《O capitão Mendonça》；研究指出其中仅两篇曾由 Machado 自行选入生前单行本。",
+            "material_class": "institutional_paraphrase",
+            "origin_id": "WCD-10-B08",
+            "confidence": "high",
+            "admission_status": "batch_retained_candidate",
+            "usage_note": "Research-only; independent candidate review PASS; no public admission",
+            "source_links": [
+              {
+                "fact_id": "V1-FCT-1794",
+                "source_id": "SRC-0609",
+                "source_title": "A medalha e seu reverso: fantástico e desfantasticização em contos de Machado de Assis"
+              }
+            ]
+          }
+        ],
+        "card_ids": [
+          "V1-CARD-0512"
+        ],
+        "created_author_ids": [
+          "V1-ENT-0211"
+        ],
+        "support_basis": "Existing admitted explicit anthology/multiple-text contents, not title-string inference. No new network claim."
+      },
+      {
+        "entity_id": "V1-ENT-0580",
+        "title": "Crítica",
+        "actual_type": "work",
+        "expected_container_type": "collection",
+        "genre_evidence": [
+          {
+            "fact_id": "V1-FCT-1796",
+            "origin_material_id": "WCD10-B08-W134-F02",
+            "card_id": "V1-CARD-0513",
+            "subject_id": "V1-ENT-0580",
+            "fact_field": "genre_or_form",
+            "value_text": "critical_anthology",
+            "material_class": "bibliographic",
+            "origin_id": "WCD-10-B08",
+            "confidence": "high",
+            "admission_status": "batch_retained_candidate",
+            "usage_note": "Research-only; independent candidate review PASS; no public admission",
+            "source_links": [
+              {
+                "fact_id": "V1-FCT-1796",
+                "source_id": "SRC-0611",
+                "source_title": "Critica (Machado de Assis, 1910)"
+              }
+            ]
+          }
+        ],
+        "summary_evidence": [
+          {
+            "fact_id": "V1-FCT-1797",
+            "origin_material_id": "WCD10-B08-W134-F03",
+            "card_id": "V1-CARD-0513",
+            "subject_id": "V1-ENT-0580",
+            "fact_field": "one_sentence_summary",
+            "value_text": "Mário de Alencar 编辑的1910年遗著选集；目录从《Instinto de nacionalidade》《Guilherme Malta》《Castro Alves》列至评论与序文，篇目性质为文学批评及序言。",
+            "material_class": "institutional_paraphrase",
+            "origin_id": "WCD-10-B08",
+            "confidence": "high",
+            "admission_status": "batch_retained_candidate",
+            "usage_note": "Research-only; independent candidate review PASS; no public admission",
+            "source_links": [
+              {
+                "fact_id": "V1-FCT-1797",
+                "source_id": "SRC-0611",
+                "source_title": "Critica (Machado de Assis, 1910)"
+              }
+            ]
+          }
+        ],
+        "card_ids": [
+          "V1-CARD-0513"
+        ],
+        "created_author_ids": [
+          "V1-ENT-0211"
+        ],
+        "support_basis": "Existing admitted explicit anthology/multiple-text contents, not title-string inference. No new network claim."
+      },
+      {
+        "entity_id": "V1-ENT-0581",
+        "title": "Outras relíquias",
+        "actual_type": "work",
+        "expected_container_type": "collection",
+        "genre_evidence": [
+          {
+            "fact_id": "V1-FCT-1799",
+            "origin_material_id": "WCD10-B08-W135-F02",
+            "card_id": "V1-CARD-0514",
+            "subject_id": "V1-ENT-0581",
+            "fact_field": "genre_or_form",
+            "value_text": "mixed_prose_poetry_collection",
+            "material_class": "bibliographic",
+            "origin_id": "WCD-10-B08",
+            "confidence": "high",
+            "admission_status": "batch_retained_candidate",
+            "usage_note": "Research-only; independent candidate review PASS; no public admission",
+            "source_links": [
+              {
+                "fact_id": "V1-FCT-1799",
+                "source_id": "SRC-0612",
+                "source_title": "Outras Reliquias : (proza e verso)"
+              }
+            ]
+          }
+        ],
+        "summary_evidence": [
+          {
+            "fact_id": "V1-FCT-1800",
+            "origin_material_id": "WCD10-B08-W135-F03",
+            "card_id": "V1-CARD-0514",
+            "subject_id": "V1-ENT-0581",
+            "fact_field": "one_sentence_summary",
+            "value_text": "1910年Garnier卷的目录列八篇散文及六篇诗作（含《O Almada》《Réfus》）；卷首说明称收录故事、诗和散页，来自作者创作较成熟作品的时期。",
+            "material_class": "institutional_paraphrase",
+            "origin_id": "WCD-10-B08",
+            "confidence": "high",
+            "admission_status": "batch_retained_candidate",
+            "usage_note": "Research-only; independent candidate review PASS; no public admission",
+            "source_links": [
+              {
+                "fact_id": "V1-FCT-1800",
+                "source_id": "SRC-0612",
+                "source_title": "Outras Reliquias : (proza e verso)"
+              }
+            ]
+          }
+        ],
+        "card_ids": [
+          "V1-CARD-0514"
+        ],
+        "created_author_ids": [
+          "V1-ENT-0211"
+        ],
+        "support_basis": "Existing admitted explicit anthology/multiple-text contents, not title-string inference. No new network claim."
+      },
+      {
+        "entity_id": "V1-ENT-0582",
+        "title": "Correspondência de Machado de Assis",
+        "actual_type": "work",
+        "expected_container_type": "collection",
+        "genre_evidence": [
+          {
+            "fact_id": "V1-FCT-1802",
+            "origin_material_id": "WCD10-B08-W136-F02",
+            "card_id": "V1-CARD-0515",
+            "subject_id": "V1-ENT-0582",
+            "fact_field": "genre_or_form",
+            "value_text": "correspondence_collection",
+            "material_class": "bibliographic",
+            "origin_id": "WCD-10-B08",
+            "confidence": "high",
+            "admission_status": "batch_retained_candidate",
+            "usage_note": "Research-only; independent candidate review PASS; no public admission",
+            "source_links": [
+              {
+                "fact_id": "V1-FCT-1802",
+                "source_id": "SRC-0628",
+                "source_title": "Anotações sobre a correspondência de Machado de Assis"
+              }
+            ]
+          }
+        ],
+        "summary_evidence": [
+          {
+            "fact_id": "V1-FCT-1803",
+            "origin_material_id": "WCD10-B08-W136-F03",
+            "card_id": "V1-CARD-0515",
+            "subject_id": "V1-ENT-0582",
+            "fact_field": "one_sentence_summary",
+            "value_text": "Fernando Nery 1932年编注的通信集，约232项，收入 Machado 致 Nabuco、Veríssimo、Mário de Alencar、Lúcio de Mendonça等人的信，也包括若干收信人的回复。",
+            "material_class": "institutional_paraphrase",
+            "origin_id": "WCD-10-B08",
+            "confidence": "high",
+            "admission_status": "batch_retained_candidate",
+            "usage_note": "Research-only; independent candidate review PASS; no public admission",
+            "source_links": [
+              {
+                "fact_id": "V1-FCT-1803",
+                "source_id": "SRC-0628",
+                "source_title": "Anotações sobre a correspondência de Machado de Assis"
+              }
+            ]
+          }
+        ],
+        "card_ids": [
+          "V1-CARD-0515"
+        ],
+        "created_author_ids": [
+          "V1-ENT-0211"
+        ],
+        "support_basis": "Existing admitted explicit anthology/multiple-text contents, not title-string inference. No new network claim."
+      },
+      {
+        "entity_id": "V1-ENT-0583",
+        "title": "Diálogos e reflexões de um relojoeiro",
+        "actual_type": "work",
+        "expected_container_type": "collection",
+        "genre_evidence": [
+          {
+            "fact_id": "V1-FCT-1805",
+            "origin_material_id": "WCD10-B08-W137-F02",
+            "card_id": "V1-CARD-0516",
+            "subject_id": "V1-ENT-0583",
+            "fact_field": "genre_or_form",
+            "value_text": "chronicle_collection",
+            "material_class": "bibliographic",
+            "origin_id": "WCD-10-B08",
+            "confidence": "high",
+            "admission_status": "batch_retained_candidate",
+            "usage_note": "Research-only; independent candidate review PASS; no public admission",
+            "source_links": [
+              {
+                "fact_id": "V1-FCT-1805",
+                "source_id": "SRC-0629",
+                "source_title": "Diálogos e reflexões de um relojoeiro"
+              }
+            ]
+          }
+        ],
+        "summary_evidence": [
+          {
+            "fact_id": "V1-FCT-1806",
+            "origin_material_id": "WCD10-B08-W137-F03",
+            "card_id": "V1-CARD-0516",
+            "subject_id": "V1-ENT-0583",
+            "fact_field": "one_sentence_summary",
+            "value_text": "1956年卷的副题说明其从《Gazeta de notícias》辑录1886年的“A + B”及1888—1889年的“Bons dias”；学术研究称收全“A + B”与除一篇外的“Bons Dias”，为“A + B”首个书本版。",
+            "material_class": "institutional_paraphrase",
+            "origin_id": "WCD-10-B08",
+            "confidence": "high",
+            "admission_status": "batch_retained_candidate",
+            "usage_note": "Research-only; independent candidate review PASS; no public admission",
+            "source_links": [
+              {
+                "fact_id": "V1-FCT-1806",
+                "source_id": "SRC-0629",
+                "source_title": "Diálogos e reflexões de um relojoeiro"
+              },
+              {
+                "fact_id": "V1-FCT-1806",
+                "source_id": "SRC-0630",
+                "source_title": "Edição da série de crônicas “A + B”"
+              }
+            ]
+          }
+        ],
+        "card_ids": [
+          "V1-CARD-0516"
+        ],
+        "created_author_ids": [
+          "V1-ENT-0211"
+        ],
+        "support_basis": "Existing admitted explicit anthology/multiple-text contents, not title-string inference. No new network claim."
+      }
+    ],
+    "affected_author_ids": [
+      "V1-ENT-0002",
+      "V1-ENT-0186",
+      "V1-ENT-0198",
+      "V1-ENT-0211",
+      "V1-ENT-0285"
+    ],
+    "impact": "关系端点仍存在且CREATED允许两种类型，所以机械QA通过；实体/卡片却把明确的合集容器声明为work，层级验收仍未通过。现有角色限定和来源链有效，不据此指控独著或重复实体。",
+    "recommendation": "在另获修复授权后逐对象审核collection归类，并通过候选→独立审核→精确迁移→必要QA同步实体和受影响卡片。保留稳定ID、归属角色、来源和历史包；若确需work例外，应先形成有依据的明确模型裁决。此次不执行任何修复。"
+  }
+]

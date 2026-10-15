@@ -10,6 +10,11 @@ from html import escape
 from pathlib import Path
 from urllib.parse import urljoin, urlparse
 
+try:  # Module loading from the repository (tests) and standalone script execution.
+    from scripts.build_v2_web_data import is_research_only
+except ModuleNotFoundError:
+    from build_v2_web_data import is_research_only
+
 
 ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_DATA = ROOT / "data/v2/web/site_data.json"
@@ -96,11 +101,11 @@ def clean_public_data(source: Path) -> dict[str, object]:
     cards = [
         take(item, ("subject_id", "card_type", "country_or_region", "genre_or_form", "language", "period_bucket"))
         for item in payload["research"]["content_cards"]
-        if item["subject_id"] in public_ids
+        if item["subject_id"] in public_ids and not is_research_only(item)
     ]
     facts = []
     for item in payload["research"]["facts"]:
-        if item["subject_id"] not in public_ids:
+        if item["subject_id"] not in public_ids or is_research_only(item):
             continue
         public_status = PUBLIC_FACT_EVIDENCE_STATUS.get(item.get("admission_status"))
         if public_status is None:
@@ -114,6 +119,8 @@ def clean_public_data(source: Path) -> dict[str, object]:
         facts.append(compact)
     relationships = []
     for item in payload["research"]["relationships"]:
+        if is_research_only(item):
+            continue
         if item["subject_id"] not in public_ids or item["object_id"] not in public_ids:
             continue
         compact = take(item, ("subject_id", "object_id", "relation_type", "description_zh"))

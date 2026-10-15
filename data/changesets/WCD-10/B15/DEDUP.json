@@ -1,0 +1,250 @@
+{
+  "schema": "wcd10-b15-dedup-merged-1",
+  "task_id": "TASK-120",
+  "batch_id": "WCD-10-B15",
+  "baseline_database_sha256": "651f89688eeba195a4332ee6611cc51478c2c3aeae7fd5b2391069283a0cea92",
+  "author_packages": [
+    {
+      "author_id": "V1-ENT-0286",
+      "package": {
+        "schema": "wcd10-dedup-1",
+        "task_id": "TASK-120",
+        "batch_id": "WCD-10-B15",
+        "baseline_database_sha256": "651f89688eeba195a4332ee6611cc51478c2c3aeae7fd5b2391069283a0cea92",
+        "author_id": "V1-ENT-0286",
+        "baseline_existing_work_ids": [
+          "V1-ENT-0293",
+          "V1-ENT-0294",
+          "V1-ENT-0295"
+        ],
+        "works": [
+          {
+            "candidate_id": "WCD10-B15-W001",
+            "original_name": "El jorobadito",
+            "normalized_name": "el jorobadito",
+            "matches": [],
+            "disposition": "new"
+          },
+          {
+            "candidate_id": "WCD10-B15-W002",
+            "original_name": "El criador de gorilas",
+            "normalized_name": "el criador de gorilas",
+            "matches": [],
+            "disposition": "new"
+          },
+          {
+            "candidate_id": "WCD10-B15-W003",
+            "original_name": "Trescientos millones",
+            "normalized_name": "trescientos millones",
+            "matches": [],
+            "disposition": "new"
+          },
+          {
+            "candidate_id": "WCD10-B15-W004",
+            "original_name": "La isla desierta",
+            "normalized_name": "la isla desierta",
+            "matches": [],
+            "disposition": "new"
+          },
+          {
+            "candidate_id": "WCD10-B15-W005",
+            "original_name": "El amor brujo",
+            "normalized_name": "el amor brujo",
+            "matches": [],
+            "disposition": "new"
+          }
+        ],
+        "sources": [
+          {
+            "candidate_id": "WCD10-B15-S001",
+            "url": "https://bcn.gob.ar/roberto-arlt",
+            "matches": [
+              "SRC-0230"
+            ],
+            "disposition": "reuse_existing_source"
+          },
+          {
+            "candidate_id": "WCD10-B15-S002",
+            "url": "https://cvc.cervantes.es/literatura/escritores/arlt/bibliografia/bibliografia_01.htm",
+            "matches": [],
+            "disposition": "new"
+          }
+        ],
+        "notes": "对冻结SQLite既有作品逐层查重：作者名下未关联work/collection；候选原题逐个检查全库original_name，validator复核全库同层匹配。 Arlt既有三部小说已映射至V1-ENT-0293/0294/0295，保留完整旧闭包，不再新建。 初稿中 La isla desierta 的1937被收窄为来源目录语境，不断言首发年；补入主要小说 El amor brujo。"
+      }
+    },
+    {
+      "author_id": "V1-ENT-0296",
+      "package": {
+        "schema": "wcd10-b15-dedup-1",
+        "task_id": "TASK-120",
+        "batch_id": "WCD-10-B15",
+        "baseline_database_sha256": "651f89688eeba195a4332ee6611cc51478c2c3aeae7fd5b2391069283a0cea92",
+        "author_id": "V1-ENT-0296",
+        "baseline_existing_work_ids": [
+          "V1-ENT-0299",
+          "V1-ENT-0300",
+          "V1-ENT-0301"
+        ],
+        "works": [
+          {
+            "candidate_id": "WCD10-B15-W101",
+            "kind": "entity",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B15-W102",
+            "kind": "entity",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B15-W103",
+            "kind": "entity",
+            "disposition": "new",
+            "matches": []
+          }
+        ],
+        "sources": [
+          {
+            "candidate_id": "WCD10-B15-S101",
+            "url": "https://books.google.com/books/about/El_n%C3%BAcleo_del_disturbio.html?id=mgBJAAAAYAAJ",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B15-S102",
+            "url": "https://www.penguinlibros.com/mx/literatura-contemporanea/464207-libro-pajaros-en-la-boca-9786073851008",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B15-S103",
+            "url": "https://www.penguinrandomhouse.com/books/607610/kentukis-spanish-edition-by-samanta-schweblin/9786073851022/",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B15-S104",
+            "url": "https://www.planetadelibros.com/libro-el-buen-mal/414257",
+            "disposition": "new",
+            "matches": []
+          }
+        ],
+        "notes": [
+          "以冻结库作者全部CREATED关联作品建立语义查重基线；本轮3项题名均未与既有3项对象同一。旧作完整闭包逐行保存在COVERAGE.json。",
+          "El núcleo del disturbio与《吃鸟的女孩》可能共享个别故事，但本候选是独立短篇集/书目对象，不将故事复用误判为同一整书；无需新建作品版本或同物件关系。"
+        ]
+      }
+    },
+    {
+      "author_id": "V1-ENT-0297",
+      "package": {
+        "baseline_database_sha256": "651f89688eeba195a4332ee6611cc51478c2c3aeae7fd5b2391069283a0cea92",
+        "baseline_dedup": "Mechanical validator normalized every candidate title and source canonical URL against the frozen B15 database.",
+        "works": [
+          {
+            "candidate_id": "WCD10-B15-W201",
+            "kind": "entity",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B15-W202",
+            "kind": "entity",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B15-W203",
+            "kind": "entity",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B15-W204",
+            "kind": "entity",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B15-W205",
+            "kind": "entity",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B15-W206",
+            "kind": "entity",
+            "disposition": "new",
+            "matches": []
+          }
+        ],
+        "sources": [
+          {
+            "candidate_id": "WCD10-B15-S201",
+            "kind": "source",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B15-S202",
+            "kind": "source",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B15-S203",
+            "kind": "source",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B15-S204",
+            "kind": "source",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B15-S205",
+            "kind": "source",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B15-S206",
+            "kind": "source",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B15-S207",
+            "kind": "source",
+            "disposition": "reuse",
+            "matches": [
+              "SRC-0238"
+            ]
+          },
+          {
+            "candidate_id": "WCD10-B15-S208",
+            "kind": "source",
+            "disposition": "reuse",
+            "matches": [
+              "SRC-0236"
+            ]
+          },
+          {
+            "candidate_id": "WCD10-B15-S209",
+            "kind": "source",
+            "disposition": "reuse",
+            "matches": [
+              "SRC-0237"
+            ]
+          }
+        ],
+        "summary": "Six directly evidenced selected objects; three overlapping canonical source URLs are reused without modifying old source metadata. Other catalogue items remain deferred."
+      }
+    }
+  ]
+}

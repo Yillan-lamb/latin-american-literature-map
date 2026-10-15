@@ -1,0 +1,75 @@
+{
+  "accessed_at": "2026-10-15",
+  "verified_by": "GPT-6 Luna (TASK-126 WCD-10-B21 Gallegos candidate producer)",
+  "copyright_boundary": "仅保存必要书目信息和短篇幅中文释义；不复制原作全文、扫描件或长段受保护内容。",
+  "public_content_scope": "Research候选，未经独立审核及Curation准入不得公开。",
+  "local_asset_status": "remote_only；未下载、保存网页、书籍或扫描件。",
+  "source_year_policy": "仅在可靠来源直接支持且字段口径清晰时填写原子年；汇编版年份不冒充单篇作品首版年；资料记载年份冲突时保留书目注记并将原子年份留空。",
+  "profiles": [
+    {
+      "candidate_id": "WCD10-B21-S001",
+      "publisher": "Fundación Empresas Polar",
+      "format": "institutional_profile_webpage",
+      "language": "es",
+      "author_or_editor": "Fundación Empresas Polar",
+      "source_level": "B",
+      "title": "Gallegos, Rómulo",
+      "publication_year": "",
+      "date_purpose": "页面未标可确认的发布日期；不为来源记录推定网页出版年。",
+      "notes": "复用冻结基线SRC-0275；本次访问及限定用途见SOURCE_ACCESS_LOG。",
+      "disposition": "reuse_existing_source",
+      "reuse_existing_source": "SRC-0275"
+    },
+    {
+      "candidate_id": "WCD10-B21-S002",
+      "publisher": "C.A. Editora El Nacional",
+      "format": "biographical_monograph_pdf",
+      "language": "es",
+      "author_or_editor": "Simón Alberto Consalvi",
+      "source_level": "B",
+      "title": "Rómulo Gallegos",
+      "publication_year": "",
+      "date_purpose": "数字PDF未在本次实读范围确认出版年份；不推断。",
+      "notes": "Academia Nacional de la Historia托管的《Biblioteca Biográfica Venezolana》传记PDF；原件版权仅用于书目事实和短篇幅释义。",
+      "disposition": "fresh_registration"
+    },
+    {
+      "candidate_id": "WCD10-B21-S003",
+      "publisher": "Sistema Integrado de Información Documental Centroamericano (SIIDCA-CSUCA)",
+      "format": "library_catalog_record",
+      "language": "es",
+      "author_or_editor": "Sistema Integrado de Información Documental Centroamericano (SIIDCA-CSUCA)",
+      "source_level": "B",
+      "title": "Obras completas /",
+      "publication_year": "",
+      "date_purpose": "目录页面未显示网页发布日期；书目记录所列1958年仅指Aguilar《Obras completas》汇编版。",
+      "notes": "仅用于确认目录题名、作者归属、小说/合集层级及Aguilar 1958年汇编卷次；不支持单件作品首版年或情节简介。",
+      "disposition": "fresh_registration"
+    },
+    {
+      "candidate_id": "WCD10-B21-S004",
+      "publisher": "Biblioteca Virtual Miguel de Cervantes",
+      "format": "digital_library_catalog_record",
+      "language": "es",
+      "author_or_editor": "Biblioteca Virtual Miguel de Cervantes",
+      "source_level": "B",
+      "title": "La rebelión (1922) / Rómulo Gallegos",
+      "publication_year": "2001",
+      "date_purpose": "页面记录2001年数字出版；原始出版物《La rebelión y otros cuentos》另载1946年。",
+      "notes": "数字图书馆的单篇书目记录，用于确认作者、合集、版次及篇目定位；不复制原作全文。",
+      "disposition": "fresh_registration"
+    }
+  ],
+  "deferred": [
+    {
+      "key": "source_publication_year:S002",
+      "disposition": "留空",
+      "reason": "本次打开的Academia Nacional de la Historia PDF未确认该传记出版年。"
+    },
+    {
+      "key": "source_publication_year:S003",
+      "disposition": "留空",
+      "reason": "SIIDCA-CSUCA目录网页未标网页发布日期；1958只作为所录Aguilar汇编版年份。"
+    }
+  ]
+}

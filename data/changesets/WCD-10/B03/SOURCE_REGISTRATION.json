@@ -1,0 +1,33 @@
+{
+  "task_id": "TASK-108",
+  "accessed_at": "2026-09-29",
+  "verified_by": "CODEX-DATA opened each source; candidate and registration require independent review",
+  "source_year_policy": "Blank means source publication date NOT_VERIFIED. Work years, current ISBN dates, page-update dates and copyright footers do not substitute for a source publication date.",
+  "public_content_scope": "metadata_and_summary",
+  "local_asset_status": "remote_only",
+  "copyright_boundary": "Original short paraphrases and metadata only; no PDF, full text, images or cover assets copied into repository. Dillon PDF is transient research input outside the repository; same article reused, not a new source.",
+  "profiles": [
+    {"candidate_id": "WCD10-B03-S01", "publisher": "Instituto Cervantes", "format": "institutional_bibliography", "language": "es", "publication_year": "", "notes": "2015-08是更新时间。只用目标六作品年份，排除旁支混年。"},
+    {"candidate_id": "WCD10-B03-S02", "publisher": "Agencia Literaria Carmen Balcells", "format": "agency_work_catalog", "language": "en", "publication_year": "", "notes": "1960是作品年，不是网页年；限定邮轮情节。"},
+    {"candidate_id": "WCD10-B03-S03", "publisher": "Agencia Literaria Carmen Balcells", "format": "agency_work_catalog", "language": "ca/es", "publication_year": "", "notes": "页面菜单/主条目加泰语，简介西语；直接三城市，不晋升读者形式关系。"},
+    {"candidate_id": "WCD10-B03-S04", "publisher": "Agencia Literaria Carmen Balcells", "format": "agency_work_catalog", "language": "es", "publication_year": "", "notes": "只登记Libro1973和novela，不作独立文学解释。"},
+    {"candidate_id": "WCD10-B03-S05", "publisher": "Penguin Random House Grupo Editorial / DEBOLSILLO", "format": "publisher_catalog", "language": "es", "publication_year": "", "isbn": "9788466331890", "notes": "ISBN识别2016现版，不替代作品1962；作者/用户总评不入事实。"},
+    {"candidate_id": "WCD10-B03-S06", "publisher": "Agencia Literaria Carmen Balcells", "format": "agency_work_catalog", "language": "en", "publication_year": "", "notes": "八篇合集1966，不与同名单篇合并；收录篇目不等于主题关系。"},
+    {"candidate_id": "WCD10-B03-S07", "publisher": "Agencia Literaria Carmen Balcells", "format": "agency_work_catalog", "language": "en", "publication_year": "", "notes": "1974八篇合集；目录推广不构成A级研究。"},
+    {"candidate_id": "WCD10-B03-S08", "publisher": "Penguin Random House / Alfaguara", "format": "publisher_catalog", "language": "es/en", "publication_year": "", "isbn": "9789505111930", "notes": "2024是现版发行日期；介绍中另有1964字样，与旧1959冲突，本批不采用该年。只补五篇目录，不改旧1959或下推单篇主题。"},
+    {"candidate_id": "WCD10-B03-S09", "publisher": "Anclajes / Universidad Nacional de La Pampa", "format": "journal_article", "language": "es", "publication_year": "2024", "page_count": "13", "persistent_id": "DOI 10.19137/anclajes-2024-2829", "reuse_existing_source": "SRC-0039", "related_existing_source": "SRC-0039", "disposition": "reuse", "notes": "复用既有A不改其format/local_asset_status等历史列；fresh PDF全文核对只补两单篇，131页年份回指不作首次发表。期刊公开提供PDF，临时文件不进入Git；PDF sha256与读取记录另留研究日志。"},
+    {"candidate_id": "WCD10-B03-S10", "publisher": "Instituto Cervantes", "format": "institutional_bibliography", "language": "es", "publication_year": "", "notes": "2015-08为更新时间，Guerra1958四项构成不下推所有扩编版。"},
+    {"candidate_id": "WCD10-B03-S11", "publisher": "Fondo de Cultura Económica", "format": "publisher_catalog", "language": "es", "publication_year": "", "isbn": "9786071683090", "notes": "2024仅现版；novela与哈瓦那情节直接支持，政治历史不确认为现实事件。"},
+    {"candidate_id": "WCD10-B03-S12", "publisher": "Agencia Literaria Carmen Balcells", "format": "agency_work_catalog", "language": "ca/es", "publication_year": "", "notes": "1974为作品年份；歌剧1773断言排除，不替代理网页纠错或生成事件关系。"},
+    {"candidate_id": "WCD10-B03-S13", "publisher": "Alianza Editorial", "format": "publisher_catalog", "language": "es", "publication_year": "", "isbn": "9788420683263", "notes": "2014/2021为列出的现版；只取虚构Primer Magistrado概述，不收现实原型关系。"},
+    {"candidate_id": "WCD10-B03-S14", "publisher": "Alianza Editorial", "format": "publisher_catalog", "language": "es", "publication_year": "", "isbn": "9788420676647", "notes": "2013/2021为现版；哥伦布/庇护九世仅小说梗概，不确认宗教现实事件。"},
+    {"candidate_id": "WCD10-B03-S15", "publisher": "Agencia Literaria Carmen Balcells", "format": "agency_work_catalog", "language": "en", "publication_year": "", "notes": "主条目Novel1979；不使用推广流派和旁支世纪标签。"},
+    {"candidate_id": "WCD10-B03-S16", "publisher": "Instituto Cervantes", "format": "institutional_bibliography", "language": "es", "publication_year": "", "notes": "2022-05为更新时间；La casa verde1966与代理1967不同，明确排除后者为首版。"},
+    {"candidate_id": "WCD10-B03-S17", "publisher": "Agencia Literaria Carmen Balcells", "format": "agency_work_catalog", "language": "en", "publication_year": "", "notes": "只用novel与叙事梗概；1967以及侧栏1962不准入首版事实。"},
+    {"candidate_id": "WCD10-B03-S18", "publisher": "Penguin Random House Grupo Editorial / Alfaguara", "format": "publisher_catalog", "language": "es", "publication_year": "", "isbn": "9788420432793", "notes": "2017为现版；旧1973保持，只用具体作品简介，不用通用作者简介错年。"},
+    {"candidate_id": "WCD10-B03-S19", "publisher": "Penguin Random House Grupo Editorial / DEBOLSILLO", "format": "publisher_catalog", "language": "es", "publication_year": "", "isbn": "9788490625675", "notes": "编辑简介直接publicada1977与双线剧情/利马；排除读者评论和旁支错年。"},
+    {"candidate_id": "WCD10-B03-S20", "publisher": "Agencia Literaria Carmen Balcells", "format": "agency_work_catalog", "language": "en", "publication_year": "", "notes": "1987是作品年；族群说书者仅文学人物叙述/想象，不登记民族事实。"},
+    {"candidate_id": "WCD10-B03-S21", "publisher": "Agencia Literaria Carmen Balcells", "format": "agency_work_catalog", "language": "en", "publication_year": "", "notes": "1984是作品年；虚构近未来秘鲁不确认现实革命事件。"},
+    {"candidate_id": "WCD10-B03-S22", "publisher": "Penguin Random House Grupo Editorial / Alfaguara", "format": "publisher_catalog", "language": "es", "publication_year": "", "isbn": "9789877383089", "notes": "1973为作品年，1969–1972写作不替代出版；只用编辑三角恋/革命行动/剪报概述。"}
+  ]
+}

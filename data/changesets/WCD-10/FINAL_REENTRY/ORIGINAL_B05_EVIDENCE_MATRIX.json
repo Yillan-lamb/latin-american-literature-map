@@ -1,0 +1,626 @@
+{
+  "task_id": "TASK-110",
+  "revision": "R3+F16+W03-DEFERRED-INTEGRATION-SUBSET",
+  "policy": "Active rows map to active candidate facts/relationship only. W03's four exact rows remain in W03_DEFERRED_CANDIDATE.json as DEFERRED_NOT_ADMITTED pending USER policy; no CREATED row is generated.",
+  "entries": [
+    {
+      "candidate_id": "WCD10-B05-F03",
+      "object_ref": "V1-ENT-0173",
+      "field": "genre_or_form",
+      "value": "长篇小说（政治小说）",
+      "source_refs": [
+        "WCD10-B05-S09",
+        "WCD10-B05-S05"
+      ],
+      "locators": [
+        "条目3553 Dublin Core Descripción+Etiquetas",
+        "PDF第2页引言、第3页书目、第4页Contes"
+      ],
+      "note": "existing_fact候选（R0保留/R1保留）"
+    },
+    {
+      "candidate_id": "WCD10-B05-F04",
+      "object_ref": "V1-ENT-0173",
+      "field": "one_sentence_summary",
+      "value": "据危地马拉圣卡洛斯大学人文学院虚拟图书馆介绍，这部政治与实验性并置的小说书写'总统先生'的决断如何左右他人命运，尤其'天使脸'米格尔·卡拉-德安赫尔。",
+      "source_refs": [
+        "WCD10-B05-S09"
+      ],
+      "locators": [
+        "条目3553 Dublin Core Descripción+Etiquetas"
+      ],
+      "note": "existing_fact候选（R0保留/R1保留）"
+    },
+    {
+      "candidate_id": "WCD10-B05-F06",
+      "object_ref": "V1-ENT-0174",
+      "field": "genre_or_form",
+      "value": "长篇小说",
+      "source_refs": [
+        "WCD10-B05-S06",
+        "WCD10-B05-S05"
+      ],
+      "locators": [
+        "条目9408 Resumen全段+书目字段",
+        "PDF第2页引言、第3页书目、第4页Contes"
+      ],
+      "note": "existing_fact候选（R0保留/R1保留）"
+    },
+    {
+      "candidate_id": "WCD10-B05-F07",
+      "object_ref": "V1-ENT-0174",
+      "field": "one_sentence_summary",
+      "value": "据危地马拉圣卡洛斯大学图书馆简介，小说以《波波尔·乌》'人由玉米所造'的玛雅神话为题旨，把日常事实与奇幻超自然相结，重写农民生活、其根源与新的历史境况。",
+      "source_refs": [
+        "WCD10-B05-S06"
+      ],
+      "locators": [
+        "条目9408 Resumen全段+书目字段"
+      ],
+      "note": "existing_fact候选（R0保留/R1保留）"
+    },
+    {
+      "candidate_id": "WCD10-B05-F08",
+      "object_ref": "V1-ENT-0175",
+      "field": "genre_or_form",
+      "value": "传说/短篇故事集（超现实主义实验笔法）",
+      "source_refs": [
+        "WCD10-B05-S11",
+        "WCD10-B05-S05"
+      ],
+      "locators": [
+        "条目3544 Dublin Core Descripción+Etiquetas",
+        "PDF第2页引言、第3页书目、第4页Contes"
+      ],
+      "note": "existing_fact候选（R0保留/R1保留）"
+    },
+    {
+      "candidate_id": "WCD10-B05-F09",
+      "object_ref": "V1-ENT-0175",
+      "field": "one_sentence_summary",
+      "value": "据危地马拉圣卡洛斯大学人文学院虚拟图书馆介绍，阿斯图里亚斯以更接近超现实主义的实验技法重写危地马拉民间传说。",
+      "source_refs": [
+        "WCD10-B05-S11"
+      ],
+      "locators": [
+        "条目3544 Dublin Core Descripción+Etiquetas"
+      ],
+      "note": "existing_fact候选（R0保留/R1保留）"
+    },
+    {
+      "candidate_id": "WCD10-B05-F10",
+      "object_ref": "V1-ENT-0176",
+      "field": "genre_or_form",
+      "value": "长篇小说（家族史诗）",
+      "source_refs": [
+        "WCD10-B05-S02"
+      ],
+      "locators": [
+        "/summary正文两段+主页©1985"
+      ],
+      "note": "existing_fact候选（R0保留/R1保留）"
+    },
+    {
+      "candidate_id": "WCD10-B05-F11",
+      "object_ref": "V1-ENT-0176",
+      "field": "one_sentence_summary",
+      "value": "据作者官方网站简介，特鲁埃瓦家族三代人的激情、斗争与秘密贯穿一个未具名拉美国家百年暴力变迁，最终危机使专横的家长与其外孙女在街垒两侧对峙。",
+      "source_refs": [
+        "WCD10-B05-S02"
+      ],
+      "locators": [
+        "/summary正文两段+主页©1985"
+      ],
+      "note": "existing_fact候选（R0保留/R1保留）"
+    },
+    {
+      "candidate_id": "WCD10-B05-F12",
+      "object_ref": "V1-ENT-0177",
+      "field": "genre_or_form",
+      "value": "长篇小说",
+      "source_refs": [
+        "WCD10-B05-S03"
+      ],
+      "locators": [
+        "/summary正文三段+主页©1987"
+      ],
+      "note": "existing_fact候选（R0保留/R1保留）"
+    },
+    {
+      "candidate_id": "WCD10-B05-F13",
+      "object_ref": "V1-ENT-0177",
+      "field": "one_sentence_summary",
+      "value": "据作者官方网站简介，在任意逮捕、突然失踪与即决处决横行的军事独裁国家，女记者伊雷内·贝尔特兰与地下抵抗组织摄影师弗朗西斯科·莱阿尔调查少女埃万赫利娜·兰基莱奥的神秘病例，揭出挑战政权的罪行。",
+      "source_refs": [
+        "WCD10-B05-S03"
+      ],
+      "locators": [
+        "/summary正文三段+主页©1987"
+      ],
+      "note": "existing_fact候选（R0保留/R1保留）"
+    },
+    {
+      "candidate_id": "WCD10-B05-F14",
+      "object_ref": "V1-ENT-0178",
+      "field": "genre_or_form",
+      "value": "长篇小说（流浪汉小说式自述）",
+      "source_refs": [
+        "WCD10-B05-S04"
+      ],
+      "locators": [
+        "/summary正文两段+主页©1988"
+      ],
+      "note": "existing_fact候选（R0保留/R1保留）"
+    },
+    {
+      "candidate_id": "WCD10-B05-F15",
+      "object_ref": "V1-ENT-0178",
+      "field": "one_sentence_summary",
+      "value": "据作者官方网站简介，叙述者伊娃·露娜以与生俱来的讲故事天赋自述一生：生于贫寒、早年失怙，从女仆走到独特的影响力，串起一个南美洲国家的众生相。",
+      "source_refs": [
+        "WCD10-B05-S04"
+      ],
+      "locators": [
+        "/summary正文两段+主页©1988"
+      ],
+      "note": "existing_fact候选（R0保留/R1保留）"
+    },
+    {
+      "candidate_id": "WCD10-B05-W01",
+      "object_ref": "WCD10-B05-W01",
+      "field": "first_publication_year",
+      "value": "1951",
+      "source_refs": [
+        "WCD10-B05-S07",
+        "WCD10-B05-S08"
+      ],
+      "locators": [
+        "Works in Spanish书目（诗歌/散文列表）",
+        "传略段落（¿Águila o sol?/Piedra/laberinto句）"
+      ],
+      "note": "R0保留 new_entity(¿Águila o sol?)嵌套事实；CREATED由created_source_refs表达"
+    },
+    {
+      "candidate_id": "WCD10-B05-W01",
+      "object_ref": "WCD10-B05-W01",
+      "field": "genre_or_form",
+      "value": "散文诗集（prose poems）",
+      "source_refs": [
+        "WCD10-B05-S08"
+      ],
+      "locators": [
+        "传略段落（¿Águila o sol?/Piedra/laberinto句）"
+      ],
+      "note": "R0保留 new_entity(¿Águila o sol?)嵌套事实；CREATED由created_source_refs表达"
+    },
+    {
+      "candidate_id": "WCD10-B05-W01",
+      "object_ref": "WCD10-B05-W01",
+      "field": "one_sentence_summary",
+      "value": "据美国诗人学会介绍，这个散文诗系列由画家鲁菲诺·塔马伊插图，是对墨西哥过去、现在与未来的幻象式测绘。",
+      "source_refs": [
+        "WCD10-B05-S08"
+      ],
+      "locators": [
+        "传略段落（¿Águila o sol?/Piedra/laberinto句）"
+      ],
+      "note": "R0保留 new_entity(¿Águila o sol?)嵌套事实；CREATED由created_source_refs表达"
+    },
+    {
+      "candidate_id": "WCD10-B05-W02",
+      "object_ref": "WCD10-B05-W02",
+      "field": "first_publication_year",
+      "value": "1969",
+      "source_refs": [
+        "WCD10-B05-S07",
+        "WCD10-B05-S12",
+        "WCD10-B05-S13",
+        "WCD10-B05-S19"
+      ],
+      "locators": [
+        "Works in Spanish书目（诗歌/散文列表）",
+        "自传正文（India段）+自传书目（Libertad/Ladera/mono/estación条目）",
+        "Mortiz目录第16条（Ladera este 1969）",
+        "结构化字段（Mortiz 1969）+正文（三部构成句/除Cuento de dos jardines句/Intermitencias句）"
+      ],
+      "note": "R1修订/新增 new_entity(Ladera este)嵌套事实；CREATED由created_source_refs表达"
+    },
+    {
+      "candidate_id": "WCD10-B05-W02",
+      "object_ref": "WCD10-B05-W02",
+      "field": "genre_or_form",
+      "value": "诗集（1962-1968，印度时期）",
+      "source_refs": [
+        "WCD10-B05-S12",
+        "WCD10-B05-S19"
+      ],
+      "locators": [
+        "自传正文（India段）+自传书目（Libertad/Ladera/mono/estación条目）",
+        "结构化字段（Mortiz 1969）+正文（三部构成句/除Cuento de dos jardines句/Intermitencias句）"
+      ],
+      "note": "R1修订/新增 new_entity(Ladera este)嵌套事实；CREATED由created_source_refs表达"
+    },
+    {
+      "candidate_id": "WCD10-B05-W02",
+      "object_ref": "WCD10-B05-W02",
+      "field": "one_sentence_summary",
+      "value": "据ELEM专文，诗集分三部分：题名部分收五十首诗，《Hacia el comienzo》十五首，另收1967年曾单独出版的长诗《Blanco》；除《Cuento de dos jardines》外，各诗写于阿富汗、锡兰与印度，可读作诗人面对东方的纪行，'Intermitencias del Oeste'四诗则记入墨西哥与法国的学生运动。",
+      "source_refs": [
+        "WCD10-B05-S19"
+      ],
+      "locators": [
+        "结构化字段（Mortiz 1969）+正文（三部构成句/除Cuento de dos jardines句/Intermitencias句）"
+      ],
+      "note": "R1修订/新增 new_entity(Ladera este)嵌套事实；CREATED由created_source_refs表达"
+    },
+    {
+      "candidate_id": "WCD10-B05-W02",
+      "object_ref": "WCD10-B05-W02",
+      "field": "bibliographic_note",
+      "value": "ELEM记初版Joaquín Mortiz（Las Dos Orillas丛书）1969年，印数3,150册，帕斯附东方术语注释；与诺贝尔书目页、Mortiz出版目录一致。",
+      "source_refs": [
+        "WCD10-B05-S13",
+        "WCD10-B05-S19"
+      ],
+      "locators": [
+        "Mortiz目录第16条（Ladera este 1969）",
+        "结构化字段（Mortiz 1969）+正文（三部构成句/除Cuento de dos jardines句/Intermitencias句）"
+      ],
+      "note": "R1修订/新增 new_entity(Ladera este)嵌套事实；CREATED由created_source_refs表达"
+    },
+    {
+      "candidate_id": "WCD10-B05-W05",
+      "object_ref": "WCD10-B05-W05",
+      "field": "first_publication_year",
+      "value": "1989",
+      "source_refs": [
+        "WCD10-B05-S01"
+      ],
+      "locators": [
+        "timeline条目1989/1994/1999/2002（西语出版）"
+      ],
+      "note": "R0保留 new_entity(Cuentos de Eva Luna)嵌套事实；CREATED由created_source_refs表达"
+    },
+    {
+      "candidate_id": "WCD10-B05-W05",
+      "object_ref": "WCD10-B05-W05",
+      "field": "genre_or_form",
+      "value": "短篇小说集",
+      "source_refs": [
+        "WCD10-B05-S14"
+      ],
+      "locators": [
+        "/summary正文+主页©1991"
+      ],
+      "note": "R0保留 new_entity(Cuentos de Eva Luna)嵌套事实；CREATED由created_source_refs表达"
+    },
+    {
+      "candidate_id": "WCD10-B05-W05",
+      "object_ref": "WCD10-B05-W05",
+      "field": "one_sentence_summary",
+      "value": "据作者官方网站简介，伊娃·露娜应恋人罗尔夫·卡莱'讲一个从未对人讲过的故事'之请讲述二十三则故事，爱情、复仇、乡愁、反讽诸般情感俱在其中。",
+      "source_refs": [
+        "WCD10-B05-S14"
+      ],
+      "locators": [
+        "/summary正文+主页©1991"
+      ],
+      "note": "R0保留 new_entity(Cuentos de Eva Luna)嵌套事实；CREATED由created_source_refs表达"
+    },
+    {
+      "candidate_id": "WCD10-B05-W05",
+      "object_ref": "WCD10-B05-W05",
+      "field": "bibliographic_note",
+      "value": "官网时间线记西语版1989年出版、作品页记英译首版©1991；两版本年份分列，不以英译年代替。",
+      "source_refs": [
+        "WCD10-B05-S01",
+        "WCD10-B05-S14"
+      ],
+      "locators": [
+        "timeline条目1989/1994/1999/2002（西语出版）",
+        "/summary正文+主页©1991"
+      ],
+      "note": "R0保留 new_entity(Cuentos de Eva Luna)嵌套事实；CREATED由created_source_refs表达"
+    },
+    {
+      "candidate_id": "WCD10-B05-W06",
+      "object_ref": "WCD10-B05-W06",
+      "field": "first_publication_year",
+      "value": "1994",
+      "source_refs": [
+        "WCD10-B05-S01"
+      ],
+      "locators": [
+        "timeline条目1989/1994/1999/2002（西语出版）"
+      ],
+      "note": "R0保留 new_entity(Paula)嵌套事实；CREATED由created_source_refs表达"
+    },
+    {
+      "candidate_id": "WCD10-B05-W06",
+      "object_ref": "WCD10-B05-W06",
+      "field": "genre_or_form",
+      "value": "回忆录",
+      "source_refs": [
+        "WCD10-B05-S15"
+      ],
+      "locators": [
+        "/summary三段+主页©1995"
+      ],
+      "note": "R0保留 new_entity(Paula)嵌套事实；CREATED由created_source_refs表达"
+    },
+    {
+      "candidate_id": "WCD10-B05-W06",
+      "object_ref": "WCD10-B05-W06",
+      "field": "one_sentence_summary",
+      "value": "据作者官方网站简介，1991年12月女儿宝拉重病陷入昏迷后，阿连德在数月陪护中为失去意识的女儿写下家族故事，最终写成这部坦露生死的回忆录。",
+      "source_refs": [
+        "WCD10-B05-S15"
+      ],
+      "locators": [
+        "/summary三段+主页©1995"
+      ],
+      "note": "R0保留 new_entity(Paula)嵌套事实；CREATED由created_source_refs表达"
+    },
+    {
+      "candidate_id": "WCD10-B05-W06",
+      "object_ref": "WCD10-B05-W06",
+      "field": "bibliographic_note",
+      "value": "官网时间线记西语版1994年（与德语、荷兰语版同年）、作品页记英译首版©1995。",
+      "source_refs": [
+        "WCD10-B05-S01",
+        "WCD10-B05-S15"
+      ],
+      "locators": [
+        "timeline条目1989/1994/1999/2002（西语出版）",
+        "/summary三段+主页©1995"
+      ],
+      "note": "R0保留 new_entity(Paula)嵌套事实；CREATED由created_source_refs表达"
+    },
+    {
+      "candidate_id": "WCD10-B05-W07",
+      "object_ref": "WCD10-B05-W07",
+      "field": "first_publication_year",
+      "value": "1999",
+      "source_refs": [
+        "WCD10-B05-S01"
+      ],
+      "locators": [
+        "timeline条目1989/1994/1999/2002（西语出版）"
+      ],
+      "note": "R0保留 new_entity(Hija de la fortuna)嵌套事实；CREATED由created_source_refs表达"
+    },
+    {
+      "candidate_id": "WCD10-B05-W07",
+      "object_ref": "WCD10-B05-W07",
+      "field": "genre_or_form",
+      "value": "长篇小说",
+      "source_refs": [
+        "WCD10-B05-S16"
+      ],
+      "locators": [
+        "/summary三段（Valparaíso句）+主页©1999"
+      ],
+      "note": "R0保留 new_entity(Hija de la fortuna)嵌套事实；CREATED由created_source_refs表达"
+    },
+    {
+      "candidate_id": "WCD10-B05-W07",
+      "object_ref": "WCD10-B05-W07",
+      "field": "one_sentence_summary",
+      "value": "据作者官方网站简介，孤儿伊莉莎·萨默斯在智利瓦尔帕莱索的英国侨民家庭长大，与青年华金·安德烈塔相恋；1849年淘金热起，她在华人医生陶奇恩相助下藏身船舱北上旧金山寻人，并在新世界重塑自己的命运。",
+      "source_refs": [
+        "WCD10-B05-S16"
+      ],
+      "locators": [
+        "/summary三段（Valparaíso句）+主页©1999"
+      ],
+      "note": "R0保留 new_entity(Hija de la fortuna)嵌套事实；CREATED由created_source_refs表达"
+    },
+    {
+      "candidate_id": "WCD10-B05-W07",
+      "object_ref": "WCD10-B05-W07",
+      "field": "bibliographic_note",
+      "value": "官网时间线记西语版1999年出版、同年稍晚出英译；作品页记英译首版©1999。",
+      "source_refs": [
+        "WCD10-B05-S01",
+        "WCD10-B05-S16"
+      ],
+      "locators": [
+        "timeline条目1989/1994/1999/2002（西语出版）",
+        "/summary三段（Valparaíso句）+主页©1999"
+      ],
+      "note": "R0保留 new_entity(Hija de la fortuna)嵌套事实；CREATED由created_source_refs表达"
+    },
+    {
+      "candidate_id": "WCD10-B05-W08",
+      "object_ref": "WCD10-B05-W08",
+      "field": "first_publication_year",
+      "value": "2002",
+      "source_refs": [
+        "WCD10-B05-S01"
+      ],
+      "locators": [
+        "timeline条目1989/1994/1999/2002（西语出版）"
+      ],
+      "note": "R0保留 new_entity(La ciudad de las bestias)嵌套事实；CREATED由created_source_refs表达"
+    },
+    {
+      "candidate_id": "WCD10-B05-W08",
+      "object_ref": "WCD10-B05-W08",
+      "field": "genre_or_form",
+      "value": "青少年小说（三部曲首部）",
+      "source_refs": [
+        "WCD10-B05-S17"
+      ],
+      "locators": [
+        "/summary正文+主页©2002"
+      ],
+      "note": "R0保留 new_entity(La ciudad de las bestias)嵌套事实；CREATED由created_source_refs表达"
+    },
+    {
+      "candidate_id": "WCD10-B05-W08",
+      "object_ref": "WCD10-B05-W08",
+      "field": "one_sentence_summary",
+      "value": "据作者官方网站简介，十五岁的亚历山大·科尔德因母亲病重被送往随《国际地理》杂志远征亚马逊的无畏祖母身边，与向导之女娜迪亚一同深入雨林，寻找传说中的'野兽'并发现雨林与人性的隐秘世界。",
+      "source_refs": [
+        "WCD10-B05-S17"
+      ],
+      "locators": [
+        "/summary正文+主页©2002"
+      ],
+      "note": "R0保留 new_entity(La ciudad de las bestias)嵌套事实；CREATED由created_source_refs表达"
+    },
+    {
+      "candidate_id": "WCD10-B05-W08",
+      "object_ref": "WCD10-B05-W08",
+      "field": "bibliographic_note",
+      "value": "官网时间线记西语版2002年出版、作品页记英译首版©2002；三部曲续卷El reino del dragón de oro、El bosque de los pigmeos见时间线2003/2005条目，本批未建对象。",
+      "source_refs": [
+        "WCD10-B05-S01",
+        "WCD10-B05-S17"
+      ],
+      "locators": [
+        "timeline条目1989/1994/1999/2002（西语出版）",
+        "/summary正文+主页©2002"
+      ],
+      "note": "R0保留 new_entity(La ciudad de las bestias)嵌套事实；CREATED由created_source_refs表达"
+    },
+    {
+      "candidate_id": "WCD10-B05-W09",
+      "object_ref": "WCD10-B05-W09",
+      "field": "first_publication_year",
+      "value": "1949",
+      "source_refs": [
+        "WCD10-B05-S07",
+        "WCD10-B05-S20"
+      ],
+      "locators": [
+        "Works in Spanish书目（诗歌/散文列表）",
+        "结构化字段（FCE 1960）+Biografía节（1949/Tezontle/1100册句）+五版本叙述+1953返墨/El cántaro roto 1955/Piedra 1957晚出句[232-238]"
+      ],
+      "note": "R2修订 new_entity(Libertad bajo palabra)嵌套事实；CREATED由created_source_refs表达"
+    },
+    {
+      "candidate_id": "WCD10-B05-W09",
+      "object_ref": "WCD10-B05-W09",
+      "field": "genre_or_form",
+      "value": "诗集（1949-1990跨版本演进作品）",
+      "source_refs": [
+        "WCD10-B05-S20"
+      ],
+      "locators": [
+        "结构化字段（FCE 1960）+Biografía节（1949/Tezontle/1100册句）+五版本叙述+1953返墨/El cántaro roto 1955/Piedra 1957晚出句[232-238]"
+      ],
+      "note": "R2修订 new_entity(Libertad bajo palabra)嵌套事实；CREATED由created_source_refs表达"
+    },
+    {
+      "candidate_id": "WCD10-B05-W09",
+      "object_ref": "WCD10-B05-W09",
+      "field": "one_sentence_summary",
+      "value": "据ELEM专文，1949年初版收九十首诗；帕斯1953年重返墨西哥时构成此书的大部分诗篇已经写成，而《El cántaro roto》（1955）与《太阳石》（1957）等名篇当时尚未写出、系其后完成并在后续重编版中收入。ELEM 对后续重编作品及 1990 年定本的讨论涉及爱情、语言、与自然相呼应的爱欲、城市、作为社会见证的记忆与对时间的反思。",
+      "source_refs": [
+        "WCD10-B05-S20"
+      ],
+      "locators": [
+        "结构化字段（FCE 1960）+Biografía节（1949/Tezontle/1100册句）+五版本叙述+1953返墨/El cántaro roto 1955/Piedra 1957晚出句[232-238]"
+      ],
+      "note": "R3窄修订 new_entity(Libertad bajo palabra)嵌套事实；CREATED由created_source_refs表达"
+    },
+    {
+      "candidate_id": "WCD10-B05-W09",
+      "object_ref": "WCD10-B05-W09",
+      "field": "bibliographic_note",
+      "value": "ELEM记五版本：1949年初版90首（FCE，Tezontle丛书，印1,100册）；1960年obra poética（1935-1957）扩至225首（初拟题Todavía）；1968年三版删四十余首；1979年补回部分；1990年定本207首分五节。《El cántaro roto》（1955）与《Piedra de sol》（1957）系初版之后写出，仅见于后续重编版，不属1949初版内容。ELEM页内以1960为'首版'的字段/导语与传记节1949表述并存，候选锚1949并留差异记录。",
+      "source_refs": [
+        "WCD10-B05-S20"
+      ],
+      "locators": [
+        "结构化字段（FCE 1960）+Biografía节（1949/Tezontle/1100册句）+五版本叙述+1953返墨/El cántaro roto 1955/Piedra 1957晚出句[232-238]"
+      ],
+      "note": "R2修订 new_entity(Libertad bajo palabra)嵌套事实；CREATED由created_source_refs表达"
+    },
+    {
+      "candidate_id": "WCD10-B05-W10",
+      "object_ref": "WCD10-B05-W10",
+      "field": "first_publication_year",
+      "value": "1958",
+      "source_refs": [
+        "WCD10-B05-S07",
+        "WCD10-B05-S12",
+        "WCD10-B05-S21"
+      ],
+      "locators": [
+        "Works in Spanish书目（诗歌/散文列表）",
+        "自传正文（India段）+自传书目（Libertad/Ladera/mono/estación条目）",
+        "结构化字段+正文：主题两段标contraportada 1958、九诗清单标contraportada 2013"
+      ],
+      "note": "R2修订 new_entity(La estación violenta)嵌套事实；CREATED由created_source_refs表达"
+    },
+    {
+      "candidate_id": "WCD10-B05-W10",
+      "object_ref": "WCD10-B05-W10",
+      "field": "genre_or_form",
+      "value": "诗集",
+      "source_refs": [
+        "WCD10-B05-S21"
+      ],
+      "locators": [
+        "结构化字段+正文：主题两段标contraportada 1958、九诗清单标contraportada 2013"
+      ],
+      "note": "R2修订 new_entity(La estación violenta)嵌套事实；CREATED由created_source_refs表达"
+    },
+    {
+      "candidate_id": "WCD10-B05-W10",
+      "object_ref": "WCD10-B05-W10",
+      "field": "one_sentence_summary",
+      "value": "据ELEM作品页（转初版封底文字），诗集汇集帕斯面对历史、城市、风景与同侪社群的诗作，为人的尊严作证；贯穿全书的主导主题是时间——既是个人的也是历史的。",
+      "source_refs": [
+        "WCD10-B05-S21"
+      ],
+      "locators": [
+        "结构化字段+正文：主题两段标contraportada 1958、九诗清单标contraportada 2013"
+      ],
+      "note": "R2修订 new_entity(La estación violenta)嵌套事实；CREATED由created_source_refs表达"
+    },
+    {
+      "candidate_id": "WCD10-B05-W10",
+      "object_ref": "WCD10-B05-W10",
+      "field": "bibliographic_note",
+      "value": "初版FCE丛书Letras Mexicanas第42种（1958）。ELEM所引主题描述两段出自1958年版封底（页标注'Esta contraportada corresponde a la edición de 1958'）；九诗清单（'Himno entre ruinas''Máscaras del alba''Fuente''Repaso nocturno''Mutra''¿No hay salida?''El río''El cántaro roto''Piedra de sol'）出自2013年版封底（页标注'contraportada…edición de 2013'），未独立核证其与1958年初版目录逐项相同。后作为一节收入Libertad bajo palabra重编版（1990定本五节之一）。",
+      "source_refs": [
+        "WCD10-B05-S21",
+        "WCD10-B05-S20"
+      ],
+      "locators": [
+        "结构化字段+正文：主题两段标contraportada 1958、九诗清单标contraportada 2013",
+        "结构化字段（FCE 1960）+Biografía节（1949/Tezontle/1100册句）+五版本叙述+1953返墨/El cántaro roto 1955/Piedra 1957晚出句[232-238]"
+      ],
+      "note": "R2修订 new_entity(La estación violenta)嵌套事实；CREATED由created_source_refs表达"
+    },
+    {
+      "candidate_id": "WCD10-B05-R01",
+      "object_ref": "WCD10-B05-W07 --SET_IN--> V1-ENT-0123",
+      "field": "relation",
+      "value": "《幸运之女》开篇于智利瓦尔帕莱索的英国侨民殖民地，主人公在该城成长后主体情节移往加州。",
+      "source_refs": [
+        "WCD10-B05-S16"
+      ],
+      "locators": [
+        "/summary三段（Valparaíso句）+主页©1999"
+      ],
+      "note": "R1边界措辞（二轮有条件接受，维持）"
+    },
+    {
+      "candidate_id": "WCD10-B05-F16",
+      "object_ref": "V1-ENT-0154",
+      "field": "bibliographic_note",
+      "value": "首版：墨西哥城 Cuadernos Americanos，1950；Fondo de Cultura Económica 版，1959。",
+      "source_refs": [
+        "WCD10-B05-S23"
+      ],
+      "locators": [
+        "结构化字段：PRIMERA EDICIÓN=Ciudad de México, Cuadernos Americanos, 1950；OTRAS EDICIONES：Fondo de Cultura Económica，1959。"
+      ],
+      "note": "FCT-0309追加式更正候选；独立Reviewer已核支持。旧行与错误source links保持未改，留待后续历史证据清理；不声称链接已修好或结构化supersession。"
+    }
+  ]
+}

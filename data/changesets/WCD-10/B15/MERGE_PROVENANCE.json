@@ -1,0 +1,4852 @@
+{
+  "schema": "wcd10-b15-merge-provenance-1",
+  "task_id": "TASK-120",
+  "batch_id": "WCD-10-B15",
+  "status": "EXACT_MERGE_COMPLETE_MECHANICAL_VALIDATOR_PASS_PARENT_GATE_PENDING",
+  "baseline_database_sha256": "651f89688eeba195a4332ee6611cc51478c2c3aeae7fd5b2391069283a0cea92",
+  "root": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图",
+  "worktree": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/work/codex-worktrees/latin-american-literature-map-wcd10",
+  "fixed_author_order": [
+    "V1-ENT-0286",
+    "V1-ENT-0296",
+    "V1-ENT-0297"
+  ],
+  "inputs": [
+    {
+      "directory": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/project/internal/WCD_10_WORKSPACE/orchestration/wave-12/arlt/FINAL",
+      "candidate_sha256": "af6c05433fbec8f908a444b110ef9b0fc1a21ffe8c75c982ab69eef6982d5304",
+      "freeze_manifest": {
+        "files": {
+          "CANDIDATES.json": "af6c05433fbec8f908a444b110ef9b0fc1a21ffe8c75c982ab69eef6982d5304",
+          "COVERAGE.json": "c0a2fc107568de35e7d9bf3d39554eecc95e132595d3a725e30365faa6e1d4ba",
+          "DEDUP.json": "a552a68187fe5618bfc3247328861b1e4c97ffec9ba203fc626f1f547b043844",
+          "EVIDENCE_MATRIX.json": "c8e69c6a3d75cb3d742316507fd4ba0d47a1d711afa70e4263fce22b41630a42",
+          "HANDOFF.md": "63bc61483477b1db2210d9134813727545d144b8fe18ce7e343f88fd50e4d5d0",
+          "SELF_CHECK.json": "f7abdb9139572975b1381b7bac8e438bca6d604f675f7824e28cdd1feefc1d90",
+          "SOURCE_ACCESS_LOG.json": "fe3d9de170477717ba1870685fb10c7ebec0d34b5cddde40d05f9889b9cb0346",
+          "SOURCE_REGISTRATION.json": "dd7d7eb2de6fe9398c78be4eb3ff3ef10596bb3793e34c60a84cbc3bd469de4b",
+          "VALIDATOR_REPORT.json": "dcfe4affe7102752bcee9027a99b45fe972207c244598ca44406f85176275ab3",
+          "VALIDATOR_STDERR.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "VALIDATOR_STDOUT.json": "0b97a26a99f13c8fa2cf1c772bdb95f84c61b569db3d1ada8a18ef67ebc78ec5"
+        }
+      },
+      "original_freeze_manifest_path": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/project/internal/WCD_10_WORKSPACE/orchestration/wave-12/arlt/FINAL/SHA256SUMS.json",
+      "original_freeze_manifest_sha256": "a29e01aab68f88272089ec6ffe0b4e80ace6c0e9666c753d31e6b0bc207679ca",
+      "original_manifest_base": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/project/internal/WCD_10_WORKSPACE/orchestration/wave-12/arlt",
+      "original_all_hashes_verified": 21
+    },
+    {
+      "directory": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/project/internal/WCD_10_WORKSPACE/orchestration/wave-12/schweblin/R1",
+      "candidate_sha256": "206c890678733d28777a891a320563b4f3559f855009480da6718f38eb6025df",
+      "freeze_manifest": {
+        "files": {
+          "CANDIDATES.json": "206c890678733d28777a891a320563b4f3559f855009480da6718f38eb6025df",
+          "COVERAGE.json": "7e2e3301e71b5917279bd435799e6932cf5ed95dad1f17678b5cda0afbf45c10",
+          "DEDUP.json": "79992112b7c8d56888ba22d812f2be08c8deff9a1a8a982b4f4aceaed867565c",
+          "EVIDENCE_MATRIX.json": "2f6bbea43576123068ce452b9e7c886dcd3b9675e72a33cd7f5aa540d9815481",
+          "HANDOFF.md": "e4adc0b973a5ebf06445655eb57568f992b9fc158faeace4e76994596a708143",
+          "REVISION_NOTE.json": "1a86ae8f5b5133df7e5e07643d5b8c3b5a4bcf2c0603a7932668f9a58f4cea42",
+          "SELF_CHECK.json": "15f9bd322db2e0d0ef4e9d931a6f4f3257be93876f370447df50bf52d77848e7",
+          "SOURCE_ACCESS_LOG.json": "a5a0c1120cb73fe77b986eb068896b48dfbc4bdc936a52fda268fb7bc9241a67",
+          "SOURCE_REGISTRATION.json": "aebdf9d8af2185d5ae4f0db26c3ff52a4a3dbdf9c63796fbe24f7468f463fd19",
+          "STATUS.json": "1d739634a9217a5ab2801915c4ff521d0f8ecd5421b119db7754c138c2b7f30e",
+          "VALIDATOR_REPORT.json": "3b15a6935fe549be4c746d4fa74408a578122e6351541c4d9bd8abc70ee0238a",
+          "WORKER_PROMPT.md": "10409a33f13eea45bd6fd5f73ce8bcf5120eebbccbb47bca90df284db77cb2b9",
+          "build_package.py": "77c1546f65e27c8115e80e87efedcc0e1d305fe98e90701f06514b80eeabfa67"
+        }
+      },
+      "original_freeze_manifest_path": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/project/internal/WCD_10_WORKSPACE/orchestration/wave-12/schweblin/R1/SHA256SUMS.json",
+      "original_freeze_manifest_sha256": "9d31917624e1195f97c01c68ea588463e07ab98ac21a0886f3f041349636ac8b",
+      "original_manifest_base": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/project/internal/WCD_10_WORKSPACE/orchestration/wave-12/schweblin/R1",
+      "original_all_hashes_verified": 13
+    },
+    {
+      "directory": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/project/internal/WCD_10_WORKSPACE/orchestration/wave-12/enriquez/R1",
+      "candidate_sha256": "de8d2946d9e2b6c1feeb70ec0e13735905c05953a4d55c081dc2128c06546ba5",
+      "freeze_manifest": {
+        "files": {
+          "CANDIDATES.json": "de8d2946d9e2b6c1feeb70ec0e13735905c05953a4d55c081dc2128c06546ba5",
+          "COVERAGE.json": "59cb82aac3f9a1c0a1713fce8a41e75d6abf2878a537b8eafcaa888ab62937f8",
+          "SOURCE_REGISTRATION.json": "3aa669238de519b998fbdd53a2c01389780ebc488c279ab0c2bedfc496bf4cf3",
+          "EVIDENCE_MATRIX.json": "f692c6d7bf697e4d633c47b47d6d45da5504b89600afc64cee0920c02a21a1de",
+          "DEDUP.json": "70d8d629be7af2f09d3cbb8d405b7722036c34724ab31119c6365902f0cd2d1c",
+          "SOURCE_ACCESS_LOG.json": "7314229ffde3e4ca9682747c6ec7e3d5aa18fb2e30835fe7b9c598fdd3749caa",
+          "SELF_CHECK.json": "2eadc0ab94e344434f4f5b2f724c2be3e79981e517318856a6e4f0c63a640dfe",
+          "VALIDATOR_REPORT.json": "420f009a860b2267f2461c3a859bdc1986f47457224ab94ad51c4a8660c896f4",
+          "VALIDATOR_REPORT.stdout": "4bf9d39356e26042adeb0de27536774dcf38efea0508d27a2ccd8543a2ad5b03",
+          "VALIDATOR_REPORT.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "VALIDATOR_REPORT.exit": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+          "HANDOFF.md": "ce1055810e26f37efe1688908a2c4c3e7eee974e5593d25973c00296cf70350c",
+          "PARENT_REVIEW_REVISION.json": "39052ebd2c2498c0cb10e2b4f800d19361e6fb828dfb5ec19445054c91f5145f",
+          "self_check.py": "59eea60a5ccf15a4f78dfd95d58d91103a052b5c790f285b4fb651ebc0119a86"
+        }
+      },
+      "original_freeze_manifest_path": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/project/internal/WCD_10_WORKSPACE/orchestration/wave-12/enriquez/R1/SHA256SUMS.json",
+      "original_freeze_manifest_sha256": "d1b041183d20fb1532e552c76f63916c039a62f2a0be296221893cc0d2c101f4",
+      "original_manifest_base": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/project/internal/WCD_10_WORKSPACE/orchestration/wave-12/enriquez/R1",
+      "original_all_hashes_verified": 14
+    }
+  ],
+  "original_package_shapes": [
+    {
+      "author_id": "V1-ENT-0286",
+      "coverage_root_fields": {
+        "author_descriptions": {
+          "present": true,
+          "type": "dict"
+        },
+        "research_policy_by_author": {
+          "present": true,
+          "type": "dict"
+        },
+        "author_context": {
+          "present": true,
+          "type": "dict"
+        },
+        "author_scope_by_id": {
+          "present": true,
+          "type": "dict"
+        },
+        "author_results_by_id": {
+          "present": true,
+          "type": "dict"
+        },
+        "author_snapshots_by_id": {
+          "present": true,
+          "type": "dict"
+        },
+        "deferred_objects": {
+          "present": true,
+          "type": "list"
+        }
+      },
+      "registration_root_fields": {
+        "task_id": {
+          "present": true,
+          "type": "str"
+        },
+        "batch_id": {
+          "present": true,
+          "type": "str"
+        },
+        "baseline_database_sha256": {
+          "present": true,
+          "type": "str"
+        },
+        "accessed_at": {
+          "present": true,
+          "type": "str"
+        },
+        "verified_by": {
+          "present": true,
+          "type": "str"
+        },
+        "source_year_policy": {
+          "present": true,
+          "type": "str"
+        },
+        "public_content_scope": {
+          "present": true,
+          "type": "str"
+        },
+        "local_asset_status": {
+          "present": true,
+          "type": "str"
+        },
+        "copyright_boundary": {
+          "present": true,
+          "type": "str"
+        },
+        "profiles": {
+          "present": true,
+          "type": "list"
+        },
+        "author_policies": {
+          "present": true,
+          "type": "dict"
+        }
+      },
+      "matrix_root_fields": {
+        "task_id": {
+          "present": true,
+          "type": "str"
+        },
+        "batch_id": {
+          "present": true,
+          "type": "str"
+        },
+        "baseline_database_sha256": {
+          "present": true,
+          "type": "str"
+        },
+        "policy_by_author": {
+          "present": true,
+          "type": "dict"
+        },
+        "entries": {
+          "present": true,
+          "type": "list"
+        }
+      },
+      "coverage_original_rows": [
+        {
+          "object_ref": "V1-ENT-0286",
+          "entity": {
+            "entity_id": "V1-ENT-0286",
+            "entity_type": "author",
+            "name_zh": "罗贝托·阿尔特",
+            "original_name": "Roberto Arlt",
+            "canonical_status": "candidate",
+            "origin_count": "1",
+            "origin_refs": "CAND-B11-ARLT-AUTHOR",
+            "normalization_basis": "B11 Biblioteca Nacional and Biblioteca del Congreso profiles; Chinese display candidate",
+            "issue_codes": "NONE"
+          },
+          "bibliography": "作者身份对象；本批冻结事实逐值保全。",
+          "description": "既有作者卡不改写。",
+          "research_status": "catalog_only",
+          "research_refs": [
+            "SRC-0229",
+            "SRC-0230"
+          ],
+          "old_facts": [
+            {
+              "fact": {
+                "fact_id": "V1-FCT-0768",
+                "origin_material_id": "WEB-CE-B11",
+                "card_id": "V1-CARD-0174",
+                "subject_id": "V1-ENT-0286",
+                "fact_field": "birth_year",
+                "value_text": "1900",
+                "material_class": "fact",
+                "origin_id": "SRC-0229",
+                "confidence": "high",
+                "admission_status": "candidate_for_staging_review",
+                "usage_note": "Biblioteca Nacional records Arlt born in 1900."
+              },
+              "source_chain": [
+                {
+                  "fact_id": "V1-FCT-0768",
+                  "source_id": "SRC-0229",
+                  "source_title": "26 de abril de 1900: nace Roberto Arlt — Biblioteca Nacional"
+                }
+              ]
+            },
+            {
+              "fact": {
+                "fact_id": "V1-FCT-0769",
+                "origin_material_id": "WEB-CE-B11",
+                "card_id": "V1-CARD-0174",
+                "subject_id": "V1-ENT-0286",
+                "fact_field": "death_year",
+                "value_text": "1942",
+                "material_class": "fact",
+                "origin_id": "SRC-0230",
+                "confidence": "high",
+                "admission_status": "candidate_for_staging_review",
+                "usage_note": "Biblioteca del Congreso records Arlt died in 1942."
+              },
+              "source_chain": [
+                {
+                  "fact_id": "V1-FCT-0769",
+                  "source_id": "SRC-0230",
+                  "source_title": "Roberto Arlt — Biblioteca del Congreso de la Nación"
+                }
+              ]
+            },
+            {
+              "fact": {
+                "fact_id": "V1-FCT-0771",
+                "origin_material_id": "WEB-CE-B11",
+                "card_id": "V1-CARD-0174",
+                "subject_id": "V1-ENT-0286",
+                "fact_field": "country_or_region",
+                "value_text": "阿根廷",
+                "material_class": "fact",
+                "origin_id": "SRC-0229",
+                "confidence": "high",
+                "admission_status": "candidate_for_staging_review",
+                "usage_note": "Biblioteca Nacional presents Arlt as an Argentine writer."
+              },
+              "source_chain": [
+                {
+                  "fact_id": "V1-FCT-0771",
+                  "source_id": "SRC-0229",
+                  "source_title": "26 de abril de 1900: nace Roberto Arlt — Biblioteca Nacional"
+                }
+              ]
+            },
+            {
+              "fact": {
+                "fact_id": "V1-FCT-0772",
+                "origin_material_id": "WEB-CE-B11",
+                "card_id": "V1-CARD-0174",
+                "subject_id": "V1-ENT-0286",
+                "fact_field": "career_note",
+                "value_text": "小说家、记者与剧作家",
+                "material_class": "fact",
+                "origin_id": "SRC-0230",
+                "confidence": "high",
+                "admission_status": "candidate_for_staging_review",
+                "usage_note": "Biblioteca del Congreso records novels, journalism and theatre."
+              },
+              "source_chain": [
+                {
+                  "fact_id": "V1-FCT-0772",
+                  "source_id": "SRC-0230",
+                  "source_title": "Roberto Arlt — Biblioteca del Congreso de la Nación"
+                }
+              ]
+            },
+            {
+              "fact": {
+                "fact_id": "V1-FCT-0773",
+                "origin_material_id": "WEB-CE-B11",
+                "card_id": "V1-CARD-0174",
+                "subject_id": "V1-ENT-0286",
+                "fact_field": "literary_identity",
+                "value_text": "小说、新闻与戏剧作者",
+                "material_class": "fact",
+                "origin_id": "SRC-0230",
+                "confidence": "medium",
+                "admission_status": "candidate_for_staging_review",
+                "usage_note": "Description stays at forms listed in the institutional profile."
+              },
+              "source_chain": [
+                {
+                  "fact_id": "V1-FCT-0773",
+                  "source_id": "SRC-0230",
+                  "source_title": "Roberto Arlt — Biblioteca del Congreso de la Nación"
+                }
+              ]
+            }
+          ],
+          "cards": [
+            {
+              "card_id": "V1-CARD-0174",
+              "origin_card_id": "",
+              "subject_id": "V1-ENT-0286",
+              "card_type": "author",
+              "title_zh": "罗贝托·阿尔特",
+              "author_label": "罗贝托·阿尔特",
+              "original_title": "Roberto Arlt",
+              "country_or_region": "阿根廷",
+              "language": "es",
+              "period_bucket": "1900–1942",
+              "genre_or_form": "小说、新闻与戏剧",
+              "input_layer": "WEB-CE-B11",
+              "source_minimum_status": "meets",
+              "issue_code": "NONE",
+              "content_markdown": "### 罗贝托·阿尔特｜Roberto Arlt — 以国家图书馆与国会图书馆年表建立都市小说入口。"
+            }
+          ],
+          "card_facts": [
+            {
+              "card_id": "V1-CARD-0174",
+              "fact_id": "V1-FCT-0768",
+              "admission_status": "candidate_for_staging_review"
+            },
+            {
+              "card_id": "V1-CARD-0174",
+              "fact_id": "V1-FCT-0769",
+              "admission_status": "candidate_for_staging_review"
+            },
+            {
+              "card_id": "V1-CARD-0174",
+              "fact_id": "V1-FCT-0771",
+              "admission_status": "candidate_for_staging_review"
+            },
+            {
+              "card_id": "V1-CARD-0174",
+              "fact_id": "V1-FCT-0772",
+              "admission_status": "candidate_for_staging_review"
+            },
+            {
+              "card_id": "V1-CARD-0174",
+              "fact_id": "V1-FCT-0773",
+              "admission_status": "candidate_for_staging_review"
+            }
+          ],
+          "card_sources": [
+            {
+              "card_source_id": "V1-CS-0348",
+              "origin_matrix_id": "",
+              "card_id": "V1-CARD-0174",
+              "source_id": "SRC-0229",
+              "source_level": "B",
+              "source_role": "both",
+              "bibliographic_support": "yes",
+              "research_support": "yes",
+              "independent_source_key": "SRC-0229",
+              "usage_status": "used",
+              "issue_code": "NONE"
+            },
+            {
+              "card_source_id": "V1-CS-0349",
+              "origin_matrix_id": "",
+              "card_id": "V1-CARD-0174",
+              "source_id": "SRC-0230",
+              "source_level": "B",
+              "source_role": "both",
+              "bibliographic_support": "yes",
+              "research_support": "yes",
+              "independent_source_key": "SRC-0230",
+              "usage_status": "used",
+              "issue_code": "NONE"
+            }
+          ],
+          "relations": [
+            {
+              "relationship_id": "V1-REL-0218",
+              "origin_layer": "WEB-CE-B11",
+              "origin_relation_group_id": "CAND-B11-0218",
+              "subject_id": "V1-ENT-0286",
+              "relation_type": "CREATED",
+              "object_id": "V1-ENT-0293",
+              "description_zh": "罗贝托·阿尔特创作《七个疯子》（Los siete locos）",
+              "confidence": "high",
+              "review_status": "accepted",
+              "upstream_review_status": "WEB-CE-B11",
+              "evidence_count": "1",
+              "issue_code": "NONE"
+            },
+            {
+              "relationship_id": "V1-REL-0219",
+              "origin_layer": "WEB-CE-B11",
+              "origin_relation_group_id": "CAND-B11-0219",
+              "subject_id": "V1-ENT-0286",
+              "relation_type": "CREATED",
+              "object_id": "V1-ENT-0294",
+              "description_zh": "罗贝托·阿尔特创作《火焰喷射器》（Los lanzallamas）",
+              "confidence": "high",
+              "review_status": "accepted",
+              "upstream_review_status": "WEB-CE-B11",
+              "evidence_count": "1",
+              "issue_code": "NONE"
+            },
+            {
+              "relationship_id": "V1-REL-0220",
+              "origin_layer": "WEB-CE-B11",
+              "origin_relation_group_id": "CAND-B11-0220",
+              "subject_id": "V1-ENT-0286",
+              "relation_type": "CREATED",
+              "object_id": "V1-ENT-0295",
+              "description_zh": "罗贝托·阿尔特创作《疯玩具》（El juguete rabioso）",
+              "confidence": "high",
+              "review_status": "accepted",
+              "upstream_review_status": "WEB-CE-B11",
+              "evidence_count": "1",
+              "issue_code": "NONE"
+            },
+            {
+              "relationship_id": "V1-REL-0223",
+              "origin_layer": "WEB-CE-B11",
+              "origin_relation_group_id": "CAND-B11-0223",
+              "subject_id": "V1-ENT-0286",
+              "relation_type": "ASSOCIATED_WITH_PLACE",
+              "object_id": "V1-ENT-0001",
+              "description_zh": "罗贝托·阿尔特与阿根廷关联",
+              "confidence": "high",
+              "review_status": "accepted",
+              "upstream_review_status": "WEB-CE-B11",
+              "evidence_count": "1",
+              "issue_code": "NONE"
+            }
+          ],
+          "relationship_sources": [
+            {
+              "relationship_id": "V1-REL-0218",
+              "source_id": "SRC-0229"
+            },
+            {
+              "relationship_id": "V1-REL-0219",
+              "source_id": "SRC-0230"
+            },
+            {
+              "relationship_id": "V1-REL-0220",
+              "source_id": "SRC-0229"
+            },
+            {
+              "relationship_id": "V1-REL-0223",
+              "source_id": "SRC-0229"
+            }
+          ],
+          "relationship_evidence": [
+            {
+              "evidence_id": "V1-EV-0243",
+              "relationship_id": "V1-REL-0218",
+              "origin_evidence_id": "CAND-B11-0218",
+              "source_id": "SRC-0229",
+              "source_title": "26 de abril de 1900: nace Roberto Arlt — Biblioteca Nacional",
+              "locator": "",
+              "evidence_note": "Biblioteca Nacional page lists Los siete locos as an Arlt novel.",
+              "confidence": "high",
+              "evidence_status": "eligible_evidence",
+              "evidence_origin": "WEB-CE-B11"
+            },
+            {
+              "evidence_id": "V1-EV-0244",
+              "relationship_id": "V1-REL-0219",
+              "origin_evidence_id": "CAND-B11-0219",
+              "source_id": "SRC-0230",
+              "source_title": "Roberto Arlt — Biblioteca del Congreso de la Nación",
+              "locator": "",
+              "evidence_note": "Biblioteca del Congreso chronology lists Los lanzallamas under Arlt.",
+              "confidence": "high",
+              "evidence_status": "eligible_evidence",
+              "evidence_origin": "WEB-CE-B11"
+            },
+            {
+              "evidence_id": "V1-EV-0245",
+              "relationship_id": "V1-REL-0220",
+              "origin_evidence_id": "CAND-B11-0220",
+              "source_id": "SRC-0229",
+              "source_title": "26 de abril de 1900: nace Roberto Arlt — Biblioteca Nacional",
+              "locator": "",
+              "evidence_note": "Biblioteca Nacional page lists El juguete rabioso as Arlt first novel.",
+              "confidence": "high",
+              "evidence_status": "eligible_evidence",
+              "evidence_origin": "WEB-CE-B11"
+            },
+            {
+              "evidence_id": "V1-EV-0248",
+              "relationship_id": "V1-REL-0223",
+              "origin_evidence_id": "CAND-B11-0223",
+              "source_id": "SRC-0229",
+              "source_title": "26 de abril de 1900: nace Roberto Arlt — Biblioteca Nacional",
+              "locator": "",
+              "evidence_note": "Biblioteca Nacional presents Arlt as an Argentine writer.",
+              "confidence": "high",
+              "evidence_status": "eligible_evidence",
+              "evidence_origin": "WEB-CE-B11"
+            }
+          ],
+          "source_objects": [
+            {
+              "source_id": "SRC-0229",
+              "temporary_id": "B11-SRC-0229",
+              "title": "26 de abril de 1900: nace Roberto Arlt — Biblioteca Nacional",
+              "original_title": "26 de abril de 1900: nace Roberto Arlt",
+              "author_or_editor": "Biblioteca Nacional Mariano Moreno",
+              "translator": "",
+              "publisher": "Biblioteca Nacional Mariano Moreno",
+              "publication_year": "",
+              "isbn": "",
+              "format": "web_page",
+              "page_count": "",
+              "language": "es",
+              "source_level": "B",
+              "processing_status": "access_pass",
+              "source_task": "WEB-CE-B11",
+              "public_content_scope": "Arlt identity, 1900–1942, and 1926/1929/1931 novels",
+              "local_asset_status": "remote_only",
+              "persistent_id": "",
+              "canonical_url": "https://www.bn.gov.ar/noticias/26-de-abril-de-1900-nace-roberto-arlt"
+            },
+            {
+              "source_id": "SRC-0230",
+              "temporary_id": "B11-SRC-0230",
+              "title": "Roberto Arlt — Biblioteca del Congreso de la Nación",
+              "original_title": "Roberto Arlt",
+              "author_or_editor": "Biblioteca del Congreso de la Nación Argentina",
+              "translator": "",
+              "publisher": "Biblioteca del Congreso de la Nación",
+              "publication_year": "",
+              "isbn": "",
+              "format": "web_page",
+              "page_count": "",
+              "language": "es",
+              "source_level": "B",
+              "processing_status": "access_pass",
+              "source_task": "WEB-CE-B11",
+              "public_content_scope": "Arlt identity, publication chronology, and novel sequence",
+              "local_asset_status": "remote_only",
+              "persistent_id": "",
+              "canonical_url": "https://bcn.gob.ar/roberto-arlt"
+            }
+          ],
+          "holds": [],
+          "relation_hold_evidence": [],
+          "gaps": [],
+          "fresh_review": "作者既有来源链按冻结SQLite完整快照。",
+          "remaining": "作品目录仍为本批有来源边界的增补，不主张全集覆盖。"
+        },
+        {
+          "object_ref": "V1-ENT-0293",
+          "entity": {
+            "entity_id": "V1-ENT-0293",
+            "entity_type": "work",
+            "name_zh": "《七个疯子》",
+            "original_name": "Los siete locos",
+            "canonical_status": "candidate",
+            "origin_count": "1",
+            "origin_refs": "CAND-B11-ARLT-W01",
+            "normalization_basis": "B11 institutional bibliography; work layer",
+            "issue_codes": "NONE"
+          },
+          "bibliography": "既有对象，冻结B15 SQLite逐值快照。",
+          "description": "本批仅复核身份与完整来源闭包，不重复创建。",
+          "research_status": "catalog_only",
+          "research_refs": [
+            "SRC-0229",
+            "SRC-0230"
+          ],
+          "old_facts": [
+            {
+              "fact": {
+                "fact_id": "V1-FCT-0774",
+                "origin_material_id": "WEB-CE-B11",
+                "card_id": "V1-CARD-0181",
+                "subject_id": "V1-ENT-0293",
+                "fact_field": "entity_layer",
+                "value_text": "work",
+                "material_class": "metadata",
+                "origin_id": "SRC-0230",
+                "confidence": "high",
+                "admission_status": "candidate_for_staging_review",
+                "usage_note": "Biblioteca del Congreso identifies Los siete locos as a novel."
+              },
+              "source_chain": [
+                {
+                  "fact_id": "V1-FCT-0774",
+                  "source_id": "SRC-0230",
+                  "source_title": "Roberto Arlt — Biblioteca del Congreso de la Nación"
+                }
+              ]
+            },
+            {
+              "fact": {
+                "fact_id": "V1-FCT-0775",
+                "origin_material_id": "WEB-CE-B11",
+                "card_id": "V1-CARD-0181",
+                "subject_id": "V1-ENT-0293",
+                "fact_field": "first_publication_year",
+                "value_text": "1929",
+                "material_class": "bibliographic",
+                "origin_id": "SRC-0230",
+                "confidence": "high",
+                "admission_status": "candidate_for_staging_review",
+                "usage_note": "Biblioteca del Congreso records publication in 1929."
+              },
+              "source_chain": [
+                {
+                  "fact_id": "V1-FCT-0775",
+                  "source_id": "SRC-0230",
+                  "source_title": "Roberto Arlt — Biblioteca del Congreso de la Nación"
+                }
+              ]
+            },
+            {
+              "fact": {
+                "fact_id": "V1-FCT-0776",
+                "origin_material_id": "WEB-CE-B11",
+                "card_id": "V1-CARD-0181",
+                "subject_id": "V1-ENT-0293",
+                "fact_field": "genre_or_form",
+                "value_text": "小说",
+                "material_class": "bibliographic",
+                "origin_id": "SRC-0229",
+                "confidence": "high",
+                "admission_status": "candidate_for_staging_review",
+                "usage_note": "Biblioteca Nacional describes the title as a novel."
+              },
+              "source_chain": [
+                {
+                  "fact_id": "V1-FCT-0776",
+                  "source_id": "SRC-0229",
+                  "source_title": "26 de abril de 1900: nace Roberto Arlt — Biblioteca Nacional"
+                }
+              ]
+            },
+            {
+              "fact": {
+                "fact_id": "V1-FCT-0777",
+                "origin_material_id": "WEB-CE-B11",
+                "card_id": "V1-CARD-0181",
+                "subject_id": "V1-ENT-0293",
+                "fact_field": "bibliographic_note",
+                "value_text": "机构资料支持题名、小说层级与 1929 年；未推断故事地点。",
+                "material_class": "bibliographic",
+                "origin_id": "SRC-0230",
+                "confidence": "high",
+                "admission_status": "candidate_for_staging_review",
+                "usage_note": "Sources support only the stated bibliographic fields."
+              },
+              "source_chain": [
+                {
+                  "fact_id": "V1-FCT-0777",
+                  "source_id": "SRC-0230",
+                  "source_title": "Roberto Arlt — Biblioteca del Congreso de la Nación"
+                }
+              ]
+            }
+          ],
+          "cards": [
+            {
+              "card_id": "V1-CARD-0181",
+              "origin_card_id": "",
+              "subject_id": "V1-ENT-0293",
+              "card_type": "work",
+              "title_zh": "《七个疯子》",
+              "author_label": "罗贝托·阿尔特",
+              "original_title": "Los siete locos",
+              "country_or_region": "阿根廷",
+              "language": "es",
+              "period_bucket": "1929",
+              "genre_or_form": "小说",
+              "input_layer": "WEB-CE-B11",
+              "source_minimum_status": "meets",
+              "issue_code": "NONE",
+              "content_markdown": "### 《七个疯子》｜Los siete locos — 国家图书馆与国会图书馆资料记录 1929 年。"
+            }
+          ],
+          "card_facts": [
+            {
+              "card_id": "V1-CARD-0181",
+              "fact_id": "V1-FCT-0774",
+              "admission_status": "candidate_for_staging_review"
+            },
+            {
+              "card_id": "V1-CARD-0181",
+              "fact_id": "V1-FCT-0775",
+              "admission_status": "candidate_for_staging_review"
+            },
+            {
+              "card_id": "V1-CARD-0181",
+              "fact_id": "V1-FCT-0776",
+              "admission_status": "candidate_for_staging_review"
+            },
+            {
+              "card_id": "V1-CARD-0181",
+              "fact_id": "V1-FCT-0777",
+              "admission_status": "candidate_for_staging_review"
+            }
+          ],
+          "card_sources": [
+            {
+              "card_source_id": "V1-CS-0362",
+              "origin_matrix_id": "",
+              "card_id": "V1-CARD-0181",
+              "source_id": "SRC-0229",
+              "source_level": "B",
+              "source_role": "both",
+              "bibliographic_support": "yes",
+              "research_support": "yes",
+              "independent_source_key": "SRC-0229",
+              "usage_status": "used",
+              "issue_code": "NONE"
+            },
+            {
+              "card_source_id": "V1-CS-0363",
+              "origin_matrix_id": "",
+              "card_id": "V1-CARD-0181",
+              "source_id": "SRC-0230",
+              "source_level": "B",
+              "source_role": "both",
+              "bibliographic_support": "yes",
+              "research_support": "yes",
+              "independent_source_key": "SRC-0230",
+              "usage_status": "used",
+              "issue_code": "NONE"
+            }
+          ],
+          "relations": [
+            {
+              "relationship_id": "V1-REL-0218",
+              "origin_layer": "WEB-CE-B11",
+              "origin_relation_group_id": "CAND-B11-0218",
+              "subject_id": "V1-ENT-0286",
+              "relation_type": "CREATED",
+              "object_id": "V1-ENT-0293",
+              "description_zh": "罗贝托·阿尔特创作《七个疯子》（Los siete locos）",
+              "confidence": "high",
+              "review_status": "accepted",
+              "upstream_review_status": "WEB-CE-B11",
+              "evidence_count": "1",
+              "issue_code": "NONE"
+            }
+          ],
+          "relationship_sources": [
+            {
+              "relationship_id": "V1-REL-0218",
+              "source_id": "SRC-0229"
+            }
+          ],
+          "relationship_evidence": [
+            {
+              "evidence_id": "V1-EV-0243",
+              "relationship_id": "V1-REL-0218",
+              "origin_evidence_id": "CAND-B11-0218",
+              "source_id": "SRC-0229",
+              "source_title": "26 de abril de 1900: nace Roberto Arlt — Biblioteca Nacional",
+              "locator": "",
+              "evidence_note": "Biblioteca Nacional page lists Los siete locos as an Arlt novel.",
+              "confidence": "high",
+              "evidence_status": "eligible_evidence",
+              "evidence_origin": "WEB-CE-B11"
+            }
+          ],
+          "source_objects": [
+            {
+              "source_id": "SRC-0229",
+              "temporary_id": "B11-SRC-0229",
+              "title": "26 de abril de 1900: nace Roberto Arlt — Biblioteca Nacional",
+              "original_title": "26 de abril de 1900: nace Roberto Arlt",
+              "author_or_editor": "Biblioteca Nacional Mariano Moreno",
+              "translator": "",
+              "publisher": "Biblioteca Nacional Mariano Moreno",
+              "publication_year": "",
+              "isbn": "",
+              "format": "web_page",
+              "page_count": "",
+              "language": "es",
+              "source_level": "B",
+              "processing_status": "access_pass",
+              "source_task": "WEB-CE-B11",
+              "public_content_scope": "Arlt identity, 1900–1942, and 1926/1929/1931 novels",
+              "local_asset_status": "remote_only",
+              "persistent_id": "",
+              "canonical_url": "https://www.bn.gov.ar/noticias/26-de-abril-de-1900-nace-roberto-arlt"
+            },
+            {
+              "source_id": "SRC-0230",
+              "temporary_id": "B11-SRC-0230",
+              "title": "Roberto Arlt — Biblioteca del Congreso de la Nación",
+              "original_title": "Roberto Arlt",
+              "author_or_editor": "Biblioteca del Congreso de la Nación Argentina",
+              "translator": "",
+              "publisher": "Biblioteca del Congreso de la Nación",
+              "publication_year": "",
+              "isbn": "",
+              "format": "web_page",
+              "page_count": "",
+              "language": "es",
+              "source_level": "B",
+              "processing_status": "access_pass",
+              "source_task": "WEB-CE-B11",
+              "public_content_scope": "Arlt identity, publication chronology, and novel sequence",
+              "local_asset_status": "remote_only",
+              "persistent_id": "",
+              "canonical_url": "https://bcn.gob.ar/roberto-arlt"
+            }
+          ],
+          "holds": [],
+          "relation_hold_evidence": [],
+          "gaps": [],
+          "fresh_review": "既有对象及完整研究闭包按B15冻结SQLite读取。",
+          "remaining": "既有对象，非本批新增。"
+        },
+        {
+          "object_ref": "V1-ENT-0294",
+          "entity": {
+            "entity_id": "V1-ENT-0294",
+            "entity_type": "work",
+            "name_zh": "《火焰喷射器》",
+            "original_name": "Los lanzallamas",
+            "canonical_status": "candidate",
+            "origin_count": "1",
+            "origin_refs": "CAND-B11-ARLT-W02",
+            "normalization_basis": "B11 institutional bibliography; work layer",
+            "issue_codes": "NONE"
+          },
+          "bibliography": "既有对象，冻结B15 SQLite逐值快照。",
+          "description": "本批仅复核身份与完整来源闭包，不重复创建。",
+          "research_status": "catalog_only",
+          "research_refs": [
+            "SRC-0229",
+            "SRC-0230"
+          ],
+          "old_facts": [
+            {
+              "fact": {
+                "fact_id": "V1-FCT-0778",
+                "origin_material_id": "WEB-CE-B11",
+                "card_id": "V1-CARD-0182",
+                "subject_id": "V1-ENT-0294",
+                "fact_field": "entity_layer",
+                "value_text": "work",
+                "material_class": "metadata",
+                "origin_id": "SRC-0230",
+                "confidence": "high",
+                "admission_status": "candidate_for_staging_review",
+                "usage_note": "Biblioteca del Congreso identifies Los lanzallamas as the second part of the novel sequence."
+              },
+              "source_chain": [
+                {
+                  "fact_id": "V1-FCT-0778",
+                  "source_id": "SRC-0230",
+                  "source_title": "Roberto Arlt — Biblioteca del Congreso de la Nación"
+                }
+              ]
+            },
+            {
+              "fact": {
+                "fact_id": "V1-FCT-0779",
+                "origin_material_id": "WEB-CE-B11",
+                "card_id": "V1-CARD-0182",
+                "subject_id": "V1-ENT-0294",
+                "fact_field": "first_publication_year",
+                "value_text": "1931",
+                "material_class": "bibliographic",
+                "origin_id": "SRC-0230",
+                "confidence": "high",
+                "admission_status": "candidate_for_staging_review",
+                "usage_note": "Biblioteca del Congreso records publication in 1931."
+              },
+              "source_chain": [
+                {
+                  "fact_id": "V1-FCT-0779",
+                  "source_id": "SRC-0230",
+                  "source_title": "Roberto Arlt — Biblioteca del Congreso de la Nación"
+                }
+              ]
+            },
+            {
+              "fact": {
+                "fact_id": "V1-FCT-0780",
+                "origin_material_id": "WEB-CE-B11",
+                "card_id": "V1-CARD-0182",
+                "subject_id": "V1-ENT-0294",
+                "fact_field": "genre_or_form",
+                "value_text": "小说",
+                "material_class": "bibliographic",
+                "origin_id": "SRC-0229",
+                "confidence": "high",
+                "admission_status": "candidate_for_staging_review",
+                "usage_note": "Biblioteca Nacional presents the title among Arlt novels."
+              },
+              "source_chain": [
+                {
+                  "fact_id": "V1-FCT-0780",
+                  "source_id": "SRC-0229",
+                  "source_title": "26 de abril de 1900: nace Roberto Arlt — Biblioteca Nacional"
+                }
+              ]
+            },
+            {
+              "fact": {
+                "fact_id": "V1-FCT-0781",
+                "origin_material_id": "WEB-CE-B11",
+                "card_id": "V1-CARD-0182",
+                "subject_id": "V1-ENT-0294",
+                "fact_field": "bibliographic_note",
+                "value_text": "国会图书馆明确说明其为《七个疯子》的后续部分，并记录 1931 年。",
+                "material_class": "bibliographic",
+                "origin_id": "SRC-0230",
+                "confidence": "high",
+                "admission_status": "candidate_for_staging_review",
+                "usage_note": "Source supports sequel description and year only."
+              },
+              "source_chain": [
+                {
+                  "fact_id": "V1-FCT-0781",
+                  "source_id": "SRC-0230",
+                  "source_title": "Roberto Arlt — Biblioteca del Congreso de la Nación"
+                }
+              ]
+            }
+          ],
+          "cards": [
+            {
+              "card_id": "V1-CARD-0182",
+              "origin_card_id": "",
+              "subject_id": "V1-ENT-0294",
+              "card_type": "work",
+              "title_zh": "《火焰喷射器》",
+              "author_label": "罗贝托·阿尔特",
+              "original_title": "Los lanzallamas",
+              "country_or_region": "阿根廷",
+              "language": "es",
+              "period_bucket": "1931",
+              "genre_or_form": "小说",
+              "input_layer": "WEB-CE-B11",
+              "source_minimum_status": "meets",
+              "issue_code": "NONE",
+              "content_markdown": "### 《火焰喷射器》｜Los lanzallamas — 国会图书馆资料记录 1931 年及续作层级。"
+            }
+          ],
+          "card_facts": [
+            {
+              "card_id": "V1-CARD-0182",
+              "fact_id": "V1-FCT-0778",
+              "admission_status": "candidate_for_staging_review"
+            },
+            {
+              "card_id": "V1-CARD-0182",
+              "fact_id": "V1-FCT-0779",
+              "admission_status": "candidate_for_staging_review"
+            },
+            {
+              "card_id": "V1-CARD-0182",
+              "fact_id": "V1-FCT-0780",
+              "admission_status": "candidate_for_staging_review"
+            },
+            {
+              "card_id": "V1-CARD-0182",
+              "fact_id": "V1-FCT-0781",
+              "admission_status": "candidate_for_staging_review"
+            }
+          ],
+          "card_sources": [
+            {
+              "card_source_id": "V1-CS-0364",
+              "origin_matrix_id": "",
+              "card_id": "V1-CARD-0182",
+              "source_id": "SRC-0229",
+              "source_level": "B",
+              "source_role": "both",
+              "bibliographic_support": "yes",
+              "research_support": "yes",
+              "independent_source_key": "SRC-0229",
+              "usage_status": "used",
+              "issue_code": "NONE"
+            },
+            {
+              "card_source_id": "V1-CS-0365",
+              "origin_matrix_id": "",
+              "card_id": "V1-CARD-0182",
+              "source_id": "SRC-0230",
+              "source_level": "B",
+              "source_role": "both",
+              "bibliographic_support": "yes",
+              "research_support": "yes",
+              "independent_source_key": "SRC-0230",
+              "usage_status": "used",
+              "issue_code": "NONE"
+            }
+          ],
+          "relations": [
+            {
+              "relationship_id": "V1-REL-0219",
+              "origin_layer": "WEB-CE-B11",
+              "origin_relation_group_id": "CAND-B11-0219",
+              "subject_id": "V1-ENT-0286",
+              "relation_type": "CREATED",
+              "object_id": "V1-ENT-0294",
+              "description_zh": "罗贝托·阿尔特创作《火焰喷射器》（Los lanzallamas）",
+              "confidence": "high",
+              "review_status": "accepted",
+              "upstream_review_status": "WEB-CE-B11",
+              "evidence_count": "1",
+              "issue_code": "NONE"
+            }
+          ],
+          "relationship_sources": [
+            {
+              "relationship_id": "V1-REL-0219",
+              "source_id": "SRC-0230"
+            }
+          ],
+          "relationship_evidence": [
+            {
+              "evidence_id": "V1-EV-0244",
+              "relationship_id": "V1-REL-0219",
+              "origin_evidence_id": "CAND-B11-0219",
+              "source_id": "SRC-0230",
+              "source_title": "Roberto Arlt — Biblioteca del Congreso de la Nación",
+              "locator": "",
+              "evidence_note": "Biblioteca del Congreso chronology lists Los lanzallamas under Arlt.",
+              "confidence": "high",
+              "evidence_status": "eligible_evidence",
+              "evidence_origin": "WEB-CE-B11"
+            }
+          ],
+          "source_objects": [
+            {
+              "source_id": "SRC-0229",
+              "temporary_id": "B11-SRC-0229",
+              "title": "26 de abril de 1900: nace Roberto Arlt — Biblioteca Nacional",
+              "original_title": "26 de abril de 1900: nace Roberto Arlt",
+              "author_or_editor": "Biblioteca Nacional Mariano Moreno",
+              "translator": "",
+              "publisher": "Biblioteca Nacional Mariano Moreno",
+              "publication_year": "",
+              "isbn": "",
+              "format": "web_page",
+              "page_count": "",
+              "language": "es",
+              "source_level": "B",
+              "processing_status": "access_pass",
+              "source_task": "WEB-CE-B11",
+              "public_content_scope": "Arlt identity, 1900–1942, and 1926/1929/1931 novels",
+              "local_asset_status": "remote_only",
+              "persistent_id": "",
+              "canonical_url": "https://www.bn.gov.ar/noticias/26-de-abril-de-1900-nace-roberto-arlt"
+            },
+            {
+              "source_id": "SRC-0230",
+              "temporary_id": "B11-SRC-0230",
+              "title": "Roberto Arlt — Biblioteca del Congreso de la Nación",
+              "original_title": "Roberto Arlt",
+              "author_or_editor": "Biblioteca del Congreso de la Nación Argentina",
+              "translator": "",
+              "publisher": "Biblioteca del Congreso de la Nación",
+              "publication_year": "",
+              "isbn": "",
+              "format": "web_page",
+              "page_count": "",
+              "language": "es",
+              "source_level": "B",
+              "processing_status": "access_pass",
+              "source_task": "WEB-CE-B11",
+              "public_content_scope": "Arlt identity, publication chronology, and novel sequence",
+              "local_asset_status": "remote_only",
+              "persistent_id": "",
+              "canonical_url": "https://bcn.gob.ar/roberto-arlt"
+            }
+          ],
+          "holds": [],
+          "relation_hold_evidence": [],
+          "gaps": [],
+          "fresh_review": "既有对象及完整研究闭包按B15冻结SQLite读取。",
+          "remaining": "既有对象，非本批新增。"
+        },
+        {
+          "object_ref": "V1-ENT-0295",
+          "entity": {
+            "entity_id": "V1-ENT-0295",
+            "entity_type": "work",
+            "name_zh": "《疯玩具》",
+            "original_name": "El juguete rabioso",
+            "canonical_status": "candidate",
+            "origin_count": "1",
+            "origin_refs": "CAND-B11-ARLT-W03",
+            "normalization_basis": "B11 institutional bibliography; work layer",
+            "issue_codes": "NONE"
+          },
+          "bibliography": "既有对象，冻结B15 SQLite逐值快照。",
+          "description": "本批仅复核身份与完整来源闭包，不重复创建。",
+          "research_status": "catalog_only",
+          "research_refs": [
+            "SRC-0229",
+            "SRC-0230"
+          ],
+          "old_facts": [
+            {
+              "fact": {
+                "fact_id": "V1-FCT-0782",
+                "origin_material_id": "WEB-CE-B11",
+                "card_id": "V1-CARD-0183",
+                "subject_id": "V1-ENT-0295",
+                "fact_field": "entity_layer",
+                "value_text": "work",
+                "material_class": "metadata",
+                "origin_id": "SRC-0229",
+                "confidence": "high",
+                "admission_status": "candidate_for_staging_review",
+                "usage_note": "Biblioteca Nacional identifies El juguete rabioso as Arlt first novel."
+              },
+              "source_chain": [
+                {
+                  "fact_id": "V1-FCT-0782",
+                  "source_id": "SRC-0229",
+                  "source_title": "26 de abril de 1900: nace Roberto Arlt — Biblioteca Nacional"
+                }
+              ]
+            },
+            {
+              "fact": {
+                "fact_id": "V1-FCT-0783",
+                "origin_material_id": "WEB-CE-B11",
+                "card_id": "V1-CARD-0183",
+                "subject_id": "V1-ENT-0295",
+                "fact_field": "first_publication_year",
+                "value_text": "1926",
+                "material_class": "bibliographic",
+                "origin_id": "SRC-0229",
+                "confidence": "high",
+                "admission_status": "candidate_for_staging_review",
+                "usage_note": "Biblioteca Nacional records publication in 1926."
+              },
+              "source_chain": [
+                {
+                  "fact_id": "V1-FCT-0783",
+                  "source_id": "SRC-0229",
+                  "source_title": "26 de abril de 1900: nace Roberto Arlt — Biblioteca Nacional"
+                }
+              ]
+            },
+            {
+              "fact": {
+                "fact_id": "V1-FCT-0784",
+                "origin_material_id": "WEB-CE-B11",
+                "card_id": "V1-CARD-0183",
+                "subject_id": "V1-ENT-0295",
+                "fact_field": "genre_or_form",
+                "value_text": "小说",
+                "material_class": "bibliographic",
+                "origin_id": "SRC-0229",
+                "confidence": "high",
+                "admission_status": "candidate_for_staging_review",
+                "usage_note": "Biblioteca Nacional calls it Arlt first novel."
+              },
+              "source_chain": [
+                {
+                  "fact_id": "V1-FCT-0784",
+                  "source_id": "SRC-0229",
+                  "source_title": "26 de abril de 1900: nace Roberto Arlt — Biblioteca Nacional"
+                }
+              ]
+            },
+            {
+              "fact": {
+                "fact_id": "V1-FCT-0785",
+                "origin_material_id": "WEB-CE-B11",
+                "card_id": "V1-CARD-0183",
+                "subject_id": "V1-ENT-0295",
+                "fact_field": "bibliographic_note",
+                "value_text": "机构资料支持题名、小说层级与 1926 年；未推断故事地点。",
+                "material_class": "bibliographic",
+                "origin_id": "SRC-0230",
+                "confidence": "high",
+                "admission_status": "candidate_for_staging_review",
+                "usage_note": "Sources support only the stated bibliographic fields."
+              },
+              "source_chain": [
+                {
+                  "fact_id": "V1-FCT-0785",
+                  "source_id": "SRC-0230",
+                  "source_title": "Roberto Arlt — Biblioteca del Congreso de la Nación"
+                }
+              ]
+            }
+          ],
+          "cards": [
+            {
+              "card_id": "V1-CARD-0183",
+              "origin_card_id": "",
+              "subject_id": "V1-ENT-0295",
+              "card_type": "work",
+              "title_zh": "《疯玩具》",
+              "author_label": "罗贝托·阿尔特",
+              "original_title": "El juguete rabioso",
+              "country_or_region": "阿根廷",
+              "language": "es",
+              "period_bucket": "1926",
+              "genre_or_form": "小说",
+              "input_layer": "WEB-CE-B11",
+              "source_minimum_status": "meets",
+              "issue_code": "NONE",
+              "content_markdown": "### 《疯玩具》｜El juguete rabioso — 国家图书馆与国会图书馆资料记录 1926 年。"
+            }
+          ],
+          "card_facts": [
+            {
+              "card_id": "V1-CARD-0183",
+              "fact_id": "V1-FCT-0782",
+              "admission_status": "candidate_for_staging_review"
+            },
+            {
+              "card_id": "V1-CARD-0183",
+              "fact_id": "V1-FCT-0783",
+              "admission_status": "candidate_for_staging_review"
+            },
+            {
+              "card_id": "V1-CARD-0183",
+              "fact_id": "V1-FCT-0784",
+              "admission_status": "candidate_for_staging_review"
+            },
+            {
+              "card_id": "V1-CARD-0183",
+              "fact_id": "V1-FCT-0785",
+              "admission_status": "candidate_for_staging_review"
+            }
+          ],
+          "card_sources": [
+            {
+              "card_source_id": "V1-CS-0366",
+              "origin_matrix_id": "",
+              "card_id": "V1-CARD-0183",
+              "source_id": "SRC-0229",
+              "source_level": "B",
+              "source_role": "both",
+              "bibliographic_support": "yes",
+              "research_support": "yes",
+              "independent_source_key": "SRC-0229",
+              "usage_status": "used",
+              "issue_code": "NONE"
+            },
+            {
+              "card_source_id": "V1-CS-0367",
+              "origin_matrix_id": "",
+              "card_id": "V1-CARD-0183",
+              "source_id": "SRC-0230",
+              "source_level": "B",
+              "source_role": "both",
+              "bibliographic_support": "yes",
+              "research_support": "yes",
+              "independent_source_key": "SRC-0230",
+              "usage_status": "used",
+              "issue_code": "NONE"
+            }
+          ],
+          "relations": [
+            {
+              "relationship_id": "V1-REL-0220",
+              "origin_layer": "WEB-CE-B11",
+              "origin_relation_group_id": "CAND-B11-0220",
+              "subject_id": "V1-ENT-0286",
+              "relation_type": "CREATED",
+              "object_id": "V1-ENT-0295",
+              "description_zh": "罗贝托·阿尔特创作《疯玩具》（El juguete rabioso）",
+              "confidence": "high",
+              "review_status": "accepted",
+              "upstream_review_status": "WEB-CE-B11",
+              "evidence_count": "1",
+              "issue_code": "NONE"
+            }
+          ],
+          "relationship_sources": [
+            {
+              "relationship_id": "V1-REL-0220",
+              "source_id": "SRC-0229"
+            }
+          ],
+          "relationship_evidence": [
+            {
+              "evidence_id": "V1-EV-0245",
+              "relationship_id": "V1-REL-0220",
+              "origin_evidence_id": "CAND-B11-0220",
+              "source_id": "SRC-0229",
+              "source_title": "26 de abril de 1900: nace Roberto Arlt — Biblioteca Nacional",
+              "locator": "",
+              "evidence_note": "Biblioteca Nacional page lists El juguete rabioso as Arlt first novel.",
+              "confidence": "high",
+              "evidence_status": "eligible_evidence",
+              "evidence_origin": "WEB-CE-B11"
+            }
+          ],
+          "source_objects": [
+            {
+              "source_id": "SRC-0229",
+              "temporary_id": "B11-SRC-0229",
+              "title": "26 de abril de 1900: nace Roberto Arlt — Biblioteca Nacional",
+              "original_title": "26 de abril de 1900: nace Roberto Arlt",
+              "author_or_editor": "Biblioteca Nacional Mariano Moreno",
+              "translator": "",
+              "publisher": "Biblioteca Nacional Mariano Moreno",
+              "publication_year": "",
+              "isbn": "",
+              "format": "web_page",
+              "page_count": "",
+              "language": "es",
+              "source_level": "B",
+              "processing_status": "access_pass",
+              "source_task": "WEB-CE-B11",
+              "public_content_scope": "Arlt identity, 1900–1942, and 1926/1929/1931 novels",
+              "local_asset_status": "remote_only",
+              "persistent_id": "",
+              "canonical_url": "https://www.bn.gov.ar/noticias/26-de-abril-de-1900-nace-roberto-arlt"
+            },
+            {
+              "source_id": "SRC-0230",
+              "temporary_id": "B11-SRC-0230",
+              "title": "Roberto Arlt — Biblioteca del Congreso de la Nación",
+              "original_title": "Roberto Arlt",
+              "author_or_editor": "Biblioteca del Congreso de la Nación Argentina",
+              "translator": "",
+              "publisher": "Biblioteca del Congreso de la Nación",
+              "publication_year": "",
+              "isbn": "",
+              "format": "web_page",
+              "page_count": "",
+              "language": "es",
+              "source_level": "B",
+              "processing_status": "access_pass",
+              "source_task": "WEB-CE-B11",
+              "public_content_scope": "Arlt identity, publication chronology, and novel sequence",
+              "local_asset_status": "remote_only",
+              "persistent_id": "",
+              "canonical_url": "https://bcn.gob.ar/roberto-arlt"
+            }
+          ],
+          "holds": [],
+          "relation_hold_evidence": [],
+          "gaps": [],
+          "fresh_review": "既有对象及完整研究闭包按B15冻结SQLite读取。",
+          "remaining": "既有对象，非本批新增。"
+        },
+        {
+          "object_ref": "WCD10-B15-W001",
+          "entity": {
+            "entity_id": "WCD10-B15-W001",
+            "entity_type": "collection",
+            "name_zh": "《小驼背》",
+            "original_name": "El jorobadito",
+            "canonical_status": "candidate",
+            "origin_count": "1",
+            "origin_refs": "WCD10-B15-W001",
+            "normalization_basis": "冻结库未见该作品关联；可靠图书馆/大学文化机构书目直接列出作者与作品，补入重要作品目录。",
+            "issue_codes": "NONE"
+          },
+          "bibliography": "塞万提斯虚拟图书馆列出1933年的具体版本；年份按版本书目语义记录。",
+          "description": "阿尔特短篇小说集；塞万提斯虚拟图书馆书目列其1933年布宜诺斯艾利斯Anaconda版。",
+          "research_status": "catalog_only",
+          "research_refs": [
+            "WCD10-B15-S001",
+            "WCD10-B15-S002"
+          ],
+          "old_facts": [],
+          "cards": [],
+          "card_facts": [],
+          "card_sources": [],
+          "relations": [],
+          "relationship_sources": [],
+          "relationship_evidence": [],
+          "source_objects": [],
+          "holds": [],
+          "relation_hold_evidence": [],
+          "gaps": [],
+          "fresh_review": "父级语义与来源审核待完成。",
+          "remaining": "本候选不代表完整目录或学术覆盖。",
+          "source_author_id": "V1-ENT-0286",
+          "candidate_facts": [
+            {
+              "fact_candidate_id": "WCD10-B15-W001-F01",
+              "candidate_id": "WCD10-B15-W001-F01",
+              "field": "genre_or_form",
+              "value": "短篇小说集",
+              "source_refs": [
+                "WCD10-B15-S001",
+                "WCD10-B15-S002"
+              ]
+            },
+            {
+              "fact_candidate_id": "WCD10-B15-W001-F02",
+              "candidate_id": "WCD10-B15-W001-F02",
+              "field": "one_sentence_summary",
+              "value": "阿尔特短篇小说集；塞万提斯虚拟图书馆书目列其1933年布宜诺斯艾利斯Anaconda版。",
+              "source_refs": [
+                "WCD10-B15-S001",
+                "WCD10-B15-S002"
+              ]
+            },
+            {
+              "fact_candidate_id": "WCD10-B15-W001-F03",
+              "candidate_id": "WCD10-B15-W001-F03",
+              "field": "first_publication_year",
+              "value": "1933",
+              "source_refs": [
+                "WCD10-B15-S002"
+              ]
+            }
+          ]
+        },
+        {
+          "object_ref": "WCD10-B15-W002",
+          "entity": {
+            "entity_id": "WCD10-B15-W002",
+            "entity_type": "collection",
+            "name_zh": "《大猩猩饲养者》",
+            "original_name": "El criador de gorilas",
+            "canonical_status": "candidate",
+            "origin_count": "1",
+            "origin_refs": "WCD10-B15-W002",
+            "normalization_basis": "冻结库未见该作品关联；可靠图书馆/大学文化机构书目直接列出作者与作品，补入重要作品目录。",
+            "issue_codes": "NONE"
+          },
+          "bibliography": "塞万提斯虚拟图书馆列出1941年的具体版本；年份按版本书目语义记录。",
+          "description": "阿尔特短篇小说集；塞万提斯虚拟图书馆书目列其1941年圣地亚哥Zig-Zag版。",
+          "research_status": "catalog_only",
+          "research_refs": [
+            "WCD10-B15-S001",
+            "WCD10-B15-S002"
+          ],
+          "old_facts": [],
+          "cards": [],
+          "card_facts": [],
+          "card_sources": [],
+          "relations": [],
+          "relationship_sources": [],
+          "relationship_evidence": [],
+          "source_objects": [],
+          "holds": [],
+          "relation_hold_evidence": [],
+          "gaps": [],
+          "fresh_review": "父级语义与来源审核待完成。",
+          "remaining": "本候选不代表完整目录或学术覆盖。",
+          "source_author_id": "V1-ENT-0286",
+          "candidate_facts": [
+            {
+              "fact_candidate_id": "WCD10-B15-W002-F01",
+              "candidate_id": "WCD10-B15-W002-F01",
+              "field": "genre_or_form",
+              "value": "短篇小说集",
+              "source_refs": [
+                "WCD10-B15-S001",
+                "WCD10-B15-S002"
+              ]
+            },
+            {
+              "fact_candidate_id": "WCD10-B15-W002-F02",
+              "candidate_id": "WCD10-B15-W002-F02",
+              "field": "one_sentence_summary",
+              "value": "阿尔特短篇小说集；塞万提斯虚拟图书馆书目列其1941年圣地亚哥Zig-Zag版。",
+              "source_refs": [
+                "WCD10-B15-S001",
+                "WCD10-B15-S002"
+              ]
+            },
+            {
+              "fact_candidate_id": "WCD10-B15-W002-F03",
+              "candidate_id": "WCD10-B15-W002-F03",
+              "field": "first_publication_year",
+              "value": "1941",
+              "source_refs": [
+                "WCD10-B15-S002"
+              ]
+            }
+          ]
+        },
+        {
+          "object_ref": "WCD10-B15-W003",
+          "entity": {
+            "entity_id": "WCD10-B15-W003",
+            "entity_type": "work",
+            "name_zh": "《三亿》",
+            "original_name": "Trescientos millones",
+            "canonical_status": "candidate",
+            "origin_count": "1",
+            "origin_refs": "WCD10-B15-W003",
+            "normalization_basis": "冻结库未见该作品关联；可靠图书馆/大学文化机构书目直接列出作者与作品，补入重要作品目录。",
+            "issue_codes": "NONE"
+          },
+          "bibliography": "塞万提斯虚拟图书馆列出1932年的具体版本；年份按版本书目语义记录。",
+          "description": "阿根廷国会图书馆将其列为戏剧作品，并记载1932年在人民剧院首演。",
+          "research_status": "catalog_only",
+          "research_refs": [
+            "WCD10-B15-S001",
+            "WCD10-B15-S002"
+          ],
+          "old_facts": [],
+          "cards": [],
+          "card_facts": [],
+          "card_sources": [],
+          "relations": [],
+          "relationship_sources": [],
+          "relationship_evidence": [],
+          "source_objects": [],
+          "holds": [],
+          "relation_hold_evidence": [],
+          "gaps": [],
+          "fresh_review": "父级语义与来源审核待完成。",
+          "remaining": "本候选不代表完整目录或学术覆盖。",
+          "source_author_id": "V1-ENT-0286",
+          "candidate_facts": [
+            {
+              "fact_candidate_id": "WCD10-B15-W003-F01",
+              "candidate_id": "WCD10-B15-W003-F01",
+              "field": "genre_or_form",
+              "value": "戏剧",
+              "source_refs": [
+                "WCD10-B15-S001",
+                "WCD10-B15-S002"
+              ]
+            },
+            {
+              "fact_candidate_id": "WCD10-B15-W003-F02",
+              "candidate_id": "WCD10-B15-W003-F02",
+              "field": "one_sentence_summary",
+              "value": "阿根廷国会图书馆将其列为戏剧作品，并记载1932年在人民剧院首演。",
+              "source_refs": [
+                "WCD10-B15-S001",
+                "WCD10-B15-S002"
+              ]
+            },
+            {
+              "fact_candidate_id": "WCD10-B15-W003-F03",
+              "candidate_id": "WCD10-B15-W003-F03",
+              "field": "first_publication_year",
+              "value": "1932",
+              "source_refs": [
+                "WCD10-B15-S001",
+                "WCD10-B15-S002"
+              ]
+            }
+          ]
+        },
+        {
+          "object_ref": "WCD10-B15-W004",
+          "entity": {
+            "entity_id": "WCD10-B15-W004",
+            "entity_type": "work",
+            "name_zh": "《荒岛》",
+            "original_name": "La isla desierta",
+            "canonical_status": "candidate",
+            "origin_count": "1",
+            "origin_refs": "WCD10-B15-W004",
+            "normalization_basis": "冻结库未见该作品关联；可靠图书馆/大学文化机构书目直接列出作者与作品，补入重要作品目录。",
+            "issue_codes": "NONE"
+          },
+          "bibliography": "国会图书馆戏剧作品目录列1937年；Centro Virtual Cervantes书目记录1950年Futuro版及1965年EUDEBA版。现有依据分别描述作品列表年份与出版版本，故不据此断言首演或首版年份。",
+          "description": "阿根廷国会图书馆将其列为阿尔特戏剧作品；作者页面记其1937年。",
+          "research_status": "catalog_only",
+          "research_refs": [
+            "WCD10-B15-S001",
+            "WCD10-B15-S002"
+          ],
+          "old_facts": [],
+          "cards": [],
+          "card_facts": [],
+          "card_sources": [],
+          "relations": [],
+          "relationship_sources": [],
+          "relationship_evidence": [],
+          "source_objects": [],
+          "holds": [],
+          "relation_hold_evidence": [],
+          "gaps": [],
+          "fresh_review": "父级语义与来源审核待完成。",
+          "remaining": "本候选不代表完整目录或学术覆盖。",
+          "source_author_id": "V1-ENT-0286",
+          "candidate_facts": [
+            {
+              "fact_candidate_id": "WCD10-B15-W004-F01",
+              "candidate_id": "WCD10-B15-W004-F01",
+              "field": "genre_or_form",
+              "value": "戏剧",
+              "source_refs": [
+                "WCD10-B15-S001",
+                "WCD10-B15-S002"
+              ]
+            },
+            {
+              "fact_candidate_id": "WCD10-B15-W004-F02",
+              "candidate_id": "WCD10-B15-W004-F02",
+              "field": "one_sentence_summary",
+              "value": "阿根廷国会图书馆将其列为阿尔特戏剧作品；作者页面记其1937年。",
+              "source_refs": [
+                "WCD10-B15-S001",
+                "WCD10-B15-S002"
+              ]
+            },
+            {
+              "fact_candidate_id": "WCD10-B15-W004-F03",
+              "candidate_id": "WCD10-B15-W004-F03",
+              "field": "bibliographic_note",
+              "value": "国会图书馆戏剧作品目录列1937年；Centro Virtual Cervantes书目记录1950年Futuro版及1965年EUDEBA版。现有依据分别描述作品列表年份与出版版本，故不据此断言首演或首版年份。",
+              "source_refs": [
+                "WCD10-B15-S001",
+                "WCD10-B15-S002"
+              ]
+            }
+          ]
+        },
+        {
+          "object_ref": "WCD10-B15-W005",
+          "entity": {
+            "entity_id": "WCD10-B15-W005",
+            "entity_type": "work",
+            "name_zh": "《魔恋》",
+            "original_name": "El amor brujo",
+            "canonical_status": "candidate",
+            "origin_count": "1",
+            "origin_refs": "WCD10-B15-W005",
+            "normalization_basis": "阿根廷国会图书馆将其列为阿尔特最后一部小说并记1932年出版；CVC同时列出1932年版本，补入冻结库未见的主要小说。",
+            "issue_codes": "NONE"
+          },
+          "bibliography": "Biblioteca del Congreso de la Nación列为1932年出版的小说；CVC目录列Buenos Aires: Victoria 1932版本。",
+          "description": "阿根廷国会图书馆将《El amor brujo》列为阿尔特最后一部小说，并记载其于1932年出版。",
+          "research_status": "catalog_only",
+          "research_refs": [
+            "WCD10-B15-S001",
+            "WCD10-B15-S002"
+          ],
+          "old_facts": [],
+          "cards": [],
+          "card_facts": [],
+          "card_sources": [],
+          "relations": [],
+          "relationship_sources": [],
+          "relationship_evidence": [],
+          "source_objects": [],
+          "holds": [],
+          "relation_hold_evidence": [],
+          "gaps": [],
+          "fresh_review": "父级语义与来源审核待完成。",
+          "remaining": "本候选不代表完整目录或学术覆盖。",
+          "source_author_id": "V1-ENT-0286",
+          "candidate_facts": [
+            {
+              "fact_candidate_id": "WCD10-B15-W005-F01",
+              "candidate_id": "WCD10-B15-W005-F01",
+              "field": "genre_or_form",
+              "value": "小说",
+              "source_refs": [
+                "WCD10-B15-S001",
+                "WCD10-B15-S002"
+              ]
+            },
+            {
+              "fact_candidate_id": "WCD10-B15-W005-F02",
+              "candidate_id": "WCD10-B15-W005-F02",
+              "field": "one_sentence_summary",
+              "value": "阿根廷国会图书馆将《El amor brujo》列为阿尔特最后一部小说，并记载其于1932年出版。",
+              "source_refs": [
+                "WCD10-B15-S001"
+              ]
+            },
+            {
+              "fact_candidate_id": "WCD10-B15-W005-F03",
+              "candidate_id": "WCD10-B15-W005-F03",
+              "field": "first_publication_year",
+              "value": "1932",
+              "source_refs": [
+                "WCD10-B15-S001",
+                "WCD10-B15-S002"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": "V1-ENT-0296",
+      "coverage_root_fields": {
+        "author_descriptions": {
+          "present": true,
+          "type": "dict"
+        },
+        "research_policy_by_author": {
+          "present": true,
+          "type": "dict"
+        },
+        "author_context": {
+          "present": true,
+          "type": "list"
+        },
+        "author_scope_by_id": {
+          "present": true,
+          "type": "dict"
+        },
+        "author_results_by_id": {
+          "present": true,
+          "type": "dict"
+        },
+        "author_snapshots_by_id": {
+          "present": true,
+          "type": "dict"
+        },
+        "deferred_objects": {
+          "present": true,
+          "type": "list"
+        }
+      },
+      "registration_root_fields": {
+        "task_id": {
+          "present": true,
+          "type": "str"
+        },
+        "batch_id": {
+          "present": true,
+          "type": "str"
+        },
+        "baseline_database_sha256": {
+          "present": true,
+          "type": "str"
+        },
+        "accessed_at": {
+          "present": true,
+          "type": "str"
+        },
+        "verified_by": {
+          "present": true,
+          "type": "str"
+        },
+        "source_year_policy": {
+          "present": true,
+          "type": "str"
+        },
+        "public_content_scope": {
+          "present": true,
+          "type": "str"
+        },
+        "local_asset_status": {
+          "present": true,
+          "type": "str"
+        },
+        "copyright_boundary": {
+          "present": true,
+          "type": "str"
+        },
+        "profiles": {
+          "present": true,
+          "type": "list"
+        },
+        "author_policies": {
+          "present": true,
+          "type": "dict"
+        }
+      },
+      "matrix_root_fields": {
+        "task_id": {
+          "present": true,
+          "type": "str"
+        },
+        "batch_id": {
+          "present": true,
+          "type": "str"
+        },
+        "baseline_database_sha256": {
+          "present": true,
+          "type": "str"
+        },
+        "policy_by_author": {
+          "present": true,
+          "type": "dict"
+        },
+        "entries": {
+          "present": true,
+          "type": "list"
+        }
+      },
+      "coverage_original_rows": [
+        {
+          "object_ref": "V1-ENT-0299",
+          "entity": {
+            "entity_id": "V1-ENT-0299",
+            "entity_type": "work",
+            "name_zh": "《营救距离》",
+            "original_name": "Distancia de rescate",
+            "canonical_status": "candidate",
+            "origin_count": "1",
+            "origin_refs": "CAND-B12-SCHWEBLIN-W01",
+            "normalization_basis": "Published Chinese title supported by the People's Literature edition record; original title retained.",
+            "issue_codes": "NONE"
+          },
+          "bibliography": "冻结基库既有事实与事实来源链逐值保全；本批未改写。",
+          "description": "冻结基库卡片及全部card_facts逐值保全；本批未改写。",
+          "research_status": "catalog_only",
+          "research_refs": [
+            "SRC-0231",
+            "SRC-0234",
+            "SRC-0285"
+          ],
+          "old_facts": [
+            {
+              "fact": {
+                "fact_id": "V1-FCT-0795",
+                "origin_material_id": "WEB-CE-B12",
+                "card_id": "V1-CARD-0187",
+                "subject_id": "V1-ENT-0299",
+                "fact_field": "entity_layer",
+                "value_text": "work",
+                "material_class": "metadata",
+                "origin_id": "SRC-0234",
+                "confidence": "high",
+                "admission_status": "candidate_for_staging_review",
+                "usage_note": "PRH identifies Distancia de rescate as a novel/first novel."
+              },
+              "source_chain": [
+                {
+                  "fact_id": "V1-FCT-0795",
+                  "source_id": "SRC-0234",
+                  "source_title": "Distancia de rescate / Fever Dream"
+                }
+              ]
+            },
+            {
+              "fact": {
+                "fact_id": "V1-FCT-0796",
+                "origin_material_id": "WEB-CE-B12",
+                "card_id": "V1-CARD-0187",
+                "subject_id": "V1-ENT-0299",
+                "fact_field": "bibliographic_note",
+                "value_text": "版权页标注 ©2014（不等同于首版年份）",
+                "material_class": "bibliographic",
+                "origin_id": "SRC-0231",
+                "confidence": "medium",
+                "admission_status": "candidate_for_staging_review",
+                "usage_note": "Argentina Ministry PDF marks ©2014; no first-publication claim is made."
+              },
+              "source_chain": [
+                {
+                  "fact_id": "V1-FCT-0796",
+                  "source_id": "SRC-0231",
+                  "source_title": "Perdiendo velocidad — Historias x leer"
+                }
+              ]
+            },
+            {
+              "fact": {
+                "fact_id": "V1-FCT-0797",
+                "origin_material_id": "WEB-CE-B12",
+                "card_id": "V1-CARD-0187",
+                "subject_id": "V1-ENT-0299",
+                "fact_field": "genre_or_form",
+                "value_text": "小说",
+                "material_class": "bibliographic",
+                "origin_id": "SRC-0234",
+                "confidence": "high",
+                "admission_status": "candidate_for_staging_review",
+                "usage_note": "PRH describes the book as Schweblin's first novel."
+              },
+              "source_chain": [
+                {
+                  "fact_id": "V1-FCT-0797",
+                  "source_id": "SRC-0234",
+                  "source_title": "Distancia de rescate / Fever Dream"
+                }
+              ]
+            }
+          ],
+          "cards": [
+            {
+              "card_id": "V1-CARD-0187",
+              "origin_card_id": "",
+              "subject_id": "V1-ENT-0299",
+              "card_type": "work",
+              "title_zh": "《营救距离》",
+              "author_label": "萨曼塔·施维伯林",
+              "original_title": "Distancia de rescate",
+              "country_or_region": "阿根廷",
+              "language": "es",
+              "period_bucket": "首版年份待补",
+              "genre_or_form": "小说",
+              "input_layer": "WEB-CE-B12",
+              "source_minimum_status": "meets",
+              "issue_code": "NONE",
+              "content_markdown": "### 《营救距离》｜Distancia de rescate — The Ministry PDF marks ©2014 on the copyright page; first-publication year remains open."
+            }
+          ],
+          "card_facts": [
+            {
+              "card_id": "V1-CARD-0187",
+              "fact_id": "V1-FCT-0795",
+              "admission_status": "candidate_for_staging_review"
+            },
+            {
+              "card_id": "V1-CARD-0187",
+              "fact_id": "V1-FCT-0796",
+              "admission_status": "candidate_for_staging_review"
+            },
+            {
+              "card_id": "V1-CARD-0187",
+              "fact_id": "V1-FCT-0797",
+              "admission_status": "candidate_for_staging_review"
+            }
+          ],
+          "card_sources": [
+            {
+              "card_source_id": "V1-CS-0374",
+              "origin_matrix_id": "",
+              "card_id": "V1-CARD-0187",
+              "source_id": "SRC-0231",
+              "source_level": "B",
+              "source_role": "both",
+              "bibliographic_support": "yes",
+              "research_support": "yes",
+              "independent_source_key": "SRC-0231",
+              "usage_status": "used",
+              "issue_code": "NONE"
+            },
+            {
+              "card_source_id": "V1-CS-0375",
+              "origin_matrix_id": "",
+              "card_id": "V1-CARD-0187",
+              "source_id": "SRC-0234",
+              "source_level": "B",
+              "source_role": "both",
+              "bibliographic_support": "yes",
+              "research_support": "yes",
+              "independent_source_key": "SRC-0234",
+              "usage_status": "used",
+              "issue_code": "NONE"
+            },
+            {
+              "card_source_id": "V1-CS-0512",
+              "origin_matrix_id": "WCD-03",
+              "card_id": "V1-CARD-0187",
+              "source_id": "SRC-0285",
+              "source_level": "B",
+              "source_role": "display",
+              "bibliographic_support": "yes",
+              "research_support": "no",
+              "independent_source_key": "SRC-0285",
+              "usage_status": "used",
+              "issue_code": "NONE"
+            }
+          ],
+          "relations": [
+            {
+              "relationship_id": "V1-REL-0224",
+              "origin_layer": "WEB-CE-B12",
+              "origin_relation_group_id": "CAND-B12-0224",
+              "subject_id": "V1-ENT-0296",
+              "relation_type": "CREATED",
+              "object_id": "V1-ENT-0299",
+              "description_zh": "萨曼塔·施维伯林创作《营救距离》（Distancia de rescate）",
+              "confidence": "high",
+              "review_status": "accepted",
+              "upstream_review_status": "WEB-CE-B12",
+              "evidence_count": "1",
+              "issue_code": "NONE"
+            }
+          ],
+          "relationship_sources": [
+            {
+              "relationship_id": "V1-REL-0224",
+              "source_id": "SRC-0231"
+            }
+          ],
+          "relationship_evidence": [
+            {
+              "evidence_id": "V1-EV-0249",
+              "relationship_id": "V1-REL-0224",
+              "origin_evidence_id": "CAND-B12-0224",
+              "source_id": "SRC-0231",
+              "source_title": "Perdiendo velocidad — Historias x leer",
+              "locator": "",
+              "evidence_note": "Argentina Ministry bibliography links Distancia de rescate to Schweblin.",
+              "confidence": "high",
+              "evidence_status": "eligible_evidence",
+              "evidence_origin": "WEB-CE-B12"
+            }
+          ],
+          "source_objects": [
+            {
+              "source_id": "SRC-0231",
+              "temporary_id": "B12-SRC-0231",
+              "title": "Perdiendo velocidad — Historias x leer",
+              "original_title": "Perdiendo velocidad",
+              "author_or_editor": "Ministerio de Educación de la Nación Argentina",
+              "translator": "",
+              "publisher": "Ministerio de Educación de la Nación",
+              "publication_year": "",
+              "isbn": "",
+              "format": "web_pdf",
+              "page_count": "",
+              "language": "es",
+              "source_level": "B",
+              "processing_status": "access_pass",
+              "source_task": "WEB-CE-B12",
+              "public_content_scope": "Argentina Ministry PDF records ©2014 Distancia de rescate; Schweblin 1978; cuentista/novelista; Pájaros en la boca and Siete casas vacías",
+              "local_asset_status": "remote_only",
+              "persistent_id": "",
+              "canonical_url": "https://www.argentina.gob.ar/sites/default/files/2022/11/p700-_perdiendo_velocidad_micro.pdf"
+            },
+            {
+              "source_id": "SRC-0234",
+              "temporary_id": "B12-SRC-0234",
+              "title": "Distancia de rescate / Fever Dream",
+              "original_title": "Distancia de rescate / Fever Dream",
+              "author_or_editor": "Penguin Random House",
+              "translator": "",
+              "publisher": "Penguin Random House",
+              "publication_year": "",
+              "isbn": "",
+              "format": "web_page",
+              "page_count": "",
+              "language": "es",
+              "source_level": "B",
+              "processing_status": "access_pass",
+              "source_task": "WEB-CE-B12",
+              "public_content_scope": "Publisher book page identifies title, author, and first-novel form; current edition date not used",
+              "local_asset_status": "remote_only",
+              "persistent_id": "",
+              "canonical_url": "https://www.penguinrandomhouse.com/books/652915/distancia-de-rescate--fever-dream-by-samanta-schweblin/"
+            },
+            {
+              "source_id": "SRC-0285",
+              "temporary_id": "WCD03-SRC-05",
+              "title": "政府采购书目中的营救距离",
+              "original_title": "Distancia de rescate",
+              "author_or_editor": "萨曼塔·施维伯林",
+              "translator": "",
+              "publisher": "人民文学出版社",
+              "publication_year": "2018",
+              "isbn": "9787020134663",
+              "format": "catalog_record",
+              "page_count": "",
+              "language": "zh",
+              "source_level": "B",
+              "processing_status": "access_pass",
+              "source_task": "WCD-03",
+              "public_content_scope": "Direct bibliographic support for 萨曼塔·施维伯林, 《营救距离》 and the People's Literature edition",
+              "local_asset_status": "remote_only",
+              "persistent_id": "",
+              "canonical_url": "https://zfcg.henan.gov.cn/cmsweb81e27e/nas/webfile2024/hebi/rootfiles/2023/05/30/f9639cdc6cb440bdaeb5d6b138162c24.pdf"
+            }
+          ],
+          "holds": [],
+          "relation_hold_evidence": [],
+          "gaps": [
+            {
+              "gap_id": "V1-GAP-0021",
+              "origin_gap_id": "B12-GAP-03-0299",
+              "gap_type": "bibliographic_hold",
+              "gap_key": "V1-ENT-0299.first_publication_year",
+              "current_status": "open_research",
+              "evidence_basis": "SRC-0231 marks ©2014 and SRC-0234 identifies the first-novel form; neither source states first publication.",
+              "attempts_or_count": "1",
+              "owner_decision": "SOL_REVIEW",
+              "downstream_effect": "Keep copyright year separate and do not display an uncontested first-publication year.",
+              "issue_code": "HOLD-YEAR"
+            }
+          ],
+          "fresh_review": [],
+          "remaining": "本批不宣称全集或学术覆盖；仅保全冻结基库对象及完整来源/事实/卡片/关系闭包。",
+          "source_author_id": "V1-ENT-0296",
+          "candidate_facts": []
+        },
+        {
+          "object_ref": "V1-ENT-0300",
+          "entity": {
+            "entity_id": "V1-ENT-0300",
+            "entity_type": "collection",
+            "name_zh": "《吃鸟的女孩》",
+            "original_name": "Pájaros en la boca",
+            "canonical_status": "candidate",
+            "origin_count": "1",
+            "origin_refs": "CAND-B12-SCHWEBLIN-W02",
+            "normalization_basis": "Published Chinese title supported by a university library catalogue; original title retained.",
+            "issue_codes": "NONE"
+          },
+          "bibliography": "冻结基库既有事实与事实来源链逐值保全；本批未改写。",
+          "description": "冻结基库卡片及全部card_facts逐值保全；本批未改写。",
+          "research_status": "catalog_only",
+          "research_refs": [
+            "SRC-0231",
+            "SRC-0233",
+            "SRC-0286"
+          ],
+          "old_facts": [
+            {
+              "fact": {
+                "fact_id": "V1-FCT-0798",
+                "origin_material_id": "WEB-CE-B12",
+                "card_id": "V1-CARD-0188",
+                "subject_id": "V1-ENT-0300",
+                "fact_field": "entity_layer",
+                "value_text": "collection",
+                "material_class": "metadata",
+                "origin_id": "SRC-0233",
+                "confidence": "high",
+                "admission_status": "candidate_for_staging_review",
+                "usage_note": "PRH book page describes a story collection."
+              },
+              "source_chain": [
+                {
+                  "fact_id": "V1-FCT-0798",
+                  "source_id": "SRC-0233",
+                  "source_title": "Pájaros en la boca / Mouthful of Birds: Stories"
+                }
+              ]
+            },
+            {
+              "fact": {
+                "fact_id": "V1-FCT-0799",
+                "origin_material_id": "WEB-CE-B12",
+                "card_id": "V1-CARD-0188",
+                "subject_id": "V1-ENT-0300",
+                "fact_field": "genre_or_form",
+                "value_text": "短篇小说集",
+                "material_class": "bibliographic",
+                "origin_id": "SRC-0233",
+                "confidence": "high",
+                "admission_status": "candidate_for_staging_review",
+                "usage_note": "PRH page identifies the volume as stories/collection."
+              },
+              "source_chain": [
+                {
+                  "fact_id": "V1-FCT-0799",
+                  "source_id": "SRC-0233",
+                  "source_title": "Pájaros en la boca / Mouthful of Birds: Stories"
+                }
+              ]
+            }
+          ],
+          "cards": [
+            {
+              "card_id": "V1-CARD-0188",
+              "origin_card_id": "",
+              "subject_id": "V1-ENT-0300",
+              "card_type": "work",
+              "title_zh": "《吃鸟的女孩》",
+              "author_label": "萨曼塔·施维伯林",
+              "original_title": "Pájaros en la boca",
+              "country_or_region": "阿根廷",
+              "language": "es",
+              "period_bucket": "出版年份待补",
+              "genre_or_form": "短篇小说集",
+              "input_layer": "WEB-CE-B12",
+              "source_minimum_status": "meets",
+              "issue_code": "NONE",
+              "content_markdown": "### 《吃鸟的女孩》｜Pájaros en la boca — Institutional and publisher pages identify the title as a story collection; first year is an open gap."
+            }
+          ],
+          "card_facts": [
+            {
+              "card_id": "V1-CARD-0188",
+              "fact_id": "V1-FCT-0798",
+              "admission_status": "candidate_for_staging_review"
+            },
+            {
+              "card_id": "V1-CARD-0188",
+              "fact_id": "V1-FCT-0799",
+              "admission_status": "candidate_for_staging_review"
+            }
+          ],
+          "card_sources": [
+            {
+              "card_source_id": "V1-CS-0376",
+              "origin_matrix_id": "",
+              "card_id": "V1-CARD-0188",
+              "source_id": "SRC-0231",
+              "source_level": "B",
+              "source_role": "both",
+              "bibliographic_support": "yes",
+              "research_support": "yes",
+              "independent_source_key": "SRC-0231",
+              "usage_status": "used",
+              "issue_code": "NONE"
+            },
+            {
+              "card_source_id": "V1-CS-0377",
+              "origin_matrix_id": "",
+              "card_id": "V1-CARD-0188",
+              "source_id": "SRC-0233",
+              "source_level": "B",
+              "source_role": "both",
+              "bibliographic_support": "yes",
+              "research_support": "yes",
+              "independent_source_key": "SRC-0233",
+              "usage_status": "used",
+              "issue_code": "NONE"
+            },
+            {
+              "card_source_id": "V1-CS-0513",
+              "origin_matrix_id": "WCD-03",
+              "card_id": "V1-CARD-0188",
+              "source_id": "SRC-0286",
+              "source_level": "B",
+              "source_role": "display",
+              "bibliographic_support": "yes",
+              "research_support": "no",
+              "independent_source_key": "SRC-0286",
+              "usage_status": "used",
+              "issue_code": "NONE"
+            }
+          ],
+          "relations": [
+            {
+              "relationship_id": "V1-REL-0225",
+              "origin_layer": "WEB-CE-B12",
+              "origin_relation_group_id": "CAND-B12-0225",
+              "subject_id": "V1-ENT-0296",
+              "relation_type": "CREATED",
+              "object_id": "V1-ENT-0300",
+              "description_zh": "萨曼塔·施维伯林创作《吃鸟的女孩》（Pájaros en la boca）",
+              "confidence": "high",
+              "review_status": "accepted",
+              "upstream_review_status": "WEB-CE-B12",
+              "evidence_count": "1",
+              "issue_code": "NONE"
+            }
+          ],
+          "relationship_sources": [
+            {
+              "relationship_id": "V1-REL-0225",
+              "source_id": "SRC-0231"
+            }
+          ],
+          "relationship_evidence": [
+            {
+              "evidence_id": "V1-EV-0250",
+              "relationship_id": "V1-REL-0225",
+              "origin_evidence_id": "CAND-B12-0225",
+              "source_id": "SRC-0231",
+              "source_title": "Perdiendo velocidad — Historias x leer",
+              "locator": "",
+              "evidence_note": "Argentina Ministry biography lists Pájaros en la boca under Schweblin.",
+              "confidence": "high",
+              "evidence_status": "eligible_evidence",
+              "evidence_origin": "WEB-CE-B12"
+            }
+          ],
+          "source_objects": [
+            {
+              "source_id": "SRC-0231",
+              "temporary_id": "B12-SRC-0231",
+              "title": "Perdiendo velocidad — Historias x leer",
+              "original_title": "Perdiendo velocidad",
+              "author_or_editor": "Ministerio de Educación de la Nación Argentina",
+              "translator": "",
+              "publisher": "Ministerio de Educación de la Nación",
+              "publication_year": "",
+              "isbn": "",
+              "format": "web_pdf",
+              "page_count": "",
+              "language": "es",
+              "source_level": "B",
+              "processing_status": "access_pass",
+              "source_task": "WEB-CE-B12",
+              "public_content_scope": "Argentina Ministry PDF records ©2014 Distancia de rescate; Schweblin 1978; cuentista/novelista; Pájaros en la boca and Siete casas vacías",
+              "local_asset_status": "remote_only",
+              "persistent_id": "",
+              "canonical_url": "https://www.argentina.gob.ar/sites/default/files/2022/11/p700-_perdiendo_velocidad_micro.pdf"
+            },
+            {
+              "source_id": "SRC-0233",
+              "temporary_id": "B12-SRC-0233",
+              "title": "Pájaros en la boca / Mouthful of Birds: Stories",
+              "original_title": "Pájaros en la boca / Mouthful of Birds: Stories",
+              "author_or_editor": "Penguin Random House",
+              "translator": "",
+              "publisher": "Penguin Random House",
+              "publication_year": "",
+              "isbn": "",
+              "format": "web_page",
+              "page_count": "",
+              "language": "es",
+              "source_level": "B",
+              "processing_status": "access_pass",
+              "source_task": "WEB-CE-B12",
+              "public_content_scope": "Publisher book page identifies title, author, and story-collection form; current edition date not used",
+              "local_asset_status": "remote_only",
+              "persistent_id": "",
+              "canonical_url": "https://www.penguinrandomhouse.com/books/787456/pajaros-en-la-boca--mouthful-of-birds-stories-by-samanta-schweblin/"
+            },
+            {
+              "source_id": "SRC-0286",
+              "temporary_id": "WCD03-SRC-06",
+              "title": "吃鸟的女孩",
+              "original_title": "Pájaros en la boca",
+              "author_or_editor": "",
+              "translator": "",
+              "publisher": "对外经济贸易大学图书馆",
+              "publication_year": "2021",
+              "isbn": "",
+              "format": "catalog_record",
+              "page_count": "",
+              "language": "zh",
+              "source_level": "B",
+              "processing_status": "access_pass",
+              "source_task": "WCD-03",
+              "public_content_scope": "Library-catalogue support for 萨曼塔·施维伯林 and 《吃鸟的女孩》",
+              "local_asset_status": "remote_only",
+              "persistent_id": "",
+              "canonical_url": "https://opac.uibe.edu.cn/opac/book/483c06579a847d844526abb43bfd53f2"
+            }
+          ],
+          "holds": [],
+          "relation_hold_evidence": [],
+          "gaps": [
+            {
+              "gap_id": "V1-GAP-0017",
+              "origin_gap_id": "B12-GAP-01-0300",
+              "gap_type": "research_gap",
+              "gap_key": "V1-ENT-0300.first_publication_year",
+              "current_status": "open_research",
+              "evidence_basis": "SRC-0231 and SRC-0233 establish title and story-collection form but not original first publication year.",
+              "attempts_or_count": "1",
+              "owner_decision": "SOL_REVIEW",
+              "downstream_effect": "Do not display an uncontested first-publication year; retain work and form in review package.",
+              "issue_code": "RESEARCH-GAP"
+            }
+          ],
+          "fresh_review": [],
+          "remaining": "本批不宣称全集或学术覆盖；仅保全冻结基库对象及完整来源/事实/卡片/关系闭包。",
+          "source_author_id": "V1-ENT-0296",
+          "candidate_facts": []
+        },
+        {
+          "object_ref": "V1-ENT-0301",
+          "entity": {
+            "entity_id": "V1-ENT-0301",
+            "entity_type": "collection",
+            "name_zh": "《七座空屋》",
+            "original_name": "Siete casas vacías",
+            "canonical_status": "candidate",
+            "origin_count": "1",
+            "origin_refs": "CAND-B12-SCHWEBLIN-W03",
+            "normalization_basis": "B12 institutional/publisher bibliography; collection layer",
+            "issue_codes": "NONE"
+          },
+          "bibliography": "冻结基库既有事实与事实来源链逐值保全；本批未改写。",
+          "description": "冻结基库卡片及全部card_facts逐值保全；本批未改写。",
+          "research_status": "catalog_only",
+          "research_refs": [
+            "SRC-0231",
+            "SRC-0232"
+          ],
+          "old_facts": [
+            {
+              "fact": {
+                "fact_id": "V1-FCT-0800",
+                "origin_material_id": "WEB-CE-B12",
+                "card_id": "V1-CARD-0189",
+                "subject_id": "V1-ENT-0301",
+                "fact_field": "entity_layer",
+                "value_text": "collection",
+                "material_class": "metadata",
+                "origin_id": "SRC-0231",
+                "confidence": "high",
+                "admission_status": "candidate_for_staging_review",
+                "usage_note": "Argentina Ministry biography lists Siete casas vacías among Schweblin's story books."
+              },
+              "source_chain": [
+                {
+                  "fact_id": "V1-FCT-0800",
+                  "source_id": "SRC-0231",
+                  "source_title": "Perdiendo velocidad — Historias x leer"
+                }
+              ]
+            },
+            {
+              "fact": {
+                "fact_id": "V1-FCT-0801",
+                "origin_material_id": "WEB-CE-B12",
+                "card_id": "V1-CARD-0189",
+                "subject_id": "V1-ENT-0301",
+                "fact_field": "genre_or_form",
+                "value_text": "短篇小说集",
+                "material_class": "bibliographic",
+                "origin_id": "SRC-0232",
+                "confidence": "high",
+                "admission_status": "candidate_for_staging_review",
+                "usage_note": "PRH author profile lists Siete casas vacías among Schweblin books; the selected form is a story collection."
+              },
+              "source_chain": [
+                {
+                  "fact_id": "V1-FCT-0801",
+                  "source_id": "SRC-0232",
+                  "source_title": "Samanta Schweblin — Penguin Random House author profile"
+                }
+              ]
+            }
+          ],
+          "cards": [
+            {
+              "card_id": "V1-CARD-0189",
+              "origin_card_id": "",
+              "subject_id": "V1-ENT-0301",
+              "card_type": "work",
+              "title_zh": "《七座空屋》",
+              "author_label": "萨曼塔·施维伯林",
+              "original_title": "Siete casas vacías",
+              "country_or_region": "阿根廷",
+              "language": "es",
+              "period_bucket": "出版年份待补",
+              "genre_or_form": "短篇小说集",
+              "input_layer": "WEB-CE-B12",
+              "source_minimum_status": "meets",
+              "issue_code": "NONE",
+              "content_markdown": "### 《七座空屋》｜Siete casas vacías — The Ministry bibliography and PRH page identify the story collection; current edition date is not first publication."
+            }
+          ],
+          "card_facts": [
+            {
+              "card_id": "V1-CARD-0189",
+              "fact_id": "V1-FCT-0800",
+              "admission_status": "candidate_for_staging_review"
+            },
+            {
+              "card_id": "V1-CARD-0189",
+              "fact_id": "V1-FCT-0801",
+              "admission_status": "candidate_for_staging_review"
+            }
+          ],
+          "card_sources": [
+            {
+              "card_source_id": "V1-CS-0378",
+              "origin_matrix_id": "",
+              "card_id": "V1-CARD-0189",
+              "source_id": "SRC-0231",
+              "source_level": "B",
+              "source_role": "both",
+              "bibliographic_support": "yes",
+              "research_support": "yes",
+              "independent_source_key": "SRC-0231",
+              "usage_status": "used",
+              "issue_code": "NONE"
+            },
+            {
+              "card_source_id": "V1-CS-0379",
+              "origin_matrix_id": "",
+              "card_id": "V1-CARD-0189",
+              "source_id": "SRC-0232",
+              "source_level": "B",
+              "source_role": "both",
+              "bibliographic_support": "yes",
+              "research_support": "yes",
+              "independent_source_key": "SRC-0232",
+              "usage_status": "used",
+              "issue_code": "NONE"
+            }
+          ],
+          "relations": [
+            {
+              "relationship_id": "V1-REL-0226",
+              "origin_layer": "WEB-CE-B12",
+              "origin_relation_group_id": "CAND-B12-0226",
+              "subject_id": "V1-ENT-0296",
+              "relation_type": "CREATED",
+              "object_id": "V1-ENT-0301",
+              "description_zh": "萨曼塔·施维伯林创作《七座空屋》（Siete casas vacías）",
+              "confidence": "high",
+              "review_status": "accepted",
+              "upstream_review_status": "WEB-CE-B12",
+              "evidence_count": "1",
+              "issue_code": "NONE"
+            }
+          ],
+          "relationship_sources": [
+            {
+              "relationship_id": "V1-REL-0226",
+              "source_id": "SRC-0231"
+            }
+          ],
+          "relationship_evidence": [
+            {
+              "evidence_id": "V1-EV-0251",
+              "relationship_id": "V1-REL-0226",
+              "origin_evidence_id": "CAND-B12-0226",
+              "source_id": "SRC-0231",
+              "source_title": "Perdiendo velocidad — Historias x leer",
+              "locator": "",
+              "evidence_note": "Argentina Ministry biography lists Siete casas vacías under Schweblin.",
+              "confidence": "high",
+              "evidence_status": "eligible_evidence",
+              "evidence_origin": "WEB-CE-B12"
+            }
+          ],
+          "source_objects": [
+            {
+              "source_id": "SRC-0231",
+              "temporary_id": "B12-SRC-0231",
+              "title": "Perdiendo velocidad — Historias x leer",
+              "original_title": "Perdiendo velocidad",
+              "author_or_editor": "Ministerio de Educación de la Nación Argentina",
+              "translator": "",
+              "publisher": "Ministerio de Educación de la Nación",
+              "publication_year": "",
+              "isbn": "",
+              "format": "web_pdf",
+              "page_count": "",
+              "language": "es",
+              "source_level": "B",
+              "processing_status": "access_pass",
+              "source_task": "WEB-CE-B12",
+              "public_content_scope": "Argentina Ministry PDF records ©2014 Distancia de rescate; Schweblin 1978; cuentista/novelista; Pájaros en la boca and Siete casas vacías",
+              "local_asset_status": "remote_only",
+              "persistent_id": "",
+              "canonical_url": "https://www.argentina.gob.ar/sites/default/files/2022/11/p700-_perdiendo_velocidad_micro.pdf"
+            },
+            {
+              "source_id": "SRC-0232",
+              "temporary_id": "B12-SRC-0232",
+              "title": "Samanta Schweblin — Penguin Random House author profile",
+              "original_title": "Samanta Schweblin",
+              "author_or_editor": "Penguin Random House",
+              "translator": "",
+              "publisher": "Penguin Random House",
+              "publication_year": "",
+              "isbn": "",
+              "format": "web_page",
+              "page_count": "",
+              "language": "en",
+              "source_level": "B",
+              "processing_status": "access_pass",
+              "source_task": "WEB-CE-B12",
+              "public_content_scope": "Publisher profile identifies Buenos Aires origin and lists Pájaros en la boca, Siete casas vacías / Seven Empty Houses, and Distancia de rescate",
+              "local_asset_status": "remote_only",
+              "persistent_id": "",
+              "canonical_url": "https://www.penguinrandomhouse.com/authors/2128471/samanta-schweblin/"
+            }
+          ],
+          "holds": [],
+          "relation_hold_evidence": [],
+          "gaps": [
+            {
+              "gap_id": "V1-GAP-0018",
+              "origin_gap_id": "B12-GAP-01-0301",
+              "gap_type": "research_gap",
+              "gap_key": "V1-ENT-0301.first_publication_year",
+              "current_status": "open_research",
+              "evidence_basis": "SRC-0231 and SRC-0232 establish title and story-collection form but not original first publication year.",
+              "attempts_or_count": "1",
+              "owner_decision": "SOL_REVIEW",
+              "downstream_effect": "Do not display an uncontested first-publication year; retain work and form in review package.",
+              "issue_code": "RESEARCH-GAP"
+            }
+          ],
+          "fresh_review": [],
+          "remaining": "本批不宣称全集或学术覆盖；仅保全冻结基库对象及完整来源/事实/卡片/关系闭包。",
+          "source_author_id": "V1-ENT-0296",
+          "candidate_facts": []
+        },
+        {
+          "object_ref": "WCD10-B15-W101",
+          "candidate_id": "WCD10-B15-W101",
+          "entity": {
+            "entity_type": "collection",
+            "original_name": "El núcleo del disturbio",
+            "name_zh_candidate": "《El núcleo del disturbio》"
+          },
+          "bibliography": "候选书目字段逐项见候选facts。",
+          "description": "候选有界描述逐项见候选facts；尚待独立复核。",
+          "research_status": "catalog_only",
+          "research_refs": [
+            "WCD10-B15-S101",
+            "WCD10-B15-S102"
+          ],
+          "old_facts": [],
+          "cards": [],
+          "card_facts": [],
+          "card_sources": [],
+          "relations": [],
+          "relationship_sources": [],
+          "relationship_evidence": [],
+          "source_objects": [],
+          "holds": [],
+          "relation_hold_evidence": [],
+          "gaps": [],
+          "fresh_review": [],
+          "remaining": "仅为研究候选，未审定首版之外的完整书目、译名或学术覆盖。",
+          "source_author_id": "V1-ENT-0296",
+          "candidate_facts": [
+            {
+              "candidate_id": "WCD10-B15-F101",
+              "field": "genre_or_form",
+              "value": "短篇小说集",
+              "source_refs": [
+                "WCD10-B15-S102"
+              ]
+            },
+            {
+              "candidate_id": "WCD10-B15-F102",
+              "field": "one_sentence_summary",
+              "value": "这部短篇集以列车、变形、结伴女性、行李箱中的死亡和郊区酒吧等情境，写人物试图逃离突发困境或现实裂隙。",
+              "source_refs": [
+                "WCD10-B15-S101"
+              ]
+            },
+            {
+              "candidate_id": "WCD10-B15-F103",
+              "field": "first_publication_year",
+              "value": "2002",
+              "source_refs": [
+                "WCD10-B15-S101",
+                "WCD10-B15-S102"
+              ]
+            }
+          ]
+        },
+        {
+          "object_ref": "WCD10-B15-W102",
+          "candidate_id": "WCD10-B15-W102",
+          "entity": {
+            "entity_type": "work",
+            "original_name": "Kentukis",
+            "name_zh_candidate": "《Kentukis》"
+          },
+          "bibliography": "候选书目字段逐项见候选facts。",
+          "description": "候选有界描述逐项见候选facts；尚待独立复核。",
+          "research_status": "catalog_only",
+          "research_refs": [
+            "WCD10-B15-S102",
+            "WCD10-B15-S103"
+          ],
+          "old_facts": [],
+          "cards": [],
+          "card_facts": [],
+          "card_sources": [],
+          "relations": [],
+          "relationship_sources": [],
+          "relationship_evidence": [],
+          "source_objects": [],
+          "holds": [],
+          "relation_hold_evidence": [],
+          "gaps": [],
+          "fresh_review": [],
+          "remaining": "仅为研究候选，未审定首版之外的完整书目、译名或学术覆盖。",
+          "source_author_id": "V1-ENT-0296",
+          "candidate_facts": [
+            {
+              "candidate_id": "WCD10-B15-F104",
+              "field": "genre_or_form",
+              "value": "小说",
+              "source_refs": [
+                "WCD10-B15-S103"
+              ]
+            },
+            {
+              "candidate_id": "WCD10-B15-F105",
+              "field": "one_sentence_summary",
+              "value": "小说设想匿名陌生人进入不同地区他人的私人生活，借技术连接呈现窥视、亲密与信任的边界问题。",
+              "source_refs": [
+                "WCD10-B15-S103"
+              ]
+            },
+            {
+              "candidate_id": "WCD10-B15-F106",
+              "field": "first_publication_year",
+              "value": "2018",
+              "source_refs": [
+                "WCD10-B15-S102"
+              ]
+            }
+          ]
+        },
+        {
+          "object_ref": "WCD10-B15-W103",
+          "candidate_id": "WCD10-B15-W103",
+          "entity": {
+            "entity_type": "collection",
+            "original_name": "El buen mal",
+            "name_zh_candidate": "《El buen mal》"
+          },
+          "bibliography": "候选书目字段逐项见候选facts。",
+          "description": "候选有界描述逐项见候选facts；尚待独立复核。",
+          "research_status": "catalog_only",
+          "research_refs": [
+            "WCD10-B15-S104"
+          ],
+          "old_facts": [],
+          "cards": [],
+          "card_facts": [],
+          "card_sources": [],
+          "relations": [],
+          "relationship_sources": [],
+          "relationship_evidence": [],
+          "source_objects": [],
+          "holds": [],
+          "relation_hold_evidence": [],
+          "gaps": [],
+          "fresh_review": [],
+          "remaining": "仅为研究候选，未审定首版之外的完整书目、译名或学术覆盖。",
+          "source_author_id": "V1-ENT-0296",
+          "candidate_facts": [
+            {
+              "candidate_id": "WCD10-B15-F107",
+              "field": "genre_or_form",
+              "value": "短篇小说集",
+              "source_refs": [
+                "WCD10-B15-S104"
+              ]
+            },
+            {
+              "candidate_id": "WCD10-B15-F108",
+              "field": "one_sentence_summary",
+              "value": "这部短篇集以突如其来的陌生感扰动熟悉生活，呈现人物面对意外变化的处境。",
+              "source_refs": [
+                "WCD10-B15-S104"
+              ]
+            },
+            {
+              "candidate_id": "WCD10-B15-F109",
+              "field": "bibliographic_note",
+              "value": "Seix Barral书目页将西班牙平装版出版日期列为2025年3月5日；此处仅记录该版书目日期，不推定作品首版年份。",
+              "source_refs": [
+                "WCD10-B15-S104"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": "V1-ENT-0297",
+      "coverage_root_fields": {
+        "author_descriptions": {
+          "present": true,
+          "type": "dict"
+        },
+        "research_policy_by_author": {
+          "present": true,
+          "type": "dict"
+        },
+        "author_context": {
+          "present": true,
+          "type": "dict"
+        },
+        "author_scope_by_id": {
+          "present": true,
+          "type": "dict"
+        },
+        "author_results_by_id": {
+          "present": false,
+          "type": "NoneType"
+        },
+        "author_snapshots_by_id": {
+          "present": false,
+          "type": "NoneType"
+        },
+        "deferred_objects": {
+          "present": false,
+          "type": "NoneType"
+        }
+      },
+      "registration_root_fields": {
+        "accessed_at": {
+          "present": true,
+          "type": "str"
+        },
+        "verified_by": {
+          "present": true,
+          "type": "str"
+        },
+        "copyright_boundary": {
+          "present": true,
+          "type": "str"
+        },
+        "public_content_scope": {
+          "present": true,
+          "type": "str"
+        },
+        "local_asset_status": {
+          "present": true,
+          "type": "str"
+        },
+        "source_year_policy": {
+          "present": true,
+          "type": "str"
+        },
+        "profiles": {
+          "present": true,
+          "type": "list"
+        }
+      },
+      "matrix_root_fields": {
+        "entries": {
+          "present": true,
+          "type": "list"
+        }
+      },
+      "coverage_original_rows": [
+        {
+          "object_ref": "V1-ENT-0302",
+          "entity": {
+            "entity_id": "V1-ENT-0302",
+            "entity_type": "collection",
+            "name_zh": "《火中遗物》",
+            "original_name": "Las cosas que perdimos en el fuego",
+            "canonical_status": "candidate",
+            "origin_count": "1",
+            "origin_refs": "CAND-B12-ENRIQUEZ-W01",
+            "normalization_basis": "Published Chinese title supported by Instituto Cervantes Beijing; original title retained.",
+            "issue_codes": "NONE"
+          },
+          "bibliography": "按B15冻结SQLite逐值快照保全原有书目事实。",
+          "description": "旧对象及其全部已有关联闭包按冻结基线原样保留；本包只追加COVERAGE中明确列出的来源事实。",
+          "research_status": "institutional_commentary",
+          "research_refs": [
+            "SRC-0235",
+            "SRC-0236",
+            "SRC-0238",
+            "SRC-0287",
+            "WCD10-B15-S207"
+          ],
+          "old_facts": [
+            {
+              "fact": {
+                "fact_id": "V1-FCT-0802",
+                "origin_material_id": "WEB-CE-B12",
+                "card_id": "V1-CARD-0190",
+                "subject_id": "V1-ENT-0302",
+                "fact_field": "entity_layer",
+                "value_text": "collection",
+                "material_class": "metadata",
+                "origin_id": "SRC-0235",
+                "confidence": "high",
+                "admission_status": "candidate_for_staging_review",
+                "usage_note": "Anagrama notice calls Las cosas que perdimos en el fuego a book of stories."
+              },
+              "source_chain": [
+                {
+                  "fact_id": "V1-FCT-0802",
+                  "source_id": "SRC-0235",
+                  "source_title": "Mariana Enriquez gana el premio Ciutat de Barcelona en la categoría Literatura castellana"
+                }
+              ]
+            },
+            {
+              "fact": {
+                "fact_id": "V1-FCT-0803",
+                "origin_material_id": "WEB-CE-B12",
+                "card_id": "V1-CARD-0190",
+                "subject_id": "V1-ENT-0302",
+                "fact_field": "first_publication_year",
+                "value_text": "2016",
+                "material_class": "bibliographic",
+                "origin_id": "SRC-0235",
+                "confidence": "high",
+                "admission_status": "candidate_for_staging_review",
+                "usage_note": "Anagrama notice states publication by Anagrama in February 2016."
+              },
+              "source_chain": [
+                {
+                  "fact_id": "V1-FCT-0803",
+                  "source_id": "SRC-0235",
+                  "source_title": "Mariana Enriquez gana el premio Ciutat de Barcelona en la categoría Literatura castellana"
+                }
+              ]
+            },
+            {
+              "fact": {
+                "fact_id": "V1-FCT-0804",
+                "origin_material_id": "WEB-CE-B12",
+                "card_id": "V1-CARD-0190",
+                "subject_id": "V1-ENT-0302",
+                "fact_field": "genre_or_form",
+                "value_text": "短篇小说集",
+                "material_class": "bibliographic",
+                "origin_id": "SRC-0235",
+                "confidence": "high",
+                "admission_status": "candidate_for_staging_review",
+                "usage_note": "Anagrama notice identifies the book as a collection of stories."
+              },
+              "source_chain": [
+                {
+                  "fact_id": "V1-FCT-0804",
+                  "source_id": "SRC-0235",
+                  "source_title": "Mariana Enriquez gana el premio Ciutat de Barcelona en la categoría Literatura castellana"
+                }
+              ]
+            }
+          ],
+          "cards": [
+            {
+              "card_id": "V1-CARD-0190",
+              "origin_card_id": "",
+              "subject_id": "V1-ENT-0302",
+              "card_type": "work",
+              "title_zh": "《火中遗物》",
+              "author_label": "玛丽安娜·恩里克斯",
+              "original_title": "Las cosas que perdimos en el fuego",
+              "country_or_region": "阿根廷",
+              "language": "es",
+              "period_bucket": "2016",
+              "genre_or_form": "短篇小说集",
+              "input_layer": "WEB-CE-B12",
+              "source_minimum_status": "meets",
+              "issue_code": "NONE",
+              "content_markdown": "### 《火中遗物》｜Las cosas que perdimos en el fuego — Anagrama identifies a story collection published in February 2016."
+            }
+          ],
+          "card_facts": [
+            {
+              "card_id": "V1-CARD-0190",
+              "fact_id": "V1-FCT-0802",
+              "admission_status": "candidate_for_staging_review"
+            },
+            {
+              "card_id": "V1-CARD-0190",
+              "fact_id": "V1-FCT-0803",
+              "admission_status": "candidate_for_staging_review"
+            },
+            {
+              "card_id": "V1-CARD-0190",
+              "fact_id": "V1-FCT-0804",
+              "admission_status": "candidate_for_staging_review"
+            }
+          ],
+          "card_sources": [
+            {
+              "card_source_id": "V1-CS-0380",
+              "origin_matrix_id": "",
+              "card_id": "V1-CARD-0190",
+              "source_id": "SRC-0235",
+              "source_level": "B",
+              "source_role": "both",
+              "bibliographic_support": "yes",
+              "research_support": "yes",
+              "independent_source_key": "SRC-0235",
+              "usage_status": "used",
+              "issue_code": "NONE"
+            },
+            {
+              "card_source_id": "V1-CS-0381",
+              "origin_matrix_id": "",
+              "card_id": "V1-CARD-0190",
+              "source_id": "SRC-0238",
+              "source_level": "B",
+              "source_role": "both",
+              "bibliographic_support": "yes",
+              "research_support": "yes",
+              "independent_source_key": "SRC-0238",
+              "usage_status": "used",
+              "issue_code": "NONE"
+            },
+            {
+              "card_source_id": "V1-CS-0514",
+              "origin_matrix_id": "WCD-03",
+              "card_id": "V1-CARD-0190",
+              "source_id": "SRC-0287",
+              "source_level": "B",
+              "source_role": "display",
+              "bibliographic_support": "yes",
+              "research_support": "no",
+              "independent_source_key": "SRC-0287",
+              "usage_status": "used",
+              "issue_code": "NONE"
+            }
+          ],
+          "relations": [
+            {
+              "relationship_id": "V1-REL-0227",
+              "origin_layer": "WEB-CE-B12",
+              "origin_relation_group_id": "CAND-B12-0227",
+              "subject_id": "V1-ENT-0297",
+              "relation_type": "CREATED",
+              "object_id": "V1-ENT-0302",
+              "description_zh": "玛丽安娜·恩里克斯创作《火中遗物》（Las cosas que perdimos en el fuego）",
+              "confidence": "high",
+              "review_status": "accepted",
+              "upstream_review_status": "WEB-CE-B12",
+              "evidence_count": "1",
+              "issue_code": "NONE"
+            },
+            {
+              "relationship_id": "V1-REL-0228",
+              "origin_layer": "WEB-CE-B12",
+              "origin_relation_group_id": "CAND-B12-0228",
+              "subject_id": "V1-ENT-0297",
+              "relation_type": "CREATED",
+              "object_id": "V1-ENT-0303",
+              "description_zh": "玛丽安娜·恩里克斯创作《属于我们的夜晚》（Nuestra parte de noche）",
+              "confidence": "high",
+              "review_status": "accepted",
+              "upstream_review_status": "WEB-CE-B12",
+              "evidence_count": "1",
+              "issue_code": "NONE"
+            },
+            {
+              "relationship_id": "V1-REL-0229",
+              "origin_layer": "WEB-CE-B12",
+              "origin_relation_group_id": "CAND-B12-0229",
+              "subject_id": "V1-ENT-0297",
+              "relation_type": "CREATED",
+              "object_id": "V1-ENT-0304",
+              "description_zh": "玛丽安娜·恩里克斯创作《床上抽烟危险》（Los peligros de fumar en la cama）",
+              "confidence": "high",
+              "review_status": "accepted",
+              "upstream_review_status": "WEB-CE-B12",
+              "evidence_count": "1",
+              "issue_code": "NONE"
+            },
+            {
+              "relationship_id": "V1-REL-0234",
+              "origin_layer": "WEB-CE-B12",
+              "origin_relation_group_id": "CAND-B12-0234",
+              "subject_id": "V1-ENT-0297",
+              "relation_type": "ASSOCIATED_WITH_PLACE",
+              "object_id": "V1-ENT-0001",
+              "description_zh": "玛丽安娜·恩里克斯与阿根廷关联",
+              "confidence": "high",
+              "review_status": "accepted",
+              "upstream_review_status": "WEB-CE-B12",
+              "evidence_count": "1",
+              "issue_code": "NONE"
+            }
+          ],
+          "relationship_sources": [
+            {
+              "relationship_id": "V1-REL-0227",
+              "source_id": "SRC-0235"
+            },
+            {
+              "relationship_id": "V1-REL-0228",
+              "source_id": "SRC-0236"
+            },
+            {
+              "relationship_id": "V1-REL-0229",
+              "source_id": "SRC-0235"
+            },
+            {
+              "relationship_id": "V1-REL-0234",
+              "source_id": "SRC-0235"
+            }
+          ],
+          "relationship_evidence": [
+            {
+              "evidence_id": "V1-EV-0252",
+              "relationship_id": "V1-REL-0227",
+              "origin_evidence_id": "CAND-B12-0227",
+              "source_id": "SRC-0235",
+              "source_title": "Mariana Enriquez gana el premio Ciutat de Barcelona en la categoría Literatura castellana",
+              "locator": "",
+              "evidence_note": "Anagrama notice identifies Las cosas que perdimos en el fuego as an Enriquez story book.",
+              "confidence": "high",
+              "evidence_status": "eligible_evidence",
+              "evidence_origin": "WEB-CE-B12"
+            },
+            {
+              "evidence_id": "V1-EV-0253",
+              "relationship_id": "V1-REL-0228",
+              "origin_evidence_id": "CAND-B12-0228",
+              "source_id": "SRC-0236",
+              "source_title": "Nuestra parte de noche — Mariana Enriquez",
+              "locator": "",
+              "evidence_note": "Anagrama book page identifies Nuestra parte de noche under Enriquez.",
+              "confidence": "high",
+              "evidence_status": "eligible_evidence",
+              "evidence_origin": "WEB-CE-B12"
+            },
+            {
+              "evidence_id": "V1-EV-0254",
+              "relationship_id": "V1-REL-0229",
+              "origin_evidence_id": "CAND-B12-0229",
+              "source_id": "SRC-0235",
+              "source_title": "Mariana Enriquez gana el premio Ciutat de Barcelona en la categoría Literatura castellana",
+              "locator": "",
+              "evidence_note": "Anagrama notice and book page identify Los peligros de fumar en la cama under Enriquez.",
+              "confidence": "high",
+              "evidence_status": "eligible_evidence",
+              "evidence_origin": "WEB-CE-B12"
+            },
+            {
+              "evidence_id": "V1-EV-0259",
+              "relationship_id": "V1-REL-0234",
+              "origin_evidence_id": "CAND-B12-0234",
+              "source_id": "SRC-0235",
+              "source_title": "Mariana Enriquez gana el premio Ciutat de Barcelona en la categoría Literatura castellana",
+              "locator": "",
+              "evidence_note": "Anagrama notice calls Enriquez an Argentine writer.",
+              "confidence": "high",
+              "evidence_status": "eligible_evidence",
+              "evidence_origin": "WEB-CE-B12"
+            }
+          ],
+          "source_objects": [
+            {
+              "source_id": "SRC-0235",
+              "temporary_id": "B12-SRC-0235",
+              "title": "Mariana Enriquez gana el premio Ciutat de Barcelona en la categoría Literatura castellana",
+              "original_title": "Mariana Enriquez gana el premio Ciutat de Barcelona",
+              "author_or_editor": "Editorial Anagrama",
+              "translator": "",
+              "publisher": "Editorial Anagrama",
+              "publication_year": "",
+              "isbn": "",
+              "format": "web_page",
+              "page_count": "",
+              "language": "es",
+              "source_level": "B",
+              "processing_status": "access_pass",
+              "source_task": "WEB-CE-B12",
+              "public_content_scope": "Anagrama notice identifies Argentine author Buenos Aires 1973, journalist/subeditor/teacher; Las cosas collection published February 2016; Los peligros earlier Argentine story book",
+              "local_asset_status": "remote_only",
+              "persistent_id": "",
+              "canonical_url": "https://www.anagrama-ed.es/noticias/premios-y-distinciones/mariana-enriquez-gana-el-premio-ciutat-de-barcelona-en-la-categoria-literatura-castellana--282"
+            },
+            {
+              "source_id": "SRC-0236",
+              "temporary_id": "B12-SRC-0236",
+              "title": "Nuestra parte de noche — Mariana Enriquez",
+              "original_title": "Nuestra parte de noche",
+              "author_or_editor": "Editorial Anagrama",
+              "translator": "",
+              "publisher": "Editorial Anagrama",
+              "publication_year": "",
+              "isbn": "",
+              "format": "web_page",
+              "page_count": "",
+              "language": "es",
+              "source_level": "B",
+              "processing_status": "access_pass",
+              "source_task": "WEB-CE-B12",
+              "public_content_scope": "Publisher page identifies title, author, novel form, and Premio Herralde de Novela 2019",
+              "local_asset_status": "remote_only",
+              "persistent_id": "",
+              "canonical_url": "https://www.anagrama-ed.es/libro/narrativas-hispanicas/nuestra-parte-de-noche/9788433998859/NH_636"
+            },
+            {
+              "source_id": "SRC-0238",
+              "temporary_id": "B12-SRC-0238",
+              "title": "Las cosas que perdimos en el fuego — Mariana Enriquez",
+              "original_title": "Las cosas que perdimos en el fuego",
+              "author_or_editor": "Editorial Anagrama",
+              "translator": "",
+              "publisher": "Editorial Anagrama",
+              "publication_year": "",
+              "isbn": "",
+              "format": "web_page",
+              "page_count": "",
+              "language": "es",
+              "source_level": "B",
+              "processing_status": "access_pass",
+              "source_task": "WEB-CE-B12",
+              "public_content_scope": "Publisher page identifies title and author; Anagrama notice supplies story-collection form and February 2016 publication",
+              "local_asset_status": "remote_only",
+              "persistent_id": "",
+              "canonical_url": "https://www.anagrama-ed.es/libro/narrativas-hispanicas/las-cosas-que-perdimos-en-el-fuego/9788433998064/NH_559"
+            },
+            {
+              "source_id": "SRC-0287",
+              "temporary_id": "WCD03-SRC-07",
+              "title": "Las cosas que perdimos en el fuego 文化活动页",
+              "original_title": "Las cosas que perdimos en el fuego",
+              "author_or_editor": "",
+              "translator": "",
+              "publisher": "塞万提斯学院北京",
+              "publication_year": "",
+              "isbn": "",
+              "format": "web_page",
+              "page_count": "",
+              "language": "zh",
+              "source_level": "B",
+              "processing_status": "access_pass",
+              "source_task": "WCD-03",
+              "public_content_scope": "Institutional Chinese-title support for 《火中遗物》",
+              "local_asset_status": "remote_only",
+              "persistent_id": "",
+              "canonical_url": "https://cultura.cervantes.es/pekin/zh/%C2%ABlas-cosas-que-perdimos-en-el-fuego%C2%BB/186195"
+            }
+          ],
+          "holds": [],
+          "hold_evidence": [],
+          "source_holds": [],
+          "gaps": [],
+          "fresh_review": "Baseline closure preserved without semantic rewrite.",
+          "remaining": "Source-grade follow-up or exhaustive bibliography is deferred where not directly checked.",
+          "source_author_id": "V1-ENT-0297",
+          "candidate_facts": [
+            {
+              "candidate_id": "WCD10-B15-F201",
+              "subject_id": "V1-ENT-0302",
+              "field": "one_sentence_summary",
+              "value": "十二篇故事将暴力、身体、社会边缘处境与日常生活中的恐怖交织起来，人物包括试图帮助他人的学生、社工、警察和导游。",
+              "source_refs": [
+                "WCD10-B15-S207"
+              ]
+            }
+          ]
+        },
+        {
+          "object_ref": "V1-ENT-0303",
+          "entity": {
+            "entity_id": "V1-ENT-0303",
+            "entity_type": "work",
+            "name_zh": "《属于我们的夜晚》",
+            "original_name": "Nuestra parte de noche",
+            "canonical_status": "candidate",
+            "origin_count": "1",
+            "origin_refs": "CAND-B12-ENRIQUEZ-W02",
+            "normalization_basis": "Published Chinese title supported by the FLTRP catalogue; original title retained.",
+            "issue_codes": "NONE"
+          },
+          "bibliography": "按B15冻结SQLite逐值快照保全原有书目事实。",
+          "description": "旧对象及其全部已有关联闭包按冻结基线原样保留；本包只追加COVERAGE中明确列出的来源事实。",
+          "research_status": "institutional_commentary",
+          "research_refs": [
+            "SRC-0235",
+            "SRC-0236",
+            "SRC-0288",
+            "WCD10-B15-S208"
+          ],
+          "old_facts": [
+            {
+              "fact": {
+                "fact_id": "V1-FCT-0805",
+                "origin_material_id": "WEB-CE-B12",
+                "card_id": "V1-CARD-0191",
+                "subject_id": "V1-ENT-0303",
+                "fact_field": "entity_layer",
+                "value_text": "work",
+                "material_class": "metadata",
+                "origin_id": "SRC-0236",
+                "confidence": "high",
+                "admission_status": "candidate_for_staging_review",
+                "usage_note": "Anagrama identifies Nuestra parte de noche as a novel."
+              },
+              "source_chain": [
+                {
+                  "fact_id": "V1-FCT-0805",
+                  "source_id": "SRC-0236",
+                  "source_title": "Nuestra parte de noche — Mariana Enriquez"
+                }
+              ]
+            },
+            {
+              "fact": {
+                "fact_id": "V1-FCT-0806",
+                "origin_material_id": "WEB-CE-B12",
+                "card_id": "V1-CARD-0191",
+                "subject_id": "V1-ENT-0303",
+                "fact_field": "genre_or_form",
+                "value_text": "小说",
+                "material_class": "bibliographic",
+                "origin_id": "SRC-0236",
+                "confidence": "high",
+                "admission_status": "candidate_for_staging_review",
+                "usage_note": "Publisher page explicitly says novela."
+              },
+              "source_chain": [
+                {
+                  "fact_id": "V1-FCT-0806",
+                  "source_id": "SRC-0236",
+                  "source_title": "Nuestra parte de noche — Mariana Enriquez"
+                }
+              ]
+            },
+            {
+              "fact": {
+                "fact_id": "V1-FCT-0807",
+                "origin_material_id": "WEB-CE-B12",
+                "card_id": "V1-CARD-0191",
+                "subject_id": "V1-ENT-0303",
+                "fact_field": "award_year",
+                "value_text": "2019",
+                "material_class": "bibliographic",
+                "origin_id": "SRC-0236",
+                "confidence": "high",
+                "admission_status": "candidate_for_staging_review",
+                "usage_note": "Anagrama page identifies the Premio Herralde de Novela 2019; this is not asserted as first publication."
+              },
+              "source_chain": [
+                {
+                  "fact_id": "V1-FCT-0807",
+                  "source_id": "SRC-0236",
+                  "source_title": "Nuestra parte de noche — Mariana Enriquez"
+                }
+              ]
+            }
+          ],
+          "cards": [
+            {
+              "card_id": "V1-CARD-0191",
+              "origin_card_id": "",
+              "subject_id": "V1-ENT-0303",
+              "card_type": "work",
+              "title_zh": "《属于我们的夜晚》",
+              "author_label": "玛丽安娜·恩里克斯",
+              "original_title": "Nuestra parte de noche",
+              "country_or_region": "阿根廷",
+              "language": "es",
+              "period_bucket": "2019奖项节点",
+              "genre_or_form": "小说",
+              "input_layer": "WEB-CE-B12",
+              "source_minimum_status": "meets",
+              "issue_code": "NONE",
+              "content_markdown": "### 《属于我们的夜晚》｜Nuestra parte de noche — Anagrama identifies a novel and the 2019 Herralde award; first-publication year remains a gap."
+            }
+          ],
+          "card_facts": [
+            {
+              "card_id": "V1-CARD-0191",
+              "fact_id": "V1-FCT-0805",
+              "admission_status": "candidate_for_staging_review"
+            },
+            {
+              "card_id": "V1-CARD-0191",
+              "fact_id": "V1-FCT-0806",
+              "admission_status": "candidate_for_staging_review"
+            },
+            {
+              "card_id": "V1-CARD-0191",
+              "fact_id": "V1-FCT-0807",
+              "admission_status": "candidate_for_staging_review"
+            }
+          ],
+          "card_sources": [
+            {
+              "card_source_id": "V1-CS-0382",
+              "origin_matrix_id": "",
+              "card_id": "V1-CARD-0191",
+              "source_id": "SRC-0235",
+              "source_level": "B",
+              "source_role": "both",
+              "bibliographic_support": "yes",
+              "research_support": "yes",
+              "independent_source_key": "SRC-0235",
+              "usage_status": "used",
+              "issue_code": "NONE"
+            },
+            {
+              "card_source_id": "V1-CS-0383",
+              "origin_matrix_id": "",
+              "card_id": "V1-CARD-0191",
+              "source_id": "SRC-0236",
+              "source_level": "B",
+              "source_role": "both",
+              "bibliographic_support": "yes",
+              "research_support": "yes",
+              "independent_source_key": "SRC-0236",
+              "usage_status": "used",
+              "issue_code": "NONE"
+            },
+            {
+              "card_source_id": "V1-CS-0515",
+              "origin_matrix_id": "WCD-03",
+              "card_id": "V1-CARD-0191",
+              "source_id": "SRC-0288",
+              "source_level": "B",
+              "source_role": "display",
+              "bibliographic_support": "yes",
+              "research_support": "no",
+              "independent_source_key": "SRC-0288",
+              "usage_status": "used",
+              "issue_code": "NONE"
+            }
+          ],
+          "relations": [
+            {
+              "relationship_id": "V1-REL-0227",
+              "origin_layer": "WEB-CE-B12",
+              "origin_relation_group_id": "CAND-B12-0227",
+              "subject_id": "V1-ENT-0297",
+              "relation_type": "CREATED",
+              "object_id": "V1-ENT-0302",
+              "description_zh": "玛丽安娜·恩里克斯创作《火中遗物》（Las cosas que perdimos en el fuego）",
+              "confidence": "high",
+              "review_status": "accepted",
+              "upstream_review_status": "WEB-CE-B12",
+              "evidence_count": "1",
+              "issue_code": "NONE"
+            },
+            {
+              "relationship_id": "V1-REL-0228",
+              "origin_layer": "WEB-CE-B12",
+              "origin_relation_group_id": "CAND-B12-0228",
+              "subject_id": "V1-ENT-0297",
+              "relation_type": "CREATED",
+              "object_id": "V1-ENT-0303",
+              "description_zh": "玛丽安娜·恩里克斯创作《属于我们的夜晚》（Nuestra parte de noche）",
+              "confidence": "high",
+              "review_status": "accepted",
+              "upstream_review_status": "WEB-CE-B12",
+              "evidence_count": "1",
+              "issue_code": "NONE"
+            },
+            {
+              "relationship_id": "V1-REL-0229",
+              "origin_layer": "WEB-CE-B12",
+              "origin_relation_group_id": "CAND-B12-0229",
+              "subject_id": "V1-ENT-0297",
+              "relation_type": "CREATED",
+              "object_id": "V1-ENT-0304",
+              "description_zh": "玛丽安娜·恩里克斯创作《床上抽烟危险》（Los peligros de fumar en la cama）",
+              "confidence": "high",
+              "review_status": "accepted",
+              "upstream_review_status": "WEB-CE-B12",
+              "evidence_count": "1",
+              "issue_code": "NONE"
+            },
+            {
+              "relationship_id": "V1-REL-0234",
+              "origin_layer": "WEB-CE-B12",
+              "origin_relation_group_id": "CAND-B12-0234",
+              "subject_id": "V1-ENT-0297",
+              "relation_type": "ASSOCIATED_WITH_PLACE",
+              "object_id": "V1-ENT-0001",
+              "description_zh": "玛丽安娜·恩里克斯与阿根廷关联",
+              "confidence": "high",
+              "review_status": "accepted",
+              "upstream_review_status": "WEB-CE-B12",
+              "evidence_count": "1",
+              "issue_code": "NONE"
+            }
+          ],
+          "relationship_sources": [
+            {
+              "relationship_id": "V1-REL-0227",
+              "source_id": "SRC-0235"
+            },
+            {
+              "relationship_id": "V1-REL-0228",
+              "source_id": "SRC-0236"
+            },
+            {
+              "relationship_id": "V1-REL-0229",
+              "source_id": "SRC-0235"
+            },
+            {
+              "relationship_id": "V1-REL-0234",
+              "source_id": "SRC-0235"
+            }
+          ],
+          "relationship_evidence": [
+            {
+              "evidence_id": "V1-EV-0252",
+              "relationship_id": "V1-REL-0227",
+              "origin_evidence_id": "CAND-B12-0227",
+              "source_id": "SRC-0235",
+              "source_title": "Mariana Enriquez gana el premio Ciutat de Barcelona en la categoría Literatura castellana",
+              "locator": "",
+              "evidence_note": "Anagrama notice identifies Las cosas que perdimos en el fuego as an Enriquez story book.",
+              "confidence": "high",
+              "evidence_status": "eligible_evidence",
+              "evidence_origin": "WEB-CE-B12"
+            },
+            {
+              "evidence_id": "V1-EV-0253",
+              "relationship_id": "V1-REL-0228",
+              "origin_evidence_id": "CAND-B12-0228",
+              "source_id": "SRC-0236",
+              "source_title": "Nuestra parte de noche — Mariana Enriquez",
+              "locator": "",
+              "evidence_note": "Anagrama book page identifies Nuestra parte de noche under Enriquez.",
+              "confidence": "high",
+              "evidence_status": "eligible_evidence",
+              "evidence_origin": "WEB-CE-B12"
+            },
+            {
+              "evidence_id": "V1-EV-0254",
+              "relationship_id": "V1-REL-0229",
+              "origin_evidence_id": "CAND-B12-0229",
+              "source_id": "SRC-0235",
+              "source_title": "Mariana Enriquez gana el premio Ciutat de Barcelona en la categoría Literatura castellana",
+              "locator": "",
+              "evidence_note": "Anagrama notice and book page identify Los peligros de fumar en la cama under Enriquez.",
+              "confidence": "high",
+              "evidence_status": "eligible_evidence",
+              "evidence_origin": "WEB-CE-B12"
+            },
+            {
+              "evidence_id": "V1-EV-0259",
+              "relationship_id": "V1-REL-0234",
+              "origin_evidence_id": "CAND-B12-0234",
+              "source_id": "SRC-0235",
+              "source_title": "Mariana Enriquez gana el premio Ciutat de Barcelona en la categoría Literatura castellana",
+              "locator": "",
+              "evidence_note": "Anagrama notice calls Enriquez an Argentine writer.",
+              "confidence": "high",
+              "evidence_status": "eligible_evidence",
+              "evidence_origin": "WEB-CE-B12"
+            }
+          ],
+          "source_objects": [
+            {
+              "source_id": "SRC-0235",
+              "temporary_id": "B12-SRC-0235",
+              "title": "Mariana Enriquez gana el premio Ciutat de Barcelona en la categoría Literatura castellana",
+              "original_title": "Mariana Enriquez gana el premio Ciutat de Barcelona",
+              "author_or_editor": "Editorial Anagrama",
+              "translator": "",
+              "publisher": "Editorial Anagrama",
+              "publication_year": "",
+              "isbn": "",
+              "format": "web_page",
+              "page_count": "",
+              "language": "es",
+              "source_level": "B",
+              "processing_status": "access_pass",
+              "source_task": "WEB-CE-B12",
+              "public_content_scope": "Anagrama notice identifies Argentine author Buenos Aires 1973, journalist/subeditor/teacher; Las cosas collection published February 2016; Los peligros earlier Argentine story book",
+              "local_asset_status": "remote_only",
+              "persistent_id": "",
+              "canonical_url": "https://www.anagrama-ed.es/noticias/premios-y-distinciones/mariana-enriquez-gana-el-premio-ciutat-de-barcelona-en-la-categoria-literatura-castellana--282"
+            },
+            {
+              "source_id": "SRC-0236",
+              "temporary_id": "B12-SRC-0236",
+              "title": "Nuestra parte de noche — Mariana Enriquez",
+              "original_title": "Nuestra parte de noche",
+              "author_or_editor": "Editorial Anagrama",
+              "translator": "",
+              "publisher": "Editorial Anagrama",
+              "publication_year": "",
+              "isbn": "",
+              "format": "web_page",
+              "page_count": "",
+              "language": "es",
+              "source_level": "B",
+              "processing_status": "access_pass",
+              "source_task": "WEB-CE-B12",
+              "public_content_scope": "Publisher page identifies title, author, novel form, and Premio Herralde de Novela 2019",
+              "local_asset_status": "remote_only",
+              "persistent_id": "",
+              "canonical_url": "https://www.anagrama-ed.es/libro/narrativas-hispanicas/nuestra-parte-de-noche/9788433998859/NH_636"
+            },
+            {
+              "source_id": "SRC-0288",
+              "temporary_id": "WCD03-SRC-08",
+              "title": "2024 外研社图书目录",
+              "original_title": "2024 外研社图书目录",
+              "author_or_editor": "",
+              "translator": "",
+              "publisher": "外语教学与研究出版社",
+              "publication_year": "2024",
+              "isbn": "",
+              "format": "catalog_record",
+              "page_count": "",
+              "language": "zh",
+              "source_level": "B",
+              "processing_status": "access_pass",
+              "source_task": "WCD-03",
+              "public_content_scope": "Publisher-catalogue support for 《属于我们的夜晚》",
+              "local_asset_status": "remote_only",
+              "persistent_id": "",
+              "canonical_url": "https://www.fltrp.com/ebook/zhcb/zhcb_tsml_gd_js_2024/files/basic-html/page37.html"
+            }
+          ],
+          "holds": [],
+          "hold_evidence": [],
+          "source_holds": [],
+          "gaps": [
+            {
+              "gap_id": "V1-GAP-0020",
+              "origin_gap_id": "B12-GAP-02-0303",
+              "gap_type": "research_gap",
+              "gap_key": "V1-ENT-0303.first_publication_year",
+              "current_status": "open_research",
+              "evidence_basis": "SRC-0236 establishes novel form and the 2019 Herralde award, not first publication year.",
+              "attempts_or_count": "1",
+              "owner_decision": "SOL_REVIEW",
+              "downstream_effect": "Keep 2019 as award year only; do not display it as an uncontested first-publication year.",
+              "issue_code": "RESEARCH-GAP"
+            }
+          ],
+          "fresh_review": "Baseline closure preserved without semantic rewrite.",
+          "remaining": "Source-grade follow-up or exhaustive bibliography is deferred where not directly checked.",
+          "source_author_id": "V1-ENT-0297",
+          "candidate_facts": [
+            {
+              "candidate_id": "WCD10-B15-F202",
+              "subject_id": "V1-ENT-0303",
+              "field": "one_sentence_summary",
+              "value": "一对父子穿越军事独裁时期的阿根廷；Gaspar被卷入一个借灵媒与黑暗力量追求永生的秘密组织。",
+              "source_refs": [
+                "WCD10-B15-S208"
+              ]
+            }
+          ]
+        },
+        {
+          "object_ref": "V1-ENT-0304",
+          "entity": {
+            "entity_id": "V1-ENT-0304",
+            "entity_type": "collection",
+            "name_zh": "《床上抽烟危险》",
+            "original_name": "Los peligros de fumar en la cama",
+            "canonical_status": "candidate",
+            "origin_count": "1",
+            "origin_refs": "CAND-B12-ENRIQUEZ-W03",
+            "normalization_basis": "Published Chinese title supported by a university library catalogue; original title retained.",
+            "issue_codes": "NONE"
+          },
+          "bibliography": "按B15冻结SQLite逐值快照保全原有书目事实。",
+          "description": "旧对象及其全部已有关联闭包按冻结基线原样保留；本包只追加COVERAGE中明确列出的来源事实。",
+          "research_status": "institutional_commentary",
+          "research_refs": [
+            "SRC-0235",
+            "SRC-0236",
+            "SRC-0237",
+            "SRC-0289",
+            "WCD10-B15-S209"
+          ],
+          "old_facts": [
+            {
+              "fact": {
+                "fact_id": "V1-FCT-0808",
+                "origin_material_id": "WEB-CE-B12",
+                "card_id": "V1-CARD-0192",
+                "subject_id": "V1-ENT-0304",
+                "fact_field": "entity_layer",
+                "value_text": "collection",
+                "material_class": "metadata",
+                "origin_id": "SRC-0237",
+                "confidence": "high",
+                "admission_status": "candidate_for_staging_review",
+                "usage_note": "Anagrama page identifies a twelve-story volume."
+              },
+              "source_chain": [
+                {
+                  "fact_id": "V1-FCT-0808",
+                  "source_id": "SRC-0237",
+                  "source_title": "Los peligros de fumar en la cama — Mariana Enriquez"
+                }
+              ]
+            },
+            {
+              "fact": {
+                "fact_id": "V1-FCT-0809",
+                "origin_material_id": "WEB-CE-B12",
+                "card_id": "V1-CARD-0192",
+                "subject_id": "V1-ENT-0304",
+                "fact_field": "genre_or_form",
+                "value_text": "短篇小说集",
+                "material_class": "bibliographic",
+                "origin_id": "SRC-0237",
+                "confidence": "high",
+                "admission_status": "candidate_for_staging_review",
+                "usage_note": "Anagrama page describes twelve cuentos in the volume."
+              },
+              "source_chain": [
+                {
+                  "fact_id": "V1-FCT-0809",
+                  "source_id": "SRC-0237",
+                  "source_title": "Los peligros de fumar en la cama — Mariana Enriquez"
+                }
+              ]
+            }
+          ],
+          "cards": [
+            {
+              "card_id": "V1-CARD-0192",
+              "origin_card_id": "",
+              "subject_id": "V1-ENT-0304",
+              "card_type": "work",
+              "title_zh": "《床上抽烟危险》",
+              "author_label": "玛丽安娜·恩里克斯",
+              "original_title": "Los peligros de fumar en la cama",
+              "country_or_region": "阿根廷",
+              "language": "es",
+              "period_bucket": "出版年份待补",
+              "genre_or_form": "短篇小说集",
+              "input_layer": "WEB-CE-B12",
+              "source_minimum_status": "meets",
+              "issue_code": "NONE",
+              "content_markdown": "### 《床上抽烟危险》｜Los peligros de fumar en la cama — Anagrama identifies an earlier Argentine story collection and twelve-story form."
+            }
+          ],
+          "card_facts": [
+            {
+              "card_id": "V1-CARD-0192",
+              "fact_id": "V1-FCT-0808",
+              "admission_status": "candidate_for_staging_review"
+            },
+            {
+              "card_id": "V1-CARD-0192",
+              "fact_id": "V1-FCT-0809",
+              "admission_status": "candidate_for_staging_review"
+            }
+          ],
+          "card_sources": [
+            {
+              "card_source_id": "V1-CS-0384",
+              "origin_matrix_id": "",
+              "card_id": "V1-CARD-0192",
+              "source_id": "SRC-0235",
+              "source_level": "B",
+              "source_role": "both",
+              "bibliographic_support": "yes",
+              "research_support": "yes",
+              "independent_source_key": "SRC-0235",
+              "usage_status": "used",
+              "issue_code": "NONE"
+            },
+            {
+              "card_source_id": "V1-CS-0385",
+              "origin_matrix_id": "",
+              "card_id": "V1-CARD-0192",
+              "source_id": "SRC-0237",
+              "source_level": "B",
+              "source_role": "both",
+              "bibliographic_support": "yes",
+              "research_support": "yes",
+              "independent_source_key": "SRC-0237",
+              "usage_status": "used",
+              "issue_code": "NONE"
+            },
+            {
+              "card_source_id": "V1-CS-0516",
+              "origin_matrix_id": "WCD-03",
+              "card_id": "V1-CARD-0192",
+              "source_id": "SRC-0289",
+              "source_level": "B",
+              "source_role": "display",
+              "bibliographic_support": "yes",
+              "research_support": "no",
+              "independent_source_key": "SRC-0289",
+              "usage_status": "used",
+              "issue_code": "NONE"
+            }
+          ],
+          "relations": [
+            {
+              "relationship_id": "V1-REL-0227",
+              "origin_layer": "WEB-CE-B12",
+              "origin_relation_group_id": "CAND-B12-0227",
+              "subject_id": "V1-ENT-0297",
+              "relation_type": "CREATED",
+              "object_id": "V1-ENT-0302",
+              "description_zh": "玛丽安娜·恩里克斯创作《火中遗物》（Las cosas que perdimos en el fuego）",
+              "confidence": "high",
+              "review_status": "accepted",
+              "upstream_review_status": "WEB-CE-B12",
+              "evidence_count": "1",
+              "issue_code": "NONE"
+            },
+            {
+              "relationship_id": "V1-REL-0228",
+              "origin_layer": "WEB-CE-B12",
+              "origin_relation_group_id": "CAND-B12-0228",
+              "subject_id": "V1-ENT-0297",
+              "relation_type": "CREATED",
+              "object_id": "V1-ENT-0303",
+              "description_zh": "玛丽安娜·恩里克斯创作《属于我们的夜晚》（Nuestra parte de noche）",
+              "confidence": "high",
+              "review_status": "accepted",
+              "upstream_review_status": "WEB-CE-B12",
+              "evidence_count": "1",
+              "issue_code": "NONE"
+            },
+            {
+              "relationship_id": "V1-REL-0229",
+              "origin_layer": "WEB-CE-B12",
+              "origin_relation_group_id": "CAND-B12-0229",
+              "subject_id": "V1-ENT-0297",
+              "relation_type": "CREATED",
+              "object_id": "V1-ENT-0304",
+              "description_zh": "玛丽安娜·恩里克斯创作《床上抽烟危险》（Los peligros de fumar en la cama）",
+              "confidence": "high",
+              "review_status": "accepted",
+              "upstream_review_status": "WEB-CE-B12",
+              "evidence_count": "1",
+              "issue_code": "NONE"
+            },
+            {
+              "relationship_id": "V1-REL-0234",
+              "origin_layer": "WEB-CE-B12",
+              "origin_relation_group_id": "CAND-B12-0234",
+              "subject_id": "V1-ENT-0297",
+              "relation_type": "ASSOCIATED_WITH_PLACE",
+              "object_id": "V1-ENT-0001",
+              "description_zh": "玛丽安娜·恩里克斯与阿根廷关联",
+              "confidence": "high",
+              "review_status": "accepted",
+              "upstream_review_status": "WEB-CE-B12",
+              "evidence_count": "1",
+              "issue_code": "NONE"
+            }
+          ],
+          "relationship_sources": [
+            {
+              "relationship_id": "V1-REL-0227",
+              "source_id": "SRC-0235"
+            },
+            {
+              "relationship_id": "V1-REL-0228",
+              "source_id": "SRC-0236"
+            },
+            {
+              "relationship_id": "V1-REL-0229",
+              "source_id": "SRC-0235"
+            },
+            {
+              "relationship_id": "V1-REL-0234",
+              "source_id": "SRC-0235"
+            }
+          ],
+          "relationship_evidence": [
+            {
+              "evidence_id": "V1-EV-0252",
+              "relationship_id": "V1-REL-0227",
+              "origin_evidence_id": "CAND-B12-0227",
+              "source_id": "SRC-0235",
+              "source_title": "Mariana Enriquez gana el premio Ciutat de Barcelona en la categoría Literatura castellana",
+              "locator": "",
+              "evidence_note": "Anagrama notice identifies Las cosas que perdimos en el fuego as an Enriquez story book.",
+              "confidence": "high",
+              "evidence_status": "eligible_evidence",
+              "evidence_origin": "WEB-CE-B12"
+            },
+            {
+              "evidence_id": "V1-EV-0253",
+              "relationship_id": "V1-REL-0228",
+              "origin_evidence_id": "CAND-B12-0228",
+              "source_id": "SRC-0236",
+              "source_title": "Nuestra parte de noche — Mariana Enriquez",
+              "locator": "",
+              "evidence_note": "Anagrama book page identifies Nuestra parte de noche under Enriquez.",
+              "confidence": "high",
+              "evidence_status": "eligible_evidence",
+              "evidence_origin": "WEB-CE-B12"
+            },
+            {
+              "evidence_id": "V1-EV-0254",
+              "relationship_id": "V1-REL-0229",
+              "origin_evidence_id": "CAND-B12-0229",
+              "source_id": "SRC-0235",
+              "source_title": "Mariana Enriquez gana el premio Ciutat de Barcelona en la categoría Literatura castellana",
+              "locator": "",
+              "evidence_note": "Anagrama notice and book page identify Los peligros de fumar en la cama under Enriquez.",
+              "confidence": "high",
+              "evidence_status": "eligible_evidence",
+              "evidence_origin": "WEB-CE-B12"
+            },
+            {
+              "evidence_id": "V1-EV-0259",
+              "relationship_id": "V1-REL-0234",
+              "origin_evidence_id": "CAND-B12-0234",
+              "source_id": "SRC-0235",
+              "source_title": "Mariana Enriquez gana el premio Ciutat de Barcelona en la categoría Literatura castellana",
+              "locator": "",
+              "evidence_note": "Anagrama notice calls Enriquez an Argentine writer.",
+              "confidence": "high",
+              "evidence_status": "eligible_evidence",
+              "evidence_origin": "WEB-CE-B12"
+            }
+          ],
+          "source_objects": [
+            {
+              "source_id": "SRC-0235",
+              "temporary_id": "B12-SRC-0235",
+              "title": "Mariana Enriquez gana el premio Ciutat de Barcelona en la categoría Literatura castellana",
+              "original_title": "Mariana Enriquez gana el premio Ciutat de Barcelona",
+              "author_or_editor": "Editorial Anagrama",
+              "translator": "",
+              "publisher": "Editorial Anagrama",
+              "publication_year": "",
+              "isbn": "",
+              "format": "web_page",
+              "page_count": "",
+              "language": "es",
+              "source_level": "B",
+              "processing_status": "access_pass",
+              "source_task": "WEB-CE-B12",
+              "public_content_scope": "Anagrama notice identifies Argentine author Buenos Aires 1973, journalist/subeditor/teacher; Las cosas collection published February 2016; Los peligros earlier Argentine story book",
+              "local_asset_status": "remote_only",
+              "persistent_id": "",
+              "canonical_url": "https://www.anagrama-ed.es/noticias/premios-y-distinciones/mariana-enriquez-gana-el-premio-ciutat-de-barcelona-en-la-categoria-literatura-castellana--282"
+            },
+            {
+              "source_id": "SRC-0236",
+              "temporary_id": "B12-SRC-0236",
+              "title": "Nuestra parte de noche — Mariana Enriquez",
+              "original_title": "Nuestra parte de noche",
+              "author_or_editor": "Editorial Anagrama",
+              "translator": "",
+              "publisher": "Editorial Anagrama",
+              "publication_year": "",
+              "isbn": "",
+              "format": "web_page",
+              "page_count": "",
+              "language": "es",
+              "source_level": "B",
+              "processing_status": "access_pass",
+              "source_task": "WEB-CE-B12",
+              "public_content_scope": "Publisher page identifies title, author, novel form, and Premio Herralde de Novela 2019",
+              "local_asset_status": "remote_only",
+              "persistent_id": "",
+              "canonical_url": "https://www.anagrama-ed.es/libro/narrativas-hispanicas/nuestra-parte-de-noche/9788433998859/NH_636"
+            },
+            {
+              "source_id": "SRC-0237",
+              "temporary_id": "B12-SRC-0237",
+              "title": "Los peligros de fumar en la cama — Mariana Enriquez",
+              "original_title": "Los peligros de fumar en la cama",
+              "author_or_editor": "Editorial Anagrama",
+              "translator": "",
+              "publisher": "Editorial Anagrama",
+              "publication_year": "",
+              "isbn": "",
+              "format": "web_page",
+              "page_count": "",
+              "language": "es",
+              "source_level": "B",
+              "processing_status": "access_pass",
+              "source_task": "WEB-CE-B12",
+              "public_content_scope": "Publisher page identifies title, author, and twelve-story collection form",
+              "local_asset_status": "remote_only",
+              "persistent_id": "",
+              "canonical_url": "https://www.anagrama-ed.es/libro/narrativas-hispanicas/los-peligros-de-fumar-en-la-cama/9788433998248/NH_580"
+            },
+            {
+              "source_id": "SRC-0289",
+              "temporary_id": "WCD03-SRC-09",
+              "title": "床上抽烟危险",
+              "original_title": "Los peligros de fumar en la cama",
+              "author_or_editor": "",
+              "translator": "",
+              "publisher": "对外经济贸易大学图书馆",
+              "publication_year": "2022",
+              "isbn": "",
+              "format": "catalog_record",
+              "page_count": "",
+              "language": "zh",
+              "source_level": "B",
+              "processing_status": "access_pass",
+              "source_task": "WCD-03",
+              "public_content_scope": "Library-catalogue support for 《床上抽烟危险》",
+              "local_asset_status": "remote_only",
+              "persistent_id": "",
+              "canonical_url": "https://opac.uibe.edu.cn/opac/book/1ad3b7b650abb95d05fd46424018d470"
+            }
+          ],
+          "holds": [],
+          "hold_evidence": [],
+          "source_holds": [],
+          "gaps": [
+            {
+              "gap_id": "V1-GAP-0019",
+              "origin_gap_id": "B12-GAP-01-0304",
+              "gap_type": "research_gap",
+              "gap_key": "V1-ENT-0304.first_publication_year",
+              "current_status": "open_research",
+              "evidence_basis": "SRC-0235 and SRC-0237 establish an earlier story collection and form but not original first publication year.",
+              "attempts_or_count": "1",
+              "owner_decision": "SOL_REVIEW",
+              "downstream_effect": "Do not display an uncontested first-publication year; retain work and form in review package.",
+              "issue_code": "RESEARCH-GAP"
+            }
+          ],
+          "fresh_review": "Baseline closure preserved without semantic rewrite.",
+          "remaining": "Source-grade follow-up or exhaustive bibliography is deferred where not directly checked.",
+          "source_author_id": "V1-ENT-0297",
+          "candidate_facts": [
+            {
+              "candidate_id": "WCD10-B15-F203",
+              "subject_id": "V1-ENT-0304",
+              "field": "one_sentence_summary",
+              "value": "十二篇故事以鬼魂、女巫、降灵会和死者归来等恐怖传统为材料，关注潜伏于日常生活中的怪异、欲望与执念。",
+              "source_refs": [
+                "WCD10-B15-S209"
+              ]
+            },
+            {
+              "candidate_id": "WCD10-B15-F204",
+              "subject_id": "V1-ENT-0304",
+              "field": "bibliographic_note",
+              "value": "Anagrama页面列出该出版社版本的出版日为2017-02-01；现有来源未据此确认作品原始首版年份。",
+              "source_refs": [
+                "WCD10-B15-S209"
+              ]
+            }
+          ]
+        },
+        {
+          "object_ref": "WCD10-B15-W201",
+          "candidate_id": "WCD10-B15-W201",
+          "author_id": "V1-ENT-0297",
+          "entity": {
+            "entity_id": "WCD10-B15-W201",
+            "entity_type": "work",
+            "name_zh": "《坠落是最糟的》",
+            "original_name": "Bajar es lo peor",
+            "canonical_status": "candidate",
+            "origin_count": "1",
+            "origin_refs": "WCD10-B15-W201",
+            "normalization_basis": "仅作检索用工作译名，原题为身份锚点。",
+            "issue_codes": "NONE"
+          },
+          "bibliography": "1995",
+          "description": "在20世纪90年代夜色弥漫的布宜诺斯艾利斯，Facundo、Narval与Carolina三个年轻人卷入毒品、暴力、毁灭与爱情。",
+          "research_status": "institutional_commentary",
+          "research_refs": [
+            "WCD10-B15-S201"
+          ],
+          "old_facts": [],
+          "cards": [],
+          "card_facts": [],
+          "card_sources": [],
+          "relations": [],
+          "relationship_sources": [],
+          "relationship_evidence": [],
+          "source_objects": [],
+          "holds": [],
+          "gaps": [],
+          "fresh_review": "Candidate only; not independently reviewed.",
+          "remaining": "Research candidates only; no automatic Curation or public admission.",
+          "source_author_id": "V1-ENT-0297",
+          "candidate_facts": [
+            {
+              "candidate_id": "WCD10-B15-W201-F01",
+              "subject_id": "WCD10-B15-W201",
+              "field": "first_publication_year",
+              "value": "1995",
+              "source_refs": [
+                "WCD10-B15-S201"
+              ]
+            },
+            {
+              "candidate_id": "WCD10-B15-W201-F02",
+              "subject_id": "WCD10-B15-W201",
+              "field": "genre_or_form",
+              "value": "长篇小说",
+              "source_refs": [
+                "WCD10-B15-S201"
+              ]
+            },
+            {
+              "candidate_id": "WCD10-B15-W201-F03",
+              "subject_id": "WCD10-B15-W201",
+              "field": "one_sentence_summary",
+              "value": "在20世纪90年代夜色弥漫的布宜诺斯艾利斯，Facundo、Narval与Carolina三个年轻人卷入毒品、暴力、毁灭与爱情。",
+              "source_refs": [
+                "WCD10-B15-S201"
+              ]
+            }
+          ]
+        },
+        {
+          "object_ref": "WCD10-B15-W202",
+          "candidate_id": "WCD10-B15-W202",
+          "author_id": "V1-ENT-0297",
+          "entity": {
+            "entity_id": "WCD10-B15-W202",
+            "entity_type": "work",
+            "name_zh": "《如何彻底消失》",
+            "original_name": "Cómo desaparecer completamente",
+            "canonical_status": "candidate",
+            "origin_count": "1",
+            "origin_refs": "WCD10-B15-W202",
+            "normalization_basis": "仅作检索用工作译名，原题为身份锚点。",
+            "issue_codes": "NONE"
+          },
+          "bibliography": "2004",
+          "description": "十六岁的Matías Kovac借由哥哥留下的日记和音乐寻找离开边缘生活的路径；小说以其家庭处境和阿根廷经济危机后的社会失序为背景。",
+          "research_status": "institutional_commentary",
+          "research_refs": [
+            "WCD10-B15-S202"
+          ],
+          "old_facts": [],
+          "cards": [],
+          "card_facts": [],
+          "card_sources": [],
+          "relations": [],
+          "relationship_sources": [],
+          "relationship_evidence": [],
+          "source_objects": [],
+          "holds": [],
+          "gaps": [],
+          "fresh_review": "Candidate only; not independently reviewed.",
+          "remaining": "Research candidates only; no automatic Curation or public admission.",
+          "source_author_id": "V1-ENT-0297",
+          "candidate_facts": [
+            {
+              "candidate_id": "WCD10-B15-W202-F01",
+              "subject_id": "WCD10-B15-W202",
+              "field": "first_publication_year",
+              "value": "2004",
+              "source_refs": [
+                "WCD10-B15-S202"
+              ]
+            },
+            {
+              "candidate_id": "WCD10-B15-W202-F02",
+              "subject_id": "WCD10-B15-W202",
+              "field": "genre_or_form",
+              "value": "小说",
+              "source_refs": [
+                "WCD10-B15-S202"
+              ]
+            },
+            {
+              "candidate_id": "WCD10-B15-W202-F03",
+              "subject_id": "WCD10-B15-W202",
+              "field": "one_sentence_summary",
+              "value": "十六岁的Matías Kovac借由哥哥留下的日记和音乐寻找离开边缘生活的路径；小说以其家庭处境和阿根廷经济危机后的社会失序为背景。",
+              "source_refs": [
+                "WCD10-B15-S202"
+              ]
+            }
+          ]
+        },
+        {
+          "object_ref": "WCD10-B15-W203",
+          "candidate_id": "WCD10-B15-W203",
+          "author_id": "V1-ENT-0297",
+          "entity": {
+            "entity_id": "WCD10-B15-W203",
+            "entity_type": "collection",
+            "name_zh": "《阴郁者的阳光之地》",
+            "original_name": "Un lugar soleado para gente sombría",
+            "canonical_status": "candidate",
+            "origin_count": "1",
+            "origin_refs": "WCD10-B15-W203",
+            "normalization_basis": "仅作检索用工作译名，原题为身份锚点。",
+            "issue_codes": "NONE"
+          },
+          "bibliography": "Anagrama页面列本版出版日为2024-03-06；记为该出版社版本日期。",
+          "description": "十二篇故事让鬼魂、失踪者、乡镇衰败和日常生活中的怪异威胁彼此交织。",
+          "research_status": "institutional_commentary",
+          "research_refs": [
+            "WCD10-B15-S203"
+          ],
+          "old_facts": [],
+          "cards": [],
+          "card_facts": [],
+          "card_sources": [],
+          "relations": [],
+          "relationship_sources": [],
+          "relationship_evidence": [],
+          "source_objects": [],
+          "holds": [],
+          "gaps": [],
+          "fresh_review": "Candidate only; not independently reviewed.",
+          "remaining": "Research candidates only; no automatic Curation or public admission.",
+          "source_author_id": "V1-ENT-0297",
+          "candidate_facts": [
+            {
+              "candidate_id": "WCD10-B15-W203-F01",
+              "subject_id": "WCD10-B15-W203",
+              "field": "genre_or_form",
+              "value": "恐怖短篇小说集",
+              "source_refs": [
+                "WCD10-B15-S203"
+              ]
+            },
+            {
+              "candidate_id": "WCD10-B15-W203-F02",
+              "subject_id": "WCD10-B15-W203",
+              "field": "one_sentence_summary",
+              "value": "十二篇故事让鬼魂、失踪者、乡镇衰败和日常生活中的怪异威胁彼此交织。",
+              "source_refs": [
+                "WCD10-B15-S203"
+              ]
+            },
+            {
+              "candidate_id": "WCD10-B15-W203-F03",
+              "subject_id": "WCD10-B15-W203",
+              "field": "bibliographic_note",
+              "value": "Anagrama页面列本版出版日为2024-03-06；记为该出版社版本日期。",
+              "source_refs": [
+                "WCD10-B15-S203"
+              ]
+            }
+          ]
+        },
+        {
+          "object_ref": "WCD10-B15-W204",
+          "candidate_id": "WCD10-B15-W204",
+          "author_id": "V1-ENT-0297",
+          "entity": {
+            "entity_id": "WCD10-B15-W204",
+            "entity_type": "collection",
+            "name_zh": "《另一侧》",
+            "original_name": "El otro lado",
+            "canonical_status": "candidate",
+            "origin_count": "1",
+            "origin_refs": "WCD10-B15-W204",
+            "normalization_basis": "仅作检索用工作译名，原题为身份锚点。",
+            "issue_codes": "NONE"
+          },
+          "bibliography": "Anagrama页面列本版出版日为2022-10-05；记为该出版社版本日期。",
+          "description": "汇集Enríquez的新闻写作，穿插文学与音乐人物肖像、个人经历和文化观察。",
+          "research_status": "institutional_commentary",
+          "research_refs": [
+            "WCD10-B15-S204"
+          ],
+          "old_facts": [],
+          "cards": [],
+          "card_facts": [],
+          "card_sources": [],
+          "relations": [],
+          "relationship_sources": [],
+          "relationship_evidence": [],
+          "source_objects": [],
+          "holds": [],
+          "gaps": [],
+          "fresh_review": "Candidate only; not independently reviewed.",
+          "remaining": "Research candidates only; no automatic Curation or public admission.",
+          "source_author_id": "V1-ENT-0297",
+          "candidate_facts": [
+            {
+              "candidate_id": "WCD10-B15-W204-F01",
+              "subject_id": "WCD10-B15-W204",
+              "field": "genre_or_form",
+              "value": "新闻特写与个人随笔集",
+              "source_refs": [
+                "WCD10-B15-S204"
+              ]
+            },
+            {
+              "candidate_id": "WCD10-B15-W204-F02",
+              "subject_id": "WCD10-B15-W204",
+              "field": "one_sentence_summary",
+              "value": "汇集Enríquez的新闻写作，穿插文学与音乐人物肖像、个人经历和文化观察。",
+              "source_refs": [
+                "WCD10-B15-S204"
+              ]
+            },
+            {
+              "candidate_id": "WCD10-B15-W204-F03",
+              "subject_id": "WCD10-B15-W204",
+              "field": "bibliographic_note",
+              "value": "Anagrama页面列本版出版日为2022-10-05；记为该出版社版本日期。",
+              "source_refs": [
+                "WCD10-B15-S204"
+              ]
+            }
+          ]
+        },
+        {
+          "object_ref": "WCD10-B15-W205",
+          "candidate_id": "WCD10-B15-W205",
+          "author_id": "V1-ENT-0297",
+          "entity": {
+            "entity_id": "WCD10-B15-W205",
+            "entity_type": "collection",
+            "name_zh": "《有人走过你的坟墓》",
+            "original_name": "Alguien camina sobre tu tumba",
+            "canonical_status": "candidate",
+            "origin_count": "1",
+            "origin_refs": "WCD10-B15-W205",
+            "normalization_basis": "仅作检索用工作译名，原题为身份锚点。",
+            "issue_codes": "NONE"
+          },
+          "bibliography": "2014；Anagrama指出本书于2014年先由阿根廷Galerna出版社出版；该版增补行程，墓园数从16处增至24处。",
+          "description": "作者走访巴黎、伦敦、布拉格等地的墓园，以旅行见闻、历史细节和个人叙述记录各地墓地。",
+          "research_status": "institutional_commentary",
+          "research_refs": [
+            "WCD10-B15-S205"
+          ],
+          "old_facts": [],
+          "cards": [],
+          "card_facts": [],
+          "card_sources": [],
+          "relations": [],
+          "relationship_sources": [],
+          "relationship_evidence": [],
+          "source_objects": [],
+          "holds": [],
+          "gaps": [],
+          "fresh_review": "Candidate only; not independently reviewed.",
+          "remaining": "Research candidates only; no automatic Curation or public admission.",
+          "source_author_id": "V1-ENT-0297",
+          "candidate_facts": [
+            {
+              "candidate_id": "WCD10-B15-W205-F01",
+              "subject_id": "WCD10-B15-W205",
+              "field": "first_publication_year",
+              "value": "2014",
+              "source_refs": [
+                "WCD10-B15-S205"
+              ]
+            },
+            {
+              "candidate_id": "WCD10-B15-W205-F02",
+              "subject_id": "WCD10-B15-W205",
+              "field": "genre_or_form",
+              "value": "旅行纪事",
+              "source_refs": [
+                "WCD10-B15-S205"
+              ]
+            },
+            {
+              "candidate_id": "WCD10-B15-W205-F03",
+              "subject_id": "WCD10-B15-W205",
+              "field": "one_sentence_summary",
+              "value": "作者走访巴黎、伦敦、布拉格等地的墓园，以旅行见闻、历史细节和个人叙述记录各地墓地。",
+              "source_refs": [
+                "WCD10-B15-S205"
+              ]
+            },
+            {
+              "candidate_id": "WCD10-B15-W205-F04",
+              "subject_id": "WCD10-B15-W205",
+              "field": "bibliographic_note",
+              "value": "Anagrama指出本书于2014年先由阿根廷Galerna出版社出版；该版增补行程，墓园数从16处增至24处。",
+              "source_refs": [
+                "WCD10-B15-S205"
+              ]
+            }
+          ]
+        },
+        {
+          "object_ref": "WCD10-B15-W206",
+          "candidate_id": "WCD10-B15-W206",
+          "author_id": "V1-ENT-0297",
+          "entity": {
+            "entity_id": "WCD10-B15-W206",
+            "entity_type": "work",
+            "name_zh": "《小妹妹》",
+            "original_name": "La hermana menor",
+            "canonical_status": "candidate",
+            "origin_count": "1",
+            "origin_refs": "WCD10-B15-W206",
+            "normalization_basis": "仅作检索用工作译名，原题为身份锚点。",
+            "issue_codes": "NONE"
+          },
+          "bibliography": "Anagrama页面列本版出版日为2018-06-13；未据此推断原作首版年。",
+          "description": "以书目资料及友人、评论者、亲属和遗嘱执行人的证言，勾勒阿根廷作家Silvina Ocampo的生平与文学形象。",
+          "research_status": "institutional_commentary",
+          "research_refs": [
+            "WCD10-B15-S206"
+          ],
+          "old_facts": [],
+          "cards": [],
+          "card_facts": [],
+          "card_sources": [],
+          "relations": [],
+          "relationship_sources": [],
+          "relationship_evidence": [],
+          "source_objects": [],
+          "holds": [],
+          "gaps": [],
+          "fresh_review": "Candidate only; not independently reviewed.",
+          "remaining": "Research candidates only; no automatic Curation or public admission.",
+          "source_author_id": "V1-ENT-0297",
+          "candidate_facts": [
+            {
+              "candidate_id": "WCD10-B15-W206-F01",
+              "subject_id": "WCD10-B15-W206",
+              "field": "genre_or_form",
+              "value": "文学人物传记/肖像",
+              "source_refs": [
+                "WCD10-B15-S206"
+              ]
+            },
+            {
+              "candidate_id": "WCD10-B15-W206-F02",
+              "subject_id": "WCD10-B15-W206",
+              "field": "one_sentence_summary",
+              "value": "以书目资料及友人、评论者、亲属和遗嘱执行人的证言，勾勒阿根廷作家Silvina Ocampo的生平与文学形象。",
+              "source_refs": [
+                "WCD10-B15-S206"
+              ]
+            },
+            {
+              "candidate_id": "WCD10-B15-W206-F03",
+              "subject_id": "WCD10-B15-W206",
+              "field": "bibliographic_note",
+              "value": "Anagrama页面列本版出版日为2018-06-13；未据此推断原作首版年。",
+              "source_refs": [
+                "WCD10-B15-S206"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "mechanical_history": {
+    "failed_preflight_attempts": [
+      {
+        "attempt": 1,
+        "command": "python3 inline merge/preflight script; exited before any output files were written",
+        "exit_code": 1,
+        "stdout_raw": "",
+        "stderr_raw": "Traceback (most recent call last):\n  File \"<stdin>\", line 39, in <module>\nAttributeError: 'list' object has no attribute 'items'\n"
+      },
+      {
+        "attempt": 2,
+        "command": "python3 inline merge/preflight script; exited before any output files were written",
+        "exit_code": 1,
+        "stdout_raw": "",
+        "stderr_raw": "Traceback (most recent call last):\n  File \"<stdin>\", line 30, in <module>\nAssertionError: inconsistent coverage interface type for author_context\n"
+      }
+    ],
+    "parent_approved_adjustment": "2026-10-13 parent approved mechanical wrapper mapping: merge dict roots; treat Schweblin empty author_context list as no entries; preserve other original root shapes in provenance; copy the two candidate deferred rows unchanged; preserve initial 24-row package; move V1-ENT-0286 author identity row intact to auxiliary_author_coverage; retain 23 work rows in final coverage; preserve all source_scope_decisions and all literary arrays, source profiles, matrix entries and old-work closure data."
+  },
+  "initial_snapshot": {
+    "coverage_rows": 24,
+    "output_sha256": {
+      "CANDIDATES.json": "dbbd4fb6da9c6f36697a0329ab3b321514da2d05c29a0a55600026ab7d4c8011",
+      "COVERAGE.json": "f9885efbce433877b7953a3121cd6f8df5eb153344a4229643b9746459e9754f",
+      "SOURCE_REGISTRATION.json": "849146422dda35ed798d7c2c1c11115cfca176d6d96105443ced4837db80790e",
+      "EVIDENCE_MATRIX.json": "70ef57cd6aaa00825632074608c5d36fcdb628121d4b5558618ecf75309998ca",
+      "DEDUP.json": "15b3cf40e8b43e09ab50593bd873f614012f63b57e88b0fc2164ed119d3ec9a3",
+      "SOURCE_ACCESS_LOG.json": "9742271c48fb85aa5e2a4569713aa360018144486f9c10b51fa09700f7225966"
+    }
+  },
+  "auxiliary_author_coverage": [
+    {
+      "object_ref": "V1-ENT-0286",
+      "entity": {
+        "entity_id": "V1-ENT-0286",
+        "entity_type": "author",
+        "name_zh": "罗贝托·阿尔特",
+        "original_name": "Roberto Arlt",
+        "canonical_status": "candidate",
+        "origin_count": "1",
+        "origin_refs": "CAND-B11-ARLT-AUTHOR",
+        "normalization_basis": "B11 Biblioteca Nacional and Biblioteca del Congreso profiles; Chinese display candidate",
+        "issue_codes": "NONE"
+      },
+      "bibliography": "作者身份对象；本批冻结事实逐值保全。",
+      "description": "既有作者卡不改写。",
+      "research_status": "catalog_only",
+      "research_refs": [
+        "SRC-0229",
+        "SRC-0230"
+      ],
+      "old_facts": [
+        {
+          "fact": {
+            "fact_id": "V1-FCT-0768",
+            "origin_material_id": "WEB-CE-B11",
+            "card_id": "V1-CARD-0174",
+            "subject_id": "V1-ENT-0286",
+            "fact_field": "birth_year",
+            "value_text": "1900",
+            "material_class": "fact",
+            "origin_id": "SRC-0229",
+            "confidence": "high",
+            "admission_status": "candidate_for_staging_review",
+            "usage_note": "Biblioteca Nacional records Arlt born in 1900."
+          },
+          "source_chain": [
+            {
+              "fact_id": "V1-FCT-0768",
+              "source_id": "SRC-0229",
+              "source_title": "26 de abril de 1900: nace Roberto Arlt — Biblioteca Nacional"
+            }
+          ]
+        },
+        {
+          "fact": {
+            "fact_id": "V1-FCT-0769",
+            "origin_material_id": "WEB-CE-B11",
+            "card_id": "V1-CARD-0174",
+            "subject_id": "V1-ENT-0286",
+            "fact_field": "death_year",
+            "value_text": "1942",
+            "material_class": "fact",
+            "origin_id": "SRC-0230",
+            "confidence": "high",
+            "admission_status": "candidate_for_staging_review",
+            "usage_note": "Biblioteca del Congreso records Arlt died in 1942."
+          },
+          "source_chain": [
+            {
+              "fact_id": "V1-FCT-0769",
+              "source_id": "SRC-0230",
+              "source_title": "Roberto Arlt — Biblioteca del Congreso de la Nación"
+            }
+          ]
+        },
+        {
+          "fact": {
+            "fact_id": "V1-FCT-0771",
+            "origin_material_id": "WEB-CE-B11",
+            "card_id": "V1-CARD-0174",
+            "subject_id": "V1-ENT-0286",
+            "fact_field": "country_or_region",
+            "value_text": "阿根廷",
+            "material_class": "fact",
+            "origin_id": "SRC-0229",
+            "confidence": "high",
+            "admission_status": "candidate_for_staging_review",
+            "usage_note": "Biblioteca Nacional presents Arlt as an Argentine writer."
+          },
+          "source_chain": [
+            {
+              "fact_id": "V1-FCT-0771",
+              "source_id": "SRC-0229",
+              "source_title": "26 de abril de 1900: nace Roberto Arlt — Biblioteca Nacional"
+            }
+          ]
+        },
+        {
+          "fact": {
+            "fact_id": "V1-FCT-0772",
+            "origin_material_id": "WEB-CE-B11",
+            "card_id": "V1-CARD-0174",
+            "subject_id": "V1-ENT-0286",
+            "fact_field": "career_note",
+            "value_text": "小说家、记者与剧作家",
+            "material_class": "fact",
+            "origin_id": "SRC-0230",
+            "confidence": "high",
+            "admission_status": "candidate_for_staging_review",
+            "usage_note": "Biblioteca del Congreso records novels, journalism and theatre."
+          },
+          "source_chain": [
+            {
+              "fact_id": "V1-FCT-0772",
+              "source_id": "SRC-0230",
+              "source_title": "Roberto Arlt — Biblioteca del Congreso de la Nación"
+            }
+          ]
+        },
+        {
+          "fact": {
+            "fact_id": "V1-FCT-0773",
+            "origin_material_id": "WEB-CE-B11",
+            "card_id": "V1-CARD-0174",
+            "subject_id": "V1-ENT-0286",
+            "fact_field": "literary_identity",
+            "value_text": "小说、新闻与戏剧作者",
+            "material_class": "fact",
+            "origin_id": "SRC-0230",
+            "confidence": "medium",
+            "admission_status": "candidate_for_staging_review",
+            "usage_note": "Description stays at forms listed in the institutional profile."
+          },
+          "source_chain": [
+            {
+              "fact_id": "V1-FCT-0773",
+              "source_id": "SRC-0230",
+              "source_title": "Roberto Arlt — Biblioteca del Congreso de la Nación"
+            }
+          ]
+        }
+      ],
+      "cards": [
+        {
+          "card_id": "V1-CARD-0174",
+          "origin_card_id": "",
+          "subject_id": "V1-ENT-0286",
+          "card_type": "author",
+          "title_zh": "罗贝托·阿尔特",
+          "author_label": "罗贝托·阿尔特",
+          "original_title": "Roberto Arlt",
+          "country_or_region": "阿根廷",
+          "language": "es",
+          "period_bucket": "1900–1942",
+          "genre_or_form": "小说、新闻与戏剧",
+          "input_layer": "WEB-CE-B11",
+          "source_minimum_status": "meets",
+          "issue_code": "NONE",
+          "content_markdown": "### 罗贝托·阿尔特｜Roberto Arlt — 以国家图书馆与国会图书馆年表建立都市小说入口。"
+        }
+      ],
+      "card_facts": [
+        {
+          "card_id": "V1-CARD-0174",
+          "fact_id": "V1-FCT-0768",
+          "admission_status": "candidate_for_staging_review"
+        },
+        {
+          "card_id": "V1-CARD-0174",
+          "fact_id": "V1-FCT-0769",
+          "admission_status": "candidate_for_staging_review"
+        },
+        {
+          "card_id": "V1-CARD-0174",
+          "fact_id": "V1-FCT-0771",
+          "admission_status": "candidate_for_staging_review"
+        },
+        {
+          "card_id": "V1-CARD-0174",
+          "fact_id": "V1-FCT-0772",
+          "admission_status": "candidate_for_staging_review"
+        },
+        {
+          "card_id": "V1-CARD-0174",
+          "fact_id": "V1-FCT-0773",
+          "admission_status": "candidate_for_staging_review"
+        }
+      ],
+      "card_sources": [
+        {
+          "card_source_id": "V1-CS-0348",
+          "origin_matrix_id": "",
+          "card_id": "V1-CARD-0174",
+          "source_id": "SRC-0229",
+          "source_level": "B",
+          "source_role": "both",
+          "bibliographic_support": "yes",
+          "research_support": "yes",
+          "independent_source_key": "SRC-0229",
+          "usage_status": "used",
+          "issue_code": "NONE"
+        },
+        {
+          "card_source_id": "V1-CS-0349",
+          "origin_matrix_id": "",
+          "card_id": "V1-CARD-0174",
+          "source_id": "SRC-0230",
+          "source_level": "B",
+          "source_role": "both",
+          "bibliographic_support": "yes",
+          "research_support": "yes",
+          "independent_source_key": "SRC-0230",
+          "usage_status": "used",
+          "issue_code": "NONE"
+        }
+      ],
+      "relations": [
+        {
+          "relationship_id": "V1-REL-0218",
+          "origin_layer": "WEB-CE-B11",
+          "origin_relation_group_id": "CAND-B11-0218",
+          "subject_id": "V1-ENT-0286",
+          "relation_type": "CREATED",
+          "object_id": "V1-ENT-0293",
+          "description_zh": "罗贝托·阿尔特创作《七个疯子》（Los siete locos）",
+          "confidence": "high",
+          "review_status": "accepted",
+          "upstream_review_status": "WEB-CE-B11",
+          "evidence_count": "1",
+          "issue_code": "NONE"
+        },
+        {
+          "relationship_id": "V1-REL-0219",
+          "origin_layer": "WEB-CE-B11",
+          "origin_relation_group_id": "CAND-B11-0219",
+          "subject_id": "V1-ENT-0286",
+          "relation_type": "CREATED",
+          "object_id": "V1-ENT-0294",
+          "description_zh": "罗贝托·阿尔特创作《火焰喷射器》（Los lanzallamas）",
+          "confidence": "high",
+          "review_status": "accepted",
+          "upstream_review_status": "WEB-CE-B11",
+          "evidence_count": "1",
+          "issue_code": "NONE"
+        },
+        {
+          "relationship_id": "V1-REL-0220",
+          "origin_layer": "WEB-CE-B11",
+          "origin_relation_group_id": "CAND-B11-0220",
+          "subject_id": "V1-ENT-0286",
+          "relation_type": "CREATED",
+          "object_id": "V1-ENT-0295",
+          "description_zh": "罗贝托·阿尔特创作《疯玩具》（El juguete rabioso）",
+          "confidence": "high",
+          "review_status": "accepted",
+          "upstream_review_status": "WEB-CE-B11",
+          "evidence_count": "1",
+          "issue_code": "NONE"
+        },
+        {
+          "relationship_id": "V1-REL-0223",
+          "origin_layer": "WEB-CE-B11",
+          "origin_relation_group_id": "CAND-B11-0223",
+          "subject_id": "V1-ENT-0286",
+          "relation_type": "ASSOCIATED_WITH_PLACE",
+          "object_id": "V1-ENT-0001",
+          "description_zh": "罗贝托·阿尔特与阿根廷关联",
+          "confidence": "high",
+          "review_status": "accepted",
+          "upstream_review_status": "WEB-CE-B11",
+          "evidence_count": "1",
+          "issue_code": "NONE"
+        }
+      ],
+      "relationship_sources": [
+        {
+          "relationship_id": "V1-REL-0218",
+          "source_id": "SRC-0229"
+        },
+        {
+          "relationship_id": "V1-REL-0219",
+          "source_id": "SRC-0230"
+        },
+        {
+          "relationship_id": "V1-REL-0220",
+          "source_id": "SRC-0229"
+        },
+        {
+          "relationship_id": "V1-REL-0223",
+          "source_id": "SRC-0229"
+        }
+      ],
+      "relationship_evidence": [
+        {
+          "evidence_id": "V1-EV-0243",
+          "relationship_id": "V1-REL-0218",
+          "origin_evidence_id": "CAND-B11-0218",
+          "source_id": "SRC-0229",
+          "source_title": "26 de abril de 1900: nace Roberto Arlt — Biblioteca Nacional",
+          "locator": "",
+          "evidence_note": "Biblioteca Nacional page lists Los siete locos as an Arlt novel.",
+          "confidence": "high",
+          "evidence_status": "eligible_evidence",
+          "evidence_origin": "WEB-CE-B11"
+        },
+        {
+          "evidence_id": "V1-EV-0244",
+          "relationship_id": "V1-REL-0219",
+          "origin_evidence_id": "CAND-B11-0219",
+          "source_id": "SRC-0230",
+          "source_title": "Roberto Arlt — Biblioteca del Congreso de la Nación",
+          "locator": "",
+          "evidence_note": "Biblioteca del Congreso chronology lists Los lanzallamas under Arlt.",
+          "confidence": "high",
+          "evidence_status": "eligible_evidence",
+          "evidence_origin": "WEB-CE-B11"
+        },
+        {
+          "evidence_id": "V1-EV-0245",
+          "relationship_id": "V1-REL-0220",
+          "origin_evidence_id": "CAND-B11-0220",
+          "source_id": "SRC-0229",
+          "source_title": "26 de abril de 1900: nace Roberto Arlt — Biblioteca Nacional",
+          "locator": "",
+          "evidence_note": "Biblioteca Nacional page lists El juguete rabioso as Arlt first novel.",
+          "confidence": "high",
+          "evidence_status": "eligible_evidence",
+          "evidence_origin": "WEB-CE-B11"
+        },
+        {
+          "evidence_id": "V1-EV-0248",
+          "relationship_id": "V1-REL-0223",
+          "origin_evidence_id": "CAND-B11-0223",
+          "source_id": "SRC-0229",
+          "source_title": "26 de abril de 1900: nace Roberto Arlt — Biblioteca Nacional",
+          "locator": "",
+          "evidence_note": "Biblioteca Nacional presents Arlt as an Argentine writer.",
+          "confidence": "high",
+          "evidence_status": "eligible_evidence",
+          "evidence_origin": "WEB-CE-B11"
+        }
+      ],
+      "source_objects": [
+        {
+          "source_id": "SRC-0229",
+          "temporary_id": "B11-SRC-0229",
+          "title": "26 de abril de 1900: nace Roberto Arlt — Biblioteca Nacional",
+          "original_title": "26 de abril de 1900: nace Roberto Arlt",
+          "author_or_editor": "Biblioteca Nacional Mariano Moreno",
+          "translator": "",
+          "publisher": "Biblioteca Nacional Mariano Moreno",
+          "publication_year": "",
+          "isbn": "",
+          "format": "web_page",
+          "page_count": "",
+          "language": "es",
+          "source_level": "B",
+          "processing_status": "access_pass",
+          "source_task": "WEB-CE-B11",
+          "public_content_scope": "Arlt identity, 1900–1942, and 1926/1929/1931 novels",
+          "local_asset_status": "remote_only",
+          "persistent_id": "",
+          "canonical_url": "https://www.bn.gov.ar/noticias/26-de-abril-de-1900-nace-roberto-arlt"
+        },
+        {
+          "source_id": "SRC-0230",
+          "temporary_id": "B11-SRC-0230",
+          "title": "Roberto Arlt — Biblioteca del Congreso de la Nación",
+          "original_title": "Roberto Arlt",
+          "author_or_editor": "Biblioteca del Congreso de la Nación Argentina",
+          "translator": "",
+          "publisher": "Biblioteca del Congreso de la Nación",
+          "publication_year": "",
+          "isbn": "",
+          "format": "web_page",
+          "page_count": "",
+          "language": "es",
+          "source_level": "B",
+          "processing_status": "access_pass",
+          "source_task": "WEB-CE-B11",
+          "public_content_scope": "Arlt identity, publication chronology, and novel sequence",
+          "local_asset_status": "remote_only",
+          "persistent_id": "",
+          "canonical_url": "https://bcn.gob.ar/roberto-arlt"
+        }
+      ],
+      "holds": [],
+      "relation_hold_evidence": [],
+      "gaps": [],
+      "fresh_review": "作者既有来源链按冻结SQLite完整快照。",
+      "remaining": "作品目录仍为本批有来源边界的增补，不主张全集覆盖。"
+    }
+  ],
+  "final_adjustment": {
+    "removed_from_main_roster": "V1-ENT-0286",
+    "reason": "Arlt author identity row, not a work coverage row.",
+    "row_preserved_verbatim": true,
+    "final_main_coverage_rows": 23,
+    "author_order": [
+      "V1-ENT-0286",
+      "V1-ENT-0296",
+      "V1-ENT-0297"
+    ]
+  },
+  "final_output_sha256": {
+    "CANDIDATES.json": "dbbd4fb6da9c6f36697a0329ab3b321514da2d05c29a0a55600026ab7d4c8011",
+    "COVERAGE.json": "7c6d14da771dbb74d75782e032441c04f5868ec29293b8f68d82718e4f40c0ba",
+    "SOURCE_REGISTRATION.json": "849146422dda35ed798d7c2c1c11115cfca176d6d96105443ced4837db80790e",
+    "EVIDENCE_MATRIX.json": "70ef57cd6aaa00825632074608c5d36fcdb628121d4b5558618ecf75309998ca",
+    "DEDUP.json": "15b3cf40e8b43e09ab50593bd873f614012f63b57e88b0fc2164ed119d3ec9a3",
+    "SOURCE_ACCESS_LOG.json": "9742271c48fb85aa5e2a4569713aa360018144486f9c10b51fa09700f7225966"
+  },
+  "final_provenance_self_sha256_note": "Self SHA-256 is reported externally in ROOT B15/INTEGRATOR_MERGE.json to avoid recursive embedding.",
+  "mechanical_validator": {
+    "argv": [
+      "/opt/homebrew/opt/python@3.14/bin/python3.14",
+      "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/work/codex-worktrees/latin-american-literature-map-wcd10/scripts/validate_wcd10_candidates.py",
+      "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/work/codex-worktrees/latin-american-literature-map-wcd10/data/changesets/WCD-10/B15/CANDIDATES.json",
+      "--repo",
+      "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/work/codex-worktrees/latin-american-literature-map-wcd10",
+      "--report",
+      "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/project/internal/WCD_10_WORKSPACE/B15/INTEGRATOR_VALIDATOR_REPORT.json"
+    ],
+    "command_shlex": "/opt/homebrew/opt/python@3.14/bin/python3.14 '/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/work/codex-worktrees/latin-american-literature-map-wcd10/scripts/validate_wcd10_candidates.py' '/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/work/codex-worktrees/latin-american-literature-map-wcd10/data/changesets/WCD-10/B15/CANDIDATES.json' --repo '/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/work/codex-worktrees/latin-american-literature-map-wcd10' --report '/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/project/internal/WCD_10_WORKSPACE/B15/INTEGRATOR_VALIDATOR_REPORT.json'",
+    "resolved_runtime": "/opt/homebrew/Cellar/python@3.14/3.14.5/Frameworks/Python.framework/Versions/3.14/bin/python3.14",
+    "cwd": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图",
+    "exit_code": 0,
+    "candidate_sha256": "dbbd4fb6da9c6f36697a0329ab3b321514da2d05c29a0a55600026ab7d4c8011",
+    "validator_script_sha256": "94c10c38fad639caf5311d68ed0f0c04a16bc9a57fcd7f0c8df9f5962485133a",
+    "raw_stdout_sha256": "688963706cfb00222a11fd3fc06838a59edb18238b85c4ece8b9e8d917f06ad6",
+    "raw_stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "report_sha256": "21151f3a0ffb6f7af704f0eabeb64a73c92c10915ab581cb43404e688a6df954",
+    "evidence_path": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/project/internal/WCD_10_WORKSPACE/B15/INTEGRATOR_VALIDATION.json"
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "task_id": "TASK-127",
+  "batch_id": "WCD-10-B05",
+  "baseline_database_sha256": "559b1858b7b5e647b4b313f841be8d2960cf3a5eacf2a2dd92c6161668da706c",
+  "accessed_at": "2026-10-15",
+  "source_year_policy": "仅记录页面发表年；作品版本年份不代替网页出版年。",
+  "profiles": [
+    {
+      "candidate_id": "WCD10-B05-S07",
+      "publisher": "Nobel Prize Outreach",
+      "format": "nobel_bibliography_page",
+      "language": "en",
+      "author_or_editor": "Nobel Prize Outreach / NobelPrize.org",
+      "source_level": "B",
+      "title": "Octavio Paz – Bibliography",
+      "publication_year": "",
+      "notes": "复用SRC-0099完整既有来源行；不改元数据。 access_status OPENED represents successful B05 historical access on 2026-10-07, not a fresh 2026-10-15 access.",
+      "reuse_existing_source": "SRC-0099",
+      "related_existing_source": "SRC-0099",
+      "disposition": "reuse"
+    },
+    {
+      "candidate_id": "WCD10-B05-S12",
+      "publisher": "Nobel Prize Outreach",
+      "format": "institutional_biography",
+      "language": "en",
+      "author_or_editor": "Nobel Prize Outreach",
+      "source_level": "B",
+      "title": "Octavio Paz – Biographical",
+      "publication_year": "",
+      "notes": "复用SRC-0300完整既有来源行；不改元数据。 access_status OPENED represents successful B05 historical access on 2026-10-07, not a fresh 2026-10-15 access.",
+      "reuse_existing_source": "SRC-0300",
+      "related_existing_source": "SRC-0300",
+      "disposition": "reuse"
+    },
+    {
+      "candidate_id": "WCD10-B05-S18",
+      "publisher": "Fundación de las Letras Mexicanas / elem.mx",
+      "format": "encyclopedia_work_article",
+      "language": "es",
+      "author_or_editor": "Enciclopedia de la Literatura en México / FLM",
+      "source_level": "B",
+      "title": "El mono gramático - Detalle de la obra",
+      "publication_year": "",
+      "date_purpose": "页面未显示可核实的文章发布日期；2014为版本链接信息，不作为网页发表年。",
+      "notes": "ELEM 8815；历史实读日2026-10-07；2026-10-15重开超时。仅书目事实和短篇幅释义。 access_status OPENED represents historical B05 successful access on 2026-10-07; fresh reopen 2026-10-15 timed out.",
+      "disposition": "fresh_registration"
+    }
+  ],
+  "verified_by": "GPT-6 Luna (TASK-127 W03 reentry candidate producer)",
+  "copyright_boundary": "仅保存必要书目信息和简短释义；不复制原作全文、扫描件、网页资产或PDF。",
+  "public_content_scope": "Research候选，独立审核和Curation准入前不得公开。",
+  "local_asset_status": "remote_only；未下载或保存来源资产。"
+}

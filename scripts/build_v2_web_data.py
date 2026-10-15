@@ -100,6 +100,14 @@ def split_refs(value: str | None) -> list[str]:
     return [item.strip() for item in value.split(";") if item.strip()]
 
 
+def is_research_only(item: dict[str, Any]) -> bool:
+    """WCD-10 checkpoints never acquire public admission from a public subject."""
+    return item.get("issue_code") == "RESEARCH-ONLY-NOT-CURATED" or any(
+        str(item.get(field) or "").startswith("WCD-10-")
+        for field in ("origin_id", "origin_layer", "input_layer")
+    )
+
+
 def number_or_none(value: str | None) -> float | None:
     if value in (None, ""):
         return None
@@ -786,6 +794,12 @@ def build_data(db_path: Path, geo_dir: Path, curation_dir: Path, presentation_pa
     for relation in relations:
         relations_by_subject[relation["subject_id"]].append(relation)
         relations_by_object[relation["object_id"]].append(relation)
+    # Keep the complete research/page indexes above. All reader-facing derivations
+    # use a separate view: a public entity is not approval for newly added facts.
+    public_cards_by_subject = {key: [row for row in values if not is_research_only(row)] for key, values in cards_by_subject.items()}
+    public_facts_by_subject = {key: [row for row in values if not is_research_only(row)] for key, values in facts_by_subject.items()}
+    public_relations_by_subject = {key: [row for row in values if not is_research_only(row)] for key, values in relations_by_subject.items()}
+    public_relations_by_object = {key: [row for row in values if not is_research_only(row)] for key, values in relations_by_object.items()}
     evidence_by_relation: dict[str, list[dict[str, Any]]] = defaultdict(list)
     for evidence in relation_evidence:
         evidence_by_relation[evidence["relationship_id"]].append(evidence)
@@ -912,13 +926,13 @@ def build_data(db_path: Path, geo_dir: Path, curation_dir: Path, presentation_pa
         target_id = entity["entity_id"]
         if target_id not in full_work_card_ids or target_id not in content_work_ids:
             continue
-        if relations_by_object[target_id]:
+        if public_relations_by_object[target_id]:
             public_work_ids.add(target_id)
     public_author_ids = {
         entity["entity_id"] for entity in page_entities["authors"]
         if entity["entity_id"] in full_author_card_ids
         and entity["entity_id"] in content_author_ids
-        and sum(relation["relation_type"] == "CREATED" for relation in relations_by_subject[entity["entity_id"]]) >= 2
+        and sum(relation["relation_type"] == "CREATED" for relation in public_relations_by_subject[entity["entity_id"]]) >= 2
     }
     public_place_ids = {
         item["place_id"] for item in places_for_web
@@ -928,7 +942,7 @@ def build_data(db_path: Path, geo_dir: Path, curation_dir: Path, presentation_pa
     public_node_ids = {
         entity["entity_id"] for entity in entities
         if entity["entity_type"] in {"theme", "movement"}
-        and (relations_by_subject.get(entity["entity_id"]) or relations_by_object.get(entity["entity_id"]))
+        and (public_relations_by_subject.get(entity["entity_id"]) or public_relations_by_object.get(entity["entity_id"]))
     }
     public_page_ids = public_author_ids | public_work_ids | public_place_ids | public_node_ids
 
@@ -936,9 +950,9 @@ def build_data(db_path: Path, geo_dir: Path, curation_dir: Path, presentation_pa
         content_public,
         curation_public,
         entity_by_id,
-        facts_by_subject,
-        relations_by_subject,
-        relations_by_object,
+        public_facts_by_subject,
+        public_relations_by_subject,
+        public_relations_by_object,
         public_author_ids,
         public_work_ids,
         public_place_ids,
@@ -964,9 +978,9 @@ def build_data(db_path: Path, geo_dir: Path, curation_dir: Path, presentation_pa
     presentation_public["discovery"] = build_discovery_ranking(
         content_public,
         reader_content,
-        facts_by_subject,
-        relations_by_subject,
-        relations_by_object,
+        public_facts_by_subject,
+        public_relations_by_subject,
+        public_relations_by_object,
         public_author_ids,
         public_work_ids,
         presentation_public,
@@ -975,6 +989,8 @@ def build_data(db_path: Path, geo_dir: Path, curation_dir: Path, presentation_pa
     search_index = []
     graph_neighbors: dict[str, set[str]] = defaultdict(set)
     for relation in relations:
+        if is_research_only(relation):
+            continue
         graph_neighbors[relation["subject_id"]].add(relation["object_id"])
         graph_neighbors[relation["object_id"]].add(relation["subject_id"])
     for relation in place_relations:
@@ -983,7 +999,7 @@ def build_data(db_path: Path, geo_dir: Path, curation_dir: Path, presentation_pa
     for entity in entities:
         if entity["entity_id"] not in public_page_ids:
             continue
-        cards_for_entity = cards_by_subject.get(entity["entity_id"], [])
+        cards_for_entity = public_cards_by_subject.get(entity["entity_id"], [])
         card_titles = [card["title_zh"] for card in cards_for_entity if card.get("title_zh")]
         card_context = [value for card in cards_for_entity for value in (card.get("country_or_region"), card.get("period_bucket")) if value]
         mapped_place = place_by_entity_id.get(entity["entity_id"])
@@ -1035,7 +1051,7 @@ def build_data(db_path: Path, geo_dir: Path, curation_dir: Path, presentation_pa
             }
         )
     for work in page_entities["works"]:
-        work_facts = facts_by_subject.get(work["entity_id"], [])
+        work_facts = (public_facts_by_subject if work["entity_id"] in public_work_ids else facts_by_subject).get(work["entity_id"], [])
         year_fact = next((fact for fact in work_facts if fact["fact_field"] in {"first_publication_year", "publication_year"}), None)
         card = cards_by_subject.get(work["entity_id"], [None])[0]
         timeline_nodes.append(

@@ -1,0 +1,1445 @@
+{
+  "task_id": "TASK-106",
+  "batch_id": "WCD-10-B01",
+  "candidate_review": {
+    "task_id": "TASK-106",
+    "reviewer": "wcd10_b01_review",
+    "reviewed_at": "2026-09-26",
+    "review_scope": "Candidate content and source identity only; registration and generated migration require separate review before application.",
+    "packages": [
+      {
+        "file": "CANDIDATES.json",
+        "sha256": "46b0739aa42e57a5e5b7598907de02a5205e83abd667c373582435ec2ffb092a",
+        "verdict": "PASS"
+      },
+      {
+        "file": "SUPPLEMENT.json",
+        "sha256": "afca3a2a81012943fd92fef4babd4207abaa6dec1e8cc8be03f38e0e46a12e3d",
+        "verdict": "PASS"
+      }
+    ],
+    "baseline_database_sha256": "a8c54e3c0e04a347f310d7f0f969dfba758f575008fa64c1789e43b26bf378cc",
+    "boundaries": [
+      "Research only; no Curation approval, public expansion or release",
+      "1979 UNAM book edition is not asserted to be the first book edition",
+      "IMS container/subpage and CVC exhibition pages cannot be counted as independent second interpretations",
+      "S24 historical individual peer review and conflicting license labels remain NOT_VERIFIED",
+      "S19/S20 are used only for unresolved object/edition scope and are not source admission candidates in this migration"
+    ]
+  },
+  "registration_sha256": "adb2a168f2b82bffcdddef563b27d1af00e88d0a94d961f5c87e161a280ac65a",
+  "migration_status": "PREPARED_PENDING_INDEPENDENT_SQL_REVIEW",
+  "id_map": {
+    "WCD10-B01-S01": "SRC-0317",
+    "WCD10-B01-S02": "SRC-0318",
+    "WCD10-B01-S03": "SRC-0319",
+    "WCD10-B01-S04": "SRC-0320",
+    "WCD10-B01-S05": "SRC-0321",
+    "WCD10-B01-S06": "SRC-0322",
+    "WCD10-B01-S07": "SRC-0323",
+    "WCD10-B01-S08": "SRC-0324",
+    "WCD10-B01-S09": "SRC-0325",
+    "WCD10-B01-S10": "SRC-0326",
+    "WCD10-B01-S11": "SRC-0327",
+    "WCD10-B01-S12": "SRC-0328",
+    "WCD10-B01-S13": "SRC-0329",
+    "WCD10-B01-S14": "SRC-0330",
+    "WCD10-B01-S15": "SRC-0331",
+    "WCD10-B01-S16": "SRC-0332",
+    "WCD10-B01-S17": "SRC-0333",
+    "WCD10-B01-S18": "SRC-0334",
+    "WCD10-B01-S21": "SRC-0335",
+    "WCD10-B01-S22": "SRC-0336",
+    "WCD10-B01-S23": "SRC-0337",
+    "WCD10-B01-S24": "SRC-0338",
+    "WCD10-B01-S25": "SRC-0339",
+    "WCD10-B01-S26": "SRC-0340",
+    "WCD10-B01-S27": "SRC-0341",
+    "WCD10-B01-W01": "V1-ENT-0380",
+    "WCD10-B01-W02": "V1-ENT-0381",
+    "WCD10-B01-W03": "V1-ENT-0382",
+    "WCD10-B01-W04": "V1-ENT-0383",
+    "WCD10-B01-W05": "V1-ENT-0384",
+    "WCD10-B01-W06": "V1-ENT-0385",
+    "WCD10-B01-W07": "V1-ENT-0386",
+    "WCD10-B01-W08": "V1-ENT-0387",
+    "WCD10-B01-W09": "V1-ENT-0388",
+    "WCD10-B01-W10": "V1-ENT-0389",
+    "WCD10-B01-W01-F01": "V1-FCT-1034",
+    "WCD10-B01-W01-F02": "V1-FCT-1035",
+    "WCD10-B01-W01-F03": "V1-FCT-1036",
+    "WCD10-B01-W02-F01": "V1-FCT-1037",
+    "WCD10-B01-W02-F02": "V1-FCT-1038",
+    "WCD10-B01-W02-F03": "V1-FCT-1039",
+    "WCD10-B01-W03-F01": "V1-FCT-1040",
+    "WCD10-B01-W03-F02": "V1-FCT-1041",
+    "WCD10-B01-W03-F03": "V1-FCT-1042",
+    "WCD10-B01-W04-F01": "V1-FCT-1043",
+    "WCD10-B01-W04-F02": "V1-FCT-1044",
+    "WCD10-B01-W04-F03": "V1-FCT-1045",
+    "WCD10-B01-W05-F01": "V1-FCT-1046",
+    "WCD10-B01-W05-F02": "V1-FCT-1047",
+    "WCD10-B01-W05-F03": "V1-FCT-1048",
+    "WCD10-B01-W06-F01": "V1-FCT-1049",
+    "WCD10-B01-W06-F02": "V1-FCT-1050",
+    "WCD10-B01-W06-F03": "V1-FCT-1051",
+    "WCD10-B01-W07-F01": "V1-FCT-1052",
+    "WCD10-B01-W07-F02": "V1-FCT-1053",
+    "WCD10-B01-W07-F03": "V1-FCT-1054",
+    "WCD10-B01-W08-F01": "V1-FCT-1055",
+    "WCD10-B01-W08-F02": "V1-FCT-1056",
+    "WCD10-B01-W08-F03": "V1-FCT-1057",
+    "WCD10-B01-W09-F01": "V1-FCT-1058",
+    "WCD10-B01-W09-F02": "V1-FCT-1059",
+    "WCD10-B01-W09-F03": "V1-FCT-1060",
+    "WCD10-B01-W10-F01": "V1-FCT-1061",
+    "WCD10-B01-W10-F02": "V1-FCT-1062",
+    "WCD10-B01-W10-F03": "V1-FCT-1063",
+    "WCD10-B01-F01": "V1-FCT-1064",
+    "WCD10-B01-F14": "V1-FCT-1065",
+    "WCD10-B01-F15": "V1-FCT-1066",
+    "WCD10-B01-F02": "V1-FCT-1067",
+    "WCD10-B01-F03": "V1-FCT-1068",
+    "WCD10-B01-F04": "V1-FCT-1069",
+    "WCD10-B01-F05": "V1-FCT-1070",
+    "WCD10-B01-F06": "V1-FCT-1071",
+    "WCD10-B01-F07": "V1-FCT-1072",
+    "WCD10-B01-F08": "V1-FCT-1073",
+    "WCD10-B01-F09": "V1-FCT-1074",
+    "WCD10-B01-F10": "V1-FCT-1075",
+    "WCD10-B01-F11": "V1-FCT-1076",
+    "WCD10-B01-F12": "V1-FCT-1077",
+    "WCD10-B01-F16": "V1-FCT-1078",
+    "WCD10-B01-F13": "V1-FCT-1079",
+    "WCD10-B01-F17": "V1-FCT-1080",
+    "WCD10-B01-F18": "V1-FCT-1081",
+    "WCD10-B01-F19": "V1-FCT-1082",
+    "WCD10-B01-W01-CREATED": "V1-REL-0337",
+    "WCD10-B01-W02-CREATED": "V1-REL-0338",
+    "WCD10-B01-W03-CREATED": "V1-REL-0339",
+    "WCD10-B01-W04-CREATED": "V1-REL-0340",
+    "WCD10-B01-W05-CREATED": "V1-REL-0341",
+    "WCD10-B01-W06-CREATED": "V1-REL-0342",
+    "WCD10-B01-W07-CREATED": "V1-REL-0343",
+    "WCD10-B01-W08-CREATED": "V1-REL-0344",
+    "WCD10-B01-W09-CREATED": "V1-REL-0345",
+    "WCD10-B01-W10-CREATED": "V1-REL-0346",
+    "WCD10-B01-R01": "V1-REL-0347"
+  },
+  "coverage_sha256": "a976218827c047b4a8cc005418d23e4a83d0fbbc7d0ba1145548e03cd2de4428",
+  "coverage": {
+    "task_id": "TASK-106",
+    "scope": "16 existing works/collections plus 10 reviewed additions; bounded execution audit, not complete bibliography or closed scholarly coverage",
+    "author_descriptions": "Existing source-linked author summaries for V1-ENT-0002/0016/0029 retained; no author biography or interpretation rewritten, and no author-level judgment down-projected to works.",
+    "research_policy": "catalog_only and institutional_commentary do not mean scholarly research complete. preserved_existing means legacy admitted research retained, not newly re-reviewed. No pre-existing hold is promoted.",
+    "objects": [
+      {
+        "object_ref": "V1-ENT-0003",
+        "bibliography": "existing_retained",
+        "description": "existing_retained",
+        "research_status": "preserved_existing",
+        "research_refs": [
+          "SRC-0002"
+        ],
+        "remaining": "既有解释性关系hold保持；本批不重开既有检索预算。",
+        "formal_subject_id": "V1-ENT-0003"
+      },
+      {
+        "object_ref": "V1-ENT-0004",
+        "bibliography": "existing_retained_1945_single_story",
+        "description": "existing_retained",
+        "research_status": "preserved_existing",
+        "research_refs": [
+          "SRC-0002",
+          "SRC-0008"
+        ],
+        "remaining": "与1949合集分开；既有主题hold不升级。",
+        "formal_subject_id": "V1-ENT-0004"
+      },
+      {
+        "object_ref": "V1-ENT-0011",
+        "bibliography": "existing_retained",
+        "description": "F13_reviewed",
+        "research_status": "catalog_only",
+        "research_refs": [
+          "WCD10-B01-S21"
+        ],
+        "remaining": "合集级独立学术研究OPEN；当代再版篇数不倒推1944初版。",
+        "formal_subject_id": "V1-ENT-0011",
+        "gap_id": "V1-GAP-0030"
+      },
+      {
+        "object_ref": "V1-ENT-0012",
+        "bibliography": "F01_F14_reviewed_1949_collection",
+        "description": "F15_reviewed",
+        "research_status": "catalog_only",
+        "research_refs": [
+          "WCD10-B01-S13",
+          "WCD10-B01-S22"
+        ],
+        "remaining": "合集级学术研究OPEN；同名短篇研究不能替代。",
+        "formal_subject_id": "V1-ENT-0012",
+        "gap_id": "V1-GAP-0031"
+      },
+      {
+        "object_ref": "V1-ENT-0162",
+        "bibliography": "existing_retained",
+        "description": "F19_reviewed",
+        "research_status": "catalog_only",
+        "research_refs": [
+          "SRC-0103",
+          "WCD10-B01-S27"
+        ],
+        "remaining": "El libro de arena合集级A级研究OPEN，不下推同名单篇情节或场景。",
+        "formal_subject_id": "V1-ENT-0162",
+        "gap_id": "V1-GAP-0032"
+      },
+      {
+        "object_ref": "V1-ENT-0163",
+        "bibliography": "F12_reviewed",
+        "description": "F16_reviewed",
+        "research_status": "catalog_only",
+        "research_refs": [
+          "SRC-0104",
+          "WCD10-B01-S17",
+          "WCD10-B01-S23"
+        ],
+        "remaining": "合集级学术研究OPEN，1986合订书目不作1970首版依据。",
+        "formal_subject_id": "V1-ENT-0163",
+        "gap_id": "V1-GAP-0033"
+      },
+      {
+        "object_ref": "V1-ENT-0017",
+        "bibliography": "existing_retained",
+        "description": "existing_retained",
+        "research_status": "preserved_existing",
+        "research_refs": [
+          "SRC-0011"
+        ],
+        "remaining": "既有复合主题hold保持，不因本批梗概准入关闭。",
+        "formal_subject_id": "V1-ENT-0017"
+      },
+      {
+        "object_ref": "V1-ENT-0018",
+        "bibliography": "existing_retained",
+        "description": "existing_retained",
+        "research_status": "preserved_existing",
+        "research_refs": [
+          "SRC-0012"
+        ],
+        "remaining": "已有对象级研究沿用；不重新确立单源解释关系。",
+        "formal_subject_id": "V1-ENT-0018"
+      },
+      {
+        "object_ref": "V1-ENT-0019",
+        "bibliography": "existing_retained",
+        "description": "existing_retained",
+        "research_status": "preserved_existing",
+        "research_refs": [
+          "SRC-0013"
+        ],
+        "remaining": "集合对象研究沿用，既有单源主题hold保持。",
+        "formal_subject_id": "V1-ENT-0019"
+      },
+      {
+        "object_ref": "V1-ENT-0020",
+        "bibliography": "F02_F03_reviewed",
+        "description": "F04_reviewed",
+        "research_status": "institutional_commentary",
+        "research_refs": [
+          "WCD10-B01-S14"
+        ],
+        "remaining": "新增专门作品介绍为B级；既有作者简介不是独立第二研究，学术研究OPEN。",
+        "formal_subject_id": "V1-ENT-0020",
+        "gap_id": "V1-GAP-0034"
+      },
+      {
+        "object_ref": "V1-ENT-0026",
+        "bibliography": "F05_F06_reviewed",
+        "description": "F07_reviewed",
+        "research_status": "institutional_commentary",
+        "research_refs": [
+          "WCD10-B01-S15"
+        ],
+        "remaining": "身后出版与虚构叙述者边界已审；独立学术研究OPEN。",
+        "formal_subject_id": "V1-ENT-0026",
+        "gap_id": "V1-GAP-0035"
+      },
+      {
+        "object_ref": "V1-ENT-0166",
+        "bibliography": "existing_retained",
+        "description": "F17_reviewed",
+        "research_status": "institutional_commentary",
+        "research_refs": [
+          "WCD10-B01-S18"
+        ],
+        "remaining": "合集级学术研究OPEN；不作作者自传确定性声明。",
+        "formal_subject_id": "V1-ENT-0166",
+        "gap_id": "V1-GAP-0036"
+      },
+      {
+        "object_ref": "V1-ENT-0032",
+        "bibliography": "existing_retained",
+        "description": "existing_retained",
+        "research_status": "preserved_existing",
+        "research_refs": [
+          "SRC-0019"
+        ],
+        "remaining": "既有作品级研究沿用，B级简介不关闭事件/主题准入门禁。",
+        "formal_subject_id": "V1-ENT-0032"
+      },
+      {
+        "object_ref": "V1-ENT-0033",
+        "bibliography": "existing_retained",
+        "description": "existing_retained",
+        "research_status": "catalog_only",
+        "research_refs": [
+          "SRC-0021"
+        ],
+        "remaining": "La semana de colores作品集级A级研究OPEN；不把单篇或会议活动页当作合集研究。",
+        "formal_subject_id": "V1-ENT-0033",
+        "gap_id": "V1-GAP-0037"
+      },
+      {
+        "object_ref": "V1-ENT-0034",
+        "bibliography": "existing_retained_with_gap",
+        "description": "F18_attributed_research_note_not_summary",
+        "research_status": "reviewed_attributed_study",
+        "research_refs": [
+          "WCD10-B01-S24"
+        ],
+        "remaining": "Testimonios sobre Mariana出版信息既有gap未整体关闭；不迁移现实人物指控/自传关系。",
+        "formal_subject_id": "V1-ENT-0034"
+      },
+      {
+        "object_ref": "V1-ENT-0045",
+        "bibliography": "F08_F09_F10_reviewed",
+        "description": "F11_reviewed",
+        "research_status": "institutional_commentary",
+        "research_refs": [
+          "WCD10-B01-S16"
+        ],
+        "remaining": "首书版、A级事件关系证据及事件端点仍hold；独立学术研究OPEN。",
+        "formal_subject_id": "V1-ENT-0045",
+        "gap_id": "V1-GAP-0038"
+      },
+      {
+        "object_ref": "WCD10-B01-W01",
+        "bibliography": "reviewed",
+        "description": "reviewed_bibliographic_overview",
+        "research_status": "catalog_only",
+        "research_refs": [
+          "WCD10-B01-S01",
+          "WCD10-B01-S04"
+        ],
+        "remaining": "诗集对象级学术研究OPEN；首部诗集概述不冒充主题研究。",
+        "formal_subject_id": "V1-ENT-0380",
+        "gap_id": "V1-GAP-0039"
+      },
+      {
+        "object_ref": "WCD10-B01-W02",
+        "bibliography": "reviewed",
+        "description": "reviewed_collection_premise",
+        "research_status": "catalog_only",
+        "research_refs": [
+          "WCD10-B01-S04",
+          "WCD10-B01-S05"
+        ],
+        "remaining": "集合对象级学术研究OPEN；出版者简介不形成解释性关系。",
+        "formal_subject_id": "V1-ENT-0381",
+        "gap_id": "V1-GAP-0040"
+      },
+      {
+        "object_ref": "WCD10-B01-W03",
+        "bibliography": "reviewed",
+        "description": "reviewed_collection_overview",
+        "research_status": "catalog_only",
+        "research_refs": [
+          "WCD10-B01-S06"
+        ],
+        "remaining": "复合合集对象级学术研究OPEN；不拆无证据子实体。",
+        "formal_subject_id": "V1-ENT-0382",
+        "gap_id": "V1-GAP-0041"
+      },
+      {
+        "object_ref": "WCD10-B01-W04",
+        "bibliography": "reviewed",
+        "description": "reviewed_premise",
+        "research_status": "institutional_commentary",
+        "research_refs": [
+          "WCD10-B01-S07"
+        ],
+        "remaining": "机构署名作品介绍，不伪称同行评議；独立学术研究OPEN。",
+        "formal_subject_id": "V1-ENT-0383",
+        "gap_id": "V1-GAP-0042"
+      },
+      {
+        "object_ref": "WCD10-B01-W05",
+        "bibliography": "reviewed",
+        "description": "reviewed_premise",
+        "research_status": "institutional_commentary",
+        "research_refs": [
+          "WCD10-B01-S08"
+        ],
+        "remaining": "源站旁支G.H.错年排除；独立学术研究OPEN。",
+        "formal_subject_id": "V1-ENT-0384",
+        "gap_id": "V1-GAP-0043"
+      },
+      {
+        "object_ref": "WCD10-B01-W06",
+        "bibliography": "reviewed",
+        "description": "reviewed_premise_and_direct_setting",
+        "research_status": "institutional_commentary",
+        "research_refs": [
+          "WCD10-B01-S09"
+        ],
+        "remaining": "直接SET_IN可准入，亲密关系解释不升级主题；独立学术研究OPEN。",
+        "formal_subject_id": "V1-ENT-0385",
+        "gap_id": "V1-GAP-0044"
+      },
+      {
+        "object_ref": "WCD10-B01-W07",
+        "bibliography": "reviewed",
+        "description": "reviewed_bibliographic_overview",
+        "research_status": "catalog_only",
+        "research_refs": [
+          "WCD10-B01-S10"
+        ],
+        "remaining": "1980合集对象级学术研究OPEN；封底不作ELEM独立学术结论。",
+        "formal_subject_id": "V1-ENT-0386",
+        "gap_id": "V1-GAP-0045"
+      },
+      {
+        "object_ref": "WCD10-B01-W08",
+        "bibliography": "reviewed",
+        "description": "reviewed_premise",
+        "research_status": "catalog_only",
+        "research_refs": [
+          "WCD10-B01-S11"
+        ],
+        "remaining": "独立学术研究及回应作品的双源/端点OPEN。",
+        "formal_subject_id": "V1-ENT-0387",
+        "gap_id": "V1-GAP-0046"
+      },
+      {
+        "object_ref": "WCD10-B01-W09",
+        "bibliography": "reviewed",
+        "description": "reviewed_premise",
+        "research_status": "catalog_only",
+        "research_refs": [
+          "WCD10-B01-S12"
+        ],
+        "remaining": "独立学术研究OPEN；1993版封底不冒充1983初版目录。",
+        "formal_subject_id": "V1-ENT-0388",
+        "gap_id": "V1-GAP-0047"
+      },
+      {
+        "object_ref": "WCD10-B01-W10",
+        "bibliography": "reviewed",
+        "description": "reviewed_collection_overview",
+        "research_status": "catalog_only",
+        "research_refs": [
+          "WCD10-B01-S25",
+          "WCD10-B01-S26"
+        ],
+        "remaining": "馆藏随笔介绍为B级；合集级学术研究OPEN，不混1925同类题名作品。",
+        "formal_subject_id": "V1-ENT-0389",
+        "gap_id": "V1-GAP-0048"
+      }
+    ]
+  },
+  "metadata_hash_boundary": "metadata.sha256 is the unchanged V1.0.0 historical snapshot table-hash set, not a current-table digest. Current integrity uses baseline database SHA, reviewed SQL SHA, migration log, replay and deterministic exports.",
+  "sources": [
+    {
+      "candidate_id": "WCD10-B01-S01",
+      "source_id": "SRC-0317",
+      "scope_decision": {
+        "candidate_ids": [
+          "WCD10-B01-S01",
+          "WCD10-B01-S02",
+          "WCD10-B01-S03",
+          "WCD10-B01-S13",
+          "WCD10-B01-S17"
+        ],
+        "related_existing_source": "SRC-0296",
+        "disposition": "keep_separate",
+        "reason": "与现有1921页面不同的具体书目/年表条目，同出一个展览；不当作独立文学解释来源。"
+      },
+      "accessed_at": "2026-09-26",
+      "verified_by": "CODEX-DATA; wcd10_b01_review independently checked source identity and content",
+      "copyright_boundary": "Only metadata, original paraphrase and necessary short quotations. No cover, PDF, full text or source image republished. Source access date, locator and source-specific uncertainties remain in the reviewed candidate records.",
+      "locator": "Obras de Borges, 1923; Fervor de Buenos Aires entry",
+      "usage": "作者归属、原文题名、1923 年书目；不支持主题关系",
+      "notes": ""
+    },
+    {
+      "candidate_id": "WCD10-B01-S02",
+      "source_id": "SRC-0318",
+      "scope_decision": {
+        "candidate_ids": [
+          "WCD10-B01-S01",
+          "WCD10-B01-S02",
+          "WCD10-B01-S03",
+          "WCD10-B01-S13",
+          "WCD10-B01-S17"
+        ],
+        "related_existing_source": "SRC-0296",
+        "disposition": "keep_separate",
+        "reason": "与现有1921页面不同的具体书目/年表条目，同出一个展览；不当作独立文学解释来源。"
+      },
+      "accessed_at": "2026-09-26",
+      "verified_by": "CODEX-DATA; wcd10_b01_review independently checked source identity and content",
+      "copyright_boundary": "Only metadata, original paraphrase and necessary short quotations. No cover, PDF, full text or source image republished. Source access date, locator and source-specific uncertainties remain in the reviewed candidate records.",
+      "locator": "Historia universal de la infamia entry",
+      "usage": "1935 年书目及作者归属",
+      "notes": ""
+    },
+    {
+      "candidate_id": "WCD10-B01-S03",
+      "source_id": "SRC-0319",
+      "scope_decision": {
+        "candidate_ids": [
+          "WCD10-B01-S01",
+          "WCD10-B01-S02",
+          "WCD10-B01-S03",
+          "WCD10-B01-S13",
+          "WCD10-B01-S17"
+        ],
+        "related_existing_source": "SRC-0296",
+        "disposition": "keep_separate",
+        "reason": "与现有1921页面不同的具体书目/年表条目，同出一个展览；不当作独立文学解释来源。"
+      },
+      "accessed_at": "2026-09-26",
+      "verified_by": "CODEX-DATA; wcd10_b01_review independently checked source identity and content",
+      "copyright_boundary": "Only metadata, original paraphrase and necessary short quotations. No cover, PDF, full text or source image republished. Source access date, locator and source-specific uncertainties remain in the reviewed candidate records.",
+      "locator": "El hacedor, Emecé, 1960 entry",
+      "usage": "只取 El hacedor 条目，不将同页 Otras inquisiciones 再版日期作为首版",
+      "notes": ""
+    },
+    {
+      "candidate_id": "WCD10-B01-S04",
+      "source_id": "SRC-0320",
+      "scope_decision": {},
+      "accessed_at": "2026-09-26",
+      "verified_by": "CODEX-DATA; wcd10_b01_review independently checked source identity and content",
+      "copyright_boundary": "Only metadata, original paraphrase and necessary short quotations. No cover, PDF, full text or source image republished. Source access date, locator and source-specific uncertainties remain in the reviewed candidate records.",
+      "locator": "Biografía, first-book paragraph",
+      "usage": "Fervor 为诗集及首部诗集；Historia universal 为短篇集合；不是独立作品级学术研究",
+      "notes": ""
+    },
+    {
+      "candidate_id": "WCD10-B01-S05",
+      "source_id": "SRC-0321",
+      "scope_decision": {},
+      "accessed_at": "2026-09-26",
+      "verified_by": "CODEX-DATA; wcd10_b01_review independently checked source identity and content",
+      "copyright_boundary": "Only metadata, original paraphrase and necessary short quotations. No cover, PDF, full text or source image republished. Source access date, locator and source-specific uncertainties remain in the reviewed candidate records.",
+      "locator": "Sinopsis; Ficha Técnica",
+      "usage": "集合层级与简明内容；页面 2004 是具体再版，不取作首版；不复制宣传评价",
+      "notes": ""
+    },
+    {
+      "candidate_id": "WCD10-B01-S06",
+      "source_id": "SRC-0322",
+      "scope_decision": {
+        "notes": "Spanish book description in an English-language website interface; 2013 is the catalogued edition date, not the page-publication date."
+      },
+      "accessed_at": "2026-09-26",
+      "verified_by": "CODEX-DATA; wcd10_b01_review independently checked source identity and content",
+      "copyright_boundary": "Only metadata, original paraphrase and necessary short quotations. No cover, PDF, full text or source image republished. Source access date, locator and source-specific uncertainties remain in the reviewed candidate records.",
+      "locator": "Book Description",
+      "usage": "诗、短篇、随笔复合集合；2013 是再版日期，不取作首版；不保存封面",
+      "notes": "Spanish book description in an English-language website interface; 2013 is the catalogued edition date, not the page-publication date."
+    },
+    {
+      "candidate_id": "WCD10-B01-S07",
+      "source_id": "SRC-0323",
+      "scope_decision": {
+        "candidate_ids": [
+          "WCD10-B01-S07",
+          "WCD10-B01-S08",
+          "WCD10-B01-S09",
+          "WCD10-B01-S15",
+          "WCD10-B01-S18"
+        ],
+        "related_existing_source": "SRC-0009",
+        "disposition": "keep_separate",
+        "reason": "具体署名作品介绍分别可识别，与 IMS 专题容器范围重叠；容器与子页不能作为双独立研究，不重复分配同一文章来源。"
+      },
+      "accessed_at": "2026-09-26",
+      "verified_by": "CODEX-DATA; wcd10_b01_review independently checked source identity and content",
+      "copyright_boundary": "Only metadata, original paraphrase and necessary short quotations. No cover, PDF, full text or source image republished. Source access date, locator and source-specific uncertainties remain in the reviewed candidate records.",
+      "locator": "Romance / 1943; Joana paragraph",
+      "usage": "书目、人物与叙事梗概；机构署名评论不冒充同行评议研究",
+      "notes": ""
+    },
+    {
+      "candidate_id": "WCD10-B01-S08",
+      "source_id": "SRC-0324",
+      "scope_decision": {
+        "candidate_ids": [
+          "WCD10-B01-S07",
+          "WCD10-B01-S08",
+          "WCD10-B01-S09",
+          "WCD10-B01-S15",
+          "WCD10-B01-S18"
+        ],
+        "related_existing_source": "SRC-0009",
+        "disposition": "keep_separate",
+        "reason": "具体署名作品介绍分别可识别，与 IMS 专题容器范围重叠；容器与子页不能作为双独立研究，不重复分配同一文章来源。"
+      },
+      "accessed_at": "2026-09-26",
+      "verified_by": "CODEX-DATA; wcd10_b01_review independently checked source identity and content",
+      "copyright_boundary": "Only metadata, original paraphrase and necessary short quotations. No cover, PDF, full text or source image republished. Source access date, locator and source-specific uncertainties remain in the reviewed candidate records.",
+      "locator": "Romance / 1961; Martim paragraph",
+      "usage": "只取本对象 1961 和 Martim 梗概；正文将 A paixão segundo G.H. 写成 1943，旁支错年排除",
+      "notes": ""
+    },
+    {
+      "candidate_id": "WCD10-B01-S09",
+      "source_id": "SRC-0325",
+      "scope_decision": {
+        "candidate_ids": [
+          "WCD10-B01-S07",
+          "WCD10-B01-S08",
+          "WCD10-B01-S09",
+          "WCD10-B01-S15",
+          "WCD10-B01-S18"
+        ],
+        "related_existing_source": "SRC-0009",
+        "disposition": "keep_separate",
+        "reason": "具体署名作品介绍分别可识别，与 IMS 专题容器范围重叠；容器与子页不能作为双独立研究，不重复分配同一文章来源。"
+      },
+      "accessed_at": "2026-09-26",
+      "verified_by": "CODEX-DATA; wcd10_b01_review independently checked source identity and content",
+      "copyright_boundary": "Only metadata, original paraphrase and necessary short quotations. No cover, PDF, full text or source image republished. Source access date, locator and source-specific uncertainties remain in the reviewed candidate records.",
+      "locator": "Romance / 1969; opening Loreley paragraph",
+      "usage": "书目、Lóri/Ulisses 故事、里约场景；不升级为解释性关系",
+      "notes": ""
+    },
+    {
+      "candidate_id": "WCD10-B01-S10",
+      "source_id": "SRC-0326",
+      "scope_decision": {},
+      "accessed_at": "2026-09-26",
+      "verified_by": "CODEX-DATA; wcd10_b01_review independently checked source identity and content",
+      "copyright_boundary": "Only metadata, original paraphrase and necessary short quotations. No cover, PDF, full text or source image republished. Source access date, locator and source-specific uncertainties remain in the reviewed candidate records.",
+      "locator": "PRIMERA EDICIÓN; CONTRAPORTADA 1980",
+      "usage": "1980 首版、短篇集合；封底作为出版者梗概，不当作 ELEM 独立学术结论",
+      "notes": ""
+    },
+    {
+      "candidate_id": "WCD10-B01-S11",
+      "source_id": "SRC-0327",
+      "scope_decision": {},
+      "accessed_at": "2026-09-26",
+      "verified_by": "CODEX-DATA; wcd10_b01_review independently checked source identity and content",
+      "copyright_boundary": "Only metadata, original paraphrase and necessary short quotations. No cover, PDF, full text or source image republished. Source access date, locator and source-specific uncertainties remain in the reviewed candidate records.",
+      "locator": "PRIMERA EDICIÓN; CONTRAPORTADA 2019",
+      "usage": "1982 年、小说、Frank/Verónica 梗概；不同版 ISBN 不合并成原作属性；涉及婚姻的评论不使用",
+      "notes": ""
+    },
+    {
+      "candidate_id": "WCD10-B01-S12",
+      "source_id": "SRC-0328",
+      "scope_decision": {},
+      "accessed_at": "2026-09-26",
+      "verified_by": "CODEX-DATA; wcd10_b01_review independently checked source identity and content",
+      "copyright_boundary": "Only metadata, original paraphrase and necessary short quotations. No cover, PDF, full text or source image republished. Source access date, locator and source-specific uncertainties remain in the reviewed candidate records.",
+      "locator": "PRIMERA EDICIÓN; CONTRAPORTADA 1993",
+      "usage": "1983 首版、小说及出版者梗概；1993 为再版，不写成首版",
+      "notes": ""
+    },
+    {
+      "candidate_id": "WCD10-B01-S13",
+      "source_id": "SRC-0329",
+      "scope_decision": {
+        "candidate_ids": [
+          "WCD10-B01-S01",
+          "WCD10-B01-S02",
+          "WCD10-B01-S03",
+          "WCD10-B01-S13",
+          "WCD10-B01-S17"
+        ],
+        "related_existing_source": "SRC-0296",
+        "disposition": "keep_separate",
+        "reason": "与现有1921页面不同的具体书目/年表条目，同出一个展览；不当作独立文学解释来源。"
+      },
+      "accessed_at": "2026-09-26",
+      "verified_by": "CODEX-DATA; wcd10_b01_review independently checked source identity and content",
+      "copyright_boundary": "Only metadata, original paraphrase and necessary short quotations. No cover, PDF, full text or source image republished. Source access date, locator and source-specific uncertainties remain in the reviewed candidate records.",
+      "locator": "El Aleph, Buenos Aires, Losada, 1949",
+      "usage": "仅补现有 collection V1-ENT-0012；不能覆盖短篇 V1-ENT-0004 的 1945",
+      "notes": ""
+    },
+    {
+      "candidate_id": "WCD10-B01-S14",
+      "source_id": "SRC-0330",
+      "scope_decision": {
+        "candidate_ids": [
+          "WCD10-B01-S14"
+        ],
+        "related_existing_source": "SRC-0009",
+        "disposition": "keep_separate",
+        "reason": "Martha Alkmin 专门作品介绍，区别于既有 Vida 简介证据；仍同属 IMS 专题，不当作独立第二研究来源。"
+      },
+      "accessed_at": "2026-09-26",
+      "verified_by": "CODEX-DATA; wcd10_b01_review independently checked source identity and content",
+      "copyright_boundary": "Only metadata, original paraphrase and necessary short quotations. No cover, PDF, full text or source image republished. Source access date, locator and source-specific uncertainties remain in the reviewed candidate records.",
+      "locator": "Romance / 1964; first-person G.H. paragraph",
+      "usage": "补现有 V1-ENT-0020；本对象页面支持 1964，不取其他页错年",
+      "notes": ""
+    },
+    {
+      "candidate_id": "WCD10-B01-S15",
+      "source_id": "SRC-0331",
+      "scope_decision": {
+        "candidate_ids": [
+          "WCD10-B01-S07",
+          "WCD10-B01-S08",
+          "WCD10-B01-S09",
+          "WCD10-B01-S15",
+          "WCD10-B01-S18"
+        ],
+        "related_existing_source": "SRC-0009",
+        "disposition": "keep_separate",
+        "reason": "具体署名作品介绍分别可识别，与 IMS 专题容器范围重叠；容器与子页不能作为双独立研究，不重复分配同一文章来源。"
+      },
+      "accessed_at": "2026-09-26",
+      "verified_by": "CODEX-DATA; wcd10_b01_review independently checked source identity and content",
+      "copyright_boundary": "Only metadata, original paraphrase and necessary short quotations. No cover, PDF, full text or source image republished. Source access date, locator and source-specific uncertainties remain in the reviewed candidate records.",
+      "locator": "Romance / 1978; posthumous-publication and Angela paragraphs",
+      "usage": "补现有 V1-ENT-0026 的出版、身后刊行与梗概；1974 是写作起点，不作首版",
+      "notes": ""
+    },
+    {
+      "candidate_id": "WCD10-B01-S16",
+      "source_id": "SRC-0332",
+      "scope_decision": {},
+      "accessed_at": "2026-09-26",
+      "verified_by": "CODEX-DATA; wcd10_b01_review independently checked source identity and content",
+      "copyright_boundary": "Only metadata, original paraphrase and necessary short quotations. No cover, PDF, full text or source image republished. Source access date, locator and source-specific uncertainties remain in the reviewed candidate records.",
+      "locator": "Introducción; Coatl 1967 / UNAM 1979 paragraph",
+      "usage": "戏剧、审判场景及首刊/书版分层；不据 B 级评论建立 BASED_ON_EVENT；来源生年旁支不用于作家事实",
+      "notes": ""
+    },
+    {
+      "candidate_id": "WCD10-B01-S17",
+      "source_id": "SRC-0333",
+      "scope_decision": {
+        "candidate_ids": [
+          "WCD10-B01-S01",
+          "WCD10-B01-S02",
+          "WCD10-B01-S03",
+          "WCD10-B01-S13",
+          "WCD10-B01-S17"
+        ],
+        "related_existing_source": "SRC-0296",
+        "disposition": "keep_separate",
+        "reason": "与现有1921页面不同的具体书目/年表条目，同出一个展览；不当作独立文学解释来源。"
+      },
+      "accessed_at": "2026-09-26",
+      "verified_by": "CODEX-DATA; wcd10_b01_review independently checked source identity and content",
+      "copyright_boundary": "Only metadata, original paraphrase and necessary short quotations. No cover, PDF, full text or source image republished. Source access date, locator and source-specific uncertainties remain in the reviewed candidate records.",
+      "locator": "1970, Obras borgianas: El informe de Brodie",
+      "usage": "补现有 Brodie collection 年份；对应 obras/1970b 页本轮 robots 阻塞，不作为已打开来源",
+      "notes": ""
+    },
+    {
+      "candidate_id": "WCD10-B01-S18",
+      "source_id": "SRC-0334",
+      "scope_decision": {
+        "candidate_ids": [
+          "WCD10-B01-S07",
+          "WCD10-B01-S08",
+          "WCD10-B01-S09",
+          "WCD10-B01-S15",
+          "WCD10-B01-S18"
+        ],
+        "related_existing_source": "SRC-0009",
+        "disposition": "keep_separate",
+        "reason": "具体署名作品介绍分别可识别，与 IMS 专题容器范围重叠；容器与子页不能作为双独立研究，不重复分配同一文章来源。"
+      },
+      "accessed_at": "2026-09-26",
+      "verified_by": "CODEX-DATA; wcd10_b01_review independently checked source identity and content",
+      "copyright_boundary": "Only metadata, original paraphrase and necessary short quotations. No cover, PDF, full text or source image republished. Source access date, locator and source-specific uncertainties remain in the reviewed candidate records.",
+      "locator": "Contos / 1971; opening paragraph",
+      "usage": "阅读、亲吻和日常感知的内容释义；不重复现有首版事实，不把自传争论写成既定事实",
+      "notes": ""
+    },
+    {
+      "candidate_id": "WCD10-B01-S21",
+      "source_id": "SRC-0335",
+      "scope_decision": {},
+      "accessed_at": "2026-09-26",
+      "verified_by": "CODEX-DATA; wcd10_b01_review independently checked source identity and content",
+      "copyright_boundary": "Only metadata, original paraphrase and necessary short quotations. No cover, PDF, full text or source image republished. Source access date, locator and source-specific uncertainties remain in the reviewed candidate records.",
+      "locator": "Sinopsis: Aquí se encuentran lo policiaco…",
+      "usage": "只取列举的小说与题材作集合描述；不取宣传评价、版本篇数或评价性影响关系",
+      "notes": ""
+    },
+    {
+      "candidate_id": "WCD10-B01-S22",
+      "source_id": "SRC-0336",
+      "scope_decision": {},
+      "accessed_at": "2026-09-26",
+      "verified_by": "CODEX-DATA; wcd10_b01_review independently checked source identity and content",
+      "copyright_boundary": "Only metadata, original paraphrase and necessary short quotations. No cover, PDF, full text or source image republished. Source access date, locator and source-specific uncertainties remain in the reviewed candidate records.",
+      "locator": "Sinopsis: Con excepción…; 1945 story / 1949 book paragraph",
+      "usage": "集合体裁和所列故事的对象描述；2026 再版不当作首版，同名短篇不合并",
+      "notes": ""
+    },
+    {
+      "candidate_id": "WCD10-B01-S23",
+      "source_id": "SRC-0337",
+      "scope_decision": {},
+      "accessed_at": "2026-09-26",
+      "verified_by": "CODEX-DATA; wcd10_b01_review independently checked source identity and content",
+      "copyright_boundary": "Only metadata, original paraphrase and necessary short quotations. No cover, PDF, full text or source image republished. Source access date, locator and source-specific uncertainties remain in the reviewed candidate records.",
+      "locator": "Sinopsis: Gran parte de estos cuentos…; Once relatos…",
+      "usage": "集合中的对峙、决斗场景释义；不建立主题关系，不采用宣传性作者评价",
+      "notes": ""
+    },
+    {
+      "candidate_id": "WCD10-B01-S24",
+      "source_id": "SRC-0338",
+      "scope_decision": {
+        "notes": "PDF author Patricia Rosas Lopátegui and University of New Mexico affiliation take precedence over conflicting OJS metadata. Individual historical peer-review process NOT_VERIFIED; conflicting license labels do not authorize full-text reuse."
+      },
+      "accessed_at": "2026-09-26",
+      "verified_by": "CODEX-DATA; wcd10_b01_review independently checked source identity and content",
+      "copyright_boundary": "Only metadata, original paraphrase and necessary short quotations. No cover, PDF, full text or source image republished. Source access date, locator and source-specific uncertainties remain in the reviewed candidate records.",
+      "locator": "2007, no. 8, PDF pp. 8–12, La vida de una novela: El pre-texto y el texto; https://erevistas.uacj.mx/ojs/index.php/cuadfront/article/download/3194/2781/12541",
+      "usage": "独立 Reviewer 接受 A 用于 F18 署名研究说明；不将自传对应、现实人物指控升级为事实或关系，不复用原文长引文",
+      "notes": "PDF author Patricia Rosas Lopátegui and University of New Mexico affiliation take precedence over conflicting OJS metadata. Individual historical peer-review process NOT_VERIFIED; conflicting license labels do not authorize full-text reuse."
+    },
+    {
+      "candidate_id": "WCD10-B01-S25",
+      "source_id": "SRC-0339",
+      "scope_decision": {
+        "related_existing_source": "SRC-0296",
+        "disposition": "keep_separate",
+        "notes": "Different concrete exhibition page; not an independent second interpretation source."
+      },
+      "accessed_at": "2026-09-26",
+      "verified_by": "CODEX-DATA; wcd10_b01_review independently checked source identity and content",
+      "copyright_boundary": "Only metadata, original paraphrase and necessary short quotations. No cover, PDF, full text or source image republished. Source access date, locator and source-specific uncertainties remain in the reviewed candidate records.",
+      "locator": "Otras inquisiciones, Buenos Aires, Sur, 1952",
+      "usage": "作者、原文题名和首版书目；1937–1952 是标题/写作收集范围，不是合并首版年",
+      "notes": "Different concrete exhibition page; not an independent second interpretation source."
+    },
+    {
+      "candidate_id": "WCD10-B01-S26",
+      "source_id": "SRC-0340",
+      "scope_decision": {
+        "notes": "Signed Pablo Alvarez, dated 2008-03-24; first-edition collection commentary, not peer-reviewed scholarship."
+      },
+      "accessed_at": "2026-09-26",
+      "verified_by": "CODEX-DATA; wcd10_b01_review independently checked source identity and content",
+      "copyright_boundary": "Only metadata, original paraphrase and necessary short quotations. No cover, PDF, full text or source image republished. Source access date, locator and source-specific uncertainties remain in the reviewed candidate records.",
+      "locator": "2008-03-24; first-edition and thirty-nine essays paragraphs",
+      "usage": "大学馆藏初版介绍及集合内容；不冒充同行评议论文，不把例述旁支作品的版次写入它们的首版事实",
+      "notes": "Signed Pablo Alvarez, dated 2008-03-24; first-edition collection commentary, not peer-reviewed scholarship."
+    },
+    {
+      "candidate_id": "WCD10-B01-S27",
+      "source_id": "SRC-0341",
+      "scope_decision": {
+        "related_existing_source": "SRC-0103",
+        "disposition": "keep_separate",
+        "notes": "Publisher description differs from BnF bibliographic record; 2023 is the catalogued edition date, not verified page-publication date."
+      },
+      "accessed_at": "2026-09-26",
+      "verified_by": "CODEX-DATA; wcd10_b01_review independently checked source identity and content",
+      "copyright_boundary": "Only metadata, original paraphrase and necessary short quotations. No cover, PDF, full text or source image republished. Source access date, locator and source-specific uncertainties remain in the reviewed candidate records.",
+      "locator": "Descripción: Trece piezas…; El otro / Ulrica / El Congreso / Undr paragraphs",
+      "usage": "1975 短篇集合的对象级描述；2023 是当代版本，不能据同名短篇情节把合集指向国家图书馆或单一主题",
+      "notes": "Publisher description differs from BnF bibliographic record; 2023 is the catalogued edition date, not verified page-publication date."
+    }
+  ],
+  "facts": [
+    {
+      "candidate_id": "WCD10-B01-W01-F01",
+      "fact_id": "V1-FCT-1034",
+      "subject_id": "V1-ENT-0380",
+      "field": "first_publication_year"
+    },
+    {
+      "candidate_id": "WCD10-B01-W01-F02",
+      "fact_id": "V1-FCT-1035",
+      "subject_id": "V1-ENT-0380",
+      "field": "genre_or_form"
+    },
+    {
+      "candidate_id": "WCD10-B01-W01-F03",
+      "fact_id": "V1-FCT-1036",
+      "subject_id": "V1-ENT-0380",
+      "field": "one_sentence_summary"
+    },
+    {
+      "candidate_id": "WCD10-B01-W02-F01",
+      "fact_id": "V1-FCT-1037",
+      "subject_id": "V1-ENT-0381",
+      "field": "first_publication_year"
+    },
+    {
+      "candidate_id": "WCD10-B01-W02-F02",
+      "fact_id": "V1-FCT-1038",
+      "subject_id": "V1-ENT-0381",
+      "field": "genre_or_form"
+    },
+    {
+      "candidate_id": "WCD10-B01-W02-F03",
+      "fact_id": "V1-FCT-1039",
+      "subject_id": "V1-ENT-0381",
+      "field": "story_premise"
+    },
+    {
+      "candidate_id": "WCD10-B01-W03-F01",
+      "fact_id": "V1-FCT-1040",
+      "subject_id": "V1-ENT-0382",
+      "field": "first_publication_year"
+    },
+    {
+      "candidate_id": "WCD10-B01-W03-F02",
+      "fact_id": "V1-FCT-1041",
+      "subject_id": "V1-ENT-0382",
+      "field": "genre_or_form"
+    },
+    {
+      "candidate_id": "WCD10-B01-W03-F03",
+      "fact_id": "V1-FCT-1042",
+      "subject_id": "V1-ENT-0382",
+      "field": "one_sentence_summary"
+    },
+    {
+      "candidate_id": "WCD10-B01-W04-F01",
+      "fact_id": "V1-FCT-1043",
+      "subject_id": "V1-ENT-0383",
+      "field": "first_publication_year"
+    },
+    {
+      "candidate_id": "WCD10-B01-W04-F02",
+      "fact_id": "V1-FCT-1044",
+      "subject_id": "V1-ENT-0383",
+      "field": "genre_or_form"
+    },
+    {
+      "candidate_id": "WCD10-B01-W04-F03",
+      "fact_id": "V1-FCT-1045",
+      "subject_id": "V1-ENT-0383",
+      "field": "story_premise"
+    },
+    {
+      "candidate_id": "WCD10-B01-W05-F01",
+      "fact_id": "V1-FCT-1046",
+      "subject_id": "V1-ENT-0384",
+      "field": "first_publication_year"
+    },
+    {
+      "candidate_id": "WCD10-B01-W05-F02",
+      "fact_id": "V1-FCT-1047",
+      "subject_id": "V1-ENT-0384",
+      "field": "genre_or_form"
+    },
+    {
+      "candidate_id": "WCD10-B01-W05-F03",
+      "fact_id": "V1-FCT-1048",
+      "subject_id": "V1-ENT-0384",
+      "field": "story_premise"
+    },
+    {
+      "candidate_id": "WCD10-B01-W06-F01",
+      "fact_id": "V1-FCT-1049",
+      "subject_id": "V1-ENT-0385",
+      "field": "first_publication_year"
+    },
+    {
+      "candidate_id": "WCD10-B01-W06-F02",
+      "fact_id": "V1-FCT-1050",
+      "subject_id": "V1-ENT-0385",
+      "field": "genre_or_form"
+    },
+    {
+      "candidate_id": "WCD10-B01-W06-F03",
+      "fact_id": "V1-FCT-1051",
+      "subject_id": "V1-ENT-0385",
+      "field": "story_premise"
+    },
+    {
+      "candidate_id": "WCD10-B01-W07-F01",
+      "fact_id": "V1-FCT-1052",
+      "subject_id": "V1-ENT-0386",
+      "field": "first_publication_year"
+    },
+    {
+      "candidate_id": "WCD10-B01-W07-F02",
+      "fact_id": "V1-FCT-1053",
+      "subject_id": "V1-ENT-0386",
+      "field": "genre_or_form"
+    },
+    {
+      "candidate_id": "WCD10-B01-W07-F03",
+      "fact_id": "V1-FCT-1054",
+      "subject_id": "V1-ENT-0386",
+      "field": "one_sentence_summary"
+    },
+    {
+      "candidate_id": "WCD10-B01-W08-F01",
+      "fact_id": "V1-FCT-1055",
+      "subject_id": "V1-ENT-0387",
+      "field": "first_publication_year"
+    },
+    {
+      "candidate_id": "WCD10-B01-W08-F02",
+      "fact_id": "V1-FCT-1056",
+      "subject_id": "V1-ENT-0387",
+      "field": "genre_or_form"
+    },
+    {
+      "candidate_id": "WCD10-B01-W08-F03",
+      "fact_id": "V1-FCT-1057",
+      "subject_id": "V1-ENT-0387",
+      "field": "story_premise"
+    },
+    {
+      "candidate_id": "WCD10-B01-W09-F01",
+      "fact_id": "V1-FCT-1058",
+      "subject_id": "V1-ENT-0388",
+      "field": "first_publication_year"
+    },
+    {
+      "candidate_id": "WCD10-B01-W09-F02",
+      "fact_id": "V1-FCT-1059",
+      "subject_id": "V1-ENT-0388",
+      "field": "genre_or_form"
+    },
+    {
+      "candidate_id": "WCD10-B01-W09-F03",
+      "fact_id": "V1-FCT-1060",
+      "subject_id": "V1-ENT-0388",
+      "field": "story_premise"
+    },
+    {
+      "candidate_id": "WCD10-B01-W10-F01",
+      "fact_id": "V1-FCT-1061",
+      "subject_id": "V1-ENT-0389",
+      "field": "first_publication_year"
+    },
+    {
+      "candidate_id": "WCD10-B01-W10-F02",
+      "fact_id": "V1-FCT-1062",
+      "subject_id": "V1-ENT-0389",
+      "field": "genre_or_form"
+    },
+    {
+      "candidate_id": "WCD10-B01-W10-F03",
+      "fact_id": "V1-FCT-1063",
+      "subject_id": "V1-ENT-0389",
+      "field": "one_sentence_summary"
+    },
+    {
+      "candidate_id": "WCD10-B01-F01",
+      "fact_id": "V1-FCT-1064",
+      "subject_id": "V1-ENT-0012",
+      "field": "first_publication_year"
+    },
+    {
+      "candidate_id": "WCD10-B01-F14",
+      "fact_id": "V1-FCT-1065",
+      "subject_id": "V1-ENT-0012",
+      "field": "genre_or_form"
+    },
+    {
+      "candidate_id": "WCD10-B01-F15",
+      "fact_id": "V1-FCT-1066",
+      "subject_id": "V1-ENT-0012",
+      "field": "one_sentence_summary"
+    },
+    {
+      "candidate_id": "WCD10-B01-F02",
+      "fact_id": "V1-FCT-1067",
+      "subject_id": "V1-ENT-0020",
+      "field": "first_publication_year"
+    },
+    {
+      "candidate_id": "WCD10-B01-F03",
+      "fact_id": "V1-FCT-1068",
+      "subject_id": "V1-ENT-0020",
+      "field": "genre_or_form"
+    },
+    {
+      "candidate_id": "WCD10-B01-F04",
+      "fact_id": "V1-FCT-1069",
+      "subject_id": "V1-ENT-0020",
+      "field": "story_premise"
+    },
+    {
+      "candidate_id": "WCD10-B01-F05",
+      "fact_id": "V1-FCT-1070",
+      "subject_id": "V1-ENT-0026",
+      "field": "first_publication_year"
+    },
+    {
+      "candidate_id": "WCD10-B01-F06",
+      "fact_id": "V1-FCT-1071",
+      "subject_id": "V1-ENT-0026",
+      "field": "genre_or_form"
+    },
+    {
+      "candidate_id": "WCD10-B01-F07",
+      "fact_id": "V1-FCT-1072",
+      "subject_id": "V1-ENT-0026",
+      "field": "story_premise"
+    },
+    {
+      "candidate_id": "WCD10-B01-F08",
+      "fact_id": "V1-FCT-1073",
+      "subject_id": "V1-ENT-0045",
+      "field": "first_periodical_publication_year"
+    },
+    {
+      "candidate_id": "WCD10-B01-F09",
+      "fact_id": "V1-FCT-1074",
+      "subject_id": "V1-ENT-0045",
+      "field": "bibliographic_note"
+    },
+    {
+      "candidate_id": "WCD10-B01-F10",
+      "fact_id": "V1-FCT-1075",
+      "subject_id": "V1-ENT-0045",
+      "field": "genre_or_form"
+    },
+    {
+      "candidate_id": "WCD10-B01-F11",
+      "fact_id": "V1-FCT-1076",
+      "subject_id": "V1-ENT-0045",
+      "field": "story_premise"
+    },
+    {
+      "candidate_id": "WCD10-B01-F12",
+      "fact_id": "V1-FCT-1077",
+      "subject_id": "V1-ENT-0163",
+      "field": "first_publication_year"
+    },
+    {
+      "candidate_id": "WCD10-B01-F16",
+      "fact_id": "V1-FCT-1078",
+      "subject_id": "V1-ENT-0163",
+      "field": "one_sentence_summary"
+    },
+    {
+      "candidate_id": "WCD10-B01-F13",
+      "fact_id": "V1-FCT-1079",
+      "subject_id": "V1-ENT-0011",
+      "field": "one_sentence_summary"
+    },
+    {
+      "candidate_id": "WCD10-B01-F17",
+      "fact_id": "V1-FCT-1080",
+      "subject_id": "V1-ENT-0166",
+      "field": "one_sentence_summary"
+    },
+    {
+      "candidate_id": "WCD10-B01-F18",
+      "fact_id": "V1-FCT-1081",
+      "subject_id": "V1-ENT-0034",
+      "field": "research_note"
+    },
+    {
+      "candidate_id": "WCD10-B01-F19",
+      "fact_id": "V1-FCT-1082",
+      "subject_id": "V1-ENT-0162",
+      "field": "one_sentence_summary"
+    }
+  ],
+  "cards": [
+    {
+      "subject_id": "V1-ENT-0380",
+      "card_id": "V1-CARD-0262",
+      "preserves_existing_cards": true
+    },
+    {
+      "subject_id": "V1-ENT-0381",
+      "card_id": "V1-CARD-0263",
+      "preserves_existing_cards": true
+    },
+    {
+      "subject_id": "V1-ENT-0382",
+      "card_id": "V1-CARD-0264",
+      "preserves_existing_cards": true
+    },
+    {
+      "subject_id": "V1-ENT-0383",
+      "card_id": "V1-CARD-0265",
+      "preserves_existing_cards": true
+    },
+    {
+      "subject_id": "V1-ENT-0384",
+      "card_id": "V1-CARD-0266",
+      "preserves_existing_cards": true
+    },
+    {
+      "subject_id": "V1-ENT-0385",
+      "card_id": "V1-CARD-0267",
+      "preserves_existing_cards": true
+    },
+    {
+      "subject_id": "V1-ENT-0386",
+      "card_id": "V1-CARD-0268",
+      "preserves_existing_cards": true
+    },
+    {
+      "subject_id": "V1-ENT-0387",
+      "card_id": "V1-CARD-0269",
+      "preserves_existing_cards": true
+    },
+    {
+      "subject_id": "V1-ENT-0388",
+      "card_id": "V1-CARD-0270",
+      "preserves_existing_cards": true
+    },
+    {
+      "subject_id": "V1-ENT-0389",
+      "card_id": "V1-CARD-0271",
+      "preserves_existing_cards": true
+    },
+    {
+      "subject_id": "V1-ENT-0012",
+      "card_id": "V1-CARD-0272",
+      "preserves_existing_cards": true
+    },
+    {
+      "subject_id": "V1-ENT-0020",
+      "card_id": "V1-CARD-0273",
+      "preserves_existing_cards": true
+    },
+    {
+      "subject_id": "V1-ENT-0026",
+      "card_id": "V1-CARD-0274",
+      "preserves_existing_cards": true
+    },
+    {
+      "subject_id": "V1-ENT-0045",
+      "card_id": "V1-CARD-0275",
+      "preserves_existing_cards": true
+    },
+    {
+      "subject_id": "V1-ENT-0163",
+      "card_id": "V1-CARD-0276",
+      "preserves_existing_cards": true
+    },
+    {
+      "subject_id": "V1-ENT-0011",
+      "card_id": "V1-CARD-0277",
+      "preserves_existing_cards": true
+    },
+    {
+      "subject_id": "V1-ENT-0166",
+      "card_id": "V1-CARD-0278",
+      "preserves_existing_cards": true
+    },
+    {
+      "subject_id": "V1-ENT-0034",
+      "card_id": "V1-CARD-0279",
+      "preserves_existing_cards": true
+    },
+    {
+      "subject_id": "V1-ENT-0162",
+      "card_id": "V1-CARD-0280",
+      "preserves_existing_cards": true
+    }
+  ],
+  "relationships": [
+    {
+      "candidate_id": "WCD10-B01-W01-CREATED",
+      "relationship_id": "V1-REL-0337",
+      "subject_id": "V1-ENT-0002",
+      "relation_type": "CREATED",
+      "object_id": "V1-ENT-0380"
+    },
+    {
+      "candidate_id": "WCD10-B01-W02-CREATED",
+      "relationship_id": "V1-REL-0338",
+      "subject_id": "V1-ENT-0002",
+      "relation_type": "CREATED",
+      "object_id": "V1-ENT-0381"
+    },
+    {
+      "candidate_id": "WCD10-B01-W03-CREATED",
+      "relationship_id": "V1-REL-0339",
+      "subject_id": "V1-ENT-0002",
+      "relation_type": "CREATED",
+      "object_id": "V1-ENT-0382"
+    },
+    {
+      "candidate_id": "WCD10-B01-W04-CREATED",
+      "relationship_id": "V1-REL-0340",
+      "subject_id": "V1-ENT-0016",
+      "relation_type": "CREATED",
+      "object_id": "V1-ENT-0383"
+    },
+    {
+      "candidate_id": "WCD10-B01-W05-CREATED",
+      "relationship_id": "V1-REL-0341",
+      "subject_id": "V1-ENT-0016",
+      "relation_type": "CREATED",
+      "object_id": "V1-ENT-0384"
+    },
+    {
+      "candidate_id": "WCD10-B01-W06-CREATED",
+      "relationship_id": "V1-REL-0342",
+      "subject_id": "V1-ENT-0016",
+      "relation_type": "CREATED",
+      "object_id": "V1-ENT-0385"
+    },
+    {
+      "candidate_id": "WCD10-B01-W07-CREATED",
+      "relationship_id": "V1-REL-0343",
+      "subject_id": "V1-ENT-0029",
+      "relation_type": "CREATED",
+      "object_id": "V1-ENT-0386"
+    },
+    {
+      "candidate_id": "WCD10-B01-W08-CREATED",
+      "relationship_id": "V1-REL-0344",
+      "subject_id": "V1-ENT-0029",
+      "relation_type": "CREATED",
+      "object_id": "V1-ENT-0387"
+    },
+    {
+      "candidate_id": "WCD10-B01-W09-CREATED",
+      "relationship_id": "V1-REL-0345",
+      "subject_id": "V1-ENT-0029",
+      "relation_type": "CREATED",
+      "object_id": "V1-ENT-0388"
+    },
+    {
+      "candidate_id": "WCD10-B01-W10-CREATED",
+      "relationship_id": "V1-REL-0346",
+      "subject_id": "V1-ENT-0002",
+      "relation_type": "CREATED",
+      "object_id": "V1-ENT-0389"
+    },
+    {
+      "candidate_id": "WCD10-B01-R01",
+      "relationship_id": "V1-REL-0347",
+      "subject_id": "V1-ENT-0385",
+      "relation_type": "SET_IN",
+      "object_id": "V1-ENT-0022"
+    }
+  ],
+  "gaps": [
+    {
+      "gap_id": "V1-GAP-0025",
+      "key": "first_book_edition_year: Felipe Ángeles"
+    },
+    {
+      "gap_id": "V1-GAP-0026",
+      "key": "Un hogar sólido"
+    },
+    {
+      "gap_id": "V1-GAP-0027",
+      "key": "RESPONDS_TO_WORK: Reencuentro de personajes"
+    },
+    {
+      "gap_id": "V1-GAP-0028",
+      "key": "BASED_ON_EVENT: Felipe Ángeles"
+    },
+    {
+      "gap_id": "V1-GAP-0029",
+      "key": "Chinese display names for new works"
+    },
+    {
+      "gap_id": "V1-GAP-0030",
+      "key": "WCD10:work_level_research:V1-ENT-0011"
+    },
+    {
+      "gap_id": "V1-GAP-0031",
+      "key": "WCD10:work_level_research:V1-ENT-0012"
+    },
+    {
+      "gap_id": "V1-GAP-0032",
+      "key": "WCD10:work_level_research:V1-ENT-0162"
+    },
+    {
+      "gap_id": "V1-GAP-0033",
+      "key": "WCD10:work_level_research:V1-ENT-0163"
+    },
+    {
+      "gap_id": "V1-GAP-0034",
+      "key": "WCD10:work_level_research:V1-ENT-0020"
+    },
+    {
+      "gap_id": "V1-GAP-0035",
+      "key": "WCD10:work_level_research:V1-ENT-0026"
+    },
+    {
+      "gap_id": "V1-GAP-0036",
+      "key": "WCD10:work_level_research:V1-ENT-0166"
+    },
+    {
+      "gap_id": "V1-GAP-0037",
+      "key": "WCD10:work_level_research:V1-ENT-0033"
+    },
+    {
+      "gap_id": "V1-GAP-0038",
+      "key": "WCD10:work_level_research:V1-ENT-0045"
+    },
+    {
+      "gap_id": "V1-GAP-0039",
+      "key": "WCD10:work_level_research:V1-ENT-0380"
+    },
+    {
+      "gap_id": "V1-GAP-0040",
+      "key": "WCD10:work_level_research:V1-ENT-0381"
+    },
+    {
+      "gap_id": "V1-GAP-0041",
+      "key": "WCD10:work_level_research:V1-ENT-0382"
+    },
+    {
+      "gap_id": "V1-GAP-0042",
+      "key": "WCD10:work_level_research:V1-ENT-0383"
+    },
+    {
+      "gap_id": "V1-GAP-0043",
+      "key": "WCD10:work_level_research:V1-ENT-0384"
+    },
+    {
+      "gap_id": "V1-GAP-0044",
+      "key": "WCD10:work_level_research:V1-ENT-0385"
+    },
+    {
+      "gap_id": "V1-GAP-0045",
+      "key": "WCD10:work_level_research:V1-ENT-0386"
+    },
+    {
+      "gap_id": "V1-GAP-0046",
+      "key": "WCD10:work_level_research:V1-ENT-0387"
+    },
+    {
+      "gap_id": "V1-GAP-0047",
+      "key": "WCD10:work_level_research:V1-ENT-0388"
+    },
+    {
+      "gap_id": "V1-GAP-0048",
+      "key": "WCD10:work_level_research:V1-ENT-0389"
+    }
+  ],
+  "public_boundary": "Research candidates only. No change to public_scope or existing USER curation decisions.",
+  "counts": {
+    "sources": 25,
+    "entities": 10,
+    "entity_id_map": 10,
+    "content_cards": 19,
+    "facts": 49,
+    "card_facts": 49,
+    "fact_sources": 51,
+    "card_sources": 26,
+    "relationships": 11,
+    "relationship_sources": 11,
+    "relationship_evidence": 11,
+    "gaps": 24
+  }
+}

@@ -1,0 +1,712 @@
+{
+  "schema": "wcd10-candidates-1",
+  "task_id": "TASK-109",
+  "batch_id": "WCD-10-B04",
+  "baseline_commit": "05f3372c69a54ec331d31b05d16c8288d6d3a993",
+  "baseline_database_sha256": "079deee47063d2435bdaafe1b3c1dca24ca8b6c7353acc1427075bf0ce86746d",
+  "status": "CANDIDATE_NOT_REVIEWED",
+  "author_ids": [
+    "V1-ENT-0115",
+    "V1-ENT-0145",
+    "V1-ENT-0148"
+  ],
+  "accessed_at": "2026-09-29",
+  "public_boundary": "Research-only B04; no Curation/public_scope/Schema/old source/hold mutation.",
+  "source_scope_decisions": [
+    {
+      "candidate_ids": [
+        "WCD10-B04-S01"
+      ],
+      "disposition": "reuse",
+      "related_existing_source": "SRC-0070",
+      "reason": "同一CVC书目fresh重读不成为第二独立来源；保留旧等级与所有元数据。"
+    },
+    {
+      "candidate_ids": [
+        "WCD10-B04-S02",
+        "WCD10-B04-S03",
+        "WCD10-B04-S04",
+        "WCD10-B04-S05",
+        "WCD10-B04-S06",
+        "WCD10-B04-S07",
+        "WCD10-B04-S08",
+        "WCD10-B04-S09",
+        "WCD10-B04-S10",
+        "WCD10-B04-S11",
+        "WCD10-B04-S12",
+        "WCD10-B04-S13",
+        "WCD10-B04-S14",
+        "WCD10-B04-S15"
+      ],
+      "disposition": "bounded_B_not_new_A",
+      "reason": "机构研究胶囊、教育资源、出版社/代理目录与大学转载讲演分别定位；未读胶囊所引原刊，不登记引文为A级来源；讲演只读目标片段，未核原刊。所有解释仅归属释义，独立A级或第二研究缺口保留。"
+    }
+  ],
+  "sources": [
+    {
+      "candidate_id": "WCD10-B04-S01",
+      "title": "Bibliografía. Obras de Pablo Neruda",
+      "author_or_editor": "Centro Virtual Cervantes / Instituto Cervantes",
+      "url": "https://cvc.cervantes.es/literatura/escritores/neruda/bibliografia/default.htm",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "Crepusculario/Residencia/Alturas/Los versos/Odas/Cien sonetos具体书目条目",
+      "usage": "只用目标书目；写作期、独立书版与总集收录分开。复用SRC-0070，不改旧元数据。",
+      "reuse_existing_source": "SRC-0070"
+    },
+    {
+      "candidate_id": "WCD10-B04-S02",
+      "title": "Residencia en la tierra",
+      "author_or_editor": "Memoria Chilena / Biblioteca Nacional de Chile",
+      "url": "https://www.memoriachilena.gob.cl/602/w3-article-97418.html",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "主叙述1933首部/1931–1935第二部/1947第三部",
+      "usage": "补首部出版年及分卷描述；侧栏Ercilla1930不准入，非第三独立学术研究。"
+    },
+    {
+      "candidate_id": "WCD10-B04-S03",
+      "title": "Canto General",
+      "author_or_editor": "Memoria Chilena / Biblioteca Nacional de Chile",
+      "url": "https://www.memoriachilena.gob.cl/602/w3-article-92668.html",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "主叙述Alturas写作与Canto收录",
+      "usage": "只取Alturas收录于Canto的对象边界；1950出版社旁支和历史细节不准入，不重复旧Canto关系。"
+    },
+    {
+      "candidate_id": "WCD10-B04-S04",
+      "title": "Cien sonetos de amor",
+      "author_or_editor": "Unidad de Currículum y Evaluación / Ministerio de Educación de Chile",
+      "url": "https://www.curriculumnacional.cl/recursos/cien-sonetos-amor",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "标题下两段资源介绍",
+      "usage": "仅归属明确的诗集描述；Año publicación2019未确认为作品/网页首年，不替代1959。不作确认主题边。"
+    },
+    {
+      "candidate_id": "WCD10-B04-S05",
+      "title": "Crepusculario",
+      "author_or_editor": "Memoria Chilena / Biblioteca Nacional de Chile",
+      "url": "https://www.memoriachilena.gob.cl/602/w3-article-96353.html",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "主叙述1923及初版五章、1926改编说明",
+      "usage": "仅初版书目/五部分构成；批评家引述不登记为已阅读全文的独立A级来源。"
+    },
+    {
+      "candidate_id": "WCD10-B04-S06",
+      "title": "Odas Elementales",
+      "author_or_editor": "Memoria Chilena / Biblioteca Nacional de Chile",
+      "url": "https://www.memoriachilena.gob.cl/602/w3-article-100859.html",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "主叙述1954及日常对象；1956/1957其他书名",
+      "usage": "只处理1954诗集；日常对象描述不生成主题关系，不把后两书合并。"
+    },
+    {
+      "candidate_id": "WCD10-B04-S07",
+      "title": "Los versos del Capitán",
+      "author_or_editor": "Editorial Losada",
+      "url": "https://editoriallosada.com/libro/los-versos-del-capitan/",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "作品署名/ISBN9789500306171/两段简介",
+      "usage": "体裁及有归属爱情诗描述；第三版署名说法不作为全部版本统一年代，不作作者恋爱事实。"
+    },
+    {
+      "candidate_id": "WCD10-B04-S08",
+      "title": "Desolación (1922)",
+      "author_or_editor": "Memoria Chilena / Biblioteca Nacional de Chile",
+      "url": "https://www.memoriachilena.gob.cl/602/w3-article-94082.html",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "主叙述初版七部分（五诗/二散文）",
+      "usage": "只补初版结构描述，不把单首Sonetos或传记式批评下推全书。旧首版/体裁不覆盖。"
+    },
+    {
+      "candidate_id": "WCD10-B04-S09",
+      "title": "Lagar (1954)",
+      "author_or_editor": "Memoria Chilena / Biblioteca Nacional de Chile",
+      "url": "https://www.memoriachilena.gob.cl/602/w3-article-100844.html",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "主叙述1954/Editorial del Pacífico/13部分74诗；个别诗先刊说明",
+      "usage": "补1954集合级书目与结构，不声称74诗全部首次面世；引述研究未读原刊不登记A，不与1991 Lagar II合并。"
+    },
+    {
+      "candidate_id": "WCD10-B04-S10",
+      "title": "Poema de Chile (1967)",
+      "author_or_editor": "Memoria Chilena / Biblioteca Nacional de Chile",
+      "url": "https://www.memoriachilena.gob.cl/602/w3-article-3655.html",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "主叙述Doris Dana/77诗/身后出版/三同行者/2015扩编",
+      "usage": "1967首版集合为对象；77限定该版，不采Barcelona/Santiago冲突城市，不把诗中人物等同现实传记。"
+    },
+    {
+      "candidate_id": "WCD10-B04-S11",
+      "title": "Los días enmascarados",
+      "author_or_editor": "Agencia Literaria Carmen Balcells",
+      "url": "https://www.agenciabalcells.com/en/authors/works/carlos-fuentes/los-dias-enmascarados/",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "主条目Short stories1954；六篇简介",
+      "usage": "合集层级/六篇构成，不与Chac Mool单篇合并，不采侧栏其他作品年。"
+    },
+    {
+      "candidate_id": "WCD10-B04-S12",
+      "title": "Las buenas conciencias",
+      "author_or_editor": "Agencia Literaria Carmen Balcells",
+      "url": "https://www.agenciabalcells.com/autores/obra/carlos-fuentes/las-buenas-conciencias/",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "主条目Novela1959；Jaime Ceballos完整简介",
+      "usage": "小说年份及少年抉择梗概；不引用宣传评价、不认定真实社会事件。"
+    },
+    {
+      "candidate_id": "WCD10-B04-S13",
+      "title": "Gringo viejo",
+      "author_or_editor": "Agencia Literaria Carmen Balcells",
+      "url": "https://www.agenciabalcells.com/autores/obra/carlos-fuentes/gringo-viejo/",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "主条目Novela1985；Ambrose Bierce赴墨西哥段",
+      "usage": "仅虚构情节及墨西哥背景；不以真实姓名认证传记或墨西哥革命BASED_ON_EVENT。"
+    },
+    {
+      "candidate_id": "WCD10-B04-S14",
+      "title": "Cristóbal Nonato",
+      "author_or_editor": "Agencia Literaria Carmen Balcells",
+      "url": "https://www.agenciabalcells.com/autores/obra/carlos-fuentes/cristobal-nonato/",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "主条目Novela1987；Makesicko City/胎儿/出生竞赛段",
+      "usage": "限定虚构叙述；Makesicko City不静默等同现实城市端点，不生成政治/流派边。"
+    },
+    {
+      "candidate_id": "WCD10-B04-S15",
+      "title": "Los Modos de Autorreferencia en la Obra de Pablo Neruda",
+      "author_or_editor": "Hernán Loyola / Universidad de Chile (reproducción)",
+      "url": "https://www.neruda.uchile.cl/critica/hloyolamodos.html",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "1964-08-10讲演署名；PERIODO1920–1927及1927–1945中Alturas两区段，正文245–290段",
+      "usage": "已读相关正文片段，非全篇/原刊阅读全文；保守B级学者讲演转载，只存署名释义，不采preincásicas历史措辞或1946作为已核首刊，也不解除旧hold。"
+    }
+  ],
+  "new_entities": [
+    {
+      "candidate_id": "WCD10-B04-W01",
+      "author_id": "V1-ENT-0115",
+      "entity_type": "collection",
+      "original_name": "Crepusculario",
+      "name_zh_candidate": "黄昏集",
+      "name_policy": "中文为候选显示暂译，未核实正式中文译本；原题为身份锚点。单篇/合集/再版分层。",
+      "rationale": "补1923首部诗集，不创建1926重编版新作品。",
+      "created_source_refs": [
+        "WCD10-B04-S01",
+        "WCD10-B04-S05"
+      ],
+      "facts": [
+        {
+          "field": "first_publication_year",
+          "value": "1923",
+          "source_refs": [
+            "WCD10-B04-S01",
+            "WCD10-B04-S05"
+          ]
+        },
+        {
+          "field": "genre_or_form",
+          "value": "诗集",
+          "source_refs": [
+            "WCD10-B04-S05"
+          ]
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "据智利国家图书馆介绍，初版由五部分组成，呈现聂鲁达早期诗歌；1926年版调整了编排。",
+          "source_refs": [
+            "WCD10-B04-S05"
+          ]
+        }
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B04-W02",
+      "author_id": "V1-ENT-0115",
+      "entity_type": "collection",
+      "original_name": "Odas elementales",
+      "name_zh_candidate": "元素颂歌",
+      "name_policy": "中文为候选显示暂译，未核实正式中文译本；原题为身份锚点。单篇/合集/再版分层。",
+      "rationale": "补1954诗集，与1956/1957续集分开。",
+      "created_source_refs": [
+        "WCD10-B04-S01",
+        "WCD10-B04-S06"
+      ],
+      "facts": [
+        {
+          "field": "first_publication_year",
+          "value": "1954",
+          "source_refs": [
+            "WCD10-B04-S01",
+            "WCD10-B04-S06"
+          ]
+        },
+        {
+          "field": "genre_or_form",
+          "value": "诗集（颂歌）",
+          "source_refs": [
+            "WCD10-B04-S06"
+          ]
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "据智利国家图书馆介绍，诗集以颂歌书写书籍、海洋、食物等日常事物，把亲密生活与外部世界相联。",
+          "source_refs": [
+            "WCD10-B04-S06"
+          ]
+        }
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B04-W03",
+      "author_id": "V1-ENT-0115",
+      "entity_type": "collection",
+      "original_name": "Los versos del capitán",
+      "name_zh_candidate": "船长的诗",
+      "name_policy": "中文为候选显示暂译，未核实正式中文译本；原题为身份锚点。单篇/合集/再版分层。",
+      "rationale": "补1952匿名初版诗集，不混同1963署名版或影视改编。",
+      "created_source_refs": [
+        "WCD10-B04-S01",
+        "WCD10-B04-S07"
+      ],
+      "facts": [
+        {
+          "field": "first_publication_year",
+          "value": "1952",
+          "source_refs": [
+            "WCD10-B04-S01"
+          ]
+        },
+        {
+          "field": "genre_or_form",
+          "value": "诗集",
+          "source_refs": [
+            "WCD10-B04-S07"
+          ]
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "据洛萨达出版社介绍，这部起初未署作者姓名的诗集将爱情的亲密表达与革命热情相联。",
+          "source_refs": [
+            "WCD10-B04-S07"
+          ]
+        }
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B04-W04",
+      "author_id": "V1-ENT-0145",
+      "entity_type": "collection",
+      "original_name": "Los días enmascarados",
+      "name_zh_candidate": "戴面具的日子",
+      "name_policy": "中文为候选显示暂译，未核实正式中文译本；原题为身份锚点。单篇/合集/再版分层。",
+      "rationale": "补1954六篇合集，不能以其中Chac Mool单篇替代。",
+      "created_source_refs": [
+        "WCD10-B04-S11"
+      ],
+      "facts": [
+        {
+          "field": "first_publication_year",
+          "value": "1954",
+          "source_refs": [
+            "WCD10-B04-S11"
+          ]
+        },
+        {
+          "field": "genre_or_form",
+          "value": "短篇小说集",
+          "source_refs": [
+            "WCD10-B04-S11"
+          ]
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "据作者代理目录，书中收录六篇带有幻想色彩的故事。",
+          "source_refs": [
+            "WCD10-B04-S11"
+          ]
+        }
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B04-W05",
+      "author_id": "V1-ENT-0145",
+      "entity_type": "work",
+      "original_name": "Las buenas conciencias",
+      "name_zh_candidate": "好良心",
+      "name_policy": "中文为候选显示暂译，未核实正式中文译本；原题为身份锚点。单篇/合集/再版分层。",
+      "rationale": "补1959小说对象；少年伦理冲突保留文学边界。",
+      "created_source_refs": [
+        "WCD10-B04-S12"
+      ],
+      "facts": [
+        {
+          "field": "first_publication_year",
+          "value": "1959",
+          "source_refs": [
+            "WCD10-B04-S12"
+          ]
+        },
+        {
+          "field": "genre_or_form",
+          "value": "小说",
+          "source_refs": [
+            "WCD10-B04-S12"
+          ]
+        },
+        {
+          "field": "story_premise",
+          "value": "少年海梅·塞瓦略斯在青春冲动、基督教道德、家族等级与独立愿望之间，面临决定人生方向的抉择。",
+          "source_refs": [
+            "WCD10-B04-S12"
+          ]
+        }
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B04-W06",
+      "author_id": "V1-ENT-0145",
+      "entity_type": "work",
+      "original_name": "Gringo viejo",
+      "name_zh_candidate": "老美国佬",
+      "name_policy": "中文为候选显示暂译，未核实正式中文译本；原题为身份锚点。单篇/合集/再版分层。",
+      "rationale": "补1985小说，只确认目录直接支持的文学背景。",
+      "created_source_refs": [
+        "WCD10-B04-S13"
+      ],
+      "facts": [
+        {
+          "field": "first_publication_year",
+          "value": "1985",
+          "source_refs": [
+            "WCD10-B04-S13"
+          ]
+        },
+        {
+          "field": "genre_or_form",
+          "value": "小说",
+          "source_refs": [
+            "WCD10-B04-S13"
+          ]
+        },
+        {
+          "field": "story_premise",
+          "value": "小说想象作家兼记者安布罗斯·比尔斯在墨西哥革命期间越过边境，进入比利亚军队控制地区并寻找自身命运的旅程。",
+          "source_refs": [
+            "WCD10-B04-S13"
+          ]
+        }
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B04-W07",
+      "author_id": "V1-ENT-0145",
+      "entity_type": "work",
+      "original_name": "Cristóbal Nonato",
+      "name_zh_candidate": "未出生的克里斯托瓦尔",
+      "name_policy": "中文为候选显示暂译，未核实正式中文译本；原题为身份锚点。单篇/合集/再版分层。",
+      "rationale": "补1987胎儿叙述小说，虚构城市不新增现实地理事实。",
+      "created_source_refs": [
+        "WCD10-B04-S14"
+      ],
+      "facts": [
+        {
+          "field": "first_publication_year",
+          "value": "1987",
+          "source_refs": [
+            "WCD10-B04-S14"
+          ]
+        },
+        {
+          "field": "genre_or_form",
+          "value": "小说",
+          "source_refs": [
+            "WCD10-B04-S14"
+          ]
+        },
+        {
+          "field": "story_premise",
+          "value": "在污染严重、政治操纵无处不在的虚构城市Makesicko City，尚在母腹中的克里斯托瓦尔思考是否值得出生，外界正举行指定时刻降生婴儿的竞赛。",
+          "source_refs": [
+            "WCD10-B04-S14"
+          ]
+        }
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B04-W08",
+      "author_id": "V1-ENT-0148",
+      "entity_type": "collection",
+      "original_name": "Lagar",
+      "name_zh_candidate": "压榨场",
+      "name_policy": "中文为候选显示暂译，未核实正式中文译本；原题为身份锚点。单篇/合集/再版分层。",
+      "rationale": "补1954诗集，不把个别诗的先刊或Lagar II并为本书首年。",
+      "created_source_refs": [
+        "WCD10-B04-S09"
+      ],
+      "facts": [
+        {
+          "field": "first_publication_year",
+          "value": "1954",
+          "source_refs": [
+            "WCD10-B04-S09"
+          ]
+        },
+        {
+          "field": "genre_or_form",
+          "value": "诗集",
+          "source_refs": [
+            "WCD10-B04-S09"
+          ]
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "据智利国家图书馆介绍，1954年诗集包含十三部分、七十四首诗，以《另一个》开篇，以《最后的树》收束；部分诗此前已单独发表。",
+          "source_refs": [
+            "WCD10-B04-S09"
+          ]
+        }
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B04-W09",
+      "author_id": "V1-ENT-0148",
+      "entity_type": "collection",
+      "original_name": "Poema de Chile",
+      "name_zh_candidate": "智利之诗",
+      "name_policy": "中文为候选显示暂译，未核实正式中文译本；原题为身份锚点。单篇/合集/再版分层。",
+      "rationale": "补1967身后出版集合，77诗仅属Doris Dana整理版。",
+      "created_source_refs": [
+        "WCD10-B04-S10"
+      ],
+      "facts": [
+        {
+          "field": "first_publication_year",
+          "value": "1967",
+          "source_refs": [
+            "WCD10-B04-S10"
+          ]
+        },
+        {
+          "field": "genre_or_form",
+          "value": "诗集（身后编辑出版）",
+          "source_refs": [
+            "WCD10-B04-S10"
+          ]
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "据智利国家图书馆的叙事概述，幽灵般的加夫列拉、阿塔卡马儿童与小鹿结伴从北向南穿行智利，对话沿途的自然与自身处境。",
+          "source_refs": [
+            "WCD10-B04-S10"
+          ]
+        },
+        {
+          "field": "bibliographic_note",
+          "value": "1967年由Doris Dana整理身后出版，收77首诗；2015年扩编版收131首，篇数不适用于所有版本。首版出版城市仍待核。",
+          "source_refs": [
+            "WCD10-B04-S10"
+          ]
+        }
+      ]
+    }
+  ],
+  "existing_facts": [
+    {
+      "candidate_id": "WCD10-B04-F01",
+      "subject_id": "V1-ENT-0120",
+      "field": "first_publication_year",
+      "value": "1933",
+      "source_refs": [
+        "WCD10-B04-S01",
+        "WCD10-B04-S02"
+      ],
+      "boundary": "指首部1925–1931诗歌的初版；1935扩编/1947 Tercera单列说明，不改旧事实。"
+    },
+    {
+      "candidate_id": "WCD10-B04-F02",
+      "subject_id": "V1-ENT-0120",
+      "field": "bibliographic_note",
+      "value": "首部Residencia en la tierra（1925–1931）1933年出版；1935年版扩展至1925–1935；Tercera residencia（1935–1945）1947年另行出版，不能把写作期当成出版年。",
+      "source_refs": [
+        "WCD10-B04-S01",
+        "WCD10-B04-S02"
+      ],
+      "boundary": "追加版本说明，不覆盖旧bibliographic_scope_note及研究待补历史措辞，不自动新建第三部对象。"
+    },
+    {
+      "candidate_id": "WCD10-B04-F03",
+      "subject_id": "V1-ENT-0120",
+      "field": "one_sentence_summary",
+      "value": "据智利国家图书馆介绍，这组跨时期的诗歌在智利、阿根廷、亚洲与西班牙的经历间展开，交错本土经验与异域感受；各部写作及出版时间不同。",
+      "source_refs": [
+        "WCD10-B04-S02"
+      ],
+      "boundary": "归属明确的机构描述，不作为新的独立A级研究或社会政治主题关系。"
+    },
+    {
+      "candidate_id": "WCD10-B04-F04",
+      "subject_id": "V1-ENT-0122",
+      "field": "first_book_edition_year",
+      "value": "1947",
+      "source_refs": [
+        "WCD10-B04-S01"
+      ],
+      "boundary": "只核实独立书版，不把1945写作年/1950总集收录年充作首刊。CVC与智利大学书目出版者信息有差异，出版社不准入。"
+    },
+    {
+      "candidate_id": "WCD10-B04-F05",
+      "subject_id": "V1-ENT-0122",
+      "field": "genre_or_form",
+      "value": "长诗（组诗）",
+      "source_refs": [
+        "WCD10-B04-S03",
+        "WCD10-B04-S15"
+      ],
+      "boundary": "保持旧work层级；诗的十二节不是十二部作品，不改collection或小说。"
+    },
+    {
+      "candidate_id": "WCD10-B04-F06",
+      "subject_id": "V1-ENT-0122",
+      "field": "bibliographic_note",
+      "value": "Alturas de Macchu Picchu有1947年独立书版，后收入1950年Canto general；首次期刊发表年仍待核，不能由独立书版或写作年反推。",
+      "source_refs": [
+        "WCD10-B04-S01",
+        "WCD10-B04-S03"
+      ],
+      "boundary": "Loyola讲演称1946发表但未核实首刊载体；保留明确gap，不使用原子first_publication_year。"
+    },
+    {
+      "candidate_id": "WCD10-B04-F07",
+      "subject_id": "V1-ENT-0122",
+      "field": "research_note",
+      "value": "据埃尔南·洛约拉的读法，诗的前五节回顾孤独、死亡与瓦解的经验，后七节转向马丘比丘劳动者的过去，并把个人的声音连向美洲共同生活。",
+      "source_refs": [
+        "WCD10-B04-S15"
+      ],
+      "boundary": "仅署名研究释义；相关正文已读，不伪称全篇/原刊阅读全文，不新增确认主题/事件关系或现实人物身份。"
+    },
+    {
+      "candidate_id": "WCD10-B04-F08",
+      "subject_id": "V1-ENT-0165",
+      "field": "first_publication_year",
+      "value": "1959",
+      "source_refs": [
+        "WCD10-B04-S01"
+      ],
+      "boundary": "CVC列1959Universitaria/1960Losada；旧BnF1992再版说明不覆盖。"
+    },
+    {
+      "candidate_id": "WCD10-B04-F09",
+      "subject_id": "V1-ENT-0165",
+      "field": "one_sentence_summary",
+      "value": "据智利教育部课程资源介绍，诗集不拘于传统十四行诗的固定节律，以身体与自然元素的意象书写爱情经验。",
+      "source_refs": [
+        "WCD10-B04-S04"
+      ],
+      "boundary": "机构资源释义保留归属，不当成原作全文或独立A级研究，不创建爱情主题边。"
+    },
+    {
+      "candidate_id": "WCD10-B04-F10",
+      "subject_id": "V1-ENT-0149",
+      "field": "one_sentence_summary",
+      "value": "据智利国家图书馆介绍，1922年初版分为七部分：五部分诗歌与两部分散文，包含生活、学校、儿童、痛苦与自然等编排。",
+      "source_refs": [
+        "WCD10-B04-S08"
+      ],
+      "boundary": "限定1922初版整体结构；不把单首诗奖项或传记痛苦因果下推全书。"
+    },
+    {
+      "candidate_id": "WCD10-B04-F11",
+      "subject_id": "V1-ENT-0122",
+      "field": "one_sentence_summary",
+      "value": "这首诗由十二节构成，有1947年独立书版，后收入1950年出版的《漫歌》；诗章与整个诗集保持独立对象。",
+      "source_refs": ["WCD10-B04-S01", "WCD10-B04-S03", "WCD10-B04-S15"],
+      "boundary": "仅已核十二节结构、书版及总集收录的中性描述；不认定首次期刊发表年，也不把Loyola文学解释改成中性事实。"
+    }
+  ],
+  "extra_relationships": [
+    {
+      "candidate_id": "WCD10-B04-R01",
+      "subject_id": "WCD10-B04-W06",
+      "relation_type": "SET_IN",
+      "object_id": "V1-ENT-0051",
+      "description_zh": "《Gringo viejo》的虚构故事以墨西哥为背景；不认证比尔斯现实轨迹或历史事件。",
+      "source_refs": [
+        "WCD10-B04-S13"
+      ],
+      "boundary": "代理目录明确小说人物越境进入墨西哥；只表示虚构故事背景，不确认Bierce真实轨迹或革命事件。"
+    }
+  ],
+  "deferred": [
+    {
+      "key": "WCD10:B04:Alturas:first_periodical_year",
+      "disposition": "publication_carrier_unverified",
+      "source_refs": [
+        "WCD10-B04-S01",
+        "WCD10-B04-S15"
+      ],
+      "reason": "1947独立书版已核，Loyola称1946发表但首刊载体未核；保留first_publication/periodical year缺口，不静默填1947。"
+    },
+    {
+      "key": "WCD10:B04:poetic_containment",
+      "disposition": "structural_path_not_admitted",
+      "source_refs": [
+        "WCD10-B04-S01",
+        "WCD10-B04-S03",
+        "WCD10-B04-S09"
+      ],
+      "reason": "Alturas/Canto、诗集/单诗/续集的包含关系保留文字；APPEARS_IN/CONTAINS等需独立层级门禁，本批不扩Schema或借SET_IN编码。"
+    },
+    {
+      "key": "WCD10:B04:Poema_de_Chile:edition_city",
+      "disposition": "conflicting_source_detail",
+      "source_refs": [
+        "WCD10-B04-S10"
+      ],
+      "reason": "同页1967书版城市Barcelona与引注Santiago不同；不选边、不填写城市，77/131诗版本范围显式。"
+    },
+    {
+      "key": "WCD10:B04:legacy_holds:retain",
+      "disposition": "legacy_hold_retained",
+      "source_refs": [
+        "WCD10-B04-S01",
+        "WCD10-B04-S15"
+      ],
+      "reason": "Neruda vanguardia hold0036、Veinte爱情hold0040、Mistral modernismo hold0041等旧状态保留；已resolved Neruda modernismo hold0035/REL0319不回退。"
+    },
+    {
+      "key": "WCD10:B04:additional_bibliography",
+      "disposition": "future_object_layer_research",
+      "source_refs": [
+        "WCD10-B04-S01",
+        "WCD10-B04-S09",
+        "WCD10-B04-S11"
+      ],
+      "reason": "España en el corazón、Tercera residencia、Lagar II、La cabeza de la hidra等不凑数新增；目录线索不是全部事实/描述/层级复核完成。"
+    },
+    {
+      "key": "WCD10:B04:places_and_history",
+      "disposition": "no_inferred_endpoint_or_event",
+      "source_refs": [
+        "WCD10-B04-S14",
+        "WCD10-B04-S15",
+        "WCD10-B04-S10"
+      ],
+      "reason": "Makesicko不静默匹配墨西哥城；马丘比丘无既有地点端点；collection Poema地理仅文字，本批不借work SET_IN规则扩边，不以诗人经历/真实人名生成历史事件边。"
+    }
+  ]
+}

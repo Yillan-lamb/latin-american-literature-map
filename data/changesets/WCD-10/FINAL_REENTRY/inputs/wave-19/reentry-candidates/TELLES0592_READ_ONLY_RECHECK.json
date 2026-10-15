@@ -1,0 +1,21 @@
+{
+  "baseline_database_sha256": "559b1858b7b5e647b4b313f841be8d2960cf3a5eacf2a2dd92c6161668da706c",
+  "relationship_rows": [
+    {
+      "relationship_id": "V1-REL-0762",
+      "origin_layer": "WCD-10-B20",
+      "origin_relation_group_id": "WCD10-B20-R101",
+      "subject_id": "V1-ENT-0358",
+      "relation_type": "CREATED",
+      "object_id": "V1-ENT-0592",
+      "description_zh": "作为《Os sete pecados capitais》的参与作者之一；此CREATED仅表示对集体作品的创作贡献，不表示独著。",
+      "confidence": "high",
+      "review_status": "accepted",
+      "upstream_review_status": "Codex-parent-independent-review:PASS",
+      "evidence_count": "2",
+      "issue_code": "NONE"
+    }
+  ],
+  "expected_relationship_id": "V1-REL-0762",
+  "disposition": "already_closed_by_B20; no new candidate"
+}

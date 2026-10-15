@@ -1,0 +1,462 @@
+{
+  "schema": "wcd10-candidate-change-set-1",
+  "task_id": "TASK-126",
+  "batch_id": "WCD-10-B21",
+  "baseline_commit": "05f3372c69a54ec331d31b05d16c8288d6d3a993",
+  "baseline_database_sha256": "db16fe4f5faaafcfca3b02b42c52d56bb9b11d63704d2de49201d1f328e0a0ba",
+  "status": "candidate_frozen_parent_review_pending",
+  "author_ids": [
+    "V1-ENT-0360"
+  ],
+  "accessed_at": "2026-10-15",
+  "public_boundary": "仅Research候选；未经独立审核及后续Curation准入不得公开。",
+  "source_scope_decisions": [],
+  "sources": [
+    {
+      "candidate_id": "WCD10-B21-S001",
+      "url": "https://bibliofep.fundacionempresaspolar.org/dhv/entradas/g/gallegos-romulo/",
+      "title": "Gallegos, Rómulo",
+      "original_title": "Gallegos, Rómulo",
+      "author_or_editor": "Fundación Empresas Polar",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "实读2026-10-15，条目第23–27行：第23行说明《El Último Solar》于1920年出版、修改删节后以《Reinaldo Solar》于1930年再版；第26行记《Pobre negro》(1937)；第27行记《Sobre la misma tierra》(1941)；第45–47行列直接书目。URL与基线SRC-0275完全一致，复用原行。",
+      "usage": "复用现有SRC-0275，支持《Reinaldo Solar》的改题再版注记、作者作品归属及与另一可靠传记相冲突的《Sobre la misma tierra》年份记载；不改写正式来源行，也不据该作者条目的文学评论建立解释关系。",
+      "disposition": "reuse_existing_source",
+      "reuse_existing_source": "SRC-0275",
+      "candidate_ids": [
+        "WCD10-B21-W001",
+        "WCD10-B21-W005",
+        "WCD10-B21-W006"
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B21-S002",
+      "url": "https://www.anhvenezuela.org.ve/wp-content/uploads/2024/06/ROMULO-GALLEGOS-S.-A.-CONSALVI-BBV-41.pdf",
+      "title": "Rómulo Gallegos",
+      "original_title": "Rómulo Gallegos",
+      "author_or_editor": "Simón Alberto Consalvi",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "实读2026-10-15，PDF《Biblioteca Biográfica Venezolana》印刷页53–56、66–72、74–77、91–95、102–104、115–121及140：列《Los aventureros》(1913)及作品简介、《El Último Solar》(1920)及后续《Reinaldo Solar》脉络、《La Trepadora》(1925)、《Doña Bárbara》(1929)、《Cantaclaro》(1934)、《Canaima》(1935)、《Pobre Negro》(1937)、《El Forastero》(1942)、《Sobre la misma tierra》(章节标1943)；第140页说明流亡时期两部小说的题材。",
+      "usage": "支持作者归属、作品类型、直接书目和限定于该书传记叙述的中文简介；只作短篇幅释义，不复制原文或长段引文。对于《Sobre la misma tierra》年份只用于记载冲突说明。",
+      "disposition": "fresh_registration",
+      "candidate_ids": [
+        "WCD10-B21-F001",
+        "WCD10-B21-F002",
+        "WCD10-B21-F003",
+        "WCD10-B21-W001",
+        "WCD10-B21-W002",
+        "WCD10-B21-W003",
+        "WCD10-B21-W004",
+        "WCD10-B21-W005",
+        "WCD10-B21-W006",
+        "WCD10-B21-W007"
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B21-S003",
+      "url": "https://catalogosiidca.csuca.org/Record/UP.96127/TOC",
+      "title": "Obras completas /",
+      "original_title": "Obras completas /",
+      "author_or_editor": "Sistema Integrado de Información Documental Centroamericano (SIIDCA-CSUCA)",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "实读2026-10-15，目录页第26–45行：记录主作者Rómulo Gallegos、Aguilar 1958西班牙语版；第44–45行列两卷目录，包含《Reinaldo Solar》《La trepadora》《Pobre negro》《El forastero》《Sobre la misma tierra》《La brizna de paja en el viento》等。",
+      "usage": "仅支持目录直接列出的题名、作者、小说或合集层级及Aguilar汇编版书目信息；不支持单件首版年和情节简介。",
+      "disposition": "fresh_registration",
+      "candidate_ids": [
+        "WCD10-B21-W001",
+        "WCD10-B21-W002",
+        "WCD10-B21-W003",
+        "WCD10-B21-W004",
+        "WCD10-B21-W005",
+        "WCD10-B21-W006"
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B21-S004",
+      "url": "https://www.cervantesvirtual.com/portales/rosalia_de_castro_ga/obra/la-rebelion-1922--0/",
+      "title": "La rebelión (1922) / Rómulo Gallegos",
+      "original_title": "La rebelión (1922) / Rómulo Gallegos",
+      "author_or_editor": "Biblioteca Virtual Miguel de Cervantes",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "实读2026-10-15，第51–58行记作品作者、数字化目录信息、原始出版物《La rebelión y otros cuentos》(Caracas, Librería y Editorial del Maestro, 1946)及短篇叙事主题分类；第54–55行将《La rebelión》定位为该集页7–40。",
+      "usage": "支持《La rebelión y otros cuentos》短篇小说集书目、作者归属、1946年版次及集内收录《La rebelión》；不将单篇与合集合并为同一实体。",
+      "disposition": "fresh_registration",
+      "candidate_ids": [
+        "WCD10-B21-W008"
+      ]
+    }
+  ],
+  "new_entities": [
+    {
+      "candidate_id": "WCD10-B21-W001",
+      "author_id": "V1-ENT-0360",
+      "entity_type": "work",
+      "original_name": "Reinaldo Solar",
+      "name_zh_candidate": "《雷纳尔多·索拉尔》（暂译）",
+      "name_policy": "中文名仅作检索用工作译名，保留西班牙语原题作为身份锚点；不声称存在正式中文译本。",
+      "rationale": "Fundación Empresas Polar记载《El Último Solar》于1920年出版，修改删节后以《Reinaldo Solar》于1930年再版；Academia Nacional de la Historia传记提供人物与小说脉络。按再版题名建立一项作品，不另建旧题名实体。",
+      "created_source_refs": [
+        "WCD10-B21-S001",
+        "WCD10-B21-S002"
+      ],
+      "facts": [
+        {
+          "field": "genre_or_form",
+          "value": "小说",
+          "source_refs": [
+            "WCD10-B21-S001",
+            "WCD10-B21-S002"
+          ],
+          "fact_candidate_id": "WCD10-B21-F004"
+        },
+        {
+          "field": "bibliographic_note",
+          "value": "资料记载《El Último Solar》于1920年出版，之后经修改和删节后以《Reinaldo Solar》于1930年再版；本候选以修订再版题名作为作品身份，不把旧题名重复建成另一对象。",
+          "source_refs": [
+            "WCD10-B21-S001",
+            "WCD10-B21-S002"
+          ],
+          "fact_candidate_id": "WCD10-B21-F006"
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "小说围绕家族衰落后的最后代表Reinaldo展开，他在恢复家族庄园、公共理想与个人生活之间不断摇摆，最终走向未定的政治冒险。",
+          "source_refs": [
+            "WCD10-B21-S002"
+          ],
+          "fact_candidate_id": "WCD10-B21-F007"
+        }
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B21-W002",
+      "author_id": "V1-ENT-0360",
+      "entity_type": "work",
+      "original_name": "La Trepadora",
+      "name_zh_candidate": "《攀援者》（暂译）",
+      "name_policy": "中文名仅作检索用工作译名，保留西班牙语原题作为身份锚点；不声称存在正式中文译本。",
+      "rationale": "Academia Nacional de la Historia传记明确记载该小说于1925年由Tipografía Mercantil出版，并介绍Hilario Guanipa与女儿Victoria等主要人物。",
+      "created_source_refs": [
+        "WCD10-B21-S002"
+      ],
+      "facts": [
+        {
+          "field": "genre_or_form",
+          "value": "小说",
+          "source_refs": [
+            "WCD10-B21-S002"
+          ],
+          "fact_candidate_id": "WCD10-B21-F008"
+        },
+        {
+          "field": "first_publication_year",
+          "value": "1925",
+          "source_refs": [
+            "WCD10-B21-S002"
+          ],
+          "fact_candidate_id": "WCD10-B21-F009"
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "小说以咖啡采收女子Modesta Guanipa之子Hilario及其女儿Victoria为中心，写家族继承、庄园权力与爱情关系交织的变化。",
+          "source_refs": [
+            "WCD10-B21-S002"
+          ],
+          "fact_candidate_id": "WCD10-B21-F010"
+        }
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B21-W003",
+      "author_id": "V1-ENT-0360",
+      "entity_type": "work",
+      "original_name": "Pobre Negro",
+      "name_zh_candidate": "《穷黑人》（暂译）",
+      "name_policy": "中文名仅作检索用工作译名，保留西班牙语原题作为身份锚点；不声称存在正式中文译本。",
+      "rationale": "Academia Nacional de la Historia传记记载该小说1937年出版，并将其内容与委内瑞拉联邦战争及其社会冲突相联系；CSUCA目录列入Gallegos作品汇编。",
+      "created_source_refs": [
+        "WCD10-B21-S002",
+        "WCD10-B21-S003"
+      ],
+      "facts": [
+        {
+          "field": "genre_or_form",
+          "value": "小说",
+          "source_refs": [
+            "WCD10-B21-S002",
+            "WCD10-B21-S003"
+          ],
+          "fact_candidate_id": "WCD10-B21-F011"
+        },
+        {
+          "field": "first_publication_year",
+          "value": "1937",
+          "source_refs": [
+            "WCD10-B21-S002"
+          ],
+          "fact_candidate_id": "WCD10-B21-F012"
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "小说以联邦战争前后的委内瑞拉为背景，描写内战、废奴之后的社会冲突及普通民众在动荡历史中的处境。",
+          "source_refs": [
+            "WCD10-B21-S002"
+          ],
+          "fact_candidate_id": "WCD10-B21-F013"
+        }
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B21-W004",
+      "author_id": "V1-ENT-0360",
+      "entity_type": "work",
+      "original_name": "El Forastero",
+      "name_zh_candidate": "《异乡客》（暂译）",
+      "name_policy": "中文名仅作检索用工作译名，保留西班牙语原题作为身份锚点；不声称存在正式中文译本。",
+      "rationale": "Academia Nacional de la Historia传记说明1942年出版版本是作者重写的第二版，并区别于1921年写成、1980年才出版的早期版本；CSUCA目录列入其1958年作品汇编。",
+      "created_source_refs": [
+        "WCD10-B21-S002",
+        "WCD10-B21-S003"
+      ],
+      "facts": [
+        {
+          "field": "genre_or_form",
+          "value": "小说",
+          "source_refs": [
+            "WCD10-B21-S002",
+            "WCD10-B21-S003"
+          ],
+          "fact_candidate_id": "WCD10-B21-F014"
+        },
+        {
+          "field": "first_publication_year",
+          "value": "1942",
+          "source_refs": [
+            "WCD10-B21-S002"
+          ],
+          "fact_candidate_id": "WCD10-B21-F015"
+        },
+        {
+          "field": "bibliographic_note",
+          "value": "传记区分1921年写成而1980年才以“未刊小说”出版的早期稿本，与1942年刊行的重写版本；本候选只收1942年出版对象，不将两者误称为同一版本。",
+          "source_refs": [
+            "WCD10-B21-S002"
+          ],
+          "fact_candidate_id": "WCD10-B21-F016"
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "小说以受压迫的小镇和横行的暴君为背景；传记强调1942年重写本与早期稿在故事情节上明显不同。",
+          "source_refs": [
+            "WCD10-B21-S002"
+          ],
+          "fact_candidate_id": "WCD10-B21-F017"
+        }
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B21-W005",
+      "author_id": "V1-ENT-0360",
+      "entity_type": "work",
+      "original_name": "Sobre la misma tierra",
+      "name_zh_candidate": "《在同一片土地上》（暂译）",
+      "name_policy": "中文名仅作检索用工作译名，保留西班牙语原题作为身份锚点；不声称存在正式中文译本。",
+      "rationale": "Fundación Empresas Polar和Academia Nacional de la Historia均记载该作品并提供不同年份；Academia传记介绍瓜希拉地区、Remota Montiel与石油开发的相关内容；CSUCA目录确认该题名收入汇编。",
+      "created_source_refs": [
+        "WCD10-B21-S001",
+        "WCD10-B21-S002",
+        "WCD10-B21-S003"
+      ],
+      "facts": [
+        {
+          "field": "genre_or_form",
+          "value": "小说",
+          "source_refs": [
+            "WCD10-B21-S001",
+            "WCD10-B21-S002",
+            "WCD10-B21-S003"
+          ],
+          "fact_candidate_id": "WCD10-B21-F018"
+        },
+        {
+          "field": "bibliographic_note",
+          "value": "资料记载分歧：Fundación Empresas Polar列《Sobre la misma tierra》为1941年；Academia Nacional de la Historia传记以1943年为章节年份。现有来源在年份记载上不一致，暂不填写首版年；此处不据此断言存在不同版本。",
+          "source_refs": [
+            "WCD10-B21-S001",
+            "WCD10-B21-S002"
+          ],
+          "fact_candidate_id": "WCD10-B21-F019"
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "小说以苏利亚州和委内瑞拉瓜希拉地区为背景，通过Remota Montiel及当地牧民的生活，呈现贫困、土地处境与石油开发带来的变化。",
+          "source_refs": [
+            "WCD10-B21-S002"
+          ],
+          "fact_candidate_id": "WCD10-B21-F020"
+        }
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B21-W006",
+      "author_id": "V1-ENT-0360",
+      "entity_type": "work",
+      "original_name": "La brizna de paja en el viento",
+      "name_zh_candidate": "《风中的一根稻草》（暂译）",
+      "name_policy": "中文名仅作检索用工作译名，保留西班牙语原题作为身份锚点；不声称存在正式中文译本。",
+      "rationale": "CSUCA图书馆目录将《La brizna de paja en el viento》列入1958年《Obras completas》第二卷；Academia Nacional de la Historia传记把题为《Una brizna de paja en el viento》的作品列作流亡时期小说之一，并概述其古巴题材。",
+      "created_source_refs": [
+        "WCD10-B21-S002",
+        "WCD10-B21-S003"
+      ],
+      "facts": [
+        {
+          "field": "genre_or_form",
+          "value": "小说",
+          "source_refs": [
+            "WCD10-B21-S002",
+            "WCD10-B21-S003"
+          ],
+          "fact_candidate_id": "WCD10-B21-F021"
+        },
+        {
+          "field": "bibliographic_note",
+          "value": "CSUCA目录以《La brizna de paja en el viento》著录该题名，并列入Aguilar 1958年《Obras completas》第二卷；Academia传记以《Una brizna de paja en el viento》称该流亡时期小说。1958为汇编版出版年，不作为本作品首版年。",
+          "source_refs": [
+            "WCD10-B21-S002",
+            "WCD10-B21-S003"
+          ],
+          "fact_candidate_id": "WCD10-B21-F022"
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "这部流亡时期创作的小说以古巴为题材，涉及大学生运动及马查多独裁政治遗留的问题。",
+          "source_refs": [
+            "WCD10-B21-S002"
+          ],
+          "fact_candidate_id": "WCD10-B21-F023"
+        }
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B21-W007",
+      "author_id": "V1-ENT-0360",
+      "entity_type": "collection",
+      "original_name": "Los aventureros",
+      "name_zh_candidate": "《冒险者们》（暂译）",
+      "name_policy": "中文名仅作检索用工作译名，保留西班牙语原题作为身份锚点；不声称存在正式中文译本。",
+      "rationale": "Academia Nacional de la Historia传记明确称《Los aventureros》为Gallegos 1913年出版的第一本短篇小说集，并说明内含七篇故事。",
+      "created_source_refs": [
+        "WCD10-B21-S002"
+      ],
+      "facts": [
+        {
+          "field": "genre_or_form",
+          "value": "短篇小说集",
+          "source_refs": [
+            "WCD10-B21-S002"
+          ],
+          "fact_candidate_id": "WCD10-B21-F024"
+        },
+        {
+          "field": "first_publication_year",
+          "value": "1913",
+          "source_refs": [
+            "WCD10-B21-S002"
+          ],
+          "fact_candidate_id": "WCD10-B21-F025"
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "这部早期短篇集收录七篇故事；同名篇章写律师Jacinto Ávila与山地首领Matías Rosalira策动起义的经历。",
+          "source_refs": [
+            "WCD10-B21-S002"
+          ],
+          "fact_candidate_id": "WCD10-B21-F026"
+        }
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B21-W008",
+      "author_id": "V1-ENT-0360",
+      "entity_type": "collection",
+      "original_name": "La rebelión y otros cuentos",
+      "name_zh_candidate": "《叛乱及其他短篇》（暂译）",
+      "name_policy": "中文名仅作检索用工作译名，保留西班牙语原题作为身份锚点；不声称存在正式中文译本。",
+      "rationale": "Biblioteca Virtual Miguel de Cervantes的书目记录将《La rebelión》标作该集所收篇目，并明确记录原始版本为1946年Caracas的Librería y Editorial del Maestro出版。",
+      "created_source_refs": [
+        "WCD10-B21-S004"
+      ],
+      "facts": [
+        {
+          "field": "genre_or_form",
+          "value": "短篇小说集",
+          "source_refs": [
+            "WCD10-B21-S004"
+          ],
+          "fact_candidate_id": "WCD10-B21-F027"
+        },
+        {
+          "field": "bibliographic_note",
+          "value": "Cervantes数字记录所据《La rebelión y otros cuentos》为Caracas Librería y Editorial del Maestro 1946年版；不将单篇《La rebelión》页面题名中的1922年认定为合集首版年。",
+          "source_refs": [
+            "WCD10-B21-S004"
+          ],
+          "fact_candidate_id": "WCD10-B21-F028"
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "这部短篇小说集收录《La rebelión》等篇；图书馆数字目录将同名篇目定位在该集的页7至40。",
+          "source_refs": [
+            "WCD10-B21-S004"
+          ],
+          "fact_candidate_id": "WCD10-B21-F029"
+        }
+      ]
+    }
+  ],
+  "existing_facts": [
+    {
+      "candidate_id": "WCD10-B21-F001",
+      "subject_id": "V1-ENT-0367",
+      "field": "one_sentence_summary",
+      "value": "小说把Santos Luzardo重返阿普雷平原、接手Altamira庄园的经历，与Doña Bárbara所代表的土地权力和暴力相对照，呈现人物在冲突中的改变。",
+      "source_refs": [
+        "WCD10-B21-S002"
+      ],
+      "boundary": "仅补充Academia Nacional de la Historia传记直接叙述的人物、地点与情节线索；保留原有1929年、小说体裁及CREATED记录和来源闭包，不增加主题解释关系。"
+    },
+    {
+      "candidate_id": "WCD10-B21-F002",
+      "subject_id": "V1-ENT-0368",
+      "field": "one_sentence_summary",
+      "value": "小说以委内瑞拉平原为背景，围绕歌者Florentino展开；传记将作品描述为富有歌唱性、诗性叙述和传奇氛围。",
+      "source_refs": [
+        "WCD10-B21-S002"
+      ],
+      "boundary": "仅补充Academia Nacional de la Historia传记对该作品人物与叙述气质的说明；保留既有作品年份、体裁和全部关系来源。"
+    },
+    {
+      "candidate_id": "WCD10-B21-F003",
+      "subject_id": "V1-ENT-0369",
+      "field": "one_sentence_summary",
+      "value": "小说以圭亚那为背景，写冒险者Marcos Vargas遭遇的旅途、暴力冲突及其与当地人物的较量，并以壮阔景观构成叙事的重要部分。",
+      "source_refs": [
+        "WCD10-B21-S002"
+      ],
+      "boundary": "仅补充Academia Nacional de la Historia传记直接讨论的Marcos Vargas、圭亚那景观与情节内容；保留既有1935年、小说体裁和CREATED记录及其原始来源。"
+    }
+  ],
+  "extra_relationships": [],
+  "deferred": [
+    {
+      "key": "V1-ENT-0360.full_oeuvre",
+      "disposition": "preserve_as_research_gap",
+      "reason": "本轮围绕现有三部关联小说补充主要缺作、两部短篇集及有来源支持的简介；未穷尽Gallegos全部小说、短篇、戏剧、报刊作品与版本，研究范围仍开放。"
+    }
+  ]
+}

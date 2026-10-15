@@ -1,0 +1,1349 @@
+{
+  "task_id": "TASK-109",
+  "batch_id": "WCD-10-B04",
+  "candidate_review": {
+    "task_id": "TASK-109",
+    "reviewer": "wcd10_b01_review",
+    "reviewed_at": "2026-09-29",
+    "checkpoint_date": "2026-09-29",
+    "review_scope": "Independent B04 candidate, coverage and source registration review PASS after narrow delta. Separate SQL review required before apply.",
+    "packages": [
+      {
+        "file": "CANDIDATES.json",
+        "sha256": "c62fcbfe5c99a627ed20e5978e7d8175c35213f1031ba7c2742f866a2a511e22",
+        "verdict": "PASS"
+      }
+    ],
+    "coverage_sha256": "502247635db7cbdc348d02bf9e5aeed40fbcde1724e466843e8e8bb1a85a190d",
+    "registration_sha256": "0d55735033930f5914c5fe4e78f2437ed0e94fef3d914e3788ffd88cd4658bae",
+    "baseline_database_sha256": "079deee47063d2435bdaafe1b3c1dca24ca8b6c7353acc1427075bf0ce86746d",
+    "boundaries": [
+      "Research only; no Curation, public scope, Schema or release change",
+      "Reuse SRC-0070 unchanged; no duplicate source or grade promotion",
+      "F07 attributed research_note_only; F11 neutral structural and edition description",
+      "Alturas1947 is book edition, not first publication; periodical carrier unresolved",
+      "Nine new work/collection objects; Chinese display names provisional",
+      "Twenty-one coverage objects; retain eighteen scholarly gaps and six deferred",
+      "Poema de Chile77/131 edition distinction; city conflict excluded",
+      "Gringo viejo SET_IN Mexico is fictional plot, not historical Bierce trajectory",
+      "Preserve all old rows and legacy holds; no inferred interpretive or collection-geography relationships"
+    ]
+  },
+  "registration_sha256": "0d55735033930f5914c5fe4e78f2437ed0e94fef3d914e3788ffd88cd4658bae",
+  "migration_status": "PREPARED_PENDING_INDEPENDENT_SQL_REVIEW",
+  "id_map": {
+    "WCD10-B04-S01": "SRC-0070",
+    "WCD10-B04-S02": "SRC-0381",
+    "WCD10-B04-S03": "SRC-0382",
+    "WCD10-B04-S04": "SRC-0383",
+    "WCD10-B04-S05": "SRC-0384",
+    "WCD10-B04-S06": "SRC-0385",
+    "WCD10-B04-S07": "SRC-0386",
+    "WCD10-B04-S08": "SRC-0387",
+    "WCD10-B04-S09": "SRC-0388",
+    "WCD10-B04-S10": "SRC-0389",
+    "WCD10-B04-S11": "SRC-0390",
+    "WCD10-B04-S12": "SRC-0391",
+    "WCD10-B04-S13": "SRC-0392",
+    "WCD10-B04-S14": "SRC-0393",
+    "WCD10-B04-S15": "SRC-0394",
+    "WCD10-B04-W01": "V1-ENT-0412",
+    "WCD10-B04-W02": "V1-ENT-0413",
+    "WCD10-B04-W03": "V1-ENT-0414",
+    "WCD10-B04-W04": "V1-ENT-0415",
+    "WCD10-B04-W05": "V1-ENT-0416",
+    "WCD10-B04-W06": "V1-ENT-0417",
+    "WCD10-B04-W07": "V1-ENT-0418",
+    "WCD10-B04-W08": "V1-ENT-0419",
+    "WCD10-B04-W09": "V1-ENT-0420",
+    "WCD10-B04-W01-F01": "V1-FCT-1177",
+    "WCD10-B04-W01-F02": "V1-FCT-1178",
+    "WCD10-B04-W01-F03": "V1-FCT-1179",
+    "WCD10-B04-W02-F01": "V1-FCT-1180",
+    "WCD10-B04-W02-F02": "V1-FCT-1181",
+    "WCD10-B04-W02-F03": "V1-FCT-1182",
+    "WCD10-B04-W03-F01": "V1-FCT-1183",
+    "WCD10-B04-W03-F02": "V1-FCT-1184",
+    "WCD10-B04-W03-F03": "V1-FCT-1185",
+    "WCD10-B04-W04-F01": "V1-FCT-1186",
+    "WCD10-B04-W04-F02": "V1-FCT-1187",
+    "WCD10-B04-W04-F03": "V1-FCT-1188",
+    "WCD10-B04-W05-F01": "V1-FCT-1189",
+    "WCD10-B04-W05-F02": "V1-FCT-1190",
+    "WCD10-B04-W05-F03": "V1-FCT-1191",
+    "WCD10-B04-W06-F01": "V1-FCT-1192",
+    "WCD10-B04-W06-F02": "V1-FCT-1193",
+    "WCD10-B04-W06-F03": "V1-FCT-1194",
+    "WCD10-B04-W07-F01": "V1-FCT-1195",
+    "WCD10-B04-W07-F02": "V1-FCT-1196",
+    "WCD10-B04-W07-F03": "V1-FCT-1197",
+    "WCD10-B04-W08-F01": "V1-FCT-1198",
+    "WCD10-B04-W08-F02": "V1-FCT-1199",
+    "WCD10-B04-W08-F03": "V1-FCT-1200",
+    "WCD10-B04-W09-F01": "V1-FCT-1201",
+    "WCD10-B04-W09-F02": "V1-FCT-1202",
+    "WCD10-B04-W09-F03": "V1-FCT-1203",
+    "WCD10-B04-W09-F04": "V1-FCT-1204",
+    "WCD10-B04-F01": "V1-FCT-1205",
+    "WCD10-B04-F02": "V1-FCT-1206",
+    "WCD10-B04-F03": "V1-FCT-1207",
+    "WCD10-B04-F04": "V1-FCT-1208",
+    "WCD10-B04-F05": "V1-FCT-1209",
+    "WCD10-B04-F06": "V1-FCT-1210",
+    "WCD10-B04-F07": "V1-FCT-1211",
+    "WCD10-B04-F11": "V1-FCT-1212",
+    "WCD10-B04-F08": "V1-FCT-1213",
+    "WCD10-B04-F09": "V1-FCT-1214",
+    "WCD10-B04-F10": "V1-FCT-1215",
+    "WCD10-B04-W01-CREATED": "V1-REL-0379",
+    "WCD10-B04-W02-CREATED": "V1-REL-0380",
+    "WCD10-B04-W03-CREATED": "V1-REL-0381",
+    "WCD10-B04-W04-CREATED": "V1-REL-0382",
+    "WCD10-B04-W05-CREATED": "V1-REL-0383",
+    "WCD10-B04-W06-CREATED": "V1-REL-0384",
+    "WCD10-B04-W07-CREATED": "V1-REL-0385",
+    "WCD10-B04-W08-CREATED": "V1-REL-0386",
+    "WCD10-B04-W09-CREATED": "V1-REL-0387",
+    "WCD10-B04-R01": "V1-REL-0388"
+  },
+  "coverage_sha256": "502247635db7cbdc348d02bf9e5aeed40fbcde1724e466843e8e8bb1a85a190d",
+  "coverage": {
+    "task_id": "TASK-109",
+    "scope": "12 existing objects plus 9 additions; 21 bounded coverage decisions, not an exhaustive bibliography or full scholarly coverage.",
+    "author_descriptions": "沿用三作者既有传记及来源，不从作品梗概生成新作者传记，不下推作者层面的运动或政治归属。",
+    "research_policy": "保留历史准入；机构胶囊/教育资源/目录及大学转载讲演保守B，所引原刊未读不登记为独立A级研究。所有未解决项留gap，既有resolved关系不回退。",
+    "objects": [
+      {
+        "object_ref": "V1-ENT-0119",
+        "bibliography": "existing_retained",
+        "description": "existing_retained",
+        "research_status": "preserved_existing",
+        "research_refs": [
+          "SRC-0002",
+          "SRC-0049",
+          "SRC-0053",
+          "SRC-0055"
+        ],
+        "remaining": "Veinte旧A级研究/1924/体裁/描述沿用，不声称本次阅读全文。爱情hold0040保留；扩展研究不称完备。",
+        "formal_subject_id": "V1-ENT-0119"
+      },
+      {
+        "object_ref": "V1-ENT-0120",
+        "bibliography": "F01_F02_candidate_first_volume_and_version_scope",
+        "description": "F03_candidate_attributed_institutional_summary",
+        "research_status": "preserved_existing",
+        "research_refs": [
+          "SRC-0050",
+          "SRC-0070",
+          "WCD10-B04-S01",
+          "WCD10-B04-S02"
+        ],
+        "remaining": "保留Concha既有A级研究及旧research_note；追加版本事实不改旧gap状态。第三部另册未自动新增，政治主题缺口保留。",
+        "formal_subject_id": "V1-ENT-0120"
+      },
+      {
+        "object_ref": "V1-ENT-0121",
+        "bibliography": "existing_retained",
+        "description": "existing_retained",
+        "research_status": "preserved_existing",
+        "research_refs": [
+          "SRC-0002",
+          "SRC-0052",
+          "SRC-0054",
+          "SRC-0055",
+          "SRC-0059"
+        ],
+        "remaining": "Canto既有1950/A级研究/REL0074保留；旧political_theme_hold不静默覆盖；新胶囊不作为第二独立研究。",
+        "formal_subject_id": "V1-ENT-0121"
+      },
+      {
+        "object_ref": "V1-ENT-0122",
+        "bibliography": "F04_F06_candidate_book_1947_not_first_periodical",
+        "description": "F05_F11_neutral_structure_F07_research_note_only",
+        "research_status": "institutional_commentary",
+        "research_refs": [
+          "SRC-0055",
+          "WCD10-B04-S01",
+          "WCD10-B04-S03",
+          "WCD10-B04-S15"
+        ],
+        "remaining": "Alturas首次发表载体仍OPEN；Loyola保守B、已读目标片段而非原刊全篇，独立A级及第二研究OPEN；无马丘比丘端点，不合并Canto。",
+        "formal_subject_id": "V1-ENT-0122",
+        "gap_id": "V1-GAP-0105"
+      },
+      {
+        "object_ref": "V1-ENT-0165",
+        "bibliography": "F08_candidate_1959_old_BnF_retained",
+        "description": "F09_candidate_attributed_resource_description",
+        "research_status": "institutional_commentary",
+        "research_refs": [
+          "SRC-0110",
+          "WCD10-B04-S01",
+          "WCD10-B04-S04"
+        ],
+        "remaining": "Cien sonetos旧1992再版说明保留，1959新增直接首年；教育部评论不是独立A级研究，爱情主题边不确认。",
+        "formal_subject_id": "V1-ENT-0165",
+        "gap_id": "V1-GAP-0106"
+      },
+      {
+        "object_ref": "V1-ENT-0146",
+        "bibliography": "existing_retained",
+        "description": "existing_retained",
+        "research_status": "catalog_only",
+        "research_refs": [
+          "SRC-0087",
+          "SRC-0089",
+          "SRC-0090",
+          "SRC-0094"
+        ],
+        "remaining": "La región既有1958/小说/群像/城市事实与关系保留；旧来源均B，作品级独立A级研究OPEN，不把作者总评下推。",
+        "formal_subject_id": "V1-ENT-0146",
+        "gap_id": "V1-GAP-0107"
+      },
+      {
+        "object_ref": "V1-ENT-0147",
+        "bibliography": "existing_retained",
+        "description": "existing_retained",
+        "research_status": "catalog_only",
+        "research_refs": [
+          "SRC-0087",
+          "SRC-0091",
+          "SRC-0092",
+          "SRC-0093",
+          "SRC-0095"
+        ],
+        "remaining": "Artemio旧1962/梗概/人称与人物沿用；现版/图书采购书目不替代作品级A级研究，不确认真实原型。",
+        "formal_subject_id": "V1-ENT-0147",
+        "gap_id": "V1-GAP-0108"
+      },
+      {
+        "object_ref": "V1-ENT-0169",
+        "bibliography": "existing_retained",
+        "description": "existing_retained",
+        "research_status": "catalog_only",
+        "research_refs": [
+          "SRC-0128",
+          "SRC-0129"
+        ],
+        "remaining": "Aura旧1962/短小说（novella）及work层级/梗概/第二人称/城市保留；B/C链不称A级；不以作者代理旁支作为已读新作品研究。",
+        "formal_subject_id": "V1-ENT-0169",
+        "gap_id": "V1-GAP-0109"
+      },
+      {
+        "object_ref": "V1-ENT-0374",
+        "bibliography": "existing_retained",
+        "description": "existing_retained",
+        "research_status": "catalog_only",
+        "research_refs": [
+          "SRC-0301",
+          "SRC-0302",
+          "SRC-0303"
+        ],
+        "remaining": "Terra Nostra既有1975/三部结构和B/C来源保留；本批未读独立A级原文，明确作品研究gap，不用作者政治归属确认事件。",
+        "formal_subject_id": "V1-ENT-0374",
+        "gap_id": "V1-GAP-0110"
+      },
+      {
+        "object_ref": "V1-ENT-0149",
+        "bibliography": "existing_retained_1922",
+        "description": "F10_candidate_1922_contents",
+        "research_status": "institutional_commentary",
+        "research_refs": [
+          "SRC-0096",
+          "SRC-0097",
+          "WCD10-B04-S08"
+        ],
+        "remaining": "Desolación初版整体结构补齐；1923/1926再版不改1922，独立A级作品研究仍OPEN。Sonetos单篇不下推合集。",
+        "formal_subject_id": "V1-ENT-0149",
+        "gap_id": "V1-GAP-0111"
+      },
+      {
+        "object_ref": "V1-ENT-0150",
+        "bibliography": "existing_retained_1924",
+        "description": "existing_retained",
+        "research_status": "catalog_only",
+        "research_refs": [
+          "SRC-0096",
+          "SRC-0097"
+        ],
+        "remaining": "Ternura1924/摇篮曲歌谣描述保留；1945扩编不重建作品。旧Nobel两页不是两篇独立文学研究，A级缺口OPEN。",
+        "formal_subject_id": "V1-ENT-0150",
+        "gap_id": "V1-GAP-0112"
+      },
+      {
+        "object_ref": "V1-ENT-0151",
+        "bibliography": "existing_retained_1938",
+        "description": "existing_retained",
+        "research_status": "catalog_only",
+        "research_refs": [
+          "SRC-0096",
+          "SRC-0097"
+        ],
+        "remaining": "Tala1938及旧自由诗/意象描述保留，不称无描述；独立A级研究仍OPEN，不以modernismo作者hold下推。",
+        "formal_subject_id": "V1-ENT-0151",
+        "gap_id": "V1-GAP-0113"
+      },
+      {
+        "object_ref": "WCD10-B04-W01",
+        "bibliography": "candidate_verified_pending_review",
+        "description": "candidate_bounded_object_level_description",
+        "research_status": "institutional_commentary",
+        "research_refs": [
+          "WCD10-B04-S01",
+          "WCD10-B04-S05"
+        ],
+        "remaining": "Crepusculario作品/合集级独立A级研究及需第二来源的解释关系仍OPEN。中文显示名暂译；只存当前已核对象级书目/有归属描述，不合并版本或单篇，不作公共准入。",
+        "formal_subject_id": "V1-ENT-0412",
+        "gap_id": "V1-GAP-0114"
+      },
+      {
+        "object_ref": "WCD10-B04-W02",
+        "bibliography": "candidate_verified_pending_review",
+        "description": "candidate_bounded_object_level_description",
+        "research_status": "institutional_commentary",
+        "research_refs": [
+          "WCD10-B04-S01",
+          "WCD10-B04-S06"
+        ],
+        "remaining": "Odas elementales作品/合集级独立A级研究及需第二来源的解释关系仍OPEN。中文显示名暂译；只存当前已核对象级书目/有归属描述，不合并版本或单篇，不作公共准入。",
+        "formal_subject_id": "V1-ENT-0413",
+        "gap_id": "V1-GAP-0115"
+      },
+      {
+        "object_ref": "WCD10-B04-W03",
+        "bibliography": "candidate_verified_pending_review",
+        "description": "candidate_bounded_object_level_description",
+        "research_status": "catalog_only",
+        "research_refs": [
+          "WCD10-B04-S01",
+          "WCD10-B04-S07"
+        ],
+        "remaining": "Los versos del capitán作品/合集级独立A级研究及需第二来源的解释关系仍OPEN。中文显示名暂译；只存当前已核对象级书目/有归属描述，不合并版本或单篇，不作公共准入。",
+        "formal_subject_id": "V1-ENT-0414",
+        "gap_id": "V1-GAP-0116"
+      },
+      {
+        "object_ref": "WCD10-B04-W04",
+        "bibliography": "candidate_verified_pending_review",
+        "description": "candidate_bounded_object_level_description",
+        "research_status": "catalog_only",
+        "research_refs": [
+          "WCD10-B04-S11"
+        ],
+        "remaining": "Los días enmascarados作品/合集级独立A级研究及需第二来源的解释关系仍OPEN。中文显示名暂译；只存当前已核对象级书目/有归属描述，不合并版本或单篇，不作公共准入。",
+        "formal_subject_id": "V1-ENT-0415",
+        "gap_id": "V1-GAP-0117"
+      },
+      {
+        "object_ref": "WCD10-B04-W05",
+        "bibliography": "candidate_verified_pending_review",
+        "description": "candidate_bounded_object_level_description",
+        "research_status": "catalog_only",
+        "research_refs": [
+          "WCD10-B04-S12"
+        ],
+        "remaining": "Las buenas conciencias作品/合集级独立A级研究及需第二来源的解释关系仍OPEN。中文显示名暂译；只存当前已核对象级书目/有归属描述，不合并版本或单篇，不作公共准入。",
+        "formal_subject_id": "V1-ENT-0416",
+        "gap_id": "V1-GAP-0118"
+      },
+      {
+        "object_ref": "WCD10-B04-W06",
+        "bibliography": "candidate_verified_pending_review",
+        "description": "candidate_bounded_object_level_description",
+        "research_status": "catalog_only",
+        "research_refs": [
+          "WCD10-B04-S13"
+        ],
+        "remaining": "Gringo viejo作品/合集级独立A级研究及需第二来源的解释关系仍OPEN。中文显示名暂译；只存当前已核对象级书目/有归属描述，不合并版本或单篇，不作公共准入。",
+        "formal_subject_id": "V1-ENT-0417",
+        "gap_id": "V1-GAP-0119"
+      },
+      {
+        "object_ref": "WCD10-B04-W07",
+        "bibliography": "candidate_verified_pending_review",
+        "description": "candidate_bounded_object_level_description",
+        "research_status": "catalog_only",
+        "research_refs": [
+          "WCD10-B04-S14"
+        ],
+        "remaining": "Cristóbal Nonato作品/合集级独立A级研究及需第二来源的解释关系仍OPEN。中文显示名暂译；只存当前已核对象级书目/有归属描述，不合并版本或单篇，不作公共准入。",
+        "formal_subject_id": "V1-ENT-0418",
+        "gap_id": "V1-GAP-0120"
+      },
+      {
+        "object_ref": "WCD10-B04-W08",
+        "bibliography": "candidate_verified_pending_review",
+        "description": "candidate_bounded_object_level_description",
+        "research_status": "institutional_commentary",
+        "research_refs": [
+          "WCD10-B04-S09"
+        ],
+        "remaining": "Lagar作品/合集级独立A级研究及需第二来源的解释关系仍OPEN。中文显示名暂译；只存当前已核对象级书目/有归属描述，不合并版本或单篇，不作公共准入。",
+        "formal_subject_id": "V1-ENT-0419",
+        "gap_id": "V1-GAP-0121"
+      },
+      {
+        "object_ref": "WCD10-B04-W09",
+        "bibliography": "candidate_verified_pending_review",
+        "description": "candidate_bounded_object_level_description",
+        "research_status": "institutional_commentary",
+        "research_refs": [
+          "WCD10-B04-S10"
+        ],
+        "remaining": "Poema de Chile作品/合集级独立A级研究及需第二来源的解释关系仍OPEN。中文显示名暂译；只存当前已核对象级书目/有归属描述，不合并版本或单篇，不作公共准入。",
+        "formal_subject_id": "V1-ENT-0420",
+        "gap_id": "V1-GAP-0122"
+      }
+    ]
+  },
+  "metadata_hash_boundary": "metadata.sha256 is the unchanged V1.0.0 historical snapshot table-hash set, not a current-table digest. Current integrity uses baseline database SHA, reviewed SQL SHA, migration log, replay and deterministic exports.",
+  "sources": [
+    {
+      "candidate_id": "WCD10-B04-S01",
+      "source_id": "SRC-0070",
+      "disposition": "reuse_without_modifying_source",
+      "scope_decision": {
+        "candidate_ids": [
+          "WCD10-B04-S01"
+        ],
+        "disposition": "reuse",
+        "related_existing_source": "SRC-0070",
+        "reason": "同一CVC书目fresh重读不成为第二独立来源；保留旧等级与所有元数据。"
+      },
+      "accessed_at": "2026-09-29",
+      "verified_by": "CODEX-DATA opened used passages; independent Reviewer required",
+      "copyright_boundary": "Only original brief paraphrases and metadata. No book/article full text, images, cover art or PDF assets copied. Memoria research pages state CC BY-SA 3.0 except digital objects; publisher/agency/educational copyright retained.",
+      "locator": "Crepusculario/Residencia/Alturas/Los versos/Odas/Cien sonetos具体书目条目",
+      "usage": "只用目标书目；写作期、独立书版与总集收录分开。复用SRC-0070，不改旧元数据。",
+      "notes": "只用目标书目；写作期、独立书版与总集收录分开。复用SRC-0070，不改旧元数据。 作品年/版权脚注不作为网页发表年。"
+    },
+    {
+      "candidate_id": "WCD10-B04-S02",
+      "source_id": "SRC-0381",
+      "scope_decision": {
+        "candidate_ids": [
+          "WCD10-B04-S02",
+          "WCD10-B04-S03",
+          "WCD10-B04-S04",
+          "WCD10-B04-S05",
+          "WCD10-B04-S06",
+          "WCD10-B04-S07",
+          "WCD10-B04-S08",
+          "WCD10-B04-S09",
+          "WCD10-B04-S10",
+          "WCD10-B04-S11",
+          "WCD10-B04-S12",
+          "WCD10-B04-S13",
+          "WCD10-B04-S14",
+          "WCD10-B04-S15"
+        ],
+        "disposition": "bounded_B_not_new_A",
+        "reason": "机构研究胶囊、教育资源、出版社/代理目录与大学转载讲演分别定位；未读胶囊所引原刊，不登记引文为A级来源；讲演只读目标片段，未核原刊。所有解释仅归属释义，独立A级或第二研究缺口保留。"
+      },
+      "accessed_at": "2026-09-29",
+      "verified_by": "CODEX-DATA opened used passages; independent Reviewer required",
+      "copyright_boundary": "Only original brief paraphrases and metadata. No book/article full text, images, cover art or PDF assets copied. Memoria research pages state CC BY-SA 3.0 except digital objects; publisher/agency/educational copyright retained.",
+      "locator": "主叙述1933首部/1931–1935第二部/1947第三部",
+      "usage": "补首部出版年及分卷描述；侧栏Ercilla1930不准入，非第三独立学术研究。",
+      "notes": "补首部出版年及分卷描述；侧栏Ercilla1930不准入，非第三独立学术研究。 作品年/版权脚注不作为网页发表年。"
+    },
+    {
+      "candidate_id": "WCD10-B04-S03",
+      "source_id": "SRC-0382",
+      "scope_decision": {
+        "candidate_ids": [
+          "WCD10-B04-S02",
+          "WCD10-B04-S03",
+          "WCD10-B04-S04",
+          "WCD10-B04-S05",
+          "WCD10-B04-S06",
+          "WCD10-B04-S07",
+          "WCD10-B04-S08",
+          "WCD10-B04-S09",
+          "WCD10-B04-S10",
+          "WCD10-B04-S11",
+          "WCD10-B04-S12",
+          "WCD10-B04-S13",
+          "WCD10-B04-S14",
+          "WCD10-B04-S15"
+        ],
+        "disposition": "bounded_B_not_new_A",
+        "reason": "机构研究胶囊、教育资源、出版社/代理目录与大学转载讲演分别定位；未读胶囊所引原刊，不登记引文为A级来源；讲演只读目标片段，未核原刊。所有解释仅归属释义，独立A级或第二研究缺口保留。"
+      },
+      "accessed_at": "2026-09-29",
+      "verified_by": "CODEX-DATA opened used passages; independent Reviewer required",
+      "copyright_boundary": "Only original brief paraphrases and metadata. No book/article full text, images, cover art or PDF assets copied. Memoria research pages state CC BY-SA 3.0 except digital objects; publisher/agency/educational copyright retained.",
+      "locator": "主叙述Alturas写作与Canto收录",
+      "usage": "只取Alturas收录于Canto的对象边界；1950出版社旁支和历史细节不准入，不重复旧Canto关系。",
+      "notes": "只取Alturas收录于Canto的对象边界；1950出版社旁支和历史细节不准入，不重复旧Canto关系。 作品年/版权脚注不作为网页发表年。"
+    },
+    {
+      "candidate_id": "WCD10-B04-S04",
+      "source_id": "SRC-0383",
+      "scope_decision": {
+        "candidate_ids": [
+          "WCD10-B04-S02",
+          "WCD10-B04-S03",
+          "WCD10-B04-S04",
+          "WCD10-B04-S05",
+          "WCD10-B04-S06",
+          "WCD10-B04-S07",
+          "WCD10-B04-S08",
+          "WCD10-B04-S09",
+          "WCD10-B04-S10",
+          "WCD10-B04-S11",
+          "WCD10-B04-S12",
+          "WCD10-B04-S13",
+          "WCD10-B04-S14",
+          "WCD10-B04-S15"
+        ],
+        "disposition": "bounded_B_not_new_A",
+        "reason": "机构研究胶囊、教育资源、出版社/代理目录与大学转载讲演分别定位；未读胶囊所引原刊，不登记引文为A级来源；讲演只读目标片段，未核原刊。所有解释仅归属释义，独立A级或第二研究缺口保留。"
+      },
+      "accessed_at": "2026-09-29",
+      "verified_by": "CODEX-DATA opened used passages; independent Reviewer required",
+      "copyright_boundary": "Only original brief paraphrases and metadata. No book/article full text, images, cover art or PDF assets copied. Memoria research pages state CC BY-SA 3.0 except digital objects; publisher/agency/educational copyright retained.",
+      "locator": "标题下两段资源介绍",
+      "usage": "仅归属明确的诗集描述；Año publicación2019未确认为作品/网页首年，不替代1959。不作确认主题边。",
+      "notes": "仅归属明确的诗集描述；Año publicación2019未确认为作品/网页首年，不替代1959。不作确认主题边。 页面2019对应资源出版字段，网页日期未核。"
+    },
+    {
+      "candidate_id": "WCD10-B04-S05",
+      "source_id": "SRC-0384",
+      "scope_decision": {
+        "candidate_ids": [
+          "WCD10-B04-S02",
+          "WCD10-B04-S03",
+          "WCD10-B04-S04",
+          "WCD10-B04-S05",
+          "WCD10-B04-S06",
+          "WCD10-B04-S07",
+          "WCD10-B04-S08",
+          "WCD10-B04-S09",
+          "WCD10-B04-S10",
+          "WCD10-B04-S11",
+          "WCD10-B04-S12",
+          "WCD10-B04-S13",
+          "WCD10-B04-S14",
+          "WCD10-B04-S15"
+        ],
+        "disposition": "bounded_B_not_new_A",
+        "reason": "机构研究胶囊、教育资源、出版社/代理目录与大学转载讲演分别定位；未读胶囊所引原刊，不登记引文为A级来源；讲演只读目标片段，未核原刊。所有解释仅归属释义，独立A级或第二研究缺口保留。"
+      },
+      "accessed_at": "2026-09-29",
+      "verified_by": "CODEX-DATA opened used passages; independent Reviewer required",
+      "copyright_boundary": "Only original brief paraphrases and metadata. No book/article full text, images, cover art or PDF assets copied. Memoria research pages state CC BY-SA 3.0 except digital objects; publisher/agency/educational copyright retained.",
+      "locator": "主叙述1923及初版五章、1926改编说明",
+      "usage": "仅初版书目/五部分构成；批评家引述不登记为已阅读全文的独立A级来源。",
+      "notes": "仅初版书目/五部分构成；批评家引述不登记为已阅读全文的独立A级来源。 作品年/版权脚注不作为网页发表年。"
+    },
+    {
+      "candidate_id": "WCD10-B04-S06",
+      "source_id": "SRC-0385",
+      "scope_decision": {
+        "candidate_ids": [
+          "WCD10-B04-S02",
+          "WCD10-B04-S03",
+          "WCD10-B04-S04",
+          "WCD10-B04-S05",
+          "WCD10-B04-S06",
+          "WCD10-B04-S07",
+          "WCD10-B04-S08",
+          "WCD10-B04-S09",
+          "WCD10-B04-S10",
+          "WCD10-B04-S11",
+          "WCD10-B04-S12",
+          "WCD10-B04-S13",
+          "WCD10-B04-S14",
+          "WCD10-B04-S15"
+        ],
+        "disposition": "bounded_B_not_new_A",
+        "reason": "机构研究胶囊、教育资源、出版社/代理目录与大学转载讲演分别定位；未读胶囊所引原刊，不登记引文为A级来源；讲演只读目标片段，未核原刊。所有解释仅归属释义，独立A级或第二研究缺口保留。"
+      },
+      "accessed_at": "2026-09-29",
+      "verified_by": "CODEX-DATA opened used passages; independent Reviewer required",
+      "copyright_boundary": "Only original brief paraphrases and metadata. No book/article full text, images, cover art or PDF assets copied. Memoria research pages state CC BY-SA 3.0 except digital objects; publisher/agency/educational copyright retained.",
+      "locator": "主叙述1954及日常对象；1956/1957其他书名",
+      "usage": "只处理1954诗集；日常对象描述不生成主题关系，不把后两书合并。",
+      "notes": "只处理1954诗集；日常对象描述不生成主题关系，不把后两书合并。 作品年/版权脚注不作为网页发表年。"
+    },
+    {
+      "candidate_id": "WCD10-B04-S07",
+      "source_id": "SRC-0386",
+      "scope_decision": {
+        "candidate_ids": [
+          "WCD10-B04-S02",
+          "WCD10-B04-S03",
+          "WCD10-B04-S04",
+          "WCD10-B04-S05",
+          "WCD10-B04-S06",
+          "WCD10-B04-S07",
+          "WCD10-B04-S08",
+          "WCD10-B04-S09",
+          "WCD10-B04-S10",
+          "WCD10-B04-S11",
+          "WCD10-B04-S12",
+          "WCD10-B04-S13",
+          "WCD10-B04-S14",
+          "WCD10-B04-S15"
+        ],
+        "disposition": "bounded_B_not_new_A",
+        "reason": "机构研究胶囊、教育资源、出版社/代理目录与大学转载讲演分别定位；未读胶囊所引原刊，不登记引文为A级来源；讲演只读目标片段，未核原刊。所有解释仅归属释义，独立A级或第二研究缺口保留。"
+      },
+      "accessed_at": "2026-09-29",
+      "verified_by": "CODEX-DATA opened used passages; independent Reviewer required",
+      "copyright_boundary": "Only original brief paraphrases and metadata. No book/article full text, images, cover art or PDF assets copied. Memoria research pages state CC BY-SA 3.0 except digital objects; publisher/agency/educational copyright retained.",
+      "locator": "作品署名/ISBN9789500306171/两段简介",
+      "usage": "体裁及有归属爱情诗描述；第三版署名说法不作为全部版本统一年代，不作作者恋爱事实。",
+      "notes": "体裁及有归属爱情诗描述；第三版署名说法不作为全部版本统一年代，不作作者恋爱事实。 作品年/版权脚注不作为网页发表年。"
+    },
+    {
+      "candidate_id": "WCD10-B04-S08",
+      "source_id": "SRC-0387",
+      "scope_decision": {
+        "candidate_ids": [
+          "WCD10-B04-S02",
+          "WCD10-B04-S03",
+          "WCD10-B04-S04",
+          "WCD10-B04-S05",
+          "WCD10-B04-S06",
+          "WCD10-B04-S07",
+          "WCD10-B04-S08",
+          "WCD10-B04-S09",
+          "WCD10-B04-S10",
+          "WCD10-B04-S11",
+          "WCD10-B04-S12",
+          "WCD10-B04-S13",
+          "WCD10-B04-S14",
+          "WCD10-B04-S15"
+        ],
+        "disposition": "bounded_B_not_new_A",
+        "reason": "机构研究胶囊、教育资源、出版社/代理目录与大学转载讲演分别定位；未读胶囊所引原刊，不登记引文为A级来源；讲演只读目标片段，未核原刊。所有解释仅归属释义，独立A级或第二研究缺口保留。"
+      },
+      "accessed_at": "2026-09-29",
+      "verified_by": "CODEX-DATA opened used passages; independent Reviewer required",
+      "copyright_boundary": "Only original brief paraphrases and metadata. No book/article full text, images, cover art or PDF assets copied. Memoria research pages state CC BY-SA 3.0 except digital objects; publisher/agency/educational copyright retained.",
+      "locator": "主叙述初版七部分（五诗/二散文）",
+      "usage": "只补初版结构描述，不把单首Sonetos或传记式批评下推全书。旧首版/体裁不覆盖。",
+      "notes": "只补初版结构描述，不把单首Sonetos或传记式批评下推全书。旧首版/体裁不覆盖。 作品年/版权脚注不作为网页发表年。"
+    },
+    {
+      "candidate_id": "WCD10-B04-S09",
+      "source_id": "SRC-0388",
+      "scope_decision": {
+        "candidate_ids": [
+          "WCD10-B04-S02",
+          "WCD10-B04-S03",
+          "WCD10-B04-S04",
+          "WCD10-B04-S05",
+          "WCD10-B04-S06",
+          "WCD10-B04-S07",
+          "WCD10-B04-S08",
+          "WCD10-B04-S09",
+          "WCD10-B04-S10",
+          "WCD10-B04-S11",
+          "WCD10-B04-S12",
+          "WCD10-B04-S13",
+          "WCD10-B04-S14",
+          "WCD10-B04-S15"
+        ],
+        "disposition": "bounded_B_not_new_A",
+        "reason": "机构研究胶囊、教育资源、出版社/代理目录与大学转载讲演分别定位；未读胶囊所引原刊，不登记引文为A级来源；讲演只读目标片段，未核原刊。所有解释仅归属释义，独立A级或第二研究缺口保留。"
+      },
+      "accessed_at": "2026-09-29",
+      "verified_by": "CODEX-DATA opened used passages; independent Reviewer required",
+      "copyright_boundary": "Only original brief paraphrases and metadata. No book/article full text, images, cover art or PDF assets copied. Memoria research pages state CC BY-SA 3.0 except digital objects; publisher/agency/educational copyright retained.",
+      "locator": "主叙述1954/Editorial del Pacífico/13部分74诗；个别诗先刊说明",
+      "usage": "补1954集合级书目与结构，不声称74诗全部首次面世；引述研究未读原刊不登记A，不与1991 Lagar II合并。",
+      "notes": "补1954集合级书目与结构，不声称74诗全部首次面世；引述研究未读原刊不登记A，不与1991 Lagar II合并。 作品年/版权脚注不作为网页发表年。"
+    },
+    {
+      "candidate_id": "WCD10-B04-S10",
+      "source_id": "SRC-0389",
+      "scope_decision": {
+        "candidate_ids": [
+          "WCD10-B04-S02",
+          "WCD10-B04-S03",
+          "WCD10-B04-S04",
+          "WCD10-B04-S05",
+          "WCD10-B04-S06",
+          "WCD10-B04-S07",
+          "WCD10-B04-S08",
+          "WCD10-B04-S09",
+          "WCD10-B04-S10",
+          "WCD10-B04-S11",
+          "WCD10-B04-S12",
+          "WCD10-B04-S13",
+          "WCD10-B04-S14",
+          "WCD10-B04-S15"
+        ],
+        "disposition": "bounded_B_not_new_A",
+        "reason": "机构研究胶囊、教育资源、出版社/代理目录与大学转载讲演分别定位；未读胶囊所引原刊，不登记引文为A级来源；讲演只读目标片段，未核原刊。所有解释仅归属释义，独立A级或第二研究缺口保留。"
+      },
+      "accessed_at": "2026-09-29",
+      "verified_by": "CODEX-DATA opened used passages; independent Reviewer required",
+      "copyright_boundary": "Only original brief paraphrases and metadata. No book/article full text, images, cover art or PDF assets copied. Memoria research pages state CC BY-SA 3.0 except digital objects; publisher/agency/educational copyright retained.",
+      "locator": "主叙述Doris Dana/77诗/身后出版/三同行者/2015扩编",
+      "usage": "1967首版集合为对象；77限定该版，不采Barcelona/Santiago冲突城市，不把诗中人物等同现实传记。",
+      "notes": "1967首版集合为对象；77限定该版，不采Barcelona/Santiago冲突城市，不把诗中人物等同现实传记。 作品年/版权脚注不作为网页发表年。"
+    },
+    {
+      "candidate_id": "WCD10-B04-S11",
+      "source_id": "SRC-0390",
+      "scope_decision": {
+        "candidate_ids": [
+          "WCD10-B04-S02",
+          "WCD10-B04-S03",
+          "WCD10-B04-S04",
+          "WCD10-B04-S05",
+          "WCD10-B04-S06",
+          "WCD10-B04-S07",
+          "WCD10-B04-S08",
+          "WCD10-B04-S09",
+          "WCD10-B04-S10",
+          "WCD10-B04-S11",
+          "WCD10-B04-S12",
+          "WCD10-B04-S13",
+          "WCD10-B04-S14",
+          "WCD10-B04-S15"
+        ],
+        "disposition": "bounded_B_not_new_A",
+        "reason": "机构研究胶囊、教育资源、出版社/代理目录与大学转载讲演分别定位；未读胶囊所引原刊，不登记引文为A级来源；讲演只读目标片段，未核原刊。所有解释仅归属释义，独立A级或第二研究缺口保留。"
+      },
+      "accessed_at": "2026-09-29",
+      "verified_by": "CODEX-DATA opened used passages; independent Reviewer required",
+      "copyright_boundary": "Only original brief paraphrases and metadata. No book/article full text, images, cover art or PDF assets copied. Memoria research pages state CC BY-SA 3.0 except digital objects; publisher/agency/educational copyright retained.",
+      "locator": "主条目Short stories1954；六篇简介",
+      "usage": "合集层级/六篇构成，不与Chac Mool单篇合并，不采侧栏其他作品年。",
+      "notes": "合集层级/六篇构成，不与Chac Mool单篇合并，不采侧栏其他作品年。 作品年/版权脚注不作为网页发表年。"
+    },
+    {
+      "candidate_id": "WCD10-B04-S12",
+      "source_id": "SRC-0391",
+      "scope_decision": {
+        "candidate_ids": [
+          "WCD10-B04-S02",
+          "WCD10-B04-S03",
+          "WCD10-B04-S04",
+          "WCD10-B04-S05",
+          "WCD10-B04-S06",
+          "WCD10-B04-S07",
+          "WCD10-B04-S08",
+          "WCD10-B04-S09",
+          "WCD10-B04-S10",
+          "WCD10-B04-S11",
+          "WCD10-B04-S12",
+          "WCD10-B04-S13",
+          "WCD10-B04-S14",
+          "WCD10-B04-S15"
+        ],
+        "disposition": "bounded_B_not_new_A",
+        "reason": "机构研究胶囊、教育资源、出版社/代理目录与大学转载讲演分别定位；未读胶囊所引原刊，不登记引文为A级来源；讲演只读目标片段，未核原刊。所有解释仅归属释义，独立A级或第二研究缺口保留。"
+      },
+      "accessed_at": "2026-09-29",
+      "verified_by": "CODEX-DATA opened used passages; independent Reviewer required",
+      "copyright_boundary": "Only original brief paraphrases and metadata. No book/article full text, images, cover art or PDF assets copied. Memoria research pages state CC BY-SA 3.0 except digital objects; publisher/agency/educational copyright retained.",
+      "locator": "主条目Novela1959；Jaime Ceballos完整简介",
+      "usage": "小说年份及少年抉择梗概；不引用宣传评价、不认定真实社会事件。",
+      "notes": "小说年份及少年抉择梗概；不引用宣传评价、不认定真实社会事件。 作品年/版权脚注不作为网页发表年。"
+    },
+    {
+      "candidate_id": "WCD10-B04-S13",
+      "source_id": "SRC-0392",
+      "scope_decision": {
+        "candidate_ids": [
+          "WCD10-B04-S02",
+          "WCD10-B04-S03",
+          "WCD10-B04-S04",
+          "WCD10-B04-S05",
+          "WCD10-B04-S06",
+          "WCD10-B04-S07",
+          "WCD10-B04-S08",
+          "WCD10-B04-S09",
+          "WCD10-B04-S10",
+          "WCD10-B04-S11",
+          "WCD10-B04-S12",
+          "WCD10-B04-S13",
+          "WCD10-B04-S14",
+          "WCD10-B04-S15"
+        ],
+        "disposition": "bounded_B_not_new_A",
+        "reason": "机构研究胶囊、教育资源、出版社/代理目录与大学转载讲演分别定位；未读胶囊所引原刊，不登记引文为A级来源；讲演只读目标片段，未核原刊。所有解释仅归属释义，独立A级或第二研究缺口保留。"
+      },
+      "accessed_at": "2026-09-29",
+      "verified_by": "CODEX-DATA opened used passages; independent Reviewer required",
+      "copyright_boundary": "Only original brief paraphrases and metadata. No book/article full text, images, cover art or PDF assets copied. Memoria research pages state CC BY-SA 3.0 except digital objects; publisher/agency/educational copyright retained.",
+      "locator": "主条目Novela1985；Ambrose Bierce赴墨西哥段",
+      "usage": "仅虚构情节及墨西哥背景；不以真实姓名认证传记或墨西哥革命BASED_ON_EVENT。",
+      "notes": "仅虚构情节及墨西哥背景；不以真实姓名认证传记或墨西哥革命BASED_ON_EVENT。 作品年/版权脚注不作为网页发表年。"
+    },
+    {
+      "candidate_id": "WCD10-B04-S14",
+      "source_id": "SRC-0393",
+      "scope_decision": {
+        "candidate_ids": [
+          "WCD10-B04-S02",
+          "WCD10-B04-S03",
+          "WCD10-B04-S04",
+          "WCD10-B04-S05",
+          "WCD10-B04-S06",
+          "WCD10-B04-S07",
+          "WCD10-B04-S08",
+          "WCD10-B04-S09",
+          "WCD10-B04-S10",
+          "WCD10-B04-S11",
+          "WCD10-B04-S12",
+          "WCD10-B04-S13",
+          "WCD10-B04-S14",
+          "WCD10-B04-S15"
+        ],
+        "disposition": "bounded_B_not_new_A",
+        "reason": "机构研究胶囊、教育资源、出版社/代理目录与大学转载讲演分别定位；未读胶囊所引原刊，不登记引文为A级来源；讲演只读目标片段，未核原刊。所有解释仅归属释义，独立A级或第二研究缺口保留。"
+      },
+      "accessed_at": "2026-09-29",
+      "verified_by": "CODEX-DATA opened used passages; independent Reviewer required",
+      "copyright_boundary": "Only original brief paraphrases and metadata. No book/article full text, images, cover art or PDF assets copied. Memoria research pages state CC BY-SA 3.0 except digital objects; publisher/agency/educational copyright retained.",
+      "locator": "主条目Novela1987；Makesicko City/胎儿/出生竞赛段",
+      "usage": "限定虚构叙述；Makesicko City不静默等同现实城市端点，不生成政治/流派边。",
+      "notes": "限定虚构叙述；Makesicko City不静默等同现实城市端点，不生成政治/流派边。 作品年/版权脚注不作为网页发表年。"
+    },
+    {
+      "candidate_id": "WCD10-B04-S15",
+      "source_id": "SRC-0394",
+      "scope_decision": {
+        "candidate_ids": [
+          "WCD10-B04-S02",
+          "WCD10-B04-S03",
+          "WCD10-B04-S04",
+          "WCD10-B04-S05",
+          "WCD10-B04-S06",
+          "WCD10-B04-S07",
+          "WCD10-B04-S08",
+          "WCD10-B04-S09",
+          "WCD10-B04-S10",
+          "WCD10-B04-S11",
+          "WCD10-B04-S12",
+          "WCD10-B04-S13",
+          "WCD10-B04-S14",
+          "WCD10-B04-S15"
+        ],
+        "disposition": "bounded_B_not_new_A",
+        "reason": "机构研究胶囊、教育资源、出版社/代理目录与大学转载讲演分别定位；未读胶囊所引原刊，不登记引文为A级来源；讲演只读目标片段，未核原刊。所有解释仅归属释义，独立A级或第二研究缺口保留。"
+      },
+      "accessed_at": "2026-09-29",
+      "verified_by": "CODEX-DATA opened used passages; independent Reviewer required",
+      "copyright_boundary": "Only original brief paraphrases and metadata. No book/article full text, images, cover art or PDF assets copied. Memoria research pages state CC BY-SA 3.0 except digital objects; publisher/agency/educational copyright retained.",
+      "locator": "1964-08-10讲演署名；PERIODO1920–1927及1927–1945中Alturas两区段，正文245–290段",
+      "usage": "已读相关正文片段，非全篇/原刊阅读全文；保守B级学者讲演转载，只存署名释义，不采preincásicas历史措辞或1946作为已核首刊，也不解除旧hold。",
+      "notes": "已读相关正文片段，非全篇/原刊阅读全文；保守B级学者讲演转载，只存署名释义，不采preincásicas历史措辞或1946作为已核首刊，也不解除旧hold。 原讲演1964-08-10，网页发表年未知；已读目标片段，不声称全篇。"
+    }
+  ],
+  "facts": [
+    {
+      "candidate_id": "WCD10-B04-W01-F01",
+      "fact_id": "V1-FCT-1177",
+      "subject_id": "V1-ENT-0412",
+      "field": "first_publication_year"
+    },
+    {
+      "candidate_id": "WCD10-B04-W01-F02",
+      "fact_id": "V1-FCT-1178",
+      "subject_id": "V1-ENT-0412",
+      "field": "genre_or_form"
+    },
+    {
+      "candidate_id": "WCD10-B04-W01-F03",
+      "fact_id": "V1-FCT-1179",
+      "subject_id": "V1-ENT-0412",
+      "field": "one_sentence_summary"
+    },
+    {
+      "candidate_id": "WCD10-B04-W02-F01",
+      "fact_id": "V1-FCT-1180",
+      "subject_id": "V1-ENT-0413",
+      "field": "first_publication_year"
+    },
+    {
+      "candidate_id": "WCD10-B04-W02-F02",
+      "fact_id": "V1-FCT-1181",
+      "subject_id": "V1-ENT-0413",
+      "field": "genre_or_form"
+    },
+    {
+      "candidate_id": "WCD10-B04-W02-F03",
+      "fact_id": "V1-FCT-1182",
+      "subject_id": "V1-ENT-0413",
+      "field": "one_sentence_summary"
+    },
+    {
+      "candidate_id": "WCD10-B04-W03-F01",
+      "fact_id": "V1-FCT-1183",
+      "subject_id": "V1-ENT-0414",
+      "field": "first_publication_year"
+    },
+    {
+      "candidate_id": "WCD10-B04-W03-F02",
+      "fact_id": "V1-FCT-1184",
+      "subject_id": "V1-ENT-0414",
+      "field": "genre_or_form"
+    },
+    {
+      "candidate_id": "WCD10-B04-W03-F03",
+      "fact_id": "V1-FCT-1185",
+      "subject_id": "V1-ENT-0414",
+      "field": "one_sentence_summary"
+    },
+    {
+      "candidate_id": "WCD10-B04-W04-F01",
+      "fact_id": "V1-FCT-1186",
+      "subject_id": "V1-ENT-0415",
+      "field": "first_publication_year"
+    },
+    {
+      "candidate_id": "WCD10-B04-W04-F02",
+      "fact_id": "V1-FCT-1187",
+      "subject_id": "V1-ENT-0415",
+      "field": "genre_or_form"
+    },
+    {
+      "candidate_id": "WCD10-B04-W04-F03",
+      "fact_id": "V1-FCT-1188",
+      "subject_id": "V1-ENT-0415",
+      "field": "one_sentence_summary"
+    },
+    {
+      "candidate_id": "WCD10-B04-W05-F01",
+      "fact_id": "V1-FCT-1189",
+      "subject_id": "V1-ENT-0416",
+      "field": "first_publication_year"
+    },
+    {
+      "candidate_id": "WCD10-B04-W05-F02",
+      "fact_id": "V1-FCT-1190",
+      "subject_id": "V1-ENT-0416",
+      "field": "genre_or_form"
+    },
+    {
+      "candidate_id": "WCD10-B04-W05-F03",
+      "fact_id": "V1-FCT-1191",
+      "subject_id": "V1-ENT-0416",
+      "field": "story_premise"
+    },
+    {
+      "candidate_id": "WCD10-B04-W06-F01",
+      "fact_id": "V1-FCT-1192",
+      "subject_id": "V1-ENT-0417",
+      "field": "first_publication_year"
+    },
+    {
+      "candidate_id": "WCD10-B04-W06-F02",
+      "fact_id": "V1-FCT-1193",
+      "subject_id": "V1-ENT-0417",
+      "field": "genre_or_form"
+    },
+    {
+      "candidate_id": "WCD10-B04-W06-F03",
+      "fact_id": "V1-FCT-1194",
+      "subject_id": "V1-ENT-0417",
+      "field": "story_premise"
+    },
+    {
+      "candidate_id": "WCD10-B04-W07-F01",
+      "fact_id": "V1-FCT-1195",
+      "subject_id": "V1-ENT-0418",
+      "field": "first_publication_year"
+    },
+    {
+      "candidate_id": "WCD10-B04-W07-F02",
+      "fact_id": "V1-FCT-1196",
+      "subject_id": "V1-ENT-0418",
+      "field": "genre_or_form"
+    },
+    {
+      "candidate_id": "WCD10-B04-W07-F03",
+      "fact_id": "V1-FCT-1197",
+      "subject_id": "V1-ENT-0418",
+      "field": "story_premise"
+    },
+    {
+      "candidate_id": "WCD10-B04-W08-F01",
+      "fact_id": "V1-FCT-1198",
+      "subject_id": "V1-ENT-0419",
+      "field": "first_publication_year"
+    },
+    {
+      "candidate_id": "WCD10-B04-W08-F02",
+      "fact_id": "V1-FCT-1199",
+      "subject_id": "V1-ENT-0419",
+      "field": "genre_or_form"
+    },
+    {
+      "candidate_id": "WCD10-B04-W08-F03",
+      "fact_id": "V1-FCT-1200",
+      "subject_id": "V1-ENT-0419",
+      "field": "one_sentence_summary"
+    },
+    {
+      "candidate_id": "WCD10-B04-W09-F01",
+      "fact_id": "V1-FCT-1201",
+      "subject_id": "V1-ENT-0420",
+      "field": "first_publication_year"
+    },
+    {
+      "candidate_id": "WCD10-B04-W09-F02",
+      "fact_id": "V1-FCT-1202",
+      "subject_id": "V1-ENT-0420",
+      "field": "genre_or_form"
+    },
+    {
+      "candidate_id": "WCD10-B04-W09-F03",
+      "fact_id": "V1-FCT-1203",
+      "subject_id": "V1-ENT-0420",
+      "field": "one_sentence_summary"
+    },
+    {
+      "candidate_id": "WCD10-B04-W09-F04",
+      "fact_id": "V1-FCT-1204",
+      "subject_id": "V1-ENT-0420",
+      "field": "bibliographic_note"
+    },
+    {
+      "candidate_id": "WCD10-B04-F01",
+      "fact_id": "V1-FCT-1205",
+      "subject_id": "V1-ENT-0120",
+      "field": "first_publication_year"
+    },
+    {
+      "candidate_id": "WCD10-B04-F02",
+      "fact_id": "V1-FCT-1206",
+      "subject_id": "V1-ENT-0120",
+      "field": "bibliographic_note"
+    },
+    {
+      "candidate_id": "WCD10-B04-F03",
+      "fact_id": "V1-FCT-1207",
+      "subject_id": "V1-ENT-0120",
+      "field": "one_sentence_summary"
+    },
+    {
+      "candidate_id": "WCD10-B04-F04",
+      "fact_id": "V1-FCT-1208",
+      "subject_id": "V1-ENT-0122",
+      "field": "first_book_edition_year"
+    },
+    {
+      "candidate_id": "WCD10-B04-F05",
+      "fact_id": "V1-FCT-1209",
+      "subject_id": "V1-ENT-0122",
+      "field": "genre_or_form"
+    },
+    {
+      "candidate_id": "WCD10-B04-F06",
+      "fact_id": "V1-FCT-1210",
+      "subject_id": "V1-ENT-0122",
+      "field": "bibliographic_note"
+    },
+    {
+      "candidate_id": "WCD10-B04-F07",
+      "fact_id": "V1-FCT-1211",
+      "subject_id": "V1-ENT-0122",
+      "field": "research_note"
+    },
+    {
+      "candidate_id": "WCD10-B04-F11",
+      "fact_id": "V1-FCT-1212",
+      "subject_id": "V1-ENT-0122",
+      "field": "one_sentence_summary"
+    },
+    {
+      "candidate_id": "WCD10-B04-F08",
+      "fact_id": "V1-FCT-1213",
+      "subject_id": "V1-ENT-0165",
+      "field": "first_publication_year"
+    },
+    {
+      "candidate_id": "WCD10-B04-F09",
+      "fact_id": "V1-FCT-1214",
+      "subject_id": "V1-ENT-0165",
+      "field": "one_sentence_summary"
+    },
+    {
+      "candidate_id": "WCD10-B04-F10",
+      "fact_id": "V1-FCT-1215",
+      "subject_id": "V1-ENT-0149",
+      "field": "one_sentence_summary"
+    }
+  ],
+  "cards": [
+    {
+      "subject_id": "V1-ENT-0412",
+      "card_id": "V1-CARD-0316",
+      "preserves_existing_cards": true
+    },
+    {
+      "subject_id": "V1-ENT-0413",
+      "card_id": "V1-CARD-0317",
+      "preserves_existing_cards": true
+    },
+    {
+      "subject_id": "V1-ENT-0414",
+      "card_id": "V1-CARD-0318",
+      "preserves_existing_cards": true
+    },
+    {
+      "subject_id": "V1-ENT-0415",
+      "card_id": "V1-CARD-0319",
+      "preserves_existing_cards": true
+    },
+    {
+      "subject_id": "V1-ENT-0416",
+      "card_id": "V1-CARD-0320",
+      "preserves_existing_cards": true
+    },
+    {
+      "subject_id": "V1-ENT-0417",
+      "card_id": "V1-CARD-0321",
+      "preserves_existing_cards": true
+    },
+    {
+      "subject_id": "V1-ENT-0418",
+      "card_id": "V1-CARD-0322",
+      "preserves_existing_cards": true
+    },
+    {
+      "subject_id": "V1-ENT-0419",
+      "card_id": "V1-CARD-0323",
+      "preserves_existing_cards": true
+    },
+    {
+      "subject_id": "V1-ENT-0420",
+      "card_id": "V1-CARD-0324",
+      "preserves_existing_cards": true
+    },
+    {
+      "subject_id": "V1-ENT-0120",
+      "card_id": "V1-CARD-0325",
+      "preserves_existing_cards": true
+    },
+    {
+      "subject_id": "V1-ENT-0122",
+      "card_id": "V1-CARD-0326",
+      "preserves_existing_cards": true
+    },
+    {
+      "subject_id": "V1-ENT-0165",
+      "card_id": "V1-CARD-0327",
+      "preserves_existing_cards": true
+    },
+    {
+      "subject_id": "V1-ENT-0149",
+      "card_id": "V1-CARD-0328",
+      "preserves_existing_cards": true
+    }
+  ],
+  "relationships": [
+    {
+      "candidate_id": "WCD10-B04-W01-CREATED",
+      "relationship_id": "V1-REL-0379",
+      "subject_id": "V1-ENT-0115",
+      "relation_type": "CREATED",
+      "object_id": "V1-ENT-0412"
+    },
+    {
+      "candidate_id": "WCD10-B04-W02-CREATED",
+      "relationship_id": "V1-REL-0380",
+      "subject_id": "V1-ENT-0115",
+      "relation_type": "CREATED",
+      "object_id": "V1-ENT-0413"
+    },
+    {
+      "candidate_id": "WCD10-B04-W03-CREATED",
+      "relationship_id": "V1-REL-0381",
+      "subject_id": "V1-ENT-0115",
+      "relation_type": "CREATED",
+      "object_id": "V1-ENT-0414"
+    },
+    {
+      "candidate_id": "WCD10-B04-W04-CREATED",
+      "relationship_id": "V1-REL-0382",
+      "subject_id": "V1-ENT-0145",
+      "relation_type": "CREATED",
+      "object_id": "V1-ENT-0415"
+    },
+    {
+      "candidate_id": "WCD10-B04-W05-CREATED",
+      "relationship_id": "V1-REL-0383",
+      "subject_id": "V1-ENT-0145",
+      "relation_type": "CREATED",
+      "object_id": "V1-ENT-0416"
+    },
+    {
+      "candidate_id": "WCD10-B04-W06-CREATED",
+      "relationship_id": "V1-REL-0384",
+      "subject_id": "V1-ENT-0145",
+      "relation_type": "CREATED",
+      "object_id": "V1-ENT-0417"
+    },
+    {
+      "candidate_id": "WCD10-B04-W07-CREATED",
+      "relationship_id": "V1-REL-0385",
+      "subject_id": "V1-ENT-0145",
+      "relation_type": "CREATED",
+      "object_id": "V1-ENT-0418"
+    },
+    {
+      "candidate_id": "WCD10-B04-W08-CREATED",
+      "relationship_id": "V1-REL-0386",
+      "subject_id": "V1-ENT-0148",
+      "relation_type": "CREATED",
+      "object_id": "V1-ENT-0419"
+    },
+    {
+      "candidate_id": "WCD10-B04-W09-CREATED",
+      "relationship_id": "V1-REL-0387",
+      "subject_id": "V1-ENT-0148",
+      "relation_type": "CREATED",
+      "object_id": "V1-ENT-0420"
+    },
+    {
+      "candidate_id": "WCD10-B04-R01",
+      "relationship_id": "V1-REL-0388",
+      "subject_id": "V1-ENT-0417",
+      "relation_type": "SET_IN",
+      "object_id": "V1-ENT-0051"
+    }
+  ],
+  "gaps": [
+    {
+      "gap_id": "V1-GAP-0099",
+      "key": "WCD10:B04:Alturas:first_periodical_year"
+    },
+    {
+      "gap_id": "V1-GAP-0100",
+      "key": "WCD10:B04:poetic_containment"
+    },
+    {
+      "gap_id": "V1-GAP-0101",
+      "key": "WCD10:B04:Poema_de_Chile:edition_city"
+    },
+    {
+      "gap_id": "V1-GAP-0102",
+      "key": "WCD10:B04:legacy_holds:retain"
+    },
+    {
+      "gap_id": "V1-GAP-0103",
+      "key": "WCD10:B04:additional_bibliography"
+    },
+    {
+      "gap_id": "V1-GAP-0104",
+      "key": "WCD10:B04:places_and_history"
+    },
+    {
+      "gap_id": "V1-GAP-0105",
+      "key": "WCD10:work_level_research:V1-ENT-0122"
+    },
+    {
+      "gap_id": "V1-GAP-0106",
+      "key": "WCD10:work_level_research:V1-ENT-0165"
+    },
+    {
+      "gap_id": "V1-GAP-0107",
+      "key": "WCD10:work_level_research:V1-ENT-0146"
+    },
+    {
+      "gap_id": "V1-GAP-0108",
+      "key": "WCD10:work_level_research:V1-ENT-0147"
+    },
+    {
+      "gap_id": "V1-GAP-0109",
+      "key": "WCD10:work_level_research:V1-ENT-0169"
+    },
+    {
+      "gap_id": "V1-GAP-0110",
+      "key": "WCD10:work_level_research:V1-ENT-0374"
+    },
+    {
+      "gap_id": "V1-GAP-0111",
+      "key": "WCD10:work_level_research:V1-ENT-0149"
+    },
+    {
+      "gap_id": "V1-GAP-0112",
+      "key": "WCD10:work_level_research:V1-ENT-0150"
+    },
+    {
+      "gap_id": "V1-GAP-0113",
+      "key": "WCD10:work_level_research:V1-ENT-0151"
+    },
+    {
+      "gap_id": "V1-GAP-0114",
+      "key": "WCD10:work_level_research:V1-ENT-0412"
+    },
+    {
+      "gap_id": "V1-GAP-0115",
+      "key": "WCD10:work_level_research:V1-ENT-0413"
+    },
+    {
+      "gap_id": "V1-GAP-0116",
+      "key": "WCD10:work_level_research:V1-ENT-0414"
+    },
+    {
+      "gap_id": "V1-GAP-0117",
+      "key": "WCD10:work_level_research:V1-ENT-0415"
+    },
+    {
+      "gap_id": "V1-GAP-0118",
+      "key": "WCD10:work_level_research:V1-ENT-0416"
+    },
+    {
+      "gap_id": "V1-GAP-0119",
+      "key": "WCD10:work_level_research:V1-ENT-0417"
+    },
+    {
+      "gap_id": "V1-GAP-0120",
+      "key": "WCD10:work_level_research:V1-ENT-0418"
+    },
+    {
+      "gap_id": "V1-GAP-0121",
+      "key": "WCD10:work_level_research:V1-ENT-0419"
+    },
+    {
+      "gap_id": "V1-GAP-0122",
+      "key": "WCD10:work_level_research:V1-ENT-0420"
+    }
+  ],
+  "public_boundary": "Research-only B04; no Curation/public_scope/Schema/old source/hold mutation.",
+  "author_metadata_fallbacks": [
+    {
+      "author_id": "V1-ENT-0115",
+      "field": "language",
+      "value": "es",
+      "existing_card_ids": [
+        "V1-CARD-0037"
+      ],
+      "boundary": "Legacy card metadata reused; no new author fact"
+    },
+    {
+      "author_id": "V1-ENT-0145",
+      "field": "language",
+      "value": "es",
+      "existing_card_ids": [
+        "V1-CARD-0041"
+      ],
+      "boundary": "Legacy card metadata reused; no new author fact"
+    }
+  ],
+  "counts": {
+    "sources": 14,
+    "entities": 9,
+    "entity_id_map": 9,
+    "content_cards": 13,
+    "facts": 39,
+    "card_facts": 39,
+    "fact_sources": 47,
+    "card_sources": 20,
+    "relationships": 10,
+    "relationship_sources": 13,
+    "relationship_evidence": 13,
+    "gaps": 24
+  }
+}

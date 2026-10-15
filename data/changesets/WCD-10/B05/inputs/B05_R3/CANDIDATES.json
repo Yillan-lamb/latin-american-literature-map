@@ -1,0 +1,1065 @@
+{
+  "schema": "wcd10-candidates-1",
+  "task_id": "TASK-110",
+  "batch_id": "WCD-10-B05",
+  "baseline_commit": "05f3372c69a54ec331d31b05d16c8288d6d3a993",
+  "baseline_database_sha256": "45e8d72c3656f762f4a34f664c822c33685be925b53553b91b19041d6835b47d",
+  "status": "CANDIDATE_NOT_REVIEWED",
+  "author_ids": [
+    "V1-ENT-0059",
+    "V1-ENT-0170",
+    "V1-ENT-0171"
+  ],
+  "accessed_at": "2026-09-30",
+  "public_boundary": "Research-only B05 R3 narrow repair of R2-01; no Curation/public_scope/Schema/old source/hold mutation.",
+  "source_scope_decisions": [
+    {
+      "candidate_ids": [
+        "WCD10-B05-S01"
+      ],
+      "disposition": "reuse",
+      "related_existing_source": "SRC-0134",
+      "reason": "同URL来源fresh重读不成为第二独立来源；保留旧等级与全部元数据，只登记本次实读的新locator/用途。"
+    },
+    {
+      "candidate_ids": [
+        "WCD10-B05-S02"
+      ],
+      "disposition": "reuse",
+      "related_existing_source": "SRC-0135",
+      "reason": "同URL来源fresh重读不成为第二独立来源；保留旧等级与全部元数据，只登记本次实读的新locator/用途。"
+    },
+    {
+      "candidate_ids": [
+        "WCD10-B05-S03"
+      ],
+      "disposition": "reuse",
+      "related_existing_source": "SRC-0136",
+      "reason": "同URL来源fresh重读不成为第二独立来源；保留旧等级与全部元数据，只登记本次实读的新locator/用途。"
+    },
+    {
+      "candidate_ids": [
+        "WCD10-B05-S04"
+      ],
+      "disposition": "reuse",
+      "related_existing_source": "SRC-0137",
+      "reason": "同URL来源fresh重读不成为第二独立来源；保留旧等级与全部元数据，只登记本次实读的新locator/用途。"
+    },
+    {
+      "candidate_ids": [
+        "WCD10-B05-S05"
+      ],
+      "disposition": "reuse",
+      "related_existing_source": "SRC-0130",
+      "reason": "同URL来源fresh重读不成为第二独立来源；保留旧等级与全部元数据，只登记本次实读的新locator/用途。"
+    },
+    {
+      "candidate_ids": [
+        "WCD10-B05-S06"
+      ],
+      "disposition": "reuse",
+      "related_existing_source": "SRC-0132",
+      "reason": "同URL来源fresh重读不成为第二独立来源；保留旧等级与全部元数据，只登记本次实读的新locator/用途。"
+    },
+    {
+      "candidate_ids": [
+        "WCD10-B05-S07"
+      ],
+      "disposition": "reuse",
+      "related_existing_source": "SRC-0099",
+      "reason": "同URL来源fresh重读不成为第二独立来源；保留旧等级与全部元数据，只登记本次实读的新locator/用途。"
+    },
+    {
+      "candidate_ids": [
+        "WCD10-B05-S08"
+      ],
+      "disposition": "reuse",
+      "related_existing_source": "SRC-0100",
+      "reason": "同URL来源fresh重读不成为第二独立来源；保留旧等级与全部元数据，只登记本次实读的新locator/用途。"
+    },
+    {
+      "candidate_ids": [
+        "WCD10-B05-S09",
+        "WCD10-B05-S10",
+        "WCD10-B05-S11",
+        "WCD10-B05-S13",
+        "WCD10-B05-S14",
+        "WCD10-B05-S15",
+        "WCD10-B05-S16",
+        "WCD10-B05-S17"
+      ],
+      "disposition": "bounded_B_new_sources",
+      "reason": "大学院系虚拟图书馆条目、ELEM出版目录页与作者官方网站书目页分别定位，均实读目标字段；机构书目/官方目录按稳定规则保守评B。（R1修订：诺贝尔自传页S12已复用SRC-0300，不再列入新来源组。）"
+    },
+    {
+      "candidate_ids": [
+        "WCD10-B05-S12"
+      ],
+      "disposition": "reuse",
+      "related_existing_source": "SRC-0300",
+      "reason": "同URL已登记SRC-0300；fresh重读扩展实读范围不成为第二独立来源，保留旧标题/等级/元数据。"
+    },
+    {
+      "candidate_ids": [
+        "WCD10-B05-S18",
+        "WCD10-B05-S19",
+        "WCD10-B05-S20",
+        "WCD10-B05-S21",
+        "WCD10-B05-S22",
+        "WCD10-B05-S23",
+        "WCD10-B05-S26"
+      ],
+      "disposition": "bounded_B_new_elem_nobel_pages",
+      "reason": "审计R1-R4定位的ELEM作品级条目与诺贝尔阿斯图里亚斯自传页，返修轮fresh实读结构化字段与正文目标段后新登记；ELEM条目内引文/被引研究不作为已读第二独立来源。"
+    },
+    {
+      "candidate_ids": [
+        "WCD10-B05-S24",
+        "WCD10-B05-S25"
+      ],
+      "disposition": "bounded_C_reprints_corroboration_only",
+      "reason": "FCE官网转载的报纸文章，按审计口径保守C级、仅作deferred佐证，不因出版社域名升格、不充当独立第二来源。"
+    }
+  ],
+  "sources": [
+    {
+      "candidate_id": "WCD10-B05-S01",
+      "title": "Isabel Allende – Timeline",
+      "author_or_editor": "Isabel Allende",
+      "url": "https://www.isabelallende.com/en/timeline",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "1989 The Stories of Eva Luna、1994 Paula、1999 Daughter of Fortune、2002 City of the Beasts 四条西语出版条目；另核1982/1984/1987既有三条目",
+      "usage": "只用四部新候选对象的西语首版年；页面纪事其余事件不入库。复用SRC-0134，不改旧元数据。",
+      "reuse_existing_source": "SRC-0134"
+    },
+    {
+      "candidate_id": "WCD10-B05-S02",
+      "title": "Isabel Allende – The House of the Spirits",
+      "author_or_editor": "Isabel Allende",
+      "url": "https://www.isabelallende.com/en/book/house",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "主页 First English edition ©1985 标记；/en/book/house/summary 正文两段（家族三代、未具名拉美国家）",
+      "usage": "只取作品体裁与归属官网的情节概述；国家未具名表述保留，不作SET_IN智利。复用SRC-0135。",
+      "reuse_existing_source": "SRC-0135"
+    },
+    {
+      "candidate_id": "WCD10-B05-S03",
+      "title": "Isabel Allende – Of Love and Shadows",
+      "author_or_editor": "Isabel Allende",
+      "url": "https://www.isabelallende.com/en/book/love",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "主页 First English edition ©1987 标记；/en/book/love/summary 正文三段（军事独裁、Irene/Francisco、Evangelina案）",
+      "usage": "只取体裁与概述；政权与国家未具名，不生成事件或地点关系。复用SRC-0136。",
+      "reuse_existing_source": "SRC-0136"
+    },
+    {
+      "candidate_id": "WCD10-B05-S04",
+      "title": "Isabel Allende – Eva Luna",
+      "author_or_editor": "Isabel Allende",
+      "url": "https://www.isabelallende.com/en/book/evaluna",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "主页 First English edition ©1988 标记；/en/book/evaluna/summary 正文两段（picaresque自述、南美国家众生）",
+      "usage": "只取体裁（picaresque式自述）与概述；国家未具名。复用SRC-0137。",
+      "reuse_existing_source": "SRC-0137"
+    },
+    {
+      "candidate_id": "WCD10-B05-S05",
+      "title": "Bibliographie sélective : Miguel Ángel Asturias (1899-1974)",
+      "author_or_editor": "Bibliothèque nationale de France",
+      "url": "https://www.bnf.fr/sites/default/files/2024-07/Miguel%20Asturias.pdf",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "PDF实读：第2页引言（Leyendas 1930首部书、El Señor Presidente 1946独裁者小说与Estrada Cabrera措辞、Hombres 1948旁支、Nobel 1967）；第3页小说书目（El Papa verde. Buenos Aires: Losada, 1954；Los ojos de los enterrados [1960] 1961；Viento fuerte [1949]）；第4页（Leyendas. Madrid: Oriente, 1930；Week-end en Guatemala. Goyanarte, [1956] 1958）",
+      "usage": "西语原版书目年份与归类（Contes/小说）；引言1948旁支错年不传播；Estrada Cabrera比较属诠释仅入research_note。复用SRC-0130。",
+      "reuse_existing_source": "SRC-0130"
+    },
+    {
+      "candidate_id": "WCD10-B05-S06",
+      "title": "Hombres de maíz – Biblioteca de Humanidades USAC（条目9408）",
+      "author_or_editor": "Universidad de San Carlos de Guatemala",
+      "url": "https://bibliohumanidades.usac.edu.gt/library/index.php?title=9408",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "书目字段（1988/2012重印）与Resumen全段：1949年Buenos Aires出版、Popol Wuj玉米神话、日常与奇幻结合、realismo mágico定位、危地马拉农民与mestizaje",
+      "usage": "体裁、对象级概述与1949首版佐证；Resumen注明转引自封底文字，归属USAC。复用SRC-0132。",
+      "reuse_existing_source": "SRC-0132"
+    },
+    {
+      "candidate_id": "WCD10-B05-S07",
+      "title": "Octavio Paz – Bibliography",
+      "author_or_editor": "Nobel Prize Outreach / NobelPrize.org",
+      "url": "https://www.nobelprize.org/prizes/literature/1990/paz/bibliography/",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "Works in Spanish 诗歌与散文书目：Libertad bajo palabra Tezontle 1949、¿Águila o sol? 1951、Piedra de sol Tezontle 1957、La estación violenta FCE 1958、Ladera este (1962-1968) Mortiz 1969、El mono gramático Seix Barral 1974等",
+      "usage": "只取目标书目条目年份/出版社；该页未列El laberinto西语原版的既有观察再次确认。复用SRC-0099。",
+      "reuse_existing_source": "SRC-0099"
+    },
+    {
+      "candidate_id": "WCD10-B05-S08",
+      "title": "About Octavio Paz",
+      "author_or_editor": "Academy of American Poets (poets.org)",
+      "url": "https://poets.org/poet/octavio-paz",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "传记段：¿Águila o sol? (Tezontle, 1951)为散文诗系列、Tamayo插图、对墨西哥过去现在未来的幻象式描绘；Piedra de sol FCE 1957借阿兹特克历法结构；El laberinto FCE 1950",
+      "usage": "只取散文诗对象描述与体裁；该页Piedra de sol/FCE出版社与诺贝尔书目Tezontle不一致，记冲突不裁决。复用SRC-0100。",
+      "reuse_existing_source": "SRC-0100"
+    },
+    {
+      "candidate_id": "WCD10-B05-S09",
+      "title": "El señor presidente · Biblioteca Virtual FAHUSAC（条目3553）",
+      "author_or_editor": "Facultad de Humanidades, Universidad de San Carlos de Guatemala",
+      "url": "https://bvhumanidades.usac.edu.gt/items/show/3553",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "Dublin Core Descripción字段：Novela política y experimental，总统的决断左右他人命运、especialmente Miguel Cara de Ángel；Etiquetas含Novela",
+      "usage": "0173既有对象的体裁与归属机构的对象级概述；不含年份与国家背景，不生成SET_IN。"
+    },
+    {
+      "candidate_id": "WCD10-B05-S10",
+      "title": "El Papa Verde · Biblioteca Virtual FAHUSAC（条目3554）",
+      "author_or_editor": "Facultad de Humanidades, Universidad de San Carlos de Guatemala",
+      "url": "https://bvhumanidades.usac.edu.gt/items/show/3554",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "Dublin Core Descripción字段：Obra integrante de la trilogía bananera. Influida por el Realismo mágico y con contenido político；Etiquetas含Novela",
+      "usage": "R1：W04撤回转暂缓后，本条仅支持deferred中'USAC对El Papa Verde仅作系列级描述、不足以构成对象级内容来源'的记录；不作为任何对象描述来源。"
+    },
+    {
+      "candidate_id": "WCD10-B05-S11",
+      "title": "Leyendas de Guatemala · Biblioteca Virtual FAHUSAC（条目3544）",
+      "author_or_editor": "Facultad de Humanidades, Universidad de San Carlos de Guatemala",
+      "url": "https://bvhumanidades.usac.edu.gt/items/show/3544",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "Dublin Core Descripción字段：基于危地马拉民间传说重写、超现实主义实验技法；Etiquetas含Leyenda/Narrativa/Surrealismo",
+      "usage": "0175既有collection的体裁与概述；单篇传说不建新对象。"
+    },
+    {
+      "candidate_id": "WCD10-B05-S12",
+      "title": "Octavio Paz – Biographical",
+      "author_or_editor": "Nobel Prize Outreach",
+      "url": "https://www.nobelprize.org/prizes/literature/1990/paz/biographical/",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "自传正文（驻法期间写成The Labyrinth of Solitude、1962驻印大使、印度时期著作especially The Grammarian Monkey and East Slope、1968抗议辞职）与自传书目（El laberinto. Cuadernos Americanos 1950，二版FCE 1959；¿Águila o sol? 1951；Ladera Este (1962-1968) Mortiz 1969；El mono gramático Seix Barral 1974；Libertad bajo palabra FCE 1949）",
+      "usage": "复用SRC-0300（WCD-05曾以Breton/Péret活动范围使用）；本次实读扩展至自传正文与自传书目（印度时期著作、El laberinto条目），不改旧元数据。本R1包内S12仅作W02/W03/W09/W10的年份与印度时期旁证；Laberinto首版社结论已由S23/S12并按ELEM结构化字段定层。",
+      "reuse_existing_source": "SRC-0300"
+    },
+    {
+      "candidate_id": "WCD10-B05-S13",
+      "title": "Joaquín Mortiz（Las Dos Orillas）出版目录 – Enciclopedia de la Literatura en México",
+      "author_or_editor": "Fundación de las Letras Mexicanas / elem.mx",
+      "url": "https://www.elem.mx/institucion/editorial/28/1406/false/genero/",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "Mortiz目录列表第16条：Ladera este (1962-1968)，1969，Paz, Octavio. México, D. F.: Joaquín Mortiz (Las Dos Orillas)",
+      "usage": "仅取该条书目年份与出版社作为Ladera este第二机构佐证；目录其余条目不入库。"
+    },
+    {
+      "candidate_id": "WCD10-B05-S14",
+      "title": "Isabel Allende – The Stories of Eva Luna",
+      "author_or_editor": "Isabel Allende",
+      "url": "https://www.isabelallende.com/en/book/stories",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "主页 First English edition ©1991 标记；/en/book/stories/summary 正文（应Rolf Carlé之请讲述从未讲过的故事、twenty-three则）",
+      "usage": "新对象Cuentos de Eva Luna的体裁与概述；西语1989年由S01时间线支持。"
+    },
+    {
+      "candidate_id": "WCD10-B05-S15",
+      "title": "Isabel Allende – Paula",
+      "author_or_editor": "Isabel Allende",
+      "url": "https://www.isabelallende.com/en/book/paula",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "主页 First English edition ©1995 标记；/en/book/paula/summary 正文（1991年12月女儿昏迷后陪护中开始写作的memoir）",
+      "usage": "新对象Paula的体裁（回忆录）与概述；西语1994年由S01时间线支持。"
+    },
+    {
+      "candidate_id": "WCD10-B05-S16",
+      "title": "Isabel Allende – Daughter of Fortune",
+      "author_or_editor": "Isabel Allende",
+      "url": "https://www.isabelallende.com/en/book/daughter",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "主页 First English edition ©1999 标记；/en/book/daughter/summary 正文（Eliza Sommers在智利Valparaíso英国侨民家庭成长、1849淘金热北上加州）",
+      "usage": "新对象Hija de la fortuna的体裁、概述与开篇地（智利瓦尔帕莱索）直接表述；SET_IN仅指向已有Chile端点。"
+    },
+    {
+      "candidate_id": "WCD10-B05-S17",
+      "title": "Isabel Allende – City of the Beasts",
+      "author_or_editor": "Isabel Allende",
+      "url": "https://www.isabelallende.com/en/book/city",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "主页 First English edition ©2002 标记；/en/book/city/summary 正文（15岁Alexander Cold随International Geographic远征亚马逊、与Nadia深入雨林）",
+      "usage": "新对象La ciudad de las bestias的体裁（青少年三部曲首部）与概述；西语2002年由S01时间线支持。"
+    },
+    {
+      "candidate_id": "WCD10-B05-S18",
+      "title": "El mono gramático - Detalle de la obra",
+      "author_or_editor": "Enciclopedia de la Literatura en México / FLM (artículo ELEM)",
+      "url": "https://www.elem.mx/obra/datos/8815",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "结构化字段：PRIMERA EDICIÓN=Barcelona, Seix Barral, 1974；Género=Poesía-Libros individuales；Lengua=原文西班牙语；OTRAS EDICIONES 1996/1999/2014/2016。正文全读：'Le singe grammairien…aparece por vez primera en 1972, traducido al francés por Claude Esteban para la colección Les Sentiers de la Création'；'participa de varios géneros…relato de un viaje a Galta…un ensayo…y un poema en prosa'；'Dos escenarios convergentes —el camino de Galta, en la India, y un jardín de Cambridge—'",
+      "usage": "W03首发年（1972法译先行/1974西语原文版分层）、体裁与对象级描述的唯一已读对象级来源；文内Castañón引文按审计要求不作为第二独立来源。"
+    },
+    {
+      "candidate_id": "WCD10-B05-S19",
+      "title": "Ladera este (1962-1968) - Detalle de la obra",
+      "author_or_editor": "Enciclopedia de la Literatura en México / FLM (artículo ELEM)",
+      "url": "https://www.elem.mx/obra/datos/8687",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "结构化字段：PRIMERA EDICIÓN=México, D. F., Joaquín Mortiz (Las Dos Orillas), 1969。正文：'El libro está dividido en tres secciones: Ladera este, que contiene cincuenta poemas; Hacia el comienzo, compuesto por quince poemas, y Blanco, poema largo aparecido por primera vez de manera independiente en 1967'；驻印度大使任内1962-1968写作、除'Cuento de dos jardines'外均写于阿富汗/锡兰/印度、可读作东方纪行bitácora、'Intermitencias del Oeste'四诗涉墨西哥与法国学生运动",
+      "usage": "W02对象级描述与三部结构；Blanco 1967独立出版先例用于版本分层说明。"
+    },
+    {
+      "candidate_id": "WCD10-B05-S20",
+      "title": "Libertad bajo palabra - Detalle de la obra",
+      "author_or_editor": "Enciclopedia de la Literatura en México / FLM (artículo ELEM)",
+      "url": "https://www.elem.mx/obra/datos/5746",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "结构化字段：PRIMERA EDICIÓN=México, D. F., Fondo de Cultura Económica, 1960。'Biografía del libro'节：'En principio…se refería sólo a un libro de noventa poemas que publicó en 1949 la editorial Fondo de Cultura Económica, dentro de la colección Tezontle, con un tiraje de 1,100 ejemplares. Ésta es la que conocemos como primera edición'；1960年obra poética (1935-1957)收225首、初拟题Todavía；1968三版、1979、1990定本；导语'La primera edición data de 1960'与其传记节1949表述页内并存；1990版207诗分五节含'¿Águila o sol?''La estación violenta'",
+      "usage": "W09候选：1949初版锚点+五版本演进；页内字段/导语与传记节的差异如实登记，不裁决。"
+    },
+    {
+      "candidate_id": "WCD10-B05-S21",
+      "title": "La estación violenta - Detalle de la obra",
+      "author_or_editor": "Enciclopedia de la Literatura en México / FLM (artículo ELEM)",
+      "url": "https://www.elem.mx/obra/datos/5745",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "结构化字段（FCE Letras Mexicanas;42/1958）+正文：主题两段标'contraportada 1958'、九诗清单标'contraportada 2013'（ELEM页内明示两处版次归属）",
+      "usage": "W10候选：1958初版+构成+主题性内容描述（归属ELEM转引的封底与介绍文字）。"
+    },
+    {
+      "candidate_id": "WCD10-B05-S22",
+      "title": "Piedra de sol - Detalle de la obra",
+      "author_or_editor": "Enciclopedia de la Literatura en México / FLM",
+      "url": "https://www.elem.mx/obra/datos/5744",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "结构化字段：PRIMERA EDICIÓN=México, D. F., Editorial: Tezontle, 1957；Género=Poesía-Libros individuales",
+      "usage": "仅用于deferred中Piedra首版'Tezontle'作为ELEM登记的imprint层证据；与S25共同说明Tezontle/FCE非互斥。"
+    },
+    {
+      "candidate_id": "WCD10-B05-S23",
+      "title": "El laberinto de la soledad - Detalle de la obra",
+      "author_or_editor": "Enciclopedia de la Literatura en México / FLM",
+      "url": "https://www.elem.mx/obra/datos/205027",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "结构化字段：PRIMERA EDICIÓN=Ciudad de México, Cuadernos Americanos, 1950；Género=Ensayo-Libros individuales。正文段：现代文学关键之作、对本世纪西语散文影响最深",
+      "usage": "deferred：Laberinto首版社分层（1950 Cuadernos Americanos首版、1959 FCE后版）的机构书目证据；与S12/S24三方一致。"
+    },
+    {
+      "candidate_id": "WCD10-B05-S24",
+      "title": "De libro maldito a libro de texto（FCE转载）",
+      "author_or_editor": "Javier Aranda Luna（原载La Jornada Maya）/ FCE官网转载",
+      "url": "https://www.fondodeculturaeconomica.com/Noticia/2290",
+      "source_level": "C",
+      "access_status": "OPENED",
+      "locator": "页内文章头：题名'De libro maldito a libro de texto'、日期2020-06-04、署名Javier Aranda Luna、'Fuente: La Jornada Maya'及原文URL；正文（'edición especial de la revista Cuadernos Americanos'句等）",
+      "usage": "仅为deferred佐证：1950年以Cuadernos Americanos杂志特别版形式首版的表述；系报纸文章的出版社域名转载，按审计口径不因域名升A、不充独立第二来源。"
+    },
+    {
+      "candidate_id": "WCD10-B05-S25",
+      "title": "584 versos",
+      "author_or_editor": "Juan José González Mejía（原载El Sol de Tampico）/ FCE官网转载",
+      "url": "https://www.fondodeculturaeconomica.com/Noticia/479",
+      "source_level": "C",
+      "access_status": "OPENED",
+      "locator": "页内文章头：题名'584 versos'、日期2019-12-10、署名Juan José González Mejía、'Fuente: El Sol de Tampico'及原文URL；正文（'colección Tezontle del Fondo de Cultura Económica'/1957-09-28/300册句）",
+      "usage": "仅为deferred佐证：Tezontle系FCE旗下丛书（colección）的直接表述；报纸专栏转载，保守C级。"
+    },
+    {
+      "candidate_id": "WCD10-B05-S26",
+      "title": "Miguel Angel Asturias – Biographical",
+      "author_or_editor": "Nobel Prize Outreach / NobelPrize.org（laureate autobiography）",
+      "url": "https://www.nobelprize.org/prizes/literature/1967/asturias/biographical/",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "自传正文：Leyendas de Guatemala巴黎完稿、马德里1930出版、Francis de Miomandre法译获Valéry作序收入1931年Cahiers du Sud版、1931年获Silla Monsegur奖；El Señor Presidente写于1923-1933旅法期间、因政治原因十三年未能随身带回、1946年面世；Viento fuerte标注1950年并称其为'对美国帝国主义影响其国家经济现实的控诉'",
+      "usage": "deferred：香蕉三部曲背景与Viento fuerte 1950年表述（与BnF[1949]冲突记录）；0173/0175 coverage旁证。不作为W04或Viento fuerte对象的立对象据。"
+    }
+  ],
+  "new_entities": [
+    {
+      "candidate_id": "WCD10-B05-W01",
+      "author_id": "V1-ENT-0059",
+      "entity_type": "work",
+      "original_name": "¿Águila o sol?",
+      "name_zh_candidate": "鹰还是太阳？",
+      "name_policy": "中文为候选显示暂译，未核实正式中文译本；原题为身份锚点。单篇/合集/版本分层，不与既有对象或诗集收录混同。",
+      "rationale": "补1951年散文诗书，与诗集及论著分层；Tamayo插图版次信息保留在描述。",
+      "created_source_refs": [
+        "WCD10-B05-S07",
+        "WCD10-B05-S08"
+      ],
+      "facts": [
+        {
+          "field": "first_publication_year",
+          "value": "1951",
+          "source_refs": [
+            "WCD10-B05-S07",
+            "WCD10-B05-S08"
+          ]
+        },
+        {
+          "field": "genre_or_form",
+          "value": "散文诗集（prose poems）",
+          "source_refs": [
+            "WCD10-B05-S08"
+          ]
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "据美国诗人学会介绍，这个散文诗系列由画家鲁菲诺·塔马伊插图，是对墨西哥过去、现在与未来的幻象式测绘。",
+          "source_refs": [
+            "WCD10-B05-S08"
+          ]
+        }
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B05-W02",
+      "author_id": "V1-ENT-0059",
+      "entity_type": "collection",
+      "original_name": "Ladera este",
+      "name_zh_candidate": "东斜坡",
+      "name_policy": "中文为候选显示暂译，未核实正式中文译本；原题为身份锚点。单篇/合集/版本分层，不与既有对象或诗集收录混同。",
+      "rationale": "补1962-1968印度时期诗集（R1已按ELEM专文补足三部结构与内容描述）；Blanco等分册不另立对象。",
+      "created_source_refs": [
+        "WCD10-B05-S07",
+        "WCD10-B05-S12",
+        "WCD10-B05-S13",
+        "WCD10-B05-S19"
+      ],
+      "facts": [
+        {
+          "field": "first_publication_year",
+          "value": "1969",
+          "source_refs": [
+            "WCD10-B05-S07",
+            "WCD10-B05-S12",
+            "WCD10-B05-S13",
+            "WCD10-B05-S19"
+          ]
+        },
+        {
+          "field": "genre_or_form",
+          "value": "诗集（1962-1968，印度时期）",
+          "source_refs": [
+            "WCD10-B05-S12",
+            "WCD10-B05-S19"
+          ]
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "据ELEM专文，诗集分三部分：题名部分收五十首诗，《Hacia el comienzo》十五首，另收1967年曾单独出版的长诗《Blanco》；除《Cuento de dos jardines》外，各诗写于阿富汗、锡兰与印度，可读作诗人面对东方的纪行，'Intermitencias del Oeste'四诗则记入墨西哥与法国的学生运动。",
+          "source_refs": [
+            "WCD10-B05-S19"
+          ]
+        },
+        {
+          "field": "bibliographic_note",
+          "value": "ELEM记初版Joaquín Mortiz（Las Dos Orillas丛书）1969年，印数3,150册，帕斯附东方术语注释；与诺贝尔书目页、Mortiz出版目录一致。",
+          "source_refs": [
+            "WCD10-B05-S13",
+            "WCD10-B05-S19"
+          ]
+        }
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B05-W03",
+      "author_id": "V1-ENT-0059",
+      "entity_type": "work",
+      "original_name": "El mono gramático",
+      "name_zh_candidate": "语法家猴子",
+      "name_policy": "中文为候选显示暂译，未核实正式中文译本；原题为身份锚点。单篇/合集/版本分层，不与既有对象或诗集收录混同。",
+      "rationale": "补帕斯跨文类散文诗书。R1按ELEM修订首发年语义：法译1972年先行面世、西语原文版1974；不把1974当全语种首发。",
+      "created_source_refs": [
+        "WCD10-B05-S07",
+        "WCD10-B05-S12",
+        "WCD10-B05-S18"
+      ],
+      "facts": [
+        {
+          "field": "first_publication_year",
+          "value": "1972",
+          "source_refs": [
+            "WCD10-B05-S18"
+          ],
+          "boundary": "本字段按'全语种首次出版'语义取法译Le singe grammairien（Claude Esteban译，Skira丛书Les Sentiers de la Création）1972年先行出版；西语原文版Seix Barral 1974仅记入bibliographic_note。二轮审计R1-02确认1974不得以first_book_edition_year入库（该字段若表'首个书版本年'则与1972已出书证据冲突）；跨语种首发字段政策留Codex最终裁决，若定为'原文语种首版'，本原子值应改为1974并同步迁移注记。"
+        },
+        {
+          "field": "genre_or_form",
+          "value": "跨文类散文诗（游记·随笔·散文诗）",
+          "source_refs": [
+            "WCD10-B05-S18"
+          ]
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "据ELEM作品页文章，本书横跨多种文类：既是前往印度加尔塔的旅行记述，也是关于创作过程与旅程的随笔，又是一首探索内在与视像的散文诗；印度加尔塔的小路与剑桥的花园两个场景在其中交汇。",
+          "source_refs": [
+            "WCD10-B05-S18"
+          ]
+        },
+        {
+          "field": "bibliographic_note",
+          "value": "法译Le singe grammairien 1972年（Claude Esteban译，Skira'Les Sentiers de la Création'丛书）先行出版；西语原文版Seix Barral（巴塞罗那）1974年；后有Círculo de Lectores 1996、Penguin Random House 1999、Galaxia Gutenberg 2014等版（ELEM）。",
+          "source_refs": [
+            "WCD10-B05-S18"
+          ]
+        }
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B05-W05",
+      "author_id": "V1-ENT-0171",
+      "entity_type": "collection",
+      "original_name": "Cuentos de Eva Luna",
+      "name_zh_candidate": "伊娃·露娜的故事",
+      "name_policy": "中文为候选显示暂译，未核实正式中文译本；原题为身份锚点。单篇/合集/版本分层，不与既有对象或诗集收录混同。",
+      "rationale": "补1989年短篇小说集，与既有小说《伊娃·露娜》（0178）分立；罗尔夫·卡莱为两书共享人物但不建人物对象。",
+      "created_source_refs": [
+        "WCD10-B05-S01",
+        "WCD10-B05-S14"
+      ],
+      "facts": [
+        {
+          "field": "first_publication_year",
+          "value": "1989",
+          "source_refs": [
+            "WCD10-B05-S01"
+          ]
+        },
+        {
+          "field": "genre_or_form",
+          "value": "短篇小说集",
+          "source_refs": [
+            "WCD10-B05-S14"
+          ]
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "据作者官方网站简介，伊娃·露娜应恋人罗尔夫·卡莱'讲一个从未对人讲过的故事'之请讲述二十三则故事，爱情、复仇、乡愁、反讽诸般情感俱在其中。",
+          "source_refs": [
+            "WCD10-B05-S14"
+          ]
+        },
+        {
+          "field": "bibliographic_note",
+          "value": "官网时间线记西语版1989年出版、作品页记英译首版©1991；两版本年份分列，不以英译年代替。",
+          "source_refs": [
+            "WCD10-B05-S01",
+            "WCD10-B05-S14"
+          ]
+        }
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B05-W06",
+      "author_id": "V1-ENT-0171",
+      "entity_type": "work",
+      "original_name": "Paula",
+      "name_zh_candidate": "宝拉",
+      "name_policy": "中文为候选显示暂译，未核实正式中文译本；原题为身份锚点。单篇/合集/版本分层，不与既有对象或诗集收录混同。",
+      "rationale": "补1994年回忆录；与小说作品分层，女儿病事属本书写作背景，不另建事件对象。",
+      "created_source_refs": [
+        "WCD10-B05-S01",
+        "WCD10-B05-S15"
+      ],
+      "facts": [
+        {
+          "field": "first_publication_year",
+          "value": "1994",
+          "source_refs": [
+            "WCD10-B05-S01"
+          ]
+        },
+        {
+          "field": "genre_or_form",
+          "value": "回忆录",
+          "source_refs": [
+            "WCD10-B05-S15"
+          ]
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "据作者官方网站简介，1991年12月女儿宝拉重病陷入昏迷后，阿连德在数月陪护中为失去意识的女儿写下家族故事，最终写成这部坦露生死的回忆录。",
+          "source_refs": [
+            "WCD10-B05-S15"
+          ]
+        },
+        {
+          "field": "bibliographic_note",
+          "value": "官网时间线记西语版1994年（与德语、荷兰语版同年）、作品页记英译首版©1995。",
+          "source_refs": [
+            "WCD10-B05-S01",
+            "WCD10-B05-S15"
+          ]
+        }
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B05-W07",
+      "author_id": "V1-ENT-0171",
+      "entity_type": "work",
+      "original_name": "Hija de la fortuna",
+      "name_zh_candidate": "幸运之女",
+      "name_policy": "中文为候选显示暂译，未核实正式中文译本；原题为身份锚点。单篇/合集/版本分层，不与既有对象或诗集收录混同。",
+      "rationale": "补1999年长篇小说；与Retrato en sepia等后续家族三部曲不合并，加州主场景暂无库内地点端点。",
+      "created_source_refs": [
+        "WCD10-B05-S01",
+        "WCD10-B05-S16"
+      ],
+      "facts": [
+        {
+          "field": "first_publication_year",
+          "value": "1999",
+          "source_refs": [
+            "WCD10-B05-S01"
+          ]
+        },
+        {
+          "field": "genre_or_form",
+          "value": "长篇小说",
+          "source_refs": [
+            "WCD10-B05-S16"
+          ]
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "据作者官方网站简介，孤儿伊莉莎·萨默斯在智利瓦尔帕莱索的英国侨民家庭长大，与青年华金·安德烈塔相恋；1849年淘金热起，她在华人医生陶奇恩相助下藏身船舱北上旧金山寻人，并在新世界重塑自己的命运。",
+          "source_refs": [
+            "WCD10-B05-S16"
+          ]
+        },
+        {
+          "field": "bibliographic_note",
+          "value": "官网时间线记西语版1999年出版、同年稍晚出英译；作品页记英译首版©1999。",
+          "source_refs": [
+            "WCD10-B05-S01",
+            "WCD10-B05-S16"
+          ]
+        }
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B05-W08",
+      "author_id": "V1-ENT-0171",
+      "entity_type": "work",
+      "original_name": "La ciudad de las bestias",
+      "name_zh_candidate": "野兽之城",
+      "name_policy": "中文为候选显示暂译，未核实正式中文译本；原题为身份锚点。单篇/合集/版本分层，不与既有对象或诗集收录混同。",
+      "rationale": "补2002年青少年小说三部曲首卷；续卷（王国/森林）不因三部曲归属自动入列。",
+      "created_source_refs": [
+        "WCD10-B05-S01",
+        "WCD10-B05-S17"
+      ],
+      "facts": [
+        {
+          "field": "first_publication_year",
+          "value": "2002",
+          "source_refs": [
+            "WCD10-B05-S01"
+          ]
+        },
+        {
+          "field": "genre_or_form",
+          "value": "青少年小说（三部曲首部）",
+          "source_refs": [
+            "WCD10-B05-S17"
+          ]
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "据作者官方网站简介，十五岁的亚历山大·科尔德因母亲病重被送往随《国际地理》杂志远征亚马逊的无畏祖母身边，与向导之女娜迪亚一同深入雨林，寻找传说中的'野兽'并发现雨林与人性的隐秘世界。",
+          "source_refs": [
+            "WCD10-B05-S17"
+          ]
+        },
+        {
+          "field": "bibliographic_note",
+          "value": "官网时间线记西语版2002年出版、作品页记英译首版©2002；三部曲续卷El reino del dragón de oro、El bosque de los pigmeos见时间线2003/2005条目，本批未建对象。",
+          "source_refs": [
+            "WCD10-B05-S01",
+            "WCD10-B05-S17"
+          ]
+        }
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B05-W09",
+      "author_id": "V1-ENT-0059",
+      "entity_type": "collection",
+      "original_name": "Libertad bajo palabra",
+      "name_zh_candidate": "语词下的自由",
+      "name_policy": "中文为候选显示暂译，未核实正式中文译本；原题为身份锚点。单篇/合集/版本分层，不与既有对象或诗集收录混同。",
+      "rationale": "R1按ELEM作品页解除R0暂缓：1949年FCE（Tezontle丛书）90首初版可与1960年obra poética重编版分层，形成可审候选。",
+      "created_source_refs": [
+        "WCD10-B05-S07",
+        "WCD10-B05-S12",
+        "WCD10-B05-S20"
+      ],
+      "facts": [
+        {
+          "field": "first_publication_year",
+          "value": "1949",
+          "source_refs": [
+            "WCD10-B05-S07",
+            "WCD10-B05-S20"
+          ],
+          "boundary": "1949=FCE旗下Tezontle丛书90首初版（ELEM'Biografía del libro'节明称其为第一版；诺贝尔书目页1949一致）；ELEM结构化字段与导语以1960重编版为锚，页内差异已在bibliographic_note记录，不静默选边。"
+        },
+        {
+          "field": "genre_or_form",
+          "value": "诗集（1949-1990跨版本演进作品）",
+          "source_refs": [
+            "WCD10-B05-S20"
+          ]
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "据ELEM专文，1949年初版收九十首诗；帕斯1953年重返墨西哥时构成此书的大部分诗篇已经写成，而《El cántaro roto》（1955）与《太阳石》（1957）等名篇当时尚未写出、系其后完成并在后续重编版中收入。ELEM 对后续重编作品及 1990 年定本的讨论涉及爱情、语言、与自然相呼应的爱欲、城市、作为社会见证的记忆与对时间的反思。",
+          "source_refs": [
+            "WCD10-B05-S20"
+          ]
+        },
+        {
+          "field": "bibliographic_note",
+          "value": "ELEM记五版本：1949年初版90首（FCE，Tezontle丛书，印1,100册）；1960年obra poética（1935-1957）扩至225首（初拟题Todavía）；1968年三版删四十余首；1979年补回部分；1990年定本207首分五节。《El cántaro roto》（1955）与《Piedra de sol》（1957）系初版之后写出，仅见于后续重编版，不属1949初版内容。ELEM页内以1960为'首版'的字段/导语与传记节1949表述并存，候选锚1949并留差异记录。",
+          "source_refs": [
+            "WCD10-B05-S20"
+          ]
+        }
+      ],
+      "note": "R3窄修订 new_entity(Libertad bajo palabra)嵌套事实；CREATED由created_source_refs表达"
+    },
+    {
+      "candidate_id": "WCD10-B05-W10",
+      "author_id": "V1-ENT-0059",
+      "entity_type": "collection",
+      "original_name": "La estación violenta",
+      "name_zh_candidate": "狂暴的季节",
+      "name_policy": "中文为候选显示暂译，未核实正式中文译本；原题为身份锚点。单篇/合集/版本分层，不与既有对象或诗集收录混同。",
+      "rationale": "R1按ELEM作品页解除R0暂缓：1958年FCE（Letras Mexicanas丛书）初版、构成与内容描述齐备；与Libertad重编版收录关系只在注记，不建关系。",
+      "created_source_refs": [
+        "WCD10-B05-S07",
+        "WCD10-B05-S12",
+        "WCD10-B05-S21"
+      ],
+      "facts": [
+        {
+          "field": "first_publication_year",
+          "value": "1958",
+          "source_refs": [
+            "WCD10-B05-S07",
+            "WCD10-B05-S12",
+            "WCD10-B05-S21"
+          ]
+        },
+        {
+          "field": "genre_or_form",
+          "value": "诗集",
+          "source_refs": [
+            "WCD10-B05-S21"
+          ]
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "据ELEM作品页（转初版封底文字），诗集汇集帕斯面对历史、城市、风景与同侪社群的诗作，为人的尊严作证；贯穿全书的主导主题是时间——既是个人的也是历史的。",
+          "source_refs": [
+            "WCD10-B05-S21"
+          ]
+        },
+        {
+          "field": "bibliographic_note",
+          "value": "初版FCE丛书Letras Mexicanas第42种（1958）。ELEM所引主题描述两段出自1958年版封底（页标注'Esta contraportada corresponde a la edición de 1958'）；九诗清单（'Himno entre ruinas''Máscaras del alba''Fuente''Repaso nocturno''Mutra''¿No hay salida?''El río''El cántaro roto''Piedra de sol'）出自2013年版封底（页标注'contraportada…edición de 2013'），未独立核证其与1958年初版目录逐项相同。后作为一节收入Libertad bajo palabra重编版（1990定本五节之一）。",
+          "source_refs": [
+            "WCD10-B05-S21",
+            "WCD10-B05-S20"
+          ]
+        }
+      ]
+    }
+  ],
+  "existing_facts": [
+    {
+      "candidate_id": "WCD10-B05-F03",
+      "subject_id": "V1-ENT-0173",
+      "field": "genre_or_form",
+      "value": "长篇小说（政治小说）",
+      "source_refs": [
+        "WCD10-B05-S09",
+        "WCD10-B05-S05"
+      ],
+      "boundary": "体裁直书自USAC条目（Novela política y experimental、Etiquetas: Novela）；BnF'独裁者小说'归类另入research_note。"
+    },
+    {
+      "candidate_id": "WCD10-B05-F04",
+      "subject_id": "V1-ENT-0173",
+      "field": "one_sentence_summary",
+      "value": "据危地马拉圣卡洛斯大学人文学院虚拟图书馆介绍，这部政治与实验性并置的小说书写'总统先生'的决断如何左右他人命运，尤其'天使脸'米格尔·卡拉-德安赫尔。",
+      "source_refs": [
+        "WCD10-B05-S09"
+      ],
+      "boundary": "归属明确的机构释义；小说国度未具名，不作SET_IN危地马拉。"
+    },
+    {
+      "candidate_id": "WCD10-B05-F06",
+      "subject_id": "V1-ENT-0174",
+      "field": "genre_or_form",
+      "value": "长篇小说",
+      "source_refs": [
+        "WCD10-B05-S06",
+        "WCD10-B05-S05"
+      ],
+      "boundary": "USAC封底简介称其为'拉美基础小说之一'，BnF书目列入小说；'魔幻现实主义'评价归简介原文不入枚举。"
+    },
+    {
+      "candidate_id": "WCD10-B05-F07",
+      "subject_id": "V1-ENT-0174",
+      "field": "one_sentence_summary",
+      "value": "据危地马拉圣卡洛斯大学图书馆简介，小说以《波波尔·乌》'人由玉米所造'的玛雅神话为题旨，把日常事实与奇幻超自然相结，重写农民生活、其根源与新的历史境况。",
+      "source_refs": [
+        "WCD10-B05-S06"
+      ],
+      "boundary": "封底文字由USAC转引，归属机构；不生成神话主题关系，不设SET_IN。"
+    },
+    {
+      "candidate_id": "WCD10-B05-F08",
+      "subject_id": "V1-ENT-0175",
+      "field": "genre_or_form",
+      "value": "传说/短篇故事集（超现实主义实验笔法）",
+      "source_refs": [
+        "WCD10-B05-S11",
+        "WCD10-B05-S05"
+      ],
+      "boundary": "USAC标签（Leyenda/Narrativa/Surrealismo）与BnF引言'une série de contes'一致；保持collection层级。"
+    },
+    {
+      "candidate_id": "WCD10-B05-F09",
+      "subject_id": "V1-ENT-0175",
+      "field": "one_sentence_summary",
+      "value": "据危地马拉圣卡洛斯大学人文学院虚拟图书馆介绍，阿斯图里亚斯以更接近超现实主义的实验技法重写危地马拉民间传说。",
+      "source_refs": [
+        "WCD10-B05-S11"
+      ],
+      "boundary": "归属机构释义；BnF引言'首部书/玛雅宇宙观'为旁证，1930旧年份不变。"
+    },
+    {
+      "candidate_id": "WCD10-B05-F10",
+      "subject_id": "V1-ENT-0176",
+      "field": "genre_or_form",
+      "value": "长篇小说（家族史诗）",
+      "source_refs": [
+        "WCD10-B05-S02"
+      ],
+      "boundary": "官网简介直书'a symbolic family saga'；魔幻现实主义等标签不入枚举。"
+    },
+    {
+      "candidate_id": "WCD10-B05-F11",
+      "subject_id": "V1-ENT-0176",
+      "field": "one_sentence_summary",
+      "value": "据作者官方网站简介，特鲁埃瓦家族三代人的激情、斗争与秘密贯穿一个未具名拉美国家百年暴力变迁，最终危机使专横的家长与其外孙女在街垒两侧对峙。",
+      "source_refs": [
+        "WCD10-B05-S02"
+      ],
+      "boundary": "官网简介明确国家未具名；不据作者国籍生成SET_IN智利。"
+    },
+    {
+      "candidate_id": "WCD10-B05-F12",
+      "subject_id": "V1-ENT-0177",
+      "field": "genre_or_form",
+      "value": "长篇小说",
+      "source_refs": [
+        "WCD10-B05-S03"
+      ],
+      "boundary": "官网书籍页将其列为作者第二部小说；体裁仅此。"
+    },
+    {
+      "candidate_id": "WCD10-B05-F13",
+      "subject_id": "V1-ENT-0177",
+      "field": "one_sentence_summary",
+      "value": "据作者官方网站简介，在任意逮捕、突然失踪与即决处决横行的军事独裁国家，女记者伊雷内·贝尔特兰与地下抵抗组织摄影师弗朗西斯科·莱阿尔调查少女埃万赫利娜·兰基莱奥的神秘病例，揭出挑战政权的罪行。",
+      "source_refs": [
+        "WCD10-B05-S03"
+      ],
+      "boundary": "政权与国家均未具名；不生成BASED_ON_EVENT或SET_IN。"
+    },
+    {
+      "candidate_id": "WCD10-B05-F14",
+      "subject_id": "V1-ENT-0178",
+      "field": "genre_or_form",
+      "value": "长篇小说（流浪汉小说式自述）",
+      "source_refs": [
+        "WCD10-B05-S04"
+      ],
+      "boundary": "官网简介直书'picaresque tale of her own life'；叙述方式限定不入主题关系。"
+    },
+    {
+      "candidate_id": "WCD10-B05-F15",
+      "subject_id": "V1-ENT-0178",
+      "field": "one_sentence_summary",
+      "value": "据作者官方网站简介，叙述者伊娃·露娜以与生俱来的讲故事天赋自述一生：生于贫寒、早年失怙，从女仆走到独特的影响力，串起一个南美洲国家的众生相。",
+      "source_refs": [
+        "WCD10-B05-S04"
+      ],
+      "boundary": "'complex South American nation'未具名；不作SET_IN。"
+    }
+  ],
+  "extra_relationships": [
+    {
+      "candidate_id": "WCD10-B05-R01",
+      "subject_id": "WCD10-B05-W07",
+      "relation_type": "SET_IN",
+      "object_id": "V1-ENT-0123",
+      "description_zh": "《幸运之女》开篇于智利瓦尔帕莱索的英国侨民殖民地，主人公在该城成长后主体情节移往加州。",
+      "source_refs": [
+        "WCD10-B05-S16"
+      ],
+      "boundary": "官网简介直接书明'raised in the British colony of Valparaíso, Chile'；SET_IN仅表部分场景（开篇与人物成长地），主体淘金情节在加州（库内无端点）。研究层候选：后续任何读者地图投影若无法表达'部分场景'语义，不得将本条当作整部作品的地点关系使用。"
+    }
+  ],
+  "deferred": [
+    {
+      "key": "WCD10:B05:Paz:El_mono_gramatico:first_publication_semantics",
+      "disposition": "field_policy_pending_codex",
+      "source_refs": [
+        "WCD10-B05-S18",
+        "WCD10-B05-S07"
+      ],
+      "reason": "R2修订（二轮R1-02）：first_book_edition_year=1974已撤回——若该字段表'首个书版本年'，1972年法译本已出书，1974与之冲突；西语原文版1974仅存bibliographic_note。first_publication_year=1972按'全语种首次出版'语义保留并附boundary；字段口径请Codex正式裁决，若定为'原文语种首版'则原子值改1974并迁移注记。"
+    },
+    {
+      "key": "WCD10:B05:Paz:Laberinto:first_edition_layering_resolved",
+      "disposition": "layered_conclusion_pending_old_fact_errata",
+      "source_refs": [
+        "WCD10-B05-S23",
+        "WCD10-B05-S12",
+        "WCD10-B05-S24",
+        "WCD10-B05-S08"
+      ],
+      "reason": "R1修订：三方一致确认1950年Cuadernos Americanos首版（FCE转载文并称系该刊'特别版'）、1959年FCE后版；poets.org'初版FCE 1950'记为来源误述而非等价选项。旧FCT-0309相应文字需Codex走追加式勘误，外部不改旧行；本包不插入原R0的F01冲突型research_note。"
+    },
+    {
+      "key": "WCD10:B05:Paz:Piedra:imprint_layering_resolved",
+      "disposition": "layered_conclusion_no_errata_needed",
+      "source_refs": [
+        "WCD10-B05-S22",
+        "WCD10-B05-S25"
+      ],
+      "reason": "R1修订：Tezontle系FCE旗下丛书（ELEM将'Tezontle'登记为Editorial、FCE转载文直书'colección Tezontle del Fondo de Cultura Económica'，1957-09-28印300册）；'Tezontle vs FCE'并非互斥首版冲突，旧FCT-0319'Tezontle 1957'在imprint层面成立、无需勘误；原R0的F02撤回。"
+    },
+    {
+      "key": "WCD10:B05:Paz:Salamandra_further_bibliography",
+      "disposition": "future_object_layer_research",
+      "source_refs": [
+        "WCD10-B05-S07",
+        "WCD10-B05-S12"
+      ],
+      "reason": "Salamandra 1962、Blanco 1967、Viento entero 1965、Topoemas 1971、Pasado en claro 1975、Árbol adentro 1987、Sor Juana o las trampas de la fe 1982等仍有书目年份而对象级证据未集，不凑数新增。"
+    },
+    {
+      "key": "WCD10:B05:Paz:HOLD0043_second_source",
+      "disposition": "legacy_hold_retained",
+      "source_refs": [
+        "WCD10-B05-S08",
+        "WCD10-B05-S12"
+      ],
+      "reason": "HOLD-0043（0154 EXPLORES_THEME面具/自我折叠0107）第二独立来源仍缺；本轮ELEM/FCE新增实读均未提供该主题直接表述，hold维持。"
+    },
+    {
+      "key": "WCD10:B05:Asturias:Papa_Verde_object_deferred",
+      "disposition": "object_deferred_no_qualified_content_source",
+      "source_refs": [
+        "WCD10-B05-S05",
+        "WCD10-B05-S10",
+        "WCD10-B05-S26"
+      ],
+      "reason": "R1修订（审计R4）：1954 Losada年份可核（BnF），但USAC条目仅'香蕉三部曲/魔幻现实主义/政治内容'系列级标签，两轮定向检索未获可实读且针对本书内容的合格机构页（仅scribd/二手书 commercial目录/搜索摘要，均不合格）；按审计指示暂缓对象、不以泛化标签充数。后续可核Cervantes Virtual学术文集或纸质文献。"
+    },
+    {
+      "key": "WCD10:B05:Asturias:trilogy_volumes_year_conflicts",
+      "disposition": "object_deferred_description_unsourced",
+      "source_refs": [
+        "WCD10-B05-S05",
+        "WCD10-B05-S26"
+      ],
+      "reason": "R1修订：Viento fuerte现有BnF书目[1949]与诺贝尔自传页1950两个年份位置（后者并给内容描述'对美国帝国主义影响其国家经济现实的控诉'），年份冲突不立对象；Week-end en Guatemala（[1956] 1958）、Los ojos de los enterrados（[1960] 1961）描述仍缺。"
+    },
+    {
+      "key": "WCD10:B05:Asturias:Hombres_1948_1949_conflict",
+      "disposition": "conflicting_source_detail",
+      "source_refs": [
+        "WCD10-B05-S05",
+        "WCD10-B05-S06"
+      ],
+      "reason": "BnF引言1948 vs 同PDF书目[1949]+USAC 1949：维持库内1949（FCT-0364）；R0曾以F05跨主体research_note承载，R1撤回该事实候选，冲突仅存本deferred。"
+    },
+    {
+      "key": "WCD10:B05:Asturias:SET_IN_Guatemala_unsupported",
+      "disposition": "no_direct_setting_evidence",
+      "source_refs": [
+        "WCD10-B05-S09",
+        "WCD10-B05-S05",
+        "WCD10-B05-S26"
+      ],
+      "reason": "Señor Presidente国度未具名；BnF'Estrada Cabrera联想'与诺贝尔自传页'写于旅法期间/因政治原因迟至1946面世'均为背景而非场景陈述；三对象描述无'以危地马拉为背景'直接表述，不建SET_IN。"
+    },
+    {
+      "key": "WCD10:B05:Allende:unnamed_country_setin",
+      "disposition": "no_direct_setting_evidence",
+      "source_refs": [
+        "WCD10-B05-S02",
+        "WCD10-B05-S03",
+        "WCD10-B05-S04"
+      ],
+      "reason": "官网简介三度明书未具名国家；0176/0177/0178不据作者国籍生成SET_IN智利。"
+    },
+    {
+      "key": "WCD10:B05:Allende:further_bibliography",
+      "disposition": "future_object_layer_research",
+      "source_refs": [
+        "WCD10-B05-S01"
+      ],
+      "reason": "时间线另有El plan infinitivo 1991、Afrodita 1997、Retrato en sepia 2000、Inés del alma mía 2006等年份；本批仍仅按证据最全的四种立对象。"
+    },
+    {
+      "key": "WCD10:B05:builder_research_note_mapping",
+      "disposition": "codex_tooling_review_required",
+      "source_refs": [
+        "WCD10-B05-S05",
+        "WCD10-B05-S23"
+      ],
+      "reason": "审计R3：build_wcd10_migration.py将任何research_note固定映射为scholarly_paraphrase/attributed_study；本R1包已撤回全部B级research_note事实候选（F01/F02/F05）以避免虚增学术支持，Codex须在任何B05 SQL prepare前审核该生成器的证据层级映射。"
+    },
+    {
+      "key": "WCD10:B05:R01_partial_scene_boundary",
+      "disposition": "reviewer_boundary_opinion",
+      "source_refs": [
+        "WCD10-B05-S16"
+      ],
+      "reason": "审计R6：R01（W07 Hija de la fortuna SET_IN Chile）有开篇瓦尔帕莱索直接证据但仅部分场景；候选自限于研究层，未来读者地图若无法表达'部分场景'不得投影为整部作品地点关系——保留候选并请二轮语义复核确认该边界措辞。"
+    },
+    {
+      "key": "WCD10:B05:failed_access_entries",
+      "disposition": "access_log_recorded",
+      "source_refs": [],
+      "reason": "R0失败项不变；R1新增：El Papa Verde两轮定向检索仅得scribd/二手书目录/搜索摘要（不合格，未采用任何未开内容），ELEM站内检索JS-only仍未解（本轮直接按ID打开6个obra页成功）。详见SOURCE_ACCESS_LOG.json。"
+    }
+  ]
+}

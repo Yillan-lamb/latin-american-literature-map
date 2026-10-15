@@ -1,0 +1,693 @@
+{
+  "task_id": "TASK-111",
+  "batch_id": "WCD-10-B06",
+  "accessed_at": "2026-10-07",
+  "verified_by": "See per-author registrations and parent review records; this file consolidates registrations without new source verification.",
+  "source_year_policy": {
+    "V1-ENT-0172": "Blank means source-page publication date NOT_VERIFIED. A work publication year, writing year, current edition launch, footer, or crawl date never substitutes.",
+    "V1-ENT-0184": "Blank means webpage publication date NOT_VERIFIED. Book first edition and journal issue years are object/issue publication metadata and are recorded only in those fact fields; no copyright/footer/crawl/hosting date substitution.",
+    "V1-ENT-0185": "Only explicitly displayed webpage publication dates may populate source publication_year. Book-edition dates are recorded as object facts and never substituted for web publication dates. Distinct edition, reprint, first-publication, writing-year and page-header dates remain separate."
+  },
+  "public_content_scope": "Research-only; package summaries/metadata remain outside Curation and public admission.",
+  "local_asset_status": "remote_only",
+  "copyright_boundary": "Per-author restrictions are retained in author_registrations; this merge adds no copyright permission or public admission.",
+  "profiles": [
+    {
+      "candidate_id": "WCD10-B06-S001",
+      "publisher": "Academia Brasileira de Letras",
+      "format": "institutional_author_bibliography_web_page",
+      "language": "pt",
+      "publication_year": "",
+      "notes": "Exact existing source SRC-0139 reused; B level retained.",
+      "disposition": "reuse",
+      "reuse_existing_source": "SRC-0139",
+      "related_existing_source": "SRC-0139"
+    },
+    {
+      "candidate_id": "WCD10-B06-S002",
+      "publisher": "Fundação Biblioteca Nacional / BNDigital",
+      "format": "national_library_literary_article",
+      "language": "pt",
+      "publication_year": "2021",
+      "notes": "Exact existing source SRC-0313 reused; page byline/date read.",
+      "disposition": "reuse",
+      "reuse_existing_source": "SRC-0313",
+      "related_existing_source": "SRC-0313"
+    },
+    {
+      "candidate_id": "WCD10-B06-S003",
+      "publisher": "Companhia das Letras",
+      "format": "publisher_work_page",
+      "language": "pt",
+      "publication_year": "",
+      "notes": "Web page issue date not shown.",
+      "disposition": "new"
+    },
+    {
+      "candidate_id": "WCD10-B06-S004",
+      "publisher": "Companhia das Letras",
+      "format": "publisher_work_page",
+      "language": "pt",
+      "publication_year": "",
+      "notes": "Page says written in 1969; not treated as first-publication proof.",
+      "disposition": "new"
+    },
+    {
+      "candidate_id": "WCD10-B06-S005",
+      "publisher": "SciELO / Estudos Avançados",
+      "format": "scholarly_journal_article",
+      "language": "pt",
+      "publication_year": "2023",
+      "notes": "Full text was opened on SciELO. Article studies 1969 novel and 1977 film; analysis must distinguish them.",
+      "disposition": "new",
+      "metadata_access": {
+        "url": "https://revistas.usp.br/eav/article/view/219635",
+        "result": "direct open succeeded; redirected to /en/",
+        "locator": "author/DOI at lines 19–26; abstract distinguishes novel and film at 31–33; exact publication date 2023-12-05 at 90–93; issue Vol.37 No.108 (2023) at 94–100; pages 279–296 at 108–110; Alfredo Bosi is Section at 98–100, not author.",
+        "same_source_as": "S005 SciELO article, same DOI; not independent source"
+      }
+    },
+    {
+      "candidate_id": "WCD10-B06-S006",
+      "publisher": "Companhia das Letras",
+      "format": "publisher_work_page",
+      "language": "pt",
+      "publication_year": "",
+      "notes": "Existing year field preserved; no webpage date shown.",
+      "disposition": "new"
+    },
+    {
+      "candidate_id": "WCD10-B06-S007",
+      "publisher": "Companhia das Letras",
+      "format": "publisher_work_page",
+      "language": "pt",
+      "publication_year": "",
+      "notes": "No web publication date shown; page does not say Flor is a cooking instructor.",
+      "disposition": "new"
+    },
+    {
+      "candidate_id": "WCD10-B06-S008",
+      "publisher": "Companhia das Letras",
+      "format": "publisher_work_page",
+      "language": "pt",
+      "publication_year": "",
+      "notes": "Current canonical route direct-open returned Cache miss in this pass; prior old product page was opened and redirected to previous page route. Publisher search service returned full synopsis; no new factual claims added.",
+      "disposition": "new"
+    },
+    {
+      "candidate_id": "WCD10-B06-S009",
+      "publisher": "Companhia das Letras",
+      "format": "publisher_work_page",
+      "language": "pt",
+      "publication_year": "",
+      "notes": "Current publisher object page opened successfully via old product route redirect; page issue date not displayed.",
+      "disposition": "new"
+    },
+    {
+      "candidate_id": "WCD10-B06-S010",
+      "publisher": "Cadernos de Pesquisa do CDHIS / Universidade Federal de Uberlândia",
+      "format": "scholarly_journal_article",
+      "language": "pt",
+      "publication_year": "2019",
+      "notes": "Direct journal page opened; full byline/date/abstract and DOI read.",
+      "disposition": "new"
+    },
+    {
+      "candidate_id": "WCD10-B06-S011",
+      "publisher": "Linguagens, Educação e Sociedade / Universidade Federal do Piauí",
+      "format": "scholarly_journal_article",
+      "language": "pt",
+      "publication_year": "2026",
+      "notes": "Direct journal page opened; article directly studies Cacau and identifies its research scope.",
+      "disposition": "new"
+    },
+    {
+      "candidate_id": "WCD10-B06-S013",
+      "publisher": "Companhia das Letras",
+      "format": "publisher_work_page",
+      "language": "pt",
+      "publication_year": "",
+      "notes": "Publisher page opened by redirect from old product route to current canonical; 1984 and synopsis read.",
+      "disposition": "new"
+    },
+    {
+      "candidate_id": "WCD10-B06-S014",
+      "publisher": "Companhia das Letras",
+      "format": "publisher_work_page",
+      "language": "pt",
+      "publication_year": "",
+      "notes": "Current canonical page direct-open succeeded; no web issue date shown.",
+      "disposition": "new"
+    },
+    {
+      "candidate_id": "WCD10-B06-S101",
+      "publisher": "Centro Virtual Cervantes / Instituto Cervantes",
+      "format": "institutional_bibliography_web_page",
+      "language": "es",
+      "publication_year": "",
+      "notes": "Canonical URL reuse SRC-0142; original title/author/editor, publisher, grade B and current metadata remain unchanged. Page shows work first-edition bibliographic entries; webpage publication date not stated, NOT_VERIFIED.",
+      "reuse_existing_source": "SRC-0142",
+      "related_existing_source": "SRC-0142",
+      "disposition": "reuse"
+    },
+    {
+      "candidate_id": "WCD10-B06-S102",
+      "publisher": "Centro Virtual Cervantes / Instituto Cervantes",
+      "format": "institutional_chronology_web_page",
+      "language": "es",
+      "publication_year": "",
+      "notes": "Canonical URL reuse SRC-0143; all existing source metadata unchanged. Page's work publication dates are not webpage publication dates; webpage publication date not stated, NOT_VERIFIED.",
+      "reuse_existing_source": "SRC-0143",
+      "related_existing_source": "SRC-0143",
+      "disposition": "reuse"
+    },
+    {
+      "candidate_id": "WCD10-B06-S103",
+      "publisher": "Centro Virtual Cervantes / Instituto Cervantes",
+      "format": "institutional_critical_essay",
+      "language": "es",
+      "publication_year": "",
+      "notes": "Page title Juan Carlos Onetti: Historias del otro lado, by Eduardo Becerra. Target paragraphs opened and read. Page has no stable publication date, NOT_VERIFIED; author-level monograph context is not promoted to work facts."
+    },
+    {
+      "candidate_id": "WCD10-B06-S104",
+      "publisher": "Asociación Internacional de Hispanistas / Centro Virtual Cervantes",
+      "format": "peer_scholarly_conference_paper_pdf",
+      "language": "es",
+      "publication_year": "",
+      "notes": "Aurora M. Ocampo署名；全文6页已读。PDF P0（第1页）L12–18讨论Novelas cortas completas收录与分类变化；Los adioses也见P1（第2页）L31–35；El pozo的Linacero叙述目标见PDF P2（第3页）L97–100。均为PDF页序，不是印刷页码。"
+    },
+    {
+      "candidate_id": "WCD10-B06-S105",
+      "publisher": "Centro Virtual Cervantes / Instituto Cervantes",
+      "format": "institutional_scholarly_commentary",
+      "language": "es",
+      "publication_year": "",
+      "notes": "Pequeño dios Larsen by Juan-Manuel García Ramos; target paragraphs opened. Footer identifies the author as a Professor of Spanish Philology (Hispanic American Literature), Universidad de La Laguna. Web publication date not stated, NOT_VERIFIED; conservatively B."
+    },
+    {
+      "candidate_id": "WCD10-B06-S106",
+      "publisher": "Revista Chilena de Literatura, Facultad de Filosofía y Humanidades, Universidad de Chile",
+      "format": "peer_reviewed_journal_article_and_full_pdf",
+      "language": "es",
+      "publication_year": "2000",
+      "notes": "原刊canonical landing page及20页全文PDF均已由web工具成功打开；PDF direct endpoint https://revistaliteratura.uchile.cl/index.php/RCL/article/download/39198/40826/135606。Vol. 56 (2000): Abril；PDF页脚也标2000。平台生成citation使用2016格式，不代替期刊issue year。网页和下载端点均远程核读，未能保留本地PDF副本；shell curl因DNS解析受限失败。"
+    },
+    {
+      "candidate_id": "WCD10-B06-S107",
+      "publisher": "Asociación Internacional de Hispanistas / Centro Virtual Cervantes",
+      "format": "peer_scholarly_conference_paper_pdf",
+      "language": "es",
+      "publication_year": "",
+      "notes": "KATALIN KULIN署名位于PDF第7页；全文8页已读。author_or_editor仅列签名作者；publisher另列Asociación Internacional de Hispanistas / Centro Virtual Cervantes。"
+    },
+    {
+      "candidate_id": "WCD10-B06-S108",
+      "publisher": "Asociación Internacional de Hispanistas / Centro Virtual Cervantes",
+      "format": "peer_scholarly_conference_paper_pdf",
+      "language": "es",
+      "publication_year": "",
+      "notes": "JAMES E. IRBY署名在全文8页PDF末页P7，不在首页；首页用于题名/年份定位，P1–P2用于情节证据。author_or_editor仅列签名作者；publisher另列Asociación Internacional de Hispanistas / Centro Virtual Cervantes。"
+    },
+    {
+      "candidate_id": "WCD10-B06-S109",
+      "publisher": "Asociación Internacional de Hispanistas / Centro Virtual Cervantes",
+      "format": "peer_scholarly_conference_paper_pdf",
+      "language": "es",
+      "publication_year": "",
+      "notes": "Hugo J. Verani署名、University of California, Davis；直接研究Dejemos hablar al viento。完整8页PDF已打开阅读。会议/出版年从所读PDF未核实，留空/NOT_VERIFIED。"
+    },
+    {
+      "candidate_id": "WCD10-B06-S110",
+      "publisher": "Centro Virtual Cervantes / Instituto Cervantes",
+      "format": "institutional_scholarly_commentary",
+      "language": "es",
+      "publication_year": "",
+      "notes": "网页作者Teodosio Fernández及其Universidad Autónoma de Madrid教授身份已核；直接点名1979年作品、Medina/Colorado与Santa María毁城。网页发表年未标，NOT_VERIFIED；保守B。"
+    },
+    {
+      "candidate_id": "WCD10-B06-S201",
+      "publisher": "Biblioteca Nacional de Chile / Memoria Chilena",
+      "format": "institutional_author_bibliography",
+      "language": "es",
+      "publication_year": "",
+      "notes": "复用原作者档案SRC-0144；此页本轮实读作者简史、时间线和作者书目，原记录页面访问时间不能代表本次发表时间。 页面发表年未见实证字段，不用作品年/版次年代替。",
+      "reuse_existing_source": "SRC-0144",
+      "disposition": "reuse",
+      "canonical_url": "https://www.memoriachilena.gob.cl/602/w3-article-3477.html"
+    },
+    {
+      "candidate_id": "WCD10-B06-S202",
+      "publisher": "Biblioteca Nacional de Chile / Memoria Chilena",
+      "format": "institutional_work_page",
+      "language": "es",
+      "publication_year": "",
+      "notes": "复用原Coronación对象来源；本次实读作品段，保留原来源元数据。 页面发表年未见实证字段，不用作品年/版次年代替。",
+      "reuse_existing_source": "SRC-0145",
+      "disposition": "reuse",
+      "canonical_url": "https://www.memoriachilena.gob.cl/602/w3-article-94921.html"
+    },
+    {
+      "candidate_id": "WCD10-B06-S203",
+      "publisher": "Biblioteca Nacional de Chile / Memoria Chilena",
+      "format": "institutional_work_page",
+      "language": "es",
+      "publication_year": "",
+      "notes": "复用原El obsceno作品来源；对象级叙述及引文只作其来源归属。 页面发表年未见实证字段，不用作品年/版次年代替。",
+      "reuse_existing_source": "SRC-0146",
+      "disposition": "reuse",
+      "canonical_url": "https://www.memoriachilena.gob.cl/602/w3-article-94930.html"
+    },
+    {
+      "candidate_id": "WCD10-B06-S204",
+      "publisher": "Biblioteca Nacional de Chile / Memoria Chilena",
+      "format": "institutional_work_page",
+      "language": "es",
+      "publication_year": "",
+      "notes": "复用原El lugar sin límites对象来源；页面不直接给首版年。 页面发表年未见实证字段，不用作品年/版次年代替。",
+      "reuse_existing_source": "SRC-0147",
+      "disposition": "reuse",
+      "canonical_url": "https://www.memoriachilena.gob.cl/602/w3-article-94929.html"
+    },
+    {
+      "candidate_id": "WCD10-B06-S205",
+      "publisher": "Biblioteca Nacional de Chile / Memoria Chilena",
+      "format": "institutional_work_page",
+      "language": "es",
+      "publication_year": "",
+      "notes": "作者作品页实际打开，简介列七个故事；页面未显示作品出版年。 页面发表年未见实证字段，不用作品年/版次年代替。 页面篇名照录Dinamanquero；S205之外资料有Dinamarquero异拼，本包不据此确定单篇身份。",
+      "reuse_existing_source": "",
+      "disposition": "new",
+      "canonical_url": "https://www.memoriachilena.gob.cl/602/w3-article-94934.html"
+    },
+    {
+      "candidate_id": "WCD10-B06-S206",
+      "publisher": "Biblioteca Nacional de Chile / Memoria Chilena",
+      "format": "national_library_catalog_object",
+      "language": "es",
+      "publication_year": "",
+      "notes": "该馆藏对象标题名、作者、1955及115页；未出现“1a edición”措辞。与S201作者档案/S205首书对象说明共同使用；不将馆藏年误称显式首版标记。",
+      "reuse_existing_source": "",
+      "disposition": "new",
+      "canonical_url": "https://www.memoriachilena.gob.cl/602/w3-article-73146.html"
+    },
+    {
+      "candidate_id": "WCD10-B06-S207",
+      "publisher": "Agencia Literaria Carmen Balcells",
+      "format": "official_literary_agency_work_page",
+      "language": "en",
+      "publication_year": "",
+      "notes": "英文作品页实际打开；年份字段1951与正文1955并存。保留冲突，不猜字段年份含义。 页面发表年未见实证字段，不用作品年/版次年代替。",
+      "reuse_existing_source": "",
+      "disposition": "new",
+      "canonical_url": "https://www.agenciabalcells.com/en/authors/works/jose-donoso/veraneo-y-otros-cuentos/"
+    },
+    {
+      "candidate_id": "WCD10-B06-S208",
+      "publisher": "Ministerio de Educación de Chile, Unidad de Currículum y Evaluación",
+      "format": "government_education_work_page",
+      "language": "es",
+      "publication_year": "",
+      "notes": "作品页标作者、novelas chilenas关键词、ISBN和内容简介；未核网页发表年，故为空。 页面发表年未见实证字段，不用作品年/版次年代替。",
+      "reuse_existing_source": "",
+      "disposition": "new",
+      "canonical_url": "https://www.curriculumnacional.cl/portal/Palabras-Claves/Relaciones-familiares/88620:Este-domingo"
+    },
+    {
+      "candidate_id": "WCD10-B06-S209",
+      "publisher": "Agencia Literaria Carmen Balcells",
+      "format": "official_literary_agency_work_page",
+      "language": "es",
+      "publication_year": "",
+      "notes": "Tres novelitas burguesas单作页实际打开；页内含三联篇对象简介。导航上其他作品年仅留线索。 页面发表年未见实证字段，不用作品年/版次年代替。",
+      "reuse_existing_source": "",
+      "disposition": "new",
+      "canonical_url": "https://www.agenciabalcells.com/autores/obra/jose-donoso/tres-novelitas-burguesas/"
+    },
+    {
+      "candidate_id": "WCD10-B06-S210",
+      "publisher": "Biblioteca Nacional de Chile / Memoria Chilena",
+      "format": "institutional_work_page",
+      "language": "es",
+      "publication_year": "",
+      "notes": "Casa de campo对象页实读，直载1978出版及故事描述；另述1979年奖项。 页面发表年未见实证字段，不用作品年/版次年代替。",
+      "reuse_existing_source": "",
+      "disposition": "new",
+      "canonical_url": "https://www.memoriachilena.gob.cl/602/w3-article-94919.html"
+    },
+    {
+      "candidate_id": "WCD10-B06-S211",
+      "publisher": "Biblioteca Nacional de Chile / Memoria Chilena",
+      "format": "national_library_catalog_object",
+      "language": "es",
+      "publication_year": "",
+      "notes": "目录对象直接标第一版Barcelona: Seix Barral 1978；不复制或保存封面图。 页面发表年未见实证字段，不用作品年/版次年代替。",
+      "reuse_existing_source": "",
+      "disposition": "new",
+      "canonical_url": "https://www.memoriachilena.gob.cl/602/w3-article-73167.html"
+    },
+    {
+      "candidate_id": "WCD10-B06-S212",
+      "publisher": "Biblioteca Nacional de Chile / Memoria Chilena",
+      "format": "institutional_work_page",
+      "language": "es",
+      "publication_year": "",
+      "notes": "El jardín对象页实读，简介依来源明归Carlos Morand并叙述Julio/Gloria。 页面发表年未见实证字段，不用作品年/版次年代替。",
+      "reuse_existing_source": "",
+      "disposition": "new",
+      "canonical_url": "https://www.memoriachilena.gob.cl/602/w3-article-94928.html"
+    },
+    {
+      "candidate_id": "WCD10-B06-S213",
+      "publisher": "Biblioteca Nacional de Chile / Memoria Chilena",
+      "format": "institutional_work_page",
+      "language": "es",
+      "publication_year": "",
+      "notes": "Poemas对象页实读书籍结构及诗作写作时段；作品出版与诗作写作日期分开。 页面发表年未见实证字段，不用作品年/版次年代替。",
+      "reuse_existing_source": "",
+      "disposition": "new",
+      "canonical_url": "https://www.memoriachilena.gob.cl/602/w3-article-94931.html"
+    },
+    {
+      "candidate_id": "WCD10-B06-S214",
+      "publisher": "Biblioteca Nacional de Chile / Memoria Chilena",
+      "format": "institutional_work_page",
+      "language": "es",
+      "publication_year": "",
+      "notes": "La desesperanza对象页实读作者访谈和作品内容；1985为写作背景，不作为首版年。 页面发表年未见实证字段，不用作品年/版次年代替。",
+      "reuse_existing_source": "",
+      "disposition": "new",
+      "canonical_url": "https://www.memoriachilena.gob.cl/602/w3-article-94922.html"
+    },
+    {
+      "candidate_id": "WCD10-B06-S215",
+      "publisher": "Biblioteca Nacional de Chile / Memoria Chilena",
+      "format": "institutional_work_page",
+      "language": "es",
+      "publication_year": "",
+      "notes": "简介覆盖Donde van与Conjeturas；只用其直接描述的对象。对其他题名不拼接无关来源。 页面发表年未见实证字段，不用作品年/版次年代替。",
+      "reuse_existing_source": "",
+      "disposition": "new",
+      "canonical_url": "https://www.memoriachilena.gob.cl/602/w3-article-94920.html"
+    },
+    {
+      "candidate_id": "WCD10-B06-S216",
+      "publisher": "CyberHumanitatis / Universidad de Chile",
+      "format": "academic_article",
+      "language": "es",
+      "publication_year": "",
+      "notes": "文章署名Nadine Dejong（Université de Liège），网页托管/刊载于CyberHumanitatis / Universidad de Chile；A级基于文章对具体Donoso作品的直接研究，不以托管域名授级；网页可见内容未核到正式发表日期。",
+      "reuse_existing_source": "",
+      "disposition": "new",
+      "author": "Nadine Dejong (Université de Liège)",
+      "canonical_url": "https://web.uchile.cl/publicaciones/cyber/14/tx12ndejong.html"
+    },
+    {
+      "candidate_id": "WCD10-B06-S217",
+      "publisher": "Agencia Literaria Carmen Balcells",
+      "format": "publisher_work_page",
+      "language": "es",
+      "publication_year": "",
+      "notes": "出版经纪机构直接作品页，为Casa提供对象级叙事概述和可见栏头日期；该日期与1978第一版目录冲突，均保留。 网页自身发表日期/作品版次日期未见则留空，未以作品年替代。",
+      "reuse_existing_source": "",
+      "disposition": "new",
+      "canonical_url": "https://www.agenciabalcells.com/autores/obra/jose-donoso/casa-de-campo/"
+    },
+    {
+      "candidate_id": "WCD10-B06-S218",
+      "publisher": "Agencia Literaria Carmen Balcells",
+      "format": "publisher_work_page",
+      "language": "es",
+      "publication_year": "",
+      "notes": "出版经纪机构直接作品页，支持单一小说候选与对象摘要；标签/解释性语句不转换为主题关系。 网页自身发表日期/作品版次日期未见则留空，未以作品年替代。",
+      "reuse_existing_source": "",
+      "disposition": "new",
+      "canonical_url": "https://www.agenciabalcells.com/autores/obra/jose-donoso/la-misteriosa-desaparicion-de-la-marquesita-de-loria/"
+    },
+    {
+      "candidate_id": "WCD10-B06-S219",
+      "publisher": "Agencia Literaria Carmen Balcells",
+      "format": "publisher_work_page",
+      "language": "es",
+      "publication_year": "",
+      "notes": "出版经纪机构直接作品页；依Schema以collection表示一个汇集四部短篇幅小说的书卷，不据网站分类将其压成单篇小说。 网页自身发表日期/作品版次日期未见则留空，未以作品年替代。",
+      "reuse_existing_source": "",
+      "disposition": "new",
+      "canonical_url": "https://www.agenciabalcells.com/autores/obra/jose-donoso/cuatro-para-delfina/"
+    },
+    {
+      "candidate_id": "WCD10-B06-S220",
+      "publisher": "Agencia Literaria Carmen Balcells",
+      "format": "publisher_work_page",
+      "language": "es",
+      "publication_year": "",
+      "notes": "出版经纪机构直接对象页，支持该1990书卷收录两部小说的collection层级；不拆出子作品实体。 网页自身发表日期/作品版次日期未见则留空，未以作品年替代。",
+      "reuse_existing_source": "",
+      "disposition": "new",
+      "canonical_url": "https://www.agenciabalcells.com/autores/obra/jose-donoso/taratuta-naturaleza-muerta-con-cachimba/"
+    },
+    {
+      "candidate_id": "WCD10-B06-S221",
+      "publisher": "Agencia Literaria Carmen Balcells",
+      "format": "publisher_work_page",
+      "language": "es",
+      "publication_year": "",
+      "notes": "出版经纪机构直接作品页，为旧0190补人物/情节对象描述；评论性评价不抄入故事简介。 网页自身发表日期/作品版次日期未见则留空，未以作品年替代。",
+      "reuse_existing_source": "",
+      "disposition": "new",
+      "canonical_url": "https://www.agenciabalcells.com/autores/obra/jose-donoso/el-obsceno-pajaro-de-la-noche/"
+    },
+    {
+      "candidate_id": "WCD10-B06-S222",
+      "publisher": "Agencia Literaria Carmen Balcells",
+      "format": "publisher_work_page",
+      "language": "es",
+      "publication_year": "",
+      "notes": "出版经纪机构直接作品页，为旧0191补直接人物与情境描述；保留该页1965栏与旧1966及机构目录差异。 网页自身发表日期/作品版次日期未见则留空，未以作品年替代。",
+      "reuse_existing_source": "",
+      "disposition": "new",
+      "canonical_url": "https://www.agenciabalcells.com/autores/obra/jose-donoso/el-lugar-sin-limites/"
+    },
+    {
+      "candidate_id": "WCD10-B06-S223",
+      "publisher": "Agencia Literaria Carmen Balcells",
+      "format": "publisher_work_page",
+      "language": "es",
+      "publication_year": "",
+      "notes": "出版经纪机构直接作品页，为旧0192补人物/情节前提；1958日期保留为与旧1957不一致的机构栏头，不覆盖旧年。 网页自身发表日期/作品版次日期未见则留空，未以作品年替代。",
+      "reuse_existing_source": "",
+      "disposition": "new",
+      "canonical_url": "https://www.agenciabalcells.com/autores/obra/jose-donoso/coronacion/"
+    },
+    {
+      "candidate_id": "WCD10-B06-S224",
+      "publisher": "Agencia Literaria Carmen Balcells",
+      "format": "publisher_work_page",
+      "language": "es",
+      "publication_year": "",
+      "notes": "出版经纪机构直接作品页；修正R0误引S207（该source实际是Veraneo），并与教育部对象材料互核。 网页自身发表日期/作品版次日期未见则留空，未以作品年替代。",
+      "reuse_existing_source": "",
+      "disposition": "new",
+      "canonical_url": "https://www.agenciabalcells.com/autores/obra/jose-donoso/este-domingo/"
+    },
+    {
+      "candidate_id": "WCD10-B06-S225",
+      "publisher": "Agencia Literaria Carmen Balcells",
+      "format": "publisher_work_page",
+      "language": "es",
+      "publication_year": "",
+      "notes": "出版经纪机构直接作品页，为遗作对象提供作品层情节简介与书目日期。 网页自身发表日期/作品版次日期未见则留空，未以作品年替代。",
+      "reuse_existing_source": "",
+      "disposition": "new",
+      "canonical_url": "https://www.agenciabalcells.com/autores/obra/jose-donoso/el-mocho/"
+    },
+    {
+      "candidate_id": "WCD10-B06-S226",
+      "publisher": "Agencia Literaria Carmen Balcells",
+      "format": "publisher_work_page",
+      "language": "es",
+      "publication_year": "",
+      "notes": "出版经纪机构直接作品页，支持遗作候选、对象摘要及“开始写作”与出版年分层。 网页自身发表日期/作品版次日期未见则留空，未以作品年替代。",
+      "reuse_existing_source": "",
+      "disposition": "new",
+      "canonical_url": "https://www.agenciabalcells.com/autores/obra/jose-donoso/lagartija-sin-cola/"
+    },
+    {
+      "candidate_id": "WCD10-B06-S227",
+      "publisher": "Agencia Literaria Carmen Balcells",
+      "format": "publisher_work_page",
+      "language": "es",
+      "publication_year": "",
+      "notes": "直接作品页已实读但不足以区分与1966 Los mejores cuentos、1971 Seix Barral Cuentos、后续再版的作品/版本层级；只登记为gap证据，不建立新实体。 网页自身发表日期/作品版次日期未见则留空，未以作品年替代。",
+      "reuse_existing_source": "",
+      "disposition": "new",
+      "canonical_url": "https://www.agenciabalcells.com/autores/obra/jose-donoso/cuentos/"
+    },
+    {
+      "candidate_id": "WCD10-B06-S228",
+      "publisher": "Agencia Literaria Carmen Balcells",
+      "format": "publisher_work_page",
+      "language": "es",
+      "publication_year": "",
+      "notes": "出版经纪机构直接作品页，支持短篇集collection候选及对象内容。 网页自身发表日期/作品版次日期未见则留空，未以作品年替代。",
+      "reuse_existing_source": "",
+      "disposition": "new",
+      "canonical_url": "https://www.agenciabalcells.com/autores/obra/jose-donoso/charleston/"
+    },
+    {
+      "candidate_id": "WCD10-B06-S229",
+      "publisher": "Biblioteca Nacional de Chile / Memoria Chilena",
+      "format": "institutional_catalogue",
+      "language": "es",
+      "publication_year": "",
+      "notes": "国家图书馆直接书目/馆藏对象，支持1996书卷版本候选；不把该合辑等同于其此前各卷。 网页自身发表日期/作品版次日期未见则留空，未以作品年替代。",
+      "reuse_existing_source": "",
+      "disposition": "new",
+      "canonical_url": "https://www.memoriachilena.gob.cl/602/w3-article-73181.html"
+    },
+    {
+      "candidate_id": "WCD10-B06-S230",
+      "publisher": "Google Books / Alfaguara supplied metadata",
+      "format": "publisher_bibliographic_record",
+      "language": "es",
+      "publication_year": "",
+      "notes": "书目/出版描述直接表明合辑层级和内容；同页版次字段标reprint，与国家图书馆1a edición记录并列保留。 网页自身发表日期/作品版次日期未见则留空，未以作品年替代。",
+      "reuse_existing_source": "",
+      "disposition": "new",
+      "canonical_url": "https://books.google.com/books/about/Nueve_novelas_breves.html?hl=en&id=LQNfAAAAMAAJ"
+    },
+    {
+      "candidate_id": "WCD10-B06-S231",
+      "publisher": "Anales de Literatura Chilena",
+      "format": "scholarly_article_pdf",
+      "language": "es",
+      "publication_year": "2024",
+      "notes": "Anales de Literatura Chilena, Año 25, junio 2024, número 41, pp.253-276；署名Juan D. Cid Hidalgo，Universidad de Concepción。A级基于文章对Dos cuentos等直接对象的学术研究。",
+      "reuse_existing_source": "",
+      "disposition": "new",
+      "canonical_url": "https://revistanortegrande.uc.cl/index.php/alch/article/download/81310/61824/237132",
+      "author": "Juan D. Cid Hidalgo (Universidad de Concepción)"
+    },
+    {
+      "candidate_id": "WCD10-B06-S232",
+      "publisher": "Agencia Literaria Carmen Balcells",
+      "format": "publisher_work_page",
+      "language": "es",
+      "publication_year": "",
+      "notes": "出版经纪机构直接作品页，支持非虚构文章合集的集合层级、年代和内容概括。 网页自身发表日期/作品版次日期未见则留空，未以作品年替代。",
+      "reuse_existing_source": "",
+      "disposition": "new",
+      "canonical_url": "https://www.agenciabalcells.com/autores/obra/jose-donoso/articulos-de-incierta-necesidad/"
+    },
+    {
+      "candidate_id": "WCD10-B06-S233",
+      "publisher": "Ediciones UDP",
+      "format": "publisher_work_page",
+      "language": "es",
+      "publication_year": "",
+      "notes": "作者作品出版社页，支持新闻/纪事/采访集层级、2004出版及具体内容。 网页自身发表日期/作品版次日期未见则留空，未以作品年替代。",
+      "reuse_existing_source": "",
+      "disposition": "new",
+      "canonical_url": "https://ediciones.udp.cl/libro/el-escribidor-intruso/"
+    },
+    {
+      "candidate_id": "WCD10-B06-S234",
+      "publisher": "Biblioteca Nacional de Chile / Memoria Chilena",
+      "format": "institutional_bibliography",
+      "language": "es",
+      "publication_year": "",
+      "notes": "国家图书馆作者专题参考书目目录；精确保留目录层面的各作品与版本年，不据之推断作品间身份。 网页自身发表日期/作品版次日期未见则留空，未以作品年替代。",
+      "reuse_existing_source": "",
+      "disposition": "new",
+      "canonical_url": "https://www.memoriachilena.gob.cl/602/w3-propertyvalue-1179072.html"
+    },
+    {
+      "candidate_id": "WCD10-B06-S235",
+      "publisher": "Agencia Literaria Carmen Balcells",
+      "format": "publisher_work_page",
+      "language": "es",
+      "publication_year": "",
+      "notes": "出版经纪机构直接作品页，为W208提供对象级人物/情节简介；其评论性比喻不转换成关系。 网页发表日期未实证，不用作品年份替代。",
+      "reuse_existing_source": "",
+      "disposition": "new",
+      "canonical_url": "https://www.agenciabalcells.com/autores/obra/jose-donoso/donde-van-a-morir-los-elefantes/"
+    },
+    {
+      "candidate_id": "WCD10-B06-S236",
+      "publisher": "Agencia Literaria Carmen Balcells",
+      "format": "publisher_work_page",
+      "language": "es",
+      "publication_year": "",
+      "notes": "出版经纪机构直接作品页，为W205对象摘要提供直接梗概；A研究关系另由Dejong独立记录。 网页发表日期未实证，不用作品年份替代。",
+      "reuse_existing_source": "",
+      "disposition": "new",
+      "canonical_url": "https://www.agenciabalcells.com/autores/obra/jose-donoso/el-jardin-de-al-lado/"
+    }
+  ],
+  "author_registrations": {
+    "V1-ENT-0172": {
+      "accessed_at": "2026-10-07",
+      "verified_by": "GPT-6 Luna research worker; independent parent review required",
+      "source_year_policy": "Blank means source-page publication date NOT_VERIFIED. A work publication year, writing year, current edition launch, footer, or crawl date never substitutes.",
+      "public_content_scope": "metadata_and_summary",
+      "local_asset_status": "remote_only",
+      "copyright_boundary": "Only metadata, short quotations/locator fragments, and original concise paraphrases are retained. No copyright book/article full text, PDF, cover, or image is copied into this package.",
+      "canonical_reuse_audit": [
+        {
+          "canonical_url": "https://academia.org.br/academicos/jorge-amado/bibliografia",
+          "source_id": "SRC-0139",
+          "action": "reuse"
+        },
+        {
+          "canonical_url": "https://bndigital.bn.gov.br/artigos/literatura-jorge-amado-um-sem-fim-de-romances/",
+          "source_id": "SRC-0313",
+          "action": "reuse"
+        }
+      ],
+      "access_attempts": [
+        {
+          "url": "https://revistas.usp.br/eav/article/view/219635",
+          "result": "direct open succeeded and redirected to /en/; metadata page for the same article registered under S005, not a separate source",
+          "date": "2026-10-07"
+        },
+        {
+          "url": "https://www.companhiadasletras.com.br/9788535920987-gabriela-cravo-e-canela/p",
+          "result": "direct open returned Cache miss; publisher search result returned complete synopsis; earlier old product route opened successfully",
+          "date": "2026-10-07"
+        },
+        {
+          "url": "https://www.companhiadasletras.com.br/9788535911848-tocaia-grande-6498/p",
+          "result": "new canonical direct open Cache miss; old product route redirected to this current page and page text was successfully opened",
+          "date": "2026-10-07"
+        },
+        {
+          "url": "https://www.companhiadasletras.com.br/9788535912913-tieta-batista-cansada-de-guerra-4026/p",
+          "result": "direct open Cache miss",
+          "date": "2026-10-07"
+        },
+        {
+          "url": "https://www.companhiadasletras.com.br/9788535917185-sao-jorge-dos-ilheus-2112/p",
+          "result": "direct open Cache miss",
+          "date": "2026-10-07"
+        }
+      ]
+    },
+    "V1-ENT-0184": {
+      "accessed_at": "2026-10-07",
+      "verified_by": "GPT-6 Luna candidate worker; independent parent review required",
+      "source_year_policy": "Blank means webpage publication date NOT_VERIFIED. Book first edition and journal issue years are object/issue publication metadata and are recorded only in those fact fields; no copyright/footer/crawl/hosting date substitution.",
+      "public_content_scope": "metadata_and_brief_paraphrase_only",
+      "local_asset_status": "remote_only",
+      "copyright_boundary": "No book/article full text, PDF or images copied into package. Candidate summaries are original, short paraphrases; source quotations are limited to bibliographic work titles and brief terms."
+    },
+    "V1-ENT-0185": {
+      "accessed_at": "2026-10-07",
+      "verified_by": "GPT-6 Luna; parent independent review pending",
+      "source_year_policy": "Only explicitly displayed webpage publication dates may populate source publication_year. Book-edition dates are recorded as object facts and never substituted for web publication dates. Distinct edition, reprint, first-publication, writing-year and page-header dates remain separate.",
+      "public_content_scope": "metadata_and_brief_original_paraphrase",
+      "local_asset_status": "remote_only",
+      "copyright_boundary": "仅保存题名、书目字段及原创简短释义；没有下载或登记任何书籍/论文全文、扫描件、封面图或原文全文。网站/馆藏对象版权边界保留。",
+      "revision": "DONOSO-R1-RESEARCH-AND-SOURCE-REPAIR"
+    }
+  }
+}

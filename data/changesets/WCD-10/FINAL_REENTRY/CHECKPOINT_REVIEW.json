@@ -1,0 +1,19 @@
+{
+  "verdict": "PASS",
+  "task_id": "TASK-127",
+  "batch_id": "WCD-10-B05",
+  "checkpoint": "FINAL_REENTRY",
+  "reviewer": "Codex-parent-independent-review",
+  "reviewed_at": "2026-10-15",
+  "baseline_database_sha256": "559b1858b7b5e647b4b313f841be8d2960cf3a5eacf2a2dd92c6161668da706c",
+  "migration_name": "0057_wcd10_final_reentry.sql",
+  "migration_sha256": "798f243e820dc6ac0093642279ec751b94888acfef5cecc1d630a10783ab47f5",
+  "mapping_path": "data/changesets/WCD-10/FINAL_REENTRY/INTEGRATION_MAP.json",
+  "mapping_sha256": "0419d88b34984cdf299d903055188aeb2b67d2f009441009e9dcacee85dc1a06",
+  "review_scope": "Parent read exact15370byte SQL and mapping; actual disposable clone apply passed72checks, all19table old-row preservation, exact W03 three facts/card/source/Paz relation, distinct work gap plus unchanged0123, and separate controlled Amado participation/source/evidence closure. Authorize live0057 once then reviewed16step no-argument QA wrapper once.",
+  "sql_review_report_sha256": "9d3e7a50b210c4e6d847fc99104d9015c6491a6dd4f5bc5d4b84b3c77b09cc02",
+  "candidate_review_gate_sha256": "5e9ff08faa4ed395efbe32308889c06f882cf949ccac92ed619508a958ad3ed5",
+  "qa_wrapper_sha256": "8bb184bf8eb8e561005015bc30ab6e07902a2679d4264e69d6f9eddd8c5ffa44",
+  "controlled_append_attachment_sha256": "79381528e62ecb5f2d9eeadf26a896452067fcc99c0460e0330e667c8b4c7430",
+  "recorded_at_utc": "2026-10-15T01:48:41.078363+00:00"
+}

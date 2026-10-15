@@ -1,0 +1,3865 @@
+{
+  "schema": "wcd10-b06-normalized-evidence-matrix-1",
+  "task_id": "TASK-111",
+  "batch_id": "WCD-10-B06",
+  "policy": "One normalized entry per candidate fact. Candidate field/value/source_refs are copied exactly. source_evidence preserves each original author-matrix row, including separate-source rows, original fact IDs, locators, boundaries, and notes.",
+  "entries": [
+    {
+      "candidate_fact_id": "WCD10-B06-W001-F01",
+      "author_id": "V1-ENT-0172",
+      "subject_ref": "WCD10-B06-W001",
+      "field": "first_publication_year",
+      "value": "1935",
+      "source_refs": [
+        "WCD10-B06-S001",
+        "WCD10-B06-S003"
+      ],
+      "source_evidence": [
+        {
+          "candidate_fact_id": "W001-F01",
+          "subject_candidate_id": "WCD10-B06-W001",
+          "subject_id": "WCD10-B06-W001",
+          "field": "first_publication_year",
+          "value": "1935",
+          "source_refs": [
+            "WCD10-B06-S001",
+            "WCD10-B06-S003"
+          ],
+          "support_type": "direct_metadata_or_object_description",
+          "boundary": "ABL与国家图书馆书目显示其为作者早期重要长篇；当前Master无同名作品实体。出版机构对象页提供体裁和具体情节，可满足对象级释义。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B06-W001-F02",
+      "author_id": "V1-ENT-0172",
+      "subject_ref": "WCD10-B06-W001",
+      "field": "genre_or_form",
+      "value": "长篇小说",
+      "source_refs": [
+        "WCD10-B06-S003"
+      ],
+      "source_evidence": [
+        {
+          "candidate_fact_id": "W001-F02",
+          "subject_candidate_id": "WCD10-B06-W001",
+          "subject_id": "WCD10-B06-W001",
+          "field": "genre_or_form",
+          "value": "长篇小说",
+          "source_refs": [
+            "WCD10-B06-S003"
+          ],
+          "support_type": "direct_metadata_or_object_description",
+          "boundary": "ABL与国家图书馆书目显示其为作者早期重要长篇；当前Master无同名作品实体。出版机构对象页提供体裁和具体情节，可满足对象级释义。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B06-W001-F03",
+      "author_id": "V1-ENT-0172",
+      "subject_ref": "WCD10-B06-W001",
+      "field": "one_sentence_summary",
+      "value": "据出版社简介，作品以孤儿安东尼奥·巴尔杜伊诺为中心，追写他在萨尔瓦多街头、烟草种植园、巡回马戏团和码头之间经历的生活转折，直至参加罢工。",
+      "source_refs": [
+        "WCD10-B06-S003"
+      ],
+      "source_evidence": [
+        {
+          "candidate_fact_id": "W001-F03",
+          "subject_candidate_id": "WCD10-B06-W001",
+          "subject_id": "WCD10-B06-W001",
+          "field": "one_sentence_summary",
+          "value": "据出版社简介，作品以孤儿安东尼奥·巴尔杜伊诺为中心，追写他在萨尔瓦多街头、烟草种植园、巡回马戏团和码头之间经历的生活转折，直至参加罢工。",
+          "source_refs": [
+            "WCD10-B06-S003"
+          ],
+          "support_type": "direct_metadata_or_object_description",
+          "boundary": "ABL与国家图书馆书目显示其为作者早期重要长篇；当前Master无同名作品实体。出版机构对象页提供体裁和具体情节，可满足对象级释义。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B06-W002-F01",
+      "author_id": "V1-ENT-0172",
+      "subject_ref": "WCD10-B06-W002",
+      "field": "first_publication_year",
+      "value": "1969",
+      "source_refs": [
+        "WCD10-B06-S001",
+        "WCD10-B06-S005"
+      ],
+      "source_evidence": [
+        {
+          "candidate_fact_id": "W002-F01",
+          "subject_candidate_id": "WCD10-B06-W002",
+          "subject_id": "WCD10-B06-W002",
+          "field": "first_publication_year",
+          "value": "1969",
+          "source_refs": [
+            "WCD10-B06-S001",
+            "WCD10-B06-S005"
+          ],
+          "support_type": "direct_metadata_or_object_description",
+          "boundary": "ABL书目与直接研究论文支持1969出版年；出版社对象页支持小说体裁与情节，另有A层论文直接研究小说。当前Master无同名作品实体。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B06-W002-F02",
+      "author_id": "V1-ENT-0172",
+      "subject_ref": "WCD10-B06-W002",
+      "field": "genre_or_form",
+      "value": "长篇小说",
+      "source_refs": [
+        "WCD10-B06-S005"
+      ],
+      "source_evidence": [
+        {
+          "candidate_fact_id": "W002-F02",
+          "subject_candidate_id": "WCD10-B06-W002",
+          "subject_id": "WCD10-B06-W002",
+          "field": "genre_or_form",
+          "value": "长篇小说",
+          "source_refs": [
+            "WCD10-B06-S005"
+          ],
+          "support_type": "direct_metadata_or_object_description",
+          "boundary": "ABL书目与直接研究论文支持1969出版年；出版社对象页支持小说体裁与情节，另有A层论文直接研究小说。当前Master无同名作品实体。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B06-W002-F03",
+      "author_id": "V1-ENT-0172",
+      "subject_ref": "WCD10-B06-W002",
+      "field": "one_sentence_summary",
+      "value": "据出版社简介，小说以萨尔瓦多一间印刷铺及其周边为场景，围绕自学研究非裔文化并主张混血社会的Pedro Archanjo展开，并以两个时代交错回望其生平。",
+      "source_refs": [
+        "WCD10-B06-S004"
+      ],
+      "source_evidence": [
+        {
+          "candidate_fact_id": "W002-F03",
+          "subject_candidate_id": "WCD10-B06-W002",
+          "subject_id": "WCD10-B06-W002",
+          "field": "one_sentence_summary",
+          "value": "据出版社简介，小说以萨尔瓦多一间印刷铺及其周边为场景，围绕自学研究非裔文化并主张混血社会的Pedro Archanjo展开，并以两个时代交错回望其生平。",
+          "source_refs": [
+            "WCD10-B06-S004"
+          ],
+          "support_type": "direct_metadata_or_object_description",
+          "boundary": "ABL书目与直接研究论文支持1969出版年；出版社对象页支持小说体裁与情节，另有A层论文直接研究小说。当前Master无同名作品实体。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B06-W002-F04",
+      "author_id": "V1-ENT-0172",
+      "subject_ref": "WCD10-B06-W002",
+      "field": "research_note",
+      "value": "Soleni Biscouto Fressato的文章同时研究1969年小说与1977年电影；此处只转述其明确涉及小说的分析：小说将candomblé呈现为黑人与混血群体的身份、抵抗及争取正义的场域，并以两个叙事时段展开。不得移用电影独有的人物、改编或场景细节。",
+      "source_refs": [
+        "WCD10-B06-S005"
+      ],
+      "source_evidence": [
+        {
+          "candidate_fact_id": "W002-F04",
+          "subject_candidate_id": "WCD10-B06-W002",
+          "subject_id": "WCD10-B06-W002",
+          "field": "research_note",
+          "value": "Soleni Biscouto Fressato的文章同时研究1969年小说与1977年电影；此处只转述其明确涉及小说的分析：小说将candomblé呈现为黑人与混血群体的身份、抵抗及争取正义的场域，并以两个叙事时段展开。不得移用电影独有的人物、改编或场景细节。",
+          "source_refs": [
+            "WCD10-B06-S005"
+          ],
+          "support_type": "attributed_scholarly_interpretation",
+          "boundary": "研究释义保留署名与对象边界；需独立审核；不自动构成解释性关系。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B06-W003-F01",
+      "author_id": "V1-ENT-0172",
+      "subject_ref": "WCD10-B06-W003",
+      "field": "first_publication_year",
+      "value": "1933",
+      "source_refs": [
+        "WCD10-B06-S001",
+        "WCD10-B06-S010",
+        "WCD10-B06-S011"
+      ],
+      "source_evidence": [
+        {
+          "candidate_fact_id": "W003-F01",
+          "subject_candidate_id": "WCD10-B06-W003",
+          "subject_id": "WCD10-B06-W003",
+          "field": "first_publication_year",
+          "value": "1933",
+          "source_refs": [
+            "WCD10-B06-S001",
+            "WCD10-B06-S010",
+            "WCD10-B06-S011"
+          ],
+          "support_type": "direct_metadata_or_object_description",
+          "boundary": "ABL与两篇直接学术研究共同支持1933；出版社直接对象简介支持体裁措辞和具体释义。当前库无同名实体。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B06-W003-F02",
+      "author_id": "V1-ENT-0172",
+      "subject_ref": "WCD10-B06-W003",
+      "field": "genre_or_form",
+      "value": "小说（出版社称 pequeno romance；不据此细分篇幅类别）",
+      "source_refs": [
+        "WCD10-B06-S009"
+      ],
+      "source_evidence": [
+        {
+          "candidate_fact_id": "W003-F02",
+          "subject_candidate_id": "WCD10-B06-W003",
+          "subject_id": "WCD10-B06-W003",
+          "field": "genre_or_form",
+          "value": "小说（出版社称 pequeno romance；不据此细分篇幅类别）",
+          "source_refs": [
+            "WCD10-B06-S009"
+          ],
+          "support_type": "direct_metadata_or_object_description",
+          "boundary": "ABL与两篇直接学术研究共同支持1933；出版社直接对象简介支持体裁措辞和具体释义。当前库无同名实体。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B06-W003-F03",
+      "author_id": "V1-ENT-0172",
+      "subject_ref": "WCD10-B06-W003",
+      "field": "one_sentence_summary",
+      "value": "据出版社简介，小说由一名曾做过工厂工人的农场劳动者以第一人称叙述，写其在巴伊亚可可产区劳动并形成社会与政治意识的经历。",
+      "source_refs": [
+        "WCD10-B06-S009"
+      ],
+      "source_evidence": [
+        {
+          "candidate_fact_id": "W003-F03",
+          "subject_candidate_id": "WCD10-B06-W003",
+          "subject_id": "WCD10-B06-W003",
+          "field": "one_sentence_summary",
+          "value": "据出版社简介，小说由一名曾做过工厂工人的农场劳动者以第一人称叙述，写其在巴伊亚可可产区劳动并形成社会与政治意识的经历。",
+          "source_refs": [
+            "WCD10-B06-S009"
+          ],
+          "support_type": "direct_metadata_or_object_description",
+          "boundary": "ABL与两篇直接学术研究共同支持1933；出版社直接对象简介支持体裁措辞和具体释义。当前库无同名实体。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B06-W003-F04",
+      "author_id": "V1-ENT-0172",
+      "subject_ref": "WCD10-B06-W003",
+      "field": "research_note",
+      "value": "Matheus de Mesquita e Pontes将《Cacau》(1933)置于Amado早期“romances proletários”与阶级、地区、种族议题的出版脉络；Josiane Silva Calhau与Zulma Elizabete de Freitas Madruga则直接分析小说所写可可种植劳动者的实践知识及社会文化语境。以上为研究者归属明确的对象研究摘要，不把单一教学研究概括成作品唯一主题。",
+      "source_refs": [
+        "WCD10-B06-S010",
+        "WCD10-B06-S011"
+      ],
+      "source_evidence": [
+        {
+          "candidate_fact_id": "W003-F04",
+          "subject_candidate_id": "WCD10-B06-W003",
+          "subject_id": "WCD10-B06-W003",
+          "field": "research_note",
+          "value": "Matheus de Mesquita e Pontes将《Cacau》(1933)置于Amado早期“romances proletários”与阶级、地区、种族议题的出版脉络；Josiane Silva Calhau与Zulma Elizabete de Freitas Madruga则直接分析小说所写可可种植劳动者的实践知识及社会文化语境。以上为研究者归属明确的对象研究摘要，不把单一教学研究概括成作品唯一主题。",
+          "source_refs": [
+            "WCD10-B06-S010",
+            "WCD10-B06-S011"
+          ],
+          "support_type": "attributed_scholarly_interpretation",
+          "boundary": "研究释义保留署名与对象边界；需独立审核；不自动构成解释性关系。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B06-W004-F01",
+      "author_id": "V1-ENT-0172",
+      "subject_ref": "WCD10-B06-W004",
+      "field": "first_publication_year",
+      "value": "1931",
+      "source_refs": [
+        "WCD10-B06-S001",
+        "WCD10-B06-S014"
+      ],
+      "source_evidence": [
+        {
+          "candidate_fact_id": "W004-F01",
+          "subject_candidate_id": "WCD10-B06-W004",
+          "subject_id": "WCD10-B06-W004",
+          "field": "first_publication_year",
+          "value": "1931",
+          "source_refs": [
+            "WCD10-B06-S001",
+            "WCD10-B06-S014"
+          ],
+          "support_type": "direct_metadata_or_object_description",
+          "boundary": "ABL书目与出版社对象页共同支持1931；出版社页提供小说体裁和具体人物/叙事梗概。未发现主库同名对象。当前只有B级对象释义，明确保留A级独立对象研究缺口。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B06-W004-F02",
+      "author_id": "V1-ENT-0172",
+      "subject_ref": "WCD10-B06-W004",
+      "field": "genre_or_form",
+      "value": "长篇小说（romance）",
+      "source_refs": [
+        "WCD10-B06-S014"
+      ],
+      "source_evidence": [
+        {
+          "candidate_fact_id": "W004-F02",
+          "subject_candidate_id": "WCD10-B06-W004",
+          "subject_id": "WCD10-B06-W004",
+          "field": "genre_or_form",
+          "value": "长篇小说（romance）",
+          "source_refs": [
+            "WCD10-B06-S014"
+          ],
+          "support_type": "direct_metadata_or_object_description",
+          "boundary": "ABL书目与出版社对象页共同支持1931；出版社页提供小说体裁和具体人物/叙事梗概。未发现主库同名对象。当前只有B级对象释义，明确保留A级独立对象研究缺口。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B06-W004-F03",
+      "author_id": "V1-ENT-0172",
+      "subject_ref": "WCD10-B06-W004",
+      "field": "one_sentence_summary",
+      "value": "据出版社简介，青年农场主之子Paulo Rigger从巴黎返巴西后，先在里约、后在萨尔瓦多与诗人和记者交往，周围人物在爱情、金钱、政治、资产阶级生活与宗教中寻找人生意义。",
+      "source_refs": [
+        "WCD10-B06-S014"
+      ],
+      "source_evidence": [
+        {
+          "candidate_fact_id": "W004-F03",
+          "subject_candidate_id": "WCD10-B06-W004",
+          "subject_id": "WCD10-B06-W004",
+          "field": "one_sentence_summary",
+          "value": "据出版社简介，青年农场主之子Paulo Rigger从巴黎返巴西后，先在里约、后在萨尔瓦多与诗人和记者交往，周围人物在爱情、金钱、政治、资产阶级生活与宗教中寻找人生意义。",
+          "source_refs": [
+            "WCD10-B06-S014"
+          ],
+          "support_type": "direct_metadata_or_object_description",
+          "boundary": "ABL书目与出版社对象页共同支持1931；出版社页提供小说体裁和具体人物/叙事梗概。未发现主库同名对象。当前只有B级对象释义，明确保留A级独立对象研究缺口。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B06-W005-F01",
+      "author_id": "V1-ENT-0172",
+      "subject_ref": "WCD10-B06-W005",
+      "field": "first_publication_year",
+      "value": "1984",
+      "source_refs": [
+        "WCD10-B06-S001",
+        "WCD10-B06-S013"
+      ],
+      "source_evidence": [
+        {
+          "candidate_fact_id": "W005-F01",
+          "subject_candidate_id": "WCD10-B06-W005",
+          "subject_id": "WCD10-B06-W005",
+          "field": "first_publication_year",
+          "value": "1984",
+          "source_refs": [
+            "WCD10-B06-S001",
+            "WCD10-B06-S013"
+          ],
+          "support_type": "direct_metadata_or_object_description",
+          "boundary": "ABL书目与出版社对象页支持1984；BNDigital页面直接称其为romance，支持体裁字段，并另记与作品出版年的差异说法。出版社页面提供具体情节。未发现主库同名对象。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B06-W005-F02",
+      "author_id": "V1-ENT-0172",
+      "subject_ref": "WCD10-B06-W005",
+      "field": "genre_or_form",
+      "value": "长篇小说",
+      "source_refs": [
+        "WCD10-B06-S002"
+      ],
+      "source_evidence": [
+        {
+          "candidate_fact_id": "W005-F02",
+          "subject_candidate_id": "WCD10-B06-W005",
+          "subject_id": "WCD10-B06-W005",
+          "field": "genre_or_form",
+          "value": "长篇小说",
+          "source_refs": [
+            "WCD10-B06-S002"
+          ],
+          "support_type": "direct_metadata_or_object_description",
+          "boundary": "ABL书目与出版社对象页支持1984；BNDigital页面直接称其为romance，支持体裁字段，并另记与作品出版年的差异说法。出版社页面提供具体情节。未发现主库同名对象。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B06-W005-F03",
+      "author_id": "V1-ENT-0172",
+      "subject_ref": "WCD10-B06-W005",
+      "field": "one_sentence_summary",
+      "value": "据出版社简介，小说写20世纪初一处因暴力伏击与土地争夺而兴起的村镇；Natário da Fonseca取得并经营土地，商贩、妓女、赶骡人和前奴隶等陆续聚居，形成聚落。",
+      "source_refs": [
+        "WCD10-B06-S013"
+      ],
+      "source_evidence": [
+        {
+          "candidate_fact_id": "W005-F03",
+          "subject_candidate_id": "WCD10-B06-W005",
+          "subject_id": "WCD10-B06-W005",
+          "field": "one_sentence_summary",
+          "value": "据出版社简介，小说写20世纪初一处因暴力伏击与土地争夺而兴起的村镇；Natário da Fonseca取得并经营土地，商贩、妓女、赶骡人和前奴隶等陆续聚居，形成聚落。",
+          "source_refs": [
+            "WCD10-B06-S013"
+          ],
+          "support_type": "direct_metadata_or_object_description",
+          "boundary": "ABL书目与出版社对象页支持1984；BNDigital页面直接称其为romance，支持体裁字段，并另记与作品出版年的差异说法。出版社页面提供具体情节。未发现主库同名对象。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B06-W005-F04",
+      "author_id": "V1-ENT-0172",
+      "subject_ref": "WCD10-B06-W005",
+      "field": "bibliographic_note",
+      "value": "ABL书目列Tocaia Grande（1984），Companhia das Letras对象页直接写Publicado em 1984；BNDigital署名文章第54行则以将来式称作品将于1988出版。该差异保留作来源冲突记录，当前不推断其原因。",
+      "source_refs": [
+        "WCD10-B06-S001",
+        "WCD10-B06-S002",
+        "WCD10-B06-S013"
+      ],
+      "source_evidence": [
+        {
+          "candidate_fact_id": "W005-F04",
+          "subject_candidate_id": "WCD10-B06-W005",
+          "subject_id": "WCD10-B06-W005",
+          "field": "bibliographic_note",
+          "value": "ABL书目列Tocaia Grande（1984），Companhia das Letras对象页直接写Publicado em 1984；BNDigital署名文章第54行则以将来式称作品将于1988出版。该差异保留作来源冲突记录，当前不推断其原因。",
+          "source_refs": [
+            "WCD10-B06-S001",
+            "WCD10-B06-S002",
+            "WCD10-B06-S013"
+          ],
+          "support_type": "direct_metadata_or_object_description",
+          "boundary": "ABL书目与出版社对象页支持1984；BNDigital页面直接称其为romance，支持体裁字段，并另记与作品出版年的差异说法。出版社页面提供具体情节。未发现主库同名对象。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B06-F001",
+      "author_id": "V1-ENT-0172",
+      "subject_ref": "V1-ENT-0179",
+      "field": "genre_or_form",
+      "value": "长篇小说",
+      "source_refs": [
+        "WCD10-B06-S007"
+      ],
+      "source_evidence": [
+        {
+          "candidate_fact_id": "WCD10-B06-F001",
+          "subject_id": "V1-ENT-0179",
+          "field": "genre_or_form",
+          "value": "长篇小说",
+          "source_refs": [
+            "WCD10-B06-S007"
+          ],
+          "support_type": "fresh_object_page_read",
+          "boundary": "出版机构将该作品明确称为romance（长篇小说）；新增体裁补足既有genre_missing。保留首版旧事实V1-FCT-0388=1966及旧书目说明V1-FCT-0389，不重复写入年份。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B06-F002",
+      "author_id": "V1-ENT-0172",
+      "subject_ref": "V1-ENT-0179",
+      "field": "one_sentence_summary",
+      "value": "据出版社简介，Flor在Vadinho去世后与药剂师Teodoro再婚；第一任丈夫以鬼魂形态回返，使她重新面对激情与安稳并存的可能。",
+      "source_refs": [
+        "WCD10-B06-S007"
+      ],
+      "source_evidence": [
+        {
+          "candidate_fact_id": "WCD10-B06-F002",
+          "subject_id": "V1-ENT-0179",
+          "field": "one_sentence_summary",
+          "value": "据出版社简介，Flor在Vadinho去世后与药剂师Teodoro再婚；第一任丈夫以鬼魂形态回返，使她重新面对激情与安稳并存的可能。",
+          "source_refs": [
+            "WCD10-B06-S007"
+          ],
+          "support_type": "fresh_object_page_read",
+          "boundary": "出版社当前简介支持双重婚姻与Vadinho回返情节；删去该页未支持的“烹饪教师”。不重复首版年，不据简介建立主题或地点关系。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B06-F003",
+      "author_id": "V1-ENT-0172",
+      "subject_ref": "V1-ENT-0180",
+      "field": "genre_or_form",
+      "value": "长篇小说",
+      "source_refs": [
+        "WCD10-B06-S008"
+      ],
+      "source_evidence": [
+        {
+          "candidate_fact_id": "WCD10-B06-F003",
+          "subject_id": "V1-ENT-0180",
+          "field": "genre_or_form",
+          "value": "长篇小说",
+          "source_refs": [
+            "WCD10-B06-S008"
+          ],
+          "support_type": "fresh_object_page_read",
+          "boundary": "出版机构明确称其为romance；新增体裁补足既有genre_missing。保留首版旧事实V1-FCT-0391=1958与旧书目说明V1-FCT-0392。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B06-F004",
+      "author_id": "V1-ENT-0172",
+      "subject_ref": "V1-ENT-0180",
+      "field": "one_sentence_summary",
+      "value": "据出版社简介，小说以20世纪20年代伊列乌斯的可可经济扩张为背景，写叙利亚裔纳西布与加布里埃拉的爱情，以及当地现代化与女性通奸惩罚法律之间的冲突。",
+      "source_refs": [
+        "WCD10-B06-S008"
+      ],
+      "source_evidence": [
+        {
+          "candidate_fact_id": "WCD10-B06-F004",
+          "subject_id": "V1-ENT-0180",
+          "field": "one_sentence_summary",
+          "value": "据出版社简介，小说以20世纪20年代伊列乌斯的可可经济扩张为背景，写叙利亚裔纳西布与加布里埃拉的爱情，以及当地现代化与女性通奸惩罚法律之间的冲突。",
+          "source_refs": [
+            "WCD10-B06-S008"
+          ],
+          "support_type": "fresh_object_page_read",
+          "boundary": "仅对出版社对象简介释义；已有库无故事地点SET_IN端点，不在本候选创建关系。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B06-F005",
+      "author_id": "V1-ENT-0172",
+      "subject_ref": "V1-ENT-0181",
+      "field": "genre_or_form",
+      "value": "长篇小说",
+      "source_refs": [
+        "WCD10-B06-S006"
+      ],
+      "source_evidence": [
+        {
+          "candidate_fact_id": "WCD10-B06-F005",
+          "subject_id": "V1-ENT-0181",
+          "field": "genre_or_form",
+          "value": "长篇小说",
+          "source_refs": [
+            "WCD10-B06-S006"
+          ],
+          "support_type": "fresh_object_page_read",
+          "boundary": "出版机构将其称为romance de formação；基线旧事实未记录体裁。保留V1-FCT-0394=1937，且SRC-0140原有版本书目证据链不变。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B06-F006",
+      "author_id": "V1-ENT-0172",
+      "subject_ref": "V1-ENT-0181",
+      "field": "one_sentence_summary",
+      "value": "据出版社简介，作品写一群住在萨尔瓦多废弃码头仓库的贫困少年，他们在社会边缘生活；叙事借Pedro Bala、Pirulito、Sem-Pernas等人物展现各自处境与愿望。",
+      "source_refs": [
+        "WCD10-B06-S006"
+      ],
+      "source_evidence": [
+        {
+          "candidate_fact_id": "WCD10-B06-F006",
+          "subject_id": "V1-ENT-0181",
+          "field": "one_sentence_summary",
+          "value": "据出版社简介，作品写一群住在萨尔瓦多废弃码头仓库的贫困少年，他们在社会边缘生活；叙事借Pedro Bala、Pirulito、Sem-Pernas等人物展现各自处境与愿望。",
+          "source_refs": [
+            "WCD10-B06-S006"
+          ],
+          "support_type": "fresh_object_page_read",
+          "boundary": "仅对出版机构对象介绍释义；不将情节地点自动升为新SET_IN关系，现有CREATED关系V1-REL-0111原样保留。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B06-W101-F01",
+      "author_id": "V1-ENT-0184",
+      "subject_ref": "WCD10-B06-W101",
+      "field": "first_publication_year",
+      "value": "1939",
+      "source_refs": [
+        "WCD10-B06-S101"
+      ],
+      "source_evidence": [
+        {
+          "candidate_id": "WCD10-B06-W101-F01",
+          "object_ref": "WCD10-B06-W101",
+          "field": "first_publication_year",
+          "value": "1939",
+          "source_refs": [
+            "WCD10-B06-S101"
+          ],
+          "locators": [
+            "作品目录开头声明仅列叙事作品书籍首版；Novelas y novelas cortas 第1、4、5、8、10条，分别 El pozo (1939)、La vida breve (1950)、Los adioses (1954)、El astillero (1961)、Juntacadáveres (1964)；章节列作品类型范围及出版社/地点；同一首版书目在后续 Novelas y novelas cortas 条目列 Dejemos hablar al viento（1979）。"
+          ],
+          "note": "Field-specific locator checked; wording is limited to cited evidence."
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B06-W101-F02",
+      "author_id": "V1-ENT-0184",
+      "subject_ref": "WCD10-B06-W101",
+      "field": "genre_or_form",
+      "value": "中篇小说（novela corta）",
+      "source_refs": [
+        "WCD10-B06-S101",
+        "WCD10-B06-S104"
+      ],
+      "source_evidence": [
+        {
+          "candidate_id": "WCD10-B06-W101-F02",
+          "object_ref": "WCD10-B06-W101",
+          "field": "genre_or_form",
+          "value": "中篇小说（novela corta）",
+          "source_refs": [
+            "WCD10-B06-S101"
+          ],
+          "locators": [
+            "作品目录开头声明仅列叙事作品书籍首版；Novelas y novelas cortas 第1、4、5、8、10条，分别 El pozo (1939)、La vida breve (1950)、Los adioses (1954)、El astillero (1961)、Juntacadáveres (1964)；章节列作品类型范围及出版社/地点；同一首版书目在后续 Novelas y novelas cortas 条目列 Dejemos hablar al viento（1979）。"
+          ],
+          "note": "Field-specific locator checked; wording is limited to cited evidence."
+        },
+        {
+          "candidate_id": "WCD10-B06-W101-F02",
+          "object_ref": "WCD10-B06-W101",
+          "field": "genre_or_form",
+          "value": "中篇小说（novela corta）",
+          "source_refs": [
+            "WCD10-B06-S104"
+          ],
+          "locators": [
+            "PDF首页题名/作者/Universidad Nacional Autónoma de México署名；PDF P0（PDF第1页）L12–18说明Novelas cortas completas收录El pozo、Los adioses等并指出若干作品在不同版本中的分类变化；PDF P2（PDF第3页）L97–100称Linacero为El pozo主角并引其叙述目标；全文6页已实际打开阅读。页码为PDF页序，不是期刊印刷页码。"
+          ],
+          "note": "Field-specific locator checked; wording is limited to cited evidence."
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B06-W101-F03",
+      "author_id": "V1-ENT-0184",
+      "subject_ref": "WCD10-B06-W101",
+      "field": "one_sentence_summary",
+      "value": "Linacero在独处中借回忆、梦境与想象组织自己的内在故事，以此应对现实处境带来的倦怠。",
+      "source_refs": [
+        "WCD10-B06-S103",
+        "WCD10-B06-S104"
+      ],
+      "source_evidence": [
+        {
+          "candidate_id": "WCD10-B06-W101-F03",
+          "object_ref": "WCD10-B06-W101",
+          "field": "one_sentence_summary",
+          "value": "Linacero在独处中借回忆、梦境与想象组织自己的内在故事，以此应对现实处境带来的倦怠。",
+          "source_refs": [
+            "WCD10-B06-S103"
+          ],
+          "locators": [
+            "标题署名 Eduardo Becerra；正文《La vida breve》段（Brausen、Queca、Arce、电影脚本与Santa María）；《El pozo》段（孤独者以梦、回忆、想象纾解倦怠）；《Los adioses》段（退役篮球运动员及两名女性、叙述者猜测）；Larsen段明确列 Juntacadáveres 与 El astillero"
+          ],
+          "note": "只称Linacero，不扩写来源未直接证实的名字“Eladio”；概述限于Becerra作品段及Ocampo论文相关段。"
+        },
+        {
+          "candidate_id": "WCD10-B06-W101-F03",
+          "object_ref": "WCD10-B06-W101",
+          "field": "one_sentence_summary",
+          "value": "Linacero在独处中借回忆、梦境与想象组织自己的内在故事，以此应对现实处境带来的倦怠。",
+          "source_refs": [
+            "WCD10-B06-S104"
+          ],
+          "locators": [
+            "PDF首页题名/作者/Universidad Nacional Autónoma de México署名；PDF P0（PDF第1页）L12–18说明Novelas cortas completas收录El pozo、Los adioses等并指出若干作品在不同版本中的分类变化；PDF P2（PDF第3页）L97–100称Linacero为El pozo主角并引其叙述目标；全文6页已实际打开阅读。页码为PDF页序，不是期刊印刷页码。"
+          ],
+          "note": "只称Linacero，不扩写来源未直接证实的名字“Eladio”；概述限于Becerra作品段及Ocampo论文相关段。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B06-W102-F01",
+      "author_id": "V1-ENT-0184",
+      "subject_ref": "WCD10-B06-W102",
+      "field": "first_publication_year",
+      "value": "1964",
+      "source_refs": [
+        "WCD10-B06-S101",
+        "WCD10-B06-S106"
+      ],
+      "source_evidence": [
+        {
+          "candidate_id": "WCD10-B06-W102-F01",
+          "object_ref": "WCD10-B06-W102",
+          "field": "first_publication_year",
+          "value": "1964",
+          "source_refs": [
+            "WCD10-B06-S101"
+          ],
+          "locators": [
+            "作品目录开头声明仅列叙事作品书籍首版；Novelas y novelas cortas 第1、4、5、8、10条，分别 El pozo (1939)、La vida breve (1950)、Los adioses (1954)、El astillero (1961)、Juntacadáveres (1964)；章节列作品类型范围及出版社/地点；同一首版书目在后续 Novelas y novelas cortas 条目列 Dejemos hablar al viento（1979）。"
+          ],
+          "note": "Field-specific locator checked; wording is limited to cited evidence."
+        },
+        {
+          "candidate_id": "WCD10-B06-W102-F01",
+          "object_ref": "WCD10-B06-W102",
+          "field": "first_publication_year",
+          "value": "1964",
+          "source_refs": [
+            "WCD10-B06-S106"
+          ],
+          "locators": [
+            "期刊原刊canonical页：Vol. 56 (2000): Abril，标题、作者及Pontificia Universidad Católica de Chile署名；摘要（西语）关于空间与人物功能“igualándose así”。全文PDF实际打开并读20页，直接下载端点：https://revistaliteratura.uchile.cl/index.php/RCL/article/download/39198/40826/135606；PDF第0页第4—15行，开篇列Larsen携三名妓女抵达、获准设妓院、后全组因妓院依法关闭离开；同页第16—21行及全文后文为学术分析。平台引文显示2016，但卷期首页与PDF页脚均为2000。"
+          ],
+          "note": "Field-specific locator checked; wording is limited to cited evidence."
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B06-W102-F02",
+      "author_id": "V1-ENT-0184",
+      "subject_ref": "WCD10-B06-W102",
+      "field": "genre_or_form",
+      "value": "小说",
+      "source_refs": [
+        "WCD10-B06-S101",
+        "WCD10-B06-S106"
+      ],
+      "source_evidence": [
+        {
+          "candidate_id": "WCD10-B06-W102-F02",
+          "object_ref": "WCD10-B06-W102",
+          "field": "genre_or_form",
+          "value": "小说",
+          "source_refs": [
+            "WCD10-B06-S101"
+          ],
+          "locators": [
+            "作品目录开头声明仅列叙事作品书籍首版；Novelas y novelas cortas 第1、4、5、8、10条，分别 El pozo (1939)、La vida breve (1950)、Los adioses (1954)、El astillero (1961)、Juntacadáveres (1964)；章节列作品类型范围及出版社/地点；同一首版书目在后续 Novelas y novelas cortas 条目列 Dejemos hablar al viento（1979）。"
+          ],
+          "note": "Field-specific locator checked; wording is limited to cited evidence."
+        },
+        {
+          "candidate_id": "WCD10-B06-W102-F02",
+          "object_ref": "WCD10-B06-W102",
+          "field": "genre_or_form",
+          "value": "小说",
+          "source_refs": [
+            "WCD10-B06-S106"
+          ],
+          "locators": [
+            "期刊原刊canonical页：Vol. 56 (2000): Abril，标题、作者及Pontificia Universidad Católica de Chile署名；摘要（西语）关于空间与人物功能“igualándose así”。全文PDF实际打开并读20页，直接下载端点：https://revistaliteratura.uchile.cl/index.php/RCL/article/download/39198/40826/135606；PDF第0页第4—15行，开篇列Larsen携三名妓女抵达、获准设妓院、后全组因妓院依法关闭离开；同页第16—21行及全文后文为学术分析。平台引文显示2016，但卷期首页与PDF页脚均为2000。"
+          ],
+          "note": "Field-specific locator checked; wording is limited to cited evidence."
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B06-W102-F03",
+      "author_id": "V1-ENT-0184",
+      "subject_ref": "WCD10-B06-W102",
+      "field": "one_sentence_summary",
+      "value": "拉森带着三名妓女乘火车抵达圣玛丽亚，获准在那里开设妓院；妓院依法关闭后，他与同伴离开。",
+      "source_refs": [
+        "WCD10-B06-S106"
+      ],
+      "source_evidence": [
+        {
+          "candidate_id": "WCD10-B06-W102-F03",
+          "object_ref": "WCD10-B06-W102",
+          "field": "one_sentence_summary",
+          "value": "拉森带着三名妓女乘火车抵达圣玛丽亚，获准在那里开设妓院；妓院依法关闭后，他与同伴离开。",
+          "source_refs": [
+            "WCD10-B06-S106"
+          ],
+          "locators": [
+            "期刊原刊canonical页：Vol. 56 (2000): Abril，标题、作者及Pontificia Universidad Católica de Chile署名；摘要（西语）关于空间与人物功能“igualándose así”。全文PDF实际打开并读20页，直接下载端点：https://revistaliteratura.uchile.cl/index.php/RCL/article/download/39198/40826/135606；PDF第0页第4—15行，开篇列Larsen携三名妓女抵达、获准设妓院、后全组因妓院依法关闭离开；同页第16—21行及全文后文为学术分析。平台引文显示2016，但卷期首页与PDF页脚均为2000。"
+          ],
+          "note": "只作直接情节前提，依据Cánovas论文PDF第0页；圣玛丽亚作为虚构空间，不转换为现实地理坐标或SET_IN关系。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B06-W102-F04",
+      "author_id": "V1-ENT-0184",
+      "subject_ref": "WCD10-B06-W102",
+      "field": "research_note",
+      "value": "Rodrigo Cánovas认为，小说把空间安排与人物功能组织成万花筒式结构，使看似对立的地点和人物彼此等同或映照。",
+      "source_refs": [
+        "WCD10-B06-S106"
+      ],
+      "source_evidence": [
+        {
+          "candidate_id": "WCD10-B06-W102-F04",
+          "object_ref": "WCD10-B06-W102",
+          "field": "research_note",
+          "value": "Rodrigo Cánovas认为，小说把空间安排与人物功能组织成万花筒式结构，使看似对立的地点和人物彼此等同或映照。",
+          "source_refs": [
+            "WCD10-B06-S106"
+          ],
+          "locators": [
+            "期刊原刊canonical页：Vol. 56 (2000): Abril，标题、作者及Pontificia Universidad Católica de Chile署名；摘要（西语）关于空间与人物功能“igualándose así”。全文PDF实际打开并读20页，直接下载端点：https://revistaliteratura.uchile.cl/index.php/RCL/article/download/39198/40826/135606；PDF第0页第4—15行，开篇列Larsen携三名妓女抵达、获准设妓院、后全组因妓院依法关闭离开；同页第16—21行及全文后文为学术分析。平台引文显示2016，但卷期首页与PDF页脚均为2000。"
+          ],
+          "note": "署名研究释义，仅归属于Cánovas；不作为中性情节事实或主题三元组。全文已读。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B06-W103-F01",
+      "author_id": "V1-ENT-0184",
+      "subject_ref": "WCD10-B06-W103",
+      "field": "first_publication_year",
+      "value": "1979",
+      "source_refs": [
+        "WCD10-B06-S101"
+      ],
+      "source_evidence": [
+        {
+          "candidate_id": "WCD10-B06-W103-F01",
+          "object_ref": "WCD10-B06-W103",
+          "field": "first_publication_year",
+          "value": "1979",
+          "source_refs": [
+            "WCD10-B06-S101"
+          ],
+          "locators": [
+            "作品目录开头声明仅列叙事作品书籍首版；Novelas y novelas cortas 第1、4、5、8、10条，分别 El pozo (1939)、La vida breve (1950)、Los adioses (1954)、El astillero (1961)、Juntacadáveres (1964)；章节列作品类型范围及出版社/地点；同一首版书目在后续 Novelas y novelas cortas 条目列 Dejemos hablar al viento（1979）。"
+          ],
+          "note": "CVC书目说明按叙事书籍首版列举；该年指书籍首版，不是写作年、连载年、引用版或网页年。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B06-W103-F02",
+      "author_id": "V1-ENT-0184",
+      "subject_ref": "WCD10-B06-W103",
+      "field": "genre_or_form",
+      "value": "小说",
+      "source_refs": [
+        "WCD10-B06-S109"
+      ],
+      "source_evidence": [
+        {
+          "candidate_id": "WCD10-B06-W103-F02",
+          "object_ref": "WCD10-B06-W103",
+          "field": "genre_or_form",
+          "value": "小说",
+          "source_refs": [
+            "WCD10-B06-S109"
+          ],
+          "locators": [
+            "AIH论文完整8页PDF已读；首页署名Hugo J. Verani、University of California, Davis；PDF第0页第3—13行直接讨论Dejemos及其1979年/小说身份、Santa María系列收束及重写结构；PDF第5—6页第204—245行讨论Medina返Santa María及焚城结尾；PDF第7页书目列1979 Bruguera版。"
+          ],
+          "note": "Verani在论文首页直接称其为novela。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B06-W103-F03",
+      "author_id": "V1-ENT-0184",
+      "subject_ref": "WCD10-B06-W103",
+      "field": "one_sentence_summary",
+      "value": "警长Medina返回Santa María，试图与可能是其儿子的Julián重建关系并使他脱离Frieda的影响；结尾由Colorado在Medina、Díaz Grey等人的配合下纵火，Santa María陷入火焰。",
+      "source_refs": [
+        "WCD10-B06-S109",
+        "WCD10-B06-S110"
+      ],
+      "source_evidence": [
+        {
+          "candidate_id": "WCD10-B06-W103-F03",
+          "object_ref": "WCD10-B06-W103",
+          "field": "one_sentence_summary",
+          "value": "警长Medina返回Santa María，试图与可能是其儿子的Julián重建关系并使他脱离Frieda的影响；结尾由Colorado在Medina、Díaz Grey等人的配合下纵火，Santa María陷入火焰。",
+          "source_refs": [
+            "WCD10-B06-S109"
+          ],
+          "locators": [
+            "AIH论文完整8页PDF已读；首页署名Hugo J. Verani、University of California, Davis；PDF第0页第3—13行直接讨论Dejemos及其1979年/小说身份、Santa María系列收束及重写结构；PDF第5—6页第204—245行讨论Medina返Santa María及焚城结尾；PDF第7页书目列1979 Bruguera版。"
+          ],
+          "note": "短篇情节释义据Verani PDF第5—6页和Fernández网页首段；Santa María为虚构空间，不建立真实地点关系或坐标。"
+        },
+        {
+          "candidate_id": "WCD10-B06-W103-F03",
+          "object_ref": "WCD10-B06-W103",
+          "field": "one_sentence_summary",
+          "value": "警长Medina返回Santa María，试图与可能是其儿子的Julián重建关系并使他脱离Frieda的影响；结尾由Colorado在Medina、Díaz Grey等人的配合下纵火，Santa María陷入火焰。",
+          "source_refs": [
+            "WCD10-B06-S110"
+          ],
+          "locators": [
+            "网页标题署名Teodosio Fernández；正文首段直接点名Dejemos hablar al viento (1979)、Santa María、comisario Medina与Colorado及毁城；页末作者说明其为Universidad Autónoma de Madrid西语美洲文学教授。"
+          ],
+          "note": "短篇情节释义据Verani PDF第5—6页和Fernández网页首段；Santa María为虚构空间，不建立真实地点关系或坐标。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B06-W103-F04",
+      "author_id": "V1-ENT-0184",
+      "subject_ref": "WCD10-B06-W103",
+      "field": "research_note",
+      "value": "Hugo J. Verani将《Dejemos hablar al viento》视为Santa María系列的收束，并指出作品吸收、改写奥内蒂先前叙事，形成互文结构。",
+      "source_refs": [
+        "WCD10-B06-S109"
+      ],
+      "source_evidence": [
+        {
+          "candidate_id": "WCD10-B06-W103-F04",
+          "object_ref": "WCD10-B06-W103",
+          "field": "research_note",
+          "value": "Hugo J. Verani将《Dejemos hablar al viento》视为Santa María系列的收束，并指出作品吸收、改写奥内蒂先前叙事，形成互文结构。",
+          "source_refs": [
+            "WCD10-B06-S109"
+          ],
+          "locators": [
+            "AIH论文完整8页PDF已读；首页署名Hugo J. Verani、University of California, Davis；PDF第0页第3—13行直接讨论Dejemos及其1979年/小说身份、Santa María系列收束及重写结构；PDF第5—6页第204—245行讨论Medina返Santa María及焚城结尾；PDF第7页书目列1979 Bruguera版。"
+          ],
+          "note": "署名学术释义；完整8页PDF已读，概括限于PDF第0页第3—13行及相关后文。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B06-F101",
+      "author_id": "V1-ENT-0184",
+      "subject_ref": "V1-ENT-0187",
+      "field": "genre_or_form",
+      "value": "小说",
+      "source_refs": [
+        "WCD10-B06-S101",
+        "WCD10-B06-S108"
+      ],
+      "source_evidence": [
+        {
+          "candidate_id": "WCD10-B06-F101",
+          "object_ref": "V1-ENT-0187",
+          "field": "genre_or_form",
+          "value": "小说",
+          "source_refs": [
+            "WCD10-B06-S101"
+          ],
+          "locators": [
+            "作品目录开头声明仅列叙事作品书籍首版；Novelas y novelas cortas 第1、4、5、8、10条，分别 El pozo (1939)、La vida breve (1950)、Los adioses (1954)、El astillero (1961)、Juntacadáveres (1964)；章节列作品类型范围及出版社/地点；同一首版书目在后续 Novelas y novelas cortas 条目列 Dejemos hablar al viento（1979）。"
+          ],
+          "note": "该作品卡已有“小说”标签，但无同字段事实行；本项仅候选补结构化类型，不重复既有first_publication_year=1950、bibliographic_note或改动任何旧事实。"
+        },
+        {
+          "candidate_id": "WCD10-B06-F101",
+          "object_ref": "V1-ENT-0187",
+          "field": "genre_or_form",
+          "value": "小说",
+          "source_refs": [
+            "WCD10-B06-S108"
+          ],
+          "locators": [
+            "全文8页PDF已读；首页题名及1950年小说定位；PDF末页P7签名为JAMES E. IRBY；PDF P1–P2介绍Brausen、Gertrudis、Queca、Arce及其编写Díaz Grey/Santa María电影故事的双层情节。"
+          ],
+          "note": "该作品卡已有“小说”标签，但无同字段事实行；本项仅候选补结构化类型，不重复既有first_publication_year=1950、bibliographic_note或改动任何旧事实。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B06-F102",
+      "author_id": "V1-ENT-0184",
+      "subject_ref": "V1-ENT-0187",
+      "field": "one_sentence_summary",
+      "value": "广告职员胡安·玛丽亚·布劳森在婚姻破裂之际听见邻居克卡的生活声响，一面以阿尔塞的身份试图进入她的生活，一面为电影脚本构想出圣玛丽亚及医生迪亚斯·格雷。",
+      "source_refs": [
+        "WCD10-B06-S103",
+        "WCD10-B06-S108"
+      ],
+      "source_evidence": [
+        {
+          "candidate_id": "WCD10-B06-F102",
+          "object_ref": "V1-ENT-0187",
+          "field": "one_sentence_summary",
+          "value": "广告职员胡安·玛丽亚·布劳森在婚姻破裂之际听见邻居克卡的生活声响，一面以阿尔塞的身份试图进入她的生活，一面为电影脚本构想出圣玛丽亚及医生迪亚斯·格雷。",
+          "source_refs": [
+            "WCD10-B06-S103"
+          ],
+          "locators": [
+            "标题署名 Eduardo Becerra；正文《La vida breve》段（Brausen、Queca、Arce、电影脚本与Santa María）；《El pozo》段（孤独者以梦、回忆、想象纾解倦怠）；《Los adioses》段（退役篮球运动员及两名女性、叙述者猜测）；Larsen段明确列 Juntacadáveres 与 El astillero"
+          ],
+          "note": "新写的对象级简要释义；限于Eduardo Becerra作品段和James E. Irby直接研究对《La vida breve》双层情节的说明。Santa María为虚构空间，不据此生成SET_IN现实地点关系；保留V1-HOLD-0051。"
+        },
+        {
+          "candidate_id": "WCD10-B06-F102",
+          "object_ref": "V1-ENT-0187",
+          "field": "one_sentence_summary",
+          "value": "广告职员胡安·玛丽亚·布劳森在婚姻破裂之际听见邻居克卡的生活声响，一面以阿尔塞的身份试图进入她的生活，一面为电影脚本构想出圣玛丽亚及医生迪亚斯·格雷。",
+          "source_refs": [
+            "WCD10-B06-S108"
+          ],
+          "locators": [
+            "全文8页PDF已读；首页题名及1950年小说定位；PDF末页P7签名为JAMES E. IRBY；PDF P1–P2介绍Brausen、Gertrudis、Queca、Arce及其编写Díaz Grey/Santa María电影故事的双层情节。"
+          ],
+          "note": "新写的对象级简要释义；限于Eduardo Becerra作品段和James E. Irby直接研究对《La vida breve》双层情节的说明。Santa María为虚构空间，不据此生成SET_IN现实地点关系；保留V1-HOLD-0051。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B06-F103",
+      "author_id": "V1-ENT-0184",
+      "subject_ref": "V1-ENT-0188",
+      "field": "genre_or_form",
+      "value": "小说",
+      "source_refs": [
+        "WCD10-B06-S101",
+        "WCD10-B06-S107"
+      ],
+      "source_evidence": [
+        {
+          "candidate_id": "WCD10-B06-F103",
+          "object_ref": "V1-ENT-0188",
+          "field": "genre_or_form",
+          "value": "小说",
+          "source_refs": [
+            "WCD10-B06-S101"
+          ],
+          "locators": [
+            "作品目录开头声明仅列叙事作品书籍首版；Novelas y novelas cortas 第1、4、5、8、10条，分别 El pozo (1939)、La vida breve (1950)、Los adioses (1954)、El astillero (1961)、Juntacadáveres (1964)；章节列作品类型范围及出版社/地点；同一首版书目在后续 Novelas y novelas cortas 条目列 Dejemos hablar al viento（1979）。"
+          ],
+          "note": "该作品卡已有‘小说’，但无同字段事实行；本项只补结构化类型，不重复first_publication_year=1961或bibliographic_note，不改变版本或首版出版社差异。"
+        },
+        {
+          "candidate_id": "WCD10-B06-F103",
+          "object_ref": "V1-ENT-0188",
+          "field": "genre_or_form",
+          "value": "小说",
+          "source_refs": [
+            "WCD10-B06-S107"
+          ],
+          "locators": [
+            "全文8页PDF已读；PDF第7页签名处“KATALIN KULIN”；PDF第0页第15—17行、第1页第22—28行论述集体叙述者/观察者及戏剧观众—演员关系；PDF第0页第12—14行明言Larsen行为“不欺骗任何人，甚至不欺骗自己”；PDF第2页第54—64行称船厂为表演场景。"
+          ],
+          "note": "该作品卡已有‘小说’，但无同字段事实行；本项只补结构化类型，不重复first_publication_year=1961或bibliographic_note，不改变版本或首版出版社差异。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B06-F104",
+      "author_id": "V1-ENT-0184",
+      "subject_ref": "V1-ENT-0188",
+      "field": "one_sentence_summary",
+      "value": "拉森被驱逐后返回故地，试图取得废弃造船厂经理职位，并重新追求爱情。",
+      "source_refs": [
+        "WCD10-B06-S105"
+      ],
+      "source_evidence": [
+        {
+          "candidate_id": "WCD10-B06-F104",
+          "object_ref": "V1-ENT-0188",
+          "field": "one_sentence_summary",
+          "value": "拉森被驱逐后返回故地，试图取得废弃造船厂经理职位，并重新追求爱情。",
+          "source_refs": [
+            "WCD10-B06-S105"
+          ],
+          "locators": [
+            "标题及作者署名；第19—21行直接称El astillero为小说，描述Larsen流放后返城、欲实现找到工作与爱情两种愿望，并设想自己是废弃船厂经理、爱上受扰且幼态的女性；作者脚注载其Universidad de La Laguna西语文学教授身份。"
+          ],
+          "note": "中性作品情节前提仅由García Ramos的对象级段落支持；不把其对Larsen自我欺骗的解释写成无归属事实。Kulin的“其行为甚至没有欺骗自己”与García的自我欺骗解读存在解释分歧，分别保留，不判断哪一方胜出。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B06-F105",
+      "author_id": "V1-ENT-0184",
+      "subject_ref": "V1-ENT-0189",
+      "field": "genre_or_form",
+      "value": "中篇小说（novela corta）",
+      "source_refs": [
+        "WCD10-B06-S102",
+        "WCD10-B06-S104"
+      ],
+      "source_evidence": [
+        {
+          "candidate_id": "WCD10-B06-F105",
+          "object_ref": "V1-ENT-0189",
+          "field": "genre_or_form",
+          "value": "中篇小说（novela corta）",
+          "source_refs": [
+            "WCD10-B06-S102"
+          ],
+          "locators": [
+            "1950年 La vida breve 出版条目；1954年 Los adioses 标明 novela corta；1961年 El astillero 首版及Juntacadáveres写作背景；1964年 Alfa出版社出版 Juntacadáveres"
+          ],
+          "note": "卡片已有‘中篇小说 / novela corta’，但无同字段事实行；本项仅结构化已有对象类型，不更改first_publication_year=1954或旧bibliographic_note。"
+        },
+        {
+          "candidate_id": "WCD10-B06-F105",
+          "object_ref": "V1-ENT-0189",
+          "field": "genre_or_form",
+          "value": "中篇小说（novela corta）",
+          "source_refs": [
+            "WCD10-B06-S104"
+          ],
+          "locators": [
+            "PDF首页题名/作者/Universidad Nacional Autónoma de México署名；PDF P0（PDF第1页）L12–18说明Novelas cortas completas收录El pozo、Los adioses等并指出若干作品在不同版本中的分类变化；PDF P2（PDF第3页）L97–100称Linacero为El pozo主角并引其叙述目标；全文6页已实际打开阅读。页码为PDF页序，不是期刊印刷页码。"
+          ],
+          "note": "卡片已有‘中篇小说 / novela corta’，但无同字段事实行；本项仅结构化已有对象类型，不更改first_publication_year=1954或旧bibliographic_note。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B06-F106",
+      "author_id": "V1-ENT-0184",
+      "subject_ref": "V1-ENT-0189",
+      "field": "one_sentence_summary",
+      "value": "叙述者根据一位退役篮球运动员与两名女性之间的关系不断提出猜测，这些悬而未决的判断推动了故事。",
+      "source_refs": [
+        "WCD10-B06-S103"
+      ],
+      "source_evidence": [
+        {
+          "candidate_id": "WCD10-B06-F106",
+          "object_ref": "V1-ENT-0189",
+          "field": "one_sentence_summary",
+          "value": "叙述者根据一位退役篮球运动员与两名女性之间的关系不断提出猜测，这些悬而未决的判断推动了故事。",
+          "source_refs": [
+            "WCD10-B06-S103"
+          ],
+          "locators": [
+            "标题署名 Eduardo Becerra；正文《La vida breve》段（Brausen、Queca、Arce、电影脚本与Santa María）；《El pozo》段（孤独者以梦、回忆、想象纾解倦怠）；《Los adioses》段（退役篮球运动员及两名女性、叙述者猜测）；Larsen段明确列 Juntacadáveres 与 El astillero"
+          ],
+          "note": "Becerra对《Los adioses》的直接情节说明；S104另有A级novela corta类型/收入讨论，但本轮尚未直接读取足以深化本作情节或叙事结构的专项研究。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B06-F107",
+      "author_id": "V1-ENT-0184",
+      "subject_ref": "V1-ENT-0188",
+      "field": "research_note",
+      "value": "Katalin Kulin指出，小说的叙述常由匿名的“我们”或与之认同的人物承担，叙述者像观众一样观看与评论；Larsen、Petrus、Gálvez与Kunz的举止和话语构成一种面向观众的表演，造船厂成为这一表演的舞台。",
+      "source_refs": [
+        "WCD10-B06-S107"
+      ],
+      "source_evidence": [
+        {
+          "candidate_id": "WCD10-B06-F107",
+          "object_ref": "V1-ENT-0188",
+          "field": "research_note",
+          "value": "Katalin Kulin指出，小说的叙述常由匿名的“我们”或与之认同的人物承担，叙述者像观众一样观看与评论；Larsen、Petrus、Gálvez与Kunz的举止和话语构成一种面向观众的表演，造船厂成为这一表演的舞台。",
+          "source_refs": [
+            "WCD10-B06-S107"
+          ],
+          "locators": [
+            "全文8页PDF已读；PDF第7页签名处“KATALIN KULIN”；PDF第0页第15—17行、第1页第22—28行论述集体叙述者/观察者及戏剧观众—演员关系；PDF第0页第12—14行明言Larsen行为“不欺骗任何人，甚至不欺骗自己”；PDF第2页第54—64行称船厂为表演场景。"
+          ],
+          "note": "署名研究说明，严格归属于Kulin论文PDF第0页第15—17行、第1页第22—28行及第2页第54—64行；不作为无归属的故事简介或关系事实。Kulin关于Larsen甚至不欺骗自己的判断与García Ramos对角色自我欺骗的判断并存，留作解释分歧。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B06-W201-F01",
+      "author_id": "V1-ENT-0185",
+      "subject_ref": "WCD10-B06-W201",
+      "field": "first_publication_year",
+      "value": "1955",
+      "source_refs": [
+        "WCD10-B06-S201",
+        "WCD10-B06-S205",
+        "WCD10-B06-S206"
+      ],
+      "source_evidence": [
+        {
+          "candidate_id": "WCD10-B06-W201-F01",
+          "fact_candidate_id": "WCD10-B06-W201-F01",
+          "object_ref": "WCD10-B06-W201",
+          "field": "first_publication_year",
+          "value": "1955",
+          "source_refs": [
+            "WCD10-B06-S201",
+            "WCD10-B06-S205",
+            "WCD10-B06-S206"
+          ],
+          "locators": [
+            "José Donoso (1924-1996)：实读：简介L102-L112；作品时间线L104-L111、L478-L528；书目L127-L204。用于作者/作品目录、年版书目及明确标示体裁；页面持续更新日期未实证。",
+            "Veraneo y otros cuentos – Memoria Chilena：实读L72-L87：作品标题；说明为七篇故事的书卷及七个篇名；说明其为Donoso首书；指向1955年封面。",
+            "Portada de Veraneo y otros cuentos, 1955 – Memoria Chilena：实读L70-L72：题名、José Donoso署名、1955年、115页；此馆藏对象仅据现有文字记录年份与页数，未标“1a edición”。馆藏号/分类见L85-L99。"
+          ],
+          "note": "字段证据按直接来源定位；值仅为待审候选。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B06-W201-F02",
+      "author_id": "V1-ENT-0185",
+      "subject_ref": "WCD10-B06-W201",
+      "field": "genre_or_form",
+      "value": "短篇小说集（七则故事）",
+      "source_refs": [
+        "WCD10-B06-S205"
+      ],
+      "source_evidence": [
+        {
+          "candidate_id": "WCD10-B06-W201-F02",
+          "fact_candidate_id": "WCD10-B06-W201-F02",
+          "object_ref": "WCD10-B06-W201",
+          "field": "genre_or_form",
+          "value": "短篇小说集（七则故事）",
+          "source_refs": [
+            "WCD10-B06-S205"
+          ],
+          "locators": [
+            "Veraneo y otros cuentos – Memoria Chilena：实读L72-L87：作品标题；说明为七篇故事的书卷及七个篇名；说明其为Donoso首书；指向1955年封面。"
+          ],
+          "note": "字段证据按直接来源定位；值仅为待审候选。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B06-W201-F03",
+      "author_id": "V1-ENT-0185",
+      "subject_ref": "WCD10-B06-W201",
+      "field": "one_sentence_summary",
+      "value": "Memoria Chilena的《Veraneo y otros cuentos》作品页列出《Veraneo》《Tocayos》《El Güero》《Una señora》《Fiesta en grande》《Dos cartas》和《Dinamanquero》七篇故事。",
+      "source_refs": [
+        "WCD10-B06-S205",
+        "WCD10-B06-S201"
+      ],
+      "source_evidence": [
+        {
+          "candidate_id": "WCD10-B06-W201-F03",
+          "fact_candidate_id": "WCD10-B06-W201-F03",
+          "object_ref": "WCD10-B06-W201",
+          "field": "one_sentence_summary",
+          "value": "Memoria Chilena的《Veraneo y otros cuentos》作品页列出《Veraneo》《Tocayos》《El Güero》《Una señora》《Fiesta en grande》《Dos cartas》和《Dinamanquero》七篇故事。",
+          "source_refs": [
+            "WCD10-B06-S205",
+            "WCD10-B06-S201"
+          ],
+          "locators": [
+            "Veraneo y otros cuentos – Memoria Chilena：实读L72-L87：作品标题；说明为七篇故事的书卷及七个篇名；说明其为Donoso首书；指向1955年封面。",
+            "José Donoso (1924-1996)：实读：简介L102-L112；作品时间线L104-L111、L478-L528；书目L127-L204。用于作者/作品目录、年版书目及明确标示体裁；页面持续更新日期未实证。"
+          ],
+          "note": "篇名按Memoria Chilena页面拼写照录；原书目录未独立逐字核对，不据此登记单篇作品身份。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B06-W201-F04",
+      "author_id": "V1-ENT-0185",
+      "subject_ref": "WCD10-B06-W201",
+      "field": "bibliographic_note",
+      "value": "作者档案称1955年为其首部故事集；国家图书馆馆藏记录《Veraneo y otros cuentos》1955年、115页，但该条目没有“1a edición”标记。Balcells英文作品页年份栏列1951、正文却称首部故事集于1955年出版，差异照录待审。",
+      "source_refs": [
+        "WCD10-B06-S206",
+        "WCD10-B06-S207"
+      ],
+      "source_evidence": [
+        {
+          "candidate_id": "WCD10-B06-W201-F04",
+          "fact_candidate_id": "WCD10-B06-W201-F04",
+          "object_ref": "WCD10-B06-W201",
+          "field": "bibliographic_note",
+          "value": "作者档案称1955年为其首部故事集；国家图书馆馆藏记录《Veraneo y otros cuentos》1955年、115页，但该条目没有“1a edición”标记。Balcells英文作品页年份栏列1951、正文却称首部故事集于1955年出版，差异照录待审。",
+          "source_refs": [
+            "WCD10-B06-S206",
+            "WCD10-B06-S207"
+          ],
+          "locators": [
+            "Portada de Veraneo y otros cuentos, 1955 – Memoria Chilena：实读L70-L72：题名、José Donoso署名、1955年、115页；此馆藏对象仅据现有文字记录年份与页数，未标“1a edición”。馆藏号/分类见L85-L99。",
+            "Veraneo y otros cuentos / Summer Vacation and Other Stories – Agencia Literaria Carmen Balcells：实读L40-L47：页眉将作品类型/年份列作Short stories and novellas, 1951；正文另称Donoso首部故事集于1955年出版，并列出篇名。页面内部年份不一致。"
+          ],
+          "note": "字段证据按直接来源定位；值仅为待审候选。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B06-W202-F01",
+      "author_id": "V1-ENT-0185",
+      "subject_ref": "WCD10-B06-W202",
+      "field": "first_publication_year",
+      "value": "1966",
+      "source_refs": [
+        "WCD10-B06-S201"
+      ],
+      "source_evidence": [
+        {
+          "candidate_id": "WCD10-B06-W202-F01",
+          "fact_candidate_id": "WCD10-B06-W202-F01",
+          "object_ref": "WCD10-B06-W202",
+          "field": "first_publication_year",
+          "value": "1966",
+          "source_refs": [
+            "WCD10-B06-S201"
+          ],
+          "locators": [
+            "José Donoso (1924-1996)：实读：简介L102-L112；作品时间线L104-L111、L478-L528；书目L127-L204。用于作者/作品目录、年版书目及明确标示体裁；页面持续更新日期未实证。"
+          ],
+          "note": "字段证据按直接来源定位；值仅为待审候选。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B06-W202-F02",
+      "author_id": "V1-ENT-0185",
+      "subject_ref": "WCD10-B06-W202",
+      "field": "genre_or_form",
+      "value": "小说",
+      "source_refs": [
+        "WCD10-B06-S208",
+        "WCD10-B06-S224"
+      ],
+      "source_evidence": [
+        {
+          "candidate_id": "WCD10-B06-W202-F02",
+          "fact_candidate_id": "WCD10-B06-W202-F02",
+          "object_ref": "WCD10-B06-W202",
+          "field": "genre_or_form",
+          "value": "小说",
+          "source_refs": [
+            "WCD10-B06-S208",
+            "WCD10-B06-S224"
+          ],
+          "locators": [
+            "Este domingo – Curriculum Nacional, Ministerio de Educación de Chile：实读L127-L147及重复简介L154-L156：作品名、José Donoso署名、novelas chilenas关键词/ISBN与读者向内容简介；不标首版年份。",
+            "Este domingo – Agencia Literaria Carmen Balcells：实读L11-L19：Novela、1966；Violeta、Álvaro与Chepa之间的星期日关系及寂寞/沟通断裂对象概述。"
+          ],
+          "note": "字段证据按直接来源定位；值仅为待审候选。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B06-W202-F03",
+      "author_id": "V1-ENT-0185",
+      "subject_ref": "WCD10-B06-W202",
+      "field": "one_sentence_summary",
+      "value": "Violeta常在雇主夫妇周日外出时与青年Álvaro相处；Álvaro与Chepa的婚姻及婚外关系也在孤独与沟通隔阂中展开。",
+      "source_refs": [
+        "WCD10-B06-S224"
+      ],
+      "source_evidence": [
+        {
+          "candidate_id": "WCD10-B06-W202-F03",
+          "fact_candidate_id": "WCD10-B06-W202-F03",
+          "object_ref": "WCD10-B06-W202",
+          "field": "one_sentence_summary",
+          "value": "Violeta常在雇主夫妇周日外出时与青年Álvaro相处；Álvaro与Chepa的婚姻及婚外关系也在孤独与沟通隔阂中展开。",
+          "source_refs": [
+            "WCD10-B06-S224"
+          ],
+          "locators": [
+            "Este domingo – Agencia Literaria Carmen Balcells：实读L11-L19：Novela、1966；Violeta、Álvaro与Chepa之间的星期日关系及寂寞/沟通断裂对象概述。"
+          ],
+          "note": "字段证据按直接来源定位；值仅为待审候选。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B06-W203-F01",
+      "author_id": "V1-ENT-0185",
+      "subject_ref": "WCD10-B06-W203",
+      "field": "first_publication_year",
+      "value": "1973",
+      "source_refs": [
+        "WCD10-B06-S201",
+        "WCD10-B06-S209"
+      ],
+      "source_evidence": [
+        {
+          "candidate_id": "WCD10-B06-W203-F01",
+          "fact_candidate_id": "WCD10-B06-W203-F01",
+          "object_ref": "WCD10-B06-W203",
+          "field": "first_publication_year",
+          "value": "1973",
+          "source_refs": [
+            "WCD10-B06-S201",
+            "WCD10-B06-S209"
+          ],
+          "locators": [
+            "José Donoso (1924-1996)：实读：简介L102-L112；作品时间线L104-L111、L478-L528；书目L127-L204。用于作者/作品目录、年版书目及明确标示体裁；页面持续更新日期未实证。",
+            "Tres novelitas burguesas – Agencia Literaria Carmen Balcells：实读L11-L22：作品名、Novela、1973、Alfaguara页数信息及三联篇/三段叙事的机构对象说明；L33-L75为作品导航列表（其中有多项不同年份）。"
+          ],
+          "note": "字段证据按直接来源定位；值仅为待审候选。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B06-W203-F02",
+      "author_id": "V1-ENT-0185",
+      "subject_ref": "WCD10-B06-W203",
+      "field": "genre_or_form",
+      "value": "中篇小说集（三部中篇小说）",
+      "source_refs": [
+        "WCD10-B06-S209"
+      ],
+      "source_evidence": [
+        {
+          "candidate_id": "WCD10-B06-W203-F02",
+          "fact_candidate_id": "WCD10-B06-W203-F02",
+          "object_ref": "WCD10-B06-W203",
+          "field": "genre_or_form",
+          "value": "中篇小说集（三部中篇小说）",
+          "source_refs": [
+            "WCD10-B06-S209"
+          ],
+          "locators": [
+            "Tres novelitas burguesas – Agencia Literaria Carmen Balcells：实读L11-L22：作品名、Novela、1973、Alfaguara页数信息及三联篇/三段叙事的机构对象说明；L33-L75为作品导航列表（其中有多项不同年份）。"
+          ],
+          "note": "字段证据按直接来源定位；值仅为待审候选。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B06-W203-F03",
+      "author_id": "V1-ENT-0185",
+      "subject_ref": "WCD10-B06-W203",
+      "field": "one_sentence_summary",
+      "value": "该书卷由三部中篇小说组成，叙事从现实主义渐向梦幻与怪诞；作品页称三部叙事围绕欧洲富裕专业人士的日常生活展开。",
+      "source_refs": [
+        "WCD10-B06-S209"
+      ],
+      "source_evidence": [
+        {
+          "candidate_id": "WCD10-B06-W203-F03",
+          "fact_candidate_id": "WCD10-B06-W203-F03",
+          "object_ref": "WCD10-B06-W203",
+          "field": "one_sentence_summary",
+          "value": "该书卷由三部中篇小说组成，叙事从现实主义渐向梦幻与怪诞；作品页称三部叙事围绕欧洲富裕专业人士的日常生活展开。",
+          "source_refs": [
+            "WCD10-B06-S209"
+          ],
+          "locators": [
+            "Tres novelitas burguesas – Agencia Literaria Carmen Balcells：实读L11-L22：作品名、Novela、1973、Alfaguara页数信息及三联篇/三段叙事的机构对象说明；L33-L75为作品导航列表（其中有多项不同年份）。"
+          ],
+          "note": "字段证据按直接来源定位；值仅为待审候选。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B06-W204-F01",
+      "author_id": "V1-ENT-0185",
+      "subject_ref": "WCD10-B06-W204",
+      "field": "first_publication_year",
+      "value": "1978",
+      "source_refs": [
+        "WCD10-B06-S211",
+        "WCD10-B06-S210"
+      ],
+      "source_evidence": [
+        {
+          "candidate_id": "WCD10-B06-W204-F01",
+          "fact_candidate_id": "WCD10-B06-W204-F01",
+          "object_ref": "WCD10-B06-W204",
+          "field": "first_publication_year",
+          "value": "1978",
+          "source_refs": [
+            "WCD10-B06-S211",
+            "WCD10-B06-S210"
+          ],
+          "locators": [
+            "Portada de Casa de campo, 1978 – Memoria Chilena：实读L70-L73：题名、José Donoso署名及“1a. edición. Barcelona: Seix Barral, 1978, 498 páginas”；馆藏分类L85-L99。",
+            "Casa de campo – Memoria Chilena：实读L72-L84：作品名、novela、明载1978出版与故事对象简介；页面并述1979获Premio de la Crítica de España。"
+          ],
+          "note": "字段证据按直接来源定位；值仅为待审候选。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B06-W204-F02",
+      "author_id": "V1-ENT-0185",
+      "subject_ref": "WCD10-B06-W204",
+      "field": "genre_or_form",
+      "value": "小说",
+      "source_refs": [
+        "WCD10-B06-S210"
+      ],
+      "source_evidence": [
+        {
+          "candidate_id": "WCD10-B06-W204-F02",
+          "fact_candidate_id": "WCD10-B06-W204-F02",
+          "object_ref": "WCD10-B06-W204",
+          "field": "genre_or_form",
+          "value": "小说",
+          "source_refs": [
+            "WCD10-B06-S210"
+          ],
+          "locators": [
+            "Casa de campo – Memoria Chilena：实读L72-L84：作品名、novela、明载1978出版与故事对象简介；页面并述1979获Premio de la Crítica de España。"
+          ],
+          "note": "字段证据按直接来源定位；值仅为待审候选。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B06-W204-F03",
+      "author_id": "V1-ENT-0185",
+      "subject_ref": "WCD10-B06-W204",
+      "field": "one_sentence_summary",
+      "value": "Ventura家族带着配偶和三十五名子女在远离文明的庄园度夏；父母安排成人野餐并把孩子留在宅邸，孩子们在宅院、广原和外部威胁之间展开自己的行动。",
+      "source_refs": [
+        "WCD10-B06-S217",
+        "WCD10-B06-S210"
+      ],
+      "source_evidence": [
+        {
+          "candidate_id": "WCD10-B06-W204-F03",
+          "fact_candidate_id": "WCD10-B06-W204-F03",
+          "object_ref": "WCD10-B06-W204",
+          "field": "one_sentence_summary",
+          "value": "Ventura家族带着配偶和三十五名子女在远离文明的庄园度夏；父母安排成人野餐并把孩子留在宅邸，孩子们在宅院、广原和外部威胁之间展开自己的行动。",
+          "source_refs": [
+            "WCD10-B06-S217",
+            "WCD10-B06-S210"
+          ],
+          "locators": [
+            "Casa de campo – Agencia Literaria Carmen Balcells：实读L11-L21：Novela与1979栏；作品简介写Ventura家族三十五名子女、家长野餐时孩子被留在庄园；封闭宅院、广原与子女反抗。",
+            "Casa de campo – Memoria Chilena：实读L72-L84：作品名、novela、明载1978出版与故事对象简介；页面并述1979获Premio de la Crítica de España。"
+          ],
+          "note": "字段证据按直接来源定位；值仅为待审候选。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B06-W204-F04",
+      "author_id": "V1-ENT-0185",
+      "subject_ref": "WCD10-B06-W204",
+      "field": "bibliographic_note",
+      "value": "国家图书馆Casa de campo目录对象明确标“1a. edición. Barcelona: Seix Barral, 1978, 498 páginas”；作品页亦称1978出版并另记1979年获奖。Balcells作品页单独将作品列为1979，未解释字段。两项日期保留；首版候选基于明确第一版目录，不将获奖年与出版年混同。",
+      "source_refs": [
+        "WCD10-B06-S211",
+        "WCD10-B06-S210",
+        "WCD10-B06-S217"
+      ],
+      "source_evidence": [
+        {
+          "candidate_id": "WCD10-B06-W204-F04",
+          "fact_candidate_id": "WCD10-B06-W204-F04",
+          "object_ref": "WCD10-B06-W204",
+          "field": "bibliographic_note",
+          "value": "国家图书馆Casa de campo目录对象明确标“1a. edición. Barcelona: Seix Barral, 1978, 498 páginas”；作品页亦称1978出版并另记1979年获奖。Balcells作品页单独将作品列为1979，未解释字段。两项日期保留；首版候选基于明确第一版目录，不将获奖年与出版年混同。",
+          "source_refs": [
+            "WCD10-B06-S211",
+            "WCD10-B06-S210",
+            "WCD10-B06-S217"
+          ],
+          "locators": [
+            "Portada de Casa de campo, 1978 – Memoria Chilena：实读L70-L73：题名、José Donoso署名及“1a. edición. Barcelona: Seix Barral, 1978, 498 páginas”；馆藏分类L85-L99。",
+            "Casa de campo – Memoria Chilena：实读L72-L84：作品名、novela、明载1978出版与故事对象简介；页面并述1979获Premio de la Crítica de España。",
+            "Casa de campo – Agencia Literaria Carmen Balcells：实读L11-L21：Novela与1979栏；作品简介写Ventura家族三十五名子女、家长野餐时孩子被留在庄园；封闭宅院、广原与子女反抗。"
+          ],
+          "note": "字段证据按直接来源定位；值仅为待审候选。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B06-W205-F01",
+      "author_id": "V1-ENT-0185",
+      "subject_ref": "WCD10-B06-W205",
+      "field": "first_publication_year",
+      "value": "1981",
+      "source_refs": [
+        "WCD10-B06-S201",
+        "WCD10-B06-S212",
+        "WCD10-B06-S216"
+      ],
+      "source_evidence": [
+        {
+          "candidate_id": "WCD10-B06-W205-F01",
+          "fact_candidate_id": "WCD10-B06-W205-F01",
+          "object_ref": "WCD10-B06-W205",
+          "field": "first_publication_year",
+          "value": "1981",
+          "source_refs": [
+            "WCD10-B06-S201",
+            "WCD10-B06-S212",
+            "WCD10-B06-S216"
+          ],
+          "locators": [
+            "José Donoso (1924-1996)：实读：简介L102-L112；作品时间线L104-L111、L478-L528；书目L127-L204。用于作者/作品目录、年版书目及明确标示体裁；页面持续更新日期未实证。",
+            "El jardín de al lado – Memoria Chilena：实读L72-L88：作品名/novela；Carlos Morand评论与对象介绍L81-L85，称Julio与Gloria夫妇离乡生活、流亡、远乡与出版处境；封面1981。",
+            "A 25 AÑOS DE LA HISTORIA PERSONAL DEL «BOOM» DE JOSÉ DONOSO：实读L0-L3及L8-L18：文章署名Nadine Dejong（Université de Liège）；称《Historia personal del boom》是自传性文学随笔，1972初版，1983重版加Donoso附录《Diez años después》；并分别讨论1981《El jardín de al lado》与1995《Donde van a morir los elefantes》。"
+          ],
+          "note": "字段证据按直接来源定位；值仅为待审候选。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B06-W205-F02",
+      "author_id": "V1-ENT-0185",
+      "subject_ref": "WCD10-B06-W205",
+      "field": "genre_or_form",
+      "value": "小说",
+      "source_refs": [
+        "WCD10-B06-S212",
+        "WCD10-B06-S216"
+      ],
+      "source_evidence": [
+        {
+          "candidate_id": "WCD10-B06-W205-F02",
+          "fact_candidate_id": "WCD10-B06-W205-F02",
+          "object_ref": "WCD10-B06-W205",
+          "field": "genre_or_form",
+          "value": "小说",
+          "source_refs": [
+            "WCD10-B06-S212",
+            "WCD10-B06-S216"
+          ],
+          "locators": [
+            "El jardín de al lado – Memoria Chilena：实读L72-L88：作品名/novela；Carlos Morand评论与对象介绍L81-L85，称Julio与Gloria夫妇离乡生活、流亡、远乡与出版处境；封面1981。",
+            "A 25 AÑOS DE LA HISTORIA PERSONAL DEL «BOOM» DE JOSÉ DONOSO：实读L0-L3及L8-L18：文章署名Nadine Dejong（Université de Liège）；称《Historia personal del boom》是自传性文学随笔，1972初版，1983重版加Donoso附录《Diez años después》；并分别讨论1981《El jardín de al lado》与1995《Donde van a morir los elefantes》。"
+          ],
+          "note": "字段证据按直接来源定位；值仅为待审候选。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B06-W205-F03",
+      "author_id": "V1-ENT-0185",
+      "subject_ref": "WCD10-B06-W205",
+      "field": "one_sentence_summary",
+      "value": "流亡西班牙的智利小说家Julio Méndez渴望获得文学成功，却在创作受挫与接受自身局限之间挣扎；经纪人Núria Monclús和作家Marcelo Chiriboga也牵动他的处境。",
+      "source_refs": [
+        "WCD10-B06-S236",
+        "WCD10-B06-S212"
+      ],
+      "source_evidence": [
+        {
+          "candidate_id": "WCD10-B06-W205-F03",
+          "fact_candidate_id": "WCD10-B06-W205-F03",
+          "object_ref": "WCD10-B06-W205",
+          "field": "one_sentence_summary",
+          "value": "流亡西班牙的智利小说家Julio Méndez渴望获得文学成功，却在创作受挫与接受自身局限之间挣扎；经纪人Núria Monclús和作家Marcelo Chiriboga也牵动他的处境。",
+          "source_refs": [
+            "WCD10-B06-S236",
+            "WCD10-B06-S212"
+          ],
+          "locators": [
+            "El jardín de al lado – Agencia Literaria Carmen Balcells：实读L11-L20：Novela、1981、Alfaguara；小说家Julio Méndez流亡西班牙，追求文学成功并受代理Núria Monclús和作家Marcelo Chiriboga影响。",
+            "El jardín de al lado – Memoria Chilena：实读L72-L88：作品名/novela；Carlos Morand评论与对象介绍L81-L85，称Julio与Gloria夫妇离乡生活、流亡、远乡与出版处境；封面1981。"
+          ],
+          "note": "字段证据按直接来源定位；值仅为待审候选。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B06-W205-F04",
+      "author_id": "V1-ENT-0185",
+      "subject_ref": "WCD10-B06-W205",
+      "field": "research_note",
+      "value": "研究者Nadine Dejong将《El jardín de al lado》视为《Historia personal del «boom»》的小说化版本，并分析小说家Julio如何经由对Boom圈子的观察呈现其挫败与排斥感。",
+      "source_refs": [
+        "WCD10-B06-S216"
+      ],
+      "source_evidence": [
+        {
+          "candidate_id": "WCD10-B06-W205-F04",
+          "fact_candidate_id": "WCD10-B06-W205-F04",
+          "object_ref": "WCD10-B06-W205",
+          "field": "research_note",
+          "value": "研究者Nadine Dejong将《El jardín de al lado》视为《Historia personal del «boom»》的小说化版本，并分析小说家Julio如何经由对Boom圈子的观察呈现其挫败与排斥感。",
+          "source_refs": [
+            "WCD10-B06-S216"
+          ],
+          "locators": [
+            "A 25 AÑOS DE LA HISTORIA PERSONAL DEL «BOOM» DE JOSÉ DONOSO：实读L0-L3及L8-L18：文章署名Nadine Dejong（Université de Liège）；称《Historia personal del boom》是自传性文学随笔，1972初版，1983重版加Donoso附录《Diez años después》；并分别讨论1981《El jardín de al lado》与1995《Donde van a morir los elefantes》。"
+          ],
+          "note": "字段证据按直接来源定位；值仅为待审候选。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B06-W206-F01",
+      "author_id": "V1-ENT-0185",
+      "subject_ref": "WCD10-B06-W206",
+      "field": "first_publication_year",
+      "value": "1981",
+      "source_refs": [
+        "WCD10-B06-S201",
+        "WCD10-B06-S213"
+      ],
+      "source_evidence": [
+        {
+          "candidate_id": "WCD10-B06-W206-F01",
+          "fact_candidate_id": "WCD10-B06-W206-F01",
+          "object_ref": "WCD10-B06-W206",
+          "field": "first_publication_year",
+          "value": "1981",
+          "source_refs": [
+            "WCD10-B06-S201",
+            "WCD10-B06-S213"
+          ],
+          "locators": [
+            "José Donoso (1924-1996)：实读：简介L102-L112；作品时间线L104-L111、L478-L528；书目L127-L204。用于作者/作品目录、年版书目及明确标示体裁；页面持续更新日期未实证。",
+            "Poemas de un novelista – Memoria Chilena：实读L72-L93：唯一诗歌类作品；约三十首、按四章节组织；目录列出写作地点/年份并单列Tres poemas de 1952；封面1981。"
+          ],
+          "note": "字段证据按直接来源定位；值仅为待审候选。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B06-W206-F02",
+      "author_id": "V1-ENT-0185",
+      "subject_ref": "WCD10-B06-W206",
+      "field": "genre_or_form",
+      "value": "诗集（约三十首诗）",
+      "source_refs": [
+        "WCD10-B06-S213"
+      ],
+      "source_evidence": [
+        {
+          "candidate_id": "WCD10-B06-W206-F02",
+          "fact_candidate_id": "WCD10-B06-W206-F02",
+          "object_ref": "WCD10-B06-W206",
+          "field": "genre_or_form",
+          "value": "诗集（约三十首诗）",
+          "source_refs": [
+            "WCD10-B06-S213"
+          ],
+          "locators": [
+            "Poemas de un novelista – Memoria Chilena：实读L72-L93：唯一诗歌类作品；约三十首、按四章节组织；目录列出写作地点/年份并单列Tres poemas de 1952；封面1981。"
+          ],
+          "note": "字段证据按直接来源定位；值仅为待审候选。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B06-W206-F03",
+      "author_id": "V1-ENT-0185",
+      "subject_ref": "WCD10-B06-W206",
+      "field": "one_sentence_summary",
+      "value": "Memoria Chilena称该书为多诺索唯一的诗歌类作品，约收三十首诗，并按四个章节组织；目录同时列有写于1952年的三首诗，不能把全部诗作写作年概括为单一时期。",
+      "source_refs": [
+        "WCD10-B06-S213"
+      ],
+      "source_evidence": [
+        {
+          "candidate_id": "WCD10-B06-W206-F03",
+          "fact_candidate_id": "WCD10-B06-W206-F03",
+          "object_ref": "WCD10-B06-W206",
+          "field": "one_sentence_summary",
+          "value": "Memoria Chilena称该书为多诺索唯一的诗歌类作品，约收三十首诗，并按四个章节组织；目录同时列有写于1952年的三首诗，不能把全部诗作写作年概括为单一时期。",
+          "source_refs": [
+            "WCD10-B06-S213"
+          ],
+          "locators": [
+            "Poemas de un novelista – Memoria Chilena：实读L72-L93：唯一诗歌类作品；约三十首、按四章节组织；目录列出写作地点/年份并单列Tres poemas de 1952；封面1981。"
+          ],
+          "note": "字段证据按直接来源定位；值仅为待审候选。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B06-W207-F01",
+      "author_id": "V1-ENT-0185",
+      "subject_ref": "WCD10-B06-W207",
+      "field": "first_publication_year",
+      "value": "1986",
+      "source_refs": [
+        "WCD10-B06-S201",
+        "WCD10-B06-S214"
+      ],
+      "source_evidence": [
+        {
+          "candidate_id": "WCD10-B06-W207-F01",
+          "fact_candidate_id": "WCD10-B06-W207-F01",
+          "object_ref": "WCD10-B06-W207",
+          "field": "first_publication_year",
+          "value": "1986",
+          "source_refs": [
+            "WCD10-B06-S201",
+            "WCD10-B06-S214"
+          ],
+          "locators": [
+            "José Donoso (1924-1996)：实读：简介L102-L112；作品时间线L104-L111、L478-L528；书目L127-L204。用于作者/作品目录、年版书目及明确标示体裁；页面持续更新日期未实证。",
+            "La desesperanza – Memoria Chilena：实读L72-L89：novela；写作背景/故事对象L81-L86；页面列1986封面；作者档案书目另列1986 Seix Barral。"
+          ],
+          "note": "字段证据按直接来源定位；值仅为待审候选。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B06-W207-F02",
+      "author_id": "V1-ENT-0185",
+      "subject_ref": "WCD10-B06-W207",
+      "field": "genre_or_form",
+      "value": "小说",
+      "source_refs": [
+        "WCD10-B06-S214"
+      ],
+      "source_evidence": [
+        {
+          "candidate_id": "WCD10-B06-W207-F02",
+          "fact_candidate_id": "WCD10-B06-W207-F02",
+          "object_ref": "WCD10-B06-W207",
+          "field": "genre_or_form",
+          "value": "小说",
+          "source_refs": [
+            "WCD10-B06-S214"
+          ],
+          "locators": [
+            "La desesperanza – Memoria Chilena：实读L72-L89：novela；写作背景/故事对象L81-L86；页面列1986封面；作者档案书目另列1986 Seix Barral。"
+          ],
+          "note": "字段证据按直接来源定位；值仅为待审候选。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B06-W207-F03",
+      "author_id": "V1-ENT-0185",
+      "subject_ref": "WCD10-B06-W207",
+      "field": "one_sentence_summary",
+      "value": "据Memoria Chilena引述的作者访谈，小说从Matilde Neruda醒来写起，随后跟随一对伴侣在Santiago的一次出行，并在Matilde葬礼收束；来源称全书时间跨度约八小时。",
+      "source_refs": [
+        "WCD10-B06-S214"
+      ],
+      "source_evidence": [
+        {
+          "candidate_id": "WCD10-B06-W207-F03",
+          "fact_candidate_id": "WCD10-B06-W207-F03",
+          "object_ref": "WCD10-B06-W207",
+          "field": "one_sentence_summary",
+          "value": "据Memoria Chilena引述的作者访谈，小说从Matilde Neruda醒来写起，随后跟随一对伴侣在Santiago的一次出行，并在Matilde葬礼收束；来源称全书时间跨度约八小时。",
+          "source_refs": [
+            "WCD10-B06-S214"
+          ],
+          "locators": [
+            "La desesperanza – Memoria Chilena：实读L72-L89：novela；写作背景/故事对象L81-L86；页面列1986封面；作者档案书目另列1986 Seix Barral。"
+          ],
+          "note": "字段证据按直接来源定位；值仅为待审候选。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B06-W208-F01",
+      "author_id": "V1-ENT-0185",
+      "subject_ref": "WCD10-B06-W208",
+      "field": "first_publication_year",
+      "value": "1995",
+      "source_refs": [
+        "WCD10-B06-S201",
+        "WCD10-B06-S216"
+      ],
+      "source_evidence": [
+        {
+          "candidate_id": "WCD10-B06-W208-F01",
+          "fact_candidate_id": "WCD10-B06-W208-F01",
+          "object_ref": "WCD10-B06-W208",
+          "field": "first_publication_year",
+          "value": "1995",
+          "source_refs": [
+            "WCD10-B06-S201",
+            "WCD10-B06-S216"
+          ],
+          "locators": [
+            "José Donoso (1924-1996)：实读：简介L102-L112；作品时间线L104-L111、L478-L528；书目L127-L204。用于作者/作品目录、年版书目及明确标示体裁；页面持续更新日期未实证。",
+            "A 25 AÑOS DE LA HISTORIA PERSONAL DEL «BOOM» DE JOSÉ DONOSO：实读L0-L3及L8-L18：文章署名Nadine Dejong（Université de Liège）；称《Historia personal del boom》是自传性文学随笔，1972初版，1983重版加Donoso附录《Diez años después》；并分别讨论1981《El jardín de al lado》与1995《Donde van a morir los elefantes》。"
+          ],
+          "note": "字段证据按直接来源定位；值仅为待审候选。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B06-W208-F02",
+      "author_id": "V1-ENT-0185",
+      "subject_ref": "WCD10-B06-W208",
+      "field": "genre_or_form",
+      "value": "小说",
+      "source_refs": [
+        "WCD10-B06-S215",
+        "WCD10-B06-S216"
+      ],
+      "source_evidence": [
+        {
+          "candidate_id": "WCD10-B06-W208-F02",
+          "fact_candidate_id": "WCD10-B06-W208-F02",
+          "object_ref": "WCD10-B06-W208",
+          "field": "genre_or_form",
+          "value": "小说",
+          "source_refs": [
+            "WCD10-B06-S215",
+            "WCD10-B06-S216"
+          ],
+          "locators": [
+            "Escribió cinco novelas voluminosas – Memoria Chilena：实读L72-L96：Conjeturas (1996) 的家族史/祖先记忆说明；Donde van a morir los elefantes为小说（1995）及对象级主题概述；另记录Taratuta衍生背景、El mocho为1997遗作小说。",
+            "A 25 AÑOS DE LA HISTORIA PERSONAL DEL «BOOM» DE JOSÉ DONOSO：实读L0-L3及L8-L18：文章署名Nadine Dejong（Université de Liège）；称《Historia personal del boom》是自传性文学随笔，1972初版，1983重版加Donoso附录《Diez años después》；并分别讨论1981《El jardín de al lado》与1995《Donde van a morir los elefantes》。"
+          ],
+          "note": "字段证据按直接来源定位；值仅为待审候选。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B06-W208-F03",
+      "author_id": "V1-ENT-0185",
+      "subject_ref": "WCD10-B06-W208",
+      "field": "one_sentence_summary",
+      "value": "智利文学教授Gustavo Zuleta到美国一所小型大学任教，在妻儿抵达前经历学术圈的嫉妒、权力争斗、性关系与一起造成多人遇害的谋杀案；Ruby进入他的生活。",
+      "source_refs": [
+        "WCD10-B06-S235",
+        "WCD10-B06-S215"
+      ],
+      "source_evidence": [
+        {
+          "candidate_id": "WCD10-B06-W208-F03",
+          "fact_candidate_id": "WCD10-B06-W208-F03",
+          "object_ref": "WCD10-B06-W208",
+          "field": "one_sentence_summary",
+          "value": "智利文学教授Gustavo Zuleta到美国一所小型大学任教，在妻儿抵达前经历学术圈的嫉妒、权力争斗、性关系与一起造成多人遇害的谋杀案；Ruby进入他的生活。",
+          "source_refs": [
+            "WCD10-B06-S235",
+            "WCD10-B06-S215"
+          ],
+          "locators": [
+            "Donde van a morir los elefantes – Agencia Literaria Carmen Balcells：实读L11-L17：Novela、1995、Penguin Random House；Gustavo Zuleta任教美国小型大学、遇见Ruby，等待妻儿抵达并经历学术圈纷争。",
+            "Escribió cinco novelas voluminosas – Memoria Chilena：实读L72-L96：Conjeturas (1996) 的家族史/祖先记忆说明；Donde van a morir los elefantes为小说（1995）及对象级主题概述；另记录Taratuta衍生背景、El mocho为1997遗作小说。"
+          ],
+          "note": "字段证据按直接来源定位；值仅为待审候选。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B06-W208-F04",
+      "author_id": "V1-ENT-0185",
+      "subject_ref": "WCD10-B06-W208",
+      "field": "research_note",
+      "value": "Dejong将《Donde van a morir los elefantes》称作《El jardín de al lado》的续篇，并比较Marcelo Chiriboga在两书中从“Boom代表性名字”到更具体人物的变化。此为该论文对两部作品的研究归属，不建立作品关系候选。",
+      "source_refs": [
+        "WCD10-B06-S216"
+      ],
+      "source_evidence": [
+        {
+          "candidate_id": "WCD10-B06-W208-F04",
+          "fact_candidate_id": "WCD10-B06-W208-F04",
+          "object_ref": "WCD10-B06-W208",
+          "field": "research_note",
+          "value": "Dejong将《Donde van a morir los elefantes》称作《El jardín de al lado》的续篇，并比较Marcelo Chiriboga在两书中从“Boom代表性名字”到更具体人物的变化。此为该论文对两部作品的研究归属，不建立作品关系候选。",
+          "source_refs": [
+            "WCD10-B06-S216"
+          ],
+          "locators": [
+            "A 25 AÑOS DE LA HISTORIA PERSONAL DEL «BOOM» DE JOSÉ DONOSO：实读L0-L3及L8-L18：文章署名Nadine Dejong（Université de Liège）；称《Historia personal del boom》是自传性文学随笔，1972初版，1983重版加Donoso附录《Diez años después》；并分别讨论1981《El jardín de al lado》与1995《Donde van a morir los elefantes》。"
+          ],
+          "note": "字段证据按直接来源定位；值仅为待审候选。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B06-W209-F01",
+      "author_id": "V1-ENT-0185",
+      "subject_ref": "WCD10-B06-W209",
+      "field": "first_publication_year",
+      "value": "1996",
+      "source_refs": [
+        "WCD10-B06-S201",
+        "WCD10-B06-S215"
+      ],
+      "source_evidence": [
+        {
+          "candidate_id": "WCD10-B06-W209-F01",
+          "fact_candidate_id": "WCD10-B06-W209-F01",
+          "object_ref": "WCD10-B06-W209",
+          "field": "first_publication_year",
+          "value": "1996",
+          "source_refs": [
+            "WCD10-B06-S201",
+            "WCD10-B06-S215"
+          ],
+          "locators": [
+            "José Donoso (1924-1996)：实读：简介L102-L112；作品时间线L104-L111、L478-L528；书目L127-L204。用于作者/作品目录、年版书目及明确标示体裁；页面持续更新日期未实证。",
+            "Escribió cinco novelas voluminosas – Memoria Chilena：实读L72-L96：Conjeturas (1996) 的家族史/祖先记忆说明；Donde van a morir los elefantes为小说（1995）及对象级主题概述；另记录Taratuta衍生背景、El mocho为1997遗作小说。"
+          ],
+          "note": "字段证据按直接来源定位；值仅为待审候选。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B06-W209-F02",
+      "author_id": "V1-ENT-0185",
+      "subject_ref": "WCD10-B06-W209",
+      "field": "genre_or_form",
+      "value": "家族回忆/自传性叙事作品（具体体裁仍待作品专门研究）",
+      "source_refs": [
+        "WCD10-B06-S215"
+      ],
+      "source_evidence": [
+        {
+          "candidate_id": "WCD10-B06-W209-F02",
+          "fact_candidate_id": "WCD10-B06-W209-F02",
+          "object_ref": "WCD10-B06-W209",
+          "field": "genre_or_form",
+          "value": "家族回忆/自传性叙事作品（具体体裁仍待作品专门研究）",
+          "source_refs": [
+            "WCD10-B06-S215"
+          ],
+          "locators": [
+            "Escribió cinco novelas voluminosas – Memoria Chilena：实读L72-L96：Conjeturas (1996) 的家族史/祖先记忆说明；Donde van a morir los elefantes为小说（1995）及对象级主题概述；另记录Taratuta衍生背景、El mocho为1997遗作小说。"
+          ],
+          "note": "字段证据按直接来源定位；值仅为待审候选。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B06-W209-F03",
+      "author_id": "V1-ENT-0185",
+      "subject_ref": "WCD10-B06-W209",
+      "field": "one_sentence_summary",
+      "value": "作者以小说化方式叙写家族史和祖先记忆。",
+      "source_refs": [
+        "WCD10-B06-S215"
+      ],
+      "source_evidence": [
+        {
+          "candidate_id": "WCD10-B06-W209-F03",
+          "fact_candidate_id": "WCD10-B06-W209-F03",
+          "object_ref": "WCD10-B06-W209",
+          "field": "one_sentence_summary",
+          "value": "作者以小说化方式叙写家族史和祖先记忆。",
+          "source_refs": [
+            "WCD10-B06-S215"
+          ],
+          "locators": [
+            "Escribió cinco novelas voluminosas – Memoria Chilena：实读L72-L96：Conjeturas (1996) 的家族史/祖先记忆说明；Donde van a morir los elefantes为小说（1995）及对象级主题概述；另记录Taratuta衍生背景、El mocho为1997遗作小说。"
+          ],
+          "note": "字段证据按直接来源定位；值仅为待审候选。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B06-W210-F01",
+      "author_id": "V1-ENT-0185",
+      "subject_ref": "WCD10-B06-W210",
+      "field": "first_publication_year",
+      "value": "1972",
+      "source_refs": [
+        "WCD10-B06-S216"
+      ],
+      "source_evidence": [
+        {
+          "candidate_id": "WCD10-B06-W210-F01",
+          "fact_candidate_id": "WCD10-B06-W210-F01",
+          "object_ref": "WCD10-B06-W210",
+          "field": "first_publication_year",
+          "value": "1972",
+          "source_refs": [
+            "WCD10-B06-S216"
+          ],
+          "locators": [
+            "A 25 AÑOS DE LA HISTORIA PERSONAL DEL «BOOM» DE JOSÉ DONOSO：实读L0-L3及L8-L18：文章署名Nadine Dejong（Université de Liège）；称《Historia personal del boom》是自传性文学随笔，1972初版，1983重版加Donoso附录《Diez años después》；并分别讨论1981《El jardín de al lado》与1995《Donde van a morir los elefantes》。"
+          ],
+          "note": "字段证据按直接来源定位；值仅为待审候选。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B06-W210-F02",
+      "author_id": "V1-ENT-0185",
+      "subject_ref": "WCD10-B06-W210",
+      "field": "genre_or_form",
+      "value": "自传性文学随笔（兼具文学史论述与传记性纪事）",
+      "source_refs": [
+        "WCD10-B06-S216"
+      ],
+      "source_evidence": [
+        {
+          "candidate_id": "WCD10-B06-W210-F02",
+          "fact_candidate_id": "WCD10-B06-W210-F02",
+          "object_ref": "WCD10-B06-W210",
+          "field": "genre_or_form",
+          "value": "自传性文学随笔（兼具文学史论述与传记性纪事）",
+          "source_refs": [
+            "WCD10-B06-S216"
+          ],
+          "locators": [
+            "A 25 AÑOS DE LA HISTORIA PERSONAL DEL «BOOM» DE JOSÉ DONOSO：实读L0-L3及L8-L18：文章署名Nadine Dejong（Université de Liège）；称《Historia personal del boom》是自传性文学随笔，1972初版，1983重版加Donoso附录《Diez años después》；并分别讨论1981《El jardín de al lado》与1995《Donde van a morir los elefantes》。"
+          ],
+          "note": "字段证据按直接来源定位；值仅为待审候选。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B06-W210-F03",
+      "author_id": "V1-ENT-0185",
+      "subject_ref": "WCD10-B06-W210",
+      "field": "one_sentence_summary",
+      "value": "这部自传性文学随笔回顾拉美文学Boom，并在文学史论述与作者个人文学经历之间展开。",
+      "source_refs": [
+        "WCD10-B06-S216"
+      ],
+      "source_evidence": [
+        {
+          "candidate_id": "WCD10-B06-W210-F03",
+          "fact_candidate_id": "WCD10-B06-W210-F03",
+          "object_ref": "WCD10-B06-W210",
+          "field": "one_sentence_summary",
+          "value": "这部自传性文学随笔回顾拉美文学Boom，并在文学史论述与作者个人文学经历之间展开。",
+          "source_refs": [
+            "WCD10-B06-S216"
+          ],
+          "locators": [
+            "A 25 AÑOS DE LA HISTORIA PERSONAL DEL «BOOM» DE JOSÉ DONOSO：实读L0-L3及L8-L18：文章署名Nadine Dejong（Université de Liège）；称《Historia personal del boom》是自传性文学随笔，1972初版，1983重版加Donoso附录《Diez años después》；并分别讨论1981《El jardín de al lado》与1995《Donde van a morir los elefantes》。"
+          ],
+          "note": "字段证据按直接来源定位；值仅为待审候选。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B06-W210-F04",
+      "author_id": "V1-ENT-0185",
+      "subject_ref": "WCD10-B06-W210",
+      "field": "bibliographic_note",
+      "value": "Dejong记载《Historia personal del «boom»》1972年首次出版；1983重版增补Donoso的附录《Diez años después》。1972为作品初版候选，1983为增补重版，不另列为第二部作品。",
+      "source_refs": [
+        "WCD10-B06-S216"
+      ],
+      "source_evidence": [
+        {
+          "candidate_id": "WCD10-B06-W210-F04",
+          "fact_candidate_id": "WCD10-B06-W210-F04",
+          "object_ref": "WCD10-B06-W210",
+          "field": "bibliographic_note",
+          "value": "Dejong记载《Historia personal del «boom»》1972年首次出版；1983重版增补Donoso的附录《Diez años después》。1972为作品初版候选，1983为增补重版，不另列为第二部作品。",
+          "source_refs": [
+            "WCD10-B06-S216"
+          ],
+          "locators": [
+            "A 25 AÑOS DE LA HISTORIA PERSONAL DEL «BOOM» DE JOSÉ DONOSO：实读L0-L3及L8-L18：文章署名Nadine Dejong（Université de Liège）；称《Historia personal del boom》是自传性文学随笔，1972初版，1983重版加Donoso附录《Diez años después》；并分别讨论1981《El jardín de al lado》与1995《Donde van a morir los elefantes》。"
+          ],
+          "note": "字段证据按直接来源定位；值仅为待审候选。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B06-W211-F01",
+      "author_id": "V1-ENT-0185",
+      "subject_ref": "WCD10-B06-W211",
+      "field": "first_publication_year",
+      "value": "1980",
+      "source_refs": [
+        "WCD10-B06-S201",
+        "WCD10-B06-S218"
+      ],
+      "source_evidence": [
+        {
+          "candidate_id": "WCD10-B06-W211-F01",
+          "fact_candidate_id": "WCD10-B06-W211-F01",
+          "object_ref": "WCD10-B06-W211",
+          "field": "first_publication_year",
+          "value": "1980",
+          "source_refs": [
+            "WCD10-B06-S201",
+            "WCD10-B06-S218"
+          ],
+          "locators": [
+            "José Donoso (1924-1996)：实读：简介L102-L112；作品时间线L104-L111、L478-L528；书目L127-L204。用于作者/作品目录、年版书目及明确标示体裁；页面持续更新日期未实证。",
+            "La misteriosa desaparición de la Marquesita de Loria – Agencia Literaria Carmen Balcells：实读L42-L53：novela、1980、165页；年轻寡妇在1920年代马德里游走，简介叙述其感官/欲望经历。"
+          ],
+          "note": "字段证据按直接来源定位；值仅为待审候选。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B06-W211-F02",
+      "author_id": "V1-ENT-0185",
+      "subject_ref": "WCD10-B06-W211",
+      "field": "genre_or_form",
+      "value": "小说",
+      "source_refs": [
+        "WCD10-B06-S218"
+      ],
+      "source_evidence": [
+        {
+          "candidate_id": "WCD10-B06-W211-F02",
+          "fact_candidate_id": "WCD10-B06-W211-F02",
+          "object_ref": "WCD10-B06-W211",
+          "field": "genre_or_form",
+          "value": "小说",
+          "source_refs": [
+            "WCD10-B06-S218"
+          ],
+          "locators": [
+            "La misteriosa desaparición de la Marquesita de Loria – Agencia Literaria Carmen Balcells：实读L42-L53：novela、1980、165页；年轻寡妇在1920年代马德里游走，简介叙述其感官/欲望经历。"
+          ],
+          "note": "字段证据按直接来源定位；值仅为待审候选。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B06-W211-F03",
+      "author_id": "V1-ENT-0185",
+      "subject_ref": "WCD10-B06-W211",
+      "field": "one_sentence_summary",
+      "value": "年轻寡妇Marquesita在1920年代马德里游走，在丧偶后的自由中经历诱惑与感官生活。",
+      "source_refs": [
+        "WCD10-B06-S218"
+      ],
+      "source_evidence": [
+        {
+          "candidate_id": "WCD10-B06-W211-F03",
+          "fact_candidate_id": "WCD10-B06-W211-F03",
+          "object_ref": "WCD10-B06-W211",
+          "field": "one_sentence_summary",
+          "value": "年轻寡妇Marquesita在1920年代马德里游走，在丧偶后的自由中经历诱惑与感官生活。",
+          "source_refs": [
+            "WCD10-B06-S218"
+          ],
+          "locators": [
+            "La misteriosa desaparición de la Marquesita de Loria – Agencia Literaria Carmen Balcells：实读L42-L53：novela、1980、165页；年轻寡妇在1920年代马德里游走，简介叙述其感官/欲望经历。"
+          ],
+          "note": "字段证据按直接来源定位；值仅为待审候选。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B06-W213-F01",
+      "author_id": "V1-ENT-0185",
+      "subject_ref": "WCD10-B06-W213",
+      "field": "first_publication_year",
+      "value": "1990",
+      "source_refs": [
+        "WCD10-B06-S215",
+        "WCD10-B06-S220",
+        "WCD10-B06-S234"
+      ],
+      "source_evidence": [
+        {
+          "candidate_id": "WCD10-B06-W213-F01",
+          "fact_candidate_id": "WCD10-B06-W213-F01",
+          "object_ref": "WCD10-B06-W213",
+          "field": "first_publication_year",
+          "value": "1990",
+          "source_refs": [
+            "WCD10-B06-S215",
+            "WCD10-B06-S220",
+            "WCD10-B06-S234"
+          ],
+          "locators": [
+            "Escribió cinco novelas voluminosas – Memoria Chilena：实读L72-L96：Conjeturas (1996) 的家族史/祖先记忆说明；Donde van a morir los elefantes为小说（1995）及对象级主题概述；另记录Taratuta衍生背景、El mocho为1997遗作小说。",
+            "Taratuta. Naturaleza muerta con cachimba – Agencia Literaria Carmen Balcells：实读L11-L18：页面以合题标Novela、1990、Fondo de Cultura Económica；正文分别叙述Taratuta与Naturaleza muerta con cachimba两部小说的地点和故事背景。",
+            "Donoso, José, 1924-1996 – Referencias bibliográficas, Memoria Chilena：实读L127-L142、L188-L200、L227-L238、L261-L284及L334-L354：国家馆藏分条著录Cuatro para Delfina (c1982)、Los mejores cuentos de José Donoso (1966)、Cuentos (c1971)、Dos cuentos (1956)、Taratuta; Naturaleza muerta con cachimba (c1990)、Nueve novelas breves (1996)、Artículos de incierta necesidad (c1998)等版本/页数。"
+          ],
+          "note": "字段证据按直接来源定位；值仅为待审候选。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B06-W213-F02",
+      "author_id": "V1-ENT-0185",
+      "subject_ref": "WCD10-B06-W213",
+      "field": "genre_or_form",
+      "value": "两部小说合卷（collection）",
+      "source_refs": [
+        "WCD10-B06-S220"
+      ],
+      "source_evidence": [
+        {
+          "candidate_id": "WCD10-B06-W213-F02",
+          "fact_candidate_id": "WCD10-B06-W213-F02",
+          "object_ref": "WCD10-B06-W213",
+          "field": "genre_or_form",
+          "value": "两部小说合卷（collection）",
+          "source_refs": [
+            "WCD10-B06-S220"
+          ],
+          "locators": [
+            "Taratuta. Naturaleza muerta con cachimba – Agencia Literaria Carmen Balcells：实读L11-L18：页面以合题标Novela、1990、Fondo de Cultura Económica；正文分别叙述Taratuta与Naturaleza muerta con cachimba两部小说的地点和故事背景。"
+          ],
+          "note": "字段证据按直接来源定位；值仅为待审候选。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B06-W213-F03",
+      "author_id": "V1-ENT-0185",
+      "subject_ref": "WCD10-B06-W213",
+      "field": "one_sentence_summary",
+      "value": "《Taratuta》以马德里和布宜诺斯艾利斯为背景，写到逃离十月革命的俄国人及列宁；《Naturaleza muerta con cachimba》则以一处衰败海滨度假地为背景，描写沉浸在梦想中的小人物。",
+      "source_refs": [
+        "WCD10-B06-S220"
+      ],
+      "source_evidence": [
+        {
+          "candidate_id": "WCD10-B06-W213-F03",
+          "fact_candidate_id": "WCD10-B06-W213-F03",
+          "object_ref": "WCD10-B06-W213",
+          "field": "one_sentence_summary",
+          "value": "《Taratuta》以马德里和布宜诺斯艾利斯为背景，写到逃离十月革命的俄国人及列宁；《Naturaleza muerta con cachimba》则以一处衰败海滨度假地为背景，描写沉浸在梦想中的小人物。",
+          "source_refs": [
+            "WCD10-B06-S220"
+          ],
+          "locators": [
+            "Taratuta. Naturaleza muerta con cachimba – Agencia Literaria Carmen Balcells：实读L11-L18：页面以合题标Novela、1990、Fondo de Cultura Económica；正文分别叙述Taratuta与Naturaleza muerta con cachimba两部小说的地点和故事背景。"
+          ],
+          "note": "字段证据按直接来源定位；值仅为待审候选。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B06-W214-F01",
+      "author_id": "V1-ENT-0185",
+      "subject_ref": "WCD10-B06-W214",
+      "field": "first_publication_year",
+      "value": "1997",
+      "source_refs": [
+        "WCD10-B06-S201",
+        "WCD10-B06-S225",
+        "WCD10-B06-S234"
+      ],
+      "source_evidence": [
+        {
+          "candidate_id": "WCD10-B06-W214-F01",
+          "fact_candidate_id": "WCD10-B06-W214-F01",
+          "object_ref": "WCD10-B06-W214",
+          "field": "first_publication_year",
+          "value": "1997",
+          "source_refs": [
+            "WCD10-B06-S201",
+            "WCD10-B06-S225",
+            "WCD10-B06-S234"
+          ],
+          "locators": [
+            "José Donoso (1924-1996)：实读：简介L102-L112；作品时间线L104-L111、L478-L528；书目L127-L204。用于作者/作品目录、年版书目及明确标示体裁；页面持续更新日期未实证。",
+            "El Mocho – Agencia Literaria Carmen Balcells：实读L11-L20：Novela、1997、Alfaguara；煤矿、军政府背景、妓院与马戏团构成叙事场景，并注明作者未及见出版。",
+            "Donoso, José, 1924-1996 – Referencias bibliográficas, Memoria Chilena：实读L127-L142、L188-L200、L227-L238、L261-L284及L334-L354：国家馆藏分条著录Cuatro para Delfina (c1982)、Los mejores cuentos de José Donoso (1966)、Cuentos (c1971)、Dos cuentos (1956)、Taratuta; Naturaleza muerta con cachimba (c1990)、Nueve novelas breves (1996)、Artículos de incierta necesidad (c1998)等版本/页数。"
+          ],
+          "note": "字段证据按直接来源定位；值仅为待审候选。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B06-W214-F02",
+      "author_id": "V1-ENT-0185",
+      "subject_ref": "WCD10-B06-W214",
+      "field": "genre_or_form",
+      "value": "小说",
+      "source_refs": [
+        "WCD10-B06-S225"
+      ],
+      "source_evidence": [
+        {
+          "candidate_id": "WCD10-B06-W214-F02",
+          "fact_candidate_id": "WCD10-B06-W214-F02",
+          "object_ref": "WCD10-B06-W214",
+          "field": "genre_or_form",
+          "value": "小说",
+          "source_refs": [
+            "WCD10-B06-S225"
+          ],
+          "locators": [
+            "El Mocho – Agencia Literaria Carmen Balcells：实读L11-L20：Novela、1997、Alfaguara；煤矿、军政府背景、妓院与马戏团构成叙事场景，并注明作者未及见出版。"
+          ],
+          "note": "字段证据按直接来源定位；值仅为待审候选。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B06-W214-F03",
+      "author_id": "V1-ENT-0185",
+      "subject_ref": "WCD10-B06-W214",
+      "field": "one_sentence_summary",
+      "value": "故事置于煤矿与军政府背景之下，并以妓院和马戏团作为日常生活的另一组场景；作者未及见书出版。",
+      "source_refs": [
+        "WCD10-B06-S225"
+      ],
+      "source_evidence": [
+        {
+          "candidate_id": "WCD10-B06-W214-F03",
+          "fact_candidate_id": "WCD10-B06-W214-F03",
+          "object_ref": "WCD10-B06-W214",
+          "field": "one_sentence_summary",
+          "value": "故事置于煤矿与军政府背景之下，并以妓院和马戏团作为日常生活的另一组场景；作者未及见书出版。",
+          "source_refs": [
+            "WCD10-B06-S225"
+          ],
+          "locators": [
+            "El Mocho – Agencia Literaria Carmen Balcells：实读L11-L20：Novela、1997、Alfaguara；煤矿、军政府背景、妓院与马戏团构成叙事场景，并注明作者未及见出版。"
+          ],
+          "note": "字段证据按直接来源定位；值仅为待审候选。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B06-W214-F04",
+      "author_id": "V1-ENT-0185",
+      "subject_ref": "WCD10-B06-W214",
+      "field": "bibliographic_note",
+      "value": "国家图书馆书目记录Aguilar Chilena 1997年版；对象页也列1997，并说明作者未及见出版。",
+      "source_refs": [
+        "WCD10-B06-S225",
+        "WCD10-B06-S234"
+      ],
+      "source_evidence": [
+        {
+          "candidate_id": "WCD10-B06-W214-F04",
+          "fact_candidate_id": "WCD10-B06-W214-F04",
+          "object_ref": "WCD10-B06-W214",
+          "field": "bibliographic_note",
+          "value": "国家图书馆书目记录Aguilar Chilena 1997年版；对象页也列1997，并说明作者未及见出版。",
+          "source_refs": [
+            "WCD10-B06-S225",
+            "WCD10-B06-S234"
+          ],
+          "locators": [
+            "El Mocho – Agencia Literaria Carmen Balcells：实读L11-L20：Novela、1997、Alfaguara；煤矿、军政府背景、妓院与马戏团构成叙事场景，并注明作者未及见出版。",
+            "Donoso, José, 1924-1996 – Referencias bibliográficas, Memoria Chilena：实读L127-L142、L188-L200、L227-L238、L261-L284及L334-L354：国家馆藏分条著录Cuatro para Delfina (c1982)、Los mejores cuentos de José Donoso (1966)、Cuentos (c1971)、Dos cuentos (1956)、Taratuta; Naturaleza muerta con cachimba (c1990)、Nueve novelas breves (1996)、Artículos de incierta necesidad (c1998)等版本/页数。"
+          ],
+          "note": "字段证据按直接来源定位；值仅为待审候选。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B06-W215-F01",
+      "author_id": "V1-ENT-0185",
+      "subject_ref": "WCD10-B06-W215",
+      "field": "first_publication_year",
+      "value": "2007",
+      "source_refs": [
+        "WCD10-B06-S201",
+        "WCD10-B06-S226"
+      ],
+      "source_evidence": [
+        {
+          "candidate_id": "WCD10-B06-W215-F01",
+          "fact_candidate_id": "WCD10-B06-W215-F01",
+          "object_ref": "WCD10-B06-W215",
+          "field": "first_publication_year",
+          "value": "2007",
+          "source_refs": [
+            "WCD10-B06-S201",
+            "WCD10-B06-S226"
+          ],
+          "locators": [
+            "José Donoso (1924-1996)：实读：简介L102-L112；作品时间线L104-L111、L478-L528；书目L127-L204。用于作者/作品目录、年版书目及明确标示体裁；页面持续更新日期未实证。",
+            "Lagartija sin cola – Agencia Literaria Carmen Balcells：实读L11-L19：Novela、2007、Aguilar Chilena；Armando Muñoz-Roa为画家，叙述其离开非形式主义运动、与Luisa逃离及回望Dors；页面另称作者1973年开始写作后搁置。"
+          ],
+          "note": "字段证据按直接来源定位；值仅为待审候选。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B06-W215-F02",
+      "author_id": "V1-ENT-0185",
+      "subject_ref": "WCD10-B06-W215",
+      "field": "genre_or_form",
+      "value": "小说",
+      "source_refs": [
+        "WCD10-B06-S226"
+      ],
+      "source_evidence": [
+        {
+          "candidate_id": "WCD10-B06-W215-F02",
+          "fact_candidate_id": "WCD10-B06-W215-F02",
+          "object_ref": "WCD10-B06-W215",
+          "field": "genre_or_form",
+          "value": "小说",
+          "source_refs": [
+            "WCD10-B06-S226"
+          ],
+          "locators": [
+            "Lagartija sin cola – Agencia Literaria Carmen Balcells：实读L11-L19：Novela、2007、Aguilar Chilena；Armando Muñoz-Roa为画家，叙述其离开非形式主义运动、与Luisa逃离及回望Dors；页面另称作者1973年开始写作后搁置。"
+          ],
+          "note": "字段证据按直接来源定位；值仅为待审候选。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B06-W215-F03",
+      "author_id": "V1-ENT-0185",
+      "subject_ref": "WCD10-B06-W215",
+      "field": "one_sentence_summary",
+      "value": "画家Armando Muñoz-Roa与Luisa离开巴塞罗那后，回想他曾试图拯救的Dors小镇及家族衰落。",
+      "source_refs": [
+        "WCD10-B06-S226"
+      ],
+      "source_evidence": [
+        {
+          "candidate_id": "WCD10-B06-W215-F03",
+          "fact_candidate_id": "WCD10-B06-W215-F03",
+          "object_ref": "WCD10-B06-W215",
+          "field": "one_sentence_summary",
+          "value": "画家Armando Muñoz-Roa与Luisa离开巴塞罗那后，回想他曾试图拯救的Dors小镇及家族衰落。",
+          "source_refs": [
+            "WCD10-B06-S226"
+          ],
+          "locators": [
+            "Lagartija sin cola – Agencia Literaria Carmen Balcells：实读L11-L19：Novela、2007、Aguilar Chilena；Armando Muñoz-Roa为画家，叙述其离开非形式主义运动、与Luisa逃离及回望Dors；页面另称作者1973年开始写作后搁置。"
+          ],
+          "note": "字段证据按直接来源定位；值仅为待审候选。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B06-W215-F04",
+      "author_id": "V1-ENT-0185",
+      "subject_ref": "WCD10-B06-W215",
+      "field": "bibliographic_note",
+      "value": "作品页称Donoso于1973年开始写作后搁置稿件，2007年出版；创作开始年份与出版年份不合并。",
+      "source_refs": [
+        "WCD10-B06-S226"
+      ],
+      "source_evidence": [
+        {
+          "candidate_id": "WCD10-B06-W215-F04",
+          "fact_candidate_id": "WCD10-B06-W215-F04",
+          "object_ref": "WCD10-B06-W215",
+          "field": "bibliographic_note",
+          "value": "作品页称Donoso于1973年开始写作后搁置稿件，2007年出版；创作开始年份与出版年份不合并。",
+          "source_refs": [
+            "WCD10-B06-S226"
+          ],
+          "locators": [
+            "Lagartija sin cola – Agencia Literaria Carmen Balcells：实读L11-L19：Novela、2007、Aguilar Chilena；Armando Muñoz-Roa为画家，叙述其离开非形式主义运动、与Luisa逃离及回望Dors；页面另称作者1973年开始写作后搁置。"
+          ],
+          "note": "字段证据按直接来源定位；值仅为待审候选。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B06-W216-F01",
+      "author_id": "V1-ENT-0185",
+      "subject_ref": "WCD10-B06-W216",
+      "field": "first_publication_year",
+      "value": "1960",
+      "source_refs": [
+        "WCD10-B06-S228",
+        "WCD10-B06-S234"
+      ],
+      "source_evidence": [
+        {
+          "candidate_id": "WCD10-B06-W216-F01",
+          "fact_candidate_id": "WCD10-B06-W216-F01",
+          "object_ref": "WCD10-B06-W216",
+          "field": "first_publication_year",
+          "value": "1960",
+          "source_refs": [
+            "WCD10-B06-S228",
+            "WCD10-B06-S234"
+          ],
+          "locators": [
+            "Charlestón – Agencia Literaria Carmen Balcells：实读L12-L18：Relatos、1960、Nascimento；该卷明确收六篇短篇并逐篇列名。",
+            "Donoso, José, 1924-1996 – Referencias bibliográficas, Memoria Chilena：实读L127-L142、L188-L200、L227-L238、L261-L284及L334-L354：国家馆藏分条著录Cuatro para Delfina (c1982)、Los mejores cuentos de José Donoso (1966)、Cuentos (c1971)、Dos cuentos (1956)、Taratuta; Naturaleza muerta con cachimba (c1990)、Nueve novelas breves (1996)、Artículos de incierta necesidad (c1998)等版本/页数。"
+          ],
+          "note": "字段证据按直接来源定位；值仅为待审候选。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B06-W216-F02",
+      "author_id": "V1-ENT-0185",
+      "subject_ref": "WCD10-B06-W216",
+      "field": "genre_or_form",
+      "value": "短篇小说集（六篇）",
+      "source_refs": [
+        "WCD10-B06-S228"
+      ],
+      "source_evidence": [
+        {
+          "candidate_id": "WCD10-B06-W216-F02",
+          "fact_candidate_id": "WCD10-B06-W216-F02",
+          "object_ref": "WCD10-B06-W216",
+          "field": "genre_or_form",
+          "value": "短篇小说集（六篇）",
+          "source_refs": [
+            "WCD10-B06-S228"
+          ],
+          "locators": [
+            "Charlestón – Agencia Literaria Carmen Balcells：实读L12-L18：Relatos、1960、Nascimento；该卷明确收六篇短篇并逐篇列名。"
+          ],
+          "note": "字段证据按直接来源定位；值仅为待审候选。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B06-W216-F03",
+      "author_id": "V1-ENT-0185",
+      "subject_ref": "WCD10-B06-W216",
+      "field": "one_sentence_summary",
+      "value": "该卷收录《El hombrecito》《Ana María》《El charlestón》《La puerta cerrada》《Paseo》和《Santelices》六篇短篇。",
+      "source_refs": [
+        "WCD10-B06-S228"
+      ],
+      "source_evidence": [
+        {
+          "candidate_id": "WCD10-B06-W216-F03",
+          "fact_candidate_id": "WCD10-B06-W216-F03",
+          "object_ref": "WCD10-B06-W216",
+          "field": "one_sentence_summary",
+          "value": "该卷收录《El hombrecito》《Ana María》《El charlestón》《La puerta cerrada》《Paseo》和《Santelices》六篇短篇。",
+          "source_refs": [
+            "WCD10-B06-S228"
+          ],
+          "locators": [
+            "Charlestón – Agencia Literaria Carmen Balcells：实读L12-L18：Relatos、1960、Nascimento；该卷明确收六篇短篇并逐篇列名。"
+          ],
+          "note": "字段证据按直接来源定位；值仅为待审候选。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B06-W217-F01",
+      "author_id": "V1-ENT-0185",
+      "subject_ref": "WCD10-B06-W217",
+      "field": "first_publication_year",
+      "value": "1996",
+      "source_refs": [
+        "WCD10-B06-S229",
+        "WCD10-B06-S230"
+      ],
+      "source_evidence": [
+        {
+          "candidate_id": "WCD10-B06-W217-F01",
+          "fact_candidate_id": "WCD10-B06-W217-F01",
+          "object_ref": "WCD10-B06-W217",
+          "field": "first_publication_year",
+          "value": "1996",
+          "source_refs": [
+            "WCD10-B06-S229",
+            "WCD10-B06-S230"
+          ],
+          "locators": [
+            "Portada de Nueve novelas breves, 1996 – Memoria Chilena：实读L70-L73及L85-L99：馆藏记录“Nueve novelas breves / Donoso. 1a edición, Santiago: Alfaguara, impresión de 1996, 606 páginas”。",
+            "Nueve novelas breves – Google Books：实读L16-L18、L30-L39：Alfaguara 1996、606页；描述称本卷收录九部先前分见三个独立书卷的中篇，并点名Tres novelitas burguesas、Cuatro para Delfina及Taratuta两部。"
+          ],
+          "note": "字段证据按直接来源定位；值仅为待审候选。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B06-W217-F02",
+      "author_id": "V1-ENT-0185",
+      "subject_ref": "WCD10-B06-W217",
+      "field": "genre_or_form",
+      "value": "九部中篇小说的合辑（collection）",
+      "source_refs": [
+        "WCD10-B06-S230"
+      ],
+      "source_evidence": [
+        {
+          "candidate_id": "WCD10-B06-W217-F02",
+          "fact_candidate_id": "WCD10-B06-W217-F02",
+          "object_ref": "WCD10-B06-W217",
+          "field": "genre_or_form",
+          "value": "九部中篇小说的合辑（collection）",
+          "source_refs": [
+            "WCD10-B06-S230"
+          ],
+          "locators": [
+            "Nueve novelas breves – Google Books：实读L16-L18、L30-L39：Alfaguara 1996、606页；描述称本卷收录九部先前分见三个独立书卷的中篇，并点名Tres novelitas burguesas、Cuatro para Delfina及Taratuta两部。"
+          ],
+          "note": "字段证据按直接来源定位；值仅为待审候选。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B06-W217-F03",
+      "author_id": "V1-ENT-0185",
+      "subject_ref": "WCD10-B06-W217",
+      "field": "one_sentence_summary",
+      "value": "该合辑重收九部此前分见三个独立书卷的中篇小说，包括《Tres novelitas burguesas》《Cuatro para Delfina》及Taratuta卷中的两部小说。",
+      "source_refs": [
+        "WCD10-B06-S230"
+      ],
+      "source_evidence": [
+        {
+          "candidate_id": "WCD10-B06-W217-F03",
+          "fact_candidate_id": "WCD10-B06-W217-F03",
+          "object_ref": "WCD10-B06-W217",
+          "field": "one_sentence_summary",
+          "value": "该合辑重收九部此前分见三个独立书卷的中篇小说，包括《Tres novelitas burguesas》《Cuatro para Delfina》及Taratuta卷中的两部小说。",
+          "source_refs": [
+            "WCD10-B06-S230"
+          ],
+          "locators": [
+            "Nueve novelas breves – Google Books：实读L16-L18、L30-L39：Alfaguara 1996、606页；描述称本卷收录九部先前分见三个独立书卷的中篇，并点名Tres novelitas burguesas、Cuatro para Delfina及Taratuta两部。"
+          ],
+          "note": "字段证据按直接来源定位；值仅为待审候选。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B06-W217-F04",
+      "author_id": "V1-ENT-0185",
+      "subject_ref": "WCD10-B06-W217",
+      "field": "bibliographic_note",
+      "value": "国家图书馆目录将1996年记录标为1a edición；Google Books同页版次元数据却标reprint。两个记录保留，未经独立审读不裁定字段差异。",
+      "source_refs": [
+        "WCD10-B06-S229",
+        "WCD10-B06-S230"
+      ],
+      "source_evidence": [
+        {
+          "candidate_id": "WCD10-B06-W217-F04",
+          "fact_candidate_id": "WCD10-B06-W217-F04",
+          "object_ref": "WCD10-B06-W217",
+          "field": "bibliographic_note",
+          "value": "国家图书馆目录将1996年记录标为1a edición；Google Books同页版次元数据却标reprint。两个记录保留，未经独立审读不裁定字段差异。",
+          "source_refs": [
+            "WCD10-B06-S229",
+            "WCD10-B06-S230"
+          ],
+          "locators": [
+            "Portada de Nueve novelas breves, 1996 – Memoria Chilena：实读L70-L73及L85-L99：馆藏记录“Nueve novelas breves / Donoso. 1a edición, Santiago: Alfaguara, impresión de 1996, 606 páginas”。",
+            "Nueve novelas breves – Google Books：实读L16-L18、L30-L39：Alfaguara 1996、606页；描述称本卷收录九部先前分见三个独立书卷的中篇，并点名Tres novelitas burguesas、Cuatro para Delfina及Taratuta两部。"
+          ],
+          "note": "字段证据按直接来源定位；值仅为待审候选。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B06-W218-F01",
+      "author_id": "V1-ENT-0185",
+      "subject_ref": "WCD10-B06-W218",
+      "field": "first_publication_year",
+      "value": "1956",
+      "source_refs": [
+        "WCD10-B06-S231",
+        "WCD10-B06-S234",
+        "WCD10-B06-S205"
+      ],
+      "source_evidence": [
+        {
+          "candidate_id": "WCD10-B06-W218-F01",
+          "fact_candidate_id": "WCD10-B06-W218-F01",
+          "object_ref": "WCD10-B06-W218",
+          "field": "first_publication_year",
+          "value": "1956",
+          "source_refs": [
+            "WCD10-B06-S231",
+            "WCD10-B06-S234",
+            "WCD10-B06-S205"
+          ],
+          "locators": [
+            "Donoso & Antúnez. A propósito de algunos paratextos icónicos：实读PDF L0-L19、L352-L379：Anales de Literatura Chilena 2024年第41期；作者Juan D. Cid Hidalgo；直接分析1956《Dos cuentos》卷，列“两篇故事+三幅版画”、45页、500册。",
+            "Donoso, José, 1924-1996 – Referencias bibliográficas, Memoria Chilena：实读L127-L142、L188-L200、L227-L238、L261-L284及L334-L354：国家馆藏分条著录Cuatro para Delfina (c1982)、Los mejores cuentos de José Donoso (1966)、Cuentos (c1971)、Dos cuentos (1956)、Taratuta; Naturaleza muerta con cachimba (c1990)、Nueve novelas breves (1996)、Artículos de incierta necesidad (c1998)等版本/页数。",
+            "Veraneo y otros cuentos – Memoria Chilena：实读L72-L87：作品标题；说明为七篇故事的书卷及七个篇名；说明其为Donoso首书；指向1955年封面。"
+          ],
+          "note": "字段证据按直接来源定位；值仅为待审候选。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B06-W218-F02",
+      "author_id": "V1-ENT-0185",
+      "subject_ref": "WCD10-B06-W218",
+      "field": "genre_or_form",
+      "value": "短篇小说及版画合集（collection）",
+      "source_refs": [
+        "WCD10-B06-S231"
+      ],
+      "source_evidence": [
+        {
+          "candidate_id": "WCD10-B06-W218-F02",
+          "fact_candidate_id": "WCD10-B06-W218-F02",
+          "object_ref": "WCD10-B06-W218",
+          "field": "genre_or_form",
+          "value": "短篇小说及版画合集（collection）",
+          "source_refs": [
+            "WCD10-B06-S231"
+          ],
+          "locators": [
+            "Donoso & Antúnez. A propósito de algunos paratextos icónicos：实读PDF L0-L19、L352-L379：Anales de Literatura Chilena 2024年第41期；作者Juan D. Cid Hidalgo；直接分析1956《Dos cuentos》卷，列“两篇故事+三幅版画”、45页、500册。"
+          ],
+          "note": "字段证据按直接来源定位；值仅为待审候选。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B06-W218-F03",
+      "author_id": "V1-ENT-0185",
+      "subject_ref": "WCD10-B06-W218",
+      "field": "one_sentence_summary",
+      "value": "这册45页、500册的限量卷收录《El hombrecito》和《Ana María》两篇故事，并配有Nemesio Antúnez三幅版画。",
+      "source_refs": [
+        "WCD10-B06-S231"
+      ],
+      "source_evidence": [
+        {
+          "candidate_id": "WCD10-B06-W218-F03",
+          "fact_candidate_id": "WCD10-B06-W218-F03",
+          "object_ref": "WCD10-B06-W218",
+          "field": "one_sentence_summary",
+          "value": "这册45页、500册的限量卷收录《El hombrecito》和《Ana María》两篇故事，并配有Nemesio Antúnez三幅版画。",
+          "source_refs": [
+            "WCD10-B06-S231"
+          ],
+          "locators": [
+            "Donoso & Antúnez. A propósito de algunos paratextos icónicos：实读PDF L0-L19、L352-L379：Anales de Literatura Chilena 2024年第41期；作者Juan D. Cid Hidalgo；直接分析1956《Dos cuentos》卷，列“两篇故事+三幅版画”、45页、500册。"
+          ],
+          "note": "字段证据按直接来源定位；值仅为待审候选。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B06-W219-F01",
+      "author_id": "V1-ENT-0185",
+      "subject_ref": "WCD10-B06-W219",
+      "field": "first_publication_year",
+      "value": "1998",
+      "source_refs": [
+        "WCD10-B06-S232",
+        "WCD10-B06-S234"
+      ],
+      "source_evidence": [
+        {
+          "candidate_id": "WCD10-B06-W219-F01",
+          "fact_candidate_id": "WCD10-B06-W219-F01",
+          "object_ref": "WCD10-B06-W219",
+          "field": "first_publication_year",
+          "value": "1998",
+          "source_refs": [
+            "WCD10-B06-S232",
+            "WCD10-B06-S234"
+          ],
+          "locators": [
+            "Artículos de incierta necesidad – Agencia Literaria Carmen Balcells：实读L42-L47：Otros géneros、1998、Alfaguara；说明卷内精选自1960年起的新闻作品，由Cecilia García Huidobro按主题编排。",
+            "Donoso, José, 1924-1996 – Referencias bibliográficas, Memoria Chilena：实读L127-L142、L188-L200、L227-L238、L261-L284及L334-L354：国家馆藏分条著录Cuatro para Delfina (c1982)、Los mejores cuentos de José Donoso (1966)、Cuentos (c1971)、Dos cuentos (1956)、Taratuta; Naturaleza muerta con cachimba (c1990)、Nueve novelas breves (1996)、Artículos de incierta necesidad (c1998)等版本/页数。"
+          ],
+          "note": "字段证据按直接来源定位；值仅为待审候选。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B06-W219-F02",
+      "author_id": "V1-ENT-0185",
+      "subject_ref": "WCD10-B06-W219",
+      "field": "genre_or_form",
+      "value": "新闻文章、纪事选集（collection）",
+      "source_refs": [
+        "WCD10-B06-S232"
+      ],
+      "source_evidence": [
+        {
+          "candidate_id": "WCD10-B06-W219-F02",
+          "fact_candidate_id": "WCD10-B06-W219-F02",
+          "object_ref": "WCD10-B06-W219",
+          "field": "genre_or_form",
+          "value": "新闻文章、纪事选集（collection）",
+          "source_refs": [
+            "WCD10-B06-S232"
+          ],
+          "locators": [
+            "Artículos de incierta necesidad – Agencia Literaria Carmen Balcells：实读L42-L47：Otros géneros、1998、Alfaguara；说明卷内精选自1960年起的新闻作品，由Cecilia García Huidobro按主题编排。"
+          ],
+          "note": "字段证据按直接来源定位；值仅为待审候选。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B06-W219-F03",
+      "author_id": "V1-ENT-0185",
+      "subject_ref": "WCD10-B06-W219",
+      "field": "one_sentence_summary",
+      "value": "本卷选收作者自1960年起的新闻作品，包括文章与纪事，由Cecilia García Huidobro按主题编排。",
+      "source_refs": [
+        "WCD10-B06-S232"
+      ],
+      "source_evidence": [
+        {
+          "candidate_id": "WCD10-B06-W219-F03",
+          "fact_candidate_id": "WCD10-B06-W219-F03",
+          "object_ref": "WCD10-B06-W219",
+          "field": "one_sentence_summary",
+          "value": "本卷选收作者自1960年起的新闻作品，包括文章与纪事，由Cecilia García Huidobro按主题编排。",
+          "source_refs": [
+            "WCD10-B06-S232"
+          ],
+          "locators": [
+            "Artículos de incierta necesidad – Agencia Literaria Carmen Balcells：实读L42-L47：Otros géneros、1998、Alfaguara；说明卷内精选自1960年起的新闻作品，由Cecilia García Huidobro按主题编排。"
+          ],
+          "note": "字段证据按直接来源定位；值仅为待审候选。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B06-W220-F01",
+      "author_id": "V1-ENT-0185",
+      "subject_ref": "WCD10-B06-W220",
+      "field": "first_publication_year",
+      "value": "2004",
+      "source_refs": [
+        "WCD10-B06-S233"
+      ],
+      "source_evidence": [
+        {
+          "candidate_id": "WCD10-B06-W220-F01",
+          "fact_candidate_id": "WCD10-B06-W220-F01",
+          "object_ref": "WCD10-B06-W220",
+          "field": "first_publication_year",
+          "value": "2004",
+          "source_refs": [
+            "WCD10-B06-S233"
+          ],
+          "locators": [
+            "EL ESCRIBIDOR INTRUSO – Ediciones UDP：实读L44-L68：书名、副题“Artículos, crónicas y entrevistas”、José Donoso、381页、2004；出版社介绍其收录1960年代初期文章、纪事和采访。"
+          ],
+          "note": "字段证据按直接来源定位；值仅为待审候选。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B06-W220-F02",
+      "author_id": "V1-ENT-0185",
+      "subject_ref": "WCD10-B06-W220",
+      "field": "genre_or_form",
+      "value": "文章、纪事与访谈合集（collection）",
+      "source_refs": [
+        "WCD10-B06-S233"
+      ],
+      "source_evidence": [
+        {
+          "candidate_id": "WCD10-B06-W220-F02",
+          "fact_candidate_id": "WCD10-B06-W220-F02",
+          "object_ref": "WCD10-B06-W220",
+          "field": "genre_or_form",
+          "value": "文章、纪事与访谈合集（collection）",
+          "source_refs": [
+            "WCD10-B06-S233"
+          ],
+          "locators": [
+            "EL ESCRIBIDOR INTRUSO – Ediciones UDP：实读L44-L68：书名、副题“Artículos, crónicas y entrevistas”、José Donoso、381页、2004；出版社介绍其收录1960年代初期文章、纪事和采访。"
+          ],
+          "note": "字段证据按直接来源定位；值仅为待审候选。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B06-W220-F03",
+      "author_id": "V1-ENT-0185",
+      "subject_ref": "WCD10-B06-W220",
+      "field": "one_sentence_summary",
+      "value": "本卷收录Donoso 1960年代初的新闻文章、纪事与采访，涉及其观察环境、人群、文学和社会生活的文字。",
+      "source_refs": [
+        "WCD10-B06-S233"
+      ],
+      "source_evidence": [
+        {
+          "candidate_id": "WCD10-B06-W220-F03",
+          "fact_candidate_id": "WCD10-B06-W220-F03",
+          "object_ref": "WCD10-B06-W220",
+          "field": "one_sentence_summary",
+          "value": "本卷收录Donoso 1960年代初的新闻文章、纪事与采访，涉及其观察环境、人群、文学和社会生活的文字。",
+          "source_refs": [
+            "WCD10-B06-S233"
+          ],
+          "locators": [
+            "EL ESCRIBIDOR INTRUSO – Ediciones UDP：实读L44-L68：书名、副题“Artículos, crónicas y entrevistas”、José Donoso、381页、2004；出版社介绍其收录1960年代初期文章、纪事和采访。"
+          ],
+          "note": "字段证据按直接来源定位；值仅为待审候选。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B06-W221-F01",
+      "author_id": "V1-ENT-0185",
+      "subject_ref": "WCD10-B06-W221",
+      "field": "first_publication_year",
+      "value": "1966",
+      "source_refs": [
+        "WCD10-B06-S234"
+      ],
+      "source_evidence": [
+        {
+          "candidate_id": "WCD10-B06-W221-F01",
+          "fact_candidate_id": "WCD10-B06-W221-F01",
+          "object_ref": "WCD10-B06-W221",
+          "field": "first_publication_year",
+          "value": "1966",
+          "source_refs": [
+            "WCD10-B06-S234"
+          ],
+          "locators": [
+            "Donoso, José, 1924-1996 – Referencias bibliográficas, Memoria Chilena：实读L127-L142、L188-L200、L227-L238、L261-L284及L334-L354：国家馆藏分条著录Cuatro para Delfina (c1982)、Los mejores cuentos de José Donoso (1966)、Cuentos (c1971)、Dos cuentos (1956)、Taratuta; Naturaleza muerta con cachimba (c1990)、Nueve novelas breves (1996)、Artículos de incierta necesidad (c1998)等版本/页数。"
+          ],
+          "note": "字段证据按直接来源定位；值仅为待审候选。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B06-W221-F02",
+      "author_id": "V1-ENT-0185",
+      "subject_ref": "WCD10-B06-W221",
+      "field": "genre_or_form",
+      "value": "短篇小说选集（collection）",
+      "source_refs": [
+        "WCD10-B06-S234"
+      ],
+      "source_evidence": [
+        {
+          "candidate_id": "WCD10-B06-W221-F02",
+          "fact_candidate_id": "WCD10-B06-W221-F02",
+          "object_ref": "WCD10-B06-W221",
+          "field": "genre_or_form",
+          "value": "短篇小说选集（collection）",
+          "source_refs": [
+            "WCD10-B06-S234"
+          ],
+          "locators": [
+            "Donoso, José, 1924-1996 – Referencias bibliográficas, Memoria Chilena：实读L127-L142、L188-L200、L227-L238、L261-L284及L334-L354：国家馆藏分条著录Cuatro para Delfina (c1982)、Los mejores cuentos de José Donoso (1966)、Cuentos (c1971)、Dos cuentos (1956)、Taratuta; Naturaleza muerta con cachimba (c1990)、Nueve novelas breves (1996)、Artículos de incierta necesidad (c1998)等版本/页数。"
+          ],
+          "note": "字段证据按直接来源定位；值仅为待审候选。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B06-W221-F03",
+      "author_id": "V1-ENT-0185",
+      "subject_ref": "WCD10-B06-W221",
+      "field": "one_sentence_summary",
+      "value": "国家图书馆目录记录的Donoso短篇选集，由Zig-Zag于1966年在圣地亚哥出版，192页。",
+      "source_refs": [
+        "WCD10-B06-S234"
+      ],
+      "source_evidence": [
+        {
+          "candidate_id": "WCD10-B06-W221-F03",
+          "fact_candidate_id": "WCD10-B06-W221-F03",
+          "object_ref": "WCD10-B06-W221",
+          "field": "one_sentence_summary",
+          "value": "国家图书馆目录记录的Donoso短篇选集，由Zig-Zag于1966年在圣地亚哥出版，192页。",
+          "source_refs": [
+            "WCD10-B06-S234"
+          ],
+          "locators": [
+            "Donoso, José, 1924-1996 – Referencias bibliográficas, Memoria Chilena：实读L127-L142、L188-L200、L227-L238、L261-L284及L334-L354：国家馆藏分条著录Cuatro para Delfina (c1982)、Los mejores cuentos de José Donoso (1966)、Cuentos (c1971)、Dos cuentos (1956)、Taratuta; Naturaleza muerta con cachimba (c1990)、Nueve novelas breves (1996)、Artículos de incierta necesidad (c1998)等版本/页数。"
+          ],
+          "note": "字段证据按直接来源定位；值仅为待审候选。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B06-W221-F04",
+      "author_id": "V1-ENT-0185",
+      "subject_ref": "WCD10-B06-W221",
+      "field": "bibliographic_note",
+      "value": "国家图书馆目录另列《Cuentos》Seix Barral, c1971, 284页；Balcells作品页将Cuentos列1970并称其距“原始出版”约三十年。Cuentos与本题名间的重编/复版关系、日期含义及独立合集层级未由直接对象证据裁定，保持待审。",
+      "source_refs": [
+        "WCD10-B06-S234",
+        "WCD10-B06-S227"
+      ],
+      "source_evidence": [
+        {
+          "candidate_id": "WCD10-B06-W221-F04",
+          "fact_candidate_id": "WCD10-B06-W221-F04",
+          "object_ref": "WCD10-B06-W221",
+          "field": "bibliographic_note",
+          "value": "国家图书馆目录另列《Cuentos》Seix Barral, c1971, 284页；Balcells作品页将Cuentos列1970并称其距“原始出版”约三十年。Cuentos与本题名间的重编/复版关系、日期含义及独立合集层级未由直接对象证据裁定，保持待审。",
+          "source_refs": [
+            "WCD10-B06-S234",
+            "WCD10-B06-S227"
+          ],
+          "locators": [
+            "Donoso, José, 1924-1996 – Referencias bibliográficas, Memoria Chilena：实读L127-L142、L188-L200、L227-L238、L261-L284及L334-L354：国家馆藏分条著录Cuatro para Delfina (c1982)、Los mejores cuentos de José Donoso (1966)、Cuentos (c1971)、Dos cuentos (1956)、Taratuta; Naturaleza muerta con cachimba (c1990)、Nueve novelas breves (1996)、Artículos de incierta necesidad (c1998)等版本/页数。",
+            "Cuentos – Agencia Literaria Carmen Balcells：实读L11-L21：Relatos、1970、Alfaguara、332页；简介列“Veraneo”至“El Charlestón”等篇目线索，同时说该Cuentos卷在“原始出版”三十年后仍有意义，版次/重编层级并未解释。"
+          ],
+          "note": "字段证据按直接来源定位；值仅为待审候选。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B06-F274",
+      "author_id": "V1-ENT-0185",
+      "subject_ref": "V1-ENT-0190",
+      "field": "genre_or_form",
+      "value": "小说",
+      "source_refs": [
+        "WCD10-B06-S203"
+      ],
+      "source_evidence": [
+        {
+          "candidate_id": "WCD10-B06-F274",
+          "fact_candidate_id": "WCD10-B06-F274",
+          "object_ref": "V1-ENT-0190",
+          "field": "genre_or_form",
+          "value": "小说",
+          "source_refs": [
+            "WCD10-B06-S203"
+          ],
+          "locators": [
+            "El obsceno pájaro de la noche – Memoria Chilena：实读L72-L85：作品标题；作者称novela；Seix Barral 1970出版；页面归属的评论对混沌叙事、记忆与阶级权力的说明。"
+          ],
+          "note": "只补充本作品页面明确称作novela的体裁；不改变旧首版年1970、旧书目事实、卡片或作者CREATED关系。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B06-F275",
+      "author_id": "V1-ENT-0185",
+      "subject_ref": "V1-ENT-0190",
+      "field": "one_sentence_summary",
+      "value": "Humberto Peñaloza是Jerónimo Azcoitía的私人秘书，被交付照看其畸形儿并将孩子藏在Rinconada；另一重要场景为Azcoitía家族拥有、由孤儿与老人居住的La Encarnación de la Chumba。",
+      "source_refs": [
+        "WCD10-B06-S221"
+      ],
+      "source_evidence": [
+        {
+          "candidate_id": "WCD10-B06-F275",
+          "fact_candidate_id": "WCD10-B06-F275",
+          "object_ref": "V1-ENT-0190",
+          "field": "one_sentence_summary",
+          "value": "Humberto Peñaloza是Jerónimo Azcoitía的私人秘书，被交付照看其畸形儿并将孩子藏在Rinconada；另一重要场景为Azcoitía家族拥有、由孤儿与老人居住的La Encarnación de la Chumba。",
+          "source_refs": [
+            "WCD10-B06-S221"
+          ],
+          "locators": [
+            "El obsceno pájaro de la noche – Agencia Literaria Carmen Balcells：实读L11-L21：Novela、1970；Humberto Peñaloza为Jerónimo Azcoitía的私人秘书，负责被隐藏在Rinconada的畸形儿；另一个主要场景为Azcoitía家族拥有的修道院院所。"
+          ],
+          "note": "本摘要只记录经纪机构作品页直接提供的人物、情节和场景；旧源SRC-0146、SRC-0144、SRC-0283、旧facts/card/CREATED保留。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B06-F276",
+      "author_id": "V1-ENT-0185",
+      "subject_ref": "V1-ENT-0191",
+      "field": "genre_or_form",
+      "value": "小说",
+      "source_refs": [
+        "WCD10-B06-S204"
+      ],
+      "source_evidence": [
+        {
+          "candidate_id": "WCD10-B06-F276",
+          "fact_candidate_id": "WCD10-B06-F276",
+          "object_ref": "V1-ENT-0191",
+          "field": "genre_or_form",
+          "value": "小说",
+          "source_refs": [
+            "WCD10-B06-S204"
+          ],
+          "locators": [
+            "El lugar sin límites – Memoria Chilena：实读L72-L85：作品标题、开篇场景、从另一长篇构思中拆出章节及交给Joaquín Mortiz的创作/出版背景；本页未给精确首版年份。"
+          ],
+          "note": "只补作品页面明确称novela的体裁；保留既有first_publication_year 1966与全部旧行。Agencia列表另列1965，冲突单列记录，不在本候选改年。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B06-F277",
+      "author_id": "V1-ENT-0185",
+      "subject_ref": "V1-ENT-0191",
+      "field": "one_sentence_summary",
+      "value": "Manuela生活在乡镇妓院，小说围绕她与乡镇边缘空间中的人物关系展开，并涉及情色关系及支配。",
+      "source_refs": [
+        "WCD10-B06-S222"
+      ],
+      "source_evidence": [
+        {
+          "candidate_id": "WCD10-B06-F277",
+          "fact_candidate_id": "WCD10-B06-F277",
+          "object_ref": "V1-ENT-0191",
+          "field": "one_sentence_summary",
+          "value": "Manuela生活在乡镇妓院，小说围绕她与乡镇边缘空间中的人物关系展开，并涉及情色关系及支配。",
+          "source_refs": [
+            "WCD10-B06-S222"
+          ],
+          "locators": [
+            "El lugar sin límites – Agencia Literaria Carmen Balcells：实读L11-L22：页面标Novela、1965；Manuela在乡镇妓院的生活、性别双重性及周围情欲/支配关系。"
+          ],
+          "note": "据直接作品页描述主要人物与场景；不把经纪机构评论语句当作情节事实。旧SRC-0147、SRC-0144和旧事实/卡片/CREATED保留。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B06-F278",
+      "author_id": "V1-ENT-0185",
+      "subject_ref": "V1-ENT-0192",
+      "field": "genre_or_form",
+      "value": "小说",
+      "source_refs": [
+        "WCD10-B06-S202"
+      ],
+      "source_evidence": [
+        {
+          "candidate_id": "WCD10-B06-F278",
+          "fact_candidate_id": "WCD10-B06-F278",
+          "object_ref": "V1-ENT-0192",
+          "field": "genre_or_form",
+          "value": "小说",
+          "source_refs": [
+            "WCD10-B06-S202"
+          ],
+          "locators": [
+            "Coronación – Memoria Chilena：实读L72-L83：作品标题、novela体裁、Nascimento首版1957、作者自述其作品面向衰落中的智利大资产阶级。"
+          ],
+          "note": "补作品页明确novela体裁；保留1957既有年份及V1-REL-0120。Agencia列表的1958另作冲突记录，不覆盖旧fact。"
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B06-F279",
+      "author_id": "V1-ENT-0185",
+      "subject_ref": "V1-ENT-0192",
+      "field": "one_sentence_summary",
+      "value": "独居的Andrés Ábalos见证九十多岁祖母生命最后阶段及其痴呆；故事亦呈现圣地亚哥旧家族宅邸内的家庭生活。",
+      "source_refs": [
+        "WCD10-B06-S223"
+      ],
+      "source_evidence": [
+        {
+          "candidate_id": "WCD10-B06-F279",
+          "fact_candidate_id": "WCD10-B06-F279",
+          "object_ref": "V1-ENT-0192",
+          "field": "one_sentence_summary",
+          "value": "独居的Andrés Ábalos见证九十多岁祖母生命最后阶段及其痴呆；故事亦呈现圣地亚哥旧家族宅邸内的家庭生活。",
+          "source_refs": [
+            "WCD10-B06-S223"
+          ],
+          "locators": [
+            "Coronación – Agencia Literaria Carmen Balcells：实读L11-L22：Novela、1958；Andrés Ábalos见证九十多岁祖母生命最后阶段及其痴呆；简介涉及圣地亚哥旧家族宅邸。"
+          ],
+          "note": "摘要依据经纪机构作品页的人物与情节介绍；旧SRC-0145、SRC-0144、facts/card/CREATED及旧年月冲突均保留。"
+        }
+      ]
+    }
+  ],
+  "created_relationships": [
+    {
+      "author_id": "V1-ENT-0172",
+      "candidate_entity_id": "WCD10-B06-W001",
+      "subject_id": "V1-ENT-0172",
+      "relation_type": "CREATED",
+      "object_candidate_id": "WCD10-B06-W001",
+      "source_refs": [
+        "WCD10-B06-S001",
+        "WCD10-B06-S003"
+      ],
+      "source_matrix_rows": [
+        {
+          "relation_candidate_id": "WCD10-B06-W001-R01",
+          "subject_id": "V1-ENT-0172",
+          "relation_type": "CREATED",
+          "object_candidate_id": "WCD10-B06-W001",
+          "source_refs": [
+            "WCD10-B06-S001",
+            "WCD10-B06-S003"
+          ],
+          "evidence_note": "来源对作品与作者直接署名/列名；CREATED候选由created_source_refs携带，不在extra_relationships重复写入。"
+        }
+      ]
+    },
+    {
+      "author_id": "V1-ENT-0172",
+      "candidate_entity_id": "WCD10-B06-W002",
+      "subject_id": "V1-ENT-0172",
+      "relation_type": "CREATED",
+      "object_candidate_id": "WCD10-B06-W002",
+      "source_refs": [
+        "WCD10-B06-S001",
+        "WCD10-B06-S004"
+      ],
+      "source_matrix_rows": [
+        {
+          "relation_candidate_id": "WCD10-B06-W002-R01",
+          "subject_id": "V1-ENT-0172",
+          "relation_type": "CREATED",
+          "object_candidate_id": "WCD10-B06-W002",
+          "source_refs": [
+            "WCD10-B06-S001",
+            "WCD10-B06-S004"
+          ],
+          "evidence_note": "来源对作品与作者直接署名/列名；CREATED候选由created_source_refs携带，不在extra_relationships重复写入。"
+        }
+      ]
+    },
+    {
+      "author_id": "V1-ENT-0172",
+      "candidate_entity_id": "WCD10-B06-W003",
+      "subject_id": "V1-ENT-0172",
+      "relation_type": "CREATED",
+      "object_candidate_id": "WCD10-B06-W003",
+      "source_refs": [
+        "WCD10-B06-S001",
+        "WCD10-B06-S009",
+        "WCD10-B06-S010",
+        "WCD10-B06-S011"
+      ],
+      "source_matrix_rows": [
+        {
+          "relation_candidate_id": "WCD10-B06-W003-R01",
+          "subject_id": "V1-ENT-0172",
+          "relation_type": "CREATED",
+          "object_candidate_id": "WCD10-B06-W003",
+          "source_refs": [
+            "WCD10-B06-S001",
+            "WCD10-B06-S009",
+            "WCD10-B06-S010",
+            "WCD10-B06-S011"
+          ],
+          "evidence_note": "来源对作品与作者直接署名/列名；CREATED候选由created_source_refs携带，不在extra_relationships重复写入。"
+        }
+      ]
+    },
+    {
+      "author_id": "V1-ENT-0172",
+      "candidate_entity_id": "WCD10-B06-W004",
+      "subject_id": "V1-ENT-0172",
+      "relation_type": "CREATED",
+      "object_candidate_id": "WCD10-B06-W004",
+      "source_refs": [
+        "WCD10-B06-S001",
+        "WCD10-B06-S014"
+      ],
+      "source_matrix_rows": [
+        {
+          "relation_candidate_id": "WCD10-B06-W004-R01",
+          "subject_id": "V1-ENT-0172",
+          "relation_type": "CREATED",
+          "object_candidate_id": "WCD10-B06-W004",
+          "source_refs": [
+            "WCD10-B06-S001",
+            "WCD10-B06-S014"
+          ],
+          "evidence_note": "来源对作品与作者直接署名/列名；CREATED候选由created_source_refs携带，不在extra_relationships重复写入。"
+        }
+      ]
+    },
+    {
+      "author_id": "V1-ENT-0172",
+      "candidate_entity_id": "WCD10-B06-W005",
+      "subject_id": "V1-ENT-0172",
+      "relation_type": "CREATED",
+      "object_candidate_id": "WCD10-B06-W005",
+      "source_refs": [
+        "WCD10-B06-S001",
+        "WCD10-B06-S002",
+        "WCD10-B06-S013"
+      ],
+      "source_matrix_rows": [
+        {
+          "relation_candidate_id": "WCD10-B06-W005-R01",
+          "subject_id": "V1-ENT-0172",
+          "relation_type": "CREATED",
+          "object_candidate_id": "WCD10-B06-W005",
+          "source_refs": [
+            "WCD10-B06-S001",
+            "WCD10-B06-S002",
+            "WCD10-B06-S013"
+          ],
+          "evidence_note": "来源对作品与作者直接署名/列名；CREATED候选由created_source_refs携带，不在extra_relationships重复写入。"
+        }
+      ]
+    },
+    {
+      "author_id": "V1-ENT-0184",
+      "candidate_entity_id": "WCD10-B06-W101",
+      "subject_id": "V1-ENT-0184",
+      "relation_type": "CREATED",
+      "object_candidate_id": "WCD10-B06-W101",
+      "source_refs": [
+        "WCD10-B06-S101",
+        "WCD10-B06-S104"
+      ],
+      "source_matrix_rows": []
+    },
+    {
+      "author_id": "V1-ENT-0184",
+      "candidate_entity_id": "WCD10-B06-W102",
+      "subject_id": "V1-ENT-0184",
+      "relation_type": "CREATED",
+      "object_candidate_id": "WCD10-B06-W102",
+      "source_refs": [
+        "WCD10-B06-S101",
+        "WCD10-B06-S103",
+        "WCD10-B06-S106"
+      ],
+      "source_matrix_rows": []
+    },
+    {
+      "author_id": "V1-ENT-0184",
+      "candidate_entity_id": "WCD10-B06-W103",
+      "subject_id": "V1-ENT-0184",
+      "relation_type": "CREATED",
+      "object_candidate_id": "WCD10-B06-W103",
+      "source_refs": [
+        "WCD10-B06-S101",
+        "WCD10-B06-S109",
+        "WCD10-B06-S110"
+      ],
+      "source_matrix_rows": []
+    },
+    {
+      "author_id": "V1-ENT-0185",
+      "candidate_entity_id": "WCD10-B06-W201",
+      "subject_id": "V1-ENT-0185",
+      "relation_type": "CREATED",
+      "object_candidate_id": "WCD10-B06-W201",
+      "source_refs": [
+        "WCD10-B06-S201",
+        "WCD10-B06-S205",
+        "WCD10-B06-S206",
+        "WCD10-B06-S207"
+      ],
+      "source_matrix_rows": []
+    },
+    {
+      "author_id": "V1-ENT-0185",
+      "candidate_entity_id": "WCD10-B06-W202",
+      "subject_id": "V1-ENT-0185",
+      "relation_type": "CREATED",
+      "object_candidate_id": "WCD10-B06-W202",
+      "source_refs": [
+        "WCD10-B06-S201",
+        "WCD10-B06-S208"
+      ],
+      "source_matrix_rows": []
+    },
+    {
+      "author_id": "V1-ENT-0185",
+      "candidate_entity_id": "WCD10-B06-W203",
+      "subject_id": "V1-ENT-0185",
+      "relation_type": "CREATED",
+      "object_candidate_id": "WCD10-B06-W203",
+      "source_refs": [
+        "WCD10-B06-S201",
+        "WCD10-B06-S209"
+      ],
+      "source_matrix_rows": []
+    },
+    {
+      "author_id": "V1-ENT-0185",
+      "candidate_entity_id": "WCD10-B06-W204",
+      "subject_id": "V1-ENT-0185",
+      "relation_type": "CREATED",
+      "object_candidate_id": "WCD10-B06-W204",
+      "source_refs": [
+        "WCD10-B06-S210",
+        "WCD10-B06-S211"
+      ],
+      "source_matrix_rows": []
+    },
+    {
+      "author_id": "V1-ENT-0185",
+      "candidate_entity_id": "WCD10-B06-W205",
+      "subject_id": "V1-ENT-0185",
+      "relation_type": "CREATED",
+      "object_candidate_id": "WCD10-B06-W205",
+      "source_refs": [
+        "WCD10-B06-S201",
+        "WCD10-B06-S212",
+        "WCD10-B06-S216"
+      ],
+      "source_matrix_rows": []
+    },
+    {
+      "author_id": "V1-ENT-0185",
+      "candidate_entity_id": "WCD10-B06-W206",
+      "subject_id": "V1-ENT-0185",
+      "relation_type": "CREATED",
+      "object_candidate_id": "WCD10-B06-W206",
+      "source_refs": [
+        "WCD10-B06-S201",
+        "WCD10-B06-S213"
+      ],
+      "source_matrix_rows": []
+    },
+    {
+      "author_id": "V1-ENT-0185",
+      "candidate_entity_id": "WCD10-B06-W207",
+      "subject_id": "V1-ENT-0185",
+      "relation_type": "CREATED",
+      "object_candidate_id": "WCD10-B06-W207",
+      "source_refs": [
+        "WCD10-B06-S201",
+        "WCD10-B06-S214"
+      ],
+      "source_matrix_rows": []
+    },
+    {
+      "author_id": "V1-ENT-0185",
+      "candidate_entity_id": "WCD10-B06-W208",
+      "subject_id": "V1-ENT-0185",
+      "relation_type": "CREATED",
+      "object_candidate_id": "WCD10-B06-W208",
+      "source_refs": [
+        "WCD10-B06-S201",
+        "WCD10-B06-S215",
+        "WCD10-B06-S216"
+      ],
+      "source_matrix_rows": []
+    },
+    {
+      "author_id": "V1-ENT-0185",
+      "candidate_entity_id": "WCD10-B06-W209",
+      "subject_id": "V1-ENT-0185",
+      "relation_type": "CREATED",
+      "object_candidate_id": "WCD10-B06-W209",
+      "source_refs": [
+        "WCD10-B06-S201",
+        "WCD10-B06-S215"
+      ],
+      "source_matrix_rows": []
+    },
+    {
+      "author_id": "V1-ENT-0185",
+      "candidate_entity_id": "WCD10-B06-W210",
+      "subject_id": "V1-ENT-0185",
+      "relation_type": "CREATED",
+      "object_candidate_id": "WCD10-B06-W210",
+      "source_refs": [
+        "WCD10-B06-S216"
+      ],
+      "source_matrix_rows": []
+    },
+    {
+      "author_id": "V1-ENT-0185",
+      "candidate_entity_id": "WCD10-B06-W211",
+      "subject_id": "V1-ENT-0185",
+      "relation_type": "CREATED",
+      "object_candidate_id": "WCD10-B06-W211",
+      "source_refs": [
+        "WCD10-B06-S201",
+        "WCD10-B06-S218"
+      ],
+      "source_matrix_rows": []
+    },
+    {
+      "author_id": "V1-ENT-0185",
+      "candidate_entity_id": "WCD10-B06-W213",
+      "subject_id": "V1-ENT-0185",
+      "relation_type": "CREATED",
+      "object_candidate_id": "WCD10-B06-W213",
+      "source_refs": [
+        "WCD10-B06-S215",
+        "WCD10-B06-S220",
+        "WCD10-B06-S234"
+      ],
+      "source_matrix_rows": []
+    },
+    {
+      "author_id": "V1-ENT-0185",
+      "candidate_entity_id": "WCD10-B06-W214",
+      "subject_id": "V1-ENT-0185",
+      "relation_type": "CREATED",
+      "object_candidate_id": "WCD10-B06-W214",
+      "source_refs": [
+        "WCD10-B06-S201",
+        "WCD10-B06-S225",
+        "WCD10-B06-S234"
+      ],
+      "source_matrix_rows": []
+    },
+    {
+      "author_id": "V1-ENT-0185",
+      "candidate_entity_id": "WCD10-B06-W215",
+      "subject_id": "V1-ENT-0185",
+      "relation_type": "CREATED",
+      "object_candidate_id": "WCD10-B06-W215",
+      "source_refs": [
+        "WCD10-B06-S201",
+        "WCD10-B06-S226"
+      ],
+      "source_matrix_rows": []
+    },
+    {
+      "author_id": "V1-ENT-0185",
+      "candidate_entity_id": "WCD10-B06-W216",
+      "subject_id": "V1-ENT-0185",
+      "relation_type": "CREATED",
+      "object_candidate_id": "WCD10-B06-W216",
+      "source_refs": [
+        "WCD10-B06-S228",
+        "WCD10-B06-S234"
+      ],
+      "source_matrix_rows": []
+    },
+    {
+      "author_id": "V1-ENT-0185",
+      "candidate_entity_id": "WCD10-B06-W217",
+      "subject_id": "V1-ENT-0185",
+      "relation_type": "CREATED",
+      "object_candidate_id": "WCD10-B06-W217",
+      "source_refs": [
+        "WCD10-B06-S229",
+        "WCD10-B06-S230"
+      ],
+      "source_matrix_rows": []
+    },
+    {
+      "author_id": "V1-ENT-0185",
+      "candidate_entity_id": "WCD10-B06-W218",
+      "subject_id": "V1-ENT-0185",
+      "relation_type": "CREATED",
+      "object_candidate_id": "WCD10-B06-W218",
+      "source_refs": [
+        "WCD10-B06-S205",
+        "WCD10-B06-S231",
+        "WCD10-B06-S234"
+      ],
+      "source_matrix_rows": []
+    },
+    {
+      "author_id": "V1-ENT-0185",
+      "candidate_entity_id": "WCD10-B06-W219",
+      "subject_id": "V1-ENT-0185",
+      "relation_type": "CREATED",
+      "object_candidate_id": "WCD10-B06-W219",
+      "source_refs": [
+        "WCD10-B06-S232",
+        "WCD10-B06-S234"
+      ],
+      "source_matrix_rows": []
+    },
+    {
+      "author_id": "V1-ENT-0185",
+      "candidate_entity_id": "WCD10-B06-W220",
+      "subject_id": "V1-ENT-0185",
+      "relation_type": "CREATED",
+      "object_candidate_id": "WCD10-B06-W220",
+      "source_refs": [
+        "WCD10-B06-S233"
+      ],
+      "source_matrix_rows": []
+    },
+    {
+      "author_id": "V1-ENT-0185",
+      "candidate_entity_id": "WCD10-B06-W221",
+      "subject_id": "V1-ENT-0185",
+      "relation_type": "CREATED",
+      "object_candidate_id": "WCD10-B06-W221",
+      "source_refs": [
+        "WCD10-B06-S234"
+      ],
+      "source_matrix_rows": []
+    }
+  ],
+  "edition_conflicts": [
+    {
+      "source_author_id": "V1-ENT-0185",
+      "source_record": {
+        "object_ref": "V1-ENT-0190",
+        "field": "first_publication_year",
+        "preserved_value": "1970",
+        "preserved_source_ids": [
+          "SRC-0146"
+        ],
+        "fresh_evidence": [
+          {
+            "source_ref": "WCD10-B06-S203",
+            "locator": "L81-L86",
+            "note": "Memoria Chilena对象页及其书目说明Seix Barral 1970。"
+          },
+          {
+            "source_ref": "WCD10-B06-S221",
+            "locator": "L11-L17",
+            "note": "Agency对象页年份栏列1970。"
+          }
+        ],
+        "disposition": "保留旧值及全部卡源/事实；本批不重复提交首版年。"
+      }
+    },
+    {
+      "source_author_id": "V1-ENT-0185",
+      "source_record": {
+        "object_ref": "V1-ENT-0191",
+        "field": "first_publication_year",
+        "preserved_value": "1966",
+        "preserved_source_ids": [
+          "SRC-0147",
+          "SRC-0144"
+        ],
+        "fresh_evidence": [
+          {
+            "source_ref": "WCD10-B06-S204",
+            "locator": "L81-L85",
+            "note": "Memoria Chilena对象页未给明确首版年。"
+          },
+          {
+            "source_ref": "WCD10-B06-S222",
+            "locator": "L11-L17",
+            "note": "Agency直接对象页年份栏列1965。"
+          },
+          {
+            "source_ref": "WCD10-B06-S234",
+            "locator": "L161-L166",
+            "note": "BNC书目列Joaquín Mortiz c1966。"
+          }
+        ],
+        "disposition": "保留旧值；年份栏、约年目录与首版尚不能合并。"
+      }
+    },
+    {
+      "source_author_id": "V1-ENT-0185",
+      "source_record": {
+        "object_ref": "V1-ENT-0192",
+        "field": "first_publication_year",
+        "preserved_value": "1957",
+        "preserved_source_ids": [
+          "SRC-0145"
+        ],
+        "fresh_evidence": [
+          {
+            "source_ref": "WCD10-B06-S202",
+            "locator": "L81-L83",
+            "note": "Memoria Chilena称Nascimento于1957出版。"
+          },
+          {
+            "source_ref": "WCD10-B06-S223",
+            "locator": "L11-L17",
+            "note": "Agency直接对象页年份栏列1958。"
+          },
+          {
+            "source_ref": "WCD10-B06-S234",
+            "locator": "L288-L292",
+            "note": "BNC书目记录Nascimento 1957及Salvat c1970。"
+          }
+        ],
+        "disposition": "保留旧值；区分出版物记录及机构年份栏。"
+      }
+    },
+    {
+      "source_author_id": "V1-ENT-0185",
+      "source_record": {
+        "object_ref": "WCD10-B06-W201",
+        "field": "first_publication_year",
+        "selected_candidate_value": "1955",
+        "fresh_evidence": [
+          {
+            "source_ref": "WCD10-B06-S201",
+            "locator": "L104-L111/L478-L528",
+            "note": "作者档案时间线称故事集1955年出现。"
+          },
+          {
+            "source_ref": "WCD10-B06-S205",
+            "locator": "L81-L87",
+            "note": "直接作品页称首书并展示1955年封面。"
+          },
+          {
+            "source_ref": "WCD10-B06-S206",
+            "locator": "L70-L72",
+            "note": "图书馆条目只列题名、作者、1955、115页，无“1a edición”。"
+          },
+          {
+            "source_ref": "WCD10-B06-S207",
+            "locator": "L40-L47",
+            "note": "Agency页头1951、正文称首集1955。"
+          }
+        ],
+        "disposition": "1955作为待审出版年候选；不把S206称为明确首版目录；保留同页冲突。"
+      }
+    },
+    {
+      "source_author_id": "V1-ENT-0185",
+      "source_record": {
+        "object_ref": "WCD10-B06-W204",
+        "field": "first_publication_year",
+        "selected_candidate_value": "1978",
+        "fresh_evidence": [
+          {
+            "source_ref": "WCD10-B06-S211",
+            "locator": "L70-L73",
+            "note": "BNC目录明确1a edición，Seix Barral 1978，498页。"
+          },
+          {
+            "source_ref": "WCD10-B06-S210",
+            "locator": "L81-L87",
+            "note": "作品页分列1978出版与1979获奖。"
+          },
+          {
+            "source_ref": "WCD10-B06-S217",
+            "locator": "L11-L17",
+            "note": "Agency直接作品页年份栏列1979。"
+          }
+        ],
+        "disposition": "1978有明确首版记录；保留Agency 1979栏头，不推断其含义。"
+      }
+    },
+    {
+      "source_author_id": "V1-ENT-0185",
+      "source_record": {
+        "object_ref": "WCD10-B06-W212",
+        "field": "first_publication_year",
+        "candidate_field": "omitted",
+        "fresh_evidence": [
+          {
+            "source_ref": "WCD10-B06-S219",
+            "locator": "L11-L18",
+            "note": "Agency直接作品页栏头标1981，并确认书卷包含四部novelas cortas。"
+          },
+          {
+            "source_ref": "WCD10-B06-S234",
+            "locator": "L273-L274",
+            "note": "BNC作者书目将Seix Barral版本列为c1982。"
+          }
+        ],
+        "disposition": "不选定首发年份，不提交该字段；仅保留对象、四部中篇结构和冲突记录，等待直接首版目录/实物证据。"
+      }
+    },
+    {
+      "source_author_id": "V1-ENT-0185",
+      "source_record": {
+        "object_ref": "WCD10-B06-W217",
+        "field": "first_publication_year",
+        "selected_candidate_value": "1996",
+        "fresh_evidence": [
+          {
+            "source_ref": "WCD10-B06-S229",
+            "locator": "L70-L73",
+            "note": "BNC目录标1a edición、1996。"
+          },
+          {
+            "source_ref": "WCD10-B06-S230",
+            "locator": "L30-L39",
+            "note": "Google Books对1996 Alfaguara对象元数据标reprint。"
+          }
+        ],
+        "disposition": "首版目录候选与另一目录版次元数据冲突并列，待审。"
+      }
+    },
+    {
+      "source_author_id": "V1-ENT-0185",
+      "source_record": {
+        "object_ref": "WCD10-B06-W221",
+        "field": "first_publication_year",
+        "selected_candidate_value": "1966",
+        "fresh_evidence": [
+          {
+            "source_ref": "WCD10-B06-S234",
+            "locator": "L275-L280",
+            "note": "BNC目录列Zig-Zag 1966、192页；同目录另列Cuentos Seix Barral c1971。"
+          },
+          {
+            "source_ref": "WCD10-B06-S227",
+            "locator": "L11-L21",
+            "note": "Agency Cuentos对象页列1970，提到“原始出版”但未明指1966题名。"
+          }
+        ],
+        "disposition": "只提交目录准确题名Los mejores cuentos de José Donoso候选；与后来的Cuentos卷关系不裁定。"
+      }
+    }
+  ],
+  "author_context": [
+    {
+      "author_id": "V1-ENT-0172",
+      "source_matrix_revision": null,
+      "source_policy": null,
+      "source_old_object_relationship_review": "逐作品保存基线CREATED及关系来源链；本轮不改写/晋升旧关系。",
+      "source_matrix_batch_id": "WCD-10-B06",
+      "source_matrix_accessed_at": "2026-10-07"
+    },
+    {
+      "author_id": "V1-ENT-0184",
+      "source_matrix_revision": "ONETTI-R3-LOCATOR-AND-BOUNDED-GAPS",
+      "source_policy": "Every current fact candidate ID, value and source_refs has an exact matrix row per cited source. PDF locators use zero-index PDF page sequence explicitly, distinguished from printed journal pagination. Deferred research gaps are bounded object-level work, not new facts/entities.",
+      "source_old_object_relationship_review": null,
+      "source_matrix_batch_id": null,
+      "source_matrix_accessed_at": null
+    },
+    {
+      "author_id": "V1-ENT-0185",
+      "source_matrix_revision": "DONOSO-R1-STABLE-FACT-ID-AND-COVERAGE-CROSSWALK",
+      "source_policy": "Nested facts use deterministic fact_candidate_id = entity.candidate_id + -F{one-based position:02d}; the evidence matrix and per-object coverage repeat exact object/field/value/source_refs. Existing-object additions retain their standalone F candidate IDs. Page publication date, first edition/year, reprint and writing year remain distinct.",
+      "source_old_object_relationship_review": null,
+      "source_matrix_batch_id": null,
+      "source_matrix_accessed_at": null
+    }
+  ]
+}

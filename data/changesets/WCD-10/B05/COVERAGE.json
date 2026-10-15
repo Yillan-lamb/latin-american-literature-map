@@ -1,0 +1,258 @@
+{
+  "task_id": "TASK-110",
+  "scope": "Original nine proposed additions remain in B05 scope: eight are in this integration and W03 (El mono gramático) is explicitly DEFERRED_NOT_ADMITTED pending USER policy. Nine existing covered objects remain; coverage is bounded, not exhaustive.",
+  "author_descriptions": "沿用三作者既有传记与来源（帕斯Nobel/poets.org、阿斯图里亚斯BnF/USAC、阿连德官网bio/timeline），不从作品梗概生成新作者传记，不下推作者层政治或运动归属。",
+  "research_policy": "R2：保留历史准入与hold；机构书目/官方目录保守B、报纸转载C（署名/题名/日期以页面实载为准）；全部B/C级research_note事实候选不设（builder映射风险留Codex门禁）；来源发表年一律不借作品版次/撰写/版权年；版本内容不下推至早期锚点。",
+  "objects": [
+    {
+      "object_ref": "V1-ENT-0154",
+      "bibliography": "existing_retained_1950_R1_layered_1950CA_1959FCE",
+      "description": "existing_retained（R0的F01冲突型research_note已撤回）",
+      "research_status": "preserved_existing",
+      "research_refs": [
+        "SRC-0098",
+        "SRC-0099",
+        "SRC-0100",
+        "WCD10-B05-S07",
+        "WCD10-B05-S08",
+        "WCD10-B05-S12",
+        "WCD10-B05-S23",
+        "WCD10-B05-S24"
+      ],
+      "remaining": "首版1950 Cuadernos Americanos/1959 FCE由S23 ELEM结构化字段直接支持；FCE新闻转载仅C级旁证。既有诺贝尔来源链保留，不声称其为独立第二来源；旧source links错配仍留痕且未修复。F16为追加式更正候选；HOLD-0043维持。"
+    },
+    {
+      "object_ref": "V1-ENT-0155",
+      "bibliography": "existing_retained_1956",
+      "description": "existing_retained",
+      "research_status": "preserved_existing",
+      "research_refs": [
+        "SRC-0099",
+        "SRC-0100",
+        "WCD10-B05-S07"
+      ],
+      "remaining": "1956/诗论/描述沿用；本批无新增事实需求；作品级独立A级研究仍OPEN。"
+    },
+    {
+      "object_ref": "V1-ENT-0156",
+      "bibliography": "existing_retained_1957_R1_imprint_resolved",
+      "description": "existing_retained（R0的F02撤回）",
+      "research_status": "preserved_existing",
+      "research_refs": [
+        "SRC-0099",
+        "SRC-0100",
+        "WCD10-B05-S07",
+        "WCD10-B05-S08",
+        "WCD10-B05-S12",
+        "WCD10-B05-S22",
+        "WCD10-B05-S25"
+      ],
+      "remaining": "Tezontle=FCE旗下丛书已证（ELEM字段/FCE转载'colección Tezontle del FCE'，1957-09-28印300册）；旧FCT-0319无需勘误。"
+    },
+    {
+      "object_ref": "V1-ENT-0173",
+      "bibliography": "existing_retained_1946",
+      "description": "F03_F04_candidate_institutional_summary",
+      "research_status": "institutional_commentary",
+      "research_refs": [
+        "SRC-0130",
+        "WCD10-B05-S05",
+        "WCD10-B05-S09"
+      ],
+      "remaining": "体裁与对象级概述补齐；'独裁者小说'归类入F05署名research_note；SET_IN危地马拉无直接背景表述保持缺口；首刊载体未核。"
+    },
+    {
+      "object_ref": "V1-ENT-0174",
+      "bibliography": "existing_retained_1949",
+      "description": "F06_F07_candidate_institutional_summary",
+      "research_status": "institutional_commentary",
+      "research_refs": [
+        "SRC-0132",
+        "WCD10-B05-S05",
+        "WCD10-B05-S06"
+      ],
+      "remaining": "体裁与概述补齐（USAC封底简介转引，归属明确）；BnF引言1948旁支不采；作品级独立A级研究仍OPEN。"
+    },
+    {
+      "object_ref": "V1-ENT-0175",
+      "bibliography": "existing_retained_1930",
+      "description": "F08_F09_candidate_institutional_summary",
+      "research_status": "institutional_commentary",
+      "research_refs": [
+        "SRC-0130",
+        "WCD10-B05-S05",
+        "WCD10-B05-S11"
+      ],
+      "remaining": "collection层级保持；体裁与概述补齐；单篇传说不建对象；BnF'首部书'定位为旁证。"
+    },
+    {
+      "object_ref": "V1-ENT-0176",
+      "bibliography": "existing_retained_1982",
+      "description": "F10_F11_candidate_official_summary",
+      "research_status": "catalog_only",
+      "research_refs": [
+        "SRC-0134",
+        "SRC-0135",
+        "WCD10-B05-S01",
+        "WCD10-B05-S02"
+      ],
+      "remaining": "体裁与概述补齐（作者官网简介）；国家未具名不生成SET_IN；改编影视与公开准入不在本通道。"
+    },
+    {
+      "object_ref": "V1-ENT-0177",
+      "bibliography": "existing_retained_1984",
+      "description": "F12_F13_candidate_official_summary",
+      "research_status": "catalog_only",
+      "research_refs": [
+        "SRC-0134",
+        "SRC-0136",
+        "WCD10-B05-S01",
+        "WCD10-B05-S03"
+      ],
+      "remaining": "体裁与概述补齐；军事独裁背景为虚构国家表述，不生成BASED_ON_EVENT/SET_IN。"
+    },
+    {
+      "object_ref": "V1-ENT-0178",
+      "bibliography": "existing_retained_1987",
+      "description": "F14_F15_candidate_official_summary",
+      "research_status": "catalog_only",
+      "research_refs": [
+        "SRC-0134",
+        "SRC-0137",
+        "WCD10-B05-S01",
+        "WCD10-B05-S04"
+      ],
+      "remaining": "体裁（流浪汉式自述）与概述补齐；与新增Cuentos de Eva Luna两对象分立；南美国度未具名。"
+    },
+    {
+      "object_ref": "WCD10-B05-W01",
+      "bibliography": "candidate_verified_pending_review",
+      "description": "candidate_bounded_object_level_description",
+      "research_status": "institutional_commentary",
+      "research_refs": [
+        "WCD10-B05-S07",
+        "WCD10-B05-S08"
+      ],
+      "remaining": "R1未改动（审计未涉）；作品级独立A级研究仍OPEN。中文显示名暂译。"
+    },
+    {
+      "object_ref": "WCD10-B05-W02",
+      "bibliography": "candidate_verified_pending_review_R1_ELEM_structure",
+      "description": "R1_rewritten_three_sections_and_content",
+      "research_status": "institutional_commentary",
+      "research_refs": [
+        "WCD10-B05-S07",
+        "WCD10-B05-S12",
+        "WCD10-B05-S13",
+        "WCD10-B05-S19"
+      ],
+      "remaining": "Ladera east作品级独立A级研究仍OPEN；三部构成（50+15诗+Blanco）与Intermitencias del Oeste表述均归属ELEM专文。"
+    },
+    {
+      "object_ref": "WCD10-B05-W05",
+      "bibliography": "candidate_verified_pending_review",
+      "description": "candidate_bounded_object_level_description",
+      "research_status": "catalog_only",
+      "research_refs": [
+        "WCD10-B05-S01",
+        "WCD10-B05-S14"
+      ],
+      "remaining": "Cuentos de Eva Luna作品级独立A级研究及需第二来源的解释关系仍OPEN；与0178人物共享不建人物对象；'23则'限定官网简介所述版本。"
+    },
+    {
+      "object_ref": "WCD10-B05-W06",
+      "bibliography": "candidate_verified_pending_review",
+      "description": "candidate_bounded_object_level_description",
+      "research_status": "catalog_only",
+      "research_refs": [
+        "WCD10-B05-S01",
+        "WCD10-B05-S15"
+      ],
+      "remaining": "Paula作品级独立A级研究仍OPEN；家族史与讣告性内容不在本通道展开；女儿病况仅作写作背景。"
+    },
+    {
+      "object_ref": "WCD10-B05-W07",
+      "bibliography": "candidate_verified_pending_review",
+      "description": "candidate_bounded_object_level_description",
+      "research_status": "catalog_only",
+      "research_refs": [
+        "WCD10-B05-S01",
+        "WCD10-B05-S16"
+      ],
+      "remaining": "Hija de la fortuna作品级独立A级研究仍OPEN；SET_IN智利仅表开篇（R01待审）；加州主场景无库内端点。"
+    },
+    {
+      "object_ref": "WCD10-B05-W08",
+      "bibliography": "candidate_verified_pending_review",
+      "description": "candidate_bounded_object_level_description",
+      "research_status": "catalog_only",
+      "research_refs": [
+        "WCD10-B05-S01",
+        "WCD10-B05-S17"
+      ],
+      "remaining": "La ciudad de las bestias作品级独立A级研究仍OPEN；亚马逊背景无地点端点；续卷两册未立对象。"
+    },
+    {
+      "object_ref": "WCD10-B05-W09",
+      "bibliography": "candidate_verified_pending_review",
+      "description": "R2_version_limited_summary_Piedra_excluded_from_1949",
+      "research_status": "institutional_commentary",
+      "research_refs": [
+        "WCD10-B05-S07",
+        "WCD10-B05-S12",
+        "WCD10-B05-S20"
+      ],
+      "remaining": "R2修订（二轮R1-01）：简介逐版本限定——《El cántaro roto》与《太阳石》系初版后写出、仅入后续重编版；ELEM页内字段/导语(1960)与传记节(1949)差异已登记；如需对1960/1990版独立细述应按Schema另做edition分层（本批不建）。独立A级研究仍OPEN。"
+    },
+    {
+      "object_ref": "WCD10-B05-W10",
+      "bibliography": "candidate_verified_pending_review",
+      "description": "candidate_bounded_object_level_description",
+      "research_status": "institutional_commentary",
+      "research_refs": [
+        "WCD10-B05-S07",
+        "WCD10-B05-S12",
+        "WCD10-B05-S21",
+        "WCD10-B05-S20"
+      ],
+      "remaining": "R2修订（二轮R1-05）：九诗清单出处更正为2013年版封底（ELEM页明标），未独立核证与1958年初版目录相同；1958出版与时间主题证据不受影响。独立A级研究仍OPEN。"
+    }
+  ],
+  "deferred_objects": [
+    {
+      "candidate_id": "WCD10-B05-W03",
+      "original_candidate_id": "WCD10-B05-W03",
+      "original_author_id": "V1-ENT-0059",
+      "original_name": "El mono gramático",
+      "status": "DEFERRED_NOT_ADMITTED",
+      "policy_status": "USER_POLICY_PENDING",
+      "formal_subject_id": null,
+      "research_refs": [
+        "WCD10-B05-S07",
+        "WCD10-B05-S12",
+        "WCD10-B05-S18"
+      ],
+      "withheld_fields": [
+        "first_publication_year",
+        "genre_or_form",
+        "one_sentence_summary",
+        "bibliographic_note"
+      ],
+      "candidate_source_ids": [
+        "WCD10-B05-S07",
+        "WCD10-B05-S12",
+        "WCD10-B05-S18"
+      ],
+      "policy_gap_key": "WCD10:B05:Paz:El_mono_gramatico:first_publication_semantics",
+      "selected_year": null,
+      "publication_evidence": {
+        "french_translation_year": "1972",
+        "spanish_original_first_edition_year": "1974",
+        "note": "Both layers preserved as evidence; neither selected as field value pending USER policy."
+      },
+      "deferred_candidate_path": "W03_DEFERRED_CANDIDATE.json",
+      "reentry_required_before": "TASK-127 / final WCD-10 completion",
+      "deferred_candidate_sha256": "a49cd6f1f4ddc3977077f89d0303895c6aa62020fd776c7e87e560674cac5ad4"
+    }
+  ]
+}

@@ -1,0 +1,1114 @@
+{
+  "schema": "wcd10-candidate-change-set-1",
+  "task_id": "TASK-121",
+  "batch_id": "WCD-10-B16",
+  "baseline_commit": "05f3372c69a54ec331d31b05d16c8288d6d3a993",
+  "baseline_database_sha256": "51966400aa4e9de43867e2b5c684b873be811857945151a6bc5592c2b915e7fb",
+  "status": "candidate_only",
+  "author_ids": [
+    "V1-ENT-0298",
+    "V1-ENT-0308",
+    "V1-ENT-0309"
+  ],
+  "accessed_at": "2026-10-13",
+  "public_boundary": "Research candidates only; no automatic Curation or public admission.",
+  "source_scope_decisions": [
+    {
+      "decision": "reuse_existing_source",
+      "candidate_source_id": "WCD10-B16-S001",
+      "reuse_existing_source": "SRC-0239",
+      "url": "https://www.anagrama-ed.es/autor/zambra-alejandro-1146",
+      "candidate_ids": [
+        "WCD10-B16-W001",
+        "WCD10-B16-W002",
+        "WCD10-B16-W004",
+        "WCD10-B16-W005",
+        "WCD10-B16-W006",
+        "WCD10-B16-W001-F01",
+        "WCD10-B16-W002-F03",
+        "WCD10-B16-W006-F01",
+        "WCD10-B16-W006-F02"
+      ],
+      "boundary": "复用冻结库同URL来源SRC-0239，原始来源元数据和B级不变；本次重新打开作者书目页，限定支持其当前页面直接列示的作者归属、年份与体裁。"
+    },
+    {
+      "decision": "reuse_existing_source",
+      "candidate_source_id": "WCD10-B16-S203",
+      "reuse_existing_source": "SRC-0243",
+      "url": "https://www.academia.org.br/artigos/o-ano-drummond",
+      "candidate_ids": [
+        "WCD10-B16-W203",
+        "WCD10-B16-W203-F01",
+        "WCD10-B16-W203-F02",
+        "WCD10-B16-W203-F03",
+        "WCD10-B16-W203-F04",
+        "WCD10-B16-F201"
+      ],
+      "boundary": "复用冻结主库同canonical URL来源，不更改旧来源元数据和等级。"
+    },
+    {
+      "decision": "reuse_existing_source",
+      "candidate_source_id": "WCD10-B16-S204",
+      "reuse_existing_source": "SRC-0244",
+      "url": "https://bndigital.bn.gov.br/carlos-drummond-de-andrade/",
+      "candidate_ids": [
+        "WCD10-B16-W201",
+        "WCD10-B16-W203",
+        "WCD10-B16-W201-F01",
+        "WCD10-B16-W201-F02",
+        "WCD10-B16-W201-F03",
+        "WCD10-B16-W201-F04",
+        "WCD10-B16-W203-F01",
+        "WCD10-B16-W203-F02",
+        "WCD10-B16-W203-F03",
+        "WCD10-B16-W203-F04"
+      ],
+      "boundary": "复用冻结主库同canonical URL来源，不更改旧来源元数据和等级。"
+    }
+  ],
+  "sources": [
+    {
+      "candidate_id": "WCD10-B16-S001",
+      "url": "https://www.anagrama-ed.es/autor/zambra-alejandro-1146",
+      "title": "Alejandro Zambra — Editorial Anagrama",
+      "author_or_editor": "Editorial Anagrama",
+      "publisher": "Editorial Anagrama",
+      "source_level": "B",
+      "format": "publisher_author_bibliography_web_page",
+      "language": "es",
+      "reuse_existing_source": "SRC-0239",
+      "locator": "页面第61-63行：列出Anagrama出版的小说、短篇集、随笔集及年份；第62行把Tema libre称为随笔集并列2019。实读2026-10-13。",
+      "usage": "复用冻结库SRC-0239，不改其既有元数据或等级。直接重读当前作者书目页，仅支持该页面直接列出的作品题名、Anagrama目录年份、体裁类别与作者归属。",
+      "disposition": "reuse",
+      "access_status": "OPENED"
+    },
+    {
+      "candidate_id": "WCD10-B16-S002",
+      "url": "https://ediciones.udp.cl/libro/no-leer/",
+      "title": "NO LEER — Ediciones UDP",
+      "author_or_editor": "Alejandro Zambra",
+      "publisher": "Ediciones Universidad Diego Portales",
+      "source_level": "B",
+      "format": "university_press_book_catalog_page",
+      "language": "es",
+      "locator": "第45-58行：出版者、作者、2010、153页及由编年/文学短论组成、围绕阅读的说明。实读2026-10-13。",
+      "usage": "出版社原始书目与作品简介；仅支持基本书目信息、文体和短简介。",
+      "disposition": "fresh_registration",
+      "access_status": "OPENED"
+    },
+    {
+      "candidate_id": "WCD10-B16-S003",
+      "url": "https://www.anagrama-ed.es/libro/narrativas-hispanicas/poeta-chileno/9788433998934/NH_641",
+      "title": "Poeta chileno — Alejandro Zambra — Editorial Anagrama",
+      "author_or_editor": "Alejandro Zambra",
+      "publisher": "Editorial Anagrama",
+      "source_level": "B",
+      "format": "publisher_book_catalog_page",
+      "language": "es",
+      "locator": "第61-65行识别题名/作者并描述小说主题；第77-83行人物与智利诗歌文化的出版社简介。作者年表见S001第62行。实读2026-10-13。",
+      "usage": "出版社书目简介；支持作者归属、小说体裁及经压缩释义的对象级简介。",
+      "disposition": "fresh_registration",
+      "access_status": "OPENED"
+    },
+    {
+      "candidate_id": "WCD10-B16-S004",
+      "url": "https://www.anagrama-ed.es/libro/compactos/mis-documentos/9788433960252/CM_724",
+      "title": "Mis documentos — Alejandro Zambra — Editorial Anagrama",
+      "author_or_editor": "Alejandro Zambra",
+      "publisher": "Editorial Anagrama",
+      "source_level": "B",
+      "format": "publisher_book_catalog_page",
+      "language": "es",
+      "locator": "第61-63行识别题名/作者；第77-82行称其为短篇集并说明作品结构、记忆与共同历史；第120-123行所示为2018年Compactos版。实读2026-10-13。",
+      "usage": "只支持短篇集类别及有界内容简介；页面标示2018年版，未据此推断初版年。",
+      "disposition": "fresh_registration",
+      "access_status": "OPENED"
+    },
+    {
+      "candidate_id": "WCD10-B16-S005",
+      "url": "https://www.anagrama-ed.es/libro/narrativas-hispanicas/facsimil/9788433999122/NH_666",
+      "title": "Facsímil — Alejandro Zambra — Editorial Anagrama",
+      "author_or_editor": "Alejandro Zambra",
+      "publisher": "Editorial Anagrama",
+      "source_level": "B",
+      "format": "publisher_book_catalog_page",
+      "language": "es",
+      "locator": "第61-63行识别题名/作者；第77-80行说明其借用大学入学选择题形式、由叙事/抒情片段/语言练习构成且初刊于2014；第126-128行记录该Anagrama版日期2021-02-24。实读2026-10-13。",
+      "usage": "直接支持首发年、混合形式及有界作品简介；区分2014初刊与2021出版社重印版。",
+      "disposition": "fresh_registration",
+      "access_status": "OPENED"
+    },
+    {
+      "candidate_id": "WCD10-B16-S006",
+      "url": "https://www.anagrama-ed.es/libro/narrativas-hispanicas/literatura-infantil/9788433905161/NH_715",
+      "title": "Literatura infantil — Alejandro Zambra — Editorial Anagrama",
+      "author_or_editor": "Alejandro Zambra",
+      "publisher": "Editorial Anagrama",
+      "source_level": "B",
+      "format": "publisher_book_catalog_page",
+      "language": "es",
+      "locator": "第61-65行识别题名/作者和日记、致子书信、虚构混合形式；第77-82行讨论童年、亲职与父子关系；第123-125行出版日期2023-05-10。实读2026-10-13。",
+      "usage": "出版社原始简介；支持出版者目录年份、混合文体和有界简介。",
+      "disposition": "fresh_registration",
+      "access_status": "OPENED"
+    },
+    {
+      "candidate_id": "WCD10-B16-S007",
+      "url": "https://www.anagrama-ed.es/libro/narrativas-hispanicas/bonsai/9788433932471/NH_391",
+      "title": "Bonsái — Alejandro Zambra — Editorial Anagrama",
+      "author_or_editor": "Alejandro Zambra",
+      "publisher": "Editorial Anagrama",
+      "source_level": "B",
+      "format": "publisher_book_catalog_page",
+      "language": "es",
+      "locator": "第136-140行：Juli​​o观察盆景、故事的精简/摘要式小说形式与其首部叙事作品描述。实读2026-10-13。",
+      "usage": "只为既有作品添加压缩的出版社简介，不改动冻结事实或作品关系。",
+      "disposition": "fresh_registration",
+      "access_status": "OPENED"
+    },
+    {
+      "candidate_id": "WCD10-B16-S008",
+      "url": "https://www.anagrama-ed.es/libro/narrativas-hispanicas/la-vida-privada-de-los-arboles/9788433932525/NH_416",
+      "title": "La vida privada de los árboles — Alejandro Zambra — Editorial Anagrama",
+      "author_or_editor": "Alejandro Zambra",
+      "publisher": "Editorial Anagrama",
+      "source_level": "B",
+      "format": "publisher_book_catalog_page",
+      "language": "es",
+      "locator": "第61-63行识别题名/作者；第75-79行叙述Julián等待Verónica、为Daniela讲树的故事及延展时间线。实读2026-10-13。",
+      "usage": "只为既有作品添加压缩的出版社简介，不改动冻结事实或作品关系。",
+      "disposition": "fresh_registration",
+      "access_status": "OPENED"
+    },
+    {
+      "candidate_id": "WCD10-B16-S009",
+      "url": "https://www.anagrama-ed.es/libro/narrativas-hispanicas/formas-de-volver-a-casa/9788433933041/EB_84",
+      "title": "Formas de volver a casa — Alejandro Zambra — Editorial Anagrama",
+      "author_or_editor": "Alejandro Zambra",
+      "publisher": "Editorial Anagrama",
+      "source_level": "B",
+      "format": "publisher_book_catalog_page",
+      "language": "es",
+      "locator": "第71-73行说明九岁男孩与1980年代中期智利背景、日记式叙事及对国家过去的回望；第121-123行记录该版2011-04-08。实读2026-10-13。",
+      "usage": "只为既有作品添加压缩的出版社简介，不改动冻结事实或作品关系。",
+      "disposition": "fresh_registration",
+      "access_status": "OPENED"
+    },
+    {
+      "candidate_id": "WCD10-B16-S101",
+      "url": "https://www2.academia.org.br/academicos/paulo-coelho/bibliografia",
+      "title": "Paulo Coelho | Academia Brasileira de Letras — Bibliografia",
+      "author_or_editor": "Academia Brasileira de Letras",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "实读2026-10-13。第13行列 O Diário de um Mago – O Peregrino，Rio de Janeiro: Rocco, 1987；第17行 Brida 1990；第21行 As Valkírias 1992；第22行 Na Margem do Rio Pedra Eu Sentei e Chorei 1994；第28行 O Monte Cinco 1996；第34/37行另列既有 Veronika Decide Morrer (1998)、O Demônio e a Srta. Prym (2000)。",
+      "usage": "支持ABL书目所列原题及其所标出版物/版本年份；只有与接受演说独立支持的作品才将年份作为首发年，避免把版本记录泛化。"
+    },
+    {
+      "candidate_id": "WCD10-B16-S102",
+      "url": "https://www.academia.org.br/academicos/paulo-coelho/discurso-de-recepcao",
+      "title": "Discurso de recepção de Paulo Coelho — Academia Brasileira de Letras",
+      "author_or_editor": "Arnaldo Niskier, Academia Brasileira de Letras",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "实读2026-10-13。第48-52行明确讲述 O Diário de um Mago (1987)、O Alquimista (1988)、Brida (1990，称为romance)、As Valkírias (1992)、Na Margem do Rio Piedra (1994)、Maktub (1994)、O Monte Cinco (1996)、Veronika Decide Morrer (1998)、O Demônio e a Srta. Prym (2000)；并分别简述Brida、Valkírias、Na Margem、Monte Cinco、Veronika、Prym。",
+      "usage": "支持指定作品的题名、年份及演说明确给出的有限描述；不采用演说对作者私生活或文学评价作超出作品书目的事实。"
+    },
+    {
+      "candidate_id": "WCD10-B16-S103",
+      "url": "https://sites.usp.br/portalatinoamericano/en/coelho-paulo",
+      "title": "Coelho, Paulo - Portal Contemporâneo da América Latina e Caribe",
+      "author_or_editor": "Portal Contemporâneo da América Latina e Caribe",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "实读2026-10-13，第45行列 O diário de um mago (1986)；第42行称其朝圣经历成为该书。",
+      "usage": "只用于记录USP页面1986与ABL书目1987的年份口径差异，暂不据任一来源填写作品首发年。",
+      "reuse_existing_source": "SRC-0242",
+      "reuse_existing_source_disposition": "reuse_existing_source"
+    },
+    {
+      "url": "https://funag.gov.br/biblioteca-nova/produto/loc_pdf/314/1/biografias",
+      "title": "Biografias — Fundação Alexandre de Gusmão (FUNAG)",
+      "author_or_editor": "Fundação Alexandre de Gusmão; Ministério das Relações Exteriores",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "实读2026-10-13，PDF第29页（网页总行469–483）：Brejo das almas、Sentimento do mundo、A rosa do povo、Claro Enigma、Contos de aprendiz、Confissões de Minas、Passeios na ilha的题名/体裁/年份或作品描述；该段将诗歌转向、战时社会参与及散文/编年文分类直接并列。该书出版信息见网页总行16、41–45。",
+      "usage": "直接支持所列作品的作者归属、普通体裁/书目年份和有限内容描述；各书年份作为该官方传记所列年份，未用其他版本日期推作首版年。",
+      "disposition": "fresh_registration",
+      "candidate_id": "WCD10-B16-S201"
+    },
+    {
+      "url": "https://www.record.com.br/products/sentimento-do-mundo/",
+      "title": "Sentimento do mundo — Editora Record",
+      "author_or_editor": "Editora Record",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "实读2026-10-13，网页第104–127行列题名、作者、1940出版和简要内容；第144–152行是2022年新版本书目日期。",
+      "usage": "直接支持《Sentimento do mundo》的作者、诗集/诗歌形式、1940年出版及有界简介；2022仅作页面所列新版本日期，不作为首版年。",
+      "disposition": "fresh_registration",
+      "candidate_id": "WCD10-B16-S202"
+    },
+    {
+      "url": "https://www.academia.org.br/artigos/o-ano-drummond",
+      "title": "O ano Drummond",
+      "author_or_editor": "Antonio Olinto",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "实读2026-10-13，Academia Brasileira de Letras《O ano Drummond》网页第20–35行诗歌目录列出《Alguma poesia》(1930)、《Brejo das almas》(1934)、《Sentimento do mundo》(1940)、《José》(1942)、《A rosa do povo》(1945)、《Claro enigma》(1951)。",
+      "usage": "直接支持作者诗歌目录中列举的题名及对应书目年份；不将目录以外日期推作首发年。",
+      "reuse_existing_source": "SRC-0243",
+      "reuse_existing_source_disposition": "reuse_existing_source",
+      "disposition": "reuse_existing_source",
+      "candidate_id": "WCD10-B16-S203"
+    },
+    {
+      "url": "https://bndigital.bn.gov.br/carlos-drummond-de-andrade/",
+      "title": "Carlos Drummond de Andrade",
+      "author_or_editor": "Biblioteca Nacional Digital do Brasil",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "实读2026-10-13，BNDigital人物页第45–46行列出《Brejo das Almas》(1934)、《Sentimento do Mundo》(1940)、《José》(1942)、《A Rosa do Povo》(1945)、《Claro Enigma》(1951)，并直接概括各阶段作品内容。",
+      "usage": "直接支持书目题名、年份、早期作品概述及《人民的玫瑰》《明晰之谜》的有限简介。",
+      "reuse_existing_source": "SRC-0244",
+      "reuse_existing_source_disposition": "reuse_existing_source",
+      "disposition": "reuse_existing_source",
+      "candidate_id": "WCD10-B16-S204"
+    },
+    {
+      "url": "https://www.record.com.br/products/contos-de-aprendiz",
+      "title": "Contos de aprendiz — Editora Record",
+      "author_or_editor": "Editora Record",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "实读2026-10-13，网页第112–133行列题名、作者、1951年出版、首次进入纯文学虚构叙事及15篇故事和内容说明。",
+      "usage": "直接支持《Contos de aprendiz》的作者归属、作品形式、1951年出版与有限内容简介。",
+      "disposition": "fresh_registration",
+      "candidate_id": "WCD10-B16-S205"
+    }
+  ],
+  "new_entities": [
+    {
+      "candidate_id": "WCD10-B16-W001",
+      "author_id": "V1-ENT-0298",
+      "entity_type": "work",
+      "original_name": "Poeta chileno",
+      "name_zh_candidate": "《智利诗人》（暂译）",
+      "name_policy": "中文名为检索用暂译，仅以西班牙语原题作为作品身份锚点，不表示存在正式中文译本。",
+      "rationale": "出版社或大学出版社直接书目确认作者归属；本候选只补有来源的普通书目、体裁和有界作品简介，不声称覆盖作者全部作品。",
+      "created_source_refs": [
+        "WCD10-B16-S003"
+      ],
+      "facts": [
+        {
+          "field": "first_publication_year",
+          "value": "2020",
+          "source_refs": [
+            "WCD10-B16-S001"
+          ],
+          "fact_candidate_id": "WCD10-B16-W001-F01"
+        },
+        {
+          "field": "genre_or_form",
+          "value": "小说",
+          "source_refs": [
+            "WCD10-B16-S003"
+          ],
+          "fact_candidate_id": "WCD10-B16-W001-F02"
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "出版社简介围绕Gonzalo、继子Vicente及记者Pru等人物展开，并写到智利诗歌传统、诗人与“冒牌诗人”及诗歌制度声望。",
+          "source_refs": [
+            "WCD10-B16-S003"
+          ],
+          "fact_candidate_id": "WCD10-B16-W001-F03"
+        }
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B16-W002",
+      "author_id": "V1-ENT-0298",
+      "entity_type": "collection",
+      "original_name": "Mis documentos",
+      "name_zh_candidate": "《我的文件》（暂译）",
+      "name_policy": "中文名为检索用暂译，仅以西班牙语原题作为作品身份锚点，不表示存在正式中文译本。",
+      "rationale": "出版社或大学出版社直接书目确认作者归属；本候选只补有来源的普通书目、体裁和有界作品简介，不声称覆盖作者全部作品。",
+      "created_source_refs": [
+        "WCD10-B16-S004"
+      ],
+      "facts": [
+        {
+          "field": "genre_or_form",
+          "value": "短篇小说集",
+          "source_refs": [
+            "WCD10-B16-S001",
+            "WCD10-B16-S004"
+          ],
+          "fact_candidate_id": "WCD10-B16-W002-F01"
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "出版社称此书由短篇构成，并以“我的文件”文件夹为框架，涉及学生与教师生活、个人记忆以及智利共同历史。",
+          "source_refs": [
+            "WCD10-B16-S004"
+          ],
+          "fact_candidate_id": "WCD10-B16-W002-F02"
+        },
+        {
+          "field": "bibliographic_note",
+          "value": "Anagrama作者书目将《Mis documentos》列在2014年目录；本次打开的Compactos产品页为2018年再版。未将再版日期直接当作原始首版年份，因此原子首发年留空。",
+          "source_refs": [
+            "WCD10-B16-S001",
+            "WCD10-B16-S004"
+          ],
+          "fact_candidate_id": "WCD10-B16-W002-F03"
+        }
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B16-W003",
+      "author_id": "V1-ENT-0298",
+      "entity_type": "work",
+      "original_name": "Facsímil",
+      "name_zh_candidate": "《摹本》（暂译）",
+      "name_policy": "中文名为检索用暂译，仅以西班牙语原题作为作品身份锚点，不表示存在正式中文译本。",
+      "rationale": "出版社或大学出版社直接书目确认作者归属；本候选只补有来源的普通书目、体裁和有界作品简介，不声称覆盖作者全部作品。",
+      "created_source_refs": [
+        "WCD10-B16-S005"
+      ],
+      "facts": [
+        {
+          "field": "first_publication_year",
+          "value": "2014",
+          "source_refs": [
+            "WCD10-B16-S005"
+          ],
+          "fact_candidate_id": "WCD10-B16-W003-F01"
+        },
+        {
+          "field": "genre_or_form",
+          "value": "叙事、抒情片段与语言练习构成的混合文本",
+          "source_refs": [
+            "WCD10-B16-S005"
+          ],
+          "fact_candidate_id": "WCD10-B16-W003-F02"
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "出版社简介指出本书借用智利大学入学多项选择考试的形式，以叙事、抒情片段和语言练习呈现教育体系及其不平等问题。",
+          "source_refs": [
+            "WCD10-B16-S005"
+          ],
+          "fact_candidate_id": "WCD10-B16-W003-F03"
+        }
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B16-W004",
+      "author_id": "V1-ENT-0298",
+      "entity_type": "collection",
+      "original_name": "Literatura infantil",
+      "name_zh_candidate": "《儿童文学》（暂译）",
+      "name_policy": "中文名为检索用暂译，仅以西班牙语原题作为作品身份锚点，不表示存在正式中文译本。",
+      "rationale": "出版社或大学出版社直接书目确认作者归属；本候选只补有来源的普通书目、体裁和有界作品简介，不声称覆盖作者全部作品。",
+      "created_source_refs": [
+        "WCD10-B16-S006"
+      ],
+      "facts": [
+        {
+          "field": "first_publication_year",
+          "value": "2023",
+          "source_refs": [
+            "WCD10-B16-S006"
+          ],
+          "fact_candidate_id": "WCD10-B16-W004-F01"
+        },
+        {
+          "field": "genre_or_form",
+          "value": "亲职日记、写给儿子的信与虚构叙事混合",
+          "source_refs": [
+            "WCD10-B16-S006"
+          ],
+          "fact_candidate_id": "WCD10-B16-W004-F02"
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "出版社简介将本书联系到父职、童年与孩子成长，并说明其中交织亲职日记、写给儿子的信和虚构作品。",
+          "source_refs": [
+            "WCD10-B16-S006"
+          ],
+          "fact_candidate_id": "WCD10-B16-W004-F03"
+        }
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B16-W005",
+      "author_id": "V1-ENT-0298",
+      "entity_type": "collection",
+      "original_name": "No leer",
+      "name_zh_candidate": "《不读》（暂译）",
+      "name_policy": "中文名为检索用暂译，仅以西班牙语原题作为作品身份锚点，不表示存在正式中文译本。",
+      "rationale": "出版社或大学出版社直接书目确认作者归属；本候选只补有来源的普通书目、体裁和有界作品简介，不声称覆盖作者全部作品。",
+      "created_source_refs": [
+        "WCD10-B16-S002"
+      ],
+      "facts": [
+        {
+          "field": "first_publication_year",
+          "value": "2010",
+          "source_refs": [
+            "WCD10-B16-S002"
+          ],
+          "fact_candidate_id": "WCD10-B16-W005-F01"
+        },
+        {
+          "field": "genre_or_form",
+          "value": "文学评论、编年与短篇随笔集",
+          "source_refs": [
+            "WCD10-B16-S002"
+          ],
+          "fact_candidate_id": "WCD10-B16-W005-F02"
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "大学出版社介绍该书由文学编年与短论构成，围绕书评、作者阅读札记及阅读行为展开。",
+          "source_refs": [
+            "WCD10-B16-S002"
+          ],
+          "fact_candidate_id": "WCD10-B16-W005-F03"
+        }
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B16-W006",
+      "author_id": "V1-ENT-0298",
+      "entity_type": "collection",
+      "original_name": "Tema libre",
+      "name_zh_candidate": "《自由主题》（暂译）",
+      "name_policy": "中文名为检索用暂译，仅以西班牙语原题作为作品身份锚点，不表示存在正式中文译本。",
+      "rationale": "出版社或大学出版社直接书目确认作者归属；本候选只补有来源的普通书目、体裁和有界作品简介，不声称覆盖作者全部作品。",
+      "created_source_refs": [
+        "WCD10-B16-S001"
+      ],
+      "facts": [
+        {
+          "field": "first_publication_year",
+          "value": "2019",
+          "source_refs": [
+            "WCD10-B16-S001"
+          ],
+          "fact_candidate_id": "WCD10-B16-W006-F01"
+        },
+        {
+          "field": "genre_or_form",
+          "value": "随笔集",
+          "source_refs": [
+            "WCD10-B16-S001"
+          ],
+          "fact_candidate_id": "WCD10-B16-W006-F02"
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "Anagrama作者书目直接将《Tema libre》列为作者2019年出版的随笔集；本候选只作出版物层书目识别，不概述集内文本。",
+          "source_refs": [
+            "WCD10-B16-S001"
+          ],
+          "fact_candidate_id": "WCD10-B16-W006-F03"
+        }
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B16-W101",
+      "author_id": "V1-ENT-0308",
+      "entity_type": "work",
+      "original_name": "O Diário de um Mago",
+      "name_zh_candidate": "《魔法师的日记》",
+      "name_policy": "中文为检索工作译名，葡萄牙语原题为身份锚点；不声称存在正式中文译本。",
+      "rationale": "冻结库仅见既有三部作品；Academia Brasileira de Letras直接书目及接受演说记录此重要作品，按DEC-070补入可直接支持的普通书目与有界简介。",
+      "created_source_refs": [
+        "WCD10-B16-S101",
+        "WCD10-B16-S102",
+        "WCD10-B16-S103"
+      ],
+      "facts": [
+        {
+          "field": "genre_or_form",
+          "value": "著作（具体体裁未详）",
+          "source_refs": [
+            "WCD10-B16-S101",
+            "WCD10-B16-S102",
+            "WCD10-B16-S103"
+          ],
+          "fact_candidate_id": "WCD10-B16-W101-F01"
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "柯艾略关于圣地亚哥朝圣的作品；ABL接受演说称其以寻神之旅为精神主题。",
+          "source_refs": [
+            "WCD10-B16-S102"
+          ],
+          "fact_candidate_id": "WCD10-B16-W101-F02"
+        },
+        {
+          "field": "bibliographic_note",
+          "value": "ABL书目列Rocco于1987年出版；USP作者简介写1986年。不同来源提供的年份口径不一致，暂不填写作品首发年。",
+          "source_refs": [
+            "WCD10-B16-S101",
+            "WCD10-B16-S103"
+          ],
+          "fact_candidate_id": "WCD10-B16-W101-F03"
+        }
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B16-W102",
+      "author_id": "V1-ENT-0308",
+      "entity_type": "work",
+      "original_name": "Brida",
+      "name_zh_candidate": "《布里达》",
+      "name_policy": "中文为检索工作译名，葡萄牙语原题为身份锚点；不声称存在正式中文译本。",
+      "rationale": "冻结库仅见既有三部作品；Academia Brasileira de Letras直接书目及接受演说记录此重要作品，按DEC-070补入可直接支持的普通书目与有界简介。",
+      "created_source_refs": [
+        "WCD10-B16-S101",
+        "WCD10-B16-S102"
+      ],
+      "facts": [
+        {
+          "field": "genre_or_form",
+          "value": "长篇小说",
+          "source_refs": [
+            "WCD10-B16-S101",
+            "WCD10-B16-S102"
+          ],
+          "fact_candidate_id": "WCD10-B16-W102-F01"
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "ABL接受演说称《Brida》为柯艾略最长的小说，并以女性寻求知识为主题。",
+          "source_refs": [
+            "WCD10-B16-S102"
+          ],
+          "fact_candidate_id": "WCD10-B16-W102-F02"
+        },
+        {
+          "field": "first_publication_year",
+          "value": "1990",
+          "source_refs": [
+            "WCD10-B16-S102"
+          ],
+          "fact_candidate_id": "WCD10-B16-W102-F03"
+        }
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B16-W103",
+      "author_id": "V1-ENT-0308",
+      "entity_type": "work",
+      "original_name": "As Valkírias",
+      "name_zh_candidate": "《女武神》",
+      "name_policy": "中文为检索工作译名，葡萄牙语原题为身份锚点；不声称存在正式中文译本。",
+      "rationale": "冻结库仅见既有三部作品；Academia Brasileira de Letras直接书目及接受演说记录此重要作品，按DEC-070补入可直接支持的普通书目与有界简介。",
+      "created_source_refs": [
+        "WCD10-B16-S101",
+        "WCD10-B16-S102"
+      ],
+      "facts": [
+        {
+          "field": "genre_or_form",
+          "value": "著作（具体体裁未详）",
+          "source_refs": [
+            "WCD10-B16-S101",
+            "WCD10-B16-S102"
+          ],
+          "fact_candidate_id": "WCD10-B16-W103-F01"
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "ABL接受演说将《As Valkírias》概述为围绕作者婚姻展开的作品，并澄清它并非单纯的天使题材书。",
+          "source_refs": [
+            "WCD10-B16-S102"
+          ],
+          "fact_candidate_id": "WCD10-B16-W103-F02"
+        },
+        {
+          "field": "first_publication_year",
+          "value": "1992",
+          "source_refs": [
+            "WCD10-B16-S102"
+          ],
+          "fact_candidate_id": "WCD10-B16-W103-F03"
+        }
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B16-W104",
+      "author_id": "V1-ENT-0308",
+      "entity_type": "work",
+      "original_name": "Na Margem do Rio Piedra Eu Sentei e Chorei",
+      "name_zh_candidate": "《在皮埃特拉河畔我坐下并哭泣》",
+      "name_policy": "中文为检索工作译名，葡萄牙语原题为身份锚点；不声称存在正式中文译本。",
+      "rationale": "冻结库仅见既有三部作品；Academia Brasileira de Letras直接书目及接受演说记录此重要作品，按DEC-070补入可直接支持的普通书目与有界简介。",
+      "created_source_refs": [
+        "WCD10-B16-S101",
+        "WCD10-B16-S102"
+      ],
+      "facts": [
+        {
+          "field": "genre_or_form",
+          "value": "著作（具体体裁未详）",
+          "source_refs": [
+            "WCD10-B16-S101",
+            "WCD10-B16-S102"
+          ],
+          "fact_candidate_id": "WCD10-B16-W104-F01"
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "ABL接受演说称该书关联作者接纳并运用女性一面的创作表达；此处仅记演说明确给出的作品说明。",
+          "source_refs": [
+            "WCD10-B16-S102"
+          ],
+          "fact_candidate_id": "WCD10-B16-W104-F02"
+        },
+        {
+          "field": "first_publication_year",
+          "value": "1994",
+          "source_refs": [
+            "WCD10-B16-S102"
+          ],
+          "fact_candidate_id": "WCD10-B16-W104-F03"
+        }
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B16-W105",
+      "author_id": "V1-ENT-0308",
+      "entity_type": "work",
+      "original_name": "O Monte Cinco",
+      "name_zh_candidate": "《第五座山》",
+      "name_policy": "中文为检索工作译名，葡萄牙语原题为身份锚点；不声称存在正式中文译本。",
+      "rationale": "冻结库仅见既有三部作品；Academia Brasileira de Letras直接书目及接受演说记录此重要作品，按DEC-070补入可直接支持的普通书目与有界简介。",
+      "created_source_refs": [
+        "WCD10-B16-S101",
+        "WCD10-B16-S102"
+      ],
+      "facts": [
+        {
+          "field": "genre_or_form",
+          "value": "著作（具体体裁未详）",
+          "source_refs": [
+            "WCD10-B16-S101",
+            "WCD10-B16-S102"
+          ],
+          "fact_candidate_id": "WCD10-B16-W105-F01"
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "ABL接受演说称《O Monte Cinco》取材于圣经文本，写一名被迫追随命运的人物，并提到作品处理严厉与怜悯之间的平衡。",
+          "source_refs": [
+            "WCD10-B16-S102"
+          ],
+          "fact_candidate_id": "WCD10-B16-W105-F02"
+        },
+        {
+          "field": "first_publication_year",
+          "value": "1996",
+          "source_refs": [
+            "WCD10-B16-S102"
+          ],
+          "fact_candidate_id": "WCD10-B16-W105-F03"
+        }
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B16-W201",
+      "author_id": "V1-ENT-0309",
+      "entity_type": "collection",
+      "original_name": "Brejo das almas",
+      "name_zh_candidate": "《灵魂荒原》",
+      "name_policy": "暂用中文工作译名以便检索，原文题名为身份锚点；不声称存在正式中文译本。",
+      "rationale": "B16 冻结基线的作品目录仅列三部 Drummond 作品；本题名在冻结主库无同层命中，且机构/出版社来源直接列出并支持本条普通书目或有限内容描述。",
+      "created_source_refs": [
+        "WCD10-B16-S201",
+        "WCD10-B16-S204"
+      ],
+      "facts": [
+        {
+          "field": "first_publication_year",
+          "value": "1934",
+          "source_refs": [
+            "WCD10-B16-S201",
+            "WCD10-B16-S204"
+          ],
+          "fact_candidate_id": "WCD10-B16-W201-F01"
+        },
+        {
+          "field": "genre_or_form",
+          "value": "诗集",
+          "source_refs": [
+            "WCD10-B16-S201",
+            "WCD10-B16-S204"
+          ],
+          "fact_candidate_id": "WCD10-B16-W201-F02"
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "FUNAG将《Brejo das almas》列为早期诗集之一，概括其诗句呈现失意、忧郁与对风俗的反讽；BNDigital也将其列入作者早期作品。",
+          "source_refs": [
+            "WCD10-B16-S201",
+            "WCD10-B16-S204"
+          ],
+          "fact_candidate_id": "WCD10-B16-W201-F03"
+        },
+        {
+          "field": "bibliographic_note",
+          "value": "来源直接列出《Brejo das almas》为Drummond作品，记录年份1934；此处该年份按来源书目记录，不混同后续版本。",
+          "source_refs": [
+            "WCD10-B16-S201",
+            "WCD10-B16-S204"
+          ],
+          "fact_candidate_id": "WCD10-B16-W201-F04"
+        }
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B16-W202",
+      "author_id": "V1-ENT-0309",
+      "entity_type": "collection",
+      "original_name": "Sentimento do mundo",
+      "name_zh_candidate": "《世界的感觉》",
+      "name_policy": "暂用中文工作译名以便检索，原文题名为身份锚点；不声称存在正式中文译本。",
+      "rationale": "B16 冻结基线的作品目录仅列三部 Drummond 作品；本题名在冻结主库无同层命中，且机构/出版社来源直接列出并支持本条普通书目或有限内容描述。",
+      "created_source_refs": [
+        "WCD10-B16-S202",
+        "WCD10-B16-S201"
+      ],
+      "facts": [
+        {
+          "field": "first_publication_year",
+          "value": "1940",
+          "source_refs": [
+            "WCD10-B16-S202",
+            "WCD10-B16-S201"
+          ],
+          "fact_candidate_id": "WCD10-B16-W202-F01"
+        },
+        {
+          "field": "genre_or_form",
+          "value": "诗集",
+          "source_refs": [
+            "WCD10-B16-S202",
+            "WCD10-B16-S201"
+          ],
+          "fact_candidate_id": "WCD10-B16-W202-F02"
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "出版社将其介绍为Drummond第三部诗歌作品，诗篇呈现更广阔的人类视野与面向现实转变的政治参与。",
+          "source_refs": [
+            "WCD10-B16-S202",
+            "WCD10-B16-S201"
+          ],
+          "fact_candidate_id": "WCD10-B16-W202-F03"
+        },
+        {
+          "field": "bibliographic_note",
+          "value": "来源直接列出《Sentimento do mundo》为Drummond作品，记录年份1940；此处该年份按来源书目记录，不混同后续版本。",
+          "source_refs": [
+            "WCD10-B16-S202",
+            "WCD10-B16-S201"
+          ],
+          "fact_candidate_id": "WCD10-B16-W202-F04"
+        }
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B16-W203",
+      "author_id": "V1-ENT-0309",
+      "entity_type": "collection",
+      "original_name": "José",
+      "name_zh_candidate": "《何塞》",
+      "name_policy": "中文名为原题名的音译工作标签，原文题名为身份锚点；不声称正式中文译本。",
+      "rationale": "B16 冻结基线的作品目录仅列三部 Drummond 作品；本题名在冻结主库无同层命中，且机构/出版社来源直接列出并支持本条普通书目或有限内容描述。",
+      "created_source_refs": [
+        "WCD10-B16-S204",
+        "WCD10-B16-S203"
+      ],
+      "facts": [
+        {
+          "field": "first_publication_year",
+          "value": "1942",
+          "source_refs": [
+            "WCD10-B16-S204",
+            "WCD10-B16-S203"
+          ],
+          "fact_candidate_id": "WCD10-B16-W203-F01"
+        },
+        {
+          "field": "genre_or_form",
+          "value": "诗集",
+          "source_refs": [
+            "WCD10-B16-S204",
+            "WCD10-B16-S203"
+          ],
+          "fact_candidate_id": "WCD10-B16-W203-F02"
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "BNDigital将《José》列为Drummond早期诗集，并概括其早期作品在日常生活及其反讽与超越日常现实的视野之间展开。",
+          "source_refs": [
+            "WCD10-B16-S204",
+            "WCD10-B16-S203"
+          ],
+          "fact_candidate_id": "WCD10-B16-W203-F03"
+        },
+        {
+          "field": "bibliographic_note",
+          "value": "来源直接列出《José》为Drummond作品，记录年份1942；此处该年份按来源书目记录，不混同后续版本。",
+          "source_refs": [
+            "WCD10-B16-S204",
+            "WCD10-B16-S203"
+          ],
+          "fact_candidate_id": "WCD10-B16-W203-F04"
+        }
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B16-W204",
+      "author_id": "V1-ENT-0309",
+      "entity_type": "collection",
+      "original_name": "Contos de aprendiz",
+      "name_zh_candidate": "《学徒故事》",
+      "name_policy": "暂用中文工作译名以便检索，原文题名为身份锚点；不声称存在正式中文译本。",
+      "rationale": "B16 冻结基线的作品目录仅列三部 Drummond 作品；本题名在冻结主库无同层命中，且机构/出版社来源直接列出并支持本条普通书目或有限内容描述。",
+      "created_source_refs": [
+        "WCD10-B16-S205"
+      ],
+      "facts": [
+        {
+          "field": "first_publication_year",
+          "value": "1951",
+          "source_refs": [
+            "WCD10-B16-S205"
+          ],
+          "fact_candidate_id": "WCD10-B16-W204-F01"
+        },
+        {
+          "field": "genre_or_form",
+          "value": "短篇小说集",
+          "source_refs": [
+            "WCD10-B16-S205"
+          ],
+          "fact_candidate_id": "WCD10-B16-W204-F02"
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "出版社记载本书于1951年出版，以15篇故事中的乡村生活与童年记忆为例，呈现对日常的观察。",
+          "source_refs": [
+            "WCD10-B16-S205"
+          ],
+          "fact_candidate_id": "WCD10-B16-W204-F03"
+        },
+        {
+          "field": "bibliographic_note",
+          "value": "来源直接列出《Contos de aprendiz》为Drummond作品，记录年份1951；此处该年份按来源书目记录，不混同后续版本。",
+          "source_refs": [
+            "WCD10-B16-S205"
+          ],
+          "fact_candidate_id": "WCD10-B16-W204-F04"
+        }
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B16-W205",
+      "author_id": "V1-ENT-0309",
+      "entity_type": "collection",
+      "original_name": "Confissões de Minas",
+      "name_zh_candidate": "《米纳斯的自白》",
+      "name_policy": "暂用中文工作译名以便检索，原文题名为身份锚点；不声称存在正式中文译本。",
+      "rationale": "B16 冻结基线的作品目录仅列三部 Drummond 作品；本题名在冻结主库无同层命中，且机构/出版社来源直接列出并支持本条普通书目或有限内容描述。",
+      "created_source_refs": [
+        "WCD10-B16-S201"
+      ],
+      "facts": [
+        {
+          "field": "first_publication_year",
+          "value": "1944",
+          "source_refs": [
+            "WCD10-B16-S201"
+          ],
+          "fact_candidate_id": "WCD10-B16-W205-F01"
+        },
+        {
+          "field": "genre_or_form",
+          "value": "编年随笔集",
+          "source_refs": [
+            "WCD10-B16-S201"
+          ],
+          "fact_candidate_id": "WCD10-B16-W205-F02"
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "FUNAG将《Confissões de Minas》列为Drummond 1944年出版的编年文集；本条限于来源直接给出的书目分类。",
+          "source_refs": [
+            "WCD10-B16-S201"
+          ],
+          "fact_candidate_id": "WCD10-B16-W205-F03"
+        },
+        {
+          "field": "bibliographic_note",
+          "value": "来源直接列出《Confissões de Minas》为Drummond作品，记录年份1944；此处该年份按来源书目记录，不混同后续版本。",
+          "source_refs": [
+            "WCD10-B16-S201"
+          ],
+          "fact_candidate_id": "WCD10-B16-W205-F04"
+        }
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B16-W206",
+      "author_id": "V1-ENT-0309",
+      "entity_type": "collection",
+      "original_name": "Passeios na ilha",
+      "name_zh_candidate": "《岛上漫步》",
+      "name_policy": "暂用中文工作译名以便检索，原文题名为身份锚点；不声称存在正式中文译本。",
+      "rationale": "B16 冻结基线的作品目录仅列三部 Drummond 作品；本题名在冻结主库无同层命中，且机构/出版社来源直接列出并支持本条普通书目或有限内容描述。",
+      "created_source_refs": [
+        "WCD10-B16-S201"
+      ],
+      "facts": [
+        {
+          "field": "first_publication_year",
+          "value": "1952",
+          "source_refs": [
+            "WCD10-B16-S201"
+          ],
+          "fact_candidate_id": "WCD10-B16-W206-F01"
+        },
+        {
+          "field": "genre_or_form",
+          "value": "编年随笔集",
+          "source_refs": [
+            "WCD10-B16-S201"
+          ],
+          "fact_candidate_id": "WCD10-B16-W206-F02"
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "FUNAG将《Passeios na ilha》列为Drummond 1952年出版的编年文集；本条限于来源直接给出的书目分类。",
+          "source_refs": [
+            "WCD10-B16-S201"
+          ],
+          "fact_candidate_id": "WCD10-B16-W206-F03"
+        },
+        {
+          "field": "bibliographic_note",
+          "value": "来源直接列出《Passeios na ilha》为Drummond作品，记录年份1952；此处该年份按来源书目记录，不混同后续版本。",
+          "source_refs": [
+            "WCD10-B16-S201"
+          ],
+          "fact_candidate_id": "WCD10-B16-W206-F04"
+        }
+      ]
+    }
+  ],
+  "existing_facts": [
+    {
+      "candidate_id": "WCD10-B16-F001",
+      "subject_id": "V1-ENT-0305",
+      "field": "one_sentence_summary",
+      "value": "出版社简介描述《盆栽》中的Julio逐渐转向独自观察盆景生长，并把作品概括为一部压缩、近似“摘要式”的小说。",
+      "source_refs": [
+        "WCD10-B16-S007"
+      ],
+      "boundary": "仅追加来源直接支持的一句对象级简介；逐值保留冻结库既有全部事实、卡片与完整来源/关系闭包。"
+    },
+    {
+      "candidate_id": "WCD10-B16-F002",
+      "subject_id": "V1-ENT-0306",
+      "field": "one_sentence_summary",
+      "value": "出版社简介以Julián等待Verónica归来的一夜为叙事框架，写到他为Daniela讲述树的故事，并由此延展到她未来人生的想象。",
+      "source_refs": [
+        "WCD10-B16-S008"
+      ],
+      "boundary": "仅追加来源直接支持的一句对象级简介；逐值保留冻结库既有全部事实、卡片与完整来源/关系闭包。"
+    },
+    {
+      "candidate_id": "WCD10-B16-F003",
+      "subject_id": "V1-ENT-0307",
+      "field": "one_sentence_summary",
+      "value": "出版社简介将小说置于智利八十年代中期，以九岁男孩的成长和成年后的写作回望为线索，并指出作品以日记显露叙事建构。",
+      "source_refs": [
+        "WCD10-B16-S009"
+      ],
+      "boundary": "仅追加来源直接支持的一句对象级简介；逐值保留冻结库既有全部事实、卡片与完整来源/关系闭包。"
+    },
+    {
+      "candidate_id": "WCD10-B16-F101",
+      "subject_id": "V1-ENT-0311",
+      "author_id": "V1-ENT-0308",
+      "field": "one_sentence_summary",
+      "value": "ABL接受演说将《牧羊少年奇幻之旅》概括为一段寓言式的历史朝圣，并提到其精神探索。",
+      "source_refs": [
+        "WCD10-B16-S102"
+      ],
+      "boundary": "仅按ABL接受演说的作品概述补一条有限简介；保留冻结库既有FCT-0822至0824及其SRC-0241来源链。"
+    },
+    {
+      "candidate_id": "WCD10-B16-F102",
+      "subject_id": "V1-ENT-0312",
+      "author_id": "V1-ENT-0308",
+      "field": "one_sentence_summary",
+      "value": "ABL接受演说称《维罗妮卡决定去死》涉及接纳人类差异这一主题。",
+      "source_refs": [
+        "WCD10-B16-S102"
+      ],
+      "boundary": "仅按ABL接受演说的直接表述补有限主题简介；保留冻结库既有FCT-0825至0827及其SRC-0241来源链。"
+    },
+    {
+      "candidate_id": "WCD10-B16-F201",
+      "subject_id": "V1-ENT-0314",
+      "field": "one_sentence_summary",
+      "value": "ABL称《Alguma poesia》是Drummond尝试开创新诗歌语言的作品。",
+      "source_refs": [
+        "WCD10-B16-S203"
+      ],
+      "boundary": "仅追加来源直接支持的简短作品说明；旧事实、卡片、关系及其来源链逐值保全。"
+    },
+    {
+      "candidate_id": "WCD10-B16-F202",
+      "subject_id": "V1-ENT-0315",
+      "field": "one_sentence_summary",
+      "value": "FUNAG将《A rosa do povo》置于诗人社会政治参与与团结意识日渐鲜明的阶段。",
+      "source_refs": [
+        "WCD10-B16-S201"
+      ],
+      "boundary": "仅追加机构传记直接支持的有限阶段描述；不增加主题或现实关系推断，旧闭包逐值保全。"
+    },
+    {
+      "candidate_id": "WCD10-B16-F203",
+      "subject_id": "V1-ENT-0316",
+      "field": "one_sentence_summary",
+      "value": "FUNAG概括《Claro enigma》之后的创作转向为对当代世界的怀疑，并转向诗艺实验与分析。",
+      "source_refs": [
+        "WCD10-B16-S201"
+      ],
+      "boundary": "仅追加机构传记直接支持的有限作品阶段描述；旧闭包逐值保全。"
+    }
+  ],
+  "extra_relationships": [],
+  "deferred": [
+    {
+      "key": "zambra.full_author_oeuvre",
+      "reason": "本批只处理冻结库三部既有小说及Anagrama/大学出版社直接列示的主要缺项；未逐年穷尽作者早期诗集、其他出版社作品、译本或非图书篇目。",
+      "disposition": "preserve as out_of_scope; no claim of exhaustive bibliography or academic coverage"
+    },
+    {
+      "author_id": "V1-ENT-0308",
+      "key": "WCD10:B16:COELHO:remaining-bibliography-and-form",
+      "title": "Coelho尚未逐项核查的其余出版物及未由已读来源说明体裁的作品",
+      "reason": "本包已补录ABL/USP作者目录可直接支持的重要作品；未对其余所有书目逐项打开来源，也不以标题猜测体裁。O Diário年份在ABL书目与USP简介间存在1987/1986差异，暂用版本注记并保留首发年份空缺。",
+      "disposition": "deferred"
+    }
+  ]
+}

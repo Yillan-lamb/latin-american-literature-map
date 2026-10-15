@@ -1,0 +1,51 @@
+{
+  "task_id": "TASK-126",
+  "batch_id": "WCD-10-B21",
+  "accessed_at": "2026-10-15",
+  "records": [
+    {
+      "candidate_id": "WCD10-B21-S001",
+      "url": "https://bibliofep.fundacionempresaspolar.org/dhv/entradas/g/gallegos-romulo/",
+      "title": "Gallegos, Rómulo",
+      "access_status": "OPENED",
+      "accessed_at": "2026-10-15",
+      "opened_in_browser": true,
+      "locator": "实读2026-10-15，条目第23–27行：第23行说明《El Último Solar》于1920年出版、修改删节后以《Reinaldo Solar》于1930年再版；第26行记《Pobre negro》(1937)；第27行记《Sobre la misma tierra》(1941)；第45–47行列直接书目。URL与基线SRC-0275完全一致，复用原行。",
+      "supported_scope": "复用现有SRC-0275，支持《Reinaldo Solar》的改题再版注记、作者作品归属及与另一可靠传记相冲突的《Sobre la misma tierra》年份记载；不改写正式来源行，也不据该作者条目的文学评论建立解释关系。",
+      "downloaded_or_saved": false
+    },
+    {
+      "candidate_id": "WCD10-B21-S002",
+      "url": "https://www.anhvenezuela.org.ve/wp-content/uploads/2024/06/ROMULO-GALLEGOS-S.-A.-CONSALVI-BBV-41.pdf",
+      "title": "Rómulo Gallegos",
+      "access_status": "OPENED",
+      "accessed_at": "2026-10-15",
+      "opened_in_browser": true,
+      "locator": "实读2026-10-15，PDF《Biblioteca Biográfica Venezolana》印刷页53–56、66–72、74–77、91–95、102–104、115–121及140：列《Los aventureros》(1913)及作品简介、《El Último Solar》(1920)及后续《Reinaldo Solar》脉络、《La Trepadora》(1925)、《Doña Bárbara》(1929)、《Cantaclaro》(1934)、《Canaima》(1935)、《Pobre Negro》(1937)、《El Forastero》(1942)、《Sobre la misma tierra》(章节标1943)；第140页说明流亡时期两部小说的题材。",
+      "supported_scope": "支持作者归属、作品类型、直接书目和限定于该书传记叙述的中文简介；只作短篇幅释义，不复制原文或长段引文。对于《Sobre la misma tierra》年份只用于记载冲突说明。",
+      "downloaded_or_saved": false
+    },
+    {
+      "candidate_id": "WCD10-B21-S003",
+      "url": "https://catalogosiidca.csuca.org/Record/UP.96127/TOC",
+      "title": "Obras completas /",
+      "access_status": "OPENED",
+      "accessed_at": "2026-10-15",
+      "opened_in_browser": true,
+      "locator": "实读2026-10-15，目录页第26–45行：记录主作者Rómulo Gallegos、Aguilar 1958西班牙语版；第44–45行列两卷目录，包含《Reinaldo Solar》《La trepadora》《Pobre negro》《El forastero》《Sobre la misma tierra》《La brizna de paja en el viento》等。",
+      "supported_scope": "仅支持作品被列入该馆藏《Obras completas》及该1958年汇编版的目录书目信息；不把汇编出版年当成其中单件作品的首版年。",
+      "downloaded_or_saved": false
+    },
+    {
+      "candidate_id": "WCD10-B21-S004",
+      "url": "https://www.cervantesvirtual.com/portales/rosalia_de_castro_ga/obra/la-rebelion-1922--0/",
+      "title": "La rebelión (1922) / Rómulo Gallegos",
+      "access_status": "OPENED",
+      "accessed_at": "2026-10-15",
+      "opened_in_browser": true,
+      "locator": "实读2026-10-15，第51–58行记作品作者、数字化目录信息、原始出版物《La rebelión y otros cuentos》(Caracas, Librería y Editorial del Maestro, 1946)及短篇叙事主题分类；第54–55行将《La rebelión》定位为该集页7–40。",
+      "supported_scope": "支持《La rebelión y otros cuentos》短篇小说集书目、作者归属、1946年版次及集内收录《La rebelión》；不将单篇与合集合并为同一实体。",
+      "downloaded_or_saved": false
+    }
+  ]
+}

@@ -1,0 +1,772 @@
+{
+  "schema": "wcd10-candidates-1",
+  "task_id": "TASK-107",
+  "batch_id": "WCD-10-B02",
+  "baseline_commit": "05f3372c69a54ec331d31b05d16c8288d6d3a993",
+  "baseline_database_sha256": "98b914d5421d40b2f20488fe988e52fb165fc02967ec1e7e816f9280ce5071d1",
+  "status": "CANDIDATE_NOT_REVIEWED",
+  "author_ids": [
+    "V1-ENT-0030",
+    "V1-ENT-0031",
+    "V1-ENT-0072"
+  ],
+  "accessed_at": "2026-09-28",
+  "public_boundary": "Research candidates only; no change to public_scope, Curation, existing holds, Schema or public release.",
+  "source_scope_decisions": [
+    {
+      "candidate_ids": [
+        "WCD10-B02-S05"
+      ],
+      "related_existing_source": "SRC-0026",
+      "disposition": "reuse",
+      "reason": "http/https与www尾斜线规范化后是同一具体ELEM作品页；必须复用，不创建独立第二来源。"
+    },
+    {
+      "candidate_ids": [
+        "WCD10-B02-S06"
+      ],
+      "disposition": "syndicated_commentary_not_independent",
+      "reason": "FCE转载Santos Domínguez原文，不把原文与转载视为独立两研究。"
+    },
+    {
+      "candidate_ids": [
+        "WCD10-B02-S01",
+        "WCD10-B02-S02",
+        "WCD10-B02-S03",
+        "WCD10-B02-S04"
+      ],
+      "related_existing_source": "SRC-0022",
+      "disposition": "keep_separate",
+      "reason": "具体作品页可分登记，但同属ELEM作者专题；封底重刊不是ELEM原创研究。"
+    }
+  ],
+  "sources": [
+    {
+      "candidate_id": "WCD10-B02-S01",
+      "title": "Ciudad real - Detalle de la obra",
+      "author_or_editor": "Fundación para las Letras Mexicanas / ELEM",
+      "url": "https://www.elem.mx/obra/datos/201070",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "PRIMERA EDICIÓN 1960; CONTRAPORTADA 1982",
+      "usage": "首版、作者与短篇集层级；用出版者封底作集合概述，不当作独立学术研究。"
+    },
+    {
+      "candidate_id": "WCD10-B02-S02",
+      "title": "Los convidados de agosto - Detalle de la obra",
+      "author_or_editor": "Fundación para las Letras Mexicanas / ELEM",
+      "url": "https://www.elem.mx/obra/datos/450",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "PRIMERA EDICIÓN 1964; CONTRAPORTADA 2008",
+      "usage": "首版、短篇集及三短篇/El viudo Román组成；不将2019书名篇场景下推到全合集。"
+    },
+    {
+      "candidate_id": "WCD10-B02-S03",
+      "title": "Álbum de familia - Detalle de la obra",
+      "author_or_editor": "Fundación para las Letras Mexicanas / ELEM",
+      "url": "https://www.elem.mx/obra/datos/451",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "PRIMERA EDICIÓN 1971; CONTRAPORTADA 1971",
+      "usage": "首版及四故事集合描述；2002封底称novela corta与对象层级冲突，不用于分类。"
+    },
+    {
+      "candidate_id": "WCD10-B02-S04",
+      "title": "El eterno femenino - Detalle de la obra",
+      "author_or_editor": "Fundación para las Letras Mexicanas / ELEM",
+      "url": "https://www.elem.mx/obra/datos/207363",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "1975 FCE edition; GÉNERO; CONTRAPORTADA 1975",
+      "usage": "戏剧/讽剧及内容概述；1975仅登记为可识别书版，不伪称已核实首版。"
+    },
+    {
+      "candidate_id": "WCD10-B02-S05",
+      "title": "Oficio de tinieblas - Detalle de la obra",
+      "author_or_editor": "Fundación para las Letras Mexicanas / ELEM",
+      "url": "https://www.elem.mx/obra/datos/2336",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "CONTRAPORTADA 2013",
+      "usage": "只补小说土地/宗教/权力冲突梗概；不把1867–1870事件或小说移置时空作为已确认事件关系。",
+      "reuse_existing_source": "SRC-0026"
+    },
+    {
+      "candidate_id": "WCD10-B02-S06",
+      "title": "Rosario Castellanos. Poesía no eres tú",
+      "author_or_editor": "Santos Domínguez / Encuentros de lecturas; Fondo de Cultura Económica转载",
+      "url": "https://www.fcede.es/site/es/prensa/detalle.aspx?idNota=1703",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "11/05/2018; prose paragraph after HIMNO; translations paragraph",
+      "usage": "只取1972汇集1948–1971诗作及包含译诗的集合概述；2017再版不作首版，网站转载不冒充FCE原创/同行评议。"
+    },
+    {
+      "candidate_id": "WCD10-B02-S07",
+      "title": "An Exploration of Mexican Writer Juan Rulfo through Literature, Photography, Film, and Music",
+      "author_or_editor": "Douglas J. Weatherford / University of Texas Press",
+      "url": "https://utpress.utexas.edu/blog/2025/08/22/an-exploration-of-mexican-writer-juan-rulfo-through-literature-photography-film-and-music/",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "2025-08-22; THE GOLDEN COCKEREL section",
+      "usage": "《金鸡》1980首次印行及Dionisio贫穷/财富/失去的梗概；1956–1957写作年与旧库1958冲突不覆盖。"
+    },
+    {
+      "candidate_id": "WCD10-B02-S08",
+      "title": "El gallo de oro, de Juan Rulfo: aproximaciones a una obra «olvidada»",
+      "author_or_editor": "Françoise Perus / CIALC-IIS-UNAM",
+      "url": "https://www.lanovelacorta.com/images/ii-coloquio-novela-corta-mesa2-04.pdf",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "2º Coloquio Internacional La Novela Corta en México 1922–2012; PDF printed pp.1–3,7",
+      "usage": "只登记归属明确的体裁/文学与电影形式研究说明及1980 Era版本说明；会议论文按B，不伪称同行评议A级，不导入电影日期和假定影响关系。",
+      "access_note": "原始已打开PDF ref turn48view2、复开turn53view0成功；直接URL有间歇缓存失败。来源内Donald/Douglas姓名差异不用于外推。"
+    },
+    {
+      "candidate_id": "WCD10-B02-S09",
+      "title": "Gaboteca: Obras de Ggm",
+      "author_or_editor": "Biblioteca Nacional de Colombia",
+      "url": "https://www.bibliotecanacional.gov.co/es-co/colecciones/biblioteca-digital/gaboteca/obras-de-ggm",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "Novelas title/year entries; Cuentos collection paragraphs and title/year entries",
+      "usage": "目标对象出版年和小说/合集层级；单篇1959与合集1962分开，不使用泛化影响/文学爆炸介绍建立关系。"
+    },
+    {
+      "candidate_id": "WCD10-B02-S10",
+      "title": "La hojarasca | Centro Gabo",
+      "author_or_editor": "Fundación Gabo / Centro Gabo",
+      "url": "https://centrogabo.org/cronologia/la-hojarasca",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "1955 year heading; late-May La hojarasca publication paragraph",
+      "usage": "与Gaboteca共同支持1955，不采用代理页1954；只取该作品出版，不复制同页人物生活与政治轶事。"
+    },
+    {
+      "candidate_id": "WCD10-B02-S11",
+      "title": "La hojarasca: Agencia Literaria Carmen Balcells",
+      "author_or_editor": "Agencia Literaria Carmen Balcells",
+      "url": "https://www.agenciabalcells.com/autores/obra/gabriel-garcia-marquez/la-hojarasca/",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "Book synopsis: Macondo; colonel, daughter and grandson",
+      "usage": "仅作者归属、小说、梗概与Macondo直接场景；页面1954与S09/S10冲突，排除年份。"
+    },
+    {
+      "candidate_id": "WCD10-B02-S12",
+      "title": "La mala hora: Agencia Literaria Carmen Balcells",
+      "author_or_editor": "Agencia Literaria Carmen Balcells",
+      "url": "https://www.agenciabalcells.com/autores/obra/gabriel-garcia-marquez/la-mala-hora/",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "Novela 1962; synopsis opening pasquines paragraphs",
+      "usage": "原作书目、CREATED与匿名小镇揭露隐私/暴力事件梗概；不登记现实原型或历史事件。"
+    },
+    {
+      "candidate_id": "WCD10-B02-S13",
+      "title": "Los funerales de la Mamá Grande: Agencia Literaria Carmen Balcells",
+      "author_or_editor": "Agencia Literaria Carmen Balcells",
+      "url": "https://www.agenciabalcells.com/autores/obra/gabriel-garcia-marquez/los-funerales-de-la-mama-grande/",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "Relatos 1962; synopsis seven stories and title novella",
+      "usage": "只取八篇组成的集合概述并明示书名篇葬礼；不把同名单篇年代/场景作为全合集属性。"
+    },
+    {
+      "candidate_id": "WCD10-B02-S14",
+      "title": "La increíble y triste historia de la Cándida Eréndira y de su abuela desalmada: Agencia Literaria Carmen Balcells",
+      "author_or_editor": "Agencia Literaria Carmen Balcells",
+      "url": "https://www.agenciabalcells.com/autores/obra/gabriel-garcia-marquez/la-increible-y-triste-historia-de-la-candida-erendira-y-de-su-abuela-desalmada/",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "Relatos 1972; Reúne la novela corta…y otros seis relatos",
+      "usage": "合集层级、1972及同名中篇+六篇组成；不将源站对书名篇的道德/魔幻评价下推到全合集。"
+    },
+    {
+      "candidate_id": "WCD10-B02-S15",
+      "title": "Doce cuentos peregrinos: Agencia Literaria Carmen Balcells",
+      "author_or_editor": "Agencia Literaria Carmen Balcells",
+      "url": "https://www.agenciabalcells.com/autores/obra/gabriel-garcia-marquez/doce-cuentos-peregrinos/",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "Relatos 1992; synopsis twelve Latin American characters in Europe",
+      "usage": "合集年与十二篇集合梗概；不对整个合集建立巴塞罗那/维也纳/日内瓦唯一场景。"
+    },
+    {
+      "candidate_id": "WCD10-B02-S16",
+      "title": "El general en su laberinto: Agencia Literaria Carmen Balcells",
+      "author_or_editor": "Agencia Literaria Carmen Balcells",
+      "url": "https://www.agenciabalcells.com/autores/obra/gabriel-garcia-marquez/el-general-en-su-laberinto/",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "Novela 1989; synopsis last journey Bogotá/Magdalena",
+      "usage": "小说梗概里的玻利瓦尔最后旅程；不自动建立BASED_ON_EVENT或新人物节点。"
+    },
+    {
+      "candidate_id": "WCD10-B02-S17",
+      "title": "Del Amor y Otros Demonios",
+      "author_or_editor": "Penguin Books / Penguin Random House",
+      "url": "https://www.penguinrandomhouse.com/books/324593/del-amor-y-otros-demonios-by-gabriel-garcia-marquez/",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "Book Description; ISBN 9780140245592",
+      "usage": "只补Sierva Maria/Cayetano Delaura殖民哥伦比亚的小说梗概；具体1994版日期不代替原作首版，首版年用Gaboteca。"
+    },
+    {
+      "candidate_id": "WCD10-B02-S18",
+      "title": "El amor en los tiempos del cólera: Agencia Literaria Carmen Balcells",
+      "author_or_editor": "Agencia Literaria Carmen Balcells",
+      "url": "https://www.agenciabalcells.com/autores/obra/gabriel-garcia-marquez/el-amor-en-los-tiempos-del-colera/",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "Novela 1985; Fermina Daza/Florentino Ariza synopsis",
+      "usage": "补现有小说对象级故事，不复写已登记年/体裁或将加勒比港口作为唯一现实地点。"
+    },
+    {
+      "candidate_id": "WCD10-B02-S19",
+      "title": "El otoño del patriarca: Agencia Literaria Carmen Balcells",
+      "author_or_editor": "Agencia Literaria Carmen Balcells",
+      "url": "https://www.agenciabalcells.com/autores/obra/gabriel-garcia-marquez/el-otono-del-patriarca/",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "Novela 1975; six narrative blocks / dictator death synopsis",
+      "usage": "补循环叙述与独裁者衰老/死亡梗概；不指定现实国家、人物或升级既有文学运动hold。"
+    }
+  ],
+  "new_entities": [
+    {
+      "candidate_id": "WCD10-B02-W01",
+      "author_id": "V1-ENT-0030",
+      "entity_type": "collection",
+      "original_name": "Ciudad real",
+      "name_zh_candidate": "《真实之城》（暂译）",
+      "name_policy": "中文显示名仅为暂译，尚未核对中文译本；原文题名为查重依据，不新增edition或单篇子节点。",
+      "rationale": "补现有CREATED清单未收录的可识别原作/合集；来源对象、层级、年份分别核验，不设作品数量KPI。",
+      "facts": [
+        {
+          "field": "first_publication_year",
+          "value": "1960",
+          "source_refs": [
+            "WCD10-B02-S01"
+          ]
+        },
+        {
+          "field": "genre_or_form",
+          "value": "短篇小说集",
+          "source_refs": [
+            "WCD10-B02-S01"
+          ]
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "围绕恰帕斯原住民与拉迪诺人的生活展开，呈现地方社会中的偏见和不公。",
+          "source_refs": [
+            "WCD10-B02-S01"
+          ]
+        }
+      ],
+      "created_source_refs": [
+        "WCD10-B02-S01"
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B02-W02",
+      "author_id": "V1-ENT-0030",
+      "entity_type": "collection",
+      "original_name": "Los convidados de agosto",
+      "name_zh_candidate": "《八月的宾客》（暂译）",
+      "name_policy": "中文显示名仅为暂译，尚未核对中文译本；原文题名为查重依据，不新增edition或单篇子节点。",
+      "rationale": "补现有CREATED清单未收录的可识别原作/合集；来源对象、层级、年份分别核验，不设作品数量KPI。",
+      "facts": [
+        {
+          "field": "first_publication_year",
+          "value": "1964",
+          "source_refs": [
+            "WCD10-B02-S02"
+          ]
+        },
+        {
+          "field": "genre_or_form",
+          "value": "短篇小说集（含中篇）",
+          "source_refs": [
+            "WCD10-B02-S02"
+          ]
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "由三篇短篇和中篇《鳏夫罗曼》组成，叙写外省中产阶层受传统与偏见约束的生活。",
+          "source_refs": [
+            "WCD10-B02-S02"
+          ]
+        }
+      ],
+      "created_source_refs": [
+        "WCD10-B02-S02"
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B02-W03",
+      "author_id": "V1-ENT-0030",
+      "entity_type": "collection",
+      "original_name": "Álbum de familia",
+      "name_zh_candidate": "《家庭相册》（暂译）",
+      "name_policy": "中文显示名仅为暂译，尚未核对中文译本；原文题名为查重依据，不新增edition或单篇子节点。",
+      "rationale": "补现有CREATED清单未收录的可识别原作/合集；来源对象、层级、年份分别核验，不设作品数量KPI。",
+      "facts": [
+        {
+          "field": "first_publication_year",
+          "value": "1971",
+          "source_refs": [
+            "WCD10-B02-S03"
+          ]
+        },
+        {
+          "field": "genre_or_form",
+          "value": "短篇小说集",
+          "source_refs": [
+            "WCD10-B02-S03"
+          ]
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "四篇故事分别触及新婚日常、周日聚会、母亲与子女以及女性知识分子的文学交往。",
+          "source_refs": [
+            "WCD10-B02-S03"
+          ]
+        }
+      ],
+      "created_source_refs": [
+        "WCD10-B02-S03"
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B02-W04",
+      "author_id": "V1-ENT-0072",
+      "entity_type": "work",
+      "original_name": "La hojarasca",
+      "name_zh_candidate": "《枯枝败叶》（暂译）",
+      "name_policy": "中文显示名仅为暂译，尚未核对中文译本；原文题名为查重依据，不新增edition或单篇子节点。",
+      "rationale": "补现有CREATED清单未收录的可识别原作/合集；来源对象、层级、年份分别核验，不设作品数量KPI。",
+      "facts": [
+        {
+          "field": "first_publication_year",
+          "value": "1955",
+          "source_refs": [
+            "WCD10-B02-S09",
+            "WCD10-B02-S10"
+          ]
+        },
+        {
+          "field": "genre_or_form",
+          "value": "小说",
+          "source_refs": [
+            "WCD10-B02-S11"
+          ]
+        },
+        {
+          "field": "story_premise",
+          "value": "马孔多一位受憎恨的医生死后，上校坚持履行安葬他的承诺；上校、女儿和外孙的内心叙述交织呈现往事。",
+          "source_refs": [
+            "WCD10-B02-S11"
+          ]
+        }
+      ],
+      "created_source_refs": [
+        "WCD10-B02-S11"
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B02-W05",
+      "author_id": "V1-ENT-0072",
+      "entity_type": "work",
+      "original_name": "La mala hora",
+      "name_zh_candidate": "《恶时辰》（暂译）",
+      "name_policy": "中文显示名仅为暂译，尚未核对中文译本；原文题名为查重依据，不新增edition或单篇子节点。",
+      "rationale": "补现有CREATED清单未收录的可识别原作/合集；来源对象、层级、年份分别核验，不设作品数量KPI。",
+      "facts": [
+        {
+          "field": "first_publication_year",
+          "value": "1962",
+          "source_refs": [
+            "WCD10-B02-S09",
+            "WCD10-B02-S12"
+          ]
+        },
+        {
+          "field": "genre_or_form",
+          "value": "小说",
+          "source_refs": [
+            "WCD10-B02-S12"
+          ]
+        },
+        {
+          "field": "story_premise",
+          "value": "一座小镇出现揭露私人秘密的匿名告示，猜忌和谣言逐渐引发杀人及更广泛的暴力。",
+          "source_refs": [
+            "WCD10-B02-S12"
+          ]
+        }
+      ],
+      "created_source_refs": [
+        "WCD10-B02-S12"
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B02-W06",
+      "author_id": "V1-ENT-0072",
+      "entity_type": "collection",
+      "original_name": "Los funerales de la Mamá Grande",
+      "name_zh_candidate": "《大妈妈的葬礼》（暂译）",
+      "name_policy": "中文显示名仅为暂译，尚未核对中文译本；原文题名为查重依据，不新增edition或单篇子节点。",
+      "rationale": "补现有CREATED清单未收录的可识别原作/合集；来源对象、层级、年份分别核验，不设作品数量KPI。",
+      "facts": [
+        {
+          "field": "first_publication_year",
+          "value": "1962",
+          "source_refs": [
+            "WCD10-B02-S09",
+            "WCD10-B02-S13"
+          ]
+        },
+        {
+          "field": "genre_or_form",
+          "value": "短篇小说集（含中篇）",
+          "source_refs": [
+            "WCD10-B02-S13"
+          ]
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "七篇故事与同名中篇组成的作品集；书名篇围绕一位地方女统治者的葬礼展开。",
+          "source_refs": [
+            "WCD10-B02-S13"
+          ]
+        }
+      ],
+      "created_source_refs": [
+        "WCD10-B02-S13"
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B02-W07",
+      "author_id": "V1-ENT-0072",
+      "entity_type": "collection",
+      "original_name": "La increíble y triste historia de la cándida Eréndira y de su abuela desalmada",
+      "name_zh_candidate": "《纯真的埃伦迪拉和她残忍的祖母令人难以置信的悲惨故事》（暂译）",
+      "name_policy": "中文显示名仅为暂译，尚未核对中文译本；原文题名为查重依据，不新增edition或单篇子节点。",
+      "rationale": "补现有CREATED清单未收录的可识别原作/合集；来源对象、层级、年份分别核验，不设作品数量KPI。",
+      "facts": [
+        {
+          "field": "first_publication_year",
+          "value": "1972",
+          "source_refs": [
+            "WCD10-B02-S09",
+            "WCD10-B02-S14"
+          ]
+        },
+        {
+          "field": "genre_or_form",
+          "value": "短篇小说集（含中篇）",
+          "source_refs": [
+            "WCD10-B02-S14"
+          ]
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "由同名中篇和另外六篇故事组成；书名篇讲述埃伦迪拉与祖母的故事，不代表全书只有这一条情节。",
+          "source_refs": [
+            "WCD10-B02-S14"
+          ]
+        }
+      ],
+      "created_source_refs": [
+        "WCD10-B02-S14"
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B02-W08",
+      "author_id": "V1-ENT-0072",
+      "entity_type": "collection",
+      "original_name": "Doce cuentos peregrinos",
+      "name_zh_candidate": "《十二个异乡故事》（暂译）",
+      "name_policy": "中文显示名仅为暂译，尚未核对中文译本；原文题名为查重依据，不新增edition或单篇子节点。",
+      "rationale": "补现有CREATED清单未收录的可识别原作/合集；来源对象、层级、年份分别核验，不设作品数量KPI。",
+      "facts": [
+        {
+          "field": "first_publication_year",
+          "value": "1992",
+          "source_refs": [
+            "WCD10-B02-S09",
+            "WCD10-B02-S15"
+          ]
+        },
+        {
+          "field": "genre_or_form",
+          "value": "短篇小说集",
+          "source_refs": [
+            "WCD10-B02-S15"
+          ]
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "十二篇故事围绕生活在欧洲的拉丁美洲人展开，叙写他们在不同城市的生活与意外际遇。",
+          "source_refs": [
+            "WCD10-B02-S15"
+          ]
+        }
+      ],
+      "created_source_refs": [
+        "WCD10-B02-S15"
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B02-W09",
+      "author_id": "V1-ENT-0072",
+      "entity_type": "work",
+      "original_name": "El general en su laberinto",
+      "name_zh_candidate": "《迷宫中的将军》（暂译）",
+      "name_policy": "中文显示名仅为暂译，尚未核对中文译本；原文题名为查重依据，不新增edition或单篇子节点。",
+      "rationale": "补现有CREATED清单未收录的可识别原作/合集；来源对象、层级、年份分别核验，不设作品数量KPI。",
+      "facts": [
+        {
+          "field": "first_publication_year",
+          "value": "1989",
+          "source_refs": [
+            "WCD10-B02-S09",
+            "WCD10-B02-S16"
+          ]
+        },
+        {
+          "field": "genre_or_form",
+          "value": "小说",
+          "source_refs": [
+            "WCD10-B02-S16"
+          ]
+        },
+        {
+          "field": "story_premise",
+          "value": "病中的西蒙·玻利瓦尔从波哥大沿马格达莱纳河开始最后旅程，途中回顾政治理想和自己的过去。",
+          "source_refs": [
+            "WCD10-B02-S16"
+          ]
+        }
+      ],
+      "created_source_refs": [
+        "WCD10-B02-S16"
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B02-W10",
+      "author_id": "V1-ENT-0072",
+      "entity_type": "work",
+      "original_name": "Del amor y otros demonios",
+      "name_zh_candidate": "《爱情和其他魔鬼》（暂译）",
+      "name_policy": "中文显示名仅为暂译，尚未核对中文译本；原文题名为查重依据，不新增edition或单篇子节点。",
+      "rationale": "补现有CREATED清单未收录的可识别原作/合集；来源对象、层级、年份分别核验，不设作品数量KPI。",
+      "facts": [
+        {
+          "field": "first_publication_year",
+          "value": "1994",
+          "source_refs": [
+            "WCD10-B02-S09"
+          ]
+        },
+        {
+          "field": "genre_or_form",
+          "value": "小说",
+          "source_refs": [
+            "WCD10-B02-S09",
+            "WCD10-B02-S17"
+          ]
+        },
+        {
+          "field": "story_premise",
+          "value": "故事发生在十八世纪殖民时期的哥伦比亚海岸，围绕少女西尔瓦·玛丽亚与神父卡耶塔诺·德劳拉的爱情及其毁灭展开。",
+          "source_refs": [
+            "WCD10-B02-S17"
+          ]
+        }
+      ],
+      "created_source_refs": [
+        "WCD10-B02-S09",
+        "WCD10-B02-S17"
+      ]
+    }
+  ],
+  "existing_facts": [
+    {
+      "candidate_id": "WCD10-B02-F01",
+      "subject_id": "V1-ENT-0036",
+      "field": "story_premise",
+      "value": "故事围绕恰帕斯原住民和拉迪诺人之间的土地、宗教与权力冲突展开。",
+      "source_refs": [
+        "WCD10-B02-S05"
+      ],
+      "boundary": "按2013版封底作释义；不确定化历史十字架事件，不覆盖1962事实。"
+    },
+    {
+      "candidate_id": "WCD10-B02-F02",
+      "subject_id": "V1-ENT-0037",
+      "field": "one_sentence_summary",
+      "value": "汇集卡斯特利亚诺斯1948至1971年的诗作，并收入她翻译的艾米莉·狄金森、保罗·克洛岱尔和圣琼·佩斯的诗。",
+      "source_refs": [
+        "WCD10-B02-S06"
+      ],
+      "boundary": "书目层面的集合概述；保留旧bibliographic_note，不把转载评论定为独立A级研究。"
+    },
+    {
+      "candidate_id": "WCD10-B02-F03",
+      "subject_id": "V1-ENT-0044",
+      "field": "genre_or_form",
+      "value": "戏剧／讽剧",
+      "source_refs": [
+        "WCD10-B02-S04"
+      ],
+      "boundary": "依据Dramaturgia及1975封底farsa；不创建新合集或改编。"
+    },
+    {
+      "candidate_id": "WCD10-B02-F04",
+      "subject_id": "V1-ENT-0044",
+      "field": "story_premise",
+      "value": "这部讽剧以幽默的方式呈现女性在男性主导的社会中面对的处境与角色期待。",
+      "source_refs": [
+        "WCD10-B02-S04"
+      ],
+      "boundary": "封底作品级内容释义；不创建EXPLORES_THEME解释性关系。"
+    },
+    {
+      "candidate_id": "WCD10-B02-F05",
+      "subject_id": "V1-ENT-0044",
+      "field": "bibliographic_note",
+      "value": "ELEM登记墨西哥文化经济基金会1975年《墨西哥文学》系列第115号书版。",
+      "source_refs": [
+        "WCD10-B02-S04"
+      ],
+      "boundary": "1975是本来源可识别书版年；first_publication_year与首演年尚未核实，保留缺口。"
+    },
+    {
+      "candidate_id": "WCD10-B02-F06",
+      "subject_id": "V1-ENT-0040",
+      "field": "first_publication_year",
+      "value": "1980",
+      "source_refs": [
+        "WCD10-B02-S07",
+        "WCD10-B02-S08"
+      ],
+      "boundary": "来源区分先有电影、1980书面刊行；保留旧publication_year1980与composition_year1958，写作年冲突不回填。"
+    },
+    {
+      "candidate_id": "WCD10-B02-F07",
+      "subject_id": "V1-ENT-0040",
+      "field": "story_premise",
+      "value": "迪奥尼西奥在市集与赌局间谋生，凭运气从贫穷走向富裕，最终又失去财富。",
+      "source_refs": [
+        "WCD10-B02-S07"
+      ],
+      "boundary": "小说人物的故事，不作为现实生平；不覆盖旧复合genre_or_form。"
+    },
+    {
+      "candidate_id": "WCD10-B02-F08",
+      "subject_id": "V1-ENT-0040",
+      "field": "research_note",
+      "value": "Françoise Perus 在《El gallo de oro, de Juan Rulfo: aproximaciones a una obra «olvidada»》中讨论 nouvelle 的体裁记忆及文学与电影的形式差异，指出与电影的关联并不抹去《金鸡》作为文学文本的性质。",
+      "source_refs": [
+        "WCD10-B02-S08"
+      ],
+      "boundary": "署名会议研究说明，research_note_only；历史同行评议NOT_VERIFIED，不是已关闭A级学术覆盖，不改旧genre，不确认影响/改编关系。"
+    },
+    {
+      "candidate_id": "WCD10-B02-F09",
+      "subject_id": "V1-ENT-0158",
+      "field": "story_premise",
+      "value": "费尔米娜·达萨与弗洛伦蒂诺·阿里萨在加勒比港口城市经历相识、分离和漫长等待，半个世纪后再次面对彼此的感情。",
+      "source_refs": [
+        "WCD10-B02-S18"
+      ],
+      "boundary": "只补对象级梗概；保留1985书目、既有SET_IN和hold。"
+    },
+    {
+      "candidate_id": "WCD10-B02-F10",
+      "subject_id": "V1-ENT-0159",
+      "field": "story_premise",
+      "value": "小说以循环展开的叙述回望一位独裁者的统治、衰老与死亡。",
+      "source_refs": [
+        "WCD10-B02-S19"
+      ],
+      "boundary": "出版者小说释义不指定现实独裁者/国家，不旁路解释性关系门禁。"
+    }
+  ],
+  "extra_relationships": [
+    {
+      "candidate_id": "WCD10-B02-R01",
+      "subject_id": "WCD10-B02-W04",
+      "relation_type": "SET_IN",
+      "object_id": "V1-ENT-0097",
+      "description_zh": "《La hojarasca》的安葬事件与三代人的叙述发生在文学虚构城镇马孔多。",
+      "source_refs": [
+        "WCD10-B02-S11"
+      ]
+    }
+  ],
+  "deferred": [
+    {
+      "key": "El gallo de oro: composition_year 1958 versus 1956–1957",
+      "disposition": "hold_preserve_existing_pending_conflict_review",
+      "source_refs": [
+        "WCD10-B02-S07",
+        "WCD10-B02-S08"
+      ],
+      "reason": "旧库写作年1958，新来源1956–1957；本批只补1980书版/梗概，不改写既有事实。"
+    },
+    {
+      "key": "El eterno femenino: first publication and première",
+      "disposition": "research_gap",
+      "source_refs": [
+        "WCD10-B02-S04"
+      ],
+      "reason": "ELEM显示1975可识别书版，但本轮未取得首版/首演明确限定；不把1975书版直接提升首版年。"
+    },
+    {
+      "key": "La hojarasca: rejected agency 1954 year",
+      "disposition": "exclude_conflicting_source_field",
+      "source_refs": [
+        "WCD10-B02-S09",
+        "WCD10-B02-S10",
+        "WCD10-B02-S11"
+      ],
+      "reason": "Gaboteca与Centro Gabo直接书目列1955；代理页1954不作为准入年份，其他字段单独审。"
+    },
+    {
+      "key": "Collection versus title-story editions",
+      "disposition": "keep_collection_and_single_work_layers_separate",
+      "source_refs": [
+        "WCD10-B02-S02",
+        "WCD10-B02-S03",
+        "WCD10-B02-S13",
+        "WCD10-B02-S14"
+      ],
+      "reason": "书名篇或现代独立版本不下推至原合集；Álbum2002封底的novela corta不覆盖1971四篇集合对象。"
+    },
+    {
+      "key": "B02 interpretive relationships and legacy holds",
+      "disposition": "hold_needs_object_level_independent_evidence",
+      "source_refs": [],
+      "reason": "所有旧主题/文学运动hold保持；未获两个独立合格对象级研究及精确端点，不批量新增主题/影响/文学运动/事件关系。"
+    },
+    {
+      "key": "Further bibliography beyond this bounded B02 set",
+      "disposition": "defer_not_claim_exhaustive",
+      "source_refs": [
+        "WCD10-B02-S09"
+      ],
+      "reason": "本批不是三位作者全集。论文/散文、新闻、回忆录、摄影、书信及身后出版物逐对象另核；不为鲁尔福强造第四部小说。"
+    },
+    {
+      "key": "New Chinese display titles",
+      "disposition": "provisional_translation_only",
+      "source_refs": [],
+      "reason": "中文显示名仅为暂译，尚未核对中文译本；原文题名为查重依据，不新增edition或单篇子节点。"
+    }
+  ]
+}

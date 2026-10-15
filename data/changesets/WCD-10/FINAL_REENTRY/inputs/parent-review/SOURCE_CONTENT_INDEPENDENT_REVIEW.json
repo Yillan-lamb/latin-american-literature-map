@@ -1,0 +1,110 @@
+{
+  "reviewer": "Codex-parent-independent-review",
+  "date": "2026-10-15",
+  "task_id": "TASK-127",
+  "checkpoint": "FINAL_REENTRY",
+  "verdict": "PASS_SOURCE_CONTENT",
+  "checks": [
+    {
+      "check": "live B21 baseline exact",
+      "passed": true
+    },
+    {
+      "check": "original W03 object and four evidence rows preserved",
+      "passed": true
+    },
+    {
+      "check": "real B05 three-author roster and current task",
+      "passed": true
+    },
+    {
+      "check": "narrow one-work package",
+      "passed": true
+    },
+    {
+      "check": "W03 identity and direct Paz attribution",
+      "passed": true
+    },
+    {
+      "check": "three supported fields with no atomic year chosen",
+      "passed": true
+    },
+    {
+      "check": "documented translation and original-language publication layers",
+      "passed": true
+    },
+    {
+      "check": "evidence matrix matches three active facts",
+      "passed": true
+    },
+    {
+      "check": "current source access distinguished from historical success",
+      "passed": true
+    },
+    {
+      "check": "real ordinary validator PASS",
+      "passed": true
+    },
+    {
+      "check": "ordinary validator actual successful exit",
+      "passed": true
+    },
+    {
+      "check": "fresh complete 17 old works and new W03 main coverage",
+      "passed": true
+    },
+    {
+      "check": "17 exact complete old-work closure wrappers retained",
+      "passed": true
+    },
+    {
+      "check": "old main rows preserve existing gaps rather than recreate",
+      "passed": true
+    },
+    {
+      "check": "old policy gap unique and retained",
+      "passed": true
+    },
+    {
+      "check": "W03 absent from baseline",
+      "passed": true
+    },
+    {
+      "check": "Amado appendix endpoints and precise contributor role",
+      "passed": true
+    },
+    {
+      "check": "Amado ordinary validator boundary explicit",
+      "passed": true
+    },
+    {
+      "check": "Amado relation absent and existing work type retained",
+      "passed": true
+    },
+    {
+      "check": "Amado source full row matches unchanged master",
+      "passed": true
+    },
+    {
+      "check": "Telles already closed exactly once",
+      "passed": true
+    }
+  ],
+  "hashes": {
+    "CANDIDATES.json": "56d576883b7555c2e43e595264e47a558e721d16855f01bf349f4e5d157b6abb",
+    "COVERAGE.json": "8b7544ae8fcee8def89940f31dc65297ed60ad6a02838ff67d06c0c560cf6fc1",
+    "SOURCE_REGISTRATION.json": "cb6cf05e75336d8c64cb1cb769cb55f89737124d7f78f88a9687291b40256355",
+    "SOURCE_ACCESS_LOG.json": "cec2492bd8adce4a739a218c3d0b83e8a202d2183b03be86e0cbcd1f6553032d",
+    "EVIDENCE_MATRIX.json": "1dfe51770897db1cab709069a62b7954d590172a3813ca30049f47147d643152",
+    "DEDUP.json": "bbddbfa78c6c668a5dbf4592d6c8ff82e15a2051bb91856dc98cffb5a5c15888",
+    "AMADO0172_TO_0591_CONTROLLED_APPEND.json": "79381528e62ecb5f2d9eeadf26a896452067fcc99c0460e0330e667c8b4c7430",
+    "VALIDATOR_REPORT.json": "7f9b63ac4d262af6fb64f2a47f0c6caba9d3fc2f378b7071167ccf6ce6c7d7c2",
+    "VALIDATOR_EXECUTION.json": "2f0a960918aa18becc7bcc878e11fffcdfc5ce56a553827185b766203cea24c5"
+  },
+  "semantic_assessment": {
+    "W03": "Original frozen ELEM institution work entry and parent 2026-10-07 successful read support form, attributed short synopsis, Paz authorship and separate 1972 French/1974 Spanish layers. Fresh ELEM open failed; atomic first year omitted per DEC-070. No SET_IN or other inferred relation.",
+    "Amado": "Parent fresh read of SRC-0652 PDF P4 printed557 L134-156 supports one of ten chapter authors, no chapter or exclusive authorship inferred. Separate controlled append, outside ordinary validator.",
+    "gaps": "Existing V1-GAP-0123 remains unchanged; a new object-level research gap is semantically separate from unresolved atomic publication-year policy.",
+    "boundary": "Research only, no Curation or public expansion. No schema/tool/version policy change."
+  }
+}

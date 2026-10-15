@@ -1,0 +1,96 @@
+{
+  "task_id": "TASK-110",
+  "batch_id": "WCD-10-B05",
+  "revision": "R3+F16+W03-DEFERRED-INTEGRATION-SUBSET",
+  "received_dates": [
+    "2026-10-03",
+    "2026-10-07"
+  ],
+  "authorization": "Parent authorized this bounded candidate delta: freeze prior 48-fact draft, isolate W03 pending USER policy, preserve W03 return path and F16 candidate; no real gate, SQL/apply, master write, public change, or policy choice.",
+  "baseline": {
+    "git_commit": "05f3372c69a54ec331d31b05d16c8288d6d3a993",
+    "database_sha256": "45e8d72c3656f762f4a34f664c822c33685be925b53553b91b19041d6835b47d",
+    "r0_candidates_sha256": "6d24789c667a19dc34e330629914e4746d93aefd265eb24f917c568ff5834dce",
+    "r1_candidates_sha256": "02e6cf054fdd1cb7bb73e68dd35c69647829a6c48e36a2191de3979ad03b4f47"
+  },
+  "inputs": [
+    {
+      "path": "project/internal/WCD_10_WORKSPACE/B05/R1_INDEPENDENT_REVIEW.md",
+      "role": "R2返修唯一依据（二轮审计）",
+      "sha256": "2aa71fa7aa5024f6d11c077c648800492757b1a53ff830c9042d243ce05e8e25"
+    },
+    {
+      "path": "project/internal/WCD_10_WORKSPACE/B05/INDEPENDENT_REVIEW.md",
+      "role": "首轮审计（历史依据）",
+      "sha256": "75e3139d6cae53d10159db805f38875db1514e8659a307eb273fb04693712f14"
+    },
+    {
+      "path": "project/internal/TASKS.md",
+      "role": "任务源",
+      "sha256": "7fa709e6e4f376e095e4dc7a3205c3cad407d14a6fa65e833d851b656f6b8124"
+    },
+    {
+      "path": "work/codex-worktrees/latin-american-literature-map-wcd10/data/master/V1_MASTER.sqlite",
+      "role": "只读主库",
+      "sha256": "45e8d72c3656f762f4a34f664c822c33685be925b53553b91b19041d6835b47d",
+      "expected": "45e8d72c3656f762f4a34f664c822c33685be925b53553b91b19041d6835b47d"
+    },
+    {
+      "path": "work/codex-worktrees/latin-american-literature-map-wcd10/scripts/validate_wcd10_candidates.py",
+      "role": "机械验证器",
+      "sha256": "81bcedabda5d5dcdb943aa9bebc6e33f2f1287f6f9bf7030e5f2801816c49ec9"
+    },
+    {
+      "path": "work/external-ai/deliveries/WCD-10-external/B05_R1/CANDIDATES.json",
+      "role": "R1原包（保留不动，冻结SHA 02e6cf05…）",
+      "sha256": "02e6cf054fdd1cb7bb73e68dd35c69647829a6c48e36a2191de3979ad03b4f47",
+      "expected": "02e6cf054fdd1cb7bb73e68dd35c69647829a6c48e36a2191de3979ad03b4f47"
+    },
+    {
+      "path": "project/internal/WCD_10_WORKSPACE/B05/R2_INDEPENDENT_REVIEW.md",
+      "role": "R3返修唯一依据（三轮审计及R2-01）",
+      "sha256": "cca5502a0e2a02c9ee25ae9d10b67a8fc7f4f061ac180b735b626d31610c04f9"
+    },
+    {
+      "path": "work/external-ai/deliveries/WCD-10-external/B05_R2/CANDIDATES.json",
+      "role": "冻结R2完整候选基线；仅W09主题末句允许差量",
+      "sha256": "6d00473fd320d830c8ac37516af1c7113a1d532bdc3bfa9e34ff276fbf733cca",
+      "expected": "6d00473fd320d830c8ac37516af1c7113a1d532bdc3bfa9e34ff276fbf733cca"
+    },
+    {
+      "path": "project/internal/WCD_10_WORKSPACE/orchestration/wave-01/policy_evidence/ERRATA_CANDIDATE.json",
+      "role": "F16追加式更正候选（SHA冻结）；只读输入",
+      "sha256": "efcc91016cc1f6cfa840832fa5ecc695349d8e0e9335340afd31dea12266499d",
+      "expected": "efcc91016cc1f6cfa840832fa5ecc695349d8e0e9335340afd31dea12266499d"
+    }
+  ],
+  "notes": "R3仅处理R2-01。ELEM 5746 页面正文于本轮重新读取以确认 1990 定本边界；未复制全文。R2完整冻结包作为差量基线。旧三项门禁继续保留。 Integrator初稿只增加F16并更新指定deferred/coverage说明；R3输入仍独立冻结且未改。",
+  "w03_deferred_candidate": {
+    "path": "W03_DEFERRED_CANDIDATE.json",
+    "sha256": "a49cd6f1f4ddc3977077f89d0303895c6aa62020fd776c7e87e560674cac5ad4",
+    "status": "DEFERRED_NOT_ADMITTED / USER_POLICY_PENDING",
+    "requires_reentry_before": "TASK-127 completion"
+  },
+  "pre_policy_full_draft": {
+    "path": "inputs/B05_WITH_F16_PRE_POLICY/",
+    "files": {
+      "CANDIDATES.json": "09ed0c3e73862c81428837772a3ac9a891a400f52ba84cdb3094febf9d058c17",
+      "COVERAGE.json": "7dc32d40d1b1555b9c228b1f4b1032e583d160a35c0b1fde244370e4ca515936",
+      "DEDUP.json": "58dc0361a3320c8e37d8945285a51ba9c08ab6543eec0076130195d60da15b5d",
+      "EVIDENCE_MATRIX.json": "28cdbc344467f70e3fc11a267a95f7d4929820c2f5fadad3c6f2375db5fa1cbc",
+      "FILES_SHA256.txt": "894e65cce334cdbe9e90a13ebece0b5d6a75ec338f64459129633b0059c6d396",
+      "INPUT_MANIFEST.json": "9b0699b23c64d3663d11107fbbaf174f6d3369f844cd724750cb737e6b8cc9ba",
+      "INVENTORY.md": "8f177614bdba2cc164d195e60e226e0ca8ebb2e3ccdb5635b7d664544d70c745",
+      "ISSUES.md": "a117d47c6e867bec412cf502a53ebdfb2a3f6ade399fe0ee3bcfeaee71394853",
+      "MECHANICAL_CHECK.json": "ccc19d0282e626b32de3a2940a2d17c34326928839ce3db3f8d8815184778285",
+      "README.md": "225b2ff9aa6fc7612063df318035277846d5c43ef724997805cd424cfbfe357b",
+      "REVISION_NOTES.md": "566a5ae103dce4fc13668dc25043b99d990f3c7ee62cf758a766a695159f928a",
+      "SELF_CHECK.json": "d91943386dfa0b1c6bbb05c4efc9a1c347a3c11626b039db4cd7e3822b07a655",
+      "SOURCE_ACCESS_LOG.json": "307e2eb8b9ddbbad72ade155dc3bf6b752d9a7ce90753f155e079a86ae7c91e1",
+      "SOURCE_REGISTRATION.json": "09ccd274d690030e3649dfa9d8da9eff4caa435558ec4451ebb3cca1c6fcf5ab"
+    },
+    "candidate_sha256": "09ed0c3e73862c81428837772a3ac9a891a400f52ba84cdb3094febf9d058c17",
+    "fact_count": 48,
+    "status": "byte-identical frozen input"
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "task_id": "TASK-114",
+  "batch_id": "WCD-10-B09",
+  "accessed_at": "2026-10-12",
+  "verified_by": {
+    "V1-ENT-0213": "GPT-6 Luna candidate producer; direct web source pages opened 2026-10-12",
+    "V1-ENT-0223": "GPT-6 Luna worker; three URLs were directly opened through web research; line/page locators and concise paraphrase evidence are recorded in EVIDENCE_MATRIX.json. The direct BNP digital item and Casa literature page were openable; no blocked search-only page is used.",
+    "V1-ENT-0224": "GPT-6 Luna author-isolated candidate producer"
+  },
+  "source_year_policy": {
+    "V1-ENT-0213": "Source publication dates left blank where not stated; work publication years recorded only when directly listed by BNDigital/municipal cultural page.",
+    "V1-ENT-0223": "publication_year records the cited source publication/issue date only when explicit, never the work date; work year facts remain separate. Existing SRC-0178 metadata stays untouched. Vallejo's poem composition span 1931–1937 is used only inside the attributed Poemas humanos description; the 1939 edition date is kept separate. The Los heraldos negros baseline 1918/1919 conflict is unchanged.",
+    "V1-ENT-0224": "Do not infer bibliographic publication year from digital posting date; preserve printed edition year only where directly stated."
+  },
+  "public_content_scope": "Research candidate metadata only; no public admission implied.",
+  "local_asset_status": "remote_only",
+  "copyright_boundary": "No substantial source text reproduced; descriptions are brief Chinese paraphrases.",
+  "profiles": [
+    {
+      "candidate_id": "WCD10-B09-S001",
+      "publisher": "Fundação Biblioteca Nacional",
+      "format": "institutional_biography_web_page",
+      "language": "pt",
+      "publication_year": "",
+      "notes": "访问日期2026-10-12；定位及直接证据摘要见 CANDIDATES.sources.locator 与 EVIDENCE_MATRIX.json。",
+      "disposition": "reuse",
+      "reuse_existing_source": "SRC-0171",
+      "related_existing_source": "SRC-0171"
+    },
+    {
+      "candidate_id": "WCD10-B09-S002",
+      "publisher": "Secretaria Municipal de Cultura e Economia Criativa de São Paulo",
+      "format": "institutional_biography_web_page",
+      "language": "pt",
+      "publication_year": "",
+      "notes": "访问日期2026-10-12；定位及直接证据摘要见 CANDIDATES.sources.locator 与 EVIDENCE_MATRIX.json。",
+      "disposition": "reuse",
+      "reuse_existing_source": "SRC-0173",
+      "related_existing_source": "SRC-0173"
+    },
+    {
+      "candidate_id": "WCD10-B09-S003",
+      "publisher": "Biblioteca Pública do Paraná",
+      "format": "institutional_biography_web_page",
+      "language": "pt",
+      "publication_year": "",
+      "notes": "访问日期2026-10-12；定位及直接证据摘要见 CANDIDATES.sources.locator 与 EVIDENCE_MATRIX.json。",
+      "disposition": "reuse",
+      "reuse_existing_source": "SRC-0172",
+      "related_existing_source": "SRC-0172"
+    },
+    {
+      "candidate_id": "WCD10-B09-S101",
+      "publisher": "Casa de la Literatura Peruana",
+      "format": "institutional_exhibition_article",
+      "language": "es",
+      "publication_year": "2022",
+      "notes": "Micaela Montes Reyes, article dated 2022-11-10; work-level summaries and publication-history descriptions.",
+      "disposition": "new",
+      "reuse_existing_source": "",
+      "related_existing_source": ""
+    },
+    {
+      "candidate_id": "WCD10-B09-S102",
+      "publisher": "Fondo Editorial de la Pontificia Universidad Católica del Perú / Casa de la Literatura / Ministerio de Educación del Perú",
+      "format": "institutional_literary_history_pdf",
+      "language": "es",
+      "publication_year": "2022",
+      "notes": "Vol. 5; first edition 2022-12 per title/copyright page. Direct page/line locators recorded.",
+      "disposition": "new",
+      "reuse_existing_source": "",
+      "related_existing_source": ""
+    },
+    {
+      "candidate_id": "WCD10-B09-S103",
+      "publisher": "Biblioteca Nacional del Perú",
+      "format": "national_library_catalog_record",
+      "language": "es",
+      "publication_year": "",
+      "notes": "BNP Digital item record; record gives the catalogued item date 1939; opened 2026-10-12.",
+      "disposition": "new",
+      "reuse_existing_source": "",
+      "related_existing_source": ""
+    },
+    {
+      "candidate_id": "WCD10-B09-S201",
+      "publisher": "Biblioteca Nacional de Chile",
+      "format": "institutional_research_pdf",
+      "language": "es",
+      "publication_year": "",
+      "notes": "来源已在基线来源表登记；本候选显式复用既有来源并保留原元数据。",
+      "disposition": "reuse",
+      "reuse_existing_source": "SRC-0182",
+      "related_existing_source": "SRC-0182"
+    },
+    {
+      "candidate_id": "WCD10-B09-S202",
+      "publisher": "Biblioteca Nacional de Chile",
+      "format": "institutional_research_web_page",
+      "language": "es",
+      "publication_year": "",
+      "notes": "来源已在基线来源表登记；本候选显式复用既有来源并保留原元数据。",
+      "disposition": "reuse",
+      "reuse_existing_source": "SRC-0181",
+      "related_existing_source": "SRC-0181"
+    },
+    {
+      "candidate_id": "WCD10-B09-S203",
+      "publisher": "Biblioteca Virtual Miguel de Cervantes",
+      "format": "institutional_author_research_web_page",
+      "language": "es",
+      "publication_year": "",
+      "notes": "正文列出 Poema del otoño y otros poemas (1910)；作者页署Pedro Mendiola（Universidad de Alicante）。",
+      "disposition": "fresh_registration",
+      "reuse_existing_source": "",
+      "related_existing_source": ""
+    }
+  ],
+  "author_registrations": [],
+  "author_metadata": {}
+}

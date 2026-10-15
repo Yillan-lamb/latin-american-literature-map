@@ -1,0 +1,3161 @@
+{
+  "task_id": "TASK-116",
+  "batch_id": "WCD-10-B11",
+  "merge_status": "MERGED_CANDIDATE_MECHANICAL_VALIDATION_PASS_PARENT_REVIEW_PENDING",
+  "merge_order": [
+    "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/project/internal/WCD_10_WORKSPACE/orchestration/wave-08/benedetti/R1",
+    "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/project/internal/WCD_10_WORKSPACE/orchestration/wave-08/arguedas",
+    "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/project/internal/WCD_10_WORKSPACE/orchestration/wave-08/pitol/R1"
+  ],
+  "author_ids": [
+    "V1-ENT-0238",
+    "V1-ENT-0248",
+    "V1-ENT-0249"
+  ],
+  "baseline_database_sha256": "062c0cb663e27765085a85eb8cb63baee848a91e6d94bb261550327b00a5036c",
+  "inputs": [
+    {
+      "author_id": "V1-ENT-0238",
+      "directory": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/project/internal/WCD_10_WORKSPACE/orchestration/wave-08/benedetti/R1",
+      "freeze_manifest": {
+        "CANDIDATES.json": "51ecc3b1f639f67ef986da524561866da8e611bf2a8590b345ec18190c5725f0",
+        "COVERAGE.json": "f8fe5a69e72152c7f46069de73f0194ceccd4555c8a1316e44044b28bf09dab3",
+        "SOURCE_REGISTRATION.json": "7d249ae86bd4839de8dcab54b45cf4b9c27abfe2a261d260cd210a99e94a58b9",
+        "EVIDENCE_MATRIX.json": "9494fad870e44d753158b877b851fb90c375370aa4af97b538460bf2f8a53b20",
+        "DEDUP.json": "30c29204321abe32aec148a94a4da6b9cd51a96a5a24e36f0c3999e4473db292",
+        "SOURCE_ACCESS_LOG.json": "27b119a25bc1442075547707b177dfef5f281bc255f03a596ae2a4b30ac36034",
+        "SELF_CHECK.json": "4acdb41c645bd3bfeeeb2f17d0e43820d568ac9abfc14ee567bf455d0a23d8ac",
+        "VALIDATOR_REPORT.json": "8d6ae0b2eb1ebb87902a3a5f8fb2cfe9b6ceb274b83130774f0002424df6f455",
+        "HANDOFF.md": "4c4de66b71ea607aa8ff76cfa26ee41c3bed81f9cc97a1c449646490d8a5bc07",
+        "PARENT_REVIEW_REQUEST.json": "3f2312de9a91b9067dd822a369b46e33fbd8b1a62c01ad12de5eb5a38290f9f9",
+        "create_r1.py": "4e2aea7fbcad1d20c9ac2709ab99ba29a8e486f285f3d677e67768dcec9a4949",
+        "finalize_r1.py": "a7e9d74e19ee5d32aee02d1709e2c7f2e42987e5f5ef297af5b5cfa578fd7e03"
+      },
+      "merged_inputs": {
+        "CANDIDATES.json": "51ecc3b1f639f67ef986da524561866da8e611bf2a8590b345ec18190c5725f0",
+        "COVERAGE.json": "f8fe5a69e72152c7f46069de73f0194ceccd4555c8a1316e44044b28bf09dab3",
+        "DEDUP.json": "30c29204321abe32aec148a94a4da6b9cd51a96a5a24e36f0c3999e4473db292",
+        "EVIDENCE_MATRIX.json": "9494fad870e44d753158b877b851fb90c375370aa4af97b538460bf2f8a53b20",
+        "SOURCE_ACCESS_LOG.json": "27b119a25bc1442075547707b177dfef5f281bc255f03a596ae2a4b30ac36034",
+        "SOURCE_REGISTRATION.json": "7d249ae86bd4839de8dcab54b45cf4b9c27abfe2a261d260cd210a99e94a58b9"
+      }
+    },
+    {
+      "author_id": "V1-ENT-0248",
+      "directory": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/project/internal/WCD_10_WORKSPACE/orchestration/wave-08/arguedas",
+      "freeze_manifest": {
+        "CANDIDATES.json": "9828bf1e4b9062fb3c7b7a6d70c95acdb2d43181feacdc750ed47f8e68c83341",
+        "COVERAGE.json": "773f9c74b3d5438fa65c3c7c0cdfd915b4df0256658537a5a68649d02c7fcb4d",
+        "DEDUP.json": "0e1a296451e02dcddd8780879bef8f3ce00190ced04b5bff660b46429e1379a7",
+        "EVIDENCE_MATRIX.json": "dc10bb7c14487101a838c7a55c0e972318dacd057304f1448b038d7f5231892b",
+        "HANDOFF.md": "0cd40a2a1fbac3f2904683dd4c4a40fd9b2f37d17180a6e3f0c6158b98e67cb7",
+        "R0/CANDIDATES.json": "9f09ff58a65327c463a1750aa593facba422c3051aee9fef0cdcf42a56e79ddb",
+        "R0/COVERAGE.json": "f2ef5c563251602a86ff6626a5fc51f99da4cab30cc31022f6fe40068a9f8fe9",
+        "R0/DEDUP.json": "0e1a296451e02dcddd8780879bef8f3ce00190ced04b5bff660b46429e1379a7",
+        "R0/EVIDENCE_MATRIX.json": "4ec1238e0be5fbe727462c04abe592fc5607f8367a579add9675c68d6c0cee8b",
+        "R0/HANDOFF.md": "99dd12aad70faa5d340a9a38357e5b74478264e2928ff75dd2e3e7c85bc93422",
+        "R0/SELF_CHECK.json": "a6c8ea9f78f65896050afcfc20b458736815d37abb81bc39b0209bbff78ad338",
+        "R0/SOURCE_ACCESS_LOG.json": "b1e93214053f3aa6da88c6f04789cd67198fc17168aa588f9667ae046aec05b4",
+        "R0/SOURCE_REGISTRATION.json": "fceb33df8cf2317f90bea47a8139c00473dccd151944e0e7a218de67de7b1863",
+        "R0/STATUS.json": "c650cb60ca3d63437523527b6af9f01a93c1351235ea9826999d342e310072d3",
+        "R0/VALIDATOR_REPORT.json": "015ddf13e62ac04c1c1407eb10bc54d5659f2b3c237a287d2c2d39933acdbbc1",
+        "R1_CHANGELOG.json": "eca3a65684ca44815fb5a15236d81ad88266c16447ad986db59faa5d745ad927",
+        "R1_snapshot/CANDIDATES.json": "4e43b7a2a9eff872622b8ae649d3fbcbaeb6b20fc3860f5c899ad761a539569a",
+        "R1_snapshot/COVERAGE.json": "c99d22bde02e01cf4457f4dc958a41d28258b249dad6fe6ff44b258af86f6ec6",
+        "R1_snapshot/DEDUP.json": "0e1a296451e02dcddd8780879bef8f3ce00190ced04b5bff660b46429e1379a7",
+        "R1_snapshot/EVIDENCE_MATRIX.json": "73c9da877fc8e5ec048b648310e5e4ac9406c6c9537eec78c26b349a1ec02b03",
+        "R1_snapshot/HANDOFF.md": "0cd40a2a1fbac3f2904683dd4c4a40fd9b2f37d17180a6e3f0c6158b98e67cb7",
+        "R1_snapshot/R1_CHANGELOG.json": "506ec184ed7d456162459936d75939176656330031c194214a6f97c9e2ca1058",
+        "R1_snapshot/SELF_CHECK.json": "ad4e35b069e9ac01993d00fe3442ad9d6bcea25d75ec8b439e1c68c89c6e7b2a",
+        "R1_snapshot/SOURCE_ACCESS_LOG.json": "a74a59d039de481e5c12c08afda484001eeb7ca5215f9221a6be0ded48d86e70",
+        "R1_snapshot/SOURCE_REGISTRATION.json": "b6f8a194d0627ef625846cf28cea951634e890dd5bbeee46e17dcad17746c8f7",
+        "R1_snapshot/STATUS.json": "afc32b83b29c77c233032100795aa0266f4c22fbc9394933e2d3ddf8dff08eec",
+        "R1_snapshot/VALIDATOR_REPORT.json": "3f47ba106b33e61959081282fa2bd682f86ce2d04a40ac7d549ecbfb68cf12af",
+        "SELF_CHECK.json": "ad4e35b069e9ac01993d00fe3442ad9d6bcea25d75ec8b439e1c68c89c6e7b2a",
+        "SOURCE_ACCESS_LOG.json": "a74a59d039de481e5c12c08afda484001eeb7ca5215f9221a6be0ded48d86e70",
+        "SOURCE_REGISTRATION.json": "b6f8a194d0627ef625846cf28cea951634e890dd5bbeee46e17dcad17746c8f7",
+        "STATUS.json": "80ea51afd9c89298e23f04df6b849241da49e930ddc0f00ed20e12d8df5d65d1",
+        "VALIDATOR_REPORT.json": "3f47ba106b33e61959081282fa2bd682f86ce2d04a40ac7d549ecbfb68cf12af",
+        "WORKER_PROMPT.md": "821afa3e8c724a267435295bb146ab7e4cfcbacdb9965116fcc9bad73678204c"
+      },
+      "merged_inputs": {
+        "CANDIDATES.json": "9828bf1e4b9062fb3c7b7a6d70c95acdb2d43181feacdc750ed47f8e68c83341",
+        "COVERAGE.json": "773f9c74b3d5438fa65c3c7c0cdfd915b4df0256658537a5a68649d02c7fcb4d",
+        "DEDUP.json": "0e1a296451e02dcddd8780879bef8f3ce00190ced04b5bff660b46429e1379a7",
+        "EVIDENCE_MATRIX.json": "dc10bb7c14487101a838c7a55c0e972318dacd057304f1448b038d7f5231892b",
+        "SOURCE_ACCESS_LOG.json": "a74a59d039de481e5c12c08afda484001eeb7ca5215f9221a6be0ded48d86e70",
+        "SOURCE_REGISTRATION.json": "b6f8a194d0627ef625846cf28cea951634e890dd5bbeee46e17dcad17746c8f7"
+      }
+    },
+    {
+      "author_id": "V1-ENT-0249",
+      "directory": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/project/internal/WCD_10_WORKSPACE/orchestration/wave-08/pitol/R1",
+      "freeze_manifest": {
+        "CANDIDATES.json": "8a3121b0d1edec807dbfad7178bf1afed8c470060904e8a81fc5fc53ba7f865c",
+        "COVERAGE.json": "a6afd50e94eae107158c7eaa0860f50357dd6211b11fcad304055987e5d24c02",
+        "SOURCE_REGISTRATION.json": "acd0d1d1c30818cd8679a5f8ea0363d37e0e1477bb035dd9e9da7a78e5a4dfb0",
+        "EVIDENCE_MATRIX.json": "a0f6e8df2c623b9f50d63814d59e1a15b2a4129188eb47653690b612af7b830c",
+        "DEDUP.json": "5a040852b956b18b2bfaef35f9e6df01291047def76ab72d3c65496e4a67ee8e",
+        "SOURCE_ACCESS_LOG.json": "acc72f1c633e23ed2ae104f34842547e56eacf2da16e31dbe941828e7dbb69ef",
+        "SELF_CHECK.json": "69185f27e0bac196ab1930417b9b5a50859d49a18d3d5a471dd38261176783e0",
+        "HANDOFF.md": "5200f9c1eafddd4d372abef5e2c6c6bdffd5555c341877fda7d97707575ac19e",
+        "R1_CHANGELOG.md": "54b360458504413a1169346863abf10b6483b2e8e062851502c928bcb53add8c",
+        "STATUS.json": "c3ed823f9dae1230a418dc16ccb3a264595bccaedc6334fbd1243338acec6c50",
+        "VALIDATOR_REPORT.json": "5982f13dec5e13fa55031d32b6b80bba71151510b224be18a6a713a59dc1e756"
+      },
+      "merged_inputs": {
+        "CANDIDATES.json": "8a3121b0d1edec807dbfad7178bf1afed8c470060904e8a81fc5fc53ba7f865c",
+        "COVERAGE.json": "a6afd50e94eae107158c7eaa0860f50357dd6211b11fcad304055987e5d24c02",
+        "DEDUP.json": "5a040852b956b18b2bfaef35f9e6df01291047def76ab72d3c65496e4a67ee8e",
+        "EVIDENCE_MATRIX.json": "a0f6e8df2c623b9f50d63814d59e1a15b2a4129188eb47653690b612af7b830c",
+        "SOURCE_ACCESS_LOG.json": "acc72f1c633e23ed2ae104f34842547e56eacf2da16e31dbe941828e7dbb69ef",
+        "SOURCE_REGISTRATION.json": "acd0d1d1c30818cd8679a5f8ea0363d37e0e1477bb035dd9e9da7a78e5a4dfb0"
+      }
+    }
+  ],
+  "array_concatenation_checks": [
+    {
+      "array": "candidate.sources",
+      "exact_ordered_concat": true,
+      "count": 13
+    },
+    {
+      "array": "candidate.new_entities",
+      "exact_ordered_concat": true,
+      "count": 17
+    },
+    {
+      "array": "candidate.existing_facts",
+      "exact_ordered_concat": true,
+      "count": 20
+    },
+    {
+      "array": "candidate.extra_relationships",
+      "exact_ordered_concat": true,
+      "count": 0
+    },
+    {
+      "array": "candidate.deferred",
+      "exact_ordered_concat": true,
+      "count": 3
+    },
+    {
+      "array": "candidate.source_scope_decisions",
+      "exact_ordered_concat": true,
+      "count": 13
+    },
+    {
+      "array": "coverage.objects",
+      "exact_ordered_concat": true,
+      "count": 28
+    },
+    {
+      "array": "coverage.deferred_objects",
+      "exact_ordered_concat": true,
+      "count": 3
+    },
+    {
+      "array": "source_registration.profiles",
+      "exact_ordered_concat": true,
+      "count": 13
+    },
+    {
+      "array": "evidence_matrix.entries",
+      "exact_ordered_concat": true,
+      "count": 80
+    }
+  ],
+  "normalization": {
+    "candidate_envelope": "Batch/task/baseline and fixed three-author roster mechanically set to TASK-116/WCD-10-B11; candidate arrays retained in source order, candidate row content unchanged.",
+    "coverage": "Objects and deferred_objects concatenated verbatim; author-specific policy/context/scope/result/snapshot values retained under author mappings; public Research-only scope set at wrapper level.",
+    "registration": "The 13 source profiles concatenated verbatim; outer B11 metadata added and source registration policies preserved under author_policies where present.",
+    "evidence_matrix": "entries/claims/items arrays concatenated verbatim in author order; author-specific policies retained under policy_by_author.",
+    "auxiliary": "DEDUP and SOURCE_ACCESS_LOG original author documents retained verbatim under author_packages; no source, fact, or profile corrections."
+  },
+  "counts": {
+    "source_candidates": 13,
+    "new_sources": 9,
+    "reused_sources": 4,
+    "new_entity_candidates": 17,
+    "existing_fact_candidates": 20,
+    "total_candidate_facts": 80,
+    "coverage_objects": 28,
+    "deferred": 3,
+    "source_profiles": 13
+  },
+  "output_sha256": {
+    "CANDIDATES.json": "dc4477d205363b36b77f04ca79a822e8bcd587e8608eb012dbba4172b7475071",
+    "COVERAGE.json": "195edc5d4f1aa74499520da91de72956e37ed5c75e3eaadb3888a13fb4e26024",
+    "DEDUP.json": "b4ba8559c79129068885eae60f77a341ff7dc00afb1166608e42ad535ecb1acb",
+    "EVIDENCE_MATRIX.json": "996014ab4e852328aa064b9a1a3bbca43042c29e2b57b8b3927accf7f43aec3f",
+    "SOURCE_ACCESS_LOG.json": "8aee255810333a4ae90d901ab8b025c5dac991ea14c4743f2a3eb70d9860da75",
+    "SOURCE_REGISTRATION.json": "f3a9f1d0c2e39ea83c5c5d4140f9f7dea98a846ad51a3a8f4fd09959d4f1aaf5"
+  },
+  "merge_command": {
+    "argv": [
+      "python3",
+      "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/project/internal/WCD_10_WORKSPACE/orchestration/wave-08/integrator/merge_b11.py",
+      "--apply"
+    ],
+    "exit_code": 0,
+    "stdout_path": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/project/internal/WCD_10_WORKSPACE/orchestration/wave-08/integrator/logs/merge_apply.stdout",
+    "stdout_sha256": "e2ee0ce47a6375336b93707df2141b8553b71ba4c8060e49677541478d61042b",
+    "stderr_path": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/project/internal/WCD_10_WORKSPACE/orchestration/wave-08/integrator/logs/merge_apply.stderr",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "validator_attempts": [
+    {
+      "argv": [
+        "python3",
+        "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/work/codex-worktrees/latin-american-literature-map-wcd10/scripts/validate_wcd10_candidates.py",
+        "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/work/codex-worktrees/latin-american-literature-map-wcd10/data/changesets/WCD-10/B11",
+        "--repo",
+        "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/work/codex-worktrees/latin-american-literature-map-wcd10"
+      ],
+      "exit_code": 1,
+      "reason": "CLI positional package expects CANDIDATES.json file; directory supplied.",
+      "stdout_path": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/project/internal/WCD_10_WORKSPACE/orchestration/wave-08/integrator/logs/validator.stdout",
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_path": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/project/internal/WCD_10_WORKSPACE/orchestration/wave-08/integrator/logs/validator.stderr",
+      "stderr_sha256": "67ab52dfffb3a730909b7c8d7da62aabf5e5a4686ecd779eaad38b266799974f"
+    },
+    {
+      "argv": [
+        "python3",
+        "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/work/codex-worktrees/latin-american-literature-map-wcd10/scripts/validate_wcd10_candidates.py",
+        "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/work/codex-worktrees/latin-american-literature-map-wcd10/data/changesets/WCD-10/B11/CANDIDATES.json",
+        "--repo",
+        "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/work/codex-worktrees/latin-american-literature-map-wcd10",
+        "--report",
+        "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/project/internal/WCD_10_WORKSPACE/orchestration/wave-08/integrator/logs/validator_report.json"
+      ],
+      "exit_code": 0,
+      "verdict": "pass",
+      "report_sha256": "292e9511233c5c60f2999e590cadbb305a37f6403eeb27bd0e2e2560f42aa428",
+      "stdout_path": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/project/internal/WCD_10_WORKSPACE/orchestration/wave-08/integrator/logs/validator_retry.stdout",
+      "stdout_sha256": "1f87f7af46d268548211e039fc30a41dcacedf9e8c388b10c1d47d729968d098",
+      "stderr_path": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/project/internal/WCD_10_WORKSPACE/orchestration/wave-08/integrator/logs/validator_retry.stderr",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "database_immutability": {
+    "master_database": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/work/codex-worktrees/latin-american-literature-map-wcd10/data/master/V1_MASTER.sqlite",
+    "master_sha256": "062c0cb663e27765085a85eb8cb63baee848a91e6d94bb261550327b00a5036c",
+    "B11_baseline_copy": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/work/codex-worktrees/latin-american-literature-map-wcd10/work/wcd10-qa/B11_BASELINE.sqlite",
+    "B11_baseline_sha256": "062c0cb663e27765085a85eb8cb63baee848a91e6d94bb261550327b00a5036c",
+    "both_match_expected_baseline": true
+  },
+  "cross_interface_deltas": [],
+  "notes": "Mechanical candidate merge only. No SQL preparation, mapping, apply, DB mutation, author-package edit, Git operation, or release operation.",
+  "mechanical_transformations": [
+    {
+      "type": "authorized_coverage_interface_sync",
+      "authorization": "parent message after merged review; no Gate/SQL authority",
+      "source_candidate_sha256": "dc4477d205363b36b77f04ca79a822e8bcd587e8608eb012dbba4172b7475071",
+      "coverage_before_sha256": "9fd9a3cc0d01861af95e681425d6d59c702ea684fed8205f3a0714029e6a9be5",
+      "coverage_after_sha256": "195edc5d4f1aa74499520da91de72956e37ed5c75e3eaadb3888a13fb4e26024",
+      "before_after_by_object": [
+        {
+          "object_ref": "WCD10-B11-W002",
+          "author_id": "V1-ENT-0238",
+          "before": {
+            "object_ref": "WCD10-B11-W002",
+            "entity": {
+              "entity_id": "WCD10-B11-W002",
+              "entity_type": "collection",
+              "name_zh": "《办公室诗》",
+              "original_name": "Poemas de la oficina"
+            },
+            "bibliography": "书目事实见 CANDIDATES.json。",
+            "description": "基金会称该诗集是贝内德蒂的重要作品之一，并指出作者认为它是首部在读者中产生实际反响的书。",
+            "research_status": "institutional_commentary",
+            "research_refs": [
+              "WCD10-B11-S001"
+            ],
+            "old_facts": [],
+            "cards": [],
+            "card_sources": [],
+            "relations": [],
+            "relationship_sources": [],
+            "relationship_evidence": [],
+            "source_objects": [],
+            "fresh_review": {
+              "source_refs": [
+                "WCD10-B11-S001"
+              ],
+              "description": "基金会作者作品目录直接支持普通作品书目与有限内容描述；不声称作品层学术研究完备。"
+            },
+            "remaining": "作品层学术研究尚未展开；本条仅记录直接书目/机构说明，不声称学术覆盖完备。",
+            "source_author_id": "V1-ENT-0238",
+            "candidate_facts": [
+              {
+                "candidate_id": "WCD10-B11-W002-F01",
+                "subject_id": "WCD10-B11-W002",
+                "field": "first_publication_year",
+                "value": "1956",
+                "source_refs": [
+                  "WCD10-B11-S001"
+                ]
+              },
+              {
+                "candidate_id": "WCD10-B11-W002-F02",
+                "subject_id": "WCD10-B11-W002",
+                "field": "genre_or_form",
+                "value": "诗集",
+                "source_refs": [
+                  "WCD10-B11-S001"
+                ]
+              },
+              {
+                "candidate_id": "WCD10-B11-W002-F04",
+                "subject_id": "WCD10-B11-W002",
+                "field": "bibliographic_note",
+                "value": "基金会称该诗集是贝内德蒂重要作品之一，并指出作者承认它是首部在读者中产生实际反响的书；首版为1956年《Número》。",
+                "source_refs": [
+                  "WCD10-B11-S001"
+                ]
+              },
+              {
+                "candidate_id": "WCD10-B11-W002-F03",
+                "subject_id": "WCD10-B11-W002",
+                "field": "one_sentence_summary",
+                "value": "基金会称该诗集是贝内德蒂的重要作品之一，并指出作者认为它是首部在读者中产生实际反响的书。",
+                "source_refs": [
+                  "WCD10-B11-S001"
+                ]
+              }
+            ]
+          },
+          "after": {
+            "object_ref": "WCD10-B11-W002",
+            "entity": {
+              "entity_id": "WCD10-B11-W002",
+              "entity_type": "collection",
+              "name_zh": "《办公室诗》",
+              "original_name": "Poemas de la oficina"
+            },
+            "bibliography": "书目事实见 CANDIDATES.json。",
+            "description": "基金会称该诗集是贝内德蒂的重要作品之一，并指出作者认为它是首部在读者中产生实际反响的书。",
+            "research_status": "institutional_commentary",
+            "research_refs": [
+              "WCD10-B11-S001"
+            ],
+            "old_facts": [],
+            "cards": [],
+            "card_sources": [],
+            "relations": [],
+            "relationship_sources": [],
+            "relationship_evidence": [],
+            "source_objects": [],
+            "fresh_review": {
+              "source_refs": [
+                "WCD10-B11-S001"
+              ],
+              "description": "基金会作者作品目录直接支持普通作品书目与有限内容描述；不声称作品层学术研究完备。"
+            },
+            "remaining": "作品层学术研究尚未展开；本条仅记录直接书目/机构说明，不声称学术覆盖完备。",
+            "source_author_id": "V1-ENT-0238",
+            "candidate_facts": [
+              {
+                "candidate_id": "WCD10-B11-W002-F01",
+                "subject_id": "WCD10-B11-W002",
+                "field": "first_publication_year",
+                "value": "1956",
+                "source_refs": [
+                  "WCD10-B11-S001"
+                ]
+              },
+              {
+                "candidate_id": "WCD10-B11-W002-F02",
+                "subject_id": "WCD10-B11-W002",
+                "field": "genre_or_form",
+                "value": "诗集",
+                "source_refs": [
+                  "WCD10-B11-S001"
+                ]
+              },
+              {
+                "candidate_id": "WCD10-B11-W002-F03",
+                "subject_id": "WCD10-B11-W002",
+                "field": "one_sentence_summary",
+                "value": "基金会称该诗集是贝内德蒂的重要作品之一，并指出作者认为它是首部在读者中产生实际反响的书。",
+                "source_refs": [
+                  "WCD10-B11-S001"
+                ]
+              },
+              {
+                "candidate_id": "WCD10-B11-W002-F04",
+                "subject_id": "WCD10-B11-W002",
+                "field": "bibliographic_note",
+                "value": "基金会称该诗集是贝内德蒂重要作品之一，并指出作者承认它是首部在读者中产生实际反响的书；首版为1956年《Número》。",
+                "source_refs": [
+                  "WCD10-B11-S001"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "object_ref": "V1-ENT-0251",
+          "author_id": null,
+          "before": {
+            "entity": {
+              "entity_id": "V1-ENT-0251",
+              "entity_type": "work",
+              "name_zh": "《血的节日》",
+              "original_name": "Yawar fiesta",
+              "canonical_status": "candidate",
+              "origin_count": "1",
+              "origin_refs": "CAND-B08-ARGUEDAS-W01",
+              "normalization_basis": "B08 Casa de la Literatura chronology; novel layer",
+              "issue_codes": "NONE"
+            },
+            "facts": [
+              {
+                "fact_id": "V1-FCT-0620",
+                "origin_material_id": "WEB-CE-B08",
+                "card_id": "V1-CARD-0139",
+                "subject_id": "V1-ENT-0251",
+                "fact_field": "entity_layer",
+                "value_text": "work",
+                "material_class": "metadata",
+                "origin_id": "SRC-0198",
+                "confidence": "high",
+                "admission_status": "candidate_for_staging_review",
+                "usage_note": "Casa de la Literatura presents Yawar fiesta as a narrative novel entry."
+              },
+              {
+                "fact_id": "V1-FCT-0621",
+                "origin_material_id": "WEB-CE-B08",
+                "card_id": "V1-CARD-0139",
+                "subject_id": "V1-ENT-0251",
+                "fact_field": "first_publication_year",
+                "value_text": "1941",
+                "material_class": "bibliographic",
+                "origin_id": "SRC-0198",
+                "confidence": "high",
+                "admission_status": "candidate_for_staging_review",
+                "usage_note": "Institutional chronology records 1941."
+              },
+              {
+                "fact_id": "V1-FCT-0622",
+                "origin_material_id": "WEB-CE-B08",
+                "card_id": "V1-CARD-0139",
+                "subject_id": "V1-ENT-0251",
+                "fact_field": "bibliographic_note",
+                "value_text": "Casa de la Literatura 直接列出 Yawar fiesta 题名与 1941 年书目；本批不扩展主题判断。",
+                "material_class": "bibliographic",
+                "origin_id": "SRC-0198",
+                "confidence": "high",
+                "admission_status": "candidate_for_staging_review",
+                "usage_note": "Source supports title, form and year only."
+              }
+            ],
+            "cards": [
+              {
+                "card_id": "V1-CARD-0139",
+                "origin_card_id": "",
+                "subject_id": "V1-ENT-0251",
+                "card_type": "work",
+                "title_zh": "《血的节日》",
+                "author_label": "何塞·玛丽亚·阿格达斯",
+                "original_title": "Yawar fiesta",
+                "country_or_region": "秘鲁",
+                "language": "es",
+                "period_bucket": "1941",
+                "genre_or_form": "小说",
+                "input_layer": "WEB-CE-B08",
+                "source_minimum_status": "meets",
+                "issue_code": "NONE",
+                "content_markdown": "### 《血的节日》｜Yawar fiesta — Casa de la Literatura 记录 1941 年书目。"
+              }
+            ],
+            "relations": [
+              {
+                "relationship_id": "V1-REL-0176",
+                "origin_layer": "WEB-CE-B08",
+                "origin_relation_group_id": "CAND-B08-0176",
+                "subject_id": "V1-ENT-0248",
+                "relation_type": "CREATED",
+                "object_id": "V1-ENT-0251",
+                "description_zh": "何塞·玛丽亚·阿格达斯 创作 《血的节日》（Yawar fiesta）",
+                "confidence": "high",
+                "review_status": "accepted",
+                "upstream_review_status": "WEB-CE-B08",
+                "evidence_count": "1",
+                "issue_code": "NONE"
+              }
+            ],
+            "fact_sources": [
+              {
+                "fact_id": "V1-FCT-0620",
+                "source_id": "SRC-0198",
+                "source_title": "Un recorrido por la obra literaria de José María Arguedas"
+              },
+              {
+                "fact_id": "V1-FCT-0621",
+                "source_id": "SRC-0198",
+                "source_title": "Un recorrido por la obra literaria de José María Arguedas"
+              },
+              {
+                "fact_id": "V1-FCT-0622",
+                "source_id": "SRC-0198",
+                "source_title": "Un recorrido por la obra literaria de José María Arguedas"
+              }
+            ],
+            "card_sources": [
+              {
+                "card_source_id": "V1-CS-0268",
+                "origin_matrix_id": "",
+                "card_id": "V1-CARD-0139",
+                "source_id": "SRC-0198",
+                "source_level": "B",
+                "source_role": "both",
+                "bibliographic_support": "yes",
+                "research_support": "yes",
+                "independent_source_key": "SRC-0198",
+                "usage_status": "used",
+                "issue_code": "NONE"
+              }
+            ],
+            "relationship_sources": [
+              {
+                "relationship_id": "V1-REL-0176",
+                "source_id": "SRC-0198"
+              }
+            ],
+            "relationship_evidence": [
+              {
+                "evidence_id": "V1-EV-0201",
+                "relationship_id": "V1-REL-0176",
+                "origin_evidence_id": "CAND-B08-0176",
+                "source_id": "SRC-0198",
+                "source_title": "Un recorrido por la obra literaria de José María Arguedas",
+                "locator": "",
+                "evidence_note": "Casa de la Literatura chronology lists Yawar fiesta and author.",
+                "confidence": "high",
+                "evidence_status": "eligible_evidence",
+                "evidence_origin": "WEB-CE-B08"
+              }
+            ],
+            "source_objects": [
+              {
+                "source_id": "SRC-0198",
+                "temporary_id": "B08-SRC-0198",
+                "title": "Un recorrido por la obra literaria de José María Arguedas",
+                "original_title": "Un recorrido por la obra literaria de José María Arguedas",
+                "author_or_editor": "Casa de la Literatura Peruana",
+                "translator": "",
+                "publisher": "Casa de la Literatura Peruana",
+                "publication_year": "2011",
+                "isbn": "",
+                "format": "web_page",
+                "page_count": "",
+                "language": "es",
+                "source_level": "B",
+                "processing_status": "access_pass",
+                "source_task": "WEB-CE-B08",
+                "public_content_scope": "Yawar fiesta 1941、Los ríos profundos 1958、Todas las sangres 1964 书目",
+                "local_asset_status": "remote_only",
+                "persistent_id": "",
+                "canonical_url": "https://www.casadelaliteratura.gob.pe/un-recorrido-por-la-obra-literaria-de-jose-maria-arguedas/"
+              }
+            ],
+            "flags": [
+              "genre_missing",
+              "object_description_fact_missing"
+            ],
+            "research_status": "legacy_existing_record_preserved",
+            "research_refs": [
+              "SRC-0198"
+            ],
+            "remaining": "既有事实、卡、关系、证据、来源链及gap/hold全部只读保全；本候选不修改。",
+            "candidate_facts": [
+              {
+                "candidate_id": "WCD10-B11-F101",
+                "field": "genre_or_form",
+                "value": "小说",
+                "source_refs": [
+                  "WCD10-B11-S101"
+                ]
+              },
+              {
+                "candidate_id": "WCD10-B11-F102",
+                "field": "one_sentence_summary",
+                "value": "小说以安第斯地区传统与现代生活之间的冲突为背景。",
+                "source_refs": [
+                  "WCD10-B11-S101"
+                ]
+              }
+            ]
+          },
+          "after": {
+            "entity": {
+              "entity_id": "V1-ENT-0251",
+              "entity_type": "work",
+              "name_zh": "《血的节日》",
+              "original_name": "Yawar fiesta",
+              "canonical_status": "candidate",
+              "origin_count": "1",
+              "origin_refs": "CAND-B08-ARGUEDAS-W01",
+              "normalization_basis": "B08 Casa de la Literatura chronology; novel layer",
+              "issue_codes": "NONE"
+            },
+            "facts": [
+              {
+                "fact_id": "V1-FCT-0620",
+                "origin_material_id": "WEB-CE-B08",
+                "card_id": "V1-CARD-0139",
+                "subject_id": "V1-ENT-0251",
+                "fact_field": "entity_layer",
+                "value_text": "work",
+                "material_class": "metadata",
+                "origin_id": "SRC-0198",
+                "confidence": "high",
+                "admission_status": "candidate_for_staging_review",
+                "usage_note": "Casa de la Literatura presents Yawar fiesta as a narrative novel entry."
+              },
+              {
+                "fact_id": "V1-FCT-0621",
+                "origin_material_id": "WEB-CE-B08",
+                "card_id": "V1-CARD-0139",
+                "subject_id": "V1-ENT-0251",
+                "fact_field": "first_publication_year",
+                "value_text": "1941",
+                "material_class": "bibliographic",
+                "origin_id": "SRC-0198",
+                "confidence": "high",
+                "admission_status": "candidate_for_staging_review",
+                "usage_note": "Institutional chronology records 1941."
+              },
+              {
+                "fact_id": "V1-FCT-0622",
+                "origin_material_id": "WEB-CE-B08",
+                "card_id": "V1-CARD-0139",
+                "subject_id": "V1-ENT-0251",
+                "fact_field": "bibliographic_note",
+                "value_text": "Casa de la Literatura 直接列出 Yawar fiesta 题名与 1941 年书目；本批不扩展主题判断。",
+                "material_class": "bibliographic",
+                "origin_id": "SRC-0198",
+                "confidence": "high",
+                "admission_status": "candidate_for_staging_review",
+                "usage_note": "Source supports title, form and year only."
+              }
+            ],
+            "cards": [
+              {
+                "card_id": "V1-CARD-0139",
+                "origin_card_id": "",
+                "subject_id": "V1-ENT-0251",
+                "card_type": "work",
+                "title_zh": "《血的节日》",
+                "author_label": "何塞·玛丽亚·阿格达斯",
+                "original_title": "Yawar fiesta",
+                "country_or_region": "秘鲁",
+                "language": "es",
+                "period_bucket": "1941",
+                "genre_or_form": "小说",
+                "input_layer": "WEB-CE-B08",
+                "source_minimum_status": "meets",
+                "issue_code": "NONE",
+                "content_markdown": "### 《血的节日》｜Yawar fiesta — Casa de la Literatura 记录 1941 年书目。"
+              }
+            ],
+            "relations": [
+              {
+                "relationship_id": "V1-REL-0176",
+                "origin_layer": "WEB-CE-B08",
+                "origin_relation_group_id": "CAND-B08-0176",
+                "subject_id": "V1-ENT-0248",
+                "relation_type": "CREATED",
+                "object_id": "V1-ENT-0251",
+                "description_zh": "何塞·玛丽亚·阿格达斯 创作 《血的节日》（Yawar fiesta）",
+                "confidence": "high",
+                "review_status": "accepted",
+                "upstream_review_status": "WEB-CE-B08",
+                "evidence_count": "1",
+                "issue_code": "NONE"
+              }
+            ],
+            "fact_sources": [
+              {
+                "fact_id": "V1-FCT-0620",
+                "source_id": "SRC-0198",
+                "source_title": "Un recorrido por la obra literaria de José María Arguedas"
+              },
+              {
+                "fact_id": "V1-FCT-0621",
+                "source_id": "SRC-0198",
+                "source_title": "Un recorrido por la obra literaria de José María Arguedas"
+              },
+              {
+                "fact_id": "V1-FCT-0622",
+                "source_id": "SRC-0198",
+                "source_title": "Un recorrido por la obra literaria de José María Arguedas"
+              }
+            ],
+            "card_sources": [
+              {
+                "card_source_id": "V1-CS-0268",
+                "origin_matrix_id": "",
+                "card_id": "V1-CARD-0139",
+                "source_id": "SRC-0198",
+                "source_level": "B",
+                "source_role": "both",
+                "bibliographic_support": "yes",
+                "research_support": "yes",
+                "independent_source_key": "SRC-0198",
+                "usage_status": "used",
+                "issue_code": "NONE"
+              }
+            ],
+            "relationship_sources": [
+              {
+                "relationship_id": "V1-REL-0176",
+                "source_id": "SRC-0198"
+              }
+            ],
+            "relationship_evidence": [
+              {
+                "evidence_id": "V1-EV-0201",
+                "relationship_id": "V1-REL-0176",
+                "origin_evidence_id": "CAND-B08-0176",
+                "source_id": "SRC-0198",
+                "source_title": "Un recorrido por la obra literaria de José María Arguedas",
+                "locator": "",
+                "evidence_note": "Casa de la Literatura chronology lists Yawar fiesta and author.",
+                "confidence": "high",
+                "evidence_status": "eligible_evidence",
+                "evidence_origin": "WEB-CE-B08"
+              }
+            ],
+            "source_objects": [
+              {
+                "source_id": "SRC-0198",
+                "temporary_id": "B08-SRC-0198",
+                "title": "Un recorrido por la obra literaria de José María Arguedas",
+                "original_title": "Un recorrido por la obra literaria de José María Arguedas",
+                "author_or_editor": "Casa de la Literatura Peruana",
+                "translator": "",
+                "publisher": "Casa de la Literatura Peruana",
+                "publication_year": "2011",
+                "isbn": "",
+                "format": "web_page",
+                "page_count": "",
+                "language": "es",
+                "source_level": "B",
+                "processing_status": "access_pass",
+                "source_task": "WEB-CE-B08",
+                "public_content_scope": "Yawar fiesta 1941、Los ríos profundos 1958、Todas las sangres 1964 书目",
+                "local_asset_status": "remote_only",
+                "persistent_id": "",
+                "canonical_url": "https://www.casadelaliteratura.gob.pe/un-recorrido-por-la-obra-literaria-de-jose-maria-arguedas/"
+              }
+            ],
+            "flags": [
+              "genre_missing",
+              "object_description_fact_missing"
+            ],
+            "research_status": "legacy_existing_record_preserved",
+            "research_refs": [
+              "SRC-0198"
+            ],
+            "remaining": "既有事实、卡、关系、证据、来源链及gap/hold全部只读保全；本候选不修改。",
+            "candidate_facts": [
+              {
+                "candidate_id": "WCD10-B11-F101",
+                "field": "genre_or_form",
+                "value": "小说",
+                "source_refs": [
+                  "WCD10-B11-S101"
+                ]
+              },
+              {
+                "candidate_id": "WCD10-B11-F102",
+                "field": "one_sentence_summary",
+                "value": "小说以安第斯地区传统与现代生活之间的冲突为背景。",
+                "source_refs": [
+                  "WCD10-B11-S101"
+                ]
+              }
+            ],
+            "object_ref": "V1-ENT-0251"
+          }
+        },
+        {
+          "object_ref": "V1-ENT-0252",
+          "author_id": null,
+          "before": {
+            "entity": {
+              "entity_id": "V1-ENT-0252",
+              "entity_type": "work",
+              "name_zh": "《深沉的河流》",
+              "original_name": "Los ríos profundos",
+              "canonical_status": "candidate",
+              "origin_count": "1",
+              "origin_refs": "CAND-B08-ARGUEDAS-W02",
+              "normalization_basis": "B08 Casa de la Literatura bibliography and work page; novel layer",
+              "issue_codes": "NONE"
+            },
+            "facts": [
+              {
+                "fact_id": "V1-FCT-0623",
+                "origin_material_id": "WEB-CE-B08",
+                "card_id": "V1-CARD-0140",
+                "subject_id": "V1-ENT-0252",
+                "fact_field": "entity_layer",
+                "value_text": "work",
+                "material_class": "metadata",
+                "origin_id": "SRC-0199",
+                "confidence": "high",
+                "admission_status": "candidate_for_staging_review",
+                "usage_note": "Casa de la Literatura describes Los ríos profundos as a novel."
+              },
+              {
+                "fact_id": "V1-FCT-0624",
+                "origin_material_id": "WEB-CE-B08",
+                "card_id": "V1-CARD-0140",
+                "subject_id": "V1-ENT-0252",
+                "fact_field": "first_publication_year",
+                "value_text": "1958",
+                "material_class": "bibliographic",
+                "origin_id": "SRC-0198",
+                "confidence": "high",
+                "admission_status": "candidate_for_staging_review",
+                "usage_note": "Institutional chronology records 1958."
+              },
+              {
+                "fact_id": "V1-FCT-0625",
+                "origin_material_id": "WEB-CE-B08",
+                "card_id": "V1-CARD-0140",
+                "subject_id": "V1-ENT-0252",
+                "fact_field": "bibliographic_note",
+                "value_text": "SRC-0198 与 SRC-0199 直接支持 Los ríos profundos 的题名、小说形态和 1958 年；故事导读不升级为 Research fact。",
+                "material_class": "bibliographic",
+                "origin_id": "SRC-0199",
+                "confidence": "high",
+                "admission_status": "candidate_for_staging_review",
+                "usage_note": "Sources support title, form, year and low-spoiler premise."
+              }
+            ],
+            "cards": [
+              {
+                "card_id": "V1-CARD-0140",
+                "origin_card_id": "",
+                "subject_id": "V1-ENT-0252",
+                "card_type": "work",
+                "title_zh": "《深沉的河流》",
+                "author_label": "何塞·玛丽亚·阿格达斯",
+                "original_title": "Los ríos profundos",
+                "country_or_region": "秘鲁",
+                "language": "es",
+                "period_bucket": "1958",
+                "genre_or_form": "小说",
+                "input_layer": "WEB-CE-B08",
+                "source_minimum_status": "meets",
+                "issue_code": "NONE",
+                "content_markdown": "### 《深沉的河流》｜Los ríos profundos — 机构书目与作品导读共同支持 1958 年和小说形态。"
+              }
+            ],
+            "relations": [
+              {
+                "relationship_id": "V1-REL-0177",
+                "origin_layer": "WEB-CE-B08",
+                "origin_relation_group_id": "CAND-B08-0177",
+                "subject_id": "V1-ENT-0248",
+                "relation_type": "CREATED",
+                "object_id": "V1-ENT-0252",
+                "description_zh": "何塞·玛丽亚·阿格达斯 创作 《深沉的河流》（Los ríos profundos）",
+                "confidence": "high",
+                "review_status": "accepted",
+                "upstream_review_status": "WEB-CE-B08",
+                "evidence_count": "1",
+                "issue_code": "NONE"
+              }
+            ],
+            "fact_sources": [
+              {
+                "fact_id": "V1-FCT-0623",
+                "source_id": "SRC-0199",
+                "source_title": "José María Arguedas: puentes entre su vida y Los ríos profundos"
+              },
+              {
+                "fact_id": "V1-FCT-0624",
+                "source_id": "SRC-0198",
+                "source_title": "Un recorrido por la obra literaria de José María Arguedas"
+              },
+              {
+                "fact_id": "V1-FCT-0625",
+                "source_id": "SRC-0199",
+                "source_title": "José María Arguedas: puentes entre su vida y Los ríos profundos"
+              }
+            ],
+            "card_sources": [
+              {
+                "card_source_id": "V1-CS-0269",
+                "origin_matrix_id": "",
+                "card_id": "V1-CARD-0140",
+                "source_id": "SRC-0198",
+                "source_level": "B",
+                "source_role": "both",
+                "bibliographic_support": "yes",
+                "research_support": "yes",
+                "independent_source_key": "SRC-0198",
+                "usage_status": "used",
+                "issue_code": "NONE"
+              },
+              {
+                "card_source_id": "V1-CS-0270",
+                "origin_matrix_id": "",
+                "card_id": "V1-CARD-0140",
+                "source_id": "SRC-0199",
+                "source_level": "B",
+                "source_role": "both",
+                "bibliographic_support": "yes",
+                "research_support": "yes",
+                "independent_source_key": "SRC-0199",
+                "usage_status": "used",
+                "issue_code": "NONE"
+              }
+            ],
+            "relationship_sources": [
+              {
+                "relationship_id": "V1-REL-0177",
+                "source_id": "SRC-0199"
+              }
+            ],
+            "relationship_evidence": [
+              {
+                "evidence_id": "V1-EV-0202",
+                "relationship_id": "V1-REL-0177",
+                "origin_evidence_id": "CAND-B08-0177",
+                "source_id": "SRC-0199",
+                "source_title": "José María Arguedas: puentes entre su vida y Los ríos profundos",
+                "locator": "",
+                "evidence_note": "Casa de la Literatura work page identifies Los ríos profundos and Arguedas.",
+                "confidence": "high",
+                "evidence_status": "eligible_evidence",
+                "evidence_origin": "WEB-CE-B08"
+              }
+            ],
+            "source_objects": [
+              {
+                "source_id": "SRC-0198",
+                "temporary_id": "B08-SRC-0198",
+                "title": "Un recorrido por la obra literaria de José María Arguedas",
+                "original_title": "Un recorrido por la obra literaria de José María Arguedas",
+                "author_or_editor": "Casa de la Literatura Peruana",
+                "translator": "",
+                "publisher": "Casa de la Literatura Peruana",
+                "publication_year": "2011",
+                "isbn": "",
+                "format": "web_page",
+                "page_count": "",
+                "language": "es",
+                "source_level": "B",
+                "processing_status": "access_pass",
+                "source_task": "WEB-CE-B08",
+                "public_content_scope": "Yawar fiesta 1941、Los ríos profundos 1958、Todas las sangres 1964 书目",
+                "local_asset_status": "remote_only",
+                "persistent_id": "",
+                "canonical_url": "https://www.casadelaliteratura.gob.pe/un-recorrido-por-la-obra-literaria-de-jose-maria-arguedas/"
+              },
+              {
+                "source_id": "SRC-0199",
+                "temporary_id": "B08-SRC-0199",
+                "title": "José María Arguedas: puentes entre su vida y Los ríos profundos",
+                "original_title": "José María Arguedas: puentes entre su vida y Los ríos profundos",
+                "author_or_editor": "Casa de la Literatura Peruana",
+                "translator": "",
+                "publisher": "Casa de la Literatura Peruana",
+                "publication_year": "2023",
+                "isbn": "",
+                "format": "web_page",
+                "page_count": "",
+                "language": "es",
+                "source_level": "B",
+                "processing_status": "access_pass",
+                "source_task": "WEB-CE-B08",
+                "public_content_scope": "Arguedas 作者身份、Los ríos profundos 1958 与 Ernesto 故事简介",
+                "local_asset_status": "remote_only",
+                "persistent_id": "",
+                "canonical_url": "https://www.casadelaliteratura.gob.pe/jose-maria-arguedas-puentes-vida-los-rios-profundos/"
+              }
+            ],
+            "flags": [
+              "genre_missing",
+              "object_description_fact_missing"
+            ],
+            "research_status": "legacy_existing_record_preserved",
+            "research_refs": [
+              "SRC-0198",
+              "SRC-0199"
+            ],
+            "remaining": "既有事实、卡、关系、证据、来源链及gap/hold全部只读保全；本候选不修改。",
+            "candidate_facts": [
+              {
+                "candidate_id": "WCD10-B11-F103",
+                "field": "genre_or_form",
+                "value": "小说",
+                "source_refs": [
+                  "WCD10-B11-S101"
+                ]
+              },
+              {
+                "candidate_id": "WCD10-B11-F104",
+                "field": "one_sentence_summary",
+                "value": "小说描写少年埃内斯托生活于安第斯与混血文化两个世界之间。",
+                "source_refs": [
+                  "WCD10-B11-S101"
+                ]
+              }
+            ]
+          },
+          "after": {
+            "entity": {
+              "entity_id": "V1-ENT-0252",
+              "entity_type": "work",
+              "name_zh": "《深沉的河流》",
+              "original_name": "Los ríos profundos",
+              "canonical_status": "candidate",
+              "origin_count": "1",
+              "origin_refs": "CAND-B08-ARGUEDAS-W02",
+              "normalization_basis": "B08 Casa de la Literatura bibliography and work page; novel layer",
+              "issue_codes": "NONE"
+            },
+            "facts": [
+              {
+                "fact_id": "V1-FCT-0623",
+                "origin_material_id": "WEB-CE-B08",
+                "card_id": "V1-CARD-0140",
+                "subject_id": "V1-ENT-0252",
+                "fact_field": "entity_layer",
+                "value_text": "work",
+                "material_class": "metadata",
+                "origin_id": "SRC-0199",
+                "confidence": "high",
+                "admission_status": "candidate_for_staging_review",
+                "usage_note": "Casa de la Literatura describes Los ríos profundos as a novel."
+              },
+              {
+                "fact_id": "V1-FCT-0624",
+                "origin_material_id": "WEB-CE-B08",
+                "card_id": "V1-CARD-0140",
+                "subject_id": "V1-ENT-0252",
+                "fact_field": "first_publication_year",
+                "value_text": "1958",
+                "material_class": "bibliographic",
+                "origin_id": "SRC-0198",
+                "confidence": "high",
+                "admission_status": "candidate_for_staging_review",
+                "usage_note": "Institutional chronology records 1958."
+              },
+              {
+                "fact_id": "V1-FCT-0625",
+                "origin_material_id": "WEB-CE-B08",
+                "card_id": "V1-CARD-0140",
+                "subject_id": "V1-ENT-0252",
+                "fact_field": "bibliographic_note",
+                "value_text": "SRC-0198 与 SRC-0199 直接支持 Los ríos profundos 的题名、小说形态和 1958 年；故事导读不升级为 Research fact。",
+                "material_class": "bibliographic",
+                "origin_id": "SRC-0199",
+                "confidence": "high",
+                "admission_status": "candidate_for_staging_review",
+                "usage_note": "Sources support title, form, year and low-spoiler premise."
+              }
+            ],
+            "cards": [
+              {
+                "card_id": "V1-CARD-0140",
+                "origin_card_id": "",
+                "subject_id": "V1-ENT-0252",
+                "card_type": "work",
+                "title_zh": "《深沉的河流》",
+                "author_label": "何塞·玛丽亚·阿格达斯",
+                "original_title": "Los ríos profundos",
+                "country_or_region": "秘鲁",
+                "language": "es",
+                "period_bucket": "1958",
+                "genre_or_form": "小说",
+                "input_layer": "WEB-CE-B08",
+                "source_minimum_status": "meets",
+                "issue_code": "NONE",
+                "content_markdown": "### 《深沉的河流》｜Los ríos profundos — 机构书目与作品导读共同支持 1958 年和小说形态。"
+              }
+            ],
+            "relations": [
+              {
+                "relationship_id": "V1-REL-0177",
+                "origin_layer": "WEB-CE-B08",
+                "origin_relation_group_id": "CAND-B08-0177",
+                "subject_id": "V1-ENT-0248",
+                "relation_type": "CREATED",
+                "object_id": "V1-ENT-0252",
+                "description_zh": "何塞·玛丽亚·阿格达斯 创作 《深沉的河流》（Los ríos profundos）",
+                "confidence": "high",
+                "review_status": "accepted",
+                "upstream_review_status": "WEB-CE-B08",
+                "evidence_count": "1",
+                "issue_code": "NONE"
+              }
+            ],
+            "fact_sources": [
+              {
+                "fact_id": "V1-FCT-0623",
+                "source_id": "SRC-0199",
+                "source_title": "José María Arguedas: puentes entre su vida y Los ríos profundos"
+              },
+              {
+                "fact_id": "V1-FCT-0624",
+                "source_id": "SRC-0198",
+                "source_title": "Un recorrido por la obra literaria de José María Arguedas"
+              },
+              {
+                "fact_id": "V1-FCT-0625",
+                "source_id": "SRC-0199",
+                "source_title": "José María Arguedas: puentes entre su vida y Los ríos profundos"
+              }
+            ],
+            "card_sources": [
+              {
+                "card_source_id": "V1-CS-0269",
+                "origin_matrix_id": "",
+                "card_id": "V1-CARD-0140",
+                "source_id": "SRC-0198",
+                "source_level": "B",
+                "source_role": "both",
+                "bibliographic_support": "yes",
+                "research_support": "yes",
+                "independent_source_key": "SRC-0198",
+                "usage_status": "used",
+                "issue_code": "NONE"
+              },
+              {
+                "card_source_id": "V1-CS-0270",
+                "origin_matrix_id": "",
+                "card_id": "V1-CARD-0140",
+                "source_id": "SRC-0199",
+                "source_level": "B",
+                "source_role": "both",
+                "bibliographic_support": "yes",
+                "research_support": "yes",
+                "independent_source_key": "SRC-0199",
+                "usage_status": "used",
+                "issue_code": "NONE"
+              }
+            ],
+            "relationship_sources": [
+              {
+                "relationship_id": "V1-REL-0177",
+                "source_id": "SRC-0199"
+              }
+            ],
+            "relationship_evidence": [
+              {
+                "evidence_id": "V1-EV-0202",
+                "relationship_id": "V1-REL-0177",
+                "origin_evidence_id": "CAND-B08-0177",
+                "source_id": "SRC-0199",
+                "source_title": "José María Arguedas: puentes entre su vida y Los ríos profundos",
+                "locator": "",
+                "evidence_note": "Casa de la Literatura work page identifies Los ríos profundos and Arguedas.",
+                "confidence": "high",
+                "evidence_status": "eligible_evidence",
+                "evidence_origin": "WEB-CE-B08"
+              }
+            ],
+            "source_objects": [
+              {
+                "source_id": "SRC-0198",
+                "temporary_id": "B08-SRC-0198",
+                "title": "Un recorrido por la obra literaria de José María Arguedas",
+                "original_title": "Un recorrido por la obra literaria de José María Arguedas",
+                "author_or_editor": "Casa de la Literatura Peruana",
+                "translator": "",
+                "publisher": "Casa de la Literatura Peruana",
+                "publication_year": "2011",
+                "isbn": "",
+                "format": "web_page",
+                "page_count": "",
+                "language": "es",
+                "source_level": "B",
+                "processing_status": "access_pass",
+                "source_task": "WEB-CE-B08",
+                "public_content_scope": "Yawar fiesta 1941、Los ríos profundos 1958、Todas las sangres 1964 书目",
+                "local_asset_status": "remote_only",
+                "persistent_id": "",
+                "canonical_url": "https://www.casadelaliteratura.gob.pe/un-recorrido-por-la-obra-literaria-de-jose-maria-arguedas/"
+              },
+              {
+                "source_id": "SRC-0199",
+                "temporary_id": "B08-SRC-0199",
+                "title": "José María Arguedas: puentes entre su vida y Los ríos profundos",
+                "original_title": "José María Arguedas: puentes entre su vida y Los ríos profundos",
+                "author_or_editor": "Casa de la Literatura Peruana",
+                "translator": "",
+                "publisher": "Casa de la Literatura Peruana",
+                "publication_year": "2023",
+                "isbn": "",
+                "format": "web_page",
+                "page_count": "",
+                "language": "es",
+                "source_level": "B",
+                "processing_status": "access_pass",
+                "source_task": "WEB-CE-B08",
+                "public_content_scope": "Arguedas 作者身份、Los ríos profundos 1958 与 Ernesto 故事简介",
+                "local_asset_status": "remote_only",
+                "persistent_id": "",
+                "canonical_url": "https://www.casadelaliteratura.gob.pe/jose-maria-arguedas-puentes-vida-los-rios-profundos/"
+              }
+            ],
+            "flags": [
+              "genre_missing",
+              "object_description_fact_missing"
+            ],
+            "research_status": "legacy_existing_record_preserved",
+            "research_refs": [
+              "SRC-0198",
+              "SRC-0199"
+            ],
+            "remaining": "既有事实、卡、关系、证据、来源链及gap/hold全部只读保全；本候选不修改。",
+            "candidate_facts": [
+              {
+                "candidate_id": "WCD10-B11-F103",
+                "field": "genre_or_form",
+                "value": "小说",
+                "source_refs": [
+                  "WCD10-B11-S101"
+                ]
+              },
+              {
+                "candidate_id": "WCD10-B11-F104",
+                "field": "one_sentence_summary",
+                "value": "小说描写少年埃内斯托生活于安第斯与混血文化两个世界之间。",
+                "source_refs": [
+                  "WCD10-B11-S101"
+                ]
+              }
+            ],
+            "object_ref": "V1-ENT-0252"
+          }
+        },
+        {
+          "object_ref": "V1-ENT-0253",
+          "author_id": null,
+          "before": {
+            "entity": {
+              "entity_id": "V1-ENT-0253",
+              "entity_type": "work",
+              "name_zh": "《所有的血》",
+              "original_name": "Todas las sangres",
+              "canonical_status": "candidate",
+              "origin_count": "1",
+              "origin_refs": "CAND-B08-ARGUEDAS-W03",
+              "normalization_basis": "B08 Casa de la Literatura chronology; novel layer",
+              "issue_codes": "NONE"
+            },
+            "facts": [
+              {
+                "fact_id": "V1-FCT-0626",
+                "origin_material_id": "WEB-CE-B08",
+                "card_id": "V1-CARD-0141",
+                "subject_id": "V1-ENT-0253",
+                "fact_field": "entity_layer",
+                "value_text": "work",
+                "material_class": "metadata",
+                "origin_id": "SRC-0198",
+                "confidence": "high",
+                "admission_status": "candidate_for_staging_review",
+                "usage_note": "Casa de la Literatura places Todas las sangres in the narrative chronology."
+              },
+              {
+                "fact_id": "V1-FCT-0627",
+                "origin_material_id": "WEB-CE-B08",
+                "card_id": "V1-CARD-0141",
+                "subject_id": "V1-ENT-0253",
+                "fact_field": "first_publication_year",
+                "value_text": "1964",
+                "material_class": "bibliographic",
+                "origin_id": "SRC-0198",
+                "confidence": "high",
+                "admission_status": "candidate_for_staging_review",
+                "usage_note": "Institutional chronology records 1964."
+              },
+              {
+                "fact_id": "V1-FCT-0628",
+                "origin_material_id": "WEB-CE-B08",
+                "card_id": "V1-CARD-0141",
+                "subject_id": "V1-ENT-0253",
+                "fact_field": "bibliographic_note",
+                "value_text": "Casa de la Literatura 直接列出 Todas las sangres 题名与 1964 年书目。",
+                "material_class": "bibliographic",
+                "origin_id": "SRC-0198",
+                "confidence": "high",
+                "admission_status": "candidate_for_staging_review",
+                "usage_note": "Source supports title, form and year only."
+              }
+            ],
+            "cards": [
+              {
+                "card_id": "V1-CARD-0141",
+                "origin_card_id": "",
+                "subject_id": "V1-ENT-0253",
+                "card_type": "work",
+                "title_zh": "《所有的血》",
+                "author_label": "何塞·玛丽亚·阿格达斯",
+                "original_title": "Todas las sangres",
+                "country_or_region": "秘鲁",
+                "language": "es",
+                "period_bucket": "1964",
+                "genre_or_form": "小说",
+                "input_layer": "WEB-CE-B08",
+                "source_minimum_status": "meets",
+                "issue_code": "NONE",
+                "content_markdown": "### 《所有的血》｜Todas las sangres — Casa de la Literatura 记录 1964 年书目。"
+              }
+            ],
+            "relations": [
+              {
+                "relationship_id": "V1-REL-0178",
+                "origin_layer": "WEB-CE-B08",
+                "origin_relation_group_id": "CAND-B08-0178",
+                "subject_id": "V1-ENT-0248",
+                "relation_type": "CREATED",
+                "object_id": "V1-ENT-0253",
+                "description_zh": "何塞·玛丽亚·阿格达斯 创作 《所有的血》（Todas las sangres）",
+                "confidence": "high",
+                "review_status": "accepted",
+                "upstream_review_status": "WEB-CE-B08",
+                "evidence_count": "1",
+                "issue_code": "NONE"
+              }
+            ],
+            "fact_sources": [
+              {
+                "fact_id": "V1-FCT-0626",
+                "source_id": "SRC-0198",
+                "source_title": "Un recorrido por la obra literaria de José María Arguedas"
+              },
+              {
+                "fact_id": "V1-FCT-0627",
+                "source_id": "SRC-0198",
+                "source_title": "Un recorrido por la obra literaria de José María Arguedas"
+              },
+              {
+                "fact_id": "V1-FCT-0628",
+                "source_id": "SRC-0198",
+                "source_title": "Un recorrido por la obra literaria de José María Arguedas"
+              }
+            ],
+            "card_sources": [
+              {
+                "card_source_id": "V1-CS-0271",
+                "origin_matrix_id": "",
+                "card_id": "V1-CARD-0141",
+                "source_id": "SRC-0198",
+                "source_level": "B",
+                "source_role": "both",
+                "bibliographic_support": "yes",
+                "research_support": "yes",
+                "independent_source_key": "SRC-0198",
+                "usage_status": "used",
+                "issue_code": "NONE"
+              }
+            ],
+            "relationship_sources": [
+              {
+                "relationship_id": "V1-REL-0178",
+                "source_id": "SRC-0198"
+              }
+            ],
+            "relationship_evidence": [
+              {
+                "evidence_id": "V1-EV-0203",
+                "relationship_id": "V1-REL-0178",
+                "origin_evidence_id": "CAND-B08-0178",
+                "source_id": "SRC-0198",
+                "source_title": "Un recorrido por la obra literaria de José María Arguedas",
+                "locator": "",
+                "evidence_note": "Casa de la Literatura chronology lists Todas las sangres.",
+                "confidence": "high",
+                "evidence_status": "eligible_evidence",
+                "evidence_origin": "WEB-CE-B08"
+              }
+            ],
+            "source_objects": [
+              {
+                "source_id": "SRC-0198",
+                "temporary_id": "B08-SRC-0198",
+                "title": "Un recorrido por la obra literaria de José María Arguedas",
+                "original_title": "Un recorrido por la obra literaria de José María Arguedas",
+                "author_or_editor": "Casa de la Literatura Peruana",
+                "translator": "",
+                "publisher": "Casa de la Literatura Peruana",
+                "publication_year": "2011",
+                "isbn": "",
+                "format": "web_page",
+                "page_count": "",
+                "language": "es",
+                "source_level": "B",
+                "processing_status": "access_pass",
+                "source_task": "WEB-CE-B08",
+                "public_content_scope": "Yawar fiesta 1941、Los ríos profundos 1958、Todas las sangres 1964 书目",
+                "local_asset_status": "remote_only",
+                "persistent_id": "",
+                "canonical_url": "https://www.casadelaliteratura.gob.pe/un-recorrido-por-la-obra-literaria-de-jose-maria-arguedas/"
+              }
+            ],
+            "flags": [
+              "genre_missing",
+              "object_description_fact_missing"
+            ],
+            "research_status": "legacy_existing_record_preserved",
+            "research_refs": [
+              "SRC-0198"
+            ],
+            "remaining": "既有事实、卡、关系、证据、来源链及gap/hold全部只读保全；本候选不修改。",
+            "candidate_facts": [
+              {
+                "candidate_id": "WCD10-B11-F105",
+                "field": "genre_or_form",
+                "value": "小说",
+                "source_refs": [
+                  "WCD10-B11-S101"
+                ]
+              },
+              {
+                "candidate_id": "WCD10-B11-F106",
+                "field": "one_sentence_summary",
+                "value": "小说通过不同地理和社会场景呈现秘鲁社会的地域与文化多样性。",
+                "source_refs": [
+                  "WCD10-B11-S101"
+                ]
+              }
+            ]
+          },
+          "after": {
+            "entity": {
+              "entity_id": "V1-ENT-0253",
+              "entity_type": "work",
+              "name_zh": "《所有的血》",
+              "original_name": "Todas las sangres",
+              "canonical_status": "candidate",
+              "origin_count": "1",
+              "origin_refs": "CAND-B08-ARGUEDAS-W03",
+              "normalization_basis": "B08 Casa de la Literatura chronology; novel layer",
+              "issue_codes": "NONE"
+            },
+            "facts": [
+              {
+                "fact_id": "V1-FCT-0626",
+                "origin_material_id": "WEB-CE-B08",
+                "card_id": "V1-CARD-0141",
+                "subject_id": "V1-ENT-0253",
+                "fact_field": "entity_layer",
+                "value_text": "work",
+                "material_class": "metadata",
+                "origin_id": "SRC-0198",
+                "confidence": "high",
+                "admission_status": "candidate_for_staging_review",
+                "usage_note": "Casa de la Literatura places Todas las sangres in the narrative chronology."
+              },
+              {
+                "fact_id": "V1-FCT-0627",
+                "origin_material_id": "WEB-CE-B08",
+                "card_id": "V1-CARD-0141",
+                "subject_id": "V1-ENT-0253",
+                "fact_field": "first_publication_year",
+                "value_text": "1964",
+                "material_class": "bibliographic",
+                "origin_id": "SRC-0198",
+                "confidence": "high",
+                "admission_status": "candidate_for_staging_review",
+                "usage_note": "Institutional chronology records 1964."
+              },
+              {
+                "fact_id": "V1-FCT-0628",
+                "origin_material_id": "WEB-CE-B08",
+                "card_id": "V1-CARD-0141",
+                "subject_id": "V1-ENT-0253",
+                "fact_field": "bibliographic_note",
+                "value_text": "Casa de la Literatura 直接列出 Todas las sangres 题名与 1964 年书目。",
+                "material_class": "bibliographic",
+                "origin_id": "SRC-0198",
+                "confidence": "high",
+                "admission_status": "candidate_for_staging_review",
+                "usage_note": "Source supports title, form and year only."
+              }
+            ],
+            "cards": [
+              {
+                "card_id": "V1-CARD-0141",
+                "origin_card_id": "",
+                "subject_id": "V1-ENT-0253",
+                "card_type": "work",
+                "title_zh": "《所有的血》",
+                "author_label": "何塞·玛丽亚·阿格达斯",
+                "original_title": "Todas las sangres",
+                "country_or_region": "秘鲁",
+                "language": "es",
+                "period_bucket": "1964",
+                "genre_or_form": "小说",
+                "input_layer": "WEB-CE-B08",
+                "source_minimum_status": "meets",
+                "issue_code": "NONE",
+                "content_markdown": "### 《所有的血》｜Todas las sangres — Casa de la Literatura 记录 1964 年书目。"
+              }
+            ],
+            "relations": [
+              {
+                "relationship_id": "V1-REL-0178",
+                "origin_layer": "WEB-CE-B08",
+                "origin_relation_group_id": "CAND-B08-0178",
+                "subject_id": "V1-ENT-0248",
+                "relation_type": "CREATED",
+                "object_id": "V1-ENT-0253",
+                "description_zh": "何塞·玛丽亚·阿格达斯 创作 《所有的血》（Todas las sangres）",
+                "confidence": "high",
+                "review_status": "accepted",
+                "upstream_review_status": "WEB-CE-B08",
+                "evidence_count": "1",
+                "issue_code": "NONE"
+              }
+            ],
+            "fact_sources": [
+              {
+                "fact_id": "V1-FCT-0626",
+                "source_id": "SRC-0198",
+                "source_title": "Un recorrido por la obra literaria de José María Arguedas"
+              },
+              {
+                "fact_id": "V1-FCT-0627",
+                "source_id": "SRC-0198",
+                "source_title": "Un recorrido por la obra literaria de José María Arguedas"
+              },
+              {
+                "fact_id": "V1-FCT-0628",
+                "source_id": "SRC-0198",
+                "source_title": "Un recorrido por la obra literaria de José María Arguedas"
+              }
+            ],
+            "card_sources": [
+              {
+                "card_source_id": "V1-CS-0271",
+                "origin_matrix_id": "",
+                "card_id": "V1-CARD-0141",
+                "source_id": "SRC-0198",
+                "source_level": "B",
+                "source_role": "both",
+                "bibliographic_support": "yes",
+                "research_support": "yes",
+                "independent_source_key": "SRC-0198",
+                "usage_status": "used",
+                "issue_code": "NONE"
+              }
+            ],
+            "relationship_sources": [
+              {
+                "relationship_id": "V1-REL-0178",
+                "source_id": "SRC-0198"
+              }
+            ],
+            "relationship_evidence": [
+              {
+                "evidence_id": "V1-EV-0203",
+                "relationship_id": "V1-REL-0178",
+                "origin_evidence_id": "CAND-B08-0178",
+                "source_id": "SRC-0198",
+                "source_title": "Un recorrido por la obra literaria de José María Arguedas",
+                "locator": "",
+                "evidence_note": "Casa de la Literatura chronology lists Todas las sangres.",
+                "confidence": "high",
+                "evidence_status": "eligible_evidence",
+                "evidence_origin": "WEB-CE-B08"
+              }
+            ],
+            "source_objects": [
+              {
+                "source_id": "SRC-0198",
+                "temporary_id": "B08-SRC-0198",
+                "title": "Un recorrido por la obra literaria de José María Arguedas",
+                "original_title": "Un recorrido por la obra literaria de José María Arguedas",
+                "author_or_editor": "Casa de la Literatura Peruana",
+                "translator": "",
+                "publisher": "Casa de la Literatura Peruana",
+                "publication_year": "2011",
+                "isbn": "",
+                "format": "web_page",
+                "page_count": "",
+                "language": "es",
+                "source_level": "B",
+                "processing_status": "access_pass",
+                "source_task": "WEB-CE-B08",
+                "public_content_scope": "Yawar fiesta 1941、Los ríos profundos 1958、Todas las sangres 1964 书目",
+                "local_asset_status": "remote_only",
+                "persistent_id": "",
+                "canonical_url": "https://www.casadelaliteratura.gob.pe/un-recorrido-por-la-obra-literaria-de-jose-maria-arguedas/"
+              }
+            ],
+            "flags": [
+              "genre_missing",
+              "object_description_fact_missing"
+            ],
+            "research_status": "legacy_existing_record_preserved",
+            "research_refs": [
+              "SRC-0198"
+            ],
+            "remaining": "既有事实、卡、关系、证据、来源链及gap/hold全部只读保全；本候选不修改。",
+            "candidate_facts": [
+              {
+                "candidate_id": "WCD10-B11-F105",
+                "field": "genre_or_form",
+                "value": "小说",
+                "source_refs": [
+                  "WCD10-B11-S101"
+                ]
+              },
+              {
+                "candidate_id": "WCD10-B11-F106",
+                "field": "one_sentence_summary",
+                "value": "小说通过不同地理和社会场景呈现秘鲁社会的地域与文化多样性。",
+                "source_refs": [
+                  "WCD10-B11-S101"
+                ]
+              }
+            ],
+            "object_ref": "V1-ENT-0253"
+          }
+        },
+        {
+          "object_ref": "V1-ENT-0378",
+          "author_id": null,
+          "before": {
+            "entity": {
+              "entity_id": "V1-ENT-0378",
+              "entity_type": "work",
+              "name_zh": "《山上的狐狸，山下的狐狸》",
+              "original_name": "El zorro de arriba y el zorro de abajo",
+              "canonical_status": "candidate",
+              "origin_count": "3",
+              "origin_refs": "WCD07A-W05",
+              "normalization_basis": "BNP and Losada establish one 1971 novel; Zhejiang Xinhua institutional catalog documents the 2024 People's Literature Publishing House Chinese title, Zhu Jinyu translation, and ISBN 9787020186723",
+              "issue_codes": "NONE"
+            },
+            "facts": [
+              {
+                "fact_id": "V1-FCT-1025",
+                "origin_material_id": "WCD07A-F021",
+                "card_id": "V1-CARD-0260",
+                "subject_id": "V1-ENT-0378",
+                "fact_field": "entity_layer",
+                "value_text": "work",
+                "material_class": "metadata",
+                "origin_id": "WCD07A-W05",
+                "confidence": "high",
+                "admission_status": "batch_retained_candidate",
+                "usage_note": "single novel"
+              },
+              {
+                "fact_id": "V1-FCT-1026",
+                "origin_material_id": "WCD07A-F022",
+                "card_id": "V1-CARD-0260",
+                "subject_id": "V1-ENT-0378",
+                "fact_field": "first_publication_year",
+                "value_text": "1971",
+                "material_class": "bibliographic",
+                "origin_id": "WCD07A-W05",
+                "confidence": "high",
+                "admission_status": "batch_retained_candidate",
+                "usage_note": "posthumous publication"
+              },
+              {
+                "fact_id": "V1-FCT-1027",
+                "origin_material_id": "WCD07A-F023",
+                "card_id": "V1-CARD-0260",
+                "subject_id": "V1-ENT-0378",
+                "fact_field": "genre_or_form",
+                "value_text": "长篇小说",
+                "material_class": "bibliographic",
+                "origin_id": "WCD07A-W05",
+                "confidence": "high",
+                "admission_status": "batch_retained_candidate",
+                "usage_note": "national library and publisher classification"
+              },
+              {
+                "fact_id": "V1-FCT-1028",
+                "origin_material_id": "WCD07A-F024",
+                "card_id": "V1-CARD-0260",
+                "subject_id": "V1-ENT-0378",
+                "fact_field": "bibliographic_note",
+                "value_text": "作品于1971年出版；Editorial Losada将其作为作者的文学遗嘱介绍。",
+                "material_class": "bibliographic_note",
+                "origin_id": "WCD07A-W05",
+                "confidence": "high",
+                "admission_status": "batch_retained_candidate",
+                "usage_note": "unsupported diary-year claim excluded"
+              }
+            ],
+            "cards": [
+              {
+                "card_id": "V1-CARD-0260",
+                "origin_card_id": "WCD07A-W05",
+                "subject_id": "V1-ENT-0378",
+                "card_type": "work",
+                "title_zh": "《山上的狐狸，山下的狐狸》",
+                "author_label": "何塞·玛丽亚·阿格达斯",
+                "original_title": "El zorro de arriba y el zorro de abajo",
+                "country_or_region": "秘鲁",
+                "language": "es",
+                "period_bucket": "1971",
+                "genre_or_form": "长篇小说",
+                "input_layer": "WCD-07A",
+                "source_minimum_status": "meets",
+                "issue_code": "NONE",
+                "content_markdown": "### 《山上的狐狸，山下的狐狸》｜El zorro de arriba y el zorro de abajo\\n\\n- 对象类型：`work`｜首版：1971｜体裁：长篇小说\\n- 研究基线：作为单一作品保留；日记结构事实因证据不足未准入。"
+              }
+            ],
+            "relations": [
+              {
+                "relationship_id": "V1-REL-0335",
+                "origin_layer": "WCD-07A",
+                "origin_relation_group_id": "WCD07A-R05",
+                "subject_id": "V1-ENT-0248",
+                "relation_type": "CREATED",
+                "object_id": "V1-ENT-0378",
+                "description_zh": "何塞·玛丽亚·阿格达斯创作《山上的狐狸，山下的狐狸》",
+                "confidence": "high",
+                "review_status": "accepted",
+                "upstream_review_status": "CODEX-REVIEW-WCD07A-PASS",
+                "evidence_count": "2",
+                "issue_code": "NONE"
+              }
+            ],
+            "fact_sources": [
+              {
+                "fact_id": "V1-FCT-1025",
+                "source_id": "SRC-0311",
+                "source_title": "El zorro de arriba y el zorro de abajo — BNP Digital"
+              },
+              {
+                "fact_id": "V1-FCT-1025",
+                "source_id": "SRC-0312",
+                "source_title": "El zorro de arriba y el zorro de abajo"
+              },
+              {
+                "fact_id": "V1-FCT-1026",
+                "source_id": "SRC-0311",
+                "source_title": "El zorro de arriba y el zorro de abajo — BNP Digital"
+              },
+              {
+                "fact_id": "V1-FCT-1027",
+                "source_id": "SRC-0311",
+                "source_title": "El zorro de arriba y el zorro de abajo — BNP Digital"
+              },
+              {
+                "fact_id": "V1-FCT-1027",
+                "source_id": "SRC-0312",
+                "source_title": "El zorro de arriba y el zorro de abajo"
+              },
+              {
+                "fact_id": "V1-FCT-1028",
+                "source_id": "SRC-0311",
+                "source_title": "El zorro de arriba y el zorro de abajo — BNP Digital"
+              },
+              {
+                "fact_id": "V1-FCT-1028",
+                "source_id": "SRC-0312",
+                "source_title": "El zorro de arriba y el zorro de abajo"
+              }
+            ],
+            "card_sources": [
+              {
+                "card_source_id": "V1-CS-0530",
+                "origin_matrix_id": "WCD07A-S12",
+                "card_id": "V1-CARD-0260",
+                "source_id": "SRC-0311",
+                "source_level": "B",
+                "source_role": "identity_and_bibliography",
+                "bibliographic_support": "yes",
+                "research_support": "yes",
+                "independent_source_key": "BNP",
+                "usage_status": "accepted",
+                "issue_code": "NONE"
+              },
+              {
+                "card_source_id": "V1-CS-0531",
+                "origin_matrix_id": "WCD07A-S13",
+                "card_id": "V1-CARD-0260",
+                "source_id": "SRC-0312",
+                "source_level": "B",
+                "source_role": "form_and_context",
+                "bibliographic_support": "yes",
+                "research_support": "yes",
+                "independent_source_key": "LOSADA",
+                "usage_status": "accepted",
+                "issue_code": "NONE"
+              },
+              {
+                "card_source_id": "V1-CS-0535",
+                "origin_matrix_id": "WCD07A-S18",
+                "card_id": "V1-CARD-0260",
+                "source_id": "SRC-0315",
+                "source_level": "B",
+                "source_role": "chinese_display",
+                "bibliographic_support": "yes",
+                "research_support": "no",
+                "independent_source_key": "ZJ-XINHUA-CATALOG",
+                "usage_status": "accepted",
+                "issue_code": "NONE"
+              }
+            ],
+            "relationship_sources": [
+              {
+                "relationship_id": "V1-REL-0335",
+                "source_id": "SRC-0311"
+              },
+              {
+                "relationship_id": "V1-REL-0335",
+                "source_id": "SRC-0312"
+              }
+            ],
+            "relationship_evidence": [
+              {
+                "evidence_id": "V1-EV-0376",
+                "relationship_id": "V1-REL-0335",
+                "origin_evidence_id": "WCD07A-S12",
+                "source_id": "SRC-0311",
+                "source_title": "El zorro de arriba y el zorro de abajo — BNP Digital",
+                "locator": "national-library item record",
+                "evidence_note": "BNP directly attributes the 1971 novel to Jose Maria Arguedas.",
+                "confidence": "high",
+                "evidence_status": "eligible_evidence",
+                "evidence_origin": "WCD-07A"
+              },
+              {
+                "evidence_id": "V1-EV-0377",
+                "relationship_id": "V1-REL-0335",
+                "origin_evidence_id": "WCD07A-S13",
+                "source_id": "SRC-0312",
+                "source_title": "El zorro de arriba y el zorro de abajo",
+                "locator": "publisher work page",
+                "evidence_note": "Losada independently identifies Arguedas and the novel.",
+                "confidence": "high",
+                "evidence_status": "eligible_evidence",
+                "evidence_origin": "WCD-07A"
+              }
+            ],
+            "source_objects": [
+              {
+                "source_id": "SRC-0311",
+                "temporary_id": "WCD07A-S12",
+                "title": "El zorro de arriba y el zorro de abajo — BNP Digital",
+                "original_title": "El zorro de arriba y el zorro de abajo",
+                "author_or_editor": "Biblioteca Nacional del Perú",
+                "translator": "",
+                "publisher": "Biblioteca Nacional del Perú",
+                "publication_year": "1971",
+                "isbn": "",
+                "format": "national_library_record",
+                "page_count": "",
+                "language": "es",
+                "source_level": "B",
+                "processing_status": "access_pass",
+                "source_task": "WCD-07A",
+                "public_content_scope": "metadata_and_summary",
+                "local_asset_status": "remote_only",
+                "persistent_id": "hdl.handle.net/20.500.14428/79320",
+                "canonical_url": "https://bibliotecadigital.bnp.gob.pe/items/72c6e3f4-b4a0-4e00-babd-9481cdb250fb"
+              },
+              {
+                "source_id": "SRC-0312",
+                "temporary_id": "WCD07A-S13",
+                "title": "El zorro de arriba y el zorro de abajo",
+                "original_title": "El zorro de arriba y el zorro de abajo",
+                "author_or_editor": "Editorial Losada",
+                "translator": "",
+                "publisher": "Editorial Losada",
+                "publication_year": "",
+                "isbn": "",
+                "format": "publisher_catalog",
+                "page_count": "",
+                "language": "es",
+                "source_level": "B",
+                "processing_status": "access_pass",
+                "source_task": "WCD-07A",
+                "public_content_scope": "metadata_and_summary",
+                "local_asset_status": "remote_only",
+                "persistent_id": "",
+                "canonical_url": "https://editoriallosada.com/libro/el-zorro-de-arriba-y-el-zorro-de-abajo/"
+              },
+              {
+                "source_id": "SRC-0315",
+                "temporary_id": "WCD07A-S18",
+                "title": "山上的狐狸山下的狐狸/西葡拉美幻想文学经典",
+                "original_title": "山上的狐狸山下的狐狸/西葡拉美幻想文学经典",
+                "author_or_editor": "芸台购 / 浙江省新华书店集团有限公司",
+                "translator": "朱金玉",
+                "publisher": "人民文学出版社",
+                "publication_year": "2024",
+                "isbn": "9787020186723",
+                "format": "library_acquisition_catalog",
+                "page_count": "387",
+                "language": "zh",
+                "source_level": "B",
+                "processing_status": "access_pass",
+                "source_task": "WCD-07A",
+                "public_content_scope": "chinese_display_and_edition",
+                "local_asset_status": "remote_only",
+                "persistent_id": "",
+                "canonical_url": "https://www.yuntaigo.com/book.action?recordid=bm5sZmtsemM5Nzg3MDIwMTg2NzIz"
+              }
+            ],
+            "flags": [
+              "object_description_fact_missing"
+            ],
+            "research_status": "legacy_existing_record_preserved",
+            "research_refs": [
+              "SRC-0311",
+              "SRC-0312",
+              "SRC-0315"
+            ],
+            "remaining": "既有事实、卡、关系、证据、来源链及gap/hold全部只读保全；本候选不修改。",
+            "candidate_facts": [
+              {
+                "candidate_id": "WCD10-B11-F107",
+                "field": "one_sentence_summary",
+                "value": "小说于作者逝世后出版；BNP介绍将作品与作者的个人危机及对秘鲁现代化的失望联系起来。",
+                "source_refs": [
+                  "WCD10-B11-S101"
+                ]
+              }
+            ]
+          },
+          "after": {
+            "entity": {
+              "entity_id": "V1-ENT-0378",
+              "entity_type": "work",
+              "name_zh": "《山上的狐狸，山下的狐狸》",
+              "original_name": "El zorro de arriba y el zorro de abajo",
+              "canonical_status": "candidate",
+              "origin_count": "3",
+              "origin_refs": "WCD07A-W05",
+              "normalization_basis": "BNP and Losada establish one 1971 novel; Zhejiang Xinhua institutional catalog documents the 2024 People's Literature Publishing House Chinese title, Zhu Jinyu translation, and ISBN 9787020186723",
+              "issue_codes": "NONE"
+            },
+            "facts": [
+              {
+                "fact_id": "V1-FCT-1025",
+                "origin_material_id": "WCD07A-F021",
+                "card_id": "V1-CARD-0260",
+                "subject_id": "V1-ENT-0378",
+                "fact_field": "entity_layer",
+                "value_text": "work",
+                "material_class": "metadata",
+                "origin_id": "WCD07A-W05",
+                "confidence": "high",
+                "admission_status": "batch_retained_candidate",
+                "usage_note": "single novel"
+              },
+              {
+                "fact_id": "V1-FCT-1026",
+                "origin_material_id": "WCD07A-F022",
+                "card_id": "V1-CARD-0260",
+                "subject_id": "V1-ENT-0378",
+                "fact_field": "first_publication_year",
+                "value_text": "1971",
+                "material_class": "bibliographic",
+                "origin_id": "WCD07A-W05",
+                "confidence": "high",
+                "admission_status": "batch_retained_candidate",
+                "usage_note": "posthumous publication"
+              },
+              {
+                "fact_id": "V1-FCT-1027",
+                "origin_material_id": "WCD07A-F023",
+                "card_id": "V1-CARD-0260",
+                "subject_id": "V1-ENT-0378",
+                "fact_field": "genre_or_form",
+                "value_text": "长篇小说",
+                "material_class": "bibliographic",
+                "origin_id": "WCD07A-W05",
+                "confidence": "high",
+                "admission_status": "batch_retained_candidate",
+                "usage_note": "national library and publisher classification"
+              },
+              {
+                "fact_id": "V1-FCT-1028",
+                "origin_material_id": "WCD07A-F024",
+                "card_id": "V1-CARD-0260",
+                "subject_id": "V1-ENT-0378",
+                "fact_field": "bibliographic_note",
+                "value_text": "作品于1971年出版；Editorial Losada将其作为作者的文学遗嘱介绍。",
+                "material_class": "bibliographic_note",
+                "origin_id": "WCD07A-W05",
+                "confidence": "high",
+                "admission_status": "batch_retained_candidate",
+                "usage_note": "unsupported diary-year claim excluded"
+              }
+            ],
+            "cards": [
+              {
+                "card_id": "V1-CARD-0260",
+                "origin_card_id": "WCD07A-W05",
+                "subject_id": "V1-ENT-0378",
+                "card_type": "work",
+                "title_zh": "《山上的狐狸，山下的狐狸》",
+                "author_label": "何塞·玛丽亚·阿格达斯",
+                "original_title": "El zorro de arriba y el zorro de abajo",
+                "country_or_region": "秘鲁",
+                "language": "es",
+                "period_bucket": "1971",
+                "genre_or_form": "长篇小说",
+                "input_layer": "WCD-07A",
+                "source_minimum_status": "meets",
+                "issue_code": "NONE",
+                "content_markdown": "### 《山上的狐狸，山下的狐狸》｜El zorro de arriba y el zorro de abajo\\n\\n- 对象类型：`work`｜首版：1971｜体裁：长篇小说\\n- 研究基线：作为单一作品保留；日记结构事实因证据不足未准入。"
+              }
+            ],
+            "relations": [
+              {
+                "relationship_id": "V1-REL-0335",
+                "origin_layer": "WCD-07A",
+                "origin_relation_group_id": "WCD07A-R05",
+                "subject_id": "V1-ENT-0248",
+                "relation_type": "CREATED",
+                "object_id": "V1-ENT-0378",
+                "description_zh": "何塞·玛丽亚·阿格达斯创作《山上的狐狸，山下的狐狸》",
+                "confidence": "high",
+                "review_status": "accepted",
+                "upstream_review_status": "CODEX-REVIEW-WCD07A-PASS",
+                "evidence_count": "2",
+                "issue_code": "NONE"
+              }
+            ],
+            "fact_sources": [
+              {
+                "fact_id": "V1-FCT-1025",
+                "source_id": "SRC-0311",
+                "source_title": "El zorro de arriba y el zorro de abajo — BNP Digital"
+              },
+              {
+                "fact_id": "V1-FCT-1025",
+                "source_id": "SRC-0312",
+                "source_title": "El zorro de arriba y el zorro de abajo"
+              },
+              {
+                "fact_id": "V1-FCT-1026",
+                "source_id": "SRC-0311",
+                "source_title": "El zorro de arriba y el zorro de abajo — BNP Digital"
+              },
+              {
+                "fact_id": "V1-FCT-1027",
+                "source_id": "SRC-0311",
+                "source_title": "El zorro de arriba y el zorro de abajo — BNP Digital"
+              },
+              {
+                "fact_id": "V1-FCT-1027",
+                "source_id": "SRC-0312",
+                "source_title": "El zorro de arriba y el zorro de abajo"
+              },
+              {
+                "fact_id": "V1-FCT-1028",
+                "source_id": "SRC-0311",
+                "source_title": "El zorro de arriba y el zorro de abajo — BNP Digital"
+              },
+              {
+                "fact_id": "V1-FCT-1028",
+                "source_id": "SRC-0312",
+                "source_title": "El zorro de arriba y el zorro de abajo"
+              }
+            ],
+            "card_sources": [
+              {
+                "card_source_id": "V1-CS-0530",
+                "origin_matrix_id": "WCD07A-S12",
+                "card_id": "V1-CARD-0260",
+                "source_id": "SRC-0311",
+                "source_level": "B",
+                "source_role": "identity_and_bibliography",
+                "bibliographic_support": "yes",
+                "research_support": "yes",
+                "independent_source_key": "BNP",
+                "usage_status": "accepted",
+                "issue_code": "NONE"
+              },
+              {
+                "card_source_id": "V1-CS-0531",
+                "origin_matrix_id": "WCD07A-S13",
+                "card_id": "V1-CARD-0260",
+                "source_id": "SRC-0312",
+                "source_level": "B",
+                "source_role": "form_and_context",
+                "bibliographic_support": "yes",
+                "research_support": "yes",
+                "independent_source_key": "LOSADA",
+                "usage_status": "accepted",
+                "issue_code": "NONE"
+              },
+              {
+                "card_source_id": "V1-CS-0535",
+                "origin_matrix_id": "WCD07A-S18",
+                "card_id": "V1-CARD-0260",
+                "source_id": "SRC-0315",
+                "source_level": "B",
+                "source_role": "chinese_display",
+                "bibliographic_support": "yes",
+                "research_support": "no",
+                "independent_source_key": "ZJ-XINHUA-CATALOG",
+                "usage_status": "accepted",
+                "issue_code": "NONE"
+              }
+            ],
+            "relationship_sources": [
+              {
+                "relationship_id": "V1-REL-0335",
+                "source_id": "SRC-0311"
+              },
+              {
+                "relationship_id": "V1-REL-0335",
+                "source_id": "SRC-0312"
+              }
+            ],
+            "relationship_evidence": [
+              {
+                "evidence_id": "V1-EV-0376",
+                "relationship_id": "V1-REL-0335",
+                "origin_evidence_id": "WCD07A-S12",
+                "source_id": "SRC-0311",
+                "source_title": "El zorro de arriba y el zorro de abajo — BNP Digital",
+                "locator": "national-library item record",
+                "evidence_note": "BNP directly attributes the 1971 novel to Jose Maria Arguedas.",
+                "confidence": "high",
+                "evidence_status": "eligible_evidence",
+                "evidence_origin": "WCD-07A"
+              },
+              {
+                "evidence_id": "V1-EV-0377",
+                "relationship_id": "V1-REL-0335",
+                "origin_evidence_id": "WCD07A-S13",
+                "source_id": "SRC-0312",
+                "source_title": "El zorro de arriba y el zorro de abajo",
+                "locator": "publisher work page",
+                "evidence_note": "Losada independently identifies Arguedas and the novel.",
+                "confidence": "high",
+                "evidence_status": "eligible_evidence",
+                "evidence_origin": "WCD-07A"
+              }
+            ],
+            "source_objects": [
+              {
+                "source_id": "SRC-0311",
+                "temporary_id": "WCD07A-S12",
+                "title": "El zorro de arriba y el zorro de abajo — BNP Digital",
+                "original_title": "El zorro de arriba y el zorro de abajo",
+                "author_or_editor": "Biblioteca Nacional del Perú",
+                "translator": "",
+                "publisher": "Biblioteca Nacional del Perú",
+                "publication_year": "1971",
+                "isbn": "",
+                "format": "national_library_record",
+                "page_count": "",
+                "language": "es",
+                "source_level": "B",
+                "processing_status": "access_pass",
+                "source_task": "WCD-07A",
+                "public_content_scope": "metadata_and_summary",
+                "local_asset_status": "remote_only",
+                "persistent_id": "hdl.handle.net/20.500.14428/79320",
+                "canonical_url": "https://bibliotecadigital.bnp.gob.pe/items/72c6e3f4-b4a0-4e00-babd-9481cdb250fb"
+              },
+              {
+                "source_id": "SRC-0312",
+                "temporary_id": "WCD07A-S13",
+                "title": "El zorro de arriba y el zorro de abajo",
+                "original_title": "El zorro de arriba y el zorro de abajo",
+                "author_or_editor": "Editorial Losada",
+                "translator": "",
+                "publisher": "Editorial Losada",
+                "publication_year": "",
+                "isbn": "",
+                "format": "publisher_catalog",
+                "page_count": "",
+                "language": "es",
+                "source_level": "B",
+                "processing_status": "access_pass",
+                "source_task": "WCD-07A",
+                "public_content_scope": "metadata_and_summary",
+                "local_asset_status": "remote_only",
+                "persistent_id": "",
+                "canonical_url": "https://editoriallosada.com/libro/el-zorro-de-arriba-y-el-zorro-de-abajo/"
+              },
+              {
+                "source_id": "SRC-0315",
+                "temporary_id": "WCD07A-S18",
+                "title": "山上的狐狸山下的狐狸/西葡拉美幻想文学经典",
+                "original_title": "山上的狐狸山下的狐狸/西葡拉美幻想文学经典",
+                "author_or_editor": "芸台购 / 浙江省新华书店集团有限公司",
+                "translator": "朱金玉",
+                "publisher": "人民文学出版社",
+                "publication_year": "2024",
+                "isbn": "9787020186723",
+                "format": "library_acquisition_catalog",
+                "page_count": "387",
+                "language": "zh",
+                "source_level": "B",
+                "processing_status": "access_pass",
+                "source_task": "WCD-07A",
+                "public_content_scope": "chinese_display_and_edition",
+                "local_asset_status": "remote_only",
+                "persistent_id": "",
+                "canonical_url": "https://www.yuntaigo.com/book.action?recordid=bm5sZmtsemM5Nzg3MDIwMTg2NzIz"
+              }
+            ],
+            "flags": [
+              "object_description_fact_missing"
+            ],
+            "research_status": "legacy_existing_record_preserved",
+            "research_refs": [
+              "SRC-0311",
+              "SRC-0312",
+              "SRC-0315"
+            ],
+            "remaining": "既有事实、卡、关系、证据、来源链及gap/hold全部只读保全；本候选不修改。",
+            "candidate_facts": [
+              {
+                "candidate_id": "WCD10-B11-F107",
+                "field": "one_sentence_summary",
+                "value": "小说于作者逝世后出版；BNP介绍将作品与作者的个人危机及对秘鲁现代化的失望联系起来。",
+                "source_refs": [
+                  "WCD10-B11-S101"
+                ]
+              }
+            ],
+            "object_ref": "V1-ENT-0378"
+          }
+        },
+        {
+          "object_ref": "WCD10-B11-W101",
+          "author_id": "V1-ENT-0248",
+          "before": {
+            "entity": {
+              "entity_id": "WCD10-B11-W101",
+              "entity_type": "collection",
+              "name_zh": "《水》",
+              "original_name": "Agua",
+              "canonical_status": "candidate",
+              "origin_count": "1",
+              "origin_refs": "WCD10-B11-W101",
+              "normalization_basis": "BNP/Casa direct catalogue record; Chinese working title only",
+              "issue_codes": "NONE"
+            },
+            "facts": [],
+            "cards": [],
+            "relations": [],
+            "fact_sources": [],
+            "card_sources": [],
+            "relationship_sources": [],
+            "relationship_evidence": [],
+            "source_objects": [],
+            "source_holds": [],
+            "relation_holds": [],
+            "gaps": [],
+            "research_status": "institutional_commentary",
+            "research_refs": [
+              "WCD10-B11-S101",
+              "WCD10-B11-S105"
+            ],
+            "remaining": "只据已打开机构书目/馆藏记录确认题名、版本及有界简介；不表示版本谱系或作品阐释已穷尽。",
+            "candidate_facts": [
+              {
+                "candidate_id": "WCD10-B11-W101-F01",
+                "field": "first_publication_year",
+                "value": "1935",
+                "source_refs": [
+                  "WCD10-B11-S101",
+                  "WCD10-B11-S105"
+                ]
+              },
+              {
+                "candidate_id": "WCD10-B11-W101-F02",
+                "field": "genre_or_form",
+                "value": "短篇小说集",
+                "source_refs": [
+                  "WCD10-B11-S101",
+                  "WCD10-B11-S105"
+                ]
+              },
+              {
+                "candidate_id": "WCD10-B11-W101-F03",
+                "field": "one_sentence_summary",
+                "value": "《Agua》首版同册还收录《Los escoleros》和《Warma kuyay》；仅按目录记录说明该故事集。",
+                "source_refs": [
+                  "WCD10-B11-S101",
+                  "WCD10-B11-S105"
+                ]
+              }
+            ],
+            "candidate_id": "WCD10-B11-W101",
+            "source_author_id": "V1-ENT-0248"
+          },
+          "after": {
+            "entity": {
+              "entity_id": "WCD10-B11-W101",
+              "entity_type": "collection",
+              "name_zh": "《水》",
+              "original_name": "Agua",
+              "canonical_status": "candidate",
+              "origin_count": "1",
+              "origin_refs": "WCD10-B11-W101",
+              "normalization_basis": "BNP/Casa direct catalogue record; Chinese working title only",
+              "issue_codes": "NONE"
+            },
+            "facts": [],
+            "cards": [],
+            "relations": [],
+            "fact_sources": [],
+            "card_sources": [],
+            "relationship_sources": [],
+            "relationship_evidence": [],
+            "source_objects": [],
+            "source_holds": [],
+            "relation_holds": [],
+            "gaps": [],
+            "research_status": "institutional_commentary",
+            "research_refs": [
+              "WCD10-B11-S101",
+              "WCD10-B11-S105"
+            ],
+            "remaining": "只据已打开机构书目/馆藏记录确认题名、版本及有界简介；不表示版本谱系或作品阐释已穷尽。",
+            "candidate_facts": [
+              {
+                "candidate_id": "WCD10-B11-W101-F01",
+                "field": "first_publication_year",
+                "value": "1935",
+                "source_refs": [
+                  "WCD10-B11-S101",
+                  "WCD10-B11-S105"
+                ]
+              },
+              {
+                "candidate_id": "WCD10-B11-W101-F02",
+                "field": "genre_or_form",
+                "value": "短篇小说集",
+                "source_refs": [
+                  "WCD10-B11-S101",
+                  "WCD10-B11-S105"
+                ]
+              },
+              {
+                "candidate_id": "WCD10-B11-W101-F03",
+                "field": "one_sentence_summary",
+                "value": "《Agua》首版同册还收录《Los escoleros》和《Warma kuyay》；仅按目录记录说明该故事集。",
+                "source_refs": [
+                  "WCD10-B11-S101"
+                ]
+              }
+            ],
+            "candidate_id": "WCD10-B11-W101",
+            "source_author_id": "V1-ENT-0248",
+            "object_ref": "WCD10-B11-W101"
+          }
+        },
+        {
+          "object_ref": "WCD10-B11-W102",
+          "author_id": "V1-ENT-0248",
+          "before": {
+            "entity": {
+              "entity_id": "WCD10-B11-W102",
+              "entity_type": "work",
+              "name_zh": "《钻石与燧石》",
+              "original_name": "Diamantes y pedernales",
+              "canonical_status": "candidate",
+              "origin_count": "1",
+              "origin_refs": "WCD10-B11-W102",
+              "normalization_basis": "BNP/Casa direct catalogue record; Chinese working title only",
+              "issue_codes": "NONE"
+            },
+            "facts": [],
+            "cards": [],
+            "relations": [],
+            "fact_sources": [],
+            "card_sources": [],
+            "relationship_sources": [],
+            "relationship_evidence": [],
+            "source_objects": [],
+            "source_holds": [],
+            "relation_holds": [],
+            "gaps": [],
+            "research_status": "institutional_commentary",
+            "research_refs": [
+              "WCD10-B11-S101"
+            ],
+            "remaining": "只据已打开机构书目/馆藏记录确认题名、版本及有界简介；不表示版本谱系或作品阐释已穷尽。",
+            "candidate_facts": [
+              {
+                "candidate_id": "WCD10-B11-W102-F01",
+                "field": "first_publication_year",
+                "value": "1954",
+                "source_refs": [
+                  "WCD10-B11-S101"
+                ]
+              },
+              {
+                "candidate_id": "WCD10-B11-W102-F02",
+                "field": "genre_or_form",
+                "value": "小说",
+                "source_refs": [
+                  "WCD10-B11-S101"
+                ]
+              },
+              {
+                "candidate_id": "WCD10-B11-W102-F03",
+                "field": "one_sentence_summary",
+                "value": "Arguedas于1954年出版的小说；本条限于书目身份和体裁，不增加主题解释。",
+                "source_refs": [
+                  "WCD10-B11-S101"
+                ]
+              }
+            ],
+            "candidate_id": "WCD10-B11-W102",
+            "source_author_id": "V1-ENT-0248"
+          },
+          "after": {
+            "entity": {
+              "entity_id": "WCD10-B11-W102",
+              "entity_type": "work",
+              "name_zh": "《钻石与燧石》",
+              "original_name": "Diamantes y pedernales",
+              "canonical_status": "candidate",
+              "origin_count": "1",
+              "origin_refs": "WCD10-B11-W102",
+              "normalization_basis": "BNP/Casa direct catalogue record; Chinese working title only",
+              "issue_codes": "NONE"
+            },
+            "facts": [],
+            "cards": [],
+            "relations": [],
+            "fact_sources": [],
+            "card_sources": [],
+            "relationship_sources": [],
+            "relationship_evidence": [],
+            "source_objects": [],
+            "source_holds": [],
+            "relation_holds": [],
+            "gaps": [],
+            "research_status": "institutional_commentary",
+            "research_refs": [
+              "WCD10-B11-S101"
+            ],
+            "remaining": "只据已打开机构书目/馆藏记录确认题名、版本及有界简介；不表示版本谱系或作品阐释已穷尽。",
+            "candidate_facts": [
+              {
+                "candidate_id": "WCD10-B11-W102-F01",
+                "field": "first_publication_year",
+                "value": "1954",
+                "source_refs": [
+                  "WCD10-B11-S101"
+                ]
+              },
+              {
+                "candidate_id": "WCD10-B11-W102-F02",
+                "field": "genre_or_form",
+                "value": "小说",
+                "source_refs": [
+                  "WCD10-B11-S101"
+                ]
+              },
+              {
+                "candidate_id": "WCD10-B11-W102-F03",
+                "field": "one_sentence_summary",
+                "value": "Arguedas于1954年出版的小说；本条限于书目身份和体裁，不增加主题解释。",
+                "source_refs": [
+                  "WCD10-B11-S101"
+                ]
+              }
+            ],
+            "candidate_id": "WCD10-B11-W102",
+            "source_author_id": "V1-ENT-0248",
+            "object_ref": "WCD10-B11-W102"
+          }
+        },
+        {
+          "object_ref": "WCD10-B11-W103",
+          "author_id": "V1-ENT-0248",
+          "before": {
+            "entity": {
+              "entity_id": "WCD10-B11-W103",
+              "entity_type": "work",
+              "name_zh": "《第六监狱》",
+              "original_name": "El Sexto",
+              "canonical_status": "candidate",
+              "origin_count": "1",
+              "origin_refs": "WCD10-B11-W103",
+              "normalization_basis": "BNP/Casa direct catalogue record; Chinese working title only",
+              "issue_codes": "NONE"
+            },
+            "facts": [],
+            "cards": [],
+            "relations": [],
+            "fact_sources": [],
+            "card_sources": [],
+            "relationship_sources": [],
+            "relationship_evidence": [],
+            "source_objects": [],
+            "source_holds": [],
+            "relation_holds": [],
+            "gaps": [],
+            "research_status": "institutional_commentary",
+            "research_refs": [
+              "WCD10-B11-S101",
+              "WCD10-B11-S102"
+            ],
+            "remaining": "只据已打开机构书目/馆藏记录确认题名、版本及有界简介；不表示版本谱系或作品阐释已穷尽。",
+            "candidate_facts": [
+              {
+                "candidate_id": "WCD10-B11-W103-F01",
+                "field": "first_publication_year",
+                "value": "1961",
+                "source_refs": [
+                  "WCD10-B11-S101",
+                  "WCD10-B11-S102"
+                ]
+              },
+              {
+                "candidate_id": "WCD10-B11-W103-F02",
+                "field": "genre_or_form",
+                "value": "小说",
+                "source_refs": [
+                  "WCD10-B11-S101",
+                  "WCD10-B11-S102"
+                ]
+              },
+              {
+                "candidate_id": "WCD10-B11-W103-F03",
+                "field": "one_sentence_summary",
+                "value": "小说人物Gabriel讲述自己在利马El Sexto监狱的经历；简介限于馆藏版本封底所载。",
+                "source_refs": [
+                  "WCD10-B11-S101",
+                  "WCD10-B11-S102"
+                ]
+              }
+            ],
+            "candidate_id": "WCD10-B11-W103",
+            "source_author_id": "V1-ENT-0248"
+          },
+          "after": {
+            "entity": {
+              "entity_id": "WCD10-B11-W103",
+              "entity_type": "work",
+              "name_zh": "《第六监狱》",
+              "original_name": "El Sexto",
+              "canonical_status": "candidate",
+              "origin_count": "1",
+              "origin_refs": "WCD10-B11-W103",
+              "normalization_basis": "BNP/Casa direct catalogue record; Chinese working title only",
+              "issue_codes": "NONE"
+            },
+            "facts": [],
+            "cards": [],
+            "relations": [],
+            "fact_sources": [],
+            "card_sources": [],
+            "relationship_sources": [],
+            "relationship_evidence": [],
+            "source_objects": [],
+            "source_holds": [],
+            "relation_holds": [],
+            "gaps": [],
+            "research_status": "institutional_commentary",
+            "research_refs": [
+              "WCD10-B11-S101",
+              "WCD10-B11-S102"
+            ],
+            "remaining": "只据已打开机构书目/馆藏记录确认题名、版本及有界简介；不表示版本谱系或作品阐释已穷尽。",
+            "candidate_facts": [
+              {
+                "candidate_id": "WCD10-B11-W103-F01",
+                "field": "first_publication_year",
+                "value": "1961",
+                "source_refs": [
+                  "WCD10-B11-S101"
+                ]
+              },
+              {
+                "candidate_id": "WCD10-B11-W103-F02",
+                "field": "genre_or_form",
+                "value": "小说",
+                "source_refs": [
+                  "WCD10-B11-S101",
+                  "WCD10-B11-S102"
+                ]
+              },
+              {
+                "candidate_id": "WCD10-B11-W103-F03",
+                "field": "one_sentence_summary",
+                "value": "小说人物Gabriel讲述自己在利马El Sexto监狱的经历；简介限于馆藏版本封底所载。",
+                "source_refs": [
+                  "WCD10-B11-S102"
+                ]
+              }
+            ],
+            "candidate_id": "WCD10-B11-W103",
+            "source_author_id": "V1-ENT-0248",
+            "object_ref": "WCD10-B11-W103"
+          }
+        },
+        {
+          "object_ref": "WCD10-B11-W104",
+          "author_id": "V1-ENT-0248",
+          "before": {
+            "entity": {
+              "entity_id": "WCD10-B11-W104",
+              "entity_type": "work",
+              "name_zh": "《拉苏-尼蒂的临终》",
+              "original_name": "La agonía de Rasu-Ñiti",
+              "canonical_status": "candidate",
+              "origin_count": "1",
+              "origin_refs": "WCD10-B11-W104",
+              "normalization_basis": "BNP/Casa direct catalogue record; Chinese working title only",
+              "issue_codes": "NONE"
+            },
+            "facts": [],
+            "cards": [],
+            "relations": [],
+            "fact_sources": [],
+            "card_sources": [],
+            "relationship_sources": [],
+            "relationship_evidence": [],
+            "source_objects": [],
+            "source_holds": [],
+            "relation_holds": [],
+            "gaps": [],
+            "research_status": "institutional_commentary",
+            "research_refs": [
+              "WCD10-B11-S101",
+              "WCD10-B11-S103"
+            ],
+            "remaining": "只据已打开机构书目/馆藏记录确认题名、版本及有界简介；不表示版本谱系或作品阐释已穷尽。",
+            "candidate_facts": [
+              {
+                "candidate_id": "WCD10-B11-W104-F01",
+                "field": "bibliographic_note",
+                "value": "BNP目录记录1962年版，Casa馆藏记录[1964?]版；版本首发口径未定，原子年份留空。",
+                "source_refs": [
+                  "WCD10-B11-S101",
+                  "WCD10-B11-S103"
+                ]
+              },
+              {
+                "candidate_id": "WCD10-B11-W104-F02",
+                "field": "genre_or_form",
+                "value": "短篇小说",
+                "source_refs": [
+                  "WCD10-B11-S101",
+                  "WCD10-B11-S103"
+                ]
+              },
+              {
+                "candidate_id": "WCD10-B11-W104-F03",
+                "field": "one_sentence_summary",
+                "value": "短篇小说写剪刀舞者Rasu-Ñiti临终前最后一舞，并将Wamani精神传给徒弟；限于馆藏简介。",
+                "source_refs": [
+                  "WCD10-B11-S103"
+                ]
+              }
+            ],
+            "candidate_id": "WCD10-B11-W104",
+            "source_author_id": "V1-ENT-0248"
+          },
+          "after": {
+            "entity": {
+              "entity_id": "WCD10-B11-W104",
+              "entity_type": "work",
+              "name_zh": "《拉苏-尼蒂的临终》",
+              "original_name": "La agonía de Rasu-Ñiti",
+              "canonical_status": "candidate",
+              "origin_count": "1",
+              "origin_refs": "WCD10-B11-W104",
+              "normalization_basis": "BNP/Casa direct catalogue record; Chinese working title only",
+              "issue_codes": "NONE"
+            },
+            "facts": [],
+            "cards": [],
+            "relations": [],
+            "fact_sources": [],
+            "card_sources": [],
+            "relationship_sources": [],
+            "relationship_evidence": [],
+            "source_objects": [],
+            "source_holds": [],
+            "relation_holds": [],
+            "gaps": [],
+            "research_status": "institutional_commentary",
+            "research_refs": [
+              "WCD10-B11-S101",
+              "WCD10-B11-S103"
+            ],
+            "remaining": "只据已打开机构书目/馆藏记录确认题名、版本及有界简介；不表示版本谱系或作品阐释已穷尽。",
+            "candidate_facts": [
+              {
+                "candidate_id": "WCD10-B11-W104-F01",
+                "field": "bibliographic_note",
+                "value": "BNP目录记录1962年版，Casa馆藏记录[1964?]版；版本首发口径未定，原子年份留空。",
+                "source_refs": [
+                  "WCD10-B11-S101",
+                  "WCD10-B11-S103"
+                ]
+              },
+              {
+                "candidate_id": "WCD10-B11-W104-F02",
+                "field": "genre_or_form",
+                "value": "短篇小说",
+                "source_refs": [
+                  "WCD10-B11-S101",
+                  "WCD10-B11-S103"
+                ]
+              },
+              {
+                "candidate_id": "WCD10-B11-W104-F03",
+                "field": "one_sentence_summary",
+                "value": "短篇小说写剪刀舞者Rasu-Ñiti临终前最后一舞，并将Wamani精神传给徒弟；限于馆藏简介。",
+                "source_refs": [
+                  "WCD10-B11-S103"
+                ]
+              }
+            ],
+            "candidate_id": "WCD10-B11-W104",
+            "source_author_id": "V1-ENT-0248",
+            "object_ref": "WCD10-B11-W104"
+          }
+        },
+        {
+          "object_ref": "WCD10-B11-W105",
+          "author_id": "V1-ENT-0248",
+          "before": {
+            "entity": {
+              "entity_id": "WCD10-B11-W105",
+              "entity_type": "work",
+              "name_zh": "《仆人的梦》",
+              "original_name": "El sueño del pongo",
+              "canonical_status": "candidate",
+              "origin_count": "1",
+              "origin_refs": "WCD10-B11-W105",
+              "normalization_basis": "BNP/Casa direct catalogue record; Chinese working title only",
+              "issue_codes": "NONE"
+            },
+            "facts": [],
+            "cards": [],
+            "relations": [],
+            "fact_sources": [],
+            "card_sources": [],
+            "relationship_sources": [],
+            "relationship_evidence": [],
+            "source_objects": [],
+            "source_holds": [],
+            "relation_holds": [],
+            "gaps": [],
+            "research_status": "institutional_commentary",
+            "research_refs": [
+              "WCD10-B11-S101"
+            ],
+            "remaining": "只据已打开机构书目/馆藏记录确认题名、版本及有界简介；不表示版本谱系或作品阐释已穷尽。",
+            "candidate_facts": [
+              {
+                "candidate_id": "WCD10-B11-W105-F01",
+                "field": "first_publication_year",
+                "value": "1965",
+                "source_refs": [
+                  "WCD10-B11-S101"
+                ]
+              },
+              {
+                "candidate_id": "WCD10-B11-W105-F02",
+                "field": "genre_or_form",
+                "value": "盖丘亚语故事",
+                "source_refs": [
+                  "WCD10-B11-S101"
+                ]
+              },
+              {
+                "candidate_id": "WCD10-B11-W105-F03",
+                "field": "one_sentence_summary",
+                "value": "1965年版目录将其著录为盖丘亚语故事，并说明文本为盖丘亚语和西班牙语双语。",
+                "source_refs": [
+                  "WCD10-B11-S101"
+                ]
+              }
+            ],
+            "candidate_id": "WCD10-B11-W105",
+            "source_author_id": "V1-ENT-0248"
+          },
+          "after": {
+            "entity": {
+              "entity_id": "WCD10-B11-W105",
+              "entity_type": "work",
+              "name_zh": "《仆人的梦》",
+              "original_name": "El sueño del pongo",
+              "canonical_status": "candidate",
+              "origin_count": "1",
+              "origin_refs": "WCD10-B11-W105",
+              "normalization_basis": "BNP/Casa direct catalogue record; Chinese working title only",
+              "issue_codes": "NONE"
+            },
+            "facts": [],
+            "cards": [],
+            "relations": [],
+            "fact_sources": [],
+            "card_sources": [],
+            "relationship_sources": [],
+            "relationship_evidence": [],
+            "source_objects": [],
+            "source_holds": [],
+            "relation_holds": [],
+            "gaps": [],
+            "research_status": "institutional_commentary",
+            "research_refs": [
+              "WCD10-B11-S101"
+            ],
+            "remaining": "只据已打开机构书目/馆藏记录确认题名、版本及有界简介；不表示版本谱系或作品阐释已穷尽。",
+            "candidate_facts": [
+              {
+                "candidate_id": "WCD10-B11-W105-F01",
+                "field": "first_publication_year",
+                "value": "1965",
+                "source_refs": [
+                  "WCD10-B11-S101"
+                ]
+              },
+              {
+                "candidate_id": "WCD10-B11-W105-F02",
+                "field": "genre_or_form",
+                "value": "盖丘亚语故事",
+                "source_refs": [
+                  "WCD10-B11-S101"
+                ]
+              },
+              {
+                "candidate_id": "WCD10-B11-W105-F03",
+                "field": "one_sentence_summary",
+                "value": "1965年版目录将其著录为盖丘亚语故事，并说明文本为盖丘亚语和西班牙语双语。",
+                "source_refs": [
+                  "WCD10-B11-S101"
+                ]
+              },
+              {
+                "field": "bibliographic_note",
+                "value": "BNP说明该故事并非Arguedas原创；他记述自己在利马听一位Qatqa社区成员讲述后，将其以盖丘亚语和西班牙语出版。",
+                "source_refs": [
+                  "WCD10-B11-S101"
+                ],
+                "candidate_id": "WCD10-B11-W105-F04"
+              }
+            ],
+            "candidate_id": "WCD10-B11-W105",
+            "source_author_id": "V1-ENT-0248",
+            "object_ref": "WCD10-B11-W105"
+          }
+        },
+        {
+          "object_ref": "WCD10-B11-W106",
+          "author_id": "V1-ENT-0248",
+          "before": {
+            "entity": {
+              "entity_id": "WCD10-B11-W106",
+              "entity_type": "collection",
+              "name_zh": "《爱情世界与阿格达斯短篇集》",
+              "original_name": "Amor mundo y todos los cuentos de José María Arguedas",
+              "canonical_status": "candidate",
+              "origin_count": "1",
+              "origin_refs": "WCD10-B11-W106",
+              "normalization_basis": "BNP/Casa direct catalogue record; Chinese working title only",
+              "issue_codes": "NONE"
+            },
+            "facts": [],
+            "cards": [],
+            "relations": [],
+            "fact_sources": [],
+            "card_sources": [],
+            "relationship_sources": [],
+            "relationship_evidence": [],
+            "source_objects": [],
+            "source_holds": [],
+            "relation_holds": [],
+            "gaps": [],
+            "research_status": "institutional_commentary",
+            "research_refs": [
+              "WCD10-B11-S104"
+            ],
+            "remaining": "只据已打开机构书目/馆藏记录确认题名、版本及有界简介；不表示版本谱系或作品阐释已穷尽。",
+            "candidate_facts": [
+              {
+                "candidate_id": "WCD10-B11-W106-F01",
+                "field": "first_publication_year",
+                "value": "1967",
+                "source_refs": [
+                  "WCD10-B11-S104"
+                ]
+              },
+              {
+                "candidate_id": "WCD10-B11-W106-F02",
+                "field": "genre_or_form",
+                "value": "短篇小说集",
+                "source_refs": [
+                  "WCD10-B11-S104"
+                ]
+              },
+              {
+                "candidate_id": "WCD10-B11-W106-F03",
+                "field": "one_sentence_summary",
+                "value": "1967年首版的短篇小说集，馆藏目录列出其中包括Agua、Warma Kuyay、La agonía de Rasu-Ñiti等篇目。",
+                "source_refs": [
+                  "WCD10-B11-S104"
+                ]
+              }
+            ],
+            "candidate_id": "WCD10-B11-W106",
+            "source_author_id": "V1-ENT-0248"
+          },
+          "after": {
+            "entity": {
+              "entity_id": "WCD10-B11-W106",
+              "entity_type": "collection",
+              "name_zh": "《爱情世界与阿格达斯短篇集》",
+              "original_name": "Amor mundo y todos los cuentos de José María Arguedas",
+              "canonical_status": "candidate",
+              "origin_count": "1",
+              "origin_refs": "WCD10-B11-W106",
+              "normalization_basis": "BNP/Casa direct catalogue record; Chinese working title only",
+              "issue_codes": "NONE"
+            },
+            "facts": [],
+            "cards": [],
+            "relations": [],
+            "fact_sources": [],
+            "card_sources": [],
+            "relationship_sources": [],
+            "relationship_evidence": [],
+            "source_objects": [],
+            "source_holds": [],
+            "relation_holds": [],
+            "gaps": [],
+            "research_status": "institutional_commentary",
+            "research_refs": [
+              "WCD10-B11-S104"
+            ],
+            "remaining": "只据已打开机构书目/馆藏记录确认题名、版本及有界简介；不表示版本谱系或作品阐释已穷尽。",
+            "candidate_facts": [
+              {
+                "candidate_id": "WCD10-B11-W106-F01",
+                "field": "first_publication_year",
+                "value": "1967",
+                "source_refs": [
+                  "WCD10-B11-S104"
+                ]
+              },
+              {
+                "candidate_id": "WCD10-B11-W106-F02",
+                "field": "genre_or_form",
+                "value": "短篇小说集",
+                "source_refs": [
+                  "WCD10-B11-S104"
+                ]
+              },
+              {
+                "candidate_id": "WCD10-B11-W106-F03",
+                "field": "one_sentence_summary",
+                "value": "1967年首版的短篇小说集，馆藏目录列出其中包括Agua、Warma Kuyay、La agonía de Rasu-Ñiti等篇目。",
+                "source_refs": [
+                  "WCD10-B11-S104"
+                ]
+              }
+            ],
+            "candidate_id": "WCD10-B11-W106",
+            "source_author_id": "V1-ENT-0248",
+            "object_ref": "WCD10-B11-W106"
+          }
+        }
+      ],
+      "scope": "Only COVERAGE.objects object_ref and candidate_facts identity/order/value/source_refs; other row fields and all other package files preserved.",
+      "changed_paths": [
+        {
+          "path": "objects[WCD10-B11-W002].candidate_facts.order",
+          "before": [
+            "WCD10-B11-W002-F01",
+            "WCD10-B11-W002-F02",
+            "WCD10-B11-W002-F04",
+            "WCD10-B11-W002-F03"
+          ],
+          "after": [
+            "WCD10-B11-W002-F01",
+            "WCD10-B11-W002-F02",
+            "WCD10-B11-W002-F03",
+            "WCD10-B11-W002-F04"
+          ]
+        },
+        {
+          "path": "objects[V1-ENT-0251].object_ref",
+          "before": null,
+          "after": "V1-ENT-0251"
+        },
+        {
+          "path": "objects[V1-ENT-0252].object_ref",
+          "before": null,
+          "after": "V1-ENT-0252"
+        },
+        {
+          "path": "objects[V1-ENT-0253].object_ref",
+          "before": null,
+          "after": "V1-ENT-0253"
+        },
+        {
+          "path": "objects[V1-ENT-0378].object_ref",
+          "before": null,
+          "after": "V1-ENT-0378"
+        },
+        {
+          "path": "objects[WCD10-B11-W101].object_ref",
+          "before": null,
+          "after": "WCD10-B11-W101"
+        },
+        {
+          "path": "objects[WCD10-B11-W101].candidate_facts[WCD10-B11-W101-F03].source_refs",
+          "before": [
+            "WCD10-B11-S101",
+            "WCD10-B11-S105"
+          ],
+          "after": [
+            "WCD10-B11-S101"
+          ]
+        },
+        {
+          "path": "objects[WCD10-B11-W102].object_ref",
+          "before": null,
+          "after": "WCD10-B11-W102"
+        },
+        {
+          "path": "objects[WCD10-B11-W103].object_ref",
+          "before": null,
+          "after": "WCD10-B11-W103"
+        },
+        {
+          "path": "objects[WCD10-B11-W103].candidate_facts[WCD10-B11-W103-F03].source_refs",
+          "before": [
+            "WCD10-B11-S101",
+            "WCD10-B11-S102"
+          ],
+          "after": [
+            "WCD10-B11-S102"
+          ]
+        },
+        {
+          "path": "objects[WCD10-B11-W103].candidate_facts[WCD10-B11-W103-F01].source_refs",
+          "before": [
+            "WCD10-B11-S101",
+            "WCD10-B11-S102"
+          ],
+          "after": [
+            "WCD10-B11-S101"
+          ]
+        },
+        {
+          "path": "objects[WCD10-B11-W104].object_ref",
+          "before": null,
+          "after": "WCD10-B11-W104"
+        },
+        {
+          "path": "objects[WCD10-B11-W105].object_ref",
+          "before": null,
+          "after": "WCD10-B11-W105"
+        },
+        {
+          "path": "objects[WCD10-B11-W105].candidate_facts.order",
+          "before": [
+            "WCD10-B11-W105-F01",
+            "WCD10-B11-W105-F02",
+            "WCD10-B11-W105-F03"
+          ],
+          "after": [
+            "WCD10-B11-W105-F01",
+            "WCD10-B11-W105-F02",
+            "WCD10-B11-W105-F03",
+            "WCD10-B11-W105-F04"
+          ]
+        },
+        {
+          "path": "objects[WCD10-B11-W105].candidate_facts[WCD10-B11-W105-F04]",
+          "before": null,
+          "after": {
+            "field": "bibliographic_note",
+            "value": "BNP说明该故事并非Arguedas原创；他记述自己在利马听一位Qatqa社区成员讲述后，将其以盖丘亚语和西班牙语出版。",
+            "source_refs": [
+              "WCD10-B11-S101"
+            ],
+            "candidate_id": "WCD10-B11-W105-F04"
+          }
+        },
+        {
+          "path": "objects[WCD10-B11-W106].object_ref",
+          "before": null,
+          "after": "WCD10-B11-W106"
+        }
+      ]
+    }
+  ],
+  "authorized_narrow_repair": {
+    "coverage_before_sha256": "9fd9a3cc0d01861af95e681425d6d59c702ea684fed8205f3a0714029e6a9be5",
+    "coverage_after_sha256": "195edc5d4f1aa74499520da91de72956e37ed5c75e3eaadb3888a13fb4e26024",
+    "initial_seven_file_snapshot": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/project/internal/WCD_10_WORKSPACE/B11/MERGED_INITIAL",
+    "initial_manifest_sha256": "7f73a61ff689aae5447158fbe5550bcfe97475c967c7b29cc55e4210028feff7",
+    "unchanged_files": {
+      "CANDIDATES.json": "dc4477d205363b36b77f04ca79a822e8bcd587e8608eb012dbba4172b7475071",
+      "DEDUP.json": "b4ba8559c79129068885eae60f77a341ff7dc00afb1166608e42ad535ecb1acb",
+      "EVIDENCE_MATRIX.json": "996014ab4e852328aa064b9a1a3bbca43042c29e2b57b8b3927accf7f43aec3f",
+      "SOURCE_ACCESS_LOG.json": "8aee255810333a4ae90d901ab8b025c5dac991ea14c4743f2a3eb70d9860da75",
+      "SOURCE_REGISTRATION.json": "f3a9f1d0c2e39ea83c5c5d4140f9f7dea98a846ad51a3a8f4fd09959d4f1aaf5"
+    },
+    "execution": {
+      "repair_command": {
+        "argv": [
+          "python3",
+          "/tmp/repair_b11_coverage.py"
+        ],
+        "exit_code": 0,
+        "script_sha256": "d4ae4600f3cfe3474fa7fd1bad6b5cd256be2b694a89743c5ac24f29984abd65",
+        "stdout_path": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/project/internal/WCD_10_WORKSPACE/orchestration/wave-08/integrator/logs/coverage_repair.stdout",
+        "stdout_sha256": "e5c9c8b6b1cb95771d5e2bd968db637d450019467d1de8bd35b5b93801b01495",
+        "stderr_path": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/project/internal/WCD_10_WORKSPACE/orchestration/wave-08/integrator/logs/coverage_repair.stderr",
+        "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "validator_command": {
+        "argv": [
+          "python3",
+          "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/work/codex-worktrees/latin-american-literature-map-wcd10/scripts/validate_wcd10_candidates.py",
+          "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/work/codex-worktrees/latin-american-literature-map-wcd10/data/changesets/WCD-10/B11/CANDIDATES.json",
+          "--repo",
+          "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/work/codex-worktrees/latin-american-literature-map-wcd10",
+          "--report",
+          "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/project/internal/WCD_10_WORKSPACE/orchestration/wave-08/integrator/logs/validator_repair_report.json"
+        ],
+        "exit_code": 0,
+        "report_sha256": "292e9511233c5c60f2999e590cadbb305a37f6403eeb27bd0e2e2560f42aa428",
+        "stdout_path": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/project/internal/WCD_10_WORKSPACE/orchestration/wave-08/integrator/logs/validator_repair.stdout",
+        "stdout_sha256": "1f87f7af46d268548211e039fc30a41dcacedf9e8c388b10c1d47d729968d098",
+        "stderr_path": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/project/internal/WCD_10_WORKSPACE/orchestration/wave-08/integrator/logs/validator_repair.stderr",
+        "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "coverage_selfcheck_command": {
+        "argv": [
+          "python3",
+          "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/project/internal/WCD_10_WORKSPACE/orchestration/wave-08/integrator/logs/coverage_selfcheck.py"
+        ],
+        "exit_code": 0,
+        "script_sha256": "8eaa3b9451ae6aa8e126866263ff42f996880e4490fdaaf726c8f9fa8229aa92",
+        "stdout_path": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/project/internal/WCD_10_WORKSPACE/orchestration/wave-08/integrator/logs/coverage_selfcheck.stdout",
+        "stdout_sha256": "c8cc7ff05058a03c6b02dab43bcafc2e91a1d0f680b26750567fe523905a1bef",
+        "stderr_path": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/project/internal/WCD_10_WORKSPACE/orchestration/wave-08/integrator/logs/coverage_selfcheck.stderr",
+        "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "initial_bundle_manifest_sha256": "7f73a61ff689aae5447158fbe5550bcfe97475c967c7b29cc55e4210028feff7"
+    }
+  }
+}

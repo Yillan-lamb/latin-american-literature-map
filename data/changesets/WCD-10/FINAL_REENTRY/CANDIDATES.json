@@ -1,0 +1,126 @@
+{
+  "schema": "wcd10-candidate-change-set-1",
+  "task_id": "TASK-127",
+  "batch_id": "WCD-10-B05",
+  "baseline_commit": "05f3372c69a54ec331d31b05d16c8288d6d3a993",
+  "baseline_database_sha256": "559b1858b7b5e647b4b313f841be8d2960cf3a5eacf2a2dd92c6161668da706c",
+  "status": "candidate_frozen_parent_review_pending",
+  "author_ids": [
+    "V1-ENT-0059",
+    "V1-ENT-0170",
+    "V1-ENT-0171"
+  ],
+  "accessed_at": "2026-10-15",
+  "public_boundary": "仅Research候选，未经独立审核及后续Curation准入不得公开。",
+  "source_scope_decisions": [
+    {
+      "candidate_ids": [
+        "WCD10-B05-S07"
+      ],
+      "disposition": "reuse",
+      "related_existing_source": "SRC-0099",
+      "reason": "保留B05原正式来源整行；本候选不改来源元数据。"
+    },
+    {
+      "candidate_ids": [
+        "WCD10-B05-S12"
+      ],
+      "disposition": "reuse",
+      "related_existing_source": "SRC-0300",
+      "reason": "保留B05原正式来源整行；本候选不改来源元数据。"
+    },
+    {
+      "candidate_ids": [
+        "WCD10-B05-S18"
+      ],
+      "disposition": "new",
+      "reason": "旧B05 deferred dossier保存ELEM直接作品页，尚未以正式SRC登记；由Integrator在独审后分配正式来源ID。"
+    }
+  ],
+  "sources": [
+    {
+      "candidate_id": "WCD10-B05-S07",
+      "title": "Octavio Paz – Bibliography",
+      "author_or_editor": "Nobel Prize Outreach / NobelPrize.org",
+      "url": "https://www.nobelprize.org/prizes/literature/1990/paz/bibliography/",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "Works in Spanish 诗歌与散文书目：Libertad bajo palabra Tezontle 1949、¿Águila o sol? 1951、Piedra de sol Tezontle 1957、La estación violenta FCE 1958、Ladera este (1962-1968) Mortiz 1969、El mono gramático Seix Barral 1974等",
+      "usage": "B05历史实读复用（2026-10-07）：支持书目条目所载El mono gramático/Seix Barral/1974的书目旁证；旧记录中的“本次实读扩展/再次确认”等措辞仅属B05当时访问，不表示2026-10-15访问。来源正式行SRC-0099完整复用。",
+      "reuse_existing_source": "SRC-0099",
+      "disposition": "reuse_existing_source",
+      "historical_access_date": "2026-10-07",
+      "access_context": "Successful B05 historical access; not freshly opened 2026-10-15."
+    },
+    {
+      "candidate_id": "WCD10-B05-S12",
+      "title": "Octavio Paz – Biographical",
+      "author_or_editor": "Nobel Prize Outreach",
+      "url": "https://www.nobelprize.org/prizes/literature/1990/paz/biographical/",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "自传正文（驻法期间写成The Labyrinth of Solitude、1962驻印大使、印度时期著作especially The Grammarian Monkey and East Slope、1968抗议辞职）与自传书目（El laberinto. Cuadernos Americanos 1950，二版FCE 1959；¿Águila o sol? 1951；Ladera Este (1962-1968) Mortiz 1969；El mono gramático Seix Barral 1974；Libertad bajo palabra FCE 1949）",
+      "usage": "B05历史实读复用（2026-10-07）：仅保留书目和印度时期背景旁证；旧记录中的“本次实读扩展”等措辞仅属B05当时访问，不表示2026-10-15访问。来源正式行SRC-0300完整复用。",
+      "reuse_existing_source": "SRC-0300",
+      "disposition": "reuse_existing_source",
+      "historical_access_date": "2026-10-07",
+      "access_context": "Successful B05 historical access; not freshly opened 2026-10-15."
+    },
+    {
+      "candidate_id": "WCD10-B05-S18",
+      "title": "El mono gramático - Detalle de la obra",
+      "author_or_editor": "Enciclopedia de la Literatura en México / FLM (artículo ELEM)",
+      "url": "https://www.elem.mx/obra/datos/8815",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "结构化字段：PRIMERA EDICIÓN=Barcelona, Seix Barral, 1974；Género=Poesía-Libros individuales；Lengua=原文西班牙语；OTRAS EDICIONES 1996/1999/2014/2016。正文全读：'Le singe grammairien…aparece por vez primera en 1972, traducido al francés por Claude Esteban para la colección Les Sentiers de la Création'；'participa de varios géneros…relato de un viaje a Galta…un ensayo…y un poema en prosa'；'Dos escenarios convergentes —el camino de Galta, en la India, y un jardín de Cambridge—'",
+      "usage": "直接支持《El mono gramático》的作品层级、跨文类描述、Galta与Cambridge场景、作者归属及1972法译/1974西语原文版书目注记。仅复用2026-10-07已读记录；2026-10-15重新打开超时，不计为本轮新访问。",
+      "historical_access_date": "2026-10-07",
+      "disposition": "fresh_registration",
+      "access_context": "Successful historical B05 access; parent attempted a fresh reopen on 2026-10-15 and received Timeout."
+    }
+  ],
+  "new_entities": [
+    {
+      "candidate_id": "WCD10-B05-W027",
+      "author_id": "V1-ENT-0059",
+      "entity_type": "work",
+      "original_name": "El mono gramático",
+      "name_zh_candidate": "《语法家猴子》（暂译）",
+      "name_policy": "中文显示名为暂译，未核实正式中文译本；保留西班牙语原题作为身份锚点。",
+      "rationale": "ELEM作品条目支持独立作品对象、跨文类内容和作者归属；保留原B05临时候选WCD10-B05-W03及原四条证据记录。按DEC-070不选择争议字段原子首发年，仅以书目注记记载1972法译本与1974西语原文版。",
+      "created_source_refs": [
+        "WCD10-B05-S18"
+      ],
+      "facts": [
+        {
+          "field": "genre_or_form",
+          "value": "跨文类散文诗（游记·随笔·散文诗）",
+          "source_refs": [
+            "WCD10-B05-S18"
+          ],
+          "fact_candidate_id": "WCD10-B05-F050"
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "据ELEM作品页文章，本书横跨多种文类：既是前往印度加尔塔的旅行记述，也是关于创作过程与旅程的随笔，又是一首探索内在与视像的散文诗；印度加尔塔的小路与剑桥的花园两个场景在其中交汇。",
+          "source_refs": [
+            "WCD10-B05-S18"
+          ],
+          "fact_candidate_id": "WCD10-B05-F051"
+        },
+        {
+          "field": "bibliographic_note",
+          "value": "ELEM记载法语译本 Le singe grammairien（Claude Esteban译，Skira《Les Sentiers de la Création》丛书）于1972年先行出版；西班牙语原文版由Seix Barral于1974年出版。此处分别记录已证版本，不选择 first_publication_year 原子值。",
+          "source_refs": [
+            "WCD10-B05-S18"
+          ],
+          "fact_candidate_id": "WCD10-B05-F052"
+        }
+      ]
+    }
+  ],
+  "existing_facts": [],
+  "extra_relationships": [],
+  "deferred": []
+}

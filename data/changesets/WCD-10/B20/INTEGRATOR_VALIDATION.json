@@ -1,0 +1,161 @@
+{
+  "verdict": "pass",
+  "errors": [],
+  "warnings": [
+    "Mechanical PASS does not admit sources/facts/relations; independent Reviewer remains required."
+  ],
+  "counts": {
+    "source_candidates": 13,
+    "new_entity_candidates": 10,
+    "new_fact_candidates": 45,
+    "new_created_candidates": 10,
+    "extra_relationship_candidates": 0,
+    "deferred": 3
+  },
+  "dedup": [
+    {
+      "candidate_id": "WCD10-B20-S001",
+      "kind": "source",
+      "disposition": "new",
+      "matches": []
+    },
+    {
+      "candidate_id": "WCD10-B20-S002",
+      "kind": "source",
+      "disposition": "new",
+      "matches": []
+    },
+    {
+      "candidate_id": "WCD10-B20-S003",
+      "kind": "source",
+      "disposition": "new",
+      "matches": []
+    },
+    {
+      "candidate_id": "WCD10-B20-S004",
+      "kind": "source",
+      "disposition": "new",
+      "matches": []
+    },
+    {
+      "candidate_id": "WCD10-B20-S005",
+      "kind": "source",
+      "disposition": "new",
+      "matches": []
+    },
+    {
+      "candidate_id": "WCD10-B20-S006",
+      "kind": "source",
+      "disposition": "reuse",
+      "matches": [
+        "SRC-0268"
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B20-S007",
+      "kind": "source",
+      "disposition": "reuse",
+      "matches": [
+        "SRC-0267"
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B20-S101",
+      "kind": "source",
+      "disposition": "reuse",
+      "matches": [
+        "SRC-0271"
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B20-S102",
+      "kind": "source",
+      "disposition": "new",
+      "matches": []
+    },
+    {
+      "candidate_id": "WCD10-B20-S201",
+      "kind": "source",
+      "disposition": "new",
+      "matches": []
+    },
+    {
+      "candidate_id": "WCD10-B20-S202",
+      "kind": "source",
+      "disposition": "new",
+      "matches": []
+    },
+    {
+      "candidate_id": "WCD10-B20-S203",
+      "kind": "source",
+      "disposition": "new",
+      "matches": []
+    },
+    {
+      "candidate_id": "WCD10-B20-S204",
+      "kind": "source",
+      "disposition": "new",
+      "matches": []
+    },
+    {
+      "candidate_id": "WCD10-B20-W001",
+      "kind": "entity",
+      "disposition": "new",
+      "matches": []
+    },
+    {
+      "candidate_id": "WCD10-B20-W002",
+      "kind": "entity",
+      "disposition": "new",
+      "matches": []
+    },
+    {
+      "candidate_id": "WCD10-B20-W101",
+      "kind": "entity",
+      "disposition": "new",
+      "matches": []
+    },
+    {
+      "candidate_id": "WCD10-B20-W102",
+      "kind": "entity",
+      "disposition": "new",
+      "matches": []
+    },
+    {
+      "candidate_id": "WCD10-B20-W103",
+      "kind": "entity",
+      "disposition": "new",
+      "matches": []
+    },
+    {
+      "candidate_id": "WCD10-B20-W104",
+      "kind": "entity",
+      "disposition": "new",
+      "matches": []
+    },
+    {
+      "candidate_id": "WCD10-B20-W105",
+      "kind": "entity",
+      "disposition": "new",
+      "matches": []
+    },
+    {
+      "candidate_id": "WCD10-B20-W106",
+      "kind": "entity",
+      "disposition": "new",
+      "matches": []
+    },
+    {
+      "candidate_id": "WCD10-B20-W201",
+      "kind": "entity",
+      "disposition": "new",
+      "matches": []
+    },
+    {
+      "candidate_id": "WCD10-B20-W202",
+      "kind": "entity",
+      "disposition": "new",
+      "matches": []
+    }
+  ]
+}

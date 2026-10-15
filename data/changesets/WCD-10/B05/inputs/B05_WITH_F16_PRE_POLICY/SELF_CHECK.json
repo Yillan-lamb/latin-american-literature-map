@@ -1,0 +1,140 @@
+{
+  "task_id": "TASK-110",
+  "revision": "R3+F16-INTEGRATION-PREPARATION",
+  "checked_at": "2026-10-03",
+  "status": "CANDIDATE_PENDING_POLICY（W03待USER；F16为独立核支持的候选，并非apply或整批准入）",
+  "copyright_note": "只含自撰释义与短引定位；未复制全文/封面/PDF资产；未含账号、Cookie或密钥。",
+  "checks": [
+    {
+      "check": "作者范围不变",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "coverage=9+9=18",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "source_refs闭包",
+      "result": "PASS",
+      "detail": "bad=无"
+    },
+    {
+      "check": "coverage refs合法",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "profiles/sources一一对应",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "access log覆盖26来源",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "ID格式/唯一/W04未复用",
+      "result": "PASS",
+      "detail": "total=48"
+    },
+    {
+      "check": "R1-02：W03撤book_edition/1972+boundary",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "R1-01：W09简介版本限定",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "R1-05：W10清单=2013封底",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "R1-03：S24/S25元数据亲证一致",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "R1-04：S18/S20/S26年份留空",
+      "result": "PASS",
+      "detail": "{'WCD10-B05-S18': '', 'WCD10-B05-S20': '', 'WCD10-B05-S26': ''}"
+    },
+    {
+      "check": "延续：无research_note事实",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "年份原子值",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "deferred唯一/不撞gap",
+      "result": "PASS",
+      "detail": "14项"
+    },
+    {
+      "check": "主库SHA一致",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "R2机械PASS",
+      "result": "PASS",
+      "detail": "{'source_candidates': 26, 'new_entity_candidates': 9, 'new_fact_candidates': 47, 'new_created_candidates': 9, 'extra_relationship_candidates': 1, 'deferred': 14}"
+    },
+    {
+      "check": "B05/B05_R1/根HANDOFF哈希未变",
+      "result": "PASS",
+      "detail": "两包核对通过"
+    },
+    {
+      "check": "R2-01：W09主题范围限于后续重编/1990定本，矩阵同步",
+      "result": "PASS",
+      "detail": "CANDIDATES 与 EVIDENCE_MATRIX 对应值逐字相同；无“历次版本恒常”断言。"
+    },
+    {
+      "check": "指定候选验证器真实运行",
+      "result": "PASS",
+      "detail": "实施工作区 scripts/validate_wcd10_candidates.py --repo work/codex-worktrees/latin-american-literature-map-wcd10 --report 新包/MECHANICAL_CHECK.json；exit 0，verdict=pass，26 sources/9 entities/47 facts/1 relationship/14 deferred。"
+    },
+    {
+      "check": "ERRATA_CANDIDATE输入SHA",
+      "result": "PASS",
+      "detail": "efcc91016cc1f6cfa840832fa5ecc695349d8e0e9335340afd31dea12266499d"
+    },
+    {
+      "check": "F16追加式候选边界",
+      "result": "PASS",
+      "detail": "仅新增V1-ENT-0154 bibliographic_note；旧FCT-0309行、旧source links与hold无变更；不声称结构化supersession。"
+    },
+    {
+      "check": "deferred与coverage同步",
+      "result": "PASS",
+      "detail": "新增FCT-0309追溯gap并更新旧layering deferred；V1-ENT-0154 coverage说明已同步。"
+    },
+    {
+      "check": "EVIDENCE_MATRIX闭合",
+      "result": "PASS",
+      "detail": "49 entries = 48 facts + 1 relationship；F16行与CANDIDATES精确同步。"
+    },
+    {
+      "check": "政策状态与SQL边界",
+      "result": "PASS",
+      "detail": "W03待USER，候选为CANDIDATE_PENDING_POLICY；无SQL prepare/apply或主库写入。"
+    },
+    {
+      "check": "指定候选验证器真实运行",
+      "result": "FAIL",
+      "detail": "exit 1；validator要求同subject/field冲突显式review，但通用规则仍拒绝V1-ENT-0154/bibliographic_note与旧值并存。保留原始报告，不绕过。"
+    }
+  ],
+  "summary": "结构与差量自检通过；候选验证器实际 FAIL（F16 与旧同字段值冲突），待PM决定门禁处理。"
+}

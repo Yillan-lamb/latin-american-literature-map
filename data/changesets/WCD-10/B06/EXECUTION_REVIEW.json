@@ -1,0 +1,778 @@
+{
+  "date": "2026-10-08",
+  "reviewer": "Codex-parent-independent-execution-review",
+  "verdict": "PASS_BOUNDED_B06_EXECUTION",
+  "database_sha256": "ea9e01b41b4faaef727a6159b6d34ba7d9121a9992fda1cb993c6574f91f6a27",
+  "bindings": {
+    "CANDIDATES.json": "deca46fb7501808ea3769e83823b0c3d0424c165f25a30c92d0629e0a202d990",
+    "INTEGRATION_MAP.json": "369f10c44c161ab58c580271542d8ec5111d6c543d56beb0f476569804d1173f",
+    "REVIEW_GATE.json": "004ff6e28dc494baa94203738594bb28d948606af2a63331121fc6ae899ea4dd"
+  },
+  "candidate_review_actual_assertions": 784,
+  "sql_review_actual_assertions": 439,
+  "actual_database_review_actual_assertions": 22,
+  "parent_actual_checkpoint": {
+    "status": "PASS",
+    "database_sha256": "ea9e01b41b4faaef727a6159b6d34ba7d9121a9992fda1cb993c6574f91f6a27",
+    "master": {
+      "verdict": "pass",
+      "errors": [],
+      "warnings": [],
+      "database": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/work/codex-worktrees/latin-american-literature-map-wcd10/data/master/V1_MASTER.sqlite",
+      "schema_version": "0.4",
+      "tables": {
+        "card_facts": 1349,
+        "card_sources": 752,
+        "content_cards": 380,
+        "entities": 454,
+        "entity_id_map": 452,
+        "fact_sources": 1523,
+        "facts": 1370,
+        "gaps": 194,
+        "legacy_relation_groups": 15,
+        "metadata": 16,
+        "migration_log": 41,
+        "n3_decisions": 4,
+        "relation_hold_evidence": 58,
+        "relation_holds": 51,
+        "relationship_evidence": 521,
+        "relationship_sources": 550,
+        "relationships": 423,
+        "source_holds": 4,
+        "sources": 456
+      },
+      "integrity_check": "ok",
+      "foreign_key_errors": 0
+    },
+    "export_table_formats_equal": {
+      "json": 19,
+      "csv": 19,
+      "xlsx": 19
+    },
+    "existing_rows_preserved": true,
+    "reviewed_sql_exact_replay": true,
+    "public_artifacts_byte_identical": 177,
+    "public_entities": 127,
+    "new_entities_public": 0,
+    "snapshot_boundary": "Research checkpoint only; not a new formal Data release",
+    "independent_review_binding": {
+      "verdict": "PASS",
+      "reviewer": "Codex-parent-independent-SQL-review",
+      "task_id": "TASK-111",
+      "batch_id": "WCD-10-B06",
+      "baseline_database_sha256": "0185f6c81ebe1dce1d761e7e9d8780f65baf1b3ed5769987f92f977fdfbdd868",
+      "migration_name": "0041_wcd10_b06_author_works.sql",
+      "migration_sha256": "5452a4d15545777e7b328e9a469ccc8ea0f00e0c997a354dd01b8d4516b2b8db",
+      "mapping_path": "data/changesets/WCD-10/B06/INTEGRATION_MAP.json",
+      "mapping_sha256": "369f10c44c161ab58c580271542d8ec5111d6c543d56beb0f476569804d1173f"
+    }
+  },
+  "export_repeat_parent_actual_file_hash_checks": 22,
+  "python": {
+    "tests": 154,
+    "executor": "GPT-6 Luna integrator",
+    "exit_code": 0,
+    "raw_log_sha256": "cb7419d7109a0976539360f2c0fa3891acbd7880de318bbf7fdae28941e166d6",
+    "parent_read_actual_log": true,
+    "parent_reran_full_suite": false
+  },
+  "browser": {
+    "reviewer": "Codex-parent-independent-browser-evidence-review",
+    "date": "2026-10-08",
+    "verdict": "PASS_ACTUAL_BROWSER_EVIDENCE",
+    "actual_records": 64,
+    "passed": 60,
+    "skipped": 4,
+    "skip_basis": "Only two WCD08 preview tests per project; production preview disabled; test source beforeEach explicit test.skip condition read",
+    "unexpected": 0,
+    "flaky": 0,
+    "reports": {
+      "B06_PLAYWRIGHT_DESKTOP.stdout.json": {
+        "sha256": "3a506e7891be207b37b9fa42de3943cadb449b9fac4f47de657ea9142f86c216",
+        "stats": {
+          "startTime": "2026-10-08T04:19:03.112Z",
+          "duration": 25235.158,
+          "expected": 30,
+          "skipped": 2,
+          "unexpected": 0,
+          "flaky": 0
+        },
+        "errors": []
+      },
+      "B06_PLAYWRIGHT_MOBILE.stdout.json": {
+        "sha256": "f9194ea8fc77531d47469bf0aa6e116fb8588e0e8cd442e5247dedd1c19b7086",
+        "stats": {
+          "startTime": "2026-10-08T04:22:10.282Z",
+          "duration": 20571.236,
+          "expected": 30,
+          "skipped": 2,
+          "unexpected": 0,
+          "flaky": 0
+        },
+        "errors": []
+      }
+    },
+    "source_sha256": {
+      "tests/browser/public-product.spec.cjs": "2b604d1e4191bcbecd390ae6a3dbc62e8e2584e7a69ad1e50b581ccd21d92fd9",
+      "tests/browser/anecdote-preview.spec.cjs": "362b1aacd9dcf260bc9298c86b08783cbd89bd4b7a707f19c1a2c579dcfee3d6",
+      "playwright.config.cjs": "ddb69fbd76bd34cb94aa6108559c0e0cdcce057730e8d84ce58d5fe8c18f78de"
+    },
+    "records": [
+      {
+        "project": "chromium-desktop",
+        "file": "anecdote-preview.spec.cjs",
+        "line": 12,
+        "title": "author page renders anecdote section with expandable story",
+        "status": "skipped",
+        "result_statuses": [
+          "skipped"
+        ]
+      },
+      {
+        "project": "chromium-desktop",
+        "file": "anecdote-preview.spec.cjs",
+        "line": 27,
+        "title": "anecdote detail expands with sources panel and home page has no section",
+        "status": "skipped",
+        "result_statuses": [
+          "skipped"
+        ]
+      },
+      {
+        "project": "chromium-desktop",
+        "file": "public-product.spec.cjs",
+        "line": 37,
+        "title": "home, map, country and mobile navigation",
+        "status": "expected",
+        "result_statuses": [
+          "passed"
+        ]
+      },
+      {
+        "project": "chromium-desktop",
+        "file": "public-product.spec.cjs",
+        "line": 84,
+        "title": "home hero renders before the map geometry finishes loading",
+        "status": "expected",
+        "result_statuses": [
+          "passed"
+        ]
+      },
+      {
+        "project": "chromium-desktop",
+        "file": "public-product.spec.cjs",
+        "line": 101,
+        "title": "home hero is readable while public data is still loading",
+        "status": "expected",
+        "result_statuses": [
+          "passed"
+        ]
+      },
+      {
+        "project": "chromium-desktop",
+        "file": "public-product.spec.cjs",
+        "line": 120,
+        "title": "a newly public L1 country is promoted with its projected Chinese label",
+        "status": "expected",
+        "result_statuses": [
+          "passed"
+        ]
+      },
+      {
+        "project": "chromium-desktop",
+        "file": "public-product.spec.cjs",
+        "line": 151,
+        "title": "home moves catalogs to dedicated navigation pages and places anecdotes after reading paths",
+        "status": "expected",
+        "result_statuses": [
+          "passed"
+        ]
+      },
+      {
+        "project": "chromium-desktop",
+        "file": "public-product.spec.cjs",
+        "line": 200,
+        "title": "reader prose and expandable research evidence stay on opposite sides of the boundary",
+        "status": "expected",
+        "result_statuses": [
+          "passed"
+        ]
+      },
+      {
+        "project": "chromium-desktop",
+        "file": "public-product.spec.cjs",
+        "line": 230,
+        "title": "map selections update literary context without immediate navigation",
+        "status": "expected",
+        "result_statuses": [
+          "passed"
+        ]
+      },
+      {
+        "project": "chromium-desktop",
+        "file": "public-product.spec.cjs",
+        "line": 251,
+        "title": "fictional-space selection synchronizes its parent country",
+        "status": "expected",
+        "result_statuses": [
+          "passed"
+        ]
+      },
+      {
+        "project": "chromium-desktop",
+        "file": "public-product.spec.cjs",
+        "line": 263,
+        "title": "country context aggregates works from fictional child spaces",
+        "status": "expected",
+        "result_statuses": [
+          "passed"
+        ]
+      },
+      {
+        "project": "chromium-desktop",
+        "file": "public-product.spec.cjs",
+        "line": 275,
+        "title": "map filter falls back from an invisible place to its country context",
+        "status": "expected",
+        "result_statuses": [
+          "passed"
+        ]
+      },
+      {
+        "project": "chromium-desktop",
+        "file": "public-product.spec.cjs",
+        "line": 293,
+        "title": "map selection supports keyboard activation and announces context",
+        "status": "expected",
+        "result_statuses": [
+          "passed"
+        ]
+      },
+      {
+        "project": "chromium-desktop",
+        "file": "public-product.spec.cjs",
+        "line": 311,
+        "title": "places, author, work, sources and navigation",
+        "status": "expected",
+        "result_statuses": [
+          "passed"
+        ]
+      },
+      {
+        "project": "chromium-desktop",
+        "file": "public-product.spec.cjs",
+        "line": 333,
+        "title": "formal author archive has credited portraits and anecdotes below four editorial chapters",
+        "status": "expected",
+        "result_statuses": [
+          "passed"
+        ]
+      },
+      {
+        "project": "chromium-desktop",
+        "file": "public-product.spec.cjs",
+        "line": 351,
+        "title": "withdrawn Sabato portrait is absent from the public bundle and falls back to type",
+        "status": "expected",
+        "result_statuses": [
+          "passed"
+        ]
+      },
+      {
+        "project": "chromium-desktop",
+        "file": "public-product.spec.cjs",
+        "line": 358,
+        "title": "all public collections use the literary work archive rather than a generic node",
+        "status": "expected",
+        "result_statuses": [
+          "passed"
+        ]
+      },
+      {
+        "project": "chromium-desktop",
+        "file": "public-product.spec.cjs",
+        "line": 376,
+        "title": "formal editorial layouts stay within a 320px viewport",
+        "status": "expected",
+        "result_statuses": [
+          "passed"
+        ]
+      },
+      {
+        "project": "chromium-desktop",
+        "file": "public-product.spec.cjs",
+        "line": 390,
+        "title": "work archive does not download map geometry before rendering",
+        "status": "expected",
+        "result_statuses": [
+          "passed"
+        ]
+      },
+      {
+        "project": "chromium-desktop",
+        "file": "public-product.spec.cjs",
+        "line": 400,
+        "title": "approved WCD-08 anecdotes render only on public author pages",
+        "status": "expected",
+        "result_statuses": [
+          "passed"
+        ]
+      },
+      {
+        "project": "chromium-desktop",
+        "file": "public-product.spec.cjs",
+        "line": 436,
+        "title": "search expands formal relationships",
+        "status": "expected",
+        "result_statuses": [
+          "passed"
+        ]
+      },
+      {
+        "project": "chromium-desktop",
+        "file": "public-product.spec.cjs",
+        "line": 443,
+        "title": "search and timeline render the full public projection with composable year windows",
+        "status": "expected",
+        "result_statuses": [
+          "passed"
+        ]
+      },
+      {
+        "project": "chromium-desktop",
+        "file": "public-product.spec.cjs",
+        "line": 474,
+        "title": "timeline, semantic routes, metadata and 404",
+        "status": "expected",
+        "result_statuses": [
+          "passed"
+        ]
+      },
+      {
+        "project": "chromium-desktop",
+        "file": "public-product.spec.cjs",
+        "line": 488,
+        "title": "about page explains the reader journey",
+        "status": "expected",
+        "result_statuses": [
+          "passed"
+        ]
+      },
+      {
+        "project": "chromium-desktop",
+        "file": "public-product.spec.cjs",
+        "line": 504,
+        "title": "required author, work and place samples resolve through the public layer",
+        "status": "expected",
+        "result_statuses": [
+          "passed"
+        ]
+      },
+      {
+        "project": "chromium-desktop",
+        "file": "public-product.spec.cjs",
+        "line": 536,
+        "title": "audited WEB-CE-B01/B02/B03/B04/B05 authors, works, collections and Geo are searchable",
+        "status": "expected",
+        "result_statuses": [
+          "passed"
+        ]
+      },
+      {
+        "project": "chromium-desktop",
+        "file": "public-product.spec.cjs",
+        "line": 576,
+        "title": "WEB-CE-B06-B10 obey the public boundary and remain fully testable in USER_REVIEW preview",
+        "status": "expected",
+        "result_statuses": [
+          "passed"
+        ]
+      },
+      {
+        "project": "chromium-desktop",
+        "file": "public-product.spec.cjs",
+        "line": 622,
+        "title": "WEB-CE-B11-B15 preserve the review boundary and expose complete preview routes",
+        "status": "expected",
+        "result_statuses": [
+          "passed"
+        ]
+      },
+      {
+        "project": "chromium-desktop",
+        "file": "public-product.spec.cjs",
+        "line": 658,
+        "title": "WEB-CE-B16 preserves the review boundary and exposes complete preview routes",
+        "status": "expected",
+        "result_statuses": [
+          "passed"
+        ]
+      },
+      {
+        "project": "chromium-desktop",
+        "file": "public-product.spec.cjs",
+        "line": 702,
+        "title": "WEB-CE-B17 preserves the review boundary and exposes complete preview routes",
+        "status": "expected",
+        "result_statuses": [
+          "passed"
+        ]
+      },
+      {
+        "project": "chromium-desktop",
+        "file": "public-product.spec.cjs",
+        "line": 745,
+        "title": "keyboard focus and links stay inside the public scope",
+        "status": "expected",
+        "result_statuses": [
+          "passed"
+        ]
+      },
+      {
+        "project": "chromium-desktop",
+        "file": "public-product.spec.cjs",
+        "line": 769,
+        "title": "every sitemap route renders public reader text without governance language",
+        "status": "expected",
+        "result_statuses": [
+          "passed"
+        ]
+      },
+      {
+        "project": "chromium-mobile",
+        "file": "anecdote-preview.spec.cjs",
+        "line": 12,
+        "title": "author page renders anecdote section with expandable story",
+        "status": "skipped",
+        "result_statuses": [
+          "skipped"
+        ]
+      },
+      {
+        "project": "chromium-mobile",
+        "file": "anecdote-preview.spec.cjs",
+        "line": 27,
+        "title": "anecdote detail expands with sources panel and home page has no section",
+        "status": "skipped",
+        "result_statuses": [
+          "skipped"
+        ]
+      },
+      {
+        "project": "chromium-mobile",
+        "file": "public-product.spec.cjs",
+        "line": 37,
+        "title": "home, map, country and mobile navigation",
+        "status": "expected",
+        "result_statuses": [
+          "passed"
+        ]
+      },
+      {
+        "project": "chromium-mobile",
+        "file": "public-product.spec.cjs",
+        "line": 84,
+        "title": "home hero renders before the map geometry finishes loading",
+        "status": "expected",
+        "result_statuses": [
+          "passed"
+        ]
+      },
+      {
+        "project": "chromium-mobile",
+        "file": "public-product.spec.cjs",
+        "line": 101,
+        "title": "home hero is readable while public data is still loading",
+        "status": "expected",
+        "result_statuses": [
+          "passed"
+        ]
+      },
+      {
+        "project": "chromium-mobile",
+        "file": "public-product.spec.cjs",
+        "line": 120,
+        "title": "a newly public L1 country is promoted with its projected Chinese label",
+        "status": "expected",
+        "result_statuses": [
+          "passed"
+        ]
+      },
+      {
+        "project": "chromium-mobile",
+        "file": "public-product.spec.cjs",
+        "line": 151,
+        "title": "home moves catalogs to dedicated navigation pages and places anecdotes after reading paths",
+        "status": "expected",
+        "result_statuses": [
+          "passed"
+        ]
+      },
+      {
+        "project": "chromium-mobile",
+        "file": "public-product.spec.cjs",
+        "line": 200,
+        "title": "reader prose and expandable research evidence stay on opposite sides of the boundary",
+        "status": "expected",
+        "result_statuses": [
+          "passed"
+        ]
+      },
+      {
+        "project": "chromium-mobile",
+        "file": "public-product.spec.cjs",
+        "line": 230,
+        "title": "map selections update literary context without immediate navigation",
+        "status": "expected",
+        "result_statuses": [
+          "passed"
+        ]
+      },
+      {
+        "project": "chromium-mobile",
+        "file": "public-product.spec.cjs",
+        "line": 251,
+        "title": "fictional-space selection synchronizes its parent country",
+        "status": "expected",
+        "result_statuses": [
+          "passed"
+        ]
+      },
+      {
+        "project": "chromium-mobile",
+        "file": "public-product.spec.cjs",
+        "line": 263,
+        "title": "country context aggregates works from fictional child spaces",
+        "status": "expected",
+        "result_statuses": [
+          "passed"
+        ]
+      },
+      {
+        "project": "chromium-mobile",
+        "file": "public-product.spec.cjs",
+        "line": 275,
+        "title": "map filter falls back from an invisible place to its country context",
+        "status": "expected",
+        "result_statuses": [
+          "passed"
+        ]
+      },
+      {
+        "project": "chromium-mobile",
+        "file": "public-product.spec.cjs",
+        "line": 293,
+        "title": "map selection supports keyboard activation and announces context",
+        "status": "expected",
+        "result_statuses": [
+          "passed"
+        ]
+      },
+      {
+        "project": "chromium-mobile",
+        "file": "public-product.spec.cjs",
+        "line": 311,
+        "title": "places, author, work, sources and navigation",
+        "status": "expected",
+        "result_statuses": [
+          "passed"
+        ]
+      },
+      {
+        "project": "chromium-mobile",
+        "file": "public-product.spec.cjs",
+        "line": 333,
+        "title": "formal author archive has credited portraits and anecdotes below four editorial chapters",
+        "status": "expected",
+        "result_statuses": [
+          "passed"
+        ]
+      },
+      {
+        "project": "chromium-mobile",
+        "file": "public-product.spec.cjs",
+        "line": 351,
+        "title": "withdrawn Sabato portrait is absent from the public bundle and falls back to type",
+        "status": "expected",
+        "result_statuses": [
+          "passed"
+        ]
+      },
+      {
+        "project": "chromium-mobile",
+        "file": "public-product.spec.cjs",
+        "line": 358,
+        "title": "all public collections use the literary work archive rather than a generic node",
+        "status": "expected",
+        "result_statuses": [
+          "passed"
+        ]
+      },
+      {
+        "project": "chromium-mobile",
+        "file": "public-product.spec.cjs",
+        "line": 376,
+        "title": "formal editorial layouts stay within a 320px viewport",
+        "status": "expected",
+        "result_statuses": [
+          "passed"
+        ]
+      },
+      {
+        "project": "chromium-mobile",
+        "file": "public-product.spec.cjs",
+        "line": 390,
+        "title": "work archive does not download map geometry before rendering",
+        "status": "expected",
+        "result_statuses": [
+          "passed"
+        ]
+      },
+      {
+        "project": "chromium-mobile",
+        "file": "public-product.spec.cjs",
+        "line": 400,
+        "title": "approved WCD-08 anecdotes render only on public author pages",
+        "status": "expected",
+        "result_statuses": [
+          "passed"
+        ]
+      },
+      {
+        "project": "chromium-mobile",
+        "file": "public-product.spec.cjs",
+        "line": 436,
+        "title": "search expands formal relationships",
+        "status": "expected",
+        "result_statuses": [
+          "passed"
+        ]
+      },
+      {
+        "project": "chromium-mobile",
+        "file": "public-product.spec.cjs",
+        "line": 443,
+        "title": "search and timeline render the full public projection with composable year windows",
+        "status": "expected",
+        "result_statuses": [
+          "passed"
+        ]
+      },
+      {
+        "project": "chromium-mobile",
+        "file": "public-product.spec.cjs",
+        "line": 474,
+        "title": "timeline, semantic routes, metadata and 404",
+        "status": "expected",
+        "result_statuses": [
+          "passed"
+        ]
+      },
+      {
+        "project": "chromium-mobile",
+        "file": "public-product.spec.cjs",
+        "line": 488,
+        "title": "about page explains the reader journey",
+        "status": "expected",
+        "result_statuses": [
+          "passed"
+        ]
+      },
+      {
+        "project": "chromium-mobile",
+        "file": "public-product.spec.cjs",
+        "line": 504,
+        "title": "required author, work and place samples resolve through the public layer",
+        "status": "expected",
+        "result_statuses": [
+          "passed"
+        ]
+      },
+      {
+        "project": "chromium-mobile",
+        "file": "public-product.spec.cjs",
+        "line": 536,
+        "title": "audited WEB-CE-B01/B02/B03/B04/B05 authors, works, collections and Geo are searchable",
+        "status": "expected",
+        "result_statuses": [
+          "passed"
+        ]
+      },
+      {
+        "project": "chromium-mobile",
+        "file": "public-product.spec.cjs",
+        "line": 576,
+        "title": "WEB-CE-B06-B10 obey the public boundary and remain fully testable in USER_REVIEW preview",
+        "status": "expected",
+        "result_statuses": [
+          "passed"
+        ]
+      },
+      {
+        "project": "chromium-mobile",
+        "file": "public-product.spec.cjs",
+        "line": 622,
+        "title": "WEB-CE-B11-B15 preserve the review boundary and expose complete preview routes",
+        "status": "expected",
+        "result_statuses": [
+          "passed"
+        ]
+      },
+      {
+        "project": "chromium-mobile",
+        "file": "public-product.spec.cjs",
+        "line": 658,
+        "title": "WEB-CE-B16 preserves the review boundary and exposes complete preview routes",
+        "status": "expected",
+        "result_statuses": [
+          "passed"
+        ]
+      },
+      {
+        "project": "chromium-mobile",
+        "file": "public-product.spec.cjs",
+        "line": 702,
+        "title": "WEB-CE-B17 preserves the review boundary and exposes complete preview routes",
+        "status": "expected",
+        "result_statuses": [
+          "passed"
+        ]
+      },
+      {
+        "project": "chromium-mobile",
+        "file": "public-product.spec.cjs",
+        "line": 745,
+        "title": "keyboard focus and links stay inside the public scope",
+        "status": "expected",
+        "result_statuses": [
+          "passed"
+        ]
+      },
+      {
+        "project": "chromium-mobile",
+        "file": "public-product.spec.cjs",
+        "line": 769,
+        "title": "every sitemap route renders public reader text without governance language",
+        "status": "expected",
+        "result_statuses": [
+          "passed"
+        ]
+      }
+    ],
+    "review_boundary": "Parent inspected actual final two full project reports and assertion source; did not rerun browsers. Earlier environment failures retained."
+  },
+  "historical_failures_retained": true,
+  "cause_of_initial_generated_copy_or_HTTP_failures": "NOT_ESTABLISHED",
+  "governance": {
+    "TASKS": "updated",
+    "CHANGELOG": "updated, prior entries preserved",
+    "README_masterREADME_batch_audit_validation": "updated",
+    "DECISIONS": "N/A existing DEC060/069, no new policy",
+    "Charter": "frozen unchanged",
+    "Spec": "N/A existing scope/mandatory re-entry retained",
+    "PM_HANDOFF": "updated"
+  },
+  "stage_progress": "6/21; B07 inventory/research only; stage not complete",
+  "w03_obligation": "USER policy and independently reviewed actual re-entry before TASK127 final PASS",
+  "public_or_git_release_actions": false
+}

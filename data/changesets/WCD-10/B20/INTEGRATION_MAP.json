@@ -1,0 +1,3960 @@
+{
+  "task_id": "TASK-125",
+  "batch_id": "WCD-10-B20",
+  "candidate_review": {
+    "verdict": "PASS",
+    "task_id": "TASK-125",
+    "batch_id": "WCD-10-B20",
+    "reviewer": "Codex-parent-independent-review",
+    "reviewed_at": "2026-10-14",
+    "checkpoint_date": "2026-10-14",
+    "baseline_database_sha256": "264385afd29d43f6d160d852a9dc6ad685fa2bd5fa25e3e7d7575168ebb72032",
+    "review_scope": "DEC-070 one pragmatic source/object/description batch review; no academic completeness claim; prepare only",
+    "packages": [
+      {
+        "file": "CANDIDATES.json",
+        "sha256": "5da419430a9f10a90c178ea50b19e709ecd1d3c52ebacd8e3f95d5b59951c603",
+        "verdict": "PASS"
+      }
+    ],
+    "coverage_sha256": "c9c5775347ba3094dfd09b974767a4ba71c3e40f65b304c5c1a7202fc1b0f827",
+    "registration_sha256": "1801cd01b03f09c1299b879762e3b4d8868a449bcc29f1d52bec300f1a8c5d60",
+    "evidence_matrix_sha256": "bf703c84c7ebe83128a3f14dc76682a642aa49fec1c9578ce4ab726dad44a82c",
+    "merge_provenance_sha256": "bf0bfde38a2e74cd7f77a3cf881a1db8e6fef3eb55ab3cefaeaa839ed8d312a2",
+    "builder_sha256": "23a2a5e1b1cf27759ce71faf61524ef83b5777083e4a27c98ff6cf1eab78207b",
+    "parent_review_sha256": "9890d90f49573fbb72d2f5a10cacd394236f0f939784ebddbf7edd94b1b28e4d",
+    "coauthor_reentry_candidate_sha256": "9bb86a2fc6e3666974058c5571c38bef0b5c0d705c56b9bea436ea70d403af26",
+    "coauthor_reentry_review_sha256": "5cb6e86e98865276286997726bc206b4fe48dccbaa696b80aaa3d46213112cd9"
+  },
+  "registration_sha256": "1801cd01b03f09c1299b879762e3b4d8868a449bcc29f1d52bec300f1a8c5d60",
+  "migration_status": "PREPARED_PENDING_INDEPENDENT_SQL_REVIEW",
+  "id_map": {
+    "WCD10-B20-S001": "SRC-0784",
+    "WCD10-B20-S002": "SRC-0785",
+    "WCD10-B20-S003": "SRC-0786",
+    "WCD10-B20-S004": "SRC-0787",
+    "WCD10-B20-S005": "SRC-0788",
+    "WCD10-B20-S006": "SRC-0268",
+    "WCD10-B20-S007": "SRC-0267",
+    "WCD10-B20-S101": "SRC-0271",
+    "WCD10-B20-S102": "SRC-0789",
+    "WCD10-B20-S201": "SRC-0790",
+    "WCD10-B20-S202": "SRC-0791",
+    "WCD10-B20-S203": "SRC-0792",
+    "WCD10-B20-S204": "SRC-0793",
+    "WCD10-B20-W001": "V1-ENT-0780",
+    "WCD10-B20-W002": "V1-ENT-0781",
+    "WCD10-B20-W101": "V1-ENT-0782",
+    "WCD10-B20-W102": "V1-ENT-0783",
+    "WCD10-B20-W103": "V1-ENT-0784",
+    "WCD10-B20-W104": "V1-ENT-0785",
+    "WCD10-B20-W105": "V1-ENT-0786",
+    "WCD10-B20-W106": "V1-ENT-0787",
+    "WCD10-B20-W201": "V1-ENT-0788",
+    "WCD10-B20-W202": "V1-ENT-0789",
+    "WCD10-B20-W001-F01": "V1-FCT-2617",
+    "WCD10-B20-W001-F02": "V1-FCT-2618",
+    "WCD10-B20-W001-F03": "V1-FCT-2619",
+    "WCD10-B20-W002-F01": "V1-FCT-2620",
+    "WCD10-B20-W002-F02": "V1-FCT-2621",
+    "WCD10-B20-W002-F03": "V1-FCT-2622",
+    "WCD10-B20-W101-F01": "V1-FCT-2623",
+    "WCD10-B20-W101-F02": "V1-FCT-2624",
+    "WCD10-B20-W101-F03": "V1-FCT-2625",
+    "WCD10-B20-W101-F04": "V1-FCT-2626",
+    "WCD10-B20-W102-F01": "V1-FCT-2627",
+    "WCD10-B20-W102-F02": "V1-FCT-2628",
+    "WCD10-B20-W102-F03": "V1-FCT-2629",
+    "WCD10-B20-W102-F04": "V1-FCT-2630",
+    "WCD10-B20-W103-F01": "V1-FCT-2631",
+    "WCD10-B20-W103-F02": "V1-FCT-2632",
+    "WCD10-B20-W103-F03": "V1-FCT-2633",
+    "WCD10-B20-W103-F04": "V1-FCT-2634",
+    "WCD10-B20-W104-F01": "V1-FCT-2635",
+    "WCD10-B20-W104-F02": "V1-FCT-2636",
+    "WCD10-B20-W104-F03": "V1-FCT-2637",
+    "WCD10-B20-W104-F04": "V1-FCT-2638",
+    "WCD10-B20-W105-F01": "V1-FCT-2639",
+    "WCD10-B20-W105-F02": "V1-FCT-2640",
+    "WCD10-B20-W105-F03": "V1-FCT-2641",
+    "WCD10-B20-W105-F04": "V1-FCT-2642",
+    "WCD10-B20-W106-F01": "V1-FCT-2643",
+    "WCD10-B20-W106-F02": "V1-FCT-2644",
+    "WCD10-B20-W106-F03": "V1-FCT-2645",
+    "WCD10-B20-W106-F04": "V1-FCT-2646",
+    "WCD10-B20-W201-F01": "V1-FCT-2647",
+    "WCD10-B20-W201-F02": "V1-FCT-2648",
+    "WCD10-B20-W201-F03": "V1-FCT-2649",
+    "WCD10-B20-W202-F01": "V1-FCT-2650",
+    "WCD10-B20-W202-F02": "V1-FCT-2651",
+    "WCD10-B20-W202-F03": "V1-FCT-2652",
+    "WCD10-B20-F001": "V1-FCT-2653",
+    "WCD10-B20-F002": "V1-FCT-2654",
+    "WCD10-B20-F003": "V1-FCT-2655",
+    "WCD10-B20-F181": "V1-FCT-2656",
+    "WCD10-B20-F182": "V1-FCT-2657",
+    "WCD10-B20-F183": "V1-FCT-2658",
+    "WCD10-B20-F207": "V1-FCT-2659",
+    "WCD10-B20-F208": "V1-FCT-2660",
+    "WCD10-B20-F209": "V1-FCT-2661",
+    "WCD10-B20-W001-CREATED": "V1-REL-0752",
+    "WCD10-B20-W002-CREATED": "V1-REL-0753",
+    "WCD10-B20-W101-CREATED": "V1-REL-0754",
+    "WCD10-B20-W102-CREATED": "V1-REL-0755",
+    "WCD10-B20-W103-CREATED": "V1-REL-0756",
+    "WCD10-B20-W104-CREATED": "V1-REL-0757",
+    "WCD10-B20-W105-CREATED": "V1-REL-0758",
+    "WCD10-B20-W106-CREATED": "V1-REL-0759",
+    "WCD10-B20-W201-CREATED": "V1-REL-0760",
+    "WCD10-B20-W202-CREATED": "V1-REL-0761",
+    "WCD10-B20-R101": "V1-REL-0762"
+  },
+  "coverage_sha256": "c9c5775347ba3094dfd09b974767a4ba71c3e40f65b304c5c1a7202fc1b0f827",
+  "coverage": {
+    "task_id": "TASK-125",
+    "batch_id": "WCD-10-B20",
+    "baseline_database_sha256": "264385afd29d43f6d160d852a9dc6ad685fa2bd5fa25e3e7d7575168ebb72032",
+    "scope": "Three-author B20 coverage; per-author scope, profiles and complete old closures are retained in source rows and merge provenance.",
+    "author_ids": [
+      "V1-ENT-0346",
+      "V1-ENT-0358",
+      "V1-ENT-0359"
+    ],
+    "author_descriptions": {},
+    "research_policy_by_author": {
+      "V1-ENT-0346": {
+        "author_id": "V1-ENT-0346",
+        "status": "institutional_commentary",
+        "remaining": "本轮以官方机构书目、作者官网和Cervantes文化中心评论支持主要作品、书目与有界简介；不声明学术覆盖或全集完备。"
+      },
+      "V1-ENT-0358": {
+        "author_id": "V1-ENT-0358",
+        "status": "catalog_only",
+        "remaining": "依据ABL直接书目与传记补充主要作品和有界描述；未声称全集完备或学术研究覆盖。"
+      },
+      "V1-ENT-0359": {
+        "author_id": "V1-ENT-0359",
+        "status": "institutional_commentary",
+        "remaining": "依据厄瓜多尔国家/文化机构馆藏目录及Casa de la Cultura历史评论文章补充主要作品与有限描述；未声称全集完备或学术研究覆盖。"
+      }
+    },
+    "author_context_by_id": {},
+    "author_context": [],
+    "author_scope_by_id": {
+      "V1-ENT-0346": {
+        "author_id": "V1-ENT-0346",
+        "scope": "完整核查冻结B20中该作者全部3个已关联作品实体及来源闭包；新增两部主要小说；不进行全集盘点。"
+      },
+      "V1-ENT-0358": {
+        "existing_linked_work_ids": [
+          "V1-ENT-0361",
+          "V1-ENT-0362",
+          "V1-ENT-0363"
+        ],
+        "candidate_work_ids": [
+          "WCD10-B20-W101",
+          "WCD10-B20-W102",
+          "WCD10-B20-W103",
+          "WCD10-B20-W104",
+          "WCD10-B20-W105",
+          "WCD10-B20-W106"
+        ]
+      },
+      "V1-ENT-0359": {
+        "existing_linked_work_ids": [
+          "V1-ENT-0364",
+          "V1-ENT-0365",
+          "V1-ENT-0366"
+        ],
+        "candidate_work_ids": [
+          "WCD10-B20-W201",
+          "WCD10-B20-W202"
+        ]
+      }
+    },
+    "author_results_by_id": {},
+    "author_snapshots_by_id": {},
+    "objects": [
+      {
+        "object_ref": "V1-ENT-0353",
+        "entity": {
+          "entity_id": "V1-ENT-0353",
+          "entity_type": "collection",
+          "name_zh": "《错爱》",
+          "original_name": "Los amores equivocados",
+          "canonical_status": "candidate",
+          "origin_count": "1",
+          "origin_refs": "CAND-B16-PERI-ROSSI-W01",
+          "normalization_basis": "Cervantes chronology lists the 2015 relatos title; Chinese label is provisional",
+          "issue_codes": "NONE"
+        },
+        "bibliography": "entity_layer=collection（SRC-0268）；first_publication_year=2015（SRC-0268）；genre_or_form=短篇小说集（SRC-0268）",
+        "description": "### 《错爱》｜Los amores equivocados — source-backed 短篇小说集 entry; original title retained.",
+        "research_status": "institutional_commentary",
+        "research_refs": [
+          "SRC-0268",
+          "WCD10-B20-S003"
+        ],
+        "old_facts": [
+          {
+            "fact": {
+              "fact_id": "V1-FCT-0953",
+              "origin_material_id": "WEB-CE-B16",
+              "card_id": "V1-CARD-0241",
+              "subject_id": "V1-ENT-0353",
+              "fact_field": "entity_layer",
+              "value_text": "collection",
+              "material_class": "metadata",
+              "origin_id": "SRC-0268",
+              "confidence": "high",
+              "admission_status": "candidate_for_staging_review",
+              "usage_note": "Entity layer is recorded as collection."
+            },
+            "source_chain": [
+              {
+                "fact_id": "V1-FCT-0953",
+                "source_id": "SRC-0268",
+                "source_title": "Cristina Peri Rossi. Cronología de obras"
+              }
+            ]
+          },
+          {
+            "fact": {
+              "fact_id": "V1-FCT-0954",
+              "origin_material_id": "WEB-CE-B16",
+              "card_id": "V1-CARD-0241",
+              "subject_id": "V1-ENT-0353",
+              "fact_field": "first_publication_year",
+              "value_text": "2015",
+              "material_class": "bibliographic",
+              "origin_id": "SRC-0268",
+              "confidence": "high",
+              "admission_status": "candidate_for_staging_review",
+              "usage_note": "Cited source dates the title to 2015."
+            },
+            "source_chain": [
+              {
+                "fact_id": "V1-FCT-0954",
+                "source_id": "SRC-0268",
+                "source_title": "Cristina Peri Rossi. Cronología de obras"
+              }
+            ]
+          },
+          {
+            "fact": {
+              "fact_id": "V1-FCT-0955",
+              "origin_material_id": "WEB-CE-B16",
+              "card_id": "V1-CARD-0241",
+              "subject_id": "V1-ENT-0353",
+              "fact_field": "genre_or_form",
+              "value_text": "短篇小说集",
+              "material_class": "bibliographic",
+              "origin_id": "SRC-0268",
+              "confidence": "high",
+              "admission_status": "candidate_for_staging_review",
+              "usage_note": "Cited source supports the conservative form label 短篇小说集."
+            },
+            "source_chain": [
+              {
+                "fact_id": "V1-FCT-0955",
+                "source_id": "SRC-0268",
+                "source_title": "Cristina Peri Rossi. Cronología de obras"
+              }
+            ]
+          }
+        ],
+        "cards": [
+          {
+            "card_id": "V1-CARD-0241",
+            "origin_card_id": "",
+            "subject_id": "V1-ENT-0353",
+            "card_type": "collection",
+            "title_zh": "《错爱》",
+            "author_label": "克里斯蒂娜·佩里·罗西",
+            "original_title": "Los amores equivocados",
+            "country_or_region": "乌拉圭",
+            "language": "es",
+            "period_bucket": "2015",
+            "genre_or_form": "短篇小说集",
+            "input_layer": "WEB-CE-B16",
+            "source_minimum_status": "meets",
+            "issue_code": "NONE",
+            "content_markdown": "### 《错爱》｜Los amores equivocados — source-backed 短篇小说集 entry; original title retained."
+          }
+        ],
+        "card_facts": [
+          {
+            "card_id": "V1-CARD-0241",
+            "fact_id": "V1-FCT-0953",
+            "admission_status": "candidate_for_staging_review"
+          },
+          {
+            "card_id": "V1-CARD-0241",
+            "fact_id": "V1-FCT-0954",
+            "admission_status": "candidate_for_staging_review"
+          },
+          {
+            "card_id": "V1-CARD-0241",
+            "fact_id": "V1-FCT-0955",
+            "admission_status": "candidate_for_staging_review"
+          }
+        ],
+        "card_sources": [
+          {
+            "card_source_id": "V1-CS-0472",
+            "origin_matrix_id": "",
+            "card_id": "V1-CARD-0241",
+            "source_id": "SRC-0268",
+            "source_level": "B",
+            "source_role": "both",
+            "bibliographic_support": "yes",
+            "research_support": "yes",
+            "independent_source_key": "SRC-0268",
+            "usage_status": "used",
+            "issue_code": "NONE"
+          }
+        ],
+        "relations": [
+          {
+            "relationship_id": "V1-REL-0278",
+            "origin_layer": "WEB-CE-B16",
+            "origin_relation_group_id": "V1-REL-0278",
+            "subject_id": "V1-ENT-0346",
+            "relation_type": "CREATED",
+            "object_id": "V1-ENT-0353",
+            "description_zh": "克里斯蒂娜·佩里·罗西创作《错爱》（Los amores equivocados）",
+            "confidence": "high",
+            "review_status": "accepted",
+            "upstream_review_status": "WEB-CE-B16",
+            "evidence_count": "1",
+            "issue_code": "NONE"
+          }
+        ],
+        "relationship_sources": [
+          {
+            "relationship_id": "V1-REL-0278",
+            "source_id": "SRC-0268"
+          }
+        ],
+        "relationship_evidence": [
+          {
+            "evidence_id": "V1-EV-0303",
+            "relationship_id": "V1-REL-0278",
+            "origin_evidence_id": "V1-REL-0278",
+            "source_id": "SRC-0268",
+            "source_title": "Cristina Peri Rossi. Cronología de obras",
+            "locator": "",
+            "evidence_note": "Cristina Peri Rossi. Cronología de obras directly links the author and cited work/place relation.",
+            "confidence": "high",
+            "evidence_status": "eligible_evidence",
+            "evidence_origin": "WEB-CE-B16"
+          }
+        ],
+        "source_objects": [
+          {
+            "source_id": "SRC-0268",
+            "temporary_id": "B16-SRC-0268",
+            "title": "Cristina Peri Rossi. Cronología de obras",
+            "original_title": "Cristina Peri Rossi. Cronología de obras",
+            "author_or_editor": "Instituto Cervantes, Departamento de Bibliotecas y Documentación",
+            "translator": "",
+            "publisher": "Instituto Cervantes",
+            "publication_year": "",
+            "isbn": "",
+            "format": "web_page",
+            "page_count": "",
+            "language": "es",
+            "source_level": "B",
+            "processing_status": "access_pass",
+            "source_task": "WEB-CE-B16",
+            "public_content_scope": "Peri Rossi chronology: Descripción de un naufragio 1975 poetry; La tarde del dinosaurio 1976 relatos; Los amores equivocados 2015 relatos; author genre context",
+            "local_asset_status": "remote_only",
+            "persistent_id": "",
+            "canonical_url": "https://www.cervantes.es/bibliotecas_documentacion_espanol/creadores/peri_rossi_cristina_cronologia.htm"
+          }
+        ],
+        "holds": [],
+        "gaps": [],
+        "fresh_review": false,
+        "remaining": "只确认冻结基线事实/卡片/关系/来源链逐值保全；未重新评估原内容完整性或声称穷尽作品全集。",
+        "source_author_id": "V1-ENT-0346",
+        "candidate_facts": [
+          {
+            "candidate_id": "WCD10-B20-F001",
+            "field": "one_sentence_summary",
+            "value": "这部短篇集围绕意外而强烈的诱惑展开，故事置于当代城市生活，呈现孤独者之间短暂相遇留下的痕迹。",
+            "source_refs": [
+              "WCD10-B20-S003"
+            ],
+            "subject_id": "V1-ENT-0353"
+          }
+        ],
+        "formal_subject_id": "V1-ENT-0353",
+        "gap_id": "V1-GAP-0660"
+      },
+      {
+        "object_ref": "V1-ENT-0354",
+        "entity": {
+          "entity_id": "V1-ENT-0354",
+          "entity_type": "collection",
+          "name_zh": "《恐龙的下午》",
+          "original_name": "La tarde del dinosaurio",
+          "canonical_status": "candidate",
+          "origin_count": "1",
+          "origin_refs": "CAND-B16-PERI-ROSSI-W02",
+          "normalization_basis": "Cervantes chronology lists the 1976 relatos title and bibliography gives the 1976 Planeta story edition",
+          "issue_codes": "NONE"
+        },
+        "bibliography": "entity_layer=collection（SRC-0268）；first_publication_year=1976（SRC-0268）；genre_or_form=短篇小说集（SRC-0268）",
+        "description": "### 《恐龙的下午》｜La tarde del dinosaurio — source-backed 短篇小说集 entry; original title retained.",
+        "research_status": "institutional_commentary",
+        "research_refs": [
+          "SRC-0268",
+          "SRC-0269",
+          "WCD10-B20-S004"
+        ],
+        "old_facts": [
+          {
+            "fact": {
+              "fact_id": "V1-FCT-0956",
+              "origin_material_id": "WEB-CE-B16",
+              "card_id": "V1-CARD-0242",
+              "subject_id": "V1-ENT-0354",
+              "fact_field": "entity_layer",
+              "value_text": "collection",
+              "material_class": "metadata",
+              "origin_id": "SRC-0268",
+              "confidence": "high",
+              "admission_status": "candidate_for_staging_review",
+              "usage_note": "Entity layer is recorded as collection."
+            },
+            "source_chain": [
+              {
+                "fact_id": "V1-FCT-0956",
+                "source_id": "SRC-0268",
+                "source_title": "Cristina Peri Rossi. Cronología de obras"
+              }
+            ]
+          },
+          {
+            "fact": {
+              "fact_id": "V1-FCT-0957",
+              "origin_material_id": "WEB-CE-B16",
+              "card_id": "V1-CARD-0242",
+              "subject_id": "V1-ENT-0354",
+              "fact_field": "first_publication_year",
+              "value_text": "1976",
+              "material_class": "bibliographic",
+              "origin_id": "SRC-0268",
+              "confidence": "high",
+              "admission_status": "candidate_for_staging_review",
+              "usage_note": "Cited source dates the title to 1976."
+            },
+            "source_chain": [
+              {
+                "fact_id": "V1-FCT-0957",
+                "source_id": "SRC-0268",
+                "source_title": "Cristina Peri Rossi. Cronología de obras"
+              }
+            ]
+          },
+          {
+            "fact": {
+              "fact_id": "V1-FCT-0958",
+              "origin_material_id": "WEB-CE-B16",
+              "card_id": "V1-CARD-0242",
+              "subject_id": "V1-ENT-0354",
+              "fact_field": "genre_or_form",
+              "value_text": "短篇小说集",
+              "material_class": "bibliographic",
+              "origin_id": "SRC-0268",
+              "confidence": "high",
+              "admission_status": "candidate_for_staging_review",
+              "usage_note": "Cited source supports the conservative form label 短篇小说集."
+            },
+            "source_chain": [
+              {
+                "fact_id": "V1-FCT-0958",
+                "source_id": "SRC-0268",
+                "source_title": "Cristina Peri Rossi. Cronología de obras"
+              }
+            ]
+          }
+        ],
+        "cards": [
+          {
+            "card_id": "V1-CARD-0242",
+            "origin_card_id": "",
+            "subject_id": "V1-ENT-0354",
+            "card_type": "collection",
+            "title_zh": "《恐龙的下午》",
+            "author_label": "克里斯蒂娜·佩里·罗西",
+            "original_title": "La tarde del dinosaurio",
+            "country_or_region": "乌拉圭",
+            "language": "es",
+            "period_bucket": "1976",
+            "genre_or_form": "短篇小说集",
+            "input_layer": "WEB-CE-B16",
+            "source_minimum_status": "meets",
+            "issue_code": "NONE",
+            "content_markdown": "### 《恐龙的下午》｜La tarde del dinosaurio — source-backed 短篇小说集 entry; original title retained."
+          }
+        ],
+        "card_facts": [
+          {
+            "card_id": "V1-CARD-0242",
+            "fact_id": "V1-FCT-0956",
+            "admission_status": "candidate_for_staging_review"
+          },
+          {
+            "card_id": "V1-CARD-0242",
+            "fact_id": "V1-FCT-0957",
+            "admission_status": "candidate_for_staging_review"
+          },
+          {
+            "card_id": "V1-CARD-0242",
+            "fact_id": "V1-FCT-0958",
+            "admission_status": "candidate_for_staging_review"
+          }
+        ],
+        "card_sources": [
+          {
+            "card_source_id": "V1-CS-0473",
+            "origin_matrix_id": "",
+            "card_id": "V1-CARD-0242",
+            "source_id": "SRC-0268",
+            "source_level": "B",
+            "source_role": "both",
+            "bibliographic_support": "yes",
+            "research_support": "yes",
+            "independent_source_key": "SRC-0268",
+            "usage_status": "used",
+            "issue_code": "NONE"
+          },
+          {
+            "card_source_id": "V1-CS-0474",
+            "origin_matrix_id": "",
+            "card_id": "V1-CARD-0242",
+            "source_id": "SRC-0269",
+            "source_level": "B",
+            "source_role": "both",
+            "bibliographic_support": "yes",
+            "research_support": "yes",
+            "independent_source_key": "SRC-0269",
+            "usage_status": "used",
+            "issue_code": "NONE"
+          }
+        ],
+        "relations": [
+          {
+            "relationship_id": "V1-REL-0279",
+            "origin_layer": "WEB-CE-B16",
+            "origin_relation_group_id": "V1-REL-0279",
+            "subject_id": "V1-ENT-0346",
+            "relation_type": "CREATED",
+            "object_id": "V1-ENT-0354",
+            "description_zh": "克里斯蒂娜·佩里·罗西创作《恐龙的下午》（La tarde del dinosaurio）",
+            "confidence": "high",
+            "review_status": "accepted",
+            "upstream_review_status": "WEB-CE-B16",
+            "evidence_count": "1",
+            "issue_code": "NONE"
+          }
+        ],
+        "relationship_sources": [
+          {
+            "relationship_id": "V1-REL-0279",
+            "source_id": "SRC-0268"
+          },
+          {
+            "relationship_id": "V1-REL-0279",
+            "source_id": "SRC-0269"
+          }
+        ],
+        "relationship_evidence": [
+          {
+            "evidence_id": "V1-EV-0304",
+            "relationship_id": "V1-REL-0279",
+            "origin_evidence_id": "V1-REL-0279",
+            "source_id": "SRC-0268",
+            "source_title": "Cristina Peri Rossi. Cronología de obras",
+            "locator": "",
+            "evidence_note": "Cristina Peri Rossi. Cronología de obras directly links the author and cited work/place relation.",
+            "confidence": "high",
+            "evidence_status": "eligible_evidence",
+            "evidence_origin": "WEB-CE-B16"
+          }
+        ],
+        "source_objects": [
+          {
+            "source_id": "SRC-0268",
+            "temporary_id": "B16-SRC-0268",
+            "title": "Cristina Peri Rossi. Cronología de obras",
+            "original_title": "Cristina Peri Rossi. Cronología de obras",
+            "author_or_editor": "Instituto Cervantes, Departamento de Bibliotecas y Documentación",
+            "translator": "",
+            "publisher": "Instituto Cervantes",
+            "publication_year": "",
+            "isbn": "",
+            "format": "web_page",
+            "page_count": "",
+            "language": "es",
+            "source_level": "B",
+            "processing_status": "access_pass",
+            "source_task": "WEB-CE-B16",
+            "public_content_scope": "Peri Rossi chronology: Descripción de un naufragio 1975 poetry; La tarde del dinosaurio 1976 relatos; Los amores equivocados 2015 relatos; author genre context",
+            "local_asset_status": "remote_only",
+            "persistent_id": "",
+            "canonical_url": "https://www.cervantes.es/bibliotecas_documentacion_espanol/creadores/peri_rossi_cristina_cronologia.htm"
+          },
+          {
+            "source_id": "SRC-0269",
+            "temporary_id": "B16-SRC-0269",
+            "title": "BIBLIOGRAFÍA DE CRISTINA PERI ROSSI",
+            "original_title": "BIBLIOGRAFÍA DE CRISTINA PERI ROSSI",
+            "author_or_editor": "Instituto Cervantes, Departamento de Bibliotecas y Documentación",
+            "translator": "",
+            "publisher": "Instituto Cervantes",
+            "publication_year": "",
+            "isbn": "",
+            "format": "web_page",
+            "page_count": "",
+            "language": "es",
+            "source_level": "B",
+            "processing_status": "access_pass",
+            "source_task": "WEB-CE-B16",
+            "public_content_scope": "Bibliographic records for Descripción de un naufragio 1975 Lumen poetry edition and La tarde del dinosaurio 1976 Planeta story edition",
+            "local_asset_status": "remote_only",
+            "persistent_id": "",
+            "canonical_url": "https://www.cervantes.es/imagenes/File/biblioteca/bibliografias/peri_rossi_cristina_bibliografia_2021.pdf"
+          }
+        ],
+        "holds": [],
+        "gaps": [],
+        "fresh_review": false,
+        "remaining": "只确认冻结基线事实/卡片/关系/来源链逐值保全；未重新评估原内容完整性或声称穷尽作品全集。",
+        "source_author_id": "V1-ENT-0346",
+        "candidate_facts": [
+          {
+            "candidate_id": "WCD10-B20-F002",
+            "field": "bibliographic_note",
+            "value": "作者官网所列版次包括Planeta 1976版、Plaza & Janés 1984版和TROPO 2008版；此处补充版次书目信息，保留基线1976原子年份及其原来源SRC-0268。",
+            "source_refs": [
+              "WCD10-B20-S004"
+            ],
+            "subject_id": "V1-ENT-0354"
+          }
+        ],
+        "formal_subject_id": "V1-ENT-0354",
+        "gap_id": "V1-GAP-0661"
+      },
+      {
+        "object_ref": "V1-ENT-0355",
+        "entity": {
+          "entity_id": "V1-ENT-0355",
+          "entity_type": "collection",
+          "name_zh": "《沉船记》",
+          "original_name": "Descripción de un naufragio",
+          "canonical_status": "candidate",
+          "origin_count": "1",
+          "origin_refs": "CAND-B16-PERI-ROSSI-W03",
+          "normalization_basis": "Cervantes chronology classifies the 1975 title under poetry and the bibliography records its Lumen poetry edition",
+          "issue_codes": "NONE"
+        },
+        "bibliography": "entity_layer=collection（SRC-0268）；first_publication_year=1975（SRC-0268）；genre_or_form=诗集（SRC-0268）",
+        "description": "### 《沉船记》｜Descripción de un naufragio — source-backed 诗集 entry; original title retained.",
+        "research_status": "institutional_commentary",
+        "research_refs": [
+          "SRC-0268",
+          "SRC-0269",
+          "WCD10-B20-S005"
+        ],
+        "old_facts": [
+          {
+            "fact": {
+              "fact_id": "V1-FCT-0959",
+              "origin_material_id": "WEB-CE-B16",
+              "card_id": "V1-CARD-0243",
+              "subject_id": "V1-ENT-0355",
+              "fact_field": "entity_layer",
+              "value_text": "collection",
+              "material_class": "metadata",
+              "origin_id": "SRC-0268",
+              "confidence": "high",
+              "admission_status": "candidate_for_staging_review",
+              "usage_note": "Entity layer is recorded as collection."
+            },
+            "source_chain": [
+              {
+                "fact_id": "V1-FCT-0959",
+                "source_id": "SRC-0268",
+                "source_title": "Cristina Peri Rossi. Cronología de obras"
+              }
+            ]
+          },
+          {
+            "fact": {
+              "fact_id": "V1-FCT-0960",
+              "origin_material_id": "WEB-CE-B16",
+              "card_id": "V1-CARD-0243",
+              "subject_id": "V1-ENT-0355",
+              "fact_field": "first_publication_year",
+              "value_text": "1975",
+              "material_class": "bibliographic",
+              "origin_id": "SRC-0268",
+              "confidence": "high",
+              "admission_status": "candidate_for_staging_review",
+              "usage_note": "Cited source dates the title to 1975."
+            },
+            "source_chain": [
+              {
+                "fact_id": "V1-FCT-0960",
+                "source_id": "SRC-0268",
+                "source_title": "Cristina Peri Rossi. Cronología de obras"
+              }
+            ]
+          },
+          {
+            "fact": {
+              "fact_id": "V1-FCT-0961",
+              "origin_material_id": "WEB-CE-B16",
+              "card_id": "V1-CARD-0243",
+              "subject_id": "V1-ENT-0355",
+              "fact_field": "genre_or_form",
+              "value_text": "诗集",
+              "material_class": "bibliographic",
+              "origin_id": "SRC-0268",
+              "confidence": "high",
+              "admission_status": "candidate_for_staging_review",
+              "usage_note": "Cited source supports the conservative form label 诗集."
+            },
+            "source_chain": [
+              {
+                "fact_id": "V1-FCT-0961",
+                "source_id": "SRC-0268",
+                "source_title": "Cristina Peri Rossi. Cronología de obras"
+              }
+            ]
+          }
+        ],
+        "cards": [
+          {
+            "card_id": "V1-CARD-0243",
+            "origin_card_id": "",
+            "subject_id": "V1-ENT-0355",
+            "card_type": "collection",
+            "title_zh": "《沉船记》",
+            "author_label": "克里斯蒂娜·佩里·罗西",
+            "original_title": "Descripción de un naufragio",
+            "country_or_region": "乌拉圭",
+            "language": "es",
+            "period_bucket": "1975",
+            "genre_or_form": "诗集",
+            "input_layer": "WEB-CE-B16",
+            "source_minimum_status": "meets",
+            "issue_code": "NONE",
+            "content_markdown": "### 《沉船记》｜Descripción de un naufragio — source-backed 诗集 entry; original title retained."
+          }
+        ],
+        "card_facts": [
+          {
+            "card_id": "V1-CARD-0243",
+            "fact_id": "V1-FCT-0959",
+            "admission_status": "candidate_for_staging_review"
+          },
+          {
+            "card_id": "V1-CARD-0243",
+            "fact_id": "V1-FCT-0960",
+            "admission_status": "candidate_for_staging_review"
+          },
+          {
+            "card_id": "V1-CARD-0243",
+            "fact_id": "V1-FCT-0961",
+            "admission_status": "candidate_for_staging_review"
+          }
+        ],
+        "card_sources": [
+          {
+            "card_source_id": "V1-CS-0475",
+            "origin_matrix_id": "",
+            "card_id": "V1-CARD-0243",
+            "source_id": "SRC-0268",
+            "source_level": "B",
+            "source_role": "both",
+            "bibliographic_support": "yes",
+            "research_support": "yes",
+            "independent_source_key": "SRC-0268",
+            "usage_status": "used",
+            "issue_code": "NONE"
+          },
+          {
+            "card_source_id": "V1-CS-0476",
+            "origin_matrix_id": "",
+            "card_id": "V1-CARD-0243",
+            "source_id": "SRC-0269",
+            "source_level": "B",
+            "source_role": "both",
+            "bibliographic_support": "yes",
+            "research_support": "yes",
+            "independent_source_key": "SRC-0269",
+            "usage_status": "used",
+            "issue_code": "NONE"
+          }
+        ],
+        "relations": [
+          {
+            "relationship_id": "V1-REL-0280",
+            "origin_layer": "WEB-CE-B16",
+            "origin_relation_group_id": "V1-REL-0280",
+            "subject_id": "V1-ENT-0346",
+            "relation_type": "CREATED",
+            "object_id": "V1-ENT-0355",
+            "description_zh": "克里斯蒂娜·佩里·罗西创作《沉船记》（Descripción de un naufragio）",
+            "confidence": "high",
+            "review_status": "accepted",
+            "upstream_review_status": "WEB-CE-B16",
+            "evidence_count": "1",
+            "issue_code": "NONE"
+          }
+        ],
+        "relationship_sources": [
+          {
+            "relationship_id": "V1-REL-0280",
+            "source_id": "SRC-0268"
+          },
+          {
+            "relationship_id": "V1-REL-0280",
+            "source_id": "SRC-0269"
+          }
+        ],
+        "relationship_evidence": [
+          {
+            "evidence_id": "V1-EV-0305",
+            "relationship_id": "V1-REL-0280",
+            "origin_evidence_id": "V1-REL-0280",
+            "source_id": "SRC-0268",
+            "source_title": "Cristina Peri Rossi. Cronología de obras",
+            "locator": "",
+            "evidence_note": "Cristina Peri Rossi. Cronología de obras directly links the author and cited work/place relation.",
+            "confidence": "high",
+            "evidence_status": "eligible_evidence",
+            "evidence_origin": "WEB-CE-B16"
+          }
+        ],
+        "source_objects": [
+          {
+            "source_id": "SRC-0268",
+            "temporary_id": "B16-SRC-0268",
+            "title": "Cristina Peri Rossi. Cronología de obras",
+            "original_title": "Cristina Peri Rossi. Cronología de obras",
+            "author_or_editor": "Instituto Cervantes, Departamento de Bibliotecas y Documentación",
+            "translator": "",
+            "publisher": "Instituto Cervantes",
+            "publication_year": "",
+            "isbn": "",
+            "format": "web_page",
+            "page_count": "",
+            "language": "es",
+            "source_level": "B",
+            "processing_status": "access_pass",
+            "source_task": "WEB-CE-B16",
+            "public_content_scope": "Peri Rossi chronology: Descripción de un naufragio 1975 poetry; La tarde del dinosaurio 1976 relatos; Los amores equivocados 2015 relatos; author genre context",
+            "local_asset_status": "remote_only",
+            "persistent_id": "",
+            "canonical_url": "https://www.cervantes.es/bibliotecas_documentacion_espanol/creadores/peri_rossi_cristina_cronologia.htm"
+          },
+          {
+            "source_id": "SRC-0269",
+            "temporary_id": "B16-SRC-0269",
+            "title": "BIBLIOGRAFÍA DE CRISTINA PERI ROSSI",
+            "original_title": "BIBLIOGRAFÍA DE CRISTINA PERI ROSSI",
+            "author_or_editor": "Instituto Cervantes, Departamento de Bibliotecas y Documentación",
+            "translator": "",
+            "publisher": "Instituto Cervantes",
+            "publication_year": "",
+            "isbn": "",
+            "format": "web_page",
+            "page_count": "",
+            "language": "es",
+            "source_level": "B",
+            "processing_status": "access_pass",
+            "source_task": "WEB-CE-B16",
+            "public_content_scope": "Bibliographic records for Descripción de un naufragio 1975 Lumen poetry edition and La tarde del dinosaurio 1976 Planeta story edition",
+            "local_asset_status": "remote_only",
+            "persistent_id": "",
+            "canonical_url": "https://www.cervantes.es/imagenes/File/biblioteca/bibliografias/peri_rossi_cristina_bibliografia_2021.pdf"
+          }
+        ],
+        "holds": [],
+        "gaps": [],
+        "fresh_review": false,
+        "remaining": "只确认冻结基线事实/卡片/关系/来源链逐值保全；未重新评估原内容完整性或声称穷尽作品全集。",
+        "source_author_id": "V1-ENT-0346",
+        "candidate_facts": [
+          {
+            "candidate_id": "WCD10-B20-F003",
+            "field": "one_sentence_summary",
+            "value": "作者在官网回顾，海难是她着迷的诗歌与绘画隐喻，因此将一本早期诗集命名为《Descripción de un naufragio》。",
+            "source_refs": [
+              "WCD10-B20-S005"
+            ],
+            "subject_id": "V1-ENT-0355"
+          }
+        ],
+        "formal_subject_id": "V1-ENT-0355",
+        "gap_id": "V1-GAP-0662"
+      },
+      {
+        "object_ref": "WCD10-B20-W001",
+        "entity": {
+          "entity_id": "WCD10-B20-W001",
+          "entity_type": "work",
+          "name_zh": "《我的表兄弟们》（暂译）",
+          "original_name": "El libro de mis primos",
+          "canonical_status": "candidate",
+          "origin_count": "1",
+          "origin_refs": "WCD10-B20-W001",
+          "normalization_basis": "作者官网的小说页提供多声部家族小说简介；Instituto Cervantes生平与作品年表分别支持作者身份、首部小说属性及1969年作品年份。",
+          "issue_codes": "NONE"
+        },
+        "bibliography": "作者官网的小说页提供多声部家族小说简介；Instituto Cervantes生平与作品年表分别支持作者身份、首部小说属性及1969年作品年份。",
+        "description": "《我的表兄弟们》（暂译）｜El libro de mis primos — 小说通过一个家族中多位表兄弟的声音，写传统家族秩序的衰落与城市游击运动的出现；年幼的Oliverio带领读者看见家庭关系、表象与欲望的变化。",
+        "research_status": "institutional_commentary",
+        "research_refs": [
+          "WCD10-B20-S007",
+          "WCD10-B20-S006",
+          "WCD10-B20-S001"
+        ],
+        "old_facts": [],
+        "cards": [],
+        "card_facts": [],
+        "card_sources": [],
+        "relations": [
+          {
+            "subject_id": "V1-ENT-0346",
+            "relation_type": "CREATED",
+            "object_id": "WCD10-B20-W001",
+            "source_refs": [
+              "WCD10-B20-S001",
+              "WCD10-B20-S006",
+              "WCD10-B20-S007"
+            ],
+            "description": "Cristina Peri Rossi创作El libro de mis primos；由直接来源支持，待独立审核。"
+          }
+        ],
+        "relationship_sources": [],
+        "relationship_evidence": [],
+        "source_objects": [],
+        "holds": [],
+        "gaps": [],
+        "fresh_review": false,
+        "remaining": "普通书目与内容说明由直接来源支持；未声称作品全集或学术覆盖。",
+        "source_author_id": "V1-ENT-0346",
+        "candidate_facts": [
+          {
+            "candidate_id": "WCD10-B20-W001-F01",
+            "field": "genre_or_form",
+            "value": "小说",
+            "source_refs": [
+              "WCD10-B20-S007"
+            ],
+            "subject_id": "WCD10-B20-W001"
+          },
+          {
+            "candidate_id": "WCD10-B20-W001-F02",
+            "field": "first_publication_year",
+            "value": "1969",
+            "source_refs": [
+              "WCD10-B20-S006",
+              "WCD10-B20-S007"
+            ],
+            "subject_id": "WCD10-B20-W001"
+          },
+          {
+            "candidate_id": "WCD10-B20-W001-F03",
+            "field": "one_sentence_summary",
+            "value": "小说通过一个家族中多位表兄弟的声音，写传统家族秩序的衰落与城市游击运动的出现；年幼的Oliverio带领读者看见家庭关系、表象与欲望的变化。",
+            "source_refs": [
+              "WCD10-B20-S001"
+            ],
+            "subject_id": "WCD10-B20-W001"
+          }
+        ],
+        "formal_subject_id": "V1-ENT-0780",
+        "gap_id": "V1-GAP-0663"
+      },
+      {
+        "object_ref": "WCD10-B20-W002",
+        "entity": {
+          "entity_id": "WCD10-B20-W002",
+          "entity_type": "work",
+          "name_zh": "《愚人之船》（暂译）",
+          "original_name": "La nave de los locos",
+          "canonical_status": "candidate",
+          "origin_count": "1",
+          "origin_refs": "WCD10-B20-W002",
+          "normalization_basis": "Instituto Cervantes年表将作品列作1984年小说；其文化中心评论直接讨论Equis的流亡旅程、作品的片段式多声叙事和《创世挂毯》线索。",
+          "issue_codes": "NONE"
+        },
+        "bibliography": "Instituto Cervantes年表将作品列作1984年小说；其文化中心评论直接讨论Equis的流亡旅程、作品的片段式多声叙事和《创世挂毯》线索。",
+        "description": "《愚人之船》（暂译）｜La nave de los locos — 围绕Equis的流亡旅行展开，小说以短章、插入文本和多重声音串联旅途片段，并借这些经历呈现流离失所与身份漂移。",
+        "research_status": "institutional_commentary",
+        "research_refs": [
+          "WCD10-B20-S002",
+          "WCD10-B20-S006"
+        ],
+        "old_facts": [],
+        "cards": [],
+        "card_facts": [],
+        "card_sources": [],
+        "relations": [
+          {
+            "subject_id": "V1-ENT-0346",
+            "relation_type": "CREATED",
+            "object_id": "WCD10-B20-W002",
+            "source_refs": [
+              "WCD10-B20-S002",
+              "WCD10-B20-S006"
+            ],
+            "description": "Cristina Peri Rossi创作La nave de los locos；由直接来源支持，待独立审核。"
+          }
+        ],
+        "relationship_sources": [],
+        "relationship_evidence": [],
+        "source_objects": [],
+        "holds": [],
+        "gaps": [],
+        "fresh_review": false,
+        "remaining": "普通书目与内容说明由直接来源支持；未声称作品全集或学术覆盖。",
+        "source_author_id": "V1-ENT-0346",
+        "candidate_facts": [
+          {
+            "candidate_id": "WCD10-B20-W002-F01",
+            "field": "genre_or_form",
+            "value": "小说",
+            "source_refs": [
+              "WCD10-B20-S002"
+            ],
+            "subject_id": "WCD10-B20-W002"
+          },
+          {
+            "candidate_id": "WCD10-B20-W002-F02",
+            "field": "first_publication_year",
+            "value": "1984",
+            "source_refs": [
+              "WCD10-B20-S002",
+              "WCD10-B20-S006"
+            ],
+            "subject_id": "WCD10-B20-W002"
+          },
+          {
+            "candidate_id": "WCD10-B20-W002-F03",
+            "field": "one_sentence_summary",
+            "value": "围绕Equis的流亡旅行展开，小说以短章、插入文本和多重声音串联旅途片段，并借这些经历呈现流离失所与身份漂移。",
+            "source_refs": [
+              "WCD10-B20-S002"
+            ],
+            "subject_id": "WCD10-B20-W002"
+          }
+        ],
+        "formal_subject_id": "V1-ENT-0781",
+        "gap_id": "V1-GAP-0664"
+      },
+      {
+        "object_ref": "V1-ENT-0361",
+        "entity": {
+          "entity_id": "V1-ENT-0361",
+          "entity_type": "work",
+          "name_zh": "《石头圆舞》",
+          "original_name": "Ciranda de pedra",
+          "canonical_status": "candidate",
+          "origin_count": "1",
+          "origin_refs": "CAND-B17-LYGIA-FAGUNDES-TELLES-61",
+          "normalization_basis": "ABL bibliography lists Ciranda de pedra as a romance in 1954; Chinese label is provisional.",
+          "issue_codes": "NONE"
+        },
+        "bibliography": "entity_layer=work；first_publication_year=1954；genre_or_form=小说",
+        "description": "### 《石头圆舞》｜Ciranda de pedra — source-backed 小说 entry; original title retained.",
+        "research_status": "catalog_only",
+        "research_refs": [
+          "SRC-0271",
+          "WCD10-B20-S102"
+        ],
+        "old_facts": [
+          {
+            "fact": {
+              "fact_id": "V1-FCT-0967",
+              "origin_material_id": "WEB-CE-B17",
+              "card_id": "V1-CARD-0245",
+              "subject_id": "V1-ENT-0361",
+              "fact_field": "entity_layer",
+              "value_text": "work",
+              "material_class": "metadata",
+              "origin_id": "SRC-0271",
+              "confidence": "high",
+              "admission_status": "candidate_for_staging_review",
+              "usage_note": "Entity layer recorded as work."
+            },
+            "source_chain": [
+              {
+                "fact_id": "V1-FCT-0967",
+                "source_id": "SRC-0271",
+                "source_title": "Bibliografia | Lygia Fagundes Telles"
+              }
+            ]
+          },
+          {
+            "fact": {
+              "fact_id": "V1-FCT-0968",
+              "origin_material_id": "WEB-CE-B17",
+              "card_id": "V1-CARD-0245",
+              "subject_id": "V1-ENT-0361",
+              "fact_field": "first_publication_year",
+              "value_text": "1954",
+              "material_class": "bibliographic",
+              "origin_id": "SRC-0271",
+              "confidence": "high",
+              "admission_status": "candidate_for_staging_review",
+              "usage_note": "Cited source dates Ciranda de pedra to 1954."
+            },
+            "source_chain": [
+              {
+                "fact_id": "V1-FCT-0968",
+                "source_id": "SRC-0271",
+                "source_title": "Bibliografia | Lygia Fagundes Telles"
+              }
+            ]
+          },
+          {
+            "fact": {
+              "fact_id": "V1-FCT-0969",
+              "origin_material_id": "WEB-CE-B17",
+              "card_id": "V1-CARD-0245",
+              "subject_id": "V1-ENT-0361",
+              "fact_field": "genre_or_form",
+              "value_text": "小说",
+              "material_class": "bibliographic",
+              "origin_id": "SRC-0271",
+              "confidence": "high",
+              "admission_status": "candidate_for_staging_review",
+              "usage_note": "Cited source supports the conservative form label 小说."
+            },
+            "source_chain": [
+              {
+                "fact_id": "V1-FCT-0969",
+                "source_id": "SRC-0271",
+                "source_title": "Bibliografia | Lygia Fagundes Telles"
+              }
+            ]
+          }
+        ],
+        "cards": [
+          {
+            "card_id": "V1-CARD-0245",
+            "origin_card_id": "",
+            "subject_id": "V1-ENT-0361",
+            "card_type": "work",
+            "title_zh": "《石头圆舞》",
+            "author_label": "莉吉娅·法贡德斯·特莱斯",
+            "original_title": "Ciranda de pedra",
+            "country_or_region": "巴西",
+            "language": "pt",
+            "period_bucket": "1954",
+            "genre_or_form": "小说",
+            "input_layer": "WEB-CE-B17",
+            "source_minimum_status": "meets",
+            "issue_code": "NONE",
+            "content_markdown": "### 《石头圆舞》｜Ciranda de pedra — source-backed 小说 entry; original title retained."
+          }
+        ],
+        "card_facts": [
+          {
+            "card_id": "V1-CARD-0245",
+            "fact_id": "V1-FCT-0967",
+            "admission_status": "candidate_for_staging_review"
+          },
+          {
+            "card_id": "V1-CARD-0245",
+            "fact_id": "V1-FCT-0968",
+            "admission_status": "candidate_for_staging_review"
+          },
+          {
+            "card_id": "V1-CARD-0245",
+            "fact_id": "V1-FCT-0969",
+            "admission_status": "candidate_for_staging_review"
+          }
+        ],
+        "card_sources": [
+          {
+            "card_source_id": "V1-CS-0480",
+            "origin_matrix_id": "",
+            "card_id": "V1-CARD-0245",
+            "source_id": "SRC-0271",
+            "source_level": "B",
+            "source_role": "both",
+            "bibliographic_support": "yes",
+            "research_support": "yes",
+            "independent_source_key": "SRC-0271",
+            "usage_status": "used",
+            "issue_code": "NONE"
+          }
+        ],
+        "relations": [
+          {
+            "relationship_id": "V1-REL-0284",
+            "origin_layer": "WEB-CE-B17",
+            "origin_relation_group_id": "V1-REL-0284",
+            "subject_id": "V1-ENT-0358",
+            "relation_type": "CREATED",
+            "object_id": "V1-ENT-0361",
+            "description_zh": "莉吉娅·法贡德斯·特莱斯创作《石头圆舞》（Ciranda de pedra）",
+            "confidence": "high",
+            "review_status": "accepted",
+            "upstream_review_status": "WEB-CE-B17",
+            "evidence_count": "1",
+            "issue_code": "NONE"
+          }
+        ],
+        "relationship_sources": [
+          {
+            "relationship_id": "V1-REL-0284",
+            "source_id": "SRC-0271"
+          }
+        ],
+        "relationship_evidence": [
+          {
+            "evidence_id": "V1-EV-0309",
+            "relationship_id": "V1-REL-0284",
+            "origin_evidence_id": "V1-REL-0284",
+            "source_id": "SRC-0271",
+            "source_title": "Bibliografia | Lygia Fagundes Telles",
+            "locator": "",
+            "evidence_note": "莉吉娅·法贡德斯·特莱斯创作《石头圆舞》（Ciranda de pedra） is directly supported by the cited source(s); no influence claim is made.",
+            "confidence": "high",
+            "evidence_status": "eligible_evidence",
+            "evidence_origin": "WEB-CE-B17"
+          }
+        ],
+        "source_objects": [
+          {
+            "source_id": "SRC-0271",
+            "temporary_id": "B17-SRC-0271",
+            "title": "Bibliografia | Lygia Fagundes Telles",
+            "original_title": "Bibliografia | Lygia Fagundes Telles",
+            "author_or_editor": "Academia Brasileira de Letras",
+            "translator": "",
+            "publisher": "Academia Brasileira de Letras",
+            "publication_year": "",
+            "isbn": "",
+            "format": "web_page",
+            "page_count": "",
+            "language": "pt",
+            "source_level": "B",
+            "processing_status": "access_pass",
+            "source_task": "WEB-CE-B17",
+            "public_content_scope": "ABL bibliography: Ciranda de pedra romance 1954; Antes do baile verde contos 1970; As meninas romance 1973",
+            "local_asset_status": "remote_only",
+            "persistent_id": "",
+            "canonical_url": "https://www.academia.org.br/academicos/lygia-fagundes-telles/bibliografia"
+          }
+        ],
+        "holds": [],
+        "gaps": [],
+        "fresh_review": false,
+        "remaining": "仅在冻结基线闭包上追加本批有界说明；未声称全集完备或学术覆盖。",
+        "source_author_id": "V1-ENT-0358",
+        "candidate_facts": [
+          {
+            "candidate_id": "WCD10-B20-F181",
+            "field": "one_sentence_summary",
+            "value": "ABL传记称《Ciranda de pedra》（1954）是作者达到文学成熟的作品，并被作者视作其全集创作的起点。",
+            "source_refs": [
+              "WCD10-B20-S102"
+            ],
+            "subject_id": "V1-ENT-0361"
+          }
+        ],
+        "formal_subject_id": "V1-ENT-0361",
+        "gap_id": "V1-GAP-0665"
+      },
+      {
+        "object_ref": "V1-ENT-0362",
+        "entity": {
+          "entity_id": "V1-ENT-0362",
+          "entity_type": "collection",
+          "name_zh": "《绿色舞会之前》",
+          "original_name": "Antes do baile verde",
+          "canonical_status": "candidate",
+          "origin_count": "1",
+          "origin_refs": "CAND-B17-LYGIA-FAGUNDES-TELLES-62",
+          "normalization_basis": "ABL bibliography lists Antes do baile verde as contos in 1970; Chinese label is provisional.",
+          "issue_codes": "NONE"
+        },
+        "bibliography": "entity_layer=collection；first_publication_year=1970；genre_or_form=短篇小说集",
+        "description": "### 《绿色舞会之前》｜Antes do baile verde — source-backed 短篇小说集 entry; original title retained.",
+        "research_status": "catalog_only",
+        "research_refs": [
+          "SRC-0271",
+          "WCD10-B20-S102"
+        ],
+        "old_facts": [
+          {
+            "fact": {
+              "fact_id": "V1-FCT-0970",
+              "origin_material_id": "WEB-CE-B17",
+              "card_id": "V1-CARD-0246",
+              "subject_id": "V1-ENT-0362",
+              "fact_field": "entity_layer",
+              "value_text": "collection",
+              "material_class": "metadata",
+              "origin_id": "SRC-0271",
+              "confidence": "high",
+              "admission_status": "candidate_for_staging_review",
+              "usage_note": "Entity layer recorded as collection."
+            },
+            "source_chain": [
+              {
+                "fact_id": "V1-FCT-0970",
+                "source_id": "SRC-0271",
+                "source_title": "Bibliografia | Lygia Fagundes Telles"
+              }
+            ]
+          },
+          {
+            "fact": {
+              "fact_id": "V1-FCT-0971",
+              "origin_material_id": "WEB-CE-B17",
+              "card_id": "V1-CARD-0246",
+              "subject_id": "V1-ENT-0362",
+              "fact_field": "first_publication_year",
+              "value_text": "1970",
+              "material_class": "bibliographic",
+              "origin_id": "SRC-0271",
+              "confidence": "high",
+              "admission_status": "candidate_for_staging_review",
+              "usage_note": "Cited source dates Antes do baile verde to 1970."
+            },
+            "source_chain": [
+              {
+                "fact_id": "V1-FCT-0971",
+                "source_id": "SRC-0271",
+                "source_title": "Bibliografia | Lygia Fagundes Telles"
+              }
+            ]
+          },
+          {
+            "fact": {
+              "fact_id": "V1-FCT-0972",
+              "origin_material_id": "WEB-CE-B17",
+              "card_id": "V1-CARD-0246",
+              "subject_id": "V1-ENT-0362",
+              "fact_field": "genre_or_form",
+              "value_text": "短篇小说集",
+              "material_class": "bibliographic",
+              "origin_id": "SRC-0271",
+              "confidence": "high",
+              "admission_status": "candidate_for_staging_review",
+              "usage_note": "Cited source supports the conservative form label 短篇小说集."
+            },
+            "source_chain": [
+              {
+                "fact_id": "V1-FCT-0972",
+                "source_id": "SRC-0271",
+                "source_title": "Bibliografia | Lygia Fagundes Telles"
+              }
+            ]
+          }
+        ],
+        "cards": [
+          {
+            "card_id": "V1-CARD-0246",
+            "origin_card_id": "",
+            "subject_id": "V1-ENT-0362",
+            "card_type": "collection",
+            "title_zh": "《绿色舞会之前》",
+            "author_label": "莉吉娅·法贡德斯·特莱斯",
+            "original_title": "Antes do baile verde",
+            "country_or_region": "巴西",
+            "language": "pt",
+            "period_bucket": "1970",
+            "genre_or_form": "短篇小说集",
+            "input_layer": "WEB-CE-B17",
+            "source_minimum_status": "meets",
+            "issue_code": "NONE",
+            "content_markdown": "### 《绿色舞会之前》｜Antes do baile verde — source-backed 短篇小说集 entry; original title retained."
+          }
+        ],
+        "card_facts": [
+          {
+            "card_id": "V1-CARD-0246",
+            "fact_id": "V1-FCT-0970",
+            "admission_status": "candidate_for_staging_review"
+          },
+          {
+            "card_id": "V1-CARD-0246",
+            "fact_id": "V1-FCT-0971",
+            "admission_status": "candidate_for_staging_review"
+          },
+          {
+            "card_id": "V1-CARD-0246",
+            "fact_id": "V1-FCT-0972",
+            "admission_status": "candidate_for_staging_review"
+          }
+        ],
+        "card_sources": [
+          {
+            "card_source_id": "V1-CS-0481",
+            "origin_matrix_id": "",
+            "card_id": "V1-CARD-0246",
+            "source_id": "SRC-0271",
+            "source_level": "B",
+            "source_role": "both",
+            "bibliographic_support": "yes",
+            "research_support": "yes",
+            "independent_source_key": "SRC-0271",
+            "usage_status": "used",
+            "issue_code": "NONE"
+          }
+        ],
+        "relations": [
+          {
+            "relationship_id": "V1-REL-0285",
+            "origin_layer": "WEB-CE-B17",
+            "origin_relation_group_id": "V1-REL-0285",
+            "subject_id": "V1-ENT-0358",
+            "relation_type": "CREATED",
+            "object_id": "V1-ENT-0362",
+            "description_zh": "莉吉娅·法贡德斯·特莱斯创作《绿色舞会之前》（Antes do baile verde）",
+            "confidence": "high",
+            "review_status": "accepted",
+            "upstream_review_status": "WEB-CE-B17",
+            "evidence_count": "1",
+            "issue_code": "NONE"
+          }
+        ],
+        "relationship_sources": [
+          {
+            "relationship_id": "V1-REL-0285",
+            "source_id": "SRC-0271"
+          }
+        ],
+        "relationship_evidence": [
+          {
+            "evidence_id": "V1-EV-0310",
+            "relationship_id": "V1-REL-0285",
+            "origin_evidence_id": "V1-REL-0285",
+            "source_id": "SRC-0271",
+            "source_title": "Bibliografia | Lygia Fagundes Telles",
+            "locator": "",
+            "evidence_note": "莉吉娅·法贡德斯·特莱斯创作《绿色舞会之前》（Antes do baile verde） is directly supported by the cited source(s); no influence claim is made.",
+            "confidence": "high",
+            "evidence_status": "eligible_evidence",
+            "evidence_origin": "WEB-CE-B17"
+          }
+        ],
+        "source_objects": [
+          {
+            "source_id": "SRC-0271",
+            "temporary_id": "B17-SRC-0271",
+            "title": "Bibliografia | Lygia Fagundes Telles",
+            "original_title": "Bibliografia | Lygia Fagundes Telles",
+            "author_or_editor": "Academia Brasileira de Letras",
+            "translator": "",
+            "publisher": "Academia Brasileira de Letras",
+            "publication_year": "",
+            "isbn": "",
+            "format": "web_page",
+            "page_count": "",
+            "language": "pt",
+            "source_level": "B",
+            "processing_status": "access_pass",
+            "source_task": "WEB-CE-B17",
+            "public_content_scope": "ABL bibliography: Ciranda de pedra romance 1954; Antes do baile verde contos 1970; As meninas romance 1973",
+            "local_asset_status": "remote_only",
+            "persistent_id": "",
+            "canonical_url": "https://www.academia.org.br/academicos/lygia-fagundes-telles/bibliografia"
+          }
+        ],
+        "holds": [],
+        "gaps": [],
+        "fresh_review": false,
+        "remaining": "仅在冻结基线闭包上追加本批有界说明；未声称全集完备或学术覆盖。",
+        "source_author_id": "V1-ENT-0358",
+        "candidate_facts": [
+          {
+            "candidate_id": "WCD10-B20-F182",
+            "field": "one_sentence_summary",
+            "value": "ABL传记记载，同名短篇集于1970年出版，书中标题篇曾获法国国际女性作家比赛首奖。",
+            "source_refs": [
+              "WCD10-B20-S102"
+            ],
+            "subject_id": "V1-ENT-0362"
+          }
+        ],
+        "formal_subject_id": "V1-ENT-0362",
+        "gap_id": "V1-GAP-0666"
+      },
+      {
+        "object_ref": "V1-ENT-0363",
+        "entity": {
+          "entity_id": "V1-ENT-0363",
+          "entity_type": "work",
+          "name_zh": "《姑娘们》",
+          "original_name": "As meninas",
+          "canonical_status": "candidate",
+          "origin_count": "1",
+          "origin_refs": "CAND-B17-LYGIA-FAGUNDES-TELLES-63",
+          "normalization_basis": "ABL bibliography lists As meninas as a romance in 1973; Chinese label is provisional.",
+          "issue_codes": "NONE"
+        },
+        "bibliography": "entity_layer=work；first_publication_year=1973；genre_or_form=小说",
+        "description": "### 《姑娘们》｜As meninas — source-backed 小说 entry; original title retained.",
+        "research_status": "catalog_only",
+        "research_refs": [
+          "SRC-0271",
+          "WCD10-B20-S102"
+        ],
+        "old_facts": [
+          {
+            "fact": {
+              "fact_id": "V1-FCT-0973",
+              "origin_material_id": "WEB-CE-B17",
+              "card_id": "V1-CARD-0247",
+              "subject_id": "V1-ENT-0363",
+              "fact_field": "entity_layer",
+              "value_text": "work",
+              "material_class": "metadata",
+              "origin_id": "SRC-0271",
+              "confidence": "high",
+              "admission_status": "candidate_for_staging_review",
+              "usage_note": "Entity layer recorded as work."
+            },
+            "source_chain": [
+              {
+                "fact_id": "V1-FCT-0973",
+                "source_id": "SRC-0271",
+                "source_title": "Bibliografia | Lygia Fagundes Telles"
+              }
+            ]
+          },
+          {
+            "fact": {
+              "fact_id": "V1-FCT-0974",
+              "origin_material_id": "WEB-CE-B17",
+              "card_id": "V1-CARD-0247",
+              "subject_id": "V1-ENT-0363",
+              "fact_field": "first_publication_year",
+              "value_text": "1973",
+              "material_class": "bibliographic",
+              "origin_id": "SRC-0271",
+              "confidence": "high",
+              "admission_status": "candidate_for_staging_review",
+              "usage_note": "Cited source dates As meninas to 1973."
+            },
+            "source_chain": [
+              {
+                "fact_id": "V1-FCT-0974",
+                "source_id": "SRC-0271",
+                "source_title": "Bibliografia | Lygia Fagundes Telles"
+              }
+            ]
+          },
+          {
+            "fact": {
+              "fact_id": "V1-FCT-0975",
+              "origin_material_id": "WEB-CE-B17",
+              "card_id": "V1-CARD-0247",
+              "subject_id": "V1-ENT-0363",
+              "fact_field": "genre_or_form",
+              "value_text": "小说",
+              "material_class": "bibliographic",
+              "origin_id": "SRC-0271",
+              "confidence": "high",
+              "admission_status": "candidate_for_staging_review",
+              "usage_note": "Cited source supports the conservative form label 小说."
+            },
+            "source_chain": [
+              {
+                "fact_id": "V1-FCT-0975",
+                "source_id": "SRC-0271",
+                "source_title": "Bibliografia | Lygia Fagundes Telles"
+              }
+            ]
+          }
+        ],
+        "cards": [
+          {
+            "card_id": "V1-CARD-0247",
+            "origin_card_id": "",
+            "subject_id": "V1-ENT-0363",
+            "card_type": "work",
+            "title_zh": "《姑娘们》",
+            "author_label": "莉吉娅·法贡德斯·特莱斯",
+            "original_title": "As meninas",
+            "country_or_region": "巴西",
+            "language": "pt",
+            "period_bucket": "1973",
+            "genre_or_form": "小说",
+            "input_layer": "WEB-CE-B17",
+            "source_minimum_status": "meets",
+            "issue_code": "NONE",
+            "content_markdown": "### 《姑娘们》｜As meninas — source-backed 小说 entry; original title retained."
+          }
+        ],
+        "card_facts": [
+          {
+            "card_id": "V1-CARD-0247",
+            "fact_id": "V1-FCT-0973",
+            "admission_status": "candidate_for_staging_review"
+          },
+          {
+            "card_id": "V1-CARD-0247",
+            "fact_id": "V1-FCT-0974",
+            "admission_status": "candidate_for_staging_review"
+          },
+          {
+            "card_id": "V1-CARD-0247",
+            "fact_id": "V1-FCT-0975",
+            "admission_status": "candidate_for_staging_review"
+          }
+        ],
+        "card_sources": [
+          {
+            "card_source_id": "V1-CS-0482",
+            "origin_matrix_id": "",
+            "card_id": "V1-CARD-0247",
+            "source_id": "SRC-0271",
+            "source_level": "B",
+            "source_role": "both",
+            "bibliographic_support": "yes",
+            "research_support": "yes",
+            "independent_source_key": "SRC-0271",
+            "usage_status": "used",
+            "issue_code": "NONE"
+          }
+        ],
+        "relations": [
+          {
+            "relationship_id": "V1-REL-0286",
+            "origin_layer": "WEB-CE-B17",
+            "origin_relation_group_id": "V1-REL-0286",
+            "subject_id": "V1-ENT-0358",
+            "relation_type": "CREATED",
+            "object_id": "V1-ENT-0363",
+            "description_zh": "莉吉娅·法贡德斯·特莱斯创作《姑娘们》（As meninas）",
+            "confidence": "high",
+            "review_status": "accepted",
+            "upstream_review_status": "WEB-CE-B17",
+            "evidence_count": "1",
+            "issue_code": "NONE"
+          }
+        ],
+        "relationship_sources": [
+          {
+            "relationship_id": "V1-REL-0286",
+            "source_id": "SRC-0271"
+          }
+        ],
+        "relationship_evidence": [
+          {
+            "evidence_id": "V1-EV-0311",
+            "relationship_id": "V1-REL-0286",
+            "origin_evidence_id": "V1-REL-0286",
+            "source_id": "SRC-0271",
+            "source_title": "Bibliografia | Lygia Fagundes Telles",
+            "locator": "",
+            "evidence_note": "莉吉娅·法贡德斯·特莱斯创作《姑娘们》（As meninas） is directly supported by the cited source(s); no influence claim is made.",
+            "confidence": "high",
+            "evidence_status": "eligible_evidence",
+            "evidence_origin": "WEB-CE-B17"
+          }
+        ],
+        "source_objects": [
+          {
+            "source_id": "SRC-0271",
+            "temporary_id": "B17-SRC-0271",
+            "title": "Bibliografia | Lygia Fagundes Telles",
+            "original_title": "Bibliografia | Lygia Fagundes Telles",
+            "author_or_editor": "Academia Brasileira de Letras",
+            "translator": "",
+            "publisher": "Academia Brasileira de Letras",
+            "publication_year": "",
+            "isbn": "",
+            "format": "web_page",
+            "page_count": "",
+            "language": "pt",
+            "source_level": "B",
+            "processing_status": "access_pass",
+            "source_task": "WEB-CE-B17",
+            "public_content_scope": "ABL bibliography: Ciranda de pedra romance 1954; Antes do baile verde contos 1970; As meninas romance 1973",
+            "local_asset_status": "remote_only",
+            "persistent_id": "",
+            "canonical_url": "https://www.academia.org.br/academicos/lygia-fagundes-telles/bibliografia"
+          }
+        ],
+        "holds": [],
+        "gaps": [],
+        "fresh_review": false,
+        "remaining": "仅在冻结基线闭包上追加本批有界说明；未声称全集完备或学术覆盖。",
+        "source_author_id": "V1-ENT-0358",
+        "candidate_facts": [
+          {
+            "candidate_id": "WCD10-B20-F183",
+            "field": "one_sentence_summary",
+            "value": "ABL传记称《As meninas》（1973）为小说，获Jabuti、ABL Coelho Neto及APCA小说奖。",
+            "source_refs": [
+              "WCD10-B20-S102"
+            ],
+            "subject_id": "V1-ENT-0363"
+          }
+        ],
+        "formal_subject_id": "V1-ENT-0363",
+        "gap_id": "V1-GAP-0667"
+      },
+      {
+        "object_ref": "WCD10-B20-W101",
+        "entity": {
+          "entity_id": "WCD10-B20-W101",
+          "entity_type": "work",
+          "name_zh": "《水族馆之夏》（暂译）",
+          "original_name": "Verão no aquário",
+          "canonical_status": "candidate",
+          "origin_count": "1",
+          "origin_refs": "WCD10-B20-W101",
+          "normalization_basis": "Academia Brasileira de Letras直接书目及传记列出该作、年份、体裁或简要信息；只补有依据的普通书目和有限简介，不声称全集或学术覆盖。",
+          "issue_codes": "NONE"
+        },
+        "bibliography": "genre_or_form=小说；first_publication_year=1963；bibliographic_note=ABL书目页列示年份1963；保留其书目口径。",
+        "description": "ABL传记称其为第二部长篇小说，1963年出版；书目页列“romance”。",
+        "research_status": "institutional_commentary",
+        "research_refs": [
+          "WCD10-B20-S101",
+          "WCD10-B20-S102"
+        ],
+        "old_facts": [],
+        "cards": [],
+        "card_facts": [],
+        "card_sources": [],
+        "relations": [
+          {
+            "subject_id": "V1-ENT-0358",
+            "relation_type": "CREATED",
+            "object_id": "WCD10-B20-W101",
+            "source_refs": [
+              "WCD10-B20-S101"
+            ],
+            "description": "Lygia Fagundes Telles创作Verão no aquário；由直接来源支持，待独立审核。"
+          }
+        ],
+        "relationship_sources": [],
+        "relationship_evidence": [],
+        "source_objects": [],
+        "holds": [],
+        "gaps": [],
+        "fresh_review": true,
+        "remaining": "ABL书目及传记为直接机构依据；仅补普通书目与有界说明，不声称全集完备或学术研究覆盖。",
+        "source_author_id": "V1-ENT-0358",
+        "candidate_facts": [
+          {
+            "candidate_id": "WCD10-B20-F101",
+            "field": "genre_or_form",
+            "value": "小说",
+            "source_refs": [
+              "WCD10-B20-S101"
+            ],
+            "subject_id": "WCD10-B20-W101"
+          },
+          {
+            "candidate_id": "WCD10-B20-F121",
+            "field": "first_publication_year",
+            "value": "1963",
+            "source_refs": [
+              "WCD10-B20-S101"
+            ],
+            "subject_id": "WCD10-B20-W101"
+          },
+          {
+            "candidate_id": "WCD10-B20-F141",
+            "field": "one_sentence_summary",
+            "value": "ABL传记称其为第二部长篇小说，1963年出版；书目页列“romance”。",
+            "source_refs": [
+              "WCD10-B20-S102"
+            ],
+            "subject_id": "WCD10-B20-W101"
+          },
+          {
+            "candidate_id": "WCD10-B20-F161",
+            "field": "bibliographic_note",
+            "value": "ABL书目页列示年份1963；保留其书目口径。",
+            "source_refs": [
+              "WCD10-B20-S101"
+            ],
+            "subject_id": "WCD10-B20-W101"
+          }
+        ],
+        "formal_subject_id": "V1-ENT-0782",
+        "gap_id": "V1-GAP-0668"
+      },
+      {
+        "object_ref": "WCD10-B20-W102",
+        "entity": {
+          "entity_id": "WCD10-B20-W102",
+          "entity_type": "collection",
+          "name_zh": "《老鼠研讨会》（暂译）",
+          "original_name": "Seminário dos ratos",
+          "canonical_status": "candidate",
+          "origin_count": "1",
+          "origin_refs": "WCD10-B20-W102",
+          "normalization_basis": "Academia Brasileira de Letras直接书目及传记列出该作、年份、体裁或简要信息；只补有依据的普通书目和有限简介，不声称全集或学术覆盖。",
+          "issue_codes": "NONE"
+        },
+        "bibliography": "genre_or_form=短篇小说集；first_publication_year=1977；bibliographic_note=ABL书目页列示年份1977；保留其书目口径。",
+        "description": "ABL传记称该书于1977年出版并获PEN Clube奖；书目页列“contos”。",
+        "research_status": "institutional_commentary",
+        "research_refs": [
+          "WCD10-B20-S101",
+          "WCD10-B20-S102"
+        ],
+        "old_facts": [],
+        "cards": [],
+        "card_facts": [],
+        "card_sources": [],
+        "relations": [
+          {
+            "subject_id": "V1-ENT-0358",
+            "relation_type": "CREATED",
+            "object_id": "WCD10-B20-W102",
+            "source_refs": [
+              "WCD10-B20-S101"
+            ],
+            "description": "Lygia Fagundes Telles创作Seminário dos ratos；由直接来源支持，待独立审核。"
+          }
+        ],
+        "relationship_sources": [],
+        "relationship_evidence": [],
+        "source_objects": [],
+        "holds": [],
+        "gaps": [],
+        "fresh_review": true,
+        "remaining": "ABL书目及传记为直接机构依据；仅补普通书目与有界说明，不声称全集完备或学术研究覆盖。",
+        "source_author_id": "V1-ENT-0358",
+        "candidate_facts": [
+          {
+            "candidate_id": "WCD10-B20-F102",
+            "field": "genre_or_form",
+            "value": "短篇小说集",
+            "source_refs": [
+              "WCD10-B20-S101"
+            ],
+            "subject_id": "WCD10-B20-W102"
+          },
+          {
+            "candidate_id": "WCD10-B20-F122",
+            "field": "first_publication_year",
+            "value": "1977",
+            "source_refs": [
+              "WCD10-B20-S101"
+            ],
+            "subject_id": "WCD10-B20-W102"
+          },
+          {
+            "candidate_id": "WCD10-B20-F142",
+            "field": "one_sentence_summary",
+            "value": "ABL传记称该书于1977年出版并获PEN Clube奖；书目页列“contos”。",
+            "source_refs": [
+              "WCD10-B20-S102"
+            ],
+            "subject_id": "WCD10-B20-W102"
+          },
+          {
+            "candidate_id": "WCD10-B20-F162",
+            "field": "bibliographic_note",
+            "value": "ABL书目页列示年份1977；保留其书目口径。",
+            "source_refs": [
+              "WCD10-B20-S101"
+            ],
+            "subject_id": "WCD10-B20-W102"
+          }
+        ],
+        "formal_subject_id": "V1-ENT-0783",
+        "gap_id": "V1-GAP-0669"
+      },
+      {
+        "object_ref": "WCD10-B20-W103",
+        "entity": {
+          "entity_id": "WCD10-B20-W103",
+          "entity_type": "collection",
+          "name_zh": "《爱的规训》（暂译）",
+          "original_name": "A disciplina do amor",
+          "canonical_status": "candidate",
+          "origin_count": "1",
+          "origin_refs": "WCD10-B20-W103",
+          "normalization_basis": "Academia Brasileira de Letras直接书目及传记列出该作、年份、体裁或简要信息；只补有依据的普通书目和有限简介，不声称全集或学术覆盖。",
+          "issue_codes": "NONE"
+        },
+        "bibliography": "genre_or_form=虚构与回忆文集；first_publication_year=1980；bibliographic_note=ABL书目页列示年份1980；保留其书目口径。",
+        "description": "ABL书目页将其列为ficção e memória，1980；传记记载该书获奖。",
+        "research_status": "institutional_commentary",
+        "research_refs": [
+          "WCD10-B20-S101",
+          "WCD10-B20-S102"
+        ],
+        "old_facts": [],
+        "cards": [],
+        "card_facts": [],
+        "card_sources": [],
+        "relations": [
+          {
+            "subject_id": "V1-ENT-0358",
+            "relation_type": "CREATED",
+            "object_id": "WCD10-B20-W103",
+            "source_refs": [
+              "WCD10-B20-S101"
+            ],
+            "description": "Lygia Fagundes Telles创作A disciplina do amor；由直接来源支持，待独立审核。"
+          }
+        ],
+        "relationship_sources": [],
+        "relationship_evidence": [],
+        "source_objects": [],
+        "holds": [],
+        "gaps": [],
+        "fresh_review": true,
+        "remaining": "ABL书目及传记为直接机构依据；仅补普通书目与有界说明，不声称全集完备或学术研究覆盖。",
+        "source_author_id": "V1-ENT-0358",
+        "candidate_facts": [
+          {
+            "candidate_id": "WCD10-B20-F103",
+            "field": "genre_or_form",
+            "value": "虚构与回忆文集",
+            "source_refs": [
+              "WCD10-B20-S101"
+            ],
+            "subject_id": "WCD10-B20-W103"
+          },
+          {
+            "candidate_id": "WCD10-B20-F123",
+            "field": "first_publication_year",
+            "value": "1980",
+            "source_refs": [
+              "WCD10-B20-S101"
+            ],
+            "subject_id": "WCD10-B20-W103"
+          },
+          {
+            "candidate_id": "WCD10-B20-F143",
+            "field": "one_sentence_summary",
+            "value": "ABL书目页将其列为ficção e memória，1980；传记记载该书获奖。",
+            "source_refs": [
+              "WCD10-B20-S101",
+              "WCD10-B20-S102"
+            ],
+            "subject_id": "WCD10-B20-W103"
+          },
+          {
+            "candidate_id": "WCD10-B20-F163",
+            "field": "bibliographic_note",
+            "value": "ABL书目页列示年份1980；保留其书目口径。",
+            "source_refs": [
+              "WCD10-B20-S101"
+            ],
+            "subject_id": "WCD10-B20-W103"
+          }
+        ],
+        "formal_subject_id": "V1-ENT-0784",
+        "gap_id": "V1-GAP-0670"
+      },
+      {
+        "object_ref": "WCD10-B20-W104",
+        "entity": {
+          "entity_id": "WCD10-B20-W104",
+          "entity_type": "work",
+          "name_zh": "《裸露的时光》（暂译）",
+          "original_name": "As horas nuas",
+          "canonical_status": "candidate",
+          "origin_count": "1",
+          "origin_refs": "WCD10-B20-W104",
+          "normalization_basis": "Academia Brasileira de Letras直接书目及传记列出该作、年份、体裁或简要信息；只补有依据的普通书目和有限简介，不声称全集或学术覆盖。",
+          "issue_codes": "NONE"
+        },
+        "bibliography": "genre_or_form=小说；first_publication_year=1989；bibliographic_note=ABL书目页列示年份1989；保留其书目口径。",
+        "description": "ABL书目页列为romance，1989；传记称其获年度最佳图书奖。",
+        "research_status": "institutional_commentary",
+        "research_refs": [
+          "WCD10-B20-S101",
+          "WCD10-B20-S102"
+        ],
+        "old_facts": [],
+        "cards": [],
+        "card_facts": [],
+        "card_sources": [],
+        "relations": [
+          {
+            "subject_id": "V1-ENT-0358",
+            "relation_type": "CREATED",
+            "object_id": "WCD10-B20-W104",
+            "source_refs": [
+              "WCD10-B20-S101"
+            ],
+            "description": "Lygia Fagundes Telles创作As horas nuas；由直接来源支持，待独立审核。"
+          }
+        ],
+        "relationship_sources": [],
+        "relationship_evidence": [],
+        "source_objects": [],
+        "holds": [],
+        "gaps": [],
+        "fresh_review": true,
+        "remaining": "ABL书目及传记为直接机构依据；仅补普通书目与有界说明，不声称全集完备或学术研究覆盖。",
+        "source_author_id": "V1-ENT-0358",
+        "candidate_facts": [
+          {
+            "candidate_id": "WCD10-B20-F104",
+            "field": "genre_or_form",
+            "value": "小说",
+            "source_refs": [
+              "WCD10-B20-S101"
+            ],
+            "subject_id": "WCD10-B20-W104"
+          },
+          {
+            "candidate_id": "WCD10-B20-F124",
+            "field": "first_publication_year",
+            "value": "1989",
+            "source_refs": [
+              "WCD10-B20-S101"
+            ],
+            "subject_id": "WCD10-B20-W104"
+          },
+          {
+            "candidate_id": "WCD10-B20-F144",
+            "field": "one_sentence_summary",
+            "value": "ABL书目页列为romance，1989；传记称其获年度最佳图书奖。",
+            "source_refs": [
+              "WCD10-B20-S102"
+            ],
+            "subject_id": "WCD10-B20-W104"
+          },
+          {
+            "candidate_id": "WCD10-B20-F164",
+            "field": "bibliographic_note",
+            "value": "ABL书目页列示年份1989；保留其书目口径。",
+            "source_refs": [
+              "WCD10-B20-S101"
+            ],
+            "subject_id": "WCD10-B20-W104"
+          }
+        ],
+        "formal_subject_id": "V1-ENT-0785",
+        "gap_id": "V1-GAP-0671"
+      },
+      {
+        "object_ref": "WCD10-B20-W105",
+        "entity": {
+          "entity_id": "WCD10-B20-W105",
+          "entity_type": "collection",
+          "name_zh": "《黑夜与我》（暂译）",
+          "original_name": "A noite escura e mais eu",
+          "canonical_status": "candidate",
+          "origin_count": "1",
+          "origin_refs": "WCD10-B20-W105",
+          "normalization_basis": "Academia Brasileira de Letras直接书目及传记列出该作、年份、体裁或简要信息；只补有依据的普通书目和有限简介，不声称全集或学术覆盖。",
+          "issue_codes": "NONE"
+        },
+        "bibliography": "genre_or_form=短篇小说集；first_publication_year=1995；bibliographic_note=ABL书目页列示年份1995；保留其书目口径。",
+        "description": "ABL书目页列为contos，1995；传记说明其获国家图书馆奖等。",
+        "research_status": "institutional_commentary",
+        "research_refs": [
+          "WCD10-B20-S101",
+          "WCD10-B20-S102"
+        ],
+        "old_facts": [],
+        "cards": [],
+        "card_facts": [],
+        "card_sources": [],
+        "relations": [
+          {
+            "subject_id": "V1-ENT-0358",
+            "relation_type": "CREATED",
+            "object_id": "WCD10-B20-W105",
+            "source_refs": [
+              "WCD10-B20-S101"
+            ],
+            "description": "Lygia Fagundes Telles创作A noite escura e mais eu；由直接来源支持，待独立审核。"
+          }
+        ],
+        "relationship_sources": [],
+        "relationship_evidence": [],
+        "source_objects": [],
+        "holds": [],
+        "gaps": [],
+        "fresh_review": true,
+        "remaining": "ABL书目及传记为直接机构依据；仅补普通书目与有界说明，不声称全集完备或学术研究覆盖。",
+        "source_author_id": "V1-ENT-0358",
+        "candidate_facts": [
+          {
+            "candidate_id": "WCD10-B20-F105",
+            "field": "genre_or_form",
+            "value": "短篇小说集",
+            "source_refs": [
+              "WCD10-B20-S101"
+            ],
+            "subject_id": "WCD10-B20-W105"
+          },
+          {
+            "candidate_id": "WCD10-B20-F125",
+            "field": "first_publication_year",
+            "value": "1995",
+            "source_refs": [
+              "WCD10-B20-S101"
+            ],
+            "subject_id": "WCD10-B20-W105"
+          },
+          {
+            "candidate_id": "WCD10-B20-F145",
+            "field": "one_sentence_summary",
+            "value": "ABL书目页列为contos，1995；传记说明其获国家图书馆奖等。",
+            "source_refs": [
+              "WCD10-B20-S101",
+              "WCD10-B20-S102"
+            ],
+            "subject_id": "WCD10-B20-W105"
+          },
+          {
+            "candidate_id": "WCD10-B20-F165",
+            "field": "bibliographic_note",
+            "value": "ABL书目页列示年份1995；保留其书目口径。",
+            "source_refs": [
+              "WCD10-B20-S101"
+            ],
+            "subject_id": "WCD10-B20-W105"
+          }
+        ],
+        "formal_subject_id": "V1-ENT-0786",
+        "gap_id": "V1-GAP-0672"
+      },
+      {
+        "object_ref": "WCD10-B20-W106",
+        "entity": {
+          "entity_id": "WCD10-B20-W106",
+          "entity_type": "collection",
+          "name_zh": "《虚构与记忆》（暂译）",
+          "original_name": "Invenção e memória",
+          "canonical_status": "candidate",
+          "origin_count": "1",
+          "origin_refs": "WCD10-B20-W106",
+          "normalization_basis": "Academia Brasileira de Letras直接书目及传记列出该作、年份、体裁或简要信息；只补有依据的普通书目和有限简介，不声称全集或学术覆盖。",
+          "issue_codes": "NONE"
+        },
+        "bibliography": "genre_or_form=虚构与回忆文集；first_publication_year=2000；bibliographic_note=ABL书目页列示年份2000；保留其书目口径。",
+        "description": "ABL书目页列为ficção e memória，2000；传记称该书获Jabuti、APCA等奖。",
+        "research_status": "institutional_commentary",
+        "research_refs": [
+          "WCD10-B20-S101",
+          "WCD10-B20-S102"
+        ],
+        "old_facts": [],
+        "cards": [],
+        "card_facts": [],
+        "card_sources": [],
+        "relations": [
+          {
+            "subject_id": "V1-ENT-0358",
+            "relation_type": "CREATED",
+            "object_id": "WCD10-B20-W106",
+            "source_refs": [
+              "WCD10-B20-S101"
+            ],
+            "description": "Lygia Fagundes Telles创作Invenção e memória；由直接来源支持，待独立审核。"
+          }
+        ],
+        "relationship_sources": [],
+        "relationship_evidence": [],
+        "source_objects": [],
+        "holds": [],
+        "gaps": [],
+        "fresh_review": true,
+        "remaining": "ABL书目及传记为直接机构依据；仅补普通书目与有界说明，不声称全集完备或学术研究覆盖。",
+        "source_author_id": "V1-ENT-0358",
+        "candidate_facts": [
+          {
+            "candidate_id": "WCD10-B20-F106",
+            "field": "genre_or_form",
+            "value": "虚构与回忆文集",
+            "source_refs": [
+              "WCD10-B20-S101"
+            ],
+            "subject_id": "WCD10-B20-W106"
+          },
+          {
+            "candidate_id": "WCD10-B20-F126",
+            "field": "first_publication_year",
+            "value": "2000",
+            "source_refs": [
+              "WCD10-B20-S101"
+            ],
+            "subject_id": "WCD10-B20-W106"
+          },
+          {
+            "candidate_id": "WCD10-B20-F146",
+            "field": "one_sentence_summary",
+            "value": "ABL书目页列为ficção e memória，2000；传记称该书获Jabuti、APCA等奖。",
+            "source_refs": [
+              "WCD10-B20-S101",
+              "WCD10-B20-S102"
+            ],
+            "subject_id": "WCD10-B20-W106"
+          },
+          {
+            "candidate_id": "WCD10-B20-F166",
+            "field": "bibliographic_note",
+            "value": "ABL书目页列示年份2000；保留其书目口径。",
+            "source_refs": [
+              "WCD10-B20-S101"
+            ],
+            "subject_id": "WCD10-B20-W106"
+          }
+        ],
+        "formal_subject_id": "V1-ENT-0787",
+        "gap_id": "V1-GAP-0673"
+      },
+      {
+        "object_ref": "V1-ENT-0364",
+        "entity": {
+          "entity_id": "V1-ENT-0364",
+          "entity_type": "work",
+          "name_zh": "《瓦西蓬戈》",
+          "original_name": "Huasipungo",
+          "canonical_status": "candidate",
+          "origin_count": "1",
+          "origin_refs": "CAND-B17-JORGE-ICAZA-64",
+          "normalization_basis": "CCE catalogue lists Huasipungo and the UCE thesis dates the novel to 1934; Chinese label is provisional.",
+          "issue_codes": "NONE"
+        },
+        "bibliography": "冻结B20基线逐值快照；不改变既有对象。",
+        "description": "既有事实及Research卡片均逐值快照保全。",
+        "research_status": "catalog_only",
+        "research_refs": [
+          "SRC-0273",
+          "SRC-0274"
+        ],
+        "old_facts": [
+          {
+            "fact": {
+              "fact_id": "V1-FCT-0981",
+              "origin_material_id": "WEB-CE-B17",
+              "card_id": "V1-CARD-0249",
+              "subject_id": "V1-ENT-0364",
+              "fact_field": "entity_layer",
+              "value_text": "work",
+              "material_class": "metadata",
+              "origin_id": "SRC-0274",
+              "confidence": "high",
+              "admission_status": "candidate_for_staging_review",
+              "usage_note": "UCE thesis supports the work-level bibliographic entity."
+            },
+            "fact_sources": [
+              {
+                "fact_id": "V1-FCT-0981",
+                "source_id": "SRC-0273",
+                "source_title": "Jorge Icaza : frontera del relato indiginista"
+              },
+              {
+                "fact_id": "V1-FCT-0981",
+                "source_id": "SRC-0274",
+                "source_title": "Análisis comparativo dialectal de los cuentos El malo de Enrique Gil Gilbert y Barranca Grande de Jorge Icaza"
+              }
+            ]
+          },
+          {
+            "fact": {
+              "fact_id": "V1-FCT-0982",
+              "origin_material_id": "WEB-CE-B17",
+              "card_id": "V1-CARD-0249",
+              "subject_id": "V1-ENT-0364",
+              "fact_field": "first_publication_year",
+              "value_text": "1934",
+              "material_class": "bibliographic",
+              "origin_id": "SRC-0274",
+              "confidence": "high",
+              "admission_status": "candidate_for_staging_review",
+              "usage_note": "UCE thesis explicitly lists the work and publication year."
+            },
+            "fact_sources": [
+              {
+                "fact_id": "V1-FCT-0982",
+                "source_id": "SRC-0273",
+                "source_title": "Jorge Icaza : frontera del relato indiginista"
+              },
+              {
+                "fact_id": "V1-FCT-0982",
+                "source_id": "SRC-0274",
+                "source_title": "Análisis comparativo dialectal de los cuentos El malo de Enrique Gil Gilbert y Barranca Grande de Jorge Icaza"
+              }
+            ]
+          },
+          {
+            "fact": {
+              "fact_id": "V1-FCT-0983",
+              "origin_material_id": "WEB-CE-B17",
+              "card_id": "V1-CARD-0249",
+              "subject_id": "V1-ENT-0364",
+              "fact_field": "genre_or_form",
+              "value_text": "小说",
+              "material_class": "bibliographic",
+              "origin_id": "SRC-0274",
+              "confidence": "high",
+              "admission_status": "candidate_for_staging_review",
+              "usage_note": "UCE thesis explicitly lists the title among Jorge Icaza's novels."
+            },
+            "fact_sources": [
+              {
+                "fact_id": "V1-FCT-0983",
+                "source_id": "SRC-0273",
+                "source_title": "Jorge Icaza : frontera del relato indiginista"
+              },
+              {
+                "fact_id": "V1-FCT-0983",
+                "source_id": "SRC-0274",
+                "source_title": "Análisis comparativo dialectal de los cuentos El malo de Enrique Gil Gilbert y Barranca Grande de Jorge Icaza"
+              }
+            ]
+          }
+        ],
+        "cards": [
+          {
+            "card_id": "V1-CARD-0249",
+            "origin_card_id": "",
+            "subject_id": "V1-ENT-0364",
+            "card_type": "work",
+            "title_zh": "《瓦西蓬戈》",
+            "author_label": "豪尔赫·伊卡萨",
+            "original_title": "Huasipungo",
+            "country_or_region": "厄瓜多尔",
+            "language": "es",
+            "period_bucket": "1934",
+            "genre_or_form": "小说",
+            "input_layer": "WEB-CE-B17",
+            "source_minimum_status": "meets",
+            "issue_code": "NONE",
+            "content_markdown": "### 《瓦西蓬戈》｜Huasipungo — source-backed 小说 entry; original title retained."
+          }
+        ],
+        "card_facts": [
+          {
+            "card_id": "V1-CARD-0249",
+            "fact_id": "V1-FCT-0981",
+            "admission_status": "candidate_for_staging_review"
+          },
+          {
+            "card_id": "V1-CARD-0249",
+            "fact_id": "V1-FCT-0982",
+            "admission_status": "candidate_for_staging_review"
+          },
+          {
+            "card_id": "V1-CARD-0249",
+            "fact_id": "V1-FCT-0983",
+            "admission_status": "candidate_for_staging_review"
+          }
+        ],
+        "card_sources": [
+          {
+            "card_source_id": "V1-CS-0485",
+            "origin_matrix_id": "",
+            "card_id": "V1-CARD-0249",
+            "source_id": "SRC-0273",
+            "source_level": "B",
+            "source_role": "both",
+            "bibliographic_support": "yes",
+            "research_support": "yes",
+            "independent_source_key": "SRC-0273",
+            "usage_status": "used",
+            "issue_code": "NONE"
+          },
+          {
+            "card_source_id": "V1-CS-0486",
+            "origin_matrix_id": "",
+            "card_id": "V1-CARD-0249",
+            "source_id": "SRC-0274",
+            "source_level": "B",
+            "source_role": "both",
+            "bibliographic_support": "yes",
+            "research_support": "yes",
+            "independent_source_key": "SRC-0274",
+            "usage_status": "used",
+            "issue_code": "NONE"
+          }
+        ],
+        "relations": [
+          {
+            "relationship_id": "V1-REL-0287",
+            "origin_layer": "WEB-CE-B17",
+            "origin_relation_group_id": "V1-REL-0287",
+            "subject_id": "V1-ENT-0359",
+            "relation_type": "CREATED",
+            "object_id": "V1-ENT-0364",
+            "description_zh": "豪尔赫·伊卡萨创作《瓦西蓬戈》（Huasipungo）",
+            "confidence": "high",
+            "review_status": "accepted",
+            "upstream_review_status": "WEB-CE-B17",
+            "evidence_count": "1",
+            "issue_code": "NONE"
+          }
+        ],
+        "relationship_sources": [
+          {
+            "relationship_id": "V1-REL-0287",
+            "source_id": "SRC-0273"
+          },
+          {
+            "relationship_id": "V1-REL-0287",
+            "source_id": "SRC-0274"
+          }
+        ],
+        "relationship_evidence": [
+          {
+            "evidence_id": "V1-EV-0312",
+            "relationship_id": "V1-REL-0287",
+            "origin_evidence_id": "V1-REL-0287",
+            "source_id": "SRC-0273",
+            "source_title": "Jorge Icaza : frontera del relato indiginista",
+            "locator": "",
+            "evidence_note": "豪尔赫·伊卡萨创作《瓦西蓬戈》（Huasipungo） is directly supported by the cited source(s); no influence claim is made.",
+            "confidence": "high",
+            "evidence_status": "eligible_evidence",
+            "evidence_origin": "WEB-CE-B17"
+          }
+        ],
+        "source_objects": [
+          {
+            "source_id": "SRC-0273",
+            "temporary_id": "B17-SRC-0273",
+            "title": "Jorge Icaza : frontera del relato indiginista",
+            "original_title": "Jorge Icaza : frontera del relato indiginista",
+            "author_or_editor": "Manuel Corrales",
+            "translator": "",
+            "publisher": "Pontificia Universidad Católica del Ecuador / Casa de la Cultura Ecuatoriana",
+            "publication_year": "1974",
+            "isbn": "",
+            "format": "catalog_record",
+            "page_count": "",
+            "language": "es",
+            "source_level": "B",
+            "processing_status": "access_pass",
+            "source_task": "WEB-CE-B17",
+            "public_content_scope": "CCE catalogue describes the 1974 monograph and lists Huasipungo, En las calles and El Chulla Romero y Flores",
+            "local_asset_status": "remote_only",
+            "persistent_id": "",
+            "canonical_url": "https://biblioteca.casadelacultura.gob.ec/bib/10452"
+          },
+          {
+            "source_id": "SRC-0274",
+            "temporary_id": "B17-SRC-0274",
+            "title": "Análisis comparativo dialectal de los cuentos El malo de Enrique Gil Gilbert y Barranca Grande de Jorge Icaza",
+            "original_title": "Análisis comparativo dialectal de los cuentos El malo de Enrique Gil Gilbert y Barranca Grande de Jorge Icaza",
+            "author_or_editor": "Ivonne Verónica Mena Reina",
+            "translator": "",
+            "publisher": "Universidad Central del Ecuador",
+            "publication_year": "2021",
+            "isbn": "",
+            "format": "pdf",
+            "page_count": "",
+            "language": "es",
+            "source_level": "B",
+            "processing_status": "access_pass",
+            "source_task": "WEB-CE-B17",
+            "public_content_scope": "UCE thesis biography: Jorge Icaza born Quito 1906, died Quito 1978; novels Huasipungo 1934, En las calles 1935 and El chulla Romero y Flores 1958",
+            "local_asset_status": "remote_only",
+            "persistent_id": "",
+            "canonical_url": "https://www.dspace.uce.edu.ec/server/api/core/bitstreams/c4493f6a-e702-4d00-8f4f-653644f5a4a9/content"
+          }
+        ],
+        "holds": [],
+        "gaps": [],
+        "fresh_review": {
+          "source_refs": [],
+          "description": "冻结基线来源及事实/卡片/CREATED关系闭包逐值保留，留待批次独立Reviewer复核。"
+        },
+        "remaining": "仅对基线已有来源与卡片描述作快照；不宣称作者作品全集或学术覆盖完整。",
+        "source_author_id": "V1-ENT-0359",
+        "candidate_facts": [
+          {
+            "candidate_id": "WCD10-B20-F207",
+            "field": "one_sentence_summary",
+            "value": "Casa de la Cultura馆藏简介称，小说围绕庄园主Alfonso Pereira与印第安农民Andrés Chiliquinga展开，写到安第斯地区的剥削、土地丧失及反抗。",
+            "source_refs": [
+              "WCD10-B20-S203"
+            ],
+            "subject_id": "V1-ENT-0364"
+          }
+        ],
+        "snapshot_role": "frozen_baseline_snapshot",
+        "formal_subject_id": "V1-ENT-0364",
+        "gap_id": "V1-GAP-0674"
+      },
+      {
+        "object_ref": "V1-ENT-0365",
+        "entity": {
+          "entity_id": "V1-ENT-0365",
+          "entity_type": "work",
+          "name_zh": "《在街头》",
+          "original_name": "En las calles",
+          "canonical_status": "candidate",
+          "origin_count": "1",
+          "origin_refs": "CAND-B17-JORGE-ICAZA-65",
+          "normalization_basis": "CCE catalogue lists En las calles and the UCE thesis dates the novel to 1935; Chinese label is provisional.",
+          "issue_codes": "NONE"
+        },
+        "bibliography": "冻结B20基线逐值快照；不改变既有对象。",
+        "description": "既有事实及Research卡片均逐值快照保全。",
+        "research_status": "catalog_only",
+        "research_refs": [
+          "SRC-0273",
+          "SRC-0274"
+        ],
+        "old_facts": [
+          {
+            "fact": {
+              "fact_id": "V1-FCT-0984",
+              "origin_material_id": "WEB-CE-B17",
+              "card_id": "V1-CARD-0250",
+              "subject_id": "V1-ENT-0365",
+              "fact_field": "entity_layer",
+              "value_text": "work",
+              "material_class": "metadata",
+              "origin_id": "SRC-0274",
+              "confidence": "high",
+              "admission_status": "candidate_for_staging_review",
+              "usage_note": "UCE thesis supports the work-level bibliographic entity."
+            },
+            "fact_sources": [
+              {
+                "fact_id": "V1-FCT-0984",
+                "source_id": "SRC-0273",
+                "source_title": "Jorge Icaza : frontera del relato indiginista"
+              },
+              {
+                "fact_id": "V1-FCT-0984",
+                "source_id": "SRC-0274",
+                "source_title": "Análisis comparativo dialectal de los cuentos El malo de Enrique Gil Gilbert y Barranca Grande de Jorge Icaza"
+              }
+            ]
+          },
+          {
+            "fact": {
+              "fact_id": "V1-FCT-0985",
+              "origin_material_id": "WEB-CE-B17",
+              "card_id": "V1-CARD-0250",
+              "subject_id": "V1-ENT-0365",
+              "fact_field": "first_publication_year",
+              "value_text": "1935",
+              "material_class": "bibliographic",
+              "origin_id": "SRC-0274",
+              "confidence": "high",
+              "admission_status": "candidate_for_staging_review",
+              "usage_note": "UCE thesis explicitly lists the work and publication year."
+            },
+            "fact_sources": [
+              {
+                "fact_id": "V1-FCT-0985",
+                "source_id": "SRC-0273",
+                "source_title": "Jorge Icaza : frontera del relato indiginista"
+              },
+              {
+                "fact_id": "V1-FCT-0985",
+                "source_id": "SRC-0274",
+                "source_title": "Análisis comparativo dialectal de los cuentos El malo de Enrique Gil Gilbert y Barranca Grande de Jorge Icaza"
+              }
+            ]
+          },
+          {
+            "fact": {
+              "fact_id": "V1-FCT-0986",
+              "origin_material_id": "WEB-CE-B17",
+              "card_id": "V1-CARD-0250",
+              "subject_id": "V1-ENT-0365",
+              "fact_field": "genre_or_form",
+              "value_text": "小说",
+              "material_class": "bibliographic",
+              "origin_id": "SRC-0274",
+              "confidence": "high",
+              "admission_status": "candidate_for_staging_review",
+              "usage_note": "UCE thesis explicitly lists the title among Jorge Icaza's novels."
+            },
+            "fact_sources": [
+              {
+                "fact_id": "V1-FCT-0986",
+                "source_id": "SRC-0273",
+                "source_title": "Jorge Icaza : frontera del relato indiginista"
+              },
+              {
+                "fact_id": "V1-FCT-0986",
+                "source_id": "SRC-0274",
+                "source_title": "Análisis comparativo dialectal de los cuentos El malo de Enrique Gil Gilbert y Barranca Grande de Jorge Icaza"
+              }
+            ]
+          }
+        ],
+        "cards": [
+          {
+            "card_id": "V1-CARD-0250",
+            "origin_card_id": "",
+            "subject_id": "V1-ENT-0365",
+            "card_type": "work",
+            "title_zh": "《在街头》",
+            "author_label": "豪尔赫·伊卡萨",
+            "original_title": "En las calles",
+            "country_or_region": "厄瓜多尔",
+            "language": "es",
+            "period_bucket": "1935",
+            "genre_or_form": "小说",
+            "input_layer": "WEB-CE-B17",
+            "source_minimum_status": "meets",
+            "issue_code": "NONE",
+            "content_markdown": "### 《在街头》｜En las calles — source-backed 小说 entry; original title retained."
+          }
+        ],
+        "card_facts": [
+          {
+            "card_id": "V1-CARD-0250",
+            "fact_id": "V1-FCT-0984",
+            "admission_status": "candidate_for_staging_review"
+          },
+          {
+            "card_id": "V1-CARD-0250",
+            "fact_id": "V1-FCT-0985",
+            "admission_status": "candidate_for_staging_review"
+          },
+          {
+            "card_id": "V1-CARD-0250",
+            "fact_id": "V1-FCT-0986",
+            "admission_status": "candidate_for_staging_review"
+          }
+        ],
+        "card_sources": [
+          {
+            "card_source_id": "V1-CS-0487",
+            "origin_matrix_id": "",
+            "card_id": "V1-CARD-0250",
+            "source_id": "SRC-0273",
+            "source_level": "B",
+            "source_role": "both",
+            "bibliographic_support": "yes",
+            "research_support": "yes",
+            "independent_source_key": "SRC-0273",
+            "usage_status": "used",
+            "issue_code": "NONE"
+          },
+          {
+            "card_source_id": "V1-CS-0488",
+            "origin_matrix_id": "",
+            "card_id": "V1-CARD-0250",
+            "source_id": "SRC-0274",
+            "source_level": "B",
+            "source_role": "both",
+            "bibliographic_support": "yes",
+            "research_support": "yes",
+            "independent_source_key": "SRC-0274",
+            "usage_status": "used",
+            "issue_code": "NONE"
+          }
+        ],
+        "relations": [
+          {
+            "relationship_id": "V1-REL-0288",
+            "origin_layer": "WEB-CE-B17",
+            "origin_relation_group_id": "V1-REL-0288",
+            "subject_id": "V1-ENT-0359",
+            "relation_type": "CREATED",
+            "object_id": "V1-ENT-0365",
+            "description_zh": "豪尔赫·伊卡萨创作《在街头》（En las calles）",
+            "confidence": "high",
+            "review_status": "accepted",
+            "upstream_review_status": "WEB-CE-B17",
+            "evidence_count": "1",
+            "issue_code": "NONE"
+          }
+        ],
+        "relationship_sources": [
+          {
+            "relationship_id": "V1-REL-0288",
+            "source_id": "SRC-0273"
+          },
+          {
+            "relationship_id": "V1-REL-0288",
+            "source_id": "SRC-0274"
+          }
+        ],
+        "relationship_evidence": [
+          {
+            "evidence_id": "V1-EV-0313",
+            "relationship_id": "V1-REL-0288",
+            "origin_evidence_id": "V1-REL-0288",
+            "source_id": "SRC-0273",
+            "source_title": "Jorge Icaza : frontera del relato indiginista",
+            "locator": "",
+            "evidence_note": "豪尔赫·伊卡萨创作《在街头》（En las calles） is directly supported by the cited source(s); no influence claim is made.",
+            "confidence": "high",
+            "evidence_status": "eligible_evidence",
+            "evidence_origin": "WEB-CE-B17"
+          }
+        ],
+        "source_objects": [
+          {
+            "source_id": "SRC-0273",
+            "temporary_id": "B17-SRC-0273",
+            "title": "Jorge Icaza : frontera del relato indiginista",
+            "original_title": "Jorge Icaza : frontera del relato indiginista",
+            "author_or_editor": "Manuel Corrales",
+            "translator": "",
+            "publisher": "Pontificia Universidad Católica del Ecuador / Casa de la Cultura Ecuatoriana",
+            "publication_year": "1974",
+            "isbn": "",
+            "format": "catalog_record",
+            "page_count": "",
+            "language": "es",
+            "source_level": "B",
+            "processing_status": "access_pass",
+            "source_task": "WEB-CE-B17",
+            "public_content_scope": "CCE catalogue describes the 1974 monograph and lists Huasipungo, En las calles and El Chulla Romero y Flores",
+            "local_asset_status": "remote_only",
+            "persistent_id": "",
+            "canonical_url": "https://biblioteca.casadelacultura.gob.ec/bib/10452"
+          },
+          {
+            "source_id": "SRC-0274",
+            "temporary_id": "B17-SRC-0274",
+            "title": "Análisis comparativo dialectal de los cuentos El malo de Enrique Gil Gilbert y Barranca Grande de Jorge Icaza",
+            "original_title": "Análisis comparativo dialectal de los cuentos El malo de Enrique Gil Gilbert y Barranca Grande de Jorge Icaza",
+            "author_or_editor": "Ivonne Verónica Mena Reina",
+            "translator": "",
+            "publisher": "Universidad Central del Ecuador",
+            "publication_year": "2021",
+            "isbn": "",
+            "format": "pdf",
+            "page_count": "",
+            "language": "es",
+            "source_level": "B",
+            "processing_status": "access_pass",
+            "source_task": "WEB-CE-B17",
+            "public_content_scope": "UCE thesis biography: Jorge Icaza born Quito 1906, died Quito 1978; novels Huasipungo 1934, En las calles 1935 and El chulla Romero y Flores 1958",
+            "local_asset_status": "remote_only",
+            "persistent_id": "",
+            "canonical_url": "https://www.dspace.uce.edu.ec/server/api/core/bitstreams/c4493f6a-e702-4d00-8f4f-653644f5a4a9/content"
+          }
+        ],
+        "holds": [],
+        "gaps": [],
+        "fresh_review": {
+          "source_refs": [],
+          "description": "冻结基线来源及事实/卡片/CREATED关系闭包逐值保留，留待批次独立Reviewer复核。"
+        },
+        "remaining": "仅对基线已有来源与卡片描述作快照；不宣称作者作品全集或学术覆盖完整。",
+        "source_author_id": "V1-ENT-0359",
+        "candidate_facts": [
+          {
+            "candidate_id": "WCD10-B20-F208",
+            "field": "one_sentence_summary",
+            "value": "1948年评论文章将《En las calles》描述为写印第安人离开村庄、试图适应城市生活的小说，并讨论乡村人口迁移与社会阶层处境。",
+            "source_refs": [
+              "WCD10-B20-S202"
+            ],
+            "subject_id": "V1-ENT-0365"
+          }
+        ],
+        "snapshot_role": "frozen_baseline_snapshot",
+        "formal_subject_id": "V1-ENT-0365",
+        "gap_id": "V1-GAP-0675"
+      },
+      {
+        "object_ref": "V1-ENT-0366",
+        "entity": {
+          "entity_id": "V1-ENT-0366",
+          "entity_type": "work",
+          "name_zh": "《乔洛·罗梅罗与弗洛雷斯》",
+          "original_name": "El chulla Romero y Flores",
+          "canonical_status": "candidate",
+          "origin_count": "1",
+          "origin_refs": "CAND-B17-JORGE-ICAZA-66",
+          "normalization_basis": "CCE catalogue lists El Chulla Romero y Flores and the UCE thesis dates the novel to 1958; Chinese label is provisional.",
+          "issue_codes": "NONE"
+        },
+        "bibliography": "冻结B20基线逐值快照；不改变既有对象。",
+        "description": "既有事实及Research卡片均逐值快照保全。",
+        "research_status": "catalog_only",
+        "research_refs": [
+          "SRC-0273",
+          "SRC-0274"
+        ],
+        "old_facts": [
+          {
+            "fact": {
+              "fact_id": "V1-FCT-0987",
+              "origin_material_id": "WEB-CE-B17",
+              "card_id": "V1-CARD-0251",
+              "subject_id": "V1-ENT-0366",
+              "fact_field": "entity_layer",
+              "value_text": "work",
+              "material_class": "metadata",
+              "origin_id": "SRC-0274",
+              "confidence": "high",
+              "admission_status": "candidate_for_staging_review",
+              "usage_note": "UCE thesis supports the work-level bibliographic entity."
+            },
+            "fact_sources": [
+              {
+                "fact_id": "V1-FCT-0987",
+                "source_id": "SRC-0273",
+                "source_title": "Jorge Icaza : frontera del relato indiginista"
+              },
+              {
+                "fact_id": "V1-FCT-0987",
+                "source_id": "SRC-0274",
+                "source_title": "Análisis comparativo dialectal de los cuentos El malo de Enrique Gil Gilbert y Barranca Grande de Jorge Icaza"
+              }
+            ]
+          },
+          {
+            "fact": {
+              "fact_id": "V1-FCT-0988",
+              "origin_material_id": "WEB-CE-B17",
+              "card_id": "V1-CARD-0251",
+              "subject_id": "V1-ENT-0366",
+              "fact_field": "first_publication_year",
+              "value_text": "1958",
+              "material_class": "bibliographic",
+              "origin_id": "SRC-0274",
+              "confidence": "high",
+              "admission_status": "candidate_for_staging_review",
+              "usage_note": "UCE thesis explicitly lists the work and publication year."
+            },
+            "fact_sources": [
+              {
+                "fact_id": "V1-FCT-0988",
+                "source_id": "SRC-0273",
+                "source_title": "Jorge Icaza : frontera del relato indiginista"
+              },
+              {
+                "fact_id": "V1-FCT-0988",
+                "source_id": "SRC-0274",
+                "source_title": "Análisis comparativo dialectal de los cuentos El malo de Enrique Gil Gilbert y Barranca Grande de Jorge Icaza"
+              }
+            ]
+          },
+          {
+            "fact": {
+              "fact_id": "V1-FCT-0989",
+              "origin_material_id": "WEB-CE-B17",
+              "card_id": "V1-CARD-0251",
+              "subject_id": "V1-ENT-0366",
+              "fact_field": "genre_or_form",
+              "value_text": "小说",
+              "material_class": "bibliographic",
+              "origin_id": "SRC-0274",
+              "confidence": "high",
+              "admission_status": "candidate_for_staging_review",
+              "usage_note": "UCE thesis explicitly lists the title among Jorge Icaza's novels."
+            },
+            "fact_sources": [
+              {
+                "fact_id": "V1-FCT-0989",
+                "source_id": "SRC-0273",
+                "source_title": "Jorge Icaza : frontera del relato indiginista"
+              },
+              {
+                "fact_id": "V1-FCT-0989",
+                "source_id": "SRC-0274",
+                "source_title": "Análisis comparativo dialectal de los cuentos El malo de Enrique Gil Gilbert y Barranca Grande de Jorge Icaza"
+              }
+            ]
+          }
+        ],
+        "cards": [
+          {
+            "card_id": "V1-CARD-0251",
+            "origin_card_id": "",
+            "subject_id": "V1-ENT-0366",
+            "card_type": "work",
+            "title_zh": "《乔洛·罗梅罗与弗洛雷斯》",
+            "author_label": "豪尔赫·伊卡萨",
+            "original_title": "El chulla Romero y Flores",
+            "country_or_region": "厄瓜多尔",
+            "language": "es",
+            "period_bucket": "1958",
+            "genre_or_form": "小说",
+            "input_layer": "WEB-CE-B17",
+            "source_minimum_status": "meets",
+            "issue_code": "NONE",
+            "content_markdown": "### 《乔洛·罗梅罗与弗洛雷斯》｜El chulla Romero y Flores — source-backed 小说 entry; original title retained."
+          }
+        ],
+        "card_facts": [
+          {
+            "card_id": "V1-CARD-0251",
+            "fact_id": "V1-FCT-0987",
+            "admission_status": "candidate_for_staging_review"
+          },
+          {
+            "card_id": "V1-CARD-0251",
+            "fact_id": "V1-FCT-0988",
+            "admission_status": "candidate_for_staging_review"
+          },
+          {
+            "card_id": "V1-CARD-0251",
+            "fact_id": "V1-FCT-0989",
+            "admission_status": "candidate_for_staging_review"
+          }
+        ],
+        "card_sources": [
+          {
+            "card_source_id": "V1-CS-0489",
+            "origin_matrix_id": "",
+            "card_id": "V1-CARD-0251",
+            "source_id": "SRC-0273",
+            "source_level": "B",
+            "source_role": "both",
+            "bibliographic_support": "yes",
+            "research_support": "yes",
+            "independent_source_key": "SRC-0273",
+            "usage_status": "used",
+            "issue_code": "NONE"
+          },
+          {
+            "card_source_id": "V1-CS-0490",
+            "origin_matrix_id": "",
+            "card_id": "V1-CARD-0251",
+            "source_id": "SRC-0274",
+            "source_level": "B",
+            "source_role": "both",
+            "bibliographic_support": "yes",
+            "research_support": "yes",
+            "independent_source_key": "SRC-0274",
+            "usage_status": "used",
+            "issue_code": "NONE"
+          }
+        ],
+        "relations": [
+          {
+            "relationship_id": "V1-REL-0289",
+            "origin_layer": "WEB-CE-B17",
+            "origin_relation_group_id": "V1-REL-0289",
+            "subject_id": "V1-ENT-0359",
+            "relation_type": "CREATED",
+            "object_id": "V1-ENT-0366",
+            "description_zh": "豪尔赫·伊卡萨创作《乔洛·罗梅罗与弗洛雷斯》（El chulla Romero y Flores）",
+            "confidence": "high",
+            "review_status": "accepted",
+            "upstream_review_status": "WEB-CE-B17",
+            "evidence_count": "1",
+            "issue_code": "NONE"
+          }
+        ],
+        "relationship_sources": [
+          {
+            "relationship_id": "V1-REL-0289",
+            "source_id": "SRC-0273"
+          },
+          {
+            "relationship_id": "V1-REL-0289",
+            "source_id": "SRC-0274"
+          }
+        ],
+        "relationship_evidence": [
+          {
+            "evidence_id": "V1-EV-0314",
+            "relationship_id": "V1-REL-0289",
+            "origin_evidence_id": "V1-REL-0289",
+            "source_id": "SRC-0273",
+            "source_title": "Jorge Icaza : frontera del relato indiginista",
+            "locator": "",
+            "evidence_note": "豪尔赫·伊卡萨创作《乔洛·罗梅罗与弗洛雷斯》（El chulla Romero y Flores） is directly supported by the cited source(s); no influence claim is made.",
+            "confidence": "high",
+            "evidence_status": "eligible_evidence",
+            "evidence_origin": "WEB-CE-B17"
+          }
+        ],
+        "source_objects": [
+          {
+            "source_id": "SRC-0273",
+            "temporary_id": "B17-SRC-0273",
+            "title": "Jorge Icaza : frontera del relato indiginista",
+            "original_title": "Jorge Icaza : frontera del relato indiginista",
+            "author_or_editor": "Manuel Corrales",
+            "translator": "",
+            "publisher": "Pontificia Universidad Católica del Ecuador / Casa de la Cultura Ecuatoriana",
+            "publication_year": "1974",
+            "isbn": "",
+            "format": "catalog_record",
+            "page_count": "",
+            "language": "es",
+            "source_level": "B",
+            "processing_status": "access_pass",
+            "source_task": "WEB-CE-B17",
+            "public_content_scope": "CCE catalogue describes the 1974 monograph and lists Huasipungo, En las calles and El Chulla Romero y Flores",
+            "local_asset_status": "remote_only",
+            "persistent_id": "",
+            "canonical_url": "https://biblioteca.casadelacultura.gob.ec/bib/10452"
+          },
+          {
+            "source_id": "SRC-0274",
+            "temporary_id": "B17-SRC-0274",
+            "title": "Análisis comparativo dialectal de los cuentos El malo de Enrique Gil Gilbert y Barranca Grande de Jorge Icaza",
+            "original_title": "Análisis comparativo dialectal de los cuentos El malo de Enrique Gil Gilbert y Barranca Grande de Jorge Icaza",
+            "author_or_editor": "Ivonne Verónica Mena Reina",
+            "translator": "",
+            "publisher": "Universidad Central del Ecuador",
+            "publication_year": "2021",
+            "isbn": "",
+            "format": "pdf",
+            "page_count": "",
+            "language": "es",
+            "source_level": "B",
+            "processing_status": "access_pass",
+            "source_task": "WEB-CE-B17",
+            "public_content_scope": "UCE thesis biography: Jorge Icaza born Quito 1906, died Quito 1978; novels Huasipungo 1934, En las calles 1935 and El chulla Romero y Flores 1958",
+            "local_asset_status": "remote_only",
+            "persistent_id": "",
+            "canonical_url": "https://www.dspace.uce.edu.ec/server/api/core/bitstreams/c4493f6a-e702-4d00-8f4f-653644f5a4a9/content"
+          }
+        ],
+        "holds": [],
+        "gaps": [],
+        "fresh_review": {
+          "source_refs": [],
+          "description": "冻结基线来源及事实/卡片/CREATED关系闭包逐值保留，留待批次独立Reviewer复核。"
+        },
+        "remaining": "仅对基线已有来源与卡片描述作快照；不宣称作者作品全集或学术覆盖完整。",
+        "source_author_id": "V1-ENT-0359",
+        "candidate_facts": [
+          {
+            "candidate_id": "WCD10-B20-F209",
+            "field": "one_sentence_summary",
+            "value": "Casa de la Cultura馆藏书目摘录以街区、街道与酒馆为故事场景，并将主人公描述为难以归入单一社会阶层的人物。",
+            "source_refs": [
+              "WCD10-B20-S204"
+            ],
+            "subject_id": "V1-ENT-0366"
+          }
+        ],
+        "snapshot_role": "frozen_baseline_snapshot",
+        "formal_subject_id": "V1-ENT-0366",
+        "gap_id": "V1-GAP-0676"
+      },
+      {
+        "object_ref": "WCD10-B20-W201",
+        "entity": {
+          "entity_id": "WCD10-B20-W201",
+          "entity_type": "collection",
+          "name_zh": "《山间泥土》（暂译）",
+          "original_name": "Barro de la sierra",
+          "canonical_status": "candidate",
+          "origin_count": "1",
+          "origin_refs": "WCD10-B20-W201",
+          "normalization_basis": "1948年Casa de la Cultura评论文章将该书列为Icaza的 cuentos 集，给出1933年书目年份并讨论其中故事；补录为合集，不拆分篇目。",
+          "issue_codes": "NONE"
+        },
+        "bibliography": "来源直接著录作品类型及书目年份；仅记录已证版本信息。",
+        "description": "1948年评论文章称本书收录五篇故事，并以《Cachorros》《Sed》《Éxodo》等篇目讨论儿童成长、印第安村庄的困境与社会压迫。",
+        "research_status": "institutional_commentary",
+        "research_refs": [
+          "WCD10-B20-S202"
+        ],
+        "old_facts": [],
+        "cards": [],
+        "card_facts": [],
+        "card_sources": [],
+        "relations": [],
+        "relationship_sources": [],
+        "relationship_evidence": [],
+        "source_objects": [],
+        "holds": [],
+        "gaps": [],
+        "fresh_review": true,
+        "remaining": "单一直接机构来源支持普通书目及有界说明；未声称学术覆盖。",
+        "source_author_id": "V1-ENT-0359",
+        "candidate_facts": [
+          {
+            "candidate_id": "WCD10-B20-F201",
+            "field": "genre_or_form",
+            "value": "短篇小说集",
+            "source_refs": [
+              "WCD10-B20-S202"
+            ],
+            "subject_id": "WCD10-B20-W201"
+          },
+          {
+            "candidate_id": "WCD10-B20-F202",
+            "field": "first_publication_year",
+            "value": "1933",
+            "source_refs": [
+              "WCD10-B20-S202"
+            ],
+            "subject_id": "WCD10-B20-W201"
+          },
+          {
+            "candidate_id": "WCD10-B20-F203",
+            "field": "one_sentence_summary",
+            "value": "1948年评论文章称本书收录五篇故事，并以《Cachorros》《Sed》《Éxodo》等篇目讨论儿童成长、印第安村庄的困境与社会压迫。",
+            "source_refs": [
+              "WCD10-B20-S202"
+            ],
+            "subject_id": "WCD10-B20-W201"
+          }
+        ],
+        "formal_subject_id": "V1-ENT-0788",
+        "gap_id": "V1-GAP-0677"
+      },
+      {
+        "object_ref": "WCD10-B20-W202",
+        "entity": {
+          "entity_id": "WCD10-B20-W202",
+          "entity_type": "work",
+          "name_zh": "《瓦伊拉帕穆什卡斯》（暂译）",
+          "original_name": "Huairapamushcas",
+          "canonical_status": "candidate",
+          "origin_count": "1",
+          "origin_refs": "WCD10-B20-W202",
+          "normalization_basis": "厄瓜多尔Casa de la Cultura图书馆目录直接著录Icaza同名小说并列出1948年出版信息和内容单元。",
+          "issue_codes": "NONE"
+        },
+        "bibliography": "来源直接著录作品类型及书目年份；仅记录已证版本信息。",
+        "description": "Casa de la Cultura目录将其著录为小说，并列出《La longa Juana》《Yatunyura y Guagraloma》《Huairapamushcas》等内容单元。",
+        "research_status": "institutional_commentary",
+        "research_refs": [
+          "WCD10-B20-S201"
+        ],
+        "old_facts": [],
+        "cards": [],
+        "card_facts": [],
+        "card_sources": [],
+        "relations": [],
+        "relationship_sources": [],
+        "relationship_evidence": [],
+        "source_objects": [],
+        "holds": [],
+        "gaps": [],
+        "fresh_review": true,
+        "remaining": "单一直接机构来源支持普通书目及有界说明；未声称学术覆盖。",
+        "source_author_id": "V1-ENT-0359",
+        "candidate_facts": [
+          {
+            "candidate_id": "WCD10-B20-F204",
+            "field": "genre_or_form",
+            "value": "小说",
+            "source_refs": [
+              "WCD10-B20-S201"
+            ],
+            "subject_id": "WCD10-B20-W202"
+          },
+          {
+            "candidate_id": "WCD10-B20-F205",
+            "field": "first_publication_year",
+            "value": "1948",
+            "source_refs": [
+              "WCD10-B20-S201"
+            ],
+            "subject_id": "WCD10-B20-W202"
+          },
+          {
+            "candidate_id": "WCD10-B20-F206",
+            "field": "one_sentence_summary",
+            "value": "Casa de la Cultura目录将其著录为小说，并列出《La longa Juana》《Yatunyura y Guagraloma》《Huairapamushcas》等内容单元。",
+            "source_refs": [
+              "WCD10-B20-S201"
+            ],
+            "subject_id": "WCD10-B20-W202"
+          }
+        ],
+        "formal_subject_id": "V1-ENT-0789",
+        "gap_id": "V1-GAP-0678"
+      }
+    ],
+    "deferred_objects": [
+      {
+        "key": "V1-ENT-0346.full_oeuvre",
+        "disposition": "deferred",
+        "reason": "作者作品序列未被本轮来源穷尽；按DEC-070保留开放边界，不把本次样本称作全集。"
+      },
+      {
+        "author_id": "V1-ENT-0358",
+        "key": "WCD10:B20:Telles:bounded_uncovered_roster",
+        "disposition": "deferred_research_gap",
+        "reason": "全集、全部短篇、早期作品及译本未穷尽。"
+      }
+    ]
+  },
+  "metadata_hash_boundary": "metadata.sha256 is the unchanged V1.0.0 historical snapshot table-hash set, not a current-table digest. Current integrity uses baseline database SHA, reviewed SQL SHA, migration log, replay and deterministic exports.",
+  "sources": [
+    {
+      "candidate_id": "WCD10-B20-S001",
+      "source_id": "SRC-0784",
+      "scope_decision": {
+        "disposition": "fresh_registration",
+        "notes": "远程阅读作者官网作品目录；不下载或保存作品文件。"
+      },
+      "accessed_at": "2026-10-14",
+      "verified_by": "GPT-6 Luna (WCD-10-B20 Peri Rossi candidate producer)；GPT-6 Luna, WCD-10-B20 Telles candidate producer；GPT-6 Luna, WCD-10-B20 Jorge Icaza author-isolated candidate producer; source metadata correction R1 per parent review",
+      "copyright_boundary": "只保存必要的书目信息和短篇幅释义；不复制原作全文、扫描件或长段受保护内容。；仅记录书目元数据、来源定位和短篇幅中文释义；不复制网页全文、作品全文、扫描件或图像。；仅保留作品书目信息、网页定位和短篇幅中文释义；不复制来源全文、图书正文、封面图或扫描件。",
+      "locator": "实读2026-10-14，第1–4行列《El libro de mis primos》及Grijalbo 1989版本；第4行说明多位表兄弟的声音、家族衰落和城市游击运动，Oliverio的视角串起家庭关系与情欲变化。",
+      "usage": "支持书目题名与作者官网所载1989年版本信息；直接支持小说题材简介。原子首版年由Instituto Cervantes来源另证为1969。",
+      "notes": "远程阅读作者官网作品目录；不下载或保存作品文件。"
+    },
+    {
+      "candidate_id": "WCD10-B20-S002",
+      "source_id": "SRC-0785",
+      "scope_decision": {
+        "disposition": "fresh_registration",
+        "notes": "文化中心评论页；仅保留短篇幅中文释义和书目信息。"
+      },
+      "accessed_at": "2026-10-14",
+      "verified_by": "GPT-6 Luna (WCD-10-B20 Peri Rossi candidate producer)；GPT-6 Luna, WCD-10-B20 Telles candidate producer；GPT-6 Luna, WCD-10-B20 Jorge Icaza author-isolated candidate producer; source metadata correction R1 per parent review",
+      "copyright_boundary": "只保存必要的书目信息和短篇幅释义；不复制原作全文、扫描件或长段受保护内容。；仅记录书目元数据、来源定位和短篇幅中文释义；不复制网页全文、作品全文、扫描件或图像。；仅保留作品书目信息、网页定位和短篇幅中文释义；不复制来源全文、图书正文、封面图或扫描件。",
+      "locator": "实读2026-10-14，第17–20行明载作品为1984年小说，描述Equis的流亡旅程、片段化多声叙事与流离失所经验，并说明作品围绕赫罗纳大教堂《创世挂毯》展开。",
+      "usage": "支持La nave de los locos作者归属、小说体裁、1984年书目年份及限于来源叙述的流亡旅行与片段式结构简介。",
+      "notes": "文化中心评论页；仅保留短篇幅中文释义和书目信息。"
+    },
+    {
+      "candidate_id": "WCD10-B20-S003",
+      "source_id": "SRC-0786",
+      "scope_decision": {
+        "disposition": "fresh_registration",
+        "notes": "远程读取作者官网作品介绍；不保存书籍文件或受保护文本。"
+      },
+      "accessed_at": "2026-10-14",
+      "verified_by": "GPT-6 Luna (WCD-10-B20 Peri Rossi candidate producer)；GPT-6 Luna, WCD-10-B20 Telles candidate producer；GPT-6 Luna, WCD-10-B20 Jorge Icaza author-isolated candidate producer; source metadata correction R1 per parent review",
+      "copyright_boundary": "只保存必要的书目信息和短篇幅释义；不复制原作全文、扫描件或长段受保护内容。；仅记录书目元数据、来源定位和短篇幅中文释义；不复制网页全文、作品全文、扫描件或图像。；仅保留作品书目信息、网页定位和短篇幅中文释义；不复制来源全文、图书正文、封面图或扫描件。",
+      "locator": "实读2026-10-14，第191–209行：官网将其列为2015年作品/Relatos，列出版社Menoscuarto、ISBN及西班牙语，并概述各篇围绕意外而强烈的诱惑展开、发生于当代城市并涉及孤独与短暂相遇。",
+      "usage": "为既有短篇小说集补充有界内容事实；年份和体裁已在基线存在，不重复添加。",
+      "notes": "远程读取作者官网作品介绍；不保存书籍文件或受保护文本。"
+    },
+    {
+      "candidate_id": "WCD10-B20-S004",
+      "source_id": "SRC-0787",
+      "scope_decision": {
+        "disposition": "fresh_registration",
+        "notes": "远程读取作者官网明确列示的三个书版出版信息；页面显示日期不作为网页发布日期。"
+      },
+      "accessed_at": "2026-10-14",
+      "verified_by": "GPT-6 Luna (WCD-10-B20 Peri Rossi candidate producer)；GPT-6 Luna, WCD-10-B20 Telles candidate producer；GPT-6 Luna, WCD-10-B20 Jorge Icaza author-isolated candidate producer; source metadata correction R1 per parent review",
+      "copyright_boundary": "只保存必要的书目信息和短篇幅释义；不复制原作全文、扫描件或长段受保护内容。；仅记录书目元数据、来源定位和短篇幅中文释义；不复制网页全文、作品全文、扫描件或图像。；仅保留作品书目信息、网页定位和短篇幅中文释义；不复制来源全文、图书正文、封面图或扫描件。",
+      "locator": "实读2026-10-14，作者官网作品条目第192–225行列《La Tarde del Dinosaurio》及Planeta 1976版、Plaza & Janés 1984版与TROPO 2008版。页面顶部显示的1976日期不作为可确认的网页发布日期。",
+      "usage": "仅支持作者官网明确列出的1976/1984/2008书版信息；不据页面显示日期推断网页实际发布日期、作品内容或其他出版事实。",
+      "notes": "远程读取作者官网明确列示的三个书版出版信息；页面显示日期不作为网页发布日期。"
+    },
+    {
+      "candidate_id": "WCD10-B20-S005",
+      "source_id": "SRC-0788",
+      "scope_decision": {
+        "disposition": "fresh_registration",
+        "notes": "作者第一人称自述；限定为作者自述性释义，不升级成学术评论。"
+      },
+      "accessed_at": "2026-10-14",
+      "verified_by": "GPT-6 Luna (WCD-10-B20 Peri Rossi candidate producer)；GPT-6 Luna, WCD-10-B20 Telles candidate producer；GPT-6 Luna, WCD-10-B20 Jorge Icaza author-isolated candidate producer; source metadata correction R1 per parent review",
+      "copyright_boundary": "只保存必要的书目信息和短篇幅释义；不复制原作全文、扫描件或长段受保护内容。；仅记录书目元数据、来源定位和短篇幅中文释义；不复制网页全文、作品全文、扫描件或图像。；仅保留作品书目信息、网页定位和短篇幅中文释义；不复制来源全文、图书正文、封面图或扫描件。",
+      "locator": "实读2026-10-14，作者官网Barcos第201行称海难是其着迷的诗歌与绘画隐喻，并说明因此将一本早期诗集命名为《Descripción de un naufragio》。",
+      "usage": "仅支持作者对命名缘由的直接自述；不将作者关于海事物件、航海或爱情的其他总体自述扩展到该诗集。",
+      "notes": "作者第一人称自述；限定为作者自述性释义，不升级成学术评论。"
+    },
+    {
+      "candidate_id": "WCD10-B20-S006",
+      "source_id": "SRC-0268",
+      "disposition": "reuse_without_modifying_source",
+      "scope_decision": {
+        "disposition": "reuse_existing_source",
+        "notes": "显式复用冻结来源SRC-0268；不改写任何正式来源元数据。"
+      },
+      "accessed_at": "2026-10-14",
+      "verified_by": "GPT-6 Luna (WCD-10-B20 Peri Rossi candidate producer)；GPT-6 Luna, WCD-10-B20 Telles candidate producer；GPT-6 Luna, WCD-10-B20 Jorge Icaza author-isolated candidate producer; source metadata correction R1 per parent review",
+      "copyright_boundary": "只保存必要的书目信息和短篇幅释义；不复制原作全文、扫描件或长段受保护内容。；仅记录书目元数据、来源定位和短篇幅中文释义；不复制网页全文、作品全文、扫描件或图像。；仅保留作品书目信息、网页定位和短篇幅中文释义；不复制来源全文、图书正文、封面图或扫描件。",
+      "locator": "实读2026-10-14，Instituto Cervantes《Cronología de obras》第97–103行将《El libro de mis primos》列为1969年小说、《La nave de los locos》列为1984年小说；URL与冻结基线SRC-0268相同，整行复用。",
+      "usage": "仅复用既有来源记录SRC-0268，来源等级及正式元数据保持不变。",
+      "notes": "显式复用冻结来源SRC-0268；不改写任何正式来源元数据。"
+    },
+    {
+      "candidate_id": "WCD10-B20-S007",
+      "source_id": "SRC-0267",
+      "disposition": "reuse_without_modifying_source",
+      "scope_decision": {
+        "disposition": "reuse_existing_source",
+        "notes": "显式复用冻结来源SRC-0267；不改写任何正式来源元数据。"
+      },
+      "accessed_at": "2026-10-14",
+      "verified_by": "GPT-6 Luna (WCD-10-B20 Peri Rossi candidate producer)；GPT-6 Luna, WCD-10-B20 Telles candidate producer；GPT-6 Luna, WCD-10-B20 Jorge Icaza author-isolated candidate producer; source metadata correction R1 per parent review",
+      "copyright_boundary": "只保存必要的书目信息和短篇幅释义；不复制原作全文、扫描件或长段受保护内容。；仅记录书目元数据、来源定位和短篇幅中文释义；不复制网页全文、作品全文、扫描件或图像。；仅保留作品书目信息、网页定位和短篇幅中文释义；不复制来源全文、图书正文、封面图或扫描件。",
+      "locator": "实读2026-10-14，Instituto Cervantes《Biografía》第50行称《El libro de mis primos》(1969)为作者首部小说；URL与冻结基线SRC-0267相同，整行复用。",
+      "usage": "仅复用既有来源记录SRC-0267，来源等级及正式元数据保持不变。",
+      "notes": "显式复用冻结来源SRC-0267；不改写任何正式来源元数据。"
+    },
+    {
+      "candidate_id": "WCD10-B20-S101",
+      "source_id": "SRC-0271",
+      "disposition": "reuse_without_modifying_source",
+      "scope_decision": {},
+      "accessed_at": "2026-10-14",
+      "verified_by": "GPT-6 Luna (WCD-10-B20 Peri Rossi candidate producer)；GPT-6 Luna, WCD-10-B20 Telles candidate producer；GPT-6 Luna, WCD-10-B20 Jorge Icaza author-isolated candidate producer; source metadata correction R1 per parent review",
+      "copyright_boundary": "只保存必要的书目信息和短篇幅释义；不复制原作全文、扫描件或长段受保护内容。；仅记录书目元数据、来源定位和短篇幅中文释义；不复制网页全文、作品全文、扫描件或图像。；仅保留作品书目信息、网页定位和短篇幅中文释义；不复制来源全文、图书正文、封面图或扫描件。",
+      "locator": "2026-10-14实际打开。ABL书目页第7–36行列Rocco出版作品及体裁/年份；第112–125行列合作选集、合集参与篇目及其书目细节。已按原URL复用SRC-0271，不修改任何既有来源元数据。",
+      "usage": "支持主作品书目、体裁和书目年份；第113行支持Gaby收录于Os sete pecados capitais及卷内页码。",
+      "notes": ""
+    },
+    {
+      "candidate_id": "WCD10-B20-S102",
+      "source_id": "SRC-0789",
+      "scope_decision": {},
+      "accessed_at": "2026-10-14",
+      "verified_by": "GPT-6 Luna (WCD-10-B20 Peri Rossi candidate producer)；GPT-6 Luna, WCD-10-B20 Telles candidate producer；GPT-6 Luna, WCD-10-B20 Jorge Icaza author-isolated candidate producer; source metadata correction R1 per parent review",
+      "copyright_boundary": "只保存必要的书目信息和短篇幅释义；不复制原作全文、扫描件或长段受保护内容。；仅记录书目元数据、来源定位和短篇幅中文释义；不复制网页全文、作品全文、扫描件或图像。；仅保留作品书目信息、网页定位和短篇幅中文释义；不复制来源全文、图书正文、封面图或扫描件。",
+      "locator": "2026-10-14实际打开。第11–18行逐项记载Ciranda de pedra、Verão no aquário、Antes do Baile Verde、As Meninas、Seminário dos Ratos、A Disciplina do Amor、As Horas Nuas、A Noite Escura e Mais Eu、Invenção e Memória等作品及有限描述；第72行页面更新日期。",
+      "usage": "支持已有作品的限缩描述和主要作品候选的直接机构说明；不将奖项信息泛化为作品内容分析。",
+      "notes": ""
+    },
+    {
+      "candidate_id": "WCD10-B20-S201",
+      "source_id": "SRC-0790",
+      "scope_decision": {},
+      "accessed_at": "2026-10-14",
+      "verified_by": "GPT-6 Luna (WCD-10-B20 Peri Rossi candidate producer)；GPT-6 Luna, WCD-10-B20 Telles candidate producer；GPT-6 Luna, WCD-10-B20 Jorge Icaza author-isolated candidate producer; source metadata correction R1 per parent review",
+      "copyright_boundary": "只保存必要的书目信息和短篇幅释义；不复制原作全文、扫描件或长段受保护内容。；仅记录书目元数据、来源定位和短篇幅中文释义；不复制网页全文、作品全文、扫描件或图像。；仅保留作品书目信息、网页定位和短篇幅中文释义；不复制来源全文、图书正文、封面图或扫描件。",
+      "locator": "2026-10-14实际打开；第23-28行题名、Icaza署名、出版社及1948书目；第37-48行Novela ecuatoriana主题词及目录列出的叙事单元。",
+      "usage": "直接支持作品归属、小说体裁、1948年该书目记录及有限的目录式说明；记录不声称学术覆盖。",
+      "notes": ""
+    },
+    {
+      "candidate_id": "WCD10-B20-S202",
+      "source_id": "SRC-0791",
+      "scope_decision": {},
+      "accessed_at": "2026-10-14",
+      "verified_by": "GPT-6 Luna (WCD-10-B20 Peri Rossi candidate producer)；GPT-6 Luna, WCD-10-B20 Telles candidate producer；GPT-6 Luna, WCD-10-B20 Jorge Icaza author-isolated candidate producer; source metadata correction R1 per parent review",
+      "copyright_boundary": "只保存必要的书目信息和短篇幅释义；不复制原作全文、扫描件或长段受保护内容。；仅记录书目元数据、来源定位和短篇幅中文释义；不复制网页全文、作品全文、扫描件或图像。；仅保留作品书目信息、网页定位和短篇幅中文释义；不复制来源全文、图书正文、封面图或扫描件。",
+      "locator": "2026-10-14实际打开PDF；印刷页148（网页PDF页148）列出《Barro de la sierra》(cuentos, 1933)、《Huasipungo》(1934)、《En las calles》(1935)、《Cholos》(1937)、《Media vida deslumbrados》(1942)；印刷页148–150讨论《Barro de la sierra》五篇故事及《Cachorros》《Sed》《Éxodo》等；印刷页158–159讨论《En las calles》及乡村移民至城市的情节。",
+      "usage": "直接支持《Barro de la sierra》的作者归属、短篇集类别、1933年书目记录及有界介绍；支持对既有《En las calles》的限缩简介。1948文章所列《Media vida deslumbrados》等仅作查重/后续书目线索，不自动创建。",
+      "notes": ""
+    },
+    {
+      "candidate_id": "WCD10-B20-S203",
+      "source_id": "SRC-0792",
+      "scope_decision": {},
+      "accessed_at": "2026-10-14",
+      "verified_by": "GPT-6 Luna (WCD-10-B20 Peri Rossi candidate producer)；GPT-6 Luna, WCD-10-B20 Telles candidate producer；GPT-6 Luna, WCD-10-B20 Jorge Icaza author-isolated candidate producer; source metadata correction R1 per parent review",
+      "copyright_boundary": "只保存必要的书目信息和短篇幅释义；不复制原作全文、扫描件或长段受保护内容。；仅记录书目元数据、来源定位和短篇幅中文释义；不复制网页全文、作品全文、扫描件或图像。；仅保留作品书目信息、网页定位和短篇幅中文释义；不复制来源全文、图书正文、封面图或扫描件。",
+      "locator": "2026-10-14实际打开；第25-30行作者、书目版本及出版信息；第42-48、56行收录的图书馆简介概括书中农庄主Alfonso Pereira、印第安农民Andrés Chiliquinga、安第斯地区土地剥夺与反抗。",
+      "usage": "仅支持受限作品简介；1985是该馆藏版本的出版年，不作为作品首版年份。",
+      "notes": ""
+    },
+    {
+      "candidate_id": "WCD10-B20-S204",
+      "source_id": "SRC-0793",
+      "scope_decision": {},
+      "accessed_at": "2026-10-14",
+      "verified_by": "GPT-6 Luna (WCD-10-B20 Peri Rossi candidate producer)；GPT-6 Luna, WCD-10-B20 Telles candidate producer；GPT-6 Luna, WCD-10-B20 Jorge Icaza author-isolated candidate producer; source metadata correction R1 per parent review",
+      "copyright_boundary": "只保存必要的书目信息和短篇幅释义；不复制原作全文、扫描件或长段受保护内容。；仅记录书目元数据、来源定位和短篇幅中文释义；不复制网页全文、作品全文、扫描件或图像。；仅保留作品书目信息、网页定位和短篇幅中文释义；不复制来源全文、图书正文、封面图或扫描件。",
+      "locator": "2026-10-14实际打开；第23-28行作者与1958年出版信息；第37-45、60行主题词为厄瓜多尔小说，馆藏书目摘录以城市街区、街道、酒馆和社会归属困境描述人物。",
+      "usage": "支持既有作品的受限简介与版本书目信息；此网页提供的1958为该馆藏版本出版年，本候选不另行覆盖原子首发年。",
+      "notes": ""
+    }
+  ],
+  "facts": [
+    {
+      "candidate_id": "WCD10-B20-W001-F01",
+      "fact_id": "V1-FCT-2617",
+      "subject_id": "V1-ENT-0780",
+      "field": "genre_or_form"
+    },
+    {
+      "candidate_id": "WCD10-B20-W001-F02",
+      "fact_id": "V1-FCT-2618",
+      "subject_id": "V1-ENT-0780",
+      "field": "first_publication_year"
+    },
+    {
+      "candidate_id": "WCD10-B20-W001-F03",
+      "fact_id": "V1-FCT-2619",
+      "subject_id": "V1-ENT-0780",
+      "field": "one_sentence_summary"
+    },
+    {
+      "candidate_id": "WCD10-B20-W002-F01",
+      "fact_id": "V1-FCT-2620",
+      "subject_id": "V1-ENT-0781",
+      "field": "genre_or_form"
+    },
+    {
+      "candidate_id": "WCD10-B20-W002-F02",
+      "fact_id": "V1-FCT-2621",
+      "subject_id": "V1-ENT-0781",
+      "field": "first_publication_year"
+    },
+    {
+      "candidate_id": "WCD10-B20-W002-F03",
+      "fact_id": "V1-FCT-2622",
+      "subject_id": "V1-ENT-0781",
+      "field": "one_sentence_summary"
+    },
+    {
+      "candidate_id": "WCD10-B20-W101-F01",
+      "fact_id": "V1-FCT-2623",
+      "subject_id": "V1-ENT-0782",
+      "field": "genre_or_form"
+    },
+    {
+      "candidate_id": "WCD10-B20-W101-F02",
+      "fact_id": "V1-FCT-2624",
+      "subject_id": "V1-ENT-0782",
+      "field": "first_publication_year"
+    },
+    {
+      "candidate_id": "WCD10-B20-W101-F03",
+      "fact_id": "V1-FCT-2625",
+      "subject_id": "V1-ENT-0782",
+      "field": "one_sentence_summary"
+    },
+    {
+      "candidate_id": "WCD10-B20-W101-F04",
+      "fact_id": "V1-FCT-2626",
+      "subject_id": "V1-ENT-0782",
+      "field": "bibliographic_note"
+    },
+    {
+      "candidate_id": "WCD10-B20-W102-F01",
+      "fact_id": "V1-FCT-2627",
+      "subject_id": "V1-ENT-0783",
+      "field": "genre_or_form"
+    },
+    {
+      "candidate_id": "WCD10-B20-W102-F02",
+      "fact_id": "V1-FCT-2628",
+      "subject_id": "V1-ENT-0783",
+      "field": "first_publication_year"
+    },
+    {
+      "candidate_id": "WCD10-B20-W102-F03",
+      "fact_id": "V1-FCT-2629",
+      "subject_id": "V1-ENT-0783",
+      "field": "one_sentence_summary"
+    },
+    {
+      "candidate_id": "WCD10-B20-W102-F04",
+      "fact_id": "V1-FCT-2630",
+      "subject_id": "V1-ENT-0783",
+      "field": "bibliographic_note"
+    },
+    {
+      "candidate_id": "WCD10-B20-W103-F01",
+      "fact_id": "V1-FCT-2631",
+      "subject_id": "V1-ENT-0784",
+      "field": "genre_or_form"
+    },
+    {
+      "candidate_id": "WCD10-B20-W103-F02",
+      "fact_id": "V1-FCT-2632",
+      "subject_id": "V1-ENT-0784",
+      "field": "first_publication_year"
+    },
+    {
+      "candidate_id": "WCD10-B20-W103-F03",
+      "fact_id": "V1-FCT-2633",
+      "subject_id": "V1-ENT-0784",
+      "field": "one_sentence_summary"
+    },
+    {
+      "candidate_id": "WCD10-B20-W103-F04",
+      "fact_id": "V1-FCT-2634",
+      "subject_id": "V1-ENT-0784",
+      "field": "bibliographic_note"
+    },
+    {
+      "candidate_id": "WCD10-B20-W104-F01",
+      "fact_id": "V1-FCT-2635",
+      "subject_id": "V1-ENT-0785",
+      "field": "genre_or_form"
+    },
+    {
+      "candidate_id": "WCD10-B20-W104-F02",
+      "fact_id": "V1-FCT-2636",
+      "subject_id": "V1-ENT-0785",
+      "field": "first_publication_year"
+    },
+    {
+      "candidate_id": "WCD10-B20-W104-F03",
+      "fact_id": "V1-FCT-2637",
+      "subject_id": "V1-ENT-0785",
+      "field": "one_sentence_summary"
+    },
+    {
+      "candidate_id": "WCD10-B20-W104-F04",
+      "fact_id": "V1-FCT-2638",
+      "subject_id": "V1-ENT-0785",
+      "field": "bibliographic_note"
+    },
+    {
+      "candidate_id": "WCD10-B20-W105-F01",
+      "fact_id": "V1-FCT-2639",
+      "subject_id": "V1-ENT-0786",
+      "field": "genre_or_form"
+    },
+    {
+      "candidate_id": "WCD10-B20-W105-F02",
+      "fact_id": "V1-FCT-2640",
+      "subject_id": "V1-ENT-0786",
+      "field": "first_publication_year"
+    },
+    {
+      "candidate_id": "WCD10-B20-W105-F03",
+      "fact_id": "V1-FCT-2641",
+      "subject_id": "V1-ENT-0786",
+      "field": "one_sentence_summary"
+    },
+    {
+      "candidate_id": "WCD10-B20-W105-F04",
+      "fact_id": "V1-FCT-2642",
+      "subject_id": "V1-ENT-0786",
+      "field": "bibliographic_note"
+    },
+    {
+      "candidate_id": "WCD10-B20-W106-F01",
+      "fact_id": "V1-FCT-2643",
+      "subject_id": "V1-ENT-0787",
+      "field": "genre_or_form"
+    },
+    {
+      "candidate_id": "WCD10-B20-W106-F02",
+      "fact_id": "V1-FCT-2644",
+      "subject_id": "V1-ENT-0787",
+      "field": "first_publication_year"
+    },
+    {
+      "candidate_id": "WCD10-B20-W106-F03",
+      "fact_id": "V1-FCT-2645",
+      "subject_id": "V1-ENT-0787",
+      "field": "one_sentence_summary"
+    },
+    {
+      "candidate_id": "WCD10-B20-W106-F04",
+      "fact_id": "V1-FCT-2646",
+      "subject_id": "V1-ENT-0787",
+      "field": "bibliographic_note"
+    },
+    {
+      "candidate_id": "WCD10-B20-W201-F01",
+      "fact_id": "V1-FCT-2647",
+      "subject_id": "V1-ENT-0788",
+      "field": "genre_or_form"
+    },
+    {
+      "candidate_id": "WCD10-B20-W201-F02",
+      "fact_id": "V1-FCT-2648",
+      "subject_id": "V1-ENT-0788",
+      "field": "first_publication_year"
+    },
+    {
+      "candidate_id": "WCD10-B20-W201-F03",
+      "fact_id": "V1-FCT-2649",
+      "subject_id": "V1-ENT-0788",
+      "field": "one_sentence_summary"
+    },
+    {
+      "candidate_id": "WCD10-B20-W202-F01",
+      "fact_id": "V1-FCT-2650",
+      "subject_id": "V1-ENT-0789",
+      "field": "genre_or_form"
+    },
+    {
+      "candidate_id": "WCD10-B20-W202-F02",
+      "fact_id": "V1-FCT-2651",
+      "subject_id": "V1-ENT-0789",
+      "field": "first_publication_year"
+    },
+    {
+      "candidate_id": "WCD10-B20-W202-F03",
+      "fact_id": "V1-FCT-2652",
+      "subject_id": "V1-ENT-0789",
+      "field": "one_sentence_summary"
+    },
+    {
+      "candidate_id": "WCD10-B20-F001",
+      "fact_id": "V1-FCT-2653",
+      "subject_id": "V1-ENT-0353",
+      "field": "one_sentence_summary"
+    },
+    {
+      "candidate_id": "WCD10-B20-F002",
+      "fact_id": "V1-FCT-2654",
+      "subject_id": "V1-ENT-0354",
+      "field": "bibliographic_note"
+    },
+    {
+      "candidate_id": "WCD10-B20-F003",
+      "fact_id": "V1-FCT-2655",
+      "subject_id": "V1-ENT-0355",
+      "field": "one_sentence_summary"
+    },
+    {
+      "candidate_id": "WCD10-B20-F181",
+      "fact_id": "V1-FCT-2656",
+      "subject_id": "V1-ENT-0361",
+      "field": "one_sentence_summary"
+    },
+    {
+      "candidate_id": "WCD10-B20-F182",
+      "fact_id": "V1-FCT-2657",
+      "subject_id": "V1-ENT-0362",
+      "field": "one_sentence_summary"
+    },
+    {
+      "candidate_id": "WCD10-B20-F183",
+      "fact_id": "V1-FCT-2658",
+      "subject_id": "V1-ENT-0363",
+      "field": "one_sentence_summary"
+    },
+    {
+      "candidate_id": "WCD10-B20-F207",
+      "fact_id": "V1-FCT-2659",
+      "subject_id": "V1-ENT-0364",
+      "field": "one_sentence_summary"
+    },
+    {
+      "candidate_id": "WCD10-B20-F208",
+      "fact_id": "V1-FCT-2660",
+      "subject_id": "V1-ENT-0365",
+      "field": "one_sentence_summary"
+    },
+    {
+      "candidate_id": "WCD10-B20-F209",
+      "fact_id": "V1-FCT-2661",
+      "subject_id": "V1-ENT-0366",
+      "field": "one_sentence_summary"
+    }
+  ],
+  "cards": [
+    {
+      "subject_id": "V1-ENT-0780",
+      "card_id": "V1-CARD-0794",
+      "preserves_existing_cards": true
+    },
+    {
+      "subject_id": "V1-ENT-0781",
+      "card_id": "V1-CARD-0795",
+      "preserves_existing_cards": true
+    },
+    {
+      "subject_id": "V1-ENT-0782",
+      "card_id": "V1-CARD-0796",
+      "preserves_existing_cards": true
+    },
+    {
+      "subject_id": "V1-ENT-0783",
+      "card_id": "V1-CARD-0797",
+      "preserves_existing_cards": true
+    },
+    {
+      "subject_id": "V1-ENT-0784",
+      "card_id": "V1-CARD-0798",
+      "preserves_existing_cards": true
+    },
+    {
+      "subject_id": "V1-ENT-0785",
+      "card_id": "V1-CARD-0799",
+      "preserves_existing_cards": true
+    },
+    {
+      "subject_id": "V1-ENT-0786",
+      "card_id": "V1-CARD-0800",
+      "preserves_existing_cards": true
+    },
+    {
+      "subject_id": "V1-ENT-0787",
+      "card_id": "V1-CARD-0801",
+      "preserves_existing_cards": true
+    },
+    {
+      "subject_id": "V1-ENT-0788",
+      "card_id": "V1-CARD-0802",
+      "preserves_existing_cards": true
+    },
+    {
+      "subject_id": "V1-ENT-0789",
+      "card_id": "V1-CARD-0803",
+      "preserves_existing_cards": true
+    },
+    {
+      "subject_id": "V1-ENT-0353",
+      "card_id": "V1-CARD-0804",
+      "preserves_existing_cards": true
+    },
+    {
+      "subject_id": "V1-ENT-0354",
+      "card_id": "V1-CARD-0805",
+      "preserves_existing_cards": true
+    },
+    {
+      "subject_id": "V1-ENT-0355",
+      "card_id": "V1-CARD-0806",
+      "preserves_existing_cards": true
+    },
+    {
+      "subject_id": "V1-ENT-0361",
+      "card_id": "V1-CARD-0807",
+      "preserves_existing_cards": true
+    },
+    {
+      "subject_id": "V1-ENT-0362",
+      "card_id": "V1-CARD-0808",
+      "preserves_existing_cards": true
+    },
+    {
+      "subject_id": "V1-ENT-0363",
+      "card_id": "V1-CARD-0809",
+      "preserves_existing_cards": true
+    },
+    {
+      "subject_id": "V1-ENT-0364",
+      "card_id": "V1-CARD-0810",
+      "preserves_existing_cards": true
+    },
+    {
+      "subject_id": "V1-ENT-0365",
+      "card_id": "V1-CARD-0811",
+      "preserves_existing_cards": true
+    },
+    {
+      "subject_id": "V1-ENT-0366",
+      "card_id": "V1-CARD-0812",
+      "preserves_existing_cards": true
+    }
+  ],
+  "relationships": [
+    {
+      "candidate_id": "WCD10-B20-W001-CREATED",
+      "relationship_id": "V1-REL-0752",
+      "subject_id": "V1-ENT-0346",
+      "relation_type": "CREATED",
+      "object_id": "V1-ENT-0780"
+    },
+    {
+      "candidate_id": "WCD10-B20-W002-CREATED",
+      "relationship_id": "V1-REL-0753",
+      "subject_id": "V1-ENT-0346",
+      "relation_type": "CREATED",
+      "object_id": "V1-ENT-0781"
+    },
+    {
+      "candidate_id": "WCD10-B20-W101-CREATED",
+      "relationship_id": "V1-REL-0754",
+      "subject_id": "V1-ENT-0358",
+      "relation_type": "CREATED",
+      "object_id": "V1-ENT-0782"
+    },
+    {
+      "candidate_id": "WCD10-B20-W102-CREATED",
+      "relationship_id": "V1-REL-0755",
+      "subject_id": "V1-ENT-0358",
+      "relation_type": "CREATED",
+      "object_id": "V1-ENT-0783"
+    },
+    {
+      "candidate_id": "WCD10-B20-W103-CREATED",
+      "relationship_id": "V1-REL-0756",
+      "subject_id": "V1-ENT-0358",
+      "relation_type": "CREATED",
+      "object_id": "V1-ENT-0784"
+    },
+    {
+      "candidate_id": "WCD10-B20-W104-CREATED",
+      "relationship_id": "V1-REL-0757",
+      "subject_id": "V1-ENT-0358",
+      "relation_type": "CREATED",
+      "object_id": "V1-ENT-0785"
+    },
+    {
+      "candidate_id": "WCD10-B20-W105-CREATED",
+      "relationship_id": "V1-REL-0758",
+      "subject_id": "V1-ENT-0358",
+      "relation_type": "CREATED",
+      "object_id": "V1-ENT-0786"
+    },
+    {
+      "candidate_id": "WCD10-B20-W106-CREATED",
+      "relationship_id": "V1-REL-0759",
+      "subject_id": "V1-ENT-0358",
+      "relation_type": "CREATED",
+      "object_id": "V1-ENT-0787"
+    },
+    {
+      "candidate_id": "WCD10-B20-W201-CREATED",
+      "relationship_id": "V1-REL-0760",
+      "subject_id": "V1-ENT-0359",
+      "relation_type": "CREATED",
+      "object_id": "V1-ENT-0788"
+    },
+    {
+      "candidate_id": "WCD10-B20-W202-CREATED",
+      "relationship_id": "V1-REL-0761",
+      "subject_id": "V1-ENT-0359",
+      "relation_type": "CREATED",
+      "object_id": "V1-ENT-0789"
+    }
+  ],
+  "gaps": [
+    {
+      "gap_id": "V1-GAP-0657",
+      "key": "V1-ENT-0346.full_oeuvre"
+    },
+    {
+      "gap_id": "V1-GAP-0658",
+      "key": "WCD10:B20:Telles:bounded_uncovered_roster"
+    },
+    {
+      "gap_id": "V1-GAP-0659",
+      "key": "WCD10:B20:Icaza:uncovered_roster"
+    },
+    {
+      "gap_id": "V1-GAP-0660",
+      "key": "WCD10:work_level_research:V1-ENT-0353"
+    },
+    {
+      "gap_id": "V1-GAP-0661",
+      "key": "WCD10:work_level_research:V1-ENT-0354"
+    },
+    {
+      "gap_id": "V1-GAP-0662",
+      "key": "WCD10:work_level_research:V1-ENT-0355"
+    },
+    {
+      "gap_id": "V1-GAP-0663",
+      "key": "WCD10:work_level_research:V1-ENT-0780"
+    },
+    {
+      "gap_id": "V1-GAP-0664",
+      "key": "WCD10:work_level_research:V1-ENT-0781"
+    },
+    {
+      "gap_id": "V1-GAP-0665",
+      "key": "WCD10:work_level_research:V1-ENT-0361"
+    },
+    {
+      "gap_id": "V1-GAP-0666",
+      "key": "WCD10:work_level_research:V1-ENT-0362"
+    },
+    {
+      "gap_id": "V1-GAP-0667",
+      "key": "WCD10:work_level_research:V1-ENT-0363"
+    },
+    {
+      "gap_id": "V1-GAP-0668",
+      "key": "WCD10:work_level_research:V1-ENT-0782"
+    },
+    {
+      "gap_id": "V1-GAP-0669",
+      "key": "WCD10:work_level_research:V1-ENT-0783"
+    },
+    {
+      "gap_id": "V1-GAP-0670",
+      "key": "WCD10:work_level_research:V1-ENT-0784"
+    },
+    {
+      "gap_id": "V1-GAP-0671",
+      "key": "WCD10:work_level_research:V1-ENT-0785"
+    },
+    {
+      "gap_id": "V1-GAP-0672",
+      "key": "WCD10:work_level_research:V1-ENT-0786"
+    },
+    {
+      "gap_id": "V1-GAP-0673",
+      "key": "WCD10:work_level_research:V1-ENT-0787"
+    },
+    {
+      "gap_id": "V1-GAP-0674",
+      "key": "WCD10:work_level_research:V1-ENT-0364"
+    },
+    {
+      "gap_id": "V1-GAP-0675",
+      "key": "WCD10:work_level_research:V1-ENT-0365"
+    },
+    {
+      "gap_id": "V1-GAP-0676",
+      "key": "WCD10:work_level_research:V1-ENT-0366"
+    },
+    {
+      "gap_id": "V1-GAP-0677",
+      "key": "WCD10:work_level_research:V1-ENT-0788"
+    },
+    {
+      "gap_id": "V1-GAP-0678",
+      "key": "WCD10:work_level_research:V1-ENT-0789"
+    }
+  ],
+  "public_boundary": "本批仅Research候选；未经独立审核不得进入正式库、Curation或公开层。",
+  "author_metadata_fallbacks": [
+    {
+      "author_id": "V1-ENT-0346",
+      "field": "country_or_region",
+      "value": "乌拉圭",
+      "existing_card_ids": [
+        "V1-CARD-0240"
+      ],
+      "boundary": "Legacy card metadata reused; no new author fact"
+    },
+    {
+      "author_id": "V1-ENT-0346",
+      "field": "language",
+      "value": "es",
+      "existing_card_ids": [
+        "V1-CARD-0240"
+      ],
+      "boundary": "Legacy card metadata reused; no new author fact"
+    },
+    {
+      "author_id": "V1-ENT-0358",
+      "field": "language",
+      "value": "pt",
+      "existing_card_ids": [
+        "V1-CARD-0244"
+      ],
+      "boundary": "Legacy card metadata reused; no new author fact"
+    },
+    {
+      "author_id": "V1-ENT-0359",
+      "field": "language",
+      "value": "es",
+      "existing_card_ids": [
+        "V1-CARD-0248"
+      ],
+      "boundary": "Legacy card metadata reused; no new author fact"
+    }
+  ],
+  "counts": {
+    "sources": 10,
+    "entities": 10,
+    "entity_id_map": 10,
+    "content_cards": 19,
+    "facts": 45,
+    "card_facts": 45,
+    "fact_sources": 50,
+    "card_sources": 28,
+    "relationships": 11,
+    "relationship_sources": 15,
+    "relationship_evidence": 15,
+    "gaps": 22
+  },
+  "coauthor_reentry": [
+    {
+      "candidate_id": "WCD10-B20-R101",
+      "relationship_id": "V1-REL-0762",
+      "subject_id": "V1-ENT-0358",
+      "relation_type": "CREATED",
+      "object_id": "V1-ENT-0592",
+      "source_ids": [
+        "SRC-0638",
+        "SRC-0271"
+      ],
+      "evidence_ids": [
+        "WCD10-B20-R101-SRC-0638",
+        "WCD10-B20-R101-SRC-0271"
+      ]
+    }
+  ],
+  "coauthor_reentry_candidate_sha256": "9bb86a2fc6e3666974058c5571c38bef0b5c0d705c56b9bea436ea70d403af26",
+  "coauthor_reentry_review_sha256": "5cb6e86e98865276286997726bc206b4fe48dccbaa696b80aaa3d46213112cd9",
+  "coauthor_reentry_count": 1
+}

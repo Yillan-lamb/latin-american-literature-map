@@ -1,0 +1,29 @@
+{
+  "contract": "scripts/build_wcd10_migration.py::classify_coverage_objects",
+  "argv": [
+    "/opt/homebrew/opt/python@3.14/bin/python3.14",
+    "-c",
+    "import json,sqlite3,sys\nfrom pathlib import Path\nsys.path.insert(0,'work/codex-worktrees/latin-american-literature-map-wcd10/scripts')\nfrom build_wcd10_migration import classify_coverage_objects\nroot=Path('/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图')\nrepo=root/'work/codex-worktrees/latin-american-literature-map-wcd10'\nout=root/'project/internal/WCD_10_WORKSPACE/orchestration/wave-19/reentry-candidates'\ncoverage=json.loads((out/'COVERAGE.json').read_text())\nobjects=coverage['objects']\nexpected=set(coverage['closure_summary']['existing_work_ids'])|{'WCD10-B05-W027'}\nnew={'WCD10-B05-W027'}\ndb=repo/'data/master/V1_MASTER.sqlite'\nconn=sqlite3.connect(db.resolve().as_uri()+'?mode=ro',uri=True)\ntry:\n primary=classify_coverage_objects(objects,expected,new,conn)\n print(json.dumps({'verdict':'pass','input_rows':len(objects),'primary_rows':len(primary),'expected_refs':len(expected),'legacy_wrappers':sum('legacy_object_snapshot' in x for x in objects)},ensure_ascii=False))\nfinally: conn.close()\n"
+  ],
+  "cwd": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图",
+  "runtime": {
+    "python_executable": "/opt/homebrew/opt/python@3.14/bin/python3.14",
+    "python_version": "3.14.5",
+    "platform": "macOS-15.7.3-arm64-arm-64bit-Mach-O",
+    "PYTHONDONTWRITEBYTECODE": "1"
+  },
+  "duration_seconds": 0.120437,
+  "exit_code": 0,
+  "stdout": {
+    "path": "COVERAGE_CLASSIFICATION_STDOUT.raw",
+    "bytes": 102,
+    "sha256": "9778c43197f6c1500473927d89e521b9f6418b86cce601f582a6fd64380c6225"
+  },
+  "stderr": {
+    "path": "COVERAGE_CLASSIFICATION_STDERR.raw",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "baseline_database_sha256": "559b1858b7b5e647b4b313f841be8d2960cf3a5eacf2a2dd92c6161668da706c",
+  "coverage_sha256": "8b7544ae8fcee8def89940f31dc65297ed60ad6a02838ff67d06c0c560cf6fc1"
+}

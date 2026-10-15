@@ -1,0 +1,1011 @@
+{
+  "schema": "wcd10-candidate-change-set-1",
+  "task_id": "TASK-122",
+  "batch_id": "WCD-10-B17",
+  "baseline_commit": "05f3372c69a54ec331d31b05d16c8288d6d3a993",
+  "baseline_database_sha256": "bf814eb0796ad27db76349a4f166ba3ca40be3df47f22373e6e094e34bdf632e",
+  "status": "candidate_frozen_parent_review_pending",
+  "author_ids": [
+    "V1-ENT-0310",
+    "V1-ENT-0320",
+    "V1-ENT-0321"
+  ],
+  "accessed_at": "2026-10-14",
+  "public_boundary": "Research candidates only; no automatic Curation or public admission.",
+  "source_scope_decisions": [],
+  "sources": [
+    {
+      "candidate_id": "WCD10-B17-S001",
+      "url": "https://cervantesvirtual.com/portales/nicolas_guillen/su_obra_bibliografia/",
+      "title": "Bibliografía - Nicolás Guillén",
+      "original_title": "Bibliografía - Nicolás Guillén",
+      "author_or_editor": "Nancy Morejón",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "实读2026-10-14：第47–48行列Cantos para soldados y sones para turistas（1937）和España. Poema en cuatro angustias y una esperanza（1937）；第56行列La paloma de vuelo popular. Elegías（1958）；第62行列Tengo（1964）；第65行列El gran zoo的1967版。",
+      "usage": "逐项支持作品题名、书目版本与直接注明的体裁；该页为作者书目目录，不据此宣称学术覆盖。",
+      "disposition": "reuse",
+      "reuse_existing_source": "SRC-0245",
+      "candidate_ids": [
+        "WCD10-B17-W001",
+        "WCD10-B17-W002",
+        "WCD10-B17-W003",
+        "WCD10-B17-W004",
+        "WCD10-B17-W001-F01",
+        "WCD10-B17-W001-F02",
+        "WCD10-B17-W002-F01",
+        "WCD10-B17-W002-F02",
+        "WCD10-B17-W003-F01",
+        "WCD10-B17-W003-F02",
+        "WCD10-B17-W004-F01",
+        "WCD10-B17-W004-F02",
+        "WCD10-B17-W005",
+        "WCD10-B17-W005-F01",
+        "WCD10-B17-W005-F02"
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B17-S002",
+      "url": "https://cvc.cervantes.es/literatura/escritores/guillen/biografia.htm",
+      "title": "CVC. Nicolás Guillén. Biografía",
+      "original_title": "CVC. Nicolás Guillén. Biografía",
+      "author_or_editor": "Instituto Cervantes",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "实读2026-10-14：第25–31行直接描述既有Motivos de son、Sóngoro cosongo、West Indies Ltd.以及作品内容与时间关系；第50行将España. Poema en cuatro angustias y una esperanza称为poemario并联系西班牙共和国；第51行概述Cantos para soldados y sones para turistas；第63–64行概述La paloma de vuelo popular；第66行记Tengo（1964）及其内容；第67行概述El gran zoo（传记记1968）。",
+      "usage": "支持来源明确描述的作品层级短简介；不扩张为作者总体判断。",
+      "disposition": "reuse",
+      "reuse_existing_source": "SRC-0246",
+      "candidate_ids": [
+        "WCD10-B17-W001",
+        "WCD10-B17-W003",
+        "WCD10-B17-W004",
+        "WCD10-B17-W001-F03",
+        "WCD10-B17-W003-F03",
+        "WCD10-B17-W004-F03",
+        "WCD10-B17-W005",
+        "WCD10-B17-W005-F03",
+        "WCD10-B17-W005-F04",
+        "WCD10-B17-F001",
+        "WCD10-B17-F002",
+        "WCD10-B17-F003"
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B17-S101",
+      "url": "https://poets.org/poet/jose-lezama-lima",
+      "title": "About José Lezama Lima",
+      "author_or_editor": "Academy of American Poets",
+      "publisher": "Academy of American Poets",
+      "source_level": "B",
+      "format": "web_page",
+      "language": "en",
+      "reuse_existing_source": "SRC-0248",
+      "locator": "实际打开正文第37–40行：第37行列Muerte de Narciso为1937首部诗集；第38行列Paradiso (UNEAC, 1966)、Oppiano Licario (Mexico, 1977)；第39行列Dador (1960)、La Fijeza (1949)、Aventuras sigilosas (1945)、Enemigo rumor (1941)；第40行说明La expresión americana源自1957年五部分讲演。实读2026-10-14。",
+      "usage": "再次实际打开冻结库同URL页面。只复用SRC-0248原元数据及原B级；直接支持其页面明确列出的作品归属、首版信息、类别和人物/作品简介。",
+      "disposition": "reuse",
+      "access_status": "OPENED"
+    },
+    {
+      "candidate_id": "WCD10-B17-S102",
+      "url": "https://www.anagrama-ed.es/autor/lezama-lima-jose-633",
+      "title": "José Lezama Lima — Editorial Anagrama",
+      "author_or_editor": "Editorial Anagrama",
+      "publisher": "Editorial Anagrama",
+      "source_level": "B",
+      "format": "web_page",
+      "language": "es",
+      "locator": "实际打开第65行：Fragmentos a su imán列于诗歌作品并标注1978年；第66行直接区分随笔与小说类别。实读2026-10-14。",
+      "usage": "出版社作者书目，仅支持其直接列举的作品、体裁类别、归属与所标示年份；不把目录当作完整全集。",
+      "disposition": "fresh_registration",
+      "access_status": "OPENED"
+    },
+    {
+      "candidate_id": "WCD10-B17-S103",
+      "url": "https://www.cervantesvirtual.com/obra-visor/la-escritura-de-lo-posible--el-sistema-potico-de-jos-lezama-lima-0/html/ff2fbdf8-82b1-11df-acc7-002185ce6064_60.htm",
+      "title": "La escritura de lo posible: el sistema poético de José Lezama Lima — Biblioteca Virtual Miguel de Cervantes",
+      "author_or_editor": "Remedios Mataix",
+      "publisher": "Biblioteca Virtual Miguel de Cervantes",
+      "source_level": "A",
+      "format": "institutional_scholarly_bibliography_web_page",
+      "language": "es",
+      "locator": "替代访问入口（同一研究专著的相邻章节，不新增来源对象）：第427行明确称Muerte de Narciso为长诗，记载1937年发表于Verbum第二期并于同年由Impresiones Úcar单册印行；第432行称其有二十五节。该入口由worker于2026-10-14实际打开。规范canonical bibliografía URL仍为本来源S103的https://www.cervantesvirtual.com/obra-visor/la-escritura-de-lo-posible--el-sistema-potico-de-jos-lezama-lima-0/html/ff2fbdf8-82b1-11df-acc7-002185ce6064_60.htm。",
+      "usage": "大学虚拟图书馆所载研究专著书目部分；仅用于核对出版物书目、类别、出版版本和作者归属，不声称学术覆盖完备。",
+      "disposition": "fresh_registration",
+      "access_status": "OPENED"
+    },
+    {
+      "candidate_id": "WCD10-B17-S201",
+      "url": "https://www.cervantes.es/bibliotecas_documentacion_espanol/biografias/varsovia_guillermo_cabrera_infante_1.htm",
+      "title": "Guillermo Cabrera Infante. Cronología de obras — Instituto Cervantes",
+      "candidate_ids": [
+        "WCD10-B17-W201",
+        "WCD10-B17-W201-F01",
+        "WCD10-B17-W202",
+        "WCD10-B17-W202-F01",
+        "WCD10-B17-W203",
+        "WCD10-B17-W203-F01",
+        "WCD10-B17-F202"
+      ],
+      "author_or_editor": "Instituto Cervantes, Bibliotecas y Documentación",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "实读2026-10-14；页面标题“Guillermo Cabrera Infante. Cronología de obras”；第47行列 Así en la paz como en la guerra (1960)，第49行列 Un oficio del siglo XX (1963)，第51/57/64/66行分别列Tres tristes tigres (1967)、Vista del amanecer en el trópico (1974)、Cuerpos divinos (1979)、La Habana para un infante difunto (1979)。",
+      "usage": "用于直接核对作品题名及该机构记录的出版年；页面未说明的体裁和内容不从年表推断。",
+      "disposition": "fresh_registration"
+    },
+    {
+      "candidate_id": "WCD10-B17-S202",
+      "url": "https://www.treccani.it/enciclopedia/guillermo-cabrera-infante/",
+      "title": "Cabrera Infante, Guillermo — Enciclopedia Treccani",
+      "candidate_ids": [
+        "WCD10-B17-F201",
+        "WCD10-B17-F202"
+      ],
+      "author_or_editor": "Istituto della Enciclopedia Italiana",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "实读2026-10-14；第20—22行：称Tres tristes tigres为小说，概括其语言与结构实验及巴蒂斯塔时期年轻人的故事；该条还将 Tres tristes tigres 列作1964（意大利语译本1976）。",
+      "usage": "支持作品体裁和有限内容概括；其1964年口径与Cervantes年表所列1967并存，故记录在bibliographic_note，不改原子首发年。",
+      "disposition": "fresh_registration"
+    },
+    {
+      "candidate_id": "WCD10-B17-S203",
+      "url": "https://books.google.es/books/about/Vista_del_amanecer_en_el_tr%C3%B3pico.html?id=MnNAAAAAYAAJ",
+      "title": "Vista del amanecer en el trópico — Google Libros / Seix Barral record",
+      "candidate_ids": [
+        "WCD10-B17-F203",
+        "WCD10-B17-F204"
+      ],
+      "author_or_editor": "Editorial Seix Barral (record hosted by Google Books)",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "实读2026-10-14；第13—15行显示作者、Seix Barral 1974版及出版者简介：以文学化短篇巡览古巴历史、人民、英雄、地理与艺术；第53—66行书目字段及系列“Relatos”。",
+      "usage": "支持1974年版本、叙事/短篇形态及不扩张为完整历史论断的作品简介。",
+      "disposition": "fresh_registration"
+    },
+    {
+      "candidate_id": "WCD10-B17-S204",
+      "url": "https://www.planetadelibros.com.ar/libro-la-habana-para-un-infante-difunto/125852",
+      "title": "La Habana para un infante difunto — PlanetadeLibros Argentina",
+      "candidate_ids": [
+        "WCD10-B17-F205",
+        "WCD10-B17-F206"
+      ],
+      "author_or_editor": "Grupo Planeta / PlanetadeLibros",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "实读2026-10-14；第14—22行含作品题名及出版社简介；第44—54行为“Novela literaria”分类和Seix Barral版本信息；第62—63行作者书目分类。",
+      "usage": "支持小说体裁及有界简介；使用出版社现行版简介，不据其推断作品首版年份。",
+      "disposition": "fresh_registration"
+    },
+    {
+      "candidate_id": "WCD10-B17-S205",
+      "url": "https://www.penguinlibros.com/us/67409-guillermo-cabrera-infante",
+      "title": "Guillermo Cabrera Infante — Penguin Libros author page",
+      "candidate_ids": [
+        "WCD10-B17-W201",
+        "WCD10-B17-W201-F02",
+        "WCD10-B17-W201-F03",
+        "WCD10-B17-W202",
+        "WCD10-B17-W202-F02",
+        "WCD10-B17-W202-F03",
+        "WCD10-B17-W203",
+        "WCD10-B17-W203-F01",
+        "WCD10-B17-W203-F02",
+        "WCD10-B17-W203-F03"
+      ],
+      "author_or_editor": "Penguin Random House Grupo Editorial, S.A.U.",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "实读2026-10-14；第210—221行作者简介与作品类别：列出Así en la paz como en la guerra (1960)为短篇集、Un oficio del siglo XX (1963)为电影评论汇编、Cuerpos divinos (2010)为身后出版的自传性作品；第224—227行说明Cuerpos divinos回忆作者在古巴的青年生活。",
+      "usage": "支持出版社列载的书目年份、类别及Cuerpos divinos有限描述；不将出版社的评价性措辞纳入候选。",
+      "disposition": "fresh_registration"
+    }
+  ],
+  "new_entities": [
+    {
+      "candidate_id": "WCD10-B17-W001",
+      "author_id": "V1-ENT-0310",
+      "entity_type": "collection",
+      "original_name": "Cantos para soldados y sones para turistas",
+      "name_zh_candidate": "《献给士兵的歌与献给游客的颂》",
+      "name_policy": "中文为检索工作译名，原文题名为身份锚点，不声称存在正式中文译本。",
+      "rationale": "Cervantes Virtual书目列出1937年版本；CVC作者传记直接概述该书诗歌面向被征为士兵的工人与其阶级意识。 来源称其为多首诗的作品集，故归collection。",
+      "created_source_refs": [
+        "WCD10-B17-S001"
+      ],
+      "facts": [
+        {
+          "field": "first_publication_year",
+          "value": "1937",
+          "source_refs": [
+            "WCD10-B17-S001"
+          ],
+          "fact_candidate_id": "WCD10-B17-W001-F01"
+        },
+        {
+          "field": "genre_or_form",
+          "value": "诗集",
+          "source_refs": [
+            "WCD10-B17-S001"
+          ],
+          "fact_candidate_id": "WCD10-B17-W001-F02"
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "书中诗歌呼吁被征为士兵、服务于他人利益的工人重新认识自身的无产阶级出身，并与本阶级利益相连。",
+          "source_refs": [
+            "WCD10-B17-S002"
+          ],
+          "fact_candidate_id": "WCD10-B17-W001-F03"
+        }
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B17-W002",
+      "author_id": "V1-ENT-0310",
+      "entity_type": "collection",
+      "original_name": "España. Poema en cuatro angustias y una esperanza",
+      "name_zh_candidate": "《西班牙：四重忧思与一线希望之诗》",
+      "name_policy": "中文为检索工作译名；保留西班牙语副题作为作品身份锚点。",
+      "rationale": "CVC传记将其明确称为poemario（诗集），故归collection；副题“Poema en cuatro angustias y una esperanza”是书目所载题名的一部分，不据其单数形式把整册改作单首长诗。",
+      "created_source_refs": [
+        "WCD10-B17-S001"
+      ],
+      "facts": [
+        {
+          "field": "first_publication_year",
+          "value": "1937",
+          "source_refs": [
+            "WCD10-B17-S001"
+          ],
+          "fact_candidate_id": "WCD10-B17-W002-F01"
+        },
+        {
+          "field": "genre_or_form",
+          "value": "诗集",
+          "source_refs": [
+            "WCD10-B17-S001"
+          ],
+          "fact_candidate_id": "WCD10-B17-W002-F02"
+        },
+        {
+          "field": "bibliographic_note",
+          "value": "书目副题为Poema en cuatro angustias y una esperanza；1937年墨西哥版。",
+          "source_refs": [
+            "WCD10-B17-S001"
+          ],
+          "fact_candidate_id": "WCD10-B17-W002-F03"
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "作者传记将该诗集与作者声援受到威胁的西班牙共和国相联系。",
+          "source_refs": [
+            "WCD10-B17-S002"
+          ],
+          "fact_candidate_id": "WCD10-B17-W002-F04"
+        }
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B17-W003",
+      "author_id": "V1-ENT-0310",
+      "entity_type": "collection",
+      "original_name": "La paloma de vuelo popular. Elegías",
+      "name_zh_candidate": "《大众飞翔的鸽子：挽歌》",
+      "name_policy": "中文为检索工作译名，不声称存在正式中文译本。",
+      "rationale": "Cervantes Virtual作者书目列出该书1958年版；CVC作者传记概述作品汇集旅行经验，并提到其中的社会主题。 来源称其为多首诗的作品集，故归collection。",
+      "created_source_refs": [
+        "WCD10-B17-S001"
+      ],
+      "facts": [
+        {
+          "field": "first_publication_year",
+          "value": "1958",
+          "source_refs": [
+            "WCD10-B17-S001"
+          ],
+          "fact_candidate_id": "WCD10-B17-W003-F01"
+        },
+        {
+          "field": "genre_or_form",
+          "value": "挽歌诗集",
+          "source_refs": [
+            "WCD10-B17-S001"
+          ],
+          "fact_candidate_id": "WCD10-B17-W003-F02"
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "作品收录作者旅行经历；传记指出其中以不义、奴役与殖民主义为主题，并写到甘蔗田工人的劳动。",
+          "source_refs": [
+            "WCD10-B17-S002"
+          ],
+          "fact_candidate_id": "WCD10-B17-W003-F03"
+        }
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B17-W004",
+      "author_id": "V1-ENT-0310",
+      "entity_type": "collection",
+      "original_name": "El gran zoo",
+      "name_zh_candidate": "《大动物园》",
+      "name_policy": "中文为检索工作译名，不声称存在正式中文译本。",
+      "rationale": "Cervantes Virtual书目记录1967年版本，CVC传记称1968年出版；依年份冲突政策不填原子年份，保留版目与传记各自所载口径。",
+      "created_source_refs": [
+        "WCD10-B17-S001"
+      ],
+      "facts": [
+        {
+          "field": "genre_or_form",
+          "value": "诗集",
+          "source_refs": [
+            "WCD10-B17-S001"
+          ],
+          "fact_candidate_id": "WCD10-B17-W004-F01"
+        },
+        {
+          "field": "bibliographic_note",
+          "value": "Cervantes Virtual作品书目列1967年《Unión》版；CVC作者传记记为1968年出版。两来源口径有差异，故不将任一版本年份直接确认为首版年。",
+          "source_refs": [
+            "WCD10-B17-S001",
+            "WCD10-B17-S002"
+          ],
+          "fact_candidate_id": "WCD10-B17-W004-F02"
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "作品以简洁、诙谐的风格，将安第斯山、飓风与加勒比海等拉美地理事物描写为想象动物园中的奇异生物。",
+          "source_refs": [
+            "WCD10-B17-S002"
+          ],
+          "fact_candidate_id": "WCD10-B17-W004-F03"
+        }
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B17-W005",
+      "author_id": "V1-ENT-0310",
+      "entity_type": "collection",
+      "original_name": "Tengo",
+      "name_zh_candidate": "《我拥有》",
+      "name_policy": "中文为检索工作译名，西班牙语原题为身份锚点，不声称存在正式中文译本。",
+      "rationale": "Cervantes Virtual书目将Tengo列为1964年出版物；CVC传记同年明确记载该书，并概括其从见证革命转向庆祝其成果。",
+      "created_source_refs": [
+        "WCD10-B17-S001"
+      ],
+      "facts": [
+        {
+          "field": "first_publication_year",
+          "value": "1964",
+          "source_refs": [
+            "WCD10-B17-S001"
+          ],
+          "fact_candidate_id": "WCD10-B17-W005-F01"
+        },
+        {
+          "field": "genre_or_form",
+          "value": "诗集",
+          "source_refs": [
+            "WCD10-B17-S001"
+          ],
+          "fact_candidate_id": "WCD10-B17-W005-F02"
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "诗人以作品见证革命后的生活变化；CVC传记指出，该书不再只是歌唱革命的承诺，而转向庆祝其成果。",
+          "source_refs": [
+            "WCD10-B17-S002"
+          ],
+          "fact_candidate_id": "WCD10-B17-W005-F03"
+        },
+        {
+          "field": "bibliographic_note",
+          "value": "Cervantes Virtual书目记载La Habana、Universidad de Las Villas、1964；CVC传记亦记1964年出版。",
+          "source_refs": [
+            "WCD10-B17-S001",
+            "WCD10-B17-S002"
+          ],
+          "fact_candidate_id": "WCD10-B17-W005-F04"
+        }
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B17-W101",
+      "author_id": "V1-ENT-0320",
+      "entity_type": "work",
+      "original_name": "Muerte de Narciso",
+      "name_zh_candidate": "《纳西索之死》（暂译）",
+      "name_policy": "中文题名仅作检索用暂译，西班牙语原题为作品身份锚点，不表示存在正式中文译本。",
+      "rationale": "直接书目来源确认其为Lezama Lima作品；本候选仅提出普通书目、体裁及简短有界说明，不声称穷尽作品全集或学术覆盖。",
+      "created_source_refs": [
+        "WCD10-B17-S103"
+      ],
+      "facts": [
+        {
+          "field": "first_publication_year",
+          "value": "1937",
+          "source_refs": [
+            "WCD10-B17-S101",
+            "WCD10-B17-S102",
+            "WCD10-B17-S103"
+          ],
+          "fact_candidate_id": "WCD10-B17-F110"
+        },
+        {
+          "field": "genre_or_form",
+          "value": "长诗",
+          "source_refs": [
+            "WCD10-B17-S103"
+          ],
+          "fact_candidate_id": "WCD10-B17-F111"
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "1937年首刊于《Verbum》第二期并于同年单册印行的二十五节长诗。",
+          "source_refs": [
+            "WCD10-B17-S103"
+          ],
+          "fact_candidate_id": "WCD10-B17-F112"
+        }
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B17-W102",
+      "author_id": "V1-ENT-0320",
+      "entity_type": "collection",
+      "original_name": "Enemigo rumor",
+      "name_zh_candidate": "《敌意的传闻》（暂译）",
+      "name_policy": "中文题名仅作检索用暂译，西班牙语原题为作品身份锚点，不表示存在正式中文译本。",
+      "rationale": "直接书目来源确认其为Lezama Lima作品；本候选仅提出普通书目、体裁及简短有界说明，不声称穷尽作品全集或学术覆盖。",
+      "created_source_refs": [
+        "WCD10-B17-S101",
+        "WCD10-B17-S102",
+        "WCD10-B17-S103"
+      ],
+      "facts": [
+        {
+          "field": "first_publication_year",
+          "value": "1941",
+          "source_refs": [
+            "WCD10-B17-S101",
+            "WCD10-B17-S102",
+            "WCD10-B17-S103"
+          ],
+          "fact_candidate_id": "WCD10-B17-F113"
+        },
+        {
+          "field": "genre_or_form",
+          "value": "诗集",
+          "source_refs": [
+            "WCD10-B17-S101",
+            "WCD10-B17-S102",
+            "WCD10-B17-S103"
+          ],
+          "fact_candidate_id": "WCD10-B17-F114"
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "作者书目将其列为诗集，并记录1941年出版；此处只作书目级描述。",
+          "source_refs": [
+            "WCD10-B17-S101",
+            "WCD10-B17-S102",
+            "WCD10-B17-S103"
+          ],
+          "fact_candidate_id": "WCD10-B17-F115"
+        }
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B17-W103",
+      "author_id": "V1-ENT-0320",
+      "entity_type": "collection",
+      "original_name": "Aventuras sigilosas",
+      "name_zh_candidate": "《隐秘的冒险》（暂译）",
+      "name_policy": "中文题名仅作检索用暂译，西班牙语原题为作品身份锚点，不表示存在正式中文译本。",
+      "rationale": "直接书目来源确认其为Lezama Lima作品；本候选仅提出普通书目、体裁及简短有界说明，不声称穷尽作品全集或学术覆盖。",
+      "created_source_refs": [
+        "WCD10-B17-S101",
+        "WCD10-B17-S102",
+        "WCD10-B17-S103"
+      ],
+      "facts": [
+        {
+          "field": "first_publication_year",
+          "value": "1945",
+          "source_refs": [
+            "WCD10-B17-S101",
+            "WCD10-B17-S102",
+            "WCD10-B17-S103"
+          ],
+          "fact_candidate_id": "WCD10-B17-F116"
+        },
+        {
+          "field": "genre_or_form",
+          "value": "诗集",
+          "source_refs": [
+            "WCD10-B17-S101",
+            "WCD10-B17-S102",
+            "WCD10-B17-S103"
+          ],
+          "fact_candidate_id": "WCD10-B17-F117"
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "作者书目将其列为诗集，并记录1945年出版；此处只作书目级描述。",
+          "source_refs": [
+            "WCD10-B17-S101",
+            "WCD10-B17-S102",
+            "WCD10-B17-S103"
+          ],
+          "fact_candidate_id": "WCD10-B17-F118"
+        }
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B17-W104",
+      "author_id": "V1-ENT-0320",
+      "entity_type": "collection",
+      "original_name": "La fijeza",
+      "name_zh_candidate": "《固定》（暂译）",
+      "name_policy": "中文题名仅作检索用暂译，西班牙语原题为作品身份锚点，不表示存在正式中文译本。",
+      "rationale": "直接书目来源确认其为Lezama Lima作品；本候选仅提出普通书目、体裁及简短有界说明，不声称穷尽作品全集或学术覆盖。",
+      "created_source_refs": [
+        "WCD10-B17-S101",
+        "WCD10-B17-S103"
+      ],
+      "facts": [
+        {
+          "field": "first_publication_year",
+          "value": "1949",
+          "source_refs": [
+            "WCD10-B17-S101",
+            "WCD10-B17-S103"
+          ],
+          "fact_candidate_id": "WCD10-B17-F119"
+        },
+        {
+          "field": "genre_or_form",
+          "value": "诗集",
+          "source_refs": [
+            "WCD10-B17-S101",
+            "WCD10-B17-S103"
+          ],
+          "fact_candidate_id": "WCD10-B17-F120"
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "机构作者页和研究书目均将其列为诗集；书目记录1949年版。",
+          "source_refs": [
+            "WCD10-B17-S101",
+            "WCD10-B17-S103"
+          ],
+          "fact_candidate_id": "WCD10-B17-F121"
+        }
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B17-W105",
+      "author_id": "V1-ENT-0320",
+      "entity_type": "collection",
+      "original_name": "Dador",
+      "name_zh_candidate": "《给予者》（暂译）",
+      "name_policy": "中文题名仅作检索用暂译，西班牙语原题为作品身份锚点，不表示存在正式中文译本。",
+      "rationale": "直接书目来源确认其为Lezama Lima作品；本候选仅提出普通书目、体裁及简短有界说明，不声称穷尽作品全集或学术覆盖。",
+      "created_source_refs": [
+        "WCD10-B17-S101",
+        "WCD10-B17-S102",
+        "WCD10-B17-S103"
+      ],
+      "facts": [
+        {
+          "field": "first_publication_year",
+          "value": "1960",
+          "source_refs": [
+            "WCD10-B17-S101",
+            "WCD10-B17-S102",
+            "WCD10-B17-S103"
+          ],
+          "fact_candidate_id": "WCD10-B17-F122"
+        },
+        {
+          "field": "genre_or_form",
+          "value": "诗集",
+          "source_refs": [
+            "WCD10-B17-S101",
+            "WCD10-B17-S102",
+            "WCD10-B17-S103"
+          ],
+          "fact_candidate_id": "WCD10-B17-F123"
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "作者书目将其列为诗集，并记录1960年出版；此处只作书目级描述。",
+          "source_refs": [
+            "WCD10-B17-S101",
+            "WCD10-B17-S102",
+            "WCD10-B17-S103"
+          ],
+          "fact_candidate_id": "WCD10-B17-F124"
+        }
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B17-W106",
+      "author_id": "V1-ENT-0320",
+      "entity_type": "collection",
+      "original_name": "Tratados en La Habana",
+      "name_zh_candidate": "《哈瓦那论稿》（暂译）",
+      "name_policy": "中文题名仅作检索用暂译，西班牙语原题为作品身份锚点，不表示存在正式中文译本。",
+      "rationale": "直接书目来源确认其为Lezama Lima作品；本候选仅提出普通书目、体裁及简短有界说明，不声称穷尽作品全集或学术覆盖。",
+      "created_source_refs": [
+        "WCD10-B17-S102",
+        "WCD10-B17-S103"
+      ],
+      "facts": [
+        {
+          "field": "first_publication_year",
+          "value": "1958",
+          "source_refs": [
+            "WCD10-B17-S102",
+            "WCD10-B17-S103"
+          ],
+          "fact_candidate_id": "WCD10-B17-F125"
+        },
+        {
+          "field": "genre_or_form",
+          "value": "随笔集",
+          "source_refs": [
+            "WCD10-B17-S102",
+            "WCD10-B17-S103"
+          ],
+          "fact_candidate_id": "WCD10-B17-F126"
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "作者书目将其列为随笔/论文著作，并记录1958年出版；此处只作书目级描述。",
+          "source_refs": [
+            "WCD10-B17-S102",
+            "WCD10-B17-S103"
+          ],
+          "fact_candidate_id": "WCD10-B17-F127"
+        }
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B17-W107",
+      "author_id": "V1-ENT-0320",
+      "entity_type": "collection",
+      "original_name": "La cantidad hechizada",
+      "name_zh_candidate": "《着魔的数量》（暂译）",
+      "name_policy": "中文题名仅作检索用暂译，西班牙语原题为作品身份锚点，不表示存在正式中文译本。",
+      "rationale": "直接书目来源确认其为Lezama Lima作品；本候选仅提出普通书目、体裁及简短有界说明，不声称穷尽作品全集或学术覆盖。",
+      "created_source_refs": [
+        "WCD10-B17-S102",
+        "WCD10-B17-S103"
+      ],
+      "facts": [
+        {
+          "field": "first_publication_year",
+          "value": "1970",
+          "source_refs": [
+            "WCD10-B17-S102",
+            "WCD10-B17-S103"
+          ],
+          "fact_candidate_id": "WCD10-B17-F128"
+        },
+        {
+          "field": "genre_or_form",
+          "value": "随笔集",
+          "source_refs": [
+            "WCD10-B17-S102",
+            "WCD10-B17-S103"
+          ],
+          "fact_candidate_id": "WCD10-B17-F129"
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "作者书目将其列为随笔/论文著作，并记录1970年出版；此处只作书目级描述。",
+          "source_refs": [
+            "WCD10-B17-S102",
+            "WCD10-B17-S103"
+          ],
+          "fact_candidate_id": "WCD10-B17-F130"
+        }
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B17-W108",
+      "author_id": "V1-ENT-0320",
+      "entity_type": "collection",
+      "original_name": "Fragmentos a su imán",
+      "name_zh_candidate": "《献给磁石的片段》（暂译）",
+      "name_policy": "中文题名仅作检索用暂译，西班牙语原题为作品身份锚点，不表示存在正式中文译本。",
+      "rationale": "直接书目来源确认其为Lezama Lima作品；本候选仅提出普通书目、体裁及简短有界说明，不声称穷尽作品全集或学术覆盖。",
+      "created_source_refs": [
+        "WCD10-B17-S102",
+        "WCD10-B17-S103"
+      ],
+      "facts": [
+        {
+          "field": "genre_or_form",
+          "value": "诗集",
+          "source_refs": [
+            "WCD10-B17-S102",
+            "WCD10-B17-S103"
+          ],
+          "fact_candidate_id": "WCD10-B17-F132"
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "研究者将该书描述为莱萨马晚年处境的诗歌化表达，并指出它以更具情境性的诗篇呈现其诗学脉络。",
+          "source_refs": [
+            "WCD10-B17-S103"
+          ],
+          "fact_candidate_id": "WCD10-B17-F133"
+        },
+        {
+          "field": "bibliographic_note",
+          "value": "塞万提斯虚拟图书馆书目列哈瓦那1977年版及墨西哥、巴塞罗那1978年版；Editorial Anagrama作者页标注1978年。来源年份口径不同，故保留版本记录并不指定原子首版年份。",
+          "source_refs": [
+            "WCD10-B17-S102",
+            "WCD10-B17-S103"
+          ],
+          "fact_candidate_id": "WCD10-B17-F134"
+        }
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B17-W201",
+      "author_id": "V1-ENT-0321",
+      "entity_type": "collection",
+      "original_name": "Así en la paz como en la guerra",
+      "name_zh_candidate": "《如此和平，如此战争》",
+      "name_policy": "中文仅作检索工作译名，保留西班牙语原题，不声称正式中文译本。",
+      "rationale": "Cervantes年表和作者出版社书目均列此1960年短篇小说集；补一项有来源的早期核心书目。",
+      "created_source_refs": [
+        "WCD10-B17-S201",
+        "WCD10-B17-S205"
+      ],
+      "facts": [
+        {
+          "field": "first_publication_year",
+          "value": "1960",
+          "source_refs": [
+            "WCD10-B17-S201",
+            "WCD10-B17-S205"
+          ],
+          "fact_candidate_id": "WCD10-B17-W201-F01"
+        },
+        {
+          "field": "genre_or_form",
+          "value": "短篇小说集",
+          "source_refs": [
+            "WCD10-B17-S205"
+          ],
+          "fact_candidate_id": "WCD10-B17-W201-F02"
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "出版者将该书列为作者1960年的短篇小说集。",
+          "source_refs": [
+            "WCD10-B17-S205"
+          ],
+          "fact_candidate_id": "WCD10-B17-W201-F03"
+        }
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B17-W202",
+      "author_id": "V1-ENT-0321",
+      "entity_type": "collection",
+      "original_name": "Un oficio del siglo XX",
+      "name_zh_candidate": "《二十世纪的行当》",
+      "name_policy": "中文仅作检索工作译名，保留西班牙语原题，不声称正式中文译本。",
+      "rationale": "Instituto Cervantes年表和作者出版社书目均列此1963年作品，出版社将其分类为电影评论汇编。",
+      "created_source_refs": [
+        "WCD10-B17-S201",
+        "WCD10-B17-S205"
+      ],
+      "facts": [
+        {
+          "field": "first_publication_year",
+          "value": "1963",
+          "source_refs": [
+            "WCD10-B17-S201",
+            "WCD10-B17-S205"
+          ],
+          "fact_candidate_id": "WCD10-B17-W202-F01"
+        },
+        {
+          "field": "genre_or_form",
+          "value": "电影评论汇编",
+          "source_refs": [
+            "WCD10-B17-S205"
+          ],
+          "fact_candidate_id": "WCD10-B17-W202-F02"
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "这部1963年作品汇集作者的电影评论。",
+          "source_refs": [
+            "WCD10-B17-S205"
+          ],
+          "fact_candidate_id": "WCD10-B17-W202-F03"
+        }
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B17-W203",
+      "author_id": "V1-ENT-0321",
+      "entity_type": "work",
+      "original_name": "Cuerpos divinos",
+      "name_zh_candidate": "《神圣的肉身》",
+      "name_policy": "中文仅作检索工作译名，保留西班牙语原题，不声称正式中文译本。",
+      "rationale": "Penguin列2010年身后出版，Instituto Cervantes年表列1979年；年份口径冲突如注记保留，原子首发年留空。Penguin说明其回望作者在古巴的青年生活。",
+      "created_source_refs": [
+        "WCD10-B17-S205"
+      ],
+      "facts": [
+        {
+          "field": "bibliographic_note",
+          "value": "Instituto Cervantes年表将Cuerpos divinos列于1979年；Penguin书目列2010年并说明身后出版。两来源未说明1979的年份口径，故本候选不填写原子首发年。",
+          "source_refs": [
+            "WCD10-B17-S201",
+            "WCD10-B17-S205"
+          ],
+          "fact_candidate_id": "WCD10-B17-W203-F01"
+        },
+        {
+          "field": "genre_or_form",
+          "value": "小说化回忆录",
+          "source_refs": [
+            "WCD10-B17-S205"
+          ],
+          "fact_candidate_id": "WCD10-B17-W203-F02"
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "以小说化回忆重现作者在古巴度过的青年生活；Penguin书目注明该书身后出版。",
+          "source_refs": [
+            "WCD10-B17-S205"
+          ],
+          "fact_candidate_id": "WCD10-B17-W203-F03"
+        }
+      ]
+    }
+  ],
+  "existing_facts": [
+    {
+      "candidate_id": "WCD10-B17-F001",
+      "subject_id": "V1-ENT-0317",
+      "field": "one_sentence_summary",
+      "value": "《松调》｜Motivos de son — CVC传记称这本1930年的首部诗集以古巴黑人民众的独特言语和son节奏呈现其生活，使其成为岛屿文化与情感的核心主体。",
+      "source_refs": [
+        "WCD10-B17-S002"
+      ],
+      "boundary": "仅追加有界作品简介；不改动或替代冻结baseline中的任何旧事实值。"
+    },
+    {
+      "candidate_id": "WCD10-B17-F002",
+      "subject_id": "V1-ENT-0318",
+      "field": "one_sentence_summary",
+      "value": "《桑戈罗·科松戈》｜Sóngoro cosongo — CVC传记称该诗集借助标题的拟声形式，表现诗人呈现古巴岛屿非洲根源、节奏与声音的意图。",
+      "source_refs": [
+        "WCD10-B17-S002"
+      ],
+      "boundary": "仅追加有界作品简介；不改动或替代冻结baseline中的任何旧事实值。"
+    },
+    {
+      "candidate_id": "WCD10-B17-F003",
+      "subject_id": "V1-ENT-0319",
+      "field": "one_sentence_summary",
+      "value": "《西印度公司》｜West Indies, Ltd. — CVC传记将该诗集描述为延续古巴诗歌节奏与声音、同时加强社会批判的作品。",
+      "source_refs": [
+        "WCD10-B17-S002"
+      ],
+      "boundary": "仅追加有界作品简介；不改动或替代冻结baseline中的任何旧事实值。"
+    },
+    {
+      "candidate_id": "WCD10-B17-F101",
+      "subject_id": "V1-ENT-0323",
+      "field": "one_sentence_summary",
+      "value": "AAP称其为1966年小说，并概述其位于二十世纪西语小说的重要作品之列。",
+      "source_refs": [
+        "WCD10-B17-S101"
+      ],
+      "boundary": "只追加一条有界作品简介；不改写冻结事实、卡片或关联。"
+    },
+    {
+      "candidate_id": "WCD10-B17-F102",
+      "subject_id": "V1-ENT-0324",
+      "field": "one_sentence_summary",
+      "value": "AAP称其为《天堂》中人物命名的未完成续作，并记录其1977年在墨西哥初版。",
+      "source_refs": [
+        "WCD10-B17-S101"
+      ],
+      "boundary": "只追加一条有界作品简介；不改写冻结事实、卡片或关联。"
+    },
+    {
+      "candidate_id": "WCD10-B17-F103",
+      "subject_id": "V1-ENT-0325",
+      "field": "one_sentence_summary",
+      "value": "AAP记载该书源自作者1957年在哈瓦那所作的五部分讲演，内容表达其对拉丁美洲文化的看法。",
+      "source_refs": [
+        "WCD10-B17-S101"
+      ],
+      "boundary": "只追加一条有界作品简介；不改写冻结事实、卡片或关联。"
+    },
+    {
+      "candidate_id": "WCD10-B17-F201",
+      "subject_id": "V1-ENT-0326",
+      "field": "one_sentence_summary",
+      "value": "小说以巴蒂斯塔独裁时期的一群年轻人为中心，并通过强烈的语言与结构实验展开。",
+      "source_refs": [
+        "WCD10-B17-S202"
+      ],
+      "boundary": "只采纳Treccani对小说体裁、人物群像与语言/结构实验的有限概述；未补写具体人物或情节。"
+    },
+    {
+      "candidate_id": "WCD10-B17-F202",
+      "subject_id": "V1-ENT-0326",
+      "field": "bibliographic_note",
+      "value": "Instituto Cervantes作品年表列1967；Treccani条目将小说标注为1964年（并注明意大利语译本1976）。现存V1-FCT-0871仍按1967保留；两来源口径的对应版本/年份关系未能由本次来源厘清。",
+      "source_refs": [
+        "WCD10-B17-S201",
+        "WCD10-B17-S202"
+      ],
+      "boundary": "仅增加来源口径并存说明，不覆盖既存原子年份事实V1-FCT-0871；不将1964或1967重定为已解决的唯一首发年。"
+    },
+    {
+      "candidate_id": "WCD10-B17-F203",
+      "subject_id": "V1-ENT-0327",
+      "field": "genre_or_form",
+      "value": "历史题材叙事作品（Relatos）",
+      "source_refs": [
+        "WCD10-B17-S203"
+      ],
+      "boundary": "按Seix Barral书目系列Relatos及作品简介作有限体裁描述，不推定更窄的体裁分类。"
+    },
+    {
+      "candidate_id": "WCD10-B17-F204",
+      "subject_id": "V1-ENT-0327",
+      "field": "one_sentence_summary",
+      "value": "以诗性叙事片段巡览古巴历史、人民、地理与艺术，并涉及独立斗争、独裁暴力及革命后的冲突。",
+      "source_refs": [
+        "WCD10-B17-S203"
+      ],
+      "boundary": "紧随出版社简介的主题范围；不把书中片段归并为完整或中立的古巴史。"
+    },
+    {
+      "candidate_id": "WCD10-B17-F205",
+      "subject_id": "V1-ENT-0328",
+      "field": "genre_or_form",
+      "value": "小说",
+      "source_refs": [
+        "WCD10-B17-S204"
+      ],
+      "boundary": "沿用出版社作品页的“Novela literaria”体裁标签。"
+    },
+    {
+      "candidate_id": "WCD10-B17-F206",
+      "subject_id": "V1-ENT-0328",
+      "field": "one_sentence_summary",
+      "value": "出版社简介提及好莱坞电影，以及叙述者追寻金发女性的叙事线索。",
+      "source_refs": [
+        "WCD10-B17-S204"
+      ],
+      "boundary": "转述出版社作品页简介；不扩展为作者生平事实或全书情节概括。"
+    }
+  ],
+  "extra_relationships": [],
+  "deferred": [
+    {
+      "key": "guillen.full_author_oeuvre",
+      "reason": "本轮优先补入有直接依据的主要诗集与合集；尚未穷尽作者全部诗集、散文、评论和合集目录。",
+      "disposition": "preserve as out_of_scope"
+    }
+  ]
+}

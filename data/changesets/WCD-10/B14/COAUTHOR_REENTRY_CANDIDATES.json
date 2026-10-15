@@ -1,0 +1,1067 @@
+{
+  "schema": "wcd10-coauthor-reentry-candidates-1",
+  "task_id": "TASK-119",
+  "origin_task": "TASK-112",
+  "baseline_sha256": "c7b5951beb2e2a30053b08d84e07931547b8909a1e5a180086fafeedebaea677",
+  "status": "candidate_only_parent_independent_review_required",
+  "scope": "Three missing author attribution edges on two already existing B07 objects. Do not create duplicate work entities, do not route through extra_relationships, and do not imply sole authorship. Separate controlled reviewed attachment only.",
+  "entries": [
+    {
+      "candidate_id": "WCD10-B14-R201",
+      "subject_id": "V1-ENT-0285",
+      "object_id": "V1-ENT-0493",
+      "relation_type": "CREATED",
+      "description_zh": "西尔维娜·奥坎波与阿道夫·比奥伊·卡萨雷斯合著《Los que aman, odian》；此关系只记录奥坎波的共同创作身份，不表示独著。",
+      "formal_source_refs": [
+        "SRC-0154",
+        "SRC-0519"
+      ],
+      "locator_evidence": [
+        {
+          "formal_source_id": "SRC-0154",
+          "url": "https://www.cervantesvirtual.com/portales/adolfo_bioy_casares/autor_cronologia/",
+          "locator": "Cronología de Adolfo Bioy Casares，1946节第196-200行，明载 Bioy 与 Silvina Ocampo 共同出版此书；实读2026-10-13。",
+          "supports": "Ocampo and Bioy joint authorship; source dates publication in 1946."
+        },
+        {
+          "formal_source_id": "SRC-0519",
+          "url": "https://proapi.planetadelibros.com.ar/descargas/sala-prensa-libro/sinopsis-y-biografia/219757/los-que-aman-odian.pdf?_locale=ar",
+          "locator": "出版社 Emecé press sheet 第20-24行明称两位作者共同写作；第37-38行将其称为 Ocampo 与 Bioy 合作的侦探小说，并列出版年份1945；实读2026-10-13。",
+          "supports": "Direct publisher attribution to both authors; bibliographic year conflict with chronology is preserved, not resolved."
+        }
+      ],
+      "expected_absent": {
+        "checked_against": "B14 frozen SQLite B14_BASELINE.sqlite",
+        "baseline_sha256": "c7b5951beb2e2a30053b08d84e07931547b8909a1e5a180086fafeedebaea677",
+        "edge_absent": true,
+        "existing_bioy_edge": "V1-REL-0462"
+      },
+      "old_complete_object_closure": {
+        "owner_author_id": "V1-ENT-0198",
+        "owner_name": "Adolfo Bioy Casares",
+        "inventory_snapshot": {
+          "entity": {
+            "entity_id": "V1-ENT-0493",
+            "entity_type": "work",
+            "name_zh": "《Los que aman, odian》",
+            "original_name": "Los que aman, odian",
+            "canonical_status": "candidate",
+            "origin_count": "1",
+            "origin_refs": "WCD10-B07-W128",
+            "normalization_basis": "CVC bibliography and chronology list the novel in 1946; the Universidad de Extremadura undergraduate thesis also identifies the first Emecé edition as Buenos Aires, 1946. Emecé confirms Bioy and Silvina Ocampo as coauthors and provides the plot synopsis, but its press-sheet biographical paragraph separately says 1945. W128-F04 preserves the discrepancy; the press-sheet 2016 date is a current edition date, not the novel’s first-publication year.; 以原文题名保留书目身份；中文显示暂作直书题名。",
+            "issue_codes": "PROVISIONAL-ZH-DISPLAY"
+          },
+          "facts": [
+            {
+              "fact_id": "V1-FCT-1489",
+              "origin_material_id": "WCD10-B07-W128-F01",
+              "card_id": "V1-CARD-0417",
+              "subject_id": "V1-ENT-0493",
+              "fact_field": "first_publication_year",
+              "value_text": "1946",
+              "material_class": "bibliographic",
+              "origin_id": "WCD-10-B07",
+              "confidence": "high",
+              "admission_status": "batch_retained_candidate",
+              "usage_note": "Research-only; independent candidate review PASS; no public admission"
+            },
+            {
+              "fact_id": "V1-FCT-1490",
+              "origin_material_id": "WCD10-B07-W128-F02",
+              "card_id": "V1-CARD-0417",
+              "subject_id": "V1-ENT-0493",
+              "fact_field": "genre_or_form",
+              "value_text": "novela policial / 侦探小说",
+              "material_class": "bibliographic",
+              "origin_id": "WCD-10-B07",
+              "confidence": "high",
+              "admission_status": "batch_retained_candidate",
+              "usage_note": "Research-only; independent candidate review PASS; no public admission"
+            },
+            {
+              "fact_id": "V1-FCT-1491",
+              "origin_material_id": "WCD10-B07-W128-F03",
+              "card_id": "V1-CARD-0417",
+              "subject_id": "V1-ENT-0493",
+              "fact_field": "one_sentence_summary",
+              "value_text": "孤立海滨旅馆遭风暴围困期间发生投毒命案与失踪，医生Humberto Huberman被卷入复仇与未竟爱情，旅客在数夜封闭环境中成为嫌疑人。",
+              "material_class": "institutional_paraphrase",
+              "origin_id": "WCD-10-B07",
+              "confidence": "high",
+              "admission_status": "batch_retained_candidate",
+              "usage_note": "Research-only; independent candidate review PASS; no public admission"
+            },
+            {
+              "fact_id": "V1-FCT-1492",
+              "origin_material_id": "WCD10-B07-W128-F04",
+              "card_id": "V1-CARD-0417",
+              "subject_id": "V1-ENT-0493",
+              "fact_field": "bibliographic_note",
+              "value_text": "CVC书目与编年（S101、S102）均将这部合著侦探小说列于1946年；Emecé press sheet作者简介第0页L36–37则称1945年。该press sheet标注“Fecha de publicación: 01/07/2016”，这是所述当前书版日期；PDF没有单独的网页上线日期，且2016不是作品初版年。本提案以CVC书目/编年支持1946，保留出版社简介中的1945异说；不把2016版年作为首发年。",
+              "material_class": "bibliographic_note",
+              "origin_id": "WCD-10-B07",
+              "confidence": "high",
+              "admission_status": "batch_retained_candidate",
+              "usage_note": "Research-only; independent candidate review PASS; no public admission"
+            }
+          ],
+          "cards": [
+            {
+              "card_id": "V1-CARD-0417",
+              "origin_card_id": "WCD-10-B07:V1-ENT-0493",
+              "subject_id": "V1-ENT-0493",
+              "card_type": "work",
+              "title_zh": "《Los que aman, odian》",
+              "author_label": "阿道夫·比奥伊·卡萨雷斯",
+              "original_title": "Los que aman, odian",
+              "country_or_region": "阿根廷",
+              "language": "es",
+              "period_bucket": "1946",
+              "genre_or_form": "novela policial / 侦探小说",
+              "input_layer": "WCD-10-B07",
+              "source_minimum_status": "research_gap",
+              "issue_code": "RESEARCH-ONLY-NOT-CURATED",
+              "content_markdown": "### 《Los que aman, odian》｜Los que aman, odian\n\n- 对象类型：work\n- 研究边界：本补充卡仅保存下列已复核事实和有归属的研究说明，不是策展批准。\n- first_publication_year：1946\n- genre_or_form：novela policial / 侦探小说\n- one_sentence_summary：孤立海滨旅馆遭风暴围困期间发生投毒命案与失踪，医生Humberto Huberman被卷入复仇与未竟爱情，旅客在数夜封闭环境中成为嫌疑人。\n- bibliographic_note：CVC书目与编年（S101、S102）均将这部合著侦探小说列于1946年；Emecé press sheet作者简介第0页L36–37则称1945年。该press sheet标注“Fecha de publicación: 01/07/2016”，这是所述当前书版日期；PDF没有单独的网页上线日期，且2016不是作品初版年。本提案以CVC书目/编年支持1946，保留出版社简介中的1945异说；不把2016版年作为首发年。\n\n#### 未关闭的研究边界\n\n本卡不升级任何既有 hold；未核实的文学解释或作品级学术研究保持 research_gap。"
+            }
+          ],
+          "relations": [
+            {
+              "relationship_id": "V1-REL-0462",
+              "origin_layer": "WCD-10-B07",
+              "origin_relation_group_id": "WCD10-B07-W128-CREATED",
+              "subject_id": "V1-ENT-0198",
+              "relation_type": "CREATED",
+              "object_id": "V1-ENT-0493",
+              "description_zh": "与西尔维娜·奥坎波（Silvina Ocampo）合著；此 CREATED 关系记录 Bioy Casares 的共同创作身份，不表示其为独著作者。",
+              "confidence": "high",
+              "review_status": "accepted",
+              "upstream_review_status": "Codex-parent-independent-review:PASS",
+              "evidence_count": "2",
+              "issue_code": "NONE"
+            }
+          ],
+          "fact_sources": [
+            {
+              "fact_id": "V1-FCT-1489",
+              "source_id": "SRC-0478",
+              "source_title": "Bibliografía de Adolfo Bioy Casares"
+            },
+            {
+              "fact_id": "V1-FCT-1489",
+              "source_id": "SRC-0154",
+              "source_title": "Adolfo Bioy Casares. Cronología de obras"
+            },
+            {
+              "fact_id": "V1-FCT-1489",
+              "source_id": "SRC-0521",
+              "source_title": "La novela hispanoamericana en el siglo XXI: la recepción de la obra de Silvina Ocampo en España"
+            },
+            {
+              "fact_id": "V1-FCT-1490",
+              "source_id": "SRC-0154",
+              "source_title": "Adolfo Bioy Casares. Cronología de obras"
+            },
+            {
+              "fact_id": "V1-FCT-1490",
+              "source_id": "SRC-0519",
+              "source_title": "Los que aman, odian"
+            },
+            {
+              "fact_id": "V1-FCT-1491",
+              "source_id": "SRC-0519",
+              "source_title": "Los que aman, odian"
+            },
+            {
+              "fact_id": "V1-FCT-1492",
+              "source_id": "SRC-0478",
+              "source_title": "Bibliografía de Adolfo Bioy Casares"
+            },
+            {
+              "fact_id": "V1-FCT-1492",
+              "source_id": "SRC-0154",
+              "source_title": "Adolfo Bioy Casares. Cronología de obras"
+            },
+            {
+              "fact_id": "V1-FCT-1492",
+              "source_id": "SRC-0519",
+              "source_title": "Los que aman, odian"
+            },
+            {
+              "fact_id": "V1-FCT-1492",
+              "source_id": "SRC-0521",
+              "source_title": "La novela hispanoamericana en el siglo XXI: la recepción de la obra de Silvina Ocampo en España"
+            }
+          ],
+          "card_sources": [
+            {
+              "card_source_id": "V1-CS-0868",
+              "origin_matrix_id": "WCD10-B07-S101",
+              "card_id": "V1-CARD-0417",
+              "source_id": "SRC-0478",
+              "source_level": "B",
+              "source_role": "bibliography_or_bounded_description",
+              "bibliographic_support": "yes",
+              "research_support": "no",
+              "independent_source_key": "SRC-0478",
+              "usage_status": "accepted",
+              "issue_code": "NONE"
+            },
+            {
+              "card_source_id": "V1-CS-0869",
+              "origin_matrix_id": "WCD10-B07-S102",
+              "card_id": "V1-CARD-0417",
+              "source_id": "SRC-0154",
+              "source_level": "B",
+              "source_role": "bibliography_or_bounded_description",
+              "bibliographic_support": "yes",
+              "research_support": "no",
+              "independent_source_key": "SRC-0154",
+              "usage_status": "accepted",
+              "issue_code": "SCOPE-OVERLAP-NOT-INDEPENDENT"
+            },
+            {
+              "card_source_id": "V1-CS-0870",
+              "origin_matrix_id": "WCD10-B07-S147",
+              "card_id": "V1-CARD-0417",
+              "source_id": "SRC-0519",
+              "source_level": "B",
+              "source_role": "bibliography_or_bounded_description",
+              "bibliographic_support": "yes",
+              "research_support": "no",
+              "independent_source_key": "SRC-0519",
+              "usage_status": "accepted",
+              "issue_code": "NONE"
+            },
+            {
+              "card_source_id": "V1-CS-0871",
+              "origin_matrix_id": "WCD10-B07-S149",
+              "card_id": "V1-CARD-0417",
+              "source_id": "SRC-0521",
+              "source_level": "B",
+              "source_role": "bibliography_or_bounded_description",
+              "bibliographic_support": "yes",
+              "research_support": "no",
+              "independent_source_key": "SRC-0521",
+              "usage_status": "accepted",
+              "issue_code": "NONE"
+            }
+          ],
+          "relationship_sources": [
+            {
+              "relationship_id": "V1-REL-0462",
+              "source_id": "SRC-0154"
+            },
+            {
+              "relationship_id": "V1-REL-0462",
+              "source_id": "SRC-0519"
+            }
+          ],
+          "relationship_evidence": [
+            {
+              "evidence_id": "V1-EV-0620",
+              "relationship_id": "V1-REL-0462",
+              "origin_evidence_id": "WCD10-B07-S102",
+              "source_id": "SRC-0154",
+              "source_title": "Adolfo Bioy Casares. Cronología de obras",
+              "locator": "37–39 signed byline; 175–205 for 1940–1948; other title years checked at matching annual entries.",
+              "evidence_note": "与西尔维娜·奥坎波（Silvina Ocampo）合著；此 CREATED 关系记录 Bioy Casares 的共同创作身份，不表示其为独著作者。",
+              "confidence": "high",
+              "evidence_status": "eligible_evidence",
+              "evidence_origin": "WCD-10-B07"
+            },
+            {
+              "evidence_id": "V1-EV-0621",
+              "relationship_id": "V1-REL-0462",
+              "origin_evidence_id": "WCD10-B07-S147",
+              "source_id": "SRC-0519",
+              "source_title": "Los que aman, odian",
+              "locator": "Press sheet physical p.0: “Fecha de publicación: 01/07/2016” (book-edition date); L5–24 for genre, joint authorship and synopsis.",
+              "evidence_note": "与西尔维娜·奥坎波（Silvina Ocampo）合著；此 CREATED 关系记录 Bioy Casares 的共同创作身份，不表示其为独著作者。",
+              "confidence": "high",
+              "evidence_status": "eligible_evidence",
+              "evidence_origin": "WCD-10-B07"
+            }
+          ],
+          "source_objects": [
+            {
+              "source_id": "SRC-0154",
+              "temporary_id": "B04-SRC-0154",
+              "title": "Adolfo Bioy Casares. Cronología de obras",
+              "original_title": "Cronología de obras",
+              "author_or_editor": "Biblioteca Virtual Miguel de Cervantes",
+              "translator": "",
+              "publisher": "Instituto Cervantes",
+              "publication_year": "持续更新（2026-08-20 访问）",
+              "isbn": "",
+              "format": "web_page",
+              "page_count": "",
+              "language": "es",
+              "source_level": "B",
+              "processing_status": "access_pass",
+              "source_task": "WEB-CE-B04",
+              "public_content_scope": "三部小说的书目年份",
+              "local_asset_status": "remote_only",
+              "persistent_id": "",
+              "canonical_url": "https://www.cervantesvirtual.com/portales/adolfo_bioy_casares/autor_cronologia/"
+            },
+            {
+              "source_id": "SRC-0478",
+              "temporary_id": "WCD10-B07-S101",
+              "title": "Bibliografía de Adolfo Bioy Casares",
+              "original_title": "Bibliografía de Adolfo Bioy Casares",
+              "author_or_editor": "Carlos Dámaso Martínez",
+              "translator": "",
+              "publisher": "Biblioteca Virtual Miguel de Cervantes",
+              "publication_year": "",
+              "isbn": "",
+              "format": "institutional_bibliography_web_page",
+              "page_count": "",
+              "language": "es",
+              "source_level": "B",
+              "processing_status": "access_pass",
+              "source_task": "WCD-10-B07",
+              "public_content_scope": "Research-only candidate; no Curation admission or public release.",
+              "local_asset_status": "remote_only",
+              "persistent_id": "",
+              "canonical_url": "https://www.cervantesvirtual.com/portales/adolfo_bioy_casares/su_obra_bibliografia/"
+            },
+            {
+              "source_id": "SRC-0519",
+              "temporary_id": "WCD10-B07-S147",
+              "title": "Los que aman, odian",
+              "original_title": "Los que aman, odian",
+              "author_or_editor": "Silvina Ocampo; Adolfo Bioy Casares",
+              "translator": "",
+              "publisher": "Emecé Editores",
+              "publication_year": "",
+              "isbn": "",
+              "format": "publisher_press_sheet_pdf",
+              "page_count": "",
+              "language": "es",
+              "source_level": "B",
+              "processing_status": "access_pass",
+              "source_task": "WCD-10-B07",
+              "public_content_scope": "Research-only candidate; no Curation admission or public release.",
+              "local_asset_status": "remote_only",
+              "persistent_id": "",
+              "canonical_url": "https://proapi.planetadelibros.com.ar/descargas/sala-prensa-libro/sinopsis-y-biografia/219757/los-que-aman-odian.pdf?_locale=ar"
+            },
+            {
+              "source_id": "SRC-0521",
+              "temporary_id": "WCD10-B07-S149",
+              "title": "La novela hispanoamericana en el siglo XXI: la recepción de la obra de Silvina Ocampo en España",
+              "original_title": "La novela hispanoamericana en el siglo XXI: la recepción de la obra de Silvina Ocampo en España",
+              "author_or_editor": "Gabriela Galán Carrasco",
+              "translator": "",
+              "publisher": "",
+              "publication_year": "2024",
+              "isbn": "",
+              "format": "undergraduate_thesis_pdf",
+              "page_count": "",
+              "language": "es",
+              "source_level": "B",
+              "processing_status": "access_pass",
+              "source_task": "WCD-10-B07",
+              "public_content_scope": "Research-only candidate; no Curation admission or public release.",
+              "local_asset_status": "remote_only",
+              "persistent_id": "",
+              "canonical_url": "https://dehesa.unex.es/bitstreams/76321a28-570c-4afd-8df5-b61ca59cfbfb/download"
+            }
+          ],
+          "flags": []
+        },
+        "card_facts": [
+          {
+            "card_id": "V1-CARD-0417",
+            "fact_id": "V1-FCT-1489",
+            "admission_status": "batch_retained_candidate"
+          },
+          {
+            "card_id": "V1-CARD-0417",
+            "fact_id": "V1-FCT-1490",
+            "admission_status": "batch_retained_candidate"
+          },
+          {
+            "card_id": "V1-CARD-0417",
+            "fact_id": "V1-FCT-1491",
+            "admission_status": "batch_retained_candidate"
+          },
+          {
+            "card_id": "V1-CARD-0417",
+            "fact_id": "V1-FCT-1492",
+            "admission_status": "batch_retained_candidate"
+          }
+        ]
+      }
+    },
+    {
+      "candidate_id": "WCD10-B14-R202",
+      "subject_id": "V1-ENT-0285",
+      "object_id": "V1-ENT-0494",
+      "relation_type": "CREATED",
+      "description_zh": "西尔维娜·奥坎波与豪尔赫·路易斯·博尔赫斯共同编选《Antología de la literatura fantástica》；此关系仅说明奥坎波参与共同编选，不表示独著或单独编者身份。",
+      "formal_source_refs": [
+        "SRC-0154",
+        "SRC-0478",
+        "SRC-0512"
+      ],
+      "locator_evidence": [
+        {
+          "formal_source_id": "SRC-0154",
+          "url": "https://www.cervantesvirtual.com/portales/adolfo_bioy_casares/autor_cronologia/",
+          "locator": "Cronología，1940节第175-179行，明载 Bioy 与 Borges、Silvina Ocampo 共同完成该选集；实读2026-10-13。",
+          "supports": "Tri-authored/editorial collaboration for the 1940 anthology."
+        },
+        {
+          "formal_source_id": "SRC-0478",
+          "url": "https://www.cervantesvirtual.com/portales/adolfo_bioy_casares/su_obra_bibliografia/",
+          "locator": "Bibliografía 第88-90行，置于“与 Silvina Ocampo 和 Jorge Luis Borges 合作作品”标题下，列书名、共同选编及1940年；实读2026-10-13。",
+          "supports": "Direct bibliography explicitly groups the anthology as collaboration with Ocampo and Borges."
+        },
+        {
+          "formal_source_id": "SRC-0512",
+          "url": "https://www.cervantesvirtual.com/portales/adolfo_bioy_casares/autor_apunte/",
+          "locator": "Biografía 第59–60行：1940年 Bioy、Borges 与 Silvina Ocampo 共同出版该选集，并说明编选与翻译工作；实读2026-10-13。",
+          "supports": "Biographical corroboration of collaborative attribution; same institutional author as chronology/bibliography, no independence claim."
+        }
+      ],
+      "expected_absent": {
+        "checked_against": "B14 frozen SQLite B14_BASELINE.sqlite",
+        "baseline_sha256": "c7b5951beb2e2a30053b08d84e07931547b8909a1e5a180086fafeedebaea677",
+        "edge_absent": true,
+        "existing_bioy_edge": "V1-REL-0463",
+        "also_missing_borges_edge": true
+      },
+      "old_complete_object_closure": {
+        "owner_author_id": "V1-ENT-0198",
+        "owner_name": "Adolfo Bioy Casares",
+        "inventory_snapshot": {
+          "entity": {
+            "entity_id": "V1-ENT-0494",
+            "entity_type": "work",
+            "name_zh": "《Antología de la literatura fantástica》",
+            "original_name": "Antología de la literatura fantástica",
+            "canonical_status": "candidate",
+            "origin_count": "1",
+            "origin_refs": "WCD10-B07-W129",
+            "normalization_basis": "CVC页面署名Carlos Dámaso Martínez，直接记1940年由Bioy、Borges与Silvina Ocampo共同编译选、Bioy作序，并列部分收录作者/文本；1965为扩充版，作为同一选集对象的后续版本，不重复建物件。; 以原文题名保留书目身份；中文显示暂作直书题名。",
+            "issue_codes": "PROVISIONAL-ZH-DISPLAY"
+          },
+          "facts": [
+            {
+              "fact_id": "V1-FCT-1493",
+              "origin_material_id": "WCD10-B07-W129-F01",
+              "card_id": "V1-CARD-0418",
+              "subject_id": "V1-ENT-0494",
+              "fact_field": "first_publication_year",
+              "value_text": "1940",
+              "material_class": "bibliographic",
+              "origin_id": "WCD-10-B07",
+              "confidence": "high",
+              "admission_status": "batch_retained_candidate",
+              "usage_note": "Research-only; independent candidate review PASS; no public admission"
+            },
+            {
+              "fact_id": "V1-FCT-1494",
+              "origin_material_id": "WCD10-B07-W129-F02",
+              "card_id": "V1-CARD-0418",
+              "subject_id": "V1-ENT-0494",
+              "fact_field": "genre_or_form",
+              "value_text": "奇幻文学选集（共同编选、翻译）",
+              "material_class": "bibliographic",
+              "origin_id": "WCD-10-B07",
+              "confidence": "high",
+              "admission_status": "batch_retained_candidate",
+              "usage_note": "Research-only; independent candidate review PASS; no public admission"
+            },
+            {
+              "fact_id": "V1-FCT-1495",
+              "origin_material_id": "WCD10-B07-W129-F03",
+              "card_id": "V1-CARD-0418",
+              "subject_id": "V1-ENT-0494",
+              "fact_field": "one_sentence_summary",
+              "value_text": "该选集汇集H. G. Wells、Franz Kafka、Rudyard Kipling等作者作品，并收入Macedonio Fernández、Silvina Ocampo与Jorge Luis Borges的文本；Bioy另撰序。",
+              "material_class": "institutional_paraphrase",
+              "origin_id": "WCD-10-B07",
+              "confidence": "high",
+              "admission_status": "batch_retained_candidate",
+              "usage_note": "Research-only; independent candidate review PASS; no public admission"
+            }
+          ],
+          "cards": [
+            {
+              "card_id": "V1-CARD-0418",
+              "origin_card_id": "WCD-10-B07:V1-ENT-0494",
+              "subject_id": "V1-ENT-0494",
+              "card_type": "work",
+              "title_zh": "《Antología de la literatura fantástica》",
+              "author_label": "阿道夫·比奥伊·卡萨雷斯",
+              "original_title": "Antología de la literatura fantástica",
+              "country_or_region": "阿根廷",
+              "language": "es",
+              "period_bucket": "1940",
+              "genre_or_form": "奇幻文学选集（共同编选、翻译）",
+              "input_layer": "WCD-10-B07",
+              "source_minimum_status": "research_gap",
+              "issue_code": "RESEARCH-ONLY-NOT-CURATED",
+              "content_markdown": "### 《Antología de la literatura fantástica》｜Antología de la literatura fantástica\n\n- 对象类型：work\n- 研究边界：本补充卡仅保存下列已复核事实和有归属的研究说明，不是策展批准。\n- first_publication_year：1940\n- genre_or_form：奇幻文学选集（共同编选、翻译）\n- one_sentence_summary：该选集汇集H. G. Wells、Franz Kafka、Rudyard Kipling等作者作品，并收入Macedonio Fernández、Silvina Ocampo与Jorge Luis Borges的文本；Bioy另撰序。\n\n#### 未关闭的研究边界\n\n本卡不升级任何既有 hold；未核实的文学解释或作品级学术研究保持 research_gap。"
+            }
+          ],
+          "relations": [
+            {
+              "relationship_id": "V1-REL-0463",
+              "origin_layer": "WCD-10-B07",
+              "origin_relation_group_id": "WCD10-B07-W129-CREATED",
+              "subject_id": "V1-ENT-0198",
+              "relation_type": "CREATED",
+              "object_id": "V1-ENT-0494",
+              "description_zh": "与Jorge Luis Borges及Silvina Ocampo共同编选/翻译；Bioy另撰序。此 CREATED 表示编者、译者与序作者贡献，不表示独著。",
+              "confidence": "high",
+              "review_status": "accepted",
+              "upstream_review_status": "Codex-parent-independent-review:PASS",
+              "evidence_count": "3",
+              "issue_code": "NONE"
+            }
+          ],
+          "fact_sources": [
+            {
+              "fact_id": "V1-FCT-1493",
+              "source_id": "SRC-0512",
+              "source_title": "Biografía de Adolfo Bioy Casares"
+            },
+            {
+              "fact_id": "V1-FCT-1493",
+              "source_id": "SRC-0478",
+              "source_title": "Bibliografía de Adolfo Bioy Casares"
+            },
+            {
+              "fact_id": "V1-FCT-1493",
+              "source_id": "SRC-0154",
+              "source_title": "Adolfo Bioy Casares. Cronología de obras"
+            },
+            {
+              "fact_id": "V1-FCT-1494",
+              "source_id": "SRC-0512",
+              "source_title": "Biografía de Adolfo Bioy Casares"
+            },
+            {
+              "fact_id": "V1-FCT-1495",
+              "source_id": "SRC-0512",
+              "source_title": "Biografía de Adolfo Bioy Casares"
+            }
+          ],
+          "card_sources": [
+            {
+              "card_source_id": "V1-CS-0872",
+              "origin_matrix_id": "WCD10-B07-S101",
+              "card_id": "V1-CARD-0418",
+              "source_id": "SRC-0478",
+              "source_level": "B",
+              "source_role": "bibliography_or_bounded_description",
+              "bibliographic_support": "yes",
+              "research_support": "no",
+              "independent_source_key": "SRC-0478",
+              "usage_status": "accepted",
+              "issue_code": "NONE"
+            },
+            {
+              "card_source_id": "V1-CS-0873",
+              "origin_matrix_id": "WCD10-B07-S102",
+              "card_id": "V1-CARD-0418",
+              "source_id": "SRC-0154",
+              "source_level": "B",
+              "source_role": "bibliography_or_bounded_description",
+              "bibliographic_support": "yes",
+              "research_support": "no",
+              "independent_source_key": "SRC-0154",
+              "usage_status": "accepted",
+              "issue_code": "SCOPE-OVERLAP-NOT-INDEPENDENT"
+            },
+            {
+              "card_source_id": "V1-CS-0874",
+              "origin_matrix_id": "WCD10-B07-S140",
+              "card_id": "V1-CARD-0418",
+              "source_id": "SRC-0512",
+              "source_level": "B",
+              "source_role": "bibliography_or_bounded_description",
+              "bibliographic_support": "yes",
+              "research_support": "no",
+              "independent_source_key": "SRC-0512",
+              "usage_status": "accepted",
+              "issue_code": "NONE"
+            }
+          ],
+          "relationship_sources": [
+            {
+              "relationship_id": "V1-REL-0463",
+              "source_id": "SRC-0512"
+            },
+            {
+              "relationship_id": "V1-REL-0463",
+              "source_id": "SRC-0478"
+            },
+            {
+              "relationship_id": "V1-REL-0463",
+              "source_id": "SRC-0154"
+            }
+          ],
+          "relationship_evidence": [
+            {
+              "evidence_id": "V1-EV-0622",
+              "relationship_id": "V1-REL-0463",
+              "origin_evidence_id": "WCD10-B07-S140",
+              "source_id": "SRC-0512",
+              "source_title": "Biografía de Adolfo Bioy Casares",
+              "locator": "L34–38署名Carlos Dámaso Martínez",
+              "evidence_note": "与Jorge Luis Borges及Silvina Ocampo共同编选/翻译；Bioy另撰序。此 CREATED 表示编者、译者与序作者贡献，不表示独著。",
+              "confidence": "high",
+              "evidence_status": "eligible_evidence",
+              "evidence_origin": "WCD-10-B07"
+            },
+            {
+              "evidence_id": "V1-EV-0623",
+              "relationship_id": "V1-REL-0463",
+              "origin_evidence_id": "WCD10-B07-S101",
+              "source_id": "SRC-0478",
+              "source_title": "Bibliografía de Adolfo Bioy Casares",
+              "locator": "47–68: libros and antologías; 80–100: Borges collaborations and pseudonym titles; 37–39 page byline.",
+              "evidence_note": "与Jorge Luis Borges及Silvina Ocampo共同编选/翻译；Bioy另撰序。此 CREATED 表示编者、译者与序作者贡献，不表示独著。",
+              "confidence": "high",
+              "evidence_status": "eligible_evidence",
+              "evidence_origin": "WCD-10-B07"
+            },
+            {
+              "evidence_id": "V1-EV-0624",
+              "relationship_id": "V1-REL-0463",
+              "origin_evidence_id": "WCD10-B07-S102",
+              "source_id": "SRC-0154",
+              "source_title": "Adolfo Bioy Casares. Cronología de obras",
+              "locator": "37–39 signed byline; 175–205 for 1940–1948; other title years checked at matching annual entries.",
+              "evidence_note": "与Jorge Luis Borges及Silvina Ocampo共同编选/翻译；Bioy另撰序。此 CREATED 表示编者、译者与序作者贡献，不表示独著。",
+              "confidence": "high",
+              "evidence_status": "eligible_evidence",
+              "evidence_origin": "WCD-10-B07"
+            }
+          ],
+          "source_objects": [
+            {
+              "source_id": "SRC-0154",
+              "temporary_id": "B04-SRC-0154",
+              "title": "Adolfo Bioy Casares. Cronología de obras",
+              "original_title": "Cronología de obras",
+              "author_or_editor": "Biblioteca Virtual Miguel de Cervantes",
+              "translator": "",
+              "publisher": "Instituto Cervantes",
+              "publication_year": "持续更新（2026-08-20 访问）",
+              "isbn": "",
+              "format": "web_page",
+              "page_count": "",
+              "language": "es",
+              "source_level": "B",
+              "processing_status": "access_pass",
+              "source_task": "WEB-CE-B04",
+              "public_content_scope": "三部小说的书目年份",
+              "local_asset_status": "remote_only",
+              "persistent_id": "",
+              "canonical_url": "https://www.cervantesvirtual.com/portales/adolfo_bioy_casares/autor_cronologia/"
+            },
+            {
+              "source_id": "SRC-0478",
+              "temporary_id": "WCD10-B07-S101",
+              "title": "Bibliografía de Adolfo Bioy Casares",
+              "original_title": "Bibliografía de Adolfo Bioy Casares",
+              "author_or_editor": "Carlos Dámaso Martínez",
+              "translator": "",
+              "publisher": "Biblioteca Virtual Miguel de Cervantes",
+              "publication_year": "",
+              "isbn": "",
+              "format": "institutional_bibliography_web_page",
+              "page_count": "",
+              "language": "es",
+              "source_level": "B",
+              "processing_status": "access_pass",
+              "source_task": "WCD-10-B07",
+              "public_content_scope": "Research-only candidate; no Curation admission or public release.",
+              "local_asset_status": "remote_only",
+              "persistent_id": "",
+              "canonical_url": "https://www.cervantesvirtual.com/portales/adolfo_bioy_casares/su_obra_bibliografia/"
+            },
+            {
+              "source_id": "SRC-0512",
+              "temporary_id": "WCD10-B07-S140",
+              "title": "Biografía de Adolfo Bioy Casares",
+              "original_title": "Biografía de Adolfo Bioy Casares",
+              "author_or_editor": "Carlos Dámaso Martínez",
+              "translator": "",
+              "publisher": "Biblioteca Virtual Miguel de Cervantes",
+              "publication_year": "",
+              "isbn": "",
+              "format": "web_page",
+              "page_count": "",
+              "language": "es",
+              "source_level": "B",
+              "processing_status": "access_pass",
+              "source_task": "WCD-10-B07",
+              "public_content_scope": "Research-only candidate; no Curation admission or public release.",
+              "local_asset_status": "remote_only",
+              "persistent_id": "",
+              "canonical_url": "https://www.cervantesvirtual.com/portales/adolfo_bioy_casares/autor_apunte/"
+            }
+          ],
+          "flags": []
+        },
+        "card_facts": [
+          {
+            "card_id": "V1-CARD-0418",
+            "fact_id": "V1-FCT-1493",
+            "admission_status": "batch_retained_candidate"
+          },
+          {
+            "card_id": "V1-CARD-0418",
+            "fact_id": "V1-FCT-1494",
+            "admission_status": "batch_retained_candidate"
+          },
+          {
+            "card_id": "V1-CARD-0418",
+            "fact_id": "V1-FCT-1495",
+            "admission_status": "batch_retained_candidate"
+          }
+        ]
+      }
+    },
+    {
+      "candidate_id": "WCD10-B14-R203",
+      "subject_id": "V1-ENT-0002",
+      "object_id": "V1-ENT-0494",
+      "relation_type": "CREATED",
+      "description_zh": "豪尔赫·路易斯·博尔赫斯与西尔维娜·奥坎波共同编选《Antología de la literatura fantástica》；此关系仅说明博尔赫斯参与共同编选，不表示独著或单独编者身份。",
+      "formal_source_refs": [
+        "SRC-0154",
+        "SRC-0478",
+        "SRC-0512"
+      ],
+      "locator_evidence": [
+        {
+          "formal_source_id": "SRC-0154",
+          "url": "https://www.cervantesvirtual.com/portales/adolfo_bioy_casares/autor_cronologia/",
+          "locator": "Cronología，1940节第175-179行，明载 Bioy 与 Borges、Silvina Ocampo 共同完成该选集；实读2026-10-13。",
+          "supports": "Tri-authored/editorial collaboration for the 1940 anthology."
+        },
+        {
+          "formal_source_id": "SRC-0478",
+          "url": "https://www.cervantesvirtual.com/portales/adolfo_bioy_casares/su_obra_bibliografia/",
+          "locator": "Bibliografía 第88-90行，置于“与 Silvina Ocampo 和 Jorge Luis Borges 合作作品”标题下，列书名、共同选编及1940年；实读2026-10-13。",
+          "supports": "Direct bibliography explicitly groups the anthology as collaboration with Ocampo and Borges."
+        },
+        {
+          "formal_source_id": "SRC-0512",
+          "url": "https://www.cervantesvirtual.com/portales/adolfo_bioy_casares/autor_apunte/",
+          "locator": "Biografía 第59–60行：1940年 Bioy、Borges 与 Silvina Ocampo 共同出版该选集，并说明编选与翻译工作；实读2026-10-13。",
+          "supports": "Biographical corroboration of collaborative attribution; same institutional author as chronology/bibliography, no independence claim."
+        }
+      ],
+      "expected_absent": {
+        "checked_against": "B14 frozen SQLite B14_BASELINE.sqlite",
+        "baseline_sha256": "c7b5951beb2e2a30053b08d84e07931547b8909a1e5a180086fafeedebaea677",
+        "edge_absent": true,
+        "existing_bioy_edge": "V1-REL-0463"
+      },
+      "old_complete_object_closure": {
+        "owner_author_id": "V1-ENT-0198",
+        "owner_name": "Adolfo Bioy Casares",
+        "inventory_snapshot": {
+          "entity": {
+            "entity_id": "V1-ENT-0494",
+            "entity_type": "work",
+            "name_zh": "《Antología de la literatura fantástica》",
+            "original_name": "Antología de la literatura fantástica",
+            "canonical_status": "candidate",
+            "origin_count": "1",
+            "origin_refs": "WCD10-B07-W129",
+            "normalization_basis": "CVC页面署名Carlos Dámaso Martínez，直接记1940年由Bioy、Borges与Silvina Ocampo共同编译选、Bioy作序，并列部分收录作者/文本；1965为扩充版，作为同一选集对象的后续版本，不重复建物件。; 以原文题名保留书目身份；中文显示暂作直书题名。",
+            "issue_codes": "PROVISIONAL-ZH-DISPLAY"
+          },
+          "facts": [
+            {
+              "fact_id": "V1-FCT-1493",
+              "origin_material_id": "WCD10-B07-W129-F01",
+              "card_id": "V1-CARD-0418",
+              "subject_id": "V1-ENT-0494",
+              "fact_field": "first_publication_year",
+              "value_text": "1940",
+              "material_class": "bibliographic",
+              "origin_id": "WCD-10-B07",
+              "confidence": "high",
+              "admission_status": "batch_retained_candidate",
+              "usage_note": "Research-only; independent candidate review PASS; no public admission"
+            },
+            {
+              "fact_id": "V1-FCT-1494",
+              "origin_material_id": "WCD10-B07-W129-F02",
+              "card_id": "V1-CARD-0418",
+              "subject_id": "V1-ENT-0494",
+              "fact_field": "genre_or_form",
+              "value_text": "奇幻文学选集（共同编选、翻译）",
+              "material_class": "bibliographic",
+              "origin_id": "WCD-10-B07",
+              "confidence": "high",
+              "admission_status": "batch_retained_candidate",
+              "usage_note": "Research-only; independent candidate review PASS; no public admission"
+            },
+            {
+              "fact_id": "V1-FCT-1495",
+              "origin_material_id": "WCD10-B07-W129-F03",
+              "card_id": "V1-CARD-0418",
+              "subject_id": "V1-ENT-0494",
+              "fact_field": "one_sentence_summary",
+              "value_text": "该选集汇集H. G. Wells、Franz Kafka、Rudyard Kipling等作者作品，并收入Macedonio Fernández、Silvina Ocampo与Jorge Luis Borges的文本；Bioy另撰序。",
+              "material_class": "institutional_paraphrase",
+              "origin_id": "WCD-10-B07",
+              "confidence": "high",
+              "admission_status": "batch_retained_candidate",
+              "usage_note": "Research-only; independent candidate review PASS; no public admission"
+            }
+          ],
+          "cards": [
+            {
+              "card_id": "V1-CARD-0418",
+              "origin_card_id": "WCD-10-B07:V1-ENT-0494",
+              "subject_id": "V1-ENT-0494",
+              "card_type": "work",
+              "title_zh": "《Antología de la literatura fantástica》",
+              "author_label": "阿道夫·比奥伊·卡萨雷斯",
+              "original_title": "Antología de la literatura fantástica",
+              "country_or_region": "阿根廷",
+              "language": "es",
+              "period_bucket": "1940",
+              "genre_or_form": "奇幻文学选集（共同编选、翻译）",
+              "input_layer": "WCD-10-B07",
+              "source_minimum_status": "research_gap",
+              "issue_code": "RESEARCH-ONLY-NOT-CURATED",
+              "content_markdown": "### 《Antología de la literatura fantástica》｜Antología de la literatura fantástica\n\n- 对象类型：work\n- 研究边界：本补充卡仅保存下列已复核事实和有归属的研究说明，不是策展批准。\n- first_publication_year：1940\n- genre_or_form：奇幻文学选集（共同编选、翻译）\n- one_sentence_summary：该选集汇集H. G. Wells、Franz Kafka、Rudyard Kipling等作者作品，并收入Macedonio Fernández、Silvina Ocampo与Jorge Luis Borges的文本；Bioy另撰序。\n\n#### 未关闭的研究边界\n\n本卡不升级任何既有 hold；未核实的文学解释或作品级学术研究保持 research_gap。"
+            }
+          ],
+          "relations": [
+            {
+              "relationship_id": "V1-REL-0463",
+              "origin_layer": "WCD-10-B07",
+              "origin_relation_group_id": "WCD10-B07-W129-CREATED",
+              "subject_id": "V1-ENT-0198",
+              "relation_type": "CREATED",
+              "object_id": "V1-ENT-0494",
+              "description_zh": "与Jorge Luis Borges及Silvina Ocampo共同编选/翻译；Bioy另撰序。此 CREATED 表示编者、译者与序作者贡献，不表示独著。",
+              "confidence": "high",
+              "review_status": "accepted",
+              "upstream_review_status": "Codex-parent-independent-review:PASS",
+              "evidence_count": "3",
+              "issue_code": "NONE"
+            }
+          ],
+          "fact_sources": [
+            {
+              "fact_id": "V1-FCT-1493",
+              "source_id": "SRC-0512",
+              "source_title": "Biografía de Adolfo Bioy Casares"
+            },
+            {
+              "fact_id": "V1-FCT-1493",
+              "source_id": "SRC-0478",
+              "source_title": "Bibliografía de Adolfo Bioy Casares"
+            },
+            {
+              "fact_id": "V1-FCT-1493",
+              "source_id": "SRC-0154",
+              "source_title": "Adolfo Bioy Casares. Cronología de obras"
+            },
+            {
+              "fact_id": "V1-FCT-1494",
+              "source_id": "SRC-0512",
+              "source_title": "Biografía de Adolfo Bioy Casares"
+            },
+            {
+              "fact_id": "V1-FCT-1495",
+              "source_id": "SRC-0512",
+              "source_title": "Biografía de Adolfo Bioy Casares"
+            }
+          ],
+          "card_sources": [
+            {
+              "card_source_id": "V1-CS-0872",
+              "origin_matrix_id": "WCD10-B07-S101",
+              "card_id": "V1-CARD-0418",
+              "source_id": "SRC-0478",
+              "source_level": "B",
+              "source_role": "bibliography_or_bounded_description",
+              "bibliographic_support": "yes",
+              "research_support": "no",
+              "independent_source_key": "SRC-0478",
+              "usage_status": "accepted",
+              "issue_code": "NONE"
+            },
+            {
+              "card_source_id": "V1-CS-0873",
+              "origin_matrix_id": "WCD10-B07-S102",
+              "card_id": "V1-CARD-0418",
+              "source_id": "SRC-0154",
+              "source_level": "B",
+              "source_role": "bibliography_or_bounded_description",
+              "bibliographic_support": "yes",
+              "research_support": "no",
+              "independent_source_key": "SRC-0154",
+              "usage_status": "accepted",
+              "issue_code": "SCOPE-OVERLAP-NOT-INDEPENDENT"
+            },
+            {
+              "card_source_id": "V1-CS-0874",
+              "origin_matrix_id": "WCD10-B07-S140",
+              "card_id": "V1-CARD-0418",
+              "source_id": "SRC-0512",
+              "source_level": "B",
+              "source_role": "bibliography_or_bounded_description",
+              "bibliographic_support": "yes",
+              "research_support": "no",
+              "independent_source_key": "SRC-0512",
+              "usage_status": "accepted",
+              "issue_code": "NONE"
+            }
+          ],
+          "relationship_sources": [
+            {
+              "relationship_id": "V1-REL-0463",
+              "source_id": "SRC-0512"
+            },
+            {
+              "relationship_id": "V1-REL-0463",
+              "source_id": "SRC-0478"
+            },
+            {
+              "relationship_id": "V1-REL-0463",
+              "source_id": "SRC-0154"
+            }
+          ],
+          "relationship_evidence": [
+            {
+              "evidence_id": "V1-EV-0622",
+              "relationship_id": "V1-REL-0463",
+              "origin_evidence_id": "WCD10-B07-S140",
+              "source_id": "SRC-0512",
+              "source_title": "Biografía de Adolfo Bioy Casares",
+              "locator": "L34–38署名Carlos Dámaso Martínez",
+              "evidence_note": "与Jorge Luis Borges及Silvina Ocampo共同编选/翻译；Bioy另撰序。此 CREATED 表示编者、译者与序作者贡献，不表示独著。",
+              "confidence": "high",
+              "evidence_status": "eligible_evidence",
+              "evidence_origin": "WCD-10-B07"
+            },
+            {
+              "evidence_id": "V1-EV-0623",
+              "relationship_id": "V1-REL-0463",
+              "origin_evidence_id": "WCD10-B07-S101",
+              "source_id": "SRC-0478",
+              "source_title": "Bibliografía de Adolfo Bioy Casares",
+              "locator": "47–68: libros and antologías; 80–100: Borges collaborations and pseudonym titles; 37–39 page byline.",
+              "evidence_note": "与Jorge Luis Borges及Silvina Ocampo共同编选/翻译；Bioy另撰序。此 CREATED 表示编者、译者与序作者贡献，不表示独著。",
+              "confidence": "high",
+              "evidence_status": "eligible_evidence",
+              "evidence_origin": "WCD-10-B07"
+            },
+            {
+              "evidence_id": "V1-EV-0624",
+              "relationship_id": "V1-REL-0463",
+              "origin_evidence_id": "WCD10-B07-S102",
+              "source_id": "SRC-0154",
+              "source_title": "Adolfo Bioy Casares. Cronología de obras",
+              "locator": "37–39 signed byline; 175–205 for 1940–1948; other title years checked at matching annual entries.",
+              "evidence_note": "与Jorge Luis Borges及Silvina Ocampo共同编选/翻译；Bioy另撰序。此 CREATED 表示编者、译者与序作者贡献，不表示独著。",
+              "confidence": "high",
+              "evidence_status": "eligible_evidence",
+              "evidence_origin": "WCD-10-B07"
+            }
+          ],
+          "source_objects": [
+            {
+              "source_id": "SRC-0154",
+              "temporary_id": "B04-SRC-0154",
+              "title": "Adolfo Bioy Casares. Cronología de obras",
+              "original_title": "Cronología de obras",
+              "author_or_editor": "Biblioteca Virtual Miguel de Cervantes",
+              "translator": "",
+              "publisher": "Instituto Cervantes",
+              "publication_year": "持续更新（2026-08-20 访问）",
+              "isbn": "",
+              "format": "web_page",
+              "page_count": "",
+              "language": "es",
+              "source_level": "B",
+              "processing_status": "access_pass",
+              "source_task": "WEB-CE-B04",
+              "public_content_scope": "三部小说的书目年份",
+              "local_asset_status": "remote_only",
+              "persistent_id": "",
+              "canonical_url": "https://www.cervantesvirtual.com/portales/adolfo_bioy_casares/autor_cronologia/"
+            },
+            {
+              "source_id": "SRC-0478",
+              "temporary_id": "WCD10-B07-S101",
+              "title": "Bibliografía de Adolfo Bioy Casares",
+              "original_title": "Bibliografía de Adolfo Bioy Casares",
+              "author_or_editor": "Carlos Dámaso Martínez",
+              "translator": "",
+              "publisher": "Biblioteca Virtual Miguel de Cervantes",
+              "publication_year": "",
+              "isbn": "",
+              "format": "institutional_bibliography_web_page",
+              "page_count": "",
+              "language": "es",
+              "source_level": "B",
+              "processing_status": "access_pass",
+              "source_task": "WCD-10-B07",
+              "public_content_scope": "Research-only candidate; no Curation admission or public release.",
+              "local_asset_status": "remote_only",
+              "persistent_id": "",
+              "canonical_url": "https://www.cervantesvirtual.com/portales/adolfo_bioy_casares/su_obra_bibliografia/"
+            },
+            {
+              "source_id": "SRC-0512",
+              "temporary_id": "WCD10-B07-S140",
+              "title": "Biografía de Adolfo Bioy Casares",
+              "original_title": "Biografía de Adolfo Bioy Casares",
+              "author_or_editor": "Carlos Dámaso Martínez",
+              "translator": "",
+              "publisher": "Biblioteca Virtual Miguel de Cervantes",
+              "publication_year": "",
+              "isbn": "",
+              "format": "web_page",
+              "page_count": "",
+              "language": "es",
+              "source_level": "B",
+              "processing_status": "access_pass",
+              "source_task": "WCD-10-B07",
+              "public_content_scope": "Research-only candidate; no Curation admission or public release.",
+              "local_asset_status": "remote_only",
+              "persistent_id": "",
+              "canonical_url": "https://www.cervantesvirtual.com/portales/adolfo_bioy_casares/autor_apunte/"
+            }
+          ],
+          "flags": []
+        },
+        "card_facts": [
+          {
+            "card_id": "V1-CARD-0418",
+            "fact_id": "V1-FCT-1493",
+            "admission_status": "batch_retained_candidate"
+          },
+          {
+            "card_id": "V1-CARD-0418",
+            "fact_id": "V1-FCT-1494",
+            "admission_status": "batch_retained_candidate"
+          },
+          {
+            "card_id": "V1-CARD-0418",
+            "fact_id": "V1-FCT-1495",
+            "admission_status": "batch_retained_candidate"
+          }
+        ]
+      }
+    }
+  ]
+}

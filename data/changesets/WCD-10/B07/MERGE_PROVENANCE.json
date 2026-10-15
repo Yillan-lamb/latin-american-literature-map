@@ -1,0 +1,1872 @@
+{
+  "schema": "wcd10-b07-merge-provenance-1",
+  "task_id": "TASK-112",
+  "batch_id": "WCD-10-B07",
+  "status": "MERGED_CANDIDATE_ONLY_PARENT_GATE_PENDING",
+  "baseline_database_sha256": "ea9e01b41b4faaef727a6159b6d34ba7d9121a9992fda1cb993c6574f91f6a27",
+  "fixed_author_order": [
+    "V1-ENT-0186",
+    "V1-ENT-0198",
+    "V1-ENT-0199"
+  ],
+  "inputs": [
+    {
+      "author_id": "V1-ENT-0186",
+      "author": "Sabato",
+      "revision": "R3",
+      "frozen_input_directory": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/project/internal/WCD_10_WORKSPACE/orchestration/wave-04/sabato/revisions/R3",
+      "candidate_sha256": "6f3a4933090a563f7065b2089095f233826188966fe82ae53c85bbf8d428641f",
+      "review_file": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/project/internal/WCD_10_WORKSPACE/B07/SABATO_R3_INDEPENDENT_REVIEW.json",
+      "review_sha256": "4f8338b9f71b1692d9f79d2819027e67ff9136aa1c553cc162190aadd68828d6",
+      "review_verdict": "PASS_BOUNDED_AUTHOR_PACKAGE",
+      "freeze_manifest": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/project/internal/WCD_10_WORKSPACE/orchestration/wave-04/sabato/FREEZE_HASHES.json",
+      "freeze_manifest_sha256": "cd2b5431a129e13f16494de0d7fca683f3d08a95311b8077ffec1857b899cce7",
+      "source_file_sha256": {
+        "CANDIDATES.json": "6f3a4933090a563f7065b2089095f233826188966fe82ae53c85bbf8d428641f",
+        "COVERAGE.json": "e38ca61288b972e2140547b8ac81f6f711b265ec6306b040aedf23324e73d28a",
+        "SOURCE_REGISTRATION.json": "31e2cdbc0217a841a8843e7dcaaffed97210dd44bb96d3d39bc9eb432a551b4d",
+        "EVIDENCE_MATRIX.json": "fc5932eea8b8a5fd51516c61e7497d88ec55b3026c43cfb5ccf12635f9b7f65f",
+        "DEDUP.json": "5357a3744354bf0a1570b2b0d228eb77cdcceb8b01da5e7794e345e1417a9da8"
+      }
+    },
+    {
+      "author_id": "V1-ENT-0198",
+      "author": "Bioy",
+      "revision": "R8",
+      "frozen_input_directory": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/project/internal/WCD_10_WORKSPACE/orchestration/wave-04/bioy/R8",
+      "candidate_sha256": "5b5665a70cd71a48049a52e6b0ba92b23da26b458790ceaba80e0cef5653c7ce",
+      "review_file": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/project/internal/WCD_10_WORKSPACE/B07/BIOY_R8_INDEPENDENT_REVIEW.json",
+      "review_sha256": "b8ce5a120327c99a9d6376c32905aa230d327c0345b552fbc230973333d9aaa4",
+      "review_verdict": "PASS_BOUNDED_AUTHOR_PACKAGE",
+      "freeze_manifest": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/project/internal/WCD_10_WORKSPACE/orchestration/wave-04/bioy/FROZEN_HASHES_R8.json",
+      "freeze_manifest_sha256": "c83a083dbb09a91a555506102e2cbcc1618637f82d73453107e3b2071f53f79f",
+      "source_file_sha256": {
+        "CANDIDATES.json": "5b5665a70cd71a48049a52e6b0ba92b23da26b458790ceaba80e0cef5653c7ce",
+        "COVERAGE.json": "07996a7fa83cdabea51c09fd0fb7cb861dcc1ddc4fa5f3340604098ddf4fc8b2",
+        "SOURCE_REGISTRATION.json": "983af8d8904ea327c0fee50a7a3d6f386b8445e667d2b71d2574c6fcbb06286b",
+        "EVIDENCE_MATRIX.json": "b2b06a8986f98e4f390450acaa23472046aa92c2bbac3815e191c11a2c6ac684",
+        "DEDUP.json": "a3f69be38b4bdd5eb0375c39eedde850063205485c845e8434397d563f0b10cf"
+      }
+    },
+    {
+      "author_id": "V1-ENT-0199",
+      "author": "Roa",
+      "revision": "R5",
+      "frozen_input_directory": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/project/internal/WCD_10_WORKSPACE/orchestration/wave-04/roa/frozen/R5",
+      "candidate_sha256": "c6453390e2d8fdf044cbb2139ea080aa9471497a4e900367bc23b2db3ce70efd",
+      "review_file": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/project/internal/WCD_10_WORKSPACE/B07/ROA_R5_INDEPENDENT_REVIEW.json",
+      "review_sha256": "1a5c94c67a21fbe192418228a10db07419c91e809637589088875330a52edc59",
+      "review_verdict": "PASS_BOUNDED_AUTHOR_PACKAGE",
+      "freeze_manifest": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/project/internal/WCD_10_WORKSPACE/orchestration/wave-04/roa/FREEZE_HASHES_R5.json",
+      "freeze_manifest_sha256": "2b34e26b7f7be9e93accc0db2da8cc2147f3f86b5fd93ab1d636307f2d6eab37",
+      "source_file_sha256": {
+        "CANDIDATES.json": "c6453390e2d8fdf044cbb2139ea080aa9471497a4e900367bc23b2db3ce70efd",
+        "COVERAGE.json": "bb6f617768f2c12139c246b6cb854e7cba742fcc654f5f22637ace2128185f04",
+        "SOURCE_REGISTRATION.json": "1855784b5d98ef6f3ad866c5380fbd7593d259c743f68d694706414e19d2166a",
+        "EVIDENCE_MATRIX.json": "f1db521e28fc3cecaed058a609f69869ce64abf58e63b15419700f32b9d655fc",
+        "DEDUP.json": "c3216dfb77117bda33bf93851918a76e10eeaff75980b3e6289a5c9ac05ee4ab"
+      }
+    }
+  ],
+  "source_file_sha256": {
+    "Sabato/CANDIDATES.json": "6f3a4933090a563f7065b2089095f233826188966fe82ae53c85bbf8d428641f",
+    "Sabato/COVERAGE.json": "e38ca61288b972e2140547b8ac81f6f711b265ec6306b040aedf23324e73d28a",
+    "Sabato/SOURCE_REGISTRATION.json": "31e2cdbc0217a841a8843e7dcaaffed97210dd44bb96d3d39bc9eb432a551b4d",
+    "Sabato/EVIDENCE_MATRIX.json": "fc5932eea8b8a5fd51516c61e7497d88ec55b3026c43cfb5ccf12635f9b7f65f",
+    "Sabato/DEDUP.json": "5357a3744354bf0a1570b2b0d228eb77cdcceb8b01da5e7794e345e1417a9da8",
+    "Bioy/CANDIDATES.json": "5b5665a70cd71a48049a52e6b0ba92b23da26b458790ceaba80e0cef5653c7ce",
+    "Bioy/COVERAGE.json": "07996a7fa83cdabea51c09fd0fb7cb861dcc1ddc4fa5f3340604098ddf4fc8b2",
+    "Bioy/SOURCE_REGISTRATION.json": "983af8d8904ea327c0fee50a7a3d6f386b8445e667d2b71d2574c6fcbb06286b",
+    "Bioy/EVIDENCE_MATRIX.json": "b2b06a8986f98e4f390450acaa23472046aa92c2bbac3815e191c11a2c6ac684",
+    "Bioy/DEDUP.json": "a3f69be38b4bdd5eb0375c39eedde850063205485c845e8434397d563f0b10cf",
+    "Roa/CANDIDATES.json": "c6453390e2d8fdf044cbb2139ea080aa9471497a4e900367bc23b2db3ce70efd",
+    "Roa/COVERAGE.json": "bb6f617768f2c12139c246b6cb854e7cba742fcc654f5f22637ace2128185f04",
+    "Roa/SOURCE_REGISTRATION.json": "1855784b5d98ef6f3ad866c5380fbd7593d259c743f68d694706414e19d2166a",
+    "Roa/EVIDENCE_MATRIX.json": "f1db521e28fc3cecaed058a609f69869ce64abf58e63b15419700f32b9d655fc",
+    "Roa/DEDUP.json": "c3216dfb77117bda33bf93851918a76e10eeaff75980b3e6289a5c9ac05ee4ab"
+  },
+  "normalizations": {
+    "source_scope_decisions": "Only candidate_source_id/candidate_source_ids are normalized to candidate_ids arrays; other decision fields are retained.",
+    "nested_fact_matrix": "Canonical proposed rows are restricted to the 200 candidate facts; each row carries the complete original matrix row in source_evidence.",
+    "created_relationships": "Canonical candidate ID Wxxx-CREATED is mapped from each new entity's created_source_refs. Sabato/Bioy original auxiliary rows and IDs are preserved in provenance; Roa has no separate matrix and maps only the frozen created_source_refs under its parent-reviewed direct attribution. No extra_relationships are added.",
+    "coverage": "All 63 coverage rows and existing chains are preserved. The only field normalization is direct_named_academic_study to bounded_direct_study; research_refs and remaining are unchanged.",
+    "deferred": "Original deferred fields remain intact. Missing Sabato keys receive deterministic author-qualified keys; no source refs are inferred from reasons.",
+    "roles": {
+      "WCD10-B07-W117": {
+        "before": "absent",
+        "after": "阿道夫·比奥伊·卡萨雷斯编选《De jardines ajenos》",
+        "authorization": "parent-approved exact created_description_zh override"
+      },
+      "WCD10-B07-W119": {
+        "before": "absent",
+        "after": "阿道夫·比奥伊·卡萨雷斯撰写日记/笔记，Daniel Martino 编选《Descanso de caminantes, Diarios íntimos》",
+        "authorization": "parent-approved exact created_description_zh override"
+      },
+      "WCD10-B07-W120": {
+        "before": "absent",
+        "after": "《Borges》选编自阿道夫·比奥伊·卡萨雷斯的日记，由 Daniel Martino 编选；Borges 是被记录者。",
+        "authorization": "parent-approved exact created_description_zh override"
+      },
+      "WCD10-B07-W217": {
+        "before": "absent",
+        "after": "奥古斯托·罗亚·巴斯托斯编纂《Las culturas condenadas》",
+        "authorization": "parent-approved exact created_description_zh override"
+      }
+    },
+    "r8_publisher_constraint": "Bioy R8 SOURCE_REGISTRATION publisher values, including explicitly empty strings for S131/S136/S142/S144/S149, are preserved byte-value-for-value. Parent's narrow helper fix now accepts a present empty publisher as unknown and independently passed targeted plus full regression tests. No publisher is inferred or filled; prepare remains outside this authorization pending whole-batch Gate and explicit next-step authorization.",
+    "deferred_disposition": "Parent actual prepare found 15 Sabato deferred records use status, while builder requires disposition. Added disposition equal to exact original status; original status/key/reason/refs/all fields preserved. No semantic choice or new title; prior merged candidate/Gate preserved under ROOT internal B07/MERGED_PREPARE_FIRST."
+  },
+  "gap_key_additions": [
+    {
+      "author_id": "V1-ENT-0186",
+      "object_ref": "Heterodoxia",
+      "added_key": "WCD10:B07:V1-ENT-0186:Heterodoxia",
+      "reason": "Deterministic author-qualified key; all original deferred fields retained."
+    },
+    {
+      "author_id": "V1-ENT-0186",
+      "object_ref": "El dragón y la princesa",
+      "added_key": "WCD10:B07:V1-ENT-0186:El-drag-n-y-la-princesa",
+      "reason": "Deterministic author-qualified key; all original deferred fields retained."
+    },
+    {
+      "author_id": "V1-ENT-0186",
+      "object_ref": "Obras completas / Narrativa (1996)",
+      "added_key": "WCD10:B07:V1-ENT-0186:Obras-completas-Narrativa-1996",
+      "reason": "Deterministic author-qualified key; all original deferred fields retained."
+    },
+    {
+      "author_id": "V1-ENT-0186",
+      "object_ref": "Informe sobre ciegos",
+      "added_key": "WCD10:B07:V1-ENT-0186:Informe-sobre-ciegos",
+      "reason": "Deterministic author-qualified key; all original deferred fields retained."
+    },
+    {
+      "author_id": "V1-ENT-0186",
+      "object_ref": "Additional essay titles, including Sartre contra Sartre (1968), Heterodoxia, and works in the Cervantes bibliography",
+      "added_key": "WCD10:B07:V1-ENT-0186:Additional-essay-titles-including-Sartre-contra-Sartre-1968-Heterodoxia-and-works-in-the-Cervantes-bibliography",
+      "reason": "Deterministic author-qualified key; all original deferred fields retained."
+    },
+    {
+      "author_id": "V1-ENT-0186",
+      "object_ref": "Itinerario / Narrativa completa / Páginas vivas (compilations)",
+      "added_key": "WCD10:B07:V1-ENT-0186:Itinerario-Narrativa-completa-P-ginas-vivas-compilations",
+      "reason": "Deterministic author-qualified key; all original deferred fields retained."
+    },
+    {
+      "author_id": "V1-ENT-0186",
+      "object_ref": "El caso Sábato: torturas y libertad de prensa. Carta abierta al general Aramburu",
+      "added_key": "WCD10:B07:V1-ENT-0186:El-caso-S-bato-torturas-y-libertad-de-prensa-Carta-abierta-al-general-Aramburu",
+      "reason": "Deterministic author-qualified key; all original deferred fields retained."
+    },
+    {
+      "author_id": "V1-ENT-0186",
+      "object_ref": "Tango, discusión y clave",
+      "added_key": "WCD10:B07:V1-ENT-0186:Tango-discusi-n-y-clave",
+      "reason": "Deterministic author-qualified key; all original deferred fields retained."
+    },
+    {
+      "author_id": "V1-ENT-0186",
+      "object_ref": "Pedro Henríquez Ureña (1967)",
+      "added_key": "WCD10:B07:V1-ENT-0186:Pedro-Henr-quez-Ure-a-1967",
+      "reason": "Deterministic author-qualified key; all original deferred fields retained."
+    },
+    {
+      "author_id": "V1-ENT-0186",
+      "object_ref": "Entre la letra y la sangre (1988)",
+      "added_key": "WCD10:B07:V1-ENT-0186:Entre-la-letra-y-la-sangre-1988",
+      "reason": "Deterministic author-qualified key; all original deferred fields retained."
+    },
+    {
+      "author_id": "V1-ENT-0186",
+      "object_ref": "Querido y remoto muchacho (1990)",
+      "added_key": "WCD10:B07:V1-ENT-0186:Querido-y-remoto-muchacho-1990",
+      "reason": "Deterministic author-qualified key; all original deferred fields retained."
+    },
+    {
+      "author_id": "V1-ENT-0186",
+      "object_ref": "La cultura en la encrucijada nacional (1973 anthology / 1976 essay chronology)",
+      "added_key": "WCD10:B07:V1-ENT-0186:La-cultura-en-la-encrucijada-nacional-1973-anthology-1976-essay-chronology",
+      "reason": "Deterministic author-qualified key; all original deferred fields retained."
+    },
+    {
+      "author_id": "V1-ENT-0186",
+      "object_ref": "Diálogos / Sábato and Jorge Luis Borges (1976)",
+      "added_key": "WCD10:B07:V1-ENT-0186:Di-logos-S-bato-and-Jorge-Luis-Borges-1976",
+      "reason": "Deterministic author-qualified key; all original deferred fields retained."
+    },
+    {
+      "author_id": "V1-ENT-0186",
+      "object_ref": "Other Cervantes chronology essays, anthologies, complete works and conferences not separately listed above",
+      "added_key": "WCD10:B07:V1-ENT-0186:Other-Cervantes-chronology-essays-anthologies-complete-works-and-conferences-not-separately-listed-above",
+      "reason": "Deterministic author-qualified key; all original deferred fields retained."
+    },
+    {
+      "author_id": "V1-ENT-0186",
+      "object_ref": "Los libros y su misión en la liberación e integración de la América Latina (1978/1979)",
+      "added_key": "WCD10:B07:V1-ENT-0186:Los-libros-y-su-misi-n-en-la-liberaci-n-e-integraci-n-de-la-Am-rica-Latina-1978-1979",
+      "reason": "Deterministic author-qualified key; all original deferred fields retained."
+    }
+  ],
+  "created_relationship_mapping": [
+    {
+      "canonical_candidate_id": "WCD10-B07-W001-CREATED",
+      "author_id": "V1-ENT-0186",
+      "input_candidate_entity_id": "WCD10-B07-W001",
+      "source_matrix_rows": [
+        {
+          "author_id": "V1-ENT-0186",
+          "candidate_entity_id": "WCD10-B07-W001",
+          "subject_id": "V1-ENT-0186",
+          "relation_type": "CREATED",
+          "object_candidate_id": "WCD10-B07-W001",
+          "source_refs": [
+            "WCD10-B07-S001",
+            "WCD10-B07-S004"
+          ],
+          "source_matrix_rows": [
+            "WCD10-B07-W001-F01"
+          ]
+        }
+      ],
+      "mapping_method": "canonicalized_frozen_created_relationship_rows",
+      "created_source_refs": [
+        "WCD10-B07-S001",
+        "WCD10-B07-S004"
+      ]
+    },
+    {
+      "canonical_candidate_id": "WCD10-B07-W002-CREATED",
+      "author_id": "V1-ENT-0186",
+      "input_candidate_entity_id": "WCD10-B07-W002",
+      "source_matrix_rows": [
+        {
+          "author_id": "V1-ENT-0186",
+          "candidate_entity_id": "WCD10-B07-W002",
+          "subject_id": "V1-ENT-0186",
+          "relation_type": "CREATED",
+          "object_candidate_id": "WCD10-B07-W002",
+          "source_refs": [
+            "WCD10-B07-S001",
+            "WCD10-B07-S003",
+            "WCD10-B07-S005"
+          ],
+          "source_matrix_rows": [
+            "WCD10-B07-W002-F01"
+          ]
+        }
+      ],
+      "mapping_method": "canonicalized_frozen_created_relationship_rows",
+      "created_source_refs": [
+        "WCD10-B07-S001",
+        "WCD10-B07-S003",
+        "WCD10-B07-S005"
+      ]
+    },
+    {
+      "canonical_candidate_id": "WCD10-B07-W003-CREATED",
+      "author_id": "V1-ENT-0186",
+      "input_candidate_entity_id": "WCD10-B07-W003",
+      "source_matrix_rows": [
+        {
+          "author_id": "V1-ENT-0186",
+          "candidate_entity_id": "WCD10-B07-W003",
+          "subject_id": "V1-ENT-0186",
+          "relation_type": "CREATED",
+          "object_candidate_id": "WCD10-B07-W003",
+          "source_refs": [
+            "WCD10-B07-S003",
+            "WCD10-B07-S006"
+          ],
+          "source_matrix_rows": [
+            "WCD10-B07-W003-F01"
+          ]
+        }
+      ],
+      "mapping_method": "canonicalized_frozen_created_relationship_rows",
+      "created_source_refs": [
+        "WCD10-B07-S003",
+        "WCD10-B07-S006"
+      ]
+    },
+    {
+      "canonical_candidate_id": "WCD10-B07-W004-CREATED",
+      "author_id": "V1-ENT-0186",
+      "input_candidate_entity_id": "WCD10-B07-W004",
+      "source_matrix_rows": [
+        {
+          "author_id": "V1-ENT-0186",
+          "candidate_entity_id": "WCD10-B07-W004",
+          "subject_id": "V1-ENT-0186",
+          "relation_type": "CREATED",
+          "object_candidate_id": "WCD10-B07-W004",
+          "source_refs": [
+            "WCD10-B07-S003",
+            "WCD10-B07-S007"
+          ],
+          "source_matrix_rows": [
+            "WCD10-B07-W004-F01"
+          ]
+        }
+      ],
+      "mapping_method": "canonicalized_frozen_created_relationship_rows",
+      "created_source_refs": [
+        "WCD10-B07-S003",
+        "WCD10-B07-S007"
+      ]
+    },
+    {
+      "canonical_candidate_id": "WCD10-B07-W005-CREATED",
+      "author_id": "V1-ENT-0186",
+      "input_candidate_entity_id": "WCD10-B07-W005",
+      "source_matrix_rows": [
+        {
+          "author_id": "V1-ENT-0186",
+          "candidate_entity_id": "WCD10-B07-W005",
+          "subject_id": "V1-ENT-0186",
+          "relation_type": "CREATED",
+          "object_candidate_id": "WCD10-B07-W005",
+          "source_refs": [
+            "WCD10-B07-S001",
+            "WCD10-B07-S003",
+            "WCD10-B07-S008"
+          ],
+          "source_matrix_rows": [
+            "WCD10-B07-W005-F01"
+          ]
+        }
+      ],
+      "mapping_method": "canonicalized_frozen_created_relationship_rows",
+      "created_source_refs": [
+        "WCD10-B07-S001",
+        "WCD10-B07-S003",
+        "WCD10-B07-S008"
+      ]
+    },
+    {
+      "canonical_candidate_id": "WCD10-B07-W006-CREATED",
+      "author_id": "V1-ENT-0186",
+      "input_candidate_entity_id": "WCD10-B07-W006",
+      "source_matrix_rows": [
+        {
+          "author_id": "V1-ENT-0186",
+          "candidate_entity_id": "WCD10-B07-W006",
+          "subject_id": "V1-ENT-0186",
+          "relation_type": "CREATED",
+          "object_candidate_id": "WCD10-B07-W006",
+          "source_refs": [
+            "WCD10-B07-S001",
+            "WCD10-B07-S003",
+            "WCD10-B07-S009"
+          ],
+          "source_matrix_rows": [
+            "WCD10-B07-W006-F01"
+          ]
+        }
+      ],
+      "mapping_method": "canonicalized_frozen_created_relationship_rows",
+      "created_source_refs": [
+        "WCD10-B07-S001",
+        "WCD10-B07-S003",
+        "WCD10-B07-S009"
+      ]
+    },
+    {
+      "canonical_candidate_id": "WCD10-B07-W007-CREATED",
+      "author_id": "V1-ENT-0186",
+      "input_candidate_entity_id": "WCD10-B07-W007",
+      "source_matrix_rows": [
+        {
+          "author_id": "V1-ENT-0186",
+          "candidate_entity_id": "WCD10-B07-W007",
+          "subject_id": "V1-ENT-0186",
+          "relation_type": "CREATED",
+          "object_candidate_id": "WCD10-B07-W007",
+          "source_refs": [
+            "WCD10-B07-S003",
+            "WCD10-B07-S010"
+          ],
+          "source_matrix_rows": [
+            "WCD10-B07-W007-F01"
+          ]
+        }
+      ],
+      "mapping_method": "canonicalized_frozen_created_relationship_rows",
+      "created_source_refs": [
+        "WCD10-B07-S003",
+        "WCD10-B07-S010"
+      ]
+    },
+    {
+      "canonical_candidate_id": "WCD10-B07-W008-CREATED",
+      "author_id": "V1-ENT-0186",
+      "input_candidate_entity_id": "WCD10-B07-W008",
+      "source_matrix_rows": [
+        {
+          "author_id": "V1-ENT-0186",
+          "candidate_entity_id": "WCD10-B07-W008",
+          "subject_id": "V1-ENT-0186",
+          "relation_type": "CREATED",
+          "object_candidate_id": "WCD10-B07-W008",
+          "source_refs": [
+            "WCD10-B07-S019",
+            "WCD10-B07-S021"
+          ],
+          "source_matrix_rows": [
+            "WCD10-B07-W008-F01"
+          ]
+        }
+      ],
+      "mapping_method": "canonicalized_frozen_created_relationship_rows",
+      "created_source_refs": [
+        "WCD10-B07-S019",
+        "WCD10-B07-S021"
+      ]
+    },
+    {
+      "canonical_candidate_id": "WCD10-B07-W009-CREATED",
+      "author_id": "V1-ENT-0186",
+      "input_candidate_entity_id": "WCD10-B07-W009",
+      "source_matrix_rows": [
+        {
+          "author_id": "V1-ENT-0186",
+          "candidate_entity_id": "WCD10-B07-W009",
+          "subject_id": "V1-ENT-0186",
+          "relation_type": "CREATED",
+          "object_candidate_id": "WCD10-B07-W009",
+          "source_refs": [
+            "WCD10-B07-S019",
+            "WCD10-B07-S022"
+          ],
+          "source_matrix_rows": [
+            "WCD10-B07-W009-F01"
+          ]
+        }
+      ],
+      "mapping_method": "canonicalized_frozen_created_relationship_rows",
+      "created_source_refs": [
+        "WCD10-B07-S019",
+        "WCD10-B07-S022"
+      ]
+    },
+    {
+      "canonical_candidate_id": "WCD10-B07-W101-CREATED",
+      "author_id": "V1-ENT-0198",
+      "input_candidate_entity_id": "WCD10-B07-W101",
+      "source_matrix_rows": [
+        {
+          "candidate_id": "WCD10-B07-R101",
+          "author_id": "V1-ENT-0198",
+          "subject_ref": "WCD10-B07-W101",
+          "relation_type": "CREATED",
+          "source_refs": [
+            "WCD10-B07-S101",
+            "WCD10-B07-S102",
+            "WCD10-B07-S105"
+          ],
+          "source_evidence": [
+            {
+              "source_refs": [
+                "WCD10-B07-S101",
+                "WCD10-B07-S102",
+                "WCD10-B07-S105"
+              ],
+              "support_type": "direct_author_work_attribution",
+              "locator": "Cervantes Virtual bibliography, lines 54/62/64/66/67/68 as applicable to the exact listed title.; Cervantes Virtual chronology: lines 282 (Memoria sobre la pampa...), 287 (Breve diccionario...), and other title/year-specific entries.",
+              "boundary": "Supports only Bioy’s creation/compilation of the named work. It does not turn an editor, cited author, pseudonym or depicted person into a coauthor.",
+              "evidence": "Source directly identifies Bioy as creator/editor for the named work."
+            }
+          ]
+        }
+      ],
+      "mapping_method": "canonicalized_frozen_created_relationship_rows",
+      "created_source_refs": [
+        "WCD10-B07-S101",
+        "WCD10-B07-S102",
+        "WCD10-B07-S105"
+      ]
+    },
+    {
+      "canonical_candidate_id": "WCD10-B07-W102-CREATED",
+      "author_id": "V1-ENT-0198",
+      "input_candidate_entity_id": "WCD10-B07-W102",
+      "source_matrix_rows": [
+        {
+          "candidate_id": "WCD10-B07-R102",
+          "author_id": "V1-ENT-0198",
+          "subject_ref": "WCD10-B07-W102",
+          "relation_type": "CREATED",
+          "source_refs": [
+            "WCD10-B07-S101",
+            "WCD10-B07-S102",
+            "WCD10-B07-S106"
+          ],
+          "source_evidence": [
+            {
+              "source_refs": [
+                "WCD10-B07-S101",
+                "WCD10-B07-S102",
+                "WCD10-B07-S106"
+              ],
+              "support_type": "direct_author_work_attribution",
+              "locator": "Cervantes Virtual bibliography, lines 54/62/64/66/67/68 as applicable to the exact listed title.; Cervantes Virtual chronology: lines 282 (Memoria sobre la pampa...), 287 (Breve diccionario...), and other title/year-specific entries.",
+              "boundary": "Supports only Bioy’s creation/compilation of the named work. It does not turn an editor, cited author, pseudonym or depicted person into a coauthor.",
+              "evidence": "Source directly identifies Bioy as creator/editor for the named work."
+            }
+          ]
+        }
+      ],
+      "mapping_method": "canonicalized_frozen_created_relationship_rows",
+      "created_source_refs": [
+        "WCD10-B07-S101",
+        "WCD10-B07-S102",
+        "WCD10-B07-S106"
+      ]
+    },
+    {
+      "canonical_candidate_id": "WCD10-B07-W103-CREATED",
+      "author_id": "V1-ENT-0198",
+      "input_candidate_entity_id": "WCD10-B07-W103",
+      "source_matrix_rows": [
+        {
+          "candidate_id": "WCD10-B07-R103",
+          "author_id": "V1-ENT-0198",
+          "subject_ref": "WCD10-B07-W103",
+          "relation_type": "CREATED",
+          "source_refs": [
+            "WCD10-B07-S101",
+            "WCD10-B07-S102",
+            "WCD10-B07-S107"
+          ],
+          "source_evidence": [
+            {
+              "source_refs": [
+                "WCD10-B07-S101",
+                "WCD10-B07-S102",
+                "WCD10-B07-S107"
+              ],
+              "support_type": "direct_author_work_attribution",
+              "locator": "Cervantes Virtual bibliography, lines 54/62/64/66/67/68 as applicable to the exact listed title.; Cervantes Virtual chronology: lines 282 (Memoria sobre la pampa...), 287 (Breve diccionario...), and other title/year-specific entries.",
+              "boundary": "Supports only Bioy’s creation/compilation of the named work. It does not turn an editor, cited author, pseudonym or depicted person into a coauthor.",
+              "evidence": "Source directly identifies Bioy as creator/editor for the named work."
+            }
+          ]
+        }
+      ],
+      "mapping_method": "canonicalized_frozen_created_relationship_rows",
+      "created_source_refs": [
+        "WCD10-B07-S101",
+        "WCD10-B07-S102",
+        "WCD10-B07-S107"
+      ]
+    },
+    {
+      "canonical_candidate_id": "WCD10-B07-W104-CREATED",
+      "author_id": "V1-ENT-0198",
+      "input_candidate_entity_id": "WCD10-B07-W104",
+      "source_matrix_rows": [
+        {
+          "candidate_id": "WCD10-B07-R104",
+          "author_id": "V1-ENT-0198",
+          "subject_ref": "WCD10-B07-W104",
+          "relation_type": "CREATED",
+          "source_refs": [
+            "WCD10-B07-S101",
+            "WCD10-B07-S102",
+            "WCD10-B07-S108"
+          ],
+          "source_evidence": [
+            {
+              "source_refs": [
+                "WCD10-B07-S101",
+                "WCD10-B07-S102",
+                "WCD10-B07-S108"
+              ],
+              "support_type": "direct_author_work_attribution",
+              "locator": "Cervantes Virtual bibliography, lines 54/62/64/66/67/68 as applicable to the exact listed title.; Cervantes Virtual chronology: lines 282 (Memoria sobre la pampa...), 287 (Breve diccionario...), and other title/year-specific entries.",
+              "boundary": "Supports only Bioy’s creation/compilation of the named work. It does not turn an editor, cited author, pseudonym or depicted person into a coauthor.",
+              "evidence": "Source directly identifies Bioy as creator/editor for the named work."
+            }
+          ]
+        }
+      ],
+      "mapping_method": "canonicalized_frozen_created_relationship_rows",
+      "created_source_refs": [
+        "WCD10-B07-S101",
+        "WCD10-B07-S102",
+        "WCD10-B07-S108"
+      ]
+    },
+    {
+      "canonical_candidate_id": "WCD10-B07-W105-CREATED",
+      "author_id": "V1-ENT-0198",
+      "input_candidate_entity_id": "WCD10-B07-W105",
+      "source_matrix_rows": [
+        {
+          "candidate_id": "WCD10-B07-R105",
+          "author_id": "V1-ENT-0198",
+          "subject_ref": "WCD10-B07-W105",
+          "relation_type": "CREATED",
+          "source_refs": [
+            "WCD10-B07-S101",
+            "WCD10-B07-S102",
+            "WCD10-B07-S110"
+          ],
+          "source_evidence": [
+            {
+              "source_refs": [
+                "WCD10-B07-S101",
+                "WCD10-B07-S102",
+                "WCD10-B07-S110"
+              ],
+              "support_type": "direct_author_work_attribution",
+              "locator": "Cervantes Virtual bibliography, lines 54/62/64/66/67/68 as applicable to the exact listed title.; Cervantes Virtual chronology: lines 282 (Memoria sobre la pampa...), 287 (Breve diccionario...), and other title/year-specific entries.",
+              "boundary": "Supports only Bioy’s creation/compilation of the named work. It does not turn an editor, cited author, pseudonym or depicted person into a coauthor.",
+              "evidence": "Source directly identifies Bioy as creator/editor for the named work."
+            }
+          ]
+        }
+      ],
+      "mapping_method": "canonicalized_frozen_created_relationship_rows",
+      "created_source_refs": [
+        "WCD10-B07-S101",
+        "WCD10-B07-S102",
+        "WCD10-B07-S110"
+      ]
+    },
+    {
+      "canonical_candidate_id": "WCD10-B07-W106-CREATED",
+      "author_id": "V1-ENT-0198",
+      "input_candidate_entity_id": "WCD10-B07-W106",
+      "source_matrix_rows": [
+        {
+          "candidate_id": "WCD10-B07-R106",
+          "author_id": "V1-ENT-0198",
+          "subject_ref": "WCD10-B07-W106",
+          "relation_type": "CREATED",
+          "source_refs": [
+            "WCD10-B07-S101",
+            "WCD10-B07-S102",
+            "WCD10-B07-S109"
+          ],
+          "source_evidence": [
+            {
+              "source_refs": [
+                "WCD10-B07-S101",
+                "WCD10-B07-S102",
+                "WCD10-B07-S109"
+              ],
+              "support_type": "direct_author_work_attribution",
+              "locator": "Cervantes Virtual bibliography, lines 54/62/64/66/67/68 as applicable to the exact listed title.; Cervantes Virtual chronology: lines 282 (Memoria sobre la pampa...), 287 (Breve diccionario...), and other title/year-specific entries.",
+              "boundary": "Supports only Bioy’s creation/compilation of the named work. It does not turn an editor, cited author, pseudonym or depicted person into a coauthor.",
+              "evidence": "Source directly identifies Bioy as creator/editor for the named work."
+            }
+          ]
+        }
+      ],
+      "mapping_method": "canonicalized_frozen_created_relationship_rows",
+      "created_source_refs": [
+        "WCD10-B07-S101",
+        "WCD10-B07-S102",
+        "WCD10-B07-S109"
+      ]
+    },
+    {
+      "canonical_candidate_id": "WCD10-B07-W107-CREATED",
+      "author_id": "V1-ENT-0198",
+      "input_candidate_entity_id": "WCD10-B07-W107",
+      "source_matrix_rows": [
+        {
+          "candidate_id": "WCD10-B07-R107",
+          "author_id": "V1-ENT-0198",
+          "subject_ref": "WCD10-B07-W107",
+          "relation_type": "CREATED",
+          "source_refs": [
+            "WCD10-B07-S101",
+            "WCD10-B07-S102",
+            "WCD10-B07-S111"
+          ],
+          "source_evidence": [
+            {
+              "source_refs": [
+                "WCD10-B07-S101",
+                "WCD10-B07-S102",
+                "WCD10-B07-S111"
+              ],
+              "support_type": "direct_author_work_attribution",
+              "locator": "Cervantes Virtual bibliography, lines 54/62/64/66/67/68 as applicable to the exact listed title.; Cervantes Virtual chronology: lines 282 (Memoria sobre la pampa...), 287 (Breve diccionario...), and other title/year-specific entries.",
+              "boundary": "Supports only Bioy’s creation/compilation of the named work. It does not turn an editor, cited author, pseudonym or depicted person into a coauthor.",
+              "evidence": "Source directly identifies Bioy as creator/editor for the named work."
+            }
+          ]
+        }
+      ],
+      "mapping_method": "canonicalized_frozen_created_relationship_rows",
+      "created_source_refs": [
+        "WCD10-B07-S101",
+        "WCD10-B07-S102",
+        "WCD10-B07-S111"
+      ]
+    },
+    {
+      "canonical_candidate_id": "WCD10-B07-W108-CREATED",
+      "author_id": "V1-ENT-0198",
+      "input_candidate_entity_id": "WCD10-B07-W108",
+      "source_matrix_rows": [
+        {
+          "candidate_id": "WCD10-B07-R108",
+          "author_id": "V1-ENT-0198",
+          "subject_ref": "WCD10-B07-W108",
+          "relation_type": "CREATED",
+          "source_refs": [
+            "WCD10-B07-S101",
+            "WCD10-B07-S102",
+            "WCD10-B07-S111"
+          ],
+          "source_evidence": [
+            {
+              "source_refs": [
+                "WCD10-B07-S101",
+                "WCD10-B07-S102",
+                "WCD10-B07-S111"
+              ],
+              "support_type": "direct_author_work_attribution",
+              "locator": "Cervantes Virtual bibliography, lines 54/62/64/66/67/68 as applicable to the exact listed title.; Cervantes Virtual chronology: lines 282 (Memoria sobre la pampa...), 287 (Breve diccionario...), and other title/year-specific entries.",
+              "boundary": "Supports only Bioy’s creation/compilation of the named work. It does not turn an editor, cited author, pseudonym or depicted person into a coauthor.",
+              "evidence": "Source directly identifies Bioy as creator/editor for the named work."
+            }
+          ]
+        }
+      ],
+      "mapping_method": "canonicalized_frozen_created_relationship_rows",
+      "created_source_refs": [
+        "WCD10-B07-S101",
+        "WCD10-B07-S102",
+        "WCD10-B07-S111"
+      ]
+    },
+    {
+      "canonical_candidate_id": "WCD10-B07-W109-CREATED",
+      "author_id": "V1-ENT-0198",
+      "input_candidate_entity_id": "WCD10-B07-W109",
+      "source_matrix_rows": [
+        {
+          "candidate_id": "WCD10-B07-R109",
+          "author_id": "V1-ENT-0198",
+          "subject_ref": "WCD10-B07-W109",
+          "relation_type": "CREATED",
+          "source_refs": [
+            "WCD10-B07-S101",
+            "WCD10-B07-S102",
+            "WCD10-B07-S111"
+          ],
+          "source_evidence": [
+            {
+              "source_refs": [
+                "WCD10-B07-S101",
+                "WCD10-B07-S102",
+                "WCD10-B07-S111"
+              ],
+              "support_type": "direct_author_work_attribution",
+              "locator": "Cervantes Virtual bibliography, lines 54/62/64/66/67/68 as applicable to the exact listed title.; Cervantes Virtual chronology: lines 282 (Memoria sobre la pampa...), 287 (Breve diccionario...), and other title/year-specific entries.",
+              "boundary": "Supports only Bioy’s creation/compilation of the named work. It does not turn an editor, cited author, pseudonym or depicted person into a coauthor.",
+              "evidence": "Source directly identifies Bioy as creator/editor for the named work."
+            }
+          ]
+        }
+      ],
+      "mapping_method": "canonicalized_frozen_created_relationship_rows",
+      "created_source_refs": [
+        "WCD10-B07-S101",
+        "WCD10-B07-S102",
+        "WCD10-B07-S111"
+      ]
+    },
+    {
+      "canonical_candidate_id": "WCD10-B07-W110-CREATED",
+      "author_id": "V1-ENT-0198",
+      "input_candidate_entity_id": "WCD10-B07-W110",
+      "source_matrix_rows": [
+        {
+          "candidate_id": "WCD10-B07-R120",
+          "author_id": "V1-ENT-0198",
+          "subject_ref": "WCD10-B07-W110",
+          "relation_type": "CREATED",
+          "source_refs": [
+            "WCD10-B07-S101",
+            "WCD10-B07-S102",
+            "WCD10-B07-S123"
+          ],
+          "source_evidence": [
+            {
+              "source_id": "WCD10-B07-S101",
+              "locator": "Cervantes Virtual bibliography, lines 54/62/64/66/67/68 as applicable to the exact listed title.",
+              "evidence": "Source directly identifies Bioy as creator/editor for the named work.",
+              "boundary": "Supports only Bioy’s creation/compilation of the named work. It does not turn an editor, cited author, pseudonym or depicted person into a coauthor."
+            },
+            {
+              "source_id": "WCD10-B07-S123",
+              "locator": "Publisher page lines 814–816",
+              "evidence": "Source directly identifies Bioy as creator/editor for the named work.",
+              "boundary": "Supports only Bioy’s creation/compilation of the named work. It does not turn an editor, cited author, pseudonym or depicted person into a coauthor."
+            }
+          ]
+        }
+      ],
+      "mapping_method": "canonicalized_frozen_created_relationship_rows",
+      "created_source_refs": [
+        "WCD10-B07-S101",
+        "WCD10-B07-S102",
+        "WCD10-B07-S123"
+      ]
+    },
+    {
+      "canonical_candidate_id": "WCD10-B07-W111-CREATED",
+      "author_id": "V1-ENT-0198",
+      "input_candidate_entity_id": "WCD10-B07-W111",
+      "source_matrix_rows": [
+        {
+          "candidate_id": "WCD10-B07-R121",
+          "author_id": "V1-ENT-0198",
+          "subject_ref": "WCD10-B07-W111",
+          "relation_type": "CREATED",
+          "source_refs": [
+            "WCD10-B07-S101",
+            "WCD10-B07-S102",
+            "WCD10-B07-S124",
+            "WCD10-B07-S125"
+          ],
+          "source_evidence": [
+            {
+              "source_id": "WCD10-B07-S101",
+              "locator": "Cervantes Virtual bibliography, lines 54/62/64/66/67/68 as applicable to the exact listed title.",
+              "evidence": "Source directly identifies Bioy as creator/editor for the named work.",
+              "boundary": "Supports only Bioy’s creation/compilation of the named work. It does not turn an editor, cited author, pseudonym or depicted person into a coauthor."
+            },
+            {
+              "source_id": "WCD10-B07-S124",
+              "locator": "Penguin Todo Bioy catalogue, lines 581–591",
+              "evidence": "Source directly identifies Bioy as creator/editor for the named work.",
+              "boundary": "Supports only Bioy’s creation/compilation of the named work. It does not turn an editor, cited author, pseudonym or depicted person into a coauthor."
+            },
+            {
+              "source_id": "WCD10-B07-S125",
+              "locator": "Lexis article opening line 3; bibliographic note line 33",
+              "evidence": "Source directly identifies Bioy as creator/editor for the named work.",
+              "boundary": "Supports only Bioy’s creation/compilation of the named work. It does not turn an editor, cited author, pseudonym or depicted person into a coauthor."
+            }
+          ]
+        }
+      ],
+      "mapping_method": "canonicalized_frozen_created_relationship_rows",
+      "created_source_refs": [
+        "WCD10-B07-S101",
+        "WCD10-B07-S102",
+        "WCD10-B07-S124",
+        "WCD10-B07-S125"
+      ]
+    },
+    {
+      "canonical_candidate_id": "WCD10-B07-W112-CREATED",
+      "author_id": "V1-ENT-0198",
+      "input_candidate_entity_id": "WCD10-B07-W112",
+      "source_matrix_rows": [
+        {
+          "candidate_id": "WCD10-B07-R122",
+          "author_id": "V1-ENT-0198",
+          "subject_ref": "WCD10-B07-W112",
+          "relation_type": "CREATED",
+          "source_refs": [
+            "WCD10-B07-S101",
+            "WCD10-B07-S102",
+            "WCD10-B07-S124"
+          ],
+          "source_evidence": [
+            {
+              "source_id": "WCD10-B07-S101",
+              "locator": "Cervantes Virtual bibliography, lines 54/62/64/66/67/68 as applicable to the exact listed title.",
+              "evidence": "Source directly identifies Bioy as creator/editor for the named work.",
+              "boundary": "Supports only Bioy’s creation/compilation of the named work. It does not turn an editor, cited author, pseudonym or depicted person into a coauthor."
+            },
+            {
+              "source_id": "WCD10-B07-S124",
+              "locator": "Penguin Todo Bioy catalogue, lines 565–573",
+              "evidence": "Source directly identifies Bioy as creator/editor for the named work.",
+              "boundary": "Supports only Bioy’s creation/compilation of the named work. It does not turn an editor, cited author, pseudonym or depicted person into a coauthor."
+            }
+          ]
+        }
+      ],
+      "mapping_method": "canonicalized_frozen_created_relationship_rows",
+      "created_source_refs": [
+        "WCD10-B07-S101",
+        "WCD10-B07-S102",
+        "WCD10-B07-S124"
+      ]
+    },
+    {
+      "canonical_candidate_id": "WCD10-B07-W113-CREATED",
+      "author_id": "V1-ENT-0198",
+      "input_candidate_entity_id": "WCD10-B07-W113",
+      "source_matrix_rows": [
+        {
+          "candidate_id": "WCD10-B07-R123",
+          "author_id": "V1-ENT-0198",
+          "subject_ref": "WCD10-B07-W113",
+          "relation_type": "CREATED",
+          "source_refs": [
+            "WCD10-B07-S101",
+            "WCD10-B07-S102",
+            "WCD10-B07-S124",
+            "WCD10-B07-S137"
+          ],
+          "source_evidence": [
+            {
+              "source_id": "WCD10-B07-S101",
+              "locator": "Cervantes Virtual bibliography, lines 54/62/64/66/67/68 as applicable to the exact listed title.",
+              "evidence": "Source directly identifies Bioy as creator/editor for the named work.",
+              "boundary": "Supports only Bioy’s creation/compilation of the named work. It does not turn an editor, cited author, pseudonym or depicted person into a coauthor."
+            },
+            {
+              "source_id": "WCD10-B07-S124",
+              "locator": "Penguin Todo Bioy catalogue, lines 565–573",
+              "evidence": "Source directly identifies Bioy as creator/editor for the named work.",
+              "boundary": "Supports only Bioy’s creation/compilation of the named work. It does not turn an editor, cited author, pseudonym or depicted person into a coauthor."
+            },
+            {
+              "source_id": "WCD10-B07-S137",
+              "locator": "Tusquets/PlanetadeLibros *Una muñeca rusa*, lines 16–23 and 51–63.",
+              "evidence": "Source directly identifies Bioy as creator/editor for the named work.",
+              "boundary": "Supports only Bioy’s creation/compilation of the named work. It does not turn an editor, cited author, pseudonym or depicted person into a coauthor."
+            }
+          ]
+        }
+      ],
+      "mapping_method": "canonicalized_frozen_created_relationship_rows",
+      "created_source_refs": [
+        "WCD10-B07-S101",
+        "WCD10-B07-S102",
+        "WCD10-B07-S124",
+        "WCD10-B07-S137"
+      ]
+    },
+    {
+      "canonical_candidate_id": "WCD10-B07-W114-CREATED",
+      "author_id": "V1-ENT-0198",
+      "input_candidate_entity_id": "WCD10-B07-W114",
+      "source_matrix_rows": [
+        {
+          "candidate_id": "WCD10-B07-R124",
+          "author_id": "V1-ENT-0198",
+          "subject_ref": "WCD10-B07-W114",
+          "relation_type": "CREATED",
+          "source_refs": [
+            "WCD10-B07-S101",
+            "WCD10-B07-S102",
+            "WCD10-B07-S124"
+          ],
+          "source_evidence": [
+            {
+              "source_id": "WCD10-B07-S101",
+              "locator": "Cervantes Virtual bibliography, lines 54/62/64/66/67/68 as applicable to the exact listed title.",
+              "evidence": "Source directly identifies Bioy as creator/editor for the named work.",
+              "boundary": "Supports only Bioy’s creation/compilation of the named work. It does not turn an editor, cited author, pseudonym or depicted person into a coauthor."
+            },
+            {
+              "source_id": "WCD10-B07-S124",
+              "locator": "Penguin Todo Bioy catalogue, lines 565–573",
+              "evidence": "Source directly identifies Bioy as creator/editor for the named work.",
+              "boundary": "Supports only Bioy’s creation/compilation of the named work. It does not turn an editor, cited author, pseudonym or depicted person into a coauthor."
+            }
+          ]
+        }
+      ],
+      "mapping_method": "canonicalized_frozen_created_relationship_rows",
+      "created_source_refs": [
+        "WCD10-B07-S101",
+        "WCD10-B07-S102",
+        "WCD10-B07-S124"
+      ]
+    },
+    {
+      "canonical_candidate_id": "WCD10-B07-W115-CREATED",
+      "author_id": "V1-ENT-0198",
+      "input_candidate_entity_id": "WCD10-B07-W115",
+      "source_matrix_rows": [
+        {
+          "candidate_id": "WCD10-B07-R115",
+          "author_id": "V1-ENT-0198",
+          "subject_ref": "WCD10-B07-W115",
+          "relation_type": "CREATED",
+          "source_refs": [
+            "WCD10-B07-S101",
+            "WCD10-B07-S129"
+          ],
+          "source_evidence": [
+            {
+              "source_id": "WCD10-B07-S101",
+              "locator": "Cervantes Virtual bibliography, lines 54/62/64/66/67/68 as applicable to the exact listed title.",
+              "evidence": "CVC and PRH identify Bioy Casares as the author of the 1968 essay work.",
+              "boundary": "Supports only Bioy’s creation/compilation of the named work. It does not turn an editor, cited author, pseudonym or depicted person into a coauthor."
+            },
+            {
+              "source_id": "WCD10-B07-S129",
+              "locator": "Penguin Random House product page, lines 408–416.",
+              "evidence": "CVC and PRH identify Bioy Casares as the author of the 1968 essay work.",
+              "boundary": "Supports only Bioy’s creation/compilation of the named work. It does not turn an editor, cited author, pseudonym or depicted person into a coauthor."
+            }
+          ]
+        }
+      ],
+      "mapping_method": "canonicalized_frozen_created_relationship_rows",
+      "created_source_refs": [
+        "WCD10-B07-S101",
+        "WCD10-B07-S129"
+      ]
+    },
+    {
+      "canonical_candidate_id": "WCD10-B07-W116-CREATED",
+      "author_id": "V1-ENT-0198",
+      "input_candidate_entity_id": "WCD10-B07-W116",
+      "source_matrix_rows": [
+        {
+          "candidate_id": "WCD10-B07-R116",
+          "author_id": "V1-ENT-0198",
+          "subject_ref": "WCD10-B07-W116",
+          "relation_type": "CREATED",
+          "source_refs": [
+            "WCD10-B07-S101",
+            "WCD10-B07-S102",
+            "WCD10-B07-S130",
+            "WCD10-B07-S136"
+          ],
+          "source_evidence": [
+            {
+              "source_id": "WCD10-B07-S101",
+              "locator": "Cervantes Virtual bibliography, lines 54/62/64/66/67/68 as applicable to the exact listed title.",
+              "evidence": "Tusquets press sheet identifies Bioy byline; CVC bibliography lists the autobiographical work.",
+              "boundary": "Supports only Bioy’s creation/compilation of the named work. It does not turn an editor, cited author, pseudonym or depicted person into a coauthor."
+            },
+            {
+              "source_id": "WCD10-B07-S102",
+              "locator": "Cervantes Virtual chronology: lines 282 (Memoria sobre la pampa...), 287 (Breve diccionario...), and other title/year-specific entries.",
+              "evidence": "Tusquets press sheet identifies Bioy byline; CVC bibliography lists the autobiographical work.",
+              "boundary": "Supports only Bioy’s creation/compilation of the named work. It does not turn an editor, cited author, pseudonym or depicted person into a coauthor."
+            },
+            {
+              "source_id": "WCD10-B07-S130",
+              "locator": "Tusquets official press PDF, p.1 lines 0–19.",
+              "evidence": "Tusquets press sheet identifies Bioy byline; CVC bibliography lists the autobiographical work.",
+              "boundary": "Supports only Bioy’s creation/compilation of the named work. It does not turn an editor, cited author, pseudonym or depicted person into a coauthor."
+            }
+          ]
+        }
+      ],
+      "mapping_method": "canonicalized_frozen_created_relationship_rows",
+      "created_source_refs": [
+        "WCD10-B07-S101",
+        "WCD10-B07-S102",
+        "WCD10-B07-S130",
+        "WCD10-B07-S136"
+      ]
+    },
+    {
+      "canonical_candidate_id": "WCD10-B07-W117-CREATED",
+      "author_id": "V1-ENT-0198",
+      "input_candidate_entity_id": "WCD10-B07-W117",
+      "source_matrix_rows": [
+        {
+          "candidate_id": "WCD10-B07-R117",
+          "author_id": "V1-ENT-0198",
+          "subject_ref": "WCD10-B07-W117",
+          "relation_type": "CREATED",
+          "source_refs": [
+            "WCD10-B07-S101",
+            "WCD10-B07-S131"
+          ],
+          "source_evidence": [
+            {
+              "source_id": "WCD10-B07-S101",
+              "locator": "Cervantes Virtual bibliography, lines 54/62/64/66/67/68 as applicable to the exact listed title.",
+              "evidence": "The article quotes Bioy’s own introductory note and expressly describes him as anthologist.",
+              "boundary": "Supports only Bioy’s creation/compilation of the named work. It does not turn an editor, cited author, pseudonym or depicted person into a coauthor."
+            },
+            {
+              "source_id": "WCD10-B07-S131",
+              "locator": "García, “La voz ajena”, Texturas 14, printed pp.80, 86–89, and note 2 at p.90 as applicable.",
+              "evidence": "The article quotes Bioy’s own introductory note and expressly describes him as anthologist.",
+              "boundary": "Supports only Bioy’s creation/compilation of the named work. It does not turn an editor, cited author, pseudonym or depicted person into a coauthor."
+            }
+          ]
+        }
+      ],
+      "mapping_method": "canonicalized_frozen_created_relationship_rows",
+      "created_source_refs": [
+        "WCD10-B07-S101",
+        "WCD10-B07-S131"
+      ]
+    },
+    {
+      "canonical_candidate_id": "WCD10-B07-W118-CREATED",
+      "author_id": "V1-ENT-0198",
+      "input_candidate_entity_id": "WCD10-B07-W118",
+      "source_matrix_rows": [
+        {
+          "candidate_id": "WCD10-B07-R118",
+          "author_id": "V1-ENT-0198",
+          "subject_ref": "WCD10-B07-W118",
+          "relation_type": "CREATED",
+          "source_refs": [
+            "WCD10-B07-S101",
+            "WCD10-B07-S129"
+          ],
+          "source_evidence": [
+            {
+              "source_id": "WCD10-B07-S101",
+              "locator": "Cervantes Virtual bibliography, lines 54/62/64/66/67/68 as applicable to the exact listed title.",
+              "evidence": "CVC bibliography lists Bioy’s distinct 1999 book; the publisher’s compilation page identifies the work.",
+              "boundary": "Supports only Bioy’s creation/compilation of the named work. It does not turn an editor, cited author, pseudonym or depicted person into a coauthor."
+            },
+            {
+              "source_id": "WCD10-B07-S129",
+              "locator": "Penguin Random House product page, lines 408–416.",
+              "evidence": "CVC bibliography lists Bioy’s distinct 1999 book; the publisher’s compilation page identifies the work.",
+              "boundary": "Supports only Bioy’s creation/compilation of the named work. It does not turn an editor, cited author, pseudonym or depicted person into a coauthor."
+            }
+          ]
+        }
+      ],
+      "mapping_method": "canonicalized_frozen_created_relationship_rows",
+      "created_source_refs": [
+        "WCD10-B07-S101",
+        "WCD10-B07-S129"
+      ]
+    },
+    {
+      "canonical_candidate_id": "WCD10-B07-W119-CREATED",
+      "author_id": "V1-ENT-0198",
+      "input_candidate_entity_id": "WCD10-B07-W119",
+      "source_matrix_rows": [
+        {
+          "candidate_id": "WCD10-B07-R119",
+          "author_id": "V1-ENT-0198",
+          "subject_ref": "WCD10-B07-W119",
+          "relation_type": "CREATED",
+          "source_refs": [
+            "WCD10-B07-S101",
+            "WCD10-B07-S131",
+            "WCD10-B07-S132",
+            "WCD10-B07-S133",
+            "WCD10-B07-S136"
+          ],
+          "source_evidence": [
+            {
+              "source_id": "WCD10-B07-S101",
+              "locator": "Cervantes Virtual bibliography, lines 54/62/64/66/67/68 as applicable to the exact listed title.",
+              "evidence": "Sources identify Bioy’s diaries and his own decision to gather notebooks; Daniel Martino is identified separately as editor.",
+              "boundary": "Supports only Bioy’s creation/compilation of the named work. It does not turn an editor, cited author, pseudonym or depicted person into a coauthor."
+            },
+            {
+              "source_id": "WCD10-B07-S131",
+              "locator": "García, “La voz ajena”, Texturas 14, printed pp.80, 86–89, and note 2 at p.90 as applicable.",
+              "evidence": "Sources identify Bioy’s diaries and his own decision to gather notebooks; Daniel Martino is identified separately as editor.",
+              "boundary": "Supports only Bioy’s creation/compilation of the named work. It does not turn an editor, cited author, pseudonym or depicted person into a coauthor."
+            },
+            {
+              "source_id": "WCD10-B07-S132",
+              "locator": "Google Books page, lines 16–19 and 42–52.",
+              "evidence": "Sources identify Bioy’s diaries and his own decision to gather notebooks; Daniel Martino is identified separately as editor.",
+              "boundary": "Supports only Bioy’s creation/compilation of the named work. It does not turn an editor, cited author, pseudonym or depicted person into a coauthor."
+            }
+          ]
+        }
+      ],
+      "mapping_method": "canonicalized_frozen_created_relationship_rows",
+      "created_source_refs": [
+        "WCD10-B07-S101",
+        "WCD10-B07-S131",
+        "WCD10-B07-S132",
+        "WCD10-B07-S133",
+        "WCD10-B07-S136"
+      ]
+    },
+    {
+      "canonical_candidate_id": "WCD10-B07-W120-CREATED",
+      "author_id": "V1-ENT-0198",
+      "input_candidate_entity_id": "WCD10-B07-W120",
+      "source_matrix_rows": [
+        {
+          "candidate_id": "WCD10-B07-R130",
+          "author_id": "V1-ENT-0198",
+          "subject_ref": "WCD10-B07-W120",
+          "relation_type": "CREATED",
+          "source_refs": [
+            "WCD10-B07-S101",
+            "WCD10-B07-S131",
+            "WCD10-B07-S136"
+          ],
+          "source_evidence": [
+            {
+              "source_id": "WCD10-B07-S101",
+              "locator": "Cervantes Virtual bibliography, lines 54/62/64/66/67/68 as applicable to the exact listed title.",
+              "evidence": "Sources identify Bioy’s private diary selection as the text’s basis and Martino as editor; Borges is its subject.",
+              "boundary": "Supports only Bioy’s creation/compilation of the named work. It does not turn an editor, cited author, pseudonym or depicted person into a coauthor."
+            },
+            {
+              "source_id": "WCD10-B07-S131",
+              "locator": "García, “La voz ajena”, Texturas 14, printed pp.80, 86–89, and note 2 at p.90 as applicable.",
+              "evidence": "Sources identify Bioy’s private diary selection as the text’s basis and Martino as editor; Borges is its subject.",
+              "boundary": "Supports only Bioy’s creation/compilation of the named work. It does not turn an editor, cited author, pseudonym or depicted person into a coauthor."
+            },
+            {
+              "source_id": "WCD10-B07-S136",
+              "locator": "Barral, “Figuraciones autobiográficas de Bioy Casares en el Borges”, VI Congreso proceedings, printed pp.137–146.",
+              "evidence": "Sources identify Bioy’s private diary selection as the text’s basis and Martino as editor; Borges is its subject.",
+              "boundary": "Supports only Bioy’s creation/compilation of the named work. It does not turn an editor, cited author, pseudonym or depicted person into a coauthor."
+            }
+          ]
+        }
+      ],
+      "mapping_method": "canonicalized_frozen_created_relationship_rows",
+      "created_source_refs": [
+        "WCD10-B07-S101",
+        "WCD10-B07-S131",
+        "WCD10-B07-S136"
+      ]
+    },
+    {
+      "canonical_candidate_id": "WCD10-B07-W121-CREATED",
+      "author_id": "V1-ENT-0198",
+      "input_candidate_entity_id": "WCD10-B07-W121",
+      "source_matrix_rows": [
+        {
+          "candidate_id": "WCD10-B07-R131",
+          "author_id": "V1-ENT-0198",
+          "subject_ref": "WCD10-B07-W121",
+          "relation_type": "CREATED",
+          "source_refs": [
+            "WCD10-B07-S136"
+          ],
+          "source_evidence": [
+            {
+              "source_id": "WCD10-B07-S136",
+              "locator": "Barral, “Figuraciones autobiográficas de Bioy Casares en el Borges”, VI Congreso proceedings, printed pp.137–146.",
+              "evidence": "The proceedings and publisher page identify Bioy’s letters/travel writing as the contents of En viaje.",
+              "boundary": "Supports only Bioy’s creation/compilation of the named work. It does not turn an editor, cited author, pseudonym or depicted person into a coauthor."
+            }
+          ]
+        }
+      ],
+      "mapping_method": "canonicalized_frozen_created_relationship_rows",
+      "created_source_refs": [
+        "WCD10-B07-S136"
+      ]
+    },
+    {
+      "canonical_candidate_id": "WCD10-B07-W122-CREATED",
+      "author_id": "V1-ENT-0198",
+      "input_candidate_entity_id": "WCD10-B07-W122",
+      "source_matrix_rows": [
+        {
+          "candidate_id": "WCD10-B07-R132",
+          "author_id": "V1-ENT-0198",
+          "subject_ref": "WCD10-B07-W122",
+          "relation_type": "CREATED",
+          "source_refs": [
+            "WCD10-B07-S102",
+            "WCD10-B07-S138"
+          ],
+          "source_evidence": [
+            {
+              "source_id": "WCD10-B07-S102",
+              "locator": "Cervantes Virtual chronology: lines 282 (Memoria sobre la pampa...), 287 (Breve diccionario...), and other title/year-specific entries.",
+              "evidence": "CVC chronology and the literary agency page identify Bioy as author of this nonfiction book.",
+              "boundary": "Supports only Bioy’s creation/compilation of the named work. It does not turn an editor, cited author, pseudonym or depicted person into a coauthor."
+            },
+            {
+              "source_id": "WCD10-B07-S138",
+              "locator": "Carmen Balcells work page, lines 12–17.",
+              "evidence": "CVC chronology and the literary agency page identify Bioy as author of this nonfiction book.",
+              "boundary": "Supports only Bioy’s creation/compilation of the named work. It does not turn an editor, cited author, pseudonym or depicted person into a coauthor."
+            }
+          ]
+        }
+      ],
+      "mapping_method": "canonicalized_frozen_created_relationship_rows",
+      "created_source_refs": [
+        "WCD10-B07-S102",
+        "WCD10-B07-S138"
+      ]
+    },
+    {
+      "canonical_candidate_id": "WCD10-B07-W123-CREATED",
+      "author_id": "V1-ENT-0198",
+      "input_candidate_entity_id": "WCD10-B07-W123",
+      "source_matrix_rows": [
+        {
+          "candidate_id": "WCD10-B07-R133",
+          "author_id": "V1-ENT-0198",
+          "subject_ref": "WCD10-B07-W123",
+          "relation_type": "CREATED",
+          "source_refs": [
+            "WCD10-B07-S102",
+            "WCD10-B07-S131"
+          ],
+          "source_evidence": [
+            {
+              "source_id": "WCD10-B07-S102",
+              "locator": "Cervantes Virtual chronology: lines 282 (Memoria sobre la pampa...), 287 (Breve diccionario...), and other title/year-specific entries.",
+              "evidence": "CVC chronology and direct study identify the 1971 Javier Miranda publication as Bioy’s dictionary; the name is a pseudonym, not a coauthor.",
+              "boundary": "Supports only Bioy’s creation/compilation of the named work. It does not turn an editor, cited author, pseudonym or depicted person into a coauthor."
+            },
+            {
+              "source_id": "WCD10-B07-S131",
+              "locator": "García, “La voz ajena”, Texturas 14, printed pp.80, 86–89, and note 2 at p.90 as applicable.",
+              "evidence": "CVC chronology and direct study identify the 1971 Javier Miranda publication as Bioy’s dictionary; the name is a pseudonym, not a coauthor.",
+              "boundary": "Supports only Bioy’s creation/compilation of the named work. It does not turn an editor, cited author, pseudonym or depicted person into a coauthor."
+            }
+          ]
+        }
+      ],
+      "mapping_method": "canonicalized_frozen_created_relationship_rows",
+      "created_source_refs": [
+        "WCD10-B07-S102",
+        "WCD10-B07-S131"
+      ]
+    },
+    {
+      "canonical_candidate_id": "WCD10-B07-W124-CREATED",
+      "author_id": "V1-ENT-0198",
+      "input_candidate_entity_id": "WCD10-B07-W124",
+      "source_matrix_rows": [
+        {
+          "candidate_id": "WCD10-B07-R134",
+          "author_id": "V1-ENT-0198",
+          "subject_ref": "WCD10-B07-W124",
+          "relation_type": "CREATED",
+          "source_refs": [
+            "WCD10-B07-S102",
+            "WCD10-B07-S131"
+          ],
+          "source_evidence": [
+            {
+              "source_id": "WCD10-B07-S102",
+              "locator": "CVC chronology, lines 159–162.",
+              "evidence": "The chronology records Bioy publishing the named 1936 book.",
+              "boundary": "Supports only Bioy’s creation of the named work; Ocampo’s separately stated illustrator role is not converted into coauthorship."
+            },
+            {
+              "source_id": "WCD10-B07-S131",
+              "locator": "García, “La voz ajena”, Texturas 14, printed p.81 / PDF p.1, lines 59–61.",
+              "evidence": "The study identifies the named 1936 book as Bioy Casares’s book and separately notes Ocampo as illustrator.",
+              "boundary": "Supports only the author-work attribution; illustrator is not coauthor."
+            }
+          ]
+        }
+      ],
+      "mapping_method": "canonicalized_frozen_created_relationship_rows",
+      "created_source_refs": [
+        "WCD10-B07-S102",
+        "WCD10-B07-S131"
+      ]
+    },
+    {
+      "canonical_candidate_id": "WCD10-B07-W125-CREATED",
+      "author_id": "V1-ENT-0198",
+      "input_candidate_entity_id": "WCD10-B07-W125",
+      "source_matrix_rows": [
+        {
+          "candidate_id": "WCD10-B07-R135",
+          "author_id": "V1-ENT-0198",
+          "subject_ref": "WCD10-B07-W125",
+          "relation_type": "CREATED",
+          "source_refs": [
+            "WCD10-B07-S141",
+            "WCD10-B07-S142",
+            "WCD10-B07-S143",
+            "WCD10-B07-S140"
+          ],
+          "source_evidence": [
+            {
+              "source_id": "WCD10-B07-S141",
+              "locator": "Google Books目录页L13–20、L33–40列作者、Emecé Editores、1944、64页",
+              "evidence": "Catalog identifies the author and the 1944 book edition.",
+              "boundary": "Supports attribution of this named work to Bioy; later collection/edition identity remains distinct."
+            },
+            {
+              "source_id": "WCD10-B07-S142",
+              "locator": "Reyes Velázquez, title page printed p.429 and printed p.431/PDF index p.2, lines 82–96, identify the work and byline attribution.",
+              "evidence": "Direct study identifies Bioy’s cuento and its narrative.",
+              "boundary": "Supports attribution of this named work to Bioy; later collection/edition identity remains distinct."
+            },
+            {
+              "source_id": "WCD10-B07-S143",
+              "locator": "Rodríguez Zamora page lines 30 and 40 identify the named Bioy story.",
+              "evidence": "Direct study identifies and analyzes Bioy’s story.",
+              "boundary": "Supports attribution of this named work to Bioy; later collection/edition identity remains distinct."
+            },
+            {
+              "source_id": "WCD10-B07-S140",
+              "locator": "CVC author biography, lines 97–100.",
+              "evidence": "The author study identifies the named narrative as Bioy’s story “El perjurio de la nieve.”",
+              "boundary": "Supports attribution/identity only; its listed year is 1945 and is not the year basis for W125-F01."
+            }
+          ]
+        }
+      ],
+      "mapping_method": "canonicalized_frozen_created_relationship_rows",
+      "created_source_refs": [
+        "WCD10-B07-S141",
+        "WCD10-B07-S142",
+        "WCD10-B07-S143",
+        "WCD10-B07-S140"
+      ]
+    },
+    {
+      "canonical_candidate_id": "WCD10-B07-W126-CREATED",
+      "author_id": "V1-ENT-0198",
+      "input_candidate_entity_id": "WCD10-B07-W126",
+      "source_matrix_rows": [
+        {
+          "candidate_id": "WCD10-B07-R136",
+          "author_id": "V1-ENT-0198",
+          "subject_ref": "WCD10-B07-W126",
+          "relation_type": "CREATED",
+          "source_refs": [
+            "WCD10-B07-S144",
+            "WCD10-B07-S145"
+          ],
+          "source_evidence": [
+            {
+              "source_id": "WCD10-B07-S144",
+              "locator": "Notre Dame collection page, actual heading “Adolfo Bioy Casares (1914-1999)” and line 73.",
+              "evidence": "Institutional catalogue identifies the 1949 edition.",
+              "boundary": "Supports attribution of this named work to Bioy; later collection/edition identity remains distinct."
+            },
+            {
+              "source_id": "WCD10-B07-S145",
+              "locator": "Giovannini, printed p.208/PDF index p.209, §4.4/note 307 identifies the story and original edition.",
+              "evidence": "Research study identifies the story and its independent 1949 edition.",
+              "boundary": "Supports attribution of this named work to Bioy; later collection/edition identity remains distinct."
+            }
+          ]
+        }
+      ],
+      "mapping_method": "canonicalized_frozen_created_relationship_rows",
+      "created_source_refs": [
+        "WCD10-B07-S144",
+        "WCD10-B07-S145"
+      ]
+    },
+    {
+      "canonical_candidate_id": "WCD10-B07-W127-CREATED",
+      "author_id": "V1-ENT-0198",
+      "input_candidate_entity_id": "WCD10-B07-W127",
+      "source_matrix_rows": [
+        {
+          "candidate_id": "WCD10-B07-R137",
+          "author_id": "V1-ENT-0198",
+          "subject_ref": "WCD10-B07-W127",
+          "relation_type": "CREATED",
+          "source_refs": [
+            "WCD10-B07-S146",
+            "WCD10-B07-S148"
+          ],
+          "source_evidence": [
+            {
+              "source_id": "WCD10-B07-S146",
+              "locator": "Gramuglio full text lines 97–99 identifies the story and its 1954 Sur publication.",
+              "evidence": "Direct study names the story and 1954 Sur publication.",
+              "boundary": "Supports attribution of this named work to Bioy; later collection/edition identity remains distinct."
+            },
+            {
+              "source_id": "WCD10-B07-S148",
+              "locator": "Avellaneda full-text note 8, indexed at CVC; bibliographic record L13–23 identifies author/publication metadata.",
+              "evidence": "The note identifies the work as published in Sur in 1954 and later collected in Historia prodigiosa (1956).",
+              "boundary": "Supports the named individual work’s attribution and publication boundary; no sole-author issue is raised."
+            }
+          ]
+        }
+      ],
+      "mapping_method": "canonicalized_frozen_created_relationship_rows",
+      "created_source_refs": [
+        "WCD10-B07-S146",
+        "WCD10-B07-S148"
+      ]
+    },
+    {
+      "canonical_candidate_id": "WCD10-B07-W128-CREATED",
+      "author_id": "V1-ENT-0198",
+      "input_candidate_entity_id": "WCD10-B07-W128",
+      "source_matrix_rows": [
+        {
+          "candidate_id": "WCD10-B07-R138",
+          "author_id": "V1-ENT-0198",
+          "subject_ref": "WCD10-B07-W128",
+          "relation_type": "CREATED",
+          "source_refs": [
+            "WCD10-B07-S102",
+            "WCD10-B07-S147"
+          ],
+          "source_evidence": [
+            {
+              "source_id": "WCD10-B07-S102",
+              "locator": "37–39 signed byline; 175–205 for 1940–1948; other title years checked at matching annual entries.",
+              "evidence": "CVC chronology/bibliography lists the Bioy work and year.",
+              "boundary": "The proposed role is collaborative/editorial as stated in the source; this is not a claim of sole authorship."
+            },
+            {
+              "source_id": "WCD10-B07-S147",
+              "locator": "Emecé press sheet physical p.0, lines 20–23 explicitly states that Ocampo and Bioy wrote together.",
+              "evidence": "Publisher explicitly says the novel was written jointly by Bioy and Ocampo.",
+              "boundary": "The proposed role is collaborative/editorial as stated in the source; this is not a claim of sole authorship."
+            }
+          ]
+        }
+      ],
+      "mapping_method": "canonicalized_frozen_created_relationship_rows",
+      "created_source_refs": [
+        "WCD10-B07-S102",
+        "WCD10-B07-S147"
+      ]
+    },
+    {
+      "canonical_candidate_id": "WCD10-B07-W129-CREATED",
+      "author_id": "V1-ENT-0198",
+      "input_candidate_entity_id": "WCD10-B07-W129",
+      "source_matrix_rows": [
+        {
+          "candidate_id": "WCD10-B07-R139",
+          "author_id": "V1-ENT-0198",
+          "subject_ref": "WCD10-B07-W129",
+          "relation_type": "CREATED",
+          "source_refs": [
+            "WCD10-B07-S140",
+            "WCD10-B07-S101",
+            "WCD10-B07-S102"
+          ],
+          "source_evidence": [
+            {
+              "source_id": "WCD10-B07-S140",
+              "locator": "L34–38署名Carlos Dámaso Martínez",
+              "evidence": "CVC author note records the joint selection/translation and Bioy’s preface.",
+              "boundary": "The proposed role is collaborative/editorial as stated in the source; this is not a claim of sole authorship."
+            },
+            {
+              "source_id": "WCD10-B07-S101",
+              "locator": "47–68: libros and antologías; 80–100: Borges collaborations and pseudonym titles; 37–39 page byline.",
+              "evidence": "CVC chronology/bibliography lists the Bioy work and year.",
+              "boundary": "The proposed role is collaborative/editorial as stated in the source; this is not a claim of sole authorship."
+            },
+            {
+              "source_id": "WCD10-B07-S102",
+              "locator": "37–39 signed byline; 175–205 for 1940–1948; other title years checked at matching annual entries.",
+              "evidence": "CVC chronology/bibliography lists the Bioy work and year.",
+              "boundary": "The proposed role is collaborative/editorial as stated in the source; this is not a claim of sole authorship."
+            }
+          ]
+        }
+      ],
+      "mapping_method": "canonicalized_frozen_created_relationship_rows",
+      "created_source_refs": [
+        "WCD10-B07-S140",
+        "WCD10-B07-S101",
+        "WCD10-B07-S102"
+      ]
+    },
+    {
+      "canonical_candidate_id": "WCD10-B07-W201-CREATED",
+      "author_id": "V1-ENT-0199",
+      "input_candidate_entity_id": "WCD10-B07-W201",
+      "source_matrix_rows": [],
+      "mapping_method": "reviewed_direct_attribution_from_frozen_created_source_refs",
+      "created_source_refs": [
+        "WCD10-B07-S204",
+        "WCD10-B07-S202"
+      ]
+    },
+    {
+      "canonical_candidate_id": "WCD10-B07-W202-CREATED",
+      "author_id": "V1-ENT-0199",
+      "input_candidate_entity_id": "WCD10-B07-W202",
+      "source_matrix_rows": [],
+      "mapping_method": "reviewed_direct_attribution_from_frozen_created_source_refs",
+      "created_source_refs": [
+        "WCD10-B07-S204",
+        "WCD10-B07-S202"
+      ]
+    },
+    {
+      "canonical_candidate_id": "WCD10-B07-W203-CREATED",
+      "author_id": "V1-ENT-0199",
+      "input_candidate_entity_id": "WCD10-B07-W203",
+      "source_matrix_rows": [],
+      "mapping_method": "reviewed_direct_attribution_from_frozen_created_source_refs",
+      "created_source_refs": [
+        "WCD10-B07-S204",
+        "WCD10-B07-S202"
+      ]
+    },
+    {
+      "canonical_candidate_id": "WCD10-B07-W204-CREATED",
+      "author_id": "V1-ENT-0199",
+      "input_candidate_entity_id": "WCD10-B07-W204",
+      "source_matrix_rows": [],
+      "mapping_method": "reviewed_direct_attribution_from_frozen_created_source_refs",
+      "created_source_refs": [
+        "WCD10-B07-S204",
+        "WCD10-B07-S202",
+        "WCD10-B07-S201"
+      ]
+    },
+    {
+      "canonical_candidate_id": "WCD10-B07-W205-CREATED",
+      "author_id": "V1-ENT-0199",
+      "input_candidate_entity_id": "WCD10-B07-W205",
+      "source_matrix_rows": [],
+      "mapping_method": "reviewed_direct_attribution_from_frozen_created_source_refs",
+      "created_source_refs": [
+        "WCD10-B07-S204",
+        "WCD10-B07-S202"
+      ]
+    },
+    {
+      "canonical_candidate_id": "WCD10-B07-W206-CREATED",
+      "author_id": "V1-ENT-0199",
+      "input_candidate_entity_id": "WCD10-B07-W206",
+      "source_matrix_rows": [],
+      "mapping_method": "reviewed_direct_attribution_from_frozen_created_source_refs",
+      "created_source_refs": [
+        "WCD10-B07-S204",
+        "WCD10-B07-S206",
+        "WCD10-B07-S203",
+        "WCD10-B07-S216"
+      ]
+    },
+    {
+      "canonical_candidate_id": "WCD10-B07-W207-CREATED",
+      "author_id": "V1-ENT-0199",
+      "input_candidate_entity_id": "WCD10-B07-W207",
+      "source_matrix_rows": [],
+      "mapping_method": "reviewed_direct_attribution_from_frozen_created_source_refs",
+      "created_source_refs": [
+        "WCD10-B07-S204",
+        "WCD10-B07-S202"
+      ]
+    },
+    {
+      "canonical_candidate_id": "WCD10-B07-W208-CREATED",
+      "author_id": "V1-ENT-0199",
+      "input_candidate_entity_id": "WCD10-B07-W208",
+      "source_matrix_rows": [],
+      "mapping_method": "reviewed_direct_attribution_from_frozen_created_source_refs",
+      "created_source_refs": [
+        "WCD10-B07-S201",
+        "WCD10-B07-S204",
+        "WCD10-B07-S205"
+      ]
+    },
+    {
+      "canonical_candidate_id": "WCD10-B07-W209-CREATED",
+      "author_id": "V1-ENT-0199",
+      "input_candidate_entity_id": "WCD10-B07-W209",
+      "source_matrix_rows": [],
+      "mapping_method": "reviewed_direct_attribution_from_frozen_created_source_refs",
+      "created_source_refs": [
+        "WCD10-B07-S207",
+        "WCD10-B07-S204",
+        "WCD10-B07-S201"
+      ]
+    },
+    {
+      "canonical_candidate_id": "WCD10-B07-W210-CREATED",
+      "author_id": "V1-ENT-0199",
+      "input_candidate_entity_id": "WCD10-B07-W210",
+      "source_matrix_rows": [],
+      "mapping_method": "reviewed_direct_attribution_from_frozen_created_source_refs",
+      "created_source_refs": [
+        "WCD10-B07-S204",
+        "WCD10-B07-S205",
+        "WCD10-B07-S215"
+      ]
+    },
+    {
+      "canonical_candidate_id": "WCD10-B07-W212-CREATED",
+      "author_id": "V1-ENT-0199",
+      "input_candidate_entity_id": "WCD10-B07-W212",
+      "source_matrix_rows": [],
+      "mapping_method": "reviewed_direct_attribution_from_frozen_created_source_refs",
+      "created_source_refs": [
+        "WCD10-B07-S204",
+        "WCD10-B07-S215",
+        "WCD10-B07-S219",
+        "WCD10-B07-S220",
+        "WCD10-B07-S222"
+      ]
+    },
+    {
+      "canonical_candidate_id": "WCD10-B07-W213-CREATED",
+      "author_id": "V1-ENT-0199",
+      "input_candidate_entity_id": "WCD10-B07-W213",
+      "source_matrix_rows": [],
+      "mapping_method": "reviewed_direct_attribution_from_frozen_created_source_refs",
+      "created_source_refs": [
+        "WCD10-B07-S204",
+        "WCD10-B07-S215",
+        "WCD10-B07-S221",
+        "WCD10-B07-S226"
+      ]
+    },
+    {
+      "canonical_candidate_id": "WCD10-B07-W214-CREATED",
+      "author_id": "V1-ENT-0199",
+      "input_candidate_entity_id": "WCD10-B07-W214",
+      "source_matrix_rows": [],
+      "mapping_method": "reviewed_direct_attribution_from_frozen_created_source_refs",
+      "created_source_refs": [
+        "WCD10-B07-S201",
+        "WCD10-B07-S225"
+      ]
+    },
+    {
+      "canonical_candidate_id": "WCD10-B07-W215-CREATED",
+      "author_id": "V1-ENT-0199",
+      "input_candidate_entity_id": "WCD10-B07-W215",
+      "source_matrix_rows": [],
+      "mapping_method": "reviewed_direct_attribution_from_frozen_created_source_refs",
+      "created_source_refs": [
+        "WCD10-B07-S204",
+        "WCD10-B07-S215",
+        "WCD10-B07-S223",
+        "WCD10-B07-S224",
+        "WCD10-B07-S227"
+      ]
+    },
+    {
+      "canonical_candidate_id": "WCD10-B07-W216-CREATED",
+      "author_id": "V1-ENT-0199",
+      "input_candidate_entity_id": "WCD10-B07-W216",
+      "source_matrix_rows": [],
+      "mapping_method": "reviewed_direct_attribution_from_frozen_created_source_refs",
+      "created_source_refs": [
+        "WCD10-B07-S202",
+        "WCD10-B07-S204",
+        "WCD10-B07-S215",
+        "WCD10-B07-S219"
+      ]
+    },
+    {
+      "canonical_candidate_id": "WCD10-B07-W217-CREATED",
+      "author_id": "V1-ENT-0199",
+      "input_candidate_entity_id": "WCD10-B07-W217",
+      "source_matrix_rows": [],
+      "mapping_method": "reviewed_direct_attribution_from_frozen_created_source_refs",
+      "created_source_refs": [
+        "WCD10-B07-S204",
+        "WCD10-B07-S218",
+        "WCD10-B07-S228"
+      ]
+    }
+  ],
+  "source_scope_decision_count": 39,
+  "source_scope_decisions_sha256": "2613266ce2cbbdafeb009fea0cffe4bed535cf7dd74ef79ad210bf10d5e2b245",
+  "merged_artifact_sha256": {
+    "CANDIDATES.json": "35c653123fcf944a8c333f7d76bf39496867fb4c8507724e16598a9bbfc57aeb",
+    "COVERAGE.json": "49925d1eac60573c4044992ba693bd24c5bb9f760bdc0c70faaee2387411f955",
+    "SOURCE_REGISTRATION.json": "6114ea2e569ba318e4186b90434f3ba831a57adb53ae3f15b533822e3a862487",
+    "EVIDENCE_MATRIX.json": "99f2fbb78976d871b39c4151914ba6c0ac378c5aeb4e9e6764ff366db1cf8757",
+    "DEDUP.json": "08d9a31c2b4673fea4edb4b2994e95a75d47b1e7cd10dad8dc172b7807f7d194"
+  },
+  "deferred_disposition_mapping": [
+    {
+      "key": "WCD10:B07:V1-ENT-0186:Heterodoxia",
+      "source_field": "status",
+      "target_field": "disposition",
+      "value": "deferred_year_conflict"
+    },
+    {
+      "key": "WCD10:B07:V1-ENT-0186:El-drag-n-y-la-princesa",
+      "source_field": "status",
+      "target_field": "disposition",
+      "value": "edition_or_extract_not_separate_work"
+    },
+    {
+      "key": "WCD10:B07:V1-ENT-0186:Obras-completas-Narrativa-1996",
+      "source_field": "status",
+      "target_field": "disposition",
+      "value": "collection_or_edition"
+    },
+    {
+      "key": "WCD10:B07:V1-ENT-0186:Informe-sobre-ciegos",
+      "source_field": "status",
+      "target_field": "disposition",
+      "value": "subordinate_text_not_separate_work"
+    },
+    {
+      "key": "WCD10:B07:V1-ENT-0186:Additional-essay-titles-including-Sartre-contra-Sartre-1968-Heterodoxia-and-works-in-the-Cervantes-bibliography",
+      "source_field": "status",
+      "target_field": "disposition",
+      "value": "inventory_gap_not_asserted_complete"
+    },
+    {
+      "key": "WCD10:B07:V1-ENT-0186:Itinerario-Narrativa-completa-P-ginas-vivas-compilations",
+      "source_field": "status",
+      "target_field": "disposition",
+      "value": "collection_or_edition"
+    },
+    {
+      "key": "WCD10:B07:V1-ENT-0186:El-caso-S-bato-torturas-y-libertad-de-prensa-Carta-abierta-al-general-Aramburu",
+      "source_field": "status",
+      "target_field": "disposition",
+      "value": "not_added_scope_gap"
+    },
+    {
+      "key": "WCD10:B07:V1-ENT-0186:Tango-discusi-n-y-clave",
+      "source_field": "status",
+      "target_field": "disposition",
+      "value": "deferred_year_conflict"
+    },
+    {
+      "key": "WCD10:B07:V1-ENT-0186:Pedro-Henr-quez-Ure-a-1967",
+      "source_field": "status",
+      "target_field": "disposition",
+      "value": "not_added_scope_gap"
+    },
+    {
+      "key": "WCD10:B07:V1-ENT-0186:Entre-la-letra-y-la-sangre-1988",
+      "source_field": "status",
+      "target_field": "disposition",
+      "value": "collaboration_form_gap"
+    },
+    {
+      "key": "WCD10:B07:V1-ENT-0186:Querido-y-remoto-muchacho-1990",
+      "source_field": "status",
+      "target_field": "disposition",
+      "value": "not_added_scope_gap"
+    },
+    {
+      "key": "WCD10:B07:V1-ENT-0186:La-cultura-en-la-encrucijada-nacional-1973-anthology-1976-essay-chronology",
+      "source_field": "status",
+      "target_field": "disposition",
+      "value": "edition_or_form_conflict"
+    },
+    {
+      "key": "WCD10:B07:V1-ENT-0186:Di-logos-S-bato-and-Jorge-Luis-Borges-1976",
+      "source_field": "status",
+      "target_field": "disposition",
+      "value": "coauthored_form_gap"
+    },
+    {
+      "key": "WCD10:B07:V1-ENT-0186:Other-Cervantes-chronology-essays-anthologies-complete-works-and-conferences-not-separately-listed-above",
+      "source_field": "status",
+      "target_field": "disposition",
+      "value": "collection_or_unresearched_scan_items"
+    },
+    {
+      "key": "WCD10:B07:V1-ENT-0186:Los-libros-y-su-misi-n-en-la-liberaci-n-e-integraci-n-de-la-Am-rica-Latina-1978-1979",
+      "source_field": "status",
+      "target_field": "disposition",
+      "value": "deferred_year_conflict"
+    }
+  ]
+}

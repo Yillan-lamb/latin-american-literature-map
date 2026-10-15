@@ -1,0 +1,35 @@
+{
+  "task_id": "TASK-113",
+  "batch_id": "WCD-10-B08",
+  "merge_revision": "R1",
+  "operation": "prepare_only",
+  "command": [
+    "python3",
+    "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/work/codex-worktrees/latin-american-literature-map-wcd10/scripts/build_wcd10_migration.py",
+    "--repo",
+    "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/work/codex-worktrees/latin-american-literature-map-wcd10",
+    "--batch",
+    "B08",
+    "--sql",
+    "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/work/codex-worktrees/latin-american-literature-map-wcd10/data/master/migrations/0043_wcd10_b08_author_works.sql",
+    "--mapping",
+    "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/work/codex-worktrees/latin-american-literature-map-wcd10/data/changesets/WCD-10/B08/INTEGRATION_MAP.json"
+  ],
+  "cwd": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/work/codex-worktrees/latin-american-literature-map-wcd10",
+  "exit_code": 1,
+  "stdout": "",
+  "stderr": "Traceback (most recent call last):\n  File \"/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/work/codex-worktrees/latin-american-literature-map-wcd10/scripts/build_wcd10_migration.py\", line 528, in <module>\n    raise SystemExit(main())\n                     ~~~~^^\n  File \"/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/work/codex-worktrees/latin-american-literature-map-wcd10/scripts/build_wcd10_migration.py\", line 516, in main\n    sql, mapping = prepare(args.repo, directory)\n                   ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/work/codex-worktrees/latin-american-literature-map-wcd10/scripts/build_wcd10_migration.py\", line 465, in prepare\n    raise ValueError(\"coverage must enumerate every existing and added batch work exactly once\")\nValueError: coverage must enumerate every existing and added batch work exactly once\n",
+  "preconditions": {
+    "candidate_sha256": "b6f2d6b64f479d7a2a7dbd003cb5906e0ed02745c30f2000a332eedd2f1f3757",
+    "review_gate_sha256": "15d6a232bb232c00c5645e028e053854a788764dd86ef6549b381f1ede0da9ec",
+    "baseline_database_sha256": "0150e68ee98e28714a7719129aab7d47e137fc692e8e46a5e1db29540f5dbc07",
+    "checkpoint_date": "2026-10-11",
+    "sql_target_absent_before": true,
+    "map_target_absent_before": true
+  },
+  "artifacts": {},
+  "database_written": false,
+  "migration_applied": false,
+  "clone_created": false,
+  "git_used": false
+}

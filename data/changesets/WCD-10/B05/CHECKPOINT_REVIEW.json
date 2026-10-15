@@ -1,0 +1,13 @@
+{
+  "verdict": "PASS",
+  "task_id": "TASK-110",
+  "batch_id": "WCD-10-B05",
+  "baseline_database_sha256": "45e8d72c3656f762f4a34f664c822c33685be925b53553b91b19041d6835b47d",
+  "migration_name": "0040_wcd10_b05_author_works.sql",
+  "migration_sha256": "6ba19bc5aaa9b688ef99aefdcba18c1f8407ffa1969b9727a6d1c22ae505eb4a",
+  "mapping_path": "data/changesets/WCD-10/B05/INTEGRATION_MAP.json",
+  "mapping_sha256": "179dbc2b01ff753e5d51464da7eab7f9affca3737c3d455ecec972578bd202c8",
+  "reviewer": "Codex-parent-independent-SQL-review",
+  "reviewed_at": "2026-10-07",
+  "scope": "bounded subset; W03 pending final re-entry; this gate binds SQL for subsequent actual checkpoint QA"
+}

@@ -1,0 +1,142 @@
+{
+  "schema": "wcd10-b11-source-access-log-merged-1",
+  "task_id": "TASK-116",
+  "batch_id": "WCD-10-B11",
+  "baseline_database_sha256": "062c0cb663e27765085a85eb8cb63baee848a91e6d94bb261550327b00a5036c",
+  "author_packages": [
+    {
+      "author_id": "V1-ENT-0238",
+      "source_directory": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/project/internal/WCD_10_WORKSPACE/orchestration/wave-08/benedetti/R1",
+      "source_access_log": {
+        "accessed_at": "2026-10-12",
+        "sources": [
+          {
+            "candidate_id": "WCD10-B11-S001",
+            "url": "https://fundacionmariobenedetti.uy/obras/",
+            "access_status": "OPENED",
+            "accessed_at": "2026-10-12",
+            "opened": true,
+            "locator": "第38-42行给出时期总述；第61-73行Esta mañana/Sólo mientras tanto；第91-108行Quién de nosotros、Poemas de la oficina的题名、类别、首次书目与内容说明。实读2026-10-12。"
+          },
+          {
+            "candidate_id": "WCD10-B11-S002",
+            "url": "https://fundacionmariobenedetti.uy/obras-66-72/",
+            "access_status": "OPENED",
+            "accessed_at": "2026-10-12",
+            "opened": true,
+            "locator": "第38-42行时期概述；第153-160行El cumpleaños de Juan Ángel的1971首版、诗体小说和实验性描述。实读2026-10-12。"
+          },
+          {
+            "candidate_id": "WCD10-B11-S003",
+            "url": "https://fundacionmariobenedetti.uy/obras-73-83/",
+            "access_status": "OPENED",
+            "accessed_at": "2026-10-12",
+            "opened": true,
+            "locator": "第38-40行提及流亡期间创作《Primavera con una esquina rota》；第92-96行Con y sin nostalgia及其篇目；第107-112行Pedro y el capitán戏剧作品及1979版/演出信息。实读2026-10-12。"
+          },
+          {
+            "candidate_id": "WCD10-B11-S004",
+            "url": "https://fundacionmariobenedetti.uy/obras-59-65/",
+            "access_status": "OPENED",
+            "accessed_at": "2026-10-12",
+            "opened": true,
+            "locator": "第47-53行：Montevideanos为短篇集、首版1959并列出作品篇目；第60-63行：La Tregua为小说，首版在Alfa（Montevideo）；第152-155行：Gracias por el fuego为小说，1965年5月Alfa首版。实读2026-10-12。",
+            "disposition": "reuse_existing_source",
+            "reuse_existing_source": "SRC-0195"
+          }
+        ]
+      }
+    },
+    {
+      "author_id": "V1-ENT-0248",
+      "source_directory": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/project/internal/WCD_10_WORKSPACE/orchestration/wave-08/arguedas",
+      "source_access_log": {
+        "access_date": "2026-10-12",
+        "sources": [
+          {
+            "candidate_source_id": "WCD10-B11-S101",
+            "url": "https://repositoriodigital.bnp.gob.pe/bnp/recursos/2/html/jose-maria-arguedas-recursos/",
+            "status": "OPENED",
+            "reviewed_locator": "已实读同一页正文L36/L45–46/L52–54/L58及书目L60–78；用于既有4作摘要/体裁与W105传统故事归属限定。",
+            "support_boundary": "支持逐项题名、版本、日期及直接列明的体裁/语言。"
+          },
+          {
+            "candidate_source_id": "WCD10-B11-S102",
+            "url": "https://biblioteca.casadelaliteratura.gob.pe/cgi-bin/koha/opac-detail.pl?biblionumber=6249",
+            "status": "OPENED",
+            "reviewed_locator": "实读2026-10-12，第29–40行题名、责任者、小说分类与封底简介；仅该记录系2015再版，不据此确定首版年。",
+            "support_boundary": "支持小说形式及小说人物Gabriel在利马监狱经历的有界概述。"
+          },
+          {
+            "candidate_source_id": "WCD10-B11-S103",
+            "url": "https://biblioteca.casadelaliteratura.gob.pe/cgi-bin/koha/opac-detail.pl?biblionumber=288&shelfbrowse_itemnumber=742",
+            "status": "OPENED",
+            "reviewed_locator": "实读2026-10-12，第48–51行作者、馆藏版[1964?]、 cuentos peruanos 分类与内容摘要；与BNP的1962版并存，不能据该版裁定首版。",
+            "support_boundary": "支持短篇形式和关于舞者最后一舞及Wamani传承的有限概述。"
+          },
+          {
+            "candidate_source_id": "WCD10-B11-S104",
+            "url": "https://biblioteca.casadelaliteratura.gob.pe/cgi-bin/koha/opac-detail.pl?biblionumber=289+thumbnail-shelfbrowser",
+            "status": "OPENED",
+            "reviewed_locator": "实读2026-10-12，第48–54行作者、1967首版和Cuentos peruanos分类；第54行列收录篇目。",
+            "support_boundary": "支持该短篇集/合集的书目身份、体裁和目录题名。"
+          },
+          {
+            "candidate_source_id": "WCD10-B11-S105",
+            "url": "https://www.casadelaliteratura.gob.pe/un-recorrido-por-la-obra-literaria-de-jose-maria-arguedas/",
+            "status": "OPENED",
+            "reviewed_locator": "实读2026-10-12，第30–40行列按时序展示的主要作品，并列Agua (1935)。规范化URL复用SRC-0198原B级。",
+            "support_boundary": "支持Agua作为作者主要作品及1935年书目身份；不把来源级别等同学术覆盖。"
+          }
+        ]
+      }
+    },
+    {
+      "author_id": "V1-ENT-0249",
+      "source_directory": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/project/internal/WCD_10_WORKSPACE/orchestration/wave-08/pitol/R1",
+      "source_access_log": {
+        "task_id": "TASK-116",
+        "batch_id": "WCD-10-B11",
+        "accessed_at": "2026-10-12",
+        "records": [
+          {
+            "candidate_id": "WCD10-B11-S201",
+            "url": "https://cvc.cervantes.es/literatura/escritores/pitol/bibliografia.htm",
+            "access_status": "OPENED",
+            "accessed_at": "2026-10-12",
+            "title": "CVC. Sergio Pitol. Bibliografía",
+            "locator": "实读2026-10-12：Narrativa第7、11、13、24、28、30项列 El tañido de una flauta (1972)、Juegos florales (1982)、Vals de Mefisto (1984)、El viaje (2000)、El mago de Viena (2005)、Trilogía de la memoria (2007)；第51–57行列 Obras reunidas各卷。",
+            "support_scope": "题名、叙事/作品分类、机构书目列示版本和出版项。"
+          },
+          {
+            "candidate_id": "WCD10-B11-S202",
+            "url": "https://www.anagrama-ed.es/autor/pitol-sergio-858",
+            "access_status": "OPENED",
+            "accessed_at": "2026-10-12",
+            "title": "Sergio Pitol — Editorial Anagrama",
+            "locator": "实读2026-10-12：作者简介第62–64行区分五部小说、短篇集与Trilogía de la Memoria；第63行说明El viaje、El mago de Viena属于跨文类记忆三部曲；第62行将El tañido/Juegos列为小说，所列1986/1985与CVC的原书目年份不同。",
+            "support_scope": "五部小说、短篇集/记忆三部曲归属及作品简介；版本差异来自出版机构作者页。"
+          },
+          {
+            "candidate_id": "WCD10-B11-S203",
+            "url": "https://revistas-filologicas.unam.mx/literatura-mexicana/index.php/lm/article/view/324",
+            "access_status": "OPENED",
+            "accessed_at": "2026-10-12",
+            "title": "Sergio Pitol. El arte de la fuga. México: Era, 1996",
+            "locator": "实读2026-10-12：网页第21行书评题名与Era 1996版；第31–36行作者、机构及摘要描述。摘要称作品以记忆为中心，组合回忆、阅读、绘画和旅行等片段；仅据此形成一句有边界的作品简介。",
+            "support_scope": "UNAM书评题名、Era 1996出版信息及记忆/回忆/阅读/旅行等作品简介。"
+          },
+          {
+            "candidate_id": "WCD10-B11-S204",
+            "url": "https://www.anagrama-ed.es/libro/compactos/el-mago-de-viena/9788433951113/CM_883",
+            "access_status": "OPENED",
+            "accessed_at": "2026-10-12",
+            "title": "El mago de Viena — Sergio Pitol — Editorial Anagrama",
+            "locator": "实读2026-10-12：第62–65行作品题名、作者和简述；第79–83行/152–155行说明片段形式、记忆、写作、喜爱的作家与旅行。第115–117行列本页面版本发布日期2026-10-21，仅识别当前版次，不作首发年。",
+            "support_scope": "作品简介；2026-10-21为该具体Anagrama版本计划日期，不作首发年。"
+          }
+        ]
+      }
+    }
+  ]
+}

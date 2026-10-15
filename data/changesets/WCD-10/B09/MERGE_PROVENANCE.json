@@ -1,0 +1,88 @@
+{
+  "task_id": "TASK-114",
+  "batch_id": "WCD-10-B09",
+  "merge_status": "MERGED_CANDIDATE_PARENT_REVIEW_PENDING",
+  "merge_order": [
+    "ramos/R1",
+    "vallejo",
+    "dario"
+  ],
+  "inputs": [
+    {
+      "directory": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/project/internal/WCD_10_WORKSPACE/orchestration/wave-06/ramos/R1",
+      "artifact_sha256": {
+        "CANDIDATES.json": "f14a2c2b5c166b988a0b6c289d706aae545abbe196a6259402c8e7036ab15022",
+        "COVERAGE.json": "165367cc264a80fad8461ca854a34df5bc693a11250d606ec33a1fa887d55fd3",
+        "SOURCE_REGISTRATION.json": "56645389a205b894a2d44aa627608b8250f79ad19701a9654077af88c1740fb5",
+        "EVIDENCE_MATRIX.json": "eb68456e0778f07effbad31f2775124fa222fef5691c0b7179b2bfb2d6ae1b00"
+      }
+    },
+    {
+      "directory": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/project/internal/WCD_10_WORKSPACE/orchestration/wave-06/vallejo",
+      "artifact_sha256": {
+        "CANDIDATES.json": "6678f80e2c6b74b7fcb974df1b2182b44b4564b860d3b809a5cd969d2e161061",
+        "COVERAGE.json": "dbf9f6d4924117ee870a33b25d0de950fc66d62c39abda0e06dac8b525610f94",
+        "SOURCE_REGISTRATION.json": "9f465443eccef073cb12cde4aae26b42f931f20c8c611a993f726e8ff5827e92",
+        "EVIDENCE_MATRIX.json": "3888f81c34872f8311bf23277bca6427bc7249d1a302f3e3beff65c871062537"
+      }
+    },
+    {
+      "directory": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/project/internal/WCD_10_WORKSPACE/orchestration/wave-06/dario",
+      "artifact_sha256": {
+        "CANDIDATES.json": "e8efa8111d13b867e34a8f5997efcdfacc5af74e3918c259aee04bfa3c33d477",
+        "COVERAGE.json": "f602879ed97a55be36c01bd3e03275797f0708a0397dbf2be45fd7d503c2fcfa",
+        "SOURCE_REGISTRATION.json": "59dd4e0e6d15d3f7710894b0bae8c574405c32ff5d04bc69492c025cdd7c2fce",
+        "EVIDENCE_MATRIX.json": "38db4047635ab97368bb1c2693a3c66f0aadeadc738f2cde08fe148d1380b8f7"
+      }
+    }
+  ],
+  "array_concatenation_checks": [
+    {
+      "array": "candidate.sources",
+      "exact_ordered_concat": true,
+      "count": 9
+    },
+    {
+      "array": "candidate.new_entities",
+      "exact_ordered_concat": true,
+      "count": 8
+    },
+    {
+      "array": "candidate.existing_facts",
+      "exact_ordered_concat": true,
+      "count": 18
+    },
+    {
+      "array": "candidate.extra_relationships",
+      "exact_ordered_concat": true,
+      "count": 0
+    },
+    {
+      "array": "candidate.deferred",
+      "exact_ordered_concat": true,
+      "count": 0
+    },
+    {
+      "array": "candidate.source_scope_decisions",
+      "exact_ordered_concat": true,
+      "count": 9
+    },
+    {
+      "array": "coverage.objects",
+      "exact_ordered_concat": true,
+      "count": 20
+    },
+    {
+      "array": "source_registration.profiles",
+      "exact_ordered_concat": true,
+      "count": 9
+    },
+    {
+      "array": "evidence_matrix.entries",
+      "exact_ordered_concat": true,
+      "count": 42
+    }
+  ],
+  "baseline_database_sha256": "af6c293aa32d86143f2be6f4c4ed414799086f8878df22b13a7356397ebd6050",
+  "notes": "Only candidate/coverage/registration/evidence JSON integration was performed. No Gate, SQL, prepare, apply, Git operation, ROOT tracked file, or database mutation."
+}

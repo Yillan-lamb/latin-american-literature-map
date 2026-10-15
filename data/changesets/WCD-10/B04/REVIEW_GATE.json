@@ -1,0 +1,28 @@
+{
+  "task_id": "TASK-109",
+  "reviewer": "wcd10_b01_review",
+  "reviewed_at": "2026-09-29",
+  "checkpoint_date": "2026-09-29",
+  "review_scope": "Independent B04 candidate, coverage and source registration review PASS after narrow delta. Separate SQL review required before apply.",
+  "packages": [
+    {
+      "file": "CANDIDATES.json",
+      "sha256": "c62fcbfe5c99a627ed20e5978e7d8175c35213f1031ba7c2742f866a2a511e22",
+      "verdict": "PASS"
+    }
+  ],
+  "coverage_sha256": "502247635db7cbdc348d02bf9e5aeed40fbcde1724e466843e8e8bb1a85a190d",
+  "registration_sha256": "0d55735033930f5914c5fe4e78f2437ed0e94fef3d914e3788ffd88cd4658bae",
+  "baseline_database_sha256": "079deee47063d2435bdaafe1b3c1dca24ca8b6c7353acc1427075bf0ce86746d",
+  "boundaries": [
+    "Research only; no Curation, public scope, Schema or release change",
+    "Reuse SRC-0070 unchanged; no duplicate source or grade promotion",
+    "F07 attributed research_note_only; F11 neutral structural and edition description",
+    "Alturas1947 is book edition, not first publication; periodical carrier unresolved",
+    "Nine new work/collection objects; Chinese display names provisional",
+    "Twenty-one coverage objects; retain eighteen scholarly gaps and six deferred",
+    "Poema de Chile77/131 edition distinction; city conflict excluded",
+    "Gringo viejo SET_IN Mexico is fictional plot, not historical Bierce trajectory",
+    "Preserve all old rows and legacy holds; no inferred interpretive or collection-geography relationships"
+  ]
+}

@@ -1,0 +1,198 @@
+{
+  "task_id": "TASK-115",
+  "batch_id": "WCD-10-B10",
+  "merge_status": "MERGED_CANDIDATE_PARENT_REVIEW_PENDING",
+  "merge_order": [
+    "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/project/internal/WCD_10_WORKSPACE/orchestration/wave-07/marti/R2",
+    "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/project/internal/WCD_10_WORKSPACE/orchestration/wave-07/parra",
+    "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/project/internal/WCD_10_WORKSPACE/orchestration/wave-07/pizarnik/R1"
+  ],
+  "inputs": [
+    {
+      "author_id": "V1-ENT-0225",
+      "directory": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/project/internal/WCD_10_WORKSPACE/orchestration/wave-07/marti/R2",
+      "artifact_sha256": {
+        "CANDIDATES.json": "89f1e1bc712a227fbf0da5b14c00a29ce5a573292a00afd1bfad2c7044ff02d2",
+        "COVERAGE.json": "11e15b291f59d613bec58dc9f493cb96953570078bca08e264e8faf7cea95b63",
+        "DEDUP.json": "13573a4ad3988d398830def5abf725e59f5816a22400ef931416c98552db6e84",
+        "EVIDENCE_MATRIX.json": "e92395ecb807503397b28a49affd787130c8e163e5bf229922d35d27b0dd11e1",
+        "HANDOFF.md": "867132ed5dff13fea0cb5ca0b1e45a71e8bad3c24f3e4e23db8c8d88f9806fa8",
+        "SELF_CHECK.json": "3f35efb7cf97321cd7e8fcf3cd965ba695e70f807f0500bb435e2cc710b65c3f",
+        "SHA256SUMS.json": "887aae6c801f977f2bffd5ebd89974467a67b5571f2fab223287cbd9899068d0",
+        "SOURCE_ACCESS_LOG.json": "6103f11113591139f558e7e4d0bb98b7b658820fec15f5471bcbd065d771a36d",
+        "SOURCE_REGISTRATION.json": "3afc3aa6a38ea248a05ff88386ae16753acd18734f40e53c28c72adf26dd521d",
+        "STATUS.json": "2435f9c5b8bf92eb87eb3d0027780fcecfeb8ca08ef6726f1fa29128d4ef85cb",
+        "VALIDATOR_REPORT.json": "62e90e9ed1313aa9b04d6c5120de39395a452707cf19d11254ee5a46e024baad"
+      }
+    },
+    {
+      "author_id": "V1-ENT-0236",
+      "directory": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/project/internal/WCD_10_WORKSPACE/orchestration/wave-07/parra",
+      "artifact_sha256": {
+        "CANDIDATES.json": "16a491113679e01b1d93d45151074a6c319fd072a2090c657f844a7907dc55a7",
+        "COVERAGE.json": "3aff1a92b4fe582a90a435c0f95e0accad6369598fde642eccca79e5e16d0553",
+        "DEDUP.json": "f39b73f28e4b3314292b2800c6311806e1186d6b7e3ff5fd97524811a27ba237",
+        "EVIDENCE_MATRIX.json": "b1c20d6a4f89b67ac644a8852f46dcf0be97ea0ed4a92e24208c133de31b26e1",
+        "HANDOFF.md": "08ba0fae8a43b478fffaa9569b30b81dca5a6b3d48a68c915b12fb2bfe292077",
+        "SELF_CHECK.json": "aa9dda2bf115160c8a85101ae569c1d3219e7549d5f029f3a6b7b86d99c5aa48",
+        "SHA256SUMS.json": "47362fb9fc6594835f9e04babd7add4f9367830f1c132161481ab1c88f17469b",
+        "SOURCE_ACCESS_LOG.json": "8e21de9976dc39e5c309e9a5b41698530be37e36f6c07bea6595e796d88e372e",
+        "SOURCE_REGISTRATION.json": "1d850ac55708325be62b6f694943ad74046fbadbb3a15db0889269354b2f7b0a",
+        "STATUS.json": "435c4618e71269e6bbf7656b17581197a96f3e447ff01d80c3890616af2fb110",
+        "VALIDATOR_REPORT.json": "287a376c2e78d28fa9b8b14d24538f5dbfb73082fb22d0cbef7ffb4f6205ce4e"
+      }
+    },
+    {
+      "author_id": "V1-ENT-0237",
+      "directory": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/project/internal/WCD_10_WORKSPACE/orchestration/wave-07/pizarnik/R1",
+      "artifact_sha256": {
+        "CANDIDATES.json": "204f734819a67c8d304ba5cb7a9b2f08741c60e7cf460bc6076cca59d1b45bd5",
+        "COVERAGE.json": "30b7e0cc08252cf5bbf05f2e33bf9417f1101c1c0c7c3b3c833fdf27980e72f6",
+        "DEDUP.json": "de4e39e3242338a1483ed0c34f2d896542d45c8c4782ee5c9ecd52fb4146911a",
+        "EVIDENCE_MATRIX.json": "4b3b3694f3029e0858710ba62f1b6e73f9290e71190d86c5787b0e0bebaf38dc",
+        "HANDOFF.md": "88d08e18482bda796682457f12099d8c92d0ed6e16ac862a675109ebbd95256d",
+        "SELF_CHECK.json": "286428ad302c3f2d22ca417443edc85a4bbbc6d6e374f411119f660ea2365fab",
+        "SHA256SUMS.json": "fc412470d84fd2b587bac4eb16146a7079e22243a14b0ee2a5ce1d400b6b71ed",
+        "SOURCE_ACCESS_LOG.json": "d9c72a9f81c8022d6cc69426b609b49301d1678583215442c100a67e1060134e",
+        "SOURCE_REGISTRATION.json": "e141d9cff225d3a90823d71e0ae2857571891a6adfd45886ffb62e8319cb9498",
+        "STATUS.json": "9584c23d03318399abebfa73aee182609b0d06098a1b92e8d652aa7b6b34ef8f",
+        "VALIDATOR_REPORT.json": "1a3e6ec3e1dad2bfe7bef4fd7964ea4780191efe1a81b25aabc336ce6c637500"
+      }
+    }
+  ],
+  "array_concatenation_checks": [
+    {
+      "array": "candidate.sources",
+      "exact_ordered_concat": true,
+      "count": 23
+    },
+    {
+      "array": "candidate.new_entities",
+      "exact_ordered_concat": true,
+      "count": 12
+    },
+    {
+      "array": "candidate.existing_facts",
+      "exact_ordered_concat": true,
+      "count": 13
+    },
+    {
+      "array": "candidate.extra_relationships",
+      "exact_ordered_concat": true,
+      "count": 0
+    },
+    {
+      "array": "candidate.deferred",
+      "exact_ordered_concat": true,
+      "count": 3
+    },
+    {
+      "array": "candidate.source_scope_decisions",
+      "exact_ordered_concat": true,
+      "count": 23
+    },
+    {
+      "array": "coverage.objects",
+      "exact_ordered_concat": true,
+      "count": 22
+    },
+    {
+      "array": "coverage.deferred_objects",
+      "exact_ordered_concat": true,
+      "count": 2
+    },
+    {
+      "array": "source_registration.profiles",
+      "exact_ordered_concat": true,
+      "count": 23
+    },
+    {
+      "array": "evidence_matrix.entries",
+      "exact_ordered_concat": true,
+      "count": 54
+    }
+  ],
+  "baseline_database_sha256": "41f895012a71cec9cab831e1717e5f3ec0306100d95acf2ac34c9eccac5a4d3b",
+  "normalization": {
+    "candidate_envelope": "Batch fields set to TASK-115/WCD-10-B10, complete fixed three-author roster, merged-candidate status and B10 Research-only boundary; candidate rows untouched.",
+    "coverage": "objects and deferred_objects concatenated verbatim; disjoint author-keyed context/scope fields combined; each author research policy/result retained under its author ID; explicit Parra author_snapshot retained under author ID; Martí snapshot remains verbatim inside Martí author_context.",
+    "registration": "profiles, author_registrations and author_metadata concatenated verbatim; author-specific policy strings retained under author_policies.",
+    "evidence_matrix": "entries concatenated verbatim; distinct input policy strings retained under policy_by_author.",
+    "auxiliary": "SOURCE_ACCESS_LOG and DEDUP artifacts retained verbatim per author under author_packages because their root/array schemas differ."
+  },
+  "notes": "Candidate integration only. No Gate, SQL, mapping, prepare, apply, database mutation, Git operation, or release operation.",
+  "mechanical_transformations": [
+    {
+      "author_directory": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/project/internal/WCD_10_WORKSPACE/orchestration/wave-07/marti/R2",
+      "object_ref": "WCD10-B10-W002",
+      "before": [
+        {
+          "candidate_id": "WCD10-B10-W002-F01",
+          "subject_id": "WCD10-B10-W002",
+          "field": "entity_layer",
+          "value": "collection",
+          "source_refs": [
+            "WCD10-B10-S002",
+            "WCD10-B10-S003"
+          ]
+        },
+        {
+          "candidate_id": "WCD10-B10-W002-F02",
+          "subject_id": "WCD10-B10-W002",
+          "field": "first_publication_year",
+          "value": "1889",
+          "source_refs": [
+            "WCD10-B10-S003"
+          ]
+        },
+        {
+          "candidate_id": "WCD10-B10-W002-F03",
+          "subject_id": "WCD10-B10-W002",
+          "field": "one_sentence_summary",
+          "value": "这份面向美洲儿童的刊物由Martí撰写，共刊四期，1889年7月至10月在纽约出版，内容包含故事、历史与艺术等栏目。",
+          "source_refs": [
+            "WCD10-B10-S003"
+          ]
+        }
+      ],
+      "after": [
+        {
+          "candidate_id": "WCD10-B10-W002-F02",
+          "subject_id": "WCD10-B10-W002",
+          "field": "first_publication_year",
+          "value": "1889",
+          "source_refs": [
+            "WCD10-B10-S003"
+          ]
+        },
+        {
+          "candidate_id": "WCD10-B10-W002-F03",
+          "subject_id": "WCD10-B10-W002",
+          "field": "one_sentence_summary",
+          "value": "这份面向美洲儿童的刊物由Martí撰写，共刊四期，1889年7月至10月在纽约出版，内容包含故事、历史与艺术等栏目。",
+          "source_refs": [
+            "WCD10-B10-S003"
+          ]
+        },
+        {
+          "candidate_id": "WCD10-B10-W002-F04",
+          "subject_id": "WCD10-B10-W002",
+          "field": "genre_or_form",
+          "value": "面向儿童的月刊（四期）",
+          "source_refs": [
+            "WCD10-B10-S003"
+          ]
+        }
+      ],
+      "justification": "Martí R2 CANDIDATES.json is the frozen candidate source of truth: its W002 has exactly the three listed facts. The stale coverage row had an extra old entity_layer F01 and omitted the actual genre_or_form F04; only candidate_facts is synchronized to those three candidate facts. No research content or source references were changed.",
+      "input_sha256": {
+        "coverage_before": "7f2a14dabb97f32c30a6895f13b649b7531e0c4011e14854a0ecf58265c2562d",
+        "candidate_source": "99846bcb2859996f8be6f77a2a655227a6eaa8211585307c9e84a44b400edc47",
+        "frozen_author_candidates": "89f1e1bc712a227fbf0da5b14c00a29ce5a573292a00afd1bfad2c7044ff02d2"
+      },
+      "output_sha256": {
+        "coverage_after": "440348b0d146afbbce4906d04b25a3e97c704d9be4ee26a9af49d4ee73fa8fb3"
+      }
+    }
+  ]
+}

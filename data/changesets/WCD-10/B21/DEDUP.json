@@ -1,0 +1,258 @@
+{
+  "task_id": "TASK-126",
+  "batch_id": "WCD-10-B21",
+  "baseline_database_sha256": "db16fe4f5faaafcfca3b02b42c52d56bb9b11d63704d2de49201d1f328e0a0ba",
+  "author_id": "V1-ENT-0360",
+  "method": "基于冻结B21数据库全库work/collection规范化题名及Rómulo Gallegos现有CREATED闭包核验；标题变体按直接书目来源合并；来源URL与冻结source canonical_url逐项核对。",
+  "baseline_work_collection_count": 619,
+  "existing_linked_works": [
+    {
+      "entity_id": "V1-ENT-0367",
+      "original_name": "Doña Bárbara"
+    },
+    {
+      "entity_id": "V1-ENT-0368",
+      "original_name": "Cantaclaro"
+    },
+    {
+      "entity_id": "V1-ENT-0369",
+      "original_name": "Canaima"
+    }
+  ],
+  "new_entity_checks": [
+    {
+      "candidate_id": "WCD10-B21-W001",
+      "original_name": "Reinaldo Solar",
+      "name_zh_candidate": "《雷纳尔多·索拉尔》（暂译）",
+      "normalized_title_matches": [],
+      "same_author_existing_linked_works_reviewed": [
+        {
+          "entity_id": "V1-ENT-0367",
+          "original_name": "Doña Bárbara"
+        },
+        {
+          "entity_id": "V1-ENT-0368",
+          "original_name": "Cantaclaro"
+        },
+        {
+          "entity_id": "V1-ENT-0369",
+          "original_name": "Canaima"
+        }
+      ],
+      "title_variants_reviewed": [
+        "El Último Solar"
+      ],
+      "same_author_title_review": "《El Último Solar》1920与《Reinaldo Solar》1930在Fundación Empresas Polar条目中明确为修改删节后再版关系，合并为一个作品候选；仅以bibliographic_note记录题名与年份历史，不填写首版年或另建版本对象。",
+      "disposition": "single_revised_work_identity_with_documented_title_history"
+    },
+    {
+      "candidate_id": "WCD10-B21-W002",
+      "original_name": "La Trepadora",
+      "name_zh_candidate": "《攀援者》（暂译）",
+      "normalized_title_matches": [],
+      "same_author_existing_linked_works_reviewed": [
+        {
+          "entity_id": "V1-ENT-0367",
+          "original_name": "Doña Bárbara"
+        },
+        {
+          "entity_id": "V1-ENT-0368",
+          "original_name": "Cantaclaro"
+        },
+        {
+          "entity_id": "V1-ENT-0369",
+          "original_name": "Canaima"
+        }
+      ],
+      "title_variants_reviewed": [],
+      "same_author_title_review": "与冻结全库work/collection及Gallegos现有三部CREATED作品规范化题名比对，无已识别精确或规范化重名；仍需Reviewer复核书目边界。",
+      "disposition": "new_title_no_exact_or_normalized_existing_match"
+    },
+    {
+      "candidate_id": "WCD10-B21-W003",
+      "original_name": "Pobre Negro",
+      "name_zh_candidate": "《穷黑人》（暂译）",
+      "normalized_title_matches": [],
+      "same_author_existing_linked_works_reviewed": [
+        {
+          "entity_id": "V1-ENT-0367",
+          "original_name": "Doña Bárbara"
+        },
+        {
+          "entity_id": "V1-ENT-0368",
+          "original_name": "Cantaclaro"
+        },
+        {
+          "entity_id": "V1-ENT-0369",
+          "original_name": "Canaima"
+        }
+      ],
+      "title_variants_reviewed": [],
+      "same_author_title_review": "与冻结全库work/collection及Gallegos现有三部CREATED作品规范化题名比对，无已识别精确或规范化重名；仍需Reviewer复核书目边界。",
+      "disposition": "new_title_no_exact_or_normalized_existing_match"
+    },
+    {
+      "candidate_id": "WCD10-B21-W004",
+      "original_name": "El Forastero",
+      "name_zh_candidate": "《异乡客》（暂译）",
+      "normalized_title_matches": [],
+      "same_author_existing_linked_works_reviewed": [
+        {
+          "entity_id": "V1-ENT-0367",
+          "original_name": "Doña Bárbara"
+        },
+        {
+          "entity_id": "V1-ENT-0368",
+          "original_name": "Cantaclaro"
+        },
+        {
+          "entity_id": "V1-ENT-0369",
+          "original_name": "Canaima"
+        }
+      ],
+      "title_variants_reviewed": [],
+      "same_author_title_review": "与冻结全库work/collection及Gallegos现有三部CREATED作品规范化题名比对，无已识别精确或规范化重名；仍需Reviewer复核书目边界。",
+      "disposition": "new_title_no_exact_or_normalized_existing_match"
+    },
+    {
+      "candidate_id": "WCD10-B21-W005",
+      "original_name": "Sobre la misma tierra",
+      "name_zh_candidate": "《在同一片土地上》（暂译）",
+      "normalized_title_matches": [],
+      "same_author_existing_linked_works_reviewed": [
+        {
+          "entity_id": "V1-ENT-0367",
+          "original_name": "Doña Bárbara"
+        },
+        {
+          "entity_id": "V1-ENT-0368",
+          "original_name": "Cantaclaro"
+        },
+        {
+          "entity_id": "V1-ENT-0369",
+          "original_name": "Canaima"
+        }
+      ],
+      "title_variants_reviewed": [],
+      "same_author_title_review": "与冻结全库work/collection及Gallegos现有三部CREATED作品规范化题名比对，无已识别精确或规范化重名；仍需Reviewer复核书目边界。",
+      "disposition": "new_title_no_exact_or_normalized_existing_match"
+    },
+    {
+      "candidate_id": "WCD10-B21-W006",
+      "original_name": "La brizna de paja en el viento",
+      "name_zh_candidate": "《风中的一根稻草》（暂译）",
+      "normalized_title_matches": [],
+      "same_author_existing_linked_works_reviewed": [
+        {
+          "entity_id": "V1-ENT-0367",
+          "original_name": "Doña Bárbara"
+        },
+        {
+          "entity_id": "V1-ENT-0368",
+          "original_name": "Cantaclaro"
+        },
+        {
+          "entity_id": "V1-ENT-0369",
+          "original_name": "Canaima"
+        }
+      ],
+      "title_variants_reviewed": [
+        "Una brizna de paja en el viento"
+      ],
+      "same_author_title_review": "CSUCA目录题名为“La brizna de paja en el viento”，Academia传记使用“Una brizna de paja en el viento”；作为同一作品的题名异形记录，不分建对象。",
+      "disposition": "title_variant_normalized_as_single_work"
+    },
+    {
+      "candidate_id": "WCD10-B21-W007",
+      "original_name": "Los aventureros",
+      "name_zh_candidate": "《冒险者们》（暂译）",
+      "normalized_title_matches": [],
+      "same_author_existing_linked_works_reviewed": [
+        {
+          "entity_id": "V1-ENT-0367",
+          "original_name": "Doña Bárbara"
+        },
+        {
+          "entity_id": "V1-ENT-0368",
+          "original_name": "Cantaclaro"
+        },
+        {
+          "entity_id": "V1-ENT-0369",
+          "original_name": "Canaima"
+        }
+      ],
+      "title_variants_reviewed": [],
+      "same_author_title_review": "与冻结全库work/collection及Gallegos现有三部CREATED作品规范化题名比对，无已识别精确或规范化重名；仍需Reviewer复核书目边界。",
+      "disposition": "new_title_no_exact_or_normalized_existing_match"
+    },
+    {
+      "candidate_id": "WCD10-B21-W008",
+      "original_name": "La rebelión y otros cuentos",
+      "name_zh_candidate": "《叛乱及其他短篇》（暂译）",
+      "normalized_title_matches": [],
+      "same_author_existing_linked_works_reviewed": [
+        {
+          "entity_id": "V1-ENT-0367",
+          "original_name": "Doña Bárbara"
+        },
+        {
+          "entity_id": "V1-ENT-0368",
+          "original_name": "Cantaclaro"
+        },
+        {
+          "entity_id": "V1-ENT-0369",
+          "original_name": "Canaima"
+        }
+      ],
+      "title_variants_reviewed": [],
+      "same_author_title_review": "与冻结全库work/collection及Gallegos现有三部CREATED作品规范化题名比对，无已识别精确或规范化重名；仍需Reviewer复核书目边界。",
+      "disposition": "new_title_no_exact_or_normalized_existing_match"
+    }
+  ],
+  "source_dedup": [
+    {
+      "candidate_id": "WCD10-B21-S001",
+      "url": "https://bibliofep.fundacionempresaspolar.org/dhv/entradas/g/gallegos-romulo/",
+      "disposition": "reuse_existing_source",
+      "reuse_existing_source": "SRC-0275"
+    },
+    {
+      "candidate_id": "WCD10-B21-S002",
+      "url": "https://www.anhvenezuela.org.ve/wp-content/uploads/2024/06/ROMULO-GALLEGOS-S.-A.-CONSALVI-BBV-41.pdf",
+      "disposition": "fresh_registration",
+      "reuse_existing_source": ""
+    },
+    {
+      "candidate_id": "WCD10-B21-S003",
+      "url": "https://catalogosiidca.csuca.org/Record/UP.96127/TOC",
+      "disposition": "fresh_registration",
+      "reuse_existing_source": ""
+    },
+    {
+      "candidate_id": "WCD10-B21-S004",
+      "url": "https://www.cervantesvirtual.com/portales/rosalia_de_castro_ga/obra/la-rebelion-1922--0/",
+      "disposition": "fresh_registration",
+      "reuse_existing_source": ""
+    }
+  ],
+  "existing_fact_candidates": [
+    {
+      "candidate_id": "WCD10-B21-F001",
+      "subject_id": "V1-ENT-0367",
+      "field": "one_sentence_summary",
+      "dedup_check": "冻结数据库同一subject/field下无相同值；仅追加有来源支持的one_sentence_summary，不覆盖或改写旧事实。"
+    },
+    {
+      "candidate_id": "WCD10-B21-F002",
+      "subject_id": "V1-ENT-0368",
+      "field": "one_sentence_summary",
+      "dedup_check": "冻结数据库同一subject/field下无相同值；仅追加有来源支持的one_sentence_summary，不覆盖或改写旧事实。"
+    },
+    {
+      "candidate_id": "WCD10-B21-F003",
+      "subject_id": "V1-ENT-0369",
+      "field": "one_sentence_summary",
+      "dedup_check": "冻结数据库同一subject/field下无相同值；仅追加有来源支持的one_sentence_summary，不覆盖或改写旧事实。"
+    }
+  ]
+}

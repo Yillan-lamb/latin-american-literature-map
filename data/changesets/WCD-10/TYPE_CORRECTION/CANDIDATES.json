@@ -1,0 +1,1620 @@
+{
+  "task_id": "TASK-127",
+  "finding_id": "TASK127-F01",
+  "baseline_sha256": "5a410850fed0ffa936db1de135e3872fa1f53a5a3a3b294927eb902db2b3b12c",
+  "scope": "15existing entity type fields and15existing card type/display fields only; stable IDs and source/fact/role/gap closure unchanged",
+  "rows": [
+    {
+      "entity_before": {
+        "entity_id": "V1-ENT-0460",
+        "entity_type": "work",
+        "name_zh": "《辩护与拒绝》",
+        "original_name": "Apologías y rechazos",
+        "canonical_status": "candidate",
+        "origin_count": "1",
+        "origin_refs": "WCD10-B07-W004",
+        "normalization_basis": "与基线作者/作品及所见书目交叉核对；为萨瓦托书目中有机构/出版社记录的独立书籍对象。只提议此作品本身，不将版本、合集、单篇文章或章节拆为新对象。; 工作中文显示名为可读性工作译名；原西班牙语题名作为身份锚点，不据此主张已出版的正式中文译名。",
+        "issue_codes": "PROVISIONAL-ZH-DISPLAY"
+      },
+      "entity_after": {
+        "entity_id": "V1-ENT-0460",
+        "entity_type": "collection",
+        "name_zh": "《辩护与拒绝》",
+        "original_name": "Apologías y rechazos",
+        "canonical_status": "candidate",
+        "origin_count": "1",
+        "origin_refs": "WCD10-B07-W004",
+        "normalization_basis": "与基线作者/作品及所见书目交叉核对；为萨瓦托书目中有机构/出版社记录的独立书籍对象。只提议此作品本身，不将版本、合集、单篇文章或章节拆为新对象。; 工作中文显示名为可读性工作译名；原西班牙语题名作为身份锚点，不据此主张已出版的正式中文译名。",
+        "issue_codes": "PROVISIONAL-ZH-DISPLAY"
+      },
+      "cards_before": [
+        {
+          "card_id": "V1-CARD-0384",
+          "origin_card_id": "WCD-10-B07:V1-ENT-0460",
+          "subject_id": "V1-ENT-0460",
+          "card_type": "work",
+          "title_zh": "《辩护与拒绝》",
+          "author_label": "埃内斯托·萨瓦托",
+          "original_title": "Apologías y rechazos",
+          "country_or_region": "阿根廷",
+          "language": "es",
+          "period_bucket": "1979",
+          "genre_or_form": "essay collection",
+          "input_layer": "WCD-10-B07",
+          "source_minimum_status": "research_gap",
+          "issue_code": "RESEARCH-ONLY-NOT-CURATED",
+          "content_markdown": "### 《辩护与拒绝》｜Apologías y rechazos\n\n- 对象类型：work\n- 研究边界：本补充卡仅保存下列已复核事实和有归属的研究说明，不是策展批准。\n- first_publication_year：1979\n- genre_or_form：essay collection\n- one_sentence_summary：出版社简介称本书汇集七篇较长文章；作者书目将其列为1979年出版的现代性与文学论说类作品。\n\n#### 未关闭的研究边界\n\n本卡不升级任何既有 hold；未核实的文学解释或作品级学术研究保持 research_gap。"
+        }
+      ],
+      "cards_after": [
+        {
+          "card_id": "V1-CARD-0384",
+          "origin_card_id": "WCD-10-B07:V1-ENT-0460",
+          "subject_id": "V1-ENT-0460",
+          "card_type": "collection",
+          "title_zh": "《辩护与拒绝》",
+          "author_label": "埃内斯托·萨瓦托",
+          "original_title": "Apologías y rechazos",
+          "country_or_region": "阿根廷",
+          "language": "es",
+          "period_bucket": "1979",
+          "genre_or_form": "essay collection",
+          "input_layer": "WCD-10-B07",
+          "source_minimum_status": "research_gap",
+          "issue_code": "RESEARCH-ONLY-NOT-CURATED",
+          "content_markdown": "### 《辩护与拒绝》｜Apologías y rechazos\n\n- 对象类型：collection\n- 研究边界：本补充卡仅保存下列已复核事实和有归属的研究说明，不是策展批准。\n- first_publication_year：1979\n- genre_or_form：essay collection\n- one_sentence_summary：出版社简介称本书汇集七篇较长文章；作者书目将其列为1979年出版的现代性与文学论说类作品。\n\n#### 未关闭的研究边界\n\n本卡不升级任何既有 hold；未核实的文学解释或作品级学术研究保持 research_gap。"
+        }
+      ],
+      "genre_evidence": [
+        {
+          "fact_id": "V1-FCT-1389",
+          "origin_material_id": "WCD10-B07-W004-F02",
+          "card_id": "V1-CARD-0384",
+          "subject_id": "V1-ENT-0460",
+          "fact_field": "genre_or_form",
+          "value_text": "essay collection",
+          "material_class": "bibliographic",
+          "origin_id": "WCD-10-B07",
+          "confidence": "high",
+          "admission_status": "batch_retained_candidate",
+          "usage_note": "Research-only; independent candidate review PASS; no public admission",
+          "source_links": [
+            {
+              "fact_id": "V1-FCT-1389",
+              "source_id": "SRC-0150",
+              "source_title": "Ernesto Sabato – Biografía"
+            },
+            {
+              "fact_id": "V1-FCT-1389",
+              "source_id": "SRC-0462",
+              "source_title": "Apologías y rechazos"
+            }
+          ]
+        }
+      ],
+      "summary_evidence": [
+        {
+          "fact_id": "V1-FCT-1390",
+          "origin_material_id": "WCD10-B07-W004-F03",
+          "card_id": "V1-CARD-0384",
+          "subject_id": "V1-ENT-0460",
+          "fact_field": "one_sentence_summary",
+          "value_text": "出版社简介称本书汇集七篇较长文章；作者书目将其列为1979年出版的现代性与文学论说类作品。",
+          "material_class": "institutional_paraphrase",
+          "origin_id": "WCD-10-B07",
+          "confidence": "high",
+          "admission_status": "batch_retained_candidate",
+          "usage_note": "Research-only; independent candidate review PASS; no public admission",
+          "source_links": [
+            {
+              "fact_id": "V1-FCT-1390",
+              "source_id": "SRC-0150",
+              "source_title": "Ernesto Sabato – Biografía"
+            },
+            {
+              "fact_id": "V1-FCT-1390",
+              "source_id": "SRC-0462",
+              "source_title": "Apologías y rechazos"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entity_before": {
+        "entity_id": "V1-ENT-0465",
+        "entity_type": "work",
+        "name_zh": "《关于我们时代文学的三种探讨》",
+        "original_name": "Tres aproximaciones a la literatura de nuestro tiempo",
+        "canonical_status": "candidate",
+        "origin_count": "1",
+        "origin_refs": "WCD10-B07-W009",
+        "normalization_basis": "Institutional Cervantes chronology lists the 1968 essay; University of Córdoba catalog independently identifies the 1968 Spanish-language book by Sábato in the Letras de América series and indexes it as essays/literary criticism on Robbe-Grillet, Borges and Sartre.; 工作中文显示名为可读性工作译名；原西班牙语题名及副题Robbe-Grillet, Borges, Sartre作为身份锚点，不据此主张已出版的正式中文译名。",
+        "issue_codes": "PROVISIONAL-ZH-DISPLAY"
+      },
+      "entity_after": {
+        "entity_id": "V1-ENT-0465",
+        "entity_type": "collection",
+        "name_zh": "《关于我们时代文学的三种探讨》",
+        "original_name": "Tres aproximaciones a la literatura de nuestro tiempo",
+        "canonical_status": "candidate",
+        "origin_count": "1",
+        "origin_refs": "WCD10-B07-W009",
+        "normalization_basis": "Institutional Cervantes chronology lists the 1968 essay; University of Córdoba catalog independently identifies the 1968 Spanish-language book by Sábato in the Letras de América series and indexes it as essays/literary criticism on Robbe-Grillet, Borges and Sartre.; 工作中文显示名为可读性工作译名；原西班牙语题名及副题Robbe-Grillet, Borges, Sartre作为身份锚点，不据此主张已出版的正式中文译名。",
+        "issue_codes": "PROVISIONAL-ZH-DISPLAY"
+      },
+      "cards_before": [
+        {
+          "card_id": "V1-CARD-0389",
+          "origin_card_id": "WCD-10-B07:V1-ENT-0465",
+          "subject_id": "V1-ENT-0465",
+          "card_type": "work",
+          "title_zh": "《关于我们时代文学的三种探讨》",
+          "author_label": "埃内斯托·萨瓦托",
+          "original_title": "Tres aproximaciones a la literatura de nuestro tiempo",
+          "country_or_region": "阿根廷",
+          "language": "es",
+          "period_bucket": "1968",
+          "genre_or_form": "literary-critical essay collection",
+          "input_layer": "WCD-10-B07",
+          "source_minimum_status": "research_gap",
+          "issue_code": "RESEARCH-ONLY-NOT-CURATED",
+          "content_markdown": "### 《关于我们时代文学的三种探讨》｜Tres aproximaciones a la literatura de nuestro tiempo\n\n- 对象类型：work\n- 研究边界：本补充卡仅保存下列已复核事实和有归属的研究说明，不是策展批准。\n- first_publication_year：1968\n- genre_or_form：literary-critical essay collection\n- one_sentence_summary：据馆藏编目题名、副题和主题词，本书由围绕Robbe-Grillet、Jorge Luis Borges与Jean-Paul Sartre的文学批评论说构成。\n\n#### 未关闭的研究边界\n\n本卡不升级任何既有 hold；未核实的文学解释或作品级学术研究保持 research_gap。"
+        }
+      ],
+      "cards_after": [
+        {
+          "card_id": "V1-CARD-0389",
+          "origin_card_id": "WCD-10-B07:V1-ENT-0465",
+          "subject_id": "V1-ENT-0465",
+          "card_type": "collection",
+          "title_zh": "《关于我们时代文学的三种探讨》",
+          "author_label": "埃内斯托·萨瓦托",
+          "original_title": "Tres aproximaciones a la literatura de nuestro tiempo",
+          "country_or_region": "阿根廷",
+          "language": "es",
+          "period_bucket": "1968",
+          "genre_or_form": "literary-critical essay collection",
+          "input_layer": "WCD-10-B07",
+          "source_minimum_status": "research_gap",
+          "issue_code": "RESEARCH-ONLY-NOT-CURATED",
+          "content_markdown": "### 《关于我们时代文学的三种探讨》｜Tres aproximaciones a la literatura de nuestro tiempo\n\n- 对象类型：collection\n- 研究边界：本补充卡仅保存下列已复核事实和有归属的研究说明，不是策展批准。\n- first_publication_year：1968\n- genre_or_form：literary-critical essay collection\n- one_sentence_summary：据馆藏编目题名、副题和主题词，本书由围绕Robbe-Grillet、Jorge Luis Borges与Jean-Paul Sartre的文学批评论说构成。\n\n#### 未关闭的研究边界\n\n本卡不升级任何既有 hold；未核实的文学解释或作品级学术研究保持 research_gap。"
+        }
+      ],
+      "genre_evidence": [
+        {
+          "fact_id": "V1-FCT-1405",
+          "origin_material_id": "WCD10-B07-W009-F02",
+          "card_id": "V1-CARD-0389",
+          "subject_id": "V1-ENT-0465",
+          "fact_field": "genre_or_form",
+          "value_text": "literary-critical essay collection",
+          "material_class": "bibliographic",
+          "origin_id": "WCD-10-B07",
+          "confidence": "high",
+          "admission_status": "batch_retained_candidate",
+          "usage_note": "Research-only; independent candidate review PASS; no public admission",
+          "source_links": [
+            {
+              "fact_id": "V1-FCT-1405",
+              "source_id": "SRC-0476",
+              "source_title": "Tres aproximaciones a la literatura de nuestro tiempo : Robbe-Grillet, Borges, Sartre"
+            }
+          ]
+        }
+      ],
+      "summary_evidence": [
+        {
+          "fact_id": "V1-FCT-1406",
+          "origin_material_id": "WCD10-B07-W009-F03",
+          "card_id": "V1-CARD-0389",
+          "subject_id": "V1-ENT-0465",
+          "fact_field": "one_sentence_summary",
+          "value_text": "据馆藏编目题名、副题和主题词，本书由围绕Robbe-Grillet、Jorge Luis Borges与Jean-Paul Sartre的文学批评论说构成。",
+          "material_class": "institutional_paraphrase",
+          "origin_id": "WCD-10-B07",
+          "confidence": "high",
+          "admission_status": "batch_retained_candidate",
+          "usage_note": "Research-only; independent candidate review PASS; no public admission",
+          "source_links": [
+            {
+              "fact_id": "V1-FCT-1406",
+              "source_id": "SRC-0476",
+              "source_title": "Tres aproximaciones a la literatura de nuestro tiempo : Robbe-Grillet, Borges, Sartre"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entity_before": {
+        "entity_id": "V1-ENT-0489",
+        "entity_type": "work",
+        "name_zh": "《La estatua casera》",
+        "original_name": "La estatua casera",
+        "canonical_status": "candidate",
+        "origin_count": "1",
+        "origin_refs": "WCD10-B07-W124",
+        "normalization_basis": "CVC chronology (S102) identifies La estatua casera as a Bioy book published in 1936; García’s direct study (S131, printed pp.81–82) analyzes the independent book and describes its mixed contents. It is absent from the frozen baseline and is not conflated with later collections or the individual pieces discussed within it.; 中文暂以原文题名作显示候选，避免未经核实的译名；原文题名是身份锚点。",
+        "issue_codes": "PROVISIONAL-ZH-DISPLAY"
+      },
+      "entity_after": {
+        "entity_id": "V1-ENT-0489",
+        "entity_type": "collection",
+        "name_zh": "《La estatua casera》",
+        "original_name": "La estatua casera",
+        "canonical_status": "candidate",
+        "origin_count": "1",
+        "origin_refs": "WCD10-B07-W124",
+        "normalization_basis": "CVC chronology (S102) identifies La estatua casera as a Bioy book published in 1936; García’s direct study (S131, printed pp.81–82) analyzes the independent book and describes its mixed contents. It is absent from the frozen baseline and is not conflated with later collections or the individual pieces discussed within it.; 中文暂以原文题名作显示候选，避免未经核实的译名；原文题名是身份锚点。",
+        "issue_codes": "PROVISIONAL-ZH-DISPLAY"
+      },
+      "cards_before": [
+        {
+          "card_id": "V1-CARD-0413",
+          "origin_card_id": "WCD-10-B07:V1-ENT-0489",
+          "subject_id": "V1-ENT-0489",
+          "card_type": "work",
+          "title_zh": "《La estatua casera》",
+          "author_label": "阿道夫·比奥伊·卡萨雷斯",
+          "original_title": "La estatua casera",
+          "country_or_region": "阿根廷",
+          "language": "es",
+          "period_bucket": "1936",
+          "genre_or_form": "杂集（混合散文、短篇叙事与短篇文论；不归为单一小说体裁）",
+          "input_layer": "WCD-10-B07",
+          "source_minimum_status": "research_gap",
+          "issue_code": "RESEARCH-ONLY-NOT-CURATED",
+          "content_markdown": "### 《La estatua casera》｜La estatua casera\n\n- 对象类型：work\n- 研究边界：本补充卡仅保存下列已复核事实和有归属的研究说明，不是策展批准。\n- first_publication_year：1936\n- genre_or_form：杂集（混合散文、短篇叙事与短篇文论；不归为单一小说体裁）\n- one_sentence_summary：据García对原书的直接讨论，本书由实验性短篇叙事和反思性文字构成，包含《El hermano de la nonata》《Locus》《Utilidad y fin práctico》及《Sobre la técnica de los cuentos fantásticos》等不同文本；此说明概括其杂集构成，不把任何单篇另作合集身份。\n\n#### 未关闭的研究边界\n\n本卡不升级任何既有 hold；未核实的文学解释或作品级学术研究保持 research_gap。"
+        }
+      ],
+      "cards_after": [
+        {
+          "card_id": "V1-CARD-0413",
+          "origin_card_id": "WCD-10-B07:V1-ENT-0489",
+          "subject_id": "V1-ENT-0489",
+          "card_type": "collection",
+          "title_zh": "《La estatua casera》",
+          "author_label": "阿道夫·比奥伊·卡萨雷斯",
+          "original_title": "La estatua casera",
+          "country_or_region": "阿根廷",
+          "language": "es",
+          "period_bucket": "1936",
+          "genre_or_form": "杂集（混合散文、短篇叙事与短篇文论；不归为单一小说体裁）",
+          "input_layer": "WCD-10-B07",
+          "source_minimum_status": "research_gap",
+          "issue_code": "RESEARCH-ONLY-NOT-CURATED",
+          "content_markdown": "### 《La estatua casera》｜La estatua casera\n\n- 对象类型：collection\n- 研究边界：本补充卡仅保存下列已复核事实和有归属的研究说明，不是策展批准。\n- first_publication_year：1936\n- genre_or_form：杂集（混合散文、短篇叙事与短篇文论；不归为单一小说体裁）\n- one_sentence_summary：据García对原书的直接讨论，本书由实验性短篇叙事和反思性文字构成，包含《El hermano de la nonata》《Locus》《Utilidad y fin práctico》及《Sobre la técnica de los cuentos fantásticos》等不同文本；此说明概括其杂集构成，不把任何单篇另作合集身份。\n\n#### 未关闭的研究边界\n\n本卡不升级任何既有 hold；未核实的文学解释或作品级学术研究保持 research_gap。"
+        }
+      ],
+      "genre_evidence": [
+        {
+          "fact_id": "V1-FCT-1477",
+          "origin_material_id": "WCD10-B07-W124-F02",
+          "card_id": "V1-CARD-0413",
+          "subject_id": "V1-ENT-0489",
+          "fact_field": "genre_or_form",
+          "value_text": "杂集（混合散文、短篇叙事与短篇文论；不归为单一小说体裁）",
+          "material_class": "bibliographic",
+          "origin_id": "WCD-10-B07",
+          "confidence": "high",
+          "admission_status": "batch_retained_candidate",
+          "usage_note": "Research-only; independent candidate review PASS; no public admission",
+          "source_links": [
+            {
+              "fact_id": "V1-FCT-1477",
+              "source_id": "SRC-0504",
+              "source_title": "La voz ajena. Bioy Casares como lexicógrafo y antólogo"
+            }
+          ]
+        }
+      ],
+      "summary_evidence": [
+        {
+          "fact_id": "V1-FCT-1478",
+          "origin_material_id": "WCD10-B07-W124-F03",
+          "card_id": "V1-CARD-0413",
+          "subject_id": "V1-ENT-0489",
+          "fact_field": "one_sentence_summary",
+          "value_text": "据García对原书的直接讨论，本书由实验性短篇叙事和反思性文字构成，包含《El hermano de la nonata》《Locus》《Utilidad y fin práctico》及《Sobre la técnica de los cuentos fantásticos》等不同文本；此说明概括其杂集构成，不把任何单篇另作合集身份。",
+          "material_class": "institutional_paraphrase",
+          "origin_id": "WCD-10-B07",
+          "confidence": "high",
+          "admission_status": "batch_retained_candidate",
+          "usage_note": "Research-only; independent candidate review PASS; no public admission",
+          "source_links": [
+            {
+              "fact_id": "V1-FCT-1478",
+              "source_id": "SRC-0504",
+              "source_title": "La voz ajena. Bioy Casares como lexicógrafo y antólogo"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entity_before": {
+        "entity_id": "V1-ENT-0494",
+        "entity_type": "work",
+        "name_zh": "《Antología de la literatura fantástica》",
+        "original_name": "Antología de la literatura fantástica",
+        "canonical_status": "candidate",
+        "origin_count": "1",
+        "origin_refs": "WCD10-B07-W129",
+        "normalization_basis": "CVC页面署名Carlos Dámaso Martínez，直接记1940年由Bioy、Borges与Silvina Ocampo共同编译选、Bioy作序，并列部分收录作者/文本；1965为扩充版，作为同一选集对象的后续版本，不重复建物件。; 以原文题名保留书目身份；中文显示暂作直书题名。",
+        "issue_codes": "PROVISIONAL-ZH-DISPLAY"
+      },
+      "entity_after": {
+        "entity_id": "V1-ENT-0494",
+        "entity_type": "collection",
+        "name_zh": "《Antología de la literatura fantástica》",
+        "original_name": "Antología de la literatura fantástica",
+        "canonical_status": "candidate",
+        "origin_count": "1",
+        "origin_refs": "WCD10-B07-W129",
+        "normalization_basis": "CVC页面署名Carlos Dámaso Martínez，直接记1940年由Bioy、Borges与Silvina Ocampo共同编译选、Bioy作序，并列部分收录作者/文本；1965为扩充版，作为同一选集对象的后续版本，不重复建物件。; 以原文题名保留书目身份；中文显示暂作直书题名。",
+        "issue_codes": "PROVISIONAL-ZH-DISPLAY"
+      },
+      "cards_before": [
+        {
+          "card_id": "V1-CARD-0418",
+          "origin_card_id": "WCD-10-B07:V1-ENT-0494",
+          "subject_id": "V1-ENT-0494",
+          "card_type": "work",
+          "title_zh": "《Antología de la literatura fantástica》",
+          "author_label": "阿道夫·比奥伊·卡萨雷斯",
+          "original_title": "Antología de la literatura fantástica",
+          "country_or_region": "阿根廷",
+          "language": "es",
+          "period_bucket": "1940",
+          "genre_or_form": "奇幻文学选集（共同编选、翻译）",
+          "input_layer": "WCD-10-B07",
+          "source_minimum_status": "research_gap",
+          "issue_code": "RESEARCH-ONLY-NOT-CURATED",
+          "content_markdown": "### 《Antología de la literatura fantástica》｜Antología de la literatura fantástica\n\n- 对象类型：work\n- 研究边界：本补充卡仅保存下列已复核事实和有归属的研究说明，不是策展批准。\n- first_publication_year：1940\n- genre_or_form：奇幻文学选集（共同编选、翻译）\n- one_sentence_summary：该选集汇集H. G. Wells、Franz Kafka、Rudyard Kipling等作者作品，并收入Macedonio Fernández、Silvina Ocampo与Jorge Luis Borges的文本；Bioy另撰序。\n\n#### 未关闭的研究边界\n\n本卡不升级任何既有 hold；未核实的文学解释或作品级学术研究保持 research_gap。"
+        }
+      ],
+      "cards_after": [
+        {
+          "card_id": "V1-CARD-0418",
+          "origin_card_id": "WCD-10-B07:V1-ENT-0494",
+          "subject_id": "V1-ENT-0494",
+          "card_type": "collection",
+          "title_zh": "《Antología de la literatura fantástica》",
+          "author_label": "阿道夫·比奥伊·卡萨雷斯",
+          "original_title": "Antología de la literatura fantástica",
+          "country_or_region": "阿根廷",
+          "language": "es",
+          "period_bucket": "1940",
+          "genre_or_form": "奇幻文学选集（共同编选、翻译）",
+          "input_layer": "WCD-10-B07",
+          "source_minimum_status": "research_gap",
+          "issue_code": "RESEARCH-ONLY-NOT-CURATED",
+          "content_markdown": "### 《Antología de la literatura fantástica》｜Antología de la literatura fantástica\n\n- 对象类型：collection\n- 研究边界：本补充卡仅保存下列已复核事实和有归属的研究说明，不是策展批准。\n- first_publication_year：1940\n- genre_or_form：奇幻文学选集（共同编选、翻译）\n- one_sentence_summary：该选集汇集H. G. Wells、Franz Kafka、Rudyard Kipling等作者作品，并收入Macedonio Fernández、Silvina Ocampo与Jorge Luis Borges的文本；Bioy另撰序。\n\n#### 未关闭的研究边界\n\n本卡不升级任何既有 hold；未核实的文学解释或作品级学术研究保持 research_gap。"
+        }
+      ],
+      "genre_evidence": [
+        {
+          "fact_id": "V1-FCT-1494",
+          "origin_material_id": "WCD10-B07-W129-F02",
+          "card_id": "V1-CARD-0418",
+          "subject_id": "V1-ENT-0494",
+          "fact_field": "genre_or_form",
+          "value_text": "奇幻文学选集（共同编选、翻译）",
+          "material_class": "bibliographic",
+          "origin_id": "WCD-10-B07",
+          "confidence": "high",
+          "admission_status": "batch_retained_candidate",
+          "usage_note": "Research-only; independent candidate review PASS; no public admission",
+          "source_links": [
+            {
+              "fact_id": "V1-FCT-1494",
+              "source_id": "SRC-0512",
+              "source_title": "Biografía de Adolfo Bioy Casares"
+            }
+          ]
+        }
+      ],
+      "summary_evidence": [
+        {
+          "fact_id": "V1-FCT-1495",
+          "origin_material_id": "WCD10-B07-W129-F03",
+          "card_id": "V1-CARD-0418",
+          "subject_id": "V1-ENT-0494",
+          "fact_field": "one_sentence_summary",
+          "value_text": "该选集汇集H. G. Wells、Franz Kafka、Rudyard Kipling等作者作品，并收入Macedonio Fernández、Silvina Ocampo与Jorge Luis Borges的文本；Bioy另撰序。",
+          "material_class": "institutional_paraphrase",
+          "origin_id": "WCD-10-B07",
+          "confidence": "high",
+          "admission_status": "batch_retained_candidate",
+          "usage_note": "Research-only; independent candidate review PASS; no public admission",
+          "source_links": [
+            {
+              "fact_id": "V1-FCT-1495",
+              "source_id": "SRC-0512",
+              "source_title": "Biografía de Adolfo Bioy Casares"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entity_before": {
+        "entity_id": "V1-ENT-0573",
+        "entity_type": "work",
+        "name_zh": "《散篇故事》",
+        "original_name": "Contos esparsos",
+        "canonical_status": "candidate",
+        "origin_count": "1",
+        "origin_refs": "WCD10-B08-W127",
+        "normalization_basis": "后世编者从 Machado de Assis 已发表或遗留的写作中选编该题名合集；候选表示其中归属于作者的文本，不将编者选编行为归给 Machado。题名、版本年、体裁与具体篇目均按直接打开的目录/学术研究限定。; 原葡萄牙语题名作为身份锚点；中文为可读性工作译名，不主张已有正式中译本题名。",
+        "issue_codes": "PROVISIONAL-ZH-DISPLAY"
+      },
+      "entity_after": {
+        "entity_id": "V1-ENT-0573",
+        "entity_type": "collection",
+        "name_zh": "《散篇故事》",
+        "original_name": "Contos esparsos",
+        "canonical_status": "candidate",
+        "origin_count": "1",
+        "origin_refs": "WCD10-B08-W127",
+        "normalization_basis": "后世编者从 Machado de Assis 已发表或遗留的写作中选编该题名合集；候选表示其中归属于作者的文本，不将编者选编行为归给 Machado。题名、版本年、体裁与具体篇目均按直接打开的目录/学术研究限定。; 原葡萄牙语题名作为身份锚点；中文为可读性工作译名，不主张已有正式中译本题名。",
+        "issue_codes": "PROVISIONAL-ZH-DISPLAY"
+      },
+      "cards_before": [
+        {
+          "card_id": "V1-CARD-0506",
+          "origin_card_id": "WCD-10-B08:V1-ENT-0573",
+          "subject_id": "V1-ENT-0573",
+          "card_type": "work",
+          "title_zh": "《散篇故事》",
+          "author_label": "马查多·德·阿西斯",
+          "original_title": "Contos esparsos",
+          "country_or_region": "巴西",
+          "language": "pt",
+          "period_bucket": "1956",
+          "genre_or_form": "short_story_collection",
+          "input_layer": "WCD-10-B08",
+          "source_minimum_status": "research_gap",
+          "issue_code": "RESEARCH-ONLY-NOT-CURATED",
+          "content_markdown": "### 《散篇故事》｜Contos esparsos\n\n- 对象类型：work\n- 研究边界：本补充卡仅保存下列已复核事实和有归属的研究说明，不是策展批准。\n- first_publication_year：1956\n- genre_or_form：short_story_collection\n- one_sentence_summary：Raimundo Magalhães Júnior 1956年编选的短篇集，目录列有“O anjo Rafael”。\n\n#### 未关闭的研究边界\n\n本卡不升级任何既有 hold；未核实的文学解释或作品级学术研究保持 research_gap。"
+        }
+      ],
+      "cards_after": [
+        {
+          "card_id": "V1-CARD-0506",
+          "origin_card_id": "WCD-10-B08:V1-ENT-0573",
+          "subject_id": "V1-ENT-0573",
+          "card_type": "collection",
+          "title_zh": "《散篇故事》",
+          "author_label": "马查多·德·阿西斯",
+          "original_title": "Contos esparsos",
+          "country_or_region": "巴西",
+          "language": "pt",
+          "period_bucket": "1956",
+          "genre_or_form": "short_story_collection",
+          "input_layer": "WCD-10-B08",
+          "source_minimum_status": "research_gap",
+          "issue_code": "RESEARCH-ONLY-NOT-CURATED",
+          "content_markdown": "### 《散篇故事》｜Contos esparsos\n\n- 对象类型：collection\n- 研究边界：本补充卡仅保存下列已复核事实和有归属的研究说明，不是策展批准。\n- first_publication_year：1956\n- genre_or_form：short_story_collection\n- one_sentence_summary：Raimundo Magalhães Júnior 1956年编选的短篇集，目录列有“O anjo Rafael”。\n\n#### 未关闭的研究边界\n\n本卡不升级任何既有 hold；未核实的文学解释或作品级学术研究保持 research_gap。"
+        }
+      ],
+      "genre_evidence": [
+        {
+          "fact_id": "V1-FCT-1775",
+          "origin_material_id": "WCD10-B08-W127-F02",
+          "card_id": "V1-CARD-0506",
+          "subject_id": "V1-ENT-0573",
+          "fact_field": "genre_or_form",
+          "value_text": "short_story_collection",
+          "material_class": "bibliographic",
+          "origin_id": "WCD-10-B08",
+          "confidence": "high",
+          "admission_status": "batch_retained_candidate",
+          "usage_note": "Research-only; independent candidate review PASS; no public admission",
+          "source_links": [
+            {
+              "fact_id": "V1-FCT-1775",
+              "source_id": "SRC-0609",
+              "source_title": "A medalha e seu reverso: fantástico e desfantasticização em contos de Machado de Assis"
+            }
+          ]
+        }
+      ],
+      "summary_evidence": [
+        {
+          "fact_id": "V1-FCT-1776",
+          "origin_material_id": "WCD10-B08-W127-F03",
+          "card_id": "V1-CARD-0506",
+          "subject_id": "V1-ENT-0573",
+          "fact_field": "one_sentence_summary",
+          "value_text": "Raimundo Magalhães Júnior 1956年编选的短篇集，目录列有“O anjo Rafael”。",
+          "material_class": "institutional_paraphrase",
+          "origin_id": "WCD-10-B08",
+          "confidence": "high",
+          "admission_status": "batch_retained_candidate",
+          "usage_note": "Research-only; independent candidate review PASS; no public admission",
+          "source_links": [
+            {
+              "fact_id": "V1-FCT-1776",
+              "source_id": "SRC-0609",
+              "source_title": "A medalha e seu reverso: fantástico e desfantasticização em contos de Machado de Assis"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entity_before": {
+        "entity_id": "V1-ENT-0574",
+        "entity_type": "work",
+        "name_zh": "《遗忘的故事》",
+        "original_name": "Contos esquecidos",
+        "canonical_status": "candidate",
+        "origin_count": "1",
+        "origin_refs": "WCD10-B08-W128",
+        "normalization_basis": "后世编者从 Machado de Assis 已发表或遗留的写作中选编该题名合集；候选表示其中归属于作者的文本，不将编者选编行为归给 Machado。题名、版本年、体裁与具体篇目均按直接打开的目录/学术研究限定。; 原葡萄牙语题名作为身份锚点；中文为可读性工作译名，不主张已有正式中译本题名。",
+        "issue_codes": "PROVISIONAL-ZH-DISPLAY"
+      },
+      "entity_after": {
+        "entity_id": "V1-ENT-0574",
+        "entity_type": "collection",
+        "name_zh": "《遗忘的故事》",
+        "original_name": "Contos esquecidos",
+        "canonical_status": "candidate",
+        "origin_count": "1",
+        "origin_refs": "WCD10-B08-W128",
+        "normalization_basis": "后世编者从 Machado de Assis 已发表或遗留的写作中选编该题名合集；候选表示其中归属于作者的文本，不将编者选编行为归给 Machado。题名、版本年、体裁与具体篇目均按直接打开的目录/学术研究限定。; 原葡萄牙语题名作为身份锚点；中文为可读性工作译名，不主张已有正式中译本题名。",
+        "issue_codes": "PROVISIONAL-ZH-DISPLAY"
+      },
+      "cards_before": [
+        {
+          "card_id": "V1-CARD-0507",
+          "origin_card_id": "WCD-10-B08:V1-ENT-0574",
+          "subject_id": "V1-ENT-0574",
+          "card_type": "work",
+          "title_zh": "《遗忘的故事》",
+          "author_label": "马查多·德·阿西斯",
+          "original_title": "Contos esquecidos",
+          "country_or_region": "巴西",
+          "language": "pt",
+          "period_bucket": "1956",
+          "genre_or_form": "short_story_collection",
+          "input_layer": "WCD-10-B08",
+          "source_minimum_status": "research_gap",
+          "issue_code": "RESEARCH-ONLY-NOT-CURATED",
+          "content_markdown": "### 《遗忘的故事》｜Contos esquecidos\n\n- 对象类型：work\n- 研究边界：本补充卡仅保存下列已复核事实和有归属的研究说明，不是策展批准。\n- first_publication_year：1956\n- genre_or_form：short_story_collection\n- one_sentence_summary：Raimundo Magalhães Júnior 1956年编选的短篇集，目录列有“Decadência de dois grandes homens”与“Um esqueleto”。\n\n#### 未关闭的研究边界\n\n本卡不升级任何既有 hold；未核实的文学解释或作品级学术研究保持 research_gap。"
+        }
+      ],
+      "cards_after": [
+        {
+          "card_id": "V1-CARD-0507",
+          "origin_card_id": "WCD-10-B08:V1-ENT-0574",
+          "subject_id": "V1-ENT-0574",
+          "card_type": "collection",
+          "title_zh": "《遗忘的故事》",
+          "author_label": "马查多·德·阿西斯",
+          "original_title": "Contos esquecidos",
+          "country_or_region": "巴西",
+          "language": "pt",
+          "period_bucket": "1956",
+          "genre_or_form": "short_story_collection",
+          "input_layer": "WCD-10-B08",
+          "source_minimum_status": "research_gap",
+          "issue_code": "RESEARCH-ONLY-NOT-CURATED",
+          "content_markdown": "### 《遗忘的故事》｜Contos esquecidos\n\n- 对象类型：collection\n- 研究边界：本补充卡仅保存下列已复核事实和有归属的研究说明，不是策展批准。\n- first_publication_year：1956\n- genre_or_form：short_story_collection\n- one_sentence_summary：Raimundo Magalhães Júnior 1956年编选的短篇集，目录列有“Decadência de dois grandes homens”与“Um esqueleto”。\n\n#### 未关闭的研究边界\n\n本卡不升级任何既有 hold；未核实的文学解释或作品级学术研究保持 research_gap。"
+        }
+      ],
+      "genre_evidence": [
+        {
+          "fact_id": "V1-FCT-1778",
+          "origin_material_id": "WCD10-B08-W128-F02",
+          "card_id": "V1-CARD-0507",
+          "subject_id": "V1-ENT-0574",
+          "fact_field": "genre_or_form",
+          "value_text": "short_story_collection",
+          "material_class": "bibliographic",
+          "origin_id": "WCD-10-B08",
+          "confidence": "high",
+          "admission_status": "batch_retained_candidate",
+          "usage_note": "Research-only; independent candidate review PASS; no public admission",
+          "source_links": [
+            {
+              "fact_id": "V1-FCT-1778",
+              "source_id": "SRC-0609",
+              "source_title": "A medalha e seu reverso: fantástico e desfantasticização em contos de Machado de Assis"
+            }
+          ]
+        }
+      ],
+      "summary_evidence": [
+        {
+          "fact_id": "V1-FCT-1779",
+          "origin_material_id": "WCD10-B08-W128-F03",
+          "card_id": "V1-CARD-0507",
+          "subject_id": "V1-ENT-0574",
+          "fact_field": "one_sentence_summary",
+          "value_text": "Raimundo Magalhães Júnior 1956年编选的短篇集，目录列有“Decadência de dois grandes homens”与“Um esqueleto”。",
+          "material_class": "institutional_paraphrase",
+          "origin_id": "WCD-10-B08",
+          "confidence": "high",
+          "admission_status": "batch_retained_candidate",
+          "usage_note": "Research-only; independent candidate review PASS; no public admission",
+          "source_links": [
+            {
+              "fact_id": "V1-FCT-1779",
+              "source_id": "SRC-0609",
+              "source_title": "A medalha e seu reverso: fantástico e desfantasticização em contos de Machado de Assis"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entity_before": {
+        "entity_id": "V1-ENT-0575",
+        "entity_type": "work",
+        "name_zh": "《辑录故事》",
+        "original_name": "Contos recolhidos",
+        "canonical_status": "candidate",
+        "origin_count": "1",
+        "origin_refs": "WCD10-B08-W129",
+        "normalization_basis": "后世编者从 Machado de Assis 已发表或遗留的写作中选编该题名合集；候选表示其中归属于作者的文本，不将编者选编行为归给 Machado。题名、版本年、体裁与具体篇目均按直接打开的目录/学术研究限定。; 原葡萄牙语题名作为身份锚点；中文为可读性工作译名，不主张已有正式中译本题名。",
+        "issue_codes": "PROVISIONAL-ZH-DISPLAY"
+      },
+      "entity_after": {
+        "entity_id": "V1-ENT-0575",
+        "entity_type": "collection",
+        "name_zh": "《辑录故事》",
+        "original_name": "Contos recolhidos",
+        "canonical_status": "candidate",
+        "origin_count": "1",
+        "origin_refs": "WCD10-B08-W129",
+        "normalization_basis": "后世编者从 Machado de Assis 已发表或遗留的写作中选编该题名合集；候选表示其中归属于作者的文本，不将编者选编行为归给 Machado。题名、版本年、体裁与具体篇目均按直接打开的目录/学术研究限定。; 原葡萄牙语题名作为身份锚点；中文为可读性工作译名，不主张已有正式中译本题名。",
+        "issue_codes": "PROVISIONAL-ZH-DISPLAY"
+      },
+      "cards_before": [
+        {
+          "card_id": "V1-CARD-0508",
+          "origin_card_id": "WCD-10-B08:V1-ENT-0575",
+          "subject_id": "V1-ENT-0575",
+          "card_type": "work",
+          "title_zh": "《辑录故事》",
+          "author_label": "马查多·德·阿西斯",
+          "original_title": "Contos recolhidos",
+          "country_or_region": "巴西",
+          "language": "pt",
+          "period_bucket": "1956",
+          "genre_or_form": "short_story_collection",
+          "input_layer": "WCD-10-B08",
+          "source_minimum_status": "research_gap",
+          "issue_code": "RESEARCH-ONLY-NOT-CURATED",
+          "content_markdown": "### 《辑录故事》｜Contos recolhidos\n\n- 对象类型：work\n- 研究边界：本补充卡仅保存下列已复核事实和有归属的研究说明，不是策展批准。\n- first_publication_year：1956\n- genre_or_form：short_story_collection\n- one_sentence_summary：Raimundo Magalhães Júnior 1956年编选的短篇集，目录列有“O capitão Mendonça”。\n\n#### 未关闭的研究边界\n\n本卡不升级任何既有 hold；未核实的文学解释或作品级学术研究保持 research_gap。"
+        }
+      ],
+      "cards_after": [
+        {
+          "card_id": "V1-CARD-0508",
+          "origin_card_id": "WCD-10-B08:V1-ENT-0575",
+          "subject_id": "V1-ENT-0575",
+          "card_type": "collection",
+          "title_zh": "《辑录故事》",
+          "author_label": "马查多·德·阿西斯",
+          "original_title": "Contos recolhidos",
+          "country_or_region": "巴西",
+          "language": "pt",
+          "period_bucket": "1956",
+          "genre_or_form": "short_story_collection",
+          "input_layer": "WCD-10-B08",
+          "source_minimum_status": "research_gap",
+          "issue_code": "RESEARCH-ONLY-NOT-CURATED",
+          "content_markdown": "### 《辑录故事》｜Contos recolhidos\n\n- 对象类型：collection\n- 研究边界：本补充卡仅保存下列已复核事实和有归属的研究说明，不是策展批准。\n- first_publication_year：1956\n- genre_or_form：short_story_collection\n- one_sentence_summary：Raimundo Magalhães Júnior 1956年编选的短篇集，目录列有“O capitão Mendonça”。\n\n#### 未关闭的研究边界\n\n本卡不升级任何既有 hold；未核实的文学解释或作品级学术研究保持 research_gap。"
+        }
+      ],
+      "genre_evidence": [
+        {
+          "fact_id": "V1-FCT-1781",
+          "origin_material_id": "WCD10-B08-W129-F02",
+          "card_id": "V1-CARD-0508",
+          "subject_id": "V1-ENT-0575",
+          "fact_field": "genre_or_form",
+          "value_text": "short_story_collection",
+          "material_class": "bibliographic",
+          "origin_id": "WCD-10-B08",
+          "confidence": "high",
+          "admission_status": "batch_retained_candidate",
+          "usage_note": "Research-only; independent candidate review PASS; no public admission",
+          "source_links": [
+            {
+              "fact_id": "V1-FCT-1781",
+              "source_id": "SRC-0609",
+              "source_title": "A medalha e seu reverso: fantástico e desfantasticização em contos de Machado de Assis"
+            }
+          ]
+        }
+      ],
+      "summary_evidence": [
+        {
+          "fact_id": "V1-FCT-1782",
+          "origin_material_id": "WCD10-B08-W129-F03",
+          "card_id": "V1-CARD-0508",
+          "subject_id": "V1-ENT-0575",
+          "fact_field": "one_sentence_summary",
+          "value_text": "Raimundo Magalhães Júnior 1956年编选的短篇集，目录列有“O capitão Mendonça”。",
+          "material_class": "institutional_paraphrase",
+          "origin_id": "WCD-10-B08",
+          "confidence": "high",
+          "admission_status": "batch_retained_candidate",
+          "usage_note": "Research-only; independent candidate review PASS; no public admission",
+          "source_links": [
+            {
+              "fact_id": "V1-FCT-1782",
+              "source_id": "SRC-0609",
+              "source_title": "A medalha e seu reverso: fantástico e desfantasticização em contos de Machado de Assis"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entity_before": {
+        "entity_id": "V1-ENT-0576",
+        "entity_type": "work",
+        "name_zh": "《零篇故事》",
+        "original_name": "Contos avulsos",
+        "canonical_status": "candidate",
+        "origin_count": "1",
+        "origin_refs": "WCD10-B08-W130",
+        "normalization_basis": "后世编者从 Machado de Assis 已发表或遗留的写作中选编该题名合集；候选表示其中归属于作者的文本，不将编者选编行为归给 Machado。题名、版本年、体裁与具体篇目均按直接打开的目录/学术研究限定。; 原葡萄牙语题名作为身份锚点；中文为可读性工作译名，不主张已有正式中译本题名。",
+        "issue_codes": "PROVISIONAL-ZH-DISPLAY"
+      },
+      "entity_after": {
+        "entity_id": "V1-ENT-0576",
+        "entity_type": "collection",
+        "name_zh": "《零篇故事》",
+        "original_name": "Contos avulsos",
+        "canonical_status": "candidate",
+        "origin_count": "1",
+        "origin_refs": "WCD10-B08-W130",
+        "normalization_basis": "后世编者从 Machado de Assis 已发表或遗留的写作中选编该题名合集；候选表示其中归属于作者的文本，不将编者选编行为归给 Machado。题名、版本年、体裁与具体篇目均按直接打开的目录/学术研究限定。; 原葡萄牙语题名作为身份锚点；中文为可读性工作译名，不主张已有正式中译本题名。",
+        "issue_codes": "PROVISIONAL-ZH-DISPLAY"
+      },
+      "cards_before": [
+        {
+          "card_id": "V1-CARD-0509",
+          "origin_card_id": "WCD-10-B08:V1-ENT-0576",
+          "subject_id": "V1-ENT-0576",
+          "card_type": "work",
+          "title_zh": "《零篇故事》",
+          "author_label": "马查多·德·阿西斯",
+          "original_title": "Contos avulsos",
+          "country_or_region": "巴西",
+          "language": "pt",
+          "period_bucket": "1956",
+          "genre_or_form": "short_story_collection",
+          "input_layer": "WCD-10-B08",
+          "source_minimum_status": "research_gap",
+          "issue_code": "RESEARCH-ONLY-NOT-CURATED",
+          "content_markdown": "### 《零篇故事》｜Contos avulsos\n\n- 对象类型：work\n- 研究边界：本补充卡仅保存下列已复核事实和有归属的研究说明，不是策展批准。\n- first_publication_year：1956\n- genre_or_form：short_story_collection\n- one_sentence_summary：Raimundo Magalhães Júnior 1956年编选的短篇集，目录列有“A vida eterna”与“Os óculos de Pedro Antão”。\n\n#### 未关闭的研究边界\n\n本卡不升级任何既有 hold；未核实的文学解释或作品级学术研究保持 research_gap。"
+        }
+      ],
+      "cards_after": [
+        {
+          "card_id": "V1-CARD-0509",
+          "origin_card_id": "WCD-10-B08:V1-ENT-0576",
+          "subject_id": "V1-ENT-0576",
+          "card_type": "collection",
+          "title_zh": "《零篇故事》",
+          "author_label": "马查多·德·阿西斯",
+          "original_title": "Contos avulsos",
+          "country_or_region": "巴西",
+          "language": "pt",
+          "period_bucket": "1956",
+          "genre_or_form": "short_story_collection",
+          "input_layer": "WCD-10-B08",
+          "source_minimum_status": "research_gap",
+          "issue_code": "RESEARCH-ONLY-NOT-CURATED",
+          "content_markdown": "### 《零篇故事》｜Contos avulsos\n\n- 对象类型：collection\n- 研究边界：本补充卡仅保存下列已复核事实和有归属的研究说明，不是策展批准。\n- first_publication_year：1956\n- genre_or_form：short_story_collection\n- one_sentence_summary：Raimundo Magalhães Júnior 1956年编选的短篇集，目录列有“A vida eterna”与“Os óculos de Pedro Antão”。\n\n#### 未关闭的研究边界\n\n本卡不升级任何既有 hold；未核实的文学解释或作品级学术研究保持 research_gap。"
+        }
+      ],
+      "genre_evidence": [
+        {
+          "fact_id": "V1-FCT-1784",
+          "origin_material_id": "WCD10-B08-W130-F02",
+          "card_id": "V1-CARD-0509",
+          "subject_id": "V1-ENT-0576",
+          "fact_field": "genre_or_form",
+          "value_text": "short_story_collection",
+          "material_class": "bibliographic",
+          "origin_id": "WCD-10-B08",
+          "confidence": "high",
+          "admission_status": "batch_retained_candidate",
+          "usage_note": "Research-only; independent candidate review PASS; no public admission",
+          "source_links": [
+            {
+              "fact_id": "V1-FCT-1784",
+              "source_id": "SRC-0609",
+              "source_title": "A medalha e seu reverso: fantástico e desfantasticização em contos de Machado de Assis"
+            }
+          ]
+        }
+      ],
+      "summary_evidence": [
+        {
+          "fact_id": "V1-FCT-1785",
+          "origin_material_id": "WCD10-B08-W130-F03",
+          "card_id": "V1-CARD-0509",
+          "subject_id": "V1-ENT-0576",
+          "fact_field": "one_sentence_summary",
+          "value_text": "Raimundo Magalhães Júnior 1956年编选的短篇集，目录列有“A vida eterna”与“Os óculos de Pedro Antão”。",
+          "material_class": "institutional_paraphrase",
+          "origin_id": "WCD-10-B08",
+          "confidence": "high",
+          "admission_status": "batch_retained_candidate",
+          "usage_note": "Research-only; independent candidate review PASS; no public admission",
+          "source_links": [
+            {
+              "fact_id": "V1-FCT-1785",
+              "source_id": "SRC-0609",
+              "source_title": "A medalha e seu reverso: fantástico e desfantasticização em contos de Machado de Assis"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entity_before": {
+        "entity_id": "V1-ENT-0577",
+        "entity_type": "work",
+        "name_zh": "《无日期故事》",
+        "original_name": "Contos sem data",
+        "canonical_status": "candidate",
+        "origin_count": "1",
+        "origin_refs": "WCD10-B08-W131",
+        "normalization_basis": "后世编者从 Machado de Assis 已发表或遗留的写作中选编该题名合集；候选表示其中归属于作者的文本，不将编者选编行为归给 Machado。题名、版本年、体裁与具体篇目均按直接打开的目录/学术研究限定。; 原葡萄牙语题名作为身份锚点；中文为可读性工作译名，不主张已有正式中译本题名。",
+        "issue_codes": "PROVISIONAL-ZH-DISPLAY"
+      },
+      "entity_after": {
+        "entity_id": "V1-ENT-0577",
+        "entity_type": "collection",
+        "name_zh": "《无日期故事》",
+        "original_name": "Contos sem data",
+        "canonical_status": "candidate",
+        "origin_count": "1",
+        "origin_refs": "WCD10-B08-W131",
+        "normalization_basis": "后世编者从 Machado de Assis 已发表或遗留的写作中选编该题名合集；候选表示其中归属于作者的文本，不将编者选编行为归给 Machado。题名、版本年、体裁与具体篇目均按直接打开的目录/学术研究限定。; 原葡萄牙语题名作为身份锚点；中文为可读性工作译名，不主张已有正式中译本题名。",
+        "issue_codes": "PROVISIONAL-ZH-DISPLAY"
+      },
+      "cards_before": [
+        {
+          "card_id": "V1-CARD-0510",
+          "origin_card_id": "WCD-10-B08:V1-ENT-0577",
+          "subject_id": "V1-ENT-0577",
+          "card_type": "work",
+          "title_zh": "《无日期故事》",
+          "author_label": "马查多·德·阿西斯",
+          "original_title": "Contos sem data",
+          "country_or_region": "巴西",
+          "language": "pt",
+          "period_bucket": "1956",
+          "genre_or_form": "short_story_collection",
+          "input_layer": "WCD-10-B08",
+          "source_minimum_status": "research_gap",
+          "issue_code": "RESEARCH-ONLY-NOT-CURATED",
+          "content_markdown": "### 《无日期故事》｜Contos sem data\n\n- 对象类型：work\n- 研究边界：本补充卡仅保存下列已复核事实和有归属的研究说明，不是策展批准。\n- first_publication_year：1956\n- genre_or_form：short_story_collection\n- one_sentence_summary：Raimundo Magalhães Júnior 1956年编选的短篇集，目录列有“A mulher pálida”。\n\n#### 未关闭的研究边界\n\n本卡不升级任何既有 hold；未核实的文学解释或作品级学术研究保持 research_gap。"
+        }
+      ],
+      "cards_after": [
+        {
+          "card_id": "V1-CARD-0510",
+          "origin_card_id": "WCD-10-B08:V1-ENT-0577",
+          "subject_id": "V1-ENT-0577",
+          "card_type": "collection",
+          "title_zh": "《无日期故事》",
+          "author_label": "马查多·德·阿西斯",
+          "original_title": "Contos sem data",
+          "country_or_region": "巴西",
+          "language": "pt",
+          "period_bucket": "1956",
+          "genre_or_form": "short_story_collection",
+          "input_layer": "WCD-10-B08",
+          "source_minimum_status": "research_gap",
+          "issue_code": "RESEARCH-ONLY-NOT-CURATED",
+          "content_markdown": "### 《无日期故事》｜Contos sem data\n\n- 对象类型：collection\n- 研究边界：本补充卡仅保存下列已复核事实和有归属的研究说明，不是策展批准。\n- first_publication_year：1956\n- genre_or_form：short_story_collection\n- one_sentence_summary：Raimundo Magalhães Júnior 1956年编选的短篇集，目录列有“A mulher pálida”。\n\n#### 未关闭的研究边界\n\n本卡不升级任何既有 hold；未核实的文学解释或作品级学术研究保持 research_gap。"
+        }
+      ],
+      "genre_evidence": [
+        {
+          "fact_id": "V1-FCT-1787",
+          "origin_material_id": "WCD10-B08-W131-F02",
+          "card_id": "V1-CARD-0510",
+          "subject_id": "V1-ENT-0577",
+          "fact_field": "genre_or_form",
+          "value_text": "short_story_collection",
+          "material_class": "bibliographic",
+          "origin_id": "WCD-10-B08",
+          "confidence": "high",
+          "admission_status": "batch_retained_candidate",
+          "usage_note": "Research-only; independent candidate review PASS; no public admission",
+          "source_links": [
+            {
+              "fact_id": "V1-FCT-1787",
+              "source_id": "SRC-0609",
+              "source_title": "A medalha e seu reverso: fantástico e desfantasticização em contos de Machado de Assis"
+            }
+          ]
+        }
+      ],
+      "summary_evidence": [
+        {
+          "fact_id": "V1-FCT-1788",
+          "origin_material_id": "WCD10-B08-W131-F03",
+          "card_id": "V1-CARD-0510",
+          "subject_id": "V1-ENT-0577",
+          "fact_field": "one_sentence_summary",
+          "value_text": "Raimundo Magalhães Júnior 1956年编选的短篇集，目录列有“A mulher pálida”。",
+          "material_class": "institutional_paraphrase",
+          "origin_id": "WCD-10-B08",
+          "confidence": "high",
+          "admission_status": "batch_retained_candidate",
+          "usage_note": "Research-only; independent candidate review PASS; no public admission",
+          "source_links": [
+            {
+              "fact_id": "V1-FCT-1788",
+              "source_id": "SRC-0609",
+              "source_title": "A medalha e seu reverso: fantástico e desfantasticização em contos de Machado de Assis"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entity_before": {
+        "entity_id": "V1-ENT-0578",
+        "entity_type": "work",
+        "name_zh": "《短篇与编年文》",
+        "original_name": "Contos e crônicas",
+        "canonical_status": "candidate",
+        "origin_count": "1",
+        "origin_refs": "WCD10-B08-W132",
+        "normalization_basis": "后世编者从 Machado de Assis 已发表或遗留的写作中选编该题名合集；候选表示其中归属于作者的文本，不将编者选编行为归给 Machado。题名、版本年、体裁与具体篇目均按直接打开的目录/学术研究限定。; 原葡萄牙语题名作为身份锚点；中文为可读性工作译名，不主张已有正式中译本题名。",
+        "issue_codes": "PROVISIONAL-ZH-DISPLAY"
+      },
+      "entity_after": {
+        "entity_id": "V1-ENT-0578",
+        "entity_type": "collection",
+        "name_zh": "《短篇与编年文》",
+        "original_name": "Contos e crônicas",
+        "canonical_status": "candidate",
+        "origin_count": "1",
+        "origin_refs": "WCD10-B08-W132",
+        "normalization_basis": "后世编者从 Machado de Assis 已发表或遗留的写作中选编该题名合集；候选表示其中归属于作者的文本，不将编者选编行为归给 Machado。题名、版本年、体裁与具体篇目均按直接打开的目录/学术研究限定。; 原葡萄牙语题名作为身份锚点；中文为可读性工作译名，不主张已有正式中译本题名。",
+        "issue_codes": "PROVISIONAL-ZH-DISPLAY"
+      },
+      "cards_before": [
+        {
+          "card_id": "V1-CARD-0511",
+          "origin_card_id": "WCD-10-B08:V1-ENT-0578",
+          "subject_id": "V1-ENT-0578",
+          "card_type": "work",
+          "title_zh": "《短篇与编年文》",
+          "author_label": "马查多·德·阿西斯",
+          "original_title": "Contos e crônicas",
+          "country_or_region": "巴西",
+          "language": "pt",
+          "period_bucket": "1958",
+          "genre_or_form": "short_story_and_chronicle_collection",
+          "input_layer": "WCD-10-B08",
+          "source_minimum_status": "research_gap",
+          "issue_code": "RESEARCH-ONLY-NOT-CURATED",
+          "content_markdown": "### 《短篇与编年文》｜Contos e crônicas\n\n- 对象类型：work\n- 研究边界：本补充卡仅保存下列已复核事实和有归属的研究说明，不是策展批准。\n- first_publication_year：1958\n- genre_or_form：short_story_and_chronicle_collection\n- one_sentence_summary：目录示例列《O Teles e o Tobias》和《O carro nº 13》；Google Books 记录该卷由 Raimundo Magalhães Júnior 编，Civilização Brasileira 于1958年出版。\n\n#### 未关闭的研究边界\n\n本卡不升级任何既有 hold；未核实的文学解释或作品级学术研究保持 research_gap。"
+        }
+      ],
+      "cards_after": [
+        {
+          "card_id": "V1-CARD-0511",
+          "origin_card_id": "WCD-10-B08:V1-ENT-0578",
+          "subject_id": "V1-ENT-0578",
+          "card_type": "collection",
+          "title_zh": "《短篇与编年文》",
+          "author_label": "马查多·德·阿西斯",
+          "original_title": "Contos e crônicas",
+          "country_or_region": "巴西",
+          "language": "pt",
+          "period_bucket": "1958",
+          "genre_or_form": "short_story_and_chronicle_collection",
+          "input_layer": "WCD-10-B08",
+          "source_minimum_status": "research_gap",
+          "issue_code": "RESEARCH-ONLY-NOT-CURATED",
+          "content_markdown": "### 《短篇与编年文》｜Contos e crônicas\n\n- 对象类型：collection\n- 研究边界：本补充卡仅保存下列已复核事实和有归属的研究说明，不是策展批准。\n- first_publication_year：1958\n- genre_or_form：short_story_and_chronicle_collection\n- one_sentence_summary：目录示例列《O Teles e o Tobias》和《O carro nº 13》；Google Books 记录该卷由 Raimundo Magalhães Júnior 编，Civilização Brasileira 于1958年出版。\n\n#### 未关闭的研究边界\n\n本卡不升级任何既有 hold；未核实的文学解释或作品级学术研究保持 research_gap。"
+        }
+      ],
+      "genre_evidence": [
+        {
+          "fact_id": "V1-FCT-1790",
+          "origin_material_id": "WCD10-B08-W132-F02",
+          "card_id": "V1-CARD-0511",
+          "subject_id": "V1-ENT-0578",
+          "fact_field": "genre_or_form",
+          "value_text": "short_story_and_chronicle_collection",
+          "material_class": "bibliographic",
+          "origin_id": "WCD-10-B08",
+          "confidence": "high",
+          "admission_status": "batch_retained_candidate",
+          "usage_note": "Research-only; independent candidate review PASS; no public admission",
+          "source_links": [
+            {
+              "fact_id": "V1-FCT-1790",
+              "source_id": "SRC-0610",
+              "source_title": "Contos e crônicas"
+            }
+          ]
+        }
+      ],
+      "summary_evidence": [
+        {
+          "fact_id": "V1-FCT-1791",
+          "origin_material_id": "WCD10-B08-W132-F03",
+          "card_id": "V1-CARD-0511",
+          "subject_id": "V1-ENT-0578",
+          "fact_field": "one_sentence_summary",
+          "value_text": "目录示例列《O Teles e o Tobias》和《O carro nº 13》；Google Books 记录该卷由 Raimundo Magalhães Júnior 编，Civilização Brasileira 于1958年出版。",
+          "material_class": "institutional_paraphrase",
+          "origin_id": "WCD-10-B08",
+          "confidence": "high",
+          "admission_status": "batch_retained_candidate",
+          "usage_note": "Research-only; independent candidate review PASS; no public admission",
+          "source_links": [
+            {
+              "fact_id": "V1-FCT-1791",
+              "source_id": "SRC-0610",
+              "source_title": "Contos e crônicas"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entity_before": {
+        "entity_id": "V1-ENT-0579",
+        "entity_type": "work",
+        "name_zh": "《马查多·德·阿西斯奇幻故事集》",
+        "original_name": "Contos fantásticos de Machado de Assis",
+        "canonical_status": "candidate",
+        "origin_count": "1",
+        "origin_refs": "WCD10-B08-W133",
+        "normalization_basis": "后世编者从 Machado de Assis 已发表或遗留的写作中选编该题名合集；候选表示其中归属于作者的文本，不将编者选编行为归给 Machado。题名、版本年、体裁与具体篇目均按直接打开的目录/学术研究限定。; 原葡萄牙语题名作为身份锚点；中文为可读性工作译名，不主张已有正式中译本题名。",
+        "issue_codes": "PROVISIONAL-ZH-DISPLAY"
+      },
+      "entity_after": {
+        "entity_id": "V1-ENT-0579",
+        "entity_type": "collection",
+        "name_zh": "《马查多·德·阿西斯奇幻故事集》",
+        "original_name": "Contos fantásticos de Machado de Assis",
+        "canonical_status": "candidate",
+        "origin_count": "1",
+        "origin_refs": "WCD10-B08-W133",
+        "normalization_basis": "后世编者从 Machado de Assis 已发表或遗留的写作中选编该题名合集；候选表示其中归属于作者的文本，不将编者选编行为归给 Machado。题名、版本年、体裁与具体篇目均按直接打开的目录/学术研究限定。; 原葡萄牙语题名作为身份锚点；中文为可读性工作译名，不主张已有正式中译本题名。",
+        "issue_codes": "PROVISIONAL-ZH-DISPLAY"
+      },
+      "cards_before": [
+        {
+          "card_id": "V1-CARD-0512",
+          "origin_card_id": "WCD-10-B08:V1-ENT-0579",
+          "subject_id": "V1-ENT-0579",
+          "card_type": "work",
+          "title_zh": "《马查多·德·阿西斯奇幻故事集》",
+          "author_label": "马查多·德·阿西斯",
+          "original_title": "Contos fantásticos de Machado de Assis",
+          "country_or_region": "巴西",
+          "language": "pt",
+          "period_bucket": "1973",
+          "genre_or_form": "short_story_collection",
+          "input_layer": "WCD-10-B08",
+          "source_minimum_status": "research_gap",
+          "issue_code": "RESEARCH-ONLY-NOT-CURATED",
+          "content_markdown": "### 《马查多·德·阿西斯奇幻故事集》｜Contos fantásticos de Machado de Assis\n\n- 对象类型：work\n- 研究边界：本补充卡仅保存下列已复核事实和有归属的研究说明，不是策展批准。\n- first_publication_year：1973\n- genre_or_form：short_story_collection\n- one_sentence_summary：Raimundo Magalhães Júnior 1973年编选的十一篇故事，包括《A chinela turca》《A mulher pálida》《O anjo Rafael》与《O capitão Mendonça》；研究指出其中仅两篇曾由 Machado 自行选入生前单行本。\n\n#### 未关闭的研究边界\n\n本卡不升级任何既有 hold；未核实的文学解释或作品级学术研究保持 research_gap。"
+        }
+      ],
+      "cards_after": [
+        {
+          "card_id": "V1-CARD-0512",
+          "origin_card_id": "WCD-10-B08:V1-ENT-0579",
+          "subject_id": "V1-ENT-0579",
+          "card_type": "collection",
+          "title_zh": "《马查多·德·阿西斯奇幻故事集》",
+          "author_label": "马查多·德·阿西斯",
+          "original_title": "Contos fantásticos de Machado de Assis",
+          "country_or_region": "巴西",
+          "language": "pt",
+          "period_bucket": "1973",
+          "genre_or_form": "short_story_collection",
+          "input_layer": "WCD-10-B08",
+          "source_minimum_status": "research_gap",
+          "issue_code": "RESEARCH-ONLY-NOT-CURATED",
+          "content_markdown": "### 《马查多·德·阿西斯奇幻故事集》｜Contos fantásticos de Machado de Assis\n\n- 对象类型：collection\n- 研究边界：本补充卡仅保存下列已复核事实和有归属的研究说明，不是策展批准。\n- first_publication_year：1973\n- genre_or_form：short_story_collection\n- one_sentence_summary：Raimundo Magalhães Júnior 1973年编选的十一篇故事，包括《A chinela turca》《A mulher pálida》《O anjo Rafael》与《O capitão Mendonça》；研究指出其中仅两篇曾由 Machado 自行选入生前单行本。\n\n#### 未关闭的研究边界\n\n本卡不升级任何既有 hold；未核实的文学解释或作品级学术研究保持 research_gap。"
+        }
+      ],
+      "genre_evidence": [
+        {
+          "fact_id": "V1-FCT-1793",
+          "origin_material_id": "WCD10-B08-W133-F02",
+          "card_id": "V1-CARD-0512",
+          "subject_id": "V1-ENT-0579",
+          "fact_field": "genre_or_form",
+          "value_text": "short_story_collection",
+          "material_class": "bibliographic",
+          "origin_id": "WCD-10-B08",
+          "confidence": "high",
+          "admission_status": "batch_retained_candidate",
+          "usage_note": "Research-only; independent candidate review PASS; no public admission",
+          "source_links": [
+            {
+              "fact_id": "V1-FCT-1793",
+              "source_id": "SRC-0609",
+              "source_title": "A medalha e seu reverso: fantástico e desfantasticização em contos de Machado de Assis"
+            }
+          ]
+        }
+      ],
+      "summary_evidence": [
+        {
+          "fact_id": "V1-FCT-1794",
+          "origin_material_id": "WCD10-B08-W133-F03",
+          "card_id": "V1-CARD-0512",
+          "subject_id": "V1-ENT-0579",
+          "fact_field": "one_sentence_summary",
+          "value_text": "Raimundo Magalhães Júnior 1973年编选的十一篇故事，包括《A chinela turca》《A mulher pálida》《O anjo Rafael》与《O capitão Mendonça》；研究指出其中仅两篇曾由 Machado 自行选入生前单行本。",
+          "material_class": "institutional_paraphrase",
+          "origin_id": "WCD-10-B08",
+          "confidence": "high",
+          "admission_status": "batch_retained_candidate",
+          "usage_note": "Research-only; independent candidate review PASS; no public admission",
+          "source_links": [
+            {
+              "fact_id": "V1-FCT-1794",
+              "source_id": "SRC-0609",
+              "source_title": "A medalha e seu reverso: fantástico e desfantasticização em contos de Machado de Assis"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entity_before": {
+        "entity_id": "V1-ENT-0580",
+        "entity_type": "work",
+        "name_zh": "《批评文集》",
+        "original_name": "Crítica",
+        "canonical_status": "candidate",
+        "origin_count": "1",
+        "origin_refs": "WCD10-B08-W134",
+        "normalization_basis": "后世编者从 Machado de Assis 已发表或遗留的写作中选编该题名合集；候选表示其中归属于作者的文本，不将编者选编行为归给 Machado。题名、版本年、体裁与具体篇目均按直接打开的目录/学术研究限定。; 原葡萄牙语题名作为身份锚点；中文为可读性工作译名，不主张已有正式中译本题名。",
+        "issue_codes": "PROVISIONAL-ZH-DISPLAY"
+      },
+      "entity_after": {
+        "entity_id": "V1-ENT-0580",
+        "entity_type": "collection",
+        "name_zh": "《批评文集》",
+        "original_name": "Crítica",
+        "canonical_status": "candidate",
+        "origin_count": "1",
+        "origin_refs": "WCD10-B08-W134",
+        "normalization_basis": "后世编者从 Machado de Assis 已发表或遗留的写作中选编该题名合集；候选表示其中归属于作者的文本，不将编者选编行为归给 Machado。题名、版本年、体裁与具体篇目均按直接打开的目录/学术研究限定。; 原葡萄牙语题名作为身份锚点；中文为可读性工作译名，不主张已有正式中译本题名。",
+        "issue_codes": "PROVISIONAL-ZH-DISPLAY"
+      },
+      "cards_before": [
+        {
+          "card_id": "V1-CARD-0513",
+          "origin_card_id": "WCD-10-B08:V1-ENT-0580",
+          "subject_id": "V1-ENT-0580",
+          "card_type": "work",
+          "title_zh": "《批评文集》",
+          "author_label": "马查多·德·阿西斯",
+          "original_title": "Crítica",
+          "country_or_region": "巴西",
+          "language": "pt",
+          "period_bucket": "1910",
+          "genre_or_form": "critical_anthology",
+          "input_layer": "WCD-10-B08",
+          "source_minimum_status": "research_gap",
+          "issue_code": "RESEARCH-ONLY-NOT-CURATED",
+          "content_markdown": "### 《批评文集》｜Crítica\n\n- 对象类型：work\n- 研究边界：本补充卡仅保存下列已复核事实和有归属的研究说明，不是策展批准。\n- first_publication_year：1910\n- genre_or_form：critical_anthology\n- one_sentence_summary：Mário de Alencar 编辑的1910年遗著选集；目录从《Instinto de nacionalidade》《Guilherme Malta》《Castro Alves》列至评论与序文，篇目性质为文学批评及序言。\n\n#### 未关闭的研究边界\n\n本卡不升级任何既有 hold；未核实的文学解释或作品级学术研究保持 research_gap。"
+        }
+      ],
+      "cards_after": [
+        {
+          "card_id": "V1-CARD-0513",
+          "origin_card_id": "WCD-10-B08:V1-ENT-0580",
+          "subject_id": "V1-ENT-0580",
+          "card_type": "collection",
+          "title_zh": "《批评文集》",
+          "author_label": "马查多·德·阿西斯",
+          "original_title": "Crítica",
+          "country_or_region": "巴西",
+          "language": "pt",
+          "period_bucket": "1910",
+          "genre_or_form": "critical_anthology",
+          "input_layer": "WCD-10-B08",
+          "source_minimum_status": "research_gap",
+          "issue_code": "RESEARCH-ONLY-NOT-CURATED",
+          "content_markdown": "### 《批评文集》｜Crítica\n\n- 对象类型：collection\n- 研究边界：本补充卡仅保存下列已复核事实和有归属的研究说明，不是策展批准。\n- first_publication_year：1910\n- genre_or_form：critical_anthology\n- one_sentence_summary：Mário de Alencar 编辑的1910年遗著选集；目录从《Instinto de nacionalidade》《Guilherme Malta》《Castro Alves》列至评论与序文，篇目性质为文学批评及序言。\n\n#### 未关闭的研究边界\n\n本卡不升级任何既有 hold；未核实的文学解释或作品级学术研究保持 research_gap。"
+        }
+      ],
+      "genre_evidence": [
+        {
+          "fact_id": "V1-FCT-1796",
+          "origin_material_id": "WCD10-B08-W134-F02",
+          "card_id": "V1-CARD-0513",
+          "subject_id": "V1-ENT-0580",
+          "fact_field": "genre_or_form",
+          "value_text": "critical_anthology",
+          "material_class": "bibliographic",
+          "origin_id": "WCD-10-B08",
+          "confidence": "high",
+          "admission_status": "batch_retained_candidate",
+          "usage_note": "Research-only; independent candidate review PASS; no public admission",
+          "source_links": [
+            {
+              "fact_id": "V1-FCT-1796",
+              "source_id": "SRC-0611",
+              "source_title": "Critica (Machado de Assis, 1910)"
+            }
+          ]
+        }
+      ],
+      "summary_evidence": [
+        {
+          "fact_id": "V1-FCT-1797",
+          "origin_material_id": "WCD10-B08-W134-F03",
+          "card_id": "V1-CARD-0513",
+          "subject_id": "V1-ENT-0580",
+          "fact_field": "one_sentence_summary",
+          "value_text": "Mário de Alencar 编辑的1910年遗著选集；目录从《Instinto de nacionalidade》《Guilherme Malta》《Castro Alves》列至评论与序文，篇目性质为文学批评及序言。",
+          "material_class": "institutional_paraphrase",
+          "origin_id": "WCD-10-B08",
+          "confidence": "high",
+          "admission_status": "batch_retained_candidate",
+          "usage_note": "Research-only; independent candidate review PASS; no public admission",
+          "source_links": [
+            {
+              "fact_id": "V1-FCT-1797",
+              "source_id": "SRC-0611",
+              "source_title": "Critica (Machado de Assis, 1910)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entity_before": {
+        "entity_id": "V1-ENT-0581",
+        "entity_type": "work",
+        "name_zh": "《其他遗珍》",
+        "original_name": "Outras relíquias",
+        "canonical_status": "candidate",
+        "origin_count": "1",
+        "origin_refs": "WCD10-B08-W135",
+        "normalization_basis": "后世编者从 Machado de Assis 已发表或遗留的写作中选编该题名合集；候选表示其中归属于作者的文本，不将编者选编行为归给 Machado。题名、版本年、体裁与具体篇目均按直接打开的目录/学术研究限定。; 原葡萄牙语题名作为身份锚点；中文为可读性工作译名，不主张已有正式中译本题名。",
+        "issue_codes": "PROVISIONAL-ZH-DISPLAY"
+      },
+      "entity_after": {
+        "entity_id": "V1-ENT-0581",
+        "entity_type": "collection",
+        "name_zh": "《其他遗珍》",
+        "original_name": "Outras relíquias",
+        "canonical_status": "candidate",
+        "origin_count": "1",
+        "origin_refs": "WCD10-B08-W135",
+        "normalization_basis": "后世编者从 Machado de Assis 已发表或遗留的写作中选编该题名合集；候选表示其中归属于作者的文本，不将编者选编行为归给 Machado。题名、版本年、体裁与具体篇目均按直接打开的目录/学术研究限定。; 原葡萄牙语题名作为身份锚点；中文为可读性工作译名，不主张已有正式中译本题名。",
+        "issue_codes": "PROVISIONAL-ZH-DISPLAY"
+      },
+      "cards_before": [
+        {
+          "card_id": "V1-CARD-0514",
+          "origin_card_id": "WCD-10-B08:V1-ENT-0581",
+          "subject_id": "V1-ENT-0581",
+          "card_type": "work",
+          "title_zh": "《其他遗珍》",
+          "author_label": "马查多·德·阿西斯",
+          "original_title": "Outras relíquias",
+          "country_or_region": "巴西",
+          "language": "pt",
+          "period_bucket": "1910",
+          "genre_or_form": "mixed_prose_poetry_collection",
+          "input_layer": "WCD-10-B08",
+          "source_minimum_status": "research_gap",
+          "issue_code": "RESEARCH-ONLY-NOT-CURATED",
+          "content_markdown": "### 《其他遗珍》｜Outras relíquias\n\n- 对象类型：work\n- 研究边界：本补充卡仅保存下列已复核事实和有归属的研究说明，不是策展批准。\n- first_publication_year：1910\n- genre_or_form：mixed_prose_poetry_collection\n- one_sentence_summary：1910年Garnier卷的目录列八篇散文及六篇诗作（含《O Almada》《Réfus》）；卷首说明称收录故事、诗和散页，来自作者创作较成熟作品的时期。\n\n#### 未关闭的研究边界\n\n本卡不升级任何既有 hold；未核实的文学解释或作品级学术研究保持 research_gap。"
+        }
+      ],
+      "cards_after": [
+        {
+          "card_id": "V1-CARD-0514",
+          "origin_card_id": "WCD-10-B08:V1-ENT-0581",
+          "subject_id": "V1-ENT-0581",
+          "card_type": "collection",
+          "title_zh": "《其他遗珍》",
+          "author_label": "马查多·德·阿西斯",
+          "original_title": "Outras relíquias",
+          "country_or_region": "巴西",
+          "language": "pt",
+          "period_bucket": "1910",
+          "genre_or_form": "mixed_prose_poetry_collection",
+          "input_layer": "WCD-10-B08",
+          "source_minimum_status": "research_gap",
+          "issue_code": "RESEARCH-ONLY-NOT-CURATED",
+          "content_markdown": "### 《其他遗珍》｜Outras relíquias\n\n- 对象类型：collection\n- 研究边界：本补充卡仅保存下列已复核事实和有归属的研究说明，不是策展批准。\n- first_publication_year：1910\n- genre_or_form：mixed_prose_poetry_collection\n- one_sentence_summary：1910年Garnier卷的目录列八篇散文及六篇诗作（含《O Almada》《Réfus》）；卷首说明称收录故事、诗和散页，来自作者创作较成熟作品的时期。\n\n#### 未关闭的研究边界\n\n本卡不升级任何既有 hold；未核实的文学解释或作品级学术研究保持 research_gap。"
+        }
+      ],
+      "genre_evidence": [
+        {
+          "fact_id": "V1-FCT-1799",
+          "origin_material_id": "WCD10-B08-W135-F02",
+          "card_id": "V1-CARD-0514",
+          "subject_id": "V1-ENT-0581",
+          "fact_field": "genre_or_form",
+          "value_text": "mixed_prose_poetry_collection",
+          "material_class": "bibliographic",
+          "origin_id": "WCD-10-B08",
+          "confidence": "high",
+          "admission_status": "batch_retained_candidate",
+          "usage_note": "Research-only; independent candidate review PASS; no public admission",
+          "source_links": [
+            {
+              "fact_id": "V1-FCT-1799",
+              "source_id": "SRC-0612",
+              "source_title": "Outras Reliquias : (proza e verso)"
+            }
+          ]
+        }
+      ],
+      "summary_evidence": [
+        {
+          "fact_id": "V1-FCT-1800",
+          "origin_material_id": "WCD10-B08-W135-F03",
+          "card_id": "V1-CARD-0514",
+          "subject_id": "V1-ENT-0581",
+          "fact_field": "one_sentence_summary",
+          "value_text": "1910年Garnier卷的目录列八篇散文及六篇诗作（含《O Almada》《Réfus》）；卷首说明称收录故事、诗和散页，来自作者创作较成熟作品的时期。",
+          "material_class": "institutional_paraphrase",
+          "origin_id": "WCD-10-B08",
+          "confidence": "high",
+          "admission_status": "batch_retained_candidate",
+          "usage_note": "Research-only; independent candidate review PASS; no public admission",
+          "source_links": [
+            {
+              "fact_id": "V1-FCT-1800",
+              "source_id": "SRC-0612",
+              "source_title": "Outras Reliquias : (proza e verso)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entity_before": {
+        "entity_id": "V1-ENT-0582",
+        "entity_type": "work",
+        "name_zh": "《马查多·德·阿西斯书信集》",
+        "original_name": "Correspondência de Machado de Assis",
+        "canonical_status": "candidate",
+        "origin_count": "1",
+        "origin_refs": "WCD10-B08-W136",
+        "normalization_basis": "后世编者从 Machado de Assis 已发表或遗留的写作中选编该题名合集；候选表示其中归属于作者的文本，不将编者选编行为归给 Machado。题名、版本年、体裁与具体篇目均按直接打开的目录/学术研究限定。; 原葡萄牙语题名作为身份锚点；中文为可读性工作译名，不主张已有正式中译本题名。",
+        "issue_codes": "PROVISIONAL-ZH-DISPLAY"
+      },
+      "entity_after": {
+        "entity_id": "V1-ENT-0582",
+        "entity_type": "collection",
+        "name_zh": "《马查多·德·阿西斯书信集》",
+        "original_name": "Correspondência de Machado de Assis",
+        "canonical_status": "candidate",
+        "origin_count": "1",
+        "origin_refs": "WCD10-B08-W136",
+        "normalization_basis": "后世编者从 Machado de Assis 已发表或遗留的写作中选编该题名合集；候选表示其中归属于作者的文本，不将编者选编行为归给 Machado。题名、版本年、体裁与具体篇目均按直接打开的目录/学术研究限定。; 原葡萄牙语题名作为身份锚点；中文为可读性工作译名，不主张已有正式中译本题名。",
+        "issue_codes": "PROVISIONAL-ZH-DISPLAY"
+      },
+      "cards_before": [
+        {
+          "card_id": "V1-CARD-0515",
+          "origin_card_id": "WCD-10-B08:V1-ENT-0582",
+          "subject_id": "V1-ENT-0582",
+          "card_type": "work",
+          "title_zh": "《马查多·德·阿西斯书信集》",
+          "author_label": "马查多·德·阿西斯",
+          "original_title": "Correspondência de Machado de Assis",
+          "country_or_region": "巴西",
+          "language": "pt",
+          "period_bucket": "1932",
+          "genre_or_form": "correspondence_collection",
+          "input_layer": "WCD-10-B08",
+          "source_minimum_status": "research_gap",
+          "issue_code": "RESEARCH-ONLY-NOT-CURATED",
+          "content_markdown": "### 《马查多·德·阿西斯书信集》｜Correspondência de Machado de Assis\n\n- 对象类型：work\n- 研究边界：本补充卡仅保存下列已复核事实和有归属的研究说明，不是策展批准。\n- first_publication_year：1932\n- genre_or_form：correspondence_collection\n- one_sentence_summary：Fernando Nery 1932年编注的通信集，约232项，收入 Machado 致 Nabuco、Veríssimo、Mário de Alencar、Lúcio de Mendonça等人的信，也包括若干收信人的回复。\n\n#### 未关闭的研究边界\n\n本卡不升级任何既有 hold；未核实的文学解释或作品级学术研究保持 research_gap。"
+        }
+      ],
+      "cards_after": [
+        {
+          "card_id": "V1-CARD-0515",
+          "origin_card_id": "WCD-10-B08:V1-ENT-0582",
+          "subject_id": "V1-ENT-0582",
+          "card_type": "collection",
+          "title_zh": "《马查多·德·阿西斯书信集》",
+          "author_label": "马查多·德·阿西斯",
+          "original_title": "Correspondência de Machado de Assis",
+          "country_or_region": "巴西",
+          "language": "pt",
+          "period_bucket": "1932",
+          "genre_or_form": "correspondence_collection",
+          "input_layer": "WCD-10-B08",
+          "source_minimum_status": "research_gap",
+          "issue_code": "RESEARCH-ONLY-NOT-CURATED",
+          "content_markdown": "### 《马查多·德·阿西斯书信集》｜Correspondência de Machado de Assis\n\n- 对象类型：collection\n- 研究边界：本补充卡仅保存下列已复核事实和有归属的研究说明，不是策展批准。\n- first_publication_year：1932\n- genre_or_form：correspondence_collection\n- one_sentence_summary：Fernando Nery 1932年编注的通信集，约232项，收入 Machado 致 Nabuco、Veríssimo、Mário de Alencar、Lúcio de Mendonça等人的信，也包括若干收信人的回复。\n\n#### 未关闭的研究边界\n\n本卡不升级任何既有 hold；未核实的文学解释或作品级学术研究保持 research_gap。"
+        }
+      ],
+      "genre_evidence": [
+        {
+          "fact_id": "V1-FCT-1802",
+          "origin_material_id": "WCD10-B08-W136-F02",
+          "card_id": "V1-CARD-0515",
+          "subject_id": "V1-ENT-0582",
+          "fact_field": "genre_or_form",
+          "value_text": "correspondence_collection",
+          "material_class": "bibliographic",
+          "origin_id": "WCD-10-B08",
+          "confidence": "high",
+          "admission_status": "batch_retained_candidate",
+          "usage_note": "Research-only; independent candidate review PASS; no public admission",
+          "source_links": [
+            {
+              "fact_id": "V1-FCT-1802",
+              "source_id": "SRC-0628",
+              "source_title": "Anotações sobre a correspondência de Machado de Assis"
+            }
+          ]
+        }
+      ],
+      "summary_evidence": [
+        {
+          "fact_id": "V1-FCT-1803",
+          "origin_material_id": "WCD10-B08-W136-F03",
+          "card_id": "V1-CARD-0515",
+          "subject_id": "V1-ENT-0582",
+          "fact_field": "one_sentence_summary",
+          "value_text": "Fernando Nery 1932年编注的通信集，约232项，收入 Machado 致 Nabuco、Veríssimo、Mário de Alencar、Lúcio de Mendonça等人的信，也包括若干收信人的回复。",
+          "material_class": "institutional_paraphrase",
+          "origin_id": "WCD-10-B08",
+          "confidence": "high",
+          "admission_status": "batch_retained_candidate",
+          "usage_note": "Research-only; independent candidate review PASS; no public admission",
+          "source_links": [
+            {
+              "fact_id": "V1-FCT-1803",
+              "source_id": "SRC-0628",
+              "source_title": "Anotações sobre a correspondência de Machado de Assis"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entity_before": {
+        "entity_id": "V1-ENT-0583",
+        "entity_type": "work",
+        "name_zh": "《钟表匠的对话与随想》",
+        "original_name": "Diálogos e reflexões de um relojoeiro",
+        "canonical_status": "candidate",
+        "origin_count": "1",
+        "origin_refs": "WCD10-B08-W137",
+        "normalization_basis": "后世编者从 Machado de Assis 已发表或遗留的写作中选编该题名合集；候选表示其中归属于作者的文本，不将编者选编行为归给 Machado。题名、版本年、体裁与具体篇目均按直接打开的目录/学术研究限定。; 原葡萄牙语题名作为身份锚点；中文为可读性工作译名，不主张已有正式中译本题名。",
+        "issue_codes": "PROVISIONAL-ZH-DISPLAY"
+      },
+      "entity_after": {
+        "entity_id": "V1-ENT-0583",
+        "entity_type": "collection",
+        "name_zh": "《钟表匠的对话与随想》",
+        "original_name": "Diálogos e reflexões de um relojoeiro",
+        "canonical_status": "candidate",
+        "origin_count": "1",
+        "origin_refs": "WCD10-B08-W137",
+        "normalization_basis": "后世编者从 Machado de Assis 已发表或遗留的写作中选编该题名合集；候选表示其中归属于作者的文本，不将编者选编行为归给 Machado。题名、版本年、体裁与具体篇目均按直接打开的目录/学术研究限定。; 原葡萄牙语题名作为身份锚点；中文为可读性工作译名，不主张已有正式中译本题名。",
+        "issue_codes": "PROVISIONAL-ZH-DISPLAY"
+      },
+      "cards_before": [
+        {
+          "card_id": "V1-CARD-0516",
+          "origin_card_id": "WCD-10-B08:V1-ENT-0583",
+          "subject_id": "V1-ENT-0583",
+          "card_type": "work",
+          "title_zh": "《钟表匠的对话与随想》",
+          "author_label": "马查多·德·阿西斯",
+          "original_title": "Diálogos e reflexões de um relojoeiro",
+          "country_or_region": "巴西",
+          "language": "pt",
+          "period_bucket": "1956",
+          "genre_or_form": "chronicle_collection",
+          "input_layer": "WCD-10-B08",
+          "source_minimum_status": "research_gap",
+          "issue_code": "RESEARCH-ONLY-NOT-CURATED",
+          "content_markdown": "### 《钟表匠的对话与随想》｜Diálogos e reflexões de um relojoeiro\n\n- 对象类型：work\n- 研究边界：本补充卡仅保存下列已复核事实和有归属的研究说明，不是策展批准。\n- first_publication_year：1956\n- genre_or_form：chronicle_collection\n- one_sentence_summary：1956年卷的副题说明其从《Gazeta de notícias》辑录1886年的“A + B”及1888—1889年的“Bons dias”；学术研究称收全“A + B”与除一篇外的“Bons Dias”，为“A + B”首个书本版。\n\n#### 未关闭的研究边界\n\n本卡不升级任何既有 hold；未核实的文学解释或作品级学术研究保持 research_gap。"
+        }
+      ],
+      "cards_after": [
+        {
+          "card_id": "V1-CARD-0516",
+          "origin_card_id": "WCD-10-B08:V1-ENT-0583",
+          "subject_id": "V1-ENT-0583",
+          "card_type": "collection",
+          "title_zh": "《钟表匠的对话与随想》",
+          "author_label": "马查多·德·阿西斯",
+          "original_title": "Diálogos e reflexões de um relojoeiro",
+          "country_or_region": "巴西",
+          "language": "pt",
+          "period_bucket": "1956",
+          "genre_or_form": "chronicle_collection",
+          "input_layer": "WCD-10-B08",
+          "source_minimum_status": "research_gap",
+          "issue_code": "RESEARCH-ONLY-NOT-CURATED",
+          "content_markdown": "### 《钟表匠的对话与随想》｜Diálogos e reflexões de um relojoeiro\n\n- 对象类型：collection\n- 研究边界：本补充卡仅保存下列已复核事实和有归属的研究说明，不是策展批准。\n- first_publication_year：1956\n- genre_or_form：chronicle_collection\n- one_sentence_summary：1956年卷的副题说明其从《Gazeta de notícias》辑录1886年的“A + B”及1888—1889年的“Bons dias”；学术研究称收全“A + B”与除一篇外的“Bons Dias”，为“A + B”首个书本版。\n\n#### 未关闭的研究边界\n\n本卡不升级任何既有 hold；未核实的文学解释或作品级学术研究保持 research_gap。"
+        }
+      ],
+      "genre_evidence": [
+        {
+          "fact_id": "V1-FCT-1805",
+          "origin_material_id": "WCD10-B08-W137-F02",
+          "card_id": "V1-CARD-0516",
+          "subject_id": "V1-ENT-0583",
+          "fact_field": "genre_or_form",
+          "value_text": "chronicle_collection",
+          "material_class": "bibliographic",
+          "origin_id": "WCD-10-B08",
+          "confidence": "high",
+          "admission_status": "batch_retained_candidate",
+          "usage_note": "Research-only; independent candidate review PASS; no public admission",
+          "source_links": [
+            {
+              "fact_id": "V1-FCT-1805",
+              "source_id": "SRC-0629",
+              "source_title": "Diálogos e reflexões de um relojoeiro"
+            }
+          ]
+        }
+      ],
+      "summary_evidence": [
+        {
+          "fact_id": "V1-FCT-1806",
+          "origin_material_id": "WCD10-B08-W137-F03",
+          "card_id": "V1-CARD-0516",
+          "subject_id": "V1-ENT-0583",
+          "fact_field": "one_sentence_summary",
+          "value_text": "1956年卷的副题说明其从《Gazeta de notícias》辑录1886年的“A + B”及1888—1889年的“Bons dias”；学术研究称收全“A + B”与除一篇外的“Bons Dias”，为“A + B”首个书本版。",
+          "material_class": "institutional_paraphrase",
+          "origin_id": "WCD-10-B08",
+          "confidence": "high",
+          "admission_status": "batch_retained_candidate",
+          "usage_note": "Research-only; independent candidate review PASS; no public admission",
+          "source_links": [
+            {
+              "fact_id": "V1-FCT-1806",
+              "source_id": "SRC-0629",
+              "source_title": "Diálogos e reflexões de um relojoeiro"
+            },
+            {
+              "fact_id": "V1-FCT-1806",
+              "source_id": "SRC-0630",
+              "source_title": "Edição da série de crônicas “A + B”"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "metadata_change": {
+    "last_change_set": {
+      "before": "WCD-10-B05",
+      "after": "WCD-10-TYPE-CORRECTION"
+    }
+  },
+  "status": "CANDIDATE_AWAITING_REVIEW"
+}

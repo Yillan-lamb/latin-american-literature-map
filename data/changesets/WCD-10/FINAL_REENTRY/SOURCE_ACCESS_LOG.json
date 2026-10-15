@@ -1,0 +1,35 @@
+{
+  "accessed_at": "2026-10-15",
+  "candidate_producer": "GPT-6 Luna high",
+  "records": [
+    {
+      "source_candidate_id": "WCD10-B05-S18",
+      "url": "https://www.elem.mx/obra/datos/8815",
+      "access_type": "historical_reuse",
+      "historical_access_date": "2026-10-07",
+      "historical_record": "W03_DEFERRED_CANDIDATE.json source candidate/locator and four preserved evidence rows",
+      "fresh_access_today": false,
+      "today_attempt": "Parent live reopen returned Timeout; not counted as fresh access.",
+      "scope_used": "ELEM page supports bibliographic note, form, object summary, and Paz attribution.",
+      "access_status_interpretation": "OPENED is the historical B05 success state required by the validator contract; it does not mean opened on 2026-10-15."
+    },
+    {
+      "source_candidate_id": "WCD10-B05-S07",
+      "url": "https://www.nobelprize.org/prizes/literature/1990/paz/bibliography/",
+      "access_type": "historical_successful_access_reuse",
+      "historical_access_date": "2026-10-07",
+      "fresh_access_today": false,
+      "scope_used": "Existing B05 bibliography corroboration; retained SRC-0099 full row.",
+      "access_status_interpretation": "OPENED is the historical B05 success state required by the validator contract; it does not mean opened on 2026-10-15."
+    },
+    {
+      "source_candidate_id": "WCD10-B05-S12",
+      "url": "https://www.nobelprize.org/prizes/literature/1990/paz/biographical/",
+      "access_type": "historical_successful_access_reuse",
+      "historical_access_date": "2026-10-07",
+      "fresh_access_today": false,
+      "scope_used": "Existing B05 biography bibliography/context; retained SRC-0300 full row.",
+      "access_status_interpretation": "OPENED is the historical B05 success state required by the validator contract; it does not mean opened on 2026-10-15."
+    }
+  ]
+}

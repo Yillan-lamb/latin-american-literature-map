@@ -1,0 +1,2184 @@
+{
+  "schema": "wcd10-b08-merged-dedup-1",
+  "task_id": "TASK-113",
+  "batch_id": "WCD-10-B08",
+  "baseline_database_sha256": "0150e68ee98e28714a7719129aab7d47e137fc692e8e46a5e1db29540f5dbc07",
+  "author_order": [
+    "V1-ENT-0200",
+    "V1-ENT-0211",
+    "V1-ENT-0212"
+  ],
+  "inputs": [
+    {
+      "author_id": "V1-ENT-0200",
+      "author": "Quiroga",
+      "revision": "R5",
+      "source_directory": "project/internal/WCD_10_WORKSPACE/orchestration/wave-05/quiroga/R5",
+      "dedup_sha256": "b43cf4be03402a474711e2f743cf86b168fbcca2780f86edf10b7e8b99fb39c9",
+      "dedup": {
+        "task_id": "TASK-113",
+        "batch_id": "WCD-10-B08",
+        "author_id": "V1-ENT-0200",
+        "policy": "No formal entity IDs. Same story under different title is one object with title/version note; serial/collection boundaries remain explicit.",
+        "decisions": [
+          {
+            "candidate_id": "WCD10-B08-W001",
+            "title": "Los arrecifes de coral",
+            "decision": "new_candidate",
+            "basis": "重要书目/单篇作品，经官方书目、原始连载记录或直接研究核对；不将版本/合集/单篇边界合并。"
+          },
+          {
+            "candidate_id": "WCD10-B08-W002",
+            "title": "El crimen del otro",
+            "decision": "new_candidate",
+            "basis": "基罗加早期重要故事集；书目身份/年份由官方书目确认，直接学术讨论仅限同名标题篇。"
+          },
+          {
+            "candidate_id": "WCD10-B08-W003",
+            "title": "Los perseguidos",
+            "decision": "new_candidate",
+            "basis": "重要早期叙事作品；处理1905（机构书目列年）与1908（年表所记发表）时，明确采用已核发表层。"
+          },
+          {
+            "candidate_id": "WCD10-B08-W004",
+            "title": "Historia de un amor turbio",
+            "decision": "new_candidate",
+            "basis": "重要书目/单篇作品，经官方书目、原始连载记录或直接研究核对；不将版本/合集/单篇边界合并。"
+          },
+          {
+            "candidate_id": "WCD10-B08-W005",
+            "title": "El salvaje",
+            "decision": "new_candidate",
+            "basis": "重要书目/单篇作品，经官方书目、原始连载记录或直接研究核对；不将版本/合集/单篇边界合并。"
+          },
+          {
+            "candidate_id": "WCD10-B08-W006",
+            "title": "Las sacrificadas",
+            "decision": "new_candidate",
+            "basis": "重要书目/单篇作品，经官方书目、原始连载记录或直接研究核对；不将版本/合集/单篇边界合并。"
+          },
+          {
+            "candidate_id": "WCD10-B08-W007",
+            "title": "Anaconda",
+            "decision": "new_candidate",
+            "basis": "重要书目/单篇作品，经官方书目、原始连载记录或直接研究核对；不将版本/合集/单篇边界合并。"
+          },
+          {
+            "candidate_id": "WCD10-B08-W008",
+            "title": "El desierto",
+            "decision": "new_candidate",
+            "basis": "重要书目/单篇作品，经官方书目、原始连载记录或直接研究核对；不将版本/合集/单篇边界合并。"
+          },
+          {
+            "candidate_id": "WCD10-B08-W009",
+            "title": "La gallina degollada y otros cuentos",
+            "decision": "new_candidate",
+            "basis": "重要书目/单篇作品，经官方书目、原始连载记录或直接研究核对；不将版本/合集/单篇边界合并。"
+          },
+          {
+            "candidate_id": "WCD10-B08-W010",
+            "title": "Pasado amor",
+            "decision": "new_candidate",
+            "basis": "重要书目/单篇作品，经官方书目、原始连载记录或直接研究核对；不将版本/合集/单篇边界合并。"
+          },
+          {
+            "candidate_id": "WCD10-B08-W011",
+            "title": "Suelo natal",
+            "decision": "new_candidate",
+            "basis": "重要书目/单篇作品，经官方书目、原始连载记录或直接研究核对；不将版本/合集/单篇边界合并。"
+          },
+          {
+            "candidate_id": "WCD10-B08-W012",
+            "title": "Más allá",
+            "decision": "new_candidate",
+            "basis": "重要书目/单篇作品，经官方书目、原始连载记录或直接研究核对；不将版本/合集/单篇边界合并。"
+          },
+          {
+            "candidate_id": "WCD10-B08-W013",
+            "title": "Decálogo del perfecto cuentista",
+            "decision": "new_candidate",
+            "basis": "重要书目/单篇作品，经官方书目、原始连载记录或直接研究核对；不将版本/合集/单篇边界合并。"
+          },
+          {
+            "candidate_id": "WCD10-B08-W014",
+            "title": "El manual del perfecto cuentista",
+            "decision": "new_candidate",
+            "basis": "重要书目/单篇作品，经官方书目、原始连载记录或直接研究核对；不将版本/合集/单篇边界合并。"
+          },
+          {
+            "candidate_id": "WCD10-B08-W015",
+            "title": "Los trucos del perfecto cuentista",
+            "decision": "new_candidate",
+            "basis": "重要书目/单篇作品，经官方书目、原始连载记录或直接研究核对；不将版本/合集/单篇边界合并。"
+          },
+          {
+            "candidate_id": "WCD10-B08-W016",
+            "title": "El almohadón de plumas",
+            "decision": "new_candidate",
+            "basis": "重要书目/单篇作品，经官方书目、原始连载记录或直接研究核对；不将版本/合集/单篇边界合并。"
+          },
+          {
+            "candidate_id": "WCD10-B08-W017",
+            "title": "La gallina degollada",
+            "decision": "new_candidate",
+            "basis": "重要书目/单篇作品，经官方书目、原始连载记录或直接研究核对；不将版本/合集/单篇边界合并。"
+          },
+          {
+            "candidate_id": "WCD10-B08-W018",
+            "title": "Una estación de amor",
+            "decision": "new_candidate",
+            "basis": "重要书目/单篇作品，经官方书目、原始连载记录或直接研究核对；不将版本/合集/单篇边界合并。"
+          },
+          {
+            "candidate_id": "WCD10-B08-W019",
+            "title": "A la deriva",
+            "decision": "new_candidate",
+            "basis": "重要书目/单篇作品，经官方书目、原始连载记录或直接研究核对；不将版本/合集/单篇边界合并。"
+          },
+          {
+            "candidate_id": "WCD10-B08-W020",
+            "title": "El hombre muerto",
+            "decision": "new_candidate",
+            "basis": "重要书目/单篇作品，经官方书目、原始连载记录或直接研究核对；不将版本/合集/单篇边界合并。"
+          },
+          {
+            "candidate_id": "WCD10-B08-W021",
+            "title": "Miss Dorothy Phillips, mi esposa",
+            "decision": "new_candidate",
+            "basis": "重要书目/单篇作品，经官方书目、原始连载记录或直接研究核对；不将版本/合集/单篇边界合并。"
+          },
+          {
+            "candidate_id": "WCD10-B08-W022",
+            "title": "El hijo",
+            "decision": "new_candidate",
+            "basis": "将1928年《El padre》单篇初刊与1935年《Más allá》中的改题/结集层分开记录。"
+          },
+          {
+            "candidate_id": "WCD10-B08-W023",
+            "title": "Las fieras cómplices",
+            "decision": "new_candidate",
+            "basis": "重要书目/单篇作品，经官方书目、原始连载记录或直接研究核对；不将版本/合集/单篇边界合并。"
+          },
+          {
+            "candidate_id": "WCD10-B08-W024",
+            "title": "El mono que asesinó",
+            "decision": "new_candidate",
+            "basis": "重要书目/单篇作品，经官方书目、原始连载记录或直接研究核对；不将版本/合集/单篇边界合并。"
+          },
+          {
+            "candidate_id": "WCD10-B08-W025",
+            "title": "El hombre artificial",
+            "decision": "new_candidate",
+            "basis": "重要书目/单篇作品，经官方书目、原始连载记录或直接研究核对；不将版本/合集/单篇边界合并。"
+          },
+          {
+            "candidate_id": "WCD10-B08-W026",
+            "title": "El devorador de hombres",
+            "decision": "new_candidate",
+            "basis": "重要书目/单篇作品，经官方书目、原始连载记录或直接研究核对；不将版本/合集/单篇边界合并。"
+          },
+          {
+            "candidate_id": "WCD10-B08-W028",
+            "title": "El remate del imperio romano",
+            "decision": "new_candidate",
+            "basis": "重要书目/单篇作品，经官方书目、原始连载记录或直接研究核对；不将版本/合集/单篇边界合并。"
+          },
+          {
+            "candidate_id": "WCD10-B08-W029",
+            "title": "Los buques suicidantes",
+            "decision": "new_candidate",
+            "basis": "Quereilhac的2017年学术论文明确列出该故事初刊及收集层级；作为具有独立发表史的代表性单篇纳入，不与后来的故事集重复。"
+          },
+          {
+            "candidate_id": "WCD10-B08-W030",
+            "title": "La insolación",
+            "decision": "new_candidate",
+            "basis": "Quereilhac的2017年学术论文明确列出该故事初刊及收集层级；作为具有独立发表史的代表性单篇纳入，不与后来的故事集重复。"
+          },
+          {
+            "candidate_id": "WCD10-B08-W031",
+            "title": "La miel silvestre",
+            "decision": "new_candidate",
+            "basis": "Quereilhac的2017年学术论文明确列出该故事初刊及收集层级；作为具有独立发表史的代表性单篇纳入，不与后来的故事集重复。"
+          },
+          {
+            "candidate_id": "WCD10-B08-W032",
+            "title": "El alambre de púa",
+            "decision": "new_candidate",
+            "basis": "Quereilhac的2017年学术论文明确列出该故事初刊及收集层级；作为具有独立发表史的代表性单篇纳入，不与后来的故事集重复。"
+          },
+          {
+            "candidate_id": "WCD10-B08-W033",
+            "title": "Un peón",
+            "decision": "new_candidate",
+            "basis": "以原刊期号和作者目录直接确认首发、署名；情节来自实际阅读的研究导读。"
+          },
+          {
+            "candidate_id": "WCD10-B08-W034",
+            "title": "Cartas de un cazador",
+            "decision": "new_candidate",
+            "basis": "Ferrari研究导读直接列题名、十篇、Dum-Dum叙述结构与连载年份；Rea独立核对1922/1924的分刊层。"
+          },
+          {
+            "candidate_id": "WCD10-B08-W035",
+            "title": "De la vida de nuestros animales",
+            "decision": "new_candidate",
+            "basis": "Ferrari明确给出34篇、刊名、首尾年和逝后结集信息；Rea独立描述Caras y Caretas的1924–1925年34篇序列，范围差异在注释中保留。"
+          },
+          {
+            "candidate_id": "WCD10-B08-W036",
+            "title": "Una carta de amor",
+            "decision": "new_candidate",
+            "basis": "Ferrari在直接阅读的学术论文中将其确认为未见既有目录和叙事文集收录的短篇，并给出1917年原刊记录及具体情节；作为被研究者发现并建议补入完整作品目录的短篇纳入。"
+          },
+          {
+            "candidate_id": "WCD10-B08-W037",
+            "title": "Una cacería",
+            "decision": "new_candidate",
+            "basis": "Ferrari在直接阅读的学术论文中确认这篇短篇未见既有目录或叙事文集，给出《Mundo Argentino》原刊期号和日期，并具体分析其与《Las fieras cómplices》的关联及文明/丛林冲突，故纳入目录。"
+          }
+        ],
+        "retained_existing": [
+          {
+            "object_ref": "V1-ENT-0207",
+            "decision": "preserve_exact_baseline_snapshot",
+            "basis": "All baseline facts/cards/relations/source chains retained in COVERAGE and author_context."
+          },
+          {
+            "object_ref": "V1-ENT-0208",
+            "decision": "preserve_exact_baseline_snapshot",
+            "basis": "All baseline facts/cards/relations/source chains retained in COVERAGE and author_context."
+          },
+          {
+            "object_ref": "V1-ENT-0209",
+            "decision": "preserve_exact_baseline_snapshot",
+            "basis": "All baseline facts/cards/relations/source chains retained in COVERAGE and author_context."
+          }
+        ],
+        "deferred": [
+          {
+            "object_ref": "Diario de viaje a París",
+            "status": "deferred",
+            "source_refs": [
+              "WCD10-B08-S002"
+            ],
+            "reason": "逐项检索议会书目条目（S002列1945）、教师图书馆页面、数字馆藏和《Diario de viaje a París》题名。馆藏/研究线索将写作旅行置于1900年，却未得到可亲验的Quiroga生前完整出版记录；S002的1945可能为后世文集编年。当前来源对写作年与遗著/书本出版层未闭合，未新增。",
+            "source_author_id": "V1-ENT-0200",
+            "key": "WCD10:B08:V1-ENT-0200:Diario-de-viaje-a-Paris",
+            "disposition": "research_gap"
+          },
+          {
+            "object_ref": "Nuevos cuentos de la selva",
+            "status": "deferred",
+            "source_refs": [
+              "WCD10-B08-S002"
+            ],
+            "reason": "逐项检索议会作者书目、图书馆馆藏及题名/出版社记录；现只能从S002确认2005遗著书目题名，未取得编者、目录、原稿关系和出版物完整主记录。此为后编对象且作者层/编辑层未明，暂缓。",
+            "source_author_id": "V1-ENT-0200",
+            "key": "WCD10:B08:V1-ENT-0200:Nuevos-cuentos-de-la-selva",
+            "disposition": "research_gap"
+          },
+          {
+            "object_ref": "La Jangada",
+            "status": "deferred",
+            "source_refs": [
+              "WCD10-B08-S013",
+              "WCD10-B08-S002"
+            ],
+            "reason": "已实际打开Textos.info全文（S013），其副题明确为“Bosquejo de filme”；另查S002议会书目仅给1961遗著线索。题名很可能为电影提案稿，仍未核得1961单行本/首次公开发表的可读馆藏记录，故不把手稿等同已出版作品。",
+            "source_author_id": "V1-ENT-0200",
+            "key": "WCD10:B08:V1-ENT-0200:La-Jangada",
+            "disposition": "research_gap"
+          },
+          {
+            "object_ref": "Cartas inéditas de Horacio Quiroga",
+            "status": "deferred",
+            "source_refs": [
+              "WCD10-B08-S002"
+            ],
+            "reason": "逐项核查S002中1959书目条目并搜索国家/议会馆藏题名；现有身份是编辑者整理的作者书信集，不是Quiroga署名创作的文学作品。作为作者作品图谱的边界项继续保留核查记录，不纳入CREATED文学作品。",
+            "source_author_id": "V1-ENT-0200",
+            "key": "WCD10:B08:V1-ENT-0200:Cartas-ineditas-de-Horacio-Quiroga",
+            "disposition": "research_gap"
+          },
+          {
+            "object_ref": "Una cacería humana en África",
+            "status": "deferred",
+            "source_refs": [
+              "WCD10-B08-S005",
+              "WCD10-B08-S002"
+            ],
+            "reason": "全文重查Pionetti (S005)的叙述日期和各刊号，并交叉核对乌拉圭议会书目、国家图书馆数字期刊年度目录和Google Books卷期信息；S005说1912，议会书目说1913，Hemeroteca只见1913年卷且本次原期访问502/不可读。未见原期，不断言首刊年，故整项延期。",
+            "source_author_id": "V1-ENT-0200",
+            "key": "WCD10:B08:V1-ENT-0200:Una-caceria-humana-en-Africa",
+            "disposition": "research_gap"
+          },
+          {
+            "object_ref": "El Teatro Mudo: elogio del cinematógrafo",
+            "status": "deferred",
+            "source_refs": [
+              "WCD10-B08-S036"
+            ],
+            "reason": "Ferrari 2021全文（pp.99–100）确认这是1917年发表于Mundo Argentino no.332（16 May 1917）的电影评论短文，并分析其电影/戏剧与特写表达；该对象属非文学电影评论，故作为作者目录边界项保留，不纳入文学作品候选。",
+            "source_author_id": "V1-ENT-0200",
+            "key": "WCD10:B08:V1-ENT-0200:El-Teatro-Mudo",
+            "disposition": "research_gap"
+          }
+        ],
+        "known_near_duplicates": [
+          {
+            "objects": [
+              "WCD10-B08-W022",
+              "Más allá (1935)"
+            ],
+            "decision": "W022 is a periodical short story first titled El padre (1928); collection is a separate edition/containing-work layer."
+          },
+          {
+            "objects": [
+              "WCD10-B08-W034",
+              "Cartas de un cazador (1977 posthumous book)"
+            ],
+            "decision": "W034 denotes the serial series started 1922; the 1977 book is a later posthumous collection."
+          },
+          {
+            "objects": [
+              "WCD10-B08-W035",
+              "De la vida de nuestros animales (1967 posthumous book)"
+            ],
+            "decision": "W035 denotes serial sketches 1922–25; the 1967 volume is posthumous editorial collection."
+          },
+          {
+            "objects": [
+              "WCD10-B08-W027",
+              "Una cacería humana en África"
+            ],
+            "decision": "Whole title deferred; year unresolved between sources and original issue not directly inspected."
+          }
+        ],
+        "entries": [
+          {
+            "candidate_id": "WCD10-B08-W001-CREATED",
+            "kind": "relationship",
+            "decision": "new_created_relationship",
+            "subject_id": "V1-ENT-0200",
+            "relation_type": "CREATED",
+            "object_candidate_id": "WCD10-B08-W001",
+            "source_refs": [
+              "WCD10-B08-S001",
+              "WCD10-B08-S002"
+            ],
+            "basis": "Directly attributed by the listed bibliographic/primary sources at the stated edition or serial layer; candidate relation is not a formal ID."
+          },
+          {
+            "candidate_id": "WCD10-B08-W002-CREATED",
+            "kind": "relationship",
+            "decision": "new_created_relationship",
+            "subject_id": "V1-ENT-0200",
+            "relation_type": "CREATED",
+            "object_candidate_id": "WCD10-B08-W002",
+            "source_refs": [
+              "WCD10-B08-S017",
+              "WCD10-B08-S009"
+            ],
+            "basis": "Directly attributed by the listed bibliographic/primary sources at the stated edition or serial layer; candidate relation is not a formal ID."
+          },
+          {
+            "candidate_id": "WCD10-B08-W003-CREATED",
+            "kind": "relationship",
+            "decision": "new_created_relationship",
+            "subject_id": "V1-ENT-0200",
+            "relation_type": "CREATED",
+            "object_candidate_id": "WCD10-B08-W003",
+            "source_refs": [
+              "WCD10-B08-S018",
+              "WCD10-B08-S014"
+            ],
+            "basis": "Directly attributed by the listed bibliographic/primary sources at the stated edition or serial layer; candidate relation is not a formal ID."
+          },
+          {
+            "candidate_id": "WCD10-B08-W004-CREATED",
+            "kind": "relationship",
+            "decision": "new_created_relationship",
+            "subject_id": "V1-ENT-0200",
+            "relation_type": "CREATED",
+            "object_candidate_id": "WCD10-B08-W004",
+            "source_refs": [
+              "WCD10-B08-S019",
+              "WCD10-B08-S001"
+            ],
+            "basis": "Directly attributed by the listed bibliographic/primary sources at the stated edition or serial layer; candidate relation is not a formal ID."
+          },
+          {
+            "candidate_id": "WCD10-B08-W005-CREATED",
+            "kind": "relationship",
+            "decision": "new_created_relationship",
+            "subject_id": "V1-ENT-0200",
+            "relation_type": "CREATED",
+            "object_candidate_id": "WCD10-B08-W005",
+            "source_refs": [
+              "WCD10-B08-S014",
+              "WCD10-B08-S002",
+              "WCD10-B08-S040",
+              "WCD10-B08-S032"
+            ],
+            "basis": "Directly attributed by the listed bibliographic/primary sources at the stated edition or serial layer; candidate relation is not a formal ID."
+          },
+          {
+            "candidate_id": "WCD10-B08-W006-CREATED",
+            "kind": "relationship",
+            "decision": "new_created_relationship",
+            "subject_id": "V1-ENT-0200",
+            "relation_type": "CREATED",
+            "object_candidate_id": "WCD10-B08-W006",
+            "source_refs": [
+              "WCD10-B08-S003",
+              "WCD10-B08-S037"
+            ],
+            "basis": "Directly attributed by the listed bibliographic/primary sources at the stated edition or serial layer; candidate relation is not a formal ID."
+          },
+          {
+            "candidate_id": "WCD10-B08-W007-CREATED",
+            "kind": "relationship",
+            "decision": "new_created_relationship",
+            "subject_id": "V1-ENT-0200",
+            "relation_type": "CREATED",
+            "object_candidate_id": "WCD10-B08-W007",
+            "source_refs": [
+              "WCD10-B08-S021",
+              "WCD10-B08-S001"
+            ],
+            "basis": "Directly attributed by the listed bibliographic/primary sources at the stated edition or serial layer; candidate relation is not a formal ID."
+          },
+          {
+            "candidate_id": "WCD10-B08-W008-CREATED",
+            "kind": "relationship",
+            "decision": "new_created_relationship",
+            "subject_id": "V1-ENT-0200",
+            "relation_type": "CREATED",
+            "object_candidate_id": "WCD10-B08-W008",
+            "source_refs": [
+              "WCD10-B08-S022",
+              "WCD10-B08-S001"
+            ],
+            "basis": "Directly attributed by the listed bibliographic/primary sources at the stated edition or serial layer; candidate relation is not a formal ID."
+          },
+          {
+            "candidate_id": "WCD10-B08-W009-CREATED",
+            "kind": "relationship",
+            "decision": "new_created_relationship",
+            "subject_id": "V1-ENT-0200",
+            "relation_type": "CREATED",
+            "object_candidate_id": "WCD10-B08-W009",
+            "source_refs": [
+              "WCD10-B08-S014",
+              "WCD10-B08-S002",
+              "WCD10-B08-S041"
+            ],
+            "basis": "Directly attributed by the listed bibliographic/primary sources at the stated edition or serial layer; candidate relation is not a formal ID."
+          },
+          {
+            "candidate_id": "WCD10-B08-W010-CREATED",
+            "kind": "relationship",
+            "decision": "new_created_relationship",
+            "subject_id": "V1-ENT-0200",
+            "relation_type": "CREATED",
+            "object_candidate_id": "WCD10-B08-W010",
+            "source_refs": [
+              "WCD10-B08-S020",
+              "WCD10-B08-S001"
+            ],
+            "basis": "Directly attributed by the listed bibliographic/primary sources at the stated edition or serial layer; candidate relation is not a formal ID."
+          },
+          {
+            "candidate_id": "WCD10-B08-W011-CREATED",
+            "kind": "relationship",
+            "decision": "new_created_relationship",
+            "subject_id": "V1-ENT-0200",
+            "relation_type": "CREATED",
+            "object_candidate_id": "WCD10-B08-W011",
+            "source_refs": [
+              "WCD10-B08-S015",
+              "WCD10-B08-S014"
+            ],
+            "basis": "Directly attributed by the listed bibliographic/primary sources at the stated edition or serial layer; candidate relation is not a formal ID."
+          },
+          {
+            "candidate_id": "WCD10-B08-W012-CREATED",
+            "kind": "relationship",
+            "decision": "new_created_relationship",
+            "subject_id": "V1-ENT-0200",
+            "relation_type": "CREATED",
+            "object_candidate_id": "WCD10-B08-W012",
+            "source_refs": [
+              "WCD10-B08-S001",
+              "WCD10-B08-S002",
+              "WCD10-B08-S039"
+            ],
+            "basis": "Directly attributed by the listed bibliographic/primary sources at the stated edition or serial layer; candidate relation is not a formal ID."
+          },
+          {
+            "candidate_id": "WCD10-B08-W013-CREATED",
+            "kind": "relationship",
+            "decision": "new_created_relationship",
+            "subject_id": "V1-ENT-0200",
+            "relation_type": "CREATED",
+            "object_candidate_id": "WCD10-B08-W013",
+            "source_refs": [
+              "WCD10-B08-S003",
+              "WCD10-B08-S023",
+              "WCD10-B08-S038"
+            ],
+            "basis": "Directly attributed by the listed bibliographic/primary sources at the stated edition or serial layer; candidate relation is not a formal ID."
+          },
+          {
+            "candidate_id": "WCD10-B08-W014-CREATED",
+            "kind": "relationship",
+            "decision": "new_created_relationship",
+            "subject_id": "V1-ENT-0200",
+            "relation_type": "CREATED",
+            "object_candidate_id": "WCD10-B08-W014",
+            "source_refs": [
+              "WCD10-B08-S014",
+              "WCD10-B08-S024",
+              "WCD10-B08-S038"
+            ],
+            "basis": "Directly attributed by the listed bibliographic/primary sources at the stated edition or serial layer; candidate relation is not a formal ID."
+          },
+          {
+            "candidate_id": "WCD10-B08-W015-CREATED",
+            "kind": "relationship",
+            "decision": "new_created_relationship",
+            "subject_id": "V1-ENT-0200",
+            "relation_type": "CREATED",
+            "object_candidate_id": "WCD10-B08-W015",
+            "source_refs": [
+              "WCD10-B08-S014",
+              "WCD10-B08-S038"
+            ],
+            "basis": "Directly attributed by the listed bibliographic/primary sources at the stated edition or serial layer; candidate relation is not a formal ID."
+          },
+          {
+            "candidate_id": "WCD10-B08-W016-CREATED",
+            "kind": "relationship",
+            "decision": "new_created_relationship",
+            "subject_id": "V1-ENT-0200",
+            "relation_type": "CREATED",
+            "object_candidate_id": "WCD10-B08-W016",
+            "source_refs": [
+              "WCD10-B08-S027",
+              "WCD10-B08-S004"
+            ],
+            "basis": "Directly attributed by the listed bibliographic/primary sources at the stated edition or serial layer; candidate relation is not a formal ID."
+          },
+          {
+            "candidate_id": "WCD10-B08-W017-CREATED",
+            "kind": "relationship",
+            "decision": "new_created_relationship",
+            "subject_id": "V1-ENT-0200",
+            "relation_type": "CREATED",
+            "object_candidate_id": "WCD10-B08-W017",
+            "source_refs": [
+              "WCD10-B08-S004",
+              "WCD10-B08-S014"
+            ],
+            "basis": "Directly attributed by the listed bibliographic/primary sources at the stated edition or serial layer; candidate relation is not a formal ID."
+          },
+          {
+            "candidate_id": "WCD10-B08-W018-CREATED",
+            "kind": "relationship",
+            "decision": "new_created_relationship",
+            "subject_id": "V1-ENT-0200",
+            "relation_type": "CREATED",
+            "object_candidate_id": "WCD10-B08-W018",
+            "source_refs": [
+              "WCD10-B08-S029",
+              "WCD10-B08-S004"
+            ],
+            "basis": "Directly attributed by the listed bibliographic/primary sources at the stated edition or serial layer; candidate relation is not a formal ID."
+          },
+          {
+            "candidate_id": "WCD10-B08-W019-CREATED",
+            "kind": "relationship",
+            "decision": "new_created_relationship",
+            "subject_id": "V1-ENT-0200",
+            "relation_type": "CREATED",
+            "object_candidate_id": "WCD10-B08-W019",
+            "source_refs": [
+              "WCD10-B08-S028",
+              "WCD10-B08-S004"
+            ],
+            "basis": "Directly attributed by the listed bibliographic/primary sources at the stated edition or serial layer; candidate relation is not a formal ID."
+          },
+          {
+            "candidate_id": "WCD10-B08-W020-CREATED",
+            "kind": "relationship",
+            "decision": "new_created_relationship",
+            "subject_id": "V1-ENT-0200",
+            "relation_type": "CREATED",
+            "object_candidate_id": "WCD10-B08-W020",
+            "source_refs": [
+              "WCD10-B08-S026",
+              "WCD10-B08-S014"
+            ],
+            "basis": "Directly attributed by the listed bibliographic/primary sources at the stated edition or serial layer; candidate relation is not a formal ID."
+          },
+          {
+            "candidate_id": "WCD10-B08-W021-CREATED",
+            "kind": "relationship",
+            "decision": "new_created_relationship",
+            "subject_id": "V1-ENT-0200",
+            "relation_type": "CREATED",
+            "object_candidate_id": "WCD10-B08-W021",
+            "source_refs": [
+              "WCD10-B08-S010"
+            ],
+            "basis": "Directly attributed by the listed bibliographic/primary sources at the stated edition or serial layer; candidate relation is not a formal ID."
+          },
+          {
+            "candidate_id": "WCD10-B08-W022-CREATED",
+            "kind": "relationship",
+            "decision": "new_created_relationship",
+            "subject_id": "V1-ENT-0200",
+            "relation_type": "CREATED",
+            "object_candidate_id": "WCD10-B08-W022",
+            "source_refs": [
+              "WCD10-B08-S025",
+              "WCD10-B08-S001"
+            ],
+            "basis": "Directly attributed by the listed bibliographic/primary sources at the stated edition or serial layer; candidate relation is not a formal ID."
+          },
+          {
+            "candidate_id": "WCD10-B08-W023-CREATED",
+            "kind": "relationship",
+            "decision": "new_created_relationship",
+            "subject_id": "V1-ENT-0200",
+            "relation_type": "CREATED",
+            "object_candidate_id": "WCD10-B08-W023",
+            "source_refs": [
+              "WCD10-B08-S005",
+              "WCD10-B08-S006"
+            ],
+            "basis": "Directly attributed by the listed bibliographic/primary sources at the stated edition or serial layer; candidate relation is not a formal ID."
+          },
+          {
+            "candidate_id": "WCD10-B08-W024-CREATED",
+            "kind": "relationship",
+            "decision": "new_created_relationship",
+            "subject_id": "V1-ENT-0200",
+            "relation_type": "CREATED",
+            "object_candidate_id": "WCD10-B08-W024",
+            "source_refs": [
+              "WCD10-B08-S005"
+            ],
+            "basis": "Directly attributed by the listed bibliographic/primary sources at the stated edition or serial layer; candidate relation is not a formal ID."
+          },
+          {
+            "candidate_id": "WCD10-B08-W025-CREATED",
+            "kind": "relationship",
+            "decision": "new_created_relationship",
+            "subject_id": "V1-ENT-0200",
+            "relation_type": "CREATED",
+            "object_candidate_id": "WCD10-B08-W025",
+            "source_refs": [
+              "WCD10-B08-S005",
+              "WCD10-B08-S007"
+            ],
+            "basis": "Directly attributed by the listed bibliographic/primary sources at the stated edition or serial layer; candidate relation is not a formal ID."
+          },
+          {
+            "candidate_id": "WCD10-B08-W026-CREATED",
+            "kind": "relationship",
+            "decision": "new_created_relationship",
+            "subject_id": "V1-ENT-0200",
+            "relation_type": "CREATED",
+            "object_candidate_id": "WCD10-B08-W026",
+            "source_refs": [
+              "WCD10-B08-S005"
+            ],
+            "basis": "Directly attributed by the listed bibliographic/primary sources at the stated edition or serial layer; candidate relation is not a formal ID."
+          },
+          {
+            "candidate_id": "WCD10-B08-W028-CREATED",
+            "kind": "relationship",
+            "decision": "new_created_relationship",
+            "subject_id": "V1-ENT-0200",
+            "relation_type": "CREATED",
+            "object_candidate_id": "WCD10-B08-W028",
+            "source_refs": [
+              "WCD10-B08-S005",
+              "WCD10-B08-S042"
+            ],
+            "basis": "Directly attributed by the listed bibliographic/primary sources at the stated edition or serial layer; candidate relation is not a formal ID."
+          },
+          {
+            "candidate_id": "WCD10-B08-W029-CREATED",
+            "kind": "relationship",
+            "decision": "new_created_relationship",
+            "subject_id": "V1-ENT-0200",
+            "relation_type": "CREATED",
+            "object_candidate_id": "WCD10-B08-W029",
+            "source_refs": [
+              "WCD10-B08-S030",
+              "WCD10-B08-S004"
+            ],
+            "basis": "Directly attributed by the listed bibliographic/primary sources at the stated edition or serial layer; candidate relation is not a formal ID."
+          },
+          {
+            "candidate_id": "WCD10-B08-W030-CREATED",
+            "kind": "relationship",
+            "decision": "new_created_relationship",
+            "subject_id": "V1-ENT-0200",
+            "relation_type": "CREATED",
+            "object_candidate_id": "WCD10-B08-W030",
+            "source_refs": [
+              "WCD10-B08-S004"
+            ],
+            "basis": "Directly attributed by the listed bibliographic/primary sources at the stated edition or serial layer; candidate relation is not a formal ID."
+          },
+          {
+            "candidate_id": "WCD10-B08-W031-CREATED",
+            "kind": "relationship",
+            "decision": "new_created_relationship",
+            "subject_id": "V1-ENT-0200",
+            "relation_type": "CREATED",
+            "object_candidate_id": "WCD10-B08-W031",
+            "source_refs": [
+              "WCD10-B08-S004"
+            ],
+            "basis": "Directly attributed by the listed bibliographic/primary sources at the stated edition or serial layer; candidate relation is not a formal ID."
+          },
+          {
+            "candidate_id": "WCD10-B08-W032-CREATED",
+            "kind": "relationship",
+            "decision": "new_created_relationship",
+            "subject_id": "V1-ENT-0200",
+            "relation_type": "CREATED",
+            "object_candidate_id": "WCD10-B08-W032",
+            "source_refs": [
+              "WCD10-B08-S031",
+              "WCD10-B08-S004"
+            ],
+            "basis": "Directly attributed by the listed bibliographic/primary sources at the stated edition or serial layer; candidate relation is not a formal ID."
+          },
+          {
+            "candidate_id": "WCD10-B08-W033-CREATED",
+            "kind": "relationship",
+            "decision": "new_created_relationship",
+            "subject_id": "V1-ENT-0200",
+            "relation_type": "CREATED",
+            "object_candidate_id": "WCD10-B08-W033",
+            "source_refs": [
+              "WCD10-B08-S014",
+              "WCD10-B08-S016",
+              "WCD10-B08-S043"
+            ],
+            "basis": "Directly attributed by the listed bibliographic/primary sources at the stated edition or serial layer; candidate relation is not a formal ID."
+          },
+          {
+            "candidate_id": "WCD10-B08-W034-CREATED",
+            "kind": "relationship",
+            "decision": "new_created_relationship",
+            "subject_id": "V1-ENT-0200",
+            "relation_type": "CREATED",
+            "object_candidate_id": "WCD10-B08-W034",
+            "source_refs": [
+              "WCD10-B08-S011",
+              "WCD10-B08-S015"
+            ],
+            "basis": "Directly attributed by the listed bibliographic/primary sources at the stated edition or serial layer; candidate relation is not a formal ID."
+          },
+          {
+            "candidate_id": "WCD10-B08-W035-CREATED",
+            "kind": "relationship",
+            "decision": "new_created_relationship",
+            "subject_id": "V1-ENT-0200",
+            "relation_type": "CREATED",
+            "object_candidate_id": "WCD10-B08-W035",
+            "source_refs": [
+              "WCD10-B08-S011",
+              "WCD10-B08-S015"
+            ],
+            "basis": "Directly attributed by the listed bibliographic/primary sources at the stated edition or serial layer; candidate relation is not a formal ID."
+          },
+          {
+            "candidate_id": "WCD10-B08-W036-CREATED",
+            "kind": "relationship",
+            "decision": "new_created_relationship",
+            "subject_id": "V1-ENT-0200",
+            "relation_type": "CREATED",
+            "object_candidate_id": "WCD10-B08-W036",
+            "source_refs": [
+              "WCD10-B08-S036"
+            ],
+            "basis": "Directly attributed by the listed bibliographic/primary sources at the stated edition or serial layer; candidate relation is not a formal ID."
+          },
+          {
+            "candidate_id": "WCD10-B08-W037-CREATED",
+            "kind": "relationship",
+            "decision": "new_created_relationship",
+            "subject_id": "V1-ENT-0200",
+            "relation_type": "CREATED",
+            "object_candidate_id": "WCD10-B08-W037",
+            "source_refs": [
+              "WCD10-B08-S036"
+            ],
+            "basis": "Directly attributed by the listed bibliographic/primary sources at the stated edition or serial layer; candidate relation is not a formal ID."
+          }
+        ]
+      }
+    },
+    {
+      "author_id": "V1-ENT-0211",
+      "author": "Machado",
+      "revision": "R6",
+      "source_directory": "project/internal/WCD_10_WORKSPACE/orchestration/wave-05/machado/R6",
+      "dedup_sha256": "2da9f49ea610cffa4ed2fbe1c90fcade2d8a45283feaac72722f92b50c910114",
+      "dedup": {
+        "schema": "wcd10-b08-dedup-1",
+        "task_id": "TASK-113",
+        "batch_id": "WCD-10-B08",
+        "baseline_database_sha256": "0150e68ee98e28714a7719129aab7d47e137fc692e8e46a5e1db29540f5dbc07",
+        "author_id": "V1-ENT-0211",
+        "decision_method": "Compared exact Portuguese title, author, baseline work entities and edition/collection layer against the full opened ABL bibliography. Chinese labels are provisional working translations. Do not split individual stories, poems, chapters, performance, later reprints or collected volumes into duplicate work objects.",
+        "decisions": [
+          {
+            "candidate_id": "WCD10-B08-W101",
+            "title": "Ressurreição",
+            "decision": "new_work_candidate",
+            "rationale": "Distinct title/author-level work or intentionally separate collected volume, absent from the frozen author's three existing work entities; edition/periodical/collection layer is stated in its facts and notes."
+          },
+          {
+            "candidate_id": "WCD10-B08-W102",
+            "title": "A mão e a luva",
+            "decision": "new_work_candidate",
+            "rationale": "Distinct title/author-level work or intentionally separate collected volume, absent from the frozen author's three existing work entities; edition/periodical/collection layer is stated in its facts and notes."
+          },
+          {
+            "candidate_id": "WCD10-B08-W103",
+            "title": "Helena",
+            "decision": "new_work_candidate",
+            "rationale": "Distinct title/author-level work or intentionally separate collected volume, absent from the frozen author's three existing work entities; edition/periodical/collection layer is stated in its facts and notes."
+          },
+          {
+            "candidate_id": "WCD10-B08-W104",
+            "title": "Iaiá Garcia",
+            "decision": "new_work_candidate",
+            "rationale": "Distinct title/author-level work or intentionally separate collected volume, absent from the frozen author's three existing work entities; edition/periodical/collection layer is stated in its facts and notes."
+          },
+          {
+            "candidate_id": "WCD10-B08-W105",
+            "title": "Casa velha",
+            "decision": "new_work_candidate",
+            "rationale": "Distinct title/author-level work or intentionally separate collected volume, absent from the frozen author's three existing work entities; edition/periodical/collection layer is stated in its facts and notes."
+          },
+          {
+            "candidate_id": "WCD10-B08-W106",
+            "title": "Esaú e Jacó",
+            "decision": "new_work_candidate",
+            "rationale": "Distinct title/author-level work or intentionally separate collected volume, absent from the frozen author's three existing work entities; edition/periodical/collection layer is stated in its facts and notes."
+          },
+          {
+            "candidate_id": "WCD10-B08-W107",
+            "title": "Memorial de Aires",
+            "decision": "new_work_candidate",
+            "rationale": "Distinct title/author-level work or intentionally separate collected volume, absent from the frozen author's three existing work entities; edition/periodical/collection layer is stated in its facts and notes."
+          },
+          {
+            "candidate_id": "WCD10-B08-W108",
+            "title": "Contos fluminenses",
+            "decision": "new_work_candidate",
+            "rationale": "Distinct title/author-level work or intentionally separate collected volume, absent from the frozen author's three existing work entities; edition/periodical/collection layer is stated in its facts and notes."
+          },
+          {
+            "candidate_id": "WCD10-B08-W109",
+            "title": "Histórias da meia-noite",
+            "decision": "new_work_candidate",
+            "rationale": "Distinct title/author-level work or intentionally separate collected volume, absent from the frozen author's three existing work entities; edition/periodical/collection layer is stated in its facts and notes."
+          },
+          {
+            "candidate_id": "WCD10-B08-W110",
+            "title": "Papéis avulsos",
+            "decision": "new_work_candidate",
+            "rationale": "Distinct title/author-level work or intentionally separate collected volume, absent from the frozen author's three existing work entities; edition/periodical/collection layer is stated in its facts and notes."
+          },
+          {
+            "candidate_id": "WCD10-B08-W111",
+            "title": "Histórias sem data",
+            "decision": "new_work_candidate",
+            "rationale": "Distinct title/author-level work or intentionally separate collected volume, absent from the frozen author's three existing work entities; edition/periodical/collection layer is stated in its facts and notes."
+          },
+          {
+            "candidate_id": "WCD10-B08-W112",
+            "title": "Várias histórias",
+            "decision": "new_work_candidate",
+            "rationale": "Distinct title/author-level work or intentionally separate collected volume, absent from the frozen author's three existing work entities; edition/periodical/collection layer is stated in its facts and notes."
+          },
+          {
+            "candidate_id": "WCD10-B08-W113",
+            "title": "Páginas recolhidas",
+            "decision": "new_work_candidate",
+            "rationale": "Distinct title/author-level work or intentionally separate collected volume, absent from the frozen author's three existing work entities; edition/periodical/collection layer is stated in its facts and notes."
+          },
+          {
+            "candidate_id": "WCD10-B08-W114",
+            "title": "Relíquias de casa velha",
+            "decision": "new_work_candidate",
+            "rationale": "Distinct title/author-level work or intentionally separate collected volume, absent from the frozen author's three existing work entities; edition/periodical/collection layer is stated in its facts and notes."
+          },
+          {
+            "candidate_id": "WCD10-B08-W115",
+            "title": "Crisálidas",
+            "decision": "new_work_candidate",
+            "rationale": "Distinct title/author-level work or intentionally separate collected volume, absent from the frozen author's three existing work entities; edition/periodical/collection layer is stated in its facts and notes."
+          },
+          {
+            "candidate_id": "WCD10-B08-W116",
+            "title": "Falenas",
+            "decision": "new_work_candidate",
+            "rationale": "Distinct title/author-level work or intentionally separate collected volume, absent from the frozen author's three existing work entities; edition/periodical/collection layer is stated in its facts and notes."
+          },
+          {
+            "candidate_id": "WCD10-B08-W117",
+            "title": "Americanas",
+            "decision": "new_work_candidate",
+            "rationale": "Distinct title/author-level work or intentionally separate collected volume, absent from the frozen author's three existing work entities; edition/periodical/collection layer is stated in its facts and notes."
+          },
+          {
+            "candidate_id": "WCD10-B08-W118",
+            "title": "Poesias completas",
+            "decision": "new_work_candidate",
+            "rationale": "Distinct title/author-level work or intentionally separate collected volume, absent from the frozen author's three existing work entities; edition/periodical/collection layer is stated in its facts and notes."
+          },
+          {
+            "candidate_id": "WCD10-B08-W119",
+            "title": "Teatro",
+            "decision": "new_work_candidate",
+            "rationale": "Distinct title/author-level work or intentionally separate collected volume, absent from the frozen author's three existing work entities; edition/periodical/collection layer is stated in its facts and notes."
+          },
+          {
+            "candidate_id": "WCD10-B08-W120",
+            "title": "Desencantos",
+            "decision": "new_work_candidate",
+            "rationale": "Distinct title/author-level work or intentionally separate collected volume, absent from the frozen author's three existing work entities; edition/periodical/collection layer is stated in its facts and notes."
+          },
+          {
+            "candidate_id": "WCD10-B08-W121",
+            "title": "Quase ministro",
+            "decision": "new_work_candidate",
+            "rationale": "Distinct title/author-level work or intentionally separate collected volume, absent from the frozen author's three existing work entities; edition/periodical/collection layer is stated in its facts and notes."
+          },
+          {
+            "candidate_id": "WCD10-B08-W122",
+            "title": "Os deuses de casaca",
+            "decision": "new_work_candidate",
+            "rationale": "Distinct title/author-level work or intentionally separate collected volume, absent from the frozen author's three existing work entities; edition/periodical/collection layer is stated in its facts and notes."
+          },
+          {
+            "candidate_id": "WCD10-B08-W123",
+            "title": "Tu, só tu, puro amor",
+            "decision": "new_work_candidate",
+            "rationale": "Distinct title/author-level work or intentionally separate collected volume, absent from the frozen author's three existing work entities; edition/periodical/collection layer is stated in its facts and notes."
+          },
+          {
+            "candidate_id": "WCD10:B08:V1-ENT-0211:translation:Queda que as mulheres têm para os tolos",
+            "title": "Queda que as mulheres têm para os tolos",
+            "decision": "deferred_or_out_of_scope",
+            "rationale": "ABL biography identifies this 1861 volume as Machado’s translation, so it is not an original-authored work for this author-to-CREATED work inventory."
+          },
+          {
+            "candidate_id": "WCD10:B08:V1-ENT-0211:posthumous:Crítica",
+            "title": "Crítica",
+            "decision": "deferred_or_out_of_scope",
+            "rationale": "ABL bibliography dates this collection to 1910, after Machado’s death. The present source pass did not identify the editor or establish its contents and authorship boundaries; defer the entire collection pending edition-level catalog research."
+          },
+          {
+            "candidate_id": "WCD10:B08:V1-ENT-0211:posthumous:Outras relíquias",
+            "title": "Outras relíquias",
+            "decision": "deferred_or_out_of_scope",
+            "rationale": "ABL bibliography dates this title to 1910, after Machado’s death. The present source pass did not identify the editor, contents, or relation to Relíquias de casa velha; defer rather than imply a Machado-edited original collection."
+          },
+          {
+            "candidate_id": "WCD10:B08:V1-ENT-0211:posthumous:Correspondência",
+            "title": "Correspondência",
+            "decision": "deferred_or_out_of_scope",
+            "rationale": "ABL lists a 1932 posthumous correspondence volume; no editor, volume scope, or collection boundary was established in this pass. Defer pending edition/catalog research."
+          },
+          {
+            "candidate_id": "WCD10:B08:V1-ENT-0211:posthumous:Crônicas, 4 vols.",
+            "title": "Crônicas, 4 vols.",
+            "decision": "deferred_or_out_of_scope",
+            "rationale": "ABL lists a four-volume 1937 posthumous collection. It is an editorially assembled set, and the volumes/contents have not been identified individually; defer at collection layer."
+          },
+          {
+            "candidate_id": "WCD10:B08:V1-ENT-0211:posthumous:Crítica literária",
+            "title": "Crítica literária",
+            "decision": "deferred_or_out_of_scope",
+            "rationale": "ABL lists a 1937 posthumous critical collection; editor, contents, and its distinction from the 1910 Crítica volume were not established in the available catalog record."
+          },
+          {
+            "candidate_id": "WCD10:B08:V1-ENT-0211:posthumous:Magalhães Júnior collections",
+            "title": "Raimundo Magalhães Júnior collections",
+            "decision": "deferred_or_out_of_scope",
+            "rationale": "ABL biography lines 21 identifies multiple 1956/1958 collections assembled by Raimundo Magalhães Júnior. They are scholarly/editorial posthumous compilations, not one work created by Machado; defer each volume until individual catalogs establish exact scope."
+          },
+          {
+            "candidate_id": "WCD10:B08:V1-ENT-0211:misc:Crítica/essay prose before 1900",
+            "title": "Notícia da atual literatura brasileira: instinto de nacionalidade",
+            "decision": "deferred_or_out_of_scope",
+            "rationale": "Important critical essay (MEC chronology dates 1873), but a standalone essay work object was not in the present novel/collection/poetry/drama scan and needs periodical-first-title research."
+          },
+          {
+            "candidate_id": "WCD10-B08-S102",
+            "kind": "source",
+            "disposition": "reuse",
+            "matches": [
+              "SRC-0165"
+            ]
+          },
+          {
+            "candidate_id": "WCD10-B08-S111",
+            "kind": "source",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B08-S112",
+            "kind": "source",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B08-W124",
+            "kind": "entity",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B08-S113",
+            "kind": "source",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B08-W125",
+            "title": "Lição de Botânica",
+            "decision": "new_work_candidate",
+            "rationale": "Distinct standalone dramatic text; evidence distinguishes its publication inside a separately titled collection."
+          },
+          {
+            "candidate_id": "WCD10-B08-W126",
+            "title": "Não consultes médico",
+            "decision": "new_work_candidate",
+            "rationale": "Distinct standalone dramatic text; evidence distinguishes its publication inside a separately titled collection."
+          },
+          {
+            "candidate_id": "WCD10-B08-S114",
+            "kind": "source",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B08-S115",
+            "kind": "source",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B08-S116",
+            "kind": "source",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B08-W101-CREATED",
+            "kind": "relationship",
+            "relationship_type": "CREATED",
+            "object_candidate_id": "WCD10-B08-W101",
+            "author_id": "V1-ENT-0211",
+            "decision": "new_relationship_candidate",
+            "rationale": "Candidate lists direct source evidence; no formal relationship ID assigned."
+          },
+          {
+            "candidate_id": "WCD10-B08-W102-CREATED",
+            "kind": "relationship",
+            "relationship_type": "CREATED",
+            "object_candidate_id": "WCD10-B08-W102",
+            "author_id": "V1-ENT-0211",
+            "decision": "new_relationship_candidate",
+            "rationale": "Candidate lists direct source evidence; no formal relationship ID assigned."
+          },
+          {
+            "candidate_id": "WCD10-B08-W103-CREATED",
+            "kind": "relationship",
+            "relationship_type": "CREATED",
+            "object_candidate_id": "WCD10-B08-W103",
+            "author_id": "V1-ENT-0211",
+            "decision": "new_relationship_candidate",
+            "rationale": "Candidate lists direct source evidence; no formal relationship ID assigned."
+          },
+          {
+            "candidate_id": "WCD10-B08-W104-CREATED",
+            "kind": "relationship",
+            "relationship_type": "CREATED",
+            "object_candidate_id": "WCD10-B08-W104",
+            "author_id": "V1-ENT-0211",
+            "decision": "new_relationship_candidate",
+            "rationale": "Candidate lists direct source evidence; no formal relationship ID assigned."
+          },
+          {
+            "candidate_id": "WCD10-B08-W105-CREATED",
+            "kind": "relationship",
+            "relationship_type": "CREATED",
+            "object_candidate_id": "WCD10-B08-W105",
+            "author_id": "V1-ENT-0211",
+            "decision": "new_relationship_candidate",
+            "rationale": "Candidate lists direct source evidence; no formal relationship ID assigned."
+          },
+          {
+            "candidate_id": "WCD10-B08-W106-CREATED",
+            "kind": "relationship",
+            "relationship_type": "CREATED",
+            "object_candidate_id": "WCD10-B08-W106",
+            "author_id": "V1-ENT-0211",
+            "decision": "new_relationship_candidate",
+            "rationale": "Candidate lists direct source evidence; no formal relationship ID assigned."
+          },
+          {
+            "candidate_id": "WCD10-B08-W107-CREATED",
+            "kind": "relationship",
+            "relationship_type": "CREATED",
+            "object_candidate_id": "WCD10-B08-W107",
+            "author_id": "V1-ENT-0211",
+            "decision": "new_relationship_candidate",
+            "rationale": "Candidate lists direct source evidence; no formal relationship ID assigned."
+          },
+          {
+            "candidate_id": "WCD10-B08-W108-CREATED",
+            "kind": "relationship",
+            "relationship_type": "CREATED",
+            "object_candidate_id": "WCD10-B08-W108",
+            "author_id": "V1-ENT-0211",
+            "decision": "new_relationship_candidate",
+            "rationale": "Candidate lists direct source evidence; no formal relationship ID assigned."
+          },
+          {
+            "candidate_id": "WCD10-B08-W109-CREATED",
+            "kind": "relationship",
+            "relationship_type": "CREATED",
+            "object_candidate_id": "WCD10-B08-W109",
+            "author_id": "V1-ENT-0211",
+            "decision": "new_relationship_candidate",
+            "rationale": "Candidate lists direct source evidence; no formal relationship ID assigned. Direct BBM first-edition catalog also enumerates the six constituent stories."
+          },
+          {
+            "candidate_id": "WCD10-B08-W110-CREATED",
+            "kind": "relationship",
+            "relationship_type": "CREATED",
+            "object_candidate_id": "WCD10-B08-W110",
+            "author_id": "V1-ENT-0211",
+            "decision": "new_relationship_candidate",
+            "rationale": "Candidate lists direct source evidence; no formal relationship ID assigned."
+          },
+          {
+            "candidate_id": "WCD10-B08-W111-CREATED",
+            "kind": "relationship",
+            "relationship_type": "CREATED",
+            "object_candidate_id": "WCD10-B08-W111",
+            "author_id": "V1-ENT-0211",
+            "decision": "new_relationship_candidate",
+            "rationale": "Candidate lists direct source evidence; no formal relationship ID assigned."
+          },
+          {
+            "candidate_id": "WCD10-B08-W112-CREATED",
+            "kind": "relationship",
+            "relationship_type": "CREATED",
+            "object_candidate_id": "WCD10-B08-W112",
+            "author_id": "V1-ENT-0211",
+            "decision": "new_relationship_candidate",
+            "rationale": "Candidate lists direct source evidence; no formal relationship ID assigned."
+          },
+          {
+            "candidate_id": "WCD10-B08-W113-CREATED",
+            "kind": "relationship",
+            "relationship_type": "CREATED",
+            "object_candidate_id": "WCD10-B08-W113",
+            "author_id": "V1-ENT-0211",
+            "decision": "new_relationship_candidate",
+            "rationale": "Candidate lists direct source evidence; no formal relationship ID assigned."
+          },
+          {
+            "candidate_id": "WCD10-B08-W114-CREATED",
+            "kind": "relationship",
+            "relationship_type": "CREATED",
+            "object_candidate_id": "WCD10-B08-W114",
+            "author_id": "V1-ENT-0211",
+            "decision": "new_relationship_candidate",
+            "rationale": "Candidate lists direct source evidence; no formal relationship ID assigned."
+          },
+          {
+            "candidate_id": "WCD10-B08-W115-CREATED",
+            "kind": "relationship",
+            "relationship_type": "CREATED",
+            "object_candidate_id": "WCD10-B08-W115",
+            "author_id": "V1-ENT-0211",
+            "decision": "new_relationship_candidate",
+            "rationale": "Candidate lists direct source evidence; no formal relationship ID assigned."
+          },
+          {
+            "candidate_id": "WCD10-B08-W116-CREATED",
+            "kind": "relationship",
+            "relationship_type": "CREATED",
+            "object_candidate_id": "WCD10-B08-W116",
+            "author_id": "V1-ENT-0211",
+            "decision": "new_relationship_candidate",
+            "rationale": "Candidate lists direct source evidence; no formal relationship ID assigned."
+          },
+          {
+            "candidate_id": "WCD10-B08-W117-CREATED",
+            "kind": "relationship",
+            "relationship_type": "CREATED",
+            "object_candidate_id": "WCD10-B08-W117",
+            "author_id": "V1-ENT-0211",
+            "decision": "new_relationship_candidate",
+            "rationale": "Candidate lists direct source evidence; no formal relationship ID assigned."
+          },
+          {
+            "candidate_id": "WCD10-B08-W118-CREATED",
+            "kind": "relationship",
+            "relationship_type": "CREATED",
+            "object_candidate_id": "WCD10-B08-W118",
+            "author_id": "V1-ENT-0211",
+            "decision": "new_relationship_candidate",
+            "rationale": "Candidate lists direct source evidence; no formal relationship ID assigned."
+          },
+          {
+            "candidate_id": "WCD10-B08-W119-CREATED",
+            "kind": "relationship",
+            "relationship_type": "CREATED",
+            "object_candidate_id": "WCD10-B08-W119",
+            "author_id": "V1-ENT-0211",
+            "decision": "new_relationship_candidate",
+            "rationale": "Candidate lists direct source evidence; no formal relationship ID assigned."
+          },
+          {
+            "candidate_id": "WCD10-B08-W120-CREATED",
+            "kind": "relationship",
+            "relationship_type": "CREATED",
+            "object_candidate_id": "WCD10-B08-W120",
+            "author_id": "V1-ENT-0211",
+            "decision": "new_relationship_candidate",
+            "rationale": "Candidate lists direct source evidence; no formal relationship ID assigned."
+          },
+          {
+            "candidate_id": "WCD10-B08-W121-CREATED",
+            "kind": "relationship",
+            "relationship_type": "CREATED",
+            "object_candidate_id": "WCD10-B08-W121",
+            "author_id": "V1-ENT-0211",
+            "decision": "new_relationship_candidate",
+            "rationale": "Candidate lists direct source evidence; no formal relationship ID assigned."
+          },
+          {
+            "candidate_id": "WCD10-B08-W122-CREATED",
+            "kind": "relationship",
+            "relationship_type": "CREATED",
+            "object_candidate_id": "WCD10-B08-W122",
+            "author_id": "V1-ENT-0211",
+            "decision": "new_relationship_candidate",
+            "rationale": "Candidate lists direct source evidence; no formal relationship ID assigned."
+          },
+          {
+            "candidate_id": "WCD10-B08-W123-CREATED",
+            "kind": "relationship",
+            "relationship_type": "CREATED",
+            "object_candidate_id": "WCD10-B08-W123",
+            "author_id": "V1-ENT-0211",
+            "decision": "new_relationship_candidate",
+            "rationale": "Candidate lists direct source evidence; no formal relationship ID assigned."
+          },
+          {
+            "candidate_id": "WCD10-B08-W124-CREATED",
+            "kind": "relationship",
+            "relationship_type": "CREATED",
+            "object_candidate_id": "WCD10-B08-W124",
+            "author_id": "V1-ENT-0211",
+            "decision": "new_relationship_candidate",
+            "rationale": "Candidate lists direct source evidence; no formal relationship ID assigned."
+          },
+          {
+            "candidate_id": "WCD10-B08-W125-CREATED",
+            "kind": "relationship",
+            "relationship_type": "CREATED",
+            "object_candidate_id": "WCD10-B08-W125",
+            "author_id": "V1-ENT-0211",
+            "decision": "new_relationship_candidate",
+            "rationale": "Candidate lists direct source evidence; no formal relationship ID assigned."
+          },
+          {
+            "candidate_id": "WCD10-B08-W126-CREATED",
+            "kind": "relationship",
+            "relationship_type": "CREATED",
+            "object_candidate_id": "WCD10-B08-W126",
+            "author_id": "V1-ENT-0211",
+            "decision": "new_relationship_candidate",
+            "rationale": "Candidate lists direct source evidence; no formal relationship ID assigned."
+          },
+          {
+            "candidate_id": "WCD10-B08-W127",
+            "title": "Contos esparsos",
+            "decision": "new_work_candidate",
+            "rationale": "Distinct later collection title and imprint, absent from the frozen three-object inventory; the editor’s role and the contribution of Machado-authored texts are explicitly bounded."
+          },
+          {
+            "candidate_id": "WCD10-B08-W127-CREATED",
+            "kind": "relationship",
+            "relationship_type": "CREATED",
+            "object_candidate_id": "WCD10-B08-W127",
+            "author_id": "V1-ENT-0211",
+            "decision": "new_relationship_candidate",
+            "rationale": "Candidate states the posthumous editorial layer and Machado-authored content contribution without assigning the compiler’s selection to Machado."
+          },
+          {
+            "candidate_id": "WCD10-B08-W128",
+            "title": "Contos esquecidos",
+            "decision": "new_work_candidate",
+            "rationale": "Distinct later collection title and imprint, absent from the frozen three-object inventory; the editor’s role and the contribution of Machado-authored texts are explicitly bounded."
+          },
+          {
+            "candidate_id": "WCD10-B08-W128-CREATED",
+            "kind": "relationship",
+            "relationship_type": "CREATED",
+            "object_candidate_id": "WCD10-B08-W128",
+            "author_id": "V1-ENT-0211",
+            "decision": "new_relationship_candidate",
+            "rationale": "Candidate states the posthumous editorial layer and Machado-authored content contribution without assigning the compiler’s selection to Machado."
+          },
+          {
+            "candidate_id": "WCD10-B08-W129",
+            "title": "Contos recolhidos",
+            "decision": "new_work_candidate",
+            "rationale": "Distinct later collection title and imprint, absent from the frozen three-object inventory; the editor’s role and the contribution of Machado-authored texts are explicitly bounded."
+          },
+          {
+            "candidate_id": "WCD10-B08-W129-CREATED",
+            "kind": "relationship",
+            "relationship_type": "CREATED",
+            "object_candidate_id": "WCD10-B08-W129",
+            "author_id": "V1-ENT-0211",
+            "decision": "new_relationship_candidate",
+            "rationale": "Candidate states the posthumous editorial layer and Machado-authored content contribution without assigning the compiler’s selection to Machado."
+          },
+          {
+            "candidate_id": "WCD10-B08-W130",
+            "title": "Contos avulsos",
+            "decision": "new_work_candidate",
+            "rationale": "Distinct later collection title and imprint, absent from the frozen three-object inventory; the editor’s role and the contribution of Machado-authored texts are explicitly bounded."
+          },
+          {
+            "candidate_id": "WCD10-B08-W130-CREATED",
+            "kind": "relationship",
+            "relationship_type": "CREATED",
+            "object_candidate_id": "WCD10-B08-W130",
+            "author_id": "V1-ENT-0211",
+            "decision": "new_relationship_candidate",
+            "rationale": "Candidate states the posthumous editorial layer and Machado-authored content contribution without assigning the compiler’s selection to Machado."
+          },
+          {
+            "candidate_id": "WCD10-B08-W131",
+            "title": "Contos sem data",
+            "decision": "new_work_candidate",
+            "rationale": "Distinct later collection title and imprint, absent from the frozen three-object inventory; the editor’s role and the contribution of Machado-authored texts are explicitly bounded."
+          },
+          {
+            "candidate_id": "WCD10-B08-W131-CREATED",
+            "kind": "relationship",
+            "relationship_type": "CREATED",
+            "object_candidate_id": "WCD10-B08-W131",
+            "author_id": "V1-ENT-0211",
+            "decision": "new_relationship_candidate",
+            "rationale": "Candidate states the posthumous editorial layer and Machado-authored content contribution without assigning the compiler’s selection to Machado."
+          },
+          {
+            "candidate_id": "WCD10-B08-W132",
+            "title": "Contos e crônicas",
+            "decision": "new_work_candidate",
+            "rationale": "Distinct later collection title and imprint, absent from the frozen three-object inventory; the editor’s role and the contribution of Machado-authored texts are explicitly bounded."
+          },
+          {
+            "candidate_id": "WCD10-B08-W132-CREATED",
+            "kind": "relationship",
+            "relationship_type": "CREATED",
+            "object_candidate_id": "WCD10-B08-W132",
+            "author_id": "V1-ENT-0211",
+            "decision": "new_relationship_candidate",
+            "rationale": "Candidate states the posthumous editorial layer and Machado-authored content contribution without assigning the compiler’s selection to Machado."
+          },
+          {
+            "candidate_id": "WCD10-B08-W133",
+            "title": "Contos fantásticos de Machado de Assis",
+            "decision": "new_work_candidate",
+            "rationale": "Distinct later collection title and imprint, absent from the frozen three-object inventory; the editor’s role and the contribution of Machado-authored texts are explicitly bounded."
+          },
+          {
+            "candidate_id": "WCD10-B08-W133-CREATED",
+            "kind": "relationship",
+            "relationship_type": "CREATED",
+            "object_candidate_id": "WCD10-B08-W133",
+            "author_id": "V1-ENT-0211",
+            "decision": "new_relationship_candidate",
+            "rationale": "Candidate states the posthumous editorial layer and Machado-authored content contribution without assigning the compiler’s selection to Machado."
+          },
+          {
+            "candidate_id": "WCD10-B08-W134",
+            "title": "Crítica",
+            "decision": "new_work_candidate",
+            "rationale": "Distinct later collection title and imprint, absent from the frozen three-object inventory; the editor’s role and the contribution of Machado-authored texts are explicitly bounded."
+          },
+          {
+            "candidate_id": "WCD10-B08-W134-CREATED",
+            "kind": "relationship",
+            "relationship_type": "CREATED",
+            "object_candidate_id": "WCD10-B08-W134",
+            "author_id": "V1-ENT-0211",
+            "decision": "new_relationship_candidate",
+            "rationale": "Candidate states the posthumous editorial layer and Machado-authored content contribution without assigning the compiler’s selection to Machado."
+          },
+          {
+            "candidate_id": "WCD10-B08-W135",
+            "title": "Outras relíquias",
+            "decision": "new_work_candidate",
+            "rationale": "Distinct later collection title and imprint, absent from the frozen three-object inventory; the editor’s role and the contribution of Machado-authored texts are explicitly bounded."
+          },
+          {
+            "candidate_id": "WCD10-B08-W135-CREATED",
+            "kind": "relationship",
+            "relationship_type": "CREATED",
+            "object_candidate_id": "WCD10-B08-W135",
+            "author_id": "V1-ENT-0211",
+            "decision": "new_relationship_candidate",
+            "rationale": "Candidate states the posthumous editorial layer and Machado-authored content contribution without assigning the compiler’s selection to Machado."
+          },
+          {
+            "candidate_id": "WCD10-B08-W136",
+            "title": "Correspondência de Machado de Assis",
+            "decision": "new_work_candidate",
+            "rationale": "Distinct later collection title and imprint, absent from the frozen three-object inventory; the editor’s role and the contribution of Machado-authored texts are explicitly bounded."
+          },
+          {
+            "candidate_id": "WCD10-B08-W136-CREATED",
+            "kind": "relationship",
+            "relationship_type": "CREATED",
+            "object_candidate_id": "WCD10-B08-W136",
+            "author_id": "V1-ENT-0211",
+            "decision": "new_relationship_candidate",
+            "rationale": "Candidate states the posthumous editorial layer and Machado-authored content contribution without assigning the compiler’s selection to Machado."
+          },
+          {
+            "candidate_id": "WCD10-B08-W137",
+            "title": "Diálogos e reflexões de um relojoeiro",
+            "decision": "new_work_candidate",
+            "rationale": "Distinct later collection title and imprint, absent from the frozen three-object inventory; the editor’s role and the contribution of Machado-authored texts are explicitly bounded."
+          },
+          {
+            "candidate_id": "WCD10-B08-W137-CREATED",
+            "kind": "relationship",
+            "relationship_type": "CREATED",
+            "object_candidate_id": "WCD10-B08-W137",
+            "author_id": "V1-ENT-0211",
+            "decision": "new_relationship_candidate",
+            "rationale": "Candidate states the posthumous editorial layer and Machado-authored content contribution without assigning the compiler’s selection to Machado."
+          },
+          {
+            "candidate_id": "WCD10-B08-W138",
+            "title": "O Alienista",
+            "decision": "new_work_candidate",
+            "rationale": "Distinct story-level work absent from the frozen author inventory, although included in W110 Papéis avulsos; serial/book layers and novella/short-story classification are separately attributed."
+          },
+          {
+            "candidate_id": "WCD10-B08-W138-CREATED",
+            "kind": "relationship",
+            "relationship_type": "CREATED",
+            "object_candidate_id": "WCD10-B08-W138",
+            "author_id": "V1-ENT-0211",
+            "decision": "new_relationship_candidate",
+            "rationale": "Direct story text and edition history establish Machado’s authorship; the later Papéis avulsos collection remains a separate object."
+          }
+        ],
+        "baseline_existing": [
+          {
+            "entity_id": "V1-ENT-0214",
+            "title": "Memórias Póstumas de Brás Cubas",
+            "decision": "reuse_existing_entity",
+            "rationale": "Preserve baseline work entity, all facts/cards and complete linked source/evidence chain; add only separately sourced supplemental serial year when verified."
+          },
+          {
+            "entity_id": "V1-ENT-0215",
+            "title": "Quincas Borba",
+            "decision": "reuse_existing_entity",
+            "rationale": "Preserve baseline work entity, all facts/cards and complete linked source/evidence chain; add only separately sourced supplemental serial year when verified."
+          },
+          {
+            "entity_id": "V1-ENT-0216",
+            "title": "Dom Casmurro",
+            "decision": "reuse_existing_entity",
+            "rationale": "Preserve baseline work entity, all facts/cards and complete linked source/evidence chain; add only separately sourced supplemental serial year when verified."
+          }
+        ],
+        "notes": "Full ABL bibliography scan; candidate title identity anchored to original Portuguese. Maintain compilation, publication, serial and performance layer boundaries.",
+        "inputs": [
+          {
+            "source_dedup": {
+              "decisions": [
+                {
+                  "candidate_id": "WCD10-B08-W101-CREATED",
+                  "kind": "relationship",
+                  "relationship_type": "CREATED",
+                  "object_candidate_id": "WCD10-B08-W101",
+                  "author_id": "V1-ENT-0211",
+                  "decision": "new_relationship_candidate",
+                  "rationale": "Candidate lists direct source evidence; no formal relationship ID assigned."
+                },
+                {
+                  "candidate_id": "WCD10-B08-W102-CREATED",
+                  "kind": "relationship",
+                  "relationship_type": "CREATED",
+                  "object_candidate_id": "WCD10-B08-W102",
+                  "author_id": "V1-ENT-0211",
+                  "decision": "new_relationship_candidate",
+                  "rationale": "Candidate lists direct source evidence; no formal relationship ID assigned."
+                },
+                {
+                  "candidate_id": "WCD10-B08-W103-CREATED",
+                  "kind": "relationship",
+                  "relationship_type": "CREATED",
+                  "object_candidate_id": "WCD10-B08-W103",
+                  "author_id": "V1-ENT-0211",
+                  "decision": "new_relationship_candidate",
+                  "rationale": "Candidate lists direct source evidence; no formal relationship ID assigned."
+                },
+                {
+                  "candidate_id": "WCD10-B08-W104-CREATED",
+                  "kind": "relationship",
+                  "relationship_type": "CREATED",
+                  "object_candidate_id": "WCD10-B08-W104",
+                  "author_id": "V1-ENT-0211",
+                  "decision": "new_relationship_candidate",
+                  "rationale": "Candidate lists direct source evidence; no formal relationship ID assigned."
+                },
+                {
+                  "candidate_id": "WCD10-B08-W105-CREATED",
+                  "kind": "relationship",
+                  "relationship_type": "CREATED",
+                  "object_candidate_id": "WCD10-B08-W105",
+                  "author_id": "V1-ENT-0211",
+                  "decision": "new_relationship_candidate",
+                  "rationale": "Candidate lists direct source evidence; no formal relationship ID assigned."
+                },
+                {
+                  "candidate_id": "WCD10-B08-W106-CREATED",
+                  "kind": "relationship",
+                  "relationship_type": "CREATED",
+                  "object_candidate_id": "WCD10-B08-W106",
+                  "author_id": "V1-ENT-0211",
+                  "decision": "new_relationship_candidate",
+                  "rationale": "Candidate lists direct source evidence; no formal relationship ID assigned."
+                },
+                {
+                  "candidate_id": "WCD10-B08-W107-CREATED",
+                  "kind": "relationship",
+                  "relationship_type": "CREATED",
+                  "object_candidate_id": "WCD10-B08-W107",
+                  "author_id": "V1-ENT-0211",
+                  "decision": "new_relationship_candidate",
+                  "rationale": "Candidate lists direct source evidence; no formal relationship ID assigned."
+                },
+                {
+                  "candidate_id": "WCD10-B08-W108-CREATED",
+                  "kind": "relationship",
+                  "relationship_type": "CREATED",
+                  "object_candidate_id": "WCD10-B08-W108",
+                  "author_id": "V1-ENT-0211",
+                  "decision": "new_relationship_candidate",
+                  "rationale": "Candidate lists direct source evidence; no formal relationship ID assigned."
+                },
+                {
+                  "candidate_id": "WCD10-B08-W109-CREATED",
+                  "kind": "relationship",
+                  "relationship_type": "CREATED",
+                  "object_candidate_id": "WCD10-B08-W109",
+                  "author_id": "V1-ENT-0211",
+                  "decision": "new_relationship_candidate",
+                  "rationale": "Candidate lists direct source evidence; no formal relationship ID assigned. Direct BBM first-edition catalog also enumerates the six constituent stories."
+                },
+                {
+                  "candidate_id": "WCD10-B08-W110-CREATED",
+                  "kind": "relationship",
+                  "relationship_type": "CREATED",
+                  "object_candidate_id": "WCD10-B08-W110",
+                  "author_id": "V1-ENT-0211",
+                  "decision": "new_relationship_candidate",
+                  "rationale": "Candidate lists direct source evidence; no formal relationship ID assigned."
+                },
+                {
+                  "candidate_id": "WCD10-B08-W111-CREATED",
+                  "kind": "relationship",
+                  "relationship_type": "CREATED",
+                  "object_candidate_id": "WCD10-B08-W111",
+                  "author_id": "V1-ENT-0211",
+                  "decision": "new_relationship_candidate",
+                  "rationale": "Candidate lists direct source evidence; no formal relationship ID assigned."
+                },
+                {
+                  "candidate_id": "WCD10-B08-W112-CREATED",
+                  "kind": "relationship",
+                  "relationship_type": "CREATED",
+                  "object_candidate_id": "WCD10-B08-W112",
+                  "author_id": "V1-ENT-0211",
+                  "decision": "new_relationship_candidate",
+                  "rationale": "Candidate lists direct source evidence; no formal relationship ID assigned."
+                },
+                {
+                  "candidate_id": "WCD10-B08-W113-CREATED",
+                  "kind": "relationship",
+                  "relationship_type": "CREATED",
+                  "object_candidate_id": "WCD10-B08-W113",
+                  "author_id": "V1-ENT-0211",
+                  "decision": "new_relationship_candidate",
+                  "rationale": "Candidate lists direct source evidence; no formal relationship ID assigned."
+                },
+                {
+                  "candidate_id": "WCD10-B08-W114-CREATED",
+                  "kind": "relationship",
+                  "relationship_type": "CREATED",
+                  "object_candidate_id": "WCD10-B08-W114",
+                  "author_id": "V1-ENT-0211",
+                  "decision": "new_relationship_candidate",
+                  "rationale": "Candidate lists direct source evidence; no formal relationship ID assigned."
+                },
+                {
+                  "candidate_id": "WCD10-B08-W115-CREATED",
+                  "kind": "relationship",
+                  "relationship_type": "CREATED",
+                  "object_candidate_id": "WCD10-B08-W115",
+                  "author_id": "V1-ENT-0211",
+                  "decision": "new_relationship_candidate",
+                  "rationale": "Candidate lists direct source evidence; no formal relationship ID assigned."
+                },
+                {
+                  "candidate_id": "WCD10-B08-W116-CREATED",
+                  "kind": "relationship",
+                  "relationship_type": "CREATED",
+                  "object_candidate_id": "WCD10-B08-W116",
+                  "author_id": "V1-ENT-0211",
+                  "decision": "new_relationship_candidate",
+                  "rationale": "Candidate lists direct source evidence; no formal relationship ID assigned."
+                },
+                {
+                  "candidate_id": "WCD10-B08-W117-CREATED",
+                  "kind": "relationship",
+                  "relationship_type": "CREATED",
+                  "object_candidate_id": "WCD10-B08-W117",
+                  "author_id": "V1-ENT-0211",
+                  "decision": "new_relationship_candidate",
+                  "rationale": "Candidate lists direct source evidence; no formal relationship ID assigned."
+                },
+                {
+                  "candidate_id": "WCD10-B08-W118-CREATED",
+                  "kind": "relationship",
+                  "relationship_type": "CREATED",
+                  "object_candidate_id": "WCD10-B08-W118",
+                  "author_id": "V1-ENT-0211",
+                  "decision": "new_relationship_candidate",
+                  "rationale": "Candidate lists direct source evidence; no formal relationship ID assigned."
+                },
+                {
+                  "candidate_id": "WCD10-B08-W119-CREATED",
+                  "kind": "relationship",
+                  "relationship_type": "CREATED",
+                  "object_candidate_id": "WCD10-B08-W119",
+                  "author_id": "V1-ENT-0211",
+                  "decision": "new_relationship_candidate",
+                  "rationale": "Candidate lists direct source evidence; no formal relationship ID assigned."
+                },
+                {
+                  "candidate_id": "WCD10-B08-W120-CREATED",
+                  "kind": "relationship",
+                  "relationship_type": "CREATED",
+                  "object_candidate_id": "WCD10-B08-W120",
+                  "author_id": "V1-ENT-0211",
+                  "decision": "new_relationship_candidate",
+                  "rationale": "Candidate lists direct source evidence; no formal relationship ID assigned."
+                },
+                {
+                  "candidate_id": "WCD10-B08-W121-CREATED",
+                  "kind": "relationship",
+                  "relationship_type": "CREATED",
+                  "object_candidate_id": "WCD10-B08-W121",
+                  "author_id": "V1-ENT-0211",
+                  "decision": "new_relationship_candidate",
+                  "rationale": "Candidate lists direct source evidence; no formal relationship ID assigned."
+                },
+                {
+                  "candidate_id": "WCD10-B08-W122-CREATED",
+                  "kind": "relationship",
+                  "relationship_type": "CREATED",
+                  "object_candidate_id": "WCD10-B08-W122",
+                  "author_id": "V1-ENT-0211",
+                  "decision": "new_relationship_candidate",
+                  "rationale": "Candidate lists direct source evidence; no formal relationship ID assigned."
+                },
+                {
+                  "candidate_id": "WCD10-B08-W123-CREATED",
+                  "kind": "relationship",
+                  "relationship_type": "CREATED",
+                  "object_candidate_id": "WCD10-B08-W123",
+                  "author_id": "V1-ENT-0211",
+                  "decision": "new_relationship_candidate",
+                  "rationale": "Candidate lists direct source evidence; no formal relationship ID assigned."
+                },
+                {
+                  "candidate_id": "WCD10-B08-W124-CREATED",
+                  "kind": "relationship",
+                  "relationship_type": "CREATED",
+                  "object_candidate_id": "WCD10-B08-W124",
+                  "author_id": "V1-ENT-0211",
+                  "decision": "new_relationship_candidate",
+                  "rationale": "Candidate lists direct source evidence; no formal relationship ID assigned."
+                },
+                {
+                  "candidate_id": "WCD10-B08-W125-CREATED",
+                  "kind": "relationship",
+                  "relationship_type": "CREATED",
+                  "object_candidate_id": "WCD10-B08-W125",
+                  "author_id": "V1-ENT-0211",
+                  "decision": "new_relationship_candidate",
+                  "rationale": "Candidate lists direct source evidence; no formal relationship ID assigned."
+                },
+                {
+                  "candidate_id": "WCD10-B08-W126-CREATED",
+                  "kind": "relationship",
+                  "relationship_type": "CREATED",
+                  "object_candidate_id": "WCD10-B08-W126",
+                  "author_id": "V1-ENT-0211",
+                  "decision": "new_relationship_candidate",
+                  "rationale": "Candidate lists direct source evidence; no formal relationship ID assigned."
+                },
+                {
+                  "candidate_id": "WCD10-B08-W127-CREATED",
+                  "kind": "relationship",
+                  "relationship_type": "CREATED",
+                  "object_candidate_id": "WCD10-B08-W127",
+                  "author_id": "V1-ENT-0211",
+                  "decision": "new_relationship_candidate",
+                  "rationale": "No existing author-work relationship for this distinct collected volume; editor’s role is separated from Machado-authored contents."
+                },
+                {
+                  "candidate_id": "WCD10-B08-W128-CREATED",
+                  "kind": "relationship",
+                  "relationship_type": "CREATED",
+                  "object_candidate_id": "WCD10-B08-W128",
+                  "author_id": "V1-ENT-0211",
+                  "decision": "new_relationship_candidate",
+                  "rationale": "No existing author-work relationship for this distinct collected volume; editor’s role is separated from Machado-authored contents."
+                },
+                {
+                  "candidate_id": "WCD10-B08-W129-CREATED",
+                  "kind": "relationship",
+                  "relationship_type": "CREATED",
+                  "object_candidate_id": "WCD10-B08-W129",
+                  "author_id": "V1-ENT-0211",
+                  "decision": "new_relationship_candidate",
+                  "rationale": "No existing author-work relationship for this distinct collected volume; editor’s role is separated from Machado-authored contents."
+                },
+                {
+                  "candidate_id": "WCD10-B08-W130-CREATED",
+                  "kind": "relationship",
+                  "relationship_type": "CREATED",
+                  "object_candidate_id": "WCD10-B08-W130",
+                  "author_id": "V1-ENT-0211",
+                  "decision": "new_relationship_candidate",
+                  "rationale": "No existing author-work relationship for this distinct collected volume; editor’s role is separated from Machado-authored contents."
+                },
+                {
+                  "candidate_id": "WCD10-B08-W131-CREATED",
+                  "kind": "relationship",
+                  "relationship_type": "CREATED",
+                  "object_candidate_id": "WCD10-B08-W131",
+                  "author_id": "V1-ENT-0211",
+                  "decision": "new_relationship_candidate",
+                  "rationale": "No existing author-work relationship for this distinct collected volume; editor’s role is separated from Machado-authored contents."
+                },
+                {
+                  "candidate_id": "WCD10-B08-W132-CREATED",
+                  "kind": "relationship",
+                  "relationship_type": "CREATED",
+                  "object_candidate_id": "WCD10-B08-W132",
+                  "author_id": "V1-ENT-0211",
+                  "decision": "new_relationship_candidate",
+                  "rationale": "No existing author-work relationship for this distinct collected volume; editor’s role is separated from Machado-authored contents."
+                },
+                {
+                  "candidate_id": "WCD10-B08-W133-CREATED",
+                  "kind": "relationship",
+                  "relationship_type": "CREATED",
+                  "object_candidate_id": "WCD10-B08-W133",
+                  "author_id": "V1-ENT-0211",
+                  "decision": "new_relationship_candidate",
+                  "rationale": "No existing author-work relationship for this distinct collected volume; editor’s role is separated from Machado-authored contents."
+                },
+                {
+                  "candidate_id": "WCD10-B08-W134-CREATED",
+                  "kind": "relationship",
+                  "relationship_type": "CREATED",
+                  "object_candidate_id": "WCD10-B08-W134",
+                  "author_id": "V1-ENT-0211",
+                  "decision": "new_relationship_candidate",
+                  "rationale": "No existing author-work relationship for this distinct collected volume; editor’s role is separated from Machado-authored contents."
+                },
+                {
+                  "candidate_id": "WCD10-B08-W135-CREATED",
+                  "kind": "relationship",
+                  "relationship_type": "CREATED",
+                  "object_candidate_id": "WCD10-B08-W135",
+                  "author_id": "V1-ENT-0211",
+                  "decision": "new_relationship_candidate",
+                  "rationale": "No existing author-work relationship for this distinct collected volume; editor’s role is separated from Machado-authored contents."
+                },
+                {
+                  "candidate_id": "WCD10-B08-W136-CREATED",
+                  "kind": "relationship",
+                  "relationship_type": "CREATED",
+                  "object_candidate_id": "WCD10-B08-W136",
+                  "author_id": "V1-ENT-0211",
+                  "decision": "new_relationship_candidate",
+                  "rationale": "No existing author-work relationship for this distinct collected volume; editor’s role is separated from Machado-authored contents."
+                },
+                {
+                  "candidate_id": "WCD10-B08-W137-CREATED",
+                  "kind": "relationship",
+                  "relationship_type": "CREATED",
+                  "object_candidate_id": "WCD10-B08-W137",
+                  "author_id": "V1-ENT-0211",
+                  "decision": "new_relationship_candidate",
+                  "rationale": "No existing author-work relationship for this distinct collected volume; editor’s role is separated from Machado-authored contents."
+                },
+                {
+                  "candidate_id": "WCD10-B08-W138-CREATED",
+                  "kind": "relationship",
+                  "relationship_type": "CREATED",
+                  "object_candidate_id": "WCD10-B08-W138",
+                  "author_id": "V1-ENT-0211",
+                  "decision": "new_relationship_candidate",
+                  "rationale": "No exact-name work entity exists in the read-only baseline; story and 1882 collection are separate work-layer candidates."
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "author_id": "V1-ENT-0212",
+      "author": "Rosa",
+      "revision": "R5",
+      "source_directory": "project/internal/WCD_10_WORKSPACE/orchestration/wave-05/rosa/R5",
+      "dedup_sha256": "2defb2f3e1714703145eff4c7dd4d1fdb5fe485942c0d55a909fa84ed6adf524",
+      "dedup": {
+        "schema": "wcd10-dedup-1",
+        "task_id": "TASK-113",
+        "batch_id": "WCD-10-B08",
+        "baseline_database_sha256": "0150e68ee98e28714a7719129aab7d47e137fc692e8e46a5e1db29540f5dbc07",
+        "author_order": [
+          "V1-ENT-0212"
+        ],
+        "inputs": [
+          {
+            "author_id": "V1-ENT-0212",
+            "revision": "R0",
+            "source_dedup": {
+              "schema": "wcd10-dedup-1",
+              "task_id": "TASK-113",
+              "batch_id": "WCD-10-B08",
+              "author_id": "V1-ENT-0212",
+              "method": "Compare exact original titles, work layer, original publication, serial versus book publication, contained stories, and later volumes against every baseline work. Do not split a collected edition into duplicate work entities; do distinguish independently titled constituent narratives and coauthored books with role-limited CREATED descriptions.",
+              "decisions": [
+                {
+                  "candidate_id": "WCD10-B08-W201",
+                  "title": "Corpo de Baile",
+                  "decision": "new_work_candidate",
+                  "rationale": "重大遗漏。该对象是1956年原始合卷/循环作品；后来的三个自主卷本及七篇内部叙事另行在谱系中区分。"
+                },
+                {
+                  "candidate_id": "WCD10-B08-W202",
+                  "title": "Com o vaqueiro Mariano",
+                  "decision": "new_work_candidate",
+                  "rationale": "ABL书目列为1952年作品；单独小书对象不同于1947报刊分篇，也不同于1969遗作集中的再收录。"
+                },
+                {
+                  "candidate_id": "WCD10-B08-W203",
+                  "title": "Tutameia (Terceiras estórias)",
+                  "decision": "new_work_candidate",
+                  "rationale": "按ABL书目原样记录双重题名为一个对象；避免把Tutameia与Terceiras estórias拆成两个作品。"
+                },
+                {
+                  "candidate_id": "WCD10-B08-W204",
+                  "title": "Estas estórias",
+                  "decision": "new_work_candidate",
+                  "rationale": "ABL列为1969年故事集，机构书目页给出首版与目录；与内含的Com o vaqueiro Mariano篇目区分，不将其重复并入集对象事实。"
+                },
+                {
+                  "candidate_id": "WCD10-B08-W205",
+                  "title": "Ave, Palavra",
+                  "decision": "new_work_candidate",
+                  "rationale": "ABL列出1970年题名并以diversos标注文类；目前不另增其内部篇目或子类。"
+                },
+                {
+                  "candidate_id": "WCD10-B08-W206",
+                  "title": "Magma",
+                  "decision": "new_work_candidate",
+                  "rationale": "作品创作/获奖时间不能替代首次公开出版年；采用博物馆实物登记的1997书版年份。"
+                },
+                {
+                  "candidate_id": "WCD10-B08-W208",
+                  "title": "Os sete pecados capitais",
+                  "decision": "new_work_candidate",
+                  "rationale": "ABL列为合作作品；USP题录确认七位作者、Rosa合作者身份和具体篇目。"
+                },
+                {
+                  "candidate_id": "WCD10-B08-W209",
+                  "title": "Campo Geral",
+                  "decision": "new_work_candidate",
+                  "rationale": "初版已作为《Corpo de Baile》内独立命名的叙事篇目；这是文本层候选，不是单行书的版次复制。"
+                },
+                {
+                  "candidate_id": "WCD10-B08-W210",
+                  "title": "Uma estória de amor",
+                  "decision": "new_work_candidate",
+                  "rationale": "初版已作为《Corpo de Baile》内独立命名的叙事篇目；这是文本层候选，不是单行书的版次复制。"
+                },
+                {
+                  "candidate_id": "WCD10-B08-W211",
+                  "title": "A estória de Lélio e Lina",
+                  "decision": "new_work_candidate",
+                  "rationale": "初版已作为《Corpo de Baile》内独立命名的叙事篇目；这是文本层候选，不是单行书的版次复制。"
+                },
+                {
+                  "candidate_id": "WCD10-B08-W212",
+                  "title": "O Recado do Morro",
+                  "decision": "new_work_candidate",
+                  "rationale": "初版已作为《Corpo de Baile》内独立命名的叙事篇目；这是文本层候选，不是单行书的版次复制。"
+                },
+                {
+                  "candidate_id": "WCD10-B08-W213",
+                  "title": "Lão-Dalalão (Dão-Lalalão)",
+                  "decision": "new_work_candidate",
+                  "rationale": "初版已作为《Corpo de Baile》内独立命名的叙事篇目；这是文本层候选，不是单行书的版次复制。"
+                },
+                {
+                  "candidate_id": "WCD10-B08-W214",
+                  "title": "Cara-de-Bronze",
+                  "decision": "new_work_candidate",
+                  "rationale": "初版已作为《Corpo de Baile》内独立命名的叙事篇目；这是文本层候选，不是单行书的版次复制。"
+                },
+                {
+                  "candidate_id": "WCD10-B08-W215",
+                  "title": "Buriti",
+                  "decision": "new_work_candidate",
+                  "rationale": "初版已作为《Corpo de Baile》内独立命名的叙事篇目；这是文本层候选，不是单行书的版次复制。"
+                },
+                {
+                  "candidate_id": "V1-ENT-0217",
+                  "title": "Grande Sertão: Veredas",
+                  "decision": "existing_object_preserved",
+                  "rationale": "Exact baseline entity with unchanged old facts/cards/evidence chain."
+                },
+                {
+                  "candidate_id": "V1-ENT-0218",
+                  "title": "Sagarana",
+                  "decision": "existing_object_preserved",
+                  "rationale": "Exact baseline entity with unchanged old facts/cards/evidence chain."
+                },
+                {
+                  "candidate_id": "V1-ENT-0219",
+                  "title": "Primeiras Estórias",
+                  "decision": "existing_object_preserved",
+                  "rationale": "Exact baseline entity with unchanged old facts/cards/evidence chain."
+                },
+                {
+                  "candidate_id": "WCD10-B08-DEFER-001",
+                  "title": "Manuelzão e Miguilim / No Urubuquaquá, no Pinhém / Noites do sertão",
+                  "decision": "edition_split_no_duplicate",
+                  "rationale": "Third-edition split volumes of W201; all seven component texts first appear within the 1956 original cycle."
+                },
+                {
+                  "candidate_id": "WCD10-B08-W207",
+                  "title": "O mistério dos MMM",
+                  "decision": "new_work_candidate_with_cross_author_defer",
+                  "rationale": "最早可核发表为《O Cruzeiro》1961年10–12月连载（S230）；书本版为1962年，另由ABL和帕拉州基金会馆藏目录互证（S201/S229）。S224称1964年前连载，作为冲突来源保留，不取代已核时间层。该合作作品只记录Rosa参与，其他作者边延后受控补充。"
+                },
+                {
+                  "candidate_id": "WCD10-B08-DEFER-004",
+                  "title": "Os sete pecados capitais — Lygia Fagundes Telles relationship",
+                  "decision": "defer_cross_author_relationship",
+                  "rationale": "S207 lists Telles as coauthor; B08 scope allows only Rosa participation edge."
+                },
+                {
+                  "candidate_id": "WCD10-B08-W216",
+                  "title": "O mistério de Highmore Hall",
+                  "decision": "new_work_candidate",
+                  "rationale": "重要的早期报刊短篇。ABL biography列其1929年O Cruzeiro发表；直接打开的学术论文给出具体刊期、情节和幻想/哥特体裁讨论。此处建文本对象，不另将2011选集或期刊当作Rosa单著作品。"
+                },
+                {
+                  "candidate_id": "WCD10-B08-W201-CREATED",
+                  "title": "Corpo de Baile",
+                  "decision": "new_created_relationship",
+                  "rationale": "Explicit author-to-work relation candidate is represented separately in EVIDENCE_MATRIX; contribution wording and source limits are recorded on the candidate."
+                },
+                {
+                  "candidate_id": "WCD10-B08-W202-CREATED",
+                  "title": "Com o vaqueiro Mariano",
+                  "decision": "new_created_relationship",
+                  "rationale": "Explicit author-to-work relation candidate is represented separately in EVIDENCE_MATRIX; contribution wording and source limits are recorded on the candidate."
+                },
+                {
+                  "candidate_id": "WCD10-B08-W203-CREATED",
+                  "title": "Tutameia (Terceiras estórias)",
+                  "decision": "new_created_relationship",
+                  "rationale": "Explicit author-to-work relation candidate is represented separately in EVIDENCE_MATRIX; contribution wording and source limits are recorded on the candidate."
+                },
+                {
+                  "candidate_id": "WCD10-B08-W204-CREATED",
+                  "title": "Estas estórias",
+                  "decision": "new_created_relationship",
+                  "rationale": "Explicit author-to-work relation candidate is represented separately in EVIDENCE_MATRIX; contribution wording and source limits are recorded on the candidate."
+                },
+                {
+                  "candidate_id": "WCD10-B08-W205-CREATED",
+                  "title": "Ave, Palavra",
+                  "decision": "new_created_relationship",
+                  "rationale": "Explicit author-to-work relation candidate is represented separately in EVIDENCE_MATRIX; contribution wording and source limits are recorded on the candidate."
+                },
+                {
+                  "candidate_id": "WCD10-B08-W206-CREATED",
+                  "title": "Magma",
+                  "decision": "new_created_relationship",
+                  "rationale": "Explicit author-to-work relation candidate is represented separately in EVIDENCE_MATRIX; contribution wording and source limits are recorded on the candidate."
+                },
+                {
+                  "candidate_id": "WCD10-B08-W207-CREATED",
+                  "title": "O mistério dos MMM",
+                  "decision": "new_created_relationship",
+                  "rationale": "仅记录Rosa作为合著者参与；作品由十位作者按章节接写，跨作者关系继续延后受控补充。"
+                },
+                {
+                  "candidate_id": "WCD10-B08-W208-CREATED",
+                  "title": "Os sete pecados capitais",
+                  "decision": "new_created_relationship",
+                  "rationale": "Explicit author-to-work relation candidate is represented separately in EVIDENCE_MATRIX; contribution wording and source limits are recorded on the candidate."
+                },
+                {
+                  "candidate_id": "WCD10-B08-W209-CREATED",
+                  "title": "Campo Geral",
+                  "decision": "new_created_relationship",
+                  "rationale": "Explicit author-to-work relation candidate is represented separately in EVIDENCE_MATRIX; contribution wording and source limits are recorded on the candidate."
+                },
+                {
+                  "candidate_id": "WCD10-B08-W210-CREATED",
+                  "title": "Uma estória de amor",
+                  "decision": "new_created_relationship",
+                  "rationale": "Explicit author-to-work relation candidate is represented separately in EVIDENCE_MATRIX; contribution wording and source limits are recorded on the candidate."
+                },
+                {
+                  "candidate_id": "WCD10-B08-W211-CREATED",
+                  "title": "A estória de Lélio e Lina",
+                  "decision": "new_created_relationship",
+                  "rationale": "Explicit author-to-work relation candidate is represented separately in EVIDENCE_MATRIX; contribution wording and source limits are recorded on the candidate."
+                },
+                {
+                  "candidate_id": "WCD10-B08-W212-CREATED",
+                  "title": "O Recado do Morro",
+                  "decision": "new_created_relationship",
+                  "rationale": "Explicit author-to-work relation candidate is represented separately in EVIDENCE_MATRIX; contribution wording and source limits are recorded on the candidate."
+                },
+                {
+                  "candidate_id": "WCD10-B08-W213-CREATED",
+                  "title": "Lão-Dalalão (Dão-Lalalão)",
+                  "decision": "new_created_relationship",
+                  "rationale": "Explicit author-to-work relation candidate is represented separately in EVIDENCE_MATRIX; contribution wording and source limits are recorded on the candidate."
+                },
+                {
+                  "candidate_id": "WCD10-B08-W214-CREATED",
+                  "title": "Cara-de-Bronze",
+                  "decision": "new_created_relationship",
+                  "rationale": "Explicit author-to-work relation candidate is represented separately in EVIDENCE_MATRIX; contribution wording and source limits are recorded on the candidate."
+                },
+                {
+                  "candidate_id": "WCD10-B08-W215-CREATED",
+                  "title": "Buriti",
+                  "decision": "new_created_relationship",
+                  "rationale": "Explicit author-to-work relation candidate is represented separately in EVIDENCE_MATRIX; contribution wording and source limits are recorded on the candidate."
+                },
+                {
+                  "candidate_id": "WCD10-B08-W216-CREATED",
+                  "title": "O mistério de Highmore Hall",
+                  "decision": "new_created_relationship",
+                  "rationale": "Explicit author-to-work relation candidate is represented separately in EVIDENCE_MATRIX; contribution wording and source limits are recorded on the candidate."
+                },
+                {
+                  "candidate_id": "WCD10-B08-W217-CREATED",
+                  "title": "Chronos kai Anagke (Tempo e Destino)",
+                  "decision": "new_created_relationship",
+                  "rationale": "Explicit author-to-work relation candidate is represented separately in EVIDENCE_MATRIX; contribution wording and source limits are recorded on the candidate."
+                }
+              ],
+              "cross_candidate_checks": [
+                {
+                  "objects": [
+                    "WCD10-B08-W201",
+                    "WCD10-B08-W209",
+                    "WCD10-B08-W210",
+                    "WCD10-B08-W211",
+                    "WCD10-B08-W212",
+                    "WCD10-B08-W213",
+                    "WCD10-B08-W214",
+                    "WCD10-B08-W215"
+                  ],
+                  "boundary": "The umbrella cycle and the seven separately titled constituent narratives are different textual layers; this is not an edition duplication."
+                },
+                {
+                  "objects": [
+                    "WCD10-B08-W202",
+                    "WCD10-B08-W204"
+                  ],
+                  "boundary": "Standalone 1952 Com o vaqueiro Mariano volume versus its later inclusion/reprinting in the 1969 These Estórias collection; no duplicate 1969 single-story candidate."
+                },
+                {
+                  "objects": [
+                    "WCD10-B08-W207",
+                    "WCD10-B08-W208"
+                  ],
+                  "boundary": "Two separate collaborative works named in ABL bibliography with different source-backed first years; the direct coauthor role is limited to each book and not treated as sole authorship."
+                }
+              ]
+            }
+          },
+          {
+            "candidate_id": "WCD10-B08-W217",
+            "normalization_key": "joao-guimaraes-rosa|chronos-kai-anagke|tempo-e-destino|1930-periodical-short-story",
+            "title_variants": [
+              "Chronos kai Anagke",
+              "Tempo e Destino"
+            ],
+            "duplicate_check": "Distinct periodical short-story text; not a later collection or same-name different author."
+          }
+        ]
+      }
+    }
+  ],
+  "cross_author_url_audit": {
+    "preflight_path": "project/internal/WCD_10_WORKSPACE/B08/INTEGRATION_PREP_ASSIST/SOURCE_URL_PREFLIGHT.json",
+    "cross_author_canonical_collisions": 0,
+    "existing_database_url_matches": 4,
+    "policy": "Audit only; no source candidate IDs or registration profiles are rewritten or aliased by URL."
+  }
+}

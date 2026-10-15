@@ -1,0 +1,126 @@
+{
+  "verdict": "PASS_ACTUAL_EXECUTION_REVIEW",
+  "reviewer": "Codex-parent-independent-review",
+  "date": "2026-10-12",
+  "task_id": "TASK-113",
+  "batch_id": "WCD-10-B08",
+  "database_sha256": "af6c293aa32d86143f2be6f4c4ed414799086f8878df22b13a7356397ebd6050",
+  "checks": [
+    {
+      "check": "exact actual checkpoint QA PASS/current hash",
+      "passed": true
+    },
+    {
+      "check": "SQL/map hashes retain parent reviewed bytes",
+      "passed": true
+    },
+    {
+      "check": "QA bound exact reviewed task/baseline/SQL/map",
+      "passed": true
+    },
+    {
+      "check": "19tables threeformats/full replay/oldrows PASS",
+      "passed": true
+    },
+    {
+      "check": "all43migrations19tables equal",
+      "passed": true
+    },
+    {
+      "check": "SQLite integrity/FK/schema unchanged",
+      "passed": true
+    },
+    {
+      "check": "22 deterministic export files",
+      "passed": true
+    },
+    {
+      "check": "full public byte-preservation127public/0new",
+      "passed": true
+    },
+    {
+      "check": "validated public payload scope",
+      "passed": true
+    },
+    {
+      "check": "ROOT original database untouched",
+      "passed": true
+    },
+    {
+      "check": "actual log exact approved SQL/task/reviewer",
+      "passed": true
+    },
+    {
+      "check": "two coauthors tracked on exact actual objects",
+      "passed": true
+    }
+  ],
+  "table_totals": {
+    "card_facts": 1872,
+    "card_sources": 1176,
+    "content_cards": 543,
+    "entities": 599,
+    "entity_id_map": 597,
+    "fact_sources": 2319,
+    "facts": 1893,
+    "gaps": 356,
+    "legacy_relation_groups": 15,
+    "metadata": 16,
+    "migration_log": 43,
+    "n3_decisions": 4,
+    "relation_hold_evidence": 58,
+    "relation_holds": 51,
+    "relationship_evidence": 863,
+    "relationship_sources": 892,
+    "relationships": 568,
+    "source_holds": 4,
+    "sources": 656
+  },
+  "table_deltas": {
+    "card_facts": 323,
+    "card_sources": 229,
+    "content_cards": 100,
+    "entities": 91,
+    "entity_id_map": 91,
+    "fact_sources": 441,
+    "facts": 323,
+    "gaps": 86,
+    "legacy_relation_groups": 0,
+    "metadata": 0,
+    "migration_log": 1,
+    "n3_decisions": 0,
+    "relation_hold_evidence": 0,
+    "relation_holds": 0,
+    "relationship_evidence": 190,
+    "relationship_sources": 190,
+    "relationships": 91,
+    "source_holds": 0,
+    "sources": 112
+  },
+  "evidence_sha256": {
+    "work/wcd10-qa/B08_CHECKPOINT_QA.json": "3d768a478a71beeec086e2f98448eee78e1072300de461fbdfcbd2290ce41232",
+    "work/wcd10-qa/B08_MIGRATION_REPLAY.log": "70378b337296a44e07b101d5551ba12b5fe24f7619f08074498f8960b2e06f97",
+    "data/changesets/WCD-10/B08/CHECKPOINT_REVIEW.json": "0533cdc93ec63467a3bd337a157907e464aa06dc063da9af17ba89088bdb6c4f",
+    "data/changesets/WCD-10/B08/INTEGRATION_MAP.json": "51ca756a7aed18caba1b2ee9ad2006a15fe10c9486f35eeddc8e6b99db7c6ddb"
+  },
+  "export_repeat_files": 22,
+  "unresolved": "16 deferrals and86 new gap records retained; stage coauthor re-entry/W03/remaining13 batches still required",
+  "not_rerun": "Browser matrix/unrelated unittest per DEC-070: no product/tool change; public177bytes verified",
+  "governance": {
+    "CHANGELOG": "UPDATED",
+    "TASKS": "UPDATED_TASK113_DONE_TASK114_READY",
+    "DECISIONS": "N/A uses existing DEC070; no new policy",
+    "README/masterREADME/audit/validation": "UPDATED",
+    "Spec": "N/A current DEC070 section already governs unchanged implementation",
+    "Charter": "N/A frozen, not modified",
+    "handoff": "UPDATED_AFTER_B08_BOUNDARY"
+  },
+  "governance_verification": "PASS actual links/statistics/current task rows and git diff --check verified2026-10-12; no new policies or tracked ROOT changes",
+  "governance_evidence_sha256": {
+    "README.md": "8c036107e9d3725cd360036781f874a281a152d7e867a65c0e7a3cf3a4cbeb82",
+    "data/master/README.md": "b51f9ca1016c3c822565fb8118f3b729d9c7b6d35020f5481926a03ac4df6d18",
+    "CHANGELOG.md": "81ce9af5d1497f7900eb22b61a83c4785644ced9c87403bd9fed63fa1ec97912",
+    "data/changesets/WCD-10/B08/AUDIT.md": "4b2a03f24c45b52b540248efb05c4b3e323628ef323cd0613960c5a6eb92e1b3",
+    "data/changesets/WCD-10/B08/VALIDATION.md": "1b0f8f14b90df92e9144501293467fdaecd81fa929d349d1e4fc37c351e1f23d"
+  }
+}

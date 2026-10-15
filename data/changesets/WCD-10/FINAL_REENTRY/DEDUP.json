@@ -1,0 +1,56 @@
+{
+  "baseline_database_sha256": "559b1858b7b5e647b4b313f841be8d2960cf3a5eacf2a2dd92c6161668da706c",
+  "title_checks": [
+    {
+      "proposed": "El mono gramático",
+      "candidate_type": "work",
+      "exact_existing_matches": [],
+      "disposition": "new"
+    },
+    {
+      "proposed": "O mistério dos MMM",
+      "target_entity": "V1-ENT-0591",
+      "entity_type": "work",
+      "disposition": "reuse_existing_object_for_controlled_append",
+      "duplicate_prohibited": true
+    }
+  ],
+  "source_checks": [
+    {
+      "candidate_id": "WCD10-B05-S07",
+      "disposition": "reuse",
+      "formal_source_id": "SRC-0099"
+    },
+    {
+      "candidate_id": "WCD10-B05-S12",
+      "disposition": "reuse",
+      "formal_source_id": "SRC-0300"
+    },
+    {
+      "candidate_id": "WCD10-B05-S18",
+      "disposition": "new_source_candidate",
+      "formal_source_id": null
+    }
+  ],
+  "gap_checks": [
+    {
+      "gap_id": "V1-GAP-0123",
+      "disposition": "preserve_existing_only",
+      "duplicate_candidate_gap": "none"
+    }
+  ],
+  "relationship_checks": [
+    {
+      "subject_id": "V1-ENT-0059",
+      "relation_type": "CREATED",
+      "object_id": "WCD10-B05-W027",
+      "disposition": "new_candidate"
+    },
+    {
+      "subject_id": "V1-ENT-0172",
+      "relation_type": "CREATED",
+      "object_id": "V1-ENT-0591",
+      "disposition": "controlled_append_attachment_only"
+    }
+  ]
+}

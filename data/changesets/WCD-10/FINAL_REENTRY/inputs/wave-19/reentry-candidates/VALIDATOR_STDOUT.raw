@@ -1,0 +1,46 @@
+{
+  "verdict": "pass",
+  "errors": [],
+  "warnings": [
+    "Mechanical PASS does not admit sources/facts/relations; independent Reviewer remains required."
+  ],
+  "counts": {
+    "source_candidates": 3,
+    "new_entity_candidates": 1,
+    "new_fact_candidates": 3,
+    "new_created_candidates": 1,
+    "extra_relationship_candidates": 0,
+    "deferred": 0
+  },
+  "dedup": [
+    {
+      "candidate_id": "WCD10-B05-S07",
+      "kind": "source",
+      "disposition": "reuse",
+      "matches": [
+        "SRC-0099"
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B05-S12",
+      "kind": "source",
+      "disposition": "reuse",
+      "matches": [
+        "SRC-0300"
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B05-S18",
+      "kind": "source",
+      "disposition": "new",
+      "matches": []
+    },
+    {
+      "candidate_id": "WCD10-B05-W027",
+      "kind": "entity",
+      "disposition": "new",
+      "matches": []
+    }
+  ]
+}
+

@@ -1,0 +1,204 @@
+{
+  "schema": "wcd10-b10-source-access-log-merged-1",
+  "task_id": "TASK-115",
+  "batch_id": "WCD-10-B10",
+  "baseline_database_sha256": "41f895012a71cec9cab831e1717e5f3ec0306100d95acf2ac34c9eccac5a4d3b",
+  "author_packages": [
+    {
+      "author_id": "V1-ENT-0225",
+      "source_directory": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/project/internal/WCD_10_WORKSPACE/orchestration/wave-07/marti/R2",
+      "source_access_log": {
+        "task_id": "TASK-115",
+        "batch_id": "WCD-10-B10",
+        "accessed_at": "2026-10-12",
+        "entries": [
+          {
+            "candidate_source_id": "WCD10-B10-S001",
+            "url": "https://www.cervantesvirtual.com/obra/amistad-funesta-novela--0/",
+            "access_status": "OPENED",
+            "accessed_at": "2026-10-12",
+            "verification": "直接打开并核对馆藏记录及明确定位；摘要只保留短核验信息。"
+          },
+          {
+            "candidate_source_id": "WCD10-B10-S002",
+            "url": "https://www.cervantesvirtual.com/obra/la-edad-de-oro-publicacion-mensual-dedicada-a-los-ninos--0/",
+            "access_status": "OPENED",
+            "accessed_at": "2026-10-12",
+            "verification": "直接打开并核对馆藏记录及明确定位；摘要只保留短核验信息。"
+          },
+          {
+            "candidate_source_id": "WCD10-B10-S003",
+            "url": "https://catalogo.bnphu.gob.do/cgi-bin/koha/opac-detail.pl?biblionumber=11683&query_desc=",
+            "access_status": "OPENED",
+            "accessed_at": "2026-10-12",
+            "verification": "直接打开并核对馆藏记录及明确定位；摘要只保留短核验信息。"
+          },
+          {
+            "candidate_source_id": "WCD10-B10-S004",
+            "url": "https://cervantesvirtual.com/obra/abdala--0/",
+            "access_status": "OPENED",
+            "accessed_at": "2026-10-12",
+            "verification": "直接打开并核对馆藏记录及明确定位；摘要只保留短核验信息。"
+          },
+          {
+            "candidate_source_id": "WCD10-B10-S005",
+            "url": "https://www.cervantesvirtual.com/obra-visor/amistad-funesta-novela--0/html/fef79342-82b1-11df-acc7-002185ce6064_2.html",
+            "access_status": "OPENED",
+            "accessed_at": "2026-10-12",
+            "verification": "直接打开原文/机构辞典页面并核验题名、作者、发表信息和叙述定位。"
+          },
+          {
+            "candidate_source_id": "WCD10-B10-S006",
+            "url": "https://www.cervantesvirtual.com/obra-visor/diccionario-de-la-literatura-cubana--0/html/254m.htm",
+            "access_status": "OPENED",
+            "accessed_at": "2026-10-12",
+            "verification": "直接打开原文/机构辞典页面并核验题名、作者、发表信息和叙述定位。"
+          },
+          {
+            "candidate_source_id": "WCD10-B10-S007",
+            "url": "https://www.cervantesvirtual.com/portales/traducciones_hispanoamericanas/traductores/",
+            "access_status": "OPENED",
+            "accessed_at": "2026-10-12",
+            "verification": "实际打开页面并核对题名、署名、简介/原文摘录及指定行段；避免拷录长段原文。"
+          },
+          {
+            "candidate_source_id": "WCD10-B10-S008",
+            "url": "https://www.educ.ar/recursos/151773/versos-sencillos-de-jose-marti",
+            "access_status": "OPENED",
+            "accessed_at": "2026-10-12",
+            "verification": "实际打开页面并核对题名、署名、简介/原文摘录及指定行段；避免拷录长段原文。"
+          },
+          {
+            "candidate_source_id": "WCD10-B10-S009",
+            "url": "https://bcn.gob.ar/la-biblioteca/publicaciones/coleccion-pensamiento-del-bicentenario/nuestra-america",
+            "access_status": "OPENED",
+            "accessed_at": "2026-10-12",
+            "verification": "实际打开页面并核对题名、署名、简介/原文摘录及指定行段；避免拷录长段原文。"
+          },
+          {
+            "candidate_source_id": "WCD10-B10-S010",
+            "url": "https://www.poeticous.com/marti/books/ismaelillo?locale=es",
+            "access_status": "OPENED",
+            "accessed_at": "2026-10-12",
+            "verification": "实际打开页面并核对题名、署名、简介/原文摘录及指定行段；避免拷录长段原文。"
+          },
+          {
+            "candidate_source_id": "WCD10-B10-S011",
+            "url": "https://www.cervantesvirtual.com/obra-visor/amistad-funesta-novela--0/html/fef79342-82b1-11df-acc7-002185ce6064_3.html",
+            "access_status": "OPENED",
+            "accessed_at": "2026-10-12",
+            "verification": "从作品目录点击进入原文并核对对应章节/场次；仅记录简短定位，不复制长段原文。"
+          },
+          {
+            "candidate_source_id": "WCD10-B10-S012",
+            "url": "https://www.cervantesvirtual.com/obra-visor/abdala--0/html/fef77c2c-82b1-11df-acc7-002185ce6064_2.html",
+            "access_status": "OPENED",
+            "accessed_at": "2026-10-12",
+            "verification": "从作品目录点击进入原文并核对对应章节/场次；仅记录简短定位，不复制长段原文。"
+          }
+        ]
+      }
+    },
+    {
+      "author_id": "V1-ENT-0236",
+      "source_directory": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/project/internal/WCD_10_WORKSPACE/orchestration/wave-07/parra",
+      "source_access_log": {
+        "task_id": "TASK-115",
+        "batch_id": "WCD-10-B10",
+        "author_id": "V1-ENT-0236",
+        "accessed_at": "2026-10-12",
+        "records": [
+          {
+            "source_ref": "WCD10-B10-S101",
+            "url": "https://www.memoriachilena.gob.cl/602/w3-article-3629.html",
+            "opened": "yes",
+            "locator": "已读取页面正文而非搜索摘要：第80行对Parra总体作品定位；第108–109行明确Poemas y antipoemas (1954)及反诗、讽刺、日常直白语言；第110行La cueca larga (1958)受智利民间欢庆节奏启发并戏仿；第111–112行列Versos de salón、Obra gruesa (1969)、Sermones y prédicas del Cristo de Elqui (1977)等作品并说这些书展示反诗模式与演进；时间线第475–491、510–526行列具体年份。",
+            "source_identity": "Nicanor Parra (1914-2018), Biblioteca Nacional de Chile / Memoria Chilena; baseline SRC-0188 reused."
+          },
+          {
+            "source_ref": "WCD10-B10-S102",
+            "url": "https://www.nicanorparra.uchile.cl/bibliografia/bibliogr.html",
+            "opened": "yes",
+            "locator": "已读取正文：主标题“Nicanor Parra. Obras principales”，署名Federico Schopf；第12、19、29–30行分别列La Cueca Larga、Obra Gruesa和Sermones y Prédicas del Cristo de Elqui及版次说明；第49行列Discursos de Sobremesa (1997)并注明该版撤回发行。",
+            "source_identity": "Fichas bibliográficas I — Nicanor Parra, Universidad de Chile; baseline SRC-0189 reused."
+          }
+        ]
+      }
+    },
+    {
+      "author_id": "V1-ENT-0237",
+      "source_directory": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/project/internal/WCD_10_WORKSPACE/orchestration/wave-07/pizarnik/R1",
+      "source_access_log": {
+        "task_id": "TASK-115",
+        "batch_id": "WCD-10-B10",
+        "author_id": "V1-ENT-0237",
+        "accessed_at": "2026-10-12",
+        "records": [
+          {
+            "source_ref": "WCD10-B10-S201",
+            "url": "https://cvc.cervantes.es/literatura/escritores/pizarnik/bibliografia/default.htm",
+            "opened": "yes",
+            "locator": "网页全文第13-21、27-30、44-47、66-70、81-84行；直接列作品书目、出版年与部分出版信息。2026-10-12实读。",
+            "source_identity": "CVC. Alejandra Pizarnik. Bibliografía. Obras；署名/编辑：Centro Virtual Cervantes；CVC机构网页。"
+          },
+          {
+            "source_ref": "WCD10-B10-S202",
+            "url": "https://cvc.cervantes.es/literatura/escritores/pizarnik/obra/arbol.htm",
+            "opened": "yes",
+            "locator": "网页全文第5-17行；评论讨论帕斯序言、书名象征、意象及绘画题献。2026-10-12实读。",
+            "source_identity": "CVC. Alejandra Pizarnik. Obra. Árbol de Diana；署名/编辑：Antonio Beneyto；Centro Virtual Cervantes；CVC机构网页。"
+          },
+          {
+            "source_ref": "WCD10-B10-S203",
+            "url": "https://cvc.cervantes.es/literatura/escritores/pizarnik/obra/trabajos.htm",
+            "opened": "yes",
+            "locator": "网页全文第5-19行；评论谈诗集的爱情表达、对话/静默意象及语音节奏。2026-10-12实读。",
+            "source_identity": "CVC. Alejandra Pizarnik. Obra. Los trabajos y las noches；署名/编辑：Antonio Beneyto；Centro Virtual Cervantes；CVC机构网页。"
+          },
+          {
+            "source_ref": "WCD10-B10-S204",
+            "url": "https://cvc.cervantes.es/literatura/escritores/pizarnik/biografia.htm",
+            "opened": "yes",
+            "locator": "网页全文第38行；CVC评论将象征意象与痛苦、无力相联系。2026-10-12实读。",
+            "source_identity": "CVC. Alejandra Pizarnik. Biografía literaria；署名/编辑：Centro Virtual Cervantes；CVC机构网页。"
+          },
+          {
+            "source_ref": "WCD10-B10-S205",
+            "url": "https://cvc.cervantes.es/literatura/escritores/pizarnik/obra/inocencia.htm",
+            "opened": "yes",
+            "locator": "网页全文第5-17行；明示1956年，并评论书名来源、梦境与记忆意象。2026-10-12实读。",
+            "source_identity": "CVC. Alejandra Pizarnik. Obra. La última inocencia；署名/编辑：Antonio Beneyto；Centro Virtual Cervantes；CVC机构网页。"
+          },
+          {
+            "source_ref": "WCD10-B10-S206",
+            "url": "https://cvc.cervantes.es/literatura/escritores/pizarnik/obra/aventuras.htm",
+            "opened": "yes",
+            "locator": "网页全文第5-17行；明示1958年，评论精神分析、超现实主义意象及镜像/迷失方向。2026-10-12实读。",
+            "source_identity": "CVC. Alejandra Pizarnik. Obra. Las aventuras perdidas；署名/编辑：Antonio Beneyto；Centro Virtual Cervantes；CVC机构网页。"
+          },
+          {
+            "source_ref": "WCD10-B10-S207",
+            "url": "https://cvc.cervantes.es/literatura/escritores/pizarnik/obra/condesa.htm",
+            "opened": "yes",
+            "locator": "网页全文第12-13、20行；记1965年墨西哥首次预告、1966年发表于Testigo、1971年以书本版出版，并称为essay-poem-novel。2026-10-12实读。",
+            "source_identity": "CVC. Alejandra Pizarnik. Obra. La condesa sangrienta；署名/编辑：Centro Virtual Cervantes；CVC机构网页。"
+          },
+          {
+            "source_ref": "WCD10-B10-S208",
+            "url": "https://cvc.cervantes.es/literatura/escritores/pizarnik/acerca/martinez.htm",
+            "opened": "yes",
+            "locator": "网页全文第14-17行；第15行另评论写作由韵文向散文延展。2026-10-12实读。",
+            "source_identity": "CVC. Alejandra Pizarnik: leyenda de una vida tras de su obra；署名/编辑：Gustavo Martínez González；Centro Virtual Cervantes；CVC机构网页。"
+          },
+          {
+            "source_ref": "WCD10-B10-S209",
+            "url": "https://cvc.cervantes.es/literatura/escritores/pizarnik/acerca/barella.htm",
+            "opened": "yes",
+            "locator": "网页全文第14-21行；将“Cold in hand blues”标为El infierno musical（1971）中的诗，并概述语言写作。2026-10-12实读。",
+            "source_identity": "CVC. Alejandra Pizarnik escondida en el lenguaje；署名/编辑：Julia Barella；Centro Virtual Cervantes；CVC机构网页。"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,172 @@
+{
+  "task_id": "TASK-121",
+  "batch_id": "WCD-10-B16",
+  "accessed_at": "2026-10-13",
+  "sources": [
+    {
+      "candidate_id": "WCD10-B16-S001",
+      "url": "https://www.anagrama-ed.es/autor/zambra-alejandro-1146",
+      "title": "Alejandro Zambra — Editorial Anagrama",
+      "opened": true,
+      "read_in_session": true,
+      "access_method": "direct page open in web browser/search tool; page body read, not search-snippet only",
+      "locator": "页面第61-63行：列出Anagrama出版的小说、短篇集、随笔集及年份；第62行把Tema libre称为随笔集并列2019。实读2026-10-13。",
+      "support_scope": "复用冻结库SRC-0239，不改其既有元数据或等级。直接重读当前作者书目页，仅支持该页面直接列出的作品题名、Anagrama目录年份、体裁类别与作者归属。"
+    },
+    {
+      "candidate_id": "WCD10-B16-S002",
+      "url": "https://ediciones.udp.cl/libro/no-leer/",
+      "title": "NO LEER — Ediciones UDP",
+      "opened": true,
+      "read_in_session": true,
+      "access_method": "direct page open in web browser/search tool; page body read, not search-snippet only",
+      "locator": "第45-58行：出版者、作者、2010、153页及由编年/文学短论组成、围绕阅读的说明。实读2026-10-13。",
+      "support_scope": "出版社原始书目与作品简介；仅支持基本书目信息、文体和短简介。"
+    },
+    {
+      "candidate_id": "WCD10-B16-S003",
+      "url": "https://www.anagrama-ed.es/libro/narrativas-hispanicas/poeta-chileno/9788433998934/NH_641",
+      "title": "Poeta chileno — Alejandro Zambra — Editorial Anagrama",
+      "opened": true,
+      "read_in_session": true,
+      "access_method": "direct page open in web browser/search tool; page body read, not search-snippet only",
+      "locator": "第61-65行识别题名/作者并描述小说主题；第77-83行人物与智利诗歌文化的出版社简介。作者年表见S001第62行。实读2026-10-13。",
+      "support_scope": "出版社书目简介；支持作者归属、小说体裁及经压缩释义的对象级简介。"
+    },
+    {
+      "candidate_id": "WCD10-B16-S004",
+      "url": "https://www.anagrama-ed.es/libro/compactos/mis-documentos/9788433960252/CM_724",
+      "title": "Mis documentos — Alejandro Zambra — Editorial Anagrama",
+      "opened": true,
+      "read_in_session": true,
+      "access_method": "direct page open in web browser/search tool; page body read, not search-snippet only",
+      "locator": "第61-63行识别题名/作者；第77-82行称其为短篇集并说明作品结构、记忆与共同历史；第120-123行所示为2018年Compactos版。实读2026-10-13。",
+      "support_scope": "只支持短篇集类别及有界内容简介；页面标示2018年版，未据此推断初版年。"
+    },
+    {
+      "candidate_id": "WCD10-B16-S005",
+      "url": "https://www.anagrama-ed.es/libro/narrativas-hispanicas/facsimil/9788433999122/NH_666",
+      "title": "Facsímil — Alejandro Zambra — Editorial Anagrama",
+      "opened": true,
+      "read_in_session": true,
+      "access_method": "direct page open in web browser/search tool; page body read, not search-snippet only",
+      "locator": "第61-63行识别题名/作者；第77-80行说明其借用大学入学选择题形式、由叙事/抒情片段/语言练习构成且初刊于2014；第126-128行记录该Anagrama版日期2021-02-24。实读2026-10-13。",
+      "support_scope": "直接支持首发年、混合形式及有界作品简介；区分2014初刊与2021出版社重印版。"
+    },
+    {
+      "candidate_id": "WCD10-B16-S006",
+      "url": "https://www.anagrama-ed.es/libro/narrativas-hispanicas/literatura-infantil/9788433905161/NH_715",
+      "title": "Literatura infantil — Alejandro Zambra — Editorial Anagrama",
+      "opened": true,
+      "read_in_session": true,
+      "access_method": "direct page open in web browser/search tool; page body read, not search-snippet only",
+      "locator": "第61-65行识别题名/作者和日记、致子书信、虚构混合形式；第77-82行讨论童年、亲职与父子关系；第123-125行出版日期2023-05-10。实读2026-10-13。",
+      "support_scope": "出版社原始简介；支持出版者目录年份、混合文体和有界简介。"
+    },
+    {
+      "candidate_id": "WCD10-B16-S007",
+      "url": "https://www.anagrama-ed.es/libro/narrativas-hispanicas/bonsai/9788433932471/NH_391",
+      "title": "Bonsái — Alejandro Zambra — Editorial Anagrama",
+      "opened": true,
+      "read_in_session": true,
+      "access_method": "direct page open in web browser/search tool; page body read, not search-snippet only",
+      "locator": "第136-140行：Juli​​o观察盆景、故事的精简/摘要式小说形式与其首部叙事作品描述。实读2026-10-13。",
+      "support_scope": "只为既有作品添加压缩的出版社简介，不改动冻结事实或作品关系。"
+    },
+    {
+      "candidate_id": "WCD10-B16-S008",
+      "url": "https://www.anagrama-ed.es/libro/narrativas-hispanicas/la-vida-privada-de-los-arboles/9788433932525/NH_416",
+      "title": "La vida privada de los árboles — Alejandro Zambra — Editorial Anagrama",
+      "opened": true,
+      "read_in_session": true,
+      "access_method": "direct page open in web browser/search tool; page body read, not search-snippet only",
+      "locator": "第61-63行识别题名/作者；第75-79行叙述Julián等待Verónica、为Daniela讲树的故事及延展时间线。实读2026-10-13。",
+      "support_scope": "只为既有作品添加压缩的出版社简介，不改动冻结事实或作品关系。"
+    },
+    {
+      "candidate_id": "WCD10-B16-S009",
+      "url": "https://www.anagrama-ed.es/libro/narrativas-hispanicas/formas-de-volver-a-casa/9788433933041/EB_84",
+      "title": "Formas de volver a casa — Alejandro Zambra — Editorial Anagrama",
+      "opened": true,
+      "read_in_session": true,
+      "access_method": "direct page open in web browser/search tool; page body read, not search-snippet only",
+      "locator": "第71-73行说明九岁男孩与1980年代中期智利背景、日记式叙事及对国家过去的回望；第121-123行记录该版2011-04-08。实读2026-10-13。",
+      "support_scope": "只为既有作品添加压缩的出版社简介，不改动冻结事实或作品关系。"
+    },
+    {
+      "url": "https://www2.academia.org.br/academicos/paulo-coelho/bibliografia",
+      "access_status": "OPENED",
+      "accessed_at": "2026-10-13",
+      "opened": true,
+      "locator": "实读2026-10-13。第13行列 O Diário de um Mago – O Peregrino，Rio de Janeiro: Rocco, 1987；第17行 Brida 1990；第21行 As Valkírias 1992；第22行 Na Margem do Rio Pedra Eu Sentei e Chorei 1994；第28行 O Monte Cinco 1996；第34/37行另列既有 Veronika Decide Morrer (1998)、O Demônio e a Srta. Prym (2000)。",
+      "use": "支持ABL书目所列原题及其所标出版物/版本年份；只有与接受演说独立支持的作品才将年份作为首发年，避免把版本记录泛化。"
+    },
+    {
+      "url": "https://www.academia.org.br/academicos/paulo-coelho/discurso-de-recepcao",
+      "access_status": "OPENED",
+      "accessed_at": "2026-10-13",
+      "opened": true,
+      "locator": "实读2026-10-13。第48-52行明确讲述 O Diário de um Mago (1987)、O Alquimista (1988)、Brida (1990，称为romance)、As Valkírias (1992)、Na Margem do Rio Piedra (1994)、Maktub (1994)、O Monte Cinco (1996)、Veronika Decide Morrer (1998)、O Demônio e a Srta. Prym (2000)；并分别简述Brida、Valkírias、Na Margem、Monte Cinco、Veronika、Prym。",
+      "use": "支持指定作品的题名、年份及演说明确给出的有限描述；不采用演说对作者私生活或文学评价作超出作品书目的事实。"
+    },
+    {
+      "url": "https://sites.usp.br/portalatinoamericano/en/coelho-paulo",
+      "access_status": "OPENED",
+      "accessed_at": "2026-10-13",
+      "opened": true,
+      "locator": "实读2026-10-13，第45行列 O diário de um mago (1986)；第42行称其朝圣经历成为该书。",
+      "use": "只用于记录USP页面1986与ABL书目1987的年份口径差异，暂不据任一来源填写作品首发年。",
+      "reuse_existing_source": "SRC-0242"
+    },
+    {
+      "candidate_source_id": "WCD10-B16-S201",
+      "url": "https://funag.gov.br/biblioteca-nova/produto/loc_pdf/314/1/biografias",
+      "title": "Biografias — Fundação Alexandre de Gusmão (FUNAG)",
+      "accessed_at": "2026-10-13",
+      "verified_by": "gpt-6-luna",
+      "locator": "实读2026-10-13，PDF第29页（网页总行469–483）：Brejo das almas、Sentimento do mundo、A rosa do povo、Claro Enigma、Contos de aprendiz、Confissões de Minas、Passeios na ilha的题名/体裁/年份或作品描述；该段将诗歌转向、战时社会参与及散文/编年文分类直接并列。该书出版信息见网页总行16、41–45。",
+      "claim_scope": "直接支持所列作品的作者归属、普通体裁/书目年份和有限内容描述；各书年份作为该官方传记所列年份，未用其他版本日期推作首版年。",
+      "access_status": "OPENED"
+    },
+    {
+      "candidate_source_id": "WCD10-B16-S202",
+      "url": "https://www.record.com.br/products/sentimento-do-mundo/",
+      "title": "Sentimento do mundo — Editora Record",
+      "accessed_at": "2026-10-13",
+      "verified_by": "gpt-6-luna",
+      "locator": "实读2026-10-13，网页第104–127行列题名、作者、1940出版和简要内容；第144–152行是2022年新版本书目日期。",
+      "claim_scope": "直接支持《Sentimento do mundo》的作者、诗集/诗歌形式、1940年出版及有界简介；2022仅作页面所列新版本日期，不作为首版年。",
+      "access_status": "OPENED"
+    },
+    {
+      "candidate_source_id": "WCD10-B16-S203",
+      "url": "https://www.academia.org.br/artigos/o-ano-drummond",
+      "title": "O ano Drummond",
+      "accessed_at": "2026-10-13",
+      "verified_by": "gpt-6-luna",
+      "locator": "实读2026-10-13，Academia Brasileira de Letras《O ano Drummond》网页第20–35行诗歌目录列出《Alguma poesia》(1930)、《Brejo das almas》(1934)、《Sentimento do mundo》(1940)、《José》(1942)、《A rosa do povo》(1945)、《Claro enigma》(1951)。",
+      "claim_scope": "直接支持作者诗歌目录中列举的题名及对应书目年份；不将目录以外日期推作首发年。",
+      "access_status": "OPENED"
+    },
+    {
+      "candidate_source_id": "WCD10-B16-S204",
+      "url": "https://bndigital.bn.gov.br/carlos-drummond-de-andrade/",
+      "title": "Carlos Drummond de Andrade",
+      "accessed_at": "2026-10-13",
+      "verified_by": "gpt-6-luna",
+      "locator": "实读2026-10-13，BNDigital人物页第45–46行列出《Brejo das Almas》(1934)、《Sentimento do Mundo》(1940)、《José》(1942)、《A Rosa do Povo》(1945)、《Claro Enigma》(1951)，并直接概括各阶段作品内容。",
+      "claim_scope": "直接支持书目题名、年份、早期作品概述及《人民的玫瑰》《明晰之谜》的有限简介。",
+      "access_status": "OPENED"
+    },
+    {
+      "candidate_source_id": "WCD10-B16-S205",
+      "url": "https://www.record.com.br/products/contos-de-aprendiz",
+      "title": "Contos de aprendiz — Editora Record",
+      "accessed_at": "2026-10-13",
+      "verified_by": "gpt-6-luna",
+      "locator": "实读2026-10-13，网页第112–133行列题名、作者、1951年出版、首次进入纯文学虚构叙事及15篇故事和内容说明。",
+      "claim_scope": "直接支持《Contos de aprendiz》的作者归属、作品形式、1951年出版与有限内容简介。",
+      "access_status": "OPENED"
+    }
+  ]
+}

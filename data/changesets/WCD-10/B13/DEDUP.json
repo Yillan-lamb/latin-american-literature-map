@@ -1,0 +1,429 @@
+{
+  "schema": "wcd10-b13-dedup-merged-1",
+  "task_id": "TASK-118",
+  "batch_id": "WCD-10-B13",
+  "baseline_database_sha256": "74a900c2988eec78a700467bc70c5e523a774cd4fa615cfc5edfdd16991ff8f7",
+  "author_packages": [
+    {
+      "author_id": "V1-ENT-0262",
+      "source_directory": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/project/internal/WCD_10_WORKSPACE/orchestration/wave-10/bolano/R2",
+      "dedup": {
+        "baseline_dedup": "Exact normalized-title/type inventory checked against actual B13 baseline; only three linked works are Los detectives salvajes, 2666 and Estrella distante. Candidate titles below do not match those baseline works.",
+        "works": [
+          {
+            "candidate_id": "WCD10-B13-W001",
+            "kind": "entity",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B13-W002",
+            "kind": "entity",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B13-W003",
+            "kind": "entity",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B13-W004",
+            "kind": "entity",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B13-W005",
+            "kind": "entity",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B13-W006",
+            "kind": "entity",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B13-W007",
+            "kind": "entity",
+            "disposition": "new",
+            "matches": []
+          }
+        ],
+        "sources": [
+          {
+            "candidate_id": "WCD10-B13-S001",
+            "kind": "source",
+            "disposition": "reuse",
+            "matches": [
+              "SRC-0211"
+            ]
+          },
+          {
+            "candidate_id": "WCD10-B13-S002",
+            "kind": "source",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B13-S003",
+            "kind": "source",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B13-S004",
+            "kind": "source",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B13-S005",
+            "kind": "source",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B13-S006",
+            "kind": "source",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B13-S007",
+            "kind": "source",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B13-S008",
+            "kind": "source",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B13-S009",
+            "kind": "source",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B13-S010",
+            "kind": "source",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B13-S011",
+            "kind": "source",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B13-S012",
+            "kind": "source",
+            "disposition": "new",
+            "matches": []
+          }
+        ]
+      }
+    },
+    {
+      "author_id": "V1-ENT-0272",
+      "source_directory": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/project/internal/WCD_10_WORKSPACE/orchestration/wave-10/galeano/FINAL",
+      "dedup": {
+        "schema": "wcd10-b13-dedup-1",
+        "task_id": "TASK-118",
+        "batch_id": "WCD-10-B13",
+        "baseline_database_sha256": "74a900c2988eec78a700467bc70c5e523a774cd4fa615cfc5edfdd16991ff8f7",
+        "author_id": "V1-ENT-0272",
+        "baseline_existing_work_ids": [
+          "V1-ENT-0275",
+          "V1-ENT-0276",
+          "V1-ENT-0277"
+        ],
+        "works": [
+          {
+            "candidate_id": "WCD10-B13-W101",
+            "kind": "entity",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B13-W102",
+            "kind": "entity",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B13-W103",
+            "kind": "entity",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B13-W104",
+            "kind": "entity",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B13-W105",
+            "kind": "entity",
+            "disposition": "new",
+            "matches": []
+          }
+        ],
+        "sources": [
+          {
+            "candidate_id": "WCD10-B13-S101",
+            "url": "https://uruguayeduca.anep.edu.uy/efemerides/nace-eduardo-galeano",
+            "disposition": "reuse_existing_source",
+            "matches": [
+              "SRC-0214"
+            ]
+          },
+          {
+            "candidate_id": "WCD10-B13-S103",
+            "url": "https://www.sigloxxieditores.com/libro/memoria-del-fuego-2-las-caras-y-las-mascaras_53908/",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B13-S104",
+            "url": "https://www.sigloxxieditores.com/libro/memoria-del-fuego-3-el-siglo-del-viento_53910/",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B13-S105",
+            "url": "https://www.sigloxxieditores.com/libro/el-libro-de-los-abrazos_53558/",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B13-S106",
+            "url": "https://www.sigloxxieditores.com/libro/el-futbol-a-sol-y-sombra_53031/",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B13-S107",
+            "url": "https://www.sigloxxieditores.com/libro/las-venas-abiertas-de-america-latina_52766/",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B13-S108",
+            "url": "https://www.sigloxxieditores.com/libro/memoria-del-fuego-1-los-nacimientos_53906/",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B13-S109",
+            "url": "https://www.sigloxxieditores.com/libro/espejos_16488/",
+            "disposition": "new",
+            "matches": []
+          }
+        ],
+        "notes": [
+          "全658实体的original_name精确大小写折叠查重；validator还会执行规范化title匹配。",
+          "作者所有既有CREATED/关联地点关系在coverage闭包中保留。",
+          "R1 adds two missing Memoria del fuego volumes and Espejos following parent direct-source review; old work closures remain in baseline snapshots."
+        ]
+      }
+    },
+    {
+      "author_id": "V1-ENT-0273",
+      "source_directory": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/project/internal/WCD_10_WORKSPACE/orchestration/wave-10/piglia/FINAL",
+      "dedup": {
+        "baseline_dedup": "按冻结B13基线语义查重；已有三个Piglia作品全部保留并逐值快照。新增候选逐个在冻结entities中校验同层题名，重复时不建立新对象。",
+        "works": [
+          {
+            "candidate_id": "WCD10-B13-W201",
+            "original_name": "La ciudad ausente",
+            "disposition": "new after baseline semantic title check",
+            "baseline_existing_work_titles": [
+              "Respiración artificial",
+              "Plata quemada",
+              "Blanco nocturno"
+            ],
+            "entity_type": "work"
+          },
+          {
+            "candidate_id": "WCD10-B13-W202",
+            "original_name": "El camino de ida",
+            "disposition": "new after baseline semantic title check",
+            "baseline_existing_work_titles": [
+              "Respiración artificial",
+              "Plata quemada",
+              "Blanco nocturno"
+            ],
+            "entity_type": "work"
+          },
+          {
+            "candidate_id": "WCD10-B13-W203",
+            "original_name": "Los casos del comisario Croce",
+            "disposition": "new after baseline semantic title check",
+            "baseline_existing_work_titles": [
+              "Respiración artificial",
+              "Plata quemada",
+              "Blanco nocturno"
+            ],
+            "entity_type": "collection"
+          },
+          {
+            "candidate_id": "WCD10-B13-W205",
+            "original_name": "La invasión",
+            "disposition": "new after baseline semantic title check",
+            "baseline_existing_work_titles": [
+              "Respiración artificial",
+              "Plata quemada",
+              "Blanco nocturno"
+            ],
+            "entity_type": "collection"
+          },
+          {
+            "candidate_id": "WCD10-B13-W206",
+            "original_name": "Nombre falso",
+            "disposition": "new after baseline semantic title check",
+            "baseline_existing_work_titles": [
+              "Respiración artificial",
+              "Plata quemada",
+              "Blanco nocturno"
+            ],
+            "entity_type": "collection"
+          },
+          {
+            "candidate_id": "WCD10-B13-W207",
+            "original_name": "Prisión perpetua",
+            "disposition": "new after baseline semantic title check",
+            "baseline_existing_work_titles": [
+              "Respiración artificial",
+              "Plata quemada",
+              "Blanco nocturno"
+            ],
+            "entity_type": "collection"
+          },
+          {
+            "candidate_id": "WCD10-B13-W208",
+            "original_name": "Crítica y ficción",
+            "disposition": "new after baseline semantic title check",
+            "baseline_existing_work_titles": [
+              "Respiración artificial",
+              "Plata quemada",
+              "Blanco nocturno"
+            ],
+            "entity_type": "collection"
+          },
+          {
+            "candidate_id": "WCD10-B13-W209",
+            "original_name": "Formas breves",
+            "disposition": "new after baseline semantic title check",
+            "baseline_existing_work_titles": [
+              "Respiración artificial",
+              "Plata quemada",
+              "Blanco nocturno"
+            ],
+            "entity_type": "work"
+          },
+          {
+            "candidate_id": "WCD10-B13-W210",
+            "original_name": "El último lector",
+            "disposition": "new after baseline semantic title check",
+            "baseline_existing_work_titles": [
+              "Respiración artificial",
+              "Plata quemada",
+              "Blanco nocturno"
+            ],
+            "entity_type": "work"
+          },
+          {
+            "candidate_id": "WCD10-B13-W211",
+            "original_name": "Los diarios de Emilio Renzi. Años de formación",
+            "disposition": "new after baseline semantic title check",
+            "baseline_existing_work_titles": [
+              "Respiración artificial",
+              "Plata quemada",
+              "Blanco nocturno"
+            ],
+            "entity_type": "work"
+          },
+          {
+            "candidate_id": "WCD10-B13-W212",
+            "original_name": "Los diarios de Emilio Renzi. Los años felices",
+            "disposition": "new after baseline semantic title check",
+            "baseline_existing_work_titles": [
+              "Respiración artificial",
+              "Plata quemada",
+              "Blanco nocturno"
+            ],
+            "entity_type": "work"
+          },
+          {
+            "candidate_id": "WCD10-B13-W213",
+            "original_name": "Los diarios de Emilio Renzi. Un día en la vida",
+            "disposition": "new after baseline semantic title check",
+            "baseline_existing_work_titles": [
+              "Respiración artificial",
+              "Plata quemada",
+              "Blanco nocturno"
+            ],
+            "entity_type": "work"
+          },
+          {
+            "candidate_id": "WCD10-B13-W204",
+            "original_name": "Jaulario",
+            "disposition": "deferred edition identity",
+            "baseline_existing_work_titles": [
+              "Respiración artificial",
+              "Plata quemada",
+              "Blanco nocturno"
+            ],
+            "note": "not added to new_entities; author catalog separately lists Jaulario and La invasión at 1967; possible edition relationship remains unconfirmed from this package."
+          }
+        ],
+        "sources": [
+          {
+            "candidate_id": "WCD10-B13-S201",
+            "url": "https://piglia.pubpub.org/bio",
+            "disposition": "fresh_registration",
+            "matched_existing_source_id": ""
+          },
+          {
+            "candidate_id": "WCD10-B13-S202",
+            "url": "https://www.anagrama-ed.es/autor/piglia-ricardo-856",
+            "disposition": "fresh_registration",
+            "matched_existing_source_id": ""
+          },
+          {
+            "candidate_id": "WCD10-B13-S203",
+            "url": "https://www.anagrama-ed.es/libro/narrativas-hispanicas/la-ciudad-ausente/9788433968418/NH_340",
+            "disposition": "fresh_registration",
+            "matched_existing_source_id": ""
+          },
+          {
+            "candidate_id": "WCD10-B13-S204",
+            "url": "https://www.anagrama-ed.es/libro/narrativas-hispanicas/el-camino-de-ida/9788433997647/NH_517",
+            "disposition": "fresh_registration",
+            "matched_existing_source_id": ""
+          },
+          {
+            "candidate_id": "WCD10-B13-S205",
+            "url": "https://www.anagrama-ed.es/libro/narrativas-hispanicas/los-casos-del-comisario-croce/9788433998606/NH_611",
+            "disposition": "fresh_registration",
+            "matched_existing_source_id": ""
+          }
+        ],
+        "baseline_existing_work_titles": [
+          "Respiración artificial",
+          "Plata quemada",
+          "Blanco nocturno"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,268 @@
+{
+  "task_id": "TASK-115",
+  "batch_id": "WCD-10-B10",
+  "accessed_at": "2026-10-12",
+  "verified_by": "GPT-6 Luna author-isolated candidate producers; mechanically merged by sole B10 Integrator",
+  "source_year_policy": "Author-specific source-year policies are retained in author_policies; no years inferred during merge.",
+  "public_content_scope": "B10 Research candidate metadata only; no public admission implied.",
+  "local_asset_status": "remote_only",
+  "copyright_boundary": "Author-specific boundaries are retained in author_policies; no substantial source text added during merge.",
+  "profiles": [
+    {
+      "candidate_id": "WCD10-B10-S001",
+      "publisher": "Biblioteca Virtual Miguel de Cervantes",
+      "format": "institutional_catalog_web_page",
+      "language": "es",
+      "publication_year": "",
+      "notes": "页面已直接打开核验，定位及支持范围见候选来源与EVIDENCE_MATRIX。",
+      "disposition": "fresh_registration"
+    },
+    {
+      "candidate_id": "WCD10-B10-S002",
+      "publisher": "Biblioteca Virtual Miguel de Cervantes",
+      "format": "institutional_catalog_web_page",
+      "language": "es",
+      "publication_year": "",
+      "notes": "页面已直接打开核验，定位及支持范围见候选来源与EVIDENCE_MATRIX。",
+      "disposition": "fresh_registration"
+    },
+    {
+      "candidate_id": "WCD10-B10-S003",
+      "publisher": "Biblioteca Pedro Henríquez Ureña",
+      "format": "institutional_catalog_web_page",
+      "language": "es",
+      "publication_year": "",
+      "notes": "页面已直接打开核验，定位及支持范围见候选来源与EVIDENCE_MATRIX。",
+      "disposition": "fresh_registration"
+    },
+    {
+      "candidate_id": "WCD10-B10-S004",
+      "publisher": "Biblioteca Virtual Miguel de Cervantes",
+      "format": "institutional_catalog_web_page",
+      "language": "es",
+      "publication_year": "",
+      "notes": "页面已直接打开核验，定位及支持范围见候选来源与EVIDENCE_MATRIX。",
+      "disposition": "fresh_registration"
+    },
+    {
+      "candidate_id": "WCD10-B10-S005",
+      "publisher": "Biblioteca Virtual Miguel de Cervantes",
+      "format": "institutional_digital_text_or_reference_web_page",
+      "language": "es",
+      "publication_year": "",
+      "notes": "来源正文/机构词条已直接打开核对；位置见候选来源与EVIDENCE_MATRIX。",
+      "disposition": "fresh_registration"
+    },
+    {
+      "candidate_id": "WCD10-B10-S006",
+      "publisher": "Biblioteca Virtual Miguel de Cervantes",
+      "format": "institutional_digital_text_or_reference_web_page",
+      "language": "es",
+      "publication_year": "",
+      "notes": "来源正文/机构词条已直接打开核对；位置见候选来源与EVIDENCE_MATRIX。",
+      "disposition": "fresh_registration"
+    },
+    {
+      "candidate_id": "WCD10-B10-S007",
+      "publisher": "Biblioteca Virtual Miguel de Cervantes",
+      "format": "web_page",
+      "language": "es",
+      "publication_year": "",
+      "notes": "精确URL与SRC-0187相同；复用既有来源对象，保持基线source metadata。",
+      "disposition": "reuse",
+      "reuse_existing_source": "SRC-0187",
+      "related_existing_source": "SRC-0187"
+    },
+    {
+      "candidate_id": "WCD10-B10-S008",
+      "publisher": "Educ.ar, Portal educativo de la Secretaría de Educación",
+      "format": "institutional_education_web_page",
+      "language": "es",
+      "publication_year": "",
+      "notes": "页面已直接打开核验；见候选来源、定位及支持边界。",
+      "disposition": "fresh_registration"
+    },
+    {
+      "candidate_id": "WCD10-B10-S009",
+      "publisher": "Biblioteca del Congreso de la Nación",
+      "format": "institutional_library_web_page",
+      "language": "es",
+      "publication_year": "",
+      "notes": "页面已直接打开核验；见候选来源、定位及支持边界。",
+      "disposition": "fresh_registration"
+    },
+    {
+      "candidate_id": "WCD10-B10-S010",
+      "publisher": "Poeticous",
+      "format": "digital_literary_text_web_page",
+      "language": "es",
+      "publication_year": "",
+      "notes": "页面已直接打开核验；见候选来源、定位及支持边界。",
+      "disposition": "fresh_registration"
+    },
+    {
+      "candidate_id": "WCD10-B10-S011",
+      "publisher": "Biblioteca Virtual Miguel de Cervantes",
+      "format": "institutional_digital_literary_text_web_page",
+      "language": "es",
+      "publication_year": "",
+      "notes": "通过BVMC作品记录的目录进入所列章节/场次；定位及边界见CANDIDATES和EVIDENCE_MATRIX。",
+      "disposition": "fresh_registration"
+    },
+    {
+      "candidate_id": "WCD10-B10-S012",
+      "publisher": "Biblioteca Virtual Miguel de Cervantes",
+      "format": "institutional_digital_literary_text_web_page",
+      "language": "es",
+      "publication_year": "",
+      "notes": "通过BVMC作品记录的目录进入所列章节/场次；定位及边界见CANDIDATES和EVIDENCE_MATRIX。",
+      "disposition": "fresh_registration"
+    },
+    {
+      "candidate_id": "WCD10-B10-S101",
+      "publisher": "Biblioteca Nacional de Chile",
+      "format": "institutional_author_web_page",
+      "language": "es",
+      "publication_year": "",
+      "notes": "精确复用基线SRC-0188；本次已实读页面正文；原source grade/metadata不更改。",
+      "disposition": "reuse",
+      "reuse_existing_source": "SRC-0188",
+      "related_existing_source": "SRC-0188"
+    },
+    {
+      "candidate_id": "WCD10-B10-S102",
+      "publisher": "Universidad de Chile",
+      "format": "institutional_bibliographic_web_page",
+      "language": "es",
+      "publication_year": "",
+      "notes": "精确复用基线SRC-0189；目录署Federico Schopf；本次已实读正文；原source grade/metadata不更改。",
+      "disposition": "reuse",
+      "reuse_existing_source": "SRC-0189",
+      "related_existing_source": "SRC-0189"
+    },
+    {
+      "candidate_id": "WCD10-B10-S201",
+      "publisher": "Instituto Cervantes",
+      "format": "institutional_author_bibliography_web_page",
+      "language": "es",
+      "publication_year": "",
+      "notes": "复用基线正式来源 SRC-0192；不改既有元数据。",
+      "disposition": "reuse",
+      "reuse_existing_source": "SRC-0192",
+      "related_existing_source": "SRC-0192"
+    },
+    {
+      "candidate_id": "WCD10-B10-S202",
+      "publisher": "Instituto Cervantes",
+      "format": "institutional_author_commentary_web_page",
+      "language": "es",
+      "publication_year": "",
+      "notes": "页面出版年份不可核定，留空；定位见SOURCE_ACCESS_LOG。",
+      "disposition": "fresh_registration",
+      "reuse_existing_source": "",
+      "related_existing_source": ""
+    },
+    {
+      "candidate_id": "WCD10-B10-S203",
+      "publisher": "Instituto Cervantes",
+      "format": "institutional_author_commentary_web_page",
+      "language": "es",
+      "publication_year": "",
+      "notes": "页面出版年份不可核定，留空；定位见SOURCE_ACCESS_LOG。",
+      "disposition": "fresh_registration",
+      "reuse_existing_source": "",
+      "related_existing_source": ""
+    },
+    {
+      "candidate_id": "WCD10-B10-S204",
+      "publisher": "Instituto Cervantes",
+      "format": "institutional_author_commentary_web_page",
+      "language": "es",
+      "publication_year": "",
+      "notes": "页面出版年份不可核定，留空；第38行支持痛苦与无力的评论表述；定位见SOURCE_ACCESS_LOG。",
+      "disposition": "fresh_registration",
+      "reuse_existing_source": "",
+      "related_existing_source": ""
+    },
+    {
+      "candidate_id": "WCD10-B10-S205",
+      "publisher": "Instituto Cervantes",
+      "format": "institutional_author_commentary_web_page",
+      "language": "es",
+      "publication_year": "",
+      "notes": "页面出版年份不可核定，留空；定位见SOURCE_ACCESS_LOG。",
+      "disposition": "fresh_registration",
+      "reuse_existing_source": "",
+      "related_existing_source": ""
+    },
+    {
+      "candidate_id": "WCD10-B10-S206",
+      "publisher": "Instituto Cervantes",
+      "format": "institutional_author_commentary_web_page",
+      "language": "es",
+      "publication_year": "",
+      "notes": "页面出版年份不可核定，留空；定位见SOURCE_ACCESS_LOG。",
+      "disposition": "fresh_registration",
+      "reuse_existing_source": "",
+      "related_existing_source": ""
+    },
+    {
+      "candidate_id": "WCD10-B10-S207",
+      "publisher": "Instituto Cervantes",
+      "format": "institutional_author_commentary_web_page",
+      "language": "es",
+      "publication_year": "",
+      "notes": "页面出版年份不可核定，留空；定位见SOURCE_ACCESS_LOG。",
+      "disposition": "fresh_registration",
+      "reuse_existing_source": "",
+      "related_existing_source": ""
+    },
+    {
+      "candidate_id": "WCD10-B10-S208",
+      "publisher": "Instituto Cervantes",
+      "format": "institutional_author_commentary_web_page",
+      "language": "es",
+      "publication_year": "",
+      "notes": "页面出版年份不可核定，留空；第14-17行支持《La tierra más ajena》书目描述，第15行支持韵文向散文延展；定位见SOURCE_ACCESS_LOG。",
+      "disposition": "fresh_registration",
+      "reuse_existing_source": "",
+      "related_existing_source": ""
+    },
+    {
+      "candidate_id": "WCD10-B10-S209",
+      "publisher": "Instituto Cervantes",
+      "format": "institutional_author_commentary_web_page",
+      "language": "es",
+      "publication_year": "",
+      "notes": "页面出版年份不可核定，留空；定位见SOURCE_ACCESS_LOG。",
+      "disposition": "fresh_registration",
+      "reuse_existing_source": "",
+      "related_existing_source": ""
+    }
+  ],
+  "author_registrations": [],
+  "author_metadata": [],
+  "author_policies": {
+    "V1-ENT-0225": {
+      "verified_by": "GPT-6 Luna author-isolated candidate producer",
+      "source_year_policy": "Do not infer original publication year from digital-reproduction dates; distinguish reproduced edition from first publication.",
+      "public_content_scope": "Martí work bibliography and bounded descriptions only; no automatic public admission.",
+      "local_asset_status": "remote_only",
+      "copyright_boundary": "Short Chinese paraphrase only; retain source titles and locators; no long copyrighted text copied."
+    },
+    "V1-ENT-0236": {
+      "verified_by": "GPT-6 Luna author-isolated candidate producer",
+      "source_year_policy": "Do not infer bibliographic publication year from digital posting date; preserve a stated first-edition year only where the source directly identifies it. Keep edition/year conflicts explicit.",
+      "public_content_scope": "Institutional bibliography and bounded descriptive facts for Nicanor Parra works only; no long quotations or automatic public admission.",
+      "local_asset_status": "remote_only",
+      "copyright_boundary": "Chinese paraphrases only; source title and locator retained; no long source text copied."
+    },
+    "V1-ENT-0237": {
+      "verified_by": "GPT-6 Luna author-isolated candidate producer",
+      "source_year_policy": "网页出版年份未标示时publication_year留空；不以访问日推断。作品年仅按来源直接陈述。",
+      "public_content_scope": "皮扎尼克作品书目、作者归属、体裁及CVC机构评论候选；不自动公开准入。",
+      "local_asset_status": "remote_only",
+      "copyright_boundary": "仅简短中文转述，保留来源题名与定位；不复制长段原文或诗歌。"
+    }
+  }
+}

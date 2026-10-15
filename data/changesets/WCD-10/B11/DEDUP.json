@@ -1,0 +1,234 @@
+{
+  "schema": "wcd10-b11-dedup-merged-1",
+  "task_id": "TASK-116",
+  "batch_id": "WCD-10-B11",
+  "baseline_database_sha256": "062c0cb663e27765085a85eb8cb63baee848a91e6d94bb261550327b00a5036c",
+  "author_packages": [
+    {
+      "author_id": "V1-ENT-0238",
+      "source_directory": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/project/internal/WCD_10_WORKSPACE/orchestration/wave-08/benedetti/R1",
+      "dedup": {
+        "baseline_dedup": "baseline inventory only lists three linked works; exact normalized-title query will be validator checked",
+        "works": [
+          {
+            "candidate_id": "WCD10-B11-W001",
+            "kind": "entity",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B11-W002",
+            "kind": "entity",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B11-W003",
+            "kind": "entity",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B11-W004",
+            "kind": "entity",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B11-W005",
+            "kind": "entity",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B11-W006",
+            "kind": "entity",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B11-W007",
+            "kind": "entity",
+            "disposition": "new",
+            "matches": []
+          }
+        ],
+        "sources": [
+          {
+            "candidate_id": "WCD10-B11-S001",
+            "kind": "source",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B11-S002",
+            "kind": "source",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B11-S003",
+            "kind": "source",
+            "disposition": "new",
+            "matches": []
+          },
+          {
+            "candidate_id": "WCD10-B11-S004",
+            "url": "https://fundacionmariobenedetti.uy/obras-59-65/",
+            "disposition": "reuse",
+            "matches": [
+              "SRC-0195"
+            ]
+          }
+        ],
+        "baseline_existing_work_titles": [
+          "La tregua",
+          "Gracias por el fuego",
+          "Montevideanos"
+        ]
+      }
+    },
+    {
+      "author_id": "V1-ENT-0248",
+      "source_directory": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/project/internal/WCD_10_WORKSPACE/orchestration/wave-08/arguedas",
+      "dedup": {
+        "baseline_database_sha256": "062c0cb663e27765085a85eb8cb63baee848a91e6d94bb261550327b00a5036c",
+        "author_entity_id": "V1-ENT-0248",
+        "checked_existing_entity_count": 619,
+        "method": "全库original_name/name_zh规范化精确查重，加作品类型及合集/单篇边界复核。",
+        "decisions": [
+          {
+            "candidate_id": "WCD10-B11-W101",
+            "original_name": "Agua",
+            "entity_type": "collection",
+            "exact_existing_matches": [],
+            "related_title_checks": [
+              {
+                "entity_id": "V1-ENT-0497",
+                "entity_type": "collection",
+                "name_zh": "《水上的脚》",
+                "original_name": "Los pies sobre el agua"
+              }
+            ],
+            "decision": "new_candidate",
+            "note": "名称、对象层级与题名语义已比较；与合集包含的单篇/重印版本不自动合并。"
+          },
+          {
+            "candidate_id": "WCD10-B11-W102",
+            "original_name": "Diamantes y pedernales",
+            "entity_type": "work",
+            "exact_existing_matches": [],
+            "related_title_checks": [],
+            "decision": "new_candidate",
+            "note": "名称、对象层级与题名语义已比较；与合集包含的单篇/重印版本不自动合并。"
+          },
+          {
+            "candidate_id": "WCD10-B11-W103",
+            "original_name": "El Sexto",
+            "entity_type": "work",
+            "exact_existing_matches": [],
+            "related_title_checks": [],
+            "decision": "new_candidate",
+            "note": "名称、对象层级与题名语义已比较；与合集包含的单篇/重印版本不自动合并。"
+          },
+          {
+            "candidate_id": "WCD10-B11-W104",
+            "original_name": "La agonía de Rasu-Ñiti",
+            "entity_type": "work",
+            "exact_existing_matches": [],
+            "related_title_checks": [],
+            "decision": "new_candidate",
+            "note": "名称、对象层级与题名语义已比较；与合集包含的单篇/重印版本不自动合并。"
+          },
+          {
+            "candidate_id": "WCD10-B11-W105",
+            "original_name": "El sueño del pongo",
+            "entity_type": "work",
+            "exact_existing_matches": [],
+            "related_title_checks": [],
+            "decision": "new_candidate",
+            "note": "名称、对象层级与题名语义已比较；与合集包含的单篇/重印版本不自动合并。"
+          },
+          {
+            "candidate_id": "WCD10-B11-W106",
+            "original_name": "Amor mundo y todos los cuentos de José María Arguedas",
+            "entity_type": "collection",
+            "exact_existing_matches": [],
+            "related_title_checks": [],
+            "decision": "new_candidate",
+            "note": "名称、对象层级与题名语义已比较；与合集包含的单篇/重印版本不自动合并。"
+          }
+        ]
+      }
+    },
+    {
+      "author_id": "V1-ENT-0249",
+      "source_directory": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/project/internal/WCD_10_WORKSPACE/orchestration/wave-08/pitol/R1",
+      "dedup": {
+        "task_id": "TASK-116",
+        "batch_id": "WCD-10-B11",
+        "author_id": "V1-ENT-0249",
+        "baseline_sha256": "062c0cb663e27765085a85eb8cb63baee848a91e6d94bb261550327b00a5036c",
+        "existing_linked_works": [
+          {
+            "entity_id": "V1-ENT-0254",
+            "name_zh": "《爱情游行》",
+            "original_name": "El desfile del amor",
+            "decision": "preserve-existing"
+          },
+          {
+            "entity_id": "V1-ENT-0255",
+            "name_zh": "《驯服神圣苍鹭》",
+            "original_name": "Domar a la divina garza",
+            "decision": "preserve-existing"
+          },
+          {
+            "entity_id": "V1-ENT-0256",
+            "name_zh": "《婚姻生活》",
+            "original_name": "La vida conyugal",
+            "decision": "preserve-existing"
+          },
+          {
+            "entity_id": "V1-ENT-0375",
+            "name_zh": "《逃亡的艺术》",
+            "original_name": "El arte de la fuga",
+            "decision": "preserve-existing"
+          }
+        ],
+        "candidate_titles": [
+          {
+            "candidate_id": "WCD10-B11-W201",
+            "original_name": "El tañido de una flauta",
+            "decision": "no same-title or normalized title in author-linked works or master entities; add candidate"
+          },
+          {
+            "candidate_id": "WCD10-B11-W202",
+            "original_name": "Juegos florales",
+            "decision": "no same-title or normalized title in author-linked works or master entities; add candidate"
+          },
+          {
+            "candidate_id": "WCD10-B11-W203",
+            "original_name": "El viaje",
+            "decision": "no same-title or normalized title in author-linked works or master entities; add candidate"
+          },
+          {
+            "candidate_id": "WCD10-B11-W204",
+            "original_name": "El mago de Viena",
+            "decision": "no same-title or normalized title in author-linked works or master entities; add candidate"
+          }
+        ],
+        "deferred": [
+          {
+            "titles": [
+              "Nocturno de Bujara",
+              "Vals de Mefisto"
+            ],
+            "decision": "defer identity/version reconciliation; no second object",
+            "key": "pitol.vals-de-mefisto.nocturno-de-bujara.identity-version",
+            "disposition": "preserve as catalog_only and research_gap; do not create duplicate work pending identity/version reconciliation"
+          }
+        ]
+      }
+    }
+  ]
+}

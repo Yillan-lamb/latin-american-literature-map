@@ -1,0 +1,242 @@
+{
+  "task_id": "TASK-107",
+  "scope": "12 existing works/collections plus 10 proposed additions; bounded B02 research candidates, not exhaustive bibliography or scholarly completeness.",
+  "author_descriptions": "Existing source-linked author biographies retained; no author-level judgment projected into works.",
+  "research_policy": "preserved_existing only means legacy admitted research retained, not newly re-reviewed. B-grade catalogs, syndicated prose and conference research_note_only do not close scholarly coverage or promote legacy holds.",
+  "objects": [
+    {
+      "object_ref": "V1-ENT-0035",
+      "bibliography": "existing_retained",
+      "description": "existing_retained",
+      "research_status": "preserved_existing",
+      "research_refs": [
+        "SRC-0024"
+      ],
+      "remaining": "既有对象研究沿用；暴力/语言和沉默单源hold保持。"
+    },
+    {
+      "object_ref": "V1-ENT-0036",
+      "bibliography": "existing_retained",
+      "description": "F01_candidate",
+      "research_status": "catalog_only",
+      "research_refs": [
+        "WCD10-B02-S05"
+      ],
+      "remaining": "独立作品级A级研究OPEN；小说历史转置不确认为BASED_ON_EVENT。"
+    },
+    {
+      "object_ref": "V1-ENT-0037",
+      "bibliography": "existing_retained",
+      "description": "F02_candidate",
+      "research_status": "catalog_only",
+      "research_refs": [
+        "WCD10-B02-S06"
+      ],
+      "remaining": "转载概述不构成新独立学术研究；集合级研究OPEN。"
+    },
+    {
+      "object_ref": "V1-ENT-0044",
+      "bibliography": "F03_F05_candidate_1975_edition_only",
+      "description": "F04_candidate",
+      "research_status": "catalog_only",
+      "research_refs": [
+        "WCD10-B02-S04"
+      ],
+      "remaining": "首版/首演证据及A级研究OPEN；1975版不机械提升首版。"
+    },
+    {
+      "object_ref": "V1-ENT-0038",
+      "bibliography": "existing_retained",
+      "description": "existing_retained",
+      "research_status": "preserved_existing",
+      "research_refs": [
+        "SRC-0028"
+      ],
+      "remaining": "既有研究沿用；主题与革命文学运动hold不升级。"
+    },
+    {
+      "object_ref": "V1-ENT-0039",
+      "bibliography": "existing_retained",
+      "description": "existing_retained",
+      "research_status": "catalog_only",
+      "research_refs": [
+        "SRC-0030"
+      ],
+      "remaining": "合集对象级独立A级研究OPEN；保留1953旧书目与乡村集合概述。"
+    },
+    {
+      "object_ref": "V1-ENT-0040",
+      "bibliography": "F06_candidate_1980_first_print",
+      "description": "F07_F08_candidate_attributed_note",
+      "research_status": "preserved_existing",
+      "research_refs": [
+        "SRC-0074",
+        "WCD10-B02-S07",
+        "WCD10-B02-S08"
+      ],
+      "remaining": "既有A级SRC-0074、V1-CS-0080研究支持沿用，not fresh review；旧卡仍标research_gap的入口一致性待核，不称完全无A级研究。1958写作年冲突、扩展独立研究及关系门禁仍开放，本批B级会议说明不替代旧研究。"
+    },
+    {
+      "object_ref": "V1-ENT-0075",
+      "bibliography": "existing_retained",
+      "description": "existing_retained",
+      "research_status": "preserved_existing",
+      "research_refs": [
+        "SRC-0032"
+      ],
+      "remaining": "既有研究与SET_IN沿用；未决单源主题关系不提升。"
+    },
+    {
+      "object_ref": "V1-ENT-0076",
+      "bibliography": "existing_retained_periodical_1958_book_1961",
+      "description": "existing_retained",
+      "research_status": "preserved_existing",
+      "research_refs": [
+        "SRC-0033",
+        "SRC-0064"
+      ],
+      "remaining": "泛化first_publication_year_gap保持；不把书版1961填作首次发表。"
+    },
+    {
+      "object_ref": "V1-ENT-0077",
+      "bibliography": "existing_retained",
+      "description": "existing_retained",
+      "research_status": "preserved_existing",
+      "research_refs": [
+        "SRC-0034"
+      ],
+      "remaining": "既有对象研究沿用；现实案件与文学叙事仍分层。"
+    },
+    {
+      "object_ref": "V1-ENT-0158",
+      "bibliography": "existing_retained",
+      "description": "F09_candidate",
+      "research_status": "preserved_existing",
+      "research_refs": [
+        "SRC-0105",
+        "SRC-0291",
+        "WCD10-B02-S18"
+      ],
+      "remaining": "既有A级SRC-0291 thesis用于V1-REL-0309限定SET_IN空间/分类判断，legacy retained/not fresh review；不泛化成全部主题研究。新增B级梗概不替代旧研究，扩展作品研究、未决hold与既有裁决保持。"
+    },
+    {
+      "object_ref": "V1-ENT-0159",
+      "bibliography": "existing_retained",
+      "description": "F10_candidate",
+      "research_status": "catalog_only",
+      "research_refs": [
+        "SRC-0106",
+        "WCD10-B02-S19"
+      ],
+      "remaining": "小说对象独立A级研究OPEN；不新增现实独裁者/国家或文学运动关系。"
+    },
+    {
+      "object_ref": "WCD10-B02-W01",
+      "bibliography": "candidate_source_verified_pending_review",
+      "description": "candidate_bounded_description",
+      "research_status": "catalog_only",
+      "research_refs": [
+        "WCD10-B02-S01"
+      ],
+      "remaining": "独立对象级A级研究OPEN；出版者/目录简介仅用于书目和有边界的内容释义，中文显示名暂译。"
+    },
+    {
+      "object_ref": "WCD10-B02-W02",
+      "bibliography": "candidate_source_verified_pending_review",
+      "description": "candidate_bounded_description",
+      "research_status": "catalog_only",
+      "research_refs": [
+        "WCD10-B02-S02"
+      ],
+      "remaining": "独立对象级A级研究OPEN；出版者/目录简介仅用于书目和有边界的内容释义，中文显示名暂译。"
+    },
+    {
+      "object_ref": "WCD10-B02-W03",
+      "bibliography": "candidate_source_verified_pending_review",
+      "description": "candidate_bounded_description",
+      "research_status": "catalog_only",
+      "research_refs": [
+        "WCD10-B02-S03"
+      ],
+      "remaining": "独立对象级A级研究OPEN；出版者/目录简介仅用于书目和有边界的内容释义，中文显示名暂译。"
+    },
+    {
+      "object_ref": "WCD10-B02-W04",
+      "bibliography": "candidate_source_verified_pending_review",
+      "description": "candidate_bounded_description",
+      "research_status": "catalog_only",
+      "research_refs": [
+        "WCD10-B02-S09",
+        "WCD10-B02-S10",
+        "WCD10-B02-S11"
+      ],
+      "remaining": "独立对象级A级研究OPEN；出版者/目录简介仅用于书目和有边界的内容释义，中文显示名暂译。"
+    },
+    {
+      "object_ref": "WCD10-B02-W05",
+      "bibliography": "candidate_source_verified_pending_review",
+      "description": "candidate_bounded_description",
+      "research_status": "catalog_only",
+      "research_refs": [
+        "WCD10-B02-S09",
+        "WCD10-B02-S12"
+      ],
+      "remaining": "独立对象级A级研究OPEN；出版者/目录简介仅用于书目和有边界的内容释义，中文显示名暂译。"
+    },
+    {
+      "object_ref": "WCD10-B02-W06",
+      "bibliography": "candidate_source_verified_pending_review",
+      "description": "candidate_bounded_description",
+      "research_status": "catalog_only",
+      "research_refs": [
+        "WCD10-B02-S09",
+        "WCD10-B02-S13"
+      ],
+      "remaining": "独立对象级A级研究OPEN；出版者/目录简介仅用于书目和有边界的内容释义，中文显示名暂译。"
+    },
+    {
+      "object_ref": "WCD10-B02-W07",
+      "bibliography": "candidate_source_verified_pending_review",
+      "description": "candidate_bounded_description",
+      "research_status": "catalog_only",
+      "research_refs": [
+        "WCD10-B02-S09",
+        "WCD10-B02-S14"
+      ],
+      "remaining": "独立对象级A级研究OPEN；出版者/目录简介仅用于书目和有边界的内容释义，中文显示名暂译。"
+    },
+    {
+      "object_ref": "WCD10-B02-W08",
+      "bibliography": "candidate_source_verified_pending_review",
+      "description": "candidate_bounded_description",
+      "research_status": "catalog_only",
+      "research_refs": [
+        "WCD10-B02-S09",
+        "WCD10-B02-S15"
+      ],
+      "remaining": "独立对象级A级研究OPEN；出版者/目录简介仅用于书目和有边界的内容释义，中文显示名暂译。"
+    },
+    {
+      "object_ref": "WCD10-B02-W09",
+      "bibliography": "candidate_source_verified_pending_review",
+      "description": "candidate_bounded_description",
+      "research_status": "catalog_only",
+      "research_refs": [
+        "WCD10-B02-S09",
+        "WCD10-B02-S16"
+      ],
+      "remaining": "独立对象级A级研究OPEN；出版者/目录简介仅用于书目和有边界的内容释义，中文显示名暂译。"
+    },
+    {
+      "object_ref": "WCD10-B02-W10",
+      "bibliography": "candidate_source_verified_pending_review",
+      "description": "candidate_bounded_description",
+      "research_status": "catalog_only",
+      "research_refs": [
+        "WCD10-B02-S09",
+        "WCD10-B02-S17"
+      ],
+      "remaining": "独立对象级A级研究OPEN；出版者/目录简介仅用于书目和有边界的内容释义，中文显示名暂译。"
+    }
+  ]
+}

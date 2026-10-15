@@ -1,0 +1,27 @@
+{
+  "task_id": "TASK-108",
+  "reviewer": "wcd10_b01_review",
+  "reviewed_at": "2026-09-29",
+  "checkpoint_date": "2026-09-29",
+  "review_scope": "Independent B03 candidate, coverage, source registration and checkpoint-date preparer review PASS. Separate SQL review is required before apply.",
+  "packages": [
+    {
+      "file": "CANDIDATES.json",
+      "sha256": "0beaea57073ee14b1450613004f033d6ec68bed337745bdb7afc47453c306d4b",
+      "verdict": "PASS"
+    }
+  ],
+  "coverage_sha256": "7e98e5a2ea5dfe715e2e80820e142dbbb8399d8ee81bdeeadb9d6f739e5badea",
+  "registration_sha256": "8a4df4eaafb32555eaf301649ccae8ba17cf8c46b8f5bd3203b17fc8bacc2f9b",
+  "baseline_database_sha256": "83435075f1da42f07bf03b98dd934f182fdcb75f969cf87e48e46359290cd498",
+  "boundaries": [
+    "Research only; no Curation, public scope or release change",
+    "Reuse SRC-0039 unchanged; landing page and PDF are one source",
+    "F04/F08 attributed research_note_only; do not解除 legacy theme holds",
+    "Twelve new objects: nine novels and three collections; Chinese names provisional",
+    "Twenty-nine coverage objects: seventeen existing and twelve new; eighteen bounded scholarly gaps and ten deferred retained",
+    "Collection inclusion and cited editions do not establish first publication of the two existing stories",
+    "La casa verde1966 only; agency1967, Las armas1964 and Concierto opera1773 excluded",
+    "Preserve existing USER/N3 BASED_ON_EVENT V1-REL-0076; no new interpretive relation types"
+  ]
+}

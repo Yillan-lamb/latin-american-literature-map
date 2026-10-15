@@ -1,0 +1,99 @@
+{
+  "verdict": "PASS",
+  "reviewer": "Codex-parent-independent-review",
+  "task_id": "TASK-125",
+  "batch_id": "WCD-10-B20",
+  "baseline_database_sha256": "264385afd29d43f6d160d852a9dc6ad685fa2bd5fa25e3e7d7575168ebb72032",
+  "candidate_sha256": "9bb86a2fc6e3666974058c5571c38bef0b5c0d705c56b9bea436ea70d403af26",
+  "checks": [
+    {
+      "check": "snapshot exact entity and collection layer",
+      "passed": true
+    },
+    {
+      "check": "complete exact old closure facts",
+      "passed": true
+    },
+    {
+      "check": "complete exact old closure cards",
+      "passed": true
+    },
+    {
+      "check": "complete exact old closure relations",
+      "passed": true
+    },
+    {
+      "check": "complete exact old closure fact_sources",
+      "passed": true
+    },
+    {
+      "check": "complete exact old closure card_facts",
+      "passed": true
+    },
+    {
+      "check": "complete exact old closure card_sources",
+      "passed": true
+    },
+    {
+      "check": "complete exact old closure relationship_sources",
+      "passed": true
+    },
+    {
+      "check": "complete exact old closure relationship_evidence",
+      "passed": true
+    },
+    {
+      "check": "complete exact old closure sources",
+      "passed": true
+    },
+    {
+      "check": "complete exact old closure relation_holds",
+      "passed": true
+    },
+    {
+      "check": "complete exact old closure relation_hold_evidence",
+      "passed": true
+    },
+    {
+      "check": "complete exact old closure gaps",
+      "passed": true
+    },
+    {
+      "check": "no existing Telles CREATED edge",
+      "passed": true
+    },
+    {
+      "check": "Rosa direct edge preserved in frozen snapshot",
+      "passed": true
+    },
+    {
+      "check": "approved source objects both baseline formal rows",
+      "passed": true
+    },
+    {
+      "check": "source locators exactly cover formal source IDs",
+      "passed": true
+    },
+    {
+      "check": "role limited no sole author or story claim",
+      "passed": true
+    },
+    {
+      "check": "mother actually read USP roster",
+      "passed": true
+    }
+  ],
+  "sources_read": [
+    {
+      "source_id": "SRC-0638",
+      "url": "https://sgpa.webhostusp.sti.usp.br/obra.php?cod=1165&s=grosa",
+      "locator": "L24-26, title and seven-author roster"
+    },
+    {
+      "source_id": "SRC-0271",
+      "url": "https://www.academia.org.br/academicos/lygia-fagundes-telles/bibliografia",
+      "locator": "L112-113 institutional participation bibliography"
+    }
+  ],
+  "scope": "One controlled append-only same-object Telles contribution edge; all original entity/source/closure data preserved; no new work, no sole authorship, no story attribution in relationship"
+}

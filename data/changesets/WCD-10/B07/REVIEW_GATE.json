@@ -1,0 +1,170 @@
+{
+  "verdict": "PASS",
+  "task_id": "TASK-112",
+  "batch_id": "WCD-10-B07",
+  "reviewer": "Codex-parent-independent-review",
+  "reviewed_at": "2026-10-10",
+  "checkpoint_date": "2026-10-10",
+  "review_scope": "Hash-bound exact three author source semantic reviews and parent actual merged review; prepare-only next, actual apply requires separate SQL/map review",
+  "packages": [
+    {
+      "file": "CANDIDATES.json",
+      "sha256": "35c653123fcf944a8c333f7d76bf39496867fb4c8507724e16598a9bbfc57aeb",
+      "verdict": "PASS"
+    }
+  ],
+  "coverage_sha256": "49925d1eac60573c4044992ba693bd24c5bb9f760bdc0c70faaee2387411f955",
+  "registration_sha256": "6114ea2e569ba318e4186b90434f3ba831a57adb53ae3f15b533822e3a862487",
+  "evidence_matrix_sha256": "99f2fbb78976d871b39c4151914ba6c0ac378c5aeb4e9e6764ff366db1cf8757",
+  "merge_provenance_sha256": "ad4f582aa4bc843a62f0c4388abbef401d81d4c94116f0d9036974923b627b69",
+  "baseline_database_sha256": "ea9e01b41b4faaef727a6159b6d34ba7d9121a9992fda1cb993c6574f91f6a27",
+  "research_note_gate": {
+    "field": "research_note",
+    "source_grade_rule": {
+      "A": "scholarly_paraphrase",
+      "B": null,
+      "C": null
+    },
+    "material_class": "scholarly_paraphrase",
+    "entries": [
+      {
+        "candidate_id": "WCD10-B07-W001-F04",
+        "source_refs": [
+          "WCD10-B07-S020"
+        ],
+        "source_grades": {
+          "WCD10-B07-S020": "A"
+        },
+        "material_class": "scholarly_paraphrase"
+      },
+      {
+        "candidate_id": "WCD10-B07-W002-F04",
+        "source_refs": [
+          "WCD10-B07-S020"
+        ],
+        "source_grades": {
+          "WCD10-B07-S020": "A"
+        },
+        "material_class": "scholarly_paraphrase"
+      },
+      {
+        "candidate_id": "WCD10-B07-W008-F04",
+        "source_refs": [
+          "WCD10-B07-S020"
+        ],
+        "source_grades": {
+          "WCD10-B07-S020": "A"
+        },
+        "material_class": "scholarly_paraphrase"
+      },
+      {
+        "candidate_id": "WCD10-B07-W201-F04",
+        "source_refs": [
+          "WCD10-B07-S208"
+        ],
+        "source_grades": {
+          "WCD10-B07-S208": "A"
+        },
+        "material_class": "scholarly_paraphrase"
+      },
+      {
+        "candidate_id": "WCD10-B07-W214-F05",
+        "source_refs": [
+          "WCD10-B07-S225"
+        ],
+        "source_grades": {
+          "WCD10-B07-S225": "A"
+        },
+        "material_class": "scholarly_paraphrase"
+      },
+      {
+        "candidate_id": "WCD10-B07-W217-F05",
+        "source_refs": [
+          "WCD10-B07-S218"
+        ],
+        "source_grades": {
+          "WCD10-B07-S218": "A"
+        },
+        "material_class": "scholarly_paraphrase"
+      },
+      {
+        "candidate_id": "WCD10-B07-F003",
+        "source_refs": [
+          "WCD10-B07-S014"
+        ],
+        "source_grades": {
+          "WCD10-B07-S014": "A"
+        },
+        "material_class": "scholarly_paraphrase"
+      },
+      {
+        "candidate_id": "WCD10-B07-F006",
+        "source_refs": [
+          "WCD10-B07-S015",
+          "WCD10-B07-S016"
+        ],
+        "source_grades": {
+          "WCD10-B07-S015": "A",
+          "WCD10-B07-S016": "A"
+        },
+        "material_class": "scholarly_paraphrase"
+      },
+      {
+        "candidate_id": "WCD10-B07-F009",
+        "source_refs": [
+          "WCD10-B07-S017"
+        ],
+        "source_grades": {
+          "WCD10-B07-S017": "A"
+        },
+        "material_class": "scholarly_paraphrase"
+      },
+      {
+        "candidate_id": "WCD10-B07-F203",
+        "source_refs": [
+          "WCD10-B07-S210"
+        ],
+        "source_grades": {
+          "WCD10-B07-S210": "A"
+        },
+        "material_class": "scholarly_paraphrase"
+      },
+      {
+        "candidate_id": "WCD10-B07-F206",
+        "source_refs": [
+          "WCD10-B07-S211",
+          "WCD10-B07-S212",
+          "WCD10-B07-S213"
+        ],
+        "source_grades": {
+          "WCD10-B07-S211": "A",
+          "WCD10-B07-S212": "A",
+          "WCD10-B07-S213": "A"
+        },
+        "material_class": "scholarly_paraphrase"
+      },
+      {
+        "candidate_id": "WCD10-B07-F209",
+        "source_refs": [
+          "WCD10-B07-S214"
+        ],
+        "source_grades": {
+          "WCD10-B07-S214": "A"
+        },
+        "material_class": "scholarly_paraphrase"
+      }
+    ]
+  },
+  "boundaries": [
+    "Research-only unchanged public/Curation/Schema scope",
+    "54 objects200 facts54 CREATED0 extra;63-object coverage;41deferred35object research gaps retained",
+    "All frozen values/refs/source profiles and complete old chains preserved; four approved role additions; W128/W129 original coauthor roles preserved",
+    "Candidate105 sources,96 used8reuse88 new expected;9 deferred-only sources receive no formal IDs",
+    "Explicit conflicting years retained in proposed bibliographic notes, book edition dates not source page dates",
+    "Unknown publisher empty strings retained under parent13+161 actual-tested helper",
+    "Parent actual1815 preservation/closure assertions and actual validator exit0",
+    "W03 USER policy and actual reentry plus cross-author same-object coauthor/compiler CREATED reentry required before TASK127 final PASS",
+    "SQL/map exact independent review and explicit baseline-bound approval required before real apply",
+    "15 Sabato deferred disposition values additively mirror original status; previous candidate/Gate and failed prepare logs retained; all original fields and frozen author inputs unchanged"
+  ]
+}

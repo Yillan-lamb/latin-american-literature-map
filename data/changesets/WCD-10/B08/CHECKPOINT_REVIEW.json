@@ -1,0 +1,14 @@
+{
+  "task_id": "TASK-113",
+  "batch_id": "WCD-10-B08",
+  "baseline_database_sha256": "0150e68ee98e28714a7719129aab7d47e137fc692e8e46a5e1db29540f5dbc07",
+  "migration_name": "0043_wcd10_b08_author_works.sql",
+  "migration_sha256": "b71c94b09d41ce019bacabb2efc69afcaeff110b20c67480a06bcb6e52d8bd15",
+  "mapping_sha256": "51ca756a7aed18caba1b2ee9ad2006a15fe10c9486f35eeddc8e6b99db7c6ddb",
+  "reviewer": "Codex-parent-independent-SQL-review",
+  "reviewed_at": "2026-10-12",
+  "verdict": "PASS",
+  "mapping_path": "data/changesets/WCD-10/B08/INTEGRATION_MAP.json",
+  "scope": "Actual disposable baseline clone apply and exact all-row candidate/source/fact/role review PASS; old19-table data retained; actual execution and post-apply QA next",
+  "parent_sql_report_sha256": "3eecaa6111aa99da537906255c354599e200096e3e92670e3ae66764b4edcacd"
+}

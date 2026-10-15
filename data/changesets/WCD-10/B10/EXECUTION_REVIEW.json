@@ -1,0 +1,390 @@
+{
+  "verdict": "PASS_ACTUAL_EXECUTION_REVIEW",
+  "reviewer": "Codex-parent-independent-review",
+  "date": "2026-10-12",
+  "task_id": "TASK-115",
+  "batch_id": "WCD-10-B10",
+  "database_sha256": "062c0cb663e27765085a85eb8cb63baee848a91e6d94bb261550327b00a5036c",
+  "table_totals": {
+    "card_facts": 1968,
+    "card_sources": 1232,
+    "content_cards": 580,
+    "entities": 619,
+    "entity_id_map": 617,
+    "fact_sources": 2430,
+    "facts": 1989,
+    "gaps": 398,
+    "legacy_relation_groups": 15,
+    "metadata": 16,
+    "migration_log": 45,
+    "n3_decisions": 4,
+    "relation_hold_evidence": 58,
+    "relation_holds": 51,
+    "relationship_evidence": 897,
+    "relationship_sources": 926,
+    "relationships": 588,
+    "source_holds": 4,
+    "sources": 679
+  },
+  "table_deltas": {
+    "card_facts": 54,
+    "card_sources": 35,
+    "content_cards": 20,
+    "entities": 12,
+    "entity_id_map": 12,
+    "fact_sources": 59,
+    "facts": 54,
+    "gaps": 25,
+    "legacy_relation_groups": 0,
+    "metadata": 0,
+    "migration_log": 1,
+    "n3_decisions": 0,
+    "relation_hold_evidence": 0,
+    "relation_holds": 0,
+    "relationship_evidence": 22,
+    "relationship_sources": 22,
+    "relationships": 12,
+    "source_holds": 0,
+    "sources": 19
+  },
+  "fact_id_aliases_proof_to_builder_to_formal": [
+    {
+      "proof_fact_id": "WCD10-B10-W001-F02",
+      "builder_candidate_id": "WCD10-B10-W001-F01",
+      "formal_fact_id": "V1-FCT-1942"
+    },
+    {
+      "proof_fact_id": "WCD10-B10-W001-F03",
+      "builder_candidate_id": "WCD10-B10-W001-F02",
+      "formal_fact_id": "V1-FCT-1943"
+    },
+    {
+      "proof_fact_id": "WCD10-B10-W001-F04",
+      "builder_candidate_id": "WCD10-B10-W001-F03",
+      "formal_fact_id": "V1-FCT-1944"
+    },
+    {
+      "proof_fact_id": "WCD10-B10-W001-F05",
+      "builder_candidate_id": "WCD10-B10-W001-F04",
+      "formal_fact_id": "V1-FCT-1945"
+    },
+    {
+      "proof_fact_id": "WCD10-B10-W002-F02",
+      "builder_candidate_id": "WCD10-B10-W002-F01",
+      "formal_fact_id": "V1-FCT-1946"
+    },
+    {
+      "proof_fact_id": "WCD10-B10-W002-F03",
+      "builder_candidate_id": "WCD10-B10-W002-F02",
+      "formal_fact_id": "V1-FCT-1947"
+    },
+    {
+      "proof_fact_id": "WCD10-B10-W002-F04",
+      "builder_candidate_id": "WCD10-B10-W002-F03",
+      "formal_fact_id": "V1-FCT-1948"
+    },
+    {
+      "proof_fact_id": "WCD10-B10-W003-F02",
+      "builder_candidate_id": "WCD10-B10-W003-F01",
+      "formal_fact_id": "V1-FCT-1949"
+    },
+    {
+      "proof_fact_id": "WCD10-B10-W003-F03",
+      "builder_candidate_id": "WCD10-B10-W003-F02",
+      "formal_fact_id": "V1-FCT-1950"
+    },
+    {
+      "proof_fact_id": "WCD10-B10-W003-F04",
+      "builder_candidate_id": "WCD10-B10-W003-F03",
+      "formal_fact_id": "V1-FCT-1951"
+    },
+    {
+      "proof_fact_id": "WCD10-B10-W101-F01",
+      "builder_candidate_id": "WCD10-B10-W101-F01",
+      "formal_fact_id": "V1-FCT-1952"
+    },
+    {
+      "proof_fact_id": "WCD10-B10-W101-F02",
+      "builder_candidate_id": "WCD10-B10-W101-F02",
+      "formal_fact_id": "V1-FCT-1953"
+    },
+    {
+      "proof_fact_id": "WCD10-B10-W101-F03",
+      "builder_candidate_id": "WCD10-B10-W101-F03",
+      "formal_fact_id": "V1-FCT-1954"
+    },
+    {
+      "proof_fact_id": "WCD10-B10-W101-F04",
+      "builder_candidate_id": "WCD10-B10-W101-F04",
+      "formal_fact_id": "V1-FCT-1955"
+    },
+    {
+      "proof_fact_id": "WCD10-B10-W102-F01",
+      "builder_candidate_id": "WCD10-B10-W102-F01",
+      "formal_fact_id": "V1-FCT-1956"
+    },
+    {
+      "proof_fact_id": "WCD10-B10-W102-F02",
+      "builder_candidate_id": "WCD10-B10-W102-F02",
+      "formal_fact_id": "V1-FCT-1957"
+    },
+    {
+      "proof_fact_id": "WCD10-B10-W102-F03",
+      "builder_candidate_id": "WCD10-B10-W102-F03",
+      "formal_fact_id": "V1-FCT-1958"
+    },
+    {
+      "proof_fact_id": "WCD10-B10-W102-F04",
+      "builder_candidate_id": "WCD10-B10-W102-F04",
+      "formal_fact_id": "V1-FCT-1959"
+    },
+    {
+      "proof_fact_id": "WCD10-B10-W103-F01",
+      "builder_candidate_id": "WCD10-B10-W103-F01",
+      "formal_fact_id": "V1-FCT-1960"
+    },
+    {
+      "proof_fact_id": "WCD10-B10-W103-F02",
+      "builder_candidate_id": "WCD10-B10-W103-F02",
+      "formal_fact_id": "V1-FCT-1961"
+    },
+    {
+      "proof_fact_id": "WCD10-B10-W103-F03",
+      "builder_candidate_id": "WCD10-B10-W103-F03",
+      "formal_fact_id": "V1-FCT-1962"
+    },
+    {
+      "proof_fact_id": "WCD10-B10-W103-F04",
+      "builder_candidate_id": "WCD10-B10-W103-F04",
+      "formal_fact_id": "V1-FCT-1963"
+    },
+    {
+      "proof_fact_id": "WCD10-B10-W104-F01",
+      "builder_candidate_id": "WCD10-B10-W104-F01",
+      "formal_fact_id": "V1-FCT-1964"
+    },
+    {
+      "proof_fact_id": "WCD10-B10-W104-F02",
+      "builder_candidate_id": "WCD10-B10-W104-F02",
+      "formal_fact_id": "V1-FCT-1965"
+    },
+    {
+      "proof_fact_id": "WCD10-B10-W104-F03",
+      "builder_candidate_id": "WCD10-B10-W104-F03",
+      "formal_fact_id": "V1-FCT-1966"
+    },
+    {
+      "proof_fact_id": "WCD10-B10-W201-F01",
+      "builder_candidate_id": "WCD10-B10-W201-F01",
+      "formal_fact_id": "V1-FCT-1967"
+    },
+    {
+      "proof_fact_id": "WCD10-B10-W201-F02",
+      "builder_candidate_id": "WCD10-B10-W201-F02",
+      "formal_fact_id": "V1-FCT-1968"
+    },
+    {
+      "proof_fact_id": "WCD10-B10-W201-F03",
+      "builder_candidate_id": "WCD10-B10-W201-F03",
+      "formal_fact_id": "V1-FCT-1969"
+    },
+    {
+      "proof_fact_id": "WCD10-B10-W202-F01",
+      "builder_candidate_id": "WCD10-B10-W202-F01",
+      "formal_fact_id": "V1-FCT-1970"
+    },
+    {
+      "proof_fact_id": "WCD10-B10-W202-F02",
+      "builder_candidate_id": "WCD10-B10-W202-F02",
+      "formal_fact_id": "V1-FCT-1971"
+    },
+    {
+      "proof_fact_id": "WCD10-B10-W202-F03",
+      "builder_candidate_id": "WCD10-B10-W202-F03",
+      "formal_fact_id": "V1-FCT-1972"
+    },
+    {
+      "proof_fact_id": "WCD10-B10-W203-F01",
+      "builder_candidate_id": "WCD10-B10-W203-F01",
+      "formal_fact_id": "V1-FCT-1973"
+    },
+    {
+      "proof_fact_id": "WCD10-B10-W203-F02",
+      "builder_candidate_id": "WCD10-B10-W203-F02",
+      "formal_fact_id": "V1-FCT-1974"
+    },
+    {
+      "proof_fact_id": "WCD10-B10-W203-F03",
+      "builder_candidate_id": "WCD10-B10-W203-F03",
+      "formal_fact_id": "V1-FCT-1975"
+    },
+    {
+      "proof_fact_id": "WCD10-B10-W204-F01",
+      "builder_candidate_id": "WCD10-B10-W204-F01",
+      "formal_fact_id": "V1-FCT-1976"
+    },
+    {
+      "proof_fact_id": "WCD10-B10-W204-F02",
+      "builder_candidate_id": "WCD10-B10-W204-F02",
+      "formal_fact_id": "V1-FCT-1977"
+    },
+    {
+      "proof_fact_id": "WCD10-B10-W204-F03",
+      "builder_candidate_id": "WCD10-B10-W204-F03",
+      "formal_fact_id": "V1-FCT-1978"
+    },
+    {
+      "proof_fact_id": "WCD10-B10-W204-F04",
+      "builder_candidate_id": "WCD10-B10-W204-F04",
+      "formal_fact_id": "V1-FCT-1979"
+    },
+    {
+      "proof_fact_id": "WCD10-B10-W205-F01",
+      "builder_candidate_id": "WCD10-B10-W205-F01",
+      "formal_fact_id": "V1-FCT-1980"
+    },
+    {
+      "proof_fact_id": "WCD10-B10-W205-F02",
+      "builder_candidate_id": "WCD10-B10-W205-F02",
+      "formal_fact_id": "V1-FCT-1981"
+    },
+    {
+      "proof_fact_id": "WCD10-B10-W205-F03",
+      "builder_candidate_id": "WCD10-B10-W205-F03",
+      "formal_fact_id": "V1-FCT-1982"
+    },
+    {
+      "proof_fact_id": "WCD10-B10-F001",
+      "builder_candidate_id": "WCD10-B10-F001",
+      "formal_fact_id": "V1-FCT-1983"
+    },
+    {
+      "proof_fact_id": "WCD10-B10-F002",
+      "builder_candidate_id": "WCD10-B10-F002",
+      "formal_fact_id": "V1-FCT-1984"
+    },
+    {
+      "proof_fact_id": "WCD10-B10-F003",
+      "builder_candidate_id": "WCD10-B10-F003",
+      "formal_fact_id": "V1-FCT-1985"
+    },
+    {
+      "proof_fact_id": "WCD10-B10-F111",
+      "builder_candidate_id": "WCD10-B10-F111",
+      "formal_fact_id": "V1-FCT-1986"
+    },
+    {
+      "proof_fact_id": "WCD10-B10-F112",
+      "builder_candidate_id": "WCD10-B10-F112",
+      "formal_fact_id": "V1-FCT-1987"
+    },
+    {
+      "proof_fact_id": "WCD10-B10-F113",
+      "builder_candidate_id": "WCD10-B10-F113",
+      "formal_fact_id": "V1-FCT-1988"
+    },
+    {
+      "proof_fact_id": "WCD10-B10-F114",
+      "builder_candidate_id": "WCD10-B10-F114",
+      "formal_fact_id": "V1-FCT-1989"
+    },
+    {
+      "proof_fact_id": "WCD10-B10-F201",
+      "builder_candidate_id": "WCD10-B10-F201",
+      "formal_fact_id": "V1-FCT-1990"
+    },
+    {
+      "proof_fact_id": "WCD10-B10-F202",
+      "builder_candidate_id": "WCD10-B10-F202",
+      "formal_fact_id": "V1-FCT-1991"
+    },
+    {
+      "proof_fact_id": "WCD10-B10-F203",
+      "builder_candidate_id": "WCD10-B10-F203",
+      "formal_fact_id": "V1-FCT-1992"
+    },
+    {
+      "proof_fact_id": "WCD10-B10-F204",
+      "builder_candidate_id": "WCD10-B10-F204",
+      "formal_fact_id": "V1-FCT-1993"
+    },
+    {
+      "proof_fact_id": "WCD10-B10-F205",
+      "builder_candidate_id": "WCD10-B10-F205",
+      "formal_fact_id": "V1-FCT-1994"
+    },
+    {
+      "proof_fact_id": "WCD10-B10-F206",
+      "builder_candidate_id": "WCD10-B10-F206",
+      "formal_fact_id": "V1-FCT-1995"
+    }
+  ],
+  "evidence_sha256": {
+    "work/wcd10-qa/B10_CHECKPOINT_QA.json": "36e9f9a730a9ee09b184ae2e495c0a0c47e0808968cb84fae9a3da1db7aa582c",
+    "work/wcd10-qa/B10_MIGRATION_REPLAY.log": "e6d593be89f850d90169549428ce7568634dc905e8fc577e81a64ccac6058ac7",
+    "data/changesets/WCD-10/B10/CHECKPOINT_REVIEW.json": "7ff850380ff853a08d16332a618afdcfcc93d35f76fee297bd72b5c6974d9f3b",
+    "data/changesets/WCD-10/B10/INTEGRATION_MAP.json": "5925af1df671ab7819a988c0438fb4d7f233628848b8695b073de553858c8b16"
+  },
+  "local_integrator_report_sha256": "fe6243d3cf480b524d3b8fe35faed6f6b888afd54a46c8ec317e9e0f21a69a9d",
+  "export_repeat_files": 22,
+  "not_rerun": "No product changes; targeted bibliography-validator positive/negative regression reviewed. No full browser matrix or unrelated unittest per DEC-070",
+  "governance": {
+    "CHANGELOG": "UPDATED",
+    "TASKS": "UPDATED: TASK115 bounded DONE,TASK116READY,umbrellaIN_PROGRESS",
+    "DECISIONS": "N/A: applies existing DEC070/069; no new year/schema/public policy",
+    "PROJECT_CHARTER": "N/A: frozen2.0.3; scope/mission unchanged",
+    "SPEC": "N/A: existingDEC070 bibliography/content contract unchanged; validator mechanically aligned",
+    "README_MASTER_README_AUDIT_VALIDATION": "UPDATED",
+    "HANDOFF": "UPDATED: B11 and all remaining stage obligations"
+  },
+  "retained": "Reasonable new gaps and all old holds retained; W03/coauthor reentry/11 later batches still stage obligations",
+  "detailed_assertion_count": 418,
+  "parent_data_review_sha256": "05f1e135d35ff6184b3ffec089745b4afc4e4d389773b302bdff40bc23ac0419",
+  "checks": [
+    {
+      "check": "parent418 actual data checks PASS",
+      "passed": true
+    },
+    {
+      "check": "formal document present and B10 identity AUDIT.md",
+      "passed": true
+    },
+    {
+      "check": "formal document present and B10 identity VALIDATION.md",
+      "passed": true
+    },
+    {
+      "check": "README actual counts and batch checkpoint",
+      "passed": true
+    },
+    {
+      "check": "master README exact current hash and migrations",
+      "passed": true
+    },
+    {
+      "check": "CHANGELOG current B10 entry",
+      "passed": true
+    },
+    {
+      "check": "ROOT preexisting24/db preserved",
+      "passed": true
+    },
+    {
+      "check": "validator reviewed exact SHA",
+      "passed": true
+    },
+    {
+      "check": "TASK115DONE/TASK116READY/umbrellaIN_PROGRESS",
+      "passed": true
+    }
+  ],
+  "governance_sha256": {
+    "README.md": "688c4f942363a6fb6e454551841e4a100d98412548b1c415f77cf7fd17a5d13e",
+    "data/master/README.md": "9a626b31ee21a49d08bca47fbb1c3d04929b01be747e52c7b1de0af385655df1",
+    "CHANGELOG.md": "46cc1345b5c2e07e29109b468f30cb2a66609cb1373a8cf1556e5fa22bffb135",
+    "data/changesets/WCD-10/B10/AUDIT.md": "0e729938c9b19ab6816a313b5575111a260b337e56b7eaa84b1415b2830d4816",
+    "data/changesets/WCD-10/B10/VALIDATION.md": "7f978ea8c5dc8e425435b135ba3ac9caba12030992d6c665a8080d2ca4377be6"
+  },
+  "tool_review_sha256": "b7fcd48523ab91ad526ee645b635b40317f7cbe2ce07b058a635fee0e7cf82d8",
+  "preserved_corrections": "Martí source summaries/Pizarnik F205F206 references narrowed; La condesa year ambiguity retained; original worker/initial merged coverage frozen. Parent interface names/wrapper field/runtime alias guards corrected without candidate SQL DB changes."
+}

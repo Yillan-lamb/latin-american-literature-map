@@ -1,0 +1,16 @@
+{
+  "verdict": "PASS",
+  "task_id": "TASK-123",
+  "batch_id": "WCD-10-B18",
+  "reviewer": "Codex-parent-independent-review",
+  "reviewed_at": "2026-10-14",
+  "baseline_database_sha256": "1bc4695f6c77cad166b5229572f73490006b9e4392379e0017f799049e5aceb0",
+  "migration_name": "0053_wcd10_b18_author_works.sql",
+  "migration_sha256": "d4610920d0da937366f0f0e884f9de15f7164a58438603636279682e76df5917",
+  "mapping_path": "data/changesets/WCD-10/B18/INTEGRATION_MAP.json",
+  "mapping_sha256": "17b2eb80a05e63edbf5a1251db5f45b76be5598c6178b70658f0f4d7cdeac830",
+  "review_scope": "Actual disposable-clone application and 19-table old-row/source/fact/card/role closure audit; allows exact real apply once with required QA",
+  "sql_review_report_sha256": "069bb1f29850ff2cd727c9043a70b4cc85edc1190187fd7ec2b69da8f8610303",
+  "candidate_review_gate_sha256": "e7a79aef82383cdf5e22fd764546f0972b237e10a35c5982949c3193b45808f6",
+  "recorded_at_utc": "2026-10-14T02:47:58.063036+00:00"
+}

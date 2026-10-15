@@ -1,0 +1,249 @@
+{
+  "task_id": "TASK-125",
+  "batch_id": "WCD-10-B20",
+  "baseline_database_sha256": "264385afd29d43f6d160d852a9dc6ad685fa2bd5fa25e3e7d7575168ebb72032",
+  "works": [
+    {
+      "candidate_id": "WCD10-B20-W001",
+      "original_name": "El libro de mis primos",
+      "name_zh_candidate": "《我的表兄弟们》（暂译）",
+      "baseline_full_work_collection_count": 609,
+      "database_exact_or_normalized_matches": [],
+      "same_author_existing_linked_works_reviewed": [
+        {
+          "entity_id": "V1-ENT-0353",
+          "name_zh": "《错爱》",
+          "original_name": "Los amores equivocados"
+        },
+        {
+          "entity_id": "V1-ENT-0354",
+          "name_zh": "《恐龙的下午》",
+          "original_name": "La tarde del dinosaurio"
+        },
+        {
+          "entity_id": "V1-ENT-0355",
+          "name_zh": "《沉船记》",
+          "original_name": "Descripción de un naufragio"
+        }
+      ],
+      "same_author_title_review": "新题名与作者已关联三部《错爱》《恐龙的下午》《沉船记》不是同一作品名/版本；无已识别别名或合辑关系。需要独立Reviewer确认语义边界。",
+      "disposition": "new_candidate_no_duplicate_identified"
+    },
+    {
+      "candidate_id": "WCD10-B20-W002",
+      "original_name": "La nave de los locos",
+      "name_zh_candidate": "《愚人之船》（暂译）",
+      "baseline_full_work_collection_count": 609,
+      "database_exact_or_normalized_matches": [],
+      "same_author_existing_linked_works_reviewed": [
+        {
+          "entity_id": "V1-ENT-0353",
+          "name_zh": "《错爱》",
+          "original_name": "Los amores equivocados"
+        },
+        {
+          "entity_id": "V1-ENT-0354",
+          "name_zh": "《恐龙的下午》",
+          "original_name": "La tarde del dinosaurio"
+        },
+        {
+          "entity_id": "V1-ENT-0355",
+          "name_zh": "《沉船记》",
+          "original_name": "Descripción de un naufragio"
+        }
+      ],
+      "same_author_title_review": "新题名与作者已关联三部《错爱》《恐龙的下午》《沉船记》不是同一作品名/版本；无已识别别名或合辑关系。需要独立Reviewer确认语义边界。",
+      "disposition": "new_candidate_no_duplicate_identified"
+    },
+    {
+      "candidate_id": "WCD10-B20-W101",
+      "original_name": "Verão no aquário",
+      "name_zh_candidate": "《水族馆之夏》（暂译）",
+      "database_exact_original_title_matches": [],
+      "database_exact_chinese_display_matches": [],
+      "same_author_existing_work_semantic_review": {
+        "reviewed_existing_titles": [
+          "Ciranda de pedra",
+          "Antes do baile verde",
+          "As meninas"
+        ],
+        "result": "与该作者冻结基线中的三项既有linked作品题名不同；已对基线全体实体的原文题名及中文显示名执行精确查询，无题名命中。此候选为ABL另列书目作品；仍须批次独立复核语义身份。"
+      },
+      "decision": "new candidate; independent semantic review required"
+    },
+    {
+      "candidate_id": "WCD10-B20-W102",
+      "original_name": "Seminário dos ratos",
+      "name_zh_candidate": "《老鼠研讨会》（暂译）",
+      "database_exact_original_title_matches": [],
+      "database_exact_chinese_display_matches": [],
+      "same_author_existing_work_semantic_review": {
+        "reviewed_existing_titles": [
+          "Ciranda de pedra",
+          "Antes do baile verde",
+          "As meninas"
+        ],
+        "result": "与该作者冻结基线中的三项既有linked作品题名不同；已对基线全体实体的原文题名及中文显示名执行精确查询，无题名命中。此候选为ABL另列书目作品；仍须批次独立复核语义身份。"
+      },
+      "decision": "new candidate; independent semantic review required"
+    },
+    {
+      "candidate_id": "WCD10-B20-W103",
+      "original_name": "A disciplina do amor",
+      "name_zh_candidate": "《爱的规训》（暂译）",
+      "database_exact_original_title_matches": [],
+      "database_exact_chinese_display_matches": [],
+      "same_author_existing_work_semantic_review": {
+        "reviewed_existing_titles": [
+          "Ciranda de pedra",
+          "Antes do baile verde",
+          "As meninas"
+        ],
+        "result": "与该作者冻结基线中的三项既有linked作品题名不同；已对基线全体实体的原文题名及中文显示名执行精确查询，无题名命中。此候选为ABL另列书目作品；仍须批次独立复核语义身份。"
+      },
+      "decision": "new candidate; independent semantic review required"
+    },
+    {
+      "candidate_id": "WCD10-B20-W104",
+      "original_name": "As horas nuas",
+      "name_zh_candidate": "《裸露的时光》（暂译）",
+      "database_exact_original_title_matches": [],
+      "database_exact_chinese_display_matches": [],
+      "same_author_existing_work_semantic_review": {
+        "reviewed_existing_titles": [
+          "Ciranda de pedra",
+          "Antes do baile verde",
+          "As meninas"
+        ],
+        "result": "与该作者冻结基线中的三项既有linked作品题名不同；已对基线全体实体的原文题名及中文显示名执行精确查询，无题名命中。此候选为ABL另列书目作品；仍须批次独立复核语义身份。"
+      },
+      "decision": "new candidate; independent semantic review required"
+    },
+    {
+      "candidate_id": "WCD10-B20-W105",
+      "original_name": "A noite escura e mais eu",
+      "name_zh_candidate": "《黑夜与我》（暂译）",
+      "database_exact_original_title_matches": [],
+      "database_exact_chinese_display_matches": [],
+      "same_author_existing_work_semantic_review": {
+        "reviewed_existing_titles": [
+          "Ciranda de pedra",
+          "Antes do baile verde",
+          "As meninas"
+        ],
+        "result": "与该作者冻结基线中的三项既有linked作品题名不同；已对基线全体实体的原文题名及中文显示名执行精确查询，无题名命中。此候选为ABL另列书目作品；仍须批次独立复核语义身份。"
+      },
+      "decision": "new candidate; independent semantic review required"
+    },
+    {
+      "candidate_id": "WCD10-B20-W106",
+      "original_name": "Invenção e memória",
+      "name_zh_candidate": "《虚构与记忆》（暂译）",
+      "database_exact_original_title_matches": [],
+      "database_exact_chinese_display_matches": [],
+      "same_author_existing_work_semantic_review": {
+        "reviewed_existing_titles": [
+          "Ciranda de pedra",
+          "Antes do baile verde",
+          "As meninas"
+        ],
+        "result": "与该作者冻结基线中的三项既有linked作品题名不同；已对基线全体实体的原文题名及中文显示名执行精确查询，无题名命中。此候选为ABL另列书目作品；仍须批次独立复核语义身份。"
+      },
+      "decision": "new candidate; independent semantic review required"
+    },
+    {
+      "candidate_id": "WCD10-B20-W201",
+      "original_name": "Barro de la sierra",
+      "name_zh_candidate": "《山间泥土》（暂译）",
+      "database_exact_original_title_matches": [],
+      "database_exact_chinese_display_matches": [],
+      "same_author_existing_work_semantic_review": {
+        "reviewed_existing_titles": [
+          "Huasipungo",
+          "En las calles",
+          "El chulla Romero y Flores"
+        ],
+        "result": "逐项比对Icaza全部冻结关联作品；原题和主题对象均不同，不与既有Huasipungo、En las calles、El chulla Romero y Flores混同。对全库work/collection执行规范化原题精确查重，未见同层同题。合集层级按书目来源所载 cuentos / novela 分别记录。"
+      },
+      "decision": "new candidate; independent semantic review required"
+    },
+    {
+      "candidate_id": "WCD10-B20-W202",
+      "original_name": "Huairapamushcas",
+      "name_zh_candidate": "《瓦伊拉帕穆什卡斯》（暂译）",
+      "database_exact_original_title_matches": [],
+      "database_exact_chinese_display_matches": [],
+      "same_author_existing_work_semantic_review": {
+        "reviewed_existing_titles": [
+          "Huasipungo",
+          "En las calles",
+          "El chulla Romero y Flores"
+        ],
+        "result": "逐项比对Icaza全部冻结关联作品；原题和主题对象均不同，不与既有Huasipungo、En las calles、El chulla Romero y Flores混同。对全库work/collection执行规范化原题精确查重，未见同层同题。合集层级按书目来源所载 cuentos / novela 分别记录。"
+      },
+      "decision": "new candidate; independent semantic review required"
+    }
+  ],
+  "sources": [
+    {
+      "candidate_id": "WCD10-B20-S101",
+      "normalized_url": "https://www.academia.org.br/academicos/lygia-fagundes-telles/bibliografia",
+      "existing_source_id": "SRC-0271",
+      "decision": "reuse_existing_source; existing metadata unchanged"
+    },
+    {
+      "candidate_id": "WCD10-B20-S103",
+      "normalized_url": "https://sgpa.webhostusp.sti.usp.br/obra.php?cod=1165&s=grosa",
+      "existing_source_id": "SRC-0638",
+      "decision": "reuse_existing_source in separate coauthor relation appendix; existing metadata unchanged"
+    },
+    {
+      "candidate_id": "WCD10-B20-S201",
+      "url": "https://biblioteca.casadelacultura.gob.ec/bib/19710",
+      "disposition": "fresh_registration",
+      "matches": [],
+      "metadata_action": "新登记候选来源。"
+    },
+    {
+      "candidate_id": "WCD10-B20-S202",
+      "url": "https://repositorio.flacsoandes.edu.ec/bitstream/10469/10899/9/CCE-Revista-V3-N6-1948.pdf",
+      "disposition": "fresh_registration",
+      "matches": [],
+      "metadata_action": "新登记候选来源。"
+    },
+    {
+      "candidate_id": "WCD10-B20-S203",
+      "url": "https://biblioteca.casadelacultura.gob.ec/bib/61288",
+      "disposition": "fresh_registration",
+      "matches": [],
+      "metadata_action": "新登记候选来源。"
+    },
+    {
+      "candidate_id": "WCD10-B20-S204",
+      "url": "https://biblioteca.casadelacultura.gob.ec/bib/19713",
+      "disposition": "fresh_registration",
+      "matches": [],
+      "metadata_action": "新登记候选来源。"
+    }
+  ],
+  "existing_fact_candidates": [
+    {
+      "candidate_id": "WCD10-B20-F001",
+      "subject_id": "V1-ENT-0353",
+      "field": "one_sentence_summary",
+      "dedup_check": "同一subject/field在冻结库中无既有相同值；新增bibliographic_note或one_sentence_summary，不覆盖旧事实。"
+    },
+    {
+      "candidate_id": "WCD10-B20-F002",
+      "subject_id": "V1-ENT-0354",
+      "field": "bibliographic_note",
+      "dedup_check": "同一subject/field在冻结库中无既有相同值；新增bibliographic_note或one_sentence_summary，不覆盖旧事实。"
+    },
+    {
+      "candidate_id": "WCD10-B20-F003",
+      "subject_id": "V1-ENT-0355",
+      "field": "one_sentence_summary",
+      "dedup_check": "同一subject/field在冻结库中无既有相同值；新增bibliographic_note或one_sentence_summary，不覆盖旧事实。"
+    }
+  ]
+}

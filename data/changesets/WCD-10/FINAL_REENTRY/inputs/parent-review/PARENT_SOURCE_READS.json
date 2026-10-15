@@ -1,0 +1,31 @@
+{
+  "reviewer": "Codex-parent-independent-review",
+  "date": "2026-10-15",
+  "scope": "necessary reentry source read; no candidate admission",
+  "reads": [
+    {
+      "source_id": "SRC-0652",
+      "url": "https://www.e-publicacoes.uerj.br/palimpsesto/article/download/65304/42073/235926",
+      "tool": "web.open",
+      "ref": "turn0view1",
+      "status": "OPENED_CONTENT",
+      "locator": "PDF P4 printed557 L134-156",
+      "support": "Both works have ten authors with one chapter each; Jorge Amado appears in the O mistério dos MMM authors list. No specific chapter inferred."
+    },
+    {
+      "url": "https://www.elem.mx/obra/datos/8815",
+      "tool": "web.open",
+      "ref": "turn0view0",
+      "status": "FETCH_FAILED_TIMEOUT",
+      "historical_support": "B05/W03_DEFERRED_CANDIDATE.json preserves 4 original evidence rows and original parent read 2026-10-07; not a current successful access"
+    },
+    {
+      "source_id": "SRC-0099",
+      "url": "https://www.nobelprize.org/prizes/literature/1990/paz/bibliography/",
+      "tool": "web.open",
+      "ref": "turn0view2",
+      "status": "OPEN_FAILED_INTERNAL_ERROR",
+      "historical_support": "Preserved B05 source/evidence record only"
+    }
+  ]
+}

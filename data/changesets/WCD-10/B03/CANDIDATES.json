@@ -1,0 +1,145 @@
+{
+  "schema": "wcd10-candidates-1",
+  "task_id": "TASK-108",
+  "batch_id": "WCD-10-B03",
+  "baseline_commit": "05f3372c69a54ec331d31b05d16c8288d6d3a993",
+  "baseline_database_sha256": "83435075f1da42f07bf03b98dd934f182fdcb75f969cf87e48e46359290cd498",
+  "status": "CANDIDATE_NOT_REVIEWED",
+  "author_ids": ["V1-ENT-0073", "V1-ENT-0074", "V1-ENT-0114"],
+  "accessed_at": "2026-09-29",
+  "public_boundary": "Research-only B03; no Curation/public_scope change, no legacy hold promotion, no Schema/public release change.",
+  "source_scope_decisions": [
+    {"candidate_ids": ["WCD10-B03-S09"], "related_existing_source": "SRC-0039", "disposition": "reuse", "reason": "同一Dillon论文，落地页、PDF和HTML不是独立多源；复用SRC-0039不改旧source。2026-09-29已阅读全文，新增仅有归属说明和直接情节/空间事实，不解除旧主题hold。"},
+    {"candidate_ids": ["WCD10-B03-S01", "WCD10-B03-S10", "WCD10-B03-S16"], "disposition": "object_specific_institutional_catalog_not_scholarly", "reason": "三个作者年表可分登记，不能当成独立作品级学术研究；只用已逐项核实的书目条目，排除旁支错年及版本混用。"},
+    {"candidate_ids": ["WCD10-B03-S02", "WCD10-B03-S03", "WCD10-B03-S04", "WCD10-B03-S06", "WCD10-B03-S07", "WCD10-B03-S12", "WCD10-B03-S15", "WCD10-B03-S17", "WCD10-B03-S20", "WCD10-B03-S21"], "disposition": "agency_catalog_not_independent_study", "reason": "代理目录只支持作者/对象/体裁及限定简介；其书目旁支和推广主题不晋升为学术或已确认关系。La casa verde页1967不用于首版，Concierto页歌剧1773不准入。"},
+    {"candidate_ids": ["WCD10-B03-S05", "WCD10-B03-S08", "WCD10-B03-S11", "WCD10-B03-S13", "WCD10-B03-S14", "WCD10-B03-S18", "WCD10-B03-S19", "WCD10-B03-S22"], "disposition": "publisher_catalog_not_independent_study", "reason": "具体出版者页可以登记；相近/转载目录简介不是独立双研究。当前ISBN发行年不替代作品首版；作者简介不下推到具体作品。"}
+  ],
+  "sources": [
+    {"candidate_id": "WCD10-B03-S01", "title": "Julio Cortázar. Cronología de obras", "author_or_editor": "Instituto Cervantes / Departamento de Bibliotecas y Documentación", "url": "https://www.cervantes.es/bibliotecas_documentacion_espanol/creadores/cortazar_julio_1.htm", "source_level": "B", "access_status": "OPENED", "locator": "年表1959–1974逐项；页面更新2015-08", "usage": "本批六新对象首版条目交叉核查；Último round1968、Deshoras1982、La otra orilla1945旁支不准入。"},
+    {"candidate_id": "WCD10-B03-S02", "title": "Los premios / The Winners", "author_or_editor": "Agencia Literaria Carmen Balcells", "url": "https://www.agenciabalcells.com/en/authors/works/julio-cortazar/los-premios/", "source_level": "B", "access_status": "OPENED", "locator": "作品主条目Novel1960及开头cruise简介", "usage": "直接署名、小说体裁、1960和邮轮情节；不收推广评价或新世界神话关系。"},
+    {"candidate_id": "WCD10-B03-S03", "title": "62: Modelo para armar", "author_or_editor": "Agencia Literaria Carmen Balcells", "url": "https://www.agenciabalcells.com/ca/autors/obra/julio-cortazar/62-modelo-para-armar/", "source_level": "B", "access_status": "OPENED", "locator": "主条目Novel·la1968；简介Londres/París/Buenos Aires", "usage": "直接体裁、年份及多个城市的叙事概述/SET_IN；读者参与的推广释义不生成文学形式关系。"},
+    {"candidate_id": "WCD10-B03-S04", "title": "Libro de Manuel", "author_or_editor": "Agencia Literaria Carmen Balcells", "url": "https://www.agenciabalcells.com/autores/obra/julio-cortazar/libro-de-manuel/", "source_level": "B", "access_status": "OPENED", "locator": "主条目Novela1973", "usage": "直接署名、体裁和年份；只作目录，不作革命主题或流派独立研究。"},
+    {"candidate_id": "WCD10-B03-S05", "title": "Historias de cronopios y de famas", "author_or_editor": "Penguin Random House Grupo Editorial / DEBOLSILLO", "url": "https://www.penguinlibros.com/es/literatura-contemporanea/33498-libro-historias-de-cronopios-y-de-famas-9788466331890", "source_level": "B", "access_status": "OPENED", "locator": "colección de cuentos y viñetas；完整编辑简介；ISBN9788466331890", "usage": "短篇与小品合集的体裁和有归属概述；2016是现版，不用作首版，不收用户评论。"},
+    {"candidate_id": "WCD10-B03-S06", "title": "Todos los fuegos el fuego / All Fires the Fire", "author_or_editor": "Agencia Literaria Carmen Balcells", "url": "https://www.agenciabalcells.com/en/authors/works/julio-cortazar/todos-los-fuegos-el-fuego/", "source_level": "B", "access_status": "OPENED", "locator": "主条目1966；eight stories及El otro cielo篇目表", "usage": "合集年份、层级和八篇构成；不与书名同名单篇合并，不把某一篇情节下推全合集。"},
+    {"candidate_id": "WCD10-B03-S07", "title": "Octaedro / Octahedron", "author_or_editor": "Agencia Literaria Carmen Balcells", "url": "https://www.agenciabalcells.com/en/authors/works/julio-cortazar/octaedro/", "source_level": "B", "access_status": "OPENED", "locator": "主条目1974；eight stories简介", "usage": "合集署名、1974、八篇集合概述；仅来源归属说明，不创建梦境、政治等主题关系。"},
+    {"candidate_id": "WCD10-B03-S08", "title": "Las armas secretas / The Secret Weapons", "author_or_editor": "Penguin Random House / Alfaguara", "url": "https://www.penguinrandomhouse.com/books/768435/las-armas-secretas--the-secret-weapons-by-julio-cortazar/", "source_level": "B", "access_status": "OPENED", "locator": "About五篇目录；Product Details ISBN9789505111930", "usage": "仅补集合构成概述；2024为当前版，1959旧年不改；不把单篇爵士/电影判断下推全书。"},
+    {"candidate_id": "WCD10-B03-S09", "title": "Romance y azar en la ciudad: dos transposiciones de cuentos de Julio Cortázar", "author_or_editor": "Alfredo Dillon / Anclajes (Universidad Nacional de La Pampa)", "url": "https://cerac.unlpam.edu.ar/index.php/anclajes/article/view/7247", "source_level": "A", "access_status": "OPENED", "locator": "Anclajes28(2),2024,123–135；El otro cielo125–129；Manuscrito129–132；参考书目133；DOI10.19137/anclajes-2024-2829", "usage": "2026-09-29落地页及13页PDF全文读取；只补两单篇情节、书目/空间事实和署名研究说明。131页El otro cielo(1959)回指与125页1966收录不能用于首刊；电影新增人物与São Paulo不倒灌原作。", "reuse_existing_source": "SRC-0039"},
+    {"candidate_id": "WCD10-B03-S10", "title": "Alejo Carpentier. Cronología de obras", "author_or_editor": "Instituto Cervantes / Departamento de Bibliotecas y Documentación", "url": "https://www.cervantes.es/bibliotecas_documentacion_espanol/creadores/argel_alejo_carpentier_1.htm", "source_level": "B", "access_status": "OPENED", "locator": "Guerra1958三短篇一小说；Concierto1974；Recurso1974；Arpa1979；更新2015-08", "usage": "作品年份及1958集合构成，不把后续扩编版固定为同一篇目表。"},
+    {"candidate_id": "WCD10-B03-S11", "title": "El acoso", "author_or_editor": "Fondo de Cultura Económica", "url": "https://www.fcede.es/site/es/libros/detalles.aspx?id_libro=20412", "source_level": "B", "access_status": "OPENED", "locator": "Reseña建筑学生/La Habana/剧院；ISBN9786071683090；Primera edición2024", "usage": "小说体裁、直接哈瓦那背景和避难梗概；不把现版2024取代旧1956，不确认现实事件关系。"},
+    {"candidate_id": "WCD10-B03-S12", "title": "Concierto barroco", "author_or_editor": "Agencia Literaria Carmen Balcells", "url": "https://www.agenciabalcells.com/ca/autors/obra/alejo-carpentier/concierto-barroco/", "source_level": "B", "access_status": "OPENED", "locator": "主条目Novel·la1974；indiano与criado赴欧寻找乐器", "usage": "仅署名、小说和赴欧旅程梗概；1773歌剧年份明确排除，不生成BASED_ON_EVENT。"},
+    {"candidate_id": "WCD10-B03-S13", "title": "El recurso del método", "author_or_editor": "Alianza Editorial", "url": "https://www.alianzaeditorial.es/libro/bibliotecas-de-autor/el-recurso-del-metodo-alejo-carpentier-9788420683263/", "source_level": "B", "access_status": "OPENED", "locator": "Sinopsis：acción de la novela/Primer Magistrado；现版2014", "usage": "小说体裁及虚构Primer Magistrado概述；不创建真实独裁者实体/人物原型/历史事件关系。"},
+    {"candidate_id": "WCD10-B03-S14", "title": "El arpa y la sombra", "author_or_editor": "Alianza Editorial", "url": "https://www.alianzaeditorial.es/libro/bibliotecas-de-autor/el-arpa-y-la-sombra-alejo-carpentier-9788420676647/", "source_level": "B", "access_status": "OPENED", "locator": "Sinopsis：Cristóbal Colón/Pío IX；现版2013及2021电子版", "usage": "只存小说围绕哥伦布与封圣提案的文学梗概；不把出版社介绍当成现实事件认证，2013/2021不作首版。"},
+    {"candidate_id": "WCD10-B03-S15", "title": "El arpa y la sombra / The Harp and the Shadow", "author_or_editor": "Agencia Literaria Carmen Balcells", "url": "https://www.agenciabalcells.com/en/authors/works/alejo-carpentier/el-arpa-y-la-sombra/", "source_level": "B", "access_status": "OPENED", "locator": "主条目Novel1979", "usage": "直接作者、小说和1979；推广流派称号和旁支世纪标签不使用。"},
+    {"candidate_id": "WCD10-B03-S16", "title": "Mario Vargas Llosa. Cronología de obras", "author_or_editor": "Instituto Cervantes / Departamento de Bibliotecas y Documentación", "url": "https://www.cervantes.es/bibliotecas_documentacion_espanol/biografias/berlin_mario_vargas_llosa_1.htm", "source_level": "B", "access_status": "OPENED", "locator": "Narrativa：La casa verde1966；La tía Julia1977；Mayta1984；El hablador1987；更新2022-05", "usage": "逐作品书目年份；Narrativa不自动等于novela；保留与代理目录1967冲突的排除说明。"},
+    {"candidate_id": "WCD10-B03-S17", "title": "La casa verde / The Green House", "author_or_editor": "Agencia Literaria Carmen Balcells", "url": "https://www.agenciabalcells.com/en/authors/works/mario-vargas-llosa/la-casa-verde/", "source_level": "B", "access_status": "OPENED", "locator": "主条目Novel；Don Anselmo/Bonificia简介；目录1967排除", "usage": "只用体裁/妓院及人物情节，不用1967首版或附录城市与狗1962；旧INCI SET_IN关系不重复。"},
+    {"candidate_id": "WCD10-B03-S18", "title": "Pantaleón y las visitadoras", "author_or_editor": "Penguin Random House Grupo Editorial / Alfaguara", "url": "https://www.penguinlibros.com/es/literatura-contemporanea/6935-libro-pantaleon-y-las-visitadoras-9788420432793", "source_level": "B", "access_status": "OPENED", "locator": "完整编辑简介：capitánPantaleón Pantoja/Iquitos；现版2017", "usage": "只用小说体裁及军队秘密任务；不新增无端点Iquitos，也不使用作者简介1962覆盖城市与狗旧事实。"},
+    {"candidate_id": "WCD10-B03-S19", "title": "La tía Julia y el escribidor", "author_or_editor": "Penguin Random House Grupo Editorial / DEBOLSILLO", "url": "https://www.penguinlibros.com/es/literatura-contemporanea/34789-libro-la-tia-julia-y-el-escribidor-9788490625675", "source_level": "B", "access_status": "OPENED", "locator": "完整编辑简介：novela/publicada1977；Varguitas/Julia/Pedro Camacho/sociedad limeña años cincuenta", "usage": "作品首版、体裁、双线梗概和利马SET_IN；只用编辑介绍，不用用户评论或作者简介旁支错年。"},
+    {"candidate_id": "WCD10-B03-S20", "title": "El hablador / The Storyteller", "author_or_editor": "Agencia Literaria Carmen Balcells", "url": "https://www.agenciabalcells.com/en/authors/works/mario-vargas-llosa/el-hablador/", "source_level": "B", "access_status": "OPENED", "locator": "主条目Novel1987；Florence照片/大学同学Saul Zuratas/Machiguenga介绍", "usage": "署名、年份、小说体裁、叙述者回忆与想象的梗概；不把族群叙事当作人类学事实，不改作者民族/血缘。"},
+    {"candidate_id": "WCD10-B03-S21", "title": "Historia de Mayta / The Real Life of Alejandro Mayta", "author_or_editor": "Agencia Literaria Carmen Balcells", "url": "https://www.agenciabalcells.com/en/authors/works/mario-vargas-llosa/historia-de-mayta/", "source_level": "B", "access_status": "OPENED", "locator": "主条目Novel1984；near-future Peru/narrator reconstructs revolutionary friend", "usage": "直接小说背景/梗概和年份；虚构将来秘鲁战争不作现实事件，不生成BASED_ON_EVENT。"},
+    {"candidate_id": "WCD10-B03-S22", "title": "Libro de Manuel", "author_or_editor": "Penguin Random House Grupo Editorial / Alfaguara", "url": "https://www.penguinlibros.com/ar/literatura-contemporanea/163896-libro-libro-de-manuel-9789877383089", "source_level": "B", "access_status": "OPENED", "locator": "完整编辑简介：Libro de Manuel(1973)/triángulos amorosos/operación revolucionaria/recortes；ISBN9789877383089", "usage": "有边界情节概述；不把剪报涉及现实镇压自动转为已确认事件关系，1969–1972写作年不替换1973。"}
+  ],
+  "new_entities": [
+    {"candidate_id": "WCD10-B03-W01", "author_id": "V1-ENT-0073", "entity_type": "work", "original_name": "Los premios", "name_zh_candidate": "奖品", "name_policy": "中文仅候选显示名；原题为身份锚点，未核实正式中文译本。", "rationale": "补科塔萨尔1960小说对象，不是四作品合辑或当前再版。", "created_source_refs": ["WCD10-B03-S02"], "facts": [
+      {"field": "first_publication_year", "value": "1960", "source_refs": ["WCD10-B03-S01", "WCD10-B03-S02"]},
+      {"field": "genre_or_form", "value": "小说", "source_refs": ["WCD10-B03-S02"]},
+      {"field": "story_premise", "value": "一艘驶向未知目的地的豪华邮轮发生失控的变故，乘客的生活在这趟航程中交错。", "source_refs": ["WCD10-B03-S02"]}
+    ]},
+    {"candidate_id": "WCD10-B03-W02", "author_id": "V1-ENT-0073", "entity_type": "work", "original_name": "62: Modelo para armar", "name_zh_candidate": "62：可拼装的模型", "name_policy": "中文暂译，原题标点及62数字保留，不等于Rayuela第62章对象。", "rationale": "补1968独立小说，不与Rayuela或译本混层。", "created_source_refs": ["WCD10-B03-S03"], "facts": [
+      {"field": "first_publication_year", "value": "1968", "source_refs": ["WCD10-B03-S01", "WCD10-B03-S03"]},
+      {"field": "genre_or_form", "value": "小说", "source_refs": ["WCD10-B03-S03"]},
+      {"field": "one_sentence_summary", "value": "据代理目录介绍，小说穿行于伦敦、巴黎和布宜诺斯艾利斯，交错人物的对话与独白，要求读者拼接叙事片段。", "source_refs": ["WCD10-B03-S03"]}
+    ]},
+    {"candidate_id": "WCD10-B03-W03", "author_id": "V1-ENT-0073", "entity_type": "work", "original_name": "Libro de Manuel", "name_zh_candidate": "曼努埃尔之书", "name_policy": "中文暂译；不将Manuel Puig作者节点与题名人物匹配。", "rationale": "补1973小说，不新建革命事件/运动归属。", "created_source_refs": ["WCD10-B03-S04"], "facts": [
+      {"field": "first_publication_year", "value": "1973", "source_refs": ["WCD10-B03-S01", "WCD10-B03-S04", "WCD10-B03-S22"]},
+      {"field": "genre_or_form", "value": "小说", "source_refs": ["WCD10-B03-S04", "WCD10-B03-S22"]},
+      {"field": "story_premise", "value": "小说把人物的三角恋与一场革命行动的幕后过程交织起来，并穿插涉及镇压的剪报材料。", "source_refs": ["WCD10-B03-S22"]}
+    ]},
+    {"candidate_id": "WCD10-B03-W04", "author_id": "V1-ENT-0073", "entity_type": "collection", "original_name": "Historias de cronopios y de famas", "name_zh_candidate": "克罗诺皮奥与法玛的故事", "name_policy": "中文音译暂定；Cervantes省略第二de不作另一个作品。", "rationale": "短篇与小品混合合集，区别单篇与各地再版。", "created_source_refs": ["WCD10-B03-S05"], "facts": [
+      {"field": "first_publication_year", "value": "1962", "source_refs": ["WCD10-B03-S01"]},
+      {"field": "genre_or_form", "value": "短篇与小品集", "source_refs": ["WCD10-B03-S05"]},
+      {"field": "one_sentence_summary", "value": "据出版者介绍，这部短篇与小品集用想象力和幽默重新观看日常惯例与常识。", "source_refs": ["WCD10-B03-S05"]}
+    ]},
+    {"candidate_id": "WCD10-B03-W05", "author_id": "V1-ENT-0073", "entity_type": "collection", "original_name": "Todos los fuegos el fuego", "name_zh_candidate": "所有的火都是火", "name_policy": "中文暂译；本对象为八篇合集，不合并书名同名单篇，不合并既有El otro cielo。", "rationale": "补1966合集作为单篇收录的书目锚点；收录关系暂不结构化。", "created_source_refs": ["WCD10-B03-S06"], "facts": [
+      {"field": "first_publication_year", "value": "1966", "source_refs": ["WCD10-B03-S01", "WCD10-B03-S06"]},
+      {"field": "genre_or_form", "value": "短篇小说集", "source_refs": ["WCD10-B03-S06"]},
+      {"field": "one_sentence_summary", "value": "由八篇小说组成的合集，收录《南方高速公路》《另一个天空》以及书名同名短篇等作品。", "source_refs": ["WCD10-B03-S06"]}
+    ]},
+    {"candidate_id": "WCD10-B03-W06", "author_id": "V1-ENT-0073", "entity_type": "collection", "original_name": "Octaedro", "name_zh_candidate": "八面体", "name_policy": "中文暂译，合集与既有Manuscrito单篇分层；不等于Octaedro出版机构。", "rationale": "补1974八篇合集，不把单篇论文当整本研究。", "created_source_refs": ["WCD10-B03-S07"], "facts": [
+      {"field": "first_publication_year", "value": "1974", "source_refs": ["WCD10-B03-S01", "WCD10-B03-S07"]},
+      {"field": "genre_or_form", "value": "短篇小说集", "source_refs": ["WCD10-B03-S07"]},
+      {"field": "one_sentence_summary", "value": "据代理目录介绍，八篇故事相互映照，把爱、疾病、死亡等遭遇与日常和幻想的边界交织起来。", "source_refs": ["WCD10-B03-S07"]}
+    ]},
+    {"candidate_id": "WCD10-B03-W07", "author_id": "V1-ENT-0074", "entity_type": "work", "original_name": "Concierto barroco", "name_zh_candidate": "巴洛克音乐会", "name_policy": "中文暂译，不等于同名音乐作品或当前版。", "rationale": "补1974小说，历史歌剧年份疑点不入库。", "created_source_refs": ["WCD10-B03-S12"], "facts": [
+      {"field": "first_publication_year", "value": "1974", "source_refs": ["WCD10-B03-S10", "WCD10-B03-S12"]},
+      {"field": "genre_or_form", "value": "小说", "source_refs": ["WCD10-B03-S12"]},
+      {"field": "story_premise", "value": "一名来自美洲的旅客与仆人赴欧洲寻找乐器，旅程展开了两个大陆之间的音乐相遇。", "source_refs": ["WCD10-B03-S12"]}
+    ]},
+    {"candidate_id": "WCD10-B03-W08", "author_id": "V1-ENT-0074", "entity_type": "work", "original_name": "El recurso del método", "name_zh_candidate": "方法的求助", "name_policy": "中文暂译；不把与笛卡尔题名的呼应作确认RESPONDS_TO_WORK。", "rationale": "补1974独立小说；虚构独裁者与现实原型分层。", "created_source_refs": ["WCD10-B03-S13"], "facts": [
+      {"field": "first_publication_year", "value": "1974", "source_refs": ["WCD10-B03-S10"]},
+      {"field": "genre_or_form", "value": "小说", "source_refs": ["WCD10-B03-S13"]},
+      {"field": "one_sentence_summary", "value": "小说围绕虚构的“第一行政长官”展开，描写一名表面有教养却腐败无能的拉美独裁者。", "source_refs": ["WCD10-B03-S13"]}
+    ]},
+    {"candidate_id": "WCD10-B03-W09", "author_id": "V1-ENT-0074", "entity_type": "work", "original_name": "El arpa y la sombra", "name_zh_candidate": "竖琴与影子", "name_policy": "中文暂译；小说与哥伦布现实传记/宗教事件分层。", "rationale": "补1979独立小说，以直接代理书目和出版者简介支持。", "created_source_refs": ["WCD10-B03-S15"], "facts": [
+      {"field": "first_publication_year", "value": "1979", "source_refs": ["WCD10-B03-S10", "WCD10-B03-S15"]},
+      {"field": "genre_or_form", "value": "小说", "source_refs": ["WCD10-B03-S15"]},
+      {"field": "story_premise", "value": "小说围绕克里斯托弗·哥伦布及庇护九世提出为他封圣的计划展开，重新审视人物及其历史形象。", "source_refs": ["WCD10-B03-S14"]}
+    ]},
+    {"candidate_id": "WCD10-B03-W10", "author_id": "V1-ENT-0114", "entity_type": "work", "original_name": "La tía Julia y el escribidor", "name_zh_candidate": "胡利娅姨妈与写作人", "name_policy": "中文暂译，不把小说爱情直接转成作者婚姻事实。", "rationale": "补1977小说；只建立明确利马背景关系。", "created_source_refs": ["WCD10-B03-S19"], "facts": [
+      {"field": "first_publication_year", "value": "1977", "source_refs": ["WCD10-B03-S16", "WCD10-B03-S19"]},
+      {"field": "genre_or_form", "value": "小说", "source_refs": ["WCD10-B03-S19"]},
+      {"field": "story_premise", "value": "年轻的瓦尔吉塔斯与年长姨妈胡利娅的恋情，和同一电台编剧佩德罗·卡马乔的广播故事交替展开，背景是二十世纪五十年代的利马。", "source_refs": ["WCD10-B03-S19"]}
+    ]},
+    {"candidate_id": "WCD10-B03-W11", "author_id": "V1-ENT-0114", "entity_type": "work", "original_name": "El hablador", "name_zh_candidate": "说话人", "name_policy": "中文暂译；Saul人物不匹配任何现实作者。", "rationale": "补1987小说；叙述者记忆和想象保留，不转人类学事实。", "created_source_refs": ["WCD10-B03-S20"], "facts": [
+      {"field": "first_publication_year", "value": "1987", "source_refs": ["WCD10-B03-S16", "WCD10-B03-S20"]},
+      {"field": "genre_or_form", "value": "小说", "source_refs": ["WCD10-B03-S20"]},
+      {"field": "story_premise", "value": "一位秘鲁作家在佛罗伦萨的展览照片中认出大学同学萨乌尔·苏拉塔斯，进而回忆并想象他成为亚马逊马奇根加人说书者的过程。", "source_refs": ["WCD10-B03-S20"]}
+    ]},
+    {"candidate_id": "WCD10-B03-W12", "author_id": "V1-ENT-0114", "entity_type": "work", "original_name": "Historia de Mayta", "name_zh_candidate": "迈塔的故事", "name_policy": "中文暂译；小说重构不当成真实革命事件或人物传记。", "rationale": "补1984小说；限定为虚构将来秘鲁背景。", "created_source_refs": ["WCD10-B03-S21"], "facts": [
+      {"field": "first_publication_year", "value": "1984", "source_refs": ["WCD10-B03-S16", "WCD10-B03-S21"]},
+      {"field": "genre_or_form", "value": "小说", "source_refs": ["WCD10-B03-S21"]},
+      {"field": "story_premise", "value": "在小说想象的、陷入动乱的近未来秘鲁，叙述者试图重构一位革命者朋友的经历。", "source_refs": ["WCD10-B03-S21"]}
+    ]}
+  ],
+  "existing_facts": [
+    {"candidate_id": "WCD10-B03-F01", "subject_id": "V1-ENT-0084", "field": "genre_or_form", "value": "短篇小说", "source_refs": ["WCD10-B03-S09"], "boundary": "Dillon正文称cuento；复用既有单篇，不建同名对象。"},
+    {"candidate_id": "WCD10-B03-F02", "subject_id": "V1-ENT-0084", "field": "story_premise", "value": "布宜诺斯艾利斯一名证券交易所职员通过市中心的拱廊往来于日常生活与十九世纪巴黎，在另一座城市与若西亚娜相遇；他的另一种生活最终消失。", "source_refs": ["WCD10-B03-S09"], "boundary": "只按原作段落126–129释义，不引入电影Julien/Bichette的名字或结局。"},
+    {"candidate_id": "WCD10-B03-F03", "subject_id": "V1-ENT-0084", "field": "bibliographic_note", "value": "Dillon在125页将本篇标为收录于Todos los fuegos el fuego（1966），133页引用的是Norma于1994年出版的该合集135–159页；131页回指年份1959与上述条目存在疑点，因此本批不确定本篇首刊年。", "source_refs": ["WCD10-B03-S09"], "boundary": "收录/引用版/首次发表分层；1966或1994不填作first_publication_year。"},
+    {"candidate_id": "WCD10-B03-F04", "subject_id": "V1-ENT-0084", "field": "research_note", "value": "Dillon（2024，126–129、132页）把两城之间的穿行解读为日常责任与理想化欲望的对置，并指出原作女性形象受男性叙述视角支配；这里保存其有归属解释，不代表独立双源关系已获准。", "source_refs": ["WCD10-B03-S09"], "boundary": "research_note_only；同一SRC-0039不是第二独立研究，主题hold保持。"},
+    {"candidate_id": "WCD10-B03-F05", "subject_id": "V1-ENT-0085", "field": "genre_or_form", "value": "短篇小说", "source_refs": ["WCD10-B03-S09"], "boundary": "原作cuento层级，不混电影Jogo subterraneo。"},
+    {"candidate_id": "WCD10-B03-F06", "subject_id": "V1-ENT-0085", "field": "story_premise", "value": "第一人称叙述者在巴黎地铁设定寻找理想女性的游戏：先决定路线，再期待一名女性与自己同路；遇见玛丽－克洛德后，他必须在自定规则与相遇之间作出选择。", "source_refs": ["WCD10-B03-S09"], "boundary": "129–131原作段落；不倒灌São Paulo、Martín、Ana、卖淫职业或电影团圆结局。"},
+    {"candidate_id": "WCD10-B03-F07", "subject_id": "V1-ENT-0085", "field": "bibliographic_note", "value": "Dillon（2024，129、133页）明确本篇收录于Octaedro，并引用Buenos Aires: Sudamericana,1974版55–74页；这只确认1974书版收录，未独立核实更早首刊或首次书版。", "source_refs": ["WCD10-B03-S09"], "boundary": "1974引用版不提升为first_publication_year或first_book_edition_year。"},
+    {"candidate_id": "WCD10-B03-F08", "subject_id": "V1-ENT-0085", "field": "research_note", "value": "Dillon（2024，129–132页）认为地铁游戏把偶然、欲望和城市路线联系起来，同时指出规则由男性主角单方面设定、女性被要求配合的权力不对称。", "source_refs": ["WCD10-B03-S09"], "boundary": "research_note_only；署名转述不是本项目的无归属评价，也不解除旧主题hold。"},
+    {"candidate_id": "WCD10-B03-F09", "subject_id": "V1-ENT-0164", "field": "one_sentence_summary", "value": "五篇小说组成的合集，收录《母亲的来信》《良好的服务》《秘密武器》《魔鬼的涎液》与《追寻者》；此处仅作篇目构成说明。", "source_refs": ["WCD10-B03-S08"], "boundary": "现有1959与genre保留；不把同名单篇、电影或爵士主题推广给整个合集，中文篇目暂译。"},
+    {"candidate_id": "WCD10-B03-F10", "subject_id": "V1-ENT-0167", "field": "first_publication_year", "value": "1958", "source_refs": ["WCD10-B03-S10"], "boundary": "只补1958作品书目；既有1982/1998扩编版bibliographic_note保留。"},
+    {"candidate_id": "WCD10-B03-F11", "subject_id": "V1-ENT-0167", "field": "one_sentence_summary", "value": "塞万提斯学院年表中的1958年版由三个短篇与一部小说组成：El camino de Santiago、Viaje a la semilla、Semejante a la noche及El acoso；后续扩编本不据此固定篇目。", "source_refs": ["WCD10-B03-S10"], "boundary": "限定1958版本集合描述；不覆盖旧genre或扩编书目，不新建四个单篇。"},
+    {"candidate_id": "WCD10-B03-F12", "subject_id": "V1-ENT-0168", "field": "genre_or_form", "value": "小说", "source_refs": ["WCD10-B03-S11"], "boundary": "novela只登记小说，不自行断定长篇；旧关系称中篇保持不覆盖。"},
+    {"candidate_id": "WCD10-B03-F13", "subject_id": "V1-ENT-0168", "field": "story_premise", "value": "在哈瓦那，一名建筑学生为逃避追捕躲进剧院；贝多芬《英雄交响曲》的演奏期间，他回顾自己的家庭、爱情与政治经历。", "source_refs": ["WCD10-B03-S11"], "boundary": "只取文学梗概；现实1933事件不结构化，现版2024不改作品1956。"},
+    {"candidate_id": "WCD10-B03-F14", "subject_id": "V1-ENT-0160", "field": "first_publication_year", "value": "1966", "source_refs": ["WCD10-B03-S16"], "boundary": "Cervantes直接1966；代理目录1967冲突明确排除，BnF旧再版书目及INCI地点研究保持。"},
+    {"candidate_id": "WCD10-B03-F15", "subject_id": "V1-ENT-0160", "field": "genre_or_form", "value": "小说", "source_refs": ["WCD10-B03-S17"], "boundary": "只用主条目Novel，不用该页年份或作者通用侧栏。"},
+    {"candidate_id": "WCD10-B03-F16", "subject_id": "V1-ENT-0160", "field": "story_premise", "value": "外来者唐·安塞尔莫在秘鲁一座城镇郊外建立名为“绿房子”的妓院，邦妮菲西亚、神父与几位好友的命运在这里交织。", "source_refs": ["WCD10-B03-S17"], "boundary": "只补直接人物/叙事概述，不重复INCI支持的SET_IN，不将推广二元主题作确认关系。"},
+    {"candidate_id": "WCD10-B03-F17", "subject_id": "V1-ENT-0161", "field": "genre_or_form", "value": "小说", "source_refs": ["WCD10-B03-S18"], "boundary": "保留旧1973与书目卡；现版2017不作首版。"},
+    {"candidate_id": "WCD10-B03-F18", "subject_id": "V1-ENT-0161", "field": "story_premise", "value": "军官潘塔莱昂·潘托哈奉密令为秘鲁军队组织卖淫服务，前往伊基托斯执行任务；他过度执着于履行职责，反而危及自己建立的运作体系。", "source_refs": ["WCD10-B03-S18"], "boundary": "只补直接梗概，Iquitos无既有端点暂不建SET_IN；不创建现实军队/人物。"}
+  ],
+  "extra_relationships": [
+    {"candidate_id": "WCD10-B03-R01", "subject_id": "V1-ENT-0084", "object_id": "V1-ENT-0370", "relation_type": "SET_IN", "description_zh": "El otro cielo的原作叙事在布宜诺斯艾利斯日常生活与十九世纪巴黎之间穿行；这里只连接城市，不将幻想通道落现实坐标。", "source_refs": ["WCD10-B03-S09"]},
+    {"candidate_id": "WCD10-B03-R02", "subject_id": "V1-ENT-0084", "object_id": "V1-ENT-0373", "relation_type": "SET_IN", "description_zh": "El otro cielo原作的另一城市场景为十九世纪巴黎，不与电影的全巴黎时空等同。", "source_refs": ["WCD10-B03-S09"]},
+    {"candidate_id": "WCD10-B03-R03", "subject_id": "V1-ENT-0085", "object_id": "V1-ENT-0373", "relation_type": "SET_IN", "description_zh": "Manuscrito hallado en un bolsillo原作的游戏发生在巴黎地铁；São Paulo仅电影改编，未纳入此关系。", "source_refs": ["WCD10-B03-S09"]},
+    {"candidate_id": "WCD10-B03-R04", "subject_id": "WCD10-B03-W02", "object_id": "V1-ENT-0373", "relation_type": "SET_IN", "description_zh": "代理作品页明确62: Modelo para armar叙事经过巴黎；不把写作地当作背景。", "source_refs": ["WCD10-B03-S03"]},
+    {"candidate_id": "WCD10-B03-R05", "subject_id": "WCD10-B03-W02", "object_id": "V1-ENT-0370", "relation_type": "SET_IN", "description_zh": "代理作品页明确62: Modelo para armar叙事经过布宜诺斯艾利斯；这是作品城市背景。", "source_refs": ["WCD10-B03-S03"]},
+    {"candidate_id": "WCD10-B03-R06", "subject_id": "V1-ENT-0168", "object_id": "V1-ENT-0372", "relation_type": "SET_IN", "description_zh": "FCE具体作品页明确El acoso剧院避难情节位于哈瓦那；不据此确认真实政治事件。", "source_refs": ["WCD10-B03-S11"]},
+    {"candidate_id": "WCD10-B03-R07", "subject_id": "WCD10-B03-W10", "object_id": "V1-ENT-0125", "relation_type": "SET_IN", "description_zh": "出版者明确La tía Julia y el escribidor爱情与广播叙事置于五十年代利马社会。", "source_refs": ["WCD10-B03-S19"]},
+    {"candidate_id": "WCD10-B03-R08", "subject_id": "WCD10-B03-W12", "object_id": "V1-ENT-0124", "relation_type": "SET_IN", "description_zh": "Historia de Mayta目录简介把叙事置于想象的近未来秘鲁；只关联国家背景，不认定该战争为现实事件。", "source_refs": ["WCD10-B03-S21"]}
+  ],
+  "deferred": [
+    {"key": "WCD10:B03:El_otro_cielo:first_publication_year", "disposition": "research_gap", "source_refs": ["WCD10-B03-S09"], "reason": "Dillon125页1966合集收录、133页1994引用版与131页1959回指不能证明首次发表；保留年份缺口。"},
+    {"key": "WCD10:B03:Manuscrito:first_publication_year", "disposition": "research_gap", "source_refs": ["WCD10-B03-S09"], "reason": "1974是被引用的Octaedro书版；没有独立排除首刊，故不填泛化首版或first_book_edition_year。"},
+    {"key": "WCD10:B03:Cortazar:single_story_collection_edges", "disposition": "research_gap", "source_refs": ["WCD10-B03-S06", "WCD10-B03-S09"], "reason": "收录出处保存在bibliographic_note；当前候选工具无已复核单篇—合集边路径，本批不修改词表或建立未评审APPEARS_IN。"},
+    {"key": "WCD10:B03:Ultimo_round:year_conflict", "disposition": "research_gap", "source_refs": ["WCD10-B03-S01"], "reason": "Cervantes1968与上轮实际打开SigloXXI1969冲突；1969代理侧栏仍不足解除版本边界，本批不建对象。"},
+    {"key": "WCD10:B03:Deshoras_La_otra_orilla:year_layer", "disposition": "research_gap", "source_refs": ["WCD10-B03-S01", "WCD10-B03-S02"], "reason": "Deshoras1982/1983冲突；La otra orilla1945可能写作年，不当作首印；范围先保留六个可靠新对象。"},
+    {"key": "WCD10:B03:Concierto_barroco:historical_opera_date", "disposition": "research_gap", "source_refs": ["WCD10-B03-S12"], "reason": "代理介绍歌剧1773存在明显核查疑点；本批只用人物旅程，排除历史断言与BASED_ON_EVENT。"},
+    {"key": "WCD10:B03:La_casa_verde:agency_1967", "disposition": "excluded_conflicting_catalog_year", "source_refs": ["WCD10-B03-S16", "WCD10-B03-S17"], "reason": "Cervantes明确1966且旧BnF4e1967再版链支持区分；代理1967不用于首次出版，旧书目不覆盖，仍保留冲突记录。"},
+    {"key": "WCD10:B03:La_consagracion_Los_jefes_Los_cachorros:next_research", "disposition": "research_gap", "source_refs": ["WCD10-B03-S10", "WCD10-B03-S16"], "reason": "只有年表线索或具体页未成功打开，尚无本轮已读的对象级简介/版本构成；不凑新增数量。"},
+    {"key": "WCD10:B03:London_Iquitos_Florence:missing_endpoints", "disposition": "research_gap", "source_refs": ["WCD10-B03-S03", "WCD10-B03-S18", "WCD10-B03-S20"], "reason": "文字中保留明确城市，但当前库没有对应端点，本批不扩地点范围或用国家关系替代城市。"},
+    {"key": "WCD10:B03:legacy_holds:retain", "disposition": "legacy_hold_retained", "source_refs": ["WCD10-B03-S09"], "reason": "同一论文fresh全文不成为第二来源；Cortázar单源主题、Carpentier/Vargas文学运动等旧holds保持，不追加确认解释型关系。"}
+  ]
+}

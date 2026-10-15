@@ -1,0 +1,46 @@
+{
+  "schema": "wcd10-b07-execution-status-1",
+  "task_id": "TASK-112",
+  "batch_id": "WCD-10-B07",
+  "status": "PASS_BOUNDED_B07_EXECUTION_AND_GOVERNANCE",
+  "execution_result": "PASS_BOUNDED_B07_EXECUTION_AND_GOVERNANCE",
+  "executor": "Codex parent fallback for prepare, SQL clone review, actual apply, and QA; B07 integrator prepared this documentary record only.",
+  "baseline_wt_sha256": "ea9e01b41b4faaef727a6159b6d34ba7d9121a9992fda1cb993c6574f91f6a27",
+  "actual_wt_master_sha256": "0150e68ee98e28714a7719129aab7d47e137fc692e8e46a5e1db29540f5dbc07",
+  "root_master_sha256": "a8c54e3c0e04a347f310d7f0f969dfba758f575008fa64c1789e43b26bf378cc",
+  "candidate_sha256": "35c653123fcf944a8c333f7d76bf39496867fb4c8507724e16598a9bbfc57aeb",
+  "review_gate_sha256": "266745b1ea95999a9943ed176d15ca354d3f1a6d9dc85f908c014c3e4a5ab49c",
+  "migration_sha256": "4110d4c32fb5f418636640f2f6ecb4f32853a0c12431ebcdd2e7b2fdc34c66c7",
+  "integration_map_sha256": "7fbf2e238c959d80ffdc1b58fefce128d6124cd21c241cd73b8297b053a9cef1",
+  "counts": {
+    "entities": 508,
+    "facts": 1570,
+    "relationships": 477,
+    "sources": 544,
+    "content_cards": 443,
+    "gaps": 270,
+    "migration_log": 42
+  },
+  "qa": {
+    "parent_sql_review": "PASS_SQL_REVIEW (732 assertions)",
+    "actual_database": "PASS_ACTUAL_DB_MATCHES_INDEPENDENT_CLONE",
+    "post_apply_tests": "161 passed",
+    "migration_replay": "42 migrations / 19 tables PASS",
+    "export_repeat": "22 files PASS",
+    "browser": "60 passed / 4 explicit preview skips / 0 unexpected",
+    "public_bundle": "177 files unchanged / 127 public entities / 139 routes / 0 new B07 entities public"
+  },
+  "next": "B08 fresh inventory and author research; B09+ remain serial. W03 and coauthor re-entry required before stage final PASS.",
+  "scope_boundary": "No further prepare/apply, Curation changes, formal release, public expansion, Git operation, or deployment by this documentation task.",
+  "remaining_stage_obligations": {
+    "W03": "USER policy for cross-language first-publication years and actual backfill remain required.",
+    "coauthor_reentry": "TASK-127/B14 controlled migration must review the same-object works V1-ENT-0493 Los que aman odian and V1-ENT-0494 Antología. Missing Silvina Ocampo and Borges CREATED edges remain for that controlled migration; B07 role descriptions do not add them."
+  },
+  "database_preservation": {
+    "old_non_metadata_rows_preserved": true,
+    "metadata_change_scope": "Only approved checkpoint metadata keys changed; no metadata row-count delta.",
+    "actual_database_review": "All 19 table comparisons passed against the independent clone."
+  },
+  "task_done": true,
+  "b08_unlocked": true
+}

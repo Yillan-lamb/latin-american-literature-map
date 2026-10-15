@@ -1,0 +1,786 @@
+mapping_id,preview_entity_ref,origin_layer,origin_ref,entity_id,mapping_action,mapping_basis
+V1-EMAP-0001,PRE-ENT-0001,N2,STG-ENT-0001,V1-ENT-0001,merge_exact,A02 exact normalization
+V1-EMAP-0002,PRE-ENT-0097,B02,B02-ENT-0025,V1-ENT-0001,merge_exact,A02 exact normalization
+V1-EMAP-0003,PRE-ENT-0002,N2,STG-ENT-0002,V1-ENT-0002,retain_as_formal_candidate,N2 暂存已通过实体层（ENTITY_ID_MAP）
+V1-EMAP-0004,PRE-ENT-0003,N2,STG-ENT-0003,V1-ENT-0003,retain_as_formal_candidate,N2 暂存已通过实体层（ENTITY_ID_MAP）
+V1-EMAP-0005,PRE-ENT-0004,N2,STG-ENT-0004,V1-ENT-0004,retain_as_formal_candidate,N2 暂存已通过实体层（ENTITY_ID_MAP）
+V1-EMAP-0006,PRE-ENT-0005,N2,STG-ENT-0005,V1-ENT-0005,retain_as_formal_candidate,N2 暂存已通过实体层（ENTITY_ID_MAP）
+V1-EMAP-0007,PRE-ENT-0006,N2,STG-ENT-0006,V1-ENT-0006,retain_as_formal_candidate,N2 暂存已通过实体层（ENTITY_ID_MAP）
+V1-EMAP-0008,PRE-ENT-0007,N2,STG-ENT-0007,V1-ENT-0007,retain_as_formal_candidate,N2 暂存已通过实体层（ENTITY_ID_MAP）
+V1-EMAP-0009,PRE-ENT-0008,N2,STG-ENT-0008,V1-ENT-0008,retain_as_formal_candidate,N2 暂存已通过实体层（ENTITY_ID_MAP）
+V1-EMAP-0010,PRE-ENT-0009,N2,STG-ENT-0009,V1-ENT-0009,retain_as_formal_candidate,N2 暂存已通过实体层（ENTITY_ID_MAP）
+V1-EMAP-0011,PRE-ENT-0010,N2,STG-ENT-0010,V1-ENT-0010,retain_as_formal_candidate,N2 暂存已通过实体层（ENTITY_ID_MAP）
+V1-EMAP-0012,PRE-ENT-0011,N2,STG-ENT-0011,V1-ENT-0011,retain_as_formal_candidate,N2 暂存已通过实体层（ENTITY_ID_MAP）
+V1-EMAP-0013,PRE-ENT-0012,N2,STG-ENT-0012,V1-ENT-0012,retain_as_formal_candidate,N2 暂存已通过实体层（ENTITY_ID_MAP）
+V1-EMAP-0014,PRE-ENT-0013,N2,STG-ENT-0013,V1-ENT-0013,retain_as_formal_candidate,N2 暂存已通过实体层（ENTITY_ID_MAP）
+V1-EMAP-0015,PRE-ENT-0014,N2,STG-ENT-0014,V1-ENT-0014,merge_exact,A02 exact normalization
+V1-EMAP-0016,PRE-ENT-0067,B01,B01-ENT-0039,V1-ENT-0014,merge_exact,A02 exact normalization
+V1-EMAP-0017,PRE-ENT-0015,N2,STG-ENT-0015,V1-ENT-0015,retain_as_formal_candidate,N2 暂存已通过实体层（ENTITY_ID_MAP）
+V1-EMAP-0018,PRE-ENT-0016,N2,STG-ENT-0016,V1-ENT-0016,retain_as_formal_candidate,N2 暂存已通过实体层（ENTITY_ID_MAP）
+V1-EMAP-0019,PRE-ENT-0017,N2,STG-ENT-0017,V1-ENT-0017,retain_as_formal_candidate,N2 暂存已通过实体层（ENTITY_ID_MAP）
+V1-EMAP-0020,PRE-ENT-0018,N2,STG-ENT-0018,V1-ENT-0018,retain_as_formal_candidate,N2 暂存已通过实体层（ENTITY_ID_MAP）
+V1-EMAP-0021,PRE-ENT-0019,N2,STG-ENT-0019,V1-ENT-0019,retain_as_formal_candidate,N2 暂存已通过实体层（ENTITY_ID_MAP）
+V1-EMAP-0022,PRE-ENT-0020,N2,STG-ENT-0020,V1-ENT-0020,retain_as_formal_candidate,N2 暂存已通过实体层（ENTITY_ID_MAP）
+V1-EMAP-0023,PRE-ENT-0021,N2,STG-ENT-0021,V1-ENT-0021,retain_as_formal_candidate,N2 暂存已通过实体层（ENTITY_ID_MAP）
+V1-EMAP-0024,PRE-ENT-0022,N2,STG-ENT-0022,V1-ENT-0022,retain_as_formal_candidate,N2 暂存已通过实体层（ENTITY_ID_MAP）
+V1-EMAP-0025,PRE-ENT-0023,N2,STG-ENT-0023,V1-ENT-0023,retain_as_formal_candidate,N2 暂存已通过实体层（ENTITY_ID_MAP）
+V1-EMAP-0026,PRE-ENT-0024,N2,STG-ENT-0024,V1-ENT-0024,retain_as_formal_candidate,N2 暂存已通过实体层（ENTITY_ID_MAP）
+V1-EMAP-0027,PRE-ENT-0025,N2,STG-ENT-0025,V1-ENT-0025,retain_as_formal_candidate,N2 暂存已通过实体层（ENTITY_ID_MAP）
+V1-EMAP-0028,PRE-ENT-0026,N2,STG-ENT-0026,V1-ENT-0026,retain_as_formal_candidate,N2 暂存已通过实体层（ENTITY_ID_MAP）
+V1-EMAP-0029,PRE-ENT-0027,N2,STG-ENT-0027,V1-ENT-0027,retain_as_formal_candidate,N2 暂存已通过实体层（ENTITY_ID_MAP）
+V1-EMAP-0030,PRE-ENT-0028,N2,STG-ENT-0028,V1-ENT-0028,retain_as_formal_candidate,N2 暂存已通过实体层（ENTITY_ID_MAP）
+V1-EMAP-0031,PRE-ENT-0029,B01,B01-ENT-0001,V1-ENT-0029,retain_as_formal_candidate,B01 批次已通过实体层
+V1-EMAP-0032,PRE-ENT-0030,B01,B01-ENT-0002,V1-ENT-0030,retain_as_formal_candidate,B01 批次已通过实体层
+V1-EMAP-0033,PRE-ENT-0031,B01,B01-ENT-0003,V1-ENT-0031,retain_as_formal_candidate,B01 批次已通过实体层
+V1-EMAP-0034,PRE-ENT-0032,B01,B01-ENT-0004,V1-ENT-0032,retain_as_formal_candidate,B01 批次已通过实体层
+V1-EMAP-0035,PRE-ENT-0033,B01,B01-ENT-0005,V1-ENT-0033,retain_as_formal_candidate,B01 批次已通过实体层
+V1-EMAP-0036,PRE-ENT-0034,B01,B01-ENT-0006,V1-ENT-0034,retain_as_formal_candidate,B01 批次已通过实体层
+V1-EMAP-0037,PRE-ENT-0035,B01,B01-ENT-0007,V1-ENT-0035,retain_as_formal_candidate,B01 批次已通过实体层
+V1-EMAP-0038,PRE-ENT-0036,B01,B01-ENT-0008,V1-ENT-0036,retain_as_formal_candidate,B01 批次已通过实体层
+V1-EMAP-0039,PRE-ENT-0037,B01,B01-ENT-0009,V1-ENT-0037,retain_as_formal_candidate,B01 批次已通过实体层
+V1-EMAP-0040,PRE-ENT-0038,B01,B01-ENT-0010,V1-ENT-0038,retain_as_formal_candidate,B01 批次已通过实体层
+V1-EMAP-0041,PRE-ENT-0039,B01,B01-ENT-0011,V1-ENT-0039,retain_as_formal_candidate,B01 批次已通过实体层
+V1-EMAP-0042,PRE-ENT-0040,B01,B01-ENT-0012,V1-ENT-0040,retain_as_formal_candidate,B01 批次已通过实体层
+V1-EMAP-0043,PRE-ENT-0041,B01,B01-ENT-0013,V1-ENT-0041,retain_as_formal_candidate,B01 批次已通过实体层
+V1-EMAP-0044,PRE-ENT-0042,B01,B01-ENT-0014,V1-ENT-0042,retain_as_formal_candidate,A02-TC-0018 裁决：1968 年电影按 adaptation 分层
+V1-EMAP-0045,PRE-ENT-0043,B01,B01-ENT-0015,V1-ENT-0043,retain_as_formal_candidate,B01 批次已通过实体层
+V1-EMAP-0046,PRE-ENT-0044,B01,B01-ENT-0016,V1-ENT-0044,retain_as_formal_candidate,B01 批次已通过实体层
+V1-EMAP-0047,PRE-ENT-0045,B01,B01-ENT-0017,V1-ENT-0045,retain_as_formal_candidate,B01 批次已通过实体层
+V1-EMAP-0048,PRE-ENT-0046,B01,B01-ENT-0018,V1-ENT-0046,retain_as_formal_candidate,B01 批次已通过实体层
+V1-EMAP-0049,PRE-ENT-0047,B01,B01-ENT-0019,V1-ENT-0047,retain_as_formal_candidate,B01 批次已通过实体层
+V1-EMAP-0050,PRE-ENT-0048,B01,B01-ENT-0020,V1-ENT-0048,retain_as_formal_candidate,B01 批次已通过实体层
+V1-EMAP-0051,PRE-ENT-0049,B01,B01-ENT-0021,V1-ENT-0049,retain_as_formal_candidate,B01 批次已通过实体层
+V1-EMAP-0052,PRE-ENT-0050,B01,B01-ENT-0022,V1-ENT-0050,retain_as_formal_candidate,B01 批次已通过实体层
+V1-EMAP-0053,PRE-ENT-0051,B01,B01-ENT-0023,V1-ENT-0051,retain_as_formal_candidate,B01 批次已通过实体层
+V1-EMAP-0054,PRE-ENT-0052,B01,B01-ENT-0024,V1-ENT-0052,retain_as_formal_candidate,B01 批次已通过实体层
+V1-EMAP-0055,PRE-ENT-0053,B01,B01-ENT-0025,V1-ENT-0053,retain_as_formal_candidate,B01 批次已通过实体层
+V1-EMAP-0056,PRE-ENT-0054,B01,B01-ENT-0026,V1-ENT-0054,retain_as_formal_candidate,B01 批次已通过实体层
+V1-EMAP-0057,PRE-ENT-0055,B01,B01-ENT-0027,V1-ENT-0055,retain_as_formal_candidate,B01 批次已通过实体层
+V1-EMAP-0058,PRE-ENT-0056,B01,B01-ENT-0028,V1-ENT-0056,retain_as_formal_candidate,B01 批次已通过实体层
+V1-EMAP-0059,PRE-ENT-0057,B01,B01-ENT-0029,V1-ENT-0057,retain_as_formal_candidate,B01 批次已通过实体层
+V1-EMAP-0060,PRE-ENT-0058,B01,B01-ENT-0030,V1-ENT-0058,retain_as_formal_candidate,B01 批次已通过实体层
+V1-EMAP-0061,PRE-ENT-0059,B01,B01-ENT-0031,V1-ENT-0059,retain_as_formal_candidate,B01 批次已通过实体层
+V1-EMAP-0062,PRE-ENT-0060,B01,B01-ENT-0032,V1-ENT-0060,retain_as_formal_candidate,B01 批次已通过实体层
+V1-EMAP-0063,PRE-ENT-0061,B01,B01-ENT-0033,V1-ENT-0061,retain_as_formal_candidate,B01 批次已通过实体层
+V1-EMAP-0064,PRE-ENT-0062,B01,B01-ENT-0034,V1-ENT-0062,retain_as_formal_candidate,B01 批次已通过实体层
+V1-EMAP-0065,PRE-ENT-0063,B01,B01-ENT-0035,V1-ENT-0063,retain_as_formal_candidate,B01 批次已通过实体层
+V1-EMAP-0066,PRE-ENT-0064,B01,B01-ENT-0036,V1-ENT-0064,retain_as_formal_candidate,B01 批次已通过实体层
+V1-EMAP-0067,PRE-ENT-0065,B01,B01-ENT-0037,V1-ENT-0065,retain_as_formal_candidate,B01 批次已通过实体层
+V1-EMAP-0068,PRE-ENT-0066,B01,B01-ENT-0038,V1-ENT-0066,retain_as_formal_candidate,B01 批次已通过实体层
+V1-EMAP-0069,PRE-ENT-0068,B01,B01-ENT-0040,V1-ENT-0067,retain_as_formal_candidate,B01 批次已通过实体层
+V1-EMAP-0070,PRE-ENT-0069,B01,B01-ENT-0041,V1-ENT-0068,retain_as_formal_candidate,B01 批次已通过实体层
+V1-EMAP-0071,PRE-ENT-0070,B01,B01-ENT-0042,V1-ENT-0069,retain_as_formal_candidate,B01 批次已通过实体层
+V1-EMAP-0072,PRE-ENT-0071,B01,B01-ENT-0043,V1-ENT-0070,retain_as_formal_candidate,B01 批次已通过实体层
+V1-EMAP-0073,PRE-ENT-0072,B01,B01-ENT-0044,V1-ENT-0071,retain_as_formal_candidate,B01 批次已通过实体层
+V1-EMAP-0074,PRE-ENT-0073,B02,B02-ENT-0001,V1-ENT-0072,retain_as_formal_candidate,B02 批次已通过实体层
+V1-EMAP-0075,PRE-ENT-0074,B02,B02-ENT-0002,V1-ENT-0073,retain_as_formal_candidate,B02 批次已通过实体层
+V1-EMAP-0076,PRE-ENT-0075,B02,B02-ENT-0003,V1-ENT-0074,retain_as_formal_candidate,B02 批次已通过实体层
+V1-EMAP-0077,PRE-ENT-0076,B02,B02-ENT-0004,V1-ENT-0075,retain_as_formal_candidate,B02 批次已通过实体层
+V1-EMAP-0078,PRE-ENT-0077,B02,B02-ENT-0005,V1-ENT-0076,retain_as_formal_candidate,B02 批次已通过实体层
+V1-EMAP-0079,PRE-ENT-0078,B02,B02-ENT-0006,V1-ENT-0077,retain_as_formal_candidate,B02 批次已通过实体层
+V1-EMAP-0080,PRE-ENT-0079,B02,B02-ENT-0007,V1-ENT-0078,retain_as_formal_candidate,B02 批次已通过实体层
+V1-EMAP-0081,PRE-ENT-0080,B02,B02-ENT-0008,V1-ENT-0079,retain_as_formal_candidate,B02 批次已通过实体层
+V1-EMAP-0082,PRE-ENT-0081,B02,B02-ENT-0009,V1-ENT-0080,retain_as_formal_candidate,B02 批次已通过实体层
+V1-EMAP-0083,PRE-ENT-0082,B02,B02-ENT-0010,V1-ENT-0081,retain_as_formal_candidate,B02 批次已通过实体层
+V1-EMAP-0084,PRE-ENT-0083,B02,B02-ENT-0011,V1-ENT-0082,retain_as_formal_candidate,B02 批次已通过实体层
+V1-EMAP-0085,PRE-ENT-0084,B02,B02-ENT-0012,V1-ENT-0083,retain_as_formal_candidate,B02 批次已通过实体层
+V1-EMAP-0086,PRE-ENT-0085,B02,B02-ENT-0013,V1-ENT-0084,retain_as_formal_candidate,B02 批次已通过实体层
+V1-EMAP-0087,PRE-ENT-0086,B02,B02-ENT-0014,V1-ENT-0085,retain_as_formal_candidate,B02 批次已通过实体层
+V1-EMAP-0088,PRE-ENT-0087,B02,B02-ENT-0015,V1-ENT-0086,retain_as_formal_candidate,B02 批次已通过实体层
+V1-EMAP-0089,PRE-ENT-0088,B02,B02-ENT-0016,V1-ENT-0087,retain_as_formal_candidate,B02 批次已通过实体层
+V1-EMAP-0090,PRE-ENT-0089,B02,B02-ENT-0017,V1-ENT-0088,retain_as_formal_candidate,B02 批次已通过实体层
+V1-EMAP-0091,PRE-ENT-0090,B02,B02-ENT-0018,V1-ENT-0089,retain_as_formal_candidate,B02 批次已通过实体层
+V1-EMAP-0092,PRE-ENT-0091,B02,B02-ENT-0019,V1-ENT-0090,retain_as_formal_candidate,B02 批次已通过实体层
+V1-EMAP-0093,PRE-ENT-0092,B02,B02-ENT-0020,V1-ENT-0091,retain_as_formal_candidate,B02 批次已通过实体层
+V1-EMAP-0094,PRE-ENT-0093,B02,B02-ENT-0021,V1-ENT-0092,retain_as_formal_candidate,B02 批次已通过实体层
+V1-EMAP-0095,PRE-ENT-0094,B02,B02-ENT-0022,V1-ENT-0093,retain_as_formal_candidate,B02 批次已通过实体层
+V1-EMAP-0096,PRE-ENT-0095,B02,B02-ENT-0023,V1-ENT-0094,retain_as_formal_candidate,B02 批次已通过实体层
+V1-EMAP-0097,PRE-ENT-0096,B02,B02-ENT-0024,V1-ENT-0095,retain_as_formal_candidate,B02 批次已通过实体层
+V1-EMAP-0098,PRE-ENT-0098,B02,B02-ENT-0026,V1-ENT-0096,retain_as_formal_candidate,B02 批次已通过实体层
+V1-EMAP-0099,PRE-ENT-0099,B02,B02-ENT-0027,V1-ENT-0097,retain_as_formal_candidate,B02 批次已通过实体层
+V1-EMAP-0100,PRE-ENT-0100,B02,B02-ENT-0028,V1-ENT-0098,retain_as_formal_candidate,B02 批次已通过实体层
+V1-EMAP-0101,PRE-ENT-0101,B02,B02-ENT-0029,V1-ENT-0099,retain_as_formal_candidate,B02 批次已通过实体层
+V1-EMAP-0102,PRE-ENT-0102,B02,B02-ENT-0030,V1-ENT-0100,retain_as_formal_candidate,B02 批次已通过实体层
+V1-EMAP-0103,PRE-ENT-0103,B02,B02-ENT-0031,V1-ENT-0101,retain_as_formal_candidate,B02 批次已通过实体层
+V1-EMAP-0104,PRE-ENT-0104,B02,B02-ENT-0032,V1-ENT-0102,retain_as_formal_candidate,B02 批次已通过实体层
+V1-EMAP-0105,PRE-ENT-0105,B02,B02-ENT-0033,V1-ENT-0103,retain_as_formal_candidate,B02 批次已通过实体层
+V1-EMAP-0106,PRE-ENT-0106,B02,B02-ENT-0034,V1-ENT-0104,retain_as_formal_candidate,B02 批次已通过实体层
+V1-EMAP-0107,PRE-ENT-0107,B02,B02-ENT-0035,V1-ENT-0105,retain_as_formal_candidate,B02 批次已通过实体层
+V1-EMAP-0108,PRE-ENT-0108,B02,B02-ENT-0036,V1-ENT-0106,retain_as_formal_candidate,B02 批次已通过实体层
+V1-EMAP-0109,PRE-ENT-0109,B02,B02-ENT-0037,V1-ENT-0107,retain_as_formal_candidate,B02 批次已通过实体层
+V1-EMAP-0110,PRE-ENT-0110,B02,B02-ENT-0038,V1-ENT-0108,retain_as_formal_candidate,B02 批次已通过实体层
+V1-EMAP-0111,PRE-ENT-0111,B02,B02-ENT-0039,V1-ENT-0109,retain_as_formal_candidate,B02 批次已通过实体层
+V1-EMAP-0112,PRE-ENT-0112,B02,B02-ENT-0040,V1-ENT-0110,retain_as_formal_candidate,B02 批次已通过实体层
+V1-EMAP-0113,PRE-ENT-0113,B02,B02-ENT-0041,V1-ENT-0111,retain_as_formal_candidate,B02 批次已通过实体层
+V1-EMAP-0114,PRE-ENT-0114,B02,B02-ENT-0042,V1-ENT-0112,retain_as_formal_candidate,B02 批次已通过实体层
+V1-EMAP-0115,PRE-ENT-0115,B02,B02-ENT-0043,V1-ENT-0113,retain_as_formal_candidate,B02 批次已通过实体层
+V1-EMAP-0116,PRE-ENT-0116,B03,B03-ENT-0001,V1-ENT-0114,retain_as_formal_candidate,B03 批次已通过实体层
+V1-EMAP-0117,PRE-ENT-0117,B03,B03-ENT-0002,V1-ENT-0115,retain_as_formal_candidate,B03 批次已通过实体层
+V1-EMAP-0118,PRE-ENT-0118,B03,B03-ENT-0003,V1-ENT-0116,retain_as_formal_candidate,B03 批次已通过实体层
+V1-EMAP-0119,PRE-ENT-0119,B03,B03-ENT-0004,V1-ENT-0117,retain_as_formal_candidate,B03 批次已通过实体层
+V1-EMAP-0120,PRE-ENT-0120,B03,B03-ENT-0005,V1-ENT-0118,retain_as_formal_candidate,B03 批次已通过实体层
+V1-EMAP-0121,PRE-ENT-0121,B03,B03-ENT-0006,V1-ENT-0119,retain_as_formal_candidate,A02-TC-0001/DEC-032 裁决：诗集以 collection 为准
+V1-EMAP-0122,PRE-ENT-0122,B03,B03-ENT-0007,V1-ENT-0120,retain_as_formal_candidate,A02-TC-0002/DEC-032 裁决
+V1-EMAP-0123,PRE-ENT-0123,B03,B03-ENT-0008,V1-ENT-0121,retain_as_formal_candidate,A02-TC-0003/DEC-032 裁决
+V1-EMAP-0124,PRE-ENT-0124,B03,B03-ENT-0009,V1-ENT-0122,retain_as_formal_candidate,B03 批次已通过实体层
+V1-EMAP-0125,PRE-ENT-0125,B03,B03-ENT-0010,V1-ENT-0123,retain_as_formal_candidate,B03 批次已通过实体层
+V1-EMAP-0126,PRE-ENT-0126,B03,B03-ENT-0011,V1-ENT-0124,retain_as_formal_candidate,B03 批次已通过实体层
+V1-EMAP-0127,PRE-ENT-0127,B03,B03-ENT-0012,V1-ENT-0125,retain_as_formal_candidate,B03 批次已通过实体层
+V1-EMAP-0128,PRE-ENT-0128,B03,B03-ENT-0013,V1-ENT-0126,retain_as_formal_candidate,B03 批次已通过实体层
+V1-EMAP-0129,PRE-ENT-0129,B03,B03-ENT-0014,V1-ENT-0127,retain_as_formal_candidate,B03 批次已通过实体层
+V1-EMAP-0130,PRE-ENT-0130,B03,B03-ENT-0015,V1-ENT-0128,retain_as_formal_candidate,B03 批次已通过实体层
+V1-EMAP-0131,PRE-ENT-0131,B03,B03-ENT-0016,V1-ENT-0129,retain_as_formal_candidate,B03 批次已通过实体层
+V1-EMAP-0132,PRE-ENT-0132,B03,B03-ENT-0017,V1-ENT-0130,retain_as_formal_candidate,B03 批次已通过实体层
+V1-EMAP-0133,PRE-ENT-0133,B03,B03-ENT-0018,V1-ENT-0131,retain_as_formal_candidate,B03 批次已通过实体层
+V1-EMAP-0134,PRE-ENT-0134,B03,B03-ENT-0019,V1-ENT-0132,retain_as_formal_candidate,B03 批次已通过实体层
+V1-EMAP-0135,PRE-ENT-0135,B03,B03-ENT-0020,V1-ENT-0133,retain_as_formal_candidate,B03 批次已通过实体层
+V1-EMAP-0136,PRE-ENT-0136,B03,B03-ENT-0021,V1-ENT-0134,retain_as_formal_candidate,B03 批次已通过实体层
+V1-EMAP-0137,PRE-ENT-0137,B03,B03-ENT-0022,V1-ENT-0135,retain_as_formal_candidate,B03 批次已通过实体层
+V1-EMAP-0138,PRE-ENT-0138,B03,B03-ENT-0023,V1-ENT-0136,retain_as_formal_candidate,B03 批次已通过实体层
+V1-EMAP-0139,PRE-ENT-0139,B03,B03-ENT-0024,V1-ENT-0137,retain_as_formal_candidate,B03 批次已通过实体层
+V1-EMAP-0140,PRE-ENT-0140,B03,B03-ENT-0025,V1-ENT-0138,retain_as_formal_candidate,B03 批次已通过实体层
+V1-EMAP-0141,PRE-ENT-0141,B03,B03-ENT-0026,V1-ENT-0139,retain_as_formal_candidate,B03 批次已通过实体层
+V1-EMAP-0142,PRE-ENT-0142,B03,B03-ENT-0027,V1-ENT-0140,retain_as_formal_candidate,B03 批次已通过实体层
+V1-EMAP-0143,PRE-ENT-0143,B03,B03-ENT-0028,V1-ENT-0141,retain_as_formal_candidate,B03 批次已通过实体层；A02-TC-0013/A02 R1 REVIEW：文学人物 el Consejero 与历史人物 Antônio Conselheiro 保持不同引用
+V1-EMAP-0144,PRE-ENT-0144,B03,B03-ENT-0029,V1-ENT-0142,retain_as_formal_candidate,B03 批次已通过实体层
+V1-EMAP-0145,PRE-ENT-0145,B03,B03-ENT-0030,V1-ENT-0143,retain_as_formal_candidate,B03 批次已通过实体层
+V1-EMAP-0146,PRE-ENT-0146,B03,B03-ENT-0031,V1-ENT-0144,retain_as_formal_candidate,B03 批次已通过实体层
+V1-EMAP-0147,CAND-R1-ENT-01,WEB-CE-B01-R1,CAND-R1-ENT-01,V1-ENT-0145,retain_as_formal_candidate,Independent review PASS
+V1-EMAP-0148,CAND-R1-ENT-02,WEB-CE-B01-R1,CAND-R1-ENT-02,V1-ENT-0146,retain_as_formal_candidate,Independent review PASS
+V1-EMAP-0149,CAND-R1-ENT-03,WEB-CE-B01-R1,CAND-R1-ENT-03,V1-ENT-0147,retain_as_formal_candidate,Independent review PASS; translation publication year excluded
+V1-EMAP-0150,PRE-ENT-WEBCE,WEB-CE-B01,CAND-B-ENT-001,V1-ENT-0148,retain_as_formal_candidate,WEB-CE-B01 批次已通过实体层
+V1-EMAP-0151,PRE-ENT-WEBCE,WEB-CE-B01,CAND-B-ENT-002,V1-ENT-0149,retain_as_formal_candidate,WEB-CE-B01 批次已通过实体层
+V1-EMAP-0152,PRE-ENT-WEBCE,WEB-CE-B01,CAND-B-ENT-003,V1-ENT-0150,retain_as_formal_candidate,WEB-CE-B01 批次已通过实体层
+V1-EMAP-0153,PRE-ENT-WEBCE,WEB-CE-B01,CAND-B-ENT-004,V1-ENT-0151,retain_as_formal_candidate,WEB-CE-B01 批次已通过实体层
+V1-EMAP-0154,PRE-ENT-WEBCE,WEB-CE-B01,CAND-B-ENT-006,V1-ENT-0153,retain_as_formal_candidate,WEB-CE-B01 批次已通过实体层
+V1-EMAP-0155,PRE-ENT-WEBCE,WEB-CE-B01,CAND-C-W-001,V1-ENT-0154,retain_as_formal_candidate,WEB-CE-B01 批次已通过实体层
+V1-EMAP-0156,PRE-ENT-WEBCE,WEB-CE-B01,CAND-C-W-002,V1-ENT-0155,retain_as_formal_candidate,WEB-CE-B01 批次已通过实体层
+V1-EMAP-0157,PRE-ENT-WEBCE,WEB-CE-B01,CAND-C-W-003,V1-ENT-0156,retain_as_formal_candidate,WEB-CE-B01 批次已通过实体层
+V1-EMAP-0158,PRE-ENT-WEBCE,WEB-CE-B01,CAND-D-ENT-01,V1-ENT-0158,retain_as_formal_candidate,WEB-CE-B01 批次已通过实体层
+V1-EMAP-0159,PRE-ENT-WEBCE,WEB-CE-B01,CAND-D-ENT-02,V1-ENT-0159,retain_as_formal_candidate,WEB-CE-B01 批次已通过实体层
+V1-EMAP-0160,PRE-ENT-WEBCE,WEB-CE-B01,CAND-D-ENT-03,V1-ENT-0160,retain_as_formal_candidate,WEB-CE-B01 批次已通过实体层
+V1-EMAP-0161,PRE-ENT-WEBCE,WEB-CE-B01,CAND-D-ENT-04,V1-ENT-0161,retain_as_formal_candidate,WEB-CE-B01 批次已通过实体层
+V1-EMAP-0162,PRE-ENT-WEBCE,WEB-CE-B01,CAND-D-ENT-07,V1-ENT-0162,retain_as_formal_candidate,WEB-CE-B01 批次已通过实体层
+V1-EMAP-0163,PRE-ENT-WEBCE,WEB-CE-B01,CAND-D-ENT-08,V1-ENT-0163,retain_as_formal_candidate,WEB-CE-B01 批次已通过实体层
+V1-EMAP-0164,PRE-ENT-WEBCE,WEB-CE-B01,CAND-D-ENT-09,V1-ENT-0164,retain_as_formal_candidate,WEB-CE-B01 批次已通过实体层
+V1-EMAP-0165,PRE-ENT-WEBCE,WEB-CE-B01,CAND-D-ENT-10,V1-ENT-0165,retain_as_formal_candidate,WEB-CE-B01 批次已通过实体层
+V1-EMAP-0166,PRE-ENT-WEBCE,WEB-CE-B01,CAND-D-ENT-11,V1-ENT-0166,retain_as_formal_candidate,WEB-CE-B01 批次已通过实体层
+V1-EMAP-0167,PRE-ENT-WEBCE,WEB-CE-B01,CAND-PM-ENT-01,V1-ENT-0167,retain_as_formal_candidate,WEB-CE-B01 批次已通过实体层
+V1-EMAP-0168,PRE-ENT-WEBCE,WEB-CE-B01,CAND-PM-ENT-02,V1-ENT-0168,retain_as_formal_candidate,WEB-CE-B01 批次已通过实体层
+V1-EMAP-0169,PRE-ENT-WEBCE,WEB-CE-B01-HY3,CAND-HY3-ENT-01,V1-ENT-0169,retain_as_formal_candidate,WEB-CE-B01-HY3 批次已通过实体层
+V1-EMAP-0170,PRE-ENT-WEBCE,WEB-CE-B02,CAND-B02-MIGUEL-AUTHOR,V1-ENT-0170,retain_as_formal_candidate,B02 fresh preflight: no duplicate entity or CREATED relation
+V1-EMAP-0171,PRE-ENT-WEBCE,WEB-CE-B02,CAND-B02-ISABEL-AUTHOR,V1-ENT-0171,retain_as_formal_candidate,B02 fresh preflight: no duplicate entity or CREATED relation
+V1-EMAP-0172,PRE-ENT-WEBCE,WEB-CE-B02,CAND-B02-JORGE-AUTHOR,V1-ENT-0172,retain_as_formal_candidate,B02 fresh preflight: no duplicate entity or CREATED relation
+V1-EMAP-0173,PRE-ENT-WEBCE,WEB-CE-B02,CAND-B02-V1-ENT-0173-WORK,V1-ENT-0173,retain_as_formal_candidate,B02 fresh preflight: no duplicate entity or CREATED relation
+V1-EMAP-0174,PRE-ENT-WEBCE,WEB-CE-B02,CAND-B02-V1-ENT-0174-WORK,V1-ENT-0174,retain_as_formal_candidate,B02 fresh preflight: no duplicate entity or CREATED relation
+V1-EMAP-0175,PRE-ENT-WEBCE,WEB-CE-B02,CAND-B02-V1-ENT-0175-WORK,V1-ENT-0175,retain_as_formal_candidate,B02 fresh preflight: no duplicate entity or CREATED relation
+V1-EMAP-0176,PRE-ENT-WEBCE,WEB-CE-B02,CAND-B02-V1-ENT-0176-WORK,V1-ENT-0176,retain_as_formal_candidate,B02 fresh preflight: no duplicate entity or CREATED relation
+V1-EMAP-0177,PRE-ENT-WEBCE,WEB-CE-B02,CAND-B02-V1-ENT-0177-WORK,V1-ENT-0177,retain_as_formal_candidate,B02 fresh preflight: no duplicate entity or CREATED relation
+V1-EMAP-0178,PRE-ENT-WEBCE,WEB-CE-B02,CAND-B02-V1-ENT-0178-WORK,V1-ENT-0178,retain_as_formal_candidate,B02 fresh preflight: no duplicate entity or CREATED relation
+V1-EMAP-0179,PRE-ENT-WEBCE,WEB-CE-B02,CAND-B02-V1-ENT-0179-WORK,V1-ENT-0179,retain_as_formal_candidate,B02 fresh preflight: no duplicate entity or CREATED relation
+V1-EMAP-0180,PRE-ENT-WEBCE,WEB-CE-B02,CAND-B02-V1-ENT-0180-WORK,V1-ENT-0180,retain_as_formal_candidate,B02 fresh preflight: no duplicate entity or CREATED relation
+V1-EMAP-0181,PRE-ENT-WEBCE,WEB-CE-B02,CAND-B02-V1-ENT-0181-WORK,V1-ENT-0181,retain_as_formal_candidate,B02 fresh preflight: no duplicate entity or CREATED relation
+V1-EMAP-0182,PRE-ENT-WEBCE,WEB-CE-B02,CAND-B02-V1-ENT-0182-PLACE,V1-ENT-0182,retain_as_formal_candidate,B02 fresh preflight: no duplicate entity or CREATED relation
+V1-EMAP-0183,PRE-ENT-WEBCE,WEB-CE-B02,CAND-B02-V1-ENT-0183-PLACE,V1-ENT-0183,retain_as_formal_candidate,B02 fresh preflight: no duplicate entity or CREATED relation
+V1-EMAP-0184,PRE-ENT-WEBCE,WEB-CE-B03,CAND-B03-ONETTI-AUTHOR,V1-ENT-0184,retain_as_formal_candidate,B03 fresh preflight: no duplicate entity or CREATED relation
+V1-EMAP-0185,PRE-ENT-WEBCE,WEB-CE-B03,CAND-B03-DONOSO-AUTHOR,V1-ENT-0185,retain_as_formal_candidate,B03 fresh preflight: no duplicate entity or CREATED relation
+V1-EMAP-0186,PRE-ENT-WEBCE,WEB-CE-B03,CAND-B03-SABATO-AUTHOR,V1-ENT-0186,retain_as_formal_candidate,B03 fresh preflight: no duplicate entity or CREATED relation
+V1-EMAP-0187,PRE-ENT-WEBCE,WEB-CE-B03,CAND-B03-V1-ENT-0187-WORK,V1-ENT-0187,retain_as_formal_candidate,B03 fresh preflight: no duplicate entity or CREATED relation
+V1-EMAP-0188,PRE-ENT-WEBCE,WEB-CE-B03,CAND-B03-V1-ENT-0188-WORK,V1-ENT-0188,retain_as_formal_candidate,B03 fresh preflight: no duplicate entity or CREATED relation
+V1-EMAP-0189,PRE-ENT-WEBCE,WEB-CE-B03,CAND-B03-V1-ENT-0189-WORK,V1-ENT-0189,retain_as_formal_candidate,B03 fresh preflight: no duplicate entity or CREATED relation
+V1-EMAP-0190,PRE-ENT-WEBCE,WEB-CE-B03,CAND-B03-V1-ENT-0190-WORK,V1-ENT-0190,retain_as_formal_candidate,B03 fresh preflight: no duplicate entity or CREATED relation
+V1-EMAP-0191,PRE-ENT-WEBCE,WEB-CE-B03,CAND-B03-V1-ENT-0191-WORK,V1-ENT-0191,retain_as_formal_candidate,B03 fresh preflight: no duplicate entity or CREATED relation
+V1-EMAP-0192,PRE-ENT-WEBCE,WEB-CE-B03,CAND-B03-V1-ENT-0192-WORK,V1-ENT-0192,retain_as_formal_candidate,B03 fresh preflight: no duplicate entity or CREATED relation
+V1-EMAP-0193,PRE-ENT-WEBCE,WEB-CE-B03,CAND-B03-V1-ENT-0193-WORK,V1-ENT-0193,retain_as_formal_candidate,B03 fresh preflight: no duplicate entity or CREATED relation
+V1-EMAP-0194,PRE-ENT-WEBCE,WEB-CE-B03,CAND-B03-V1-ENT-0194-WORK,V1-ENT-0194,retain_as_formal_candidate,B03 fresh preflight: no duplicate entity or CREATED relation
+V1-EMAP-0195,PRE-ENT-WEBCE,WEB-CE-B03,CAND-B03-V1-ENT-0195-WORK,V1-ENT-0195,retain_as_formal_candidate,B03 fresh preflight: no duplicate entity or CREATED relation
+V1-EMAP-0196,PRE-ENT-WEBCE,WEB-CE-B03,CAND-B03-V1-ENT-0196-PLACE,V1-ENT-0196,retain_as_formal_candidate,B03 fresh preflight: no duplicate entity or CREATED relation
+V1-EMAP-0197,PRE-ENT-WEBCE,WEB-CE-B03,CAND-B03-V1-ENT-0197-FICTIONAL-PLACE,V1-ENT-0197,retain_as_formal_candidate,B03 fresh preflight: no duplicate entity or CREATED relation
+V1-EMAP-0198,PRE-ENT-WEBCE,WEB-CE-B04,CAND-B04-BIOY-AUTHOR,V1-ENT-0198,retain_as_formal_candidate,B04 fresh preflight: no duplicate entity or CREATED relation
+V1-EMAP-0199,PRE-ENT-WEBCE,WEB-CE-B04,CAND-B04-ROA-AUTHOR,V1-ENT-0199,retain_as_formal_candidate,B04 fresh preflight: no duplicate entity or CREATED relation
+V1-EMAP-0200,PRE-ENT-WEBCE,WEB-CE-B04,CAND-B04-QUIROGA-AUTHOR,V1-ENT-0200,retain_as_formal_candidate,B04 fresh preflight: no duplicate entity or CREATED relation
+V1-EMAP-0201,PRE-ENT-WEBCE,WEB-CE-B04,CAND-B04-V1-ENT-0201-WORK,V1-ENT-0201,retain_as_formal_candidate,B04 fresh preflight: no duplicate entity or CREATED relation
+V1-EMAP-0202,PRE-ENT-WEBCE,WEB-CE-B04,CAND-B04-V1-ENT-0202-WORK,V1-ENT-0202,retain_as_formal_candidate,B04 fresh preflight: no duplicate entity or CREATED relation
+V1-EMAP-0203,PRE-ENT-WEBCE,WEB-CE-B04,CAND-B04-V1-ENT-0203-WORK,V1-ENT-0203,retain_as_formal_candidate,B04 fresh preflight: no duplicate entity or CREATED relation
+V1-EMAP-0204,PRE-ENT-WEBCE,WEB-CE-B04,CAND-B04-V1-ENT-0204-WORK,V1-ENT-0204,retain_as_formal_candidate,B04 fresh preflight: no duplicate entity or CREATED relation
+V1-EMAP-0205,PRE-ENT-WEBCE,WEB-CE-B04,CAND-B04-V1-ENT-0205-WORK,V1-ENT-0205,retain_as_formal_candidate,B04 fresh preflight: no duplicate entity or CREATED relation
+V1-EMAP-0206,PRE-ENT-WEBCE,WEB-CE-B04,CAND-B04-V1-ENT-0206-WORK,V1-ENT-0206,retain_as_formal_candidate,B04 fresh preflight: no duplicate entity or CREATED relation
+V1-EMAP-0207,PRE-ENT-WEBCE,WEB-CE-B04,CAND-B04-V1-ENT-0207-COLLECTION,V1-ENT-0207,retain_as_formal_candidate,B04 reviewer remediation: official Uruguay page describes a story collection; schema layer is collection.
+V1-EMAP-0208,PRE-ENT-WEBCE,WEB-CE-B04,CAND-B04-V1-ENT-0208-COLLECTION,V1-ENT-0208,retain_as_formal_candidate,B04 reviewer remediation: official Uruguay page describes a story collection; schema layer is collection.
+V1-EMAP-0209,PRE-ENT-WEBCE,WEB-CE-B04,CAND-B04-V1-ENT-0209-COLLECTION,V1-ENT-0209,retain_as_formal_candidate,B04 reviewer remediation: official Uruguay page describes a story collection; schema layer is collection.
+V1-EMAP-0210,PRE-ENT-WEBCE,WEB-CE-B04,CAND-B04-V1-ENT-0210-PLACE,V1-ENT-0210,retain_as_formal_candidate,B04 fresh preflight: no duplicate entity or CREATED relation
+V1-EMAP-0211,PRE-ENT-WEBCE,WEB-CE-B05,CAND-B05-MACHADO-AUTHOR,V1-ENT-0211,retain_as_formal_candidate,B05 fresh preflight: no duplicate entity or CREATED relation
+V1-EMAP-0212,PRE-ENT-WEBCE,WEB-CE-B05,CAND-B05-GUIMARAES-AUTHOR,V1-ENT-0212,retain_as_formal_candidate,B05 fresh preflight: no duplicate entity or CREATED relation
+V1-EMAP-0213,PRE-ENT-WEBCE,WEB-CE-B05,CAND-B05-GRACILIANO-AUTHOR,V1-ENT-0213,retain_as_formal_candidate,B05 fresh preflight: no duplicate entity or CREATED relation
+V1-EMAP-0214,PRE-ENT-WEBCE,WEB-CE-B05,CAND-B05-V1-ENT-0214-WORK,V1-ENT-0214,retain_as_formal_candidate,B05 fresh preflight: no duplicate entity or CREATED relation
+V1-EMAP-0215,PRE-ENT-WEBCE,WEB-CE-B05,CAND-B05-V1-ENT-0215-WORK,V1-ENT-0215,retain_as_formal_candidate,B05 fresh preflight: no duplicate entity or CREATED relation
+V1-EMAP-0216,PRE-ENT-WEBCE,WEB-CE-B05,CAND-B05-V1-ENT-0216-WORK,V1-ENT-0216,retain_as_formal_candidate,B05 fresh preflight: no duplicate entity or CREATED relation
+V1-EMAP-0217,PRE-ENT-WEBCE,WEB-CE-B05,CAND-B05-V1-ENT-0217-WORK,V1-ENT-0217,retain_as_formal_candidate,B05 fresh preflight: no duplicate entity or CREATED relation
+V1-EMAP-0218,PRE-ENT-WEBCE,WEB-CE-B05,CAND-B05-V1-ENT-0218-COLLECTION,V1-ENT-0218,retain_as_formal_candidate,B05 fresh preflight: no duplicate entity or CREATED relation
+V1-EMAP-0219,PRE-ENT-WEBCE,WEB-CE-B05,CAND-B05-V1-ENT-0219-COLLECTION,V1-ENT-0219,retain_as_formal_candidate,B05 fresh preflight: no duplicate entity or CREATED relation
+V1-EMAP-0220,PRE-ENT-WEBCE,WEB-CE-B05,CAND-B05-V1-ENT-0220-WORK,V1-ENT-0220,retain_as_formal_candidate,B05 fresh preflight: no duplicate entity or CREATED relation
+V1-EMAP-0221,PRE-ENT-WEBCE,WEB-CE-B05,CAND-B05-V1-ENT-0221-WORK,V1-ENT-0221,retain_as_formal_candidate,B05 fresh preflight: no duplicate entity or CREATED relation
+V1-EMAP-0222,PRE-ENT-WEBCE,WEB-CE-B05,CAND-B05-V1-ENT-0222-WORK,V1-ENT-0222,retain_as_formal_candidate,B05 fresh preflight: no duplicate entity or CREATED relation
+V1-EMAP-0223,CAND-B06-VALLEJO-AUTHOR,WEB-CE-B06,CAND-B06-VALLEJO-AUTHOR,V1-ENT-0223,create,B06 independent Reviewer pending; source-backed candidate
+V1-EMAP-0224,CAND-B06-DARIO-AUTHOR,WEB-CE-B06,CAND-B06-DARIO-AUTHOR,V1-ENT-0224,create,B06 independent Reviewer pending; source-backed candidate
+V1-EMAP-0225,CAND-B06-MARTI-AUTHOR,WEB-CE-B06,CAND-B06-MARTI-AUTHOR,V1-ENT-0225,create,B06 independent Reviewer pending; source-backed candidate
+V1-EMAP-0226,CAND-B06-VALLEJO-W01,WEB-CE-B06,CAND-B06-VALLEJO-W01,V1-ENT-0226,create,B06 independent Reviewer pending; source-backed candidate
+V1-EMAP-0227,CAND-B06-VALLEJO-W02,WEB-CE-B06,CAND-B06-VALLEJO-W02,V1-ENT-0227,create,B06 independent Reviewer pending; source-backed candidate
+V1-EMAP-0228,CAND-B06-VALLEJO-W03,WEB-CE-B06,CAND-B06-VALLEJO-W03,V1-ENT-0228,create,B06 independent Reviewer pending; source-backed candidate
+V1-EMAP-0229,CAND-B06-DARIO-W01,WEB-CE-B06,CAND-B06-DARIO-W01,V1-ENT-0229,create,B06 independent Reviewer pending; source-backed candidate
+V1-EMAP-0230,CAND-B06-DARIO-W02,WEB-CE-B06,CAND-B06-DARIO-W02,V1-ENT-0230,create,B06 independent Reviewer pending; source-backed candidate
+V1-EMAP-0231,CAND-B06-DARIO-W03,WEB-CE-B06,CAND-B06-DARIO-W03,V1-ENT-0231,create,B06 independent Reviewer pending; source-backed candidate
+V1-EMAP-0232,CAND-B06-MARTI-W01,WEB-CE-B06,CAND-B06-MARTI-W01,V1-ENT-0232,create,B06 independent Reviewer pending; source-backed candidate
+V1-EMAP-0233,CAND-B06-MARTI-W02,WEB-CE-B06,CAND-B06-MARTI-W02,V1-ENT-0233,create,B06 independent Reviewer pending; source-backed candidate
+V1-EMAP-0234,CAND-B06-MARTI-W03,WEB-CE-B06,CAND-B06-MARTI-W03,V1-ENT-0234,create,B06 independent Reviewer pending; source-backed candidate
+V1-EMAP-0235,CAND-B06-PLACE-NI,WEB-CE-B06,CAND-B06-PLACE-NI,V1-ENT-0235,create,B06 independent Reviewer pending; source-backed candidate
+V1-EMAP-0236,CAND-B07-PARRA-AUTHOR,WEB-CE-B07,CAND-B07-PARRA-AUTHOR,V1-ENT-0236,create,B07 Reviewer pending; source-backed candidate
+V1-EMAP-0237,CAND-B07-PIZARNIK-AUTHOR,WEB-CE-B07,CAND-B07-PIZARNIK-AUTHOR,V1-ENT-0237,create,B07 Reviewer pending; source-backed candidate
+V1-EMAP-0238,CAND-B07-BENEDETTI-AUTHOR,WEB-CE-B07,CAND-B07-BENEDETTI-AUTHOR,V1-ENT-0238,create,B07 Reviewer pending; source-backed candidate
+V1-EMAP-0239,CAND-B07-PARRA-W01,WEB-CE-B07,CAND-B07-PARRA-W01,V1-ENT-0239,create,B07 Reviewer pending; source-backed candidate
+V1-EMAP-0240,CAND-B07-PARRA-W02,WEB-CE-B07,CAND-B07-PARRA-W02,V1-ENT-0240,create,B07 Reviewer pending; source-backed candidate
+V1-EMAP-0241,CAND-B07-PARRA-W03,WEB-CE-B07,CAND-B07-PARRA-W03,V1-ENT-0241,create,B07 Reviewer pending; source-backed candidate
+V1-EMAP-0242,CAND-B07-PIZARNIK-W01,WEB-CE-B07,CAND-B07-PIZARNIK-W01,V1-ENT-0242,create,B07 Reviewer pending; source-backed candidate
+V1-EMAP-0243,CAND-B07-PIZARNIK-W02,WEB-CE-B07,CAND-B07-PIZARNIK-W02,V1-ENT-0243,create,B07 Reviewer pending; source-backed candidate
+V1-EMAP-0244,CAND-B07-PIZARNIK-W03,WEB-CE-B07,CAND-B07-PIZARNIK-W03,V1-ENT-0244,create,B07 Reviewer pending; source-backed candidate
+V1-EMAP-0245,CAND-B07-BENEDETTI-W01,WEB-CE-B07,CAND-B07-BENEDETTI-W01,V1-ENT-0245,create,B07 Reviewer pending; source-backed candidate
+V1-EMAP-0246,CAND-B07-BENEDETTI-W02,WEB-CE-B07,CAND-B07-BENEDETTI-W02,V1-ENT-0246,create,B07 Reviewer pending; source-backed candidate
+V1-EMAP-0247,CAND-B07-BENEDETTI-W03,WEB-CE-B07,CAND-B07-BENEDETTI-W03,V1-ENT-0247,create,B07 Reviewer pending; source-backed candidate
+V1-EMAP-0248,CAND-B08-ARGUEDAS-AUTHOR,WEB-CE-B08,CAND-B08-ARGUEDAS-AUTHOR,V1-ENT-0248,create,B08 Reviewer pending; source-backed candidate
+V1-EMAP-0249,CAND-B08-PITOL-AUTHOR,WEB-CE-B08,CAND-B08-PITOL-AUTHOR,V1-ENT-0249,create,B08 Reviewer pending; source-backed candidate
+V1-EMAP-0250,CAND-B08-ARREOLA-AUTHOR,WEB-CE-B08,CAND-B08-ARREOLA-AUTHOR,V1-ENT-0250,create,B08 Reviewer pending; source-backed candidate
+V1-EMAP-0251,CAND-B08-ARGUEDAS-W01,WEB-CE-B08,CAND-B08-ARGUEDAS-W01,V1-ENT-0251,create,B08 Reviewer pending; source-backed candidate
+V1-EMAP-0252,CAND-B08-ARGUEDAS-W02,WEB-CE-B08,CAND-B08-ARGUEDAS-W02,V1-ENT-0252,create,B08 Reviewer pending; source-backed candidate
+V1-EMAP-0253,CAND-B08-ARGUEDAS-W03,WEB-CE-B08,CAND-B08-ARGUEDAS-W03,V1-ENT-0253,create,B08 Reviewer pending; source-backed candidate
+V1-EMAP-0254,CAND-B08-PITOL-W01,WEB-CE-B08,CAND-B08-PITOL-W01,V1-ENT-0254,create,B08 Reviewer pending; source-backed candidate
+V1-EMAP-0255,CAND-B08-PITOL-W02,WEB-CE-B08,CAND-B08-PITOL-W02,V1-ENT-0255,create,B08 Reviewer pending; source-backed candidate
+V1-EMAP-0256,CAND-B08-PITOL-W03,WEB-CE-B08,CAND-B08-PITOL-W03,V1-ENT-0256,create,B08 Reviewer pending; source-backed candidate
+V1-EMAP-0257,CAND-B08-ARREOLA-W01,WEB-CE-B08,CAND-B08-ARREOLA-W01,V1-ENT-0257,create,B08 Reviewer pending; source-backed candidate
+V1-EMAP-0258,CAND-B08-ARREOLA-W02,WEB-CE-B08,CAND-B08-ARREOLA-W02,V1-ENT-0258,create,B08 Reviewer pending; source-backed candidate
+V1-EMAP-0259,CAND-B08-ARREOLA-W03,WEB-CE-B08,CAND-B08-ARREOLA-W03,V1-ENT-0259,create,B08 Reviewer pending; source-backed candidate
+V1-EMAP-0260,CAND-B09-PONIATOWSKA-AUTHOR,WEB-CE-B09,CAND-B09-PONIATOWSKA-AUTHOR,V1-ENT-0260,create,B09 Reviewer pending; source-backed candidate
+V1-EMAP-0261,CAND-B09-PACHECO-AUTHOR,WEB-CE-B09,CAND-B09-PACHECO-AUTHOR,V1-ENT-0261,create,B09 Reviewer pending; source-backed candidate
+V1-EMAP-0262,CAND-B09-BOLANO-AUTHOR,WEB-CE-B09,CAND-B09-BOLANO-AUTHOR,V1-ENT-0262,create,B09 Reviewer pending; source-backed candidate
+V1-EMAP-0263,CAND-B09-PONIATOWSKA-W01,WEB-CE-B09,CAND-B09-PONIATOWSKA-W01,V1-ENT-0263,create,B09 Reviewer pending; source-backed candidate
+V1-EMAP-0264,CAND-B09-PONIATOWSKA-W02,WEB-CE-B09,CAND-B09-PONIATOWSKA-W02,V1-ENT-0264,create,B09 Reviewer pending; source-backed candidate
+V1-EMAP-0265,CAND-B09-PONIATOWSKA-W03,WEB-CE-B09,CAND-B09-PONIATOWSKA-W03,V1-ENT-0265,create,B09 Reviewer pending; source-backed candidate
+V1-EMAP-0266,CAND-B09-PACHECO-W01,WEB-CE-B09,CAND-B09-PACHECO-W01,V1-ENT-0266,create,B09 Reviewer pending; source-backed candidate
+V1-EMAP-0267,CAND-B09-PACHECO-W02,WEB-CE-B09,CAND-B09-PACHECO-W02,V1-ENT-0267,create,B09 Reviewer pending; source-backed candidate
+V1-EMAP-0268,CAND-B09-PACHECO-W03,WEB-CE-B09,CAND-B09-PACHECO-W03,V1-ENT-0268,create,B09 Reviewer pending; source-backed candidate
+V1-EMAP-0269,CAND-B09-BOLANO-W01,WEB-CE-B09,CAND-B09-BOLANO-W01,V1-ENT-0269,create,B09 Reviewer pending; source-backed candidate
+V1-EMAP-0270,CAND-B09-BOLANO-W02,WEB-CE-B09,CAND-B09-BOLANO-W02,V1-ENT-0270,create,B09 Reviewer pending; source-backed candidate
+V1-EMAP-0271,CAND-B09-BOLANO-W03,WEB-CE-B09,CAND-B09-BOLANO-W03,V1-ENT-0271,create,B09 Reviewer pending; source-backed candidate
+V1-EMAP-0272,CAND-B10-GALEANO-AUTHOR,WEB-CE-B10,CAND-B10-GALEANO-AUTHOR,V1-ENT-0272,create,B10 Reviewer pending; source-backed candidate
+V1-EMAP-0273,CAND-B10-PIGLIA-AUTHOR,WEB-CE-B10,CAND-B10-PIGLIA-AUTHOR,V1-ENT-0273,create,B10 Reviewer pending; source-backed candidate
+V1-EMAP-0274,CAND-B10-AIRA-AUTHOR,WEB-CE-B10,CAND-B10-AIRA-AUTHOR,V1-ENT-0274,create,B10 Reviewer pending; source-backed candidate
+V1-EMAP-0275,CAND-B10-GALEANO-W01,WEB-CE-B10,CAND-B10-GALEANO-W01,V1-ENT-0275,create,B10 Reviewer pending; source-backed candidate
+V1-EMAP-0276,CAND-B10-GALEANO-W02,WEB-CE-B10,CAND-B10-GALEANO-W02,V1-ENT-0276,create,B10 Reviewer pending; source-backed candidate
+V1-EMAP-0277,CAND-B10-GALEANO-W03,WEB-CE-B10,CAND-B10-GALEANO-W03,V1-ENT-0277,create,B10 Reviewer pending; source-backed candidate
+V1-EMAP-0278,CAND-B10-PIGLIA-W01,WEB-CE-B10,CAND-B10-PIGLIA-W01,V1-ENT-0278,create,B10 Reviewer pending; source-backed candidate
+V1-EMAP-0279,CAND-B10-PIGLIA-W02,WEB-CE-B10,CAND-B10-PIGLIA-W02,V1-ENT-0279,create,B10 Reviewer pending; source-backed candidate
+V1-EMAP-0280,CAND-B10-PIGLIA-W03,WEB-CE-B10,CAND-B10-PIGLIA-W03,V1-ENT-0280,create,B10 Reviewer pending; source-backed candidate
+V1-EMAP-0281,CAND-B10-AIRA-W01,WEB-CE-B10,CAND-B10-AIRA-W01,V1-ENT-0281,create,B10 Reviewer pending; source-backed candidate
+V1-EMAP-0282,CAND-B10-AIRA-W02,WEB-CE-B10,CAND-B10-AIRA-W02,V1-ENT-0282,create,B10 Reviewer pending; source-backed candidate
+V1-EMAP-0283,CAND-B10-AIRA-W03,WEB-CE-B10,CAND-B10-AIRA-W03,V1-ENT-0283,create,B10 Reviewer pending; source-backed candidate
+V1-EMAP-0284,CAND-B11-PUIG-AUTHOR,WEB-CE-B11,CAND-B11-PUIG-AUTHOR,V1-ENT-0284,create,B11 Reviewer pending; source-backed candidate
+V1-EMAP-0285,CAND-B11-OCAMPO-AUTHOR,WEB-CE-B11,CAND-B11-OCAMPO-AUTHOR,V1-ENT-0285,create,B11 Reviewer pending; source-backed candidate
+V1-EMAP-0286,CAND-B11-ARLT-AUTHOR,WEB-CE-B11,CAND-B11-ARLT-AUTHOR,V1-ENT-0286,create,B11 Reviewer pending; source-backed candidate
+V1-EMAP-0287,CAND-B11-PUIG-W01,WEB-CE-B11,CAND-B11-PUIG-W01,V1-ENT-0287,create,B11 Reviewer pending; source-backed candidate
+V1-EMAP-0288,CAND-B11-PUIG-W02,WEB-CE-B11,CAND-B11-PUIG-W02,V1-ENT-0288,create,B11 Reviewer pending; source-backed candidate
+V1-EMAP-0289,CAND-B11-PUIG-W03,WEB-CE-B11,CAND-B11-PUIG-W03,V1-ENT-0289,create,B11 Reviewer pending; source-backed candidate
+V1-EMAP-0290,CAND-B11-OCAMPO-W01,WEB-CE-B11,CAND-B11-OCAMPO-W01,V1-ENT-0290,create,B11 Reviewer pending; source-backed candidate
+V1-EMAP-0291,CAND-B11-OCAMPO-W02,WEB-CE-B11,CAND-B11-OCAMPO-W02,V1-ENT-0291,create,B11 Reviewer pending; source-backed candidate
+V1-EMAP-0292,CAND-B11-OCAMPO-W03,WEB-CE-B11,CAND-B11-OCAMPO-W03,V1-ENT-0292,create,B11 Reviewer pending; source-backed candidate
+V1-EMAP-0293,CAND-B11-ARLT-W01,WEB-CE-B11,CAND-B11-ARLT-W01,V1-ENT-0293,create,B11 Reviewer pending; source-backed candidate
+V1-EMAP-0294,CAND-B11-ARLT-W02,WEB-CE-B11,CAND-B11-ARLT-W02,V1-ENT-0294,create,B11 Reviewer pending; source-backed candidate
+V1-EMAP-0295,CAND-B11-ARLT-W03,WEB-CE-B11,CAND-B11-ARLT-W03,V1-ENT-0295,create,B11 Reviewer pending; source-backed candidate
+V1-EMAP-0296,CAND-B12-SCHWEBLIN-AUTHOR,WEB-CE-B12,CAND-B12-SCHWEBLIN-AUTHOR,V1-ENT-0296,create,B12 fresh-context Reviewer pending; source-backed candidate
+V1-EMAP-0297,CAND-B12-ENRIQUEZ-AUTHOR,WEB-CE-B12,CAND-B12-ENRIQUEZ-AUTHOR,V1-ENT-0297,create,B12 fresh-context Reviewer pending; source-backed candidate
+V1-EMAP-0298,CAND-B12-ZAMBRA-AUTHOR,WEB-CE-B12,CAND-B12-ZAMBRA-AUTHOR,V1-ENT-0298,create,B12 fresh-context Reviewer pending; source-backed candidate
+V1-EMAP-0299,CAND-B12-SCHWEBLIN-W01,WEB-CE-B12,CAND-B12-SCHWEBLIN-W01,V1-ENT-0299,create,B12 fresh-context Reviewer pending; source-backed candidate
+V1-EMAP-0300,CAND-B12-SCHWEBLIN-W02,WEB-CE-B12,CAND-B12-SCHWEBLIN-W02,V1-ENT-0300,create,B12 fresh-context Reviewer pending; source-backed candidate
+V1-EMAP-0301,CAND-B12-SCHWEBLIN-W03,WEB-CE-B12,CAND-B12-SCHWEBLIN-W03,V1-ENT-0301,create,B12 fresh-context Reviewer pending; source-backed candidate
+V1-EMAP-0302,CAND-B12-ENRIQUEZ-W01,WEB-CE-B12,CAND-B12-ENRIQUEZ-W01,V1-ENT-0302,create,B12 fresh-context Reviewer pending; source-backed candidate
+V1-EMAP-0303,CAND-B12-ENRIQUEZ-W02,WEB-CE-B12,CAND-B12-ENRIQUEZ-W02,V1-ENT-0303,create,B12 fresh-context Reviewer pending; source-backed candidate
+V1-EMAP-0304,CAND-B12-ENRIQUEZ-W03,WEB-CE-B12,CAND-B12-ENRIQUEZ-W03,V1-ENT-0304,create,B12 fresh-context Reviewer pending; source-backed candidate
+V1-EMAP-0305,CAND-B12-ZAMBRA-W01,WEB-CE-B12,CAND-B12-ZAMBRA-W01,V1-ENT-0305,create,B12 fresh-context Reviewer pending; source-backed candidate
+V1-EMAP-0306,CAND-B12-ZAMBRA-W02,WEB-CE-B12,CAND-B12-ZAMBRA-W02,V1-ENT-0306,create,B12 fresh-context Reviewer pending; source-backed candidate
+V1-EMAP-0307,CAND-B12-ZAMBRA-W03,WEB-CE-B12,CAND-B12-ZAMBRA-W03,V1-ENT-0307,create,B12 fresh-context Reviewer pending; source-backed candidate
+V1-EMAP-0308,CAND-B13-COELHO-AUTHOR,WEB-CE-B13,CAND-B13-COELHO-AUTHOR,V1-ENT-0308,create,B13 fresh-context Reviewer PASS; institutional sources
+V1-EMAP-0309,CAND-B13-DRUMMOND-AUTHOR,WEB-CE-B13,CAND-B13-DRUMMOND-AUTHOR,V1-ENT-0309,create,B13 fresh-context Reviewer PASS; institutional sources
+V1-EMAP-0310,CAND-B13-GUILLEN-AUTHOR,WEB-CE-B13,CAND-B13-GUILLEN-AUTHOR,V1-ENT-0310,create,B13 fresh-context Reviewer PASS; institutional sources
+V1-EMAP-0311,CAND-B13-COELHO-W01,WEB-CE-B13,CAND-B13-COELHO-W01,V1-ENT-0311,create,B13 fresh-context Reviewer PASS; institutional bibliography
+V1-EMAP-0312,CAND-B13-COELHO-W02,WEB-CE-B13,CAND-B13-COELHO-W02,V1-ENT-0312,create,B13 fresh-context Reviewer PASS; institutional bibliography
+V1-EMAP-0313,CAND-B13-COELHO-W03,WEB-CE-B13,CAND-B13-COELHO-W03,V1-ENT-0313,create,B13 fresh-context Reviewer PASS; institutional bibliography
+V1-EMAP-0314,CAND-B13-DRUMMOND-W01,WEB-CE-B13,CAND-B13-DRUMMOND-W01,V1-ENT-0314,create,B13 fresh-context Reviewer PASS; ABL poetry list
+V1-EMAP-0315,CAND-B13-DRUMMOND-W02,WEB-CE-B13,CAND-B13-DRUMMOND-W02,V1-ENT-0315,create,B13 fresh-context Reviewer PASS; ABL poetry list
+V1-EMAP-0316,CAND-B13-DRUMMOND-W03,WEB-CE-B13,CAND-B13-DRUMMOND-W03,V1-ENT-0316,create,B13 fresh-context Reviewer PASS; ABL poetry list
+V1-EMAP-0317,CAND-B13-GUILLEN-W01,WEB-CE-B13,CAND-B13-GUILLEN-W01,V1-ENT-0317,create,B13 fresh-context Reviewer PASS; Cervantes bibliography
+V1-EMAP-0318,CAND-B13-GUILLEN-W02,WEB-CE-B13,CAND-B13-GUILLEN-W02,V1-ENT-0318,create,B13 fresh-context Reviewer PASS; Cervantes bibliography
+V1-EMAP-0319,CAND-B13-GUILLEN-W03,WEB-CE-B13,CAND-B13-GUILLEN-W03,V1-ENT-0319,create,B13 fresh-context Reviewer PASS; Cervantes bibliography
+V1-EMAP-0320,CAND-B14-LEZAMA-AUTHOR,WEB-CE-B14,CAND-B14-LEZAMA-AUTHOR,V1-ENT-0320,create,B14 fresh-context Reviewer PASS; institutional sources
+V1-EMAP-0321,CAND-B14-CABRERA-AUTHOR,WEB-CE-B14,CAND-B14-CABRERA-AUTHOR,V1-ENT-0321,create,B14 fresh-context Reviewer PASS; bibliography and scholarly biography
+V1-EMAP-0322,CAND-B14-SORJUANA-AUTHOR,WEB-CE-B14,CAND-B14-SORJUANA-AUTHOR,V1-ENT-0322,create,B14 fresh-context Reviewer PASS; UNAM institutional sources
+V1-EMAP-0323,CAND-B14-LEZAMA-W01,WEB-CE-B14,CAND-B14-LEZAMA-W01,V1-ENT-0323,create,B14 fresh-context Reviewer PASS; bibliography
+V1-EMAP-0324,CAND-B14-LEZAMA-W02,WEB-CE-B14,CAND-B14-LEZAMA-W02,V1-ENT-0324,create,B14 fresh-context Reviewer PASS; bibliography
+V1-EMAP-0325,CAND-B14-LEZAMA-W03,WEB-CE-B14,CAND-B14-LEZAMA-W03,V1-ENT-0325,create,B14 fresh-context Reviewer PASS; AAP profile
+V1-EMAP-0326,CAND-B14-CABRERA-W01,WEB-CE-B14,CAND-B14-CABRERA-W01,V1-ENT-0326,create,B14 fresh-context Reviewer PASS; bibliography
+V1-EMAP-0327,CAND-B14-CABRERA-W02,WEB-CE-B14,CAND-B14-CABRERA-W02,V1-ENT-0327,create,B14 fresh-context Reviewer PASS; bibliography; form left open
+V1-EMAP-0328,CAND-B14-CABRERA-W03,WEB-CE-B14,CAND-B14-CABRERA-W03,V1-ENT-0328,create,B14 fresh-context Reviewer PASS; bibliography
+V1-EMAP-0329,CAND-B14-SORJUANA-W01,WEB-CE-B14,CAND-B14-SORJUANA-W01,V1-ENT-0329,create,B14 fresh-context Reviewer PASS; UNAM repository
+V1-EMAP-0330,CAND-B14-SORJUANA-W02,WEB-CE-B14,CAND-B14-SORJUANA-W02,V1-ENT-0330,create,B14 fresh-context Reviewer PASS; UNAM repository
+V1-EMAP-0331,CAND-B14-SORJUANA-W03,WEB-CE-B14,CAND-B14-SORJUANA-W03,V1-ENT-0331,create,B14 fresh-context Reviewer PASS; UNAM profile
+V1-EMAP-0332,CAND-B15-RIBEYRO-AUTHOR,WEB-CE-B15,CAND-B15-RIBEYRO-AUTHOR,V1-ENT-0332,create,"B15 fresh-context Reviewer PASS (LUNA-MAX-B15-REVIEW, 2026-08-21); Peruvian Ministry and UNMSM sources"
+V1-EMAP-0333,CAND-B15-SAER-AUTHOR,WEB-CE-B15,CAND-B15-SAER-AUTHOR,V1-ENT-0333,create,"B15 fresh-context Reviewer PASS (LUNA-MAX-B15-REVIEW, 2026-08-21); Argentina government and UNL sources"
+V1-EMAP-0334,CAND-B15-ARENAS-AUTHOR,WEB-CE-B15,CAND-B15-ARENAS-AUTHOR,V1-ENT-0334,create,"B15 fresh-context Reviewer PASS (LUNA-MAX-B15-REVIEW, 2026-08-21); Princeton and university sources"
+V1-EMAP-0335,CAND-B15-RIBEYRO-W01,WEB-CE-B15,CAND-B15-RIBEYRO-W01,V1-ENT-0335,create,"B15 fresh-context Reviewer PASS (LUNA-MAX-B15-REVIEW, 2026-08-21); official bibliography and scholarly article"
+V1-EMAP-0336,CAND-B15-RIBEYRO-W02,WEB-CE-B15,CAND-B15-RIBEYRO-W02,V1-ENT-0336,create,"B15 fresh-context Reviewer PASS (LUNA-MAX-B15-REVIEW, 2026-08-21); official bibliography"
+V1-EMAP-0337,CAND-B15-RIBEYRO-W03,WEB-CE-B15,CAND-B15-RIBEYRO-W03,V1-ENT-0337,create,"B15 fresh-context Reviewer PASS (LUNA-MAX-B15-REVIEW, 2026-08-21); official bibliography"
+V1-EMAP-0338,CAND-B15-SAER-W01,WEB-CE-B15,CAND-B15-SAER-W01,V1-ENT-0338,create,"B15 fresh-context Reviewer PASS (LUNA-MAX-B15-REVIEW, 2026-08-21); Argentina government and UNL sources"
+V1-EMAP-0339,CAND-B15-SAER-W02,WEB-CE-B15,CAND-B15-SAER-W02,V1-ENT-0339,create,"B15 fresh-context Reviewer PASS (LUNA-MAX-B15-REVIEW, 2026-08-21); Argentina government and UNL sources"
+V1-EMAP-0340,CAND-B15-SAER-W03,WEB-CE-B15,CAND-B15-SAER-W03,V1-ENT-0340,create,"B15 fresh-context Reviewer PASS (LUNA-MAX-B15-REVIEW, 2026-08-21); 1986 retained provisionally with gap"
+V1-EMAP-0341,CAND-B15-ARENAS-W01,WEB-CE-B15,CAND-B15-ARENAS-W01,V1-ENT-0341,create,"B15 fresh-context Reviewer PASS (LUNA-MAX-B15-REVIEW, 2026-08-21); Cardiff scholarly article"
+V1-EMAP-0342,CAND-B15-ARENAS-W02,WEB-CE-B15,CAND-B15-ARENAS-W02,V1-ENT-0342,create,"B15 fresh-context Reviewer PASS (LUNA-MAX-B15-REVIEW, 2026-08-21); Cardiff scholarly article"
+V1-EMAP-0343,CAND-B15-ARENAS-W03,WEB-CE-B15,CAND-B15-ARENAS-W03,V1-ENT-0343,create,"B15 fresh-context Reviewer PASS (LUNA-MAX-B15-REVIEW, 2026-08-21); Universidad de Antioquia review"
+V1-EMAP-0344,CAND-B16-SEPULVEDA-AUTHOR,WEB-CE-B16,CAND-B16-SEPULVEDA-AUTHOR,V1-ENT-0344,create,"B16 fresh-context Reviewer PASS (LUNA-MAX-B16-REVIEW, 2026-08-22); source/evidence and migration replay verified"
+V1-EMAP-0345,CAND-B16-NETTEL-AUTHOR,WEB-CE-B16,CAND-B16-NETTEL-AUTHOR,V1-ENT-0345,create,"B16 fresh-context Reviewer PASS (LUNA-MAX-B16-REVIEW, 2026-08-22); source/evidence and migration replay verified"
+V1-EMAP-0346,CAND-B16-PERI-ROSSI-AUTHOR,WEB-CE-B16,CAND-B16-PERI-ROSSI-AUTHOR,V1-ENT-0346,create,"B16 fresh-context Reviewer PASS (LUNA-MAX-B16-REVIEW, 2026-08-22); source/evidence and migration replay verified"
+V1-EMAP-0347,CAND-B16-SEPULVEDA-W01,WEB-CE-B16,CAND-B16-SEPULVEDA-W01,V1-ENT-0347,create,"B16 fresh-context Reviewer PASS (LUNA-MAX-B16-REVIEW, 2026-08-22); source/evidence and migration replay verified"
+V1-EMAP-0348,CAND-B16-SEPULVEDA-W02,WEB-CE-B16,CAND-B16-SEPULVEDA-W02,V1-ENT-0348,create,"B16 fresh-context Reviewer PASS (LUNA-MAX-B16-REVIEW, 2026-08-22); source/evidence and migration replay verified"
+V1-EMAP-0349,CAND-B16-SEPULVEDA-W03,WEB-CE-B16,CAND-B16-SEPULVEDA-W03,V1-ENT-0349,create,"B16 fresh-context Reviewer PASS (LUNA-MAX-B16-REVIEW, 2026-08-22); source/evidence and migration replay verified"
+V1-EMAP-0350,CAND-B16-NETTEL-W01,WEB-CE-B16,CAND-B16-NETTEL-W01,V1-ENT-0350,create,"B16 fresh-context Reviewer PASS (LUNA-MAX-B16-REVIEW, 2026-08-22); source/evidence and migration replay verified"
+V1-EMAP-0351,CAND-B16-NETTEL-W02,WEB-CE-B16,CAND-B16-NETTEL-W02,V1-ENT-0351,create,"B16 fresh-context Reviewer PASS (LUNA-MAX-B16-REVIEW, 2026-08-22); source/evidence and migration replay verified"
+V1-EMAP-0352,CAND-B16-NETTEL-W03,WEB-CE-B16,CAND-B16-NETTEL-W03,V1-ENT-0352,create,"B16 fresh-context Reviewer PASS (LUNA-MAX-B16-REVIEW, 2026-08-22); source/evidence and migration replay verified"
+V1-EMAP-0353,CAND-B16-PERI-ROSSI-W01,WEB-CE-B16,CAND-B16-PERI-ROSSI-W01,V1-ENT-0353,create,"B16 fresh-context Reviewer PASS (LUNA-MAX-B16-REVIEW, 2026-08-22); source/evidence and migration replay verified"
+V1-EMAP-0354,CAND-B16-PERI-ROSSI-W02,WEB-CE-B16,CAND-B16-PERI-ROSSI-W02,V1-ENT-0354,create,"B16 fresh-context Reviewer PASS (LUNA-MAX-B16-REVIEW, 2026-08-22); source/evidence and migration replay verified"
+V1-EMAP-0355,CAND-B16-PERI-ROSSI-W03,WEB-CE-B16,CAND-B16-PERI-ROSSI-W03,V1-ENT-0355,create,"B16 fresh-context Reviewer PASS (LUNA-MAX-B16-REVIEW, 2026-08-22); source/evidence and migration replay verified"
+V1-EMAP-0356,CAND-B17-ECUADOR-PLACE,WEB-CE-B17,CAND-B17-ECUADOR-PLACE,V1-ENT-0356,create,"B17 fresh-context Reviewer PASS (LUNA-MAX-B17-REVIEW, 2026-08-22); source/evidence and migration replay verified"
+V1-EMAP-0357,CAND-B17-VENEZUELA-PLACE,WEB-CE-B17,CAND-B17-VENEZUELA-PLACE,V1-ENT-0357,create,"B17 fresh-context Reviewer PASS (LUNA-MAX-B17-REVIEW, 2026-08-22); source/evidence and migration replay verified"
+V1-EMAP-0358,CAND-B17-LYGIA-AUTHOR,WEB-CE-B17,CAND-B17-LYGIA-AUTHOR,V1-ENT-0358,create,"B17 fresh-context Reviewer PASS (LUNA-MAX-B17-REVIEW, 2026-08-22); source/evidence and migration replay verified"
+V1-EMAP-0359,CAND-B17-ICAZA-AUTHOR,WEB-CE-B17,CAND-B17-ICAZA-AUTHOR,V1-ENT-0359,create,"B17 fresh-context Reviewer PASS (LUNA-MAX-B17-REVIEW, 2026-08-22); source/evidence and migration replay verified"
+V1-EMAP-0360,CAND-B17-GALLEGOS-AUTHOR,WEB-CE-B17,CAND-B17-GALLEGOS-AUTHOR,V1-ENT-0360,create,"B17 fresh-context Reviewer PASS (LUNA-MAX-B17-REVIEW, 2026-08-22); source/evidence and migration replay verified"
+V1-EMAP-0361,CAND-B17-LYGIA-FAGUNDES-TELLES-61,WEB-CE-B17,CAND-B17-LYGIA-FAGUNDES-TELLES-61,V1-ENT-0361,create,"B17 fresh-context Reviewer PASS (LUNA-MAX-B17-REVIEW, 2026-08-22); source/evidence and migration replay verified"
+V1-EMAP-0362,CAND-B17-LYGIA-FAGUNDES-TELLES-62,WEB-CE-B17,CAND-B17-LYGIA-FAGUNDES-TELLES-62,V1-ENT-0362,create,"B17 fresh-context Reviewer PASS (LUNA-MAX-B17-REVIEW, 2026-08-22); source/evidence and migration replay verified"
+V1-EMAP-0363,CAND-B17-LYGIA-FAGUNDES-TELLES-63,WEB-CE-B17,CAND-B17-LYGIA-FAGUNDES-TELLES-63,V1-ENT-0363,create,"B17 fresh-context Reviewer PASS (LUNA-MAX-B17-REVIEW, 2026-08-22); source/evidence and migration replay verified"
+V1-EMAP-0364,CAND-B17-JORGE-ICAZA-64,WEB-CE-B17,CAND-B17-JORGE-ICAZA-64,V1-ENT-0364,create,"B17 fresh-context Reviewer PASS (LUNA-MAX-B17-REVIEW, 2026-08-22); source/evidence and migration replay verified"
+V1-EMAP-0365,CAND-B17-JORGE-ICAZA-65,WEB-CE-B17,CAND-B17-JORGE-ICAZA-65,V1-ENT-0365,create,"B17 fresh-context Reviewer PASS (LUNA-MAX-B17-REVIEW, 2026-08-22); source/evidence and migration replay verified"
+V1-EMAP-0366,CAND-B17-JORGE-ICAZA-66,WEB-CE-B17,CAND-B17-JORGE-ICAZA-66,V1-ENT-0366,create,"B17 fresh-context Reviewer PASS (LUNA-MAX-B17-REVIEW, 2026-08-22); source/evidence and migration replay verified"
+V1-EMAP-0367,CAND-B17-RÓMULO-GALLEGOS-67,WEB-CE-B17,CAND-B17-RÓMULO-GALLEGOS-67,V1-ENT-0367,create,"B17 fresh-context Reviewer PASS (LUNA-MAX-B17-REVIEW, 2026-08-22); source/evidence and migration replay verified"
+V1-EMAP-0368,CAND-B17-RÓMULO-GALLEGOS-68,WEB-CE-B17,CAND-B17-RÓMULO-GALLEGOS-68,V1-ENT-0368,create,"B17 fresh-context Reviewer PASS (LUNA-MAX-B17-REVIEW, 2026-08-22); source/evidence and migration replay verified"
+V1-EMAP-0369,CAND-B17-RÓMULO-GALLEGOS-69,WEB-CE-B17,CAND-B17-RÓMULO-GALLEGOS-69,V1-ENT-0369,create,"B17 fresh-context Reviewer PASS (LUNA-MAX-B17-REVIEW, 2026-08-22); source/evidence and migration replay verified"
+V1-EMAP-0370,WCD07A-W01,WCD-07A,WCD07A-W01,V1-ENT-0374,retain_as_formal_candidate,fresh-context reviewer PASS; semantic duplicate check clear
+V1-EMAP-0371,WCD07A-W02,WCD-07A,WCD07A-W02,V1-ENT-0375,retain_as_formal_candidate,fresh-context reviewer PASS; single hybrid work
+V1-EMAP-0372,WCD07A-W03,WCD-07A,WCD07A-W03,V1-ENT-0376,retain_as_formal_candidate,fresh-context reviewer PASS; distinct posthumous collection
+V1-EMAP-0373,WCD07A-W04,WCD-07A,WCD07A-W04,V1-ENT-0377,retain_as_formal_candidate,fresh-context reviewer PASS; semantic duplicate check clear
+V1-EMAP-0374,WCD07A-W05,WCD-07A,WCD07A-W05,V1-ENT-0378,retain_as_formal_candidate,fresh-context reviewer PASS; novel and edition layers separated
+V1-EMAP-0375,WCD07A-W06,WCD-07A,WCD07A-W06,V1-ENT-0379,retain_as_formal_candidate,fresh-context reviewer PASS; 1943 resolved by two direct independent sources
+V1-EMAP-0376,WCD10-B01-W01,WCD-10-B01,WCD10-B01-W01,V1-ENT-0380,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0377,WCD10-B01-W02,WCD-10-B01,WCD10-B01-W02,V1-ENT-0381,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0378,WCD10-B01-W03,WCD-10-B01,WCD10-B01-W03,V1-ENT-0382,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0379,WCD10-B01-W04,WCD-10-B01,WCD10-B01-W04,V1-ENT-0383,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0380,WCD10-B01-W05,WCD-10-B01,WCD10-B01-W05,V1-ENT-0384,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0381,WCD10-B01-W06,WCD-10-B01,WCD10-B01-W06,V1-ENT-0385,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0382,WCD10-B01-W07,WCD-10-B01,WCD10-B01-W07,V1-ENT-0386,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0383,WCD10-B01-W08,WCD-10-B01,WCD10-B01-W08,V1-ENT-0387,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0384,WCD10-B01-W09,WCD-10-B01,WCD10-B01-W09,V1-ENT-0388,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0385,WCD10-B01-W10,WCD-10-B01,WCD10-B01-W10,V1-ENT-0389,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0386,WCD10-B02-W01,WCD-10-B02,WCD10-B02-W01,V1-ENT-0390,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0387,WCD10-B02-W02,WCD-10-B02,WCD10-B02-W02,V1-ENT-0391,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0388,WCD10-B02-W03,WCD-10-B02,WCD10-B02-W03,V1-ENT-0392,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0389,WCD10-B02-W04,WCD-10-B02,WCD10-B02-W04,V1-ENT-0393,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0390,WCD10-B02-W05,WCD-10-B02,WCD10-B02-W05,V1-ENT-0394,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0391,WCD10-B02-W06,WCD-10-B02,WCD10-B02-W06,V1-ENT-0395,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0392,WCD10-B02-W07,WCD-10-B02,WCD10-B02-W07,V1-ENT-0396,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0393,WCD10-B02-W08,WCD-10-B02,WCD10-B02-W08,V1-ENT-0397,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0394,WCD10-B02-W09,WCD-10-B02,WCD10-B02-W09,V1-ENT-0398,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0395,WCD10-B02-W10,WCD-10-B02,WCD10-B02-W10,V1-ENT-0399,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0396,WCD10-B03-W01,WCD-10-B03,WCD10-B03-W01,V1-ENT-0400,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0397,WCD10-B03-W02,WCD-10-B03,WCD10-B03-W02,V1-ENT-0401,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0398,WCD10-B03-W03,WCD-10-B03,WCD10-B03-W03,V1-ENT-0402,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0399,WCD10-B03-W04,WCD-10-B03,WCD10-B03-W04,V1-ENT-0403,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0400,WCD10-B03-W05,WCD-10-B03,WCD10-B03-W05,V1-ENT-0404,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0401,WCD10-B03-W06,WCD-10-B03,WCD10-B03-W06,V1-ENT-0405,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0402,WCD10-B03-W07,WCD-10-B03,WCD10-B03-W07,V1-ENT-0406,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0403,WCD10-B03-W08,WCD-10-B03,WCD10-B03-W08,V1-ENT-0407,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0404,WCD10-B03-W09,WCD-10-B03,WCD10-B03-W09,V1-ENT-0408,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0405,WCD10-B03-W10,WCD-10-B03,WCD10-B03-W10,V1-ENT-0409,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0406,WCD10-B03-W11,WCD-10-B03,WCD10-B03-W11,V1-ENT-0410,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0407,WCD10-B03-W12,WCD-10-B03,WCD10-B03-W12,V1-ENT-0411,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0408,WCD10-B04-W01,WCD-10-B04,WCD10-B04-W01,V1-ENT-0412,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0409,WCD10-B04-W02,WCD-10-B04,WCD10-B04-W02,V1-ENT-0413,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0410,WCD10-B04-W03,WCD-10-B04,WCD10-B04-W03,V1-ENT-0414,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0411,WCD10-B04-W04,WCD-10-B04,WCD10-B04-W04,V1-ENT-0415,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0412,WCD10-B04-W05,WCD-10-B04,WCD10-B04-W05,V1-ENT-0416,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0413,WCD10-B04-W06,WCD-10-B04,WCD10-B04-W06,V1-ENT-0417,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0414,WCD10-B04-W07,WCD-10-B04,WCD10-B04-W07,V1-ENT-0418,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0415,WCD10-B04-W08,WCD-10-B04,WCD10-B04-W08,V1-ENT-0419,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0416,WCD10-B04-W09,WCD-10-B04,WCD10-B04-W09,V1-ENT-0420,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0417,WCD10-B05-W01,WCD-10-B05,WCD10-B05-W01,V1-ENT-0421,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0418,WCD10-B05-W02,WCD-10-B05,WCD10-B05-W02,V1-ENT-0422,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0419,WCD10-B05-W05,WCD-10-B05,WCD10-B05-W05,V1-ENT-0423,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0420,WCD10-B05-W06,WCD-10-B05,WCD10-B05-W06,V1-ENT-0424,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0421,WCD10-B05-W07,WCD-10-B05,WCD10-B05-W07,V1-ENT-0425,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0422,WCD10-B05-W08,WCD-10-B05,WCD10-B05-W08,V1-ENT-0426,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0423,WCD10-B05-W09,WCD-10-B05,WCD10-B05-W09,V1-ENT-0427,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0424,WCD10-B05-W10,WCD-10-B05,WCD10-B05-W10,V1-ENT-0428,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0425,WCD10-B06-W001,WCD-10-B06,WCD10-B06-W001,V1-ENT-0429,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0426,WCD10-B06-W002,WCD-10-B06,WCD10-B06-W002,V1-ENT-0430,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0427,WCD10-B06-W003,WCD-10-B06,WCD10-B06-W003,V1-ENT-0431,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0428,WCD10-B06-W004,WCD-10-B06,WCD10-B06-W004,V1-ENT-0432,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0429,WCD10-B06-W005,WCD-10-B06,WCD10-B06-W005,V1-ENT-0433,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0430,WCD10-B06-W101,WCD-10-B06,WCD10-B06-W101,V1-ENT-0434,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0431,WCD10-B06-W102,WCD-10-B06,WCD10-B06-W102,V1-ENT-0435,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0432,WCD10-B06-W103,WCD-10-B06,WCD10-B06-W103,V1-ENT-0436,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0433,WCD10-B06-W201,WCD-10-B06,WCD10-B06-W201,V1-ENT-0437,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0434,WCD10-B06-W202,WCD-10-B06,WCD10-B06-W202,V1-ENT-0438,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0435,WCD10-B06-W203,WCD-10-B06,WCD10-B06-W203,V1-ENT-0439,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0436,WCD10-B06-W204,WCD-10-B06,WCD10-B06-W204,V1-ENT-0440,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0437,WCD10-B06-W205,WCD-10-B06,WCD10-B06-W205,V1-ENT-0441,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0438,WCD10-B06-W206,WCD-10-B06,WCD10-B06-W206,V1-ENT-0442,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0439,WCD10-B06-W207,WCD-10-B06,WCD10-B06-W207,V1-ENT-0443,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0440,WCD10-B06-W208,WCD-10-B06,WCD10-B06-W208,V1-ENT-0444,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0441,WCD10-B06-W209,WCD-10-B06,WCD10-B06-W209,V1-ENT-0445,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0442,WCD10-B06-W210,WCD-10-B06,WCD10-B06-W210,V1-ENT-0446,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0443,WCD10-B06-W211,WCD-10-B06,WCD10-B06-W211,V1-ENT-0447,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0444,WCD10-B06-W213,WCD-10-B06,WCD10-B06-W213,V1-ENT-0448,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0445,WCD10-B06-W214,WCD-10-B06,WCD10-B06-W214,V1-ENT-0449,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0446,WCD10-B06-W215,WCD-10-B06,WCD10-B06-W215,V1-ENT-0450,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0447,WCD10-B06-W216,WCD-10-B06,WCD10-B06-W216,V1-ENT-0451,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0448,WCD10-B06-W217,WCD-10-B06,WCD10-B06-W217,V1-ENT-0452,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0449,WCD10-B06-W218,WCD-10-B06,WCD10-B06-W218,V1-ENT-0453,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0450,WCD10-B06-W219,WCD-10-B06,WCD10-B06-W219,V1-ENT-0454,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0451,WCD10-B06-W220,WCD-10-B06,WCD10-B06-W220,V1-ENT-0455,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0452,WCD10-B06-W221,WCD-10-B06,WCD10-B06-W221,V1-ENT-0456,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0453,WCD10-B07-W001,WCD-10-B07,WCD10-B07-W001,V1-ENT-0457,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0454,WCD10-B07-W002,WCD-10-B07,WCD10-B07-W002,V1-ENT-0458,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0455,WCD10-B07-W003,WCD-10-B07,WCD10-B07-W003,V1-ENT-0459,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0456,WCD10-B07-W004,WCD-10-B07,WCD10-B07-W004,V1-ENT-0460,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0457,WCD10-B07-W005,WCD-10-B07,WCD10-B07-W005,V1-ENT-0461,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0458,WCD10-B07-W006,WCD-10-B07,WCD10-B07-W006,V1-ENT-0462,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0459,WCD10-B07-W007,WCD-10-B07,WCD10-B07-W007,V1-ENT-0463,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0460,WCD10-B07-W008,WCD-10-B07,WCD10-B07-W008,V1-ENT-0464,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0461,WCD10-B07-W009,WCD-10-B07,WCD10-B07-W009,V1-ENT-0465,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0462,WCD10-B07-W101,WCD-10-B07,WCD10-B07-W101,V1-ENT-0466,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0463,WCD10-B07-W102,WCD-10-B07,WCD10-B07-W102,V1-ENT-0467,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0464,WCD10-B07-W103,WCD-10-B07,WCD10-B07-W103,V1-ENT-0468,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0465,WCD10-B07-W104,WCD-10-B07,WCD10-B07-W104,V1-ENT-0469,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0466,WCD10-B07-W105,WCD-10-B07,WCD10-B07-W105,V1-ENT-0470,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0467,WCD10-B07-W106,WCD-10-B07,WCD10-B07-W106,V1-ENT-0471,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0468,WCD10-B07-W107,WCD-10-B07,WCD10-B07-W107,V1-ENT-0472,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0469,WCD10-B07-W108,WCD-10-B07,WCD10-B07-W108,V1-ENT-0473,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0470,WCD10-B07-W109,WCD-10-B07,WCD10-B07-W109,V1-ENT-0474,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0471,WCD10-B07-W110,WCD-10-B07,WCD10-B07-W110,V1-ENT-0475,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0472,WCD10-B07-W111,WCD-10-B07,WCD10-B07-W111,V1-ENT-0476,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0473,WCD10-B07-W112,WCD-10-B07,WCD10-B07-W112,V1-ENT-0477,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0474,WCD10-B07-W113,WCD-10-B07,WCD10-B07-W113,V1-ENT-0478,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0475,WCD10-B07-W114,WCD-10-B07,WCD10-B07-W114,V1-ENT-0479,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0476,WCD10-B07-W115,WCD-10-B07,WCD10-B07-W115,V1-ENT-0480,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0477,WCD10-B07-W116,WCD-10-B07,WCD10-B07-W116,V1-ENT-0481,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0478,WCD10-B07-W117,WCD-10-B07,WCD10-B07-W117,V1-ENT-0482,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0479,WCD10-B07-W118,WCD-10-B07,WCD10-B07-W118,V1-ENT-0483,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0480,WCD10-B07-W119,WCD-10-B07,WCD10-B07-W119,V1-ENT-0484,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0481,WCD10-B07-W120,WCD-10-B07,WCD10-B07-W120,V1-ENT-0485,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0482,WCD10-B07-W121,WCD-10-B07,WCD10-B07-W121,V1-ENT-0486,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0483,WCD10-B07-W122,WCD-10-B07,WCD10-B07-W122,V1-ENT-0487,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0484,WCD10-B07-W123,WCD-10-B07,WCD10-B07-W123,V1-ENT-0488,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0485,WCD10-B07-W124,WCD-10-B07,WCD10-B07-W124,V1-ENT-0489,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0486,WCD10-B07-W125,WCD-10-B07,WCD10-B07-W125,V1-ENT-0490,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0487,WCD10-B07-W126,WCD-10-B07,WCD10-B07-W126,V1-ENT-0491,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0488,WCD10-B07-W127,WCD-10-B07,WCD10-B07-W127,V1-ENT-0492,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0489,WCD10-B07-W128,WCD-10-B07,WCD10-B07-W128,V1-ENT-0493,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0490,WCD10-B07-W129,WCD-10-B07,WCD10-B07-W129,V1-ENT-0494,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0491,WCD10-B07-W201,WCD-10-B07,WCD10-B07-W201,V1-ENT-0495,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0492,WCD10-B07-W202,WCD-10-B07,WCD10-B07-W202,V1-ENT-0496,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0493,WCD10-B07-W203,WCD-10-B07,WCD10-B07-W203,V1-ENT-0497,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0494,WCD10-B07-W204,WCD-10-B07,WCD10-B07-W204,V1-ENT-0498,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0495,WCD10-B07-W205,WCD-10-B07,WCD10-B07-W205,V1-ENT-0499,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0496,WCD10-B07-W206,WCD-10-B07,WCD10-B07-W206,V1-ENT-0500,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0497,WCD10-B07-W207,WCD-10-B07,WCD10-B07-W207,V1-ENT-0501,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0498,WCD10-B07-W208,WCD-10-B07,WCD10-B07-W208,V1-ENT-0502,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0499,WCD10-B07-W209,WCD-10-B07,WCD10-B07-W209,V1-ENT-0503,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0500,WCD10-B07-W210,WCD-10-B07,WCD10-B07-W210,V1-ENT-0504,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0501,WCD10-B07-W212,WCD-10-B07,WCD10-B07-W212,V1-ENT-0505,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0502,WCD10-B07-W213,WCD-10-B07,WCD10-B07-W213,V1-ENT-0506,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0503,WCD10-B07-W214,WCD-10-B07,WCD10-B07-W214,V1-ENT-0507,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0504,WCD10-B07-W215,WCD-10-B07,WCD10-B07-W215,V1-ENT-0508,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0505,WCD10-B07-W216,WCD-10-B07,WCD10-B07-W216,V1-ENT-0509,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0506,WCD10-B07-W217,WCD-10-B07,WCD10-B07-W217,V1-ENT-0510,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0507,WCD10-B08-W001,WCD-10-B08,WCD10-B08-W001,V1-ENT-0511,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0508,WCD10-B08-W002,WCD-10-B08,WCD10-B08-W002,V1-ENT-0512,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0509,WCD10-B08-W003,WCD-10-B08,WCD10-B08-W003,V1-ENT-0513,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0510,WCD10-B08-W004,WCD-10-B08,WCD10-B08-W004,V1-ENT-0514,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0511,WCD10-B08-W005,WCD-10-B08,WCD10-B08-W005,V1-ENT-0515,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0512,WCD10-B08-W006,WCD-10-B08,WCD10-B08-W006,V1-ENT-0516,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0513,WCD10-B08-W007,WCD-10-B08,WCD10-B08-W007,V1-ENT-0517,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0514,WCD10-B08-W008,WCD-10-B08,WCD10-B08-W008,V1-ENT-0518,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0515,WCD10-B08-W009,WCD-10-B08,WCD10-B08-W009,V1-ENT-0519,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0516,WCD10-B08-W010,WCD-10-B08,WCD10-B08-W010,V1-ENT-0520,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0517,WCD10-B08-W011,WCD-10-B08,WCD10-B08-W011,V1-ENT-0521,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0518,WCD10-B08-W012,WCD-10-B08,WCD10-B08-W012,V1-ENT-0522,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0519,WCD10-B08-W013,WCD-10-B08,WCD10-B08-W013,V1-ENT-0523,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0520,WCD10-B08-W014,WCD-10-B08,WCD10-B08-W014,V1-ENT-0524,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0521,WCD10-B08-W015,WCD-10-B08,WCD10-B08-W015,V1-ENT-0525,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0522,WCD10-B08-W016,WCD-10-B08,WCD10-B08-W016,V1-ENT-0526,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0523,WCD10-B08-W017,WCD-10-B08,WCD10-B08-W017,V1-ENT-0527,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0524,WCD10-B08-W018,WCD-10-B08,WCD10-B08-W018,V1-ENT-0528,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0525,WCD10-B08-W019,WCD-10-B08,WCD10-B08-W019,V1-ENT-0529,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0526,WCD10-B08-W020,WCD-10-B08,WCD10-B08-W020,V1-ENT-0530,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0527,WCD10-B08-W021,WCD-10-B08,WCD10-B08-W021,V1-ENT-0531,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0528,WCD10-B08-W022,WCD-10-B08,WCD10-B08-W022,V1-ENT-0532,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0529,WCD10-B08-W023,WCD-10-B08,WCD10-B08-W023,V1-ENT-0533,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0530,WCD10-B08-W024,WCD-10-B08,WCD10-B08-W024,V1-ENT-0534,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0531,WCD10-B08-W025,WCD-10-B08,WCD10-B08-W025,V1-ENT-0535,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0532,WCD10-B08-W026,WCD-10-B08,WCD10-B08-W026,V1-ENT-0536,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0533,WCD10-B08-W028,WCD-10-B08,WCD10-B08-W028,V1-ENT-0537,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0534,WCD10-B08-W029,WCD-10-B08,WCD10-B08-W029,V1-ENT-0538,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0535,WCD10-B08-W030,WCD-10-B08,WCD10-B08-W030,V1-ENT-0539,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0536,WCD10-B08-W031,WCD-10-B08,WCD10-B08-W031,V1-ENT-0540,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0537,WCD10-B08-W032,WCD-10-B08,WCD10-B08-W032,V1-ENT-0541,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0538,WCD10-B08-W033,WCD-10-B08,WCD10-B08-W033,V1-ENT-0542,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0539,WCD10-B08-W034,WCD-10-B08,WCD10-B08-W034,V1-ENT-0543,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0540,WCD10-B08-W035,WCD-10-B08,WCD10-B08-W035,V1-ENT-0544,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0541,WCD10-B08-W036,WCD-10-B08,WCD10-B08-W036,V1-ENT-0545,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0542,WCD10-B08-W037,WCD-10-B08,WCD10-B08-W037,V1-ENT-0546,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0543,WCD10-B08-W101,WCD-10-B08,WCD10-B08-W101,V1-ENT-0547,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0544,WCD10-B08-W102,WCD-10-B08,WCD10-B08-W102,V1-ENT-0548,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0545,WCD10-B08-W103,WCD-10-B08,WCD10-B08-W103,V1-ENT-0549,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0546,WCD10-B08-W104,WCD-10-B08,WCD10-B08-W104,V1-ENT-0550,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0547,WCD10-B08-W105,WCD-10-B08,WCD10-B08-W105,V1-ENT-0551,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0548,WCD10-B08-W106,WCD-10-B08,WCD10-B08-W106,V1-ENT-0552,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0549,WCD10-B08-W107,WCD-10-B08,WCD10-B08-W107,V1-ENT-0553,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0550,WCD10-B08-W108,WCD-10-B08,WCD10-B08-W108,V1-ENT-0554,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0551,WCD10-B08-W109,WCD-10-B08,WCD10-B08-W109,V1-ENT-0555,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0552,WCD10-B08-W110,WCD-10-B08,WCD10-B08-W110,V1-ENT-0556,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0553,WCD10-B08-W111,WCD-10-B08,WCD10-B08-W111,V1-ENT-0557,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0554,WCD10-B08-W112,WCD-10-B08,WCD10-B08-W112,V1-ENT-0558,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0555,WCD10-B08-W113,WCD-10-B08,WCD10-B08-W113,V1-ENT-0559,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0556,WCD10-B08-W114,WCD-10-B08,WCD10-B08-W114,V1-ENT-0560,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0557,WCD10-B08-W115,WCD-10-B08,WCD10-B08-W115,V1-ENT-0561,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0558,WCD10-B08-W116,WCD-10-B08,WCD10-B08-W116,V1-ENT-0562,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0559,WCD10-B08-W117,WCD-10-B08,WCD10-B08-W117,V1-ENT-0563,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0560,WCD10-B08-W118,WCD-10-B08,WCD10-B08-W118,V1-ENT-0564,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0561,WCD10-B08-W119,WCD-10-B08,WCD10-B08-W119,V1-ENT-0565,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0562,WCD10-B08-W120,WCD-10-B08,WCD10-B08-W120,V1-ENT-0566,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0563,WCD10-B08-W121,WCD-10-B08,WCD10-B08-W121,V1-ENT-0567,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0564,WCD10-B08-W122,WCD-10-B08,WCD10-B08-W122,V1-ENT-0568,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0565,WCD10-B08-W123,WCD-10-B08,WCD10-B08-W123,V1-ENT-0569,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0566,WCD10-B08-W124,WCD-10-B08,WCD10-B08-W124,V1-ENT-0570,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0567,WCD10-B08-W125,WCD-10-B08,WCD10-B08-W125,V1-ENT-0571,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0568,WCD10-B08-W126,WCD-10-B08,WCD10-B08-W126,V1-ENT-0572,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0569,WCD10-B08-W127,WCD-10-B08,WCD10-B08-W127,V1-ENT-0573,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0570,WCD10-B08-W128,WCD-10-B08,WCD10-B08-W128,V1-ENT-0574,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0571,WCD10-B08-W129,WCD-10-B08,WCD10-B08-W129,V1-ENT-0575,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0572,WCD10-B08-W130,WCD-10-B08,WCD10-B08-W130,V1-ENT-0576,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0573,WCD10-B08-W131,WCD-10-B08,WCD10-B08-W131,V1-ENT-0577,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0574,WCD10-B08-W132,WCD-10-B08,WCD10-B08-W132,V1-ENT-0578,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0575,WCD10-B08-W133,WCD-10-B08,WCD10-B08-W133,V1-ENT-0579,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0576,WCD10-B08-W134,WCD-10-B08,WCD10-B08-W134,V1-ENT-0580,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0577,WCD10-B08-W135,WCD-10-B08,WCD10-B08-W135,V1-ENT-0581,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0578,WCD10-B08-W136,WCD-10-B08,WCD10-B08-W136,V1-ENT-0582,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0579,WCD10-B08-W137,WCD-10-B08,WCD10-B08-W137,V1-ENT-0583,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0580,WCD10-B08-W138,WCD-10-B08,WCD10-B08-W138,V1-ENT-0584,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0581,WCD10-B08-W201,WCD-10-B08,WCD10-B08-W201,V1-ENT-0585,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0582,WCD10-B08-W202,WCD-10-B08,WCD10-B08-W202,V1-ENT-0586,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0583,WCD10-B08-W203,WCD-10-B08,WCD10-B08-W203,V1-ENT-0587,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0584,WCD10-B08-W204,WCD-10-B08,WCD10-B08-W204,V1-ENT-0588,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0585,WCD10-B08-W205,WCD-10-B08,WCD10-B08-W205,V1-ENT-0589,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0586,WCD10-B08-W206,WCD-10-B08,WCD10-B08-W206,V1-ENT-0590,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0587,WCD10-B08-W207,WCD-10-B08,WCD10-B08-W207,V1-ENT-0591,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0588,WCD10-B08-W208,WCD-10-B08,WCD10-B08-W208,V1-ENT-0592,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0589,WCD10-B08-W209,WCD-10-B08,WCD10-B08-W209,V1-ENT-0593,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0590,WCD10-B08-W210,WCD-10-B08,WCD10-B08-W210,V1-ENT-0594,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0591,WCD10-B08-W211,WCD-10-B08,WCD10-B08-W211,V1-ENT-0595,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0592,WCD10-B08-W212,WCD-10-B08,WCD10-B08-W212,V1-ENT-0596,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0593,WCD10-B08-W213,WCD-10-B08,WCD10-B08-W213,V1-ENT-0597,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0594,WCD10-B08-W214,WCD-10-B08,WCD10-B08-W214,V1-ENT-0598,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0595,WCD10-B08-W215,WCD-10-B08,WCD10-B08-W215,V1-ENT-0599,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0596,WCD10-B08-W216,WCD-10-B08,WCD10-B08-W216,V1-ENT-0600,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0597,WCD10-B08-W217,WCD-10-B08,WCD10-B08-W217,V1-ENT-0601,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0598,WCD10-B09-W001,WCD-10-B09,WCD10-B09-W001,V1-ENT-0602,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0599,WCD10-B09-W002,WCD-10-B09,WCD10-B09-W002,V1-ENT-0603,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0600,WCD10-B09-W003,WCD-10-B09,WCD10-B09-W003,V1-ENT-0604,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0601,WCD10-B09-W101,WCD-10-B09,WCD10-B09-W101,V1-ENT-0605,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0602,WCD10-B09-W102,WCD-10-B09,WCD10-B09-W102,V1-ENT-0606,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0603,WCD10-B09-W103,WCD-10-B09,WCD10-B09-W103,V1-ENT-0607,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0604,WCD10-B09-W201,WCD-10-B09,WCD10-B09-W201,V1-ENT-0608,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0605,WCD10-B09-W202,WCD-10-B09,WCD10-B09-W202,V1-ENT-0609,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0606,WCD10-B10-W001,WCD-10-B10,WCD10-B10-W001,V1-ENT-0610,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0607,WCD10-B10-W002,WCD-10-B10,WCD10-B10-W002,V1-ENT-0611,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0608,WCD10-B10-W003,WCD-10-B10,WCD10-B10-W003,V1-ENT-0612,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0609,WCD10-B10-W101,WCD-10-B10,WCD10-B10-W101,V1-ENT-0613,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0610,WCD10-B10-W102,WCD-10-B10,WCD10-B10-W102,V1-ENT-0614,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0611,WCD10-B10-W103,WCD-10-B10,WCD10-B10-W103,V1-ENT-0615,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0612,WCD10-B10-W104,WCD-10-B10,WCD10-B10-W104,V1-ENT-0616,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0613,WCD10-B10-W201,WCD-10-B10,WCD10-B10-W201,V1-ENT-0617,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0614,WCD10-B10-W202,WCD-10-B10,WCD10-B10-W202,V1-ENT-0618,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0615,WCD10-B10-W203,WCD-10-B10,WCD10-B10-W203,V1-ENT-0619,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0616,WCD10-B10-W204,WCD-10-B10,WCD10-B10-W204,V1-ENT-0620,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0617,WCD10-B10-W205,WCD-10-B10,WCD10-B10-W205,V1-ENT-0621,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0618,WCD10-B11-W001,WCD-10-B11,WCD10-B11-W001,V1-ENT-0622,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0619,WCD10-B11-W002,WCD-10-B11,WCD10-B11-W002,V1-ENT-0623,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0620,WCD10-B11-W003,WCD-10-B11,WCD10-B11-W003,V1-ENT-0624,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0621,WCD10-B11-W004,WCD-10-B11,WCD10-B11-W004,V1-ENT-0625,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0622,WCD10-B11-W005,WCD-10-B11,WCD10-B11-W005,V1-ENT-0626,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0623,WCD10-B11-W006,WCD-10-B11,WCD10-B11-W006,V1-ENT-0627,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0624,WCD10-B11-W007,WCD-10-B11,WCD10-B11-W007,V1-ENT-0628,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0625,WCD10-B11-W101,WCD-10-B11,WCD10-B11-W101,V1-ENT-0629,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0626,WCD10-B11-W102,WCD-10-B11,WCD10-B11-W102,V1-ENT-0630,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0627,WCD10-B11-W103,WCD-10-B11,WCD10-B11-W103,V1-ENT-0631,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0628,WCD10-B11-W104,WCD-10-B11,WCD10-B11-W104,V1-ENT-0632,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0629,WCD10-B11-W105,WCD-10-B11,WCD10-B11-W105,V1-ENT-0633,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0630,WCD10-B11-W106,WCD-10-B11,WCD10-B11-W106,V1-ENT-0634,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0631,WCD10-B11-W201,WCD-10-B11,WCD10-B11-W201,V1-ENT-0635,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0632,WCD10-B11-W202,WCD-10-B11,WCD10-B11-W202,V1-ENT-0636,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0633,WCD10-B11-W203,WCD-10-B11,WCD10-B11-W203,V1-ENT-0637,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0634,WCD10-B11-W204,WCD-10-B11,WCD10-B11-W204,V1-ENT-0638,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0635,WCD10-B12-W001,WCD-10-B12,WCD10-B12-W001,V1-ENT-0639,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0636,WCD10-B12-W002,WCD-10-B12,WCD10-B12-W002,V1-ENT-0640,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0637,WCD10-B12-W003,WCD-10-B12,WCD10-B12-W003,V1-ENT-0641,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0638,WCD10-B12-W101,WCD-10-B12,WCD10-B12-W101,V1-ENT-0642,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0639,WCD10-B12-W102,WCD-10-B12,WCD10-B12-W102,V1-ENT-0643,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0640,WCD10-B12-W201,WCD-10-B12,WCD10-B12-W201,V1-ENT-0644,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0641,WCD10-B12-W202,WCD-10-B12,WCD10-B12-W202,V1-ENT-0645,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0642,WCD10-B12-W203,WCD-10-B12,WCD10-B12-W203,V1-ENT-0646,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0643,WCD10-B12-W204,WCD-10-B12,WCD10-B12-W204,V1-ENT-0647,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0644,WCD10-B12-W205,WCD-10-B12,WCD10-B12-W205,V1-ENT-0648,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0645,WCD10-B12-W206,WCD-10-B12,WCD10-B12-W206,V1-ENT-0649,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0646,WCD10-B12-W207,WCD-10-B12,WCD10-B12-W207,V1-ENT-0650,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0647,WCD10-B12-W208,WCD-10-B12,WCD10-B12-W208,V1-ENT-0651,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0648,WCD10-B12-W209,WCD-10-B12,WCD10-B12-W209,V1-ENT-0652,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0649,WCD10-B12-W210,WCD-10-B12,WCD10-B12-W210,V1-ENT-0653,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0650,WCD10-B12-W211,WCD-10-B12,WCD10-B12-W211,V1-ENT-0654,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0651,WCD10-B12-W212,WCD-10-B12,WCD10-B12-W212,V1-ENT-0655,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0652,WCD10-B12-W213,WCD-10-B12,WCD10-B12-W213,V1-ENT-0656,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0653,WCD10-B12-W214,WCD-10-B12,WCD10-B12-W214,V1-ENT-0657,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0654,WCD10-B12-W215,WCD-10-B12,WCD10-B12-W215,V1-ENT-0658,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0655,WCD10-B12-W216,WCD-10-B12,WCD10-B12-W216,V1-ENT-0659,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0656,WCD10-B12-W218,WCD-10-B12,WCD10-B12-W218,V1-ENT-0660,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0657,WCD10-B13-W001,WCD-10-B13,WCD10-B13-W001,V1-ENT-0661,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0658,WCD10-B13-W002,WCD-10-B13,WCD10-B13-W002,V1-ENT-0662,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0659,WCD10-B13-W003,WCD-10-B13,WCD10-B13-W003,V1-ENT-0663,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0660,WCD10-B13-W004,WCD-10-B13,WCD10-B13-W004,V1-ENT-0664,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0661,WCD10-B13-W005,WCD-10-B13,WCD10-B13-W005,V1-ENT-0665,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0662,WCD10-B13-W006,WCD-10-B13,WCD10-B13-W006,V1-ENT-0666,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0663,WCD10-B13-W007,WCD-10-B13,WCD10-B13-W007,V1-ENT-0667,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0664,WCD10-B13-W101,WCD-10-B13,WCD10-B13-W101,V1-ENT-0668,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0665,WCD10-B13-W102,WCD-10-B13,WCD10-B13-W102,V1-ENT-0669,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0666,WCD10-B13-W103,WCD-10-B13,WCD10-B13-W103,V1-ENT-0670,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0667,WCD10-B13-W104,WCD-10-B13,WCD10-B13-W104,V1-ENT-0671,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0668,WCD10-B13-W105,WCD-10-B13,WCD10-B13-W105,V1-ENT-0672,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0669,WCD10-B13-W201,WCD-10-B13,WCD10-B13-W201,V1-ENT-0673,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0670,WCD10-B13-W202,WCD-10-B13,WCD10-B13-W202,V1-ENT-0674,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0671,WCD10-B13-W203,WCD-10-B13,WCD10-B13-W203,V1-ENT-0675,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0672,WCD10-B13-W205,WCD-10-B13,WCD10-B13-W205,V1-ENT-0676,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0673,WCD10-B13-W206,WCD-10-B13,WCD10-B13-W206,V1-ENT-0677,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0674,WCD10-B13-W207,WCD-10-B13,WCD10-B13-W207,V1-ENT-0678,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0675,WCD10-B13-W208,WCD-10-B13,WCD10-B13-W208,V1-ENT-0679,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0676,WCD10-B13-W209,WCD-10-B13,WCD10-B13-W209,V1-ENT-0680,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0677,WCD10-B13-W210,WCD-10-B13,WCD10-B13-W210,V1-ENT-0681,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0678,WCD10-B13-W211,WCD-10-B13,WCD10-B13-W211,V1-ENT-0682,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0679,WCD10-B13-W212,WCD-10-B13,WCD10-B13-W212,V1-ENT-0683,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0680,WCD10-B13-W213,WCD-10-B13,WCD10-B13-W213,V1-ENT-0684,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0681,WCD10-B14-W001,WCD-10-B14,WCD10-B14-W001,V1-ENT-0685,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0682,WCD10-B14-W002,WCD-10-B14,WCD10-B14-W002,V1-ENT-0686,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0683,WCD10-B14-W003,WCD-10-B14,WCD10-B14-W003,V1-ENT-0687,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0684,WCD10-B14-W101,WCD-10-B14,WCD10-B14-W101,V1-ENT-0688,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0685,WCD10-B14-W102,WCD-10-B14,WCD10-B14-W102,V1-ENT-0689,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0686,WCD10-B14-W103,WCD-10-B14,WCD10-B14-W103,V1-ENT-0690,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0687,WCD10-B14-W104,WCD-10-B14,WCD10-B14-W104,V1-ENT-0691,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0688,WCD10-B14-W105,WCD-10-B14,WCD10-B14-W105,V1-ENT-0692,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0689,WCD10-B14-W201,WCD-10-B14,WCD10-B14-W201,V1-ENT-0693,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0690,WCD10-B14-W202,WCD-10-B14,WCD10-B14-W202,V1-ENT-0694,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0691,WCD10-B14-W203,WCD-10-B14,WCD10-B14-W203,V1-ENT-0695,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0692,WCD10-B14-W204,WCD-10-B14,WCD10-B14-W204,V1-ENT-0696,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0693,WCD10-B14-W205,WCD-10-B14,WCD10-B14-W205,V1-ENT-0697,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0694,WCD10-B14-W206,WCD-10-B14,WCD10-B14-W206,V1-ENT-0698,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0695,WCD10-B15-W001,WCD-10-B15,WCD10-B15-W001,V1-ENT-0699,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0696,WCD10-B15-W002,WCD-10-B15,WCD10-B15-W002,V1-ENT-0700,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0697,WCD10-B15-W003,WCD-10-B15,WCD10-B15-W003,V1-ENT-0701,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0698,WCD10-B15-W004,WCD-10-B15,WCD10-B15-W004,V1-ENT-0702,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0699,WCD10-B15-W005,WCD-10-B15,WCD10-B15-W005,V1-ENT-0703,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0700,WCD10-B15-W101,WCD-10-B15,WCD10-B15-W101,V1-ENT-0704,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0701,WCD10-B15-W102,WCD-10-B15,WCD10-B15-W102,V1-ENT-0705,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0702,WCD10-B15-W103,WCD-10-B15,WCD10-B15-W103,V1-ENT-0706,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0703,WCD10-B15-W201,WCD-10-B15,WCD10-B15-W201,V1-ENT-0707,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0704,WCD10-B15-W202,WCD-10-B15,WCD10-B15-W202,V1-ENT-0708,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0705,WCD10-B15-W203,WCD-10-B15,WCD10-B15-W203,V1-ENT-0709,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0706,WCD10-B15-W204,WCD-10-B15,WCD10-B15-W204,V1-ENT-0710,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0707,WCD10-B15-W205,WCD-10-B15,WCD10-B15-W205,V1-ENT-0711,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0708,WCD10-B15-W206,WCD-10-B15,WCD10-B15-W206,V1-ENT-0712,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0709,WCD10-B16-W001,WCD-10-B16,WCD10-B16-W001,V1-ENT-0713,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0710,WCD10-B16-W002,WCD-10-B16,WCD10-B16-W002,V1-ENT-0714,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0711,WCD10-B16-W003,WCD-10-B16,WCD10-B16-W003,V1-ENT-0715,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0712,WCD10-B16-W004,WCD-10-B16,WCD10-B16-W004,V1-ENT-0716,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0713,WCD10-B16-W005,WCD-10-B16,WCD10-B16-W005,V1-ENT-0717,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0714,WCD10-B16-W006,WCD-10-B16,WCD10-B16-W006,V1-ENT-0718,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0715,WCD10-B16-W101,WCD-10-B16,WCD10-B16-W101,V1-ENT-0719,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0716,WCD10-B16-W102,WCD-10-B16,WCD10-B16-W102,V1-ENT-0720,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0717,WCD10-B16-W103,WCD-10-B16,WCD10-B16-W103,V1-ENT-0721,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0718,WCD10-B16-W104,WCD-10-B16,WCD10-B16-W104,V1-ENT-0722,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0719,WCD10-B16-W105,WCD-10-B16,WCD10-B16-W105,V1-ENT-0723,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0720,WCD10-B16-W201,WCD-10-B16,WCD10-B16-W201,V1-ENT-0724,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0721,WCD10-B16-W202,WCD-10-B16,WCD10-B16-W202,V1-ENT-0725,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0722,WCD10-B16-W203,WCD-10-B16,WCD10-B16-W203,V1-ENT-0726,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0723,WCD10-B16-W204,WCD-10-B16,WCD10-B16-W204,V1-ENT-0727,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0724,WCD10-B16-W205,WCD-10-B16,WCD10-B16-W205,V1-ENT-0728,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0725,WCD10-B16-W206,WCD-10-B16,WCD10-B16-W206,V1-ENT-0729,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0726,WCD10-B17-W001,WCD-10-B17,WCD10-B17-W001,V1-ENT-0730,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0727,WCD10-B17-W002,WCD-10-B17,WCD10-B17-W002,V1-ENT-0731,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0728,WCD10-B17-W003,WCD-10-B17,WCD10-B17-W003,V1-ENT-0732,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0729,WCD10-B17-W004,WCD-10-B17,WCD10-B17-W004,V1-ENT-0733,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0730,WCD10-B17-W005,WCD-10-B17,WCD10-B17-W005,V1-ENT-0734,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0731,WCD10-B17-W101,WCD-10-B17,WCD10-B17-W101,V1-ENT-0735,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0732,WCD10-B17-W102,WCD-10-B17,WCD10-B17-W102,V1-ENT-0736,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0733,WCD10-B17-W103,WCD-10-B17,WCD10-B17-W103,V1-ENT-0737,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0734,WCD10-B17-W104,WCD-10-B17,WCD10-B17-W104,V1-ENT-0738,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0735,WCD10-B17-W105,WCD-10-B17,WCD10-B17-W105,V1-ENT-0739,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0736,WCD10-B17-W106,WCD-10-B17,WCD10-B17-W106,V1-ENT-0740,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0737,WCD10-B17-W107,WCD-10-B17,WCD10-B17-W107,V1-ENT-0741,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0738,WCD10-B17-W108,WCD-10-B17,WCD10-B17-W108,V1-ENT-0742,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0739,WCD10-B17-W201,WCD-10-B17,WCD10-B17-W201,V1-ENT-0743,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0740,WCD10-B17-W202,WCD-10-B17,WCD10-B17-W202,V1-ENT-0744,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0741,WCD10-B17-W203,WCD-10-B17,WCD10-B17-W203,V1-ENT-0745,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0742,WCD10-B18-W001,WCD-10-B18,WCD10-B18-W001,V1-ENT-0746,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0743,WCD10-B18-W002,WCD-10-B18,WCD10-B18-W002,V1-ENT-0747,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0744,WCD10-B18-W003,WCD-10-B18,WCD10-B18-W003,V1-ENT-0748,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0745,WCD10-B18-W101,WCD-10-B18,WCD10-B18-W101,V1-ENT-0749,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0746,WCD10-B18-W102,WCD-10-B18,WCD10-B18-W102,V1-ENT-0750,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0747,WCD10-B18-W103,WCD-10-B18,WCD10-B18-W103,V1-ENT-0751,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0748,WCD10-B18-W104,WCD-10-B18,WCD10-B18-W104,V1-ENT-0752,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0749,WCD10-B18-W105,WCD-10-B18,WCD10-B18-W105,V1-ENT-0753,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0750,WCD10-B18-W201,WCD-10-B18,WCD10-B18-W201,V1-ENT-0754,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0751,WCD10-B18-W202,WCD-10-B18,WCD10-B18-W202,V1-ENT-0755,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0752,WCD10-B18-W203,WCD-10-B18,WCD10-B18-W203,V1-ENT-0756,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0753,WCD10-B18-W204,WCD-10-B18,WCD10-B18-W204,V1-ENT-0757,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0754,WCD10-B18-W205,WCD-10-B18,WCD10-B18-W205,V1-ENT-0758,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0755,WCD10-B18-W206,WCD-10-B18,WCD10-B18-W206,V1-ENT-0759,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0756,WCD10-B18-W207,WCD-10-B18,WCD10-B18-W207,V1-ENT-0760,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0757,WCD10-B18-W208,WCD-10-B18,WCD10-B18-W208,V1-ENT-0761,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0758,WCD10-B18-W209,WCD-10-B18,WCD10-B18-W209,V1-ENT-0762,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0759,WCD10-B18-W210,WCD-10-B18,WCD10-B18-W210,V1-ENT-0763,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0760,WCD10-B18-W211,WCD-10-B18,WCD10-B18-W211,V1-ENT-0764,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0761,WCD10-B18-W212,WCD-10-B18,WCD10-B18-W212,V1-ENT-0765,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0762,WCD10-B18-W213,WCD-10-B18,WCD10-B18-W213,V1-ENT-0766,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0763,WCD10-B19-W001,WCD-10-B19,WCD10-B19-W001,V1-ENT-0767,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0764,WCD10-B19-W002,WCD-10-B19,WCD10-B19-W002,V1-ENT-0768,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0765,WCD10-B19-W003,WCD-10-B19,WCD10-B19-W003,V1-ENT-0769,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0766,WCD10-B19-W004,WCD-10-B19,WCD10-B19-W004,V1-ENT-0770,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0767,WCD10-B19-W005,WCD-10-B19,WCD10-B19-W005,V1-ENT-0771,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0768,WCD10-B19-W101,WCD-10-B19,WCD10-B19-W101,V1-ENT-0772,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0769,WCD10-B19-W102,WCD-10-B19,WCD10-B19-W102,V1-ENT-0773,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0770,WCD10-B19-W103,WCD-10-B19,WCD10-B19-W103,V1-ENT-0774,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0771,WCD10-B19-W104,WCD-10-B19,WCD10-B19-W104,V1-ENT-0775,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0772,WCD10-B19-W201,WCD-10-B19,WCD10-B19-W201,V1-ENT-0776,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0773,WCD10-B19-W202,WCD-10-B19,WCD10-B19-W202,V1-ENT-0777,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0774,WCD10-B19-W203,WCD-10-B19,WCD10-B19-W203,V1-ENT-0778,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0775,WCD10-B19-W204,WCD-10-B19,WCD10-B19-W204,V1-ENT-0779,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0776,WCD10-B20-W001,WCD-10-B20,WCD10-B20-W001,V1-ENT-0780,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0777,WCD10-B20-W002,WCD-10-B20,WCD10-B20-W002,V1-ENT-0781,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0778,WCD10-B20-W101,WCD-10-B20,WCD10-B20-W101,V1-ENT-0782,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0779,WCD10-B20-W102,WCD-10-B20,WCD10-B20-W102,V1-ENT-0783,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0780,WCD10-B20-W103,WCD-10-B20,WCD10-B20-W103,V1-ENT-0784,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0781,WCD10-B20-W104,WCD-10-B20,WCD10-B20-W104,V1-ENT-0785,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0782,WCD10-B20-W105,WCD-10-B20,WCD10-B20-W105,V1-ENT-0786,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0783,WCD10-B20-W106,WCD-10-B20,WCD10-B20-W106,V1-ENT-0787,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0784,WCD10-B20-W201,WCD-10-B20,WCD10-B20-W201,V1-ENT-0788,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"
+V1-EMAP-0785,WCD10-B20-W202,WCD-10-B20,WCD10-B20-W202,V1-ENT-0789,retain_as_formal_candidate,"Independent candidate review PASS; Research-only, no Curation admission"

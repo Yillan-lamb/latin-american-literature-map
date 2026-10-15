@@ -1,0 +1,1796 @@
+{
+  "schema": "wcd10-candidate-change-set-1",
+  "baseline_commit": "05f3372c69a54ec331d31b05d16c8288d6d3a993",
+  "accessed_at": "2026-10-13",
+  "public_boundary": "Research candidates only; no automatic Curation or public admission.",
+  "task_id": "TASK-118",
+  "batch_id": "WCD-10-B13",
+  "baseline_database_sha256": "74a900c2988eec78a700467bc70c5e523a774cd4fa615cfc5edfdd16991ff8f7",
+  "status": "merged_candidate_parent_review_pending",
+  "author_ids": [
+    "V1-ENT-0262",
+    "V1-ENT-0272",
+    "V1-ENT-0273"
+  ],
+  "author_auxiliary_fields": [
+    {
+      "author_id": "V1-ENT-0272",
+      "fields": {
+        "auxiliary_source_dispositions": [
+          {
+            "decision": "reuse",
+            "candidate_source_id": "WCD10-B13-S101",
+            "url": "https://uruguayeduca.anep.edu.uy/efemerides/nace-eduardo-galeano",
+            "candidate_ids": [
+              "WCD10-B13-W101",
+              "WCD10-B13-W101-F01",
+              "WCD10-B13-W101-F02",
+              "WCD10-B13-W101-F03",
+              "WCD10-B13-W101-F04",
+              "WCD10-B13-W102",
+              "WCD10-B13-W102-F01",
+              "WCD10-B13-W102-F04",
+              "WCD10-B13-W103",
+              "WCD10-B13-W103-F01",
+              "WCD10-B13-W103-F04",
+              "WCD10-B13-W104",
+              "WCD10-B13-W104-F01",
+              "WCD10-B13-W104-F04",
+              "WCD10-B13-W105",
+              "WCD10-B13-W105-F01",
+              "WCD10-B13-W105-F04"
+            ],
+            "boundary": "已实际打开并定位到直接支持的出版物、年表或图书馆记录；复用项保持基线来源对象和等级不变。"
+          },
+          {
+            "decision": "fresh_registration",
+            "candidate_source_id": "WCD10-B13-S103",
+            "url": "https://www.sigloxxieditores.com/libro/memoria-del-fuego-2-las-caras-y-las-mascaras_53908/",
+            "candidate_ids": [
+              "WCD10-B13-W103",
+              "WCD10-B13-W103-F02",
+              "WCD10-B13-W103-F03",
+              "WCD10-B13-W103-F04"
+            ],
+            "boundary": "已实际打开并定位到直接支持的出版物、年表或图书馆记录；复用项保持基线来源对象和等级不变。"
+          },
+          {
+            "decision": "fresh_registration",
+            "candidate_source_id": "WCD10-B13-S104",
+            "url": "https://www.sigloxxieditores.com/libro/memoria-del-fuego-3-el-siglo-del-viento_53910/",
+            "candidate_ids": [
+              "WCD10-B13-W104",
+              "WCD10-B13-W104-F02",
+              "WCD10-B13-W104-F03",
+              "WCD10-B13-W104-F04"
+            ],
+            "boundary": "已实际打开并定位到直接支持的出版物、年表或图书馆记录；复用项保持基线来源对象和等级不变。"
+          },
+          {
+            "decision": "fresh_registration",
+            "candidate_source_id": "WCD10-B13-S105",
+            "url": "https://www.sigloxxieditores.com/libro/el-libro-de-los-abrazos_53558/",
+            "candidate_ids": [
+              "WCD10-B13-F102",
+              "WCD10-B13-F103"
+            ],
+            "boundary": "已实际打开并定位到直接支持的出版物、年表或图书馆记录；复用项保持基线来源对象和等级不变。"
+          },
+          {
+            "decision": "fresh_registration",
+            "candidate_source_id": "WCD10-B13-S106",
+            "url": "https://www.sigloxxieditores.com/libro/el-futbol-a-sol-y-sombra_53031/",
+            "candidate_ids": [
+              "WCD10-B13-W102",
+              "WCD10-B13-W102-F02",
+              "WCD10-B13-W102-F03",
+              "WCD10-B13-W102-F04"
+            ],
+            "boundary": "已实际打开并定位到直接支持的出版物、年表或图书馆记录；复用项保持基线来源对象和等级不变。"
+          },
+          {
+            "decision": "fresh_registration",
+            "candidate_source_id": "WCD10-B13-S107",
+            "url": "https://www.sigloxxieditores.com/libro/las-venas-abiertas-de-america-latina_52766/",
+            "candidate_ids": [
+              "WCD10-B13-F104"
+            ],
+            "boundary": "已实际打开并定位到直接支持的出版物、年表或图书馆记录；复用项保持基线来源对象和等级不变。"
+          },
+          {
+            "decision": "fresh_registration",
+            "candidate_source_id": "WCD10-B13-S108",
+            "url": "https://www.sigloxxieditores.com/libro/memoria-del-fuego-1-los-nacimientos_53906/",
+            "candidate_ids": [
+              "WCD10-B13-F101"
+            ],
+            "boundary": "已实际打开并定位到直接支持的出版物、年表或图书馆记录；复用项保持基线来源对象和等级不变。"
+          },
+          {
+            "decision": "fresh_registration",
+            "candidate_source_id": "WCD10-B13-S109",
+            "url": "https://www.sigloxxieditores.com/libro/espejos_16488/",
+            "candidate_ids": [
+              "WCD10-B13-W105",
+              "WCD10-B13-W105-F02",
+              "WCD10-B13-W105-F03",
+              "WCD10-B13-W105-F04"
+            ],
+            "boundary": "已实际打开并定位到直接支持的出版物、年表或图书馆记录；复用项保持基线来源对象和等级不变。"
+          }
+        ]
+      }
+    },
+    {
+      "author_id": "V1-ENT-0273",
+      "fields": {
+        "auxiliary_source_dispositions": [
+          {
+            "candidate_source_id": "WCD10-B13-S202",
+            "candidate_ids": [
+              "WCD10-B13-S202"
+            ],
+            "decision": "fresh_registration",
+            "url": "https://www.anagrama-ed.es/autor/piglia-ricardo-856",
+            "boundary": "直接支持Piglia作品类别与Anagrama书目归属，不以出版社个人页推定版本年份。"
+          },
+          {
+            "candidate_source_id": "WCD10-B13-S203",
+            "candidate_ids": [
+              "WCD10-B13-S203"
+            ],
+            "decision": "fresh_registration",
+            "url": "https://www.anagrama-ed.es/libro/narrativas-hispanicas/la-ciudad-ausente/9788433968418/NH_340",
+            "boundary": "支持Anagrama版本及其简介；与作者档案的1992书目年份并列记录。"
+          },
+          {
+            "candidate_source_id": "WCD10-B13-S204",
+            "candidate_ids": [
+              "WCD10-B13-S204"
+            ],
+            "decision": "fresh_registration",
+            "url": "https://www.anagrama-ed.es/libro/narrativas-hispanicas/el-camino-de-ida/9788433997647/NH_517",
+            "boundary": "支持作品围绕Emilio Renzi、Ida Brown、校园连环袭击调查的有界简介及Anagrama版本年份。"
+          },
+          {
+            "candidate_source_id": "WCD10-B13-S205",
+            "candidate_ids": [
+              "WCD10-B13-S205"
+            ],
+            "decision": "fresh_registration",
+            "url": "https://www.anagrama-ed.es/libro/narrativas-hispanicas/los-casos-del-comisario-croce/9788433998606/NH_611",
+            "boundary": "直接支持体裁、侦探故事简介、2018 Anagrama版本。"
+          }
+        ]
+      }
+    }
+  ],
+  "sources": [
+    {
+      "candidate_id": "WCD10-B13-S001",
+      "url": "https://www.memoriachilena.gob.cl/602/w3-article-3688.html",
+      "title": "Roberto Bolaño (1953-2003) — Memoria Chilena",
+      "author_or_editor": "Biblioteca Nacional de Chile",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "第105-111行：作品出版时间、合作创作及身后出版；实读2026-10-13。",
+      "usage": "支持作者归属、作品首发年份与《El gaucho insufrible》身后出版；复用基线SRC-0211，不改旧元数据。",
+      "disposition": "reuse_existing_source",
+      "reuse_existing_source": "SRC-0211"
+    },
+    {
+      "candidate_id": "WCD10-B13-S002",
+      "url": "https://www.anagrama-ed.es/autor/bolano-roberto-134",
+      "title": "Roberto Bolaño — Editorial Anagrama",
+      "author_or_editor": "Editorial Anagrama",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "第61-66行列作家身份、小说/故事分类、2666身后出版及其他身后作品；实读2026-10-13。",
+      "usage": "支持出版目录中的作品归属及作品类型；不把出版方评论扩写为学术结论。",
+      "disposition": "fresh_registration"
+    },
+    {
+      "candidate_id": "WCD10-B13-S003",
+      "url": "https://www.anagrama-ed.es/libro/narrativas-hispanicas/los-detectives-salvajes/9788433910868/NH_256",
+      "title": "Los detectives salvajes — Editorial Anagrama",
+      "author_or_editor": "Editorial Anagrama",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "第78-80、115-118、153-155行：小说情节/跨国场景及该版书目；实读2026-10-13。",
+      "usage": "支持《荒野侦探》有边界简介、小说体裁与出版方版本书目信息。",
+      "disposition": "fresh_registration"
+    },
+    {
+      "candidate_id": "WCD10-B13-S004",
+      "url": "https://www.anagrama-ed.es/libro/compactos/2666/9788433973184/CM_462",
+      "title": "2666 — Editorial Anagrama",
+      "author_or_editor": "Editorial Anagrama",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "第145-148行：作品简介；实读2026-10-13。",
+      "usage": "支持《2666》有边界简介与小说体裁；本版2008不作为首版年份。",
+      "disposition": "fresh_registration"
+    },
+    {
+      "candidate_id": "WCD10-B13-S005",
+      "url": "https://www.anagrama-ed.es/libro/compactos/estrella-distante/9788433966735/CM_242",
+      "title": "Estrella distante — Editorial Anagrama",
+      "author_or_editor": "Editorial Anagrama",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "第75-79、142-146行：出版方简介；实读2026-10-13。",
+      "usage": "支持《遥远的星辰》有边界简介和小说体裁。",
+      "disposition": "fresh_registration"
+    },
+    {
+      "candidate_id": "WCD10-B13-S006",
+      "url": "https://www.anagrama-ed.es/libro/narrativas-hispanicas/la-literatura-nazi-en-america/9788433972194/NH_480",
+      "title": "La literatura nazi en América — Editorial Anagrama",
+      "author_or_editor": "Editorial Anagrama",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "第73-78、150-157行：作品体裁、结构描述及1996出版陈述；实读2026-10-13。",
+      "usage": "支持作品体裁、首发年份和出版方说明的作品简介。",
+      "disposition": "fresh_registration"
+    },
+    {
+      "candidate_id": "WCD10-B13-S007",
+      "url": "https://www.anagrama-ed.es/libro/compactos/amuleto/9788433973559/CM_499",
+      "title": "Amuleto — Editorial Anagrama",
+      "author_or_editor": "Editorial Anagrama",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "第75-78、141-144行：作品简介；实读2026-10-13。",
+      "usage": "支持作品简介和小说体裁；首发1999由Memoria作者页支持。",
+      "disposition": "fresh_registration"
+    },
+    {
+      "candidate_id": "WCD10-B13-S008",
+      "url": "https://www.anagrama-ed.es/libro/compactos/nocturno-de-chile/9788433977489/CM_645",
+      "title": "Nocturno de Chile — Editorial Anagrama",
+      "author_or_editor": "Editorial Anagrama",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "第75-78行：出版方作品简介；实读2026-10-13。",
+      "usage": "支持作品简介和小说体裁；首发2000由Memoria作者页支持。",
+      "disposition": "fresh_registration"
+    },
+    {
+      "candidate_id": "WCD10-B13-S009",
+      "url": "https://www.anagrama-ed.es/libro/compactos/el-gaucho-insufrible/9788433973252/CM_469",
+      "title": "El gaucho insufrible — Editorial Anagrama",
+      "author_or_editor": "Editorial Anagrama",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "第75-79、142-144行：五篇小说与两篇演讲的目录性说明；实读2026-10-13。",
+      "usage": "支持故事集体裁及不复述原文的内容概述；2003由Memoria作者页支持。",
+      "disposition": "fresh_registration"
+    },
+    {
+      "candidate_id": "WCD10-B13-S010",
+      "url": "https://www.anagrama-ed.es/libro/compactos/la-pista-de-hielo/9788433977038/CM_601",
+      "title": "La pista de hielo — Editorial Anagrama",
+      "author_or_editor": "Editorial Anagrama",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "第75-78、141-144行：三种叙述版本和谋杀线索；实读2026-10-13。",
+      "usage": "支持小说简介和体裁；首发1993由Memoria作者页支持。",
+      "disposition": "fresh_registration"
+    },
+    {
+      "candidate_id": "WCD10-B13-S011",
+      "url": "https://www.anagrama-ed.es/libro/narrativas-hispanicas/llamadas-telefonicas/9788433910660/NH_236",
+      "title": "Llamadas telefónicas — Editorial Anagrama",
+      "author_or_editor": "Editorial Anagrama",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "第77-83、87-112、147-153行：短篇集简介及本版1997-09-01出版信息；实读2026-10-13。",
+      "usage": "支持短篇集体裁、1997年此版书目信息及限缩作品简介。",
+      "disposition": "fresh_registration"
+    },
+    {
+      "candidate_id": "WCD10-B13-S012",
+      "url": "https://www.anagrama-ed.es/libro/narrativas-hispanicas/putas-asesinas/9788433924858/NH_314",
+      "title": "Putas asesinas — Editorial Anagrama",
+      "author_or_editor": "Editorial Anagrama",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "第75-81、85-109、145-151行：短篇集简介及本版2001-09-01出版信息；实读2026-10-13。",
+      "usage": "支持短篇集体裁、2001年此版书目信息及限缩作品简介。",
+      "disposition": "fresh_registration"
+    },
+    {
+      "candidate_id": "WCD10-B13-S101",
+      "url": "https://uruguayeduca.anep.edu.uy/efemerides/nace-eduardo-galeano",
+      "title": "Nace Eduardo Galeano — Uruguay Educa",
+      "author_or_editor": "Uruguay Educa / Administración Nacional de Educación Pública",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "实读2026-10-13。第17行：Los días siguientes为Galeano于1963年出版的第一部小说；第61行：El fútbol a sol y sombra列于1995年。",
+      "usage": "支持作品题名、第一部小说身份与1963年，以及El fútbol a sol y sombra题名和1995年；无情节文本不扩展情节简介。",
+      "disposition": "reuse",
+      "reuse_existing_source": "SRC-0214"
+    },
+    {
+      "candidate_id": "WCD10-B13-S103",
+      "url": "https://www.sigloxxieditores.com/libro/memoria-del-fuego-2-las-caras-y-las-mascaras_53908/",
+      "title": "Memoria del fuego. 2. Las caras y las máscaras — Siglo XXI Editores",
+      "author_or_editor": "Siglo XXI Editores",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "实读2026-10-13。第27-31行：作者、第二卷身份；以有据小故事讲述拉美18—19世纪独立战争、革命及国家形成过程。第38-45行当前版书目信息。",
+      "usage": "直接出版者作品页面支持作品归属、体裁/主题和受限描述；当前再版信息仅作为版本注记，不替代初版年份。"
+    },
+    {
+      "candidate_id": "WCD10-B13-S104",
+      "url": "https://www.sigloxxieditores.com/libro/memoria-del-fuego-3-el-siglo-del-viento_53910/",
+      "title": "Memoria del fuego. 3. El siglo del viento — Siglo XXI Editores",
+      "author_or_editor": "Siglo XXI Editores",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "实读2026-10-13。第27-30行：作者、第三卷身份；以日常小故事叙述美洲20世纪动荡，并呈现历史从博物馆走回现实的写作意图。第37-44行当前版书目信息。",
+      "usage": "直接出版者作品页面支持作品归属、体裁/主题和受限描述；当前再版信息仅作为版本注记，不替代初版年份。"
+    },
+    {
+      "candidate_id": "WCD10-B13-S105",
+      "url": "https://www.sigloxxieditores.com/libro/el-libro-de-los-abrazos_53558/",
+      "title": "El libro de los abrazos — Siglo XXI Editores",
+      "author_or_editor": "Siglo XXI Editores",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "实读2026-10-13。第27-30行：作者；由庆典、逸事、编年、梦、记忆等构成的短篇直接叙事，结合作者版画和绘图。第35-46行题材分类和当前版信息。",
+      "usage": "直接出版者作品页面支持作品归属、体裁/主题和受限描述；当前再版信息仅作为版本注记，不替代初版年份。"
+    },
+    {
+      "candidate_id": "WCD10-B13-S106",
+      "url": "https://www.sigloxxieditores.com/libro/el-futbol-a-sol-y-sombra_53031/",
+      "title": "El fútbol a sol y sombra — Siglo XXI Editores",
+      "author_or_editor": "Siglo XXI Editores",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "实读2026-10-13。第27-34行：作者；作品向足球致意，也批评足球商业权力结构，批判职业体育技术官僚化压制快乐、想象和冒险；当前版含2014世界杯相关文字。第37-48行当前版信息。",
+      "usage": "直接出版者作品页面支持作品归属、体裁/主题和受限描述；当前再版信息仅作为版本注记，不替代初版年份。"
+    },
+    {
+      "candidate_id": "WCD10-B13-S107",
+      "url": "https://www.sigloxxieditores.com/libro/las-venas-abiertas-de-america-latina_52766/",
+      "title": "Las venas abiertas de América Latina — Siglo XXI Editores",
+      "author_or_editor": "Siglo XXI Editores",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "实读2026-10-13。第27-35行：作者说明写作意图是传播被官方历史遮蔽或歪曲的事实，并以面向读者的方式讨论政治经济问题。当前为50周年纪念版，第42-50行书目信息。",
+      "usage": "直接出版者作品页面支持作品归属、体裁/主题和受限描述；当前再版信息仅作为版本注记，不替代初版年份。"
+    },
+    {
+      "candidate_id": "WCD10-B13-S108",
+      "url": "https://www.sigloxxieditores.com/libro/memoria-del-fuego-1-los-nacimientos_53906/",
+      "title": "Memoria del fuego. 1. Los nacimientos — Siglo XXI Editores",
+      "author_or_editor": "Siglo XXI Editores",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "实读2026-10-13。第27-30行：作者、三部曲第一卷身份；写到美洲征服前至1700年历史，以及原住民遭受的压迫。第35-46行主题分类和当前版信息。",
+      "usage": "直接出版者作品页面支持作品归属、体裁/主题和受限描述；当前再版信息仅作为版本注记，不替代初版年份。"
+    },
+    {
+      "candidate_id": "WCD10-B13-S109",
+      "url": "https://www.sigloxxieditores.com/libro/espejos_16488/",
+      "title": "Espejos. Una historia casi universal — Siglo XXI Editores",
+      "author_or_editor": "Siglo XXI Editores",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "实读2026-10-13。第27-38行：作者；叙述将过去与现在连接，关注被忽略的普通人、女性、南方和东方等群体；馆方分类含历史/叙事。第43-50行当前版2008出版信息。",
+      "usage": "直接出版者作品页面支持作品归属、体裁/主题和受限描述；当前再版信息仅作为版本注记，不替代初版年份。"
+    },
+    {
+      "candidate_id": "WCD10-B13-S201",
+      "url": "https://piglia.pubpub.org/bio",
+      "title": "OBRA · Ricardo Piglia",
+      "author_or_editor": "Ricardo Piglia / OBRA digital archive",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "页面第15-18行列作者身份、代表小说与文集；第20-110行按体裁列作品目录及出版者/年份。实读2026-10-13。",
+      "usage": "作者作品目录直接列出作品题名、体裁及部分版本年份；仅用于书目事实、有限体裁说明，不复制长篇内容。",
+      "disposition": "fresh_registration",
+      "candidate_ids": [
+        "WCD10-B13-F201",
+        "WCD10-B13-F203",
+        "WCD10-B13-F204",
+        "WCD10-B13-F205",
+        "WCD10-B13-F207",
+        "WCD10-B13-F208",
+        "WCD10-B13-F211",
+        "WCD10-B13-F212",
+        "WCD10-B13-F217",
+        "WCD10-B13-F218",
+        "WCD10-B13-F219",
+        "WCD10-B13-F220",
+        "WCD10-B13-F221",
+        "WCD10-B13-F222",
+        "WCD10-B13-F223",
+        "WCD10-B13-F224",
+        "WCD10-B13-F225",
+        "WCD10-B13-F226",
+        "WCD10-B13-F227",
+        "WCD10-B13-F228",
+        "WCD10-B13-F229",
+        "WCD10-B13-F230",
+        "WCD10-B13-F231",
+        "WCD10-B13-F232",
+        "WCD10-B13-F233",
+        "WCD10-B13-F234",
+        "WCD10-B13-F236",
+        "WCD10-B13-F237",
+        "WCD10-B13-F238",
+        "WCD10-B13-F239",
+        "WCD10-B13-F240",
+        "WCD10-B13-F241",
+        "WCD10-B13-F242",
+        "WCD10-B13-F243",
+        "WCD10-B13-F244",
+        "WCD10-B13-F245",
+        "WCD10-B13-F246",
+        "WCD10-B13-F247",
+        "WCD10-B13-F248",
+        "WCD10-B13-F249",
+        "WCD10-B13-F250",
+        "WCD10-B13-F251",
+        "WCD10-B13-F252",
+        "WCD10-B13-F253",
+        "WCD10-B13-F254",
+        "WCD10-B13-F255",
+        "WCD10-B13-F256",
+        "WCD10-B13-F257",
+        "WCD10-B13-F258"
+      ],
+      "publisher": ""
+    },
+    {
+      "candidate_id": "WCD10-B13-S202",
+      "url": "https://www.anagrama-ed.es/autor/piglia-ricardo-856",
+      "title": "Ricardo Piglia — Editorial Anagrama",
+      "author_or_editor": "Editorial Anagrama",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "第61-64行直接区分五部小说、四部cuento集和评论/自传书目；第74-113行列该社书目。 实读2026-10-13。",
+      "usage": "直接支持Piglia作品类别与Anagrama书目归属，不以出版社个人页推定版本年份。",
+      "disposition": "fresh_registration",
+      "candidate_ids": [
+        "WCD10-B13-F209"
+      ],
+      "publisher": "Editorial Anagrama"
+    },
+    {
+      "candidate_id": "WCD10-B13-S203",
+      "url": "https://www.anagrama-ed.es/libro/narrativas-hispanicas/la-ciudad-ausente/9788433968418/NH_340",
+      "title": "La ciudad ausente — Editorial Anagrama",
+      "author_or_editor": "Editorial Anagrama",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "第75-78行提供作品简介并称其为小说；第104-106行显示Anagrama该版本出版日2003-03-01。 实读2026-10-13。",
+      "usage": "支持Anagrama版本及其简介；与作者档案的1992书目年份并列记录。",
+      "disposition": "fresh_registration",
+      "candidate_ids": [
+        "WCD10-B13-F202",
+        "WCD10-B13-F204"
+      ],
+      "publisher": "Editorial Anagrama"
+    },
+    {
+      "candidate_id": "WCD10-B13-S204",
+      "url": "https://www.anagrama-ed.es/libro/narrativas-hispanicas/el-camino-de-ida/9788433997647/NH_517",
+      "title": "El camino de Ida — Editorial Anagrama",
+      "author_or_editor": "Editorial Anagrama",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "第75-80行提供作品简介并称其为小说；第105-107行显示出版日2013-09-04。 实读2026-10-13。",
+      "usage": "支持作品围绕Emilio Renzi、Ida Brown、校园连环袭击调查的有界简介及Anagrama版本年份。",
+      "disposition": "fresh_registration",
+      "candidate_ids": [
+        "WCD10-B13-F206",
+        "WCD10-B13-F208"
+      ],
+      "publisher": "Editorial Anagrama"
+    },
+    {
+      "candidate_id": "WCD10-B13-S205",
+      "url": "https://www.anagrama-ed.es/libro/narrativas-hispanicas/los-casos-del-comisario-croce/9788433998606/NH_611",
+      "title": "Los casos del comisario Croce — Editorial Anagrama",
+      "author_or_editor": "Editorial Anagrama",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "第62-65行称为cuentos policiacos；第77-80行介绍Croce处理的疑案及侦探文学致意；第129-131行显示出版日2018-09-12。 实读2026-10-13。",
+      "usage": "直接支持体裁、侦探故事简介、2018 Anagrama版本。",
+      "disposition": "fresh_registration",
+      "candidate_ids": [
+        "WCD10-B13-F209",
+        "WCD10-B13-F210",
+        "WCD10-B13-F212"
+      ],
+      "publisher": "Editorial Anagrama"
+    }
+  ],
+  "new_entities": [
+    {
+      "candidate_id": "WCD10-B13-W001",
+      "author_id": "V1-ENT-0262",
+      "entity_type": "work",
+      "original_name": "La literatura nazi en América",
+      "name_policy": "沿用西文出版题名；中文名为工作译名，不声称正式译名。",
+      "rationale": "出版机构作品目录/作品页直接列示；与该作者三项冻结旧作品不同，基线精确查重后新增。",
+      "created_source_refs": [
+        "WCD10-B13-S006"
+      ],
+      "created_description_zh": "罗贝托·波拉尼奥创作《La literatura nazi en América》。",
+      "facts": [
+        {
+          "candidate_id": "WCD10-B13-F007",
+          "field": "genre_or_form",
+          "value": "仿文学辞典形式的虚构作品集",
+          "source_refs": [
+            "WCD10-B13-S006"
+          ],
+          "fact_candidate_id": "WCD10-B13-F007"
+        },
+        {
+          "candidate_id": "WCD10-B13-F008",
+          "field": "first_publication_year",
+          "value": "1996",
+          "source_refs": [
+            "WCD10-B13-S006"
+          ],
+          "fact_candidate_id": "WCD10-B13-F008"
+        },
+        {
+          "candidate_id": "WCD10-B13-F009",
+          "field": "one_sentence_summary",
+          "value": "出版方称本书仿照文学辞典，以虚构作家的生平与作品条目构成一部“伪装成手册的虚构作品”，并戏仿伊比利亚美洲文学史。",
+          "source_refs": [
+            "WCD10-B13-S006"
+          ],
+          "fact_candidate_id": "WCD10-B13-F009"
+        }
+      ],
+      "name_zh_candidate": "《美洲纳粹文学》"
+    },
+    {
+      "candidate_id": "WCD10-B13-W002",
+      "author_id": "V1-ENT-0262",
+      "entity_type": "work",
+      "original_name": "Amuleto",
+      "name_policy": "沿用西文出版题名；中文名为工作译名，不声称正式译名。",
+      "rationale": "出版机构作品目录/作品页直接列示；与该作者三项冻结旧作品不同，基线精确查重后新增。",
+      "created_source_refs": [
+        "WCD10-B13-S001",
+        "WCD10-B13-S007"
+      ],
+      "created_description_zh": "罗贝托·波拉尼奥创作《Amuleto》。",
+      "facts": [
+        {
+          "candidate_id": "WCD10-B13-F010",
+          "field": "genre_or_form",
+          "value": "小说",
+          "source_refs": [
+            "WCD10-B13-S007"
+          ],
+          "fact_candidate_id": "WCD10-B13-F010"
+        },
+        {
+          "candidate_id": "WCD10-B13-F011",
+          "field": "first_publication_year",
+          "value": "1999",
+          "source_refs": [
+            "WCD10-B13-S001"
+          ],
+          "fact_candidate_id": "WCD10-B13-F011"
+        },
+        {
+          "candidate_id": "WCD10-B13-F012",
+          "field": "one_sentence_summary",
+          "value": "出版方简介由乌拉圭人Auxilio Lacouture的声音展开：她在1968年墨西哥大学遭警方占领时躲入女厕，并回望在墨西哥的生活。",
+          "source_refs": [
+            "WCD10-B13-S007"
+          ],
+          "fact_candidate_id": "WCD10-B13-F012"
+        }
+      ],
+      "name_zh_candidate": "《护身符》"
+    },
+    {
+      "candidate_id": "WCD10-B13-W003",
+      "author_id": "V1-ENT-0262",
+      "entity_type": "work",
+      "original_name": "Nocturno de Chile",
+      "name_policy": "沿用西文出版题名；中文名为工作译名，不声称正式译名。",
+      "rationale": "出版机构作品目录/作品页直接列示；与该作者三项冻结旧作品不同，基线精确查重后新增。",
+      "created_source_refs": [
+        "WCD10-B13-S001",
+        "WCD10-B13-S008"
+      ],
+      "created_description_zh": "罗贝托·波拉尼奥创作《Nocturno de Chile》。",
+      "facts": [
+        {
+          "candidate_id": "WCD10-B13-F013",
+          "field": "genre_or_form",
+          "value": "小说",
+          "source_refs": [
+            "WCD10-B13-S008"
+          ],
+          "fact_candidate_id": "WCD10-B13-F013"
+        },
+        {
+          "candidate_id": "WCD10-B13-F014",
+          "field": "first_publication_year",
+          "value": "2000",
+          "source_refs": [
+            "WCD10-B13-S001"
+          ],
+          "fact_candidate_id": "WCD10-B13-F014"
+        },
+        {
+          "candidate_id": "WCD10-B13-F015",
+          "field": "one_sentence_summary",
+          "value": "出版方简介写神父兼文学评论家Sebastián Urrutia Lacroix在一场高烧之夜回顾人生，并触及智利文学圈和戒严下圣地亚哥的生活。",
+          "source_refs": [
+            "WCD10-B13-S008"
+          ],
+          "fact_candidate_id": "WCD10-B13-F015"
+        }
+      ],
+      "name_zh_candidate": "《智利之夜》"
+    },
+    {
+      "candidate_id": "WCD10-B13-W004",
+      "author_id": "V1-ENT-0262",
+      "entity_type": "collection",
+      "original_name": "El gaucho insufrible",
+      "name_policy": "沿用西文出版题名；中文名为工作译名，不声称正式译名。",
+      "rationale": "出版机构作品目录/作品页直接列示；与该作者三项冻结旧作品不同，基线精确查重后新增。",
+      "created_source_refs": [
+        "WCD10-B13-S001",
+        "WCD10-B13-S009"
+      ],
+      "created_description_zh": "罗贝托·波拉尼奥创作《El gaucho insufrible》。",
+      "facts": [
+        {
+          "candidate_id": "WCD10-B13-F016",
+          "field": "genre_or_form",
+          "value": "短篇小说集与演讲合集",
+          "source_refs": [
+            "WCD10-B13-S009"
+          ],
+          "fact_candidate_id": "WCD10-B13-F016"
+        },
+        {
+          "candidate_id": "WCD10-B13-F017",
+          "field": "first_publication_year",
+          "value": "2003",
+          "source_refs": [
+            "WCD10-B13-S001"
+          ],
+          "fact_candidate_id": "WCD10-B13-F017"
+        },
+        {
+          "candidate_id": "WCD10-B13-F018",
+          "field": "one_sentence_summary",
+          "value": "出版方说明本书收录五篇小说和两篇演讲，简介举及阿根廷律师转为潘帕斯高乔人、下水道侦探及虚构作家等故事。",
+          "source_refs": [
+            "WCD10-B13-S009"
+          ],
+          "fact_candidate_id": "WCD10-B13-F018"
+        }
+      ],
+      "name_zh_candidate": "《难驯的高乔人》"
+    },
+    {
+      "candidate_id": "WCD10-B13-W005",
+      "author_id": "V1-ENT-0262",
+      "entity_type": "work",
+      "original_name": "La pista de hielo",
+      "name_policy": "沿用西文出版题名；中文名为工作译名，不声称正式译名。",
+      "rationale": "出版机构作品目录/作品页直接列示；与该作者三项冻结旧作品不同，基线精确查重后新增。",
+      "created_source_refs": [
+        "WCD10-B13-S001",
+        "WCD10-B13-S010"
+      ],
+      "created_description_zh": "罗贝托·波拉尼奥创作《La pista de hielo》。",
+      "facts": [
+        {
+          "candidate_id": "WCD10-B13-F019",
+          "field": "genre_or_form",
+          "value": "小说",
+          "source_refs": [
+            "WCD10-B13-S010"
+          ],
+          "fact_candidate_id": "WCD10-B13-F019"
+        },
+        {
+          "candidate_id": "WCD10-B13-F020",
+          "field": "first_publication_year",
+          "value": "1993",
+          "source_refs": [
+            "WCD10-B13-S001"
+          ],
+          "fact_candidate_id": "WCD10-B13-F020"
+        },
+        {
+          "candidate_id": "WCD10-B13-F021",
+          "field": "one_sentence_summary",
+          "value": "出版方简介以一宗犯罪的三种叙述为线索，分别由一名智利写作者、一名在露营地做夜间保安的墨西哥诗人和一名加泰罗尼亚商人讲述。",
+          "source_refs": [
+            "WCD10-B13-S010"
+          ],
+          "fact_candidate_id": "WCD10-B13-F021"
+        }
+      ],
+      "name_zh_candidate": "《冰场》"
+    },
+    {
+      "candidate_id": "WCD10-B13-W006",
+      "author_id": "V1-ENT-0262",
+      "entity_type": "collection",
+      "name_zh_candidate": "《电话来访》",
+      "original_name": "Llamadas telefónicas",
+      "name_policy": "沿用出版商西文题名；中文仅为工作译名，不主张正式译名。",
+      "rationale": "出版商目录直接确认作品归属、短篇集性质、版本日期及内容概述。",
+      "created_source_refs": [
+        "WCD10-B13-S011"
+      ],
+      "created_description_zh": "罗贝托·波拉尼奥创作《Llamadas telefónicas》。",
+      "facts": [
+        {
+          "candidate_id": "WCD10-B13-F023",
+          "fact_candidate_id": "WCD10-B13-F023",
+          "field": "genre_or_form",
+          "value": "短篇小说集",
+          "source_refs": [
+            "WCD10-B13-S011"
+          ]
+        },
+        {
+          "candidate_id": "WCD10-B13-F024",
+          "fact_candidate_id": "WCD10-B13-F024",
+          "field": "first_publication_year",
+          "value": "1997",
+          "source_refs": [
+            "WCD10-B13-S011"
+          ]
+        },
+        {
+          "candidate_id": "WCD10-B13-F025",
+          "fact_candidate_id": "WCD10-B13-F025",
+          "field": "one_sentence_summary",
+          "value": "Sensini、Joanna Silvestri、Henry Simon Leprince等故事以作家、流亡经历和现实与虚构交错为线索，出版方简介概述其开放叙事及文学互文。",
+          "source_refs": [
+            "WCD10-B13-S011"
+          ]
+        }
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B13-W007",
+      "author_id": "V1-ENT-0262",
+      "entity_type": "collection",
+      "name_zh_candidate": "《杀手娼妓》",
+      "original_name": "Putas asesinas",
+      "name_policy": "沿用出版商西文题名；中文仅为工作译名，不主张正式译名。",
+      "rationale": "出版商目录直接确认作品归属、短篇集性质、版本日期及内容概述。",
+      "created_source_refs": [
+        "WCD10-B13-S012"
+      ],
+      "created_description_zh": "罗贝托·波拉尼奥创作《Putas asesinas》。",
+      "facts": [
+        {
+          "candidate_id": "WCD10-B13-F026",
+          "fact_candidate_id": "WCD10-B13-F026",
+          "field": "genre_or_form",
+          "value": "短篇小说集",
+          "source_refs": [
+            "WCD10-B13-S012"
+          ]
+        },
+        {
+          "candidate_id": "WCD10-B13-F027",
+          "fact_candidate_id": "WCD10-B13-F027",
+          "field": "first_publication_year",
+          "value": "2001",
+          "source_refs": [
+            "WCD10-B13-S012"
+          ]
+        },
+        {
+          "candidate_id": "WCD10-B13-F028",
+          "fact_candidate_id": "WCD10-B13-F028",
+          "field": "one_sentence_summary",
+          "value": "出版方简介提及阿卡普尔科之旅、足球故事、与毒品和电影有关的故事，以及重现《荒野侦探》人物Arturo Belano的篇章。",
+          "source_refs": [
+            "WCD10-B13-S012"
+          ]
+        }
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B13-W101",
+      "author_id": "V1-ENT-0272",
+      "entity_type": "work",
+      "original_name": "Los días siguientes",
+      "name_zh_candidate": "《接下来的日子》",
+      "name_policy": "中文仅为检索工作译名，原题作为身份锚点；不声称存在正式中文译本。",
+      "rationale": "Uruguay Educa直接称其为Galeano首部小说并列出1963年；补入有明确体裁和首年的重要早期作品。",
+      "created_source_refs": [
+        "WCD10-B13-S101"
+      ],
+      "facts": [
+        {
+          "field": "first_publication_year",
+          "value": "1963",
+          "source_refs": [
+            "WCD10-B13-S101"
+          ],
+          "fact_candidate_id": "WCD10-B13-W101-F01"
+        },
+        {
+          "field": "genre_or_form",
+          "value": "小说（作者首部小说）",
+          "source_refs": [
+            "WCD10-B13-S101"
+          ],
+          "fact_candidate_id": "WCD10-B13-W101-F02"
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "Uruguay Educa将其记为Galeano于1963年出版的首部小说；现有来源未给出情节，简介限于作品书目位置。",
+          "source_refs": [
+            "WCD10-B13-S101"
+          ],
+          "fact_candidate_id": "WCD10-B13-W101-F03"
+        },
+        {
+          "field": "bibliographic_note",
+          "value": "Uruguay Educa列出《Los días siguientes》（1963），并说明这是Galeano的第一部小说。",
+          "source_refs": [
+            "WCD10-B13-S101"
+          ],
+          "fact_candidate_id": "WCD10-B13-W101-F04"
+        }
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B13-W102",
+      "author_id": "V1-ENT-0272",
+      "entity_type": "work",
+      "original_name": "El fútbol a sol y sombra",
+      "name_zh_candidate": "《足球：阳光与阴影》",
+      "name_policy": "中文仅为检索工作译名，西班牙语原题作为身份锚点；不声称存在正式中文译本。",
+      "rationale": "早期馆藏目录检索曾提示该题名及散文分类，仅作检索历史背景；本包实际采用证据为Uruguay Educa年表（1995）与Siglo XXI出版社单书页（作者、足球主题及权力结构描述）。",
+      "created_source_refs": [
+        "WCD10-B13-S101",
+        "WCD10-B13-S106"
+      ],
+      "facts": [
+        {
+          "field": "first_publication_year",
+          "value": "1995",
+          "source_refs": [
+            "WCD10-B13-S101"
+          ],
+          "fact_candidate_id": "WCD10-B13-W102-F01"
+        },
+        {
+          "field": "genre_or_form",
+          "value": "足球主题散文/叙事",
+          "source_refs": [
+            "WCD10-B13-S106"
+          ],
+          "fact_candidate_id": "WCD10-B13-W102-F02"
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "作品一面礼赞足球，一面揭示这项商业产业中的权力结构，并批评职业体育的技术官僚化压抑快乐、想象与冒险。",
+          "source_refs": [
+            "WCD10-B13-S106"
+          ],
+          "fact_candidate_id": "WCD10-B13-W102-F03"
+        },
+        {
+          "field": "bibliographic_note",
+          "value": "Uruguay Educa年表列1995年；出版社当前页提供后续版本资料，不能据再版日期改定初版年。",
+          "source_refs": [
+            "WCD10-B13-S101",
+            "WCD10-B13-S106"
+          ],
+          "fact_candidate_id": "WCD10-B13-W102-F04"
+        }
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B13-W103",
+      "author_id": "V1-ENT-0272",
+      "entity_type": "collection",
+      "original_name": "Memoria del fuego II. Las caras y las máscaras",
+      "name_zh_candidate": "《火的记忆Ⅱ：面孔与面具》",
+      "name_policy": "中文为检索工作译名，西班牙语原题作为身份锚点；不声称正式中文译本。",
+      "rationale": "Uruguay Educa年表直接列出原题与年；Siglo XXI Editores的单书页直接确认作者、卷次与内容简介；仅作有依据的卷册/作品记录。",
+      "created_source_refs": [
+        "WCD10-B13-S101",
+        "WCD10-B13-S103"
+      ],
+      "facts": [
+        {
+          "field": "first_publication_year",
+          "value": "1984",
+          "source_refs": [
+            "WCD10-B13-S101"
+          ],
+          "fact_candidate_id": "WCD10-B13-W103-F01"
+        },
+        {
+          "field": "genre_or_form",
+          "value": "历史叙事卷册",
+          "source_refs": [
+            "WCD10-B13-S103"
+          ],
+          "fact_candidate_id": "WCD10-B13-W103-F02"
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "三部曲第二卷以一系列有文献依据的故事呈现拉丁美洲18至19世纪的独立战争、革命和国家形成。",
+          "source_refs": [
+            "WCD10-B13-S103"
+          ],
+          "fact_candidate_id": "WCD10-B13-W103-F03"
+        },
+        {
+          "field": "bibliographic_note",
+          "value": "Uruguay Educa年表记录作品年；Siglo XXI页面打开的是后续版（2024年），本候选不以出版社再版年替代首版年。",
+          "source_refs": [
+            "WCD10-B13-S101",
+            "WCD10-B13-S103"
+          ],
+          "fact_candidate_id": "WCD10-B13-W103-F04"
+        }
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B13-W104",
+      "author_id": "V1-ENT-0272",
+      "entity_type": "collection",
+      "original_name": "Memoria del fuego III. El siglo del viento",
+      "name_zh_candidate": "《火的记忆Ⅲ：风之世纪》",
+      "name_policy": "中文为检索工作译名，西班牙语原题作为身份锚点；不声称正式中文译本。",
+      "rationale": "Uruguay Educa年表直接列出原题与年；Siglo XXI Editores的单书页直接确认作者、卷次与内容简介；仅作有依据的卷册/作品记录。",
+      "created_source_refs": [
+        "WCD10-B13-S101",
+        "WCD10-B13-S104"
+      ],
+      "facts": [
+        {
+          "field": "first_publication_year",
+          "value": "1986",
+          "source_refs": [
+            "WCD10-B13-S101"
+          ],
+          "fact_candidate_id": "WCD10-B13-W104-F01"
+        },
+        {
+          "field": "genre_or_form",
+          "value": "历史叙事卷册",
+          "source_refs": [
+            "WCD10-B13-S104"
+          ],
+          "fact_candidate_id": "WCD10-B13-W104-F02"
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "三部曲第三卷以日常小故事叙述美洲20世纪的动荡，尝试让历史脱离静止的纪念叙述并重新进入当下。",
+          "source_refs": [
+            "WCD10-B13-S104"
+          ],
+          "fact_candidate_id": "WCD10-B13-W104-F03"
+        },
+        {
+          "field": "bibliographic_note",
+          "value": "Uruguay Educa年表记录作品年；Siglo XXI页面打开的是后续版（2024年），本候选不以出版社再版年替代首版年。",
+          "source_refs": [
+            "WCD10-B13-S101",
+            "WCD10-B13-S104"
+          ],
+          "fact_candidate_id": "WCD10-B13-W104-F04"
+        }
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B13-W105",
+      "author_id": "V1-ENT-0272",
+      "entity_type": "work",
+      "original_name": "Espejos. Una historia casi universal",
+      "name_zh_candidate": "《镜子：一部近乎普世的历史》",
+      "name_policy": "中文为检索工作译名，西班牙语原题作为身份锚点；不声称正式中文译本。",
+      "rationale": "Uruguay Educa年表直接列出原题与年；Siglo XXI Editores的单书页直接确认作者、卷次与内容简介；仅作有依据的卷册/作品记录。",
+      "created_source_refs": [
+        "WCD10-B13-S101",
+        "WCD10-B13-S109"
+      ],
+      "facts": [
+        {
+          "field": "first_publication_year",
+          "value": "2008",
+          "source_refs": [
+            "WCD10-B13-S101"
+          ],
+          "fact_candidate_id": "WCD10-B13-W105-F01"
+        },
+        {
+          "field": "genre_or_form",
+          "value": "历史叙事/散文",
+          "source_refs": [
+            "WCD10-B13-S109"
+          ],
+          "fact_candidate_id": "WCD10-B13-W105-F02"
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "作品将过去与现在连接，转向被忽略的普通人、女性以及南方和东方等群体。",
+          "source_refs": [
+            "WCD10-B13-S109"
+          ],
+          "fact_candidate_id": "WCD10-B13-W105-F03"
+        },
+        {
+          "field": "bibliographic_note",
+          "value": "Uruguay Educa年表记录2008年；Siglo XXI出版社页面也列2008版信息。",
+          "source_refs": [
+            "WCD10-B13-S101",
+            "WCD10-B13-S109"
+          ],
+          "fact_candidate_id": "WCD10-B13-W105-F04"
+        }
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B13-W201",
+      "author_id": "V1-ENT-0273",
+      "entity_type": "work",
+      "original_name": "La ciudad ausente",
+      "name_policy": "按原文题名建立作品对象；中文名为检索显示译名，父审可窄修。",
+      "rationale": "作者本人数字档案的作品目录将其列入明确体裁和出版年份。",
+      "created_source_refs": [
+        "WCD10-B13-S201"
+      ],
+      "facts": [
+        {
+          "field": "genre_or_form",
+          "value": "小说",
+          "source_refs": [
+            "WCD10-B13-S201"
+          ],
+          "fact_candidate_id": "WCD10-B13-F201"
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "Junior追索线索进入一个不断消失、又由秘密故事构成的布宜诺斯艾利斯；出版社将作品描述为交织爱情、政治与城市叙事的小说。",
+          "source_refs": [
+            "WCD10-B13-S203"
+          ],
+          "fact_candidate_id": "WCD10-B13-F202"
+        },
+        {
+          "field": "first_publication_year",
+          "value": "1992",
+          "source_refs": [
+            "WCD10-B13-S201"
+          ],
+          "fact_candidate_id": "WCD10-B13-F203"
+        },
+        {
+          "field": "bibliographic_note",
+          "value": "Piglia作者档案将 La ciudad ausente 列为1992年小说；本包所查Anagrama版本页面标示2003年3月1日出版（ISBN 978-84-339-6841-8）。两者分别记录作品目录年份与该版日期。",
+          "source_refs": [
+            "WCD10-B13-S201",
+            "WCD10-B13-S203"
+          ],
+          "fact_candidate_id": "WCD10-B13-F204"
+        }
+      ],
+      "name_zh_candidate": "《缺席的城市》"
+    },
+    {
+      "candidate_id": "WCD10-B13-W202",
+      "author_id": "V1-ENT-0273",
+      "entity_type": "work",
+      "original_name": "El camino de ida",
+      "name_policy": "按原文题名建立作品对象；中文名为检索显示译名，父审可窄修。",
+      "rationale": "作者本人数字档案的作品目录将其列入明确体裁和出版年份。",
+      "created_source_refs": [
+        "WCD10-B13-S201"
+      ],
+      "facts": [
+        {
+          "field": "genre_or_form",
+          "value": "小说",
+          "source_refs": [
+            "WCD10-B13-S201"
+          ],
+          "fact_candidate_id": "WCD10-B13-F205"
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "Emilio Renzi赴新泽西大学授课后卷入Ida Brown之死及针对学界人士的袭击调查；出版社称小说在侦探叙事中交织情感关系与重塑人生的主题。",
+          "source_refs": [
+            "WCD10-B13-S204"
+          ],
+          "fact_candidate_id": "WCD10-B13-F206"
+        },
+        {
+          "field": "first_publication_year",
+          "value": "2013",
+          "source_refs": [
+            "WCD10-B13-S201"
+          ],
+          "fact_candidate_id": "WCD10-B13-F207"
+        },
+        {
+          "field": "bibliographic_note",
+          "value": "作者档案与Anagrama页面均记录2013年；Anagrama版页面标示2013年9月4日出版（ISBN 978-84-339-9764-7）。",
+          "source_refs": [
+            "WCD10-B13-S201",
+            "WCD10-B13-S204"
+          ],
+          "fact_candidate_id": "WCD10-B13-F208"
+        }
+      ],
+      "name_zh_candidate": "《艾达之路》（工作译名）"
+    },
+    {
+      "candidate_id": "WCD10-B13-W203",
+      "author_id": "V1-ENT-0273",
+      "entity_type": "collection",
+      "original_name": "Los casos del comisario Croce",
+      "name_policy": "按原文题名建立作品对象；中文名为检索显示译名，父审可窄修。",
+      "rationale": "作者本人数字档案的作品目录将其列入明确体裁和出版年份。",
+      "created_source_refs": [
+        "WCD10-B13-S201"
+      ],
+      "facts": [
+        {
+          "field": "genre_or_form",
+          "value": "侦探短篇小说集",
+          "source_refs": [
+            "WCD10-B13-S205",
+            "WCD10-B13-S202"
+          ],
+          "fact_candidate_id": "WCD10-B13-F209"
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "作品由警长Croce处理的一组疑案构成，包括港口命案、疑似涉及Eva Perón的影片谜团及珠宝盗窃案；出版社称其致意于侦探小说传统。",
+          "source_refs": [
+            "WCD10-B13-S205"
+          ],
+          "fact_candidate_id": "WCD10-B13-F210"
+        },
+        {
+          "field": "first_publication_year",
+          "value": "2018",
+          "source_refs": [
+            "WCD10-B13-S201"
+          ],
+          "fact_candidate_id": "WCD10-B13-F211"
+        },
+        {
+          "field": "bibliographic_note",
+          "value": "Piglia作者档案列2018年；Anagrama版页面标示2018年9月12日出版（ISBN 978-84-339-9860-6）。出版方将该书称为警探短篇故事集。",
+          "source_refs": [
+            "WCD10-B13-S201",
+            "WCD10-B13-S205"
+          ],
+          "fact_candidate_id": "WCD10-B13-F212"
+        }
+      ],
+      "name_zh_candidate": "《克罗采警长案》"
+    },
+    {
+      "candidate_id": "WCD10-B13-W205",
+      "author_id": "V1-ENT-0273",
+      "entity_type": "collection",
+      "original_name": "La invasión",
+      "name_policy": "按原文题名建立作品对象；中文名为检索显示译名，父审可窄修。",
+      "rationale": "作者本人数字档案的作品目录将其列入明确体裁和出版年份。",
+      "created_source_refs": [
+        "WCD10-B13-S201"
+      ],
+      "facts": [
+        {
+          "field": "genre_or_form",
+          "value": "短篇小说集",
+          "source_refs": [
+            "WCD10-B13-S201"
+          ],
+          "fact_candidate_id": "WCD10-B13-F217"
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "作者作品目录将 La invasión 列为短篇小说集，并记录其出版年份为 1967；本条仅说明体裁与书目身份。",
+          "source_refs": [
+            "WCD10-B13-S201"
+          ],
+          "fact_candidate_id": "WCD10-B13-F218"
+        },
+        {
+          "field": "first_publication_year",
+          "value": "1967",
+          "source_refs": [
+            "WCD10-B13-S201"
+          ],
+          "fact_candidate_id": "WCD10-B13-F219"
+        },
+        {
+          "field": "bibliographic_note",
+          "value": "Piglia作者档案分别列 Jaulario 与 La invasión，均为1967年；本包仅收《La invasión》对象，不据该目录认定两书等同或仅为版本关系。",
+          "source_refs": [
+            "WCD10-B13-S201"
+          ],
+          "fact_candidate_id": "WCD10-B13-F220"
+        }
+      ],
+      "name_zh_candidate": "《入侵》"
+    },
+    {
+      "candidate_id": "WCD10-B13-W206",
+      "author_id": "V1-ENT-0273",
+      "entity_type": "collection",
+      "original_name": "Nombre falso",
+      "name_policy": "按原文题名建立作品对象；中文名为检索显示译名，父审可窄修。",
+      "rationale": "作者本人数字档案的作品目录将其列入明确体裁和出版年份。",
+      "created_source_refs": [
+        "WCD10-B13-S201"
+      ],
+      "facts": [
+        {
+          "field": "genre_or_form",
+          "value": "短篇小说集",
+          "source_refs": [
+            "WCD10-B13-S201"
+          ],
+          "fact_candidate_id": "WCD10-B13-F221"
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "作者作品目录将 Nombre falso 列为短篇小说集，并记录其出版年份为 1975；本条仅说明体裁与书目身份。",
+          "source_refs": [
+            "WCD10-B13-S201"
+          ],
+          "fact_candidate_id": "WCD10-B13-F222"
+        },
+        {
+          "field": "first_publication_year",
+          "value": "1975",
+          "source_refs": [
+            "WCD10-B13-S201"
+          ],
+          "fact_candidate_id": "WCD10-B13-F223"
+        },
+        {
+          "field": "bibliographic_note",
+          "value": "作者作品目录列为短篇小说集，书目年份为1975。",
+          "source_refs": [
+            "WCD10-B13-S201"
+          ],
+          "fact_candidate_id": "WCD10-B13-F224"
+        }
+      ],
+      "name_zh_candidate": "《假名》"
+    },
+    {
+      "candidate_id": "WCD10-B13-W207",
+      "author_id": "V1-ENT-0273",
+      "entity_type": "collection",
+      "original_name": "Prisión perpetua",
+      "name_policy": "按原文题名建立作品对象；中文名为检索显示译名，父审可窄修。",
+      "rationale": "作者本人数字档案的作品目录将其列入明确体裁和出版年份。",
+      "created_source_refs": [
+        "WCD10-B13-S201"
+      ],
+      "facts": [
+        {
+          "field": "genre_or_form",
+          "value": "小说集（含两部中篇）",
+          "source_refs": [
+            "WCD10-B13-S201"
+          ],
+          "fact_candidate_id": "WCD10-B13-F225"
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "作者作品目录将 Prisión perpetua 列为小说集（含两部中篇），并记录其出版年份为 1988；本条仅说明体裁与书目身份。",
+          "source_refs": [
+            "WCD10-B13-S201"
+          ],
+          "fact_candidate_id": "WCD10-B13-F226"
+        },
+        {
+          "field": "first_publication_year",
+          "value": "1988",
+          "source_refs": [
+            "WCD10-B13-S201"
+          ],
+          "fact_candidate_id": "WCD10-B13-F227"
+        },
+        {
+          "field": "bibliographic_note",
+          "value": "作者作品目录列为小说集（含两部中篇），书目年份为1988。",
+          "source_refs": [
+            "WCD10-B13-S201"
+          ],
+          "fact_candidate_id": "WCD10-B13-F228"
+        }
+      ],
+      "name_zh_candidate": "《无期徒刑》"
+    },
+    {
+      "candidate_id": "WCD10-B13-W208",
+      "author_id": "V1-ENT-0273",
+      "entity_type": "collection",
+      "original_name": "Crítica y ficción",
+      "name_policy": "按原文题名建立作品对象；中文名为检索显示译名，父审可窄修。",
+      "rationale": "作者本人数字档案的作品目录将其列入明确体裁和出版年份。",
+      "created_source_refs": [
+        "WCD10-B13-S201"
+      ],
+      "facts": [
+        {
+          "field": "genre_or_form",
+          "value": "评论与访谈集",
+          "source_refs": [
+            "WCD10-B13-S201"
+          ],
+          "fact_candidate_id": "WCD10-B13-F229"
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "作者作品目录将 Crítica y ficción 列为评论与访谈集，并记录其出版年份为 1986；本条仅说明体裁与书目身份。",
+          "source_refs": [
+            "WCD10-B13-S201"
+          ],
+          "fact_candidate_id": "WCD10-B13-F230"
+        },
+        {
+          "field": "first_publication_year",
+          "value": "1986",
+          "source_refs": [
+            "WCD10-B13-S201"
+          ],
+          "fact_candidate_id": "WCD10-B13-F231"
+        },
+        {
+          "field": "bibliographic_note",
+          "value": "作者作品目录列为评论与访谈集，书目年份为1986。",
+          "source_refs": [
+            "WCD10-B13-S201"
+          ],
+          "fact_candidate_id": "WCD10-B13-F232"
+        }
+      ],
+      "name_zh_candidate": "《批评与虚构》"
+    },
+    {
+      "candidate_id": "WCD10-B13-W209",
+      "author_id": "V1-ENT-0273",
+      "entity_type": "work",
+      "original_name": "Formas breves",
+      "name_policy": "按原文题名建立作品对象；中文名为检索显示译名，父审可窄修。",
+      "rationale": "作者本人数字档案的作品目录将其列入明确体裁和出版年份。",
+      "created_source_refs": [
+        "WCD10-B13-S201"
+      ],
+      "facts": [
+        {
+          "field": "genre_or_form",
+          "value": "文学评论",
+          "source_refs": [
+            "WCD10-B13-S201"
+          ],
+          "fact_candidate_id": "WCD10-B13-F233"
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "作者作品目录将 Formas breves 列为文学评论，并记录其出版年份为 1999；本条仅说明体裁与书目身份。",
+          "source_refs": [
+            "WCD10-B13-S201"
+          ],
+          "fact_candidate_id": "WCD10-B13-F234"
+        },
+        {
+          "field": "bibliographic_note",
+          "value": "作者档案简介将 Formas breves 列为2000年；作品目录第85行列1999年。年份口径未解，本包不填写原子首版年。",
+          "source_refs": [
+            "WCD10-B13-S201"
+          ],
+          "fact_candidate_id": "WCD10-B13-F236"
+        }
+      ],
+      "name_zh_candidate": "《短形式》"
+    },
+    {
+      "candidate_id": "WCD10-B13-W210",
+      "author_id": "V1-ENT-0273",
+      "entity_type": "work",
+      "original_name": "El último lector",
+      "name_policy": "按原文题名建立作品对象；中文名为检索显示译名，父审可窄修。",
+      "rationale": "作者本人数字档案的作品目录将其列入明确体裁和出版年份。",
+      "created_source_refs": [
+        "WCD10-B13-S201"
+      ],
+      "facts": [
+        {
+          "field": "genre_or_form",
+          "value": "文学评论",
+          "source_refs": [
+            "WCD10-B13-S201"
+          ],
+          "fact_candidate_id": "WCD10-B13-F237"
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "作者作品目录将 El último lector 列为文学评论，并记录其出版年份为 2005；本条仅说明体裁与书目身份。",
+          "source_refs": [
+            "WCD10-B13-S201"
+          ],
+          "fact_candidate_id": "WCD10-B13-F238"
+        },
+        {
+          "field": "first_publication_year",
+          "value": "2005",
+          "source_refs": [
+            "WCD10-B13-S201"
+          ],
+          "fact_candidate_id": "WCD10-B13-F239"
+        },
+        {
+          "field": "bibliographic_note",
+          "value": "作者作品目录列为文学评论，书目年份为2005。",
+          "source_refs": [
+            "WCD10-B13-S201"
+          ],
+          "fact_candidate_id": "WCD10-B13-F240"
+        }
+      ],
+      "name_zh_candidate": "《最后的读者》"
+    },
+    {
+      "candidate_id": "WCD10-B13-W211",
+      "author_id": "V1-ENT-0273",
+      "entity_type": "work",
+      "original_name": "Los diarios de Emilio Renzi. Años de formación",
+      "name_policy": "按原文题名建立作品对象；中文名为检索显示译名，父审可窄修。",
+      "rationale": "作者本人数字档案的作品目录将其列入明确体裁和出版年份。",
+      "created_source_refs": [
+        "WCD10-B13-S201"
+      ],
+      "facts": [
+        {
+          "field": "genre_or_form",
+          "value": "日记／自传性作品",
+          "source_refs": [
+            "WCD10-B13-S201"
+          ],
+          "fact_candidate_id": "WCD10-B13-F241"
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "作者作品目录将 Los diarios de Emilio Renzi. Años de formación 列为日记／自传性作品，并记录其出版年份为 2015；本条仅说明体裁与书目身份。",
+          "source_refs": [
+            "WCD10-B13-S201"
+          ],
+          "fact_candidate_id": "WCD10-B13-F242"
+        },
+        {
+          "field": "first_publication_year",
+          "value": "2015",
+          "source_refs": [
+            "WCD10-B13-S201"
+          ],
+          "fact_candidate_id": "WCD10-B13-F243"
+        },
+        {
+          "field": "bibliographic_note",
+          "value": "作者作品目录列为日记／自传性作品，书目年份为2015。",
+          "source_refs": [
+            "WCD10-B13-S201"
+          ],
+          "fact_candidate_id": "WCD10-B13-F244"
+        }
+      ],
+      "name_zh_candidate": "《埃米利奥·伦齐日记：成长岁月》"
+    },
+    {
+      "candidate_id": "WCD10-B13-W212",
+      "author_id": "V1-ENT-0273",
+      "entity_type": "work",
+      "original_name": "Los diarios de Emilio Renzi. Los años felices",
+      "name_policy": "按原文题名建立作品对象；中文名为检索显示译名，父审可窄修。",
+      "rationale": "作者本人数字档案的作品目录将其列入明确体裁和出版年份。",
+      "created_source_refs": [
+        "WCD10-B13-S201"
+      ],
+      "facts": [
+        {
+          "field": "genre_or_form",
+          "value": "日记／自传性作品",
+          "source_refs": [
+            "WCD10-B13-S201"
+          ],
+          "fact_candidate_id": "WCD10-B13-F245"
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "作者作品目录将 Los diarios de Emilio Renzi. Los años felices 列为日记／自传性作品，并记录其出版年份为 2016；本条仅说明体裁与书目身份。",
+          "source_refs": [
+            "WCD10-B13-S201"
+          ],
+          "fact_candidate_id": "WCD10-B13-F246"
+        },
+        {
+          "field": "first_publication_year",
+          "value": "2016",
+          "source_refs": [
+            "WCD10-B13-S201"
+          ],
+          "fact_candidate_id": "WCD10-B13-F247"
+        },
+        {
+          "field": "bibliographic_note",
+          "value": "作者作品目录列为日记／自传性作品，书目年份为2016。",
+          "source_refs": [
+            "WCD10-B13-S201"
+          ],
+          "fact_candidate_id": "WCD10-B13-F248"
+        }
+      ],
+      "name_zh_candidate": "《埃米利奥·伦齐日记：幸福岁月》"
+    },
+    {
+      "candidate_id": "WCD10-B13-W213",
+      "author_id": "V1-ENT-0273",
+      "entity_type": "work",
+      "original_name": "Los diarios de Emilio Renzi. Un día en la vida",
+      "name_policy": "按原文题名建立作品对象；中文名为检索显示译名，父审可窄修。",
+      "rationale": "作者本人数字档案的作品目录将其列入明确体裁和出版年份。",
+      "created_source_refs": [
+        "WCD10-B13-S201"
+      ],
+      "facts": [
+        {
+          "field": "genre_or_form",
+          "value": "日记／自传性作品",
+          "source_refs": [
+            "WCD10-B13-S201"
+          ],
+          "fact_candidate_id": "WCD10-B13-F249"
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "作者作品目录将 Los diarios de Emilio Renzi. Un día en la vida 列为日记／自传性作品，并记录其出版年份为 2017；本条仅说明体裁与书目身份。",
+          "source_refs": [
+            "WCD10-B13-S201"
+          ],
+          "fact_candidate_id": "WCD10-B13-F250"
+        },
+        {
+          "field": "first_publication_year",
+          "value": "2017",
+          "source_refs": [
+            "WCD10-B13-S201"
+          ],
+          "fact_candidate_id": "WCD10-B13-F251"
+        },
+        {
+          "field": "bibliographic_note",
+          "value": "作者作品目录列为日记／自传性作品，书目年份为2017。",
+          "source_refs": [
+            "WCD10-B13-S201"
+          ],
+          "fact_candidate_id": "WCD10-B13-F252"
+        }
+      ],
+      "name_zh_candidate": "《埃米利奥·伦齐日记：生命中的一天》"
+    }
+  ],
+  "existing_facts": [
+    {
+      "candidate_id": "WCD10-B13-F001",
+      "subject_id": "V1-ENT-0269",
+      "field": "genre_or_form",
+      "value": "长篇小说",
+      "source_refs": [
+        "WCD10-B13-S003"
+      ],
+      "boundary": "仅增补当前来源支持的新字段，不覆盖或重述冻结基线既有字段。"
+    },
+    {
+      "candidate_id": "WCD10-B13-F002",
+      "subject_id": "V1-ENT-0269",
+      "field": "one_sentence_summary",
+      "value": "两位诗人沿着寻找墨西哥女诗人塞萨雷娅·蒂纳赫罗的线索展开旅程；出版方简介称叙事跨越1976至1996年及多个国家。",
+      "source_refs": [
+        "WCD10-B13-S003"
+      ],
+      "boundary": "仅增补当前来源支持的新字段，不覆盖或重述冻结基线既有字段。"
+    },
+    {
+      "candidate_id": "WCD10-B13-F003",
+      "subject_id": "V1-ENT-0270",
+      "field": "genre_or_form",
+      "value": "长篇小说",
+      "source_refs": [
+        "WCD10-B13-S004"
+      ],
+      "boundary": "仅增补当前来源支持的新字段，不覆盖或重述冻结基线既有字段。"
+    },
+    {
+      "candidate_id": "WCD10-B13-F004",
+      "subject_id": "V1-ENT-0270",
+      "field": "one_sentence_summary",
+      "value": "出版方简介以四位研究德国作家阿尔钦博尔迪的文学教授为线索，写他们前往虚构的圣特雷莎，并展开跨越两大洲和欧洲二十世纪历史的叙事。",
+      "source_refs": [
+        "WCD10-B13-S004"
+      ],
+      "boundary": "仅增补当前来源支持的新字段，不覆盖或重述冻结基线既有字段。"
+    },
+    {
+      "candidate_id": "WCD10-B13-F005",
+      "subject_id": "V1-ENT-0271",
+      "field": "genre_or_form",
+      "value": "长篇小说",
+      "source_refs": [
+        "WCD10-B13-S005"
+      ],
+      "boundary": "仅增补当前来源支持的新字段，不覆盖或重述冻结基线既有字段。"
+    },
+    {
+      "candidate_id": "WCD10-B13-F006",
+      "subject_id": "V1-ENT-0271",
+      "field": "one_sentence_summary",
+      "value": "出版方简介围绕诗人鲁伊斯-塔格莱与飞行员魏德尔身份重合展开，叙述者在智利政变前后追索其暴力艺术实践。",
+      "source_refs": [
+        "WCD10-B13-S005"
+      ],
+      "boundary": "仅增补当前来源支持的新字段，不覆盖或重述冻结基线既有字段。"
+    },
+    {
+      "candidate_id": "WCD10-B13-F101",
+      "subject_id": "V1-ENT-0276",
+      "field": "one_sentence_summary",
+      "value": "出版社简介称本卷以有文献依据的片段重述征服前至1700年的美洲历史，并写到原住民遭受的压迫。",
+      "source_refs": [
+        "WCD10-B13-S108"
+      ],
+      "boundary": "不改既有1982原子年份；出版社当前版信息不作为初版年。"
+    },
+    {
+      "candidate_id": "WCD10-B13-F102",
+      "subject_id": "V1-ENT-0277",
+      "field": "genre_or_form",
+      "value": "短篇叙事/图文散文",
+      "source_refs": [
+        "WCD10-B13-S105"
+      ],
+      "boundary": "补充体裁描述；保留既有1989首版原子事实。"
+    },
+    {
+      "candidate_id": "WCD10-B13-F103",
+      "subject_id": "V1-ENT-0277",
+      "field": "one_sentence_summary",
+      "value": "由庆典、逸事、编年、梦与记忆组成的短篇叙事，并结合作者版画和绘图。",
+      "source_refs": [
+        "WCD10-B13-S105"
+      ],
+      "boundary": "受限复述出版者简介；当前2023版日期不作为初版年。"
+    },
+    {
+      "candidate_id": "WCD10-B13-F104",
+      "subject_id": "V1-ENT-0275",
+      "field": "one_sentence_summary",
+      "value": "作者说明本书旨在传播被官方历史遮蔽或歪曲的事实，并以通俗、面向读者的方式讨论政治经济问题。",
+      "source_refs": [
+        "WCD10-B13-S107"
+      ],
+      "boundary": "保留旧有1971原子年份；出版社当前纪念版信息不改初版年。"
+    },
+    {
+      "candidate_id": "WCD10-B13-F253",
+      "subject_id": "V1-ENT-0278",
+      "field": "genre_or_form",
+      "value": "小说",
+      "source_refs": [
+        "WCD10-B13-S201"
+      ],
+      "boundary": "仅追加基线缺失的体裁和有界书目说明；逐项保留以下全部旧事实、卡片、关系、来源链、hold与gap。"
+    },
+    {
+      "candidate_id": "WCD10-B13-F254",
+      "subject_id": "V1-ENT-0278",
+      "field": "one_sentence_summary",
+      "value": "作者作品目录将 Respiración artificial 列为小说，并列出相关版本信息；本条仅作体裁与书目范围说明。",
+      "source_refs": [
+        "WCD10-B13-S201"
+      ],
+      "boundary": "仅追加基线缺失的体裁和有界书目说明；逐项保留以下全部旧事实、卡片、关系、来源链、hold与gap。"
+    },
+    {
+      "candidate_id": "WCD10-B13-F255",
+      "subject_id": "V1-ENT-0279",
+      "field": "genre_or_form",
+      "value": "小说",
+      "source_refs": [
+        "WCD10-B13-S201"
+      ],
+      "boundary": "仅追加基线缺失的体裁和有界书目说明；逐项保留以下全部旧事实、卡片、关系、来源链、hold与gap。"
+    },
+    {
+      "candidate_id": "WCD10-B13-F256",
+      "subject_id": "V1-ENT-0279",
+      "field": "one_sentence_summary",
+      "value": "作者作品目录将 Plata quemada 列为小说，并列出相关版本信息；本条仅作体裁与书目范围说明。",
+      "source_refs": [
+        "WCD10-B13-S201"
+      ],
+      "boundary": "仅追加基线缺失的体裁和有界书目说明；逐项保留以下全部旧事实、卡片、关系、来源链、hold与gap。"
+    },
+    {
+      "candidate_id": "WCD10-B13-F257",
+      "subject_id": "V1-ENT-0280",
+      "field": "genre_or_form",
+      "value": "小说",
+      "source_refs": [
+        "WCD10-B13-S201"
+      ],
+      "boundary": "仅追加基线缺失的体裁和有界书目说明；逐项保留以下全部旧事实、卡片、关系、来源链、hold与gap。"
+    },
+    {
+      "candidate_id": "WCD10-B13-F258",
+      "subject_id": "V1-ENT-0280",
+      "field": "one_sentence_summary",
+      "value": "作者作品目录将 Blanco nocturno 列为小说，并列出相关版本信息；本条仅作体裁与书目范围说明。",
+      "source_refs": [
+        "WCD10-B13-S201"
+      ],
+      "boundary": "仅追加基线缺失的体裁和有界书目说明；逐项保留以下全部旧事实、卡片、关系、来源链、hold与gap。"
+    }
+  ],
+  "extra_relationships": [],
+  "deferred": [
+    {
+      "author_id": "V1-ENT-0262",
+      "object": "《Consejos de un discípulo de Morrison a un fanático de Joyce》与Antoni García Porta的共同创作关系是否已有独立作品对象",
+      "reason": "Memoria Chilena明确记载1984年首部长篇小说为与Antoni García Porta合著，但当前作者baseline仅有三部链接作品；本包只做本任务单作者，不改作者关系层或替其他作者建立共著归属。建议integrator/后续受控任务检查作品对象和双作者CREATED关系。",
+      "source_refs": [
+        "WCD10-B13-S001"
+      ],
+      "key": "V1-ENT-0262::Consejos de un discípulo de Morrison a un fanático de Joyce",
+      "disposition": "deferred"
+    },
+    {
+      "key": "V1-ENT-0273.Jaulario",
+      "reason": "作者档案分别列 Jaulario 与 La invasión，均为1967年；两者可能有版本关联，本包资料未足以确认独立身份或等同。",
+      "disposition": "deferred edition identity; retain source-reported 1967 listing only"
+    },
+    {
+      "key": "WCD10-B13-W209.first_publication_year",
+      "reason": "作者档案简介称Formas breves为2000年，作品目录第85行列1999年；未能解决口径，原子首版年留空，书目注记保留两处版本表述。",
+      "disposition": "deferred year conflict"
+    }
+  ],
+  "source_scope_decisions": [
+    {
+      "decision": "fresh_registration",
+      "candidate_source_id": "WCD10-B13-S201",
+      "url": "https://piglia.pubpub.org/bio",
+      "candidate_ids": [
+        "WCD10-B13-S201"
+      ],
+      "boundary": "https://piglia.pubpub.org/bio 与历史 SRC-0217 的根URL页面不是同一URL，本包按作品目录这一独立scope新登记；仅说明同属作者档案，不提升SRC-0217等级，也不改写其元数据。",
+      "related_existing_source": "SRC-0217",
+      "disposition": "fresh_registration"
+    }
+  ]
+}

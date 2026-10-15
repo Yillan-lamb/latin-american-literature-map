@@ -1,0 +1,61 @@
+{
+  "task_id": "TASK-110",
+  "batch_id": "WCD-10-B05",
+  "revision": "R3",
+  "received_dates": [
+    "2026-10-03"
+  ],
+  "authorization": "仅对三轮独立审计 R2-01 进行窄修；B05/B05_R1/B05_R2 原包与根 HANDOFF 不可变；新哈希冻结后交独立Reviewer复核；Worker仍仅研究候选，状态CANDIDATE_NOT_REVIEWED。",
+  "baseline": {
+    "git_commit": "05f3372c69a54ec331d31b05d16c8288d6d3a993",
+    "database_sha256": "45e8d72c3656f762f4a34f664c822c33685be925b53553b91b19041d6835b47d",
+    "r0_candidates_sha256": "6d24789c667a19dc34e330629914e4746d93aefd265eb24f917c568ff5834dce",
+    "r1_candidates_sha256": "02e6cf054fdd1cb7bb73e68dd35c69647829a6c48e36a2191de3979ad03b4f47"
+  },
+  "inputs": [
+    {
+      "path": "project/internal/WCD_10_WORKSPACE/B05/R1_INDEPENDENT_REVIEW.md",
+      "role": "R2返修唯一依据（二轮审计）",
+      "sha256": "2aa71fa7aa5024f6d11c077c648800492757b1a53ff830c9042d243ce05e8e25"
+    },
+    {
+      "path": "project/internal/WCD_10_WORKSPACE/B05/INDEPENDENT_REVIEW.md",
+      "role": "首轮审计（历史依据）",
+      "sha256": "75e3139d6cae53d10159db805f38875db1514e8659a307eb273fb04693712f14"
+    },
+    {
+      "path": "project/internal/TASKS.md",
+      "role": "任务源",
+      "sha256": "7fa709e6e4f376e095e4dc7a3205c3cad407d14a6fa65e833d851b656f6b8124"
+    },
+    {
+      "path": "work/codex-worktrees/latin-american-literature-map-wcd10/data/master/V1_MASTER.sqlite",
+      "role": "只读主库",
+      "sha256": "45e8d72c3656f762f4a34f664c822c33685be925b53553b91b19041d6835b47d",
+      "expected": "45e8d72c3656f762f4a34f664c822c33685be925b53553b91b19041d6835b47d"
+    },
+    {
+      "path": "work/codex-worktrees/latin-american-literature-map-wcd10/scripts/validate_wcd10_candidates.py",
+      "role": "机械验证器",
+      "sha256": "81bcedabda5d5dcdb943aa9bebc6e33f2f1287f6f9bf7030e5f2801816c49ec9"
+    },
+    {
+      "path": "work/external-ai/deliveries/WCD-10-external/B05_R1/CANDIDATES.json",
+      "role": "R1原包（保留不动，冻结SHA 02e6cf05…）",
+      "sha256": "02e6cf054fdd1cb7bb73e68dd35c69647829a6c48e36a2191de3979ad03b4f47",
+      "expected": "02e6cf054fdd1cb7bb73e68dd35c69647829a6c48e36a2191de3979ad03b4f47"
+    },
+    {
+      "path": "project/internal/WCD_10_WORKSPACE/B05/R2_INDEPENDENT_REVIEW.md",
+      "role": "R3返修唯一依据（三轮审计及R2-01）",
+      "sha256": "cca5502a0e2a02c9ee25ae9d10b67a8fc7f4f061ac180b735b626d31610c04f9"
+    },
+    {
+      "path": "work/external-ai/deliveries/WCD-10-external/B05_R2/CANDIDATES.json",
+      "role": "冻结R2完整候选基线；仅W09主题末句允许差量",
+      "sha256": "6d00473fd320d830c8ac37516af1c7113a1d532bdc3bfa9e34ff276fbf733cca",
+      "expected": "6d00473fd320d830c8ac37516af1c7113a1d532bdc3bfa9e34ff276fbf733cca"
+    }
+  ],
+  "notes": "R3仅处理R2-01。ELEM 5746 页面正文于本轮重新读取以确认 1990 定本边界；未复制全文。R2完整冻结包作为差量基线。旧三项门禁继续保留。"
+}

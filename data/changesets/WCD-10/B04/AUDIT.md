@@ -1,0 +1,45 @@
+# B04 独立审核记录
+
+2026-09-29；TASK-109；Reviewer `wcd10_b01_review`，全程只读。候选、SQL/工具、实际数据/公开边界、最终浏览器/治理门禁全部PASS；本批有边界DONE，不称学术完备。下方pending为实际历史阶段记录。
+
+## 初轮候选：REVISIONS_REQUIRED
+
+审查绑定candidate cb47962b17fd649cf24f7a6aae9dc9ce6fc880342994866fa25f3d86c7fb8c9d、coverage96c56d65a0bc29cb3ae10df4d6609fa93481eb4d62e3d70a97cfa0b258a8ddb5、登记0d55735033930f5914c5fe4e78f2437ed0e94fef3d914e3788ffd88cd4658bae；基库079deee47063d2435bdaafe1b3c1dca24ca8b6c7353acc1427075bf0ce86746d。
+
+Reviewer独立打开15具体来源并读取所用段落，不以搜索摘要替代。9新对象及28事实/9 CREATED、F01–06/F08–10和R01有边界PASS；F07内容支持成立，但field=one_sentence_summary会被builder标为batch_retained_candidate/research_support=no，与署名文学释义边界不一致，MAJOR要求改research_note。COVERAGE把Aura novela corta写成短篇小说为MINOR，需明确novella/work而不改旧库。
+
+12旧对象完整来源链保留，3旧A级研究准入不冒称fresh review；其余机构/目录/转载保守B，原刊/讲演全篇未读不记A或已读。SRC0070须复用旧行不计第二源。Alturas1947仅独立书版、1946首刊载体OPEN；Desolación七部分限定1922、Lagar与Lagar II分开、Poema77/131分版本、Barcelona/Santiago冲突排除。Gringo SET_IN仅墨西哥虚构背景；9新题语义/去重音查重未见同层重复。
+
+旧HOLD0035已resolved/REL0319保持，0036/0040/0041等不晋升。六项deferred合理，不凑A级研究或自动闭合。初审机械15源/9对象/38事实/10关系PASS不代替语义分类门禁。
+
+## 最小返修（差量PASS）
+
+F07只改field为research_note，原值/来源/边界不变；新增F11只描述十二节/1947独立书版/1950总集收录，实际S01/S03/S15支持，不闭合首刊。Alturas覆盖区分F11/F07，Aura改短小说novella/work。最新candidate c62fcbfe5c99a627ed20e5978e7d8175c35213f1031ba7c2742f866a2a511e22、coverage502247635db7cbdc348d02bf9e5aeed40fbcde1724e466843e8e8bb1a85a190d，登记/基库不变；机械39事实PASS。只有差量PASS后可prepare，再独立SQL Gate，不能把候选批准当成执行批准。
+
+Reviewer已独立确认上述精确三包PASS，反向撤销差量恢复初审hash，未见其他变化；重新机械39事实PASS。候选门禁不替代SQL或执行验收。
+
+## SQL准备及工具返修（独立审核中）
+
+首次0039试跑在临时库发现12行SRC-0070的证据source_title使用候选标题，未匹配旧sources.title，master校验失败。主库未改；builder只让复用证据取既有规范标题，新来源仍用候选标题，候选三包/登记/旧源元数据未动。安全替换尚未执行的0039后SQL SHA4d8428f7cea7ebb731867c903facf5d27a0e821951ed5c44e5ea243b87c6a356，map SHAd454f71ac1dae66e20a68b2629d0d302ba9dcb3eaee7ba462dfe6ae1c69a0e3a；builder SHA83c998cb104a452910c155ffc4f7662015eadbdd9829caa4784e20a65c96d799。B04新9项测试PASS，B02/B03/B04组合26项PASS，包括旧SQL/map精确再现及旧行保留，不代表actual post-apply。
+
+批次QA绑定079deee基库、上述SQL/map与TASK-109；独立SQL/工具/测试门禁等待。拟追加14来源、9对象、39事实、10关系、13卡、24gap，不准自动公开。
+
+## 独立SQL/工具门禁PASS及实际追加
+
+Reviewer独立prepare精确复现SQL/map；纯内存逐值核对39事实、9CREATED/1SET_IN、来源引用/准入/旧行/19表结构/holds；26组合测试实跑PASS，反向撤销12标题修复恢复旧SQL4e0b835d…，批准只在079deee精确基库执行4d8428f7…SQL。QA wrapper8dc07e96d6f37cee22ac5d518f690e3a87e2554728b90d7efe349bb6f46c3999、B04tests b70cfc26ccfa14f46c940376485ac8318431e4caa9e5afab2c1debb1fbfe88ba、REVIEW_GATE ef40f746ccd02bb93dc8503e5acf3301b9633d0416a70046e5be4122efddde47。之后实际apply0039，现库45e8d72c3656f762f4a34f664c822c33685be925b53553b91b19041d6835b47d。
+
+## 首次公开QA失败及必要修复（保留时序）
+
+入库后108测试与39迁移19表重放PASS，但公开包比较FAIL：Desolación新F10被公开作品备用正文读取，研究卡、事实及SRC0387进入raw public，连带search/ranking变化。现有subject公开不等于新增事实获准；未发布，不更改Curation或抹去失败。
+
+Web构建器按明确WCD-10-origin/input或卡issue建立单独public索引，完整research/page仍保留；reader/discovery/search邻居与上下文/公开work时间线隔离，deploy也排除研究专用raw卡/事实/关系。保留既有非WCD10的provisional规则。两项回归从精确B03临时库执行0039并比较整个public payload，确认F10在raw research而public缺席。首次全量测试发现动态import兼容问题，已修支持repo模块和CLI入口；实际110/110 PASS。
+
+独立工具/actual QA最终PASS绑定Web builder fcb35b3ab2fef63478df19d33a029e3c4073871b2f20f3617e9ca2e8ea059ac7、deploy6d6cfcd9a2342094eebf13fbdb46e2e502ca9dee3480ef9034fda2d042d2e536、边界测试270b15184933a06e06f0776c843c56ffb2281054d030392bbc56327a44472739、QA1aeea52f5afd10ca872c26e0677866b3a3a957ab5cb08210b796e79c7a97c6aa。Reviewer独立跑新2测及原deploy6测、19表精确内存oracle/三格式、22重复导出、177public文件一致/127对象/9新ID泄漏0/holds原值；未冒称重跑PM110。
+
+PM已完成production Chromium桌面/移动60 PASS/4预览SKIP，49.5秒，报告SHA550152e5261a4d765a54b64397d7c6d70548f2340f9a5804b8fcca7be5822ebe；服务已停止。最后浏览器证据/治理独立确认待完成，仍3/21、B05锁定。
+
+## 最终浏览器/治理PASS及有边界收口
+
+Reviewer核实际64records：桌面/移动各30passed+2skip，errors/unexpected/flaky/retry均0，duration49.548717秒；四skip仅V2_WCD08_PREVIEW显式条件，不遮蔽生产趣闻功能。核读研究/正文隔离、搜索/时间线组合筛选、地图键盘/虚构空间、320px布局及139 sitemap路由文本断言；未重跑PM110/60，不称FF/WebKit/Lighthouse已重跑。
+
+最终核验浏览器550152e5…、QA1aeea52f…、后库45e8d72c…及177public全同/127对象，治理真实相符并保留FAIL时序；无残留阻断。同步PASS后TASK109有边界DONE、4/21批；累计41对象/182事实/52关系/78来源/67卡/98新增gap，不是全部61位或学术全集完成。只解锁TASK110/B05（0059/0170/0171）只读新基线与研究，B06+仍锁定。CHANGELOG/TASKS/README/主库/Spec/交接同步，DECISIONS=N/A沿用DEC060、Charter不改。无commit/push/PR/合并/发布或公开准入。

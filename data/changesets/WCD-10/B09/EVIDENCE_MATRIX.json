@@ -1,0 +1,574 @@
+{
+  "task_id": "TASK-114",
+  "batch_id": "WCD-10-B09",
+  "entries": [
+    {
+      "candidate_fact_id": "WCD10-B09-F001",
+      "field": "genre_or_form",
+      "value": "长篇小说",
+      "source_refs": [
+        "WCD10-B09-S003"
+      ],
+      "evidence_summary": "来源将作品作为小说叙述，明确称其为 romance（小说）。",
+      "locator": "Biblioteca Pública do Paraná, lines 97–99"
+    },
+    {
+      "candidate_fact_id": "WCD10-B09-F002",
+      "field": "one_sentence_summary",
+      "value": "据巴拉那州公共图书馆页面，小说围绕因旱灾迁徙的牧人法比亚诺一家展开，成员包括妻子辛哈·维多利亚、两个孩子与狗巴莱娅。",
+      "source_refs": [
+        "WCD10-B09-S003"
+      ],
+      "evidence_summary": "据巴拉那州公共图书馆页面，小说围绕因旱灾迁徙的牧人法比亚诺一家展开，成员包括妻子辛哈·维多利亚、两个孩子与狗巴莱娅。",
+      "locator": "Biblioteca Pública do Paraná, lines 97–99"
+    },
+    {
+      "candidate_fact_id": "WCD10-B09-F003",
+      "field": "genre_or_form",
+      "value": "长篇小说",
+      "source_refs": [
+        "WCD10-B09-S002"
+      ],
+      "evidence_summary": "来源将作品作为小说叙述，明确称其为 romance（小说）。",
+      "locator": "Biblioteca Pública do Paraná, lines 97–99"
+    },
+    {
+      "candidate_fact_id": "WCD10-B09-F004",
+      "field": "one_sentence_summary",
+      "value": "圣保罗市文化部门通过农场主保罗·奥诺里奥的故事，介绍作品对野心、权力与道德败坏的呈现。",
+      "source_refs": [
+        "WCD10-B09-S002"
+      ],
+      "evidence_summary": "圣保罗市文化部门通过农场主保罗·奥诺里奥的故事，介绍作品对野心、权力与道德败坏的呈现。",
+      "locator": "Biblioteca Pública do Paraná, lines 97–99"
+    },
+    {
+      "candidate_fact_id": "WCD10-B09-F005",
+      "field": "genre_or_form",
+      "value": "长篇小说",
+      "source_refs": [
+        "WCD10-B09-S002"
+      ],
+      "evidence_summary": "来源将作品作为小说叙述，明确称其为 romance（小说）。",
+      "locator": "Biblioteca Pública do Paraná, lines 97–99"
+    },
+    {
+      "candidate_fact_id": "WCD10-B09-F006",
+      "field": "one_sentence_summary",
+      "value": "圣保罗市文化部门将小说概括为路易斯·达·席尔瓦的内心叙事，聚焦其执念、挫折与恐惧。",
+      "source_refs": [
+        "WCD10-B09-S002"
+      ],
+      "evidence_summary": "圣保罗市文化部门将小说概括为路易斯·达·席尔瓦的内心叙事，聚焦其执念、挫折与恐惧。",
+      "locator": "Biblioteca Pública do Paraná, lines 97–99"
+    },
+    {
+      "candidate_fact_id": "WCD10-B09-W001-F01",
+      "field": "first_publication_year",
+      "value": "1933",
+      "source_refs": [
+        "WCD10-B09-S001",
+        "WCD10-B09-S002"
+      ],
+      "evidence_summary": "BNDigital directly lists Caetés (1933).",
+      "locator": "Prefeitura de São Paulo, lines 109–111; BNDigital, line 47"
+    },
+    {
+      "candidate_fact_id": "WCD10-B09-W001-F02",
+      "field": "genre_or_form",
+      "value": "长篇小说",
+      "source_refs": [
+        "WCD10-B09-S001",
+        "WCD10-B09-S002"
+      ],
+      "evidence_summary": "长篇小说 as directly identified by institutional source.",
+      "locator": "Prefeitura de São Paulo, lines 109–111; BNDigital, line 47"
+    },
+    {
+      "candidate_fact_id": "WCD10-B09-W001-F03",
+      "field": "one_sentence_summary",
+      "value": "圣保罗市文化部门称这是拉莫斯的小说处女作，并将其描述为带有心理内省的叙事，呈现个体在社会与个人困境中的挣扎。",
+      "source_refs": [
+        "WCD10-B09-S001",
+        "WCD10-B09-S002"
+      ],
+      "evidence_summary": "圣保罗市文化部门称这是拉莫斯的小说处女作，并将其描述为带有心理内省的叙事，呈现个体在社会与个人困境中的挣扎。",
+      "locator": "Prefeitura de São Paulo, lines 109–111; BNDigital, line 47"
+    },
+    {
+      "candidate_fact_id": "WCD10-B09-W002-F01",
+      "field": "first_publication_year",
+      "value": "1953",
+      "source_refs": [
+        "WCD10-B09-S001",
+        "WCD10-B09-S002"
+      ],
+      "evidence_summary": "BNDigital directly lists Memórias do Cárcere (1953).",
+      "locator": "BNDigital, line 49; Prefeitura de São Paulo, lines 122–123"
+    },
+    {
+      "candidate_fact_id": "WCD10-B09-W002-F02",
+      "field": "genre_or_form",
+      "value": "回忆录 / 狱中回忆",
+      "source_refs": [
+        "WCD10-B09-S001",
+        "WCD10-B09-S002"
+      ],
+      "evidence_summary": "回忆录 / 狱中回忆 as directly identified by institutional source.",
+      "locator": "BNDigital, line 49; Prefeitura de São Paulo, lines 122–123"
+    },
+    {
+      "candidate_fact_id": "WCD10-B09-W002-F03",
+      "field": "one_sentence_summary",
+      "value": "国家图书馆数字馆藏记载该书于作者去世后出版，写其狱中经历。",
+      "source_refs": [
+        "WCD10-B09-S001",
+        "WCD10-B09-S002"
+      ],
+      "evidence_summary": "国家图书馆数字馆藏记载该书于作者去世后出版，写其狱中经历。",
+      "locator": "BNDigital, line 49; Prefeitura de São Paulo, lines 122–123"
+    },
+    {
+      "candidate_fact_id": "WCD10-B09-W003-F01",
+      "field": "first_publication_year",
+      "value": "1945",
+      "source_refs": [
+        "WCD10-B09-S001"
+      ],
+      "evidence_summary": "BNDigital directly lists Infância (1945).",
+      "locator": "BNDigital, line 50"
+    },
+    {
+      "candidate_fact_id": "WCD10-B09-W003-F02",
+      "field": "genre_or_form",
+      "value": "自传 / 回忆录",
+      "source_refs": [
+        "WCD10-B09-S001"
+      ],
+      "evidence_summary": "自传 / 回忆录 as directly identified by institutional source.",
+      "locator": "BNDigital, line 50"
+    },
+    {
+      "candidate_fact_id": "WCD10-B09-W003-F03",
+      "field": "one_sentence_summary",
+      "value": "国家图书馆数字馆藏将《童年》列为1945年出版的作品，并明确称其为自传性叙述。",
+      "source_refs": [
+        "WCD10-B09-S001"
+      ],
+      "evidence_summary": "国家图书馆数字馆藏将《童年》列为1945年出版的作品，并明确称其为自传性叙述。",
+      "locator": "BNDigital, line 50"
+    },
+    {
+      "candidate_fact_id": "WCD10-B09-F101",
+      "field": "genre_or_form",
+      "value": "诗集",
+      "source_refs": [
+        "WCD10-B09-S101"
+      ],
+      "locator": "Casa de la Literatura Peruana exhibition-history page, paras 41–44; opened 2026-10-12.",
+      "evidence_summary": "Bibliographic genre is repeated as a missing factual field; the linked institutional page identifies this poem collection.",
+      "claim_boundary": "Type label only; does not alter baseline publication record."
+    },
+    {
+      "candidate_fact_id": "WCD10-B09-F102",
+      "field": "one_sentence_summary",
+      "value": "这部早期诗集围绕家庭、故土、宗教与日常生活展开，机构展览资料将其描述为带有乡愁色彩的亲密作品。",
+      "source_refs": [
+        "WCD10-B09-S101"
+      ],
+      "locator": "Casa de la Literatura Peruana exhibition-history page, paras 41–44; opened 2026-10-12.",
+      "evidence_summary": "Casa identifies this as an early poem collection centered on home, family, native land, religion and everyday life.",
+      "claim_boundary": "No new year value; preserve the old 1918/1919 conflict."
+    },
+    {
+      "candidate_fact_id": "WCD10-B09-F103",
+      "field": "genre_or_form",
+      "value": "诗集",
+      "source_refs": [
+        "WCD10-B09-S101"
+      ],
+      "locator": "Casa de la Literatura Peruana exhibition-history page, paras 48–53; opened 2026-10-12.",
+      "evidence_summary": "Institutional page directly identifies Trilce as a poem collection.",
+      "claim_boundary": "Bounded to object description; no author-level inference."
+    },
+    {
+      "candidate_fact_id": "WCD10-B09-F104",
+      "field": "one_sentence_summary",
+      "value": "机构展览资料记载，该诗集大部分写于Vallejo在特鲁希略服刑期间，并将诗中监禁空间与自由愿望的张力联系起来。",
+      "source_refs": [
+        "WCD10-B09-S101"
+      ],
+      "locator": "Casa de la Literatura Peruana exhibition-history page, paras 48–53; opened 2026-10-12.",
+      "evidence_summary": "The institution reports most of Trilce was written during imprisonment and relates this setting to the work’s prison/freedom tension.",
+      "claim_boundary": "Bounded to object description; no author-level inference."
+    },
+    {
+      "candidate_fact_id": "WCD10-B09-F105",
+      "field": "genre_or_form",
+      "value": "诗集",
+      "source_refs": [
+        "WCD10-B09-S101"
+      ],
+      "locator": "Casa de la Literatura Peruana exhibition-history page, paras 68–71; opened 2026-10-12.",
+      "evidence_summary": "Institutional page directly identifies Poemas humanos as a poetry collection.",
+      "claim_boundary": "Keep composition span distinct from publication year; no new year atom added."
+    },
+    {
+      "candidate_fact_id": "WCD10-B09-F106",
+      "field": "one_sentence_summary",
+      "value": "这部诗集由1931至1937年间写作的诗作构成，Vallejo逝世后于1939年出版；机构文章指出Georgette Vallejo与Raúl Porras Barrenechea参与编排诗作。",
+      "source_refs": [
+        "WCD10-B09-S101"
+      ],
+      "locator": "Casa de la Literatura Peruana exhibition-history page, paras 68–71; opened 2026-10-12.",
+      "evidence_summary": "The institution says the poems were written 1931–1937 and posthumously published in 1939 with Georgette Vallejo and Raúl Porras Barrenechea determining their order.",
+      "claim_boundary": "Keep composition span distinct from publication year; no new year atom added."
+    },
+    {
+      "candidate_fact_id": "WCD10-B09-W101-F01",
+      "field": "first_publication_year",
+      "value": "1931",
+      "source_refs": [
+        "WCD10-B09-S102"
+      ],
+      "locator": "Historia de las literaturas en el Perú, vol. 5 PDF, printed pp. 40–41 / parsed lines 1109–1119 at P39; opened 2026-10-12.",
+      "evidence_summary": "The literary-history volume identifies El tungsteno as a novel and dates its Madrid publication to 1931.",
+      "claim_boundary": "Attribution is limited to this cited literary-history discussion."
+    },
+    {
+      "candidate_fact_id": "WCD10-B09-W101-F02",
+      "field": "genre_or_form",
+      "value": "小说",
+      "source_refs": [
+        "WCD10-B09-S102"
+      ],
+      "locator": "Historia de las literaturas en el Perú, vol. 5 PDF, printed pp. 40–41 / parsed lines 1109–1119 at P39; opened 2026-10-12.",
+      "evidence_summary": "The literary-history volume identifies El tungsteno as a novel and dates its Madrid publication to 1931.",
+      "claim_boundary": "Attribution is limited to this cited literary-history discussion."
+    },
+    {
+      "candidate_fact_id": "WCD10-B09-W101-F03",
+      "field": "one_sentence_summary",
+      "value": "小说以库斯科地区的钨矿和Mining Society为背景，描写Soras社区遭到土地剥夺并被迫进入矿井劳动的处境。",
+      "source_refs": [
+        "WCD10-B09-S102"
+      ],
+      "locator": "Historia de las literaturas en el Perú, vol. 5 PDF, printed pp. 40–41 / parsed lines 1109–1119 at P39; opened 2026-10-12.",
+      "evidence_summary": "The chapter calls it a social novel published in Madrid in 1931 and describes the mine, Mining Society and dispossession/forced mining labor of Soras.",
+      "claim_boundary": "Attribution is limited to this cited literary-history discussion."
+    },
+    {
+      "candidate_fact_id": "WCD10-B09-W102-F01",
+      "field": "first_publication_year",
+      "value": "1939",
+      "source_refs": [
+        "WCD10-B09-S103"
+      ],
+      "locator": "BNP Digital item record, heading and fields Fecha/Autores/Palabras clave at lines 18–47; opened 2026-10-12.",
+      "evidence_summary": "BNP catalogues a separately titled item as a 1939 book by Vallejo and indexes Spanish Civil War poetry.",
+      "claim_boundary": "1939 is the catalogued publication date, not a composition date; Casa reports uncertainty about the first Montserrat print history."
+    },
+    {
+      "candidate_fact_id": "WCD10-B09-W102-F02",
+      "field": "genre_or_form",
+      "value": "诗集",
+      "source_refs": [
+        "WCD10-B09-S101",
+        "WCD10-B09-S103"
+      ],
+      "locator": "Casa de la Literatura Peruana exhibition-history page, paras 71–80; opened 2026-10-12.",
+      "evidence_summary": "Casa identifies the title as a poem collection; BNP indexes it among poetry items.",
+      "claim_boundary": "1939 is the catalogued publication date, not a composition date; Casa reports uncertainty about the first Montserrat print history."
+    },
+    {
+      "candidate_fact_id": "WCD10-B09-W102-F03",
+      "field": "one_sentence_summary",
+      "value": "这部诗集由15首与西班牙内战相关的诗组成；机构出版史同时记录其独立题名及诗作被编入1939年《Poemas humanos》卷的情况。",
+      "source_refs": [
+        "WCD10-B09-S101",
+        "WCD10-B09-S103"
+      ],
+      "locator": "Casa de la Literatura Peruana exhibition-history page, paras 71–80; opened 2026-10-12.",
+      "evidence_summary": "Casa describes it as 15 poems related to the Spanish Civil War and also explains its relationship to the 1939 Poemas humanos volume.",
+      "claim_boundary": "1939 is the catalogued publication date, not a composition date; Casa reports uncertainty about the first Montserrat print history."
+    },
+    {
+      "candidate_fact_id": "WCD10-B09-W103-F01",
+      "field": "first_publication_year",
+      "value": "1923",
+      "source_refs": [
+        "WCD10-B09-S101",
+        "WCD10-B09-S102"
+      ],
+      "locator": "Historia de las literaturas en el Perú, vol. 5 PDF, chronology printed pp. 508–509 / parsed lines 17157–17160 at P512; opened 2026-10-12.",
+      "evidence_summary": "The literary-history volume chronology records the Escalas volume published in 1923.",
+      "claim_boundary": "Use original title Escalas; do not normalize the later Escalas melografiadas misreading into a separate object."
+    },
+    {
+      "candidate_fact_id": "WCD10-B09-W103-F02",
+      "field": "genre_or_form",
+      "value": "故事与叙事作品集",
+      "source_refs": [
+        "WCD10-B09-S101",
+        "WCD10-B09-S102"
+      ],
+      "locator": "Casa de la Literatura Peruana exhibition-history page, paras 56–60; opened 2026-10-12.",
+      "evidence_summary": "Casa directly describes Escalas as a collection of stories and narratives.",
+      "claim_boundary": "Use original title Escalas; do not normalize the later Escalas melografiadas misreading into a separate object."
+    },
+    {
+      "candidate_fact_id": "WCD10-B09-W103-F03",
+      "field": "one_sentence_summary",
+      "value": "作品分为Cuneiformes与Coro de Vientos两部分，各收六篇文本；机构介绍将前部与作者的监狱经历相连，并将后部描述为怪诞、幻想故事。",
+      "source_refs": [
+        "WCD10-B09-S101"
+      ],
+      "locator": "Casa de la Literatura Peruana exhibition-history page, paras 56–60; opened 2026-10-12.",
+      "evidence_summary": "Casa describes two sections of six texts each and characterizes the first and second parts.",
+      "claim_boundary": "Use original title Escalas; do not normalize the later Escalas melografiadas misreading into a separate object."
+    },
+    {
+      "candidate_fact_id": "WCD10-B09-W201-F01",
+      "author_id": "V1-ENT-0224",
+      "subject_ref": "WCD10-B09-W201",
+      "field": "first_publication_year",
+      "value": "1907",
+      "source_refs": [
+        "WCD10-B09-S201"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B09-S201",
+          "locator": "PDF p. 31, OCR lines 625–634 (title/year/main lyrical works list).",
+          "support_type": "direct_institutional_bibliographic_record",
+          "note": "The national-library research directly names the work and its place/year in the principal lyrical bibliography; translated Chinese title is provisional."
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B09-W201-F02",
+      "author_id": "V1-ENT-0224",
+      "subject_ref": "WCD10-B09-W201",
+      "field": "genre_or_form",
+      "value": "诗集（抒情诗）",
+      "source_refs": [
+        "WCD10-B09-S201"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B09-S201",
+          "locator": "PDF p. 31, OCR lines 625–634 (title/year/main lyrical works list).",
+          "support_type": "direct_institutional_bibliographic_record",
+          "note": "The national-library research directly names the work and its place/year in the principal lyrical bibliography; translated Chinese title is provisional."
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B09-W201-F03",
+      "author_id": "V1-ENT-0224",
+      "subject_ref": "WCD10-B09-W201",
+      "field": "one_sentence_summary",
+      "value": "国家图书馆研究将此书列入达里奥主要抒情作品，并记于《生命与希望之歌》之后出版。",
+      "source_refs": [
+        "WCD10-B09-S201"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B09-S201",
+          "locator": "PDF p. 31, OCR lines 625–634 (title/year/main lyrical works list).",
+          "support_type": "direct_institutional_bibliographic_record",
+          "note": "The national-library research directly names the work and its place/year in the principal lyrical bibliography; translated Chinese title is provisional."
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B09-F201",
+      "author_id": "V1-ENT-0224",
+      "subject_ref": "V1-ENT-0229",
+      "field": "genre_or_form",
+      "value": "诗歌与短篇叙事并收的作品集",
+      "source_refs": [
+        "WCD10-B09-S202"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B09-S202",
+          "locator": "正文第82–90行；实读日期2026-10-12。原文明确列诗与故事，并对多种文学传统/文化元素及艺术家与社会结构作具体说明。",
+          "support_type": "direct_institutional_bibliographic_record_or_work_commentary",
+          "note": "Direct source support; the note is a bounded object-level paraphrase, with no influence or movement attribution inferred."
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B09-F202",
+      "author_id": "V1-ENT-0224",
+      "subject_ref": "V1-ENT-0229",
+      "field": "one_sentence_summary",
+      "value": "本书兼收诗与短篇叙事；国家图书馆专题指出，作品吸收了其他文学传统与文化元素，并呈现艺术家面对当时社会结构的立场。",
+      "source_refs": [
+        "WCD10-B09-S202"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B09-S202",
+          "locator": "正文第82–90行；实读日期2026-10-12。原文明确列诗与故事，并对多种文学传统/文化元素及艺术家与社会结构作具体说明。",
+          "support_type": "direct_institutional_bibliographic_record_or_work_commentary",
+          "note": "Direct source support; the note is a bounded object-level paraphrase, with no influence or movement attribution inferred."
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B09-F203",
+      "author_id": "V1-ENT-0224",
+      "subject_ref": "V1-ENT-0230",
+      "field": "genre_or_form",
+      "value": "诗集（抒情诗）",
+      "source_refs": [
+        "WCD10-B09-S201"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B09-S201",
+          "locator": "PDF p. 31, OCR lines 625–639（书名、年份和主要抒情作品序列）。",
+          "support_type": "direct_institutional_bibliographic_record_or_work_commentary",
+          "note": "Direct source support; the note is a bounded object-level paraphrase, with no influence or movement attribution inferred."
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B09-F204",
+      "author_id": "V1-ENT-0224",
+      "subject_ref": "V1-ENT-0230",
+      "field": "one_sentence_summary",
+      "value": "书中强调词语的音乐性、异域色彩与暗示能力，体现达里奥对诗歌形式和用词的精细锤炼。",
+      "source_refs": [
+        "WCD10-B09-S201"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B09-S201",
+          "locator": "PDF第22页（全文行433–455）；实读日期2026-10-12。文本特指 Prosas profanas，说明词语选择重视音乐价值、异域性和暗示能力。",
+          "support_type": "direct_institutional_bibliographic_record_or_work_commentary",
+          "note": "Direct source support; the note is a bounded object-level paraphrase, with no influence or movement attribution inferred."
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B09-F205",
+      "author_id": "V1-ENT-0224",
+      "subject_ref": "V1-ENT-0231",
+      "field": "genre_or_form",
+      "value": "诗集（抒情诗）",
+      "source_refs": [
+        "WCD10-B09-S201"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B09-S201",
+          "locator": "PDF p. 31, OCR lines 625–639（书名、年份和主要抒情作品序列）。",
+          "support_type": "direct_institutional_bibliographic_record_or_work_commentary",
+          "note": "Direct source support; the note is a bounded object-level paraphrase, with no influence or movement attribution inferred."
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B09-F206",
+      "author_id": "V1-ENT-0224",
+      "subject_ref": "V1-ENT-0231",
+      "field": "one_sentence_summary",
+      "value": "该书为达里奥1905年出版的主要抒情诗集；国家图书馆书目研究将其置于《世俗的颂歌》之后。",
+      "source_refs": [
+        "WCD10-B09-S201"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B09-S201",
+          "locator": "PDF p. 31, OCR lines 625–639（书名、年份和主要抒情作品序列）。",
+          "support_type": "direct_institutional_bibliographic_record_or_work_commentary",
+          "note": "Direct source support; the note is a bounded object-level paraphrase, with no influence or movement attribution inferred."
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B09-W202-F01",
+      "author_id": "V1-ENT-0224",
+      "subject_ref": "WCD10-B09-W202",
+      "field": "first_publication_year",
+      "value": "1910",
+      "source_refs": [
+        "WCD10-B09-S203"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B09-S203",
+          "locator": "正文第86行；实读日期2026-10-12。",
+          "support_type": "direct_institutional_bibliographic_record",
+          "note": "University-backed author bibliography names the complete title Poema del otoño y otros poemas (1910), supporting this collection-level identity, year, form, and bounded bibliographic note."
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B09-W202-F02",
+      "author_id": "V1-ENT-0224",
+      "subject_ref": "WCD10-B09-W202",
+      "field": "genre_or_form",
+      "value": "诗歌作品集",
+      "source_refs": [
+        "WCD10-B09-S203"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B09-S203",
+          "locator": "正文第86行；实读日期2026-10-12。",
+          "support_type": "direct_institutional_bibliographic_record",
+          "note": "University-backed author bibliography names the complete title Poema del otoño y otros poemas (1910), supporting this collection-level identity, year, form, and bounded bibliographic note."
+        }
+      ]
+    },
+    {
+      "candidate_fact_id": "WCD10-B09-W202-F03",
+      "author_id": "V1-ENT-0224",
+      "subject_ref": "WCD10-B09-W202",
+      "field": "one_sentence_summary",
+      "value": "塞万提斯虚拟图书馆将本书列为达里奥晚期诗歌作品，并记载于1910年出版。",
+      "source_refs": [
+        "WCD10-B09-S203"
+      ],
+      "source_evidence": [
+        {
+          "source_ref": "WCD10-B09-S203",
+          "locator": "正文第86行；实读日期2026-10-12。",
+          "support_type": "direct_institutional_bibliographic_record",
+          "note": "University-backed author bibliography names the complete title Poema del otoño y otros poemas (1910), supporting this collection-level identity, year, form, and bounded bibliographic note."
+        }
+      ]
+    }
+  ],
+  "baseline_database_sha256": "af6c293aa32d86143f2be6f4c4ed414799086f8878df22b13a7356397ebd6050",
+  "source_policies": {
+    "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/project/internal/WCD_10_WORKSPACE/orchestration/wave-06/dario": "Every candidate fact has directly opened source evidence with a short locator and bounded support note."
+  },
+  "access_log": [
+    {
+      "candidate_id": "WCD10-B09-S101",
+      "url": "https://www.casadelaliteratura.gob.pe/cesar-vallejo-la-historia-detras-la-publicacion-obras/",
+      "accessed_at": "2026-10-12",
+      "status": "OPENED",
+      "locator": "Web tool opened page; lines 28–84 include exhibition description and work-specific sections."
+    },
+    {
+      "candidate_id": "WCD10-B09-S102",
+      "url": "https://www.casadelaliteratura.gob.pe/wp-content/uploads/2023/03/Historia-de-la-literatura-Vol-5-final.pdf",
+      "accessed_at": "2026-10-12",
+      "status": "OPENED",
+      "locator": "Web tool opened 552-page PDF; title/copyright metadata at P4–P5; El tungsteno discussion at P39; Vallejo narrative chronology at P512."
+    },
+    {
+      "candidate_id": "WCD10-B09-S103",
+      "url": "https://memoriaypapel.bnp.gob.pe/items/4665561f-5d41-4b28-a9cc-1bbeeb8fcfed",
+      "accessed_at": "2026-10-12",
+      "status": "OPENED",
+      "locator": "Web tool opened BNP Digital catalog record; lines 18–60 include title, PDF, date, authors and subject headings."
+    }
+  ]
+}

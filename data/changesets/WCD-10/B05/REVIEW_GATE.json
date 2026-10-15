@@ -1,0 +1,57 @@
+{
+  "verdict": "PASS",
+  "task_id": "TASK-110",
+  "batch_id": "WCD-10-B05",
+  "reviewer": "Codex-parent-independent-review",
+  "reviewed_at": "2026-10-07",
+  "checkpoint_date": "2026-10-07",
+  "review_scope": "Bounded B05 integration subset; original W03 remains deferred and mandatory before TASK-127; independent SQL review still required",
+  "packages": [
+    {
+      "file": "CANDIDATES.json",
+      "sha256": "5447e33567284bb7d60c7525674d67fd7da35a5505025f88e1510e0b7fcb8ffe",
+      "verdict": "PASS"
+    }
+  ],
+  "coverage_sha256": "66baf0a923334b48862f0b7ac4c3aa0dc843384bf9b07d3ba020f7bc0ce48580",
+  "registration_sha256": "69665fa852a4cc978a8933768dbfa9f515234b25ba9fa832334c64271a90e050",
+  "evidence_matrix_sha256": "06de365fcc6737ef9b2f4d51ff3373733c0b6a0241f25c67c281382ffad0d482",
+  "deferred_candidate_sha256": "a49cd6f1f4ddc3977077f89d0303895c6aa62020fd776c7e87e560674cac5ad4",
+  "baseline_database_sha256": "45e8d72c3656f762f4a34f664c822c33685be925b53553b91b19041d6835b47d",
+  "boundaries": [
+    "Research-only; no public/Curation/Schema policy change",
+    "Eight objects,44 facts,eight CREATED and one bounded SET_IN",
+    "W03 USER policy pending: exact proposal/evidence held; no year/formalID/CREATED; must re-enter before final stage completion",
+    "S18 deferred only; S24/S25 C reprints remain C; coverage-only sources registered without scholarly claims",
+    "F16 append-only bibliographic correction; preserve FCT0309 old row/SRC0099/origin error and HOLD0043 unchanged",
+    "W09 later version contents never asserted in1949 initial edition",
+    "W10 1958/2013 cover evidence split retained",
+    "Standalone SQL/map review and exact baseline approval needed before apply"
+  ],
+  "conflict_review": {
+    "schema": "wcd10-append-only-conflict-review-1",
+    "decision": "APPROVE_EXACT_APPEND_ONLY_CORRECTIONS",
+    "reviewer": "Codex-parent-independent-review",
+    "reviewed_at": "2026-10-07",
+    "baseline_database_sha256": "45e8d72c3656f762f4a34f664c822c33685be925b53553b91b19041d6835b47d",
+    "candidate_content_sha256": "784119c04594a8ca25903414b3ac052e68a6ca175f86b611c9e5e86af213c7df",
+    "reviewed_conflicts": [
+      {
+        "candidate_id": "WCD10-B05-F16",
+        "subject_id": "V1-ENT-0154",
+        "field": "bibliographic_note",
+        "new_value": "首版：墨西哥城 Cuadernos Americanos，1950；Fondo de Cultura Económica 版，1959。",
+        "source_refs": [
+          "WCD10-B05-S23"
+        ],
+        "existing_facts": [
+          {
+            "fact_id": "V1-FCT-0309",
+            "value": "诺贝尔书目页未列西语原版；英译 The Labyrinth of Solitude（tr. Lysander Kemp）Penguin 1985；poets.org 标初版 FCE 1950"
+          }
+        ],
+        "decision": "APPEND_ONLY_BIBLIOGRAPHIC_CORRECTION"
+      }
+    ]
+  }
+}

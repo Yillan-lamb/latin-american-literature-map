@@ -1,0 +1,1831 @@
+{
+  "schema": "wcd10-candidate-change-set-1",
+  "baseline_commit": "05f3372c69a54ec331d31b05d16c8288d6d3a993",
+  "status": "merged_candidate_parent_review_pending",
+  "accessed_at": "2026-10-13",
+  "public_boundary": "Research candidates only; no automatic Curation or public admission.",
+  "task_id": "TASK-117",
+  "batch_id": "WCD-10-B12",
+  "baseline_database_sha256": "7152ecc903ef7b610440a5173b0dd79d28ce25358b53ffa42512da6eb615db67",
+  "author_ids": [
+    "V1-ENT-0250",
+    "V1-ENT-0260",
+    "V1-ENT-0261"
+  ],
+  "sources": [
+    {
+      "candidate_id": "WCD10-B12-S001",
+      "url": "https://cvc.cervantes.es/actcult/arreola/bibliografia/bibliografiabasica.htm",
+      "title": "CVC. Juan José Arreola. Bibliografía",
+      "author_or_editor": "Centro Virtual Cervantes",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "页面行8-11列出Confabulario（1952）、La hora de todos [Juguete cómico en un acto]（1954）、La feria（1963）、Palindroma（1971）、Bestiario（1972）等作者作品及版本书目；实读2026-10-13。",
+      "usage": "仅支持页面明确列出的作品题名与书目版本/年份，作品层级限于书目能直接识别者。",
+      "disposition": "reuse",
+      "reuse_existing_source": "SRC-0203",
+      "candidate_ids": [
+        "WCD10-B12-W001-F01",
+        "WCD10-B12-W001-F02",
+        "WCD10-B12-W001-F03",
+        "WCD10-B12-W001-F04",
+        "WCD10-B12-W002-F01",
+        "WCD10-B12-W002-F04",
+        "WCD10-B12-W003-F01",
+        "WCD10-B12-W003-F04",
+        "WCD10-B12-F003",
+        "WCD10-B12-F004",
+        "WCD10-B12-F005"
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B12-S002",
+      "url": "https://cvc.cervantes.es/actcult/arreola/biografia.htm",
+      "title": "CVC. Juan José Arreola. Biografía",
+      "author_or_editor": "Centro Virtual Cervantes；作者署名 Luis Miguel Madrid",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "页面行22-29及注释行38-39：说明La hora de todos为1954戏剧文本、Bestiario首版名Punta de plata、La feria为Arreola唯一小说并源自关于父亲及Zapotlán的笔记；实读2026-10-13。",
+      "usage": "支持受限作品简介和文体边界；不据此补充页面未述的具体情节或主题。",
+      "candidate_ids": [
+        "WCD10-B12-F004",
+        "WCD10-B12-F005",
+        "WCD10-B12-F006"
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B12-S003",
+      "url": "https://cvc.cervantes.es/actcult/arreola/indice.htm",
+      "title": "CVC. Juan José Arreola. Índice",
+      "author_or_editor": "Centro Virtual Cervantes",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "页面行15-36以Bestiario为栏目列出动物题名（如El rinoceronte、Aves de rapiña、El oso、La jirafa、El elefante等）；实读2026-10-13。",
+      "usage": "仅支持Bestiario包含以动物命名的短篇栏目标题，不推断作者未陈述的寓意或主题。",
+      "candidate_ids": [
+        "WCD10-B12-F003",
+        "WCD10-B12-F004"
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B12-S004",
+      "url": "https://www.elem.mx/obra/datos/151",
+      "title": "Palindroma - Detalle de la obra - Enciclopedia de la Literatura en México",
+      "disposition": "fresh_registration",
+      "candidate_ids": [
+        "WCD10-B12-W003-F02",
+        "WCD10-B12-W003-F03"
+      ],
+      "author_or_editor": "Fundación para las Letras Mexicanas; Secretaría General Iberoamericana",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "页面行63、69-79列题名、作者、1971年Joaquín Mortiz第一版及Género: Narrativa - Cuento - Libros individuales；行93-97为2016版封底简介，称书中作品可正读或倒读；实读2026-10-13。",
+      "usage": "支持Palindroma的叙事短篇/单行本分类，以及仅限2016版封底所述的文字游戏式作品描述；不将2016版当首版。"
+    },
+    {
+      "candidate_id": "WCD10-B12-S005",
+      "url": "https://www.elem.mx/obra/datos/147",
+      "title": "Confabulario ; Varia invención : 1951-1955 - Detalle de la obra - Enciclopedia de la Literatura en México",
+      "disposition": "fresh_registration",
+      "candidate_ids": [
+        "WCD10-B12-W002-F02",
+        "WCD10-B12-W002-F03",
+        "WCD10-B12-W002-F04",
+        "WCD10-B12-F001",
+        "WCD10-B12-F002"
+      ],
+      "author_or_editor": "Fundación para las Letras Mexicanas; Secretaría General Iberoamericana",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "页面行4、8-16标出Confabulario ; Varia invención : 1951-1955合刊，作者Arreola、1955年Fondo de Cultura Económica、Género: Narrativa - Cuento - Libros individuales；行23-24称该卷呈现两部作品，文本汇聚不同形态与意图的narraciones；实读2026-10-13。",
+      "usage": "支持两项作品在叙事短篇目录下的体裁及1955合刊含多篇叙事文本的有限说明；该合刊不作为Varia invención的首版年份，不建立合刊重复实体。"
+    },
+    {
+      "candidate_id": "WCD10-B12-S101",
+      "url": "https://fundacionelenaponiatowska.org/hasta-no-verte-jesus-mio",
+      "title": "Hasta no verte jesus mio | Fundación Elena Poniatowska Amor A.C.",
+      "disposition": "fresh_registration",
+      "author_or_editor": "Fundación Elena Poniatowska Amor A.C.",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "Líneas 90-98 presenta a Jesusa Palancares, su experiencia revolucionaria y urbana, y califica la obra como relato-testimonio; líneas 118-141 y 211-218 listan distintas ediciones. 实读日期2026-10-13。",
+      "usage": "支持既有作品的体裁与受限内容简介；不将2023再版日期视作首版年。",
+      "candidate_ids": [
+        "WCD10-B12-F101",
+        "WCD10-B12-F102"
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B12-S102",
+      "url": "https://fundacionelenaponiatowska.org/la-noche-de-tlatelolco",
+      "title": "La noche de Tlatelolco | Fundación Elena Poniatowska Amor A.C.",
+      "disposition": "fresh_registration",
+      "author_or_editor": "Fundación Elena Poniatowska Amor A.C.",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "第129-131行说明作品自1971年问世、由多元声音/证言重构1968学生运动与10月2日事件；第90-96行标作者与书名。 实读日期2026-10-13。",
+      "usage": "支持既有作品的纪实体裁与有界简介；出版年采用同页明确的1971信息。",
+      "candidate_ids": [
+        "WCD10-B12-F103",
+        "WCD10-B12-F104"
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B12-S103",
+      "url": "https://www.elem.mx/obra/datos/2566",
+      "title": "Tinísima - Detalle de la obra - Enciclopedia de la Literatura en México - FLM",
+      "disposition": "fresh_registration",
+      "author_or_editor": "Fundación para las Letras Mexicanas / Enciclopedia de la Literatura en México",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "第4-19行列作者、1992年首版、出版社及小说类别；第48-58行提供Tina Modotti人生的内容介绍。 实读日期2026-10-13。",
+      "usage": "支持既有《Tinísima》的小说体裁、受限简介；既有年份事实与来源链保留。",
+      "candidate_ids": [
+        "WCD10-B12-F105",
+        "WCD10-B12-F106",
+        "WCD10-B12-W102"
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B12-S104",
+      "url": "https://fundacionelenaponiatowska.org/tinisima",
+      "title": "Tinísima | Fundación Elena Poniatowska Amor A.C.",
+      "disposition": "fresh_registration",
+      "author_or_editor": "Fundación Elena Poniatowska Amor A.C.",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "第90-97行说明作品为小说并概述Tina Modotti的摄影、艺术、政治活动与人生经历。 实读日期2026-10-13。",
+      "usage": "作为作者基金会直接简介交叉支持既有作品的简述；其页面重版年份不用于首版年份。",
+      "candidate_ids": [
+        "WCD10-B12-F106"
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B12-S105",
+      "url": "https://fundacionelenaponiatowska.org/querido-diego",
+      "title": "Querido Diego | Fundación Elena Poniatowska Amor A.C.",
+      "disposition": "fresh_registration",
+      "author_or_editor": "Fundación Elena Poniatowska Amor A.C.",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "第90-97行列作者，简述Angelina Beloff写信给Diego Rivera的虚构书信框架，并称其为短篇小说；第110-122行列Era 1978版本。 实读日期2026-10-13。",
+      "usage": "支持新增作品归属、书信体小说形态、简介及已见1978版信息。",
+      "candidate_ids": [
+        "WCD10-B12-W101"
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B12-S106",
+      "url": "https://www.elem.mx/obra/datos/204493",
+      "title": "Fuerte es el silencio - Detalle de la obra - Enciclopedia de la Literatura en México - FLM",
+      "disposition": "fresh_registration",
+      "author_or_editor": "Fundación para las Letras Mexicanas / Enciclopedia de la Literatura en México",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "第4-20行列作者、1980年首版、出版社及Narrativa-Crónica分类；第40-48行介绍书中五组关于城市移民、1968运动、政治犯及Cuernavaca社区的纪实叙事。 实读日期2026-10-13。",
+      "usage": "支持新增作品归属、纪实体裁、首版年及受限内容简介。",
+      "candidate_ids": [
+        "WCD10-B12-W102"
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B12-S201",
+      "url": "https://www.cervantes.es/bibliotecas_documentacion_espanol/creadores/jose_emilio_pacheco_cronologia.htm",
+      "title": "José Emilio Pacheco. Cronología de obras",
+      "disposition": "reuse_existing_source",
+      "reuse_existing_source": "SRC-0208",
+      "candidate_ids": [
+        "WCD10-B12-W201",
+        "WCD10-B12-F202",
+        "WCD10-B12-F203",
+        "WCD10-B12-F204",
+        "WCD10-B12-W202",
+        "WCD10-B12-F205",
+        "WCD10-B12-W203",
+        "WCD10-B12-F209",
+        "WCD10-B12-F210",
+        "WCD10-B12-F211",
+        "WCD10-B12-F212",
+        "WCD10-B12-W204",
+        "WCD10-B12-F213",
+        "WCD10-B12-F214",
+        "WCD10-B12-F215",
+        "WCD10-B12-F216",
+        "WCD10-B12-W205",
+        "WCD10-B12-F217",
+        "WCD10-B12-F218",
+        "WCD10-B12-F219",
+        "WCD10-B12-F220",
+        "WCD10-B12-W206",
+        "WCD10-B12-F221",
+        "WCD10-B12-F222",
+        "WCD10-B12-F223",
+        "WCD10-B12-W207",
+        "WCD10-B12-F224",
+        "WCD10-B12-F225",
+        "WCD10-B12-F226",
+        "WCD10-B12-F227",
+        "WCD10-B12-W208",
+        "WCD10-B12-F228",
+        "WCD10-B12-F229",
+        "WCD10-B12-F230",
+        "WCD10-B12-W209",
+        "WCD10-B12-F231",
+        "WCD10-B12-F232",
+        "WCD10-B12-F233",
+        "WCD10-B12-W210",
+        "WCD10-B12-F234",
+        "WCD10-B12-F235",
+        "WCD10-B12-F236",
+        "WCD10-B12-F237",
+        "WCD10-B12-W211",
+        "WCD10-B12-F238",
+        "WCD10-B12-F239",
+        "WCD10-B12-F240",
+        "WCD10-B12-F241",
+        "WCD10-B12-W212",
+        "WCD10-B12-F242",
+        "WCD10-B12-F243",
+        "WCD10-B12-F244",
+        "WCD10-B12-F245",
+        "WCD10-B12-W213",
+        "WCD10-B12-F246",
+        "WCD10-B12-F247",
+        "WCD10-B12-F248",
+        "WCD10-B12-F249",
+        "WCD10-B12-W214",
+        "WCD10-B12-F250",
+        "WCD10-B12-F251",
+        "WCD10-B12-F252",
+        "WCD10-B12-F253",
+        "WCD10-B12-W215",
+        "WCD10-B12-F254",
+        "WCD10-B12-F255",
+        "WCD10-B12-F256",
+        "WCD10-B12-F257",
+        "WCD10-B12-W216",
+        "WCD10-B12-F258",
+        "WCD10-B12-F259",
+        "WCD10-B12-F260",
+        "WCD10-B12-F261",
+        "WCD10-B12-W218",
+        "WCD10-B12-F266",
+        "WCD10-B12-F267",
+        "WCD10-B12-F268",
+        "WCD10-B12-F269"
+      ],
+      "author_or_editor": "Instituto Cervantes",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "Cervantes年表第47-100行按诗歌、小说与散文列出题名及年份；第104行标明2015年8月更新。实读2026-10-13。",
+      "usage": "复用同URL基线来源，实读定位后用于直接书目、作品类别或有限简介，不升高来源等级。"
+    },
+    {
+      "candidate_id": "WCD10-B12-S202",
+      "url": "https://colnal.mx/integrantes/jose-emilio-pacheco/",
+      "title": "José Emilio Pacheco — El Colegio Nacional",
+      "disposition": "reuse_existing_source",
+      "reuse_existing_source": "SRC-0209",
+      "candidate_ids": [
+        "WCD10-B12-W201",
+        "WCD10-B12-W202",
+        "WCD10-B12-W206",
+        "WCD10-B12-W208",
+        "WCD10-B12-W209",
+        "WCD10-B12-F204",
+        "WCD10-B12-F205",
+        "WCD10-B12-F206",
+        "WCD10-B12-F222",
+        "WCD10-B12-F223",
+        "WCD10-B12-F229",
+        "WCD10-B12-F230",
+        "WCD10-B12-F232",
+        "WCD10-B12-F233",
+        "WCD10-B12-F236",
+        "WCD10-B12-F237",
+        "WCD10-B12-F248",
+        "WCD10-B12-F249",
+        "WCD10-B12-F252",
+        "WCD10-B12-F253",
+        "WCD10-B12-F255",
+        "WCD10-B12-F256",
+        "WCD10-B12-F257",
+        "WCD10-B12-F260",
+        "WCD10-B12-F261"
+      ],
+      "author_or_editor": "El Colegio Nacional",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "El Colegio Nacional页面第26-27、38-42行直接列作品体裁、精选作品、年份及诗集/小说/短篇集/散文集信息。实读2026-10-13。",
+      "usage": "复用同URL基线来源，实读定位后用于直接书目、作品类别或有限简介，不升高来源等级。"
+    },
+    {
+      "candidate_id": "WCD10-B12-S203",
+      "url": "https://literaturaalacarta.cepe.unam.mx/autor.php?id_autor=45",
+      "title": "José Emilio Pacheco — Literatura a la carta",
+      "disposition": "reuse_existing_source",
+      "reuse_existing_source": "SRC-0210",
+      "candidate_ids": [],
+      "author_or_editor": "CEPE-UNAM",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "CEPE-UNAM作者页第14-26行直接列出代表作品及年份、作品形态；实读2026-10-13。",
+      "usage": "复用同URL基线来源，实读定位后用于直接书目、作品类别或有限简介，不升高来源等级。"
+    },
+    {
+      "candidate_id": "WCD10-B12-S204",
+      "url": "https://www.elem.mx/obra/datos/5751",
+      "title": "El reposo del fuego — Detalle de la obra — Enciclopedia de la Literatura en México",
+      "disposition": "fresh_registration",
+      "candidate_ids": [
+        "WCD10-B12-W202",
+        "WCD10-B12-F205",
+        "WCD10-B12-F206",
+        "WCD10-B12-F207",
+        "WCD10-B12-F208"
+      ],
+      "author_or_editor": "Enciclopedia de la Literatura en México",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "第9-19行给作者、首版墨西哥城/Fondo de Cultura Económica、1966年、诗歌个人诗集；第37-43行为1966版和2009版封底文字，明确作品为分三部分/歌章的单一长诗及其简要内容。实读2026-10-13。",
+      "usage": "本轮实读的机构书目/出版物说明；仅支持作品身份、出版信息、体裁与页面明确记载的有限简介。"
+    },
+    {
+      "candidate_id": "WCD10-B12-S205",
+      "url": "https://cvc.cervantes.es/el_rinconete/anteriores/mayo_06/11052006_02.htm",
+      "title": "José Emilio Pacheco — Rinconete, Centro Virtual Cervantes",
+      "disposition": "fresh_registration",
+      "candidate_ids": [
+        "WCD10-B12-W212",
+        "WCD10-B12-F242",
+        "WCD10-B12-F243",
+        "WCD10-B12-F244",
+        "WCD10-B12-F245"
+      ],
+      "author_or_editor": "Concepción Bados Ciria",
+      "source_level": "B",
+      "access_status": "OPENED",
+      "locator": "第13-19行列诗集、诗选与叙述作品；第14行明确En resumidas cuentas (2005)为选集，收录1958至2000年作品。实读2026-10-13。",
+      "usage": "本轮实读的机构书目/出版物说明；仅支持作品身份、出版信息、体裁与页面明确记载的有限简介。"
+    }
+  ],
+  "new_entities": [
+    {
+      "candidate_id": "WCD10-B12-W001",
+      "author_id": "V1-ENT-0250",
+      "entity_type": "work",
+      "original_name": "La hora de todos",
+      "name_zh_candidate": "《众人的时刻》",
+      "name_policy": "中文为检索工作译名，西班牙语原题为身份锚点，不声称存在正式中文译本。",
+      "rationale": "CVC基本书目直接列出作品和1954书目，注明为独幕喜剧；补录一部有直接书目依据的戏剧作品。",
+      "created_source_refs": [
+        "WCD10-B12-S001",
+        "WCD10-B12-S002"
+      ],
+      "facts": [
+        {
+          "field": "first_publication_year",
+          "value": "1954",
+          "source_refs": [
+            "WCD10-B12-S001"
+          ],
+          "fact_candidate_id": "WCD10-B12-W001-F01"
+        },
+        {
+          "field": "genre_or_form",
+          "value": "独幕喜剧剧本",
+          "source_refs": [
+            "WCD10-B12-S001"
+          ],
+          "fact_candidate_id": "WCD10-B12-W001-F02"
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "一部独幕喜剧剧本；CVC所列书目未提供具体剧情概要。",
+          "source_refs": [
+            "WCD10-B12-S001"
+          ],
+          "fact_candidate_id": "WCD10-B12-W001-F03"
+        },
+        {
+          "field": "bibliographic_note",
+          "value": "CVC基本书目列作 La hora de todos [Juguete cómico en un acto]，墨西哥 Ediciones Los Presentes，1954。",
+          "source_refs": [
+            "WCD10-B12-S001"
+          ],
+          "fact_candidate_id": "WCD10-B12-W001-F04"
+        }
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B12-W002",
+      "author_id": "V1-ENT-0250",
+      "entity_type": "collection",
+      "original_name": "Varia invención",
+      "name_zh_candidate": "《多种发明》",
+      "name_policy": "中文为检索工作译名，西班牙语原题为身份锚点，不声称存在正式中文译本。",
+      "rationale": "CVC基本书目列出1949年Fondo de Cultura Económica版；CVC生平指出该书为作者获得认可的早期作品之一。按DEC-070补主要作品的基本书目与受限内容。",
+      "created_source_refs": [
+        "WCD10-B12-S001",
+        "WCD10-B12-S002"
+      ],
+      "facts": [
+        {
+          "field": "first_publication_year",
+          "value": "1949",
+          "source_refs": [
+            "WCD10-B12-S001"
+          ],
+          "fact_candidate_id": "WCD10-B12-W002-F01"
+        },
+        {
+          "field": "genre_or_form",
+          "value": "短篇叙事作品集（Narrativa - Cuento）",
+          "source_refs": [
+            "WCD10-B12-S005"
+          ],
+          "fact_candidate_id": "WCD10-B12-W002-F02"
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "ELEM将《Confabulario》与《Varia invención》一并归入叙事短篇，并称1955年合刊汇集了多篇不同形态与意图的叙事文本。",
+          "source_refs": [
+            "WCD10-B12-S005"
+          ],
+          "fact_candidate_id": "WCD10-B12-W002-F03"
+        },
+        {
+          "field": "bibliographic_note",
+          "value": "CVC记录《Varia invención》1949年Fondo de Cultura Económica版；ELEM另载《Confabulario ; Varia invención : 1951-1955》1955年合刊，两条书目不改变1949年单行本年份。",
+          "source_refs": [
+            "WCD10-B12-S001",
+            "WCD10-B12-S005"
+          ],
+          "fact_candidate_id": "WCD10-B12-W002-F04"
+        }
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B12-W003",
+      "author_id": "V1-ENT-0250",
+      "entity_type": "collection",
+      "original_name": "Palindroma",
+      "name_zh_candidate": "《回文》",
+      "name_policy": "中文为检索工作译名，西班牙语原题为身份锚点，不声称存在正式中文译本。",
+      "rationale": "CVC基本书目直接列出1971年Joaquín Mortiz版。纳入主要作品书目；简介限于作品集身份，不推测篇目和主题。",
+      "created_source_refs": [
+        "WCD10-B12-S001"
+      ],
+      "facts": [
+        {
+          "field": "first_publication_year",
+          "value": "1971",
+          "source_refs": [
+            "WCD10-B12-S001"
+          ],
+          "fact_candidate_id": "WCD10-B12-W003-F01"
+        },
+        {
+          "field": "genre_or_form",
+          "value": "短篇叙事作品集（Narrativa - Cuento）",
+          "source_refs": [
+            "WCD10-B12-S004"
+          ],
+          "fact_candidate_id": "WCD10-B12-W003-F02"
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "ELEM的2016年版封底称书中部分篇章可以正读或倒读；此简介限于该版封底对文字游戏形式的描述。",
+          "source_refs": [
+            "WCD10-B12-S004"
+          ],
+          "fact_candidate_id": "WCD10-B12-W003-F03"
+        },
+        {
+          "field": "bibliographic_note",
+          "value": "CVC基本书目列 México, Joaquín Mortiz, 1971。",
+          "source_refs": [
+            "WCD10-B12-S001"
+          ],
+          "fact_candidate_id": "WCD10-B12-W003-F04"
+        }
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B12-W101",
+      "author_id": "V1-ENT-0260",
+      "entity_type": "work",
+      "original_name": "Querido Diego, te abraza Quiela",
+      "name_zh_candidate": "《亲爱的迭戈，奎埃拉致意》",
+      "name_policy": "中文为检索工作译名，西班牙语原题为身份锚点，不声称存在正式中文译本。",
+      "rationale": "基线作者作品清单仅有三部既有作品；此项是可由作者基金会或墨西哥文学百科直接核对的主要独立作品，按DEC-070有界补录，不表示全集完备。",
+      "created_source_refs": [
+        "WCD10-B12-S105"
+      ],
+      "facts": [
+        {
+          "field": "genre_or_form",
+          "value": "书信体小说",
+          "source_refs": [
+            "WCD10-B12-S105"
+          ],
+          "fact_candidate_id": "WCD10-B12-W101-F02"
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "作品以Angelina Beloff写给Diego Rivera的想象书信为叙述形式，描写她在巴黎的孤独、创作与被遗弃处境。",
+          "source_refs": [
+            "WCD10-B12-S105"
+          ],
+          "fact_candidate_id": "WCD10-B12-W101-F03"
+        },
+        {
+          "field": "bibliographic_note",
+          "value": "作者基金会页面列出Ediciones Era于1978年出版的版本；本候选据此记录版本信息，不据此单独断定首版年。",
+          "source_refs": [
+            "WCD10-B12-S105"
+          ],
+          "fact_candidate_id": "WCD10-B12-W101-F04"
+        }
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B12-W102",
+      "author_id": "V1-ENT-0260",
+      "entity_type": "work",
+      "original_name": "Fuerte es el silencio",
+      "name_zh_candidate": "《沉默坚如磐石》",
+      "name_policy": "中文为检索工作译名，西班牙语原题为身份锚点，不声称存在正式中文译本。",
+      "rationale": "基线作者作品清单仅有三部既有作品；此项是可由作者基金会或墨西哥文学百科直接核对的主要独立作品，按DEC-070有界补录，不表示全集完备。",
+      "created_source_refs": [
+        "WCD10-B12-S106"
+      ],
+      "facts": [
+        {
+          "field": "first_publication_year",
+          "value": "1980",
+          "source_refs": [
+            "WCD10-B12-S106"
+          ],
+          "fact_candidate_id": "WCD10-B12-W102-F01"
+        },
+        {
+          "field": "genre_or_form",
+          "value": "纪实编年（crónica）",
+          "source_refs": [
+            "WCD10-B12-S106"
+          ],
+          "fact_candidate_id": "WCD10-B12-W102-F02"
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "全书以五组纪实叙事记录城市移民、1968运动记忆、政治犯家属及Cuernavaca社区行动。",
+          "source_refs": [
+            "WCD10-B12-S106"
+          ],
+          "fact_candidate_id": "WCD10-B12-W102-F03"
+        },
+        {
+          "field": "bibliographic_note",
+          "value": "墨西哥文学百科列1980年Era首版，并标为Narrativa-Crónica。",
+          "source_refs": [
+            "WCD10-B12-S106"
+          ],
+          "fact_candidate_id": "WCD10-B12-W102-F04"
+        }
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B12-W201",
+      "author_id": "V1-ENT-0261",
+      "entity_type": "collection",
+      "original_name": "Los elementos de la noche",
+      "name_zh_candidate": "《夜的元素》",
+      "name_policy": "中文为检索工作译名；西班牙语原题为身份锚点，不声称存在正式中文译本。",
+      "rationale": "Cervantes机构年表直接列出题名、分类与书目年份；只补有来源的书目、体裁和边界简介。",
+      "created_source_refs": [
+        "WCD10-B12-S201",
+        "WCD10-B12-S202"
+      ],
+      "facts": [
+        {
+          "field": "genre_or_form",
+          "value": "诗集",
+          "source_refs": [
+            "WCD10-B12-S201"
+          ],
+          "fact_candidate_id": "WCD10-B12-F202"
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "Cervantes年表将其列入帕切科诗歌书目。",
+          "source_refs": [
+            "WCD10-B12-S201"
+          ],
+          "fact_candidate_id": "WCD10-B12-F203"
+        },
+        {
+          "field": "bibliographic_note",
+          "value": "Instituto Cervantes年表列1963，Colegio Nacional列1962；首发年份口径待核，暂不填原子年份。",
+          "source_refs": [
+            "WCD10-B12-S201",
+            "WCD10-B12-S202"
+          ],
+          "fact_candidate_id": "WCD10-B12-F204"
+        }
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B12-W202",
+      "author_id": "V1-ENT-0261",
+      "entity_type": "work",
+      "original_name": "El reposo del fuego",
+      "name_zh_candidate": "《火的安息》",
+      "name_policy": "中文为检索工作译名；西班牙语原题为身份锚点，不声称存在正式中文译本。",
+      "rationale": "Enciclopedia de la Literatura en México直接记录1966年首版和出版者，并将作品说明为分三部分/歌章的单一长诗；Cervantes与Colegio Nacional也直接列诗作/1966书目。",
+      "created_source_refs": [
+        "WCD10-B12-S201",
+        "WCD10-B12-S202",
+        "WCD10-B12-S204"
+      ],
+      "facts": [
+        {
+          "field": "first_publication_year",
+          "value": "1966",
+          "source_refs": [
+            "WCD10-B12-S201",
+            "WCD10-B12-S202",
+            "WCD10-B12-S204"
+          ],
+          "fact_candidate_id": "WCD10-B12-F205"
+        },
+        {
+          "field": "genre_or_form",
+          "value": "长诗",
+          "source_refs": [
+            "WCD10-B12-S202",
+            "WCD10-B12-S204"
+          ],
+          "fact_candidate_id": "WCD10-B12-F206"
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "全诗由三个部分（歌章）构成，是一首结构统一的长诗。",
+          "source_refs": [
+            "WCD10-B12-S204"
+          ],
+          "fact_candidate_id": "WCD10-B12-F207"
+        },
+        {
+          "field": "bibliographic_note",
+          "value": "Enciclopedia de la Literatura en México记录1966年墨西哥城Fondo de Cultura Económica首版；该页将作品归为单首、分三部分的长诗。",
+          "source_refs": [
+            "WCD10-B12-S204"
+          ],
+          "fact_candidate_id": "WCD10-B12-F208"
+        }
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B12-W203",
+      "author_id": "V1-ENT-0261",
+      "entity_type": "collection",
+      "original_name": "Irás y no volverás",
+      "name_zh_candidate": "《你将去而不返》",
+      "name_policy": "中文为检索工作译名；西班牙语原题为身份锚点，不声称存在正式中文译本。",
+      "rationale": "Cervantes机构年表直接列出题名、分类与书目年份；只补有来源的书目、体裁和边界简介。",
+      "created_source_refs": [
+        "WCD10-B12-S201"
+      ],
+      "facts": [
+        {
+          "field": "first_publication_year",
+          "value": "1973",
+          "source_refs": [
+            "WCD10-B12-S201"
+          ],
+          "fact_candidate_id": "WCD10-B12-F209"
+        },
+        {
+          "field": "genre_or_form",
+          "value": "诗集",
+          "source_refs": [
+            "WCD10-B12-S201"
+          ],
+          "fact_candidate_id": "WCD10-B12-F210"
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "Cervantes年表将其列入帕切科诗歌书目。",
+          "source_refs": [
+            "WCD10-B12-S201"
+          ],
+          "fact_candidate_id": "WCD10-B12-F211"
+        },
+        {
+          "field": "bibliographic_note",
+          "value": "Cervantes年表将其列入帕切科诗歌书目。",
+          "source_refs": [
+            "WCD10-B12-S201"
+          ],
+          "fact_candidate_id": "WCD10-B12-F212"
+        }
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B12-W204",
+      "author_id": "V1-ENT-0261",
+      "entity_type": "collection",
+      "original_name": "Islas a la deriva",
+      "name_zh_candidate": "《漂流的群岛》",
+      "name_policy": "中文为检索工作译名；西班牙语原题为身份锚点，不声称存在正式中文译本。",
+      "rationale": "Cervantes机构年表直接列出题名、分类与书目年份；只补有来源的书目、体裁和边界简介。",
+      "created_source_refs": [
+        "WCD10-B12-S201"
+      ],
+      "facts": [
+        {
+          "field": "first_publication_year",
+          "value": "1976",
+          "source_refs": [
+            "WCD10-B12-S201"
+          ],
+          "fact_candidate_id": "WCD10-B12-F213"
+        },
+        {
+          "field": "genre_or_form",
+          "value": "诗集",
+          "source_refs": [
+            "WCD10-B12-S201"
+          ],
+          "fact_candidate_id": "WCD10-B12-F214"
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "Cervantes年表将其列入帕切科诗歌书目。",
+          "source_refs": [
+            "WCD10-B12-S201"
+          ],
+          "fact_candidate_id": "WCD10-B12-F215"
+        },
+        {
+          "field": "bibliographic_note",
+          "value": "Cervantes年表将其列入帕切科诗歌书目。",
+          "source_refs": [
+            "WCD10-B12-S201"
+          ],
+          "fact_candidate_id": "WCD10-B12-F216"
+        }
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B12-W205",
+      "author_id": "V1-ENT-0261",
+      "entity_type": "collection",
+      "original_name": "Desde entonces",
+      "name_zh_candidate": "《从那时起》",
+      "name_policy": "中文为检索工作译名；西班牙语原题为身份锚点，不声称存在正式中文译本。",
+      "rationale": "Cervantes机构年表直接列出题名、分类与书目年份；只补有来源的书目、体裁和边界简介。",
+      "created_source_refs": [
+        "WCD10-B12-S201"
+      ],
+      "facts": [
+        {
+          "field": "first_publication_year",
+          "value": "1980",
+          "source_refs": [
+            "WCD10-B12-S201"
+          ],
+          "fact_candidate_id": "WCD10-B12-F217"
+        },
+        {
+          "field": "genre_or_form",
+          "value": "诗集",
+          "source_refs": [
+            "WCD10-B12-S201"
+          ],
+          "fact_candidate_id": "WCD10-B12-F218"
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "Cervantes年表将其列入帕切科诗歌书目。",
+          "source_refs": [
+            "WCD10-B12-S201"
+          ],
+          "fact_candidate_id": "WCD10-B12-F219"
+        },
+        {
+          "field": "bibliographic_note",
+          "value": "Cervantes年表将其列入帕切科诗歌书目。",
+          "source_refs": [
+            "WCD10-B12-S201"
+          ],
+          "fact_candidate_id": "WCD10-B12-F220"
+        }
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B12-W206",
+      "author_id": "V1-ENT-0261",
+      "entity_type": "collection",
+      "original_name": "Los trabajos del mar",
+      "name_zh_candidate": "《海的劳作》",
+      "name_policy": "中文为检索工作译名；西班牙语原题为身份锚点，不声称存在正式中文译本。",
+      "rationale": "Cervantes机构年表直接列出题名、分类与书目年份；只补有来源的书目、体裁和边界简介。",
+      "created_source_refs": [
+        "WCD10-B12-S201",
+        "WCD10-B12-S202"
+      ],
+      "facts": [
+        {
+          "field": "genre_or_form",
+          "value": "诗集",
+          "source_refs": [
+            "WCD10-B12-S201"
+          ],
+          "fact_candidate_id": "WCD10-B12-F221"
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "Cervantes年表将其列入诗歌书目；Colegio Nacional写作1984，首发年份暂不确定。",
+          "source_refs": [
+            "WCD10-B12-S201",
+            "WCD10-B12-S202"
+          ],
+          "fact_candidate_id": "WCD10-B12-F222"
+        },
+        {
+          "field": "bibliographic_note",
+          "value": "Instituto Cervantes年表列1983，Colegio Nacional列1984；首发年份口径待核，暂不填原子年份。",
+          "source_refs": [
+            "WCD10-B12-S201",
+            "WCD10-B12-S202"
+          ],
+          "fact_candidate_id": "WCD10-B12-F223"
+        }
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B12-W207",
+      "author_id": "V1-ENT-0261",
+      "entity_type": "collection",
+      "original_name": "Miro la tierra",
+      "name_zh_candidate": "《我望向大地》",
+      "name_policy": "中文为检索工作译名；西班牙语原题为身份锚点，不声称存在正式中文译本。",
+      "rationale": "Cervantes机构年表直接列出题名、分类与书目年份；只补有来源的书目、体裁和边界简介。",
+      "created_source_refs": [
+        "WCD10-B12-S201"
+      ],
+      "facts": [
+        {
+          "field": "first_publication_year",
+          "value": "1987",
+          "source_refs": [
+            "WCD10-B12-S201"
+          ],
+          "fact_candidate_id": "WCD10-B12-F224"
+        },
+        {
+          "field": "genre_or_form",
+          "value": "诗集",
+          "source_refs": [
+            "WCD10-B12-S201"
+          ],
+          "fact_candidate_id": "WCD10-B12-F225"
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "Cervantes年表将其列入帕切科诗歌书目。",
+          "source_refs": [
+            "WCD10-B12-S201"
+          ],
+          "fact_candidate_id": "WCD10-B12-F226"
+        },
+        {
+          "field": "bibliographic_note",
+          "value": "Cervantes年表将其列入帕切科诗歌书目。",
+          "source_refs": [
+            "WCD10-B12-S201"
+          ],
+          "fact_candidate_id": "WCD10-B12-F227"
+        }
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B12-W208",
+      "author_id": "V1-ENT-0261",
+      "entity_type": "collection",
+      "original_name": "Ciudad de la memoria",
+      "name_zh_candidate": "《记忆之城》",
+      "name_policy": "中文为检索工作译名；西班牙语原题为身份锚点，不声称存在正式中文译本。",
+      "rationale": "Cervantes机构年表直接列出题名、分类与书目年份；只补有来源的书目、体裁和边界简介。",
+      "created_source_refs": [
+        "WCD10-B12-S201",
+        "WCD10-B12-S202"
+      ],
+      "facts": [
+        {
+          "field": "genre_or_form",
+          "value": "诗集",
+          "source_refs": [
+            "WCD10-B12-S201"
+          ],
+          "fact_candidate_id": "WCD10-B12-F228"
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "Cervantes年表将其列入诗歌书目；Colegio Nacional记为1989，保留年份差异。",
+          "source_refs": [
+            "WCD10-B12-S201",
+            "WCD10-B12-S202"
+          ],
+          "fact_candidate_id": "WCD10-B12-F229"
+        },
+        {
+          "field": "bibliographic_note",
+          "value": "Instituto Cervantes年表列1990，Colegio Nacional列1989；首发年份口径待核，暂不填原子年份。",
+          "source_refs": [
+            "WCD10-B12-S201",
+            "WCD10-B12-S202"
+          ],
+          "fact_candidate_id": "WCD10-B12-F230"
+        }
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B12-W209",
+      "author_id": "V1-ENT-0261",
+      "entity_type": "collection",
+      "original_name": "El silencio de la luna",
+      "name_zh_candidate": "《月亮的沉默》",
+      "name_policy": "中文为检索工作译名；西班牙语原题为身份锚点，不声称存在正式中文译本。",
+      "rationale": "Cervantes机构年表直接列出题名、分类与书目年份；只补有来源的书目、体裁和边界简介。",
+      "created_source_refs": [
+        "WCD10-B12-S201",
+        "WCD10-B12-S202"
+      ],
+      "facts": [
+        {
+          "field": "genre_or_form",
+          "value": "诗集",
+          "source_refs": [
+            "WCD10-B12-S201"
+          ],
+          "fact_candidate_id": "WCD10-B12-F231"
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "Cervantes年表将其列入诗歌书目；Colegio Nacional记为1994，保留年份差异。",
+          "source_refs": [
+            "WCD10-B12-S201",
+            "WCD10-B12-S202"
+          ],
+          "fact_candidate_id": "WCD10-B12-F232"
+        },
+        {
+          "field": "bibliographic_note",
+          "value": "Instituto Cervantes年表列1996，Colegio Nacional列1994；首发年份口径待核，暂不填原子年份。",
+          "source_refs": [
+            "WCD10-B12-S201",
+            "WCD10-B12-S202"
+          ],
+          "fact_candidate_id": "WCD10-B12-F233"
+        }
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B12-W210",
+      "author_id": "V1-ENT-0261",
+      "entity_type": "collection",
+      "original_name": "La arena errante",
+      "name_zh_candidate": "《流动的沙》",
+      "name_policy": "中文为检索工作译名；西班牙语原题为身份锚点，不声称存在正式中文译本。",
+      "rationale": "Cervantes机构年表直接列出题名、分类与书目年份；只补有来源的书目、体裁和边界简介。",
+      "created_source_refs": [
+        "WCD10-B12-S201"
+      ],
+      "facts": [
+        {
+          "field": "first_publication_year",
+          "value": "1999",
+          "source_refs": [
+            "WCD10-B12-S201"
+          ],
+          "fact_candidate_id": "WCD10-B12-F234"
+        },
+        {
+          "field": "genre_or_form",
+          "value": "诗集",
+          "source_refs": [
+            "WCD10-B12-S201"
+          ],
+          "fact_candidate_id": "WCD10-B12-F235"
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "Cervantes年表将其列入诗歌书目；Colegio Nacional将其列作1999诗作。",
+          "source_refs": [
+            "WCD10-B12-S201",
+            "WCD10-B12-S202"
+          ],
+          "fact_candidate_id": "WCD10-B12-F236"
+        },
+        {
+          "field": "bibliographic_note",
+          "value": "Cervantes年表将其列入诗歌书目；Colegio Nacional将其列作1999诗作。",
+          "source_refs": [
+            "WCD10-B12-S201",
+            "WCD10-B12-S202"
+          ],
+          "fact_candidate_id": "WCD10-B12-F237"
+        }
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B12-W211",
+      "author_id": "V1-ENT-0261",
+      "entity_type": "collection",
+      "original_name": "Siglo pasado",
+      "name_zh_candidate": "《上个世纪》",
+      "name_policy": "中文为检索工作译名；西班牙语原题为身份锚点，不声称存在正式中文译本。",
+      "rationale": "Cervantes机构年表直接列出题名、分类与书目年份；只补有来源的书目、体裁和边界简介。",
+      "created_source_refs": [
+        "WCD10-B12-S201"
+      ],
+      "facts": [
+        {
+          "field": "first_publication_year",
+          "value": "2000",
+          "source_refs": [
+            "WCD10-B12-S201"
+          ],
+          "fact_candidate_id": "WCD10-B12-F238"
+        },
+        {
+          "field": "genre_or_form",
+          "value": "诗集",
+          "source_refs": [
+            "WCD10-B12-S201"
+          ],
+          "fact_candidate_id": "WCD10-B12-F239"
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "Cervantes年表将其列入帕切科诗歌书目。",
+          "source_refs": [
+            "WCD10-B12-S201"
+          ],
+          "fact_candidate_id": "WCD10-B12-F240"
+        },
+        {
+          "field": "bibliographic_note",
+          "value": "Cervantes年表将其列入帕切科诗歌书目。",
+          "source_refs": [
+            "WCD10-B12-S201"
+          ],
+          "fact_candidate_id": "WCD10-B12-F241"
+        }
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B12-W212",
+      "author_id": "V1-ENT-0261",
+      "entity_type": "collection",
+      "original_name": "En resumidas cuentas",
+      "name_zh_candidate": "《总而言之》",
+      "name_policy": "中文为检索工作译名；西班牙语原题为身份锚点，不声称存在正式中文译本。",
+      "rationale": "Cervantes机构年表直接列出题名、分类与书目年份；只补有来源的书目、体裁和边界简介。",
+      "created_source_refs": [
+        "WCD10-B12-S201",
+        "WCD10-B12-S205"
+      ],
+      "facts": [
+        {
+          "field": "first_publication_year",
+          "value": "2005",
+          "source_refs": [
+            "WCD10-B12-S201",
+            "WCD10-B12-S205"
+          ],
+          "fact_candidate_id": "WCD10-B12-F242"
+        },
+        {
+          "field": "genre_or_form",
+          "value": "诗集选集",
+          "source_refs": [
+            "WCD10-B12-S201",
+            "WCD10-B12-S205"
+          ],
+          "fact_candidate_id": "WCD10-B12-F243"
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "2005年诗选，收录帕切科1958年至2000年间创作的诗歌选篇。",
+          "source_refs": [
+            "WCD10-B12-S201",
+            "WCD10-B12-S205"
+          ],
+          "fact_candidate_id": "WCD10-B12-F244"
+        },
+        {
+          "field": "bibliographic_note",
+          "value": "Cervantes年表将其列入帕切科诗歌书目。",
+          "source_refs": [
+            "WCD10-B12-S201",
+            "WCD10-B12-S205"
+          ],
+          "fact_candidate_id": "WCD10-B12-F245"
+        }
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B12-W213",
+      "author_id": "V1-ENT-0261",
+      "entity_type": "collection",
+      "original_name": "Como la lluvia",
+      "name_zh_candidate": "《如同雨》",
+      "name_policy": "中文为检索工作译名；西班牙语原题为身份锚点，不声称存在正式中文译本。",
+      "rationale": "Cervantes机构年表直接列出题名、分类与书目年份；只补有来源的书目、体裁和边界简介。",
+      "created_source_refs": [
+        "WCD10-B12-S201"
+      ],
+      "facts": [
+        {
+          "field": "first_publication_year",
+          "value": "2009",
+          "source_refs": [
+            "WCD10-B12-S201"
+          ],
+          "fact_candidate_id": "WCD10-B12-F246"
+        },
+        {
+          "field": "genre_or_form",
+          "value": "诗集",
+          "source_refs": [
+            "WCD10-B12-S201"
+          ],
+          "fact_candidate_id": "WCD10-B12-F247"
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "Cervantes年表将其列入帕切科诗歌书目；Colegio Nacional同列2009年。",
+          "source_refs": [
+            "WCD10-B12-S201",
+            "WCD10-B12-S202"
+          ],
+          "fact_candidate_id": "WCD10-B12-F248"
+        },
+        {
+          "field": "bibliographic_note",
+          "value": "Cervantes年表将其列入帕切科诗歌书目；Colegio Nacional同列2009年。",
+          "source_refs": [
+            "WCD10-B12-S201",
+            "WCD10-B12-S202"
+          ],
+          "fact_candidate_id": "WCD10-B12-F249"
+        }
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B12-W214",
+      "author_id": "V1-ENT-0261",
+      "entity_type": "collection",
+      "original_name": "La edad de las tinieblas",
+      "name_zh_candidate": "《黑暗的年代》",
+      "name_policy": "中文为检索工作译名；西班牙语原题为身份锚点，不声称存在正式中文译本。",
+      "rationale": "Cervantes机构年表直接列出题名、分类与书目年份；只补有来源的书目、体裁和边界简介。",
+      "created_source_refs": [
+        "WCD10-B12-S201"
+      ],
+      "facts": [
+        {
+          "field": "first_publication_year",
+          "value": "2009",
+          "source_refs": [
+            "WCD10-B12-S201"
+          ],
+          "fact_candidate_id": "WCD10-B12-F250"
+        },
+        {
+          "field": "genre_or_form",
+          "value": "诗集",
+          "source_refs": [
+            "WCD10-B12-S201"
+          ],
+          "fact_candidate_id": "WCD10-B12-F251"
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "Cervantes年表将其列入帕切科诗歌书目；Colegio Nacional同列2009年。",
+          "source_refs": [
+            "WCD10-B12-S201",
+            "WCD10-B12-S202"
+          ],
+          "fact_candidate_id": "WCD10-B12-F252"
+        },
+        {
+          "field": "bibliographic_note",
+          "value": "Cervantes年表将其列入帕切科诗歌书目；Colegio Nacional同列2009年。",
+          "source_refs": [
+            "WCD10-B12-S201",
+            "WCD10-B12-S202"
+          ],
+          "fact_candidate_id": "WCD10-B12-F253"
+        }
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B12-W215",
+      "author_id": "V1-ENT-0261",
+      "entity_type": "collection",
+      "original_name": "El viento distante",
+      "name_zh_candidate": "《远方的风》",
+      "name_policy": "中文为检索工作译名；西班牙语原题为身份锚点，不声称存在正式中文译本。",
+      "rationale": "Cervantes机构年表直接列出题名、分类与书目年份；只补有来源的书目、体裁和边界简介。",
+      "created_source_refs": [
+        "WCD10-B12-S201"
+      ],
+      "facts": [
+        {
+          "field": "first_publication_year",
+          "value": "1963",
+          "source_refs": [
+            "WCD10-B12-S201"
+          ],
+          "fact_candidate_id": "WCD10-B12-F254"
+        },
+        {
+          "field": "genre_or_form",
+          "value": "短篇小说集",
+          "source_refs": [
+            "WCD10-B12-S201",
+            "WCD10-B12-S202"
+          ],
+          "fact_candidate_id": "WCD10-B12-F255"
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "Cervantes年表列为1963年小说类作品；Colegio Nacional将其与早期短篇作品并列。",
+          "source_refs": [
+            "WCD10-B12-S201",
+            "WCD10-B12-S202"
+          ],
+          "fact_candidate_id": "WCD10-B12-F256"
+        },
+        {
+          "field": "bibliographic_note",
+          "value": "Cervantes年表列为1963年小说类作品；Colegio Nacional将其与早期短篇作品并列。",
+          "source_refs": [
+            "WCD10-B12-S201",
+            "WCD10-B12-S202"
+          ],
+          "fact_candidate_id": "WCD10-B12-F257"
+        }
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B12-W216",
+      "author_id": "V1-ENT-0261",
+      "entity_type": "work",
+      "original_name": "Morirás lejos",
+      "name_zh_candidate": "《你将在远方死去》",
+      "name_policy": "中文为检索工作译名；西班牙语原题为身份锚点，不声称存在正式中文译本。",
+      "rationale": "Cervantes机构年表直接列出题名、分类与书目年份；只补有来源的书目、体裁和边界简介。",
+      "created_source_refs": [
+        "WCD10-B12-S201"
+      ],
+      "facts": [
+        {
+          "field": "first_publication_year",
+          "value": "1967",
+          "source_refs": [
+            "WCD10-B12-S201"
+          ],
+          "fact_candidate_id": "WCD10-B12-F258"
+        },
+        {
+          "field": "genre_or_form",
+          "value": "小说",
+          "source_refs": [
+            "WCD10-B12-S201"
+          ],
+          "fact_candidate_id": "WCD10-B12-F259"
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "Cervantes年表列于小说类；Colegio Nacional明确称其为小说。",
+          "source_refs": [
+            "WCD10-B12-S201",
+            "WCD10-B12-S202"
+          ],
+          "fact_candidate_id": "WCD10-B12-F260"
+        },
+        {
+          "field": "bibliographic_note",
+          "value": "Cervantes年表列于小说类；Colegio Nacional明确称其为小说。",
+          "source_refs": [
+            "WCD10-B12-S201",
+            "WCD10-B12-S202"
+          ],
+          "fact_candidate_id": "WCD10-B12-F261"
+        }
+      ]
+    },
+    {
+      "candidate_id": "WCD10-B12-W218",
+      "author_id": "V1-ENT-0261",
+      "entity_type": "work",
+      "original_name": "El derecho a la lectura",
+      "name_zh_candidate": "《阅读的权利》",
+      "name_policy": "中文为检索工作译名；西班牙语原题为身份锚点，不声称存在正式中文译本。",
+      "rationale": "Cervantes机构年表直接列出题名、分类与书目年份；只补有来源的书目、体裁和边界简介。",
+      "created_source_refs": [
+        "WCD10-B12-S201"
+      ],
+      "facts": [
+        {
+          "field": "first_publication_year",
+          "value": "1994",
+          "source_refs": [
+            "WCD10-B12-S201"
+          ],
+          "fact_candidate_id": "WCD10-B12-F266"
+        },
+        {
+          "field": "genre_or_form",
+          "value": "散文",
+          "source_refs": [
+            "WCD10-B12-S201"
+          ],
+          "fact_candidate_id": "WCD10-B12-F267"
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "Cervantes年表将其列入散文书目。",
+          "source_refs": [
+            "WCD10-B12-S201"
+          ],
+          "fact_candidate_id": "WCD10-B12-F268"
+        },
+        {
+          "field": "bibliographic_note",
+          "value": "Cervantes年表将其列入散文书目。",
+          "source_refs": [
+            "WCD10-B12-S201"
+          ],
+          "fact_candidate_id": "WCD10-B12-F269"
+        }
+      ]
+    }
+  ],
+  "existing_facts": [
+    {
+      "candidate_id": "WCD10-B12-F001",
+      "subject_id": "V1-ENT-0257",
+      "field": "genre_or_form",
+      "value": "短篇叙事作品集（Narrativa - Cuento）",
+      "source_refs": [
+        "WCD10-B12-S005"
+      ],
+      "boundary": "ELEM将1955年Confabulario与Varia invención合刊归为Narrativa - Cuento；沿用到Confabulario的作品层级分类。"
+    },
+    {
+      "candidate_id": "WCD10-B12-F002",
+      "subject_id": "V1-ENT-0257",
+      "field": "one_sentence_summary",
+      "value": "ELEM将《Confabulario》与《Varia invención》并列为1955年合刊中的两部作品，并称该卷汇聚多篇不同形态与意图的叙事文本；不据此另建合刊实体。",
+      "source_refs": [
+        "WCD10-B12-S005"
+      ],
+      "boundary": "仅采用ELEM对合刊文本集合的简介，不把1955合刊误作两部作品的共同首版。"
+    },
+    {
+      "candidate_id": "WCD10-B12-F003",
+      "subject_id": "V1-ENT-0258",
+      "field": "genre_or_form",
+      "value": "动物题材短篇文本集",
+      "source_refs": [
+        "WCD10-B12-S001",
+        "WCD10-B12-S003"
+      ],
+      "boundary": "目录列出以动物为题的短篇标题；不延伸象征含义。"
+    },
+    {
+      "candidate_id": "WCD10-B12-F004",
+      "subject_id": "V1-ENT-0258",
+      "field": "one_sentence_summary",
+      "value": "目录列有《El rinoceronte》《Aves de rapiña》《El oso》《La jirafa》等动物题名；CVC生平记载该系列1958年以《Punta de plata》为名初版，基本书目另列1972年《Bestiario》版本。",
+      "source_refs": [
+        "WCD10-B12-S001",
+        "WCD10-B12-S002",
+        "WCD10-B12-S003"
+      ],
+      "boundary": "版本按原书名与版本年份并列保留，不合并为单一首发年。"
+    },
+    {
+      "candidate_id": "WCD10-B12-F005",
+      "subject_id": "V1-ENT-0259",
+      "field": "genre_or_form",
+      "value": "长篇小说",
+      "source_refs": [
+        "WCD10-B12-S001",
+        "WCD10-B12-S002"
+      ],
+      "boundary": "CVC生平称其为作者唯一小说。"
+    },
+    {
+      "candidate_id": "WCD10-B12-F006",
+      "subject_id": "V1-ENT-0259",
+      "field": "one_sentence_summary",
+      "value": "阿雷奥拉唯一小说，围绕Zapotlán及作者父亲展开，材料源自早年笔记；不扩写具体情节。",
+      "source_refs": [
+        "WCD10-B12-S002"
+      ],
+      "boundary": "简介只据机构生平页。"
+    },
+    {
+      "candidate_id": "WCD10-B12-F101",
+      "subject_id": "V1-ENT-0264",
+      "field": "genre_or_form",
+      "value": "证言小说（relato-testimonio）",
+      "source_refs": [
+        "WCD10-B12-S101"
+      ],
+      "boundary": "补缺失体裁；原子年份、旧事实及所有旧来源链逐值保留。"
+    },
+    {
+      "candidate_id": "WCD10-B12-F102",
+      "subject_id": "V1-ENT-0264",
+      "field": "one_sentence_summary",
+      "value": "小说借Jesusa Palancares的讲述，呈现她随革命军辗转、在墨西哥城谋生并以灵性信念寻求慰藉的经历。",
+      "source_refs": [
+        "WCD10-B12-S101"
+      ],
+      "boundary": "仅按作者基金会书目简介概括，不扩展文学史判断。"
+    },
+    {
+      "candidate_id": "WCD10-B12-F103",
+      "subject_id": "V1-ENT-0263",
+      "field": "genre_or_form",
+      "value": "纪实编年（crónica）",
+      "source_refs": [
+        "WCD10-B12-S102"
+      ],
+      "boundary": "补缺失体裁；原子年份、旧事实及所有旧来源链逐值保留。"
+    },
+    {
+      "candidate_id": "WCD10-B12-F104",
+      "subject_id": "V1-ENT-0263",
+      "field": "one_sentence_summary",
+      "value": "作品汇集多方声音与证言，重构1968年墨西哥学生运动及10月2日事件的经历与记忆。",
+      "source_refs": [
+        "WCD10-B12-S102"
+      ],
+      "boundary": "仅按作者基金会简介概括，避免添加未经来源支持的评价。"
+    },
+    {
+      "candidate_id": "WCD10-B12-F105",
+      "subject_id": "V1-ENT-0265",
+      "field": "genre_or_form",
+      "value": "长篇小说",
+      "source_refs": [
+        "WCD10-B12-S103"
+      ],
+      "boundary": "补缺失体裁；保留既有年份差异标记及全部旧事实、来源闭包。"
+    },
+    {
+      "candidate_id": "WCD10-B12-F106",
+      "subject_id": "V1-ENT-0265",
+      "field": "one_sentence_summary",
+      "value": "小说以Tina Modotti为中心，写她在摄影创作、政治活动与私人关系之间经历的生命历程。",
+      "source_refs": [
+        "WCD10-B12-S103",
+        "WCD10-B12-S104"
+      ],
+      "boundary": "只补普通内容简介；不改写原子年份或已有版本差异注记。"
+    },
+    {
+      "candidate_id": "WCD10-B12-F270",
+      "subject_id": "V1-ENT-0266",
+      "field": "genre_or_form",
+      "value": "小说",
+      "source_refs": [
+        "WCD10-B12-S202"
+      ],
+      "confidence": "high",
+      "boundary": "Append-only enrichment; baseline facts and card wording remain preserved. This field was absent from the baseline record.",
+      "rationale": "基线作品缺少该字段；机构作品简介/分类提供直接依据。"
+    },
+    {
+      "candidate_id": "WCD10-B12-F271",
+      "subject_id": "V1-ENT-0266",
+      "field": "one_sentence_summary",
+      "value": "Colegio Nacional将其列为帕切科的两部小说之一。",
+      "source_refs": [
+        "WCD10-B12-S202"
+      ],
+      "confidence": "high",
+      "boundary": "Append-only enrichment; baseline facts and card wording remain preserved. This field was absent from the baseline record.",
+      "rationale": "基线作品缺少该字段；机构作品简介/分类提供直接依据。"
+    },
+    {
+      "candidate_id": "WCD10-B12-F272",
+      "subject_id": "V1-ENT-0267",
+      "field": "genre_or_form",
+      "value": "短篇小说集",
+      "source_refs": [
+        "WCD10-B12-S202"
+      ],
+      "confidence": "high",
+      "boundary": "Append-only enrichment; baseline facts and card wording remain preserved. This field was absent from the baseline record.",
+      "rationale": "基线作品缺少该字段；机构作品简介/分类提供直接依据。"
+    },
+    {
+      "candidate_id": "WCD10-B12-F273",
+      "subject_id": "V1-ENT-0267",
+      "field": "one_sentence_summary",
+      "value": "Colegio Nacional将其列在帕切科的早期短篇作品中。",
+      "source_refs": [
+        "WCD10-B12-S202"
+      ],
+      "confidence": "high",
+      "boundary": "Append-only enrichment; baseline facts and card wording remain preserved. This field was absent from the baseline record.",
+      "rationale": "基线作品缺少该字段；机构作品简介/分类提供直接依据。"
+    },
+    {
+      "candidate_id": "WCD10-B12-F274",
+      "subject_id": "V1-ENT-0268",
+      "field": "genre_or_form",
+      "value": "诗集",
+      "source_refs": [
+        "WCD10-B12-S202"
+      ],
+      "confidence": "high",
+      "boundary": "Append-only enrichment; baseline facts and card wording remain preserved. This field was absent from the baseline record.",
+      "rationale": "基线作品缺少该字段；机构作品简介/分类提供直接依据。"
+    },
+    {
+      "candidate_id": "WCD10-B12-F275",
+      "subject_id": "V1-ENT-0268",
+      "field": "one_sentence_summary",
+      "value": "帕切科1969年诗集；Colegio Nacional将其列入作者诗歌作品序列。",
+      "source_refs": [
+        "WCD10-B12-S202"
+      ],
+      "confidence": "high",
+      "boundary": "Append-only enrichment; baseline facts and card wording remain preserved. This field was absent from the baseline record.",
+      "rationale": "基线作品缺少该字段；机构作品简介/分类提供直接依据。"
+    }
+  ],
+  "extra_relationships": [],
+  "deferred": [
+    {
+      "key": "V1-ENT-0265.first_publication_year",
+      "reason": "基线已有年份与版本讨论；本候选未改原子年份，只补体裁和受限简介。",
+      "disposition": "preserve all baseline facts and disputed-year markers; no unsupported version adjudication"
+    },
+    {
+      "key": "V1-ENT-0261.Los trabajos del mar.first_publication_year",
+      "reason": "Cervantes年表列1983、Colegio Nacional列1984；首发年份口径待核，不填原子年份。",
+      "disposition": "preserve bibliographic_note and defer atomic year"
+    },
+    {
+      "key": "V1-ENT-0261.Ciudad de la memoria.first_publication_year",
+      "reason": "Cervantes年表列1990、Colegio Nacional列1989；首发年份口径待核，不填原子年份。",
+      "disposition": "preserve bibliographic_note and defer atomic year"
+    },
+    {
+      "key": "V1-ENT-0261.El silencio de la luna.first_publication_year",
+      "reason": "Cervantes年表列1996、Colegio Nacional列1994；首发年份口径待核，不填原子年份。",
+      "disposition": "preserve bibliographic_note and defer atomic year"
+    },
+    {
+      "key": "V1-ENT-0261.Tarde de agosto.work_identity_and_first_publication_year",
+      "reason": "Cervantes chronology lists this title under the narrative heading in 1992, but that evidence does not establish an independent work unit or first publication; omit this candidate pending direct bibliographic evidence.",
+      "disposition": "defer work candidate; do not infer first publication"
+    },
+    {
+      "key": "V1-ENT-0261.Los elementos de la noche.first_publication_year",
+      "reason": "Instituto Cervantes年表列1963，Colegio Nacional列1962；首发年份口径待核，不填原子年份。",
+      "disposition": "preserve bibliographic_note and defer atomic year"
+    }
+  ],
+  "source_scope_decisions": [
+    {
+      "decision": "fresh_registration",
+      "candidate_source_id": "WCD10-B12-S101",
+      "url": "https://fundacionelenaponiatowska.org/hasta-no-verte-jesus-mio",
+      "candidate_ids": [
+        "WCD10-B12-F101",
+        "WCD10-B12-F102"
+      ],
+      "boundary": "已实际打开来源页面并记录页内定位；用于列明范围内的书目、体裁和受限内容描述。"
+    },
+    {
+      "decision": "fresh_registration",
+      "candidate_source_id": "WCD10-B12-S102",
+      "url": "https://fundacionelenaponiatowska.org/la-noche-de-tlatelolco",
+      "candidate_ids": [
+        "WCD10-B12-F103",
+        "WCD10-B12-F104"
+      ],
+      "boundary": "已实际打开来源页面并记录页内定位；用于列明范围内的书目、体裁和受限内容描述。"
+    },
+    {
+      "decision": "fresh_registration",
+      "candidate_source_id": "WCD10-B12-S103",
+      "url": "https://www.elem.mx/obra/datos/2566",
+      "candidate_ids": [
+        "WCD10-B12-F105",
+        "WCD10-B12-F106",
+        "WCD10-B12-W102"
+      ],
+      "boundary": "已实际打开来源页面并记录页内定位；用于列明范围内的书目、体裁和受限内容描述。"
+    },
+    {
+      "decision": "fresh_registration",
+      "candidate_source_id": "WCD10-B12-S104",
+      "url": "https://fundacionelenaponiatowska.org/tinisima",
+      "candidate_ids": [
+        "WCD10-B12-F106"
+      ],
+      "boundary": "已实际打开来源页面并记录页内定位；用于列明范围内的书目、体裁和受限内容描述。"
+    },
+    {
+      "decision": "fresh_registration",
+      "candidate_source_id": "WCD10-B12-S105",
+      "url": "https://fundacionelenaponiatowska.org/querido-diego",
+      "candidate_ids": [
+        "WCD10-B12-W101"
+      ],
+      "boundary": "已实际打开来源页面并记录页内定位；用于列明范围内的书目、体裁和受限内容描述。"
+    },
+    {
+      "decision": "fresh_registration",
+      "candidate_source_id": "WCD10-B12-S106",
+      "url": "https://www.elem.mx/obra/datos/204493",
+      "candidate_ids": [
+        "WCD10-B12-W102"
+      ],
+      "boundary": "已实际打开来源页面并记录页内定位；用于列明范围内的书目、体裁和受限内容描述。"
+    },
+    {
+      "decision": "reuse_existing_source",
+      "candidate_source_id": "WCD10-B12-S201",
+      "reuse_existing_source": "SRC-0208",
+      "url": "https://www.cervantes.es/bibliotecas_documentacion_espanol/creadores/jose_emilio_pacheco_cronologia.htm",
+      "candidate_ids": [
+        "WCD10-B12-W201",
+        "WCD10-B12-F202",
+        "WCD10-B12-F203",
+        "WCD10-B12-F204",
+        "WCD10-B12-W202",
+        "WCD10-B12-F205",
+        "WCD10-B12-W203",
+        "WCD10-B12-F209",
+        "WCD10-B12-F210",
+        "WCD10-B12-F211",
+        "WCD10-B12-F212",
+        "WCD10-B12-W204",
+        "WCD10-B12-F213",
+        "WCD10-B12-F214",
+        "WCD10-B12-F215",
+        "WCD10-B12-F216",
+        "WCD10-B12-W205",
+        "WCD10-B12-F217",
+        "WCD10-B12-F218",
+        "WCD10-B12-F219",
+        "WCD10-B12-F220",
+        "WCD10-B12-W206",
+        "WCD10-B12-F221",
+        "WCD10-B12-F222",
+        "WCD10-B12-F223",
+        "WCD10-B12-W207",
+        "WCD10-B12-F224",
+        "WCD10-B12-F225",
+        "WCD10-B12-F226",
+        "WCD10-B12-F227",
+        "WCD10-B12-W208",
+        "WCD10-B12-F228",
+        "WCD10-B12-F229",
+        "WCD10-B12-F230",
+        "WCD10-B12-W209",
+        "WCD10-B12-F231",
+        "WCD10-B12-F232",
+        "WCD10-B12-F233",
+        "WCD10-B12-W210",
+        "WCD10-B12-F234",
+        "WCD10-B12-F235",
+        "WCD10-B12-F236",
+        "WCD10-B12-F237",
+        "WCD10-B12-W211",
+        "WCD10-B12-F238",
+        "WCD10-B12-F239",
+        "WCD10-B12-F240",
+        "WCD10-B12-F241",
+        "WCD10-B12-W212",
+        "WCD10-B12-F242",
+        "WCD10-B12-F243",
+        "WCD10-B12-F244",
+        "WCD10-B12-F245",
+        "WCD10-B12-W213",
+        "WCD10-B12-F246",
+        "WCD10-B12-F247",
+        "WCD10-B12-F248",
+        "WCD10-B12-F249",
+        "WCD10-B12-W214",
+        "WCD10-B12-F250",
+        "WCD10-B12-F251",
+        "WCD10-B12-F252",
+        "WCD10-B12-F253",
+        "WCD10-B12-W215",
+        "WCD10-B12-F254",
+        "WCD10-B12-F255",
+        "WCD10-B12-F256",
+        "WCD10-B12-F257",
+        "WCD10-B12-W216",
+        "WCD10-B12-F258",
+        "WCD10-B12-F259",
+        "WCD10-B12-F260",
+        "WCD10-B12-F261",
+        "WCD10-B12-W218",
+        "WCD10-B12-F266",
+        "WCD10-B12-F267",
+        "WCD10-B12-F268",
+        "WCD10-B12-F269"
+      ],
+      "boundary": "已本轮实际打开该来源页并复核定位；按直接书目、作品分类或机构简介支持所列候选，不改变基线来源元数据与等级。"
+    },
+    {
+      "decision": "reuse_existing_source",
+      "candidate_source_id": "WCD10-B12-S202",
+      "reuse_existing_source": "SRC-0209",
+      "url": "https://colnal.mx/integrantes/jose-emilio-pacheco/",
+      "candidate_ids": [
+        "WCD10-B12-W201",
+        "WCD10-B12-W202",
+        "WCD10-B12-W206",
+        "WCD10-B12-W208",
+        "WCD10-B12-W209",
+        "WCD10-B12-F204",
+        "WCD10-B12-F205",
+        "WCD10-B12-F206",
+        "WCD10-B12-F222",
+        "WCD10-B12-F223",
+        "WCD10-B12-F229",
+        "WCD10-B12-F230",
+        "WCD10-B12-F232",
+        "WCD10-B12-F233",
+        "WCD10-B12-F236",
+        "WCD10-B12-F237",
+        "WCD10-B12-F248",
+        "WCD10-B12-F249",
+        "WCD10-B12-F252",
+        "WCD10-B12-F253",
+        "WCD10-B12-F255",
+        "WCD10-B12-F256",
+        "WCD10-B12-F257",
+        "WCD10-B12-F260",
+        "WCD10-B12-F261"
+      ],
+      "boundary": "已本轮实际打开该来源页并复核定位；按直接书目、作品分类或机构简介支持所列候选，不改变基线来源元数据与等级。"
+    },
+    {
+      "decision": "reuse_existing_source",
+      "candidate_source_id": "WCD10-B12-S203",
+      "reuse_existing_source": "SRC-0210",
+      "url": "https://literaturaalacarta.cepe.unam.mx/autor.php?id_autor=45",
+      "candidate_ids": [],
+      "boundary": "已本轮实际打开该来源页并复核定位；按直接书目、作品分类或机构简介支持所列候选，不改变基线来源元数据与等级。"
+    },
+    {
+      "decision": "fresh_registration",
+      "candidate_source_id": "WCD10-B12-S204",
+      "url": "https://www.elem.mx/obra/datos/5751",
+      "candidate_ids": [
+        "WCD10-B12-W202",
+        "WCD10-B12-F205",
+        "WCD10-B12-F206",
+        "WCD10-B12-F207",
+        "WCD10-B12-F208"
+      ],
+      "boundary": "本轮为窄修复实际打开来源，按直接书目或出版物说明支持所列字段。"
+    },
+    {
+      "decision": "fresh_registration",
+      "candidate_source_id": "WCD10-B12-S205",
+      "url": "https://cvc.cervantes.es/el_rinconete/anteriores/mayo_06/11052006_02.htm",
+      "candidate_ids": [
+        "WCD10-B12-W212",
+        "WCD10-B12-F242",
+        "WCD10-B12-F243",
+        "WCD10-B12-F244",
+        "WCD10-B12-F245"
+      ],
+      "boundary": "本轮为窄修复实际打开来源，按直接书目或出版物说明支持所列字段。"
+    }
+  ],
+  "author_scope": [
+    "V1-ENT-0250"
+  ]
+}

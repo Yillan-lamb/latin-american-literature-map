@@ -1,0 +1,293 @@
+{
+  "verdict": "PASS",
+  "task_id": "TASK-113",
+  "batch_id": "WCD-10-B08",
+  "reviewer": "Codex-parent-independent-review",
+  "reviewed_at": "2026-10-12",
+  "checkpoint_date": "2026-10-12",
+  "review_scope": "DEC-070 pragmatic batch review; approved literary content/source registrations/matrix byte-identical; exact input aggregation and full repaired interface closure verified; authorize prepare only; exact SQL clone required",
+  "packages": [
+    {
+      "file": "CANDIDATES.json",
+      "sha256": "fdc49145d8e206996e3e362bf914ae57d641ee7ec65651fbe646feff47e257c2",
+      "verdict": "PASS"
+    }
+  ],
+  "baseline_database_sha256": "0150e68ee98e28714a7719129aab7d47e137fc692e8e46a5e1db29540f5dbc07",
+  "research_note_gate": {
+    "field": "research_note",
+    "source_grade_rule": {
+      "A": "scholarly_paraphrase",
+      "B": null,
+      "C": null
+    },
+    "material_class": "scholarly_paraphrase",
+    "entries": [
+      {
+        "candidate_id": "WCD10-B08-W021-F04",
+        "proof_fact_id": "WCD10-B08-W021-F04",
+        "source_refs": [
+          "WCD10-B08-S010"
+        ],
+        "source_grades": {
+          "WCD10-B08-S010": "A"
+        },
+        "material_class": "scholarly_paraphrase"
+      },
+      {
+        "candidate_id": "WCD10-B08-W025-F04",
+        "proof_fact_id": "WCD10-B08-W025-F04",
+        "source_refs": [
+          "WCD10-B08-S007"
+        ],
+        "source_grades": {
+          "WCD10-B08-S007": "A"
+        },
+        "material_class": "scholarly_paraphrase"
+      },
+      {
+        "candidate_id": "WCD10-B08-W030-F04",
+        "proof_fact_id": "WCD10-B08-W030-F04",
+        "source_refs": [
+          "WCD10-B08-S004"
+        ],
+        "source_grades": {
+          "WCD10-B08-S004": "A"
+        },
+        "material_class": "scholarly_paraphrase"
+      },
+      {
+        "candidate_id": "WCD10-B08-W031-F04",
+        "proof_fact_id": "WCD10-B08-W031-F04",
+        "source_refs": [
+          "WCD10-B08-S004"
+        ],
+        "source_grades": {
+          "WCD10-B08-S004": "A"
+        },
+        "material_class": "scholarly_paraphrase"
+      },
+      {
+        "candidate_id": "WCD10-B08-W036-F04",
+        "proof_fact_id": "WCD10-B08-W036-F04",
+        "source_refs": [
+          "WCD10-B08-S036"
+        ],
+        "source_grades": {
+          "WCD10-B08-S036": "A"
+        },
+        "material_class": "scholarly_paraphrase"
+      },
+      {
+        "candidate_id": "WCD10-B08-W037-F04",
+        "proof_fact_id": "WCD10-B08-W037-F04",
+        "source_refs": [
+          "WCD10-B08-S036"
+        ],
+        "source_grades": {
+          "WCD10-B08-S036": "A"
+        },
+        "material_class": "scholarly_paraphrase"
+      },
+      {
+        "candidate_id": "WCD10-B08-W112-F05",
+        "proof_fact_id": "WCD10-B08-W112-F05",
+        "source_refs": [
+          "WCD10-B08-S109"
+        ],
+        "source_grades": {
+          "WCD10-B08-S109": "A"
+        },
+        "material_class": "scholarly_paraphrase"
+      },
+      {
+        "candidate_id": "WCD10-B08-W138-F05",
+        "proof_fact_id": "WCD10-B08-W138-F05",
+        "source_refs": [
+          "WCD10-B08-S159"
+        ],
+        "source_grades": {
+          "WCD10-B08-S159": "A"
+        },
+        "material_class": "scholarly_paraphrase"
+      },
+      {
+        "candidate_id": "WCD10-B08-W201-F04",
+        "proof_fact_id": "WCD10-B08-W201-F04",
+        "source_refs": [
+          "WCD10-B08-S202"
+        ],
+        "source_grades": {
+          "WCD10-B08-S202": "A"
+        },
+        "material_class": "scholarly_paraphrase"
+      },
+      {
+        "candidate_id": "WCD10-B08-W203-F04",
+        "proof_fact_id": "WCD10-B08-W203-F04",
+        "source_refs": [
+          "WCD10-B08-S206"
+        ],
+        "source_grades": {
+          "WCD10-B08-S206": "A"
+        },
+        "material_class": "scholarly_paraphrase"
+      },
+      {
+        "candidate_id": "WCD10-B08-W207-F03",
+        "proof_fact_id": "WCD10-B08-W207-F04",
+        "source_refs": [
+          "WCD10-B08-S211",
+          "WCD10-B08-S224"
+        ],
+        "source_grades": {
+          "WCD10-B08-S211": "A",
+          "WCD10-B08-S224": "A"
+        },
+        "material_class": "scholarly_paraphrase"
+      },
+      {
+        "candidate_id": "WCD10-B08-W209-F04",
+        "proof_fact_id": "WCD10-B08-W209-F04",
+        "source_refs": [
+          "WCD10-B08-S215"
+        ],
+        "source_grades": {
+          "WCD10-B08-S215": "A"
+        },
+        "material_class": "scholarly_paraphrase"
+      },
+      {
+        "candidate_id": "WCD10-B08-W210-F04",
+        "proof_fact_id": "WCD10-B08-W210-F04",
+        "source_refs": [
+          "WCD10-B08-S216"
+        ],
+        "source_grades": {
+          "WCD10-B08-S216": "A"
+        },
+        "material_class": "scholarly_paraphrase"
+      },
+      {
+        "candidate_id": "WCD10-B08-W211-F04",
+        "proof_fact_id": "WCD10-B08-W211-F04",
+        "source_refs": [
+          "WCD10-B08-S219"
+        ],
+        "source_grades": {
+          "WCD10-B08-S219": "A"
+        },
+        "material_class": "scholarly_paraphrase"
+      },
+      {
+        "candidate_id": "WCD10-B08-W212-F04",
+        "proof_fact_id": "WCD10-B08-W212-F04",
+        "source_refs": [
+          "WCD10-B08-S217"
+        ],
+        "source_grades": {
+          "WCD10-B08-S217": "A"
+        },
+        "material_class": "scholarly_paraphrase"
+      },
+      {
+        "candidate_id": "WCD10-B08-W213-F04",
+        "proof_fact_id": "WCD10-B08-W213-F04",
+        "source_refs": [
+          "WCD10-B08-S220"
+        ],
+        "source_grades": {
+          "WCD10-B08-S220": "A"
+        },
+        "material_class": "scholarly_paraphrase"
+      },
+      {
+        "candidate_id": "WCD10-B08-W214-F04",
+        "proof_fact_id": "WCD10-B08-W214-F04",
+        "source_refs": [
+          "WCD10-B08-S218"
+        ],
+        "source_grades": {
+          "WCD10-B08-S218": "A"
+        },
+        "material_class": "scholarly_paraphrase"
+      },
+      {
+        "candidate_id": "WCD10-B08-W215-F04",
+        "proof_fact_id": "WCD10-B08-W215-F04",
+        "source_refs": [
+          "WCD10-B08-S221"
+        ],
+        "source_grades": {
+          "WCD10-B08-S221": "A"
+        },
+        "material_class": "scholarly_paraphrase"
+      },
+      {
+        "candidate_id": "WCD10-B08-W216-F04",
+        "proof_fact_id": "WCD10-B08-W216-F04",
+        "source_refs": [
+          "WCD10-B08-S226"
+        ],
+        "source_grades": {
+          "WCD10-B08-S226": "A"
+        },
+        "material_class": "scholarly_paraphrase"
+      },
+      {
+        "candidate_id": "WCD10-B08-W217-F04",
+        "proof_fact_id": "WCD10-B08-W217-F04",
+        "source_refs": [
+          "WCD10-B08-S226"
+        ],
+        "source_grades": {
+          "WCD10-B08-S226": "A"
+        },
+        "material_class": "scholarly_paraphrase"
+      },
+      {
+        "candidate_id": "WCD10-B08-F007",
+        "proof_fact_id": "WCD10-B08-F007",
+        "source_refs": [
+          "WCD10-B08-S004"
+        ],
+        "source_grades": {
+          "WCD10-B08-S004": "A"
+        },
+        "material_class": "scholarly_paraphrase"
+      },
+      {
+        "candidate_id": "WCD10-B08-F008",
+        "proof_fact_id": "WCD10-B08-F008",
+        "source_refs": [
+          "WCD10-B08-S004"
+        ],
+        "source_grades": {
+          "WCD10-B08-S004": "A"
+        },
+        "material_class": "scholarly_paraphrase"
+      },
+      {
+        "candidate_id": "WCD10-B08-F009",
+        "proof_fact_id": "WCD10-B08-F009",
+        "source_refs": [
+          "WCD10-B08-S004"
+        ],
+        "source_grades": {
+          "WCD10-B08-S004": "A"
+        },
+        "material_class": "scholarly_paraphrase"
+      }
+    ]
+  },
+  "parent_review_sha256": "656ac2f370785c4c6a746f00a09ed7d276da3526c983c122a28abfb5e201a9e8",
+  "nested_fact_id_policy": "Existingbuilderarray-orderID; proofID retainedexplicitly in noteentries and full evidence_matrix; independentSQLreadback verifies allaliases",
+  "predecessor_delta": "R2 to R3: M6 completes15 primary interfaces; all literary candidates/source registrations/matrix byte-identical",
+  "coverage_sha256": "a48201f03a9ca1724cbccb60cce19c809ce4b00656f881f42ce5b21f8e3741ae",
+  "registration_sha256": "422b0910de455409b2f8790b3da6ff4276a172d587256de6b34f62856c3ce4c7",
+  "evidence_matrix_sha256": "a715a6afd635634afa4a64db9f12f58a66b265fe2e6ad43a52400bdf494c4c8c",
+  "merge_provenance_sha256": "821d04cbaad29c16f071b9dce64b6d102e664e6931a49e306a6cad0fc3076d91",
+  "builder_sha256": "23a2a5e1b1cf27759ce71faf61524ef83b5777083e4a27c98ff6cf1eab78207b",
+  "parent_mechanical_review_sha256": "b1cbe0364cac1cd14e937b6b63a644cd81edfbc510dea3c196e7039bc0de19a7",
+  "supersedes_preserved_gate_sha256": "4ec3168bf31ed376d14e6ffa69cbb292e8050c18fd907b943323aa87468565c3"
+}

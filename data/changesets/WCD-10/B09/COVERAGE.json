@@ -1,0 +1,4060 @@
+{
+  "task_id": "TASK-114",
+  "batch_id": "WCD-10-B09",
+  "baseline_database_sha256": "af6c293aa32d86143f2be6f4c4ed414799086f8878df22b13a7356397ebd6050",
+  "scope": "Merged B09 coverage; author-isolated frozen coverage rows concatenated in Ramos R1, Vallejo, Darío order.",
+  "author_descriptions": {
+    "V1-ENT-0213": "格拉西利亚诺·拉莫斯 / Graciliano Ramos；作者实体、事实和作者级关系保持不变，本包仅补作品描述并提出三部主要作品。",
+    "V1-ENT-0223": "Preserve the Vallejo author record, facts, relations and statuses; work descriptions remain object-level and do not generalize into a new author biography."
+  },
+  "research_policy": {
+    "V1-ENT-0213": "普通书目与简介由可靠机构来源直接支持即可；不追全集或专门论文；旧作品全来源链原样保留，简介/体裁只补缺失字段。",
+    "V1-ENT-0223": "Prioritize useful work descriptions and major works with direct institutional or library evidence. Preserve all historical facts, cards, relations, holds, gaps and source chains. Keep writing periods separate from edition/publication years; do not resolve the Los heraldos negros 1918/1919 conflict. Institutional commentary supports attributed ordinary summaries only; no completeness claim or automatic Curation admission.",
+    "V1-ENT-0224": "One reliable directly supporting institutional source is sufficient for ordinary work bibliography and description; no exhaustive coverage claim."
+  },
+  "objects": [
+    {
+      "object_ref": "V1-ENT-0220",
+      "entity": {
+        "entity_id": "V1-ENT-0220",
+        "entity_type": "work",
+        "name_zh": "《枯竭的生命》",
+        "original_name": "Vidas Secas",
+        "canonical_status": "candidate",
+        "origin_count": "3",
+        "origin_refs": "CAND-B05-V1-ENT-0220-WORK",
+        "normalization_basis": "B05 source-backed original title, Chinese display candidate and work layer",
+        "issue_codes": "NONE"
+      },
+      "bibliography": "Preserved baseline bibliographic facts unchanged; this package adds only missing genre_or_form and one_sentence_summary.",
+      "description": "据巴拉那州公共图书馆页面，小说围绕因旱灾迁徙的牧人法比亚诺一家展开，成员包括妻子辛哈·维多利亚、两个孩子与狗巴莱娅。",
+      "research_status": "institutional_commentary",
+      "research_refs": [
+        "WCD10-B09-S003"
+      ],
+      "old_facts": [
+        {
+          "fact": {
+            "fact_id": "V1-FCT-0512",
+            "origin_material_id": "WEB-CE-B05",
+            "card_id": "V1-CARD-0109",
+            "subject_id": "V1-ENT-0220",
+            "fact_field": "entity_layer",
+            "value_text": "work",
+            "material_class": "metadata",
+            "origin_id": "SRC-0172",
+            "confidence": "high",
+            "admission_status": "candidate_for_staging_review",
+            "usage_note": "机构作品书目确定实体形态；collection 仅用于短篇小说集。"
+          },
+          "source_chain": [
+            {
+              "fact_id": "V1-FCT-0512",
+              "source_id": "SRC-0172",
+              "source_title": "Making of Vidas Secas"
+            }
+          ]
+        },
+        {
+          "fact": {
+            "fact_id": "V1-FCT-0513",
+            "origin_material_id": "WEB-CE-B05",
+            "card_id": "V1-CARD-0109",
+            "subject_id": "V1-ENT-0220",
+            "fact_field": "first_publication_year",
+            "value_text": "1938",
+            "material_class": "bibliographic",
+            "origin_id": "SRC-0172",
+            "confidence": "high",
+            "admission_status": "candidate_for_staging_review",
+            "usage_note": "机构书目或公共文化页面直接列出该作品的首版年份。"
+          },
+          "source_chain": [
+            {
+              "fact_id": "V1-FCT-0513",
+              "source_id": "SRC-0172",
+              "source_title": "Making of Vidas Secas"
+            }
+          ]
+        },
+        {
+          "fact": {
+            "fact_id": "V1-FCT-0514",
+            "origin_material_id": "WEB-CE-B05",
+            "card_id": "V1-CARD-0109",
+            "subject_id": "V1-ENT-0220",
+            "fact_field": "bibliographic_note",
+            "value_text": "SRC-0173 直接列出 Vidas Secas；本批仅作书目事实。",
+            "material_class": "bibliographic",
+            "origin_id": "SRC-0173",
+            "confidence": "high",
+            "admission_status": "candidate_for_staging_review",
+            "usage_note": "来源支持原文题名、形态与年份，不据此推导主题、影响或文学地位。"
+          },
+          "source_chain": [
+            {
+              "fact_id": "V1-FCT-0514",
+              "source_id": "SRC-0173",
+              "source_title": "133 anos de Graciliano Ramos – Prefeitura de São Paulo"
+            }
+          ]
+        }
+      ],
+      "cards": [
+        {
+          "card_id": "V1-CARD-0109",
+          "origin_card_id": "",
+          "subject_id": "V1-ENT-0220",
+          "card_type": "work",
+          "title_zh": "《枯竭的生命》",
+          "author_label": "格拉西利亚诺·拉莫斯",
+          "original_title": "Vidas Secas",
+          "country_or_region": "巴西",
+          "language": "pt",
+          "period_bucket": "1938",
+          "genre_or_form": "长篇小说",
+          "input_layer": "WEB-CE-B05",
+          "source_minimum_status": "meets",
+          "issue_code": "NONE",
+          "content_markdown": "### 《枯竭的生命》｜Vidas Secas — 本批记录长篇小说形态、1938 书目年份与公共文化页面入口；不把概括性评价写成事实。"
+        }
+      ],
+      "card_sources": [
+        {
+          "card_source_id": "V1-CS-0205",
+          "origin_matrix_id": "",
+          "card_id": "V1-CARD-0109",
+          "source_id": "SRC-0171",
+          "source_level": "B",
+          "source_role": "both",
+          "bibliographic_support": "yes",
+          "research_support": "yes",
+          "independent_source_key": "SRC-0171",
+          "usage_status": "used",
+          "issue_code": "NONE"
+        },
+        {
+          "card_source_id": "V1-CS-0206",
+          "origin_matrix_id": "",
+          "card_id": "V1-CARD-0109",
+          "source_id": "SRC-0172",
+          "source_level": "B",
+          "source_role": "both",
+          "bibliographic_support": "yes",
+          "research_support": "yes",
+          "independent_source_key": "SRC-0172",
+          "usage_status": "used",
+          "issue_code": "NONE"
+        },
+        {
+          "card_source_id": "V1-CS-0207",
+          "origin_matrix_id": "",
+          "card_id": "V1-CARD-0109",
+          "source_id": "SRC-0173",
+          "source_level": "B",
+          "source_role": "both",
+          "bibliographic_support": "yes",
+          "research_support": "yes",
+          "independent_source_key": "SRC-0173",
+          "usage_status": "used",
+          "issue_code": "NONE"
+        }
+      ],
+      "relations": [
+        {
+          "relationship_id": "V1-REL-0146",
+          "origin_layer": "WEB-CE-B05",
+          "origin_relation_group_id": "CAND-B05-0146",
+          "subject_id": "V1-ENT-0213",
+          "relation_type": "CREATED",
+          "object_id": "V1-ENT-0220",
+          "description_zh": "格拉西利亚诺·拉莫斯 创作 《枯竭的生命》（Vidas Secas）",
+          "confidence": "high",
+          "review_status": "accepted",
+          "upstream_review_status": "WEB-CE-B05",
+          "evidence_count": "2",
+          "issue_code": "NONE"
+        }
+      ],
+      "relationship_sources": [
+        {
+          "relationship_id": "V1-REL-0146",
+          "source_id": "SRC-0171"
+        },
+        {
+          "relationship_id": "V1-REL-0146",
+          "source_id": "SRC-0173"
+        }
+      ],
+      "relationship_evidence": [
+        {
+          "evidence_id": "V1-EV-0168",
+          "relationship_id": "V1-REL-0146",
+          "origin_evidence_id": "CAND-B05-0146",
+          "source_id": "SRC-0171",
+          "source_title": "Graciliano Ramos – BNDigital",
+          "locator": "",
+          "evidence_note": "机构来源直接支持作者—作品书目关联；本批不扩展解释性关系。",
+          "confidence": "high",
+          "evidence_status": "eligible_evidence",
+          "evidence_origin": "WEB-CE-B05"
+        },
+        {
+          "evidence_id": "V1-EV-0174",
+          "relationship_id": "V1-REL-0146",
+          "origin_evidence_id": "CAND-B05-0146-ALT",
+          "source_id": "SRC-0173",
+          "source_title": "133 anos de Graciliano Ramos – Prefeitura de São Paulo",
+          "locator": "",
+          "evidence_note": "公共文化页面直接列出 Vidas Secas 及作者作品书目，对作者—作品结构关系作交叉支持；不扩展解释性关系。",
+          "confidence": "high",
+          "evidence_status": "eligible_evidence",
+          "evidence_origin": "WEB-CE-B05"
+        }
+      ],
+      "source_objects": [
+        {
+          "source_id": "SRC-0171",
+          "temporary_id": "B05-SRC-0171",
+          "title": "Graciliano Ramos – BNDigital",
+          "original_title": "Graciliano Ramos",
+          "author_or_editor": "Fundação Biblioteca Nacional",
+          "translator": "",
+          "publisher": "Fundação Biblioteca Nacional",
+          "publication_year": "持续更新（2026-08-20 访问）",
+          "isbn": "",
+          "format": "web_page",
+          "page_count": "",
+          "language": "pt",
+          "source_level": "B",
+          "processing_status": "access_pass",
+          "source_task": "WEB-CE-B05",
+          "public_content_scope": "作者生卒、出生地及 São Bernardo、Angústia、Vidas Secas 书目",
+          "local_asset_status": "remote_only",
+          "persistent_id": "",
+          "canonical_url": "https://bndigital.bn.gov.br/graciliano-ramos/"
+        },
+        {
+          "source_id": "SRC-0172",
+          "temporary_id": "B05-SRC-0172",
+          "title": "Making of Vidas Secas",
+          "original_title": "Vidas Secas",
+          "author_or_editor": "Biblioteca Pública do Paraná",
+          "translator": "",
+          "publisher": "Biblioteca Pública do Paraná",
+          "publication_year": "持续更新（2026-08-20 访问）",
+          "isbn": "",
+          "format": "web_page",
+          "page_count": "",
+          "language": "pt",
+          "source_level": "B",
+          "processing_status": "access_pass",
+          "source_task": "WEB-CE-B05",
+          "public_content_scope": "Vidas Secas 1938 及 São Bernardo、Angústia 先行书目和作品背景",
+          "local_asset_status": "remote_only",
+          "persistent_id": "",
+          "canonical_url": "https://www.bpp.pr.gov.br/Candido/Pagina/Making-Vidas-Secas"
+        },
+        {
+          "source_id": "SRC-0173",
+          "temporary_id": "B05-SRC-0173",
+          "title": "133 anos de Graciliano Ramos – Prefeitura de São Paulo",
+          "original_title": "Graciliano Ramos",
+          "author_or_editor": "Secretaria Municipal de Cultura de São Paulo",
+          "translator": "",
+          "publisher": "Prefeitura de São Paulo",
+          "publication_year": "2025",
+          "isbn": "",
+          "format": "web_page",
+          "page_count": "",
+          "language": "pt",
+          "source_level": "B",
+          "processing_status": "access_pass",
+          "source_task": "WEB-CE-B05",
+          "public_content_scope": "São Bernardo 1934、Angústia 1936、Vidas Secas 1938 的公共文化页面书目",
+          "local_asset_status": "remote_only",
+          "persistent_id": "",
+          "canonical_url": "https://prefeitura.sp.gov.br/web/cultura/w/133-anos-de-graciliano-ramos-5-obras-para-voc%C3%AA-conhecer-a-ess%C3%AAncia-liter%C3%A1ria-do-escritor-que-faz-anivers%C3%A1rio-nesta-segunda-27-smc"
+        }
+      ],
+      "fresh_review": {
+        "source_refs": [
+          "WCD10-B09-S003"
+        ],
+        "description": "Direct institutional bibliography/commentary used for bounded ordinary description; no dedicated literary study claimed.",
+        "source_scope": "Add only missing work-level genre/summary; all baseline closure is preserved."
+      },
+      "remaining": "No dedicated work-specific academic study added; institutional description is sufficient for this bounded candidate.",
+      "source_author_id": "V1-ENT-0213",
+      "candidate_facts": [
+        {
+          "candidate_id": "WCD10-B09-F001",
+          "subject_id": "V1-ENT-0220",
+          "field": "genre_or_form",
+          "value": "长篇小说",
+          "source_refs": [
+            "WCD10-B09-S003"
+          ]
+        },
+        {
+          "candidate_id": "WCD10-B09-F002",
+          "subject_id": "V1-ENT-0220",
+          "field": "one_sentence_summary",
+          "value": "据巴拉那州公共图书馆页面，小说围绕因旱灾迁徙的牧人法比亚诺一家展开，成员包括妻子辛哈·维多利亚、两个孩子与狗巴莱娅。",
+          "source_refs": [
+            "WCD10-B09-S003"
+          ]
+        }
+      ]
+    },
+    {
+      "object_ref": "V1-ENT-0221",
+      "entity": {
+        "entity_id": "V1-ENT-0221",
+        "entity_type": "work",
+        "name_zh": "《圣贝尔纳多》",
+        "original_name": "São Bernardo",
+        "canonical_status": "candidate",
+        "origin_count": "3",
+        "origin_refs": "CAND-B05-V1-ENT-0221-WORK",
+        "normalization_basis": "B05 source-backed original title, Chinese display candidate and work layer",
+        "issue_codes": "NONE"
+      },
+      "bibliography": "Preserved baseline bibliographic facts unchanged; this package adds only missing genre_or_form and one_sentence_summary.",
+      "description": "圣保罗市文化部门通过农场主保罗·奥诺里奥的故事，介绍作品对野心、权力与道德败坏的呈现。",
+      "research_status": "institutional_commentary",
+      "research_refs": [
+        "WCD10-B09-S002"
+      ],
+      "old_facts": [
+        {
+          "fact": {
+            "fact_id": "V1-FCT-0515",
+            "origin_material_id": "WEB-CE-B05",
+            "card_id": "V1-CARD-0110",
+            "subject_id": "V1-ENT-0221",
+            "fact_field": "entity_layer",
+            "value_text": "work",
+            "material_class": "metadata",
+            "origin_id": "SRC-0172",
+            "confidence": "high",
+            "admission_status": "candidate_for_staging_review",
+            "usage_note": "机构作品书目确定实体形态；collection 仅用于短篇小说集。"
+          },
+          "source_chain": [
+            {
+              "fact_id": "V1-FCT-0515",
+              "source_id": "SRC-0172",
+              "source_title": "Making of Vidas Secas"
+            }
+          ]
+        },
+        {
+          "fact": {
+            "fact_id": "V1-FCT-0516",
+            "origin_material_id": "WEB-CE-B05",
+            "card_id": "V1-CARD-0110",
+            "subject_id": "V1-ENT-0221",
+            "fact_field": "first_publication_year",
+            "value_text": "1934",
+            "material_class": "bibliographic",
+            "origin_id": "SRC-0173",
+            "confidence": "high",
+            "admission_status": "candidate_for_staging_review",
+            "usage_note": "机构书目或公共文化页面直接列出该作品的首版年份。"
+          },
+          "source_chain": [
+            {
+              "fact_id": "V1-FCT-0516",
+              "source_id": "SRC-0173",
+              "source_title": "133 anos de Graciliano Ramos – Prefeitura de São Paulo"
+            }
+          ]
+        },
+        {
+          "fact": {
+            "fact_id": "V1-FCT-0517",
+            "origin_material_id": "WEB-CE-B05",
+            "card_id": "V1-CARD-0110",
+            "subject_id": "V1-ENT-0221",
+            "fact_field": "bibliographic_note",
+            "value_text": "SRC-0173 直接列出 São Bernardo；本批仅作书目事实。",
+            "material_class": "bibliographic",
+            "origin_id": "SRC-0173",
+            "confidence": "high",
+            "admission_status": "candidate_for_staging_review",
+            "usage_note": "来源支持原文题名、形态与年份，不据此推导主题、影响或文学地位。"
+          },
+          "source_chain": [
+            {
+              "fact_id": "V1-FCT-0517",
+              "source_id": "SRC-0173",
+              "source_title": "133 anos de Graciliano Ramos – Prefeitura de São Paulo"
+            }
+          ]
+        }
+      ],
+      "cards": [
+        {
+          "card_id": "V1-CARD-0110",
+          "origin_card_id": "",
+          "subject_id": "V1-ENT-0221",
+          "card_type": "work",
+          "title_zh": "《圣贝尔纳多》",
+          "author_label": "格拉西利亚诺·拉莫斯",
+          "original_title": "São Bernardo",
+          "country_or_region": "巴西",
+          "language": "pt",
+          "period_bucket": "1934",
+          "genre_or_form": "长篇小说",
+          "input_layer": "WEB-CE-B05",
+          "source_minimum_status": "meets",
+          "issue_code": "NONE",
+          "content_markdown": "### 《圣贝尔纳多》｜São Bernardo — 本批记录长篇小说形态与 1934 书目年份；情节和文学地位留待后续来源审阅。"
+        }
+      ],
+      "card_sources": [
+        {
+          "card_source_id": "V1-CS-0208",
+          "origin_matrix_id": "",
+          "card_id": "V1-CARD-0110",
+          "source_id": "SRC-0171",
+          "source_level": "B",
+          "source_role": "both",
+          "bibliographic_support": "yes",
+          "research_support": "yes",
+          "independent_source_key": "SRC-0171",
+          "usage_status": "used",
+          "issue_code": "NONE"
+        },
+        {
+          "card_source_id": "V1-CS-0209",
+          "origin_matrix_id": "",
+          "card_id": "V1-CARD-0110",
+          "source_id": "SRC-0172",
+          "source_level": "B",
+          "source_role": "both",
+          "bibliographic_support": "yes",
+          "research_support": "yes",
+          "independent_source_key": "SRC-0172",
+          "usage_status": "used",
+          "issue_code": "NONE"
+        },
+        {
+          "card_source_id": "V1-CS-0210",
+          "origin_matrix_id": "",
+          "card_id": "V1-CARD-0110",
+          "source_id": "SRC-0173",
+          "source_level": "B",
+          "source_role": "both",
+          "bibliographic_support": "yes",
+          "research_support": "yes",
+          "independent_source_key": "SRC-0173",
+          "usage_status": "used",
+          "issue_code": "NONE"
+        }
+      ],
+      "relations": [
+        {
+          "relationship_id": "V1-REL-0147",
+          "origin_layer": "WEB-CE-B05",
+          "origin_relation_group_id": "CAND-B05-0147",
+          "subject_id": "V1-ENT-0213",
+          "relation_type": "CREATED",
+          "object_id": "V1-ENT-0221",
+          "description_zh": "格拉西利亚诺·拉莫斯 创作 《圣贝尔纳多》（São Bernardo）",
+          "confidence": "high",
+          "review_status": "accepted",
+          "upstream_review_status": "WEB-CE-B05",
+          "evidence_count": "2",
+          "issue_code": "NONE"
+        }
+      ],
+      "relationship_sources": [
+        {
+          "relationship_id": "V1-REL-0147",
+          "source_id": "SRC-0171"
+        },
+        {
+          "relationship_id": "V1-REL-0147",
+          "source_id": "SRC-0173"
+        }
+      ],
+      "relationship_evidence": [
+        {
+          "evidence_id": "V1-EV-0169",
+          "relationship_id": "V1-REL-0147",
+          "origin_evidence_id": "CAND-B05-0147",
+          "source_id": "SRC-0171",
+          "source_title": "Graciliano Ramos – BNDigital",
+          "locator": "",
+          "evidence_note": "机构来源直接支持作者—作品书目关联；本批不扩展解释性关系。",
+          "confidence": "high",
+          "evidence_status": "eligible_evidence",
+          "evidence_origin": "WEB-CE-B05"
+        },
+        {
+          "evidence_id": "V1-EV-0175",
+          "relationship_id": "V1-REL-0147",
+          "origin_evidence_id": "CAND-B05-0147-ALT",
+          "source_id": "SRC-0173",
+          "source_title": "133 anos de Graciliano Ramos – Prefeitura de São Paulo",
+          "locator": "",
+          "evidence_note": "公共文化页面直接列出 São Bernardo 及作者作品书目，对作者—作品结构关系作交叉支持；不扩展解释性关系。",
+          "confidence": "high",
+          "evidence_status": "eligible_evidence",
+          "evidence_origin": "WEB-CE-B05"
+        }
+      ],
+      "source_objects": [
+        {
+          "source_id": "SRC-0171",
+          "temporary_id": "B05-SRC-0171",
+          "title": "Graciliano Ramos – BNDigital",
+          "original_title": "Graciliano Ramos",
+          "author_or_editor": "Fundação Biblioteca Nacional",
+          "translator": "",
+          "publisher": "Fundação Biblioteca Nacional",
+          "publication_year": "持续更新（2026-08-20 访问）",
+          "isbn": "",
+          "format": "web_page",
+          "page_count": "",
+          "language": "pt",
+          "source_level": "B",
+          "processing_status": "access_pass",
+          "source_task": "WEB-CE-B05",
+          "public_content_scope": "作者生卒、出生地及 São Bernardo、Angústia、Vidas Secas 书目",
+          "local_asset_status": "remote_only",
+          "persistent_id": "",
+          "canonical_url": "https://bndigital.bn.gov.br/graciliano-ramos/"
+        },
+        {
+          "source_id": "SRC-0172",
+          "temporary_id": "B05-SRC-0172",
+          "title": "Making of Vidas Secas",
+          "original_title": "Vidas Secas",
+          "author_or_editor": "Biblioteca Pública do Paraná",
+          "translator": "",
+          "publisher": "Biblioteca Pública do Paraná",
+          "publication_year": "持续更新（2026-08-20 访问）",
+          "isbn": "",
+          "format": "web_page",
+          "page_count": "",
+          "language": "pt",
+          "source_level": "B",
+          "processing_status": "access_pass",
+          "source_task": "WEB-CE-B05",
+          "public_content_scope": "Vidas Secas 1938 及 São Bernardo、Angústia 先行书目和作品背景",
+          "local_asset_status": "remote_only",
+          "persistent_id": "",
+          "canonical_url": "https://www.bpp.pr.gov.br/Candido/Pagina/Making-Vidas-Secas"
+        },
+        {
+          "source_id": "SRC-0173",
+          "temporary_id": "B05-SRC-0173",
+          "title": "133 anos de Graciliano Ramos – Prefeitura de São Paulo",
+          "original_title": "Graciliano Ramos",
+          "author_or_editor": "Secretaria Municipal de Cultura de São Paulo",
+          "translator": "",
+          "publisher": "Prefeitura de São Paulo",
+          "publication_year": "2025",
+          "isbn": "",
+          "format": "web_page",
+          "page_count": "",
+          "language": "pt",
+          "source_level": "B",
+          "processing_status": "access_pass",
+          "source_task": "WEB-CE-B05",
+          "public_content_scope": "São Bernardo 1934、Angústia 1936、Vidas Secas 1938 的公共文化页面书目",
+          "local_asset_status": "remote_only",
+          "persistent_id": "",
+          "canonical_url": "https://prefeitura.sp.gov.br/web/cultura/w/133-anos-de-graciliano-ramos-5-obras-para-voc%C3%AA-conhecer-a-ess%C3%AAncia-liter%C3%A1ria-do-escritor-que-faz-anivers%C3%A1rio-nesta-segunda-27-smc"
+        }
+      ],
+      "fresh_review": {
+        "source_refs": [
+          "WCD10-B09-S002"
+        ],
+        "description": "Direct institutional bibliography/commentary used for bounded ordinary description; no dedicated literary study claimed.",
+        "source_scope": "Add only missing work-level genre/summary; all baseline closure is preserved."
+      },
+      "remaining": "No dedicated work-specific academic study added; institutional description is sufficient for this bounded candidate.",
+      "source_author_id": "V1-ENT-0213",
+      "candidate_facts": [
+        {
+          "candidate_id": "WCD10-B09-F003",
+          "subject_id": "V1-ENT-0221",
+          "field": "genre_or_form",
+          "value": "长篇小说",
+          "source_refs": [
+            "WCD10-B09-S002"
+          ]
+        },
+        {
+          "candidate_id": "WCD10-B09-F004",
+          "subject_id": "V1-ENT-0221",
+          "field": "one_sentence_summary",
+          "value": "圣保罗市文化部门通过农场主保罗·奥诺里奥的故事，介绍作品对野心、权力与道德败坏的呈现。",
+          "source_refs": [
+            "WCD10-B09-S002"
+          ]
+        }
+      ]
+    },
+    {
+      "object_ref": "V1-ENT-0222",
+      "entity": {
+        "entity_id": "V1-ENT-0222",
+        "entity_type": "work",
+        "name_zh": "《苦闷》",
+        "original_name": "Angústia",
+        "canonical_status": "candidate",
+        "origin_count": "3",
+        "origin_refs": "CAND-B05-V1-ENT-0222-WORK",
+        "normalization_basis": "B05 source-backed original title, Chinese display candidate and work layer",
+        "issue_codes": "NONE"
+      },
+      "bibliography": "Preserved baseline bibliographic facts unchanged; this package adds only missing genre_or_form and one_sentence_summary.",
+      "description": "圣保罗市文化部门将小说概括为路易斯·达·席尔瓦的内心叙事，聚焦其执念、挫折与恐惧。",
+      "research_status": "institutional_commentary",
+      "research_refs": [
+        "WCD10-B09-S002"
+      ],
+      "old_facts": [
+        {
+          "fact": {
+            "fact_id": "V1-FCT-0518",
+            "origin_material_id": "WEB-CE-B05",
+            "card_id": "V1-CARD-0111",
+            "subject_id": "V1-ENT-0222",
+            "fact_field": "entity_layer",
+            "value_text": "work",
+            "material_class": "metadata",
+            "origin_id": "SRC-0172",
+            "confidence": "high",
+            "admission_status": "candidate_for_staging_review",
+            "usage_note": "机构作品书目确定实体形态；collection 仅用于短篇小说集。"
+          },
+          "source_chain": [
+            {
+              "fact_id": "V1-FCT-0518",
+              "source_id": "SRC-0172",
+              "source_title": "Making of Vidas Secas"
+            }
+          ]
+        },
+        {
+          "fact": {
+            "fact_id": "V1-FCT-0519",
+            "origin_material_id": "WEB-CE-B05",
+            "card_id": "V1-CARD-0111",
+            "subject_id": "V1-ENT-0222",
+            "fact_field": "first_publication_year",
+            "value_text": "1936",
+            "material_class": "bibliographic",
+            "origin_id": "SRC-0173",
+            "confidence": "high",
+            "admission_status": "candidate_for_staging_review",
+            "usage_note": "机构书目或公共文化页面直接列出该作品的首版年份。"
+          },
+          "source_chain": [
+            {
+              "fact_id": "V1-FCT-0519",
+              "source_id": "SRC-0173",
+              "source_title": "133 anos de Graciliano Ramos – Prefeitura de São Paulo"
+            }
+          ]
+        },
+        {
+          "fact": {
+            "fact_id": "V1-FCT-0520",
+            "origin_material_id": "WEB-CE-B05",
+            "card_id": "V1-CARD-0111",
+            "subject_id": "V1-ENT-0222",
+            "fact_field": "bibliographic_note",
+            "value_text": "SRC-0173 直接列出 Angústia；本批仅作书目事实。",
+            "material_class": "bibliographic",
+            "origin_id": "SRC-0173",
+            "confidence": "high",
+            "admission_status": "candidate_for_staging_review",
+            "usage_note": "来源支持原文题名、形态与年份，不据此推导主题、影响或文学地位。"
+          },
+          "source_chain": [
+            {
+              "fact_id": "V1-FCT-0520",
+              "source_id": "SRC-0173",
+              "source_title": "133 anos de Graciliano Ramos – Prefeitura de São Paulo"
+            }
+          ]
+        }
+      ],
+      "cards": [
+        {
+          "card_id": "V1-CARD-0111",
+          "origin_card_id": "",
+          "subject_id": "V1-ENT-0222",
+          "card_type": "work",
+          "title_zh": "《苦闷》",
+          "author_label": "格拉西利亚诺·拉莫斯",
+          "original_title": "Angústia",
+          "country_or_region": "巴西",
+          "language": "pt",
+          "period_bucket": "1936",
+          "genre_or_form": "长篇小说",
+          "input_layer": "WEB-CE-B05",
+          "source_minimum_status": "meets",
+          "issue_code": "NONE",
+          "content_markdown": "### 《苦闷》｜Angústia — 本批记录长篇小说形态与 1936 书目年份；不把评论性心理分析写入 Research fact."
+        }
+      ],
+      "card_sources": [
+        {
+          "card_source_id": "V1-CS-0211",
+          "origin_matrix_id": "",
+          "card_id": "V1-CARD-0111",
+          "source_id": "SRC-0171",
+          "source_level": "B",
+          "source_role": "both",
+          "bibliographic_support": "yes",
+          "research_support": "yes",
+          "independent_source_key": "SRC-0171",
+          "usage_status": "used",
+          "issue_code": "NONE"
+        },
+        {
+          "card_source_id": "V1-CS-0212",
+          "origin_matrix_id": "",
+          "card_id": "V1-CARD-0111",
+          "source_id": "SRC-0172",
+          "source_level": "B",
+          "source_role": "both",
+          "bibliographic_support": "yes",
+          "research_support": "yes",
+          "independent_source_key": "SRC-0172",
+          "usage_status": "used",
+          "issue_code": "NONE"
+        },
+        {
+          "card_source_id": "V1-CS-0213",
+          "origin_matrix_id": "",
+          "card_id": "V1-CARD-0111",
+          "source_id": "SRC-0173",
+          "source_level": "B",
+          "source_role": "both",
+          "bibliographic_support": "yes",
+          "research_support": "yes",
+          "independent_source_key": "SRC-0173",
+          "usage_status": "used",
+          "issue_code": "NONE"
+        }
+      ],
+      "relations": [
+        {
+          "relationship_id": "V1-REL-0148",
+          "origin_layer": "WEB-CE-B05",
+          "origin_relation_group_id": "CAND-B05-0148",
+          "subject_id": "V1-ENT-0213",
+          "relation_type": "CREATED",
+          "object_id": "V1-ENT-0222",
+          "description_zh": "格拉西利亚诺·拉莫斯 创作 《苦闷》（Angústia）",
+          "confidence": "high",
+          "review_status": "accepted",
+          "upstream_review_status": "WEB-CE-B05",
+          "evidence_count": "2",
+          "issue_code": "NONE"
+        }
+      ],
+      "relationship_sources": [
+        {
+          "relationship_id": "V1-REL-0148",
+          "source_id": "SRC-0171"
+        },
+        {
+          "relationship_id": "V1-REL-0148",
+          "source_id": "SRC-0173"
+        }
+      ],
+      "relationship_evidence": [
+        {
+          "evidence_id": "V1-EV-0170",
+          "relationship_id": "V1-REL-0148",
+          "origin_evidence_id": "CAND-B05-0148",
+          "source_id": "SRC-0171",
+          "source_title": "Graciliano Ramos – BNDigital",
+          "locator": "",
+          "evidence_note": "机构来源直接支持作者—作品书目关联；本批不扩展解释性关系。",
+          "confidence": "high",
+          "evidence_status": "eligible_evidence",
+          "evidence_origin": "WEB-CE-B05"
+        },
+        {
+          "evidence_id": "V1-EV-0176",
+          "relationship_id": "V1-REL-0148",
+          "origin_evidence_id": "CAND-B05-0148-ALT",
+          "source_id": "SRC-0173",
+          "source_title": "133 anos de Graciliano Ramos – Prefeitura de São Paulo",
+          "locator": "",
+          "evidence_note": "公共文化页面直接列出 Angústia 及作者作品书目，对作者—作品结构关系作交叉支持；不扩展解释性关系。",
+          "confidence": "high",
+          "evidence_status": "eligible_evidence",
+          "evidence_origin": "WEB-CE-B05"
+        }
+      ],
+      "source_objects": [
+        {
+          "source_id": "SRC-0171",
+          "temporary_id": "B05-SRC-0171",
+          "title": "Graciliano Ramos – BNDigital",
+          "original_title": "Graciliano Ramos",
+          "author_or_editor": "Fundação Biblioteca Nacional",
+          "translator": "",
+          "publisher": "Fundação Biblioteca Nacional",
+          "publication_year": "持续更新（2026-08-20 访问）",
+          "isbn": "",
+          "format": "web_page",
+          "page_count": "",
+          "language": "pt",
+          "source_level": "B",
+          "processing_status": "access_pass",
+          "source_task": "WEB-CE-B05",
+          "public_content_scope": "作者生卒、出生地及 São Bernardo、Angústia、Vidas Secas 书目",
+          "local_asset_status": "remote_only",
+          "persistent_id": "",
+          "canonical_url": "https://bndigital.bn.gov.br/graciliano-ramos/"
+        },
+        {
+          "source_id": "SRC-0172",
+          "temporary_id": "B05-SRC-0172",
+          "title": "Making of Vidas Secas",
+          "original_title": "Vidas Secas",
+          "author_or_editor": "Biblioteca Pública do Paraná",
+          "translator": "",
+          "publisher": "Biblioteca Pública do Paraná",
+          "publication_year": "持续更新（2026-08-20 访问）",
+          "isbn": "",
+          "format": "web_page",
+          "page_count": "",
+          "language": "pt",
+          "source_level": "B",
+          "processing_status": "access_pass",
+          "source_task": "WEB-CE-B05",
+          "public_content_scope": "Vidas Secas 1938 及 São Bernardo、Angústia 先行书目和作品背景",
+          "local_asset_status": "remote_only",
+          "persistent_id": "",
+          "canonical_url": "https://www.bpp.pr.gov.br/Candido/Pagina/Making-Vidas-Secas"
+        },
+        {
+          "source_id": "SRC-0173",
+          "temporary_id": "B05-SRC-0173",
+          "title": "133 anos de Graciliano Ramos – Prefeitura de São Paulo",
+          "original_title": "Graciliano Ramos",
+          "author_or_editor": "Secretaria Municipal de Cultura de São Paulo",
+          "translator": "",
+          "publisher": "Prefeitura de São Paulo",
+          "publication_year": "2025",
+          "isbn": "",
+          "format": "web_page",
+          "page_count": "",
+          "language": "pt",
+          "source_level": "B",
+          "processing_status": "access_pass",
+          "source_task": "WEB-CE-B05",
+          "public_content_scope": "São Bernardo 1934、Angústia 1936、Vidas Secas 1938 的公共文化页面书目",
+          "local_asset_status": "remote_only",
+          "persistent_id": "",
+          "canonical_url": "https://prefeitura.sp.gov.br/web/cultura/w/133-anos-de-graciliano-ramos-5-obras-para-voc%C3%AA-conhecer-a-ess%C3%AAncia-liter%C3%A1ria-do-escritor-que-faz-anivers%C3%A1rio-nesta-segunda-27-smc"
+        }
+      ],
+      "fresh_review": {
+        "source_refs": [
+          "WCD10-B09-S002"
+        ],
+        "description": "Direct institutional bibliography/commentary used for bounded ordinary description; no dedicated literary study claimed.",
+        "source_scope": "Add only missing work-level genre/summary; all baseline closure is preserved."
+      },
+      "remaining": "No dedicated work-specific academic study added; institutional description is sufficient for this bounded candidate.",
+      "source_author_id": "V1-ENT-0213",
+      "candidate_facts": [
+        {
+          "candidate_id": "WCD10-B09-F005",
+          "subject_id": "V1-ENT-0222",
+          "field": "genre_or_form",
+          "value": "长篇小说",
+          "source_refs": [
+            "WCD10-B09-S002"
+          ]
+        },
+        {
+          "candidate_id": "WCD10-B09-F006",
+          "subject_id": "V1-ENT-0222",
+          "field": "one_sentence_summary",
+          "value": "圣保罗市文化部门将小说概括为路易斯·达·席尔瓦的内心叙事，聚焦其执念、挫折与恐惧。",
+          "source_refs": [
+            "WCD10-B09-S002"
+          ]
+        }
+      ]
+    },
+    {
+      "object_ref": "WCD10-B09-W001",
+      "entity": {
+        "entity_id": "WCD10-B09-W001",
+        "entity_type": "work",
+        "name_zh": "《卡埃特斯》",
+        "original_name": "Caetés",
+        "canonical_status": "candidate",
+        "origin_count": "1",
+        "origin_refs": "WCD10-B09-CANDIDATE",
+        "normalization_basis": "中文为检索/展示暂译；原文题名为身份锚点。",
+        "issue_codes": "NONE"
+      },
+      "bibliography": "first_publication_year=1933; 长篇小说",
+      "description": "圣保罗市文化部门称这是拉莫斯的小说处女作，并将其描述为带有心理内省的叙事，呈现个体在社会与个人困境中的挣扎。",
+      "research_status": "institutional_commentary",
+      "research_refs": [
+        "WCD10-B09-S001",
+        "WCD10-B09-S002"
+      ],
+      "old_facts": [],
+      "cards": [],
+      "card_sources": [],
+      "relations": [],
+      "relationship_sources": [],
+      "relationship_evidence": [],
+      "source_objects": [],
+      "fresh_review": {
+        "source_refs": [
+          "WCD10-B09-S001",
+          "WCD10-B09-S002"
+        ],
+        "description": "Ordinary bibliography and bounded institutional summary; no specialized study claimed.",
+        "source_scope": "New work and direct CREATED relation candidate."
+      },
+      "remaining": "No dedicated work-specific academic study added; institutional description is sufficient for this bounded candidate.",
+      "source_author_id": "V1-ENT-0213",
+      "candidate_facts": [
+        {
+          "field": "first_publication_year",
+          "value": "1933",
+          "source_refs": [
+            "WCD10-B09-S001",
+            "WCD10-B09-S002"
+          ],
+          "fact_candidate_id": "WCD10-B09-W001-F01"
+        },
+        {
+          "field": "genre_or_form",
+          "value": "长篇小说",
+          "source_refs": [
+            "WCD10-B09-S001",
+            "WCD10-B09-S002"
+          ],
+          "fact_candidate_id": "WCD10-B09-W001-F02"
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "圣保罗市文化部门称这是拉莫斯的小说处女作，并将其描述为带有心理内省的叙事，呈现个体在社会与个人困境中的挣扎。",
+          "source_refs": [
+            "WCD10-B09-S001",
+            "WCD10-B09-S002"
+          ],
+          "fact_candidate_id": "WCD10-B09-W001-F03"
+        }
+      ]
+    },
+    {
+      "object_ref": "WCD10-B09-W002",
+      "entity": {
+        "entity_id": "WCD10-B09-W002",
+        "entity_type": "work",
+        "name_zh": "《狱中回忆》",
+        "original_name": "Memórias do Cárcere",
+        "canonical_status": "candidate",
+        "origin_count": "1",
+        "origin_refs": "WCD10-B09-CANDIDATE",
+        "normalization_basis": "中文为检索/展示暂译；原文题名为身份锚点。",
+        "issue_codes": "NONE"
+      },
+      "bibliography": "first_publication_year=1953; 回忆录 / 狱中回忆",
+      "description": "国家图书馆数字馆藏记载该书于作者去世后出版，写其狱中经历。",
+      "research_status": "institutional_commentary",
+      "research_refs": [
+        "WCD10-B09-S001",
+        "WCD10-B09-S002"
+      ],
+      "old_facts": [],
+      "cards": [],
+      "card_sources": [],
+      "relations": [],
+      "relationship_sources": [],
+      "relationship_evidence": [],
+      "source_objects": [],
+      "fresh_review": {
+        "source_refs": [
+          "WCD10-B09-S001",
+          "WCD10-B09-S002"
+        ],
+        "description": "Ordinary bibliography and bounded institutional summary; no specialized study claimed.",
+        "source_scope": "New work and direct CREATED relation candidate."
+      },
+      "remaining": "No dedicated work-specific academic study added; institutional description is sufficient for this bounded candidate.",
+      "source_author_id": "V1-ENT-0213",
+      "candidate_facts": [
+        {
+          "field": "first_publication_year",
+          "value": "1953",
+          "source_refs": [
+            "WCD10-B09-S001",
+            "WCD10-B09-S002"
+          ],
+          "fact_candidate_id": "WCD10-B09-W002-F01"
+        },
+        {
+          "field": "genre_or_form",
+          "value": "回忆录 / 狱中回忆",
+          "source_refs": [
+            "WCD10-B09-S001",
+            "WCD10-B09-S002"
+          ],
+          "fact_candidate_id": "WCD10-B09-W002-F02"
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "国家图书馆数字馆藏记载该书于作者去世后出版，写其狱中经历。",
+          "source_refs": [
+            "WCD10-B09-S001",
+            "WCD10-B09-S002"
+          ],
+          "fact_candidate_id": "WCD10-B09-W002-F03"
+        }
+      ]
+    },
+    {
+      "object_ref": "WCD10-B09-W003",
+      "entity": {
+        "entity_id": "WCD10-B09-W003",
+        "entity_type": "work",
+        "name_zh": "《童年》",
+        "original_name": "Infância",
+        "canonical_status": "candidate",
+        "origin_count": "1",
+        "origin_refs": "WCD10-B09-CANDIDATE",
+        "normalization_basis": "中文为检索/展示暂译；原文题名为身份锚点。",
+        "issue_codes": "NONE"
+      },
+      "bibliography": "first_publication_year=1945; 自传 / 回忆录",
+      "description": "国家图书馆数字馆藏将《童年》列为1945年出版的作品，并明确称其为自传性叙述。",
+      "research_status": "institutional_commentary",
+      "research_refs": [
+        "WCD10-B09-S001"
+      ],
+      "old_facts": [],
+      "cards": [],
+      "card_sources": [],
+      "relations": [],
+      "relationship_sources": [],
+      "relationship_evidence": [],
+      "source_objects": [],
+      "fresh_review": {
+        "source_refs": [
+          "WCD10-B09-S001"
+        ],
+        "description": "Ordinary bibliography and bounded institutional summary; no specialized study claimed.",
+        "source_scope": "New work and direct CREATED relation candidate."
+      },
+      "remaining": "No dedicated work-specific academic study added; institutional description is sufficient for this bounded candidate.",
+      "source_author_id": "V1-ENT-0213",
+      "candidate_facts": [
+        {
+          "field": "first_publication_year",
+          "value": "1945",
+          "source_refs": [
+            "WCD10-B09-S001"
+          ],
+          "fact_candidate_id": "WCD10-B09-W003-F01"
+        },
+        {
+          "field": "genre_or_form",
+          "value": "自传 / 回忆录",
+          "source_refs": [
+            "WCD10-B09-S001"
+          ],
+          "fact_candidate_id": "WCD10-B09-W003-F02"
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "国家图书馆数字馆藏将《童年》列为1945年出版的作品，并明确称其为自传性叙述。",
+          "source_refs": [
+            "WCD10-B09-S001"
+          ],
+          "fact_candidate_id": "WCD10-B09-W003-F03"
+        }
+      ]
+    },
+    {
+      "object_ref": "V1-ENT-0226",
+      "entity": {
+        "entity_id": "V1-ENT-0226",
+        "entity_type": "collection",
+        "name_zh": "《黑色使者》",
+        "original_name": "Los heraldos negros",
+        "canonical_status": "candidate",
+        "origin_count": "1",
+        "origin_refs": "CAND-B06-VALLEJO-W01",
+        "normalization_basis": "B06 Casa de la Literatura original title and first-edition note; display candidate",
+        "issue_codes": "DISPUTED-YEAR"
+      },
+      "bibliography": "基线书目事实及全部既有来源链保留；本轮不改写既有年份或书目注记。",
+      "description": "这部早期诗集围绕家庭、故土、宗教与日常生活展开，机构展览资料将其描述为带有乡愁色彩的亲密作品。",
+      "research_status": "institutional_commentary",
+      "research_refs": [
+        "WCD10-B09-S101"
+      ],
+      "old_facts": [
+        {
+          "fact": {
+            "fact_id": "V1-FCT-0536",
+            "origin_material_id": "WEB-CE-B06",
+            "card_id": "V1-CARD-0115",
+            "subject_id": "V1-ENT-0226",
+            "fact_field": "entity_layer",
+            "value_text": "collection",
+            "material_class": "metadata",
+            "origin_id": "SRC-0178",
+            "confidence": "high",
+            "admission_status": "candidate_for_staging_review",
+            "usage_note": "作品层级与来源书目形态保持一致。"
+          },
+          "source_chain": [
+            {
+              "fact_id": "V1-FCT-0536",
+              "source_id": "SRC-0178",
+              "source_title": "Historia de las literaturas en el Perú. Volumen 4"
+            }
+          ]
+        },
+        {
+          "fact": {
+            "fact_id": "V1-FCT-0537",
+            "origin_material_id": "WEB-CE-B06",
+            "card_id": "V1-CARD-0115",
+            "subject_id": "V1-ENT-0226",
+            "fact_field": "first_publication_year",
+            "value_text": "1918/1919",
+            "material_class": "bibliographic",
+            "origin_id": "SRC-0178",
+            "confidence": "medium",
+            "admission_status": "candidate_for_staging_review",
+            "usage_note": "该页面将 Los heraldos negros 列作 1918 原始版本，并另注实际印行为 1919；保留日期冲突并进入 V1-GAP-0015。"
+          },
+          "source_chain": [
+            {
+              "fact_id": "V1-FCT-0537",
+              "source_id": "SRC-0178",
+              "source_title": "Historia de las literaturas en el Perú. Volumen 4"
+            },
+            {
+              "fact_id": "V1-FCT-0537",
+              "source_id": "SRC-0177",
+              "source_title": "Santiago de Chuco y César Vallejo: 130 años de su nacimiento"
+            }
+          ]
+        },
+        {
+          "fact": {
+            "fact_id": "V1-FCT-0538",
+            "origin_material_id": "WEB-CE-B06",
+            "card_id": "V1-CARD-0115",
+            "subject_id": "V1-ENT-0226",
+            "fact_field": "bibliographic_note",
+            "value_text": "该页面将 Los heraldos negros 列作 1918 原始版本，并另注实际印行为 1919；保留日期冲突并进入 V1-GAP-0015。",
+            "material_class": "bibliographic",
+            "origin_id": "SRC-0178",
+            "confidence": "medium",
+            "admission_status": "candidate_for_staging_review",
+            "usage_note": "来源支持原文题名、形态与年份；不据此推导主题、影响或文学地位。"
+          },
+          "source_chain": [
+            {
+              "fact_id": "V1-FCT-0538",
+              "source_id": "SRC-0178",
+              "source_title": "Historia de las literaturas en el Perú. Volumen 4"
+            }
+          ]
+        }
+      ],
+      "cards": [
+        {
+          "card_id": "V1-CARD-0115",
+          "origin_card_id": "",
+          "subject_id": "V1-ENT-0226",
+          "card_type": "collection",
+          "title_zh": "《黑色使者》",
+          "author_label": "塞萨尔·巴列霍",
+          "original_title": "Los heraldos negros",
+          "country_or_region": "秘鲁",
+          "language": "es",
+          "period_bucket": "1918/1919",
+          "genre_or_form": "诗集",
+          "input_layer": "WEB-CE-B06",
+          "source_minimum_status": "meets",
+          "issue_code": "DISPUTED-YEAR",
+          "content_markdown": "### 《黑色使者》｜Los heraldos negros — 机构页面列作 1918 首版，同时说明实际印行时间存在 1919 记载；本批保留争议。"
+        }
+      ],
+      "card_sources": [
+        {
+          "card_source_id": "V1-CS-0225",
+          "origin_matrix_id": "",
+          "card_id": "V1-CARD-0115",
+          "source_id": "SRC-0178",
+          "source_level": "B",
+          "source_role": "both",
+          "bibliographic_support": "yes",
+          "research_support": "yes",
+          "independent_source_key": "SRC-0178",
+          "usage_status": "used",
+          "issue_code": "NONE"
+        }
+      ],
+      "relations": [
+        {
+          "relationship_id": "V1-REL-0152",
+          "origin_layer": "WEB-CE-B06",
+          "origin_relation_group_id": "CAND-B06-0152",
+          "subject_id": "V1-ENT-0223",
+          "relation_type": "CREATED",
+          "object_id": "V1-ENT-0226",
+          "description_zh": "V1-ENT-0223 创作 Los heraldos negros",
+          "confidence": "high",
+          "review_status": "accepted",
+          "upstream_review_status": "WEB-CE-B06",
+          "evidence_count": "1",
+          "issue_code": "NONE"
+        }
+      ],
+      "relationship_sources": [
+        {
+          "relationship_id": "V1-REL-0152",
+          "source_id": "SRC-0178"
+        }
+      ],
+      "relationship_evidence": [
+        {
+          "evidence_id": "V1-EV-0177",
+          "relationship_id": "V1-REL-0152",
+          "origin_evidence_id": "CAND-B06-0152",
+          "source_id": "SRC-0178",
+          "source_title": "Historia de las literaturas en el Perú. Volumen 4",
+          "locator": "",
+          "evidence_note": "机构来源直接支持作者—作品书目或作者—国家身份关联；本批不扩展解释性关系。",
+          "confidence": "high",
+          "evidence_status": "eligible_evidence",
+          "evidence_origin": "WEB-CE-B06"
+        }
+      ],
+      "source_objects": [
+        {
+          "source_id": "SRC-0177",
+          "temporary_id": "B06-SRC-0177",
+          "title": "Santiago de Chuco y César Vallejo: 130 años de su nacimiento",
+          "original_title": "Santiago de Chuco y César Vallejo: 130 años de su nacimiento",
+          "author_or_editor": "Casa de la Literatura Peruana",
+          "translator": "",
+          "publisher": "Casa de la Literatura Peruana",
+          "publication_year": "2022",
+          "isbn": "",
+          "format": "web_page",
+          "page_count": "",
+          "language": "es",
+          "source_level": "B",
+          "processing_status": "access_pass",
+          "source_task": "WEB-CE-B06",
+          "public_content_scope": "Vallejo 生卒、出生地与秘鲁身份",
+          "local_asset_status": "remote_only",
+          "persistent_id": "",
+          "canonical_url": "https://www.casadelaliteratura.gob.pe/santiago-chuco-cesar-vallejo-130-anos-nacimiento/"
+        },
+        {
+          "source_id": "SRC-0178",
+          "temporary_id": "B06-SRC-0178",
+          "title": "Historia de las literaturas en el Perú. Volumen 4",
+          "original_title": "Historia de las literaturas en el Perú. Volumen 4",
+          "author_or_editor": "Casa de la Literatura Peruana",
+          "translator": "",
+          "publisher": "Casa de la Literatura Peruana",
+          "publication_year": "2019",
+          "isbn": "",
+          "format": "pdf",
+          "page_count": "",
+          "language": "es",
+          "source_level": "B",
+          "processing_status": "access_pass",
+          "source_task": "WEB-CE-B06",
+          "public_content_scope": "Los heraldos negros、Trilce、Poemas humanos 原文题名、年份与 1918/1919 说明",
+          "local_asset_status": "remote_only",
+          "persistent_id": "",
+          "canonical_url": "https://www.casadelaliteratura.gob.pe/wp-content/uploads/2019/04/Historia-de-la-literatura-Vol-4.pdf"
+        }
+      ],
+      "fresh_review": {
+        "source_refs": [
+          "WCD10-B09-S101"
+        ],
+        "description": "这部早期诗集围绕家庭、故土、宗教与日常生活展开，机构展览资料将其描述为带有乡愁色彩的亲密作品。"
+      },
+      "remaining": "作品描述依据机构展览页；沿用基线 V1-GAP-0015，1918题名年份与1919实际印行的冲突本批继续保留、不作裁定；对象级学术研究缺口仍开放。",
+      "source_author_id": "V1-ENT-0223",
+      "candidate_facts": [
+        {
+          "candidate_id": "WCD10-B09-F101",
+          "subject_id": "V1-ENT-0226",
+          "field": "genre_or_form",
+          "value": "诗集",
+          "source_refs": [
+            "WCD10-B09-S101"
+          ],
+          "boundary": "仅补基线缺失的作品类型/普通机构简介；保留基线 entity、全部旧 facts/cards/CREATED relation、holds/gaps 及可用 source/evidence/source_objects 链不变。 已有卡片标注诗集；此处补入事实字段，不重复写出版年份。"
+        },
+        {
+          "candidate_id": "WCD10-B09-F102",
+          "subject_id": "V1-ENT-0226",
+          "field": "one_sentence_summary",
+          "value": "这部早期诗集围绕家庭、故土、宗教与日常生活展开，机构展览资料将其描述为带有乡愁色彩的亲密作品。",
+          "source_refs": [
+            "WCD10-B09-S101"
+          ],
+          "boundary": "仅补基线缺失的作品类型/普通机构简介；保留基线 entity、全部旧 facts/cards/CREATED relation、holds/gaps 及可用 source/evidence/source_objects 链不变。 只转述该机构对作品本身的介绍，不裁决《黑色使者》1918/1919首版与印行冲突。"
+        }
+      ]
+    },
+    {
+      "object_ref": "V1-ENT-0227",
+      "entity": {
+        "entity_id": "V1-ENT-0227",
+        "entity_type": "collection",
+        "name_zh": "《特里尔塞》",
+        "original_name": "Trilce",
+        "canonical_status": "candidate",
+        "origin_count": "1",
+        "origin_refs": "CAND-B06-VALLEJO-W02",
+        "normalization_basis": "B06 Casa de la Literatura original title and 1922 first edition",
+        "issue_codes": "NONE"
+      },
+      "bibliography": "基线书目事实及全部既有来源链保留；本轮不改写既有年份或书目注记。",
+      "description": "机构展览资料记载，该诗集大部分写于Vallejo在特鲁希略服刑期间，并将诗中监禁空间与自由愿望的张力联系起来。",
+      "research_status": "institutional_commentary",
+      "research_refs": [
+        "WCD10-B09-S101"
+      ],
+      "old_facts": [
+        {
+          "fact": {
+            "fact_id": "V1-FCT-0539",
+            "origin_material_id": "WEB-CE-B06",
+            "card_id": "V1-CARD-0116",
+            "subject_id": "V1-ENT-0227",
+            "fact_field": "entity_layer",
+            "value_text": "collection",
+            "material_class": "metadata",
+            "origin_id": "SRC-0178",
+            "confidence": "high",
+            "admission_status": "candidate_for_staging_review",
+            "usage_note": "作品层级与来源书目形态保持一致。"
+          },
+          "source_chain": [
+            {
+              "fact_id": "V1-FCT-0539",
+              "source_id": "SRC-0178",
+              "source_title": "Historia de las literaturas en el Perú. Volumen 4"
+            }
+          ]
+        },
+        {
+          "fact": {
+            "fact_id": "V1-FCT-0540",
+            "origin_material_id": "WEB-CE-B06",
+            "card_id": "V1-CARD-0116",
+            "subject_id": "V1-ENT-0227",
+            "fact_field": "first_publication_year",
+            "value_text": "1922",
+            "material_class": "bibliographic",
+            "origin_id": "SRC-0178",
+            "confidence": "high",
+            "admission_status": "candidate_for_staging_review",
+            "usage_note": "机构页面列出 Trilce（1922）首版；本批只作书目事实。"
+          },
+          "source_chain": [
+            {
+              "fact_id": "V1-FCT-0540",
+              "source_id": "SRC-0178",
+              "source_title": "Historia de las literaturas en el Perú. Volumen 4"
+            }
+          ]
+        },
+        {
+          "fact": {
+            "fact_id": "V1-FCT-0541",
+            "origin_material_id": "WEB-CE-B06",
+            "card_id": "V1-CARD-0116",
+            "subject_id": "V1-ENT-0227",
+            "fact_field": "bibliographic_note",
+            "value_text": "机构页面列出 Trilce（1922）首版；本批只作书目事实。",
+            "material_class": "bibliographic",
+            "origin_id": "SRC-0178",
+            "confidence": "high",
+            "admission_status": "candidate_for_staging_review",
+            "usage_note": "来源支持原文题名、形态与年份；不据此推导主题、影响或文学地位。"
+          },
+          "source_chain": [
+            {
+              "fact_id": "V1-FCT-0541",
+              "source_id": "SRC-0178",
+              "source_title": "Historia de las literaturas en el Perú. Volumen 4"
+            }
+          ]
+        }
+      ],
+      "cards": [
+        {
+          "card_id": "V1-CARD-0116",
+          "origin_card_id": "",
+          "subject_id": "V1-ENT-0227",
+          "card_type": "collection",
+          "title_zh": "《特里尔塞》",
+          "author_label": "塞萨尔·巴列霍",
+          "original_title": "Trilce",
+          "country_or_region": "秘鲁",
+          "language": "es",
+          "period_bucket": "1922",
+          "genre_or_form": "诗集",
+          "input_layer": "WEB-CE-B06",
+          "source_minimum_status": "meets",
+          "issue_code": "NONE",
+          "content_markdown": "### 《特里尔塞》｜Trilce — Casa de la Literatura 资料列出 1922 年首版；中文展示名不作译本版本学声明。"
+        }
+      ],
+      "card_sources": [
+        {
+          "card_source_id": "V1-CS-0227",
+          "origin_matrix_id": "",
+          "card_id": "V1-CARD-0116",
+          "source_id": "SRC-0178",
+          "source_level": "B",
+          "source_role": "both",
+          "bibliographic_support": "yes",
+          "research_support": "yes",
+          "independent_source_key": "SRC-0178",
+          "usage_status": "used",
+          "issue_code": "NONE"
+        }
+      ],
+      "relations": [
+        {
+          "relationship_id": "V1-REL-0153",
+          "origin_layer": "WEB-CE-B06",
+          "origin_relation_group_id": "CAND-B06-0153",
+          "subject_id": "V1-ENT-0223",
+          "relation_type": "CREATED",
+          "object_id": "V1-ENT-0227",
+          "description_zh": "V1-ENT-0223 创作 Trilce",
+          "confidence": "high",
+          "review_status": "accepted",
+          "upstream_review_status": "WEB-CE-B06",
+          "evidence_count": "1",
+          "issue_code": "NONE"
+        }
+      ],
+      "relationship_sources": [
+        {
+          "relationship_id": "V1-REL-0153",
+          "source_id": "SRC-0178"
+        }
+      ],
+      "relationship_evidence": [
+        {
+          "evidence_id": "V1-EV-0178",
+          "relationship_id": "V1-REL-0153",
+          "origin_evidence_id": "CAND-B06-0153",
+          "source_id": "SRC-0178",
+          "source_title": "Historia de las literaturas en el Perú. Volumen 4",
+          "locator": "",
+          "evidence_note": "机构来源直接支持作者—作品书目或作者—国家身份关联；本批不扩展解释性关系。",
+          "confidence": "high",
+          "evidence_status": "eligible_evidence",
+          "evidence_origin": "WEB-CE-B06"
+        }
+      ],
+      "source_objects": [
+        {
+          "source_id": "SRC-0178",
+          "temporary_id": "B06-SRC-0178",
+          "title": "Historia de las literaturas en el Perú. Volumen 4",
+          "original_title": "Historia de las literaturas en el Perú. Volumen 4",
+          "author_or_editor": "Casa de la Literatura Peruana",
+          "translator": "",
+          "publisher": "Casa de la Literatura Peruana",
+          "publication_year": "2019",
+          "isbn": "",
+          "format": "pdf",
+          "page_count": "",
+          "language": "es",
+          "source_level": "B",
+          "processing_status": "access_pass",
+          "source_task": "WEB-CE-B06",
+          "public_content_scope": "Los heraldos negros、Trilce、Poemas humanos 原文题名、年份与 1918/1919 说明",
+          "local_asset_status": "remote_only",
+          "persistent_id": "",
+          "canonical_url": "https://www.casadelaliteratura.gob.pe/wp-content/uploads/2019/04/Historia-de-la-literatura-Vol-4.pdf"
+        }
+      ],
+      "fresh_review": {
+        "source_refs": [
+          "WCD10-B09-S101"
+        ],
+        "description": "机构展览资料记载，该诗集大部分写于Vallejo在特鲁希略服刑期间，并将诗中监禁空间与自由愿望的张力联系起来。"
+      },
+      "remaining": "保留原有书目事实与来源链；本轮仅补有归属的机构概述，未核验该对象的专门学术研究，作品级研究范围仍开放。",
+      "source_author_id": "V1-ENT-0223",
+      "candidate_facts": [
+        {
+          "candidate_id": "WCD10-B09-F103",
+          "subject_id": "V1-ENT-0227",
+          "field": "genre_or_form",
+          "value": "诗集",
+          "source_refs": [
+            "WCD10-B09-S101"
+          ],
+          "boundary": "仅补基线缺失的作品类型/普通机构简介；保留基线 entity、全部旧 facts/cards/CREATED relation、holds/gaps 及可用 source/evidence/source_objects 链不变。 不重复现有1922年份事实。"
+        },
+        {
+          "candidate_id": "WCD10-B09-F104",
+          "subject_id": "V1-ENT-0227",
+          "field": "one_sentence_summary",
+          "value": "机构展览资料记载，该诗集大部分写于Vallejo在特鲁希略服刑期间，并将诗中监禁空间与自由愿望的张力联系起来。",
+          "source_refs": [
+            "WCD10-B09-S101"
+          ],
+          "boundary": "仅补基线缺失的作品类型/普通机构简介；保留基线 entity、全部旧 facts/cards/CREATED relation、holds/gaps 及可用 source/evidence/source_objects 链不变。 这是对该作品的有归属概述，不把它提升为作者总体创作结论。"
+        }
+      ]
+    },
+    {
+      "object_ref": "V1-ENT-0228",
+      "entity": {
+        "entity_id": "V1-ENT-0228",
+        "entity_type": "collection",
+        "name_zh": "《人类的诗篇》",
+        "original_name": "Poemas humanos",
+        "canonical_status": "candidate",
+        "origin_count": "2",
+        "origin_refs": "CAND-B06-VALLEJO-W03",
+        "normalization_basis": "B06 Casa de la Literatura original title and 1939 edition",
+        "issue_codes": "NONE"
+      },
+      "bibliography": "基线书目事实及全部既有来源链保留；本轮不改写既有年份或书目注记。",
+      "description": "这部诗集由1931至1937年间写作的诗作构成，Vallejo逝世后于1939年出版；机构文章指出Georgette Vallejo与Raúl Porras Barrenechea参与编排诗作。",
+      "research_status": "institutional_commentary",
+      "research_refs": [
+        "WCD10-B09-S101"
+      ],
+      "old_facts": [
+        {
+          "fact": {
+            "fact_id": "V1-FCT-0542",
+            "origin_material_id": "WEB-CE-B06",
+            "card_id": "V1-CARD-0117",
+            "subject_id": "V1-ENT-0228",
+            "fact_field": "entity_layer",
+            "value_text": "collection",
+            "material_class": "metadata",
+            "origin_id": "SRC-0178",
+            "confidence": "high",
+            "admission_status": "candidate_for_staging_review",
+            "usage_note": "作品层级与来源书目形态保持一致。"
+          },
+          "source_chain": [
+            {
+              "fact_id": "V1-FCT-0542",
+              "source_id": "SRC-0178",
+              "source_title": "Historia de las literaturas en el Perú. Volumen 4"
+            }
+          ]
+        },
+        {
+          "fact": {
+            "fact_id": "V1-FCT-0543",
+            "origin_material_id": "WEB-CE-B06",
+            "card_id": "V1-CARD-0117",
+            "subject_id": "V1-ENT-0228",
+            "fact_field": "first_publication_year",
+            "value_text": "1939",
+            "material_class": "bibliographic",
+            "origin_id": "SRC-0178",
+            "confidence": "high",
+            "admission_status": "candidate_for_staging_review",
+            "usage_note": "机构页面列出 Poemas humanos（1939）出版序列；本批只作书目事实。"
+          },
+          "source_chain": [
+            {
+              "fact_id": "V1-FCT-0543",
+              "source_id": "SRC-0178",
+              "source_title": "Historia de las literaturas en el Perú. Volumen 4"
+            }
+          ]
+        },
+        {
+          "fact": {
+            "fact_id": "V1-FCT-0544",
+            "origin_material_id": "WEB-CE-B06",
+            "card_id": "V1-CARD-0117",
+            "subject_id": "V1-ENT-0228",
+            "fact_field": "bibliographic_note",
+            "value_text": "机构页面列出 Poemas humanos（1939）出版序列；本批只作书目事实。",
+            "material_class": "bibliographic",
+            "origin_id": "SRC-0178",
+            "confidence": "high",
+            "admission_status": "candidate_for_staging_review",
+            "usage_note": "来源支持原文题名、形态与年份；不据此推导主题、影响或文学地位。"
+          },
+          "source_chain": [
+            {
+              "fact_id": "V1-FCT-0544",
+              "source_id": "SRC-0178",
+              "source_title": "Historia de las literaturas en el Perú. Volumen 4"
+            }
+          ]
+        }
+      ],
+      "cards": [
+        {
+          "card_id": "V1-CARD-0117",
+          "origin_card_id": "",
+          "subject_id": "V1-ENT-0228",
+          "card_type": "collection",
+          "title_zh": "《人类的诗篇》",
+          "author_label": "塞萨尔·巴列霍",
+          "original_title": "Poemas humanos",
+          "country_or_region": "秘鲁",
+          "language": "es",
+          "period_bucket": "1939",
+          "genre_or_form": "诗集",
+          "input_layer": "WEB-CE-B06",
+          "source_minimum_status": "meets",
+          "issue_code": "NONE",
+          "content_markdown": "### 《人类的诗篇》｜Poemas humanos — 机构资料列入 Vallejo 的 1939 诗歌出版序列；本批不添加主题或影响判断。"
+        }
+      ],
+      "card_sources": [
+        {
+          "card_source_id": "V1-CS-0228",
+          "origin_matrix_id": "",
+          "card_id": "V1-CARD-0117",
+          "source_id": "SRC-0178",
+          "source_level": "B",
+          "source_role": "both",
+          "bibliographic_support": "yes",
+          "research_support": "yes",
+          "independent_source_key": "SRC-0178",
+          "usage_status": "used",
+          "issue_code": "NONE"
+        }
+      ],
+      "relations": [
+        {
+          "relationship_id": "V1-REL-0154",
+          "origin_layer": "WEB-CE-B06",
+          "origin_relation_group_id": "CAND-B06-0154",
+          "subject_id": "V1-ENT-0223",
+          "relation_type": "CREATED",
+          "object_id": "V1-ENT-0228",
+          "description_zh": "V1-ENT-0223 创作 Poemas humanos",
+          "confidence": "high",
+          "review_status": "accepted",
+          "upstream_review_status": "WEB-CE-B06",
+          "evidence_count": "1",
+          "issue_code": "NONE"
+        }
+      ],
+      "relationship_sources": [
+        {
+          "relationship_id": "V1-REL-0154",
+          "source_id": "SRC-0178"
+        }
+      ],
+      "relationship_evidence": [
+        {
+          "evidence_id": "V1-EV-0179",
+          "relationship_id": "V1-REL-0154",
+          "origin_evidence_id": "CAND-B06-0154",
+          "source_id": "SRC-0178",
+          "source_title": "Historia de las literaturas en el Perú. Volumen 4",
+          "locator": "",
+          "evidence_note": "机构来源直接支持作者—作品书目或作者—国家身份关联；本批不扩展解释性关系。",
+          "confidence": "high",
+          "evidence_status": "eligible_evidence",
+          "evidence_origin": "WEB-CE-B06"
+        }
+      ],
+      "source_objects": [
+        {
+          "source_id": "SRC-0178",
+          "temporary_id": "B06-SRC-0178",
+          "title": "Historia de las literaturas en el Perú. Volumen 4",
+          "original_title": "Historia de las literaturas en el Perú. Volumen 4",
+          "author_or_editor": "Casa de la Literatura Peruana",
+          "translator": "",
+          "publisher": "Casa de la Literatura Peruana",
+          "publication_year": "2019",
+          "isbn": "",
+          "format": "pdf",
+          "page_count": "",
+          "language": "es",
+          "source_level": "B",
+          "processing_status": "access_pass",
+          "source_task": "WEB-CE-B06",
+          "public_content_scope": "Los heraldos negros、Trilce、Poemas humanos 原文题名、年份与 1918/1919 说明",
+          "local_asset_status": "remote_only",
+          "persistent_id": "",
+          "canonical_url": "https://www.casadelaliteratura.gob.pe/wp-content/uploads/2019/04/Historia-de-la-literatura-Vol-4.pdf"
+        }
+      ],
+      "fresh_review": {
+        "source_refs": [
+          "WCD10-B09-S101"
+        ],
+        "description": "这部诗集由1931至1937年间写作的诗作构成，Vallejo逝世后于1939年出版；机构文章指出Georgette Vallejo与Raúl Porras Barrenechea参与编排诗作。"
+      },
+      "remaining": "说明诗作写作时段与诗集出版年份不同；保留基线1939出版序列书目事实与完整来源链。机构概述不替代对象级专门研究，后者保持开放。",
+      "source_author_id": "V1-ENT-0223",
+      "candidate_facts": [
+        {
+          "candidate_id": "WCD10-B09-F105",
+          "subject_id": "V1-ENT-0228",
+          "field": "genre_or_form",
+          "value": "诗集",
+          "source_refs": [
+            "WCD10-B09-S101"
+          ],
+          "boundary": "仅补基线缺失的作品类型/普通机构简介；保留基线 entity、全部旧 facts/cards/CREATED relation、holds/gaps 及可用 source/evidence/source_objects 链不变。 不重复现有1939出版序列年份事实。"
+        },
+        {
+          "candidate_id": "WCD10-B09-F106",
+          "subject_id": "V1-ENT-0228",
+          "field": "one_sentence_summary",
+          "value": "这部诗集由1931至1937年间写作的诗作构成，Vallejo逝世后于1939年出版；机构文章指出Georgette Vallejo与Raúl Porras Barrenechea参与编排诗作。",
+          "source_refs": [
+            "WCD10-B09-S101"
+          ],
+          "boundary": "仅补基线缺失的作品类型/普通机构简介；保留基线 entity、全部旧 facts/cards/CREATED relation、holds/gaps 及可用 source/evidence/source_objects 链不变。 明确区分诗作写作时段与诗集出版年份，不新增写作或出版日期事实。"
+        }
+      ]
+    },
+    {
+      "object_ref": "WCD10-B09-W101",
+      "entity": {
+        "entity_id": "WCD10-B09-W101",
+        "entity_type": "work",
+        "name_zh": "《钨矿》",
+        "original_name": "El tungsteno",
+        "canonical_status": "candidate",
+        "origin_count": "1",
+        "origin_refs": "WCD10-B09-CANDIDATE",
+        "normalization_basis": "中文为检索/展示工作译名，西班牙语原题为身份锚点；不声称存在正式中文译名。",
+        "issue_codes": "NONE"
+      },
+      "bibliography": "first_publication_year=1931; 小说",
+      "description": "小说以库斯科地区的钨矿和Mining Society为背景，描写Soras社区遭到土地剥夺并被迫进入矿井劳动的处境。",
+      "research_status": "institutional_commentary",
+      "research_refs": [
+        "WCD10-B09-S102"
+      ],
+      "old_facts": [],
+      "cards": [],
+      "card_sources": [],
+      "relations": [],
+      "relationship_sources": [],
+      "relationship_evidence": [],
+      "source_objects": [],
+      "fresh_review": {
+        "source_refs": [
+          "WCD10-B09-S102"
+        ],
+        "description": "小说以库斯科地区的钨矿和Mining Society为背景，描写Soras社区遭到土地剥夺并被迫进入矿井劳动的处境。"
+      },
+      "remaining": "本条是来源明确的普通书目/机构描述候选，尚无独立专门作品研究核验；保持作品级研究与策展准入开放。",
+      "source_author_id": "V1-ENT-0223",
+      "candidate_facts": [
+        {
+          "field": "first_publication_year",
+          "value": "1931",
+          "source_refs": [
+            "WCD10-B09-S102"
+          ],
+          "fact_candidate_id": "WCD10-B09-W101-F01"
+        },
+        {
+          "field": "genre_or_form",
+          "value": "小说",
+          "source_refs": [
+            "WCD10-B09-S102"
+          ],
+          "fact_candidate_id": "WCD10-B09-W101-F02"
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "小说以库斯科地区的钨矿和Mining Society为背景，描写Soras社区遭到土地剥夺并被迫进入矿井劳动的处境。",
+          "source_refs": [
+            "WCD10-B09-S102"
+          ],
+          "fact_candidate_id": "WCD10-B09-W101-F03"
+        }
+      ]
+    },
+    {
+      "object_ref": "WCD10-B09-W102",
+      "entity": {
+        "entity_id": "WCD10-B09-W102",
+        "entity_type": "collection",
+        "name_zh": "《西班牙，离开我的这只圣杯》",
+        "original_name": "España, aparta de mí este cáliz",
+        "canonical_status": "candidate",
+        "origin_count": "1",
+        "origin_refs": "WCD10-B09-CANDIDATE",
+        "normalization_basis": "中文为检索/展示工作译名，保留西班牙语原题；不声称存在正式中文译本或固定译名。",
+        "issue_codes": "NONE"
+      },
+      "bibliography": "first_publication_year=1939; 诗集",
+      "description": "这部诗集由15首与西班牙内战相关的诗组成；机构出版史同时记录其独立题名及诗作被编入1939年《Poemas humanos》卷的情况。",
+      "research_status": "institutional_commentary",
+      "research_refs": [
+        "WCD10-B09-S101",
+        "WCD10-B09-S103"
+      ],
+      "old_facts": [],
+      "cards": [],
+      "card_sources": [],
+      "relations": [],
+      "relationship_sources": [],
+      "relationship_evidence": [],
+      "source_objects": [],
+      "fresh_review": {
+        "source_refs": [
+          "WCD10-B09-S101",
+          "WCD10-B09-S103"
+        ],
+        "description": "这部诗集由15首与西班牙内战相关的诗组成；机构出版史同时记录其独立题名及诗作被编入1939年《Poemas humanos》卷的情况。"
+      },
+      "remaining": "本条是来源明确的普通书目/机构描述候选，尚无独立专门作品研究核验；保持作品级研究与策展准入开放。",
+      "source_author_id": "V1-ENT-0223",
+      "candidate_facts": [
+        {
+          "field": "first_publication_year",
+          "value": "1939",
+          "source_refs": [
+            "WCD10-B09-S103"
+          ],
+          "fact_candidate_id": "WCD10-B09-W102-F01"
+        },
+        {
+          "field": "genre_or_form",
+          "value": "诗集",
+          "source_refs": [
+            "WCD10-B09-S101",
+            "WCD10-B09-S103"
+          ],
+          "fact_candidate_id": "WCD10-B09-W102-F02"
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "这部诗集由15首与西班牙内战相关的诗组成；机构出版史同时记录其独立题名及诗作被编入1939年《Poemas humanos》卷的情况。",
+          "source_refs": [
+            "WCD10-B09-S101",
+            "WCD10-B09-S103"
+          ],
+          "fact_candidate_id": "WCD10-B09-W102-F03"
+        }
+      ]
+    },
+    {
+      "object_ref": "WCD10-B09-W103",
+      "entity": {
+        "entity_id": "WCD10-B09-W103",
+        "entity_type": "collection",
+        "name_zh": "《阶梯》",
+        "original_name": "Escalas",
+        "canonical_status": "candidate",
+        "origin_count": "1",
+        "origin_refs": "WCD10-B09-CANDIDATE",
+        "normalization_basis": "中文为检索/展示工作译名，保留西班牙语原题；此题名不是《Escalas melografiadas》的规范化替代名，不声称正式译本名。",
+        "issue_codes": "NONE"
+      },
+      "bibliography": "first_publication_year=1923; 故事与叙事作品集",
+      "description": "作品分为Cuneiformes与Coro de Vientos两部分，各收六篇文本；机构介绍将前部与作者的监狱经历相连，并将后部描述为怪诞、幻想故事。",
+      "research_status": "institutional_commentary",
+      "research_refs": [
+        "WCD10-B09-S101",
+        "WCD10-B09-S102"
+      ],
+      "old_facts": [],
+      "cards": [],
+      "card_sources": [],
+      "relations": [],
+      "relationship_sources": [],
+      "relationship_evidence": [],
+      "source_objects": [],
+      "fresh_review": {
+        "source_refs": [
+          "WCD10-B09-S101",
+          "WCD10-B09-S102"
+        ],
+        "description": "作品分为Cuneiformes与Coro de Vientos两部分，各收六篇文本；机构介绍将前部与作者的监狱经历相连，并将后部描述为怪诞、幻想故事。"
+      },
+      "remaining": "本条是来源明确的普通书目/机构描述候选，尚无独立专门作品研究核验；保持作品级研究与策展准入开放。",
+      "source_author_id": "V1-ENT-0223",
+      "candidate_facts": [
+        {
+          "field": "first_publication_year",
+          "value": "1923",
+          "source_refs": [
+            "WCD10-B09-S101",
+            "WCD10-B09-S102"
+          ],
+          "fact_candidate_id": "WCD10-B09-W103-F01"
+        },
+        {
+          "field": "genre_or_form",
+          "value": "故事与叙事作品集",
+          "source_refs": [
+            "WCD10-B09-S101",
+            "WCD10-B09-S102"
+          ],
+          "fact_candidate_id": "WCD10-B09-W103-F02"
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "作品分为Cuneiformes与Coro de Vientos两部分，各收六篇文本；机构介绍将前部与作者的监狱经历相连，并将后部描述为怪诞、幻想故事。",
+          "source_refs": [
+            "WCD10-B09-S101"
+          ],
+          "fact_candidate_id": "WCD10-B09-W103-F03"
+        }
+      ]
+    },
+    {
+      "object_ref": "V1-ENT-0229",
+      "entity": {
+        "entity_id": "V1-ENT-0229",
+        "entity_type": "collection",
+        "name_zh": "《蓝……》",
+        "original_name": "Azul...",
+        "canonical_status": "candidate",
+        "origin_count": "2",
+        "origin_refs": "CAND-B06-DARIO-W01",
+        "normalization_basis": "B06 Memoria Chilena title and 1888 publication",
+        "issue_codes": "NONE"
+      },
+      "bibliography": "Baseline facts preserved; B09 adds missing genre and concise object description only.",
+      "description": "本书兼收诗与短篇叙事；国家图书馆专题指出，作品吸收了其他文学传统与文化元素，并呈现艺术家面对当时社会结构的立场。",
+      "research_status": "institutional_commentary",
+      "research_refs": [
+        "WCD10-B09-S202"
+      ],
+      "old_facts": [
+        {
+          "fact": {
+            "fact_id": "V1-FCT-0545",
+            "origin_material_id": "WEB-CE-B06",
+            "card_id": "V1-CARD-0118",
+            "subject_id": "V1-ENT-0229",
+            "fact_field": "entity_layer",
+            "value_text": "collection",
+            "material_class": "metadata",
+            "origin_id": "SRC-0181",
+            "confidence": "high",
+            "admission_status": "candidate_for_staging_review",
+            "usage_note": "作品层级与来源书目形态保持一致。"
+          },
+          "source_chain": [
+            {
+              "fact_id": "V1-FCT-0545",
+              "source_id": "SRC-0181",
+              "source_title": "Azul de Rubén Darío"
+            }
+          ]
+        },
+        {
+          "fact": {
+            "fact_id": "V1-FCT-0546",
+            "origin_material_id": "WEB-CE-B06",
+            "card_id": "V1-CARD-0118",
+            "subject_id": "V1-ENT-0229",
+            "fact_field": "first_publication_year",
+            "value_text": "1888",
+            "material_class": "bibliographic",
+            "origin_id": "SRC-0181",
+            "confidence": "high",
+            "admission_status": "candidate_for_staging_review",
+            "usage_note": "Memoria Chilena 直接记录 Azul... 于 1888 年在 Valparaíso 出版；本批不扩展影响判断。"
+          },
+          "source_chain": [
+            {
+              "fact_id": "V1-FCT-0546",
+              "source_id": "SRC-0181",
+              "source_title": "Azul de Rubén Darío"
+            }
+          ]
+        },
+        {
+          "fact": {
+            "fact_id": "V1-FCT-0547",
+            "origin_material_id": "WEB-CE-B06",
+            "card_id": "V1-CARD-0118",
+            "subject_id": "V1-ENT-0229",
+            "fact_field": "bibliographic_note",
+            "value_text": "Memoria Chilena 直接记录 Azul... 于 1888 年在 Valparaíso 出版；本批不扩展影响判断。",
+            "material_class": "bibliographic",
+            "origin_id": "SRC-0181",
+            "confidence": "high",
+            "admission_status": "candidate_for_staging_review",
+            "usage_note": "来源支持原文题名、形态与年份；不据此推导主题、影响或文学地位。"
+          },
+          "source_chain": [
+            {
+              "fact_id": "V1-FCT-0547",
+              "source_id": "SRC-0181",
+              "source_title": "Azul de Rubén Darío"
+            }
+          ]
+        }
+      ],
+      "cards": [
+        {
+          "card_id": "V1-CARD-0118",
+          "origin_card_id": "",
+          "subject_id": "V1-ENT-0229",
+          "card_type": "collection",
+          "title_zh": "《蓝……》",
+          "author_label": "鲁文·达里奥",
+          "original_title": "Azul...",
+          "country_or_region": "尼加拉瓜",
+          "language": "es",
+          "period_bucket": "1888",
+          "genre_or_form": "诗歌与散文集",
+          "input_layer": "WEB-CE-B06",
+          "source_minimum_status": "meets",
+          "issue_code": "NONE",
+          "content_markdown": "### 《蓝……》｜Azul... — Memoria Chilena 资料记录 1888 年在瓦尔帕莱索出版；作品形态按原始书目保留。"
+        }
+      ],
+      "card_sources": [
+        {
+          "card_source_id": "V1-CS-0230",
+          "origin_matrix_id": "",
+          "card_id": "V1-CARD-0118",
+          "source_id": "SRC-0180",
+          "source_level": "B",
+          "source_role": "both",
+          "bibliographic_support": "yes",
+          "research_support": "yes",
+          "independent_source_key": "SRC-0180",
+          "usage_status": "used",
+          "issue_code": "NONE"
+        },
+        {
+          "card_source_id": "V1-CS-0231",
+          "origin_matrix_id": "",
+          "card_id": "V1-CARD-0118",
+          "source_id": "SRC-0181",
+          "source_level": "B",
+          "source_role": "both",
+          "bibliographic_support": "yes",
+          "research_support": "yes",
+          "independent_source_key": "SRC-0181",
+          "usage_status": "used",
+          "issue_code": "NONE"
+        }
+      ],
+      "relations": [
+        {
+          "relationship_id": "V1-REL-0155",
+          "origin_layer": "WEB-CE-B06",
+          "origin_relation_group_id": "CAND-B06-0155",
+          "subject_id": "V1-ENT-0224",
+          "relation_type": "CREATED",
+          "object_id": "V1-ENT-0229",
+          "description_zh": "V1-ENT-0224 创作 Azul...",
+          "confidence": "high",
+          "review_status": "accepted",
+          "upstream_review_status": "WEB-CE-B06",
+          "evidence_count": "1",
+          "issue_code": "NONE"
+        }
+      ],
+      "relationship_sources": [
+        {
+          "relationship_id": "V1-REL-0155",
+          "source_id": "SRC-0181"
+        }
+      ],
+      "relationship_evidence": [
+        {
+          "evidence_id": "V1-EV-0180",
+          "relationship_id": "V1-REL-0155",
+          "origin_evidence_id": "CAND-B06-0155",
+          "source_id": "SRC-0181",
+          "source_title": "Azul de Rubén Darío",
+          "locator": "",
+          "evidence_note": "机构来源直接支持作者—作品书目或作者—国家身份关联；本批不扩展解释性关系。",
+          "confidence": "high",
+          "evidence_status": "eligible_evidence",
+          "evidence_origin": "WEB-CE-B06"
+        }
+      ],
+      "source_objects": [
+        {
+          "source_id": "SRC-0180",
+          "temporary_id": "B06-SRC-0180",
+          "title": "Darío, Rubén, 1867-1916",
+          "original_title": "Darío, Rubén, 1867-1916",
+          "author_or_editor": "Biblioteca Nacional de Chile / Memoria Chilena",
+          "translator": "",
+          "publisher": "Biblioteca Nacional de Chile",
+          "publication_year": "",
+          "isbn": "",
+          "format": "web_page",
+          "page_count": "",
+          "language": "es",
+          "source_level": "B",
+          "processing_status": "access_pass",
+          "source_task": "WEB-CE-B06",
+          "public_content_scope": "Darío 生卒与作者档案；国家和出生地改由 SRC-0181 支撑",
+          "local_asset_status": "remote_only",
+          "persistent_id": "",
+          "canonical_url": "https://www.memoriachilena.gob.cl/602/w3-propertyvalue-166318.html"
+        },
+        {
+          "source_id": "SRC-0181",
+          "temporary_id": "B06-SRC-0181",
+          "title": "Azul de Rubén Darío",
+          "original_title": "Azul...",
+          "author_or_editor": "Biblioteca Nacional de Chile / Memoria Chilena",
+          "translator": "",
+          "publisher": "Biblioteca Nacional de Chile",
+          "publication_year": "",
+          "isbn": "",
+          "format": "web_page",
+          "page_count": "",
+          "language": "es",
+          "source_level": "B",
+          "processing_status": "access_pass",
+          "source_task": "WEB-CE-B06",
+          "public_content_scope": "Darío 出生地、尼加拉瓜身份与 Azul... 1888 书目",
+          "local_asset_status": "remote_only",
+          "persistent_id": "",
+          "canonical_url": "https://www.memoriachilena.gob.cl/602/w3-article-3699.html"
+        }
+      ],
+      "fresh_review": {
+        "source_refs": [
+          "WCD10-B09-S202"
+        ],
+        "description": "Only baseline-missing object description and form are added, based on the cited national-library source."
+      },
+      "remaining": "Parent batch review; all old entity facts, cards, relations, and source chains remain intact.",
+      "source_author_id": "V1-ENT-0224",
+      "candidate_facts": [
+        {
+          "candidate_id": "WCD10-B09-F201",
+          "subject_id": "V1-ENT-0229",
+          "field": "genre_or_form",
+          "value": "诗与散文兼有的作品集",
+          "source_refs": [
+            "WCD10-B09-S202"
+          ],
+          "boundary": "仅补基线缺失字段；逐字保全该作品既有facts/cards/CREATED关系及完整来源链，不改写已有值。"
+        },
+        {
+          "candidate_id": "WCD10-B09-F202",
+          "subject_id": "V1-ENT-0229",
+          "field": "one_sentence_summary",
+          "value": "本书兼收诗与散文；国家图书馆专题指出，作品吸收了其他文学传统与文化元素，并呈现艺术家面对当时社会结构的立场。",
+          "source_refs": [
+            "WCD10-B09-S202"
+          ],
+          "boundary": "仅补基线缺失字段；逐字保全该作品既有facts/cards/CREATED关系及完整来源链，不改写已有值。"
+        }
+      ]
+    },
+    {
+      "object_ref": "V1-ENT-0230",
+      "entity": {
+        "entity_id": "V1-ENT-0230",
+        "entity_type": "collection",
+        "name_zh": "《世俗的颂歌》",
+        "original_name": "Prosas profanas",
+        "canonical_status": "candidate",
+        "origin_count": "1",
+        "origin_refs": "CAND-B06-DARIO-W02",
+        "normalization_basis": "B06 Memoria Chilena bibliography",
+        "issue_codes": "NONE"
+      },
+      "bibliography": "Baseline facts preserved; B09 adds missing genre and concise object description only.",
+      "description": "书中强调词语的音乐性、异域色彩与暗示能力，体现达里奥对诗歌形式和用词的精细锤炼。",
+      "research_status": "institutional_commentary",
+      "research_refs": [
+        "WCD10-B09-S201"
+      ],
+      "old_facts": [
+        {
+          "fact": {
+            "fact_id": "V1-FCT-0548",
+            "origin_material_id": "WEB-CE-B06",
+            "card_id": "V1-CARD-0119",
+            "subject_id": "V1-ENT-0230",
+            "fact_field": "entity_layer",
+            "value_text": "collection",
+            "material_class": "metadata",
+            "origin_id": "SRC-0182",
+            "confidence": "high",
+            "admission_status": "candidate_for_staging_review",
+            "usage_note": "作品层级与来源书目形态保持一致。"
+          },
+          "source_chain": [
+            {
+              "fact_id": "V1-FCT-0548",
+              "source_id": "SRC-0182",
+              "source_title": "El modernismo y Rubén Darío"
+            }
+          ]
+        },
+        {
+          "fact": {
+            "fact_id": "V1-FCT-0549",
+            "origin_material_id": "WEB-CE-B06",
+            "card_id": "V1-CARD-0119",
+            "subject_id": "V1-ENT-0230",
+            "fact_field": "first_publication_year",
+            "value_text": "1896",
+            "material_class": "bibliographic",
+            "origin_id": "SRC-0182",
+            "confidence": "high",
+            "admission_status": "candidate_for_staging_review",
+            "usage_note": "机构文献列出 Prosas profanas（1896）；本批只作诗集书目。"
+          },
+          "source_chain": [
+            {
+              "fact_id": "V1-FCT-0549",
+              "source_id": "SRC-0182",
+              "source_title": "El modernismo y Rubén Darío"
+            }
+          ]
+        },
+        {
+          "fact": {
+            "fact_id": "V1-FCT-0550",
+            "origin_material_id": "WEB-CE-B06",
+            "card_id": "V1-CARD-0119",
+            "subject_id": "V1-ENT-0230",
+            "fact_field": "bibliographic_note",
+            "value_text": "机构文献列出 Prosas profanas（1896）；本批只作诗集书目。",
+            "material_class": "bibliographic",
+            "origin_id": "SRC-0182",
+            "confidence": "high",
+            "admission_status": "candidate_for_staging_review",
+            "usage_note": "来源支持原文题名、形态与年份；不据此推导主题、影响或文学地位。"
+          },
+          "source_chain": [
+            {
+              "fact_id": "V1-FCT-0550",
+              "source_id": "SRC-0182",
+              "source_title": "El modernismo y Rubén Darío"
+            }
+          ]
+        }
+      ],
+      "cards": [
+        {
+          "card_id": "V1-CARD-0119",
+          "origin_card_id": "",
+          "subject_id": "V1-ENT-0230",
+          "card_type": "collection",
+          "title_zh": "《世俗的颂歌》",
+          "author_label": "鲁文·达里奥",
+          "original_title": "Prosas profanas",
+          "country_or_region": "尼加拉瓜",
+          "language": "es",
+          "period_bucket": "1896",
+          "genre_or_form": "诗集",
+          "input_layer": "WEB-CE-B06",
+          "source_minimum_status": "meets",
+          "issue_code": "NONE",
+          "content_markdown": "### 《世俗的颂歌》｜Prosas profanas — 机构书目记录 1896 年；本批只建立原文、年份和诗集入口。"
+        }
+      ],
+      "card_sources": [
+        {
+          "card_source_id": "V1-CS-0232",
+          "origin_matrix_id": "",
+          "card_id": "V1-CARD-0119",
+          "source_id": "SRC-0182",
+          "source_level": "B",
+          "source_role": "both",
+          "bibliographic_support": "yes",
+          "research_support": "yes",
+          "independent_source_key": "SRC-0182",
+          "usage_status": "used",
+          "issue_code": "NONE"
+        }
+      ],
+      "relations": [
+        {
+          "relationship_id": "V1-REL-0156",
+          "origin_layer": "WEB-CE-B06",
+          "origin_relation_group_id": "CAND-B06-0156",
+          "subject_id": "V1-ENT-0224",
+          "relation_type": "CREATED",
+          "object_id": "V1-ENT-0230",
+          "description_zh": "V1-ENT-0224 创作 Prosas profanas",
+          "confidence": "high",
+          "review_status": "accepted",
+          "upstream_review_status": "WEB-CE-B06",
+          "evidence_count": "1",
+          "issue_code": "NONE"
+        }
+      ],
+      "relationship_sources": [
+        {
+          "relationship_id": "V1-REL-0156",
+          "source_id": "SRC-0182"
+        }
+      ],
+      "relationship_evidence": [
+        {
+          "evidence_id": "V1-EV-0181",
+          "relationship_id": "V1-REL-0156",
+          "origin_evidence_id": "CAND-B06-0156",
+          "source_id": "SRC-0182",
+          "source_title": "El modernismo y Rubén Darío",
+          "locator": "",
+          "evidence_note": "机构来源直接支持作者—作品书目或作者—国家身份关联；本批不扩展解释性关系。",
+          "confidence": "high",
+          "evidence_status": "eligible_evidence",
+          "evidence_origin": "WEB-CE-B06"
+        }
+      ],
+      "source_objects": [
+        {
+          "source_id": "SRC-0182",
+          "temporary_id": "B06-SRC-0182",
+          "title": "El modernismo y Rubén Darío",
+          "original_title": "El modernismo y Rubén Darío",
+          "author_or_editor": "Biblioteca Nacional de Chile / Memoria Chilena",
+          "translator": "",
+          "publisher": "Biblioteca Nacional de Chile",
+          "publication_year": "",
+          "isbn": "",
+          "format": "pdf",
+          "page_count": "",
+          "language": "es",
+          "source_level": "B",
+          "processing_status": "access_pass",
+          "source_task": "WEB-CE-B06",
+          "public_content_scope": "Prosas profanas 1896、Cantos de vida y esperanza 1905 书目年份",
+          "local_asset_status": "remote_only",
+          "persistent_id": "",
+          "canonical_url": "https://www.memoriachilena.gob.cl/archivos2/pdfs/MC0011355.pdf"
+        }
+      ],
+      "fresh_review": {
+        "source_refs": [
+          "WCD10-B09-S201"
+        ],
+        "description": "Only baseline-missing object description and form are added, based on the cited national-library source."
+      },
+      "remaining": "Parent batch review; all old entity facts, cards, relations, and source chains remain intact.",
+      "source_author_id": "V1-ENT-0224",
+      "candidate_facts": [
+        {
+          "candidate_id": "WCD10-B09-F203",
+          "subject_id": "V1-ENT-0230",
+          "field": "genre_or_form",
+          "value": "诗集（抒情诗）",
+          "source_refs": [
+            "WCD10-B09-S201"
+          ],
+          "boundary": "仅补基线缺失字段；逐字保全该作品既有facts/cards/CREATED关系及完整来源链，不改写已有值。"
+        },
+        {
+          "candidate_id": "WCD10-B09-F204",
+          "subject_id": "V1-ENT-0230",
+          "field": "one_sentence_summary",
+          "value": "该书为达里奥1896年出版的抒情诗集之一；国家图书馆研究将其与《蓝……》并列为其早期重要作品。",
+          "source_refs": [
+            "WCD10-B09-S201"
+          ],
+          "boundary": "仅补基线缺失字段；逐字保全该作品既有facts/cards/CREATED关系及完整来源链，不改写已有值。"
+        }
+      ]
+    },
+    {
+      "object_ref": "V1-ENT-0231",
+      "entity": {
+        "entity_id": "V1-ENT-0231",
+        "entity_type": "collection",
+        "name_zh": "《生命与希望之歌》",
+        "original_name": "Cantos de vida y esperanza",
+        "canonical_status": "candidate",
+        "origin_count": "1",
+        "origin_refs": "CAND-B06-DARIO-W03",
+        "normalization_basis": "B06 Memoria Chilena bibliography",
+        "issue_codes": "NONE"
+      },
+      "bibliography": "Baseline facts preserved; B09 adds missing genre and concise object description only.",
+      "description": "该书为达里奥1905年出版的主要抒情诗集；国家图书馆书目研究将其置于《世俗的颂歌》之后。",
+      "research_status": "institutional_commentary",
+      "research_refs": [
+        "WCD10-B09-S201"
+      ],
+      "old_facts": [
+        {
+          "fact": {
+            "fact_id": "V1-FCT-0551",
+            "origin_material_id": "WEB-CE-B06",
+            "card_id": "V1-CARD-0120",
+            "subject_id": "V1-ENT-0231",
+            "fact_field": "entity_layer",
+            "value_text": "collection",
+            "material_class": "metadata",
+            "origin_id": "SRC-0182",
+            "confidence": "high",
+            "admission_status": "candidate_for_staging_review",
+            "usage_note": "作品层级与来源书目形态保持一致。"
+          },
+          "source_chain": [
+            {
+              "fact_id": "V1-FCT-0551",
+              "source_id": "SRC-0182",
+              "source_title": "El modernismo y Rubén Darío"
+            }
+          ]
+        },
+        {
+          "fact": {
+            "fact_id": "V1-FCT-0552",
+            "origin_material_id": "WEB-CE-B06",
+            "card_id": "V1-CARD-0120",
+            "subject_id": "V1-ENT-0231",
+            "fact_field": "first_publication_year",
+            "value_text": "1905",
+            "material_class": "bibliographic",
+            "origin_id": "SRC-0182",
+            "confidence": "high",
+            "admission_status": "candidate_for_staging_review",
+            "usage_note": "机构文献列出 Cantos de vida y esperanza（1905）；本批只作诗集书目。"
+          },
+          "source_chain": [
+            {
+              "fact_id": "V1-FCT-0552",
+              "source_id": "SRC-0182",
+              "source_title": "El modernismo y Rubén Darío"
+            }
+          ]
+        },
+        {
+          "fact": {
+            "fact_id": "V1-FCT-0553",
+            "origin_material_id": "WEB-CE-B06",
+            "card_id": "V1-CARD-0120",
+            "subject_id": "V1-ENT-0231",
+            "fact_field": "bibliographic_note",
+            "value_text": "机构文献列出 Cantos de vida y esperanza（1905）；本批只作诗集书目。",
+            "material_class": "bibliographic",
+            "origin_id": "SRC-0182",
+            "confidence": "high",
+            "admission_status": "candidate_for_staging_review",
+            "usage_note": "来源支持原文题名、形态与年份；不据此推导主题、影响或文学地位。"
+          },
+          "source_chain": [
+            {
+              "fact_id": "V1-FCT-0553",
+              "source_id": "SRC-0182",
+              "source_title": "El modernismo y Rubén Darío"
+            }
+          ]
+        }
+      ],
+      "cards": [
+        {
+          "card_id": "V1-CARD-0120",
+          "origin_card_id": "",
+          "subject_id": "V1-ENT-0231",
+          "card_type": "collection",
+          "title_zh": "《生命与希望之歌》",
+          "author_label": "鲁文·达里奥",
+          "original_title": "Cantos de vida y esperanza",
+          "country_or_region": "尼加拉瓜",
+          "language": "es",
+          "period_bucket": "1905",
+          "genre_or_form": "诗集",
+          "input_layer": "WEB-CE-B06",
+          "source_minimum_status": "meets",
+          "issue_code": "NONE",
+          "content_markdown": "### 《生命与希望之歌》｜Cantos de vida y esperanza — 机构书目记录 1905 年；不把现代主义评价写成 accepted fact。"
+        }
+      ],
+      "card_sources": [
+        {
+          "card_source_id": "V1-CS-0233",
+          "origin_matrix_id": "",
+          "card_id": "V1-CARD-0120",
+          "source_id": "SRC-0182",
+          "source_level": "B",
+          "source_role": "both",
+          "bibliographic_support": "yes",
+          "research_support": "yes",
+          "independent_source_key": "SRC-0182",
+          "usage_status": "used",
+          "issue_code": "NONE"
+        }
+      ],
+      "relations": [
+        {
+          "relationship_id": "V1-REL-0157",
+          "origin_layer": "WEB-CE-B06",
+          "origin_relation_group_id": "CAND-B06-0157",
+          "subject_id": "V1-ENT-0224",
+          "relation_type": "CREATED",
+          "object_id": "V1-ENT-0231",
+          "description_zh": "V1-ENT-0224 创作 Cantos de vida y esperanza",
+          "confidence": "high",
+          "review_status": "accepted",
+          "upstream_review_status": "WEB-CE-B06",
+          "evidence_count": "1",
+          "issue_code": "NONE"
+        }
+      ],
+      "relationship_sources": [
+        {
+          "relationship_id": "V1-REL-0157",
+          "source_id": "SRC-0182"
+        }
+      ],
+      "relationship_evidence": [
+        {
+          "evidence_id": "V1-EV-0182",
+          "relationship_id": "V1-REL-0157",
+          "origin_evidence_id": "CAND-B06-0157",
+          "source_id": "SRC-0182",
+          "source_title": "El modernismo y Rubén Darío",
+          "locator": "",
+          "evidence_note": "机构来源直接支持作者—作品书目或作者—国家身份关联；本批不扩展解释性关系。",
+          "confidence": "high",
+          "evidence_status": "eligible_evidence",
+          "evidence_origin": "WEB-CE-B06"
+        }
+      ],
+      "source_objects": [
+        {
+          "source_id": "SRC-0182",
+          "temporary_id": "B06-SRC-0182",
+          "title": "El modernismo y Rubén Darío",
+          "original_title": "El modernismo y Rubén Darío",
+          "author_or_editor": "Biblioteca Nacional de Chile / Memoria Chilena",
+          "translator": "",
+          "publisher": "Biblioteca Nacional de Chile",
+          "publication_year": "",
+          "isbn": "",
+          "format": "pdf",
+          "page_count": "",
+          "language": "es",
+          "source_level": "B",
+          "processing_status": "access_pass",
+          "source_task": "WEB-CE-B06",
+          "public_content_scope": "Prosas profanas 1896、Cantos de vida y esperanza 1905 书目年份",
+          "local_asset_status": "remote_only",
+          "persistent_id": "",
+          "canonical_url": "https://www.memoriachilena.gob.cl/archivos2/pdfs/MC0011355.pdf"
+        }
+      ],
+      "fresh_review": {
+        "source_refs": [
+          "WCD10-B09-S201"
+        ],
+        "description": "Only baseline-missing object description and form are added, based on the cited national-library source."
+      },
+      "remaining": "Parent batch review; all old entity facts, cards, relations, and source chains remain intact.",
+      "source_author_id": "V1-ENT-0224",
+      "candidate_facts": [
+        {
+          "candidate_id": "WCD10-B09-F205",
+          "subject_id": "V1-ENT-0231",
+          "field": "genre_or_form",
+          "value": "诗集（抒情诗）",
+          "source_refs": [
+            "WCD10-B09-S201"
+          ],
+          "boundary": "仅补基线缺失字段；逐字保全该作品既有facts/cards/CREATED关系及完整来源链，不改写已有值。"
+        },
+        {
+          "candidate_id": "WCD10-B09-F206",
+          "subject_id": "V1-ENT-0231",
+          "field": "one_sentence_summary",
+          "value": "该书为达里奥1905年出版的主要抒情诗集；国家图书馆书目研究将其置于《世俗的颂歌》之后。",
+          "source_refs": [
+            "WCD10-B09-S201"
+          ],
+          "boundary": "仅补基线缺失字段；逐字保全该作品既有facts/cards/CREATED关系及完整来源链，不改写已有值。"
+        }
+      ]
+    },
+    {
+      "object_ref": "WCD10-B09-W201",
+      "entity": {
+        "entity_id": "WCD10-B09-W201",
+        "entity_type": "collection",
+        "name_zh": "《流浪之歌》",
+        "original_name": "El canto errante",
+        "canonical_status": "candidate",
+        "origin_count": "1",
+        "origin_refs": "WCD10-B09-CANDIDATE",
+        "normalization_basis": "中文为工作译名，西班牙语原题为身份锚点；不声称存在正式中文译本名。",
+        "issue_codes": "NONE"
+      },
+      "bibliography": "first_publication_year=1907; genre_or_form=诗集（抒情诗）",
+      "description": "国家图书馆研究将此书列入达里奥主要抒情作品，并记于《生命与希望之歌》之后出版。",
+      "research_status": "catalog_only",
+      "research_refs": [
+        "WCD10-B09-S201"
+      ],
+      "old_facts": [],
+      "cards": [],
+      "card_sources": [],
+      "relations": [],
+      "relationship_sources": [],
+      "relationship_evidence": [],
+      "source_objects": [],
+      "fresh_review": {
+        "source_refs": [
+          "WCD10-B09-S201"
+        ],
+        "description": "Direct national-library bibliographic research; work-year, form, attribution, and concise summary are restricted to the cited catalog narrative."
+      },
+      "remaining": "Confirm duplicate identity and perform centralized batch review before admission.",
+      "source_author_id": "V1-ENT-0224",
+      "candidate_facts": [
+        {
+          "field": "first_publication_year",
+          "value": "1907",
+          "source_refs": [
+            "WCD10-B09-S201"
+          ],
+          "fact_candidate_id": "WCD10-B09-W201-F01"
+        },
+        {
+          "field": "genre_or_form",
+          "value": "诗集（抒情诗）",
+          "source_refs": [
+            "WCD10-B09-S201"
+          ],
+          "fact_candidate_id": "WCD10-B09-W201-F02"
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "国家图书馆研究将此书列入达里奥主要抒情作品，并记于《生命与希望之歌》之后出版。",
+          "source_refs": [
+            "WCD10-B09-S201"
+          ],
+          "fact_candidate_id": "WCD10-B09-W201-F03"
+        }
+      ]
+    },
+    {
+      "object_ref": "V1-ENT-0229",
+      "research_status": "institutional_commentary",
+      "research_refs": [],
+      "legacy_object_snapshot": {
+        "entity": {
+          "entity_id": "V1-ENT-0229",
+          "entity_type": "collection",
+          "name_zh": "《蓝……》",
+          "original_name": "Azul...",
+          "canonical_status": "candidate",
+          "origin_count": "2",
+          "origin_refs": "CAND-B06-DARIO-W01",
+          "normalization_basis": "B06 Memoria Chilena title and 1888 publication",
+          "issue_codes": "NONE"
+        },
+        "facts": [
+          {
+            "fact_id": "V1-FCT-0545",
+            "origin_material_id": "WEB-CE-B06",
+            "card_id": "V1-CARD-0118",
+            "subject_id": "V1-ENT-0229",
+            "fact_field": "entity_layer",
+            "value_text": "collection",
+            "material_class": "metadata",
+            "origin_id": "SRC-0181",
+            "confidence": "high",
+            "admission_status": "candidate_for_staging_review",
+            "usage_note": "作品层级与来源书目形态保持一致。"
+          },
+          {
+            "fact_id": "V1-FCT-0546",
+            "origin_material_id": "WEB-CE-B06",
+            "card_id": "V1-CARD-0118",
+            "subject_id": "V1-ENT-0229",
+            "fact_field": "first_publication_year",
+            "value_text": "1888",
+            "material_class": "bibliographic",
+            "origin_id": "SRC-0181",
+            "confidence": "high",
+            "admission_status": "candidate_for_staging_review",
+            "usage_note": "Memoria Chilena 直接记录 Azul... 于 1888 年在 Valparaíso 出版；本批不扩展影响判断。"
+          },
+          {
+            "fact_id": "V1-FCT-0547",
+            "origin_material_id": "WEB-CE-B06",
+            "card_id": "V1-CARD-0118",
+            "subject_id": "V1-ENT-0229",
+            "fact_field": "bibliographic_note",
+            "value_text": "Memoria Chilena 直接记录 Azul... 于 1888 年在 Valparaíso 出版；本批不扩展影响判断。",
+            "material_class": "bibliographic",
+            "origin_id": "SRC-0181",
+            "confidence": "high",
+            "admission_status": "candidate_for_staging_review",
+            "usage_note": "来源支持原文题名、形态与年份；不据此推导主题、影响或文学地位。"
+          }
+        ],
+        "fact_sources": [
+          {
+            "fact_id": "V1-FCT-0545",
+            "source_id": "SRC-0181",
+            "source_title": "Azul de Rubén Darío"
+          },
+          {
+            "fact_id": "V1-FCT-0546",
+            "source_id": "SRC-0181",
+            "source_title": "Azul de Rubén Darío"
+          },
+          {
+            "fact_id": "V1-FCT-0547",
+            "source_id": "SRC-0181",
+            "source_title": "Azul de Rubén Darío"
+          }
+        ],
+        "cards": [
+          {
+            "card_id": "V1-CARD-0118",
+            "origin_card_id": "",
+            "subject_id": "V1-ENT-0229",
+            "card_type": "collection",
+            "title_zh": "《蓝……》",
+            "author_label": "鲁文·达里奥",
+            "original_title": "Azul...",
+            "country_or_region": "尼加拉瓜",
+            "language": "es",
+            "period_bucket": "1888",
+            "genre_or_form": "诗歌与散文集",
+            "input_layer": "WEB-CE-B06",
+            "source_minimum_status": "meets",
+            "issue_code": "NONE",
+            "content_markdown": "### 《蓝……》｜Azul... — Memoria Chilena 资料记录 1888 年在瓦尔帕莱索出版；作品形态按原始书目保留。"
+          }
+        ],
+        "card_facts": [
+          {
+            "card_id": "V1-CARD-0118",
+            "fact_id": "V1-FCT-0545",
+            "admission_status": "candidate_for_staging_review"
+          },
+          {
+            "card_id": "V1-CARD-0118",
+            "fact_id": "V1-FCT-0546",
+            "admission_status": "candidate_for_staging_review"
+          },
+          {
+            "card_id": "V1-CARD-0118",
+            "fact_id": "V1-FCT-0547",
+            "admission_status": "candidate_for_staging_review"
+          }
+        ],
+        "card_sources": [
+          {
+            "card_source_id": "V1-CS-0230",
+            "origin_matrix_id": "",
+            "card_id": "V1-CARD-0118",
+            "source_id": "SRC-0180",
+            "source_level": "B",
+            "source_role": "both",
+            "bibliographic_support": "yes",
+            "research_support": "yes",
+            "independent_source_key": "SRC-0180",
+            "usage_status": "used",
+            "issue_code": "NONE"
+          },
+          {
+            "card_source_id": "V1-CS-0231",
+            "origin_matrix_id": "",
+            "card_id": "V1-CARD-0118",
+            "source_id": "SRC-0181",
+            "source_level": "B",
+            "source_role": "both",
+            "bibliographic_support": "yes",
+            "research_support": "yes",
+            "independent_source_key": "SRC-0181",
+            "usage_status": "used",
+            "issue_code": "NONE"
+          }
+        ],
+        "relations": [
+          {
+            "relationship_id": "V1-REL-0155",
+            "origin_layer": "WEB-CE-B06",
+            "origin_relation_group_id": "CAND-B06-0155",
+            "subject_id": "V1-ENT-0224",
+            "relation_type": "CREATED",
+            "object_id": "V1-ENT-0229",
+            "description_zh": "V1-ENT-0224 创作 Azul...",
+            "confidence": "high",
+            "review_status": "accepted",
+            "upstream_review_status": "WEB-CE-B06",
+            "evidence_count": "1",
+            "issue_code": "NONE"
+          }
+        ],
+        "relationship_sources": [
+          {
+            "relationship_id": "V1-REL-0155",
+            "source_id": "SRC-0181"
+          }
+        ],
+        "relationship_evidence": [
+          {
+            "evidence_id": "V1-EV-0180",
+            "relationship_id": "V1-REL-0155",
+            "origin_evidence_id": "CAND-B06-0155",
+            "source_id": "SRC-0181",
+            "source_title": "Azul de Rubén Darío",
+            "locator": "",
+            "evidence_note": "机构来源直接支持作者—作品书目或作者—国家身份关联；本批不扩展解释性关系。",
+            "confidence": "high",
+            "evidence_status": "eligible_evidence",
+            "evidence_origin": "WEB-CE-B06"
+          }
+        ],
+        "relation_holds": [],
+        "relation_hold_evidence": [],
+        "source_objects": [
+          {
+            "source_id": "SRC-0180",
+            "temporary_id": "B06-SRC-0180",
+            "title": "Darío, Rubén, 1867-1916",
+            "original_title": "Darío, Rubén, 1867-1916",
+            "author_or_editor": "Biblioteca Nacional de Chile / Memoria Chilena",
+            "translator": "",
+            "publisher": "Biblioteca Nacional de Chile",
+            "publication_year": "",
+            "isbn": "",
+            "format": "web_page",
+            "page_count": "",
+            "language": "es",
+            "source_level": "B",
+            "processing_status": "access_pass",
+            "source_task": "WEB-CE-B06",
+            "public_content_scope": "Darío 生卒与作者档案；国家和出生地改由 SRC-0181 支撑",
+            "local_asset_status": "remote_only",
+            "persistent_id": "",
+            "canonical_url": "https://www.memoriachilena.gob.cl/602/w3-propertyvalue-166318.html"
+          },
+          {
+            "source_id": "SRC-0181",
+            "temporary_id": "B06-SRC-0181",
+            "title": "Azul de Rubén Darío",
+            "original_title": "Azul...",
+            "author_or_editor": "Biblioteca Nacional de Chile / Memoria Chilena",
+            "translator": "",
+            "publisher": "Biblioteca Nacional de Chile",
+            "publication_year": "",
+            "isbn": "",
+            "format": "web_page",
+            "page_count": "",
+            "language": "es",
+            "source_level": "B",
+            "processing_status": "access_pass",
+            "source_task": "WEB-CE-B06",
+            "public_content_scope": "Darío 出生地、尼加拉瓜身份与 Azul... 1888 书目",
+            "local_asset_status": "remote_only",
+            "persistent_id": "",
+            "canonical_url": "https://www.memoriachilena.gob.cl/602/w3-article-3699.html"
+          }
+        ],
+        "gaps": []
+      },
+      "fresh_review": "B09 preservation snapshot created from the exact frozen B09 baseline SQLite closure; all preexisting records retained."
+    },
+    {
+      "object_ref": "V1-ENT-0230",
+      "research_status": "institutional_commentary",
+      "research_refs": [],
+      "legacy_object_snapshot": {
+        "entity": {
+          "entity_id": "V1-ENT-0230",
+          "entity_type": "collection",
+          "name_zh": "《世俗的颂歌》",
+          "original_name": "Prosas profanas",
+          "canonical_status": "candidate",
+          "origin_count": "1",
+          "origin_refs": "CAND-B06-DARIO-W02",
+          "normalization_basis": "B06 Memoria Chilena bibliography",
+          "issue_codes": "NONE"
+        },
+        "facts": [
+          {
+            "fact_id": "V1-FCT-0548",
+            "origin_material_id": "WEB-CE-B06",
+            "card_id": "V1-CARD-0119",
+            "subject_id": "V1-ENT-0230",
+            "fact_field": "entity_layer",
+            "value_text": "collection",
+            "material_class": "metadata",
+            "origin_id": "SRC-0182",
+            "confidence": "high",
+            "admission_status": "candidate_for_staging_review",
+            "usage_note": "作品层级与来源书目形态保持一致。"
+          },
+          {
+            "fact_id": "V1-FCT-0549",
+            "origin_material_id": "WEB-CE-B06",
+            "card_id": "V1-CARD-0119",
+            "subject_id": "V1-ENT-0230",
+            "fact_field": "first_publication_year",
+            "value_text": "1896",
+            "material_class": "bibliographic",
+            "origin_id": "SRC-0182",
+            "confidence": "high",
+            "admission_status": "candidate_for_staging_review",
+            "usage_note": "机构文献列出 Prosas profanas（1896）；本批只作诗集书目。"
+          },
+          {
+            "fact_id": "V1-FCT-0550",
+            "origin_material_id": "WEB-CE-B06",
+            "card_id": "V1-CARD-0119",
+            "subject_id": "V1-ENT-0230",
+            "fact_field": "bibliographic_note",
+            "value_text": "机构文献列出 Prosas profanas（1896）；本批只作诗集书目。",
+            "material_class": "bibliographic",
+            "origin_id": "SRC-0182",
+            "confidence": "high",
+            "admission_status": "candidate_for_staging_review",
+            "usage_note": "来源支持原文题名、形态与年份；不据此推导主题、影响或文学地位。"
+          }
+        ],
+        "fact_sources": [
+          {
+            "fact_id": "V1-FCT-0548",
+            "source_id": "SRC-0182",
+            "source_title": "El modernismo y Rubén Darío"
+          },
+          {
+            "fact_id": "V1-FCT-0549",
+            "source_id": "SRC-0182",
+            "source_title": "El modernismo y Rubén Darío"
+          },
+          {
+            "fact_id": "V1-FCT-0550",
+            "source_id": "SRC-0182",
+            "source_title": "El modernismo y Rubén Darío"
+          }
+        ],
+        "cards": [
+          {
+            "card_id": "V1-CARD-0119",
+            "origin_card_id": "",
+            "subject_id": "V1-ENT-0230",
+            "card_type": "collection",
+            "title_zh": "《世俗的颂歌》",
+            "author_label": "鲁文·达里奥",
+            "original_title": "Prosas profanas",
+            "country_or_region": "尼加拉瓜",
+            "language": "es",
+            "period_bucket": "1896",
+            "genre_or_form": "诗集",
+            "input_layer": "WEB-CE-B06",
+            "source_minimum_status": "meets",
+            "issue_code": "NONE",
+            "content_markdown": "### 《世俗的颂歌》｜Prosas profanas — 机构书目记录 1896 年；本批只建立原文、年份和诗集入口。"
+          }
+        ],
+        "card_facts": [
+          {
+            "card_id": "V1-CARD-0119",
+            "fact_id": "V1-FCT-0548",
+            "admission_status": "candidate_for_staging_review"
+          },
+          {
+            "card_id": "V1-CARD-0119",
+            "fact_id": "V1-FCT-0549",
+            "admission_status": "candidate_for_staging_review"
+          },
+          {
+            "card_id": "V1-CARD-0119",
+            "fact_id": "V1-FCT-0550",
+            "admission_status": "candidate_for_staging_review"
+          }
+        ],
+        "card_sources": [
+          {
+            "card_source_id": "V1-CS-0232",
+            "origin_matrix_id": "",
+            "card_id": "V1-CARD-0119",
+            "source_id": "SRC-0182",
+            "source_level": "B",
+            "source_role": "both",
+            "bibliographic_support": "yes",
+            "research_support": "yes",
+            "independent_source_key": "SRC-0182",
+            "usage_status": "used",
+            "issue_code": "NONE"
+          }
+        ],
+        "relations": [
+          {
+            "relationship_id": "V1-REL-0156",
+            "origin_layer": "WEB-CE-B06",
+            "origin_relation_group_id": "CAND-B06-0156",
+            "subject_id": "V1-ENT-0224",
+            "relation_type": "CREATED",
+            "object_id": "V1-ENT-0230",
+            "description_zh": "V1-ENT-0224 创作 Prosas profanas",
+            "confidence": "high",
+            "review_status": "accepted",
+            "upstream_review_status": "WEB-CE-B06",
+            "evidence_count": "1",
+            "issue_code": "NONE"
+          }
+        ],
+        "relationship_sources": [
+          {
+            "relationship_id": "V1-REL-0156",
+            "source_id": "SRC-0182"
+          }
+        ],
+        "relationship_evidence": [
+          {
+            "evidence_id": "V1-EV-0181",
+            "relationship_id": "V1-REL-0156",
+            "origin_evidence_id": "CAND-B06-0156",
+            "source_id": "SRC-0182",
+            "source_title": "El modernismo y Rubén Darío",
+            "locator": "",
+            "evidence_note": "机构来源直接支持作者—作品书目或作者—国家身份关联；本批不扩展解释性关系。",
+            "confidence": "high",
+            "evidence_status": "eligible_evidence",
+            "evidence_origin": "WEB-CE-B06"
+          }
+        ],
+        "relation_holds": [],
+        "relation_hold_evidence": [],
+        "source_objects": [
+          {
+            "source_id": "SRC-0182",
+            "temporary_id": "B06-SRC-0182",
+            "title": "El modernismo y Rubén Darío",
+            "original_title": "El modernismo y Rubén Darío",
+            "author_or_editor": "Biblioteca Nacional de Chile / Memoria Chilena",
+            "translator": "",
+            "publisher": "Biblioteca Nacional de Chile",
+            "publication_year": "",
+            "isbn": "",
+            "format": "pdf",
+            "page_count": "",
+            "language": "es",
+            "source_level": "B",
+            "processing_status": "access_pass",
+            "source_task": "WEB-CE-B06",
+            "public_content_scope": "Prosas profanas 1896、Cantos de vida y esperanza 1905 书目年份",
+            "local_asset_status": "remote_only",
+            "persistent_id": "",
+            "canonical_url": "https://www.memoriachilena.gob.cl/archivos2/pdfs/MC0011355.pdf"
+          }
+        ],
+        "gaps": []
+      },
+      "fresh_review": "B09 preservation snapshot created from the exact frozen B09 baseline SQLite closure; all preexisting records retained."
+    },
+    {
+      "object_ref": "V1-ENT-0231",
+      "research_status": "institutional_commentary",
+      "research_refs": [],
+      "legacy_object_snapshot": {
+        "entity": {
+          "entity_id": "V1-ENT-0231",
+          "entity_type": "collection",
+          "name_zh": "《生命与希望之歌》",
+          "original_name": "Cantos de vida y esperanza",
+          "canonical_status": "candidate",
+          "origin_count": "1",
+          "origin_refs": "CAND-B06-DARIO-W03",
+          "normalization_basis": "B06 Memoria Chilena bibliography",
+          "issue_codes": "NONE"
+        },
+        "facts": [
+          {
+            "fact_id": "V1-FCT-0551",
+            "origin_material_id": "WEB-CE-B06",
+            "card_id": "V1-CARD-0120",
+            "subject_id": "V1-ENT-0231",
+            "fact_field": "entity_layer",
+            "value_text": "collection",
+            "material_class": "metadata",
+            "origin_id": "SRC-0182",
+            "confidence": "high",
+            "admission_status": "candidate_for_staging_review",
+            "usage_note": "作品层级与来源书目形态保持一致。"
+          },
+          {
+            "fact_id": "V1-FCT-0552",
+            "origin_material_id": "WEB-CE-B06",
+            "card_id": "V1-CARD-0120",
+            "subject_id": "V1-ENT-0231",
+            "fact_field": "first_publication_year",
+            "value_text": "1905",
+            "material_class": "bibliographic",
+            "origin_id": "SRC-0182",
+            "confidence": "high",
+            "admission_status": "candidate_for_staging_review",
+            "usage_note": "机构文献列出 Cantos de vida y esperanza（1905）；本批只作诗集书目。"
+          },
+          {
+            "fact_id": "V1-FCT-0553",
+            "origin_material_id": "WEB-CE-B06",
+            "card_id": "V1-CARD-0120",
+            "subject_id": "V1-ENT-0231",
+            "fact_field": "bibliographic_note",
+            "value_text": "机构文献列出 Cantos de vida y esperanza（1905）；本批只作诗集书目。",
+            "material_class": "bibliographic",
+            "origin_id": "SRC-0182",
+            "confidence": "high",
+            "admission_status": "candidate_for_staging_review",
+            "usage_note": "来源支持原文题名、形态与年份；不据此推导主题、影响或文学地位。"
+          }
+        ],
+        "fact_sources": [
+          {
+            "fact_id": "V1-FCT-0551",
+            "source_id": "SRC-0182",
+            "source_title": "El modernismo y Rubén Darío"
+          },
+          {
+            "fact_id": "V1-FCT-0552",
+            "source_id": "SRC-0182",
+            "source_title": "El modernismo y Rubén Darío"
+          },
+          {
+            "fact_id": "V1-FCT-0553",
+            "source_id": "SRC-0182",
+            "source_title": "El modernismo y Rubén Darío"
+          }
+        ],
+        "cards": [
+          {
+            "card_id": "V1-CARD-0120",
+            "origin_card_id": "",
+            "subject_id": "V1-ENT-0231",
+            "card_type": "collection",
+            "title_zh": "《生命与希望之歌》",
+            "author_label": "鲁文·达里奥",
+            "original_title": "Cantos de vida y esperanza",
+            "country_or_region": "尼加拉瓜",
+            "language": "es",
+            "period_bucket": "1905",
+            "genre_or_form": "诗集",
+            "input_layer": "WEB-CE-B06",
+            "source_minimum_status": "meets",
+            "issue_code": "NONE",
+            "content_markdown": "### 《生命与希望之歌》｜Cantos de vida y esperanza — 机构书目记录 1905 年；不把现代主义评价写成 accepted fact。"
+          }
+        ],
+        "card_facts": [
+          {
+            "card_id": "V1-CARD-0120",
+            "fact_id": "V1-FCT-0551",
+            "admission_status": "candidate_for_staging_review"
+          },
+          {
+            "card_id": "V1-CARD-0120",
+            "fact_id": "V1-FCT-0552",
+            "admission_status": "candidate_for_staging_review"
+          },
+          {
+            "card_id": "V1-CARD-0120",
+            "fact_id": "V1-FCT-0553",
+            "admission_status": "candidate_for_staging_review"
+          }
+        ],
+        "card_sources": [
+          {
+            "card_source_id": "V1-CS-0233",
+            "origin_matrix_id": "",
+            "card_id": "V1-CARD-0120",
+            "source_id": "SRC-0182",
+            "source_level": "B",
+            "source_role": "both",
+            "bibliographic_support": "yes",
+            "research_support": "yes",
+            "independent_source_key": "SRC-0182",
+            "usage_status": "used",
+            "issue_code": "NONE"
+          }
+        ],
+        "relations": [
+          {
+            "relationship_id": "V1-REL-0157",
+            "origin_layer": "WEB-CE-B06",
+            "origin_relation_group_id": "CAND-B06-0157",
+            "subject_id": "V1-ENT-0224",
+            "relation_type": "CREATED",
+            "object_id": "V1-ENT-0231",
+            "description_zh": "V1-ENT-0224 创作 Cantos de vida y esperanza",
+            "confidence": "high",
+            "review_status": "accepted",
+            "upstream_review_status": "WEB-CE-B06",
+            "evidence_count": "1",
+            "issue_code": "NONE"
+          }
+        ],
+        "relationship_sources": [
+          {
+            "relationship_id": "V1-REL-0157",
+            "source_id": "SRC-0182"
+          }
+        ],
+        "relationship_evidence": [
+          {
+            "evidence_id": "V1-EV-0182",
+            "relationship_id": "V1-REL-0157",
+            "origin_evidence_id": "CAND-B06-0157",
+            "source_id": "SRC-0182",
+            "source_title": "El modernismo y Rubén Darío",
+            "locator": "",
+            "evidence_note": "机构来源直接支持作者—作品书目或作者—国家身份关联；本批不扩展解释性关系。",
+            "confidence": "high",
+            "evidence_status": "eligible_evidence",
+            "evidence_origin": "WEB-CE-B06"
+          }
+        ],
+        "relation_holds": [],
+        "relation_hold_evidence": [],
+        "source_objects": [
+          {
+            "source_id": "SRC-0182",
+            "temporary_id": "B06-SRC-0182",
+            "title": "El modernismo y Rubén Darío",
+            "original_title": "El modernismo y Rubén Darío",
+            "author_or_editor": "Biblioteca Nacional de Chile / Memoria Chilena",
+            "translator": "",
+            "publisher": "Biblioteca Nacional de Chile",
+            "publication_year": "",
+            "isbn": "",
+            "format": "pdf",
+            "page_count": "",
+            "language": "es",
+            "source_level": "B",
+            "processing_status": "access_pass",
+            "source_task": "WEB-CE-B06",
+            "public_content_scope": "Prosas profanas 1896、Cantos de vida y esperanza 1905 书目年份",
+            "local_asset_status": "remote_only",
+            "persistent_id": "",
+            "canonical_url": "https://www.memoriachilena.gob.cl/archivos2/pdfs/MC0011355.pdf"
+          }
+        ],
+        "gaps": []
+      },
+      "fresh_review": "B09 preservation snapshot created from the exact frozen B09 baseline SQLite closure; all preexisting records retained."
+    },
+    {
+      "object_ref": "WCD10-B09-W202",
+      "entity": {
+        "entity_id": "WCD10-B09-W202",
+        "entity_type": "collection",
+        "name_zh": "《秋之诗篇及其他诗作》",
+        "original_name": "Poema del otoño y otros poemas",
+        "canonical_status": "candidate",
+        "origin_count": "1",
+        "origin_refs": "WCD10-B09-CANDIDATE",
+        "normalization_basis": "中文为工作译名，西班牙语原题为身份锚点；不声称存在正式中文译本名。",
+        "issue_codes": "NONE"
+      },
+      "bibliography": "first_publication_year=1910; 诗歌作品集",
+      "description": "塞万提斯虚拟图书馆将本书列为达里奥晚期诗歌作品，并记载于1910年出版。",
+      "research_status": "catalog_only",
+      "research_refs": [
+        "WCD10-B09-S203"
+      ],
+      "old_facts": [],
+      "cards": [],
+      "card_sources": [],
+      "relations": [],
+      "relationship_sources": [],
+      "relationship_evidence": [],
+      "source_objects": [],
+      "fresh_review": {
+        "source_refs": [
+          "WCD10-B09-S203"
+        ],
+        "description": "Directly opened university-backed author bibliography states the complete collective book title and 1910 publication."
+      },
+      "remaining": "Parent review should confirm collective title distinction; no separate same-title poem is asserted.",
+      "source_author_id": "V1-ENT-0224",
+      "candidate_facts": [
+        {
+          "field": "first_publication_year",
+          "value": "1910",
+          "source_refs": [
+            "WCD10-B09-S203"
+          ],
+          "fact_candidate_id": "WCD10-B09-W202-F01"
+        },
+        {
+          "field": "genre_or_form",
+          "value": "诗歌作品集",
+          "source_refs": [
+            "WCD10-B09-S203"
+          ],
+          "fact_candidate_id": "WCD10-B09-W202-F02"
+        },
+        {
+          "field": "one_sentence_summary",
+          "value": "塞万提斯虚拟图书馆将本书列为达里奥晚期诗歌作品，并记载于1910年出版。",
+          "source_refs": [
+            "WCD10-B09-S203"
+          ],
+          "fact_candidate_id": "WCD10-B09-W202-F03"
+        }
+      ]
+    }
+  ],
+  "deferred_objects": [],
+  "author_context": {
+    "V1-ENT-0213": "既有作者事实及来源链不改；本包仅处理作品书目、简介和CREATED候选。",
+    "V1-ENT-0223": {
+      "author_id": "V1-ENT-0223",
+      "preserved_author_records": [
+        {
+          "batch_id": "WCD-10-B09",
+          "task_id": "TASK-114",
+          "author": {
+            "entity_id": "V1-ENT-0223",
+            "entity_type": "author",
+            "name_zh": "塞萨尔·巴列霍",
+            "original_name": "César Vallejo",
+            "canonical_status": "candidate",
+            "origin_count": "3",
+            "origin_refs": "CAND-B06-VALLEJO-AUTHOR",
+            "normalization_basis": "B06 Casa de la Literatura biography and literary map; Chinese display candidate",
+            "issue_codes": "NONE"
+          },
+          "works": [
+            {
+              "entity": {
+                "entity_id": "V1-ENT-0226",
+                "entity_type": "collection",
+                "name_zh": "《黑色使者》",
+                "original_name": "Los heraldos negros",
+                "canonical_status": "candidate",
+                "origin_count": "1",
+                "origin_refs": "CAND-B06-VALLEJO-W01",
+                "normalization_basis": "B06 Casa de la Literatura original title and first-edition note; display candidate",
+                "issue_codes": "DISPUTED-YEAR"
+              },
+              "facts": [
+                {
+                  "fact_id": "V1-FCT-0536",
+                  "origin_material_id": "WEB-CE-B06",
+                  "card_id": "V1-CARD-0115",
+                  "subject_id": "V1-ENT-0226",
+                  "fact_field": "entity_layer",
+                  "value_text": "collection",
+                  "material_class": "metadata",
+                  "origin_id": "SRC-0178",
+                  "confidence": "high",
+                  "admission_status": "candidate_for_staging_review",
+                  "usage_note": "作品层级与来源书目形态保持一致。"
+                },
+                {
+                  "fact_id": "V1-FCT-0537",
+                  "origin_material_id": "WEB-CE-B06",
+                  "card_id": "V1-CARD-0115",
+                  "subject_id": "V1-ENT-0226",
+                  "fact_field": "first_publication_year",
+                  "value_text": "1918/1919",
+                  "material_class": "bibliographic",
+                  "origin_id": "SRC-0178",
+                  "confidence": "medium",
+                  "admission_status": "candidate_for_staging_review",
+                  "usage_note": "该页面将 Los heraldos negros 列作 1918 原始版本，并另注实际印行为 1919；保留日期冲突并进入 V1-GAP-0015。"
+                },
+                {
+                  "fact_id": "V1-FCT-0538",
+                  "origin_material_id": "WEB-CE-B06",
+                  "card_id": "V1-CARD-0115",
+                  "subject_id": "V1-ENT-0226",
+                  "fact_field": "bibliographic_note",
+                  "value_text": "该页面将 Los heraldos negros 列作 1918 原始版本，并另注实际印行为 1919；保留日期冲突并进入 V1-GAP-0015。",
+                  "material_class": "bibliographic",
+                  "origin_id": "SRC-0178",
+                  "confidence": "medium",
+                  "admission_status": "candidate_for_staging_review",
+                  "usage_note": "来源支持原文题名、形态与年份；不据此推导主题、影响或文学地位。"
+                }
+              ],
+              "cards": [
+                {
+                  "card_id": "V1-CARD-0115",
+                  "origin_card_id": "",
+                  "subject_id": "V1-ENT-0226",
+                  "card_type": "collection",
+                  "title_zh": "《黑色使者》",
+                  "author_label": "塞萨尔·巴列霍",
+                  "original_title": "Los heraldos negros",
+                  "country_or_region": "秘鲁",
+                  "language": "es",
+                  "period_bucket": "1918/1919",
+                  "genre_or_form": "诗集",
+                  "input_layer": "WEB-CE-B06",
+                  "source_minimum_status": "meets",
+                  "issue_code": "DISPUTED-YEAR",
+                  "content_markdown": "### 《黑色使者》｜Los heraldos negros — 机构页面列作 1918 首版，同时说明实际印行时间存在 1919 记载；本批保留争议。"
+                }
+              ],
+              "relations": [
+                {
+                  "relationship_id": "V1-REL-0152",
+                  "origin_layer": "WEB-CE-B06",
+                  "origin_relation_group_id": "CAND-B06-0152",
+                  "subject_id": "V1-ENT-0223",
+                  "relation_type": "CREATED",
+                  "object_id": "V1-ENT-0226",
+                  "description_zh": "V1-ENT-0223 创作 Los heraldos negros",
+                  "confidence": "high",
+                  "review_status": "accepted",
+                  "upstream_review_status": "WEB-CE-B06",
+                  "evidence_count": "1",
+                  "issue_code": "NONE"
+                }
+              ],
+              "fact_sources": [
+                {
+                  "fact_id": "V1-FCT-0536",
+                  "source_id": "SRC-0178",
+                  "source_title": "Historia de las literaturas en el Perú. Volumen 4"
+                },
+                {
+                  "fact_id": "V1-FCT-0537",
+                  "source_id": "SRC-0178",
+                  "source_title": "Historia de las literaturas en el Perú. Volumen 4"
+                },
+                {
+                  "fact_id": "V1-FCT-0537",
+                  "source_id": "SRC-0177",
+                  "source_title": "Santiago de Chuco y César Vallejo: 130 años de su nacimiento"
+                },
+                {
+                  "fact_id": "V1-FCT-0538",
+                  "source_id": "SRC-0178",
+                  "source_title": "Historia de las literaturas en el Perú. Volumen 4"
+                }
+              ],
+              "card_sources": [
+                {
+                  "card_source_id": "V1-CS-0225",
+                  "origin_matrix_id": "",
+                  "card_id": "V1-CARD-0115",
+                  "source_id": "SRC-0178",
+                  "source_level": "B",
+                  "source_role": "both",
+                  "bibliographic_support": "yes",
+                  "research_support": "yes",
+                  "independent_source_key": "SRC-0178",
+                  "usage_status": "used",
+                  "issue_code": "NONE"
+                }
+              ],
+              "relationship_sources": [
+                {
+                  "relationship_id": "V1-REL-0152",
+                  "source_id": "SRC-0178"
+                }
+              ],
+              "relationship_evidence": [
+                {
+                  "evidence_id": "V1-EV-0177",
+                  "relationship_id": "V1-REL-0152",
+                  "origin_evidence_id": "CAND-B06-0152",
+                  "source_id": "SRC-0178",
+                  "source_title": "Historia de las literaturas en el Perú. Volumen 4",
+                  "locator": "",
+                  "evidence_note": "机构来源直接支持作者—作品书目或作者—国家身份关联；本批不扩展解释性关系。",
+                  "confidence": "high",
+                  "evidence_status": "eligible_evidence",
+                  "evidence_origin": "WEB-CE-B06"
+                }
+              ],
+              "source_objects": [
+                {
+                  "source_id": "SRC-0177",
+                  "temporary_id": "B06-SRC-0177",
+                  "title": "Santiago de Chuco y César Vallejo: 130 años de su nacimiento",
+                  "original_title": "Santiago de Chuco y César Vallejo: 130 años de su nacimiento",
+                  "author_or_editor": "Casa de la Literatura Peruana",
+                  "translator": "",
+                  "publisher": "Casa de la Literatura Peruana",
+                  "publication_year": "2022",
+                  "isbn": "",
+                  "format": "web_page",
+                  "page_count": "",
+                  "language": "es",
+                  "source_level": "B",
+                  "processing_status": "access_pass",
+                  "source_task": "WEB-CE-B06",
+                  "public_content_scope": "Vallejo 生卒、出生地与秘鲁身份",
+                  "local_asset_status": "remote_only",
+                  "persistent_id": "",
+                  "canonical_url": "https://www.casadelaliteratura.gob.pe/santiago-chuco-cesar-vallejo-130-anos-nacimiento/"
+                },
+                {
+                  "source_id": "SRC-0178",
+                  "temporary_id": "B06-SRC-0178",
+                  "title": "Historia de las literaturas en el Perú. Volumen 4",
+                  "original_title": "Historia de las literaturas en el Perú. Volumen 4",
+                  "author_or_editor": "Casa de la Literatura Peruana",
+                  "translator": "",
+                  "publisher": "Casa de la Literatura Peruana",
+                  "publication_year": "2019",
+                  "isbn": "",
+                  "format": "pdf",
+                  "page_count": "",
+                  "language": "es",
+                  "source_level": "B",
+                  "processing_status": "access_pass",
+                  "source_task": "WEB-CE-B06",
+                  "public_content_scope": "Los heraldos negros、Trilce、Poemas humanos 原文题名、年份与 1918/1919 说明",
+                  "local_asset_status": "remote_only",
+                  "persistent_id": "",
+                  "canonical_url": "https://www.casadelaliteratura.gob.pe/wp-content/uploads/2019/04/Historia-de-la-literatura-Vol-4.pdf"
+                }
+              ],
+              "flags": [
+                "genre_missing",
+                "object_description_fact_missing"
+              ]
+            },
+            {
+              "entity": {
+                "entity_id": "V1-ENT-0227",
+                "entity_type": "collection",
+                "name_zh": "《特里尔塞》",
+                "original_name": "Trilce",
+                "canonical_status": "candidate",
+                "origin_count": "1",
+                "origin_refs": "CAND-B06-VALLEJO-W02",
+                "normalization_basis": "B06 Casa de la Literatura original title and 1922 first edition",
+                "issue_codes": "NONE"
+              },
+              "facts": [
+                {
+                  "fact_id": "V1-FCT-0539",
+                  "origin_material_id": "WEB-CE-B06",
+                  "card_id": "V1-CARD-0116",
+                  "subject_id": "V1-ENT-0227",
+                  "fact_field": "entity_layer",
+                  "value_text": "collection",
+                  "material_class": "metadata",
+                  "origin_id": "SRC-0178",
+                  "confidence": "high",
+                  "admission_status": "candidate_for_staging_review",
+                  "usage_note": "作品层级与来源书目形态保持一致。"
+                },
+                {
+                  "fact_id": "V1-FCT-0540",
+                  "origin_material_id": "WEB-CE-B06",
+                  "card_id": "V1-CARD-0116",
+                  "subject_id": "V1-ENT-0227",
+                  "fact_field": "first_publication_year",
+                  "value_text": "1922",
+                  "material_class": "bibliographic",
+                  "origin_id": "SRC-0178",
+                  "confidence": "high",
+                  "admission_status": "candidate_for_staging_review",
+                  "usage_note": "机构页面列出 Trilce（1922）首版；本批只作书目事实。"
+                },
+                {
+                  "fact_id": "V1-FCT-0541",
+                  "origin_material_id": "WEB-CE-B06",
+                  "card_id": "V1-CARD-0116",
+                  "subject_id": "V1-ENT-0227",
+                  "fact_field": "bibliographic_note",
+                  "value_text": "机构页面列出 Trilce（1922）首版；本批只作书目事实。",
+                  "material_class": "bibliographic",
+                  "origin_id": "SRC-0178",
+                  "confidence": "high",
+                  "admission_status": "candidate_for_staging_review",
+                  "usage_note": "来源支持原文题名、形态与年份；不据此推导主题、影响或文学地位。"
+                }
+              ],
+              "cards": [
+                {
+                  "card_id": "V1-CARD-0116",
+                  "origin_card_id": "",
+                  "subject_id": "V1-ENT-0227",
+                  "card_type": "collection",
+                  "title_zh": "《特里尔塞》",
+                  "author_label": "塞萨尔·巴列霍",
+                  "original_title": "Trilce",
+                  "country_or_region": "秘鲁",
+                  "language": "es",
+                  "period_bucket": "1922",
+                  "genre_or_form": "诗集",
+                  "input_layer": "WEB-CE-B06",
+                  "source_minimum_status": "meets",
+                  "issue_code": "NONE",
+                  "content_markdown": "### 《特里尔塞》｜Trilce — Casa de la Literatura 资料列出 1922 年首版；中文展示名不作译本版本学声明。"
+                }
+              ],
+              "relations": [
+                {
+                  "relationship_id": "V1-REL-0153",
+                  "origin_layer": "WEB-CE-B06",
+                  "origin_relation_group_id": "CAND-B06-0153",
+                  "subject_id": "V1-ENT-0223",
+                  "relation_type": "CREATED",
+                  "object_id": "V1-ENT-0227",
+                  "description_zh": "V1-ENT-0223 创作 Trilce",
+                  "confidence": "high",
+                  "review_status": "accepted",
+                  "upstream_review_status": "WEB-CE-B06",
+                  "evidence_count": "1",
+                  "issue_code": "NONE"
+                }
+              ],
+              "fact_sources": [
+                {
+                  "fact_id": "V1-FCT-0539",
+                  "source_id": "SRC-0178",
+                  "source_title": "Historia de las literaturas en el Perú. Volumen 4"
+                },
+                {
+                  "fact_id": "V1-FCT-0540",
+                  "source_id": "SRC-0178",
+                  "source_title": "Historia de las literaturas en el Perú. Volumen 4"
+                },
+                {
+                  "fact_id": "V1-FCT-0541",
+                  "source_id": "SRC-0178",
+                  "source_title": "Historia de las literaturas en el Perú. Volumen 4"
+                }
+              ],
+              "card_sources": [
+                {
+                  "card_source_id": "V1-CS-0227",
+                  "origin_matrix_id": "",
+                  "card_id": "V1-CARD-0116",
+                  "source_id": "SRC-0178",
+                  "source_level": "B",
+                  "source_role": "both",
+                  "bibliographic_support": "yes",
+                  "research_support": "yes",
+                  "independent_source_key": "SRC-0178",
+                  "usage_status": "used",
+                  "issue_code": "NONE"
+                }
+              ],
+              "relationship_sources": [
+                {
+                  "relationship_id": "V1-REL-0153",
+                  "source_id": "SRC-0178"
+                }
+              ],
+              "relationship_evidence": [
+                {
+                  "evidence_id": "V1-EV-0178",
+                  "relationship_id": "V1-REL-0153",
+                  "origin_evidence_id": "CAND-B06-0153",
+                  "source_id": "SRC-0178",
+                  "source_title": "Historia de las literaturas en el Perú. Volumen 4",
+                  "locator": "",
+                  "evidence_note": "机构来源直接支持作者—作品书目或作者—国家身份关联；本批不扩展解释性关系。",
+                  "confidence": "high",
+                  "evidence_status": "eligible_evidence",
+                  "evidence_origin": "WEB-CE-B06"
+                }
+              ],
+              "source_objects": [
+                {
+                  "source_id": "SRC-0178",
+                  "temporary_id": "B06-SRC-0178",
+                  "title": "Historia de las literaturas en el Perú. Volumen 4",
+                  "original_title": "Historia de las literaturas en el Perú. Volumen 4",
+                  "author_or_editor": "Casa de la Literatura Peruana",
+                  "translator": "",
+                  "publisher": "Casa de la Literatura Peruana",
+                  "publication_year": "2019",
+                  "isbn": "",
+                  "format": "pdf",
+                  "page_count": "",
+                  "language": "es",
+                  "source_level": "B",
+                  "processing_status": "access_pass",
+                  "source_task": "WEB-CE-B06",
+                  "public_content_scope": "Los heraldos negros、Trilce、Poemas humanos 原文题名、年份与 1918/1919 说明",
+                  "local_asset_status": "remote_only",
+                  "persistent_id": "",
+                  "canonical_url": "https://www.casadelaliteratura.gob.pe/wp-content/uploads/2019/04/Historia-de-la-literatura-Vol-4.pdf"
+                }
+              ],
+              "flags": [
+                "genre_missing",
+                "object_description_fact_missing"
+              ]
+            },
+            {
+              "entity": {
+                "entity_id": "V1-ENT-0228",
+                "entity_type": "collection",
+                "name_zh": "《人类的诗篇》",
+                "original_name": "Poemas humanos",
+                "canonical_status": "candidate",
+                "origin_count": "2",
+                "origin_refs": "CAND-B06-VALLEJO-W03",
+                "normalization_basis": "B06 Casa de la Literatura original title and 1939 edition",
+                "issue_codes": "NONE"
+              },
+              "facts": [
+                {
+                  "fact_id": "V1-FCT-0542",
+                  "origin_material_id": "WEB-CE-B06",
+                  "card_id": "V1-CARD-0117",
+                  "subject_id": "V1-ENT-0228",
+                  "fact_field": "entity_layer",
+                  "value_text": "collection",
+                  "material_class": "metadata",
+                  "origin_id": "SRC-0178",
+                  "confidence": "high",
+                  "admission_status": "candidate_for_staging_review",
+                  "usage_note": "作品层级与来源书目形态保持一致。"
+                },
+                {
+                  "fact_id": "V1-FCT-0543",
+                  "origin_material_id": "WEB-CE-B06",
+                  "card_id": "V1-CARD-0117",
+                  "subject_id": "V1-ENT-0228",
+                  "fact_field": "first_publication_year",
+                  "value_text": "1939",
+                  "material_class": "bibliographic",
+                  "origin_id": "SRC-0178",
+                  "confidence": "high",
+                  "admission_status": "candidate_for_staging_review",
+                  "usage_note": "机构页面列出 Poemas humanos（1939）出版序列；本批只作书目事实。"
+                },
+                {
+                  "fact_id": "V1-FCT-0544",
+                  "origin_material_id": "WEB-CE-B06",
+                  "card_id": "V1-CARD-0117",
+                  "subject_id": "V1-ENT-0228",
+                  "fact_field": "bibliographic_note",
+                  "value_text": "机构页面列出 Poemas humanos（1939）出版序列；本批只作书目事实。",
+                  "material_class": "bibliographic",
+                  "origin_id": "SRC-0178",
+                  "confidence": "high",
+                  "admission_status": "candidate_for_staging_review",
+                  "usage_note": "来源支持原文题名、形态与年份；不据此推导主题、影响或文学地位。"
+                }
+              ],
+              "cards": [
+                {
+                  "card_id": "V1-CARD-0117",
+                  "origin_card_id": "",
+                  "subject_id": "V1-ENT-0228",
+                  "card_type": "collection",
+                  "title_zh": "《人类的诗篇》",
+                  "author_label": "塞萨尔·巴列霍",
+                  "original_title": "Poemas humanos",
+                  "country_or_region": "秘鲁",
+                  "language": "es",
+                  "period_bucket": "1939",
+                  "genre_or_form": "诗集",
+                  "input_layer": "WEB-CE-B06",
+                  "source_minimum_status": "meets",
+                  "issue_code": "NONE",
+                  "content_markdown": "### 《人类的诗篇》｜Poemas humanos — 机构资料列入 Vallejo 的 1939 诗歌出版序列；本批不添加主题或影响判断。"
+                }
+              ],
+              "relations": [
+                {
+                  "relationship_id": "V1-REL-0154",
+                  "origin_layer": "WEB-CE-B06",
+                  "origin_relation_group_id": "CAND-B06-0154",
+                  "subject_id": "V1-ENT-0223",
+                  "relation_type": "CREATED",
+                  "object_id": "V1-ENT-0228",
+                  "description_zh": "V1-ENT-0223 创作 Poemas humanos",
+                  "confidence": "high",
+                  "review_status": "accepted",
+                  "upstream_review_status": "WEB-CE-B06",
+                  "evidence_count": "1",
+                  "issue_code": "NONE"
+                }
+              ],
+              "fact_sources": [
+                {
+                  "fact_id": "V1-FCT-0542",
+                  "source_id": "SRC-0178",
+                  "source_title": "Historia de las literaturas en el Perú. Volumen 4"
+                },
+                {
+                  "fact_id": "V1-FCT-0543",
+                  "source_id": "SRC-0178",
+                  "source_title": "Historia de las literaturas en el Perú. Volumen 4"
+                },
+                {
+                  "fact_id": "V1-FCT-0544",
+                  "source_id": "SRC-0178",
+                  "source_title": "Historia de las literaturas en el Perú. Volumen 4"
+                }
+              ],
+              "card_sources": [
+                {
+                  "card_source_id": "V1-CS-0228",
+                  "origin_matrix_id": "",
+                  "card_id": "V1-CARD-0117",
+                  "source_id": "SRC-0178",
+                  "source_level": "B",
+                  "source_role": "both",
+                  "bibliographic_support": "yes",
+                  "research_support": "yes",
+                  "independent_source_key": "SRC-0178",
+                  "usage_status": "used",
+                  "issue_code": "NONE"
+                }
+              ],
+              "relationship_sources": [
+                {
+                  "relationship_id": "V1-REL-0154",
+                  "source_id": "SRC-0178"
+                }
+              ],
+              "relationship_evidence": [
+                {
+                  "evidence_id": "V1-EV-0179",
+                  "relationship_id": "V1-REL-0154",
+                  "origin_evidence_id": "CAND-B06-0154",
+                  "source_id": "SRC-0178",
+                  "source_title": "Historia de las literaturas en el Perú. Volumen 4",
+                  "locator": "",
+                  "evidence_note": "机构来源直接支持作者—作品书目或作者—国家身份关联；本批不扩展解释性关系。",
+                  "confidence": "high",
+                  "evidence_status": "eligible_evidence",
+                  "evidence_origin": "WEB-CE-B06"
+                }
+              ],
+              "source_objects": [
+                {
+                  "source_id": "SRC-0178",
+                  "temporary_id": "B06-SRC-0178",
+                  "title": "Historia de las literaturas en el Perú. Volumen 4",
+                  "original_title": "Historia de las literaturas en el Perú. Volumen 4",
+                  "author_or_editor": "Casa de la Literatura Peruana",
+                  "translator": "",
+                  "publisher": "Casa de la Literatura Peruana",
+                  "publication_year": "2019",
+                  "isbn": "",
+                  "format": "pdf",
+                  "page_count": "",
+                  "language": "es",
+                  "source_level": "B",
+                  "processing_status": "access_pass",
+                  "source_task": "WEB-CE-B06",
+                  "public_content_scope": "Los heraldos negros、Trilce、Poemas humanos 原文题名、年份与 1918/1919 说明",
+                  "local_asset_status": "remote_only",
+                  "persistent_id": "",
+                  "canonical_url": "https://www.casadelaliteratura.gob.pe/wp-content/uploads/2019/04/Historia-de-la-literatura-Vol-4.pdf"
+                }
+              ],
+              "flags": [
+                "genre_missing",
+                "object_description_fact_missing"
+              ]
+            }
+          ],
+          "facts": [
+            {
+              "fact_id": "V1-FCT-0521",
+              "origin_material_id": "WEB-CE-B06",
+              "card_id": "V1-CARD-0112",
+              "subject_id": "V1-ENT-0223",
+              "fact_field": "birth_year",
+              "value_text": "1892",
+              "material_class": "fact",
+              "origin_id": "SRC-0177",
+              "confidence": "high",
+              "admission_status": "candidate_for_staging_review",
+              "usage_note": "机构来源直接标注作者出生年份。"
+            },
+            {
+              "fact_id": "V1-FCT-0522",
+              "origin_material_id": "WEB-CE-B06",
+              "card_id": "V1-CARD-0112",
+              "subject_id": "V1-ENT-0223",
+              "fact_field": "death_year",
+              "value_text": "1938",
+              "material_class": "fact",
+              "origin_id": "SRC-0177",
+              "confidence": "high",
+              "admission_status": "candidate_for_staging_review",
+              "usage_note": "机构来源直接标注作者逝世年份。"
+            },
+            {
+              "fact_id": "V1-FCT-0523",
+              "origin_material_id": "WEB-CE-B06",
+              "card_id": "V1-CARD-0112",
+              "subject_id": "V1-ENT-0223",
+              "fact_field": "country_or_region",
+              "value_text": "秘鲁",
+              "material_class": "fact",
+              "origin_id": "SRC-0177",
+              "confidence": "high",
+              "admission_status": "candidate_for_staging_review",
+              "usage_note": "来源支持作者与国家关联。"
+            },
+            {
+              "fact_id": "V1-FCT-0524",
+              "origin_material_id": "WEB-CE-B06",
+              "card_id": "V1-CARD-0112",
+              "subject_id": "V1-ENT-0223",
+              "fact_field": "birth_place",
+              "value_text": "圣地亚哥·德·丘科（Santiago de Chuco）",
+              "material_class": "fact",
+              "origin_id": "SRC-0177",
+              "confidence": "medium",
+              "admission_status": "candidate_for_staging_review",
+              "usage_note": "保留来源直接给出的出生地；不自动转换为作品场景。"
+            },
+            {
+              "fact_id": "V1-FCT-0525",
+              "origin_material_id": "WEB-CE-B06",
+              "card_id": "V1-CARD-0112",
+              "subject_id": "V1-ENT-0223",
+              "fact_field": "career_note",
+              "value_text": "诗人",
+              "material_class": "fact",
+              "origin_id": "SRC-0177",
+              "confidence": "medium",
+              "admission_status": "candidate_for_staging_review",
+              "usage_note": "来源直接称 Vallejo 为诗人；不扩展作家或文学史身份。"
+            }
+          ],
+          "relations": [
+            {
+              "relationship_id": "V1-REL-0152",
+              "origin_layer": "WEB-CE-B06",
+              "origin_relation_group_id": "CAND-B06-0152",
+              "subject_id": "V1-ENT-0223",
+              "relation_type": "CREATED",
+              "object_id": "V1-ENT-0226",
+              "description_zh": "V1-ENT-0223 创作 Los heraldos negros",
+              "confidence": "high",
+              "review_status": "accepted",
+              "upstream_review_status": "WEB-CE-B06",
+              "evidence_count": "1",
+              "issue_code": "NONE"
+            },
+            {
+              "relationship_id": "V1-REL-0153",
+              "origin_layer": "WEB-CE-B06",
+              "origin_relation_group_id": "CAND-B06-0153",
+              "subject_id": "V1-ENT-0223",
+              "relation_type": "CREATED",
+              "object_id": "V1-ENT-0227",
+              "description_zh": "V1-ENT-0223 创作 Trilce",
+              "confidence": "high",
+              "review_status": "accepted",
+              "upstream_review_status": "WEB-CE-B06",
+              "evidence_count": "1",
+              "issue_code": "NONE"
+            },
+            {
+              "relationship_id": "V1-REL-0154",
+              "origin_layer": "WEB-CE-B06",
+              "origin_relation_group_id": "CAND-B06-0154",
+              "subject_id": "V1-ENT-0223",
+              "relation_type": "CREATED",
+              "object_id": "V1-ENT-0228",
+              "description_zh": "V1-ENT-0223 创作 Poemas humanos",
+              "confidence": "high",
+              "review_status": "accepted",
+              "upstream_review_status": "WEB-CE-B06",
+              "evidence_count": "1",
+              "issue_code": "NONE"
+            },
+            {
+              "relationship_id": "V1-REL-0161",
+              "origin_layer": "WEB-CE-B06",
+              "origin_relation_group_id": "CAND-B06-0161",
+              "subject_id": "V1-ENT-0223",
+              "relation_type": "ASSOCIATED_WITH_PLACE",
+              "object_id": "V1-ENT-0124",
+              "description_zh": "塞萨尔·巴列霍与秘鲁关联",
+              "confidence": "high",
+              "review_status": "accepted",
+              "upstream_review_status": "WEB-CE-B06",
+              "evidence_count": "1",
+              "issue_code": "NONE"
+            }
+          ],
+          "holds": [],
+          "gaps": [
+            {
+              "gap_id": "V1-GAP-0015",
+              "origin_gap_id": "PRE-GAP-0015",
+              "gap_type": "bibliographic_dispute",
+              "gap_key": "V1-ENT-0226.first_publication_year",
+              "current_status": "open_research",
+              "evidence_basis": "SRC-0178 labels the original edition 1918 and notes July 1919 printing; the source conflict is retained.",
+              "attempts_or_count": "1",
+              "owner_decision": "SOL_REVIEW",
+              "downstream_effect": "Keep 1918/1919 conflict visible in public copy; do not present one uncontested year.",
+              "issue_code": "DISPUTED-YEAR"
+            }
+          ],
+          "curation_statuses": {
+            "user_review": 9
+          },
+          "inventory_status": "MECHANICAL_ONLY_NOT_LITERARY_COVERAGE_REVIEW"
+        }
+      ]
+    },
+    "V1-ENT-0224": {
+      "author": "Rubén Darío",
+      "summary": "B09 author-isolated work coverage; concise descriptions supported by Biblioteca Nacional de Chile / Memoria Chilena."
+    }
+  },
+  "author_scope_by_id": {
+    "V1-ENT-0213": "Ramos（V1-ENT-0213）全部3项基线作品及3项新候选作品。",
+    "V1-ENT-0223": "Single-author candidate production for César Vallejo (V1-ENT-0223); exactly three legacy works preserved with complete available chains; three source-supported additions; no IDs, SQL, integration or Curation.",
+    "V1-ENT-0224": "Single-author B09 candidate package; frozen B09 inventory baseline only."
+  },
+  "result": {
+    "existing_objects_preserved": 12,
+    "new_work_candidates": 8,
+    "deferred_items": 0,
+    "coverage_rows": 20,
+    "candidate_gate": "PARENT_REVIEW_PENDING",
+    "mechanical": "NOT_RUN",
+    "author_results": {
+      "V1-ENT-0213": "AUTHOR_PACKAGE_MERGED_PARENT_REVIEW_PENDING",
+      "V1-ENT-0223": "AUTHOR_PACKAGE_MERGED_PARENT_REVIEW_PENDING"
+    },
+    "scope_note": "Author package rows are preserved in input order. No formal IDs, migration, or database writes occurred."
+  }
+}

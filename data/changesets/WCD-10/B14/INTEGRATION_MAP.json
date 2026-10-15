@@ -1,0 +1,4664 @@
+{
+  "task_id": "TASK-119",
+  "batch_id": "WCD-10-B14",
+  "candidate_review": {
+    "verdict": "PASS",
+    "task_id": "TASK-119",
+    "batch_id": "WCD-10-B14",
+    "reviewer": "Codex-parent-independent-review",
+    "reviewed_at": "2026-10-13",
+    "checkpoint_date": "2026-10-13",
+    "baseline_database_sha256": "c7b5951beb2e2a30053b08d84e07931547b8909a1e5a180086fafeedebaea677",
+    "review_scope": "DEC-070 one pragmatic source/object/description batch review; no academic completeness claim; prepare only",
+    "packages": [
+      {
+        "file": "CANDIDATES.json",
+        "sha256": "1ee4a720518c9bb2ac8729517b716b679ce343ed18f3aefbb10cef74e87573f2",
+        "verdict": "PASS"
+      }
+    ],
+    "coverage_sha256": "7cb9716e6b3d40edef5af5dbde0ee783f92f7f22748c2d5d2d7b7f9a2e5f9b34",
+    "registration_sha256": "eb65dd4a747af52400aa4951ef2d5ff7f0f54ea40924f69df9648e58b54dcfcb",
+    "evidence_matrix_sha256": "c3867f854aaccad1cc412aa7b7763c8886917c3e842273064e5f19f7c4e11ed2",
+    "merge_provenance_sha256": "cd0a2954b5cb5e67696784b2418259ae42355cc0934cdb69f9715fee68450d66",
+    "builder_sha256": "23a2a5e1b1cf27759ce71faf61524ef83b5777083e4a27c98ff6cf1eab78207b",
+    "parent_review_sha256": "583f86c7980f2cec5fe4137b657ed0f76352f15f341adf42b40f94d67d2e3f76",
+    "coauthor_reentry_candidate_sha256": "df2aa6e83ab5ce005d1bcabb23e7262e77109b6e138bc808971e7d8996490242",
+    "coauthor_reentry_review_sha256": "d4da3735cdf7a0a8a1604bba44ead312c7c37609a55ab333b1de8f5abcee0afd"
+  },
+  "registration_sha256": "eb65dd4a747af52400aa4951ef2d5ff7f0f54ea40924f69df9648e58b54dcfcb",
+  "migration_status": "PREPARED_PENDING_INDEPENDENT_SQL_REVIEW",
+  "id_map": {
+    "WCD10-B14-S001": "SRC-0725",
+    "WCD10-B14-S002": "SRC-0726",
+    "WCD10-B14-S003": "SRC-0727",
+    "WCD10-B14-S101": "SRC-0728",
+    "WCD10-B14-S102": "SRC-0729",
+    "WCD10-B14-S103": "SRC-0730",
+    "WCD10-B14-S104": "SRC-0731",
+    "WCD10-B14-S105": "SRC-0732",
+    "WCD10-B14-S201": "SRC-0227",
+    "WCD10-B14-S202": "SRC-0228",
+    "WCD10-B14-S203": "SRC-0733",
+    "WCD10-B14-W001": "V1-ENT-0685",
+    "WCD10-B14-W002": "V1-ENT-0686",
+    "WCD10-B14-W003": "V1-ENT-0687",
+    "WCD10-B14-W101": "V1-ENT-0688",
+    "WCD10-B14-W102": "V1-ENT-0689",
+    "WCD10-B14-W103": "V1-ENT-0690",
+    "WCD10-B14-W104": "V1-ENT-0691",
+    "WCD10-B14-W105": "V1-ENT-0692",
+    "WCD10-B14-W201": "V1-ENT-0693",
+    "WCD10-B14-W202": "V1-ENT-0694",
+    "WCD10-B14-W203": "V1-ENT-0695",
+    "WCD10-B14-W204": "V1-ENT-0696",
+    "WCD10-B14-W205": "V1-ENT-0697",
+    "WCD10-B14-W206": "V1-ENT-0698",
+    "WCD10-B14-W001-F01": "V1-FCT-2281",
+    "WCD10-B14-W001-F02": "V1-FCT-2282",
+    "WCD10-B14-W001-F03": "V1-FCT-2283",
+    "WCD10-B14-W002-F01": "V1-FCT-2284",
+    "WCD10-B14-W002-F02": "V1-FCT-2285",
+    "WCD10-B14-W002-F03": "V1-FCT-2286",
+    "WCD10-B14-W003-F01": "V1-FCT-2287",
+    "WCD10-B14-W003-F02": "V1-FCT-2288",
+    "WCD10-B14-W003-F03": "V1-FCT-2289",
+    "WCD10-B14-W101-F01": "V1-FCT-2290",
+    "WCD10-B14-W101-F02": "V1-FCT-2291",
+    "WCD10-B14-W101-F03": "V1-FCT-2292",
+    "WCD10-B14-W101-F04": "V1-FCT-2293",
+    "WCD10-B14-W102-F01": "V1-FCT-2294",
+    "WCD10-B14-W102-F02": "V1-FCT-2295",
+    "WCD10-B14-W102-F03": "V1-FCT-2296",
+    "WCD10-B14-W102-F04": "V1-FCT-2297",
+    "WCD10-B14-W103-F01": "V1-FCT-2298",
+    "WCD10-B14-W103-F02": "V1-FCT-2299",
+    "WCD10-B14-W103-F03": "V1-FCT-2300",
+    "WCD10-B14-W103-F04": "V1-FCT-2301",
+    "WCD10-B14-W104-F01": "V1-FCT-2302",
+    "WCD10-B14-W104-F02": "V1-FCT-2303",
+    "WCD10-B14-W104-F03": "V1-FCT-2304",
+    "WCD10-B14-W104-F04": "V1-FCT-2305",
+    "WCD10-B14-W105-F01": "V1-FCT-2306",
+    "WCD10-B14-W105-F02": "V1-FCT-2307",
+    "WCD10-B14-W105-F03": "V1-FCT-2308",
+    "WCD10-B14-W105-F04": "V1-FCT-2309",
+    "WCD10-B14-W201-F01": "V1-FCT-2310",
+    "WCD10-B14-W201-F02": "V1-FCT-2311",
+    "WCD10-B14-W201-F03": "V1-FCT-2312",
+    "WCD10-B14-W202-F01": "V1-FCT-2313",
+    "WCD10-B14-W202-F02": "V1-FCT-2314",
+    "WCD10-B14-W202-F03": "V1-FCT-2315",
+    "WCD10-B14-W202-F04": "V1-FCT-2316",
+    "WCD10-B14-W203-F01": "V1-FCT-2317",
+    "WCD10-B14-W203-F02": "V1-FCT-2318",
+    "WCD10-B14-W203-F03": "V1-FCT-2319",
+    "WCD10-B14-W203-F04": "V1-FCT-2320",
+    "WCD10-B14-W204-F01": "V1-FCT-2321",
+    "WCD10-B14-W204-F02": "V1-FCT-2322",
+    "WCD10-B14-W204-F03": "V1-FCT-2323",
+    "WCD10-B14-W204-F04": "V1-FCT-2324",
+    "WCD10-B14-W205-F01": "V1-FCT-2325",
+    "WCD10-B14-W205-F02": "V1-FCT-2326",
+    "WCD10-B14-W205-F03": "V1-FCT-2327",
+    "WCD10-B14-W205-F04": "V1-FCT-2328",
+    "WCD10-B14-W206-F01": "V1-FCT-2329",
+    "WCD10-B14-W206-F02": "V1-FCT-2330",
+    "WCD10-B14-W206-F03": "V1-FCT-2331",
+    "WCD10-B14-W001-CREATED": "V1-REL-0654",
+    "WCD10-B14-W002-CREATED": "V1-REL-0655",
+    "WCD10-B14-W003-CREATED": "V1-REL-0656",
+    "WCD10-B14-W101-CREATED": "V1-REL-0657",
+    "WCD10-B14-W102-CREATED": "V1-REL-0658",
+    "WCD10-B14-W103-CREATED": "V1-REL-0659",
+    "WCD10-B14-W104-CREATED": "V1-REL-0660",
+    "WCD10-B14-W105-CREATED": "V1-REL-0661",
+    "WCD10-B14-W201-CREATED": "V1-REL-0662",
+    "WCD10-B14-W202-CREATED": "V1-REL-0663",
+    "WCD10-B14-W203-CREATED": "V1-REL-0664",
+    "WCD10-B14-W204-CREATED": "V1-REL-0665",
+    "WCD10-B14-W205-CREATED": "V1-REL-0666",
+    "WCD10-B14-W206-CREATED": "V1-REL-0667",
+    "WCD10-B14-R201": "V1-REL-0668",
+    "WCD10-B14-R202": "V1-REL-0669",
+    "WCD10-B14-R203": "V1-REL-0670"
+  },
+  "coverage_sha256": "7cb9716e6b3d40edef5af5dbde0ee783f92f7f22748c2d5d2d7b7f9a2e5f9b34",
+  "coverage": {
+    "task_id": "TASK-119",
+    "batch_id": "WCD-10-B14",
+    "baseline_database_sha256": "c7b5951beb2e2a30053b08d84e07931547b8909a1e5a180086fafeedebaea677",
+    "scope": "B14 merged coverage; fixed author order, per-author rows and original research references retained.",
+    "author_descriptions": {},
+    "research_policy_by_author": {
+      "V1-ENT-0274": "DEC-070：普通作品书目、体裁及有界简介采用直接可靠来源；本包不宣称全集或学术覆盖完备。",
+      "V1-ENT-0284": "DEC-070：以直接机构/出版社来源补基础作品书目与有界介绍，不声称全集或研究穷尽。",
+      "V1-ENT-0285": "DEC-070：一项可靠机构直接依据即可支持普通书目及有限描述；不追求全集或学术完备。"
+    },
+    "author_context": {
+      "V1-ENT-0284": "作者既有国籍、年代、地点与职业事实完整沿用基线；本轮不改作者事实。"
+    },
+    "author_scope_by_id": {
+      "V1-ENT-0274": "现有作品闭包完整快照；未证实新增版本不进入候选。",
+      "V1-ENT-0284": {
+        "existing_facts": [
+          {
+            "subject_id": "V1-ENT-0284",
+            "fact": {
+              "fact_id": "V1-FCT-0732",
+              "origin_material_id": "WEB-CE-B11",
+              "card_id": "V1-CARD-0172",
+              "subject_id": "V1-ENT-0284",
+              "fact_field": "birth_year",
+              "value_text": "1932",
+              "material_class": "fact",
+              "origin_id": "SRC-0225",
+              "confidence": "high",
+              "admission_status": "candidate_for_staging_review",
+              "usage_note": "Biblioteca Nacional page records Puig born in 1932."
+            },
+            "source_chain": [
+              {
+                "fact_id": "V1-FCT-0732",
+                "source_id": "SRC-0225",
+                "source_title": "28 de diciembre de 1932: nace Manuel Puig — Biblioteca Nacional"
+              }
+            ]
+          },
+          {
+            "subject_id": "V1-ENT-0284",
+            "fact": {
+              "fact_id": "V1-FCT-0733",
+              "origin_material_id": "WEB-CE-B11",
+              "card_id": "V1-CARD-0172",
+              "subject_id": "V1-ENT-0284",
+              "fact_field": "death_year",
+              "value_text": "1990",
+              "material_class": "fact",
+              "origin_id": "SRC-0225",
+              "confidence": "high",
+              "admission_status": "candidate_for_staging_review",
+              "usage_note": "Biblioteca Nacional page records Puig died in 1990."
+            },
+            "source_chain": [
+              {
+                "fact_id": "V1-FCT-0733",
+                "source_id": "SRC-0225",
+                "source_title": "28 de diciembre de 1932: nace Manuel Puig — Biblioteca Nacional"
+              }
+            ]
+          },
+          {
+            "subject_id": "V1-ENT-0284",
+            "fact": {
+              "fact_id": "V1-FCT-0734",
+              "origin_material_id": "WEB-CE-B11",
+              "card_id": "V1-CARD-0172",
+              "subject_id": "V1-ENT-0284",
+              "fact_field": "birth_place",
+              "value_text": "将军维列加斯（General Villegas）",
+              "material_class": "fact",
+              "origin_id": "SRC-0225",
+              "confidence": "high",
+              "admission_status": "candidate_for_staging_review",
+              "usage_note": "Biblioteca Nacional page names General Villegas as birthplace."
+            },
+            "source_chain": [
+              {
+                "fact_id": "V1-FCT-0734",
+                "source_id": "SRC-0225",
+                "source_title": "28 de diciembre de 1932: nace Manuel Puig — Biblioteca Nacional"
+              }
+            ]
+          },
+          {
+            "subject_id": "V1-ENT-0284",
+            "fact": {
+              "fact_id": "V1-FCT-0735",
+              "origin_material_id": "WEB-CE-B11",
+              "card_id": "V1-CARD-0172",
+              "subject_id": "V1-ENT-0284",
+              "fact_field": "country_or_region",
+              "value_text": "阿根廷",
+              "material_class": "fact",
+              "origin_id": "SRC-0225",
+              "confidence": "high",
+              "admission_status": "candidate_for_staging_review",
+              "usage_note": "Biblioteca Nacional presents Puig as an Argentine author."
+            },
+            "source_chain": [
+              {
+                "fact_id": "V1-FCT-0735",
+                "source_id": "SRC-0225",
+                "source_title": "28 de diciembre de 1932: nace Manuel Puig — Biblioteca Nacional"
+              }
+            ]
+          },
+          {
+            "subject_id": "V1-ENT-0284",
+            "fact": {
+              "fact_id": "V1-FCT-0736",
+              "origin_material_id": "WEB-CE-B11",
+              "card_id": "V1-CARD-0172",
+              "subject_id": "V1-ENT-0284",
+              "fact_field": "career_note",
+              "value_text": "小说家、编剧与剧作家",
+              "material_class": "fact",
+              "origin_id": "SRC-0225",
+              "confidence": "high",
+              "admission_status": "candidate_for_staging_review",
+              "usage_note": "Biblioteca Nacional describes Puig as novelist, screenwriter and playwright."
+            },
+            "source_chain": [
+              {
+                "fact_id": "V1-FCT-0736",
+                "source_id": "SRC-0225",
+                "source_title": "28 de diciembre de 1932: nace Manuel Puig — Biblioteca Nacional"
+              }
+            ]
+          },
+          {
+            "subject_id": "V1-ENT-0284",
+            "fact": {
+              "fact_id": "V1-FCT-0737",
+              "origin_material_id": "WEB-CE-B11",
+              "card_id": "V1-CARD-0172",
+              "subject_id": "V1-ENT-0284",
+              "fact_field": "literary_identity",
+              "value_text": "小说、剧本与戏剧作者",
+              "material_class": "fact",
+              "origin_id": "SRC-0225",
+              "confidence": "medium",
+              "admission_status": "candidate_for_staging_review",
+              "usage_note": "Description is a conservative synthesis of the listed roles."
+            },
+            "source_chain": [
+              {
+                "fact_id": "V1-FCT-0737",
+                "source_id": "SRC-0225",
+                "source_title": "28 de diciembre de 1932: nace Manuel Puig — Biblioteca Nacional"
+              }
+            ]
+          }
+        ],
+        "candidate_facts": [
+          {
+            "candidate_id": "WCD10-B14-W101-F01",
+            "subject_id": "WCD10-B14-W101",
+            "field": "first_publication_year",
+            "value": "1973",
+            "source_refs": [
+              "WCD10-B14-S101"
+            ]
+          },
+          {
+            "candidate_id": "WCD10-B14-W101-F02",
+            "subject_id": "WCD10-B14-W101",
+            "field": "genre_or_form",
+            "value": "小说",
+            "source_refs": [
+              "WCD10-B14-S103"
+            ]
+          },
+          {
+            "candidate_id": "WCD10-B14-W101-F03",
+            "subject_id": "WCD10-B14-W101",
+            "field": "one_sentence_summary",
+            "value": "出版社简介将小说置于1930至1969年间，以Leo Druscovich生命最后两天及一系列失踪、误导线索和性执念之谜为叙事线索。",
+            "source_refs": [
+              "WCD10-B14-S103"
+            ]
+          },
+          {
+            "candidate_id": "WCD10-B14-W101-F04",
+            "subject_id": "WCD10-B14-W101",
+            "field": "bibliographic_note",
+            "value": "阿根廷文化部记载作品于1973年出版并遭查禁；出版社简介支持此处有限情节概述。",
+            "source_refs": [
+              "WCD10-B14-S101",
+              "WCD10-B14-S103"
+            ]
+          },
+          {
+            "candidate_id": "WCD10-B14-W102-F01",
+            "subject_id": "WCD10-B14-W102",
+            "field": "first_publication_year",
+            "value": "1979",
+            "source_refs": [
+              "WCD10-B14-S101"
+            ]
+          },
+          {
+            "candidate_id": "WCD10-B14-W102-F02",
+            "subject_id": "WCD10-B14-W102",
+            "field": "genre_or_form",
+            "value": "小说",
+            "source_refs": [
+              "WCD10-B14-S101"
+            ]
+          },
+          {
+            "candidate_id": "WCD10-B14-W102-F03",
+            "subject_id": "WCD10-B14-W102",
+            "field": "one_sentence_summary",
+            "value": "小说以住院的安娜及其情感经历为线索，联系阿根廷20世纪60至70年代生活；阿根廷文化部提供这一简要内容说明。",
+            "source_refs": [
+              "WCD10-B14-S101"
+            ]
+          },
+          {
+            "candidate_id": "WCD10-B14-W102-F04",
+            "subject_id": "WCD10-B14-W102",
+            "field": "bibliographic_note",
+            "value": "阿根廷文化部机构文章记载《Pubis angelical》于1979年出版并列为普伊格作品；出版社作者书目列有该书。",
+            "source_refs": [
+              "WCD10-B14-S101"
+            ]
+          },
+          {
+            "candidate_id": "WCD10-B14-W103-F01",
+            "subject_id": "WCD10-B14-W103",
+            "field": "first_publication_year",
+            "value": "1980",
+            "source_refs": [
+              "WCD10-B14-S102"
+            ]
+          },
+          {
+            "candidate_id": "WCD10-B14-W103-F02",
+            "subject_id": "WCD10-B14-W103",
+            "field": "genre_or_form",
+            "value": "小说",
+            "source_refs": [
+              "WCD10-B14-S104"
+            ]
+          },
+          {
+            "candidate_id": "WCD10-B14-W103-F03",
+            "subject_id": "WCD10-B14-W103",
+            "field": "one_sentence_summary",
+            "value": "出版社简介写一名阿根廷病人与美国看护者在纽约相遇，两人的孤独与对缺席女性的记忆构成关系主线。",
+            "source_refs": [
+              "WCD10-B14-S104"
+            ]
+          },
+          {
+            "candidate_id": "WCD10-B14-W103-F04",
+            "subject_id": "WCD10-B14-W103",
+            "field": "bibliographic_note",
+            "value": "出版社作者书目记载作品于1980年出版；该书页面支持此处有限情节概述。",
+            "source_refs": [
+              "WCD10-B14-S102",
+              "WCD10-B14-S104"
+            ]
+          },
+          {
+            "candidate_id": "WCD10-B14-W104-F01",
+            "subject_id": "WCD10-B14-W104",
+            "field": "first_publication_year",
+            "value": "1982",
+            "source_refs": [
+              "WCD10-B14-S101"
+            ]
+          },
+          {
+            "candidate_id": "WCD10-B14-W104-F02",
+            "subject_id": "WCD10-B14-W104",
+            "field": "genre_or_form",
+            "value": "小说",
+            "source_refs": [
+              "WCD10-B14-S101"
+            ]
+          },
+          {
+            "candidate_id": "WCD10-B14-W104-F03",
+            "subject_id": "WCD10-B14-W104",
+            "field": "one_sentence_summary",
+            "value": "小说以巴西小镇为背景，讲述少女Maria da Gloria及其家庭经历；阿根廷文化部提供该书的概要。",
+            "source_refs": [
+              "WCD10-B14-S101"
+            ]
+          },
+          {
+            "candidate_id": "WCD10-B14-W104-F04",
+            "subject_id": "WCD10-B14-W104",
+            "field": "bibliographic_note",
+            "value": "阿根廷文化部机构文章记载《Sangre de amor correspondido》于1982年出版并列为普伊格作品；出版社作者书目列有该书。",
+            "source_refs": [
+              "WCD10-B14-S101"
+            ]
+          },
+          {
+            "candidate_id": "WCD10-B14-W105-F01",
+            "subject_id": "WCD10-B14-W105",
+            "field": "first_publication_year",
+            "value": "1988",
+            "source_refs": [
+              "WCD10-B14-S101"
+            ]
+          },
+          {
+            "candidate_id": "WCD10-B14-W105-F02",
+            "subject_id": "WCD10-B14-W105",
+            "field": "genre_or_form",
+            "value": "小说",
+            "source_refs": [
+              "WCD10-B14-S105"
+            ]
+          },
+          {
+            "candidate_id": "WCD10-B14-W105-F03",
+            "subject_id": "WCD10-B14-W105",
+            "field": "one_sentence_summary",
+            "value": "出版社简介以里约热内卢为背景，写两位年长的阿根廷姐妹谈及一位年轻流亡邻居的情感经历，并以交谈和闲谈呈现故事。",
+            "source_refs": [
+              "WCD10-B14-S105"
+            ]
+          },
+          {
+            "candidate_id": "WCD10-B14-W105-F04",
+            "subject_id": "WCD10-B14-W105",
+            "field": "bibliographic_note",
+            "value": "阿根廷文化部与出版社书目均列作品及1988年；出版社作品页面支持此处有限情节概述。",
+            "source_refs": [
+              "WCD10-B14-S101",
+              "WCD10-B14-S105"
+            ]
+          }
+        ],
+        "research_status": "catalog_only",
+        "research_refs": [
+          "SRC-0225"
+        ],
+        "cards": [
+          {
+            "card_id": "V1-CARD-0172",
+            "origin_card_id": "",
+            "subject_id": "V1-ENT-0284",
+            "card_type": "author",
+            "title_zh": "曼努埃尔·普伊格",
+            "author_label": "曼努埃尔·普伊格",
+            "original_title": "Manuel Puig",
+            "country_or_region": "阿根廷",
+            "language": "es",
+            "period_bucket": "1932–1990",
+            "genre_or_form": "小说、剧本与戏剧",
+            "input_layer": "WEB-CE-B11",
+            "source_minimum_status": "meets",
+            "issue_code": "NONE",
+            "content_markdown": "### 曼努埃尔·普伊格｜Manuel Puig — 以国家图书馆与布宜诺斯艾利斯图书馆资料建立阿根廷小说入口。"
+          }
+        ],
+        "card_facts": [
+          {
+            "card_id": "V1-CARD-0172",
+            "fact_id": "V1-FCT-0732",
+            "admission_status": "candidate_for_staging_review"
+          },
+          {
+            "card_id": "V1-CARD-0172",
+            "fact_id": "V1-FCT-0733",
+            "admission_status": "candidate_for_staging_review"
+          },
+          {
+            "card_id": "V1-CARD-0172",
+            "fact_id": "V1-FCT-0734",
+            "admission_status": "candidate_for_staging_review"
+          },
+          {
+            "card_id": "V1-CARD-0172",
+            "fact_id": "V1-FCT-0735",
+            "admission_status": "candidate_for_staging_review"
+          },
+          {
+            "card_id": "V1-CARD-0172",
+            "fact_id": "V1-FCT-0736",
+            "admission_status": "candidate_for_staging_review"
+          },
+          {
+            "card_id": "V1-CARD-0172",
+            "fact_id": "V1-FCT-0737",
+            "admission_status": "candidate_for_staging_review"
+          }
+        ],
+        "card_sources": [
+          {
+            "card_source_id": "V1-CS-0344",
+            "origin_matrix_id": "",
+            "card_id": "V1-CARD-0172",
+            "source_id": "SRC-0225",
+            "source_level": "B",
+            "source_role": "both",
+            "bibliographic_support": "yes",
+            "research_support": "yes",
+            "independent_source_key": "SRC-0225",
+            "usage_status": "used",
+            "issue_code": "NONE"
+          },
+          {
+            "card_source_id": "V1-CS-0345",
+            "origin_matrix_id": "",
+            "card_id": "V1-CARD-0172",
+            "source_id": "SRC-0226",
+            "source_level": "B",
+            "source_role": "both",
+            "bibliographic_support": "yes",
+            "research_support": "yes",
+            "independent_source_key": "SRC-0226",
+            "usage_status": "used",
+            "issue_code": "NONE"
+          }
+        ],
+        "relationship_sources": [
+          {
+            "relationship_id": "V1-REL-0212",
+            "source_id": "SRC-0225"
+          },
+          {
+            "relationship_id": "V1-REL-0213",
+            "source_id": "SRC-0225"
+          },
+          {
+            "relationship_id": "V1-REL-0214",
+            "source_id": "SRC-0225"
+          },
+          {
+            "relationship_id": "V1-REL-0221",
+            "source_id": "SRC-0225"
+          }
+        ],
+        "relationship_evidence": [
+          {
+            "evidence_id": "V1-EV-0237",
+            "relationship_id": "V1-REL-0212",
+            "origin_evidence_id": "CAND-B11-0212",
+            "source_id": "SRC-0225",
+            "source_title": "28 de diciembre de 1932: nace Manuel Puig — Biblioteca Nacional",
+            "locator": "",
+            "evidence_note": "Biblioteca Nacional page lists El beso de la mujer araña as a Puig work.",
+            "confidence": "high",
+            "evidence_status": "eligible_evidence",
+            "evidence_origin": "WEB-CE-B11"
+          },
+          {
+            "evidence_id": "V1-EV-0238",
+            "relationship_id": "V1-REL-0213",
+            "origin_evidence_id": "CAND-B11-0213",
+            "source_id": "SRC-0225",
+            "source_title": "28 de diciembre de 1932: nace Manuel Puig — Biblioteca Nacional",
+            "locator": "",
+            "evidence_note": "Biblioteca Nacional page lists La traición de Rita Hayworth as Puig first novel.",
+            "confidence": "high",
+            "evidence_status": "eligible_evidence",
+            "evidence_origin": "WEB-CE-B11"
+          },
+          {
+            "evidence_id": "V1-EV-0239",
+            "relationship_id": "V1-REL-0214",
+            "origin_evidence_id": "CAND-B11-0214",
+            "source_id": "SRC-0225",
+            "source_title": "28 de diciembre de 1932: nace Manuel Puig — Biblioteca Nacional",
+            "locator": "",
+            "evidence_note": "Biblioteca Nacional page lists Boquitas pintadas as a Puig work.",
+            "confidence": "high",
+            "evidence_status": "eligible_evidence",
+            "evidence_origin": "WEB-CE-B11"
+          },
+          {
+            "evidence_id": "V1-EV-0246",
+            "relationship_id": "V1-REL-0221",
+            "origin_evidence_id": "CAND-B11-0221",
+            "source_id": "SRC-0225",
+            "source_title": "28 de diciembre de 1932: nace Manuel Puig — Biblioteca Nacional",
+            "locator": "",
+            "evidence_note": "Biblioteca Nacional identifies Puig as Argentine.",
+            "confidence": "high",
+            "evidence_status": "eligible_evidence",
+            "evidence_origin": "WEB-CE-B11"
+          }
+        ],
+        "holds": [],
+        "gaps": []
+      }
+    },
+    "author_results_by_id": {
+      "V1-ENT-0284": "候选包，待独立审核。"
+    },
+    "author_snapshots_by_id": {
+      "V1-ENT-0284": {
+        "entity": {
+          "entity_id": "V1-ENT-0284",
+          "entity_type": "author",
+          "name_zh": "曼努埃尔·普伊格",
+          "original_name": "Manuel Puig",
+          "canonical_status": "candidate",
+          "origin_count": "1",
+          "origin_refs": "CAND-B11-PUIG-AUTHOR",
+          "normalization_basis": "B11 Biblioteca Nacional and Buenos Aires library catalog; Chinese display candidate",
+          "issue_codes": "NONE"
+        },
+        "facts": [
+          {
+            "fact_id": "V1-FCT-0732",
+            "origin_material_id": "WEB-CE-B11",
+            "card_id": "V1-CARD-0172",
+            "subject_id": "V1-ENT-0284",
+            "fact_field": "birth_year",
+            "value_text": "1932",
+            "material_class": "fact",
+            "origin_id": "SRC-0225",
+            "confidence": "high",
+            "admission_status": "candidate_for_staging_review",
+            "usage_note": "Biblioteca Nacional page records Puig born in 1932."
+          },
+          {
+            "fact_id": "V1-FCT-0733",
+            "origin_material_id": "WEB-CE-B11",
+            "card_id": "V1-CARD-0172",
+            "subject_id": "V1-ENT-0284",
+            "fact_field": "death_year",
+            "value_text": "1990",
+            "material_class": "fact",
+            "origin_id": "SRC-0225",
+            "confidence": "high",
+            "admission_status": "candidate_for_staging_review",
+            "usage_note": "Biblioteca Nacional page records Puig died in 1990."
+          },
+          {
+            "fact_id": "V1-FCT-0734",
+            "origin_material_id": "WEB-CE-B11",
+            "card_id": "V1-CARD-0172",
+            "subject_id": "V1-ENT-0284",
+            "fact_field": "birth_place",
+            "value_text": "将军维列加斯（General Villegas）",
+            "material_class": "fact",
+            "origin_id": "SRC-0225",
+            "confidence": "high",
+            "admission_status": "candidate_for_staging_review",
+            "usage_note": "Biblioteca Nacional page names General Villegas as birthplace."
+          },
+          {
+            "fact_id": "V1-FCT-0735",
+            "origin_material_id": "WEB-CE-B11",
+            "card_id": "V1-CARD-0172",
+            "subject_id": "V1-ENT-0284",
+            "fact_field": "country_or_region",
+            "value_text": "阿根廷",
+            "material_class": "fact",
+            "origin_id": "SRC-0225",
+            "confidence": "high",
+            "admission_status": "candidate_for_staging_review",
+            "usage_note": "Biblioteca Nacional presents Puig as an Argentine author."
+          },
+          {
+            "fact_id": "V1-FCT-0736",
+            "origin_material_id": "WEB-CE-B11",
+            "card_id": "V1-CARD-0172",
+            "subject_id": "V1-ENT-0284",
+            "fact_field": "career_note",
+            "value_text": "小说家、编剧与剧作家",
+            "material_class": "fact",
+            "origin_id": "SRC-0225",
+            "confidence": "high",
+            "admission_status": "candidate_for_staging_review",
+            "usage_note": "Biblioteca Nacional describes Puig as novelist, screenwriter and playwright."
+          },
+          {
+            "fact_id": "V1-FCT-0737",
+            "origin_material_id": "WEB-CE-B11",
+            "card_id": "V1-CARD-0172",
+            "subject_id": "V1-ENT-0284",
+            "fact_field": "literary_identity",
+            "value_text": "小说、剧本与戏剧作者",
+            "material_class": "fact",
+            "origin_id": "SRC-0225",
+            "confidence": "medium",
+            "admission_status": "candidate_for_staging_review",
+            "usage_note": "Description is a conservative synthesis of the listed roles."
+          }
+        ],
+        "relations": [
+          {
+            "relationship_id": "V1-REL-0212",
+            "origin_layer": "WEB-CE-B11",
+            "origin_relation_group_id": "CAND-B11-0212",
+            "subject_id": "V1-ENT-0284",
+            "relation_type": "CREATED",
+            "object_id": "V1-ENT-0287",
+            "description_zh": "曼努埃尔·普伊格创作《蜘蛛女之吻》（El beso de la mujer araña）",
+            "confidence": "high",
+            "review_status": "accepted",
+            "upstream_review_status": "WEB-CE-B11",
+            "evidence_count": "1",
+            "issue_code": "NONE"
+          },
+          {
+            "relationship_id": "V1-REL-0213",
+            "origin_layer": "WEB-CE-B11",
+            "origin_relation_group_id": "CAND-B11-0213",
+            "subject_id": "V1-ENT-0284",
+            "relation_type": "CREATED",
+            "object_id": "V1-ENT-0288",
+            "description_zh": "曼努埃尔·普伊格创作《丽塔·海华丝的背叛》（La traición de Rita Hayworth）",
+            "confidence": "high",
+            "review_status": "accepted",
+            "upstream_review_status": "WEB-CE-B11",
+            "evidence_count": "1",
+            "issue_code": "NONE"
+          },
+          {
+            "relationship_id": "V1-REL-0214",
+            "origin_layer": "WEB-CE-B11",
+            "origin_relation_group_id": "CAND-B11-0214",
+            "subject_id": "V1-ENT-0284",
+            "relation_type": "CREATED",
+            "object_id": "V1-ENT-0289",
+            "description_zh": "曼努埃尔·普伊格创作《红唇》（Boquitas pintadas）",
+            "confidence": "high",
+            "review_status": "accepted",
+            "upstream_review_status": "WEB-CE-B11",
+            "evidence_count": "1",
+            "issue_code": "NONE"
+          },
+          {
+            "relationship_id": "V1-REL-0221",
+            "origin_layer": "WEB-CE-B11",
+            "origin_relation_group_id": "CAND-B11-0221",
+            "subject_id": "V1-ENT-0284",
+            "relation_type": "ASSOCIATED_WITH_PLACE",
+            "object_id": "V1-ENT-0001",
+            "description_zh": "曼努埃尔·普伊格与阿根廷关联",
+            "confidence": "high",
+            "review_status": "accepted",
+            "upstream_review_status": "WEB-CE-B11",
+            "evidence_count": "1",
+            "issue_code": "NONE"
+          }
+        ],
+        "holds": [],
+        "gaps": []
+      }
+    },
+    "objects": [
+      {
+        "object_ref": "V1-ENT-0281",
+        "entity": {
+          "entity_id": "V1-ENT-0281",
+          "entity_type": "work",
+          "name_zh": "《女俘爱玛》",
+          "original_name": "Ema la cautiva",
+          "canonical_status": "candidate",
+          "origin_count": "1",
+          "origin_refs": "CAND-B10-AIRA-W01",
+          "normalization_basis": "B10 Konex and UNLP research; work layer",
+          "issue_codes": "NONE"
+        },
+        "bibliography": "既有对象书目事实按B14冻结库逐值保全。",
+        "description": "既有对象描述本批不改写，冻结库卡片内容完整保留。",
+        "research_status": "catalog_only",
+        "research_refs": [
+          "SRC-0221",
+          "SRC-0223"
+        ],
+        "old_facts": [
+          {
+            "fact": {
+              "fact_id": "V1-FCT-0722",
+              "origin_material_id": "WEB-CE-B10",
+              "card_id": "V1-CARD-0169",
+              "subject_id": "V1-ENT-0281",
+              "fact_field": "entity_layer",
+              "value_text": "work",
+              "material_class": "metadata",
+              "origin_id": "SRC-0223",
+              "confidence": "high",
+              "admission_status": "candidate_for_staging_review",
+              "usage_note": "UNLP research identifies Ema la cautiva as a novel."
+            },
+            "source_chain": [
+              {
+                "fact_id": "V1-FCT-0722",
+                "source_id": "SRC-0223",
+                "source_title": "La trayectoria temprana de César Aira en textos de publicaciones periódicas"
+              }
+            ]
+          },
+          {
+            "fact": {
+              "fact_id": "V1-FCT-0723",
+              "origin_material_id": "WEB-CE-B10",
+              "card_id": "V1-CARD-0169",
+              "subject_id": "V1-ENT-0281",
+              "fact_field": "first_publication_year",
+              "value_text": "1981",
+              "material_class": "bibliographic",
+              "origin_id": "SRC-0223",
+              "confidence": "high",
+              "admission_status": "candidate_for_staging_review",
+              "usage_note": "UNLP research records first publication in 1981."
+            },
+            "source_chain": [
+              {
+                "fact_id": "V1-FCT-0723",
+                "source_id": "SRC-0223",
+                "source_title": "La trayectoria temprana de César Aira en textos de publicaciones periódicas"
+              }
+            ]
+          },
+          {
+            "fact": {
+              "fact_id": "V1-FCT-0724",
+              "origin_material_id": "WEB-CE-B10",
+              "card_id": "V1-CARD-0169",
+              "subject_id": "V1-ENT-0281",
+              "fact_field": "bibliographic_note",
+              "value_text": "Konex 目录与 UNLP 研究直接列出 Ema la cautiva 题名与 1981 年。",
+              "material_class": "bibliographic",
+              "origin_id": "SRC-0223",
+              "confidence": "high",
+              "admission_status": "candidate_for_staging_review",
+              "usage_note": "Sources support title, novel layer and year only."
+            },
+            "source_chain": [
+              {
+                "fact_id": "V1-FCT-0724",
+                "source_id": "SRC-0223",
+                "source_title": "La trayectoria temprana de César Aira en textos de publicaciones periódicas"
+              }
+            ]
+          }
+        ],
+        "cards": [
+          {
+            "card_id": "V1-CARD-0169",
+            "origin_card_id": "",
+            "subject_id": "V1-ENT-0281",
+            "card_type": "work",
+            "title_zh": "《女俘爱玛》",
+            "author_label": "塞萨尔·艾拉",
+            "original_title": "Ema la cautiva",
+            "country_or_region": "阿根廷",
+            "language": "es",
+            "period_bucket": "1981",
+            "genre_or_form": "小说",
+            "input_layer": "WEB-CE-B10",
+            "source_minimum_status": "meets",
+            "issue_code": "NONE",
+            "content_markdown": "### 《女俘爱玛》｜Ema la cautiva — UNLP 研究资料记录 1981 年出版。"
+          }
+        ],
+        "card_facts": [
+          {
+            "card_id": "V1-CARD-0169",
+            "fact_id": "V1-FCT-0722",
+            "admission_status": "candidate_for_staging_review"
+          },
+          {
+            "card_id": "V1-CARD-0169",
+            "fact_id": "V1-FCT-0723",
+            "admission_status": "candidate_for_staging_review"
+          },
+          {
+            "card_id": "V1-CARD-0169",
+            "fact_id": "V1-FCT-0724",
+            "admission_status": "candidate_for_staging_review"
+          }
+        ],
+        "card_sources": [
+          {
+            "card_source_id": "V1-CS-0337",
+            "origin_matrix_id": "",
+            "card_id": "V1-CARD-0169",
+            "source_id": "SRC-0221",
+            "source_level": "B",
+            "source_role": "both",
+            "bibliographic_support": "yes",
+            "research_support": "yes",
+            "independent_source_key": "SRC-0221",
+            "usage_status": "used",
+            "issue_code": "NONE"
+          },
+          {
+            "card_source_id": "V1-CS-0338",
+            "origin_matrix_id": "",
+            "card_id": "V1-CARD-0169",
+            "source_id": "SRC-0223",
+            "source_level": "A",
+            "source_role": "both",
+            "bibliographic_support": "yes",
+            "research_support": "yes",
+            "independent_source_key": "SRC-0223",
+            "usage_status": "used",
+            "issue_code": "NONE"
+          }
+        ],
+        "relations": [
+          {
+            "relationship_id": "V1-REL-0206",
+            "origin_layer": "WEB-CE-B10",
+            "origin_relation_group_id": "CAND-B10-0206",
+            "subject_id": "V1-ENT-0274",
+            "relation_type": "CREATED",
+            "object_id": "V1-ENT-0281",
+            "description_zh": "塞萨尔·艾拉 创作 《女俘爱玛》（Ema la cautiva）",
+            "confidence": "high",
+            "review_status": "accepted",
+            "upstream_review_status": "WEB-CE-B10",
+            "evidence_count": "1",
+            "issue_code": "NONE"
+          }
+        ],
+        "relationship_sources": [
+          {
+            "relationship_id": "V1-REL-0206",
+            "source_id": "SRC-0223"
+          }
+        ],
+        "relationship_evidence": [
+          {
+            "evidence_id": "V1-EV-0231",
+            "relationship_id": "V1-REL-0206",
+            "origin_evidence_id": "CAND-B10-0206",
+            "source_id": "SRC-0223",
+            "source_title": "La trayectoria temprana de César Aira en textos de publicaciones periódicas",
+            "locator": "",
+            "evidence_note": "UNLP research identifies Ema la cautiva as Aira work.",
+            "confidence": "high",
+            "evidence_status": "eligible_evidence",
+            "evidence_origin": "WEB-CE-B10"
+          }
+        ],
+        "source_objects": [
+          {
+            "source_id": "SRC-0221",
+            "temporary_id": "B10-SRC-0221",
+            "title": "César Aira — Fundación Konex",
+            "original_title": "César Aira",
+            "author_or_editor": "Fundación Konex",
+            "translator": "",
+            "publisher": "Fundación Konex",
+            "publication_year": "",
+            "isbn": "",
+            "format": "web_page",
+            "page_count": "",
+            "language": "es",
+            "source_level": "B",
+            "processing_status": "access_pass",
+            "source_task": "WEB-CE-B10",
+            "public_content_scope": "Aira identity and works catalogue",
+            "local_asset_status": "remote_only",
+            "persistent_id": "",
+            "canonical_url": "https://www.fundacionkonex.org/b2344-cesar-aira"
+          },
+          {
+            "source_id": "SRC-0223",
+            "temporary_id": "B10-SRC-0223",
+            "title": "La trayectoria temprana de César Aira en textos de publicaciones periódicas",
+            "original_title": "La trayectoria temprana de César Aira en textos de publicaciones periódicas",
+            "author_or_editor": "María Belén Riveiro",
+            "translator": "",
+            "publisher": "Universidad Nacional de La Plata",
+            "publication_year": "2018",
+            "isbn": "",
+            "format": "pdf",
+            "page_count": "",
+            "language": "es",
+            "source_level": "A",
+            "processing_status": "access_pass",
+            "source_task": "WEB-CE-B10",
+            "public_content_scope": "Ema la cautiva first publication in 1981",
+            "local_asset_status": "remote_only",
+            "persistent_id": "",
+            "canonical_url": "https://www.memoria.fahce.unlp.edu.ar/trab_eventos/ev.11711/ev.11711.pdf"
+          }
+        ],
+        "holds": [],
+        "relation_hold_evidence": [],
+        "gaps": [],
+        "fresh_review": [],
+        "remaining": "未在本轮完成作品全集/学术覆盖审查；仅保留冻结库已链接作品，后续继续查重补证。",
+        "source_author_id": "V1-ENT-0274",
+        "candidate_facts": [],
+        "formal_subject_id": "V1-ENT-0281",
+        "gap_id": "V1-GAP-0501"
+      },
+      {
+        "object_ref": "V1-ENT-0282",
+        "entity": {
+          "entity_id": "V1-ENT-0282",
+          "entity_type": "work",
+          "name_zh": "《中国小说》",
+          "original_name": "Una novela china",
+          "canonical_status": "candidate",
+          "origin_count": "1",
+          "origin_refs": "CAND-B10-AIRA-W02",
+          "normalization_basis": "B10 Konex and university journal research; work layer",
+          "issue_codes": "NONE"
+        },
+        "bibliography": "既有对象书目事实按B14冻结库逐值保全。",
+        "description": "既有对象描述本批不改写，冻结库卡片内容完整保留。",
+        "research_status": "catalog_only",
+        "research_refs": [
+          "SRC-0221",
+          "SRC-0222"
+        ],
+        "old_facts": [
+          {
+            "fact": {
+              "fact_id": "V1-FCT-0725",
+              "origin_material_id": "WEB-CE-B10",
+              "card_id": "V1-CARD-0170",
+              "subject_id": "V1-ENT-0282",
+              "fact_field": "entity_layer",
+              "value_text": "work",
+              "material_class": "metadata",
+              "origin_id": "SRC-0222",
+              "confidence": "high",
+              "admission_status": "candidate_for_staging_review",
+              "usage_note": "University literature article identifies Una novela china as a novel."
+            },
+            "source_chain": [
+              {
+                "fact_id": "V1-FCT-0725",
+                "source_id": "SRC-0222",
+                "source_title": "Orientalismo, globalización e imaginarios transpacíficos en la novela latinoamericana actual"
+              }
+            ]
+          },
+          {
+            "fact": {
+              "fact_id": "V1-FCT-0726",
+              "origin_material_id": "WEB-CE-B10",
+              "card_id": "V1-CARD-0170",
+              "subject_id": "V1-ENT-0282",
+              "fact_field": "first_publication_year",
+              "value_text": "1987",
+              "material_class": "bibliographic",
+              "origin_id": "SRC-0222",
+              "confidence": "high",
+              "admission_status": "candidate_for_staging_review",
+              "usage_note": "University literature article records 1987."
+            },
+            "source_chain": [
+              {
+                "fact_id": "V1-FCT-0726",
+                "source_id": "SRC-0222",
+                "source_title": "Orientalismo, globalización e imaginarios transpacíficos en la novela latinoamericana actual"
+              }
+            ]
+          },
+          {
+            "fact": {
+              "fact_id": "V1-FCT-0727",
+              "origin_material_id": "WEB-CE-B10",
+              "card_id": "V1-CARD-0170",
+              "subject_id": "V1-ENT-0282",
+              "fact_field": "bibliographic_note",
+              "value_text": "Konex 目录与大学文学论文直接列出 Una novela china 题名。",
+              "material_class": "bibliographic",
+              "origin_id": "SRC-0222",
+              "confidence": "high",
+              "admission_status": "candidate_for_staging_review",
+              "usage_note": "Sources support title, novel layer and year only."
+            },
+            "source_chain": [
+              {
+                "fact_id": "V1-FCT-0727",
+                "source_id": "SRC-0222",
+                "source_title": "Orientalismo, globalización e imaginarios transpacíficos en la novela latinoamericana actual"
+              }
+            ]
+          }
+        ],
+        "cards": [
+          {
+            "card_id": "V1-CARD-0170",
+            "origin_card_id": "",
+            "subject_id": "V1-ENT-0282",
+            "card_type": "work",
+            "title_zh": "《中国小说》",
+            "author_label": "塞萨尔·艾拉",
+            "original_title": "Una novela china",
+            "country_or_region": "阿根廷",
+            "language": "es",
+            "period_bucket": "1987",
+            "genre_or_form": "小说",
+            "input_layer": "WEB-CE-B10",
+            "source_minimum_status": "meets",
+            "issue_code": "NONE",
+            "content_markdown": "### 《中国小说》｜Una novela china — 大学文学研究记录 1987 年出版。"
+          }
+        ],
+        "card_facts": [
+          {
+            "card_id": "V1-CARD-0170",
+            "fact_id": "V1-FCT-0725",
+            "admission_status": "candidate_for_staging_review"
+          },
+          {
+            "card_id": "V1-CARD-0170",
+            "fact_id": "V1-FCT-0726",
+            "admission_status": "candidate_for_staging_review"
+          },
+          {
+            "card_id": "V1-CARD-0170",
+            "fact_id": "V1-FCT-0727",
+            "admission_status": "candidate_for_staging_review"
+          }
+        ],
+        "card_sources": [
+          {
+            "card_source_id": "V1-CS-0339",
+            "origin_matrix_id": "",
+            "card_id": "V1-CARD-0170",
+            "source_id": "SRC-0221",
+            "source_level": "B",
+            "source_role": "both",
+            "bibliographic_support": "yes",
+            "research_support": "yes",
+            "independent_source_key": "SRC-0221",
+            "usage_status": "used",
+            "issue_code": "NONE"
+          },
+          {
+            "card_source_id": "V1-CS-0340",
+            "origin_matrix_id": "",
+            "card_id": "V1-CARD-0170",
+            "source_id": "SRC-0222",
+            "source_level": "A",
+            "source_role": "both",
+            "bibliographic_support": "yes",
+            "research_support": "yes",
+            "independent_source_key": "SRC-0222",
+            "usage_status": "used",
+            "issue_code": "NONE"
+          }
+        ],
+        "relations": [
+          {
+            "relationship_id": "V1-REL-0207",
+            "origin_layer": "WEB-CE-B10",
+            "origin_relation_group_id": "CAND-B10-0207",
+            "subject_id": "V1-ENT-0274",
+            "relation_type": "CREATED",
+            "object_id": "V1-ENT-0282",
+            "description_zh": "塞萨尔·艾拉 创作 《中国小说》（Una novela china）",
+            "confidence": "high",
+            "review_status": "accepted",
+            "upstream_review_status": "WEB-CE-B10",
+            "evidence_count": "1",
+            "issue_code": "NONE"
+          }
+        ],
+        "relationship_sources": [
+          {
+            "relationship_id": "V1-REL-0207",
+            "source_id": "SRC-0222"
+          }
+        ],
+        "relationship_evidence": [
+          {
+            "evidence_id": "V1-EV-0232",
+            "relationship_id": "V1-REL-0207",
+            "origin_evidence_id": "CAND-B10-0207",
+            "source_id": "SRC-0222",
+            "source_title": "Orientalismo, globalización e imaginarios transpacíficos en la novela latinoamericana actual",
+            "locator": "",
+            "evidence_note": "University literature article identifies Una novela china by Aira.",
+            "confidence": "high",
+            "evidence_status": "eligible_evidence",
+            "evidence_origin": "WEB-CE-B10"
+          }
+        ],
+        "source_objects": [
+          {
+            "source_id": "SRC-0221",
+            "temporary_id": "B10-SRC-0221",
+            "title": "César Aira — Fundación Konex",
+            "original_title": "César Aira",
+            "author_or_editor": "Fundación Konex",
+            "translator": "",
+            "publisher": "Fundación Konex",
+            "publication_year": "",
+            "isbn": "",
+            "format": "web_page",
+            "page_count": "",
+            "language": "es",
+            "source_level": "B",
+            "processing_status": "access_pass",
+            "source_task": "WEB-CE-B10",
+            "public_content_scope": "Aira identity and works catalogue",
+            "local_asset_status": "remote_only",
+            "persistent_id": "",
+            "canonical_url": "https://www.fundacionkonex.org/b2344-cesar-aira"
+          },
+          {
+            "source_id": "SRC-0222",
+            "temporary_id": "B10-SRC-0222",
+            "title": "Orientalismo, globalización e imaginarios transpacíficos en la novela latinoamericana actual",
+            "original_title": "Orientalismo, globalización e imaginarios transpacíficos en la novela latinoamericana actual",
+            "author_or_editor": "Héctor Hoyos",
+            "translator": "",
+            "publisher": "Pontificia Universidad Javeriana",
+            "publication_year": "2013",
+            "isbn": "",
+            "format": "pdf",
+            "page_count": "",
+            "language": "es",
+            "source_level": "A",
+            "processing_status": "access_pass",
+            "source_task": "WEB-CE-B10",
+            "public_content_scope": "Una novela china title and 1987 publication year",
+            "local_asset_status": "remote_only",
+            "persistent_id": "",
+            "canonical_url": "https://dialnet.unirioja.es/descarga/articulo/5228514.pdf"
+          }
+        ],
+        "holds": [],
+        "relation_hold_evidence": [],
+        "gaps": [],
+        "fresh_review": [],
+        "remaining": "未在本轮完成作品全集/学术覆盖审查；仅保留冻结库已链接作品，后续继续查重补证。",
+        "source_author_id": "V1-ENT-0274",
+        "candidate_facts": [],
+        "formal_subject_id": "V1-ENT-0282",
+        "gap_id": "V1-GAP-0502"
+      },
+      {
+        "object_ref": "V1-ENT-0283",
+        "entity": {
+          "entity_id": "V1-ENT-0283",
+          "entity_type": "work",
+          "name_zh": "《文学大会》",
+          "original_name": "El congreso de literatura",
+          "canonical_status": "candidate",
+          "origin_count": "1",
+          "origin_refs": "CAND-B10-AIRA-W03",
+          "normalization_basis": "B10 Konex and peer-reviewed research; work layer",
+          "issue_codes": "NONE"
+        },
+        "bibliography": "既有对象书目事实按B14冻结库逐值保全。",
+        "description": "既有对象描述本批不改写，冻结库卡片内容完整保留。",
+        "research_status": "catalog_only",
+        "research_refs": [
+          "SRC-0221",
+          "SRC-0224"
+        ],
+        "old_facts": [
+          {
+            "fact": {
+              "fact_id": "V1-FCT-0728",
+              "origin_material_id": "WEB-CE-B10",
+              "card_id": "V1-CARD-0171",
+              "subject_id": "V1-ENT-0283",
+              "fact_field": "entity_layer",
+              "value_text": "work",
+              "material_class": "metadata",
+              "origin_id": "SRC-0224",
+              "confidence": "high",
+              "admission_status": "candidate_for_staging_review",
+              "usage_note": "Peer-reviewed article identifies El congreso de literatura as a short novel."
+            },
+            "source_chain": [
+              {
+                "fact_id": "V1-FCT-0728",
+                "source_id": "SRC-0224",
+                "source_title": "La figura del gran autor o Carlos Fuentes devenido monstruosidad genética en El congreso de literatura de César Aira"
+              }
+            ]
+          },
+          {
+            "fact": {
+              "fact_id": "V1-FCT-0729",
+              "origin_material_id": "WEB-CE-B10",
+              "card_id": "V1-CARD-0171",
+              "subject_id": "V1-ENT-0283",
+              "fact_field": "first_publication_year",
+              "value_text": "1997",
+              "material_class": "bibliographic",
+              "origin_id": "SRC-0224",
+              "confidence": "high",
+              "admission_status": "candidate_for_staging_review",
+              "usage_note": "Peer-reviewed article records 1997 and the Mérida first edition context."
+            },
+            "source_chain": [
+              {
+                "fact_id": "V1-FCT-0729",
+                "source_id": "SRC-0224",
+                "source_title": "La figura del gran autor o Carlos Fuentes devenido monstruosidad genética en El congreso de literatura de César Aira"
+              }
+            ]
+          },
+          {
+            "fact": {
+              "fact_id": "V1-FCT-0730",
+              "origin_material_id": "WEB-CE-B10",
+              "card_id": "V1-CARD-0171",
+              "subject_id": "V1-ENT-0283",
+              "fact_field": "bibliographic_note",
+              "value_text": "Konex 目录与学术论文直接列出 El congreso de literatura 题名；论文补充 1997 年首版地点。",
+              "material_class": "bibliographic",
+              "origin_id": "SRC-0224",
+              "confidence": "high",
+              "admission_status": "candidate_for_staging_review",
+              "usage_note": "Sources support title, novel layer and year only."
+            },
+            "source_chain": [
+              {
+                "fact_id": "V1-FCT-0730",
+                "source_id": "SRC-0224",
+                "source_title": "La figura del gran autor o Carlos Fuentes devenido monstruosidad genética en El congreso de literatura de César Aira"
+              }
+            ]
+          }
+        ],
+        "cards": [
+          {
+            "card_id": "V1-CARD-0171",
+            "origin_card_id": "",
+            "subject_id": "V1-ENT-0283",
+            "card_type": "work",
+            "title_zh": "《文学大会》",
+            "author_label": "塞萨尔·艾拉",
+            "original_title": "El congreso de literatura",
+            "country_or_region": "阿根廷",
+            "language": "es",
+            "period_bucket": "1997",
+            "genre_or_form": "小说",
+            "input_layer": "WEB-CE-B10",
+            "source_minimum_status": "meets",
+            "issue_code": "NONE",
+            "content_markdown": "### 《文学大会》｜El congreso de literatura — 学术研究记录 1997 年梅里达首版。"
+          }
+        ],
+        "card_facts": [
+          {
+            "card_id": "V1-CARD-0171",
+            "fact_id": "V1-FCT-0728",
+            "admission_status": "candidate_for_staging_review"
+          },
+          {
+            "card_id": "V1-CARD-0171",
+            "fact_id": "V1-FCT-0729",
+            "admission_status": "candidate_for_staging_review"
+          },
+          {
+            "card_id": "V1-CARD-0171",
+            "fact_id": "V1-FCT-0730",
+            "admission_status": "candidate_for_staging_review"
+          }
+        ],
+        "card_sources": [
+          {
+            "card_source_id": "V1-CS-0341",
+            "origin_matrix_id": "",
+            "card_id": "V1-CARD-0171",
+            "source_id": "SRC-0221",
+            "source_level": "B",
+            "source_role": "both",
+            "bibliographic_support": "yes",
+            "research_support": "yes",
+            "independent_source_key": "SRC-0221",
+            "usage_status": "used",
+            "issue_code": "NONE"
+          },
+          {
+            "card_source_id": "V1-CS-0342",
+            "origin_matrix_id": "",
+            "card_id": "V1-CARD-0171",
+            "source_id": "SRC-0224",
+            "source_level": "A",
+            "source_role": "both",
+            "bibliographic_support": "yes",
+            "research_support": "yes",
+            "independent_source_key": "SRC-0224",
+            "usage_status": "used",
+            "issue_code": "NONE"
+          }
+        ],
+        "relations": [
+          {
+            "relationship_id": "V1-REL-0208",
+            "origin_layer": "WEB-CE-B10",
+            "origin_relation_group_id": "CAND-B10-0208",
+            "subject_id": "V1-ENT-0274",
+            "relation_type": "CREATED",
+            "object_id": "V1-ENT-0283",
+            "description_zh": "塞萨尔·艾拉 创作 《文学大会》（El congreso de literatura）",
+            "confidence": "high",
+            "review_status": "accepted",
+            "upstream_review_status": "WEB-CE-B10",
+            "evidence_count": "1",
+            "issue_code": "NONE"
+          }
+        ],
+        "relationship_sources": [
+          {
+            "relationship_id": "V1-REL-0208",
+            "source_id": "SRC-0224"
+          }
+        ],
+        "relationship_evidence": [
+          {
+            "evidence_id": "V1-EV-0233",
+            "relationship_id": "V1-REL-0208",
+            "origin_evidence_id": "CAND-B10-0208",
+            "source_id": "SRC-0224",
+            "source_title": "La figura del gran autor o Carlos Fuentes devenido monstruosidad genética en El congreso de literatura de César Aira",
+            "locator": "",
+            "evidence_note": "Peer-reviewed article identifies El congreso de literatura by Aira.",
+            "confidence": "high",
+            "evidence_status": "eligible_evidence",
+            "evidence_origin": "WEB-CE-B10"
+          }
+        ],
+        "source_objects": [
+          {
+            "source_id": "SRC-0221",
+            "temporary_id": "B10-SRC-0221",
+            "title": "César Aira — Fundación Konex",
+            "original_title": "César Aira",
+            "author_or_editor": "Fundación Konex",
+            "translator": "",
+            "publisher": "Fundación Konex",
+            "publication_year": "",
+            "isbn": "",
+            "format": "web_page",
+            "page_count": "",
+            "language": "es",
+            "source_level": "B",
+            "processing_status": "access_pass",
+            "source_task": "WEB-CE-B10",
+            "public_content_scope": "Aira identity and works catalogue",
+            "local_asset_status": "remote_only",
+            "persistent_id": "",
+            "canonical_url": "https://www.fundacionkonex.org/b2344-cesar-aira"
+          },
+          {
+            "source_id": "SRC-0224",
+            "temporary_id": "B10-SRC-0224",
+            "title": "La figura del gran autor o Carlos Fuentes devenido monstruosidad genética en El congreso de literatura de César Aira",
+            "original_title": "La figura del gran autor",
+            "author_or_editor": "Enrique Schmukler",
+            "translator": "",
+            "publisher": "Universidad Técnica de Manabí",
+            "publication_year": "2017",
+            "isbn": "",
+            "format": "pdf",
+            "page_count": "",
+            "language": "es",
+            "source_level": "A",
+            "processing_status": "access_pass",
+            "source_task": "WEB-CE-B10",
+            "public_content_scope": "El congreso de literatura 1997, first edition context and narrative setting",
+            "local_asset_status": "remote_only",
+            "persistent_id": "",
+            "canonical_url": "https://dialnet.unirioja.es/descarga/articulo/7047139.pdf"
+          }
+        ],
+        "holds": [],
+        "relation_hold_evidence": [],
+        "gaps": [],
+        "fresh_review": [],
+        "remaining": "未在本轮完成作品全集/学术覆盖审查；仅保留冻结库已链接作品，后续继续查重补证。",
+        "source_author_id": "V1-ENT-0274",
+        "candidate_facts": [],
+        "formal_subject_id": "V1-ENT-0283",
+        "gap_id": "V1-GAP-0503"
+      },
+      {
+        "object_ref": "WCD10-B14-W001",
+        "entity": {
+          "entity_id": "WCD10-B14-W001",
+          "entity_type": "work",
+          "name_zh": "《瓦拉莫》",
+          "original_name": "Varamo",
+          "canonical_status": "candidate",
+          "origin_count": "1",
+          "origin_refs": "WCD10-B14-W001",
+          "normalization_basis": "出版社直接作品页支持作品身份、版本信息与受限简介。",
+          "issue_codes": "NONE"
+        },
+        "bibliography": "Editorial Anagrama作品页将2002-02-01列为该版出版日期；此处作为出版社版本书目日期记录，不推定首版年份。",
+        "description": "作品围绕巴拿马低级公务员瓦拉莫展开：他在领薪后经历一连串日常琐事，随后写出一部后来被称为中美洲现代诗歌杰作的作品。",
+        "research_status": "institutional_commentary",
+        "research_refs": [
+          "WCD10-B14-S001"
+        ],
+        "old_facts": [],
+        "cards": [],
+        "card_facts": [],
+        "card_sources": [],
+        "relations": [],
+        "relationship_sources": [],
+        "relationship_evidence": [],
+        "source_objects": [],
+        "holds": [],
+        "relation_hold_evidence": [],
+        "gaps": [],
+        "fresh_review": "父级语义与来源审核待完成。",
+        "remaining": "未独立核定作品原始首发年；出版社版本日期单独注明。",
+        "source_author_id": "V1-ENT-0274",
+        "candidate_facts": [
+          {
+            "fact_candidate_id": "WCD10-B14-W001-F01",
+            "candidate_id": "WCD10-B14-W001-F01",
+            "field": "genre_or_form",
+            "value": "中篇小说（nouvelle）",
+            "source_refs": [
+              "WCD10-B14-S001"
+            ]
+          },
+          {
+            "fact_candidate_id": "WCD10-B14-W001-F02",
+            "candidate_id": "WCD10-B14-W001-F02",
+            "field": "one_sentence_summary",
+            "value": "作品围绕巴拿马低级公务员瓦拉莫展开：他在领薪后经历一连串日常琐事，随后写出一部后来被称为中美洲现代诗歌杰作的作品。",
+            "source_refs": [
+              "WCD10-B14-S001"
+            ]
+          },
+          {
+            "fact_candidate_id": "WCD10-B14-W001-F03",
+            "candidate_id": "WCD10-B14-W001-F03",
+            "field": "bibliographic_note",
+            "value": "Editorial Anagrama作品页将2002-02-01列为该版出版日期；此处作为出版社版本书目日期记录，不推定首版年份。",
+            "source_refs": [
+              "WCD10-B14-S001"
+            ]
+          }
+        ],
+        "formal_subject_id": "V1-ENT-0685",
+        "gap_id": "V1-GAP-0504"
+      },
+      {
+        "object_ref": "WCD10-B14-W002",
+        "entity": {
+          "entity_id": "WCD10-B14-W002",
+          "entity_type": "work",
+          "name_zh": "《我如何成为修女》",
+          "original_name": "Cómo me hice monja",
+          "canonical_status": "candidate",
+          "origin_count": "1",
+          "origin_refs": "WCD10-B14-W002",
+          "normalization_basis": "出版社直接作品页支持作品身份、版本信息与受限简介。",
+          "issue_codes": "NONE"
+        },
+        "bibliography": "New Directions出版社的独立作品页将此作作为单独书名出版，记录该英文版平装本出版于2008年2月1日；此为译本版本日期，不推定西语首版年份。",
+        "description": "作品以第一人称讲述一个六岁儿童的成长经历，叙述在记忆、现实与虚构之间展开。",
+        "research_status": "institutional_commentary",
+        "research_refs": [
+          "WCD10-B14-S002"
+        ],
+        "old_facts": [],
+        "cards": [],
+        "card_facts": [],
+        "card_sources": [],
+        "relations": [],
+        "relationship_sources": [],
+        "relationship_evidence": [],
+        "source_objects": [],
+        "holds": [],
+        "relation_hold_evidence": [],
+        "gaps": [],
+        "fresh_review": "父级语义与来源审核待完成。",
+        "remaining": "未独立核定作品原始首发年；出版社版本日期单独注明。",
+        "source_author_id": "V1-ENT-0274",
+        "candidate_facts": [
+          {
+            "fact_candidate_id": "WCD10-B14-W002-F01",
+            "candidate_id": "WCD10-B14-W002-F01",
+            "field": "genre_or_form",
+            "value": "小说",
+            "source_refs": [
+              "WCD10-B14-S002"
+            ]
+          },
+          {
+            "fact_candidate_id": "WCD10-B14-W002-F02",
+            "candidate_id": "WCD10-B14-W002-F02",
+            "field": "one_sentence_summary",
+            "value": "作品以第一人称讲述一个六岁儿童的成长经历，叙述在记忆、现实与虚构之间展开。",
+            "source_refs": [
+              "WCD10-B14-S002"
+            ]
+          },
+          {
+            "fact_candidate_id": "WCD10-B14-W002-F03",
+            "candidate_id": "WCD10-B14-W002-F03",
+            "field": "bibliographic_note",
+            "value": "New Directions出版社的独立作品页将此作作为单独书名出版，记录该英文版平装本出版于2008年2月1日；此为译本版本日期，不推定西语首版年份。",
+            "source_refs": [
+              "WCD10-B14-S002"
+            ]
+          }
+        ],
+        "formal_subject_id": "V1-ENT-0686",
+        "gap_id": "V1-GAP-0505"
+      },
+      {
+        "object_ref": "WCD10-B14-W003",
+        "entity": {
+          "entity_id": "WCD10-B14-W003",
+          "entity_type": "work",
+          "name_zh": "《旅行画家生涯中的一段插曲》",
+          "original_name": "Un episodio en la vida del pintor viajero",
+          "canonical_status": "candidate",
+          "origin_count": "1",
+          "origin_refs": "WCD10-B14-W003",
+          "normalization_basis": "出版社直接作品页支持作品身份、版本信息与受限简介。",
+          "issue_codes": "NONE"
+        },
+        "bibliography": "Penguin页面将本ISBN版本标为2005年6月；记录为出版社版本日期，不推定作品首发年。",
+        "description": "作品以旅行画家约翰·莫里茨·鲁根达斯为中心，描写他第二次美洲之行中从门多萨继续穿越潘帕斯平原的经历；这段旅程重塑其身体、视觉与人生。",
+        "research_status": "institutional_commentary",
+        "research_refs": [
+          "WCD10-B14-S003"
+        ],
+        "old_facts": [],
+        "cards": [],
+        "card_facts": [],
+        "card_sources": [],
+        "relations": [],
+        "relationship_sources": [],
+        "relationship_evidence": [],
+        "source_objects": [],
+        "holds": [],
+        "relation_hold_evidence": [],
+        "gaps": [],
+        "fresh_review": "父级语义与来源审核待完成。",
+        "remaining": "未独立核定作品原始首发年；出版社版本日期单独注明。",
+        "source_author_id": "V1-ENT-0274",
+        "candidate_facts": [
+          {
+            "fact_candidate_id": "WCD10-B14-W003-F01",
+            "candidate_id": "WCD10-B14-W003-F01",
+            "field": "genre_or_form",
+            "value": "小说",
+            "source_refs": [
+              "WCD10-B14-S003"
+            ]
+          },
+          {
+            "fact_candidate_id": "WCD10-B14-W003-F02",
+            "candidate_id": "WCD10-B14-W003-F02",
+            "field": "one_sentence_summary",
+            "value": "作品以旅行画家约翰·莫里茨·鲁根达斯为中心，描写他第二次美洲之行中从门多萨继续穿越潘帕斯平原的经历；这段旅程重塑其身体、视觉与人生。",
+            "source_refs": [
+              "WCD10-B14-S003"
+            ]
+          },
+          {
+            "fact_candidate_id": "WCD10-B14-W003-F03",
+            "candidate_id": "WCD10-B14-W003-F03",
+            "field": "bibliographic_note",
+            "value": "Penguin页面将本ISBN版本标为2005年6月；记录为出版社版本日期，不推定作品首发年。",
+            "source_refs": [
+              "WCD10-B14-S003"
+            ]
+          }
+        ],
+        "formal_subject_id": "V1-ENT-0687",
+        "gap_id": "V1-GAP-0506"
+      },
+      {
+        "object_ref": "V1-ENT-0287",
+        "entity": {
+          "entity_id": "V1-ENT-0287",
+          "entity_type": "work",
+          "name_zh": "《蜘蛛女之吻》",
+          "original_name": "El beso de la mujer araña",
+          "canonical_status": "candidate",
+          "origin_count": "1",
+          "origin_refs": "CAND-B11-PUIG-W01",
+          "normalization_basis": "B11 institutional bibliography; work layer",
+          "issue_codes": "NONE"
+        },
+        "bibliography": "按冻结基线逐值保全既有书目事实。",
+        "description": "既有作品描述未在本轮改写。",
+        "research_status": "catalog_only",
+        "research_refs": [
+          "SRC-0225",
+          "SRC-0226"
+        ],
+        "old_facts": [
+          {
+            "fact": {
+              "fact_id": "V1-FCT-0738",
+              "origin_material_id": "WEB-CE-B11",
+              "card_id": "V1-CARD-0175",
+              "subject_id": "V1-ENT-0287",
+              "fact_field": "entity_layer",
+              "value_text": "work",
+              "material_class": "metadata",
+              "origin_id": "SRC-0226",
+              "confidence": "high",
+              "admission_status": "candidate_for_staging_review",
+              "usage_note": "Library catalog records the title as a Puig literary work."
+            },
+            "source_chain": [
+              {
+                "fact_id": "V1-FCT-0738",
+                "source_id": "SRC-0226",
+                "source_title": "Documentos con el autor Puig, Manuel — Catálogo Bibliográfico"
+              }
+            ]
+          },
+          {
+            "fact": {
+              "fact_id": "V1-FCT-0739",
+              "origin_material_id": "WEB-CE-B11",
+              "card_id": "V1-CARD-0175",
+              "subject_id": "V1-ENT-0287",
+              "fact_field": "first_publication_year",
+              "value_text": "1976",
+              "material_class": "bibliographic",
+              "origin_id": "SRC-0225",
+              "confidence": "high",
+              "admission_status": "candidate_for_staging_review",
+              "usage_note": "Biblioteca Nacional page records the work in 1976."
+            },
+            "source_chain": [
+              {
+                "fact_id": "V1-FCT-0739",
+                "source_id": "SRC-0225",
+                "source_title": "28 de diciembre de 1932: nace Manuel Puig — Biblioteca Nacional"
+              }
+            ]
+          },
+          {
+            "fact": {
+              "fact_id": "V1-FCT-0740",
+              "origin_material_id": "WEB-CE-B11",
+              "card_id": "V1-CARD-0175",
+              "subject_id": "V1-ENT-0287",
+              "fact_field": "genre_or_form",
+              "value_text": "小说",
+              "material_class": "bibliographic",
+              "origin_id": "SRC-0225",
+              "confidence": "high",
+              "admission_status": "candidate_for_staging_review",
+              "usage_note": "Biblioteca Nacional calls the selected Puig titles novels."
+            },
+            "source_chain": [
+              {
+                "fact_id": "V1-FCT-0740",
+                "source_id": "SRC-0225",
+                "source_title": "28 de diciembre de 1932: nace Manuel Puig — Biblioteca Nacional"
+              }
+            ]
+          },
+          {
+            "fact": {
+              "fact_id": "V1-FCT-0741",
+              "origin_material_id": "WEB-CE-B11",
+              "card_id": "V1-CARD-0175",
+              "subject_id": "V1-ENT-0287",
+              "fact_field": "bibliographic_note",
+              "value_text": "机构资料支持题名、作者归属、小说层级与 1976 年；未推断故事地点。",
+              "material_class": "bibliographic",
+              "origin_id": "SRC-0226",
+              "confidence": "high",
+              "admission_status": "candidate_for_staging_review",
+              "usage_note": "Sources support only the stated bibliographic fields."
+            },
+            "source_chain": [
+              {
+                "fact_id": "V1-FCT-0741",
+                "source_id": "SRC-0226",
+                "source_title": "Documentos con el autor Puig, Manuel — Catálogo Bibliográfico"
+              }
+            ]
+          }
+        ],
+        "cards": [
+          {
+            "card_id": "V1-CARD-0175",
+            "origin_card_id": "",
+            "subject_id": "V1-ENT-0287",
+            "card_type": "work",
+            "title_zh": "《蜘蛛女之吻》",
+            "author_label": "曼努埃尔·普伊格",
+            "original_title": "El beso de la mujer araña",
+            "country_or_region": "阿根廷",
+            "language": "es",
+            "period_bucket": "1976",
+            "genre_or_form": "小说",
+            "input_layer": "WEB-CE-B11",
+            "source_minimum_status": "meets",
+            "issue_code": "NONE",
+            "content_markdown": "### 《蜘蛛女之吻》｜El beso de la mujer araña — 国家图书馆资料记录 1976 年。"
+          }
+        ],
+        "card_facts": [
+          {
+            "card_id": "V1-CARD-0175",
+            "fact_id": "V1-FCT-0738",
+            "admission_status": "candidate_for_staging_review"
+          },
+          {
+            "card_id": "V1-CARD-0175",
+            "fact_id": "V1-FCT-0739",
+            "admission_status": "candidate_for_staging_review"
+          },
+          {
+            "card_id": "V1-CARD-0175",
+            "fact_id": "V1-FCT-0740",
+            "admission_status": "candidate_for_staging_review"
+          },
+          {
+            "card_id": "V1-CARD-0175",
+            "fact_id": "V1-FCT-0741",
+            "admission_status": "candidate_for_staging_review"
+          }
+        ],
+        "card_sources": [
+          {
+            "card_source_id": "V1-CS-0350",
+            "origin_matrix_id": "",
+            "card_id": "V1-CARD-0175",
+            "source_id": "SRC-0225",
+            "source_level": "B",
+            "source_role": "both",
+            "bibliographic_support": "yes",
+            "research_support": "yes",
+            "independent_source_key": "SRC-0225",
+            "usage_status": "used",
+            "issue_code": "NONE"
+          },
+          {
+            "card_source_id": "V1-CS-0351",
+            "origin_matrix_id": "",
+            "card_id": "V1-CARD-0175",
+            "source_id": "SRC-0226",
+            "source_level": "B",
+            "source_role": "both",
+            "bibliographic_support": "yes",
+            "research_support": "yes",
+            "independent_source_key": "SRC-0226",
+            "usage_status": "used",
+            "issue_code": "NONE"
+          }
+        ],
+        "relations": [
+          {
+            "relationship_id": "V1-REL-0212",
+            "origin_layer": "WEB-CE-B11",
+            "origin_relation_group_id": "CAND-B11-0212",
+            "subject_id": "V1-ENT-0284",
+            "relation_type": "CREATED",
+            "object_id": "V1-ENT-0287",
+            "description_zh": "曼努埃尔·普伊格创作《蜘蛛女之吻》（El beso de la mujer araña）",
+            "confidence": "high",
+            "review_status": "accepted",
+            "upstream_review_status": "WEB-CE-B11",
+            "evidence_count": "1",
+            "issue_code": "NONE"
+          }
+        ],
+        "holds": [],
+        "gaps": [],
+        "remaining": "本轮未作学术性深入阐释；既有来源和目录信息仅支持基础书目。",
+        "relationship_sources": [
+          {
+            "relationship_id": "V1-REL-0212",
+            "source_id": "SRC-0225"
+          }
+        ],
+        "relationship_evidence": [
+          {
+            "evidence_id": "V1-EV-0237",
+            "relationship_id": "V1-REL-0212",
+            "origin_evidence_id": "CAND-B11-0212",
+            "source_id": "SRC-0225",
+            "source_title": "28 de diciembre de 1932: nace Manuel Puig — Biblioteca Nacional",
+            "locator": "",
+            "evidence_note": "Biblioteca Nacional page lists El beso de la mujer araña as a Puig work.",
+            "confidence": "high",
+            "evidence_status": "eligible_evidence",
+            "evidence_origin": "WEB-CE-B11"
+          }
+        ],
+        "formal_subject_id": "V1-ENT-0287",
+        "gap_id": "V1-GAP-0507"
+      },
+      {
+        "object_ref": "V1-ENT-0288",
+        "entity": {
+          "entity_id": "V1-ENT-0288",
+          "entity_type": "work",
+          "name_zh": "《丽塔·海华丝的背叛》",
+          "original_name": "La traición de Rita Hayworth",
+          "canonical_status": "candidate",
+          "origin_count": "1",
+          "origin_refs": "CAND-B11-PUIG-W02",
+          "normalization_basis": "B11 institutional bibliography; work layer",
+          "issue_codes": "NONE"
+        },
+        "bibliography": "按冻结基线逐值保全既有书目事实。",
+        "description": "既有作品描述未在本轮改写。",
+        "research_status": "catalog_only",
+        "research_refs": [
+          "SRC-0225",
+          "SRC-0226"
+        ],
+        "old_facts": [
+          {
+            "fact": {
+              "fact_id": "V1-FCT-0742",
+              "origin_material_id": "WEB-CE-B11",
+              "card_id": "V1-CARD-0176",
+              "subject_id": "V1-ENT-0288",
+              "fact_field": "entity_layer",
+              "value_text": "work",
+              "material_class": "metadata",
+              "origin_id": "SRC-0226",
+              "confidence": "high",
+              "admission_status": "candidate_for_staging_review",
+              "usage_note": "Library catalog records the title as a Puig literary work."
+            },
+            "source_chain": [
+              {
+                "fact_id": "V1-FCT-0742",
+                "source_id": "SRC-0226",
+                "source_title": "Documentos con el autor Puig, Manuel — Catálogo Bibliográfico"
+              }
+            ]
+          },
+          {
+            "fact": {
+              "fact_id": "V1-FCT-0743",
+              "origin_material_id": "WEB-CE-B11",
+              "card_id": "V1-CARD-0176",
+              "subject_id": "V1-ENT-0288",
+              "fact_field": "first_publication_year",
+              "value_text": "1968",
+              "material_class": "bibliographic",
+              "origin_id": "SRC-0225",
+              "confidence": "high",
+              "admission_status": "candidate_for_staging_review",
+              "usage_note": "Biblioteca Nacional page records the first novel in 1968."
+            },
+            "source_chain": [
+              {
+                "fact_id": "V1-FCT-0743",
+                "source_id": "SRC-0225",
+                "source_title": "28 de diciembre de 1932: nace Manuel Puig — Biblioteca Nacional"
+              }
+            ]
+          },
+          {
+            "fact": {
+              "fact_id": "V1-FCT-0744",
+              "origin_material_id": "WEB-CE-B11",
+              "card_id": "V1-CARD-0176",
+              "subject_id": "V1-ENT-0288",
+              "fact_field": "genre_or_form",
+              "value_text": "小说",
+              "material_class": "bibliographic",
+              "origin_id": "SRC-0225",
+              "confidence": "high",
+              "admission_status": "candidate_for_staging_review",
+              "usage_note": "Biblioteca Nacional calls the title a novel."
+            },
+            "source_chain": [
+              {
+                "fact_id": "V1-FCT-0744",
+                "source_id": "SRC-0225",
+                "source_title": "28 de diciembre de 1932: nace Manuel Puig — Biblioteca Nacional"
+              }
+            ]
+          },
+          {
+            "fact": {
+              "fact_id": "V1-FCT-0745",
+              "origin_material_id": "WEB-CE-B11",
+              "card_id": "V1-CARD-0176",
+              "subject_id": "V1-ENT-0288",
+              "fact_field": "bibliographic_note",
+              "value_text": "机构资料支持题名、作者归属、小说层级与 1968 年；未推断故事地点。",
+              "material_class": "bibliographic",
+              "origin_id": "SRC-0226",
+              "confidence": "high",
+              "admission_status": "candidate_for_staging_review",
+              "usage_note": "Sources support only the stated bibliographic fields."
+            },
+            "source_chain": [
+              {
+                "fact_id": "V1-FCT-0745",
+                "source_id": "SRC-0226",
+                "source_title": "Documentos con el autor Puig, Manuel — Catálogo Bibliográfico"
+              }
+            ]
+          }
+        ],
+        "cards": [
+          {
+            "card_id": "V1-CARD-0176",
+            "origin_card_id": "",
+            "subject_id": "V1-ENT-0288",
+            "card_type": "work",
+            "title_zh": "《丽塔·海华丝的背叛》",
+            "author_label": "曼努埃尔·普伊格",
+            "original_title": "La traición de Rita Hayworth",
+            "country_or_region": "阿根廷",
+            "language": "es",
+            "period_bucket": "1968",
+            "genre_or_form": "小说",
+            "input_layer": "WEB-CE-B11",
+            "source_minimum_status": "meets",
+            "issue_code": "NONE",
+            "content_markdown": "### 《丽塔·海华丝的背叛》｜La traición de Rita Hayworth — 国家图书馆资料记录 1968 年。"
+          }
+        ],
+        "card_facts": [
+          {
+            "card_id": "V1-CARD-0176",
+            "fact_id": "V1-FCT-0742",
+            "admission_status": "candidate_for_staging_review"
+          },
+          {
+            "card_id": "V1-CARD-0176",
+            "fact_id": "V1-FCT-0743",
+            "admission_status": "candidate_for_staging_review"
+          },
+          {
+            "card_id": "V1-CARD-0176",
+            "fact_id": "V1-FCT-0744",
+            "admission_status": "candidate_for_staging_review"
+          },
+          {
+            "card_id": "V1-CARD-0176",
+            "fact_id": "V1-FCT-0745",
+            "admission_status": "candidate_for_staging_review"
+          }
+        ],
+        "card_sources": [
+          {
+            "card_source_id": "V1-CS-0352",
+            "origin_matrix_id": "",
+            "card_id": "V1-CARD-0176",
+            "source_id": "SRC-0225",
+            "source_level": "B",
+            "source_role": "both",
+            "bibliographic_support": "yes",
+            "research_support": "yes",
+            "independent_source_key": "SRC-0225",
+            "usage_status": "used",
+            "issue_code": "NONE"
+          },
+          {
+            "card_source_id": "V1-CS-0353",
+            "origin_matrix_id": "",
+            "card_id": "V1-CARD-0176",
+            "source_id": "SRC-0226",
+            "source_level": "B",
+            "source_role": "both",
+            "bibliographic_support": "yes",
+            "research_support": "yes",
+            "independent_source_key": "SRC-0226",
+            "usage_status": "used",
+            "issue_code": "NONE"
+          }
+        ],
+        "relations": [
+          {
+            "relationship_id": "V1-REL-0213",
+            "origin_layer": "WEB-CE-B11",
+            "origin_relation_group_id": "CAND-B11-0213",
+            "subject_id": "V1-ENT-0284",
+            "relation_type": "CREATED",
+            "object_id": "V1-ENT-0288",
+            "description_zh": "曼努埃尔·普伊格创作《丽塔·海华丝的背叛》（La traición de Rita Hayworth）",
+            "confidence": "high",
+            "review_status": "accepted",
+            "upstream_review_status": "WEB-CE-B11",
+            "evidence_count": "1",
+            "issue_code": "NONE"
+          }
+        ],
+        "holds": [],
+        "gaps": [],
+        "remaining": "本轮未作学术性深入阐释；既有来源和目录信息仅支持基础书目。",
+        "relationship_sources": [
+          {
+            "relationship_id": "V1-REL-0213",
+            "source_id": "SRC-0225"
+          }
+        ],
+        "relationship_evidence": [
+          {
+            "evidence_id": "V1-EV-0238",
+            "relationship_id": "V1-REL-0213",
+            "origin_evidence_id": "CAND-B11-0213",
+            "source_id": "SRC-0225",
+            "source_title": "28 de diciembre de 1932: nace Manuel Puig — Biblioteca Nacional",
+            "locator": "",
+            "evidence_note": "Biblioteca Nacional page lists La traición de Rita Hayworth as Puig first novel.",
+            "confidence": "high",
+            "evidence_status": "eligible_evidence",
+            "evidence_origin": "WEB-CE-B11"
+          }
+        ],
+        "formal_subject_id": "V1-ENT-0288",
+        "gap_id": "V1-GAP-0508"
+      },
+      {
+        "object_ref": "V1-ENT-0289",
+        "entity": {
+          "entity_id": "V1-ENT-0289",
+          "entity_type": "work",
+          "name_zh": "《红唇》",
+          "original_name": "Boquitas pintadas",
+          "canonical_status": "candidate",
+          "origin_count": "1",
+          "origin_refs": "CAND-B11-PUIG-W03",
+          "normalization_basis": "B11 institutional bibliography; work layer",
+          "issue_codes": "NONE"
+        },
+        "bibliography": "按冻结基线逐值保全既有书目事实。",
+        "description": "既有作品描述未在本轮改写。",
+        "research_status": "catalog_only",
+        "research_refs": [
+          "SRC-0225",
+          "SRC-0226"
+        ],
+        "old_facts": [
+          {
+            "fact": {
+              "fact_id": "V1-FCT-0746",
+              "origin_material_id": "WEB-CE-B11",
+              "card_id": "V1-CARD-0177",
+              "subject_id": "V1-ENT-0289",
+              "fact_field": "entity_layer",
+              "value_text": "work",
+              "material_class": "metadata",
+              "origin_id": "SRC-0226",
+              "confidence": "high",
+              "admission_status": "candidate_for_staging_review",
+              "usage_note": "Library catalog records the title as a Puig literary work."
+            },
+            "source_chain": [
+              {
+                "fact_id": "V1-FCT-0746",
+                "source_id": "SRC-0226",
+                "source_title": "Documentos con el autor Puig, Manuel — Catálogo Bibliográfico"
+              }
+            ]
+          },
+          {
+            "fact": {
+              "fact_id": "V1-FCT-0747",
+              "origin_material_id": "WEB-CE-B11",
+              "card_id": "V1-CARD-0177",
+              "subject_id": "V1-ENT-0289",
+              "fact_field": "first_publication_year",
+              "value_text": "1969",
+              "material_class": "bibliographic",
+              "origin_id": "SRC-0225",
+              "confidence": "high",
+              "admission_status": "candidate_for_staging_review",
+              "usage_note": "Biblioteca Nacional page records the work in 1969."
+            },
+            "source_chain": [
+              {
+                "fact_id": "V1-FCT-0747",
+                "source_id": "SRC-0225",
+                "source_title": "28 de diciembre de 1932: nace Manuel Puig — Biblioteca Nacional"
+              }
+            ]
+          },
+          {
+            "fact": {
+              "fact_id": "V1-FCT-0748",
+              "origin_material_id": "WEB-CE-B11",
+              "card_id": "V1-CARD-0177",
+              "subject_id": "V1-ENT-0289",
+              "fact_field": "genre_or_form",
+              "value_text": "小说",
+              "material_class": "bibliographic",
+              "origin_id": "SRC-0225",
+              "confidence": "high",
+              "admission_status": "candidate_for_staging_review",
+              "usage_note": "Biblioteca Nacional calls the title a novel."
+            },
+            "source_chain": [
+              {
+                "fact_id": "V1-FCT-0748",
+                "source_id": "SRC-0225",
+                "source_title": "28 de diciembre de 1932: nace Manuel Puig — Biblioteca Nacional"
+              }
+            ]
+          },
+          {
+            "fact": {
+              "fact_id": "V1-FCT-0749",
+              "origin_material_id": "WEB-CE-B11",
+              "card_id": "V1-CARD-0177",
+              "subject_id": "V1-ENT-0289",
+              "fact_field": "bibliographic_note",
+              "value_text": "机构资料支持题名、作者归属、小说层级与 1969 年；未推断故事地点。",
+              "material_class": "bibliographic",
+              "origin_id": "SRC-0226",
+              "confidence": "high",
+              "admission_status": "candidate_for_staging_review",
+              "usage_note": "Sources support only the stated bibliographic fields."
+            },
+            "source_chain": [
+              {
+                "fact_id": "V1-FCT-0749",
+                "source_id": "SRC-0226",
+                "source_title": "Documentos con el autor Puig, Manuel — Catálogo Bibliográfico"
+              }
+            ]
+          }
+        ],
+        "cards": [
+          {
+            "card_id": "V1-CARD-0177",
+            "origin_card_id": "",
+            "subject_id": "V1-ENT-0289",
+            "card_type": "work",
+            "title_zh": "《红唇》",
+            "author_label": "曼努埃尔·普伊格",
+            "original_title": "Boquitas pintadas",
+            "country_or_region": "阿根廷",
+            "language": "es",
+            "period_bucket": "1969",
+            "genre_or_form": "小说",
+            "input_layer": "WEB-CE-B11",
+            "source_minimum_status": "meets",
+            "issue_code": "NONE",
+            "content_markdown": "### 《红唇》｜Boquitas pintadas — 国家图书馆资料记录 1969 年。"
+          }
+        ],
+        "card_facts": [
+          {
+            "card_id": "V1-CARD-0177",
+            "fact_id": "V1-FCT-0746",
+            "admission_status": "candidate_for_staging_review"
+          },
+          {
+            "card_id": "V1-CARD-0177",
+            "fact_id": "V1-FCT-0747",
+            "admission_status": "candidate_for_staging_review"
+          },
+          {
+            "card_id": "V1-CARD-0177",
+            "fact_id": "V1-FCT-0748",
+            "admission_status": "candidate_for_staging_review"
+          },
+          {
+            "card_id": "V1-CARD-0177",
+            "fact_id": "V1-FCT-0749",
+            "admission_status": "candidate_for_staging_review"
+          }
+        ],
+        "card_sources": [
+          {
+            "card_source_id": "V1-CS-0354",
+            "origin_matrix_id": "",
+            "card_id": "V1-CARD-0177",
+            "source_id": "SRC-0225",
+            "source_level": "B",
+            "source_role": "both",
+            "bibliographic_support": "yes",
+            "research_support": "yes",
+            "independent_source_key": "SRC-0225",
+            "usage_status": "used",
+            "issue_code": "NONE"
+          },
+          {
+            "card_source_id": "V1-CS-0355",
+            "origin_matrix_id": "",
+            "card_id": "V1-CARD-0177",
+            "source_id": "SRC-0226",
+            "source_level": "B",
+            "source_role": "both",
+            "bibliographic_support": "yes",
+            "research_support": "yes",
+            "independent_source_key": "SRC-0226",
+            "usage_status": "used",
+            "issue_code": "NONE"
+          }
+        ],
+        "relations": [
+          {
+            "relationship_id": "V1-REL-0214",
+            "origin_layer": "WEB-CE-B11",
+            "origin_relation_group_id": "CAND-B11-0214",
+            "subject_id": "V1-ENT-0284",
+            "relation_type": "CREATED",
+            "object_id": "V1-ENT-0289",
+            "description_zh": "曼努埃尔·普伊格创作《红唇》（Boquitas pintadas）",
+            "confidence": "high",
+            "review_status": "accepted",
+            "upstream_review_status": "WEB-CE-B11",
+            "evidence_count": "1",
+            "issue_code": "NONE"
+          }
+        ],
+        "holds": [],
+        "gaps": [],
+        "remaining": "本轮未作学术性深入阐释；既有来源和目录信息仅支持基础书目。",
+        "relationship_sources": [
+          {
+            "relationship_id": "V1-REL-0214",
+            "source_id": "SRC-0225"
+          }
+        ],
+        "relationship_evidence": [
+          {
+            "evidence_id": "V1-EV-0239",
+            "relationship_id": "V1-REL-0214",
+            "origin_evidence_id": "CAND-B11-0214",
+            "source_id": "SRC-0225",
+            "source_title": "28 de diciembre de 1932: nace Manuel Puig — Biblioteca Nacional",
+            "locator": "",
+            "evidence_note": "Biblioteca Nacional page lists Boquitas pintadas as a Puig work.",
+            "confidence": "high",
+            "evidence_status": "eligible_evidence",
+            "evidence_origin": "WEB-CE-B11"
+          }
+        ],
+        "formal_subject_id": "V1-ENT-0289",
+        "gap_id": "V1-GAP-0509"
+      },
+      {
+        "object_ref": "WCD10-B14-W101",
+        "entity": {
+          "entity_id": "WCD10-B14-W101",
+          "entity_type": "work",
+          "name_zh": "《布宜诺斯艾利斯事件》",
+          "original_name": "The Buenos Aires Affair",
+          "canonical_status": "candidate",
+          "origin_count": "1",
+          "origin_refs": "WCD10-B14-W101",
+          "normalization_basis": "Argentina.gob.ar文化机构书目；作品层级",
+          "issue_codes": "NONE"
+        },
+        "bibliography": "阿根廷文化部文章和出版社作者书目列出《The Buenos Aires Affair》及年份1973。",
+        "description": "出版社简介将小说置于1930至1969年间，以Leo Druscovich生命最后两天及一系列失踪、误导线索和性执念之谜为叙事线索。",
+        "research_status": "catalog_only",
+        "research_refs": [
+          "WCD10-B14-S101",
+          "WCD10-B14-S103"
+        ],
+        "existing_facts": [],
+        "candidate_facts": [
+          {
+            "candidate_id": "WCD10-B14-W101-F01",
+            "field": "first_publication_year",
+            "value": "1973",
+            "source_refs": [
+              "WCD10-B14-S101"
+            ]
+          },
+          {
+            "candidate_id": "WCD10-B14-W101-F02",
+            "field": "genre_or_form",
+            "value": "小说",
+            "source_refs": [
+              "WCD10-B14-S103"
+            ]
+          },
+          {
+            "candidate_id": "WCD10-B14-W101-F03",
+            "field": "one_sentence_summary",
+            "value": "出版社简介将小说置于1930至1969年间，以Leo Druscovich生命最后两天及一系列失踪、误导线索和性执念之谜为叙事线索。",
+            "source_refs": [
+              "WCD10-B14-S103"
+            ]
+          },
+          {
+            "candidate_id": "WCD10-B14-W101-F04",
+            "field": "bibliographic_note",
+            "value": "阿根廷文化部记载作品于1973年出版并遭查禁；出版社简介支持此处有限情节概述。",
+            "source_refs": [
+              "WCD10-B14-S101",
+              "WCD10-B14-S103"
+            ]
+          }
+        ],
+        "remaining": "仅为机构书目与有限内容介绍；未声称作品研究覆盖完整。",
+        "formal_subject_id": "V1-ENT-0688",
+        "gap_id": "V1-GAP-0510"
+      },
+      {
+        "object_ref": "WCD10-B14-W102",
+        "entity": {
+          "entity_id": "WCD10-B14-W102",
+          "entity_type": "work",
+          "name_zh": "《天使耻骨》",
+          "original_name": "Pubis angelical",
+          "canonical_status": "candidate",
+          "origin_count": "1",
+          "origin_refs": "WCD10-B14-W102",
+          "normalization_basis": "Argentina.gob.ar文化机构书目；作品层级",
+          "issue_codes": "NONE"
+        },
+        "bibliography": "阿根廷文化部文章和出版社作者书目列出《Pubis angelical》及年份1979。",
+        "description": "小说以住院的安娜及其情感经历为线索，联系阿根廷20世纪60至70年代生活；阿根廷文化部提供这一简要内容说明。",
+        "research_status": "catalog_only",
+        "research_refs": [
+          "WCD10-B14-S101"
+        ],
+        "existing_facts": [],
+        "candidate_facts": [
+          {
+            "candidate_id": "WCD10-B14-W102-F01",
+            "field": "first_publication_year",
+            "value": "1979",
+            "source_refs": [
+              "WCD10-B14-S101"
+            ]
+          },
+          {
+            "candidate_id": "WCD10-B14-W102-F02",
+            "field": "genre_or_form",
+            "value": "小说",
+            "source_refs": [
+              "WCD10-B14-S101"
+            ]
+          },
+          {
+            "candidate_id": "WCD10-B14-W102-F03",
+            "field": "one_sentence_summary",
+            "value": "小说以住院的安娜及其情感经历为线索，联系阿根廷20世纪60至70年代生活；阿根廷文化部提供这一简要内容说明。",
+            "source_refs": [
+              "WCD10-B14-S101"
+            ]
+          },
+          {
+            "candidate_id": "WCD10-B14-W102-F04",
+            "field": "bibliographic_note",
+            "value": "阿根廷文化部机构文章记载《Pubis angelical》于1979年出版并列为普伊格作品；出版社作者书目列有该书。",
+            "source_refs": [
+              "WCD10-B14-S101"
+            ]
+          }
+        ],
+        "remaining": "仅为机构书目与有限内容介绍；未声称作品研究覆盖完整。",
+        "formal_subject_id": "V1-ENT-0689",
+        "gap_id": "V1-GAP-0511"
+      },
+      {
+        "object_ref": "WCD10-B14-W103",
+        "entity": {
+          "entity_id": "WCD10-B14-W103",
+          "entity_type": "work",
+          "name_zh": "《读此页者永受诅咒》",
+          "original_name": "Maldición eterna a quien lea estas páginas",
+          "canonical_status": "candidate",
+          "origin_count": "1",
+          "origin_refs": "WCD10-B14-W103",
+          "normalization_basis": "Argentina.gob.ar文化机构书目；作品层级",
+          "issue_codes": "NONE"
+        },
+        "bibliography": "阿根廷文化部文章和出版社作者书目列出《Maldición eterna a quien lea estas páginas》及年份1980。",
+        "description": "出版社简介写一名阿根廷病人与美国看护者在纽约相遇，两人的孤独与对缺席女性的记忆构成关系主线。",
+        "research_status": "catalog_only",
+        "research_refs": [
+          "WCD10-B14-S102",
+          "WCD10-B14-S104"
+        ],
+        "existing_facts": [],
+        "candidate_facts": [
+          {
+            "candidate_id": "WCD10-B14-W103-F01",
+            "field": "first_publication_year",
+            "value": "1980",
+            "source_refs": [
+              "WCD10-B14-S102"
+            ]
+          },
+          {
+            "candidate_id": "WCD10-B14-W103-F02",
+            "field": "genre_or_form",
+            "value": "小说",
+            "source_refs": [
+              "WCD10-B14-S104"
+            ]
+          },
+          {
+            "candidate_id": "WCD10-B14-W103-F03",
+            "field": "one_sentence_summary",
+            "value": "出版社简介写一名阿根廷病人与美国看护者在纽约相遇，两人的孤独与对缺席女性的记忆构成关系主线。",
+            "source_refs": [
+              "WCD10-B14-S104"
+            ]
+          },
+          {
+            "candidate_id": "WCD10-B14-W103-F04",
+            "field": "bibliographic_note",
+            "value": "出版社作者书目记载作品于1980年出版；该书页面支持此处有限情节概述。",
+            "source_refs": [
+              "WCD10-B14-S102",
+              "WCD10-B14-S104"
+            ]
+          }
+        ],
+        "remaining": "仅为机构书目与有限内容介绍；未声称作品研究覆盖完整。",
+        "formal_subject_id": "V1-ENT-0690",
+        "gap_id": "V1-GAP-0512"
+      },
+      {
+        "object_ref": "WCD10-B14-W104",
+        "entity": {
+          "entity_id": "WCD10-B14-W104",
+          "entity_type": "work",
+          "name_zh": "《相互回应的爱情之血》",
+          "original_name": "Sangre de amor correspondido",
+          "canonical_status": "candidate",
+          "origin_count": "1",
+          "origin_refs": "WCD10-B14-W104",
+          "normalization_basis": "Argentina.gob.ar文化机构书目；作品层级",
+          "issue_codes": "NONE"
+        },
+        "bibliography": "阿根廷文化部文章和出版社作者书目列出《Sangre de amor correspondido》及年份1982。",
+        "description": "小说以巴西小镇为背景，讲述少女Maria da Gloria及其家庭经历；阿根廷文化部提供该书的概要。",
+        "research_status": "catalog_only",
+        "research_refs": [
+          "WCD10-B14-S101"
+        ],
+        "existing_facts": [],
+        "candidate_facts": [
+          {
+            "candidate_id": "WCD10-B14-W104-F01",
+            "field": "first_publication_year",
+            "value": "1982",
+            "source_refs": [
+              "WCD10-B14-S101"
+            ]
+          },
+          {
+            "candidate_id": "WCD10-B14-W104-F02",
+            "field": "genre_or_form",
+            "value": "小说",
+            "source_refs": [
+              "WCD10-B14-S101"
+            ]
+          },
+          {
+            "candidate_id": "WCD10-B14-W104-F03",
+            "field": "one_sentence_summary",
+            "value": "小说以巴西小镇为背景，讲述少女Maria da Gloria及其家庭经历；阿根廷文化部提供该书的概要。",
+            "source_refs": [
+              "WCD10-B14-S101"
+            ]
+          },
+          {
+            "candidate_id": "WCD10-B14-W104-F04",
+            "field": "bibliographic_note",
+            "value": "阿根廷文化部机构文章记载《Sangre de amor correspondido》于1982年出版并列为普伊格作品；出版社作者书目列有该书。",
+            "source_refs": [
+              "WCD10-B14-S101"
+            ]
+          }
+        ],
+        "remaining": "仅为机构书目与有限内容介绍；未声称作品研究覆盖完整。",
+        "formal_subject_id": "V1-ENT-0691",
+        "gap_id": "V1-GAP-0513"
+      },
+      {
+        "object_ref": "WCD10-B14-W105",
+        "entity": {
+          "entity_id": "WCD10-B14-W105",
+          "entity_type": "work",
+          "name_zh": "《热带夜幕降临》",
+          "original_name": "Cae la noche tropical",
+          "canonical_status": "candidate",
+          "origin_count": "1",
+          "origin_refs": "WCD10-B14-W105",
+          "normalization_basis": "Argentina.gob.ar文化机构书目；作品层级",
+          "issue_codes": "NONE"
+        },
+        "bibliography": "阿根廷文化部文章和出版社作者书目列出《Cae la noche tropical》及年份1988。",
+        "description": "出版社简介以里约热内卢为背景，写两位年长的阿根廷姐妹谈及一位年轻流亡邻居的情感经历，并以交谈和闲谈呈现故事。",
+        "research_status": "catalog_only",
+        "research_refs": [
+          "WCD10-B14-S101",
+          "WCD10-B14-S105"
+        ],
+        "existing_facts": [],
+        "candidate_facts": [
+          {
+            "candidate_id": "WCD10-B14-W105-F01",
+            "field": "first_publication_year",
+            "value": "1988",
+            "source_refs": [
+              "WCD10-B14-S101"
+            ]
+          },
+          {
+            "candidate_id": "WCD10-B14-W105-F02",
+            "field": "genre_or_form",
+            "value": "小说",
+            "source_refs": [
+              "WCD10-B14-S105"
+            ]
+          },
+          {
+            "candidate_id": "WCD10-B14-W105-F03",
+            "field": "one_sentence_summary",
+            "value": "出版社简介以里约热内卢为背景，写两位年长的阿根廷姐妹谈及一位年轻流亡邻居的情感经历，并以交谈和闲谈呈现故事。",
+            "source_refs": [
+              "WCD10-B14-S105"
+            ]
+          },
+          {
+            "candidate_id": "WCD10-B14-W105-F04",
+            "field": "bibliographic_note",
+            "value": "阿根廷文化部与出版社书目均列作品及1988年；出版社作品页面支持此处有限情节概述。",
+            "source_refs": [
+              "WCD10-B14-S101",
+              "WCD10-B14-S105"
+            ]
+          }
+        ],
+        "remaining": "仅为机构书目与有限内容介绍；未声称作品研究覆盖完整。",
+        "formal_subject_id": "V1-ENT-0692",
+        "gap_id": "V1-GAP-0514"
+      },
+      {
+        "object_ref": "V1-ENT-0290",
+        "entity": {
+          "entity_id": "V1-ENT-0290",
+          "entity_type": "collection",
+          "name_zh": "《被遗忘的旅程》",
+          "original_name": "Viaje olvidado",
+          "canonical_status": "candidate",
+          "origin_count": "1",
+          "origin_refs": "CAND-B11-OCAMPO-W01",
+          "normalization_basis": "B11 institutional bibliography; collection layer",
+          "issue_codes": "NONE"
+        },
+        "bibliography": "按B14冻结inventory逐值保全既有书目事实。",
+        "description": "既有研究描述未在本轮改写。",
+        "research_status": "catalog_only",
+        "research_refs": [
+          "SRC-0227",
+          "SRC-0228"
+        ],
+        "old_facts": [
+          {
+            "fact": {
+              "fact_id": "V1-FCT-0756",
+              "origin_material_id": "WEB-CE-B11",
+              "card_id": "V1-CARD-0178",
+              "subject_id": "V1-ENT-0290",
+              "fact_field": "entity_layer",
+              "value_text": "collection",
+              "material_class": "metadata",
+              "origin_id": "SRC-0227",
+              "confidence": "high",
+              "admission_status": "candidate_for_staging_review",
+              "usage_note": "Educ.ar calls Viaje olvidado her first book of stories."
+            },
+            "source_chain": [
+              {
+                "fact_id": "V1-FCT-0756",
+                "source_id": "SRC-0227",
+                "source_title": "Silvina Ocampo: el viaje olvidado — Educ.ar"
+              }
+            ]
+          },
+          {
+            "fact": {
+              "fact_id": "V1-FCT-0757",
+              "origin_material_id": "WEB-CE-B11",
+              "card_id": "V1-CARD-0178",
+              "subject_id": "V1-ENT-0290",
+              "fact_field": "first_publication_year",
+              "value_text": "1937",
+              "material_class": "bibliographic",
+              "origin_id": "SRC-0227",
+              "confidence": "high",
+              "admission_status": "candidate_for_staging_review",
+              "usage_note": "Educ.ar records Viaje olvidado in 1937."
+            },
+            "source_chain": [
+              {
+                "fact_id": "V1-FCT-0757",
+                "source_id": "SRC-0227",
+                "source_title": "Silvina Ocampo: el viaje olvidado — Educ.ar"
+              }
+            ]
+          },
+          {
+            "fact": {
+              "fact_id": "V1-FCT-0758",
+              "origin_material_id": "WEB-CE-B11",
+              "card_id": "V1-CARD-0178",
+              "subject_id": "V1-ENT-0290",
+              "fact_field": "genre_or_form",
+              "value_text": "短篇小说集",
+              "material_class": "bibliographic",
+              "origin_id": "SRC-0227",
+              "confidence": "high",
+              "admission_status": "candidate_for_staging_review",
+              "usage_note": "Educ.ar calls it a first book of stories."
+            },
+            "source_chain": [
+              {
+                "fact_id": "V1-FCT-0758",
+                "source_id": "SRC-0227",
+                "source_title": "Silvina Ocampo: el viaje olvidado — Educ.ar"
+              }
+            ]
+          },
+          {
+            "fact": {
+              "fact_id": "V1-FCT-0759",
+              "origin_material_id": "WEB-CE-B11",
+              "card_id": "V1-CARD-0178",
+              "subject_id": "V1-ENT-0290",
+              "fact_field": "bibliographic_note",
+              "value_text": "机构资料支持题名、故事集层级与 1937 年；未添加主题或地点判断。",
+              "material_class": "bibliographic",
+              "origin_id": "SRC-0228",
+              "confidence": "high",
+              "admission_status": "candidate_for_staging_review",
+              "usage_note": "Sources support only the stated bibliographic fields."
+            },
+            "source_chain": [
+              {
+                "fact_id": "V1-FCT-0759",
+                "source_id": "SRC-0228",
+                "source_title": "Fantástica y misteriosa Silvina — Cultura"
+              }
+            ]
+          }
+        ],
+        "cards": [
+          {
+            "card_id": "V1-CARD-0178",
+            "origin_card_id": "",
+            "subject_id": "V1-ENT-0290",
+            "card_type": "collection",
+            "title_zh": "《被遗忘的旅程》",
+            "author_label": "西尔维娜·奥坎波",
+            "original_title": "Viaje olvidado",
+            "country_or_region": "阿根廷",
+            "language": "es",
+            "period_bucket": "1937",
+            "genre_or_form": "短篇小说集",
+            "input_layer": "WEB-CE-B11",
+            "source_minimum_status": "meets",
+            "issue_code": "NONE",
+            "content_markdown": "### 《被遗忘的旅程》｜Viaje olvidado — Educ.ar 与文化部资料记录 1937 年及故事集层级。"
+          }
+        ],
+        "card_facts": [
+          {
+            "card_id": "V1-CARD-0178",
+            "fact_id": "V1-FCT-0756",
+            "admission_status": "candidate_for_staging_review"
+          },
+          {
+            "card_id": "V1-CARD-0178",
+            "fact_id": "V1-FCT-0757",
+            "admission_status": "candidate_for_staging_review"
+          },
+          {
+            "card_id": "V1-CARD-0178",
+            "fact_id": "V1-FCT-0758",
+            "admission_status": "candidate_for_staging_review"
+          },
+          {
+            "card_id": "V1-CARD-0178",
+            "fact_id": "V1-FCT-0759",
+            "admission_status": "candidate_for_staging_review"
+          }
+        ],
+        "card_sources": [
+          {
+            "card_source_id": "V1-CS-0356",
+            "origin_matrix_id": "",
+            "card_id": "V1-CARD-0178",
+            "source_id": "SRC-0227",
+            "source_level": "B",
+            "source_role": "both",
+            "bibliographic_support": "yes",
+            "research_support": "yes",
+            "independent_source_key": "SRC-0227",
+            "usage_status": "used",
+            "issue_code": "NONE"
+          },
+          {
+            "card_source_id": "V1-CS-0357",
+            "origin_matrix_id": "",
+            "card_id": "V1-CARD-0178",
+            "source_id": "SRC-0228",
+            "source_level": "B",
+            "source_role": "both",
+            "bibliographic_support": "yes",
+            "research_support": "yes",
+            "independent_source_key": "SRC-0228",
+            "usage_status": "used",
+            "issue_code": "NONE"
+          }
+        ],
+        "relations": [
+          {
+            "relationship_id": "V1-REL-0215",
+            "origin_layer": "WEB-CE-B11",
+            "origin_relation_group_id": "CAND-B11-0215",
+            "subject_id": "V1-ENT-0285",
+            "relation_type": "CREATED",
+            "object_id": "V1-ENT-0290",
+            "description_zh": "西尔维娜·奥坎波创作《被遗忘的旅程》（Viaje olvidado）",
+            "confidence": "high",
+            "review_status": "accepted",
+            "upstream_review_status": "WEB-CE-B11",
+            "evidence_count": "1",
+            "issue_code": "NONE"
+          }
+        ],
+        "relationship_sources": [
+          {
+            "relationship_id": "V1-REL-0215",
+            "source_id": "SRC-0227"
+          }
+        ],
+        "relationship_evidence": [
+          {
+            "evidence_id": "V1-EV-0240",
+            "relationship_id": "V1-REL-0215",
+            "origin_evidence_id": "CAND-B11-0215",
+            "source_id": "SRC-0227",
+            "source_title": "Silvina Ocampo: el viaje olvidado — Educ.ar",
+            "locator": "",
+            "evidence_note": "Educ.ar bibliography lists Viaje olvidado under Silvina Ocampo.",
+            "confidence": "high",
+            "evidence_status": "eligible_evidence",
+            "evidence_origin": "WEB-CE-B11"
+          }
+        ],
+        "source_objects": [
+          {
+            "source_id": "SRC-0227",
+            "temporary_id": "B11-SRC-0227",
+            "title": "Silvina Ocampo: el viaje olvidado — Educ.ar",
+            "original_title": "Silvina Ocampo: el viaje olvidado",
+            "author_or_editor": "Ministerio de Educación de la Nación Argentina",
+            "translator": "",
+            "publisher": "Educ.ar",
+            "publication_year": "",
+            "isbn": "",
+            "format": "web_page",
+            "page_count": "",
+            "language": "es",
+            "source_level": "B",
+            "processing_status": "access_pass",
+            "source_task": "WEB-CE-B11",
+            "public_content_scope": "Ocampo identity, bibliography, and 1937/1959/1961 dates",
+            "local_asset_status": "remote_only",
+            "persistent_id": "",
+            "canonical_url": "https://www.educ.ar/recursos/109330/silvina-ocampo-el-viaje-olvidado"
+          },
+          {
+            "source_id": "SRC-0228",
+            "temporary_id": "B11-SRC-0228",
+            "title": "Fantástica y misteriosa Silvina — Cultura",
+            "original_title": "Fantástica y misteriosa Silvina",
+            "author_or_editor": "Ministerio de Cultura de la Nación Argentina",
+            "translator": "",
+            "publisher": "Cultura Argentina",
+            "publication_year": "",
+            "isbn": "",
+            "format": "web_page",
+            "page_count": "",
+            "language": "es",
+            "source_level": "B",
+            "processing_status": "access_pass",
+            "source_task": "WEB-CE-B11",
+            "public_content_scope": "Ocampo identity, life dates, and selected story collections",
+            "local_asset_status": "remote_only",
+            "persistent_id": "",
+            "canonical_url": "https://www.cultura.gob.ar/silvina-ocampo-10848/"
+          }
+        ],
+        "holds": [],
+        "gaps": [],
+        "fresh_review": {
+          "source_refs": [],
+          "description": "冻结基线完整闭包只读保全。"
+        },
+        "remaining": "仅逐值保留冻结基线；本轮未判定学术覆盖完整性。",
+        "source_author_id": "V1-ENT-0285",
+        "candidate_facts": [],
+        "formal_subject_id": "V1-ENT-0290",
+        "gap_id": "V1-GAP-0515"
+      },
+      {
+        "object_ref": "V1-ENT-0291",
+        "entity": {
+          "entity_id": "V1-ENT-0291",
+          "entity_type": "collection",
+          "name_zh": "《愤怒》",
+          "original_name": "La furia",
+          "canonical_status": "candidate",
+          "origin_count": "1",
+          "origin_refs": "CAND-B11-OCAMPO-W02",
+          "normalization_basis": "B11 institutional bibliography; collection layer",
+          "issue_codes": "NONE"
+        },
+        "bibliography": "按B14冻结inventory逐值保全既有书目事实。",
+        "description": "既有研究描述未在本轮改写。",
+        "research_status": "catalog_only",
+        "research_refs": [
+          "SRC-0227",
+          "SRC-0228"
+        ],
+        "old_facts": [
+          {
+            "fact": {
+              "fact_id": "V1-FCT-0760",
+              "origin_material_id": "WEB-CE-B11",
+              "card_id": "V1-CARD-0179",
+              "subject_id": "V1-ENT-0291",
+              "fact_field": "entity_layer",
+              "value_text": "collection",
+              "material_class": "metadata",
+              "origin_id": "SRC-0228",
+              "confidence": "high",
+              "admission_status": "candidate_for_staging_review",
+              "usage_note": "Argentina Culture lists La furia y otros cuentos as a story collection."
+            },
+            "source_chain": [
+              {
+                "fact_id": "V1-FCT-0760",
+                "source_id": "SRC-0228",
+                "source_title": "Fantástica y misteriosa Silvina — Cultura"
+              }
+            ]
+          },
+          {
+            "fact": {
+              "fact_id": "V1-FCT-0761",
+              "origin_material_id": "WEB-CE-B11",
+              "card_id": "V1-CARD-0179",
+              "subject_id": "V1-ENT-0291",
+              "fact_field": "first_publication_year",
+              "value_text": "1959",
+              "material_class": "bibliographic",
+              "origin_id": "SRC-0228",
+              "confidence": "high",
+              "admission_status": "candidate_for_staging_review",
+              "usage_note": "Argentina Culture records the collection in 1959."
+            },
+            "source_chain": [
+              {
+                "fact_id": "V1-FCT-0761",
+                "source_id": "SRC-0228",
+                "source_title": "Fantástica y misteriosa Silvina — Cultura"
+              }
+            ]
+          },
+          {
+            "fact": {
+              "fact_id": "V1-FCT-0762",
+              "origin_material_id": "WEB-CE-B11",
+              "card_id": "V1-CARD-0179",
+              "subject_id": "V1-ENT-0291",
+              "fact_field": "genre_or_form",
+              "value_text": "短篇小说集",
+              "material_class": "bibliographic",
+              "origin_id": "SRC-0228",
+              "confidence": "high",
+              "admission_status": "candidate_for_staging_review",
+              "usage_note": "The source identifies the selected volume as cuentos."
+            },
+            "source_chain": [
+              {
+                "fact_id": "V1-FCT-0762",
+                "source_id": "SRC-0228",
+                "source_title": "Fantástica y misteriosa Silvina — Cultura"
+              }
+            ]
+          },
+          {
+            "fact": {
+              "fact_id": "V1-FCT-0763",
+              "origin_material_id": "WEB-CE-B11",
+              "card_id": "V1-CARD-0179",
+              "subject_id": "V1-ENT-0291",
+              "fact_field": "bibliographic_note",
+              "value_text": "机构资料支持题名、故事集层级与 1959 年；未添加主题或地点判断。",
+              "material_class": "bibliographic",
+              "origin_id": "SRC-0227",
+              "confidence": "high",
+              "admission_status": "candidate_for_staging_review",
+              "usage_note": "Sources support only the stated bibliographic fields."
+            },
+            "source_chain": [
+              {
+                "fact_id": "V1-FCT-0763",
+                "source_id": "SRC-0227",
+                "source_title": "Silvina Ocampo: el viaje olvidado — Educ.ar"
+              }
+            ]
+          }
+        ],
+        "cards": [
+          {
+            "card_id": "V1-CARD-0179",
+            "origin_card_id": "",
+            "subject_id": "V1-ENT-0291",
+            "card_type": "collection",
+            "title_zh": "《愤怒》",
+            "author_label": "西尔维娜·奥坎波",
+            "original_title": "La furia",
+            "country_or_region": "阿根廷",
+            "language": "es",
+            "period_bucket": "1959",
+            "genre_or_form": "短篇小说集",
+            "input_layer": "WEB-CE-B11",
+            "source_minimum_status": "meets",
+            "issue_code": "NONE",
+            "content_markdown": "### 《愤怒》｜La furia — Educ.ar 与文化部资料记录 1959 年故事集。"
+          }
+        ],
+        "card_facts": [
+          {
+            "card_id": "V1-CARD-0179",
+            "fact_id": "V1-FCT-0760",
+            "admission_status": "candidate_for_staging_review"
+          },
+          {
+            "card_id": "V1-CARD-0179",
+            "fact_id": "V1-FCT-0761",
+            "admission_status": "candidate_for_staging_review"
+          },
+          {
+            "card_id": "V1-CARD-0179",
+            "fact_id": "V1-FCT-0762",
+            "admission_status": "candidate_for_staging_review"
+          },
+          {
+            "card_id": "V1-CARD-0179",
+            "fact_id": "V1-FCT-0763",
+            "admission_status": "candidate_for_staging_review"
+          }
+        ],
+        "card_sources": [
+          {
+            "card_source_id": "V1-CS-0358",
+            "origin_matrix_id": "",
+            "card_id": "V1-CARD-0179",
+            "source_id": "SRC-0227",
+            "source_level": "B",
+            "source_role": "both",
+            "bibliographic_support": "yes",
+            "research_support": "yes",
+            "independent_source_key": "SRC-0227",
+            "usage_status": "used",
+            "issue_code": "NONE"
+          },
+          {
+            "card_source_id": "V1-CS-0359",
+            "origin_matrix_id": "",
+            "card_id": "V1-CARD-0179",
+            "source_id": "SRC-0228",
+            "source_level": "B",
+            "source_role": "both",
+            "bibliographic_support": "yes",
+            "research_support": "yes",
+            "independent_source_key": "SRC-0228",
+            "usage_status": "used",
+            "issue_code": "NONE"
+          }
+        ],
+        "relations": [
+          {
+            "relationship_id": "V1-REL-0216",
+            "origin_layer": "WEB-CE-B11",
+            "origin_relation_group_id": "CAND-B11-0216",
+            "subject_id": "V1-ENT-0285",
+            "relation_type": "CREATED",
+            "object_id": "V1-ENT-0291",
+            "description_zh": "西尔维娜·奥坎波创作《愤怒》（La furia）",
+            "confidence": "high",
+            "review_status": "accepted",
+            "upstream_review_status": "WEB-CE-B11",
+            "evidence_count": "1",
+            "issue_code": "NONE"
+          }
+        ],
+        "relationship_sources": [
+          {
+            "relationship_id": "V1-REL-0216",
+            "source_id": "SRC-0228"
+          }
+        ],
+        "relationship_evidence": [
+          {
+            "evidence_id": "V1-EV-0241",
+            "relationship_id": "V1-REL-0216",
+            "origin_evidence_id": "CAND-B11-0216",
+            "source_id": "SRC-0228",
+            "source_title": "Fantástica y misteriosa Silvina — Cultura",
+            "locator": "",
+            "evidence_note": "Argentina Culture bibliography lists La furia y otros cuentos under Ocampo.",
+            "confidence": "high",
+            "evidence_status": "eligible_evidence",
+            "evidence_origin": "WEB-CE-B11"
+          }
+        ],
+        "source_objects": [
+          {
+            "source_id": "SRC-0227",
+            "temporary_id": "B11-SRC-0227",
+            "title": "Silvina Ocampo: el viaje olvidado — Educ.ar",
+            "original_title": "Silvina Ocampo: el viaje olvidado",
+            "author_or_editor": "Ministerio de Educación de la Nación Argentina",
+            "translator": "",
+            "publisher": "Educ.ar",
+            "publication_year": "",
+            "isbn": "",
+            "format": "web_page",
+            "page_count": "",
+            "language": "es",
+            "source_level": "B",
+            "processing_status": "access_pass",
+            "source_task": "WEB-CE-B11",
+            "public_content_scope": "Ocampo identity, bibliography, and 1937/1959/1961 dates",
+            "local_asset_status": "remote_only",
+            "persistent_id": "",
+            "canonical_url": "https://www.educ.ar/recursos/109330/silvina-ocampo-el-viaje-olvidado"
+          },
+          {
+            "source_id": "SRC-0228",
+            "temporary_id": "B11-SRC-0228",
+            "title": "Fantástica y misteriosa Silvina — Cultura",
+            "original_title": "Fantástica y misteriosa Silvina",
+            "author_or_editor": "Ministerio de Cultura de la Nación Argentina",
+            "translator": "",
+            "publisher": "Cultura Argentina",
+            "publication_year": "",
+            "isbn": "",
+            "format": "web_page",
+            "page_count": "",
+            "language": "es",
+            "source_level": "B",
+            "processing_status": "access_pass",
+            "source_task": "WEB-CE-B11",
+            "public_content_scope": "Ocampo identity, life dates, and selected story collections",
+            "local_asset_status": "remote_only",
+            "persistent_id": "",
+            "canonical_url": "https://www.cultura.gob.ar/silvina-ocampo-10848/"
+          }
+        ],
+        "holds": [],
+        "gaps": [],
+        "fresh_review": {
+          "source_refs": [],
+          "description": "冻结基线完整闭包只读保全。"
+        },
+        "remaining": "仅逐值保留冻结基线；本轮未判定学术覆盖完整性。",
+        "source_author_id": "V1-ENT-0285",
+        "candidate_facts": [],
+        "formal_subject_id": "V1-ENT-0291",
+        "gap_id": "V1-GAP-0516"
+      },
+      {
+        "object_ref": "V1-ENT-0292",
+        "entity": {
+          "entity_id": "V1-ENT-0292",
+          "entity_type": "collection",
+          "name_zh": "《邀请》",
+          "original_name": "Las invitadas",
+          "canonical_status": "candidate",
+          "origin_count": "1",
+          "origin_refs": "CAND-B11-OCAMPO-W03",
+          "normalization_basis": "B11 institutional bibliography; collection layer",
+          "issue_codes": "NONE"
+        },
+        "bibliography": "按B14冻结inventory逐值保全既有书目事实。",
+        "description": "既有研究描述未在本轮改写。",
+        "research_status": "catalog_only",
+        "research_refs": [
+          "SRC-0227",
+          "SRC-0228"
+        ],
+        "old_facts": [
+          {
+            "fact": {
+              "fact_id": "V1-FCT-0764",
+              "origin_material_id": "WEB-CE-B11",
+              "card_id": "V1-CARD-0180",
+              "subject_id": "V1-ENT-0292",
+              "fact_field": "entity_layer",
+              "value_text": "collection",
+              "material_class": "metadata",
+              "origin_id": "SRC-0227",
+              "confidence": "high",
+              "admission_status": "candidate_for_staging_review",
+              "usage_note": "Educ.ar lists Las invitadas among Ocampo story books."
+            },
+            "source_chain": [
+              {
+                "fact_id": "V1-FCT-0764",
+                "source_id": "SRC-0227",
+                "source_title": "Silvina Ocampo: el viaje olvidado — Educ.ar"
+              }
+            ]
+          },
+          {
+            "fact": {
+              "fact_id": "V1-FCT-0765",
+              "origin_material_id": "WEB-CE-B11",
+              "card_id": "V1-CARD-0180",
+              "subject_id": "V1-ENT-0292",
+              "fact_field": "first_publication_year",
+              "value_text": "1961",
+              "material_class": "bibliographic",
+              "origin_id": "SRC-0227",
+              "confidence": "high",
+              "admission_status": "candidate_for_staging_review",
+              "usage_note": "Educ.ar records Las invitadas in 1961."
+            },
+            "source_chain": [
+              {
+                "fact_id": "V1-FCT-0765",
+                "source_id": "SRC-0227",
+                "source_title": "Silvina Ocampo: el viaje olvidado — Educ.ar"
+              }
+            ]
+          },
+          {
+            "fact": {
+              "fact_id": "V1-FCT-0766",
+              "origin_material_id": "WEB-CE-B11",
+              "card_id": "V1-CARD-0180",
+              "subject_id": "V1-ENT-0292",
+              "fact_field": "genre_or_form",
+              "value_text": "短篇小说集",
+              "material_class": "bibliographic",
+              "origin_id": "SRC-0227",
+              "confidence": "high",
+              "admission_status": "candidate_for_staging_review",
+              "usage_note": "The source places the title in Ocampo story bibliography."
+            },
+            "source_chain": [
+              {
+                "fact_id": "V1-FCT-0766",
+                "source_id": "SRC-0227",
+                "source_title": "Silvina Ocampo: el viaje olvidado — Educ.ar"
+              }
+            ]
+          },
+          {
+            "fact": {
+              "fact_id": "V1-FCT-0767",
+              "origin_material_id": "WEB-CE-B11",
+              "card_id": "V1-CARD-0180",
+              "subject_id": "V1-ENT-0292",
+              "fact_field": "bibliographic_note",
+              "value_text": "机构资料支持题名、故事集层级与 1961 年；未添加主题或地点判断。",
+              "material_class": "bibliographic",
+              "origin_id": "SRC-0228",
+              "confidence": "high",
+              "admission_status": "candidate_for_staging_review",
+              "usage_note": "Sources support only the stated bibliographic fields."
+            },
+            "source_chain": [
+              {
+                "fact_id": "V1-FCT-0767",
+                "source_id": "SRC-0228",
+                "source_title": "Fantástica y misteriosa Silvina — Cultura"
+              }
+            ]
+          }
+        ],
+        "cards": [
+          {
+            "card_id": "V1-CARD-0180",
+            "origin_card_id": "",
+            "subject_id": "V1-ENT-0292",
+            "card_type": "collection",
+            "title_zh": "《邀请》",
+            "author_label": "西尔维娜·奥坎波",
+            "original_title": "Las invitadas",
+            "country_or_region": "阿根廷",
+            "language": "es",
+            "period_bucket": "1961",
+            "genre_or_form": "短篇小说集",
+            "input_layer": "WEB-CE-B11",
+            "source_minimum_status": "meets",
+            "issue_code": "NONE",
+            "content_markdown": "### 《邀请》｜Las invitadas — Educ.ar 与文化部资料记录 1961 年故事集。"
+          }
+        ],
+        "card_facts": [
+          {
+            "card_id": "V1-CARD-0180",
+            "fact_id": "V1-FCT-0764",
+            "admission_status": "candidate_for_staging_review"
+          },
+          {
+            "card_id": "V1-CARD-0180",
+            "fact_id": "V1-FCT-0765",
+            "admission_status": "candidate_for_staging_review"
+          },
+          {
+            "card_id": "V1-CARD-0180",
+            "fact_id": "V1-FCT-0766",
+            "admission_status": "candidate_for_staging_review"
+          },
+          {
+            "card_id": "V1-CARD-0180",
+            "fact_id": "V1-FCT-0767",
+            "admission_status": "candidate_for_staging_review"
+          }
+        ],
+        "card_sources": [
+          {
+            "card_source_id": "V1-CS-0360",
+            "origin_matrix_id": "",
+            "card_id": "V1-CARD-0180",
+            "source_id": "SRC-0227",
+            "source_level": "B",
+            "source_role": "both",
+            "bibliographic_support": "yes",
+            "research_support": "yes",
+            "independent_source_key": "SRC-0227",
+            "usage_status": "used",
+            "issue_code": "NONE"
+          },
+          {
+            "card_source_id": "V1-CS-0361",
+            "origin_matrix_id": "",
+            "card_id": "V1-CARD-0180",
+            "source_id": "SRC-0228",
+            "source_level": "B",
+            "source_role": "both",
+            "bibliographic_support": "yes",
+            "research_support": "yes",
+            "independent_source_key": "SRC-0228",
+            "usage_status": "used",
+            "issue_code": "NONE"
+          }
+        ],
+        "relations": [
+          {
+            "relationship_id": "V1-REL-0217",
+            "origin_layer": "WEB-CE-B11",
+            "origin_relation_group_id": "CAND-B11-0217",
+            "subject_id": "V1-ENT-0285",
+            "relation_type": "CREATED",
+            "object_id": "V1-ENT-0292",
+            "description_zh": "西尔维娜·奥坎波创作《邀请》（Las invitadas）",
+            "confidence": "high",
+            "review_status": "accepted",
+            "upstream_review_status": "WEB-CE-B11",
+            "evidence_count": "1",
+            "issue_code": "NONE"
+          }
+        ],
+        "relationship_sources": [
+          {
+            "relationship_id": "V1-REL-0217",
+            "source_id": "SRC-0227"
+          }
+        ],
+        "relationship_evidence": [
+          {
+            "evidence_id": "V1-EV-0242",
+            "relationship_id": "V1-REL-0217",
+            "origin_evidence_id": "CAND-B11-0217",
+            "source_id": "SRC-0227",
+            "source_title": "Silvina Ocampo: el viaje olvidado — Educ.ar",
+            "locator": "",
+            "evidence_note": "Educ.ar bibliography lists Las invitadas under Ocampo.",
+            "confidence": "high",
+            "evidence_status": "eligible_evidence",
+            "evidence_origin": "WEB-CE-B11"
+          }
+        ],
+        "source_objects": [
+          {
+            "source_id": "SRC-0227",
+            "temporary_id": "B11-SRC-0227",
+            "title": "Silvina Ocampo: el viaje olvidado — Educ.ar",
+            "original_title": "Silvina Ocampo: el viaje olvidado",
+            "author_or_editor": "Ministerio de Educación de la Nación Argentina",
+            "translator": "",
+            "publisher": "Educ.ar",
+            "publication_year": "",
+            "isbn": "",
+            "format": "web_page",
+            "page_count": "",
+            "language": "es",
+            "source_level": "B",
+            "processing_status": "access_pass",
+            "source_task": "WEB-CE-B11",
+            "public_content_scope": "Ocampo identity, bibliography, and 1937/1959/1961 dates",
+            "local_asset_status": "remote_only",
+            "persistent_id": "",
+            "canonical_url": "https://www.educ.ar/recursos/109330/silvina-ocampo-el-viaje-olvidado"
+          },
+          {
+            "source_id": "SRC-0228",
+            "temporary_id": "B11-SRC-0228",
+            "title": "Fantástica y misteriosa Silvina — Cultura",
+            "original_title": "Fantástica y misteriosa Silvina",
+            "author_or_editor": "Ministerio de Cultura de la Nación Argentina",
+            "translator": "",
+            "publisher": "Cultura Argentina",
+            "publication_year": "",
+            "isbn": "",
+            "format": "web_page",
+            "page_count": "",
+            "language": "es",
+            "source_level": "B",
+            "processing_status": "access_pass",
+            "source_task": "WEB-CE-B11",
+            "public_content_scope": "Ocampo identity, life dates, and selected story collections",
+            "local_asset_status": "remote_only",
+            "persistent_id": "",
+            "canonical_url": "https://www.cultura.gob.ar/silvina-ocampo-10848/"
+          }
+        ],
+        "holds": [],
+        "gaps": [],
+        "fresh_review": {
+          "source_refs": [],
+          "description": "冻结基线完整闭包只读保全。"
+        },
+        "remaining": "仅逐值保留冻结基线；本轮未判定学术覆盖完整性。",
+        "source_author_id": "V1-ENT-0285",
+        "candidate_facts": [],
+        "formal_subject_id": "V1-ENT-0292",
+        "gap_id": "V1-GAP-0517"
+      },
+      {
+        "object_ref": "WCD10-B14-W201",
+        "entity": {
+          "entity_id": "WCD10-B14-W201",
+          "entity_type": "collection",
+          "name_zh_candidate": "《艾琳的自传》",
+          "original_name": "Autobiografía de Irene"
+        },
+        "bibliography": "Educ.ar条目将Autobiografía de Irene置于1946，阿根廷文化部与Notre Dame特藏图书馆列其为1948；大学图书馆确认这是1948短篇集初版。不同机构年份冲突保留，首发年份原子值留空。",
+        "description": "Notre Dame特藏馆将本书确认列作短篇集；Educ.ar列1946年，大学特藏及政府文化目录列1948年，年份冲突故不填原子首发年。",
+        "research_status": "catalog_only",
+        "research_refs": [
+          "WCD10-B14-S201",
+          "WCD10-B14-S202",
+          "WCD10-B14-S203"
+        ],
+        "candidate_facts": [
+          {
+            "fact_candidate_id": "WCD10-B14-W201-F01",
+            "field": "genre_or_form",
+            "value": "短篇小说集",
+            "source_refs": [
+              "WCD10-B14-S201",
+              "WCD10-B14-S202",
+              "WCD10-B14-S203"
+            ]
+          },
+          {
+            "fact_candidate_id": "WCD10-B14-W201-F03",
+            "field": "one_sentence_summary",
+            "value": "Notre Dame特藏馆确认该对象为短篇故事集；目录将出版年分别列作1946和1948，冲突保留，不填首发年。",
+            "source_refs": [
+              "WCD10-B14-S201",
+              "WCD10-B14-S203"
+            ]
+          },
+          {
+            "fact_candidate_id": "WCD10-B14-W201-F04",
+            "field": "bibliographic_note",
+            "value": "Educ.ar条目将Autobiografía de Irene置于1946，阿根廷文化部与Notre Dame特藏图书馆列其为1948；大学图书馆确认这是1948短篇集初版。不同机构年份冲突保留，首发年份原子值留空。",
+            "source_refs": [
+              "WCD10-B14-S201",
+              "WCD10-B14-S203",
+              "WCD10-B14-S202"
+            ]
+          }
+        ],
+        "remaining": "仅据Educ.ar已实读作者作品目录作有限书目登记；不声称全集覆盖，也未独立核实版本。",
+        "source_author_id": "V1-ENT-0285",
+        "formal_subject_id": "V1-ENT-0693",
+        "gap_id": "V1-GAP-0518"
+      },
+      {
+        "object_ref": "WCD10-B14-W202",
+        "entity": {
+          "entity_id": "WCD10-B14-W202",
+          "entity_type": "collection",
+          "name_zh_candidate": "《夜晚的日子》",
+          "original_name": "Los días de la noche"
+        },
+        "bibliography": "Educ.ar列该题名；Notre Dame特藏馆将其列作短篇集并记录1970首版。",
+        "description": "Notre Dame特藏馆将其列为1970年出版的短篇故事集；此候选只登记对象形态和书目年份。",
+        "research_status": "catalog_only",
+        "research_refs": [
+          "WCD10-B14-S201",
+          "WCD10-B14-S202",
+          "WCD10-B14-S203"
+        ],
+        "candidate_facts": [
+          {
+            "fact_candidate_id": "WCD10-B14-W202-F01",
+            "field": "genre_or_form",
+            "value": "短篇小说集",
+            "source_refs": [
+              "WCD10-B14-S201",
+              "WCD10-B14-S202",
+              "WCD10-B14-S203"
+            ]
+          },
+          {
+            "fact_candidate_id": "WCD10-B14-W202-F02",
+            "field": "first_publication_year",
+            "value": "1970",
+            "source_refs": [
+              "WCD10-B14-S201",
+              "WCD10-B14-S202",
+              "WCD10-B14-S203"
+            ]
+          },
+          {
+            "fact_candidate_id": "WCD10-B14-W202-F03",
+            "field": "one_sentence_summary",
+            "value": "Notre Dame特藏馆将其列为1970年出版的短篇故事集。",
+            "source_refs": [
+              "WCD10-B14-S201",
+              "WCD10-B14-S202",
+              "WCD10-B14-S203"
+            ]
+          },
+          {
+            "fact_candidate_id": "WCD10-B14-W202-F04",
+            "field": "bibliographic_note",
+            "value": "Educ.ar列该题名；Notre Dame特藏馆将其列作短篇集并记录1970首版。",
+            "source_refs": [
+              "WCD10-B14-S201",
+              "WCD10-B14-S202",
+              "WCD10-B14-S203"
+            ]
+          }
+        ],
+        "remaining": "仅据Educ.ar已实读作者作品目录作有限书目登记；不声称全集覆盖，也未独立核实版本。",
+        "source_author_id": "V1-ENT-0285",
+        "formal_subject_id": "V1-ENT-0694",
+        "gap_id": "V1-GAP-0519"
+      },
+      {
+        "object_ref": "WCD10-B14-W203",
+        "entity": {
+          "entity_id": "WCD10-B14-W203",
+          "entity_type": "collection",
+          "name_zh_candidate": "《如此等等》",
+          "original_name": "Y así sucesivamente"
+        },
+        "bibliography": "Educ.ar在作者作品目录列出《如此等等》（Y así sucesivamente）及1987；此候选不推断版本或作品全集地位。",
+        "description": "Educ.ar列为1987年作品；以机构列示的题名和年份作有限书目记录。",
+        "research_status": "catalog_only",
+        "research_refs": [
+          "WCD10-B14-S201",
+          "WCD10-B14-S202",
+          "WCD10-B14-S203"
+        ],
+        "candidate_facts": [
+          {
+            "fact_candidate_id": "WCD10-B14-W203-F01",
+            "field": "genre_or_form",
+            "value": "短篇小说集",
+            "source_refs": [
+              "WCD10-B14-S201",
+              "WCD10-B14-S202",
+              "WCD10-B14-S203"
+            ]
+          },
+          {
+            "fact_candidate_id": "WCD10-B14-W203-F02",
+            "field": "first_publication_year",
+            "value": "1987",
+            "source_refs": [
+              "WCD10-B14-S201",
+              "WCD10-B14-S202",
+              "WCD10-B14-S203"
+            ]
+          },
+          {
+            "fact_candidate_id": "WCD10-B14-W203-F03",
+            "field": "one_sentence_summary",
+            "value": "Educ.ar列为1987年作品；以机构列示的题名和年份作有限书目记录。",
+            "source_refs": [
+              "WCD10-B14-S201",
+              "WCD10-B14-S202",
+              "WCD10-B14-S203"
+            ]
+          },
+          {
+            "fact_candidate_id": "WCD10-B14-W203-F04",
+            "field": "bibliographic_note",
+            "value": "Educ.ar在作者作品目录列出《如此等等》（Y así sucesivamente）及1987；此候选不推断版本或作品全集地位。",
+            "source_refs": [
+              "WCD10-B14-S201",
+              "WCD10-B14-S202",
+              "WCD10-B14-S203"
+            ]
+          }
+        ],
+        "remaining": "仅据Educ.ar已实读作者作品目录作有限书目登记；不声称全集覆盖，也未独立核实版本。",
+        "source_author_id": "V1-ENT-0285",
+        "formal_subject_id": "V1-ENT-0695",
+        "gap_id": "V1-GAP-0520"
+      },
+      {
+        "object_ref": "WCD10-B14-W204",
+        "entity": {
+          "entity_id": "WCD10-B14-W204",
+          "entity_type": "collection",
+          "name_zh_candidate": "《科内莉亚面对镜子》",
+          "original_name": "Cornelia frente al espejo"
+        },
+        "bibliography": "Educ.ar在作者作品目录列出《科内莉亚面对镜子》（Cornelia frente al espejo）及1988；此候选不推断版本或作品全集地位。",
+        "description": "Educ.ar列为1988年作品；本描述限于书目和作品形态。",
+        "research_status": "catalog_only",
+        "research_refs": [
+          "WCD10-B14-S201",
+          "WCD10-B14-S202",
+          "WCD10-B14-S203"
+        ],
+        "candidate_facts": [
+          {
+            "fact_candidate_id": "WCD10-B14-W204-F01",
+            "field": "genre_or_form",
+            "value": "短篇小说集",
+            "source_refs": [
+              "WCD10-B14-S201",
+              "WCD10-B14-S202",
+              "WCD10-B14-S203"
+            ]
+          },
+          {
+            "fact_candidate_id": "WCD10-B14-W204-F02",
+            "field": "first_publication_year",
+            "value": "1988",
+            "source_refs": [
+              "WCD10-B14-S201",
+              "WCD10-B14-S202",
+              "WCD10-B14-S203"
+            ]
+          },
+          {
+            "fact_candidate_id": "WCD10-B14-W204-F03",
+            "field": "one_sentence_summary",
+            "value": "Educ.ar列为1988年作品；本描述限于书目和作品形态。",
+            "source_refs": [
+              "WCD10-B14-S201",
+              "WCD10-B14-S202",
+              "WCD10-B14-S203"
+            ]
+          },
+          {
+            "fact_candidate_id": "WCD10-B14-W204-F04",
+            "field": "bibliographic_note",
+            "value": "Educ.ar在作者作品目录列出《科内莉亚面对镜子》（Cornelia frente al espejo）及1988；此候选不推断版本或作品全集地位。",
+            "source_refs": [
+              "WCD10-B14-S201",
+              "WCD10-B14-S202",
+              "WCD10-B14-S203"
+            ]
+          }
+        ],
+        "remaining": "仅据Educ.ar已实读作者作品目录作有限书目登记；不声称全集覆盖，也未独立核实版本。",
+        "source_author_id": "V1-ENT-0285",
+        "formal_subject_id": "V1-ENT-0696",
+        "gap_id": "V1-GAP-0521"
+      },
+      {
+        "object_ref": "WCD10-B14-W205",
+        "entity": {
+          "entity_id": "WCD10-B14-W205",
+          "entity_type": "collection",
+          "name_zh_candidate": "《祖国列举》",
+          "original_name": "Enumeración de la patria"
+        },
+        "bibliography": "Educ.ar在作者作品目录列出《祖国列举》（Enumeración de la patria）及1942；此候选不推断版本或作品全集地位。",
+        "description": "Educ.ar诗歌作品目录列出该题名和1942年。",
+        "research_status": "catalog_only",
+        "research_refs": [
+          "WCD10-B14-S201",
+          "WCD10-B14-S202",
+          "WCD10-B14-S203"
+        ],
+        "candidate_facts": [
+          {
+            "fact_candidate_id": "WCD10-B14-W205-F01",
+            "field": "genre_or_form",
+            "value": "诗集",
+            "source_refs": [
+              "WCD10-B14-S201",
+              "WCD10-B14-S202",
+              "WCD10-B14-S203"
+            ]
+          },
+          {
+            "fact_candidate_id": "WCD10-B14-W205-F02",
+            "field": "first_publication_year",
+            "value": "1942",
+            "source_refs": [
+              "WCD10-B14-S201",
+              "WCD10-B14-S202",
+              "WCD10-B14-S203"
+            ]
+          },
+          {
+            "fact_candidate_id": "WCD10-B14-W205-F03",
+            "field": "one_sentence_summary",
+            "value": "Educ.ar诗歌作品目录列出该题名和1942年。",
+            "source_refs": [
+              "WCD10-B14-S201",
+              "WCD10-B14-S202",
+              "WCD10-B14-S203"
+            ]
+          },
+          {
+            "fact_candidate_id": "WCD10-B14-W205-F04",
+            "field": "bibliographic_note",
+            "value": "Educ.ar在作者作品目录列出《祖国列举》（Enumeración de la patria）及1942；此候选不推断版本或作品全集地位。",
+            "source_refs": [
+              "WCD10-B14-S201",
+              "WCD10-B14-S202",
+              "WCD10-B14-S203"
+            ]
+          }
+        ],
+        "remaining": "仅据Educ.ar已实读作者作品目录作有限书目登记；不声称全集覆盖，也未独立核实版本。",
+        "source_author_id": "V1-ENT-0285",
+        "formal_subject_id": "V1-ENT-0697",
+        "gap_id": "V1-GAP-0522"
+      },
+      {
+        "object_ref": "WCD10-B14-W206",
+        "entity": {
+          "entity_id": "WCD10-B14-W206",
+          "entity_type": "collection",
+          "name_zh_candidate": "《格律空间》",
+          "original_name": "Espacios métricos"
+        },
+        "bibliography": "Educ.ar目录列《Espacios métricos》为1942，文化部与Notre Dame特藏图书馆列为1945；大学特藏记为1945首版。冲突保留，首发年份原子值留空。",
+        "description": "该对象为诗集；Educ.ar列1942，文化部与大学特藏图书馆列1945，年份冲突故不填原子首发年。",
+        "research_status": "catalog_only",
+        "research_refs": [
+          "WCD10-B14-S201",
+          "WCD10-B14-S202",
+          "WCD10-B14-S203"
+        ],
+        "candidate_facts": [
+          {
+            "fact_candidate_id": "WCD10-B14-W206-F01",
+            "field": "genre_or_form",
+            "value": "诗集",
+            "source_refs": [
+              "WCD10-B14-S201",
+              "WCD10-B14-S202",
+              "WCD10-B14-S203"
+            ]
+          },
+          {
+            "fact_candidate_id": "WCD10-B14-W206-F03",
+            "field": "one_sentence_summary",
+            "value": "Educ.ar列1942，文化部与Notre Dame特藏图书馆列1945；冲突保留，不填原子首发年。",
+            "source_refs": [
+              "WCD10-B14-S201",
+              "WCD10-B14-S203"
+            ]
+          },
+          {
+            "fact_candidate_id": "WCD10-B14-W206-F04",
+            "field": "bibliographic_note",
+            "value": "Educ.ar目录列《Espacios métricos》为1942，文化部与Notre Dame特藏图书馆列为1945；大学特藏记为1945首版。冲突保留，首发年份原子值留空。",
+            "source_refs": [
+              "WCD10-B14-S201",
+              "WCD10-B14-S203",
+              "WCD10-B14-S202"
+            ]
+          }
+        ],
+        "remaining": "仅据Educ.ar已实读作者作品目录作有限书目登记；不声称全集覆盖，也未独立核实版本。",
+        "source_author_id": "V1-ENT-0285",
+        "formal_subject_id": "V1-ENT-0698",
+        "gap_id": "V1-GAP-0523"
+      }
+    ],
+    "deferred_objects": [
+      {
+        "author_id": "V1-ENT-0274",
+        "title": "《野兔》及其他目录作品的逐件简介/版本首年",
+        "reason": "Anagrama作者页将La liebre列为代表作，但本轮已打开页面未提供该书情节或版本级书目信息；避免由目录列名推断内容与年份。后续需打开具体出版社/图书馆书目页。"
+      },
+      {
+        "author_id": "V1-ENT-0274",
+        "title": "《野兔》及其他目录作品的逐件简介/版本首年",
+        "reason": "Anagrama作者页将La liebre列为代表作，但本轮已打开页面未提供该书情节或版本级书目信息；避免由目录列名推断内容与年份。后续需打开具体出版社/图书馆书目页。"
+      },
+      {
+        "author_id": "V1-ENT-0274",
+        "title": "El tilo",
+        "reason": "虽已发现评论文献讨论其出版于2003年及内容，但未核验出版社/图书馆作品专页；本轮暂不把论文二手概述作为获准普通书目来源。"
+      }
+    ],
+    "author_ids": [
+      "V1-ENT-0274",
+      "V1-ENT-0284",
+      "V1-ENT-0285"
+    ]
+  },
+  "metadata_hash_boundary": "metadata.sha256 is the unchanged V1.0.0 historical snapshot table-hash set, not a current-table digest. Current integrity uses baseline database SHA, reviewed SQL SHA, migration log, replay and deterministic exports.",
+  "sources": [
+    {
+      "candidate_id": "WCD10-B14-S001",
+      "source_id": "SRC-0725",
+      "scope_decision": {},
+      "accessed_at": "2026-10-13",
+      "verified_by": "Parent-reviewed WCD-10 B14 author source packages; individual verifier identities retained under author_policies.",
+      "copyright_boundary": "Research-only candidate metadata and bounded paraphrases; no substantial source text copied or retained. Original author boundaries retained under author_policies.",
+      "locator": "实读2026-10-13。Anagrama第480-510行；作品简介及Ficha técnica中的PUBLICACIÓN 01/02/2002。",
+      "usage": "支持作品书目、体裁/简介及所列出版社版本日期；不将该版本日期冒充首版年。",
+      "notes": ""
+    },
+    {
+      "candidate_id": "WCD10-B14-S002",
+      "source_id": "SRC-0726",
+      "scope_decision": {},
+      "accessed_at": "2026-10-13",
+      "verified_by": "Parent-reviewed WCD-10 B14 author source packages; individual verifier identities retained under author_policies.",
+      "copyright_boundary": "Research-only candidate metadata and bounded paraphrases; no substantial source text copied or retained. Original author boundaries retained under author_policies.",
+      "locator": "实读2026-10-13。第14-16行书名、作者；第35-39行小说体裁与六岁起叙事；第48-54行英文平装版2008-02-01及ISBN。",
+      "usage": "支持独立作品身份、小说体裁、有界简介和英文译本版次日期；不推定西语首版年。",
+      "notes": ""
+    },
+    {
+      "candidate_id": "WCD10-B14-S003",
+      "source_id": "SRC-0727",
+      "scope_decision": {},
+      "accessed_at": "2026-10-13",
+      "verified_by": "Parent-reviewed WCD-10 B14 author source packages; individual verifier identities retained under author_policies.",
+      "copyright_boundary": "Research-only candidate metadata and bounded paraphrases; no substantial source text copied or retained. Original author boundaries retained under author_policies.",
+      "locator": "实读2026-10-13。第348行标示Random House、2005年6月；第370行书名；第476-485行作品简介。",
+      "usage": "支持作品书目、体裁/简介及所列出版社版本日期；不将该版本日期冒充首版年。",
+      "notes": ""
+    },
+    {
+      "candidate_id": "WCD10-B14-S101",
+      "source_id": "SRC-0728",
+      "scope_decision": {
+        "disposition": "fresh_registration",
+        "notes": "支持文中逐项列示的书目及有限概要。"
+      },
+      "accessed_at": "2026-10-13",
+      "verified_by": "Parent-reviewed WCD-10 B14 author source packages; individual verifier identities retained under author_policies.",
+      "copyright_boundary": "Research-only candidate metadata and bounded paraphrases; no substantial source text copied or retained. Original author boundaries retained under author_policies.",
+      "locator": "网页段落34-37、41-58",
+      "usage": "直接支持作品题名/类别/出版年份；文化部段落支持所述概要。",
+      "notes": "支持文中逐项列示的书目及有限概要。"
+    },
+    {
+      "candidate_id": "WCD10-B14-S102",
+      "source_id": "SRC-0729",
+      "scope_decision": {
+        "disposition": "fresh_registration",
+        "notes": "仅使用作者书目章节所列作品/类别，不将当前版本出版日期误作初版年。"
+      },
+      "accessed_at": "2026-10-13",
+      "verified_by": "Parent-reviewed WCD-10 B14 author source packages; individual verifier identities retained under author_policies.",
+      "copyright_boundary": "Research-only candidate metadata and bounded paraphrases; no substantial source text copied or retained. Original author boundaries retained under author_policies.",
+      "locator": "作者书目段落90-92",
+      "usage": "直接支持作品题名/类别/出版年份；文化部段落支持所述概要。",
+      "notes": "仅使用作者书目章节所列作品/类别，不将当前版本出版日期误作初版年。"
+    },
+    {
+      "candidate_id": "WCD10-B14-S103",
+      "source_id": "SRC-0730",
+      "scope_decision": {
+        "disposition": "fresh_registration",
+        "notes": "仅支持相应作品页面直接列出的情节、体裁和书目信息；避免将当前版本年份误作原作初版。"
+      },
+      "accessed_at": "2026-10-13",
+      "verified_by": "Parent-reviewed WCD-10 B14 author source packages; individual verifier identities retained under author_policies.",
+      "copyright_boundary": "Research-only candidate metadata and bounded paraphrases; no substantial source text copied or retained. Original author boundaries retained under author_policies.",
+      "locator": "sinopsis网页段落21-23；作者书目段落66-68",
+      "usage": "出版社书目/作品简介，按实际定位范围限定使用。",
+      "notes": "仅支持相应作品页面直接列出的情节、体裁和书目信息；避免将当前版本年份误作原作初版。"
+    },
+    {
+      "candidate_id": "WCD10-B14-S104",
+      "source_id": "SRC-0731",
+      "scope_decision": {
+        "disposition": "fresh_registration",
+        "notes": "仅支持相应作品页面直接列出的情节、体裁和书目信息；避免将当前版本年份误作原作初版。"
+      },
+      "accessed_at": "2026-10-13",
+      "verified_by": "Parent-reviewed WCD-10 B14 author source packages; individual verifier identities retained under author_policies.",
+      "copyright_boundary": "Research-only candidate metadata and bounded paraphrases; no substantial source text copied or retained. Original author boundaries retained under author_policies.",
+      "locator": "作者书目段落73-77；Novela literaria主题与作品信息段落59-70",
+      "usage": "出版社书目/作品简介，按实际定位范围限定使用。",
+      "notes": "仅支持相应作品页面直接列出的情节、体裁和书目信息；避免将当前版本年份误作原作初版。"
+    },
+    {
+      "candidate_id": "WCD10-B14-S105",
+      "source_id": "SRC-0732",
+      "scope_decision": {
+        "disposition": "fresh_registration",
+        "notes": "仅支持相应作品页面直接列出的情节、体裁和书目信息；避免将当前版本年份误作原作初版。"
+      },
+      "accessed_at": "2026-10-13",
+      "verified_by": "Parent-reviewed WCD-10 B14 author source packages; individual verifier identities retained under author_policies.",
+      "copyright_boundary": "Research-only candidate metadata and bounded paraphrases; no substantial source text copied or retained. Original author boundaries retained under author_policies.",
+      "locator": "sinopsis段落19-23；Novela literaria分类段落50-60；作者书目段落63-67",
+      "usage": "出版社书目/作品简介，按实际定位范围限定使用。",
+      "notes": "仅支持相应作品页面直接列出的情节、体裁和书目信息；避免将当前版本年份误作原作初版。"
+    },
+    {
+      "candidate_id": "WCD10-B14-S201",
+      "source_id": "SRC-0227",
+      "disposition": "reuse_without_modifying_source",
+      "scope_decision": {
+        "candidate_ids": [
+          "WCD10-B14-S201"
+        ],
+        "related_existing_source": "SRC-0227",
+        "disposition": "reuse",
+        "notes": "已于2026-10-13直接打开Educ.ar页面；复用与冻结SRC-0227相同canonical URL，不改旧来源元数据。"
+      },
+      "accessed_at": "2026-10-13",
+      "verified_by": "Parent-reviewed WCD-10 B14 author source packages; individual verifier identities retained under author_policies.",
+      "copyright_boundary": "Research-only candidate metadata and bounded paraphrases; no substantial source text copied or retained. Original author boundaries retained under author_policies.",
+      "locator": "“Para leer”段落第49-50行：列示作者代表作品/诗集题名与年份；第39-41行提及《被遗忘的旅程》及两部合著/合编作品。实读2026-10-13。",
+      "usage": "直接作品目录书目；只支持该页面列明的题名/年份和有限作品分类。canonical URL与冻结来源SRC-0227相同，标注reuse_existing_source，保持旧source metadata不变。",
+      "notes": "规范机构教育门户页面，复用冻结正式来源SRC-0227，旧元数据不改。"
+    },
+    {
+      "candidate_id": "WCD10-B14-S202",
+      "source_id": "SRC-0228",
+      "disposition": "reuse_without_modifying_source",
+      "scope_decision": {
+        "candidate_ids": [
+          "WCD10-B14-S202"
+        ],
+        "related_existing_source": "SRC-0228",
+        "disposition": "reuse",
+        "notes": "2026-10-13实际打开阿根廷文化部门户作者作品目录；直接支持作品题名、形态和所列年份。不同机构对Autobiografía de Irene、Espacios métricos的年份不一致，候选不择年。"
+      },
+      "accessed_at": "2026-10-13",
+      "verified_by": "Parent-reviewed WCD-10 B14 author source packages; individual verifier identities retained under author_policies.",
+      "copyright_boundary": "Research-only candidate metadata and bounded paraphrases; no substantial source text copied or retained. Original author boundaries retained under author_policies.",
+      "locator": "第65-70行直接列诗集和故事集题名、年份及类别；第69行共同编选与共同写作；实读2026-10-13。",
+      "usage": "阿根廷政府文化门户作者作品目录，直接支持所列作品题名、类别和明示年份；与Educ.ar冲突的年份不选择，留空原子年并注记。",
+      "notes": "政府文化门户的作者作品目录；直接打开并核实相关作品条目。"
+    },
+    {
+      "candidate_id": "WCD10-B14-S203",
+      "source_id": "SRC-0733",
+      "scope_decision": {
+        "disposition": "fresh_registration",
+        "notes": "大学特藏作者页，明确列出初版特藏和作品清单；新注册。"
+      },
+      "accessed_at": "2026-10-13",
+      "verified_by": "Parent-reviewed WCD-10 B14 author source packages; individual verifier identities retained under author_policies.",
+      "copyright_boundary": "Research-only candidate metadata and bounded paraphrases; no substantial source text copied or retained. Original author boundaries retained under author_policies.",
+      "locator": "第42-47行列短篇集（含Autobiografía de Irene 1948、Los días de la noche 1970、Y así sucesivamente 1987、Cornelia frente al espejo 1988）；第52-54行列诗集年份（Enumeración de la patria 1942；Espacios métricos 1945）。实读2026-10-13。",
+      "usage": "大学特藏图书馆直接说明其持有作品初版；用于作品层级、形态和年份核对。对与Educ.ar年份冲突的Autobiografía de Irene及Espacios métricos不选择原子年，书目注记保留冲突。",
+      "notes": "大学特藏作者页，明确列出初版特藏和作品清单；新注册。"
+    }
+  ],
+  "facts": [
+    {
+      "candidate_id": "WCD10-B14-W001-F01",
+      "fact_id": "V1-FCT-2281",
+      "subject_id": "V1-ENT-0685",
+      "field": "genre_or_form"
+    },
+    {
+      "candidate_id": "WCD10-B14-W001-F02",
+      "fact_id": "V1-FCT-2282",
+      "subject_id": "V1-ENT-0685",
+      "field": "one_sentence_summary"
+    },
+    {
+      "candidate_id": "WCD10-B14-W001-F03",
+      "fact_id": "V1-FCT-2283",
+      "subject_id": "V1-ENT-0685",
+      "field": "bibliographic_note"
+    },
+    {
+      "candidate_id": "WCD10-B14-W002-F01",
+      "fact_id": "V1-FCT-2284",
+      "subject_id": "V1-ENT-0686",
+      "field": "genre_or_form"
+    },
+    {
+      "candidate_id": "WCD10-B14-W002-F02",
+      "fact_id": "V1-FCT-2285",
+      "subject_id": "V1-ENT-0686",
+      "field": "one_sentence_summary"
+    },
+    {
+      "candidate_id": "WCD10-B14-W002-F03",
+      "fact_id": "V1-FCT-2286",
+      "subject_id": "V1-ENT-0686",
+      "field": "bibliographic_note"
+    },
+    {
+      "candidate_id": "WCD10-B14-W003-F01",
+      "fact_id": "V1-FCT-2287",
+      "subject_id": "V1-ENT-0687",
+      "field": "genre_or_form"
+    },
+    {
+      "candidate_id": "WCD10-B14-W003-F02",
+      "fact_id": "V1-FCT-2288",
+      "subject_id": "V1-ENT-0687",
+      "field": "one_sentence_summary"
+    },
+    {
+      "candidate_id": "WCD10-B14-W003-F03",
+      "fact_id": "V1-FCT-2289",
+      "subject_id": "V1-ENT-0687",
+      "field": "bibliographic_note"
+    },
+    {
+      "candidate_id": "WCD10-B14-W101-F01",
+      "fact_id": "V1-FCT-2290",
+      "subject_id": "V1-ENT-0688",
+      "field": "first_publication_year"
+    },
+    {
+      "candidate_id": "WCD10-B14-W101-F02",
+      "fact_id": "V1-FCT-2291",
+      "subject_id": "V1-ENT-0688",
+      "field": "genre_or_form"
+    },
+    {
+      "candidate_id": "WCD10-B14-W101-F03",
+      "fact_id": "V1-FCT-2292",
+      "subject_id": "V1-ENT-0688",
+      "field": "one_sentence_summary"
+    },
+    {
+      "candidate_id": "WCD10-B14-W101-F04",
+      "fact_id": "V1-FCT-2293",
+      "subject_id": "V1-ENT-0688",
+      "field": "bibliographic_note"
+    },
+    {
+      "candidate_id": "WCD10-B14-W102-F01",
+      "fact_id": "V1-FCT-2294",
+      "subject_id": "V1-ENT-0689",
+      "field": "first_publication_year"
+    },
+    {
+      "candidate_id": "WCD10-B14-W102-F02",
+      "fact_id": "V1-FCT-2295",
+      "subject_id": "V1-ENT-0689",
+      "field": "genre_or_form"
+    },
+    {
+      "candidate_id": "WCD10-B14-W102-F03",
+      "fact_id": "V1-FCT-2296",
+      "subject_id": "V1-ENT-0689",
+      "field": "one_sentence_summary"
+    },
+    {
+      "candidate_id": "WCD10-B14-W102-F04",
+      "fact_id": "V1-FCT-2297",
+      "subject_id": "V1-ENT-0689",
+      "field": "bibliographic_note"
+    },
+    {
+      "candidate_id": "WCD10-B14-W103-F01",
+      "fact_id": "V1-FCT-2298",
+      "subject_id": "V1-ENT-0690",
+      "field": "first_publication_year"
+    },
+    {
+      "candidate_id": "WCD10-B14-W103-F02",
+      "fact_id": "V1-FCT-2299",
+      "subject_id": "V1-ENT-0690",
+      "field": "genre_or_form"
+    },
+    {
+      "candidate_id": "WCD10-B14-W103-F03",
+      "fact_id": "V1-FCT-2300",
+      "subject_id": "V1-ENT-0690",
+      "field": "one_sentence_summary"
+    },
+    {
+      "candidate_id": "WCD10-B14-W103-F04",
+      "fact_id": "V1-FCT-2301",
+      "subject_id": "V1-ENT-0690",
+      "field": "bibliographic_note"
+    },
+    {
+      "candidate_id": "WCD10-B14-W104-F01",
+      "fact_id": "V1-FCT-2302",
+      "subject_id": "V1-ENT-0691",
+      "field": "first_publication_year"
+    },
+    {
+      "candidate_id": "WCD10-B14-W104-F02",
+      "fact_id": "V1-FCT-2303",
+      "subject_id": "V1-ENT-0691",
+      "field": "genre_or_form"
+    },
+    {
+      "candidate_id": "WCD10-B14-W104-F03",
+      "fact_id": "V1-FCT-2304",
+      "subject_id": "V1-ENT-0691",
+      "field": "one_sentence_summary"
+    },
+    {
+      "candidate_id": "WCD10-B14-W104-F04",
+      "fact_id": "V1-FCT-2305",
+      "subject_id": "V1-ENT-0691",
+      "field": "bibliographic_note"
+    },
+    {
+      "candidate_id": "WCD10-B14-W105-F01",
+      "fact_id": "V1-FCT-2306",
+      "subject_id": "V1-ENT-0692",
+      "field": "first_publication_year"
+    },
+    {
+      "candidate_id": "WCD10-B14-W105-F02",
+      "fact_id": "V1-FCT-2307",
+      "subject_id": "V1-ENT-0692",
+      "field": "genre_or_form"
+    },
+    {
+      "candidate_id": "WCD10-B14-W105-F03",
+      "fact_id": "V1-FCT-2308",
+      "subject_id": "V1-ENT-0692",
+      "field": "one_sentence_summary"
+    },
+    {
+      "candidate_id": "WCD10-B14-W105-F04",
+      "fact_id": "V1-FCT-2309",
+      "subject_id": "V1-ENT-0692",
+      "field": "bibliographic_note"
+    },
+    {
+      "candidate_id": "WCD10-B14-W201-F01",
+      "fact_id": "V1-FCT-2310",
+      "subject_id": "V1-ENT-0693",
+      "field": "genre_or_form"
+    },
+    {
+      "candidate_id": "WCD10-B14-W201-F02",
+      "fact_id": "V1-FCT-2311",
+      "subject_id": "V1-ENT-0693",
+      "field": "one_sentence_summary"
+    },
+    {
+      "candidate_id": "WCD10-B14-W201-F03",
+      "fact_id": "V1-FCT-2312",
+      "subject_id": "V1-ENT-0693",
+      "field": "bibliographic_note"
+    },
+    {
+      "candidate_id": "WCD10-B14-W202-F01",
+      "fact_id": "V1-FCT-2313",
+      "subject_id": "V1-ENT-0694",
+      "field": "genre_or_form"
+    },
+    {
+      "candidate_id": "WCD10-B14-W202-F02",
+      "fact_id": "V1-FCT-2314",
+      "subject_id": "V1-ENT-0694",
+      "field": "first_publication_year"
+    },
+    {
+      "candidate_id": "WCD10-B14-W202-F03",
+      "fact_id": "V1-FCT-2315",
+      "subject_id": "V1-ENT-0694",
+      "field": "one_sentence_summary"
+    },
+    {
+      "candidate_id": "WCD10-B14-W202-F04",
+      "fact_id": "V1-FCT-2316",
+      "subject_id": "V1-ENT-0694",
+      "field": "bibliographic_note"
+    },
+    {
+      "candidate_id": "WCD10-B14-W203-F01",
+      "fact_id": "V1-FCT-2317",
+      "subject_id": "V1-ENT-0695",
+      "field": "genre_or_form"
+    },
+    {
+      "candidate_id": "WCD10-B14-W203-F02",
+      "fact_id": "V1-FCT-2318",
+      "subject_id": "V1-ENT-0695",
+      "field": "first_publication_year"
+    },
+    {
+      "candidate_id": "WCD10-B14-W203-F03",
+      "fact_id": "V1-FCT-2319",
+      "subject_id": "V1-ENT-0695",
+      "field": "one_sentence_summary"
+    },
+    {
+      "candidate_id": "WCD10-B14-W203-F04",
+      "fact_id": "V1-FCT-2320",
+      "subject_id": "V1-ENT-0695",
+      "field": "bibliographic_note"
+    },
+    {
+      "candidate_id": "WCD10-B14-W204-F01",
+      "fact_id": "V1-FCT-2321",
+      "subject_id": "V1-ENT-0696",
+      "field": "genre_or_form"
+    },
+    {
+      "candidate_id": "WCD10-B14-W204-F02",
+      "fact_id": "V1-FCT-2322",
+      "subject_id": "V1-ENT-0696",
+      "field": "first_publication_year"
+    },
+    {
+      "candidate_id": "WCD10-B14-W204-F03",
+      "fact_id": "V1-FCT-2323",
+      "subject_id": "V1-ENT-0696",
+      "field": "one_sentence_summary"
+    },
+    {
+      "candidate_id": "WCD10-B14-W204-F04",
+      "fact_id": "V1-FCT-2324",
+      "subject_id": "V1-ENT-0696",
+      "field": "bibliographic_note"
+    },
+    {
+      "candidate_id": "WCD10-B14-W205-F01",
+      "fact_id": "V1-FCT-2325",
+      "subject_id": "V1-ENT-0697",
+      "field": "genre_or_form"
+    },
+    {
+      "candidate_id": "WCD10-B14-W205-F02",
+      "fact_id": "V1-FCT-2326",
+      "subject_id": "V1-ENT-0697",
+      "field": "first_publication_year"
+    },
+    {
+      "candidate_id": "WCD10-B14-W205-F03",
+      "fact_id": "V1-FCT-2327",
+      "subject_id": "V1-ENT-0697",
+      "field": "one_sentence_summary"
+    },
+    {
+      "candidate_id": "WCD10-B14-W205-F04",
+      "fact_id": "V1-FCT-2328",
+      "subject_id": "V1-ENT-0697",
+      "field": "bibliographic_note"
+    },
+    {
+      "candidate_id": "WCD10-B14-W206-F01",
+      "fact_id": "V1-FCT-2329",
+      "subject_id": "V1-ENT-0698",
+      "field": "genre_or_form"
+    },
+    {
+      "candidate_id": "WCD10-B14-W206-F02",
+      "fact_id": "V1-FCT-2330",
+      "subject_id": "V1-ENT-0698",
+      "field": "one_sentence_summary"
+    },
+    {
+      "candidate_id": "WCD10-B14-W206-F03",
+      "fact_id": "V1-FCT-2331",
+      "subject_id": "V1-ENT-0698",
+      "field": "bibliographic_note"
+    }
+  ],
+  "cards": [
+    {
+      "subject_id": "V1-ENT-0685",
+      "card_id": "V1-CARD-0673",
+      "preserves_existing_cards": true
+    },
+    {
+      "subject_id": "V1-ENT-0686",
+      "card_id": "V1-CARD-0674",
+      "preserves_existing_cards": true
+    },
+    {
+      "subject_id": "V1-ENT-0687",
+      "card_id": "V1-CARD-0675",
+      "preserves_existing_cards": true
+    },
+    {
+      "subject_id": "V1-ENT-0688",
+      "card_id": "V1-CARD-0676",
+      "preserves_existing_cards": true
+    },
+    {
+      "subject_id": "V1-ENT-0689",
+      "card_id": "V1-CARD-0677",
+      "preserves_existing_cards": true
+    },
+    {
+      "subject_id": "V1-ENT-0690",
+      "card_id": "V1-CARD-0678",
+      "preserves_existing_cards": true
+    },
+    {
+      "subject_id": "V1-ENT-0691",
+      "card_id": "V1-CARD-0679",
+      "preserves_existing_cards": true
+    },
+    {
+      "subject_id": "V1-ENT-0692",
+      "card_id": "V1-CARD-0680",
+      "preserves_existing_cards": true
+    },
+    {
+      "subject_id": "V1-ENT-0693",
+      "card_id": "V1-CARD-0681",
+      "preserves_existing_cards": true
+    },
+    {
+      "subject_id": "V1-ENT-0694",
+      "card_id": "V1-CARD-0682",
+      "preserves_existing_cards": true
+    },
+    {
+      "subject_id": "V1-ENT-0695",
+      "card_id": "V1-CARD-0683",
+      "preserves_existing_cards": true
+    },
+    {
+      "subject_id": "V1-ENT-0696",
+      "card_id": "V1-CARD-0684",
+      "preserves_existing_cards": true
+    },
+    {
+      "subject_id": "V1-ENT-0697",
+      "card_id": "V1-CARD-0685",
+      "preserves_existing_cards": true
+    },
+    {
+      "subject_id": "V1-ENT-0698",
+      "card_id": "V1-CARD-0686",
+      "preserves_existing_cards": true
+    }
+  ],
+  "relationships": [
+    {
+      "candidate_id": "WCD10-B14-W001-CREATED",
+      "relationship_id": "V1-REL-0654",
+      "subject_id": "V1-ENT-0274",
+      "relation_type": "CREATED",
+      "object_id": "V1-ENT-0685"
+    },
+    {
+      "candidate_id": "WCD10-B14-W002-CREATED",
+      "relationship_id": "V1-REL-0655",
+      "subject_id": "V1-ENT-0274",
+      "relation_type": "CREATED",
+      "object_id": "V1-ENT-0686"
+    },
+    {
+      "candidate_id": "WCD10-B14-W003-CREATED",
+      "relationship_id": "V1-REL-0656",
+      "subject_id": "V1-ENT-0274",
+      "relation_type": "CREATED",
+      "object_id": "V1-ENT-0687"
+    },
+    {
+      "candidate_id": "WCD10-B14-W101-CREATED",
+      "relationship_id": "V1-REL-0657",
+      "subject_id": "V1-ENT-0284",
+      "relation_type": "CREATED",
+      "object_id": "V1-ENT-0688"
+    },
+    {
+      "candidate_id": "WCD10-B14-W102-CREATED",
+      "relationship_id": "V1-REL-0658",
+      "subject_id": "V1-ENT-0284",
+      "relation_type": "CREATED",
+      "object_id": "V1-ENT-0689"
+    },
+    {
+      "candidate_id": "WCD10-B14-W103-CREATED",
+      "relationship_id": "V1-REL-0659",
+      "subject_id": "V1-ENT-0284",
+      "relation_type": "CREATED",
+      "object_id": "V1-ENT-0690"
+    },
+    {
+      "candidate_id": "WCD10-B14-W104-CREATED",
+      "relationship_id": "V1-REL-0660",
+      "subject_id": "V1-ENT-0284",
+      "relation_type": "CREATED",
+      "object_id": "V1-ENT-0691"
+    },
+    {
+      "candidate_id": "WCD10-B14-W105-CREATED",
+      "relationship_id": "V1-REL-0661",
+      "subject_id": "V1-ENT-0284",
+      "relation_type": "CREATED",
+      "object_id": "V1-ENT-0692"
+    },
+    {
+      "candidate_id": "WCD10-B14-W201-CREATED",
+      "relationship_id": "V1-REL-0662",
+      "subject_id": "V1-ENT-0285",
+      "relation_type": "CREATED",
+      "object_id": "V1-ENT-0693"
+    },
+    {
+      "candidate_id": "WCD10-B14-W202-CREATED",
+      "relationship_id": "V1-REL-0663",
+      "subject_id": "V1-ENT-0285",
+      "relation_type": "CREATED",
+      "object_id": "V1-ENT-0694"
+    },
+    {
+      "candidate_id": "WCD10-B14-W203-CREATED",
+      "relationship_id": "V1-REL-0664",
+      "subject_id": "V1-ENT-0285",
+      "relation_type": "CREATED",
+      "object_id": "V1-ENT-0695"
+    },
+    {
+      "candidate_id": "WCD10-B14-W204-CREATED",
+      "relationship_id": "V1-REL-0665",
+      "subject_id": "V1-ENT-0285",
+      "relation_type": "CREATED",
+      "object_id": "V1-ENT-0696"
+    },
+    {
+      "candidate_id": "WCD10-B14-W205-CREATED",
+      "relationship_id": "V1-REL-0666",
+      "subject_id": "V1-ENT-0285",
+      "relation_type": "CREATED",
+      "object_id": "V1-ENT-0697"
+    },
+    {
+      "candidate_id": "WCD10-B14-W206-CREATED",
+      "relationship_id": "V1-REL-0667",
+      "subject_id": "V1-ENT-0285",
+      "relation_type": "CREATED",
+      "object_id": "V1-ENT-0698"
+    }
+  ],
+  "gaps": [
+    {
+      "gap_id": "V1-GAP-0499",
+      "key": "WCD10:B14:AIRA:remaining-bibliography"
+    },
+    {
+      "gap_id": "V1-GAP-0500",
+      "key": "WCD10:B14:AIRA:El-tilo"
+    },
+    {
+      "gap_id": "V1-GAP-0501",
+      "key": "WCD10:work_level_research:V1-ENT-0281"
+    },
+    {
+      "gap_id": "V1-GAP-0502",
+      "key": "WCD10:work_level_research:V1-ENT-0282"
+    },
+    {
+      "gap_id": "V1-GAP-0503",
+      "key": "WCD10:work_level_research:V1-ENT-0283"
+    },
+    {
+      "gap_id": "V1-GAP-0504",
+      "key": "WCD10:work_level_research:V1-ENT-0685"
+    },
+    {
+      "gap_id": "V1-GAP-0505",
+      "key": "WCD10:work_level_research:V1-ENT-0686"
+    },
+    {
+      "gap_id": "V1-GAP-0506",
+      "key": "WCD10:work_level_research:V1-ENT-0687"
+    },
+    {
+      "gap_id": "V1-GAP-0507",
+      "key": "WCD10:work_level_research:V1-ENT-0287"
+    },
+    {
+      "gap_id": "V1-GAP-0508",
+      "key": "WCD10:work_level_research:V1-ENT-0288"
+    },
+    {
+      "gap_id": "V1-GAP-0509",
+      "key": "WCD10:work_level_research:V1-ENT-0289"
+    },
+    {
+      "gap_id": "V1-GAP-0510",
+      "key": "WCD10:work_level_research:V1-ENT-0688"
+    },
+    {
+      "gap_id": "V1-GAP-0511",
+      "key": "WCD10:work_level_research:V1-ENT-0689"
+    },
+    {
+      "gap_id": "V1-GAP-0512",
+      "key": "WCD10:work_level_research:V1-ENT-0690"
+    },
+    {
+      "gap_id": "V1-GAP-0513",
+      "key": "WCD10:work_level_research:V1-ENT-0691"
+    },
+    {
+      "gap_id": "V1-GAP-0514",
+      "key": "WCD10:work_level_research:V1-ENT-0692"
+    },
+    {
+      "gap_id": "V1-GAP-0515",
+      "key": "WCD10:work_level_research:V1-ENT-0290"
+    },
+    {
+      "gap_id": "V1-GAP-0516",
+      "key": "WCD10:work_level_research:V1-ENT-0291"
+    },
+    {
+      "gap_id": "V1-GAP-0517",
+      "key": "WCD10:work_level_research:V1-ENT-0292"
+    },
+    {
+      "gap_id": "V1-GAP-0518",
+      "key": "WCD10:work_level_research:V1-ENT-0693"
+    },
+    {
+      "gap_id": "V1-GAP-0519",
+      "key": "WCD10:work_level_research:V1-ENT-0694"
+    },
+    {
+      "gap_id": "V1-GAP-0520",
+      "key": "WCD10:work_level_research:V1-ENT-0695"
+    },
+    {
+      "gap_id": "V1-GAP-0521",
+      "key": "WCD10:work_level_research:V1-ENT-0696"
+    },
+    {
+      "gap_id": "V1-GAP-0522",
+      "key": "WCD10:work_level_research:V1-ENT-0697"
+    },
+    {
+      "gap_id": "V1-GAP-0523",
+      "key": "WCD10:work_level_research:V1-ENT-0698"
+    }
+  ],
+  "public_boundary": "Research candidates only; no automatic Curation or public admission.",
+  "author_metadata_fallbacks": [
+    {
+      "author_id": "V1-ENT-0274",
+      "field": "language",
+      "value": "es",
+      "existing_card_ids": [
+        "V1-CARD-0162"
+      ],
+      "boundary": "Legacy card metadata reused; no new author fact"
+    },
+    {
+      "author_id": "V1-ENT-0284",
+      "field": "language",
+      "value": "es",
+      "existing_card_ids": [
+        "V1-CARD-0172"
+      ],
+      "boundary": "Legacy card metadata reused; no new author fact"
+    },
+    {
+      "author_id": "V1-ENT-0285",
+      "field": "language",
+      "value": "es",
+      "existing_card_ids": [
+        "V1-CARD-0173"
+      ],
+      "boundary": "Legacy card metadata reused; no new author fact"
+    }
+  ],
+  "counts": {
+    "sources": 9,
+    "entities": 14,
+    "entity_id_map": 14,
+    "content_cards": 14,
+    "facts": 51,
+    "card_facts": 51,
+    "fact_sources": 96,
+    "card_sources": 29,
+    "relationships": 17,
+    "relationship_sources": 28,
+    "relationship_evidence": 28,
+    "gaps": 25
+  },
+  "coauthor_reentry": [
+    {
+      "candidate_id": "WCD10-B14-R201",
+      "relationship_id": "V1-REL-0668",
+      "subject_id": "V1-ENT-0285",
+      "relation_type": "CREATED",
+      "object_id": "V1-ENT-0493"
+    },
+    {
+      "candidate_id": "WCD10-B14-R202",
+      "relationship_id": "V1-REL-0669",
+      "subject_id": "V1-ENT-0285",
+      "relation_type": "CREATED",
+      "object_id": "V1-ENT-0494"
+    },
+    {
+      "candidate_id": "WCD10-B14-R203",
+      "relationship_id": "V1-REL-0670",
+      "subject_id": "V1-ENT-0002",
+      "relation_type": "CREATED",
+      "object_id": "V1-ENT-0494"
+    }
+  ],
+  "coauthor_reentry_candidate_sha256": "df2aa6e83ab5ce005d1bcabb23e7262e77109b6e138bc808971e7d8996490242"
+}

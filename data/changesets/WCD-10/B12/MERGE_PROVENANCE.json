@@ -1,0 +1,599 @@
+{
+  "schema": "wcd10-b12-merge-provenance-1",
+  "task_id": "TASK-117",
+  "batch_id": "WCD-10-B12",
+  "status": "MERGED_CANDIDATE_MECHANICAL_COVERAGE_CORRECTION_PARENT_REVIEW_PENDING",
+  "parent_authorization": "Parent explicit MERGE ONLY authorization, 2026-10-13; final inputs bound by B12/FINAL_INPUTS.json",
+  "baseline_database_sha256": "7152ecc903ef7b610440a5173b0dd79d28ce25358b53ffa42512da6eb615db67",
+  "fixed_author_order": [
+    "V1-ENT-0250",
+    "V1-ENT-0260",
+    "V1-ENT-0261"
+  ],
+  "inputs": [
+    {
+      "author_id": "V1-ENT-0250",
+      "author": "Arreola",
+      "directory": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/project/internal/WCD_10_WORKSPACE/orchestration/wave-09/arreola/R1",
+      "freeze_manifest": {
+        "file": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/project/internal/WCD_10_WORKSPACE/orchestration/wave-09/arreola/R1/SHA256SUMS.json",
+        "sha256": "2f85bb056618809556687f240c9826506f4e51bd30ab12053bb67d71b386a229",
+        "files": {
+          "CANDIDATES.json": "ab7203be505440a7a4fe1cb738b1b8b557b4f2edd612527b3bf66b606df252b8",
+          "COVERAGE.json": "46075642e0f92cbb3b92d689e2857aa24d0d6a8bdbf6971a236dbd9070614890",
+          "SOURCE_REGISTRATION.json": "d042dfe7009e2fa9033f180aefbeedd1f3360d9350671540a6e3afed0410f7de",
+          "EVIDENCE_MATRIX.json": "08780548be3cf1559a78175ea7dec1f31e2497d492dcf7c42d593eaaebde3e1c",
+          "DEDUP.json": "87f9f25c3aa0624465959165165cf1b7bcb9db24d8324c4be840f195b3008022",
+          "SOURCE_ACCESS_LOG.json": "a3acf7733f4f4e1ddd6589678928efedd3da6427cc6dec100e607068befc757c",
+          "SELF_CHECK.json": "33c1d5df78ff7dff7de23363be36a015959ba98d1ee2814ae870c08bf0de296b",
+          "VALIDATOR_REPORT.json": "49ec73c86d044d2f21c666594b00fca0ee5ba30174d77b3bc307dc981ff320b8",
+          "HANDOFF.md": "cc8148521907d341fc667e8a0de01f7972aa3efc203cf0c7567ad71d62cfdcf4"
+        }
+      },
+      "candidate_sha256": "ab7203be505440a7a4fe1cb738b1b8b557b4f2edd612527b3bf66b606df252b8"
+    },
+    {
+      "author_id": "V1-ENT-0260",
+      "author": "Poniatowska",
+      "directory": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/project/internal/WCD_10_WORKSPACE/orchestration/wave-09/poniatowska",
+      "freeze_manifest": {
+        "file": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/project/internal/WCD_10_WORKSPACE/orchestration/wave-09/poniatowska/SHA256SUMS.json",
+        "sha256": "300defd4b6cdb4b7620f11b51f57ed284e2ce2efc42f52db81949a57895d3d51",
+        "files": {
+          "CANDIDATES.json": "49f539ab76dab4a0d744284474642d009633d11eacf62b5c095d8001a4017b40",
+          "COVERAGE.json": "4b3cf4cb8d78bde1f46078eb4ab6ad6556636bd285d3da0451de7ea8adb04af4",
+          "SOURCE_REGISTRATION.json": "96b9ecd46dd3d91c2f768dfdc4277d63582c755889916717f70fe9d7dc17aa73",
+          "EVIDENCE_MATRIX.json": "34f952bb3fdfa2cea671a995755eb92341f6255c1a468e871d6a24e5ad98ef76",
+          "DEDUP.json": "e6e4f32a5dcf1b2d8afc996af9d424c2c24e132ee8f1332dcc44319a0bf191b3",
+          "SOURCE_ACCESS_LOG.json": "c7bc138710d95c28eba330ba8e85b5ab878485d8ff15e73f79f0400ba34c2a72",
+          "SELF_CHECK.json": "a2043043bab6f57c0c6eb17f8e8374e4895e7905d903ab57a962d9c58f90a1b6",
+          "VALIDATOR_REPORT.json": "70915d5a9874e1f8580b952c8bad624c83978d0cb6f5f5160738ae9ef97ca33b",
+          "HANDOFF.md": "53f8adc0b35bacda36b296fc55b494f91ee597cee9daa4f224e90b1809a5d501"
+        }
+      },
+      "candidate_sha256": "49f539ab76dab4a0d744284474642d009633d11eacf62b5c095d8001a4017b40"
+    },
+    {
+      "author_id": "V1-ENT-0261",
+      "author": "Pacheco",
+      "directory": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/project/internal/WCD_10_WORKSPACE/orchestration/wave-09/pacheco/FINAL",
+      "freeze_manifest": {
+        "file": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/project/internal/WCD_10_WORKSPACE/orchestration/wave-09/pacheco/FINAL/SHA256SUMS.json",
+        "sha256": "65d63338f7c14da2d24100962f9abbc49c0b4a8bf73b9733d9dcd1c7d56b1d52",
+        "files": {
+          "CANDIDATES.json": "34a14c0167f284092c4a7d2155eee186421524464adc5d256760b89fe63a2223",
+          "COVERAGE.json": "a1f8d061f58d8a05b899ae6dce2365f6fe00b211964b8918f924b2888b5bddb6",
+          "SOURCE_REGISTRATION.json": "89670abf182286f95efa78933492d1f9dd0e35bc0a1828da76247ef6a3b91c29",
+          "EVIDENCE_MATRIX.json": "74ee2fd0eaf0d7a71a3a4a8b78bfbf4e14b18fbbfa6e1b40f55c45b4b9c5d70c",
+          "DEDUP.json": "78e0e3c5d057c7968a0d9087bee3a5a125bd42a595a1be01dc023f39a2d8b2dd",
+          "SOURCE_ACCESS_LOG.json": "edc18406b410fd7beddc5c32e5252178ba352b16690939285c05fc7478839ed7",
+          "SELF_CHECK.json": "e727b789ec7f4a34a55c6a4053258ec933360781f745799277e07866d2d8a4a1",
+          "VALIDATOR_REPORT.json": "58b7330b0177e1012a604167e85ff99fd4fbfaf1b6a3bf26a8dfc0f66fb44b32",
+          "HANDOFF.md": "8cd8fc6d4a21bf3d0ac9520b57e276315e5df8f63f98d022d6dd309d2ac2092b"
+        }
+      },
+      "candidate_sha256": "34a14c0167f284092c4a7d2155eee186421524464adc5d256760b89fe63a2223"
+    }
+  ],
+  "raw_commands": [
+    {
+      "argv": [
+        "python3",
+        "project/internal/WCD_10_WORKSPACE/orchestration/wave-09/integrator/merge_b12.py",
+        "--pins",
+        "project/internal/WCD_10_WORKSPACE/orchestration/wave-09/integrator/FINAL_PINS.json",
+        "--write",
+        "--authorization",
+        "Parent explicit MERGE ONLY authorization, 2026-10-13; final inputs bound by B12/FINAL_INPUTS.json",
+        "--provenance-output",
+        "project/internal/WCD_10_WORKSPACE/orchestration/wave-09/integrator/MERGE_EXECUTION.json"
+      ],
+      "working_directory": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图",
+      "exit_code": 0,
+      "stdout": "{\"write\": true, \"destination\": \"/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/work/codex-worktrees/latin-american-literature-map-wcd10/data/changesets/WCD-10/B12\", \"hashes\": {\"CANDIDATES.json\": \"b9d2b605a1585946a5964a2d05ac537c023b3e6edebbd936652eb7deaa37e222\", \"COVERAGE.json\": \"07f87b5e7f66e51ce6a8ffce76bfc1a464f079bf581176aff07c5d53961db101\", \"SOURCE_REGISTRATION.json\": \"1438fef918ceb73e7a708342f86d58a51459549476d2719e7bdee54f0179f268\", \"EVIDENCE_MATRIX.json\": \"76266aceea171ec6d00d2a92ebdecd35788aa523995807e521e815b281dfe7f0\", \"DEDUP.json\": \"9a1832c37e6af22fb76968360538f5e6c3958fadecc2ff73f0f247a825989419\", \"SOURCE_ACCESS_LOG.json\": \"584a787d9119c018564a80ca8d4d0d1b3bc7690c983427e5959d3851a1fbfbee\"}}\n",
+      "stderr": "",
+      "stdout_sha256": "2f6a3bf9cbd9da5c0be733971905c5bbe795588980e8e876c7a7b6169fbc5c54",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "script_sha256": "54e088b7ece6db0500ffd2f212e77a14a1b7780682414bc63eeb34e2dbc94a99"
+    }
+  ],
+  "merged_artifact_sha256": {
+    "CANDIDATES.json": "b9d2b605a1585946a5964a2d05ac537c023b3e6edebbd936652eb7deaa37e222",
+    "COVERAGE.json": "9d29975aa57e27b6e2be6c0be8e29f36fea0e5481e76cb44994bde6d8b345b2e",
+    "DEDUP.json": "9a1832c37e6af22fb76968360538f5e6c3958fadecc2ff73f0f247a825989419",
+    "EVIDENCE_MATRIX.json": "76266aceea171ec6d00d2a92ebdecd35788aa523995807e521e815b281dfe7f0",
+    "SOURCE_ACCESS_LOG.json": "584a787d9119c018564a80ca8d4d0d1b3bc7690c983427e5959d3851a1fbfbee",
+    "SOURCE_REGISTRATION.json": "1438fef918ceb73e7a708342f86d58a51459549476d2719e7bdee54f0179f268"
+  },
+  "database_writes": false,
+  "gate_created": false,
+  "sql_created": false,
+  "mechanical_coverage_correction": {
+    "authorization": "Parent explicit one-time mechanical coverage correction 2026-10-13",
+    "snapshot_directory": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/project/internal/WCD_10_WORKSPACE/B12/MERGED_INITIAL",
+    "snapshot_file_sha256": {
+      "CANDIDATES.json": "b9d2b605a1585946a5964a2d05ac537c023b3e6edebbd936652eb7deaa37e222",
+      "COVERAGE.json": "07f87b5e7f66e51ce6a8ffce76bfc1a464f079bf581176aff07c5d53961db101",
+      "SOURCE_REGISTRATION.json": "1438fef918ceb73e7a708342f86d58a51459549476d2719e7bdee54f0179f268",
+      "EVIDENCE_MATRIX.json": "76266aceea171ec6d00d2a92ebdecd35788aa523995807e521e815b281dfe7f0",
+      "DEDUP.json": "9a1832c37e6af22fb76968360538f5e6c3958fadecc2ff73f0f247a825989419",
+      "SOURCE_ACCESS_LOG.json": "584a787d9119c018564a80ca8d4d0d1b3bc7690c983427e5959d3851a1fbfbee",
+      "MERGE_PROVENANCE.json": "6d5277869f50b0f5981bb81442e8622efc2858548ad5c9649bc2b5e6a2681662"
+    },
+    "coverage_original_sha256": "07f87b5e7f66e51ce6a8ffce76bfc1a464f079bf581176aff07c5d53961db101",
+    "coverage_final_sha256": "9d29975aa57e27b6e2be6c0be8e29f36fea0e5481e76cb44994bde6d8b345b2e",
+    "removed_duplicate": {
+      "index": 3,
+      "object_ref": "WCD10-B12-W001",
+      "row_sha256": "281d56488d6ea503123c8b9ab370e49d28f68b27d19d12f96c554e261f333450",
+      "row": {
+        "object_ref": "WCD10-B12-W001",
+        "entity": {
+          "entity_id": "WCD10-B12-W001",
+          "entity_type": "work",
+          "name_zh": "《众人的时刻》",
+          "original_name": "La hora de todos",
+          "canonical_status": "candidate",
+          "origin_count": "1",
+          "origin_refs": "WCD-10-B12",
+          "normalization_basis": "CVC basic bibliography; one-act comic play",
+          "issue_codes": "NONE"
+        },
+        "bibliography": "CVC列Ediciones Los Presentes，1954。",
+        "description": "一部独幕喜剧剧本；CVC生平提及其剧作身份，书目不提供具体情节梗概。",
+        "research_status": "institutional_commentary",
+        "research_refs": [
+          "WCD10-B12-S001"
+        ],
+        "old_facts": [],
+        "old_cards": [],
+        "old_relations": [],
+        "old_fact_sources": [],
+        "old_card_sources": [],
+        "old_relationship_sources": [],
+        "old_relationship_evidence": [],
+        "old_source_objects": [],
+        "remaining": "仅有直接书目与生平介绍，未进行专门学术研究。",
+        "candidate_facts": []
+      }
+    },
+    "retained_w001_main_index_before": 4,
+    "retained_w001_facts": 4,
+    "main_rows_before": 32,
+    "main_rows_after": 31,
+    "corrected_rows": [
+      {
+        "object_ref": "V1-ENT-0257",
+        "original_candidate_facts_count": 2,
+        "corrected_candidate_facts_count": 2,
+        "original_candidate_facts_sha256": "326c1a138ca8a048af9d3a98586e32d184f75dafec52f71f4d455305888ae8af",
+        "corrected_candidate_facts_sha256": "882ce1033e6506ca628aead12690407aa401a57c07a5ec7d0482244edf53a012",
+        "candidate_fact_ids": [
+          "WCD10-B12-F001",
+          "WCD10-B12-F002"
+        ]
+      },
+      {
+        "object_ref": "V1-ENT-0258",
+        "original_candidate_facts_count": 2,
+        "corrected_candidate_facts_count": 2,
+        "original_candidate_facts_sha256": "2f46aa75cc298d5434c6fea2746f316047a44bea4f3e2fc04e95f00b087d051f",
+        "corrected_candidate_facts_sha256": "25bf486d122ca6d044724d91407dfaf274246ab5a89c77b29224be4a50aeebf5",
+        "candidate_fact_ids": [
+          "WCD10-B12-F003",
+          "WCD10-B12-F004"
+        ]
+      },
+      {
+        "object_ref": "V1-ENT-0259",
+        "original_candidate_facts_count": 2,
+        "corrected_candidate_facts_count": 2,
+        "original_candidate_facts_sha256": "06bd093dc9e699c99ee1e4960931eeb2061b11cc60eaae7143d341100b65754d",
+        "corrected_candidate_facts_sha256": "d66e96607ca9d5caf58c50651c4ba0ef99a00cb463e07fb8fc7e27c6b436f81f",
+        "candidate_fact_ids": [
+          "WCD10-B12-F005",
+          "WCD10-B12-F006"
+        ]
+      },
+      {
+        "object_ref": "WCD10-B12-W001",
+        "original_candidate_facts_count": 4,
+        "corrected_candidate_facts_count": 4,
+        "original_candidate_facts_sha256": "072a10bc3dcb28140b720b4daa5990f5a55671fdb5c4a30fc5753e7b00de2c89",
+        "corrected_candidate_facts_sha256": "9de751853e621d18b158ec8a0817d14d2b0ef390dfd400952025ab5db8d23df0",
+        "candidate_fact_ids": [
+          "WCD10-B12-W001-F01",
+          "WCD10-B12-W001-F02",
+          "WCD10-B12-W001-F03",
+          "WCD10-B12-W001-F04"
+        ]
+      },
+      {
+        "object_ref": "WCD10-B12-W002",
+        "original_candidate_facts_count": 4,
+        "corrected_candidate_facts_count": 4,
+        "original_candidate_facts_sha256": "95063490e7628849323f0058279abf970438942d64a0196cbd0b04ee8a83ec43",
+        "corrected_candidate_facts_sha256": "71a99d5e0b0e7191b73f7b197f742d85ecd9aba21d611891f0ff2d891818877f",
+        "candidate_fact_ids": [
+          "WCD10-B12-W002-F01",
+          "WCD10-B12-W002-F02",
+          "WCD10-B12-W002-F03",
+          "WCD10-B12-W002-F04"
+        ]
+      },
+      {
+        "object_ref": "WCD10-B12-W003",
+        "original_candidate_facts_count": 4,
+        "corrected_candidate_facts_count": 4,
+        "original_candidate_facts_sha256": "09b748a8e04a638676500e020959c694c76f220d247bd6f4f641de155d7c85e7",
+        "corrected_candidate_facts_sha256": "78ee2871dee0a2790ca581baec7b9ce36e8bfd0e66993f3464f402a1ad1561b6",
+        "candidate_fact_ids": [
+          "WCD10-B12-W003-F01",
+          "WCD10-B12-W003-F02",
+          "WCD10-B12-W003-F03",
+          "WCD10-B12-W003-F04"
+        ]
+      },
+      {
+        "object_ref": "V1-ENT-0263",
+        "original_candidate_facts_count": 2,
+        "corrected_candidate_facts_count": 2,
+        "original_candidate_facts_sha256": "8525ffe1b964f4883e0c451ac628d69f0846b69bb58ee0d8646379bac1e18b9e",
+        "corrected_candidate_facts_sha256": "8525ffe1b964f4883e0c451ac628d69f0846b69bb58ee0d8646379bac1e18b9e",
+        "candidate_fact_ids": [
+          "WCD10-B12-F103",
+          "WCD10-B12-F104"
+        ]
+      },
+      {
+        "object_ref": "V1-ENT-0264",
+        "original_candidate_facts_count": 2,
+        "corrected_candidate_facts_count": 2,
+        "original_candidate_facts_sha256": "9803f298fc3e2ea9bb6e2b931880997f7dcb59b03d21c564e5f039a0ea4b2516",
+        "corrected_candidate_facts_sha256": "9803f298fc3e2ea9bb6e2b931880997f7dcb59b03d21c564e5f039a0ea4b2516",
+        "candidate_fact_ids": [
+          "WCD10-B12-F101",
+          "WCD10-B12-F102"
+        ]
+      },
+      {
+        "object_ref": "V1-ENT-0265",
+        "original_candidate_facts_count": 2,
+        "corrected_candidate_facts_count": 2,
+        "original_candidate_facts_sha256": "060c74ab6c02584e5980e487caed0984ceca6cc1b7a59a08fe263f388a777474",
+        "corrected_candidate_facts_sha256": "060c74ab6c02584e5980e487caed0984ceca6cc1b7a59a08fe263f388a777474",
+        "candidate_fact_ids": [
+          "WCD10-B12-F105",
+          "WCD10-B12-F106"
+        ]
+      },
+      {
+        "object_ref": "WCD10-B12-W102",
+        "original_candidate_facts_count": 4,
+        "corrected_candidate_facts_count": 4,
+        "original_candidate_facts_sha256": "c26a0ca63d1045c154526a1f73779fd12acdf94960762e67ca4284fb1998dee5",
+        "corrected_candidate_facts_sha256": "c26a0ca63d1045c154526a1f73779fd12acdf94960762e67ca4284fb1998dee5",
+        "candidate_fact_ids": [
+          "WCD10-B12-W102-F01",
+          "WCD10-B12-W102-F02",
+          "WCD10-B12-W102-F03",
+          "WCD10-B12-W102-F04"
+        ]
+      },
+      {
+        "object_ref": "WCD10-B12-W101",
+        "original_candidate_facts_count": 3,
+        "corrected_candidate_facts_count": 3,
+        "original_candidate_facts_sha256": "478d76115dda542d21c6e0e3750ecabbfc4b70a9e6869f35478d7ef2af152b79",
+        "corrected_candidate_facts_sha256": "478d76115dda542d21c6e0e3750ecabbfc4b70a9e6869f35478d7ef2af152b79",
+        "candidate_fact_ids": [
+          "WCD10-B12-W101-F02",
+          "WCD10-B12-W101-F03",
+          "WCD10-B12-W101-F04"
+        ]
+      },
+      {
+        "object_ref": "V1-ENT-0268",
+        "original_candidate_facts_count": 2,
+        "corrected_candidate_facts_count": 2,
+        "original_candidate_facts_sha256": "147b68a47cd3f2494d2709e0e75aec837cb01fabcdd492be48f569541c163a1f",
+        "corrected_candidate_facts_sha256": "147b68a47cd3f2494d2709e0e75aec837cb01fabcdd492be48f569541c163a1f",
+        "candidate_fact_ids": [
+          "WCD10-B12-F274",
+          "WCD10-B12-F275"
+        ]
+      },
+      {
+        "object_ref": "V1-ENT-0267",
+        "original_candidate_facts_count": 2,
+        "corrected_candidate_facts_count": 2,
+        "original_candidate_facts_sha256": "bf1120578d32a7759b562a28eff88ca53cba7ecbba4381c12a5d6a97daf9b77a",
+        "corrected_candidate_facts_sha256": "bf1120578d32a7759b562a28eff88ca53cba7ecbba4381c12a5d6a97daf9b77a",
+        "candidate_fact_ids": [
+          "WCD10-B12-F272",
+          "WCD10-B12-F273"
+        ]
+      },
+      {
+        "object_ref": "V1-ENT-0266",
+        "original_candidate_facts_count": 2,
+        "corrected_candidate_facts_count": 2,
+        "original_candidate_facts_sha256": "1ed0cbc857bd9f9a6e49fa78dbf8a9ba4c2369e43af5dc69919c62a9af1a1768",
+        "corrected_candidate_facts_sha256": "1ed0cbc857bd9f9a6e49fa78dbf8a9ba4c2369e43af5dc69919c62a9af1a1768",
+        "candidate_fact_ids": [
+          "WCD10-B12-F270",
+          "WCD10-B12-F271"
+        ]
+      },
+      {
+        "object_ref": "WCD10-B12-W201",
+        "original_candidate_facts_count": 3,
+        "corrected_candidate_facts_count": 3,
+        "original_candidate_facts_sha256": "1400944eb9fd37e57f5f5d391be6f6da11c3f759748a68cb985f5aa193635bb5",
+        "corrected_candidate_facts_sha256": "1400944eb9fd37e57f5f5d391be6f6da11c3f759748a68cb985f5aa193635bb5",
+        "candidate_fact_ids": [
+          "WCD10-B12-F202",
+          "WCD10-B12-F203",
+          "WCD10-B12-F204"
+        ]
+      },
+      {
+        "object_ref": "WCD10-B12-W202",
+        "original_candidate_facts_count": 4,
+        "corrected_candidate_facts_count": 4,
+        "original_candidate_facts_sha256": "4362d31823447d534b986fb394e742d416f56f10de50bfe92db8b517233d20d4",
+        "corrected_candidate_facts_sha256": "4362d31823447d534b986fb394e742d416f56f10de50bfe92db8b517233d20d4",
+        "candidate_fact_ids": [
+          "WCD10-B12-F205",
+          "WCD10-B12-F206",
+          "WCD10-B12-F207",
+          "WCD10-B12-F208"
+        ]
+      },
+      {
+        "object_ref": "WCD10-B12-W203",
+        "original_candidate_facts_count": 4,
+        "corrected_candidate_facts_count": 4,
+        "original_candidate_facts_sha256": "921b9a0d8d95cab845a3c8f082f48188b9c2d357a90a106f1ae8e63381e4b047",
+        "corrected_candidate_facts_sha256": "921b9a0d8d95cab845a3c8f082f48188b9c2d357a90a106f1ae8e63381e4b047",
+        "candidate_fact_ids": [
+          "WCD10-B12-F209",
+          "WCD10-B12-F210",
+          "WCD10-B12-F211",
+          "WCD10-B12-F212"
+        ]
+      },
+      {
+        "object_ref": "WCD10-B12-W204",
+        "original_candidate_facts_count": 4,
+        "corrected_candidate_facts_count": 4,
+        "original_candidate_facts_sha256": "e0565faf620a6ec905c3a705c982516ae888b0f90c0b254b515e6235bb89de37",
+        "corrected_candidate_facts_sha256": "e0565faf620a6ec905c3a705c982516ae888b0f90c0b254b515e6235bb89de37",
+        "candidate_fact_ids": [
+          "WCD10-B12-F213",
+          "WCD10-B12-F214",
+          "WCD10-B12-F215",
+          "WCD10-B12-F216"
+        ]
+      },
+      {
+        "object_ref": "WCD10-B12-W205",
+        "original_candidate_facts_count": 4,
+        "corrected_candidate_facts_count": 4,
+        "original_candidate_facts_sha256": "773724104f1f5527cd44f49d64b136d80b51115e6163910db58ad0d6c3a3c1d9",
+        "corrected_candidate_facts_sha256": "773724104f1f5527cd44f49d64b136d80b51115e6163910db58ad0d6c3a3c1d9",
+        "candidate_fact_ids": [
+          "WCD10-B12-F217",
+          "WCD10-B12-F218",
+          "WCD10-B12-F219",
+          "WCD10-B12-F220"
+        ]
+      },
+      {
+        "object_ref": "WCD10-B12-W206",
+        "original_candidate_facts_count": 3,
+        "corrected_candidate_facts_count": 3,
+        "original_candidate_facts_sha256": "c9b1ac15576fffb9172ac349a28097965ad1684f475814283ebda25f3f44289a",
+        "corrected_candidate_facts_sha256": "c9b1ac15576fffb9172ac349a28097965ad1684f475814283ebda25f3f44289a",
+        "candidate_fact_ids": [
+          "WCD10-B12-F221",
+          "WCD10-B12-F222",
+          "WCD10-B12-F223"
+        ]
+      },
+      {
+        "object_ref": "WCD10-B12-W207",
+        "original_candidate_facts_count": 4,
+        "corrected_candidate_facts_count": 4,
+        "original_candidate_facts_sha256": "c83701e62a69f53efac65a71f0d647bead9756ef23ee8c689e34ce2ce529d75b",
+        "corrected_candidate_facts_sha256": "c83701e62a69f53efac65a71f0d647bead9756ef23ee8c689e34ce2ce529d75b",
+        "candidate_fact_ids": [
+          "WCD10-B12-F224",
+          "WCD10-B12-F225",
+          "WCD10-B12-F226",
+          "WCD10-B12-F227"
+        ]
+      },
+      {
+        "object_ref": "WCD10-B12-W208",
+        "original_candidate_facts_count": 3,
+        "corrected_candidate_facts_count": 3,
+        "original_candidate_facts_sha256": "7b50c0f19b027b9f7669bdc88bbba3c2dead78a7bf91afa6735372d7c13989e2",
+        "corrected_candidate_facts_sha256": "7b50c0f19b027b9f7669bdc88bbba3c2dead78a7bf91afa6735372d7c13989e2",
+        "candidate_fact_ids": [
+          "WCD10-B12-F228",
+          "WCD10-B12-F229",
+          "WCD10-B12-F230"
+        ]
+      },
+      {
+        "object_ref": "WCD10-B12-W209",
+        "original_candidate_facts_count": 3,
+        "corrected_candidate_facts_count": 3,
+        "original_candidate_facts_sha256": "37a8a60d2d5f08ba386b2513dc3454ae38a55d600789253e9a768b7cec3faacd",
+        "corrected_candidate_facts_sha256": "37a8a60d2d5f08ba386b2513dc3454ae38a55d600789253e9a768b7cec3faacd",
+        "candidate_fact_ids": [
+          "WCD10-B12-F231",
+          "WCD10-B12-F232",
+          "WCD10-B12-F233"
+        ]
+      },
+      {
+        "object_ref": "WCD10-B12-W210",
+        "original_candidate_facts_count": 4,
+        "corrected_candidate_facts_count": 4,
+        "original_candidate_facts_sha256": "59551cf36884f68f45f13b9e97c62f8340be53612162cc53f6e8a9935d453554",
+        "corrected_candidate_facts_sha256": "59551cf36884f68f45f13b9e97c62f8340be53612162cc53f6e8a9935d453554",
+        "candidate_fact_ids": [
+          "WCD10-B12-F234",
+          "WCD10-B12-F235",
+          "WCD10-B12-F236",
+          "WCD10-B12-F237"
+        ]
+      },
+      {
+        "object_ref": "WCD10-B12-W211",
+        "original_candidate_facts_count": 4,
+        "corrected_candidate_facts_count": 4,
+        "original_candidate_facts_sha256": "c470b67afc7bd010972062f12cb8051e6ac5005562b6702c3c1d63233f03a891",
+        "corrected_candidate_facts_sha256": "c470b67afc7bd010972062f12cb8051e6ac5005562b6702c3c1d63233f03a891",
+        "candidate_fact_ids": [
+          "WCD10-B12-F238",
+          "WCD10-B12-F239",
+          "WCD10-B12-F240",
+          "WCD10-B12-F241"
+        ]
+      },
+      {
+        "object_ref": "WCD10-B12-W212",
+        "original_candidate_facts_count": 4,
+        "corrected_candidate_facts_count": 4,
+        "original_candidate_facts_sha256": "77fdeb9a1a2bd90dd6d839318f03fa2b59eaf8ed15d9f6b936242c127b4cbb0c",
+        "corrected_candidate_facts_sha256": "77fdeb9a1a2bd90dd6d839318f03fa2b59eaf8ed15d9f6b936242c127b4cbb0c",
+        "candidate_fact_ids": [
+          "WCD10-B12-F242",
+          "WCD10-B12-F243",
+          "WCD10-B12-F244",
+          "WCD10-B12-F245"
+        ]
+      },
+      {
+        "object_ref": "WCD10-B12-W213",
+        "original_candidate_facts_count": 4,
+        "corrected_candidate_facts_count": 4,
+        "original_candidate_facts_sha256": "08d1d88e0cf76ecc9f04598db7a34387c588df9a632da351bcc04f355363bfc3",
+        "corrected_candidate_facts_sha256": "08d1d88e0cf76ecc9f04598db7a34387c588df9a632da351bcc04f355363bfc3",
+        "candidate_fact_ids": [
+          "WCD10-B12-F246",
+          "WCD10-B12-F247",
+          "WCD10-B12-F248",
+          "WCD10-B12-F249"
+        ]
+      },
+      {
+        "object_ref": "WCD10-B12-W214",
+        "original_candidate_facts_count": 4,
+        "corrected_candidate_facts_count": 4,
+        "original_candidate_facts_sha256": "14b1c34339148f05463284eb4ab95c14f3fa1afa448ae6c3e8817eec3e5938f0",
+        "corrected_candidate_facts_sha256": "14b1c34339148f05463284eb4ab95c14f3fa1afa448ae6c3e8817eec3e5938f0",
+        "candidate_fact_ids": [
+          "WCD10-B12-F250",
+          "WCD10-B12-F251",
+          "WCD10-B12-F252",
+          "WCD10-B12-F253"
+        ]
+      },
+      {
+        "object_ref": "WCD10-B12-W215",
+        "original_candidate_facts_count": 4,
+        "corrected_candidate_facts_count": 4,
+        "original_candidate_facts_sha256": "037489d263277cf0dcc9ccf3c16f79475aad91dffb0d609abba1063beef1cab6",
+        "corrected_candidate_facts_sha256": "037489d263277cf0dcc9ccf3c16f79475aad91dffb0d609abba1063beef1cab6",
+        "candidate_fact_ids": [
+          "WCD10-B12-F254",
+          "WCD10-B12-F255",
+          "WCD10-B12-F256",
+          "WCD10-B12-F257"
+        ]
+      },
+      {
+        "object_ref": "WCD10-B12-W216",
+        "original_candidate_facts_count": 4,
+        "corrected_candidate_facts_count": 4,
+        "original_candidate_facts_sha256": "55296b4ae5b105368ad998cbbe4e1738962cec7d326463b44dee6c99e2311504",
+        "corrected_candidate_facts_sha256": "55296b4ae5b105368ad998cbbe4e1738962cec7d326463b44dee6c99e2311504",
+        "candidate_fact_ids": [
+          "WCD10-B12-F258",
+          "WCD10-B12-F259",
+          "WCD10-B12-F260",
+          "WCD10-B12-F261"
+        ]
+      },
+      {
+        "object_ref": "WCD10-B12-W218",
+        "original_candidate_facts_count": 4,
+        "corrected_candidate_facts_count": 4,
+        "original_candidate_facts_sha256": "8551ba70812e4097916cabb820193badaf5eb2c079185f285a8b2aaab0a8d7e1",
+        "corrected_candidate_facts_sha256": "8551ba70812e4097916cabb820193badaf5eb2c079185f285a8b2aaab0a8d7e1",
+        "candidate_fact_ids": [
+          "WCD10-B12-F266",
+          "WCD10-B12-F267",
+          "WCD10-B12-F268",
+          "WCD10-B12-F269"
+        ]
+      }
+    ],
+    "non_coverage_candidate_matrix_profiles_access_dedup_hashes_unchanged": true,
+    "final_non_provenance_hashes": {
+      "CANDIDATES.json": "b9d2b605a1585946a5964a2d05ac537c023b3e6edebbd936652eb7deaa37e222",
+      "COVERAGE.json": "9d29975aa57e27b6e2be6c0be8e29f36fea0e5481e76cb44994bde6d8b345b2e",
+      "DEDUP.json": "9a1832c37e6af22fb76968360538f5e6c3958fadecc2ff73f0f247a825989419",
+      "EVIDENCE_MATRIX.json": "76266aceea171ec6d00d2a92ebdecd35788aa523995807e521e815b281dfe7f0",
+      "SOURCE_ACCESS_LOG.json": "584a787d9119c018564a80ca8d4d0d1b3bc7690c983427e5959d3851a1fbfbee",
+      "SOURCE_REGISTRATION.json": "1438fef918ceb73e7a708342f86d58a51459549476d2719e7bdee54f0179f268"
+    },
+    "raw_command": {
+      "argv": [
+        "python3",
+        "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/project/internal/WCD_10_WORKSPACE/orchestration/wave-09/integrator/correct_coverage.py"
+      ],
+      "working_directory": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图",
+      "exit_code": 0,
+      "stdout": "{\"snapshot_directory\": \"/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/project/internal/WCD_10_WORKSPACE/B12/MERGED_INITIAL\", \"snapshot_file_sha256\": {\"CANDIDATES.json\": \"b9d2b605a1585946a5964a2d05ac537c023b3e6edebbd936652eb7deaa37e222\", \"COVERAGE.json\": \"07f87b5e7f66e51ce6a8ffce76bfc1a464f079bf581176aff07c5d53961db101\", \"SOURCE_REGISTRATION.json\": \"1438fef918ceb73e7a708342f86d58a51459549476d2719e7bdee54f0179f268\", \"EVIDENCE_MATRIX.json\": \"76266aceea171ec6d00d2a92ebdecd35788aa523995807e521e815b281dfe7f0\", \"DEDUP.json\": \"9a1832c37e6af22fb76968360538f5e6c3958fadecc2ff73f0f247a825989419\", \"SOURCE_ACCESS_LOG.json\": \"584a787d9119c018564a80ca8d4d0d1b3bc7690c983427e5959d3851a1fbfbee\", \"MERGE_PROVENANCE.json\": \"6d5277869f50b0f5981bb81442e8622efc2858548ad5c9649bc2b5e6a2681662\"}, \"coverage_original_sha256\": \"07f87b5e7f66e51ce6a8ffce76bfc1a464f079bf581176aff07c5d53961db101\", \"coverage_final_sha256\": \"9d29975aa57e27b6e2be6c0be8e29f36fea0e5481e76cb44994bde6d8b345b2e\", \"removed_duplicate\": {\"index\": 3, \"object_ref\": \"WCD10-B12-W001\", \"row_sha256\": \"281d56488d6ea503123c8b9ab370e49d28f68b27d19d12f96c554e261f333450\", \"row\": {\"object_ref\": \"WCD10-B12-W001\", \"entity\": {\"entity_id\": \"WCD10-B12-W001\", \"entity_type\": \"work\", \"name_zh\": \"《众人的时刻》\", \"original_name\": \"La hora de todos\", \"canonical_status\": \"candidate\", \"origin_count\": \"1\", \"origin_refs\": \"WCD-10-B12\", \"normalization_basis\": \"CVC basic bibliography; one-act comic play\", \"issue_codes\": \"NONE\"}, \"bibliography\": \"CVC列Ediciones Los Presentes，1954。\", \"description\": \"一部独幕喜剧剧本；CVC生平提及其剧作身份，书目不提供具体情节梗概。\", \"research_status\": \"institutional_commentary\", \"research_refs\": [\"WCD10-B12-S001\"], \"old_facts\": [], \"old_cards\": [], \"old_relations\": [], \"old_fact_sources\": [], \"old_card_sources\": [], \"old_relationship_sources\": [], \"old_relationship_evidence\": [], \"old_source_objects\": [], \"remaining\": \"仅有直接书目与生平介绍，未进行专门学术研究。\", \"candidate_facts\": []}}, \"retained_w001_main_index_before\": 4, \"retained_w001_facts\": 4, \"main_rows_before\": 32, \"main_rows_after\": 31, \"corrected_rows\": [{\"object_ref\": \"V1-ENT-0257\", \"original_candidate_facts_count\": 2, \"corrected_candidate_facts_count\": 2, \"original_candidate_facts_sha256\": \"326c1a138ca8a048af9d3a98586e32d184f75dafec52f71f4d455305888ae8af\", \"corrected_candidate_facts_sha256\": \"882ce1033e6506ca628aead12690407aa401a57c07a5ec7d0482244edf53a012\", \"candidate_fact_ids\": [\"WCD10-B12-F001\", \"WCD10-B12-F002\"]}, {\"object_ref\": \"V1-ENT-0258\", \"original_candidate_facts_count\": 2, \"corrected_candidate_facts_count\": 2, \"original_candidate_facts_sha256\": \"2f46aa75cc298d5434c6fea2746f316047a44bea4f3e2fc04e95f00b087d051f\", \"corrected_candidate_facts_sha256\": \"25bf486d122ca6d044724d91407dfaf274246ab5a89c77b29224be4a50aeebf5\", \"candidate_fact_ids\": [\"WCD10-B12-F003\", \"WCD10-B12-F004\"]}, {\"object_ref\": \"V1-ENT-0259\", \"original_candidate_facts_count\": 2, \"corrected_candidate_facts_count\": 2, \"original_candidate_facts_sha256\": \"06bd093dc9e699c99ee1e4960931eeb2061b11cc60eaae7143d341100b65754d\", \"corrected_candidate_facts_sha256\": \"d66e96607ca9d5caf58c50651c4ba0ef99a00cb463e07fb8fc7e27c6b436f81f\", \"candidate_fact_ids\": [\"WCD10-B12-F005\", \"WCD10-B12-F006\"]}, {\"object_ref\": \"WCD10-B12-W001\", \"original_candidate_facts_count\": 4, \"corrected_candidate_facts_count\": 4, \"original_candidate_facts_sha256\": \"072a10bc3dcb28140b720b4daa5990f5a55671fdb5c4a30fc5753e7b00de2c89\", \"corrected_candidate_facts_sha256\": \"9de751853e621d18b158ec8a0817d14d2b0ef390dfd400952025ab5db8d23df0\", \"candidate_fact_ids\": [\"WCD10-B12-W001-F01\", \"WCD10-B12-W001-F02\", \"WCD10-B12-W001-F03\", \"WCD10-B12-W001-F04\"]}, {\"object_ref\": \"WCD10-B12-W002\", \"original_candidate_facts_count\": 4, \"corrected_candidate_facts_count\": 4, \"original_candidate_facts_sha256\": \"95063490e7628849323f0058279abf970438942d64a0196cbd0b04ee8a83ec43\", \"corrected_candidate_facts_sha256\": \"71a99d5e0b0e7191b73f7b197f742d85ecd9aba21d611891f0ff2d891818877f\", \"candidate_fact_ids\": [\"WCD10-B12-W002-F01\", \"WCD10-B12-W002-F02\", \"WCD10-B12-W002-F03\", \"WCD10-B12-W002-F04\"]}, {\"object_ref\": \"WCD10-B12-W003\", \"original_candidate_facts_count\": 4, \"corrected_candidate_facts_count\": 4, \"original_candidate_facts_sha256\": \"09b748a8e04a638676500e020959c694c76f220d247bd6f4f641de155d7c85e7\", \"corrected_candidate_facts_sha256\": \"78ee2871dee0a2790ca581baec7b9ce36e8bfd0e66993f3464f402a1ad1561b6\", \"candidate_fact_ids\": [\"WCD10-B12-W003-F01\", \"WCD10-B12-W003-F02\", \"WCD10-B12-W003-F03\", \"WCD10-B12-W003-F04\"]}, {\"object_ref\": \"V1-ENT-0263\", \"original_candidate_facts_count\": 2, \"corrected_candidate_facts_count\": 2, \"original_candidate_facts_sha256\": \"8525ffe1b964f4883e0c451ac628d69f0846b69bb58ee0d8646379bac1e18b9e\", \"corrected_candidate_facts_sha256\": \"8525ffe1b964f4883e0c451ac628d69f0846b69bb58ee0d8646379bac1e18b9e\", \"candidate_fact_ids\": [\"WCD10-B12-F103\", \"WCD10-B12-F104\"]}, {\"object_ref\": \"V1-ENT-0264\", \"original_candidate_facts_count\": 2, \"corrected_candidate_facts_count\": 2, \"original_candidate_facts_sha256\": \"9803f298fc3e2ea9bb6e2b931880997f7dcb59b03d21c564e5f039a0ea4b2516\", \"corrected_candidate_facts_sha256\": \"9803f298fc3e2ea9bb6e2b931880997f7dcb59b03d21c564e5f039a0ea4b2516\", \"candidate_fact_ids\": [\"WCD10-B12-F101\", \"WCD10-B12-F102\"]}, {\"object_ref\": \"V1-ENT-0265\", \"original_candidate_facts_count\": 2, \"corrected_candidate_facts_count\": 2, \"original_candidate_facts_sha256\": \"060c74ab6c02584e5980e487caed0984ceca6cc1b7a59a08fe263f388a777474\", \"corrected_candidate_facts_sha256\": \"060c74ab6c02584e5980e487caed0984ceca6cc1b7a59a08fe263f388a777474\", \"candidate_fact_ids\": [\"WCD10-B12-F105\", \"WCD10-B12-F106\"]}, {\"object_ref\": \"WCD10-B12-W102\", \"original_candidate_facts_count\": 4, \"corrected_candidate_facts_count\": 4, \"original_candidate_facts_sha256\": \"c26a0ca63d1045c154526a1f73779fd12acdf94960762e67ca4284fb1998dee5\", \"corrected_candidate_facts_sha256\": \"c26a0ca63d1045c154526a1f73779fd12acdf94960762e67ca4284fb1998dee5\", \"candidate_fact_ids\": [\"WCD10-B12-W102-F01\", \"WCD10-B12-W102-F02\", \"WCD10-B12-W102-F03\", \"WCD10-B12-W102-F04\"]}, {\"object_ref\": \"WCD10-B12-W101\", \"original_candidate_facts_count\": 3, \"corrected_candidate_facts_count\": 3, \"original_candidate_facts_sha256\": \"478d76115dda542d21c6e0e3750ecabbfc4b70a9e6869f35478d7ef2af152b79\", \"corrected_candidate_facts_sha256\": \"478d76115dda542d21c6e0e3750ecabbfc4b70a9e6869f35478d7ef2af152b79\", \"candidate_fact_ids\": [\"WCD10-B12-W101-F02\", \"WCD10-B12-W101-F03\", \"WCD10-B12-W101-F04\"]}, {\"object_ref\": \"V1-ENT-0268\", \"original_candidate_facts_count\": 2, \"corrected_candidate_facts_count\": 2, \"original_candidate_facts_sha256\": \"147b68a47cd3f2494d2709e0e75aec837cb01fabcdd492be48f569541c163a1f\", \"corrected_candidate_facts_sha256\": \"147b68a47cd3f2494d2709e0e75aec837cb01fabcdd492be48f569541c163a1f\", \"candidate_fact_ids\": [\"WCD10-B12-F274\", \"WCD10-B12-F275\"]}, {\"object_ref\": \"V1-ENT-0267\", \"original_candidate_facts_count\": 2, \"corrected_candidate_facts_count\": 2, \"original_candidate_facts_sha256\": \"bf1120578d32a7759b562a28eff88ca53cba7ecbba4381c12a5d6a97daf9b77a\", \"corrected_candidate_facts_sha256\": \"bf1120578d32a7759b562a28eff88ca53cba7ecbba4381c12a5d6a97daf9b77a\", \"candidate_fact_ids\": [\"WCD10-B12-F272\", \"WCD10-B12-F273\"]}, {\"object_ref\": \"V1-ENT-0266\", \"original_candidate_facts_count\": 2, \"corrected_candidate_facts_count\": 2, \"original_candidate_facts_sha256\": \"1ed0cbc857bd9f9a6e49fa78dbf8a9ba4c2369e43af5dc69919c62a9af1a1768\", \"corrected_candidate_facts_sha256\": \"1ed0cbc857bd9f9a6e49fa78dbf8a9ba4c2369e43af5dc69919c62a9af1a1768\", \"candidate_fact_ids\": [\"WCD10-B12-F270\", \"WCD10-B12-F271\"]}, {\"object_ref\": \"WCD10-B12-W201\", \"original_candidate_facts_count\": 3, \"corrected_candidate_facts_count\": 3, \"original_candidate_facts_sha256\": \"1400944eb9fd37e57f5f5d391be6f6da11c3f759748a68cb985f5aa193635bb5\", \"corrected_candidate_facts_sha256\": \"1400944eb9fd37e57f5f5d391be6f6da11c3f759748a68cb985f5aa193635bb5\", \"candidate_fact_ids\": [\"WCD10-B12-F202\", \"WCD10-B12-F203\", \"WCD10-B12-F204\"]}, {\"object_ref\": \"WCD10-B12-W202\", \"original_candidate_facts_count\": 4, \"corrected_candidate_facts_count\": 4, \"original_candidate_facts_sha256\": \"4362d31823447d534b986fb394e742d416f56f10de50bfe92db8b517233d20d4\", \"corrected_candidate_facts_sha256\": \"4362d31823447d534b986fb394e742d416f56f10de50bfe92db8b517233d20d4\", \"candidate_fact_ids\": [\"WCD10-B12-F205\", \"WCD10-B12-F206\", \"WCD10-B12-F207\", \"WCD10-B12-F208\"]}, {\"object_ref\": \"WCD10-B12-W203\", \"original_candidate_facts_count\": 4, \"corrected_candidate_facts_count\": 4, \"original_candidate_facts_sha256\": \"921b9a0d8d95cab845a3c8f082f48188b9c2d357a90a106f1ae8e63381e4b047\", \"corrected_candidate_facts_sha256\": \"921b9a0d8d95cab845a3c8f082f48188b9c2d357a90a106f1ae8e63381e4b047\", \"candidate_fact_ids\": [\"WCD10-B12-F209\", \"WCD10-B12-F210\", \"WCD10-B12-F211\", \"WCD10-B12-F212\"]}, {\"object_ref\": \"WCD10-B12-W204\", \"original_candidate_facts_count\": 4, \"corrected_candidate_facts_count\": 4, \"original_candidate_facts_sha256\": \"e0565faf620a6ec905c3a705c982516ae888b0f90c0b254b515e6235bb89de37\", \"corrected_candidate_facts_sha256\": \"e0565faf620a6ec905c3a705c982516ae888b0f90c0b254b515e6235bb89de37\", \"candidate_fact_ids\": [\"WCD10-B12-F213\", \"WCD10-B12-F214\", \"WCD10-B12-F215\", \"WCD10-B12-F216\"]}, {\"object_ref\": \"WCD10-B12-W205\", \"original_candidate_facts_count\": 4, \"corrected_candidate_facts_count\": 4, \"original_candidate_facts_sha256\": \"773724104f1f5527cd44f49d64b136d80b51115e6163910db58ad0d6c3a3c1d9\", \"corrected_candidate_facts_sha256\": \"773724104f1f5527cd44f49d64b136d80b51115e6163910db58ad0d6c3a3c1d9\", \"candidate_fact_ids\": [\"WCD10-B12-F217\", \"WCD10-B12-F218\", \"WCD10-B12-F219\", \"WCD10-B12-F220\"]}, {\"object_ref\": \"WCD10-B12-W206\", \"original_candidate_facts_count\": 3, \"corrected_candidate_facts_count\": 3, \"original_candidate_facts_sha256\": \"c9b1ac15576fffb9172ac349a28097965ad1684f475814283ebda25f3f44289a\", \"corrected_candidate_facts_sha256\": \"c9b1ac15576fffb9172ac349a28097965ad1684f475814283ebda25f3f44289a\", \"candidate_fact_ids\": [\"WCD10-B12-F221\", \"WCD10-B12-F222\", \"WCD10-B12-F223\"]}, {\"object_ref\": \"WCD10-B12-W207\", \"original_candidate_facts_count\": 4, \"corrected_candidate_facts_count\": 4, \"original_candidate_facts_sha256\": \"c83701e62a69f53efac65a71f0d647bead9756ef23ee8c689e34ce2ce529d75b\", \"corrected_candidate_facts_sha256\": \"c83701e62a69f53efac65a71f0d647bead9756ef23ee8c689e34ce2ce529d75b\", \"candidate_fact_ids\": [\"WCD10-B12-F224\", \"WCD10-B12-F225\", \"WCD10-B12-F226\", \"WCD10-B12-F227\"]}, {\"object_ref\": \"WCD10-B12-W208\", \"original_candidate_facts_count\": 3, \"corrected_candidate_facts_count\": 3, \"original_candidate_facts_sha256\": \"7b50c0f19b027b9f7669bdc88bbba3c2dead78a7bf91afa6735372d7c13989e2\", \"corrected_candidate_facts_sha256\": \"7b50c0f19b027b9f7669bdc88bbba3c2dead78a7bf91afa6735372d7c13989e2\", \"candidate_fact_ids\": [\"WCD10-B12-F228\", \"WCD10-B12-F229\", \"WCD10-B12-F230\"]}, {\"object_ref\": \"WCD10-B12-W209\", \"original_candidate_facts_count\": 3, \"corrected_candidate_facts_count\": 3, \"original_candidate_facts_sha256\": \"37a8a60d2d5f08ba386b2513dc3454ae38a55d600789253e9a768b7cec3faacd\", \"corrected_candidate_facts_sha256\": \"37a8a60d2d5f08ba386b2513dc3454ae38a55d600789253e9a768b7cec3faacd\", \"candidate_fact_ids\": [\"WCD10-B12-F231\", \"WCD10-B12-F232\", \"WCD10-B12-F233\"]}, {\"object_ref\": \"WCD10-B12-W210\", \"original_candidate_facts_count\": 4, \"corrected_candidate_facts_count\": 4, \"original_candidate_facts_sha256\": \"59551cf36884f68f45f13b9e97c62f8340be53612162cc53f6e8a9935d453554\", \"corrected_candidate_facts_sha256\": \"59551cf36884f68f45f13b9e97c62f8340be53612162cc53f6e8a9935d453554\", \"candidate_fact_ids\": [\"WCD10-B12-F234\", \"WCD10-B12-F235\", \"WCD10-B12-F236\", \"WCD10-B12-F237\"]}, {\"object_ref\": \"WCD10-B12-W211\", \"original_candidate_facts_count\": 4, \"corrected_candidate_facts_count\": 4, \"original_candidate_facts_sha256\": \"c470b67afc7bd010972062f12cb8051e6ac5005562b6702c3c1d63233f03a891\", \"corrected_candidate_facts_sha256\": \"c470b67afc7bd010972062f12cb8051e6ac5005562b6702c3c1d63233f03a891\", \"candidate_fact_ids\": [\"WCD10-B12-F238\", \"WCD10-B12-F239\", \"WCD10-B12-F240\", \"WCD10-B12-F241\"]}, {\"object_ref\": \"WCD10-B12-W212\", \"original_candidate_facts_count\": 4, \"corrected_candidate_facts_count\": 4, \"original_candidate_facts_sha256\": \"77fdeb9a1a2bd90dd6d839318f03fa2b59eaf8ed15d9f6b936242c127b4cbb0c\", \"corrected_candidate_facts_sha256\": \"77fdeb9a1a2bd90dd6d839318f03fa2b59eaf8ed15d9f6b936242c127b4cbb0c\", \"candidate_fact_ids\": [\"WCD10-B12-F242\", \"WCD10-B12-F243\", \"WCD10-B12-F244\", \"WCD10-B12-F245\"]}, {\"object_ref\": \"WCD10-B12-W213\", \"original_candidate_facts_count\": 4, \"corrected_candidate_facts_count\": 4, \"original_candidate_facts_sha256\": \"08d1d88e0cf76ecc9f04598db7a34387c588df9a632da351bcc04f355363bfc3\", \"corrected_candidate_facts_sha256\": \"08d1d88e0cf76ecc9f04598db7a34387c588df9a632da351bcc04f355363bfc3\", \"candidate_fact_ids\": [\"WCD10-B12-F246\", \"WCD10-B12-F247\", \"WCD10-B12-F248\", \"WCD10-B12-F249\"]}, {\"object_ref\": \"WCD10-B12-W214\", \"original_candidate_facts_count\": 4, \"corrected_candidate_facts_count\": 4, \"original_candidate_facts_sha256\": \"14b1c34339148f05463284eb4ab95c14f3fa1afa448ae6c3e8817eec3e5938f0\", \"corrected_candidate_facts_sha256\": \"14b1c34339148f05463284eb4ab95c14f3fa1afa448ae6c3e8817eec3e5938f0\", \"candidate_fact_ids\": [\"WCD10-B12-F250\", \"WCD10-B12-F251\", \"WCD10-B12-F252\", \"WCD10-B12-F253\"]}, {\"object_ref\": \"WCD10-B12-W215\", \"original_candidate_facts_count\": 4, \"corrected_candidate_facts_count\": 4, \"original_candidate_facts_sha256\": \"037489d263277cf0dcc9ccf3c16f79475aad91dffb0d609abba1063beef1cab6\", \"corrected_candidate_facts_sha256\": \"037489d263277cf0dcc9ccf3c16f79475aad91dffb0d609abba1063beef1cab6\", \"candidate_fact_ids\": [\"WCD10-B12-F254\", \"WCD10-B12-F255\", \"WCD10-B12-F256\", \"WCD10-B12-F257\"]}, {\"object_ref\": \"WCD10-B12-W216\", \"original_candidate_facts_count\": 4, \"corrected_candidate_facts_count\": 4, \"original_candidate_facts_sha256\": \"55296b4ae5b105368ad998cbbe4e1738962cec7d326463b44dee6c99e2311504\", \"corrected_candidate_facts_sha256\": \"55296b4ae5b105368ad998cbbe4e1738962cec7d326463b44dee6c99e2311504\", \"candidate_fact_ids\": [\"WCD10-B12-F258\", \"WCD10-B12-F259\", \"WCD10-B12-F260\", \"WCD10-B12-F261\"]}, {\"object_ref\": \"WCD10-B12-W218\", \"original_candidate_facts_count\": 4, \"corrected_candidate_facts_count\": 4, \"original_candidate_facts_sha256\": \"8551ba70812e4097916cabb820193badaf5eb2c079185f285a8b2aaab0a8d7e1\", \"corrected_candidate_facts_sha256\": \"8551ba70812e4097916cabb820193badaf5eb2c079185f285a8b2aaab0a8d7e1\", \"candidate_fact_ids\": [\"WCD10-B12-F266\", \"WCD10-B12-F267\", \"WCD10-B12-F268\", \"WCD10-B12-F269\"]}], \"non_coverage_candidate_matrix_profiles_access_dedup_hashes_unchanged\": true, \"final_non_provenance_hashes\": {\"CANDIDATES.json\": \"b9d2b605a1585946a5964a2d05ac537c023b3e6edebbd936652eb7deaa37e222\", \"COVERAGE.json\": \"9d29975aa57e27b6e2be6c0be8e29f36fea0e5481e76cb44994bde6d8b345b2e\", \"SOURCE_REGISTRATION.json\": \"1438fef918ceb73e7a708342f86d58a51459549476d2719e7bdee54f0179f268\", \"EVIDENCE_MATRIX.json\": \"76266aceea171ec6d00d2a92ebdecd35788aa523995807e521e815b281dfe7f0\", \"DEDUP.json\": \"9a1832c37e6af22fb76968360538f5e6c3958fadecc2ff73f0f247a825989419\", \"SOURCE_ACCESS_LOG.json\": \"584a787d9119c018564a80ca8d4d0d1b3bc7690c983427e5959d3851a1fbfbee\"}}\n",
+      "stderr": "",
+      "stdout_sha256": "c6996d6a957687d7e551b24992a3f6ffd66952a16f5bc9b4aa572d53edeeb245",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "script_sha256": "3214a4efe0df9ab4d843a5f5eb78287c5d6ec72b925a86e7438046a885285826"
+    }
+  },
+  "pre_correction_merged_artifact_sha256": {
+    "CANDIDATES.json": "b9d2b605a1585946a5964a2d05ac537c023b3e6edebbd936652eb7deaa37e222",
+    "COVERAGE.json": "07f87b5e7f66e51ce6a8ffce76bfc1a464f079bf581176aff07c5d53961db101",
+    "SOURCE_REGISTRATION.json": "1438fef918ceb73e7a708342f86d58a51459549476d2719e7bdee54f0179f268",
+    "EVIDENCE_MATRIX.json": "76266aceea171ec6d00d2a92ebdecd35788aa523995807e521e815b281dfe7f0",
+    "DEDUP.json": "9a1832c37e6af22fb76968360538f5e6c3958fadecc2ff73f0f247a825989419",
+    "SOURCE_ACCESS_LOG.json": "584a787d9119c018564a80ca8d4d0d1b3bc7690c983427e5959d3851a1fbfbee"
+  },
+  "mechanical_registration_root_fix": {
+    "authorized_by": "Codex-parent explicit MECHANICAL_REGISTRATION_ROOT_FIX message 2026-10-13",
+    "operation": "Added exactly six execution metadata fields to SOURCE_REGISTRATION.json root; profiles unchanged in value and order.",
+    "original_registration_path": "/Users/zyy/Documents/00剑桥颐华/法律cc/拉美文学地图/project/internal/WCD_10_WORKSPACE/B12/PREPARE_R0/SOURCE_REGISTRATION.json",
+    "original_registration_sha256": "1438fef918ceb73e7a708342f86d58a51459549476d2719e7bdee54f0179f268",
+    "final_registration_sha256": "bc8d33bb60cdd1797261ce93315f57b562e56f04bab9812497eb16c31b0522d1",
+    "exact_root_addition": {
+      "accessed_at": "2026-10-13",
+      "verified_by": "GPT-6 Luna isolated author producers; Codex-parent direct-source review; sole B12 Integrator mechanical merge",
+      "copyright_boundary": "Only sourced bibliographic metadata and bounded Chinese paraphrases; no substantial source text or image redistribution",
+      "public_content_scope": "B12 Research candidate metadata only; no public admission implied",
+      "local_asset_status": "remote_only",
+      "source_year_policy": "Source dates and work first-publication years are distinct; four unresolved first-year conflicts retain notes without atomic values; no year inferred in merge"
+    },
+    "profiles_count": 16,
+    "profiles_canonical_sha256_before": "9a5ccf409a1d7150a1fffb0e33b2f93d28264df0d2d10c1736e92025606825cc",
+    "profiles_canonical_sha256_after": "9a5ccf409a1d7150a1fffb0e33b2f93d28264df0d2d10c1736e92025606825cc",
+    "review_gate_unchanged_sha256": "ec53322f9b3722db4d33959f28dab1d895f9dd525722c1f70b84a28f6e9f4f10",
+    "baseline_database_unchanged_sha256": "7152ecc903ef7b610440a5173b0dd79d28ce25358b53ffa42512da6eb615db67",
+    "raw_command": "python3 (inline mechanical JSON root-field addition; no builder invocation)",
+    "performed_at_utc": "2026-10-13T04:40:31.488553+00:00"
+  }
+}

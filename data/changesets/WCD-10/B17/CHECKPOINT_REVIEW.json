@@ -1,0 +1,16 @@
+{
+  "task_id": "TASK-122",
+  "batch_id": "WCD-10-B17",
+  "baseline_database_sha256": "bf814eb0796ad27db76349a4f166ba3ca40be3df47f22373e6e094e34bdf632e",
+  "migration_name": "0052_wcd10_b17_author_works.sql",
+  "migration_sha256": "d61378ba90dae6645cf6c41448f16156a98c931606f70f3455b0ff1a55833360",
+  "mapping_sha256": "8d7d296dc3cbd8c96fe2d69e7d87229f3772d79970fbca1f2050a41d4c1f452e",
+  "reviewer": "Codex-parent-independent-review",
+  "reviewed_at": "2026-10-14",
+  "verdict": "PASS",
+  "review_scope": "Actual disposable clone0052 apply and independent audit of all19 old tables, sources/facts/cards/citation and CREATED roles; exact local Research master application only",
+  "sql_review_sha256": "1849be8d789e83be7a91489b55c63da6e4f86eecc555b006b767eb36c7fca736",
+  "candidate_review_sha256": "1e8ff2c95bd64a144ba443710901f26225630a98f3b8504cb64b72a3f3251cda",
+  "actual_parent_execution_sha256": "26a3c66c17e1c9e52dbe60a4cc2baeed9c33eae1f3d9bbc3b6748701bf342bee",
+  "mapping_path": "data/changesets/WCD-10/B17/INTEGRATION_MAP.json"
+}

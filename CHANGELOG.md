@@ -1,3 +1,11 @@
+## 2026-10-15 — PR #38 合并前 CI 与 Pages 部署边界验证（TASK-129）
+
+- 增加独立 WCD-10 Research Integrity CI：全新 checkout 运行全部 190 项 Python 回归、冻结 V1 基线 58 迁移/19 表完整重放、0058 精确差量和 JSON/CSV/XLSX 三格式逐值校验；显式安装固定依赖，失败均阻断 Job。
+- 修正 replay 验证器仅打印 SQLite 健康结果却未拒绝异常的问题，主库和重放库的 integrity/FK 异常均失败，并比较表列定义。复用原类型修正 QA，以文件 SHA 固定的 tracked 0057 导出支持 CI，不依赖 ignored SQLite；原漂移回滚、重复拒绝与基库 hash 门禁保留。
+- 对 base/head 分别构建固定时间和 origin 的两种实际产物：标准包 127 对象/139 路由/177 文件，Pages USER_REVIEW 开发预览 271 对象/288 路由/327 文件，各自全部字节相同。新增公开对象及研究内容泄露为 0；两种模式之间的既有路由差异不作为缺陷。
+- 新增 17 项失败拒绝与真实部署 canary 回归，覆盖已公开及仅预览可见作品的研究事实、卡片和关系；Pages 上传前运行同一数据/文件边界检查，PR 浏览器 CI 改测真实仓库子路径。桌面 30 项、手机 30 项产品浏览器检查通过；源数据和冻结材料保全。详见[预览边界](./docs/web/DEVELOPMENT_PREVIEW_BOUNDARY.md)及[合并前审计](./project/audits/web/PR38_PREMERGE_INTEGRITY.md)。
+- 治理：唯一持久 TASKS 已登记 TASK-129；DECISIONS、冻结 Charter/Spec 无新政策或范围变化。版本保持 Research 1.5.0 development、Schema 0.4、Web Data 0.3、Web 0.6.0；本次只补强验证，没有改变文学内容、公开范围或产品能力。USER_REVIEW 与 Pages 自动开发预览机制保留，Public Release 仍暂停，不执行合并、tag、release 或部署。
+
 ## 2026-10-15 — WCD-10最终审计与合集类型修正（TASK-127 / TASK-105）
 
 - 61位固定作者、21批内容扩充与W03/共同作者必要回补完成有边界终审；初审15个多文本容器的work类型经新0058迁移改为collection，并同步15卡的类型及显示。实体ID、年份、来源、事实、关系角色和691合理gap保全，旧候选/迁移/审计不改写。

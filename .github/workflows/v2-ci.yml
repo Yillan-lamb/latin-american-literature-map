@@ -11,6 +11,44 @@ permissions:
   contents: read
 
 jobs:
+  wcd10-research-integrity:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      # Historical fixtures use the pinned, tracked pre-WCD-10 Git database.
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          ref: ${{ github.event.pull_request.head.sha || github.sha }}
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+      - name: Install WCD-10 regression and export dependencies
+        run: python3 -m pip install -r requirements-wcd10-ci.txt
+      - name: Run the complete Python regression suite
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p artifacts
+          python3 -m unittest discover -s tests -v 2>&1 | tee artifacts/wcd10-python.log
+      - name: Replay all 58 migrations from the frozen V1 baseline
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 scripts/validate_migration_replay.py --expected-migrations 58 --expected-tables 19 | tee artifacts/wcd10-replay.json
+      - name: Verify 0058 scope, frozen exports and both deployment boundaries
+        run: python3 scripts/qa_wcd10_ci.py --output-dir artifacts/wcd10-integrity
+      - name: Upload verification results without research build intermediates
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: wcd10-research-integrity-${{ github.sha }}
+          if-no-files-found: error
+          path: |
+            artifacts/wcd10-python.log
+            artifacts/wcd10-replay.json
+            artifacts/wcd10-integrity/report.json
+
   development-baseline-integrity:
     runs-on: ubuntu-latest
     steps:
@@ -77,14 +115,22 @@ jobs:
         run: |
           npm ci
           npx playwright install --with-deps chromium
-      - name: Build local Web 0.x review preview
-        run: python3 scripts/build_v2_user_review_preview.py
-      - name: Run Chromium desktop and mobile map smoke
+      - name: Build the actual Pages development preview without deploying
         run: |
-          python3 -m http.server 4173 --directory artifacts/v2-rc5/user-review-preview > /tmp/web-pr-http.log 2>&1 &
+          python3 scripts/build_v2_user_review_preview.py
+          python3 scripts/build_v2_deploy_bundle.py \
+            --data artifacts/v2-rc5/user-review-preview-web/site_data.json \
+            --output artifacts/pages-ci/latin-american-literature-map \
+            --origin https://yillan-lamb.github.io/latin-american-literature-map/ \
+            --development-preview
+          touch artifacts/pages-ci/latin-american-literature-map/.nojekyll
+          python3 scripts/qa_wcd10_ci.py --bundle artifacts/pages-ci/latin-american-literature-map --web-data artifacts/v2-rc5/user-review-preview-web/site_data.json
+      - name: Run Chromium desktop and mobile against the Pages subpath
+        run: |
+          python3 -m http.server 4173 --directory artifacts/pages-ci > /tmp/web-pr-http.log 2>&1 &
           server_pid=$!
           trap 'kill "$server_pid"' EXIT
-          npm run qa:browser:chromium
+          V2_QA_BASE_URL=http://127.0.0.1:4173/latin-american-literature-map/ npm run qa:browser:chromium
 
   release-integrity:
     if: ${{ github.event_name == 'workflow_dispatch' }}

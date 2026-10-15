@@ -46,6 +46,7 @@ jobs:
         run: |
           python3 scripts/qa_v2_public_ui.py dist
           python3 scripts/validate_v2_public_bundle.py dist
+          python3 scripts/qa_wcd10_ci.py --bundle dist --web-data artifacts/v2-rc5/user-review-preview-web/site_data.json
           node --check dist/app.js
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3

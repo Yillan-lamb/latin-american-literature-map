@@ -15,6 +15,8 @@ from validate_master import validate_database
 ROOT = Path(__file__).resolve().parents[1]
 CANDIDATES = ROOT / 'data/changesets/WCD-10/TYPE_CORRECTION/CANDIDATES.json'
 MIGRATION = ROOT / 'data/master/migrations/0058_wcd10_collection_type_correction.sql'
+BASELINE_EXPORT = ROOT / 'data/exports/wcd10-final-reentry/data.json'
+BASELINE_EXPORT_SHA256 = '373a1fbc53ab963fd36dd506a67bc022c6414929965f35ee12312e0a5665a561'
 EXPECTED_IDS = {'V1-ENT-0460', 'V1-ENT-0465', 'V1-ENT-0489', 'V1-ENT-0494'} | {
     f'V1-ENT-{n:04d}' for n in range(573, 584)
 }
@@ -34,9 +36,25 @@ def verify_delta(before, after, candidate_path=CANDIDATES, migration=MIGRATION):
     candidate = json.loads(Path(candidate_path).read_text())
     if digest(before) != candidate['baseline_sha256']:
         raise ValueError('baseline hash drift')
+    return verify_snapshot_delta(snapshot(before), snapshot(after), candidate, migration)
+
+
+def verify_delta_from_export(after, baseline_export=BASELINE_EXPORT,
+                             candidate_path=CANDIDATES, migration=MIGRATION):
+    """Use the hash-pinned, tracked 0057 oracle when its SQLite copy is absent."""
+    if digest(baseline_export) != BASELINE_EXPORT_SHA256:
+        raise ValueError('frozen baseline export hash drift')
+    source = json.loads(Path(baseline_export).read_text(encoding='utf-8'))
+    candidate = json.loads(Path(candidate_path).read_text(encoding='utf-8'))
+    if source['metadata']['source_database_sha256'] != candidate['baseline_sha256']:
+        raise ValueError('baseline export database identity mismatch')
+    before = {t: (source['columns'][t], rows) for t, rows in source['tables'].items()}
+    return verify_snapshot_delta(before, snapshot(after), candidate, migration)
+
+
+def verify_snapshot_delta(a, b, candidate, migration):
     if {r['entity_before']['entity_id'] for r in candidate['rows']} != EXPECTED_IDS or len(candidate['rows']) != 15:
         raise ValueError('correction must bind exactly the independently reviewed15 objects')
-    a, b = snapshot(before), snapshot(after)
     if set(a) != set(b) or len(a) != 19:
         raise ValueError('table set changed')
     expected_entities = {}

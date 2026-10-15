@@ -49,17 +49,49 @@ def comparable_rows(connection: sqlite3.Connection, table: str) -> Counter[tuple
     return Counter(connection.execute(f"SELECT {selected} FROM {quoted(table)}").fetchall())
 
 
+def assert_database_health(connection: sqlite3.Connection, label: str) -> None:
+    integrity = connection.execute("PRAGMA integrity_check").fetchall()
+    if integrity != [("ok",)]:
+        raise ValueError(f"{label} integrity_check failed: {integrity}")
+    foreign_keys = connection.execute("PRAGMA foreign_key_check").fetchall()
+    if foreign_keys:
+        raise ValueError(f"{label} foreign_key_check failed: {foreign_keys}")
+
+
+def compare_databases(master: sqlite3.Connection, rebuilt: sqlite3.Connection,
+                      expected_tables: int | None = None) -> int:
+    """Compare schemas and row multisets; only log execution time may differ."""
+    assert_database_health(master, "master")
+    assert_database_health(rebuilt, "replay")
+    names = tables(master)
+    if names != tables(rebuilt):
+        raise ValueError("replayed database table set differs from master")
+    if expected_tables is not None and len(names) != expected_tables:
+        raise ValueError(f"expected {expected_tables} tables, found {len(names)}")
+    for table in names:
+        definition = f"PRAGMA table_info({quoted(table)})"
+        if master.execute(definition).fetchall() != rebuilt.execute(definition).fetchall():
+            raise ValueError(f"replayed table schema differs from master: {table}")
+        if comparable_rows(master, table) != comparable_rows(rebuilt, table):
+            raise ValueError(f"replayed table differs from master: {table}")
+    return len(names)
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--base", type=Path, default=DEFAULT_BASE)
     parser.add_argument("--master", type=Path, default=DEFAULT_MASTER)
     parser.add_argument("--migrations", type=Path, default=DEFAULT_MIGRATIONS)
+    parser.add_argument("--expected-migrations", type=int)
+    parser.add_argument("--expected-tables", type=int)
     args = parser.parse_args()
 
     if digest(args.base) != BASE_SHA256:
         raise ValueError("V1.0.0 replay base does not match the frozen baseline SHA-256")
 
     migration_files = sorted(args.migrations.glob("[0-9][0-9][0-9][0-9]_*.sql"))
+    if args.expected_migrations is not None and len(migration_files) != args.expected_migrations:
+        raise ValueError(f"expected {args.expected_migrations} migrations, found {len(migration_files)}")
     with sqlite3.connect(f"file:{args.master}?mode=ro", uri=True) as master:
         log = {
             migration_id: (task_id, reviewer, schema_version)
@@ -104,22 +136,18 @@ def main() -> int:
             sqlite3.connect(f"file:{args.master}?mode=ro", uri=True) as master,
             sqlite3.connect(f"file:{replay}?mode=ro", uri=True) as rebuilt,
         ):
-            master_tables = tables(master)
-            if master_tables != tables(rebuilt):
-                raise ValueError("replayed database table set differs from master")
-            for table in master_tables:
-                if comparable_rows(master, table) != comparable_rows(rebuilt, table):
-                    raise ValueError(f"replayed table differs from master: {table}")
-            integrity = rebuilt.execute("PRAGMA integrity_check").fetchone()[0]
-            foreign_key_errors = len(rebuilt.execute("PRAGMA foreign_key_check").fetchall())
+            table_count = compare_databases(master, rebuilt, args.expected_tables)
 
     print(json.dumps({
         "status": "PASS",
         "base_sha256": BASE_SHA256,
         "migrations_replayed": len(migration_files),
-        "tables_equal": len(master_tables),
-        "integrity_check": integrity,
-        "foreign_key_errors": foreign_key_errors,
+        "tables_equal": table_count,
+        "integrity_check": "ok",
+        "foreign_key_errors": 0,
+        "master_integrity_check": "ok",
+        "master_foreign_key_errors": 0,
+        "ignored_columns": ["migration_log.applied_at"],
     }, ensure_ascii=False, sort_keys=True))
     return 0
 

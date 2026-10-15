@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build a local-only rc.5 preview that exposes USER_REVIEW copy for inspection."""
+"""Build the existing USER_REVIEW projection for local inspection and Pages preview."""
 
 from __future__ import annotations
 

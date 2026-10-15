@@ -30,7 +30,7 @@
 
 ## 当前内容规模
 
-以下数字由本开发分支的当前 Research Database 与完整开发投影重新核验；WCD-10 TYPE_CORRECTION是未发布研究检查点，公开包仍与既有基线逐字节一致：
+以下数字对应 PR #38 合并后的 `main`（2026-10-15）。Research Database 的规模与网站展示范围分别统计；研究入库不自动获得网页公开准入：
 
 | 内容 | 数量 |
 | --- | ---: |
@@ -42,7 +42,7 @@
 | 研究缺口 | 691 |
 | Curation 登记的核心作者（不全公开） | 61 |
 | Curation 登记的作品 / 合集（不全公开） | 170 |
-| 已批准并投影的作家趣闻 | 82（覆盖 24 位公开作者） |
+| 标准公开包中的获批作家趣闻 | 82（覆盖 24 位作者） |
 
 数据库还包含地点、文学运动、事件、主题、人物、角色、改编与版本等实体。开发数据库的完整实体数与网页当前展示范围并不等同：网页只消费已进入相应公开或预览范围的数据。
 
@@ -74,10 +74,20 @@ Map / Timeline / Pages / Search
 项目已完成第一阶段研究数据库建设，目前处于持续扩充与数字展览开发阶段。
 
 - **正式 Research Data Release**：`Data V1.0.0`，保留为已发布的历史基线；
-- **当前 Development Data**：`Data 1.5.0 development candidate`。WCD-10已完成61位作者、21个批次和必要回补的有边界内容扩充，累计新增419个作品/合集、1659项事实和436条关系。终审15个合集类型问题通过0058修正；58迁移/19表重放、三格式导出、173项Python测试及公开边界验收通过。详见[最终全量审计](./data/changesets/WCD-10/FINAL_AUDIT/FINAL_AUDIT.md)与[61作者矩阵](./data/changesets/WCD-10/FINAL_AUDIT/AUTHOR_MATRIX.md)。合理研究缺口保留，研究内容尚未取得新增公开准入；
-- **当前 Research Schema**：`0.4`；**Web Data schema**：`v2-web-0.3`；
-- **当前 Web Development**：`Web 0.6.0 Development`，WCD-11 已将已批准的文学档案视觉系统接入正式全站，搜索覆盖完整公开索引、时间线支持类型与年代窗口组合筛选；WCD-09 的 Natural Earth 50m 底图、LAEA 投影、L1 背景 / L2 文学交互及地理中立性说明保持不变。TYPE_CORRECTION固定日期重建后177个公共文件与既有基线逐字节相同；仍为127个公开对象／139条路由，本次新增公开对象0；校验通过的manifest.json与site_data.json按字节复制至开发Web数据目录。WCD-08获批趣闻中82条投影到24位现有公开作者页；
-- **公开状态**：GitHub Pages 提供开发预览，正式 Public Release 仍暂停，预览不等同于正式研究数据发布。
+- **当前 Development Data**：`Data 1.5.0 development candidate`。WCD-10 已完成 61 位核心作者、21 个批次及必要回补，累计新增 419 个作品/合集、1659 项事实和 436 条关系；迁移 0058 修正了 15 个合集类型。合理研究缺口保留，新增研究内容仍为 Research-only。详见[最终全量审计](./data/changesets/WCD-10/FINAL_AUDIT/FINAL_AUDIT.md)与[61 作者矩阵](./data/changesets/WCD-10/FINAL_AUDIT/AUTHOR_MATRIX.md)。
+- **当前 Research Schema**：`0.4`；**Web Data schema**：`v2-web-0.3`。
+- **当前 Web Development**：`Web 0.6.0 Development`。WCD-11 的文学档案视觉系统、完整公开搜索索引和时间线组合筛选已集成；WCD-09 的 Natural Earth 50m 底图、LAEA 投影及地理中立性说明继续适用。
+- **验证状态**：完整 Python 回归为 193 项；CI 自动验证冻结基线的 58 条迁移、19 张表、SQLite 完整性与外键、三格式导出及 Research-only 隔离。研究终审时的 173 项是此前检查点数量；合并前工程补强及复现方式见[PR #38 完整性审计](./project/audits/web/PR38_PREMERGE_INTEGRITY.md)。
+- **公开状态**：GitHub Pages 自动部署开发预览，正式 Public Release 仍暂停。合并研究数据和部署开发预览均不等同于正式研究数据或产品发布。
+
+### 标准公开包与开发预览
+
+| 构建模式 | 可展示对象 | 路由 | PR #38 同模式 base/head 比较 |
+| --- | ---: | ---: | --- |
+| 标准公开包 | 127 | 139 | 177 个文件字节一致 |
+| GitHub Pages USER_REVIEW 开发预览 | 271 | 288 | 327 个实际部署文件字节一致 |
+
+开发预览包含 61 位作者及 170 部作品/合集。两种模式使用不同的策展输入；以上比较分别固定了构建时间与 origin。WCD-10 新增研究事实、卡片和关系在两种模式下均未增加网页公开内容。构建分层、临时审核状态处理与实际上传边界见[开发预览说明](./docs/web/DEVELOPMENT_PREVIEW_BOUNDARY.md)。
 
 详细变更见 [CHANGELOG](./CHANGELOG.md) 和 [版本文档](./docs/releases)。
 

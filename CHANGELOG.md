@@ -1,3 +1,10 @@
+## 2026-10-15 — PR #38 合并后文档同步（TASK-130）
+
+- PR #38 已合并至 `main`，合并提交为 `e7b38bd4bf7fd2c6e715197cdf5e9034c2b5a449`；合并后的 [main CI](https://github.com/Yillan-lamb/latin-american-literature-map/actions/runs/38705250323) 与 [Pages 开发预览部署](https://github.com/Yillan-lamb/latin-american-literature-map/actions/runs/38705250301) 均通过。
+- 更新根 README 与主库说明，区分研究终审的 173 项测试和补强后的 193 项完整回归；分别说明标准公开包 127 对象/139 路由与 Pages 开发预览 271 对象/288 路由，消除“本开发分支”和混用公开包统计的旧表述。
+- 修正 site README 对当前 Pages 自动开发预览流程的说明；版本文档入口明确当前 Development 版本与历史 RC 的区别。本地 TASKS/交接同步已合并状态，历史审计、历史日志和冻结章程保留。
+- 版本保持 Research Data 1.5.0 development、Research Schema 0.4、Web Data v2-web-0.3、Web Product 0.6.0 Development。依据现有 Development train 规则，本次只同步说明，不改变研究数据、策展准入、产品或发布状态；Public Release 继续暂停。
+
 ## 2026-10-15 — PR #38 CI 冻结 SQLite writer 复现修复（TASK-129）
 
 - 第一次远端 Research Integrity 正确阻断历史 fixture 字节 SHA 差异；Ubuntu SQLite 3.45.1/secure_delete1 的两个失败 hash 已在本地精确重现，19 表逻辑内容仍完全相同。原 Pages 浏览器和基线检查均 PASS，失败原流保留。
